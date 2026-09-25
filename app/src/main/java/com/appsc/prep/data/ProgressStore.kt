@@ -22,6 +22,11 @@ class ProgressStore(context: Context) {
         private set
     var lastRead by mutableStateOf(prefs.getString(KEY_LAST, null))
         private set
+    /** PYQ answers: question id -> answered correctly (latest attempt). */
+    var answers by mutableStateOf(
+        prefs.getStringSet(KEY_ANSWERS, emptySet())!!.associate { it.substringBefore(':') to it.endsWith(":1") },
+    )
+        private set
     var textScale by mutableFloatStateOf(prefs.getFloat(KEY_SCALE, 1f))
         private set
 
@@ -38,6 +43,24 @@ class ProgressStore(context: Context) {
 
     fun doneCount(book: Int, row: Int, total: Int): Int =
         (0 until total).count { subsectionId(book, row, it) in done }
+
+    fun recordAnswer(questionId: String, correct: Boolean) {
+        answers = answers + (questionId to correct)
+        prefs.edit().putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet()).apply()
+        markActive()
+    }
+
+    /** (attempted, correct) among the given questions. */
+    fun quizStats(ids: List<String>): Pair<Int, Int> {
+        var attempted = 0
+        var correct = 0
+        for (id in ids) {
+            val a = answers[id] ?: continue
+            attempted++
+            if (a) correct++
+        }
+        return attempted to correct
+    }
 
     fun isSaved(id: String) = saved.any { it.id == id }
 
@@ -87,5 +110,6 @@ class ProgressStore(context: Context) {
         const val KEY_DATES = "dates"
         const val KEY_LAST = "last"
         const val KEY_SCALE = "scale"
+        const val KEY_ANSWERS = "answers"
     }
 }

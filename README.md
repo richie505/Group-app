@@ -5,6 +5,9 @@ and the Restructured 90-Day Plan.
 
 **Structure:** Day → Topic (UNIT) → Section (syllabus row) → Subsection (■ heading) → content.
 
+After each section: **PYQ practice** in sets of 10, with instant answers, explanations (CDI),
+net score with 1/3 negative marking, and "retry wrong answers".
+
 Tabs: **Today** (today's targets) · **Plan** (all 90 days + buffer) · **Notes** (browse all 6 books)
 · **Progress** · **Saved** (bookmarks).
 
@@ -16,7 +19,13 @@ The app data in `app/src/main/assets/` is generated from the PDFs:
 pip install pymupdf
 python3 tools/parse_notes.py <pdf_dir> app/src/main/assets        # book1.pdf .. book6.pdf
 python3 tools/parse_plan.py <pdf_dir>/plan.pdf app/src/main/assets app/src/main/assets/plan.json
+pip install python-docx
+python3 tools/build_mcq.py <mcq_dir> app/src/main/assets   # PYQ Bank .docx files + CDI AP History PDF
 ```
+
+PYQs are attached to sections through the row codes in the PYQ Bank headings. CDI AP History
+questions add their explanation to the matching bank question, or are filed under the closest
+History & Culture section when the bank does not have them.
 
 ## Building
 

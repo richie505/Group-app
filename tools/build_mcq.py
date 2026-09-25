@@ -1,0 +1,422 @@
+#!/usr/bin/env python3
+"""Build the app's MCQ files from the PYQ Bank (Syllabus-Ordered) .docx files and the
+CDI "AP History Group 2 PYQs 2025-2000 With Explanations" PDF.
+
+Questions are attached to notes rows (Sections) through the row codes in the bank headings
+(B-1, M1-B-2, S3-10 ...). CDI questions are matched to the same question in the bank (and
+add their explanation to it); CDI questions not in the bank are filed under the closest
+History & Culture row by text similarity.
+
+Usage: python3 tools/build_mcq.py <mcq_src_dir> <assets_dir>
+Writes <assets_dir>/mcq1.json .. mcq6.json and prints a summary.
+"""
+import hashlib
+import json
+import math
+import re
+import sys
+from collections import Counter, defaultdict
+from pathlib import Path
+
+import docx
+import pymupdf
+from docx.table import Table
+from docx.text.paragraph import Paragraph
+
+HEAD_RE = re.compile(r"^([A-Z][A-Z0-9]*(?:-[A-Z0-9]+)*-\d+)\s+(.*?)(?:\s+\(\d+\))?\s*(?:—\s*NO PYQ)?$")
+QSTART_RE = re.compile(r"^(\d+)\.\s+(.*)")
+OPT_RE = re.compile(r"^\((\d)\)\s*(.*)")
+ANS_RE = re.compile(r"^ANS\.\s*(?:\((\d)\))?\s*(.*)")
+
+
+def norm(text):
+    t = text.lower()
+    t = re.sub(r"[^a-z0-9 ]+", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def qid(stem, options):
+    key = norm(stem)[:300] + "|" + "|".join(norm(o)[:60] for o in options)
+    return hashlib.sha1(key.encode()).hexdigest()[:12]
+
+
+# ---------------------------------------------------------------- PYQ bank (.docx)
+
+def parse_bank_file(path):
+    d = docx.Document(path)
+    out = []
+    code = None
+    unit = None
+    q = None
+    state = None  # stem / opts / ans
+
+    def finish():
+        nonlocal q
+        if q and q["o"] and q.get("a") is not None:
+            out.append(q)
+        q = None
+
+    for el in d.element.body.iterchildren():
+        if el.tag.endswith("}tbl"):
+            if q is not None and state == "stem":
+                t = Table(el, d)
+                rows = []
+                for r in t.rows:
+                    cells = []
+                    for c in r.cells:
+                        txt = re.sub(r"\s+", " ", c.text).strip()
+                        if not cells or cells[-1] != txt:  # merged cells repeat
+                            cells.append(txt)
+                    if any(cells):
+                        rows.append(cells)
+                if rows:
+                    q["t"] = rows
+            continue
+        if not el.tag.endswith("}p"):
+            continue
+        p = Paragraph(el, d)
+        text = re.sub(r"\s+", " ", p.text).strip()
+        if not text:
+            continue
+        style = p.style.name if p.style is not None else ""
+        bold = any(r.bold for r in p.runs if r.text.strip())
+
+        if style.startswith("Heading 2"):
+            finish()
+            unit = text
+            code = None
+            continue
+        if style.startswith("Heading 3"):
+            finish()
+            m = HEAD_RE.match(text)
+            code = m.group(1) if m else ("GENERAL" if text.startswith("General") else None)
+            continue
+        if code is None:
+            continue
+
+        m = QSTART_RE.match(text)
+        if m and bold and state in (None, "src", "ans"):
+            finish()
+            q = {"code": code, "unit": unit, "s": m.group(2), "o": [], "a": None, "src": ""}
+            state = "stem"
+            continue
+        if q is None:
+            continue
+        m = OPT_RE.match(text)
+        if m and state in ("stem", "opts") and not bold:
+            q["o"].append(m.group(2))
+            state = "opts"
+            continue
+        m = ANS_RE.match(text)
+        if m and state in ("stem", "opts"):
+            if m.group(1):
+                idx = int(m.group(1)) - 1
+                q["a"] = idx if 0 <= idx < len(q["o"]) else None
+            state = "ans"
+            continue
+        if state == "ans":
+            q["src"] = text
+            state = "src"
+            finish()
+            continue
+        if state == "stem":
+            q["s"] += "\n" + text
+    finish()
+    return out
+
+
+def clean_source(src):
+    """'Group 2 · 2025  answer not from APPSC key' -> ('Group 2 · 2025', appsc?)"""
+    parts = re.split(r"\s{2,}", src)
+    label = parts[0].strip()
+    flags = " ".join(parts[1:])
+    appsc = not any(k in flags for k in ("State PSC", "UPSC"))
+    return label, appsc
+
+
+# ---------------------------------------------------------------- CDI PDF
+
+def parse_cdi(path):
+    doc = pymupdf.open(path)
+    lines = []
+    for p in doc:
+        for b in p.get_text("blocks", sort=False):
+            for ln in b[4].split("\n"):
+                t = ln.strip()
+                if not t or t.startswith("WWW.CARPEDIEMIAS") or "AP HISTORY GROUP II PYQS" in t or re.fullmatch(r"\d+", t):
+                    continue
+                lines.append(t)
+    text = " ".join(lines)
+    text = re.sub(r"\s+", " ", text)
+    # exam headers
+    exam_re = re.compile(r"(APPSC GROUP 2(?: MAINS| PRELIMS)?(?: \d{4})? (?:Held on: [\d.\-A-Za-z ]+?\d{4}|Exam Year: \d{4}))")
+    chunks = exam_re.split(text)
+    qs = []
+    exam = ""
+    for ch in chunks:
+        if exam_re.fullmatch(ch or ""):
+            yr = re.findall(r"(\d{4})", ch)
+            exam = f"APPSC Group 2 · {yr[-1]}" if yr else "APPSC Group 2"
+            continue
+        if not exam:
+            continue
+        for part in re.split(r"(?=\bQ\d+\.\s)", ch):
+            m = re.match(r"Q(\d+)\.\s+(.*)", part)
+            if not m:
+                continue
+            body = m.group(2)
+            ans_m = re.search(r"\bAnswer:\s*", body)
+            if not ans_m:
+                continue
+            qpart, rest = body[: ans_m.start()], body[ans_m.end():]
+            # options: (1) .. (4)  or  1. .. 4.
+            opt_m = list(re.finditer(r"(?:^|\s)\(([1-4])\)\s", qpart))
+            if len(opt_m) < 4:
+                opt_m = list(re.finditer(r"(?:^|\s)([1-4])\.\s", qpart))
+                # take the last run of 1..4
+                seq = []
+                for o in opt_m:
+                    if o.group(1) == "1":
+                        seq = [o]
+                    elif seq and int(o.group(1)) == len(seq) + 1:
+                        seq.append(o)
+                opt_m = seq if len(seq) == 4 else []
+            else:
+                opt_m = opt_m[-4:] if [o.group(1) for o in opt_m[-4:]] == ["1", "2", "3", "4"] else []
+            if len(opt_m) != 4:
+                continue
+            stem = qpart[: opt_m[0].start()].strip()
+            opts = []
+            for i, o in enumerate(opt_m):
+                end = opt_m[i + 1].start() if i < 3 else len(qpart)
+                opts.append(qpart[o.end():end].strip())
+            am = re.match(r"\(?([1-4])\)?", rest.strip())
+            if not am:
+                continue
+            answer = int(am.group(1)) - 1
+            expl, note = "", ""
+            em = re.search(r"Explanation:\s*(.*?)(?:Exam Note:\s*(.*))?$", rest)
+            if em:
+                expl = (em.group(1) or "").strip()
+                note = (em.group(2) or "").strip()
+            qs.append({"s": stem, "o": opts, "a": answer, "src": exam, "x": expl, "n": note})
+    return qs
+
+
+def tidy_expl(text):
+    text = re.sub(r"\s+", " ", text).strip()
+    # paragraph breaks before "Option (n)", "Statement", "Hence", "Therefore"
+    text = re.sub(r"\s(?=(Option \(\d\)|Assertion \(A\):|Reason \(R\):|Statement \(?[A-Z12]\)?:|Hence,|Therefore,|Thus,))", "\n", text)
+    return text
+
+
+def tidy_note(text):
+    items = [re.sub(r"\s+", " ", t).strip(" •") for t in text.split("•")]
+    return [t for t in items if t]
+
+
+# ---------------------------------------------------------------- similarity
+
+def tokens(text):
+    stop = {"the", "of", "and", "in", "a", "to", "is", "which", "following", "was", "by", "for", "with",
+            "on", "as", "an", "are", "were", "it", "its", "that", "this", "from", "at", "be", "who", "what",
+            "correct", "statements", "statement", "given", "below", "select", "answer", "using", "codes",
+            "code", "incorrect", "not", "one", "only", "both", "neither", "nor", "true", "false", "his", "her"}
+    return [w for w in norm(text).split() if len(w) > 2 and w not in stop and not w.isdigit()]
+
+
+class Tfidf:
+    def __init__(self, docs):
+        self.df = Counter()
+        for d in docs:
+            self.df.update(set(d))
+        self.n = len(docs)
+        self.vecs = [self.vec(d) for d in docs]
+
+    def vec(self, toks):
+        tf = Counter(toks)
+        v = {w: (1 + math.log(c)) * math.log(1 + self.n / (1 + self.df.get(w, 0))) for w, c in tf.items()}
+        norm_ = math.sqrt(sum(x * x for x in v.values())) or 1
+        return {w: x / norm_ for w, x in v.items()}
+
+    def best(self, toks):
+        v = self.vec(toks)
+        scores = [(sum(v.get(w, 0) * x for w, x in dv.items()), i) for i, dv in enumerate(self.vecs)]
+        return max(scores)
+
+
+# ---------------------------------------------------------------- main
+
+def main():
+    src, assets = Path(sys.argv[1]), Path(sys.argv[2])
+
+    # notes rows: code -> [(book, row)], unit code -> (book, unit)
+    code_rows = defaultdict(list)
+    unit_of = {}
+    books = {}
+    for n in range(1, 7):
+        b = json.loads((assets / f"book{n}.json").read_text())
+        books[n] = b
+        seq = 0
+        for ui, u in enumerate(b["units"]):
+            if u["code"]:
+                unit_of[u["code"]] = (n, ui)
+            for r in u["rows"]:
+                for c in r["codes"]:
+                    code_rows[c].append((n, seq))
+                seq += 1
+
+    per_row = defaultdict(dict)   # (book,row) -> {qid: q}
+    per_unit = defaultdict(dict)  # (book,unit) -> {qid: q}
+    all_q = {}
+    stats = Counter()
+
+    for f in sorted(src.glob("*.docx")):
+        cache = f.with_suffix(".parsed.json")
+        if cache.exists() and cache.stat().st_mtime > f.stat().st_mtime:
+            qs = json.loads(cache.read_text())
+        else:
+            qs = parse_bank_file(f)
+            cache.write_text(json.dumps(qs, ensure_ascii=False))
+        stats["bank_parsed"] += len(qs)
+        for q in qs:
+            label, appsc = clean_source(q["src"])
+            item = {"s": q["s"], "o": q["o"], "a": q["a"], "src": label}
+            if appsc:
+                item["ap"] = 1
+            if "t" in q:
+                item["t"] = q["t"]
+            i = qid(q["s"], q["o"])
+            item["id"] = i
+            all_q.setdefault(i, item)
+            item = all_q[i]
+            if q["code"] == "GENERAL":
+                m = re.match(r"UNIT\s+(\S+)", q["unit"] or "")
+                if m and m.group(1) in unit_of:
+                    per_unit[unit_of[m.group(1)]][i] = item
+                    stats["general_to_unit"] += 1
+                else:
+                    stats["general_dropped"] += 1
+                continue
+            targets = code_rows.get(q["code"])
+            if not targets:
+                stats["unmapped_code"] += 1
+                continue
+            for t in targets:
+                per_row[t][i] = item
+            stats["mapped"] += 1
+
+    # ---- CDI: merge explanations into bank questions, file the rest by similarity
+    cdi_path = next(src.glob("*Cdi*AP-History*.pdf"), None)
+    if cdi_path:
+        cdi = parse_cdi(cdi_path)
+        stats["cdi_parsed"] = len(cdi)
+        by_norm = {}
+        for i, q in all_q.items():
+            by_norm.setdefault(norm(q["s"])[:120], i)
+        # fuzzy: token sets of APPSC bank questions, looked up through an inverted index
+        qtok = {i: set(tokens(q["s"] + " " + " ".join(q["o"]))) for i, q in all_q.items() if q.get("ap")}
+        inv = defaultdict(set)
+        for i, ts in qtok.items():
+            for w in ts:
+                inv[w].add(i)
+
+        def trigrams(t):
+            t = norm(t)
+            return {t[k:k + 3] for k in range(len(t) - 2)}
+
+        def jac(a, b):
+            return len(a & b) / max(1, len(a | b))
+
+        # same Group 2 paper (year) in the bank: compare stem trigrams + option words
+        by_year = defaultdict(list)
+        for i, q in all_q.items():
+            m = re.match(r"Group 2 · (\d{4})", q["src"])
+            if m:
+                by_year[m.group(1)].append((trigrams(q["s"]), set(tokens(" ".join(q["o"]))), i))
+
+        def same_paper(c):
+            st, ot = trigrams(c["s"]), set(tokens(" ".join(c["o"])))
+            best, best_i = 0.0, None
+            for bs, bo, i in by_year.get(c["src"][-4:], []):
+                sc = 0.5 * jac(st, bs) + 0.5 * jac(ot, bo)
+                if sc > best:
+                    best, best_i = sc, i
+            return best_i if best >= 0.4 else None
+
+        def fuzzy(c):
+            ts = set(tokens(c["s"] + " " + " ".join(c["o"])))
+            if len(ts) < 3:
+                return None
+            cand = Counter()
+            for w in ts:
+                if len(inv[w]) < 400:
+                    cand.update(inv[w])
+            best, best_i = 0.0, None
+            for i, _ in cand.most_common(30):
+                j = len(ts & qtok[i]) / len(ts | qtok[i])
+                if j > best:
+                    best, best_i = j, i
+            return best_i if best >= 0.6 else None
+        # candidate rows for AP history: book 1 rows
+        b1_rows = []
+        for ui, u in enumerate(books[1]["units"]):
+            for r in u["rows"]:
+                text = r["title"] + " " + " ".join(s["t"] for s in r["secs"])
+                body = []
+                for s in r["secs"]:
+                    for bl in s["b"]:
+                        x = bl.get("x")
+                        if isinstance(x, str):
+                            body.append(x)
+                        elif isinstance(x, list):
+                            body.append("".join(t for t, _ in x))
+                b1_rows.append(tokens(text * 3) + tokens(" ".join(body))[:4000])
+        tf = Tfidf(b1_rows)
+        row_of_q = defaultdict(set)
+        for key, qd in per_row.items():
+            for i in qd:
+                row_of_q[i].add(key)
+        for c in cdi:
+            i = by_norm.get(norm(c["s"])[:120]) or same_paper(c) or fuzzy(c)
+            expl = tidy_expl(c["x"])
+            note = tidy_note(c["n"])
+            if i and i in all_q:
+                all_q[i]["x"] = expl
+                if note:
+                    all_q[i]["n"] = note
+                stats["cdi_matched_bank"] += 1
+                if i in row_of_q:
+                    continue
+            item = {"s": c["s"], "o": c["o"], "a": c["a"], "src": c["src"], "ap": 1, "x": expl}
+            if note:
+                item["n"] = note
+            item["id"] = i or qid(c["s"], c["o"])
+            score, ri = tf.best(tokens(c["s"] + " " + " ".join(c["o"]) + " " + " ".join(note)))
+            per_row[(1, ri)][item["id"]] = item
+            stats["cdi_added_by_similarity"] += 1
+
+    # ---- write one file per book: rows -> questions, units -> general questions
+    for n in range(1, 7):
+        rows = {str(r): list(qd.values()) for (bk, r), qd in sorted(per_row.items()) if bk == n}
+        units = {str(u): list(qd.values()) for (bk, u), qd in sorted(per_unit.items()) if bk == n}
+        # APPSC questions first, then the rest
+        for d in (rows, units):
+            for k in d:
+                d[k].sort(key=lambda q: (0 if q.get("ap") else 1))
+        (assets / f"mcq{n}.json").write_text(
+            json.dumps({"rows": rows, "units": units}, ensure_ascii=False, separators=(",", ":")))
+        print(f"mcq{n}: rows={len(rows)} q_in_rows={sum(len(v) for v in rows.values())} "
+              f"unit_general={sum(len(v) for v in units.values())}")
+    print(dict(stats), "unique", len(all_q))
+    index_path = assets / "index.json"
+    index = json.loads(index_path.read_text())
+    for b in index["books"]:
+        for ri, r in enumerate(b["rows"]):
+            r["q"] = len(per_row.get((b["id"], ri), {}))
+        b["uq"] = {str(u): len(qd) for (bk, u), qd in per_unit.items() if bk == b["id"]}
+    index_path.write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")))
+
+
+if __name__ == "__main__":
+    main()

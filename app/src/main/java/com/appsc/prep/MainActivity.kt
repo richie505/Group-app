@@ -51,6 +51,8 @@ import com.appsc.prep.ui.screens.DayScreen
 import com.appsc.prep.ui.screens.Nav
 import com.appsc.prep.ui.screens.PlanScreen
 import com.appsc.prep.ui.screens.ProgressScreen
+import com.appsc.prep.ui.screens.QuizScreen
+import com.appsc.prep.ui.screens.QuizSource
 import com.appsc.prep.ui.screens.ReaderScreen
 import com.appsc.prep.ui.screens.SavedScreen
 import com.appsc.prep.ui.screens.SectionScreen
@@ -82,6 +84,7 @@ private val tabs = listOf(
 )
 
 private class NavImpl(private val nav: NavHostController) : Nav {
+    override fun quiz(kind: String, book: Int, index: Int, mode: String) = nav.navigate("quiz/$kind/$book/$index/$mode")
     override fun day(n: Int) = nav.navigate("day/$n")
     override fun row(book: Int, row: Int) = nav.navigate("row/$book/$row")
     override fun read(book: Int, row: Int, sec: Int) = nav.navigate("read/$book/$row/$sec")
@@ -113,6 +116,23 @@ private fun AppRoot() {
                 composable("books") { BooksScreen(actions) }
                 composable("progress") { ProgressScreen(actions) }
                 composable("saved") { SavedScreen(actions) }
+                composable(
+                    "quiz/{k}/{b}/{i}/{m}",
+                    listOf(
+                        navArgument("k") { type = NavType.StringType },
+                        navArgument("b") { type = NavType.IntType },
+                        navArgument("i") { type = NavType.IntType },
+                        navArgument("m") { type = NavType.StringType },
+                    ),
+                ) {
+                    val a = it.arguments!!
+                    val src = QuizSource(a.getString("k")!!, a.getInt("b"), a.getInt("i"))
+                    val title = when (src.kind) {
+                        "day" -> "Day ${src.index} PYQs"
+                        else -> "PYQ Practice"
+                    }
+                    QuizScreen(src, a.getString("m")!!, title, actions)
+                }
                 composable("day/{n}", listOf(navArgument("n") { type = NavType.IntType })) {
                     DayScreen(it.arguments!!.getInt("n"), actions)
                 }

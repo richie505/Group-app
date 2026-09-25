@@ -52,6 +52,7 @@ import com.appsc.prep.data.PlanDay
 import com.appsc.prep.data.PlanRow
 import com.appsc.prep.ui.components.Card
 import com.appsc.prep.ui.components.LocalApp
+import com.appsc.prep.ui.components.PracticeCard
 import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.SectionHeader
 import com.appsc.prep.ui.components.SectionItem
@@ -63,6 +64,7 @@ import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit
 
 interface Nav {
+    fun quiz(kind: String, book: Int, index: Int, mode: String = "new")
     fun day(n: Int)
     fun row(book: Int, row: Int)
     fun read(book: Int, row: Int, sec: Int)
@@ -250,6 +252,9 @@ fun LazyListScope.dayBody(day: PlanDay, nav: Nav, showBrief: Boolean) {
             }
         }
     }
+    if (day.rows.isNotEmpty()) {
+        item(key = "pyq-${day.n}") { DayPracticeCard(day, nav) }
+    }
     if (day.tasks.isNotEmpty()) {
         item(key = "sched-${day.n}") { ScheduleCard(day) }
     }
@@ -300,6 +305,20 @@ private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, na
             }
         }
     }
+}
+
+@Composable
+private fun DayPracticeCard(day: PlanDay, nav: Nav) {
+    val app = LocalApp.current
+    val total = day.rows.sumOf { app.repo.rowInfo(it.book, it.row)?.questionCount ?: 0 }
+    if (total == 0) return
+    SectionHeader("PYQ practice")
+    PracticeCard(
+        title = "Today's PYQs",
+        subtitle = "$total questions on today's sections",
+        attempted = null,
+        onStart = { nav.quiz("day", 0, day.n) },
+    )
 }
 
 @Composable

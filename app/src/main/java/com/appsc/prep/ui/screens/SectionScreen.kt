@@ -34,6 +34,7 @@ import com.appsc.prep.data.subsectionId
 import com.appsc.prep.ui.components.DoneIcon
 import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.LocalApp
+import com.appsc.prep.ui.components.PracticeCard
 import com.appsc.prep.ui.components.PriorityTag
 import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.SectionHeader
@@ -56,6 +57,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
     val app = LocalApp.current
     val info = app.repo.rowInfo(bookId, rowIndex)
     val book = rememberBook(bookId)
+    androidx.compose.runtime.LaunchedEffect(bookId) { app.repo.mcq(bookId) }
     Column(Modifier.fillMaxSize()) {
         TopBar(app.repo.index.getOrNull(bookId - 1)?.short ?: "Section", onBack = nav::back)
         if (book == null) {
@@ -163,6 +165,20 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                     DoneIcon(app.store.isDone(id))
                 }
                 HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 50.dp))
+            }
+            if ((info?.questionCount ?: 0) > 0) {
+                item {
+                    SectionHeader("Practice after reading")
+                    val ids = app.repo.cachedMcq(bookId)?.rows?.get(rowIndex)?.map { it.id }
+                    val stats = ids?.let { app.store.quizStats(it) }
+                    PracticeCard(
+                        title = "Section PYQs",
+                        subtitle = "${info!!.questionCount} questions · sets of $QUIZ_SET",
+                        attempted = stats?.let { Triple(it.first, it.second, ids.size) },
+                        onStart = { nav.quiz("row", bookId, rowIndex) },
+                        onWrong = { nav.quiz("row", bookId, rowIndex, "wrong") },
+                    )
+                }
             }
             item { Spacer(Modifier.height(32.dp)) }
         }

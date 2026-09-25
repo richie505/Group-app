@@ -81,6 +81,7 @@ data class RowInfo(
     val p1: Int,
     val p2: Int,
     val subsectionCount: Int,
+    val questionCount: Int,
 )
 
 data class BookInfo(
@@ -90,6 +91,7 @@ data class BookInfo(
     val pages: Int,
     val units: List<NoteUnit>,
     val rows: List<RowInfo>,
+    val unitQuestions: Map<Int, Int>,
 ) {
     val subsectionTotal: Int get() = rows.sumOf { it.subsectionCount }
 }
@@ -132,3 +134,20 @@ data class Plan(
 )
 
 fun subsectionId(book: Int, row: Int, sec: Int) = "$book:$row:$sec"
+
+// ---- PYQ practice ----
+
+data class Question(
+    val id: String,
+    val stem: String,
+    val table: List<List<String>>,
+    val options: List<String>,
+    val answer: Int,
+    val source: String,
+    val appsc: Boolean,
+    val explanation: String,
+    val notes: List<String>,
+)
+
+/** PYQs of one book: by notes row (Section) and by unit (Topic, general questions). */
+data class BookMcq(val rows: Map<Int, List<Question>>, val units: Map<Int, List<Question>>)

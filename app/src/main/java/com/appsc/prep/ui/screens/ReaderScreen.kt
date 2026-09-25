@@ -240,6 +240,20 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                 style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
                             )
                         }
+                        val qCount = app.repo.rowInfo(bookId, rowI)?.questionCount ?: 0
+                        if (secI == row.secs.size - 1 && qCount > 0) {
+                            Spacer(Modifier.height(10.dp))
+                            OutlinedButton(
+                                onClick = { nav.quiz("row", bookId, rowI) },
+                                modifier = Modifier.fillMaxWidth().height(50.dp),
+                                shape = RoundedCornerShape(12.dp),
+                            ) {
+                                Text(
+                                    "Practice $qCount PYQs on this section",
+                                    style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
+                                )
+                            }
+                        }
                         if (row.sources.isNotEmpty() && secI == row.secs.size - 1) {
                             Spacer(Modifier.height(16.dp))
                             SourcesBox(row.sources)

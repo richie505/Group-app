@@ -31,6 +31,14 @@ class Repository(private val context: Context) {
 
     fun cachedBook(id: Int): Book? = books[id]
 
+    private val mcqs = HashMap<Int, BookMcq>()
+
+    suspend fun mcq(id: Int): BookMcq = mutex.withLock {
+        mcqs[id] ?: withContext(Dispatchers.IO) { parseMcq(readJson("mcq$id.json")) }.also { mcqs[id] = it }
+    }
+
+    fun cachedMcq(id: Int): BookMcq? = mcqs[id]
+
     fun rowInfo(book: Int, row: Int): RowInfo? = index.getOrNull(book - 1)?.rows?.getOrNull(row)
 
     /** The plan's priority / PYQ figure for a notes row, if the plan lists it. */
@@ -109,6 +117,26 @@ class Repository(private val context: Context) {
         }
     }
 
+    private fun parseMcq(root: JsonElement): BookMcq {
+        fun list(e: JsonElement): List<Question> = e.jsonArray.map { q ->
+            val o = q.jsonObject
+            Question(
+                id = q.str("id"),
+                stem = q.str("s"),
+                table = (o["t"] as? JsonArray)?.map { r -> r.jsonArray.map { it.jsonPrimitive.content } } ?: emptyList(),
+                options = q.strList("o"),
+                answer = q.intOr("a"),
+                source = q.str("src"),
+                appsc = o.containsKey("ap"),
+                explanation = q.str("x"),
+                notes = q.strList("n"),
+            )
+        }
+        fun map(key: String): Map<Int, List<Question>> =
+            (root.jsonObject[key] as? JsonObject)?.entries?.associate { (k, v) -> k.toInt() to list(v) } ?: emptyMap()
+        return BookMcq(map("rows"), map("units"))
+    }
+
     private fun parseIndex(root: JsonElement): List<BookInfo> =
         root.jsonObject["books"]!!.jsonArray.map { b ->
             val id = b.intOr("id")
@@ -120,8 +148,11 @@ class Repository(private val context: Context) {
                         book = id, index = i, unitIndex = r.intOr("u"), codes = r.strList("codes"),
                         title = r.str("title"), tag = r.str("tag"), pyq = r.str("pyq"),
                         p1 = r.intOr("p1"), p2 = r.intOr("p2"), subsectionCount = r.intOr("n"),
+                        questionCount = r.intOr("q"),
                     )
                 },
+                unitQuestions = (b.jsonObject["uq"] as? JsonObject)?.entries
+                    ?.associate { (k, v) -> k.toInt() to v.jsonPrimitive.int } ?: emptyMap(),
             )
         }
 

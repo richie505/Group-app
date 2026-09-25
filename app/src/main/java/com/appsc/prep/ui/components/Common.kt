@@ -20,6 +20,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Quiz
 import androidx.compose.material.icons.outlined.Circle
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.HorizontalDivider
@@ -225,5 +226,51 @@ fun StatBox(value: String, label: String, icon: ImageVector?, modifier: Modifier
         }
         Text(value, style = TextStyle(fontSize = 22.sp, fontWeight = FontWeight.Bold, color = C.Ink))
         Text(label, style = TextStyle(fontSize = 12.sp, color = C.Muted))
+    }
+}
+
+/** Entry point to a PYQ practice set. [attempted] = (attempted, correct, total) when known. */
+@Composable
+fun PracticeCard(
+    title: String,
+    subtitle: String,
+    attempted: Triple<Int, Int, Int>?,
+    onStart: () -> Unit,
+    onWrong: (() -> Unit)? = null,
+) {
+    Card(onClick = onStart) {
+        Column(Modifier.padding(16.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(
+                    Modifier.size(40.dp).clip(RoundedCornerShape(10.dp)).background(C.ExamBg),
+                    contentAlignment = Alignment.Center,
+                ) { Icon(Icons.Filled.Quiz, null, tint = C.ExamInk) }
+                Spacer(Modifier.width(12.dp))
+                Column(Modifier.weight(1f)) {
+                    Text(title, style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
+                    Text(subtitle, style = TextStyle(fontSize = 13.sp, color = C.Muted))
+                }
+                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
+            }
+            if (attempted != null && attempted.third > 0) {
+                val (a, c, t) = attempted
+                Spacer(Modifier.height(12.dp))
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    ProgressLine(a / t.toFloat(), Modifier.weight(1f), color = C.ExamInk)
+                    Spacer(Modifier.width(10.dp))
+                    Text(
+                        "$a/$t done" + if (a > 0) " · ${c * 100 / a}%" else "",
+                        style = TextStyle(fontSize = 12.sp, color = C.Muted),
+                    )
+                }
+                if (onWrong != null && a - c > 0) {
+                    Text(
+                        "Retry ${a - c} wrong answers",
+                        style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.High),
+                        modifier = Modifier.padding(top = 10.dp).clickable(onClick = onWrong),
+                    )
+                }
+            }
+        }
     }
 }

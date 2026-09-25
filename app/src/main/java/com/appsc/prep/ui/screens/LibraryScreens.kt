@@ -21,6 +21,8 @@ import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.ExpandLess
 import androidx.compose.material.icons.filled.ExpandMore
+import androidx.compose.material.icons.filled.Quiz
+import androidx.compose.material.icons.outlined.Quiz
 import androidx.compose.material.icons.outlined.AutoStories
 import androidx.compose.material.icons.outlined.CalendarMonth
 import androidx.compose.material.icons.outlined.LocalFireDepartment
@@ -168,6 +170,23 @@ fun BookScreen(id: Int, nav: Nav) {
                                     onClick = { nav.row(b.id, r.index) },
                                 )
                             }
+                            val general = b.unitQuestions[ui] ?: 0
+                            if (general > 0) {
+                                HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 16.dp))
+                                Row(
+                                    Modifier.fillMaxWidth().clickable { nav.quiz("unit", b.id, ui) }.padding(horizontal = 16.dp, vertical = 14.dp),
+                                    verticalAlignment = Alignment.CenterVertically,
+                                ) {
+                                    Icon(Icons.Filled.Quiz, null, tint = C.ExamInk, modifier = Modifier.size(22.dp))
+                                    Spacer(Modifier.width(12.dp))
+                                    Text(
+                                        "Topic PYQs (not tied to one section) · $general",
+                                        style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = C.ExamInk),
+                                        modifier = Modifier.weight(1f),
+                                    )
+                                    Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
+                                }
+                            }
                         }
                         HorizontalDivider(color = C.Line)
                     }
@@ -210,6 +229,16 @@ fun ProgressScreen(nav: Nav) {
                     Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                         StatBox("${store.streak()}", "day streak", Icons.Outlined.LocalFireDepartment, Modifier.weight(1f))
                         StatBox("${store.saved.size}", "bookmarks", Icons.Outlined.AutoStories, Modifier.weight(1f))
+                    }
+                    Spacer(Modifier.height(10.dp))
+                    val answered = store.answers.size
+                    val right = store.answers.count { it.value }
+                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                        StatBox("$answered", "PYQs answered", Icons.Outlined.Quiz, Modifier.weight(1f))
+                        StatBox(
+                            if (answered == 0) "–" else "${right * 100 / answered}%",
+                            "PYQ accuracy", Icons.Outlined.TaskAlt, Modifier.weight(1f),
+                        )
                     }
                 }
                 HorizontalDivider(color = C.Line)

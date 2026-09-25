@@ -3,7 +3,9 @@ package com.appsc.prep
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.performClick
 import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
@@ -14,6 +16,8 @@ import com.appsc.prep.ui.screens.DayScreen
 import com.appsc.prep.ui.screens.Nav
 import com.appsc.prep.ui.screens.PlanScreen
 import com.appsc.prep.ui.screens.ProgressScreen
+import com.appsc.prep.ui.screens.QuizScreen
+import com.appsc.prep.ui.screens.QuizSource
 import com.appsc.prep.ui.screens.ReaderScreen
 import com.appsc.prep.ui.screens.SectionScreen
 import com.appsc.prep.ui.screens.TodayScreen
@@ -35,6 +39,7 @@ class ScreenshotTest {
     val rule = createComposeRule()
 
     private val nav = object : Nav {
+        override fun quiz(kind: String, book: Int, index: Int, mode: String) {}
         override fun day(n: Int) {}
         override fun row(book: Int, row: Int) {}
         override fun read(book: Int, row: Int, sec: Int) {}
@@ -59,6 +64,21 @@ class ScreenshotTest {
     @Test fun section() = shot("4_section", preload = 2) { SectionScreen(2, 0, nav) }
     @Test fun reader() = shot("5_reader", preload = 2) { ReaderScreen(2, 0, 0, nav) }
     @Test fun readerTable() = shot("6_reader_table", preload = 2) { ReaderScreen(2, 0, 1, nav) }
+    @Test fun quiz() = shot("9_quiz") { QuizScreen(QuizSource("row", 2, 0), "new", "PYQ Practice", nav) }
+
+    @Test fun quizExplained() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val repo = Repository(ctx)
+        // first History row whose first question carries a CDI explanation
+        val mcq = runBlocking { repo.mcq(1) }
+        val row = mcq.rows.entries.sortedBy { it.key }.first { it.value.firstOrNull()?.explanation?.isNotBlank() == true }
+        val q = row.value.first()
+        shot("10_quiz_answered") { QuizScreen(QuizSource("row", 1, row.key), "all", "PYQ Practice", nav) }
+        rule.onNodeWithText(q.options[q.answer]).performClick()
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/10_quiz_answered.png")
+    }
+
     @Test fun books() = shot("7_notes") { BooksScreen(nav) }
     @Test fun progress() = shot("8_progress") { ProgressScreen(nav) }
 }
