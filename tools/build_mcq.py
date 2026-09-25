@@ -286,8 +286,13 @@ def block_text(bl):
     return ""
 
 
-def assign_subsections(book, rows_q, min_score=0.02):
-    """For each row's question list, the index of the closest subsection (■ heading), or -1."""
+AI_PLACEMENTS = Path(__file__).parent / "data" / "ai_subsections.json"
+
+
+def assign_subsections(book_no, book, rows_q, min_score=0.02):
+    """For each row's question list, the index of the closest subsection (■ heading), or -1.
+    Questions the text match cannot place use tools/data/ai_subsections.json when present."""
+    ai = json.loads(AI_PLACEMENTS.read_text()) if AI_PLACEMENTS.exists() else {}
     all_rows = [r for u in book["units"] for r in u["rows"]]
     docs, where = [], []
     for ri, r in enumerate(all_rows):
@@ -313,7 +318,10 @@ def assign_subsections(book, rows_q, min_score=0.02):
                 sc = sum(x * dv.get(w, 0) for w, x in v.items())
                 if sc > best:
                     best, best_si = sc, si
-            res.append(best_si if best >= min_score else -1)
+            si = best_si if best >= min_score else -1
+            if si < 0:
+                si = ai.get(f"{book_no}:{key}:{q['id']}", -1)
+            res.append(si)
         out[key] = res
     return out
 
@@ -499,7 +507,7 @@ def main():
         for d in (rows, units):
             for k in d:
                 d[k].sort(key=lambda q: ({"f": 1, "u": 2}.get(q.get("k"), 0), 0 if q.get("ap") else 1))
-        subs = assign_subsections(books[n], rows)
+        subs = assign_subsections(n, books[n], rows)
         stats[f"book{n}_sub_assigned"] = sum(1 for v in subs.values() for x in v if x >= 0)
         (assets / f"mcq{n}.json").write_text(
             json.dumps({"rows": rows, "units": units, "subs": subs}, ensure_ascii=False, separators=(",", ":")))
