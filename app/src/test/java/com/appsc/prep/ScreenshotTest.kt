@@ -74,7 +74,7 @@ class ScreenshotTest {
         val mcq = runBlocking { repo.mcq(1) }
         val row = mcq.rows.entries.sortedBy { it.key }.first { it.value.firstOrNull()?.explanation?.isNotBlank() == true }
         val q = row.value.first()
-        shot("10_quiz_answered") { QuizScreen(QuizSource("row", 1, row.key), "all", "PYQ Practice", nav) }
+        shot("10_quiz_answered", preload = 1) { QuizScreen(QuizSource("row", 1, row.key), "all", "PYQ Practice", nav) }
         rule.onNodeWithText(q.options[q.answer]).performClick()
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/10_quiz_answered.png")

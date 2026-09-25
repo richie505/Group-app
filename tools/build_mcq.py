@@ -287,12 +287,29 @@ def block_text(bl):
 
 
 AI_PLACEMENTS = Path(__file__).parent / "data" / "ai_subsections.json"
+REHOME_ITEMS = Path(__file__).parent / "data" / "rehome_items.json"
+REHOME_REJECTS = Path(__file__).parent / "data" / "review_rejects.txt"
 
 
-def assign_subsections(book_no, book, rows_q, min_score=0.02):
+def load_rehomes():
+    """Hand-reviewed moves for questions the bank filed under the wrong row:
+    [(book, row, qid, (to_book, to_row, to_sec))], minus the proposals rejected on review."""
+    if not REHOME_ITEMS.exists():
+        return []
+    rejected = set()
+    if REHOME_REJECTS.exists():
+        for line in REHOME_REJECTS.read_text().splitlines():
+            if ":" in line:
+                rejected |= {int(x) for x in line.split(":", 1)[1].split()}
+    items = json.loads(REHOME_ITEMS.read_text())  # review numbers are 1-based positions
+    return [(b, r, i, tuple(t)) for n, (b, r, i, t) in enumerate(items, 1) if n not in rejected]
+
+
+def assign_subsections(book_no, book, rows_q, min_score=0.02, forced=None):
     """For each row's question list, the index of the closest subsection (■ heading), or -1.
     Questions the text match cannot place use tools/data/ai_subsections.json when present."""
     ai = json.loads(AI_PLACEMENTS.read_text()) if AI_PLACEMENTS.exists() else {}
+    forced = forced or {}
     all_rows = [r for u in book["units"] for r in u["rows"]]
     docs, where = [], []
     for ri, r in enumerate(all_rows):
@@ -309,6 +326,9 @@ def assign_subsections(book_no, book, rows_q, min_score=0.02):
         cands = by_row.get(int(key), [])
         res = []
         for q in qs:
+            if (int(key), q["id"]) in forced:
+                res.append(forced[(int(key), q["id"])])
+                continue
             text = q["s"] + " " + " ".join(q["o"]) + " " + q.get("at", "")
             if 0 <= q.get("a", -1) < len(q["o"]):
                 text += " " + q["o"][q["a"]] * 2  # the correct option says most about the topic
@@ -499,6 +519,19 @@ def main():
             per_row[(1, ri)][item["id"]] = item
             stats["cdi_added_by_similarity"] += 1
 
+    # ---- reviewed re-homes: move misfiled questions to the row and subsection they belong to
+    forced = defaultdict(dict)
+    for bk, r, i, (tb, tr, ts) in load_rehomes():
+        item = per_row.get((bk, r), {}).pop(i, None)
+        if item is None:
+            stats["rehome_missing"] += 1
+            continue
+        per_row[(tb, tr)][i] = item
+        forced[tb][(tr, i)] = ts
+        stats["rehomed"] += 1
+    for key in [k for k, v in per_row.items() if not v]:
+        del per_row[key]
+
     # ---- write one file per book: rows -> questions, units -> general questions
     for n in range(1, 7):
         rows = {str(r): list(qd.values()) for (bk, r), qd in sorted(per_row.items()) if bk == n}
@@ -507,7 +540,7 @@ def main():
         for d in (rows, units):
             for k in d:
                 d[k].sort(key=lambda q: ({"f": 1, "u": 2}.get(q.get("k"), 0), 0 if q.get("ap") else 1))
-        subs = assign_subsections(n, books[n], rows)
+        subs = assign_subsections(n, books[n], rows, forced=forced[n])
         stats[f"book{n}_sub_assigned"] = sum(1 for v in subs.values() for x in v if x >= 0)
         (assets / f"mcq{n}.json").write_text(
             json.dumps({"rows": rows, "units": units, "subs": subs}, ensure_ascii=False, separators=(",", ":")))
