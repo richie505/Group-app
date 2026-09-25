@@ -289,6 +289,8 @@ def block_text(bl):
 AI_PLACEMENTS = Path(__file__).parent / "data" / "ai_subsections.json"
 REHOME_ITEMS = Path(__file__).parent / "data" / "rehome_items.json"
 REHOME_REJECTS = Path(__file__).parent / "data" / "review_rejects.txt"
+SECTION_ITEMS = Path(__file__).parent / "data" / "section_rehome_items.json"
+SECTION_ACCEPTS = Path(__file__).parent / "data" / "section_review_accepts.txt"
 
 
 def load_rehomes():
@@ -303,6 +305,19 @@ def load_rehomes():
                 rejected |= {int(x) for x in line.split(":", 1)[1].split()}
     items = json.loads(REHOME_ITEMS.read_text())  # review numbers are 1-based positions
     return [(b, r, i, tuple(t)) for n, (b, r, i, t) in enumerate(items, 1) if n not in rejected]
+
+
+def load_section_moves():
+    """Second pass, for questions no subsection fitted: hand-accepted moves to a better
+    section as a whole, [(book, row, qid, (to_book, to_row))]."""
+    if not SECTION_ITEMS.exists() or not SECTION_ACCEPTS.exists():
+        return []
+    accepted = set()
+    for line in SECTION_ACCEPTS.read_text().splitlines():
+        if ":" in line:
+            accepted |= {int(x) for x in line.split(":", 1)[1].split()}
+    items = json.loads(SECTION_ITEMS.read_text())  # review numbers are 1-based positions
+    return [(b, r, i, tuple(t)) for n, (b, r, i, t) in enumerate(items, 1) if n in accepted]
 
 
 def assign_subsections(book_no, book, rows_q, min_score=0.02, forced=None):
@@ -529,6 +544,15 @@ def main():
         per_row[(tb, tr)][i] = item
         forced[tb][(tr, i)] = ts
         stats["rehomed"] += 1
+    for bk, r, i, (tb, tr) in load_section_moves():
+        item = per_row.get((bk, r), {}).pop(i, None)
+        if item is None:
+            stats["section_move_missing"] += 1
+            continue
+        if i not in per_row[(tb, tr)]:
+            forced[tb][(tr, i)] = -1  # reviewed at section level only: keep under "Other"
+        per_row[(tb, tr)][i] = item
+        stats["section_moved"] += 1
     for key in [k for k, v in per_row.items() if not v]:
         del per_row[key]
 
