@@ -21,6 +21,11 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Quiz
+import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.runtime.produceState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -57,7 +62,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
     val app = LocalApp.current
     val info = app.repo.rowInfo(bookId, rowIndex)
     val book = rememberBook(bookId)
-    androidx.compose.runtime.LaunchedEffect(bookId) { app.repo.mcq(bookId) }
+    val mcq by produceState(app.repo.cachedMcq(bookId), bookId) { value = app.repo.mcq(bookId) }
     Column(Modifier.fillMaxSize()) {
         TopBar(app.repo.index.getOrNull(bookId - 1)?.short ?: "Section", onBack = nav::back)
         if (book == null) {
@@ -130,6 +135,22 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                             style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
                         )
                     }
+                    val qCount = info?.questionCount ?: 0
+                    if (qCount > 0) {
+                        Spacer(Modifier.height(10.dp))
+                        OutlinedButton(
+                            onClick = { nav.quiz("row", bookId, rowIndex) },
+                            modifier = Modifier.fillMaxWidth().height(48.dp),
+                            shape = RoundedCornerShape(12.dp),
+                        ) {
+                            Icon(Icons.Filled.Quiz, null, tint = C.ExamInk, modifier = Modifier.size(20.dp))
+                            Spacer(Modifier.width(8.dp))
+                            Text(
+                                "Practice section PYQs ($qCount)",
+                                style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
+                            )
+                        }
+                    }
                 }
                 HorizontalDivider(color = C.Line)
                 SectionHeader("Subsections (${row.secs.size})")
@@ -156,9 +177,19 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                                 fontWeight = if (s.universal) FontWeight.SemiBold else FontWeight.Normal,
                             ),
                         )
-                        if (s.badges.isNotEmpty()) {
+                        val subQ = mcq?.subCount(rowIndex, i) ?: 0
+                        if (s.badges.isNotEmpty() || subQ > 0) {
                             Spacer(Modifier.height(4.dp))
-                            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) { s.badges.forEach { BadgeTag(it) } }
+                            Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
+                                s.badges.forEach { BadgeTag(it) }
+                                if (subQ > 0) {
+                                    Tag(
+                                        "Practice $subQ PYQs",
+                                        C.ExamBg, C.ExamInk,
+                                        modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, sub = i) },
+                                    )
+                                }
+                            }
                         }
                     }
                     Spacer(Modifier.width(10.dp))
@@ -166,13 +197,39 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                 }
                 HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 50.dp))
             }
+            val otherQ = mcq?.subCount(rowIndex, -1) ?: 0
+            if (otherQ > 0) {
+                item {
+                    Row(
+                        Modifier
+                            .fillMaxWidth()
+                            .clickable { nav.quiz("sub", bookId, rowIndex, sub = -1) }
+                            .padding(horizontal = 20.dp, vertical = 14.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Icon(Icons.Filled.Quiz, null, tint = C.ExamInk, modifier = Modifier.width(30.dp).size(20.dp))
+                        Column(Modifier.weight(1f)) {
+                            Text(
+                                "Other PYQs of this section",
+                                style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.Medium, color = C.Ink),
+                            )
+                            Text(
+                                "Filed under this section but not matched to one subsection",
+                                style = TextStyle(fontSize = 12.sp, color = C.Muted),
+                            )
+                        }
+                        Tag("Practice $otherQ PYQs", C.ExamBg, C.ExamInk)
+                    }
+                    HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 50.dp))
+                }
+            }
             if ((info?.questionCount ?: 0) > 0) {
                 item {
                     SectionHeader("Practice after reading")
-                    val ids = app.repo.cachedMcq(bookId)?.rows?.get(rowIndex)?.map { it.id }
+                    val ids = mcq?.rows?.get(rowIndex)?.map { it.id }
                     val stats = ids?.let { app.store.quizStats(it) }
                     PracticeCard(
-                        title = "Section PYQs",
+                        title = "All section PYQs",
                         subtitle = "${info!!.questionCount} questions · sets of $QUIZ_SET",
                         attempted = stats?.let { Triple(it.first, it.second, ids.size) },
                         onStart = { nav.quiz("row", bookId, rowIndex) },

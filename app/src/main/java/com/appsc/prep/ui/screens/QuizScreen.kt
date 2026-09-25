@@ -59,7 +59,7 @@ import com.appsc.prep.ui.theme.C
 const val QUIZ_SET = 10
 
 /** Where the questions come from. kind: "row" (book, index), "unit" (book, index), "day" (day number). */
-data class QuizSource(val kind: String, val book: Int, val index: Int)
+data class QuizSource(val kind: String, val book: Int, val index: Int, val sub: Int = -1)
 
 /** Loads the question pool for a quiz source; null while loading. */
 @Composable
@@ -68,6 +68,7 @@ fun rememberPool(src: QuizSource): List<Question>? {
     val pool by produceState<List<Question>?>(null, src) {
         value = when (src.kind) {
             "row" -> app.repo.mcq(src.book).rows[src.index] ?: emptyList()
+            "sub" -> app.repo.mcq(src.book).subQuestions(src.index, src.sub)
             "unit" -> app.repo.mcq(src.book).units[src.index] ?: emptyList()
             else -> {
                 val day = app.repo.plan.days.first { it.n == src.index }

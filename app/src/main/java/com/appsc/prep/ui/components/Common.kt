@@ -163,6 +163,7 @@ fun SectionItem(
     done: Int,
     total: Int,
     onClick: () -> Unit,
+    onPractice: (() -> Unit)? = null,
 ) {
     Row(
         Modifier
@@ -201,7 +202,16 @@ fun SectionItem(
                 }
             }
         }
-        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
+        if (onPractice != null) {
+            IconButton(onClick = onPractice) {
+                Box(
+                    Modifier.size(34.dp).clip(RoundedCornerShape(10.dp)).background(C.ExamBg),
+                    contentAlignment = Alignment.Center,
+                ) { Icon(Icons.Filled.Quiz, "Practice PYQs", tint = C.ExamInk, modifier = Modifier.size(20.dp)) }
+            }
+        } else {
+            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
+        }
     }
 }
 

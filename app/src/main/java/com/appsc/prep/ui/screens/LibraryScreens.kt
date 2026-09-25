@@ -162,12 +162,14 @@ fun BookScreen(id: Int, nav: Nav) {
                                     meta = listOfNotNull(
                                         "pp ${r.p1}-${r.p2}",
                                         r.codes.firstOrNull(),
+                                        r.questionCount.takeIf { it > 0 }?.let { "$it PYQs" },
                                         "${r.subsectionCount} subsections",
                                     ).joinToString(" · "),
                                     priority = app.repo.planRowByRef[b.id to r.index]?.priority ?: "",
                                     done = app.store.doneCount(b.id, r.index, r.subsectionCount),
                                     total = r.subsectionCount,
                                     onClick = { nav.row(b.id, r.index) },
+                                    onPractice = if (r.questionCount > 0) ({ nav.quiz("row", b.id, r.index) }) else null,
                                 )
                             }
                             val general = b.unitQuestions[ui] ?: 0

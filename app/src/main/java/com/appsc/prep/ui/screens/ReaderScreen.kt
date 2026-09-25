@@ -102,6 +102,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
     val store = app.store
     val context = LocalContext.current
     val book = rememberBook(bookId)
+    val mcq by androidx.compose.runtime.produceState(app.repo.cachedMcq(bookId), bookId) { value = app.repo.mcq(bookId) }
     var rowI by rememberSaveable { mutableStateOf(rowIndex) }
     var secI by rememberSaveable { mutableStateOf(secIndex) }
     var tocOpen by rememberSaveable { mutableStateOf(false) }
@@ -240,6 +241,20 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                 style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
                             )
                         }
+                        val subQ = mcq?.subCount(rowI, secI) ?: 0
+                        if (subQ > 0) {
+                            Spacer(Modifier.height(10.dp))
+                            OutlinedButton(
+                                onClick = { nav.quiz("sub", bookId, rowI, sub = secI) },
+                                modifier = Modifier.fillMaxWidth().height(50.dp),
+                                shape = RoundedCornerShape(12.dp),
+                            ) {
+                                Text(
+                                    "Practice $subQ PYQs on this subsection",
+                                    style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
+                                )
+                            }
+                        }
                         val qCount = app.repo.rowInfo(bookId, rowI)?.questionCount ?: 0
                         if (secI == row.secs.size - 1 && qCount > 0) {
                             Spacer(Modifier.height(10.dp))
@@ -249,7 +264,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                 shape = RoundedCornerShape(12.dp),
                             ) {
                                 Text(
-                                    "Practice $qCount PYQs on this section",
+                                    "Practice all $qCount PYQs of this section",
                                     style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
                                 )
                             }

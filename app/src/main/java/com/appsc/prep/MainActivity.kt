@@ -84,7 +84,8 @@ private val tabs = listOf(
 )
 
 private class NavImpl(private val nav: NavHostController) : Nav {
-    override fun quiz(kind: String, book: Int, index: Int, mode: String) = nav.navigate("quiz/$kind/$book/$index/$mode")
+    override fun quiz(kind: String, book: Int, index: Int, mode: String, sub: Int) =
+        nav.navigate("quiz/$kind/$book/$index/$mode?s=$sub")
     override fun day(n: Int) = nav.navigate("day/$n")
     override fun row(book: Int, row: Int) = nav.navigate("row/$book/$row")
     override fun read(book: Int, row: Int, sec: Int) = nav.navigate("read/$book/$row/$sec")
@@ -117,18 +118,21 @@ private fun AppRoot() {
                 composable("progress") { ProgressScreen(actions) }
                 composable("saved") { SavedScreen(actions) }
                 composable(
-                    "quiz/{k}/{b}/{i}/{m}",
+                    "quiz/{k}/{b}/{i}/{m}?s={s}",
                     listOf(
                         navArgument("k") { type = NavType.StringType },
                         navArgument("b") { type = NavType.IntType },
                         navArgument("i") { type = NavType.IntType },
                         navArgument("m") { type = NavType.StringType },
+                        navArgument("s") { type = NavType.IntType; defaultValue = -1 },
                     ),
                 ) {
                     val a = it.arguments!!
-                    val src = QuizSource(a.getString("k")!!, a.getInt("b"), a.getInt("i"))
+                    val src = QuizSource(a.getString("k")!!, a.getInt("b"), a.getInt("i"), a.getInt("s"))
                     val title = when (src.kind) {
                         "day" -> "Day ${src.index} PYQs"
+                        "sub" -> if (src.sub < 0) "Other section PYQs" else "Subsection PYQs"
+                        "row" -> "Section PYQs"
                         else -> "PYQ Practice"
                     }
                     QuizScreen(src, a.getString("m")!!, title, actions)

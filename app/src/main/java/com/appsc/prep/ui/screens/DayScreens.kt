@@ -64,7 +64,7 @@ import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit
 
 interface Nav {
-    fun quiz(kind: String, book: Int, index: Int, mode: String = "new")
+    fun quiz(kind: String, book: Int, index: Int, mode: String = "new", sub: Int = -1)
     fun day(n: Int)
     fun row(book: Int, row: Int)
     fun read(book: Int, row: Int, sec: Int)
@@ -294,13 +294,14 @@ private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, na
                     title = info?.title ?: r.topic,
                     meta = listOfNotNull(
                         r.pages.takeIf { it.isNotBlank() }?.let { "pp $it" },
-                        r.pyq.takeIf { it.isNotBlank() }?.let { "$it PYQs" },
+                        info?.questionCount?.takeIf { it > 0 }?.let { "$it PYQs" },
                         "$total subsections",
                     ).joinToString(" · "),
                     priority = r.priority,
                     done = app.store.doneCount(r.book, r.row, total),
                     total = total,
                     onClick = { nav.row(r.book, r.row) },
+                    onPractice = if ((info?.questionCount ?: 0) > 0) ({ nav.quiz("row", r.book, r.row) }) else null,
                 )
             }
         }

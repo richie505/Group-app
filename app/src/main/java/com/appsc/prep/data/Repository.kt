@@ -139,7 +139,9 @@ class Repository(private val context: Context) {
         }
         fun map(key: String): Map<Int, List<Question>> =
             (root.jsonObject[key] as? JsonObject)?.entries?.associate { (k, v) -> k.toInt() to list(v) } ?: emptyMap()
-        return BookMcq(map("rows"), map("units"))
+        val subs = (root.jsonObject["subs"] as? JsonObject)?.entries
+            ?.associate { (k, v) -> k.toInt() to v.jsonArray.map { it.jsonPrimitive.int } } ?: emptyMap()
+        return BookMcq(map("rows"), map("units"), subs)
     }
 
     private fun parseIndex(root: JsonElement): List<BookInfo> =

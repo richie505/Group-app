@@ -40,7 +40,7 @@ class ScreenshotTest {
     val rule = createComposeRule()
 
     private val nav = object : Nav {
-        override fun quiz(kind: String, book: Int, index: Int, mode: String) {}
+        override fun quiz(kind: String, book: Int, index: Int, mode: String, sub: Int) {}
         override fun day(n: Int) {}
         override fun row(book: Int, row: Int) {}
         override fun read(book: Int, row: Int, sec: Int) {}
@@ -51,7 +51,7 @@ class ScreenshotTest {
     private fun shot(name: String, preload: Int? = null, content: @Composable () -> Unit) {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
         val app = AppState(Repository(ctx), ProgressStore(ctx))
-        if (preload != null) runBlocking { app.repo.book(preload) }
+        if (preload != null) runBlocking { app.repo.book(preload); app.repo.mcq(preload) }
         rule.setContent {
             PrepTheme { CompositionLocalProvider(LocalApp provides app) { content() } }
         }

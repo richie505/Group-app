@@ -271,6 +271,53 @@ class Tfidf:
 
 # ---------------------------------------------------------------- main
 
+def block_text(bl):
+    x = bl.get("x")
+    if isinstance(x, str):
+        return x
+    if isinstance(x, list):
+        return "".join(t for t, _ in x)
+    if bl.get("k") == "t":
+        cells = []
+        for row in [bl.get("h", [])] + bl.get("r", []):
+            for c in row:
+                cells.append(c if isinstance(c, str) else "".join(t for t, _ in c))
+        return " ".join(cells)
+    return ""
+
+
+def assign_subsections(book, rows_q, min_score=0.02):
+    """For each row's question list, the index of the closest subsection (■ heading), or -1."""
+    all_rows = [r for u in book["units"] for r in u["rows"]]
+    docs, where = [], []
+    for ri, r in enumerate(all_rows):
+        for si, sec in enumerate(r["secs"]):
+            text = (sec["t"] + " ") * 3 + " ".join(block_text(b) for b in sec["b"])
+            docs.append(tokens(text))
+            where.append((ri, si))
+    tf = Tfidf(docs)
+    by_row = defaultdict(list)
+    for k, (ri, si) in enumerate(where):
+        by_row[ri].append((si, tf.vecs[k]))
+    out = {}
+    for key, qs in rows_q.items():
+        cands = by_row.get(int(key), [])
+        res = []
+        for q in qs:
+            text = q["s"] + " " + " ".join(q["o"]) + " " + q.get("at", "")
+            if 0 <= q.get("a", -1) < len(q["o"]):
+                text += " " + q["o"][q["a"]] * 2  # the correct option says most about the topic
+            v = tf.vec(tokens(text))
+            best, best_si = 0.0, -1
+            for si, dv in cands:
+                sc = sum(x * dv.get(w, 0) for w, x in v.items())
+                if sc > best:
+                    best, best_si = sc, si
+            res.append(best_si if best >= min_score else -1)
+        out[key] = res
+    return out
+
+
 def main():
     src, assets = Path(sys.argv[1]), Path(sys.argv[2])
 
@@ -452,8 +499,10 @@ def main():
         for d in (rows, units):
             for k in d:
                 d[k].sort(key=lambda q: ({"f": 1, "u": 2}.get(q.get("k"), 0), 0 if q.get("ap") else 1))
+        subs = assign_subsections(books[n], rows)
+        stats[f"book{n}_sub_assigned"] = sum(1 for v in subs.values() for x in v if x >= 0)
         (assets / f"mcq{n}.json").write_text(
-            json.dumps({"rows": rows, "units": units}, ensure_ascii=False, separators=(",", ":")))
+            json.dumps({"rows": rows, "units": units, "subs": subs}, ensure_ascii=False, separators=(",", ":")))
         print(f"mcq{n}: rows={len(rows)} q_in_rows={sum(len(v) for v in rows.values())} "
               f"unit_general={sum(len(v) for v in units.values())}")
     print(dict(stats), "unique", len(all_q), "kinds", Counter(q.get("k", "scored") for q in all_q.values()))

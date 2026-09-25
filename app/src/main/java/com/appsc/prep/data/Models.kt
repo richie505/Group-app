@@ -156,4 +156,17 @@ data class Question(
 }
 
 /** PYQs of one book: by notes row (Section) and by unit (Topic, general questions). */
-data class BookMcq(val rows: Map<Int, List<Question>>, val units: Map<Int, List<Question>>)
+data class BookMcq(
+    val rows: Map<Int, List<Question>>,
+    val units: Map<Int, List<Question>>,
+    /** Per row, parallel to rows[row]: the subsection each question belongs to (-1 = section only). */
+    val subs: Map<Int, List<Int>> = emptyMap(),
+) {
+    fun subQuestions(row: Int, sec: Int): List<Question> {
+        val qs = rows[row] ?: return emptyList()
+        val s = subs[row] ?: return emptyList()
+        return qs.filterIndexed { i, _ -> s.getOrNull(i) == sec }
+    }
+
+    fun subCount(row: Int, sec: Int): Int = subs[row]?.count { it == sec } ?: 0
+}
