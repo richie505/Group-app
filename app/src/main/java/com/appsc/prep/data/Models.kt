@@ -147,7 +147,13 @@ data class Question(
     val appsc: Boolean,
     val explanation: String,
     val notes: List<String>,
-)
+    /** 's' scored, 'f' flashcard (answer only, self-graded), 'u' unscored (no official key / cancelled). */
+    val kind: Char = 's',
+    val answerText: String = "",
+    val cancelled: Boolean = false,
+) {
+    val scored get() = kind != 'u'
+}
 
 /** PYQs of one book: by notes row (Section) and by unit (Topic, general questions). */
 data class BookMcq(val rows: Map<Int, List<Question>>, val units: Map<Int, List<Question>>)

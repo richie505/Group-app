@@ -16,6 +16,7 @@ import com.appsc.prep.ui.screens.DayScreen
 import com.appsc.prep.ui.screens.Nav
 import com.appsc.prep.ui.screens.PlanScreen
 import com.appsc.prep.ui.screens.ProgressScreen
+import com.appsc.prep.ui.screens.QuizRound
 import com.appsc.prep.ui.screens.QuizScreen
 import com.appsc.prep.ui.screens.QuizSource
 import com.appsc.prep.ui.screens.ReaderScreen
@@ -78,6 +79,23 @@ class ScreenshotTest {
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/10_quiz_answered.png")
     }
+
+    private fun roundShot(name: String, kind: Char, click: (com.appsc.prep.data.Question) -> String) {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val repo = Repository(ctx)
+        val q = runBlocking { repo.mcq(2) }.let { m -> (m.rows.values + m.units.values).flatten() }.first { it.kind == kind && (kind != 'u' || it.cancelled) }
+        shot(name) { QuizRound("t", listOf(q), listOf(q), {}, {}) }
+        rule.onNodeWithText(click(q)).performClick()
+        rule.waitForIdle()
+        if (kind == 'f') {
+            rule.onNodeWithText("Didn't know").performClick()
+            rule.waitForIdle()
+        }
+        rule.onRoot().captureRoboImage("screenshots/$name.png")
+    }
+
+    @Test fun flashcard() = roundShot("11_flashcard", 'f') { "Show answer" }
+    @Test fun unscored() = roundShot("12_unscored", 'u') { it.options[0] }
 
     @Test fun books() = shot("7_notes") { BooksScreen(nav) }
     @Test fun progress() = shot("8_progress") { ProgressScreen(nav) }

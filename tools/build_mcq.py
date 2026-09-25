@@ -42,6 +42,10 @@ def qid(stem, options):
 
 # ---------------------------------------------------------------- PYQ bank (.docx)
 
+W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
+W_PSTYLE = f".//{W}pStyle"
+W_VAL = f"{W}val"
+
 def parse_bank_file(path):
     d = docx.Document(path)
     out = []
@@ -52,8 +56,22 @@ def parse_bank_file(path):
 
     def finish():
         nonlocal q
-        if q and q["o"] and q.get("a") is not None:
-            out.append(q)
+        if q:
+            cancelled = "cancel" in (q.get("ans", "") + " " + q["src"]).lower()
+            if cancelled and q["o"]:
+                q["k"] = "u"  # cancelled by APPSC: practice only, unscored
+                q["cx"] = 1
+                out.append(q)
+            elif cancelled:
+                pass
+            elif q["o"] and q["a"] is not None:
+                out.append(q)
+            elif not q["o"] and q.get("ans"):
+                q["k"] = "f"  # answer-only: flashcard
+                out.append(q)
+            elif q["o"]:
+                q["k"] = "u"  # no official key: unscored
+                out.append(q)
         q = None
 
     for el in d.element.body.iterchildren():
@@ -78,7 +96,8 @@ def parse_bank_file(path):
         text = re.sub(r"\s+", " ", p.text).strip()
         if not text:
             continue
-        style = p.style.name if p.style is not None else ""
+        ps = el.find(W_PSTYLE)
+        style = ps.get(W_VAL).replace("Heading", "Heading ") if ps is not None else ""
         bold = any(r.bold for r in p.runs if r.text.strip())
 
         if style.startswith("Heading 2"):
@@ -109,6 +128,7 @@ def parse_bank_file(path):
             continue
         m = ANS_RE.match(text)
         if m and state in ("stem", "opts"):
+            q["ans"] = m.group(2).strip()
             if m.group(1):
                 idx = int(m.group(1)) - 1
                 q["a"] = idx if 0 <= idx < len(q["o"]) else None
@@ -127,9 +147,13 @@ def parse_bank_file(path):
 
 def clean_source(src):
     """'Group 2 · 2025  answer not from APPSC key' -> ('Group 2 · 2025', appsc?)"""
-    parts = re.split(r"\s{2,}", src)
-    label = parts[0].strip()
-    flags = " ".join(parts[1:])
+    notes = r"(read from page image|text repaired by model|answer not from APPSC key|answer-only in source|" \
+            r"options rebuilt|translated from Telugu|cancelled by APPSC|answer not available|State PSC|UPSC)"
+    flags = src
+    label = re.sub(r"\s+", " ", re.sub(notes, " ", src)).strip(" ·")
+    m = re.match(r"^(.*?·\s*\d{4})", label)  # exam · year; drop extraction notes after it
+    if m:
+        label = m.group(1)
     appsc = not any(k in flags for k in ("State PSC", "UPSC"))
     return label, appsc
 
@@ -252,6 +276,7 @@ def main():
 
     # notes rows: code -> [(book, row)], unit code -> (book, unit)
     code_rows = defaultdict(list)
+    row_unit = {}
     unit_of = {}
     books = {}
     for n in range(1, 7):
@@ -264,6 +289,7 @@ def main():
             for r in u["rows"]:
                 for c in r["codes"]:
                     code_rows[c].append((n, seq))
+                row_unit[(n, seq)] = ui
                 seq += 1
 
     per_row = defaultdict(dict)   # (book,row) -> {qid: q}
@@ -271,17 +297,37 @@ def main():
     all_q = {}
     stats = Counter()
 
+    bank = []
     for f in sorted(src.glob("*.docx")):
-        cache = f.with_suffix(".parsed.json")
+        cache = f.with_suffix(".parsed3.json")
         if cache.exists() and cache.stat().st_mtime > f.stat().st_mtime:
             qs = json.loads(cache.read_text())
         else:
             qs = parse_bank_file(f)
             cache.write_text(json.dumps(qs, ensure_ascii=False))
+        for q in qs:
+            q["file"] = f.name
+        bank += qs
+    # bank unit (file, heading) -> notes unit, by majority of its questions' rows
+    votes = defaultdict(Counter)
+    for q in bank:
+        for t in code_rows.get(q["code"], []):
+            bk, r = t
+            votes[(q["file"], q["unit"])][(bk, row_unit[t])] += 1
+    unit_target = {k: v.most_common(1)[0][0] for k, v in votes.items()}
+    if True:
+        qs = bank
         stats["bank_parsed"] += len(qs)
         for q in qs:
             label, appsc = clean_source(q["src"])
-            item = {"s": q["s"], "o": q["o"], "a": q["a"], "src": label}
+            kind = q.get("k")
+            item = {"s": q["s"], "o": q["o"], "a": q["a"] if q["a"] is not None else -1, "src": label}
+            if kind:
+                item["k"] = kind
+            if q.get("cx"):
+                item["cx"] = 1
+            if kind == "f":
+                item["at"] = q["ans"]
             if appsc:
                 item["ap"] = 1
             if "t" in q:
@@ -292,8 +338,10 @@ def main():
             item = all_q[i]
             if q["code"] == "GENERAL":
                 m = re.match(r"UNIT\s+(\S+)", q["unit"] or "")
-                if m and m.group(1) in unit_of:
-                    per_unit[unit_of[m.group(1)]][i] = item
+                target = unit_of.get(m.group(1)) if m else None
+                target = target or unit_target.get((q["file"], q["unit"]))
+                if target:
+                    per_unit[target][i] = item
                     stats["general_to_unit"] += 1
                 else:
                     stats["general_dropped"] += 1
@@ -403,12 +451,12 @@ def main():
         # APPSC questions first, then the rest
         for d in (rows, units):
             for k in d:
-                d[k].sort(key=lambda q: (0 if q.get("ap") else 1))
+                d[k].sort(key=lambda q: ({"f": 1, "u": 2}.get(q.get("k"), 0), 0 if q.get("ap") else 1))
         (assets / f"mcq{n}.json").write_text(
             json.dumps({"rows": rows, "units": units}, ensure_ascii=False, separators=(",", ":")))
         print(f"mcq{n}: rows={len(rows)} q_in_rows={sum(len(v) for v in rows.values())} "
               f"unit_general={sum(len(v) for v in units.values())}")
-    print(dict(stats), "unique", len(all_q))
+    print(dict(stats), "unique", len(all_q), "kinds", Counter(q.get("k", "scored") for q in all_q.values()))
     index_path = assets / "index.json"
     index = json.loads(index_path.read_text())
     for b in index["books"]:

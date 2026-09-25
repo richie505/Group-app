@@ -27,6 +27,9 @@ class ProgressStore(context: Context) {
         prefs.getStringSet(KEY_ANSWERS, emptySet())!!.associate { it.substringBefore(':') to it.endsWith(":1") },
     )
         private set
+    /** Unscored questions (no key / cancelled) that have been attempted. */
+    var seen by mutableStateOf(prefs.getStringSet(KEY_SEEN, emptySet())!!.toSet())
+        private set
     var textScale by mutableFloatStateOf(prefs.getFloat(KEY_SCALE, 1f))
         private set
 
@@ -50,11 +53,21 @@ class ProgressStore(context: Context) {
         markActive()
     }
 
-    /** (attempted, correct) among the given questions. */
+    fun markSeen(questionId: String) {
+        if (questionId in seen) return
+        seen = seen + questionId
+        prefs.edit().putStringSet(KEY_SEEN, seen).apply()
+        markActive()
+    }
+
+    fun attempted(questionId: String) = questionId in answers || questionId in seen
+
+    /** (attempted, correct) among the given questions; unscored ones count as attempted only. */
     fun quizStats(ids: List<String>): Pair<Int, Int> {
         var attempted = 0
         var correct = 0
         for (id in ids) {
+            if (id in seen) attempted++
             val a = answers[id] ?: continue
             attempted++
             if (a) correct++
@@ -111,5 +124,6 @@ class ProgressStore(context: Context) {
         const val KEY_LAST = "last"
         const val KEY_SCALE = "scale"
         const val KEY_ANSWERS = "answers"
+        const val KEY_SEEN = "seen"
     }
 }

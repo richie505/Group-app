@@ -120,16 +120,21 @@ class Repository(private val context: Context) {
     private fun parseMcq(root: JsonElement): BookMcq {
         fun list(e: JsonElement): List<Question> = e.jsonArray.map { q ->
             val o = q.jsonObject
+            val kind = (o["k"] as? JsonPrimitive)?.content?.firstOrNull() ?: 's'
             Question(
                 id = q.str("id"),
                 stem = q.str("s"),
                 table = (o["t"] as? JsonArray)?.map { r -> r.jsonArray.map { it.jsonPrimitive.content } } ?: emptyList(),
                 options = q.strList("o"),
-                answer = q.intOr("a"),
+                // flashcards: option 0 = "knew it", so a self-grade is checked like any answer
+                answer = if (kind == 'f') 0 else q.intOr("a", -1),
                 source = q.str("src"),
                 appsc = o.containsKey("ap"),
                 explanation = q.str("x"),
                 notes = q.strList("n"),
+                kind = kind,
+                answerText = q.str("at"),
+                cancelled = o.containsKey("cx"),
             )
         }
         fun map(key: String): Map<Int, List<Question>> =

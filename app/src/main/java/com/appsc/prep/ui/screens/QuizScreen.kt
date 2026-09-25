@@ -80,10 +80,10 @@ fun rememberPool(src: QuizSource): List<Question>? {
 }
 
 /** mode: "new" = unattempted first, "wrong" = answered wrong, "all" = in order from the start. */
-fun pickSet(pool: List<Question>, answers: Map<String, Boolean>, mode: String): List<Question> {
+fun pickSet(pool: List<Question>, answers: Map<String, Boolean>, seen: Set<String>, mode: String): List<Question> {
     val chosen = when (mode) {
         "wrong" -> pool.filter { answers[it.id] == false }
-        "new" -> pool.filter { it.id !in answers }.ifEmpty { pool }
+        "new" -> pool.filter { it.id !in answers && it.id !in seen }.ifEmpty { pool }
         else -> pool
     }
     return chosen.take(QUIZ_SET)
@@ -110,7 +110,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
             return@Column
         }
         // freeze the set for this round
-        val set = remember(pool, round, currentMode) { pickSet(pool, store.answers, currentMode) }
+        val set = remember(pool, round, currentMode) { pickSet(pool, store.answers, store.seen, currentMode) }
         if (set.isEmpty()) {
             Box(Modifier.fillMaxSize().padding(32.dp), contentAlignment = Alignment.Center) {
                 Text("Nothing left in this set — no wrong answers to retry.", style = TextStyle(fontSize = 16.sp, color = C.Muted))
@@ -131,7 +131,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
 }
 
 @Composable
-private fun QuizRound(
+internal fun QuizRound(
     key: String,
     set: List<Question>,
     pool: List<Question>,
@@ -160,7 +160,7 @@ private fun QuizRound(
                     style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
                     modifier = Modifier.weight(1f),
                 )
-                val score = set.indices.count { picks[it] >= 0 && picks[it] == set[it].answer }
+                val score = set.indices.count { set[it].scored && picks[it] >= 0 && picks[it] == set[it].answer }
                 Text("Score $score", style = TextStyle(fontSize = 13.sp, color = C.Muted))
             }
             Spacer(Modifier.height(6.dp))
@@ -171,6 +171,11 @@ private fun QuizRound(
                 Column(Modifier.padding(horizontal = 20.dp)) {
                     Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(vertical = 6.dp)) {
                         if (q.appsc) Tag("APPSC", C.ExamBg, C.ExamInk)
+                        when {
+                            q.kind == 'f' -> Tag("Flashcard", C.AccentSoft, C.Accent)
+                            q.cancelled -> Tag("Cancelled", C.HighSoft, C.High)
+                            q.kind == 'u' -> Tag("No key", C.MedSoft, C.Med)
+                        }
                         if (q.source.isNotBlank()) Tag(q.source)
                     }
                     Text(
@@ -179,17 +184,39 @@ private fun QuizRound(
                     )
                     if (q.table.isNotEmpty()) QuestionTable(q.table)
                     Spacer(Modifier.height(14.dp))
-                    q.options.forEachIndexed { i, opt ->
-                        OptionCard(i, opt, picked, q.answer) {
-                            if (!answered) {
-                                picks[index] = i
-                                store.recordAnswer(q.id, i == q.answer)
+                    when (q.kind) {
+                        'f' -> Flashcard(q, picked) { knew ->
+                            picks[index] = if (knew) 0 else 1
+                            store.recordAnswer(q.id, knew)
+                        }
+                        'u' -> {
+                            q.options.forEachIndexed { i, opt ->
+                                OptionCard(i, opt, picked, answer = q.answer) {
+                                    if (!answered) {
+                                        picks[index] = i
+                                        store.markSeen(q.id)
+                                    }
+                                }
+                            }
+                            if (answered) {
+                                Spacer(Modifier.height(8.dp))
+                                UnscoredNote(q)
                             }
                         }
-                    }
-                    if (answered) {
-                        Spacer(Modifier.height(8.dp))
-                        Explanation(q, picked == q.answer)
+                        else -> {
+                            q.options.forEachIndexed { i, opt ->
+                                OptionCard(i, opt, picked, q.answer) {
+                                    if (!answered) {
+                                        picks[index] = i
+                                        store.recordAnswer(q.id, i == q.answer)
+                                    }
+                                }
+                            }
+                            if (answered) {
+                                Spacer(Modifier.height(8.dp))
+                                Explanation(q, picked == q.answer)
+                            }
+                        }
                     }
                     Spacer(Modifier.height(20.dp))
                 }
@@ -225,6 +252,7 @@ private fun OptionCard(i: Int, text: String, picked: Int, answer: Int, onClick: 
     val isAnswer = i == answer
     val isPicked = i == picked
     val (bg, border, ink) = when {
+        answered && answer < 0 && isPicked -> Triple(C.AccentSoft, C.Accent, C.Accent)
         answered && isAnswer -> Triple(C.GreenSoft, C.Green, C.Green)
         answered && isPicked -> Triple(C.HighSoft, C.High, C.High)
         else -> Triple(Color.White, C.Line, C.Ink)
@@ -255,7 +283,74 @@ private fun OptionCard(i: Int, text: String, picked: Int, answer: Int, onClick: 
         Spacer(Modifier.width(12.dp))
         Text(text, style = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, color = ink), modifier = Modifier.weight(1f))
         if (answered && isAnswer) Icon(Icons.Filled.CheckCircle, null, tint = C.Green, modifier = Modifier.size(22.dp))
-        if (answered && isPicked && !isAnswer) Icon(Icons.Filled.Cancel, null, tint = C.High, modifier = Modifier.size(22.dp))
+        if (answered && isPicked && !isAnswer && answer >= 0) Icon(Icons.Filled.Cancel, null, tint = C.High, modifier = Modifier.size(22.dp))
+    }
+}
+
+@Composable
+private fun Flashcard(q: Question, picked: Int, onGrade: (Boolean) -> Unit) {
+    var revealed by rememberSaveable(q.id) { mutableStateOf(picked >= 0) }
+    if (!revealed) {
+        OutlinedButton(
+            onClick = { revealed = true },
+            modifier = Modifier.fillMaxWidth().height(52.dp),
+            shape = RoundedCornerShape(12.dp),
+        ) { Text("Show answer", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.Accent)) }
+        Text(
+            "This paper printed only the answer, so there are no options. Recall it, then check.",
+            style = TextStyle(fontSize = 13.sp, color = C.Muted),
+            modifier = Modifier.padding(top = 8.dp),
+        )
+        return
+    }
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(C.AccentSoft).padding(16.dp),
+    ) {
+        Text("ANSWER", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+        Text(
+            q.answerText.removePrefix("ANS.").trim().ifBlank { "—" },
+            style = TextStyle(fontSize = 18.sp, lineHeight = 25.sp, fontWeight = FontWeight.SemiBold, color = C.Navy),
+            modifier = Modifier.padding(top = 4.dp),
+        )
+    }
+    Spacer(Modifier.height(12.dp))
+    if (picked < 0) {
+        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            OutlinedButton(
+                onClick = { onGrade(false) },
+                modifier = Modifier.weight(1f).height(50.dp),
+                shape = RoundedCornerShape(12.dp),
+            ) { Text("Didn't know", color = C.High) }
+            Button(
+                onClick = { onGrade(true) },
+                modifier = Modifier.weight(1f).height(50.dp),
+                shape = RoundedCornerShape(12.dp),
+                colors = ButtonDefaults.buttonColors(containerColor = C.Green),
+            ) { Text("I knew it") }
+        }
+    } else {
+        Text(
+            if (picked == 0) "Marked as known" else "Marked as not known — it will come back in \"Retry wrong answers\"",
+            style = TextStyle(fontSize = 14.sp, color = if (picked == 0) C.Green else C.High, fontWeight = FontWeight.Medium),
+        )
+    }
+}
+
+@Composable
+private fun UnscoredNote(q: Question) {
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(C.MedSoft).padding(14.dp),
+    ) {
+        Text(
+            if (q.cancelled) "Cancelled by APPSC — practice only" else "No official answer key",
+            style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.Bold, color = C.Med),
+        )
+        Text(
+            if (q.cancelled && q.answer >= 0) "APPSC deleted this question. The bank's suggested answer is shown in green; it is not scored."
+            else "This question is not scored. Check the answer in your notes.",
+            style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body),
+            modifier = Modifier.padding(top = 4.dp),
+        )
     }
 }
 
@@ -328,9 +423,10 @@ private fun Results(
     onDone: () -> Unit,
 ) {
     val store = LocalApp.current.store
-    val correct = set.indices.count { picks[it] == set[it].answer }
-    val wrong = set.indices.count { picks[it] >= 0 && picks[it] != set[it].answer }
-    val skipped = set.size - correct - wrong
+    val correct = set.indices.count { set[it].scored && picks[it] == set[it].answer }
+    val wrong = set.indices.count { set[it].scored && picks[it] >= 0 && picks[it] != set[it].answer }
+    val unscored = set.count { !it.scored }
+    val skipped = set.size - correct - wrong - unscored
     val (attempted, poolCorrect) = store.quizStats(pool.map { it.id })
     val remaining = pool.size - attempted
     val poolWrong = attempted - poolCorrect
@@ -342,7 +438,7 @@ private fun Results(
                     Modifier.size(120.dp).clip(CircleShape).background(C.AccentSoft),
                     contentAlignment = Alignment.Center,
                 ) {
-                    Text("$correct/${set.size}", style = TextStyle(fontSize = 32.sp, fontWeight = FontWeight.Bold, color = C.Accent))
+                    Text("$correct/${set.size - unscored}", style = TextStyle(fontSize = 32.sp, fontWeight = FontWeight.Bold, color = C.Accent))
                 }
                 Spacer(Modifier.height(12.dp))
                 // APPSC net score: +1 correct, -1/3 wrong
@@ -352,7 +448,7 @@ private fun Results(
                     style = TextStyle(fontSize = 15.sp, color = C.Ink, fontWeight = FontWeight.Medium),
                 )
                 Text(
-                    "$correct correct · $wrong wrong · $skipped skipped",
+                    "$correct correct · $wrong wrong · $skipped skipped" + if (unscored > 0) " · $unscored unscored" else "",
                     style = TextStyle(fontSize = 13.sp, color = C.Muted),
                     modifier = Modifier.padding(top = 4.dp),
                 )
@@ -402,7 +498,7 @@ private fun Results(
         }
         set.forEachIndexed { i, q ->
             item(key = "r-${q.id}-$i") {
-                val ok = picks[i] == q.answer
+                val ok = q.scored && picks[i] == q.answer
                 Row(Modifier.padding(horizontal = 20.dp, vertical = 10.dp)) {
                     Icon(
                         if (ok) Icons.Filled.CheckCircle else Icons.Filled.Cancel, null,
@@ -413,7 +509,11 @@ private fun Results(
                     Column {
                         Text(q.stem, style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Ink), maxLines = 3)
                         Text(
-                            "Answer: ${q.options.getOrElse(q.answer) { "" }}",
+                            when {
+                                q.kind == 'f' -> "Answer: ${q.answerText}"
+                                !q.scored -> if (q.cancelled) "Cancelled by APPSC" else "No official key"
+                                else -> "Answer: ${q.options.getOrElse(q.answer) { "" }}"
+                            },
                             style = TextStyle(fontSize = 13.sp, color = C.Green),
                             modifier = Modifier.padding(top = 2.dp),
                         )
