@@ -14,9 +14,14 @@ import hashlib
 import json
 import math
 import re
+import os
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
+
+if os.environ.get("PYTHONHASHSEED") != "0":  # set iteration decides ties in placement; fix it so rebuilds match
+    os.environ["PYTHONHASHSEED"] = "0"
+    os.execv(sys.executable, [sys.executable] + sys.argv)
 
 import docx
 import pymupdf
