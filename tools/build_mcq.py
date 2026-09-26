@@ -294,6 +294,9 @@ REHOME_ITEMS = Path(__file__).parent / "data" / "rehome_items.json"
 REHOME_REJECTS = Path(__file__).parent / "data" / "review_rejects.txt"
 APH_PREV = Path(__file__).parent / "data" / "aph_prev.txt"  # hand-cleaned AP History one-liners (Q || A)
 GS_EXTRA = Path(__file__).parent / "data" / "appsc_gs_extra.json"  # GS questions from APPSC key PDFs not in the bank
+PLACE_UNITS = True  # file topic-level questions into sections
+UNIT_OVERRIDES = Path(__file__).parent / "data" / "unit_overrides.json"  # hand-checked {qid: row}
+UNIT_LOG = Path(__file__).parent / "data" / "unit_placement.json"
 PYQ_FIXES = Path(__file__).parent / "data" / "pyq_fixes.json"  # hand-checked text for scan-damaged questions
 BROKEN_OUT = Path(__file__).parent / "data" / "broken_pyqs.json"
 SECTION_ITEMS = Path(__file__).parent / "data" / "section_rehome_items.json"
@@ -694,6 +697,86 @@ def main():
     stats["ocr_partly_broken"] = sum(1 for b in broken if b["level"] == 1)
     broken.sort(key=lambda b: (b["src"], -b["level"]))
     BROKEN_OUT.write_text(json.dumps(broken, ensure_ascii=False, indent=1))
+
+    # ---- topic-level ("General") questions: file each into the best section of its own topic
+    unit_log = []
+    if PLACE_UNITS:
+        u_over = json.loads(UNIT_OVERRIDES.read_text()) if UNIT_OVERRIDES.exists() else {}
+        flat = {bk: [rr for u in books[bk]["units"] for rr in u["rows"]] for bk in books}
+        where_all, docs_all = [], []
+        for bk in sorted(books):
+            for r, row in enumerate(flat[bk]):
+                body = []
+                for sec in row["secs"]:
+                    for bl in sec["b"]:
+                        x = bl.get("x")
+                        body.append(x if isinstance(x, str) else "".join(t for t, _ in x) if isinstance(x, list) else "")
+                where_all.append((bk, r))
+                docs_all.append(tokens((row["title"] + " " + " ".join(sec["t"] for sec in row["secs"])) * 3) + tokens(" ".join(body))[:4000])
+        tf_glob = Tfidf(docs_all)
+        # every question already filed in a section, indexed by its rare words
+        placed_q, inv_g = {}, defaultdict(set)
+        for key, qd in per_row.items():
+            for i, q in qd.items():
+                placed_q.setdefault(i, (key, set(tokens(q["s"] + " " + " ".join(q["o"]) + " " + q.get("at", "")))))
+        for i, (_, ts) in placed_q.items():
+            for w in ts:
+                inv_g[w].add(i)
+        in_book = defaultdict(set)
+        for (bk, r), qd in per_row.items():
+            in_book[bk].update(qd)
+        def vote(ts, book=None):
+            cnt = Counter()
+            for w in ts:
+                if 0 < len(inv_g[w]) < 300:
+                    cnt.update(inv_g[w])
+            votes = Counter()
+            for j, _ in cnt.most_common(80):
+                key, t2 = placed_q[j]
+                if book is not None and key[0] != book:
+                    continue
+                sim = len(ts & t2) / max(1, len(ts | t2))
+                if sim >= 0.15:
+                    votes[key] += sim * sim
+            return votes.most_common(1)[0] if votes else (None, 0.0)
+        for (bk, ui), qd in sorted(per_unit.items()):
+            for i, q in list(qd.items()):
+                del qd[i]
+                if i in in_book[bk]:
+                    stats["unit_general_already_in_section"] += 1
+                    continue
+                ts = set(tokens(q["s"] + " " + " ".join(q["o"]) + " " + q.get("at", "")))
+                other = False
+                if i in u_over:
+                    key, how = tuple(u_over[i]), "hand 1"
+                else:
+                    key, v = vote(ts, bk)
+                    how = f"near {v:.2f}"
+                    if key is None or v < 0.04:
+                        key, v = vote(ts)
+                        how = f"near-any {v:.2f}"
+                        if key is None or v < 0.2:
+                            sc, k = tf_glob.best(list(ts))
+                            key, how = where_all[k], f"notes-any {sc:.2f}"
+                            if sc < 0.12:  # nothing really matches: keep in its subject, under the closest section's "Other PYQs"
+                                sub = [n for n, w in enumerate(where_all) if w[0] == bk]
+                                v2 = tf_glob.vec(list(ts))
+                                k = max(sub, key=lambda n: sum(v2.get(w, 0) * x for w, x in tf_glob.vecs[n].items()))
+                                key, how, other = where_all[k], f"other {sc:.2f}", True
+                                if bk == 5:  # the syllabus has no general-science section; everyday science goes here
+                                    key = (5, 1)
+                per_row[key][i] = q
+                in_book[key[0]].add(i)
+                k0, sc0 = how.split()[0], float(how.split()[1])
+                confident = k0 == "hand" or k0 == "near-any" or (k0 == "near" and sc0 >= 0.25) or (k0 == "notes-any" and sc0 >= 0.15)
+                if other or not confident:  # loosely matched: list it under the section's "Other PYQs", not a subsection
+                    forced[key[0]][(key[1], i)] = -1
+                    stats["unit_general_in_other"] += 1
+                unit_log.append({"id": i, "book": bk, "to_book": key[0], "row": key[1], "how": how, "s": q["s"][:160]})
+                stats["unit_general_placed"] += 1
+                if key[0] != bk:
+                    stats["unit_general_moved_subject"] += 1
+        UNIT_LOG.write_text(json.dumps(unit_log, ensure_ascii=False, indent=0))
 
     # ---- write one file per book: rows -> questions, units -> general questions
     for n in range(1, 7):
