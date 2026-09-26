@@ -293,6 +293,7 @@ AI_PLACEMENTS = Path(__file__).parent / "data" / "ai_subsections.json"
 REHOME_ITEMS = Path(__file__).parent / "data" / "rehome_items.json"
 REHOME_REJECTS = Path(__file__).parent / "data" / "review_rejects.txt"
 APH_PREV = Path(__file__).parent / "data" / "aph_prev.txt"  # hand-cleaned AP History one-liners (Q || A)
+GS_EXTRA = Path(__file__).parent / "data" / "appsc_gs_extra.json"  # GS questions from APPSC key PDFs not in the bank
 PYQ_FIXES = Path(__file__).parent / "data" / "pyq_fixes.json"  # hand-checked text for scan-damaged questions
 BROKEN_OUT = Path(__file__).parent / "data" / "broken_pyqs.json"
 SECTION_ITEMS = Path(__file__).parent / "data" / "section_rehome_items.json"
@@ -577,6 +578,33 @@ def main():
             per_row[(1, ri)][item["id"]] = item
             all_q.setdefault(item["id"], item)
             stats["aph_prev_added"] += 1
+
+    # ---- extra APPSC GS questions from the official key PDFs (mental ability left out), filed by similarity
+    if GS_EXTRA.exists():
+        all_rows, where = [], []
+        for bk in sorted(books):
+            flat = 0
+            for u in books[bk]["units"]:
+                for r in u["rows"]:
+                    body = []
+                    for sec in r["secs"]:
+                        for bl in sec["b"]:
+                            x = bl.get("x")
+                            body.append(x if isinstance(x, str) else "".join(t for t, _ in x) if isinstance(x, list) else "")
+                    all_rows.append(tokens((r["title"] + " " + " ".join(sec["t"] for sec in r["secs"])) * 3) + tokens(" ".join(body))[:4000])
+                    where.append((bk, flat)); flat += 1
+        tf_all = Tfidf(all_rows)
+        for q in json.loads(GS_EXTRA.read_text()):
+            item = {"s": q["s"], "o": q["o"], "a": q["a"], "src": q["src"], "ap": 1}
+            if not q["o"]:
+                item.update(k="f", at=q["at"], a=-1)
+            item["id"] = qid(q["s"], q["o"])
+            if item["id"] in all_q:
+                continue
+            score, ri = tf_all.best(tokens(q["s"] + " " + " ".join(q["o"]) + " " + q.get("at", "")))
+            per_row[where[ri]][item["id"]] = item
+            all_q[item["id"]] = item
+            stats["gs_extra_added"] += 1
 
     # ---- reviewed re-homes: move misfiled questions to the row and subsection they belong to
     forced = defaultdict(dict)
