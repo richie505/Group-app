@@ -230,7 +230,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                     val stats = ids?.let { app.store.quizStats(it) }
                     PracticeCard(
                         title = "All section PYQs",
-                        subtitle = "${info!!.questionCount} questions · sets of $QUIZ_SET",
+                        subtitle = "${info!!.questionCount} questions · all in one go",
                         attempted = stats?.let { Triple(it.first, it.second, ids.size) },
                         onStart = { nav.quiz("row", bookId, rowIndex) },
                         onWrong = { nav.quiz("row", bookId, rowIndex, "wrong") },

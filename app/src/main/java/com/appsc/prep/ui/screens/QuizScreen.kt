@@ -49,6 +49,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.Question
+import com.appsc.prep.data.Techniques
 import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.ProgressLine
@@ -56,7 +57,6 @@ import com.appsc.prep.ui.components.Tag
 import com.appsc.prep.ui.components.TopBar
 import com.appsc.prep.ui.theme.C
 
-const val QUIZ_SET = 10
 
 /** Where the questions come from. kind: "row" (book, index), "unit" (book, index), "day" (day number). */
 data class QuizSource(val kind: String, val book: Int, val index: Int, val sub: Int = -1)
@@ -80,14 +80,14 @@ fun rememberPool(src: QuizSource): List<Question>? {
     return pool
 }
 
-/** mode: "new" = unattempted first, "wrong" = answered wrong, "all" = in order from the start. */
+/** mode: "new" = unattempted ones, "wrong" = answered wrong, "all" = every question in order. The whole section comes in one run. */
 fun pickSet(pool: List<Question>, answers: Map<String, Boolean>, seen: Set<String>, mode: String): List<Question> {
     val chosen = when (mode) {
         "wrong" -> pool.filter { answers[it.id] == false }
         "new" -> pool.filter { it.id !in answers && it.id !in seen }.ifEmpty { pool }
         else -> pool
     }
-    return chosen.take(QUIZ_SET)
+    return chosen
 }
 
 @Composable
@@ -202,7 +202,7 @@ internal fun QuizRound(
                             if (answered) {
                                 Spacer(Modifier.height(8.dp))
                                 UnscoredNote(q)
-                            }
+                            } else HintBox(q)
                         }
                         else -> {
                             q.options.forEachIndexed { i, opt ->
@@ -215,8 +215,8 @@ internal fun QuizRound(
                             }
                             if (answered) {
                                 Spacer(Modifier.height(8.dp))
-                                Explanation(q, picked == q.answer)
-                            }
+                                Explanation(q, picked == q.answer, picked)
+                            } else HintBox(q)
                         }
                     }
                     Spacer(Modifier.height(20.dp))
@@ -224,22 +224,30 @@ internal fun QuizRound(
             }
         }
         Row(Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 12.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            OutlinedButton(
+                onClick = { index-- },
+                enabled = index > 0,
+                modifier = Modifier.weight(1f).height(50.dp),
+                shape = RoundedCornerShape(12.dp),
+                contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 4.dp),
+            ) { Text("Previous", color = if (index > 0) C.Ink else C.Faint, maxLines = 1, style = TextStyle(fontSize = 14.sp)) }
             if (!answered) {
                 OutlinedButton(
                     onClick = { index++ },
                     modifier = Modifier.weight(1f).height(50.dp),
                     shape = RoundedCornerShape(12.dp),
-                ) { Text("Skip", color = C.Muted) }
+                    contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 4.dp),
+                ) { Text("Skip", color = C.Muted, maxLines = 1, style = TextStyle(fontSize = 14.sp)) }
             }
             Button(
                 onClick = { index++ },
                 enabled = answered,
-                modifier = Modifier.weight(2f).height(50.dp),
+                modifier = Modifier.weight(1.4f).height(50.dp),
                 shape = RoundedCornerShape(12.dp),
                 colors = ButtonDefaults.buttonColors(containerColor = C.Accent),
             ) {
                 Text(
-                    if (index == set.size - 1) "See results" else "Next question",
+                    if (index == set.size - 1) "See results" else "Next",
                     style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
                 )
             }
@@ -356,7 +364,7 @@ private fun UnscoredNote(q: Question) {
 }
 
 @Composable
-private fun Explanation(q: Question, correct: Boolean) {
+private fun Explanation(q: Question, correct: Boolean, picked: Int) {
     Column(
         Modifier
             .fillMaxWidth()
@@ -375,6 +383,14 @@ private fun Explanation(q: Question, correct: Boolean) {
                 Text(it, style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
             }
         }
+        val review = remember(q.id, picked) { Techniques.review(q, picked) }
+        if (review.isNotEmpty()) {
+            Spacer(Modifier.height(10.dp))
+            Text("WHY IT WENT WRONG · TECHNIQUE", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+            review.forEach {
+                Text("• $it", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
+            }
+        }
         if (q.notes.isNotEmpty()) {
             Spacer(Modifier.height(10.dp))
             Text("EXAM NOTE", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.ExamInk, letterSpacing = 0.8.sp))
@@ -382,6 +398,34 @@ private fun Explanation(q: Question, correct: Boolean) {
                 Text("• $it", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 3.dp))
             }
         }
+    }
+}
+
+/** "Stuck?" hint from the MCQ techniques guide; shown only before answering and never reveals the key. */
+@Composable
+private fun HintBox(q: Question) {
+    val hints = remember(q.id) { Techniques.hints(q) }
+    if (hints.isEmpty()) return
+    var open by rememberSaveable(q.id) { mutableStateOf(false) }
+    Spacer(Modifier.height(10.dp))
+    if (!open) {
+        OutlinedButton(
+            onClick = { open = true },
+            modifier = Modifier.fillMaxWidth().height(46.dp),
+            shape = RoundedCornerShape(12.dp),
+        ) { Text("Stuck? Show a hint", style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.Accent)) }
+        return
+    }
+    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(C.AccentSoft).padding(14.dp)) {
+        Text("HINT · MCQ TECHNIQUE", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+        hints.forEach {
+            Text("• $it", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
+        }
+        Text(
+            "Knowledge first: use these only when you are stuck.",
+            style = TextStyle(fontSize = 12.sp, color = C.Muted),
+            modifier = Modifier.padding(top = 6.dp),
+        )
     }
 }
 
@@ -472,7 +516,7 @@ private fun Results(
                         modifier = Modifier.fillMaxWidth().height(50.dp),
                         shape = RoundedCornerShape(12.dp),
                         colors = ButtonDefaults.buttonColors(containerColor = C.Accent),
-                    ) { Text("Next $QUIZ_SET questions ($remaining left)", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
+                    ) { Text("Practise the $remaining unattempted", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
                     Spacer(Modifier.height(10.dp))
                 }
                 if (poolWrong > 0) {

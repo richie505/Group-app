@@ -94,6 +94,22 @@ class ScreenshotTest {
         rule.onRoot().captureRoboImage("screenshots/$name.png")
     }
 
+    /** A Polity statements question: hint opened before answering, then a wrong pick with its technique note. */
+    @Test fun hintAndTechnique() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val q = runBlocking { Repository(ctx).mcq(2) }.rows.values.flatten().first {
+            it.kind == 's' && com.appsc.prep.data.Techniques.kind(it) == com.appsc.prep.data.Techniques.Kind.STATEMENTS &&
+                it.stem.length < 420 && com.appsc.prep.data.Techniques.hints(it).size >= 3
+        }
+        shot("13_hint") { QuizRound("h", listOf(q, q), listOf(q), {}, {}) }
+        rule.onNodeWithText("Stuck? Show a hint").performClick()
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/13_hint.png")
+        rule.onNodeWithText(q.options[(q.answer + 1) % q.options.size]).performClick()
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/14_wrong_technique.png")
+    }
+
     @Test fun flashcard() = roundShot("11_flashcard", 'f') { "Show answer" }
     @Test fun unscored() = roundShot("12_unscored", 'u') { it.options[0] }
 

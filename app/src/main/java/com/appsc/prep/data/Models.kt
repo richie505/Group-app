@@ -151,6 +151,8 @@ data class Question(
     val kind: Char = 's',
     val answerText: String = "",
     val cancelled: Boolean = false,
+    /** Book (subject) the question is filed under: 1 History … 6 Current Affairs. Drives the MCQ technique hints. */
+    val book: Int = 0,
 ) {
     val scored get() = kind != 'u'
 }

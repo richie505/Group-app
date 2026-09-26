@@ -5,7 +5,8 @@ and the Restructured 90-Day Plan.
 
 **Structure:** Day → Topic (UNIT) → Section (syllabus row) → Subsection (■ heading) → content.
 
-After each section: **PYQ practice** in sets of 10, with instant answers, explanations (CDI),
+After each section: **PYQ practice** with every question in one run (Previous / Skip / Next), a "Stuck? Show a hint" button and a
+"why it went wrong" technique note from the APPSC MCQ Techniques guide (`data/Techniques.kt`), instant answers, explanations (CDI),
 net score with 1/3 negative marking, and "retry wrong answers".
 
 Tabs: **Today** (today's targets) · **Plan** (all 90 days + buffer) · **Notes** (browse all 6 books)

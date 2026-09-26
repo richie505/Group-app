@@ -34,7 +34,7 @@ class Repository(private val context: Context) {
     private val mcqs = HashMap<Int, BookMcq>()
 
     suspend fun mcq(id: Int): BookMcq = mutex.withLock {
-        mcqs[id] ?: withContext(Dispatchers.IO) { parseMcq(readJson("mcq$id.json")) }.also { mcqs[id] = it }
+        mcqs[id] ?: withContext(Dispatchers.IO) { parseMcq(readJson("mcq$id.json"), id) }.also { mcqs[id] = it }
     }
 
     fun cachedMcq(id: Int): BookMcq? = mcqs[id]
@@ -117,7 +117,7 @@ class Repository(private val context: Context) {
         }
     }
 
-    private fun parseMcq(root: JsonElement): BookMcq {
+    private fun parseMcq(root: JsonElement, book: Int): BookMcq {
         fun list(e: JsonElement): List<Question> = e.jsonArray.map { q ->
             val o = q.jsonObject
             val kind = (o["k"] as? JsonPrimitive)?.content?.firstOrNull() ?: 's'
@@ -135,6 +135,7 @@ class Repository(private val context: Context) {
                 kind = kind,
                 answerText = q.str("at"),
                 cancelled = o.containsKey("cx"),
+                book = book,
             )
         }
         fun map(key: String): Map<Int, List<Question>> =
