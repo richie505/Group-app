@@ -578,7 +578,7 @@ def main():
     fixes = json.loads(PYQ_FIXES.read_text()) if PYQ_FIXES.exists() else {}
     for q in uniq.values():
         f = fixes.get(q["id"])
-        if f:
+        if f and not f.get("ok"):
             q["s"], q["o"], q["a"] = f["s"], f["o"], f["a"]
             stats["hand_fixed"] += 1
     cleaner = Cleaner(texts)
@@ -586,7 +586,7 @@ def main():
     for q in uniq.values():
         stats["ocr_trimmed"] += cleaner.clean_question(q)
         lv = cleaner.level(q)
-        if lv:
+        if lv and not fixes.get(q["id"], {}).get("ok"):
             broken.append({"level": lv, "id": q["id"], "src": q["src"], "s": q["s"], "o": q["o"]})
     stats["ocr_badly_broken"] = sum(1 for b in broken if b["level"] == 2)
     stats["ocr_partly_broken"] = sum(1 for b in broken if b["level"] == 1)
