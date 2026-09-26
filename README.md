@@ -26,6 +26,10 @@ python3 tools/build_mcq.py <mcq_dir> app/src/main/assets   # PYQ Bank .docx file
 PYQs are attached to sections through the row codes in the PYQ Bank headings. CDI AP History
 questions add their explanation to the matching bank question, or are filed under the closest
 History & Culture section when the bank does not have them.
+Hand-review decisions for each subject's "Other PYQs" live in `tools/data/subject_review.json`
+(move to a row/subsection, drop from that subject, or send to another subject);
+`tools/data/extra_secs.json` adds PYQ-only subsections (Science: general physics, chemistry,
+biology, human body) to the notes files.
 
 ## Building
 

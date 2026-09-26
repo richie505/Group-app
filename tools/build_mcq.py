@@ -301,6 +301,8 @@ PYQ_FIXES = Path(__file__).parent / "data" / "pyq_fixes.json"  # hand-checked te
 BROKEN_OUT = Path(__file__).parent / "data" / "broken_pyqs.json"
 SECTION_ITEMS = Path(__file__).parent / "data" / "section_rehome_items.json"
 SECTION_ACCEPTS = Path(__file__).parent / "data" / "section_review_accepts.txt"
+EXTRA_SECS = Path(__file__).parent / "data" / "extra_secs.json"  # PYQ-only subsections appended to note rows
+SUBJECT_REVIEW = Path(__file__).parent / "data" / "subject_review.json"  # hand review of "Other PYQs": {book: {qid: [book,row,sub|None] | "drop" | "other"}}
 
 
 def load_rehomes():
@@ -381,6 +383,15 @@ def main():
     books = {}
     for n in range(1, 7):
         b = json.loads((assets / f"book{n}.json").read_text())
+        if EXTRA_SECS.exists():  # idempotent: append each missing PYQ-only subsection and save the notes file
+            flat_rows = [r for u in b["units"] for r in u["rows"]]
+            added = False
+            for x in json.loads(EXTRA_SECS.read_text()):
+                if x["book"] == n and all(sec["t"] != x["t"] for sec in flat_rows[x["row"]]["secs"]):
+                    flat_rows[x["row"]]["secs"].append({"t": x["t"], "badges": [], "p": flat_rows[x["row"]].get("p1", 0), "b": x["b"]})
+                    added = True
+            if added:
+                (assets / f"book{n}.json").write_text(json.dumps(b, ensure_ascii=False, separators=(",", ":")))
         books[n] = b
         seq = 0
         for ui, u in enumerate(b["units"]):
@@ -777,6 +788,39 @@ def main():
                 if key[0] != bk:
                     stats["unit_general_moved_subject"] += 1
         UNIT_LOG.write_text(json.dumps(unit_log, ensure_ascii=False, indent=0))
+
+    # ---- hand review of each subject's "Other PYQs": move to a row/subsection, or drop from that subject
+    if SUBJECT_REVIEW.exists():
+        for src_bk, dec in json.loads(SUBJECT_REVIEW.read_text()).items():
+            src_bk = int(src_bk)
+            for i, d in dec.items():
+                q = None
+                for (bk, r), qd in per_row.items():
+                    if bk == src_bk and i in qd:  # every copy in that subject goes; the decision says where it lives
+                        q = qd.pop(i)
+                        forced[bk].pop((r, i), None)
+                if q is None:
+                    stats["review_missing"] += 1
+                    continue
+                if d == "drop":
+                    stats["review_dropped"] += 1
+                    continue
+                if d == "other":  # belongs to another subject: already there, or its closest section outside this one
+                    if any(i in qd for (bk, _), qd in per_row.items() if bk != src_bk):
+                        stats["review_already_elsewhere"] += 1
+                        continue
+                    ts_ = list(tokens(q["s"] + " " + " ".join(q["o"]) + " " + q.get("at", "")))
+                    v2 = tf_glob.vec(ts_)
+                    cand = [n for n, w in enumerate(where_all) if w[0] != src_bk]
+                    k = max(cand, key=lambda n: sum(v2.get(w, 0) * x for w, x in tf_glob.vecs[n].items()))
+                    per_row[where_all[k]][i] = q
+                    stats["review_moved_subject"] += 1
+                    continue
+                tb, tr, ts = d
+                per_row[(tb, tr)][i] = q
+                if ts is not None:
+                    forced[tb][(tr, i)] = ts
+                stats["review_moved"] += 1
 
     # ---- write one file per book: rows -> questions, units -> general questions
     for n in range(1, 7):
