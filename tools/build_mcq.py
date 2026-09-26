@@ -23,6 +23,9 @@ import pymupdf
 from docx.table import Table
 from docx.text.paragraph import Paragraph
 
+sys.path.insert(0, str(Path(__file__).parent))
+from ocr_clean import Cleaner  # noqa: E402
+
 HEAD_RE = re.compile(r"^([A-Z][A-Z0-9]*(?:-[A-Z0-9]+)*-\d+)\s+(.*?)(?:\s+\(\d+\))?\s*(?:—\s*NO PYQ)?$")
 QSTART_RE = re.compile(r"^(\d+)\.\s+(.*)")
 OPT_RE = re.compile(r"^\((\d)\)\s*(.*)")
@@ -289,6 +292,7 @@ def block_text(bl):
 AI_PLACEMENTS = Path(__file__).parent / "data" / "ai_subsections.json"
 REHOME_ITEMS = Path(__file__).parent / "data" / "rehome_items.json"
 REHOME_REJECTS = Path(__file__).parent / "data" / "review_rejects.txt"
+BROKEN_OUT = Path(__file__).parent / "data" / "broken_pyqs.json"
 SECTION_ITEMS = Path(__file__).parent / "data" / "section_rehome_items.json"
 SECTION_ACCEPTS = Path(__file__).parent / "data" / "section_review_accepts.txt"
 
@@ -555,6 +559,32 @@ def main():
         stats["section_moved"] += 1
     for key in [k for k, v in per_row.items() if not v]:
         del per_row[key]
+
+    # ---- trim OCR junk left by scanned papers; list what is still too broken to fix here
+    uniq = {}
+    for d in list(per_row.values()) + list(per_unit.values()):
+        for i, q in d.items():
+            uniq[id(q)] = q
+    texts = []
+    for b in books.values():
+        for u in b["units"]:
+            for r in u["rows"]:
+                texts.append(r["title"])
+                for sec in r["secs"]:
+                    texts.append(sec["t"])
+                    texts += [block_text(x) for x in sec["b"]]
+    texts += [q["s"] + " " + " ".join(q["o"]) for q in uniq.values()]
+    cleaner = Cleaner(texts)
+    broken = []
+    for q in uniq.values():
+        stats["ocr_trimmed"] += cleaner.clean_question(q)
+        lv = cleaner.level(q)
+        if lv:
+            broken.append({"level": lv, "id": q["id"], "src": q["src"], "s": q["s"], "o": q["o"]})
+    stats["ocr_badly_broken"] = sum(1 for b in broken if b["level"] == 2)
+    stats["ocr_partly_broken"] = sum(1 for b in broken if b["level"] == 1)
+    broken.sort(key=lambda b: (b["src"], -b["level"]))
+    BROKEN_OUT.write_text(json.dumps(broken, ensure_ascii=False, indent=1))
 
     # ---- write one file per book: rows -> questions, units -> general questions
     for n in range(1, 7):
