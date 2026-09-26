@@ -618,6 +618,8 @@ def main():
             item = {"s": q["s"], "o": q["o"], "a": q["a"], "src": q["src"], "ap": 1}
             if not q["o"]:
                 item.update(k="f", at=q["at"], a=-1)
+            elif q["a"] < 0:
+                item["k"] = "u"  # question paper without an official key: practice only, unscored
             item["id"] = qid(q["s"], q["o"])
             if item["id"] in all_q:
                 continue
