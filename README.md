@@ -20,7 +20,7 @@ pip install pymupdf
 python3 tools/parse_notes.py <pdf_dir> app/src/main/assets        # book1.pdf .. book6.pdf
 python3 tools/parse_plan.py <pdf_dir>/plan.pdf app/src/main/assets app/src/main/assets/plan.json
 pip install python-docx
-python3 tools/build_mcq.py <mcq_dir> app/src/main/assets   # PYQ Bank .docx files + CDI AP History PDF
+python3 tools/build_mcq.py <mcq_dir> app/src/main/assets   # PYQ Bank .docx files + CDI AP History PDF (+ tools/data/aph_prev.txt one-liners)
 ```
 
 PYQs are attached to sections through the row codes in the PYQ Bank headings. CDI AP History

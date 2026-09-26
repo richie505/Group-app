@@ -292,6 +292,7 @@ def block_text(bl):
 AI_PLACEMENTS = Path(__file__).parent / "data" / "ai_subsections.json"
 REHOME_ITEMS = Path(__file__).parent / "data" / "rehome_items.json"
 REHOME_REJECTS = Path(__file__).parent / "data" / "review_rejects.txt"
+APH_PREV = Path(__file__).parent / "data" / "aph_prev.txt"  # hand-cleaned AP History one-liners (Q || A)
 PYQ_FIXES = Path(__file__).parent / "data" / "pyq_fixes.json"  # hand-checked text for scan-damaged questions
 BROKEN_OUT = Path(__file__).parent / "data" / "broken_pyqs.json"
 SECTION_ITEMS = Path(__file__).parent / "data" / "section_rehome_items.json"
@@ -449,6 +450,21 @@ def main():
                 per_row[t][i] = item
             stats["mapped"] += 1
 
+    # candidate rows for AP history: book 1 rows
+    b1_rows = []
+    for ui, u in enumerate(books[1]["units"]):
+        for r in u["rows"]:
+            text = r["title"] + " " + " ".join(s["t"] for s in r["secs"])
+            body = []
+            for s in r["secs"]:
+                for bl in s["b"]:
+                    x = bl.get("x")
+                    if isinstance(x, str):
+                        body.append(x)
+                    elif isinstance(x, list):
+                        body.append("".join(t for t, _ in x))
+            b1_rows.append(tokens(text * 3) + tokens(" ".join(body))[:4000])
+    tf = Tfidf(b1_rows)
     # ---- CDI: merge explanations into bank questions, file the rest by similarity
     cdi_path = next(src.glob("*Cdi*AP-History*.pdf"), None)
     if cdi_path:
@@ -501,21 +517,6 @@ def main():
                 if j > best:
                     best, best_i = j, i
             return best_i if best >= 0.6 else None
-        # candidate rows for AP history: book 1 rows
-        b1_rows = []
-        for ui, u in enumerate(books[1]["units"]):
-            for r in u["rows"]:
-                text = r["title"] + " " + " ".join(s["t"] for s in r["secs"])
-                body = []
-                for s in r["secs"]:
-                    for bl in s["b"]:
-                        x = bl.get("x")
-                        if isinstance(x, str):
-                            body.append(x)
-                        elif isinstance(x, list):
-                            body.append("".join(t for t, _ in x))
-                b1_rows.append(tokens(text * 3) + tokens(" ".join(body))[:4000])
-        tf = Tfidf(b1_rows)
         row_of_q = defaultdict(set)
         for key, qd in per_row.items():
             for i in qd:
@@ -538,6 +539,44 @@ def main():
             score, ri = tf.best(tokens(c["s"] + " " + " ".join(c["o"]) + " " + " ".join(note)))
             per_row[(1, ri)][item["id"]] = item
             stats["cdi_added_by_similarity"] += 1
+
+    # ---- AP History one-liners ("previous papers.pdf"): recall cards for the ones not already in the bank
+    if APH_PREV.exists():
+        ap_tok = {i: set(tokens(q["s"] + " " + " ".join(q["o"]) + " " + q.get("at", ""))) for i, q in all_q.items()}
+        ap_inv = defaultdict(set)
+        for i, ts in ap_tok.items():
+            for w in ts:
+                ap_inv[w].add(i)
+        part = "pyq"
+        for line in APH_PREV.read_text().splitlines():
+            if line.startswith("## "):
+                part = line[3:].strip()
+                continue
+            if "||" not in line or line.startswith("#"):
+                continue
+            cue, ans = (x.strip() for x in line.split("||", 1))
+            ts = set(tokens(cue + " " + ans))
+            cand = Counter()
+            for w in ts:
+                if len(ap_inv[w]) < 400:
+                    cand.update(ap_inv[w])
+            same = [i for i, _ in cand.most_common(20) if ts and len(ts & ap_tok[i]) / len(ts) >= 0.75]
+            if same:
+                q = all_q[same[0]]
+                if not q["o"] and not q.get("at"):  # bank has the question but no answer: take the PDF's
+                    q.update(k="f", at=ans, a=-1)
+                    stats["aph_prev_answered_bank_q"] += 1
+                stats["aph_prev_already_in_bank"] += 1
+                continue
+            item = {"s": cue, "o": [], "a": -1, "k": "f", "at": ans, "id": qid(cue, [])}
+            if part == "pyq":
+                item.update(src="AP History PYQs 1983-2024 (one-liners)", ap=1)
+            else:
+                item["src"] = "AP History one-liner notes"
+            score, ri = tf.best(tokens(cue + " " + ans))
+            per_row[(1, ri)][item["id"]] = item
+            all_q.setdefault(item["id"], item)
+            stats["aph_prev_added"] += 1
 
     # ---- reviewed re-homes: move misfiled questions to the row and subsection they belong to
     forced = defaultdict(dict)
