@@ -578,15 +578,24 @@ def main():
     fixes = json.loads(PYQ_FIXES.read_text()) if PYQ_FIXES.exists() else {}
     for q in uniq.values():
         f = fixes.get(q["id"])
-        if f and not f.get("ok"):
+        if f and not f.get("ok") and not f.get("drop"):
             q["s"], q["o"], q["a"] = f["s"], f["o"], f["a"]
+            if "at" in f:
+                q["at"] = f["at"]
             stats["hand_fixed"] += 1
+    # questions whose content was lost in the scan (charts, missing options) are left out
+    dropped = {i for i, f in fixes.items() if f.get("drop")}
+    for d in list(per_row.values()) + list(per_unit.values()):
+        for i in [i for i in d if i in dropped]:
+            del d[i]
+            stats["dropped_unrecoverable"] += 1
+    uniq = {k: q for k, q in uniq.items() if q["id"] not in dropped}
     cleaner = Cleaner(texts)
     broken = []
     for q in uniq.values():
         stats["ocr_trimmed"] += cleaner.clean_question(q)
         lv = cleaner.level(q)
-        if lv and not fixes.get(q["id"], {}).get("ok"):
+        if lv and q["id"] not in fixes:  # everything in the fixes file was checked by hand
             broken.append({"level": lv, "id": q["id"], "src": q["src"], "s": q["s"], "o": q["o"]})
     stats["ocr_badly_broken"] = sum(1 for b in broken if b["level"] == 2)
     stats["ocr_partly_broken"] = sum(1 for b in broken if b["level"] == 1)
