@@ -594,6 +594,26 @@ def main():
                     all_rows.append(tokens((r["title"] + " " + " ".join(sec["t"] for sec in r["secs"])) * 3) + tokens(" ".join(body))[:4000])
                     where.append((bk, flat)); flat += 1
         tf_all = Tfidf(all_rows)
+        # nearest already-filed question (by shared rare words) decides the row; notes similarity is the fallback
+        placed, near_inv = {}, defaultdict(set)
+        for key, qd in per_row.items():
+            for i, q in qd.items():
+                if i not in placed:
+                    placed[i] = (key, set(tokens(q["s"] + " " + " ".join(q["o"]) + " " + q.get("at", ""))))
+        for i, (_, ts) in placed.items():
+            for w in ts:
+                near_inv[w].add(i)
+        def nearest(ts):
+            cand = Counter()
+            for w in ts:
+                if 0 < len(near_inv[w]) < 300:
+                    cand.update(near_inv[w])
+            best, key = 0.0, None
+            for i, _ in cand.most_common(40):
+                j = len(ts & placed[i][1]) / len(ts | placed[i][1])
+                if j > best:
+                    best, key = j, placed[i][0]
+            return key if best >= 0.2 else None
         for q in json.loads(GS_EXTRA.read_text()):
             item = {"s": q["s"], "o": q["o"], "a": q["a"], "src": q["src"], "ap": 1}
             if not q["o"]:
@@ -601,8 +621,12 @@ def main():
             item["id"] = qid(q["s"], q["o"])
             if item["id"] in all_q:
                 continue
-            score, ri = tf_all.best(tokens(q["s"] + " " + " ".join(q["o"]) + " " + q.get("at", "")))
-            per_row[where[ri]][item["id"]] = item
+            ts = tokens(q["s"] + " " + " ".join(q["o"]) + " " + q.get("at", ""))
+            key = nearest(set(ts))
+            if key is None:
+                key = where[tf_all.best(ts)[1]]
+                stats["gs_extra_by_notes"] += 1
+            per_row[key][item["id"]] = item
             all_q[item["id"]] = item
             stats["gs_extra_added"] += 1
 
