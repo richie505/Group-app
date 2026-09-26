@@ -292,6 +292,7 @@ def block_text(bl):
 AI_PLACEMENTS = Path(__file__).parent / "data" / "ai_subsections.json"
 REHOME_ITEMS = Path(__file__).parent / "data" / "rehome_items.json"
 REHOME_REJECTS = Path(__file__).parent / "data" / "review_rejects.txt"
+PYQ_FIXES = Path(__file__).parent / "data" / "pyq_fixes.json"  # hand-checked text for scan-damaged questions
 BROKEN_OUT = Path(__file__).parent / "data" / "broken_pyqs.json"
 SECTION_ITEMS = Path(__file__).parent / "data" / "section_rehome_items.json"
 SECTION_ACCEPTS = Path(__file__).parent / "data" / "section_review_accepts.txt"
@@ -574,6 +575,12 @@ def main():
                     texts.append(sec["t"])
                     texts += [block_text(x) for x in sec["b"]]
     texts += [q["s"] + " " + " ".join(q["o"]) for q in uniq.values()]
+    fixes = json.loads(PYQ_FIXES.read_text()) if PYQ_FIXES.exists() else {}
+    for q in uniq.values():
+        f = fixes.get(q["id"])
+        if f:
+            q["s"], q["o"], q["a"] = f["s"], f["o"], f["a"]
+            stats["hand_fixed"] += 1
     cleaner = Cleaner(texts)
     broken = []
     for q in uniq.values():
