@@ -7,6 +7,8 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
 import androidx.test.core.app.ApplicationProvider
+import com.appsc.prep.platform.AndroidPlatform
+import com.appsc.prep.platform.PrefsStorage
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
 import com.appsc.prep.ui.components.AppState
@@ -50,7 +52,7 @@ class ScreenshotTest {
 
     private fun shot(name: String, preload: Int? = null, content: @Composable () -> Unit) {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
-        val app = AppState(Repository(ctx), ProgressStore(ctx))
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
         if (preload != null) runBlocking { app.repo.book(preload); app.repo.mcq(preload) }
         rule.setContent {
             PrepTheme { CompositionLocalProvider(LocalApp provides app) { content() } }
@@ -69,7 +71,7 @@ class ScreenshotTest {
 
     @Test fun quizExplained() {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
-        val repo = Repository(ctx)
+        val repo = Repository { ctx.assets.open(it) }
         // first History row whose first question carries a CDI explanation
         val mcq = runBlocking { repo.mcq(1) }
         val row = mcq.rows.entries.sortedBy { it.key }.first { it.value.firstOrNull()?.explanation?.isNotBlank() == true }
@@ -82,7 +84,7 @@ class ScreenshotTest {
 
     private fun roundShot(name: String, kind: Char, click: (com.appsc.prep.data.Question) -> String) {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
-        val repo = Repository(ctx)
+        val repo = Repository { ctx.assets.open(it) }
         val q = runBlocking { repo.mcq(2) }.let { m -> (m.rows.values + m.units.values).flatten() }.first { it.kind == kind && (kind != 'u' || it.cancelled) }
         shot(name) { QuizRound("t", listOf(q), listOf(q), {}, {}) }
         rule.onNodeWithText(click(q)).performClick()
@@ -97,7 +99,7 @@ class ScreenshotTest {
     /** A Polity statements question: hint opened before answering, then a wrong pick with its technique note. */
     @Test fun hintAndTechnique() {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
-        val q = runBlocking { Repository(ctx).mcq(2) }.rows.values.flatten().first {
+        val q = runBlocking { Repository { ctx.assets.open(it) }.mcq(2) }.rows.values.flatten().first {
             it.kind == 's' && com.appsc.prep.data.Techniques.kind(it) == com.appsc.prep.data.Techniques.Kind.STATEMENTS &&
                 it.stem.length < 420 && com.appsc.prep.data.Techniques.hints(it).size >= 3
         }

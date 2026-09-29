@@ -1,6 +1,5 @@
 package com.appsc.prep.data
 
-import android.content.Context
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -10,25 +9,24 @@ import java.time.LocalDate
 /** A saved subsection: id is "book:row:sec". */
 data class Saved(val id: String, val title: String, val rowTitle: String)
 
-/** Read/done state, bookmarks, last position and reader settings, kept in SharedPreferences. */
-class ProgressStore(context: Context) {
-    private val prefs = context.getSharedPreferences("progress", Context.MODE_PRIVATE)
+/** Read/done state, bookmarks, last position and reader settings, kept in [Storage]. */
+class ProgressStore(private val prefs: Storage) {
 
-    var done by mutableStateOf(prefs.getStringSet(KEY_DONE, emptySet())!!.toSet())
+    var done by mutableStateOf(prefs.getStringSet(KEY_DONE).toSet())
         private set
-    var saved by mutableStateOf(decodeSaved(prefs.getStringSet(KEY_SAVED, emptySet())!!))
+    var saved by mutableStateOf(decodeSaved(prefs.getStringSet(KEY_SAVED)))
         private set
-    var activeDates by mutableStateOf(prefs.getStringSet(KEY_DATES, emptySet())!!.toSet())
+    var activeDates by mutableStateOf(prefs.getStringSet(KEY_DATES).toSet())
         private set
-    var lastRead by mutableStateOf(prefs.getString(KEY_LAST, null))
+    var lastRead by mutableStateOf(prefs.getString(KEY_LAST))
         private set
     /** PYQ answers: question id -> answered correctly (latest attempt). */
     var answers by mutableStateOf(
-        prefs.getStringSet(KEY_ANSWERS, emptySet())!!.associate { it.substringBefore(':') to it.endsWith(":1") },
+        prefs.getStringSet(KEY_ANSWERS).associate { it.substringBefore(':') to it.endsWith(":1") },
     )
         private set
     /** Unscored questions (no key / cancelled) that have been attempted. */
-    var seen by mutableStateOf(prefs.getStringSet(KEY_SEEN, emptySet())!!.toSet())
+    var seen by mutableStateOf(prefs.getStringSet(KEY_SEEN).toSet())
         private set
     var textScale by mutableFloatStateOf(prefs.getFloat(KEY_SCALE, 1f))
         private set
@@ -38,7 +36,7 @@ class ProgressStore(context: Context) {
     fun setDone(id: String, value: Boolean) {
         if (value == (id in done)) return
         done = if (value) done + id else done - id
-        prefs.edit().putStringSet(KEY_DONE, done).apply()
+        prefs.putStringSet(KEY_DONE, done)
         if (value) markActive()
     }
 
@@ -49,14 +47,14 @@ class ProgressStore(context: Context) {
 
     fun recordAnswer(questionId: String, correct: Boolean) {
         answers = answers + (questionId to correct)
-        prefs.edit().putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet()).apply()
+        prefs.putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet())
         markActive()
     }
 
     fun markSeen(questionId: String) {
         if (questionId in seen) return
         seen = seen + questionId
-        prefs.edit().putStringSet(KEY_SEEN, seen).apply()
+        prefs.putStringSet(KEY_SEEN, seen)
         markActive()
     }
 
@@ -79,17 +77,17 @@ class ProgressStore(context: Context) {
 
     fun toggleSaved(item: Saved) {
         saved = if (isSaved(item.id)) saved.filterNot { it.id == item.id } else listOf(item) + saved
-        prefs.edit().putStringSet(KEY_SAVED, saved.mapIndexed { i, s -> "$i\t${s.id}\t${s.title}\t${s.rowTitle}" }.toSet()).apply()
+        prefs.putStringSet(KEY_SAVED, saved.mapIndexed { i, s -> "$i\t${s.id}\t${s.title}\t${s.rowTitle}" }.toSet())
     }
 
     fun rememberPosition(id: String) {
         lastRead = id
-        prefs.edit().putString(KEY_LAST, id).apply()
+        prefs.putString(KEY_LAST, id)
     }
 
     fun changeTextScale(delta: Float) {
         textScale = (textScale + delta).coerceIn(0.85f, 1.45f)
-        prefs.edit().putFloat(KEY_SCALE, textScale).apply()
+        prefs.putFloat(KEY_SCALE, textScale)
     }
 
     /** Consecutive days (ending today or yesterday) on which something was marked done. */
@@ -107,7 +105,7 @@ class ProgressStore(context: Context) {
         val t = LocalDate.now().toString()
         if (t !in activeDates) {
             activeDates = activeDates + t
-            prefs.edit().putStringSet(KEY_DATES, activeDates).apply()
+            prefs.putStringSet(KEY_DATES, activeDates)
         }
     }
 

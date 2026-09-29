@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "APPSCPrep"
 include(":app")
+include(":desktop")

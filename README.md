@@ -1,4 +1,4 @@
-# APPSC Prep (Android)
+# APPSC Prep (Android + Windows)
 
 Offline study app for APPSC Group-I + Group-II, built from the Combined Notes (G1+G2)
 and the Restructured 90-Day Plan.
@@ -38,6 +38,27 @@ biology, human body) to the notes files.
 ./gradlew assembleRelease          # app/build/outputs/apk/release/app-release.apk
 ./gradlew recordRoborazziDebug     # screenshots of the main screens into app/screenshots/
 ```
+
+## Windows app
+
+`desktop/` is the Windows version. It compiles the same screens and data code as the Android app
+(`app/src/main/java`) with Compose for Desktop; only `MainActivity.kt` and `platform/` are Android-only,
+and `desktop/src/main/kotlin` supplies the Windows side (window, left navigation pane, menu bar,
+keyboard shortcuts, progress saved to `%APPDATA%\APPSC Prep\progress.json`).
+
+```
+./gradlew :desktop:run              # try it on this computer
+./gradlew :desktop:test
+tools/windows/build_windows.sh      # on Linux: APPSC-Prep-Setup.exe + APPSC-Prep-Windows.zip
+```
+
+The build script needs `gcc-mingw-w64-x86-64`, `nsis`, `zip` and `curl`. It bundles a Windows Java 17
+runtime (Eclipse Temurin), so users do not need Java installed. The installer is per-user (no admin
+prompt) and adds Start menu and desktop shortcuts and an uninstaller. The zip is a portable copy:
+unzip and run `APPSC Prep.exe`. The Windows version number is `appVersion` in `desktop/build.gradle.kts`.
+
+Shortcuts: 1–4 or A–D pick an option, ← / → previous / next question, Esc or Alt+← back,
+Ctrl+1…5 switch tabs, Ctrl+= / Ctrl+− text size.
 
 Both builds are signed with `keystore/appsc-prep.jks`, so a new APK installs over the old one
 and keeps your progress.

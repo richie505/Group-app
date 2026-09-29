@@ -1,0 +1,25 @@
+1 ICON "app.ico"
+1 VERSIONINFO
+FILEVERSION @MAJOR@,@MINOR@,0,0
+PRODUCTVERSION @MAJOR@,@MINOR@,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "APPSC Prep"
+      VALUE "FileDescription", "APPSC Prep"
+      VALUE "FileVersion", "@VERSION@"
+      VALUE "InternalName", "APPSC Prep"
+      VALUE "OriginalFilename", "APPSC Prep.exe"
+      VALUE "ProductName", "APPSC Prep"
+      VALUE "ProductVersion", "@VERSION@"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END

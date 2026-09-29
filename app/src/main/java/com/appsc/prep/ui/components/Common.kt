@@ -45,7 +45,20 @@ import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
 import com.appsc.prep.ui.theme.C
 
-class AppState(val repo: Repository, val store: ProgressStore)
+/** What differs between the Android and Windows apps. */
+interface Platform {
+    /** True on Windows: wider layout and keyboard shortcuts. */
+    val desktop: Boolean
+    fun share(title: String, text: String)
+    @Composable
+    fun BackHandler(enabled: Boolean, onBack: () -> Unit)
+
+    /** Keyboard keys while this screen shows (Windows only): "1".."9", "Left", "Right". True if handled. */
+    @Composable
+    fun Shortcuts(onKey: (String) -> Boolean)
+}
+
+class AppState(val repo: Repository, val store: ProgressStore, val platform: Platform)
 
 val LocalApp = staticCompositionLocalOf<AppState> { error("AppState not provided") }
 

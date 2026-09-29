@@ -139,7 +139,8 @@ internal fun QuizRound(
     onNext: (String) -> Unit,
     onDone: () -> Unit,
 ) {
-    val store = LocalApp.current.store
+    val app = LocalApp.current
+    val store = app.store
     var index by rememberSaveable(key) { mutableIntStateOf(0) }
     val picks = remember(key) { mutableStateListOf<Int>().apply { repeat(set.size) { add(-1) } } }
     val listState = rememberLazyListState()
@@ -152,6 +153,21 @@ internal fun QuizRound(
     val q = set[index]
     val picked = picks[index]
     val answered = picked >= 0
+
+    fun pick(i: Int) {
+        if (answered || q.kind == 'f' || i !in q.options.indices) return
+        picks[index] = i
+        if (q.kind == 'u') store.markSeen(q.id) else store.recordAnswer(q.id, i == q.answer)
+    }
+    app.platform.Shortcuts { k ->
+        when {
+            k == "Left" && index > 0 -> index--
+            k == "Right" -> index++
+            k.length == 1 && k[0] in '1'..'9' -> pick(k[0] - '1')
+            else -> return@Shortcuts false
+        }
+        true
+    }
 
     Column(Modifier.fillMaxSize()) {
         Column(Modifier.padding(horizontal = 20.dp, vertical = 10.dp)) {
@@ -191,28 +207,14 @@ internal fun QuizRound(
                             store.recordAnswer(q.id, knew)
                         }
                         'u' -> {
-                            q.options.forEachIndexed { i, opt ->
-                                OptionCard(i, opt, picked, answer = q.answer) {
-                                    if (!answered) {
-                                        picks[index] = i
-                                        store.markSeen(q.id)
-                                    }
-                                }
-                            }
+                            q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, answer = q.answer) { pick(i) } }
                             if (answered) {
                                 Spacer(Modifier.height(8.dp))
                                 UnscoredNote(q)
                             } else HintBox(q)
                         }
                         else -> {
-                            q.options.forEachIndexed { i, opt ->
-                                OptionCard(i, opt, picked, q.answer) {
-                                    if (!answered) {
-                                        picks[index] = i
-                                        store.recordAnswer(q.id, i == q.answer)
-                                    }
-                                }
-                            }
+                            q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
                             if (answered) {
                                 Spacer(Modifier.height(8.dp))
                                 Explanation(q, picked == q.answer, picked)

@@ -67,7 +67,7 @@ class TechniquesTest {
 
     /** Every PYQ in the bank: no crash, a hint for most, a technique note for every wrong pick of a scored MCQ. */
     @Test fun wholeBank() {
-        val repo = Repository(ApplicationProvider.getApplicationContext())
+        val repo = Repository { ApplicationProvider.getApplicationContext<android.content.Context>().assets.open(it) }
         var total = 0; var hinted = 0; var reviewed = 0
         for (b in 1..6) {
             val m = runBlocking { repo.mcq(b) }

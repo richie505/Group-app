@@ -1,7 +1,5 @@
 package com.appsc.prep.ui.screens
 
-import android.content.Intent
-import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -64,7 +62,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -100,7 +97,6 @@ private fun Book.prev(p: Pos): Pos? = when {
 fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
     val app = LocalApp.current
     val store = app.store
-    val context = LocalContext.current
     val book = rememberBook(bookId)
     val mcq by androidx.compose.runtime.produceState(app.repo.cachedMcq(bookId), bookId) { value = app.repo.mcq(bookId) }
     var rowI by rememberSaveable { mutableStateOf(rowIndex) }
@@ -129,7 +125,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         store.rememberPosition(id)
         listState.scrollToItem(0)
     }
-    BackHandler(enabled = tocOpen) { tocOpen = false }
+    app.platform.BackHandler(enabled = tocOpen) { tocOpen = false }
 
     fun go(p: Pos) {
         rowI = p.row
@@ -168,14 +164,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                         )
                     }
                 }
-                IconButton(onClick = {
-                    val send = Intent(Intent.ACTION_SEND).apply {
-                        type = "text/plain"
-                        putExtra(Intent.EXTRA_SUBJECT, sec.title)
-                        putExtra(Intent.EXTRA_TEXT, plainText(sec.title, sec.blocks))
-                    }
-                    context.startActivity(Intent.createChooser(send, "Share"))
-                }) { Icon(Icons.Outlined.Share, "Share", tint = C.Ink) }
+                IconButton(onClick = { app.platform.share(sec.title, plainText(sec.title, sec.blocks)) }) { Icon(Icons.Outlined.Share, "Share", tint = C.Ink) }
             }
 
             LazyColumn(Modifier.fillMaxSize(), state = listState) {

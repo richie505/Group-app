@@ -1,6 +1,5 @@
 package com.appsc.prep.data
 
-import android.content.Context
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
@@ -14,10 +13,11 @@ import kotlinx.serialization.json.int
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
+import java.io.InputStream
 import java.time.LocalDate
 
-/** Loads the bundled notes and plan from assets. Books are loaded lazily and cached. */
-class Repository(private val context: Context) {
+/** Loads the bundled notes and plan from assets ([open] reads one by name). Books are loaded lazily and cached. */
+class Repository(private val open: (String) -> InputStream) {
 
     val plan: Plan by lazy { parsePlan(readJson("plan.json")) }
     val index: List<BookInfo> by lazy { parseIndex(readJson("index.json")) }
@@ -54,7 +54,7 @@ class Repository(private val context: Context) {
     }
 
     private fun readJson(name: String): JsonElement =
-        context.assets.open(name).bufferedReader().use { Json.parseToJsonElement(it.readText()) }
+        open(name).bufferedReader().use { Json.parseToJsonElement(it.readText()) }
 
     // ---- parsing ----
 
