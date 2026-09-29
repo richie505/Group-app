@@ -43,7 +43,7 @@ object DesktopPlatform : Platform {
 
     override fun share(title: String, text: String) {
         Toolkit.getDefaultToolkit().systemClipboard.setContents(StringSelection(text), null)
-        toast = "Copied \"$title\" – paste it anywhere with Ctrl + V"
+        toast = "Copied to the clipboard – paste it anywhere with Ctrl + V"
     }
 
     @Composable

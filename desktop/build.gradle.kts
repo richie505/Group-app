@@ -51,14 +51,20 @@ dependencies {
 compose.desktop {
     application {
         mainClass = "com.appsc.prep.desktop.MainKt"
+        // Shrinks the libraries for the Windows download (./gradlew :desktop:proguardReleaseJars).
+        buildTypes.release.proguard {
+            version.set("7.6.1")
+            obfuscate.set(false)
+            configurationFiles.from(project.file("rules.pro"))
+        }
     }
 }
 
-/** The app jar and every library jar, ready to drop next to a Windows Java runtime. */
+/** The app jar and the ProGuard-shrunk library jars, ready to drop next to a Windows Java runtime. */
 tasks.register<Sync>("windowsApp") {
     group = "distribution"
-    from(tasks.jar)
-    from(configurations.runtimeClasspath)
+    dependsOn("proguardReleaseJars")
+    from(layout.buildDirectory.dir("compose/tmp/main-release/proguard"))
     into(layout.buildDirectory.dir("windows/app"))
 }
 

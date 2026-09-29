@@ -49,15 +49,16 @@ keyboard shortcuts, progress saved to `%APPDATA%\APPSC Prep\progress.json`).
 ```
 ./gradlew :desktop:run              # try it on this computer
 ./gradlew :desktop:test
-tools/windows/build_windows.sh      # on Linux: APPSC-Prep-Setup.exe + APPSC-Prep-Windows.zip
+tools/windows/build_windows.sh      # on Linux: APPSC-Prep-Setup.exe (~31 MB) + APPSC-Prep-Windows.zip
 ```
 
-The build script needs `gcc-mingw-w64-x86-64`, `nsis`, `zip` and `curl`. It bundles a Windows Java 17
-runtime (Eclipse Temurin), so users do not need Java installed. The installer is per-user (no admin
+The build script needs `gcc-mingw-w64-x86-64`, `nsis`, `zip` and `curl`. It bundles a trimmed Windows
+Java 17 runtime (Eclipse Temurin, cut down with jlink), so users do not need Java installed, and shrinks
+the libraries with ProGuard (`desktop/rules.pro`). Windows 10 or 11, 64-bit. The installer is per-user (no admin
 prompt) and adds Start menu and desktop shortcuts and an uninstaller. The zip is a portable copy:
 unzip and run `APPSC Prep.exe`. The Windows version number is `appVersion` in `desktop/build.gradle.kts`.
 
-Shortcuts: 1–4 or A–D pick an option, ← / → previous / next question, Esc or Alt+← back,
+Shortcuts: 1–4 or A–D pick an option, Left / Right arrow previous / next question, Esc or Alt+Left back,
 Ctrl+1…5 switch tabs, Ctrl+= / Ctrl+− text size.
 
 Both builds are signed with `keystore/appsc-prep.jks`, so a new APK installs over the old one

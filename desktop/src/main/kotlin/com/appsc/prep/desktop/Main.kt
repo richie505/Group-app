@@ -2,7 +2,6 @@ package com.appsc.prep.desktop
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -124,24 +123,40 @@ private fun FrameWindowScope.DesktopRoot(app: AppState) {
     }
 
     when (dialog) {
-        "keys" -> InfoDialog("Keyboard shortcuts", SHORTCUTS) { dialog = null }
-        "about" -> InfoDialog(
-            "About $APP_NAME",
-            "Version $APP_VERSION\n\nAPPSC Group 1 & 2 notes, study plan and previous-year questions, " +
-                "with MCQ technique hints.\n\nYour progress is saved on this computer in:\n${appDataDir()}",
-        ) { dialog = null }
+        "keys" -> InfoDialog("Keyboard shortcuts", onClose = { dialog = null }) {
+            SHORTCUTS.forEach { (heading, keys) ->
+                Text(heading.uppercase(), style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp), modifier = Modifier.padding(top = 10.dp, bottom = 4.dp))
+                keys.forEach { (k, what) ->
+                    Row(Modifier.padding(vertical = 3.dp)) {
+                        Text(k, style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.Ink), modifier = Modifier.width(170.dp))
+                        Text(what, style = TextStyle(fontSize = 14.sp, color = C.Body))
+                    }
+                }
+            }
+        }
+        "about" -> InfoDialog("About $APP_NAME", onClose = { dialog = null }) {
+            Text(
+                "Version $APP_VERSION\n\nAPPSC Group 1 & 2 notes, study plan and previous-year questions, " +
+                    "with MCQ technique hints.\n\nYour progress is saved on this computer in:\n${appDataDir()}",
+                style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body),
+            )
+        }
     }
 }
 
-private const val SHORTCUTS = """While practising MCQs
-   1 – 4  or  A – D     choose an option
-   → (Right arrow)      next / skip
-   ← (Left arrow)       previous question
-
-Anywhere
-   Esc  or  Alt + ←     go back
-   Ctrl + 1 … 5         Today, Plan, Notes, Progress, Saved
-   Ctrl + =  /  Ctrl + −   larger / smaller reading text"""
+/** Help → Keyboard shortcuts: (heading, [(keys, action)]). */
+private val SHORTCUTS = listOf(
+    "While practising MCQs" to listOf(
+        "1 – 4  or  A – D" to "choose an option",
+        "Right arrow" to "next / skip",
+        "Left arrow" to "previous question",
+    ),
+    "Anywhere" to listOf(
+        "Esc  or  Alt + Left" to "go back",
+        "Ctrl + 1 … 5" to "Today, Plan, Notes, Progress, Saved",
+        "Ctrl + =  /  Ctrl + −" to "larger / smaller reading text",
+    ),
+)
 
 @Composable
 private fun FrameWindowScope.Menus(app: AppState, nav: NavHostController, show: (String) -> Unit) {
@@ -221,15 +236,11 @@ private fun Toast(modifier: Modifier) {
 }
 
 @Composable
-private fun InfoDialog(title: String, body: String, onClose: () -> Unit) {
+private fun InfoDialog(title: String, onClose: () -> Unit, body: @Composable () -> Unit) {
     AlertDialog(
         onDismissRequest = onClose,
         confirmButton = { TextButton(onClick = onClose) { Text("OK") } },
         title = { Text(title) },
-        text = {
-            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Text(body, style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body, fontFamily = if (body == SHORTCUTS) androidx.compose.ui.text.font.FontFamily.Monospace else null))
-            }
-        },
+        text = { Column { body() } },
     )
 }

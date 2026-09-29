@@ -3,6 +3,7 @@
 ; 64-bit installer: the app and its Java runtime are x64 only.
 Target amd64-unicode
 SetCompressor /SOLID lzma
+SetCompressorDictSize 64
 !include "MUI2.nsh"
 
 !define APP "APPSC Prep"
@@ -26,7 +27,6 @@ VIAddVersionKey "LegalCopyright" "${APP}"
 !define MUI_UNICON "app.ico"
 !define MUI_ABORTWARNING
 !define MUI_WELCOMEFINISHPAGE_BITMAP "welcome.bmp"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "welcome.bmp"
 !define MUI_WELCOMEPAGE_TEXT "This will install ${APP} ${VERSION} on your computer.$\r$\n$\r$\nAPPSC Group 1 and 2 notes, the 90-day study plan and previous-year MCQs with technique hints, all offline.$\r$\n$\r$\nClick Next to continue."
 !define MUI_FINISHPAGE_RUN "$INSTDIR\${APP}.exe"
 !define MUI_FINISHPAGE_RUN_TEXT "Open ${APP} now"

@@ -276,7 +276,7 @@ fun SavedScreen(nav: Nav) {
                 Spacer(Modifier.height(12.dp))
                 Text("No bookmarks yet", style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
                 Text(
-                    "Tap the bookmark icon while reading to save a subsection here.",
+                    "Use the bookmark icon while reading to save a subsection here.",
                     style = TextStyle(fontSize = 14.sp, color = C.Muted),
                     modifier = Modifier.padding(top = 6.dp),
                 )
