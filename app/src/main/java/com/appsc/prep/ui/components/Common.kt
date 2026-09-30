@@ -220,7 +220,7 @@ fun SectionItem(
                 Box(
                     Modifier.size(34.dp).clip(RoundedCornerShape(10.dp)).background(C.ExamBg),
                     contentAlignment = Alignment.Center,
-                ) { Icon(Icons.Filled.Quiz, "Practice PYQs", tint = C.ExamInk, modifier = Modifier.size(20.dp)) }
+                ) { Icon(Icons.Filled.Quiz, "Practice MCQs", tint = C.ExamInk, modifier = Modifier.size(20.dp)) }
             }
         } else {
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
@@ -252,7 +252,7 @@ fun StatBox(value: String, label: String, icon: ImageVector?, modifier: Modifier
     }
 }
 
-/** Entry point to a PYQ practice set. [attempted] = (attempted, correct, total) when known. */
+/** Entry point to an MCQ practice set. [attempted] = (attempted, correct, total) when known. */
 @Composable
 fun PracticeCard(
     title: String,

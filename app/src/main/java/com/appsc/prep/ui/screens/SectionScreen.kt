@@ -99,7 +99,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                     Text(
                         listOfNotNull(
                             "Book ${row.book} · pp ${row.p1}-${row.p2}",
-                            row.pyq.takeIf { it.isNotBlank() }?.let { "PYQs: $it" },
+                            row.pyq.takeIf { it.isNotBlank() }?.let { "Asked in past papers: $it" },
                         ).joinToString("   ·   "),
                         style = TextStyle(fontSize = 13.sp, color = C.Muted),
                     )
@@ -146,7 +146,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                             Icon(Icons.Filled.Quiz, null, tint = C.ExamInk, modifier = Modifier.size(20.dp))
                             Spacer(Modifier.width(8.dp))
                             Text(
-                                "Practice section PYQs ($qCount)",
+                                "Practice section MCQs ($qCount)",
                                 style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
                             )
                         }
@@ -184,7 +184,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                                 s.badges.forEach { BadgeTag(it) }
                                 if (subQ > 0) {
                                     Tag(
-                                        "Practice $subQ PYQs",
+                                        "Practice $subQ MCQs",
                                         C.ExamBg, C.ExamInk,
                                         modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, sub = i) },
                                     )
@@ -210,7 +210,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                         Icon(Icons.Filled.Quiz, null, tint = C.ExamInk, modifier = Modifier.width(30.dp).size(20.dp))
                         Column(Modifier.weight(1f)) {
                             Text(
-                                "Other PYQs of this section",
+                                "Other MCQs of this section",
                                 style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.Medium, color = C.Ink),
                             )
                             Text(
@@ -218,7 +218,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                                 style = TextStyle(fontSize = 12.sp, color = C.Muted),
                             )
                         }
-                        Tag("Practice $otherQ PYQs", C.ExamBg, C.ExamInk)
+                        Tag("Practice $otherQ MCQs", C.ExamBg, C.ExamInk)
                     }
                     HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 50.dp))
                 }
@@ -229,7 +229,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                     val ids = mcq?.rows?.get(rowIndex)?.map { it.id }
                     val stats = ids?.let { app.store.quizStats(it) }
                     PracticeCard(
-                        title = "All section PYQs",
+                        title = "All section MCQs",
                         subtitle = "${info!!.questionCount} questions · all in one go",
                         attempted = stats?.let { Triple(it.first, it.second, ids.size) },
                         onStart = { nav.quiz("row", bookId, rowIndex) },

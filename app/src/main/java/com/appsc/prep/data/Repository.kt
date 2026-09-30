@@ -41,7 +41,7 @@ class Repository(private val open: (String) -> InputStream) {
 
     fun rowInfo(book: Int, row: Int): RowInfo? = index.getOrNull(book - 1)?.rows?.getOrNull(row)
 
-    /** The plan's priority / PYQ figure for a notes row, if the plan lists it. */
+    /** The plan's priority / past-paper figure for a notes row, if the plan lists it. */
     val planRowByRef: Map<Pair<Int, Int>, PlanRow> by lazy {
         buildMap { plan.days.forEach { d -> d.rows.forEach { r -> putIfAbsent(r.book to r.row, r) } } }
     }
@@ -136,6 +136,7 @@ class Repository(private val open: (String) -> InputStream) {
                 answerText = q.str("at"),
                 cancelled = o.containsKey("cx"),
                 book = book,
+                technique = q.str("tq"),
             )
         }
         fun map(key: String): Map<Int, List<Question>> =

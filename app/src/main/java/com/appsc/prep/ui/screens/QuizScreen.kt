@@ -106,7 +106,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
         }
         if (pool.isEmpty()) {
             Box(Modifier.fillMaxSize().padding(32.dp), contentAlignment = Alignment.Center) {
-                Text("No PYQs are filed under this section yet.", style = TextStyle(fontSize = 16.sp, color = C.Muted))
+                Text("No MCQs for this section yet.", style = TextStyle(fontSize = 16.sp, color = C.Muted))
             }
             return@Column
         }
@@ -385,6 +385,11 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int) {
                 Text(it, style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
             }
         }
+        if (q.technique.isNotBlank()) {
+            Spacer(Modifier.height(10.dp))
+            Text("WHAT THIS QUESTION TRAINS", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+            Text(q.technique, style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
+        }
         val review = remember(q.id, picked) { Techniques.review(q, picked) }
         if (review.isNotEmpty()) {
             Spacer(Modifier.height(10.dp))
@@ -503,7 +508,7 @@ private fun Results(
                 Column(
                     Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(C.Surface).padding(14.dp),
                 ) {
-                    Text("This section's PYQs", style = TextStyle(fontSize = 13.sp, color = C.Muted))
+                    Text("This set's MCQs", style = TextStyle(fontSize = 13.sp, color = C.Muted))
                     Text(
                         "$attempted of ${pool.size} attempted · ${if (attempted == 0) 0 else poolCorrect * 100 / attempted}% accuracy",
                         style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.Ink),

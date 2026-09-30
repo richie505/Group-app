@@ -87,10 +87,10 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
             val a = it.arguments!!
             val src = QuizSource(a.getString("k")!!, a.getInt("b"), a.getInt("i"), a.getInt("s"))
             val title = when (src.kind) {
-                "day" -> "Day ${src.index} PYQs"
-                "sub" -> if (src.sub < 0) "Other section PYQs" else "Subsection PYQs"
-                "row" -> "Section PYQs"
-                else -> "PYQ Practice"
+                "day" -> "Day ${src.index} MCQs"
+                "sub" -> if (src.sub < 0) "Other section MCQs" else "Subsection MCQs"
+                "row" -> "Section MCQs"
+                else -> "MCQ Practice"
             }
             QuizScreen(src, a.getString("m")!!, title, actions)
         }

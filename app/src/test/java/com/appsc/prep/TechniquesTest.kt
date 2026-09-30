@@ -65,7 +65,7 @@ class TechniquesTest {
         assertTrue(Techniques.review(x, 0).first().contains("NOT / EXCEPT"))
     }
 
-    /** Every PYQ in the bank: no crash, a hint for most, a technique note for every wrong pick of a scored MCQ. */
+    /** Every MCQ in the bank: no crash, a hint for most, a technique note for every wrong pick of a scored MCQ. */
     @Test fun wholeBank() {
         val repo = Repository { ApplicationProvider.getApplicationContext<android.content.Context>().assets.open(it) }
         var total = 0; var hinted = 0; var reviewed = 0

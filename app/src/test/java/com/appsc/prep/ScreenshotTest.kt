@@ -67,33 +67,19 @@ class ScreenshotTest {
     @Test fun section() = shot("4_section", preload = 2) { SectionScreen(2, 0, nav) }
     @Test fun reader() = shot("5_reader", preload = 2) { ReaderScreen(2, 0, 0, nav) }
     @Test fun readerTable() = shot("6_reader_table", preload = 2) { ReaderScreen(2, 0, 1, nav) }
-    @Test fun quiz() = shot("9_quiz") { QuizScreen(QuizSource("row", 2, 0), "new", "PYQ Practice", nav) }
+    @Test fun quiz() = shot("9_quiz") { QuizScreen(QuizSource("row", 2, 0), "new", "MCQ Practice", nav) }
 
     @Test fun quizExplained() {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
         val repo = Repository { ctx.assets.open(it) }
-        // first History row whose first question carries a CDI explanation
+        // first History row whose first question carries an explanation
         val mcq = runBlocking { repo.mcq(1) }
         val row = mcq.rows.entries.sortedBy { it.key }.first { it.value.firstOrNull()?.explanation?.isNotBlank() == true }
         val q = row.value.first()
-        shot("10_quiz_answered", preload = 1) { QuizScreen(QuizSource("row", 1, row.key), "all", "PYQ Practice", nav) }
+        shot("10_quiz_answered", preload = 1) { QuizScreen(QuizSource("row", 1, row.key), "all", "MCQ Practice", nav) }
         rule.onNodeWithText(q.options[q.answer]).performClick()
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/10_quiz_answered.png")
-    }
-
-    private fun roundShot(name: String, kind: Char, click: (com.appsc.prep.data.Question) -> String) {
-        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
-        val repo = Repository { ctx.assets.open(it) }
-        val q = runBlocking { repo.mcq(2) }.let { m -> (m.rows.values + m.units.values).flatten() }.first { it.kind == kind && (kind != 'u' || it.cancelled) }
-        shot(name) { QuizRound("t", listOf(q), listOf(q), {}, {}) }
-        rule.onNodeWithText(click(q)).performClick()
-        rule.waitForIdle()
-        if (kind == 'f') {
-            rule.onNodeWithText("Didn't know").performClick()
-            rule.waitForIdle()
-        }
-        rule.onRoot().captureRoboImage("screenshots/$name.png")
     }
 
     /** A Polity statements question: hint opened before answering, then a wrong pick with its technique note. */
@@ -112,8 +98,6 @@ class ScreenshotTest {
         rule.onRoot().captureRoboImage("screenshots/14_wrong_technique.png")
     }
 
-    @Test fun flashcard() = roundShot("11_flashcard", 'f') { "Show answer" }
-    @Test fun unscored() = roundShot("12_unscored", 'u') { it.options[0] }
 
     @Test fun books() = shot("7_notes") { BooksScreen(nav) }
     @Test fun progress() = shot("8_progress") { ProgressScreen(nav) }

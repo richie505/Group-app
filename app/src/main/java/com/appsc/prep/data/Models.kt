@@ -135,7 +135,7 @@ data class Plan(
 
 fun subsectionId(book: Int, row: Int, sec: Int) = "$book:$row:$sec"
 
-// ---- PYQ practice ----
+// ---- MCQ practice (MCQs written from the notes) ----
 
 data class Question(
     val id: String,
@@ -153,11 +153,13 @@ data class Question(
     val cancelled: Boolean = false,
     /** Book (subject) the question is filed under: 1 History … 6 Current Affairs. Drives the MCQ technique hints. */
     val book: Int = 0,
+    /** The exam technique the question trains. */
+    val technique: String = "",
 ) {
     val scored get() = kind != 'u'
 }
 
-/** PYQs of one book: by notes row (Section) and by unit (Topic, general questions). */
+/** MCQs of one book: by notes row (Section) and by unit (Topic, general questions). */
 data class BookMcq(
     val rows: Map<Int, List<Question>>,
     val units: Map<Int, List<Question>>,

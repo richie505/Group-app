@@ -2,7 +2,7 @@ package com.appsc.prep.data
 
 /**
  * MCQ solving techniques from "APPSC MCQ Techniques - Tested on PYQs" (the Drive guide).
- * Everything is worked out from the question text and options, so it covers every PYQ:
+ * Everything is worked out from the question text and options, so it covers every MCQ in the app:
  *  - [hints]: what to try when stuck, before answering (never uses the answer key);
  *  - [review]: after a wrong answer, which technique would have reached the key and which trap caught the pick.
  * Clue words are weighted per subject (Part B/C of the guide): a clue that did not work in a subject is not used there.

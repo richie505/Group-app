@@ -5,9 +5,11 @@ and the Restructured 90-Day Plan.
 
 **Structure:** Day → Topic (UNIT) → Section (syllabus row) → Subsection (■ heading) → content.
 
-After each section: **PYQ practice** with every question in one run (Previous / Skip / Next), a "Stuck? Show a hint" button and a
-"why it went wrong" technique note from the APPSC MCQ Techniques guide (`data/Techniques.kt`), instant answers, explanations (CDI),
-net score with 1/3 negative marking, and "retry wrong answers".
+After each section: **MCQ practice** — 64,789 MCQs written from these notes (from the MCQ app,
+[groupsmcq](https://github.com/richie505/groupsmcq)), filed under each section and subsection, with every question in
+one run (Previous / Skip / Next), a "Stuck? Show a hint" button, the explanation, what the question trains, and a
+"why it went wrong" technique note from the APPSC MCQ Techniques guide (`data/Techniques.kt`), net score with
+1/3 negative marking, and "retry wrong answers". Previous-year questions (PYQs) live in the MCQ app.
 
 Tabs: **Today** (today's targets) · **Plan** (all 90 days + buffer) · **Notes** (browse all 6 books)
 · **Progress** · **Saved** (bookmarks).
@@ -20,16 +22,14 @@ The app data in `app/src/main/assets/` is generated from the PDFs:
 pip install pymupdf
 python3 tools/parse_notes.py <pdf_dir> app/src/main/assets        # book1.pdf .. book6.pdf
 python3 tools/parse_plan.py <pdf_dir>/plan.pdf app/src/main/assets app/src/main/assets/plan.json
-pip install python-docx
-python3 tools/build_mcq.py <mcq_dir> app/src/main/assets   # PYQ Bank .docx files + CDI AP History PDF (+ tools/data/aph_prev.txt one-liners)
+python3 tools/build_notes_mcq.py <groupsmcq>/tools/generated app/src/main/assets   # the MCQs
 ```
 
-PYQs are attached to sections through the row codes in the PYQ Bank headings. CDI AP History
-questions add their explanation to the matching bank question, or are filed under the closest
-History & Culture section when the bank does not have them.
-Hand-review decisions for each subject's "Other PYQs" live in `tools/data/subject_review.json`
-(move to a row/subsection, drop from that subject, or send to another subject);
-`tools/data/extra_secs.json` adds PYQ-only subsections (Science: general physics, chemistry,
+The MCQ app writes its notes MCQs from the same notes files, so each question already names its
+section and subsection; `build_notes_mcq.py` writes them to `mcq1.json` … `mcq6.json` and the per-section
+counts to `index.json`. (`tools/build_mcq.py` and `tools/data/` are the old PYQ-bank pipeline, kept for
+the MCQ app's source data.)
+`tools/data/extra_secs.json` adds extra subsections (Science: general physics, chemistry,
 biology, human body) to the notes files.
 
 ## Building

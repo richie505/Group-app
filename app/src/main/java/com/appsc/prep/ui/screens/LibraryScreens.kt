@@ -162,7 +162,7 @@ fun BookScreen(id: Int, nav: Nav) {
                                     meta = listOfNotNull(
                                         "pp ${r.p1}-${r.p2}",
                                         r.codes.firstOrNull(),
-                                        r.questionCount.takeIf { it > 0 }?.let { "$it PYQs" },
+                                        r.questionCount.takeIf { it > 0 }?.let { "$it MCQs" },
                                         "${r.subsectionCount} subsections",
                                     ).joinToString(" · "),
                                     priority = app.repo.planRowByRef[b.id to r.index]?.priority ?: "",
@@ -182,7 +182,7 @@ fun BookScreen(id: Int, nav: Nav) {
                                     Icon(Icons.Filled.Quiz, null, tint = C.ExamInk, modifier = Modifier.size(22.dp))
                                     Spacer(Modifier.width(12.dp))
                                     Text(
-                                        "Topic PYQs (not tied to one section) · $general",
+                                        "Topic MCQs (not tied to one section) · $general",
                                         style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = C.ExamInk),
                                         modifier = Modifier.weight(1f),
                                     )
@@ -233,13 +233,15 @@ fun ProgressScreen(nav: Nav) {
                         StatBox("${store.saved.size}", "bookmarks", Icons.Outlined.AutoStories, Modifier.weight(1f))
                     }
                     Spacer(Modifier.height(10.dp))
-                    val answered = store.answers.size
-                    val right = store.answers.count { it.value }
+                    // Answers saved before 2.8 are for PYQs (now in the MCQ app); notes-MCQ ids start with "n".
+                    val mine = store.answers.filterKeys { it.startsWith("n") }
+                    val answered = mine.size
+                    val right = mine.count { it.value }
                     Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        StatBox("$answered", "PYQs answered", Icons.Outlined.Quiz, Modifier.weight(1f))
+                        StatBox("$answered", "MCQs answered", Icons.Outlined.Quiz, Modifier.weight(1f))
                         StatBox(
                             if (answered == 0) "–" else "${right * 100 / answered}%",
-                            "PYQ accuracy", Icons.Outlined.TaskAlt, Modifier.weight(1f),
+                            "MCQ accuracy", Icons.Outlined.TaskAlt, Modifier.weight(1f),
                         )
                     }
                 }

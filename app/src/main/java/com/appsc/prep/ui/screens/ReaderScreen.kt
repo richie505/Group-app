@@ -239,7 +239,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                 shape = RoundedCornerShape(12.dp),
                             ) {
                                 Text(
-                                    "Practice $subQ PYQs on this subsection",
+                                    "Practice $subQ MCQs on this subsection",
                                     style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
                                 )
                             }
@@ -253,7 +253,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                 shape = RoundedCornerShape(12.dp),
                             ) {
                                 Text(
-                                    "Practice all $qCount PYQs of this section",
+                                    "Practice all $qCount MCQs of this section",
                                     style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
                                 )
                             }

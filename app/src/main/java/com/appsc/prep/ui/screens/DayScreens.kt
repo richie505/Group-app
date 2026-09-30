@@ -253,7 +253,7 @@ fun LazyListScope.dayBody(day: PlanDay, nav: Nav, showBrief: Boolean) {
         }
     }
     if (day.rows.isNotEmpty()) {
-        item(key = "pyq-${day.n}") { DayPracticeCard(day, nav) }
+        item(key = "mcq-${day.n}") { DayPracticeCard(day, nav) }
     }
     if (day.tasks.isNotEmpty()) {
         item(key = "sched-${day.n}") { ScheduleCard(day) }
@@ -294,7 +294,7 @@ private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, na
                     title = info?.title ?: r.topic,
                     meta = listOfNotNull(
                         r.pages.takeIf { it.isNotBlank() }?.let { "pp $it" },
-                        info?.questionCount?.takeIf { it > 0 }?.let { "$it PYQs" },
+                        info?.questionCount?.takeIf { it > 0 }?.let { "$it MCQs" },
                         "$total subsections",
                     ).joinToString(" · "),
                     priority = r.priority,
@@ -313,9 +313,9 @@ private fun DayPracticeCard(day: PlanDay, nav: Nav) {
     val app = LocalApp.current
     val total = day.rows.sumOf { app.repo.rowInfo(it.book, it.row)?.questionCount ?: 0 }
     if (total == 0) return
-    SectionHeader("PYQ practice")
+    SectionHeader("MCQ practice")
     PracticeCard(
-        title = "Today's PYQs",
+        title = "Today's MCQs",
         subtitle = "$total questions on today's sections",
         attempted = null,
         onStart = { nav.quiz("day", 0, day.n) },

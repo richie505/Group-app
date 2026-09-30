@@ -20,7 +20,7 @@ class ProgressStore(private val prefs: Storage) {
         private set
     var lastRead by mutableStateOf(prefs.getString(KEY_LAST))
         private set
-    /** PYQ answers: question id -> answered correctly (latest attempt). */
+    /** MCQ answers: question id -> answered correctly (latest attempt). */
     var answers by mutableStateOf(
         prefs.getStringSet(KEY_ANSWERS).associate { it.substringBefore(':') to it.endsWith(":1") },
     )
