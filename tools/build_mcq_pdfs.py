@@ -10,6 +10,9 @@ Headings follow the app: Day -> Topic (unit) -> Section (syllabus row) -> Subsec
     sections (HIGH 15, MED 8, LOW 5 questions per section, spread over its subsections).
   * Mock days (84-90) have no sections in the plan, so they get no PDF.
 
+Each day also gets an answer key ("<out_dir>/Answer Keys/"): question numbers and answers only, in a grid
+under the section headings, numbered exactly as in that day's MCQ PDF.
+
 Usage: python3 tools/build_mcq_pdfs.py app/src/main/assets <out_dir>
 """
 import json
@@ -50,6 +53,8 @@ S = {
     "section": ParagraphStyle("section", fontName="Sans-Bold", fontSize=11.5, leading=15.5, textColor=INK),
     "meta": ParagraphStyle("meta", fontName="Sans", fontSize=8.5, leading=12, textColor=MUTED),
     "subsec": ParagraphStyle("subsec", fontName="Sans-Bold", fontSize=10, leading=14, textColor=ACCENT),
+    "key_h": ParagraphStyle("key_h", fontName="Sans-Bold", fontSize=9.5, leading=13, textColor=INK),
+    "key": ParagraphStyle("key", fontName="Sans", fontSize=8.6, leading=11, textColor=INK),
     "q": ParagraphStyle("q", fontName="Sans", fontSize=10, leading=14, textColor=BODY, alignment=TA_LEFT),
     "opt": ParagraphStyle("opt", fontName="Sans", fontSize=9.6, leading=13.2, textColor=BODY, leftIndent=26, firstLineIndent=-18),
     "ans": ParagraphStyle("ans", fontName="Sans-Bold", fontSize=9.6, leading=13.2, textColor=GREEN, leftIndent=8),
@@ -156,15 +161,9 @@ def rule():
     return t
 
 
-def build_day(job):
-    day, rows, data, out = job["day"], job["rows"], job["data"], Path(job["out"])
-    index, subs_titles, mcq = data["index"], data["subs"], data["mcq"]
-    n_day = day["n"]
-    when = date.fromisoformat(day["date"])
-    datestr = f"{day['dow']}, {when.day} {when.strftime('%b %Y')}"
-    story = []
-    qn = 0
-
+def select(job):
+    """The day's sections and their MCQs, in print order: [(book, row, [(sub, q)])], plus a summary line."""
+    rows, mcq = job["rows"], job["data"]["mcq"]
     rev = all(k == "rev" for *_, k in rows)
     sel = []  # (book, row, [(sub, q)])
     for b, ri, kind in rows:
@@ -179,6 +178,19 @@ def build_day(job):
     kind_line = (f"Revision set · {total} MCQs from today's {len(sel)} sections (first given on Days "
                  f"{min(job['first'][(b, r)] for b, r, _ in sel)}–{max(job['first'][(b, r)] for b, r, _ in sel)})"
                  if rev else f"{total} MCQs · {len(sel)} sections")
+    return sel, kind_line
+
+
+def build_day(job):
+    day, rows, data, out = job["day"], job["rows"], job["data"], Path(job["out"])
+    index, subs_titles, mcq = data["index"], data["subs"], data["mcq"]
+    n_day = day["n"]
+    when = date.fromisoformat(day["date"])
+    datestr = f"{day['dow']}, {when.day} {when.strftime('%b %Y')}"
+    story = []
+    qn = 0
+
+    sel, kind_line = select(job)
     story += header_block(day, f"Day {n_day} of 90 · {day_title(day)}",
                           f"{datestr} · {title_case(day['phase'])} · {kind_line}", [])
     # contents: sections with question ranges
@@ -240,6 +252,56 @@ def build_day(job):
     return n_day, qn, out.name
 
 
+def build_key(job):
+    """Answer key: question number and answer only, in a grid under each section's heading."""
+    day, out = job["day"], Path(job["key_out"])
+    index = job["data"]["index"]
+    n_day = day["n"]
+    when = date.fromisoformat(day["date"])
+    datestr = f"{day['dow']}, {when.day} {when.strftime('%b %Y')}"
+    sel, kind_line = select(job)
+    story = header_block(day, f"Day {n_day} of 90 · Answer Key",
+                         f"{day_title(day)} · {datestr} · {kind_line}",
+                         ["Answers are option numbers (1)–(4), as printed in the day's MCQ PDF."])
+    cols = 10
+    width = (A4[0] - 32 * mm) / cols
+    qn = 0
+    for i, (b, ri, qs) in enumerate(sel, 1):
+        row = index[b - 1]["rows"][ri]
+        head = Paragraph(f"{i}. {esc(row['title'])} <font color='#8A96AD'>· Q{qn + 1}–{qn + len(qs)}</font>", S["key_h"])
+        cells = []
+        for _, q in qs:
+            qn += 1
+            cells.append(Paragraph(f"<font color='#5A6B88'>{qn}.</font>&nbsp;<b>({q['a'] + 1})</b>", S["key"]))
+        grid = [cells[k:k + cols] for k in range(0, len(cells), cols)]
+        grid[-1] += [""] * (cols - len(grid[-1]))
+        t = Table(grid, colWidths=[width] * cols)
+        t.setStyle(TableStyle([
+            ("ROWBACKGROUNDS", (0, 0), (-1, -1), [HexColor("#FFFFFF"), HexColor("#F7F8FA")]),
+            ("LINEBELOW", (0, 0), (-1, -1), 0.3, LINE),
+            ("TOPPADDING", (0, 0), (-1, -1), 2), ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
+            ("LEFTPADDING", (0, 0), (-1, -1), 3), ("RIGHTPADDING", (0, 0), (-1, -1), 2),
+        ]))
+        # short sections stay on one page; long grids may break across pages
+        story += [KeepTogether([head, Spacer(1, 3), t])] if len(grid) <= 8 else [head, Spacer(1, 3), t]
+        story.append(Spacer(1, 8))
+
+    def footer(canvas, doc):
+        canvas.saveState()
+        canvas.setFont("Sans", 7.5)
+        canvas.setFillColor(MUTED)
+        canvas.drawString(16 * mm, 9 * mm, f"APPSC Prep · Day {n_day} of 90 · Answer Key")
+        canvas.drawRightString(A4[0] - 16 * mm, 9 * mm, f"Page {doc.page}")
+        canvas.restoreState()
+
+    out.parent.mkdir(parents=True, exist_ok=True)
+    doc = SimpleDocTemplate(str(out), pagesize=A4, leftMargin=16 * mm, rightMargin=16 * mm,
+                            topMargin=14 * mm, bottomMargin=16 * mm,
+                            title=f"APPSC Prep MCQ Schedule - Day {n_day} Answer Key", author="APPSC Prep")
+    doc.build(story, onFirstPage=footer, onLaterPages=footer)
+    return n_day, qn, out.name
+
+
 def file_name(day):
     focus = re.sub(r"\((\d)/(\d)\)", r"(\1 of \2)", day_title(day))
     focus = re.sub(r'[\\:*?"<>|]', "", focus)
@@ -262,12 +324,15 @@ def main():
         if not days[d["n"]]:  # mock week: no sections
             continue
         jobs.append({"day": d, "rows": days[d["n"]], "data": data, "pri": pri, "first": first,
-                     "out": str(out_dir / file_name(d))})
+                     "out": str(out_dir / file_name(d)),
+                     "key_out": str(out_dir / "Answer Keys" / file_name(d).replace(".pdf", " - Answer Key.pdf"))})
     once = sum(len(mcq[b].get(r, [])) for rows in days.values() for b, r, k in rows if k == "new")
     print("MCQs given once on study days:", once, "of", sum(len(v) for b in mcq for v in mcq[b].values()))
     with ProcessPoolExecutor() as ex:
         for n, qn, name in ex.map(build_day, jobs):
             print(f"{name}: {qn} MCQs")
+        for n, qn, name in ex.map(build_key, jobs):
+            print(f"{name}: {qn} answers")
 
 
 if __name__ == "__main__":

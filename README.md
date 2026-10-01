@@ -42,7 +42,8 @@ python3 tools/build_mcq_pdfs.py app/src/main/assets mcq-schedule
 One PDF per plan day (Days 1–83; the mock week 84–90 has no sections), MCQs only with the answer after each,
 under the app's headings: Day → Topic → Section → Subsection. Each MCQ is given once, on the first day its section
 comes up (sections the plan never lists ride with their neighbour); days that only revisit sections get a
-revision set (HIGH 15 / MED 8 / LOW 5 per section).
+revision set (HIGH 15 / MED 8 / LOW 5 per section). `mcq-schedule/Answer Keys/` gets a key sheet per day:
+question numbers and answers only, in a grid under the section headings.
 
 ## Building
 
