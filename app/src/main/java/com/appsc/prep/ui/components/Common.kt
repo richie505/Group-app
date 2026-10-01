@@ -56,6 +56,20 @@ interface Platform {
     /** Keyboard keys while this screen shows (Windows only): "1".."9", "Left", "Right". True if handled. */
     @Composable
     fun Shortcuts(onKey: (String) -> Boolean)
+
+    /** Read-aloud engine, or null where there is none (the reader then hides the Listen button). */
+    val speech: Speech? get() = null
+}
+
+/** Text-to-speech for the reader: speaks a list of parts (paragraphs) in order. */
+interface Speech {
+    /**
+     * Speaks parts[from..] at [rate] (1 = normal). [onPart] gets the index of the part being spoken,
+     * [onDone] runs after the last part. Anything already speaking is cut off. Callbacks run on the main thread.
+     */
+    fun speak(parts: List<String>, from: Int, rate: Float, onPart: (Int) -> Unit, onDone: () -> Unit)
+
+    fun stop()
 }
 
 class AppState(val repo: Repository, val store: ProgressStore, val platform: Platform)

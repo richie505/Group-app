@@ -11,6 +11,11 @@ one run (Previous / Skip / Next), a "Stuck? Show a hint" button, the explanation
 "why it went wrong" technique note from the APPSC MCQ Techniques guide (`data/Techniques.kt`), net score with
 1/3 negative marking, and "retry wrong answers". Previous-year questions (PYQs) live in the MCQ app.
 
+**Listen** (headphones in the reader): reads the notes aloud with the phone's text-to-speech (Indian English
+voice first), highlighting and scrolling to the paragraph being read; tables are read row by row
+("Factor: … How it changes the family: …"). Play/pause, previous/next paragraph, speed 0.75×–2×, tap a
+paragraph to read from there, and it carries on into the next subsection (`platform/AndroidSpeech.kt`).
+
 Tabs: **Today** (today's targets) · **Plan** (all 90 days + buffer) · **Notes** (browse all 6 books)
 · **Progress** · **Saved** (bookmarks).
 

@@ -3,6 +3,7 @@ package com.appsc.prep
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
@@ -67,6 +68,17 @@ class ScreenshotTest {
     @Test fun section() = shot("4_section", preload = 2) { SectionScreen(2, 0, nav) }
     @Test fun reader() = shot("5_reader", preload = 2) { ReaderScreen(2, 0, 0, nav) }
     @Test fun readerTable() = shot("6_reader_table", preload = 2) { ReaderScreen(2, 0, 1, nav) }
+
+    /** Read aloud: the Listen button opens the player bar, speaks the page and highlights the paragraph. */
+    @Test fun readerListen() {
+        shot("15_listen", preload = 2) { ReaderScreen(2, 106, 0, nav) }
+        rule.onNodeWithContentDescription("Listen").performClick()
+        rule.waitForIdle()
+        org.robolectric.shadows.ShadowLooper.idleMainLooper()
+        rule.waitForIdle()
+        rule.onNodeWithContentDescription("Pause").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/15_listen.png")
+    }
     @Test fun quiz() = shot("9_quiz") { QuizScreen(QuizSource("row", 2, 0), "new", "MCQ Practice", nav) }
 
     @Test fun quizExplained() {

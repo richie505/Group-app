@@ -35,11 +35,16 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.Pause
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.SkipNext
+import androidx.compose.material.icons.filled.SkipPrevious
+import androidx.compose.material.icons.outlined.Headphones
 import androidx.compose.material.icons.filled.Remove
 import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.CheckCircle
 import androidx.compose.material.icons.outlined.Share
-import androidx.compose.material.icons.outlined.TextFields
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.DropdownMenu
@@ -50,8 +55,10 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -67,6 +74,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.appsc.prep.data.Block
 import com.appsc.prep.data.Book
 import com.appsc.prep.data.Saved
 import com.appsc.prep.data.TableBlock
@@ -132,6 +140,51 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         secI = p.sec
     }
 
+    // ---- read aloud ----
+    val speech = app.platform.speech
+    var listening by rememberSaveable { mutableStateOf(false) } // player bar shown
+    var playing by remember { mutableStateOf(false) }
+    var part by rememberSaveable { mutableIntStateOf(0) }
+    var carryOn by remember { mutableStateOf(false) } // keep reading into the next subsection
+    val parts = remember(id) { speechParts(sec.title, sec.blocks) }
+
+    fun play(from: Int) {
+        val s = speech ?: return
+        part = from.coerceIn(0, parts.lastIndex)
+        playing = true
+        s.speak(parts.map { it.second }, part, store.speechRate, onPart = { part = it }) {
+            playing = false
+            if (next != null) {
+                carryOn = true
+                go(next)
+            }
+        }
+    }
+
+    fun pause() {
+        speech?.stop()
+        playing = false
+    }
+
+    DisposableEffect(Unit) { onDispose { speech?.stop() } }
+    LaunchedEffect(id) {
+        // a new subsection: keep reading if we were
+        val keepGoing = carryOn || playing
+        carryOn = false
+        part = 0
+        if (keepGoing) play(0)
+    }
+    LaunchedEffect(part, listening) {
+        if (!listening) return@LaunchedEffect
+        // keep the paragraph being read on screen (item 0 is the heading)
+        val item = (parts.getOrNull(part)?.first ?: -1) + 1
+        val info = listState.layoutInfo
+        val seen = info.visibleItemsInfo.firstOrNull { it.index == item }
+        if (seen == null || seen.offset < 0 || seen.offset + seen.size > info.viewportEndOffset - 220) {
+            listState.animateScrollToItem(item)
+        }
+    }
+
     Box(Modifier.fillMaxSize()) {
         Column(Modifier.fillMaxSize()) {
             TopBar(sec.title, onBack = nav::back) {
@@ -149,8 +202,14 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                         "Mark as read", tint = if (done) C.Green else C.Ink,
                     )
                 }
+                if (speech != null) {
+                    IconButton(onClick = {
+                        listening = true
+                        if (!playing) play(part)
+                    }) { Icon(Icons.Outlined.Headphones, "Listen", tint = if (listening) C.Accent else C.Ink) }
+                }
                 Box {
-                    IconButton(onClick = { sizeMenu = true }) { Icon(Icons.Outlined.TextFields, "Text size", tint = C.Ink) }
+                    IconButton(onClick = { sizeMenu = true }) { Icon(Icons.Filled.MoreVert, "More", tint = C.Ink) }
                     DropdownMenu(expanded = sizeMenu, onDismissRequest = { sizeMenu = false }) {
                         DropdownMenuItem(
                             text = { Text("Larger text") },
@@ -162,9 +221,16 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                             leadingIcon = { Icon(Icons.Filled.Remove, null) },
                             onClick = { store.changeTextScale(-0.1f) },
                         )
+                        DropdownMenuItem(
+                            text = { Text("Share") },
+                            leadingIcon = { Icon(Icons.Outlined.Share, null) },
+                            onClick = {
+                                sizeMenu = false
+                                app.platform.share(sec.title, plainText(sec.title, sec.blocks))
+                            },
+                        )
                     }
                 }
-                IconButton(onClick = { app.platform.share(sec.title, plainText(sec.title, sec.blocks)) }) { Icon(Icons.Outlined.Share, "Share", tint = C.Ink) }
             }
 
             LazyColumn(Modifier.fillMaxSize(), state = listState) {
@@ -197,8 +263,20 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                         Spacer(Modifier.height(10.dp))
                     }
                 }
-                itemsIndexed(sec.blocks, key = { i, _ -> "$id-$i" }) { _, b ->
-                    Box(Modifier.padding(horizontal = 20.dp)) { BlockView(b, scale) }
+                itemsIndexed(sec.blocks, key = { i, _ -> "$id-$i" }) { i, b ->
+                    val reading = listening && parts.getOrNull(part)?.first == i
+                    Box(
+                        Modifier
+                            .padding(horizontal = 12.dp)
+                            .clip(RoundedCornerShape(8.dp))
+                            .background(if (reading) C.AccentSoft else Color.Transparent)
+                            .then(
+                                if (listening) {
+                                    Modifier.clickable { parts.indexOfFirst { it.first == i }.takeIf { it >= 0 }?.let(::play) }
+                                } else Modifier,
+                            )
+                            .padding(horizontal = 8.dp),
+                    ) { BlockView(b, scale) }
                 }
                 item(key = "foot-$id") {
                     Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
@@ -315,7 +393,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         Box(
             Modifier
                 .align(Alignment.BottomEnd)
-                .padding(end = 18.dp, bottom = 22.dp)
+                .padding(end = 18.dp, bottom = if (listening) 96.dp else 22.dp)
                 .size(58.dp)
                 .shadow(4.dp, RoundedCornerShape(12.dp))
                 .clip(RoundedCornerShape(12.dp))
@@ -324,6 +402,27 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
             contentAlignment = Alignment.Center,
         ) {
             Icon(Icons.AutoMirrored.Filled.MenuOpen, "Table of content", tint = Color.White, modifier = Modifier.size(30.dp))
+        }
+
+        if (listening && speech != null) {
+            PlayerBar(
+                playing = playing,
+                position = "${part + 1} / ${parts.size}",
+                rate = store.speechRate,
+                onPlayPause = { if (playing) pause() else play(part) },
+                onPrev = { play((part - 1).coerceAtLeast(0)) },
+                onNext = { if (part < parts.lastIndex) play(part + 1) else next?.let { carryOn = true; go(it) } },
+                onRate = {
+                    val rates = listOf(0.75f, 1f, 1.25f, 1.5f, 2f)
+                    store.changeSpeechRate(rates[(rates.indexOf(store.speechRate) + 1) % rates.size])
+                    if (playing) play(part)
+                },
+                onClose = {
+                    pause()
+                    listening = false
+                },
+                modifier = Modifier.align(Alignment.BottomCenter),
+            )
         }
 
         // table-of-contents drawer (subsections of this section)
@@ -446,3 +545,94 @@ private fun plainText(title: String, blocks: List<com.appsc.prep.data.Block>): S
         }
     }
 }
+
+@Composable
+private fun PlayerBar(
+    playing: Boolean,
+    position: String,
+    rate: Float,
+    onPlayPause: () -> Unit,
+    onPrev: () -> Unit,
+    onNext: () -> Unit,
+    onRate: () -> Unit,
+    onClose: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    Row(
+        modifier
+            .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 10.dp)
+            .shadow(6.dp, RoundedCornerShape(16.dp))
+            .clip(RoundedCornerShape(16.dp))
+            .background(Color.White)
+            .padding(horizontal = 6.dp, vertical = 6.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        IconButton(onClick = onPrev) { Icon(Icons.Filled.SkipPrevious, "Previous paragraph", tint = C.Ink) }
+        Box(
+            Modifier.size(48.dp).clip(RoundedCornerShape(24.dp)).background(C.Accent).clickable(onClick = onPlayPause),
+            contentAlignment = Alignment.Center,
+        ) {
+            Icon(if (playing) Icons.Filled.Pause else Icons.Filled.PlayArrow, if (playing) "Pause" else "Play", tint = Color.White, modifier = Modifier.size(28.dp))
+        }
+        IconButton(onClick = onNext) { Icon(Icons.Filled.SkipNext, "Next paragraph", tint = C.Ink) }
+        Box(
+            Modifier.clip(RoundedCornerShape(8.dp)).background(C.AccentSoft).clickable(onClick = onRate).padding(horizontal = 10.dp, vertical = 6.dp),
+        ) {
+            Text("${if (rate % 1f == 0f) rate.toInt() else rate}×", style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Bold, color = C.Accent))
+        }
+        Text(
+            position,
+            style = TextStyle(fontSize = 13.sp, color = C.Muted),
+            modifier = Modifier.weight(1f).padding(start = 10.dp),
+        )
+        IconButton(onClick = onClose) { Icon(Icons.Filled.Close, "Stop listening", tint = C.Muted) }
+    }
+}
+
+/** What read-aloud says for a subsection: (block index, text), the title first (-1); tables row by row. */
+internal fun speechParts(title: String, blocks: List<Block>): List<Pair<Int, String>> = buildList {
+    add(-1 to speakable(title))
+    blocks.forEachIndexed { i, b ->
+        when (b) {
+            is TextBlock -> {
+                // drop grey source markers such as [GK]
+                val text = b.runs.filterNot { it.muted && MARKER.matches(it.text.trim()) }.joinToString("") { it.text }
+                speakable(text).takeIf { it.isNotBlank() }?.let { add(i to it) }
+            }
+            is TableBlock -> {
+                val head = b.head.map { c -> speakable(c.joinToString("") { it.text }) }
+                b.rows.forEach { r ->
+                    val line = r.mapIndexedNotNull { c, cell ->
+                        val t = speakable(cell.joinToString("") { it.text })
+                        val h = head.getOrNull(c).orEmpty()
+                        when {
+                            t.isBlank() -> null
+                            h.isBlank() -> t
+                            else -> "$h: $t"
+                        }
+                    }.joinToString(". ")
+                    if (line.isNotBlank()) add(i to line)
+                }
+            }
+        }
+    }
+}
+
+private val MARKER = Regex("""\[[^\]]{1,12}]""")
+
+/** Notes shorthand the speech engine would read badly, written out. */
+internal fun speakable(text: String): String {
+    var t = MARKER.replace(text, " ")
+    t = t.replace(Regex("""\(CDX\)"""), " ")
+    t = t.replace("→", " to ").replace("←", " from ").replace("⇒", " so ").replace("≈", " about ")
+    t = t.replace(" – ", ", ").replace(" — ", ", ").replace("—", ", ")
+    t = t.replace(" & ", " and ").replace("&", " and ")
+    t = t.replace(Regex("""\be\.g\.""", RegexOption.IGNORE_CASE), "for example")
+    t = t.replace(Regex("""\bi\.e\.""", RegexOption.IGNORE_CASE), "that is")
+    t = t.replace(Regex("""\bvs\.?(?=\s)"""), "versus")
+    t = t.replace(Regex("""\bArts?\.\s*(?=\d)""")) { if (it.value.startsWith("Arts")) "Articles " else "Article " }
+    t = t.replace(Regex("""(?<=[A-Za-z])/(?=[A-Za-z])"""), " or ")
+    return t.replace(Regex("""\s+"""), " ").replace(Regex("""\s+([,.;:])"""), "$1").trim()
+}
+

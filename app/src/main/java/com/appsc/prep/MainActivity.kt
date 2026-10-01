@@ -44,13 +44,20 @@ import com.appsc.prep.ui.theme.C
 import com.appsc.prep.ui.theme.PrepTheme
 
 class MainActivity : ComponentActivity() {
+    private var platform: AndroidPlatform? = null
+
+    override fun onDestroy() {
+        if (isFinishing) platform?.speech?.shutdown()
+        super.onDestroy()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         val app = AppState(
             Repository { applicationContext.assets.open(it) },
             ProgressStore(PrefsStorage(applicationContext)),
-            AndroidPlatform(this),
+            AndroidPlatform(applicationContext).also { platform = it },
         )
         setContent {
             PrepTheme {
