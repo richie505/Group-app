@@ -14,7 +14,14 @@ one run (Previous / Skip / Next), a "Stuck? Show a hint" button, the explanation
 **Listen** (headphones in the reader): reads the notes aloud with the phone's text-to-speech (Indian English
 voice first), highlighting and scrolling to the paragraph being read; tables are read row by row
 ("Factor: … How it changes the family: …"). Play/pause, previous/next paragraph, speed 0.75×–2×, tap a
-paragraph to read from there, and it carries on into the next subsection (`platform/AndroidSpeech.kt`).
+paragraph to read from there; it carries on through the following subsections, also with the screen locked or
+the app in the background (foreground service with a Pause/Stop notification, `platform/ReadAloud*.kt`), until
+Stop, leaving the reader or closing the app.
+What is spoken (`data/SpeechText.kt`): no citations ([GK], (CDI; APP), (LENS Apr 2026), (APPSC-G2 2025 key),
+"Sources: …", source names in sentences become "one source"), and short forms said in full - Sec 6 → Section 6,
+WTO → World Trade Organization, ₹5,000 cr → 5,000 crore rupees, Group-II → Group 2 - from a built-in list, the
+727 short forms the notes define (`assets/abbr.json`, `tools/build_abbreviations.py`), and context rules for
+the ones with two meanings (SC: Supreme Court or Scheduled Caste from the words around it).
 
 Tabs: **Today** (today's targets) · **Plan** (all 90 days + buffer) · **Notes** (browse all 6 books)
 · **Progress** · **Saved** (bookmarks).

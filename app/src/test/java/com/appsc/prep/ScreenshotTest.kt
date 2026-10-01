@@ -4,12 +4,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.assertCountEquals
+import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
 import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.platform.AndroidPlatform
 import com.appsc.prep.platform.PrefsStorage
+import com.appsc.prep.platform.ReadAloud
+import com.appsc.prep.ui.components.SpeechPage
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
 import com.appsc.prep.ui.components.AppState
@@ -28,6 +32,8 @@ import com.appsc.prep.ui.screens.TodayScreen
 import com.appsc.prep.ui.theme.PrepTheme
 import com.github.takahirom.roborazzi.captureRoboImage
 import kotlinx.coroutines.runBlocking
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -53,6 +59,7 @@ class ScreenshotTest {
 
     private fun shot(name: String, preload: Int? = null, content: @Composable () -> Unit) {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        ReadAloud.init(ctx).stop() // each screen starts without read-aloud
         val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
         if (preload != null) runBlocking { app.repo.book(preload); app.repo.mcq(preload) }
         rule.setContent {
@@ -78,6 +85,23 @@ class ScreenshotTest {
         rule.waitForIdle()
         rule.onNodeWithContentDescription("Pause").assertExists()
         rule.onRoot().captureRoboImage("screenshots/15_listen.png")
+        assertEquals("2:106:0", ReadAloud.playback.value.pageId)
+        assertTrue(ReadAloud.playback.value.playing)
+        ReadAloud.stop()
+    }
+
+    /** Reading page A, then opening page B by hand: B is read, and the screen stays on B. */
+    @Test fun readAloudFollowsTheOpenedPage() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        ReadAloud.init(ctx).play(SpeechPage("2:106:0", "A", listOf("one", "two")), 0, 1f) { null }
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        runBlocking { app.repo.book(2); app.repo.mcq(2) }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { ReaderScreen(2, 0, 0, nav) } } }
+        rule.waitForIdle()
+        assertEquals("2:0:0", ReadAloud.playback.value.pageId)
+        // still on page B, not taken back to A
+        rule.onAllNodesWithText("Changing structure and urban families", substring = true).assertCountEquals(0)
+        ReadAloud.stop()
     }
     @Test fun quiz() = shot("9_quiz") { QuizScreen(QuizSource("row", 2, 0), "new", "MCQ Practice", nav) }
 

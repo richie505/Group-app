@@ -55,10 +55,8 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -74,7 +72,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.appsc.prep.data.Block
+import com.appsc.prep.data.SpeechText
 import com.appsc.prep.data.Book
 import com.appsc.prep.data.Saved
 import com.appsc.prep.data.TableBlock
@@ -82,6 +80,8 @@ import com.appsc.prep.data.TextBlock
 import com.appsc.prep.data.subsectionId
 import com.appsc.prep.ui.components.BlockView
 import com.appsc.prep.ui.components.Loading
+import com.appsc.prep.ui.components.Playback
+import com.appsc.prep.ui.components.SpeechPage
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.TopBar
 import com.appsc.prep.ui.theme.C
@@ -140,42 +140,55 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         secI = p.sec
     }
 
-    // ---- read aloud ----
+    // ---- read aloud (one session for the app: it carries on with the screen locked) ----
     val speech = app.platform.speech
-    var listening by rememberSaveable { mutableStateOf(false) } // player bar shown
-    var playing by remember { mutableStateOf(false) }
-    var part by rememberSaveable { mutableIntStateOf(0) }
-    var carryOn by remember { mutableStateOf(false) } // keep reading into the next subsection
-    val parts = remember(id) { speechParts(sec.title, sec.blocks) }
+    val pb = speech?.playback?.value ?: Playback()
+    val listening = pb.active
+    val here = pb.pageId == id
+    val part = if (here) pb.part else 0
+    val parts = remember(id) {
+        app.repo.abbreviations // short forms the notes define
+        SpeechText.parts(sec.title, sec.blocks, bookId)
+    }
+
+    fun page(p: Pos): SpeechPage {
+        val s = book.rows[p.row].secs[p.sec]
+        return SpeechPage(subsectionId(bookId, p.row, p.sec), s.title, SpeechText.parts(s.title, s.blocks, bookId).map { it.second })
+    }
 
     fun play(from: Int) {
         val s = speech ?: return
-        part = from.coerceIn(0, parts.lastIndex)
-        playing = true
-        s.speak(parts.map { it.second }, part, store.speechRate, onPart = { part = it }) {
-            playing = false
-            if (next != null) {
-                carryOn = true
-                go(next)
-            }
+        var cursor = pos
+        s.play(SpeechPage(id, sec.title, parts.map { it.second }), from, store.speechRate) {
+            // then on through the book, page by page
+            book.next(cursor)?.let { cursor = it; page(it) }
         }
     }
 
-    fun pause() {
+    fun stopAndBack() {
         speech?.stop()
-        playing = false
+        nav.back()
     }
 
-    DisposableEffect(Unit) { onDispose { speech?.stop() } }
+    // leaving the reader ends read-aloud (locking the screen or switching apps does not)
+    app.platform.BackHandler(enabled = listening && !tocOpen) { stopAndBack() }
     LaunchedEffect(id) {
-        // a new subsection: keep reading if we were
-        val keepGoing = carryOn || playing
-        carryOn = false
-        part = 0
-        if (keepGoing) play(0)
+        // opened another page by hand while reading: read that one
+        val now = speech?.playback?.value ?: return@LaunchedEffect
+        if (now.playing && now.pageId != id) play(0)
     }
-    LaunchedEffect(part, listening) {
-        if (!listening) return@LaunchedEffect
+    // reading moved on from the page on screen (end of page, or several pages while the phone was locked):
+    // follow it. A page opened by hand is not followed away from - it is read instead (above).
+    var lastSpoken by remember { mutableStateOf(pb.pageId) }
+    LaunchedEffect(pb.pageId) {
+        val was = lastSpoken
+        lastSpoken = pb.pageId
+        if (!pb.active || was != id || pb.pageId == id) return@LaunchedEffect
+        val (b, r, s) = pb.pageId.split(':').map { it.toIntOrNull() ?: return@LaunchedEffect }
+        if (b == bookId) go(Pos(r, s))
+    }
+    LaunchedEffect(part, here) {
+        if (!here) return@LaunchedEffect
         // keep the paragraph being read on screen (item 0 is the heading)
         val item = (parts.getOrNull(part)?.first ?: -1) + 1
         val info = listState.layoutInfo
@@ -187,7 +200,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
 
     Box(Modifier.fillMaxSize()) {
         Column(Modifier.fillMaxSize()) {
-            TopBar(sec.title, onBack = nav::back) {
+            TopBar(sec.title, onBack = ::stopAndBack) {
                 val saved = store.isSaved(id)
                 IconButton(onClick = { store.toggleSaved(Saved(id, sec.title, row.title)) }) {
                     Icon(
@@ -204,8 +217,10 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                 }
                 if (speech != null) {
                     IconButton(onClick = {
-                        listening = true
-                        if (!playing) play(part)
+                        when {
+                            !here -> play(0)
+                            !pb.playing -> speech.resume()
+                        }
                     }) { Icon(Icons.Outlined.Headphones, "Listen", tint = if (listening) C.Accent else C.Ink) }
                 }
                 Box {
@@ -264,7 +279,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     }
                 }
                 itemsIndexed(sec.blocks, key = { i, _ -> "$id-$i" }) { i, b ->
-                    val reading = listening && parts.getOrNull(part)?.first == i
+                    val reading = here && parts.getOrNull(part)?.first == i
                     Box(
                         Modifier
                             .padding(horizontal = 12.dp)
@@ -272,7 +287,14 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                             .background(if (reading) C.AccentSoft else Color.Transparent)
                             .then(
                                 if (listening) {
-                                    Modifier.clickable { parts.indexOfFirst { it.first == i }.takeIf { it >= 0 }?.let(::play) }
+                                    Modifier.clickable {
+                                        val at = parts.indexOfFirst { it.first == i }
+                                        if (at < 0) return@clickable
+                                        if (here) {
+                                            speech?.seek(at)
+                                            speech?.resume()
+                                        } else play(at)
+                                    }
                                 } else Modifier,
                             )
                             .padding(horizontal = 8.dp),
@@ -406,21 +428,25 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
 
         if (listening && speech != null) {
             PlayerBar(
-                playing = playing,
+                playing = pb.playing && here,
                 position = "${part + 1} / ${parts.size}",
                 rate = store.speechRate,
-                onPlayPause = { if (playing) pause() else play(part) },
-                onPrev = { play((part - 1).coerceAtLeast(0)) },
-                onNext = { if (part < parts.lastIndex) play(part + 1) else next?.let { carryOn = true; go(it) } },
+                onPlayPause = {
+                    when {
+                        !here -> play(0)
+                        pb.playing -> speech.pause()
+                        else -> speech.resume()
+                    }
+                },
+                onPrev = { if (here) speech.seek(part - 1) else play(0) },
+                onNext = { if (here && part < parts.lastIndex) speech.seek(part + 1) else next?.let { go(it) } },
                 onRate = {
                     val rates = listOf(0.75f, 1f, 1.25f, 1.5f, 2f)
-                    store.changeSpeechRate(rates[(rates.indexOf(store.speechRate) + 1) % rates.size])
-                    if (playing) play(part)
+                    val r = rates[(rates.indexOf(store.speechRate) + 1) % rates.size]
+                    store.changeSpeechRate(r)
+                    speech.setRate(r)
                 },
-                onClose = {
-                    pause()
-                    listening = false
-                },
+                onClose = { speech.stop() },
                 modifier = Modifier.align(Alignment.BottomCenter),
             )
         }
@@ -589,50 +615,3 @@ private fun PlayerBar(
         IconButton(onClick = onClose) { Icon(Icons.Filled.Close, "Stop listening", tint = C.Muted) }
     }
 }
-
-/** What read-aloud says for a subsection: (block index, text), the title first (-1); tables row by row. */
-internal fun speechParts(title: String, blocks: List<Block>): List<Pair<Int, String>> = buildList {
-    add(-1 to speakable(title))
-    blocks.forEachIndexed { i, b ->
-        when (b) {
-            is TextBlock -> {
-                // drop grey source markers such as [GK]
-                val text = b.runs.filterNot { it.muted && MARKER.matches(it.text.trim()) }.joinToString("") { it.text }
-                speakable(text).takeIf { it.isNotBlank() }?.let { add(i to it) }
-            }
-            is TableBlock -> {
-                val head = b.head.map { c -> speakable(c.joinToString("") { it.text }) }
-                b.rows.forEach { r ->
-                    val line = r.mapIndexedNotNull { c, cell ->
-                        val t = speakable(cell.joinToString("") { it.text })
-                        val h = head.getOrNull(c).orEmpty()
-                        when {
-                            t.isBlank() -> null
-                            h.isBlank() -> t
-                            else -> "$h: $t"
-                        }
-                    }.joinToString(". ")
-                    if (line.isNotBlank()) add(i to line)
-                }
-            }
-        }
-    }
-}
-
-private val MARKER = Regex("""\[[^\]]{1,12}]""")
-
-/** Notes shorthand the speech engine would read badly, written out. */
-internal fun speakable(text: String): String {
-    var t = MARKER.replace(text, " ")
-    t = t.replace(Regex("""\(CDX\)"""), " ")
-    t = t.replace("→", " to ").replace("←", " from ").replace("⇒", " so ").replace("≈", " about ")
-    t = t.replace(" – ", ", ").replace(" — ", ", ").replace("—", ", ")
-    t = t.replace(" & ", " and ").replace("&", " and ")
-    t = t.replace(Regex("""\be\.g\.""", RegexOption.IGNORE_CASE), "for example")
-    t = t.replace(Regex("""\bi\.e\.""", RegexOption.IGNORE_CASE), "that is")
-    t = t.replace(Regex("""\bvs\.?(?=\s)"""), "versus")
-    t = t.replace(Regex("""\bArts?\.\s*(?=\d)""")) { if (it.value.startsWith("Arts")) "Articles " else "Article " }
-    t = t.replace(Regex("""(?<=[A-Za-z])/(?=[A-Za-z])"""), " or ")
-    return t.replace(Regex("""\s+"""), " ").replace(Regex("""\s+([,.;:])"""), "$1").trim()
-}
-
