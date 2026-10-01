@@ -13,7 +13,8 @@ Headings follow the app: Day -> Topic (unit) -> Section (syllabus row) -> Subsec
 Each day also gets an answer key ("<out_dir>/Answer Keys/"): question numbers and answers only, in a grid
 under the section headings, numbered exactly as in that day's MCQ PDF.
 
-Usage: python3 tools/build_mcq_pdfs.py app/src/main/assets <out_dir>
+Usage: python3 tools/build_mcq_pdfs.py app/src/main/assets <out_dir> [--dark]
+  --dark   reverse print: white text on a black page
 """
 import json
 import re
@@ -38,27 +39,60 @@ pdfmetrics.registerFont(TTFont("Sans", str(FONT_DIR / "DejaVuSans.ttf")))
 pdfmetrics.registerFont(TTFont("Sans-Bold", str(FONT_DIR / "DejaVuSans-Bold.ttf")))
 pdfmetrics.registerFontFamily("Sans", normal="Sans", bold="Sans-Bold", italic="Sans", boldItalic="Sans-Bold")
 
-# app colours (ui/theme/Theme.kt)
-NAVY, INK, BODY, MUTED = HexColor("#0F2557"), HexColor("#12203A"), HexColor("#1F2937"), HexColor("#5A6B88")
-ACCENT, ACCENT_SOFT, GREEN, LINE = HexColor("#3949AB"), HexColor("#E8EAF6"), HexColor("#15803D"), HexColor("#E5E8EF")
-PRI = {"HIGH": "#C62828", "MED": "#B45309", "LOW": "#4B5563"}
-
-S = {
-    "title": ParagraphStyle("title", fontName="Sans-Bold", fontSize=20, leading=25, textColor=NAVY),
-    "sub": ParagraphStyle("sub", fontName="Sans", fontSize=10.5, leading=15, textColor=MUTED),
-    "brief": ParagraphStyle("brief", fontName="Sans", fontSize=9, leading=13, textColor=MUTED),
-    "toc": ParagraphStyle("toc", fontName="Sans", fontSize=9, leading=13, textColor=BODY, leftIndent=10),
-    "topic_k": ParagraphStyle("topic_k", fontName="Sans-Bold", fontSize=8.5, leading=12, textColor=ACCENT),
-    "topic": ParagraphStyle("topic", fontName="Sans-Bold", fontSize=13, leading=17, textColor=INK),
-    "section": ParagraphStyle("section", fontName="Sans-Bold", fontSize=11.5, leading=15.5, textColor=INK),
-    "meta": ParagraphStyle("meta", fontName="Sans", fontSize=8.5, leading=12, textColor=MUTED),
-    "subsec": ParagraphStyle("subsec", fontName="Sans-Bold", fontSize=10, leading=14, textColor=ACCENT),
-    "key_h": ParagraphStyle("key_h", fontName="Sans-Bold", fontSize=9.5, leading=13, textColor=INK),
-    "key": ParagraphStyle("key", fontName="Sans", fontSize=8.6, leading=11, textColor=INK),
-    "q": ParagraphStyle("q", fontName="Sans", fontSize=10, leading=14, textColor=BODY, alignment=TA_LEFT),
-    "opt": ParagraphStyle("opt", fontName="Sans", fontSize=9.6, leading=13.2, textColor=BODY, leftIndent=26, firstLineIndent=-18),
-    "ans": ParagraphStyle("ans", fontName="Sans-Bold", fontSize=9.6, leading=13.2, textColor=GREEN, leftIndent=8),
+# Colours. "light": the app's colours (ui/theme/Theme.kt). "dark": reverse print, white text on a black page.
+THEMES = {
+    "light": {"bg": None, "zebra": "#F7F8FA", "title": "#0F2557", "ink": "#12203A", "body": "#1F2937",
+              "muted": "#5A6B88", "faint": "#8A96AD", "accent": "#3949AB", "green": "#15803D", "line": "#E5E8EF",
+              "pri": {"HIGH": "#C62828", "MED": "#B45309", "LOW": "#4B5563"}},
+    "dark": {"bg": "#000000", "zebra": "#161616", "title": "#FFFFFF", "ink": "#FFFFFF", "body": "#FFFFFF",
+             "muted": "#C8C8C8", "faint": "#A0A0A0", "accent": "#A5B4FC", "green": "#6EE7A0", "line": "#3A3A3A",
+             "pri": {"HIGH": "#FF8A80", "MED": "#FFC46B", "LOW": "#D0D0D0"}},
 }
+
+
+def make_styles(t):
+    c = {k: HexColor(v) for k, v in t.items() if isinstance(v, str)}
+    return {
+        "title": ParagraphStyle("title", fontName="Sans-Bold", fontSize=20, leading=25, textColor=c["title"]),
+        "sub": ParagraphStyle("sub", fontName="Sans", fontSize=10.5, leading=15, textColor=c["muted"]),
+        "brief": ParagraphStyle("brief", fontName="Sans", fontSize=9, leading=13, textColor=c["muted"]),
+        "toc": ParagraphStyle("toc", fontName="Sans", fontSize=9, leading=13, textColor=c["body"], leftIndent=10),
+        "topic_k": ParagraphStyle("topic_k", fontName="Sans-Bold", fontSize=8.5, leading=12, textColor=c["accent"]),
+        "topic": ParagraphStyle("topic", fontName="Sans-Bold", fontSize=13, leading=17, textColor=c["ink"]),
+        "section": ParagraphStyle("section", fontName="Sans-Bold", fontSize=11.5, leading=15.5, textColor=c["ink"]),
+        "meta": ParagraphStyle("meta", fontName="Sans", fontSize=8.5, leading=12, textColor=c["muted"]),
+        "subsec": ParagraphStyle("subsec", fontName="Sans-Bold", fontSize=10, leading=14, textColor=c["accent"]),
+        "key_h": ParagraphStyle("key_h", fontName="Sans-Bold", fontSize=9.5, leading=13, textColor=c["ink"]),
+        "key": ParagraphStyle("key", fontName="Sans", fontSize=8.6, leading=11, textColor=c["ink"]),
+        "q": ParagraphStyle("q", fontName="Sans", fontSize=10, leading=14, textColor=c["body"], alignment=TA_LEFT),
+        "opt": ParagraphStyle("opt", fontName="Sans", fontSize=9.6, leading=13.2, textColor=c["body"], leftIndent=26, firstLineIndent=-18),
+        "ans": ParagraphStyle("ans", fontName="Sans-Bold", fontSize=9.6, leading=13.2, textColor=c["green"], leftIndent=8),
+    }
+
+
+T = THEMES["light"]
+S = make_styles(T)
+
+
+def apply_theme(name):
+    global T, S
+    T = THEMES[name]
+    S = make_styles(T)
+
+
+def page_decor(label):
+    """onPage callback: page background (dark theme) and the footer."""
+    def draw(canvas, doc):
+        canvas.saveState()
+        if T["bg"]:
+            canvas.setFillColor(HexColor(T["bg"]))
+            canvas.rect(0, 0, A4[0], A4[1], stroke=0, fill=1)
+        canvas.setFont("Sans", 7.5)
+        canvas.setFillColor(HexColor(T["muted"]))
+        canvas.drawString(16 * mm, 9 * mm, label)
+        canvas.drawRightString(A4[0] - 16 * mm, 9 * mm, f"Page {doc.page}")
+        canvas.restoreState()
+    return draw
 
 
 def esc(text):
@@ -157,7 +191,7 @@ def header_block(day, headline, sub, lines):
 
 def rule():
     t = Table([[""]], colWidths=["100%"], rowHeights=[0.6])
-    t.setStyle(TableStyle([("LINEABOVE", (0, 0), (-1, -1), 0.6, LINE)]))
+    t.setStyle(TableStyle([("LINEABOVE", (0, 0), (-1, -1), 0.6, HexColor(T["line"]))]))
     return t
 
 
@@ -182,6 +216,7 @@ def select(job):
 
 
 def build_day(job):
+    apply_theme(job["theme"])
     day, rows, data, out = job["day"], job["rows"], job["data"], Path(job["out"])
     index, subs_titles, mcq = data["index"], data["subs"], data["mcq"]
     n_day = day["n"]
@@ -198,7 +233,7 @@ def build_day(job):
     toc = []
     for i, (b, ri, qs) in enumerate(sel, 1):
         row = index[b - 1]["rows"][ri]
-        toc.append(Paragraph(f"{i}.&nbsp;&nbsp;{esc(row['title'])} <font color='#8A96AD'>· Q{start}–{start + len(qs) - 1}</font>", S["toc"]))
+        toc.append(Paragraph(f"{i}.&nbsp;&nbsp;{esc(row['title'])} <font color='{T['faint']}'>· Q{start}–{start + len(qs) - 1}</font>", S["toc"]))
         start += len(qs)
     story += toc + [Spacer(1, 10)]
 
@@ -211,12 +246,12 @@ def build_day(job):
             u = info["units"][row["u"]]
             story.append(rule())
             story.append(Spacer(1, 6))
-            story.append(Paragraph(f"TOPIC {row['u'] + 1} · {esc(info['short'].upper())} &nbsp;<font color='#5A6B88'>{esc(u['code'])}</font>", S["topic_k"]))
+            story.append(Paragraph(f"TOPIC {row['u'] + 1} · {esc(info['short'].upper())} &nbsp;<font color='{T['muted']}'>{esc(u['code'])}</font>", S["topic_k"]))
             story.append(Paragraph(esc(u["title"]), S["topic"]))
             story.append(Spacer(1, 8))
             last_unit = unit
         pri = job["pri"].get((b, ri))
-        meta = [f"<font color='{PRI[pri]}'><b>{pri}</b></font>"] if pri in PRI else []
+        meta = [f"<font color='{T['pri'][pri]}'><b>{pri}</b></font>"] if pri in T["pri"] else []
         meta += [esc(" · ".join(row["codes"]))] if row["codes"] else []
         meta += [f"Book {b} · pp {row['p1']}-{row['p2']}", f"{len(qs)} MCQs"]
         story.append(KeepTogether([
@@ -236,13 +271,7 @@ def build_day(job):
             story.append(question_block(qn, q))
         story.append(Spacer(1, 6))
 
-    def footer(canvas, doc):
-        canvas.saveState()
-        canvas.setFont("Sans", 7.5)
-        canvas.setFillColor(MUTED)
-        canvas.drawString(16 * mm, 9 * mm, f"APPSC Prep · Day {n_day} of 90 · {datestr}")
-        canvas.drawRightString(A4[0] - 16 * mm, 9 * mm, f"Page {doc.page}")
-        canvas.restoreState()
+    footer = page_decor(f"APPSC Prep · Day {n_day} of 90 · {datestr}")
 
     out.parent.mkdir(parents=True, exist_ok=True)
     doc = SimpleDocTemplate(str(out), pagesize=A4, leftMargin=16 * mm, rightMargin=16 * mm,
@@ -254,6 +283,7 @@ def build_day(job):
 
 def build_key(job):
     """Answer key: question number and answer only, in a grid under each section's heading."""
+    apply_theme(job["theme"])
     day, out = job["day"], Path(job["key_out"])
     index = job["data"]["index"]
     n_day = day["n"]
@@ -268,17 +298,17 @@ def build_key(job):
     qn = 0
     for i, (b, ri, qs) in enumerate(sel, 1):
         row = index[b - 1]["rows"][ri]
-        head = Paragraph(f"{i}. {esc(row['title'])} <font color='#8A96AD'>· Q{qn + 1}–{qn + len(qs)}</font>", S["key_h"])
+        head = Paragraph(f"{i}. {esc(row['title'])} <font color='{T['faint']}'>· Q{qn + 1}–{qn + len(qs)}</font>", S["key_h"])
         cells = []
         for _, q in qs:
             qn += 1
-            cells.append(Paragraph(f"<font color='#5A6B88'>{qn}.</font>&nbsp;<b>({q['a'] + 1})</b>", S["key"]))
+            cells.append(Paragraph(f"<font color='{T['muted']}'>{qn}.</font>&nbsp;<b>({q['a'] + 1})</b>", S["key"]))
         grid = [cells[k:k + cols] for k in range(0, len(cells), cols)]
         grid[-1] += [""] * (cols - len(grid[-1]))
         t = Table(grid, colWidths=[width] * cols)
         t.setStyle(TableStyle([
-            ("ROWBACKGROUNDS", (0, 0), (-1, -1), [HexColor("#FFFFFF"), HexColor("#F7F8FA")]),
-            ("LINEBELOW", (0, 0), (-1, -1), 0.3, LINE),
+            ("ROWBACKGROUNDS", (0, 0), (-1, -1), [HexColor(T["bg"] or "#FFFFFF"), HexColor(T["zebra"])]),
+            ("LINEBELOW", (0, 0), (-1, -1), 0.3, HexColor(T["line"])),
             ("TOPPADDING", (0, 0), (-1, -1), 2), ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
             ("LEFTPADDING", (0, 0), (-1, -1), 3), ("RIGHTPADDING", (0, 0), (-1, -1), 2),
         ]))
@@ -286,13 +316,7 @@ def build_key(job):
         story += [KeepTogether([head, Spacer(1, 3), t])] if len(grid) <= 8 else [head, Spacer(1, 3), t]
         story.append(Spacer(1, 8))
 
-    def footer(canvas, doc):
-        canvas.saveState()
-        canvas.setFont("Sans", 7.5)
-        canvas.setFillColor(MUTED)
-        canvas.drawString(16 * mm, 9 * mm, f"APPSC Prep · Day {n_day} of 90 · Answer Key")
-        canvas.drawRightString(A4[0] - 16 * mm, 9 * mm, f"Page {doc.page}")
-        canvas.restoreState()
+    footer = page_decor(f"APPSC Prep · Day {n_day} of 90 · Answer Key")
 
     out.parent.mkdir(parents=True, exist_ok=True)
     doc = SimpleDocTemplate(str(out), pagesize=A4, leftMargin=16 * mm, rightMargin=16 * mm,
@@ -310,6 +334,7 @@ def file_name(day):
 
 def main():
     assets, out_dir = Path(sys.argv[1]), Path(sys.argv[2])
+    theme = "dark" if "--dark" in sys.argv[3:] else "light"
     index, plan, subs_titles, mcq = load(assets)
     days, first = schedule(index, plan, mcq)
     pri = {}
@@ -323,7 +348,7 @@ def main():
     for d in plan["days"]:
         if not days[d["n"]]:  # mock week: no sections
             continue
-        jobs.append({"day": d, "rows": days[d["n"]], "data": data, "pri": pri, "first": first,
+        jobs.append({"day": d, "rows": days[d["n"]], "data": data, "pri": pri, "first": first, "theme": theme,
                      "out": str(out_dir / file_name(d)),
                      "key_out": str(out_dir / "Answer Keys" / file_name(d).replace(".pdf", " - Answer Key.pdf"))})
     once = sum(len(mcq[b].get(r, [])) for rows in days.values() for b, r, k in rows if k == "new")

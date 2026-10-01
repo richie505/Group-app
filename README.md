@@ -37,6 +37,7 @@ biology, human body) to the notes files.
 ```
 pip install reportlab
 python3 tools/build_mcq_pdfs.py app/src/main/assets mcq-schedule
+python3 tools/build_mcq_pdfs.py app/src/main/assets mcq-schedule-dark --dark   # reverse print: white on black
 ```
 
 One PDF per plan day (Days 1–83; the mock week 84–90 has no sections), MCQs only with the answer after each,
