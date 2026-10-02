@@ -54,14 +54,17 @@ class SpeechTextTest {
         assertTrue(say("SCs and STs").contains("Scheduled Castes and Scheduled Tribes"))
     }
 
-    /** The page in the user's screenshot: title first, then each table row as "Header: cell". */
+    /** The page in the user's screenshot: title first, the table headings once, then each row. */
     @Test fun tableIsReadRowByRow() {
         val sec = runBlocking { repo.book(2) }.rows[106].secs[0]
         val parts = SpeechText.parts(sec.title, sec.blocks, 2)
         assertTrue(parts.first().second.startsWith("Changing structure and urban families"))
         val table = sec.blocks.indexOfFirst { it is TableBlock }
-        val first = parts.first { it.first == table }.second
-        assertTrue(first, first.startsWith("Factor: Industrialisation. How it changes the family"))
+        val rows = parts.filter { it.first == table }.map { it.second }
+        // headings once, then each row without them
+        assertTrue(rows[0], rows[0].startsWith("Table: Factor, How it changes the family"))
+        assertTrue(rows[1], rows[1].startsWith("Industrialisation: the family moves from a production unit"))
+        assertFalse(rows.drop(1).any { "Factor" in it || "How it changes" in it })
     }
 
     /** Across all six books, almost no citation code is left in what is spoken. */

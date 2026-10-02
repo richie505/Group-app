@@ -26,17 +26,19 @@ object SpeechText {
                     speakable(text, book).takeIf { it.any(Char::isLetterOrDigit) }?.let { add(i to it) }
                 }
                 is TableBlock -> {
+                    // headings once ("Table: Factor, How it changes the family."), then each row's values only:
+                    // the first cell, then the rest ("Industrialisation: the family moves from ...; ...")
                     val head = b.head.map { c -> speakable(c.joinToString("") { it.text }, book) }
+                        .filter { it.any(Char::isLetterOrDigit) }
+                    if (head.isNotEmpty()) add(i to "Table: " + head.joinToString(", ") + ".")
                     b.rows.forEach { r ->
-                        val line = r.mapIndexedNotNull { c, cell ->
-                            val t = speakable(cell.joinToString("") { it.text }, book)
-                            val h = head.getOrNull(c).orEmpty()
-                            when {
-                                !t.any(Char::isLetterOrDigit) -> null
-                                h.isBlank() -> t
-                                else -> "$h: $t"
-                            }
-                        }.joinToString(". ")
+                        val cells = r.map { cell -> speakable(cell.joinToString("") { it.text }, book) }
+                            .filter { it.any(Char::isLetterOrDigit) }
+                        val line = when (cells.size) {
+                            0 -> ""
+                            1 -> cells[0]
+                            else -> cells[0].trimEnd('.', ':') + ": " + cells.drop(1).joinToString("; ")
+                        }
                         if (line.isNotBlank()) add(i to line)
                     }
                 }

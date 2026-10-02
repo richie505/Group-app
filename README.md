@@ -12,8 +12,8 @@ one run (Previous / Skip / Next), a "Stuck? Show a hint" button, the explanation
 1/3 negative marking, and "retry wrong answers". Previous-year questions (PYQs) live in the MCQ app.
 
 **Listen** (headphones in the reader): reads the notes aloud with the phone's text-to-speech (Indian English
-voice first), highlighting and scrolling to the paragraph being read; tables are read row by row
-("Factor: … How it changes the family: …"). Play/pause, previous/next paragraph, speed 0.75×–2×, tap a
+voice first), highlighting and scrolling to the paragraph being read; tables are read headings once, then row by row
+("Table: Factor, How it changes the family." then "Industrialisation: …"). Play/pause, previous/next paragraph, speed 0.75×–2×, tap a
 paragraph to read from there; it carries on through the following subsections, also with the screen locked or
 the app in the background (foreground service with a Pause/Stop notification, `platform/ReadAloud*.kt`), until
 Stop, leaving the reader or closing the app.
