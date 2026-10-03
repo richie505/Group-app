@@ -25,7 +25,10 @@ the ones with two meanings (SC: Supreme Court or Scheduled Caste from the words 
 
 **Meaning** (select any word in the notes or in MCQ practice), Indian context first:
 1. *In Indian context* - an exam glossary of 141 core terms written for India (`tools/data/india_glossary.tsv`);
-2. *From your notes* - the notes' own definitions ("Absolute humidity: …"), 6,800+ terms;
+2. *From your notes* - the notes' own definitions ("Absolute humidity: …", 6,800+ terms), then what the notes
+   say about anything selected: up to 5 sentences that mention it, citations hidden, lines opening with the term
+   first. Terms are recognised however they are written (`data/NotesTerms.kt`): s.144 / sec144 / Sec. 144 /
+   Section 144, Art 21 / Article 21, 84th Amendment / Eighty-fourth Amendment, 7th / Seventh Schedule;
 3. the full form of short forms (WTO, the notes' own VCIC …);
 4. *Dictionary* - WordNet 3.1 (139,343 words, `assets/dict/`, from the npm package wordnet-db) with every
    US-only sense removed (US government, states, Civil War, agencies);

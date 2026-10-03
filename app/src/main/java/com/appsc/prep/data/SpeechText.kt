@@ -15,6 +15,14 @@ object SpeechText {
     /** Short forms defined in the notes: abbreviation -> meanings (most used first). Set by [Repository]. */
     @Volatile var fromNotes: Map<String, List<String>> = emptyMap()
 
+    /** Notes text with its citations taken out ([GK], (CDI; APP), (TH 20 Apr 2026) ...), for showing. */
+    fun withoutCitations(text: String): String = removeCitations(text)
+        .replace(Regex("""\s*\[[^\]]*$"""), "")
+        .replace(Regex("""\(\s*\)"""), "")
+        .replace(Regex("""\s+([,.;:)])"""), "$1")
+        .replace(Regex("""\s{2,}"""), " ")
+        .trim()
+
     /** Full form of a short form (built-in list, then the notes' own definitions), for the dictionary. */
     fun expand(abbr: String): String? =
         FULL[abbr] ?: fromNotes[abbr]?.first() ?: abbr.removeSuffix("s").takeIf { it != abbr }?.let { FULL[it] ?: fromNotes[it]?.first() }

@@ -32,7 +32,8 @@ class Repository(private val open: (String) -> InputStream) {
     suspend fun findInNotes(term: String, limit: Int = 6): List<NoteHit> = withContext(Dispatchers.Default) {
         val t = term.trim()
         if (t.length < 3) return@withContext emptyList()
-        val re = Regex("""(?<![\w])${Regex.escape(t)}(?![\w])""", RegexOption.IGNORE_CASE)
+        // s.144 finds "Section 144", 84th amendment finds "Eighty-fourth Amendment" ...
+        val re = NotesTerms.parse(t)?.regex ?: return@withContext emptyList()
         val hits = mutableListOf<Pair<Int, NoteHit>>()
         for (b in 1..6) {
             val bk = book(b)
@@ -44,6 +45,77 @@ class Repository(private val open: (String) -> InputStream) {
             }
         }
         hits.sortedBy { it.first }.take(limit).map { it.second }
+    }
+
+    /**
+     * What the notes say about a selected term: up to [limit] lines that mention it (s.144 = Sec 144 = Section 144,
+     * 84th Amendment = Eighty-fourth Amendment ... see [NotesTerms]), each cut to the sentence with it, with where
+     * it is. Lines that start with the term ("84th Amendment (2001): ...") come first, then lines under a heading
+     * that names it, then the rest in book order.
+     */
+    suspend fun notesAbout(selection: String, limit: Int = 4): Pair<String, List<Dictionary.NoteDefinition>>? =
+        withContext(Dispatchers.Default) {
+            val term = NotesTerms.parse(selection) ?: return@withContext null
+            val found = mutableListOf<Triple<Int, Int, Dictionary.NoteDefinition>>() // score, order, line
+            var order = 0
+            for (b in 1..6) {
+                val bk = book(b)
+                for (r in bk.rows) for (s in r.secs) {
+                    val heading = term.regex.containsMatchIn(s.title) || term.regex.containsMatchIn(r.title)
+                    for (blk in s.blocks) {
+                        val lines = when (blk) {
+                            is TextBlock -> listOf(blk.runs.joinToString("") { it.text })
+                            is TableBlock -> blk.rows.map { row -> row.joinToString(" - ") { c -> c.joinToString("") { it.text } } }
+                        }
+                        for (line in lines) {
+                            val m = term.regex.find(line) ?: continue
+                            val text = sentence(line, m.range)
+                            if (text.isBlank()) continue
+                            // the line opens with the term > a heading names it > the rest; lines that only open a list last
+                            val score = (if (m.range.first <= 3) 0 else 2) + (if (heading) 0 else 1) + (if (text.length < 45) 4 else 0)
+                            found += Triple(score, order++, Dictionary.NoteDefinition(text, "${bk.short} · ${r.title}"))
+                        }
+                    }
+                }
+            }
+            val seen = HashSet<String>()
+            term.display to found.sortedWith(compareBy({ it.first }, { it.second })).map { it.third }
+                .filter { seen.add(it.text.lowercase()) }.take(limit)
+        }
+
+    /** The sentence of [line] around [hit], without citations, at most about 300 characters. */
+    private fun sentence(line: String, hit: IntRange): String {
+        // sentence ends: ". " or "; " outside brackets, and not after an abbreviation (Art. 21, Sec. 144, Dr. X)
+        val ends = mutableListOf<Int>()
+        var depth = 0
+        for (i in line.indices) {
+            when (line[i]) {
+                '(', '[' -> depth++
+                ')', ']' -> depth = (depth - 1).coerceAtLeast(0)
+                '.', ';' -> if (depth == 0 && i + 1 < line.length && line[i + 1] == ' ' && !abbreviationBefore(line, i)) ends += i + 1
+            }
+        }
+        val from = (listOf(0) + ends).last { it <= hit.first }
+        val to = ends.firstOrNull { it > hit.last } ?: line.length
+        var t = SpeechText.withoutCitations(line.substring(from, to).trim())
+        if (t.length > 320) {
+            val at = t.indexOf(line.substring(hit.first, hit.last + 1)).coerceAtLeast(0)
+            val a = (at - 140).coerceAtLeast(0)
+            t = (if (a > 0) "…" else "") + t.substring(a, (a + 300).coerceAtMost(t.length)).trim() + (if (a + 300 < t.length) "…" else "")
+        }
+        return t.trimEnd(';', ' ')
+    }
+
+    private val ABBREVIATIONS = setOf(
+        "art", "arts", "sec", "secs", "s", "ss", "no", "nos", "dr", "smt", "sri", "st", "vs", "v", "e.g", "i.e", "etc", "govt",
+        "ltd", "cl", "para", "ch", "vol", "fig", "approx", "est", "c", "b", "d", "r", "mr", "mrs", "prof", "jr", "sr", "co",
+    )
+
+    private fun abbreviationBefore(line: String, dot: Int): Boolean {
+        if (line[dot] != '.') return false
+        val word = line.substring(0, dot).takeLastWhile { it.isLetter() || it == '.' }.lowercase()
+        // initials such as "M.S. Gore", "T.K. Oommen"
+        return word in ABBREVIATIONS || (word.length == 1 && line[dot - 1].isUpperCase())
     }
 
     /** Short forms the notes define (tools/build_abbreviations.py), for read-aloud. */

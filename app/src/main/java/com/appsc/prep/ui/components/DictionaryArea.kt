@@ -164,10 +164,15 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
     var entry by remember(text) { mutableStateOf<Dictionary.Entry?>(null) }
     var looked by remember(text) { mutableStateOf(false) }
     var hits by remember(text) { mutableStateOf<List<Repository.NoteHit>?>(null) }
+    // what the notes say about it (s.144, 84th Amendment, any word or phrase)
+    var about by remember(text) { mutableStateOf<Pair<String, List<Dictionary.NoteDefinition>>?>(null) }
+    var searched by remember(text) { mutableStateOf(false) }
     LaunchedEffect(text) {
         entry = withContext(Dispatchers.IO) { repo.dictionary.lookup(text) }
         looked = true
-        hits = repo.findInNotes(entry?.word?.takeIf { ' ' in text.trim() || it.length > 3 } ?: text.trim())
+        about = repo.notesAbout(text)
+        searched = true
+        hits = repo.findInNotes(text.trim())
     }
 
     // above everything on screen (buttons, player bar), without darkening the notes behind it;
@@ -196,8 +201,9 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
             }
             Column(Modifier.verticalScroll(rememberScrollState()).padding(end = 12.dp)) {
                 val e = entry
+                val general = e?.senses?.isNotEmpty() == true || e?.india != null
                 Text(
-                    e?.word?.replaceFirstChar { it.uppercase() }?.takeIf { e.senses.isNotEmpty() || e.india != null } ?: text.trim(),
+                    if (general) e!!.word.replaceFirstChar { it.uppercase() } else about?.first ?: text.trim(),
                     style = TextStyle(fontSize = 22.sp, fontWeight = FontWeight.Bold, color = C.Navy),
                 )
                 if (e?.shortForm != null) {
@@ -205,27 +211,31 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
                     Text("Short for", style = TextStyle(fontSize = 12.sp, color = C.Muted))
                     Text(e.shortForm, style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
                 }
+                // the notes' definitions, then what the notes say about it
+                val seen = HashSet<String>()
+                val fromNotes = (e?.notes.orEmpty() + about?.second.orEmpty()).filter { seen.add(it.text.lowercase()) }.take(5)
                 when {
                     !looked -> Text("Looking up…", style = TextStyle(fontSize = 15.sp, color = C.Muted), modifier = Modifier.padding(top = 8.dp))
-                    e == null -> Text(
-                        "Not in the offline dictionary. Try selecting a single word.",
+                    e == null && searched && fromNotes.isEmpty() -> Text(
+                        "Not found in the dictionary or in your notes.",
                         style = TextStyle(fontSize = 15.sp, color = C.Muted), modifier = Modifier.padding(top = 8.dp),
                     )
                     else -> {
-                        e.india?.let {
+                        e?.india?.let {
                             Heading("IN INDIAN CONTEXT", C.ExamInk)
                             Text(it, style = TextStyle(fontSize = 16.sp, lineHeight = 23.sp, color = C.Body))
                         }
-                        if (e.notes.isNotEmpty()) {
+                        if (fromNotes.isNotEmpty() || !searched) {
                             Heading("FROM YOUR NOTES", C.Green)
-                            e.notes.forEach { d ->
+                            if (!searched) Text("Searching your notes…", style = TextStyle(fontSize = 14.sp, color = C.Muted))
+                            fromNotes.forEach { d ->
                                 Text(d.text.replaceFirstChar { it.uppercase() }, style = TextStyle(fontSize = 16.sp, lineHeight = 22.sp, color = C.Body), modifier = Modifier.padding(top = 2.dp))
                                 Text(d.where, style = TextStyle(fontSize = 12.sp, color = C.Muted), maxLines = 1, modifier = Modifier.padding(bottom = 6.dp))
                             }
                         }
-                        if (e.senses.isNotEmpty()) {
+                        if (e != null && e.senses.isNotEmpty()) {
                             // with an Indian meaning above, two general senses are enough
-                            val shown = if (e.india != null || e.notes.isNotEmpty()) e.senses.take(2) else e.senses
+                            val shown = if (e.india != null || fromNotes.isNotEmpty()) e.senses.take(2) else e.senses
                             Heading("DICTIONARY", C.Accent)
                             shown.forEachIndexed { i, s ->
                                 if (i > 0) Spacer(Modifier.height(8.dp))
