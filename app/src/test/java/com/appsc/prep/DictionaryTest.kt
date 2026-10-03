@@ -32,6 +32,18 @@ class DictionaryTest {
         assertEquals("disintegration", dict.lookup("disintegration.")!!.word)
     }
 
+    @Test fun indianContextFirst() {
+        val f = dict.lookup("federal")!!
+        assertTrue(f.india!!.contains("Union of States"))
+        // no US-only meanings
+        assertTrue(f.senses.none { "United States" in it.definition || "Civil War" in it.definition })
+        assertNull(dict.lookup("Washington")?.senses?.firstOrNull { "United States" in it.definition })
+        assertTrue(dict.lookup("secular")!!.india!!.contains("sarva dharma sambhava"))
+        // the notes' own definition
+        val h = dict.lookup("absolute humidity")!!
+        assertTrue(h.notes.first().text.contains("water vapour"))
+    }
+
     @Test fun shortFormsFromTheNotes() {
         assertEquals("World Trade Organization", dict.lookup("WTO")!!.shortForm)
         assertEquals("Visakhapatnam-Chennai Industrial Corridor", dict.lookup("VCIC")!!.shortForm)

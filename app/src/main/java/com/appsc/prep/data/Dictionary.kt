@@ -3,14 +3,44 @@ package com.appsc.prep.data
 import java.io.InputStream
 
 /**
- * Offline word meanings for "Meaning" on selected text: WordNet 3.1 (assets/dict/<letter>.tsv, built by
- * tools/build_dictionary.py), plus the short forms the notes use (SpeechText.expand).
+ * Offline word meanings for "Meaning" on selected text, Indian context first:
+ * the Indian exam glossary and the definitions the notes give (assets/india.json, tools/build_india_glossary.py),
+ * the short forms the notes use (SpeechText.expand), then a general dictionary without US-only senses
+ * (WordNet 3.1: assets/dict/<letter>.tsv, tools/build_dictionary.py).
  */
 class Dictionary(private val open: (String) -> InputStream) {
+    /** A definition from the notes and where it is ("Geography · Atmosphere ..."). */
+    data class NoteDefinition(val text: String, val where: String)
+
+    private val india: Pair<Map<String, String>, Map<String, List<NoteDefinition>>> by lazy {
+        runCatching {
+            val root = kotlinx.serialization.json.Json.parseToJsonElement(open("india.json").bufferedReader().use { it.readText() })
+                .let { it as kotlinx.serialization.json.JsonObject }
+            val g = (root["g"] as kotlinx.serialization.json.JsonObject).mapValues { (it.value as kotlinx.serialization.json.JsonPrimitive).content }
+            val n = (root["n"] as kotlinx.serialization.json.JsonObject).mapValues { (_, v) ->
+                (v as kotlinx.serialization.json.JsonArray).map { d ->
+                    val a = d as kotlinx.serialization.json.JsonArray
+                    NoteDefinition((a[0] as kotlinx.serialization.json.JsonPrimitive).content, (a[1] as kotlinx.serialization.json.JsonPrimitive).content)
+                }
+            }
+            g to n
+        }.getOrDefault(emptyMap<String, String>() to emptyMap())
+    }
     data class Sense(val pos: String, val definition: String, val example: String)
 
-    /** [word] is the dictionary form found ("government" for "governments"). */
-    data class Entry(val word: String, val senses: List<Sense>, val shortForm: String? = null)
+    /**
+     * [word] is the form found ("government" for "governments"); [india] the Indian-context meaning,
+     * [notes] the notes' own definitions, [senses] the general dictionary.
+     */
+    data class Entry(
+        val word: String,
+        val senses: List<Sense>,
+        val shortForm: String? = null,
+        val india: String? = null,
+        val notes: List<NoteDefinition> = emptyList(),
+    ) {
+        val isEmpty get() = senses.isEmpty() && shortForm == null && india == null && notes.isEmpty()
+    }
 
     // the last few letter files used: (sorted lower-case keys, lines)
     private val letters = object : LinkedHashMap<Char, Pair<List<String>, List<String>>>(4, 0.75f, true) {
@@ -24,11 +54,14 @@ class Dictionary(private val open: (String) -> InputStream) {
         if (raw.isEmpty() || raw.length > 60) return null
         // a short form the notes use (SC, WTO, VCIC ...)
         val short = raw.takeIf { it.length in 2..10 && it.count(Char::isUpperCase) >= 2 }?.let { SpeechText.expand(it) }
-        for (c in candidates(raw)) {
-            find(c)?.let { return Entry(c, it, short) }
-        }
-        // a phrase not in the dictionary: its last word ("Federal Court" -> court) is not helpful, so stop
-        return short?.let { Entry(raw, emptyList(), it) }
+        val forms = candidates(raw)
+        val (glossary, notes) = india
+        val indian = forms.firstNotNullOfOrNull { f -> glossary[f]?.let { f to it } }
+        val fromNotes = forms.firstNotNullOfOrNull { f -> notes[f]?.let { f to it } }
+        val general = forms.firstNotNullOfOrNull { f -> find(f)?.let { f to it } }
+        val word = indian?.first ?: general?.first ?: fromNotes?.first ?: raw.lowercase()
+        val entry = Entry(word, general?.second.orEmpty(), short, indian?.second, fromNotes?.second.orEmpty())
+        return entry.takeUnless { it.isEmpty }
     }
 
     /** The selection and its likely dictionary forms: plural, past, -ing, -er/-est. */

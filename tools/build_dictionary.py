@@ -5,7 +5,8 @@ WordNet (Princeton University, WordNet 3.1 licence - free to use and redistribut
 package wordnet-db (https://registry.npmjs.org/wordnet-db/-/wordnet-db-3.1.14.tgz), dict/ folder.
 
 For every word or phrase: its most common senses (up to 4), each "pos|definition|example": the part of speech
-used most in WordNet's tagged texts first, then WordNet's frequency order.
+used most in WordNet's tagged texts first, then WordNet's frequency order. Senses about the United States
+(its federal government, states, Civil War, agencies) are left out - the app is for Indian exams.
 
 Usage: python3 tools/build_dictionary.py <wordnet-db>/dict app/src/main/assets
 Writes <assets>/dict/<letter>.tsv (a-z, "_" for the rest), sorted, one line per word:
@@ -17,6 +18,10 @@ from pathlib import Path
 
 POS = {"noun": "n", "verb": "v", "adj": "adj", "adv": "adv"}
 MAX_SENSES = 4
+US = re.compile(r"United States|\bU\.S\.|\bUS\b|\bAmericans?\b|American (?:Revolution|colonies|Indian)|Civil War|Union Army|"
+                r"Confederate|Confederacy|Congress of the United|federal (?:agent|law-enforcement|officer)|"
+                r"\ba state in (?:the )?(?:western|eastern|northern|southern|central|northwestern|northeastern|southwestern|"
+                r"southeastern|north central|south central|midwestern|New England)?\s*(?:United States|U\.S\.)")
 
 
 def synsets(dict_dir, pos):
@@ -51,6 +56,7 @@ def main():
                     d, ex = data[off]
                     words.setdefault(lemma, []).append((tag, d, ex, tagged, rank))
     lines = []
+    dropped = 0
     for lemma in sorted(words):
         # the most used part of speech first (federal: the adjective, not the Civil War soldier),
         # each in WordNet's frequency order
@@ -62,7 +68,12 @@ def main():
                 continue
             seen.add(d)
             senses.append(f"{tag}|{d}|{ex}".replace("\t", " "))
-        senses = senses[:MAX_SENSES]
+        # for Indian exams: no senses about the United States (its government, states, Civil War, agencies);
+        # a word with only such senses is left out
+        senses = [x for x in senses if not US.search(x)][:MAX_SENSES]
+        if not senses:
+            dropped += 1
+            continue
         lines.append(lemma.replace("_", " ") + "\t" + "\t".join(senses))
     out = assets / "dict"
     out.mkdir(exist_ok=True)
@@ -75,7 +86,7 @@ def main():
         ls.sort(key=lambda l: l.split("\t", 1)[0].lower())
         (out / f"{c}.tsv").write_text("\n".join(ls) + "\n", encoding="utf-8")
     size = sum(f.stat().st_size for f in out.glob("*.tsv"))
-    print(f"{len(lines)} words in {len(groups)} files, {size / 1e6:.1f} MB")
+    print(f"{len(lines)} words in {len(groups)} files, {size / 1e6:.1f} MB ({dropped} US-only words left out)")
 
 
 if __name__ == "__main__":

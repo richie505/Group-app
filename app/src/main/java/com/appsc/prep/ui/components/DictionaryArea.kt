@@ -132,6 +132,13 @@ private fun selectedText(clipboard: ClipboardManager, menu: SelectionMenu): Stri
 }
 
 @Composable
+private fun Heading(label: String, color: Color) {
+    Spacer(Modifier.height(14.dp))
+    Text(label, style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = color, letterSpacing = 0.8.sp))
+    Spacer(Modifier.height(4.dp))
+}
+
+@Composable
 private fun MenuItem(label: String, bold: Boolean = false, onClick: () -> Unit) {
     Text(
         label,
@@ -187,7 +194,7 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
             Column(Modifier.verticalScroll(rememberScrollState()).padding(end = 12.dp)) {
                 val e = entry
                 Text(
-                    e?.word?.replaceFirstChar { it.uppercase() }?.takeIf { e.senses.isNotEmpty() } ?: text.trim(),
+                    e?.word?.replaceFirstChar { it.uppercase() }?.takeIf { e.senses.isNotEmpty() || e.india != null } ?: text.trim(),
                     style = TextStyle(fontSize = 22.sp, fontWeight = FontWeight.Bold, color = C.Navy),
                 )
                 if (e?.shortForm != null) {
@@ -197,19 +204,37 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
                 }
                 when {
                     !looked -> Text("Looking up…", style = TextStyle(fontSize = 15.sp, color = C.Muted), modifier = Modifier.padding(top = 8.dp))
-                    e == null || (e.senses.isEmpty() && e.shortForm == null) -> Text(
+                    e == null -> Text(
                         "Not in the offline dictionary. Try selecting a single word.",
                         style = TextStyle(fontSize = 15.sp, color = C.Muted), modifier = Modifier.padding(top = 8.dp),
                     )
-                    else -> e.senses.forEachIndexed { i, s ->
-                        Spacer(Modifier.height(10.dp))
-                        Row {
-                            Text("${i + 1}.", style = TextStyle(fontSize = 15.sp, color = C.Muted), modifier = Modifier.width(22.dp))
-                            Column {
-                                Text(s.pos, style = TextStyle(fontSize = 12.sp, fontStyle = FontStyle.Italic, color = C.Accent))
-                                Text(s.definition.replaceFirstChar { it.uppercase() }, style = TextStyle(fontSize = 16.sp, lineHeight = 22.sp, color = C.Body))
-                                if (s.example.isNotBlank()) {
-                                    Text("“${s.example}”", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, fontStyle = FontStyle.Italic, color = C.Muted), modifier = Modifier.padding(top = 2.dp))
+                    else -> {
+                        e.india?.let {
+                            Heading("IN INDIAN CONTEXT", C.ExamInk)
+                            Text(it, style = TextStyle(fontSize = 16.sp, lineHeight = 23.sp, color = C.Body))
+                        }
+                        if (e.notes.isNotEmpty()) {
+                            Heading("FROM YOUR NOTES", C.Green)
+                            e.notes.forEach { d ->
+                                Text(d.text.replaceFirstChar { it.uppercase() }, style = TextStyle(fontSize = 16.sp, lineHeight = 22.sp, color = C.Body), modifier = Modifier.padding(top = 2.dp))
+                                Text(d.where, style = TextStyle(fontSize = 12.sp, color = C.Muted), maxLines = 1, modifier = Modifier.padding(bottom = 6.dp))
+                            }
+                        }
+                        if (e.senses.isNotEmpty()) {
+                            // with an Indian meaning above, two general senses are enough
+                            val shown = if (e.india != null || e.notes.isNotEmpty()) e.senses.take(2) else e.senses
+                            Heading("DICTIONARY", C.Accent)
+                            shown.forEachIndexed { i, s ->
+                                if (i > 0) Spacer(Modifier.height(8.dp))
+                                Row {
+                                    Text("${i + 1}.", style = TextStyle(fontSize = 15.sp, color = C.Muted), modifier = Modifier.width(22.dp))
+                                    Column {
+                                        Text(s.pos, style = TextStyle(fontSize = 12.sp, fontStyle = FontStyle.Italic, color = C.Accent))
+                                        Text(s.definition.replaceFirstChar { it.uppercase() }, style = TextStyle(fontSize = 16.sp, lineHeight = 22.sp, color = C.Body))
+                                        if (s.example.isNotBlank()) {
+                                            Text("“${s.example}”", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, fontStyle = FontStyle.Italic, color = C.Muted), modifier = Modifier.padding(top = 2.dp))
+                                        }
+                                    }
                                 }
                             }
                         }

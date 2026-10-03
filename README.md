@@ -23,11 +23,16 @@ WTO → World Trade Organization, ₹5,000 cr → 5,000 crore rupees, Group-II �
 727 short forms the notes define (`assets/abbr.json`, `tools/build_abbreviations.py`), and context rules for
 the ones with two meanings (SC: Supreme Court or Scheduled Caste from the words around it).
 
-**Meaning** (select any word in the notes or in MCQ practice): offline dictionary card with the word's top
-meanings and an example (WordNet 3.1, 147,478 words: `assets/dict/`, `tools/build_dictionary.py` from the npm
-package wordnet-db), finds the dictionary form ("governments" → government), gives the full form of short forms
-(WTO, the notes' own VCIC ...), and lists notes subsections whose heading mentions the word (tap to open)
-(`ui/components/DictionaryArea.kt`, `data/Dictionary.kt`).
+**Meaning** (select any word in the notes or in MCQ practice), Indian context first:
+1. *In Indian context* - an exam glossary of 141 core terms written for India (`tools/data/india_glossary.tsv`);
+2. *From your notes* - the notes' own definitions ("Absolute humidity: …"), 6,800+ terms;
+3. the full form of short forms (WTO, the notes' own VCIC …);
+4. *Dictionary* - WordNet 3.1 (139,343 words, `assets/dict/`, from the npm package wordnet-db) with every
+   US-only sense removed (US government, states, Civil War, agencies);
+5. notes subsections whose heading mentions the word (tap to open).
+Built by `tools/build_dictionary.py` then `tools/build_india_glossary.py` (`assets/india.json`); app side
+`data/Dictionary.kt`, `ui/components/DictionaryArea.kt`. The dictionary form is found for other forms
+("governments" → government).
 
 Tabs: **Today** (today's targets) · **Plan** (all 90 days + buffer) · **Notes** (browse all 6 books)
 · **Progress** · **Saved** (bookmarks).
