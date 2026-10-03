@@ -1,6 +1,7 @@
 package com.appsc.prep.ui.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
@@ -8,7 +9,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
@@ -170,18 +170,21 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
         hits = repo.findInNotes(entry?.word?.takeIf { ' ' in text.trim() || it.length > 3 } ?: text.trim())
     }
 
-    // above everything on screen (buttons, player bar); back closes it
-    Popup(alignment = Alignment.BottomCenter, onDismissRequest = onClose, properties = PopupProperties(focusable = true)) {
-    Box(Modifier.fillMaxSize()) {
-        Box(
-            Modifier.fillMaxSize().background(Color(0x55000000))
-                .clickable(remember { MutableInteractionSource() }, indication = null, onClick = onClose),
-        )
+    // above everything on screen (buttons, player bar), without darkening the notes behind it;
+    // a tap outside or back closes it
+    Popup(
+        alignment = Alignment.BottomCenter,
+        onDismissRequest = onClose,
+        properties = PopupProperties(focusable = true, dismissOnClickOutside = true),
+    ) {
+    Box {
         Column(
             Modifier
                 .align(Alignment.BottomCenter)
                 .fillMaxWidth()
                 .heightIn(max = 520.dp)
+                .shadow(16.dp, RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp))
+                .border(1.dp, C.Line, RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp))
                 .clip(RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp))
                 .background(Color.White)
                 .clickable(remember { MutableInteractionSource() }, indication = null) {}

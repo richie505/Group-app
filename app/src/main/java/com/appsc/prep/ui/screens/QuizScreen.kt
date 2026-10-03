@@ -99,7 +99,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
     var currentMode by rememberSaveable { mutableStateOf(mode) }
     var round by rememberSaveable { mutableIntStateOf(0) }
 
-    Column(Modifier.fillMaxSize()) {
+    Column(Modifier.fillMaxSize().background(Color.White)) {
         TopBar(title, onBack = nav::back)
         if (pool == null) {
             Loading()
