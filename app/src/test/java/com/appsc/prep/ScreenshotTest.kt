@@ -8,6 +8,8 @@ import androidx.compose.ui.test.assertCountEquals
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.longClick
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.performScrollTo
+import androidx.compose.ui.test.performScrollToNode
 import androidx.compose.ui.test.performTouchInput
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
@@ -105,6 +107,23 @@ class ScreenshotTest {
         rule.waitUntil(10_000) { rule.onAllNodesWithText("MEANING").fetchSemanticsNodes().isNotEmpty() }
         rule.waitUntil(20_000) { rule.onAllNodesWithText("IN YOUR NOTES").fetchSemanticsNodes().isNotEmpty() }
         rule.onRoot().captureRoboImage("screenshots/16_meaning.png")
+    }
+
+    /** Every notes page ends with its key terms; tapping one opens its meaning. */
+    @Test fun keyTermsOnAPage() {
+        shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 0, nav) }
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("KEY TERMS"))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/17_key_terms.png")
+        rule.onNodeWithText("dyarchy").performClick()
+        rule.waitUntil(20_000) { rule.onAllNodesWithText("IN INDIAN CONTEXT").fetchSemanticsNodes().isNotEmpty() }
+        rule.onRoot().captureRoboImage("screenshots/18_key_term_meaning.png")
+        // Google inside the app
+        rule.onNodeWithText("Search on Google").performScrollTo().performClick()
+        rule.waitForIdle()
+        rule.onAllNodesWithText("Google · dyarchy")[0].assertExists()
+        rule.onRoot().captureRoboImage("screenshots/19_google.png")
+        assertEquals("https://www.google.com/search?hl=en&gl=in&q=84th+Amendment", com.appsc.prep.ui.components.googleUrl("84th Amendment"))
     }
 
     /** Reading page A, then opening page B by hand: B is read, and the screen stays on B. */

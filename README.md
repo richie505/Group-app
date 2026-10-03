@@ -24,7 +24,8 @@ WTO → World Trade Organization, ₹5,000 cr → 5,000 crore rupees, Group-II �
 the ones with two meanings (SC: Supreme Court or Scheduled Caste from the words around it).
 
 **Meaning** (select any word in the notes or in MCQ practice), Indian context first:
-1. *In Indian context* - an exam glossary of 141 core terms written for India (`tools/data/india_glossary.tsv`);
+1. *In Indian context* - an exam glossary of 271 core terms written for India, all subjects including Science,
+   Environment and Current Affairs (`tools/data/india_glossary.tsv`);
 2. *From your notes* - the notes' own definitions ("Absolute humidity: …", 6,800+ terms), then what the notes
    say about anything selected: up to 5 sentences that mention it, citations hidden, lines opening with the term
    first. Terms are recognised however they are written (`data/NotesTerms.kt`): s.144 / sec144 / Sec. 144 /
@@ -32,7 +33,15 @@ the ones with two meanings (SC: Supreme Court or Scheduled Caste from the words 
 3. the full form of short forms (WTO, the notes' own VCIC …);
 4. *Dictionary* - WordNet 3.1 (139,343 words, `assets/dict/`, from the npm package wordnet-db) with every
    US-only sense removed (US government, states, Civil War, agencies);
-5. notes subsections whose heading mentions the word (tap to open).
+5. notes subsections whose heading mentions the word (tap to open);
+6. *Search on Google* - Google (India settings) inside the app (an in-app WebView; the only part that needs
+   internet; back goes back a page, ✕ returns to the card).
+
+**Key terms** at the end of every notes page (89% of pages; `tools/build_key_terms.py` → `assets/keyterms.json`):
+the terms on that page that have a meaning in the app; tap one for its Meaning card.
+
+The app is light-only and opts out of phones' automatic "dark mode for apps" (`android:forceDarkAllowed`), which
+had turned the notes black behind pop-ups.
 Built by `tools/build_dictionary.py` then `tools/build_india_glossary.py` (`assets/india.json`); app side
 `data/Dictionary.kt`, `ui/components/DictionaryArea.kt`. The dictionary form is found for other forms
 ("governments" → government).

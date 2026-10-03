@@ -83,6 +83,7 @@ import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.Playback
 import com.appsc.prep.ui.components.SpeechPage
 import com.appsc.prep.ui.components.DictionaryArea
+import com.appsc.prep.ui.components.MeaningSheet
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.TopBar
 import com.appsc.prep.ui.theme.C
@@ -140,6 +141,9 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         rowI = p.row
         secI = p.sec
     }
+
+    var keyTerm by remember { mutableStateOf<String?>(null) }
+    keyTerm?.let { t -> MeaningSheet(t, onOpenNotes = { b, r, sx -> keyTerm = null; nav.read(b, r, sx) }) { keyTerm = null } }
 
     // ---- read aloud (one session for the app: it carries on with the screen locked) ----
     val speech = app.platform.speech
@@ -304,7 +308,27 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     }
                     item(key = "foot-$id") {
                         Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
-                            if (sec.badges.isNotEmpty() || row.codes.isNotEmpty()) {
+                            // key terms of this page: tap for the meaning
+                        val terms = app.repo.keyTerms[id].orEmpty()
+                        if (terms.isNotEmpty()) {
+                            Text("KEY TERMS", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+                            Spacer(Modifier.height(8.dp))
+                            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                                terms.forEach { t ->
+                                    Text(
+                                        t,
+                                        style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = C.Accent),
+                                        modifier = Modifier
+                                            .clip(RoundedCornerShape(16.dp))
+                                            .background(C.AccentSoft)
+                                            .clickable { keyTerm = t }
+                                            .padding(horizontal = 12.dp, vertical = 7.dp),
+                                    )
+                                }
+                            }
+                            Spacer(Modifier.height(16.dp))
+                        }
+                        if (sec.badges.isNotEmpty() || row.codes.isNotEmpty()) {
                                 FlowRow(
                                     verticalArrangement = Arrangement.spacedBy(8.dp),
                                     horizontalArrangement = Arrangement.spacedBy(8.dp),

@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
@@ -158,6 +159,11 @@ private class Above(private val rect: Rect) : PopupPositionProvider {
     }
 }
 
+/** The Meaning card for [text] (a key term tapped on a notes page, or a selection). */
+@Composable
+fun MeaningSheet(text: String, onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit, onClose: () -> Unit) =
+    MeaningCard(text, onOpenNotes, onClose)
+
 @Composable
 private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onClose: () -> Unit) {
     val repo = LocalApp.current.repo
@@ -167,6 +173,7 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
     // what the notes say about it (s.144, 84th Amendment, any word or phrase)
     var about by remember(text) { mutableStateOf<Pair<String, List<Dictionary.NoteDefinition>>?>(null) }
     var searched by remember(text) { mutableStateOf(false) }
+    var google by remember(text) { mutableStateOf(false) }
     LaunchedEffect(text) {
         entry = withContext(Dispatchers.IO) { repo.dictionary.lookup(text) }
         looked = true
@@ -176,8 +183,8 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
     }
 
     // above everything on screen (buttons, player bar), without darkening the notes behind it;
-    // a tap outside or back closes it
-    Popup(
+    // a tap outside or back closes it. Hidden while its Google page is open (closing Google brings it back).
+    if (!google) Popup(
         alignment = Alignment.BottomCenter,
         onDismissRequest = onClose,
         properties = PopupProperties(focusable = true, dismissOnClickOutside = true),
@@ -253,6 +260,13 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
                         }
                     }
                 }
+                Spacer(Modifier.height(14.dp))
+                Text(
+                    "Search on Google",
+                    style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
+                    modifier = Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, C.Line, RoundedCornerShape(10.dp))
+                        .clickable { google = true }.padding(horizontal = 14.dp, vertical = 9.dp),
+                )
                 val h = hits
                 if (!h.isNullOrEmpty()) {
                     Spacer(Modifier.height(16.dp))
@@ -275,4 +289,29 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
         }
     }
 }
+    if (google) GooglePage(about?.first ?: text.trim()) { google = false }
+}
+
+/** Google search with India settings (gl=in) in English. */
+fun googleUrl(query: String) = "https://www.google.com/search?hl=en&gl=in&q=" + java.net.URLEncoder.encode(query, "UTF-8")
+
+/** Google results for [query] inside the app (India settings), full screen; back goes back a page, then closes. */
+@Composable
+private fun GooglePage(query: String, onClose: () -> Unit) {
+    val platform = LocalApp.current.platform
+    val back = remember { mutableStateOf<(() -> Boolean)?>(null) }
+    val url = googleUrl(query)
+    Popup(
+        onDismissRequest = { if (back.value?.invoke() != true) onClose() },
+        properties = PopupProperties(focusable = true, dismissOnClickOutside = false),
+    ) {
+        Column(Modifier.fillMaxWidth().fillMaxHeight().background(Color.White)) {
+            Row(Modifier.fillMaxWidth().padding(horizontal = 4.dp, vertical = 2.dp), verticalAlignment = Alignment.CenterVertically) {
+                IconButton(onClick = onClose) { Icon(Icons.Filled.Close, "Close", tint = C.Ink) }
+                Text("Google · $query", style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Ink), maxLines = 1, modifier = Modifier.weight(1f))
+            }
+            HorizontalDivider(color = C.Line)
+            platform.WebPage(url, Modifier.fillMaxWidth().weight(1f), back)
+        }
+    }
 }

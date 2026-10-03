@@ -29,6 +29,8 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
@@ -57,6 +59,20 @@ interface Platform {
     /** Keyboard keys while this screen shows (Windows only): "1".."9", "Left", "Right". True if handled. */
     @Composable
     fun Shortcuts(onKey: (String) -> Boolean)
+
+    /**
+     * A web page shown inside the app (Google search from the Meaning card). [back] is set to a function that
+     * goes back one page and returns true, or returns false when there is nothing to go back to.
+     * Default (Windows): a note and a button that opens the page in the browser.
+     */
+    @Composable
+    fun WebPage(url: String, modifier: Modifier, back: MutableState<(() -> Boolean)?>) {
+        val uri = androidx.compose.ui.platform.LocalUriHandler.current
+        Column(modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Text("Search results open in your web browser.", style = TextStyle(fontSize = 15.sp, color = C.Muted))
+            OutlinedButton(onClick = { uri.openUri(url) }) { Text("Open in browser") }
+        }
+    }
 
     /** Read-aloud engine, or null where there is none (the reader then hides the Listen button). */
     val speech: Speech? get() = null

@@ -22,6 +22,12 @@ class Repository(private val open: (String) -> InputStream) {
     val plan: Plan by lazy { parsePlan(readJson("plan.json")) }
     val index: List<BookInfo> by lazy { parseIndex(readJson("index.json")) }
 
+    /** Key terms of each notes page ("book:row:sec" -> terms), from tools/build_key_terms.py. */
+    val keyTerms: Map<String, List<String>> by lazy {
+        runCatching { readJson("keyterms.json").jsonObject.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } } }
+            .getOrDefault(emptyMap())
+    }
+
     /** Offline word meanings (WordNet) for "Meaning" on selected text. */
     val dictionary by lazy { abbreviations; Dictionary(open) }
 

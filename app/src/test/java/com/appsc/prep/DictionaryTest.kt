@@ -44,6 +44,18 @@ class DictionaryTest {
         assertTrue(h.notes.first().text.contains("water vapour"))
     }
 
+    @Test fun scienceAndCurrentAffairsInIndianContext() {
+        for (t in listOf("PSLV", "Chandrayaan", "Sriharikota", "green hydrogen", "Ramsar", "El Nino", "net zero", "G20", "BRICS", "UPI", "Quad"))
+            assertTrue(t, dict.lookup(t)?.india != null)
+        assertTrue(dict.lookup("Ramsar")!!.india!!.contains("Kolleru"))
+    }
+
+    @Test fun everyPageHasKeyTerms() {
+        val pages = repo.keyTerms
+        assertTrue("${pages.size}", pages.size > 8000)
+        assertTrue(pages["2:0:0"]!!.contains("dyarchy"))
+    }
+
     @Test fun shortFormsFromTheNotes() {
         assertEquals("World Trade Organization", dict.lookup("WTO")!!.shortForm)
         assertEquals("Visakhapatnam-Chennai Industrial Corridor", dict.lookup("VCIC")!!.shortForm)
