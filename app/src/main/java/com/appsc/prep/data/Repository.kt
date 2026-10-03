@@ -64,7 +64,8 @@ class Repository(private val open: (String) -> InputStream) {
                     val heading = term.regex.containsMatchIn(s.title) || term.regex.containsMatchIn(r.title)
                     for (blk in s.blocks) {
                         val lines = when (blk) {
-                            is TextBlock -> listOf(blk.runs.joinToString("") { it.text })
+                            // grey "Not in your sources: ..." notes say what the notes lack: not a meaning
+                            is TextBlock -> listOf(blk.runs.filterNot { it.muted && it.text.trimStart().startsWith("Not in your sources") }.joinToString("") { it.text })
                             is TableBlock -> blk.rows.map { row -> row.joinToString(" - ") { c -> c.joinToString("") { it.text } } }
                         }
                         for (line in lines) {

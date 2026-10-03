@@ -26,6 +26,11 @@ class NotesAboutTest {
         assertTrue(!NotesTerms.parse("Art 21")!!.regex.containsMatchIn("Art. 210"))
     }
 
+    @Test fun notInYourSourcesIsNotAMeaning() {
+        val (_, lines) = runBlocking { repo.notesAbout("Operation Sindoor") }!!
+        assertTrue(lines.none { it.text.startsWith("Not in your sources") })
+    }
+
     @Test fun whatTheNotesSay() {
         for (s in listOf("84th amendment", "s.144", "Art. 370", "Dyarchy", "Lok Adalat", "Polavaram", "repo rate", "7th schedule")) {
             val (title, lines) = runBlocking { repo.notesAbout(s) }!!
