@@ -82,6 +82,7 @@ import com.appsc.prep.ui.components.BlockView
 import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.Playback
 import com.appsc.prep.ui.components.SpeechPage
+import com.appsc.prep.ui.components.DictionaryArea
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.TopBar
 import com.appsc.prep.ui.theme.C
@@ -248,164 +249,166 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                 }
             }
 
-            LazyColumn(Modifier.fillMaxSize(), state = listState) {
-                item(key = "head-$id") {
-                    Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 18.dp)) {
-                        Text(
-                            row.title,
-                            style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, color = C.Accent, fontWeight = FontWeight.SemiBold),
-                            maxLines = 2, overflow = TextOverflow.Ellipsis,
-                        )
-                        Spacer(Modifier.height(8.dp))
-                        Text(
-                            sec.title,
-                            style = TextStyle(fontSize = (24 * scale).sp, lineHeight = (31 * scale).sp, fontWeight = FontWeight.Bold, color = Color.Black),
-                        )
-                        Spacer(Modifier.height(14.dp))
-                        HorizontalDivider(color = C.Line)
-                        Row(Modifier.fillMaxWidth().padding(vertical = 12.dp)) {
+            DictionaryArea({ b, r, s -> nav.read(b, r, s) }, Modifier.fillMaxSize()) {
+                LazyColumn(Modifier.fillMaxSize(), state = listState) {
+                    item(key = "head-$id") {
+                        Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 18.dp)) {
                             Text(
-                                "${book.short} · Page ${sec.page}",
-                                style = TextStyle(fontSize = 14.sp, color = C.Faint),
-                                modifier = Modifier.weight(1f),
+                                row.title,
+                                style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, color = C.Accent, fontWeight = FontWeight.SemiBold),
+                                maxLines = 2, overflow = TextOverflow.Ellipsis,
                             )
+                            Spacer(Modifier.height(8.dp))
                             Text(
-                                "${(sec.wordCount / 180).coerceAtLeast(1)} min read",
-                                style = TextStyle(fontSize = 14.sp, color = C.Faint),
+                                sec.title,
+                                style = TextStyle(fontSize = (24 * scale).sp, lineHeight = (31 * scale).sp, fontWeight = FontWeight.Bold, color = Color.Black),
                             )
+                            Spacer(Modifier.height(14.dp))
+                            HorizontalDivider(color = C.Line)
+                            Row(Modifier.fillMaxWidth().padding(vertical = 12.dp)) {
+                                Text(
+                                    "${book.short} · Page ${sec.page}",
+                                    style = TextStyle(fontSize = 14.sp, color = C.Faint),
+                                    modifier = Modifier.weight(1f),
+                                )
+                                Text(
+                                    "${(sec.wordCount / 180).coerceAtLeast(1)} min read",
+                                    style = TextStyle(fontSize = 14.sp, color = C.Faint),
+                                )
+                            }
+                            HorizontalDivider(color = C.Line)
+                            Spacer(Modifier.height(10.dp))
                         }
-                        HorizontalDivider(color = C.Line)
-                        Spacer(Modifier.height(10.dp))
                     }
-                }
-                itemsIndexed(sec.blocks, key = { i, _ -> "$id-$i" }) { i, b ->
-                    val reading = here && parts.getOrNull(part)?.first == i
-                    Box(
-                        Modifier
-                            .padding(horizontal = 12.dp)
-                            .clip(RoundedCornerShape(8.dp))
-                            .background(if (reading) C.AccentSoft else Color.Transparent)
-                            .then(
-                                if (listening) {
-                                    Modifier.clickable {
-                                        val at = parts.indexOfFirst { it.first == i }
-                                        if (at < 0) return@clickable
-                                        if (here) {
-                                            speech?.seek(at)
-                                            speech?.resume()
-                                        } else play(at)
-                                    }
-                                } else Modifier,
-                            )
-                            .padding(horizontal = 8.dp),
-                    ) { BlockView(b, scale) }
-                }
-                item(key = "foot-$id") {
-                    Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
-                        if (sec.badges.isNotEmpty() || row.codes.isNotEmpty()) {
-                            FlowRow(
-                                verticalArrangement = Arrangement.spacedBy(8.dp),
-                                horizontalArrangement = Arrangement.spacedBy(8.dp),
-                            ) {
-                                Text("Tags:", style = TextStyle(fontSize = 15.sp, color = C.Navy), modifier = Modifier.padding(top = 3.dp))
-                                sec.badges.forEach { BadgeTag(it) }
-                                row.codes.forEach { com.appsc.prep.ui.components.Tag(it) }
+                    itemsIndexed(sec.blocks, key = { i, _ -> "$id-$i" }) { i, b ->
+                        val reading = here && parts.getOrNull(part)?.first == i
+                        Box(
+                            Modifier
+                                .padding(horizontal = 12.dp)
+                                .clip(RoundedCornerShape(8.dp))
+                                .background(if (reading) C.AccentSoft else Color.Transparent)
+                                .then(
+                                    if (listening) {
+                                        Modifier.clickable {
+                                            val at = parts.indexOfFirst { it.first == i }
+                                            if (at < 0) return@clickable
+                                            if (here) {
+                                                speech?.seek(at)
+                                                speech?.resume()
+                                            } else play(at)
+                                        }
+                                    } else Modifier,
+                                )
+                                .padding(horizontal = 8.dp),
+                        ) { BlockView(b, scale) }
+                    }
+                    item(key = "foot-$id") {
+                        Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
+                            if (sec.badges.isNotEmpty() || row.codes.isNotEmpty()) {
+                                FlowRow(
+                                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                                ) {
+                                    Text("Tags:", style = TextStyle(fontSize = 15.sp, color = C.Navy), modifier = Modifier.padding(top = 3.dp))
+                                    sec.badges.forEach { BadgeTag(it) }
+                                    row.codes.forEach { com.appsc.prep.ui.components.Tag(it) }
+                                }
+                                Spacer(Modifier.height(16.dp))
                             }
-                            Spacer(Modifier.height(16.dp))
-                        }
-                        val done = store.isDone(id)
-                        Button(
-                            onClick = {
-                                store.setDone(id, !done)
-                                if (!done && next != null) go(next)
-                            },
-                            modifier = Modifier.fillMaxWidth().height(50.dp),
-                            shape = RoundedCornerShape(12.dp),
-                            colors = ButtonDefaults.buttonColors(containerColor = if (done) C.GreenSoft else C.Accent, contentColor = if (done) C.Green else Color.White),
-                        ) {
-                            Icon(Icons.Filled.CheckCircle, null, modifier = Modifier.size(20.dp))
-                            Spacer(Modifier.width(8.dp))
-                            Text(
-                                if (done) "Read ✓  (tap to undo)" else if (next != null) "Mark as read & next" else "Mark as read",
-                                style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
-                            )
-                        }
-                        val subQ = mcq?.subCount(rowI, secI) ?: 0
-                        if (subQ > 0) {
-                            Spacer(Modifier.height(10.dp))
-                            OutlinedButton(
-                                onClick = { nav.quiz("sub", bookId, rowI, sub = secI) },
+                            val done = store.isDone(id)
+                            Button(
+                                onClick = {
+                                    store.setDone(id, !done)
+                                    if (!done && next != null) go(next)
+                                },
                                 modifier = Modifier.fillMaxWidth().height(50.dp),
                                 shape = RoundedCornerShape(12.dp),
+                                colors = ButtonDefaults.buttonColors(containerColor = if (done) C.GreenSoft else C.Accent, contentColor = if (done) C.Green else Color.White),
                             ) {
+                                Icon(Icons.Filled.CheckCircle, null, modifier = Modifier.size(20.dp))
+                                Spacer(Modifier.width(8.dp))
                                 Text(
-                                    "Practice $subQ MCQs on this subsection",
-                                    style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
+                                    if (done) "Read ✓  (tap to undo)" else if (next != null) "Mark as read & next" else "Mark as read",
+                                    style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
                                 )
                             }
-                        }
-                        val qCount = app.repo.rowInfo(bookId, rowI)?.questionCount ?: 0
-                        if (secI == row.secs.size - 1 && qCount > 0) {
-                            Spacer(Modifier.height(10.dp))
-                            OutlinedButton(
-                                onClick = { nav.quiz("row", bookId, rowI) },
-                                modifier = Modifier.fillMaxWidth().height(50.dp),
-                                shape = RoundedCornerShape(12.dp),
-                            ) {
-                                Text(
-                                    "Practice all $qCount MCQs of this section",
-                                    style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
-                                )
-                            }
-                        }
-                        if (row.sources.isNotEmpty() && secI == row.secs.size - 1) {
-                            Spacer(Modifier.height(16.dp))
-                            SourcesBox(row.sources)
-                        }
-                        Spacer(Modifier.height(20.dp))
-                        Row(Modifier.fillMaxWidth()) {
-                            Column(
-                                Modifier
-                                    .weight(1f)
-                                    .clickable(enabled = prev != null) { prev?.let { go(it) } }
-                                    .padding(vertical = 6.dp),
-                            ) {
-                                if (prev != null) {
-                                    Row(verticalAlignment = Alignment.CenterVertically) {
-                                        Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, null, tint = C.Navy)
-                                        Text("Previous", style = TextStyle(fontSize = 16.sp, color = C.Navy))
-                                    }
+                            val subQ = mcq?.subCount(rowI, secI) ?: 0
+                            if (subQ > 0) {
+                                Spacer(Modifier.height(10.dp))
+                                OutlinedButton(
+                                    onClick = { nav.quiz("sub", bookId, rowI, sub = secI) },
+                                    modifier = Modifier.fillMaxWidth().height(50.dp),
+                                    shape = RoundedCornerShape(12.dp),
+                                ) {
                                     Text(
-                                        book.rows[prev.row].secs[prev.sec].title,
-                                        style = TextStyle(fontSize = 14.sp, lineHeight = 19.sp, color = C.Faint),
-                                        maxLines = 2, overflow = TextOverflow.Ellipsis,
-                                        modifier = Modifier.padding(start = 24.dp),
+                                        "Practice $subQ MCQs on this subsection",
+                                        style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
                                     )
                                 }
                             }
-                            Spacer(Modifier.width(12.dp))
-                            Column(
-                                Modifier
-                                    .weight(1f)
-                                    .clickable(enabled = next != null) { next?.let { go(it) } }
-                                    .padding(vertical = 6.dp),
-                                horizontalAlignment = Alignment.End,
-                            ) {
-                                if (next != null) {
-                                    Row(verticalAlignment = Alignment.CenterVertically) {
-                                        Text("Next", style = TextStyle(fontSize = 16.sp, color = C.Navy))
-                                        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Navy)
-                                    }
+                            val qCount = app.repo.rowInfo(bookId, rowI)?.questionCount ?: 0
+                            if (secI == row.secs.size - 1 && qCount > 0) {
+                                Spacer(Modifier.height(10.dp))
+                                OutlinedButton(
+                                    onClick = { nav.quiz("row", bookId, rowI) },
+                                    modifier = Modifier.fillMaxWidth().height(50.dp),
+                                    shape = RoundedCornerShape(12.dp),
+                                ) {
                                     Text(
-                                        book.rows[next.row].secs[next.sec].title,
-                                        style = TextStyle(fontSize = 14.sp, lineHeight = 19.sp, color = C.Faint),
-                                        maxLines = 2, overflow = TextOverflow.Ellipsis,
-                                        modifier = Modifier.padding(end = 24.dp),
+                                        "Practice all $qCount MCQs of this section",
+                                        style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
                                     )
                                 }
                             }
+                            if (row.sources.isNotEmpty() && secI == row.secs.size - 1) {
+                                Spacer(Modifier.height(16.dp))
+                                SourcesBox(row.sources)
+                            }
+                            Spacer(Modifier.height(20.dp))
+                            Row(Modifier.fillMaxWidth()) {
+                                Column(
+                                    Modifier
+                                        .weight(1f)
+                                        .clickable(enabled = prev != null) { prev?.let { go(it) } }
+                                        .padding(vertical = 6.dp),
+                                ) {
+                                    if (prev != null) {
+                                        Row(verticalAlignment = Alignment.CenterVertically) {
+                                            Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, null, tint = C.Navy)
+                                            Text("Previous", style = TextStyle(fontSize = 16.sp, color = C.Navy))
+                                        }
+                                        Text(
+                                            book.rows[prev.row].secs[prev.sec].title,
+                                            style = TextStyle(fontSize = 14.sp, lineHeight = 19.sp, color = C.Faint),
+                                            maxLines = 2, overflow = TextOverflow.Ellipsis,
+                                            modifier = Modifier.padding(start = 24.dp),
+                                        )
+                                    }
+                                }
+                                Spacer(Modifier.width(12.dp))
+                                Column(
+                                    Modifier
+                                        .weight(1f)
+                                        .clickable(enabled = next != null) { next?.let { go(it) } }
+                                        .padding(vertical = 6.dp),
+                                    horizontalAlignment = Alignment.End,
+                                ) {
+                                    if (next != null) {
+                                        Row(verticalAlignment = Alignment.CenterVertically) {
+                                            Text("Next", style = TextStyle(fontSize = 16.sp, color = C.Navy))
+                                            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Navy)
+                                        }
+                                        Text(
+                                            book.rows[next.row].secs[next.sec].title,
+                                            style = TextStyle(fontSize = 14.sp, lineHeight = 19.sp, color = C.Faint),
+                                            maxLines = 2, overflow = TextOverflow.Ellipsis,
+                                            modifier = Modifier.padding(end = 24.dp),
+                                        )
+                                    }
+                                }
+                            }
+                            Spacer(Modifier.height(90.dp))
                         }
-                        Spacer(Modifier.height(90.dp))
                     }
                 }
             }

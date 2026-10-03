@@ -51,6 +51,7 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.Question
 import com.appsc.prep.data.Techniques
 import com.appsc.prep.ui.components.Loading
+import com.appsc.prep.ui.components.DictionaryArea
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.Tag
@@ -127,6 +128,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
                 round++
             },
             onDone = nav::back,
+            onOpenNotes = { b, r, sec -> nav.read(b, r, sec) },
         )
     }
 }
@@ -138,6 +140,7 @@ internal fun QuizRound(
     pool: List<Question>,
     onNext: (String) -> Unit,
     onDone: () -> Unit,
+    onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit = { _, _, _ -> },
 ) {
     val app = LocalApp.current
     val store = app.store
@@ -183,45 +186,47 @@ internal fun QuizRound(
             Spacer(Modifier.height(6.dp))
             ProgressLine((index + if (answered) 1 else 0) / set.size.toFloat())
         }
-        LazyColumn(Modifier.weight(1f), state = listState) {
-            item(key = "q-${q.id}") {
-                Column(Modifier.padding(horizontal = 20.dp)) {
-                    Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(vertical = 6.dp)) {
-                        if (q.appsc) Tag("APPSC", C.ExamBg, C.ExamInk)
-                        when {
-                            q.kind == 'f' -> Tag("Flashcard", C.AccentSoft, C.Accent)
-                            q.cancelled -> Tag("Cancelled", C.HighSoft, C.High)
-                            q.kind == 'u' -> Tag("No key", C.MedSoft, C.Med)
+        DictionaryArea(onOpenNotes, Modifier.weight(1f)) {
+            LazyColumn(Modifier.fillMaxSize(), state = listState) {
+                item(key = "q-${q.id}") {
+                    Column(Modifier.padding(horizontal = 20.dp)) {
+                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(vertical = 6.dp)) {
+                            if (q.appsc) Tag("APPSC", C.ExamBg, C.ExamInk)
+                            when {
+                                q.kind == 'f' -> Tag("Flashcard", C.AccentSoft, C.Accent)
+                                q.cancelled -> Tag("Cancelled", C.HighSoft, C.High)
+                                q.kind == 'u' -> Tag("No key", C.MedSoft, C.Med)
+                            }
+                            if (q.source.isNotBlank()) Tag(q.source)
                         }
-                        if (q.source.isNotBlank()) Tag(q.source)
+                        Text(
+                            q.stem,
+                            style = TextStyle(fontSize = 17.sp, lineHeight = 25.sp, fontWeight = FontWeight.Medium, color = Color.Black),
+                        )
+                        if (q.table.isNotEmpty()) QuestionTable(q.table)
+                        Spacer(Modifier.height(14.dp))
+                        when (q.kind) {
+                            'f' -> Flashcard(q, picked) { knew ->
+                                picks[index] = if (knew) 0 else 1
+                                store.recordAnswer(q.id, knew)
+                            }
+                            'u' -> {
+                                q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, answer = q.answer) { pick(i) } }
+                                if (answered) {
+                                    Spacer(Modifier.height(8.dp))
+                                    UnscoredNote(q)
+                                } else HintBox(q)
+                            }
+                            else -> {
+                                q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
+                                if (answered) {
+                                    Spacer(Modifier.height(8.dp))
+                                    Explanation(q, picked == q.answer, picked)
+                                } else HintBox(q)
+                            }
+                        }
+                        Spacer(Modifier.height(20.dp))
                     }
-                    Text(
-                        q.stem,
-                        style = TextStyle(fontSize = 17.sp, lineHeight = 25.sp, fontWeight = FontWeight.Medium, color = Color.Black),
-                    )
-                    if (q.table.isNotEmpty()) QuestionTable(q.table)
-                    Spacer(Modifier.height(14.dp))
-                    when (q.kind) {
-                        'f' -> Flashcard(q, picked) { knew ->
-                            picks[index] = if (knew) 0 else 1
-                            store.recordAnswer(q.id, knew)
-                        }
-                        'u' -> {
-                            q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, answer = q.answer) { pick(i) } }
-                            if (answered) {
-                                Spacer(Modifier.height(8.dp))
-                                UnscoredNote(q)
-                            } else HintBox(q)
-                        }
-                        else -> {
-                            q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
-                            if (answered) {
-                                Spacer(Modifier.height(8.dp))
-                                Explanation(q, picked == q.answer, picked)
-                            } else HintBox(q)
-                        }
-                    }
-                    Spacer(Modifier.height(20.dp))
                 }
             }
         }

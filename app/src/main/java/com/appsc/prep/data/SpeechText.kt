@@ -15,6 +15,10 @@ object SpeechText {
     /** Short forms defined in the notes: abbreviation -> meanings (most used first). Set by [Repository]. */
     @Volatile var fromNotes: Map<String, List<String>> = emptyMap()
 
+    /** Full form of a short form (built-in list, then the notes' own definitions), for the dictionary. */
+    fun expand(abbr: String): String? =
+        FULL[abbr] ?: fromNotes[abbr]?.first() ?: abbr.removeSuffix("s").takeIf { it != abbr }?.let { FULL[it] ?: fromNotes[it]?.first() }
+
     /** (block index, text) for a subsection: the title first (-1), then each paragraph; tables row by row. */
     fun parts(title: String, blocks: List<Block>, book: Int): List<Pair<Int, String>> = buildList {
         add(-1 to speakable(title, book))

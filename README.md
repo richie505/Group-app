@@ -23,6 +23,12 @@ WTO → World Trade Organization, ₹5,000 cr → 5,000 crore rupees, Group-II �
 727 short forms the notes define (`assets/abbr.json`, `tools/build_abbreviations.py`), and context rules for
 the ones with two meanings (SC: Supreme Court or Scheduled Caste from the words around it).
 
+**Meaning** (select any word in the notes or in MCQ practice): offline dictionary card with the word's top
+meanings and an example (WordNet 3.1, 147,478 words: `assets/dict/`, `tools/build_dictionary.py` from the npm
+package wordnet-db), finds the dictionary form ("governments" → government), gives the full form of short forms
+(WTO, the notes' own VCIC ...), and lists notes subsections whose heading mentions the word (tap to open)
+(`ui/components/DictionaryArea.kt`, `data/Dictionary.kt`).
+
 Tabs: **Today** (today's targets) · **Plan** (all 90 days + buffer) · **Notes** (browse all 6 books)
 · **Progress** · **Saved** (bookmarks).
 

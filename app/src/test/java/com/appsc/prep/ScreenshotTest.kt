@@ -6,7 +6,9 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.assertCountEquals
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.longClick
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.performTouchInput
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
 import androidx.test.core.app.ApplicationProvider
@@ -88,6 +90,21 @@ class ScreenshotTest {
         assertEquals("2:106:0", ReadAloud.playback.value.pageId)
         assertTrue(ReadAloud.playback.value.playing)
         ReadAloud.stop()
+    }
+
+    /**
+     * Long-press a word in the notes, tap Meaning: the dictionary card shows its meaning and notes pages.
+     * Android 8.1: the selection magnifier of Android 9+ needs a real screen surface, which Robolectric lacks.
+     */
+    @Config(sdk = [27])
+    @Test fun meaningOfASelectedWord() {
+        shot("16_meaning", preload = 2) { ReaderScreen(2, 0, 0, nav) }
+        rule.onAllNodesWithText("dyarchy", substring = true)[1].performTouchInput { longClick(centerLeft + androidx.compose.ui.geometry.Offset(width * 0.55f, 0f)) }
+        rule.waitForIdle()
+        rule.onNodeWithText("Meaning").performClick()
+        rule.waitUntil(10_000) { rule.onAllNodesWithText("MEANING").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(20_000) { rule.onAllNodesWithText("IN YOUR NOTES").fetchSemanticsNodes().isNotEmpty() }
+        rule.onRoot().captureRoboImage("screenshots/16_meaning.png")
     }
 
     /** Reading page A, then opening page B by hand: B is read, and the screen stays on B. */

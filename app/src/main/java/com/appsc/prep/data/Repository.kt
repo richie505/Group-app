@@ -22,6 +22,30 @@ class Repository(private val open: (String) -> InputStream) {
     val plan: Plan by lazy { parsePlan(readJson("plan.json")) }
     val index: List<BookInfo> by lazy { parseIndex(readJson("index.json")) }
 
+    /** Offline word meanings (WordNet) for "Meaning" on selected text. */
+    val dictionary by lazy { abbreviations; Dictionary(open) }
+
+    /** A place in the notes whose heading mentions a word. */
+    data class NoteHit(val book: Int, val row: Int, val sec: Int, val title: String, val where: String)
+
+    /** Up to [limit] notes subsections whose heading mentions [term] (whole words), headings starting with it first. */
+    suspend fun findInNotes(term: String, limit: Int = 6): List<NoteHit> = withContext(Dispatchers.Default) {
+        val t = term.trim()
+        if (t.length < 3) return@withContext emptyList()
+        val re = Regex("""(?<![\w])${Regex.escape(t)}(?![\w])""", RegexOption.IGNORE_CASE)
+        val hits = mutableListOf<Pair<Int, NoteHit>>()
+        for (b in 1..6) {
+            val bk = book(b)
+            bk.rows.forEachIndexed { ri, r ->
+                r.secs.forEachIndexed { si, s ->
+                    val m = re.find(s.title) ?: return@forEachIndexed
+                    hits += m.range.first to NoteHit(b, ri, si, s.title, "${bk.short} · ${r.title}")
+                }
+            }
+        }
+        hits.sortedBy { it.first }.take(limit).map { it.second }
+    }
+
     /** Short forms the notes define (tools/build_abbreviations.py), for read-aloud. */
     val abbreviations: Map<String, List<String>> by lazy {
         runCatching {
