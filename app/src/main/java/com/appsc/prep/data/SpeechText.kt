@@ -272,7 +272,7 @@ object SpeechText {
         t = Regex("""\b(Type|Category|Level|Round|Zone|Wave|Window|Mark|Mk|Generation|Session|Volume|Canto|Pillar|Seat|Size|Ward|Phase|Track|Lane|Gate|Unit)([\s-])($ROMAN_RE)(?![A-Za-z.])""")
             .replace(t) { "${it.groupValues[1]} ${ROMAN[it.groupValues[3]]}" }
         // kings and popes: Chandragupta II -> Chandragupta the Second (not initials like "V. S.", not "I-Tsing")
-        t = Regex("""(?<=\b[A-Z][a-z]{2,}\s)(XX|XIX|XVIII|XVII|XVI|XV|XIV|XIII|XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I)(?![A-Za-z]|-[A-Za-z]|\.\s?[A-Z]|\.\d)""")
+        t = Regex("""(?<=\b[A-Z][a-z]{2,30}\s)(XX|XIX|XVIII|XVII|XVI|XV|XIV|XIII|XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I)(?![A-Za-z]|-[A-Za-z]|\.\s?[A-Z]|\.\d)""")
             .replace(t) { "the " + ORDINAL[ROMAN[it.value]!! - 1] }
         // FY26 -> financial year 2025-26; Q1 -> quarter 1
         t = Regex("""\bFY\s?(\d{2})\b""").replace(t) { val y = it.groupValues[1].toInt(); "financial year 20${"%02d".format(y - 1)}-$y" }
