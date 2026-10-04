@@ -7,6 +7,7 @@ import androidx.compose.runtime.MutableState
 import androidx.compose.ui.Modifier
 import com.appsc.prep.data.Storage
 import com.appsc.prep.ui.components.Platform
+import com.appsc.prep.ui.components.WebText
 
 class PrefsStorage(context: Context) : Storage {
     private val prefs = context.getSharedPreferences("progress", Context.MODE_PRIVATE)
@@ -50,7 +51,7 @@ class AndroidPlatform(private val context: Context) : Platform {
         url: String,
         modifier: Modifier,
         back: MutableState<(() -> Boolean)?>,
-        selected: MutableState<(((String) -> Unit) -> Unit)?>?,
+        selected: MutableState<(((WebText) -> Unit) -> Unit)?>?,
     ) {
         androidx.compose.ui.viewinterop.AndroidView(
             factory = { ctx ->
@@ -72,9 +73,13 @@ class AndroidPlatform(private val context: Context) : Platform {
                     loadUrl(url)
                     back.value = { if (canGoBack()) { goBack(); true } else false }
                     selected?.value = { done ->
-                        evaluateJavascript("String(window.getSelection())") { r ->
-                            val now = if (r == null || r == "null") "" else runCatching { org.json.JSONArray("[$r]").getString(0) }.getOrDefault("")
-                            done(now.ifBlank { last }.trim())
+                        evaluateJavascript(PAGE_TEXT) { r ->
+                            val text = runCatching {
+                                val o = org.json.JSONObject(org.json.JSONArray("[$r]").getString(0))
+                                val ps = o.getJSONArray("p")
+                                WebText(o.getString("s").trim(), List(ps.length()) { ps.getString(it) })
+                            }.getOrDefault(WebText("", emptyList()))
+                            done(if (text.selection.isBlank()) text.copy(selection = last.trim()) else text)
                         }
                     }
                 }
@@ -87,5 +92,10 @@ class AndroidPlatform(private val context: Context) : Platform {
     private companion object {
         const val WATCH_SELECTION = "if(!window.__prepSel){window.__prepSel=1;document.addEventListener('selectionchange'," +
             "function(){var s=String(window.getSelection());if(s.trim())PrepApp.selected(s);});}"
+
+        /** The selection and the page's paragraphs (one per line of the visible text, short menu items left out). */
+        const val PAGE_TEXT = "(function(){var seen={},p=[];String(document.body.innerText||'').split(/\\n+/).forEach(function(l){" +
+            "l=l.replace(/\\s+/g,' ').trim();if(l.length>=20&&!seen[l]){seen[l]=1;p.push(l);}});" +
+            "return JSON.stringify({s:String(window.getSelection()),p:p.slice(0,150)});})()"
     }
 }

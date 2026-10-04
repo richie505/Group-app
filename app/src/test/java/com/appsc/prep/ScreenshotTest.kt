@@ -144,6 +144,20 @@ class ScreenshotTest {
         rule.mainClock.autoAdvance = true
     }
 
+    /** Google's copy menu does not show inside the app, so the page's paragraphs are listed to tick. */
+    @Test fun pickTextFromGoogle() {
+        var added = ""
+        val paras = listOf(
+            "Madhya Pradesh, Maharashtra, and Uttar Pradesh record the highest total numbers of crimes against children.",
+            "Top States for Crimes Against Children",
+            "Child marriage cases under the PCMA are led by Karnataka, Assam and West Bengal.",
+        )
+        shot("25_pick_text") { com.appsc.prep.ui.components.PickText(paras, preselect = 0, onAdd = { added = it }) {} }
+        rule.onNodeWithText(paras[2]).performClick()
+        rule.onNodeWithText("Add (2)").performClick()
+        assertEquals(paras[0] + "\n" + paras[2], added)
+    }
+
     /** Every notes page ends with its key terms; tapping one opens its meaning. */
     @Test fun keyTermsOnAPage() {
         shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 0, nav) }

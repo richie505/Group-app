@@ -63,7 +63,8 @@ interface Platform {
     /**
      * A web page shown inside the app (Google search from the Meaning card). [back] is set to a function that
      * goes back one page and returns true, or returns false when there is nothing to go back to.
-     * [selected], when given, is set to a function that hands back the text selected on the page ("" if none).
+     * [selected], when given, is set to a function that hands back the page's text: what is selected, if anything,
+     * and its paragraphs (to pick from, since the copy menu does not show inside the app).
      * Default (Windows): a note and a button that opens the page in the browser.
      */
     @Composable
@@ -71,7 +72,7 @@ interface Platform {
         url: String,
         modifier: Modifier,
         back: MutableState<(() -> Boolean)?>,
-        selected: MutableState<(((String) -> Unit) -> Unit)?>?,
+        selected: MutableState<(((WebText) -> Unit) -> Unit)?>?,
     ) {
         val uri = androidx.compose.ui.platform.LocalUriHandler.current
         Column(modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -83,6 +84,9 @@ interface Platform {
     /** Read-aloud engine, or null where there is none (the reader then hides the Listen button). */
     val speech: Speech? get() = null
 }
+
+/** Text taken from a web page: the [selection] ("" if none) and the page's [paragraphs]. */
+data class WebText(val selection: String, val paragraphs: List<String>)
 
 /** One subsection to read aloud: its id ("book:row:sec"), title and the parts (paragraphs) to speak. */
 data class SpeechPage(val id: String, val title: String, val parts: List<String>)

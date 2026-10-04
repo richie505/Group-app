@@ -314,29 +314,70 @@ fun GooglePage(query: String, onAdd: ((String) -> Unit)? = null, onClose: () -> 
                 Text("Google · $query", style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Ink), maxLines = 1, modifier = Modifier.weight(1f))
             }
             HorizontalDivider(color = C.Line)
-            val selected = remember { mutableStateOf<(((String) -> Unit) -> Unit)?>(null) }
+            val selected = remember { mutableStateOf<(((WebText) -> Unit) -> Unit)?>(null) }
             platform.WebPage(url, Modifier.fillMaxWidth().weight(1f), back, if (onAdd != null) selected else null)
             if (onAdd != null) {
                 @Suppress("DEPRECATION")
                 val clipboard = androidx.compose.ui.platform.LocalClipboardManager.current
                 var empty by remember { mutableStateOf(false) }
-                // the selected text, else whatever was copied
-                fun add(text: String) {
-                    val t = text.ifBlank { clipboard.getText()?.text.orEmpty() }.trim()
-                    if (t.isBlank()) empty = true else onAdd(t)
+                var picking by remember { mutableStateOf<Pair<List<String>, Boolean>?>(null) } // paragraphs, first one selected
+                // what is selected (or copied) first, then the page's paragraphs to tick
+                fun pick(page: WebText) {
+                    val chosen = page.selection.ifBlank { clipboard.getText()?.text.orEmpty() }.trim()
+                    val all = (listOfNotNull(chosen.takeIf { it.isNotBlank() }) + page.paragraphs).distinct()
+                    if (all.isEmpty()) empty = true else { empty = false; picking = all to chosen.isNotBlank() }
+                }
+                picking?.let { (all, first) ->
+                    PickText(all, preselect = if (first) 0 else -1, onAdd = { picking = null; onAdd(it) }) { picking = null }
                 }
                 HorizontalDivider(color = C.Line)
                 Text(
-                    if (empty) "Nothing selected yet - press and hold on the text above, drag to select it, then:"
-                    else "Press and hold to select the useful text above, then:",
+                    if (empty) "Nothing to add yet - wait for the answer to load, then tap again."
+                    else "When the answer has loaded, tap below and tick the useful parts:",
                     style = TextStyle(fontSize = 13.sp, color = if (empty) C.High else C.Muted),
                     modifier = Modifier.padding(start = 16.dp, end = 16.dp, top = 8.dp),
                 )
                 androidx.compose.material3.Button(
-                    onClick = { selected.value?.invoke { add(it) } ?: add("") },
+                    onClick = { selected.value?.invoke { pick(it) } ?: pick(WebText("", emptyList())) },
                     modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
                     colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Green),
-                ) { Text("Add selected text to my notes", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
+                ) { Text("Add text from this page to my notes", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
+            }
+        }
+    }
+}
+
+/** The page's paragraphs with a tick box each; [preselect] (the selected or copied text) starts ticked. */
+@Composable
+fun PickText(paragraphs: List<String>, preselect: Int, onAdd: (String) -> Unit, onClose: () -> Unit) {
+    val ticked = remember(paragraphs) { androidx.compose.runtime.mutableStateListOf<Int>().apply { if (preselect >= 0) add(preselect) } }
+    androidx.compose.ui.window.Dialog(onDismissRequest = onClose) {
+        androidx.compose.material3.Surface(shape = androidx.compose.foundation.shape.RoundedCornerShape(16.dp), color = Color.White) {
+            Column(Modifier.fillMaxWidth().padding(vertical = 12.dp)) {
+                Text(
+                    "Tick what to add to your notes",
+                    style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = C.Ink),
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
+                )
+                androidx.compose.foundation.lazy.LazyColumn(Modifier.fillMaxWidth().weight(1f, fill = false)) {
+                    items(paragraphs.size) { i ->
+                        val on = i in ticked
+                        Row(
+                            Modifier.fillMaxWidth().clickable { if (on) ticked.remove(i) else ticked.add(i) }.padding(horizontal = 8.dp, vertical = 2.dp),
+                            verticalAlignment = Alignment.Top,
+                        ) {
+                            androidx.compose.material3.Checkbox(checked = on, onCheckedChange = { if (on) ticked.remove(i) else ticked.add(i) })
+                            Text(paragraphs[i], style = TextStyle(fontSize = 14.sp, color = C.Body), modifier = Modifier.padding(top = 12.dp, end = 8.dp))
+                        }
+                    }
+                }
+                Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp), horizontalArrangement = Arrangement.End) {
+                    androidx.compose.material3.TextButton(onClick = onClose) { Text("Cancel") }
+                    androidx.compose.material3.TextButton(
+                        enabled = ticked.isNotEmpty(),
+                        onClick = { onAdd(ticked.sorted().joinToString("\n") { paragraphs[it] }) },
+                    ) { Text(if (ticked.isEmpty()) "Add" else "Add (${ticked.size})") }
+                }
             }
         }
     }

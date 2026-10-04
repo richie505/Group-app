@@ -65,9 +65,9 @@ Article 338B and Section 304B stay as they are; units (µg/m³, kWh, MT, ppm …
 (`-Pspeech.audit=<file>`) so all six books can be checked at once.
 
 **Fill the gaps** (2.21): under each grey "Not in your sources: ..." line (1,184 of them) are *Search Google*
-(Google inside the app, searching for the missing fact) and *Add to notes*. On the Google page, press and hold to
-select the useful text, then *Add selected text to my notes* (2.22: no Copy step - the copy menu does not show
-inside the app, so the page's selection is read directly; copied text still works); edit it and Save. It is kept on the phone
+(Google inside the app, searching for the missing fact) and *Add to notes*. On the Google page, tap *Add text from this page to
+my notes* (2.24): the copy menu does not show inside the app, so the page's paragraphs are listed with tick boxes
+(any selected or copied text comes first, already ticked); tick the useful ones, then edit it and Save. It is kept on the phone
 (`ProgressStore.added`, `data/UserNotes.kt`) and shown - and read aloud - right under that line as **Your note**;
 *Edit my note* changes or deletes it. Read-aloud also says "2 M" as "2 million" and "lakh MT" as "lakh metric tonnes".
 
