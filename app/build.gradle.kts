@@ -14,8 +14,8 @@ android {
         applicationId = "com.appsc.prep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 32
-        versionName = "2.21"
+        versionCode = 33
+        versionName = "2.22"
     }
 
     signingConfigs {
@@ -51,6 +51,8 @@ android {
     }
     testOptions {
         unitTests.isIncludeAndroidResources = true
+        // ./gradlew testDebugUnitTest --tests '*SpeechAuditTest' -Pspeech.audit=/path/out.tsv dumps read-aloud text
+        unitTests.all { test -> project.findProperty("speech.audit")?.let { test.systemProperty("speech.audit", it) } }
     }
 }
 

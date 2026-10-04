@@ -47,19 +47,27 @@ read marks and bookmarks move to the new pages on first start (`assets/moved.jso
 
 **Full forms of short forms** (2.19): the first NCPCR, SC, CWC … on each page shows its full form in grey, and
 read-aloud says the same meaning (`data/Acronyms.kt`, `SpeechText.meaning`). The meanings come from a list checked
-by hand against how the notes use them - 4,045 short forms (2.20: also the rare ones not spelled out next to them, and
+by hand against how the notes use them - 4,827 short forms (2.22: every short form in all six books now has one) (2.20: also the rare ones not spelled out next to them, and
 mixed-case ones such as MoLE, MoSJE, MeitY, UoI, NaBFID)
 (`tools/data/acronyms.tsv` → `tools/build_acronyms.py` → `assets/acronyms.json`). 133 have more than one meaning
 in the notes, each with the words that pick it, and the whole page decides: CWC is the Child Welfare Committee on
 a Juvenile Justice page, the Central Water Commission next to dams, the Central Warehousing Corporation in
 agriculture and the Congress Working Committee in History; TMC is Trinamool Congress or thousand million cubic
-feet of river water; PR is Panchayati Raj, proportional representation, President's Rule or a Permanent
-Representative. A full form is skipped only when the same bullet already spells it out. Names and labels (FIRST, BRICS, COVID …) are left as written. A few (SC, MP, CAA, RE, ASI …) are
+feet of river water; ITC is input tax credit on GST pages and ITC Limited elsewhere; PR is Panchayati Raj, proportional representation, President's Rule or a Permanent
+Representative. A full form is skipped only when the same bullet already spells it out. Hyphenated scheme names are read whole or part by part (NP-NSPE, PM-KISAN, NFHS-5, PMGSY-IV). A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
+**Read-aloud numbers and symbols** (2.22): Roman numerals become numbers (Classes I-VIII → "Classes 1 to 8",
+Part IXB → "Part 9B", Chandragupta II → "Chandragupta the Second"); Indian amounts are read in lakhs and crores
+(₹1,30,794.90 crore → "1 lakh 30 thousand 794.90 crore rupees"); "54 M" and "$2.5B" are millions and billions, but
+Article 338B and Section 304B stay as they are; units (µg/m³, kWh, MT, ppm …), case names ("v." → versus), "Amdt",
+"(₹ cr)" headings and symbols are read in words. `SpeechAuditTest` dumps the read-aloud text of every page
+(`-Pspeech.audit=<file>`) so all six books can be checked at once.
+
 **Fill the gaps** (2.21): under each grey "Not in your sources: ..." line (1,184 of them) are *Search Google*
-(Google inside the app, searching for the missing fact) and *Add to notes*. On the Google page, select the useful
-text, tap Copy, then *Add copied text to my notes*; edit it and Save. It is kept on the phone
+(Google inside the app, searching for the missing fact) and *Add to notes*. On the Google page, press and hold to
+select the useful text, then *Add selected text to my notes* (2.22: no Copy step - the copy menu does not show
+inside the app, so the page's selection is read directly; copied text still works); edit it and Save. It is kept on the phone
 (`ProgressStore.added`, `data/UserNotes.kt`) and shown - and read aloud - right under that line as **Your note**;
 *Edit my note* changes or deletes it. Read-aloud also says "2 M" as "2 million" and "lakh MT" as "lakh metric tonnes".
 

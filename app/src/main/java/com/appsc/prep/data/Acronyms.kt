@@ -15,8 +15,6 @@ package com.appsc.prep.data
  * same bullet already spells out or defines right there ("Fiscal Deficit (FD)", "FD (fiscal deficit)").
  */
 object Acronyms {
-    private val ROMAN = Regex("""^[IVXLC]+$""")
-    private val KNOWN = setOf("AP", "UK", "US", "USA", "OK", "TV", "AM", "PM", "AD", "BC", "BCE", "CE", "II", "BT")
 
     fun annotate(blocks: List<Block>, book: Int, context: String = ""): List<Block> {
         val page = blocks.joinToString(" ") { b ->
@@ -40,21 +38,22 @@ object Acronyms {
                 }
                 var from = 0
                 for (m in SpeechText.SHORT_FORM.findAll(r.text)) {
-                    val (word, plural) = SpeechText.shortForm(m.value) ?: continue
-                    if (word in seen || word in KNOWN || ROMAN.matches(word) || SpeechText.isSourceCode(word)) continue
+                    if (m.value.none(Char::isUpperCase)) continue
                     val start = pos + m.range.first
                     val end = pos + m.range.last + 1
                     val before = text.substring(0, start)
                     val after = text.substring(end)
+                    val found = SpeechText.find(m.value, before, after, book, page, display = true) ?: continue
+                    if (found.key in seen) continue
                     // defined right here: "Fiscal Deficit (FD)" or "FD (fiscal deficit)"
                     if (before.trimEnd().endsWith("(") || after.trimStart().startsWith("(")) {
-                        seen += word
+                        seen += found.key
                         continue
                     }
-                    val full = SpeechText.meaning(word, plural, before, after, book, page) ?: continue
-                    seen += word
+                    val full = found.shown
+                    seen += found.key
                     // spelled out in this same bullet / row already: no need to repeat it
-                    if (full.equals(word + plural, ignoreCase = true) || full.lowercase() in here) continue
+                    if (full.equals(m.value, ignoreCase = true) || full.lowercase() in here) continue
                     out += Run(r.text.substring(from, m.range.last + 1), r.flags)
                     out += Run(" ($full)", 8)
                     from = m.range.last + 1

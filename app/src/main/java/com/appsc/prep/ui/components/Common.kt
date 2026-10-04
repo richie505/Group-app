@@ -63,10 +63,16 @@ interface Platform {
     /**
      * A web page shown inside the app (Google search from the Meaning card). [back] is set to a function that
      * goes back one page and returns true, or returns false when there is nothing to go back to.
+     * [selected], when given, is set to a function that hands back the text selected on the page ("" if none).
      * Default (Windows): a note and a button that opens the page in the browser.
      */
     @Composable
-    fun WebPage(url: String, modifier: Modifier, back: MutableState<(() -> Boolean)?>) {
+    fun WebPage(
+        url: String,
+        modifier: Modifier,
+        back: MutableState<(() -> Boolean)?>,
+        selected: MutableState<(((String) -> Unit) -> Unit)?>?,
+    ) {
         val uri = androidx.compose.ui.platform.LocalUriHandler.current
         Column(modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             Text("Search results open in your web browser.", style = TextStyle(fontSize = 15.sp, color = C.Muted))

@@ -40,7 +40,7 @@ class SpeechTextTest {
         assertEquals("Article 21 and Article 14", say("Art. 21 & Art. 14"))
         assertEquals("India joined the World Trade Organization in 1995", say("India joined the WTO in 1995"))
         assertEquals("Group 2 and Schedule 7", say("Group-II and Schedule VII"))
-        assertEquals("5,000 crore rupees", say("₹5,000 cr"))
+        assertEquals("5000 crore rupees", say("₹5,000 cr"))
         assertEquals("Urbanisation or migration", say("Urbanisation/migration"))
         // a short form right after its full form is not read twice
         assertEquals("Fiscal Deficit is 4.4%", say("Fiscal Deficit (FD) is 4.4%"))

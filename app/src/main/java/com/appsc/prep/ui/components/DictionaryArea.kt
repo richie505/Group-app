@@ -314,21 +314,29 @@ fun GooglePage(query: String, onAdd: ((String) -> Unit)? = null, onClose: () -> 
                 Text("Google · $query", style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Ink), maxLines = 1, modifier = Modifier.weight(1f))
             }
             HorizontalDivider(color = C.Line)
-            platform.WebPage(url, Modifier.fillMaxWidth().weight(1f), back)
+            val selected = remember { mutableStateOf<(((String) -> Unit) -> Unit)?>(null) }
+            platform.WebPage(url, Modifier.fillMaxWidth().weight(1f), back, if (onAdd != null) selected else null)
             if (onAdd != null) {
                 @Suppress("DEPRECATION")
                 val clipboard = androidx.compose.ui.platform.LocalClipboardManager.current
+                var empty by remember { mutableStateOf(false) }
+                // the selected text, else whatever was copied
+                fun add(text: String) {
+                    val t = text.ifBlank { clipboard.getText()?.text.orEmpty() }.trim()
+                    if (t.isBlank()) empty = true else onAdd(t)
+                }
                 HorizontalDivider(color = C.Line)
                 Text(
-                    "Select the useful text above, tap Copy, then:",
-                    style = TextStyle(fontSize = 13.sp, color = C.Muted),
+                    if (empty) "Nothing selected yet - press and hold on the text above, drag to select it, then:"
+                    else "Press and hold to select the useful text above, then:",
+                    style = TextStyle(fontSize = 13.sp, color = if (empty) C.High else C.Muted),
                     modifier = Modifier.padding(start = 16.dp, end = 16.dp, top = 8.dp),
                 )
                 androidx.compose.material3.Button(
-                    onClick = { onAdd(clipboard.getText()?.text.orEmpty()) },
+                    onClick = { selected.value?.invoke { add(it) } ?: add("") },
                     modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
                     colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Green),
-                ) { Text("Add copied text to my notes", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
+                ) { Text("Add selected text to my notes", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
             }
         }
     }

@@ -181,6 +181,12 @@ object SpeechText {
 
     private fun symbols(text: String): String {
         var t = text
+        // the rupee sign as a letter: "e₹" (Digital Rupee), "EASE ₹ise"
+        t = t.replace(Regex("""\be₹"""), "e-rupee").replace(Regex("""₹(?=[a-z])"""), "R")
+        // units with a slash, before "/" between letters is read as "or"
+        t = t.replace(Regex("""(?<=\d)\s?µg/m³"""), " micrograms per cubic metre").replace(Regex("""(?<=\d)\s?mg/L\b"""), " milligrams per litre")
+            .replace(Regex("""(?<=\d)\s?km/h\b"""), " kilometres per hour").replace(Regex("""(?<=\d)\s?kg/ha\b"""), " kilograms per hectare")
+            .replace(Regex("""(?<=\d)\s?W/m²"""), " watts per square metre")
         t = t.replace("→", " to ").replace("←", " from ").replace("⇒", " so ").replace("↔", " and ")
         t = t.replace("≈", " about ").replace("~", " about ").replace("≥", " at least ").replace("≤", " at most ")
         t = t.replace(Regex("""(?<=\s|^)>\s?(?=[\d₹])"""), "more than ").replace(Regex("""(?<=\s|^)<\s?(?=[\d₹])"""), "less than ")
@@ -193,26 +199,48 @@ object SpeechText {
         t = t.replace(Regex("""\bw\.e\.f\.?"""), "with effect from")
         t = t.replace(Regex("""\bw\.r\.t\.?"""), "with respect to")
         t = t.replace(Regex("""\bu/s\b"""), "under section")
-        t = t.replace(Regex("""\bvs\.?(?=\s)"""), "versus")
+        t = t.replace(Regex("""\bvs\.?(?=\s)"""), "versus").replace(Regex("""(?<=[a-z])-vs-(?=[a-z])"""), " versus ")
+        // case names: "Kesavananda Bharati v. State of Kerala"
+        t = t.replace(Regex("""(?<=[A-Za-z.)]) v\.? (?=[A-Z0-9])"""), " versus ")
+        t = t.replace(Regex("""\bAmdt\b\.?"""), "Amendment").replace(Regex("""\bMin\. of\b"""), "Ministry of")
+            .replace(Regex("""\bAssn\."""), "Association")
         t = t.replace(Regex("""\betc\.?"""), "etcetera")
         // emphasis in capitals (FIRST/LAST, NOT, ONLY ...) is read as a word
         t = Regex("""\b(FIRST|LAST|NOT|ONLY|NEVER|ALL|NONE|BOTH|EXCEPT|ALWAYS|NOTE|TRUE|FALSE|CORRECT|INCORRECT|WRONG|RIGHT|AND|OR|BUT|NO|YES|ANY|EVERY|MUST|HIGH|LOW|MED|KEY)\b""")
             .replace(t) { it.value.lowercase() }
         t = t.replace(" & ", " and ").replace(Regex("""(?<=[a-z])&(?=[a-z])"""), " and ")
+        // more symbols found across the six books
+        t = t.replace("*", "") // *Book titles* in italics
+        t = t.replace(Regex("""\s>\s"""), " greater than ").replace(Regex("""\s<\s"""), " less than ")
+        t = t.replace(Regex("""(?<=\()\s?>\s?"""), "more than ").replace(Regex("""(?<=\()\s?<\s?"""), "less than ")
+        t = t.replace(">", " more than ").replace("<", " less than ")
+        t = t.replace("±", " plus or minus ").replace("×", " times ").replace("@", " at ").replace("#", "")
+        t = t.replace("^", "").replace(" | ", ", ").replace("|", ", ")
+        t = t.replace(Regex("""\s/\s"""), " or ")
+        t = t.replace(Regex("""\b([1-9])/([1-9]|1[0-2])\b(?!/)"""), "$1 by $2")
+        // "PM2.5", "PM10": particulate matter
+        t = t.replace(Regex("""\bPM\s?(2\.5|10)\b"""), "particulate matter $1")
         return t
     }
 
     private val ROMAN = mapOf(
         "I" to 1, "II" to 2, "III" to 3, "IV" to 4, "V" to 5, "VI" to 6, "VII" to 7, "VIII" to 8, "IX" to 9,
-        "X" to 10, "XI" to 11, "XII" to 12, "XIII" to 13, "XIV" to 14,
+        "X" to 10, "XI" to 11, "XII" to 12, "XIII" to 13, "XIV" to 14, "XV" to 15, "XVI" to 16, "XVII" to 17,
+        "XVIII" to 18, "XIX" to 19, "XX" to 20, "XXI" to 21, "XXII" to 22,
     )
+    private val ORDINAL = listOf(
+        "First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eighth", "Ninth", "Tenth", "Eleventh", "Twelfth",
+        "Thirteenth", "Fourteenth", "Fifteenth", "Sixteenth", "Seventeenth", "Eighteenth", "Nineteenth", "Twentieth",
+        "Twenty-first", "Twenty-second",
+    )
+    private const val ROMAN_RE = "XXII|XXI|XX|XIX|XVIII|XVII|XVI|XV|XIV|XIII|XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I"
 
     /** Sec 6 -> Section 6, Art. 21 -> Article 21, Group-II -> Group 2, No. 5 -> number 5 ... */
     private fun numbered(text: String): String {
         var t = text
         val n = """(?=\s?[\dIVX(])"""
         t = t.replace(Regex("""\bSecs\.?\s?$n"""), "Sections ").replace(Regex("""\bSec\.?\s?$n"""), "Section ")
-        t = t.replace(Regex("""\bArts\.?\s?(?=\d)"""), "Articles ").replace(Regex("""\bArt\.?\s?(?=\d)"""), "Article ")
+        t = t.replace(Regex("""\bArts\.?\s?(?=\d)"""), "Articles ").replace(Regex("""\bArt\.?\s?(?=\d|(?:$ROMAN_RE)\b)"""), "Article ")
         t = t.replace(Regex("""\bSch\.?\s?(?=[\dIVX])"""), "Schedule ").replace(Regex("""(?<=\d(st|nd|rd|th))\s?Sch\b\.?"""), " Schedule")
         t = t.replace(Regex("""\bCl\.?\s?(?=[\d(])"""), "Clause ").replace(Regex("""\bPara\.?\s?(?=\d)"""), "Paragraph ")
         t = t.replace(Regex("""\bCh\.\s?(?=\d)"""), "Chapter ").replace(Regex("""\bNos?\.\s?(?=\d)""")) { if (it.value.startsWith("Nos")) "numbers " else "number " }
@@ -226,28 +254,71 @@ object SpeechText {
         t = t.replace(Regex("""\bLtd\.?"""), "Limited").replace(Regex("""\bapprox\.?"""), "approximately")
         t = t.replace(Regex("""\best\.\s?(?=\d)"""), "established ")
         // Group-II, Part III, Schedule VII, Phase I ... -> numbers
-        t = Regex("""\b(Group|Part|Schedule|Phase|Paper|Unit|Chapter|Class|Book|Block|Stage|Tier|Plan|Grade|Article|List|Edict)([\s-])(XIV|XIII|XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I)\b""")
+        // also plurals and ranges: "Classes I-VIII" -> "Classes 1 to 8", "RE XI-XIII", "Parts IX and X"
+        val words = "Groups?|Parts?|Schedules?|Phases?|Papers?|Units?|Chapters?|Class(?:es)?|Books?|Blocks?|Stages?|Tiers?|Plans?|" +
+            "Grades?|Articles?|Lists?|Edicts?|RE|PE|Mandalas?|Sections?|Titles?|Regulations?|Annex(?:es)?|Appendix|Appendices|Standards?"
+        t = Regex("""\b($words)([\s-])($ROMAN_RE)(?:\s?(-|–|to|and|or|,)\s?($ROMAN_RE))?(?![A-Za-z])""").replace(t) { m ->
+            val first = ROMAN[m.groupValues[3]]
+            val second = m.groupValues[5].takeIf { it.isNotEmpty() }?.let { ROMAN[it] }
+            val join = when (m.groupValues[4]) { "-", "–", "to" -> " to "; "and" -> " and "; "or" -> " or "; "," -> ", "; else -> "" }
+            "${m.groupValues[1]} $first" + if (second != null) "$join$second" else ""
+        }
+        // Part IXA -> Part 9A; APPSC-G1 2023 -> APPSC Group 1 2023
+        t = t.replace(Regex("""\b(IVA|IXA|IXB|XIVA)\b""")) { mapOf("IVA" to "4A", "IXA" to "9A", "IXB" to "9B", "XIVA" to "14A")[it.value]!! }
+        t = t.replace(Regex("""\b(APPSC|UPSC|TSPSC|UPPSC|BPSC)-?\s?G([12])\b"""), "$1 Group $2").replace(Regex("""\b(APPSC|UPSC)-GS\b"""), "$1 General Studies")
+        t = t.replace(Regex("""(?<![A-Za-z-])G([12])\s(?=\d{4})"""), "Group $1 ")
+        // World War I -> World War One; Type II, Category III, Level IV ... -> numbers
+        t = t.replace(Regex("""\bWorld War (II|I)\b""")) { if (it.groupValues[1] == "II") "World War Two" else "World War One" }
+        t = Regex("""\b(Type|Category|Level|Round|Zone|Wave|Window|Mark|Mk|Generation|Session|Volume|Canto|Pillar|Seat|Size|Ward|Phase|Track|Lane|Gate|Unit)([\s-])($ROMAN_RE)(?![A-Za-z.])""")
             .replace(t) { "${it.groupValues[1]} ${ROMAN[it.groupValues[3]]}" }
+        // kings and popes: Chandragupta II -> Chandragupta the Second (not initials like "V. S.", not "I-Tsing")
+        t = Regex("""(?<=\b[A-Z][a-z]{2,}\s)(XX|XIX|XVIII|XVII|XVI|XV|XIV|XIII|XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I)(?![A-Za-z]|-[A-Za-z]|\.\s?[A-Z]|\.\d)""")
+            .replace(t) { "the " + ORDINAL[ROMAN[it.value]!! - 1] }
         // FY26 -> financial year 2025-26; Q1 -> quarter 1
         t = Regex("""\bFY\s?(\d{2})\b""").replace(t) { val y = it.groupValues[1].toInt(); "financial year 20${"%02d".format(y - 1)}-$y" }
-        t = t.replace(Regex("""\bFY\b"""), "financial year").replace(Regex("""\bQ([1-4])\b"""), "quarter $1")
+        t = t.replace(Regex("""\bFY\s?(\d{4})\b"""), "financial year $1").replace(Regex("""\bFY\b"""), "financial year").replace(Regex("""\bQ([1-4])\b"""), "quarter $1")
         return t
     }
 
     /** Units after numbers and rupee amounts. */
+    /** 130794 -> "1 lakh 30 thousand 794" (the Indian way of saying big numbers). */
+    private fun indian(n: Long): String = buildList {
+        var r = n
+        if (r >= 10_000_000) { add("${r / 10_000_000} crore"); r %= 10_000_000 }
+        if (r >= 100_000) { add("${r / 100_000} lakh"); r %= 100_000 }
+        if (r >= 1_000) { add("${r / 1_000} thousand"); r %= 1_000 }
+        if (r > 0 || isEmpty()) add("$r")
+    }.joinToString(" ")
+
+    /** "1,30,794.90" -> "1 lakh 30 thousand 794.90"; "5,000" -> "5000" (read as one number, not in pieces). */
+    private fun bigNumbers(text: String): String =
+        Regex("""(?<![\d.,])(\d{1,3}(?:,\d{2,3})+)(\.\d+)?(?!\d|,\d)""").replace(text) { m ->
+            val n = m.groupValues[1].replace(",", "").toLongOrNull() ?: return@replace m.value
+            if (n >= 100_000) indian(n) + m.groupValues[2] else n.toString() + m.groupValues[2]
+        }
+
     private fun units(text: String): String {
         var t = text
+        // "(₹ cr)" table headings, "₹/quintal", "Rs per $", "1.97 lakh cr"
+        t = t.replace(Regex("""\(₹\s?(?:in\s)?(cr|crore|Cr)\.?\)"""), "(in crore rupees)").replace(Regex("""\(₹\s?(?:in\s)?lakh\)"""), "(in lakh rupees)")
+            .replace("(₹)", "(in rupees)").replace(Regex("""₹\s?/\s?"""), "rupees per ").replace(Regex("""\bRs per\b"""), "rupees per")
+            .replace(Regex("""\bper \$(?!\s?\d)"""), "per dollar").replace(Regex("""\blakh [Cc]r\b\.?"""), "lakh crore")
         t = Regex("""(?:₹|\bRs\.?)\s?([\d,.]+)\s?(lakh crore|crore|lakh|Cr\.?|cr\.?|bn|billion|mn|million|trillion)?""").replace(t) { m ->
-            val amount = m.groupValues[1].trimEnd('.', ',')
+            val amount = bigNumbers(m.groupValues[1].trimEnd('.', ','))
             val unit = when (m.groupValues[2].lowercase().trimEnd('.')) {
                 "cr" -> " crore"; "bn" -> " billion"; "mn" -> " million"; "" -> ""; else -> " " + m.groupValues[2]
             }
             "$amount$unit rupees"
         }
+        t = bigNumbers(t)
         // "2.35 lakh MT" is metric tonnes (not million); "5.6 M boys", "54 M" are millions
         t = Regex("""\b(lakh|crore|thousand)\s?MT\b""").replace(t) { "${it.groupValues[1]} metric tonnes" }
-        t = Regex("""(?<=\d)\s?M(?![A-Za-z0-9&])""").replace(t, " million")
-        t = Regex("""(?<=\d)\s?(B|Bn)(?![A-Za-z0-9&])""").replace(t, " billion")
+        // "54 M", "$2.5B" are millions/billions; "338B", "243M" are Articles and "1927 M. A. Ansari" an initial
+        val money = """(?:[$€£]|US\$|USD ?)"""
+        t = Regex("""(?<=$money)(\d+(?:\.\d+)?)\s?M(?![A-Za-z0-9&])""").replace(t, "$1 million")
+        t = Regex("""(?<=$money)(\d+(?:\.\d+)?)\s?(B|Bn)(?![A-Za-z0-9&])""").replace(t, "$1 billion")
+        t = Regex("""(?<![A-Za-z0-9.,$€£])(\d+(?:\.\d+)?) M(?![A-Za-z0-9&]|\.\s?[A-Z])""").replace(t, "$1 million")
+        t = Regex("""(?<![A-Za-z0-9.,$€£])(\d+(?:\.\d+)?) (B|Bn)(?![A-Za-z0-9&]|\.\s?[A-Z])""").replace(t, "$1 billion")
         val after = """(?<=\d)\s?"""
         val u = listOf(
             "sq\\.? ?km" to "square kilometres", "km²" to "square kilometres", "km2" to "square kilometres", "km" to "kilometres",
@@ -255,6 +326,14 @@ object SpeechText {
             "MT" to "million tonnes", "GW" to "gigawatts", "MW" to "megawatts", "kW" to "kilowatts", "kWh" to "kilowatt hours",
             "ha" to "hectares", "kg" to "kilograms", "mm" to "millimetres", "cm" to "centimetres", "ft" to "feet",
             "cr" to "crore", "Cr" to "crore", "bn" to "billion", "mn" to "million",
+            "µg/m³" to "micrograms per cubic metre", "µg" to "micrograms", "mg/L" to "milligrams per litre", "mg" to "milligrams",
+            "ppm" to "parts per million", "ppb" to "parts per billion", "kcal" to "kilocalories", "Mha" to "million hectares",
+            "dB" to "decibels", "nm" to "nanometres", "ml" to "millilitres", "Mt" to "million tonnes", "Gt" to "gigatonnes",
+            "tn" to "tonnes", "t" to "tonnes", "sq m" to "square metres", "m²" to "square metres", "m³" to "cubic metres",
+            "m" to "metres", "g" to "grams", "L" to "litres", "l" to "litres", "W" to "watts", "kV" to "kilovolts", "kVA" to "kilovolt-amperes",
+            "Gbps" to "gigabits per second", "Mbps" to "megabits per second", "kmph" to "kilometres per hour", "km/h" to "kilometres per hour",
+            "mph" to "miles per hour", "kHz" to "kilohertz", "hPa" to "hectopascals", "degC" to "degrees Celsius", "deg" to "degrees",
+            "x" to "times",
         )
         for ((short, full) in u) t = t.replace(Regex("""$after$short\.?(?![A-Za-z0-9])"""), " $full")
         return t
@@ -372,15 +451,67 @@ object SpeechText {
     private fun acronyms(text: String, book: Int, page: String): String {
         val t = text
         return SHORT_FORM.replace(t) { m ->
-            val (word, plural) = shortForm(m.value) ?: return@replace m.value
             val before = t.substring(0, m.range.first)
             val after = t.substring(m.range.last + 1)
-            meaning(word, plural, before, after, book, page) ?: m.value
+            find(m.value, before, after, book, page, display = false)?.spoken ?: m.value
         }
     }
 
-    /** A word that may be a short form: SHG, SHGs, G20, J&K, MoSJE, MeitY, NaBFID ... (see [shortForm]). */
-    val SHORT_FORM = Regex("""(?<![A-Za-z0-9&-])([A-Z][A-Za-z0-9&]{1,11})(?![A-Za-z0-9&]|-[A-Za-z])""")
+    /** A word, with its hyphenated parts: SHG, SHGs, G20, J&K, MoSJE, NP-NSPE, NFHS-5, ex-CJI ... (see [find]). */
+    val SHORT_FORM = Regex("""(?<![A-Za-z0-9&-])([A-Za-z0-9&]+(?:-[A-Za-z0-9&]+)*)(?![A-Za-z0-9&-])""")
+    private val PLAIN_PART = Regex("""[a-z]+|[A-Z][a-z]+|\d+[A-Za-z]?|[A-Z]\d*[A-Za-z]?""")
+
+    /** Everyday short forms not explained on the page (still said in full by read-aloud). */
+    val KNOWN = setOf("AP", "UK", "US", "USA", "OK", "TV", "AM", "PM", "AD", "BC", "BCE", "CE", "II", "BT")
+
+    /** A short form found in the text: [key] (once per page), its full form to show and to say. */
+    data class Found(val key: String, val shown: String, val spoken: String)
+
+    /**
+     * The short form in [token] and what it stands for here. Hyphenated names: the checked list first (NP-NSPE,
+     * PM-KISAN, DAY-NRLM), else built from the parts when each part is a known short form, a number, a Roman
+     * numeral or a plain word (NFHS-5 -> National Family Health Survey 5, PMGSY-IV, ex-CJI, NDMA-SDMA-DDMA).
+     * [display]: for the full forms shown on the page (skips Roman numerals and the [KNOWN] ones).
+     */
+    fun find(token: String, before: String, after: String, book: Int, page: String, display: Boolean): Found? {
+        if (token.none(Char::isUpperCase)) return null
+        if ('-' !in token) {
+            val (word, plural) = shortForm(token) ?: return null
+            if (display && (word in KNOWN || word in ROMAN || isSourceCode(word))) return null
+            val m = meaning(word, plural, before, after, book, page) ?: return null
+            return Found(word, m, m)
+        }
+        val whole = when {
+            checked.containsKey(token) -> token to ""
+            token.endsWith("s") && checked.containsKey(token.dropLast(1)) -> token.dropLast(1) to "s"
+            else -> null
+        }
+        if (whole != null) {
+            val m = meaning(whole.first, whole.second, before, after, book, page) ?: return null
+            return Found(token, m, m)
+        }
+        val shown = ArrayList<String>()
+        val spoken = ArrayList<String>()
+        var explained = 0
+        for (p in token.split('-')) {
+            val roman = ROMAN[p]
+            val sf = if (roman == null && p.length >= 2 && p.count(Char::isUpperCase) >= 2) shortForm(p) else null
+            when {
+                roman != null -> { shown += p; spoken += roman.toString() }
+                sf != null -> {
+                    if (isSourceCode(sf.first)) return null
+                    val m = meaning(sf.first, sf.second, before, after, book, page)
+                    if (m != null && !(display && sf.first in KNOWN)) explained++
+                    shown += m ?: p
+                    spoken += m ?: p
+                }
+                PLAIN_PART.matches(p) -> { shown += p; spoken += p }
+                else -> return null
+            }
+        }
+        if (explained == 0) return null
+        return Found(token, shown.joinToString("-"), spoken.joinToString(" "))
+    }
     private val CAPS = Regex("""[A-Z][A-Z0-9&]*[A-Z0-9]""")
 
     /**
@@ -541,7 +672,7 @@ object SpeechText {
                 (book == 3 && !Regex("""governance|AP\b|Andhra|dashboard""").containsMatchIn(before.takeLast(120) + after.take(120))))
                 "real-time gross settlement" else "Real Time Governance Society"
             "RE" -> when {
-                Regex("""^\s*(XIV|XIII|XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I)\b""").containsMatchIn(after) -> {
+                Regex("""^\s*(XIV|XIII|XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I|1[0-4]|[1-9])\b(?!\s*(%|crore|lakh|GW|MW|per))""").containsMatchIn(after) -> {
                     "Rock Edict"
                 }
                 Regex("""\d{4}-\d{2}\)?\s*$""").containsMatchIn(before) || Regex("""^\s*\d{4}-\d{2}""").containsMatchIn(after) -> "Revised Estimates"

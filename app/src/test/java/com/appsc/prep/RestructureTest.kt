@@ -131,8 +131,51 @@ class RestructureTest {
         says("The MPC (Art. 243ZE) prepares the draft plan.", 2, "Metropolitan Planning Committee")
         says("The MPC kept the repo rate at 5.5%.", 3, "Monetary Policy Committee")
         // names and labels stay as written
+        // Roman numerals after Class / Part / Edict, ranges too
+        says("children in Bal Vatika (pre-Class I) and Classes I-VIII in government schools", 2, "Classes 1 to 8")
+        says("children in Bal Vatika (pre-Class I) and Classes I-VIII", 2, "pre-Class 1")
+        says("Kalinga edicts replace RE XI-XIII there.", 1, "13")
+        // hyphenated names: listed ones and ones built from their parts
+        says("Introduced on 15 Aug 1995 as NP-NSPE.", 2, "National Programme of Nutritional Support to Primary Education")
+        says("NFHS-5 urban TFR 1.6", 2, "National Family Health Survey 5")
+        says("roads under PMGSY-IV in border villages", 2, "Pradhan Mantri Gram Sadak Yojana 4")
+        says("the Union Cabinet extended PM-KISAN to 2030-31", 3, "Pradhan Mantri Kisan Samman Nidhi")
+        says("ex-CJI B.R. Gavai told the JPC", 2, "ex Chief Justice of India")
+        // found across all six books: kings, symbols, units, small comma numbers
+        says("Fa-Hien visited during Chandragupta II (Gupta).", 1, "Chandragupta the Second")
+        says("Pulumavi III (Satavahana); V. S. Sukthankar held that", 1, "V. S. Sukthankar")
+        says("I-Tsing (Yijing); Chinese", 1, "I-Tsing")
+        says("Books: *Gulamgiri* (Slavery, 1873)", 1, "Books: Gulamgiri (Slavery")
+        says("Ganga 2,525 km > Godavari 1,465 km", 4, "greater than Godavari 1465 kilometres")
+        says("Bihar 1,106, then West Bengal 1,028, Kerala 860", 2, "Bihar 1106, then West Bengal 1028")
+        says("submersible carrying 3 crew to 6000 m in the ocean", 5, "6000 metres")
+        says("primary 450 kcal + 12 g protein", 2, "450 kilocalories")
+        says("PM2.5 annual 5 µg/m³", 5, "particulate matter 2.5 annual 5 micrograms per cubic metre")
+        says("APPSC-G1 2017 key: seals", 1, "Group 1 2017")
+        says("World War I ended in 1918", 1, "World War One")
+        says("Type II diabetes", 5, "Type 2 diabetes")
+        says("old credit set off up to 1/4 of liability", 3, "1 by 4")
+        says("Swarna Andhra @2047 targets", 3, "Swarna Andhra at 2047")
+        // Indian-style big numbers
+        says("2025-26; outlay ₹1,30,794.90 crore (CDI).", 2, "1 lakh 30 thousand 794.90 crore rupees")
+        says("Off-budget borrowings ₹1,18,394 crore (Mar 2022).", 3, "1 lakh 18 thousand 394 crore rupees")
+        says("2,61,393 MSMEs set up in 2024-25", 3, "2 lakh 61 thousand 393")
+        says("Total OFC 78,502 km", 3, "78502 kilometres")
         // numbers with M / lakh MT
         says("About 8 M were rural and 2 M urban (5.6 M boys).", 2, "2 million urban")
+        // Article numbers and initials are not millions/billions
+        fun saysNot(text: String, book: Int, bad: String) = spoken(text, book, "").let { assertTrue("$text -> $it", !it.contains(bad)) }
+        saysNot("NCBC got constitutional status under Art. 338B (102nd Amdt).", 2, "billion")
+        says("NCBC got constitutional status under Art. 338B (102nd Amdt).", 2, "102nd Amendment")
+        saysNot("Part IXB covers co-operative societies; Art. 243M exempts some areas.", 2, "billion")
+        saysNot("1927 M. A. Ansari presided.", 1, "million")
+        says("The fund holds $2.5B in assets.", 3, "2.5 billion")
+        says("Kesavananda Bharati v. State of Kerala (1973) set the basic structure.", 2, "Bharati versus State")
+        says("Art. VI of the Outer Space Treaty fixes national responsibility.", 5, "Article 6")
+        says("Table: Head (₹ cr), 2022-23 Actuals", 3, "in crore rupees")
+        says("Outlay ₹1.97 lakh cr for 14 sectors.", 3, "1.97 lakh crore rupees")
+        says("Blocked ITC refunds hit exporters under GST.", 3, "input tax credit")
+        says("Hub Anganwadi Centres with ITC and Pratham.", 2, "ITC Limited")
         says("2.35 lakh MT rice per month.", 3, "2.35 lakh metric tonnes rice")
         says("Horticulture 367.72 MT overtook foodgrains.", 3, "367.72 million tonnes")
         // mixed case; spelled out elsewhere on the page is no reason to skip it here
