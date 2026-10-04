@@ -143,6 +143,15 @@ class Repository(private val open: (String) -> InputStream) {
         }.getOrDefault(IdMoves("", emptyMap(), emptySet()))
     }
 
+    /** Short forms checked against the notes (tools/build_acronyms.py), for full forms and read-aloud. */
+    val checkedAcronyms: Map<String, List<Pair<String, List<String>>>> by lazy {
+        runCatching {
+            readJson("acronyms.json").jsonObject.mapValues { (_, v) ->
+                v.jsonArray.map { s -> s.jsonArray[0].jsonPrimitive.content to s.jsonArray[1].jsonArray.map { it.jsonPrimitive.content } }
+            }
+        }.getOrDefault(emptyMap()).also { SpeechText.checked = it }
+    }
+
     private val books = HashMap<Int, Book>()
     private val mutex = Mutex()
 
@@ -201,6 +210,7 @@ class Repository(private val open: (String) -> InputStream) {
     private fun parseBook(root: JsonElement): Book {
         val id = root.intOr("id")
         abbreviations // short forms the notes define, for the full forms added to the text
+        checkedAcronyms
         val units = mutableListOf<NoteUnit>()
         val rows = mutableListOf<NoteRow>()
         root.jsonObject["units"]!!.jsonArray.forEachIndexed { ui, u ->

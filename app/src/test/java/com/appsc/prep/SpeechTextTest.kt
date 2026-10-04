@@ -20,6 +20,7 @@ class SpeechTextTest {
 
     @Before fun loadNotesAbbreviations() {
         repo.abbreviations
+        repo.checkedAcronyms
     }
 
     private fun say(text: String, book: Int = 2) = SpeechText.speakable(text, book)

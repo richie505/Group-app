@@ -3,11 +3,11 @@ package com.appsc.prep.data
 /**
  * Adds the full form after the first short form of each kind on a page: "NCPCR" -> "NCPCR (National Commission
  * for Protection of Child Rights)". The added text is a [Run] with flag 8: shown in grey, skipped by read-aloud
- * (which already says the short form in full). Meanings come from [SpeechText.fullForm], so a page about
+ * (which already says the short form in full). Meanings come from [SpeechText.meaning] (the same as read-aloud), so a page about
  * reservation gets "SC (Scheduled Caste)" and a page about judges "SC (Supreme Court)".
  *
- * A meaning the notes define on some other page is shown only when this page (or its section title, [context])
- * uses one of its telling words: "CCI (Child Care Institution)" on a child-rights page, not on a competition one.
+ * The whole page (and its section title, [context]) picks among meanings: "CWC (Child Welfare Committee)" on a
+ * Juvenile Justice page, "CWC (Central Water Commission)" on a dams page.
  *
  * Not explained: source codes (CDI, TH, APPSC ...), Roman numerals, everyday ones in [KNOWN], a short form the
  * page already spells out or defines right there ("Fiscal Deficit (FD)", "FD (fiscal deficit)").
@@ -16,18 +16,6 @@ object Acronyms {
     private val TOKEN = Regex("""(?<![A-Za-z0-9&-])([A-Z][A-Z0-9&]{0,9}[A-Z0-9])(s?)(?![A-Za-z0-9&]|-[A-Za-z])""")
     private val ROMAN = Regex("""^[IVXLC]+$""")
     private val KNOWN = setOf("AP", "UK", "US", "USA", "OK", "TV", "AM", "PM", "AD", "BC", "BCE", "CE", "II", "BT")
-
-    private val COMMON = setOf(
-        "central", "national", "india", "indian", "state", "states", "commission", "committee", "council", "board",
-        "authority", "department", "ministry", "institute", "institution", "organisation", "organization", "scheme",
-        "mission", "programme", "program", "system", "fund", "society", "agency", "development", "corporation",
-        "limited", "union", "office", "officer", "general", "international", "world", "global", "andhra", "pradesh",
-        "with", "from", "into", "under", "that", "this", "their", "other",
-    )
-
-    private fun fits(full: String, page: String): Boolean =
-        Regex("""[a-z]{4,}""").findAll(full.lowercase()).map { it.value }.filter { it !in COMMON }
-            .any { Regex("""\b${it.take(6)}""").containsMatchIn(page) }
 
     fun annotate(blocks: List<Block>, book: Int, context: String = ""): List<Block> {
         val page = blocks.joinToString(" ") { b ->
@@ -62,9 +50,8 @@ object Acronyms {
                         seen += word
                         continue
                     }
-                    val (full, sure) = SpeechText.meaning(word, plural, before, after, book) ?: continue
+                    val full = SpeechText.meaning(word, plural, before, after, book, page) ?: continue
                     seen += word
-                    if (!sure && !fits(full, page)) continue
                     if (full.equals(word + plural, ignoreCase = true) || full.lowercase() in page) continue
                     out += Run(r.text.substring(from, m.range.last + 1), r.flags)
                     out += Run(" ($full)", 8)

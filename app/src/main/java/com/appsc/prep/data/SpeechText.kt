@@ -24,11 +24,22 @@ object SpeechText {
         .trim()
 
     /** Full form of a short form (built-in list, then the notes' own definitions), for the dictionary. */
-    fun expand(abbr: String): String? =
-        FULL[abbr] ?: fromNotes[abbr]?.first() ?: abbr.removeSuffix("s").takeIf { it != abbr }?.let { FULL[it] ?: fromNotes[it]?.first() }
+    fun expand(abbr: String): String? {
+        fun one(a: String) = checked[a]?.let { l -> (l.firstOrNull { it.second.isEmpty() } ?: l.first()).first.takeIf { it != "-" } }
+            ?: FULL[a] ?: fromNotes[a]?.first()
+        return one(abbr) ?: abbr.removeSuffix("s").takeIf { it != abbr }?.let { one(it) }
+    }
 
     /** (block index, text) for a subsection: the title first (-1), then each paragraph; tables row by row. */
-    fun parts(title: String, blocks: List<Block>, book: Int): List<Pair<Int, String>> = buildList {
+    fun parts(title: String, blocks: List<Block>, book: Int, context: String = ""): List<Pair<Int, String>> = buildList {
+        // the whole page decides what its short forms mean (CWC next to "juvenile" or next to "dam")
+        val page = title + " " + context + " " + blocks.joinToString(" ") { b ->
+            when (b) {
+                is TextBlock -> b.runs.joinToString("") { it.text }
+                is TableBlock -> (listOf(b.head) + b.rows).joinToString(" ") { r -> r.joinToString(" ") { c -> c.joinToString("") { it.text } } }
+            }
+        }
+        fun speakable(text: String, book: Int) = speakable(text, book, page)
         add(-1 to speakable(title, book))
         blocks.forEachIndexed { i, b ->
             when (b) {
@@ -59,7 +70,7 @@ object SpeechText {
     }
 
     /** One piece of notes text as it should be spoken. [book] picks the meaning of a few short forms. */
-    fun speakable(text: String, book: Int = 0): String {
+    fun speakable(text: String, book: Int = 0, page: String = ""): String {
         var t = text.replace('\n', ' ')
         t = removeCitations(t)
         t = pairs(t)
@@ -67,7 +78,7 @@ object SpeechText {
         t = symbols(t)
         t = numbered(t)
         t = units(t)
-        t = acronyms(t, book)
+        t = acronyms(t, book, page)
         return t.replace(Regex("""\(\s*\)"""), " ")
             .replace(Regex("""\s+"""), " ")
             .replace(Regex("""\s+([,.;:)])"""), "$1")
@@ -354,43 +365,85 @@ object SpeechText {
         "DG" to "Director General", "LNG" to "liquefied natural gas", "CNG" to "compressed natural gas",
     )
 
-    private fun acronyms(text: String, book: Int): String {
-        var t = text
+    private fun acronyms(text: String, book: Int, page: String): String {
+        val t = text
         val tokens = Regex("""(?<![A-Za-z0-9&-])([A-Z][A-Z0-9&]{0,9}[A-Z0-9])(s?)(?![A-Za-z0-9&]|-[A-Za-z])""")
         return tokens.replace(t) { m ->
-            val word = m.groupValues[1]
-            val plural = m.groupValues[2]
             val before = t.substring(0, m.range.first)
             val after = t.substring(m.range.last + 1)
-            fullForm(word, plural, before, after, book) ?: m.value
+            meaning(m.groupValues[1], m.groupValues[2], before, after, book, page) ?: m.value
         }
     }
 
     /**
-     * What a short form stands for at this place in the notes ([plural]: "s" for SHGs): the words around and
-     * the subject decide a few (SC, MP, RE ...), then the list above, then the notes' own definitions.
+     * Short forms checked against how the notes use them (tools/data/acronyms.tsv -> assets/acronyms.json):
+     * short form -> meanings, each with the words that pick it. Set by [Repository].
      */
-    fun fullForm(word: String, plural: String, before: String, after: String, book: Int): String? {
-        val notes = fromNotes
-        return contextual(word + plural, word, before, after, book)
-            ?: FULL[word + plural]
-            ?: FULL[word]?.let { if (plural.isNotEmpty()) pluralOf(it) else it }
-            ?: notes[word + plural]?.first()
-            ?: notes[word]?.first()?.let { if (plural.isNotEmpty()) pluralOf(it) else it }
-    }
+    @Volatile var checked: Map<String, List<Pair<String, List<String>>>> = emptyMap()
 
     /**
-     * For showing next to the short form: the meaning and whether it is sure (the words around decide it, or it
-     * is in the built-in list). A meaning only found defined elsewhere in the notes is not sure: the same letters
-     * can mean something else on this page (CWC: Central Water Commission, or Child Welfare Committee).
+     * What a short form stands for at this place in the notes ([plural]: "s" for SHGs; [page]: the rest of the
+     * page and its titles). Used for both the full form shown on the page and read-aloud.
+     * 1. the words around decide a few (SC, MP, RE, CAA ...);
+     * 2. the checked list: the meaning whose words appear on the page (CWC: Child Welfare Committee next to
+     *    "juvenile", Central Water Commission next to "dam"), else its default; "-" = say it as it is;
+     * 3. the built-in list above;
+     * 4. a meaning the notes define on another page, only if this page uses its telling words.
      */
-    fun meaning(word: String, plural: String, before: String, after: String, book: Int): Pair<String, Boolean>? {
-        contextual(word + plural, word, before, after, book)?.let { return it to true }
-        (FULL[word + plural] ?: FULL[word]?.let { if (plural.isNotEmpty()) pluralOf(it) else it })?.let { return it to true }
+    fun meaning(word: String, plural: String, before: String, after: String, book: Int, page: String = ""): String? {
+        fun pl(s: String) = if (plural.isNotEmpty()) pluralOf(s) else s
+        contextual(word + plural, word, before, after, book)?.let { return it }
+        val senses = checked[word + plural]?.let { it to false } ?: checked[word]?.let { it to true }
+        if (senses != null) {
+            val (list, plural2) = senses
+            val near = "$page $before $after"
+            // the subject (book) counts double: "CWC" in History is the Congress Working Committee
+            fun score(words: List<String>): Int {
+                var n = 0
+                for (k in words) if (keywordIn(k, near, book)) n += if (k.startsWith("@")) 2 else 1
+                return n
+            }
+            var best: Pair<String, List<String>>? = null
+            var bestScore = 0
+            for (sense in list) {
+                if (sense.second.isEmpty()) continue
+                val sc = score(sense.second)
+                if (sc > bestScore) { best = sense; bestScore = sc }
+            }
+            val chosen = best
+                ?: list.firstOrNull { it.second.isEmpty() }
+                ?: return null
+            if (chosen.first == "-") return null
+            return if (plural2) pl(chosen.first) else chosen.first
+        }
+        (FULL[word + plural] ?: FULL[word]?.let(::pl))?.let { return it }
         val notes = fromNotes
-        return (notes[word + plural]?.first() ?: notes[word]?.first()?.let { if (plural.isNotEmpty()) pluralOf(it) else it })
-            ?.let { it to false }
+        val fromPage = notes[word + plural]?.first() ?: notes[word]?.first()?.let(::pl) ?: return null
+        return fromPage.takeIf { fits(it, "$page $before $after".lowercase()) }
     }
+
+    /** "@2" = in book 2; "UP " / "JJB" (capitals) as written; "juvenil" at the start of a word, any case. */
+    private fun keywordIn(k: String, text: String, book: Int): Boolean {
+        if (k.startsWith("@")) return k.drop(1).toIntOrNull() == book
+        return if (k.any(Char::isUpperCase)) {
+            Regex("""(?<![A-Za-z0-9])${Regex.escape(k.trim())}""").containsMatchIn(text)
+        } else {
+            Regex("""(?<![a-z0-9])${Regex.escape(k)}""", RegexOption.IGNORE_CASE).containsMatchIn(text)
+        }
+    }
+
+    private val COMMON = setOf(
+        "central", "national", "india", "indian", "state", "states", "commission", "committee", "council", "board",
+        "authority", "department", "ministry", "institute", "institution", "organisation", "organization", "scheme",
+        "mission", "programme", "program", "system", "fund", "society", "agency", "development", "corporation",
+        "limited", "union", "office", "officer", "general", "international", "world", "global", "andhra", "pradesh",
+        "with", "from", "into", "under", "that", "this", "their", "other",
+    )
+
+    /** A meaning defined on another page fits this one when the page uses one of its telling words. */
+    private fun fits(full: String, page: String): Boolean =
+        Regex("""[a-z]{4,}""").findAll(full.lowercase()).map { it.value }.filter { it !in COMMON }
+            .any { Regex("""\b${it.take(6)}""").containsMatchIn(page) }
 
     /** A source code of the citations (CDI, TH, APPSC ...), not a short form to explain. */
     fun isSourceCode(word: String) = word in CODES || word in NOTE_CODES
@@ -434,15 +487,20 @@ object SpeechText {
             "SC" -> when {
                 plural || Regex("""^\s*(/|and|,|-)\s*(ST|BC|OBC)""").containsMatchIn(after) ||
                     Regex("""(ST|BC|OBC)\s*(/|and|,)\s*$""").containsMatchIn(before) -> p("Scheduled Caste")
+                // the words right next to it: "SC students" / "the SC held", "challenged in the SC" / "5 lakh SC"
+                Regex("""^\s*(\+|commission|finance|development|sub|students|families|women|households|hostel|colon|population|communit|beneficiar|candidates|seats|reservation|quota|sub-plan|component|corporation|welfare|category|categories|persons|people|youth|girls|boys|farmers|entrepreneurs|employees|MLAs|MPs|share|percentage|%|habitation|villages|dalit|groups|sub-caste|sub-classif)""", RegexOption.IGNORE_CASE).containsMatchIn(after) -> "Scheduled Caste"
+                Regex("""^\s*(\(|'s|’s|bench|held|ruled|upheld|struck|ordered|directed|said|observed|judg|verdict|order|collegium|judge|stayed|quashed|allowed|dismissed|asked|issued|refused|declined|set aside|noted|clarified|cited|constitution bench|on \d|has |had |will |would |can |may |agreed|sought|flagged|reserved|transferred|appointed|recommend)""", RegexOption.IGNORE_CASE).containsMatchIn(after) ||
+                    Regex("""(\bin|before|\bby|moved|approached|challenged in|apex|told|petition in|plea in|appeal to|appealed to|of the|verdict of|judgment of|ruling of|decision of|bench of|judges of|judge of|from the|go to|went to)\s*(the\s*)?$""", RegexOption.IGNORE_CASE).containsMatchIn(before) -> "Supreme Court"
+                Regex("""(\d|lakh|crore|for|among|backward|poor|landless|tribal|and the|women of)\s*$""", RegexOption.IGNORE_CASE).containsMatchIn(before) -> "Scheduled Caste"
                 else -> {
-                    // the words around decide: judges and verdicts, or reservation and communities
+                    // then the words around: judges and verdicts, or reservation and communities
                     val near = (before.takeLast(90) + " " + after.take(90)).lowercase()
                     val court = COURT_WORDS.count { it in near }
                     val caste = CASTE_WORDS.count { it in near }
                     when {
                         court > caste -> "Supreme Court"
                         caste > court -> "Scheduled Caste"
-                        book == 2 -> "Supreme Court"
+                        book == 2 || book == 5 -> "Supreme Court"
                         else -> "Scheduled Caste"
                     }
                 }
@@ -454,8 +512,6 @@ object SpeechText {
             "CPI" -> if (book == 1 || (book == 2 && !Regex("""^\s*(inflation|\(|-|basket|combined|rural|urban)""", RegexOption.IGNORE_CASE).containsMatchIn(after)))
                 "Communist Party of India" else "Consumer Price Index"
             "CDM" -> if (book == 1) "Civil Disobedience Movement" else "Clean Development Mechanism"
-            "PSP" -> if (book <= 2) "Praja Socialist Party" else p("pumped storage project")
-            // "101st CAA": an amendment; otherwise the Citizenship (Amendment) Act
             "CAA" -> if (Regex("""\d(st|nd|rd|th)\s*$""").containsMatchIn(before)) p("Constitutional Amendment Act") else "Citizenship Amendment Act"
             "ASI" -> if (Regex("""ancestr|genetic|genom|ANI\b|DNA""", RegexOption.IGNORE_CASE).containsMatchIn(before.takeLast(120) + after.take(120)))
                 "Ancestral South Indians" else "Archaeological Survey of India"
@@ -469,16 +525,11 @@ object SpeechText {
                 Regex("""\d{4}-\d{2}\)?\s*$""").containsMatchIn(before) || Regex("""^\s*\d{4}-\d{2}""").containsMatchIn(after) -> "Revised Estimates"
                 else -> "renewable energy"
             }
-            "PR" -> if (Regex("""^\s*(imposed|in force|was imposed|revoked)""").containsMatchIn(after) || prev == "under") "President's Rule" else "Panchayati Raj"
             "DM" -> if (Regex("""^\s*(Act|Cell|cycle|plan|policy)""", RegexOption.IGNORE_CASE).containsMatchIn(after) || prev == "on") "disaster management" else "District Magistrate"
             "NH" -> if (Regex("""^\s*(and|or)\s+(the\s+)?SH\b""").containsMatchIn(after) || Regex("""\bSH\s+(and|or)\s+(the\s+)?$""").containsMatchIn(before) || prev == "the" && Regex("""^\s*(and|,)""").containsMatchIn(after))
                 "Northern Hemisphere" else "National Highway"
-            "BR" -> if (Regex("""\bDR\b""").containsMatchIn(before.takeLast(40) + after.take(40))) "birth rate" else "Biosphere Reserve"
-            "DR" -> if (Regex("""\bBR\b""").containsMatchIn(before.takeLast(40) + after.take(40))) "death rate" else null
             "LPG" -> if (Regex("""^\s*(reform|model|era|policy|policies)""", RegexOption.IGNORE_CASE).containsMatchIn(after))
                 "liberalisation, privatisation and globalisation" else "liquefied petroleum gas"
-            "GG" -> p("Governor-General", "Governors-General")
-            "CR" -> if (Regex("""ndangered|IUCN|Red List""").containsMatchIn(before.takeLast(80) + after.take(80))) "Critically Endangered" else "Conservation Reserve"
             else -> null
         }
     }

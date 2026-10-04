@@ -72,6 +72,7 @@ class RestructureTest {
 
     @Test fun shortFormsGetTheirFullForm() {
         repo.abbreviations
+        repo.checkedAcronyms
         val blocks = Acronyms.annotate(
             listOf(
                 TextBlock('b', listOf(Run("NCPCR monitors the RTE Act; NCPCR also hears complaints.", 0))),
@@ -100,5 +101,37 @@ class RestructureTest {
         // read-aloud says each NCPCR in full already: the added full form is not read again (2, not 3)
         val spoken = SpeechText.parts("t", blocks, 2).joinToString(" ") { it.second }
         assertEquals(spoken, 2, Regex("National Commission for Protection of Child Rights").findAll(spoken).count())
+    }
+
+    /** One checked list and the whole page decide short forms, on the page and in read-aloud alike. */
+    @Test fun shortFormsByPage() {
+        repo.abbreviations
+        repo.checkedAcronyms
+        fun spoken(text: String, book: Int, context: String = "") =
+            SpeechText.parts("t", listOf(TextBlock('b', listOf(Run(text, 0)))), book, context).joinToString(" ") { it.second }
+        fun says(text: String, book: Int, expect: String, context: String = "") {
+            val out = spoken(text, book, context)
+            assertTrue("$text -> $out", out.contains(expect))
+        }
+        // CWC: three meanings in the notes
+        val jj = spoken("JJB and CWC in every district, each with at least one woman member.", 2, "Juvenile Justice Act 2015")
+        assertTrue(jj, jj.contains("Child Welfare Committee") && !jj.contains("Water"))
+        says("CWC clears dam and reservoir projects on inter-state rivers.", 4, "Central Water Commission")
+        says("The CWC authorised Gandhi to launch civil disobedience.", 1, "Congress Working Committee")
+        // others the old lists got wrong
+        says("Lytton passed the VPA; Ripon repealed it.", 1, "Vernacular Press Act")
+        says("GPS issued coins; his mother Balasri's Nasik inscription.", 1, "Gautamiputra Satakarni")
+        says("The CWC and NCM were led from Wardha.", 1, "Non-Cooperation Movement")
+        says("Members are elected by PR through the single transferable vote.", 2, "proportional representation")
+        says("Article 51A lists the FDs.", 2, "Fundamental Duties")
+        says("Fiscal targets cut the FD to 4.4% of GDP.", 3, "fiscal deficit")
+        says("2.35 lakh MT rice per month.", 3, "metric tonnes")
+        says("KWDT-II allotted 196 TMC to AP from the Krishna.", 4, "thousand million cubic feet")
+        says("Mamata Banerjee's TMC won Bengal.", 2, "Trinamool Congress")
+        says("The MPC (Art. 243ZE) prepares the draft plan.", 2, "Metropolitan Planning Committee")
+        says("The MPC kept the repo rate at 5.5%.", 3, "Monetary Policy Committee")
+        // names and labels stay as written
+        val first = Acronyms.annotate(listOf(TextBlock('b', listOf(Run("FIRST Telugu inscription", 0)))), 1)
+        assertEquals("FIRST Telugu inscription", (first[0] as TextBlock).runs.joinToString("") { it.text })
     }
 }

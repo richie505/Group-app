@@ -45,11 +45,16 @@ already says them; the page that lost them ends with **Also covered in** links. 
 (1.09M → 1.01M words; 9,563 → 8,577 subsections). MCQs moved with their topic (60 near-identical ones dropped);
 read marks and bookmarks move to the new pages on first start (`assets/moved.json`, `ProgressStore.migrate`).
 
-**Full forms of short forms** on the page: the first NCPCR, SC, CAA … on each page gets its full form in grey
-(`data/Acronyms.kt`; read-aloud skips it as it already says the short form in full). The words around decide
-SC (Supreme Court / Scheduled Caste), CAA (after "101st": Constitutional Amendment Act), RTGS, ASI …; a meaning
-the notes define on another page shows only if this page uses its words (no "CWC (Central Water Commission)" on
-a child-welfare page).
+**Full forms of short forms** (2.19): the first NCPCR, SC, CWC … on each page shows its full form in grey, and
+read-aloud says the same meaning (`data/Acronyms.kt`, `SpeechText.meaning`). The meanings come from a list checked
+by hand against how the notes use every short form that appears 3+ times - 2,238 short forms
+(`tools/data/acronyms.tsv` → `tools/build_acronyms.py` → `assets/acronyms.json`). 133 have more than one meaning
+in the notes, each with the words that pick it, and the whole page decides: CWC is the Child Welfare Committee on
+a Juvenile Justice page, the Central Water Commission next to dams, the Central Warehousing Corporation in
+agriculture and the Congress Working Committee in History; TMC is Trinamool Congress or thousand million cubic
+feet of river water; PR is Panchayati Raj, proportional representation, President's Rule or a Permanent
+Representative. Names and labels (FIRST, BRICS, COVID …) are left as written. A few (SC, MP, CAA, RE, ASI …) are
+decided by the words right next to them ("challenged in the SC" vs "SC students").
 
 **Key terms** at the end of every notes page (89% of pages; `tools/build_key_terms.py` → `assets/keyterms.json`):
 the terms on that page that have a meaning in the app; tap one for its Meaning card.

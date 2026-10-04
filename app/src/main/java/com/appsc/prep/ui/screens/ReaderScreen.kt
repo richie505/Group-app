@@ -154,12 +154,13 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
     val part = if (here) pb.part else 0
     val parts = remember(id) {
         app.repo.abbreviations // short forms the notes define
-        SpeechText.parts(sec.title, sec.blocks, bookId)
+        app.repo.checkedAcronyms
+        SpeechText.parts(sec.title, sec.blocks, bookId, row.title)
     }
 
     fun page(p: Pos): SpeechPage {
         val s = book.rows[p.row].secs[p.sec]
-        return SpeechPage(subsectionId(bookId, p.row, p.sec), s.title, SpeechText.parts(s.title, s.blocks, bookId).map { it.second })
+        return SpeechPage(subsectionId(bookId, p.row, p.sec), s.title, SpeechText.parts(s.title, s.blocks, bookId, book.rows[p.row].title).map { it.second })
     }
 
     fun play(from: Int) {
