@@ -37,6 +37,20 @@ the ones with two meanings (SC: Supreme Court or Scheduled Caste from the words 
 6. *Search on Google* - Google (India settings) inside the app (an in-app WebView; the only part that needs
    internet; back goes back a page, ✕ returns to the card).
 
+**Each topic once** (2.18): the notes repeated whole topics in different sections (e.g. POCSO Act and JJ Act
+under both "Child rights" and the JJ/POCSO section) and single facts on several pages. 986 repeated
+subsections were merged into the one in the section the topic belongs to (any facts only the other copy had
+are carried over under its heading), and 4,511 repeated sentences / table rows were cut where another page
+already says them; the page that lost them ends with **Also covered in** links. The notes are 8% shorter
+(1.09M → 1.01M words; 9,563 → 8,577 subsections). MCQs moved with their topic (60 near-identical ones dropped);
+read marks and bookmarks move to the new pages on first start (`assets/moved.json`, `ProgressStore.migrate`).
+
+**Full forms of short forms** on the page: the first NCPCR, SC, CAA … on each page gets its full form in grey
+(`data/Acronyms.kt`; read-aloud skips it as it already says the short form in full). The words around decide
+SC (Supreme Court / Scheduled Caste), CAA (after "101st": Constitutional Amendment Act), RTGS, ASI …; a meaning
+the notes define on another page shows only if this page uses its words (no "CWC (Central Water Commission)" on
+a child-welfare page).
+
 **Key terms** at the end of every notes page (89% of pages; `tools/build_key_terms.py` → `assets/keyterms.json`):
 the terms on that page that have a meaning in the app; tap one for its Meaning card.
 
@@ -64,6 +78,14 @@ The MCQ app writes its notes MCQs from the same notes files, so each question al
 section and subsection; `build_notes_mcq.py` writes them to `mcq1.json` … `mcq6.json` and the per-section
 counts to `index.json`. (`tools/build_mcq.py` and `tools/data/` are the old PYQ-bank pipeline, kept for
 the MCQ app's source data.)
+Then, to read each topic once (run `merge_topics.py` until it merges nothing more):
+
+```
+python3 tools/merge_topics.py app/src/main/assets     # repeated topics -> one subsection, writes moved.json
+python3 tools/dedup_notes.py app/src/main/assets      # repeated sentences / rows, "Also covered in" links
+python3 tools/build_key_terms.py app/src/main/assets
+```
+
 `tools/data/extra_secs.json` adds extra subsections (Science: general physics, chemistry,
 biology, human body) to the notes files.
 

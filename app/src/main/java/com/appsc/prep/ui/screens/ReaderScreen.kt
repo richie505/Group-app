@@ -57,6 +57,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.produceState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -308,6 +309,10 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     }
                     item(key = "foot-$id") {
                         Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
+                            if (sec.coveredIn.isNotEmpty()) {
+                                CoveredIn(sec.coveredIn) { b, r, s -> nav.read(b, r, s) }
+                                Spacer(Modifier.height(16.dp))
+                            }
                             // key terms of this page: tap for the meaning
                         val terms = app.repo.keyTerms[id].orEmpty()
                         if (terms.isNotEmpty()) {
@@ -572,6 +577,46 @@ private fun SourcesBox(sources: List<String>) {
                     Text(it, style = TextStyle(fontSize = 13.sp, lineHeight = 19.sp, color = C.Muted), modifier = Modifier.padding(vertical = 4.dp))
                 }
             }
+        }
+    }
+}
+
+/** Pages that hold the facts this page no longer repeats (see tools/dedup_notes.py): tap to open. */
+@Composable
+private fun CoveredIn(refs: List<List<Int>>, open: (Int, Int, Int) -> Unit) {
+    val app = LocalApp.current
+    val pages by produceState(emptyList<Pair<List<Int>, String>>(), refs) {
+        value = refs.mapNotNull { ref ->
+            runCatching {
+                val bk = app.repo.book(ref[0])
+                val row = bk.rows[ref[1]]
+                ref to "${bk.short} · ${row.secs[ref[2]].title}"
+            }.getOrNull()
+        }
+    }
+    if (pages.isEmpty()) return
+    Column(
+        Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(12.dp))
+            .background(C.SeeBg)
+            .padding(horizontal = 14.dp, vertical = 12.dp),
+    ) {
+        Text("ALSO COVERED IN", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.SeeInk, letterSpacing = 0.8.sp))
+        Text(
+            "Facts repeated here were kept on these pages only.",
+            style = TextStyle(fontSize = 13.sp, color = C.Muted),
+            modifier = Modifier.padding(top = 2.dp, bottom = 4.dp),
+        )
+        pages.forEach { (ref, label) ->
+            Text(
+                "→ $label",
+                style = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, color = C.SeeInk, fontWeight = FontWeight.Medium),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clickable { open(ref[0], ref[1], ref[2]) }
+                    .padding(vertical = 6.dp),
+            )
         }
     }
 }

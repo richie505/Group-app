@@ -132,6 +132,17 @@ class Repository(private val open: (String) -> InputStream) {
         }.getOrDefault(emptyMap()).also { SpeechText.fromNotes = it }
     }
 
+    /**
+     * Subsections merged or renumbered when repeated topics were merged (tools/merge_topics.py):
+     * old "book:row:sec" -> new id, for [ProgressStore.migrate].
+     */
+    val idMoves: IdMoves by lazy {
+        runCatching {
+            val o = readJson("moved.json").jsonObject
+            IdMoves(o.str("v"), o["m"]!!.jsonObject.mapValues { it.value.jsonPrimitive.content }, o.strList("g").toSet())
+        }.getOrDefault(IdMoves("", emptyMap(), emptySet()))
+    }
+
     private val books = HashMap<Int, Book>()
     private val mutex = Mutex()
 
@@ -189,6 +200,7 @@ class Repository(private val open: (String) -> InputStream) {
 
     private fun parseBook(root: JsonElement): Book {
         val id = root.intOr("id")
+        abbreviations // short forms the notes define, for the full forms added to the text
         val units = mutableListOf<NoteUnit>()
         val rows = mutableListOf<NoteRow>()
         root.jsonObject["units"]!!.jsonArray.forEachIndexed { ui, u ->
@@ -199,8 +211,12 @@ class Repository(private val open: (String) -> InputStream) {
                         title = s.str("t"),
                         badges = s.strList("badges"),
                         page = s.intOr("p"),
-                        blocks = s.jsonObject["b"]!!.jsonArray.map { b -> parseBlock(b.jsonObject) },
+                        blocks = Acronyms.annotate(
+                            s.jsonObject["b"]!!.jsonArray.map { b -> parseBlock(b.jsonObject) }, id,
+                            context = r.str("title") + " " + s.str("t"),
+                        ),
                         universal = s.jsonObject.containsKey("u"),
+                        coveredIn = (s.jsonObject["cov"] as? JsonArray)?.map { c -> c.jsonArray.map { it.jsonPrimitive.int } } ?: emptyList(),
                     )
                 }
                 rows += NoteRow(

@@ -44,8 +44,9 @@ fun annotated(runs: List<Run>, base: Color = C.Body, strong: Color = Color.Black
         for (r in runs) {
             val style = SpanStyle(
                 fontWeight = if (r.bold) FontWeight.SemiBold else null,
-                fontStyle = if (r.italic) FontStyle.Italic else null,
+                fontStyle = if (r.italic || r.fullForm) FontStyle.Italic else null,
                 color = when {
+                    r.fullForm -> C.Muted
                     r.muted -> C.Faint
                     r.bold -> strong
                     else -> base

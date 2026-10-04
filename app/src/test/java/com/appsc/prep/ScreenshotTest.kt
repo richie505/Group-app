@@ -109,6 +109,18 @@ class ScreenshotTest {
         rule.onRoot().captureRoboImage("screenshots/16_meaning.png")
     }
 
+    /** 2.18: POCSO / JJ Act read once (merged into this section), short forms with full forms, links to kept facts. */
+    @Test fun restructuredPage() {
+        shot("20_section_merged", preload = 2) { SectionScreen(2, 137, nav) }
+    }
+
+    @Test fun fullFormsAndCoveredIn() {
+        shot("21_full_forms", preload = 2) { ReaderScreen(2, 138, 3, nav) }
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("ALSO COVERED IN"))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/22_covered_in.png")
+    }
+
     /** Every notes page ends with its key terms; tapping one opens its meaning. */
     @Test fun keyTermsOnAPage() {
         shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 0, nav) }

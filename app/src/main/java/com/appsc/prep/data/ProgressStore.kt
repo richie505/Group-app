@@ -34,6 +34,23 @@ class ProgressStore(private val prefs: Storage) {
     var speechRate by mutableFloatStateOf(prefs.getFloat(KEY_RATE, 1f))
         private set
 
+    /**
+     * Moves read marks, bookmarks and the last position to the new subsection ids once per notes version
+     * ([Repository.idMoves]). A merged page's read mark is dropped: the page it went into keeps its own mark.
+     */
+    fun migrate(moves: IdMoves) {
+        if (moves.version.isEmpty() || prefs.getString(KEY_IDS) == moves.version) return
+        val map = moves.map
+        if (map.isNotEmpty()) {
+            done = done.filter { it !in moves.merged }.map { map[it] ?: it }.toSet()
+            prefs.putStringSet(KEY_DONE, done)
+            saved = saved.map { s -> map[s.id]?.let { s.copy(id = it) } ?: s }.distinctBy { it.id }
+            prefs.putStringSet(KEY_SAVED, saved.mapIndexed { i, s -> "$i\t${s.id}\t${s.title}\t${s.rowTitle}" }.toSet())
+            lastRead?.let { l -> map[l]?.let { rememberPosition(it) } }
+        }
+        prefs.putString(KEY_IDS, moves.version)
+    }
+
     fun changeSpeechRate(rate: Float) {
         speechRate = rate
         prefs.putFloat(KEY_RATE, rate)
@@ -132,5 +149,6 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_RATE = "speech_rate"
         const val KEY_ANSWERS = "answers"
         const val KEY_SEEN = "seen"
+        const val KEY_IDS = "ids_version"
     }
 }

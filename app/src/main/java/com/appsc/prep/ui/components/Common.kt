@@ -102,7 +102,11 @@ interface Speech {
     fun stop()
 }
 
-class AppState(val repo: Repository, val store: ProgressStore, val platform: Platform)
+class AppState(val repo: Repository, val store: ProgressStore, val platform: Platform) {
+    init {
+        store.migrate(repo.idMoves)
+    }
+}
 
 val LocalApp = staticCompositionLocalOf<AppState> { error("AppState not provided") }
 
