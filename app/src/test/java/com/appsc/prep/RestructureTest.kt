@@ -131,6 +131,21 @@ class RestructureTest {
         says("The MPC (Art. 243ZE) prepares the draft plan.", 2, "Metropolitan Planning Committee")
         says("The MPC kept the repo rate at 5.5%.", 3, "Monetary Policy Committee")
         // names and labels stay as written
+        // mixed case; spelled out elsewhere on the page is no reason to skip it here
+        val mole = Acronyms.annotate(
+            listOf(
+                TextBlock('b', listOf(Run("Ministry of Labour and Employment, launched 2017.", 0))),
+                TextBlock('b', listOf(Run("NCLP: run by MoLE since 1988; MoSJE and MeitY too; DCPUs in districts.", 0))),
+            ),
+            2, "PENCIL portal and National Child Labour Project",
+        )
+        val second2 = (mole[1] as TextBlock).runs.joinToString("") { it.text }
+        assertTrue(second2, second2.contains("NCLP (National Child Labour Project)"))
+        assertTrue(second2, second2.contains("MoLE (Ministry of Labour and Employment)"))
+        assertTrue(second2, second2.contains("MoSJE (Ministry of Social Justice and Empowerment)"))
+        assertTrue(second2, second2.contains("MeitY (Ministry of Electronics and Information Technology)"))
+        assertTrue(second2, second2.contains("DCPUs (District Child Protection Units)"))
+        says("Run by MoLE; NGOs and McDonald stayed.", 2, "Ministry of Labour and Employment")
         val first = Acronyms.annotate(listOf(TextBlock('b', listOf(Run("FIRST Telugu inscription", 0)))), 1)
         assertEquals("FIRST Telugu inscription", (first[0] as TextBlock).runs.joinToString("") { it.text })
     }

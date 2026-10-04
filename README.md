@@ -47,13 +47,14 @@ read marks and bookmarks move to the new pages on first start (`assets/moved.jso
 
 **Full forms of short forms** (2.19): the first NCPCR, SC, CWC … on each page shows its full form in grey, and
 read-aloud says the same meaning (`data/Acronyms.kt`, `SpeechText.meaning`). The meanings come from a list checked
-by hand against how the notes use every short form that appears 3+ times - 2,238 short forms
+by hand against how the notes use them - 4,045 short forms (2.20: also the rare ones not spelled out next to them, and
+mixed-case ones such as MoLE, MoSJE, MeitY, UoI, NaBFID)
 (`tools/data/acronyms.tsv` → `tools/build_acronyms.py` → `assets/acronyms.json`). 133 have more than one meaning
 in the notes, each with the words that pick it, and the whole page decides: CWC is the Child Welfare Committee on
 a Juvenile Justice page, the Central Water Commission next to dams, the Central Warehousing Corporation in
 agriculture and the Congress Working Committee in History; TMC is Trinamool Congress or thousand million cubic
 feet of river water; PR is Panchayati Raj, proportional representation, President's Rule or a Permanent
-Representative. Names and labels (FIRST, BRICS, COVID …) are left as written. A few (SC, MP, CAA, RE, ASI …) are
+Representative. A full form is skipped only when the same bullet already spells it out. Names and labels (FIRST, BRICS, COVID …) are left as written. A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
 **Key terms** at the end of every notes page (89% of pages; `tools/build_key_terms.py` → `assets/keyterms.json`):

@@ -367,12 +367,30 @@ object SpeechText {
 
     private fun acronyms(text: String, book: Int, page: String): String {
         val t = text
-        val tokens = Regex("""(?<![A-Za-z0-9&-])([A-Z][A-Z0-9&]{0,9}[A-Z0-9])(s?)(?![A-Za-z0-9&]|-[A-Za-z])""")
-        return tokens.replace(t) { m ->
+        return SHORT_FORM.replace(t) { m ->
+            val (word, plural) = shortForm(m.value) ?: return@replace m.value
             val before = t.substring(0, m.range.first)
             val after = t.substring(m.range.last + 1)
-            meaning(m.groupValues[1], m.groupValues[2], before, after, book, page) ?: m.value
+            meaning(word, plural, before, after, book, page) ?: m.value
         }
+    }
+
+    /** A word that may be a short form: SHG, SHGs, G20, J&K, MoSJE, MeitY, NaBFID ... (see [shortForm]). */
+    val SHORT_FORM = Regex("""(?<![A-Za-z0-9&-])([A-Z][A-Za-z0-9&]{1,11})(?![A-Za-z0-9&]|-[A-Za-z])""")
+    private val CAPS = Regex("""[A-Z][A-Z0-9&]*[A-Z0-9]""")
+
+    /**
+     * (short form, plural "s") for a [SHORT_FORM] match: "SHGs" -> (SHG, s). Mixed-case ones (MoLE, MoSJE, MeitY,
+     * NaBFID) count only when the checked list has them, so names such as "McDonald" are left alone.
+     */
+    fun shortForm(token: String): Pair<String, String>? {
+        if (CAPS.matches(token)) return token to ""
+        if (token.length >= 3 && token.endsWith("s") && CAPS.matches(token.dropLast(1))) return token.dropLast(1) to "s"
+        if (token.count(Char::isUpperCase) >= 2) {
+            if (checked.containsKey(token)) return token to ""
+            if (token.endsWith("s") && checked.containsKey(token.dropLast(1))) return token.dropLast(1) to "s"
+        }
+        return null
     }
 
     /**

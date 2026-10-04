@@ -9,11 +9,12 @@ package com.appsc.prep.data
  * The whole page (and its section title, [context]) picks among meanings: "CWC (Child Welfare Committee)" on a
  * Juvenile Justice page, "CWC (Central Water Commission)" on a dams page.
  *
+ * Mixed-case ones (MoLE, MoSJE, MeitY, NaBFID) too, when the checked list has them.
+ *
  * Not explained: source codes (CDI, TH, APPSC ...), Roman numerals, everyday ones in [KNOWN], a short form the
- * page already spells out or defines right there ("Fiscal Deficit (FD)", "FD (fiscal deficit)").
+ * same bullet already spells out or defines right there ("Fiscal Deficit (FD)", "FD (fiscal deficit)").
  */
 object Acronyms {
-    private val TOKEN = Regex("""(?<![A-Za-z0-9&-])([A-Z][A-Z0-9&]{0,9}[A-Z0-9])(s?)(?![A-Za-z0-9&]|-[A-Za-z])""")
     private val ROMAN = Regex("""^[IVXLC]+$""")
     private val KNOWN = setOf("AP", "UK", "US", "USA", "OK", "TV", "AM", "PM", "AD", "BC", "BCE", "CE", "II", "BT")
 
@@ -27,7 +28,8 @@ object Acronyms {
         val seen = HashSet<String>()
         fun runs(rs: List<Run>): List<Run> {
             val text = rs.joinToString("") { it.text }
-            if (TOKEN.find(text) == null) return rs
+            if (SpeechText.SHORT_FORM.find(text) == null) return rs
+            val here = text.lowercase()
             val out = ArrayList<Run>(rs.size + 2)
             var pos = 0
             for (r in rs) {
@@ -37,9 +39,8 @@ object Acronyms {
                     continue
                 }
                 var from = 0
-                for (m in TOKEN.findAll(r.text)) {
-                    val word = m.groupValues[1]
-                    val plural = m.groupValues[2]
+                for (m in SpeechText.SHORT_FORM.findAll(r.text)) {
+                    val (word, plural) = SpeechText.shortForm(m.value) ?: continue
                     if (word in seen || word in KNOWN || ROMAN.matches(word) || SpeechText.isSourceCode(word)) continue
                     val start = pos + m.range.first
                     val end = pos + m.range.last + 1
@@ -52,7 +53,8 @@ object Acronyms {
                     }
                     val full = SpeechText.meaning(word, plural, before, after, book, page) ?: continue
                     seen += word
-                    if (full.equals(word + plural, ignoreCase = true) || full.lowercase() in page) continue
+                    // spelled out in this same bullet / row already: no need to repeat it
+                    if (full.equals(word + plural, ignoreCase = true) || full.lowercase() in here) continue
                     out += Run(r.text.substring(from, m.range.last + 1), r.flags)
                     out += Run(" ($full)", 8)
                     from = m.range.last + 1
