@@ -78,8 +78,10 @@ import com.appsc.prep.data.Book
 import com.appsc.prep.data.Saved
 import com.appsc.prep.data.TableBlock
 import com.appsc.prep.data.TextBlock
+import com.appsc.prep.data.UserNotes
 import com.appsc.prep.data.subsectionId
 import com.appsc.prep.ui.components.BlockView
+import com.appsc.prep.ui.components.GooglePage
 import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.Playback
 import com.appsc.prep.ui.components.SpeechPage
@@ -152,15 +154,27 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
     val listening = pb.active
     val here = pb.pageId == id
     val part = if (here) pb.part else 0
-    val parts = remember(id) {
+    // the page with the reader's own notes under the "Not in your sources" lines they fill
+    val shown = remember(id, store.added) { UserNotes.withAdded(sec.blocks, id, store.added) }
+    val parts = remember(id, store.added) {
         app.repo.abbreviations // short forms the notes define
         app.repo.checkedAcronyms
-        SpeechText.parts(sec.title, sec.blocks, bookId, row.title)
+        SpeechText.parts(sec.title, shown.map { it.second }, bookId, row.title)
+    }
+    var googleFor by remember { mutableStateOf<Pair<String, String>?>(null) } // gap key, search
+    var editing by remember { mutableStateOf<Pair<String, String>?>(null) } // gap key, text
+    googleFor?.let { (key, q) ->
+        GooglePage(q, onAdd = { copied -> googleFor = null; editing = key to listOfNotNull(store.added[key], copied.takeIf { it.isNotBlank() }).joinToString("\n") }) { googleFor = null }
+    }
+    editing?.let { (key, text) ->
+        AddNoteDialog(text, existing = store.added.containsKey(key), onSave = { store.setAdded(key, it); editing = null }, onDelete = { store.setAdded(key, null); editing = null }) { editing = null }
     }
 
     fun page(p: Pos): SpeechPage {
         val s = book.rows[p.row].secs[p.sec]
-        return SpeechPage(subsectionId(bookId, p.row, p.sec), s.title, SpeechText.parts(s.title, s.blocks, bookId, book.rows[p.row].title).map { it.second })
+        val pid = subsectionId(bookId, p.row, p.sec)
+        val blocks = UserNotes.withAdded(s.blocks, pid, store.added).map { it.second }
+        return SpeechPage(pid, s.title, SpeechText.parts(s.title, blocks, bookId, book.rows[p.row].title).map { it.second })
     }
 
     fun play(from: Int) {
@@ -286,7 +300,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                             Spacer(Modifier.height(10.dp))
                         }
                     }
-                    itemsIndexed(sec.blocks, key = { i, _ -> "$id-$i" }) { i, b ->
+                    itemsIndexed(shown, key = { i, _ -> "$id-$i" }) { i, (orig, b) ->
                         val reading = here && parts.getOrNull(part)?.first == i
                         Box(
                             Modifier
@@ -307,6 +321,14 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                 )
                                 .padding(horizontal = 8.dp),
                         ) { BlockView(b, scale) }
+                        val gapKey = UserNotes.key(id, orig)
+                        if (UserNotes.isGap(b)) {
+                            GapActions(
+                                hasNote = store.added.containsKey(gapKey),
+                                onSearch = { googleFor = gapKey to UserNotes.query(b) },
+                                onAdd = { editing = gapKey to store.added[gapKey].orEmpty() },
+                            )
+                        }
                     }
                     item(key = "foot-$id") {
                         Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
@@ -580,6 +602,57 @@ private fun SourcesBox(sources: List<String>) {
             }
         }
     }
+}
+
+/** Under a "Not in your sources" line: look it up on Google (inside the app), add or edit what was found. */
+@Composable
+private fun GapActions(hasNote: Boolean, onSearch: () -> Unit, onAdd: () -> Unit) {
+    Row(Modifier.padding(start = 40.dp, end = 20.dp, bottom = 6.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+        Text(
+            "Search Google",
+            style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
+            modifier = Modifier.clip(RoundedCornerShape(16.dp)).background(C.AccentSoft).clickable(onClick = onSearch)
+                .padding(horizontal = 12.dp, vertical = 7.dp),
+        )
+        Text(
+            if (hasNote) "Edit my note" else "Add to notes",
+            style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.Green),
+            modifier = Modifier.clip(RoundedCornerShape(16.dp)).background(C.GreenSoft).clickable(onClick = onAdd)
+                .padding(horizontal = 12.dp, vertical = 7.dp),
+        )
+    }
+}
+
+/** Type or paste what was found; it is kept on this phone and shown under the line as "Your note". */
+@Composable
+private fun AddNoteDialog(text: String, existing: Boolean, onSave: (String) -> Unit, onDelete: () -> Unit, onDismiss: () -> Unit) {
+    var value by remember { mutableStateOf(text) }
+    androidx.compose.material3.AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Add to notes") },
+        text = {
+            Column {
+                Text(
+                    "Paste or type what you found. It is shown, and read aloud, under this line.",
+                    style = TextStyle(fontSize = 13.sp, color = C.Muted),
+                )
+                Spacer(Modifier.height(8.dp))
+                androidx.compose.material3.OutlinedTextField(
+                    value = value,
+                    onValueChange = { value = it },
+                    minLines = 4,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+            }
+        },
+        confirmButton = { androidx.compose.material3.TextButton(onClick = { onSave(value) }, enabled = value.isNotBlank()) { Text("Save") } },
+        dismissButton = {
+            Row {
+                if (existing) androidx.compose.material3.TextButton(onClick = onDelete) { Text("Delete", color = Color(0xFFB91C1C)) }
+                androidx.compose.material3.TextButton(onClick = onDismiss) { Text("Cancel") }
+            }
+        },
+    )
 }
 
 /** Pages that hold the facts this page no longer repeats (see tools/dedup_notes.py): tap to open. */

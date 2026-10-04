@@ -56,6 +56,17 @@ class ProgressStore(private val prefs: Storage) {
         prefs.putFloat(KEY_RATE, rate)
     }
 
+    /** What the reader added under "Not in your sources" lines ([UserNotes]): "book:row:sec#block" -> text. */
+    var added by mutableStateOf(
+        prefs.getStringSet(KEY_ADDED).associate { it.substringBefore('\t') to it.substringAfter('\t').replace("\\n", "\n") },
+    )
+        private set
+
+    fun setAdded(key: String, text: String?) {
+        added = if (text.isNullOrBlank()) added - key else added + (key to text.trim())
+        prefs.putStringSet(KEY_ADDED, added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" }.toSet())
+    }
+
     fun isDone(id: String) = id in done
 
     fun setDone(id: String, value: Boolean) {
@@ -150,5 +161,6 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_ANSWERS = "answers"
         const val KEY_SEEN = "seen"
         const val KEY_IDS = "ids_version"
+        const val KEY_ADDED = "added_notes"
     }
 }

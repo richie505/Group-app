@@ -131,6 +131,10 @@ class RestructureTest {
         says("The MPC (Art. 243ZE) prepares the draft plan.", 2, "Metropolitan Planning Committee")
         says("The MPC kept the repo rate at 5.5%.", 3, "Monetary Policy Committee")
         // names and labels stay as written
+        // numbers with M / lakh MT
+        says("About 8 M were rural and 2 M urban (5.6 M boys).", 2, "2 million urban")
+        says("2.35 lakh MT rice per month.", 3, "2.35 lakh metric tonnes rice")
+        says("Horticulture 367.72 MT overtook foodgrains.", 3, "367.72 million tonnes")
         // mixed case; spelled out elsewhere on the page is no reason to skip it here
         val mole = Acronyms.annotate(
             listOf(
@@ -148,5 +152,30 @@ class RestructureTest {
         says("Run by MoLE; NGOs and McDonald stayed.", 2, "Ministry of Labour and Employment")
         val first = Acronyms.annotate(listOf(TextBlock('b', listOf(Run("FIRST Telugu inscription", 0)))), 1)
         assertEquals("FIRST Telugu inscription", (first[0] as TextBlock).runs.joinToString("") { it.text })
+    }
+
+    /** "Not in your sources" lines: search text, the reader's own note under the line, kept and read aloud. */
+    @Test fun ownNotesFillGaps() = runBlocking {
+        val gap = TextBlock('b', listOf(Run("Not in your sources: top states for crimes against children, and NCRB child-marriage cases by state (a 2023 APPSC PYQ was based on NCRB data up to 2021).", 6)))
+        assertEquals("top states for crimes against children, and NCRB child-marriage cases by state", com.appsc.prep.data.UserNotes.query(gap))
+        val gap2 = TextBlock('b', listOf(Run("Not in your sources: Sanghabhuti's work and centre - check the AP History PYQ book.", 6)))
+        assertEquals("Sanghabhuti's work and centre", com.appsc.prep.data.UserNotes.query(gap2))
+        val mem = MemStorage()
+        val store = ProgressStore(mem)
+        val blocks = listOf(TextBlock('b', listOf(Run("Fact.", 0))), gap)
+        store.setAdded(com.appsc.prep.data.UserNotes.key("2:138:8", 1), "UP had the most cases.\nMaharashtra second.")
+        val again = ProgressStore(mem) // kept after the app restarts
+        assertEquals("UP had the most cases.\nMaharashtra second.", again.added["2:138:8#1"])
+        val shown = com.appsc.prep.data.UserNotes.withAdded(blocks, "2:138:8", again.added)
+        assertEquals(3, shown.size)
+        assertEquals(1, shown[2].first)
+        val spoken = SpeechText.parts("t", shown.map { it.second }, 2).joinToString(" ") { it.second }
+        assertTrue(spoken, spoken.contains("Maharashtra second"))
+        // somewhere in the notes such lines exist
+        var gaps = 0
+        for (r in repo.book(2).rows) for (sec in r.secs) gaps += sec.blocks.count { com.appsc.prep.data.UserNotes.isGap(it) }
+        assertTrue("$gaps", gaps > 50)
+        store.setAdded("2:138:8#1", null)
+        assertTrue(store.added.isEmpty())
     }
 }

@@ -244,6 +244,10 @@ object SpeechText {
             }
             "$amount$unit rupees"
         }
+        // "2.35 lakh MT" is metric tonnes (not million); "5.6 M boys", "54 M" are millions
+        t = Regex("""\b(lakh|crore|thousand)\s?MT\b""").replace(t) { "${it.groupValues[1]} metric tonnes" }
+        t = Regex("""(?<=\d)\s?M(?![A-Za-z0-9&])""").replace(t, " million")
+        t = Regex("""(?<=\d)\s?(B|Bn)(?![A-Za-z0-9&])""").replace(t, " billion")
         val after = """(?<=\d)\s?"""
         val u = listOf(
             "sq\\.? ?km" to "square kilometres", "km²" to "square kilometres", "km2" to "square kilometres", "km" to "kilometres",

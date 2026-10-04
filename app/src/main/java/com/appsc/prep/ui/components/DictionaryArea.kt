@@ -295,9 +295,12 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
 /** Google search with India settings (gl=in) in English. */
 fun googleUrl(query: String) = "https://www.google.com/search?hl=en&gl=in&q=" + java.net.URLEncoder.encode(query, "UTF-8")
 
-/** Google results for [query] inside the app (India settings), full screen; back goes back a page, then closes. */
+/**
+ * Google results for [query] inside the app (India settings), full screen; back goes back a page, then closes.
+ * With [onAdd]: a button that takes the text copied from the results (select it, Copy) to the notes.
+ */
 @Composable
-private fun GooglePage(query: String, onClose: () -> Unit) {
+fun GooglePage(query: String, onAdd: ((String) -> Unit)? = null, onClose: () -> Unit) {
     val platform = LocalApp.current.platform
     val back = remember { mutableStateOf<(() -> Boolean)?>(null) }
     val url = googleUrl(query)
@@ -312,6 +315,21 @@ private fun GooglePage(query: String, onClose: () -> Unit) {
             }
             HorizontalDivider(color = C.Line)
             platform.WebPage(url, Modifier.fillMaxWidth().weight(1f), back)
+            if (onAdd != null) {
+                @Suppress("DEPRECATION")
+                val clipboard = androidx.compose.ui.platform.LocalClipboardManager.current
+                HorizontalDivider(color = C.Line)
+                Text(
+                    "Select the useful text above, tap Copy, then:",
+                    style = TextStyle(fontSize = 13.sp, color = C.Muted),
+                    modifier = Modifier.padding(start = 16.dp, end = 16.dp, top = 8.dp),
+                )
+                androidx.compose.material3.Button(
+                    onClick = { onAdd(clipboard.getText()?.text.orEmpty()) },
+                    modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
+                    colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Green),
+                ) { Text("Add copied text to my notes", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
+            }
         }
     }
 }

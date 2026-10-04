@@ -57,6 +57,12 @@ feet of river water; PR is Panchayati Raj, proportional representation, Presiden
 Representative. A full form is skipped only when the same bullet already spells it out. Names and labels (FIRST, BRICS, COVID …) are left as written. A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
+**Fill the gaps** (2.21): under each grey "Not in your sources: ..." line (1,184 of them) are *Search Google*
+(Google inside the app, searching for the missing fact) and *Add to notes*. On the Google page, select the useful
+text, tap Copy, then *Add copied text to my notes*; edit it and Save. It is kept on the phone
+(`ProgressStore.added`, `data/UserNotes.kt`) and shown - and read aloud - right under that line as **Your note**;
+*Edit my note* changes or deletes it. Read-aloud also says "2 M" as "2 million" and "lakh MT" as "lakh metric tonnes".
+
 **Key terms** at the end of every notes page (89% of pages; `tools/build_key_terms.py` → `assets/keyterms.json`):
 the terms on that page that have a meaning in the app; tap one for its Meaning card.
 

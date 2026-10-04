@@ -121,6 +121,29 @@ class ScreenshotTest {
         rule.onRoot().captureRoboImage("screenshots/22_covered_in.png")
     }
 
+    /** "Not in your sources": Search Google / Add to notes, and the reader's own note under the line. */
+    @Test fun ownNoteUnderGap() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val (b, r, sx) = runBlocking {
+            val repo = Repository { ctx.assets.open(it) }
+            val bk = repo.book(2)
+            val row = bk.rows.first { it.title.startsWith("Juvenile Justice Act 2015, POCSO") }
+            Triple(2, row.index, row.secs.indexOfFirst { s -> s.title.startsWith("NCRB data") })
+        }
+        val gapIndex = runBlocking { Repository { ctx.assets.open(it) }.book(b).rows[r].secs[sx].blocks.indexOfFirst { com.appsc.prep.data.UserNotes.isGap(it) } }
+        ProgressStore(PrefsStorage(ctx)).setAdded(com.appsc.prep.data.UserNotes.key("$b:$r:$sx", gapIndex), "NCRB 2022: Madhya Pradesh, Maharashtra and Uttar Pradesh reported the most crimes against children.")
+        shot("23_own_note", preload = 2) { ReaderScreen(b, r, sx, nav) }
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("Edit my note"))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/23_own_note.png")
+        // the text field's blinking cursor never lets Compose go idle: step the clock instead
+        rule.mainClock.autoAdvance = false
+        rule.onNodeWithText("Edit my note").performClick()
+        rule.mainClock.advanceTimeBy(500)
+        rule.onRoot().captureRoboImage("screenshots/24_add_note_dialog.png")
+        rule.mainClock.autoAdvance = true
+    }
+
     /** Every notes page ends with its key terms; tapping one opens its meaning. */
     @Test fun keyTermsOnAPage() {
         shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 0, nav) }

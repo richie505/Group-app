@@ -79,6 +79,7 @@ fun BlockView(block: Block, scale: Float) {
             }
             'x' -> Callout(block.runs, C.ExamBg, C.ExamInk, "Exam angle", scale)
             'a' -> Callout(block.runs, C.SeeBg, C.SeeInk, null, scale)
+            com.appsc.prep.data.UserNotes.KIND -> Callout(block.runs, C.GreenSoft, C.Green, "Your note", scale)
             'n' -> {
                 val text = remember(block) { annotated(block.runs, base = C.Muted, strong = C.Muted) }
                 Text(
