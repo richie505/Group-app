@@ -38,6 +38,7 @@ import com.github.takahirom.roborazzi.captureRoboImage
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
+import androidx.compose.ui.test.onAllNodesWithContentDescription
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -76,7 +77,21 @@ class ScreenshotTest {
     @Test fun today() = shot("1_today") { TodayScreen(nav) }
     @Test fun plan() = shot("2_plan") { PlanScreen(nav) }
     @Test fun day1() = shot("3_day1") { DayScreen(1, nav) }
-    @Test fun section() = shot("4_section", preload = 2) { SectionScreen(2, 0, nav) }
+    /**
+     * Stepped clock: after the Google and word-meaning tests in the same run, this screen never reported idle
+     * (an order-dependent Robolectric hang that does not occur alone), so it is drawn after 3 s instead of waiting.
+     */
+    @Test fun section() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        runBlocking { app.repo.book(2); app.repo.mcq(2) }
+        rule.mainClock.autoAdvance = false
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { SectionScreen(2, 0, nav) } } }
+        rule.mainClock.advanceTimeBy(3000)
+        rule.onNodeWithText("Polity, Society & IR").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/4_section.png")
+        rule.mainClock.autoAdvance = true
+    }
     @Test fun reader() = shot("5_reader", preload = 2) { ReaderScreen(2, 0, 0, nav) }
     @Test fun readerTable() = shot("6_reader_table", preload = 2) { ReaderScreen(2, 0, 1, nav) }
 
@@ -172,6 +187,9 @@ class ScreenshotTest {
         rule.waitForIdle()
         rule.onAllNodesWithText("Google · dyarchy")[0].assertExists()
         rule.onRoot().captureRoboImage("screenshots/19_google.png")
+        // close Google: its web page would otherwise keep the next test from ever going idle
+        rule.onAllNodesWithContentDescription("Close")[0].performClick()
+        rule.waitForIdle()
         assertEquals("https://www.google.com/search?hl=en&gl=in&q=84th+Amendment", com.appsc.prep.ui.components.googleUrl("84th Amendment"))
     }
 
@@ -221,5 +239,12 @@ class ScreenshotTest {
 
 
     @Test fun books() = shot("7_notes") { BooksScreen(nav) }
-    @Test fun progress() = shot("8_progress") { ProgressScreen(nav) }
+    @Test fun progress() {
+        shot("8_progress") { ProgressScreen(nav) }
+        // the backup card at the end
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("Back up now"))
+        rule.waitForIdle()
+        rule.onAllNodesWithText("Last backup: never").fetchSemanticsNodes().let { assertEquals(1, it.size) }
+        rule.onRoot().captureRoboImage("screenshots/26_backup.png")
+    }
 }

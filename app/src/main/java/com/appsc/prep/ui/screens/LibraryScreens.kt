@@ -33,8 +33,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -261,6 +262,7 @@ fun ProgressScreen(nav: Nav) {
                     ProgressLine(d / b.subsectionTotal.coerceAtLeast(1).toFloat(), color = bookColors[(b.id - 1) % 6])
                 }
             }
+            item { HorizontalDivider(color = C.Line); BackupCard() }
             item { Spacer(Modifier.height(24.dp)) }
         }
     }
@@ -305,6 +307,56 @@ fun SavedScreen(nav: Nav) {
                 }
                 HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 20.dp))
             }
+        }
+    }
+}
+
+/** Save everything kept on this device to a file, and bring it back on a new phone or after reinstalling. */
+@Composable
+private fun BackupCard() {
+    val app = LocalApp.current
+    val store = app.store
+    var message by remember { mutableStateOf<Pair<String, Boolean>?>(null) } // text, is a problem
+    val save = app.platform.rememberSaveFile { ok ->
+        if (ok) store.backedUp()
+        message = if (ok) "Backup saved. Keep the file somewhere safe (Drive, WhatsApp to yourself, email)." to false
+        else "Backup not saved." to true
+    }
+    val open = app.platform.rememberOpenFile { text ->
+        message = when (text) {
+            null -> "No file opened." to true
+            else -> runCatching { store.restore(text, app.repo.idMoves) }.fold(
+                { r -> "Restored: ${r.read} pages read, ${r.saved} bookmarks, ${r.answers} MCQ answers, ${r.notes} own notes." to false },
+                { (it.message ?: "Could not read this file.") to true },
+            )
+        }
+    }
+    if (save == null || open == null) return
+    Column(Modifier.padding(20.dp)) {
+        Text("Backup", style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
+        Spacer(Modifier.height(6.dp))
+        Text(
+            "Your read marks, bookmarks, MCQ answers and own notes are kept only on this device. Save a backup file " +
+                "so you never lose them; restore it after reinstalling or on a new phone. Restoring adds to what is here - nothing is deleted.",
+            style = TextStyle(fontSize = 14.sp, color = C.Body),
+        )
+        Spacer(Modifier.height(6.dp))
+        Text(
+            "Last backup: " + (store.lastBackup?.let { java.time.LocalDate.parse(it).format(java.time.format.DateTimeFormatter.ofPattern("d MMM yyyy")) } ?: "never"),
+            style = TextStyle(fontSize = 13.sp, color = if (store.lastBackup == null) C.High else C.Muted),
+        )
+        Spacer(Modifier.height(12.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            androidx.compose.material3.Button(
+                onClick = { save("APPSC-Prep-backup-${java.time.LocalDate.now()}.json", store.backup()) },
+                colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Green),
+                modifier = Modifier.weight(1f),
+            ) { Text("Back up now") }
+            androidx.compose.material3.OutlinedButton(onClick = { open() }, modifier = Modifier.weight(1f)) { Text("Restore") }
+        }
+        message?.let { (text, bad) ->
+            Spacer(Modifier.height(10.dp))
+            Text(text, style = TextStyle(fontSize = 14.sp, color = if (bad) C.High else C.Green))
         }
     }
 }

@@ -46,6 +46,20 @@ object DesktopPlatform : Platform {
         toast = "Copied to the clipboard – paste it anywhere with Ctrl + V"
     }
 
+    // backups: a plain Windows save/open box
+    @Composable
+    override fun rememberSaveFile(done: (Boolean) -> Unit): ((String, String) -> Unit)? = { name, text ->
+        val box = java.awt.FileDialog(null as java.awt.Frame?, "Save backup", java.awt.FileDialog.SAVE).apply { file = name; isVisible = true }
+        val file = box.file?.let { java.io.File(box.directory, it) }
+        done(file != null && runCatching { file.writeText(text) }.isSuccess)
+    }
+
+    @Composable
+    override fun rememberOpenFile(got: (String?) -> Unit): (() -> Unit)? = {
+        val box = java.awt.FileDialog(null as java.awt.Frame?, "Open backup", java.awt.FileDialog.LOAD).apply { isVisible = true }
+        got(box.file?.let { f -> runCatching { java.io.File(box.directory, f).readText() }.getOrNull() })
+    }
+
     @Composable
     override fun BackHandler(enabled: Boolean, onBack: () -> Unit) {
         val current by rememberUpdatedState(onBack)

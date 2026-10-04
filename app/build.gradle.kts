@@ -14,8 +14,8 @@ android {
         applicationId = "com.appsc.prep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 35
-        versionName = "2.24"
+        versionCode = 36
+        versionName = "2.25"
     }
 
     signingConfigs {
@@ -52,7 +52,10 @@ android {
     testOptions {
         unitTests.isIncludeAndroidResources = true
         // ./gradlew testDebugUnitTest --tests '*SpeechAuditTest' -Pspeech.audit=/path/out.tsv dumps read-aloud text
-        unitTests.all { test -> project.findProperty("speech.audit")?.let { test.systemProperty("speech.audit", it) } }
+        unitTests.all { test ->
+            project.findProperty("speech.audit")?.let { test.systemProperty("speech.audit", it) }
+            test.systemProperty("prep.strict", "true") // a failing read-aloud rule fails the tests (skipped on phones)
+        }
     }
 }
 

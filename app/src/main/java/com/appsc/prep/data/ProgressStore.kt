@@ -145,6 +145,78 @@ class ProgressStore(private val prefs: Storage) {
         }
     }
 
+    /**
+     * Everything kept for the reader, as one JSON file to save outside the app: read marks, bookmarks, MCQ answers,
+     * study days, own notes, last page and reader settings.
+     */
+    fun backup(): String = kotlinx.serialization.json.buildJsonObject {
+        fun set(key: String, v: Collection<String>) = put(key, kotlinx.serialization.json.JsonArray(v.sorted().map { kotlinx.serialization.json.JsonPrimitive(it) }))
+        put("app", kotlinx.serialization.json.JsonPrimitive(BACKUP_APP))
+        put("format", kotlinx.serialization.json.JsonPrimitive(1))
+        put("ids", kotlinx.serialization.json.JsonPrimitive(prefs.getString(KEY_IDS) ?: ""))
+        set("done", done)
+        set("saved", saved.mapIndexed { i, x -> "$i\t${x.id}\t${x.title}\t${x.rowTitle}" })
+        set("dates", activeDates)
+        set("answers", answers.map { (k, v) -> "$k:${if (v) 1 else 0}" })
+        set("seen", seen)
+        set("added", added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" })
+        lastRead?.let { put("last", kotlinx.serialization.json.JsonPrimitive(it)) }
+        put("scale", kotlinx.serialization.json.JsonPrimitive(textScale))
+        put("rate", kotlinx.serialization.json.JsonPrimitive(speechRate))
+    }.toString()
+
+    /** Day of the last backup ("2026-10-04"), or null. */
+    var lastBackup by mutableStateOf(prefs.getString(KEY_BACKUP))
+        private set
+
+    fun backedUp(today: LocalDate = LocalDate.now()) {
+        lastBackup = today.toString()
+        prefs.putString(KEY_BACKUP, today.toString())
+    }
+
+    /** What a restore brought in. */
+    data class Restored(val read: Int, val saved: Int, val answers: Int, val notes: Int)
+
+    /**
+     * Adds a [backup] to what is on this device: nothing here is lost, and where both have the same item (an MCQ
+     * answer, an own note) the backup's wins. Ids from an older notes version are moved with [moves] first.
+     * Throws [IllegalArgumentException] when [text] is not a backup of this app.
+     */
+    fun restore(text: String, moves: IdMoves): Restored {
+        val o = runCatching { kotlinx.serialization.json.Json.parseToJsonElement(text) as kotlinx.serialization.json.JsonObject }.getOrNull()
+        require(o != null && (o["app"] as? kotlinx.serialization.json.JsonPrimitive)?.content == BACKUP_APP) { "This file is not an APPSC Prep backup." }
+        fun list(key: String): List<String> =
+            (o[key] as? kotlinx.serialization.json.JsonArray)?.mapNotNull { (it as? kotlinx.serialization.json.JsonPrimitive)?.content } ?: emptyList()
+        fun str(key: String) = (o[key] as? kotlinx.serialization.json.JsonPrimitive)?.content
+        // a backup made before the notes were regrouped uses the old page ids
+        val old = str("ids") != moves.version && moves.map.isNotEmpty()
+        fun id(x: String) = if (old) moves.map[x] ?: x else x
+
+        val newDone = list("done").filter { !(old && it in moves.merged) }.map(::id).toSet() - done
+        done = done + newDone
+        prefs.putStringSet(KEY_DONE, done)
+
+        val incoming = decodeSaved(list("saved").toSet()).map { it.copy(id = id(it.id)) }.filter { s -> saved.none { it.id == s.id } }
+        saved = saved + incoming
+        prefs.putStringSet(KEY_SAVED, saved.mapIndexed { i, x -> "$i\t${x.id}\t${x.title}\t${x.rowTitle}" }.toSet())
+
+        activeDates = activeDates + list("dates")
+        prefs.putStringSet(KEY_DATES, activeDates)
+
+        val inAnswers = list("answers").filter { ':' in it }.associate { it.substringBefore(':') to it.endsWith(":1") }
+        answers = answers + inAnswers
+        prefs.putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet())
+        seen = seen + list("seen")
+        prefs.putStringSet(KEY_SEEN, seen)
+
+        val inNotes = list("added").filter { '\t' in it }.associate { it.substringBefore('\t') to it.substringAfter('\t').replace("\\n", "\n") }
+        added = added + inNotes
+        prefs.putStringSet(KEY_ADDED, added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" }.toSet())
+
+        if (lastRead == null) str("last")?.let { rememberPosition(id(it)) }
+        return Restored(newDone.size, incoming.size, inAnswers.size, inNotes.size)
+    }
+
     private fun decodeSaved(raw: Set<String>): List<Saved> =
         raw.mapNotNull { line ->
             val p = line.split('\t')
@@ -162,5 +234,7 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_SEEN = "seen"
         const val KEY_IDS = "ids_version"
         const val KEY_ADDED = "added_notes"
+        const val BACKUP_APP = "APPSC Prep backup"
+        const val KEY_BACKUP = "last_backup"
     }
 }

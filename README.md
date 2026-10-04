@@ -57,6 +57,16 @@ feet of river water; ITC is input tax credit on GST pages and ITC Limited elsewh
 Representative. A full form is skipped only when the same bullet already spells it out. Hyphenated scheme names are read whole or part by part (NP-NSPE, PM-KISAN, NFHS-5, PMGSY-IV). A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
+**Backup** (2.25): Progress → *Back up now* saves read marks, bookmarks, MCQ answers, study days and own notes to one
+JSON file (phone storage, Drive …; on Windows a Save box); *Restore* adds a backup to what is on the device - nothing
+is deleted, the backup's MCQ answers and notes win, and a backup from before the notes were regrouped is moved to the
+new page ids (`ProgressStore.backup`/`restore`, `BackupTest`). A phone backup restores on Windows and back.
+
+**Read-aloud never closes the app** (2.25): each read-aloud step (`SpeechText.safely`) and the full forms on a page
+are skipped if they fail on a phone, and the text is read as written. Unit tests run with `-Dprep.strict=true`, so
+there a failing rule fails the build; `AndroidRegexTest` checks the look-behinds Android's regex engine rejects (the
+2.22 crash).
+
 **Read-aloud numbers and symbols** (2.22): Roman numerals become numbers (Classes I-VIII → "Classes 1 to 8",
 Part IXB → "Part 9B", Chandragupta II → "Chandragupta the Second"); Indian amounts are read in lakhs and crores
 (₹1,30,794.90 crore → "1 lakh 30 thousand 794.90 crore rupees"); "54 M" and "$2.5B" are millions and billions, but

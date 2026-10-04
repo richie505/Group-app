@@ -41,6 +41,30 @@ class AndroidPlatform(private val context: Context) : Platform {
     @Composable
     override fun Shortcuts(onKey: (String) -> Boolean) = Unit
 
+    @Composable
+    override fun rememberSaveFile(done: (Boolean) -> Unit): ((String, String) -> Unit)? {
+        val pending = androidx.compose.runtime.remember { androidx.compose.runtime.mutableStateOf("") }
+        val launcher = androidx.activity.compose.rememberLauncherForActivityResult(
+            androidx.activity.result.contract.ActivityResultContracts.CreateDocument("application/json"),
+        ) { uri ->
+            done(uri != null && runCatching {
+                context.contentResolver.openOutputStream(uri, "wt")!!.use { it.write(pending.value.toByteArray()) }
+            }.isSuccess)
+        }
+        return { name, text -> pending.value = text; launcher.launch(name) }
+    }
+
+    @Composable
+    override fun rememberOpenFile(got: (String?) -> Unit): (() -> Unit)? {
+        val launcher = androidx.activity.compose.rememberLauncherForActivityResult(
+            androidx.activity.result.contract.ActivityResultContracts.OpenDocument(),
+        ) { uri ->
+            got(uri?.let { u -> runCatching { context.contentResolver.openInputStream(u)!!.use { it.readBytes().decodeToString() } }.getOrNull() })
+        }
+        // shared files often come back as text/plain or octet-stream rather than JSON
+        return { launcher.launch(arrayOf("application/json", "text/plain", "application/octet-stream", "*/*")) }
+    }
+
     /**
      * Google inside the app: an Android WebView that keeps every link in the app. The page's copy menu does not
      * show inside the app's pop-up, so the last text selected is kept here and handed to [selected].

@@ -221,10 +221,15 @@ class Repository(private val open: (String) -> InputStream) {
                         title = s.str("t"),
                         badges = s.strList("badges"),
                         page = s.intOr("p"),
-                        blocks = Acronyms.annotate(
-                            s.jsonObject["b"]!!.jsonArray.map { b -> parseBlock(b.jsonObject) }, id,
-                            context = r.str("title") + " " + s.str("t"),
-                        ),
+                        blocks = s.jsonObject["b"]!!.jsonArray.map { b -> parseBlock(b.jsonObject) }.let { plain ->
+                            // full forms are extras: if they fail on a phone, show the page without them
+                            try {
+                                Acronyms.annotate(plain, id, context = r.str("title") + " " + s.str("t"))
+                            } catch (e: Exception) {
+                                if (SpeechText.strict) throw e
+                                plain
+                            }
+                        },
                         universal = s.jsonObject.containsKey("u"),
                         coveredIn = (s.jsonObject["cov"] as? JsonArray)?.map { c -> c.jsonArray.map { it.jsonPrimitive.int } } ?: emptyList(),
                     )

@@ -70,15 +70,33 @@ object SpeechText {
     }
 
     /** One piece of notes text as it should be spoken. [book] picks the meaning of a few short forms. */
+    /**
+     * Unit tests run with -Dprep.strict=true so a broken rule fails the build; on a phone a rule that fails
+     * (Android's regex engine differs from the one the tests use) is skipped and the text read as it is.
+     */
+    @Volatile var strict = System.getProperty("prep.strict") == "true"
+
+    /** [step] applied to [text], or [text] unchanged if the step fails. */
+    inline fun safely(text: String, step: (String) -> String): String =
+        try {
+            step(text)
+        } catch (e: Exception) {
+            if (strict) throw e
+            text
+        } catch (e: StackOverflowError) {
+            if (strict) throw e
+            text
+        }
+
     fun speakable(text: String, book: Int = 0, page: String = ""): String {
         var t = text.replace('\n', ' ')
-        t = removeCitations(t)
-        t = pairs(t)
-        t = dropDefinedAcronyms(t)
-        t = symbols(t)
-        t = numbered(t)
-        t = units(t)
-        t = acronyms(t, book, page)
+        t = safely(t) { removeCitations(it) }
+        t = safely(t) { pairs(it) }
+        t = safely(t) { dropDefinedAcronyms(it) }
+        t = safely(t) { symbols(it) }
+        t = safely(t) { numbered(it) }
+        t = safely(t) { units(it) }
+        t = safely(t) { acronyms(it, book, page) }
         return t.replace(Regex("""\(\s*\)"""), " ")
             .replace(Regex("""\s+"""), " ")
             .replace(Regex("""\s+([,.;:)])"""), "$1")

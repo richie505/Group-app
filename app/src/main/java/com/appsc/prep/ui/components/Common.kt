@@ -81,6 +81,17 @@ interface Platform {
         }
     }
 
+    /**
+     * Saves text to a file the reader picks (phone storage, Drive ...): returns a function taking the suggested
+     * file name and the text; [done] hears whether it was saved. Null where files cannot be picked.
+     */
+    @Composable
+    fun rememberSaveFile(done: (Boolean) -> Unit): ((String, String) -> Unit)? = null
+
+    /** Opens a file the reader picks: returns a function to start it; [got] hears the text, or null if none. */
+    @Composable
+    fun rememberOpenFile(got: (String?) -> Unit): (() -> Unit)? = null
+
     /** Read-aloud engine, or null where there is none (the reader then hides the Listen button). */
     val speech: Speech? get() = null
 }
