@@ -62,7 +62,8 @@ MCQs, on the same 90-day plan (same days, sections and pages, so "Day 12" is the
 next to APPSC Prep (`com.appsc.prep.revise`, green icon) with its own progress ("revised" marks), backup,
 read-aloud, MCQ practice and full forms. Every MCQ's explanation states the fact behind its answer;
 `tools/build_revision_mcq.py` (→ `app/src/revise/assets/rev{1..6}.json`) turns each page's questions into fact
-bullets: filler out ("Statements 1 and 2 are correct", "Hence option (b)"), "Statement 3 is false because X" → X,
+bullets: filler out ("Statements 1 and 2 are correct", "Hence option (b)", option letters like "sequence B, D, A, C"),
+"Statement 3 is false because X" → X,
 one sentence per question, the answer in bold, a fact already given on the page (its rare words, all its numbers)
 not repeated, the notes' exam-angle lines first. Each page keeps its most valuable facts - rare information, the
 answer stated, key terms, past-paper questions - up to a budget by the plan's priority (HIGH 35%, MED 24%, LIGHT
@@ -143,6 +144,10 @@ biology, human body) to the notes files.
 pip install reportlab
 python3 tools/build_mcq_pdfs.py app/src/main/assets mcq-schedule
 python3 tools/build_mcq_pdfs.py app/src/main/assets mcq-schedule-dark --dark   # reverse print: white on black
+# daily revision notes PDFs (APPSC Revision's sheets, same days and sections as the MCQ PDFs)
+python3 tools/build_revision_mcq.py app/src/main/assets app/src/revise/assets
+python3 tools/build_revision_pdfs.py app/src/main/assets app/src/revise/assets revision-schedule
+python3 tools/build_revision_pdfs.py app/src/main/assets app/src/revise/assets revision-schedule-dark --dark
 ```
 
 One PDF per plan day (Days 1–83; the mock week 84–90 has no sections), MCQs only with the answer after each,

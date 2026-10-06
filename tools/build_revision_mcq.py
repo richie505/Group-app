@@ -59,14 +59,25 @@ def facts_of(q):
                    r"\s*(?:because|as|since|:|-)?\s*", "; ", s, flags=re.I)
         # "...; therefore statement 2 is incorrect" at the end: drop it
         s = re.sub(r"[;,]?\s*(?:and\s+)?(?:(?:therefore|hence|so|thus)\s*[;,]?\s*)+(?:and\s+)?(?:statements?|options?|pairs?)\s+[\da-dIVX,\sand]+\s+(?:is|are)\s+(?:not\s+)?\w+$", "", s, flags=re.I)
-        if not s or FILLER.match(s + "."):
-            continue
-        m = REASON.match(s)
+        # option letters and list labels mean nothing without the question
+        s = re.sub(r",?\s*(?:giving|so|hence|i\.e\.|which gives)?\s*(?:the\s+)?(?:correct\s+)?(?:sequence|order|code|answer|arrangement)\s*(?:is\s*)?"
+                   r"\(?[A-D1-4]\)?(?:\s*[,–-]\s*\(?[A-D1-4]\)?)+\s*$", "", s, flags=re.I)
+        lead = re.match(r"^(?:the|all)\s+(?:listed|given|above|following|four|three|other)\s+[\w\s-]{0,30}?(?:is|are)\s+(?:all\s+)?"
+                        r"(?:correct(?:ly matched)?|true|right)\s*[:;,-]\s*", s, re.I)
+        if lead:
+            s = s[lead.end():]
+            s = s[:1].upper() + s[1:]
+        m = REASON.match(s)  # "Option (c) is wrong because X": X (before the filler test, which would drop it)
         if m:
             s = s[m.end():].strip()
-            if not s or FILLER.match(s + "."):
+            if not s:
                 continue
             s = s[0].upper() + s[1:]
+        if not s or FILLER.match(s + "."):
+            continue
+        if re.search(r"\b(?:listed|given (?:statements?|pairs?|options?|list)|the above|list[- ]?I{1,2}\b|option \(?[a-d]\)|\([a-d]\) and \([a-d]\))", s, re.I) \
+                or re.search(r"\b[A-D]\s*[-–]\s*[1-4]\b(?:\s*,\s*[A-D]\s*[-–]\s*[1-4]\b)+", s):
+            continue
         if len(s.split()) < 4:
             continue
         out.append(s + ".")
