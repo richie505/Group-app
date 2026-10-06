@@ -76,6 +76,7 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.SpeechText
 import com.appsc.prep.data.Book
 import com.appsc.prep.data.Saved
+import com.appsc.prep.data.Subsection
 import com.appsc.prep.data.TableBlock
 import com.appsc.prep.data.TextBlock
 import com.appsc.prep.data.UserNotes
@@ -127,8 +128,14 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         return
     }
     val row = book.rows[rowI]
-    val sec = row.secs[secI.coerceIn(0, row.secs.size - 1)]
     val id = subsectionId(bookId, rowI, secI)
+    // revision edition: the key facts, or this page's full notes on demand
+    val revision = app.repo.revision
+    var full by rememberSaveable(id) { mutableStateOf(false) }
+    val fullSec by androidx.compose.runtime.produceState<Subsection?>(null, id, full) {
+        value = if (revision && full) app.repo.fullBook(bookId).rows.getOrNull(rowI)?.secs?.getOrNull(secI) else null
+    }
+    val sec = fullSec ?: row.secs[secI.coerceIn(0, row.secs.size - 1)]
     val pos = Pos(rowI, secI)
     val next = book.next(pos)
     val prev = book.prev(pos)
@@ -155,8 +162,8 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
     val here = pb.pageId == id
     val part = if (here) pb.part else 0
     // the page with the reader's own notes under the "Not in your sources" lines they fill
-    val shown = remember(id, store.added) { UserNotes.withAdded(sec.blocks, id, store.added) }
-    val parts = remember(id, store.added) {
+    val shown = remember(id, store.added, sec) { UserNotes.withAdded(sec.blocks, id, store.added) }
+    val parts = remember(id, store.added, sec) {
         app.repo.abbreviations // short forms the notes define
         app.repo.checkedAcronyms
         SpeechText.parts(sec.title, shown.map { it.second }, bookId, row.title)
@@ -233,7 +240,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     val done = store.isDone(id)
                     Icon(
                         if (done) Icons.Filled.CheckCircle else Icons.Outlined.CheckCircle,
-                        "Mark as read", tint = if (done) C.Green else C.Ink,
+                        if (revision) "Mark as revised" else "Mark as read", tint = if (done) C.Green else C.Ink,
                     )
                 }
                 if (speech != null) {
@@ -295,6 +302,16 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                     "${(sec.wordCount / 180).coerceAtLeast(1)} min read",
                                     style = TextStyle(fontSize = 14.sp, color = C.Faint),
                                 )
+                            }
+                            if (revision) {
+                                RevisionSwitch(full) { full = it }
+                                if (!full && sec.blocks.isEmpty()) {
+                                    Text(
+                                        "No key facts beyond the headings here - open Full notes if you need it.",
+                                        style = TextStyle(fontSize = 14.sp, color = C.Muted),
+                                        modifier = Modifier.padding(bottom = 12.dp),
+                                    )
+                                }
                             }
                             HorizontalDivider(color = C.Line)
                             Spacer(Modifier.height(10.dp))
@@ -380,7 +397,11 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                 Icon(Icons.Filled.CheckCircle, null, modifier = Modifier.size(20.dp))
                                 Spacer(Modifier.width(8.dp))
                                 Text(
-                                    if (done) "Read ✓  (tap to undo)" else if (next != null) "Mark as read & next" else "Mark as read",
+                                    when {
+                                        done -> if (revision) "Revised ✓  (tap to undo)" else "Read ✓  (tap to undo)"
+                                        next != null -> if (revision) "Mark as revised & next" else "Mark as read & next"
+                                        else -> if (revision) "Mark as revised" else "Mark as read"
+                                    },
                                     style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
                                 )
                             }
@@ -759,5 +780,29 @@ private fun PlayerBar(
             modifier = Modifier.weight(1f).padding(start = 10.dp),
         )
         IconButton(onClick = onClose) { Icon(Icons.Filled.Close, "Stop listening", tint = C.Muted) }
+    }
+}
+
+/** Revision edition: the page's key facts (default) or its full notes. */
+@Composable
+private fun RevisionSwitch(full: Boolean, onChange: (Boolean) -> Unit) {
+    Row(
+        Modifier.fillMaxWidth().padding(bottom = 12.dp).clip(RoundedCornerShape(12.dp)).background(C.Surface).padding(4.dp),
+        horizontalArrangement = Arrangement.spacedBy(4.dp),
+    ) {
+        listOf(false to "Key facts", true to "Full notes").forEach { (value, label) ->
+            val on = full == value
+            Text(
+                label,
+                style = TextStyle(
+                    fontSize = 14.sp, fontWeight = FontWeight.SemiBold,
+                    color = if (on) Color.White else C.Muted, textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                ),
+                modifier = Modifier.weight(1f).clip(RoundedCornerShape(9.dp))
+                    .background(if (on) C.Green else Color.Transparent)
+                    .clickable { onChange(value) }
+                    .padding(vertical = 8.dp),
+            )
+        }
     }
 }

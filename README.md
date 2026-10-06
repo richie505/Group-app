@@ -57,6 +57,19 @@ feet of river water; ITC is input tax credit on GST pages and ITC Limited elsewh
 Representative. A full form is skipped only when the same bullet already spells it out. Hyphenated scheme names are read whole or part by part (NP-NSPE, PM-KISAN, NFHS-5, PMGSY-IV). A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
+**APPSC Revision** (2.27): a second app from the same code - the exam-ready revision notes, on the same 90-day
+plan (same days, sections and pages, so "Day 12" is the same topics in both). It installs next to APPSC Prep
+(`com.appsc.prep.revise`, green icon) with its own progress ("revised" marks), backup, read-aloud, MCQs and full
+forms. Each page opens on **Key facts**; **Full notes** shows that page of the notes. The key facts come from
+`tools/build_revision.py` (→ `app/src/revise/assets/rev{1..6}.json`), built only from the notes' own sentences, so
+nothing can disagree with them: exam angles are kept whole; every other clause is scored by the words the page's
+MCQs and past papers ask (weighted by rarity), its key terms, bold phrases and numbers, and the best ones are kept
+up to a budget set by the plan's priority for the section (HIGH 42%, MED 30%, LIGHT 18% of the page); a clause
+that restates a fact already given on the page is skipped, tables with the same heading are merged, and source
+tags, "see below" pointers and asides about what the sources say are dropped. 1.03 M words → 0.41 M (40%). The
+edition is chosen by `edition.json` in the revision app's assets (`Repository.revision`); tests for the notes app
+are in `src/testNotes`, for the revision app in `src/testRevise`.
+
 **Plan dates** (2.26): Day 1 is 6 Oct 2026, Day 90 is 3 Jan 2027, the final buffer runs 4-23 Jan and the exam is
 24 Jan 2027. `tools/reschedule_plan.py <plan.json> <day-1 date> <exam date>` moves every day (content and day
 numbers stay; the review day is every 7th day, now called the weekly review) and spreads the buffer over the days
@@ -141,8 +154,10 @@ question numbers and answers only, in a grid under the section headings.
 ## Building
 
 ```
-./gradlew assembleRelease          # app/build/outputs/apk/release/app-release.apk
-./gradlew recordRoborazziDebug     # screenshots of the main screens into app/screenshots/
+./gradlew assembleNotesRelease     # APPSC Prep:     app/build/outputs/apk/notes/release/app-notes-release.apk
+./gradlew assembleReviseRelease    # APPSC Revision: app/build/outputs/apk/revise/release/app-revise-release.apk
+./gradlew testNotesDebugUnitTest testReviseDebugUnitTest
+./gradlew recordRoborazziNotesDebug recordRoborazziReviseDebug   # screenshots into app/screenshots/
 ```
 
 ## Windows app

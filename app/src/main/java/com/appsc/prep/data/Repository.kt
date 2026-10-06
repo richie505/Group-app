@@ -152,14 +152,29 @@ class Repository(private val open: (String) -> InputStream) {
         }.getOrDefault(emptyMap()).also { SpeechText.checked = it }
     }
 
+    /**
+     * The revision edition (APPSC Revision) ships edition.json and rev{n}.json, the exam-ready condensed notes
+     * (tools/build_revision.py); its pages are read from those. The full notes stay available ([fullBook]).
+     */
+    val revision: Boolean by lazy { runCatching { open("edition.json").close() }.isSuccess }
+
+    /** Name of this edition: "APPSC Prep" or "APPSC Revision". */
+    val appName: String get() = if (revision) "APPSC Revision" else "APPSC Prep"
+
     private val books = HashMap<Int, Book>()
+    private val fullBooks = HashMap<Int, Book>()
     private val mutex = Mutex()
 
     suspend fun book(id: Int): Book = mutex.withLock {
-        books[id] ?: withContext(Dispatchers.IO) { parseBook(readJson("book$id.json")) }.also { books[id] = it }
+        books[id] ?: withContext(Dispatchers.IO) { parseBook(readJson(if (revision) "rev$id.json" else "book$id.json")) }.also { books[id] = it }
     }
 
     fun cachedBook(id: Int): Book? = books[id]
+
+    /** The full notes of a book (the same as [book] in the notes edition): "Full notes" on a revision page. */
+    suspend fun fullBook(id: Int): Book = if (!revision) book(id) else mutex.withLock {
+        fullBooks[id] ?: withContext(Dispatchers.IO) { parseBook(readJson("book$id.json")) }.also { fullBooks[id] = it }
+    }
 
     private val mcqs = HashMap<Int, BookMcq>()
 

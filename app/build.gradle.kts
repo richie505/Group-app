@@ -14,8 +14,8 @@ android {
         applicationId = "com.appsc.prep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 37
-        versionName = "2.26"
+        versionCode = 38
+        versionName = "2.27"
     }
 
     signingConfigs {
@@ -25,6 +25,21 @@ android {
             storePassword = "appscprep"
             keyAlias = "appsc-prep"
             keyPassword = "appscprep"
+        }
+    }
+
+    // Two apps from one code base: the full notes, and the exam-ready revision notes (tools/build_revision.py).
+    // They install side by side, each with its own progress.
+    flavorDimensions += "edition"
+    productFlavors {
+        create("notes") {
+            dimension = "edition"
+            resValue("string", "app_name", "APPSC Prep")
+        }
+        create("revise") {
+            dimension = "edition"
+            applicationIdSuffix = ".revise"
+            resValue("string", "app_name", "APPSC Revision")
         }
     }
 
@@ -51,7 +66,7 @@ android {
     }
     testOptions {
         unitTests.isIncludeAndroidResources = true
-        // ./gradlew testDebugUnitTest --tests '*SpeechAuditTest' -Pspeech.audit=/path/out.tsv dumps read-aloud text
+        // ./gradlew testNotesDebugUnitTest --tests '*SpeechAuditTest' -Pspeech.audit=/path/out.tsv dumps read-aloud text
         unitTests.all { test ->
             project.findProperty("speech.audit")?.let { test.systemProperty("speech.audit", it) }
             test.systemProperty("prep.strict", "true") // a failing read-aloud rule fails the tests (skipped on phones)
@@ -73,7 +88,7 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
 
-    // Screenshot tests (JVM, no device needed): ./gradlew recordRoborazziDebug
+    // Screenshot tests (JVM, no device needed): ./gradlew recordRoborazziNotesDebug
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.robolectric:robolectric:4.14.1")
     testImplementation("io.github.takahirom.roborazzi:roborazzi:1.39.0")

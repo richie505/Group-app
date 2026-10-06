@@ -147,7 +147,7 @@ fun BookScreen(id: Int, nav: Nav) {
                                 Spacer(Modifier.height(3.dp))
                                 Text(unit.title, style = TextStyle(fontSize = 16.sp, lineHeight = 21.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
                                 Text(
-                                    "${rows.size} sections · $done/$total read",
+                                    "${rows.size} sections · $done/$total ${LocalApp.current.doneWord}",
                                     style = TextStyle(fontSize = 12.sp, color = C.Muted),
                                     modifier = Modifier.padding(top = 3.dp),
                                 )
@@ -218,14 +218,14 @@ fun ProgressScreen(nav: Nav) {
                 Column(Modifier.padding(20.dp)) {
                     Text("Overall", style = TextStyle(fontSize = 13.sp, color = C.Muted))
                     Text(
-                        "${if (total == 0) 0 else done * 100 / total}% of notes read",
+                        "${if (total == 0) 0 else done * 100 / total}% of notes ${app.doneWord}",
                         style = TextStyle(fontSize = 26.sp, fontWeight = FontWeight.Bold, color = C.Ink),
                     )
                     Spacer(Modifier.height(10.dp))
                     ProgressLine(if (total == 0) 0f else done / total.toFloat())
                     Spacer(Modifier.height(18.dp))
                     Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        StatBox("$done", "subsections read", Icons.Outlined.TaskAlt, Modifier.weight(1f))
+                        StatBox("$done", "subsections ${app.doneWord}", Icons.Outlined.TaskAlt, Modifier.weight(1f))
                         StatBox("$daysDone / 90", "days completed", Icons.Outlined.CalendarMonth, Modifier.weight(1f))
                     }
                     Spacer(Modifier.height(10.dp))
@@ -326,7 +326,7 @@ private fun BackupCard() {
         message = when (text) {
             null -> "No file opened." to true
             else -> runCatching { store.restore(text, app.repo.idMoves) }.fold(
-                { r -> "Restored: ${r.read} pages read, ${r.saved} bookmarks, ${r.answers} MCQ answers, ${r.notes} own notes." to false },
+                { r -> "Restored: ${r.read} pages ${app.doneWord}, ${r.saved} bookmarks, ${r.answers} MCQ answers, ${r.notes} own notes." to false },
                 { (it.message ?: "Could not read this file.") to true },
             )
         }
@@ -348,7 +348,7 @@ private fun BackupCard() {
         Spacer(Modifier.height(12.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             androidx.compose.material3.Button(
-                onClick = { save("APPSC-Prep-backup-${java.time.LocalDate.now()}.json", store.backup()) },
+                onClick = { save("${app.repo.appName.replace(' ', '-')}-backup-${java.time.LocalDate.now()}.json", store.backup()) },
                 colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Green),
                 modifier = Modifier.weight(1f),
             ) { Text("Back up now") }

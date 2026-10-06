@@ -124,6 +124,9 @@ interface Speech {
 }
 
 class AppState(val repo: Repository, val store: ProgressStore, val platform: Platform) {
+    /** "read" in the notes app, "revised" in the revision app (progress labels). */
+    val doneWord: String get() = if (repo.revision) "revised" else "read"
+
     init {
         store.migrate(repo.idMoves)
     }
