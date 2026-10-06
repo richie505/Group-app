@@ -427,7 +427,10 @@ fun PlanScreen(nav: Nav) {
             }
             item(key = "buffer") {
                 Column {
-                    SectionHeader("Final buffer (R3) · 20 Dec – 2 Jan")
+                    SectionHeader(
+                        "Final buffer (R3) · " + plan.days.last().date.plusDays(1).format(DateTimeFormatter.ofPattern("d MMM")) +
+                            " – " + plan.exam.minusDays(1).format(DateTimeFormatter.ofPattern("d MMM")),
+                    )
                     plan.buffer.forEach { b ->
                         Row(Modifier.padding(horizontal = 20.dp, vertical = 6.dp)) {
                             Text(b.dates, style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.Bold, color = C.Accent), modifier = Modifier.width(92.dp))
@@ -517,7 +520,7 @@ private fun phaseGroup(d: PlanDay): String = when {
 }
 
 fun prettyPhase(d: PlanDay): String = when (d.type) {
-    "sunday" -> "Sunday review"
+    "sunday" -> "Weekly review"
     "revision" -> "R2 revision"
     "mock" -> "Mock test"
     else -> "First pass"

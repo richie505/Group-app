@@ -57,6 +57,11 @@ feet of river water; ITC is input tax credit on GST pages and ITC Limited elsewh
 Representative. A full form is skipped only when the same bullet already spells it out. Hyphenated scheme names are read whole or part by part (NP-NSPE, PM-KISAN, NFHS-5, PMGSY-IV). A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
+**Plan dates** (2.26): Day 1 is 6 Oct 2026, Day 90 is 3 Jan 2027, the final buffer runs 4-23 Jan and the exam is
+24 Jan 2027. `tools/reschedule_plan.py <plan.json> <day-1 date> <exam date>` moves every day (content and day
+numbers stay; the review day is every 7th day, now called the weekly review) and spreads the buffer over the days
+left; then rebuild the MCQ schedule PDFs (below). Re-running `parse_plan.py` restores the original dates.
+
 **Backup** (2.25): Progress → *Back up now* saves read marks, bookmarks, MCQ answers, study days and own notes to one
 JSON file (phone storage, Drive …; on Windows a Save box); *Restore* adds a backup to what is on the device - nothing
 is deleted, the backup's MCQ answers and notes win, and a backup from before the notes were regrouped is moved to the
