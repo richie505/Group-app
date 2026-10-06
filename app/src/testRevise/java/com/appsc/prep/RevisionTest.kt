@@ -5,7 +5,6 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
-import androidx.compose.ui.test.performClick
 import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
@@ -41,6 +40,11 @@ class RevisionTest {
     private val ctx get() = ApplicationProvider.getApplicationContext<android.content.Context>()
     private val repo by lazy { Repository { ctx.assets.open(it) } }
 
+    /** The same assets read as the notes app does (no edition.json): the full notes, to compare with. */
+    private val notes by lazy {
+        Repository { name -> if (name == "edition.json") throw java.io.FileNotFoundException(name) else ctx.assets.open(name) }
+    }
+
     private val nav = object : Nav {
         override fun quiz(kind: String, book: Int, index: Int, mode: String, sub: Int) {}
         override fun day(n: Int) {}
@@ -64,7 +68,7 @@ class RevisionTest {
         var short = 0
         for (b in 1..6) {
             val rev = repo.book(b)
-            val notes = repo.fullBook(b)
+            val notes = this@RevisionTest.notes.book(b)
             // every page of the notes is here, at the same place, so the 90-day plan and progress line up
             assertEquals(notes.rows.size, rev.rows.size)
             rev.rows.zip(notes.rows).forEach { (r, n) ->
@@ -74,22 +78,27 @@ class RevisionTest {
             full += notes.rows.sumOf { r -> r.secs.sumOf { it.wordCount } }
             short += rev.rows.sumOf { r -> r.secs.sumOf { it.wordCount } }
         }
-        assertTrue("revision is $short of $full words", short < full / 2)
+        assertTrue("revision is $short of $full words", short < full * 6 / 10)
     }
 
-    @Test fun keyFactsStaySourcesGo() = runBlocking {
+    /** A page's revision facts are what its MCQs test, answer in bold, each fact once; source tags never. */
+    @Test fun factsFromTheMcqs() = runBlocking {
         val page = repo.book(2).rows[0].secs[1] // Indian Councils Acts 1861, 1892, 1909
         val t = text(page.blocks)
-        for (fact in listOf("separate electorate for Muslims", "Dyarchy in provinces", "All-India Federation", "1892")) {
-            assertTrue("$fact missing:\n$t", t.contains(fact))
+        for (fact in listOf("indirect election", "six months", "Raja of Benaras", "ordinance")) {
+            assertTrue("$fact missing:\n$t", t.contains(fact, ignoreCase = true))
         }
-        assertTrue(t, page.blocks.any { it is TextBlock && it.kind == 'x' }) // exam angles kept
-        // no source tags anywhere
+        assertTrue(t, page.blocks.any { it is TextBlock && it.kind == 'x' }) // exam angles first
+        assertTrue(t, page.blocks.any { b -> b is TextBlock && b.runs.any { it.bold } }) // answers in bold
+        // no filler from the explanations, no source tags, no repeated sentence
         for (b in 1..6) {
             repo.book(b).rows.forEach { r ->
                 r.secs.forEach { s ->
                     val x = text(s.blocks)
                     assertTrue("${s.title}: $x", !x.contains("[GK]") && !x.contains("Not in your sources"))
+                    assertTrue("${s.title}: $x", !Regex("""(?m)^Statements? [\d, and]+ (is|are) (correct|incorrect)""").containsMatchIn(x))
+                    val lines = s.blocks.filterIsInstance<TextBlock>().map { tb -> tb.runs.joinToString("") { it.text } }
+                    assertEquals(s.title, lines.size, lines.toSet().size)
                 }
             }
         }
@@ -100,8 +109,8 @@ class RevisionTest {
         repo.checkedAcronyms
         val page = repo.book(2).rows[0].secs[1]
         val spoken = com.appsc.prep.data.SpeechText.parts(page.title, page.blocks, 2, repo.book(2).rows[0].title).joinToString(" ") { it.second }
-        assertTrue(spoken, spoken.contains("separate electorate for Muslims"))
-        assertTrue(spoken, spoken.contains("Government of India Act 1935")) // GoI -> Government of India
+        assertTrue(spoken, spoken.contains("six months"))
+        assertTrue(spoken, spoken.contains("Indian Councils Act"))
         assertTrue(spoken, !spoken.contains("[GK]") && !spoken.contains("CDI"))
     }
 
@@ -114,15 +123,12 @@ class RevisionTest {
         rule.onRoot().captureRoboImage("screenshots/revision_1_today.png")
     }
 
-    @Test fun keyFactsAndFullNotes() {
+    @Test fun revisionPage() {
         val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
         runBlocking { app.repo.book(2); app.repo.mcq(2) }
         rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { ReaderScreen(2, 0, 1, nav) } } }
         rule.waitForIdle()
-        rule.onNodeWithText("Key facts").assertExists()
-        rule.onRoot().captureRoboImage("screenshots/revision_2_key_facts.png")
-        rule.onNodeWithText("Full notes").performClick()
-        rule.waitUntil(20_000) { rule.onAllNodesWithText("Beginning of representative institutions", substring = true).fetchSemanticsNodes().isNotEmpty() }
-        rule.onRoot().captureRoboImage("screenshots/revision_3_full_notes.png")
+        rule.onAllNodesWithText("Full notes").fetchSemanticsNodes().let { assertEquals(0, it.size) } // standalone
+        rule.onRoot().captureRoboImage("screenshots/revision_2_page.png")
     }
 }

@@ -76,7 +76,6 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.SpeechText
 import com.appsc.prep.data.Book
 import com.appsc.prep.data.Saved
-import com.appsc.prep.data.Subsection
 import com.appsc.prep.data.TableBlock
 import com.appsc.prep.data.TextBlock
 import com.appsc.prep.data.UserNotes
@@ -129,13 +128,8 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
     }
     val row = book.rows[rowI]
     val id = subsectionId(bookId, rowI, secI)
-    // revision edition: the key facts, or this page's full notes on demand
-    val revision = app.repo.revision
-    var full by rememberSaveable(id) { mutableStateOf(false) }
-    val fullSec by androidx.compose.runtime.produceState<Subsection?>(null, id, full) {
-        value = if (revision && full) app.repo.fullBook(bookId).rows.getOrNull(rowI)?.secs?.getOrNull(secI) else null
-    }
-    val sec = fullSec ?: row.secs[secI.coerceIn(0, row.secs.size - 1)]
+    val revision = app.repo.revision // APPSC Revision: the page's revision facts
+    val sec = row.secs[secI.coerceIn(0, row.secs.size - 1)]
     val pos = Pos(rowI, secI)
     val next = book.next(pos)
     val prev = book.prev(pos)
@@ -303,15 +297,12 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                     style = TextStyle(fontSize = 14.sp, color = C.Faint),
                                 )
                             }
-                            if (revision) {
-                                RevisionSwitch(full) { full = it }
-                                if (!full && sec.blocks.isEmpty()) {
-                                    Text(
-                                        "No key facts beyond the headings here - open Full notes if you need it.",
-                                        style = TextStyle(fontSize = 14.sp, color = C.Muted),
-                                        modifier = Modifier.padding(bottom = 12.dp),
-                                    )
-                                }
+                            if (revision && sec.blocks.isEmpty()) {
+                                Text(
+                                    "Nothing to revise on this page.",
+                                    style = TextStyle(fontSize = 14.sp, color = C.Muted),
+                                    modifier = Modifier.padding(bottom = 12.dp),
+                                )
                             }
                             HorizontalDivider(color = C.Line)
                             Spacer(Modifier.height(10.dp))
@@ -783,26 +774,3 @@ private fun PlayerBar(
     }
 }
 
-/** Revision edition: the page's key facts (default) or its full notes. */
-@Composable
-private fun RevisionSwitch(full: Boolean, onChange: (Boolean) -> Unit) {
-    Row(
-        Modifier.fillMaxWidth().padding(bottom = 12.dp).clip(RoundedCornerShape(12.dp)).background(C.Surface).padding(4.dp),
-        horizontalArrangement = Arrangement.spacedBy(4.dp),
-    ) {
-        listOf(false to "Key facts", true to "Full notes").forEach { (value, label) ->
-            val on = full == value
-            Text(
-                label,
-                style = TextStyle(
-                    fontSize = 14.sp, fontWeight = FontWeight.SemiBold,
-                    color = if (on) Color.White else C.Muted, textAlign = androidx.compose.ui.text.style.TextAlign.Center,
-                ),
-                modifier = Modifier.weight(1f).clip(RoundedCornerShape(9.dp))
-                    .background(if (on) C.Green else Color.Transparent)
-                    .clickable { onChange(value) }
-                    .padding(vertical = 8.dp),
-            )
-        }
-    }
-}

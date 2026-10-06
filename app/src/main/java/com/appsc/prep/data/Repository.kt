@@ -153,8 +153,8 @@ class Repository(private val open: (String) -> InputStream) {
     }
 
     /**
-     * The revision edition (APPSC Revision) ships edition.json and rev{n}.json, the exam-ready condensed notes
-     * (tools/build_revision.py); its pages are read from those. The full notes stay available ([fullBook]).
+     * The revision edition (APPSC Revision) ships edition.json and rev{n}.json: for every page of the notes, the
+     * facts its MCQs test (tools/build_revision_mcq.py). Its pages are read from those.
      */
     val revision: Boolean by lazy { runCatching { open("edition.json").close() }.isSuccess }
 
@@ -162,7 +162,6 @@ class Repository(private val open: (String) -> InputStream) {
     val appName: String get() = if (revision) "APPSC Revision" else "APPSC Prep"
 
     private val books = HashMap<Int, Book>()
-    private val fullBooks = HashMap<Int, Book>()
     private val mutex = Mutex()
 
     suspend fun book(id: Int): Book = mutex.withLock {
@@ -171,10 +170,6 @@ class Repository(private val open: (String) -> InputStream) {
 
     fun cachedBook(id: Int): Book? = books[id]
 
-    /** The full notes of a book (the same as [book] in the notes edition): "Full notes" on a revision page. */
-    suspend fun fullBook(id: Int): Book = if (!revision) book(id) else mutex.withLock {
-        fullBooks[id] ?: withContext(Dispatchers.IO) { parseBook(readJson("book$id.json")) }.also { fullBooks[id] = it }
-    }
 
     private val mcqs = HashMap<Int, BookMcq>()
 

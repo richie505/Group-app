@@ -57,18 +57,18 @@ feet of river water; ITC is input tax credit on GST pages and ITC Limited elsewh
 Representative. A full form is skipped only when the same bullet already spells it out. Hyphenated scheme names are read whole or part by part (NP-NSPE, PM-KISAN, NFHS-5, PMGSY-IV). A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
-**APPSC Revision** (2.27): a second app from the same code - the exam-ready revision notes, on the same 90-day
-plan (same days, sections and pages, so "Day 12" is the same topics in both). It installs next to APPSC Prep
-(`com.appsc.prep.revise`, green icon) with its own progress ("revised" marks), backup, read-aloud, MCQs and full
-forms. Each page opens on **Key facts**; **Full notes** shows that page of the notes. The key facts come from
-`tools/build_revision.py` (→ `app/src/revise/assets/rev{1..6}.json`), built only from the notes' own sentences, so
-nothing can disagree with them: exam angles are kept whole; every other clause is scored by the words the page's
-MCQs and past papers ask (weighted by rarity), its key terms, bold phrases and numbers, and the best ones are kept
-up to a budget set by the plan's priority for the section (HIGH 42%, MED 30%, LIGHT 18% of the page); a clause
-that restates a fact already given on the page is skipped, tables with the same heading are merged, and source
-tags, "see below" pointers and asides about what the sources say are dropped. 1.03 M words → 0.41 M (40%). The
-edition is chosen by `edition.json` in the revision app's assets (`Repository.revision`); tests for the notes app
-are in `src/testNotes`, for the revision app in `src/testRevise`.
+**APPSC Revision** (2.28): a second, standalone app from the same code - revision sheets built from the app's
+MCQs, on the same 90-day plan (same days, sections and pages, so "Day 12" is the same topics in both). It installs
+next to APPSC Prep (`com.appsc.prep.revise`, green icon) with its own progress ("revised" marks), backup,
+read-aloud, MCQ practice and full forms. Every MCQ's explanation states the fact behind its answer;
+`tools/build_revision_mcq.py` (→ `app/src/revise/assets/rev{1..6}.json`) turns each page's questions into fact
+bullets: filler out ("Statements 1 and 2 are correct", "Hence option (b)"), "Statement 3 is false because X" → X,
+one sentence per question, the answer in bold, a fact already given on the page (its rare words, all its numbers)
+not repeated, the notes' exam-angle lines first. Each page keeps its most valuable facts - rare information, the
+answer stated, key terms, past-paper questions - up to a budget by the plan's priority (HIGH 35%, MED 24%, LIGHT
+14% of the page's notes). Pages with no questions get their key facts from the notes (`tools/build_revision.py`).
+26,940 facts, 0.52 M words (half the notes). The edition is chosen by `edition.json` in the revision app's assets
+(`Repository.revision`); tests for the notes app are in `src/testNotes`, for the revision app in `src/testRevise`.
 
 **Plan dates** (2.26): Day 1 is 6 Oct 2026, Day 90 is 3 Jan 2027, the final buffer runs 4-23 Jan and the exam is
 24 Jan 2027. `tools/reschedule_plan.py <plan.json> <day-1 date> <exam date>` moves every day (content and day
