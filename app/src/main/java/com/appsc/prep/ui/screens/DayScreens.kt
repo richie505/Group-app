@@ -53,6 +53,7 @@ import com.appsc.prep.data.PlanRow
 import com.appsc.prep.ui.components.Card
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.PracticeCard
+import com.appsc.prep.ui.components.practiceSets
 import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.SectionHeader
 import com.appsc.prep.ui.components.SectionItem
@@ -313,12 +314,19 @@ private fun DayPracticeCard(day: PlanDay, nav: Nav) {
     val app = LocalApp.current
     val total = day.rows.sumOf { app.repo.rowInfo(it.book, it.row)?.questionCount ?: 0 }
     if (total == 0) return
+    // the day's questions, to count what is left to try and what was got wrong
+    val pool = rememberPool(QuizSource("day", 0, day.n))
+    val ids = pool?.map { it.id }
+    val sets = ids?.let { practiceSets(it, app.store.answers, app.store.seen) }
+    val stats = ids?.let { app.store.quizStats(it) }
     SectionHeader("MCQ practice")
     PracticeCard(
         title = "Today's MCQs",
-        subtitle = "$total questions on today's sections",
-        attempted = null,
+        subtitle = "${ids?.size ?: total} questions on today's sections",
+        attempted = stats?.let { Triple(it.first, it.second, ids.size) },
         onStart = { nav.quiz("day", 0, day.n) },
+        sets = sets,
+        onSet = { mode -> nav.quiz("day", 0, day.n, mode) },
     )
 }
 

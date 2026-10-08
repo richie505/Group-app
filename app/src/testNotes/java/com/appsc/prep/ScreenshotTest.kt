@@ -77,6 +77,23 @@ class ScreenshotTest {
     @Test fun today() = shot("1_today") { TodayScreen(nav) }
     @Test fun plan() = shot("2_plan") { PlanScreen(nav) }
     @Test fun day1() = shot("3_day1") { DayScreen(1, nav) }
+
+    /** Today's MCQs: the reader picks unattempted, incorrect or all, with the counts. */
+    @Test fun dayPracticeSets() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val repo = Repository { ctx.assets.open(it) }
+        val day = repo.plan.days.first { it.n == 1 }
+        val ids = runBlocking { day.rows.flatMap { r -> repo.mcq(r.book).rows[r.row].orEmpty() }.map { it.id }.distinct() }
+        val store = ProgressStore(PrefsStorage(ctx))
+        ids.take(10).forEachIndexed { i, id -> store.recordAnswer(id, i % 3 != 0) } // 4 wrong, 6 right
+        val sets = com.appsc.prep.ui.components.practiceSets(ids, store.answers, store.seen)
+        assertEquals(com.appsc.prep.ui.components.PracticeSets(ids.size - 10, 4, ids.size), sets)
+        shot("27_day_practice_sets", preload = 2) { DayScreen(1, nav) }
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("Incorrect"))
+        rule.waitForIdle()
+        rule.onNodeWithText("${ids.size - 10}").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/27_day_practice_sets.png")
+    }
     /**
      * Stepped clock: after the Google and word-meaning tests in the same run, this screen never reported idle
      * (an order-dependent Robolectric hang that does not occur alone), so it is drawn after 3 s instead of waiting.

@@ -40,6 +40,7 @@ import com.appsc.prep.ui.components.DoneIcon
 import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.PracticeCard
+import com.appsc.prep.ui.components.practiceSets
 import com.appsc.prep.ui.components.PriorityTag
 import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.SectionHeader
@@ -234,6 +235,8 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                         attempted = stats?.let { Triple(it.first, it.second, ids.size) },
                         onStart = { nav.quiz("row", bookId, rowIndex) },
                         onWrong = { nav.quiz("row", bookId, rowIndex, "wrong") },
+                        sets = ids?.let { practiceSets(it, app.store.answers, app.store.seen) },
+                        onSet = { mode -> nav.quiz("row", bookId, rowIndex, mode) },
                     )
                 }
             }

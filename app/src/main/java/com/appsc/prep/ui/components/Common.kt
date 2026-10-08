@@ -325,6 +325,32 @@ fun StatBox(value: String, label: String, icon: ImageVector?, modifier: Modifier
 }
 
 /** Entry point to an MCQ practice set. [attempted] = (attempted, correct, total) when known. */
+/** How many of a practice pool are not tried yet, answered wrong (latest attempt), and in all. */
+data class PracticeSets(val unattempted: Int, val wrong: Int, val total: Int)
+
+/** [PracticeSets] for these question ids from the reader's answers. */
+fun practiceSets(ids: List<String>, answers: Map<String, Boolean>, seen: Set<String>) = PracticeSets(
+    unattempted = ids.count { it !in answers && it !in seen },
+    wrong = ids.count { answers[it] == false },
+    total = ids.size,
+)
+
+@Composable
+private fun SetChip(label: String, count: Int, ink: Color, bg: Color, modifier: Modifier, onClick: () -> Unit) {
+    val on = count > 0
+    Column(
+        modifier
+            .clip(RoundedCornerShape(10.dp))
+            .background(if (on) bg else C.Chip)
+            .clickable(enabled = on, onClick = onClick)
+            .padding(vertical = 8.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Text("$count", style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.Bold, color = if (on) ink else C.Faint))
+        Text(label, style = TextStyle(fontSize = 12.sp, fontWeight = FontWeight.Medium, color = if (on) ink else C.Faint))
+    }
+}
+
 @Composable
 fun PracticeCard(
     title: String,
@@ -332,6 +358,8 @@ fun PracticeCard(
     attempted: Triple<Int, Int, Int>?,
     onStart: () -> Unit,
     onWrong: (() -> Unit)? = null,
+    sets: PracticeSets? = null,
+    onSet: (String) -> Unit = {},
 ) {
     Card(onClick = onStart) {
         Column(Modifier.padding(16.dp)) {
@@ -347,6 +375,15 @@ fun PracticeCard(
                 }
                 Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
             }
+            if (sets != null) {
+                // the reader picks the set: questions not tried yet, the ones got wrong, or all of them
+                Spacer(Modifier.height(12.dp))
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    SetChip("Unattempted", sets.unattempted, C.Accent, C.AccentSoft, Modifier.weight(1f)) { onSet("new") }
+                    SetChip("Incorrect", sets.wrong, C.High, C.HighSoft, Modifier.weight(1f)) { onSet("wrong") }
+                    SetChip("All", sets.total, C.ExamInk, C.ExamBg, Modifier.weight(1f)) { onSet("all") }
+                }
+            }
             if (attempted != null && attempted.third > 0) {
                 val (a, c, t) = attempted
                 Spacer(Modifier.height(12.dp))
@@ -358,7 +395,7 @@ fun PracticeCard(
                         style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     )
                 }
-                if (onWrong != null && a - c > 0) {
+                if (onWrong != null && sets == null && a - c > 0) {
                     Text(
                         "Retry ${a - c} wrong answers",
                         style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.High),

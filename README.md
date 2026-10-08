@@ -57,6 +57,10 @@ feet of river water; ITC is input tax credit on GST pages and ITC Limited elsewh
 Representative. A full form is skipped only when the same bullet already spells it out. Hyphenated scheme names are read whole or part by part (NP-NSPE, PM-KISAN, NFHS-5, PMGSY-IV). A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
+**Pick the MCQ set** (2.30): Today's MCQs and each section's practice card show three buttons with counts -
+**Unattempted** (not tried yet), **Incorrect** (wrong on the latest attempt) and **All** (`practiceSets`, the
+quiz modes "new", "wrong" and "all"). A set with nothing in it is greyed out.
+
 **APPSC Revision** (2.28): a second, standalone app from the same code - revision sheets built from the app's
 MCQs, on the same 90-day plan (same days, sections and pages, so "Day 12" is the same topics in both). It installs
 next to APPSC Prep (`com.appsc.prep.revise`, green icon) with its own progress ("revised" marks), backup,
