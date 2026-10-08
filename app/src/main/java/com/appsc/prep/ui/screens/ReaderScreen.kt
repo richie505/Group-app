@@ -77,11 +77,13 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.SpeechText
 import com.appsc.prep.data.Book
 import com.appsc.prep.data.Saved
+import com.appsc.prep.data.Subsection
 import com.appsc.prep.data.TableBlock
 import com.appsc.prep.data.TextBlock
 import com.appsc.prep.data.UserNotes
 import com.appsc.prep.data.subsectionId
 import com.appsc.prep.ui.components.BlockView
+import com.appsc.prep.ui.components.PageList
 import com.appsc.prep.ui.components.GooglePage
 import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.Playback
@@ -241,7 +243,9 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         }
     }
 
-    Box(Modifier.fillMaxSize().background(Color.White)) {
+    androidx.compose.foundation.layout.BoxWithConstraints(Modifier.fillMaxSize().background(Color.White)) {
+        // a wide window (Windows, tablets): the subsections stay listed on the left
+        val wide = maxWidth >= 1100.dp
         Column(Modifier.fillMaxSize()) {
             TopBar(sec.title, onBack = ::stopAndBack) {
                 val saved = store.isSaved(id)
@@ -296,8 +300,25 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                 }
             }
 
-            DictionaryArea({ b, r, s -> nav.read(b, r, s) }, Modifier.fillMaxSize()) {
-                LazyColumn(Modifier.fillMaxSize(), state = listState) {
+            Row(Modifier.fillMaxSize()) {
+            if (wide) {
+                Column(Modifier.width(320.dp).fillMaxHeight().background(C.Surface)) {
+                    Text(
+                        row.title,
+                        style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
+                        modifier = Modifier.padding(start = 20.dp, end = 16.dp, top = 16.dp, bottom = 8.dp),
+                        maxLines = 3, overflow = TextOverflow.Ellipsis,
+                    )
+                    HorizontalDivider(color = C.Line)
+                    TocList(row.secs, secI, isRead = { store.isDone(subsectionId(bookId, rowI, it)) }, compact = true) { i ->
+                        go(Pos(rowI, i))
+                        scope.launch { listState.scrollToItem(0) }
+                    }
+                }
+                androidx.compose.material3.VerticalDivider(color = C.Line)
+            }
+            DictionaryArea({ b, r, s -> nav.read(b, r, s) }, Modifier.weight(1f).fillMaxHeight()) {
+                PageList(Modifier.fillMaxSize(), state = listState, max = 880.dp) {
                     item(key = "head-$id") {
                         Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 18.dp)) {
                             Text(
@@ -502,10 +523,11 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     }
                 }
             }
+            }
         }
 
-        // floating table-of-contents button
-        Box(
+        // floating table-of-contents button (on a wide window the list is always on the left)
+        if (!wide) Box(
             Modifier
                 .align(Alignment.BottomEnd)
                 .padding(end = 18.dp, bottom = if (listening) 96.dp else 22.dp)
@@ -577,38 +599,44 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     maxLines = 3, overflow = TextOverflow.Ellipsis,
                 )
                 HorizontalDivider(color = C.Ink, modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 12.dp))
-                val tocState = rememberLazyListState(initialFirstVisibleItemIndex = (secI - 2).coerceAtLeast(0))
-                LazyColumn(state = tocState) {
-                    itemsIndexed(row.secs) { i, s ->
-                        val current = i == secI
-                        val read = store.isDone(subsectionId(bookId, rowI, i))
-                        Row(
-                            Modifier
-                                .fillMaxWidth()
-                                .clickable {
-                                    go(Pos(rowI, i))
-                                    tocOpen = false
-                                    scope.launch { listState.scrollToItem(0) }
-                                }
-                                .padding(horizontal = 20.dp, vertical = 14.dp),
-                        ) {
-                            Text(
-                                "${i + 1}.  ${s.title}",
-                                style = TextStyle(
-                                    fontSize = 16.sp, lineHeight = 23.sp,
-                                    color = if (current) C.Blue else C.Ink,
-                                ),
-                                modifier = Modifier.weight(1f),
-                            )
-                            if (read) {
-                                Spacer(Modifier.width(8.dp))
-                                Icon(Icons.Filled.CheckCircle, null, tint = C.Green, modifier = Modifier.size(18.dp).padding(top = 3.dp))
-                            }
-                        }
-                        if (i < row.secs.size - 1) HorizontalDivider(color = C.Ink.copy(alpha = 0.6f), modifier = Modifier.padding(horizontal = 20.dp))
-                    }
+                TocList(row.secs, secI, isRead = { store.isDone(subsectionId(bookId, rowI, it)) }) { i ->
+                    go(Pos(rowI, i))
+                    tocOpen = false
+                    scope.launch { listState.scrollToItem(0) }
                 }
             }
+        }
+    }
+}
+
+/** The section's subsections, the current one in blue and read ones ticked; [compact] for the side panel. */
+@Composable
+private fun TocList(secs: List<Subsection>, current: Int, isRead: (Int) -> Boolean, compact: Boolean = false, onPick: (Int) -> Unit) {
+    val tocState = rememberLazyListState(initialFirstVisibleItemIndex = (current - 2).coerceAtLeast(0))
+    LazyColumn(state = tocState) {
+        itemsIndexed(secs) { i, s ->
+            val here = i == current
+            Row(
+                Modifier
+                    .fillMaxWidth()
+                    .background(if (here && compact) C.AccentSoft else Color.Transparent)
+                    .clickable { onPick(i) }
+                    .padding(horizontal = 20.dp, vertical = if (compact) 10.dp else 14.dp),
+            ) {
+                Text(
+                    "${i + 1}.  ${s.title}",
+                    style = TextStyle(
+                        fontSize = if (compact) 14.sp else 16.sp, lineHeight = if (compact) 20.sp else 23.sp,
+                        color = if (here) C.Blue else C.Ink, fontWeight = if (here && compact) FontWeight.SemiBold else FontWeight.Normal,
+                    ),
+                    modifier = Modifier.weight(1f),
+                )
+                if (isRead(i)) {
+                    Spacer(Modifier.width(8.dp))
+                    Icon(Icons.Filled.CheckCircle, null, tint = C.Green, modifier = Modifier.size(18.dp).padding(top = 3.dp))
+                }
+            }
+            if (i < secs.size - 1) HorizontalDivider(color = if (compact) C.Line else C.Ink.copy(alpha = 0.6f), modifier = Modifier.padding(horizontal = 20.dp))
         }
     }
 }

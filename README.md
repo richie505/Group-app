@@ -181,7 +181,12 @@ question numbers and answers only, in a grid under the section headings.
 
 ## Windows app
 
-`desktop/` is the Windows version. It compiles the same screens and data code as the Android app
+`desktop/` is the Windows version. Since 2.32 the screens use the whole window: lists keep a readable width,
+centred, with the space as padding inside the list so the mouse wheel scrolls anywhere (`PageList`); subjects, the
+90-day plan and progress lay their cards out in columns (`gridItems`, `columnsFor`); the reader keeps the section's
+subsections listed on the left; a quiz (progress, question and buttons) stays in one centred column; tables fill
+the page. Phones are unchanged (the extra width is zero there). `WindowShotsTest` draws every screen at 1366×768
+and 1920×1080 into `desktop/build/shots` for checking. It compiles the same screens and data code as the Android app
 (`app/src/main/java`) with Compose for Desktop; only `MainActivity.kt` and `platform/` are Android-only,
 and `desktop/src/main/kotlin` supplies the Windows side (window, left navigation pane, menu bar,
 keyboard shortcuts, progress saved to `%APPDATA%\APPSC Prep\progress.json`).

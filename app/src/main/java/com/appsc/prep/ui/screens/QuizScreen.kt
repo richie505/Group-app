@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
@@ -51,6 +52,7 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.Question
 import com.appsc.prep.data.Techniques
 import com.appsc.prep.ui.components.Loading
+import com.appsc.prep.ui.components.PageList
 import com.appsc.prep.ui.components.DictionaryArea
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.ProgressLine
@@ -119,17 +121,22 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
             }
             return@Column
         }
-        QuizRound(
-            key = "$round-$currentMode",
-            set = set,
-            pool = pool,
-            onNext = { m ->
-                currentMode = m
-                round++
-            },
-            onDone = nav::back,
-            onOpenNotes = { b, r, sec -> nav.read(b, r, sec) },
-        )
+        // on a wide window the whole quiz (progress, question, buttons) stays in one centred column
+        Box(Modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
+            Box(Modifier.widthIn(max = 900.dp).fillMaxSize()) {
+                QuizRound(
+                    key = "$round-$currentMode",
+                    set = set,
+                    pool = pool,
+                    onNext = { m ->
+                        currentMode = m
+                        round++
+                    },
+                    onDone = nav::back,
+                    onOpenNotes = { b, r, sec -> nav.read(b, r, sec) },
+                )
+            }
+        }
     }
 }
 
@@ -187,7 +194,7 @@ internal fun QuizRound(
             ProgressLine((index + if (answered) 1 else 0) / set.size.toFloat())
         }
         DictionaryArea(onOpenNotes, Modifier.weight(1f)) {
-            LazyColumn(Modifier.fillMaxSize(), state = listState) {
+            PageList(Modifier.fillMaxSize(), state = listState, max = 900.dp) {
                 item(key = "q-${q.id}") {
                     Column(Modifier.padding(horizontal = 20.dp)) {
                         Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(vertical = 6.dp)) {
@@ -487,7 +494,7 @@ private fun Results(
     val (attempted, poolCorrect) = store.quizStats(pool.map { it.id })
     val remaining = pool.size - attempted
     val poolWrong = attempted - poolCorrect
-    LazyColumn(Modifier.fillMaxSize()) {
+    PageList(Modifier.fillMaxSize(), max = 900.dp) {
         item {
             Column(Modifier.padding(20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Spacer(Modifier.height(10.dp))

@@ -47,6 +47,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.BookInfo
 import com.appsc.prep.ui.components.Card
+import com.appsc.prep.ui.components.PageList
+import com.appsc.prep.ui.components.columnsFor
+import com.appsc.prep.ui.components.gridItems
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.SectionHeader
@@ -72,9 +75,9 @@ fun BooksScreen(nav: Nav) {
     val app = LocalApp.current
     Column(Modifier.fillMaxSize()) {
         TopBar("Notes")
-        LazyColumn(Modifier.fillMaxSize()) {
+        PageList(Modifier.fillMaxSize(), max = 1180.dp) { width ->
             item { SectionHeader("Combined Notes G1 + G2") }
-            items(app.repo.index) { b ->
+            gridItems(app.repo.index, columnsFor(width, 460.dp, 2), spacing = 0.dp) { b ->
                 val done = bookDone(b)
                 Card(onClick = { nav.book(b.id) }) {
                     Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -114,7 +117,7 @@ fun BookScreen(id: Int, nav: Nav) {
     val b = app.repo.index[id - 1]
     Column(Modifier.fillMaxSize()) {
         TopBar(b.short, onBack = nav::back)
-        LazyColumn(Modifier.fillMaxSize()) {
+        PageList(Modifier.fillMaxSize()) {
             item {
                 Column(Modifier.padding(20.dp)) {
                     Text(b.title, style = TextStyle(fontSize = 22.sp, lineHeight = 28.sp, fontWeight = FontWeight.Bold, color = Color.Black))
@@ -213,7 +216,7 @@ fun ProgressScreen(nav: Nav) {
     }
     Column(Modifier.fillMaxSize()) {
         TopBar("Progress")
-        LazyColumn(Modifier.fillMaxSize()) {
+        PageList(Modifier.fillMaxSize()) { width ->
             item {
                 Column(Modifier.padding(20.dp)) {
                     Text("Overall", style = TextStyle(fontSize = 13.sp, color = C.Muted))
@@ -224,32 +227,28 @@ fun ProgressScreen(nav: Nav) {
                     Spacer(Modifier.height(10.dp))
                     ProgressLine(if (total == 0) 0f else done / total.toFloat())
                     Spacer(Modifier.height(18.dp))
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        StatBox("$done", "subsections ${app.doneWord}", Icons.Outlined.TaskAlt, Modifier.weight(1f))
-                        StatBox("$daysDone / 90", "days completed", Icons.Outlined.CalendarMonth, Modifier.weight(1f))
-                    }
-                    Spacer(Modifier.height(10.dp))
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        StatBox("${store.streak()}", "day streak", Icons.Outlined.LocalFireDepartment, Modifier.weight(1f))
-                        StatBox("${store.saved.size}", "bookmarks", Icons.Outlined.AutoStories, Modifier.weight(1f))
-                    }
-                    Spacer(Modifier.height(10.dp))
                     // Answers saved before 2.8 are for PYQs (now in the MCQ app); notes-MCQ ids start with "n".
                     val mine = store.answers.filterKeys { it.startsWith("n") }
                     val answered = mine.size
                     val right = mine.count { it.value }
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        StatBox("$answered", "MCQs answered", Icons.Outlined.Quiz, Modifier.weight(1f))
-                        StatBox(
-                            if (answered == 0) "–" else "${right * 100 / answered}%",
-                            "MCQ accuracy", Icons.Outlined.TaskAlt, Modifier.weight(1f),
-                        )
+                    val boxes: List<@Composable (Modifier) -> Unit> = listOf(
+                        { m -> StatBox("$done", "subsections ${app.doneWord}", Icons.Outlined.TaskAlt, m) },
+                        { m -> StatBox("$daysDone / 90", "days completed", Icons.Outlined.CalendarMonth, m) },
+                        { m -> StatBox("${store.streak()}", "day streak", Icons.Outlined.LocalFireDepartment, m) },
+                        { m -> StatBox("${store.saved.size}", "bookmarks", Icons.Outlined.AutoStories, m) },
+                        { m -> StatBox("$answered", "MCQs answered", Icons.Outlined.Quiz, m) },
+                        { m -> StatBox(if (answered == 0) "–" else "${right * 100 / answered}%", "MCQ accuracy", Icons.Outlined.TaskAlt, m) },
+                    )
+                    // 2 a row on a phone, 3 on a wide window
+                    boxes.chunked(columnsFor(width, 300.dp, 3).coerceAtLeast(2)).forEach { row ->
+                        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) { row.forEach { it(Modifier.weight(1f)) } }
+                        Spacer(Modifier.height(10.dp))
                     }
                 }
                 HorizontalDivider(color = C.Line)
                 SectionHeader("By subject")
             }
-            items(books) { b ->
+            gridItems(books, columnsFor(width, 420.dp, 2), spacing = 0.dp) { b ->
                 val d = bookDone(b)
                 Column(
                     Modifier.fillMaxWidth().clickable { nav.book(b.id) }.padding(horizontal = 20.dp, vertical = 12.dp),
@@ -287,7 +286,7 @@ fun SavedScreen(nav: Nav) {
             }
             return@Column
         }
-        LazyColumn(Modifier.fillMaxSize()) {
+        PageList(Modifier.fillMaxSize()) {
             items(saved, key = { it.id }) { s ->
                 val p = s.id.split(':').map { it.toInt() }
                 Row(

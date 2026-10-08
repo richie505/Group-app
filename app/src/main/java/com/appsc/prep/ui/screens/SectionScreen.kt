@@ -37,6 +37,7 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.Book
 import com.appsc.prep.data.subsectionId
 import com.appsc.prep.ui.components.DoneIcon
+import com.appsc.prep.ui.components.PageList
 import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.PracticeCard
@@ -75,7 +76,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
         val planRow = app.repo.planRowByRef[bookId to rowIndex]
         val done = app.store.doneCount(bookId, rowIndex, row.secs.size)
         val firstUnread = row.secs.indices.firstOrNull { !app.store.isDone(subsectionId(bookId, rowIndex, it)) } ?: 0
-        LazyColumn(Modifier.fillMaxSize()) {
+        PageList(Modifier.fillMaxSize()) {
             item {
                 Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
                     if (unit != null) {

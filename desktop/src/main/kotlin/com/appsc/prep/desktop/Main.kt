@@ -109,18 +109,7 @@ private fun FrameWindowScope.DesktopRoot(app: AppState) {
     DesktopPlatform.navBack = { if (nav.previousBackStackEntry != null) nav.popBackStack() }
 
     Menus(app, nav) { dialog = it }
-
-    Row(Modifier.fillMaxSize().background(Color.White)) {
-        Sidebar(tabFor(route)) { nav.openTab(it) }
-        VerticalDivider(color = C.Line)
-        Box(Modifier.weight(1f).fillMaxHeight().background(C.Surface)) {
-            // Screens were designed for phones: keep lines a readable length on a wide monitor.
-            Box(
-                Modifier.align(Alignment.TopCenter).widthIn(max = 920.dp).fillMaxSize().background(Color.White),
-            ) { AppNavHost(nav, actions) }
-            Toast(Modifier.align(Alignment.BottomCenter))
-        }
-    }
+    DesktopShell(nav, actions, tabFor(route))
 
     when (dialog) {
         "keys" -> InfoDialog("Keyboard shortcuts", onClose = { dialog = null }) {
@@ -179,6 +168,20 @@ private fun FrameWindowScope.Menus(app: AppState, nav: NavHostController, show: 
         Menu("Help", mnemonic = 'H') {
             Item("Keyboard shortcuts") { show("keys") }
             Item("About $APP_NAME") { show("about") }
+        }
+    }
+}
+
+/** The window's content: navigation pane on the left, the screen on the right (also rendered by the tests). */
+@Composable
+fun DesktopShell(nav: androidx.navigation.NavHostController, actions: NavImpl, current: String) {
+    Row(Modifier.fillMaxSize().background(Color.White)) {
+        Sidebar(current) { nav.openTab(it) }
+        VerticalDivider(color = C.Line)
+        Box(Modifier.weight(1f).fillMaxHeight().background(Color.White)) {
+            // screens use the whole window: their lists keep a readable width and lay cards out in columns
+            AppNavHost(nav, actions)
+            Toast(Modifier.align(Alignment.BottomCenter))
         }
     }
 }

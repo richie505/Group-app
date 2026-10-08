@@ -159,6 +159,9 @@ private fun TableView(t: TableBlock, scale: Float) {
             widths = widths.map { it * (avail / used) }
         } else if (cols >= 2) {
             widths = widths.map { minOf(it, 260.dp) }
+            // capping can leave the table narrower than the page (a wide window): spread it back to full width
+            val capped = widths.fold(0.dp) { a, b -> a + b }
+            if (capped < avail) widths = widths.map { it * (avail / capped) }
         }
         val total = widths.fold(0.dp) { a, b -> a + b }
         val scroll = rememberScrollState()

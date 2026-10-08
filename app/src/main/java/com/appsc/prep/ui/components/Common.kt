@@ -29,6 +29,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
@@ -42,6 +43,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.ProgressStore
@@ -337,6 +339,54 @@ fun StatBox(value: String, label: String, icon: ImageVector?, modifier: Modifier
 }
 
 /** Entry point to an MCQ practice set. [attempted] = (attempted, correct, total) when known. */
+/** The width a page's content uses: on a wide window (Windows, tablets) lists keep this width, centred. */
+val LocalPageWidth = androidx.compose.runtime.compositionLocalOf { 10_000.dp }
+
+/** How many columns of cards at least [min] wide fit a page [width] wide (1 on phones, up to [most]). */
+fun columnsFor(width: Dp, min: Dp, most: Int = 3): Int = (width / min).toInt().coerceIn(1, most)
+
+/**
+ * A screen's scrolling list. On a window wider than [max] the content stays [max] wide and centred, by padding
+ * inside the list - so the mouse wheel scrolls it from anywhere in the window. On a phone it is a plain list.
+ * [content] gets the content width, to lay cards out in columns ([columnsFor], [gridItems]).
+ */
+@Composable
+fun PageList(
+    modifier: Modifier = Modifier,
+    state: androidx.compose.foundation.lazy.LazyListState = androidx.compose.foundation.lazy.rememberLazyListState(),
+    max: Dp = 1040.dp,
+    content: androidx.compose.foundation.lazy.LazyListScope.(width: Dp) -> Unit,
+) {
+    androidx.compose.foundation.layout.BoxWithConstraints(modifier) {
+        val side = ((maxWidth - max) / 2).coerceAtLeast(0.dp)
+        val width = minOf(maxWidth, max)
+        CompositionLocalProvider(LocalPageWidth provides width) {
+            androidx.compose.foundation.lazy.LazyColumn(
+                Modifier.fillMaxSize(),
+                state = state,
+                contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = side),
+            ) { content(width) }
+        }
+    }
+}
+
+/** [items] in rows of [columns] cards of equal width (a grid inside a [PageList]). */
+fun <T> androidx.compose.foundation.lazy.LazyListScope.gridItems(
+    items: List<T>,
+    columns: Int,
+    spacing: Dp = 12.dp,
+    padding: androidx.compose.foundation.layout.PaddingValues = androidx.compose.foundation.layout.PaddingValues(0.dp),
+    card: @Composable (T) -> Unit,
+) {
+    val rows = items.chunked(columns.coerceAtLeast(1))
+    items(rows.size) { r ->
+        Row(Modifier.fillMaxWidth().padding(padding), horizontalArrangement = Arrangement.spacedBy(spacing)) {
+            rows[r].forEach { Box(Modifier.weight(1f)) { card(it) } }
+            repeat(columns - rows[r].size) { Spacer(Modifier.weight(1f)) }
+        }
+    }
+}
+
 /** How many of a practice pool are not tried yet, answered wrong (latest attempt), and in all. */
 data class PracticeSets(val unattempted: Int, val wrong: Int, val total: Int)
 
