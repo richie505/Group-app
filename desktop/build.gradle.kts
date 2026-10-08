@@ -11,7 +11,7 @@ plugins {
     id("org.jetbrains.compose")
 }
 
-val appVersion = "2.30"
+val appVersion = "2.31"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17

@@ -21,6 +21,8 @@ import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.outlined.AutoAwesome
+import androidx.compose.material.icons.automirrored.outlined.OpenInNew
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -295,15 +297,25 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
 /** Google search with India settings (gl=in) in English. */
 fun googleUrl(query: String) = "https://www.google.com/search?hl=en&gl=in&q=" + java.net.URLEncoder.encode(query, "UTF-8")
 
+/** Google's AI Mode answering [prompt] (free, no sign-in): "Explain simply" on a notes page. */
+fun googleAiUrl(prompt: String) = "https://www.google.com/search?udm=50&hl=en&gl=in&q=" + java.net.URLEncoder.encode(prompt, "UTF-8")
+
 /**
  * Google results for [query] inside the app (India settings), full screen; back goes back a page, then closes.
  * With [onAdd]: a button that takes the text copied from the results (select it, Copy) to the notes.
  */
 @Composable
-fun GooglePage(query: String, onAdd: ((String) -> Unit)? = null, onClose: () -> Unit) {
+fun GooglePage(
+    query: String,
+    onAdd: ((String) -> Unit)? = null,
+    title: String = "Google · $query",
+    url: String = googleUrl(query),
+    gemini: String = query,
+    onClose: () -> Unit,
+) {
     val platform = LocalApp.current.platform
     val back = remember { mutableStateOf<(() -> Boolean)?>(null) }
-    val url = googleUrl(query)
+    var told by remember { mutableStateOf<String?>(null) } // a message after "Ask Gemini"
     Popup(
         onDismissRequest = { if (back.value?.invoke() != true) onClose() },
         properties = PopupProperties(focusable = true, dismissOnClickOutside = false),
@@ -311,8 +323,23 @@ fun GooglePage(query: String, onAdd: ((String) -> Unit)? = null, onClose: () -> 
         Column(Modifier.fillMaxWidth().fillMaxHeight().background(Color.White)) {
             Row(Modifier.fillMaxWidth().padding(horizontal = 4.dp, vertical = 2.dp), verticalAlignment = Alignment.CenterVertically) {
                 IconButton(onClick = onClose) { Icon(Icons.Filled.Close, "Close", tint = C.Ink) }
-                Text("Google · $query", style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Ink), maxLines = 1, modifier = Modifier.weight(1f))
+                Text(title, style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Ink), maxLines = 1, modifier = Modifier.weight(1f))
+                // the same question to Gemini, or this page in Chrome (signed in to Google)
+                IconButton(onClick = { told = platform.askGemini(gemini) }) {
+                    Icon(Icons.Outlined.AutoAwesome, "Ask Gemini", tint = C.Accent)
+                }
+                IconButton(onClick = { platform.openInBrowser(url) }) {
+                    Icon(Icons.AutoMirrored.Outlined.OpenInNew, "Open in Chrome", tint = C.Ink)
+                }
             }
+            told?.let {
+                Text(it, style = TextStyle(fontSize = 13.sp, color = C.Green), modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp))
+            }
+            Text(
+                "Signed-in Google works best in Chrome: tap ↗. Ask Gemini: ✦.",
+                style = TextStyle(fontSize = 12.sp, color = C.Muted),
+                modifier = Modifier.padding(horizontal = 16.dp, vertical = 2.dp),
+            )
             HorizontalDivider(color = C.Line)
             val selected = remember { mutableStateOf<(((WebText) -> Unit) -> Unit)?>(null) }
             platform.WebPage(url, Modifier.fillMaxWidth().weight(1f), back, if (onAdd != null) selected else null)

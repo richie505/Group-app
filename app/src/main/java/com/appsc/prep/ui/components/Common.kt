@@ -92,6 +92,18 @@ interface Platform {
     @Composable
     fun rememberOpenFile(got: (String?) -> Unit): (() -> Unit)? = null
 
+    /**
+     * Opens [url] in the phone's browser (a Chrome tab), where the reader is signed in to Google: Google's sign-in
+     * does not work inside an app's own web view, and some of its pages work better there.
+     */
+    fun openInBrowser(url: String) {}
+
+    /**
+     * Sends [prompt] to Gemini: the Gemini app when it is installed, else gemini.google.com with the prompt
+     * copied to paste. Returns a message for the reader, or null.
+     */
+    fun askGemini(prompt: String): String? = null
+
     /** Read-aloud engine, or null where there is none (the reader then hides the Listen button). */
     val speech: Speech? get() = null
 }

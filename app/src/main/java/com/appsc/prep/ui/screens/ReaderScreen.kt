@@ -41,6 +41,7 @@ import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.SkipNext
 import androidx.compose.material.icons.filled.SkipPrevious
 import androidx.compose.material.icons.outlined.Headphones
+import androidx.compose.material.icons.outlined.Lightbulb
 import androidx.compose.material.icons.filled.Remove
 import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.CheckCircle
@@ -163,9 +164,29 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         SpeechText.parts(sec.title, shown.map { it.second }, bookId, row.title)
     }
     var googleFor by remember { mutableStateOf<Pair<String, String>?>(null) } // gap key, search
+    var keepExplanation by remember { mutableStateOf<String?>(null) } // a simple explanation to keep with the page
     var editing by remember { mutableStateOf<Pair<String, String>?>(null) } // gap key, text
     googleFor?.let { (key, q) ->
         GooglePage(q, onAdd = { copied -> googleFor = null; editing = key to listOfNotNull(store.added[key], copied.takeIf { it.isNotBlank() }).joinToString("\n") }) { googleFor = null }
+    }
+    // "Explain simply": Google's AI Mode rewrites this page for a class 6 reader
+    var explain by remember { mutableStateOf(false) }
+    if (explain) {
+        GooglePage(
+            sec.title,
+            title = "Explain simply · ${sec.title}",
+            url = com.appsc.prep.ui.components.googleAiUrl(simplePrompt(sec.title, plainText(sec.title, sec.blocks))),
+            gemini = simplePrompt(sec.title, plainText(sec.title, sec.blocks), limit = 6000),
+            onAdd = { text -> explain = false; if (text.isNotBlank()) keepExplanation = text },
+        ) { explain = false }
+    }
+    keepExplanation?.let { text ->
+        val pageKey = UserNotes.key(id, UserNotes.PAGE)
+        AddNoteDialog(
+            listOfNotNull(store.added[pageKey], text).joinToString("\n"), existing = store.added.containsKey(pageKey),
+            onSave = { store.setAdded(pageKey, it); keepExplanation = null },
+            onDelete = { store.setAdded(pageKey, null); keepExplanation = null },
+        ) { keepExplanation = null }
     }
     editing?.let { (key, text) ->
         AddNoteDialog(text, existing = store.added.containsKey(key), onSave = { store.setAdded(key, it); editing = null }, onDelete = { store.setAdded(key, null); editing = null }) { editing = null }
@@ -257,6 +278,11 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                             text = { Text("Smaller text") },
                             leadingIcon = { Icon(Icons.Filled.Remove, null) },
                             onClick = { store.changeTextScale(-0.1f) },
+                        )
+                        DropdownMenuItem(
+                            text = { Text("Explain simply") },
+                            leadingIcon = { Icon(Icons.Outlined.Lightbulb, null) },
+                            onClick = { sizeMenu = false; explain = true },
                         )
                         DropdownMenuItem(
                             text = { Text("Share") },
@@ -774,3 +800,24 @@ private fun PlayerBar(
     }
 }
 
+
+/**
+ * The question for "Explain simply": rewrite this page so a class 6 student understands it, with the page's text
+ * (source tags out, cut at a sentence near 1,400 characters so the link stays short enough for Google).
+ */
+internal fun simplePrompt(title: String, text: String, limit: Int = 1400): String {
+    var body = text.lines().drop(1).joinToString("\n").trim()
+        .replace(Regex("""\[GK[^\]]*]"""), "")
+        .replace(Regex("""\s?\((?:CDI|CDX|APP|APPCA|LENS|LENSD|CDCA|VIS|TH|IYB|APSES|SES|UPSC notes|PT365)[^()]*\)"""), "")
+        .replace(Regex("""Not in your sources:[^\n]*"""), "")
+        .replace(Regex("""[ \t]+"""), " ")
+        .replace(Regex(""" +([.,;:])"""), "$1")
+        .replace(Regex("""\n{2,}"""), "\n")
+    if (body.length > limit) {
+        val cut = body.lastIndexOf(". ", limit).takeIf { it > limit / 2 } ?: limit
+        body = body.take(cut + 1)
+    }
+    return "Explain this in very simple English, as if to a class 6 student. Use short sentences and an everyday " +
+        "example. Explain every difficult word. Then give 3 key points to remember for the APPSC exam.\n\n" +
+        "Topic: $title\n\n$body"
+}

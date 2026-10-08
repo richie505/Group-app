@@ -30,6 +30,16 @@ fun appDataDir(): Path {
 object DesktopPlatform : Platform {
     override val desktop = true
 
+    override fun openInBrowser(url: String) {
+        runCatching { java.awt.Desktop.getDesktop().browse(java.net.URI(url)) }
+    }
+
+    override fun askGemini(prompt: String): String {
+        Toolkit.getDefaultToolkit().systemClipboard.setContents(StringSelection(prompt), null)
+        openInBrowser("https://gemini.google.com/app")
+        return "Question copied - paste it into Gemini with Ctrl + V."
+    }
+
     /** A short message shown at the bottom of the window. */
     var toast by mutableStateOf<String?>(null)
 

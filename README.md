@@ -57,6 +57,16 @@ feet of river water; ITC is input tax credit on GST pages and ITC Limited elsewh
 Representative. A full form is skipped only when the same bullet already spells it out. Hyphenated scheme names are read whole or part by part (NP-NSPE, PM-KISAN, NFHS-5, PMGSY-IV). A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
+**Explain simply** (2.31): ⋮ → *Explain simply* on any page opens Google's AI Mode (free, no sign-in, needs
+internet) with the page's text and the request to explain it in very simple English for a class 6 student - short
+sentences, an everyday example, every hard word explained, then 3 key points for the exam (`simplePrompt`: source
+tags out, cut near 1,400 characters so the link stays short). *Add text from this page to my notes* keeps the
+explanation at the end of the page as **Your note** (`UserNotes.PAGE`), read aloud and backed up with the rest.
+Every Google page in the app (Explain simply, Search Google, a word's meaning) has two buttons at the top: **↗ Open
+in Chrome** (`Platform.openInBrowser`, a Chrome tab where the reader is signed in to Google - Google does not allow
+signing in inside an app's own web view, and its pages work best there) and **✦ Ask Gemini**
+(`Platform.askGemini`: the question is shared to the Gemini app, or copied for gemini.google.com).
+
 **Pick the MCQ set** (2.30): Today's MCQs and each section's practice card show three buttons with counts -
 **Unattempted** (not tried yet), **Incorrect** (wrong on the latest attempt) and **All** (`practiceSets`, the
 quiz modes "new", "wrong" and "all"). A set with nothing in it is greyed out.

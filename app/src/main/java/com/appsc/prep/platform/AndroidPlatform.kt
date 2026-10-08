@@ -34,6 +34,29 @@ class AndroidPlatform(private val context: Context) : Platform {
         context.startActivity(Intent.createChooser(send, "Share").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
     }
 
+    override fun openInBrowser(url: String) {
+        val uri = android.net.Uri.parse(url)
+        runCatching {
+            androidx.browser.customtabs.CustomTabsIntent.Builder().setShowTitle(true).build()
+                .apply { intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK) }
+                .launchUrl(context, uri)
+        }.onFailure {
+            runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, uri).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
+        }
+    }
+
+    override fun askGemini(prompt: String): String? {
+        // the Gemini app takes shared text as a new question
+        val app = Intent(Intent.ACTION_SEND).setType("text/plain").putExtra(Intent.EXTRA_TEXT, prompt)
+            .setPackage(GEMINI_APP).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        if (runCatching { context.startActivity(app) }.isSuccess) return null
+        // no Gemini app: the website, with the question ready to paste
+        val clip = context.getSystemService(Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager
+        clip.setPrimaryClip(android.content.ClipData.newPlainText("Question for Gemini", prompt))
+        openInBrowser("https://gemini.google.com/app")
+        return "Question copied - paste it into Gemini (long-press the message box, then Paste)."
+    }
+
     @Composable
     override fun BackHandler(enabled: Boolean, onBack: () -> Unit) =
         androidx.activity.compose.BackHandler(enabled, onBack)
@@ -114,6 +137,8 @@ class AndroidPlatform(private val context: Context) : Platform {
     }
 
     private companion object {
+        const val GEMINI_APP = "com.google.android.apps.bard"
+
         const val WATCH_SELECTION = "if(!window.__prepSel){window.__prepSel=1;document.addEventListener('selectionchange'," +
             "function(){var s=String(window.getSelection());if(s.trim())PrepApp.selected(s);});}"
 

@@ -13,6 +13,9 @@ object UserNotes {
     /** Key of the gap at [index] on page [pageId] ("book:row:sec"). */
     fun key(pageId: String, index: Int) = "$pageId#$index"
 
+    /** Index for the reader's note on the whole page (a kept "Explain simply" answer), shown at its end. */
+    const val PAGE = -1
+
     /** What to search for: the missing fact, without "Not in your sources:" and the "check the latest ..." advice. */
     fun query(b: Block): String {
         val t = (b as TextBlock).runs.joinToString("") { it.text }.trim()
@@ -30,5 +33,7 @@ object UserNotes {
             add(i to b)
             if (isGap(b)) added[key(pageId, i)]?.takeIf { it.isNotBlank() }?.let { add(i to TextBlock(KIND, listOf(Run(it.trim(), 0)))) }
         }
+        // a simple explanation kept from "Explain simply" ([PAGE] key) closes the page
+        added[key(pageId, PAGE)]?.takeIf { it.isNotBlank() }?.let { add(PAGE to TextBlock(KIND, listOf(Run(it.trim(), 0)))) }
     }
 }

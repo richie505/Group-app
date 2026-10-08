@@ -190,6 +190,27 @@ class ScreenshotTest {
         assertEquals(paras[0] + "\n" + paras[2], added)
     }
 
+    /** ⋮ → Explain simply: Google's AI Mode explains the page for a class 6 reader. */
+    @Test fun explainSimply() {
+        shot("28_explain_menu", preload = 2) { ReaderScreen(2, 0, 1, nav) }
+        rule.onNodeWithContentDescription("More").performClick()
+        rule.waitForIdle()
+        rule.onNodeWithText("Explain simply").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/28_explain_menu.png")
+        // (the Google page it opens is the one tested in keyTermsOnAPage; a second web page left running in the
+        // same test run keeps later screens from going idle)
+        // the question: plain words for class 6, the page's text without source tags, short enough for a link
+        val p = com.appsc.prep.ui.screens.simplePrompt(
+            "Lapsing of bills",
+            "Lapsing of bills\n• Bill pending in LS lapses [GK] (CDI).\nNot in your sources: x\n" + "Rajya Sabha is never dissolved. ".repeat(80),
+        )
+        assertTrue(p, p.startsWith("Explain this in very simple English, as if to a class 6 student."))
+        assertTrue(p, p.contains("Topic: Lapsing of bills") && p.contains("Bill pending in LS lapses."))
+        assertTrue(p, !p.contains("[GK]") && !p.contains("CDI") && !p.contains("Not in your sources"))
+        assertTrue("${p.length}", p.length < 1700)
+        assertTrue(com.appsc.prep.ui.components.googleAiUrl("a b").startsWith("https://www.google.com/search?udm=50&"))
+    }
+
     /** Every notes page ends with its key terms; tapping one opens its meaning. */
     @Test fun keyTermsOnAPage() {
         shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 0, nav) }
@@ -204,6 +225,9 @@ class ScreenshotTest {
         rule.waitForIdle()
         rule.onAllNodesWithText("Google · dyarchy")[0].assertExists()
         rule.onRoot().captureRoboImage("screenshots/19_google.png")
+        // signed-in Google in Chrome, and the same question to Gemini
+        rule.onAllNodesWithContentDescription("Open in Chrome")[0].assertExists()
+        rule.onAllNodesWithContentDescription("Ask Gemini")[0].assertExists()
         // close Google: its web page would otherwise keep the next test from ever going idle
         rule.onAllNodesWithContentDescription("Close")[0].performClick()
         rule.waitForIdle()
