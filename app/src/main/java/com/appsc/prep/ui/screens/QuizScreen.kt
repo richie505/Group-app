@@ -228,7 +228,7 @@ internal fun QuizRound(
                                 q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
                                 if (answered) {
                                     Spacer(Modifier.height(8.dp))
-                                    Explanation(q, picked == q.answer, picked)
+                                    Explanation(q, picked == q.answer, picked, onOpenNotes)
                                 } else HintBox(q)
                             }
                         }
@@ -378,7 +378,7 @@ private fun UnscoredNote(q: Question) {
 }
 
 @Composable
-private fun Explanation(q: Question, correct: Boolean, picked: Int) {
+private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes: (Int, Int, Int) -> Unit) {
     Column(
         Modifier
             .fillMaxWidth()
@@ -393,10 +393,32 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int) {
         if (q.explanation.isNotBlank()) {
             Spacer(Modifier.height(8.dp))
             Text("EXPLANATION", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Muted, letterSpacing = 0.8.sp))
-            q.explanation.split('\n').forEach {
-                Text(it, style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
+            // a wrong answer: the sentence that says why the picked option is wrong is highlighted
+            val why = remember(q.id, picked, correct) {
+                if (correct || picked < 0) null else com.appsc.prep.data.WrongPick.sentence(q.explanation, q.stem, q.options, q.answer, picked)
             }
+            if (why != null) {
+                Text(
+                    "Highlighted: why option (${picked + 1}) is wrong",
+                    style = TextStyle(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = C.High),
+                    modifier = Modifier.padding(top = 4.dp),
+                )
+            }
+            Text(
+                androidx.compose.ui.text.buildAnnotatedString {
+                    append(q.explanation)
+                    if (why != null) {
+                        addStyle(
+                            androidx.compose.ui.text.SpanStyle(background = Color(0xFFFFD9D9), fontWeight = FontWeight.SemiBold, color = Color(0xFF7F1D1D)),
+                            why.first, why.last + 1,
+                        )
+                    }
+                },
+                style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body),
+                modifier = Modifier.padding(top = 4.dp),
+            )
         }
+        FromNotes(q, onOpenNotes)
         if (q.technique.isNotBlank()) {
             Spacer(Modifier.height(10.dp))
             Text("WHAT THIS QUESTION TRAINS", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
@@ -587,4 +609,35 @@ private fun Results(
         }
         item { Spacer(Modifier.height(24.dp)) }
     }
+}
+
+/** "From your notes": the lines of the question's own notes page that explain the right answer, and a link to it. */
+@Composable
+private fun FromNotes(q: Question, onOpenNotes: (Int, Int, Int) -> Unit) {
+    val app = LocalApp.current
+    val found by androidx.compose.runtime.produceState<Triple<Int, Int, List<String>>?>(null, q.id) {
+        value = runCatching {
+            val (row, sec) = app.repo.mcq(q.book).placeOf(q.id) ?: return@runCatching null
+            val secs = app.repo.book(q.book).rows.getOrNull(row)?.secs ?: return@runCatching null
+            // its subsection; a question filed under the whole section: the subsection that explains it best
+            val tried = if (sec >= 0) listOfNotNull(secs.getOrNull(sec)?.let { sec to it }) else secs.withIndex().map { it.index to it.value }
+            tried.map { (i, s) -> i to com.appsc.prep.data.NotesExcerpt.forQuestion(q, s.blocks) }
+                .maxByOrNull { it.second.size }?.takeIf { it.second.isNotEmpty() }?.let { (i, lines) -> Triple(row, i, lines) }
+        }.getOrNull()
+    }
+    val (row, sec, lines) = found ?: return
+    Spacer(Modifier.height(10.dp))
+    Text("FROM YOUR NOTES", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Green, letterSpacing = 0.8.sp))
+    lines.forEach {
+        Row(Modifier.padding(top = 5.dp).height(androidx.compose.foundation.layout.IntrinsicSize.Min)) {
+            Box(Modifier.width(3.dp).fillMaxHeight().background(C.Green))
+            Spacer(Modifier.width(8.dp))
+            Text(it, style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body))
+        }
+    }
+    Text(
+        "Open this page in the notes ›",
+        style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
+        modifier = Modifier.padding(top = 6.dp).clickable { onOpenNotes(q.book, row, sec) },
+    )
 }

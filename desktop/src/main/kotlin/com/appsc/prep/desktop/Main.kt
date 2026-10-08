@@ -85,7 +85,7 @@ fun main() {
     application {
         val state = rememberWindowState(size = DpSize(1200.dp, 820.dp), position = WindowPosition(Alignment.Center))
         Window(
-            onCloseRequest = ::exitApplication,
+            onCloseRequest = { DesktopPlatform.speech?.stop(); exitApplication() },
             title = APP_NAME,
             icon = icon,
             state = state,

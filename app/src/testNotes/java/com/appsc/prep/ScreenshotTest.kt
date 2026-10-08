@@ -262,6 +262,27 @@ class ScreenshotTest {
         rule.onRoot().captureRoboImage("screenshots/10_quiz_answered.png")
     }
 
+    /** A wrong answer: the explanation sentence on the picked option highlighted, and the notes lines quoted. */
+    @Test fun wrongAnswerHighlightAndNotes() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val repo = Repository { ctx.assets.open(it) }
+        val mcq = runBlocking { repo.mcq(5) }
+        // a question whose wrong pick has a sentence to highlight (the first in the book's first rows)
+        val (row, q, wrong) = mcq.rows.entries.sortedBy { it.key }.asSequence().flatMap { (r, qs) ->
+            qs.take(1).asSequence().mapNotNull { q ->
+                (q.options.indices - q.answer).firstOrNull { com.appsc.prep.data.WrongPick.sentence(q.explanation, q.stem, q.options, q.answer, it) != null }
+                    ?.let { Triple(r, q, it) }
+            }
+        }.first()
+        shot("29_wrong_answer", preload = 5) { QuizScreen(QuizSource("row", 5, row), "all", "MCQ Practice", nav) }
+        rule.onNodeWithText(q.options[wrong]).performClick()
+        rule.waitForIdle()
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("EXPLANATION"))
+        rule.waitForIdle()
+        rule.onNodeWithText("Highlighted: why option (${wrong + 1}) is wrong").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/29_wrong_answer.png")
+    }
+
     /** A Polity statements question: hint opened before answering, then a wrong pick with its technique note. */
     @Test fun hintAndTechnique() {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()

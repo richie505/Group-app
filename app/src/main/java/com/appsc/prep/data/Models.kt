@@ -182,4 +182,11 @@ data class BookMcq(
     }
 
     fun subCount(row: Int, sec: Int): Int = subs[row]?.count { it == sec } ?: 0
+
+    /** Where a question is filed: (row, subsection or -1). */
+    private val places: Map<String, Pair<Int, Int>> by lazy {
+        buildMap { rows.forEach { (r, qs) -> qs.forEachIndexed { i, q -> put(q.id, r to (subs[r]?.getOrNull(i) ?: -1)) } } }
+    }
+
+    fun placeOf(id: String): Pair<Int, Int>? = places[id]
 }

@@ -57,6 +57,13 @@ feet of river water; ITC is input tax credit on GST pages and ITC Limited elsewh
 Representative. A full form is skipped only when the same bullet already spells it out. Hyphenated scheme names are read whole or part by part (NP-NSPE, PM-KISAN, NFHS-5, PMGSY-IV). A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
+**After a wrong answer** (2.33): the explanation's sentence on the picked option is highlighted, "why option (n) is
+wrong" (`WrongPick`: for statement questions the sentence about a statement the pick got wrong - by number or by
+its words; otherwise the sentence with the picked option's own words; else "The other ..." sentences) - 17% of
+wrong picks, as most explanations only explain the right answer. Every answer also quotes **From your notes**: the
+lines of the question's own notes page that best explain the right answer, source tags out, with a link to the
+page (`NotesExcerpt`, 95% of questions).
+
 **Explain simply** (2.31): ⋮ → *Explain simply* on any page opens Google's AI Mode (free, no sign-in, needs
 internet) with the page's text and the request to explain it in very simple English for a class 6 student - short
 sentences, an everyday example, every hard word explained, then 3 key points for the exam (`simplePrompt`: source
@@ -186,7 +193,12 @@ centred, with the space as padding inside the list so the mouse wheel scrolls an
 90-day plan and progress lay their cards out in columns (`gridItems`, `columnsFor`); the reader keeps the section's
 subsections listed on the left; a quiz (progress, question and buttons) stays in one centred column; tables fill
 the page. Phones are unchanged (the extra width is zero there). `WindowShotsTest` draws every screen at 1366×768
-and 1920×1080 into `desktop/build/shots` for checking. It compiles the same screens and data code as the Android app
+and 1920×1080 into `desktop/build/shots` for checking. Read-aloud on Windows (2.33, `WindowsSpeech.kt`) uses Windows' own
+offline voices (SAPI, as Narrator): each paragraph is spoken by a small script under `wscript.exe` (no console
+window), an Indian English voice (Heera / Ravi) when installed; pause, skip, speed and on-to-the-next-page work as
+on the phone (`DesktopSpeechTest`). Google pages (Search Google, Explain simply, a word's meaning) open in the web
+browser at once (signed in to Google; an app window cannot hold a full browser); "Add text from this page to my
+notes" then takes the text copied there with Ctrl + C. It compiles the same screens and data code as the Android app
 (`app/src/main/java`) with Compose for Desktop; only `MainActivity.kt` and `platform/` are Android-only,
 and `desktop/src/main/kotlin` supplies the Windows side (window, left navigation pane, menu bar,
 keyboard shortcuts, progress saved to `%APPDATA%\APPSC Prep\progress.json`).

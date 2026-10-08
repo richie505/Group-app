@@ -1,5 +1,18 @@
 package com.appsc.prep.desktop
 
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Text
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.MutableState
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.appsc.prep.ui.theme.C
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
@@ -30,6 +43,12 @@ fun appDataDir(): Path {
 object DesktopPlatform : Platform {
     override val desktop = true
 
+    /** Read-aloud with Windows' own voices; none on other systems (the Listen button is then hidden). */
+    private val windowsSpeech: DesktopSpeech? by lazy {
+        if (System.getProperty("os.name").orEmpty().startsWith("Windows")) DesktopSpeech(SapiSpeaker(appDataDir().toFile())) else null
+    }
+    override val speech: com.appsc.prep.ui.components.Speech? get() = windowsSpeech
+
     override fun openInBrowser(url: String) {
         runCatching { java.awt.Desktop.getDesktop().browse(java.net.URI(url)) }
     }
@@ -54,6 +73,31 @@ object DesktopPlatform : Platform {
     override fun share(title: String, text: String) {
         Toolkit.getDefaultToolkit().systemClipboard.setContents(StringSelection(text), null)
         toast = "Copied to the clipboard – paste it anywhere with Ctrl + V"
+    }
+
+    /**
+     * Google pages (Search Google, Explain simply, a word's meaning) open in the web browser - signed in to Google,
+     * and an app window cannot hold a full browser. To keep text: copy it there (Ctrl + C), then "Add text ..."
+     * below takes what was copied.
+     */
+    @Composable
+    override fun WebPage(
+        url: String,
+        modifier: Modifier,
+        back: MutableState<(() -> Boolean)?>,
+        selected: MutableState<(((com.appsc.prep.ui.components.WebText) -> Unit) -> Unit)?>?,
+    ) {
+        LaunchedEffect(url) { openInBrowser(url) }
+        Column(modifier.padding(28.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Text("Opened in your web browser.", style = TextStyle(fontSize = 18.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
+            Text(
+                if (selected != null) "To keep something in your notes: select it in the browser, press Ctrl + C, " +
+                    "then click the green button below - the copied text comes in ticked, ready to edit and save."
+                else "Read the answer there, then come back here.",
+                style = TextStyle(fontSize = 15.sp, lineHeight = 22.sp, color = C.Body),
+            )
+            OutlinedButton(onClick = { openInBrowser(url) }) { Text("Open in the browser again") }
+        }
     }
 
     // backups: a plain Windows save/open box
