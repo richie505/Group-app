@@ -57,6 +57,10 @@ feet of river water; ITC is input tax credit on GST pages and ITC Limited elsewh
 Representative. A full form is skipped only when the same bullet already spells it out. Hyphenated scheme names are read whole or part by part (NP-NSPE, PM-KISAN, NFHS-5, PMGSY-IV). A few (SC, MP, CAA, RE, ASI …) are
 decided by the words right next to them ("challenged in the SC" vs "SC students").
 
+**Stuck? Show a hint** (2.34): before answering, the hint shows this question's own technique and the guide's
+hints; *Still stuck? Show the answer* then gives the right option and the reasoning that gets there. An answer shown
+first counts as practice (attempted, not scored), so it never inflates accuracy.
+
 **After a wrong answer** (2.33): the explanation's sentence on the picked option is highlighted, "why option (n) is
 wrong" (`WrongPick`: for statement questions the sentence about a statement the pick got wrong - by number or by
 its words; otherwise the sentence with the picked option's own words; else "The other ..." sentences) - 17% of
