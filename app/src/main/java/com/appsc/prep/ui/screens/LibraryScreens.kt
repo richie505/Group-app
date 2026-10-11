@@ -387,7 +387,7 @@ private fun BackupCard() {
     val open = app.platform.rememberOpenFile { text ->
         message = when (text) {
             null -> "No file opened." to true
-            else -> runCatching { store.restore(text, app.repo.idMoves) }.fold(
+            else -> runCatching { store.restore(text, app.repo.idMoves, app.repo.noteMoves) }.fold(
                 { r -> "Restored: ${r.read} pages ${app.doneWord}, ${r.saved} bookmarks, ${r.answers} MCQ answers, ${r.notes} own notes." to false },
                 { (it.message ?: "Could not read this file.") to true },
             )

@@ -71,6 +71,20 @@ class ProgressStore(private val prefs: Storage) {
         prefs.putString(KEY_IDS, moves.version)
     }
 
+    /** Rounds of [NoteMoves] already applied to [added]. */
+    private var noteRounds = prefs.getStringSet(KEY_NOTE_ROUNDS).toSet()
+
+    /** Keeps the reader's own notes under their gap lines after pages were rewritten ([NoteMoves]). */
+    fun migrateNotes(moves: NoteMoves) {
+        if (noteRounds.containsAll(moves.ids)) return
+        if (added.isNotEmpty()) {
+            added = moves.apply(added, noteRounds)
+            prefs.putStringSet(KEY_ADDED, added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" }.toSet())
+        }
+        noteRounds = noteRounds + moves.ids
+        prefs.putStringSet(KEY_NOTE_ROUNDS, noteRounds)
+    }
+
     fun changeSpeechRate(rate: Float) {
         speechRate = rate
         prefs.putFloat(KEY_RATE, rate)
@@ -222,6 +236,7 @@ class ProgressStore(private val prefs: Storage) {
         set("dates", activeDates)
         set("answers", answers.map { (k, v) -> "$k:${if (v) 1 else 0}" })
         set("seen", seen)
+        set("noteRounds", noteRounds)
         set("added", added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" })
         lastRead?.let { put("last", kotlinx.serialization.json.JsonPrimitive(it)) }
         put("device", kotlinx.serialization.json.JsonPrimitive(device))
@@ -247,7 +262,7 @@ class ProgressStore(private val prefs: Storage) {
      * answer, an own note) the backup's wins. Ids from an older notes version are moved with [moves] first.
      * Throws [IllegalArgumentException] when [text] is not a backup of this app.
      */
-    fun restore(text: String, moves: IdMoves): Restored {
+    fun restore(text: String, moves: IdMoves, noteMoves: NoteMoves = NoteMoves(emptyList())): Restored {
         val o = runCatching { kotlinx.serialization.json.Json.parseToJsonElement(text) as kotlinx.serialization.json.JsonObject }.getOrNull()
         require(o != null && (o["app"] as? kotlinx.serialization.json.JsonPrimitive)?.content == BACKUP_APP) { "This file is not an APPSC Prep backup." }
         fun list(key: String): List<String> =
@@ -274,7 +289,11 @@ class ProgressStore(private val prefs: Storage) {
         seen = seen + list("seen")
         prefs.putStringSet(KEY_SEEN, seen)
 
-        val inNotes = list("added").filter { '\t' in it }.associate { it.substringBefore('\t') to it.substringAfter('\t').replace("\\n", "\n") }
+        // notes saved before pages were rewritten sit under other gap indices: move them as this device's were
+        val inNotes = noteMoves.apply(
+            list("added").filter { '\t' in it }.associate { it.substringBefore('\t') to it.substringAfter('\t').replace("\\n", "\n") },
+            list("noteRounds"),
+        )
         added = added + inNotes
         prefs.putStringSet(KEY_ADDED, added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" }.toSet())
 
@@ -313,6 +332,7 @@ class ProgressStore(private val prefs: Storage) {
         const val BACKUP_APP = "APPSC Prep backup"
         const val KEY_BACKUP = "last_backup"
         const val KEY_DEVICE = "device_id"
+        const val KEY_NOTE_ROUNDS = "note_rounds"
         const val KEY_LOG = "activity_log"
         const val KEY_LOGS = "activity_other"
     }

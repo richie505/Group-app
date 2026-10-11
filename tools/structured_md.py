@@ -4,6 +4,8 @@
     - **Label:** text         -> {"k": "b"}
       - text                  -> {"k": "s"}
     !! Not in your sources... -> the gap line (run flag 6), on a bullet or sub-bullet
+    > text                    -> exam angle {"k": "x"}
+    @@ text                   -> see-also {"k": "a"};   ~~ text -> grey note {"k": "n"};   plain line -> {"k": "p"}
     **x** bold, [GK] muted (flag 4)
 Tables are kept as they are: "<<table N>>" stands for the page's N-th table block.
 """
@@ -38,7 +40,11 @@ def to_blocks(md, tables):
         if m:
             blocks.append(tables[int(m.group(1))])
             continue
-        if line.startswith("# "):
+        if line.startswith("@@ "):
+            blocks.append({"k": "a", "x": runs(line[3:].strip())})
+        elif line.startswith("~~ "):
+            blocks.append({"k": "n", "x": runs(line[3:].strip())})
+        elif line.startswith("# "):
             blocks.append({"k": "h", "x": runs(line[2:].strip())})
         elif re.match(r"\s{2,}- ", line):
             blocks.append({"k": "s", "x": runs(line.strip()[2:])})
@@ -60,15 +66,18 @@ def from_blocks(blocks):
             tables.append(b)
             continue
         text = ""
-        for t, f in b["x"]:
+        x = b["x"] if isinstance(b["x"], list) else [[b["x"], 0]]
+        for t, f in x:
             if f & 6 == 6 or f == 6:
                 text += "!! " + t
+            elif f & 4 and t.strip() == "[GK]":
+                text += t
             elif f & 1:
                 text += f"**{t}**" if t.strip() else t
             elif f & 8:
                 continue
             else:
                 text += t
-        prefix = {"h": "# ", "b": "- ", "s": "  - ", "x": "> "}.get(b["k"], "")
+        prefix = {"h": "# ", "b": "- ", "s": "  - ", "x": "> ", "a": "@@ ", "n": "~~ "}.get(b["k"], "")
         lines.append(prefix + text.strip())
     return "\n".join(lines), tables
