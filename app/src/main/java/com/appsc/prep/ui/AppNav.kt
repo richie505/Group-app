@@ -7,12 +7,14 @@ import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.CalendarMonth
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.appsc.prep.ui.components.studyClock
 import com.appsc.prep.ui.screens.BookScreen
 import com.appsc.prep.ui.screens.BooksScreen
 import com.appsc.prep.ui.screens.DayScreen
@@ -68,7 +70,7 @@ class NavImpl(private val nav: NavHostController) : Nav {
 
 @Composable
 fun AppNavHost(nav: NavHostController, actions: Nav) {
-    NavHost(nav, startDestination = "today") {
+    NavHost(nav, startDestination = "today", modifier = Modifier.studyClock { nav.currentBackStackEntry?.destination?.route }) {
         composable("today") { TodayScreen(actions) }
         composable("plan") { PlanScreen(actions) }
         composable("books") { BooksScreen(actions) }

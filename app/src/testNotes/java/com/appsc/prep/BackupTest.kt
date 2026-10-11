@@ -1,5 +1,6 @@
 package com.appsc.prep
 
+import com.appsc.prep.data.DayLog
 import com.appsc.prep.data.IdMoves
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Saved
@@ -50,6 +51,29 @@ class BackupTest {
 
         // restoring the same file again adds nothing new
         assertEquals(0, fresh.restore(file, moves).read)
+    }
+
+    @Test fun activityLogAddsUpAcrossDevices() {
+        val phone = ProgressStore(MemStorage())
+        phone.recordAnswer("n1-1", true)
+        phone.recordAnswer("n1-2", false)
+        phone.markSeen("n1-3")
+        phone.addStudyTime(notes = true, seconds = 600)
+        phone.addStudyTime(notes = false, seconds = 300)
+        assertEquals(DayLog(mcqs = 3, correct = 1, notesSec = 600, mcqSec = 300), phone.dayLog())
+
+        val desktop = ProgressStore(MemStorage())
+        desktop.recordAnswer("n2-1", true)
+        desktop.addStudyTime(notes = false, seconds = 120)
+        desktop.restore(phone.backup(), moves)
+        val both = DayLog(mcqs = 4, correct = 2, notesSec = 600, mcqSec = 420)
+        assertEquals(both, desktop.dayLog())
+        desktop.restore(phone.backup(), moves) // the same backup twice counts once
+        assertEquals(both, desktop.dayLog())
+
+        // back on the phone: the desktop's file carries the phone's own log too, which is not counted twice
+        phone.restore(desktop.backup(), moves)
+        assertEquals(both, phone.dayLog())
     }
 
     @Test fun oldBackupFollowsTheRegroupedPages() {

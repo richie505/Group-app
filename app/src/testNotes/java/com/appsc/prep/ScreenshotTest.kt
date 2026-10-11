@@ -322,6 +322,20 @@ class ScreenshotTest {
         assertEquals(null, store.answers[q.id])
     }
 
+    /** Progress → Study activity: MCQs practised and time on notes / MCQs, today and by day. */
+    @Test fun studyActivity() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val store = ProgressStore(PrefsStorage(ctx))
+        repeat(42) { store.recordAnswer("n1-$it", it % 3 != 0) }
+        store.addStudyTime(notes = true, seconds = 4200)
+        store.addStudyTime(notes = false, seconds = 2950)
+        shot("31_activity") { ProgressScreen(nav) }
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("All days", substring = true))
+        rule.waitForIdle()
+        assertEquals(2, rule.onAllNodesWithText("1h 10m").fetchSemanticsNodes().size) // today's box and the day's row
+        rule.onRoot().captureRoboImage("screenshots/31_activity.png")
+    }
+
     @Test fun books() = shot("7_notes") { BooksScreen(nav) }
     @Test fun progress() {
         shot("8_progress") { ProgressScreen(nav) }

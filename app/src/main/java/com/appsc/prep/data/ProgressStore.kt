@@ -9,6 +9,26 @@ import java.time.LocalDate
 /** A saved subsection: id is "book:row:sec". */
 data class Saved(val id: String, val title: String, val rowTitle: String)
 
+/** One day's study record: MCQs practised (and answered right), seconds spent on notes and on MCQs. */
+data class DayLog(val mcqs: Int = 0, val correct: Int = 0, val notesSec: Int = 0, val mcqSec: Int = 0) {
+    val totalSec get() = notesSec + mcqSec
+    val empty get() = mcqs == 0 && totalSec == 0
+
+    operator fun plus(o: DayLog) = DayLog(mcqs + o.mcqs, correct + o.correct, notesSec + o.notesSec, mcqSec + o.mcqSec)
+
+    /** Each field's larger value: the same device's log seen twice (an older and a newer backup) counts once. */
+    fun latest(o: DayLog) = DayLog(maxOf(mcqs, o.mcqs), maxOf(correct, o.correct), maxOf(notesSec, o.notesSec), maxOf(mcqSec, o.mcqSec))
+
+    fun encode() = "$mcqs\t$correct\t$notesSec\t$mcqSec"
+
+    companion object {
+        fun decode(p: List<String>): DayLog? {
+            val n = p.map { it.toIntOrNull() ?: return null }
+            return if (n.size < 4) null else DayLog(n[0], n[1], n[2], n[3])
+        }
+    }
+}
+
 /** Read/done state, bookmarks, last position and reader settings, kept in [Storage]. */
 class ProgressStore(private val prefs: Storage) {
 
@@ -82,12 +102,14 @@ class ProgressStore(private val prefs: Storage) {
         (0 until total).count { subsectionId(book, row, it) in done }
 
     fun recordAnswer(questionId: String, correct: Boolean) {
+        logToday { it.copy(mcqs = it.mcqs + 1, correct = it.correct + if (correct) 1 else 0) }
         answers = answers + (questionId to correct)
         prefs.putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet())
         markActive()
     }
 
     fun markSeen(questionId: String) {
+        logToday { it.copy(mcqs = it.mcqs + 1) }
         if (questionId in seen) return
         seen = seen + questionId
         prefs.putStringSet(KEY_SEEN, seen)
@@ -137,6 +159,47 @@ class ProgressStore(private val prefs: Storage) {
         return n
     }
 
+    /** This device's id, telling its activity log apart from other devices' (brought in by a restore). */
+    private val device: String = prefs.getString(KEY_DEVICE) ?: java.util.UUID.randomUUID().toString().take(8).also {
+        prefs.putString(KEY_DEVICE, it)
+    }
+
+    /** Day ("2026-10-11") -> what was done on this device. */
+    private var ownLog by mutableStateOf(
+        prefs.getStringSet(KEY_LOG).mapNotNull { l -> l.split('\t').let { p -> DayLog.decode(p.drop(1))?.let { p[0] to it } } }.toMap(),
+    )
+
+    /** Device -> day -> log, from other devices' backups. */
+    private var otherLogs by mutableStateOf(decodeOthers(prefs.getStringSet(KEY_LOGS)))
+
+    /** Day ("2026-10-11") -> MCQs practised and time spent, on this device and the restored ones together. */
+    val activity: Map<String, DayLog>
+        get() {
+            val all = ownLog.toMutableMap()
+            for (log in otherLogs.values) for ((d, l) in log) all[d] = (all[d] ?: DayLog()) + l
+            return all
+        }
+
+    fun dayLog(day: LocalDate = LocalDate.now()) = activity[day.toString()] ?: DayLog()
+
+    /** Adds [seconds] of study today, on the notes or on MCQs. */
+    fun addStudyTime(notes: Boolean, seconds: Int) {
+        if (seconds <= 0) return
+        logToday { if (notes) it.copy(notesSec = it.notesSec + seconds) else it.copy(mcqSec = it.mcqSec + seconds) }
+    }
+
+    private fun logToday(change: (DayLog) -> DayLog) {
+        val t = LocalDate.now().toString()
+        ownLog = ownLog + (t to change(ownLog[t] ?: DayLog()))
+        prefs.putStringSet(KEY_LOG, ownLog.map { (d, l) -> "$d\t${l.encode()}" }.toSet())
+    }
+
+    private fun encodeOthers() = otherLogs.flatMap { (dev, log) -> log.map { (d, l) -> "$dev\t$d\t${l.encode()}" } }
+
+    private fun decodeOthers(raw: Collection<String>): Map<String, Map<String, DayLog>> =
+        raw.mapNotNull { l -> l.split('\t').let { p -> if (p.size < 6) null else DayLog.decode(p.drop(2))?.let { Triple(p[0], p[1], it) } } }
+            .groupBy { it.first }.mapValues { (_, v) -> v.associate { it.second to it.third } }
+
     private fun markActive() {
         val t = LocalDate.now().toString()
         if (t !in activeDates) {
@@ -161,6 +224,8 @@ class ProgressStore(private val prefs: Storage) {
         set("seen", seen)
         set("added", added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" })
         lastRead?.let { put("last", kotlinx.serialization.json.JsonPrimitive(it)) }
+        put("device", kotlinx.serialization.json.JsonPrimitive(device))
+        set("log", ownLog.map { (d, l) -> "$device\t$d\t${l.encode()}" } + encodeOthers())
         put("scale", kotlinx.serialization.json.JsonPrimitive(textScale))
         put("rate", kotlinx.serialization.json.JsonPrimitive(speechRate))
     }.toString()
@@ -213,6 +278,17 @@ class ProgressStore(private val prefs: Storage) {
         added = added + inNotes
         prefs.putStringSet(KEY_ADDED, added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" }.toSet())
 
+        // other devices' activity logs; this device's own log here is always the newest
+        val inLogs = decodeOthers(list("log")).filterKeys { it != device }
+        if (inLogs.isNotEmpty()) {
+            otherLogs = (otherLogs.keys + inLogs.keys).associateWith { dev ->
+                val a = otherLogs[dev] ?: emptyMap()
+                val b = inLogs[dev] ?: emptyMap()
+                (a.keys + b.keys).associateWith { d -> (a[d] ?: DayLog()).latest(b[d] ?: DayLog()) }
+            }
+            prefs.putStringSet(KEY_LOGS, encodeOthers().toSet())
+        }
+
         if (lastRead == null) str("last")?.let { rememberPosition(id(it)) }
         return Restored(newDone.size, incoming.size, inAnswers.size, inNotes.size)
     }
@@ -236,5 +312,8 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_ADDED = "added_notes"
         const val BACKUP_APP = "APPSC Prep backup"
         const val KEY_BACKUP = "last_backup"
+        const val KEY_DEVICE = "device_id"
+        const val KEY_LOG = "activity_log"
+        const val KEY_LOGS = "activity_other"
     }
 }

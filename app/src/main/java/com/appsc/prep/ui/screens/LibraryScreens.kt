@@ -55,6 +55,9 @@ import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.SectionHeader
 import com.appsc.prep.ui.components.SectionItem
 import com.appsc.prep.ui.components.StatBox
+import com.appsc.prep.ui.components.studyTime
+import com.appsc.prep.data.DayLog
+import androidx.compose.material.icons.outlined.Timer
 import com.appsc.prep.ui.components.Tag
 import com.appsc.prep.ui.components.TopBar
 import com.appsc.prep.ui.theme.C
@@ -245,6 +248,10 @@ fun ProgressScreen(nav: Nav) {
                         Spacer(Modifier.height(10.dp))
                     }
                 }
+            }
+            item {
+                HorizontalDivider(color = C.Line)
+                StudyActivity(width)
                 HorizontalDivider(color = C.Line)
                 SectionHeader("By subject")
             }
@@ -265,6 +272,62 @@ fun ProgressScreen(nav: Nav) {
             item { Spacer(Modifier.height(24.dp)) }
         }
     }
+}
+
+/** What was done each day: MCQs practised and time on notes and on MCQs. A record only, with no targets. */
+@Composable
+private fun StudyActivity(width: androidx.compose.ui.unit.Dp) {
+    val store = LocalApp.current.store
+    val log = store.activity
+    val today = store.dayLog()
+    SectionHeader("Study activity")
+    Column(Modifier.padding(horizontal = 20.dp)) {
+        Text("Today", style = TextStyle(fontSize = 13.sp, color = C.Muted))
+        Spacer(Modifier.height(6.dp))
+        val boxes: List<@Composable (Modifier) -> Unit> = listOf(
+            { m -> StatBox("${today.mcqs}", "MCQs practised", Icons.Outlined.Quiz, m) },
+            { m -> StatBox(studyTime(today.notesSec), "on notes", Icons.Outlined.AutoStories, m) },
+            { m -> StatBox(studyTime(today.mcqSec), "on MCQs", Icons.Outlined.Timer, m) },
+        )
+        boxes.chunked(columnsFor(width, 300.dp, 3).coerceAtLeast(3)).forEach { row ->
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) { row.forEach { it(Modifier.weight(1f)) } }
+        }
+        val days = log.filterValues { !it.empty }.toSortedMap(reverseOrder())
+        if (days.isNotEmpty()) {
+            val all = days.values.fold(DayLog()) { a, b -> a + b }
+            Spacer(Modifier.height(10.dp))
+            Text(
+                "All days: ${all.mcqs} MCQs · ${studyTime(all.totalSec)} in the app (notes ${studyTime(all.notesSec)}, MCQs ${studyTime(all.mcqSec)})",
+                style = TextStyle(fontSize = 13.sp, lineHeight = 19.sp, color = C.Body),
+            )
+            Spacer(Modifier.height(12.dp))
+            ActivityRow("Day", "MCQs", "Notes", "MCQ time", "Total", header = true)
+            days.entries.take(30).forEach { (d, l) ->
+                val date = runCatching { java.time.LocalDate.parse(d).format(java.time.format.DateTimeFormatter.ofPattern("EEE, d MMM")) }.getOrDefault(d)
+                ActivityRow(date, "${l.mcqs}", studyTime(l.notesSec), studyTime(l.mcqSec), studyTime(l.totalSec))
+            }
+            if (days.size > 30) {
+                Text("Showing the last 30 days.", style = TextStyle(fontSize = 12.sp, color = C.Muted), modifier = Modifier.padding(top = 6.dp))
+            }
+        }
+        Text(
+            "Time counts while you read notes (or listen to them) and practise MCQs; it pauses after 5 minutes without use.",
+            style = TextStyle(fontSize = 12.sp, lineHeight = 17.sp, color = C.Muted),
+            modifier = Modifier.padding(top = 10.dp, bottom = 16.dp),
+        )
+    }
+}
+
+@Composable
+private fun ActivityRow(day: String, mcqs: String, notes: String, mcqTime: String, total: String, header: Boolean = false) {
+    val style = TextStyle(fontSize = 13.sp, fontWeight = if (header) FontWeight.SemiBold else FontWeight.Normal, color = if (header) C.Muted else C.Ink)
+    Row(Modifier.fillMaxWidth().padding(vertical = 5.dp)) {
+        Text(day, style = style, modifier = Modifier.weight(1.6f))
+        for (v in listOf(mcqs, notes, mcqTime, total)) {
+            Text(v, style = style, textAlign = androidx.compose.ui.text.style.TextAlign.End, modifier = Modifier.weight(1f))
+        }
+    }
+    if (header) HorizontalDivider(color = C.Line)
 }
 
 @Composable
