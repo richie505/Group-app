@@ -16,7 +16,7 @@ data class Run(val text: String, val flags: Int) {
 sealed interface Block
 
 /**
- * [kind]: 'b' bullet, 's' sub-bullet, 'p' paragraph, 'x' exam angle,
+ * [kind]: 'h' heading inside a page, 'b' bullet, 's' sub-bullet, 'p' paragraph, 'x' exam angle,
  * 'a' see-also / cross reference, 'n' grey note.
  */
 data class TextBlock(val kind: Char, val runs: List<Run>) : Block
