@@ -157,13 +157,23 @@ private fun TableView(t: TableBlock, scale: Float) {
     }
     BoxWithConstraints(Modifier.padding(vertical = 8.dp).fillMaxWidth()) {
         val avail = maxWidth - 2.dp
+        // tables of up to 3 columns always fit the page (a very long word may wrap); wider ones may scroll
+        val fit = cols <= 3
         val mins = stats.map { (longest, _) -> (longest * 8.2f * scale + 22).dp }
+        val minSum = mins.fold(0.dp) { a, b -> a + b }
         val weights = stats.map { (_, total) -> kotlin.math.sqrt(total.toFloat()) }
         val wsum = weights.sum()
-        var widths = weights.map { avail * (it / wsum) }.mapIndexed { i, w -> maxOf(w, mins[i]) }
+        var widths = if (fit && minSum > avail) {
+            // the longest words alone overflow: share the page in proportion to them, so the fewest words wrap
+            mins.map { it * (avail / minSum) }
+        } else {
+            weights.map { avail * (it / wsum) }.mapIndexed { i, w -> maxOf(w, mins[i]) }
+        }
         val used = widths.fold(0.dp) { a, b -> a + b }
         if (used < avail) {
             // hand back the space, keeping proportions
+            widths = widths.map { it * (avail / used) }
+        } else if (fit) {
             widths = widths.map { it * (avail / used) }
         } else if (cols >= 2) {
             widths = widths.map { minOf(it, 260.dp) }
