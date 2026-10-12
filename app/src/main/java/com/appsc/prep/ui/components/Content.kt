@@ -164,8 +164,17 @@ private fun TableView(t: TableBlock, scale: Float) {
         val weights = stats.map { (_, total) -> kotlin.math.sqrt(total.toFloat()) }
         val wsum = weights.sum()
         var widths = if (fit && minSum > avail) {
-            // the longest words alone overflow: share the page in proportion to them, so the fewest words wrap
-            mins.map { it * (avail / minSum) }
+            // the longest words alone overflow: cap the widest columns at one level, so columns of short
+            // words keep them whole and only the very longest words break
+            val sorted = mins.sortedBy { it.value }
+            var rest = avail
+            var cap = avail
+            for ((i, m) in sorted.withIndex()) {
+                val even = rest / (sorted.size - i)
+                if (m > even) { cap = even; break }
+                rest -= m
+            }
+            mins.map { minOf(it, cap) }
         } else {
             weights.map { avail * (it / wsum) }.mapIndexed { i, w -> maxOf(w, mins[i]) }
         }
@@ -173,8 +182,14 @@ private fun TableView(t: TableBlock, scale: Float) {
         if (used < avail) {
             // hand back the space, keeping proportions
             widths = widths.map { it * (avail / used) }
-        } else if (fit) {
+        } else if (fit && minSum > avail) {
             widths = widths.map { it * (avail / used) }
+        } else if (fit) {
+            // too wide: take the excess only from the room above each column's longest word
+            val slack = widths.mapIndexed { i, w -> w - mins[i] }
+            val slackSum = slack.fold(0.dp) { a, b -> a + b }
+            val cut = (used - avail) / slackSum
+            widths = widths.mapIndexed { i, w -> w - slack[i] * cut }
         } else if (cols >= 2) {
             widths = widths.map { minOf(it, 260.dp) }
             // capping can leave the table narrower than the page (a wide window): spread it back to full width

@@ -117,6 +117,11 @@ class ScreenshotTest {
         rule.onRoot().captureRoboImage("screenshots/33_structured_end.png")
     }
     @Test fun mergedTables() = shot("34_tables", preload = 1) { ReaderScreen(1, 0, 2, nav) }
+    @Test fun tablesPolity() = shot("35_tables_polity", preload = 2) { ReaderScreen(2, 0, 3, nav) }
+    @Test fun tablesEconomy() = shot("36_tables_economy", preload = 3) { ReaderScreen(3, 1, 0, nav) }
+    @Test fun tablesGeography() = shot("37_tables_geography", preload = 4) { ReaderScreen(4, 0, 0, nav) }
+    @Test fun tablesScience() = shot("38_tables_science", preload = 5) { ReaderScreen(5, 2, 0, nav) }
+    @Test fun tablesCurrent() = shot("39_tables_current", preload = 6) { ReaderScreen(6, 1, 2, nav) }
     @Test fun readerTable() = shot("6_reader_table", preload = 2) { ReaderScreen(2, 0, 1, nav) }
 
     /** Read aloud: the Listen button opens the player bar, speaks the page and highlights the paragraph. */
