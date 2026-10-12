@@ -77,6 +77,39 @@ for r, qs in mcq["rows"].items():
     if out_q:
         rows[r], subs[r] = out_q, out_s
         after += len(out_q)
+# rescued "off" MCQs: filed under the topic whose notes hold their fact, unless they repeat one kept there
+def words(q):
+    return {w for w in re.findall(r"[a-z0-9]+", (q["s"] + " " + q["o"][q["a"]]).lower()) if len(w) > 2}
+
+
+offs = {q for q, o in decisions.items() if o["d"] == "drop" and str(o.get("why", "")).startswith("off")}
+moved = repeats = 0
+for f in sorted(os.listdir(d)):
+    if not (f.startswith("rescue_out_") and f.endswith(".jsonl")):
+        continue
+    for line in open(f"{d}/{f}"):
+        if not line.strip():
+            continue
+        o = json.loads(line)
+        to = o.get("to")
+        if o.get("q") not in offs or not to or not re.fullmatch(r"\d+\.-?\d+", str(to)):
+            continue
+        r, j = map(int, o["q"][1:].split("."))
+        tr, ts = (int(x) for x in str(to).split("."))
+        q = clean(mcq["rows"][str(r)][j])
+        target = rows.setdefault(str(tr), [])
+        w = words(q)
+        if any(len(w & words(k)) / max(1, len(w | words(k))) >= 0.6 for k in target):
+            repeats += 1
+            continue
+        target.append(q)
+        subs.setdefault(str(tr), []).append(ts)
+        moved += 1
+after += moved
+if moved or repeats:
+    why["rescued"] = moved
+    why["rescue skipped (repeat)"] = repeats
+
 json.dump({"rows": rows, "units": mcq["units"], "subs": subs}, open(asset, "w"), ensure_ascii=False, separators=(",", ":"))
 
 index_path = "app/src/main/assets/index.json"
