@@ -116,6 +116,7 @@ class ScreenshotTest {
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/33_structured_end.png")
     }
+    @Test fun mergedTables() = shot("34_tables", preload = 1) { ReaderScreen(1, 0, 2, nav) }
     @Test fun readerTable() = shot("6_reader_table", preload = 2) { ReaderScreen(2, 0, 1, nav) }
 
     /** Read aloud: the Listen button opens the player bar, speaks the page and highlights the paragraph. */
