@@ -14,10 +14,16 @@ import re
 TOKEN = re.compile(r"(\*\*.+?\*\*|\[GK\])")
 
 
+def unmark(text):
+    """Drops "!!" left inside a line (italic bits of a gap line were exported with the marker)."""
+    return re.sub(r" {2,}", " ", re.sub(r"\s*!!\s*", " ", text)).replace(" ;", ";").replace(" '", "'").replace(" )", ")").strip()
+
+
 def runs(text):
     gap = text.startswith("!! ")
     if gap:
-        return [[text[3:], 6]]
+        return [[unmark(text[3:]), 6]]
+    text = unmark(text) if "!!" in text else text
     out = []
     for part in TOKEN.split(text):
         if not part:
