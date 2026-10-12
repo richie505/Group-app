@@ -37,9 +37,48 @@ def runs(text):
     return out
 
 
+def cell_text(cell):
+    """A table cell's runs as markdown (bold kept, [GK] kept, '|' made safe)."""
+    x = cell if isinstance(cell, list) else [[cell, 0]]
+    out = ""
+    for t, f in x:
+        if f & 8:
+            continue
+        t = t.replace("|", "/").replace("\n", " ")
+        out += f"**{t}**" if f & 1 and not f & 4 and t.strip() else t
+    return re.sub(r"\s+", " ", out).strip()
+
+
+def table_md(b):
+    head = "| " + " | ".join(cell_text(c) for c in b["h"]) + " |"
+    sep = "|" + "---|" * len(b["h"])
+    rows = ["| " + " | ".join(cell_text(c) for c in r) + " |" for r in b["r"]]
+    return "\n".join([head, sep] + rows)
+
+
+def parse_table(lines):
+    cells = [[c.strip() for c in l.strip().strip("|").split("|")] for l in lines]
+    cells = [r for r in cells if not all(re.fullmatch(r":?-{2,}:?", c or "--") for c in r)]
+    head, rows = cells[0], cells[1:]
+    n = len(head)
+    rows = [(r + [""] * n)[:n] for r in rows]
+    return {"k": "t", "h": [runs(c) for c in head], "r": [[runs(c) for c in r] for r in rows]}
+
+
 def to_blocks(md, tables):
     blocks = []
-    for line in md.splitlines():
+    lines = md.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        i += 1
+        if line.strip().startswith("|"):
+            group = [line]
+            while i < len(lines) and lines[i].strip().startswith("|"):
+                group.append(lines[i])
+                i += 1
+            blocks.append(parse_table(group))
+            continue
         if not line.strip():
             continue
         m = re.match(r"<<table (\d+)>>\s*$", line.strip())
@@ -63,12 +102,16 @@ def to_blocks(md, tables):
     return blocks
 
 
-def from_blocks(blocks):
-    """A page as the markdown form (input for rewriting), tables as placeholders."""
+def from_blocks(blocks, inline_tables=False):
+    """A page as the markdown form (input for rewriting): tables as placeholders, or written out as
+    markdown tables when [inline_tables]."""
     lines, tables = [], []
     for b in blocks:
         if b["k"] == "t":
-            lines.append(f"<<table {len(tables)}>>")
+            if inline_tables:
+                lines.append(table_md(b))
+            else:
+                lines.append(f"<<table {len(tables)}>>")
             tables.append(b)
             continue
         text = ""

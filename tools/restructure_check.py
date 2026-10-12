@@ -50,7 +50,7 @@ def problems(old, new):
 
 if __name__ == "__main__":
     book = sys.argv[1]
-    d = f"work/restructure/b{book}"
+    d = f"work/restructure/{os.environ.get('RS_PREFIX', 'b')}{book}"
     only = sys.argv[2] if len(sys.argv) > 2 else None
     bad = total = 0
     for f in sorted(glob.glob(f"{d}/out_*.md")):

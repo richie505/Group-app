@@ -12,6 +12,7 @@ from structured_md import from_blocks, to_blocks
 from restructure_check import pages, problems
 
 book = int(sys.argv[1])
+TABLES = os.environ.get("RS_PREFIX", "b") == "t"  # table pass: tables are written out in the pages
 path = f"app/src/main/assets/book{book}.json"
 d = json.load(open(path))
 secs = {}
@@ -34,18 +35,18 @@ def gap_text(b):
 
 
 done = skipped = 0
-for f in sorted(glob.glob(f"work/restructure/b{book}/out_*.md")):
+for f in sorted(glob.glob(f"work/restructure/{'t' if TABLES else 'b'}{book}/out_*.md")):
     n = f[-6:-3]
-    old = pages(open(f"work/restructure/b{book}/in_{n}.md").read())
+    old = pages(open(f"work/restructure/{'t' if TABLES else 'b'}{book}/in_{n}.md").read())
     for pid, (head, md) in pages(open(f).read()).items():
         if pid not in old or pid not in secs or problems(old[pid][1], md):
             skipped += 1
             continue
         s = secs[pid]
-        if from_blocks(s["b"])[0].strip() != old[pid][1].strip():
+        if from_blocks(s["b"], TABLES)[0].strip() != old[pid][1].strip():
             continue  # already imported
         _, tables = from_blocks(s["b"])
-        new = to_blocks(md, tables)
+        new = to_blocks(md, [] if TABLES else tables)
         gaps_old = {i: gap_text(b) for i, b in enumerate(s["b"]) if gap_text(b)}
         gaps_new = {}
         for i, b in enumerate(new):
@@ -60,6 +61,6 @@ for f in sorted(glob.glob(f"work/restructure/b{book}/out_*.md")):
 
 json.dump(d, open(path, "w"), ensure_ascii=False, separators=(",", ":"))
 if moved:
-    rounds.append({"id": f"b{book}-{len(rounds) + 1}", "m": moved})
+    rounds.append({"id": f"{'t' if TABLES else 'b'}{book}-{len(rounds) + 1}", "m": moved})
 json.dump(rounds, open(mpath, "w"), ensure_ascii=False, separators=(",", ":"))
 print(f"book {book}: {done} pages rewritten, {skipped} skipped (failed the check); {len(moved)} note keys moved")
