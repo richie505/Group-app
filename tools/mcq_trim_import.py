@@ -26,7 +26,7 @@ def qid(stem, options):  # as tools/build_notes_mcq.py
 
 
 # stray words from other scripts left in a few generated options
-FIXES = [(" בלבד", " only"), ("בלבד", "only"), ("Pegан", "Pegan"), ("完全 ", "Complete "), ("航空 ", "Air "), ("\u200b", ""), ("\u00ad", ""), ("\ufeff", ""), ("Children aged ani?", "Only children aged 0–3 years")]
+FIXES = [(" בלבד", " only"), ("בלבד", "only"), ("Pegан", "Pegan"), ("完全 ", "Complete "), ("航空 ", "Air "), ("\u200b", ""), ("\u00ad", ""), ("\ufeff", ""), ("Children aged ani?", "Only children aged 0–3 years"), ("పోలవరం", "Polavaram"), ("treinta nine point three percent", "39.3 per cent")]
 
 
 def clean(q):
@@ -40,6 +40,7 @@ def clean(q):
 def relabel(stem):
     """Match lists printed with a repeated label: "a. a. c. d." -> "a. b. c. d."; "a. List-II" -> "List-II"."""
     stem = re.sub(r"(?m)^(\s*)a\.\s+(List-II)", r"\1\2", stem)
+    stem = re.sub(r"(?m)^\s*option_[a-d]\s*:.*$\n?", "", stem).rstrip()  # options printed inside the stem
     lines = stem.split("\n")
     labelled = [i for i, l in enumerate(lines) if re.match(r"\s*[a-d]\.\s", l)]
     for k in range(len(labelled) - 3):
