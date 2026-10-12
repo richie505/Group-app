@@ -25,6 +25,18 @@ def qid(stem, options):  # as tools/build_notes_mcq.py
     return "n" + hashlib.sha1(key.encode()).hexdigest()[:11]
 
 
+# stray words from other scripts left in a few generated options
+FIXES = [(" בלבד", " only"), ("בלבד", "only"), ("Pegан", "Pegan"), ("完全 ", "Complete "), ("航空 ", "Air ")]
+
+
+def clean(q):
+    def fix(t):
+        for a, b in FIXES:
+            t = t.replace(a, b)
+        return t
+    return {**q, "s": fix(q["s"]), "o": [fix(o) for o in q["o"]], "x": fix(q.get("x", ""))}
+
+
 decisions, why = {}, Counter()
 done = 0
 for f in sorted(os.listdir(d)):
@@ -57,10 +69,10 @@ for r, qs in mcq["rows"].items():
         o = decisions.get(f"Q{r}.{j}")
         sub = mcq["subs"][r][j]
         if o is None or o["d"] == "keep":
-            out_q.append(q)
+            out_q.append(clean(q))
             out_s.append(o.get("sub", sub) if o else sub)
         elif o["d"] == "merge":
-            out_q.append({"id": qid(o["s"], o["o"]), "s": o["s"], "o": o["o"], "a": o["a"], "x": o["x"], "tq": o.get("tq", "")})
+            out_q.append(clean({"id": qid(o["s"], o["o"]), "s": o["s"], "o": o["o"], "a": o["a"], "x": o["x"], "tq": o.get("tq", "")}))
             out_s.append(o["sub"])
     if out_q:
         rows[r], subs[r] = out_q, out_s
