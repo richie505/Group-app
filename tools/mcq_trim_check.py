@@ -40,7 +40,7 @@ def check(n):
                 seen[q] = ln
         rows = {int(q[1:].split(".")[0]) for q in names if q}
         if "sub" in o:
-            if len(rows) != 1 or not isinstance(o["sub"], int) or not -1 <= o["sub"] < nsecs[rows.pop()]:
+            if len(rows) != 1 or not isinstance(o["sub"], int) or not -1 <= o["sub"] < nsecs[next(iter(rows))]:
                 errs.append(f"line {ln}: bad sub {o.get('sub')}")
         if dd == "keep":
             kept += 1
