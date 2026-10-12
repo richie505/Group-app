@@ -36,7 +36,7 @@ format below and write the result to the output file, with the SAME header lines
 7. **Source citations go**: `(IYB)`, `(IYB 2026)`, `(TH, 26 Jan 2026)`, `(LENS May 2026)`, `(LENSD, 22 May 2026)`,
    `(CDI)`, `(CDX)`, `(APP)`, `(APPCA ...)`, `(VIS ...)`, `(ES 2025-26)`, `(APSES 2024-25)`, `(UPSC notes)`, `[GK]`.
    BUT if the citation is the only place a figure's year/period is given, keep that year in the text
-   (e.g. `- **GSDP (2024-25):** ...`). When sources disagree ("some texts say about 10%"), keep both values.
+   (e.g. `- **GSDP (2024-25):** ...`). When sources disagree ("some texts say about 10%"), keep both values — but never name the source in the text (write "some notes say **80**", not "one CDX page says 80" or "APPCA (Jun 2026) gives").
 
 ## Hard rules
 - **Never drop a fact.** Every number, date, name, article/section, place and bold term of the input page
