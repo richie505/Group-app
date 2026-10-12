@@ -110,6 +110,20 @@ if moved or repeats:
     why["rescued"] = moved
     why["rescue skipped (repeat)"] = repeats
 
+# cross-topic repeats picked by tools/mcq_trim_xdup_export.py review
+gone = set()
+for f in sorted(os.listdir(d)):
+    if f.startswith("xdup_out_") and f.endswith(".jsonl"):
+        for line in open(f"{d}/{f}"):
+            if line.strip() and json.loads(line).get("drop"):
+                gone.add(json.loads(line)["drop"])
+if gone:
+    for r in list(rows):
+        keep = [i for i, q in enumerate(rows[r]) if q["id"] not in gone]
+        after -= len(rows[r]) - len(keep)
+        rows[r], subs[r] = [rows[r][i] for i in keep], [subs[r][i] for i in keep]
+    why["cross-topic repeat"] = len(gone)
+
 json.dump({"rows": rows, "units": mcq["units"], "subs": subs}, open(asset, "w"), ensure_ascii=False, separators=(",", ":"))
 
 index_path = "app/src/main/assets/index.json"
