@@ -34,7 +34,19 @@ def clean(q):
         for a, b in FIXES:
             t = t.replace(a, b)
         return t
-    return {**q, "s": fix(q["s"]), "o": [fix(o) for o in q["o"]], "x": fix(q.get("x", ""))}
+    return {**q, "s": relabel(fix(q["s"])), "o": [fix(o) for o in q["o"]], "x": fix(q.get("x", ""))}
+
+
+def relabel(stem):
+    """Match lists printed with a repeated label: "a. a. c. d." -> "a. b. c. d."; "a. List-II" -> "List-II"."""
+    stem = re.sub(r"(?m)^(\s*)a\.\s+(List-II)", r"\1\2", stem)
+    lines = stem.split("\n")
+    labelled = [i for i, l in enumerate(lines) if re.match(r"\s*[a-d]\.\s", l)]
+    for k in range(len(labelled) - 3):
+        block = labelled[k:k + 4]
+        if block[-1] - block[0] == 3 and [lines[i].lstrip()[0] for i in block] == ["a", "a", "c", "d"]:
+            lines[block[1]] = re.sub(r"a\.", "b.", lines[block[1]], count=1)
+    return "\n".join(lines)
 
 
 decisions, why = {}, Counter()
@@ -111,12 +123,19 @@ if moved or repeats:
     why["rescue skipped (repeat)"] = repeats
 
 # cross-topic repeats picked by tools/mcq_trim_xdup_export.py review
+# (a drop is skipped when its pair partner is already dropped, so one copy of each fact always stays)
 gone = set()
 for f in sorted(os.listdir(d)):
-    if f.startswith("xdup_out_") and f.endswith(".jsonl"):
-        for line in open(f"{d}/{f}"):
-            if line.strip() and json.loads(line).get("drop"):
-                gone.add(json.loads(line)["drop"])
+    if not (f.startswith("xdup_out_") and f.endswith(".jsonl")):
+        continue
+    src = open(f"{d}/xdup_in_{f[9:12]}.md").read()
+    pairs = {int(p): re.findall(r"\[(n[0-9a-f]+)\]", body)
+             for p, body in re.findall(r"=== PAIR (\d+).*?\n(.*?)(?=\n=== PAIR |\Z)", src, re.S)}
+    for line in open(f"{d}/{f}"):
+        o = json.loads(line) if line.strip() else {}
+        ids = pairs.get(o.get("p"), [])
+        if o.get("drop") in ids and not any(i in gone for i in ids if i != o["drop"]):
+            gone.add(o["drop"])
 if gone:
     for r in list(rows):
         keep = [i for i, q in enumerate(rows[r]) if q["id"] not in gone]
