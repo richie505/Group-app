@@ -132,9 +132,11 @@ for f in sorted(os.listdir(d)):
     src = open(f"{d}/xdup_in_{f[9:12]}.md").read()
     pairs = {int(p): re.findall(r"\[(n[0-9a-f]+)\]", body)
              for p, body in re.findall(r"=== PAIR (\d+).*?\n(.*?)(?=\n=== PAIR |\Z)", src, re.S)}
-    for line in open(f"{d}/{f}"):
-        o = json.loads(line) if line.strip() else {}
-        ids = pairs.get(o.get("p"), [])
+    order = [pairs[k] for k in sorted(pairs)]
+    lines = [json.loads(l) for l in open(f"{d}/{f}") if l.strip()]
+    for k, o in enumerate(lines):
+        # pairs are answered in order; "p" is the pair number, but fall back to the line's position
+        ids = pairs.get(o.get("p"), []) if o.get("drop") in pairs.get(o.get("p"), []) else (order[k] if k < len(order) else [])
         if o.get("drop") in ids and not any(i in gone for i in ids if i != o["drop"]):
             gone.add(o["drop"])
 if gone:
