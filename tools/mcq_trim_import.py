@@ -26,7 +26,7 @@ def qid(stem, options):  # as tools/build_notes_mcq.py
 
 
 # stray words from other scripts left in a few generated options
-FIXES = [(" בלבד", " only"), ("בלבד", "only"), ("Pegан", "Pegan"), ("完全 ", "Complete "), ("航空 ", "Air ")]
+FIXES = [(" בלבד", " only"), ("בלבד", "only"), ("Pegан", "Pegan"), ("完全 ", "Complete "), ("航空 ", "Air "), ("\u200b", ""), ("\u00ad", ""), ("\ufeff", "")]
 
 
 def clean(q):
