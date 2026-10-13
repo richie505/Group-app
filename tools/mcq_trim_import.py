@@ -26,7 +26,13 @@ def qid(stem, options):  # as tools/build_notes_mcq.py
 
 
 # stray words from other scripts left in a few generated options
-FIXES = [(" בלבד", " only"), ("בלבד", "only"), ("Pegан", "Pegan"), ("完全 ", "Complete "), ("航空 ", "Air "), ("\u200b", ""), ("\u00ad", ""), ("\ufeff", ""), ("Children aged ani?", "Only children aged 0–3 years"), ("పోలవరం", "Polavaram"), ("treinta nine point three percent", "39.3 per cent"), ("₹1,580.3 crore", "₹15,803 crore")]
+FIXES = [(" בלבד", " only"), ("בלבד", "only"), ("Pegан", "Pegan"), ("完全 ", "Complete "), ("航空 ", "Air "), ("\u200b", ""), ("\u00ad", ""), ("\ufeff", ""), ("Children aged ani?", "Only children aged 0–3 years"), ("పోలవరం", "Polavaram"), ("treinta nine point three percent", "39.3 per cent"), ("₹1,580.3 crore", "₹15,803 crore"),
+    # references to the notes' sources, which mean nothing to a learner
+    (" according to the account associated with CDX", ""), ("are listed in CDX", "are known"), ("listed in CDX", "known"),
+    (" in LENS (July 2026)", " in July 2026"), ("According to the LENS listing, which", "Which"),
+    ("The LENS proposal made", "The proposal made"), ("the IYB 2026 estimate", "the India Year Book 2026 estimate"),
+    ("as reported in IYB 2026", "as reported in India Year Book 2026"), ("recommended by LENS in relation", "recommended in relation"),
+    ("was associated with the LENS announcement in", "was announced in"), ("MY Bharat (IYB)", "MY Bharat")]
 
 
 def clean(q):
@@ -34,7 +40,7 @@ def clean(q):
         for a, b in FIXES:
             t = t.replace(a, b)
         return t
-    return {**q, "s": relabel(fix(q["s"])), "o": [fix(o) for o in q["o"]], "x": fix(q.get("x", ""))}
+    return {**q, "s": relabel(fix(q["s"])), "o": [fix(o) for o in q["o"]], "x": re.sub(r"\s*\((?:APP|CDX|LENSD?|IYB)\b[^)]*\)", "", fix(q.get("x", "")))}
 
 
 def relabel(stem):
