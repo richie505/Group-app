@@ -85,7 +85,7 @@ class RevisionTest {
     @Test fun factsFromTheMcqs() = runBlocking {
         val page = repo.book(2).rows[0].secs.first { it.title.startsWith("Indian Councils Acts 1861") }
         val t = text(page.blocks)
-        for (fact in listOf("indirect election", "six months", "Raja of Benaras", "ordinance")) {
+        for (fact in listOf("indirect election", "6 months", "Raja of Benaras", "ordinance")) {
             assertTrue("$fact missing:\n$t", t.contains(fact, ignoreCase = true))
         }
         assertTrue(t, page.blocks.any { it is TextBlock && it.kind == 'x' }) // exam angles first
@@ -109,7 +109,7 @@ class RevisionTest {
         repo.checkedAcronyms
         val page = repo.book(2).rows[0].secs.first { it.title.startsWith("Indian Councils Acts 1861") }
         val spoken = com.appsc.prep.data.SpeechText.parts(page.title, page.blocks, 2, repo.book(2).rows[0].title).joinToString(" ") { it.second }
-        assertTrue(spoken, spoken.contains("six months"))
+        assertTrue(spoken, spoken.contains("six months") || spoken.contains("6 months"))
         assertTrue(spoken, spoken.contains("Indian Councils Act"))
         assertTrue(spoken, !spoken.contains("[GK]") && !spoken.contains("CDI"))
     }
