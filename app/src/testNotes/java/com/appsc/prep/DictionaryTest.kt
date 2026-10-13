@@ -52,8 +52,8 @@ class DictionaryTest {
 
     @Test fun everyPageHasKeyTerms() {
         val pages = repo.keyTerms
-        // most pages (8,577 after repeated topics were merged in 2.18)
-        assertTrue("${pages.size}", pages.size > 7400)
+        // most pages (fewer, larger pages once topics were reorganised in 2.46)
+        assertTrue("${pages.size}", pages.size > 5000)
         assertTrue((0..20).any { pages["2:0:$it"]?.contains("dyarchy") == true })
     }
 
