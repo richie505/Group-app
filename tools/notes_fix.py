@@ -10,6 +10,9 @@ ops.json is a list of edits:
     {"book": 2, "row": 4, "sec": 1, "after": "anchor text", "md": "- **Objectives Resolution:** moved by **Nehru** ..."}
         insert new block(s) (markdown form of tools/structured_md.py) after the block containing "anchor text"
     {"book": 2, "row": 4, "sec": 1, "append": true, "md": "..."}  add block(s) at the end of the subsection
+    {"book": 2, "row": 4, "sec": 1, "block": "anchor text", "md": "..."}
+        replace the one block containing "anchor text" (a bullet, a gap line or a whole table) with the md
+        (any number of blocks; "" deletes it)
 MCQs keyed to a corrected fact are listed in work/notefix/mcq_fixes.jsonl (applied by tools/mcq_trim_import.py):
     {"book": 2, "id": "n1234abcd567", "find": "...", "replace": "..."}   or   {"book": 2, "id": "...", "drop": true}
 """
@@ -39,6 +42,16 @@ def runs_of(b):
                     row[i] = [[c, 0]]
         return [c for row in [b["h"]] + b["r"] for c in row]
     return [b["x"]] if isinstance(b["x"], list) else []
+
+
+def plain_cells(b):
+    """Table cells parsed from markdown come back as runs; keep one plain run as a string, as stored."""
+    if b["k"] == "t":
+        for row in [b["h"]] + b["r"]:
+            for i, c in enumerate(row):
+                if isinstance(c, list) and len(c) == 1 and c[0][1] == 0:
+                    row[i] = c[0][0]
+    return b
 
 
 def show(book, row, sec=None):
@@ -84,8 +97,14 @@ def apply(path, dry):
                 errors.append(f"op {n}: '{op['find']}' spans formatting runs; use a shorter find inside one run")
                 continue
         elif "md" in op:
-            new = to_blocks(op["md"], [])
-            if op.get("append"):
+            new = [plain_cells(x) for x in to_blocks(op["md"], [])] if op["md"].strip() else []
+            if "block" in op:
+                at = [bi for bi, blk in enumerate(s["b"]) if op["block"] in text(blk)]
+                if len(at) != 1:
+                    errors.append(f"op {n}: block '{op['block']}' found in {len(at)} blocks (need 1)")
+                    continue
+                s["b"][at[0]:at[0] + 1] = new
+            elif op.get("append"):
                 s["b"].extend(new)
             else:
                 at = [bi for bi, blk in enumerate(s["b"]) if op["after"] in text(blk)]
