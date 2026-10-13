@@ -35,8 +35,9 @@ def check(old, new):
     title_n, secs_n = new
     if title_o != title_n:
         p.append("topic title changed")
-    body_o = "\n".join(b for _, b in secs_o)
-    body_n = "\n".join(b for _, b in secs_n)
+    # heading numbers ("# 4. Powers") are layout, not facts
+    body_o = re.sub(r"(?m)^# \d+\.\s*", "# ", "\n".join(b for _, b in secs_o))
+    body_n = re.sub(r"(?m)^# \d+\.\s*", "# ", "\n".join(b for _, b in secs_n))
     toks = set(re.findall(r"[a-z0-9]+", body_n.lower()))
     for x in problems(body_o, body_n):
         if x.startswith("bold terms lost"):
