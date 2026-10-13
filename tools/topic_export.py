@@ -34,9 +34,10 @@ if __name__ == "__main__":
 
 
     rows = [r for u in d["units"] for r in u["rows"]]
+    done = json.load(open(f"{out}/imported.json")) if os.path.exists(f"{out}/imported.json") else {}
     batch, words, n = [], 0, 0
     for ri, r in enumerate(rows):
-        if only is not None and ri not in only:
+        if (only is not None and ri not in only) or str(ri) in done:
             continue
         t = topic(ri, r)
         w = len(t.split())
