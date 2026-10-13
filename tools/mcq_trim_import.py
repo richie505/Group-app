@@ -152,6 +152,32 @@ if gone:
         rows[r], subs[r] = [rows[r][i] for i in keep], [subs[r][i] for i in keep]
     why["cross-topic repeat"] = len(gone)
 
+# MCQs keyed to a fact corrected in the notes (tools/notes_fix.py): text fixes or drops
+fixes = [json.loads(l) for l in open("work/notefix/mcq_fixes.jsonl")] if os.path.exists("work/notefix/mcq_fixes.jsonl") else []
+fixes = [f for f in fixes if f.get("book") == book]
+if fixes:
+    by_id = {}
+    for f in fixes:
+        by_id.setdefault(f["id"], []).append(f)
+    fixed = dropped = 0
+    for r in list(rows):
+        keep = []
+        for i, q in enumerate(rows[r]):
+            fs = by_id.get(q["id"], [])
+            if any(f.get("drop") for f in fs):
+                dropped += 1
+                continue
+            for f in fs:
+                if "find" in f:
+                    q = {**q, "s": q["s"].replace(f["find"], f["replace"]), "o": [o.replace(f["find"], f["replace"]) for o in q["o"]],
+                         "x": q.get("x", "").replace(f["find"], f["replace"])}
+                    fixed += 1
+            rows[r][i] = q
+            keep.append(i)
+        after -= len(rows[r]) - len(keep)
+        rows[r], subs[r] = [rows[r][i] for i in keep], [subs[r][i] for i in keep]
+    why["notes-fix: corrected"], why["notes-fix: dropped"] = fixed, dropped
+
 json.dump({"rows": rows, "units": mcq["units"], "subs": subs}, open(asset, "w"), ensure_ascii=False, separators=(",", ":"))
 
 index_path = "app/src/main/assets/index.json"
