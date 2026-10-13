@@ -9,3 +9,5 @@ Answers from tools/mcq_cut_guide.md, one file per batch. They refer to the MCQ a
 4. When all pass `tools/mcq_cut_check.py`, run `tools/mcq_cut_import.py <book>` for each book.
 
 flags.txt lists MCQs and notes the agents found doubtful or wrong, for review.
+
+Book 1 (History) has been imported (commit 8418dab); do not re-run its import or export from the new asset.
