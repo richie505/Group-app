@@ -11,4 +11,4 @@ Answers from tools/mcq_cut_guide.md, one file per batch. They refer to the MCQ a
 flags.txt lists MCQs and notes the agents found doubtful or wrong, for review.
 
 Book 1 (History) has been imported (commit 8418dab); do not re-run its import or export from the new asset.
-Book 2 (Polity) imported too (5e19b2d). Book 3 (Economy) imported (88e3e1b).
+Book 2 (Polity) imported too (5e19b2d). Book 3 (Economy) imported (88e3e1b). Book 4 (Geography) imported.
