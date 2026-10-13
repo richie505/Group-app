@@ -47,3 +47,6 @@ MCQs keyed to the losing version: `{"book": 1, "id": "n…", "find": "…", "rep
 `{"b": 2, "r": 126, "s": 7, "i": 8, "kind": "GAP", "done": "filled|deleted|resolved|left", "src": "url or reason"}`
 
 Write only those three files. Reply with counts (filled / deleted / resolved / left).
+
+Helper scripts: other agents run at the same time — name any script you write with your batch number
+(e.g. scratch/b031_ops.py), never a shared name.
