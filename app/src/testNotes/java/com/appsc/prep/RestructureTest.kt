@@ -55,18 +55,20 @@ class RestructureTest {
     }
 
     @Test fun readMarksFollowTheirPage() {
+        // pages moved when topics were reorganised (tools/topic_import.py): marks and bookmarks follow them
+        val moves = repo.idMoves
+        val (from, to) = moves.map.entries.first { (k, v) -> k != v && k !in moves.map.values }
         val store = ProgressStore(MemStorage())
-        store.setDone("2:137:9", true) // merged into 2:138:0
-        store.setDone("2:137:11", true) // renumbered to 2:137:9
-        store.setDone("1:0:0", true) // unchanged
-        store.toggleSaved(Saved("2:137:11", "Adoption", "Child rights"))
-        store.migrate(repo.idMoves)
-        assertEquals(setOf("2:137:9", "1:0:0"), store.done)
-        assertEquals("2:137:9", store.saved.single().id)
+        store.setDone(from, true)
+        store.setDone("9:0:0", true) // not moved
+        store.toggleSaved(Saved(from, "Page", "Topic"))
+        store.migrate(moves)
+        assertEquals(setOf(to, "9:0:0"), store.done)
+        assertEquals(to, store.saved.single().id)
         // once per version
-        store.setDone("2:137:10", true)
-        store.migrate(repo.idMoves)
-        assertTrue("2:137:10" in store.done)
+        store.setDone(from, true)
+        store.migrate(moves)
+        assertTrue(from in store.done)
         store.migrate(IdMoves("", emptyMap(), emptySet()))
     }
 

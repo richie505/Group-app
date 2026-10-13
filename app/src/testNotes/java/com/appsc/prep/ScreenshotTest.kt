@@ -159,7 +159,7 @@ class ScreenshotTest {
     }
 
     @Test fun fullFormsAndCoveredIn() {
-        shot("21_full_forms", preload = 2) { ReaderScreen(2, 138, 3, nav) }
+        shot("21_full_forms", preload = 2) { ReaderScreen(2, 138, 1, nav) }
         rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("ALSO COVERED IN"))
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/22_covered_in.png")

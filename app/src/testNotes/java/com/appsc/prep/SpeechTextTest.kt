@@ -57,9 +57,9 @@ class SpeechTextTest {
 
     /** The page in the user's screenshot: title first, the table headings once, then each row. */
     @Test fun tableIsReadRowByRow() {
-        val sec = runBlocking { repo.book(2) }.rows[106].secs[0]
+        val sec = runBlocking { repo.book(2) }.rows[106].secs.first { it.title.startsWith("Changing family structure") }
         val parts = SpeechText.parts(sec.title, sec.blocks, 2)
-        assertTrue(parts.first().second.startsWith("Changing structure and urban families"))
+        assertTrue(parts.first().second.startsWith("Changing family structure"))
         val table = sec.blocks.indexOfFirst { it is TableBlock }
         val rows = parts.filter { it.first == table }.map { it.second }
         // headings once, then each row without them
