@@ -32,7 +32,7 @@ def problems(old, new):
     flat_new = norm(new.replace("**", ""))
     new_nums = set(NUM.findall(new.replace("**", "")))
     for n in set(NUM.findall(plain_old.replace("**", ""))):
-        if n not in new_nums and not (len(n) == 1 and re.search(r"\b" + n + r"\b", new)):
+        if n not in new_nums and n + ".0" not in new_nums and not (len(n) == 1 and re.search(r"\b" + n + r"\b", new)):
             p.append(f"number {n}")
     gaps_old = re.findall(r"!! (.*)", old)
     for g in gaps_old:
