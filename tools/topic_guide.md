@@ -50,5 +50,5 @@ Rewrite each topic so that it:
 ## Check
 `python3 tools/topic_check.py <book> NNN` must report OK for every topic: it compares each topic's numbers,
 gap lines and bold terms with the input. Fix what it reports (usually a number you dropped while merging) and
-re-run. Write only out_NNN.md. Helper scripts, if any: name them with your batch number (e.g. scratch/b2_000.py).
+re-run. Never pad the text to satisfy it (no term written twice, no "(**same term**)" echoes). Write only out_NNN.md. Helper scripts, if any: name them with your batch number (e.g. scratch/b2_000.py).
 Reply with one line per topic: subsections before → after, and what you merged/moved.

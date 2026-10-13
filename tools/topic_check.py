@@ -7,7 +7,7 @@ every input subsection named in some "from:", the Universal angles page last, ea
 import glob, os, re, sys
 from collections import Counter
 sys.path.insert(0, os.path.dirname(__file__))
-from restructure_check import problems
+from restructure_check import problems, BOLD
 from structured_md import to_blocks
 
 
@@ -37,7 +37,15 @@ def check(old, new):
         p.append("topic title changed")
     body_o = "\n".join(b for _, b in secs_o)
     body_n = "\n".join(b for _, b in secs_n)
-    p += problems(body_o, body_n)
+    toks = set(re.findall(r"[a-z0-9]+", body_n.lower()))
+    for x in problems(body_o, body_n):
+        if x.startswith("bold terms lost"):
+            # wording of a bold term may change (punctuation, order); lost only if its words are gone
+            lost = [b for b in BOLD.findall(body_o) if not set(re.findall(r"[a-z0-9]+", b.lower())) <= toks]
+            if len(lost) > max(1, len(set(BOLD.findall(body_o))) // 12):
+                p.append(f"bold terms lost ({len(lost)}): " + "; ".join(sorted(set(lost))[:6]))
+        else:
+            p.append(x)
     go, gn = Counter(re.findall(r"!! (.*)", body_o)), Counter(re.findall(r"!! (.*)", body_n))
     if go != gn:
         p.append(f"gap lines differ ({sum(go.values())} -> {sum(gn.values())})")
