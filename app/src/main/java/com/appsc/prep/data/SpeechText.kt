@@ -563,7 +563,7 @@ object SpeechText {
      */
     fun meaning(word: String, plural: String, before: String, after: String, book: Int, page: String = ""): String? {
         fun pl(s: String) = if (plural.isNotEmpty()) pluralOf(s) else s
-        contextual(word + plural, word, before, after, book)?.let { return it }
+        contextual(word + plural, word, before, after, book, page)?.let { return it }
         val senses = checked[word + plural]?.let { it to false } ?: checked[word]?.let { it to true }
         if (senses != null) {
             val (list, plural2) = senses
@@ -650,7 +650,7 @@ object SpeechText {
     )
 
     /** Short forms whose meaning depends on the words around them or on the subject (book). */
-    private fun contextual(token: String, word: String, before: String, after: String, book: Int): String? {
+    private fun contextual(token: String, word: String, before: String, after: String, book: Int, page: String = ""): String? {
         val prev = before.trimEnd().substringAfterLast(' ').lowercase()
         val plural = token != word
         fun p(s: String, pl: String = s + "s") = if (plural) pl else s
@@ -699,8 +699,15 @@ object SpeechText {
             "DM" -> if (Regex("""^\s*(Act|Cell|cycle|plan|policy)""", RegexOption.IGNORE_CASE).containsMatchIn(after) || prev == "on") "disaster management" else "District Magistrate"
             "NH" -> if (Regex("""^\s*(and|or)\s+(the\s+)?SH\b""").containsMatchIn(after) || Regex("""\bSH\s+(and|or)\s+(the\s+)?$""").containsMatchIn(before) || prev == "the" && Regex("""^\s*(and|,)""").containsMatchIn(after))
                 "Northern Hemisphere" else "National Highway"
-            "LPG" -> if (Regex("""^\s*(reform|model|era|policy|policies)""", RegexOption.IGNORE_CASE).containsMatchIn(after))
-                "liberalisation, privatisation and globalisation" else "liquefied petroleum gas"
+            // the 1991 reforms, or cooking gas: the words next to it, else the page (a page on the reforms, and no cylinders here)
+            "LPG" -> {
+                val near = before.takeLast(80) + " " + after.take(80)
+                val gas = Regex("""cylinder|subsid|connection|cooking|stove|\bgas|import|LNG|PNG|kerosene|petrol|crude|Ujjwala|PMUY|PAHAL|Deepam|\bMT\b|price|shortage|crore""", RegexOption.IGNORE_CASE)
+                val reforms = Regex("""reform|1991|liberali|globali|privati|\bera\b|policy|policies|model\b""", RegexOption.IGNORE_CASE)
+                if (Regex("""^\s*(reform|model|era|policy|policies)""", RegexOption.IGNORE_CASE).containsMatchIn(after) ||
+                    !gas.containsMatchIn(near) && (reforms.containsMatchIn(near) || Regex("""liberali[sz]ation""", RegexOption.IGNORE_CASE).containsMatchIn(page))
+                ) "liberalisation, privatisation and globalisation" else "liquefied petroleum gas"
+            }
             else -> null
         }
     }
