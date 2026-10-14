@@ -35,3 +35,15 @@
 - Q89.3 nafe63c31a42 - WHY says BHEL makes electric locomotives at Bhopal; flag suggests Jhansi. Notes R89 S0/S1 and live MCQ n6bea5b6fc3d also say Bhopal - change together if confirmed.
 - Q94.28 n7c1b07d1049 - "Economic Survey 2025-26" as source of the four telecom principles is not named in the notes - verify source.
 - R57 S2 B5 (notes) - still says AP "8th largest by area (2024-25)", citing the AP survey; left because sourced, but conflicts with 7th used elsewhere.
+
+## Review settled
+
+- Q13.45 n9fc9d8d1721 - fixed: stmt 2 now "Normandy loess derived from glacial outwash silt" (key 1, 2 and 4 kept); WHY/tq and notes R13 S4 changed from "Sahara". Source: Lautridou et al. (Biuletyn Peryglacjalny), Rennes HAL-02303315 - periglacial loess from ice-sheet outwash.
+- Q13.58 n8888130ce46 - left: Bates (1953) maps equal density (homopycnal) to arcuate/Gilbert and lighter (hypopycnal) to bird-foot; no source supports cuspate = equal density, so the notes' scheme can't be matched to a reference.
+- Q47.45 ndfe81c53f46 + Q51.24 n29263e2bbe0 - fixed: NSTR now ~3,728 sq km, in Andhra Pradesh (Telangana part = Amrabad TR) in option/WHY and notes R47 S10 + R51; 1983 and "largest TR" kept. Source: WII MEE-TR page (3,728 = 2,444 core + 1,283 buffer, AP), Wikipedia. Not changed: another R47 MCQ's tq still says "NSTR = ... AP-Telangana".
+- Q51.10 n072e1bdb800 - fixed WHY + notes R51: Nelapattu notified 1976, so the key order Nelapattu → Rollapadu (1988) → Koundinya → Kolleru stands. Source: AP Forest Dept (forests.ap.gov.in/nelapattu.php, 25-09-1976), BirdLife IBA factsheet.
+- Q51.44 n0d52163f811 - fixed: "Siberian cranes" → "Northern pintails" (option, WHY, notes R51 S7). Source: CMS Siberian Crane MoU / Deccan Herald - last Siberian cranes in India at Keoladeo, 2002. Distractor n8bc07740ee3 "Nelapattu — Siberian crane breeding colony" kept (it is still wrong).
+- Q53.44 n2425e11dc1c - fixed: stem now "India's first private-sector gold mine (2026)"; WHY names Jonnagiri (Kurnool) and Kolar as oldest field; notes R53 S4 Ramagiri "first gold mine in India identified here" replaced. Source: Drishti IAS 24 Apr 2026, NBM&CW (Jonnagiri, first private gold mine).
+- Q89.3 nafe63c31a42 + n6bea5b6fc3d - fixed: BHEL electric locomotives are built at Jhansi; Bhopal supplies traction motors (WHYs, n6bea5b6fc3d option B, notes R89 S0/S1). Source: BHEL transportation brochure; Railway Technology / Outlook Business on 2022 NTPC loco order.
+- Q94.28 n7c1b07d1049 - confirmed, no edit: Economic Survey 2025-26 names Samaveshit, Viksit, Tvarit, Surakshit. Source: Outlook Business, EY Union Budget 2026 telecom highlights.
+- R57 S2 B5 (notes) - left: AP is 7th among States by area, but "8th" is right if Ladakh UT (claimed area) is counted, as the cited AP survey may do; could not see the survey wording.
