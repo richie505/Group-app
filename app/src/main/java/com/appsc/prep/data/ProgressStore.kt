@@ -29,6 +29,15 @@ data class DayLog(val mcqs: Int = 0, val correct: Int = 0, val notesSec: Int = 0
     }
 }
 
+/**
+ * Time (and MCQs) on one thing in a day. [key]: "n:book:row:sec" a notes page (read or listened to),
+ * "q:kind:book:index:sub" an MCQ practice ([com.appsc.prep.ui.screens.QuizSource]).
+ */
+data class Spent(val sec: Int = 0, val mcqs: Int = 0) {
+    operator fun plus(o: Spent) = Spent(sec + o.sec, mcqs + o.mcqs)
+    fun latest(o: Spent) = Spent(maxOf(sec, o.sec), maxOf(mcqs, o.mcqs))
+}
+
 /** Read/done state, bookmarks, last position and reader settings, kept in [Storage]. */
 class ProgressStore(private val prefs: Storage) {
 
@@ -126,6 +135,7 @@ class ProgressStore(private val prefs: Storage) {
 
     fun recordAnswer(questionId: String, correct: Boolean) {
         logToday { it.copy(mcqs = it.mcqs + 1, correct = it.correct + if (correct) 1 else 0) }
+        practising?.let { spendToday(it, Spent(mcqs = 1)) }
         answers = answers + (questionId to correct)
         prefs.putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet())
         markActive()
@@ -133,6 +143,7 @@ class ProgressStore(private val prefs: Storage) {
 
     fun markSeen(questionId: String) {
         logToday { it.copy(mcqs = it.mcqs + 1) }
+        practising?.let { spendToday(it, Spent(mcqs = 1)) }
         if (questionId in seen) return
         seen = seen + questionId
         prefs.putStringSet(KEY_SEEN, seen)
@@ -205,11 +216,48 @@ class ProgressStore(private val prefs: Storage) {
 
     fun dayLog(day: LocalDate = LocalDate.now()) = activity[day.toString()] ?: DayLog()
 
-    /** Adds [seconds] of study today, on the notes or on MCQs. */
-    fun addStudyTime(notes: Boolean, seconds: Int) {
+    /** Adds [seconds] of study today, on the notes or on MCQs; [what] is the page or practice ([Spent]). */
+    fun addStudyTime(notes: Boolean, seconds: Int, what: String? = null) {
         if (seconds <= 0) return
         logToday { if (notes) it.copy(notesSec = it.notesSec + seconds) else it.copy(mcqSec = it.mcqSec + seconds) }
+        if (what != null) spendToday(what, Spent(sec = seconds))
     }
+
+    /** The MCQ practice on screen ("q:..."), so answered MCQs are counted under it. Set by the study clock. */
+    var practising: String? = null
+
+    /** Day -> what -> time and MCQs, on this device. */
+    private var ownSpent by mutableStateOf(decodeSpent(prefs.getStringSet(KEY_SPENT)))
+
+    /** Device -> day -> what -> time and MCQs, from other devices' backups. */
+    private var otherSpent by mutableStateOf(
+        prefs.getStringSet(KEY_SPENT_OTHER).mapNotNull { l -> l.split('\t').takeIf { it.size >= 5 }?.let { it[0] to it.drop(1).joinToString("\t") } }
+            .groupBy({ it.first }, { it.second }).mapValues { (_, v) -> decodeSpent(v) },
+    )
+
+    /** What the time of a day went on (notes pages and MCQ practices), on all devices together. */
+    fun spentOn(day: LocalDate = LocalDate.now()): Map<String, Spent> {
+        val d = day.toString()
+        val all = (ownSpent[d] ?: emptyMap()).toMutableMap()
+        for (dev in otherSpent.values) for ((k, v) in dev[d] ?: emptyMap()) all[k] = (all[k] ?: Spent()) + v
+        return all
+    }
+
+    private fun spendToday(what: String, add: Spent) {
+        val t = LocalDate.now().toString()
+        val day = ownSpent[t] ?: emptyMap()
+        ownSpent = ownSpent + (t to day + (what to (day[what] ?: Spent()) + add))
+        prefs.putStringSet(KEY_SPENT, encodeSpent(ownSpent).toSet())
+    }
+
+    private fun encodeSpent(m: Map<String, Map<String, Spent>>) =
+        m.flatMap { (d, w) -> w.map { (k, v) -> "$d\t$k\t${v.sec}\t${v.mcqs}" } }
+
+    private fun decodeSpent(raw: Collection<String>): Map<String, Map<String, Spent>> =
+        raw.mapNotNull { l ->
+            val p = l.split('\t')
+            if (p.size < 4) null else Triple(p[0], p[1], Spent(p[2].toIntOrNull() ?: return@mapNotNull null, p[3].toIntOrNull() ?: 0))
+        }.groupBy { it.first }.mapValues { (_, v) -> v.associate { it.second to it.third } }
 
     private fun logToday(change: (DayLog) -> DayLog) {
         val t = LocalDate.now().toString()
@@ -250,6 +298,7 @@ class ProgressStore(private val prefs: Storage) {
         lastRead?.let { put("last", kotlinx.serialization.json.JsonPrimitive(it)) }
         put("device", kotlinx.serialization.json.JsonPrimitive(device))
         set("log", ownLog.map { (d, l) -> "$device\t$d\t${l.encode()}" } + encodeOthers())
+        set("spent", encodeSpent(ownSpent).map { "$device\t$it" } + otherSpent.flatMap { (dev, m) -> encodeSpent(m).map { "$dev\t$it" } })
         put("scale", kotlinx.serialization.json.JsonPrimitive(textScale))
         put("rate", kotlinx.serialization.json.JsonPrimitive(speechRate))
     }.toString()
@@ -317,6 +366,21 @@ class ProgressStore(private val prefs: Storage) {
             prefs.putStringSet(KEY_LOGS, encodeOthers().toSet())
         }
 
+        val inSpent = list("spent").mapNotNull { l -> l.split('\t').takeIf { it.size >= 5 }?.let { it[0] to it.drop(1).joinToString("\t") } }
+            .filter { it.first != device }.groupBy({ it.first }, { it.second }).mapValues { (_, v) -> decodeSpent(v) }
+        if (inSpent.isNotEmpty()) {
+            otherSpent = (otherSpent.keys + inSpent.keys).associateWith { dev ->
+                val a = otherSpent[dev] ?: emptyMap()
+                val b = inSpent[dev] ?: emptyMap()
+                (a.keys + b.keys).associateWith { d ->
+                    val x = a[d] ?: emptyMap()
+                    val y = b[d] ?: emptyMap()
+                    (x.keys + y.keys).associateWith { k -> (x[k] ?: Spent()).latest(y[k] ?: Spent()) }
+                }
+            }
+            prefs.putStringSet(KEY_SPENT_OTHER, otherSpent.flatMap { (dev, m) -> encodeSpent(m).map { "$dev\t$it" } }.toSet())
+        }
+
         if (lastRead == null) str("last")?.let { rememberPosition(id(it)) }
         return Restored(newDone.size, incoming.size, inAnswers.size, inNotes.size)
     }
@@ -345,5 +409,7 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_NOTE_ROUNDS = "note_rounds"
         const val KEY_LOG = "activity_log"
         const val KEY_LOGS = "activity_other"
+        const val KEY_SPENT = "spent_on"
+        const val KEY_SPENT_OTHER = "spent_on_other"
     }
 }

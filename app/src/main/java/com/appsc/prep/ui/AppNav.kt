@@ -70,7 +70,15 @@ class NavImpl(private val nav: NavHostController) : Nav {
 
 @Composable
 fun AppNavHost(nav: NavHostController, actions: Nav) {
-    NavHost(nav, startDestination = "today", modifier = Modifier.studyClock { nav.currentBackStackEntry?.destination?.route }) {
+    NavHost(nav, startDestination = "today", modifier = Modifier.studyClock(
+        route = { nav.currentBackStackEntry?.destination?.route },
+        what = {
+            nav.currentBackStackEntry?.let { e ->
+                val a = e.arguments
+                spentKey(e.destination.route, { a?.getInt(it) ?: 0 }, { a?.getString(it) })
+            }
+        },
+    )) {
         composable("today") { TodayScreen(actions) }
         composable("plan") { PlanScreen(actions) }
         composable("books") { BooksScreen(actions) }
@@ -119,4 +127,12 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
             ReaderScreen(it.arguments!!.getInt("b"), it.arguments!!.getInt("r"), it.arguments!!.getInt("s"), actions)
         }
     }
+}
+
+/** The page or MCQ practice a screen is on, for the study-time record ([com.appsc.prep.data.Spent]). */
+fun spentKey(route: String?, int: (String) -> Int, str: (String) -> String?): String? = when {
+    route == null -> null
+    route.startsWith("read/") -> "n:${int("b")}:${int("r")}:${int("s")}"
+    route.startsWith("quiz/") -> "q:${str("k")}:${int("b")}:${int("i")}:${int("s")}"
+    else -> null
 }

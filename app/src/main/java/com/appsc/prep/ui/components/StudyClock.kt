@@ -31,31 +31,37 @@ const val IDLE_MS = 5 * 60_000L
  * Records study time, on the notes or on MCQs ([studyKind] of the current route), while the app is in front and
  * used. Listening to read-aloud counts as notes time, even with the screen off. Only records; there is no target.
  */
-fun Modifier.studyClock(route: () -> String?): Modifier = if (!StudyClock.on) this else composed {
+fun Modifier.studyClock(route: () -> String?, what: () -> String? = { null }): Modifier = if (!StudyClock.on) this else composed {
     val app = LocalApp.current
     val window = LocalWindowInfo.current
     val currentRoute = rememberUpdatedState(route)
+    val currentWhat = rememberUpdatedState(what)
     val lastUse = remember { longArrayOf(System.currentTimeMillis()) }
     LaunchedEffect(Unit) {
-        var notes = 0
-        var mcqs = 0
+        // seconds per (notes?, what) since the last flush: "what" is the page or practice ([com.appsc.prep.data.Spent])
+        val counted = HashMap<Pair<Boolean, String?>, Int>()
         fun flush() {
-            app.store.addStudyTime(notes = true, seconds = notes)
-            app.store.addStudyTime(notes = false, seconds = mcqs)
-            notes = 0
-            mcqs = 0
+            for ((k, sec) in counted) app.store.addStudyTime(notes = k.first, seconds = sec, what = k.second)
+            counted.clear()
         }
         try {
             while (true) {
                 delay(1000)
                 val kind = studyKind(currentRoute.value())
-                val listening = app.platform.speech?.playback?.value?.playing == true
+                val here = currentWhat.value()
+                app.store.practising = here?.takeIf { kind == false }
+                val playback = app.platform.speech?.playback?.value
+                val listening = playback?.playing == true
                 val inUse = window.isWindowFocused && System.currentTimeMillis() - lastUse[0] < IDLE_MS
-                when {
-                    kind == false && inUse -> mcqs++
-                    kind == true && inUse || listening && kind != false -> notes++
+                val key = when {
+                    kind == false && inUse -> false to here
+                    // read-aloud counts for the page being read, wherever the app is
+                    listening && kind != false -> true to "n:${playback!!.pageId}"
+                    kind == true && inUse -> true to here
+                    else -> null
                 }
-                if (notes + mcqs >= 30) flush()
+                if (key != null) counted[key] = (counted[key] ?: 0) + 1
+                if (counted.values.sum() >= 30) flush()
             }
         } finally {
             flush()

@@ -295,6 +295,7 @@ private fun StudyActivity(width: androidx.compose.ui.unit.Dp) {
         boxes.chunked(columnsFor(width, 300.dp, 3).coerceAtLeast(3)).forEach { row ->
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) { row.forEach { it(Modifier.weight(1f)) } }
         }
+        SpentOn(java.time.LocalDate.now(), "Where today's time went")
         val days = log.filterValues { !it.empty }.toSortedMap(reverseOrder())
         if (days.isNotEmpty()) {
             val all = days.values.fold(DayLog()) { a, b -> a + b }
@@ -305,9 +306,15 @@ private fun StudyActivity(width: androidx.compose.ui.unit.Dp) {
             )
             Spacer(Modifier.height(12.dp))
             ActivityRow("Day", "MCQs", "Notes", "MCQ time", "Total", header = true)
+            var open by rememberSaveable { mutableStateOf<String?>(null) }
             days.entries.take(30).forEach { (d, l) ->
-                val date = runCatching { java.time.LocalDate.parse(d).format(java.time.format.DateTimeFormatter.ofPattern("EEE, d MMM")) }.getOrDefault(d)
-                ActivityRow(date, "${l.mcqs}", studyTime(l.notesSec), studyTime(l.mcqSec), studyTime(l.totalSec))
+                val day = runCatching { java.time.LocalDate.parse(d) }.getOrNull()
+                val date = day?.format(java.time.format.DateTimeFormatter.ofPattern("EEE, d MMM")) ?: d
+                // tap a day: what its time went on
+                ActivityRow(date, "${l.mcqs}", studyTime(l.notesSec), studyTime(l.mcqSec), studyTime(l.totalSec), open = open == d) {
+                    open = if (open == d) null else d
+                }
+                if (open == d && day != null) SpentOn(day, null)
             }
             if (days.size > 30) {
                 Text("Showing the last 30 days.", style = TextStyle(fontSize = 12.sp, color = C.Muted), modifier = Modifier.padding(top = 6.dp))
@@ -321,11 +328,84 @@ private fun StudyActivity(width: androidx.compose.ui.unit.Dp) {
     }
 }
 
+/** What a day's study time went on: each notes page and each MCQ practice, longest first. */
 @Composable
-private fun ActivityRow(day: String, mcqs: String, notes: String, mcqTime: String, total: String, header: Boolean = false) {
-    val style = TextStyle(fontSize = 13.sp, fontWeight = if (header) FontWeight.SemiBold else FontWeight.Normal, color = if (header) C.Muted else C.Ink)
-    Row(Modifier.fillMaxWidth().padding(vertical = 5.dp)) {
-        Text(day, style = style, modifier = Modifier.weight(1.6f))
+private fun SpentOn(day: java.time.LocalDate, title: String?) {
+    val app = LocalApp.current
+    val spent = app.store.spentOn(day).filterValues { it.sec >= 60 || it.mcqs > 0 }
+    if (spent.isEmpty()) return
+    // page titles need the books they are in
+    val books = spent.keys.mapNotNull { it.split(':').getOrNull(if (it.startsWith("n:")) 1 else 2)?.toIntOrNull() }.toSet()
+    val loaded by androidx.compose.runtime.produceState(emptyMap<Int, com.appsc.prep.data.Book>(), books) {
+        value = books.filter { it in 1..6 }.associateWith { runCatching { app.repo.book(it) }.getOrNull() }.filterValues { it != null }.mapValues { it.value!! }
+    }
+    fun rowTitle(b: Int, r: Int) = app.repo.rowInfo(b, r)?.title ?: loaded[b]?.rows?.getOrNull(r)?.title ?: "Section"
+    fun secTitle(b: Int, r: Int, s: Int) = loaded[b]?.rows?.getOrNull(r)?.secs?.getOrNull(s)?.title
+    fun label(key: String): Pair<String, String?> {
+        val p = key.split(':')
+        val n = p.drop(1).map { it.toIntOrNull() }
+        return if (p[0] == "n") {
+            val (b, r, s) = Triple(n.getOrNull(0) ?: 0, n.getOrNull(1) ?: 0, n.getOrNull(2) ?: 0)
+            (secTitle(b, r, s) ?: "Page ${s + 1}") to rowTitle(b, r)
+        } else {
+            val kind = p.getOrNull(1)
+            val b = p.getOrNull(2)?.toIntOrNull() ?: 0
+            val i = p.getOrNull(3)?.toIntOrNull() ?: 0
+            val s = p.getOrNull(4)?.toIntOrNull() ?: -1
+            when (kind) {
+                "sub" -> (if (s < 0) "Section-wide MCQs" else secTitle(b, i, s) ?: "Subsection ${s + 1}") to rowTitle(b, i)
+                "row" -> rowTitle(b, i) to "All MCQs of this section"
+                "unit" -> (app.repo.index.getOrNull(b - 1)?.units?.getOrNull(i)?.title ?: "Unit") to "Unit MCQs"
+                "day" -> "Day $i MCQs" to "Study plan"
+                else -> "MCQ practice" to null
+            }
+        }
+    }
+    val notes = spent.filterKeys { it.startsWith("n:") }.entries.sortedByDescending { it.value.sec }
+    val mcqs = spent.filterKeys { it.startsWith("q:") }.entries.sortedByDescending { it.value.sec }
+    Column(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 6.dp)) {
+        if (title != null) Text(title, style = TextStyle(fontSize = 13.sp, color = C.Muted), modifier = Modifier.padding(bottom = 4.dp))
+        @Composable
+        fun group(name: String, items: List<Map.Entry<String, com.appsc.prep.data.Spent>>, icon: androidx.compose.ui.graphics.vector.ImageVector) {
+            if (items.isEmpty()) return
+            Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 6.dp, bottom = 2.dp)) {
+                Icon(icon, null, tint = C.Accent, modifier = Modifier.size(16.dp))
+                Spacer(Modifier.width(6.dp))
+                Text(name, style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent))
+            }
+            items.forEach { (k, v) ->
+                val (main, under) = label(k)
+                Row(Modifier.fillMaxWidth().padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Column(Modifier.weight(1f).padding(end = 10.dp)) {
+                        Text(main, style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, color = C.Ink), maxLines = 2, overflow = TextOverflow.Ellipsis)
+                        if (under != null) Text(under, style = TextStyle(fontSize = 11.sp, lineHeight = 15.sp, color = C.Muted), maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    }
+                    Text(
+                        studyTime(v.sec) + if (v.mcqs > 0) " · ${mcqCount(v.mcqs)}" else "",
+                        style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Ink),
+                    )
+                }
+            }
+        }
+        group("Notes", notes, Icons.Outlined.AutoStories)
+        group("MCQs", mcqs, Icons.Outlined.Quiz)
+    }
+}
+
+@Composable
+private fun ActivityRow(
+    day: String, mcqs: String, notes: String, mcqTime: String, total: String, header: Boolean = false,
+    open: Boolean = false, onClick: (() -> Unit)? = null,
+) {
+    val style = TextStyle(fontSize = 13.sp, fontWeight = if (header || open) FontWeight.SemiBold else FontWeight.Normal, color = if (header) C.Muted else C.Ink)
+    Row(
+        Modifier.fillMaxWidth().then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier).padding(vertical = 5.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Row(Modifier.weight(1.6f), verticalAlignment = Alignment.CenterVertically) {
+            Text(day, style = style)
+            if (onClick != null) Icon(if (open) Icons.Filled.ExpandLess else Icons.Filled.ExpandMore, if (open) "Hide" else "Show what the time went on", tint = C.Muted, modifier = Modifier.size(18.dp))
+        }
         for (v in listOf(mcqs, notes, mcqTime, total)) {
             Text(v, style = style, textAlign = androidx.compose.ui.text.style.TextAlign.End, modifier = Modifier.weight(1f))
         }

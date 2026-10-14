@@ -368,6 +368,24 @@ class ScreenshotTest {
         rule.onRoot().captureRoboImage("screenshots/31_activity.png")
     }
 
+    /** Progress → Study activity → where today's time went: each notes page and MCQ practice. */
+    @Test fun studyActivityByTopic() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val store = ProgressStore(PrefsStorage(ctx))
+        store.addStudyTime(notes = true, seconds = 1500, what = "n:2:77:0")
+        store.addStudyTime(notes = true, seconds = 600, what = "n:2:0:0")
+        store.practising = "q:sub:2:77:0"
+        repeat(30) { store.recordAnswer("n2-$it", it % 4 != 0) }
+        store.practising = null
+        store.addStudyTime(notes = false, seconds = 1200, what = "q:sub:2:77:0")
+        shot("32_activity_by_topic", preload = 2) { ProgressScreen(nav) }
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("Where today's time went"))
+        rule.waitForIdle()
+        rule.onAllNodesWithText("20m · 30 MCQs").assertCountEquals(1)
+        rule.onAllNodesWithText("25m").assertCountEquals(1)
+        rule.onRoot().captureRoboImage("screenshots/32_activity_by_topic.png")
+    }
+
     @Test fun books() = shot("7_notes") { BooksScreen(nav) }
     @Test fun progress() {
         shot("8_progress") { ProgressScreen(nav) }

@@ -54,6 +54,25 @@ class BackupTest {
         assertEquals(0, fresh.restore(file, moves).read)
     }
 
+    @Test fun timeOnEachPageComesBackOnANewPhone() {
+        val phone = ProgressStore(MemStorage())
+        phone.addStudyTime(notes = true, seconds = 900, what = "n:2:77:0")
+        phone.practising = "q:sub:2:77:0"
+        phone.recordAnswer("n2-1", true)
+        phone.recordAnswer("n2-2", false)
+        phone.addStudyTime(notes = false, seconds = 300, what = "q:sub:2:77:0")
+        assertEquals(com.appsc.prep.data.Spent(900, 0), phone.spentOn()["n:2:77:0"])
+        assertEquals(com.appsc.prep.data.Spent(300, 2), phone.spentOn()["q:sub:2:77:0"])
+        val file = phone.backup()
+
+        val fresh = ProgressStore(MemStorage())
+        fresh.addStudyTime(notes = true, seconds = 60, what = "n:2:77:0")
+        fresh.restore(file, moves)
+        assertEquals(com.appsc.prep.data.Spent(960, 0), fresh.spentOn()["n:2:77:0"]) // both phones' time
+        fresh.restore(file, moves)
+        assertEquals(com.appsc.prep.data.Spent(960, 0), fresh.spentOn()["n:2:77:0"]) // the same file twice counts once
+    }
+
     @Test fun activityLogAddsUpAcrossDevices() {
         val phone = ProgressStore(MemStorage())
         phone.recordAnswer("n1-1", true)
