@@ -67,6 +67,9 @@ private val bookColors = listOf(
     Color(0xFF2E7D32), Color(0xFF8E24AA), Color(0xFFD84315),
 )
 
+/** "1 MCQ", "5 MCQs". */
+fun mcqCount(n: Int): String = if (n == 1) "1 MCQ" else "$n MCQs"
+
 @Composable
 private fun bookDone(b: BookInfo): Int {
     val store = LocalApp.current.store
@@ -169,7 +172,7 @@ fun BookScreen(id: Int, nav: Nav) {
                                     meta = listOfNotNull(
                                         "pp ${r.p1}-${r.p2}",
                                         r.codes.firstOrNull(),
-                                        r.questionCount.takeIf { it > 0 }?.let { "$it MCQs" },
+                                        r.questionCount.takeIf { it > 0 }?.let { mcqCount(it) },
                                         "${r.subsectionCount} subsections",
                                     ).joinToString(" · "),
                                     priority = app.repo.planRowByRef[b.id to r.index]?.priority ?: "",

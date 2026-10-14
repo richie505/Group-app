@@ -307,7 +307,7 @@ private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, na
                     title = info?.title ?: r.topic,
                     meta = listOfNotNull(
                         r.pages.takeIf { it.isNotBlank() }?.let { "pp $it" },
-                        info?.questionCount?.takeIf { it > 0 }?.let { "$it MCQs" },
+                        info?.questionCount?.takeIf { it > 0 }?.let { mcqCount(it) },
                         "$total subsections",
                     ).joinToString(" · "),
                     priority = r.priority,
