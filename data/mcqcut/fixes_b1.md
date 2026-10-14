@@ -53,3 +53,28 @@
 - Siddhantam district (flag 039, Q250.34, Q194.123, the temple-entry pairs MCQ, notes rows 194 and 250): all say Krishna district. It is probably Penugonda mandal, West Godavari. It needs checking before editing all of them.
 - Flag 041 notes: Bellary taluk went to Mysore on the Justice Mishra report (row 256), while row 255 frames it under Wanchoo and Nehru's announcement. Left for a decision.
 - Nothing to do: Q186.19, Q194.112, Q195.48 and Q263.142 were dropped. The row 263 notes already say Himachal Pradesh became a state in 1971.
+
+## Review settled
+
+- Q46.61 (n01ff0050dc6): fixed. The Sanchi south torana inscription (Ananda's gift) names "rajan Siri Satakarni", usually taken as Satakarni I/II, not Gautamiputra (Wikipedia "Satakarni II"; Epigraphia Indica II). The key is now A (1 and 2 only) and the WHY was rewritten. Notes fixed: row 30 and row 46 (sec 7). Rows 29 and 46 (tables) already credit the Satavahanas or Satakarni II.
+- Q35.38 notes: fixed. Rows 36, 40 and 48 now give Mahadeva founding or first enshrining at Amaravati as "Andhra tradition", matching the MCQ WHY. The Mahavamsa sends Mahadeva to Mahisamandala, and Wikipedia ("Amaravati Stupa") gives no founder.
+- Q38.3 / Q48.24: left. The "most ancient" and "largest" stupa claims are source-specific (Sanchi, Bharhut, Piprahwa and Kesariya each get superlatives), and sources disagree.
+- Q65.16: left. Chandragupta II as the first "Parama Bhagavata" (on his coins) is the standard view, and the key already follows it.
+- Q122.70 (n8379c8acee9): fixed. Abdur Razzaq wrote that Deva Raya II had "three hundred ports, each equal to Calicut" (Wikipedia "Deva Raya II", from Major, *India in the Fifteenth Century*). The key is now D, and the WHY has "⚠ APPSC key said Duarte Barbosa (G2 2019)". Notes fixed: row 104 exam angle, row 122 table (Barbosa row) and trap lines.
+- Q108.39: left. Ibn Battuta's contact under Harihara I (coastal Honavar, 1340s) is real, and the stem is hedged ("is described as"). No source gives a clean alternative.
+- Q11.9: left. This follows NCERT *An Introduction to Indian Art* ("more realistic in Gujarat sites and Kalibangan"), and it is not clearly wrong.
+- Q8.2 (n53e2f3aff33): fixed. Harappan seals and weights are attested in Mesopotamia, Oman, Bahrain and Iran, but none are reported from Egypt (British Museum collection notes on Indus seals; harappa.com). The key is now B (1, 2, 3 and 4 only) and the WHY was rewritten. Notes fixed: row 8 now says that no Harappan seals are reported from Egypt.
+- Q15.2: left. "Ganga once, in Mandala 10 (Nadistuti)" is the standard exam fact. RV 6.45.31 ("gangya") is a scholarly quibble.
+- Q117.19: left. Most sources give Ashrafi Mahal to Mahmud Khalji (1436-69), and one gives it to Hoshang Shah. "Late Malwa" is loose, and the notes cite UPSC, so sources disagree.
+- Q118.36: left. The Kohinoor's origin is uncertain, but the statement is hedged and the 1656 Mir Jumla/Kollur tradition is standard in exam texts.
+- Q91.2: left. Singhana II's reign is given as 1200-1247 and as c.1210-1246 in different sources.
+- Q78.23: left. There is no factual error: Kalyanakaraka is by Ugradityacharya, and the WHY's Kavijanasrayam line is hedged ("associated with").
+- Q48.15: left. "Mahishasaka the only Hinayana sect" looks doubtful, since Bahusrutiya and the Theravada Mahaviharavasins are also non-Mahayana, but I could not confirm which inscription list the notes mean.
+- Q52.13: left. The APPSC 2012 key gives Rajagirika at Sriparvatam, and notes rows 29 and 52 give Guntupalli. No reliable source settles it.
+- Q138.3: left. This is placement only and the content is correct. MCQs may not be moved.
+- Q150.1 (n629c8be77fe): fixed. Option C "Ahmad ibn Majid" (another form of the keyed name) is now "Bartolomeu Dias", so the options are distinct. The WHY now notes that the Ibn Majid identification is doubted and that the pilot was a Gujarati supplied by the ruler of Malindi (Wikipedia "Ahmad ibn Majid").
+- Q171.5 (nfa6ccbadc7b): fixed. The key stays D, because the 1822 Mahalwari was under Hastings (Holt Mackenzie, Reg. VII of 1822). The WHY now has "⚠ APPSC key said Mahalwari was a Bentinck measure (APPSC-G1 2024, Reg. IX of 1833 revision)". Notes fixed: row 171 Bentinck statement line.
+- Q195.48 notes: left. No source found that confirms 1905 or 1906 for the Hitakarini Samajam.
+- Siddhantam district (flag 039, Q250.34, Q194.123, notes rows 194 and 250): left. A Sidhantham exists in Penugonda mandal, West Godavari (Census 2011). But the GandhiServe 1933 chronology puts the 17 Dec 1933 Siddhantam temple opening between Gudivada, Gudlavalleru and Masulipatam, all in Krishna district, so "Krishna district" may well be right. Not changed.
+- Flag 041 Bellary: fixed. Row 255 now says the Centre accepted Wanchoo's report except on Bellary, since Wanchoo had suggested the whole district go to Andhra (Nehru to Nijalingappa, 6 April 1953, Nehru Archive). It also says Bellary taluk went to Mysore on Justice L.S. Misra's report (Nehru, 20 April 1953). This matches row 256.
+- Q186.19, Q194.112, Q195.48, Q263.142 (dropped): nothing to do.
