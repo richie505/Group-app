@@ -48,3 +48,18 @@
 - Q138.103 nb058c4c4fd2: the claim that the Standing Committee on Home Affairs recommended lowering the juvenile age from 18 to 16 follows the APPSC 2022 key. The notes call it questionable.
 - Q139.62 n2972f8fcc88: the "Child Development Index" link for BBBP district funds is not in the notes and could not be verified.
 - Q139.76, Q142.25: no longer in the live asset (cut). Q146.0 was dropped. Nothing to do.
+
+## Review settled
+
+7 fixed, 3 left. Answer keys unchanged.
+
+- Q25.59 n148928e526c: fixed. Statement 2 "informal two-term convention" changed to "Rajendra Prasad is the only President to have served two full terms" (still true, key B kept); WHY cites Art. 57 re-election. Notes row 25 sec 11 changed to match. Source: Wikipedia (Rajendra Prasad); lawandotherthings.com says the "convention" is disputed/a myth.
+- Q24.36 nb4585b05ff6: left. 1830 Commons evidence (british-history.ac.uk) and BL catalogue say Munro's 1816 regulations moved the magistracy from the Judge TO the Collector, so "separated in 1816" looks backwards; 1802 (Cornwallis system in Madras) is likely but sources are weak/conflicting, so the correct year is not confirmed.
+- Q35.29 n756a468156f: left, confirmed. The first PAC meeting for 2026-27 was held (22 May 2026, chaired by K.C. Venugopal; dynamitenews.com, punjabkesari.com), so statement 3 is rightly false.
+- Q44.30 nc2ce5d5a03b: fixed. Option D "Golaknath, 1967, and Minerva Mills, 1980 only" changed to "Golaknath, 1967, and Sajjan Singh, 1965", so D no longer names a case (Minerva Mills) that did uphold judicial review as basic structure; WHY adds a line. Source: standard references (Laxmikanth; Wikipedia, Minerva Mills v. Union of India).
+- Q70.12 nf07d8906640: fixed. Rounded 4.4/3.6 (sum 8.0 vs 7.91) changed to PRS figures ₹4.35 / ₹3.56 lakh crore (rural ₹4,35,236 cr, urban ₹3,56,257 cr) in stem, WHY and tq. Notes row 70 secs 2 and 4 too. Source: PRS 16th FC report summary.
+- Q80.110 n352d0e016b3: left. Sources disagree: IASbaba and most prep material credit Ashok Mehta (1978) as first to seek constitutional status; APPSC 2018 key and others give L.M. Singhvi (1986).
+- Q130.16 ne88114eefa5: fixed. Option D "Fast-track courts" (not in the 2013 Act; FTCs/FTSCs are administrative) changed to "Death penalty for repeat rape offenders (Section 376E IPC)"; WHY rewritten. Notes row 130 sec 12 no longer says the 2013 Act provided for fast-track courts. Source: IPC s.376E inserted by CLA 2013 (Bombay HC Shakti Mills ruling, LiveLaw/Bar & Bench).
+- Q132.44 na61d7b5061c: fixed. Stem dated to "in 2018 and 2019" (NCRB 27.2% and 27.8%); WHY adds 22.7% in 2023. Notes row 132 sec 9 now "27-28% in 2018-19; 22.7% in 2023". Source: NCRB Crime in India via Deccan Herald (2018, 2019); Wikipedia Crime in India (2023).
+- Q138.103 nb058c4c4fd2: fixed (claim confirmed, scope added). The Home Affairs committee (Anand Sharma) recommended lowering the age from 18 to 16 for applying POCSO; government declined and the panel dropped it in 2021. WHY and notes row 138 sec 13 now say "for POCSO applicability". Source: udayavani.com / Arunachal Times (Aug 2021).
+- Q139.62 n2972f8fcc88: fixed. Statement 4 "linked to the Child Development Index relating to the SRB" changed to "Funds for each district vary with its Sex Ratio at Birth" (key B kept); WHY updated. Notes row 139 sec 6 already said this. Source: PIB BBBP decade document (Jan 2025): financial assistance varies with district SRB.
