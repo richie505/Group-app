@@ -33,3 +33,13 @@ Already dropped, no action needed: Q52.28, Q30.58, Q67.34, Q67.29, Q87.102, Q87.
 - Q95.11 nf3212fd9376: Saraswathi of Malluvalasa / "Sustaina India 2025". The notes flag this themselves as unconfirmed (the guide links her to COP28). Not fixed: the official APPSC-GS 2024 key needs checking.
 - Q108.23 nae7d672d0a4: NexCAR19's 2023 date is not in the notes. 2023 (CDSCO approval) is correct and the key holds whatever the date, so nothing was changed; the date could be added to the notes.
 - Notes BS-III (R100 S1 "NCR + 10 cities" vs R99 S9 "NCR + 11 cities"): sources disagree on the city count, so neither was changed.
+
+## Review settled
+
+- Q19.28 n9e6e85aa5fd: left. No source confirms that the SC bench cited the AP pilot, or that the "halved disputes" figure is real (it appears only in one current-affairs summary), so the A-R relation can't be settled.
+- Q62.8 n4921bc9e8ae: fixed. "ANVNL" changed to "ASHVINI" in option D and WHY, and in the notes (Mahi Banswara line: "ASHVINI (Anushakti Vidhyut Nigam Ltd)"). The same acronym was also changed in Q62 n23f9585adbd (PFBR) option B and WHY. Source: Govt approval of NPCIL-NTPC JV "ASHVINI", Sept 2024 (pv-magazine-india.com press release; industrialautomationindia.in).
+- Notes F-57 (exclusion zone): left. AERB sources disagree among themselves (AERB monograph: at least 1.5 km; AERB safety guide and Bulletin 2019: 1.6 km), and the APPSC 2022 key gave 1 km. The notes and MCQ nc1b1f27f9ef keep 1.6 km with the existing 1 km trap note.
+- Q96.36 nab754624a38: fixed. Key changed from 9th to 11th (option D). CCPI 2019, released at COP24 on 10 Dec 2018, ranked India 11th; 9th was CCPI 2020. The WHY now carries "⚠ APPSC key said 9th", and the notes were changed to "CCPI 2019 (released Dec 2018) → India 11th (9th in CCPI 2020; ⚠ APPSC 2018 key said 9th)". Sources: Down To Earth COP24 report, GKToday, India Environment Portal (CCPI 2019).
+- Q95.11 nf3212fd9376: left. No source found for Saraswathi of Malluvalasa or "Sustaina India 2025". The APCNF presence at COP28 was confirmed (T. Vijay Kumar), but not her link to it.
+- Q108.23 nae7d672d0a4: no change needed. CDSCO approved NexCAR19 on 13 Oct 2023 (Biospectrum, Down To Earth), so the key holds. The notes don't carry the date, and the guide doesn't allow adding new claims.
+- Notes BS-III (R99 S9 vs R100 S1): fixed. The 2003 Auto Fuel Policy roadmap and a Lok Sabha reply list 11 cities including Delhi/NCR: NCR + Mumbai, Kolkata, Chennai, Bangalore, Hyderabad, Ahmedabad, Pune, Surat, Kanpur and Agra. R99 S9 "NCR + 11 cities" changed to "NCR + 10 cities". MCQ nda796d762a7 option C and WHY changed from "NCR and 11 cities" to "NCR and 10 other cities" (key unchanged). (An IOCL release says 13 cities, which looks like the later BS-IV list.)
