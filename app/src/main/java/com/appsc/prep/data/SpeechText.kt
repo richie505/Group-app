@@ -683,7 +683,8 @@ object SpeechText {
             "CPI" -> if (book == 1 || (book == 2 && !Regex("""^\s*(inflation|\(|-|basket|combined|rural|urban)""", RegexOption.IGNORE_CASE).containsMatchIn(after)))
                 "Communist Party of India" else "Consumer Price Index"
             "CDM" -> if (book == 1) "Civil Disobedience Movement" else "Clean Development Mechanism"
-            "CAA" -> if (Regex("""\d(st|nd|rd|th)\s*$""").containsMatchIn(before)) p("Constitutional Amendment Act") else "Citizenship Amendment Act"
+            "CAA" -> if (Regex("""aquacult|shrimp|coastal""", RegexOption.IGNORE_CASE).containsMatchIn(before.takeLast(120) + " " + after.take(120))) "Coastal Aquaculture Authority"
+            else if (Regex("""\d(st|nd|rd|th)\s*$""").containsMatchIn(before)) p("Constitutional Amendment Act") else "Citizenship Amendment Act"
             "ASI" -> if (Regex("""ancestr|genetic|genom|ANI\b|DNA""", RegexOption.IGNORE_CASE).containsMatchIn(before.takeLast(120) + after.take(120)))
                 "Ancestral South Indians" else "Archaeological Survey of India"
             "RTGS" -> if (Regex("""payment|NEFT|RBI|settlement|transfer|bank""", RegexOption.IGNORE_CASE).containsMatchIn(before.takeLast(120) + after.take(120)) ||
