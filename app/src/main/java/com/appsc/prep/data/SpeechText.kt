@@ -657,14 +657,14 @@ object SpeechText {
         return when (word) {
             "SC" -> when {
                 // a health Sub-Centre next to PHCs: "building-less SCs/PHCs"
-                Regex("""^\s*(/|,|and)\s*PHCs?\b""").containsMatchIn(after) -> p("Sub-Centre")
+                Regex("""^\s*(/|,|and|or)\s*PHCs?\b""").containsMatchIn(after) -> p("Sub-Centre")
                 plural || Regex("""^\s*(/|and|,|-|\+)\s*((at least\s+)?(one|1)\s+)?(ST|BC|OBC)\b""").containsMatchIn(after) ||
                     Regex("""(ST|BC|OBC)\s*(/|and|,)\s*$""").containsMatchIn(before) -> p("Scheduled Caste")
                 // the words right next to it: "SC students" / "the SC held", "challenged in the SC" / "5 lakh SC"
                 Regex("""^\s*(\+|commission|finance|development|sub|students|families|women|households|hostel|colon|population|communit|beneficiar|candidates|seats|reservation|quota|sub-plan|component|corporation|welfare|category|categories|persons|people|youth|girls|boys|farmers|entrepreneurs|employees|MLAs|MPs|share|percentage|%|habitation|villages|dalit|groups|sub-caste|sub-classif|status|converts|poverty|literacy|sex ratio|-?majority|\d+(\.\d+)?\s*%)""", RegexOption.IGNORE_CASE).containsMatchIn(after) ||
                     Regex("""(\d\s*%|targets)\s*$""", RegexOption.IGNORE_CASE).containsMatchIn(before) -> "Scheduled Caste"
-                Regex("""^\s*(\(|'s|’s|bench|held|ruled|upheld|struck|ordered|directed|said|observed|judg|verdict|order|collegium|judge|stayed|quashed|allowed|dismissed|asked|issued|refused|declined|set aside|noted|clarified|cited|constitution bench|on\b|has |had |will |would |can |may |agreed|sought|flagged|reserved|transferred|appointed|recommend|ruling|notice|banned|bars|barred|extended|let\b|upholds|holds|:\s|(19|20)\d\d\b(?!\s*%)|(/|,|and|&)\s*HCs?\b|,\s*(\d{1,2}\s+)?(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}|,[^;:]{0,60}\sv\.?\s)""", RegexOption.IGNORE_CASE).containsMatchIn(after) ||
-                    Regex("""\sv\.?\s[^;:()]{0,40},\s*$""").containsMatchIn(before) ||
+                Regex("""^\s*(\(|'s|’s|bench|held|ruled|upheld|struck|ordered|directed|said|observed|judg|verdict|order|collegium|judge|stayed|quashed|allowed|dismissed|asked|issued|refused|declined|set aside|noted|clarified|cited|constitution bench|on\b|has |had |will |would |can |may |agreed|sought|flagged|reserved|transferred|appointed|recommend|ruling|notice|banned|bars|barred|extended|let\b|upholds|holds|:\s|(19|20)\d\d\b(?!\s*%)|(/|,|and|&)\s*HCs?\b|,\s*(\d{1,2}\s+)?(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}|,[^;:]{0,60}\s(v\.?|versus)\s)""", RegexOption.IGNORE_CASE).containsMatchIn(after) ||
+                    Regex("""\s(v\.?|versus)\s[^;:()]{0,40},\s*$""").containsMatchIn(before) ||
                     Regex("""(\bin|before|\bby|moved|approached|challenged in|apex|told|petition in|plea in|appeal to|appealed to|of the|verdict of|judgment of|ruling of|decision of|bench of|judges of|judge of|from the|go to|went to)\s*(the\s*)?$""", RegexOption.IGNORE_CASE).containsMatchIn(before) -> "Supreme Court"
                 Regex("""(\d|lakh|crore|for|among|backward|poor|landless|tribal|and the|women of)\s*$""", RegexOption.IGNORE_CASE).containsMatchIn(before) -> "Scheduled Caste"
                 else -> {
@@ -684,8 +684,8 @@ object SpeechText {
             "BC" -> if (Regex("""\d\s*$""").containsMatchIn(before)) "B C" else p("Backward Class", "Backward Classes")
             "MP" -> when {
                 // national income ("FC = MP - Net Indirect Taxes", "MP vs FC") and the EPF & MP Act
-                Regex("""^\s*(vs\.?\s*FC|-\s*Net\b)""").containsMatchIn(after) -> "market price"
-                Regex("""EPF\s*&\s*$""").containsMatchIn(before) -> "Miscellaneous Provisions"
+                Regex("""^\s*((vs\.?|versus)\s*FC|-\s*Net\b)""").containsMatchIn(after) -> "market price"
+                Regex("""EPF\s*(&|and)\s*$""").containsMatchIn(before) -> "Miscellaneous Provisions"
                 // "an MP", "MP/MLA", "BJP MP", "Tirupati MP", "MP must resign" (a state follows a comma: "Raisen, MP")
                 plural || prev in setOf("a", "an", "each", "every", "the", "any", "sitting", "elected", "nominated", "one", "no", "former", "as") ||
                     Regex("""^\s*(/\s*MLA|or MLA|must|recommends|moved|sought|of either)""").containsMatchIn(after) ||
@@ -693,7 +693,8 @@ object SpeechText {
                     p("Member of Parliament", "Members of Parliament")
                 else -> "Madhya Pradesh"
             }
-            "CPI" -> if (Regex("""Corruption Perceptions? Index|Transparency International""").containsMatchIn(page) &&
+            // a page of global indices (with the Global Peace Index): Transparency International's Corruption Perceptions Index
+            "CPI" -> if (Regex("""Corruption Perceptions? Index|Transparency International|\bGPI\b|Global Peace Index""").containsMatchIn(page) &&
                 !Regex("""^\s*(inflation|basket|combined|-)""", RegexOption.IGNORE_CASE).containsMatchIn(after)) "Corruption Perceptions Index"
             else if (book == 1 || (book == 2 && !Regex("""^\s*(inflation|\(|-|basket|combined|rural|urban)""", RegexOption.IGNORE_CASE).containsMatchIn(after)))
                 "Communist Party of India" else "Consumer Price Index"
@@ -718,14 +719,15 @@ object SpeechText {
                 }
                 // "2024-25 RE", "(2024-25, RE)", "FY26 RE", "RE 2025-26", "+31% over RE", "BE ... vs RE"
                 Regex("""(\d{4}-\d{2}|FY\s?\d{2}),?\)?\s*$""").containsMatchIn(before) || Regex("""^\s*\d{4}-\d{2}""").containsMatchIn(after) ||
-                    Regex("""%\s*(over|on)\s*$|\bBE\b[^;.]{0,40}\bvs\.?\s*$""").containsMatchIn(before) -> "Revised Estimates"
+                    Regex("""%\s*(over|on)\s*$|\bBE\b[^;.]{0,40}\b(vs\.?|versus)\s*$""").containsMatchIn(before) -> "Revised Estimates"
                 // a bare "RE" on a page about Ashoka's edicts
                 Regex("""(?i)\bedicts?\b""").containsMatchIn(page) && !Regex("""(?i)renewable|solar|wind|\bGW\b|\bMW\b""").containsMatchIn(page) -> "Rock Edict"
                 else -> "renewable energy"
             }
             "DM" -> if (Regex("""^\s*(Act|Cell|cycle|plan|policy)""", RegexOption.IGNORE_CASE).containsMatchIn(after) || prev == "on") "disaster management" else "District Magistrate"
             "NH" -> if (Regex("""(?i)hemisphere|trade wind|perihelion|aphelion|ITCZ|clockwise|solstice|longest day|\b(winter|summer)\b""").containsMatchIn(before.takeLast(60) + " " + after.take(60)) ||
-                Regex("""(?i)hemisphere""").containsMatchIn(page) && !Regex("""(?i)highway|NHAI|\broads?\b""").containsMatchIn(page) ||
+                // a page on winds or seasons with no roads on it ("NH direction" next to "SH direction")
+                Regex("""(?i:hemisphere)|\bSH\b""").containsMatchIn(page) && !Regex("""(?i)highway|NHAI|\broads?\b""").containsMatchIn(page) ||
                 Regex("""^\s*(and|or)\s+(the\s+)?SH\b""").containsMatchIn(after) || Regex("""\bSH\s+(and|or)\s+(the\s+)?$""").containsMatchIn(before) || prev == "the" && Regex("""^\s*(and|,)""").containsMatchIn(after))
                 "Northern Hemisphere" else "National Highway"
             // the 1991 reforms, or cooking gas: the words next to it, else the page (a page on the reforms, and no cylinders here)

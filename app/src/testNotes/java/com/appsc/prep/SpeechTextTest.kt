@@ -53,6 +53,33 @@ class SpeechTextTest {
         assertTrue(say("reservation of seats for SC communities", 3).contains("Scheduled Caste"))
         assertTrue(say("SC/ST women").contains("Scheduled Caste and Scheduled Tribe"))
         assertTrue(say("SCs and STs").contains("Scheduled Castes and Scheduled Tribes"))
+        assertTrue(say("SC ruling (24 March 2026): Justices P.K. Mishra and Manmohan", 1).contains("Supreme Court"))
+        assertTrue(say("Lalit Kumar Jain v. UoI, SC 2021", 3).contains("Supreme Court"))
+        assertTrue(say("Mining buffer: SC extended a 10-km mining buffer", 4).contains("Supreme Court"))
+        assertTrue(say("vs SC status = Hindu/Sikh/Buddhist only").contains("Scheduled Caste"))
+        assertTrue(say("5 members (at least one SC, one ST)").contains("Scheduled Caste"))
+        assertTrue(say("Unemployment (2017-18): SC 5.5% vs 5% nationally", 4).contains("Scheduled Caste"))
+    }
+
+    @Test fun otherShortFormsDependOnTheWordsAround() {
+        // MP: a member, the state, market price, Miscellaneous Provisions
+        assertTrue(say("BJP MP Tejasvi Surya's remark", 1).contains("Member of Parliament"))
+        assertTrue(say("Cannot be MP/MLA").contains("Member of Parliament"))
+        assertTrue(say("Sanchi (Raisen, MP)", 1).contains("Madhya Pradesh"))
+        assertTrue(say("FC = MP - Net Indirect Taxes", 3).contains("market price"))
+        assertTrue(say("EPF & MP Act, 1952", 3).contains("Miscellaneous Provisions"))
+        // RE: Revised Estimates next to a year or a budget estimate
+        assertTrue(say("11.4% (FY26 RE)", 3).contains("Revised Estimates"))
+        assertTrue(say("+31% over RE", 2).contains("Revised Estimates"))
+        assertTrue(say("BE ₹50,475 cr vs RE ₹52,080 cr", 3).contains("Revised Estimates"))
+        // CPI on a page of global indices
+        assertEquals("Corruption Perceptions Index", SpeechText.meaning("CPI", "", "", ": 13 data sources", 6, "GPI: 23 indicators"))
+        // ASI in the economy book, RTGS in AP governance, NH on winds, LPG for the 1991 reforms
+        assertTrue(say("Industrial Statistics Wing at Kolkata conducts the ASI", 3).contains("Annual Survey of Industries"))
+        assertTrue(say("ASI began excavating Balirajgarh (Madhubani, Bihar)", 1).contains("Archaeological Survey of India"))
+        assertTrue(say("1. RTGS and command centre", 3).contains("Real Time Governance Society"))
+        assertTrue(say("Cyclones spin anticlockwise in NH", 4).contains("Northern Hemisphere"))
+        assertTrue(say("Strategy introduced with LPG in 1991", 3).contains("liberalisation, privatisation and globalisation"))
     }
 
     /** The page in the user's screenshot: title first, the table headings once, then each row. */
