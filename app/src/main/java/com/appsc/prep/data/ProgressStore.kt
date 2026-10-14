@@ -90,6 +90,15 @@ class ProgressStore(private val prefs: Storage) {
         prefs.putFloat(KEY_RATE, rate)
     }
 
+    /** Read-aloud stops at the end of the subsection instead of going on through the book. */
+    var speechThisPageOnly by mutableStateOf(prefs.getString(KEY_SPEECH_SCOPE) == "page")
+        private set
+
+    fun changeSpeechThisPageOnly(only: Boolean) {
+        speechThisPageOnly = only
+        prefs.putString(KEY_SPEECH_SCOPE, if (only) "page" else "book")
+    }
+
     /** What the reader added under "Not in your sources" lines ([UserNotes]): "book:row:sec#block" -> text. */
     var added by mutableStateOf(
         prefs.getStringSet(KEY_ADDED).associate { it.substringBefore('\t') to it.substringAfter('\t').replace("\\n", "\n") },
@@ -325,6 +334,7 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_LAST = "last"
         const val KEY_SCALE = "scale"
         const val KEY_RATE = "speech_rate"
+        const val KEY_SPEECH_SCOPE = "speech_scope"
         const val KEY_ANSWERS = "answers"
         const val KEY_SEEN = "seen"
         const val KEY_IDS = "ids_version"

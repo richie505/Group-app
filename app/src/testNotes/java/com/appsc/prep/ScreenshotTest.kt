@@ -259,6 +259,26 @@ class ScreenshotTest {
         rule.onAllNodesWithText("Changing structure and urban families", substring = true).assertCountEquals(0)
         ReadAloud.stop()
     }
+    /** The player's "Read on" / "This page" choice: saved, and it stops reading at the end of the subsection. */
+    @Test fun readAloudThisPageOnly() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val store = ProgressStore(PrefsStorage(ctx))
+        store.changeSpeechThisPageOnly(false)
+        val app = AppState(Repository { ctx.assets.open(it) }, store, AndroidPlatform(ctx))
+        runBlocking { app.repo.book(2); app.repo.mcq(2) }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { ReaderScreen(2, 0, 0, nav) } } }
+        rule.waitForIdle()
+        rule.onNodeWithContentDescription("Listen").performClick()
+        rule.waitForIdle()
+        rule.onNodeWithText("Read on").performClick()
+        rule.waitForIdle()
+        rule.onNodeWithText("This page").assertExists()
+        assertEquals(true, store.speechThisPageOnly)
+        assertEquals(true, ProgressStore(PrefsStorage(ctx)).speechThisPageOnly)
+        rule.onRoot().captureRoboImage("screenshots/11_listen_this_page.png")
+        ReadAloud.stop()
+        store.changeSpeechThisPageOnly(false)
+    }
     @Test fun quiz() = shot("9_quiz") { QuizScreen(QuizSource("row", 2, 0), "new", "MCQ Practice", nav) }
 
     @Test fun quizExplained() {
