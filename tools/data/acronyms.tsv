@@ -15,31 +15,39 @@ US	United States
 UP	Uttar Pradesh
 UT	Union Territory
 FC	Finance Commission
+FC	factor cost	Net Indirect, MP vs, factor cost
+FC	Forest Conservation	forest-dweller, diversion
 CE	Common Era
 BCE	Before Common Era
 NITI	National Institution for Transforming India
+HC	hydrocarbons	NOx, catalytic
+HC	head count ratio	Nq, HCR
 HC	High Court
 USA	United States of America
 AI	artificial intelligence
 UN	United Nations
-MT	metric tonnes	lakh,crore,thousand,per month,per year,tonnes per,silo,godown,capacity of
+MT	metric tonnes	lakh MT, crore MT, MT/day, MT/ha, MT coal, 000 MT, 750 MT, 786 MT, 394 MT, 492 MT, 170 MT, 200 MT
 MT	million tonnes
 GST	goods and services tax
 GSDP	gross state domestic product
 HQ	headquarters
+IT	Income Tax	it act 1961, 13a
 IT	information technology
 TN	Tamil Nadu
 SDG	Sustainable Development Goal
 MSME	micro, small and medium enterprise
 FDI	foreign direct investment
+FR	feasibility report	feasibility, DPR
 FR	Fundamental Right
 ISRO	Indian Space Research Organisation
 CJI	Chief Justice of India
 CO2	carbon dioxide
 NE	north-east
+YSR	Yuvajana Sramika Rythu	YSR Congress
 YSR	Y. S. Rajasekhara Reddy
 CAG	Comptroller and Auditor General
 LS	Lok Sabha
+GVA	gigavolt-amperes	ckm, MVA
 GVA	gross value added
 FY26	financial year 2025-26
 FY25	financial year 2024-25
@@ -50,17 +58,20 @@ FY22	financial year 2021-22
 FY	financial year
 ULB	Urban Local Body
 J&K	Jammu and Kashmir
+PSU	practical salinity unit	salinity
+PSU	power supply unit	motherboard
 PSU	public sector undertaking
 NFHS	National Family Health Survey
-NP	Nagar Panchayat	municipalit,ULB,nagar panchayat,urban local,corporations,UDA
-NP	National Park	park,wildlife,sanctuary,tiger,WLS,forest,reserve,protected area,species,ESZ
+NP	National Park
+NP	Nagar Panchayat	municipalit, ULB, nagar panchayat, urban local, corporations, UDA
+NP	-	NP Kunta, Ultra Mega, solar park
 DRDO	Defence Research and Development Organisation
 SEZ	Special Economic Zone
 DPSP	Directive Principles of State Policy
 DBT	direct benefit transfer	transfer,subsid,beneficiar,cash,scheme,welfare,Aadhaar,PAHAL,account
 DBT	Department of Biotechnology	biotech,genom,vaccine,BIRAC,research,laborator
-FD	Fundamental Duty	51A,duty,duties,Fundamental Rights,FR 
 FD	fiscal deficit
+FD	Fundamental Duty	51A, duties, Fundamental Rights, @2
 PLFS	Periodic Labour Force Survey
 MSP	minimum support price
 NTR	N. T. Rama Rao
@@ -69,8 +80,9 @@ UNESCO	United Nations Educational, Scientific and Cultural Organization
 IIT	Indian Institute of Technology
 RS	remote sensing	GIS,satellite,imagery,ISRO,NRSC,sensing,GPS,mapping,spatial
 RS	Rajya Sabha
-PPP	purchasing power parity	parity,dollar,international dollar,PPP terms,World Bank,ICP,per capita
-PPP	-	petition,prayer,Moderates,moderate,@1
+PPP	purchasing power parity	parity, dollar, international dollar, ppp terms, ppp gdp, ppp$, international comparison, common basket, World Bank, ICP, per capita
+PPP	Point-to-Point Protocol	ethernet, data link, osi model
+PPP	-	petition, prayer, Moderates, moderate, @1
 PPP	public-private partnership
 WLS	Wildlife Sanctuary
 UK	United Kingdom
@@ -78,7 +90,7 @@ MPI	Multidimensional Poverty Index
 SHG	self-help group
 ECI	Election Commission of India
 BE	Budget Estimates
-NDC	National Development Council	plan,planning,five year,five-year,Planning Commission,NITI,chief ministers,council
+NDC	National Development Council	Planning Commission, Balwant, Mehta, Panchayat, PRIs, Sarkaria, Five Year, five-year, Plans, Zonal, Art 263, 1958, constitution, 2002-07, CMs, Parliament, @1
 NDC	nationally determined contribution
 NCM	National Commission for Minorities	minorit,1992,NCM Act
 NCM	Non-Cooperation Movement	Gandhi,Khilafat,Chauri,boycott,satyagraha,@1
@@ -91,31 +103,40 @@ RTI	Right to Information
 R&D	research and development
 MLA	Member of the Legislative Assembly
 CSS	centrally sponsored schemes
+IPC	Integrated Food Security Phase Classification	food-insecurity, food insecurity, phase classification
 IPC	Indian Penal Code
 SEBI	Securities and Exchange Board of India
-DST	drought and salt tolerant	rice,Pusa,variet,MTU
 DST	Department of Science and Technology
+DST	drought and salt tolerant	rice, Pusa, variet, MTU
+DST	daylight saving time	daylight
 HDI	Human Development Index
 UAE	United Arab Emirates
 EC	Election Commission
+EC	environmental clearance	clearance, EIA, Nicobar
+EC	Energy Conservation	Energy Conservation, BEE, APSECM
+EC	electrical conductivity	fluoride, boron, conductiv, salinity
 PCI	Press Council of India	press,journalis,media,newspaper,Speaker
 PCI	per capita income
 IMD	International Institute for Management Development	competitiveness,World Competitiveness,IMD rank,ranked
 IMD	India Meteorological Department
 USD	US dollars
+GM	General Manager	railway zone
 GM	genetically modified
 NW	north-west
 RRB	Regional Rural Bank
 RD	revenue deficit
-WB	World Bank	loan,lending,funded,funding,IBRD,IDA,credit,project,assisted,% WB,Bank's
+WB	World Bank	IMF, IBRD, IDA, ADB, HUDCO, % WB, Bank's, Bretton
 WB	West Bengal
 FCI	Food Corporation of India
 SW	south-west
+HP	horsepower	pump
 HP	Himachal Pradesh
+CEC	Consortium for Educational Communication	swayam, nptel
 CEC	Chief Election Commissioner
 WHO	World Health Organization
 ADB	Asian Development Bank
 NSO	National Statistics Office
+NSO	-	NSO Group
 PVTG	Particularly Vulnerable Tribal Group
 GG	Governor-General
 OBC	Other Backward Class
@@ -133,9 +154,9 @@ PRI	Panchayati Raj Institution
 UNDP	United Nations Development Programme
 WTO	World Trade Organization
 BNS	Bharatiya Nyaya Sanhita
-ARC	Administrative Reforms Commission	administrative,reform,Moily,Morarji,governance,commission
-ARC	asset reconstruction company	asset,NPA,bad loan,SARFAESI,NARCL
-ARC	Aviation Research Centre	intelligence,NTRO,RAW,surveillance,reconnaissance
+ARC	asset reconstruction company	asset reconstruction, npa, bad loan, sarfaesi, narcl, DRT, banking reform
+ARC	Aviation Research Centre	NTRO, RAW, reconnaissance, Aviation Research
+ARC	Administrative Reforms Commission
 CPCB	Central Pollution Control Board
 INSAT	Indian National Satellite System
 NASA	National Aeronautics and Space Administration
@@ -148,16 +169,19 @@ TFR	total fertility rate
 NPA	non-performing asset
 PACS	primary agricultural credit societies
 EOS	Earth Observation Satellite
+IAS	invasive alien species	invasive, alien species, Allelopathy, IUCN
+IAS	-	PMF, Drishti, RAU, Vision IAS
 IAS	Indian Administrative Service
+ID	Industrial Disputes	ID Act, Trade Unions, labour law
 ID	identity
 SRC	States Reorganisation Commission
 TDP	Telugu Desam Party
 NGO	non-governmental organisation
-PR	proportional representation	transferable,STV,proportional,list system
-PR	Permanent Representative	United Nations,UN ,ambassador,New York,SG 
-PR	President's Rule	under PR,imposed,Art. 356,Article 356,proclamation,dismiss,Bommai
-PR	public relations	publicity,PR firm,PR agency
-PR	Panchayati Raj	panchayat,PRI,73rd,gram,village,Mehta,local self,zilla,mandal
+PR	proportional representation	transferable, STV, proportional, list system
+PR	Permanent Representative	United Nations, UN, ambassador, New York, SG
+PR	President's Rule	under PR, imposed, Art. 356, Article 356, proclamation, dismiss, Bommai, governors of states under
+PR	public relations	publicity, PR firm, PR agency
+PR	Panchayati Raj
 FRBM	Fiscal Responsibility and Budget Management
 Q1	first quarter
 Q2	second quarter
@@ -168,21 +192,22 @@ PHWR	pressurised heavy water reactor
 NCRB	National Crime Records Bureau
 CPSE	central public sector enterprise
 UNEP	United Nations Environment Programme
-CWC	Chemical Weapons Convention	National Authority,chemical weapon,OPCW
-CWC	Child Welfare Committee	child,juvenile,JJ Act,JJB,adoption,CCI,CARA,orphan,care and protection,POCSO
-CWC	Central Warehousing Corporation	warehous,storage,godown,Agricultural Produce,WDRA,stock
-CWC	Central Water Commission	water,river,dam,reservoir,flood,irrigation,basin,canal,TMC,cusecs,hydrolog,glacial
-CWC	Congress Working Committee	Congress,INC,Gandhi,Nehru,Patel,satyagraha,Swaraj,resolution,@1
+CWC	Chemical Weapons Convention	National Authority, chemical weapon, OPCW, NPT, CTBT, disarmament
+CWC	Child Welfare Committee	child, juvenile, JJ Act, JJB, adoption, CCI, CARA, orphan, care and protection, POCSO
+CWC	Central Warehousing Corporation	warehous, godown, Agricultural Produce, WDRA
+CWC	Congress Working Committee	Congress, Nehru, Patel, satyagraha, resolution, @1
+CWC	Central Water Commission
 EV	electric vehicle
 SRS	Sample Registration System
 FTA	free trade agreement
 MMT	million metric tonnes
 VP	Vice-President
-GCC	Girijan Cooperative Corporation	Girijan,tribal,forest produce,MFP,ITDA,minor forest
-GCC	Global Capability Centre	capability,IT,park,office,tech,software,jobs,policy,MNC,RMZ
-GCC	Gulf Cooperation Council	Gulf,Saudi,UAE,Qatar,Oman,Kuwait,Bahrain,CEPA,FTA,diaspora
+GCC	Girijan Cooperative Corporation	Girijan, tribal, forest produce, MFP, ITDA, minor forest
+GCC	Gulf Cooperation Council	Gulf, Saudi, UAE, Qatar, Oman, Kuwait, Bahrain, CEPA, FTA, diaspora, housemaid, emigra, gulf, migrant
+GCC	Global Capability Centre
 A&N	Andaman and Nicobar
-TMC	thousand million cubic feet	water,river,Krishna,Godavari,dam,reservoir,tribunal,KWDT,GWDT,allocat,share,cusecs,project,Polavaram,barrage,flows
+TMC	Terrain Mapping Camera	HySI, LLRI, CIXS, Chandrayaan
+TMC	thousand million cubic feet	water, river, Krishna, Godavari, dam, reservoir, tribunal, KWDT, GWDT, allocat, share, cusecs, project, Polavaram, barrage, flows
 TMC	Trinamool Congress
 MTPA	million tonnes per annum
 RPA	Representation of the People Act
@@ -193,14 +218,17 @@ APIIC	Andhra Pradesh Industrial Infrastructure Corporation
 CRR	cash reserve ratio
 NSTR	Nagarjunasagar-Srisailam Tiger Reserve
 NGT	National Green Tribunal
+IBC	Institutional Biosafety Committee	GEAC, GM, genome, biosafety, CRISPR
 IBC	Insolvency and Bankruptcy Code
 UNGA	United Nations General Assembly
 EPA	Environment Protection Act
+EPA	Environmental Protection Agency	Massachusetts, Superfund, US EPA
 G20	Group of Twenty
+INS	inertial navigation system	ring-laser, inertial, rins, mings
 INS	Indian Naval Ship
 FAE	First Advance Estimates
-CEA	Central Electricity Authority	electricity,power,grid,energy,MW,GW,generation,thermal
-CEA	Chief Economic Adviser	Economic Survey,economist,adviser,advisor,Finance Ministry,growth
+CEA	Chief Economic Adviser	economic survey, economic division, nageswaran, subramanian, disposable income
+CEA	Central Electricity Authority
 EIA	environmental impact assessment
 IUCN	International Union for Conservation of Nature
 PSLV	Polar Satellite Launch Vehicle
@@ -213,11 +241,12 @@ PSP	pumped storage project
 RAM	-
 EVM	electronic voting machine
 PLI	production-linked incentive
+PLI	Public Liability Insurance	Jan Vishwas, Water Cess, Air Act, Environmental Relief
 GIS	geographic information system
 DM	District Magistrate
 WPA	Wildlife Protection Act
 S&T	science and technology
-ISA	International Seabed Authority	seabed,ocean floor,deep sea,mining,UNCLOS
+ISA	International Seabed Authority	seabed, ocean floor, deep sea, deep-sea, polymetallic, carlsberg, jamaica
 ISA	International Solar Alliance
 NDMA	National Disaster Management Authority
 SFC	State Finance Commission	panchayat,municipal,local bod,243I,243Y,devolution,PRI,ULB,73rd
@@ -230,15 +259,18 @@ PSC	Public Service Commission
 BPL	below poverty line
 FRA	Forest Rights Act
 NFSA	National Food Security Act
+IIP	Indian Institute of Petroleum	iip dehradun, arai
 IIP	Index of Industrial Production
 LMT	lakh metric tonnes
 SLR	statutory liquidity ratio
 AD	Anno Domini
 NCST	National Commission for Scheduled Tribes
 NCSC	National Commission for Scheduled Castes
+NCSC	National Children's Science Congress	Science Congress
+NCSC	National Cyber Security Coordinator	CERT-In, NCIIPC, cyber, NSA
 DPDP	Digital Personal Data Protection
 MRTP	Monopolies and Restrictive Trade Practices
-FPO	follow-on public offer	listed,disinvest,share,stake,IPO,offer for sale,OFS,PSE,market
+FPO	follow-on public offer	disinvest, offer for sale, rights issue, strategic sale, private placement, follow-on
 FPO	farmer producer organisation
 PSB	public sector bank
 NAPCC	National Action Plan on Climate Change
@@ -246,6 +278,8 @@ ISFR	India State of Forest Report
 CFC	common facility centre	MSME,cluster,artisan,RAMP,handloom,industr,common facility
 CFC	chlorofluorocarbon
 AMRUT	Atal Mission for Rejuvenation and Urban Transformation
+IPR	Industrial Policy Resolution	ipr 1956, ipr 1948, 1948 ipr, ipr-1948, industrial policy resolution, avadi, socialistic pattern
+IPR	Institute for Plasma Research	ipr gandhinagar, plasma
 IPR	intellectual property rights
 SIDBI	Small Industries Development Bank of India
 CAD	current account deficit
@@ -253,13 +287,14 @@ ICAR	Indian Council of Agricultural Research
 NSS	Nair Service Society	Nair,Kerala,Mannathu,Vaikom,Guruvayur,@1
 NSS	National Sample Survey	round,survey,NSSO,consumption,household,poverty,employment,data
 NSS	National Service Scheme	student,volunteer,youth,college,Not Me But You
-AG	Accountant General	Accountant,audit office,AG office,state accounts
+AG	Accountant General	Accountant, audit office, AG office, state accounts, Principal AG, Accounts at a Glance
 AG	Attorney General
 NPCI	-	MPs,party,TMC,merged,Speaker,defection,Lok Sabha
 NPCI	National Payments Corporation of India
+RTGS	Real Time Governance Society	real time governance, mana mitra, e-pragati, apsdma, aware, vijayawada, command centre, data lake
 RTGS	real-time gross settlement
 IMR	infant mortality rate
-HFC	housing finance company	housing,NHB,refinanc,home loan,mortgage
+HFC	housing finance company	housing, NHB, refinanc, home loan, mortgage, NBFC, @3
 HFC	hydrofluorocarbon
 LEO	low Earth orbit
 LVM3	Launch Vehicle Mark-3
@@ -270,41 +305,52 @@ MPC	Monetary Policy Committee
 PHC	primary health centre
 BEE	Bureau of Energy Efficiency
 ASEAN	Association of Southeast Asian Nations
+SAR	search and rescue	coast guard, rescue, icg
+SAR	sodium adsorption ratio	boron, irrigation water, salinity
 SAR	Synthetic Aperture Radar
 AICC	All India Congress Committee
 AIIMS	All India Institute of Medical Sciences
+FM	frequency modulation	radio, broadcast, Gyan Vani
 FM	Finance Minister
 SHRC	State Human Rights Commission
 HDR	Human Development Report
 EPR	extended producer responsibility	waste,plastic,producer,recycl,battery waste,e-waste,packaging
 EPR	European Pressurised Reactor
+GI	Government of India	meghraj
+GI	genetically improved	scampi
 GI	Geographical Indication
 PIL	Public Interest Litigation
 INA	Indian National Army
 YSRCP	YSR Congress Party
-NIC	National Integration Council	integration,communal,unity,Art. 44,cohesion,national integration
 NIC	National Informatics Centre
+NIC	National Integration Council	integration, communal, unity, Art. 44, cohesion, regionalism
+NIC	network interface card	Ethernet, MAC address
+NIC	National Industrial Classification	UNCPC, Classification: NIC
 UNFCCC	United Nations Framework Convention on Climate Change
 LED	light-emitting diode
+CR	Critically Endangered	IUCN, Red List, Endangered, EN, VU, threatened, species, heron, BirdLife, vulture, Euphorbia
 CR	Conservation Reserve
 SPSR	Sri Potti Sriramulu
 POCSO	Protection of Children from Sexual Offences
 NCLT	National Company Law Tribunal
+CEO	Chief Electoral Officer	CEC, electoral roll, chief electoral
 CEO	chief executive officer
 BRAP	Business Reform Action Plan
 APCRDA	Andhra Pradesh Capital Region Development Authority
 MMR	maternal mortality ratio
-PA	provisional actuals
+PA	protected area
+PA	provisional actuals	@3
 BARC	Bhabha Atomic Research Centre
 BESS	battery energy storage system
 ABS	Access and Benefit Sharing
+DG	diesel generator	boilers, petrol
 DG	Director General
 RTC	Round Table Conference	Round Table,Gandhi,London,MacDonald,Ambedkar,Irwin,Simon,@1
 RTC	Road Transport Corporation	bus,APSRTC,transport,depot,road
 CSIR	Council of Scientific and Industrial Research
 RTE	Right to Education
-EPI	Export Preparedness Index	export,NITI,preparedness
 EPI	Environmental Performance Index
+EPI	Export Preparedness Index	export, NITI, preparedness, EPI 2024, EPI 2022, EPI 2021
 ICDS	Integrated Child Development Services
 UNSC	United Nations Security Council
 DFC	Dedicated Freight Corridor
@@ -326,12 +372,17 @@ ESA	eco-sensitive area
 GSLV	Geosynchronous Satellite Launch Vehicle
 NRI	non-resident Indian
 NEP	National Education Policy
+NEP	National Electricity Policy	electricity policy, Ministry of Power, IESS, Draft NEP
+NEP	National Environment Policy	environment policy, environmental policy
+NEP	New Economic Policy	License Raj, Licence Raj, liberalisation, MRTP
+SBI	Subsidiary Body for Implementation	sbsta, unfccc, bonn
 SBI	State Bank of India
 NPP	National People's Party	party,BJP,INC,AAP,BSP,national part,North-East,recognised
 NPP	nuclear power plant	nuclear,reactor,MW,EPR,Jaitapur,Kudankulam,atomic
 NPP	National Population Policy	population,fertility,TFR,family planning,Population Commission,demograph
 NPP	National Perspective Plan
 NHB	National Housing Bank
+NHB	National Horticulture Board	MIDH, horticulture, CDB, CIH
 ILO	International Labour Organization
 SAARC	South Asian Association for Regional Cooperation
 FAO	Food and Agriculture Organization
@@ -363,8 +414,11 @@ IST	Indian Standard Time
 ANRF	Anusandhan National Research Foundation
 NWFP	North-West Frontier Province
 NCPCR	National Commission for Protection of Child Rights
+CSR	child sex ratio	sex ratio, SRB, NFHS, Beti, girl child, BBBP
 CSR	corporate social responsibility
 AIS	All India Services
+IP	insolvency professional	insolvency professional, ibbi
+IP	Internet Protocol	tcp, ip address, icann, router
 IP	intellectual property
 CSO	civil society organisation	civil society,NGO,watchdog,third sector,voluntary,citizens
 CSO	Central Statistics Office
@@ -376,26 +430,30 @@ SFB	small finance bank
 RISAT	Radar Imaging Satellite
 CO	carbon monoxide
 SE	south-east
-PE	Pillar Edict	Ashoka,edict,Dhamma,RE ,@1
-PE	private equity	VC,venture,IPO,investor,fund,exits
+PE	Pillar Edict	Ashoka, edict, Dhamma, RE, @1
+PE	private equity	VC, venture, IPO, investor, fund, exits
+PE	Population Enumeration	Census, HLO
 PE	Provisional Estimates
 CJ	Chief Justice
 EWS	Economically Weaker Sections
-NSA	National Security Adviser	Adviser,Advisor,Doval,security adviser
-NSA	National Security Act
+NSA	National Security Act	detention, MISA, COFEPOSA
+NSA	net sown area	sown, net sown, cropping
+NSA	National Security Agency	Shadow Brokers, US NSA
+NSA	National Security Adviser
 JPC	Joint Parliamentary Committee
 SIR	Special Intensive Revision
+CSC	Colombo Security Conclave	Colombo
 CSC	Common Service Centre
-BIS	Bank for International Settlements	Basel,central banks,BCBS,international settlements
+BIS	Bank for International Settlements	Basel, central banks, BCBS, international settlements, G-Sec
 BIS	Bureau of Indian Standards
-SDR	Strategic Debt Restructuring	restructur,NPA,lender,stressed,bank loan
-SDR	Sustainable Development Report	Hamburg,Sustainable Development Report,rank,SDSN,SDG Index,SDG index,countries
+SDR	Strategic Debt Restructuring	restructur, npa, lender, stressed, bank loan
+SDR	Sustainable Development Report	hamburg, sustainable development report, sdsn, sdg
 SDR	Special Drawing Rights
 EXIM	Export-Import
 SDF	Standing Deposit Facility
 CRAR	capital to risk-weighted assets ratio
 NRSC	National Remote Sensing Centre
-TB	terabyte	byte,GB,MB,PB,storage,data
+TB	terabyte	byte, GB, MB, PB, TB of
 TB	tuberculosis
 PIB	Press Information Bureau
 EIC	East India Company
@@ -403,6 +461,7 @@ APCC	Andhra Provincial Congress Committee
 PIO	Public Information Officer	RTI,information officer,appeal,applicant
 PIO	Person of Indian Origin
 FCRA	Foreign Contribution (Regulation) Act
+SG	Secretary-General	UNSC, UNGA, IMO, UNEP, SAARC, ASEAN, Commonwealth, Guterres
 SG	Solicitor General
 ADR	Association for Democratic Reforms	candidate,election,MP,MLA,criminal,assets,affidavit,electoral bond
 ADR	alternative dispute resolution	arbitration,mediation,Lok Adalat,dispute,conciliation
@@ -410,6 +469,7 @@ ADR	Active Debris Removal	debris,space,orbit,satellite
 MMP	Mission Mode Project
 DARPG	Department of Administrative Reforms and Public Grievances
 PFRDA	Pension Fund Regulatory and Development Authority
+POSHAN	Pradhan Mantri Poshan Shakti Nirman	PM
 POSHAN	Prime Minister's Overarching Scheme for Holistic Nourishment
 FPS	fair price shop
 ABHA	Ayushman Bharat Health Account
@@ -419,9 +479,13 @@ DMK	Dravida Munnetra Kazhagam
 IGST	integrated goods and services tax
 SGST	state goods and services tax
 CGST	central goods and services tax
-PCA	Prompt Corrective Action	RBI,bank,NPA,capital,lending,PSB
 PCA	Prevention of Corruption Act
+PCA	Prompt Corrective Action	RBI, NPA, PSB, lending
+PCA	Permanent Court of Arbitration	Hague, arbitration, IWT, maritime boundary
+PCA	Police Complaints Authority	custodial
+PCA	Prevention of Cruelty to Animals	animal
 ICT	information and communication technology
+WG	Working Group	IPCC, AR6, Working Group
 WG	West Godavari
 EG	East Godavari
 APMC	Agricultural Produce Market Committee
@@ -437,11 +501,14 @@ IPS	Indian Police Service
 SOP	standard operating procedure
 CCEA	Cabinet Committee on Economic Affairs
 NCLAT	National Company Law Appellate Tribunal
+IRS	Indian Remote Sensing satellite	remote-sensing, remote sensing, resourcesat, oceansat, satellite, isro
+IRS	indoor residual spraying	llin, mosquito, malaria, nvbdcp, larvi, residual spray
 IRS	Indian Revenue Service
 NPS	National Pension System
 ONGC	Oil and Natural Gas Corporation
+CDP	Cluster Development Programme	cluster development, msme, cfcs
 CDP	Community Development Programme
-NSG	Nuclear Suppliers Group	nuclear,supplier,NPT,uranium,membership,waiver
+NSG	Nuclear Suppliers Group	nuclear, supplier, NPT, uranium, membership, waiver, UNSC
 NSG	National Security Guard
 PMMVY	Pradhan Mantri Matru Vandana Yojana
 VGF	viability gap funding
@@ -457,18 +524,22 @@ PGW	Painted Grey Ware
 ITDA	Integrated Tribal Development Agency
 SEBC	Socially and Educationally Backward Classes
 PF	provident fund
+PF	petaflops	supercomput, PARAM
 IPO	initial public offering
 SICA	Sick Industrial Companies Act
 FSSAI	Food Safety and Standards Authority of India
 NHM	National Health Mission
+NHM	National Horticulture Mission	MIDH, horticulture, HMNEH
 HAL	Hindustan Aeronautics Limited
 CEPA	Comprehensive Economic Partnership Agreement
 JJM	Jal Jeevan Mission
 PMKSY	Pradhan Mantri Krishi Sinchayee Yojana
 NCR	National Capital Region
 PMMSY	Pradhan Mantri Matsya Sampada Yojana
+ISM	industrial scientific and medical	ghz, ism band
 ISM	India Semiconductor Mission
-SDRF	State Disaster Response Fund	fund,crore,allocation,Finance Commission,share,FC
+SDRF	State Disaster Response Fund	fund, crore, allocation, finance commission, FC, notified disaster
+SDRF	State Disaster Response Force	deploy, rescue, battalion, relief camp, evacuat
 SDRF	State Disaster Response Force
 EAP	externally aided projects
 NIDM	National Institute of Disaster Management
@@ -478,19 +549,31 @@ CCTS	Carbon Credit Trading Scheme
 NPCIL	Nuclear Power Corporation of India Limited
 E20	20% ethanol-blended petrol
 BMC	Biodiversity Management Committee
+MBT	Main Boundary Thrust	thrust, fault
+MBT	main battle tank	tank, armoured, Arjun
 MBT	Muhammad bin Tughluq
 IS	-
 NJAC	National Judicial Appointments Commission
 FIR	First Information Report
 EPF	Employees' Provident Fund
+EPF	Environment Protection Fund	MoEFCC, Protection) Fund
+ISC	Indian Science Congress	science congress, 1914 kolkata
+ISC	International Supercomputing Conference	top500, supercomput
 ISC	Inter-State Council
 SAIL	Steel Authority of India Limited
 MMDR	Mines and Minerals (Development and Regulation)
+CD	credit-deposit	cd ratio, credit-deposit
+CD	certificate of deposit	money market, t-bill, commercial paper
+CD	compact disc	dvd, blu-ray
 CD	community development
 DPI	digital public infrastructure
+DPI	Digital Payments Index	Payments Index, RBI-DPI
+SSI	-	SS Innovations, Mantra, robot
 SSI	small-scale industry
 PNGRB	Petroleum and Natural Gas Regulatory Board
 PCR	Protection of Civil Rights
+PCR	provision coverage ratio	NPA
+PCR	polymerase chain reaction	polymerase, DNA
 NSSO	National Sample Survey Office
 GDI	Gender Development Index
 NPT	Non-Proliferation Treaty
@@ -503,13 +586,15 @@ GEAC	Genetic Engineering Appraisal Committee
 KCC	Kisan Credit Card
 HPCL	Hindustan Petroleum Corporation Limited
 RDSS	Revamped Distribution Sector Scheme
+SAM	surface-to-air missile	missile, drdo
 SAM	Special Assistance Measure
 UV	ultraviolet
 PFBR	Prototype Fast Breeder Reactor
 STI	science, technology and innovation
 CWG	Commonwealth Games
 MCQ	multiple-choice question
-NI	Native Infantry
+NI	national income
+NI	Native Infantry	mutiny, Barrackpore, sepoy, @1
 IIM	Indian Institute of Management
 DSPE	Delhi Special Police Establishment
 VVPAT	Voter Verifiable Paper Audit Trail
@@ -522,6 +607,7 @@ CAMPA	Compensatory Afforestation Fund Management and Planning Authority
 CHC	custom hiring centre	farm,machinery,tractor,agricultur,hiring,farmer
 CHC	community health centre
 BIMSTEC	Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation
+SPR	Scientific Policy Resolution	STIP, 1958, STI Policy, scientific temper
 SPR	strategic petroleum reserve
 NCCF	National Cooperative Consumers' Federation
 IHDI	Inequality-adjusted Human Development Index
@@ -530,10 +616,12 @@ SPCB	State Pollution Control Board
 PD	public distribution	Food &,Consumer Affairs,ration,PDS
 PD	primary deficit
 UCB	urban cooperative bank
+PV	Padma Vibhushan	padma shri, padma bhushan, padma vibhushan
 PV	photovoltaic
 FCNR	Foreign Currency Non-Resident
 H2	hydrogen	hydrogen,fuel,electroly,green,gas,syngas,CH4,CO2,ammonia,@4,@5
 H2	second half
+H1	-	Gaganyaan, crewed, Uncrewed
 H1	first half
 MSW	municipal solid waste
 ISS	International Space Station
@@ -541,12 +629,16 @@ SAPCC	State Action Plan on Climate Change
 SLV	Satellite Launch Vehicle
 SSLV	Small Satellite Launch Vehicle
 ZSI	Zoological Survey of India
-VOC	volatile organic compound	pollut,air,ozone,emission,chemical,@4,@5
-VOC	Dutch East India Company
+VOC	volatile organic compound
+VOC	Dutch East India Company	Dutch, 1602
+VOC	V.O. Chidambaranar Port	Tuticorin, Thoothukudi, Chidambaranar
+VOC	V.O. Chidambaram Pillai	Bharati, Swadeshi Steam, Subramania Siva
 CMS	Convention on Migratory Species	migratory,species,Bonn,wildlife,COP
 CMS	Church Missionary Society
 JVP	Jawaharlal Nehru, Vallabhbhai Patel and Pattabhi Sitaramayya
 NSE	National Stock Exchange
+AU	African Union	g20, g-20, african union, EU + AU
+AU	astronomical unit	Kuiper, light year, parsec, Pluto, Neptune, solar system, Earth-Sun
 AU	Andhra University
 DWCRA	Development of Women and Children in Rural Areas
 JJ	Juvenile Justice
@@ -557,14 +649,19 @@ JJB	Juvenile Justice Board
 AWC	Anganwadi centre
 UNFPA	United Nations Population Fund
 TRIPS	Trade-Related Aspects of Intellectual Property Rights
+PSS	Payment and Settlement Systems	pss act, bpss, payment, npci
 PSS	Price Support Scheme
+AIF	Alternative Investment Fund	SEBI, sponsor, Category I, seed equity, accredited investor, alternative investment
 AIF	Agriculture Infrastructure Fund
 FRP	fair and remunerative price
+AC	alternating current	photovoltaic, MW AC, DC current, converts to AC
 AC	air conditioner
 PAT	Perform, Achieve and Trade
 FBR	fast breeder reactor
+RI	Research Institute	csir, research institute, nrri, cftri
 RI	rigorous imprisonment
 IXA	-
+CCS	carbon capture and storage	carbon capture, CCUS, co2, hydrogen, carbon dioxide
 CCS	Cabinet Committee on Security
 NCDC	National Centre for Disease Control	disease,outbreak,health,surveillance,epidemic
 NCDC	National Cooperative Development Corporation
@@ -572,33 +669,44 @@ DPC	District Planning Committee
 RUPP	registered unrecognised political party
 NCSK	National Commission for Safai Karamcharis
 NMP	National Monetisation Pipeline
+STP	Science and Technology Policy	STIP, 1958, STI Policy
+STP	Software Technology Park	EHTP, EOU, STPI
 STP	sewage treatment plant
+IWT	inland water transport	coastal shipping, iwai, sagarmala, tonne-km, waterway, inland water
 IWT	Indus Waters Treaty
-API	active pharmaceutical ingredient	pharma,drug,medicine,bulk drug,PLI
-API	application programming interface
+API	application programming interface	open api, dataset api, india stack, API-based, software, developer
+API	active pharmaceutical ingredient
 ITU	International Telecommunication Union
 ONDC	Open Network for Digital Commerce
 ECB	European Central Bank	euro,Europe,eurozone
 ECB	external commercial borrowing
+SDN	software-defined networking	nfv, network slicing, 5g
 SDN	site-directed nuclease
 DCCB	District Central Cooperative Bank
 OSAT	outsourced semiconductor assembly and test
+FTP	File Transfer Protocol	protocol, HTTP, SMTP
 FTP	Foreign Trade Policy
+IBA	Important Bird Area	BirdLife, BNHS, bird
+IBA	International Boxing Association	boxing, Women's Worlds
 IBA	Indian Banks' Association
-MDR	multidrug-resistant	TB,tuberculosis,drug-resistant,antibiotic
+MDR	multidrug-resistant	TB, tuberculosis, drug-resistant, antibiotic
+MDR	major district road	ODR, state highway, district road, Road Sector
 MDR	merchant discount rate
 ER	economic region
+ER	elephant reserve	elephant
 O2	oxygen
 IOCL	Indian Oil Corporation Limited
 GIB	Great Indian Bustard
 WHS	World Heritage Site
-ML	Marxist-Leninist
+ML	Marxist-Leninist	Naxal, CPI, Maoist, Communist
+ML	machine learning
 UGC	University Grants Commission
 KRMB	Krishna River Management Board
 MEA	Ministry of External Affairs
 NOTA	None of the Above
 ACC	advanced chemistry cell	battery,cell,storage,PLI,EV
 ACC	Appointments Committee of the Cabinet
+DEA	Depositor Education and Awareness	unclaimed, depositor
 DEA	Department of Economic Affairs
 MFP	minor forest produce
 JAM	Jan Dhan-Aadhaar-Mobile
@@ -610,9 +718,11 @@ SMR	small modular reactor
 IAEA	International Atomic Energy Agency
 MLD	million litres per day
 FY2025	-
+ISP	internet service provider	apsfl, sify, iptv, telco, meity, internet, broadband
 ISP	Index of Services Production
 RKVY	Rashtriya Krishi Vikas Yojana
-DRR	Directorate of Rice Research
+DRR	disaster risk reduction
+DRR	Directorate of Rice Research	Dhan, Kamala, Samba
 IDBI	Industrial Development Bank of India
 JICA	Japan International Cooperation Agency
 LEADS	Logistics Ease Across Different States
@@ -622,6 +732,7 @@ DDT	dichlorodiphenyltrichloroethane
 CCUS	carbon capture, utilisation and storage
 SCR	South Central Railway
 IRNSS	Indian Regional Navigation Satellite System
+N2	-	GSAT
 N2	nitrogen
 BD	Biological Diversity
 DILRMP	Digital India Land Records Modernisation Programme
@@ -630,6 +741,7 @@ PCC	Pradesh Congress Committee
 DGP	Director General of Police
 IXB	-
 ERP	Essential Religious Practices
+ERP	enterprise resource planning	software, PACS
 CFI	Consolidated Fund of India
 ESI	Employees' State Insurance
 CPGRAMS	Centralised Public Grievance Redress and Monitoring System
@@ -650,6 +762,7 @@ SIPB	State Investment Promotion Board
 GERD	gross expenditure on research and development
 CRZ	Coastal Regulation Zone
 NFIA	net factor income from abroad
+BBB	-	rating, S&P, Moody, Fitch, upgrade
 BBB	Banks Board Bureau
 PMJDY	Pradhan Mantri Jan Dhan Yojana
 NAFED	National Agricultural Cooperative Marketing Federation of India
@@ -665,7 +778,7 @@ RH	relative humidity
 SST	sea surface temperature
 AR6	Sixth Assessment Report
 ESZ	eco-sensitive zone
-CDRI	Central Drug Research Institute	drug,contraceptive,Saheli,Lucknow,medicine,CSIR
+CDRI	Central Drug Research Institute	contraceptive, saheli, lucknow, drug research
 CDRI	Coalition for Disaster Resilient Infrastructure
 SEEI	State Energy Efficiency Index
 OECM	other effective area-based conservation measure
@@ -678,6 +791,8 @@ UDHR	Universal Declaration of Human Rights
 PUCL	People's Union for Civil Liberties
 PCB	Pollution Control Board
 PAN	Permanent Account Number
+PAN	peroxyacetyl nitrate	smog, photochemical
+PAN	personal area network	Bluetooth, IEEE
 AAP	Aam Aadmi Party
 JSPSC	Joint State Public Service Commission
 SVAMITVA	Survey of Villages and Mapping with Improvised Technology in Village Areas
@@ -688,10 +803,11 @@ SGSY	Swarnjayanti Gram Swarozgar Yojana
 ASHA	Accredited Social Health Activist
 PMJJBY	Pradhan Mantri Jeevan Jyoti Bima Yojana
 EPFO	Employees' Provident Fund Organisation
-AMR	antimicrobial resistance	antibiotic,antimicrobial,drug,resistan,infection,bacteria
-AMR	advanced modular reactor
+AMR	advanced modular reactor	reactor, Westinghouse, SMR
+AMR	antimicrobial resistance
 AAY	Antyodaya Anna Yojana
 NHA	National Health Authority
+NHA	National Health Accounts	health expenditure, health spending, GHE, OOPE, of GDP, 2.5% target, missing middle
 TPDS	Targeted Public Distribution System
 PMFBY	Pradhan Mantri Fasal Bima Yojana
 HRIDAY	Heritage City Development and Augmentation Yojana
@@ -729,22 +845,28 @@ HRA	Hindustan Republican Association
 MLC	Member of the Legislative Council
 GO	Government Order
 NIT	National Institute of Technology
+NIT	net indirect taxes	GDPmp, NNPfc, depreciation, factor cost, NFIA
 ED	Enforcement Directorate
 NIA	National Investigation Agency
-UPS	Unified Pension Scheme	pension,NPS,OPS,retire,employee
+NIA	net irrigated area	irrigat, Mha, net sown
+UPS	Unified Pension Scheme	pension, NPS, OPS, retire, employee
+UPS	uninterruptible power supply	inverter, lithium
 UPS	usual principal status
 LB	local body
 ICCPR	International Covenant on Civil and Political Rights
-DD	Daman and Diu	DNH,Dadra,Daman,Union Territor
-DD	Department of Defence	Secretary,DRDO,R&D,defence research
-DD	Data Deficient
+DD	Daman and Diu	DNH, Dadra, Daman, Union Territor
+DD	Department of Defence	Secretary, DRDO, R&D, defence research
+DD	Data Deficient	IUCN, Red List, threatened, Endangered
+DD	Doordarshan
 G2C	government-to-citizen
 PSE	public sector enterprise
 UDAN	Ude Desh ka Aam Nagrik
 APERC	Andhra Pradesh Electricity Regulatory Commission
+SMA	Special Mention Account	NPA, IRACP, NARCL
 SMA	Special Marriage Act
 OECD	Organisation for Economic Co-operation and Development
 PMKVY	Pradhan Mantri Kaushal Vikas Yojana
+CRS	community radio station	radio
 CRS	Civil Registration System
 MUDRA	Micro Units Development and Refinance Agency
 MAB	Man and the Biosphere
@@ -757,7 +879,7 @@ SRE	Second Revised Estimates
 GNPA	gross non-performing assets
 MGNREGS	Mahatma Gandhi National Rural Employment Guarantee Scheme
 DPR	detailed project report
-GNSS	Galeru-Nagari Sujala Sravanthi	Rayalaseema,HNSS,irrigation,lift,canal,reservoir
+GNSS	Galeru-Nagari Sujala Sravanthi	HNSS, Galeru, Rayalaseema, Veligonda, Telugu Ganga, Sujala
 GNSS	Global Navigation Satellite System
 FL	family labour
 RINL	Rashtriya Ispat Nigam Limited
@@ -793,11 +915,16 @@ AIKS	All India Kisan Sabha
 BSE	Bombay Stock Exchange
 SR	States Reorganisation	Act,1956,reorganisation
 SR	Special Representatives
+TG	Trombay groundnut	TAG, BARC, Trombay
 TG	Telangana
+CPU	central processing unit	@5, computer, RAM
 CPU	Committee on Public Undertakings
 DRSC	Departmentally Related Standing Committee
+IB	International Border	LoC, LAC
+IB	-	Valley, Washery, washery, coal
 IB	Intelligence Bureau
-LG	Lieutenant Governor
+LG	Lieutenant Governor	Lieutenant, Raj Niwas, Puducherry, Ladakh
+LG	-
 ADP	Aspirational Districts Programme
 IFCI	Industrial Finance Corporation of India
 PC	Prevention of Corruption	Act,corruption,17A,sanction
@@ -818,14 +945,17 @@ AIIB	Asian Infrastructure Investment Bank
 MILAN	-
 WIPO	World Intellectual Property Organization
 EAS	East Asia Summit
+EAS	Employment Assurance Scheme	JRY, SGRY, wage
 IBSA	India-Brazil-South Africa
 PMAY	Pradhan Mantri Awas Yojana
+SBM	single buoy mooring	mooring, crude
 SBM	Swachh Bharat Mission
 UDAY	Ujwal DISCOM Assurance Yojana
 AIDS	acquired immunodeficiency syndrome
 MEPMA	Mission for Elimination of Poverty in Municipal Areas
 MIS	management information system	GIS,software,data,portal,online,digital,NREGASoft
 MIS	Market Intervention Scheme
+MDG	Mukhya Dak Ghar	HPO, BPO, post office
 MDG	Millennium Development Goal
 SDSN	Sustainable Development Solutions Network
 DB	-
@@ -842,6 +972,7 @@ BHEL	Bharat Heavy Electricals Limited
 IOC	International Olympic Committee	Olympic,sport,Games,athlete
 IOC	Indian Oil Corporation
 INR	Indian rupees
+DFI	Drone Federation of India	Drone
 DFI	development finance institution
 DRT	Debt Recovery Tribunal
 RFID	radio-frequency identification
@@ -860,6 +991,7 @@ PNG	Portable Network Graphics	graphic,image,JPEG,file format,GIF
 PNG	piped natural gas
 UAV	unmanned aerial vehicle
 ADA	Aeronautical Development Agency
+LCA	life-cycle assessment	EIA, life cycle, life-cycle
 LCA	Light Combat Aircraft
 ICBM	intercontinental ballistic missile
 IRENA	International Renewable Energy Agency
@@ -871,6 +1003,7 @@ PWM	Plastic Waste Management
 BHU	Banaras Hindu University
 OCP	Ochre Coloured Pottery
 SNDP	Sree Narayana Dharma Paripalana
+CSP	concentrated solar power	@5, solar
 CSP	Congress Socialist Party
 NAM	Non-Aligned Movement
 GRMB	Godavari River Management Board
@@ -881,15 +1014,21 @@ ITR	Integrated Test Range
 POSH	Prevention of Sexual Harassment
 PMO	Prime Minister's Office
 PRS	PRS Legislative Research
+CAT	Convention against Torture	torture, ratif, iccpr
 CAT	Central Administrative Tribunal
 RGSA	Rashtriya Gram Swaraj Abhiyan
-BU	ballot unit
+BU	ballot unit	evm, vvpat, ballot, candidates
+BU	billion units
 NCP	Nationalist Congress Party
-SS	Shiv Sena
+SS	Shiv Sena	TDP, DMK, BJP, AITC, Thackeray
+SS	Social Security	ESIC, EPFO, EDLI, labour code
+SS	Swachh Survekshan	swachh, ULB, SBM-U
+SS	-
 NAMASTE	National Action for Mechanised Sanitation Ecosystem
 MPTC	Mandal Parishad Territorial Constituency
 IIA	-	Sixth Schedule,para,Tribal Areas,Part
 IIA	Indian Institute of Astrophysics
+NATO	-	Hood
 NATO	North Atlantic Treaty Organization
 BHIM	Bharat Interface for Money
 MCA	Ministry of Corporate Affairs
@@ -902,10 +1041,13 @@ CGD	city gas distribution
 BRO	Border Roads Organisation
 DNT	denotified tribe
 ADSI	Accidental Deaths and Suicides in India
+SMILE	Solar wind Magnetosphere Ionosphere Link Explorer	ESA, Vega
+SMILE	-	VBRI, Animal Feed
 SMILE	Support for Marginalized Individuals for Livelihood and Enterprise
 NREP	National Rural Employment Programme
 OSH	occupational safety and health
 HRD	Human Resource Development
+RCI	Research Centre Imarat	missile, drdo, drdl
 RCI	Rehabilitation Council of India
 IGNOAPS	Indira Gandhi National Old Age Pension Scheme
 MH	-
@@ -924,13 +1066,14 @@ FRS	Fellow of the Royal Society
 AIM	Atal Innovation Mission
 CCPI	Climate Change Performance Index
 NNP	net national product
-CDR	crude death rate	birth,death,mortality,CBR,MMR,IMR,demograph
-CDR	Corporate Debt Restructuring
+CDR	Corporate Debt Restructuring	debt restructuring, npa, stressed assets
+CDR	crude death rate
 CBDC	central bank digital currency
 GEC	ground water estimation committee	ground water,groundwater,blocks,extraction,over-exploited
 GEC	-
 NFSNM	National Food Security and Nutrition Mission
-FW	Farmers' Welfare
+FW	Farmers' Welfare	Agriculture & FW, Agriculture and FW, Agriculture and Farmers
+FW	Family Welfare
 BPCL	Bharat Petroleum Corporation Limited
 DMIC	Delhi-Mumbai Industrial Corridor
 UNCTAD	United Nations Conference on Trade and Development
@@ -945,6 +1088,7 @@ GRSE	Garden Reach Shipbuilders and Engineers
 MMTPA	million metric tonnes per annum
 BWR	boiling water reactor
 NFC	near-field communication
+NFC	Nuclear Fuel Complex	uranium, BARC, DAE, NPCIL, thorium, nuclear
 STIP	Science, Technology and Innovation Policy
 RCB	Regional Centre for Biotechnology
 BHAVINI	Bharatiya Nabhikiya Vidyut Nigam
@@ -956,6 +1100,7 @@ SSBN	nuclear-powered ballistic missile submarine
 ECBC	Energy Conservation Building Code
 SBB	State Biodiversity Board
 NCQG	New Collective Quantified Goal
+PMC	Punjab and Maharashtra Co-operative	pmc bank, depositor, co-operative bank, cooperative bank, ucb
 PMC	punch-marked coins
 AND	-
 TISCO	Tata Iron and Steel Company
@@ -963,6 +1108,7 @@ BHS	-
 HSRA	Hindustan Socialist Republican Association
 WWII	Second World War
 AITUC	All India Trade Union Congress
+BRS	Basel, Rotterdam and Stockholm conventions	Rotterdam, Stockholm, Basel
 BRS	Bharat Rashtra Samithi
 GWDT	Godavari Water Disputes Tribunal
 BBBP	Beti Bachao Beti Padhao
@@ -975,6 +1121,7 @@ PMLA	Prevention of Money Laundering Act
 GVMC	Greater Visakhapatnam Municipal Corporation
 UDA	Urban Development Authority
 VMRDA	Visakhapatnam Metropolitan Region Development Authority
+SSA	Space Situational Awareness	ISSAR, debris, NETRA, ASAT
 SSA	Sarva Shiksha Abhiyan
 G2B	government-to-business
 MIB	Ministry of Information and Broadcasting
@@ -982,7 +1129,7 @@ DIPAM	Department of Investment and Public Asset Management
 ETF	exchange-traded fund
 GIC	General Insurance Corporation
 SERC	State Electricity Regulatory Commission
-NEET	National Eligibility-cum-Entrance Test	exam,paper,entrance,medical,leak,NTA,students
+NEET	National Eligibility-cum-Entrance Test	exam, paper, entrance, medical, leak, NTA, students, CBSE, UGC
 NEET	not in education, employment or training
 IIPS	International Institute for Population Sciences
 PTG	Primitive Tribal Group
@@ -993,6 +1140,7 @@ U5MR	under-five mortality rate
 LAC	Line of Actual Control
 IBCA	International Big Cat Alliance
 P5	five permanent members
+IFC	Infrastructure Finance Company	nbfc-mfi, loan co., nbfc categor
 IFC	International Finance Corporation
 MTCR	Missile Technology Control Regime
 UJALA	Unnat Jyoti by Affordable LEDs for All
@@ -1004,14 +1152,18 @@ LLM	large language model
 CBR	crude birth rate
 UPSS	usual principal and subsidiary status
 JLG	joint liability group
+CER	City Economic Region	city economic region
 CER	certified emission reduction
 PMU	project management unit
+DAP	Defence Acquisition Procedure	DPP, Defence Acquisition, MoD
 DAP	diammonium phosphate
 VRR	Varietal Replacement Rate
+VRR	variable rate repo	LAF, liquidity, VRRR
 DST1	drought and salt tolerant 1
 SLBC	State Level Bankers' Committee
 SAP	structural adjustment programme	structural,IMF,World Bank,adjustment,1991,conditions
 SAP	State Advised Price
+DCP	date of commencement of production	APIIC, incentive
 DCP	decentralised procurement
 DIC	District Industries Centre
 NIMZ	National Investment and Manufacturing Zone
@@ -1026,6 +1178,7 @@ OFC	optical fibre cable
 APTS	Andhra Pradesh Technology Services
 PARIVESH	-
 L&T	Larsen and Toubro
+SH	Southern Hemisphere	hemisphere, Coriolis, IMD, ITCZ, monsoon
 SH	State Highway
 GWP	global warming potential
 NMCG	National Mission for Clean Ganga
@@ -1047,7 +1200,8 @@ AESA	Active Electronically Scanned Array
 IESS	India Energy Security Scenarios
 NMEEE	National Mission for Enhanced Energy Efficiency
 RAPP	Rajasthan Atomic Power Project
-PET	positron emission tomography
+PET	polyethylene terephthalate
+PET	positron emission tomography	positron, FDG
 TPA	tonnes per annum
 SEIAA	State Environment Impact Assessment Authority
 SEAC	State Expert Appraisal Committee
@@ -1058,27 +1212,33 @@ SUP	single-use plastic
 HIV	human immunodeficiency virus
 NT	Near Threatened	IUCN,Red List,threatened,Endangered,species,VU
 NT	-
+CP	commercial paper	@3, money market
 CP	Central Provinces
 MCC	Model Code of Conduct	election,poll,campaign,ECI,candidate,model code
 MCC	Maoist Communist Centre
 ICJ	International Court of Justice
 XIVA	-
 NRC	National Register of Citizens
+NRC	National Research Centre	NRC Banana, Banana
+DA	-	JGUA
 DA	dearness allowance
 UAPA	Unlawful Activities (Prevention) Act
 SCPCR	State Commission for Protection of Child Rights
 SIM	subscriber identity module
+AFS	Agreement on Fisheries Subsidies	WTO, fisheries subsid, MC14, fisher
 AFS	Annual Financial Statement
 CSAT	Civil Services Aptitude Test
 NCRWC	National Commission to Review the Working of the Constitution
 SAT	Securities Appellate Tribunal
-NEC	North Eastern Council	North East,North-East,NE states,council,Shillong
+NEC	North Eastern Council	North East, North-East, NE states, Shillong, NEC Act
+NEC	National Energy Conservation	BEE, energy conservation
 NEC	National Executive Committee
 DMEO	Development Monitoring and Evaluation Office
 BSP	Bahujan Samaj Party
 BJD	Biju Janata Dal
 PHRA	Protection of Human Rights Act
 DRI	Directorate of Revenue Intelligence
+DRI	direct reduced iron	steel, coking
 NES	National Extension Service
 TRYSEM	Training Rural Youth for Self-Employment
 ZPTC	Zilla Parishad Territorial Constituency
@@ -1089,6 +1249,7 @@ PAHAL	Pratyaksh Hanstantrit Labh
 EPC	engineering, procurement and construction
 HAM	hybrid annuity model
 UIDAI	Unique Identification Authority of India
+GIFT	Genetically Improved Farmed Tilapia	tilapia
 GIFT	Gujarat International Finance Tec-City
 DICGC	Deposit Insurance and Credit Guarantee Corporation
 EBC	Economically Backward Classes
@@ -1103,6 +1264,7 @@ TSP	Tribal Sub-Plan
 ANM	Auxiliary Nurse Midwife
 MFN	most-favoured nation
 WFP	World Food Programme
+PSH	pumped storage hydropower	pumped, electricity polic, storage
 PSH	public stockholding
 LDC	least developed country
 OPEC	Organization of the Petroleum Exporting Countries
@@ -1117,6 +1279,9 @@ GFCF	gross fixed capital formation
 NASSCOM	National Association of Software and Service Companies
 DMF	District Mineral Foundation
 NIF	National Innovation Foundation
+NIF	National Indicator Framework	SDG, Indicator Framework
+NIF	National Investment Fund	Investment Fund, disinvestment
+NIF	National Ignition Facility	fusion, Ignition Facility, ITER
 SCEIA	-
 S&P	Standard and Poor's
 PMUY	Pradhan Mantri Ujjwala Yojana
@@ -1150,7 +1315,8 @@ VR	virtual reality
 APPDCL	Andhra Pradesh Power Development Company Limited
 MU	million units
 APSFL	Andhra Pradesh State FiberNet Limited
-APSEZ	Adani Ports and Special Economic Zone
+APSEZ	Adani Ports and Special Economic Zone	Adani, Mundra
+APSEZ	Andhra Pradesh Special Economic Zone
 HUDCO	Housing and Urban Development Corporation
 IIITDM	Indian Institute of Information Technology, Design and Manufacturing
 IIPE	Indian Institute of Petroleum and Energy
@@ -1167,6 +1333,7 @@ GQ	Golden Quadrilateral
 STEM	science, technology, engineering and mathematics
 INCOSPAR	Indian National Committee for Space Research
 COSPAR	Committee on Space Research
+AR	Assessment Report	IPCC, assessment report
 AR	augmented reality
 IVFRT	Immigration, Visa and Foreigners Registration and Tracking
 OTP	one-time password
@@ -1185,13 +1352,19 @@ GBF	Global Biodiversity Framework
 AYUSH	Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy
 PHEIC	Public Health Emergency of International Concern
 CDSCO	Central Drugs Standard Control Organisation
+AMS	Aggregate Measurement of Support	WTO, Amber, de minimis, AoA, subsid
 AMS	accelerator mass spectrometry
 ULPIN	Unique Land Parcel Identification Number
 TTD	Tirumala Tirupati Devasthanams
+HMIS	Health Management Information System	eHospital, ABDM, ABHA, hospital, health
 HMIS	His Majesty's Indian Ship
 SCF	Scheduled Castes Federation
 PCMA	Prohibition of Child Marriage Act
-TS	Theosophical Society
+TS	Theosophical Society	@1, Besant, Theosoph, Olcott
+TS	Telangana	KRMB, GRMB, TMC, Krishna
+TS	-
+PS	Padma Shri	padma shri, padma bhushan, padma vibhushan
+PS	polystyrene	resin, plastic
 PS	police station
 POW	prisoners of war
 STV	single transferable vote
@@ -1205,8 +1378,11 @@ CCPA	Central Consumer Protection Authority	consumer,advertis,misleading,unfair t
 CCPA	Cabinet Committee on Political Affairs
 NTC	National Tribunals Commission
 NMC	National Medical Commission
+NMC	nickel manganese cobalt	Li-ion, lithium, cobalt, battery, batteries
 SDL	State Development Loan
 KWDT	Krishna Water Disputes Tribunal
+MITRA	Mapping of Interoperable Traits and Response Assessment	Gaganyaan, crew, astronaut, Leh
+MITRA	Maharashtra Institution for Transformation	GRIT, State Support Mission
 MITRA	Mega Integrated Textile Region and Apparel
 MHRD	Ministry of Human Resource Development
 CARA	Central Adoption Resource Authority
@@ -1215,8 +1391,11 @@ ICESCR	International Covenant on Economic, Social and Cultural Rights
 ACB	Anti-Corruption Bureau
 ZPP	Zilla Praja Parishad
 MKSS	Mazdoor Kisan Shakti Sangathan
-SMART	Supersonic Missile Assisted Release of Torpedo	DRDO,missile,torpedo,launch,submarine
+SMART	Supersonic Missile Assisted Release of Torpedo	DRDO, missile, torpedo, submarine
+SMART	Simple Moral Accountable Responsive and Transparent	governance, e-Seva, eSeva, HITEC
 SMART	-
+CCA	culturable command area	command area, irrigation, cadwm
+CCA	Controller of Certifying Authorities	certifying authorit, digital signature
 CCA	Classification, Control and Appeal
 SRO	self-regulatory organisation
 PMGSY	Pradhan Mantri Gram Sadak Yojana
@@ -1231,6 +1410,7 @@ MPCE	monthly per capita consumption expenditure
 PMRY	Prime Minister's Rozgar Yojana
 ECOSOC	Economic and Social Council
 SOS	-
+IFA	iron and folic acid	weekly ifa, ifa tablets, ifa supplementation, folic, anaemia, anemia, deworming, adolescen, pregnan
 IFA	Indian Forest Act
 TRIFED	Tribal Cooperative Marketing Development Federation of India
 SNP	Supplementary Nutrition Programme
@@ -1255,6 +1435,7 @@ GHI	Global Hunger Index
 CBDR	common but differentiated responsibilities
 PFCE	private final consumption expenditure
 HNSS	Handri-Neeva Sujala Sravanthi
+MOP	Meeting of the Parties	Cartagena, Nagoya
 MOP	muriate of potash
 PPV&FR	Protection of Plant Varieties and Farmers' Rights
 DMH	Dhara Mustard Hybrid
@@ -1263,7 +1444,9 @@ WDRA	Warehousing Development and Regulatory Authority
 CGTMSE	Credit Guarantee Fund Trust for Micro and Small Enterprises
 CIP	Central Issue Price
 NSSF	National Small Savings Fund
-CS	Central Sector
+CS	cyclonic storm	cyclon
+CS	Central Sector	CSS
+CS	Chief Secretary
 MMLP	multi-modal logistics park
 LPI	Logistics Performance Index
 FY14	financial year 2013-14
@@ -1272,16 +1455,20 @@ NEER	nominal effective exchange rate
 REER	real effective exchange rate
 SRVA	Special Rupee Vostro Account
 ODI	overseas direct investment
+ODI	One Day International	World Cup, cricket
+ODI	Overseas Development Institute	@5
 MRO	maintenance, repair and overhaul
 EBLR	external benchmark-based lending rate
+MF	medium frequency	frequenc, GSAT, INSAT
 MF	mutual fund
 BCBS	Basel Committee on Banking Supervision
 ECL	expected credit loss
+ECL	Eastern Coalfields Limited	BCCL, coalfield, Coal India
 NARCL	National Asset Reconstruction Company Limited
 ESG	environmental, social and governance
 SDMF	State Disaster Mitigation Fund
 WMA	Ways and Means Advances
-FSI	Forest Survey of India	forest,Dehradun,ISFR,tree cover
+FSI	Forest Survey of India	forest, dehradun, isfr, tree cover
 FSI	floor space index
 HITEC	-
 IIIT	Indian Institute of Information Technology
@@ -1306,6 +1493,7 @@ TIFR	Tata Institute of Fundamental Research
 KAMINI	Kalpakkam Mini reactor
 INSA	Indian National Science Academy
 NSM	National Supercomputing Mission
+NSM	National Solar Mission	solar, JNNSM
 OS	operating system
 LAN	local area network
 GISAT	Geo Imaging Satellite
@@ -1334,15 +1522,18 @@ NH3	ammonia
 CRISPR	clustered regularly interspaced short palindromic repeats
 H1N1	-
 GHE	government health expenditure
+THE	total health expenditure	OOPE, NHA, health expend
 THE	Times Higher Education
 QS	Quacquarelli Symonds
 NWP	North-Western Provinces
 BT	-
+RKM	route kilometres	railway, route km
 RKM	Ramakrishna Mission
 ILP	Independent Labour Party
 ADC	Autonomous District Council	Sixth Schedule,district council,autonomous,tribal,Bodoland,Karbi,Meghalaya,Tripura,Mizoram
 ADC	aide-de-camp
 WWI	First World War
+CNT	carbon nanotube	@5, nano
 CNT	Chota Nagpur Tenancy
 LWE	left-wing extremism
 NEFA	North-East Frontier Agency
@@ -1357,7 +1548,7 @@ CEDAW	Convention on the Elimination of All Forms of Discrimination against Women
 UNCRC	United Nations Convention on the Rights of the Child
 MS	-
 IADP	Intensive Agricultural District Programme
-MPP	Mandal Parishad President
+MPP	Mandal Praja Parishad
 SVEP	Start-up Village Entrepreneurship Programme
 GPDP	Gram Panchayat Development Plan
 MA&UD	Municipal Administration and Urban Development
@@ -1368,13 +1559,15 @@ CRPF	Central Reserve Police Force
 DESA	Department of Economic and Social Affairs
 REIT	real estate investment trust
 BOT	build-operate-transfer
-IPRC	Infrastructure PPP Project Review Committee
+IPRC	Infrastructure PPP Project Review Committee	ppp
+IPRC	ISRO Propulsion Complex
 NCDRC	National Consumer Disputes Redressal Commission
 MNC	multinational corporation
 HMA	Hindu Marriage Act
 SECC	Socio-Economic and Caste Census
 JANMAN	Janjatiya Adivasi Nyaya Maha Abhiyan
 SPMRM	Shyama Prasad Mukherji Rurban Mission
+JP	-	Morgan
 JP	Jayaprakash Narayan
 DSC	District Selection Committee
 APSSDC	Andhra Pradesh State Skill Development Corporation
@@ -1399,14 +1592,17 @@ SEED	Scheme for Economic Empowerment of Denotified Tribes
 RSBY	Rashtriya Swasthya Bima Yojana
 ISI	Indian Standards Institution
 IPKF	Indian Peace Keeping Force
+CBM	coal bed methane	coal seam, coal bed, methane
 CBM	confidence-building measure
 PIC	prior informed consent
 LTTE	Liberation Tigers of Tamil Eelam
 INSTC	International North-South Transport Corridor
 IFAD	International Fund for Agricultural Development
+GA	geographical area	PNGRB, city gas, CGD
 GA	General Assembly
 GEF	Global Environment Facility
-SPS	Standard Positioning Service	NavIC,GPS,positioning,navigation,satellite
+SPS	Standard Positioning Service	NavIC, GPS, positioning, navigation, satellite
+SPS	Sri Potti Sriramulu	nellore
 SPS	sanitary and phytosanitary
 PTA	preferential trade agreement
 SAFTA	South Asian Free Trade Area
@@ -1415,6 +1611,8 @@ HADR	humanitarian assistance and disaster relief
 GBA	Global Biofuels Alliance
 IFR	International Fleet Review
 NPE	National Policy on Education
+NPE	National Policy on Electronics	MeitY, electronics, NPE 2012
+AUM	-	processor, supercomputer, PARAM, C-DAC
 AUM	assets under management
 NAPS	National Apprenticeship Promotion Scheme
 IREDA	Indian Renewable Energy Development Agency
@@ -1431,6 +1629,9 @@ NSC	National Security Council
 PURA	Providing Urban Amenities in Rural Areas
 SDP	state domestic product
 PFMS	Public Financial Management System
+SNA	System of National Accounts	GDP, MoSPI, NAS, national accounts
+SNA	Single Nodal Agency	PFMS, Central funds, CSS, matching
+SNA	Sangeet Natak Akademi	Akademi, Fellowship
 SNA	System of National Accounts
 DEPA	Data Empowerment and Protection Architecture
 PHH	priority households
@@ -1458,10 +1659,13 @@ ICEP	Integrated Clean Energy Policy
 HELP	Hydrocarbon Exploration and Licensing Policy
 DEH	Districts as Export Hubs
 UTI	Unit Trust of India
+SBR	sequencing batch reactor	sewage, reactor, effluent, wastewater
 SBR	Scale-Based Regulation
 NNPA	net non-performing assets
+CCB	critical care block	critical care, hospital, health, aiims, medical college
 CCB	capital conservation buffer
 SARFAESI	Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest
+TDS	total dissolved solids	BOD, COD, turbidity, NTU
 TDS	tax deducted at source
 GSTAT	Goods and Services Tax Appellate Tribunal
 CGA	Controller General of Accounts
@@ -1472,6 +1676,7 @@ RMZ	-
 NAP	National Afforestation Programme
 JFM	Joint Forest Management
 IPTV	internet protocol television
+GAP	Ganga Action Plan	ganga, namami
 GAP	Good Agricultural Practices
 APIIATP	Andhra Pradesh Integrated Irrigation and Agriculture Transformation Project
 NGRI	National Geophysical Research Institute
@@ -1481,6 +1686,7 @@ VELC	Visible Emission Line Coronagraph
 UTC	Coordinated Universal Time
 SIAL	silica and alumina
 SIMA	silica and magnesium
+UHI	Unified Health Interface	ABHA, NHCX, Ayushman Bharat Digital
 UHI	urban heat island
 RSMC	Regional Specialised Meteorological Centre
 AR7	Seventh Assessment Report
@@ -1498,8 +1704,10 @@ MCF	Modern Coach Factory
 KRIS	Krishnapatnam Industrial
 JNPA	Jawaharlal Nehru Port Authority
 PIN	postal index number
+PIN	personal identification number	UPI, wallet
 PLF	plant load factor
 FAIR	findable, accessible, interoperable and reusable
+FAIR	Facility for Antiproton and Ion Research	accelerator, Germany, antiproton, DAE
 DSIR	Department of Scientific and Industrial Research
 NARL	National Atmospheric Research Laboratory
 NASI	National Academy of Sciences, India
@@ -1513,6 +1721,7 @@ CSIRT	Computer Security Incident Response Team
 N2O4	dinitrogen tetroxide
 DWS	Disaster Warning System
 RRI	Raman Research Institute
+CAM	Crassulacean acid metabolism	succulen, stomata, xerophyt, photosynth, Opuntia
 CAM	collision avoidance manoeuvre
 TDF	Technology Development Fund
 IIR	imaging infra-red
@@ -1568,15 +1777,19 @@ SEQI	School Education Quality Index
 RLB	rural local bodies
 ECINET	-
 SVEEP	Systematic Voters' Education and Electoral Participation
+JD	-	Vance
 JD	Janata Dal
+CMP	Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol	Kyoto, UNFCCC, Paris Agreement, CMA
 CMP	Common Minimum Programme
 GOI	Government of India
+SAI	Sports Authority of India	moyas, sport, khelo, athlete
 SAI	supreme audit institution
 CPCR	Commissions for Protection of Child Rights
 IGP	Inspector General of Police
 SETU	State Economic and Transformation Unit
 WRI	World Resources Institute
 NPC	National Planning Committee
+NPC	National Policy for Children	child, 2013
 BDO	Block Development Officer
 JNNURM	Jawaharlal Nehru National Urban Renewal Mission
 OTFD	Other Traditional Forest Dwellers
@@ -1608,6 +1821,7 @@ CCTV	closed-circuit television
 AI4AP	-
 CSAM	child sexual abuse material
 PCRA	Protection of Civil Rights Act
+PCRA	Petroleum Conservation Research Association	tyre, fuel
 VDVK	Van Dhan Vikas Kendra
 DAJGUA	Dharti Aaba Janjatiya Gram Utkarsh Abhiyan
 AWW	Anganwadi worker
@@ -1628,8 +1842,10 @@ IRIS	Islamic Republic of Iran Ship	Dena,Iran,ship,navy,warship,sunk
 IRIS	Infrastructure for Resilient Island States
 F414	-
 UNHCR	United Nations High Commissioner for Refugees
-GEM	Government e-Marketplace	procure,e-Marketplace,GeM,purchase,vendor,e-Procurement
+GEM	Government e-Marketplace	procure, e-Marketplace, GeM, purchase, vendor, e-Procurement
+GEM	Gender Empowerment Measure	GDI, GII, gender
 GEM	Global Education Monitoring
+IDA	International Depositary Authority	budapest, mtcc, depositary
 IDA	International Development Association
 GATS	General Agreement on Trade in Services
 TEPA	Trade and Economic Partnership Agreement
@@ -1645,11 +1861,13 @@ NIPUN	National Initiative for Proficiency in Reading with Understanding and Nume
 RPDS	Revamped Public Distribution System
 NAIS	National Agricultural Insurance Scheme
 RSETI	Rural Self Employment Training Institute
-RCS	Regional Connectivity Scheme	UDAN,airport,flight,air connectivity,aviation,route
-RCS	radar cross-section
+RCS	Regional Connectivity Scheme	UDAN, airport, flight, air connectivity, aviation, route
+RCS	radar cross-section	radar, stealth
+RCS	Registrar of Co-operative Societies
 IGBC	Indian Green Building Council
 GSVA	gross state value added
 ICOR	incremental capital-output ratio
+MNP	mobile number portability	mobile, telecom, TRAI, portab
 MNP	Minimum Needs Programme
 SFDA	Small Farmers Development Agency
 NDP	net domestic product
@@ -1668,6 +1886,7 @@ CMIE	Centre for Monitoring Indian Economy
 NFFWP	National Food for Work Programme
 FHTC	Functional Household Tap Connection
 NCF	National Curriculum Framework
+SRI	Self-Reliant India	MSME, NSIC, SRI Fund
 SRI	System of Rice Intensification
 CAD&WM	Command Area Development and Water Management
 ATARI	Agricultural Technology Application Research Institute
@@ -1681,6 +1900,7 @@ FY13	financial year 2012-13
 FY16	financial year 2015-16
 FY21	financial year 2020-21
 PSLC	priority sector lending certificate
+ACP	African, Caribbean and Pacific Group of States	G-90, African Group, WTO
 ACP	annual credit plan
 CRAFICARD	Committee to Review Arrangements for Institutional Credit for Agriculture and Rural Development
 AGMARK	Agricultural Marketing
@@ -1701,6 +1921,7 @@ NIDHI	National Integrated Database of Hospitality Industry
 RTIH	Ratan Tata Innovation Hub
 APTRANSCO	Transmission Corporation of Andhra Pradesh
 DBFOO	design, build, finance, own and operate
+CVD	chemical vapour deposition	nano, sol-gel
 CVD	countervailing duty
 BEV	battery electric vehicle
 FAR	Fully Accessible Route
@@ -1708,7 +1929,8 @@ IFD	Investment Facilitation for Development
 NAMA	non-agricultural market access
 MACS	Mutually Aided Cooperative Societies
 PNB	Punjab National Bank
-AT	Additional Tier
+AT	Additional Tier	Basel, Tier, AT-1, bond
+AT	-
 AQR	Asset Quality Review
 CIRP	corporate insolvency resolution process
 CIIRP	Creditor-Initiated Insolvency Resolution Process
@@ -1764,6 +1986,7 @@ USBRL	Udhampur-Srinagar-Baramulla Rail Link
 IWAI	Inland Waterways Authority of India
 USOF	Universal Service Obligation Fund
 MPPA	million passengers per annum
+ICD	International Classification of Diseases	WHO, disease, Gaming
 ICD	inland container depot
 MAPS	Madras Atomic Power Station
 NIWE	National Institute of Wind Energy
@@ -1771,6 +1994,7 @@ PVC	polyvinyl chloride
 IHIP	Integrated Health Information Platform
 NEERI	National Environmental Engineering Research Institute
 NCL	National Chemical Laboratory
+NCL	Northern Coalfields Limited	coal, SECL, subsidiaries
 ICFRE	Indian Council of Forestry Research and Education
 APSARA	-
 OTT	over-the-top
@@ -1786,7 +2010,9 @@ CAIR	Centre for Artificial Intelligence and Robotics
 MR	mixed reality
 PMGDISHA	Pradhan Mantri Gramin Digital Saksharta Abhiyan
 TSAT	-
+DLC	District-Level Committee	GEAC, RCGM, IBSC
 DLC	digital life certificate
+AES	acute encephalitis syndrome	encephalitis, JE, malaria, dengue, chikungunya
 AES	Advanced Encryption Standard
 NTRO	National Technical Research Organisation
 CFCFRMS	Citizen Financial Cyber Fraud Reporting and Management System
@@ -1847,7 +2073,8 @@ PRANA	Portal for Regulation of Air-pollution in Non-Attainment cities
 NGRBA	National Ganga River Basin Authority
 WDPA	World Database on Protected Areas
 WCCB	Wildlife Crime Control Bureau
-GPI	Genuine Progress Indicator
+GPI	Genuine Progress Indicator	genuine
+GPI	Global Peace Index
 PFAS	per- and polyfluoroalkyl substances
 TX2	-
 LINGO	-
@@ -1893,7 +2120,8 @@ COPU	Committee on Public Undertakings
 JSP	Jana Sena Party
 SAL	Social Action Litigation
 DRAT	Debts Recovery Appellate Tribunal
-IFS	Indian Forest Service	forest,Forest Service,Art. 312,312
+IFS	Indian Forest Service	forest, Forest Service, Art. 312, 312
+IFS	Integrated Farming System	integrated farming, farming system
 IFS	Indian Foreign Service
 UPA	United Progressive Alliance
 RDG	Retail Direct Gilt
@@ -1908,7 +2136,8 @@ LDF	Left Democratic Front
 AITC	All India Trinamool Congress
 KGBV	Kasturba Gandhi Balika Vidyalaya
 DGCA	Directorate General of Civil Aviation
-DDC	District Development Council
+DDC	District Development Council	J&K, Jammu
+DDC	District Development Commissioner
 UIDF	Urban Infrastructure Development Fund
 PRAGATI	Pro-Active Governance and Timely Implementation
 NCAER	National Council of Applied Economic Research
@@ -1920,6 +2149,7 @@ UNCAC	United Nations Convention against Corruption
 NEDCAP	Non-conventional Energy Development Corporation of Andhra Pradesh
 NREDCAP	New and Renewable Energy Development Corporation of Andhra Pradesh
 IEPF	Investor Education and Protection Fund
+ULIP	Unified Logistics Interface Platform	logistic
 ULIP	unit-linked insurance plan
 BKU	Bharatiya Kisan Union
 AFSPA	Armed Forces (Special Powers) Act
@@ -1943,6 +2173,7 @@ NTA	National Testing Agency
 CHILDLINE	-
 NCLP	National Child Labour Project
 SRIJAN	-
+CSA	Canadian Space Agency	NASA, JAXA, Roscosmos, ESA
 CSA	child sexual abuse
 CARES	-
 JSSK	Janani Shishu Suraksha Karyakram
@@ -1951,8 +2182,10 @@ ALIMCO	Artificial Limbs Manufacturing Corporation of India
 PG	postgraduate
 UMEED	-
 NCH	National Consumer Helpline
+NCH	National Commission for Homoeopathy	NCISM, AYUSH, Homoeopathy
 FATF	Financial Action Task Force
 PLA	People's Liberation Army
+PLA	polylactic acid	microb, PHA
 WMD	weapons of mass destruction
 NACIN	National Academy of Customs, Indirect Taxes and Narcotics
 G4	Group of Four
@@ -1992,11 +2225,13 @@ RCH	Reproductive and Child Health
 CPR	contraceptive prevalence rate
 PLB	poverty line basket
 PGI	Performance Grading Index
+PGI	poverty gap index	HCR, poverty gap
 NSQF	National Skills Qualification Framework
 NULM	National Urban Livelihoods Mission
 SARATHI	-
 MDM	mid-day meal
-DDP	district domestic product
+DDP	district domestic product	district domestic, GDDP
+DDP	Desert Development Programme
 O&M	operation and maintenance
 DSR	direct seeded rice
 NWM	National Water Mission
@@ -2024,14 +2259,16 @@ DCMS	District Cooperative Marketing Society
 PPSS	Private Procurement and Stockist Scheme
 RMS	rabi marketing season
 NLP	National Logistics Policy
+NLP	natural language processing	AI/ML, chatbot, human language, artificial intelligence, machine learning, blockchain
 PMGKY	Pradhan Mantri Garib Kalyan Yojana
 NIDDCP	National Iodine Deficiency Disorders Control Programme
 HMT	Hindustan Machine Tools
-RCF	Rashtriya Chemicals and Fertilizers	fertiliser,fertilizer,FCI,urea,chemical
-RCF	Rail Coach Factory
+RCF	Rail Coach Factory	railway, coach, locomotive, shipyard
+RCF	Rashtriya Chemicals and Fertilizers
 NLC	Neyveli Lignite Corporation
 VRS	voluntary retirement scheme
 NIP	National Infrastructure Pipeline
+NIP	New Industrial Policy	1991, MRTP, licens
 FIF	-
 BMEC	Bengaluru-Mumbai Economic Corridor
 MPMS	Mobile Phone Manufacturing Scheme
@@ -2098,6 +2335,7 @@ ITEWS	Indian Tsunami Early Warning System
 GCRMN	Global Coral Reef Monitoring Network
 DEM	digital elevation model
 NCMC	National Crisis Management Committee
+NCMC	National Common Mobility Card	RuPay, FASTag, NPCI, UPI
 NDMP	National Disaster Management Plan
 KABIL	Khanij Bidesh India Limited
 NEM	north-east monsoon
@@ -2109,7 +2347,9 @@ WUP	World Urbanization Prospects
 HLO	houselisting operations
 LASI	Longitudinal Ageing Study in India
 FLNAT	Foundational Literacy and Numeracy Assessment Test
-ANI	Ancestral North Indians
+ANI	Ancestral North Indians	ancestral, genetic, DNA, Harappan, Steppe
+ANI	Asian News International
+SPM	Shyama Prasad Mukherji	Rurban
 SPM	suspended particulate matter
 NCRPB	National Capital Region Planning Board
 SOFIA	State of World Fisheries and Aquaculture
@@ -2221,6 +2461,7 @@ UMPP	ultra mega power project
 ANEEL	-
 GHAVP	Gorakhpur Haryana Anu Vidyut Pariyojana
 HWP	heavy water plant
+DC	-	Washington
 DC	direct current
 CFA	central financial assistance
 OTEC	ocean thermal energy conversion
@@ -2243,6 +2484,7 @@ GCP	Green Credit Programme
 ETS	emissions trading scheme
 APSCCC	Andhra Pradesh State Climate Change Cell
 MIC	methyl isocyanate
+CEPI	Coalition for Epidemic Preparedness Innovations	covax, gavi, vaccin, epidemic
 CEPI	Comprehensive Environmental Pollution Index
 SVS	Swachh Vayu Survekshan
 GRCA	Global River Cities Alliance
@@ -2250,6 +2492,7 @@ EEE	electrical and electronic equipment
 M&H	Management and Handling
 LDPE	low-density polyethylene
 CDC	Centers for Disease Control and Prevention
+HWC	health and wellness centre	PHC, SHC, IPHS, Ayushman, Arogya
 HWC	human-wildlife conflict
 HPV	human papillomavirus
 PPVFR	Protection of Plant Varieties and Farmers' Rights
@@ -2276,15 +2519,19 @@ BIFR	Board for Industrial and Financial Reconstruction
 LNG	liquefied natural gas
 CCRC	Crop Cultivator Rights Card
 APCNF	Andhra Pradesh Community-managed Natural Farming
-BR	Banking Regulation	Act,bank,UCB,RBI,cooperative bank,banking
-BR	birth rate	death,DR,mortality,fertility,demograph
+BR	Banking Regulation	BR Act, banking regulation, Banking Companies
+BR	birth rate	birth rate, death rate, high DR, demographic transition
 BR	Biosphere Reserve
-CR	Critically Endangered	IUCN,Red List,Endangered,EN,VU,threatened,species
 VPA	Vernacular Press Act
+VPA	Visakhapatnam Port Authority	Visakhapatnam Port, Mulapeta, APMB, Shipbuilding
+VPA	virtual payment address	UPI, NPCI
 NPSC	National Policy on Senior Citizens
 SAAP	Sports Authority of Andhra Pradesh	sport,chairman,Minister,athlete,stadium
 SAAP	-
 MV	Madhava Varma
+MV	motor vessel	MV OMORFI
+MV	Motor Vehicles	MV Act
+MV	-	MV = PT
 AWARE	-
 SKDABN	Sri Krishnadevaraya Andhra Bhasha Nilayam
 ADLA	Andhra Desa Library Association
@@ -2294,6 +2541,8 @@ UDL	undeveloped lands
 CARE	-
 AITE	All India Tiger Estimation
 NECA	National Energy Conservation Awards
+TPS	Technology Policy Statement	STIP, 1958, STI Policy
+TPS	thermal power station	NTPC, APGENCO, PLF, thermal
 TPS	Telangana Praja Samithi
 FCU	Fact Check Unit
 IADT	Integrated Air Drop Test
@@ -2337,7 +2586,8 @@ A2K	-
 A6	-
 AAKA	-
 AAPP	Assistance Association for Political Prisoners
-AB	Aspirational Block
+AB	Aspirational Block	aspirational
+AB	Ayushman Bharat
 ABD	area-based development
 ABP	advanced biofuel project
 ABVP	Akhil Bharatiya Vidyarthi Parishad
@@ -2406,7 +2656,7 @@ APGDC	Andhra Pradesh Gas Distribution Corporation
 APHCL	Andhra Pradesh State Housing Corporation Limited
 APHOUSEFED	Andhra Pradesh State Cooperative Housing Societies Federation
 APHQ	-
-APILIP	Andhra Pradesh Integrated Irrigation and Agriculture Transformation Project
+APILIP	Andhra Pradesh Irrigation and Livelihood Improvement Project
 APLM	Agricultural Produce and Livestock Marketing
 APMARKFED	Andhra Pradesh State Cooperative Marketing Federation
 APMCRCIP	-
@@ -2556,7 +2806,8 @@ CDB	Coconut Development Board
 CDCA	-
 CDFD	Centre for DNA Fingerprinting and Diagnostics
 CDI	-
-CDMA	Commissioner and Director of Municipal Administration
+CDMA	Commissioner and Director of Municipal Administration	municipal administration
+CDMA	code division multiple access
 CDMA2000	-
 CDSL	Central Depository Services Limited
 CDX	-
@@ -2752,6 +3003,7 @@ EKAM	-
 EKC	Environmental Kuznets Curve
 ELM	expert level mechanism
 EM	emerging market
+EM	electromagnetic	radiation, ionis
 EMB	-
 EMF	electromagnetic field
 EMI	equated monthly instalment
@@ -2871,7 +3123,7 @@ GSPC	Gujarat State Petroleum Corporation
 GSR	General Statutory Rules
 GSTIN	GST Identification Number
 GTR	gross tax revenue
-GVK	G. V. K.
+GVK	-
 H3	-
 HALEU	high-assay low-enriched uranium
 HAMA	Hindu Adoptions and Maintenance Act
@@ -2927,8 +3179,10 @@ IAY	Indira Awaas Yojana
 IBDC	Indian Biological Data Centre
 IBPS	Institute of Banking Personnel Selection
 IBSAMAR	-
-IC	Internal Committee	harassment,POSH,workplace,Local Committee,complaints,women employees
+IC	Information Commissioner	RTI, CIC, SIC, PIO
+IC	Internal Committee	harassment, POSH, workplace, Local Committee, complaints, women employees
 IC	Information Commissioner
+ICA	inter-creditor agreement	creditor, stressed, @3
 ICA	Indian Councils Act
 ICCL	Indian Clearing Corporation Limited
 ICCR	Indian Council for Cultural Relations
@@ -3155,6 +3409,7 @@ MBA	Master of Business Administration
 MBBS	Bachelor of Medicine and Bachelor of Surgery
 MBC	Most Backward Classes
 MBD	mother's brother's daughter
+MC	Municipal Corporation	Municipal, Safaimitra, Swachh
 MC	Ministerial Conference
 MCP	Mother and Child Protection
 MCT	Main Central Thrust
@@ -3242,6 +3497,7 @@ NATGRID	National Intelligence Grid
 NAV	net asset value
 NBC	nuclear, biological and chemical
 NBI	New Bank of India
+NBM	National Broadband Mission	broadband mission
 NBM	National Bamboo Mission
 NBSS&LUP	National Bureau of Soil Survey and Land Use Planning
 NBT	National Book Trust
@@ -3402,6 +3658,7 @@ PARIVARTAN	-
 PATSAN	-
 PAU	Punjab Agricultural University
 PB	payments bank
+PB	petabyte	byte, nibble
 PCARDB	Primary Cooperative Agriculture and Rural Development Bank
 PCV	pneumococcal conjugate vaccine
 PDMA	Public Debt Management Agency
@@ -3532,6 +3789,7 @@ RSF	Reporters Without Borders
 RSP	Rastriya Swatantra Party
 RST	Review of Significant Trade
 RTG	radioisotope thermoelectric generator
+RTM	Rashtrasant Tukadoji Maharaj	nagpur university
 RTM	real-time market
 RTNMS	-
 RTWQMS	real-time water quality monitoring station
@@ -3641,6 +3899,7 @@ SRA	States Reorganisation Act
 SRK	-
 SRMS	Self-Employment Scheme for Rehabilitation of Manual Scavengers
 SROSS	Stretched Rohini Satellite Series
+SSB	Sashastra Seema Bal	BSF, ITBP, CAPF, CRPF
 SSB	Shanti Swarup Bhatnagar
 SSD	solid-state drive
 SSMI	significant social media intermediary
@@ -3728,6 +3987,7 @@ TTDF	Telecom Technology Development Fund
 TTDI	Travel and Tourism Development Index
 TUDA	Tirupati Urban Development Authority
 TVS	-
+UAS	University of Agricultural Sciences	Dharwad, Mahyco
 UAS	unmanned aircraft system
 UCG	underground coal gasification
 UCI	-
@@ -3784,6 +4044,9 @@ VAGA	-
 VAHAN	-
 VAJRA	Visiting Advanced Joint Research
 VAM	vesicular arbuscular mycorrhiza
+VC	Vice-Chancellor	universit, Chancellor, C.R. Reddy
+VC	Vice-Chairperson	NITI, Aayog, Planning Commission, Governing Council
+VC	Vice-Chairman	SAAP
 VC	venture capital
 VCICDP	Visakhapatnam-Chennai Industrial Corridor Development Programme
 VCNS	Vice Chief of the Naval Staff
@@ -4028,6 +4291,7 @@ MoWCD	Ministry of Women and Child Development
 MoJS	Ministry of Jal Shakti
 DoT	Department of Telecommunications
 MoC	-
+MoP	Memorandum of Procedure	Collegium
 MoP	Ministry of Power
 MoCI	Ministry of Commerce and Industry
 MoU	memorandum of understanding
@@ -4036,6 +4300,7 @@ MoS	Minister of State
 MoA&FW	Ministry of Agriculture and Farmers' Welfare
 MoA	memorandum of agreement
 DoE	Department of Expenditure
+DoS	denial of service	DDoS, cyber
 DoS	Department of Space
 UoI	Union of India
 NOx	nitrogen oxides
@@ -4060,7 +4325,8 @@ CoE	Centre of Excellence
 PhD	Doctor of Philosophy
 MSc	Master of Science
 DSc	Doctor of Science
-ToT	training of trainers	training,trainers,own-source,capacity,panchayat
+ToT	training of trainers	own-source, trainers, Atmanirbhar Panchayat
+ToT	toll-operate-transfer	InvIT, NHAI, NMP, monetis
 ToT	transfer of technology
 YoY	year-on-year
 GeM	Government e-Marketplace
@@ -4079,6 +4345,7 @@ IaaS	infrastructure as a service
 SaaS	software as a service
 AoB	Allocation of Business
 ToB	Transaction of Business
+PoW	proof of work	blockchain, bitcoin, crypto, consensus mechanism
 PoW	prisoners of war
 PoS	point of sale
 BoB	Bank of Baroda
@@ -4217,7 +4484,7 @@ RLV-TD	Reusable Launch Vehicle Technology Demonstrator
 COSPAS-SARSAT	-
 SIS-DP	Space-based Information Support for Decentralised Planning
 ULPGM-V3	UAV-launched precision-guided missile V3
-MF-STAR	multi-function digital array radar
+MF-STAR	Multi-Function Surveillance and Threat Alert Radar
 STAR-C	-
 JI-VAN	Jaiv Indhan-Vatavaran Anukool fasal awashesh Nivaran
 CSIR-IIP	CSIR-Indian Institute of Petroleum
@@ -4278,12 +4545,15 @@ NTPC	National Thermal Power Corporation
 NHPC	National Hydroelectric Power Corporation
 ICICI	Industrial Credit and Investment Corporation of India
 HDFC	Housing Development Finance Corporation
+TCS	tax collected at source	LRS, TDS, TAN
 TCS	Tata Consultancy Services
 GAIL	Gas Authority of India Limited
 JSW	Jindal South West
 GMR	GMR Group
 HSBC	Hongkong and Shanghai Banking Corporation
+IBM	Indian Bureau of Mines	MMDR, Ministry of Mines, mineral
 IBM	International Business Machines
+GE	genetically engineered	genetic, genom, GEAC, GMO, microb, transgen, bioremed
 GE	General Electric
 GSK	GlaxoSmithKline
 HFCL	Himachal Futuristic Communications Limited
@@ -4306,9 +4576,10 @@ PARAM	Parallel Machine
 NVS	Navigation Satellite
 HELINA	Helicopter-launched Nag
 PM10	particulate matter 10
-PM2	particulate matter 2
+PM2	particulate matter 2.5
 SHAKTI	Scheme for Harnessing and Allocating Koyala Transparently in India	coal,linkage,auction,power plant
 SHAKTI	-
+SHANTI	-	SAGAR, MAHASAGAR, IONS
 SHANTI	Sustainable Harnessing and Advancement of Nuclear Energy for Transforming India
 BHAVYA	Bharat Audyogik Vikas Yojana
 BHASHINI	Bhasha Interface for India
@@ -4317,15 +4588,17 @@ KISAN	Crop Insurance using Space technology And geoiNformatics
 RISC-V	reduced instruction set computer five
 L1	Lagrange point 1	Lagrange,Aditya,Sun,solar,halo,orbit,spacecraft
 L1	-
-L2	Lagrange point 2	Lagrange,orbit,JWST,telescope,spacecraft
+L2	Lagrange point 2	Lagrange, JWST, halo
 L2	-
 L4	Lagrange point 4
-L5	Lagrange point 5
+L5	Lagrange point 5	Lagrange
+L5	-
 M0	reserve money
-M1	narrow money	money,M3,liquidity,aggregate,deposits,currency
-M1	-
-M2	-	EVM,ballot,BU,VVPAT,candidates
+M1	-	EVM, VVPAT, interceptor
+M1	narrow money
+M2	-	EVM, ballot, BU, VVPAT, candidates, interceptor, LVM3
 M2	broad money (M2)
+M3	-	EVM, VVPAT, interceptor, LVM3
 M3	broad money
 M4	broad money (M4)
 SSP1	Shared Socioeconomic Pathway 1
@@ -4387,9 +4660,11 @@ MC9	Ministerial Conference 9
 MC12	Ministerial Conference 12
 MC13	Ministerial Conference 13
 MC14	Ministerial Conference 14
-ICC	Internal Complaints Committee	harassment,POSH,workplace,complaint,women
-ICC	International Cricket Council	cricket,World Cup,T20,ODI,Test
+ICC	Internal Complaints Committee	harassment, POSH, workplace, complaint, women
+ICC	International Cricket Council	cricket, World Cup, T20, ODI, Test
+ICC	International Co-ordinating Council	MAB, biosphere
 ICC	International Criminal Court
+LC	Law Commission	Law Commission
 LC	Local Committee
 IIFCL	India Infrastructure Finance Company Limited
 TPNW	Treaty on the Prohibition of Nuclear Weapons
@@ -4406,6 +4681,7 @@ BOOT	build-own-operate-transfer
 BOO	build-own-operate
 BOLT	build-own-lease-transfer
 DBFO	design-build-finance-operate
+CI	cephalic index	cephalic
 CI	Circle Inspector
 MA	Master of Arts
 IDN	Internationalised Domain Name
@@ -4901,6 +5177,7 @@ RRL	Regional Research Laboratory
 DSF	Discovered Small Field
 STPP	Super Thermal Power Project
 GDAM	Green Day-Ahead Market
+LPS	Land Pooling Scheme	pooling, Amaravati
 LPS	Late Payment Surcharge
 TOTEX	total expenditure
 KGS	Kaiga Generating Station
@@ -4998,3 +5275,189 @@ EY	Ernst and Young
 FY09	financial year 2009
 FY20	financial year 2020
 FY2014	financial year 2014
+AAM-SHCs	Ayushman Arogya Mandir-sub-health centres
+ADRs	American depositary receipts
+AI-SE	-
+AIFs	Alternative Investment Funds
+AIS-140	Automotive Industry Standard 140
+ANMs	Auxiliary Nurse Midwives
+APIIATP-World	Andhra Pradesh Integrated Irrigation and Agriculture Transformation Project-World
+ASGs	Additional Solicitors General
+ASI	Annual Survey of Industries	@3, ASUSE, industrial statistics, manufacturing
+ASI	Ancestral South Indians	ancestral north, ANI, genetic, DNA
+ASI	Archaeological Survey of India
+BACs	bacterial artificial chromosomes	vector, plasmid, YAC, clon, recombinant
+BACs	Business Advisory Committees
+BPOs	business process outsourcing firms
+CAA	Coastal Aquaculture Authority	aquaculture
+CAA	Citizenship Amendment Act	citizenship, Collectors
+CAA	Constitutional Amendment Act
+CAR-T	chimeric antigen receptor T-cell
+CCI	Cotton Corporation of India	Cotton
+CCI	Competition Commission of India
+CDs	communicable diseases	ncds, disease, vector-borne
+CDs	certificates of deposit
+CEOs	Chief Electoral Officers	rupp, electoral, election
+CEOs	chief executive officers
+CERT-In-empanelled	Indian Computer Emergency Response Team-empanelled
+CFCs	common facility centres	msme, cluster
+CFCs	chlorofluorocarbons
+CGAs	Commonwealth Games Associations
+CIC	Core Investment Company	nbfc
+CIC	Central Information Commission
+CICs	Core Investment Companies	nbfc, hfc
+CICs	Central Information Commissions
+CL-20	-
+CMS-03	-
+CNT-reinforced	carbon nanotube-reinforced
+CNTs	carbon nanotubes
+COVID-19	coronavirus disease 2019
+CPs	commercial papers
+CPI	Corruption Perceptions Index	Transparency International, GPI, GII, Global Innovation
+CPI	Communist Party of India	@1, @2, Communist
+CPI	Consumer Price Index
+CRCs	Composite Regional Centres
+Cri-MAC	Crime Multi-Agency Centre
+DBT-ICT	Department of Biotechnology-Institute of Chemical Technology
+DICs	Defence Industrial Corridors	Defence Industrial, defence corridor
+DICs	District Industries Centres
+DNAs	Designated National Authorities
+DS-SAR	-
+DYSL-AI	DRDO Young Scientists Laboratory - Artificial Intelligence
+ECs	Election Commissioners
+ECs	environmental clearances	clearance, Office Memorandum
+EPCs	Export Promotion Councils
+ERs	elephant reserves
+FI-Index	Financial Inclusion Index
+FY24-FY33	financial years 2023-24 to 2032-33
+FY26-30	financial years 2025-26 to 2029-30
+FY26-FY30	financial years 2025-26 to 2029-30
+FY26-FY31	financial years 2025-26 to 2030-31
+FY27-FY32	financial years 2026-27 to 2031-32
+GAP-I	Ganga Action Plan I
+HFCs	housing finance companies	housing, NHB, refinanc, home loan, mortgage, NBFC, @3
+HFCs	hydrofluorocarbons
+HWCs	human-wildlife conflicts	wildlife, elephant, tiger, leopard
+HWCs	health and wellness centres
+ICD-11	International Classification of Diseases 11th Revision
+ICAR-NRC	Indian Council of Agricultural Research-National Research Centre
+ICAR-CIFRI	Indian Council of Agricultural Research-Central Inland Fisheries Research Institute
+ICAR-CIFT	Indian Council of Agricultural Research-Central Institute of Fisheries Technology
+I-CRR	incremental cash reserve ratio
+IFCs	Infrastructure Finance Companies
+IIC-DEM	India International Conference on Democracy and Election Management
+India-IOCL	-
+IPR-1948	Industrial Policy Resolution 1948
+IRS-1A	Indian Remote Sensing satellite-1A
+IRS-2A	Indian Remote Sensing satellite-2A
+IRS-3A	Indian Remote Sensing satellite-3A
+IRS-P2	Indian Remote Sensing satellite-P2
+ISPs	internet service providers
+IT-ITES	IT and IT-enabled services
+LDBs	Logistics Data Banks	logistic, container
+LDBs	Land Development Banks
+LPG	liberalisation, privatisation and globalisation	1991, Reforms 1.0, Narasimha, Manmohan, globalisation, liberalisation
+LPG	liquefied petroleum gas
+LPG-era	liberalisation, privatisation and globalisation era
+LT-PEM	low-temperature proton exchange membrane
+LLM-105	-
+MAB-ICC	Man and the Biosphere International Coordinating Council
+MAHA-EV	Mission for Advancement in High-Impact Areas - Electric Vehicle
+MBTs	main battle tanks
+ML-based	machine learning-based
+MP	Member of Parliament	House of Commons, won as MP, BJP MP, DMK MP, TDP MP, Congress MP, Rajya Sabha MP, Tirupati MP, MP of either, MP must resign, MP recommends, MP/MLA, an MP, any MP, Any MP, Each MP, each MP
+MP	market price	MP - Net, MP vs FC
+MP	Miscellaneous Provisions	EPF & MP
+MP	Madhya Pradesh
+MP-linked	Member of Parliament-linked
+MR-2	measles-rubella second dose
+MSE-GIFT	MSE Green Investment and Financing for Transformation
+MSE-SPICE	MSE Scheme for Promotion and Investment in Circular Economy
+NDCs	nationally determined contributions
+NEET-UG	National Eligibility-cum-Entrance Test (Undergraduate)
+NGOs	non-governmental organisations
+NGOs	Non-Gazetted Officers	NGOs' Association, Non-Gazetted
+NH	National Highway
+NH	Northern Hemisphere	hemisphere, trade wind, perihelion, ITCZ, anticlockwise, clockwise, cyclone, SH, longest day
+NHs	National Highways
+NIs	National Institutes
+NIs	Native Infantries	mutiny, sepoy, @1
+NMEO-Edible	-
+NMEO-Oils	National Mission on Edible Oils - Oilseeds
+NS-EW	North-South and East-West
+NSA-level	National Security Adviser-level
+NSAs	National Security Advisers
+NTFPs	non-timber forest products
+NW-1	National Waterway-1
+NW-2	National Waterway-2
+NW-3	National Waterway-3
+NW-4	National Waterway-4
+NW-5	National Waterway-5
+NWs	National Waterways
+NWP-2012	National Water Policy 2012
+OBCs	Other Backward Classes
+OBD-II	On-Board Diagnostics II
+OM-vs-notification	office memorandum-vs-notification
+PAs	protected areas
+PARAM-2	-
+PCBs	polychlorinated biphenyls
+PCBs	Pollution Control Boards	Water Act, Air Act, compensation, SAAP
+PCCs	Pradesh Congress Committees
+PCCs	Pollution Control Committees	SPCB, plastic
+PDs	primary dealers
+per-MP	per-Member of Parliament
+PFCs	perfluorocarbons
+PINs	personal identification numbers
+PM-DAKSH-DEPwD	Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi-Department of Empowerment of Persons with Disabilities
+PP-30	30th Plenipotentiary Conference
+PPAs	power purchase agreements
+PRB	Payments Regulatory Board	payment system, watal
+PRB	Press and Registration of Books
+PS-SBG	Pattabhi Sitaramayya-Self Business Group
+PSPs	payment service providers
+Post-LPG	Post-liberalisation, privatisation and globalisation
+RBIH-I4C	Reserve Bank Innovation Hub-Indian Cyber Crime Coordination Centre
+RCPs	Representative Concentration Pathways
+RCS-UDAN	Regional Connectivity Scheme-Ude Desh ka Aam Nagrik
+RDGs	revenue deficit grants
+RE	Rock Edict	edict, ashoka, asoka
+RE	Revised Estimates	revised estimate, budget estimate, 2023-24 re, 2024-25 re, 2025-26 re, fy26 re, be vs re, over re, re 2025-26, re 2024-25, 2024-25; re
+RE	renewable energy
+RH-300	-
+RH-560	-
+RH-75	-
+RS-1	-
+SAFAR-AIR	-
+SATs	State Administrative Tribunals	administrative tribunal
+SATs	Securities Appellate Tribunals
+SC	Scheduled Caste	reserv, caste, quota, dalit, untouchab
+SC	Supreme Court
+SC-ordered	Supreme Court-ordered
+SC-NBWL	Standing Committee of the National Board for Wildlife
+SCAs	State Channelising Agencies
+SCs	Sub-Centres	PHCs, CHCs
+SCs	Scheduled Castes
+SDFs	Significant Data Fiduciaries	dpdp, data fiduciar
+SDFs	Standing Deposit Facilities
+SHCs	Sub-Health Centres	PHC, HWC, Ayushman
+SHCs	Soil Health Cards
+SIR-2	-
+SMA-0	Special Mention Account 0
+SMA-1	Special Mention Account 1
+SMA-2	Special Mention Account 2
+SRs	Special Representatives	LAC, PLA, China, boundary
+SRs	security receipts
+SSP1-1	-
+SSP1-2	-
+SSP2-4	-
+SSP3-7	-
+SSP5-8	-
+STPs	Software Technology Parks	STPI, EMC
+STPs	sewage treatment plants
+TDRs	Trade and Development Reports	UNCTAD
+TDRs	Transferable Development Rights
+UNESCO-IOC	UNESCO Intergovernmental Oceanographic Commission
+VCs	venture capitals
+VCs	Vice-Chancellors	universit, Chancellor
+VCF-SC	Venture Capital Fund for Scheduled Castes
+Yi-NSA	-
