@@ -51,4 +51,8 @@ class SampleShotsTest {
     @Test fun page1() = shot("1_page") { ReaderScreen(2, 106, 1, nav) }
     @Test fun page2() = shot("2_page") { ReaderScreen(2, 106, 2, nav) }
     @Test fun page5() = shot("3_page") { ReaderScreen(2, 106, 5, nav) }
+    @Test fun marriage() = shot("4_marriage_topic") { SectionScreen(2, 107, nav) }
+    @Test fun marriage1() = shot("5_marriage_page") { ReaderScreen(2, 107, 0, nav) }
+    @Test fun regionAp() = shot("6_regionalism_ap_topic") { SectionScreen(2, 120, nav) }
+    @Test fun regionAp2() = shot("7_regionalism_ap_page") { ReaderScreen(2, 120, 2, nav) }
 }
