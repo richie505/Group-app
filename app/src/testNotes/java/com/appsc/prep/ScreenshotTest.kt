@@ -386,6 +386,25 @@ class ScreenshotTest {
         rule.onRoot().captureRoboImage("screenshots/32_activity_by_topic.png")
     }
 
+    /** Reader → "Remember it": the page's memory tricks and test-yourself questions; then the strategies. */
+    @Test fun memoryTricksPage() {
+        shot("33_tricks_page", preload = 1) { ReaderScreen(1, 5, 4, nav) }
+        rule.onNodeWithContentDescription("Remember it").performClick()
+        rule.waitUntil(10_000) { rule.onAllNodesWithText("TEST YOURSELF").fetchSemanticsNodes().isNotEmpty() }
+        rule.onRoot().captureRoboImage("screenshots/33_tricks_page.png")
+        rule.onNodeWithText("All memory strategies →").performClick()
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/35_strategies.png")
+    }
+
+    /** Section → "Remember it": every subsection's tricks together. */
+    @Test fun memoryTricksSection() {
+        shot("34_tricks_section", preload = 1) { SectionScreen(1, 6, nav) }
+        rule.onNodeWithText("Remember it").performClick()
+        rule.waitUntil(10_000) { rule.onAllNodesWithText("TEST YOURSELF").fetchSemanticsNodes().isNotEmpty() }
+        rule.onRoot().captureRoboImage("screenshots/34_tricks_section.png")
+    }
+
     @Test fun books() = shot("7_notes") { BooksScreen(nav) }
     @Test fun progress() {
         shot("8_progress") { ProgressScreen(nav) }
