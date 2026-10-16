@@ -1,8 +1,5 @@
 package com.appsc.prep.ui.screens
 
-import com.appsc.prep.ui.components.MemoryTricks
-import androidx.compose.material.icons.outlined.Psychology
-
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -24,7 +21,6 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.setValue
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Quiz
@@ -69,22 +65,8 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
     val info = app.repo.rowInfo(bookId, rowIndex)
     val book = rememberBook(bookId)
     val mcq by produceState(app.repo.cachedMcq(bookId), bookId) { value = app.repo.mcq(bookId) }
-    var tricks by androidx.compose.runtime.remember { androidx.compose.runtime.mutableStateOf(false) }
-    if (tricks && book != null) {
-        val r = book.rows[rowIndex]
-        MemoryTricks(bookId, rowIndex, r.secs.mapIndexed { i, x -> i to x.title }, r.title) { tricks = false }
-    }
     Column(Modifier.fillMaxSize()) {
-        TopBar(app.repo.index.getOrNull(bookId - 1)?.short ?: "Section", onBack = nav::back) {
-            // memory tricks of every subsection, for revising the whole section
-            if (book != null) {
-                androidx.compose.material3.TextButton(onClick = { tricks = true }) {
-                    Icon(androidx.compose.material.icons.Icons.Outlined.Psychology, null, tint = C.Accent, modifier = Modifier.size(20.dp))
-                    Spacer(Modifier.width(6.dp))
-                    Text("Remember it", style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.Accent))
-                }
-            }
-        }
+        TopBar(app.repo.index.getOrNull(bookId - 1)?.short ?: "Section", onBack = nav::back)
         if (book == null) {
             Loading()
             return@Column

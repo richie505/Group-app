@@ -189,27 +189,6 @@ class Repository(private val open: (String) -> InputStream) {
 
     fun cachedMcq(id: Int): BookMcq? = mcqs[id]
 
-    private val tricks = HashMap<Int, Map<String, PageTricks>>()
-
-    /** Memory tricks of a book's pages ("row:sec" -> tricks), from tools/tricks.py; empty when the book has none. */
-    suspend fun tricks(book: Int): Map<String, PageTricks> = mutex.withLock {
-        tricks[book] ?: withContext(Dispatchers.IO) {
-            runCatching {
-                readJson("tricks$book.json").jsonObject.mapValues { (_, v) ->
-                    val o = v.jsonObject
-                    PageTricks(
-                        o["t"]!!.jsonArray.map { t ->
-                            val a = t.jsonArray
-                            Trick(a[0].jsonPrimitive.content, a[1].jsonPrimitive.content, a[2].jsonPrimitive.content,
-                                a[3].jsonPrimitive.content, a[4].jsonArray.map { it.jsonPrimitive.content })
-                        },
-                        o["r"]!!.jsonArray.map { q -> q.jsonArray[0].jsonPrimitive.content to q.jsonArray[1].jsonPrimitive.content },
-                    )
-                }
-            }.getOrDefault(emptyMap())
-        }.also { tricks[book] = it }
-    }
-
     fun rowInfo(book: Int, row: Int): RowInfo? = index.getOrNull(book - 1)?.rows?.getOrNull(row)
 
     /** The plan's priority / past-paper figure for a notes row, if the plan lists it. */

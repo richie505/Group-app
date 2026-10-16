@@ -1,7 +1,5 @@
 package com.appsc.prep.ui.screens
 
-import androidx.compose.material.icons.outlined.Psychology
-
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -153,8 +151,6 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         secI = p.sec
     }
 
-    var tricksOpen by remember { mutableStateOf(false) }
-    if (tricksOpen) com.appsc.prep.ui.components.MemoryTricks(bookId, rowI, listOf(secI to sec.title), row.title) { tricksOpen = false }
     var keyTerm by remember { mutableStateOf<String?>(null) }
     keyTerm?.let { t -> MeaningSheet(t, onOpenNotes = { b, r, sx -> keyTerm = null; nav.read(b, r, sx) }) { keyTerm = null } }
 
@@ -267,10 +263,6 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                         if (done) Icons.Filled.CheckCircle else Icons.Outlined.CheckCircle,
                         if (revision) "Mark as revised" else "Mark as read", tint = if (done) C.Green else C.Ink,
                     )
-                }
-                // memory tricks for this page
-                IconButton(onClick = { tricksOpen = true }) {
-                    Icon(androidx.compose.material.icons.Icons.Outlined.Psychology, "Remember it", tint = C.Accent)
                 }
                 if (speech != null) {
                     IconButton(onClick = {

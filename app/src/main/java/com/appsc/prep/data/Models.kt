@@ -199,12 +199,3 @@ data class BookMcq(
 
     fun placeOf(id: String): Pair<Int, Int>? = places[id]
 }
-
-/**
- * A memory trick for a notes page ([type]: mnemonic, chunk, number, story, contrast, chain, timeline, place,
- * trap). A mnemonic has its [cue] word and the [items] its letters stand for.
- */
-data class Trick(val type: String, val title: String, val text: String, val cue: String = "", val items: List<String> = emptyList())
-
-/** A page's memory tricks and its questions to ask yourself with the page closed (question, answer). */
-data class PageTricks(val tricks: List<Trick>, val recall: List<Pair<String, String>>)
