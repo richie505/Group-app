@@ -112,7 +112,7 @@ class ScreenshotTest {
     @Test fun reader() = shot("5_reader", preload = 2) { ReaderScreen(2, 0, 0, nav) }
     @Test fun structuredPage() {
         shot("32_structured", preload = 2) { ReaderScreen(2, 61, 6, nav) }
-        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("3. Digital interventions", substring = true))
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("Institutions and digital tools", substring = true))
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/33_structured_end.png")
     }
@@ -144,8 +144,8 @@ class ScreenshotTest {
      */
     @Config(sdk = [27])
     @Test fun meaningOfASelectedWord() {
-        shot("16_meaning", preload = 2) { ReaderScreen(2, 0, 8, nav) }
-        rule.onAllNodesWithText("Dyarchy", substring = true)[1].performTouchInput { longClick(centerLeft + androidx.compose.ui.geometry.Offset(width * 0.55f, 0f)) }
+        shot("16_meaning", preload = 2) { ReaderScreen(2, 0, 3, nav) }
+        rule.onAllNodesWithText("Dyarchy", substring = true)[0].performTouchInput { longClick(centerLeft + androidx.compose.ui.geometry.Offset(width * 0.12f, 0f)) }
         rule.waitForIdle()
         rule.onNodeWithText("Meaning").performClick()
         rule.waitUntil(10_000) { rule.onAllNodesWithText("MEANING").fetchSemanticsNodes().isNotEmpty() }
@@ -172,7 +172,7 @@ class ScreenshotTest {
             val repo = Repository { ctx.assets.open(it) }
             val bk = repo.book(2)
             val row = bk.rows.first { it.title.startsWith("Juvenile Justice Act 2015, POCSO") }
-            Triple(2, row.index, row.secs.indexOfFirst { s -> "NCRB" in s.title })
+            Triple(2, row.index, row.secs.indexOfFirst { s -> s.title.startsWith("Data") })
         }
         val gapIndex = runBlocking { Repository { ctx.assets.open(it) }.book(b).rows[r].secs[sx].blocks.indexOfFirst { com.appsc.prep.data.UserNotes.isGap(it) } }
         ProgressStore(PrefsStorage(ctx)).setAdded(com.appsc.prep.data.UserNotes.key("$b:$r:$sx", gapIndex), "NCRB 2022: Madhya Pradesh, Maharashtra and Uttar Pradesh reported the most crimes against children.")
@@ -225,17 +225,17 @@ class ScreenshotTest {
 
     /** Every notes page ends with its key terms; tapping one opens its meaning. */
     @Test fun keyTermsOnAPage() {
-        shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 8, nav) }
+        shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 3, nav) }
         rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("KEY TERMS"))
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/17_key_terms.png")
-        rule.onNodeWithText("Dyarchy").performClick()
+        rule.onNodeWithText("dyarchy").performClick()
         rule.waitUntil(20_000) { rule.onAllNodesWithText("IN INDIAN CONTEXT").fetchSemanticsNodes().isNotEmpty() }
         rule.onRoot().captureRoboImage("screenshots/18_key_term_meaning.png")
         // Google inside the app
         rule.onNodeWithText("Search on Google").performScrollTo().performClick()
         rule.waitForIdle()
-        rule.onAllNodesWithText("Google · Dyarchy")[0].assertExists()
+        rule.onAllNodesWithText("Google · dyarchy")[0].assertExists()
         rule.onRoot().captureRoboImage("screenshots/19_google.png")
         // signed-in Google in Chrome, and the same question to Gemini
         rule.onAllNodesWithContentDescription("Open in Chrome")[0].assertExists()

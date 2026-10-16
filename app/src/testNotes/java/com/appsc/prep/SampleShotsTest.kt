@@ -37,11 +37,11 @@ class SampleShotsTest {
         override fun back() {}
     }
 
-    private fun shot(name: String, content: @androidx.compose.runtime.Composable () -> Unit) {
+    private fun shot(name: String, book: Int = 2, content: @androidx.compose.runtime.Composable () -> Unit) {
         val tag = System.getProperty("sample.tag") ?: return
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
         val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
-        runBlocking { app.repo.book(2); app.repo.mcq(2) }
+        runBlocking { app.repo.book(book); app.repo.mcq(book) }
         rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { content() } } }
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/sample/${tag}_$name.png")
@@ -55,4 +55,16 @@ class SampleShotsTest {
     @Test fun marriage1() = shot("5_marriage_page") { ReaderScreen(2, 107, 0, nav) }
     @Test fun regionAp() = shot("6_regionalism_ap_topic") { SectionScreen(2, 120, nav) }
     @Test fun regionAp2() = shot("7_regionalism_ap_page") { ReaderScreen(2, 120, 2, nav) }
+
+    // 2.56: one topic per other book
+    @Test fun history() = shot("b1_topic", 1) { SectionScreen(1, 10, nav) }
+    @Test fun history1() = shot("b1_page", 1) { ReaderScreen(1, 10, 1, nav) }
+    @Test fun economy() = shot("b3_topic", 3) { SectionScreen(3, 80, nav) }
+    @Test fun economy1() = shot("b3_page", 3) { ReaderScreen(3, 80, 1, nav) }
+    @Test fun geography() = shot("b4_topic", 4) { SectionScreen(4, 36, nav) }
+    @Test fun geography1() = shot("b4_page", 4) { ReaderScreen(4, 36, 1, nav) }
+    @Test fun science() = shot("b5_topic", 5) { SectionScreen(5, 42, nav) }
+    @Test fun science1() = shot("b5_page", 5) { ReaderScreen(5, 42, 1, nav) }
+    @Test fun current() = shot("b6_topic", 6) { SectionScreen(6, 14, nav) }
+    @Test fun current1() = shot("b6_page", 6) { ReaderScreen(6, 14, 1, nav) }
 }
