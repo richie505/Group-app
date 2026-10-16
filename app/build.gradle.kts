@@ -69,6 +69,7 @@ android {
         // ./gradlew testNotesDebugUnitTest --tests '*SpeechAuditTest' -Pspeech.audit=/path/out.tsv dumps read-aloud text
         unitTests.all { test ->
             project.findProperty("speech.audit")?.let { test.systemProperty("speech.audit", it) }
+            project.findProperty("sample.tag")?.let { test.systemProperty("sample.tag", it) }
             project.findProperty("acronym.audit")?.let { test.systemProperty("acronym.audit", it) }
             test.systemProperty("prep.strict", "true") // a failing read-aloud rule fails the tests (skipped on phones)
         }
