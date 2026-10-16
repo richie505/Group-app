@@ -67,4 +67,8 @@ class SampleShotsTest {
     @Test fun science1() = shot("b5_page", 5) { ReaderScreen(5, 42, 1, nav) }
     @Test fun current() = shot("b6_topic", 6) { SectionScreen(6, 14, nav) }
     @Test fun current1() = shot("b6_page", 6) { ReaderScreen(6, 14, 1, nav) }
+    @Test fun polity() = shot("b2_polity_topic") { SectionScreen(2, 0, nav) }
+    @Test fun polity1() = shot("b2_polity_page") { ReaderScreen(2, 0, 1, nav) }
+    @Test fun polity2() = shot("b2_cm_topic") { SectionScreen(2, 40, nav) }
+    @Test fun polity3() = shot("b2_cm_page") { ReaderScreen(2, 40, 2, nav) }
 }
