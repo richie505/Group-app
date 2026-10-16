@@ -23,10 +23,12 @@ if __name__ == "__main__":
     limit = int(sys.argv[2]) if len(sys.argv) > 2 else 6000
     only = None
     if len(sys.argv) > 3:
-        a, _, b = sys.argv[3].partition("-")
-        only = range(int(a), int(b or a) + 1)
+        only = set()
+        for part in sys.argv[3].split(","):
+            a, _, b = part.partition("-")
+            only |= set(range(int(a), int(b or a) + 1))
     d = json.load(open(f"app/src/main/assets/book{book}.json"))
-    out = f"work/topic/b{book}"
+    out = os.environ.get("TOPIC_DIR", "work/topic") + f"/b{book}"
     os.makedirs(out, exist_ok=True)
     for f in os.listdir(out):
         if f.startswith("in_"):

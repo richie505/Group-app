@@ -17,11 +17,11 @@ from structured_md import to_blocks
 from notes_fix import plain_cells, text
 from topic_check import topics, parse_head, check
 
-VERSION = "2.46"
+VERSION = os.environ.get("IDS_VERSION", "2.55")
 A = "app/src/main/assets"
 book = int(sys.argv[1])
 dry = "--dry" in sys.argv
-d = f"work/topic/b{book}"
+d = os.environ.get("TOPIC_DIR", "work/topic") + f"/b{book}"
 done_path = f"{d}/imported.json"
 imported = json.load(open(done_path)) if os.path.exists(done_path) else {}
 
@@ -38,7 +38,7 @@ def sec_text(s):
     return " ".join(text(b) for b in s["b"])
 
 
-idmap, notemap, applied = {}, {}, []
+idmap, notemap, applied, sources = {}, {}, [], {}
 for f in sorted(glob.glob(f"{d}/out_*.md")):
     n = f[-6:-3]
     old_t, new_t = topics(open(f"{d}/in_{n}.md").read()), topics(open(f).read())
@@ -74,6 +74,9 @@ for f in sorted(glob.glob(f"{d}/out_*.md")):
             primary[k] = max(cands, key=lambda j: sum(min(c, nw[j][w]) for w, c in ow.items()))
         for k in range(len(olds)):
             idmap[f"{book}:{ri}:{k}"] = f"{book}:{ri}:{primary[k]}"
+        # a new page counts as read when every old page it was made from was read
+        for j, (_, frm) in enumerate(new_secs):
+            sources[f"{book}:{ri}:{j}"] = [f"{book}:{ri}:{k}" for k in frm]
         # gap lines: old key -> new key, matched by their text in order
         where = defaultdict(list)
         for j, (s, _) in enumerate(new_secs):
@@ -131,7 +134,9 @@ base = mv["m"] if mv.get("v") == VERSION else {}
 composed = {k: idmap.get(v, v) for k, v in base.items()}
 composed.update({k: v for k, v in idmap.items() if k not in composed})
 composed = {k: v for k, v in composed.items() if k != v}
-mvnew = {"v": VERSION, "m": composed, "g": []}
+rsrc = dict(mv.get("r", {})) if mv.get("v") == VERSION else {}
+rsrc.update(sources)
+mvnew = {"v": VERSION, "m": composed, "g": [], "r": rsrc}
 
 nm = json.load(open(f"{A}/notemoves.json"))
 if notemap:

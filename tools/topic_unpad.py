@@ -27,7 +27,7 @@ def unpad_line(line):
 
 
 book = sys.argv[1]
-d = f"work/topic/b{book}"
+d = os.environ.get("TOPIC_DIR", "work/topic") + f"/b{book}"
 total = 0
 for f in sorted(glob.glob(f"{d}/out_*.md")):
     n = f[-6:-3]

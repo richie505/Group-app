@@ -139,7 +139,10 @@ class Repository(private val open: (String) -> InputStream) {
     val idMoves: IdMoves by lazy {
         runCatching {
             val o = readJson("moved.json").jsonObject
-            IdMoves(o.str("v"), o["m"]!!.jsonObject.mapValues { it.value.jsonPrimitive.content }, o.strList("g").toSet())
+            IdMoves(
+                o.str("v"), o["m"]!!.jsonObject.mapValues { it.value.jsonPrimitive.content }, o.strList("g").toSet(),
+                (o["r"] as? JsonObject)?.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } } ?: emptyMap(),
+            )
         }.getOrDefault(IdMoves("", emptyMap(), emptySet()))
     }
 

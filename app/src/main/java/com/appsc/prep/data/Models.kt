@@ -142,7 +142,13 @@ data class Plan(
 fun subsectionId(book: Int, row: Int, sec: Int) = "$book:$row:$sec"
 
 /** Subsection ids changed in notes [version]: old id -> new id; [merged]: old ids merged into another page. */
-data class IdMoves(val version: String, val map: Map<String, String>, val merged: Set<String>)
+data class IdMoves(
+    val version: String,
+    val map: Map<String, String>,
+    val merged: Set<String>,
+    /** New id -> the old ids it was made from: read when all of them were read (topics re-sorted by angle). */
+    val sources: Map<String, List<String>> = emptyMap(),
+)
 
 /** Rounds of moved note keys ("2:61:0#8" -> "2:61:0#7") from rewriting pages (tools/restructure_import.py), in order. */
 data class NoteMoves(val rounds: List<Pair<String, Map<String, String>>>) {

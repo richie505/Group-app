@@ -75,7 +75,7 @@ def check(old, new):
 if __name__ == "__main__":
     book = sys.argv[1]
     only = sys.argv[2] if len(sys.argv) > 2 else None
-    d = f"work/topic/b{book}"
+    d = os.environ.get("TOPIC_DIR", "work/topic") + f"/b{book}"
     bad = total = 0
     for f in sorted(glob.glob(f"{d}/out_*.md")):
         n = f[-6:-3]

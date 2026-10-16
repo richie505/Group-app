@@ -71,7 +71,9 @@ class ProgressStore(private val prefs: Storage) {
         if (moves.version.isEmpty() || prefs.getString(KEY_IDS) == moves.version) return
         val map = moves.map
         if (map.isNotEmpty()) {
-            done = done.filter { it !in moves.merged }.map { map[it] ?: it }.toSet()
+            val before = done
+            done = done.filter { it !in moves.merged }.map { map[it] ?: it }.toSet() +
+                moves.sources.filter { (_, olds) -> olds.isNotEmpty() && olds.all { it in before } }.keys
             prefs.putStringSet(KEY_DONE, done)
             saved = saved.map { s -> map[s.id]?.let { s.copy(id = it) } ?: s }.distinctBy { it.id }
             prefs.putStringSet(KEY_SAVED, saved.mapIndexed { i, s -> "$i\t${s.id}\t${s.title}\t${s.rowTitle}" }.toSet())
