@@ -301,6 +301,8 @@ class Repository(private val open: (String) -> InputStream) {
                 cancelled = o.containsKey("cx"),
                 book = book,
                 technique = q.str("tq"),
+                solution = q.strList("xs"),
+                extra = q.strList("xa"),
             )
         }
         fun map(key: String): Map<Int, List<Question>> =

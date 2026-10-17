@@ -47,6 +47,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.Question
@@ -392,7 +393,9 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes:
             if (correct) "Correct!" else "Answer: (${q.answer + 1}) ${q.options.getOrElse(q.answer) { "" }}",
             style = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, fontWeight = FontWeight.Bold, color = if (correct) C.Green else C.High),
         )
-        if (q.explanation.isNotBlank()) {
+        if (q.solution.isNotEmpty()) {
+            Solution(q, correct, picked)
+        } else if (q.explanation.isNotBlank()) {
             Spacer(Modifier.height(8.dp))
             Text("EXPLANATION", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Muted, letterSpacing = 0.8.sp))
             // a wrong answer: the sentence that says why the picked option is wrong is highlighted
@@ -441,6 +444,54 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes:
                 Text("• $it", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 3.dp))
             }
         }
+    }
+}
+
+/** **bold** marks in an explanation bullet as bold spans. */
+private fun boldRuns(text: String, color: Color) = androidx.compose.ui.text.buildAnnotatedString {
+    text.split("**").forEachIndexed { i, part ->
+        if (i % 2 == 1) withStyle(androidx.compose.ui.text.SpanStyle(fontWeight = FontWeight.Bold, color = color)) { append(part) }
+        else append(part)
+    }
+}
+
+/** Coaching-app style explanation: the correct option, the solution bullets, then additional information. */
+@Composable
+private fun Solution(q: Question, correct: Boolean, picked: Int) {
+    val ink = C.Ink
+    Spacer(Modifier.height(10.dp))
+    Text("SOLUTION", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Muted, letterSpacing = 0.8.sp))
+    if (q.answer in q.options.indices) {
+        Text(
+            boldRuns("The correct answer is **Option (${q.answer + 1})** i.e. **${q.options[q.answer]}**", ink),
+            style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body),
+            modifier = Modifier.padding(top = 4.dp),
+        )
+    }
+    // a wrong answer: the sentence that says why the picked option is wrong
+    val why = remember(q.id, picked, correct) {
+        if (correct || picked < 0) null else com.appsc.prep.data.WrongPick.sentence(q.explanation, q.stem, q.options, q.answer, picked)
+    }
+    if (why != null) {
+        Text(
+            "Why option (${picked + 1}) is wrong: " + q.explanation.substring(why.first, why.last + 1),
+            style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = Color(0xFF7F1D1D)),
+            modifier = Modifier.padding(top = 6.dp).clip(RoundedCornerShape(6.dp)).background(Color(0xFFFFD9D9)).padding(horizontal = 8.dp, vertical = 5.dp),
+        )
+    }
+    q.solution.forEach { Bullet(it, ink) }
+    if (q.extra.isNotEmpty()) {
+        Spacer(Modifier.height(10.dp))
+        Text("ADDITIONAL INFORMATION", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+        q.extra.forEach { Bullet(it, ink) }
+    }
+}
+
+@Composable
+private fun Bullet(text: String, ink: Color) {
+    androidx.compose.foundation.layout.Row(Modifier.padding(top = 5.dp)) {
+        Text("•", style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body), modifier = Modifier.padding(end = 8.dp))
+        Text(boldRuns(text, ink), style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body))
     }
 }
 

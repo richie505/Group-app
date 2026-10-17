@@ -179,6 +179,9 @@ data class Question(
     val book: Int = 0,
     /** The exam technique the question trains. */
     val technique: String = "",
+    /** Structured explanation: the solution bullets and the additional-information bullets (with **bold**). */
+    val solution: List<String> = emptyList(),
+    val extra: List<String> = emptyList(),
 ) {
     val scored get() = kind != 'u'
 }
