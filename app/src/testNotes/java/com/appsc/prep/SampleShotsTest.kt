@@ -3,6 +3,9 @@ package com.appsc.prep
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollToNode
 import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
@@ -71,4 +74,28 @@ class SampleShotsTest {
     @Test fun polity1() = shot("b2_polity_page") { ReaderScreen(2, 0, 1, nav) }
     @Test fun polity2() = shot("b2_cm_topic") { SectionScreen(2, 40, nav) }
     @Test fun polity3() = shot("b2_cm_page") { ReaderScreen(2, 40, 2, nav) }
+
+    /** Structured explanations (Solution + Additional Information): before = the old one-line explanation. */
+    private fun explained(n: Int, wrong: Boolean) {
+        val tag = System.getProperty("sample.tag") ?: return
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val q0 = runBlocking { Repository { ctx.assets.open(it) }.mcq(1) }.rows[5]!!.filter { it.solution.isNotEmpty() }[n]
+        val q = if (tag == "before") q0.copy(solution = emptyList(), extra = emptyList()) else q0
+        val pick = if (wrong) (q.answer + 1) % q.options.size else q.answer
+        shot("expl${n}_${if (wrong) "wrong" else "right"}", 1) { com.appsc.prep.ui.screens.QuizRound("e$n", listOf(q), listOf(q), {}, {}) }
+        rule.onNodeWithText(q.options[pick]).performClick()
+        rule.waitForIdle()
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(
+            androidx.compose.ui.test.hasText(if (tag == "before") "EXPLANATION" else "SOLUTION"))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/sample/${tag}_expl${n}_${if (wrong) "wrong" else "right"}.png")
+        if (tag == "after") {
+            rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("ADDITIONAL INFORMATION"))
+            rule.waitForIdle()
+            rule.onRoot().captureRoboImage("screenshots/sample/${tag}_expl${n}_${if (wrong) "wrong" else "right"}_more.png")
+        }
+    }
+    @Test fun expl0() = explained(0, true)
+    @Test fun expl1() = explained(1, false)
+    @Test fun expl4() = explained(4, true)
 }
