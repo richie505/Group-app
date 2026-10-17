@@ -309,9 +309,12 @@ class ScreenshotTest {
         shot("29_wrong_answer", preload = 5) { QuizScreen(QuizSource("row", 5, row), "all", "MCQ Practice", nav) }
         rule.onNodeWithText(q.options[wrong]).performClick()
         rule.waitForIdle()
-        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("EXPLANATION"))
+        // structured explanation (Solution) or the older one-paragraph explanation
+        val structured = q.solution.isNotEmpty()
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText(if (structured) "SOLUTION" else "EXPLANATION"))
         rule.waitForIdle()
-        rule.onNodeWithText("Highlighted: why option (${wrong + 1}) is wrong").assertExists()
+        if (structured) rule.onNodeWithText("Why option (${wrong + 1}) is wrong", substring = true).assertExists()
+        else rule.onNodeWithText("Highlighted: why option (${wrong + 1}) is wrong").assertExists()
         rule.onRoot().captureRoboImage("screenshots/29_wrong_answer.png")
     }
 
