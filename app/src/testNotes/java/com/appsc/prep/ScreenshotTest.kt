@@ -86,12 +86,14 @@ class ScreenshotTest {
         val ids = runBlocking { day.rows.flatMap { r -> repo.mcq(r.book).rows[r.row].orEmpty() }.map { it.id }.distinct() }
         val store = ProgressStore(PrefsStorage(ctx))
         ids.take(10).forEachIndexed { i, id -> store.recordAnswer(id, i % 3 != 0) } // 4 wrong, 6 right
+        store.markSeen(ids[10]) // answer seen first
         val sets = com.appsc.prep.ui.components.practiceSets(ids, store.answers, store.seen)
-        assertEquals(com.appsc.prep.ui.components.PracticeSets(ids.size - 10, 4, ids.size), sets)
+        assertEquals(com.appsc.prep.ui.components.PracticeSets(ids.size - 11, 4, ids.size, practice = 5), sets)
         shot("27_day_practice_sets", preload = 2) { DayScreen(1, nav) }
         rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("Incorrect"))
         rule.waitForIdle()
-        rule.onNodeWithText("${ids.size - 10}").assertExists()
+        rule.onNodeWithText("${ids.size - 11}").assertExists()
+        rule.onNodeWithText("Practise").assertExists()
         rule.onRoot().captureRoboImage("screenshots/27_day_practice_sets.png")
     }
     /**
@@ -369,6 +371,20 @@ class ScreenshotTest {
         rule.waitForIdle()
         assertEquals(2, rule.onAllNodesWithText("1h 10m").fetchSemanticsNodes().size) // today's box and the day's row
         rule.onRoot().captureRoboImage("screenshots/31_activity.png")
+    }
+
+    /** Progress → MCQ results: right first time, right on a retry, still wrong, answer seen; and the set to practise. */
+    @Test fun mcqResults() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val store = ProgressStore(PrefsStorage(ctx))
+        repeat(20) { store.recordAnswer("n2-$it", it % 4 != 0) } // 15 right, 5 wrong
+        store.recordAnswer("n2-0", true) // a wrong one put right
+        repeat(3) { store.markSeen("n2-x$it") }
+        shot("33_mcq_results") { ProgressScreen(nav) }
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("MCQs to practise"))
+        rule.waitForIdle()
+        rule.onNodeWithText("7 questions · still wrong or answer seen").assertExists() // 4 wrong + 3 seen
+        rule.onRoot().captureRoboImage("screenshots/33_mcq_results.png")
     }
 
     /** Progress → Study activity → where today's time went: each notes page and MCQ practice. */
