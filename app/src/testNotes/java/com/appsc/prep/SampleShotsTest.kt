@@ -1,6 +1,8 @@
 package com.appsc.prep
 
+import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.onNodeWithText
@@ -98,4 +100,43 @@ class SampleShotsTest {
     @Test fun expl0() = explained(0, true)
     @Test fun expl1() = explained(1, false)
     @Test fun expl4() = explained(4, true)
+
+    /** MCQ practice sets (2.59): the same answers drawn on 2.58 (before) and 2.59 (after). */
+    private fun practice(name: String, find: List<String>, content: @androidx.compose.runtime.Composable () -> Unit) {
+        val tag = System.getProperty("sample.tag") ?: return
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        val ids = runBlocking { app.repo.book(2); app.repo.mcq(2).rows[106].orEmpty().map { it.id } }
+        ids.take(12).forEachIndexed { i, id -> app.store.recordAnswer(id, i % 3 != 0) } // 8 right, 4 wrong
+        ids.drop(12).take(3).forEach { app.store.markSeen(it) } // answer seen first
+        rule.mainClock.autoAdvance = false
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { content() } } }
+        rule.mainClock.advanceTimeBy(3000)
+        val target = find.first { t -> rule.onAllNodes(androidx.compose.ui.test.hasText(t)).fetchSemanticsNodes().isNotEmpty() ||
+            runCatching { rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText(t)) }.isSuccess }
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText(target))
+        rule.mainClock.advanceTimeBy(1000)
+        rule.onRoot().captureRoboImage("screenshots/sample/${tag}_$name.png")
+        rule.mainClock.autoAdvance = true
+    }
+
+    /** The section's MCQ card alone (the whole section screen does not settle in Robolectric). */
+    @Test fun practiceSection() {
+        val tag = System.getProperty("sample.tag") ?: return
+        rule.setContent {
+            PrepTheme {
+                androidx.compose.foundation.layout.Box(androidx.compose.ui.Modifier.padding(16.dp)) {
+                    com.appsc.prep.ui.components.PracticeCard(
+                        "All section MCQs", "88 questions · all in one go", Triple(84, 75, 88), onStart = {},
+                        sets = com.appsc.prep.ui.components.PracticeSets(4, 9, 88, practice = 13),
+                    )
+                }
+            }
+        }
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/sample/${tag}_p1_section_card.png")
+    }
+    @Test fun practiceProgress() = practice("p2_progress", listOf("MCQs to practise", "Study activity", "STUDY ACTIVITY")) {
+        com.appsc.prep.ui.screens.ProgressScreen(nav)
+    }
 }
