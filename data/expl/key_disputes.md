@@ -1,0 +1,1878 @@
+# MCQs with a ⚠ conflict note (key vs notes, or sources differ)
+
+Every MCQ below kept its official key. Its explanation in the app carries the ⚠ line shown here: either the notes say something different from the key, or the notes record two versions. Worth a quick look before the exam.
+
+## History (262)
+
+- **Q:** Which foreign work is regarded as the first foreign account to mention the Andhras?
+  - Key: Indica
+  - ⚠ Some notes say **80** forts — go with **30**.
+- **Q:** The Bhimasena and Chulla-Kalinga Jatakas are associated with the account that:
+  - Key: Satakarni defeated Kharavela at Kalinga
+  - ⚠ The notes say only "**Kharavela defeated by Asmaka king Satakarni**"; they do not name the battle site.
+- **Q:** Consider the following statements:
+  - Key: 1, 2 and 3
+  - ⚠ For Rudrapurushadatta's inscription the PYQ book (G2 **2017**) keys **Jaggayyapeta**; standard lists give **Gurazala**.
+- **Q:** With reference to megalithic remains in Andhra Pradesh, consider the following statements:
+  - Key: 1 and 3 only
+  - ⚠ The APHQ book marks the **dolmen** statement instead; follow the **official key**.
+- **Q:** The highest concentration of Harappan settlements was found in which geographical system?
+  - Key: Ghaggar–Hakra system
+  - ⚠ Some notes give ~**8 lakh sq km** for the extent.
+- **Q:** Which one of the following statements regarding the geographical extent of the Harappan Civilisation is correct?
+  - Key: It covered about 1.3 million square kilometres and had an estimated population of about five million.
+  - ⚠ **1.3 million sq km** = **13 lakh sq km**;  some notes say ~**8 lakh sq km**.
+- **Q:** Which of the following pairs is correctly matched?
+  - Key: A, B and D only
+  - ⚠ **APPSC G2 2024** "not a Harappan site": key "Rakhigarhi" doubtful; only non-Harappan option = **Sohgaura**.
+- **Q:** Dholavira was occupied through seven stages during approximately which period?
+  - Key: 3000–1500 BCE
+  - ⚠ The **APPSC 2018** key gives **3000-1800 BCE**.
+- **Q:** Which statement most accurately reflects the succession to the early Vedic chiefship?
+  - Key: It generally tended towards hereditary succession, but the Samiti could have a role in selection.
+  - ⚠ APP notes and older PYQ keys call it a **hereditary monarchy** — read the options carefully.
+- **Q:** Which one of the following officials was responsible for collecting the king’s share of revenue?
+  - Key: Bhagadugha
+  - ⚠ Older notes say the **Sangrahitri** collected taxes.
+- **Q:** As per the APPSC Group 2 (2012) key on Andhra Buddhist sect centres, which one of the following pairs is NOT correctly matched?
+  - Key: Purvasaila - Salihundam
+  - ⚠ Some notes place **Rajagirika** at **Guntupalli** and **Uttaraseliya** at **Jaggayyapeta**; APPSC **2011** treated "Uttarasaila-Jaggayyapeta" as wrong — go with the keys.
+- **Q:** Who was the Jain teacher associated with Chandragupta Maurya?
+  - Key: Bhadrabahu
+  - ⚠ **APPSC G2 2003** key = **Bhadrabahu**, not **Sthulabhadra**.
+- **Q:** Which event is traditionally connected with the twelve-year famine and the subsequent Jain sectarian division?
+  - Key: The division between Digambaras and Svetambaras
+  - ⚠ APPSC G2 2003 key for Chandragupta's guru = **Bhadrabahu**.
+- **Q:** Which one of the following is NOT correctly matched?
+  - Key: Maharakkhita — Maharattha
+  - ⚠ Some notes give Maharakkhita for both Maharattha and Yona.
+- **Q:** Arrange the seven elements of Kautilya's Saptanga theory in the standard order:
+  - Key: 4-1-5-2-3-7-6
+  - ⚠ Some notes list Durga 6th, Land 7th and add an 8th, **Shatru** (enemy) — learn the standard seven.
+- **Q:** In the Mauryan administrative system, Dandapala was the head of which department?
+  - Key: The army department
+  - ⚠ Some notes call Dandapala **head of police** — from the Eastern Chalukya **Ashtadasha Tirthas** (Magallu inscription); for the Kautilya question the key is **army**.
+- **Q:** Which one of the following combinations regarding marriage and family law in the Mauryan period is correct?
+  - Key: Divorce was called moksha, and widow remarriage was permitted.
+  - ⚠ Some notes say widow remarriage ceased.
+- **Q:** Consider the following statements regarding women and marriage in the Arthashastra:
+  - Key: 1, 2, 3 and 4
+  - ⚠ Some notes say widow remarriage ceased.
+- **Q:** Which one of the following statements is correct regarding the antiquity of Indian structures?
+  - Key: Bharhut is regarded as the most ancient stupa in India and Bhattiprolu as the most ancient stupa in Andhra.
+  - ⚠ Separately, **Sanchi** is the **oldest stone structure** in India (APPSC key **2018**).
+- **Q:** Pushyamitra Sunga seized power from the Mauryas by
+  - Key: assassinating Brihadratha during an army review
+  - ⚠ BPSC **2008** key — the king killed was **Brihadratha**.
+- **Q:** Which early historic site in Krishna district shows continuous occupation from Mauryan to Satavahana times?
+  - Key: Gudiwada Dibba
+  - ⚠ Some notes place **Siddharthaka chaitya** at Gudiwada; the key says **Guntupalli**.
+- **Q:** Which one of the following pairs is correctly matched?
+  - Key: Siddharthaka Chaitya — Guntupalli
+  - ⚠ Some notes put Siddharthaka at **Gudiwada** — go with the key.
+- **Q:** The Junnar (Manmodi) cave inscription of the Kshaharata period was issued by
+  - Key: Ayama, minister of Nahapana
+  - ⚠ APPSC G2 **2017** keyed **Ayama**; the AP History PYQ book says Ushavadatta — the epigraphic record names **Ayama**.
+- **Q:** As per the APPSC key, which of the following items of dress were introduced into India by the Shakas and Kushanas?
+  - Key: 1, 2, 3 and 4 only
+  - ⚠ The key **excluded the turban**, so every code with 5 is wrong.
+- **Q:** Who associated the Satavahanas with the original Andhra janapada?
+  - Key: B.S.L. Hanumantha Rao
+  - ⚠ **Bellary** (Myakadoni) home: keyed to **Bhandarkar** in APPSC **2017**, though books often credit Sukthankar.
+- **Q:** Which scholar held that 'the Andhras and the Satavahanas are not the same'?
+  - Key: V.S. Sukthankar
+  - ⚠ Books often credit Sukthankar with the Bellary (Myakadoni) view — for APPSC **2017**, the key says **Bhandarkar**.
+- **Q:** According to the APPSC 2017 key, the view that Bellary, based on the Myakadoni inscription, was the original home of the Satavahanas is attributed to:
+  - Key: R.G. Bhandarkar
+  - ⚠ Trap: standard books often credit **Sukthankar**; his keyed view is "**Andhras and Satavahanas are not the same**".
+- **Q:** The Myakadoni inscription is important for understanding the:
+  - Key: Final phase of Satavahana power in the Bellary region
+  - ⚠ APPSC **2017** keyed the Bellary home view (Myakadoni) to **R.G. Bhandarkar**.
+- **Q:** Consider the following statements about the Satavahana historical tradition:
+  - Key: 1, 2 and 3
+  - ⚠ Bellary home view: APPSC **2017** key = **R.G. Bhandarkar**.
+- **Q:** Bhavaviveka is associated with which vihara in the Satavahana sphere?
+  - Key: Sriparvatam vihara
+  - ⚠ Some notes say **Dhanyakataka**; the key says Sriparvatam.
+- **Q:** Which statement correctly distinguishes the terms used in the exchange account?
+  - Key: A silver coin was called a karshapana, while one suvarna was equal to 35 karshapanas.
+  - ⚠ Some notes list gold **"Suvarnas"** among their coins.
+- **Q:** As per the APPSC Group 2 (2017) key, the Yogasara is attributed to:
+  - Key: Kundakundacharya
+  - ⚠ Some notes say **Nagarjuna**, who wrote **Suhrullekha** and **Ratnavali**.
+- **Q:** The Amaravati stupa is technically described as a
+  - Key: dhatugarbha stupa
+  - ⚠ Trap: Amaravati "next only to Sanchi in size" was treated as **incorrect** (UPSC **2026** key).
+- **Q:** Which of the following is correctly matched?
+  - Key: 1, 2, 3 and 4
+  - ⚠ Notes: these "largest / most ancient" labels come from "some notes"; Amaravati "next only to Sanchi" was keyed **incorrect** (UPSC **2026**).
+- **Q:** Which one of the following ancient-modern site pairs is NOT correctly matched?
+  - Key: Siddharthaka chaitya — Nagarjunakonda
+  - ⚠ G2 **2011** "wrong pair" key marked **Uttarasaila-Jaggayyapeta** wrong and Guntupalli-Siddharthaka chaitya right.
+- **Q:** The Purvasaila and Aparasaila sects of Andhra Buddhism had their centres respectively at:
+  - Key: Dhanyakataka and Sriparvata
+  - ⚠ G2 **2011** key marked **Uttarasaila-Jaggayyapeta** as the wrong pair — follow the key in the exam.
+- **Q:** The sea-trade text associated with the Reddi period is:
+  - Key: Haravilasam
+  - ⚠ Trap: the G2 **2011** key gave **Kashikhandam** — follow the later key.
+- **Q:** According to the APPSC key, Upasika Bodhisri served Buddhism during the reign of which Ikshvaku king?
+  - Key: Ehuvala Chamtamula
+  - ⚠ Some notes list her under **Virapurushadatta**; the key follows Ehuvala.
+- **Q:** Consider the following statements:
+  - Key: Both 1 and 2
+  - ⚠ A one-liner credits **N. Venkataramanayya** — the key says Kielhorn.
+- **Q:** Which of the following pairs is correctly matched with the centre associated with the sect?
+  - Key: 1, 2 and 3
+  - ⚠ These notes list **Rajagirika** at **Guntupalli**; the key says Sriparvatam.
+- **Q:** Which of the following is NOT a Buddhist centre associated with the Vishnukundin age?
+  - Key: Keesaragutta
+  - ⚠ Some notes say royal grants to monasteries stopped entirely — contradicted by the **Tummalagudem** grants.
+- **Q:** Which Vishnukundin ruler is called a 'destroyer of Buddhism', from whose reign Buddhism declined and sites such as Undavalli and Mogalrajapuram became Hindu shr
+  - Key: Madhava Varma II
+  - ⚠ Some notes say royal grants to monasteries stopped entirely — this contradicts the **Tummalagudem** grants.
+- **Q:** The heartland river of the Sangam-age Pandya kingdom was the
+  - Key: Vaigai
+  - ⚠ Trap: **UPPSC 2010** keyed the Pandya "lifeline" as option "**Vengi**".
+- **Q:** Which one of the following is the correct sequence in the early Gupta line?
+  - Key: Sri Gupta → Ghatotkacha → Chandragupta I
+  - ⚠ Some notes say **Ghatotkacha** married Kumaradevi — wrong; she was **Chandragupta I's** queen.
+- **Q:** Match List-I with List-II:
+  - Key: a–ii, b–iii, c–i, d–iv
+  - ⚠ **Aprahata** is glossed as cultivable wasteland in one glossary; the **BPSC 2016** key takes it as forest land.
+- **Q:** In the classification of land types, Aprahata was generally understood as:
+  - Key: Uncultivated forest or jungle land
+  - ⚠ One glossary calls it cultivable wasteland; the BPSC key takes it as forest.
+- **Q:** Who was the first Gupta ruler to assume the title ‘Parama Bhagavata’?
+  - Key: Chandragupta II
+  - ⚠ Notes say: "**UPPSC keys (2009, 2015)** name **Samudragupta** as the first Gupta to take the title Parama Bhagavata" — read the options.
+- **Q:** The Kapalikas are best described as which of the following?
+  - Key: An extremist, skull-bearing sect associated with the Misra Saivam school
+  - ⚠ APPSC keys differ: **Pashupata Shaivism** (G2 **2019**) vs **Misra (mixed) Shaivism** (GS **2018**).
+- **Q:** Arrange the following works in the order in which their authors are conventionally placed from earlier to later:
+  - Key: A, B, D, C
+  - ⚠ Some notes list all five mahakavyas as "Gupta" — a trap.
+- **Q:** Consider the following statements about the technique of the Ajanta paintings:
+  - Key: 1 and 2 only
+  - ⚠ Trap: some notes say blue is absent at Ajanta — it is not.
+- **Q:** Gupta silver coins introduced after the conquest of the Western Kshatrapas were modelled on
+  - Key: Saka silver issues
+  - ⚠ Trap: some notes say "gold coins modelled on Saka silver" — read **silver**.
+- **Q:** Which of the following statements regarding Rashtrakuta capitals is correct?
+  - Key: 1, 2 and 3
+  - ⚠ Trap: some notes say **Dantidurga** made Manyakheta his capital — it was Amoghavarsha's work.
+- **Q:** The conflict between Pulakesin II and Harsha is generally dated to:
+  - Key: 618 AD
+  - ⚠ Some notes say **637 AD**, but the battle must predate the **Aihole inscription** of **634 CE**.
+- **Q:** Alampur is also known by which of the following names, and is associated with which religious centre?
+  - Key: Dakshina Kashi and the Jogulamba Shakti Peetha
+  - ⚠ Do not confuse it with **Dakshina Gaya** or other "Kashi" epithets in the options; the notes give only **Dakshina Kashi**.
+- **Q:** Consider the following statements about Vishnukundin cave temples in Andhra:
+  - Key: 1 and 2 only
+  - ⚠ District of Bhairavakona: **Nellore** (APPSC keys); CDI says Prakasam.
+- **Q:** Which one of the following correctly describes the historical development associated with the Undavalli complex?
+  - Key: It began as a Jain abode, was later Buddhist, and subsequently became Hindu.
+  - ⚠ Some notes say **Buddhist/Jain** first.
+- **Q:** According to APPSC answer keys, the Bhairavakona cave temples, a group of eight Shaiva caves resembling early Pallava caves, are located in which district?
+  - Key: Nellore
+  - ⚠ CDI says **Prakasam** — the APPSC key says Nellore.
+- **Q:** According to the APPSC key, the victories commemorated by the title Tripura-martya-Maheswara were over
+  - Key: Kiranapuram, Achalapuram and Kandukur
+  - ⚠ Some notes give **Nellore, Kiranapura, Achalapura** — the favourite distractor; follow the key.
+- **Q:** Which of the following pairs is correctly matched?
+  - Key: 1, 2, 3 and 4
+  - ⚠ Some notes give **Kollabhiganda** to **Vijayaditya IV**.
+- **Q:** According to the APPSC key, the title 'Kollabhiganda' belongs to which Eastern Chalukya ruler?
+  - Key: Chalukya Bhima I
+  - ⚠ Trap: some notes give it to **Vijayaditya IV**, who ruled **six months** after Chalukya Bhima; also a princess Kollabhiganda.
+- **Q:** Which of the following inscription–ruler pairs is correctly matched?
+  - Key: 1, 2, 3 and 4
+  - ⚠ APPSC G2 2017 key marked Nannaya as the **donee** — know both.
+- **Q:** Who among the following is associated with the Kaluchumbarru grant for a Jain temple?
+  - Key: Chamekamba
+  - ⚠ Ayyana Mahadevi = queen of **Kubja Vishnuvardhana** per G2 2025 key (some notes: Gunaga Vijayaditya III).
+- **Q:** As per the APPSC Group 2 (2025) key, Ayyana Mahadevi, who built the Jain Nedumba (Nadumbi) Vasati near Vijayawada, was the queen of
+  - Key: Kubja Vishnuvardhana
+  - ⚠ Some notes make her queen of **Gunaga Vijayaditya III** — the official key disagrees.
+- **Q:** Regarding the Nandampudi inscription, which of the following is correct?
+  - Key: Nannaya composed it and Narayana Bhattu received the agrahara
+  - ⚠ Trap: the **APPSC G2 2017** key marked Nannaya as the **donee** — know both.
+- **Q:** As per the APPSC Group 2 (2019) key, the Kesari Samudra lake is credited to
+  - Key: Rudradeva
+  - ⚠ Some notes credit **Beta Raja II** with the Kesari tank — follow the key.
+- **Q:** Who built the Jain Nedumba Vasati at Vijayawada?
+  - Key: Ayyana Mahadevi
+  - ⚠ G2 2025 key: wife of **Kubja Vishnuvardhana**; the APHQ book says **Gunaga Vijayaditya**.
+- **Q:** Which statement regarding Chellavva’s patronage is correct?
+  - Key: She was patronised by Chalukya Bhima I, who granted her Attili.
+  - ⚠ Some notes say **Gunaga Vijayaditya** gave her Attili — the key and most notes credit Chalukya Bhima I.
+- **Q:** Which of the following statements about the temples at Rajahmundry is correct?
+  - Key: 1 and 2 only
+  - ⚠ **2025** key: "Rajaraja Narendra built the Rajarajeswara temple at Biccavole" was marked **incorrect**.
+- **Q:** The Bikkavolu temple group was built mainly during the period of which ruler?
+  - Key: Gunaga Vijayaditya
+  - ⚠ **2025** key marked "Rajaraja Narendra built the **Rajarajeswara temple at Biccavole**" as incorrect.
+- **Q:** Draksharama, also known as Jananathapura, is described in the inscriptions as the coronation seat of which of the following?
+  - Key: A Chalukya-Chola viceroy
+  - ⚠ The viceroy is named **Rajaraja Chodaganga** in the PYQ book, but **Vikrama Chola** in the APPSC **2025** key in your bank.
+- **Q:** The Chola princess Madhurantaki was married to
+  - Key: Rajendra Chalukya (Kulottunga I)
+  - ⚠ "Daughter of **Rajendra Chola II**" was marked **incorrect** in the **APPSC 2025** key.
+- **Q:** Which sequence correctly represents the principal overlordship of the early Kakatiyas?
+  - Key: Rashtrakutas followed by Kalyani Chalukyas
+  - ⚠ Another key (**APHQ 2017 / APPSC 2017**) answers **Eastern Chalukyas of Vengi**, from Danarnava's **Magallu** grant.
+- **Q:** Which of the following correctly describes the respective roles of Rudradeva and Ganapatideva in relation to Orugallu?
+  - Key: Rudradeva began fortifying Orugallu, while Ganapatideva completed it and fully moved the court there.
+  - ⚠ The "who shifted" answer is **Rudradeva** (**APPSC G2 2019**). Some notes say Ganapati made the final transfer.
+- **Q:** Which of the following statements about the Thousand Pillar inscription is correct?
+  - Key: 1, 2, 3 and 4
+  - ⚠ The **APPSC 2025** key matched Anumakonda to **Prolaraja**, because it records Prola II's conquests.
+- **Q:** Which Kakatiya ruler bore the title 'Rayagajakesari' for her victory over the Yadavas of Devagiri?
+  - Key: Rudramadevi
+  - ⚠ Another **APPSC 2017** key gives the title to **Prataparudra**.
+- **Q:** The Yadava ruler who invaded Rudrama Devi’s kingdom was:
+  - Key: Mahadeva
+  - ⚠ One key gives Rayagajakesari to **Prataparudra**. Answer **Rudramadevi**, but read the options.
+- **Q:** Khusrau Khan’s expedition against Warangal, associated with the Mubarak Khalji reign, resulted in:
+  - Key: A defeat of the invading army followed by a fresh treaty and tribute
+  - ⚠ The notes say "**Defeated again**; fresh treaty and tribute; **renewed vassalage**". The defeated side was Prataparudra, not the invading army.
+- **Q:** The title 'Rayagajakesari', commemorating a victory over the Yadavas of Devagiri, is given by the APPSC keys to
+  - Key: Rudrama Devi
+  - ⚠ Trap: one AP History PYQ book key gives Rayagajakesari to **Prataparudra** — read the options; answer **Rudramadevi**.
+- **Q:** According to the APPSC Group 2 (2019) answer key, the Kesari Samudram tank was built by
+  - Key: Rudradeva
+  - ⚠ One source credits Kesari Samudram to **Prola I** — follow the APPSC key.
+- **Q:** Consider the following pairs:
+  - Key: 1, 2, 3 and 4
+  - ⚠ **Chitrameli** was the samaya of **agricultural farmers** (APPSC G2 2019 key).
+- **Q:** Which one of the following architectural features of the Ramappa Temple is correctly stated?
+  - Key: Its shikhara contains light, porous bricks that can float on water.
+  - ⚠ Some notes say the brackets are **sandstone**.
+- **Q:** Consider the following statements about the Ramappa Temple:
+  - Key: 1, 2 and 3
+  - ⚠ The **APPSC G2 2012** key calls Ramappa **Trikuta**, but the notes give the Trikuta plan to the Thousand Pillar Temple.
+- **Q:** Which of the following is the correct distinction between the two temples known by the name Rudreshwara or Rudreswara?
+  - Key: The Hanamkonda temple is a Trikuta temple, whereas the Palampet temple is associated with floating bricks and the sculptor Ramappa.
+  - ⚠ The **APPSC G2 2012** key calls Ramappa Trikuta — the notes give Trikuta to the Thousand Pillar Temple.
+- **Q:** The Manyapuram inscription is particularly associated with which event in Reddi history?
+  - Key: The shifting of the capital from Addanki to Kondavidu by Anavota Reddi
+  - ⚠ The APPSC G2 2012 key credits the same move to **Anavema**.
+- **Q:** Surambika, the queen of Pedakomati Vema Reddi, dug a tank known as:
+  - Key: Govardhana Samudram
+  - ⚠ The **APPSC GS 2018** key calls it **Santana Sagaram**; some notes **Santana Payonidhi** — read the options.
+- **Q:** Consider the following statements about Srinatha:
+  - Key: 1, 2 and 3 only
+  - ⚠ **Kasikhandam**: some notes say it was written at **Kataya Vema's** request.
+- **Q:** Which one of the following works of Srinatha is specifically associated with Bhimeswara of Draksharamam?
+  - Key: Bhimakhandam
+  - ⚠ Some notes say Bhimakhandam is about the **Bhima river** — the main reading is the **Draksharamam** deity.
+- **Q:** Which of the following works was composed by Sarvagna Singa Bhupala of Rachakonda?
+  - Key: Rasarnava Sudhakara
+  - ⚠ Some notes link **Errana** with **Singama Nayaka**, but APPSC keys make **Prolaya Vema Reddi** his patron.
+- **Q:** Which grant–recipient pair is correctly matched?
+  - Key: Nandampudi agrahara — Narayana Bhattu
+  - ⚠ APPSC keys accepted "Nandampudi given to **Nannaya**" (G2 2017 key) — follow the question's wording.
+- **Q:** Vijnaneswaram (Vignaneswaramu), the Telugu rendering of the Mitakshara, is credited to Ketana in most notes. In the APPSC Group-II 2012 key it was attributed to
+  - Key: Shivadevayya
+  - ⚠ Learn **Ketana**, but recognise the **2012** key.
+- **Q:** Which of the following pairs is correctly matched?
+  - Key: 1, 2 and 3 only
+  - ⚠ The APPSC 2025 key treated **Palnati Vira Charitra** as **not** Srinatha's.
+- **Q:** Which one of the following works was NOT written by Srinatha?
+  - Key: Veerabhadra Vijayam
+  - ⚠ The APPSC 2025 key treated **Palnati Vira Charitra** as not Srinatha's; **Madanavilasa Bhanam** was another option.
+- **Q:** Consider the following statements:
+  - Key: 1, 2 and 3
+  - ⚠ Notes place Conti at the end of **Deva Raya I's** reign — follow the key's version in APPSC.
+- **Q:** Which foreign traveller is associated with the mention of '300 ports'?
+  - Key: Abdur Razzaq
+  - ⚠ The **APPSC key** said **Barbosa** — know both answers.
+- **Q:** Which one of the following pairs is correctly matched?
+  - Key: Muhammad bin Tughlaq — 1325–1351
+  - ⚠ Some keys print **1324** for the start.
+- **Q:** Which of the following pairs is correctly matched?
+  - Key: 1, 2 and 3 only
+  - ⚠ **Lal Darwaza** = a queen (**Bibi Raje**, JPSC 2023 key); **Atala** = **Ibrahim Shah Sharqi**.
+- **Q:** Consider the following statements regarding monuments at Mandu:
+  - Key: 1, 2 and 3
+  - ⚠ **Jahaz Mahal** and **Hindola Mahal** = **Ghiyasuddin Khalji**, not Hoshang Shah (JPSC 2023 key).
+- **Q:** The English obtained permission to establish their presence at Machilipatnam from:
+  - Key: Muhammad Quli Qutb Shah
+  - ⚠ Trap: the **APPSC G2 2008** key gave **Ibrahim Qutb Shah**, though he died in **1580** — choose him only if Muhammad Quli is absent.
+- **Q:** Which one of the following statements regarding the Tuluva dynasty is correct?
+  - Key: Vira Narasimha was crowned in 1505 after executing Immadi Narasimha.
+  - ⚠ APPSC key names **Veera Narasimha** as Tuluva founder; some notes give his father **Tuluva Narasa Nayaka**.
+- **Q:** Abdur Razzaq, who visited Vijayanagara in 1443 during the reign of Devaraya II, came as the envoy of:
+  - Key: Shah Rukh of Persia
+  - ⚠ **Nicolo Conti**: APPSC G2 **2011** key places him under **Devaraya II**; some notes date his visit **1420-21** under **Devaraya I**.
+- **Q:** Consider the following statements regarding the Tuluva dynasty:
+  - Key: 1 and 2 only
+  - ⚠ Founder in the key = **Vira Narasimha**, not **Tuluva Narasa Nayaka**.
+- **Q:** Vira Narasimha is generally identified as the founder of the Tuluva dynasty because he:
+  - Key: killed Immadi Narasimha and established Tuluva rule in 1505
+  - ⚠ **Tuluva Narasa Nayaka** helped both usurpations but is not the founder in the key.
+- **Q:** The tax imposed on Ayagar and Manyam lands was known as
+  - Key: Jodi
+  - ⚠ **Meruka** = tax on **sale and purchase** (APPSC G2 **2011** key).
+- **Q:** Consider the following statements about Nicolo de Conti:
+  - Key: 1, 2 and 3 only
+  - ⚠ APPSC G2 **2011** key puts Conti under **Devaraya II**; he also stayed at Devaraya II's court.
+- **Q:** Which one of the following pairs is correctly matched?
+  - Key: Duarte Barbosa — Religious freedom for all creeds
+  - ⚠ APPSC key credits Barbosa with **"300 port towns"**; standard = Abdur Razzaq.
+- **Q:** Who among the following mentioned that Vijayanagara possessed more than 300 port towns?
+  - Key: Abdur Razzaq
+  - ⚠ The APPSC G2 **2019** key credited **Duarte Barbosa** ("more than 300 port towns"); the standard fact is Abdur Razzaq.
+- **Q:** Consider the following statements about the Hazara Rama temple at Hampi:
+  - Key: 1 and 2 only
+  - ⚠ Builder disputed: **Devaraya I** (CDI), **Devaraya II** (CDX), **Krishnadevaraya** (APPSC key).
+- **Q:** In the APPSC key (G2 2008; GS 2025), the Hazara Ramaswamy temple (Ramachandra temple) at Hampi is credited to which ruler?
+  - Key: Krishnadevaraya
+  - ⚠ Some notes say **Devaraya II** began it (CDX) or **Devaraya I** built it (CDI) — in APPSC mark Krishnadevaraya unless **Devaraya I** is an option.
+- **Q:** The Sultanate that stayed out of the Talikota alliance was ruled by which dynasty?
+  - Key: Imad Shahi
+  - ⚠ Some notes list Berar's **Burhan Imad-ul-Mulk** among the "Pancha Padushas".
+- **Q:** Francis Day of the English East India Company obtained the grant of Madras from Damarla Venkatadri Nayaka in
+  - Key: 1639
+  - ⚠ Some notes give "**1630**" ("as per the text").
+- **Q:** Babur’s first raid into India is associated with which places and year?
+  - Key: Bajaur and Bhera, 1519
+  - ⚠ Some notes give **1522**.
+- **Q:** Consider the following statements about Sher Shah's land revenue system:
+  - Key: 1 and 2 only
+  - ⚠ Some notes say "one-fourth to one-third".
+- **Q:** The Sadak-e-Azam constructed or restored by Sher Shah connected
+  - Key: Sonargaon in Bengal with the Indus
+  - ⚠ Some notes say **Chittagong-Kabul**, about **1,500 miles**.
+- **Q:** Which one of the following pairs regarding Akbar's religious measures is correctly matched?
+  - Key: Pilgrimage tax — 1563; Jizya — 1564
+  - ⚠ Some older notes give **1564** for both.
+- **Q:** Francois Bernier, who visited the Mughal Empire during 1656–1668, was associated with which of the following positions and patrons?
+  - Key: Physician of Dara Shikoh and patronised by Danishmand Khan
+  - ⚠ UPPSC **2008** key for "physician" = **Manucci**, though Bernier too served as a physician.
+- **Q:** Consider the following statements about Nur Jahan:
+  - Key: 1, 2, 3 and 4
+  - ⚠ Pen name **Makhfi**: some notes give it for Nur Jahan, but it is best known as **Zeb-un-Nissa**'s.
+- **Q:** Consider the following statements regarding Jahandar Shah:
+  - Key: 1, 2 and 3
+  - ⚠ Some notes say the Sayyids dominated Jahandar Shah — the Sayyids actually made **Farrukh Siyar**.
+- **Q:** Which Bhakti saints are specifically associated with providing spiritual and regional unity during the rise of the Marathas?
+  - Key: Tukaram and Ramdas
+  - ⚠ Ramdas as guru is **disputed by historians**; APPSC **2012** dropped its key — learn "Ramdas (traditional)".
+- **Q:** Consider the following statements:
+  - Key: 1 and 3 only
+  - ⚠ Ramdas as guru is **disputed**; APPSC **2012** dropped its key.
+- **Q:** Which one of the following correctly identifies Shivaji’s coins?
+  - Key: Gold Hon and copper Shivrai
+  - ⚠ **Ruka** was the coin **not silver** (UPPSC **2016** key); Rupaya, Lari, Taka listed as silver.
+- **Q:** Consider the following statements about Madhav Rao II:
+  - Key: 1 only
+  - ⚠ Trap: some notes say he was installed after Salbai — wrong.
+- **Q:** With reference to the attribution of Palnati Veera Charitra, consider the following statements:
+  - Key: 1, 2 and 3
+  - ⚠ The **APPSC 2025** key made it the "not written by Srinatha" answer.
+- **Q:** Which one of the following statements regarding Veerabhadra Vijayam is correct?
+  - Key: It is regarded in the cited literary accounts as Potana's first work, written at the request of Ivaturi Somanaradhya.
+  - ⚠ The **APPSC 2011** key answered **Srinatha**.
+- **Q:** Palnati Veera Charitra is associated with which event?
+  - Key: The Palnadu war of 1182
+  - ⚠ **APPSC 2025** key treated it as not by Srinatha.
+- **Q:** Which one of the following works of Potana is described as lost?
+  - Key: Narayana Satakam
+  - ⚠ **Veerabhadra Vijayam** = his first work;  **APPSC 2011** key gave it to **Srinatha**.
+- **Q:** Which one of the following pairs of woman poet and work is NOT correctly matched?
+  - Key: Gangadevi — Marichi Parinayam
+  - ⚠ **Trap:** the **2025** answer key marked **Molla-Ramayanam** instead, but the explanation confirms Molla-Ramayanam is correct.
+- **Q:** With reference to the two Hamiduddins associated with medieval Sufism, consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ Some notes list "Hamiduddin Nagori" under the Suhrawardis — keep the two apart.
+- **Q:** Consider the following statements about the Chishti order in the Deccan:
+  - Key: 1 and 3 only
+  - ⚠ Statement 2 wrong:  it was the **14th c.**, not the "13th c." some notes give.
+- **Q:** Which event directly disrupted the principal overland route from Europe to India in the fifteenth century?
+  - Key: The capture of Constantinople by Ottoman Sultan Mehmed II in 1453
+  - ⚠ Some notes give the year as **1452**.
+- **Q:** Who guided Vasco da Gama from the African coast to Calicut according to the account of his first voyage?
+  - Key: Abdul Majid
+  - ⚠ Some notes give the guide's name as **Najit**.
+- **Q:** Arrange the following Portuguese governors in chronological order of their tenure:
+  - Key: C, B, A
+  - ⚠ Some notes give Albuquerque "**1509-1550**" — a misprint; he died in **1515**.
+- **Q:** According to the APPSC examination key, the first European factory in Andhra was established by the:
+  - Key: Portuguese at Machilipatnam
+  - ⚠ Some notes say the **Dutch** set up the first factory (Masulipatnam **1605**) and the Portuguese came last (**1670**) — **follow the key** in APPSC.
+- **Q:** Which one of the following sets consists entirely of places associated with the Andhra angle of European trade?
+  - Key: Masulipatnam, Pulicat, Nizampatnam and Bheemunipatnam
+  - ⚠ First European factory at **Machilipatnam** = **Portuguese** per the APPSC G2 **2019** key; some notes say **Dutch (1605)**.
+- **Q:** The English ship Globe reached Machilipatnam in 1611 under the command of:
+  - Key: Captain Anthony Hippon
+  - ⚠ APPSC-G2 **2025** A-R said "Globe under Captain **Hawkins**" — the bank key marks it **false**.
+- **Q:** Permission for the English to establish their first factory at Machilipatnam in 1611 was granted by:
+  - Key: Muhammad Quli Qutb Shah
+  - ⚠ APPSC G2 **2008** key named **Ibrahim Qutb Shah** — but Ibrahim died in **1580**.
+- **Q:** The Danish-Halle Mission at Tranquebar was founded in 1706 as the earliest sustained Protestant mission in:
+  - Key: South India
+  - ⚠ Some notes say "the Dutch" propagated religion from Tranquebar — it was the **Danes**.
+- **Q:** Which statement correctly distinguishes the Danish and Dutch roles at Tranquebar?
+  - Key: The Danes founded the Danish-Halle Mission at Tranquebar.
+  - ⚠ Some notes say "the Dutch" propagated religion from Tranquebar — it was the **Danes**.
+- **Q:** Which one of the following correctly represents the order of establishment of the four European factories at Machilipatnam?
+  - Key: Dutch–English–French–Portuguese
+  - ⚠ The **APPSC 2019 key** makes the **Portuguese** the first Europeans at Machilipatnam (soon after **1498**) — answer by the question's wording.
+- **Q:** Which work of Srinatha, dedicated to the overseas trader Avachi Tippaya Setti, throws light on sea trade in the Reddi period?
+  - Key: Haravilasam
+  - ⚠ Not **Kashikhandam** (APPSC **2019** key); the **Shuka Saptati** mentions **odaberam** ships.
+- **Q:** The Treaty of Paris of 1763 provided that the French factories and settlements in India would be:
+  - Key: Restored to France but retained only as trading posts without fortifications
+  - ⚠ Some notes list only "**Pondicherry, Yanam, Mahe**" – incomplete.
+- **Q:** The old name used for the Ceded Districts was:
+  - Key: Dattamandalam or Dattamandalalu
+  - ⚠ Some notes say **1927**; others credit **Chilukuri Narayana Rao**.
+- **Q:** The name ‘Rayalaseema’ was adopted at the Andhra Mahasabha held at Nandyal in:
+  - Key: 1928
+  - ⚠ Some notes give **1927**.
+- **Q:** Before the 1808 division, the single Ceded collectorate was centred at:
+  - Key: Anantapur
+  - ⚠ **APPSC 2011** key = **Bellary** — that refers to the post-1808 period.
+- **Q:** Consider the following statements about the District Collector in coastal Andhra:
+  - Key: 1 and 2 only
+  - ⚠ **APPSC G2 2012** key gives **1786** for "Collector's administration in place of the Revenue Board".
+- **Q:** Which tax was imposed on inland transit and customs duties on goods?
+  - Key: Sayer
+  - ⚠ "**Moturpha** is a salt tax" is false (**APPSC G2 2011** key: tax on looms).
+- **Q:** The Madras Estates (Abolition and Conversion into Ryotwari) Act, 1948 came into force on:
+  - Key: 7 September 1949
+  - ⚠ Some notes say "**1952**", but exam keys use the **1948** Act.
+- **Q:** Who became the first Collector of the Ceded Districts in 1800?
+  - Key: Thomas Munro
+  - ⚠ Some notes say "first Collector … in **1802**" (CDX).
+- **Q:** The Ceded Districts were divided into Bellary and Cuddapah in:
+  - Key: 1808
+  - ⚠ **APPSC 2011** key = **Bellary** as HQ — refers to the post-1808 period.
+- **Q:** Consider the following statements regarding the Dowleswaram anicut:
+  - Key: 2 and 3 only
+  - ⚠ **PYQ key = 1855** (**APPSC G2 2012**) for the Dowleswaram year.
+- **Q:** Which of the following events occurred after the First Anglo-Sikh War?
+  - Key: 1 and 2 only
+  - ⚠ Kashmir price: **Rs 75 lakh**; some notes say **Rs 1 crore**.
+- **Q:** Which one of the following was a major change introduced by the Charter Act of 1853 in the recruitment to the civil services?
+  - Key: The Directors' patronage was abolished and open competitive examination was introduced.
+  - ⚠ Some notes give the Macaulay report as **1855**.
+- **Q:** Consider the following statements regarding the Macaulay Committee on the Indian Civil Service:
+  - Key: 1, 2 and 3
+  - ⚠ Some notes give the report year as **1855**.
+- **Q:** Approximately how many people died in the Bengal Famine of 1943 according to the standard estimate?
+  - Key: 30 lakh
+  - ⚠ APPSC-GS **2018** asked the "nearest figure" and keyed **about 20 lakh** (the largest option offered then).
+- **Q:** Which one of the following correctly presents the sequence of the Godavari anicut project at Dowleswaram?
+  - Key: Report in 1844, sanction in 1846, work begun in 1847, main structure finished in April 1852
+  - ⚠ **APPSC-G2 2012** keyed **1855** for the Dhavaleswaram Dam — in APPSC MCQs choose **1855**; the notes say built **1847-52**.
+- **Q:** Match List-I with List-II:
+  - Key: A-1, B-2, C-4, D-3
+  - ⚠ Some notes give **1882** for the First Factory Act; the APPSC key is **1881**.
+- **Q:** Consider the following statements:
+  - Key: 1, 2 and 3
+  - ⚠ Some notes give **1882**.
+- **Q:** Match List-I with List-II:
+  - Key: a-i, b-ii, c-iii
+  - ⚠ Some notes give IPC/CrPC as **1859**.
+- **Q:** Arrange the following developments in chronological order:
+  - Key: D, A, B, C
+  - ⚠ Madras corporation is dated **1687-88** (APPSC key: **1688**).
+- **Q:** Henry Lawrence is associated with which of the following?
+  - Key: The defence of Lucknow Residency, where he was killed during the siege
+  - ⚠ Trap: some notes list Henry Lawrence as Lucknow's "suppressor" — he died defending it.
+- **Q:** Consider the following statements regarding the Council of India under the Government of India Act, 1858:
+  - Key: 1 and 2 only
+  - ⚠ The notes say the Council was "**abolished by the 1935 Act**" — so it did last until that Act; the key reads statement 3 strictly.
+- **Q:** After the reorganisation recommended by the Peel Commission, the ratio of European to Indian troops was:
+  - Key: 1:2 in the Bengal Army and 2:5 in the Madras and Bombay armies
+  - ⚠ Some notes give Madras and Bombay as **1:3**.
+- **Q:** Which statement correctly describes the location of Paramahansa Mandali?
+  - Key: It was founded in Bombay and had branches at Poona and Satara.
+  - ⚠ APPSC-GS **2023** frames it as "established in **Poona** in **1849**" — follow the key if options force a choice.
+- **Q:** The Widow Remarriage Association associated with M.G. Ranade was established in—
+  - Key: 1861
+  - ⚠ Some notes say Ranade set up the **Deccan Education Society** in **1861**; the main date is **1884**.
+- **Q:** Which of the following combinations correctly describes the Deccan Education Society?
+  - Key: Founded in 1884 at Pune by Tilak, Agarkar and Chiplunkar, with Ranade’s support
+  - ⚠ Some notes say Ranade set it up in **1861**.
+- **Q:** Consider the following statements about the early Adi-Andhra conferences:
+  - Key: 1 and 3 only
+  - ⚠ APPSC-GS **2025** key: district of the first session = **Krishna**.
+- **Q:** Which one of the following was the first organised social reform body in Andhra?
+  - Key: Rajahmundry Social Reform Association
+  - ⚠ Its date varies: **1871** (RPSC key), **1875** (CDX), **1878** (some notes) — learn all three.
+- **Q:** Consider the following statements regarding Telugu journals:
+  - Key: 1 and 3 only
+  - ⚠ APPSC G2 2025 key names **D. Rangacharyulu** as Vivekavardhini's founder; all notes credit **Veeresalingam**.
+- **Q:** Match List-I with List-II:
+  - Key: a–ii, b–iv, c–iii, d–i
+  - ⚠ APPSC 2019 key marks "Telugu Janana - Veeresalingam" as the **wrong pair**.
+- **Q:** Which of the following pairs is correctly matched?
+  - Key: Vivekavardhini — Rajahmundry, 1874
+  - ⚠ APPSC G2 2025 key names **D. Rangacharyulu** as its founder; all notes say **Veeresalingam**.
+- **Q:** Which one of the following journals was associated with the anti-Devadasi campaign of Raghupathi Venkataratnam Naidu?
+  - Key: People's Friend
+  - ⚠ APPSC **2012** key gives **Brahma Prakasika** to **Veeresalingam**.
+- **Q:** Which one of the following statements about Gurajada Apparao’s ‘Kanyasulkam’ is correct?
+  - Key: It was first written in 1892 and revised in 1909.
+  - ⚠ The notes say it was **written 1890**, staged **13 Aug 1892**, published **1897**, 2nd edn **1909**.
+- **Q:** ‘Desamante matti kadoyi, desamante manushuloyi’ conveys the idea that:
+  - Key: A country is its people, not merely its soil.
+  - ⚠ Source differs: patriotic song **"Desamunu Preminchumanna"** / poem Desabhakti; APPSC **2025** key says **Kanyaka**.
+- **Q:** Benjamin Schultze was associated with which mission?
+  - Key: Danish-Halle Mission
+  - ⚠ APHQ key gives the Bible print as "**1746-47**"; it was translated in **1727**.
+- **Q:** Which one of the following correctly identifies the place, press activity and year associated with Schultze's Telugu books?
+  - Key: Halle, 1747
+  - ⚠ APHQ key: "**1746-47**".
+- **Q:** According to the APPSC Group 2 (2011) key, the first Telugu magazine published from Bellary was:
+  - Key: Tatvabodhini
+  - ⚠ Notes call **Satyaduta** (**1835**, Bellary) the first Telugu journal — answer the Bellary question with **Tatvabodhini**, as the key does.
+- **Q:** Which journal was edited by Behramji Malabari?
+  - Key: Indian Spectator
+  - ⚠ The APPSC key pairs **Seva Sadan — Malabari**.
+- **Q:** Consider the following statements regarding the Age of Consent Act, 1891:
+  - Key: 1, 2 and 3
+  - ⚠ Some notes say it "prohibited marriage below 12" — loosely worded.
+- **Q:** Poona Seva Sadan was founded by:
+  - Key: Ramabai Ranade and G.K. Devadhar
+  - ⚠ The APPSC-G2 **2023** key pairs **Seva Sadan — Malabari**.
+- **Q:** Which one of the following correctly states the founder and year of Seva Samiti?
+  - Key: Hriday Nath Kunzru — 1914
+  - ⚠ APPSC-G2 **2023** key: **Deva Samaj — Radhakant Deb**; standard texts give it to **Agnihotri**.
+- **Q:** Match List-I with List-II:
+  - Key: a-iii, b-iv, c-ii, d-i
+  - ⚠ The APPSC-G2 **2023** key paired **Deva Samaj — Radhakant Deb**; standard texts say **Agnihotri**.
+- **Q:** Which of the following statements regarding Veeresalingam's educational activities is correct?
+  - Key: 1, 2 and 3
+  - ⚠ APPSC **2025** key: "first girls' school at **Rajahmundry**".
+- **Q:** Which one of the following is the correct chronological order of the conferences of the Krishna District Association?
+  - Key: Guntur, Machilipatnam, Eluru, Angalur
+  - ⚠ APPSC G2 **2012** key says the first meeting was at **Machilipatnam** — mark it if it is an option.
+- **Q:** Match the INC president with the session over which he presided:
+  - Key: a-3, b-4, c-1, d-2
+  - ⚠ Trap: the APPSC-G1 2023 key listed Naoroji under "Calcutta 1885", but the **1885** session was at **Bombay** under **W.C. Bonnerjee**.
+- **Q:** Which one of the following correctly represents Dadabhai Naoroji’s three presidencies of the Indian National Congress?
+  - Key: Calcutta 1886, Lahore 1893 and Calcutta 1906
+  - ⚠ Exam angle: APPSC 2019 keyed "Naoroji founded the INC with Hume and Wacha" as wrong — **Hume** is the founder.
+- **Q:** Who presided over the conference of the Krishna District Association that attracted approximately 223 delegates?
+  - Key: Nyapathi Subbarao
+  - ⚠ Trap: some notes say **Ramaswamy Gupta** held the first Krishna conference at **Guntur (Jul 1892)**, the second at Machilipatnam (**1893**) — use the key.
+- **Q:** Consider the following statements about the Krishna District Association:
+  - Key: 1 and 2 only
+  - ⚠ Some notes say **Ramaswamy Gupta** held the first conference at **Guntur (Jul 1892)** — use the key.
+- **Q:** Which one of the following statements regarding Bipin Chandra Pal is correct?
+  - Key: He undertook an Andhra tour in 1907 and was arrested.
+  - ⚠ The APPSC 2025 key paired Pal's tour with **July 1907** — learn the key's pairing for that match.
+- **Q:** Which one of the following correctly describes the Kakinada Riot Case of 31 May 1907?
+  - Key: A European club was attacked after Dr Kemp beat Kompelli Krishna Rao for shouting Vande Mataram.
+  - ⚠ The APPSC 2025 key paired the Kakinada riots case with **April 1907** — learn the key's pairing for that match.
+- **Q:** Who welcomed Bipin Chandra Pal at Rajahmundry, where he delivered five lectures?
+  - Key: Gadicherla Harisarvottama Rao
+  - ⚠ APPSC 2011 key names **Gadicherla** as tour organiser; standard notes say **Mutnuri Krishna Rao** — know both.
+- **Q:** Arrange the following places associated with Bipin Chandra Pal’s tour in Andhra in chronological order:
+  - Key: C, B, E, D, A
+  - ⚠ Trap: a PYQ book places Pal's tour in **July**; the APPSC 2025 key pairs the tour with **April 1907**.
+- **Q:** Arrange the following in chronological order:
+  - Key: d, a, b, c
+  - ⚠ Trap: a printed key "**b, d, a, c**" exists; the true order is **d-a-b-c** (INC first).
+- **Q:** Jatin Das died after how many days of hunger strike in Lahore jail in 1929?
+  - Key: 63 days
+  - ⚠ Some notes say **64** days.
+- **Q:** In the Tenali Bomb Case, which of the following were transported, according to the account of the case?
+  - Key: 1 and 2 only
+  - ⚠ Some notes say Prakasam **secured their release**.
+- **Q:** Arrange the following stages of Lala Har Dayal’s career in the correct chronological order:
+  - Key: B, C, D, A
+  - ⚠ BPSC **2025** key: **University of California**; commonly **Stanford**.
+- **Q:** The All India Home Rule League of Annie Besant was founded in:
+  - Key: Madras in September 1916
+  - ⚠ Some notes say **1915** — her self-government campaign began then; the league itself = **Sept 1916**.
+- **Q:** Which one of the following statements is NOT correct regarding Tilak's Home Rule League?
+  - Key: It was founded by Tilak in 1914 immediately after his release from Mandalay jail.
+  - ⚠ Some notes say "from Pune" or "Bombay/Deccan" for the launch.
+- **Q:** The Hindustan Republican Association was reorganised as the Hindustan Socialist Republican Association in:
+  - Key: 1928
+  - ⚠ Some notes say Bhagat Singh "joined the HSRA in **1925**" — in 1925 it was still the **HRA**.
+- **Q:** Who fired first in the assassination of J.P. Saunders?
+  - Key: Rajguru
+  - ⚠ Notes saying Azad was "shot dead by an Indian constable" while pursuing are **wrong**.
+- **Q:** Consider the following statements about the end of Alluri Sitarama Raju:
+  - Key: 1 and 2 only
+  - ⚠ Some notes say cremated, others buried; **tomb/samadhi** at Krishnadevipeta.
+- **Q:** Who was known by the title “Abhinava Nannaya” according to the commission’s key and the accepted examination reference?
+  - Key: Rayaprolu Subbarao
+  - ⚠ Some notes give it to **Viswanatha**, but Viswanatha's title is **Kavi Samrat**.
+- **Q:** Who is popularly known by the title 'Maha Kavi' in the context of Telugu progressive literature?
+  - Key: Sri Sri
+  - ⚠ "**Poet of the Millennium**" is disputed: G2 2025 key — **Jashuva**; APHQ book — **Sri Sri**.
+- **Q:** During which movement was the drama Viplava Parivartanamu published and banned?
+  - Key: Non-Cooperation Movement
+  - ⚠ Author: **Gollapudi Sitarama Sastri** (**G2 2019** key) vs **Kodali Anjaneyulu** (**2018** key).
+- **Q:** Which of the following statements about Gollapudi Sitarama Sastri is correct?
+  - Key: He supported the Non-Cooperation Movement boycott of elections in 1920.
+  - ⚠ The **2018** key names **Kodali Anjaneyulu** instead.
+- **Q:** According to the APPSC Group 2 2019 answer key, who wrote the drama Viplava Parivartanamu, which was banned during the Non-Cooperation Movement?
+  - Key: Gollapudi Sitarama Sastri
+  - ⚠ The **APPSC 2018** key gives **Kodali Anjaneyulu** — learn both names.
+- **Q:** Which one of the following is NOT correctly matched with Durgabai Deshmukh?
+  - Key: Padma Vibhushan — 1965
+  - ⚠ **APPSC 2023** key rejected "**Iron Lady**" and "**Tamrapatra and Paul Hoffman award**" for her.
+- **Q:** According to the Andhra Pradesh references, the peasant march from Ichchapuram to Madras was led by
+  - Key: Kommareddy Satyanarayana Murthy and Chalasani Vasudeva Rao
+  - ⚠ Some notes say **Ranga** led it (**1938-39**).
+- **Q:** According to the APPSC 2019 answer key, the first President of the Andhra Socialist Party (Andhra unit of the Congress Socialist Party, 1934) was:
+  - Key: Madduri Annapurnaiah
+  - ⚠ Other notes give **N.G. Ranga** as president with Annapurnayya as secretary — follow the key.
+- **Q:** The first session of the Nizam's Andhra Mahasabha, held at Jogipet in 1930, was presided over by:
+  - Key: Suravaram Pratap Reddy
+  - ⚠ One book names **Madapati Hanumantha Rao**, who presided at **Siricilla (1935)** — follow the key.
+- **Q:** Which Act introduced elected non-official members, largely through indirect and separate electorates?
+  - Key: Indian Councils Act, 1909
+  - ⚠ Trap: the APPSC GS 2018 key gave **1909** for "first direct elections".
+- **Q:** If an examination question asks for the first Act associated with direct elections in India, which answer is most appropriate?
+  - Key: Government of India Act, 1919
+  - ⚠ APPSC GS 2018 key gave **Indian Councils Act 1909** — mark it only if 1919 is absent.
+- **Q:** Which pair relating to the Andhra branches of the Harijan Sevak Sangh is correctly matched?
+  - Key: Vijayawada—Kasinathuni Nageswara Rao; Hyderabad—Maganti Bapineedu
+  - ⚠ The notes list **Maganti Bapineedu** as **secretary** of the **Vijayawada** branch, not Hyderabad.
+- **Q:** The year of Mahatma Gandhi’s Champaran pro-ryot movement was
+  - Key: 1917
+  - ⚠ Dating it to **1915** is WRONG, though some notes say so; 1915 is Gandhi's return to India.
+- **Q:** Match List-I with List-II:
+  - Key: A-2, B-3, C-1
+  - ⚠ APPSC **2019** places Veeragandhamu in NCM; APPSC **2012** key says CDM.
+- **Q:** The AICC meeting held at Vijayawada in 1921 is particularly associated with which decision?
+  - Key: Acceptance of Gandhi's leadership of the national struggle
+  - ⚠ APCC meeting **January 1921** ≠ AICC session **1921** (APPSC **2023** key).
+- **Q:** Match List-I (Salt Satyagraha centre) with List-II (leader):
+  - Key: a-iv, b-iii, c-ii, d-i
+  - ⚠ Option (2) makes the known **Bulusu / Kasi Viswanadham** swap (APPSC **2023** key).
+- **Q:** The AICC session that adopted the Quit India resolution and gave the call 'Do or Die' was held at:
+  - Key: Gowalia Tank, Bombay, on 8 August 1942
+  - ⚠ Some notes say "Young India" — the paper was **Harijan**.
+- **Q:** The All India Congress Committee passed the Quit India resolution at Gowalia Tank Maidan, Bombay, on:
+  - Key: 8 August 1942
+  - ⚠ Some notes say **6 Aug** (4) — **8 Aug** is correct; **9 August** (2) is the day of arrests.
+- **Q:** Consider the following statements about the INA Defence Committee:
+  - Key: 1 and 2 only
+  - ⚠ UPPSC 2013 key: **Sapru**, not **Jinnah**.
+- **Q:** With reference to the title associated with Vallabhbhai Patel, which of the following is the most accurate statement?
+  - Key: It was conferred at Bardoli in 1928 in connection with the peasant movement.
+  - ⚠ Three versions of who gave it: Bardoli **women/peasants**; **Sarojini Naidu** and the masses (CDI); **Gandhi** (**CGPSC 2011** key).
+- **Q:** The Direct Action Day riots, which began in Calcutta, subsequently spread to which of the following places?
+  - Key: Noakhali, Bihar and parts of north India
+  - ⚠ APPSC key: at Noakhali Gandhi **failed to stop the enmity and violence**.
+- **Q:** The Indian Independence Bill was introduced in the House of Commons on
+  - Key: 4 July 1947
+  - ⚠ APPSC-GS 2007 keyed "**3 July**"; the standard date is **4 July**.
+- **Q:** Who is generally credited with first putting forward the idea of a Constituent Assembly in 1934?
+  - Key: M.N. Roy
+  - ⚠ **Trap:** **APPSC-GS 2019** framed it as "first in 1935"; the key was still **M.N. Roy**.
+- **Q:** Consider the following statements:
+  - Key: 1, 2 and 3
+  - ⚠ The APPSC key treats **Pattabhi** as the **first Telugu INC President**.
+- **Q:** Who wrote the series of articles titled “On the present position of the Telugu people” in The Hindu in 1911?
+  - Key: Jonnavittula Gurunatham
+  - ⚠ **Trap:** the **APPSC G2 2017** key named "**Sitarama Sastri**"; notes give Gurunatham.
+- **Q:** The statement “First we are Indians, then we are Andhras” is associated with:
+  - Key: B.N. Sarma
+  - ⚠ Yet in **1917** he moved a separate-province resolution (**APPSC 2017** key).
+- **Q:** Who was the first Telugu person to preside over a session of the Indian National Congress?
+  - Key: P. Anandacharlu
+  - ⚠ **APPSC G2 2011** key named **Pattabhi** "first Telugu person" — read the wording.
+- **Q:** Consider the following statements regarding the formation of the separate Andhra Congress Committee:
+  - Key: 1, 2 and 3
+  - ⚠ The **APPSC G2 2011** key names **Konda Venkatappayya** first president.
+- **Q:** Consider the following statements about Pattabhi Sitaramayya:
+  - Key: 1 and 2 only
+  - ⚠ The **APPSC G2 2011** key named Pattabhi "first Telugu person" — read the wording.
+- **Q:** Which one of the following correctly describes the original academic arrangement of Andhra University when it was established?
+  - Key: Headquarters at Vijayawada and teaching centre at Rajahmundry
+  - ⚠ APPSC G2 2012 key answered **Kakinada** for "first established in which town"; G2 2008 key + notes give **Vijayawada**.
+- **Q:** With reference to the first Rayalaseema Mahasabha, consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ First session venue: notes give **Madras**; the APPSC G2 2008 key says **Anantapur**.
+- **Q:** Which one of the following was NOT present at the second Rayalaseema Mahasabha in 1935?
+  - Key: T.N. Ramakrishna Reddy
+  - ⚠ 2nd session venue: **Kadapa** (APPSC G2 2017 key + notes); some notes say **Anantapur**.
+- **Q:** Which one of the following is NOT correctly matched?
+  - Key: N.G. Ranga — Rayalaseema signatory to the Sri Bagh Pact
+  - ⚠ Some notes give **"K. Koteswara Rao"** as Sri Bagh's owner — wrong.
+- **Q:** The Sri Bagh Pact was signed on 16 November 1937 at Sri Bagh, the residence of:
+  - Key: K. Nageswara Rao
+  - ⚠ "K. Koteswara Rao" as owner — wrong (APPSC G2 2017 key = Kasinathuni).
+- **Q:** Which Madras Chief Minister chaired the Partition Committee constituted in 1949?
+  - Key: P.S. Kumaraswamy Raja
+  - ⚠ Some notes say **T.T. Krishnamachari** — wrong (APPSC G2 2025 key = Kumaraswamy Raja).
+- **Q:** Match List-I with List-II:
+  - Key: a–ii, b–iii, c–i
+  - ⚠ Some notes give **Praja Socialist Party** for Tirupati — follow the key (**Krishikar Lok Party**, APPSC G2 2025).
+- **Q:** Match List-I with List-II:
+  - Key: a–iii, b–iv, c–ii, d–i
+  - ⚠ The APPSC G2 2011 key named **Konda Venkatappayya** as first APCC president; the notes give **Nyapati Subba Rao**.
+- **Q:** Which one of the following pairs is correctly matched?
+  - Key: First Andhra INC president — Anandacharlu, 1891
+  - ⚠ APPSC G2 2011 key named **Pattabhi Sitaramayya** as "first Telugu person" to preside — he presided **Jaipur, 1948**.
+- **Q:** Arrange the following events in chronological order:
+  - Key: A, B, C, D
+  - ⚠ Some notes give **25 March** as the report date — that was really Nehru's announcement.
+- **Q:** In which year did Mutnuri Krishna Rao call upon extremist leaders to visit Andhra?
+  - Key: 1907
+  - ⚠ Some notes say Mutnuri organised the tour; the **G2 2011 key** credits **Gadicherla** — know both.
+- **Q:** Which extremist leader toured Andhra in April 1907, lecturing at Kakinada and delivering five lectures at Rajahmundry?
+  - Key: Bipin Chandra Pal
+  - ⚠ Trap: some notes say Mutnuri organised the tour; the **G2 2011 key** credits **Gadicherla Harisarvottama Rao**.
+- **Q:** Consider the following statements about Gadicherla Harisarvottama Rao:
+  - Key: 1 and 2 only
+  - ⚠ The **G2 2011 key** credits Gadicherla with organising **Bipin Chandra Pal's** tour.
+- **Q:** Arrange the following events in chronological order:
+  - Key: B, C, A, D
+  - ⚠ APHQ keys the appointment as **20 Dec 1953**; APPSC G2 2017 key = **22 December**.
+- **Q:** The Mulki Rules originated during which period and required approximately how much local residence for eligibility for local government employment?
+  - Key: Nizam’s era; 15 years
+  - ⚠ Mulki rules = about **15 years**; Gentlemen's Agreement = **12 years** (some notes say 15).
+- **Q:** The Mulki rules were tightened by the Nizam's farman of:
+  - Key: 1919
+  - ⚠ Agreement domicile rule: **12 years** (some notes say 15).
+- **Q:** B. Ramakrishna Rao initially supported a separate Telangana but changed his stand in 1954 and subsequently advocated which of the following?
+  - Key: The immediate merger of Telangana with Andhra
+  - ⚠ One scanned key reads **1955**; the APHQ key answer is **1954**.
+- **Q:** The domicile safeguard associated with recruitment in Telangana required residence for how many years?
+  - Key: 12 years
+  - ⚠ Some notes say **15 years**; the original **Mulki rules** required about **15 years**.
+- **Q:** The cabinet composition agreed under the Gentlemen's Agreement was based on which ratio between Andhra and Telangana?
+  - Key: 60:40
+  - ⚠ Older notes print **3:1**; keyed answer = **60:40** (APPSC G2 2025).
+- **Q:** Which one of the following is correctly matched?
+  - Key: Article 2 — Admission or establishment of new States
+  - ⚠ Trap: some notes say APRA 2014 was under **Article 2** — wrong; it was **Article 3**.
+- **Q:** Arrange the following states in the order of their formation:
+  - Key: A, B, C, D
+  - ⚠ Some notes give **8 Nov 2000** for Uttarakhand.
+- **Q:** According to the commonly cited date, Uttarakhand was formed on:
+  - Key: 9 November 2000
+  - ⚠ Some notes give **8 Nov 2000**.
+- **Q:** In the context of the Nizam's Mulki rules, the term 'Mulki' referred to a person who had:
+  - Key: Completed a fixed period of continuous residence in the State
+  - ⚠ **15 years** = Nizam's rules; **12 years** = Gentlemen's Agreement (some notes give 15).
+- **Q:** Which of the following correctly distinguishes the Nizam's Mulki rules from the domicile proposal associated with the Gentlemen's Agreement of 1956?
+  - Key: The Nizam's rules referred to 15 years' residence, whereas the 1956 proposal referred to 12 years' residence.
+  - ⚠ Some notes give **15 years** for the Agreement too.
+- **Q:** The 32nd Constitutional Amendment Act, which inserted Articles 371D and 371E, came into force on:
+  - Key: 1 July 1974
+  - ⚠ Some notes say **33rd** Amendment — wrong; PYQ key = **32nd**.
+- **Q:** Articles 371D and 371E relating to Andhra Pradesh were inserted by which Constitutional Amendment?
+  - Key: 32nd Amendment
+  - ⚠ Some notes say **33rd** — wrong; **36th** Amendment admitted **Sikkim** under **Article 2**.
+- **Q:** Which statement correctly distinguishes the date of presidential assent from the appointed day under the Andhra Pradesh Reorganisation Act, 2014?
+  - Key: Assent was on 1 March 2014, whereas the appointed day was 2 June 2014.
+  - ⚠ Some notes give "in force from **2 March 2014**" — treated as a trap.
+- **Q:** With reference to the Andhra Pradesh Reorganisation Act, 2014, consider the following statements:
+  - Key: 2 and 3 only
+  - ⚠ Trap: some notes say **Article 2** — wrong; Art. 2 = admitting new states/territory from outside (e.g., **Sikkim**).
+- **Q:** Under which Section were tax refunds apportioned according to population?
+  - Key: Section 56
+  - ⚠ **Sec 50** = arrears (place); **Sec 56** = refunds (population) — **APPSC 2023** keyed Section 50 for arrears.
+- **Q:** The 1969 agitation and the 1972 Jai Andhra counter-movement were followed by which combination?
+  - Key: The Six-Point Formula and Article 371D
+  - ⚠ Some notes say **33rd** Amendment — wrong; PYQ key = **32nd**.
+- **Q:** The Srikakulam Girijan struggle is generally placed in the period:
+  - Key: 1968–70
+  - ⚠ Some notes give **1968-69**; **1975-77** is the **Emergency**, when Naxalite cadres were killed in alleged encounters.
+- **Q:** Consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ Ravindra Bharathi's inaugurator: **APPSC G2 2017 key** gives **Dr S. Radhakrishnan**; a PYQ book gives **Jawaharlal Nehru** — follow the official key.
+- **Q:** According to the official APPSC Group 2 (2017) answer key, Ravindra Bharathi in Hyderabad was inaugurated by
+  - Key: Dr S. Radhakrishnan
+  - ⚠ The AP History PYQ book gives **Jawaharlal Nehru**; follow the official key.
+- **Q:** Damerla Rama Rao, associated with the development of modern Andhra painting, belonged to which place?
+  - Key: Rajahmundry
+  - ⚠ "**Father of Modern Contemporary Art**" in AP = **Nandikolla Gopala Rao** (APPSC 2018 key), not Damerla.
+
+## Polity, Society & IR (108)
+
+- **Q:** Which one of the following pairs is NOT correctly matched?
+  - Key: Charter Act of 1833 — Company retained all commercial functions
+  - ⚠ Trap: some notes say 1833 kept "tea and China" trade — that was the **1813** position.
+- **Q:** Which of the following developments occurred under the Charter Act of 1833 rather than under the Charter Act of 1813?
+  - Key: Complete ending of the Company's commercial functions
+  - ⚠ Trap: some notes say 1833 kept "tea and China" trade — that was the **1813** position.
+- **Q:** Consider the following statements regarding the Indian Councils Act of 1861:
+  - Key: 1, 2 and 3
+  - ⚠ Trap: some notes say "NWFP 1866"; actually North-Western Provinces' council, **1886**.
+- **Q:** Consider the following statements regarding the 42nd Constitutional Amendment Act, 1976:
+  - Key: 1 and 2 only
+  - ⚠ Statement 3 — wrong:  UPSC notes say "1976 **Second** Amendment" — it is the **42nd**.
+- **Q:** Consider the following pairs (description of the Preamble - person):
+  - Key: 1 and 2 only
+  - ⚠ Munshi = **horoscope**; Barker = **key-note**; Palkhivala = **identity card**.
+- **Q:** How many times has the Preamble to the Constitution of India been amended?
+  - Key: Only once — by the 42nd Amendment, 1976
+  - ⚠ Trap: UPSC notes say "1976 **Second** Amendment" — it is the **42nd**.
+- **Q:** Which one of the following pairs is correctly matched?
+  - Key: Article 371H — Arunachal Pradesh
+  - ⚠ The notes list **371I** as **Goa**, so option (4) also reads as correct per the notes.
+- **Q:** With reference to the Jammu and Kashmir Reorganisation Act, 2019, consider the following statements:
+  - Key: 1, 2, 3 and 4
+  - ⚠ A 2025 G2 key marked **31 Oct 2020** — the correct year is **2019**.
+- **Q:** The Presidential order under Article 370 that preceded the Jammu and Kashmir Reorganisation Act coming into force was issued on:
+  - Key: 5 August 2019
+  - ⚠ A 2025 G2 key marked **31 Oct 2020** for the Act — the correct year is **2019**.
+- **Q:** In which of the following years was the Citizenship Act, 1955 NOT amended, according to the stated legislative chronology?
+  - Key: 2008
+  - ⚠ UPSC notes list a "**1987** amendment for Tibetan refugees" — not in the standard list; the **1986** Act took effect on **1 July 1987**.
+- **Q:** Consider the following pairs (unit - instrument of formation):
+  - Key: 1, 2 and 3 only
+  - ⚠ APPSC G2 2025 key says **31 Oct 2020** for the J&K Act — correct is **31 Oct 2019**.
+- **Q:** The Union Territories of Jammu and Kashmir and Ladakh came into existence on:
+  - Key: 31 October 2019
+  - ⚠ **31 Oct 2020** (option 2) is the error in the **APPSC G2 2025** key; **2 Jun 2014** is **Telangana** and **20 Feb 1987** is **Mizoram**.
+- **Q:** Consider the following statements regarding the applicability of Fundamental Rights:
+  - Key: 2 and 3 only
+  - ⚠ APPSC G1 **2022** key: denied to aliens are **I, II and IV** — not Arts. 23-24.
+- **Q:** Which one of the following statements correctly describes the effect of the Supriyo Chakraborty judgment of 2023?
+  - Key: It held that there is no fundamental right to marry as such, while other Article 21 rights remain recognised.
+  - ⚠ **G2 2025** key: both "no FR to marry" and "travel abroad is an FR" were **right**.
+- **Q:** Article 300A provides that—
+  - Key: No person shall be deprived of property save by authority of law
+  - ⚠ **PYQ G1 2019** key said "Article 300"; the correct provision is **Art. 300A**.
+- **Q:** A person is dispossessed of property by an executive order without any authority of law. Which constitutional provision is most directly attracted?
+  - Key: Article 300A
+  - ⚠ PYQ G1 **2019** key wrongly gave "Article 300".
+- **Q:** Dr. B. R. Ambedkar described which constitutional provision as the ‘heart and soul’ of the Constitution?
+  - Key: Article 32
+  - ⚠ **Trap:** the **PYQ G2 2025** key gave **Art. 14**; the correct answer is **Art. 32**.
+- **Q:** Which one of the following statements about the 42nd Constitutional Amendment is INCORRECT?
+  - Key: It completely repealed the Fundamental Duties through the Forty-third Amendment.
+  - ⚠ Trap: UPSC notes say the 42nd was "**repealed in 1977**" — wrong.
+- **Q:** Which one of the following most accurately describes the basic structure doctrine?
+  - Key: Parliament may amend the Constitution, but cannot damage or destroy its core features
+  - ⚠ PYQ 2024 key: "**core features cannot be amended or altered by Parliament**".
+- **Q:** Under the Aadhaar judgment, authentication records could be retained for a maximum period of:
+  - Key: Six months
+  - ⚠ The **3-month** retention statement is a known trap (UPSC 2020 key).
+- **Q:** Aadhaar was held mandatory for which of the following purposes?
+  - Key: Subsidies or benefits charged to the Consolidated Fund and PAN or income-tax returns
+  - ⚠ UPSC 2020 key: statements 2 and 4 correct; the **3-month retention** and **insurance** statements are wrong.
+- **Q:** Consider the following statements:
+  - Key: 1 and 3 only
+  - ⚠ "Suspensive veto on Money Bills" = false (**APPSC-G1 2024**; key: **Only III valid**).
+- **Q:** Consider the following statements about N. Sanjiva Reddy:
+  - Key: 1, 2, 3 and 4
+  - ⚠ Elected President in **1977** (some notes say **1978**).
+- **Q:** Which of the following were among the matters associated with the recommendations of the N. Gopalaswami Ayyangar Committee?
+  - Key: 1, 2 and 3
+  - ⚠ It did **not** suggest a minister and secretary solely for administrative reform (UPSC **2021** key).
+- **Q:** A quorum in either House of Parliament is ordinarily:
+  - Key: One-tenth of the total membership, including the presiding officer
+  - ⚠ Some notes list it as **Art 100(1)**, but **100(1)** actually carries the **casting vote**.
+- **Q:** Which one of the following statements regarding the President's action on a Money Bill is correct?
+  - Key: The President may assent to it or withhold assent, but cannot return it for reconsideration.
+  - ⚠ Some notes say he "**cannot withhold**" a Money Bill.
+- **Q:** Which one of the following correctly describes a Financial Bill-II under Article 117(3)?
+  - Key: It can be introduced in either House and requires the President's recommendation at the consideration stage
+  - ⚠ Trap: some notes say all financial bills start in LS only → **FB-II can start in either House**.
+- **Q:** With reference to timelines for assent to State Bills, consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ APPCA dates the Tamil Nadu judgment to **2023**; the notes give **April 2025**.
+- **Q:** Consider the following statements regarding the Appropriation Bill under Article 114:
+  - Key: 1 and 3 only
+  - ⚠ APPSC-G1 2024 key: statements **I and IV** valid.
+- **Q:** Under Article 74(1) of the Constitution of India, the President ordinarily acts on the aid and advice of the Council of Ministers because:
+  - Key: the advice of the Council of Ministers is constitutionally binding
+  - ⚠ **Trap:** the President is **not** the real head of the executive (**APPSC-G2 2017** key).
+- **Q:** Consider the following statements about ministers in the Indian parliamentary system:
+  - Key: 1 and 3 only
+  - ⚠ The "President is not the real head" point was the **APPSC-G2 2017** key.
+- **Q:** In a presidential system, the President ordinarily combines which two offices?
+  - Key: Head of State and Head of Government
+  - ⚠ **APPSC-G2 2025** key: head of State, head of Government, directly elected are correct; "accountable to the legislature" is **wrong**.
+- **Q:** Consider the following statements regarding the presidential system:
+  - Key: 1, 2 and 3 only
+  - ⚠ **APPSC-G2 2025** key: "Accountable to the legislature" is the **wrong** feature.
+- **Q:** Consider the following statements regarding Shamsher Singh (1974):
+  - Key: 1 and 3 only
+  - ⚠ The President is **not** the real head of the executive (**APPSC-G2 2017** key).
+- **Q:** Which one of the following statements regarding the emoluments of a Governor is correct?
+  - Key: They are charged on the Consolidated Fund of the State.
+  - ⚠ Some notes say **Consolidated Fund of India** — the notes treat the **State** fund as correct.
+- **Q:** A resolution for the removal of the Speaker is under consideration in the Legislative Assembly. Which one of the following is correct?
+  - Key: The Speaker does not preside, but may speak and vote in the first instance
+  - ⚠ Trap: "the Speaker will preside" is **not** a power (APPSC-G1 **2022** key).
+- **Q:** Which one of the following correctly represents the composition of the 58-member Andhra Pradesh Legislative Council?
+  - Key: Local authorities 20, MLAs 20, graduates 5, teachers 5, Governor's nominees 8
+  - ⚠ The printed key "**78**" is garbled.
+- **Q:** How many members of the Andhra Pradesh Legislative Council are nominated by the Governor?
+  - Key: 8
+  - ⚠ The printed key "**78**" is garbled — the figure is **8**.
+- **Q:** The constitutional theory underlying judicial review in India is principally the theory of:
+  - Key: Supremacy of the Constitution and limited government
+  - ⚠ Judicial review = symbol of **federal government** (APPSC key); theory = **supremacy of the Constitution**.
+- **Q:** Which of the following statements correctly distinguishes Articles 358 and 359?
+  - Key: 1 and 2 only
+  - ⚠ LENS Jul **2026** MCQ keyed "Arts 20 and 21 can be suspended under Art. 359" as **wrong**.
+- **Q:** The criticism that deferred State elections could prolong President’s Rule is particularly connected with a possible conflict involving:
+  - Key: Article 356(5)
+  - ⚠ **Trap:** both conditions needed — some notes say "or".
+- **Q:** The Rajamannar Committee recommended abolition of the All-India Services primarily to:
+  - Key: Reduce central administrative control over State governments
+  - ⚠ **UPSC 1993** key: ending IAS and IPS = **Rajamannar**; the **Dhebar, Kalelkar and Kher** commissions did not.
+- **Q:** Which one of the following was NOT recommended as a desirable quality for appointment as Governor?
+  - Key: Being closely involved in the local politics of the State
+  - ⚠ Trap: "should have **travelled extensively** in the state" was NOT recommended (**APPSC-G2 2017** key).
+- **Q:** The recommendation to establish a Local Body Ombudsman was made by the:
+  - Key: Second Administrative Reforms Commission in its Sixth Report
+  - ⚠ The **UKPSC 2012** key marked the **First ARC**; the standard answer is the **Second ARC**.
+- **Q:** With reference to post-retirement restrictions on Election Commissioners, consider the following statements:
+  - Key: 2 and 3 only
+  - ⚠ Some notes say the CEC cannot hold office of profit after retirement — the Constitution has **no such bar**.
+- **Q:** The voting age in India was lowered from 21 to 18 years by which Constitutional Amendment Act?
+  - Key: 61st Amendment Act, 1988
+  - ⚠ Some notes give **1987** for the cut; the Act year is **1988**.
+- **Q:** Which election is associated with the beginning of the coalition era in the States, rather than with the end of the Congress system at the national level?
+  - Key: Fourth general election of 1967
+  - ⚠ Match: **1967** (States), **1971** (APPSC key), **1977** (Centre), **1989** (multi-party era).
+- **Q:** Which Prime Minister headed the minority Congress government that completed a full term from 1991 to 1996?
+  - Key: P.V. Narasimha Rao
+  - ⚠ Doubt: the **United Front** (**Deve Gowda** then **Gujral**) is the obvious two-PM minority government; learn the key, know the doubt.
+- **Q:** Consider the following statements regarding the United Front governments:
+  - Key: 1, 2 and 3
+  - ⚠ The **APPSC 2007** key still names **P.V. Narasimha Rao**'s government as the "only minority government under two PMs".
+- **Q:** Consider the following statements regarding the Fourteenth Lok Sabha elected in 2004:
+  - Key: 1, 2 and 3
+  - ⚠ **RPSC 2024** key: of "Congress 145, BJP 133, CPI(M) 48" only the Congress figure was correct — BJP was **138**, CPI(M) **43**.
+- **Q:** The National Commission for Women was constituted in:
+  - Key: January 1992
+  - ⚠ **Rekha Sharma** was the chairperson in July **2023** (G2-GS 2023 key).
+- **Q:** Who was the first Chairperson of the National Commission for Women?
+  - Key: Jayanti Patnaik
+  - ⚠ **Rekha Sharma** was chair in July **2023** (G2-GS 2023 key).
+- **Q:** Consider the following statements regarding the jurisdiction of the Lokpal:
+  - Key: 1, 3 and 4 only
+  - ⚠ UPSC **2025** key marks the "not posted abroad" statement wrong.
+- **Q:** Which of the following constituted the fundamental objectives of Panchayati Raj?
+  - Key: 1 and 3 only
+  - ⚠ **Political accountability** and **financial mobilisation** are not the keyed objects.
+- **Q:** Match List-I with List-II:
+  - Key: A-2, B-3, C-1, D-4
+  - ⚠ The name 'Panchayati Raj' is credited to **M.K. Gandhi** (UPPSC 2017 key), not Nehru.
+- **Q:** Consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ Statement 3 wrong:  social education was **NOT** part of **NAEP**, IRDP or the National Literacy Mission (APPSC 2019 key).
+- **Q:** Which one of the following correctly describes the election pattern recommended by the Balwant Rai Mehta Committee?
+  - Key: Direct election to the Gram Panchayat and indirect elections to the Panchayat Samiti and Zila Parishad
+  - ⚠ "Direct elections to both village panchayat and Zila Parishad" is a keyed **false** statement (APPSC 2019).
+- **Q:** With reference to the Ashok Mehta Committee, consider the following recommendations:
+  - Key: 1 and 2 only
+  - ⚠ **L.M. Singhvi** is keyed as the committee that "**first suggested constitutional status**" (APPSC 2018); older notes credit Ashok Mehta too.
+- **Q:** Which committee recommended constitutional status for Panchayati Raj Institutions as its principal precondition?
+  - Key: L.M. Singhvi Committee
+  - ⚠ Older notes say **Ashok Mehta** also recommended it; **Balwant Rai Mehta** did **not** propose it.
+- **Q:** Which of the following statements about the Ashok Mehta Committee is correct?
+  - Key: It was the first committee to seek constitutional recognition and party-based elections for Panchayati Raj Institutions
+  - ⚠ Notes differ: APPSC 2018 key credits **L.M. Singhvi (1986)** as the committee that "**first suggested constitutional status**".
+- **Q:** Which of the following are compulsory provisions under Part IX of the Constitution?
+  - Key: 1, 2, 3 and 4
+  - ⚠ **Trap:** some UPSC notes list Gram Sabha, three tiers or SEC as "voluntary" — **WRONG**.
+- **Q:** Consider the following statements about autonomous districts under the Sixth Schedule:
+  - Key: 1 and 2 only
+  - ⚠ Key (**APPSC-G2 2017**): **autonomous region is a unit within an autonomous district**.
+- **Q:** The Panchayats (Extension to the Scheduled Areas) Act was enacted in 1996 on the recommendation of which committee?
+  - Key: Dilip Singh Bhuria Committee
+  - ⚠ Some notes give the Bhuria report year as **1991**.
+- **Q:** Which of the following States is NOT among the ten Fifth Schedule States covered by PESA?
+  - Key: Tamil Nadu
+  - ⚠ Key (**RPSC 2016**): PESA not covered — **Assam-Meghalaya-Tamil Nadu**.
+- **Q:** The principal aim of social legislation is to:
+  - Key: Protect vulnerable persons and establish minimum conditions for a dignified life
+  - ⚠ Key: "**all of the above**" (**APPSC-GS 2019**).
+- **Q:** Consider the following statements regarding the image-building role of mass media:
+  - Key: 1 and 2 only
+  - ⚠ Key (**APPSC-GS 2018**): **(A) true, (R) the correct explanation**.
+- **Q:** Consider the following committees:
+  - Key: 1, 2, 3, 4, 5
+  - ⚠ An MPPSC **2023** key named **Sukhadeo Thorat** for the July 2000 committee; standard sources say **Alagh**.
+- **Q:** The committee set up by the UPSC in July 2000 to review the Civil Services Examination scheme was headed by:
+  - Key: Y.K. Alagh
+  - ⚠ An **MPPSC 2023** key names **Sukhadeo Thorat** — the Thorat vs Alagh trap.
+- **Q:** Navratna public sector undertakings were given greater autonomy in:
+  - Key: 1997
+  - ⚠ NCERT-based notes say **1996**.
+- **Q:** Which of the following sets comprises governance reforms aimed at reducing the size and cost of the State?
+  - Key: 1, 2 and 3 only
+  - ⚠ This keyed set (downsizing, disinvestment, privatisation of higher education) was asked by **UPSC in 2010**.
+- **Q:** Consider the following statements about the Law Commission of India:
+  - Key: 3 and 4 only
+  - ⚠ **APPSC-G1 2024** keyed "All incorrect" for statements calling it a quasi-judicial body advising the President.
+- **Q:** With reference to the Securities and Exchange Board of India, consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ The **APPSC-GS 2018** key gives **12 Apr 1992** for autonomous/statutory status.
+- **Q:** Under the current composition described for the Competition Commission of India, it consists of:
+  - Key: A Chairperson and two to six other members appointed by the Central Government
+  - ⚠ Older notes say "Chairperson and six Members"; the original **2002** Act allowed up to **10** members.
+- **Q:** Civil society organisations are described as development partners and democratic watchdogs forming the:
+  - Key: Third sector alongside government and market
+  - ⚠ **APPSC 2019** key called NGOs **"observationalists in development"**; standard texts call them **partners** of government.
+- **Q:** In the context of development programmes, NGOs were described by the APPSC 2019 key as:
+  - Key: Observationalists in development
+  - ⚠ Trap: standard texts call NGOs **partners** of government, but the APPSC key used "observationalists".
+- **Q:** Which of the following is NOT generally regarded as a pressure group?
+  - Key: A group of Members of Parliament acting in their legislative capacity
+  - ⚠ **APPSC 2007** key: **AITUC** is the **most powerful pressure group**.
+- **Q:** Consider the following statements about attempted suicide in law:
+  - Key: 1 and 3 only
+  - ⚠ Sources differ: APP notes give **3 months** for Sec. 309.
+- **Q:** Which one of the following correctly describes the Rangarajan poverty-line estimates for 2011–12?
+  - Key: ₹32 per day in rural areas and ₹47 per day in urban areas
+  - ⚠ Trap: APSES and CDI wrongly give ₹972/₹1,407 as **Tendulkar's** — the **APPSC-GS 2025** key confirms **₹32** as Rangarajan's.
+- **Q:** Which one of the following is NOT specifically included among the rights recognised in the Universal Declaration of Human Rights?
+  - Key: Right to universal basic income
+  - ⚠ Privacy is protected by UDHR **Art. 12** and ICCPR **Art. 17**, though a JPSC **2016** key treated it as not UN-listed.
+- **Q:** Which of the following statements regarding privacy and international human rights law is correct?
+  - Key: Privacy is protected by Article 12 of the UDHR and Article 17 of the ICCPR.
+  - ⚠ A **JPSC 2016** key treated privacy as not a UN-listed human right — expect this only in badly set questions.
+- **Q:** Consider the following statements regarding the Dowry Prohibition Act, 1961:
+  - Key: 2 only
+  - ⚠ Notes saying "up to five years" are wrong.
+- **Q:** Which one of the following statements correctly describes Article 335 of the Constitution?
+  - Key: It requires SC/ST claims in services to be considered consistently with administrative efficiency.
+  - ⚠ G2 **2024** key said **89th** — wrong; the correct answer is the **82nd**.
+- **Q:** The proviso to Article 335 relating to relaxation of qualifying marks in promotion was enabled by which Constitutional Amendment?
+  - Key: Eighty-Second Amendment Act, 2000
+  - ⚠ G2 **2024** circulated key said **89th** — that is the **NCSC-NCST bifurcation** amendment.
+- **Q:** Which one of the following is NOT a duty of the State under Section 15A of the Protection of Civil Rights Act, 1955?
+  - Key: Making appointments to the Supreme Court
+  - ⚠ Not **Minority Affairs** (UKPSC **2025** key).
+- **Q:** The Kaka Kalelkar Commission did not accept which of the following as the criterion for identifying backward classes?
+  - Key: Caste
+  - ⚠ The notes list "**low caste status**" among Kalelkar's own criteria — it was the **Centre**, not the Commission, that rejected caste.
+- **Q:** Article 16(4A), relating to reservation in promotion for the Scheduled Castes and Scheduled Tribes, was inserted by the
+  - Key: 77th Constitutional Amendment Act
+  - ⚠ APPSC G2 **2024** keyed relaxation to the "**89th**" — wrong; it is the **82nd**.
+- **Q:** Which one of the following statements is NOT correct?
+  - Key: The 89th Amendment introduced the relaxation of qualifying marks under Article 335.
+  - ⚠ APPSC G2 **2024** keyed relaxation to the "**89th**" — WRONG.
+- **Q:** The Justice G. Rohini Commission on sub-categorisation of OBCs submitted its report to the President on:
+  - Key: 31 July 2023
+  - ⚠ UPSC notes say **October 2023**; the report is **not yet public**.
+- **Q:** Consider the following statements:
+  - Key: 1, 2 and 3
+  - ⚠ APPSC **2022** keyed as "true" that the committee recommended lowering the age from **18**.
+- **Q:** Which of the following statements correctly describes the role of an Anganwadi Worker?
+  - Key: 1, 2, 3 and 4
+  - ⚠ The AWW is an **ICDS** functionary, not ANM/NHM (G2 **2025** key).
+- **Q:** An Anganwadi Worker (AWW), an honorary worker who runs the Anganwadi Centre, is a functionary of which scheme?
+  - Key: Integrated Child Development Services (ICDS)
+  - ⚠ Trap: not **ANM/NHM** (APPSC-G2 **2025** key).
+- **Q:** Which one of the following is an environmental effect of population growth?
+  - Key: Overuse of resources
+  - ⚠ **Trap (UPPSC 2023 key):** "Population control is necessary for the environment" is **true**, but the reason given was false.
+- **Q:** Consider the following statements regarding the debate on population control:
+  - Key: 1, 2, 3 and 4
+  - ⚠ In the UPPSC 2023 key, the assertion was true but the **reason** given was false.
+- **Q:** Which State was the first to formulate a transgender policy?
+  - Key: Kerala
+  - ⚠ Some notes give the year as **2021**.
+- **Q:** A political promise to conserve the language of a particular section of citizens is, by itself, treated under the Representation of the People Act, 1951 as—
+  - Key: Not a corrupt practice
+  - ⚠ Some notes give the RPA year as **1957**.
+- **Q:** Consider the following statements regarding the National Commission for Minorities:
+  - Key: 1 and 2 only
+  - ⚠ GS 2018 key: appointed by the **Union Government**.
+- **Q:** While inquiring into complaints, the National Commission for Minorities may exercise powers similar to those of a civil court, including:
+  - Key: 1 and 2 only
+  - ⚠ APPCA 2026 / older notes say "no automatic civil-court powers"; follow the Act.
+- **Q:** Which of the following statements is correct regarding institutions related to minority affairs?
+  - Key: Both 1 and 2
+  - ⚠ The APPSC 2016 key said **18**; older notes **15**.
+- **Q:** Which one of the following changes was associated with the Waqf (Amendment) Act, 2025?
+  - Key: The Limitation Act became applicable and the relevant provision was Section 107 of the 1995 Act.
+  - ⚠ The notes say Sec. 107 was **repealed**, not strengthened.
+- **Q:** As per the latest available information, how many States/Union Territories have statutory Minorities Commissions, including Andhra Pradesh and Telangana?
+  - Key: 19
+  - ⚠ The APPSC 2016 key said **18**; older notes listed **15**.
+- **Q:** Consider the following statements about Special Drawing Rights (SDRs):
+  - Key: 1 and 3 only
+  - ⚠ Trap: older notes say **four** currencies — outdated.
+- **Q:** India has served in how many of the 72 United Nations peacekeeping missions mentioned in the available data?
+  - Key: 53
+  - ⚠ Older questions (**UPPSC 2011**) keyed India as the **biggest** contributor — now outdated.
+- **Q:** As of 2026, India's rank among troop contributors to UN peacekeeping is:
+  - Key: Fourth-largest
+  - ⚠ **UPPSC 2011** keyed India as the **biggest** contributor — an outdated answer.
+- **Q:** Consider the following pairs (Law - Years):
+  - Key: 1 and 2 only
+  - ⚠ TADA (**1985**, APPSC key) → POTA (**2002**).
+- **Q:** Swarnajayanti Gram Swarozgar Yojana (SGSY), which merged IRDP, TRYSEM, DWCRA and allied schemes, started on:
+  - Key: 1 April 1999
+  - ⚠ The **APPSC 2025** key gave SGSY as **1995**; learn **1999** but recognise the key's option.
+- **Q:** UDAN is a regional connectivity scheme administered by the:
+  - Key: Ministry of Civil Aviation
+  - ⚠ **APPSC 2022** UDAN trap: keyed "I and III correct" — the "8 years in Aug 2023" statement is false.
+- **Q:** Consider the following statements regarding the new health insurance model announced in Andhra Pradesh in May 2025:
+  - Key: 1, 2 and 3
+  - ⚠ **G2-GS 2024** keyed "covers up to ₹25 lakh per family a year" as correct.
+- **Q:** Andhra Pradesh was ranked first in the Business Reforms Action Plan (BRAP) in which of the following years or combinations?
+  - Key: 2016 jointly with Telangana, 2017 and 2019
+  - ⚠ CDI notes say "**#1 since 2016**".
+
+## Economy (103)
+
+- **Q:** Who is correctly associated with the title 'Father of Economics'?
+  - Key: Adam Smith
+  - ⚠ The title does **not** go to **Keynes** — this was the trap in UPPSC 2024.
+- **Q:** Which one of the following correctly distinguishes insurance density from insurance penetration?
+  - Key: Insurance density is premium per capita, whereas insurance penetration is total premium as a percentage of GDP
+  - ⚠ Neither means **insured persons per 100 or per 1,000** people — the **APPSC 2017** key marked "none of these" correct.
+- **Q:** Which sector has consistently recorded the highest share of employment in India across the major workforce surveys mentioned?
+  - Key: Agriculture
+  - ⚠ Trap: the **APPSC-GS 2007** key "**cottage industries**" is wrong.
+- **Q:** According to Census 2011 data for the 13-district Andhra Pradesh, which statement is correct?
+  - Key: Agricultural labourers formed 47.9 per cent of workers, compared with 30.0 per cent for India.
+  - ⚠ The notes also record other workers as AP **34.8%** vs India **41.6%**, so option (3) also matches the notes; the key is (4).
+- **Q:** Consider the following statements about District Planning Committees:
+  - Key: 1, 2 and 3 only
+  - ⚠ Some AP notes say the **73rd Amendment** added "**243J**" for DPCs; DPCs are in **Part IXA**, **74th Amendment**.
+- **Q:** The constitutional basis for decentralised planning through Panchayats and Municipalities is most directly associated with the
+  - Key: 73rd and 74th Amendments
+  - ⚠ Some AP notes say the 73rd Amendment added "**243J**" for DPCs — the correct home is Part IXA.
+- **Q:** The Second Five Year Plan achieved growth of approximately
+  - Key: 4.21 per cent against a target of 4.5 per cent
+  - ⚠ Some notes say target **7.5%**, achieved **4.1%**.
+- **Q:** Match List-I with List-II and select the correct answer.
+  - Key: a–ii, b–iv, c–i, d–iii
+  - ⚠ Older UPSC notes give the Second Plan target as **7.5**.
+- **Q:** Which Five Year Plan recorded the highest GDP growth among the plans listed?
+  - Key: Eleventh Five Year Plan
+  - ⚠ UPSC notes give **7.9**.
+- **Q:** NITI Aayog was established by which of the following?
+  - Key: A Union Cabinet resolution of 1 January 2015
+  - ⚠ The APPSC-GS 2025 key marking **2012** is **wrong** — the correct year is **2015**.
+- **Q:** Consider the following statements regarding the composition of NITI Aayog:
+  - Key: 1, 2 and 4 only
+  - ⚠ Older notes say **3 full-time** — that was the **2015** set-up; it varies with each reconstitution.
+- **Q:** According to the APPSC-GS 2025 answer key, NITI Aayog at present has:
+  - Key: Five full-time and two part-time members
+  - ⚠ Older notes give **3 full-time** — that is the **2015** set-up; the number varies with each reconstitution.
+- **Q:** Consider the following statements regarding membership of the two institutions:
+  - Key: 1, 2 and 3
+  - ⚠ APPSC-GS 2025 key: **five full-time and two part-time** members.
+- **Q:** Which of the following statements about WIPO is correct?
+  - Key: 1, 2, 3 and 4
+  - ⚠ Some notes give **1893** — the date of its **predecessor**.
+- **Q:** The base year used for the APSES 2024-25 figures is
+  - Key: 2011-12
+  - ⚠ Some notes say AP uses **2019-20** as base — **not supported** by the Survey (option 1 is the trap).
+- **Q:** The Central Statistical Office has prepared national income estimates since:
+  - Key: 1955
+  - ⚠ Some notes give **1954** — the year the Institute was merged into CSO.
+- **Q:** Quarterly GDP estimates are generally released approximately:
+  - Key: Two months after the quarter ends
+  - ⚠ Q1 **2026-27** was released at **end-August**;  older notes say about **1** month.
+- **Q:** The Directorate of Economics and Statistics, Andhra Pradesh, estimates GSDP in how many sectors?
+  - Key: 9
+  - ⚠ Trap: some notes say AP uses **2019-20** — follow APSES.
+- **Q:** Which base year does the Andhra Pradesh Socio-Economic Survey (APSES) still use for its GSDP estimates?
+  - Key: 2011-12
+  - ⚠ Some notes say AP uses **2019-20** — **follow APSES** (option 4 is the trap).
+- **Q:** The Andhra Pradesh Directorate of Economics and Statistics (DES-AP) moved towards which base-year arrangement under the MoSPI GSVA guideline?
+  - Key: 2022–23
+  - ⚠ Some notes say AP uses **2019-20** — not supported.
+- **Q:** The Maternal Mortality Ratio (MMR) is expressed as maternal deaths per:
+  - Key: 1,00,000 live births
+  - ⚠ Some notes say per **1,000** — option (2) is that trap.
+- **Q:** Match List-I with List-II regarding the objectives of the National Population Policy, 2000:
+  - Key: a–ii, b–iii, c–i
+  - ⚠ Some notes say **2046** — **wrong**; the policy says **2045**.
+- **Q:** The long-term population stabilisation target under the National Population Policy, 2000 was:
+  - Key: 2045
+  - ⚠ Some notes say **2046** — **wrong** per PYQ keys.
+- **Q:** According to the Tendulkar Committee estimates for 2011-12, the monthly poverty line was fixed at:
+  - Key: ₹816 in rural areas and ₹1,000 in urban areas
+  - ⚠ Trap: some notes list ₹816/₹1,000 under "2010-11" — they are **2011-12** figures.
+- **Q:** Under the Rangarajan Expert Group (2011-12), the rural poverty line per person was about:
+  - Key: Rs 32 a day
+  - ⚠ Trap: some notes list **₹972/₹1,407** as Tendulkar's — a mix-up.
+- **Q:** The latest World Bank international poverty line mentioned for June 2025 is:
+  - Key: $3.00 at 2021 PPP
+  - ⚠ Trap: some notes say $3 came "in 2022" — 2022 was the **$2.15** revision.
+- **Q:** Consider the following statements regarding the World Bank estimates of poverty between 2011-12 and 2022-23:
+  - Key: 1 and 2 only
+  - ⚠ On the notes' figures, the rural fall (**18.4 → 2.8**) is larger than the urban fall (**10.7 → 1.1**), so statement 3 reads as true; the key **(1)** still marks it wrong.
+- **Q:** The National Food for Work Programme was launched on 14 November 2004 in:
+  - Key: The 150 most backward districts
+  - ⚠ Trap: APP notes say NFFWP merged in **2009** — 2009 was only the renaming.
+- **Q:** The National Rural Employment Guarantee Act, 2005, was passed in which month and year?
+  - Key: September 2005
+  - ⚠ The notes date the **MGNREGA Act** only as **2005**; the month comes from the key.
+- **Q:** In desert, hilly and tribal areas, the prescribed population size of a Rurban cluster is generally:
+  - Key: 5,000–15,000
+  - ⚠ Some notes say **5,000-25,000**.
+- **Q:** The agro-climatic zones of Andhra Pradesh are primarily defined on the basis of which of the following factors?
+  - Key: 1, 2, 3 and 4
+  - ⚠ **6 – 7 – 9** = AP now – older key (**2017**) – undivided AP.
+- **Q:** The combined, undivided Andhra Pradesh was regarded as having nine agro-climatic zones because it included:
+  - Key: Six Andhra Pradesh zones and three Telangana zones
+  - ⚠ **6 – 7 – 9**: AP now – **2017** key – undivided AP.
+- **Q:** Which of the following is the scientific core of the Green Revolution package?
+  - Key: Use of high-yielding variety seeds
+  - ⚠ **ICAR 2019-21** released **562** new high-yielding field-crop varieties (PYQ key).
+- **Q:** Which of the following states is NOT included in the listed geographical coverage of BGREI?
+  - Key: Tamil Nadu
+  - ⚠ UPSC notes list **WB, Bihar, Jharkhand, Odisha, Assam** and **eastern UP**, without Chhattisgarh.
+- **Q:** Consider the following statements regarding PMFBY:
+  - Key: 1, 2, 3 and 4
+  - ⚠ Some notes say it is compulsory for loanee farmers.
+- **Q:** The special committee set up after the 2011 crop holiday by paddy farmers of Konaseema (East Godavari) was chaired by:
+  - Key: Mohan Kanda
+  - ⚠ No official key exists for that APPSC question.
+- **Q:** Which of the following is NOT one of the principal goals of tenancy reform?
+  - Key: Compulsory corporate ownership of leased land
+  - ⚠ The Koneru Ranga Rao Committee also did not focus on **corporate farming** (APPSC G2 **2017** key).
+- **Q:** The Nagpur Resolution of 1959 made which of the following a party goal?
+  - Key: Cooperative farming
+  - ⚠ Compulsory membership is **not** a feature (APPSC G2 **2017** key).
+- **Q:** The standard ceiling limits under the AP Land Reforms (Ceiling on Agricultural Holdings) Act, 1973 were generally stated as:
+  - Key: 10–27 acres wet and 35–54 acres dry
+  - ⚠ Some notes say **30-54** acres dry.
+- **Q:** The Koneru Ranga Rao Committee of the Andhra Pradesh Government was constituted in:
+  - Key: 2006
+  - ⚠ Not **corporate farming** (APPSC G2 **2017** key).
+- **Q:** Bhu Bharathi was piloted in which district?
+  - Key: Nizamabad
+  - ⚠ Some notes say it was completed in **Ranga Reddy** district.
+- **Q:** Which body approves the Minimum Support Price after its recommendation by the Commission for Agricultural Costs and Prices (CACP)?
+  - Key: Cabinet Committee on Economic Affairs
+  - ⚠ An old APPSC G2 **2017** key credited CACP with "determining" MSP — CACP only **recommends**.
+- **Q:** The Shanta Kumar High Level Committee on restructuring the Food Corporation of India was constituted in which year and submitted its report in which year?
+  - Key: 2014 and 2015
+  - ⚠ Older notes say "set up in **2015**".
+- **Q:** India's present position in global milk production and its approximate share of world output are:
+  - Key: First and about 25 per cent
+  - ⚠ Older notes give **190 MT** and **394 g** — stale.
+- **Q:** Which of the following statements correctly describes the change in India's sectoral GDP structure after 1991?
+  - Key: Services gained the most share, while industry's share did not rise significantly relative to services.
+  - ⚠ "Industry's share rose significantly compared to services" is **false** (APPSC-GS 2023 key: only II and III correct).
+- **Q:** SIDBI was established on 2 April 1990 under which legislation?
+  - Key: The SIDBI Act, 1989
+  - ⚠ SIDBI **Act 1989**, set up **1990** (APPSC-GS 2019 key: 1990).
+- **Q:** After the later reduction in the list, industrial licensing under the New Industrial Policy, 1991 continued for how many industries?
+  - Key: 5
+  - ⚠ Older notes say **6** — the post-1998-99 list included **drugs & pharmaceuticals**, since delicensed.
+- **Q:** Consider the following statements regarding the mandatory convertibility clause under the 1991 industrial policy framework:
+  - Key: 1 and 2 only
+  - ⚠ Learn the key's wording: "term loans of **less than 10 years**".
+- **Q:** Make in India 2.0 covers how many priority or champion sectors, and how are they distributed between manufacturing and services?
+  - Key: 27 sectors: 15 manufacturing under DPIIT and 12 services under the Department of Commerce
+  - ⚠ Trap: the APPSC **2018** key gave "**10**" for this count.
+- **Q:** Consider the following statements about the Production Linked Incentive scheme:
+  - Key: 1, 2 and 3
+  - ⚠ Older notes say **13** sectors (Budget **2021** count); older investment figure **₹1.88 lakh crore**.
+- **Q:** Proposals for setting up SEZs are routed through the State Government to which body for approval?
+  - Key: Board of Approval
+  - ⚠ Trap: SEZs are set up primarily for **exports**, not employment (APPSC-G2 **2017** key).
+- **Q:** Special Economic Zones in India are set up primarily to:
+  - Key: Promote exports
+  - ⚠ "Primarily to **generate employment**" is NOT true — the **APPSC-G2 2017** key.
+- **Q:** Which of the following is NOT identified as a criticism or debate concerning SEZs and industrial policy?
+  - Key: Guaranteed expansion of employment in every notified SEZ
+  - ⚠ SEZs are primarily for **exports**, not employment (APPSC-G2 2017 key).
+- **Q:** Which one of the following was treated as NOT belonging to the Government's second-generation reform list in the relevant classification?
+  - Key: Legal System Reforms
+  - ⚠ UPSC notes do mention **IPC/CrPC** and labour/company-law reforms — but follow the key.
+- **Q:** Which of the following is the correct number of Central laws merged into the four Labour Codes?
+  - Key: 29
+  - ⚠ Trap: some notes say the **Code on Wages** merges 29 — it merges only **4**; 29 is all four Codes together.
+- **Q:** Consider the following statements regarding Special Economic Zones (SEZs):
+  - Key: 1, 2, 3 and 4
+  - ⚠ The PYQ key gives **EXIM Policy 2000-01** for the SEZ concept.
+- **Q:** Consider the following statements:
+  - Key: 1 and 3 only
+  - ⚠ Some notes say Tarapore II was **constituted** on 31 July 2006.
+- **Q:** With reference to Special Drawing Rights, consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ PYQ 2025: where options were only paper currency/gold/silver, the key chose **paper currency**.
+- **Q:** The form in which Special Drawing Rights are maintained is best described as:
+  - Key: Book-keeping or accounting entries
+  - ⚠ Trap: where options are only paper currency/gold/silver, the key chose **paper currency** (PYQ 2025).
+- **Q:** Which one of the following is NOT included in the SDR basket?
+  - Key: Indian rupee
+  - ⚠ Older notes list only four currencies, without the **renminbi**.
+- **Q:** Which one of the following sets consists entirely of instruments or markets associated with the organised financial system?
+  - Key: Call money, Treasury bills, commercial bills and certificates of deposit
+  - ⚠ APPSC-G2 **2017** key: **finance companies** are **not** part of the organised money market.
+- **Q:** Which of the following belongs to the unorganised money market?
+  - Key: Indigenous bankers and moneylenders
+  - ⚠ APPSC-G2 **2017** key placed **finance companies** outside the organised market.
+- **Q:** Which one of the following is correctly matched with the organised money market?
+  - Key: Money-market mutual funds and DFHI
+  - ⚠ APPSC-G2 **2017** key: **finance companies** not organised.
+- **Q:** As per the APPSC Group 2 (2017) answer key, which one of the following is NOT a part of the organised money market in India?
+  - Key: Finance companies
+  - ⚠ The notes' general table does list finance companies under organised — follow the **key** for the PYQ.
+- **Q:** Which of the following institutions are regulated and supervised by the Reserve Bank of India as All-India Financial Institutions?
+  - Key: EXIM Bank, NABARD, NHB, SIDBI and NaBFID
+  - ⚠ APPSC GS **2024** ("out of **17** AIFIs") keyed **9** — the notes do not explain that count.
+- **Q:** Match List-I with List-II regarding institutions and their years of establishment:
+  - Key: a–i, b–ii, c–iii, d–iv
+  - ⚠ UPSC notes give GIC as **1971** — the year the Government took over management of general insurers.
+- **Q:** The Economic Survey described the fall in WALR on fresh loans during FY26 as a robust pass-through of:
+  - Key: 64 basis points
+  - ⚠ Some notes say **69 bps**; **125 bps** is the cumulative **repo cut** since Feb **2025**.
+- **Q:** Consider the following statements about the Narasimham-II Committee:
+  - Key: 1 and 3 only
+  - ⚠ APPSC GS 2019 key called the 1991 body "Committee on Banking Sector Reforms" — the official title is **Committee on the Financial System**.
+- **Q:** Match List-I with List-II:
+  - Key: a–iii, b–iv, c–ii, d–i
+  - ⚠ Notes listing "Tier I 4.5%" confuse it with the BCBS **CET1** floor.
+- **Q:** Consider the following statements about the Global Financial Crisis (2007-09):
+  - Key: 1 and 3 only
+  - ⚠ Trap: the GFC was **not** caused by oil prices (**UPPSC 2010** key).
+- **Q:** Teaser loans are best described as loans having:
+  - Key: A low fixed interest rate in the early years and a higher rate subsequently
+  - ⚠ Key: **statement 1 only** (**UPSC 2011**).
+- **Q:** Arrange the following events associated with the sub-prime crisis in the correct sequence:
+  - Key: B, E, C, D, A
+  - ⚠ Trap: **not** caused by oil prices (**UPPSC 2010** key: 2, 3, 4).
+- **Q:** Which one of the following was NOT a link in the sub-prime crisis chain described for its impact on India?
+  - Key: A sustained fall in oil prices causing the banking collapse
+  - ⚠ The sub-prime crisis was **not caused by oil prices** (**UPPSC 2010** key).
+- **Q:** Which one of the following statements regarding the Financial Stability and Development Council is correct?
+  - Key: It was set up in December 2010 and is chaired by the Union Finance Minister.
+  - ⚠ Trap: only statement 3 correct (**UPSC 2016** key).
+- **Q:** Consider the following statements about FSDC:
+  - Key: 1, 2 and 3 only
+  - ⚠ **UPSC 2016** key: only statement 3 correct.
+- **Q:** Consider the following as possible drivers of stagflation in India:
+  - Key: 1, 2 and 3 only
+  - ⚠ Key: **a and b only** (**APPSC-G2 2025**).
+- **Q:** Which of the following statements regarding the Centre’s direct and indirect tax shares is correct?
+  - Key: 1, 2 and 3
+  - ⚠ Some notes give **51%**; Budget receipt shares support **~61%**.
+- **Q:** Which State was the first to ratify the 101st Constitutional Amendment?
+  - Key: Assam
+  - ⚠ Trap: some notes say Assam was "first to implement GST" — it was first to **ratify**.
+- **Q:** Which one of the following is a Central tax subsumed into the Goods and Services Tax (GST)?
+  - Key: Central Excise Duty
+  - ⚠ Trap: some notes list stamp duty as "merged" — it was not.
+- **Q:** Gram panchayats may levy which of the following, subject to authorisation by the State?
+  - Key: Tax on local fairs
+  - ⚠ **Sales tax** and **land revenue** are **State levies** (**UPPSC 2018** key); corporation tax is a Union tax in the **divisible pool**.
+- **Q:** The seven backward districts identified under the Andhra Pradesh Reorganisation Act, 2014 consisted of:
+  - Key: Four Rayalaseema districts and three North Coastal districts
+  - ⚠ **Nalgonda** (Telangana) is NOT an AP backward area (APPSC-GS 2022 key).
+- **Q:** Which one of the following statements regarding the coastline of Andhra Pradesh is NOT correct?
+  - Key: The 2023–24 remeasurement places Andhra Pradesh as the longest-coastline State in India.
+  - ⚠ **Trap:** some notes say "longest" — wrong.
+- **Q:** Which one of the following is NOT correctly matched?
+  - Key: Tidal forests — 75–100 cm rainfall in Kadapa and Kurnool
+  - ⚠ Some notes list the north-coastal moist belt under "tidal forests".
+- **Q:** Which of the following statements correctly distinguishes Nagar Van Yojana from Nagaravanam in Andhra Pradesh?
+  - Key: Nagar Van Yojana is a Central scheme involving 61 sanctioned Nagar Vans, whereas Nagaravanam completed 37 city forests and seven Temple Eco-parks.
+  - ⚠ The 2023 PYQ on the NVY count has no answer key.
+- **Q:** Consider the following statements regarding forest-cover targets and reported coverage:
+  - Key: 1, 2 and 3
+  - ⚠ Forest + tree cover = **21.74%** (APPSC 2025 key).
+- **Q:** The resource-gap estimates for Andhra Pradesh were ₹4,118 crore, ₹13,776 crore and ₹16,078 crore according to, respectively:
+  - Key: The Union Finance Ministry, the CAG and the State
+  - ⚠ The printed APPSC 2016 key is garbled ("...3,776 Cr"); it is not ₹20,745 / 16,211 / 21,481 crore.
+- **Q:** Which of the following statements about the Polavaram Project is correct?
+  - Key: It is located in Eluru district, which was earlier identified as part of West Godavari district.
+  - ⚠ **West Godavari** is the old PYQ key for the district.
+- **Q:** Consider the following statements regarding the Polavaram Project under Section 90 of the Andhra Pradesh Reorganisation Act, 2014:
+  - Key: 1 and 3 only
+  - ⚠ "Which section" — answer **90**; an old key says Section **30**, some CA notes say **89** — both wrong.
+- **Q:** The Polavaram Irrigation Project was declared a national project under which section of the Andhra Pradesh Reorganisation Act, 2014?
+  - Key: Section 90
+  - ⚠ An old key says **Section 30** and some CA notes say **Section 89** — both wrong.
+- **Q:** What is the correct expansion of APEPDCL?
+  - Key: Andhra Pradesh Eastern Power Distribution Company Limited
+  - ⚠ PYQ key says "Corporation" for APCPDCL; some notes say "Company".
+- **Q:** Which statement best reflects the nomenclature issue concerning APCPDCL?
+  - Key: The abbreviation is given as Andhra Pradesh Central Power Distribution Corporation Limited, although some references use 'Company'.
+  - ⚠ The **PYQ key** says "Corporation"; some notes say "Company".
+- **Q:** Consider the following statements about Google's AI data centre in Andhra Pradesh:
+  - Key: 1 and 2 only
+  - ⚠ Some notes give **₹87,520 crore** (SES 2025-26 earlier figure).
+- **Q:** Rayalaseema accounts for approximately what share of Andhra Pradesh's horticulture area and output, respectively?
+  - Key: 45% of area and 52% of output
+  - ⚠ The notes say **19.50 lakh acres** works out to **43%** of area — "the Survey prints 45%".
+- **Q:** Who coordinates the functioning of Rythu Bazars at the district level in Andhra Pradesh?
+  - Key: Joint Collector
+  - ⚠ "**District Collector** is the coordinating officer" = **wrong** (**PYQ 2025** key).
+- **Q:** Manufacturing contributes approximately what share of the Gross State Domestic Product of Andhra Pradesh?
+  - Key: 11%
+  - ⚠ Do not confuse with the MSME share of GSDP: **23.5%** (the "**33.5%**" statement was keyed incorrect).
+- **Q:** Which of the following statements is correct regarding the MSME sector in Andhra Pradesh?
+  - Key: 1, 2, 3 and 4
+  - ⚠ "**33.5%** of GSDP" was keyed **incorrect** (G2 2025).
+- **Q:** Consider the following about the Andhra Pradesh Budget 2022-23 (asked in APPSC 2023):
+  - Key: Both A and R are true, but R is not the correct explanation of A
+  - ⚠ Trap: "Both A and R true, but R does not explain A" was the key.
+- **Q:** Consider the following statements regarding power sharing between Andhra Pradesh and Telangana under the Twelfth Schedule:
+  - Key: 1 and 3 only
+  - ⚠ APPSC-GS **2019** key marked "**Gadgil formula**" for electricity distribution.
+- **Q:** The statutory basis for allocation of power from Central Generating Stations between Andhra Pradesh and Telangana is the:
+  - Key: Five-year actual consumption of the DISCOMs
+  - ⚠ APPSC-GS **2019** key marked **Gadgil formula**; the Act's rule is the **5-year consumption** basis.
+- **Q:** Under which provision of the Andhra Pradesh Reorganisation Act, 2014 is special financial support provided for essential facilities in the new capital?
+  - Key: Section 94(3)
+  - ⚠ APPSC-GS **2018** key marked **Section 95** (no option was 94); Sec 95 is the **higher-education quota** section.
+- **Q:** Which of the following facilities are specifically covered by Section 94(3) of the Andhra Pradesh Reorganisation Act, 2014?
+  - Key: 1, 2, 3 and 4
+  - ⚠ APPSC-GS 2018 key marked **Sec 95** for this.
+- **Q:** The East Coast Economic Corridor, of which the Vizag-Chennai Industrial Corridor is the first phase, extends from:
+  - Key: Kolkata to Tuticorin
+  - ⚠ Some notes give the southern end as **Kanyakumari**, but most say **Tuticorin**; option (4) adds "only", which makes it wrong.
+- **Q:** Under the Externally Aided Projects route, which of the following best describes the repayment mechanism?
+  - Key: The State borrows from multilateral agencies, while the Centre repays loan and interest up to the SCS-equivalent amount.
+  - ⚠ Some notes say "Centre to bear **40%** cost for EAPs"; the fuller account gives **90%**.
+
+## Geography (60)
+
+- **Q:** In June 2026, the International Astronomical Union announced 15 new moons in the following distribution:
+  - Key: 4 for Jupiter and 11 for Saturn
+  - ⚠ Older notes saying Jupiter has "over **70** moons" are outdated.
+- **Q:** How many parallels of latitude and meridians of longitude are conventionally drawn on the globe?
+  - Key: 179 parallels and 360 meridians
+  - ⚠ This count was the key in **BPSC 2023**.
+- **Q:** Which one of the following correctly gives the latitude and longitude extent of Andhra Pradesh?
+  - Key: 12°41′N–19°07′N and 77°E–84°40′E
+  - ⚠ Trap: older notes give AP's northern limit as **22° N** — wrong.
+- **Q:** Which element is the second most abundant by weight in the Earth's crust among the elements listed below?
+  - Key: Silicon
+  - ⚠ JPSC **2011** keyed **Aluminium** for "second largest".
+- **Q:** Which is the most abundant metal in the Earth's crust by weight?
+  - Key: Aluminium
+  - ⚠ JPSC **2011** keyed **Aluminium** for "second largest".
+- **Q:** The collision between the Indian and Eurasian plates began approximately
+  - Key: 4–5 crore years ago
+  - ⚠ Older notes say **50–55 million** years.
+- **Q:** Which one of the following statements regarding the East African Rift is correct?
+  - Key: It forms a series of mostly freshwater lakes, with Lake Malawi at its southern end.
+  - ⚠ APPSC G1 **2024** keyed statements **I, II, III** on this rift.
+- **Q:** Which of the following statements about Indian volcanic features are correct?
+  - Key: 1, 2, 3 and 4
+  - ⚠ APPSC GS **2021** key gave "Barren island" for mud volcanoes — the right answer is **Baratang**.
+- **Q:** Which one of the following correctly distinguishes Baratang from Barren Island?
+  - Key: Baratang has mud volcanoes, whereas Barren Island is India's only active magmatic volcano.
+  - ⚠ APPSC GS **2021** key gave "Barren island" for mud volcanoes — correct answer **Baratang**.
+- **Q:** Undavalli Caves are carved mainly from a:
+  - Key: Sandstone hill
+  - ⚠ Some notes say **granite**; either way they are **rock-cut**, not karst.
+- **Q:** The Antarctic ozone hole came into scientific focus in:
+  - Key: 1985
+  - ⚠ Older notes give **1983** — option (2) is the trap.
+- **Q:** Which one of the following water bodies is a closed soda lake and the world's largest alkaline lake?
+  - Key: Lake Van
+  - ⚠ APPSC G2 2023 key: **Lake Van > Dead Sea > Great Salt Lake** (NCERT figures).
+- **Q:** Consider the following statements about the National Forest Policy, 1988:
+  - Key: 1 only
+  - ⚠ "At least two-thirds of the country under forest" is **not** in NFP 1988 (APPSC **2024** key).
+- **Q:** The latitudinal extent of the present State of Andhra Pradesh is approximately:
+  - Key: 12°41′ N to 19°07′ N
+  - ⚠ Some older notes say up to **22 deg N**; that is wrong for present AP.
+- **Q:** In Andhra Pradesh, which one of the following is NOT a local name associated with the Eastern Ghats?
+  - Key: Sahyadri
+  - ⚠ Highest Eastern Ghats peak: **Arma Konda (1,680 m)**, ASR district;  some notes say **Jindhagada (1,690 m)**.
+- **Q:** Which one of the following statements about the Eastern Ghats in Andhra Pradesh is correct?
+  - Key: 1, 2 and 3
+  - ⚠ Highest point: **Arma Konda (1,680 m)**;  some notes say **Jindhagada (1,690 m)**.
+- **Q:** Consider the following statements about the Pranhita river:
+  - Key: 1 and 3 only
+  - ⚠ Some notes say the **Sileru** joins the Pranhita.
+- **Q:** Consider the following statements about the Sileru River:
+  - Key: 1, 2 and 3
+  - ⚠ Some notes say it joins the **Pranhita**.
+- **Q:** The word 'monsoon' is derived from the Arabic word 'Mausim', which means
+  - Key: season
+  - ⚠ Some notes give Urdu 'mausin' or Malay 'monsin'.
+- **Q:** Which one of the following correctly represents the approximate advance of the southwest monsoon?
+  - Key: Bhopal by 15 June and Delhi by 25 June
+  - ⚠ Some notes say full coverage "by **end of July**", others "by **end of June**".
+- **Q:** Arrange the following Himalayan vegetation zones from lower to higher elevation:
+  - Key: C, D, A, E, B
+  - ⚠ Some notes give a shorter order: subtropical-temperate-alpine.
+- **Q:** According to the cited 29 July 2026 figure, Tiger Reserves span approximately what share of India’s area?
+  - Key: 2.6 per cent
+  - ⚠ Some notes give an older area of **75,796 sq km**.
+- **Q:** The notified forest area of Andhra Pradesh is approximately what percentage of the State's geographical area?
+  - Key: 22.96 percent
+  - ⚠ Some notes give **37,221.11 sq km, 22.84%** (APSES **2024-25**).
+- **Q:** Which one of the following correctly distinguishes peaty soils from saline soils?
+  - Key: Peaty soils are associated with waterlogging and organic accumulation, whereas semi-arid conditions with salinity describe saline soils.
+  - ⚠ The APPSC-G1 2024 (OCR) key printed "semi-arid climate with salinity" for peaty soil — that describes saline soil.
+- **Q:** Which one of the following statements regarding Soil Health Card generation and testing is correct?
+  - Key: 25.79 crore cards had been generated up to February 2026, and Uttar Pradesh had issued the most cards.
+  - ⚠ Some notes say over **25.55 crore** cards issued.
+- **Q:** Which one of the following pairs is correctly matched?
+  - Key: GSI — 34 GNSS stations for tracking crustal strain
+  - ⚠ Option (2) pins the 34 GNSS stations on **NCS**, but the notes credit them to **GSI**; the notes give no NCS figures.
+- **Q:** Which one of the following correctly describes the change in Andhra Pradesh’s position by area after Jammu and Kashmir became a Union Territory?
+  - Key: It changed from eighth to seventh among States.
+  - ⚠ **APPSC-GS 2023** key "8th" reflects the **older** position.
+- **Q:** Consider the following statements regarding the Eastern Ghats:
+  - Key: 1, 2 and 3
+  - ⚠ Some notes give the average as **600-900 m**.
+- **Q:** A statement identifying the Seshachalam hills as part of the Nilgiri Hills is:
+  - Key: Incorrect, because Seshachalam is part of the Eastern Ghats
+  - ⚠ An APP source MCQ marked it "Nilgiri Hills" — **wrong** per the **APPSC-GS 2025** key.
+- **Q:** Which one of the following correctly describes the notified location of Papikonda National Park?
+  - Key: It is an Andhra Pradesh national park, although the wider Papikonda gorge is described in relation to Andhra Pradesh and Telangana.
+  - ⚠ Some notes say "in AP and Telangana" — that describes the gorge, not the park as notified.
+- **Q:** Which one of the following groups consists entirely of protected areas located in Telangana?
+  - Key: Mrugavani, Kasu Brahmananda Reddy National Park and Eturunagaram Wildlife Sanctuary
+  - ⚠ Some notes list these Telangana PAs under AP.
+- **Q:** Which of the following is a Telangana national park and not an Andhra Pradesh national park?
+  - Key: Mrugavani
+  - ⚠ Some notes list Mrugavani under AP — it is not an AP park.
+- **Q:** Match List-I with List-II and select the correct answer using the codes given below the lists:
+  - Key: A-1, B-2, C-3, D-4
+  - ⚠ The key accepted "red sandy covers most of the State", though other figures make the **loamy-subsoil red earth** the largest sub-type.
+- **Q:** Consider the following statements about laterite soils of Andhra Pradesh:
+  - Key: 1, 2 and 3 only
+  - ⚠ Some notes say nitrogen is plentiful; use the standard fact.
+- **Q:** Which one of the following is correctly matched?
+  - Key: Katanga-Zambia copper belt — mining attracts workers
+  - ⚠ **North-eastern USA** is dense but does **not depend directly on agriculture** (MPPSC 2021 key).
+- **Q:** Which one of the following correctly matches a continent with the stated demographic characteristic?
+  - Key: Brazil — most populous country in South America
+  - ⚠ The key swaps **Africa (growth)** and **Asia (density)** as traps.
+- **Q:** India’s overall sex ratio declined from 972 in 1901 to 945 in 1941 and reached a low of 927 in
+  - Key: 1991
+  - ⚠ **1911: 964** (Census); the APPSC-GS 2023 key gave **992**.
+- **Q:** The overall sex ratio reported by NFHS-5 exceeded 1,000 for the first time since
+  - Key: NFHS began in 1992
+  - ⚠ APPSC-GS 2023 key: **1,020**; AP's NFHS-4 figure is also **1,020**.
+- **Q:** Which one of the following groups consists entirely of States/UTs with no notified Scheduled Caste population?
+  - Key: Nagaland, Lakshadweep, Andaman and Nicobar Islands and Arunachal Pradesh
+  - ⚠ Trap: the APPSC 2022 key grouped Mizoram with the zero-SC list.
+- **Q:** Assertion (A): The Bhil tribe is regarded as the largest Scheduled Tribe of India.
+  - Key: Both A and R are true and R is the correct explanation of A
+  - ⚠ Some notes say "**38%** of STs" — this is wrong.
+- **Q:** Consider the following statements:
+  - Key: 1, 2 and 3
+  - ⚠ Some notes give Punjab's Sikh share as **54.7%** / **54.69%**; others **57.7%**.
+- **Q:** Which one of the following statements about Arunachal Pradesh is correct?
+  - Key: Christians are the largest single group but constitute only about 30 percent.
+  - ⚠ Trap: some notes list Arunachal among Christian-majority states.
+- **Q:** Which group consists of the scheduled languages with the smallest number of speakers as per Census 2011?
+  - Key: Sanskrit, Bodo and Manipuri
+  - ⚠ Some notes list **Kashmiri** among the smallest — it is not.
+- **Q:** As per Census 2011, residual Andhra Pradesh ranks at which position among Indian States by population and accounts for what share of India's population?
+  - Key: 10th; 4.09 per cent
+  - ⚠ APPSC 2018 and 2023 keys expect **10th** for post-2014 AP.
+- **Q:** The population density of Andhra Pradesh in 2011 was
+  - Key: 304 persons per sq km
+  - ⚠ **308** (an APPSC 2018 key) is the density of **undivided AP**, not residual AP.
+- **Q:** Which one of the following correctly represents the change in population density of Andhra Pradesh from 1981 to 2011?
+  - Key: 208, 252, 279, 304
+  - ⚠ **308** = **undivided AP**'s density (APPSC 2018 key).
+- **Q:** Which South Indian State practises shifting cultivation (jhumming), locally called podu, in the tribal tracts of the Eastern Ghats?
+  - Key: Andhra Pradesh
+  - ⚠ APPSC-GS 2025 key for Bastar: **Dipa**.
+- **Q:** Consider the following statements regarding the PLI-Auto scheme:
+  - Key: 1, 2, 3 and 4
+  - ⚠ Older notes say **13** sectors.
+- **Q:** With reference to the Production Linked Incentive (PLI) scheme, consider the following statements:
+  - Key: 1, 2 and 3
+  - ⚠ Older notes say **13** sectors.
+- **Q:** Which one of the following pairs is correctly matched?
+  - Key: Tidal port — Deendayal (Kandla)
+  - ⚠ Deendayal was the **largest cargo port** in the APPSC **2019** key; now it is **Paradip**.
+- **Q:** Which port became the largest cargo-handling port according to the 2026 ranking cited?
+  - Key: Paradip Port
+  - ⚠ **Kandla/Deendayal** was the earlier answer (APPSC **2019** key).
+- **Q:** Consider the following pairs:
+  - Key: a, b, c and d
+  - ⚠ PYQ 2024 keyed **Ramayapatnam-Prakasam**; Survey 2025-26 places it in **SPSR Nellore**.
+- **Q:** Which one of the following statements correctly distinguishes the principal export-share figures of Andhra Pradesh?
+  - Key: 1, 2 and 3
+  - ⚠ For marine products overall, use **40%** (matches the **APPSC-GS 2021** key).
+- **Q:** Approximately what share of India's shrimp exports is associated with Andhra Pradesh?
+  - Key: 70%
+  - ⚠ **40%** is AP's share in **marine products** overall (APPSC-GS 2021 key); some notes give **31%** for shrimp.
+- **Q:** As of July 2023, how many notified Special Economic Zones were recorded in Andhra Pradesh according to the APPSC figure?
+  - Key: 32
+  - ⚠ Some notes say "**over 47** notified" — use the APPSC keys.
+- **Q:** How many operational SEZs did Andhra Pradesh have around January 2019?
+  - Key: 19
+  - ⚠ **Trap:** use the APPSC keys for count questions.
+- **Q:** The reported impact of the 50% United States tariff on Andhra Pradesh primarily concerned its:
+  - Key: Aqua and shrimp exports
+  - ⚠ For marine products overall, use **40%** (APPSC-GS 2021 key); AP is **1st** in marine products.
+- **Q:** India presently has the world’s ______ largest railway network and the ______ largest network under a single management.
+  - Key: fourth; second
+  - ⚠ UPPSC **2014** key (USA > Canada > India > Germany) is outdated.
+- **Q:** Which is the correct descending order of the countries by railway network length?
+  - Key: USA, China, Russia, India
+  - ⚠ **Trap:** India now 4th → ahead of **Canada** (old UPPSC **2014** key had Canada ahead).
+- **Q:** Which one of the following statements about railway network density is correct among Canada, the USA, Russia and India?
+  - Key: India has the densest network.
+  - ⚠ **Outdated key:** UPPSC 2014 ranked **USA > Canada > India > Germany**; India is now **4th** in the world, ahead of **Canada**.
+
+## Science, Tech & Environment (77)
+
+- **Q:** India's rank in the Global Innovation Index in 2025 was:
+  - Key: 38th out of 139 economies
+  - ⚠ Source conflict: some notes say "66 (2019)"; India was actually **52nd in 2019**.
+- **Q:** Which one of the following correctly represents India's Global Innovation Index rank trend?
+  - Key: 81 in 2015, 66 in 2016, 52 in 2019, 40 in 2022, 39 in 2024 and 38 in 2025
+  - ⚠ Some notes say **"66 (2019) to 38 (2025)"** — but **66** was **2016** and **52** was **2019**.
+- **Q:** ISRO was established on
+  - Key: 15 August 1969
+  - ⚠ **Trap:** older notes say **November 1969** — use **August**.
+- **Q:** Which one of the following correctly states the relationship between INCOSPAR and ISRO?
+  - Key: INCOSPAR was formed in 1962 under Sarabhai and DAE, while ISRO was formed in 1969
+  - ⚠ Older notes say November 1969 — use **August**.
+- **Q:** Which of the following institutions jointly steers the National Supercomputing Mission?
+  - Key: DST and MeitY
+  - ⚠ Earlier figure: **33** systems, **32 PF** as of **Dec 2024**; older notes say a **45 PF** target.
+- **Q:** With reference to QR codes, consider the following statements:
+  - Key: 1, 2, 3 and 4
+  - ⚠ Trap: **"1996"** is wrong — the APPSC **2019** key was "only a".
+- **Q:** Arrange the following events in chronological order:
+  - Key: D, C, B, A
+  - ⚠ The notes give **LinkedIn (2003)** before **Facebook (2004)** — by the notes the order is C, D, B, A.
+- **Q:** Which one of the following correctly describes an active RFID tag?
+  - Key: It has its own battery and transmitter and can broadcast itself over a long range.
+  - ⚠ APPSC-G1 **2022** key: **II and IV only**.
+- **Q:** Consider the following statements about RFID tags:
+  - Key: 2 and 3 only
+  - ⚠ This is the **APPSC-G1 2022** trap (key: **II and IV only**).
+- **Q:** Which one of the following was identified as the fastest among Fugaku, Summit, Sycamore and PARAM Siddhi?
+  - Key: Fugaku
+  - ⚠ Fastest keyed = **Fugaku**; Sycamore = quantum supremacy.
+- **Q:** At 1800 MHz, which of the following correctly states the EMF values referred to for India and ICNIRP respectively?
+  - Key: India: 0.92 W/m²; ICNIRP: 9.2 W/m²
+  - ⚠ Trap: the **APPSC 2021** key gave **9.2 W/m²**, which is the **ICNIRP** value, not India's.
+- **Q:** Which one of the following is NOT correctly matched with its Digital India pillar?
+  - Key: Early Harvest Programmes — long-term university research grants
+  - ⚠ **Not part of Digital India**: issue of **digital currency** (APPSC **2024** key).
+- **Q:** Arrange the following milestones in chronological order:
+  - Key: B, D, A, C
+  - ⚠ Sources differ: some notes give NIC **1986** and NeGP **1998**, but the main dates are **1976** and **2006**.
+- **Q:** C-DAC was set up at Pune in 1988 primarily to build the:
+  - Key: PARAM supercomputer
+  - ⚠ Some notes say C-DAC **1984 at IIT Madras**.
+- **Q:** Which one of the following best describes cryptography?
+  - Key: Encoding information so that only authorised parties can read it
+  - ⚠ **Symmetric** = one shared key (**AES**); **Asymmetric** = public-private pair (**RSA**).
+- **Q:** Virtual keyboards are particularly useful in defeating which of the following?
+  - Key: Keyloggers
+  - ⚠ **Rootkit** = hides other malware; **Keylogger** = records keystrokes.
+- **Q:** Which of the following is the principal feature of a rootkit?
+  - Key: It obtains administrator-level access and hides other malware
+  - ⚠ **Rootkit** = hides other malware; **Keylogger** = records keystrokes.
+- **Q:** 'Petya' and 'WannaCry', which caused worldwide disruption in 2016-17, are related to:
+  - Key: Ransomware
+  - ⚠ Trap: the scanned key is **garbled** — the correct answer is **ransomware**.
+- **Q:** Which of the following most accurately describes ‘digital arrest’ in the context of cyber crime?
+  - Key: A cyber criminal’s use of fake police or agency officials on a video call to frighten a victim and extort money
+  - ⚠ Some notes describe it as **police tracking of criminals** digitally — that contradicts the exam key.
+- **Q:** Which of the following pairs is correctly matched?
+  - Key: 1, 2 and 3
+  - ⚠ Trap: some notes say **66C = hacking** — hacking is **Sec. 66**.
+- **Q:** Consider the following statements about INCOSPAR:
+  - Key: 1 and 2 only
+  - ⚠ Trap: some notes say ISRO formed **November 1969**; most give **August**.
+- **Q:** The Indian Space Research Organisation (ISRO) was established, replacing INCOSPAR, on:
+  - Key: 15 August 1969
+  - ⚠ Trap: some notes say **November 1969**; most give **August**.
+- **Q:** The sequence of projected Gaganyaan launch years that reflects the repeated slippage referred to in programme debates is:
+  - Key: 2021, 2023, 2027
+  - ⚠ Trap: quote any date with the date of the statement — exam keys differ by year.
+- **Q:** According to Union Minister Dr Jitendra Singh (August 2026), the number of space start-ups in India, which was in single digits in 2014, has now grown to more t
+  - Key: 440
+  - ⚠ Some older notes say "**300+**" (2025-26).
+- **Q:** Which one of the following pairs is incorrectly matched?
+  - Key: 4 only
+  - ⚠ Older notes give **Nag** as **0.5-4 km** and **Trishul** as **12 km**.
+- **Q:** Prithvi-II is distinguished from Prithvi-I by which one of the following combinations?
+  - Key: 350 km range and 500–1,000 kg payload
+  - ⚠ Older notes give Prithvi-II payload as **350-750 kg**.
+- **Q:** Agni-I is best described as a:
+  - Key: Single-stage solid-fuel missile of about 700–800 km range
+  - ⚠ Some notes give Agni-I as **~700-900 km** (SRBM/MRBM).
+- **Q:** Mission Sudarshan Chakra, under Vision 2035, is intended to create a comprehensive national shield integrating:
+  - Key: Air defence, cybersecurity and surveillance
+  - ⚠ UPSC **2026** keyed only: it aims to enhance **air defence, BMD and aerial offensive capabilities**.
+- **Q:** With reference to coal in India's energy system, consider the following statements:
+  - Key: 1, 2, 3 and 4
+  - ⚠ The notes say India's coal reserves are the **4th largest** (~**344 bt**), not fifth.
+- **Q:** India is described as the world’s ______ largest holder of coal reserves in the current estimate referred to.
+  - Key: fifth
+  - ⚠ Older notes say **4th** (~**344 bt**) — option (1) is the outdated figure.
+- **Q:** Consider the following statements about the Hydrocarbon Exploration and Licensing Policy (HELP), 2016:
+  - Key: 1 and 3 only
+  - ⚠ **NELP** = production-sharing; **HELP** = revenue-sharing (APPSC-G1 2017 key).
+- **Q:** Which one of the following pairs is correctly matched?
+  - Key: 1, 2, 3 and 4
+  - ⚠ HVJ does **not** pass through **Maharashtra** (APPSC-G2 2025 key).
+- **Q:** Which of the following statements correctly reflects the stated estimates of India's import dependence?
+  - Key: Crude oil about 88% and gas about 50%
+  - ⚠ Some notes give **80%** and **25%** — option (1) uses that lower figure.
+- **Q:** Which of the following is the principal group of major hydropower States identified in the Himalayan and Northeast belt?
+  - Key: Himachal Pradesh, Uttarakhand, Jammu and Kashmir, Arunachal Pradesh
+  - ⚠ **Seismic risk in the Himalayan region** is a key dam trade-off.
+- **Q:** Consider the following statements regarding nuclear fuel isotopes:
+  - Key: 1 and 3 only
+  - ⚠ APPSC 2007 keyed "U-238" as the better fuel; U-238 is fertile — fissile **Pu-239** is the fuel.
+- **Q:** Consider the following statements about the zones around a nuclear reactor in India:
+  - Key: 1 and 2 only
+  - ⚠ **APPSC-GS 2022** key gave the exclusion zone as **1 km** (options 1/1.5/2/2.5 km).
+- **Q:** Which one of the following radioisotopes is used in the treatment of blood cancer (leukaemia)?
+  - Key: Phosphorus-32
+  - ⚠ Keys accept both **P-32 and Co-60** for leukaemia (UPPSC 2012: either; BPSC 2016: "more than one").
+- **Q:** The Energy Survey 2025-26 places India at which position globally in solar energy and total renewable energy?
+  - Key: Third
+  - ⚠ The Survey's climate chapter and some notes say **4th**, others **5th** in solar — quote the source the question follows.
+- **Q:** With reference to renewable-energy deployment, consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ Older notes say **Tamil Nadu** leads wind.
+- **Q:** Which State has the largest installed wind-power capacity in India?
+  - Key: Gujarat
+  - ⚠ It has **12,314 MW**, roughly a fifth of India's total;  **older notes say Tamil Nadu**.
+- **Q:** Which one of the following is correctly matched with the generation of biofuel?
+  - Key: 3G — algal biomass
+  - ⚠ **3G** = algae; **4G** = genetically modified algae/microbes that capture more CO2 (RPSC **2024** key).
+- **Q:** Consider the following statements regarding lithium-ion battery cathodes:
+  - Key: 1 and 2 only
+  - ⚠ Statement 3 wrong:  only **three** of the four make **cathodes** (UPSC **2025** key).
+- **Q:** Which one of the following preceded the Air Act in the stated institutional sequence of environmental regulation in India?
+  - Key: Central Pollution Control Board
+  - ⚠ The notes also say **APPCB** was set up in **1976** under the Water Act — the key names the CPCB from the FIRST/LAST line.
+- **Q:** Consider the following statements regarding CITES:
+  - Key: 1, 2 and 3
+  - ⚠ Some notes say "**1963**" — wrong; **1973** is correct.
+- **Q:** Arrange the following events relating to the Nagoya Protocol in chronological order:
+  - Key: B, A, C
+  - ⚠ Some notes say India ratified in **2014** — that is the entry-into-force year.
+- **Q:** Threatened species are notified by the National Biodiversity Authority under which provision, with how many species notified so far?
+  - Key: Section 38 of the Biological Diversity Act — 159 plant and 173 animal species
+  - ⚠ Some notes give **175** animals.
+- **Q:** Consider the following statements regarding the Antarctic ozone hole:
+  - Key: 1 and 2 only
+  - ⚠ Some notes say the hole was **discovered 1983**; **1985** is the report year.
+- **Q:** How many biodiversity hotspots are currently recognised globally for the purpose of this classification?
+  - Key: 36
+  - ⚠ Some notes give both "35" and "36"; use **36**.
+- **Q:** A charismatic species used to rally public support for conservation is known as a:
+  - Key: Flagship species
+  - ⚠ The **tiger** appears as **flagship, keystone and umbrella**.
+- **Q:** Which one of the following best describes a keystone species?
+  - Key: A species whose ecological effect is much greater than would be expected from its population size
+  - ⚠ The tiger is flagship, keystone and umbrella at once.
+- **Q:** Protection of which type of species is intended to protect many other species sharing its habitat?
+  - Key: Umbrella species
+  - ⚠ The **tiger** is flagship, keystone and umbrella.
+- **Q:** Consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ The tiger is **flagship, keystone and umbrella**.
+- **Q:** Match List-I with List-II:
+  - Key: a–iii, b–iv, c–ii, d–i
+  - ⚠ The notes list **Slender loris** only as "**AP forest fauna**", without a specific habitat.
+- **Q:** The Gooty tarantula, a Critically Endangered species listed in CITES Appendix II, is associated with which location?
+  - Key: Nandyal forests of Andhra Pradesh
+  - ⚠ WPA schedule: some notes say **Schedule I**, others **Schedule IV** (CITES-listed species sit in Schedule IV after 2022).
+- **Q:** Biosphere Reserves are nominated for UNESCO recognition by which authority?
+  - Key: National governments
+  - ⚠ Some keys give **1972** (RPSC 2013) or **1973-74** for MAB.
+- **Q:** Biosphere Reserves are designated under the Man and the Biosphere (MAB) Programme, an intergovernmental programme launched in 1971 by:
+  - Key: UNESCO
+  - ⚠ Some keys give **1972** (RPSC 2013) or **1973-74**.
+- **Q:** Match List-I with List-II:
+  - Key: a–ii, b–iv, c–iii, d–i
+  - ⚠ UKPSC **2025** key: the **NP**, not the BR, is the Nanda Devi WHS.
+- **Q:** With reference to Nanda Devi, which one of the following is a UNESCO World Heritage Site?
+  - Key: Nanda Devi and Valley of Flowers National Parks
+  - ⚠ The **BR as a whole** is not the WHS — UKPSC **2025** key.
+- **Q:** Consider the following statements:
+  - Key: 1 and 3 only
+  - ⚠ Some notes give **96** Ramsar sites.
+- **Q:** Project Tiger commenced with how many reserves covering approximately what area?
+  - Key: 9 reserves covering 18,278 sq km
+  - ⚠ Some notes give **75,796 sq km**.
+- **Q:** Consider the following statements about tiger reserves in India:
+  - Key: 1, 2 and 3
+  - ⚠ Some notes give **75,796 sq km**.
+- **Q:** India holds approximately what share of the world’s wild tiger population?
+  - Key: 70–75%
+  - ⚠ Some notes say **70%**, others **75%**.
+- **Q:** Project Elephant was launched as a Centrally Sponsored Scheme in which month and year?
+  - Key: February 1992
+  - ⚠ "Launched in **1990**" is wrong (APPSC **2022**); some notes say **1991-92**.
+- **Q:** Consider the following statements about the UNFCCC:
+  - Key: 1, 2 and 4 only
+  - ⚠ Some notes say the UNFCCC was "adopted at Rio" — it was adopted in **New York**, only opened for signature at **Rio (UNCED)**.
+- **Q:** Consider the following statements regarding Nationally Determined Contributions (NDCs):
+  - Key: 1 and 2 only
+  - ⚠ No country — USA, China, India or EU — is legally bound to its emission targets (APPSC-G2 2025 key "None of these").
+- **Q:** Saraswathi of Malluvalasa was brought into the news for sustainability work in connection with:
+  - Key: Sustaina India 2025
+  - ⚠ One guide links her to **COP28** as an Indian grassroots participant, but the APPSC-GS 2024 key reads "Sustaina India 2025" — check the official key.
+- **Q:** Consider the following pairs:
+  - Key: 1, 2, 3 and 4
+  - ⚠ In **APPSC 2024** both Global Shield statements were keyed **wrong** ("None of the above") — check who founded it and where.
+- **Q:** In the Climate Change Performance Index 2019 considered in the APPSC 2018 examination, India's rank was:
+  - Key: 11th
+  - ⚠ The **APPSC 2018** key said **9th**, mixing up the two editions.
+- **Q:** GloLitter Partnerships is implemented by which organisations?
+  - Key: IMO and FAO
+  - ⚠ The **APPSC-G1 2022** key accepted "**UNEP** initiative", but the partnership is **IMO-FAO**.
+- **Q:** EPR was first introduced into Indian waste law through the:
+  - Key: E-waste (Management and Handling) Rules, 2011
+  - ⚠ Some notes say the **Hazardous Wastes Rules 2016** introduced it first — not correct.
+- **Q:** The Indian bioeconomy increased from approximately $10 billion in 2014 to what amount in 2024, with a target of $300 billion by 2030?
+  - Key: $165.7 billion
+  - ⚠ Older notes give **$130 bn / $150 bn** — use **$165.7 bn**.
+- **Q:** AMTZ refers to the:
+  - Key: Andhra Pradesh MedTech Zone located at Visakhapatnam
+  - ⚠ Some notes say "**Amaravati Medtech Zone**" — the accepted form is Andhra Pradesh MedTech Zone.
+- **Q:** Bt cotton received approval for commercial cultivation in India in:
+  - Key: 2002
+  - ⚠ Trap: some notes give **2006** (that is **Bollgard II**); the correct approval year is **2002**.
+- **Q:** The initial outlay of the Nano Mission was approximately:
+  - Key: Rs 1,000 crore for five years
+  - ⚠ Some notes give **Rs 2,000 crore**.
+- **Q:** Consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ Older notes give NCD share as **">60%"**.
+- **Q:** According to the Economic Survey 2025–26 reference, the share of non-communicable diseases in the disease burden is approximately:
+  - Key: 57 percent
+  - ⚠ Older notes say **">60%"**.
+- **Q:** The Integrated Disease Surveillance Programme was launched in which year under the National Health Mission?
+  - Key: 2004
+  - ⚠ **NVBDCP** handles outbreaks of **malaria, dengue, chikungunya** (PYQ key).
+
+## Current Affairs (9)
+
+- **Q:** Under which section of the Andhra Pradesh Reorganisation Act, 2014 does the national-project status of Polavaram fall?
+  - Key: Section 90
+  - ⚠ Trap: some notes say **"Section 89"** — that is wrong.
+- **Q:** Which one of the following pairs is correctly matched?
+  - Key: Section 45ZN — failure to meet the inflation target
+  - ⚠ Older app notes say "3 months" — a **trap**.
+- **Q:** Consider the following statements about the inflation target under the RBI Act:
+  - Key: 1 and 3 only
+  - ⚠ Trap: older notes say "3 months".
+- **Q:** Which of the following countries joined BRICS from 1 January 2024?
+  - Key: Egypt, Ethiopia, Iran and the United Arab Emirates
+  - ⚠ In a past PYQ on BRICS expansion, the key gave no single correct option.
+- **Q:** With reference to BRICS expansion, consider the following statements:
+  - Key: 1 and 2 only
+  - ⚠ In a past PYQ on BRICS expansion, the key gave **no single correct option**.
+- **Q:** Which one of the following statements regarding GATT is correct?
+  - Key: It was signed in 1947 and came into force in 1948.
+  - ⚠ Some notes say GATT began with **110 countries**; the standard figure is **23 original parties**.
+- **Q:** Consider the following statements about India's 2022 NDC (targets for 2030):
+  - Key: 2 and 3 only
+  - ⚠ The notes give the 2030 intensity target as **45%** in one line and **44%** in the 2022 NDC line.
+- **Q:** Which of the following pairs is correctly matched?
+  - Key: World Drug Report — UNODC
+  - ⚠ The notes give no 2025-26 editions of the World Drug Report or the Frontiers Report.
+- **Q:** Which of the following developments has current relevance in the international and regional context?
+  - Key: 1, 2, 3 and 4
+  - ⚠ The notes list only the **straw poll**, **Gukesh-Sindarov** and **Mahesh Dixit (AP cadre)** here — they say nothing on **Justice Lisa Gill**.
