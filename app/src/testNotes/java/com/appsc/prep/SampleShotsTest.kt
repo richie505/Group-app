@@ -98,17 +98,4 @@ class SampleShotsTest {
     @Test fun expl0() = explained(0, true)
     @Test fun expl1() = explained(1, false)
     @Test fun expl4() = explained(4, true)
-
-    // dedup pilot: pages that lost repeated facts (after: "Also covered in" links to where they live)
-    private fun dedup(name: String, row: Int, sec: Int) {
-        shot(name, 1) { ReaderScreen(1, row, sec, nav) }
-        val tag = System.getProperty("sample.tag") ?: return
-        if (tag == "after") {
-            rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("ALSO COVERED IN"))
-            rule.waitForIdle()
-            rule.onRoot().captureRoboImage("screenshots/sample/${tag}_${name}_links.png")
-        }
-    }
-    @Test fun dedup1() = dedup("dedup_kabir", 144, 2)
-    @Test fun dedup2() = dedup("dedup_bhakti_universal", 142, 6)
 }
