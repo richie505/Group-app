@@ -85,8 +85,13 @@ class RevisionTest {
     @Test fun factsFromTheMcqs() = runBlocking {
         val page = repo.book(2).rows[0].secs.first { it.title.startsWith("Indian Councils Acts 1861") }
         val t = text(page.blocks)
-        for (fact in listOf("indirect election", "6 months", "Raja of Benaras", "ordinance")) {
+        for (fact in listOf("indirect election", "ordinance")) {
             assertTrue("$fact missing:\n$t", t.contains(fact, ignoreCase = true))
+        }
+        // since 2.61 heavy pages are split: these facts are on other pages of the same topic
+        val topic = repo.book(2).rows[0].secs.joinToString("\n") { text(it.blocks) }
+        for (fact in listOf("six months", "Raja of Benaras")) {
+            assertTrue("$fact missing from the topic", topic.contains(fact, ignoreCase = true))
         }
         assertTrue(t, page.blocks.any { it is TextBlock && it.kind == 'x' }) // exam angles first
         assertTrue(t, page.blocks.any { b -> b is TextBlock && b.runs.any { it.bold } }) // answers in bold
@@ -107,7 +112,7 @@ class RevisionTest {
     /** Read-aloud reads the key facts: full forms, numbers and all, the same way as in the notes app. */
     @Test fun readAloudReadsKeyFacts() = runBlocking {
         repo.checkedAcronyms
-        val page = repo.book(2).rows[0].secs.first { it.title.startsWith("Indian Councils Acts 1861") }
+        val page = repo.book(2).rows[0].secs.first { it.title.startsWith("Crown-rule Acts") }
         val spoken = com.appsc.prep.data.SpeechText.parts(page.title, page.blocks, 2, repo.book(2).rows[0].title).joinToString(" ") { it.second }
         assertTrue(spoken, spoken.contains("six months") || spoken.contains("6 months"))
         assertTrue(spoken, spoken.contains("Indian Councils Act"))

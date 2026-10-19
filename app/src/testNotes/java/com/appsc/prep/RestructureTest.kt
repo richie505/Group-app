@@ -63,7 +63,9 @@ class RestructureTest {
         store.setDone("9:0:0", true) // not moved
         store.toggleSaved(Saved(from, "Page", "Topic"))
         store.migrate(moves)
-        assertEquals(setOf(to, "9:0:0"), store.done)
+        // a page split in parts: every part it went into is read too
+        val parts = moves.sources.filter { (_, olds) -> olds.isNotEmpty() && olds.all { it == from } }.keys
+        assertEquals(setOf(to, "9:0:0") + parts, store.done)
         assertEquals(to, store.saved.single().id)
         // once per version
         store.setDone(from, true)

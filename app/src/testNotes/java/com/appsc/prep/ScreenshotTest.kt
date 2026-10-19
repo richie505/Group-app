@@ -151,7 +151,7 @@ class ScreenshotTest {
      */
     @Config(sdk = [27])
     @Test fun meaningOfASelectedWord() {
-        shot("16_meaning", preload = 2) { ReaderScreen(2, 0, 3, nav) }
+        shot("16_meaning", preload = 2) { ReaderScreen(2, 0, 5, nav) }
         rule.onAllNodesWithText("Dyarchy", substring = true)[0].performTouchInput { longClick(centerLeft + androidx.compose.ui.geometry.Offset(width * 0.12f, 0f)) }
         rule.waitForIdle()
         rule.onNodeWithText("Meaning").performClick()
@@ -179,7 +179,7 @@ class ScreenshotTest {
             val repo = Repository { ctx.assets.open(it) }
             val bk = repo.book(2)
             val row = bk.rows.first { it.title.startsWith("Juvenile Justice Act 2015, POCSO") }
-            Triple(2, row.index, row.secs.indexOfFirst { s -> s.title.startsWith("Data") })
+            Triple(2, row.index, row.secs.indexOfFirst { s -> s.title.startsWith("Data") && s.blocks.any { com.appsc.prep.data.UserNotes.isGap(it) } })
         }
         val gapIndex = runBlocking { Repository { ctx.assets.open(it) }.book(b).rows[r].secs[sx].blocks.indexOfFirst { com.appsc.prep.data.UserNotes.isGap(it) } }
         ProgressStore(PrefsStorage(ctx)).setAdded(com.appsc.prep.data.UserNotes.key("$b:$r:$sx", gapIndex), "NCRB 2022: Madhya Pradesh, Maharashtra and Uttar Pradesh reported the most crimes against children.")
@@ -232,7 +232,7 @@ class ScreenshotTest {
 
     /** Every notes page ends with its key terms; tapping one opens its meaning. */
     @Test fun keyTermsOnAPage() {
-        shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 3, nav) }
+        shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 5, nav) }
         rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("KEY TERMS"))
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/17_key_terms.png")
