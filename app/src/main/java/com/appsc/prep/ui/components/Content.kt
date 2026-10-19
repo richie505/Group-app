@@ -2,6 +2,7 @@ package com.appsc.prep.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -197,48 +198,112 @@ private fun TableView(t: TableBlock, scale: Float) {
             if (capped < avail) widths = widths.map { it * (avail / capped) }
         }
         val total = widths.fold(0.dp) { a, b -> a + b }
-        val scroll = rememberScrollState()
-        Box(
-            Modifier
-                .fillMaxWidth()
-                .clip(RoundedCornerShape(10.dp))
-                .border(1.dp, C.Line, RoundedCornerShape(10.dp))
-                .then(if (total > avail + 1.dp) Modifier.horizontalScroll(scroll) else Modifier),
-        ) {
-            Column(Modifier.width(total)) {
-                all.forEachIndexed { ri, row ->
-                    val isHead = hasHead && ri == 0
-                    Row(
-                        Modifier
-                            .width(total)
-                            .height(IntrinsicSize.Min)
-                            .background(
-                                when {
-                                    isHead -> C.AccentSoft
-                                    ri % 2 == 0 -> C.Surface
-                                    else -> Color.White
-                                },
-                            ),
-                    ) {
-                        for (c in 0 until cols) {
-                            val cell = row.getOrNull(c) ?: emptyList()
-                            val text = remember(cell, isHead) {
-                                if (isHead) annotated(cell.map { it.copy(flags = 1) }, strong = C.Navy) else annotated(cell)
+        val wide = total > avail + 1.dp
+        val store = LocalApp.current.store
+        // a Box stacks its children: the table (or its cards) and the switch go in a column
+        Column(Modifier.fillMaxWidth()) {
+            if (wide && store.tableCards) {
+                TableCards(t, all, hasHead, cols, cellStyle)
+                TableViewSwitch(cards = true) { store.changeTableCards(false) }
+            } else {
+                val scroll = rememberScrollState()
+                Box(
+                    Modifier
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(10.dp))
+                        .border(1.dp, C.Line, RoundedCornerShape(10.dp))
+                        .then(if (total > avail + 1.dp) Modifier.horizontalScroll(scroll) else Modifier),
+                ) {
+                    Column(Modifier.width(total)) {
+                        all.forEachIndexed { ri, row ->
+                            val isHead = hasHead && ri == 0
+                            Row(
+                                Modifier
+                                    .width(total)
+                                    .height(IntrinsicSize.Min)
+                                    .background(
+                                        when {
+                                            isHead -> C.AccentSoft
+                                            ri % 2 == 0 -> C.Surface
+                                            else -> Color.White
+                                        },
+                                    ),
+                            ) {
+                                for (c in 0 until cols) {
+                                    val cell = row.getOrNull(c) ?: emptyList()
+                                    val text = remember(cell, isHead) {
+                                        if (isHead) annotated(cell.map { it.copy(flags = 1) }, strong = C.Navy) else annotated(cell)
+                                    }
+                                    Text(
+                                        text,
+                                        style = cellStyle,
+                                        modifier = Modifier
+                                            .width(widths[c])
+                                            .fillMaxHeight()
+                                            .padding(horizontal = 10.dp, vertical = 8.dp),
+                                    )
+                                    if (c < cols - 1) Box(Modifier.width(1.dp).fillMaxHeight().background(C.Line))
+                                }
                             }
-                            Text(
-                                text,
-                                style = cellStyle,
-                                modifier = Modifier
-                                    .width(widths[c])
-                                    .fillMaxHeight()
-                                    .padding(horizontal = 10.dp, vertical = 8.dp),
-                            )
-                            if (c < cols - 1) Box(Modifier.width(1.dp).fillMaxHeight().background(C.Line))
+                            if (ri < all.size - 1) Box(Modifier.width(total).height(1.dp).background(C.Line))
                         }
                     }
-                    if (ri < all.size - 1) Box(Modifier.width(total).height(1.dp).background(C.Line))
                 }
+                if (wide) TableViewSwitch(cards = false) { store.changeTableCards(true) }
             }
         }
     }
+}
+
+/**
+ * A table too wide for the screen, one card per row: the first column is the card's title and every other
+ * column is a "header: value" line under it, so nothing needs sideways panning.
+ */
+@Composable
+private fun TableCards(t: TableBlock, all: List<List<List<Run>>>, hasHead: Boolean, cols: Int, cellStyle: TextStyle) {
+    val head = if (hasHead) t.head else emptyList()
+    val rows = if (hasHead) all.drop(1) else all
+    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        rows.forEach { row ->
+            Column(
+                Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(10.dp))
+                    .border(1.dp, C.Line, RoundedCornerShape(10.dp)),
+            ) {
+                val title = row.getOrNull(0).orEmpty()
+                val titleText = remember(title) { annotated(title.map { it.copy(flags = 1) }, strong = C.Navy) }
+                if (titleText.isNotBlank()) {
+                    Text(
+                        titleText,
+                        style = cellStyle,
+                        modifier = Modifier.fillMaxWidth().background(C.AccentSoft).padding(horizontal = 12.dp, vertical = 8.dp),
+                    )
+                }
+                for (c in 1 until cols) {
+                    val cell = row.getOrNull(c).orEmpty()
+                    if (cell.all { it.text.isBlank() }) continue
+                    val label = head.getOrNull(c).orEmpty().joinToString("") { it.text }.trim()
+                    val text = remember(cell, label) {
+                        buildAnnotatedString {
+                            if (label.isNotEmpty()) withStyle(SpanStyle(fontWeight = FontWeight.SemiBold, color = C.Muted)) { append("$label: ") }
+                            append(annotated(cell))
+                        }
+                    }
+                    Text(text, style = cellStyle, modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 5.dp))
+                }
+                Spacer(Modifier.height(4.dp))
+            }
+        }
+    }
+}
+
+/** Switches every wide table between cards and the full (panned) table. */
+@Composable
+private fun TableViewSwitch(cards: Boolean, onClick: () -> Unit) {
+    Text(
+        if (cards) "Show as table" else "Show as cards (no sideways scrolling)",
+        style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
+        modifier = Modifier.padding(top = 6.dp).clickable(onClick = onClick).padding(vertical = 4.dp),
+    )
 }

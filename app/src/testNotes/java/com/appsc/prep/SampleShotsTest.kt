@@ -139,4 +139,16 @@ class SampleShotsTest {
     @Test fun practiceProgress() = practice("p2_progress", listOf("MCQs to practise", "Study activity", "STUDY ACTIVITY")) {
         com.appsc.prep.ui.screens.ProgressScreen(nav)
     }
+
+    /** Wide tables (2.60): before = the full table panned sideways, after = one card per row. */
+    private fun table(name: String, book: Int, row: Int, sec: Int) {
+        val tag = System.getProperty("sample.tag") ?: return
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        ProgressStore(PrefsStorage(ctx)).changeTableCards(tag != "before")
+        shot(name, book) { ReaderScreen(book, row, sec, nav) }
+    }
+
+    @Test fun tableWrits() = table("t1_writs", 2, 14, 1)
+    @Test fun tableTravellers() = table("t2_travellers", 1, 0, 3)
+    @Test fun tableMissiles() = table("t3_missiles", 5, 48, 2)
 }

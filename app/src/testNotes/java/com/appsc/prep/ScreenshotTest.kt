@@ -391,6 +391,17 @@ class ScreenshotTest {
         assertEquals(null, repo.cachedMcq(3)) // nothing kept in memory
     }
 
+    /** A table too wide for the phone shows one card per row ("header: value" lines); the full table on request. */
+    @Test fun wideTableAsCards() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        ProgressStore(PrefsStorage(ctx)).changeTableCards(true)
+        shot("34_table_cards", preload = 2) { ReaderScreen(2, 14, 1, nav) }
+        assertTrue(rule.onAllNodes(androidx.compose.ui.test.hasText("Literal meaning: ", substring = true)).fetchSemanticsNodes().isNotEmpty())
+        assertTrue(ProgressStore(PrefsStorage(ctx)).tableCards) // the choice is kept
+        ProgressStore(PrefsStorage(ctx)).changeTableCards(false)
+        assertEquals(false, ProgressStore(PrefsStorage(ctx)).tableCards)
+    }
+
     /** Progress → MCQ results: right first time, right on a retry, still wrong, answer seen; and the set to practise. */
     @Test fun mcqResults() {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()

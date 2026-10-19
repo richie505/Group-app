@@ -192,6 +192,15 @@ class ProgressStore(private val prefs: Storage) {
         prefs.putString(KEY_LAST, id)
     }
 
+    /** Tables too wide for the screen show as one card per row (true) or as the full table, panned sideways. */
+    var tableCards by mutableStateOf(prefs.getString(KEY_TABLE_VIEW) != "table")
+        private set
+
+    fun changeTableCards(cards: Boolean) {
+        tableCards = cards
+        prefs.putString(KEY_TABLE_VIEW, if (cards) "cards" else "table")
+    }
+
     fun changeTextScale(delta: Float) {
         textScale = (textScale + delta).coerceIn(0.85f, 1.45f)
         prefs.putFloat(KEY_SCALE, textScale)
@@ -415,6 +424,7 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_DATES = "dates"
         const val KEY_LAST = "last"
         const val KEY_SCALE = "scale"
+        const val KEY_TABLE_VIEW = "table_view"
         const val KEY_RATE = "speech_rate"
         const val KEY_SPEECH_SCOPE = "speech_scope"
         const val KEY_ANSWERS = "answers"
