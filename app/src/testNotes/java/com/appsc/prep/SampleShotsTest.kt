@@ -151,4 +151,10 @@ class SampleShotsTest {
     @Test fun tableWrits() = table("t1_writs", 2, 14, 1)
     @Test fun tableTravellers() = table("t2_travellers", 1, 0, 3)
     @Test fun tableMissiles() = table("t3_missiles", 5, 48, 2)
+
+    /** Heavy pages split (2.61), pilot on the Preamble topic: before = 1 "Cases" page, after = 3 pages. */
+    @Test fun splitTopic() = shot("s0_topic") { SectionScreen(2, 4, nav) }
+    @Test fun splitPage1() = shot("s1_page") { ReaderScreen(2, 4, if (System.getProperty("sample.tag") == "before") 3 else 4, nav) }
+    @Test fun splitPage2() { if (System.getProperty("sample.tag") != "before") shot("s2_page") { ReaderScreen(2, 4, 5, nav) } }
+    @Test fun splitPage3() { if (System.getProperty("sample.tag") != "before") shot("s3_page") { ReaderScreen(2, 4, 6, nav) } }
 }
