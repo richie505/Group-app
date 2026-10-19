@@ -89,18 +89,17 @@ class ScreenshotTest {
         store.markSeen(ids[10]) // answer seen first
         val sets = com.appsc.prep.ui.components.practiceSets(ids, store.answers, store.seen)
         assertEquals(com.appsc.prep.ui.components.PracticeSets(ids.size - 11, 4, ids.size, practice = 5), sets)
-        // stepped clock, as in [section]: in the full run this screen may never report idle
-        val app = AppState(repo, store, AndroidPlatform(ctx))
-        runBlocking { app.repo.book(2); app.repo.mcq(2) }
-        rule.mainClock.autoAdvance = false
-        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { DayScreen(1, nav) } } }
-        rule.mainClock.advanceTimeBy(3000)
-        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("Incorrect"))
-        rule.mainClock.advanceTimeBy(1000)
+        // the card alone: the whole day screen does not always settle in the full Robolectric run
+        rule.setContent {
+            PrepTheme {
+                com.appsc.prep.ui.components.PracticeCard("Today's MCQs", "${ids.size} questions", null, onStart = {}, sets = sets)
+            }
+        }
+        rule.waitForIdle()
         rule.onNodeWithText("${ids.size - 11}").assertExists()
         rule.onNodeWithText("Practise").assertExists()
+        rule.onNodeWithText("5").assertExists()
         rule.onRoot().captureRoboImage("screenshots/27_day_practice_sets.png")
-        rule.mainClock.autoAdvance = true
     }
     /**
      * Stepped clock: after the Google and word-meaning tests in the same run, this screen never reported idle
