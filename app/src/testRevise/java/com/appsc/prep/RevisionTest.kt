@@ -5,6 +5,7 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.performScrollToNode
 import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
@@ -136,4 +137,26 @@ class RevisionTest {
         rule.onAllNodesWithText("Full notes").fetchSemanticsNodes().let { assertEquals(0, it.size) } // standalone
         rule.onRoot().captureRoboImage("screenshots/revision_2_page.png")
     }
+
+    /** Mind maps (pilot: the Preamble topic, book 2 row 4): every fact of the page on the map. */
+    private fun mindMap(sec: Int, scrollTo: String? = null) {
+        val tag = System.getProperty("sample.tag") ?: "after"
+        val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        runBlocking { app.repo.book(2); app.repo.mcq(2) }
+        if (tag == "after") assertTrue(runBlocking { app.repo.book(2).rows[4].secs[sec].map.isNotEmpty() })
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { ReaderScreen(2, 4, sec, nav) } } }
+        rule.waitForIdle()
+        if (scrollTo != null && tag == "after") {
+            rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction())
+                .performScrollToNode(androidx.compose.ui.test.hasText(scrollTo, substring = true))
+            rule.waitForIdle()
+        }
+        rule.onRoot().captureRoboImage("screenshots/sample/${tag}_mindmap_$sec${if (scrollTo != null) "b" else ""}.png")
+    }
+
+    @Test fun mindMapMaking() = mindMap(0)
+    @Test fun mindMapMakingMore() = mindMap(0, "UDHR")
+    @Test fun mindMapText() = mindMap(1)
+    @Test fun mindMapKeywords() = mindMap(2)
+    @Test fun mindMapCases() = mindMap(4)
 }

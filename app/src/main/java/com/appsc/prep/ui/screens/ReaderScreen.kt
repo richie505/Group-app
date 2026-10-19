@@ -346,7 +346,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                     style = TextStyle(fontSize = 14.sp, color = C.Faint),
                                 )
                             }
-                            if (revision && sec.blocks.isEmpty()) {
+                            if (revision && sec.blocks.isEmpty() && sec.map.isEmpty()) {
                                 Text(
                                     "Nothing to revise on this page.",
                                     style = TextStyle(fontSize = 14.sp, color = C.Muted),
@@ -357,7 +357,10 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                             Spacer(Modifier.height(10.dp))
                         }
                     }
-                    itemsIndexed(shown, key = { i, _ -> "$id-$i" }) { i, (orig, b) ->
+                    // the revision app draws the page as a mind map when it has one (tools/build_mindmap.py)
+                    if (revision && sec.map.isNotEmpty()) item(key = "map-$id") {
+                        com.appsc.prep.ui.components.MindMap(sec.title, sec.map, scale)
+                    } else itemsIndexed(shown, key = { i, _ -> "$id-$i" }) { i, (orig, b) ->
                         val reading = here && parts.getOrNull(part)?.first == i
                         Box(
                             Modifier
