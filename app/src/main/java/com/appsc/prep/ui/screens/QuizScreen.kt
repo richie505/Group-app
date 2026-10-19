@@ -77,7 +77,7 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "unit" -> app.repo.mcq(src.book).units[src.index] ?: emptyList()
             // every book's MCQs that need practice ([needsPractice])
             "need" -> app.repo.index.flatMap { b ->
-                app.repo.mcq(b.id).rows.values.flatten().filter { needsPractice(it.id, app.store.answers, app.store.seen) }
+                app.repo.mcqWhere(b.id) { needsPractice(it.id, app.store.answers, app.store.seen) }
             }.distinctBy { it.id }
             else -> {
                 val day = app.repo.plan.days.first { it.n == src.index }

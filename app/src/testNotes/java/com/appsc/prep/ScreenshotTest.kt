@@ -379,6 +379,19 @@ class ScreenshotTest {
         rule.onRoot().captureRoboImage("screenshots/31_activity.png")
     }
 
+    /** "MCQs to practise" reads each book in turn without keeping it, and finds the ones that need practice. */
+    @Test fun practisePoolAcrossBooks() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val repo = Repository { ctx.assets.open(it) }
+        val (a, b) = runBlocking { repo.mcqWhere(3) { true }.map { it.id }.let { it[0] to it[5] } }
+        val store = ProgressStore(PrefsStorage(ctx))
+        store.recordAnswer(a, false)
+        store.markSeen(b)
+        val need = runBlocking { repo.index.flatMap { bk -> repo.mcqWhere(bk.id) { store.needsPractice(it.id) } } }
+        assertEquals(setOf(a, b), need.map { it.id }.toSet())
+        assertEquals(null, repo.cachedMcq(3)) // nothing kept in memory
+    }
+
     /** Progress → MCQ results: right first time, right on a retry, still wrong, answer seen; and the set to practise. */
     @Test fun mcqResults() {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
