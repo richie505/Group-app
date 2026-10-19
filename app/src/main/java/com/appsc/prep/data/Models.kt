@@ -24,7 +24,7 @@ data class TextBlock(val kind: Char, val runs: List<Run>) : Block
 data class TableBlock(val head: List<List<Run>>, val rows: List<List<List<Run>>>) : Block
 
 /** A ■ heading in the notes, with its content. */
-/** A mind-map node: [kind] 'h' branch, 'b' fact, 't' table row, 'x' exam angle. */
+/** A mind-map node: [kind] 'h' branch, 'b' fact, 'g' a table's columns, 't' table row, 'x' exam angle. */
 data class MapNode(val runs: List<Run>, val kind: Char, val children: List<MapNode>)
 
 data class Subsection(

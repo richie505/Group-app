@@ -108,7 +108,13 @@ private fun Node(n: MapNode, color: Color, scale: Float, depth: Int) {
             style = TextStyle(fontSize = (13.5f * scale).sp, lineHeight = (19 * scale).sp, color = C.ExamInk),
             modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(C.ExamBg).padding(horizontal = 10.dp, vertical = 7.dp),
         )
-        depth == 1 -> Text(
+        // a table's columns ("Act → Key provisions"): a label over its rows
+        n.kind == 'g' -> Text(
+            text,
+            style = TextStyle(fontSize = (12.5f * scale).sp, lineHeight = (17 * scale).sp, color = color, fontWeight = FontWeight.Bold, letterSpacing = 0.3.sp),
+            modifier = Modifier.padding(horizontal = 4.dp, vertical = 4.dp),
+        )
+        depth == 1 || n.kind == 't' -> Text(
             text,
             style = TextStyle(fontSize = (14 * scale).sp, lineHeight = (20 * scale).sp, color = C.Ink, fontWeight = if (n.children.isNotEmpty()) FontWeight.SemiBold else null),
             modifier = Modifier

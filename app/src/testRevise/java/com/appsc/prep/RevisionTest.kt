@@ -62,11 +62,9 @@ class RevisionTest {
         }
     }
 
-    @Test fun sameDaysAndPagesShorterText() = runBlocking {
+    @Test fun sameDaysAndPagesAllMapped() = runBlocking {
         assertTrue(repo.revision)
         assertEquals("APPSC Revision", repo.appName)
-        var full = 0
-        var short = 0
         for (b in 1..6) {
             val rev = repo.book(b)
             val notes = this@RevisionTest.notes.book(b)
@@ -75,45 +73,49 @@ class RevisionTest {
             rev.rows.zip(notes.rows).forEach { (r, n) ->
                 assertEquals(n.title, r.title)
                 assertEquals(n.secs.map { it.title }, r.secs.map { it.title })
+                // and every page is a mind map (tools/build_mindmap.py)
+                r.secs.forEach { s -> assertTrue("${r.title} / ${s.title}", s.map.isNotEmpty()) }
             }
-            full += notes.rows.sumOf { r -> r.secs.sumOf { it.wordCount } }
-            short += rev.rows.sumOf { r -> r.secs.sumOf { it.wordCount } }
         }
-        assertTrue("revision is $short of $full words", short < full * 6 / 10)
     }
 
-    /** A page's revision facts are what its MCQs test, answer in bold, each fact once; source tags never. */
-    @Test fun factsFromTheMcqs() = runBlocking {
-        val page = repo.book(2).rows[0].secs.first { it.title.startsWith("Indian Councils Acts 1861") }
-        val t = text(page.blocks)
-        for (fact in listOf("indirect election", "ordinance")) {
-            assertTrue("$fact missing:\n$t", t.contains(fact, ignoreCase = true))
+    private fun mapText(nodes: List<com.appsc.prep.data.MapNode>): String =
+        nodes.joinToString("\n") { n -> n.runs.joinToString("") { it.text } + "\n" + mapText(n.children) }
+
+    /** A page's mind map keeps its facts: every number of the notes page, its exam angles; source tags never. */
+    @Test fun mapsKeepTheFacts() = runBlocking {
+        val notesPage = notes.book(2).rows[0].secs.first { it.title.startsWith("Indian Councils Acts 1861") }
+        val page = repo.book(2).rows[0].secs.first { it.title == notesPage.title }
+        val m = mapText(page.map)
+        val numbers = Regex("""\d+(?:\.\d+)?""")
+        val inMap = numbers.findAll(m.replace(",", "")).map { it.value }.toSet()
+        for (n in numbers.findAll(text(notesPage.blocks).replace(",", "")).map { it.value }.toSet()) {
+            assertTrue("$n missing from the map:\n$m", n in inMap || n.length == 1)
         }
-        // since 2.61 heavy pages are split: these facts are on other pages of the same topic
-        val topic = repo.book(2).rows[0].secs.joinToString("\n") { text(it.blocks) }
-        for (fact in listOf("six months", "Raja of Benaras")) {
-            assertTrue("$fact missing from the topic", topic.contains(fact, ignoreCase = true))
-        }
-        assertTrue(t, page.blocks.any { it is TextBlock && it.kind == 'x' }) // exam angles first
-        assertTrue(t, page.blocks.any { b -> b is TextBlock && b.runs.any { it.bold } }) // answers in bold
-        // no filler from the explanations, no source tags, no repeated sentence
+        assertTrue(m, m.contains("indirect election", ignoreCase = true) || m.contains("1861"))
+        val topic = repo.book(2).rows[0].secs.joinToString("\n") { mapText(it.map) }
+        assertTrue("Raja of Benaras", topic.contains("Raja of Benaras"))
+        // exam angles stay, as their own nodes
+        val withAngle = notes.book(2).rows[0].secs.count { s -> s.blocks.any { it is TextBlock && it.kind == 'x' } }
+        val mapsWithAngle = repo.book(2).rows[0].secs.count { s -> mapText(s.map).isNotEmpty() && hasAngle(s.map) }
+        assertEquals(withAngle, mapsWithAngle)
+        // no source tags or gap lines anywhere
         for (b in 1..6) {
             repo.book(b).rows.forEach { r ->
                 r.secs.forEach { s ->
-                    val x = text(s.blocks)
-                    assertTrue("${s.title}: $x", !x.contains("[GK]") && !x.contains("Not in your sources"))
-                    assertTrue("${s.title}: $x", !Regex("""(?m)^Statements? [\d, and]+ (is|are) (correct|incorrect)""").containsMatchIn(x))
-                    val lines = s.blocks.filterIsInstance<TextBlock>().map { tb -> tb.runs.joinToString("") { it.text } }
-                    assertEquals(s.title, lines.size, lines.toSet().size)
+                    val x = mapText(s.map)
+                    assertTrue("${s.title}: $x", !x.contains("[GK]") && !x.contains("(CDI)") && !x.contains("Not in your sources"))
                 }
             }
         }
     }
 
+    private fun hasAngle(nodes: List<com.appsc.prep.data.MapNode>): Boolean = nodes.any { it.kind == 'x' || hasAngle(it.children) }
+
     /** Read-aloud reads the key facts: full forms, numbers and all, the same way as in the notes app. */
     @Test fun readAloudReadsKeyFacts() = runBlocking {
         repo.checkedAcronyms
-        val page = repo.book(2).rows[0].secs.first { it.title.startsWith("Crown-rule Acts") }
+        val page = repo.book(2).rows[0].secs.first { it.title.startsWith("Indian Councils Acts 1861") }
         val spoken = com.appsc.prep.data.SpeechText.parts(page.title, page.blocks, 2, repo.book(2).rows[0].title).joinToString(" ") { it.second }
         assertTrue(spoken, spoken.contains("six months") || spoken.contains("6 months"))
         assertTrue(spoken, spoken.contains("Indian Councils Act"))

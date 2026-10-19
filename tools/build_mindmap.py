@@ -2,14 +2,16 @@
 """Mind maps for the revision app: every notes page as a tree of its own facts, nothing reworded.
 
     python3 tools/build_mindmap.py app/src/main/assets app/src/revise/assets [book:rows ...]   e.g. 2:4 1:0-2
-Each page's tree goes into rev<book>.json as the page's "m" (the app draws it in place of the text):
+Each page's tree goes into rev<book>.json as the page's "m" (the app draws it in place of the text), and the
+same tree as text as the page's "b" (read aloud and searched):
   * the page title is the centre; each heading of the page is a branch (text before the first heading too);
   * a bullet "Label: details; more" is a node "Label" with the details as leaves, split at ";";
     a bullet without a label is one node; its sub-bullets are its children;
-  * a table row is a node (its first cell) with a leaf per other cell ("Column: value" when the table has
-    more than two columns);
-  * exam angles are kept whole as highlighted nodes; source tags ([GK], (CDI), ...) and gap lines go.
-Node: {"x": runs, "k": "b" | "x" (exam angle) | "t" (table row), "c": [children]}
+  * a table is a node naming its columns ("Act → Key provisions"); each row hangs from it as a node (its first
+    cell) with a leaf per other cell ("Column: value" when the table has more than two columns);
+  * exam angles are kept whole as highlighted nodes; source names ([GK], (CDI), TH, SES ...) and gap lines
+    go - any date or fact next to a source name in a bracket stays.
+Node: {"x": runs, "k": "b" | "x" (exam angle) | "t" (table row) | "g" (a table's columns), "c": [children]}
 """
 import json
 import re
@@ -17,11 +19,50 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from build_revision import clean  # noqa: E402
+# source codes of the notes' citations; a bracket made only of these (with a date or page) is dropped
+SOURCES = ("TH|LENSD?|IYB|APSES|AP ?SES|SES|ES|CDI|CDX|CDCA|APP|APPCA|APHQ|VIS|PT365|NCERT|BUD|PIB|Budget|GK|CA|"
+           "AP Survey|Survey|Economic Survey|NextGen")
+MONTH = r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?"
+CITE = re.compile(r"\s*\(([^()]*)\)|\s*\[([^\[\]]*)\]")
+
+
+def clean(rs):
+    """Source names out of brackets ("(TH 17 Jul 2026)" -> "(17 Jul 2026)", "[GK]" and "(CDI)" go whole);
+    everything else in a bracket - exam references, the other version where sources differ, data - stays."""
+    out = []
+    for t, f in rs:
+        def drop(m):
+            inner = m.group(1) if m.group(1) is not None else m.group(2)
+            if not re.search(rf"\b(?:{SOURCES})\b", inner):
+                return m.group()
+            # source names (and their page numbers) out; any date or fact in the same bracket stays
+            left = []
+            for piece in re.split(r";|,(?=\s*[A-Za-z])", inner):
+                x = re.sub(rf"\b(?:{SOURCES})\b|\b(?:notes?|key|data|table|box|summary|analysis)\b|\bp+\.?\s*\d+(?:-\d+)?", "", piece)
+                x = re.sub(r"\s{2,}", " ", x).strip(" -–/:")
+                if x:
+                    left.append(x)
+            if not left:
+                return ""
+            return (" (" if m.group().startswith(" ") else "(") + "; ".join(left) + ")" if m.group(1) is not None else "[" + "; ".join(left) + "]"
+        t = CITE.sub(drop, t)
+        if t:
+            if out and out[-1][1] == f:
+                out[-1][0] += t
+            else:
+                out.append([t, f])
+    if out:
+        out[0][0] = out[0][0].lstrip(" ;,")
+        out[-1][0] = re.sub(r"[\s;,]+$", "", out[-1][0])
+    for r in out:
+        r[0] = re.sub(r"\s{2,}", " ", r[0])
+    return [r for r in out if r[0]]
 
 
 def rs(x):
     """runs as [[text, flags]] (a run may come without flags); muted asides out."""
+    if isinstance(x, str):  # a plain-text cell
+        x = [[x, 0]]
     out = [[r[0], r[1] if len(r) > 1 else 0] for r in x]
     return [r for r in out if not r[1] & 4]
 
@@ -103,6 +144,23 @@ def table_nodes(b):
                 kids += [{"x": x, "k": "b", "c": []} for x in split_semis(c)]
         title = [[t, f | 1] for t, f in cells[0]]
         out.append({"x": title, "k": "t", "c": kids})
+    if any(head):
+        # the columns as a group node: "Act → Key provisions" (headers can carry facts: "2024-25 (2nd AE)")
+        cols = [x for x in head[1:] if x]
+        label = head[0] + (" → " + " · ".join(cols) if cols else "") if head[0] else " · ".join(cols)
+        return [{"x": [[label, 1]], "k": "g", "c": out}]
+    return out
+
+
+def prune(nodes):
+    """Gap markers inside cells and bullets ("Year: Not in your sources") are not facts: out."""
+    out = []
+    for n in nodes:
+        t = re.sub(r"^[^:]{0,40}:\s*", "", plain(n["x"])) if "Not in your sources" in plain(n["x"]) else plain(n["x"])
+        if t.lstrip().startswith("Not in your sources") or plain(n["x"]).lstrip().startswith("Not in your sources"):
+            continue
+        n["c"] = prune(n["c"])
+        out.append(n)
     return out
 
 
@@ -142,7 +200,38 @@ def page_map(blocks):
             if n:
                 cur["c"].append(n)
                 last = n
+    branches = [dict(b, c=prune(b["c"])) for b in branches]
     return [x for x in branches if x["c"]]
+
+
+def map_blocks(branches):
+    """The map as page text (read aloud, searched, counted): branch -> heading, node -> bullet, a node's leaves
+    joined after it ("Label: a; b"), deeper nodes -> sub-bullets, exam angles kept."""
+    out = []
+
+    def line(n):
+        r = [list(x) for x in n["x"]]
+        leaves = [c for c in n["c"] if not c["c"]]
+        if leaves and len(leaves) == len(n["c"]):
+            r = r + [[": ", 0]]
+            for i, c in enumerate(leaves):
+                r += ([["; ", 0]] if i else []) + [list(x) for x in c["x"]]
+            return r, []
+        return r, n["c"]
+
+    def walk(nodes, depth):
+        for n in nodes:
+            if n["k"] == "x":
+                out.append({"k": "x", "x": n["x"]})
+                continue
+            r, kids = line(n)
+            out.append({"k": "b" if depth == 1 else "s", "x": r})
+            walk(kids, depth + 1)
+
+    for b in branches:
+        out.append({"k": "h", "x": b["x"]})
+        walk(b["c"], 1)
+    return out
 
 
 def rows_arg(a):
@@ -169,6 +258,7 @@ def main():
             for s_n, s_r in zip(n["secs"], r["secs"]):
                 assert s_n["t"] == s_r["t"], (book, ri, s_n["t"])
                 s_r["m"] = page_map(s_n["b"])
+                s_r["b"] = map_blocks(s_r["m"])
                 pages += 1
 
                 def count(xs):
