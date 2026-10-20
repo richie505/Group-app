@@ -5,6 +5,9 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performScrollToNode
 import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.data.ProgressStore
@@ -108,6 +111,62 @@ class RevisionTest {
                 }
             }
         }
+    }
+
+    /** Read-aloud follows the map: line n of the page text is the n-th node of the map, on every page. */
+    @Test fun readAloudLinesAreMapNodes() = runBlocking {
+        for (b in 1..6) {
+            repo.book(b).rows.forEach { r ->
+                r.secs.forEach { s ->
+                    val lines = com.appsc.prep.ui.components.mapLines(s.map)
+                    assertEquals("${s.title}: lines", s.blocks.size, (lines.values.maxOrNull() ?: -1) + 1)
+                    s.map.forEach { br ->
+                        val k = (s.blocks[lines[br]!!] as TextBlock).kind
+                        assertEquals("${s.title}: branch ${br.runs.joinToString("") { it.text }}", 'h', k)
+                    }
+                }
+            }
+        }
+    }
+
+    /** A stand-in for the phone's text-to-speech: it only says which part is being read. */
+    private class FakeSpeech : com.appsc.prep.ui.components.Speech {
+        override val playback = androidx.compose.runtime.mutableStateOf(com.appsc.prep.ui.components.Playback())
+        var page: com.appsc.prep.ui.components.SpeechPage? = null
+        override fun play(page: com.appsc.prep.ui.components.SpeechPage, from: Int, rate: Float, next: () -> com.appsc.prep.ui.components.SpeechPage?) {
+            this.page = page
+            playback.value = com.appsc.prep.ui.components.Playback(active = true, playing = true, pageId = page.id, part = from)
+        }
+        override fun pause() { playback.value = playback.value.copy(playing = false) }
+        override fun resume() { playback.value = playback.value.copy(playing = true) }
+        override fun seek(part: Int) { playback.value = playback.value.copy(part = part) }
+        override fun setRate(rate: Float) {}
+        override fun stop() { playback.value = com.appsc.prep.ui.components.Playback() }
+    }
+
+    /** Reading a mind map aloud keeps the node being read on screen, highlighted - it does not jump away. */
+    @Test fun readAloudStaysOnTheNodeBeingRead() {
+        val fake = FakeSpeech()
+        val platform = object : com.appsc.prep.ui.components.Platform by AndroidPlatform(ctx) {
+            override val speech get() = fake
+        }
+        val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), platform)
+        runBlocking { app.repo.book(2); app.repo.mcq(2) }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { ReaderScreen(2, 4, 0, nav) } } }
+        rule.waitForIdle()
+        val page = runBlocking { app.repo.book(2).rows[4].secs[0] }
+        val parts = com.appsc.prep.data.SpeechText.parts(page.title, page.blocks, 2, "")
+        val at = parts.indexOfFirst { it.second.startsWith("Fraternity") } // the last node of the map
+        assertTrue(at > 0)
+        rule.runOnIdle { fake.play(com.appsc.prep.ui.components.SpeechPage("2:4:0", page.title, parts.map { it.second }), at, 1f) { null } }
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/sample/${System.getProperty("sample.tag") ?: "after"}_mindmap_reading.png")
+        rule.onNodeWithText("Possibly drawn from", substring = true).assertIsDisplayed()
+        // a tap on another node reads from there, and the screen stays with it
+        rule.onNodeWithText("Role").performScrollTo().performClick()
+        rule.waitForIdle()
+        assertEquals(parts.indexOfFirst { it.second.startsWith("Role") }, fake.playback.value.part)
+        rule.onNodeWithText("Role").assertIsDisplayed()
     }
 
     private fun hasAngle(nodes: List<com.appsc.prep.data.MapNode>): Boolean = nodes.any { it.kind == 'x' || hasAngle(it.children) }
