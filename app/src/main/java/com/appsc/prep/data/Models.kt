@@ -213,3 +213,11 @@ data class BookMcq(
 
     fun placeOf(id: String): Pair<Int, Int>? = places[id]
 }
+
+/** APPSC Complete's Notes tab: an exam (Group 1, Group 2) and its subjects, each a list of syllabus groups. */
+data class Exam(val title: String, val sub: String, val subjects: List<ExamSubject>)
+
+data class ExamSubject(val title: String, val sub: String, val groups: List<ExamGroup>)
+
+/** A topic (Group 1) or a syllabus item (Group 2) and its sections, as (book, row). */
+data class ExamGroup(val title: String, val code: String, val rows: List<Pair<Int, Int>>)

@@ -18,7 +18,9 @@ from notes_fix import plain_cells, text
 from topic_check import topics, parse_head, check
 
 VERSION = os.environ.get("IDS_VERSION", "2.55")
-A = "app/src/main/assets"
+A = os.environ.get("MERGE_ASSETS", "app/src/main/assets")
+# MERGE=1: the batch is a merge of ROCKET blocks into the topic (tools/merge_guide.md, checked by merge_check.py)
+MERGE = bool(os.environ.get("MERGE"))
 book = int(sys.argv[1])
 dry = "--dry" in sys.argv
 d = os.environ.get("TOPIC_DIR", "work/topic") + f"/b{book}"
@@ -41,9 +43,17 @@ def sec_text(s):
 idmap, notemap, applied, sources = {}, {}, [], {}
 for f in sorted(glob.glob(f"{d}/out_*.md")):
     n = f[-6:-3]
-    old_t, new_t = topics(open(f"{d}/in_{n}.md").read()), topics(open(f).read())
+    in_text, out_text = open(f"{d}/in_{n}.md").read(), open(f).read()
+    if MERGE:
+        import merge_check
+        merged_in, back = merge_check.split_in(in_text), merge_check.not_here(out_text)
+        in_text = re.sub(r"(?ms)^=== ROCKET\n.*?(?=^=== ROW |\Z)", "", in_text)
+        out_text = re.sub(r"(?m)^=== NOT HERE:.*$", "", out_text)
+    old_t, new_t = topics(in_text), topics(out_text)
     for ri, new in new_t.items():
-        if ri not in old_t or check(old_t[ri], new):
+        if ri not in old_t:
+            continue
+        if (merge_check.check(merged_in[ri], new, back.get(ri, set())) if MERGE else check(old_t[ri], new)):
             continue
         r = rows[ri]
         src = open(f"{d}/in_{n}.md").read()
@@ -55,9 +65,10 @@ for f in sorted(glob.glob(f"{d}/out_*.md")):
         for head, body in new[1]:
             title, frm, universal = parse_head(head)
             srcs = [olds[k] for k in frm]
+            # a merged page may come from ROCKET blocks only: no Prep page behind it
             s = {"t": title, "badges": list(dict.fromkeys(b for x in srcs for b in x.get("badges", []))),
-                 "p": min(x.get("p", 0) for x in srcs), "b": [plain_cells(b) for b in to_blocks(body, [])],
-                 "o": srcs[0].get("o", f"{book}:{ri}:{frm[0]}")}
+                 "p": min((x.get("p", 0) for x in srcs), default=0), "b": [plain_cells(b) for b in to_blocks(body, [])],
+                 "o": srcs[0].get("o", f"{book}:{ri}:{frm[0]}") if srcs else f"{book}:{ri}:rocket"}
             cov = [c for x in srcs for c in x.get("cov", [])]
             cov = [list(c) for c in dict.fromkeys(tuple(c) for c in cov) if not (c[0] == book and c[1] == ri)]
             if cov:

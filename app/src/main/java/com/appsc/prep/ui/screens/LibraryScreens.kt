@@ -83,6 +83,22 @@ fun BooksScreen(nav: Nav) {
     Column(Modifier.fillMaxSize()) {
         TopBar("Notes")
         PageList(Modifier.fillMaxSize(), max = 1180.dp) { width ->
+            if (app.repo.exams.isNotEmpty()) {
+                // APPSC Complete: the subjects of each exam on their own, Group 1 then Group 2
+                app.repo.exams.forEachIndexed { ei, exam ->
+                    item(key = "exam$ei") {
+                        Column(Modifier.padding(start = 20.dp, end = 20.dp, top = if (ei == 0) 16.dp else 28.dp, bottom = 6.dp)) {
+                            Text(exam.title.uppercase(), style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 1.sp))
+                            Text(exam.sub, style = TextStyle(fontSize = 13.sp, color = C.Muted))
+                        }
+                    }
+                    gridItems(exam.subjects.withIndex().toList(), columnsFor(width, 460.dp, 2), spacing = 0.dp) { (si, sj) ->
+                        ExamSubjectCard(sj, ei, si) { nav.exam(ei, si) }
+                    }
+                }
+                item { Spacer(Modifier.height(24.dp)) }
+                return@PageList
+            }
             item { SectionHeader("Combined Notes G1 + G2") }
             gridItems(app.repo.index, columnsFor(width, 460.dp, 2), spacing = 0.dp) { b ->
                 val done = bookDone(b)
@@ -109,6 +125,120 @@ fun BooksScreen(nav: Nav) {
                                 Text("${done * 100 / b.subsectionTotal.coerceAtLeast(1)}%", style = TextStyle(fontSize = 11.sp, color = C.Muted))
                             }
                         }
+                    }
+                }
+            }
+            item { Spacer(Modifier.height(24.dp)) }
+        }
+    }
+}
+
+/** (read, total) pages of these sections. */
+@Composable
+private fun sectionsDone(rows: List<Pair<Int, Int>>): Pair<Int, Int> {
+    val app = LocalApp.current
+    var done = 0
+    var total = 0
+    for ((b, r) in rows.distinct()) {
+        val n = app.repo.rowInfo(b, r)?.subsectionCount ?: 0
+        total += n
+        done += app.store.doneCount(b, r, n)
+    }
+    return done to total
+}
+
+@Composable
+private fun ExamSubjectCard(sj: com.appsc.prep.data.ExamSubject, exam: Int, index: Int, onClick: () -> Unit) {
+    val (done, total) = sectionsDone(sj.groups.flatMap { it.rows })
+    Card(onClick = onClick) {
+        Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
+            Box(
+                Modifier.size(width = 46.dp, height = 58.dp).clip(RoundedCornerShape(8.dp)).background(bookColors[(index + exam * 3) % 6]),
+                contentAlignment = Alignment.Center,
+            ) {
+                Text(if (exam == 0) "G1" else "G2", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.Bold, color = Color.White))
+            }
+            Spacer(Modifier.width(14.dp))
+            Column(Modifier.weight(1f)) {
+                Text(sj.title, style = TextStyle(fontSize = 15.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
+                Text(sj.sub, style = TextStyle(fontSize = 12.sp, color = C.Muted), modifier = Modifier.padding(top = 2.dp))
+                Spacer(Modifier.height(8.dp))
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    ProgressLine(done / total.coerceAtLeast(1).toFloat(), Modifier.weight(1f))
+                    Spacer(Modifier.width(8.dp))
+                    Text("${done * 100 / total.coerceAtLeast(1)}%", style = TextStyle(fontSize = 11.sp, color = C.Muted))
+                }
+            }
+        }
+    }
+}
+
+/** A subject of Group 1 or Group 2: its topics or syllabus items, each expandable to its sections. */
+@Composable
+fun ExamSubjectScreen(exam: Int, subject: Int, nav: Nav) {
+    val app = LocalApp.current
+    val e = app.repo.exams[exam]
+    val sj = e.subjects[subject]
+    Column(Modifier.fillMaxSize()) {
+        TopBar("${e.title} · ${sj.title}", onBack = nav::back)
+        PageList(Modifier.fillMaxSize()) {
+            item {
+                Column(Modifier.padding(20.dp)) {
+                    Text(e.title.uppercase(), style = TextStyle(fontSize = 12.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+                    Text(sj.title, style = TextStyle(fontSize = 22.sp, lineHeight = 28.sp, fontWeight = FontWeight.Bold, color = Color.Black))
+                    Text(sj.sub, style = TextStyle(fontSize = 13.sp, color = C.Muted), modifier = Modifier.padding(top = 4.dp))
+                    Spacer(Modifier.height(10.dp))
+                    val (done, total) = sectionsDone(sj.groups.flatMap { it.rows })
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        ProgressLine(done / total.coerceAtLeast(1).toFloat(), Modifier.weight(1f))
+                        Spacer(Modifier.width(10.dp))
+                        Text("$done / $total", style = TextStyle(fontSize = 12.sp, color = C.Muted))
+                    }
+                }
+                HorizontalDivider(color = C.Line)
+            }
+            sj.groups.forEachIndexed { gi, g ->
+                item(key = "g$gi") {
+                    var open by rememberSaveable { mutableStateOf(sj.groups.size == 1) }
+                    val (done, total) = sectionsDone(g.rows)
+                    Column {
+                        Row(
+                            Modifier.fillMaxWidth().clickable { open = !open }.padding(horizontal = 20.dp, vertical = 14.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Column(Modifier.weight(1f)) {
+                                if (g.code.isNotBlank()) Tag(g.code)
+                                Spacer(Modifier.height(3.dp))
+                                Text(g.title.substringAfter(": "), style = TextStyle(fontSize = 15.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
+                                Text(
+                                    "${g.rows.size} sections · $done/$total ${app.doneWord}",
+                                    style = TextStyle(fontSize = 12.sp, color = C.Muted),
+                                    modifier = Modifier.padding(top = 3.dp),
+                                )
+                            }
+                            Icon(if (open) Icons.Filled.ExpandLess else Icons.Filled.ExpandMore, null, tint = C.Muted)
+                        }
+                        if (open) {
+                            g.rows.forEachIndexed { i, (b, ri) ->
+                                val r = app.repo.rowInfo(b, ri) ?: return@forEachIndexed
+                                HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 16.dp))
+                                SectionItem(
+                                    number = "${i + 1}",
+                                    title = r.title,
+                                    meta = listOfNotNull(
+                                        app.repo.index[b - 1].short,
+                                        r.questionCount.takeIf { it > 0 }?.let { mcqCount(it) },
+                                        "${r.subsectionCount} subsections",
+                                    ).joinToString(" · "),
+                                    priority = app.repo.planRowByRef[b to ri]?.priority ?: "",
+                                    done = app.store.doneCount(b, ri, r.subsectionCount),
+                                    total = r.subsectionCount,
+                                    onClick = { nav.row(b, ri) },
+                                    onPractice = if (r.questionCount > 0) ({ nav.quiz("row", b, ri) }) else null,
+                                )
+                            }
+                        }
+                        HorizontalDivider(color = C.Line)
                     }
                 }
             }

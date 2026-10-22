@@ -17,6 +17,7 @@ import androidx.navigation.navArgument
 import com.appsc.prep.ui.components.studyClock
 import com.appsc.prep.ui.screens.BookScreen
 import com.appsc.prep.ui.screens.BooksScreen
+import com.appsc.prep.ui.screens.ExamSubjectScreen
 import com.appsc.prep.ui.screens.DayScreen
 import com.appsc.prep.ui.screens.Nav
 import com.appsc.prep.ui.screens.PlanScreen
@@ -41,7 +42,7 @@ val tabs = listOf(
 
 /** Whether the tab bar shows on this route (hidden while reading or practising). */
 fun showTabs(route: String?): Boolean =
-    route in tabs.map { it.route } || route?.startsWith("day/") == true ||
+    route in tabs.map { it.route } || route?.startsWith("day/") == true || route?.startsWith("exam/") == true ||
         route?.startsWith("row/") == true || route?.startsWith("book/") == true
 
 /** The tab a route belongs to. */
@@ -61,6 +62,7 @@ class NavImpl(private val nav: NavHostController) : Nav {
     override fun quiz(kind: String, book: Int, index: Int, mode: String, sub: Int) =
         nav.navigate("quiz/$kind/$book/$index/$mode?s=$sub")
     override fun day(n: Int) = nav.navigate("day/$n")
+    override fun exam(exam: Int, subject: Int) = nav.navigate("exam/$exam/$subject")
     override fun row(book: Int, row: Int) = nav.navigate("row/$book/$row")
     override fun read(book: Int, row: Int, sec: Int) = nav.navigate("read/$book/$row/$sec")
     override fun book(id: Int) = nav.navigate("book/$id")
@@ -105,6 +107,12 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
                 else -> "MCQ Practice"
             }
             QuizScreen(src, a.getString("m")!!, title, actions)
+        }
+        composable(
+            "exam/{e}/{s}",
+            listOf(navArgument("e") { type = NavType.IntType }, navArgument("s") { type = NavType.IntType }),
+        ) {
+            ExamSubjectScreen(it.arguments!!.getInt("e"), it.arguments!!.getInt("s"), actions)
         }
         composable("day/{n}", listOf(navArgument("n") { type = NavType.IntType })) {
             DayScreen(it.arguments!!.getInt("n"), actions)

@@ -41,6 +41,12 @@ android {
             applicationIdSuffix = ".revise"
             resValue("string", "app_name", "APPSC Revision")
         }
+        // the three apps' notes in one: Prep's syllabus, ROCKET sheets as the core, CA app + Prep current affairs
+        create("complete") {
+            dimension = "edition"
+            applicationIdSuffix = ".complete"
+            resValue("string", "app_name", "APPSC Complete")
+        }
     }
 
     buildTypes {

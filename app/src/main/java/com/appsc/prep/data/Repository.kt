@@ -169,10 +169,30 @@ class Repository(private val open: (String) -> InputStream) {
      * The revision edition (APPSC Revision) ships edition.json and rev{n}.json: for every page of the notes, the
      * facts its MCQs test (tools/build_revision_mcq.py). Its pages are read from those.
      */
-    val revision: Boolean by lazy { runCatching { open("edition.json").close() }.isSuccess }
+    private val edition: JsonObject? by lazy { runCatching { readJson("edition.json").jsonObject }.getOrNull() }
 
-    /** Name of this edition: "APPSC Prep" or "APPSC Revision". */
-    val appName: String get() = if (revision) "APPSC Revision" else "APPSC Prep"
+    val revision: Boolean by lazy { edition != null && (edition!!["edition"] as? JsonPrimitive)?.content != "complete" }
+
+    /** Name of this edition: "APPSC Prep", "APPSC Revision" or "APPSC Complete" (edition.json). */
+    val appName: String get() = (edition?.get("name") as? JsonPrimitive)?.content ?: "APPSC Prep"
+
+    /** APPSC Complete: the Notes tab's Group 1 / Group 2 blocks (tools/build_exams.py); empty in the other apps. */
+    val exams: List<Exam> by lazy {
+        runCatching {
+            readJson("exams.json").jsonArray.map { e ->
+                val o = e.jsonObject
+                Exam(o.str("title"), o.str("sub"), o["subjects"]!!.jsonArray.map { sj ->
+                    val so = sj.jsonObject
+                    ExamSubject(so.str("title"), so.str("sub"), so["groups"]!!.jsonArray.map { g ->
+                        val go = g.jsonObject
+                        ExamGroup(go.str("title"), go.str("code"), go["rows"]!!.jsonArray.map { x ->
+                            x.jsonArray[0].jsonPrimitive.int to x.jsonArray[1].jsonPrimitive.int
+                        })
+                    })
+                })
+            }
+        }.getOrDefault(emptyList())
+    }
 
     private val books = HashMap<Int, Book>()
     private val mutex = Mutex()

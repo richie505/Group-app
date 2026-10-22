@@ -70,6 +70,8 @@ import java.time.temporal.ChronoUnit
 
 interface Nav {
     fun quiz(kind: String, book: Int, index: Int, mode: String = "new", sub: Int = -1)
+    /** APPSC Complete: a subject of Group 1 or Group 2 (Repository.exams). */
+    fun exam(exam: Int, subject: Int) {}
     fun day(n: Int)
     fun row(book: Int, row: Int)
     fun read(book: Int, row: Int, sec: Int)
