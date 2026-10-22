@@ -4,11 +4,13 @@ Every question label of in_NNN.md must be decided exactly once in out_NNN.jsonl 
 merge's "from"); merges need 4 distinct options, an answer 0-3 and an explanation; subsections must exist.
 """
 import json, os, re, sys
+A = os.environ.get("TRIM_ASSETS", "app/src/main/assets")  # APPSC Complete: app/src/complete/assets
+W = os.environ.get("TRIM_DIR", "work/mcqtrim")
 
 book = int(sys.argv[1])
 only = sys.argv[2] if len(sys.argv) > 2 else None
-d = f"work/mcqtrim/b{book}"
-notes = json.load(open(f"app/src/main/assets/book{book}.json"))
+d = f"{W}/b{book}"
+notes = json.load(open(f"{A}/book{book}.json"))
 nsecs = [len(r["secs"]) for u in notes["units"] for r in u["rows"]]
 
 

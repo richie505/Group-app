@@ -5,11 +5,13 @@ work/mcqtrim/b<book>/orig.json) and every batch that passes tools/mcq_trim_check
 as batches come in. Updates each topic's question count ("q") in index.json.
 """
 import hashlib, json, os, re, shutil, subprocess, sys
+A = os.environ.get("TRIM_ASSETS", "app/src/main/assets")  # APPSC Complete: app/src/complete/assets
+W = os.environ.get("TRIM_DIR", "work/mcqtrim")
 from collections import Counter
 
 book = int(sys.argv[1])
-d = f"work/mcqtrim/b{book}"
-asset = f"app/src/main/assets/mcq{book}.json"
+d = f"{W}/b{book}"
+asset = f"{A}/mcq{book}.json"
 orig = f"{d}/orig.json"
 if not os.path.exists(orig):
     shutil.copy(asset, orig)
@@ -180,7 +182,7 @@ if fixes:
 
 json.dump({"rows": rows, "units": mcq["units"], "subs": subs}, open(asset, "w"), ensure_ascii=False, separators=(",", ":"))
 
-index_path = "app/src/main/assets/index.json"
+index_path = f"{A}/index.json"
 index = json.load(open(index_path))
 for ri, row in enumerate(index["books"][book - 1]["rows"]):
     row["q"] = len(rows.get(str(ri), []))
