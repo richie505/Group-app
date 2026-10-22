@@ -21,7 +21,8 @@ os.makedirs(out, exist_ok=True)
 
 
 def question(label, q):
-    lines = [f"[{label}] " + ("(ROCKET) " if q.get("src") == "rocket" else "") + q["s"]]
+    tag = {"rocket": "(ROCKET) ", "ca": "(CA app) "}.get(q.get("src"), "")
+    lines = [f"[{label}] " + tag + q["s"]]
     lines += [f"  {'ABCD'[i]}) {o}" for i, o in enumerate(q["o"])]
     lines.append(f"  ANSWER: {'ABCD'[q['a']] if 0 <= q['a'] < 4 else q['a']}")
     if q.get("x"):
