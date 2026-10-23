@@ -39,9 +39,14 @@ def main():
     for f in os.listdir(d):
         if f.startswith("in_"):
             os.remove(f"{d}/{f}")
+    # topics already merged (the pilot, or an earlier run) are not exported again
+    skip = set()
+    for f in [f"{d}/imported.json", f"{d}_pilot/imported.json"]:
+        if os.path.exists(f):
+            skip |= {int(k) for k in json.load(open(f))}
     batches, cur, words = [], [], 0
     for ri, r in enumerate(rows):
-        if (only is not None and ri not in only) or not by_row.get(ri):
+        if (only is not None and ri not in only) or not by_row.get(ri) or ri in skip:
             continue
         rk = [f"## R{n} | {x['title']} -> S{x['to'][2]}\n{x['md'].strip()}" for n, x in enumerate(by_row[ri])]
         text = topic(ri, r) + "\n\n=== ROCKET\n\n" + "\n\n".join(rk)
