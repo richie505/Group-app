@@ -85,4 +85,36 @@ class CompleteTest {
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/complete/5_merged_sources_differ.png")
     }
+
+    /** Current affairs: Prep's topics, the CA app's news pages by period, Prep's facts folded in. */
+    @Test fun currentAffairsTopics() {
+        val repo = Repository { ctx.assets.open(it) }
+        val s = repo.exams[0].subjects.indexOfFirst { it.title == "Current Affairs" }
+        show("6_ca_group1_topics") { ExamSubjectScreen(0, s, nav) }
+    }
+
+    @Test fun currentAffairsSection() {
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        runBlocking { app.repo.book(6); app.repo.mcq(6) }
+        rule.mainClock.autoAdvance = false
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.SectionScreen(6, 32, nav) } } }
+        rule.mainClock.advanceTimeBy(3000)
+        rule.onRoot().captureRoboImage("screenshots/complete/7_ca_section_sep_oct.png")
+        rule.mainClock.autoAdvance = true
+    }
+
+    private fun caPage(name: String, row: Int, sec: Int, scrollTo: String?) {
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        runBlocking { app.repo.book(6); app.repo.mcq(6) }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { ReaderScreen(6, row, sec, nav) } } }
+        rule.waitForIdle()
+        if (scrollTo != null) {
+            rule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText(scrollTo, substring = true))
+            rule.waitForIdle()
+        }
+        rule.onRoot().captureRoboImage("screenshots/complete/$name.png")
+    }
+
+    @Test fun caBudgetPage() = caPage("8_ca_budget_with_prep_facts", 35, 0, "16.96")
+    @Test fun caUpiPage() = caPage("9_ca_upi_sources_differ", 33, 9, "Sources differ")
 }
