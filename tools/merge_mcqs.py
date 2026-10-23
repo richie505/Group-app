@@ -35,15 +35,16 @@ def same(q, r):
 
 def main():
     rocket, book = sys.argv[1], int(sys.argv[2])
-    allmap = json.load(open("work/merge/rocket_map.json"))
-    rmap = [x for x in allmap if x["to"][0] == book]
+    # round 2 (tools/merge_reroute.py): the rerouted blocks only, at their new topics
+    allmap = json.load(open(os.environ.get("MERGE_MAP", "work/merge/rocket_map.json")))
+    rmap = [x for x in allmap if x["to"][0] == book and (x.get("r2") or not os.environ.get("ROUND2"))]
     # every block of a ROCKET sheet page, wherever it went: an MCQ belongs to the block it is closest to
     page_blocks = {}
     for x in allmap:
         page_blocks.setdefault((x["rb"], x["rr"], x["rs"]), []).append(x)
     rmcq = {b: json.load(open(f"{rocket}/mcq{b}.json")) for b in range(1, 6)}
     mcq = json.load(open(f"{A}/mcq{book}.json"))
-    d = f"work/merge/b{book}"
+    d = os.environ.get("TOPIC_DIR", "work/merge") + f"/b{book}"
     added = dup = 0
     done = json.load(open(f"{d}/imported.json"))
     for f in sorted(glob.glob(f"{d}/out_*.md")):
