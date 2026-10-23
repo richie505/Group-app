@@ -72,7 +72,7 @@ def main():
                         continue
                     qw = words(q["s"] + " " + q["o"][q["a"]] + " " + q.get("x", ""))
                     home = max(page_blocks[(rb, rr, rs)], key=lambda x: overlap(qw, words(x["md"])))
-                    if home["to"][:2] != [book, ri] or blocks.index(home) not in r_nos:
+                    if home["to"][:2] != [book, ri] or home not in blocks or blocks.index(home) not in r_nos:
                         continue  # tests a block that went to another topic
                     r_best = blocks.index(home)
                     if any(same(q, o) for o in qs):
