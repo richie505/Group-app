@@ -209,7 +209,7 @@ fun ExamSubjectScreen(exam: Int, subject: Int, nav: Nav) {
                             Column(Modifier.weight(1f)) {
                                 if (g.code.isNotBlank()) Tag(g.code)
                                 Spacer(Modifier.height(3.dp))
-                                Text(g.title.substringAfter(": "), style = TextStyle(fontSize = 15.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
+                                Text(if (g.code.isNotBlank() && g.title.startsWith(g.code + ":")) g.title.substringAfter(": ") else g.title, style = TextStyle(fontSize = 15.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
                                 Text(
                                     "${g.rows.size} sections · $done/$total ${app.doneWord}",
                                     style = TextStyle(fontSize = 12.sp, color = C.Muted),
