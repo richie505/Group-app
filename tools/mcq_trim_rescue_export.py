@@ -14,10 +14,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 book = int(sys.argv[1])
 limit = int(sys.argv[2]) if len(sys.argv) > 2 else 120
-d = f"work/mcqtrim/b{book}"
-notes = json.load(open(f"app/src/main/assets/book{book}.json"))
+A = os.environ.get("TRIM_ASSETS", "app/src/main/assets")  # APPSC Complete: app/src/complete/assets
+d = os.environ.get("TRIM_DIR", "work/mcqtrim") + f"/b{book}"
+notes = json.load(open(f"{A}/book{book}.json"))
 orig = f"{d}/orig.json"
-mcq = json.load(open(orig if os.path.exists(orig) else f"app/src/main/assets/mcq{book}.json"))
+mcq = json.load(open(orig if os.path.exists(orig) else f"{A}/mcq{book}.json"))
 rows = [r for u in notes["units"] for r in u["rows"]]
 subs = []
 for ri, r in enumerate(rows):
