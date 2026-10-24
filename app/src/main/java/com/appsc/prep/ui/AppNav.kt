@@ -6,6 +6,7 @@ import androidx.compose.material.icons.outlined.BarChart
 import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.CalendarMonth
 import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material.icons.outlined.Quiz
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -19,6 +20,7 @@ import com.appsc.prep.ui.screens.BookScreen
 import com.appsc.prep.ui.screens.BooksScreen
 import com.appsc.prep.ui.screens.ExamSubjectScreen
 import com.appsc.prep.ui.screens.DayScreen
+import com.appsc.prep.ui.screens.McqsScreen
 import com.appsc.prep.ui.screens.Nav
 import com.appsc.prep.ui.screens.PlanScreen
 import com.appsc.prep.ui.screens.ProgressScreen
@@ -40,13 +42,17 @@ val tabs = listOf(
     Tab("saved", "Saved", Icons.Outlined.BookmarkBorder),
 )
 
+/** APPSC Complete's tabs: an MCQs tab with the daily target and due MCQs ([McqsScreen]) after Plan. */
+val completeTabs = tabs.take(2) + Tab("mcqs", "MCQs", Icons.Outlined.Quiz) + tabs.drop(2)
+
 /** Whether the tab bar shows on this route (hidden while reading or practising). */
 fun showTabs(route: String?): Boolean =
-    route in tabs.map { it.route } || route?.startsWith("day/") == true || route?.startsWith("exam/") == true ||
+    route in completeTabs.map { it.route } || route?.startsWith("day/") == true || route?.startsWith("exam/") == true ||
         route?.startsWith("row/") == true || route?.startsWith("book/") == true
 
 /** The tab a route belongs to. */
-fun tabFor(route: String?): String = tabs.firstOrNull { it.route == route }?.route ?: when {
+fun tabFor(route: String?): String = completeTabs.firstOrNull { it.route == route }?.route ?: when {
+    route?.startsWith("quiz/target") == true -> "mcqs"
     route?.startsWith("day/") == true || route?.startsWith("quiz/day") == true -> "plan"
     route?.startsWith("quiz/need") == true -> "progress"
     else -> "books"
@@ -84,6 +90,7 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
     )) {
         composable("today") { TodayScreen(actions) }
         composable("plan") { PlanScreen(actions) }
+        composable("mcqs") { McqsScreen(actions) }
         composable("books") { BooksScreen(actions) }
         composable("progress") { ProgressScreen(actions) }
         composable("saved") { SavedScreen(actions) }
@@ -104,6 +111,7 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
                 "sub" -> if (src.sub < 0) "Other section MCQs" else "Subsection MCQs"
                 "row" -> "Section MCQs"
                 "need" -> "MCQs to practise"
+                "target" -> if (src.index == 0) "Due MCQs" else "Today's MCQs"
                 else -> "MCQ Practice"
             }
             QuizScreen(src, a.getString("m")!!, title, actions)

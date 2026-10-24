@@ -173,6 +173,9 @@ class Repository(private val open: (String) -> InputStream) {
 
     val revision: Boolean by lazy { edition != null && (edition!!["edition"] as? JsonPrimitive)?.content != "complete" }
 
+    /** APPSC Complete (the three apps in one), which has the MCQs tab with the daily target. */
+    val complete: Boolean by lazy { (edition?.get("edition") as? JsonPrimitive)?.content == "complete" }
+
     /** Name of this edition: "APPSC Prep", "APPSC Revision" or "APPSC Complete" (edition.json). */
     val appName: String get() = (edition?.get("name") as? JsonPrimitive)?.content ?: "APPSC Prep"
 

@@ -14,6 +14,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.systemBarsPadding
+import androidx.compose.material3.Badge
+import androidx.compose.material3.BadgedBox
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
@@ -41,6 +43,7 @@ import com.appsc.prep.ui.NavImpl
 import com.appsc.prep.ui.openTab
 import com.appsc.prep.ui.showTabs
 import com.appsc.prep.ui.tabFor
+import com.appsc.prep.ui.completeTabs
 import com.appsc.prep.ui.tabs
 import com.appsc.prep.ui.components.AppState
 import com.appsc.prep.ui.components.LocalApp
@@ -97,11 +100,20 @@ private fun AppRoot() {
             HorizontalDivider(color = C.Line)
             NavigationBar(containerColor = Color.White, tonalElevation = 0.dp, modifier = Modifier.height(68.dp)) {
                 val current = tabFor(route)
-                tabs.forEach { t ->
+                val app = LocalApp.current
+                // APPSC Complete: the MCQs tab shows what is left today (target + due)
+                val left = if (app.repo.complete) app.store.targetStatus().left else 0
+                (if (app.repo.complete) completeTabs else tabs).forEach { t ->
                     NavigationBarItem(
                         selected = current == t.route,
                         onClick = { nav.openTab(t.route) },
-                        icon = { Icon(t.icon, t.label) },
+                        icon = {
+                            if (t.route == "mcqs" && left > 0) {
+                                BadgedBox(badge = { Badge { Text(if (left > 999) "999+" else "$left") } }) { Icon(t.icon, t.label) }
+                            } else {
+                                Icon(t.icon, t.label)
+                            }
+                        },
                         label = { Text(t.label, style = TextStyle(fontSize = 12.sp)) },
                         colors = NavigationBarItemDefaults.colors(
                             selectedIconColor = C.Accent,

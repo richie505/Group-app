@@ -117,4 +117,64 @@ class CompleteTest {
 
     @Test fun caBudgetPage() = caPage("8_ca_budget_with_prep_facts", 35, 0, "16.96")
     @Test fun caUpiPage() = caPage("9_ca_upi_sources_differ", 33, 9, "Sources differ")
+
+    private class MemStorage : com.appsc.prep.data.Storage {
+        private val sets = HashMap<String, Set<String>>()
+        private val strings = HashMap<String, String>()
+        override fun getStringSet(key: String) = sets[key].orEmpty()
+        override fun getString(key: String) = strings[key]
+        override fun getFloat(key: String, default: Float) = default
+        override fun putStringSet(key: String, value: Set<String>) { sets[key] = value }
+        override fun putString(key: String, value: String) { strings[key] = value }
+        override fun putFloat(key: String, value: Float) {}
+    }
+
+    /** A day short of the target adds to what is due; MCQs beyond a day's target clear it, never bank ahead. */
+    @Test fun dailyTargetCarriesShortfallAsDue() {
+        val start = java.time.LocalDate.of(2026, 10, 20)
+        val done = mapOf(20 to 100, 21 to 40, 22 to 0, 23 to 150, 24 to 130)
+        val s = com.appsc.prep.data.DailyTarget.status(start, start.plusDays(4), { 100 }) { done[it.dayOfMonth] ?: 0 }
+        assertEquals(listOf(0, 60, 160, 110), s.days.map { it.due })
+        assertEquals(listOf(0, 60, 100, 0), s.days.map { it.short })
+        assertEquals(80, s.due) // today's 30 extra clear 30 of the 110
+        assertEquals(0, s.leftToday)
+        assertEquals(80, s.left)
+        // nothing banked: 300 on a day with nothing due leaves the next day's target as it was
+        val t = com.appsc.prep.data.DailyTarget.status(start, start.plusDays(1), { 100 }) { if (it == start) 300 else 0 }
+        assertEquals(0, t.due)
+        assertEquals(100, t.leftToday)
+    }
+
+    /** The target, its changes by day and a fresh start come back with a backup. */
+    @Test fun dailyTargetInBackup() {
+        val today = java.time.LocalDate.of(2026, 10, 24)
+        val phone = ProgressStore(MemStorage())
+        phone.setTarget(150, today.minusDays(3))
+        phone.setTarget(50, today)
+        phone.startFresh(today.minusDays(2))
+        val fresh = ProgressStore(MemStorage())
+        fresh.restore(phone.backup(), Repository { ctx.assets.open(it) }.idMoves)
+        assertEquals(150, fresh.targetOn(today.minusDays(5)))
+        assertEquals(150, fresh.targetOn(today.minusDays(1)))
+        assertEquals(50, fresh.targetOn(today))
+        assertEquals(today.minusDays(2), fresh.targetStart(today))
+    }
+
+    /** The MCQs tab with three earlier days (one met, two short) restored from another phone's backup. */
+    @Test fun mcqsTab() {
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(MemStorage()), AndroidPlatform(ctx))
+        val today = java.time.LocalDate.now()
+        val log = listOf(3 to 120, 2 to 40, 1 to 70).map { (ago, n) -> "\"other\\t${today.minusDays(ago.toLong())}\\t$n\\t${n / 2}\\t0\\t0\"" }
+        app.store.restore("""{"app":"APPSC Prep backup","format":1,"log":[${log.joinToString(",")}]}""", app.repo.idMoves)
+        val status = app.store.targetStatus()
+        assertEquals(90, status.due) // 100 a day: met, 60 short, 30 short
+        assertEquals(100, status.leftToday)
+        val pool = runBlocking { com.appsc.prep.ui.screens.targetPool(app, true, status.due) }
+        assertEquals(90, pool.size)
+        assertTrue(pool.none { app.store.attempted(it.id) })
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.McqsScreen(nav) } } }
+        rule.waitForIdle()
+        rule.onNodeWithText("Due MCQs").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/complete/10_mcqs_tab.png")
+    }
 }

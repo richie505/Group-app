@@ -63,7 +63,10 @@ import com.appsc.prep.ui.components.TopBar
 import com.appsc.prep.ui.theme.C
 
 
-/** Where the questions come from. kind: "row" (book, index), "unit" (book, index), "day" (day number). */
+/**
+ * Where the questions come from. kind: "row" (book, index), "unit" (book, index), "day" (day number), "target"
+ * (book = how many, index 0 = due from earlier plan days, 1 = today's: [targetPool]).
+ */
 data class QuizSource(val kind: String, val book: Int, val index: Int, val sub: Int = -1)
 
 /** Loads the question pool for a quiz source; null while loading. */
@@ -75,6 +78,7 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "row" -> app.repo.mcq(src.book).rows[src.index] ?: emptyList()
             "sub" -> app.repo.mcq(src.book).subQuestions(src.index, src.sub)
             "unit" -> app.repo.mcq(src.book).units[src.index] ?: emptyList()
+            "target" -> targetPool(app, src.index == 0, src.book)
             // every book's MCQs that need practice ([needsPractice])
             "need" -> app.repo.index.flatMap { b ->
                 app.repo.mcqWhere(b.id) { needsPractice(it.id, app.store.answers, app.store.seen) }
@@ -87,6 +91,33 @@ fun rememberPool(src: QuizSource): List<Question>? {
         }
     }
     return pool
+}
+
+/**
+ * The daily target's MCQs ([com.appsc.prep.data.DailyTarget]): [count] not yet tried, in plan order - for [due],
+ * from the plan days already past (oldest first), else from today's plan day on; then any other notes MCQs.
+ */
+suspend fun targetPool(app: com.appsc.prep.ui.components.AppState, due: Boolean, count: Int): List<Question> {
+    val plan = app.repo.plan
+    val today = app.repo.dayFor(java.time.LocalDate.now())
+    val days = if (due) plan.days.filter { it.n < today.n } + plan.days.filter { it.n >= today.n } else plan.days.filter { it.n >= today.n }
+    val out = ArrayList<Question>()
+    val taken = HashSet<String>()
+    fun add(qs: List<Question>) {
+        for (q in qs) {
+            if (out.size >= count) return
+            if (!app.store.attempted(q.id) && taken.add(q.id)) out += q
+        }
+    }
+    for (d in days) {
+        for (r in d.rows) add(app.repo.mcq(r.book).rows[r.row] ?: emptyList())
+        if (out.size >= count) return out
+    }
+    for (b in app.repo.index) {
+        add(app.repo.mcq(b.id).rows.toSortedMap().values.flatten())
+        if (out.size >= count) break
+    }
+    return out
 }
 
 /**
