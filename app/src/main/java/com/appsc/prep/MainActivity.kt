@@ -102,7 +102,7 @@ private fun AppRoot() {
                 val current = tabFor(route)
                 val app = LocalApp.current
                 // APPSC Complete: the MCQs tab shows what is left today (target + due)
-                val left = if (app.repo.complete) com.appsc.prep.ui.screens.rememberTargetStatus().left else 0
+                val left = if (app.repo.complete) com.appsc.prep.ui.screens.rememberDueStatus().left else 0
                 (if (app.repo.complete) completeTabs else tabs).forEach { t ->
                     NavigationBarItem(
                         selected = current == t.route,

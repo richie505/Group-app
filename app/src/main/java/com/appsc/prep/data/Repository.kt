@@ -177,9 +177,9 @@ class Repository(private val open: (String) -> InputStream) {
     val complete: Boolean by lazy { (edition?.get("edition") as? JsonPrimitive)?.content == "complete" }
 
     /** APPSC Complete: each plan day's MCQ ids (planmcq.json, tools/build_plan_mcq.py); empty elsewhere. */
-    val planMcqs: DailyTarget.PlanMcqs by lazy {
+    val planMcqs: DueMcqs.PlanMcqs by lazy {
         val ids = runCatching { readJson("planmcq.json").jsonArray.map { d -> d.jsonArray.map { it.jsonPrimitive.content } } }.getOrDefault(emptyList())
-        DailyTarget.PlanMcqs(plan.days.zip(ids))
+        DueMcqs.PlanMcqs(plan.days.zip(ids))
     }
 
     /** Name of this edition: "APPSC Prep", "APPSC Revision" or "APPSC Complete" (edition.json). */

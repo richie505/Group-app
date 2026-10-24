@@ -83,7 +83,7 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "need" -> app.repo.index.flatMap { b ->
                 app.repo.mcqWhere(b.id) { needsPractice(it.id, app.store.answers, app.store.seen) }
             }.distinctBy { it.id }
-            // APPSC Complete: a plan day's own MCQs, as the MCQs tab counts them ([com.appsc.prep.data.DailyTarget])
+            // APPSC Complete: a plan day's own MCQs, as the MCQs tab counts them ([com.appsc.prep.data.DueMcqs])
             else -> if (app.repo.complete && app.repo.planMcqs.days.isNotEmpty()) {
                 questions(app, app.repo.planMcqs.days.first { it.first.n == src.index }.second)
             } else {

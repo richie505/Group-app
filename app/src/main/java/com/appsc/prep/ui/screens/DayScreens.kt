@@ -345,13 +345,12 @@ private fun DayPracticeCard(day: PlanDay, nav: Nav) {
     )
     // APPSC Complete: today's practice counts only today's own MCQs; what is due from earlier days shows here too
     if (app.repo.complete && day.date == LocalDate.now()) {
-        val status = rememberTargetStatus()
-        TargetCard(
+        val status = rememberDueStatus()
+        CountCard(
             icon = Icons.Outlined.EventBusy,
             title = "Due MCQs",
             count = status.due,
-            subtitle = "Not attempted yet from earlier plan days (also in the MCQs tab). " +
-                "${status.doneToday} MCQs answered today in all, due ones included.",
+            subtitle = "Not attempted yet from earlier plan days, from Day 1. The same as in the MCQs tab.",
             ink = C.High,
             bg = C.HighSoft,
             onClick = if (status.due > 0) ({ nav.quiz("due", 0, 0) }) else null,

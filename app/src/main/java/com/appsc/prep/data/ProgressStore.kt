@@ -217,26 +217,6 @@ class ProgressStore(private val prefs: Storage) {
         return n
     }
 
-    /** Daily MCQ target changes, oldest first: (day it was set, target) ([DailyTarget]). */
-    private var targetLog by mutableStateOf(decodeTargets(prefs.getStringSet(KEY_TARGET)))
-
-    /** The daily MCQ target in force on [day]; a day before the first change has the first target. */
-    fun targetOn(day: LocalDate): Int =
-        (targetLog.lastOrNull { !it.first.isAfter(day) } ?: targetLog.firstOrNull())?.second ?: DailyTarget.DEFAULT
-
-    fun setTarget(n: Int, today: LocalDate = LocalDate.now()) {
-        targetLog = (targetLog.filter { it.first != today } + (today to n)).sortedBy { it.first }
-        prefs.putStringSet(KEY_TARGET, targetLog.map { "${it.first}\t${it.second}" }.toSet())
-    }
-
-    private fun decodeTargets(raw: Collection<String>): List<Pair<LocalDate, Int>> =
-        raw.mapNotNull { l ->
-            val p = l.split('\t')
-            val d = runCatching { LocalDate.parse(p[0]) }.getOrNull()
-            val n = p.getOrNull(1)?.toIntOrNull()
-            if (d == null || n == null || n <= 0) null else d to n
-        }.sortedBy { it.first }
-
     /** This device's id, telling its activity log apart from other devices' (brought in by a restore). */
     private val device: String = prefs.getString(KEY_DEVICE) ?: java.util.UUID.randomUUID().toString().take(8).also {
         prefs.putString(KEY_DEVICE, it)
@@ -344,7 +324,6 @@ class ProgressStore(private val prefs: Storage) {
         put("device", kotlinx.serialization.json.JsonPrimitive(device))
         set("log", ownLog.map { (d, l) -> "$device\t$d\t${l.encode()}" } + encodeOthers())
         set("spent", encodeSpent(ownSpent).map { "$device\t$it" } + otherSpent.flatMap { (dev, m) -> encodeSpent(m).map { "$dev\t$it" } })
-        set("target", targetLog.map { "${it.first}\t${it.second}" })
         put("scale", kotlinx.serialization.json.JsonPrimitive(textScale))
         put("rate", kotlinx.serialization.json.JsonPrimitive(speechRate))
     }.toString()
@@ -429,12 +408,6 @@ class ProgressStore(private val prefs: Storage) {
             prefs.putStringSet(KEY_SPENT_OTHER, otherSpent.flatMap { (dev, m) -> encodeSpent(m).map { "$dev\t$it" } }.toSet())
         }
 
-        // the daily MCQ target: this device's own settings win
-        if (targetLog.isEmpty() && list("target").isNotEmpty()) {
-            targetLog = decodeTargets(list("target"))
-            prefs.putStringSet(KEY_TARGET, targetLog.map { "${it.first}\t${it.second}" }.toSet())
-        }
-
         if (lastRead == null) str("last")?.let { rememberPosition(id(it)) }
         return Restored(newDone.size, incoming.size, inAnswers.size, inNotes.size)
     }
@@ -463,7 +436,6 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_BACKUP = "last_backup"
         const val KEY_DEVICE = "device_id"
         const val KEY_NOTE_ROUNDS = "note_rounds"
-        const val KEY_TARGET = "mcq_target"
         const val KEY_LOG = "activity_log"
         const val KEY_LOGS = "activity_other"
         const val KEY_SPENT = "spent_on"
