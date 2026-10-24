@@ -17,7 +17,7 @@ import json, os, re, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from topic_export import topic
 
-A = "app/src/main/assets"
+A = os.environ.get("EXPL_ASSETS", "app/src/main/assets")  # APPSC Complete: app/src/complete/assets
 
 
 def q_text(q, sub):
@@ -40,9 +40,11 @@ def batches(book, size, only=None):
             continue
         qs = mcq["rows"].get(str(ri), [])
         subs = mcq["subs"].get(str(ri), [-1] * len(qs))
-        if not qs:
+        # EXPL_MISSING=1: only MCQs without a structured explanation yet (APPSC Complete's ROCKET / CA app ones)
+        keep = [i for i, q in enumerate(qs) if not (os.environ.get("EXPL_MISSING") and "xs" in q)]
+        if not keep:
             continue
-        parts = [list(range(i, min(i + size, len(qs)))) for i in range(0, len(qs), size)]
+        parts = [keep[i:i + size] for i in range(0, len(keep), size)]
         for idx in parts:
             if n and n + len(idx) > size:
                 out.append(cur); cur, n = [], 0

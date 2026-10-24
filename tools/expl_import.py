@@ -8,7 +8,7 @@ import glob, json, os, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from expl_check import parse_in, parse_out, check
 
-A = "app/src/main/assets"
+A = os.environ.get("EXPL_ASSETS", "app/src/main/assets")  # APPSC Complete: app/src/complete/assets
 book = sys.argv[1]
 d = os.environ.get("EXPL_DIR", "work/expl") + f"/b{book}"
 done = {}
