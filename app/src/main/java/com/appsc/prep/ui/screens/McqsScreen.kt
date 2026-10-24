@@ -19,16 +19,11 @@ import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.outlined.EventBusy
 import androidx.compose.material.icons.outlined.Replay
 import androidx.compose.material.icons.outlined.Today
-import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -46,24 +41,39 @@ import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.SectionHeader
 import com.appsc.prep.ui.components.TopBar
 import com.appsc.prep.ui.theme.C
+import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 private val dayFmt = DateTimeFormatter.ofPattern("EEE, d MMM")
 
+/** Today's [DailyTarget.Status], following answers as they are given. */
+@Composable
+fun rememberTargetStatus(): DailyTarget.Status {
+    val app = LocalApp.current
+    val store = app.store
+    val plan = app.repo.planMcqs
+    val today = LocalDate.now()
+    val target = store.targetOn(today)
+    val done = store.dayLog(today).mcqs
+    return remember(plan, store.answers, store.seen, today, target, done) {
+        DailyTarget.status(plan, today, target, store::attempted) { d -> store.dayLog(d).mcqs }
+    }
+}
+
 /**
- * APPSC Complete's MCQs tab: a daily MCQ target, what earlier days fell short carried forward as due, and the
- * MCQs to clear it ([DailyTarget]).
+ * APPSC Complete's MCQs tab: the MCQs of every plan day before today not tried yet (due, day by day from Day 1),
+ * today's MCQs at the daily target's pace, and the ones answered wrong ([DailyTarget]).
  */
 @Composable
 fun McqsScreen(nav: Nav) {
     val app = LocalApp.current
     val store = app.store
-    val status = store.targetStatus()
+    val status = rememberTargetStatus()
     val wrong = store.answers.count { !it.value }
-    var confirmFresh by remember { mutableStateOf(false) }
 
     Column(Modifier.fillMaxSize()) {
         TopBar("MCQs")
+        val lastPast = status.days.lastOrNull()?.day
         PageList(Modifier.fillMaxSize()) {
             item {
                 Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 8.dp)) {
@@ -72,17 +82,11 @@ fun McqsScreen(nav: Nav) {
                         if (status.left == 0) "All done for today" else "${status.left} MCQs",
                         style = TextStyle(fontSize = 26.sp, fontWeight = FontWeight.Bold, color = if (status.left == 0) C.Green else C.Ink),
                     )
-                    Text(
-                        "Today's ${status.leftToday} + due ${status.due}",
-                        style = TextStyle(fontSize = 13.sp, color = C.Body),
-                    )
+                    Text("Today's ${status.leftToday} + due ${status.due}", style = TextStyle(fontSize = 13.sp, color = C.Body))
                     Spacer(Modifier.height(10.dp))
                     ProgressLine(status.doneToday / status.target.coerceAtLeast(1).toFloat())
                     Spacer(Modifier.height(4.dp))
-                    Text(
-                        "${status.doneToday} of ${status.target} done today",
-                        style = TextStyle(fontSize = 12.sp, color = C.Muted),
-                    )
+                    Text("${status.doneToday} of ${status.target} done today", style = TextStyle(fontSize = 12.sp, color = C.Muted))
                 }
             }
             item {
@@ -90,21 +94,24 @@ fun McqsScreen(nav: Nav) {
                     icon = Icons.Outlined.EventBusy,
                     title = "Due MCQs",
                     count = status.due,
-                    subtitle = if (status.due == 0) "Nothing due. Days you fall short of your target add here."
-                    else "Carried from days you fell short. From the plan days already past, oldest first.",
+                    subtitle = when {
+                        lastPast == null -> "None yet. A plan day's MCQs you don't attempt become due the next day."
+                        status.due == 0 -> "Every MCQ from Day 1 to Day ${lastPast.n} is attempted."
+                        else -> "Not attempted yet, from Day 1 to Day ${lastPast.n} (yesterday's plan). Oldest first."
+                    },
                     ink = C.High,
                     bg = C.HighSoft,
-                    onClick = if (status.due > 0) ({ nav.quiz("target", status.due, 0) }) else null,
+                    onClick = if (status.due > 0) ({ nav.quiz("due", 0, 0) }) else null,
                 )
                 TargetCard(
                     icon = Icons.Outlined.Today,
                     title = "Today's MCQs",
                     count = status.leftToday,
-                    subtitle = if (status.leftToday == 0) "Today's target is met. Tap for ${status.target} more; they clear due MCQs first."
-                    else "${status.doneToday} of ${status.target} done. From today's plan topics.",
+                    subtitle = (status.today?.let { "Day ${it.n}: ${status.todayLeft} of its MCQs not attempted yet. " } ?: "") +
+                        if (status.leftToday == 0) "Target met; tap for ${status.target} more." else "${status.doneToday} of ${status.target} done.",
                     ink = C.Accent,
                     bg = C.AccentSoft,
-                    onClick = { nav.quiz("target", if (status.leftToday > 0) status.leftToday else status.target, 1) },
+                    onClick = { nav.quiz("today", if (status.leftToday > 0) status.leftToday else status.target, 0) },
                 )
                 if (wrong > 0) {
                     TargetCard(
@@ -141,39 +148,21 @@ fun McqsScreen(nav: Nav) {
                     }
                 }
                 Text(
-                    "MCQs a day. A new target counts from today; earlier days keep theirs.",
+                    "MCQs a day, for today's MCQs. Due MCQs come on top until cleared.",
                     style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 6.dp),
                 )
             }
             if (status.days.isNotEmpty()) {
-                item { SectionHeader("Day by day") }
-                val recent = status.days.takeLast(30).reversed()
-                items(recent.size) { i ->
-                    DayLine(recent[i])
+                item { SectionHeader("Due by day, from Day 1") }
+                items(status.days.size) { i ->
+                    val d = status.days[i]
+                    DayLine(d) { nav.quiz("due", 0, d.day.n) }
                     HorizontalDivider(color = C.Line, modifier = Modifier.padding(horizontal = 20.dp))
-                }
-            }
-            if (status.due > 0) {
-                item {
-                    TextButton(onClick = { confirmFresh = true }, modifier = Modifier.padding(start = 12.dp, top = 8.dp)) {
-                        Text("Start fresh from today", style = TextStyle(fontSize = 14.sp, color = C.Muted))
-                    }
                 }
             }
             item { Spacer(Modifier.height(24.dp)) }
         }
-    }
-    if (confirmFresh) {
-        AlertDialog(
-            onDismissRequest = { confirmFresh = false },
-            title = { Text("Start fresh?") },
-            text = { Text("The ${status.due} due MCQs are cleared and the target counts from today. Your answers stay.") },
-            confirmButton = {
-                TextButton(onClick = { store.startFresh(); confirmFresh = false }) { Text("Start fresh") }
-            },
-            dismissButton = { TextButton(onClick = { confirmFresh = false }) { Text("Cancel") } },
-        )
     }
 }
 
@@ -210,18 +199,22 @@ private fun TargetCard(
 }
 
 @Composable
-private fun DayLine(d: DailyTarget.Day) {
-    Row(Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 10.dp), verticalAlignment = Alignment.CenterVertically) {
+private fun DayLine(d: DailyTarget.DayDue, onClick: () -> Unit) {
+    Row(
+        Modifier.fillMaxWidth().clickable(enabled = d.left > 0, onClick = onClick).padding(horizontal = 20.dp, vertical = 10.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
         Column(Modifier.weight(1f)) {
-            Text(d.date.format(dayFmt), style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = C.Ink))
-            Text("${d.done} of ${d.target} done", style = TextStyle(fontSize = 12.sp, color = C.Muted))
-        }
-        Column(horizontalAlignment = Alignment.End) {
+            Text("Day ${d.day.n} · ${d.day.date.format(dayFmt)}", style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = C.Ink))
             Text(
-                if (d.short > 0) "+${d.short} due" else "Met",
-                style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = if (d.short > 0) C.High else C.Green),
+                "${d.total - d.left} of ${d.total} attempted · you did ${d.doneThatDay} MCQs that day",
+                style = TextStyle(fontSize = 12.sp, color = C.Muted),
             )
-            Text("due after: ${d.due}", style = TextStyle(fontSize = 12.sp, color = C.Muted))
         }
+        Text(
+            if (d.left > 0) "${d.left} due" else "Done",
+            style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = if (d.left > 0) C.High else C.Green),
+        )
+        if (d.left > 0) Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
     }
 }

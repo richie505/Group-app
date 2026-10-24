@@ -129,49 +129,56 @@ class CompleteTest {
         override fun putFloat(key: String, value: Float) {}
     }
 
-    /** A day short of the target adds to what is due; MCQs beyond a day's target clear it, never bank ahead. */
-    @Test fun dailyTargetCarriesShortfallAsDue() {
-        val start = java.time.LocalDate.of(2026, 10, 20)
-        val done = mapOf(20 to 100, 21 to 40, 22 to 0, 23 to 150, 24 to 130)
-        val s = com.appsc.prep.data.DailyTarget.status(start, start.plusDays(4), { 100 }) { done[it.dayOfMonth] ?: 0 }
-        assertEquals(listOf(0, 60, 160, 110), s.days.map { it.due })
-        assertEquals(listOf(0, 60, 100, 0), s.days.map { it.short })
-        assertEquals(80, s.due) // today's 30 extra clear 30 of the 110
-        assertEquals(0, s.leftToday)
-        assertEquals(80, s.left)
-        // nothing banked: 300 on a day with nothing due leaves the next day's target as it was
-        val t = com.appsc.prep.data.DailyTarget.status(start, start.plusDays(1), { 100 }) { if (it == start) 300 else 0 }
-        assertEquals(0, t.due)
-        assertEquals(100, t.leftToday)
+    /** A past plan day's MCQs not attempted are due, each MCQ once; today's are counted apart. */
+    @Test fun dueIsUnattemptedFromDay1() {
+        val days = Repository { ctx.assets.open(it) }.plan.days
+        val plan = com.appsc.prep.data.DailyTarget.PlanMcqs(
+            listOf(days[0] to listOf("a", "b"), days[1] to listOf("c"), days[2] to listOf("d", "e")),
+        )
+        val tried = setOf("a", "d")
+        val s = com.appsc.prep.data.DailyTarget.status(plan, days[2].date, 100, { it in tried }) { if (it == days[0].date) 40 else 0 }
+        assertEquals(listOf(1, 1), s.days.map { it.left })
+        assertEquals(listOf(40, 0), s.days.map { it.doneThatDay })
+        assertEquals(2, s.due)
+        assertEquals(1, s.todayLeft)
+        assertEquals(102, s.left) // today's target 100 + 2 due
     }
 
-    /** The target, its changes by day and a fresh start come back with a backup. */
+    /** planmcq.json matches the plan and the MCQs shipped (tools/build_plan_mcq.py). */
+    @Test fun planMcqFileIsCurrent() {
+        val repo = Repository { ctx.assets.open(it) }
+        val books = runBlocking { (1..6).associateWith { repo.mcq(it) } }
+        val fresh = com.appsc.prep.data.DailyTarget.planMcqs(repo.plan) { b, r -> books[b]!!.rows[r]?.map { it.id } ?: emptyList() }
+        assertEquals(fresh.days.map { it.second }, repo.planMcqs.days.map { it.second })
+        assertEquals(31203, repo.planMcqs.days.sumOf { it.second.size })
+    }
+
+    /** The target and its changes by day come back with a backup. */
     @Test fun dailyTargetInBackup() {
         val today = java.time.LocalDate.of(2026, 10, 24)
         val phone = ProgressStore(MemStorage())
         phone.setTarget(150, today.minusDays(3))
         phone.setTarget(50, today)
-        phone.startFresh(today.minusDays(2))
         val fresh = ProgressStore(MemStorage())
         fresh.restore(phone.backup(), Repository { ctx.assets.open(it) }.idMoves)
         assertEquals(150, fresh.targetOn(today.minusDays(5)))
         assertEquals(150, fresh.targetOn(today.minusDays(1)))
         assertEquals(50, fresh.targetOn(today))
-        assertEquals(today.minusDays(2), fresh.targetStart(today))
     }
 
-    /** The MCQs tab with three earlier days (one met, two short) restored from another phone's backup. */
+    /** The MCQs tab: due MCQs from Day 1, Day 1 partly attempted. */
     @Test fun mcqsTab() {
         val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(MemStorage()), AndroidPlatform(ctx))
-        val today = java.time.LocalDate.now()
-        val log = listOf(3 to 120, 2 to 40, 1 to 70).map { (ago, n) -> "\"other\\t${today.minusDays(ago.toLong())}\\t$n\\t${n / 2}\\t0\\t0\"" }
-        app.store.restore("""{"app":"APPSC Prep backup","format":1,"log":[${log.joinToString(",")}]}""", app.repo.idMoves)
-        val status = app.store.targetStatus()
-        assertEquals(90, status.due) // 100 a day: met, 60 short, 30 short
-        assertEquals(100, status.leftToday)
-        val pool = runBlocking { com.appsc.prep.ui.screens.targetPool(app, true, status.due) }
-        assertEquals(90, pool.size)
-        assertTrue(pool.none { app.store.attempted(it.id) })
+        val day1 = app.repo.planMcqs.days.first()
+        day1.second.take(150).forEachIndexed { i, id -> app.store.recordAnswer(id, i % 4 != 0) }
+        val pool = runBlocking { com.appsc.prep.ui.screens.duePool(app, day1.first.n) }
+        if (java.time.LocalDate.now().isAfter(day1.first.date)) {
+            assertEquals(day1.second.size - 150, pool.size)
+            assertTrue(pool.none { app.store.attempted(it.id) })
+        }
+        val today = runBlocking { com.appsc.prep.ui.screens.todayPool(app, 40) }
+        assertEquals(40, today.size)
+        assertTrue(today.none { app.store.attempted(it.id) })
         rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.McqsScreen(nav) } } }
         rule.waitForIdle()
         rule.onNodeWithText("Due MCQs").assertExists()

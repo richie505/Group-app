@@ -229,27 +229,6 @@ class ProgressStore(private val prefs: Storage) {
         prefs.putStringSet(KEY_TARGET, targetLog.map { "${it.first}\t${it.second}" }.toSet())
     }
 
-    /** The day "start fresh" was pressed, if it was. */
-    private var freshStart by mutableStateOf(prefs.getString(KEY_TARGET_START))
-
-    /** The first day the target counts: set by "start fresh", else the first day with MCQs or notes on record. */
-    fun targetStart(today: LocalDate = LocalDate.now()): LocalDate =
-        freshStart?.let { runCatching { LocalDate.parse(it) }.getOrNull() }
-            ?: activity.filterValues { !it.empty }.keys.minOrNull()?.let { runCatching { LocalDate.parse(it) }.getOrNull() }?.coerceAtMost(today)
-            ?: today
-
-    /** Clears what is due: the target counts again from [today]. */
-    fun startFresh(today: LocalDate = LocalDate.now()) {
-        freshStart = today.toString()
-        prefs.putString(KEY_TARGET_START, today.toString())
-    }
-
-    /** Today's target, MCQs done and what is due from earlier days ([DailyTarget.status]). */
-    fun targetStatus(today: LocalDate = LocalDate.now()): DailyTarget.Status {
-        val act = activity
-        return DailyTarget.status(targetStart(today), today, ::targetOn) { act[it.toString()]?.mcqs ?: 0 }
-    }
-
     private fun decodeTargets(raw: Collection<String>): List<Pair<LocalDate, Int>> =
         raw.mapNotNull { l ->
             val p = l.split('\t')
@@ -366,7 +345,6 @@ class ProgressStore(private val prefs: Storage) {
         set("log", ownLog.map { (d, l) -> "$device\t$d\t${l.encode()}" } + encodeOthers())
         set("spent", encodeSpent(ownSpent).map { "$device\t$it" } + otherSpent.flatMap { (dev, m) -> encodeSpent(m).map { "$dev\t$it" } })
         set("target", targetLog.map { "${it.first}\t${it.second}" })
-        freshStart?.let { put("targetStart", kotlinx.serialization.json.JsonPrimitive(it)) }
         put("scale", kotlinx.serialization.json.JsonPrimitive(textScale))
         put("rate", kotlinx.serialization.json.JsonPrimitive(speechRate))
     }.toString()
@@ -456,10 +434,6 @@ class ProgressStore(private val prefs: Storage) {
             targetLog = decodeTargets(list("target"))
             prefs.putStringSet(KEY_TARGET, targetLog.map { "${it.first}\t${it.second}" }.toSet())
         }
-        if (freshStart == null) str("targetStart")?.let {
-            freshStart = it
-            prefs.putString(KEY_TARGET_START, it)
-        }
 
         if (lastRead == null) str("last")?.let { rememberPosition(id(it)) }
         return Restored(newDone.size, incoming.size, inAnswers.size, inNotes.size)
@@ -490,7 +464,6 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_DEVICE = "device_id"
         const val KEY_NOTE_ROUNDS = "note_rounds"
         const val KEY_TARGET = "mcq_target"
-        const val KEY_TARGET_START = "mcq_target_start"
         const val KEY_LOG = "activity_log"
         const val KEY_LOGS = "activity_other"
         const val KEY_SPENT = "spent_on"

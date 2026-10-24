@@ -64,8 +64,8 @@ import com.appsc.prep.ui.theme.C
 
 
 /**
- * Where the questions come from. kind: "row" (book, index), "unit" (book, index), "day" (day number), "target"
- * (book = how many, index 0 = due from earlier plan days, 1 = today's: [targetPool]).
+ * Where the questions come from. kind: "row" (book, index), "unit" (book, index), "day" (day number), "due"
+ * (index = plan day, 0 = every day before today: [duePool]), "today" (book = how many: [todayPool]).
  */
 data class QuizSource(val kind: String, val book: Int, val index: Int, val sub: Int = -1)
 
@@ -78,7 +78,8 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "row" -> app.repo.mcq(src.book).rows[src.index] ?: emptyList()
             "sub" -> app.repo.mcq(src.book).subQuestions(src.index, src.sub)
             "unit" -> app.repo.mcq(src.book).units[src.index] ?: emptyList()
-            "target" -> targetPool(app, src.index == 0, src.book)
+            "due" -> duePool(app, src.index)
+            "today" -> todayPool(app, src.book)
             // every book's MCQs that need practice ([needsPractice])
             "need" -> app.repo.index.flatMap { b ->
                 app.repo.mcqWhere(b.id) { needsPractice(it.id, app.store.answers, app.store.seen) }
@@ -93,31 +94,35 @@ fun rememberPool(src: QuizSource): List<Question>? {
     return pool
 }
 
-/**
- * The daily target's MCQs ([com.appsc.prep.data.DailyTarget]): [count] not yet tried, in plan order - for [due],
- * from the plan days already past (oldest first), else from today's plan day on; then any other notes MCQs.
- */
-suspend fun targetPool(app: com.appsc.prep.ui.components.AppState, due: Boolean, count: Int): List<Question> {
-    val plan = app.repo.plan
-    val today = app.repo.dayFor(java.time.LocalDate.now())
-    val days = if (due) plan.days.filter { it.n < today.n } + plan.days.filter { it.n >= today.n } else plan.days.filter { it.n >= today.n }
-    val out = ArrayList<Question>()
-    val taken = HashSet<String>()
-    fun add(qs: List<Question>) {
-        for (q in qs) {
-            if (out.size >= count) return
-            if (!app.store.attempted(q.id) && taken.add(q.id)) out += q
-        }
-    }
-    for (d in days) {
-        for (r in d.rows) add(app.repo.mcq(r.book).rows[r.row] ?: emptyList())
-        if (out.size >= count) return out
-    }
+/** These MCQs (by id) in the given order; reads one book at a time ([com.appsc.prep.data.Repository.mcqWhere]). */
+private suspend fun questions(app: com.appsc.prep.ui.components.AppState, ids: List<String>): List<Question> {
+    val want = ids.toHashSet()
+    val q = app.repo.index.flatMap { b -> app.repo.mcqWhere(b.id) { it.id in want } }.associateBy { it.id }
+    return ids.mapNotNull { q[it] }
+}
+
+/** Due MCQs: not tried yet, from the plan days before today (oldest first), or from plan day [day] alone. */
+suspend fun duePool(app: com.appsc.prep.ui.components.AppState, day: Int = 0): List<Question> {
+    val today = java.time.LocalDate.now()
+    val ids = app.repo.planMcqs.days.filter { (d, _) -> d.date.isBefore(today) && (day == 0 || d.n == day) }
+        .flatMap { it.second }.filter { !app.store.attempted(it) }
+    return questions(app, ids)
+}
+
+/** Today's MCQs: [count] not tried yet, from today's plan day on, then any other notes MCQs. */
+suspend fun todayPool(app: com.appsc.prep.ui.components.AppState, count: Int): List<Question> {
+    val today = java.time.LocalDate.now()
+    val ids = app.repo.planMcqs.days.filter { !it.first.date.isBefore(today) }.flatMap { it.second }
+        .filter { !app.store.attempted(it) }.take(count)
+    if (ids.size >= count) return questions(app, ids)
+    // the plan's days are done: other notes MCQs not tried yet
+    val planned = app.repo.planMcqs.days.flatMapTo(HashSet()) { it.second }
+    val more = ArrayList<Question>()
     for (b in app.repo.index) {
-        add(app.repo.mcq(b.id).rows.toSortedMap().values.flatten())
-        if (out.size >= count) break
+        if (ids.size + more.size >= count) break
+        more += app.repo.mcqWhere(b.id) { it.id !in planned && !app.store.attempted(it.id) }.take(count - ids.size - more.size)
     }
-    return out
+    return questions(app, ids) + more
 }
 
 /**
