@@ -47,7 +47,15 @@ android {
             applicationIdSuffix = ".complete"
             resValue("string", "app_name", "APPSC Complete")
         }
+        // APPSC Complete with every MCQ as one-liners, one per fact, no explanations (tools/oneliner_import.py)
+        create("oneliner") {
+            dimension = "edition"
+            applicationIdSuffix = ".oneliner"
+            resValue("string", "app_name", "APPSC One-liners")
+        }
     }
+    // its assets: APPSC Complete's, with its own MCQs, topic counts and edition (src/oneliner/assets) in their place
+    sourceSets["oneliner"].assets.srcDir(layout.buildDirectory.dir("generated/onelinerAssets"))
 
     buildTypes {
         debug {
@@ -105,3 +113,15 @@ dependencies {
     testImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
+
+// APPSC One-liners' assets (see sourceSets above): src/complete/assets, with src/oneliner/assets taking precedence
+val onelinerAssets = tasks.register<Sync>("onelinerAssets") {
+    from("src/oneliner/assets")
+    from("src/complete/assets") {
+        exclude { f -> file("src/oneliner/assets/${f.relativePath.pathString}").exists() }
+    }
+    into(layout.buildDirectory.dir("generated/onelinerAssets"))
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+tasks.matching { it.name.startsWith("merge") && it.name.contains("Oneliner") && it.name.endsWith("Assets") }
+    .configureEach { dependsOn(onelinerAssets) }

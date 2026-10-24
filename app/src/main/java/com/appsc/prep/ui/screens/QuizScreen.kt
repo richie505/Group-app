@@ -463,7 +463,8 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes:
             Text("WHAT THIS QUESTION TRAINS", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
             Text(q.technique, style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
         }
-        val review = remember(q.id, picked) { Techniques.review(q, picked) }
+        val oneliner = LocalApp.current.repo.oneliner
+        val review = remember(q.id, picked) { if (oneliner) emptyList() else Techniques.review(q, picked) }
         if (review.isNotEmpty()) {
             Spacer(Modifier.height(10.dp))
             Text("WHY IT WENT WRONG · TECHNIQUE", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
@@ -535,6 +536,7 @@ private fun Bullet(text: String, ink: Color) {
  */
 @Composable
 private fun HintBox(q: Question, onReveal: () -> Unit) {
+    if (LocalApp.current.repo.oneliner) return // APPSC One-liners: the question and its answer only
     val hints = remember(q.id) { Techniques.hints(q) }
     val hasAnswer = q.answer in q.options.indices
     if (hints.isEmpty() && q.technique.isBlank() && !hasAnswer) return

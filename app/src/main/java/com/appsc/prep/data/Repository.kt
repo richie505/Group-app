@@ -171,10 +171,13 @@ class Repository(private val open: (String) -> InputStream) {
      */
     private val edition: JsonObject? by lazy { runCatching { readJson("edition.json").jsonObject }.getOrNull() }
 
-    val revision: Boolean by lazy { edition != null && (edition!!["edition"] as? JsonPrimitive)?.content != "complete" }
+    val revision: Boolean by lazy { edition != null && (edition!!["edition"] as? JsonPrimitive)?.content !in setOf("complete", "oneliner") }
 
-    /** APPSC Complete (the three apps in one), which has the MCQs tab with the daily target. */
-    val complete: Boolean by lazy { (edition?.get("edition") as? JsonPrimitive)?.content == "complete" }
+    /** APPSC Complete (the three apps in one) or APPSC One-liners (its MCQs as one-liners): the MCQs tab and due MCQs. */
+    val complete: Boolean by lazy { (edition?.get("edition") as? JsonPrimitive)?.content in setOf("complete", "oneliner") }
+
+    /** APPSC One-liners: every MCQ one line, four short options, no explanation. */
+    val oneliner: Boolean by lazy { (edition?.get("edition") as? JsonPrimitive)?.content == "oneliner" }
 
     /** APPSC Complete: each plan day's MCQ ids (planmcq.json, tools/build_plan_mcq.py); empty elsewhere. */
     val planMcqs: DueMcqs.PlanMcqs by lazy {
