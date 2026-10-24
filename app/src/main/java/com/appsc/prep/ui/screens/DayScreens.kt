@@ -22,6 +22,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.EventBusy
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.MenuBook
@@ -342,6 +343,20 @@ private fun DayPracticeCard(day: PlanDay, nav: Nav) {
         sets = sets,
         onSet = { mode -> nav.quiz("day", 0, day.n, mode) },
     )
+    // APPSC Complete: today's practice counts only today's own MCQs; what is due from earlier days shows here too
+    if (app.repo.complete && day.date == LocalDate.now()) {
+        val status = rememberTargetStatus()
+        TargetCard(
+            icon = Icons.Outlined.EventBusy,
+            title = "Due MCQs",
+            count = status.due,
+            subtitle = "Not attempted yet from earlier plan days (also in the MCQs tab). " +
+                "${status.doneToday} MCQs answered today in all, due ones included.",
+            ink = C.High,
+            bg = C.HighSoft,
+            onClick = if (status.due > 0) ({ nav.quiz("due", 0, 0) }) else null,
+        )
+    }
 }
 
 @Composable

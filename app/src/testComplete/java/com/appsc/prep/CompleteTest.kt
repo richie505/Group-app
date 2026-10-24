@@ -184,4 +184,22 @@ class CompleteTest {
         rule.onNodeWithText("Due MCQs").assertExists()
         rule.onRoot().captureRoboImage("screenshots/complete/10_mcqs_tab.png")
     }
+
+    /** The Today tab shows what is due from earlier plan days under today's practice, so due MCQs done count there. */
+    @Test fun todayTabShowsDue() {
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(MemStorage()), AndroidPlatform(ctx))
+        val today = java.time.LocalDate.now()
+        val past = app.repo.planMcqs.days.filter { it.first.date.isBefore(today) }
+        past.firstOrNull()?.second?.take(30)?.forEach { app.store.recordAnswer(it, true) }
+        val status = com.appsc.prep.data.DailyTarget.status(app.repo.planMcqs, today, 100, app.store::attempted) { app.store.dayLog(it).mcqs }
+        assertEquals(past.sumOf { it.second.size } - (if (past.isEmpty()) 0 else 30), status.due)
+        runBlocking { app.repo.plan.days.forEach { d -> d.rows.forEach { app.repo.mcq(it.book) } } }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.TodayScreen(nav) } } }
+        rule.waitForIdle()
+        if (app.repo.plan.days.any { it.date == today } && past.isNotEmpty()) {
+            rule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Due MCQs"))
+            rule.waitForIdle()
+        }
+        rule.onRoot().captureRoboImage("screenshots/complete/11_today_tab_due.png")
+    }
 }

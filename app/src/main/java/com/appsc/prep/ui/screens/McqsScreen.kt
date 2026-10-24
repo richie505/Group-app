@@ -86,7 +86,10 @@ fun McqsScreen(nav: Nav) {
                     Spacer(Modifier.height(10.dp))
                     ProgressLine(status.doneToday / status.target.coerceAtLeast(1).toFloat())
                     Spacer(Modifier.height(4.dp))
-                    Text("${status.doneToday} of ${status.target} done today", style = TextStyle(fontSize = 12.sp, color = C.Muted))
+                    Text(
+                        "${status.doneToday} of ${status.target} answered today (due and today's together)",
+                        style = TextStyle(fontSize = 12.sp, color = C.Muted),
+                    )
                 }
             }
             item {
@@ -107,7 +110,7 @@ fun McqsScreen(nav: Nav) {
                     icon = Icons.Outlined.Today,
                     title = "Today's MCQs",
                     count = status.leftToday,
-                    subtitle = (status.today?.let { "Day ${it.n}: ${status.todayLeft} of its MCQs not attempted yet. " } ?: "") +
+                    subtitle = (status.today?.let { "Day ${it.n}: ${status.todayTotal - status.todayLeft} of ${status.todayTotal} attempted (as on the Today tab). " } ?: "") +
                         if (status.leftToday == 0) "Target met; tap for ${status.target} more." else "${status.doneToday} of ${status.target} done.",
                     ink = C.Accent,
                     bg = C.AccentSoft,
@@ -166,8 +169,9 @@ fun McqsScreen(nav: Nav) {
     }
 }
 
+/** A count card on the MCQs tab (also under the Today tab's practice in APPSC Complete). */
 @Composable
-private fun TargetCard(
+fun TargetCard(
     icon: ImageVector,
     title: String,
     count: Int,

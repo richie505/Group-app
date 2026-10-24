@@ -14,7 +14,14 @@ object DailyTarget {
     data class DayDue(val day: PlanDay, val total: Int, val left: Int, val doneThatDay: Int)
 
     /** Where things stand on [today]. */
-    data class Status(val target: Int, val doneToday: Int, val days: List<DayDue>, val today: PlanDay?, val todayLeft: Int) {
+    data class Status(
+        val target: Int,
+        val doneToday: Int,
+        val days: List<DayDue>,
+        val today: PlanDay?,
+        val todayLeft: Int,
+        val todayTotal: Int = 0,
+    ) {
         /** Not tried yet, over every past plan day from Day 1. */
         val due get() = days.sumOf { it.left }
         val leftToday get() = (target - doneToday).coerceAtLeast(0)
@@ -37,7 +44,7 @@ object DailyTarget {
         val past = mcqs.days.filter { it.first.date.isBefore(today) }
             .map { (d, ids) -> DayDue(d, ids.size, ids.count { !tried(it) }, done(d.date)) }
         val now = mcqs.days.firstOrNull { it.first.date == today }
-        return Status(target, done(today), past, now?.first, now?.second?.count { !tried(it) } ?: 0)
+        return Status(target, done(today), past, now?.first, now?.second?.count { !tried(it) } ?: 0, now?.second?.size ?: 0)
     }
 
     /** Target choices offered on the tab. */
