@@ -55,7 +55,7 @@ android {
         }
     }
     // its assets: APPSC Complete's, with its own MCQs, topic counts and edition (src/oneliner/assets) in their place
-    sourceSets["oneliner"].assets.srcDir(layout.buildDirectory.dir("generated/onelinerAssets"))
+    sourceSets["oneliner"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/onelinerAssets")))
 
     buildTypes {
         debug {

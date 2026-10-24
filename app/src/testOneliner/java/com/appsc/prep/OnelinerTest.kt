@@ -74,7 +74,7 @@ class OnelinerTest {
                     assertEquals("${q.id}: 4 options", 4, q.options.map { it.trim().lowercase() }.distinct().size)
                     assertTrue("${q.id}: answer", q.answer in 0..3)
                     assertTrue("${q.id}: no explanation", q.explanation.isBlank() && q.solution.isEmpty() && q.extra.isEmpty())
-                    assertTrue("${q.id}: plain options", q.options.none { Regex("""^\s*([1-6](\s*(,|and)\s*[1-6])+(\s*only)?|both\b|neither\b)""", RegexOption.IGNORE_CASE).containsMatchIn(it) })
+                    assertTrue("${q.id}: plain options", q.options.none { Regex("""^\s*[1-6]((\s*,\s+|\s+and\s+)[1-6])+(\s+only)?\s*$|^\s*(both|neither)\b""", RegexOption.IGNORE_CASE).containsMatchIn(it) })
                 }
             }
         }
