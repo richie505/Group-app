@@ -123,5 +123,5 @@ val onelinerAssets = tasks.register<Sync>("onelinerAssets") {
     into(layout.buildDirectory.dir("generated/onelinerAssets"))
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
-tasks.matching { it.name.startsWith("merge") && it.name.contains("Oneliner") && it.name.endsWith("Assets") }
-    .configureEach { dependsOn(onelinerAssets) }
+// every APPSC One-liners task (asset merge, lint, tests) reads them
+tasks.matching { it.name.contains("Oneliner") }.configureEach { dependsOn(onelinerAssets) }
