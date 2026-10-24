@@ -141,7 +141,7 @@ class CompleteTest {
         assertEquals(listOf(40, 0), s.days.map { it.doneThatDay })
         assertEquals(2, s.due)
         assertEquals(1, s.todayLeft)
-        assertEquals(102, s.left) // today's target 100 + 2 due
+        assertEquals(3, s.left) // today's 1 not tried + 2 due
     }
 
     /** planmcq.json matches the plan and the MCQs shipped (tools/build_plan_mcq.py). */
@@ -176,9 +176,6 @@ class CompleteTest {
             assertEquals(day1.second.size - 150, pool.size)
             assertTrue(pool.none { app.store.attempted(it.id) })
         }
-        val today = runBlocking { com.appsc.prep.ui.screens.todayPool(app, 40) }
-        assertEquals(40, today.size)
-        assertTrue(today.none { app.store.attempted(it.id) })
         rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.McqsScreen(nav) } } }
         rule.waitForIdle()
         rule.onNodeWithText("Due MCQs").assertExists()

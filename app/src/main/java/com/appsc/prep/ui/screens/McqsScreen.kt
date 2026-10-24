@@ -82,12 +82,12 @@ fun McqsScreen(nav: Nav) {
                         if (status.left == 0) "All done for today" else "${status.left} MCQs",
                         style = TextStyle(fontSize = 26.sp, fontWeight = FontWeight.Bold, color = if (status.left == 0) C.Green else C.Ink),
                     )
-                    Text("Today's ${status.leftToday} + due ${status.due}", style = TextStyle(fontSize = 13.sp, color = C.Body))
+                    Text("Today's ${status.todayLeft} + due ${status.due}", style = TextStyle(fontSize = 13.sp, color = C.Body))
                     Spacer(Modifier.height(10.dp))
                     ProgressLine(status.doneToday / status.target.coerceAtLeast(1).toFloat())
                     Spacer(Modifier.height(4.dp))
                     Text(
-                        "${status.doneToday} of ${status.target} answered today (due and today's together)",
+                        "${status.doneToday} answered today · daily goal ${status.target}",
                         style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     )
                 }
@@ -106,16 +106,18 @@ fun McqsScreen(nav: Nav) {
                     bg = C.HighSoft,
                     onClick = if (status.due > 0) ({ nav.quiz("due", 0, 0) }) else null,
                 )
-                TargetCard(
-                    icon = Icons.Outlined.Today,
-                    title = "Today's MCQs",
-                    count = status.leftToday,
-                    subtitle = (status.today?.let { "Day ${it.n}: ${status.todayTotal - status.todayLeft} of ${status.todayTotal} attempted (as on the Today tab). " } ?: "") +
-                        if (status.leftToday == 0) "Target met; tap for ${status.target} more." else "${status.doneToday} of ${status.target} done.",
-                    ink = C.Accent,
-                    bg = C.AccentSoft,
-                    onClick = { nav.quiz("today", if (status.leftToday > 0) status.leftToday else status.target, 0) },
-                )
+                status.today?.let { day ->
+                    TargetCard(
+                        icon = Icons.Outlined.Today,
+                        title = "Today's MCQs",
+                        count = status.todayLeft,
+                        subtitle = "Day ${day.n}: ${status.todayTotal - status.todayLeft} of ${status.todayTotal} attempted. " +
+                            "The same MCQs as on the Today tab.",
+                        ink = C.Accent,
+                        bg = C.AccentSoft,
+                        onClick = { nav.quiz("day", 0, day.n, "new") },
+                    )
+                }
                 if (wrong > 0) {
                     TargetCard(
                         icon = Icons.Outlined.Replay,
@@ -151,7 +153,7 @@ fun McqsScreen(nav: Nav) {
                     }
                 }
                 Text(
-                    "MCQs a day, for today's MCQs. Due MCQs come on top until cleared.",
+                    "Your goal for MCQs answered a day, today's and due together. It doesn't change the counts above.",
                     style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 6.dp),
                 )

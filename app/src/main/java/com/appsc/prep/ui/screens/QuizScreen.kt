@@ -65,7 +65,7 @@ import com.appsc.prep.ui.theme.C
 
 /**
  * Where the questions come from. kind: "row" (book, index), "unit" (book, index), "day" (day number), "due"
- * (index = plan day, 0 = every day before today: [duePool]), "today" (book = how many: [todayPool]).
+ * (index = plan day, 0 = every day before today: [duePool]).
  */
 data class QuizSource(val kind: String, val book: Int, val index: Int, val sub: Int = -1)
 
@@ -79,12 +79,14 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "sub" -> app.repo.mcq(src.book).subQuestions(src.index, src.sub)
             "unit" -> app.repo.mcq(src.book).units[src.index] ?: emptyList()
             "due" -> duePool(app, src.index)
-            "today" -> todayPool(app, src.book)
             // every book's MCQs that need practice ([needsPractice])
             "need" -> app.repo.index.flatMap { b ->
                 app.repo.mcqWhere(b.id) { needsPractice(it.id, app.store.answers, app.store.seen) }
             }.distinctBy { it.id }
-            else -> {
+            // APPSC Complete: a plan day's own MCQs, as the MCQs tab counts them ([com.appsc.prep.data.DailyTarget])
+            else -> if (app.repo.complete && app.repo.planMcqs.days.isNotEmpty()) {
+                questions(app, app.repo.planMcqs.days.first { it.first.n == src.index }.second)
+            } else {
                 val day = app.repo.plan.days.first { it.n == src.index }
                 val seen = HashSet<String>()
                 day.rows.flatMap { r -> app.repo.mcq(r.book).rows[r.row] ?: emptyList() }.filter { seen.add(it.id) }
@@ -107,22 +109,6 @@ suspend fun duePool(app: com.appsc.prep.ui.components.AppState, day: Int = 0): L
     val ids = app.repo.planMcqs.days.filter { (d, _) -> d.date.isBefore(today) && (day == 0 || d.n == day) }
         .flatMap { it.second }.filter { !app.store.attempted(it) }
     return questions(app, ids)
-}
-
-/** Today's MCQs: [count] not tried yet, from today's plan day on, then any other notes MCQs. */
-suspend fun todayPool(app: com.appsc.prep.ui.components.AppState, count: Int): List<Question> {
-    val today = java.time.LocalDate.now()
-    val ids = app.repo.planMcqs.days.filter { !it.first.date.isBefore(today) }.flatMap { it.second }
-        .filter { !app.store.attempted(it) }.take(count)
-    if (ids.size >= count) return questions(app, ids)
-    // the plan's days are done: other notes MCQs not tried yet
-    val planned = app.repo.planMcqs.days.flatMapTo(HashSet()) { it.second }
-    val more = ArrayList<Question>()
-    for (b in app.repo.index) {
-        if (ids.size + more.size >= count) break
-        more += app.repo.mcqWhere(b.id) { it.id !in planned && !app.store.attempted(it.id) }.take(count - ids.size - more.size)
-    }
-    return questions(app, ids) + more
 }
 
 /**

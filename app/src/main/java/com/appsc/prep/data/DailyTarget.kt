@@ -4,7 +4,8 @@ import java.time.LocalDate
 
 /**
  * APPSC Complete's MCQs tab. Each plan day has its own MCQs (those on its topics; an MCQ on several days counts on
- * the first). A past day's MCQs not tried yet are due; today's are worked through at the daily target's pace.
+ * the first). A past day's MCQs not tried yet are due. The daily target is a goal for MCQs answered in a day; it
+ * changes no count.
  */
 object DailyTarget {
     /** A plan day's MCQ ids, in plan order. */
@@ -24,8 +25,8 @@ object DailyTarget {
     ) {
         /** Not tried yet, over every past plan day from Day 1. */
         val due get() = days.sumOf { it.left }
-        val leftToday get() = (target - doneToday).coerceAtLeast(0)
-        val left get() = leftToday + due
+        /** Today's plan-day MCQs not tried yet and what is due: the same counts as the Today tab. */
+        val left get() = todayLeft + due
     }
 
     /** Groups the plan's MCQs by day, each on the first day whose topics hold it. [rows] gives a notes row's MCQ ids. */
