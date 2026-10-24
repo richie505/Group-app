@@ -6,7 +6,7 @@ answer varies, and rewrites the options, explanation and takeaway to the new num
 Only questions not in the untrimmed bank (work/mcqfull/b<book>/orig.json) are touched, and only when the
 stem has lines "1. ... 2. ..." and every option is made of statement numbers ("1 and 3 only", "2 only",
 "1, 2 and 3", "Both 1 and 2", "Neither 1 nor 2"); count questions ("Only two") and match lists are left.
-Running it again does nothing (it marks the questions it renumbered with "sh": 1).
+Running it again does nothing (it marks the questions it renumbered with "sh": 2).
 """
 import json, random, re, sys
 from collections import Counter
@@ -35,18 +35,11 @@ def shuffle(q):
         return False
     if not all(OPT.match(o.strip()) and re.search(r"\d", o) for o in q["o"]):
         return False
-    rng = random.Random(q["id"])
-    # a new order (not the old one), preferring one whose answer is not "1 and 2 only"
-    perms = []
-    for _ in range(12):
-        order = list(range(1, n + 1))
-        rng.shuffle(order)
-        p = {old: new for new, old in enumerate(order, 1)}  # old number -> new number
-        if order != sorted(order):
-            perms.append(p)
-    if not perms:
-        return False
-    perm = next((p for p in perms if tidy(renum(q["o"][q["a"]], p)) != "1 and 2 only"), perms[0])
+    rng = random.Random(q["id"] + str(q.get("sh", "")))
+    # any order, uniformly (the old order included), so no answer pattern is favoured or avoided
+    order = list(range(1, n + 1))
+    rng.shuffle(order)
+    perm = {old: new for new, old in enumerate(order, 1)}  # old number -> new number
     body = {perm[int(lines[i][0])]: lines[i][2:].lstrip() for i in idx}
     for k, i in enumerate(idx, 1):
         lines[i] = f"{k}. {body[k]}"
@@ -55,7 +48,7 @@ def shuffle(q):
     for f in ("x", "tq"):
         if q.get(f):
             q[f] = STMT.sub(lambda m: m.group(1) + tidy(renum(m.group(2), perm)), q[f])
-    q["sh"] = 1
+    q["sh"] = 2
     return True
 
 
@@ -68,7 +61,7 @@ def main():
         done, ans = 0, Counter()
         for qs in m["rows"].values():
             for q in qs:
-                if q.get("id") in old or q.get("sh"):
+                if q.get("id") in old or (q.get("sh") == 2):
                     continue
                 if shuffle(q):
                     done += 1
