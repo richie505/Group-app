@@ -18,7 +18,7 @@ def plain(t):
 
 
 for b in range(1, 7):
-    rows = [r for u in json.load(open(f"{A}/book{b}.json"))["units"] for r in u["rows"]]
+    rows = [r for u in json.load(open(f"data/complete-full/book{b}.json"))["units"] for r in u["rows"]]
     m = json.load(open(f"{A}/mcq{b}.json"))
     items = []
     for r, qs in sorted(m["rows"].items(), key=lambda x: int(x[0])):

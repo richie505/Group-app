@@ -10,14 +10,15 @@ page's bookmark, notes and time go to the Complete page that holds most of its w
 "Not in your sources" line on the page; where the merge filled that gap, the note closes the page instead.
 MCQs: kept where Complete has the same question; a question the trims merged (work/mcqfull*/b<book>) passes
 its answer to the merged one (wrong if any source was wrong), and a dropped repeat to the copy that was kept
-(unless that one was answered itself). The file names Complete's ids version and note rounds, so the app
-restores it as is.
+(unless that one was answered itself). The file names the ids version and note rounds of Complete's full
+pages (data/complete-full), so the app moves them on to its one page a topic when it restores the file.
 """
 import glob, hashlib, json, os, re, sys
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(__file__))
 P, C = "app/src/main/assets", "app/src/complete/assets"
+F = "data/complete-full"  # Complete's pages before they became one page a topic (the app moves the ids on)
 
 
 def pages(A):
@@ -97,8 +98,8 @@ def main():
     src, dst = sys.argv[1], sys.argv[2]
     B = json.load(open(src))
     assert B.get("app") == "APPSC Prep backup", "not an APPSC Prep backup"
-    mv = json.load(open(f"{C}/moved.json"))
-    pm, cm = pages(P), pages(C)
+    mv = json.load(open(f"{F}/moved.json"))
+    pm, cm = pages(P), pages(F)
     if B.get("ids") != json.load(open(f"{P}/moved.json"))["v"]:
         print(f"warning: the backup's page ids are version {B.get('ids')}; this tool expects the current Prep app's")
     words = lambda bl: {w for b in bl for w in re.findall(r"[a-z0-9]{4,}", block_text(b).lower())}
@@ -132,7 +133,7 @@ def main():
     last = page(B["last"]) if B.get("last") and page(B["last"]) in cm else None
 
     # own notes: Complete's note rounds, then the same gap line on the page (or the page's end)
-    rounds = json.load(open(f"{C}/notemoves.json"))
+    rounds = json.load(open(f"{F}/notemoves.json"))
     added = {}
     for line in B["added"]:
         key, text = line.split("\t", 1)

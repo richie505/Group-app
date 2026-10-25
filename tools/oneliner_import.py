@@ -122,7 +122,7 @@ for b in range(1, 7):
                 if "skip" not in x:
                     made.setdefault(x["q"], []).append(x)
     m = json.load(open(f"{C}/mcq{b}.json"))
-    notes = [[note_lines(sec) for sec in row["secs"]] for u in json.load(open(f"{C}/book{b}.json"))["units"] for row in u["rows"]]
+    notes = [[note_lines(sec) for sec in row["secs"]] for u in json.load(open(f"data/complete-full/book{b}.json"))["units"] for row in u["rows"]]
     rows, subs = {}, {}
     for r, qs in m["rows"].items():
         out, out_s, seen = [], [], set()

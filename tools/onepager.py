@@ -15,7 +15,6 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(__file__))
 
-A = "app/src/complete/assets"
 W = "work/onepager"
 SUBJECT = {1: "History & Culture", 2: "Polity & Society", 3: "Economy", 4: "Geography", 5: "Science & Tech", 6: "Current Affairs"}
 PALETTE = [  # (border / title, soft background)
@@ -26,7 +25,7 @@ TYPES = {"bullets", "table", "timeline", "cards", "cycle", "flow", "hierarchy", 
 
 
 def rows_of(book):
-    return [r for u in json.load(open(f"{A}/book{book}.json"))["units"] for r in u["rows"]]
+    return [r for u in json.load(open(f"data/complete-full/book{book}.json"))["units"] for r in u["rows"]]
 
 
 # ---------- export ----------

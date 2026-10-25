@@ -75,15 +75,21 @@ class CompleteTest {
         show("3_group2_constitution") { ExamSubjectScreen(1, s, nav) }
     }
 
-    /** A merged page: ROCKET facts first, Prep's extra facts after, a disagreement kept as "Sources differ". */
-    @Test fun mergedPage() {
+    /** Every topic is its one page (tools/onepager_app.py): its boxes in order, the exam corner last. */
+    @Test fun onePagePerTopic() {
         val repo = Repository { ctx.assets.open(it) }
-        val secs = runBlocking { repo.book(2).rows[4].secs }
-        val i = secs.indexOfFirst { it.title.contains("part of the Constitution") }
-        show("4_merged_preamble_cases") { ReaderScreen(2, 4, i, nav) }
-        rule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Sources differ", substring = true))
+        for (b in 1..6) {
+            val book = runBlocking { repo.book(b) }
+            val mcq = runBlocking { repo.mcq(b) }
+            for (row in book.rows) {
+                assertEquals("book $b row ${row.index}: one page", 1, row.secs.size)
+                assertTrue("book $b row ${row.index}: MCQs on its page", mcq.subs[row.index].orEmpty().all { it == 0 })
+            }
+        }
+        show("4_one_page_preamble") { ReaderScreen(2, 4, 0, nav) }
+        rule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Exam corner", substring = true, ignoreCase = true))
         rule.waitForIdle()
-        rule.onRoot().captureRoboImage("screenshots/complete/5_merged_sources_differ.png")
+        rule.onRoot().captureRoboImage("screenshots/complete/5_one_page_exam_corner.png")
     }
 
     /** Current affairs: Prep's topics, the CA app's news pages by period, Prep's facts folded in. */
@@ -116,7 +122,7 @@ class CompleteTest {
     }
 
     @Test fun caBudgetPage() = caPage("8_ca_budget_with_prep_facts", 35, 0, "16.96")
-    @Test fun caUpiPage() = caPage("9_ca_upi_sources_differ", 33, 9, "Sources differ")
+    @Test fun caUpiPage() = caPage("9_ca_upi_page", 33, 0, null)
 
     private class MemStorage : com.appsc.prep.data.Storage {
         private val sets = HashMap<String, Set<String>>()
