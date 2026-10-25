@@ -1,13 +1,14 @@
 """One-page micro-theme notes: one syllabus topic (a notes row) on one landscape A4 page, in coloured boxes.
 
-    python3 tools/onepager.py export <book> <row> [...]       -> work/onepager/b<book>/r<row>.md (the topic's notes)
+    python3 tools/onepager.py export <book> <row>[+<row>] [...] -> work/onepager/b<book>/r<row>.md (the topic's notes,
+                                                                 with a related topic's after "+")
     python3 tools/onepager.py check <book> <row>              -> PASS / FAIL: the page plan r<row>.json (written by an
                                                                  agent, tools/onepager_guide.md) and whether it fits
     python3 tools/onepager.py pdf <out.pdf> <book>:<row> [...] -> the pages, in order, as one PDF
 
 A page plan is {"title", "tag", "quote"?, "boxes": [{"type", "title", ...}]}; the box types are listed in
 tools/onepager_guide.md. Pages are drawn as HTML and printed by Chromium (Playwright), which also measures the fit:
-the text is shrunk a little at a time (down to 8 px) until the boxes fit one page.
+the text is set as large as fits (13 px, a little smaller at a time down to 8 px), so a page fills its sheet.
 """
 import html, json, os, re, subprocess, sys, tempfile
 from pathlib import Path
@@ -30,13 +31,17 @@ def rows_of(book):
 
 # ---------- export ----------
 
-def export(book, ris):
+def export(book, refs):
+    """refs: "7" or "7+5" (topic 7, with topic 5's notes added as related notes, for a topic whose own notes are thin)."""
     from topic_export import topic
     rows = rows_of(book)
     os.makedirs(f"{W}/b{book}", exist_ok=True)
-    for ri in ris:
-        open(f"{W}/b{book}/r{ri}.md", "w").write(topic(ri, rows[ri]) + "\n")
-        print(f"{W}/b{book}/r{ri}.md: {rows[ri]['title']}")
+    for ref in refs:
+        ri, *more = [int(x) for x in str(ref).split("+")]
+        text = topic(ri, rows[ri]) + "".join(f"\n\n=== RELATED NOTES (use only what belongs to this topic)\n{topic(m, rows[m])}"
+                                             for m in more)
+        open(f"{W}/b{book}/r{ri}.md", "w").write(text + "\n")
+        print(f"{W}/b{book}/r{ri}.md: {rows[ri]['title']}" + (f" (+ related {more})" if more else ""))
 
 
 # ---------- drawing ----------
@@ -88,7 +93,9 @@ def box(b, k):
         centre = f"<div class=centre style='color:{c}'>{md(b.get('centre', ''))}</div>" if b.get("centre") else ""
         body = (f"<div class=cyc><svg viewBox='0 0 100 100' preserveAspectRatio='none'><circle cx=50 cy=50 r={R} fill=none "
                 f"stroke='{c}' stroke-width=0.8 stroke-dasharray='3 2'/></svg>{centre}{''.join(nodes)}</div>")
-    return (f"<section class=box style='border-color:{c};background:{bg}'><h3 style='background:{c}'>{title}</h3>"
+    # a long box of cards or table rows may run on into the next column (each card or row stays whole)
+    split = " split" if (t == "cards" and len(b["cards"]) > 6) or (t == "table" and len(b["rows"]) > 12) else ""
+    return (f"<section class='box{split}' style='border-color:{c};background:{bg}'><h3 style='background:{c}'>{title}</h3>"
             f"{body}</section>")
 
 
@@ -109,6 +116,7 @@ body { margin: 0; font-family: 'DejaVu Sans', 'Liberation Sans', Arial, sans-ser
 .cols { flex: 1; column-count: 3; column-gap: 4mm; column-fill: auto; margin-top: 4px; font-size: var(--fs);
         line-height: 1.32; overflow: hidden }
 .box { break-inside: avoid; border: 1.6px solid; border-radius: 9px; margin: 0 0 3mm; padding: 0 6px 4px; overflow: hidden }
+.box.split { break-inside: auto } .card, tr { break-inside: avoid }
 .box h3 { margin: 0 -6px 3px; padding: 2px 8px; color: #fff; font-size: calc(var(--fs) * 1.05); letter-spacing: .3px;
           text-transform: uppercase }
 ul { margin: 0; padding-left: 13px } li { margin: 1px 0 }
@@ -154,11 +162,11 @@ const {chromium} = require('playwright');
   const [src, out] = process.argv.slice(2);
   const b = await chromium.launch(); const p = await b.newPage({viewport: {width: 1123, height: 794}});
   await p.goto('file://' + src);
-  // per page: the largest text size (10.5 px down to 8 px) at which no box is cut off
+  // per page: the largest text size (13 px down to 8 px) at which no box is cut off
   const fits = await p.evaluate(() => {
     const res = [];
     for (const page of document.querySelectorAll('.page')) {
-      const cols = page.querySelector('.cols'); let fs = 10.5, ok = false;
+      const cols = page.querySelector('.cols'); let fs = 13, ok = false;
       for (; fs >= 8; fs -= 0.25) {
         page.style.setProperty('--fs', fs + 'px');
         if (cols.scrollWidth <= cols.clientWidth + 1 && cols.scrollHeight <= cols.clientHeight + 1) { ok = true; break; }
@@ -236,11 +244,13 @@ def check(book, ri):
     text = plan_text(plan)
     nums = {n for n in re.findall(r"\d[\d,.]*\d|\d", text)}
     bad_n = sorted(n for n in nums if re.sub(r"[^0-9]+", " ", n).strip() not in re.sub(r"[^0-9]+", " ", notes))
-    names = {w for w in re.findall(r"\b[A-Z][a-zA-Z-]{3,}\b", text)}
-    bad_w = sorted(w for w in names if w.lower() not in flat)
+    # names: capitalised words (a hyphenated name is checked part by part); plain words that start a cell or a line
+    # ("Collects", "Exam") are not names, so a few unknown ones are let through
+    names = {p for w in re.findall(r"\b[A-Z][a-zA-Z-]{3,}\b", text) for p in w.split("-") if len(p) > 3}
+    bad_w = sorted(w for w in names if f" {w.lower()} " not in f" {flat} " and w.lower() not in flat)
     if bad_n:
         errs.append("figures not in the notes: " + ", ".join(bad_n[:15]))
-    if len(bad_w) > 3:
+    if len(bad_w) > 6:
         errs.append("names not in the notes: " + ", ".join(bad_w[:15]))
     fit = render([(plan, 1)])[0]
     if not fit["ok"]:
@@ -255,7 +265,7 @@ def check(book, ri):
 if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "export":
-        export(int(sys.argv[2]), [int(x) for x in sys.argv[3:]])
+        export(int(sys.argv[2]), sys.argv[3:])
     elif cmd == "check":
         check(int(sys.argv[2]), int(sys.argv[3]))
     elif cmd == "pdf":
