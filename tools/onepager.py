@@ -1,0 +1,266 @@
+"""One-page micro-theme notes: one syllabus topic (a notes row) on one landscape A4 page, in coloured boxes.
+
+    python3 tools/onepager.py export <book> <row> [...]       -> work/onepager/b<book>/r<row>.md (the topic's notes)
+    python3 tools/onepager.py check <book> <row>              -> PASS / FAIL: the page plan r<row>.json (written by an
+                                                                 agent, tools/onepager_guide.md) and whether it fits
+    python3 tools/onepager.py pdf <out.pdf> <book>:<row> [...] -> the pages, in order, as one PDF
+
+A page plan is {"title", "tag", "quote"?, "boxes": [{"type", "title", ...}]}; the box types are listed in
+tools/onepager_guide.md. Pages are drawn as HTML and printed by Chromium (Playwright), which also measures the fit:
+the text is shrunk a little at a time (down to 8 px) until the boxes fit one page.
+"""
+import html, json, os, re, subprocess, sys, tempfile
+from pathlib import Path
+
+sys.path.insert(0, os.path.dirname(__file__))
+
+A = "app/src/complete/assets"
+W = "work/onepager"
+SUBJECT = {1: "History & Culture", 2: "Polity & Society", 3: "Economy", 4: "Geography", 5: "Science & Tech", 6: "Current Affairs"}
+PALETTE = [  # (border / title, soft background)
+    ("#1d4ed8", "#eff4ff"), ("#15803d", "#effaf2"), ("#c2410c", "#fff4ec"), ("#7c3aed", "#f5f0ff"),
+    ("#0f766e", "#ecfbf8"), ("#be123c", "#fff0f3"), ("#a16207", "#fffaeb"), ("#0369a1", "#eef8fe"),
+]
+TYPES = {"bullets", "table", "timeline", "cards", "cycle", "flow", "hierarchy", "note"}
+
+
+def rows_of(book):
+    return [r for u in json.load(open(f"{A}/book{book}.json"))["units"] for r in u["rows"]]
+
+
+# ---------- export ----------
+
+def export(book, ris):
+    from topic_export import topic
+    rows = rows_of(book)
+    os.makedirs(f"{W}/b{book}", exist_ok=True)
+    for ri in ris:
+        open(f"{W}/b{book}/r{ri}.md", "w").write(topic(ri, rows[ri]) + "\n")
+        print(f"{W}/b{book}/r{ri}.md: {rows[ri]['title']}")
+
+
+# ---------- drawing ----------
+
+def md(t):
+    """**bold**, ==highlight== in plan text."""
+    t = html.escape(str(t))
+    t = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
+    return re.sub(r"==(.+?)==", r"<mark>\1</mark>", t)
+
+
+def box(b, k):
+    c, bg = PALETTE[k % len(PALETTE)]
+    t, title = b["type"], md(b.get("title", ""))
+    if t == "note":
+        c, bg = "#b45309", "#fff7e0"
+    body = ""
+    if t in ("bullets", "note"):
+        body = "<ul>" + "".join(f"<li>{md(i)}</li>" for i in b["items"]) + "</ul>"
+    elif t == "table":
+        head = "".join(f"<th>{md(h)}</th>" for h in b["head"])
+        rows = "".join("<tr>" + "".join(f"<td>{md(x)}</td>" for x in r) + "</tr>" for r in b["rows"])
+        body = f"<table><tr>{head}</tr>{rows}</table>"
+    elif t == "timeline":
+        body = "<div class=tl>" + "".join(f"<div class=ev><span class=when>{md(e['when'])}</span> {md(e['what'])}</div>"
+                                         for e in b["items"]) + "</div>"
+    elif t == "cards":
+        body = "<div class=cards>" + "".join(
+            f"<div class=card style='border-color:{c}'><div class=ct style='color:{c}'>{md(x['title'])}</div>"
+            + "".join(f"<div class=cl>{md(l)}</div>" for l in x["lines"]) + "</div>" for x in b["cards"]) + "</div>"
+    elif t == "flow":
+        body = "<div class=flow>" + "<span class=arr>➜</span>".join(
+            f"<span class=step style='border-color:{c}'>{md(s)}</span>" for s in b["steps"]) + "</div>"
+    elif t == "hierarchy":
+        n = len(b["levels"])
+        body = "<div class=hier>" + "".join(
+            f"<div class=lvl style='width:{46 + 54 * i / max(1, n - 1):.0f}%;background:{c}{'' if i == 0 else hex(255 - 30 * i)[2:].rjust(2, '0')}'>"
+            f"<b>{md(l['name'])}</b>{(' · ' + md(l['note'])) if l.get('note') else ''}</div>"
+            for i, l in enumerate(b["levels"])) + "</div>"
+    elif t == "cycle":
+        steps = b["steps"]
+        n = len(steps)
+        import math
+        nodes, R = [], 38
+        for i, s in enumerate(steps):
+            a = -math.pi / 2 + 2 * math.pi * i / n
+            x, y = 50 + R * math.cos(a), 50 + R * math.sin(a)
+            nodes.append(f"<div class=node style='left:{x:.1f}%;top:{y:.1f}%;border-color:{c}'>{md(s)}</div>")
+        centre = f"<div class=centre style='color:{c}'>{md(b.get('centre', ''))}</div>" if b.get("centre") else ""
+        body = (f"<div class=cyc><svg viewBox='0 0 100 100' preserveAspectRatio='none'><circle cx=50 cy=50 r={R} fill=none "
+                f"stroke='{c}' stroke-width=0.8 stroke-dasharray='3 2'/></svg>{centre}{''.join(nodes)}</div>")
+    return (f"<section class=box style='border-color:{c};background:{bg}'><h3 style='background:{c}'>{title}</h3>"
+            f"{body}</section>")
+
+
+CSS = """
+@page { size: 297mm 210mm; margin: 0 }
+* { box-sizing: border-box }
+html { --fs: 10.5px }
+body { margin: 0; font-family: 'DejaVu Sans', 'Liberation Sans', Arial, sans-serif; color: #1f2937; background: #fff }
+.page { width: 297mm; height: 210mm; padding: 6mm 7mm 5mm; display: flex; flex-direction: column; overflow: hidden;
+        page-break-after: always }
+.head { display: flex; align-items: center; gap: 10px; border-bottom: 3px solid #ea580c; padding-bottom: 4px }
+.num { background: #ea580c; color: #fff; font-weight: 800; font-size: 20px; border-radius: 8px; padding: 2px 10px }
+.title { font-weight: 800; font-size: 19px; color: #111827; text-transform: uppercase; letter-spacing: .3px; flex: 1;
+         line-height: 1.15 }
+.tag { background: #fde7d8; color: #9a3412; font-weight: 700; font-size: 11px; border-radius: 14px; padding: 3px 10px;
+       white-space: nowrap }
+.quote { font-style: italic; color: #6d28d9; font-size: calc(var(--fs) * 1.05); text-align: center; margin: 3px 0 0 }
+.cols { flex: 1; column-count: 3; column-gap: 4mm; column-fill: auto; margin-top: 4px; font-size: var(--fs);
+        line-height: 1.32; overflow: hidden }
+.box { break-inside: avoid; border: 1.6px solid; border-radius: 9px; margin: 0 0 3mm; padding: 0 6px 4px; overflow: hidden }
+.box h3 { margin: 0 -6px 3px; padding: 2px 8px; color: #fff; font-size: calc(var(--fs) * 1.05); letter-spacing: .3px;
+          text-transform: uppercase }
+ul { margin: 0; padding-left: 13px } li { margin: 1px 0 }
+b { color: #111827 } mark { background: #fff2a8; padding: 0 1px; border-radius: 2px }
+table { border-collapse: collapse; width: 100%; font-size: calc(var(--fs) * .95) }
+th { background: rgba(0,0,0,.06); text-align: left } th, td { border: 1px solid rgba(0,0,0,.14); padding: 1.5px 4px;
+     vertical-align: top }
+.tl { border-left: 2px solid currentColor; margin-left: 5px; padding-left: 8px; color: inherit }
+.ev { position: relative; margin: 2px 0 } .ev:before { content: ''; position: absolute; left: -12.5px; top: .45em;
+      width: 7px; height: 7px; border-radius: 50%; background: #ea580c }
+.when { font-weight: 800; color: #9a3412 }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 4px }
+.card { border: 1.2px solid; border-radius: 6px; padding: 2px 5px; background: #fff }
+.ct { font-weight: 800 } .cl { margin-top: 1px }
+.flow { display: flex; flex-wrap: wrap; align-items: center; gap: 3px }
+.step { border: 1.4px solid; border-radius: 6px; padding: 1px 5px; background: #fff }
+.arr { color: #ea580c; font-weight: 800 }
+.hier { display: flex; flex-direction: column; align-items: center; gap: 2px; margin: 2px 0 }
+.lvl { color: #fff; text-align: center; border-radius: 5px; padding: 2px 4px }
+.lvl b { color: #fff }
+.cyc { position: relative; height: calc(var(--fs) * 17); margin: 4px 0 } .cyc svg { position: absolute; inset: 0;
+       width: 100%; height: 100% }
+.node { position: absolute; transform: translate(-50%, -50%); background: #fff; border: 1.4px solid; border-radius: 12px;
+        padding: 1px 5px; max-width: 42%; text-align: center; font-size: calc(var(--fs) * .92) }
+.centre { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-weight: 800; text-align: center;
+          max-width: 40% }
+.foot { font-size: 8px; color: #94a3b8; display: flex; justify-content: space-between; margin-top: 1mm }
+"""
+
+
+def page_html(plan, number):
+    head = (f"<div class=head><span class=num>{number:02d}</span><span class=title>{md(plan['title'])}</span>"
+            f"<span class=tag>{md(plan.get('tag', ''))}</span></div>")
+    quote = f"<div class=quote>“{md(plan['quote'])}”</div>" if plan.get("quote") else ""
+    boxes = "".join(box(b, k) for k, b in enumerate(plan["boxes"]))
+    return (f"<div class=page>{head}{quote}<div class=cols>{boxes}</div>"
+            f"<div class=foot><span>APPSC Complete · one-page notes</span><span>{number}</span></div></div>")
+
+
+NODE = r"""
+const {chromium} = require('playwright');
+(async () => {
+  const [src, out] = process.argv.slice(2);
+  const b = await chromium.launch(); const p = await b.newPage({viewport: {width: 1123, height: 794}});
+  await p.goto('file://' + src);
+  // per page: the largest text size (10.5 px down to 8 px) at which no box is cut off
+  const fits = await p.evaluate(() => {
+    const res = [];
+    for (const page of document.querySelectorAll('.page')) {
+      const cols = page.querySelector('.cols'); let fs = 10.5, ok = false;
+      for (; fs >= 8; fs -= 0.25) {
+        page.style.setProperty('--fs', fs + 'px');
+        if (cols.scrollWidth <= cols.clientWidth + 1 && cols.scrollHeight <= cols.clientHeight + 1) { ok = true; break; }
+      }
+      cols.style.columnFill = 'balance';  // fitted: spread the boxes evenly over the three columns
+      if (cols.scrollWidth > cols.clientWidth + 1) cols.style.columnFill = 'auto';
+      res.push({fs: Math.max(fs, 8), ok});
+    }
+    return res;
+  });
+  if (out) await p.pdf({path: out, width: '297mm', height: '210mm', printBackground: true});
+  console.log(JSON.stringify(fits)); await b.close();
+})().catch(e => { console.error(e.message); process.exit(1); });
+"""
+
+
+def render(plans, out=None):
+    """[(plan, number)] -> per page {fs, ok}; writes the PDF if out."""
+    doc = f"<!doctype html><meta charset=utf-8><style>{CSS}</style>" + "".join(page_html(p, n) for p, n in plans)
+    with tempfile.TemporaryDirectory() as d:
+        Path(d, "p.html").write_text(doc)
+        Path(d, "r.js").write_text(NODE)
+        env = dict(os.environ, NODE_PATH="/opt/node22/lib/node_modules")
+        r = subprocess.run(["node", f"{d}/r.js", f"{d}/p.html", out or ""], capture_output=True, text=True, env=env)
+        if r.returncode:
+            raise SystemExit(r.stderr)
+        return json.loads(r.stdout.strip().splitlines()[-1])
+
+
+# ---------- check ----------
+
+def plan_text(plan):
+    out = [plan["title"], plan.get("quote", "")]
+    for b in plan["boxes"]:
+        out.append(b.get("title", ""))
+        for key in ("items", "steps", "head"):
+            for x in b.get(key, []):
+                out.append(x if isinstance(x, str) else " ".join(map(str, x.values())))
+        out += [" ".join(map(str, r)) for r in b.get("rows", [])]
+        for c in b.get("cards", []):
+            out += [c["title"], *c["lines"]]
+        for l in b.get("levels", []):
+            out += [l["name"], l.get("note", "")]
+        out.append(b.get("centre", ""))
+    return re.sub(r"\*\*|==", "", " ".join(out))
+
+
+def check(book, ri):
+    errs = []
+    try:
+        plan = json.load(open(f"{W}/b{book}/r{ri}.json"))
+    except Exception as e:
+        print(f"FAIL: plan not readable: {e}")
+        return False
+    notes = open(f"{W}/b{book}/r{ri}.md").read()
+    flat = re.sub(r"[^a-z0-9]+", " ", notes.lower())
+    if not plan.get("title") or not isinstance(plan.get("boxes"), list):
+        errs.append("needs title and boxes")
+    for k, b in enumerate(plan.get("boxes", [])):
+        t = b.get("type")
+        need = {"bullets": "items", "note": "items", "table": "rows", "timeline": "items", "cards": "cards",
+                "cycle": "steps", "flow": "steps", "hierarchy": "levels"}.get(t)
+        if t not in TYPES:
+            errs.append(f"box {k + 1}: unknown type {t!r}")
+        elif not b.get(need):
+            errs.append(f"box {k + 1} ({t}): needs {need}")
+        if not b.get("title"):
+            errs.append(f"box {k + 1}: needs a title")
+    if not 5 <= len(plan.get("boxes", [])) <= 11:
+        errs.append(f"{len(plan.get('boxes', []))} boxes: use 5-11")
+    if errs:
+        print("FAIL:\n" + "\n".join(errs))
+        return False
+    # facts: every figure must be in the notes; names (capitalised words) mostly
+    text = plan_text(plan)
+    nums = {n for n in re.findall(r"\d[\d,.]*\d|\d", text)}
+    bad_n = sorted(n for n in nums if re.sub(r"[^0-9]+", " ", n).strip() not in re.sub(r"[^0-9]+", " ", notes))
+    names = {w for w in re.findall(r"\b[A-Z][a-zA-Z-]{3,}\b", text)}
+    bad_w = sorted(w for w in names if w.lower() not in flat)
+    if bad_n:
+        errs.append("figures not in the notes: " + ", ".join(bad_n[:15]))
+    if len(bad_w) > 3:
+        errs.append("names not in the notes: " + ", ".join(bad_w[:15]))
+    fit = render([(plan, 1)])[0]
+    if not fit["ok"]:
+        errs.append("does not fit one page even at 8 px: cut the longest boxes")
+    if errs:
+        print("FAIL:\n" + "\n".join(errs))
+        return False
+    print(f"PASS: {len(plan['boxes'])} boxes, text at {fit['fs']} px" + (f"; check these names: {', '.join(bad_w)}" if bad_w else ""))
+    return True
+
+
+if __name__ == "__main__":
+    cmd = sys.argv[1]
+    if cmd == "export":
+        export(int(sys.argv[2]), [int(x) for x in sys.argv[3:]])
+    elif cmd == "check":
+        check(int(sys.argv[2]), int(sys.argv[3]))
+    elif cmd == "pdf":
+        plans = []
+        for n, ref in enumerate(sys.argv[3:], 1):
+            b, r = ref.split(":")
+            plans.append((json.load(open(f"{W}/b{b}/r{r}.json")), n))
+        print(render(plans, os.path.abspath(sys.argv[2])))
