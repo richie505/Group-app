@@ -10,6 +10,7 @@ import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
 import com.appsc.prep.data.Storage
+import com.appsc.prep.data.isNotesMcq
 import com.appsc.prep.platform.AndroidPlatform
 import com.appsc.prep.ui.components.AppState
 import com.appsc.prep.ui.components.LocalApp
@@ -113,8 +114,8 @@ class OnelinerTest {
     /** Every MCQ of this app counts in Progress (its ids start with "o", APPSC Complete's with "n" or "ca"); old PYQ ids don't. */
     @Test fun allMcqsCountInProgress() {
         val ids = runBlocking { (1..6).flatMap { b -> repo.mcq(b).rows.values.flatten().map { it.id } } }
-        assertTrue(ids.all(com.appsc.prep.data::isNotesMcq))
-        assertTrue(listOf("ob9c9c6e691a", "n3d2ad3086d5", "ca9127922a46c5").all(com.appsc.prep.data::isNotesMcq))
-        assertTrue(!com.appsc.prep.data.isNotesMcq("01ee2e803f14"))
+        assertTrue(ids.all(::isNotesMcq))
+        assertTrue(listOf("ob9c9c6e691a", "n3d2ad3086d5", "ca9127922a46c5").all(::isNotesMcq))
+        assertTrue(!isNotesMcq("01ee2e803f14"))
     }
 }
