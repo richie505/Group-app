@@ -42,6 +42,12 @@ data class Spent(val sec: Int = 0, val mcqs: Int = 0) {
 fun needsPractice(id: String, answers: Map<String, Boolean>, seen: Set<String>) =
     answers[id] == false || (id in seen && id !in answers)
 
+/**
+ * Whether an answered id is one of the app's MCQs: answers saved before 2.8 are for PYQs (now in the MCQ app) and have
+ * bare 12-hex ids; the notes MCQs' ids have a prefix ("n…", APPSC Complete's "ca…", APPSC One-liners' "o…").
+ */
+fun isNotesMcq(id: String) = !Regex("[0-9a-f]{12}").matches(id)
+
 /** Read/done state, bookmarks, last position and reader settings, kept in [Storage]. */
 class ProgressStore(private val prefs: Storage) {
 

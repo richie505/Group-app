@@ -45,6 +45,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.appsc.prep.data.isNotesMcq
 import com.appsc.prep.data.BookInfo
 import com.appsc.prep.ui.components.Card
 import com.appsc.prep.ui.components.PageList
@@ -364,8 +365,8 @@ fun ProgressScreen(nav: Nav) {
                     Spacer(Modifier.height(10.dp))
                     ProgressLine(if (total == 0) 0f else done / total.toFloat())
                     Spacer(Modifier.height(18.dp))
-                    // Answers saved before 2.8 are for PYQs (now in the MCQ app); notes-MCQ ids start with "n".
-                    val mine = store.answers.filterKeys { it.startsWith("n") }
+                    // answers saved before 2.8 are for PYQs, now in the MCQ app ([isNotesMcq])
+                    val mine = store.answers.filterKeys(::isNotesMcq)
                     val answered = mine.size
                     val right = mine.count { it.value }
                     val boxes: List<@Composable (Modifier) -> Unit> = listOf(
@@ -417,7 +418,7 @@ fun ProgressScreen(nav: Nav) {
 @Composable
 private fun McqResults(nav: Nav) {
     val store = LocalApp.current.store
-    val ids = (store.answers.keys + store.seen).filter { it.startsWith("n") }
+    val ids = (store.answers.keys + store.seen).filter(::isNotesMcq)
     val first = ids.count { store.answers[it] == true && it !in store.missed && it !in store.seen }
     val retry = ids.count { store.answers[it] == true && (it in store.missed || it in store.seen) }
     val wrong = ids.count { store.answers[it] == false }
