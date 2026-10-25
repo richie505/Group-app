@@ -1,0 +1,67 @@
+{"title": "Ecology, ecosystem and energy flow",
+ "tag": "Environment",
+ "quote": "Energy flows one way and is lost; nutrients cycle",
+ "boxes": [
+  {"type": "hierarchy", "title": "Levels of organisation",
+   "levels": [
+    {"name": "Biosphere", "note": "all ecosystems together"},
+    {"name": "Biome", "note": "climate + dominant vegetation"},
+    {"name": "Ecosystem", "note": "==basic functional unit of ecology=="},
+    {"name": "Community", "note": "all populations of different species"},
+    {"name": "Population", "note": "one species"},
+    {"name": "Organism", "note": "habitat = address; niche = profession"}
+   ]},
+  {"type": "table", "title": "Ecologists & terms",
+   "head": ["Person", "Contribution"],
+   "rows": [
+    ["**Ernst Haeckel**", "\"Ecology\" (**1869**; ⚠ other notes: 1866)"],
+    ["==**A.G. Tansley**==", "\"Ecosystem\" (**1935**)"],
+    ["**Lindeman**", "**10% law** (**1942**)"],
+    ["**E.P. Odum**", "Fundamentals of Ecology (**1953**)"],
+    ["**H.C. Cowles**", "Succession (APPSC 2024)"],
+    ["**Grinnell**", "Niche concept"],
+    ["**Ramdeo Misra**", "Father of Indian ecology"]
+   ]},
+  {"type": "bullets", "title": "Ecosystem: components",
+   "items": [
+    "**Abiotic**: energy, radiation, temperature, water, soil, topography",
+    "**Producers** (autotrophs); ocean: **diatoms, cyanobacteria**; vents: **chemosynthetic bacteria**",
+    "**Consumers**: herbivore → carnivore → top carnivore; humans = omnivores",
+    "**Decomposers**: ==**bacteria and fungi**==; link biotic & abiotic",
+    "Function: **energy flow** + **nutrient cycling**; an **open system**",
+    "Environment functions: resources, **assimilate wastes**, habitat; ⚠ not \"generating synthetic chemicals\""
+   ]},
+  {"type": "table", "title": "Food chains",
+   "head": ["Chain", "Starts with", "Example"],
+   "rows": [
+    ["==**Grazing**==", "Living green plants", "**Grass → goat → human**"],
+    ["**Detritus**", "Dead organic matter", "Leaf litter → earthworm → bird"],
+    ["**Pond**", "Phytoplankton", "→ zooplankton → fish"]
+   ]},
+  {"type": "flow", "title": "Energy flow (one-way)",
+   "steps": ["**Sun**", "Producers (T1): fix **2-10% of PAR**", "Herbivores (T2)", "Carnivores (T3, T4)", "==Only **10%** passes on; **90%** lost as heat==", "Chains limited to **4-5** levels"]},
+  {"type": "bullets", "title": "Productivity & food web",
+   "items": [
+    "**NPP = GPP - respiration**: energy for consumers",
+    "Total primary production efficiency: share of **solar energy** used in photosynthesis",
+    "Most productive (APPSC key): ==**tropical rainforest**==; ⚠ other notes: mangroves",
+    "Lowest: **deserts**, **open ocean**",
+    "**Food web**: more complex → more **stable**",
+    "**Resistance** = withstand; **resilience** = recover"
+   ]},
+  {"type": "table", "title": "Ecological pyramids",
+   "head": ["Pyramid", "Upright", "Inverted"],
+   "rows": [
+    ["**Numbers**", "Grassland, pond", "**Tree**; **parasitic** chain"],
+    ["**Biomass**", "Forest, grassland", "**Pond**, marine"],
+    ["**Energy**", "==**Always upright**==", "Never"]
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "\"Grazing chain begins with dead leaves\" = **false** (PYQ 2025)",
+    "**Tiger, grass, snake, frog**: missing ==herbivore (second level)==",
+    "Ecology = Haeckel; ecosystem = Tansley; 10% law = Lindeman",
+    "Pyramids ignore **decomposers**; energy pyramid never inverted",
+    "Biomagnification: **DDT**, **mercury** peak at top trophic level"
+   ]}
+ ]}

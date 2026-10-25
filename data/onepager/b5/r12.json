@@ -1,0 +1,81 @@
+{"title": "ICT: hardware, software, memory & OS",
+ "tag": "Science & Technology",
+ "quote": "Speed order: registers > cache > RAM > SSD > HDD > optical disc > magnetic tape",
+ "boxes": [
+  {"type": "timeline", "title": "Computer generations",
+   "items": [
+    {"when": "1940s-56", "what": "1st: **Vacuum tubes** (ENIAC, UNIVAC)"},
+    {"when": "1956-63", "what": "2nd: **Transistors**"},
+    {"when": "1964-71", "what": "3rd: **Integrated circuits**"},
+    {"when": "1971-", "what": "4th: ==**Microprocessors** (VLSI)=="},
+    {"when": "5th", "what": "**Artificial intelligence**, ULSI, parallel processing"}
+   ]},
+  {"type": "table", "title": "Persons & contributions",
+   "head": ["Person", "Contribution"],
+   "rows": [
+    ["**Charles Babbage**", "Father of computer (Analytical Engine)"],
+    ["**Ada Lovelace**", "First programmer"],
+    ["**Douglas Engelbart**", "==**Mouse**=="],
+    ["**Larry Tesler**", "**Cut/copy/paste**"],
+    ["**Tim Berners-Lee**", "WWW (**1989**)"],
+    ["**von Neumann**", "Stored-program architecture"],
+    ["**Richard Stallman**", "**GNU** (**1983**), GPL"],
+    ["**Linus Torvalds**", "**Linux** kernel (**1991**)"]
+   ]},
+  {"type": "bullets", "title": "Firsts & types",
+   "items": [
+    "**ENIAC (1946)**: first general-purpose electronic computer",
+    "**Intel 4004 (1971)**: first microprocessor; **TIFRAC**: first indigenous (India)",
+    "**FORTRAN (1957)**: first HLL",
+    "Analog: speedometer; Digital: PCs; ==**Hybrid**: ICU monitors, ECG==",
+    "Technology preservation = **computer museum** (APPSC 2019)"
+   ]},
+  {"type": "cards", "title": "Hardware",
+   "cards": [
+    {"title": "CPU", "lines": ["**ALU**: arithmetic & logic", "**CU**: fetches, decodes, directs", "**Registers**: fastest storage"]},
+    {"title": "Input", "lines": ["**OCR**, **MICR** (cheques), **OMR** (answer sheets)", "Touch screen = input + output"]},
+    {"title": "Printers", "lines": ["Impact: dot-matrix, daisy-wheel, line", "Non-impact: inkjet, laser, thermal", "Quality in **dpi**"]}
+   ]},
+  {"type": "table", "title": "Memory",
+   "head": ["Type", "Key facts"],
+   "rows": [
+    ["**RAM**", "==**Volatile**==; SRAM (cache), DRAM (main)"],
+    ["**ROM**", "**Non-volatile**; BIOS; EPROM (UV), EEPROM (electric)"],
+    ["**SSD**", "Flash, no moving parts"],
+    ["**DVD / Blu-ray**", "**4.7 GB** / **25 GB** single layer"],
+    ["**Magnetic tape**", "**Sequential access**; backup"],
+    ["Units", "**nibble = 4 bits**, **byte = 8 bits**, **KB = 1,024 bytes**"]
+   ]},
+  {"type": "hierarchy", "title": "Language levels",
+   "levels": [
+    {"name": "4GL", "note": "SQL"},
+    {"name": "3GL high-level", "note": "FORTRAN, COBOL, C (**Dennis Ritchie**), Java (Gosling), Python (van Rossum)"},
+    {"name": "2GL assembly", "note": "Mnemonics → **assembler**"},
+    {"name": "1GL machine", "note": "Binary 0s and 1s"}
+   ]},
+  {"type": "bullets", "title": "Software & OS",
+   "items": [
+    "**System**: OS, device drivers, translators; **Utility**: antivirus, backup",
+    "==**Compiler**: whole program; **Interpreter**: line by line==",
+    "**Real-time OS**: missile guidance, air-traffic control; **UNIX**: time-sharing",
+    "Mobile: **Android**, **iOS**, India's **BharOS** (IIT Madras)",
+    "CLI: MS-DOS; GUI: Windows, macOS",
+    "**NAND, NOR** = universal gates; **XOR** = 1 when inputs differ"
+   ]},
+  {"type": "bullets", "title": "Performance & supercomputers",
+   "items": [
+    "==**FLOPS**: supercomputer speed==; **Linpack (HPL)** ranks them",
+    "Clock speed: **GHz**; bandwidth: **bps**",
+    "**Q-Day**: quantum breaks **RSA-2048** via **Shor's algorithm (1994)**",
+    "ISC 2026: China's **LineShine** replaces US **El Capitan**",
+    "**Param Shakti**: **IIT Madras**, **3.1 petaflops**, **RUDRA** servers, **National Supercomputing Mission**"
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "**Bit** smallest; nibble **4**, byte **8** bits (APPSC 2025)",
+    "Bar code = ==vertical bars of varying widths== (APPSC 2019)",
+    "Mouse communication = **simplex** (APPSC 2019)",
+    "Flowchart = **pictorial** form of algorithm (APPSC 2019)",
+    "⚠ Engelbart = mouse, Tesler = cut/copy/paste; EPROM = UV, EEPROM = electric"
+   ]}
+ ]}

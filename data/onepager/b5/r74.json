@@ -1,0 +1,64 @@
+{"title": "Nutrient cycles, succession, ecosystem services",
+ "tag": "Environment",
+ "quote": "Energy is lost, matter is reused: decomposers keep the cycles running",
+ "boxes": [
+  {"type": "table", "title": "Types of cycles",
+   "head": ["Type", "Cycles", "Reservoir"],
+   "rows": [
+    ["**Gaseous**", "Carbon, ==nitrogen==, oxygen, water", "Atmosphere / ocean"],
+    ["**Sedimentary**", "**Phosphorus, sulphur, calcium**, potassium", "Earth's crust"]
+   ]},
+  {"type": "bullets", "title": "Cycle basics",
+   "items": [
+    "**C, H, O, N, P** = about **97%** of body mass",
+    "Nitrogen: reservoir NOT soil but atmosphere (~**78% N2**) (APPSC-G2 2025)",
+    "**Phosphorus**: ==no atmospheric phase==; weathering of rocks",
+    "No decomposers → ==mineral movement blocked== (APPSC 2025)",
+    "Carbon: added by respiration, decomposition, combustion; removed by **photosynthesis**",
+    "Fertiliser runoff (**N and P**) → **eutrophication**"
+   ]},
+  {"type": "cycle", "title": "Nitrogen cycle",
+   "centre": "N2 in air",
+   "steps": ["**Fixation**: Rhizobium, Azotobacter, lightning", "**Ammonification**: decomposers", "**Nitrification**: ==Nitrosomonas → Nitrobacter==", "**Denitrification**: Pseudomonas, Thiobacillus"]},
+  {"type": "table", "title": "Biofertilisers",
+   "head": ["Microbe", "Nature", "Crop"],
+   "rows": [
+    ["==**Rhizobium**==", "Symbiotic; legume root nodules", "Pulses, pea"],
+    ["**Rhizobium japonicum**", "N fixation", "**Soybean**"],
+    ["**Azotobacter**", "Free-living", "Cereals"],
+    ["**Azolla-Anabaena**", "Aquatic fern + cyanobacterium", "**Rice** / paddy"],
+    ["**Frankia**", "Actinomycete, non-legumes", "Alnus, Casuarina"],
+    ["**Mycorrhiza** (VAM)", "Fungus-root", "**Phosphorus** uptake"]
+   ]},
+  {"type": "flow", "title": "Succession phases (Clements, 1916)",
+   "steps": ["**Nudation**: bare area", "**Invasion**: ecesis, aggregation", "**Competition** & co-action", "==**Reaction**: most important==", "**Stabilisation**: climax"]},
+  {"type": "table", "title": "Primary vs secondary succession",
+   "head": ["Primary", "Secondary"],
+   "rows": [
+    ["Bare rock, lava; ==no soil==", "After fire, flood, logging; soil present"],
+    ["Pioneers: **lichens**, mosses", "Seeds, roots present"],
+    ["Slower", "Faster, more common"]
+   ]},
+  {"type": "bullets", "title": "Seres & theories",
+   "items": [
+    "**Hydrosere**: water; **xerosere**: dry land",
+    "**Lithosere** = rock; **psammosere** = sand; **halosere** = saline",
+    "Xerosere: crustose lichens → foliose lichens → mosses → herbs → shrubs → forest",
+    "**Clements**: ==monoclimax==; **Tansley**: polyclimax; **Whittaker**: climax-pattern"
+   ]},
+  {"type": "table", "title": "Ecosystem services (MEA 2005)",
+   "head": ["Category", "Examples"],
+   "rows": [
+    ["**Provisioning**", "Food, water, timber, medicines"],
+    ["**Regulating**", "Climate, flood, ==pollination, waste decomposition=="],
+    ["**Cultural**", "Recreation, aesthetics, heritage"],
+    ["**Supporting**", "==Soil formation, nutrient cycling=="]
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "Environment supplies ==renewable AND non-renewable== resources (APPSC 2022 trap)",
+    "Waste decomposition = breakdown into simpler compounds (APPSC 2023)",
+    "**Costanza et al. (1997)**: ~**US$33 trillion** a year; **TEEB** hosted by **UNEP**",
+    "Leg-haemoglobin: pink; maintains oxygen conditions for fixation"
+   ]}
+ ]}

@@ -1,0 +1,58 @@
+{"title": "Emerging ICT applications",
+ "tag": "Science & Technology",
+ "quote": "IoT: devices networked to communicate without human intervention",
+ "boxes": [
+  {"type": "hierarchy", "title": "Industrial revolutions",
+   "levels": [
+    {"name": "IR1", "note": "Steam / mechanisation"},
+    {"name": "IR2", "note": "Electricity / mass production"},
+    {"name": "IR3", "note": "Electronics / IT"},
+    {"name": "IR4", "note": "==**Cyber-physical systems**==; **Klaus Schwab** (WEF), **2016**"}
+   ]},
+  {"type": "table", "title": "Full forms & terms",
+   "head": ["Term", "Meaning"],
+   "rows": [
+    ["**IoT / IIoT**", "==**Internet of Things**== / Industrial IoT"],
+    ["**DLT**", "Distributed Ledger Technology"],
+    ["**RFID**", "Radio Frequency Identification"],
+    ["**Li-Fi**", "Light Fidelity: data via LEDs"],
+    ["**5G NR**", "5G New Radio"],
+    ["**NFC**", "Near-Field Communication; few cm"],
+    ["**Edge / fog**", "Near source / between edge and cloud"],
+    ["**Metaverse**", "Shared immersive world (AR/VR)"]
+   ]},
+  {"type": "flow", "title": "IoT three layers",
+   "steps": ["**Perception** (sensors)", "**Network** (transmission)", "**Application** (user services)"]},
+  {"type": "cards", "title": "IoT uses",
+   "cards": [
+    {"title": "Smart city", "lines": ["Traffic, air quality, waste"]},
+    {"title": "Smart agriculture", "lines": ["Precision farming, soil, livestock"]},
+    {"title": "Wearables", "lines": ["Fitness trackers, health monitors"]},
+    {"title": "Others", "lines": ["Smart grids, logistics, HVAC"]}
+   ]},
+  {"type": "table", "title": "Governance applications",
+   "head": ["Application", "Agency / use"],
+   "rows": [
+    ["**AP State Data Lake**", "Links RCH with POSHAN; plugs leakages"],
+    ["**NCAP**", "**I4C**: AI, big data on crime"],
+    ["**NAFRS**", "==**NCRB**==; privacy concerns"],
+    ["**DigiVerify**", "AP blockchain"],
+    ["Edge network", "**Reliance**, India AI Summit"]
+   ]},
+  {"type": "bullets", "title": "5G, 6G & Wi-Fi 7",
+   "items": [
+    "5G latency ==**as low as 1 ms**==; **6G** early 2030s",
+    "Slicing use cases: **eMBB, URLLC, mMTC** (SDN/NFV)",
+    "**IIITDM Kurnool**: **1st** in **100 5G Use Case Labs**",
+    "**Bharat 6G Alliance** + Vision: **2023**",
+    "**Wi-Fi 7**: **802.11be**, up to **46 Gbps**",
+    "Airtel **Priority Postpaid** → **net neutrality** debate"
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "IoT = ==**Internet of Things**== (APPSC 2023, 2024)",
+    "⚠ Layer order: perception → network → application",
+    "Active RFID = own battery; passive = reader's signal",
+    "WEF **C4IR** in AP = India's **3rd** after Mumbai, Telangana"
+   ]}
+ ]}

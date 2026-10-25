@@ -1,0 +1,49 @@
+{"title": "Cyber crime and malware",
+ "tag": "Science & Tech",
+ "quote": "Virus = user must run it; worm = spreads without user interaction",
+ "boxes": [
+  {"type": "table", "title": "Malware types",
+   "head": ["Type", "How it works", "Example"],
+   "rows": [
+    ["**Virus**", "Attaches to files; ==user must run it==", "-"],
+    ["**Worm**", "Self-replicates ==without user interaction==", "WannaCry"],
+    ["**Trojan**", "Disguised; **no self-replication**; backdoors", "Zeus Trojan"],
+    ["**Ransomware**", "Encrypts files, demands ransom", "AIIMS Delhi (2022)"],
+    ["**Spyware**", "Secret surveillance", "Pegasus"],
+    ["**Rootkit**", "**Hides** other malware", "Stuxnet components"],
+    ["**Keylogger**", "Records keystrokes", "DarkHotel"],
+    ["**Botnet**", "\"Zombie\" devices; DDoS", "Mirai"]
+   ]},
+  {"type": "timeline", "title": "Named malware",
+   "items": [
+    {"when": "1971", "what": "==**Creeper**: first virus== (ARPANET); removed by **Reaper**"},
+    {"when": "1982", "what": "**Elk Cloner**: first \"in the wild\" (Apple II)"},
+    {"when": "1986", "what": "**Brain**: first IBM-PC virus, Lahore, **Pakistan**"},
+    {"when": "2010", "what": "**Stuxnet**: Iran's nuclear programme (Natanz)"},
+    {"when": "2016-17", "what": "**Petya**, **WannaCry** = ransomware (via **EternalBlue**)"}
+   ]},
+  {"type": "table", "title": "Attack techniques",
+   "head": ["Technique", "Meaning"],
+   "rows": [
+    ["**Phishing**", "Deceptive emails/messages"],
+    ["Vishing", "Phishing by voice calls"],
+    ["**Zero-day**", "Unpatched unknown flaw, e.g. Pegasus"],
+    ["Spoofing", "Faked sender identity"],
+    ["DoS / DDoS", "Flooding; DDoS uses a botnet"],
+    ["Man-in-the-middle", "Intercepts communication"]
+   ]},
+  {"type": "cards", "title": "Security tools",
+   "cards": [
+    {"title": "Firewall", "lines": ["==Prevents unauthorised network access=="]},
+    {"title": "Antivirus", "lines": ["Prevents and heals infections"]},
+    {"title": "MFA", "lines": ["Two independent proofs", "Password + OTP/biometric"]},
+    {"title": "Honeypot", "lines": ["Decoy to lure attackers"]},
+    {"title": "Indigenous", "lines": ["**BOSS Linux** (C-DAC)", "**Maya OS** + **Chakravyuh** (**2023**)", "**M-Kavach** (C-DAC Hyderabad)"]}
+   ]},
+  {"type": "bullets", "title": "Frauds & crimes",
+   "items": ["==**Digital arrest**==: fake police/CBI on video call extort money", "**SIM swap**: duplicate SIM intercepts OTPs", "QR code: scan only to pay, never to receive", "**Crypto-jacking**: victim device mines crypto", "Identity theft: IT Act **66C**", "SC: **SOPs**, **zero FIRs** for digital arrest"]},
+  {"type": "bullets", "title": "Attacks & data",
+   "items": ["**e-Nagarpalika** (Dec 2023): **Madhya Pradesh**", "**AIIMS Delhi** ransomware (**2022**)", "CERT-In: **29.44 lakh** incidents in **2025** (**20.41** lakh in **2024**)", "**Exercise Cyber Suraksha**: DRDO, **12 days**", "AP: **APCSOC**; Police-**IIT Tirupati** MoU"]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["Petya + WannaCry = ==**ransomware**== (APPSC-G2 2025)", "Firewall = blocks unauthorised access (APPSC-GS 2025)", "Malware definition key: **Virus** (APPSC 2024)", "Digital arrest = scam by fake officials; ⚠ other notes: police tracking (follow the key)", "First cyber-trafficking case: **Telangana** (APPSC-G2 2023)", "e-Nagarpalika attack = MP (APPSC-G1 2024)"]}
+ ]}

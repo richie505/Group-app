@@ -1,0 +1,69 @@
+{"title": "Human Development Index",
+ "tag": "Indian Economy",
+ "quote": "People and their capabilities, not growth alone, are the ultimate criteria of development",
+ "boxes": [
+  {"type": "bullets", "title": "Origin & idea",
+   "items": [
+    "Conceived by ==**Mahbub ul Haq**== with **Amartya Sen** (team incl. **Inge Kaul**)",
+    "**Sen**: capability approach (Development as Freedom)",
+    "**Martha Nussbaum**: central human capabilities",
+    "First HDR **1990**, **UNDP**; compares **education, health, per-capita income**",
+    "Same GNI, different HDI → **national policy choices** (Malaysia vs **Chile**)"
+   ]},
+  {"type": "table", "title": "Dimensions & goalposts",
+   "head": ["Dimension", "Indicator", "Min-Max"],
+   "rows": [
+    ["Long & healthy life", "Life expectancy at **birth**", "**20-85**"],
+    ["Education", "Expected years of schooling", "**0-18**"],
+    ["Education", "Mean years of schooling", "**0-15**"],
+    ["Standard of living", "==**GNI** per capita (PPP $)==, log", "**$100-$75,000**"]
+   ]},
+  {"type": "flow", "title": "Method",
+   "steps": ["Dimension index = (actual - min)/(max - min)", "Education = **arithmetic** mean of 2 sub-indices", "Income: **log** → diminishing returns", "HDI = ==**geometric mean**== of 3 (since **2010**)"]},
+  {"type": "table", "title": "Related indices",
+   "head": ["Index", "Year", "Measures"],
+   "rows": [
+    ["**GDI**", "1995", "==Ratio== of female to male HDI"],
+    ["**HPI**", "1997", "Deprivation; replaced by MPI **2010**"],
+    ["**IHDI**", "2010", "HDI discounted for inequality; **IHDI < HDI**"],
+    ["**GII**", "2010", "Reproductive health, empowerment, labour"],
+    ["**MPI**", "2010", "**OPHI + UNDP**; overlapping deprivations"],
+    ["**PHDI**", "2020", "HDI adjusted for CO2, material footprint"]
+   ]},
+  {"type": "hierarchy", "title": "HDI categories",
+   "levels": [
+    {"name": "Very high", "note": "**0.800**+"},
+    {"name": "High", "note": "**0.700-0.799**"},
+    {"name": "Medium", "note": "**0.550-0.699**: ==India **0.685**=="},
+    {"name": "Low", "note": "below **0.550**"}
+   ]},
+  {"type": "bullets", "title": "India's rank",
+   "items": [
+    "HDR 2023-24 (2022 value): ==**134th of 193**== (APPSC 2024)",
+    "HDR 2025: **Sri Lanka**, Maldives above India; India lowest of original **BRICS**",
+    "States: **Kerala** tops; Goa & Kerala above **0.86**; **Bihar** lowest **0.650**",
+    "⚠ Sub-national national average **0.732** vs UNDP **0.685**"
+   ]},
+  {"type": "timeline", "title": "Human Development Reports",
+   "items": [
+    {"when": "1990", "what": "First global HDR (**UNDP**)"},
+    {"when": "1995", "what": "First state HDR: ==**Madhya Pradesh**=="},
+    {"when": "2001", "what": "First **NHDR**, Planning Commission"},
+    {"when": "2011", "what": "Second NHDR (Planning Commission/IAMR)"}
+   ]},
+  {"type": "table", "title": "AP vs India (NITI MPI 2023)",
+   "head": ["Measure", "AP", "India"],
+   "rows": [
+    ["Headcount", "==**6.06%**==", "14.96%"],
+    ["Rural / Urban", "7.71% / 2.20%", "19.28% / 5.27%"],
+    ["MPI score", "**0.025**", "0.066"]
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "India = ==**Medium**== (0.685), not High (APPSC-GS 2025)",
+    "⚠ Education = **arithmetic**; HDI = **geometric** mean",
+    "⚠ **GDI** = ratio (1995); **GII** = inequality (2010)",
+    "HDI uses **GNI** (⚠ other notes: GDP) per capita",
+    "AP MPI **0.053 → 0.025**; **West Godavari** lowest (**2.42%**)"
+   ]}
+ ]}

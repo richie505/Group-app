@@ -1,0 +1,72 @@
+{"title": "Artificial intelligence & machine learning",
+ "tag": "Science & Technology",
+ "quote": "#AIforAll = NITI Aayog 2018; IndiaAI Mission = MeitY, March 2024",
+ "boxes": [
+  {"type": "hierarchy", "title": "Types of AI",
+   "levels": [
+    {"name": "Artificial Superintelligence", "note": "Hypothetical; surpasses humans"},
+    {"name": "General / Strong AI (AGI)", "note": "Human-level; ==**not yet achieved**=="},
+    {"name": "Narrow / Weak AI (ANI)", "note": "One task: **Siri, Alexa**, Netflix"}
+   ]},
+  {"type": "table", "title": "Key terms",
+   "head": ["Term", "Meaning"],
+   "rows": [
+    ["**Machine learning**", "Learns from data; supervised, unsupervised, reinforcement"],
+    ["**Deep learning**", "==**Multi-layered neural networks**=="],
+    ["**NLP**", "Understand & generate language"],
+    ["**LLMs**", "General-purpose, massive data"],
+    ["**Random forest**", "Many decision trees"],
+    ["**GPU / TPU**", "AI training workhorse / Google's AI chip"]
+   ]},
+  {"type": "table", "title": "Tools & developers",
+   "head": ["Tool", "Developer"],
+   "rows": [
+    ["**Oncology.ai**", "==**AIIMS** + **C-DAC**==: breast, ovarian cancer"],
+    ["**Pratham**", "**Assert AI**: no-code computer vision"],
+    ["**Hanooman**", "BharatGPT + Seetha Mahalakshmi; **11** languages"],
+    ["**Krutrim / OpenHathi**", "**Ola** / **Sarvam AI**"],
+    ["**Bhashini**", "MeitY, **July 2022**; **Bhasha Daan**"],
+    ["**Indrajaal**", "**Grene Robotics**, Hyderabad: anti-drone"],
+    ["**AI sowing app**", "Microsoft + **ICRISAT**, **Kurnool** (**2016**)"]
+   ]},
+  {"type": "timeline", "title": "Strategy & missions",
+   "items": [
+    {"when": "2018", "what": "NITI Aayog ==**#AIforAll**==: health, agriculture, education, smart cities, mobility"},
+    {"when": "2019", "what": "**IIT Hyderabad**: first **B.Tech in AI**"},
+    {"when": "2020", "what": "India joins **GPAI** (**15 June**), founding member"},
+    {"when": "2024", "what": "**IndiaAI Mission**: **₹10,371.92 crore**, **10,000+ GPUs**; EU AI Act in force"},
+    {"when": "2025", "what": "AICTE: **Year of AI**"},
+    {"when": "2026", "what": "**NIELIT Amaravati**: Quantum & AI campus, **₹730.70 crore**"}
+   ]},
+  {"type": "bullets", "title": "Compute, hubs & applications",
+   "items": [
+    "**AIRAWAT**: **200** AI petaflops → **790**; ranked **75th** (Top500)",
+    "**MATH**: DST + Telangana with **T-Hub**",
+    "**AI4AP Police**: **Chittoor, Guntur, Annamayya**; uses **CCTNS**",
+    "**FutureSkills PRIME**: **22.79 lakh+** sign-ups; **YUVAi**: classes 8-12",
+    "Health AI could cut diagnostic errors **up to 40%**"
+   ]},
+  {"type": "bullets", "title": "Ethical concerns",
+   "items": [
+    "**Bias** from non-representative data",
+    "**Deepfakes**: ==**GANs**==, diffusion models",
+    "Privacy, mass surveillance, predictive policing",
+    "**Black box**: explainability; job displacement",
+    "India GERD only **~0.64-0.7% of GDP**; GPU shortage"
+   ]},
+  {"type": "table", "title": "Global governance",
+   "head": ["Summit / law", "Host / note"],
+   "rows": [
+    ["REAIM, 2023", "**The Hague**"],
+    ["AI Seoul Summit, 2024", "**Seoul**"],
+    ["AI Action Summit, 2025", "**Paris**"],
+    ["**EU AI Act**", "==First comprehensive AI law==; risk tiers"]
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "**Oncology.ai** = AIIMS + C-DAC (APPSC-G1 2024)",
+    "MATH aim \"modernising higher education\" = ==false== (APPSC 2023: A true, R false)",
+    "⚠ AGI not yet achieved; Siri/Alexa = narrow AI",
+    "⚠ Pratham = Assert AI; Indrajaal = Grene Robotics"
+   ]}
+ ]}

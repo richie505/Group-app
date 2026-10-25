@@ -1,0 +1,59 @@
+{"title": "UNDP indices: IHDI, GII, GDI, MPI",
+ "tag": "Indian Economy",
+ "quote": "MPI = headcount ratio x intensity of poverty",
+ "boxes": [
+  {"type": "timeline", "title": "Year introduced",
+   "items": [
+    {"when": "1995", "what": "**GDI** & **GEM**"},
+    {"when": "1996", "what": "**Capability Poverty Measure**"},
+    {"when": "1997", "what": "**Human Poverty Index** (HPI)"},
+    {"when": "2010", "what": "==**MPI**, **GII**, **IHDI**==; MPI replaced HPI"}
+   ]},
+  {"type": "table", "title": "Index → meaning",
+   "head": ["Index", "Reading"],
+   "rows": [
+    ["**IHDI**", "HDI discounted for inequality; ==HDI - IHDI = loss=="],
+    ["**GDI**", "**1 = gender parity**; **5 groups**"],
+    ["**GII**", "==Higher GII = greater inequality=="],
+    ["**MPI**", "Headcount x intensity; poor if deprived in **one-third**"],
+    ["**HPI**", "Indicates **standard of living** (APPSC-GS 2018)"]
+   ]},
+  {"type": "cards", "title": "Dimensions & indicators",
+   "cards": [
+    {"title": "GII", "lines": ["**Reproductive health**: MMR, adolescent birth rate", "**Empowerment**: women's seats, secondary education", "**Labour market**: labour force participation"]},
+    {"title": "Capability Poverty Measure", "lines": ["Underweight children under **5**", "Births unattended", "==Female illiteracy=="]},
+    {"title": "Global MPI", "lines": ["Education, health: **1/6** each", "Standard of living: **1/18** each (6)"]}
+   ]},
+  {"type": "table", "title": "Global vs National MPI",
+   "head": ["Feature", "Global", "National"],
+   "rows": [
+    ["Publisher", "**UNDP + OPHI**, since **2010**", "==**NITI Aayog**== (with UNDP, OPHI)"],
+    ["Method", "**Alkire-Foster**", "Same"],
+    ["Indicators", "**10**", "==**12**==: + **maternal health**, **bank account**"]
+   ]},
+  {"type": "table", "title": "India: MPI trend",
+   "head": ["Report", "Finding"],
+   "rows": [
+    ["Global MPI 2018", "**271 million** out (2005-06 to 2015-16)"],
+    ["Global MPI 2022", "MPI **0.069**; **16.4%**; ==**414 million**== out"],
+    ["Progress Review 2023", "**24.85% → 14.96%**; about **13.5 crore** out"],
+    ["NITI paper, **Jan 2024**", "**29.17% → 11.28%**; ==**24.82 crore**== in 9 years"],
+    ["Global MPI 2025", "**0.061** (from **0.064**)"]
+   ]},
+  {"type": "bullets", "title": "States & AP",
+   "items": [
+    "Lowest MPI: ==**Kerala 0.002**==, Goa 0.003, Tamil Nadu 0.009",
+    "Highest: **Bihar 0.16**, Meghalaya, Jharkhand, UP",
+    "Largest fall: **UP 5.94 crore**, Bihar 3.77 crore",
+    "AP headcount **6.06%** vs India **14.96%**; AP **9th**",
+    "Proposed by **Alkire and Santos (2010)**; monitored under **GIRG**"
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "National MPI estimated by ==**NITI Aayog**== (APPSC-G2 2025)",
+    "MPI \"developed in 2010\" correct; \"below $1 a day\" wrong (UPPSC 2025)",
+    "⚠ GDI 1 = parity; \"0 = equal, 1 = worst\" describes **GII**",
+    "⚠ **271 million** (2018) vs **414 million** (2022); **13.5** vs **24.82 crore**",
+    "Global **10** vs National **12** indicators"
+   ]}
+ ]}

@@ -1,0 +1,66 @@
+{"title": "Interior of the Earth",
+ "tag": "Geography",
+ "quote": "S-waves vanish in the outer core: the proof that it is liquid",
+ "boxes": [
+  {"type": "table", "title": "Sources of information",
+   "head": ["Direct", "Indirect"],
+   "rows": [
+    ["==Surface rock from **mining**== (APPSC-G1 2017)", "**Seismic waves** (most important)"],
+    ["Drilling: **Kola** (~**12 km**, deepest hole)", "Gravity anomalies"],
+    ["**Volcanic** eruptions", "Magnetic surveys"],
+    ["Mines **Mponeng, TauTona**: **3.9 km**", "**Meteorites**"]
+   ]},
+  {"type": "table", "title": "Seismic waves",
+   "head": ["Basis", "P", "S", "Surface (L)"],
+   "rows": [
+    ["Type", "Push-pull, longitudinal", "Shear, transverse", "Along surface"],
+    ["Speed", "==Fastest==", "Slower", "Slowest"],
+    ["Medium", "Solid, liquid, gas", "==**Solids only**==", "Surface"],
+    ["Damage", "Lower", "-", "**Highest**"]
+   ]},
+  {"type": "bullets", "title": "Shadow zone",
+   "items": ["P-wave shadow ~**103°-142°** (⚠ other notes: **105°-145°**)",
+    "S-waves ==absent beyond **105°**== → outer core **liquid**",
+    "P-waves strongly refracted at mantle-core boundary",
+    "Each earthquake has its own shadow zone (CGPSC 2020)"]},
+  {"type": "table", "title": "Layers",
+   "head": ["Layer", "Depth", "State", "Remember"],
+   "rows": [
+    ["**Crust**", "Oceanic ~5, continental ~30 km", "Solid", "O > Si > Al > Fe"],
+    ["**Mantle**", "Moho → **2,900 km**", "Solid, plastic", "==**83%** volume, **68%** mass=="],
+    ["**Outer core**", "2,900-**5,150** km", "==**Liquid**==", "Iron-nickel; geodynamo"],
+    ["**Inner core**", "5,150-**6,371** km", "**Solid**", "Density **13.3-13.6**"]
+   ]},
+  {"type": "hierarchy", "title": "Discontinuities (top down)",
+   "levels": [
+    {"name": "Conrad", "note": "upper / lower crust"},
+    {"name": "Moho", "note": "==crust / mantle== (APPSC-G1 2019); P 6.9 → **8.1 km/s**; **1909**"},
+    {"name": "Repetti", "note": "upper / lower mantle"},
+    {"name": "Gutenberg", "note": "mantle / outer core, **~2,900 km**"},
+    {"name": "Lehmann", "note": "outer / inner core, **~5,150 km**"}
+   ]},
+  {"type": "table", "title": "Lithosphere vs asthenosphere",
+   "head": ["", "Lithosphere", "Asthenosphere"],
+   "rows": [
+    ["Nature", "Rigid; crust + upper mantle", "Weak, plastic, partly molten"],
+    ["Depth", "~**100 km** thick", "~**100-200 km** low-velocity zone"],
+    ["Role", "Broken into plates", "==Main source of **magma**=="]
+   ]},
+  {"type": "cards", "title": "Suess: SIAL, SIMA, NIFE",
+   "cards": [
+    {"title": "SIAL", "lines": ["Silica + Aluminium", "Granite; continents"]},
+    {"title": "SIMA", "lines": ["Silica + Magnesium", "Basalt; ocean floor"]},
+    {"title": "NIFE", "lines": ["==**Nickel + Ferrum**== (BPSC 2022)", "Core; magnetism"]}
+   ]},
+  {"type": "bullets", "title": "Crust, core & heat",
+   "items": ["Crust: **O 46.6%**, **Si 27.72%**, **Al 8.13%**, **Fe 5%**; ==Al = most abundant metal==",
+    "Core's lighter element: **silicon** (APPSC G2 2017)",
+    "Earth's density **5.5 g/cm³**; magnetic axis **~11.5°** to geographic",
+    "Temperature +**1°C per 32 m**; T, pressure, density all rise with depth",
+    "Geothermal: **Puga Valley**, Ladakh (highest), Manikaran, Tattapani"]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["==Moho = crust/mantle; Gutenberg = mantle/core; Lehmann = outer/inner core==",
+    "Kola = deepest hole; Mponeng/TauTona = deepest mines",
+    "Outer core liquid, inner core solid (pressure)",
+    "Diamonds via **kimberlite pipes**; MP ~**90%** of India's reserves"]}
+ ]}

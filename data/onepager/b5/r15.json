@@ -1,0 +1,73 @@
+{"title": "Industry 4.0, IoT and robotics",
+ "tag": "Science & Technology",
+ "quote": "3.0 = automation and computers; 4.0 = cyber-physical systems; 5.0 = human-machine collaboration",
+ "boxes": [
+  {"type": "hierarchy", "title": "Industrial revolutions",
+   "levels": [
+    {"name": "Industry 1.0", "note": "Mechanisation, **steam power**"},
+    {"name": "Industry 2.0", "note": "**Electricity**, assembly line"},
+    {"name": "Industry 3.0", "note": "**Automation, computers**"},
+    {"name": "Industry 4.0", "note": "==**Cyber-physical systems**==, IoT, AI; term by **Klaus Schwab** (**2016**)"},
+    {"name": "Industry 5.0", "note": "**Human-machine collaboration**"}
+   ]},
+  {"type": "table", "title": "Key terms",
+   "head": ["Term", "Meaning"],
+   "rows": [
+    ["**IoT**", "Sensor devices exchange data ==without human intervention=="],
+    ["**Digital twin**", "Virtual replica for simulation"],
+    ["**Additive manufacturing**", "**Layer by layer** from CAD; **4D** = shape changes"],
+    ["**Cobots**", "Robots working alongside humans"],
+    ["**mMTC**", "**5G** slice for dense IoT"],
+    ["**XR**", "Umbrella for VR + AR + MR"],
+    ["**SCADA / PLC**", "Remote plant monitoring / machine controller"]
+   ]},
+  {"type": "table", "title": "RFID tags",
+   "head": ["Tag", "Power"],
+   "rows": [
+    ["**Passive**", "==**No internal battery**==; reader's field"],
+    ["**Semi-passive**", "Battery runs chip only"],
+    ["**Active**", "Own battery + transmitter; long range"]
+   ]},
+  {"type": "bullets", "title": "IoT layers & variants",
+   "items": [
+    "**Perception** (sensors, RFID) → **Network** → **Application**",
+    "**IIoT**: industrial; **IoNT**: nano-devices",
+    "IoT collects data; **AI** analyses and decides",
+    "**Kisan drones**: **100** flagged off Feb **2022**; **Namo Drone Didi**: women SHGs"
+   ]},
+  {"type": "table", "title": "Indigenous robots & chips",
+   "head": ["Robot / chip", "Developer / purpose"],
+   "rows": [
+    ["**Bandicoot**", "==**Genrobotics**, Kerala; sewers=="],
+    ["**HomoSEP**", "**IIT Madras**; septic tanks"],
+    ["**Vyommitra**", "**ISRO**; **Gaganyaan**"],
+    ["**Daksh**", "**DRDO**; defuse IEDs"],
+    ["**SSI Mantra**", "First surgical robot (Dr **Sudhir Srivastava**)"],
+    ["**DHRUV64**", "**C-DAC**; 64-bit **RISC-V**"],
+    ["**Vikram 3201**", "**ISRO** SCL; 32-bit space-grade"],
+    ["**SHAKTI**", "**IIT Madras**; RISC-V"]
+   ]},
+  {"type": "bullets", "title": "Chips & drones",
+   "items": [
+    "**ISM (2021)**: **₹76,000 crore**; OSAT pilot line **Sanand**",
+    "**Semicon 2.0**: ==**₹1,27,500 crore**==; fabs up to **40%** subsidy",
+    "**56 chips** fabricated at **180 nm**; **397 universities**",
+    "Drone classes: nano **≤250 g**, micro to **2 kg**, small to **25 kg**, medium to **150 kg**",
+    "Aim: **global drone hub by 2030**; **DigitalSky**, **Drone Shakti**"
+   ]},
+  {"type": "cards", "title": "Missions & centres",
+   "cards": [
+    {"title": "SAMARTH Udyog Bharat 4.0", "lines": ["**Ministry of Heavy Industries**", "Demonstration centres"]},
+    {"title": "IoT CoEs", "lines": ["MeitY-NASSCOM", "Bengaluru, Gurugram, Gandhinagar, ==**Visakhapatnam**=="]},
+    {"title": "VARCoE / IMAGE", "lines": ["VR/AR: **IIT Bhubaneswar**", "IMAGE: **Hyderabad**"]},
+    {"title": "AP angle", "lines": ["**WEF** 4IR Centre: India's **3rd**", "**JNTU Kakinada**: M.Tech in IoT"]}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "IoT = ==**Internet of Things**== (APPSC 2023, 2024)",
+    "VR user is still a **real person** (APPSC 2024)",
+    "Passive RFID powered by internal circuit = **wrong** (APPSC-G1 2022)",
+    "**Bandicoot** ends **manual scavenging** (APPSC-G2 2025)",
+    "⚠ Bandicoot = sewers; HomoSEP = septic tanks"
+   ]}
+ ]}

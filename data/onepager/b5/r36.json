@@ -1,0 +1,75 @@
+{"title": "Propulsion and future launch vehicles",
+ "tag": "Science & Tech",
+ "quote": "Cryogenic = LH2 + LOX; Semi-cryogenic = kerosene + LOX; Hypergolic = ignite on contact",
+ "boxes": [
+  {"type": "table", "title": "Rocket propellants",
+   "head": ["Type", "Example", "Feature"],
+   "rows": [
+    ["**Solid**", "**HTPB** (S200)", "High thrust; cannot be throttled; Isp ~**260 s**"],
+    ["**Earth-storable**", "UH25/N2O4", "Throttleable, restartable"],
+    ["**Hypergolic**", "Hydrazine + N2O4", "==Ignite on contact==; toxic"],
+    ["**Cryogenic**", "==**LH2 + LOX**==", "Most efficient; complex"],
+    ["**Semi-cryogenic**", "**Kerosene + LOX**", "Dense, cheaper, non-toxic"],
+    ["**Hybrid**", "Solid fuel + liquid oxidiser", "Can stop/restart"]
+   ]},
+  {"type": "bullets", "title": "Cryogenic technology",
+   "items": [
+    "LH2 (**-253°C**) + LOX (**-183°C**); exhaust only water vapour",
+    "==Isp ~**450 s** (highest)==",
+    "LH2 density **0.071 g/ml** → huge tanks; unsuited to military missiles",
+    "Use: **rocket upper stages**, space shuttle",
+    "**Glavkosmos deal (1991)** → US **MTCR** sanctions (**1992**) → Russia gave only **7 engines**"
+   ]},
+  {"type": "timeline", "title": "Indian cryogenic programme",
+   "items": [
+    {"when": "1994", "what": "**CUSP** begun, **₹300 crore**"},
+    {"when": "2006", "what": "Full cryogenic stage test"},
+    {"when": "5 Jan 2014", "what": "==**GSLV Mk II** flies indigenous **CE-7.5**=="},
+    {"when": "Nov 2025", "what": "**CE-20** bootstrap-mode start test"},
+    {"when": "2026", "what": "**SE2000** PHTA hot test at **60%** power"}
+   ]},
+  {"type": "table", "title": "ISRO engines",
+   "head": ["Engine", "Propellants", "Used in"],
+   "rows": [
+    ["**Vikas**", "UH25 + N2O4", "PSLV/GSLV 2nd stage, L110"],
+    ["**CE-7.5**", "LOX + LH2, staged combustion", "==**GSLV Mk II**== upper stage"],
+    ["**CE-20**", "LOX + LH2, gas-generator, **200 kN**", "==**LVM3 C25**== (Chandrayaan-2, 3)"],
+    ["**SE2000**", "Kerosene + LOX", "**LVM3-SC**, NGLV"]
+   ]},
+  {"type": "cards", "title": "Private engines",
+   "cards": [
+    {"title": "Agnilet", "lines": ["**Agnikul Cosmos**", "==First single-piece 3D-printed semi-cryo engine==", "Flown **2024** from **Dhanush**"]},
+    {"title": "Agnite", "lines": ["Agnikul; **Inconel**", "Largest 3D-printed booster (**Agnibaan**)"]},
+    {"title": "EVEREST", "lines": ["**Astrobase**", "**800 kN** LOX-methane, **Aug 2026**"]},
+    {"title": "Vikram-1", "lines": ["**Skyroot**, Mission Aagaman (**Jul 2026**)", "==First private orbital rocket=="]}
+   ]},
+  {"type": "table", "title": "Ramjet vs scramjet",
+   "head": ["Engine", "Combustion", "Speed"],
+   "rows": [
+    ["**Ramjet**", "Subsonic airflow", "Above **Mach 2**"],
+    ["**Scramjet**", "==**Supersonic**== airflow", "**Mach 5-6+**"]
+   ]},
+  {"type": "bullets", "title": "Scramjet & electric",
+   "items": [
+    "Uses atmospheric oxygen → cuts oxidiser weight",
+    "**ATV** (ISRO, **Aug 2016**): India ==**4th**== (after US, Russia, China)",
+    "**HSTDV** = **DRDO**; combustor ran **20 minutes** (May 2026)",
+    "Hall thruster: **300 mN**, **xenon**, **1,000-hour** test; Isp ~**6x** chemical",
+    "**POEM**: spent **PS4** stage as orbital platform"
+   ]},
+  {"type": "bullets", "title": "Reusable vehicles",
+   "items": [
+    "**RLV-TD Pushpak**: **LEX-03** landing; aim **TSTO**; cost cut **up to 80%**",
+    "**NGLV Soorya**: ==**20,000 kg to LEO**==, semi-cryogenic, **Third Launch Pad**",
+    "Soorya for **Bharatiya Antariksh Station** (**2035**), lunar landing (**2040**)",
+    "**Falcon 9** (SpaceX): **520+** recoveries; **New Glenn**: Blue Origin"
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "Cryogenic upper stage: LH2 + LOX (UPPSC 2004; UPSC 1995)",
+    "⚠ India ==not the 4th== with cryogenic tech (Europe, Japan too)",
+    "**CE-7.5** = GSLV Mk II; **CE-20** = LVM3 C25",
+    "**ATV** = ISRO; **HSTDV** = DRDO",
+    "Reusable rocket \"**Falcon**\" (APPSC 2024)"
+   ]}
+ ]}

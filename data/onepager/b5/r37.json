@@ -1,0 +1,73 @@
+{"title": "INSAT and GSAT communication satellites",
+ "tag": "Science & Tech",
+ "quote": "INSAT = meteorological + communication on one geostationary platform",
+ "boxes": [
+  {"type": "table", "title": "Satellite orbits",
+   "head": ["Orbit", "Fact"],
+   "rows": [
+    ["**Low Earth**", "**160 km to 2000 km**; ISS about **400 km**"],
+    ["**Geostationary**", "==About **36,000 km** over **equator**; **24 hours**=="],
+    ["**Polar**", "Passes over the poles"],
+    ["**Elliptical**", "Different apogee and perigee"]
+   ]},
+  {"type": "bullets", "title": "Geostationary orbit",
+   "items": [
+    "Precisely about **35,786 km**",
+    "==Height does **not** depend on satellite mass== (CGPSC 2018)",
+    "Moves **west to east** in equatorial plane → looks stationary",
+    "Launcher → elliptical **GTO** → own motor raises to GEO"
+   ]},
+  {"type": "timeline", "title": "INSAT milestones",
+   "items": [
+    {"when": "1981", "what": "**APPLE**: first experimental comsat, on Ariane"},
+    {"when": "1982", "what": "**INSAT-1A**: first INSAT"},
+    {"when": "1983", "what": "INSAT system commissioned"},
+    {"when": "1992-1999", "what": "==**INSAT-2**: first fully indigenous series=="},
+    {"when": "Sep 2002", "what": "**KALPANA-1**: exclusive weather satellite (PSLV)"},
+    {"when": "2004", "what": "**EDUSAT** (GSAT-3), GSLV-F01, **74°E**"},
+    {"when": "2006", "what": "**INSAT-4C** lost on **GSLV-F02** → INSAT-4CR (2007)"},
+    {"when": "2022", "what": "**10** satellites transferred to **NSIL**"}
+   ]},
+  {"type": "table", "title": "Key GSATs",
+   "head": ["Satellite", "Year", "Note"],
+   "rows": [
+    ["**INSAT-3D / 3DR**", "2013 / 2016", "Advanced meteorology; cut cyclone deaths"],
+    ["**GSAT-8**", "2011", "**GAGAN** payload"],
+    ["**GSAT-11**", "2018", "==Heaviest ISRO-built (~**5.8 t**)=="],
+    ["**GSAT-30**", "2020, Kourou", "Telecom (APPSC 2018)"],
+    ["**GSAT-N2**", "Nov 2024", "Broadband; **Falcon 9**"],
+    ["**CMS-03**", "Nov 2025, LVM3-M5", "==Heaviest from Indian soil (**4,410 kg**)=="]
+   ]},
+  {"type": "cards", "title": "Strategic & regional",
+   "cards": [
+    {"title": "GSAT-7 Rukmini", "lines": ["2013", "==**Navy**=="]},
+    {"title": "GSAT-7A Angry Bird", "lines": ["2018", "==**Air Force**=="]},
+    {"title": "GSAT-7B", "lines": ["Proposed", "**Army**"]},
+    {"title": "GSAT-9 South Asia", "lines": ["**May 2017**, GSLV-F09", "**Pakistan opted out**"]}
+   ]},
+  {"type": "table", "title": "Bands & use",
+   "head": ["Band", "Use"],
+   "rows": [
+    ["**C**", "Telecom, TV distribution"],
+    ["**Ku**", "DTH, VSAT"],
+    ["**Ka**", "Broadband (GSAT-11, GSAT-N2)"],
+    ["**S**", "Mobile services, DWS downlink"],
+    ["**UHF**", "Military"]
+   ]},
+  {"type": "bullets", "title": "Applications",
+   "items": [
+    "DTH, **VSAT**, DSNG, GRAMSAT, telemedicine, **Village Resource Centres**",
+    "**Swayam Prabha**: ==**GSAT-15** → **40** free DTH channels==",
+    "**DWS**: Cyclone Warning Centre, **Chennai**; uplink **C**, downlink **S**",
+    "Search and rescue: **COSPAS-SARSAT**",
+    "Managed by **ICC**; controlled from **MCF, Hassan**"
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "INSAT key = \"**Meteorological Satellite**\" (JPSC 2021)",
+    "GEO period **24 hours** (UPPSC 2016)",
+    "==**MF** band not used== in INSAT/GSAT (RPSC 2021)",
+    "⚠ GSAT-11 = heaviest ISRO-built; CMS-03 = heaviest from Indian soil (⚠ other notes: 4,400 kg)",
+    "First exclusive weather satellite: **KALPANA-1**"
+   ]}
+ ]}

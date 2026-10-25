@@ -1,0 +1,69 @@
+{"title": "NavIC and GAGAN",
+ "tag": "Science & Tech",
+ "quote": "GAGAN augments GPS; NavIC is an independent regional system",
+ "boxes": [
+  {"type": "table", "title": "GPS vs NavIC",
+   "head": ["Feature", "GPS", "NavIC"],
+   "rows": [
+    ["Owner", "US Dept of Defense", "ISRO; formerly **IRNSS**"],
+    ["Satellites", "**24** in **6** orbits", "==**7**: **3 GEO + 4 GSO**=="],
+    ["Altitude / tilt", "**20,200 km**", "GSO at **29°**"],
+    ["Coverage", "Global", "India + **1,500 km**"],
+    ["Bands", "L1 + L2", "**L5 and S**; NVS adds **L1**"],
+    ["Start", "**1973**; first satellite **1978**", "Operational **2018**"]
+   ]},
+  {"type": "bullets", "title": "NavIC basics",
+   "items": [
+    "==**Navigation with Indian Constellation**== (CGPSC 2021)",
+    "Genesis: US denied GPS in **1999 Kargil War**",
+    "**SPS** (civilians): better than **20 m**; **RS**: encrypted, military",
+    "**1 microsecond** clock error = ~**300 m** error",
+    "**11** navigation satellites launched since **2013**, all from **Sriharikota**"
+   ]},
+  {"type": "timeline", "title": "Satellites & clock troubles",
+   "items": [
+    {"when": "2018", "what": "Swiss **SpectraTime** clocks failed → indigenous **SAC** clocks"},
+    {"when": "May 2023", "what": "==**NVS-01**, GSLV-F12: first indigenous rubidium clock=="},
+    {"when": "Jan 2025", "what": "**NVS-02**, GSLV-F15 (**100th** Sriharikota launch): wrong orbit"},
+    {"when": "13 Mar 2026", "what": "**IRNSS-1F** last clock failed → only **3** PNT satellites (need **4**)"}
+   ]},
+  {"type": "bullets", "title": "Applications",
+   "items": [
+    "First NavIC device: ==**Elena Geo Systems**== (APPSC 2023)",
+    "**Qualcomm Snapdragon** chipsets; **AIS-140** vehicle trackers",
+    "Precise timing for **Indian Standard Time**, power, banking",
+    "Surveying, fleet management, precision farming",
+    "**IRNSS-1A** sends cyclone, tsunami alerts to fishermen"
+   ]},
+  {"type": "bullets", "title": "GAGAN",
+   "items": [
+    "==**GPS Aided GEO Augmented Navigation**==",
+    "By **ISRO + AAI**; SBAS: corrects orbit, clock, ionospheric delay",
+    "Payloads on **GSAT-8, GSAT-10, GSAT-15**",
+    "Serves Indian **Flight Information Region**; DGCA certified **2015**",
+    "Ground: **INRES**, **INMCC**, **INLUS**"
+   ]},
+  {"type": "table", "title": "SBAS by region",
+   "head": ["SBAS", "Region"],
+   "rows": [
+    ["**WAAS**", "USA"],
+    ["**EGNOS**", "Europe"],
+    ["**MSAS**", "Japan"],
+    ["**GAGAN**", "==India=="]
+   ]},
+  {"type": "table", "title": "NavIC limitations",
+   "head": ["Limitation", "Effect"],
+   "rows": [
+    ["Coverage", "**Regional** only"],
+    ["Receivers", "L5/S not in common phone chips"],
+    ["Failures", "==Atomic-clock failures== + NVS-02"]
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "NavIC full form (CGPSC 2021); Elena Geo Systems (APPSC 2023)",
+    "SBAS improves ==accuracy, integrity, availability== (UPSC 2025)",
+    "⚠ GPS = 24 satellites, 6 orbits; NavIC = 7, regional",
+    "⚠ Accuracy: 20 m design (⚠ other notes: better than **10 m** over India)",
+    "Clocks: SpectraTime (failed) → SAC; NVS-01 first indigenous"
+   ]}
+ ]}

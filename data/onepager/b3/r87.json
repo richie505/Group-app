@@ -1,0 +1,44 @@
+{"title": "NPA resolution mechanisms",
+ "tag": "Indian Economy",
+ "quote": "SARFAESI = secured lenders, no court; IBC = collective, NCLT-led, time-bound; DRT = tribunal recovery",
+ "boxes": [
+  {"type": "table", "title": "Recovery channels",
+   "head": ["Channel", "Law / year", "Key point", "FY24 share"],
+   "rows": [
+    ["**Lok Adalats**", "Legal Services Authorities Act **1987**", "Small NPAs; compromise", "**3%**"],
+    ["**DRTs**", "**RDDBFI 1993**", "Debts **above ₹20 lakh**; **39 DRTs**, **5 DRATs**", "**17%**"],
+    ["**SARFAESI**", "**2002**", "Enforce security ==**without court**==", "**32%**"],
+    ["**IBC**", "**2016**", "Creditor-in-control, time-bound", "==**48%**=="]
+   ]},
+  {"type": "bullets", "title": "SARFAESI Act 2002",
+   "items": ["**Narasimham Committee** idea", "**Sec 13(2)**: lenders with ==**60%**== of dues issue **60-day** notice", "**Sec 13(4)**: possession, take over management, sell", "**Sec 17**: appeal to **DRT** within **45 days**; **Sec 18** bars civil courts", "**ARCs** buy NPAs against **security receipts**; regulated by **RBI**"]},
+  {"type": "timeline", "title": "Restructuring schemes",
+   "items": [
+    {"when": "2001", "what": "**CDR**: out-of-court multi-bank restructuring"},
+    {"when": "2014", "what": "**5/25 scheme**: infrastructure loans"},
+    {"when": "2015", "what": "**SDR**: debt to majority equity"},
+    {"when": "2016", "what": "==**S4A**==: sustainable vs unsustainable debt (UPSC 2017)"},
+    {"when": "2018", "what": "**Project Sashakt** (Sunil Mehta): Inter-Creditor Agreement (UPSC 2019)"},
+    {"when": "2019", "what": "Prudential Framework: resolution within **180 days**"}
+   ]},
+  {"type": "bullets", "title": "IBC 2016 basics",
+   "items": ["Enacted **28 May 2016**; **T.K. Viswanathan Committee** (**2015**)", "==Debtor-in-possession → **creditor-in-control**==", "Replaced **SICA 1985/BIFR**; BIFR dissolved **1 Dec 2016**", "Trigger: default of at least **₹1 crore**", "CIRP **180 + 90** days; outer limit **330 days**", "**Sec 29A**: wilful defaulters cannot bid", "**PPIRP** for **MSMEs** (**2021**): **120 days**"]},
+  {"type": "table", "title": "IBC institutions",
+   "head": ["Institution", "Role"],
+   "rows": [
+    ["**NCLT** (Sec 408)", "==**Companies and LLPs**==; benches incl. **Amaravati**, **Hyderabad**"],
+    ["**NCLAT** (Sec 410)", "Appeals (Sec 61) → **Supreme Court**"],
+    ["**DRT**", "==**Individuals and partnership firms**=="],
+    ["**IBBI** (2016)", "Regulator of insolvency professionals; **10** members"]
+   ]},
+  {"type": "cards", "title": "Bad bank & 2026 amendment",
+   "cards": [
+    {"title": "NARCL", "lines": ["**Budget 2021-22**", "==**Aggregates**== loans **above ₹500 crore**", "**15% cash** + **85%** SRs"]},
+    {"title": "IDRCL", "lines": ["==**Resolves**== assets", "Majority private"]},
+    {"title": "IBC Amendment 2026", "lines": ["Admit/reject within **14 days**", "**CIIRP**: **150 days**, **51%** creditors", "\"may\" → \"**shall**\" (overturns Vidarbha)"]}
+   ]},
+  {"type": "bullets", "title": "Prompt Corrective Action",
+   "items": ["==**PCA = Prompt Corrective Action**== (APPSC-GS 2019)", "Introduced by RBI in **2002**; revised **Nov 2021**", "Triggers: **capital**, **asset quality** (net NPA), **leverage**", "Profitability (RoA) trigger dropped", "Curbs: lending, branch expansion, **dividends**, management pay"]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["Insolvency = financial **state**; bankruptcy = **legal** declaration (BPSC 2023 swap trap)", "Years: **1987** Lok Adalat, **1993** DRT, **2002** SARFAESI, **2016** IBC", "Timelines: CIRP **180 + 90** (**330**); PPIRP **120**; CIIRP **150**", "**Lalit Kumar Jain** (SC **2021**): personal guarantors stay liable", "IBC average **713 days**; **67%** exceed timeline"]}
+ ]}

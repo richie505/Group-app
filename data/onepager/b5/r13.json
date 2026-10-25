@@ -1,0 +1,77 @@
+{"title": "Networks and the internet",
+ "tag": "Science & Technology",
+ "quote": "The internet is a global WAN; DNS is its directory (name → IP address)",
+ "boxes": [
+  {"type": "timeline", "title": "Internet firsts",
+   "items": [
+    {"when": "1969", "what": "**ARPANET**, US Department of Defense"},
+    {"when": "1986", "what": "**ERNET**: academic network (India)"},
+    {"when": "1989", "what": "==**WWW**: **Tim Berners-Lee**, **CERN**=="},
+    {"when": "1995", "what": "**VSNL** public internet, **15 August**"},
+    {"when": "1998", "what": "**Sify**: first private ISP; **ICANN** set up"},
+    {"when": "2003", "what": "**NIXI** (MeitY): .in registry, IRINN"}
+   ]},
+  {"type": "table", "title": "Network types & topologies",
+   "head": ["Type", "Scope / layout"],
+   "rows": [
+    ["**PAN / LAN / MAN**", "Bluetooth / campus / city"],
+    ["**WAN**", "==Links LANs; internet = global WAN=="],
+    ["**VPN**", "Encrypted tunnel over public network"],
+    ["**Star**", "Central hub; hub failure stops all"],
+    ["**Mesh**", "Most resilient; n(n-1)/2 links"],
+    ["**Bus / Ring**", "Backbone break / one break disrupts"]
+   ]},
+  {"type": "hierarchy", "title": "OSI model (top first)",
+   "levels": [
+    {"name": "7 Application", "note": "HTTP, FTP, SMTP, DNS"},
+    {"name": "6 Presentation", "note": "Encryption, compression"},
+    {"name": "5 Session", "note": "Opens/closes sessions"},
+    {"name": "4 Transport", "note": "**TCP, UDP**"},
+    {"name": "3 Network", "note": "IP; ==**router**=="},
+    {"name": "2 Data Link", "note": "**MAC**; ==**switch**==, bridge, NIC"},
+    {"name": "1 Physical", "note": "Cables, hub, repeater"}
+   ]},
+  {"type": "table", "title": "Protocols",
+   "head": ["Protocol", "Function"],
+   "rows": [
+    ["**HTTP / HTTPS**", "Webpages; HTTPS encrypts via **TLS**"],
+    ["**SMTP**", "==**Sends** e-mail=="],
+    ["**POP3 / IMAP**", "Download & delete / keep on server"],
+    ["**DNS**", "Name → IP address"],
+    ["**DHCP**", "Assigns IP automatically"],
+    ["**FTP**", "File transfer"]
+   ]},
+  {"type": "table", "title": "Addresses",
+   "head": ["Address", "Length"],
+   "rows": [
+    ["**IPv4**", "==**32 bits**==, dotted decimal"],
+    ["**IPv6**", "**128 bits**, hexadecimal"],
+    ["**MAC**", "**48 bits**; data link layer"],
+    ["Class A / B / C", "1-126 / 128-191 / 192-223"],
+    ["Loopback", "**127**.x.x.x"]
+   ]},
+  {"type": "bullets", "title": "Transmission & wireless",
+   "items": [
+    "**Simplex** (TV, keyboard), **half duplex** (walkie-talkie), **full duplex** (telephone)",
+    "**Bluetooth**: IEEE **802.15.1**, **2.4 GHz**; **Wi-Fi**: **802.11**, 2.4 & 5 GHz",
+    "**Li-Fi**: data on LED light",
+    "Satellite internet: **VSAT**, no terrestrial wire"
+   ]},
+  {"type": "bullets", "title": "Web & governance",
+   "items": [
+    "Browser **displays**; server **stores** webpages",
+    "Deep web ~**90-95%**; dark web needs **Tor / I2P**",
+    "**IT Act, 2000**: ==**Sections 69A and 79**== blocking",
+    "**Telecommunications Act, 2023**: replaced Telegraph Act",
+    "**BhashaNet (2022)**: Universal Acceptance; .Bharat in Devanagari",
+    "Connections **25.15 crore (2014) → 96.96 crore (2024)**"
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "Mumbai-Bengaluru-Delhi LANs linked = ==**WAN**== (APPSC 2019)",
+    "Switch = layer **2**; router = layer **3**",
+    "APPSC 2019 key: latest Bluetooth = **5.1** (follow the key)",
+    "⚠ SMTP sends; POP3 downloads & deletes; IMAP keeps on server",
+    "Protocol elements: **syntax, semantics, timing**"
+   ]}
+ ]}

@@ -1,0 +1,53 @@
+{"title": "Blockchain and cryptocurrency",
+ "tag": "Science & Technology",
+ "quote": "Blockchain: a time-stamped series of immutable records managed by a cluster of computers not owned by any single entity",
+ "boxes": [
+  {"type": "bullets", "title": "Definition & Bitcoin",
+   "items": [
+    "==Time-stamped series of **immutable records**; not owned by any single entity== (APPSC 2018)",
+    "Visible to stakeholders **without risk of alteration** (UPSC 2020)",
+    "**Bitcoin (2009)**: first cryptocurrency, **Satoshi Nakamoto**",
+    "Decentralised, peer-to-peer; **mining** validates transactions"
+   ]},
+  {"type": "flow", "title": "How a chain links",
+   "steps": ["Transaction details", "Block + **timestamp**", "Holds ==**hash of the previous block**==", "Copied at many **nodes**", "**Consensus** validates", "Tampering changes hash → shows"]},
+  {"type": "table", "title": "Key terms",
+   "head": ["Term", "Meaning"],
+   "rows": [
+    ["**Stablecoins**", "Pegged to fiat, commodities or crypto"],
+    ["**NFTs**", "Unique tokens; ==not exchangeable at equivalency=="],
+    ["**Smart contracts**", "Self-executing code; cut intermediaries"],
+    ["**DeFi**", "Lending, trading without banks"],
+    ["**Tokenisation**", "Asset ownership → token"],
+    ["**Web 3.0**", "Decentralised web"]
+   ]},
+  {"type": "table", "title": "Types & consensus",
+   "head": ["Types", "Public / PoW", "Private / PoS"],
+   "rows": [
+    ["**Public vs private**", "**Public**: anyone joins (Bitcoin)", "**Private**: authorised only (**AP DigiVerify**)"],
+    ["**Consensus**", "**PoW**: puzzles, ==**very high energy**==", "**PoS**: coins **staked**, lower energy"],
+    ["**The Merge**", "Ethereum PoW before", "Ethereum PoS since **Sep 2022**"]
+   ]},
+  {"type": "table", "title": "Strategies & platforms",
+   "head": ["Initiative", "Body / feature"],
+   "rows": [
+    ["**National Strategy on Blockchain**", "**MeitY** (Dec **2021**)"],
+    ["**Distributed CoE**", "C-DAC, **IDRBT Hyderabad**; **Shamshabad** pilot"],
+    ["**Vishvasya**", "MeitY (**2024**); Blockchain-as-a-Service; **NBF**"],
+    ["**Drunix**", "**NPCI**; from **Hyperledger Fabric**; 2nd after ==**Falcon**=="]
+   ]},
+  {"type": "cards", "title": "AP pilots",
+   "cards": [
+    {"title": "Mee Bhoomi-Blockchain", "lines": ["Launched **23 Jul 2026**", "Revenue, Survey, Registration unified", "Statewide from **November**"]},
+    {"title": "AP DigiVerify", "lines": ["Permissioned **PaaS**", "==**9.85 crore** records=="]},
+    {"title": "Mee Bhoomi-Mee Hakku", "lines": ["Tamper-proof pattadar passbooks"]}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "Crypto ==not legal tender==; VDA providers under **PMLA** (**March 2023**)",
+    "NFTs: UPSC 2022 key **1 and 2 only**",
+    "⚠ Bitcoin = public + PoW; AP DigiVerify = permissioned",
+    "SC: blockchain for land records; AP pilot **halved land disputes**",
+    "Criticism: scalability, PoW energy, interoperability"
+   ]}
+ ]}

@@ -142,6 +142,7 @@ th { background: rgba(0,0,0,.06); text-align: left } th, td { border: 1px solid 
 .hier { display: flex; flex-direction: column; align-items: center; gap: 2px; margin: 2px 0 }
 .lvl { color: #fff; text-align: center; border-radius: 5px; padding: 2px 4px }
 .lvl b { color: #fff }
+.lvl mark, .lvl mark b { color: #111827 }
 .cyc { position: relative; height: calc(var(--fs) * 17); margin: 4px 0 } .cyc svg { position: absolute; inset: 0;
        width: 100%; height: 100% }
 .node { position: absolute; transform: translate(-50%, -50%); background: #fff; border: 1.4px solid; border-radius: 12px;

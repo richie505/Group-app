@@ -1,0 +1,66 @@
+{"title": "Monetary policy: instruments and transmission",
+ "tag": "Indian Economy",
+ "quote": "Corridor: SDF (floor) < repo < MSF = bank rate (ceiling), 50 bps wide",
+ "boxes": [
+  {"type": "table", "title": "Policy rates (Aug 2026)",
+   "head": ["Instrument", "Meaning", "Rate"],
+   "rows": [
+    ["==**Repo**==", "RBI lends to banks vs G-secs; ==main policy rate==", "**5.25%**"],
+    ["**SDF**", "Banks park funds, ==**no collateral**==; floor", "**5.00%**"],
+    ["**MSF**", "Emergency overnight; dip SLR up to **2%**; ceiling", "**5.50%**"],
+    ["**Bank Rate**", "Rediscounting bills; penal rates", "**5.50%**"],
+    ["**Reverse repo**", "RBI borrows; discretionary", "**3.35%**"],
+    ["**CRR** / **SLR**", "Cash with RBI / liquid assets with bank", "**3%** / **18%**"]
+   ]},
+  {"type": "table", "title": "CRR vs SLR",
+   "head": ["Basis", "CRR", "SLR"],
+   "rows": [
+    ["Kept", "==With **RBI**==, cash only", "==By **bank itself**==: cash, gold, G-secs"],
+    ["Interest", "None", "Earns on G-secs"],
+    ["Law", "**Sec 42**, RBI Act", "**Sec 24**, BR Act 1949"],
+    ["Range", "No floor/ceiling (2006)", "**0% to 40%**; was **38.5%** (1991-92)"]
+   ]},
+  {"type": "table", "title": "Quantitative vs qualitative",
+   "head": ["Quantitative (general)", "Qualitative (selective)"],
+   "rows": [
+    ["Bank rate, repo, OMO, CRR, SLR", "==**Margin requirements**, **moral suasion**, direct action=="],
+    ["Volume & cost of credit", "Direction of credit"]
+   ]},
+  {"type": "timeline", "title": "Frameworks & benchmarks",
+   "items": [
+    {"when": "1985-1998", "what": "Monetary targeting (**Chakravarty** Committee)"},
+    {"when": "1998-2016", "what": "Multiple indicator approach; **LAF 2000**, **MSS 2004**, **MSF 2011**"},
+    {"when": "1 July 2010", "what": "**Base rate** (average cost)"},
+    {"when": "1 April 2016", "what": "**MCLR** (marginal cost); FIT from **2016** (**Urjit Patel** 2014)"},
+    {"when": "1 October 2019", "what": "==**EBLR**== for retail & MSME loans (**Janak Raj** group, 2017)"},
+    {"when": "April 2022", "what": "**SDF** begins"}
+   ]},
+  {"type": "flow", "title": "Repo transmission",
+   "steps": ["Repo ↑", "Money-market rates ↑", "Costlier credit", "Consumption & **investment** ↓", "==Aggregate demand ↓ → inflation cools=="]},
+  {"type": "bullets", "title": "Liquidity tools",
+   "items": [
+    "**LAF**: repo + reverse repo/SDF; day-to-day liquidity",
+    "**VRR** injects / **VRRR** absorbs; **49** fine-tuning ops in FY24",
+    "==**I-CRR** **10%** (**10 Aug 2023**): ~**₹1.1 lakh crore**==",
+    "**MSS** (**April 2004**): sterilisation of forex inflows",
+    "**OMO** purchases: **₹2.39 lakh crore** (Apr-May 2025)",
+    "Repo cut **125 bps since Feb 2025**; stance **neutral**"
+   ]},
+  {"type": "bullets", "title": "Obstacles & limits",
+   "items": [
+    "Administered **small-savings** rates hold deposit rates up",
+    "Heavy govt borrowing; informal credit; MCLR resets slowly",
+    "Post-1991 ==main challenge: exchange-rate volatility== (APPSC 2023)",
+    "Food inflation supply-driven: repo can't fix it",
+    "Ad hoc T-bills ended **1997** → Ways and Means Advances"
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "\"Required reserve ratio\" = ==**CRR**== (APPSC 2023)",
+    "SDF absorbs ==without collateral== (APPSC 2025); I-CRR: both statements correct",
+    "Raising CRR: less money + lower demand, NOT more lending (APPSC 2022)",
+    "Rate cut → **investment** up (UPSC 2014); MCLR: both statements correct",
+    "**Seven Ages** speech: **Shaktikanta Das**, **24 Jan 2020**",
+    "CRR/SLR set by RBI; MCLR by each bank; call rate by market"
+   ]}
+ ]}

@@ -1,0 +1,62 @@
+{"title": "National income concepts",
+ "tag": "Indian Economy",
+ "quote": "NNP at factor cost = National Income",
+ "boxes": [
+  {"type": "table", "title": "GDP vs GNP",
+   "head": ["Basis", "GDP", "GNP"],
+   "rows": [
+    ["Based on", "**Domestic territory**", "**Normal residents**"],
+    ["Nature", "==**Location-based**==", "==**Residence-based**=="],
+    ["Indians earning abroad", "Excluded", "Included"],
+    ["Link", "-", "**GNP = GDP + NFIA**"]
+   ]},
+  {"type": "flow", "title": "From GDP (MP) to National Income",
+   "steps": ["**GDP (MP)**", "+ NFIA → **GNP (MP)**", "- depreciation → **NNP (MP)**", "- net indirect taxes → ==**NNP (FC) = NI**=="]},
+  {"type": "table", "title": "Key links",
+   "head": ["Link", "Formula"],
+   "rows": [
+    ["Gross → net", "**NDP = GDP - Depreciation**"],
+    ["MP → FC", "==**FC = MP - indirect taxes + subsidies**=="],
+    ["GVA basic prices", "GVA (FC) + net **production** taxes"],
+    ["GDP", "GVA basic prices + net **product** taxes"],
+    ["Per capita income", "**NI / Population**"],
+    ["GDP deflator", "**Nominal / Real GDP x 100**"]
+   ]},
+  {"type": "bullets", "title": "Terms",
+   "items": [
+    "**NFIA** = factor income from abroad - paid abroad; India usually ==**negative**== → GNP < GDP",
+    "National income = **flow**; wealth = **stock**",
+    "**Production taxes**: land revenue, stamp duty; **product taxes**: excise, GST",
+    "**GVA** includes depreciation; **NVA** excludes it",
+    "**Personal disposable income** = personal income - direct taxes - fines, fees"
+   ]},
+  {"type": "table", "title": "Included vs excluded",
+   "head": ["Included", "Excluded"],
+   "rows": [
+    ["Wages, rent, profits, interest", "==**Transfer payments**==: pensions, scholarships"],
+    ["Value added at each stage", "**Intermediate goods** (double counting)"],
+    ["Commission on resale", "**Second-hand sales**"],
+    ["-", "**Interest on public debt**, tax revenue"]
+   ]},
+  {"type": "cards", "title": "Worked example",
+   "cards": [
+    {"title": "Example 1", "lines": ["GDPmp **500**, depreciation **50**, NFIA **-10**, NIT **40**", "GNPmp **490**; NNPmp **440**; ==**NI = 400**=="]},
+    {"title": "Example 2", "lines": ["GDP (MP) **110**; NFIA +10 → **GNP 120**", "Depreciation **15** → **105**; NIT **5** → ==**NI 100**=="]}
+   ]},
+  {"type": "bullets", "title": "Real GDP, deflator, PPP",
+   "items": [
+    "Real GDP at **base-year** prices; base now ==**2022-23**== (earlier **2011-12**)",
+    "Deflator = ==most comprehensive== inflation measure; all goods in GDP",
+    "New series **27 Feb 2026**: **double deflation**, Supply-Use Tables",
+    "India: **4th** nominal (**USD 4.18 trillion**, 2025); **3rd** by PPP (ICP **2021**)",
+    "⚠ IMF WEO April 2026: India **6th**"
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "MP vs FC differ by ==indirect taxes & subsidies==, not direct taxes (APPSC-G2 2025)",
+    "⚠ Subsidies are **added** back; \"- subsidies\" is wrong",
+    "Transfer earnings excluded: A and R true, R explains A (APPSC-G2 2025)",
+    "SDP: APSES definition asked word for word (APPSC-GS 2025)",
+    "Per capita income = NI / population (APPSC 2025)"
+   ]}
+ ]}

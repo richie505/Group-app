@@ -1,0 +1,67 @@
+{"title": "Money supply and money multiplier",
+ "tag": "Indian Economy",
+ "quote": "M3 = M1 + time deposits: the broad money RBI tracks; M1 most liquid, M4 least",
+ "boxes": [
+  {"type": "table", "title": "Monetary aggregates (Working Group 1977)",
+   "head": ["Aggregate", "Components", "Type"],
+   "rows": [
+    ["**M0**", "Currency in circulation + bankers' deposits with RBI + other deposits with RBI", "Reserve money"],
+    ["**M1**", "Currency with public + demand deposits + other deposits with RBI", "==Narrow, most liquid=="],
+    ["**M2**", "M1 + PO **savings bank** deposits", "Narrow"],
+    ["**M3**", "==**M1** + time deposits==", "**Broad money**"],
+    ["**M4**", "M3 + all PO deposits (excl. **NSCs**)", "Least liquid"]
+   ]},
+  {"type": "bullets", "title": "High-powered money (M0)",
+   "items": [
+    "Also: reserve money, base money, monetary base",
+    "==**H** = currency with public + banks' cash reserves + other deposits with RBI== (APPSC 2025)",
+    "Basis of credit creation",
+    "**1998** (**Y. V. Reddy**): **NM0-NM3** + liquidity **L1, L2, L3**"
+   ]},
+  {"type": "flow", "title": "Credit creation",
+   "steps": ["RBI creates reserve money", "Banks keep **CRR, SLR**", "Lend the rest → new deposit", "Multiplier ==**m = (1 + cdr) / (cdr + rdr)**==", "**10%** reserves: **₹100** → **₹1,000**"]},
+  {"type": "table", "title": "What moves the multiplier",
+   "head": ["Factor", "Effect"],
+   "rows": [
+    ["Higher **CRR**, **SLR**, **cdr**", "==Lower multiplier=="],
+    ["Better banking habits", "Higher multiplier"],
+    ["**OMO purchase**, monetisation", "Money supply rises"],
+    ["RBI sells G-secs", "Money supply falls"],
+    ["Cash withdrawal", "⚠ M unchanged (other notes: contracts)"]
+   ]},
+  {"type": "table", "title": "Theories of money demand",
+   "head": ["Theory", "Economist"],
+   "rows": [
+    ["==**MV = PT**==", "**Irving Fisher**"],
+    ["Cash-balance **M = kPY**", "**Marshall, Pigou**"],
+    ["Liquidity preference (3 motives)", "**J.M. Keynes**"],
+    ["Inventory (square-root rule)", "**Baumol** (**1952**), **Tobin** (**1956**)"],
+    ["Monetarism", "**Milton Friedman**"],
+    ["Pure Monetary Theory of Trade Cycle", "**R.G. Hawtrey**"]
+   ]},
+  {"type": "bullets", "title": "Money: functions & terms",
+   "items": [
+    "Primary: medium of exchange, measure of value",
+    "==**Seigniorage**: face value − production cost== (issuer's profit)",
+    "**Legal tender**: creditor **legally bound** to accept (UPSC 2018)",
+    "**Near money**: time deposits, T-bills; plastic money not legal tender",
+    "**Velocity**: **₹10** note used twice = **₹20**"
+   ]},
+  {"type": "timeline", "title": "Currency milestones",
+   "items": [
+    {"when": "1770", "what": "**Bank of Hindostan**"},
+    {"when": "1861", "what": "**Paper Currency Act**: govt monopoly"},
+    {"when": "1957", "what": "Decimal: ₹1 = **100 naye paise**"},
+    {"when": "8 Nov 2016", "what": "==**₹500, ₹1,000** demonetised== (Sec **26(2)**)"},
+    {"when": "Nov/Dec 2022", "what": "**e-Rupee** pilots: wholesale / retail"},
+    {"when": "Dec 2025", "what": "MM **6.21**; CRR cut to **3.0%**"}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "==Production of goods is NOT a function of money== (APPSC 2025)",
+    "M2 = **M1** + PO savings; M3 = **M1** (not M2) + time deposits",
+    "Money multiplier = **M3/M0**",
+    "Raising SLR = contractionary; CRR up → credit creation down",
+    "e-Rupee = **direct liability of RBI**; UPI money = bank liability"
+   ]}
+ ]}

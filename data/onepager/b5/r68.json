@@ -1,0 +1,46 @@
+{"title": "Green hydrogen and the National Mission",
+ "tag": "Energy",
+ "quote": "Only green hydrogen is zero-carbon: electrolysis of water using renewable electricity",
+ "boxes": [
+  {"type": "table", "title": "Colours of hydrogen",
+   "head": ["Colour", "Produced by", "CO2"],
+   "rows": [
+    ["**Grey**", "**Steam methane reforming** of natural gas", "High; ~**95%** of production"],
+    ["**Blue**", "SMR + **CCS**", "Low; transitional"],
+    ["**Green**", "==**Electrolysis** with renewable power==", "**Zero**"],
+    ["**Pink**", "Electrolysis with **nuclear** power", "Near-zero"],
+    ["**Turquoise**", "**Methane pyrolysis** (solid carbon)", "Near-zero"],
+    ["**Brown / black**", "Coal gasification without CCS", "Dirtiest"]
+   ]},
+  {"type": "cards", "title": "National Green Hydrogen Mission",
+   "cards": [
+    {"title": "Approval", "lines": ["Cabinet ==**4 January 2023**==", "Nodal: **MNRE**", "Outlay **₹19,744 crore** to 2029-30"]},
+    {"title": "SIGHT", "lines": ["**₹17,490 cr**", "Incentives: electrolysers + H2 production"]},
+    {"title": "SHIP", "lines": ["R&D partnership (PPP)", "**₹400 cr**"]},
+    {"title": "Pilots", "lines": ["**₹1,466 cr**: steel, mobility, shipping"]}
+   ]},
+  {"type": "bullets", "title": "Targets & progress",
+   "items": ["2030: ==**5 MMT/year**== green H2; **125 GW** added RE", "60-100 GW electrolysers; 6 lakh jobs", "Standard (MNRE, Aug 2023): **≤2 kg CO2-eq per kg H2**", "**GHCI** certification (**April 2025**): nodal **BEE**", "Green ammonia **7,24,000 TPA** at **₹53.27/kg** (SECI)", "**3,000 MW** electrolyser capacity to **15 companies**"]},
+  {"type": "table", "title": "Electrolyser types",
+   "head": ["Type", "Feature"],
+   "rows": [
+    ["**Alkaline**", "Liquid **KOH**; mature, cheap"],
+    ["**PEM**", "Polymer membrane; ==follows variable RE=="],
+    ["**Solid oxide**", "High-temperature steam; most efficient"],
+    ["**AEM**", "Avoids precious metals"]
+   ]},
+  {"type": "flow", "title": "PEM fuel cell",
+   "steps": ["Anode: **H2 → 2H+ + 2e-**", "Electrons via external circuit → **electricity**", "Protons cross the membrane", "Cathode: **1/2 O2 + 2H+ + 2e- → H2O**", "==Exhaust: only water vapour=="]},
+  {"type": "table", "title": "Hydrogen firsts",
+   "head": ["First", "Where"],
+   "rows": [
+    ["H2 train coach tested", "==**Chennai** (ICF)== (APPSC 2025)"],
+    ["H2 train in service", "**Jind-Sonipat**, Haryana (**July 2026**)"],
+    ["Fuel-cell ferry", "**Cochin Shipyard** (APPSC-G1 2024)"],
+    ["Fuel-cell bus", "**KPIT** + CSIR-NCL, Pune (**2022**)"]
+   ]},
+  {"type": "bullets", "title": "Uses, hubs & AP",
+   "items": ["Hard-to-abate: **green steel** (DRI), **green ammonia**, refineries, shipping", "Storage: liquid at **-253 °C**; metal hydrides; ammonia carrier", "Hub ports: **Kandla**, **Tuticorin**, **Paradip**", "AP: ==**1.5 MMTPA** by 2030==; Green Hydrogen Valley, **Amaravati** (**19 Jul 2025**)", "AP projects: NTPC **Pudimadaka**, AM Green **Kakinada**", "Issues: ~**9 litres** water per kg; **Chinese** electrolyser dominance"]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["Mission approved ==**4 January 2023**== (APPSC 2022)", "Green = electrolysis using solar/wind/hydro (2023)", "Fuel-cell bus: **KPIT-CSIR**; \"Veera Vahana\" wrong (APPSC-G1 2022)", "Pink = nuclear; turquoise = pyrolysis; blue = fossil + CCS", "Coach **tested** Chennai vs train **in service** Jind-Sonipat", "Grey ~$1.5-2/kg vs green ~**$4/kg**"]}
+ ]}

@@ -1,0 +1,75 @@
+{"title": "Applications of space technology",
+ "tag": "Science & Tech",
+ "quote": "Which CANNOT be monitored from space? Always the human-health event",
+ "boxes": [
+  {"type": "bullets", "title": "Remote sensing tools",
+   "items": [
+    "**Active** = own signal (**RISAT**); **passive** = sunlight (Resourcesat)",
+    "**SAR** sees through cloud; soil moisture best by **microwave**",
+    "**InSAR**: ==maps ground deformation== (APPSC 2024)",
+    "**NDVI** = (NIR - Red) / (NIR + Red); ==drought assessment== (PYQ)",
+    "**VCI** from NDVI: drought declaration"
+   ]},
+  {"type": "table", "title": "Agencies",
+   "head": ["Agency", "Role"],
+   "rows": [
+    ["**NRSC, Hyderabad**", "==Nodal: data, **Bhuvan** (2009), NDEM=="],
+    ["**IIRS, Dehradun**", "Training"],
+    ["**SAC, Ahmedabad**", "Sensors; MOSDAC, VEDAS, **Nabhmitra**"],
+    ["**NESAC, Umiam**", "North-East; DoS + NEC"],
+    ["**INCOIS, Hyderabad**", "PFZ advisories, Ocean State Forecast"]
+   ]},
+  {"type": "table", "title": "Agriculture programmes",
+   "head": ["Programme", "Purpose"],
+   "rows": [
+    ["**FASAL**", "Pre-harvest crop forecasts"],
+    ["**MNCFC** (2012)", "Operational crop forecasting"],
+    ["**YES-TECH**", "==Crop **yield** for PMFBY== (APPSC 2023)"],
+    ["**CHAMAN**", "Horticulture"],
+    ["**NADAMS**", "Agricultural drought"],
+    ["**CROP**", "Wheat **122.724 MT** (EOS-04)"]
+   ]},
+  {"type": "table", "title": "Disaster: can vs cannot",
+   "head": ["Can monitor", "Cannot"],
+   "rows": [
+    ["Floods, cyclones, drought, forest fires, landslides", "==**Spread of a disease**== (APPSC 2022)"],
+    ["Post-quake damage", "==**Heart attack**== (APPSC 2025); quake **prediction**"]
+   ]},
+  {"type": "bullets", "title": "Disaster support",
+   "items": [
+    "**DMSP**: INSAT/IRS for warning + damage; **Decision Support Centre** at NRSC",
+    "**DWS**: Chennai → C-band up, S-band down",
+    "Fire hotspots: **MODIS**, **VIIRS** → **Shadnagar**",
+    "ISRO led **International Charter** for **6 months** from **April 2025**"
+   ]},
+  {"type": "cards", "title": "Apps & devices",
+   "cards": [
+    {"title": "Nabhmitra", "lines": ["**SAC**; fishermen safety", "Tested **Neendakara**, Aug 2023 (APPSC 2023)"]},
+    {"title": "Damini", "lines": ["==Lightning==, IITM Pune"]},
+    {"title": "Meghdoot", "lines": ["Agro-met, IMD + ICAR"]},
+    {"title": "City Flood Alert", "lines": ["RTGS + APSDMA + IIT Gandhinagar", "First in **Vijayawada**"]},
+    {"title": "SVAMITVA", "lines": ["Drone mapping with **Survey of India**"]}
+   ]},
+  {"type": "bullets", "title": "Tele-services & navigation",
+   "items": [
+    "EDUSAT, GRAMSAT, telemedicine, **Village Resource Centres**",
+    "**Swayam Prabha**: **40** DTH channels on **GSAT-15**",
+    "**APMVTS**: **50,000** vehicles with **AIS-140**",
+    "NavIC for **Indian Standard Time**; GAGAN on GSAT-8, 10, 15"
+   ]},
+  {"type": "table", "title": "APSAC (AP)",
+   "head": ["Work", "Fact"],
+   "rows": [
+    ["Drought", "**103** mandals in **7** districts"],
+    ["YES-TECH", "**Nandyal**, **Kakinada**"],
+    ["**APSSDI**", "==**74** layers==; **₹15.76 crore**"],
+    ["Shoreline", "**1,053 km**: **26%** eroded, **54%** accreting"]
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "⚠ APSSDI **74** layers vs Gati Shakti (AP) ==**271** layers, **27** departments==",
+    "⚠ NRSC = Hyderabad; IIRS = Dehradun; SAC = Ahmedabad",
+    "**Damini** = lightning; **Meghdoot** = agro-met; **Mausam** = weather",
+    "FASAL forecast; YES-TECH yield; CHAMAN horticulture; NADAMS drought"
+   ]}
+ ]}

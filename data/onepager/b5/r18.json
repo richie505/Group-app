@@ -1,0 +1,63 @@
+{"title": "Big data, cloud, edge & data centres",
+ "tag": "Science & Technology",
+ "quote": "Edge = lowest latency; fog = in between; cloud = distant centres",
+ "boxes": [
+  {"type": "bullets", "title": "Big data",
+   "items": [
+    "==Large volumes of high-velocity, complex, variable data== (APPSC 2019)",
+    "Vs: **Volume, Velocity, Variety** + **Veracity, Value**",
+    "**Data warehouse**: cleaned, structured; **data lake**: raw, native",
+    "**Metadata** = data about data; **data mining** = patterns"
+   ]},
+  {"type": "table", "title": "Cloud service models",
+   "head": ["Model", "User gets", "Example"],
+   "rows": [
+    ["**IaaS**", "Servers, storage, network", "Amazon EC2"],
+    ["**PaaS**", "Platform to build apps", "Google App Engine"],
+    ["**SaaS**", "==Ready software over web==", "Outlook, Gmail"]
+   ]},
+  {"type": "hierarchy", "title": "Cloud → fog → edge",
+   "levels": [
+    {"name": "Cloud", "note": "Distant centralised data centres; heavy analytics"},
+    {"name": "Fog", "note": "Between edge and cloud; local aggregation"},
+    {"name": "Edge", "note": "On/near device; ==**lowest latency**=="}
+   ]},
+  {"type": "table", "title": "Cloud terms & services",
+   "head": ["Term", "Meaning"],
+   "rows": [
+    ["**Virtualisation**", "Many VMs on one server"],
+    ["**Containers**", "Share host OS kernel (Docker)"],
+    ["**Serverless**", "Functions; per use (AWS Lambda)"],
+    ["**SkyDrive**", "==**Microsoft**== (now OneDrive)"],
+    ["**S3**", "Amazon Web Services"]
+   ]},
+  {"type": "bullets", "title": "Policies & platforms",
+   "items": [
+    "**National Data Governance Framework Policy (2022)**: **India Datasets Programme**",
+    "**OGD Platform**: **NDSAP** (**2012**); **2.34 lakh+** dataset APIs",
+    "**MeghRaj (GI Cloud)**: national government cloud",
+    "Draft Data Centre Policy (**Sep 2025**): **20-year tax holiday**; PE status **≥100 MW**",
+    "**eTaal 3.0**: **4,451+** e-services"
+   ]},
+  {"type": "bullets", "title": "Data centres",
+   "items": [
+    "India: **375 MW (2020) → 1.57 GW (2026)** → ==**~8 GW by 2030**==",
+    "**Mumbai = 52%**; then Chennai, Delhi NCR, Bengaluru",
+    "**PUE** = facility ÷ IT energy; closer to **1** better",
+    "**Tier IV**: fault-tolerant, **~99.995%**",
+    "~**1%** of global electricity; DeepMind cut energy **up to 40%**"
+   ]},
+  {"type": "cards", "title": "AP: Vizag hub",
+   "cards": [
+    {"title": "Scale", "lines": ["**~6 GW over 10 years**", "AP-Transco: **16 projects**, ~**9.10 GW**"]},
+    {"title": "Advantages", "lines": ["Cable landing station, sea breeze", "==**Seismic Zone II**=="]},
+    {"title": "Investors", "lines": ["**Google, Reliance, TCS, CtrlS, GMR**", "Corridor: **Vizag-Kapuluppada**"]}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "\"Hardware as a Service\" not a layer; spectrum allocation ==not a cloud service==",
+    "AI + data science **analyse large datasets** for environment (APPSC 2025)",
+    "⚠ SkyDrive = Microsoft",
+    "Cloud: on-demand, network access, metered, elasticity, **resource pooling**"
+   ]}
+ ]}

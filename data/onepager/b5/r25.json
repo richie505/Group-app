@@ -1,0 +1,42 @@
+{"title": "Digital identity and payments",
+ "tag": "Governance",
+ "quote": "UPI = 85% of digital payments by volume and 49% of the world's real-time payments",
+ "boxes": [
+  {"type": "hierarchy", "title": "India Stack layers",
+   "levels": [
+    {"name": "Identity", "note": "**Aadhaar**"},
+    {"name": "Paperless", "note": "**eSign**, **DigiLocker**"},
+    {"name": "Cashless", "note": "**UPI**"},
+    {"name": "Consent", "note": "==**DEPA** / **Account Aggregator**=="}
+   ]},
+  {"type": "bullets", "title": "Aadhaar basics",
+   "items": ["==**12-digit**== random number by **UIDAI**; launched **2009**", "Biometrics: **10** fingerprints, **2** irises, face photo", "First number: **Ranjana Sonawane**, **Tembhli**, Nandurbar, **29 Sept 2010**", "**142 crore** numbers generated (31 Jul 2025)", "**Aadhaar Act 2016**: UIDAI statutory, under MeitY; amended **2019**", "⚠ Aadhaar = **12-digit**; ABHA = **14-digit**"]},
+  {"type": "table", "title": "Systems → operator",
+   "head": ["System", "Operator"],
+   "rows": [
+    ["**NEFT**, **RTGS**", "==**RBI**=="],
+    ["**IMPS**, **UPI**, **AePS**, NACH, RuPay", "==**NPCI**=="],
+    ["**BBPS**", "NPCI Bharat BillPay Ltd"],
+    ["**FASTag** (NETC)", "NPCI with NHAI/IHMCL"],
+    ["**iPay** gateway", "**IRCTC**"]
+   ]},
+  {"type": "cards", "title": "UPI & NPCI products",
+   "cards": [
+    {"title": "UPI", "lines": ["**April 2016**, NPCI", "VPA (name@bank)", "UPI 2.0: **Rs 2 lakh/day**"]},
+    {"title": "BHIM", "lines": ["NPCI's UPI app", "**30 Dec 2016**"]},
+    {"title": "e-RUPI", "lines": ["==**One-time** purpose-specific **voucher**==", "NPCI with **DFS**, MoHFW, NHA"]},
+    {"title": "UPI Lite", "lines": ["On-device wallet", "Small payments, no UPI PIN"]}
+   ]},
+  {"type": "table", "title": "ONDC vs Account Aggregator",
+   "head": ["Platform", "Feature"],
+   "rows": [
+    ["**ONDC** (**2022**)", "Open e-commerce network; **616+** cities, **7.64 lakh** sellers (Jan 2025)"],
+    ["**Account Aggregator**", "Consent-based financial data sharing, under **DEPA**"]
+   ]},
+  {"type": "flow", "title": "DBT routing (JAM)",
+   "steps": ["**Aadhaar**: biometric check", "**Mobile**: transaction alerts", "**CPSMS (now PFMS)** + NPCI's **Aadhaar Payment Bridge**", "Benefit to account; ==first JAM use: **PAHAL** (LPG)=="]},
+  {"type": "bullets", "title": "Key numbers",
+   "items": ["UPI FY 2025-26: **24,160 crore** txns, **Rs 314 lakh crore**", "Digital payments **41% CAGR** (2017-18 to 2024-25)", "DBT: **Rs 44 lakh crore** transferred; savings **Rs 3.48 lakh crore**", "**PMJDY**: **58.77 crore** accounts (Aug 2026)", "Digital economy: **12-14% of GDP**"]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["First Aadhaar village = ==**Tembhli**== (APPSC 2025)", "First country in Europe to accept UPI = ==**France**== (APPSC 2025)", "e-RUPI = NPCI with DFS (APPSC 2022); iPay = **IRCTC** (APPSC 2019)", "DBT in AP launched at **Gollaprolu**, East Godavari, **6 January 2013**", "**PayNow-UPI** link with **Singapore (2023)**", "NUEs: RBI move against NPCI monopoly; capital **Rs 500 cr**"]}
+ ]}

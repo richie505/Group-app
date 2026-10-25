@@ -1,0 +1,61 @@
+{"title": "Recent Indian satellite launches",
+ "tag": "Science & Tech",
+ "quote": "F14 = INSAT-3DS; F15 = NVS-02; F16 = NISAR; F17 = EOS-05",
+ "boxes": [
+  {"type": "timeline", "title": "Recent launches",
+   "items": [
+    {"when": "Dec 2019", "what": "**RISAT-2BR1**, PSLV-C48: radar imaging"},
+    {"when": "Feb 2023", "what": "**EOS-07**, **SSLV-D2**"},
+    {"when": "17 Feb 2024", "what": "==**INSAT-3DS**, **GSLV-F14**==: weather; funded by **MoES**"},
+    {"when": "Jan 2025", "what": "**NVS-02**, GSLV-F15: missed orbit"},
+    {"when": "30 Jul 2025", "what": "**NISAR**, GSLV-F16, with NASA"},
+    {"when": "Sep 2026", "what": "**EOS-05**, GSLV-F17: geo-platform imaging"}
+   ]},
+  {"type": "bullets", "title": "SpaDeX & records",
+   "items": [
+    "**SpaDeX**: PSLV-C60, **30 Dec 2024**; docked **16 Jan 2025**",
+    "==India **4th** to dock in space== (after US, Russia, China)",
+    "Most satellites: ==**PSLV-C37**, **104**== (2017)",
+    "Heaviest: **BlueBird Block-2**, **6,100 kg**, LVM3-M6 (⚠ other notes: 6,500 kg)",
+    "BlueBird: **223 m²** array, direct-to-smartphone broadband"
+   ]},
+  {"type": "table", "title": "Launch failures",
+   "head": ["Mission", "Lost"],
+   "rows": [
+    ["**GSLV-F02**", "INSAT-4C (2006)"],
+    ["**SSLV-D1** (2022)", "EOS-02, AzaadiSAT"],
+    ["**PSLV-C61** (May 2025)", "==**EOS-09** (RISAT-1B)== SAR"],
+    ["**PSLV-C62** (Jan 2026)", "==**EOS-N1 Anvesha**== + **15** co-passengers"]
+   ]},
+  {"type": "table", "title": "Re-entry & POEM",
+   "head": ["Experiment", "Vehicle, year"],
+   "rows": [
+    ["**SRE-1**", "PSLV-C7, 2007"],
+    ["**CARE**", "LVM3, 2014"],
+    ["**POEM**", "PSLV-C53, 2022"],
+    ["**POEM-3**", "C58, **1 Jan 2024**"]
+   ]},
+  {"type": "cards", "title": "Foreign customers",
+   "cards": [
+    {"title": "OneWeb", "lines": ["**72** satellites, UK", "==**LVM3**==: first dedicated commercial flight (2022)"]},
+    {"title": "Proba-3", "lines": ["ESA", "PSLV-C59 (Dec 2024)"]},
+    {"title": "Totals", "lines": ["==**433** foreign satellites, **34+** countries==", "NSIL: **141**, incl. **138** international"]}
+   ]},
+  {"type": "table", "title": "Satellites by domain",
+   "head": ["Domain", "Satellites"],
+   "rows": [
+    ["Weather", "INSAT-3DS, **Kalpana-1**"],
+    ["Surveillance", "RISAT, Cartosat, **EMISAT**"],
+    ["Military comms", "**GSAT-7** Navy, **GSAT-7A** IAF"],
+    ["Navigation", "NVS / NavIC"],
+    ["Science", "XPoSat, Aditya-L1"]
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "⚠ GSLV-F14/INSAT-3DS = ==**2024**==, not 2022",
+    "**Aditya-L1** = **PSLV-C57 (2023)**",
+    "**RISAT-1**: C-band (**5.35 GHz**) SAR",
+    "ISSAR 2025: **86** Indian satellites in orbit, **27** operational",
+    "Starlink: **GMPCS licence** (DoT, 2025)"
+   ]}
+ ]}

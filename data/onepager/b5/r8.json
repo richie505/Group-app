@@ -1,0 +1,67 @@
+{"title": "National S&T missions",
+ "tag": "Science & Tech",
+ "quote": "AP = first State with a dedicated quantum computing policy",
+ "boxes": [
+  {"type": "timeline", "title": "Supercomputing journey",
+   "items": [
+    {"when": "1991", "what": "==**PARAM 8000**==, C-DAC: first Indian supercomputer; **Vijay Bhatkar**"},
+    {"when": "2015", "what": "**NSM**: **DST + MeitY**; C-DAC Pune + IISc"},
+    {"when": "Later", "what": "**PARAM Shivay**, IIT (BHU): first NSM machine"},
+    {"when": "ISC 2023", "what": "**AIRAWAT** (C-DAC) **75th** in Top500"},
+    {"when": "Jan 2026", "what": "**PARAM Shakti**, IIT Madras: **3.1 PF**, Rudra board"}
+   ]},
+  {"type": "table", "title": "NSM machines → host",
+   "head": ["System", "Host"],
+   "rows": [
+    ["**PARAM Porul**", "NIT Tiruchirappalli"],
+    ["**PARAM Pravega**", "IISc Bengaluru"],
+    ["**PARAM Ananta**", "IIT Gandhinagar"],
+    ["**PARAM Kamrupa**", "==IIT Guwahati== (14th)"],
+    ["**PARAM Rudra**", "Pune, Delhi, Kolkata"]
+   ]},
+  {"type": "bullets", "title": "NSM status",
+   "items": [
+    "**40** systems (>**64** PF) planned; ==**37** commissioned, **39 PF**==",
+    "Indigenous stack: **Rudra** server + **Trinetra** interconnect",
+    "Linked via **National Knowledge Network**",
+    "**AUM** = separate C-DAC HPC chip (⚠ not Rudra)"
+   ]},
+  {"type": "bullets", "title": "National Quantum Mission",
+   "items": [
+    "Approved ==**19 April 2023**==; **₹6,003.65 crore**; **8 years** to 2030-31; nodal **DST**",
+    "Computers of **50-1000** physical qubits",
+    "Satellite QKD over **2000 km**",
+    "Hubs: computing **IISc**; communication **IIT Madras**; sensing **IIT Bombay**; materials **IIT Delhi**",
+    "Start-ups: **QNu Labs** (QKD), **QpiAI** (**64**-qubit QPU)"
+   ]},
+  {"type": "table", "title": "Other missions & policies",
+   "head": ["Mission", "Facts"],
+   "rows": [
+    ["**IndiaAI** (MeitY, 2024)", "**₹10,371.92 crore**; **10,000+** GPUs"],
+    ["**NM-ICPS** (DST, 2018)", "**25** Technology Innovation Hubs"],
+    ["**Bio-E3** (2024)", "==Biotechnology for Economy, Environment and Employment=="],
+    ["Biopharma SHAKTI", "**₹10,000 crore**, **5** years"],
+    ["Geospatial Mission", "Survey of India; till 2031"]
+   ]},
+  {"type": "cards", "title": "ANRF",
+   "cards": [
+    {"title": "Basis", "lines": ["==**ANRF Act, 2023**==", "PM = ex officio President"]},
+    {"title": "Merger", "lines": ["Subsumed **SERB**", "Funding shortfalls after transition"]},
+    {"title": "Funds", "lines": ["Custodian of **₹1 lakh crore RDI Fund**", "Schemes: PMECRG, MAHA-EV, PAIR"]}
+   ]},
+  {"type": "bullets", "title": "Amaravati Quantum Valley",
+   "items": [
+    "Foundation: **Uddandarayunipalem**; goal: top five quantum hubs by **2030**",
+    "First **Quantum Reference Facility**: ==**14 April 2026**== (World Quantum Day)",
+    "Test beds: **SRM University-AP**; Medha Towers, Gannavaram",
+    "Two **18**-storey towers, **₹1,205 crore** (L&T)",
+    "**IBM to train 1 lakh** youth; NIELIT campus **₹730.70 crore**"
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "PARAM Shivay = **IIT (BHU)**, NOT IIT Guwahati",
+    "First supercomputer = ==**PARAM 8000**==",
+    "Bio-E3 bioeconomy: over **US$165 billion** (2024)",
+    "AP: 100% stamp duty exemption in the Valley"
+   ]}
+ ]}

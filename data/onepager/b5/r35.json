@@ -1,0 +1,55 @@
+{"title": "Indian launch vehicles",
+ "tag": "Science & Tech",
+ "quote": "PSLV = 4 stages (S-L-S-L); GSLV = 3 (solid-liquid-cryo); SSLV = 3 solid + VTM",
+ "boxes": [
+  {"type": "table", "title": "Vehicles: stages & payload",
+   "head": ["Vehicle", "Stages", "Payload"],
+   "rows": [
+    ["**SLV-3**", "**4**, all-solid", "**40 kg** LEO"],
+    ["**ASLV**", "5, all-solid", "**150 kg** LEO"],
+    ["**PSLV**", "==**4**: solid-liquid-solid-liquid==", "~1,750 kg SSO"],
+    ["**GSLV Mk-II**", "**3**: solid-liquid-**CE-7.5** cryo", "**2-2.5 t** GTO"],
+    ["**LVM3**", "**S200** strap-ons + **L110** + **C25**", "**4 t** GTO; **8 t** LEO"],
+    ["**SSLV**", "**3** solid + **VTM**", "**500 kg** to **500 km**"]
+   ]},
+  {"type": "timeline", "title": "First flights",
+   "items": [
+    {"when": "21 Nov 1963", "what": "**Nike-Apache**, **TERLS** Thumba"},
+    {"when": "18 Jul 1980", "what": "==**SLV-3** puts **Rohini RS-1** in orbit=="},
+    {"when": "24 Mar 1987", "what": "**ASLV** (failed); success **1992**"},
+    {"when": "15 Oct 1994", "what": "**PSLV**: **IRS-P2**"},
+    {"when": "18 Apr 2001", "what": "**GSLV**: **GSAT-1**"},
+    {"when": "2014", "what": "**GSLV-D5**: first indigenous cryogenic success; **CARE** on LVM3"},
+    {"when": "2022", "what": "**SSLV-D1** failed; D2, D3 succeeded"}
+   ]},
+  {"type": "table", "title": "PSLV variants",
+   "head": ["Variant", "Strap-ons"],
+   "rows": [
+    ["**CA**", "0"],
+    ["**DL**", "**2**"],
+    ["**QL**", "4"],
+    ["**G** / **XL**", "6 / 6 extended"]
+   ]},
+  {"type": "table", "title": "Satellite → vehicle",
+   "head": ["Satellite", "Vehicle"],
+   "rows": [
+    ["==**104 satellites** (2017)==", "**PSLV-C37**"],
+    ["Cartosat-3", "**PSLV-C47**"],
+    ["Chandrayaan-2", "**GSLV Mk III-M1**"],
+    ["NVS-01", "**GSLV-F12**"],
+    ["SPADEX", "**PSLV-C60**"],
+    ["NISAR", "**GSLV-F16**"],
+    ["BlueBird Block-2 (**6,100 kg**)", "**LVM3-M6**"]
+   ]},
+  {"type": "bullets", "title": "TERLS & sounding rockets",
+   "items": ["TERLS on the ==**magnetic equator**==, near Thiruvananthapuram", "**RH** number = diameter in mm", "**RH-200**: **200th** consecutive launch, **Nov 2022**", "**Eastward** launches gain Earth's rotation; polar launches go **southward**"]},
+  {"type": "cards", "title": "SSLV & future",
+   "cards": [
+    {"title": "SSLV", "lines": ["Low cost, launch-on-demand", "==**HAL** ToT, **₹511 crore**=="]},
+    {"title": "RLV / Pushpak", "lines": ["**RLV-LEX** (**2 Apr 2023**)", "\"Pushpak\" landings (2024)"]},
+    {"title": "NGLV", "lines": ["~**90 m**, ~**1,000 t**", "Needs **Third Launch Pad**"]},
+    {"title": "HLVM3", "lines": ["**Gaganyaan**: **400 km**, **3 days**"]}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["GSLV = solid + **earth-storable liquid** + cryogenic (APPSC G2 2025)", "SSLV **500 kg to 500 km** correct; \"two solid stages\" ==wrong== (APPSC G1 2022)", "RH-200 = 200th launch (APPSC 2021); NVS-01 = GSLV-F12 (APPSC 2023)", "Cryogenic testing: **IPRC Mahendragiri** (⚠ other notes: Kerala)", "**PSLV-C61**, **PSLV-C62** failed at third stage", "**100th** SHAR launch: **GSLV-F15/NVS-02**, **29 Jan 2025**"]}
+ ]}

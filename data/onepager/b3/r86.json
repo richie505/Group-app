@@ -1,0 +1,45 @@
+{"title": "Non-performing assets",
+ "tag": "Indian Economy",
+ "quote": "NPA = interest or principal overdue for more than 90 days",
+ "boxes": [
+  {"type": "hierarchy", "title": "Asset classification",
+   "levels": [
+    {"name": "Standard", "note": "regular; no overdue beyond **90 days**"},
+    {"name": "SMA-0 / SMA-1 / SMA-2", "note": "overdue **0-30 / 31-60 / 61-90** days; ==still standard=="},
+    {"name": "Sub-standard", "note": "NPA for **12 months or less**"},
+    {"name": "Doubtful", "note": "NPA for ==**more than 12 months**=="},
+    {"name": "Loss", "note": "identified by bank, auditors or RBI; not yet written off"}
+   ]},
+  {"type": "bullets", "title": "Definition",
+   "items": ["==Overdue **more than 90 days**== (APPSC-G1 2022 key)", "Short-duration crops: overdue **2 crop seasons**", "Long-duration crops: overdue **1 crop season**", "**Income recognition**: interest on NPA not booked until received", "**IRACP** = Income Recognition, Asset Classification, Provisioning"]},
+  {"type": "table", "title": "Key terms",
+   "head": ["Term", "Meaning"],
+   "rows": [
+    ["**Net NPA**", "Gross NPA - provisions"],
+    ["**Stressed assets**", "NPAs + restructured + written-off"],
+    ["**ICR**", "**EBIT** / interest due; below **1** = cannot cover"],
+    ["**PCR**", "Provisions / gross NPAs"],
+    ["**Evergreening**", "New loans to repay old; ended by **AQR**"],
+    ["**Wilful defaulter**", "Can pay but does not, or diverts funds"]
+   ]},
+  {"type": "flow", "title": "Twin balance sheet problem",
+   "steps": ["**Over-leveraged corporates**", "NPA-laden, capital-starved banks", "Loan losses eat bank capital", "Banks freeze new loans", "==Private investment falls=="]},
+  {"type": "bullets", "title": "Causes & response",
+   "items": ["**Aggressive lending (2010-15)**: infrastructure, steel, power", "**2008** global crisis; weak exports", "Wilful defaults, fraud; evergreening", "Term framed in ==**Economic Survey 2016-17**== (CEA **Arvind Subramanian**)", "**AQR** by **RBI in 2015** → NPAs peak **2018**", "**4R**: Recognise, Resolve, Recapitalise, Reform; **IBC**, **NARCL**"]},
+  {"type": "table", "title": "ECL model (from 1 April 2027)",
+   "head": ["Stage", "Provision"],
+   "rows": [
+    ["Stage 1 (low risk)", "**12-month** expected loss"],
+    ["Stage 2 (risk rises)", "Lifetime loss"],
+    ["Stage 3 (over **90 days**)", "==Full lifetime provision=="]
+   ]},
+  {"type": "timeline", "title": "SCB GNPA trend",
+   "items": [
+    {"when": "Mar 2015", "what": "**4.28%** (before AQR)"},
+    {"when": "Mar 2018", "what": "**~11.2%** peak"},
+    {"when": "Sep 2025", "what": "**2.15%** historic low"},
+    {"when": "Mar 2026", "what": "==**1.93%**==; NNPA **0.39%**"}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["NPA cut-off = ==**90 days**==; SMA up to 90 days is still standard", "ICR shows **present** and **emerging** risk (UPSC 2020)", "New rules: **borrower-level** tagging; upgrade only after all arrears paid", "Agriculture GNPA still high: **6.0%** (⚠ other notes: **5.7%**)", "Write-offs: only **~13%** recovered"]}
+ ]}

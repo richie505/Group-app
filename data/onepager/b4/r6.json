@@ -1,0 +1,65 @@
+{"title": "Rocks and minerals",
+ "tag": "Geography",
+ "quote": "Most abundant element = oxygen; most abundant metal = aluminium; whole Earth = iron",
+ "boxes": [
+  {"type": "table", "title": "Three rock types",
+   "head": ["Rock", "Formation", "Examples"],
+   "rows": [
+    ["**Igneous**", "Cooling of magma/lava; ==\"primary\"== (APPSC 2019); no fossils", "**Granite** (intrusive), **basalt** (extrusive)"],
+    ["**Sedimentary**", "Deposited, compacted in **strata**; may hold fossils", "Sandstone, shale, limestone, **coal**"],
+    ["**Metamorphic**", "**Heat + pressure**, no melting", "Marble, slate, quartzite, gneiss"]
+   ]},
+  {"type": "table", "title": "Igneous: texture & make-up",
+   "head": ["Type", "Feature", "Example"],
+   "rows": [
+    ["Intrusive", "Slow cooling, **coarse**", "==**Granite**== (APPSC G2 2024), gabbro"],
+    ["Hypabyssal", "Dykes, sills", "**Dolerite**"],
+    ["Extrusive", "Fast cooling, **fine**", "**Basalt**, rhyolite"],
+    ["**Felsic**", "Silica, feldspar; light", "Granite"],
+    ["**Mafic**", "==**Fe, Mg, Ca**==; dark, dense", "Gabbro"]
+   ]},
+  {"type": "table", "title": "Parent → metamorphic",
+   "head": ["Parent", "Becomes"],
+   "rows": [
+    ["Limestone", "**Marble**"],
+    ["Shale / clay", "**Slate**"],
+    ["Sandstone", "**Quartzite**"],
+    ["Granite", "**Gneiss**"],
+    ["Coal", "**Graphite**"]
+   ]},
+  {"type": "cycle", "title": "Rock cycle",
+   "steps": ["Magma", "Cooling → **igneous**", "Weathering, erosion, deposition, lithification → **sedimentary**", "Heat, pressure → **metamorphic**", "Melting → magma"],
+   "centre": "Any type → any other"},
+  {"type": "bullets", "title": "Minerals",
+   "items": ["Crust: **O 46.6%**, **Si 27.7%**, **Al 8.1%**, Fe 5.0%; whole Earth **iron 32.1%**",
+    "==About **half** the crust is **feldspar**== (\"one-fourth\" wrong: APPSC G1 2024)",
+    "Mica (muscovite, biotite) = **phyllosilicate** (APPSC 2024)",
+    "**Bowen's series**: crystallisation order (APPSC 2024); olivine first, ==**quartz last**==",
+    "Mohs: talc **1** … **quartz 7** … **diamond 10**"]},
+  {"type": "table", "title": "Rock systems of India",
+   "head": ["System", "Holds"],
+   "rows": [
+    ["**Archaean**", "Oldest (>**2,500** million yrs); no fossils"],
+    ["**Dharwar**", "==Iron ore, manganese, gold=="],
+    ["**Cuddapah**", "Purana; keyed \"**clay**\" (APPSC 2021)"],
+    ["**Vindhyan**", "Sandstone; **Panna** diamonds"],
+    ["**Gondwana**", "==Nearly **98%** of coal=="],
+    ["**Deccan Trap**", "Basalt, ~**65** million yrs; **regur** soil"],
+    ["**Tertiary**", "Petroleum; lignite (**Neyveli**)"]
+   ]},
+  {"type": "cards", "title": "Rocks of AP",
+   "cards": [
+    {"title": "Dharwar", "lines": ["Gold: **Ramagiri**", "Anantapuramu, Chittoor"]},
+    {"title": "Cuddapah basin", "lines": ["==Barytes: **Mangampeta**==", "Largest sedimentary basin"]},
+    {"title": "Kurnool group", "lines": ["**Cement-grade limestone**"]},
+    {"title": "Eastern Ghats belt", "lines": ["**Khondalite, charnockite**", "Bauxite: **Araku**"]},
+    {"title": "KG basin", "lines": ["Oil & natural gas"]},
+    {"title": "Granite", "lines": ["**Chimakurthy** (Prakasam): Galaxy granite"]}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["Felsic = high Fe, Mg, Ca? ==**False**== → that is **mafic** (APPSC 2024)",
+    "**Khondalite** = Eastern Ghats, not Vindhyan (PYQ)",
+    "Cuddapah & Vindhyan = **Purana**, not Archaean",
+    "Porous + permeable: chalk, sandstone; porous only: **clay**",
+    "**GSI** set up **1851**; **Dana** coined \"Archaean\" **1872**"]}
+ ]}

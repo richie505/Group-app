@@ -1,0 +1,43 @@
+{"title": "Cyber security architecture",
+ "tag": "Science & Tech",
+ "quote": "CERT-In directions 2022: report within 6 hours, keep logs 180 days, VPN data 5 years",
+ "boxes": [
+  {"type": "bullets", "title": "IT Act, 2000",
+   "items": ["==Legal recognition of **electronic data interchange** / e-commerce==", "Introduced **electronic record**, **digital signature**, **certifying authority**", "**Controller of Certifying Authorities** regulates e-signatures", "Amended **2008**: technology-neutral \"**electronic signature**\"; voyeurism, data leakage", "Special Act: overrides IPC where squarely covered"]},
+  {"type": "table", "title": "Key sections",
+   "head": ["Section", "Subject"],
+   "rows": [
+    ["**4** / **5**", "==E-records / e-signatures=="],
+    ["**43A**", "Compensation for failing to protect data"],
+    ["**66A**", "Offensive messages - **struck down** (2015)"],
+    ["**66C** / **66D**", "Identity theft / personation"],
+    ["**66F**", "**Cyber terrorism** (life)"],
+    ["**69A**", "Blocking content"],
+    ["**70A** / **70B**", "NCIIPC / CERT-In"],
+    ["**79**", "**Safe harbour** for intermediaries"]
+   ]},
+  {"type": "table", "title": "Bodies → parent",
+   "head": ["Body", "Parent", "Role"],
+   "rows": [
+    ["**CERT-In**", "**MeitY**", "Incident response; since **January 2004**"],
+    ["**NCIIPC**", "**NTRO**", "Critical information infrastructure"],
+    ["**I4C**", "**MHA**", "**2018**; ==not statutory=="],
+    ["**Cyber Swachhta Kendra**", "CERT-In", "Botnet cleaning; ~**98%** users"]
+   ]},
+  {"type": "bullets", "title": "Shreya Singhal (2015)",
+   "items": ["**66A** struck down: violates **Art. 19(1)(a)**", "**79** read down: \"actual knowledge\" = court order / govt notice", "**69A** blocking ==upheld==", "Now: takedown within **three hours** (27 Mar 2026)"]},
+  {"type": "cards", "title": "I4C components",
+   "cards": [
+    {"title": "cybercrime.gov.in", "lines": ["National Cyber Crime Reporting Portal"]},
+    {"title": "1930 helpline", "lines": ["Financial fraud", "\"Golden hour\" freezing"]},
+    {"title": "CFCFRMS", "lines": ["Real-time freezing of fraud money", "Refund **below ₹50,000** without court order"]},
+    {"title": "Samanvaya", "lines": ["Joint investigation platform"]},
+    {"title": "CyTrain", "lines": ["Training police, prosecutors, judges"]}
+   ]},
+  {"type": "bullets", "title": "Digital signature & PKI",
+   "items": ["==Ensures original content is unchanged== (UPSC 2019)", "**Asymmetric** crypto + **hash function**", "Functions: authentication, integrity, non-repudiation", "⚠ Digital **certificate** = record identifying the certifying authority"]},
+  {"type": "bullets", "title": "AP & international",
+   "items": ["**APTS**: AP Cyber Security Policy (**2017**); **APCSOC**; **270** GoAP apps audited", "Coordination Centre: Krishnalanka PS, Vijayawada", "**Budapest Convention**: India ==not a signatory==", "**Global Cybersecurity Index 2024**: India **Tier-1**, **98.49**", "Cyber Jagrookta Diwas: 1st Wednesday monthly"]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["IT Act purpose = EDI / e-commerce (APPSC 2018)", "**MySecurity.in** = ==MHA== (APPSC 2018)", "'Scenario Building & Response' exercise: **New Delhi** (APPSC 2019)", "PKI = digital security infrastructure (UPSC 2020)", "⚠ other notes: 66C = hacking - Act says identity theft", "State CSIRTs: **West Bengal**, **Madhya Pradesh**"]}
+ ]}

@@ -1,0 +1,51 @@
+{"title": "Nuclear energy and the three-stage programme",
+ "tag": "Science & Tech",
+ "quote": "Three-stage plan (Homi Bhabha): get round scarce uranium using abundant thorium",
+ "boxes": [
+  {"type": "table", "title": "Three stages",
+   "head": ["Stage", "Reactor", "Fuel", "Output"],
+   "rows": [
+    ["**I**", "**PHWR** (heavy water)", "==**Natural uranium**==", "Power + **Pu-239**"],
+    ["**II**", "**FBR** (liquid sodium, no moderator)", "**MOX**: Pu-239 + U-238", "Breeds more Pu-239; Th-232 blanket → **U-233**"],
+    ["**III**", "**AHWR** / thorium reactors", "**Th-232 + U-233**", "Large-scale **thorium** use"]
+   ]},
+  {"type": "table", "title": "Fuels: fissile vs fertile",
+   "head": ["Isotope", "Type", "Note"],
+   "rows": [
+    ["**U-235**", "Fissile", "Only **0.72%** of natural uranium"],
+    ["**U-238**", "Fertile", "**99.28%**; → Pu-239"],
+    ["**Pu-239**", "Fissile", "Not natural; bred from U-238"],
+    ["**Th-232**", "Fertile", "→ **U-233** in FBR blankets"],
+    ["**U-233**", "Fissile", "Fuel of Stage III and **KAMINI**"]
+   ]},
+  {"type": "bullets", "title": "Fission, fusion & radioactivity",
+   "items": ["**Fission**: heavy nucleus splits; reactors, **atom bomb**", "**Fusion**: light nuclei join; **Sun**, **hydrogen bomb**", "**Hiroshima = U-235**; **Nagasaki = Pu-239**", "Enrichment raises **U-235**; LWRs **3-5%**", "Radioactivity: **Henri Becquerel (1896)**; ==a nuclear, not chemical, phenomenon==", "Alpha = **helium nucleus** (+2); beta = electron; gamma = zero charge, highest penetration"]},
+  {"type": "table", "title": "Reactor components",
+   "head": ["Part", "Function", "Substances"],
+   "rows": [
+    ["**Moderator**", "Slows neutrons", "Heavy water, light water, graphite"],
+    ["**Coolant**", "Carries heat", "Heavy water, light water, **liquid sodium** (FBR)"],
+    ["**Control rods**", "Absorb neutrons", "Boron, cadmium"]
+   ]},
+  {"type": "bullets", "title": "PFBR, Kalpakkam",
+   "items": ["**500 MWe**, sodium-cooled, **pool type**", "==Designed by **IGCAR**; built by **BHAVINI**== (APPSC-G1 2024)", "Work began **2004**; core loading **4 March 2024**", "First criticality **6 April 2026** = entry into Stage II", "India = **2nd** after **Russia** with a commercial-scale FBR", "Cost **₹8,181 crore**; **16+ years** late"]},
+  {"type": "cards", "title": "Research reactors",
+   "cards": [
+    {"title": "Apsara", "lines": ["Trombay, **1956**", "==**Asia's first** research reactor=="]},
+    {"title": "CIRUS", "lines": ["**40 MW**, with **Canada**", "Shut down **2010**"]},
+    {"title": "Dhruva", "lines": ["==**Largest** research reactor==", "**100 MW**, natural uranium"]},
+    {"title": "KAMINI", "lines": ["Kalpakkam, **30 kW**", "World's only **U-233** reactor"]}
+   ]},
+  {"type": "bullets", "title": "Thorium & uranium in India",
+   "items": ["~**25%** of world thorium vs ~**2%** of uranium; ==**3rd-largest** thorium reserve==", "**Monazite** beach sands: Kerala, TN, Odisha, AP; only **IREL** may process", "Mines (**UCIL**): **Jaduguda** (Jharkhand, first), **Tummalapalle** (YSR Kadapa)", "About **80%** of imported uranium from **Kazakhstan**", "**AHWR**: **300 MW**, thorium-based, bridges Stage I → III"]},
+  {"type": "timeline", "title": "Acts & targets",
+   "items": [
+    {"when": "1948", "what": "**Atomic Energy Act**: peaceful uses"},
+    {"when": "1954", "what": "**DAE** set up; AEET (→ **BARC**, renamed **1967**)"},
+    {"when": "2005", "what": "India joins **ITER** (Cadarache, France; supplies **cryostat**)"},
+    {"when": "20 Dec 2025", "what": "==**SHANTI Act**==: repeals Act **1962** & CLNDA **2010**; private players"},
+    {"when": "2047", "what": "**100 GW** nuclear target; fleet now **25 reactors, 8,880 MW**"}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["\"Breaking apart of a nucleus is fusion\" = ==incorrect== (APPSC 2019)", "AHWR uses **thorium**, not plutonium-bearing spent fuel (APPSC-G2 2025)", "PFBR built by **BHAVINI**, not IGCAR", "**Apsara = first**; **Dhruva = largest**; **KAMINI = only U-233**", "**ITER** = tokamak, magnetic confinement (APPSC 2018); **NIF** = laser ignition, USA", "**AMD, NFC = Hyderabad**; IGCAR, BHAVINI = Kalpakkam"]}
+ ]}

@@ -1,0 +1,59 @@
+{"title": "Concept of time",
+ "tag": "Geography",
+ "quote": "1° = 4 minutes; 15° = 1 hour; east is ahead (add), west is behind (subtract)",
+ "boxes": [
+  {"type": "table", "title": "Longitude → time",
+   "head": ["Longitude gap", "Time"],
+   "rows": [
+    ["**1°**", "==**4 minutes**=="],
+    ["**15°**", "**1 hour**"],
+    ["**180°**", "**12 hours**"],
+    ["1' of arc", "**4 seconds**"],
+    ["East / west", "**Ahead (add)** / behind (subtract)"]
+   ]},
+  {"type": "flow", "title": "Solving local time",
+   "steps": ["Longitude gap: same side subtract, opposite sides **add**", "× **4 min** = time gap", "Add if east, subtract if west", "APPSC-G1 2019: 60°W 10 a.m. → 90°E: 150° = **10 h** → ==**8 p.m.**=="]},
+  {"type": "table", "title": "Time terms",
+   "head": ["Term", "Meaning"],
+   "rows": [
+    ["**GMT**", "Mean solar time at **Greenwich** (Meridian Conference **1884**)"],
+    ["**UTC**", "Kept by ==**caesium** atomic clocks==; leap seconds"],
+    ["**DST**", "Clocks +**1 hour** in summer; **India does not use**"],
+    ["Time zones", "**24** theoretical, **15°** each; most: ==**France (12)**==, Russia 11; China 1"]
+   ]},
+  {"type": "bullets", "title": "Indian Standard Time",
+   "items": ["Meridian ==**82°30′E**== (APPSC 2019); reference **Mirzapur**, UP",
+    "**IST = GMT + 5 h 30 min** (APPSC 2019); Nepal +5:45",
+    "**5 states**: UP, MP, Chhattisgarh, Odisha, **AP** (Kakinada); ⚠ **not West Bengal** (APPSC 2021)",
+    "Meets Tropic of Cancer in **Chhattisgarh** (Koriya district)",
+    "Span **68°7'E - 97°25'E** ≈ **29°** → ~**2 hours** gap Arunachal vs Gujarat",
+    "Keeper: **CSIR-NPL**, New Delhi"]},
+  {"type": "bullets", "title": "International Date Line",
+   "items": ["Roughly **180°**; mid-**Pacific** (APPSC 2021), **Bering Strait**",
+    "Zigzags around Chukotka, Aleutians, Kiribati, Fiji, Tonga, Samoa",
+    "==Going **west** (America → Asia): add / skip a day==",
+    "Going **east** (Asia → America): repeat a day",
+    "Big Diomede (Russia) vs Little Diomede (USA): different dates; **Samoa** shifted **2011**"]},
+  {"type": "timeline", "title": "Solstices & equinoxes",
+   "items": [
+    {"when": "21 Mar", "what": "**Vernal equinox**: Sun over **Equator**"},
+    {"when": "21 Jun", "what": "==**Summer solstice**==: Sun over **Tropic of Cancer**; NH longest day"},
+    {"when": "23 Sep", "what": "**Autumnal equinox**: Sun over Equator"},
+    {"when": "22 Dec", "what": "**Winter solstice**: Sun over **Tropic of Capricorn**"}
+   ]},
+  {"type": "bullets", "title": "Tropic of Cancer & tilt",
+   "items": ["Crosses ==**8 states**== (APPSC 2025): Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram",
+    "**Mahi** crosses it **twice**; AP wholly south",
+    "Tilt **23½°** from perpendicular = **66½°** to orbital plane",
+    "Axis **parallelism** → opposite seasons in two hemispheres"]},
+  {"type": "timeline", "title": "IST in 2026",
+   "items": [
+    {"when": "Jul 2026", "what": "**White Rabbit** network, **Jakkur** (Bengaluru): GPS-free sync; protocol by **CERN**"},
+    {"when": "27 Aug 2026", "what": "==**Legal Metrology (IST) Rules, 2026**==: IST single legal reference"}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": ["Most time zones = **France**, not Russia",
+    "**8** states on Tropic vs **5** on IST meridian; Chhattisgarh on both",
+    "UTC = **caesium**; NavIC = **rubidium** clocks",
+    "Debate: separate zone for North-East; Assam tea \"**Bagan time**\""]}
+ ]}

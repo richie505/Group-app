@@ -1,0 +1,74 @@
+{"title": "Humidity, clouds & precipitation",
+ "tag": "Geography",
+ "quote": "Absolute = per volume (g/m3); specific = per kg (g/kg); RH = 100% = saturation",
+ "boxes": [
+  {"type": "table", "title": "Humidity terms",
+   "head": ["Term", "Meaning"],
+   "rows": [
+    ["**Absolute**", "Vapour per unit volume (g/m3)"],
+    ["**Specific**", "Per kg of air; ==unaffected by volume=="],
+    ["**Relative**", "% of capacity; ==falls as temperature rises=="],
+    ["**Dew point**", "Air saturated; condensation begins"],
+    ["**Latent heat**", "Released on condensation → cyclones"]
+   ]},
+  {"type": "flow", "title": "Uplift chain",
+   "steps": ["Warm air uplifted", "**Adiabatic cooling**", "Cools to ==dew point==", "Condensation around nuclei → clouds", "Droplets grow → precipitation"]},
+  {"type": "table", "title": "Clouds",
+   "head": ["Cloud", "Appearance", "Weather"],
+   "rows": [
+    ["**Cirrus**", "==Silky==, feathery", "Fair"],
+    ["**Cirrostratus**", "==Milky== sheet; halo", "Warm front coming"],
+    ["**Cirrocumulus**", "==Small globular masses==", "Fair"],
+    ["**Nimbostratus**", "Dark, shapeless", "Steady rain"],
+    ["**Cumulus**", "==Cauliflower==", "Fair; grows into Cb"],
+    ["**Cumulonimbus**", "Anvil, to **15 km**", "Thunderstorms, hail"]
+   ]},
+  {"type": "bullets", "title": "Forms of condensation",
+   "items": [
+    "**Frost**: dew point ≤ **0 °C**",
+    "**Fog** visibility < **1 km**; **mist** > **1 km**",
+    "Smog: ==**London** sulphurous==; **Los Angeles** photochemical (PAN)",
+    "Rain drops > **0.5 mm**; drizzle smaller",
+    "**Sleet**: rain freezes falling; **hail**: layered, cumulonimbus",
+    "Dew/frost: clear sky, calm air, long nights"
+   ]},
+  {"type": "table", "title": "Precipitation types",
+   "head": ["Type", "Mechanism", "Location"],
+   "rows": [
+    ["**Convectional**", "Strong heating → rising air", "Western Ghats (⚠ other notes: equatorial belt)"],
+    ["**Cyclonic / frontal**", "Warm air lifted over cold", "Temperate; east coast cyclones"],
+    ["**Orographic**", "Forced up barrier; ==rain shadow== leeward", "**Agumbe**, Mawsynram"]
+   ]},
+  {"type": "bullets", "title": "Optical phenomena & extremes",
+   "items": [
+    "**Halo**: ==refraction in ice crystals==, **22°**; **corona**: diffraction",
+    "Rainbow: primary red outer; secondary reversed, two TIRs",
+    "**Cloudburst**: **100 mm/hour** over **20-30 sq km**; Dharali (**2025**)",
+    "Seeding: ==**silver iodide**==, salt, dry ice",
+    "**Acid rain** pH < **5.6**; **Robert Angus Smith** (**1872**)"
+   ]},
+  {"type": "table", "title": "Instruments & isolines",
+   "head": ["Instrument", "Measures / joins"],
+   "rows": [
+    ["**Hygrometer**", "==Humidity== (APPSC-G1 2018)"],
+    ["**Sling psychrometer**", "Wet/dry bulb humidity"],
+    ["**Lysimeter**", "Evapotranspiration"],
+    ["**Isohyet**", "Equal rainfall"],
+    ["**Isoneph**", "==Equal cloudiness== (APPSC 2019)"]
+   ]},
+  {"type": "bullets", "title": "AP",
+   "items": [
+    "Coastal RH **70-90%**; Rayalaseema < **30%**",
+    "Rayalaseema in rain shadow; **Hagari valley** lowest (< **51 cm**)",
+    "Highest: ==**Sileru, Sabari**== (**140-152 cm**)",
+    "State average ~**966 mm**"
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "APPSC-G1 2024 match: cirrus silky, cirrostratus milky, cirrocumulus globular, cumulus cauliflower",
+    "==Cumulonimbus produces rainstorms== (APPSC 2019)",
+    "Trap: **hydrometer** ≠ hygrometer",
+    "Not in hydrological cycle: photosynthesis, combustion, respiration",
+    "Earliest rain gauge: **Arthashastra** (drona), before **Cheugugi 1441**"
+   ]}
+ ]}

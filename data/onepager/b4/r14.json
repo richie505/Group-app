@@ -1,0 +1,71 @@
+{"title": "Atmosphere: composition & layers",
+ "tag": "Geography",
+ "quote": "Dry air: N₂ > O₂ > Ar > CO₂ - third place is Argon, not CO2",
+ "boxes": [
+  {"type": "table", "title": "Composition (% by volume)",
+   "head": ["Gas", "Share", "Note"],
+   "rows": [
+    ["**Nitrogen**", "==**78.08**==", "Permanent; most abundant"],
+    ["**Oxygen**", "**20.95**", "Respiration, combustion"],
+    ["**Argon**", "**0.93**", "Inert; ==3rd place=="],
+    ["**CO₂**", "**0.04**", "Variable; greenhouse"],
+    ["**Water vapour**", "**0-4**", "Most abundant GHG"],
+    ["**Ozone**", "Trace", "Absorbs UV"]
+   ]},
+  {"type": "hierarchy", "title": "Layers (top first)",
+   "levels": [
+    {"name": "Exosphere", "note": "outermost; merges into space; satellites"},
+    {"name": "Thermosphere / ionosphere", "note": "**80 km** up; temp rises sharply; ==aurora, radio waves=="},
+    {"name": "Mesosphere", "note": "**50-80 km**; ==meteors burn==; coldest (**-100°C**)"},
+    {"name": "Stratosphere", "note": "to **50 km**; temp rises; ==ozone==; jet aircraft"},
+    {"name": "Troposphere", "note": "**8 km** poles, **18 km** equator; ==weather=="}
+   ]},
+  {"type": "bullets", "title": "Troposphere & tropopause",
+   "items": [
+    "Lapse rate ==**6.5°C/km**== (1°C per **165 m**)",
+    "Thicker at equator: strong convection lifts tropopause",
+    "Tropopause higher **and** colder at equator (**-80 °C**) vs poles (**-45 °C**)",
+    "**99%** of mass within **32 km**",
+    "Homosphere (to ~80-90 km, mixed) vs heterosphere (layered)"
+   ]},
+  {"type": "table", "title": "Ionosphere layers",
+   "head": ["Layer", "Height", "Role"],
+   "rows": [
+    ["**D**", "60-90 km", "Absorbs long waves; fades at night"],
+    ["**E** (Kennelly-Heaviside)", "90-150 km", "Reflects medium-frequency"],
+    ["**F** (==Appleton==)", "150 km up", "Main short-wave reflector"]
+   ]},
+  {"type": "bullets", "title": "Ozone layer",
+   "items": [
+    "Max **15-35 km** in stratosphere; **90%** stratospheric",
+    "Absorbs ==**UV-B and UV-C**== (APPSC 2025)",
+    "UV-A **315-400**, UV-B **280-315**, UV-C **100-280** nm",
+    "**Chapman cycle**: O2 + UV → O + O; O + O2 → O3",
+    "Unit: ==**Dobson Unit**==",
+    "Ground-level ozone = pollutant (NOx + VOCs)"
+   ]},
+  {"type": "bullets", "title": "Depletion",
+   "items": [
+    "Primary cause: ==**halocarbons**== (APPSC 2023) → chlorine, bromine",
+    "ODS: CFCs, HCFCs, halons, methyl bromide, carbon tetrachloride",
+    "**Antarctic hole**: Aug-Nov; British team, **1985**",
+    "**G.W. Kent Moore**: Tibetan ozone hole",
+    "2025 hole: just over **21 million sq km**; record **29** (**2006**)"
+   ]},
+  {"type": "timeline", "title": "Ozone treaties",
+   "items": [
+    {"when": "1985", "what": "**Vienna Convention**: framework"},
+    {"when": "1987", "what": "==**Montreal Protocol**==: phases out ~**100** ODS; **197** parties"},
+    {"when": "2016", "what": "**Kigali Amendment**: ==HFC phase-down==; in force **2019**"},
+    {"when": "2019", "what": "**India Cooling Action Plan**"}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "N₂ ~**78%** (APPSC-GS 2025); sequence N₂ > O₂ > Ar > CO₂ (APPSC-G1 2023)",
+    "Meteors burn in ==**mesosphere**== (APPSC-G2 2025), not thermosphere",
+    "Ozone layer = **stratosphere** (APPSC 2025)",
+    "Temp inversion layers: stratosphere, thermosphere",
+    "CO₂ **423.9 ppm** in 2024 (WMO)",
+    "**Mission SANA**: stratospheric balloon from **Vijayawada**"
+   ]}
+ ]}

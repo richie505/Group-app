@@ -1,0 +1,64 @@
+{"title": "Genetic engineering, GM crops & CRISPR",
+ "tag": "Science & Tech",
+ "quote": "Restriction enzyme = molecular scissors; DNA ligase = molecular glue",
+ "boxes": [
+  {"type": "flow", "title": "Steps of rDNA technology",
+   "steps": ["Isolate DNA", "Cut with ==**restriction endonucleases**==", "Amplify fragment (**PCR**)", "Join to vector with **DNA ligase**", "Insert into **host cell** (E. coli)", "Extract product → **downstream processing**"]},
+  {"type": "bullets", "title": "Tools & vectors",
+   "items": [
+    "**Plasmid**: circular DNA, replicates independently; entry = **transformation**",
+    "**pBR322**: p = plasmid, BR = **Bolivar and Rodriguez**",
+    "Plants: ==**Agrobacterium tumefaciens**== (Ti plasmid, T-DNA)",
+    "**RNAi**: gene silencing",
+    "**PCR**: amplification of DNA"
+   ]},
+  {"type": "timeline", "title": "Firsts",
+   "items": [
+    {"when": "1973", "what": "First **GMO**"},
+    {"when": "1982", "what": "Human **insulin** (Humulin): first rDNA hormone"},
+    {"when": "1994", "what": "**Flavr Savr** tomato, Calgene: first GM food sold"},
+    {"when": "1997", "what": "**Rosie**: first transgenic cow"},
+    {"when": "2002", "what": "==**Bt cotton** approved in India=="},
+    {"when": "2012", "what": "**CRISPR-Cas9**: Doudna & Charpentier (Nobel Chemistry **2020**)"}
+   ]},
+  {"type": "table", "title": "GM crops in India",
+   "head": ["Crop", "Key facts"],
+   "rows": [
+    ["**Bt cotton**", "==First and only commercial GM crop==; **MAHYCO**; American bollworm; **~90%** of cotton area"],
+    ["**Bt brinjal**", "GEAC **2009**; fruit & shoot borer; **moratorium 2010** (Jairam Ramesh)"],
+    ["**GM mustard DMH-11**", "**Delhi University**; GEAC-approved; under **Supreme Court**"],
+    ["**HT crops**", "**Not approved**; Punjab banned **glyphosate** **2018**"],
+    ["**Pusa Rice DST1**", "Genome-edited, drought + salinity; from AP's **MTU1010**"]
+   ]},
+  {"type": "bullets", "title": "Bt technology",
+   "items": [
+    "Gene from **Bacillus thuringiensis**: **delta-endotoxins** (Cry)",
+    "Activated in ==**alkaline gut**== of larva → pores → death",
+    "**Bollgard I (2002)**: **Cry1Ac**; **Bollgard II (2006)**: + **Cry2Ab**",
+    "Yield **190 → 480 kg/ha**; pesticide cut **40-50%**",
+    "Problem: **pink bollworm** resistance; sucking pests"
+   ]},
+  {"type": "table", "title": "Genome-editing categories",
+   "head": ["SDN", "Nature", "India"],
+   "rows": [
+    ["**SDN-1**", "No template, no foreign DNA", "==Exempt (2022)=="],
+    ["**SDN-2**", "Template, no foreign DNA", "Exempt"],
+    ["**SDN-3**", "Inserts foreign DNA", "Regulated as GM"]
+   ]},
+  {"type": "cards", "title": "Other GM & risks",
+   "cards": [
+    {"title": "Golden Rice", "lines": ["==**Beta-carotene**== (Vitamin A)", "Daffodil gene + **Erwinia** crtI"]},
+    {"title": "Gene flow", "lines": ["Primary GM risk; **superweeds**", "India = centre of diversity of **brinjal**"]},
+    {"title": "V-GURT (Terminator)", "lines": ["**Sterile seeds**", "Banned: **PPV&FR Act (2001)**"]},
+    {"title": "Cartagena Protocol", "lines": ["Adopted **2000**, in force **2003**", "**LMOs**"]}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "Bt cotton year = ==**2002**== (⚠ other notes: 2006)",
+    "Largest Bt cotton producer: **Maharashtra** (APPSC-G2 2017)",
+    "Bt brinjal developed for **insect resistance**",
+    "**Mon 863** = pest-resistant GM maize (Monsanto)",
+    "Biodiversity impact → **genetic modification**, not solar or wind",
+    "**TnpB** (ICAR): smaller alternative to Cas9"
+   ]}
+ ]}

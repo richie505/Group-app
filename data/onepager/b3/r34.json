@@ -1,0 +1,64 @@
+{"title": "Measuring unemployment: UPS to PLFS",
+ "tag": "Indian Economy",
+ "quote": "365 days - 7 days - half day = UPS - CWS - CDS",
+ "boxes": [
+  {"type": "table", "title": "Four approaches",
+   "head": ["Measure", "Period", "Employed if", "Captures"],
+   "rows": [
+    ["**UPS**", "**365 days**", "Major time (**183+** days)", "**Chronic**"],
+    ["**UPSS**", "365 days", "+ subsidiary work **30 days**", "Broadest worker count"],
+    ["**CWS**", "**7 days**", "==**1 hour** on any **1 day**==", "Chronic + **seasonal**"],
+    ["**CDS**", "Each day of week", "Unit = **half day**; 4+ hours", "==Highest rate=="]
+   ]},
+  {"type": "table", "title": "Labour indicators",
+   "head": ["Indicator", "Formula"],
+   "rows": [
+    ["**WPR**", "==Employed ÷ total population=="],
+    ["**LFPR**", "Labour force ÷ working-age population"],
+    ["**UR**", "Unemployed ÷ **labour force** × 100"],
+    ["**PU**", "Unemployed ÷ **population**"],
+    ["Identity", "**WPR = LFPR × (1 - UR)**"]
+   ]},
+  {"type": "table", "title": "Committees & agencies",
+   "head": ["Body", "Role"],
+   "rows": [
+    ["**Dantwala** (**1970**)", "==Separate estimates by status==, not one number"],
+    ["**Bhagwati** (**1973**)", "Estimates + employment policies"],
+    ["**NSSO** (now NSO)", "Quinquennial rounds; PLFS since 2017"],
+    ["**Labour Bureau**", "EUS; **Quarterly Employment Survey**"],
+    ["**CMIE**", "Private, monthly CPHS; higher UR"],
+    ["Census", "Main **183+** days / marginal workers"]
+   ]},
+  {"type": "timeline", "title": "PLFS milestones",
+   "items": [
+    {"when": "Apr 2017", "what": "==**PLFS** launched== by **NSO, MoSPI** (designed by SCLFS)"},
+    {"when": "May 2019", "what": "First annual report (**2017-18**): UR **6.1%**"},
+    {"when": "2019", "what": "**CSO** + NSSO merged into **NSO**"},
+    {"when": "Jan 2025", "what": "Revamp: **monthly** CWS; quarterly to **rural**; calendar-year annual; **2,72,304** households (**2.65 times**)"}
+   ]},
+  {"type": "table", "title": "Unemployment rates",
+   "head": ["Survey", "UR"],
+   "rows": [
+    ["NSS 68th (2011-12)", "UPS **2.7%** < CWS **3.7%** < CDS **5.6%**"],
+    ["PLFS 2019-20", "**4.8%** (APPSC 2022)"],
+    ["PLFS 2023-24", "==**3.2%**==; rural 2.5%, urban 5.1%"],
+    ["PLFS 2025", "**3.1%**; LFPR ~59%, WPR ~57%"],
+    ["Monthly CWS 2026", "**5.1%** → **5.2%** → **5.5%** (May)"],
+    ["CMIE", "**53 million** unemployed, Dec 2021"]
+   ]},
+  {"type": "cards", "title": "AP vs India (PLFS)",
+   "cards": [
+    {"title": "UR", "lines": ["==AP **4.1%** vs **3.2%**==", "Rural **3.4%**, urban **5.9%**"]},
+    {"title": "Youth 15-29", "lines": ["AP **17.5%** vs **10.2%**", "Urban female youth **29.1%**"]},
+    {"title": "Participation", "lines": ["Female LFPR **35.8%** vs 31.7%", "LFPR **47.5%**, WPR **45.6%**"]},
+    {"title": "Informality", "lines": ["**62.3%** rural jobs", "About **55%** overall"]}
+   ]},
+  {"type": "note", "title": "Exam corner",
+   "items": [
+    "% employed in population = ==**WPR**== (APPSC 2023)",
+    "Data before NITI: **NSSO**; \"CSO & NSSO\" (APPSC 2019)",
+    "Odd one out: \"Current Monthly Status\", \"Rangarajan formula\"",
+    "⚠ Census 183 days ≠ an NSS approach",
+    "CWS critics: 1 hour = employed masks underemployment"
+   ]}
+ ]}
