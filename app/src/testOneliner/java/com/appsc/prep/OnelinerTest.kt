@@ -29,7 +29,7 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.robolectric.annotation.GraphicsMode
 
-/** APPSC One-liners: APPSC Complete with every MCQ a one-liner and no explanations. */
+/** APPSC One-liners: APPSC Complete with every MCQ a one-liner, explained from APPSC Complete's explanations. */
 @RunWith(RobolectricTestRunner::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
 @Config(sdk = [34], qualifiers = "w400dp-h860dp-xxhdpi")
@@ -62,10 +62,14 @@ class OnelinerTest {
         assertEquals(listOf("Group 1", "Group 2"), r.exams.map { it.title })
     }
 
-    /** Every MCQ: one line, four different options, an answer, no explanation; topic counts match. */
+    /**
+     * Every MCQ: one line, four different options, an answer; an explanation, when it has one, never talks of the
+     * longer MCQ it came from (option numbers, statement labels); topic counts match.
+     */
     @Test fun everyMcqIsAOneLiner() {
         val r = repo
         var total = 0
+        var explained = 0
         for (b in 1..6) {
             val book = runBlocking { r.mcq(b) }
             for ((row, qs) in book.rows) {
@@ -75,12 +79,17 @@ class OnelinerTest {
                     assertTrue("${q.id}: one line", '\n' !in q.stem.trim() && q.stem.length <= 220)
                     assertEquals("${q.id}: 4 options", 4, q.options.map { it.trim().lowercase() }.distinct().size)
                     assertTrue("${q.id}: answer", q.answer in 0..3)
-                    assertTrue("${q.id}: no explanation", q.explanation.isBlank() && q.solution.isEmpty() && q.extra.isEmpty())
+                    if (q.id.startsWith("o")) {
+                        explained += if (q.solution.isNotEmpty()) 1 else 0
+                        assertTrue("${q.id}: explanation about another MCQ: ${q.solution}",
+                            (q.solution + q.extra).none { Regex("""(?i)option\s*\(?\d|\bstatements?\s*\d""").containsMatchIn(it) })
+                    } else assertTrue("${q.id}: kept one-liner keeps its explanation", q.solution.isNotEmpty() || q.explanation.isNotBlank())
                     assertTrue("${q.id}: plain options", q.options.none { Regex("""^\s*[1-6]((\s*,\s+|\s+and\s+)[1-6])+(\s+only)?\s*$|^\s*(both|neither)\b""", RegexOption.IGNORE_CASE).containsMatchIn(it) })
                 }
             }
         }
         assertTrue("one-liners: $total", total > 60_000)
+        assertTrue("made one-liners with an explanation: $explained", explained > 25_000)
     }
 
     /** planmcq.json is built from these MCQs (tools/oneliner_import.py runs tools/build_plan_mcq.py). */
@@ -91,7 +100,7 @@ class OnelinerTest {
         assertEquals(fresh.days.map { it.second }, r.planMcqs.days.map { it.second })
     }
 
-    /** A topic's practice: the question and four options, "Stuck?" (a hint, then the answer), then only the answer. */
+    /** A topic's practice: the question and four options, "Stuck?" (a hint, then the answer), then the answer and its explanation. */
     @Test fun quiz() {
         val app = AppState(repo, ProgressStore(Mem()), AndroidPlatform(ctx))
         runBlocking { app.repo.mcq(1) }
@@ -108,7 +117,6 @@ class OnelinerTest {
         rule.onAllNodesWithText(q.options[(q.answer + 1) % 4])[0].performClick()
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/oneliner/3_answered.png")
-        assertEquals(0, rule.onAllNodesWithText("EXPLANATION").fetchSemanticsNodes().size)
     }
 
     /** Every MCQ of this app counts in Progress (its ids start with "o", APPSC Complete's with "n" or "ca"); old PYQ ids don't. */

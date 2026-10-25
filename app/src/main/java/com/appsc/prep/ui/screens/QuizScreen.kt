@@ -588,7 +588,7 @@ private fun HintBox(q: Question, onReveal: () -> Unit) {
                     )
                 }
                 Text(
-                    if (oneliner) "Now pick it to move on. Shown answers are practice: not scored."
+                    if (oneliner && q.solution.isEmpty() && q.explanation.isBlank()) "Now pick it to move on. Shown answers are practice: not scored."
                     else "Now pick it to see the full explanation and your notes. Shown answers are practice: not scored.",
                     style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     modifier = Modifier.padding(top = 6.dp),
