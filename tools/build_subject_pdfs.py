@@ -7,7 +7,8 @@ headings, bullets, tables and exam angles; the MCQ PDF has every section MCQ und
 answer, Solution and Additional Information. A contents list opens each PDF and the PDF outline (bookmarks)
 goes to every unit and section.
 
-Usage: python3 tools/build_subject_pdfs.py app/src/main/assets <out_dir>
+Usage: python3 tools/build_subject_pdfs.py app/src/main/assets <out_dir> [notes|mcqs]
+(the app's name in the headers comes from the assets' edition.json, e.g. APPSC Complete)
 """
 import json
 import re
@@ -107,6 +108,8 @@ def block(b, width):
     if k == "s":
         return [Paragraph(text, X["s"], bulletText="–")]
     if k == "x":
+        # some notes already open with "Exam angle:"
+        text = re.sub(r"^(<b>)?\s*Exam angle:\s*(</b>)?\s*", "", text)
         return [Paragraph(f"<b>Exam angle:</b> {text}", X["x"])]
     return [Paragraph(text, X["body"])]
 
@@ -128,8 +131,8 @@ def tagged(text, style, level, title, key):
     return p
 
 
-def cover(book, kind, units, count_line):
-    flow = [Paragraph(f"APPSC PREP · {kind.upper()}", S["topic_k"]), Spacer(1, 3),
+def cover(book, kind, units, count_line, app="APPSC Prep"):
+    flow = [Paragraph(f"{escape(app.upper())} · {kind.upper()}", S["topic_k"]), Spacer(1, 3),
             Paragraph(escape(book["title"]), S["title"]), Spacer(1, 3), Paragraph(count_line, S["sub"]), Spacer(1, 10),
             Paragraph("Contents", S["section"]), Spacer(1, 4)]
     n = 0
@@ -156,7 +159,7 @@ def build(job):
     else:
         total = sum(len(v) for v in mcq["rows"].values())
         line = f"{total} MCQs, each with its answer, solution and additional information"
-    flow += cover(book, "Notes" if kind == "notes" else "MCQs", units, line)
+    flow += cover(book, "Notes" if kind == "notes" else "MCQs", units, line, job["app"])
     qn = 0
     for ui, u in enumerate(units):
         flow.append(CondPageBreak(60 * mm))
@@ -202,8 +205,8 @@ def build(job):
                     flow.append(Spacer(1, 4))
                 count += len(qs)
     doc = Doc(str(out), pagesize=A4, leftMargin=16 * mm, rightMargin=16 * mm, topMargin=14 * mm, bottomMargin=16 * mm,
-              title=f"{book['short']} - {'Notes' if kind == 'notes' else 'MCQs'}", author="APPSC Prep")
-    deco = M.page_decor(f"APPSC Prep · {book['short']} · {'Notes' if kind == 'notes' else 'MCQs'}")
+              title=f"{book['short']} - {'Notes' if kind == 'notes' else 'MCQs'}", author=job["app"])
+    deco = M.page_decor(f"{job['app']} · {book['short']} · {'Notes' if kind == 'notes' else 'MCQs'}")
     doc.build(flow, onFirstPage=deco, onLaterPages=deco)
     return out.name, count, doc.page
 
@@ -232,11 +235,16 @@ def main():
     assets, out_dir = sys.argv[1], Path(sys.argv[2])
     out_dir.mkdir(parents=True, exist_ok=True)
     index = json.loads((Path(assets) / "index.json").read_text())["books"]
+    edition = Path(assets) / "edition.json"
+    app = json.loads(edition.read_text())["name"] if edition.exists() else "APPSC Prep"
+    only = sys.argv[3] if len(sys.argv) > 3 else None
     jobs = []
     for b in index:
         name = f"{b['id']} {b['short'].replace('/', '-')}"
         for kind, suffix in (("mcqs", "MCQs"), ("notes", "Notes")):
-            jobs.append({"assets": assets, "book": b["id"], "kind": kind, "out": str(out_dir / f"{name} - {suffix}.pdf")})
+            if only in (None, kind):
+                jobs.append({"assets": assets, "book": b["id"], "kind": kind, "app": app,
+                             "out": str(out_dir / f"{name} - {suffix}.pdf")})
     with ProcessPoolExecutor() as ex:
         for name, count, pages in ex.map(build, jobs):
             print(f"{name}: {count} {'subsections' if 'Notes' in name else 'MCQs'}, {pages} pages", flush=True)
