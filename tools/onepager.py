@@ -73,7 +73,10 @@ def box(b, k):
             f"<div class=card style='border-color:{c}'><div class=ct style='color:{c}'>{md(x['title'])}</div>"
             + "".join(f"<div class=cl>{md(l)}</div>" for l in x["lines"]) + "</div>" for x in b["cards"]) + "</div>"
     elif t == "flow":
-        body = "<div class=flow>" + "<span class=arr>➜</span>".join(
+        # short steps run left to right; longer ones go down, so no arrow is left at a line's end pointing at nothing
+        across = sum(len(re.sub(r"\*\*|==", "", s)) for s in b["steps"]) + 4 * len(b["steps"]) <= 48
+        arrow = "<span class=arr>➜</span>" if across else "<span class='arr down'>↓</span>"
+        body = f"<div class='flow{'' if across else ' down'}'>" + arrow.join(
             f"<span class=step style='border-color:{c}'>{md(s)}</span>" for s in b["steps"]) + "</div>"
     elif t == "hierarchy":
         n = len(b["levels"])
@@ -134,6 +137,8 @@ th { background: rgba(0,0,0,.06); text-align: left } th, td { border: 1px solid 
 .flow { display: flex; flex-wrap: wrap; align-items: center; gap: 3px }
 .step { border: 1.4px solid; border-radius: 6px; padding: 1px 5px; background: #fff }
 .arr { color: #ea580c; font-weight: 800 }
+.flow.down { flex-direction: column; align-items: stretch; gap: 0 } .flow.down .step { text-align: center }
+.arr.down { text-align: center; line-height: 1.05; font-size: 1.35em }
 .hier { display: flex; flex-direction: column; align-items: center; gap: 2px; margin: 2px 0 }
 .lvl { color: #fff; text-align: center; border-radius: 5px; padding: 2px 4px }
 .lvl b { color: #fff }
