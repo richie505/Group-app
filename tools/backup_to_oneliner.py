@@ -2,8 +2,9 @@
 
     python3 tools/backup_to_oneliner.py <complete backup.json> <out.json> [one-liners backup.json]
 
-Read marks, bookmarks, own notes, last page, study days and time: as they are (both apps have the same notes
-pages). MCQ answers: a question that is a one-liner in both apps keeps its answer; an MCQ that was rewritten as
+Read marks, bookmarks, own notes, last page, study days and time: as they are; on restore the One-liners app moves
+them from Complete's pages to each topic's one page (its moved.json and notemoves.json, tools/onepager_app.py: a
+topic is read when all its pages were). MCQ answers: a question that is a one-liner in both apps keeps its answer; an MCQ that was rewritten as
 one-liners (work/oneliner/b<book>/out_*.jsonl) passes its result to each of them (right stays right; wrong puts
 them under "answered wrong" to revise); a seen-only one makes them seen. One-liners already answered in the
 One-liners app (its backup, if given) are left out, so a restore never overwrites what was practised there.

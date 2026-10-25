@@ -6,6 +6,7 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollToNode
 import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
@@ -117,6 +118,52 @@ class OnelinerTest {
         rule.onAllNodesWithText(q.options[(q.answer + 1) % 4])[0].performClick()
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/oneliner/3_answered.png")
+    }
+
+    /** The notes are the one-page notes (tools/onepager_app.py): one page per topic, a heading for each box. */
+    @Test fun onePagePerTopic() {
+        val r = repo
+        for (b in 1..6) {
+            val book = runBlocking { r.book(b) }
+            val mcq = runBlocking { r.mcq(b) }
+            for (row in book.rows) {
+                assertEquals("book $b row ${row.index}: one page", 1, row.secs.size)
+                val heads = row.secs[0].blocks.count { it is com.appsc.prep.data.TextBlock && it.kind == 'h' }
+                assertTrue("book $b row ${row.index}: boxes $heads", heads in 4..11)
+                assertTrue("book $b row ${row.index}: MCQs on its one page", mcq.subs[row.index].orEmpty().all { it == 0 })
+            }
+        }
+    }
+
+    /** A topic's one page in the reader: the boxes' headings, tables, timelines and the exam corner. */
+    @Test fun onePageInTheReader() {
+        val app = AppState(repo, ProgressStore(Mem()), AndroidPlatform(ctx))
+        runBlocking { app.repo.book(4); app.repo.mcq(4) }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.ReaderScreen(4, 50, 0, nav) } } }
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/oneliner/4_one_page.png")
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction())
+            .performScrollToNode(androidx.compose.ui.test.hasText("Exam corner", substring = true, ignoreCase = true))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/oneliner/5_one_page_exam_corner.png")
+    }
+
+    /** Read marks and own notes of APPSC Complete's pages carry over to the topic's one page. */
+    @Test fun completePagesMoveToTheTopicPage() {
+        val r = repo
+        val secs = runBlocking { r.book(1).rows[0].secs.size }
+        assertEquals(1, secs)
+        val store = ProgressStore(Mem())
+        val olds = r.idMoves.sources["1:0:0"]!!
+        assertTrue(olds.size > 1)
+        olds.forEach { store.setDone(it, true) }
+        store.setDone("1:1:2", true) // one page of the next topic only
+        store.setAdded("1:0:2#-1", "first")
+        store.setAdded("1:0:3#-1", "second")
+        store.migrate(r.idMoves)
+        store.migrateNotes(r.noteMoves)
+        assertEquals(setOf("1:0:0"), store.done)
+        assertEquals("first\nsecond", store.added["1:0:0#-1"])
     }
 
     /** Every MCQ of this app counts in Progress (its ids start with "o", APPSC Complete's with "n" or "ca"); old PYQ ids don't. */

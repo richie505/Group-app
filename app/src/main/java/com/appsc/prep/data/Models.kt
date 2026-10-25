@@ -159,9 +159,11 @@ data class IdMoves(
 data class NoteMoves(val rounds: List<Pair<String, Map<String, String>>>) {
     val ids get() = rounds.map { it.first }
 
-    /** Moves [keys] through the rounds not in [applied]. */
-    fun <V> apply(notes: Map<String, V>, applied: Collection<String>): Map<String, V> =
-        rounds.filter { it.first !in applied }.fold(notes) { acc, (_, m) -> acc.mapKeys { (k, _) -> m[k] ?: k } }
+    /** Moves [keys] through the rounds not in [applied]; notes that land on one key are kept together, in order. */
+    fun apply(notes: Map<String, String>, applied: Collection<String>): Map<String, String> =
+        rounds.filter { it.first !in applied }.fold(notes) { acc, (_, m) ->
+            acc.entries.groupBy({ (k, _) -> m[k] ?: k }, { it.value }).mapValues { (_, v) -> v.joinToString("\n") }
+        }
 }
 
 // ---- MCQ practice (MCQs written from the notes) ----

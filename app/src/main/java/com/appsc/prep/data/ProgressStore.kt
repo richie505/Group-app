@@ -361,7 +361,9 @@ class ProgressStore(private val prefs: Storage) {
         val old = str("ids") != moves.version && moves.map.isNotEmpty()
         fun id(x: String) = if (old) moves.map[x] ?: x else x
 
-        val newDone = list("done").filter { !(old && it in moves.merged) }.map(::id).toSet() - done
+        val read = list("done").toSet()
+        val newDone = list("done").filter { !(old && it in moves.merged) }.map(::id).toSet() +
+            (if (old) moves.sources.filter { (_, olds) -> olds.isNotEmpty() && olds.all { it in read } }.keys else emptySet()) - done
         done = done + newDone
         prefs.putStringSet(KEY_DONE, done)
 
