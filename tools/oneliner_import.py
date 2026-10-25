@@ -91,6 +91,8 @@ def from_notes(s, o, a, pages):
     for rank, lines in enumerate(pages):
         for l in lines:
             p = plain(l).lower()
+            if OPTREF.search(p):
+                continue
             n = len(qw & words(p))
             if ans in p and n >= 1 and (best is None or (rank, -n) < best[0]):
                 best = ((rank, -n), l)
