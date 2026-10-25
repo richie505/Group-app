@@ -1,55 +1,147 @@
-{"title": "Motions of the Earth",
+{
+ "title": "Motions of the Earth",
  "tag": "Geography",
  "quote": "Coriolis is zero at the Equator and maximum at the poles: the opposite of rotation speed",
  "boxes": [
-  {"type": "table", "title": "Rotation vs revolution",
-   "head": ["Basis", "Rotation", "Revolution"],
+  {
+   "type": "table",
+   "title": "Rotation vs revolution",
+   "head": [
+    "Basis",
+    "Rotation",
+    "Revolution"
+   ],
    "rows": [
-    ["Movement", "On axis, ==**west to east**==", "Around Sun, **elliptical** orbit"],
-    ["Period", "**24 h** (sidereal **23 h 56 m 4 s**)", "**365.25 days**"],
-    ["Speed", "**1,670 km/h** at equator; 0 at poles", "**29.78 km/s**"],
-    ["Main result", "**Day & night**, time zones, Coriolis", "**Year**; seasons with tilt"]
-   ]},
-  {"type": "bullets", "title": "Rotation facts",
-   "items": ["Angular speed **15° per hour** = 1° every **4 minutes**",
+    [
+     "Movement",
+     "On axis, ==**west to east**==",
+     "Around Sun, **elliptical** orbit"
+    ],
+    [
+     "Period",
+     "**24 h** (sidereal **23 h 56 m 4 s**)",
+     "**365.25 days**"
+    ],
+    [
+     "Speed",
+     "**1,670 km/h** at equator; 0 at poles",
+     "**29.78 km/s**"
+    ],
+    [
+     "Main result",
+     "**Day & night**, time zones, Coriolis",
+     "**Year**; seasons with tilt"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Rotation facts",
+   "items": [
+    "Angular speed **15° per hour** = 1° every **4 minutes**",
     "Counter-clockwise seen from North Pole; only **Venus, Uranus** reverse",
     "Solar day ~**4 min** longer than sidereal day",
     "Not felt: uniform motion; atmosphere rotates along",
-    "Ice melt slows rotation: days longer ~**1.33 ms per century** (UPSC 2025: axis shift)"]},
-  {"type": "cards", "title": "Evidence & names",
+    "Ice melt slows rotation: days longer ~**1.33 ms per century** (UPSC 2025: axis shift)"
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Evidence & names",
    "cards": [
-    {"title": "Aryabhata", "lines": ["First proposed Earth rotates"]},
-    {"title": "Foucault pendulum", "lines": ["==**Paris, 1851**==", "Swing plane turns"]},
-    {"title": "Ferrel's law", "lines": ["Right in NH, left in SH"]}
-   ]},
-  {"type": "bullets", "title": "Day & night",
-   "items": ["Caused by ==**rotation**== (not revolution or tilt alone)",
+    {
+     "title": "Aryabhata",
+     "lines": [
+      "First proposed Earth rotates"
+     ]
+    },
+    {
+     "title": "Foucault pendulum",
+     "lines": [
+      "==**Paris, 1851**==",
+      "Swing plane turns"
+     ]
+    },
+    {
+     "title": "Ferrel's law",
+     "lines": [
+      "Right in NH, left in Southern Hemisphere"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Day & night",
+   "items": [
+    "Caused by ==**rotation**== (not revolution or tilt alone)",
     "**Circle of illumination** = terminator = \"**grey line**\" (APPSC 2019); through both poles only at equinoxes",
     "Equator: ~**12 h** day all year; poles ~**6 months** day + 6 night",
     "**Midnight Sun**: beyond Arctic/Antarctic Circle near summer solstice; **Norway**",
-    "Twilight **shortest at Equator**, longest at high latitudes"]},
-  {"type": "bullets", "title": "Coriolis effect",
-   "items": ["Apparent deflection from rotation (APPSC-G1 2019; BPSC 2022)",
+    "Twilight **shortest at Equator**, longest at high latitudes"
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Coriolis effect",
+   "items": [
+    "Apparent deflection from rotation (APPSC-G1 2019; BPSC 2022)",
     "==**Zero at Equator, maximum at poles**==; rises with latitude & velocity (UPSC 2024)",
     "∝ **2Ωv sin(latitude)**; acts on winds, currents, cyclones",
-    "Cyclones rarely within **5°** of Equator; spin **anticlockwise in NH**"]},
-  {"type": "flow", "title": "Centrifugal effect",
-   "steps": ["Rotation", "Centrifugal force **max at Equator**", "Equatorial bulge, polar flattening", "==**Oblate spheroid**==; weight least at Equator"]},
-  {"type": "table", "title": "Tides",
-   "head": ["Tide", "Position"],
+    "Cyclones rarely within **5°** of Equator; spin **anticlockwise in NH**"
+   ]
+  },
+  {
+   "type": "flow",
+   "title": "Centrifugal effect",
+   "steps": [
+    "Rotation",
+    "Centrifugal force **max at Equator**",
+    "Equatorial bulge, polar flattening",
+    "==**Oblate spheroid**==; weight least at Equator"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Tides",
+   "head": [
+    "Tide",
+    "Position"
+   ],
    "rows": [
-    ["**Spring**", "Sun-Earth-Moon in line (new & full moon)"],
-    ["**Neap**", "Sun & Moon at ==right angles=="],
-    ["Daily", "**2 high + 2 low**, ~**12 h 25 min** apart"]
-   ]},
-  {"type": "bullets", "title": "Revolution & leap year",
-   "items": ["**365 days 6 hours**; extra quarter day → 1 day in 4 years",
+    [
+     "**Spring**",
+     "Sun-Earth-Moon in line (new & full moon)"
+    ],
+    [
+     "**Neap**",
+     "Sun & Moon at ==right angles=="
+    ],
+    [
+     "Daily",
+     "**2 high + 2 low**, ~**12 h 25 min** apart"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Revolution & leap year",
+   "items": [
+    "**365 days 6 hours**; extra quarter day → 1 day in 4 years",
     "Leap year **366** days: **29 February**",
     "Century year leap only if ÷ ==**400**== (2000 yes, 1900 no)",
-    "Sun's gravity = centripetal force"]},
-  {"type": "note", "title": "Exam corner",
-   "items": ["Day & night = **rotation**; seasons = **revolution + axial tilt**",
+    "Sun's gravity = centripetal force"
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
+   "items": [
+    "Day & night = **rotation**; seasons = **revolution + axial tilt**",
     "Grey line / twilight zone = circle of illumination (APPSC 2019)",
     "Rotation period **24 h** (⚠ other notes: **23 h 56 m 4 s**)",
-    "Cyclone **Montha** (2025) hit **Kakinada** coast: Coriolis + steering winds"]}
- ]}
+    "Cyclone **Montha** (2025) hit **Kakinada** coast: Coriolis + steering winds"
+   ]
+  }
+ ]
+}

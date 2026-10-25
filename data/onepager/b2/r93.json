@@ -1,64 +1,181 @@
-{"title": "LPG and the 1991 reforms",
+{
+ "title": "LPG and the 1991 reforms",
  "tag": "Indian Economy",
  "quote": "Globalisation is the outcome of liberalisation and privatisation",
  "boxes": [
-  {"type": "table", "title": "LPG terms",
-   "head": ["Term", "Meaning"],
+  {
+   "type": "table",
+   "title": "LPG terms",
+   "head": [
+    "Term",
+    "Meaning"
+   ],
    "rows": [
-    ["**Liberalisation**", "End of licences, quotas, controls"],
-    ["**Privatisation**", "State withdraws from ownership / sells PSUs"],
-    ["**Disinvestment**", "Sell PSU equity; above **51%** transfers control"],
-    ["**Globalisation**", "==**Outcome** of L and P=="]
-   ]},
-  {"type": "timeline", "title": "Industrial policies",
+    [
+     "**Liberalisation**",
+     "End of licences, quotas, controls"
+    ],
+    [
+     "**Privatisation**",
+     "State withdraws from ownership / sells PSUs"
+    ],
+    [
+     "**Disinvestment**",
+     "Sell PSU equity; above **51%** transfers control"
+    ],
+    [
+     "**Globalisation**",
+     "==**Outcome** of L and P=="
+    ]
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "Industrial policies",
    "items": [
-    {"when": "1948", "what": "**IPR**: mixed economy, four categories"},
-    {"when": "1956", "what": "**IPR**: Schedules A (**17**), B (**12**), C"},
-    {"when": "1969", "what": "**MRTP Act** → later **Competition Act 2002**"},
-    {"when": "1977", "what": "Janata: District Industries Centres"},
-    {"when": "1980", "what": "Export orientation; MRTP firms **25%** expansion"},
-    {"when": "1991", "what": "==De-licensing, FDI, PSU **MoUs**=="}
-   ]},
-  {"type": "flow", "title": "1991 crisis",
-   "steps": ["**NRI deposit flight**", "Reserves **$975 million** (June 1991): ~two weeks of imports", "**67 tonnes of gold** pledged (Bank of England, UBS)", "Rupee devalued ~**20%** (**1 and 3 July 1991**)", "IMF **$7 billion** with structural-adjustment conditions"]},
-  {"type": "table", "title": "Stabilisation vs structural adjustment",
-   "head": ["", "Stabilisation", "Structural adjustment"],
+    {
+     "when": "1948",
+     "what": "**IPR**: mixed economy, four categories"
+    },
+    {
+     "when": "1956",
+     "what": "**IPR**: Schedules A (**17**), B (**12**), C"
+    },
+    {
+     "when": "1969",
+     "what": "**MRTP Act** → later **Competition Act 2002**"
+    },
+    {
+     "when": "1977",
+     "what": "Janata: District Industries Centres"
+    },
+    {
+     "when": "1980",
+     "what": "Export orientation; MRTP firms **25%** expansion"
+    },
+    {
+     "when": "1991",
+     "what": "==De-licensing, FDI, PSU **MoUs**=="
+    }
+   ]
+  },
+  {
+   "type": "flow",
+   "title": "1991 crisis",
+   "steps": [
+    "**NRI deposit flight**",
+    "Reserves **$975 million** (June 1991): ~two weeks of imports",
+    "**67 tonnes of gold** pledged (Bank of England, UBS)",
+    "Rupee devalued ~**20%** (**1 and 3 July 1991**)",
+    "IMF **$7 billion** with structural-adjustment conditions"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Stabilisation vs structural adjustment",
+   "head": [
+    "",
+    "Stabilisation",
+    "Structural adjustment"
+   ],
    "rows": [
-    ["Term", "Short", "Medium/long"],
-    ["Aim", "BoP, inflation, deficit", "Efficiency, competitiveness"],
-    ["Measures", "==Devaluation==, deficit cuts", "==Delicensing==, trade, PSU reforms"]
-   ]},
-  {"type": "table", "title": "Part of 1991 LPG?",
-   "head": ["Measure", "Status"],
+    [
+     "Term",
+     "Short",
+     "Medium/long"
+    ],
+    [
+     "Aim",
+     "BoP, inflation, deficit",
+     "Efficiency, competitiveness"
+    ],
+    [
+     "Measures",
+     "==Devaluation==, deficit cuts",
+     "==Delicensing==, trade, PSU reforms"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Part of 1991 LPG?",
+   "head": [
+    "Measure",
+    "Status"
+   ],
    "rows": [
-    ["Industrial de-licensing", "Yes; few industries kept"],
-    ["Public-sector reservation", "Now **atomic energy, railway operations**"],
-    ["FDI automatic route", "**51%** in **34** industries"],
-    ["Current account convertibility", "Yes, **1994**"],
-    ["Capital account convertibility", "==**No**== (Tarapore)"],
-    ["FERA → **FEMA**", "**1999**"],
-    ["Import QRs removed", "**April 2001**"]
-   ]},
-  {"type": "hierarchy", "title": "Reform generations",
+    [
+     "Industrial de-licensing",
+     "Yes; few industries kept"
+    ],
+    [
+     "Public-sector reservation",
+     "Now **atomic energy, railway operations**"
+    ],
+    [
+     "FDI automatic route",
+     "**51%** in **34** industries"
+    ],
+    [
+     "Current account convertibility",
+     "Yes, **1994**"
+    ],
+    [
+     "Capital account convertibility",
+     "==**No**== (Tarapore)"
+    ],
+    [
+     "FERA → **FEMA**",
+     "**1999**"
+    ],
+    [
+     "Import quantitative restrictions removed",
+     "**April 2001**"
+    ]
+   ]
+  },
+  {
+   "type": "hierarchy",
+   "title": "Reform generations",
    "levels": [
-    {"name": "First generation (1991-2000)", "note": "Delicensing; tariffs **125%** → **30%**"},
-    {"name": "Second generation (2000s)", "note": "Labour, land, power; disinvestment"},
-    {"name": "Reforms 2.0 (2014 on)", "note": "DPI: Aadhaar, UPI, Jan Dhan, DBT"},
-    {"name": "Reforms 3.0", "note": "Case made (Jul 2026)"}
-   ]},
-  {"type": "bullets", "title": "PSUs & global context",
+    {
+     "name": "First generation (1991-2000)",
+     "note": "Delicensing; tariffs **125%** → **30%**"
+    },
+    {
+     "name": "Second generation (2000s)",
+     "note": "Labour, land, power; disinvestment"
+    },
+    {
+     "name": "Reforms 2.0 (2014 on)",
+     "note": "DPI: Aadhaar, UPI, Jan Dhan, DBT"
+    },
+    {
+     "name": "Reforms 3.0",
+     "note": "Case made (Jul 2026)"
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "PSUs & global context",
    "items": [
     "**Navratnas**: **1997** (⚠ other notes: 1996); Miniratnas **97**",
     "New PSE Policy (**2021**): strategic disinvestment",
     "**WTO (1995)** replaced **GATT (1948)**",
     "==**Washington Consensus**: **John Williamson**, **1989**==; **10** prescriptions"
-   ]},
-  {"type": "note", "title": "Exam corner",
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "PM ==**P.V. Narasimha Rao**==, FM **Manmohan Singh** (UPPSC 2013)",
     "Devaluation = stabilisation; delicensing = structural",
     "Capital account convertibility: never fully adopted",
     "MRTP **1969** → Competition Act **2002** (CCI)",
     "Globalisation is not a separate first step"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

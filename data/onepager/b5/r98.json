@@ -1,24 +1,73 @@
-{"title": "Environmental pollution overview",
+{
+ "title": "Environmental pollution overview",
  "tag": "Environment",
  "quote": "Bhopal = MIC; LG Polymers = Styrene; Minamata = Methyl mercury",
  "boxes": [
-  {"type": "table", "title": "Type → main source → impact",
-   "head": ["Type", "Main source (APPSC 2025)", "Impact"],
+  {
+   "type": "table",
+   "title": "Type → main source → impact",
+   "head": [
+    "Type",
+    "Main source (APPSC 2025)",
+    "Impact"
+   ],
    "rows": [
-    ["**Air**", "==**Industrial emissions**== (SO2, NOx, PM)", "Respiratory disease, acid rain"],
-    ["**Water**", "==**Sewage discharge**==", "Eutrophication, fish kills"],
-    ["**Soil**", "**Fertilisers & pesticides**", "Fertility loss, toxic crops"],
-    ["**Noise**", "**Construction**, traffic", "Hearing loss, stress"]
-   ]},
-  {"type": "table", "title": "Classifying pollutants",
-   "head": ["Basis", "Types", "Examples"],
+    [
+     "**Air**",
+     "==**Industrial emissions**== (SO2, NOx, PM)",
+     "Respiratory disease, acid rain"
+    ],
+    [
+     "**Water**",
+     "==**Sewage discharge**==",
+     "Eutrophication, fish kills"
+    ],
+    [
+     "**Soil**",
+     "**Fertilisers & pesticides**",
+     "Fertility loss, toxic crops"
+    ],
+    [
+     "**Noise**",
+     "**Construction**, traffic",
+     "Hearing loss, stress"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Classifying pollutants",
+   "head": [
+    "Basis",
+    "Types",
+    "Examples"
+   ],
    "rows": [
-    ["Form", "Primary vs **secondary**", "Plastics vs **ozone**, PAN"],
-    ["Existence", "Quantitative vs qualitative", "CO2 vs insecticides"],
-    ["Disposal", "Biodegradable vs non", "Sewage vs **DDT**"],
-    ["Source", "Point / line / area / diffuse", "Chimney; highway; farm runoff"]
-   ]},
-  {"type": "bullets", "title": "Pollutant → effect",
+    [
+     "Form",
+     "Primary vs **secondary**",
+     "Plastics vs **ozone**, peroxyacetyl nitrate"
+    ],
+    [
+     "Existence",
+     "Quantitative vs qualitative",
+     "CO2 vs insecticides"
+    ],
+    [
+     "Disposal",
+     "Biodegradable vs non",
+     "Sewage vs **DDT**"
+    ],
+    [
+     "Source",
+     "Point / line / area / diffuse",
+     "Chimney; highway; farm runoff"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Pollutant → effect",
    "items": [
     "**SO₂ + NOₓ** → **acid rain** (H₂SO₄, HNO₃) → ==marble cancer, **Taj Mahal**==",
     "**CFCs** → ozone hole; **N₂O**, **SF₆** → greenhouse gases",
@@ -26,42 +75,117 @@
     "**Lead** paint capped at **90 ppm**; NCR ammonia **77-80%** from fertilisers + livestock",
     "Bhogi bonfires → **dioxins, furans**",
     "Air pollution deaths ~**7 million**/yr (WHO)"
-   ]},
-  {"type": "bullets", "title": "CEPI",
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "CEPI",
    "items": [
     "**CPCB + IIT Delhi (2009)**; score **0-100**",
     "Factors: **pollutant, pathway, receptor**",
     "==**≥70** = critically polluted==; 60-70 severely",
     "**43 of 88** clusters critical (2009); AP: **Visakhapatnam**"
-   ]},
-  {"type": "table", "title": "Organisations → location",
-   "head": ["Body", "Place", "Note"],
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Organisations → location",
+   "head": [
+    "Body",
+    "Place",
+    "Note"
+   ],
    "rows": [
-    ["**CPCB**", "**Delhi**", "**1974**, Water Act"],
-    ["**NEERI**", "==**Nagpur**==", "**1958**, CSIR"],
-    ["**NBA**", "**Chennai**", "Biological Diversity Act **2002**"],
-    ["**WII**, **FRI**, **ICFRE**", "**Dehradun**", "FRI roots **1906**"],
-    ["**IIFM**", "**Bhopal**", "**1982**"],
-    ["**CAZRI**", "**Jodhpur**", "ICAR"],
-    ["**BNHS**", "**Mumbai**", "**1883**"],
-    ["**INCOIS**", "**Hyderabad**", "**1999**, Earth Sciences"],
-    ["**BSI**, **ZSI**", "**Kolkata**", ""]
-   ]},
-  {"type": "timeline", "title": "Pollution disasters",
+    [
+     "**CPCB**",
+     "**Delhi**",
+     "**1974**, Water Act"
+    ],
+    [
+     "**NEERI**",
+     "==**Nagpur**==",
+     "**1958**, CSIR"
+    ],
+    [
+     "**NBA**",
+     "**Chennai**",
+     "Biological Diversity Act **2002**"
+    ],
+    [
+     "**WII**, **FRI**, **ICFRE**",
+     "**Dehradun**",
+     "FRI roots **1906**"
+    ],
+    [
+     "**IIFM**",
+     "**Bhopal**",
+     "**1982**"
+    ],
+    [
+     "**CAZRI**",
+     "**Jodhpur**",
+     "ICAR"
+    ],
+    [
+     "**BNHS**",
+     "**Mumbai**",
+     "**1883**"
+    ],
+    [
+     "**INCOIS**",
+     "**Hyderabad**",
+     "**1999**, Earth Sciences"
+    ],
+    [
+     "**BSI**, **ZSI**",
+     "**Kolkata**",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "Pollution disasters",
    "items": [
-    {"when": "1943", "what": "**Los Angeles**: photochemical smog"},
-    {"when": "Dec 1952", "what": "**London**: classical smog (SO2); ~**4,000** killed"},
-    {"when": "1956", "what": "**Minamata**, Japan: **methyl mercury**"},
-    {"when": "2-3 Dec 1984", "what": "==**Bhopal**: MIC==, **Union Carbide**"},
-    {"when": "26 April 1986", "what": "**Chernobyl**, Ukraine (then USSR): radioactive leak"},
-    {"when": "2011", "what": "**Fukushima**: earthquake-tsunami"},
-    {"when": "7 May 2020", "what": "**LG Polymers**, Visakhapatnam: **Styrene**"}
-   ]},
-  {"type": "note", "title": "Exam corner",
+    {
+     "when": "1943",
+     "what": "**Los Angeles**: photochemical smog"
+    },
+    {
+     "when": "Dec 1952",
+     "what": "**London**: classical smog (SO2); ~**4,000** killed"
+    },
+    {
+     "when": "1956",
+     "what": "**Minamata**, Japan: **methyl mercury**"
+    },
+    {
+     "when": "2-3 Dec 1984",
+     "what": "==**Bhopal**: MIC==, **Union Carbide**"
+    },
+    {
+     "when": "26 April 1986",
+     "what": "**Chernobyl**, Ukraine (then USSR): radioactive leak"
+    },
+    {
+     "when": "2011",
+     "what": "**Fukushima**: earthquake-tsunami"
+    },
+    {
+     "when": "7 May 2020",
+     "what": "**LG Polymers**, Visakhapatnam: **Styrene**"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "APPSC 2023 pairs: marble cancer - ==**SO2**==; biomagnification - **DDT**; greenhouse - **CO2**; lung cancer - asbestos",
     "Bhopal = gas leak / **MIC** / **1984**: asked almost every year",
     "**BSI** and **ZSI** both Kolkata; **NEERI** = Nagpur",
     "Chernobyl was in **USSR** in 1986 (now Ukraine)"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

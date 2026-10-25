@@ -1,67 +1,189 @@
-{"title": "Health outcomes: India and AP",
+{
+ "title": "Health outcomes: India and AP",
  "tag": "Health",
  "quote": "IMR fell more than 37%: 40 (2013) to 25 (2023)",
  "boxes": [
-  {"type": "table", "title": "Mortality indicators",
-   "head": ["Indicator", "Base", "Latest"],
+  {
+   "type": "table",
+   "title": "Mortality indicators",
+   "head": [
+    "Indicator",
+    "Base",
+    "Latest"
+   ],
    "rows": [
-    ["**IMR**", "Under 1 yr per **1,000** live births", "==**25** (SRS 2023)=="],
-    ["**NMR**", "First **28 days** per 1,000", "Fell **70%** (1990-2023)"],
-    ["**U5MR**", "Under 5 per 1,000", "Fell **78%**"],
-    ["**MMR**", "Per ==**1,00,000**== live births", "**97** (SRS 2018-20)"]
-   ]},
-  {"type": "table", "title": "AP vs India (SRS 2020)",
-   "head": ["Indicator", "AP", "India"],
+    [
+     "**IMR**",
+     "Under 1 yr per **1,000** live births",
+     "==**25** (SRS 2023)=="
+    ],
+    [
+     "**NMR**",
+     "First **28 days** per 1,000",
+     "Fell **70%** (1990-2023)"
+    ],
+    [
+     "**U5MR**",
+     "Under 5 per 1,000",
+     "Fell **78%**"
+    ],
+    [
+     "**MMR**",
+     "Per ==**1,00,000**== live births",
+     "**97** (SRS 2018-20)"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "AP vs India (SRS 2020)",
+   "head": [
+    "Indicator",
+    "AP",
+    "India"
+   ],
    "rows": [
-    ["IMR", "**24**", "28"],
-    ["U5MR", "**27**", "32"],
-    ["Crude birth rate", "**15.7**", "19.5"],
-    ["Life exp. M / F (2016-20)", "**69.1** / **72.2**", "**68.6** / **71.4**"]
-   ]},
-  {"type": "bullets", "title": "Life expectancy & states",
+    [
+     "IMR",
+     "**24**",
+     "28"
+    ],
+    [
+     "U5MR",
+     "**27**",
+     "32"
+    ],
+    [
+     "Crude birth rate",
+     "**15.7**",
+     "19.5"
+    ],
+    [
+     "Life exp. M / F (2016-20)",
+     "**69.1** / **72.2**",
+     "**68.6** / **71.4**"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Life expectancy & states",
    "items": [
     "At Independence: ==about **32 years**== (APPSC 2023)",
     "**49.7 (1973) → 70.3 (2023)**",
     "Lowest IMR: **Kerala** (APPSC 2025)",
     "Telangana: MMR **43**, IMR **18**, TFR **1.5**",
     "AP: IMR **24**, MMR **45**, TFR **1.5** - beats national average"
-   ]},
-  {"type": "timeline", "title": "NFHS rounds (IIPS Mumbai)",
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "NFHS rounds (IIPS Mumbai)",
    "items": [
-    {"when": "1992-93", "what": "**NFHS-1**"},
-    {"when": "2005-06", "what": "**NFHS-3**"},
-    {"when": "2015-16", "what": "**NFHS-4**"},
-    {"when": "2019-21", "what": "**NFHS-5**: sex ratio ==**1020**== (first time more women)"},
-    {"when": "2026", "what": "**NFHS-6** results: stunting **29.3%**"}
-   ]},
-  {"type": "table", "title": "Child nutrition (NFHS-5 → 6)",
-   "head": ["Indicator", "Measure", "NFHS-5", "NFHS-6"],
+    {
+     "when": "1992-93",
+     "what": "**NFHS-1**"
+    },
+    {
+     "when": "2005-06",
+     "what": "**NFHS-3**"
+    },
+    {
+     "when": "2015-16",
+     "what": "**NFHS-4**"
+    },
+    {
+     "when": "2019-21",
+     "what": "**NFHS-5**: sex ratio ==**1020**== (first time more women)"
+    },
+    {
+     "when": "2026",
+     "what": "**NFHS-6** results: stunting **29.3%**"
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Child nutrition (NFHS-5 → 6)",
+   "head": [
+    "Indicator",
+    "Measure",
+    "NFHS-5",
+    "NFHS-6"
+   ],
    "rows": [
-    ["**Stunting**", "Height-for-age", "**35.5%**", "==**29.3%**=="],
-    ["**Wasting**", "Weight-for-height", "**19.3%**", "-"],
-    ["**Underweight**", "Weight-for-age", "**32.1%**", "**31.8%**"],
-    ["Anaemia", "Children / women", "**67.1%** / **57.0%**", "-"]
-   ]},
-  {"type": "cards", "title": "Deficiency diseases",
+    [
+     "**Stunting**",
+     "Height-for-age",
+     "**35.5%**",
+     "==**29.3%**=="
+    ],
+    [
+     "**Wasting**",
+     "Weight-for-height",
+     "**19.3%**",
+     "-"
+    ],
+    [
+     "**Underweight**",
+     "Weight-for-age",
+     "**32.1%**",
+     "**31.8%**"
+    ],
+    [
+     "Anaemia",
+     "Children / women",
+     "**67.1%** / **57.0%**",
+     "-"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Deficiency diseases",
    "cards": [
-    {"title": "Protein", "lines": ["**Kwashiorkor**; energy + protein: **Marasmus**"]},
-    {"title": "Vitamins", "lines": ["A: night blindness; B1: **beri-beri**", "B3: **pellagra**; C: scurvy; D: rickets"]},
-    {"title": "Minerals", "lines": ["Iron: anaemia; **iodine: goitre**"]}
-   ]},
-  {"type": "bullets", "title": "Nutrition schemes",
+    {
+     "title": "Protein",
+     "lines": [
+      "**Kwashiorkor**; energy + protein: **Marasmus**"
+     ]
+    },
+    {
+     "title": "Vitamins",
+     "lines": [
+      "A: night blindness; B1: **beri-beri**",
+      "B3: **pellagra**; C: scurvy; D: rickets"
+     ]
+    },
+    {
+     "title": "Minerals",
+     "lines": [
+      "Iron: anaemia; **iodine: goitre**"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Nutrition schemes",
    "items": [
     "**POSHAN Abhiyaan**: **2018**, Women & Child Development",
     "**ICDS**: **6 months-6 years**; **six services**",
     "**Anemia Mukt Bharat**: **6x6x6** strategy",
     "Fortified rice: **iron, folic acid, vitamin B12**",
-    "==**Anna Amrutha Hastam** (AP)==: meal + IFA to pregnant & lactating women"
-   ]},
-  {"type": "note", "title": "Exam corner",
+    "==**Anna Amrutha Hastam** (AP)==: meal + iron and folic acid to pregnant & lactating women"
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "IMR 2013-40, 2014-39, 2015-37: all pairs correct (PYQ); ⚠ 28 (SRS 2020) is stale",
     "IMR per **1,000**; MMR per ==**1,00,000**==",
     "Main malnutrition driver: **poor diet & food insecurity** (APPSC 2025)",
     "NFHS gives **no single malnutrition %**",
     "SOFI 2025: India's wasting **18.7%**, world's highest"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

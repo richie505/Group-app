@@ -1,75 +1,197 @@
-{"title": "Disaster management framework",
+{
+ "title": "Disaster management framework",
  "tag": "Disaster Management",
  "quote": "From relief-centric 3Rs to proactive prevention, mitigation and preparedness",
  "boxes": [
-  {"type": "table", "title": "Key terms",
-   "head": ["Term", "Meaning"],
+  {
+   "type": "table",
+   "title": "Key terms",
+   "head": [
+    "Term",
+    "Meaning"
+   ],
    "rows": [
-    ["**Hazard**", "Potentially damaging event"],
-    ["**Vulnerability**", "Exposure + inability to cope"],
-    ["**Disaster**", "==**Hazard x Vulnerability**==; **Sec. 2(d)** DM Act"],
-    ["**Risk**", "Likelihood of loss; falls with coping capacity"]
-   ]},
-  {"type": "timeline", "title": "Evolution of DM in India",
+    [
+     "**Hazard**",
+     "Potentially damaging event"
+    ],
+    [
+     "**Vulnerability**",
+     "Exposure + inability to cope"
+    ],
+    [
+     "**Disaster**",
+     "==**Hazard x Vulnerability**==; **Sec. 2(d)** DM Act"
+    ],
+    [
+     "**Risk**",
+     "Likelihood of loss; falls with coping capacity"
+    ]
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "Evolution of DM in India",
    "items": [
-    {"when": "1958", "what": "**CWC** begins scientific flood forecasting"},
-    {"when": "1999", "what": "**High Powered Committee**, **J.C. Pant**"},
-    {"when": "2002", "what": "DM shifted Agriculture → ==**MHA**== after Gujarat quake"},
-    {"when": "2005", "what": "**DM Act** (23 Dec); Hyogo Framework 2005-2015"},
-    {"when": "2009", "what": "**NPDM** approved 22 Oct"},
-    {"when": "2015", "what": "**Sendai Framework 2015-2030**"},
-    {"when": "2016", "what": "First **NDMP**; revised **2019**"},
-    {"when": "2025", "what": "**DM (Amendment) Act**: UDMAs, statutory NCMC"}
-   ]},
-  {"type": "hierarchy", "title": "Three-tier structure",
+    {
+     "when": "1958",
+     "what": "**CWC** begins scientific flood forecasting"
+    },
+    {
+     "when": "1999",
+     "what": "**High Powered Committee**, **J.C. Pant**"
+    },
+    {
+     "when": "2002",
+     "what": "DM shifted Agriculture → ==**MHA**== after Gujarat quake"
+    },
+    {
+     "when": "2005",
+     "what": "**DM Act** (23 Dec); Hyogo Framework 2005-2015"
+    },
+    {
+     "when": "2009",
+     "what": "**NPDM** approved 22 Oct"
+    },
+    {
+     "when": "2015",
+     "what": "**Sendai Framework 2015-2030**"
+    },
+    {
+     "when": "2016",
+     "what": "First **NDMP**; revised **2019**"
+    },
+    {
+     "when": "2025",
+     "what": "**DM (Amendment) Act**: UDMAs, statutory NCMC"
+    }
+   ]
+  },
+  {
+   "type": "hierarchy",
+   "title": "Three-tier structure",
    "levels": [
-    {"name": "NDMA (s.3)", "note": "Chair: ==**Prime Minister**==; max nine members"},
-    {"name": "NEC (s.8)", "note": "**Union Home Secretary**; prepares National Plan"},
-    {"name": "SDMA (s.14)", "note": "**Chief Minister**; SEC under **Chief Secretary**"},
-    {"name": "DDMA (s.25)", "note": "**Collector/DM**; elected local head = ==co-chair=="}
-   ]},
-  {"type": "table", "title": "DM Act 2005 sections",
-   "head": ["Section", "Body / fund"],
+    {
+     "name": "NDMA (s.3)",
+     "note": "Chair: ==**Prime Minister**==; max nine members"
+    },
+    {
+     "name": "NEC (s.8)",
+     "note": "**Union Home Secretary**; prepares National Plan"
+    },
+    {
+     "name": "SDMA (s.14)",
+     "note": "**Chief Minister**; SEC under **Chief Secretary**"
+    },
+    {
+     "name": "DDMA (s.25)",
+     "note": "**Collector/DM**; elected local head = ==co-chair=="
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "DM Act 2005 sections",
+   "head": [
+    "Section",
+    "Body / fund"
+   ],
    "rows": [
-    ["**42**", "**NIDM** (NCDM 1995 → NIDM 2003)"],
-    ["**44**", "**NDRF** force"],
-    ["**46**", "National Disaster Response **Fund**"],
-    ["**47**", "**NDMF** (mitigation)"],
-    ["**48**", "State Disaster Response Fund"]
-   ]},
-  {"type": "bullets", "title": "NDRF force",
+    [
+     "**42**",
+     "**NIDM** (NCDM 1995 → NIDM 2003)"
+    ],
+    [
+     "**44**",
+     "**NDRF** force"
+    ],
+    [
+     "**46**",
+     "National Disaster Response **Fund**"
+    ],
+    [
+     "**47**",
+     "**NDMF** (mitigation)"
+    ],
+    [
+     "**48**",
+     "State Disaster Response Fund"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "NDRF force",
    "items": [
     "Raised **2006**; Raising Day **19 January**; ==world's largest dedicated== response force",
-    "**16 battalions** (initial **8**); **18** SAR teams each",
+    "**16 battalions** (initial **8**); **18** search and rescue teams each",
     "From **BSF, CRPF, CISF, ITBP, SSB**, Assam Rifles",
     "Motto: \"**Aapada Seva Sadaiv Sarvatra**\"",
     "Academy **Nagpur**; AP regional HQ **Vijayawada**"
-   ]},
-  {"type": "bullets", "title": "Funds & committees",
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Funds & committees",
    "items": [
     "SDRF fund share: general **75:25**; NE/Himalayan **90:10**",
     "Up to **10%** for state-specific disasters; ⚠ not for compensation",
     "**NCMC**: ==**Cabinet Secretary**==; **HLC**: Union Home Minister",
     "Notified list **12 → 14** (heatwaves, lightning), **16th Finance Commission**, 2026-31"
-   ]},
-  {"type": "cycle", "title": "DM cycle",
+   ]
+  },
+  {
+   "type": "cycle",
+   "title": "DM cycle",
    "centre": "Build Back Better",
-   "steps": ["**Prevention**: land-use zoning", "**Mitigation**: ==most cost-effective==", "**Preparedness**: warnings, mock drills, **Aapda Mitra**", "**Response**: search & rescue", "**Recovery**: reconstruction"]},
-  {"type": "table", "title": "Early warning agencies",
-   "head": ["Hazard", "Agency"],
+   "steps": [
+    "**Prevention**: land-use zoning",
+    "**Mitigation**: ==most cost-effective==",
+    "**Preparedness**: warnings, mock drills, **Aapda Mitra**",
+    "**Response**: search & rescue",
+    "**Recovery**: reconstruction"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Early warning agencies",
+   "head": [
+    "Hazard",
+    "Agency"
+   ],
    "rows": [
-    ["Cyclones", "**IMD**; RSMC New Delhi"],
-    ["Tsunamis", "==**INCOIS, Hyderabad**== (alerts in **10 min**)"],
-    ["River floods", "**CWC**"],
-    ["Earthquakes", "National Centre for Seismology"],
-    ["Landslides", "**GSI** (Kolkata)"]
-   ]},
-  {"type": "note", "title": "Exam corner",
+    [
+     "Cyclones",
+     "**IMD**; RSMC New Delhi"
+    ],
+    [
+     "Tsunamis",
+     "==**INCOIS, Hyderabad**== (alerts in **10 min**)"
+    ],
+    [
+     "River floods",
+     "**CWC**"
+    ],
+    [
+     "Earthquakes",
+     "National Centre for Seismology"
+    ],
+    [
+     "Landslides",
+     "**GSI** (Kolkata)"
+    ]
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "**NDRF** = both Force (s.44) and Fund (s.46) - acronym trap",
     "**Hyogo** 2005-2015; **Sendai** 2015-2030 (first priority: understanding risk)",
     "IMD colours: Green all well, Yellow be aware, ==Orange be prepared==, Red take action",
     "Earthquake indoors: **drop, cover, hold** (APPSC 2025)",
     "APSDMA: chaired by **CM**, AP DM Rules **2007** (APPSC 2025); **Uttarakhand** first DM ministry"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

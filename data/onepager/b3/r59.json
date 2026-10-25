@@ -1,61 +1,181 @@
-{"title": "Malnutrition and food security",
+{
+ "title": "Malnutrition and food security",
  "tag": "Social Sector",
  "quote": "Malnutrition is multi-causal - combine nutrition with WASH",
  "boxes": [
-  {"type": "table", "title": "Indicators",
-   "head": ["Indicator", "Measure", "Type"],
+  {
+   "type": "table",
+   "title": "Indicators",
+   "head": [
+    "Indicator",
+    "Measure",
+    "Type"
+   ],
    "rows": [
-    ["**Stunting**", "==Height-for-age==", "Chronic"],
-    ["**Wasting**", "==Weight-for-height==", "Acute"],
-    ["**Underweight**", "Weight-for-age", "-"],
-    ["**Double burden**", "Under + overnutrition together", "NFHS-6 confirms"]
-   ]},
-  {"type": "table", "title": "NFHS-5 vs NFHS-6",
-   "head": ["Indicator", "NFHS-5", "NFHS-6"],
+    [
+     "**Stunting**",
+     "==Height-for-age==",
+     "Chronic"
+    ],
+    [
+     "**Wasting**",
+     "==Weight-for-height==",
+     "Acute"
+    ],
+    [
+     "**Underweight**",
+     "Weight-for-age",
+     "-"
+    ],
+    [
+     "**Double burden**",
+     "Under + overnutrition together",
+     "NFHS-6 confirms"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "NFHS-5 vs NFHS-6",
+   "head": [
+    "Indicator",
+    "NFHS-5",
+    "NFHS-6"
+   ],
    "rows": [
-    ["Stunting", "35.5%", "==**29.3%**=="],
-    ["Severe wasting", "7.7%", "**5.2%**"],
-    ["Underweight", "32.1%", "**31.8%** (barely moved)"],
-    ["Breastfed in 1 hour", "41.8%", "**50.1%**"]
-   ]},
-  {"type": "bullets", "title": "Worst States & causes",
-   "items": ["Stunting: ==**Uttar Pradesh (48.8%)**==",
+    [
+     "Stunting",
+     "35.5%",
+     "==**29.3%**=="
+    ],
+    [
+     "Severe wasting",
+     "7.7%",
+     "**5.2%**"
+    ],
+    [
+     "Underweight",
+     "32.1%",
+     "**31.8%** (barely moved)"
+    ],
+    [
+     "Breastfed in 1 hour",
+     "41.8%",
+     "**50.1%**"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Worst States & causes",
+   "items": [
+    "Stunting: ==**Uttar Pradesh (48.8%)**==",
     "Wasting: **Bihar (9.3%)**; underweight: **Madhya Pradesh (24.8%)**",
     "Better: Goa, Sikkim, Manipur, Himachal Pradesh, Tamil Nadu",
     "Biggest cause: ==poor dietary habits & food insecurity== (APPSC 2025)",
-    "Others: cereal-heavy diets, open defecation, adolescent pregnancy"]},
-  {"type": "timeline", "title": "Nutrition programmes",
+    "Others: cereal-heavy diets, open defecation, adolescent pregnancy"
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "Nutrition programmes",
    "items": [
-    {"when": "1970", "what": "Vitamin A; anaemia prophylaxis"},
-    {"when": "2 Oct 1975", "what": "**ICDS** - WCD"},
-    {"when": "1992", "what": "==**NIDDCP**== (Goitre programme **1962**)"},
-    {"when": "15 Aug 1995", "what": "**Mid-Day Meal** - idea from **Tamil Nadu**"},
-    {"when": "2016", "what": "**MAA** - breastfeeding"},
-    {"when": "2018", "what": "**Anaemia Mukt Bharat**: IFA, deworming, **6** groups"},
-    {"when": "2021", "what": "**PM POSHAN** (renamed MDM)"}
-   ]},
-  {"type": "bullets", "title": "POSHAN Abhiyaan / Poshan 2.0",
-   "items": ["Goal: ==**Suposhit Bharat**==; convergence, technology, **Jan Andolan**",
+    {
+     "when": "1970",
+     "what": "Vitamin A; anaemia prophylaxis"
+    },
+    {
+     "when": "2 Oct 1975",
+     "what": "**ICDS** - WCD"
+    },
+    {
+     "when": "1992",
+     "what": "==**NIDDCP**== (Goitre programme **1962**)"
+    },
+    {
+     "when": "15 Aug 1995",
+     "what": "**Mid-Day Meal** - idea from **Tamil Nadu**"
+    },
+    {
+     "when": "2016",
+     "what": "**MAA** - breastfeeding"
+    },
+    {
+     "when": "2018",
+     "what": "**Anaemia Mukt Bharat**: IFA, deworming, **6** groups"
+    },
+    {
+     "when": "2021",
+     "what": "**PM POSHAN** (renamed MDM)"
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "POSHAN Abhiyaan / Poshan 2.0",
+   "items": [
+    "Goal: ==**Suposhit Bharat**==; convergence, technology, **Jan Andolan**",
     "Targets: stunting, underweight, anaemia, low birth weight",
     "Poshan 2.0: **2021-22 to 2025-26**; **2 lakh** Saksham AWCs",
     "**4.35 lakh Poshan Vatikas**; millets; **POSHAN Tracker**",
-    "**9th Poshan Maah** (Sep 2026): \"Hamari Anganwadi Hamari Jimmedari\""]},
-  {"type": "flow", "title": "Rice fortification rollout",
-   "steps": ["Pilot **2019**", "Phase I **2021-22**: ICDS, PM POSHAN", "Phase II **2022-23**: **291** districts", "Phase III **2023-24**: all TPDS", "Done **March 2024**; to **Dec 2028**, ₹**17,082** crore"]},
-  {"type": "table", "title": "AP nutrition",
-   "head": ["Item", "Fact"],
+    "**9th Poshan Maah** (Sep 2026): \"Hamari Anganwadi Hamari Jimmedari\""
+   ]
+  },
+  {
+   "type": "flow",
+   "title": "Rice fortification rollout",
+   "steps": [
+    "Pilot **2019**",
+    "Phase I **2021-22**: ICDS, PM POSHAN",
+    "Phase II **2022-23**: **291** districts",
+    "Phase III **2023-24**: all TPDS",
+    "Done **March 2024**; to **Dec 2028**, ₹**17,082** crore"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "AP nutrition",
+   "head": [
+    "Item",
+    "Fact"
+   ],
    "rows": [
-    ["**Bala Sanjeevani**", "Plain areas; **47,296 AWCs**"],
-    ["Milk, 36-72 months", "100 ml plain vs ==**200 ml** tribal=="],
-    ["**Anna Amrutha Hastham**", "Full meal for pregnant, lactating women"],
-    ["AP ICDS", "**55,607 AWCs**, **257 projects**"],
-    ["Children < 6", "**19.13 lakh**"],
-    ["**PM JANMAN**", "**192** new AWCs"]
-   ]},
-  {"type": "note", "title": "Exam corner",
-   "items": ["\"NIDDCP - 1999\" = ==wrong pair== (APPSC 2024); MAA **2016** correct",
-    "Undernutrition = PEM + micronutrient deficiency + stunting + wasting (APPSC 2019)",
+    [
+     "**Bala Sanjeevani**",
+     "Plain areas; **47,296 AWCs**"
+    ],
+    [
+     "Milk, 36-72 months",
+     "100 ml plain vs ==**200 ml** tribal=="
+    ],
+    [
+     "**Anna Amrutha Hastham**",
+     "Full meal for pregnant, lactating women"
+    ],
+    [
+     "AP ICDS",
+     "**55,607 AWCs**, **257 projects**"
+    ],
+    [
+     "Children < 6",
+     "**19.13 lakh**"
+    ],
+    [
+     "**PM JANMAN**",
+     "**192** new AWCs"
+    ]
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
+   "items": [
+    "\"NIDDCP - 1999\" = ==wrong pair== (APPSC 2024); MAA **2016** correct",
+    "Undernutrition = protein-energy malnutrition + micronutrient deficiency + stunting + wasting (APPSC 2019)",
     "FSSAI logo ==**\"+F\"**==; double-fortified salt = **iodine + iron**",
     "**WIFS**: weekly IFA, ages **10-19**",
-    "9th Poshan **Maah** vs 8th Poshan **Pakhwada**"]}
- ]}
+    "9th Poshan **Maah** vs 8th Poshan **Pakhwada**"
+   ]
+  }
+ ]
+}

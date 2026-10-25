@@ -1,51 +1,143 @@
-{"title": "Irrigation and groundwater",
+{
+ "title": "Irrigation and groundwater",
  "tag": "Indian Economy",
  "quote": "Groundwater meets about 64% of irrigation needs; India ≈ 25% of global extraction",
  "boxes": [
-  {"type": "table", "title": "Sources of net irrigated area",
-   "head": ["Source", "Share (2021-22)"],
+  {
+   "type": "table",
+   "title": "Sources of net irrigated area",
+   "head": [
+    "Source",
+    "Share (2021-22)"
+   ],
    "rows": [
-    ["==**Tubewells**==", "**47.3%** (UP largest)"],
-    ["Canals", "**24.7%**"],
-    ["Other wells", "**13.2%**"],
-    ["Tanks", "**2.8%** (peninsular hard-rock)"]
-   ]},
-  {"type": "hierarchy", "title": "Project classes (CCA)",
+    [
+     "==**Tubewells**==",
+     "**47.3%** (UP largest)"
+    ],
+    [
+     "Canals",
+     "**24.7%**"
+    ],
+    [
+     "Other wells",
+     "**13.2%**"
+    ],
+    [
+     "Tanks",
+     "**2.8%** (peninsular hard-rock)"
+    ]
+   ]
+  },
+  {
+   "type": "hierarchy",
+   "title": "Project classes (Culturable Command Area)",
    "levels": [
-    {"name": "Major", "note": "above ==**10,000 ha**=="},
-    {"name": "Medium", "note": "**2,000-10,000 ha**"},
-    {"name": "Minor", "note": "up to **2,000 ha**; ~**65%** of irrigated area"}
-   ]},
-  {"type": "cards", "title": "AP projects",
+    {
+     "name": "Major",
+     "note": "above ==**10,000 ha**=="
+    },
+    {
+     "name": "Medium",
+     "note": "**2,000-10,000 ha**"
+    },
+    {
+     "name": "Minor",
+     "note": "up to **2,000 ha**; ~**65%** of irrigated area"
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "AP projects",
    "cards": [
-    {"title": "Polavaram", "lines": ["==**Godavari**==; **National Project** (APRA 2014)", "**194.6 TMC**; **960 MW**; **89%** complete"]},
-    {"title": "Galeru-Nagari", "lines": ["**Krishna**, **38 TMC**", "**2.60 lakh** acres"]},
-    {"title": "Veligonda", "lines": ["Krishna via Srisailam → **Nallamala Sagar**", "Phase-I **31 Aug 2026**"]},
-    {"title": "Indira Gandhi Canal", "lines": ["Rajasthan; **Harike** barrage", "**~650 km** (PYQ)"]}
-   ]},
-  {"type": "table", "title": "Schemes & Acts",
-   "head": ["Scheme", "Year", "Fact"],
+    {
+     "title": "Polavaram",
+     "lines": [
+      "==**Godavari**==; **National Project** (APRA 2014)",
+      "**194.6 TMC**; **960 MW**; **89%** complete"
+     ]
+    },
+    {
+     "title": "Galeru-Nagari",
+     "lines": [
+      "**Krishna**, **38 TMC**",
+      "**2.60 lakh** acres"
+     ]
+    },
+    {
+     "title": "Veligonda",
+     "lines": [
+      "Krishna via Srisailam → **Nallamala Sagar**",
+      "Phase-I **31 Aug 2026**"
+     ]
+    },
+    {
+     "title": "Indira Gandhi Canal",
+     "lines": [
+      "Rajasthan; **Harike** barrage",
+      "**~650 km** (PYQ)"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Schemes & Acts",
+   "head": [
+    "Scheme",
+    "Year",
+    "Fact"
+   ],
    "rows": [
-    ["**APWALTA**", "**2002**", "Against borewell misuse; RWH on **200 sq m**+"],
-    ["**APMIP**", "**2003**", "**42.25 lakh acres**; Rayalaseema **64%**"],
-    ["**PM-KUSUM**", "**2019**", "==**MNRE**==; solar pumps, de-dieselise"],
-    ["**Atal Bhujal**", "**Dec 2019**", "==**Jal Shakti**==; World Bank; **7 states**; demand-side"],
-    ["**AIBP**", "2016 (LTIF)", "**99** projects; **8** in AP"]
-   ]},
-  {"type": "bullets", "title": "Groundwater (CGWB)",
+    [
+     "**APWALTA**",
+     "**2002**",
+     "Against borewell misuse; rainwater harvesting on **200 sq m**+"
+    ],
+    [
+     "**APMIP**",
+     "**2003**",
+     "**42.25 lakh acres**; Rayalaseema **64%**"
+    ],
+    [
+     "**PM-KUSUM**",
+     "**2019**",
+     "==**MNRE**==; solar pumps, de-dieselise"
+    ],
+    [
+     "**Atal Bhujal**",
+     "**Dec 2019**",
+     "==**Jal Shakti**==; World Bank; **7 states**; demand-side"
+    ],
+    [
+     "**AIBP**",
+     "2016 (LTIF)",
+     "**99** projects; **8** in AP"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Groundwater (CGWB)",
    "items": [
     "Categories: **Safe, Semi-critical, Critical, Over-exploited** + Saline",
     "India extraction ==**60.63%**== (2025)",
     "AP **31.5% (Safe)**; **12** of 679 mandals over-exploited",
     "AP: groundwater **41%** of GIA; **38,862** tanks",
-    "AP GIA **36.77 lakh ha**; NIA **30.33 lakh ha**"
-   ]},
-  {"type": "note", "title": "Exam corner",
+    "AP GIA **36.77 lakh ha**; net irrigated area **30.33 lakh ha**"
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "**2,000 ha** = minor/medium line; **10,000 ha** = medium/major",
     "Polavaram = **Godavari**; Galeru-Nagari, Veligonda = **Krishna**",
     "APWALTA rainwater harvesting ==**200 sq m**== (PYQ)",
     "PM-KUSUM = \"agricultural solar pump system\" (JPSC)",
     "AP ranks **1st** in micro-irrigation"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

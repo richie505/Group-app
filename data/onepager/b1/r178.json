@@ -1,17 +1,41 @@
-{"title": "Colonial education policy",
+{
+ "title": "Colonial education policy",
  "tag": "Modern History",
  "quote": "Wood's Despatch 1854: the Magna Carta of English Education in India",
  "boxes": [
-  {"type": "timeline", "title": "Policy milestones",
+  {
+   "type": "timeline",
+   "title": "Policy milestones",
    "items": [
-    {"when": "1813", "what": "**Charter Act**: ==**Rs 1 lakh**== a year (released only in **1830s**)"},
-    {"when": "1823", "what": "**General Committee of Public Instruction**: Orientalist vs Anglicist camps"},
-    {"when": "1835", "what": "**Macaulay's Minute**; **English Education Act** (Bentinck): English for higher education"},
-    {"when": "1853", "what": "**Dalhousie's Minute**: vernacular education"},
-    {"when": "1854", "what": "==**Wood's Despatch**== (**Charles Wood**, under Dalhousie)"},
-    {"when": "1857", "what": "Universities: **Calcutta, Bombay, Madras** (London model)"}
-   ]},
-  {"type": "bullets", "title": "Wood's Despatch, 1854",
+    {
+     "when": "1813",
+     "what": "**Charter Act**: ==**Rs 1 lakh**== a year (released only in **1830s**)"
+    },
+    {
+     "when": "1823",
+     "what": "**General Committee of Public Instruction**: Orientalist vs Anglicist camps"
+    },
+    {
+     "when": "1835",
+     "what": "**Macaulay's Minute**; **English Education Act** (Bentinck): English for higher education"
+    },
+    {
+     "when": "1853",
+     "what": "**Dalhousie's Minute**: vernacular education"
+    },
+    {
+     "when": "1854",
+     "what": "==**Wood's Despatch**== (**Charles Wood**, under Dalhousie)"
+    },
+    {
+     "when": "1857",
+     "what": "Universities: **Calcutta, Bombay, Madras** (London model)"
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Wood's Despatch, 1854",
    "items": [
     "==**\"Magna Carta of English Education in India\"**==",
     "Graded hierarchy: vernacular primary → high schools → colleges → universities",
@@ -19,45 +43,172 @@
     "English for higher, vernacular for lower education",
     "**Training of teachers**; government supervision",
     "**Madras University**: **5 September 1857**"
-   ]},
-  {"type": "table", "title": "Education commissions",
-   "head": ["Body", "Year", "Viceroy", "Focus"],
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Education commissions",
+   "head": [
+    "Body",
+    "Year",
+    "Viceroy",
+    "Focus"
+   ],
    "rows": [
-    ["**Hunter** (W.W. Hunter)", "==**1882**==", "**Ripon**", "Primary; schools to **local boards**"],
-    ["**Raleigh** Universities", "**1902**", "**Curzon**", "→ **Universities Act 1904**"],
-    ["Resolution", "**1913**", "Hardinge II", "**Gokhale's** primary demand"],
-    ["**Sadler** (Calcutta Univ.)", "**1917-19**", "Chelmsford", "12-year school course"],
-    ["**Hartog**", "**1929**", "Irwin", "Primary wastage"],
-    ["**Sargent Plan**", "**1944**", "Wavell", "Free education **6-14** years"]
-   ]},
-  {"type": "table", "title": "Early institutions",
-   "head": ["Institution", "Year", "Founder"],
+    [
+     "**Hunter** (W.W. Hunter)",
+     "==**1882**==",
+     "**Ripon**",
+     "Primary; schools to **local boards**"
+    ],
+    [
+     "**Raleigh** Universities",
+     "**1902**",
+     "**Curzon**",
+     "→ **Universities Act 1904**"
+    ],
+    [
+     "Resolution",
+     "**1913**",
+     "Hardinge II",
+     "**Gokhale's** primary demand"
+    ],
+    [
+     "**Sadler** (Calcutta Univ.)",
+     "**1917-19**",
+     "Chelmsford",
+     "12-year school course"
+    ],
+    [
+     "**Hartog**",
+     "**1929**",
+     "Irwin",
+     "Primary wastage"
+    ],
+    [
+     "**Sargent Plan**",
+     "**1944**",
+     "Wavell",
+     "Free education **6-14** years"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Early institutions",
+   "head": [
+    "Institution",
+    "Year",
+    "Founder"
+   ],
    "rows": [
-    ["==**Calcutta Madarsa**== (first)", "**1780**", "**Warren Hastings**"],
-    ["**Sanskrit College, Banaras**", "**1791**", "**Jonathan Duncan**"],
-    ["Fort William College", "**1800**", "**Richard Wellesley**"],
-    ["**Hindu College**", "**1817**", "**David Hare**, Ram Mohan Roy"],
-    ["**Mayo College**, Ajmer", "**1875**", "Richard Bourke"],
-    ["**Central Hindu School**", "**1898**", "**Annie Besant**"]
-   ]},
-  {"type": "table", "title": "Andhra & Hyderabad institutions",
-   "head": ["Institution", "Founder", "Year"],
+    [
+     "==**Calcutta Madarsa**== (first)",
+     "**1780**",
+     "**Warren Hastings**"
+    ],
+    [
+     "**Sanskrit College, Banaras**",
+     "**1791**",
+     "**Jonathan Duncan**"
+    ],
+    [
+     "Fort William College",
+     "**1800**",
+     "**Richard Wellesley**"
+    ],
+    [
+     "**Hindu College**",
+     "**1817**",
+     "**David Hare**, Ram Mohan Roy"
+    ],
+    [
+     "**Mayo College**, Ajmer",
+     "**1875**",
+     "Richard Bourke"
+    ],
+    [
+     "**Central Hindu School**",
+     "**1898**",
+     "**Annie Besant**"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Andhra & Hyderabad institutions",
+   "head": [
+    "Institution",
+    "Founder",
+    "Year"
+   ],
    "rows": [
-    ["Noble School, **Machilipatnam**", "==**Robert Noble** (CMS)==", "**1843**"],
-    ["Anglo-Vernacular School, **Narsapur**", "**G.N. Taylor**", "**1852**"],
-    ["**Vivekavardhini**, Rajahmundry", "**Kandukuri Veeresalingam**", "**1874**"],
-    ["**Andhra Jatheeya Kalasala**", "Hanumanta Rao, Pattabhi", "**1910**"],
-    ["**Osmania University** (Urdu medium)", "**Mir Osman Ali Khan**", "**1917**"],
-    ["**Andhra University** (VC **C.R. Reddy**)", "Act **1925**", "**1926**"]
-   ]},
-  {"type": "cards", "title": "Missionaries in Andhra",
+    [
+     "Noble School, **Machilipatnam**",
+     "==**Robert Noble** (CMS)==",
+     "**1843**"
+    ],
+    [
+     "Anglo-Vernacular School, **Narsapur**",
+     "**G.N. Taylor**",
+     "**1852**"
+    ],
+    [
+     "**Vivekavardhini**, Rajahmundry",
+     "**Kandukuri Veeresalingam**",
+     "**1874**"
+    ],
+    [
+     "**Andhra Jatheeya Kalasala**",
+     "Hanumanta Rao, Pattabhi",
+     "**1910**"
+    ],
+    [
+     "**Osmania University** (Urdu medium)",
+     "**Mir Osman Ali Khan**",
+     "**1917**"
+    ],
+    [
+     "**Andhra University** (Vice-Chancellor **C.R. Reddy**)",
+     "Act **1925**",
+     "**1926**"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Missionaries in Andhra",
    "cards": [
-    {"title": "London Missionary Society", "lines": ["==First (**1805**)==", "Kadapa centre **1824**"]},
-    {"title": "North German Society", "lines": ["Rajahmundry, Eluru (1843)"]},
-    {"title": "American Baptists", "lines": ["Ongole, Nellore, Rayalaseema"]},
-    {"title": "Church Missionary Society", "lines": ["**Machilipatnam**"]}
-   ]},
-  {"type": "note", "title": "Exam corner",
+    {
+     "title": "London Missionary Society",
+     "lines": [
+      "==First (**1805**)==",
+      "Kadapa centre **1824**"
+     ]
+    },
+    {
+     "title": "North German Society",
+     "lines": [
+      "Rajahmundry, Eluru (1843)"
+     ]
+    },
+    {
+     "title": "American Baptists",
+     "lines": [
+      "Ongole, Nellore, Rayalaseema"
+     ]
+    },
+    {
+     "title": "Church Missionary Society",
+     "lines": [
+      "**Machilipatnam**"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "First educational institution = ==**Calcutta Madrasa** (1780)== (⚠ other notes: 1781)",
     "Sanskrit College is **not** William Jones; Fort William = **Richard**, not Arthur",
@@ -65,5 +216,7 @@
     "Hunter **1882** = Ripon; Universities Commission **1902** = Curzon",
     "Western education in Andhra spread first by **Christian missionaries**",
     "**Downward filtration** neglected mass literacy; Hunter, Hartog returned to primary"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

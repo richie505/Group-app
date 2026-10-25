@@ -1,60 +1,165 @@
-{"title": "Infrastructure, industry, energy & digital schemes",
+{
+ "title": "Infrastructure, industry, energy & digital schemes",
  "tag": "Government Schemes",
  "quote": "MUDRA: \"fund the unfunded\" - collateral-free up to ₹10 lakh",
  "boxes": [
-  {"type": "hierarchy", "title": "MUDRA loan tiers",
+  {
+   "type": "hierarchy",
+   "title": "MUDRA loan tiers",
    "levels": [
-    {"name": "Tarun", "note": "₹5 lakh to ==**₹10 lakh**=="},
-    {"name": "Kishor", "note": "₹50,000 to **₹5 lakh**"},
-    {"name": "Shishu", "note": "up to **₹50,000**; Finance Ministry, **April 2015**; refinance via **SIDBI**"}
-   ]},
-  {"type": "bullets", "title": "Industry & MSME",
+    {
+     "name": "Tarun",
+     "note": "₹5 lakh to ==**₹10 lakh**=="
+    },
+    {
+     "name": "Kishor",
+     "note": "₹50,000 to **₹5 lakh**"
+    },
+    {
+     "name": "Shishu",
+     "note": "up to **₹50,000**; Finance Ministry, **April 2015**; refinance via **SIDBI**"
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Industry & MSME",
    "items": [
     "**PLI**: Central Sector, ==**14 sectors**==",
     "**Startup India**: Fund of Funds **₹10,000 crore** (SIDBI); **3-year** tax holiday; exit in **90 days**",
     "**Stand-Up India**: loans to **SC/ST and women**",
     "**Solar Charkha** (2018, KVIC); **ZED**: Bronze, Silver, Gold"
-   ]},
-  {"type": "table", "title": "Infrastructure",
-   "head": ["Programme", "Objective"],
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Infrastructure",
+   "head": [
+    "Programme",
+    "Objective"
+   ],
    "rows": [
-    ["**UDAN** (2016)", "Regional air connectivity; **657** routes"],
-    ["**PM Gati Shakti** (Oct 2021)", "==National Master Plan==; GIS-based"],
-    ["**Bharatmala** (2017)", "**Highways**; NHAI"],
-    ["**Sagarmala** (2015)", "**Port-led** development"],
-    ["**NIP**", "**₹111 lakh crore**, **2020-25**"],
-    ["**DFCs**", "Eastern + Western; **DFCCIL**"],
-    ["**PM-DevINE**", "North East; **DoNER**; **100%** central"]
-   ]},
-  {"type": "table", "title": "Energy",
-   "head": ["Programme", "Objective", "Ministry"],
+    [
+     "**UDAN** (2016)",
+     "Regional air connectivity; **657** routes"
+    ],
+    [
+     "**PM Gati Shakti** (Oct 2021)",
+     "==National Master Plan==; GIS-based"
+    ],
+    [
+     "**Bharatmala** (2017)",
+     "**Highways**; NHAI"
+    ],
+    [
+     "**Sagarmala** (2015)",
+     "**Port-led** development"
+    ],
+    [
+     "**NIP**",
+     "**₹111 lakh crore**, **2020-25**"
+    ],
+    [
+     "**DFCs**",
+     "Eastern + Western; **DFCCIL**"
+    ],
+    [
+     "**PM-DevINE**",
+     "North East; **DoNER**; **100%** central"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Energy",
+   "head": [
+    "Programme",
+    "Objective",
+    "Ministry"
+   ],
    "rows": [
-    ["**UJALA** (2015)", "LED bulbs via **EESL**", "Power"],
-    ["**UDAY** (2015)", "DISCOM debt", "Power"],
-    ["**PAHAL**", "LPG subsidy DBT", "Petroleum"],
-    ["**Green Hydrogen Mission**", "**5 MMTA** by 2030; **₹19,744 crore**", "**MNRE**, ==**Jan 2023**=="],
-    ["**PM-KUSUM**", "Solar pumps: A, B, C", "**MNRE**"]
-   ]},
-  {"type": "cards", "title": "Digital",
+    [
+     "**UJALA** (2015)",
+     "LED bulbs via **EESL**",
+     "Power"
+    ],
+    [
+     "**UDAY** (2015)",
+     "DISCOM debt",
+     "Power"
+    ],
+    [
+     "**PAHAL**",
+     "LPG subsidy DBT",
+     "Petroleum"
+    ],
+    [
+     "**Green Hydrogen Mission**",
+     "**5 MMTA** by 2030; **₹19,744 crore**",
+     "**MNRE**, ==**Jan 2023**=="
+    ],
+    [
+     "**PM-KUSUM**",
+     "Solar pumps: A, B, C",
+     "**MNRE**"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Digital",
    "cards": [
-    {"title": "Aadhaar", "lines": ["==**12-digit**== (APPSC 2023)", "**2009**; Act **2016**"]},
-    {"title": "Digital India", "lines": ["**1 July 2015**; **MeitY**", "**9 pillars**"]},
-    {"title": "IndiaAI Mission", "lines": ["**March 2024**", "Rs **10,372** crore"]},
-    {"title": "Others", "lines": ["**BharatNet**: GP broadband", "**ONDC**: DPIIT", "**PM-WANI** (2020): DoT"]}
-   ]},
-  {"type": "bullets", "title": "Key data",
+    {
+     "title": "Aadhaar",
+     "lines": [
+      "==**12-digit**== (APPSC 2023)",
+      "**2009**; Act **2016**"
+     ]
+    },
+    {
+     "title": "Digital India",
+     "lines": [
+      "**1 July 2015**; **MeitY**",
+      "**9 pillars**"
+     ]
+    },
+    {
+     "title": "IndiaAI Mission",
+     "lines": [
+      "**March 2024**",
+      "Rs **10,372** crore"
+     ]
+    },
+    {
+     "title": "Others",
+     "lines": [
+      "**BharatNet**: GP broadband",
+      "**ONDC**: DPIIT",
+      "**PM-WANI** (2020): DoT"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Key data",
    "items": [
     "Logistics cost **13-14%** of GDP vs **8-10%**",
     "Renewables **40 GW (2015) → 260 GW (2025)**",
     "Installed capacity **509.74 GW**; RE near **50%**",
     "ONDC: **20 crore** buyers"
-   ]},
-  {"type": "note", "title": "Exam corner",
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "APPSC 2025: Make in India **2014**, Digital India **2015**, Startup **2016**, Atmanirbhar **2020**",
     "⚠ Bharatmala = highways; Sagarmala = ports",
     "⚠ UJALA = LEDs; UDAY = DISCOMs",
     "UDAN (APPSC 2022): \"8 years in Aug 2023\" = false",
-    "H2 hubs: **Kandla, Paradip, Tuticorin**; \"BIRAC sole agency\" = false"
-   ]}
- ]}
+    "hydrogen hubs: **Kandla, Paradip, Tuticorin**; \"BIRAC sole agency\" = false"
+   ]
+  }
+ ]
+}

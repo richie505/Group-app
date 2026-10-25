@@ -1,70 +1,181 @@
-{"title": "Structure of the Indian financial system",
+{
+ "title": "Structure of the Indian financial system",
  "tag": "Indian Economy",
  "quote": "IFCI (1948) began the era of development financing; NaBFID (2021) is the newest DFI",
  "boxes": [
-  {"type": "table", "title": "Money market: organised vs unorganised",
-   "head": ["Organised (RBI-regulated)", "Unorganised"],
+  {
+   "type": "table",
+   "title": "Money market: organised vs unorganised",
+   "head": [
+    "Organised (RBI-regulated)",
+    "Unorganised"
+   ],
    "rows": [
-    ["Commercial, cooperative, foreign banks; DFHI, STCI, mutual funds", "==**Indigenous bankers**==, **moneylenders**, chit funds, nidhis"],
-    ["Call money, T-bills, CDs, CPs, repo", "Farmers, artisans, small traders"]
-   ]},
-  {"type": "timeline", "title": "DFIs: year & role",
+    [
+     "Commercial, cooperative, foreign banks; DFHI, STCI, mutual funds",
+     "==**Indigenous bankers**==, **moneylenders**, chit funds, nidhis"
+    ],
+    [
+     "Call money, T-bills, CDs, CPs, repo",
+     "Farmers, artisans, small traders"
+    ]
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "DFIs: year & role",
    "items": [
-    {"when": "1948", "what": "==**IFCI**: India's first DFI== (APPSC 2018)"},
-    {"when": "1955", "what": "**ICICI**: World Bank initiative; later universal bank"},
-    {"when": "1964", "what": "**IDBI** (apex; now private bank, **LIC**) & **UTI**"},
-    {"when": "1982", "what": "**EXIM Bank** (Jan) & **NABARD** (**12 July**; **CRAFICARD**)"},
-    {"when": "1988", "what": "**NHB** (Act **1987**): housing; **RESIDEX** (2007)"},
-    {"when": "1990", "what": "**SIDBI**: MSMEs"},
-    {"when": "2021", "what": "**NaBFID**: infrastructure, **₹20,000 crore** capital"}
-   ]},
-  {"type": "table", "title": "Regulators",
-   "head": ["Regulator", "Covers"],
+    {
+     "when": "1948",
+     "what": "==**IFCI**: India's first DFI== (APPSC 2018)"
+    },
+    {
+     "when": "1955",
+     "what": "**ICICI**: World Bank initiative; later universal bank"
+    },
+    {
+     "when": "1964",
+     "what": "**IDBI** (apex; now private bank, **LIC**) & **UTI**"
+    },
+    {
+     "when": "1982",
+     "what": "**EXIM Bank** (Jan) & **NABARD** (**12 July**; **CRAFICARD**)"
+    },
+    {
+     "when": "1988",
+     "what": "**NHB** (Act **1987**): housing; **RESIDEX** (2007)"
+    },
+    {
+     "when": "1990",
+     "what": "**SIDBI**: MSMEs"
+    },
+    {
+     "when": "2021",
+     "what": "**NaBFID**: infrastructure, **₹20,000 crore** capital"
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Regulators",
+   "head": [
+    "Regulator",
+    "Covers"
+   ],
    "rows": [
-    ["**RBI**", "NBFCs; ==HFCs since **2019**== (from NHB)"],
-    ["**SEBI**", "Securities, FPIs, brokers"],
-    ["**IRDAI** / **PFRDA**", "Insurance / pensions (**PFRDA Act, 2013**)"],
-    ["**IFSCA**", "GIFT City IFSCs, **April 2020**"],
-    ["State Government", "==Chit funds== (Act **1982**)"]
-   ]},
-  {"type": "table", "title": "NBFC vs bank",
-   "head": ["Basis", "Bank", "NBFC"],
+    [
+     "**RBI**",
+     "NBFCs; ==HFCs since **2019**== (from NHB)"
+    ],
+    [
+     "**SEBI**",
+     "Securities, FPIs, brokers"
+    ],
+    [
+     "**IRDAI** / **PFRDA**",
+     "Insurance / pensions (**PFRDA Act, 2013**)"
+    ],
+    [
+     "**IFSCA**",
+     "GIFT City IFSCs, **April 2020**"
+    ],
+    [
+     "State Government",
+     "==Chit funds== (Act **1982**)"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "NBFC vs bank",
+   "head": [
+    "Basis",
+    "Bank",
+    "NBFC"
+   ],
    "rows": [
-    ["Demand deposits / cheques", "Yes", "==No=="],
-    ["Payment system", "Part", "Not part"],
-    ["DICGC cover", "Yes", "No"],
-    ["CRR / SLR", "Both", "No CRR"]
-   ]},
-  {"type": "bullets", "title": "NBFC rules",
+    [
+     "Demand deposits / cheques",
+     "Yes",
+     "==No=="
+    ],
+    [
+     "Payment system",
+     "Part",
+     "Not part"
+    ],
+    [
+     "DICGC cover",
+     "Yes",
+     "No"
+    ],
+    [
+     "CRR / SLR",
+     "Both",
+     "No CRR"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "NBFC rules",
    "items": [
     "**50-50 test**: financial assets & income each >**50%**",
-    "NBFC-MFI: ==NOF **₹10 crore**==; **75%** assets in microfinance",
+    "NBFC-MFI: ==net owned fund **₹10 crore**==; **75%** assets in microfinance",
     "Microfinance loan: household income up to **₹3 lakh**",
     "**SBR** layers: Base → Middle → Upper → Top (Top kept empty)",
     "Upper layer: **17 companies** incl. **Tata Sons**; listing within **3 years**"
-   ]},
-  {"type": "hierarchy", "title": "Rural cooperative credit (short-term)",
+   ]
+  },
+  {
+   "type": "hierarchy",
+   "title": "Rural cooperative credit (short-term)",
    "levels": [
-    {"name": "StCB", "note": "State; AP: **APCOB**"},
-    {"name": "DCCB", "note": "District; AP: **13 DCCBs**"},
-    {"name": "PACS", "note": "Village; AP: **2,024 PACS**"}
-   ]},
-  {"type": "bullets", "title": "Rural credit & cooperatives",
+    {
+     "name": "StCB",
+     "note": "State; AP: **APCOB**"
+    },
+    {
+     "name": "DCCB",
+     "note": "District; AP: **13 DCCBs**"
+    },
+    {
+     "name": "PACS",
+     "note": "Village; AP: **2,024 PACS**"
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Rural credit & cooperatives",
    "items": [
     "**NABARD**: refinances StCBs, RRBs; runs **RIDF**; inspects cooperatives",
     "**RRBs**: **1975-76**; now **28 RRBs**",
     "==**SHG-Bank Linkage**: NABARD pilot **1992**== (Grameen idea, **Yunus**)",
     "**BR (Amendment) Act 2020**: UCBs under RBI (after PMC)",
     "UCB licensing \"on tap\" resumed; **1,457 UCBs**"
-   ]},
-  {"type": "flow", "title": "Microfinance: AP crisis to regulation",
-   "steps": ["**AP crisis 2010**: multiple lending, coercive recovery", "**AP Ordinance, Oct 2010** (Act 2011)", "==**Malegam Committee**==: NBFC-MFI category; max **2 MFIs per borrower**", "**MFIN** (2009), **Sa-Dhan** recognised SROs (**2014**)"]},
-  {"type": "note", "title": "Exam corner",
+   ]
+  },
+  {
+   "type": "flow",
+   "title": "Microfinance: AP crisis to regulation",
+   "steps": [
+    "**AP crisis 2010**: multiple lending, coercive recovery",
+    "**AP Ordinance, Oct 2010** (Act 2011)",
+    "==**Malegam Committee**==: NBFC-MFI category; max **2 MFIs per borrower**",
+    "**MFIN** (2009), **Sa-Dhan** recognised SROs (**2014**)"
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "**Finance companies** NOT in organised money market (APPSC 2017)",
     "Refinance institutions: **NABARD, NHB, SIDBI** (APPSC 2024 picked **NHB**)",
     "Lends only in kind ≠ indigenous banker",
     "**RDCL**: both statements correct (APPSC 2024)",
     "**DHFL**: ==first financial firm resolved under **IBC**== (Piramal, 2021)"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

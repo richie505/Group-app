@@ -1,72 +1,204 @@
-{"title": "Earth observation satellites",
+{
+ "title": "Earth observation satellites",
  "tag": "Science & Tech",
  "quote": "RISAT = radar through clouds; Oceansat = fishing zones; Cartosat = mapping; Resourcesat = crops",
  "boxes": [
-  {"type": "table", "title": "Passive vs active sensors",
-   "head": ["Type", "Energy", "Examples"],
+  {
+   "type": "table",
+   "title": "Passive vs active sensors",
+   "head": [
+    "Type",
+    "Energy",
+    "Examples"
+   ],
    "rows": [
-    ["**Passive**", "Sunlight or emitted heat", "IRS, Resourcesat, Oceansat, cameras"],
-    ["**Active**", "Own pulse, reads echo", "==**RISAT** SAR, **LiDAR**=="]
-   ]},
-  {"type": "bullets", "title": "Remote sensing basics",
+    [
+     "**Passive**",
+     "Sunlight or emitted heat",
+     "IRS, Resourcesat, Oceansat, cameras"
+    ],
+    [
+     "**Active**",
+     "Own pulse, reads echo",
+     "==**RISAT** SAR, **LiDAR**=="
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Remote sensing basics",
    "items": [
-    "Info **without physical contact** via EM radiation",
+    "Info **without physical contact** via electromagnetic radiation",
     "Resolutions: **spatial, spectral, temporal, radiometric**",
     "**SAR** pierces cloud and darkness; optical needs daylight",
     "Most EO in **sun-synchronous** orbit: same local solar time",
     "**Thermal infrared** → volcanic eruptions, forest fires"
-   ]},
-  {"type": "timeline", "title": "IRS milestones",
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "IRS milestones",
    "items": [
-    {"when": "1979", "what": "**Bhaskara I**: first experimental EO satellite"},
-    {"when": "17 Mar 1988", "what": "==**IRS-1A**: first operational==, Soviet launcher"},
-    {"when": "1994", "what": "**IRS-P2**: first on **PSLV**"},
-    {"when": "2005", "what": "**Cartosat-1**: stereo images"},
-    {"when": "30 Jul 2025", "what": "**NISAR**: NASA **L-band** + ISRO **S-band**"},
-    {"when": "4 Sep 2026", "what": "==**EOS-05**: first EO imager in GEO== (GSLV-F17)"}
-   ]},
-  {"type": "table", "title": "Series → function",
-   "head": ["Series", "Function"],
+    {
+     "when": "1979",
+     "what": "**Bhaskara I**: first experimental EO satellite"
+    },
+    {
+     "when": "17 Mar 1988",
+     "what": "==**IRS-1A**: first operational==, Soviet launcher"
+    },
+    {
+     "when": "1994",
+     "what": "**IRS-P2**: first on **PSLV**"
+    },
+    {
+     "when": "2005",
+     "what": "**Cartosat-1**: stereo images"
+    },
+    {
+     "when": "30 Jul 2025",
+     "what": "**NISAR**: NASA **L-band** + ISRO **S-band**"
+    },
+    {
+     "when": "4 Sep 2026",
+     "what": "==**EOS-05**: first EO imager in GEO== (GSLV-F17)"
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Series → function",
+   "head": [
+    "Series",
+    "Function"
+   ],
    "rows": [
-    ["**Resourcesat**", "Crops, watershed"],
-    ["**Cartosat**", "Mapping; Cartosat-3 ~==**25 cm**=="],
-    ["**Oceansat**", "==**Potential Fishing Zone**== advisories"],
-    ["**RISAT**", "SAR, all-weather; floods"],
-    ["**SCATSAT-1**", "Ocean winds, cyclones"],
-    ["**HySIS**", "Hyperspectral"],
-    ["**SARAL**", "ISRO-CNES altimetry"]
-   ]},
-  {"type": "cards", "title": "EOS renamings",
+    [
+     "**Resourcesat**",
+     "Crops, watershed"
+    ],
+    [
+     "**Cartosat**",
+     "Mapping; Cartosat-3 ~==**25 cm**=="
+    ],
+    [
+     "**Oceansat**",
+     "==**Potential Fishing Zone**== advisories"
+    ],
+    [
+     "**RISAT**",
+     "SAR, all-weather; floods"
+    ],
+    [
+     "**SCATSAT-1**",
+     "Ocean winds, cyclones"
+    ],
+    [
+     "**HySIS**",
+     "Hyperspectral"
+    ],
+    [
+     "**SARAL**",
+     "ISRO-CNES altimetry"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "EOS renamings",
    "cards": [
-    {"title": "EOS-04", "lines": ["= **RISAT-1A**", "SAR; NRSC **CROP** wheat estimate"]},
-    {"title": "EOS-06", "lines": ["= **Oceansat-3**", "PFZ advisories"]},
-    {"title": "EOS-03", "lines": ["= **GISAT-1**", "==Lost on **GSLV-F10**, 2021=="]},
-    {"title": "EOS-05", "lines": ["= **GISAT-1A**", "All India every **30 min**"]}
-   ]},
-  {"type": "table", "title": "Navigation systems",
-   "head": ["System", "Owner", "Scope"],
+    {
+     "title": "EOS-04",
+     "lines": [
+      "= **RISAT-1A**",
+      "SAR; NRSC **CROP** wheat estimate"
+     ]
+    },
+    {
+     "title": "EOS-06",
+     "lines": [
+      "= **Oceansat-3**",
+      "PFZ advisories"
+     ]
+    },
+    {
+     "title": "EOS-03",
+     "lines": [
+      "= **GISAT-1**",
+      "==Lost on **GSLV-F10**, 2021=="
+     ]
+    },
+    {
+     "title": "EOS-05",
+     "lines": [
+      "= **GISAT-1A**",
+      "All India every **30 min**"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Navigation systems",
+   "head": [
+    "System",
+    "Owner",
+    "Scope"
+   ],
    "rows": [
-    ["GPS", "USA", "Global"],
-    ["GLONASS", "Russia", "Global"],
-    ["Galileo", "EU", "Global"],
-    ["BeiDou", "China", "Global"],
-    ["**QZSS**", "Japan", "==Regional=="],
-    ["**NavIC**", "India", "==Regional=="]
-   ]},
-  {"type": "bullets", "title": "Data & applications",
+    [
+     "GPS",
+     "USA",
+     "Global"
+    ],
+    [
+     "GLONASS",
+     "Russia",
+     "Global"
+    ],
+    [
+     "Galileo",
+     "EU",
+     "Global"
+    ],
+    [
+     "BeiDou",
+     "China",
+     "Global"
+    ],
+    [
+     "**QZSS**",
+     "Japan",
+     "==Regional=="
+    ],
+    [
+     "**NavIC**",
+     "India",
+     "==Regional=="
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Data & applications",
    "items": [
     "Nodal: ==**NRSC, Hyderabad**==; **Bhuvan**, Bhoonidhi, MOSDAC, VEDAS",
     "**FASAL** crop forecasting; groundwater, wetlands, drought",
     "**Landslide Atlas** (NRSC, 2023); **Joshimath** via Cartosat-2S",
     "AP: **APSAC**; SDSC-SHAR data to **APSDMA**",
     "Training: **IIRS**, **CSSTEAP** in **Dehradun**"
-   ]},
-  {"type": "note", "title": "Exam corner",
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "\"Interaction with minimisation\" ==not a component== (APPSC 2022)",
     "\"**Chemical**\" resolution does not exist (APPSC 2025)",
     "Laser = active; infrared sensors for volcanoes (APPSC 2023)",
     "⚠ EOS-03 called geo-imaging (APPSC 2021) but lost at launch",
     "Losses: **EOS-09** (PSLV-C61), **EOS-N1 Anvesha** (PSLV-C62)"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

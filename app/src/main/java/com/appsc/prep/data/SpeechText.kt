@@ -205,6 +205,27 @@ object SpeechText {
         t = t.replace(Regex("""(?<=\d)\s?µg/m³"""), " micrograms per cubic metre").replace(Regex("""(?<=\d)\s?mg/L\b"""), " milligrams per litre")
             .replace(Regex("""(?<=\d)\s?km/h\b"""), " kilometres per hour").replace(Regex("""(?<=\d)\s?kg/ha\b"""), " kilograms per hectare")
             .replace(Regex("""(?<=\d)\s?W/m²"""), " watts per square metre")
+        // per unit of time, person or area: "₹500 crore/yr", "860 mm/yr", "5 g/km", "2°C/km"
+        t = t.replace(Regex("""(?<=\d|crore|lakh|billion|million|\bbn|\bmn|\bcr|\bmm|\bcm|\bg|\bmg|\bkg|\bkm|\bt|\btn|tonnes?|pagodas|\bha|days?|°C)\s?/\s?(yr|year|day|month|annum|person|capita|km|kg|ha|household|head|acre|quintal|litre)\b""")) {
+            " per " + if (it.groupValues[1] == "yr") "year" else it.groupValues[1]
+        }
+        // the one-page notes' marks: sources that differ, flow and level marks, rises and falls
+        t = t.replace(Regex("""⚠\s*(other|older|old|some)\s+(notes|sources)\s*:?\s*""", RegexOption.IGNORE_CASE)) { ", ${it.groupValues[1].lowercase()} ${it.groupValues[2].lowercase()} say: " }
+            .replace(Regex("""⚠\s*one source\s*:?\s*""", RegexOption.IGNORE_CASE), ", one source says: ")
+            .replace(Regex("""⚠\s*(?i:trap)\s*:?\s*"""), ", trap: ").replace(Regex("""⚠\s*"""), ", note: ")
+            .replace(Regex("""(?<=[(;:,])\s*,\s*"""), " ").replace(Regex("""^\s*,\s*"""), "")
+        t = t.replace(Regex("""[▲▸↻]\s?"""), "").replace(Regex("""\s↓\s*$"""), "")
+            .replace(Regex("""\s?↑"""), " rises").replace(Regex("""\s?↓"""), " falls")
+        // "Dilmun = Bahrain" is said as a pause; "7% − 3% = 4%" as "equals"
+        t = t.replace(Regex("""(?<=[\d%])\s*=\s*(?=[\d₹(])"""), " equals ").replace(Regex("""\s*=\s*"""), ": ")
+        t = t.replace("≠", " is not ").replace("÷", " divided by ").replace("−", " minus ").replace("Σ", " the sum of ")
+            .replace("√", " the square root of ").replace("½", " half").replace("⅓", " one third").replace("‰", " per thousand")
+        t = t.replace(Regex("""[₀-₉]""")) { (it.value[0] - '₀').toString() }
+        t = t.replace(Regex("""(?<=\d(st|nd|rd|th)) c\.(?=\s|$|[,;)])"""), " century")
+        t = t.replace(Regex("""\bincl\.?(?=\s)"""), "including").replace(Regex("""\bIntl\b\.?"""), "International")
+            .replace(Regex("""\bdept\b\.?"""), "department").replace(Regex("""\bDept\b\.?"""), "Department")
+            .replace(Regex("""(?<=\S)\s+sq\.?\s?km\b"""), " square kilometres")
+            .replace(Regex("""(?<=\d|metres|m|km|cm)\s+x\s+(?=\d)"""), " by ")
         t = t.replace("→", " to ").replace("←", " from ").replace("⇒", " so ").replace("↔", " and ")
         t = t.replace("≈", " about ").replace("~", " about ").replace("≥", " at least ").replace("≤", " at most ")
         t = t.replace(Regex("""(?<=\s|^)>\s?(?=[\d₹])"""), "more than ").replace(Regex("""(?<=\s|^)<\s?(?=[\d₹])"""), "less than ")
@@ -321,7 +342,7 @@ object SpeechText {
         t = t.replace(Regex("""\(₹\s?(?:in\s)?(cr|crore|Cr)\.?\)"""), "(in crore rupees)").replace(Regex("""\(₹\s?(?:in\s)?lakh\)"""), "(in lakh rupees)")
             .replace("(₹)", "(in rupees)").replace(Regex("""₹\s?/\s?"""), "rupees per ").replace(Regex("""\bRs per\b"""), "rupees per")
             .replace(Regex("""\bper \$(?!\s?\d)"""), "per dollar").replace(Regex("""\blakh [Cc]r\b\.?"""), "lakh crore")
-        t = Regex("""(?:₹|\bRs\.?)\s?([\d,.]+)\s?(lakh crore|crore|lakh|Cr\.?|cr\.?|bn|billion|mn|million|trillion)?""").replace(t) { m ->
+        t = Regex("""(?:₹|\bRs\.?)\s?([\d,.]+)(?:\s?(lakh crore|crore|lakh|Cr\.?|cr\.?|bn|billion|mn|million|trillion))?""").replace(t) { m ->
             val amount = bigNumbers(m.groupValues[1].trimEnd('.', ','))
             val unit = when (m.groupValues[2].lowercase().trimEnd('.')) {
                 "cr" -> " crore"; "bn" -> " billion"; "mn" -> " million"; "" -> ""; else -> " " + m.groupValues[2]

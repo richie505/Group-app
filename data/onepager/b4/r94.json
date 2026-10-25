@@ -1,60 +1,166 @@
-{"title": "Postal, telecom and digital networks",
+{
+ "title": "Postal, telecom and digital networks",
  "tag": "Indian Geography",
  "quote": "TRAI = regulator; Prasar Bharati = broadcaster; TDSAT = appeals against TRAI",
  "boxes": [
-  {"type": "table", "title": "Regulators & bodies",
-   "head": ["Body", "Basis", "Function"],
+  {
+   "type": "table",
+   "title": "Regulators & bodies",
+   "head": [
+    "Body",
+    "Basis",
+    "Function"
+   ],
    "rows": [
-    ["**TRAI**", "TRAI Act **1997**", "==Regulator of telecom & broadcasting=="],
-    ["**TDSAT**", "**2000** amendment", "Appeals against TRAI"],
-    ["**DoT**", "Ministry of Communications", "Policy, licensing, **spectrum**"],
-    ["**Prasar Bharati**", "Act **1990**", "Broadcaster: **AIR, Doordarshan**"],
-    ["**PRGI**", "**PRP Act 2023**", "Newspaper registration"]
-   ]},
-  {"type": "timeline", "title": "Telecom milestones",
+    [
+     "**TRAI**",
+     "TRAI Act **1997**",
+     "==Regulator of telecom & broadcasting=="
+    ],
+    [
+     "**TDSAT**",
+     "**2000** amendment",
+     "Appeals against TRAI"
+    ],
+    [
+     "**DoT**",
+     "Ministry of Communications",
+     "Policy, licensing, **spectrum**"
+    ],
+    [
+     "**Prasar Bharati**",
+     "Act **1990**",
+     "Broadcaster: **AIR, Doordarshan**"
+    ],
+    [
+     "**PRGI**",
+     "**Press and Registration of Periodicals Act 2023**",
+     "Newspaper registration"
+    ]
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "Telecom milestones",
    "items": [
-    {"when": "1882", "what": "First telephone exchange: **Calcutta**"},
-    {"when": "1984", "what": "**C-DOT** set up (Rajiv Gandhi era)"},
-    {"when": "1994 / 1999", "what": "Telecom policies - liberalisation"},
-    {"when": "3 July 2015", "what": "==Nationwide **MNP**== (within circle **2011**)"},
-    {"when": "2018", "what": "**National Digital Communications Policy**"},
-    {"when": "Oct 2022", "what": "**5G** launched"},
-    {"when": "2023", "what": "**Telecommunications Act** replaces Telegraph Act **1885**"}
-   ]},
-  {"type": "bullets", "title": "Postal network",
-   "items": ["==**PIN**: **6 digits**, **15 August 1972**==; 1st digit = zone (**9** = Army)",
+    {
+     "when": "1882",
+     "what": "First telephone exchange: **Calcutta**"
+    },
+    {
+     "when": "1984",
+     "what": "**C-DOT** set up (Rajiv Gandhi era)"
+    },
+    {
+     "when": "1994 / 1999",
+     "what": "Telecom policies - liberalisation"
+    },
+    {
+     "when": "3 July 2015",
+     "what": "==Nationwide **MNP**== (within circle **2011**)"
+    },
+    {
+     "when": "2018",
+     "what": "**National Digital Communications Policy**"
+    },
+    {
+     "when": "Oct 2022",
+     "what": "**5G** launched"
+    },
+    {
+     "when": "2023",
+     "what": "**Telecommunications Act** replaces Telegraph Act **1885**"
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Postal network",
+   "items": [
+    "==**PIN**: **6 digits**, **15 August 1972**==; 1st digit = zone (**9** = Army)",
     "**Digi PIN**: **10-digit alphanumeric**; APT by **CEPT**",
     "**IPPB**: **1 September 2018**; **Speed Post**: **1986**",
-    "AP: **10,660** post offices"]},
-  {"type": "bullets", "title": "Data & schemes",
-   "items": ["Teledensity **86.76%**; 5G in **99.9%** of districts",
+    "AP: **10,660** post offices"
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Data & schemes",
+   "items": [
+    "Teledensity **86.76%**; 5G in **99.9%** of districts",
     "**Digital India**: **1 July 2015**, **9 pillars**",
     "**PM-WANI**: **December 2020** - public Wi-Fi",
     "**BharatNet** (ex-**NOFN** 2011): ==**2.18 lakh GPs**==; **USOF**",
     "Amended BharatNet: **₹1.39 lakh crore** (⚠ Minister: **₹1.59 lakh crore**)",
-    "**Bharat 6G Vision (2030)**; SC: digital access in **Article 21**"]},
-  {"type": "table", "title": "Transmission media",
-   "head": ["Medium", "Feature"],
+    "**Bharat 6G Vision (2030)**; SC: digital access in **Article 21**"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Transmission media",
+   "head": [
+    "Medium",
+    "Feature"
+   ],
    "rows": [
-    ["**Optical fibre**", "==**Fastest, highest bandwidth**== (APPSC 2025); TIR"],
-    ["Copper", "Lower bandwidth, interference"],
-    ["Radio", "Mobility; spectrum-limited"],
-    ["Satellite", "Remote reach; high **latency**"]
-   ]},
-  {"type": "cards", "title": "Submarine cables",
+    [
+     "**Optical fibre**",
+     "==**Fastest, highest bandwidth**== (APPSC 2025); TIR"
+    ],
+    [
+     "Copper",
+     "Lower bandwidth, interference"
+    ],
+    [
+     "Radio",
+     "Mobility; spectrum-limited"
+    ],
+    [
+     "Satellite",
+     "Remote reach; high **latency**"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Submarine cables",
    "cards": [
-    {"title": "CANI", "lines": ["Chennai - **Port Blair**", "==**10 August 2020**=="]},
-    {"title": "KLI", "lines": ["Kochi - **Lakshadweep**", "**January 2024**"]}
-   ]},
-  {"type": "bullets", "title": "Mass media & AP",
-   "items": ["**AIR** named **1936**; Akashvani **1957**",
+    {
+     "title": "CANI",
+     "lines": [
+      "Chennai - **Port Blair**",
+      "==**10 August 2020**=="
+     ]
+    },
+    {
+     "title": "KLI",
+     "lines": [
+      "Kochi - **Lakshadweep**",
+      "**January 2024**"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Mass media & AP",
+   "items": [
+    "**AIR** named **1936**; Akashvani **1957**",
     "**Doordarshan**: **15 September 1959**, Delhi",
     "First community radio: **Anna FM**, **2004**",
-    "**APSFL**: **IP-MPLS ring**; triple play; **6,300+** cable operators"]},
-  {"type": "note", "title": "Exam corner",
-   "items": ["Telecom & broadcasting regulator = ==**TRAI**==, not Prasar Bharati",
+    "**APSFL**: **IP-MPLS ring**; triple play; **6,300+** cable operators"
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
+   "items": [
+    "Telecom & broadcasting regulator = ==**TRAI**==, not Prasar Bharati",
     "Fastest data transmission = **optical fibre**",
     "CANI inaugurated **10 August 2020** (PYQ)",
     "MNP: **2011** within circle vs **2015** nationwide",
-    "PIN **6** digits vs Digi PIN **10**"]}
- ]}
+    "PIN **6** digits vs Digi PIN **10**"
+   ]
+  }
+ ]
+}

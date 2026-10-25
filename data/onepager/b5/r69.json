@@ -1,45 +1,175 @@
-{"title": "Energy storage and batteries",
+{
+ "title": "Energy storage and batteries",
  "tag": "Energy",
  "quote": "Storage = main bottleneck in integrating renewables; supports 24x7 RE",
  "boxes": [
-  {"type": "bullets", "title": "Cell parts",
-   "items": ["**Anode** = ==oxidation== (loses electrons) during discharge", "**Cathode** = **reduction** (gains electrons)", "**Electrolyte**: lets ions flow, keeps electrodes apart", "EV cathodes: **lithium, nickel, cobalt**; anode **graphite** (UPSC 2025)"]},
-  {"type": "table", "title": "Battery chemistries",
-   "head": ["Type", "Feature", "Uses"],
+  {
+   "type": "bullets",
+   "title": "Cell parts",
+   "items": [
+    "**Anode** = ==oxidation== (loses electrons) during discharge",
+    "**Cathode** = **reduction** (gains electrons)",
+    "**Electrolyte**: lets ions flow, keeps electrodes apart",
+    "EV cathodes: **lithium, nickel, cobalt**; anode **graphite** (UPSC 2025)"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Battery chemistries",
+   "head": [
+    "Type",
+    "Feature",
+    "Uses"
+   ],
    "rows": [
-    ["**Lead-acid**", "Lead + **PbO2**, sulphuric acid", "Automotive, UPS, inverters"],
-    ["**Ni-Cd**", "==**Nickel and cadmium**==; rechargeable", "Calculators, cordless appliances"],
-    ["**NiMH**", "Metal hydride replaces cadmium", "Hybrid vehicles"],
-    ["**Zinc-carbon**", "**Not rechargeable**", "Torches, clocks"],
-    ["**Li-ion** (NMC, LFP)", "Graphite anode; LFP safe, long life", "Phones, EVs, grid"],
-    ["**Sodium-ion**", "No cobalt/nickel; safer", "Storage, low-cost EVs"],
-    ["**Solid-state**", "Solid electrolyte", "Emerging EVs"],
-    ["**Flow**", "Liquid electrolytes in tanks (vanadium)", "Grid-scale"]
-   ]},
-  {"type": "table", "title": "Non-battery storage",
-   "head": ["Method", "Principle"],
+    [
+     "**Lead-acid**",
+     "Lead + **PbO2**, sulphuric acid",
+     "Automotive, UPS, inverters"
+    ],
+    [
+     "**Ni-Cd**",
+     "==**Nickel and cadmium**==; rechargeable",
+     "Calculators, cordless appliances"
+    ],
+    [
+     "**NiMH**",
+     "Metal hydride replaces cadmium",
+     "Hybrid vehicles"
+    ],
+    [
+     "**Zinc-carbon**",
+     "**Not rechargeable**",
+     "Torches, clocks"
+    ],
+    [
+     "**Li-ion** (NMC, LFP)",
+     "Graphite anode; LFP safe, long life",
+     "Phones, EVs, grid"
+    ],
+    [
+     "**Sodium-ion**",
+     "No cobalt/nickel; safer",
+     "Storage, low-cost EVs"
+    ],
+    [
+     "**Solid-state**",
+     "Solid electrolyte",
+     "Emerging EVs"
+    ],
+    [
+     "**Flow**",
+     "Liquid electrolytes in tanks (vanadium)",
+     "Grid-scale"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Non-battery storage",
+   "head": [
+    "Method",
+    "Principle"
+   ],
    "rows": [
-    ["**Pumped storage**", "Pump water uphill; release at peak"],
-    ["**CAES**", "Air compressed into caverns"],
-    ["**Flywheel**", "Rotational kinetic energy"],
-    ["**Molten salt**", "Thermal storage in CSP"]
-   ]},
-  {"type": "cards", "title": "Schemes & rules",
+    [
+     "**Pumped storage**",
+     "Pump water uphill; release at peak"
+    ],
+    [
+     "**CAES**",
+     "Air compressed into caverns"
+    ],
+    [
+     "**Flywheel**",
+     "Rotational kinetic energy"
+    ],
+    [
+     "**Molten salt**",
+     "Thermal storage in concentrated solar power"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Schemes & rules",
    "cards": [
-    {"title": "PLI-ACC", "lines": ["Approved ==**12 May 2021**==", "**50 GWh**, **₹18,100 crore**; **Heavy Industries**", "Ola **20**, Reliance **15**, Rajesh Exports **5** GWh"]},
-    {"title": "Battery Waste Rules 2022", "lines": ["**MoEFCC**; replace **2001** rules", "EPR; landfill/incineration banned", "Recovery **90%** by 2026-27"]},
-    {"title": "Storage Obligation", "lines": ["**Ministry of Power**, 2022", "**1%** (2023-24) → **4%** (2029-30)"]},
-    {"title": "EV push", "lines": ["**PM E-DRIVE** replaced **FAME-II** (2024)", "**₹10,900 crore**"]}
-   ]},
-  {"type": "bullets", "title": "Data & minerals",
-   "items": ["Need ==**336 GWh** by **2029-30**== (CEA) vs ~**500 MWh** BESS (Sept 2025)", "**43 GWh** BESS in pipeline by 2028; **VGF** for **4,000 MWh**", "ACC-PLI: only **1.4 GWh** on time; **8.6 GWh** delayed", "Lithium: **Salal-Haimana, Reasi** (J&K), ~**5.9 million tonnes** (Feb 2023)", "**KABIL**: lithium land in **Argentina**; **NCMM** **₹16,300 crore**", "**Khavda** BESS: largest outside China"]},
-  {"type": "table", "title": "EV powertrains",
-   "head": ["Type", "Power source"],
+    {
+     "title": "PLI-ACC",
+     "lines": [
+      "Approved ==**12 May 2021**==",
+      "**50 GWh**, **₹18,100 crore**; **Heavy Industries**",
+      "Ola **20**, Reliance **15**, Rajesh Exports **5** GWh"
+     ]
+    },
+    {
+     "title": "Battery Waste Rules 2022",
+     "lines": [
+      "**MoEFCC**; replace **2001** rules",
+      "EPR; landfill/incineration banned",
+      "Recovery **90%** by 2026-27"
+     ]
+    },
+    {
+     "title": "Storage Obligation",
+     "lines": [
+      "**Ministry of Power**, 2022",
+      "**1%** (2023-24) → **4%** (2029-30)"
+     ]
+    },
+    {
+     "title": "EV push",
+     "lines": [
+      "**PM E-DRIVE** replaced **FAME-II** (2024)",
+      "**₹10,900 crore**"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Data & minerals",
+   "items": [
+    "Need ==**336 GWh** by **2029-30**== (CEA) vs ~**500 MWh** BESS (Sept 2025)",
+    "**43 GWh** BESS in pipeline by 2028; **VGF** for **4,000 MWh**",
+    "ACC-PLI: only **1.4 GWh** on time; **8.6 GWh** delayed",
+    "Lithium: **Salal-Haimana, Reasi** (J&K), ~**5.9 million tonnes** (Feb 2023)",
+    "**KABIL**: lithium land in **Argentina**; **NCMM** **₹16,300 crore**",
+    "**Khavda** BESS: largest outside China"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "EV powertrains",
+   "head": [
+    "Type",
+    "Power source"
+   ],
    "rows": [
-    ["**BEV**", "Battery only, plug-in"],
-    ["**HEV / PHEV**", "Engine + battery-motor"],
-    ["**FCEV**", "Hydrogen fuel cell; water exhaust"]
-   ]},
-  {"type": "note", "title": "Exam corner",
-   "items": ["Ni-Cd electrodes = **nickel & cadmium** (UPSC 1995); uses: calculators (UKPSC 2016)", "Only **three** of four make cathodes - graphite is anode (UPSC 2025)", "BEV, FCEV, fuel cell hybrid all = alternative powertrains (UPSC 2025)", "==**Amaravati**==: first indigenous high-energy storage device, **6 Aug 2018** (APPSC 2018)", "ACC-PLI = Heavy Industries; ESO = Power; battery rules = MoEFCC"]}
- ]}
+    [
+     "**BEV**",
+     "Battery only, plug-in"
+    ],
+    [
+     "**HEV / PHEV**",
+     "Engine + battery-motor"
+    ],
+    [
+     "**FCEV**",
+     "Hydrogen fuel cell; water exhaust"
+    ]
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
+   "items": [
+    "Ni-Cd electrodes = **nickel & cadmium** (UPSC 1995); uses: calculators (UKPSC 2016)",
+    "Only **three** of four make cathodes - graphite is anode (UPSC 2025)",
+    "BEV, FCEV, fuel cell hybrid all = alternative powertrains (UPSC 2025)",
+    "==**Amaravati**==: first indigenous high-energy storage device, **6 Aug 2018** (APPSC 2018)",
+    "ACC-PLI = Heavy Industries; ESO = Power; battery rules = MoEFCC"
+   ]
+  }
+ ]
+}

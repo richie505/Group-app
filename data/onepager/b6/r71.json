@@ -1,64 +1,172 @@
-{"title": "Science & technology in news (Jun-Aug 2026)",
+{
+ "title": "Science & technology in news (Jun-Aug 2026)",
  "tag": "Science & Tech",
  "quote": "Vikram-1: India's first private orbital launch; third country after USA and China",
  "boxes": [
-  {"type": "cards", "title": "Space firsts",
+  {
+   "type": "cards",
+   "title": "Space firsts",
    "cards": [
-    {"title": "Vikram-1 (Skyroot)", "lines": ["==**18 July 2026**==, **Mission Aagaman**", "**4** stages; **RAMAN-I** 3D-printed engine", "⚠ Vikram-S (2022) was **sub-orbital**"]},
-    {"title": "Astrobase \"Everest\"", "lines": ["First private **800 kN** engine", "**Methalox**"]},
-    {"title": "NASA Moon Base", "lines": ["ISRO invited; **lunar south pole**", "India in Artemis: **2023**, **27th**"]},
-    {"title": "EO constellation", "lines": ["First fully commercial (PPP)", "**PixxelSpace**-led; **12** satellites"]}
-   ]},
-  {"type": "table", "title": "ISRO missions",
-   "head": ["Mission", "Key fact"],
+    {
+     "title": "Vikram-1 (Skyroot)",
+     "lines": [
+      "==**18 July 2026**==, **Mission Aagaman**",
+      "**4** stages; **RAMAN-I** 3D-printed engine",
+      "⚠ Vikram-S (2022) was **sub-orbital**"
+     ]
+    },
+    {
+     "title": "Astrobase \"Everest\"",
+     "lines": [
+      "First private **800 kN** engine",
+      "**Methalox**"
+     ]
+    },
+    {
+     "title": "NASA Moon Base",
+     "lines": [
+      "ISRO invited; **lunar south pole**",
+      "India in Artemis: **2023**, **27th**"
+     ]
+    },
+    {
+     "title": "EO constellation",
+     "lines": [
+      "First fully commercial (PPP)",
+      "**PixxelSpace**-led; **12** satellites"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "ISRO missions",
+   "head": [
+    "Mission",
+    "Key fact"
+   ],
    "rows": [
-    ["**Chandrayaan-3** (**2023**)", "==First near south pole==; **4th** to soft-land"],
-    ["**Mangalyaan** (**2014**)", "Mars orbit in **maiden attempt**"],
-    ["**SPADEX** (**2025**)", "Docking: **4th** country"],
-    ["**Gaganyaan**", "**3** astronauts, **400 km**, **3 days**"],
-    ["**BAS**", "**BAS-01** by **2028**; full by **2035**"],
-    ["**Chandrayaan-4**", "Sample return, **2027**"]
-   ]},
-  {"type": "table", "title": "Missile & weapon tests",
-   "head": ["System", "Fact"],
+    [
+     "**Chandrayaan-3** (**2023**)",
+     "==First near south pole==; **4th** to soft-land"
+    ],
+    [
+     "**Mangalyaan** (**2014**)",
+     "Mars orbit in **maiden attempt**"
+    ],
+    [
+     "**SPADEX** (**2025**)",
+     "Docking: **4th** country"
+    ],
+    [
+     "**Gaganyaan**",
+     "**3** astronauts, **400 km**, **3 days**"
+    ],
+    [
+     "**BAS**",
+     "**BAS-01** by **2028**; full by **2035**"
+    ],
+    [
+     "**Chandrayaan-4**",
+     "Sample return, **2027**"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Missile & weapon tests",
+   "head": [
+    "System",
+    "Fact"
+   ],
    "rows": [
-    ["**Agni-IV**", "**4,000 km**; **Chandipur**; SFC"],
-    ["**Kusha** LRSAM", "First test **July 2026**; India's answer to **S-400**"],
-    ["**Rudram-2**", "Anti-radiation; ~**300 km**"],
-    ["**LRLACM**", "**1,000+ km**; successor to **Nirbhay**"],
-    ["**Pinaka LRGR**", "**60 km**"],
-    ["**Ugram**", "**7.62×51 mm** rifle; DRDO + Dvipa"]
-   ]},
-  {"type": "bullets", "title": "Defence data & deals",
+    [
+     "**Agni-IV**",
+     "**4,000 km**; **Chandipur**; Strategic Forces Command"
+    ],
+    [
+     "**Kusha** LRSAM",
+     "First test **July 2026**; India's answer to **S-400**"
+    ],
+    [
+     "**Rudram-2**",
+     "Anti-radiation; ~**300 km**"
+    ],
+    [
+     "**LRLACM**",
+     "**1,000+ km**; successor to **Nirbhay**"
+    ],
+    [
+     "**Pinaka LRGR**",
+     "**60 km**"
+    ],
+    [
+     "**Ugram**",
+     "**7.62×51 mm** rifle; DRDO + Dvipa"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Defence data & deals",
    "items": [
     "Production 2025-26: record ==**₹1.78 lakh crore**==; exports **₹38,424 crore**",
     "BrahMos to **Vietnam**; ⚠ first buyer **Philippines** (2022)",
     "**C295**: first India-made aircraft, **Vadodara**",
     "**Netra** AEW&C: Final Operational Clearance",
     "**Mahendragiri**, **Dunagiri**: Project **17A** frigates"
-   ]},
-  {"type": "bullets", "title": "Health & biotech",
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Health & biotech",
    "items": [
     "**Qdenga** (Takeda): ==India's first dengue vaccine==; ages **4-60**",
     "**Nipah**: **Kozhikode**; bat **Pteropus medius**; first outbreak **2018**",
     "AI-designed **bacteriophages** (**Evo**); **ΦX174** first genome (**1977**)",
     "**Vepdegestrant**: first **PROTAC** drug",
     "ICRISAT: India's first **high-oleic groundnut**"
-   ]},
-  {"type": "table", "title": "Energy & tech firsts",
-   "head": ["Item", "Fact"],
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Energy & tech firsts",
+   "head": [
+    "Item",
+    "Fact"
+   ],
    "rows": [
-    ["**Hydrogen train**", "**Jind-Sonipat**, **89 km**; ⚠ world's first: **Alstom Coradia iLint**"],
-    ["**Puga Valley**", "==First geothermal wells==, Ladakh; **ONGC**"],
-    ["**Iron-Air battery**", "**NTPC Simhadri**, Visakhapatnam"],
-    ["**Helium**", "China export ban; top producer **US** (**43%**)"],
-    ["**NQM**", "**₹6,003.65 crore**; nodal **DST**"]
-   ]},
-  {"type": "note", "title": "Exam corner",
+    [
+     "**Hydrogen train**",
+     "**Jind-Sonipat**, **89 km**; ⚠ world's first: **Alstom Coradia iLint**"
+    ],
+    [
+     "**Puga Valley**",
+     "==First geothermal wells==, Ladakh; **ONGC**"
+    ],
+    [
+     "**Iron-Air battery**",
+     "**NTPC Simhadri**, Visakhapatnam"
+    ],
+    [
+     "**Helium**",
+     "China export ban; top producer **US** (**43%**)"
+    ],
+    [
+     "**NQM**",
+     "**₹6,003.65 crore**; nodal **DST**"
+    ]
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "⚠ **NQM** = DST; **IndiaAI**, **ISM** = MeitY",
     "**TRISHNA** = France; **LUPEX** = Japan; **NISAR** = US",
     "Re-entry heat: ⚠ air **compression**, not friction",
     "**Second spaceport**: **Kulasekarapattinam** (TN)"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

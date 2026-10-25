@@ -1,23 +1,78 @@
-{"title": "Poverty: concepts and poverty lines",
+{
+ "title": "Poverty: concepts and poverty lines",
  "tag": "Indian Economy",
  "quote": "Incidence - depth - severity = HCR - PGI - squared poverty gap",
  "boxes": [
-  {"type": "cards", "title": "Types of poverty",
+  {
+   "type": "cards",
+   "title": "Types of poverty",
    "cards": [
-    {"title": "Absolute", "lines": ["Below minimum for survival; calorie norm", "==India's focus==", "Defined at **Copenhagen 1995**"]},
-    {"title": "Relative", "lines": ["Well below society's median", "Developed economies (USA, UK)"]},
-    {"title": "Subjective", "lines": ["Own sense of position (UPSC)"]},
-    {"title": "Chronic / transient", "lines": ["Chronic: long, across generations", "Transient: shocks, seasons"]},
-    {"title": "Culture of poverty", "lines": ["**Oscar Lewis**", "Passed on as way of life"]}
-   ]},
-  {"type": "table", "title": "Poverty measures (FGT family)",
-   "head": ["Measure", "Captures", "Formula"],
+    {
+     "title": "Absolute",
+     "lines": [
+      "Below minimum for survival; calorie norm",
+      "==India's focus==",
+      "Defined at **Copenhagen 1995**"
+     ]
+    },
+    {
+     "title": "Relative",
+     "lines": [
+      "Well below society's median",
+      "Developed economies (USA, UK)"
+     ]
+    },
+    {
+     "title": "Subjective",
+     "lines": [
+      "Own sense of position (UPSC)"
+     ]
+    },
+    {
+     "title": "Chronic / transient",
+     "lines": [
+      "Chronic: long, across generations",
+      "Transient: shocks, seasons"
+     ]
+    },
+    {
+     "title": "Culture of poverty",
+     "lines": [
+      "**Oscar Lewis**",
+      "Passed on as way of life"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Poverty measures (FGT family)",
+   "head": [
+    "Measure",
+    "Captures",
+    "Formula"
+   ],
    "rows": [
-    ["**Head Count Ratio**", "==**Incidence**==", "Nq / N"],
-    ["**Poverty Gap Index**", "**Depth**", "(1/n) Σ (Z − yi)/Z"],
-    ["**Squared Poverty Gap**", "**Severity**", "(1/n) Σ [(Z − yi)/Z]²"]
-   ]},
-  {"type": "bullets", "title": "Poverty line in India",
+    [
+     "**Head Count Ratio**",
+     "==**Incidence**==",
+     "Nq / N"
+    ],
+    [
+     "**Poverty Gap Index**",
+     "**Depth**",
+     "(1/n) Σ (Z − yi)/Z"
+    ],
+    [
+     "**Squared Poverty Gap**",
+     "**Severity**",
+     "(1/n) Σ [(Z − yi)/Z]²"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Poverty line in India",
    "items": [
     "Basis: ==**consumption expenditure** (MPCE), not income==",
     "Calorie norm: **2,400 kcal rural / 2,100 urban** per day",
@@ -25,43 +80,105 @@
     "**Engel's Law**: income ↑ → food share ↓",
     "**MMRP** recall → higher consumption, lower poverty; first used by Rangarajan",
     "HCR unchanged if poor get poorer; PGI changes"
-   ]},
-  {"type": "table", "title": "Tendulkar vs Rangarajan (2011-12)",
-   "head": ["Line", "Rural", "Urban", "Poverty"],
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Tendulkar vs Rangarajan (2011-12)",
+   "head": [
+    "Line",
+    "Rural",
+    "Urban",
+    "Poverty"
+   ],
    "rows": [
-    ["**Tendulkar**", "**₹816**/month (~₹27/day)", "**₹1,000** (~₹33/day)", "**21.9%**"],
-    ["**Rangarajan**", "**₹972** (==**₹32/day**==)", "**₹1,407** (₹47/day)", "**29.5%**"]
-   ]},
-  {"type": "timeline", "title": "World Bank lines",
+    [
+     "**Tendulkar**",
+     "**₹816**/month (~₹27/day)",
+     "**₹1,000** (~₹33/day)",
+     "**21.9%**"
+    ],
+    [
+     "**Rangarajan**",
+     "**₹972** (==**₹32/day**==)",
+     "**₹1,407** (₹47/day)",
+     "**29.5%**"
+    ]
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "World Bank lines",
    "items": [
-    {"when": "1990", "what": "**$1** a day (1985 PPP)"},
-    {"when": "2008", "what": "$1.25 (2005 PPP)"},
-    {"when": "Oct 2015", "what": "==**$1.90**== (2011 PPP; APPSC 2018)"},
-    {"when": "2022", "what": "**$2.15** (2017 PPP)"},
-    {"when": "June 2025", "what": "**$3.00** (2021 PPP); LMI line $3.65 → **$4.20**"}
-   ]},
-  {"type": "bullets", "title": "Latest estimates",
+    {
+     "when": "1990",
+     "what": "**$1** a day (1985 PPP)"
+    },
+    {
+     "when": "2008",
+     "what": "$1.25 (2005 PPP)"
+    },
+    {
+     "when": "Oct 2015",
+     "what": "==**$1.90**== (2011 PPP; APPSC 2018)"
+    },
+    {
+     "when": "2022",
+     "what": "**$2.15** (2017 PPP)"
+    },
+    {
+     "when": "June 2025",
+     "what": "**$3.00** (2021 PPP); lower-middle income line $3.65 → **$4.20**"
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Latest estimates",
    "items": [
     "HCES 2022-23/2023-24: urban food share **₹48 → ₹39** per ₹100",
     "Tendulkar-line poverty: **4.7%** (2022-23) → ==**2.3%** (2023-24)==",
     "India under $4.20 line: **57.7% → 23.9%**",
     "World ($2.15): ~**9.2%**, over **700 mn** extreme poor",
     "AP HCR **9.20%** (2011-12) vs India 21.92%"
-   ]},
-  {"type": "table", "title": "UN anti-poverty decades",
-   "head": ["Decade", "Years"],
+   ]
+  },
+  {
+   "type": "table",
+   "title": "UN anti-poverty decades",
+   "head": [
+    "Decade",
+    "Years"
+   ],
    "rows": [
-    ["First", "==**1997-2006**=="],
-    ["Second", "2008-2017"],
-    ["Third", "**2018-2027**"],
-    ["SDG 1", "End poverty everywhere by **2030**"]
-   ]},
-  {"type": "note", "title": "Exam corner",
+    [
+     "First",
+     "==**1997-2006**=="
+    ],
+    [
+     "Second",
+     "2008-2017"
+    ],
+    [
+     "Third",
+     "**2018-2027**"
+    ],
+    [
+     "SDG 1",
+     "End poverty everywhere by **2030**"
+    ]
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "Rangarajan rural line = ==**₹32 a day**== (APPSC-GS 2025)",
     "⚠ ₹816/₹1,000 = **Tendulkar 2011-12** (not 2010-11, not Rangarajan)",
     "$1.90 line = **2011 PPP** (APPSC 2018); $3 came in **2025**, not 2022",
     "Largest number of poor: **India** (APPSC 2016 key)",
     "Lines differ as basic needs vary by region & time (UPPSC 2025)"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

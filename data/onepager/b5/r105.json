@@ -1,59 +1,169 @@
-{"title": "Pollution control initiatives",
+{
+ "title": "Pollution control initiatives",
  "tag": "Environment",
  "quote": "Shift from command and control to trust-based, technology-enabled regulation",
  "boxes": [
-  {"type": "table", "title": "Alternatives vs conventional",
-   "head": ["Tool", "Scope", "Feature"],
+  {
+   "type": "table",
+   "title": "Alternatives vs conventional",
+   "head": [
+    "Tool",
+    "Scope",
+    "Feature"
+   ],
    "rows": [
-    ["**Green technology**", "Alternative", "Green cement, efficient kilns"],
-    ["**CCS**", "Alternative", "Still research stage for cement"],
-    ["**Bioremediation**", "Alternative", "**Cost-effective** but **slower**"],
-    ["**Incineration**", "==Conventional==", "NOT an alternative (PYQ)"],
-    ["Precipitators, scrubbers, SCR", "Conventional", "End-of-pipe"]
-   ]},
-  {"type": "table", "title": "Acts & rules",
-   "head": ["Measure", "Year", "Provision"],
+    [
+     "**Green technology**",
+     "Alternative",
+     "Green cement, efficient kilns"
+    ],
+    [
+     "**CCS**",
+     "Alternative",
+     "Still research stage for cement"
+    ],
+    [
+     "**Bioremediation**",
+     "Alternative",
+     "**Cost-effective** but **slower**"
+    ],
+    [
+     "**Incineration**",
+     "==Conventional==",
+     "NOT an alternative (PYQ)"
+    ],
+    [
+     "Precipitators, scrubbers, selective catalytic reduction",
+     "Conventional",
+     "End-of-pipe"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Acts & rules",
+   "head": [
+    "Measure",
+    "Year",
+    "Provision"
+   ],
    "rows": [
-    ["**Jan Vishwas Act**", "**2023**", "Decriminalised **Air Act**, **EP Act** offences"],
-    ["Water Act amendment", "**2024**", "Decriminalised likewise"],
-    ["Environmental compensation", "Aug 2025", "**Sec 33A** Water; **Sec 31A** Air"],
-    ["**Environment Fund Rules**", "**2026**", "**Sec 16 EPA**; ==**75%** States, **25%** Centre==; CAG audit"],
-    ["CTO", "Jan 2026", "Valid till cancelled"]
-   ]},
-  {"type": "bullets", "title": "Clean-up tools & programmes",
+    [
+     "**Jan Vishwas Act**",
+     "**2023**",
+     "Decriminalised **Air Act**, **EP Act** offences"
+    ],
+    [
+     "Water Act amendment",
+     "**2024**",
+     "Decriminalised likewise"
+    ],
+    [
+     "Environmental compensation",
+     "Aug 2025",
+     "**Sec 33A** Water; **Sec 31A** Air"
+    ],
+    [
+     "**Environment Fund Rules**",
+     "**2026**",
+     "**Sec 16 EPA**; ==**75%** States, **25%** Centre==; CAG audit"
+    ],
+    [
+     "CTO",
+     "Jan 2026",
+     "Valid till cancelled"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Clean-up tools & programmes",
    "items": [
     "**PARIVESH 3.0**: single-window clearances",
     "**CETPs** for small-industry clusters; **SAAP (1992)** strengthens PCBs",
     "Online monitoring for **17-category** industries",
     "New ==**Blue**== category (Compressed Biogas); **33%** green belt rule replaced",
     "Air: **NCAP**, **CAQM**, **GRAP**, **BS-VI** (**1 April 2020**)"
-   ]},
-  {"type": "cards", "title": "Clean-energy schemes",
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Clean-energy schemes",
    "cards": [
-    {"title": "PM Ujjwala", "lines": ["**2016**", "Free LPG; less indoor smoke", "UNEP-CCAC model; **$1** → **$15**"]},
-    {"title": "PM-KUSUM", "lines": ["**2019**", "Solar pumps"]},
-    {"title": "PM E-DRIVE", "lines": ["**2024**", "EVs; successor to FAME"]}
-   ]},
-  {"type": "table", "title": "Eco-labels",
-   "head": ["Label", "By / year", "Scope"],
+    {
+     "title": "PM Ujjwala",
+     "lines": [
+      "**2016**",
+      "Free LPG; less indoor smoke",
+      "UNEP-CCAC model; **$1** → **$15**"
+     ]
+    },
+    {
+     "title": "PM-KUSUM",
+     "lines": [
+      "**2019**",
+      "Solar pumps"
+     ]
+    },
+    {
+     "title": "PM E-DRIVE",
+     "lines": [
+      "**2024**",
+      "EVs; successor to FAME"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Eco-labels",
+   "head": [
+    "Label",
+    "By / year",
+    "Scope"
+   ],
    "rows": [
-    ["**Ecomark**", "==**1991**==, environment ministry", "Soaps, paper, plastics; ⚠ not drugs"],
-    ["**Ecomark Rules**", "**26 September 2024**", "Prevent misleading green claims"],
-    ["**Blue Flag**", "**FEE, Denmark**", "Beaches; **8** Indian (2020)"],
-    ["**PRAMAAN**", "", "Forest and wood certification"]
-   ]},
-  {"type": "bullets", "title": "AP measures",
+    [
+     "**Ecomark**",
+     "==**1991**==, environment ministry",
+     "Soaps, paper, plastics; ⚠ not drugs"
+    ],
+    [
+     "**Ecomark Rules**",
+     "**26 September 2024**",
+     "Prevent misleading green claims"
+    ],
+    [
+     "**Blue Flag**",
+     "**FEE, Denmark**",
+     "Beaches; **8** Indian (2020)"
+    ],
+    [
+     "**PRAMAAN**",
+     "",
+     "Forest and wood certification"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "AP measures",
    "items": [
     "==**Green tax**== on industries: **September 2019** (PYQ)",
     "**APPCB** (**1976**): siting guidelines; risk-based inspections",
     "**BRAP**: digital single-window clearances"
-   ]},
-  {"type": "note", "title": "Exam corner",
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "Incineration = ==conventional==, not an alternative",
     "Ecomark **1991**; drugs/antibiotics not covered",
     "Blue Flag = **FEE, Denmark**; **8** beaches in 2020",
     "AP green tax: **September 2019**",
     "Water Act **33A**; Air Act **31A**; EPA Fund **Sec 16**"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

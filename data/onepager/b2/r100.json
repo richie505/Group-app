@@ -1,64 +1,190 @@
-{"title": "Sectoral regulators of India",
+{
+ "title": "Sectoral regulators of India",
  "tag": "Indian Economy",
  "quote": "TRAI = regulator; TDSAT = adjudicator: separation of roles",
  "boxes": [
-  {"type": "table", "title": "Regulator → Act & year",
-   "head": ["Regulator", "Parent Act", "Set up"],
+  {
+   "type": "table",
+   "title": "Regulator → Act & year",
+   "head": [
+    "Regulator",
+    "Parent Act",
+    "Set up"
+   ],
    "rows": [
-    ["**TRAI**", "TRAI Act **1997**", "==**20 February 1997**=="],
-    ["**CCI**", "Competition Act **2002** (amended **2007**)", "**14 October 2003**"],
-    ["**FSSAI**", "FSS Act **2006**", "2008"],
-    ["**PNGRB**", "PNGRB Act **2006**", "2007"],
-    ["**AERA**", "AERA Act **2008**", "2009"],
-    ["**DPBI**", "**DPDP Act 2023** (Sec. **18-22**)", "DPDP Rules **2025**"],
-    ["**APERC**", "AP Electricity Reform Act **1998**", "**1999**"]
-   ]},
-  {"type": "cards", "title": "Ministry & role",
+    [
+     "**TRAI**",
+     "TRAI Act **1997**",
+     "==**20 February 1997**=="
+    ],
+    [
+     "**CCI**",
+     "Competition Act **2002** (amended **2007**)",
+     "**14 October 2003**"
+    ],
+    [
+     "**FSSAI**",
+     "Food Safety and Standards Act **2006**",
+     "2008"
+    ],
+    [
+     "**PNGRB**",
+     "PNGRB Act **2006**",
+     "2007"
+    ],
+    [
+     "**AERA**",
+     "AERA Act **2008**",
+     "2009"
+    ],
+    [
+     "**DPBI**",
+     "**DPDP Act 2023** (Sec. **18-22**)",
+     "DPDP Rules **2025**"
+    ],
+    [
+     "**APERC**",
+     "AP Electricity Reform Act **1998**",
+     "**1999**"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Ministry & role",
    "cards": [
-    {"title": "TRAI", "lines": ["Tariffs, interconnection, quality of service", "Chair: **Anil Kumar Lahoti**"]},
-    {"title": "CCI", "lines": ["**Corporate Affairs**", "Chair + **2 to 6** members"]},
-    {"title": "FSSAI", "lines": ["**Health & Family Welfare**", "==Not under Director General of Health Services=="]},
-    {"title": "CERC / SERCs", "lines": ["**Power** ministry", "CERC: inter-State + ==carbon trading=="]},
-    {"title": "PNGRB", "lines": ["**Petroleum & Natural Gas**", "City Gas Distribution"]},
-    {"title": "DPBI", "lines": ["**4-member** board", "Penalties up to **₹250 crore**; no jail"]}
-   ]},
-  {"type": "table", "title": "Appeals",
-   "head": ["Order of", "Appeal to", "Further appeal"],
+    {
+     "title": "TRAI",
+     "lines": [
+      "Tariffs, interconnection, quality of service",
+      "Chair: **Anil Kumar Lahoti**"
+     ]
+    },
+    {
+     "title": "CCI",
+     "lines": [
+      "**Corporate Affairs**",
+      "Chair + **2 to 6** members"
+     ]
+    },
+    {
+     "title": "FSSAI",
+     "lines": [
+      "**Health & Family Welfare**",
+      "==Not under Director General of Health Services=="
+     ]
+    },
+    {
+     "title": "CERC / SERCs",
+     "lines": [
+      "**Power** ministry",
+      "CERC: inter-State + ==carbon trading=="
+     ]
+    },
+    {
+     "title": "PNGRB",
+     "lines": [
+      "**Petroleum & Natural Gas**",
+      "City Gas Distribution"
+     ]
+    },
+    {
+     "title": "DPBI",
+     "lines": [
+      "**4-member** board",
+      "Penalties up to **₹250 crore**; no jail"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Appeals",
+   "head": [
+    "Order of",
+    "Appeal to",
+    "Further appeal"
+   ],
    "rows": [
-    ["**TRAI**", "**TDSAT** (**May 2000**)", "—"],
-    ["**DPBI**", "==**TDSAT** within **60 days**==", "Supreme Court"],
-    ["**CCI**", "**NCLAT** from **26 May 2017** (earlier COMPAT)", "Supreme Court"],
-    ["**CERC / SERC / PNGRB**", "**APTEL** (**24 August 2004**)", "Supreme Court"]
-   ]},
-  {"type": "table", "title": "Laws replaced",
-   "head": ["New law", "Replaced"],
+    [
+     "**TRAI**",
+     "**TDSAT** (**May 2000**)",
+     "—"
+    ],
+    [
+     "**DPBI**",
+     "==**TDSAT** within **60 days**==",
+     "Supreme Court"
+    ],
+    [
+     "**CCI**",
+     "**NCLAT** from **26 May 2017** (earlier COMPAT)",
+     "Supreme Court"
+    ],
+    [
+     "**CERC / SERC / PNGRB**",
+     "**APTEL** (**24 August 2004**)",
+     "Supreme Court"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Laws replaced",
+   "head": [
+    "New law",
+    "Replaced"
+   ],
    "rows": [
-    ["Competition Act **2002**", "==**MRTP Act 1969**=="],
-    ["FSS Act **2006**", "**Eight** laws incl. **PFA Act 1954**"],
-    ["**VBSA Bill 2025**", "UGC **1956**, AICTE **1987**, NCTE **1993** Acts"],
-    ["AP Reorganisation Act **2014**", "APERC joint regulator ≤ **six months**"]
-   ]},
-  {"type": "bullets", "title": "CCI powers & recent actions",
+    [
+     "Competition Act **2002**",
+     "==**MRTP Act 1969**=="
+    ],
+    [
+     "Food Safety and Standards Act **2006**",
+     "**Eight** laws incl. **Prevention of Food Adulteration Act 1954**"
+    ],
+    [
+     "**VBSA Bill 2025**",
+     "UGC **1956**, AICTE **1987**, NCTE **1993** Acts"
+    ],
+    [
+     "AP Reorganisation Act **2014**",
+     "APERC joint regulator ≤ **six months**"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "CCI powers & recent actions",
    "items": [
     "Acts on cartels, bid-rigging, **abuse of dominance**, combinations",
     "**₹2,000 crore** deal-value threshold vs \"killer acquisitions\"",
     "**Meta/WhatsApp** fined ==**₹213.14 crore**==; NCLAT upheld abuse finding",
     "**Digital Markets Division**; Digital Competition Bill"
-   ]},
-  {"type": "bullets", "title": "FSSAI, TRAI, AP",
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "FSSAI, TRAI, AP",
    "items": [
     "From **1 July 2019**: no recycled plastic / newspaper to wrap food",
     "**Eat Right India**: **2018**; 2026 licences = perpetual",
     "Registration up to **₹1.5 crore**; Central licence above **₹50 crore**",
     "TRAI **MyCall** app (after DND, MySpeed)",
     "AP: PNGRB **10 Geographical Areas**; **East Godavari** most connections"
-   ]},
-  {"type": "note", "title": "Exam corner",
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "TRAI year = ==**1997**== (APPSC 2018)",
     "CCI: statutory under Competition Act **2002**, amended **2007** (APPSC 2022)",
     "FSSAI not under Director General of Health Services (UPSC 2018)",
     "DPBI appeals go to TDSAT, ==not directly to SC==",
     "TDSAT: TRAI (Amendment) Act, not a \"TDSAT Act 2000\""
-   ]}
- ]}
+   ]
+  }
+ ]
+}

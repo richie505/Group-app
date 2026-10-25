@@ -1,64 +1,207 @@
-{"title": "Energy resources of India and AP",
+{
+ "title": "Energy resources of India and AP",
  "tag": "Indian Geography",
  "quote": "50% non-fossil share was reached about 5 years early",
  "boxes": [
-  {"type": "bullets", "title": "Capacity & targets",
-   "items": ["Installed ~**552 GW**; ==non-fossil **51.93%** (Dec 2025)== - target 50% by 2030",
+  {
+   "type": "bullets",
+   "title": "Capacity & targets",
+   "items": [
+    "Installed ~**552 GW**; ==non-fossil **51.93%** (Dec 2025)== - target 50% by 2030",
     "Solar **164.59 GW**, wind **58.14 GW**; RE > **200 GW**",
     "India **3rd** in RE capacity",
     "Coal: ~**55%** of primary energy; **>70%** of electricity",
     "Targets: **500 GW** non-fossil by 2030; **net zero 2070**",
-    "Highest hydel potential: **Arunachal Pradesh**"]},
-  {"type": "table", "title": "Coal grades",
-   "head": ["Grade", "Carbon", "Where"],
+    "Highest hydel potential: **Arunachal Pradesh**"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Coal grades",
+   "head": [
+    "Grade",
+    "Carbon",
+    "Where"
+   ],
    "rows": [
-    ["**Anthracite**", "**80-95%**", "Only **J&K**"],
-    ["**Bituminous**", "40-80%", "Most used; Jharkhand, Odisha"],
-    ["**Lignite**", "40-50%", "==**Neyveli (TN)**==, Palana"],
-    ["**Peat**", "<40%", "First stage"]
-   ]},
-  {"type": "cards", "title": "Coalfields",
+    [
+     "**Anthracite**",
+     "**80-95%**",
+     "Only **J&K**"
+    ],
+    [
+     "**Bituminous**",
+     "40-80%",
+     "Most used; Jharkhand, Odisha"
+    ],
+    [
+     "**Lignite**",
+     "40-50%",
+     "==**Neyveli (TN)**==, Palana"
+    ],
+    [
+     "**Peat**",
+     "<40%",
+     "First stage"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Coalfields",
    "cards": [
-    {"title": "West Bengal", "lines": ["==**Raniganj**: first mine **1774**=="]},
-    {"title": "Jharkhand", "lines": ["**Jharia**, Bokaro, Giridih", "Largest reserves"]},
-    {"title": "Others", "lines": ["**Talcher** (Odisha), **Korba** (Chhattisgarh)", "**Singareni** (Telangana), **Makum** (Assam)"]},
-    {"title": "Rat-hole", "lines": ["**Meghalaya**; family pits", "Banned by **NGT 2014**"]}
-   ]},
-  {"type": "table", "title": "Oil & refineries",
-   "head": ["Place", "Fact"],
+    {
+     "title": "West Bengal",
+     "lines": [
+      "==**Raniganj**: first mine **1774**=="
+     ]
+    },
+    {
+     "title": "Jharkhand",
+     "lines": [
+      "**Jharia**, Bokaro, Giridih",
+      "Largest reserves"
+     ]
+    },
+    {
+     "title": "Others",
+     "lines": [
+      "**Talcher** (Odisha), **Korba** (Chhattisgarh)",
+      "**Singareni** (Telangana), **Makum** (Assam)"
+     ]
+    },
+    {
+     "title": "Rat-hole",
+     "lines": [
+      "**Meghalaya**; family pits",
+      "Banned by **NGT 2014**"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Oil & refineries",
+   "head": [
+    "Place",
+    "Fact"
+   ],
    "rows": [
-    ["**Digboi** (Assam)", "==Oil **1889**; oldest refinery **1901**=="],
-    ["**Noonmati**", "First public-sector refinery"],
-    ["**Jamnagar**", "Reliance; world's largest refinery complex"],
-    ["**Barauni**", "**Bihar** - not Assam"],
-    ["**Mumbai High**", "Most important offshore field"],
-    ["**Tatipaka** / **Visakh**", "AP: ONGC mini / HPCL"],
-    ["**SPR**", "**Padur, Visakhapatnam, Mangaluru** (**5.33 MMT**)"]
-   ]},
-  {"type": "table", "title": "Nuclear plants",
-   "head": ["Plant", "State", "Note"],
+    [
+     "**Digboi** (Assam)",
+     "==Oil **1889**; oldest refinery **1901**=="
+    ],
+    [
+     "**Noonmati**",
+     "First public-sector refinery"
+    ],
+    [
+     "**Jamnagar**",
+     "Reliance; world's largest refinery complex"
+    ],
+    [
+     "**Barauni**",
+     "**Bihar** - not Assam"
+    ],
+    [
+     "**Mumbai High**",
+     "Most important offshore field"
+    ],
+    [
+     "**Tatipaka** / **Visakh**",
+     "AP: ONGC mini / HPCL"
+    ],
+    [
+     "**SPR**",
+     "**Padur, Visakhapatnam, Mangaluru** (**5.33 MMT**)"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Nuclear plants",
+   "head": [
+    "Plant",
+    "State",
+    "Note"
+   ],
    "rows": [
-    ["**Tarapur**", "Maharashtra", "==**1969**, first=="],
-    ["**Kudankulam**", "TN", "**Russia** VVER"],
-    ["**Kalpakkam**", "TN", "**PFBR** critical **6 Apr 2026**"],
-    ["**Kovvada**", "AP (Srikakulam)", "**USA**"],
-    ["**Jaitapur**", "Maharashtra", "**France**"]
-   ]},
-  {"type": "flow", "title": "Three-stage programme (Bhabha, 1954)",
-   "steps": ["Stage 1: **PHWR** - natural uranium + heavy water", "Stage 2: ==**Fast breeder**== - plutonium; breeds more fuel", "Stage 3: **Thorium** (AHWR) - monazite sands, ~**25%** of world"]},
-  {"type": "table", "title": "AP power",
-   "head": ["Project", "Fact"],
+    [
+     "**Tarapur**",
+     "Maharashtra",
+     "==**1969**, first=="
+    ],
+    [
+     "**Kudankulam**",
+     "TN",
+     "**Russia** VVER"
+    ],
+    [
+     "**Kalpakkam**",
+     "TN",
+     "**PFBR** critical **6 Apr 2026**"
+    ],
+    [
+     "**Kovvada**",
+     "AP (Srikakulam)",
+     "**USA**"
+    ],
+    [
+     "**Jaitapur**",
+     "Maharashtra",
+     "**France**"
+    ]
+   ]
+  },
+  {
+   "type": "flow",
+   "title": "Three-stage programme (Bhabha, 1954)",
+   "steps": [
+    "Stage 1: **PHWR** - natural uranium + heavy water",
+    "Stage 2: ==**Fast breeder**== - plutonium; breeds more fuel",
+    "Stage 3: **Thorium** (AHWR) - monazite sands, ~**25%** of world"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "AP power",
+   "head": [
+    "Project",
+    "Fact"
+   ],
    "rows": [
-    ["**Simhadri** (NTPC)", "**2,000 MW**; green-hydrogen blending"],
-    ["**Pinnapuram PSP**", "==World's first integrated RE storage==; **1,680 MW**"],
-    ["**Polavaram hydro**", "**960 MW** (12 x 80 MW)"],
-    ["**Srisailam RB**", "**770 MW**"],
-    ["**Tummalapalle**", "Uranium (Kadapa)"]
-   ]},
-  {"type": "note", "title": "Exam corner",
-   "items": ["Not a fossil fuel: ==**solar**==; uranium non-renewable but not fossil",
+    [
+     "**Simhadri** (NTPC)",
+     "**2,000 MW**; green-hydrogen blending"
+    ],
+    [
+     "**Pinnapuram PSP**",
+     "==World's first integrated RE storage==; **1,680 MW**"
+    ],
+    [
+     "**Polavaram hydro**",
+     "**960 MW** (12 x 80 MW)"
+    ],
+    [
+     "**Srisailam Right Bank**",
+     "**770 MW**"
+    ],
+    [
+     "**Tummalapalle**",
+     "Uranium (Kadapa)"
+    ]
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
+   "items": [
+    "Not a fossil fuel: ==**solar**==; uranium non-renewable but not fossil",
     "Largest coal = **Jharkhand**; largest lignite = **Tamil Nadu**",
     "Rat-hole = \"mining by family members\" (APPSC 2025)",
     "**Vindhyachal** in Singrauli (MP); **Singrauli** station in Sonbhadra (UP)",
-    "**ISA** **2015**, HQ **Gurugram**; Green Hydrogen Mission: **5 MMT** by 2030"]}
- ]}
+    "**ISA** **2015**, HQ **Gurugram**; Green Hydrogen Mission: **5 MMT** by 2030"
+   ]
+  }
+ ]
+}

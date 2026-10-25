@@ -1,49 +1,147 @@
-{"title": "Precision agriculture & micro-irrigation",
+{
+ "title": "Precision agriculture & micro-irrigation",
  "tag": "Agriculture",
  "quote": "Evergreen Revolution: more output at lower ecological cost (M.S. Swaminathan)",
  "boxes": [
-  {"type": "table", "title": "Drip vs sprinkler",
-   "head": ["Feature", "Drip", "Sprinkler"],
+  {
+   "type": "table",
+   "title": "Drip vs sprinkler",
+   "head": [
+    "Feature",
+    "Drip",
+    "Sprinkler"
+   ],
    "rows": [
-    ["How", "Emitters at **root zone**", "Pressure nozzles, like rainfall"],
-    ["Efficiency", "==**~90%**== (flood **30-50%**)", "**70-80%**"],
-    ["Strength", "Most efficient; least evaporation", "Uneven terrain"],
-    ["Limit", "Higher initial cost", "Wind, evaporation loss"]
-   ]},
-  {"type": "bullets", "title": "Fertigation (UPSC 2020)",
+    [
+     "How",
+     "Emitters at **root zone**",
+     "Pressure nozzles, like rainfall"
+    ],
+    [
+     "Efficiency",
+     "==**~90%**== (flood **30-50%**)",
+     "**70-80%**"
+    ],
+    [
+     "Strength",
+     "Most efficient; least evaporation",
+     "Uneven terrain"
+    ],
+    [
+     "Limit",
+     "Higher initial cost",
+     "Wind, evaporation loss"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Fertigation (UPSC 2020)",
    "items": [
     "Fertiliser applied **through irrigation water**",
     "Controls **alkalinity** of water",
     "More nutrients available; **less leaching**",
     "==⚠ Rock phosphate application: NOT an advantage=="
-   ]},
-  {"type": "table", "title": "Resource-conserving tech",
-   "head": ["Technology", "Benefit"],
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Resource-conserving tech",
+   "head": [
+    "Technology",
+    "Benefit"
+   ],
    "rows": [
-    ["**Zero tillage**", "No residue burning; direct seeding; ==soil carbon=="],
-    ["**SRI** (alternate wetting & drying)", "Less seed, **less methane**, less power"],
-    ["**Direct-seeded rice**", "No nursery; under **NICRA**"],
-    ["**Laser land levelling**", "Even water spread"],
-    ["**Sustainable Sugarcane Initiative**", "Single-bud chips, less water"]
-   ]},
-  {"type": "cards", "title": "Soilless & protected farming",
+    [
+     "**Zero tillage**",
+     "No residue burning; direct seeding; ==soil carbon=="
+    ],
+    [
+     "**SRI** (alternate wetting & drying)",
+     "Less seed, **less methane**, less power"
+    ],
+    [
+     "**Direct-seeded rice**",
+     "No nursery; under **NICRA**"
+    ],
+    [
+     "**Laser land levelling**",
+     "Even water spread"
+    ],
+    [
+     "**Sustainable Sugarcane Initiative**",
+     "Single-bud chips, less water"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Soilless & protected farming",
    "cards": [
-    {"title": "Hydroponics", "lines": ["Roots in **nutrient water**"]},
-    {"title": "Aeroponics", "lines": ["==Roots in **air**, misted=="]},
-    {"title": "Aquaponics", "lines": ["**Fish** + hydroponics", "Fish waste feeds plants"]},
-    {"title": "Vertical farming", "lines": ["Stacked layers indoors (APPSC-GS 2021)"]}
-   ]},
-  {"type": "table", "title": "Schemes & missions",
-   "head": ["Scheme", "Key fact"],
+    {
+     "title": "Hydroponics",
+     "lines": [
+      "Roots in **nutrient water**"
+     ]
+    },
+    {
+     "title": "Aeroponics",
+     "lines": [
+      "==Roots in **air**, misted=="
+     ]
+    },
+    {
+     "title": "Aquaponics",
+     "lines": [
+      "**Fish** + hydroponics",
+      "Fish waste feeds plants"
+     ]
+    },
+    {
+     "title": "Vertical farming",
+     "lines": [
+      "Stacked layers indoors (APPSC-GS 2021)"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Schemes & missions",
+   "head": [
+    "Scheme",
+    "Key fact"
+   ],
    "rows": [
-    ["**PDMC** (**2015-16**)", "Under PMKSY; ==under **RKVY** from **2022-23**=="],
-    ["**MIF**", "**₹10,000 crore** corpus with **NABARD**"],
-    ["**NMSA**", "Up to **55%** subsidy, cap **5 ha**"],
-    ["**Digital Agriculture Mission**", "**Sept 2024**, **₹2,817 crore**; **AgriStack**, Krishi DSS"],
-    ["**KISAN** (**Oct 2015**)", "Space tech for CCE under **PMFBY**"],
-    ["**Drone Rules 2021**", "**DGCA**; Kisan drones save water **up to 30%**"]
-   ]},
-  {"type": "bullets", "title": "Data & AP",
+    [
+     "**PDMC** (**2015-16**)",
+     "Under PMKSY; ==under **RKVY** from **2022-23**=="
+    ],
+    [
+     "**MIF**",
+     "**₹10,000 crore** corpus with **NABARD**"
+    ],
+    [
+     "**NMSA**",
+     "Up to **55%** subsidy, cap **5 ha**"
+    ],
+    [
+     "**Digital Agriculture Mission**",
+     "**Sept 2024**, **₹2,817 crore**; **AgriStack**, Krishi DSS"
+    ],
+    [
+     "**KISAN** (**Oct 2015**)",
+     "Space tech for crop cutting experiments under **PMFBY**"
+    ],
+    [
+     "**Drone Rules 2021**",
+     "**DGCA**; Kisan drones save water **up to 30%**"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Data & AP",
    "items": [
     "Gross irrigated area **55.8%** of GCA (**2022-23**)",
     "PDMC: **102 lakh ha** micro-irrigation, **2015-16 to 2025-26**",
@@ -51,13 +149,18 @@
     "==AP **1st** in micro-irrigation (**2024-25**)==; led by **Ananthapuramu**",
     "APMIP: **30-40%** higher productivity",
     "**APDC** drone spraying in all **26** districts"
-   ]},
-  {"type": "note", "title": "Exam corner",
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "Water-scarce regions → ==**drip irrigation**== (APPSC-G2 2025)",
     "Zero tillage + residue conserves water; ⚠ **gypsum** does NOT (UPSC 2017)",
     "SRI benefits: all three - seed, methane, electricity (UPSC 2022)",
     "Hydroponics = water; aeroponics = air; aquaponics = fish",
     "Crop forecasting: **Mahalanobis National Crop Forecast Centre (2012)**"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

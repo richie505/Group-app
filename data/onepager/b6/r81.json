@@ -1,64 +1,176 @@
-{"title": "Ramsar sites of India",
+{
+ "title": "Ramsar sites of India",
  "tag": "Environment",
  "quote": "Surha Tal in Ballia: India's 100th Ramsar site (June 2026)",
  "boxes": [
-  {"type": "bullets", "title": "Convention & India",
+  {
+   "type": "bullets",
+   "title": "Convention & India",
    "items": [
     "Signed **1971**, **Ramsar, Iran**: wetlands of international importance",
     "India joined **1 February 1982**",
     "**100** sites (June 2026); about **14 lakh hectares**",
     "==**1st in Asia**, **3rd in world**==",
     "**26** sites (**2012**) → **100**; **56** added after **2020** (⚠ other source: 26 in **2014**)"
-   ]},
-  {"type": "timeline", "title": "Recent additions",
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "Recent additions",
    "items": [
-    {"when": "2 Feb 2025", "what": "**Sakkarakottai**, **Therthangal** (TN), **Khecheopalri** (Sikkim), **Udhwa** (Jharkhand)"},
-    {"when": "5 Jun 2025", "what": "**Menar**, **Khichan** (Rajasthan)"},
-    {"when": "Sep-Oct 2025", "what": "Bihar: **Gokul**, **Udaipur Jheel**, **Goga Beel**"},
-    {"when": "Dec 2025", "what": "**Siliserh** (Rajasthan), **Kopra** (Chhattisgarh): **96**"},
-    {"when": "WWD 2026", "what": "**Patna BS** (Etah, UP), **Chhari-Dhand** (Kutch): **98**"},
-    {"when": "22 Apr 2026", "what": "**Shekha Jheel**, Aligarh: **99**"},
-    {"when": "Jun 2026", "what": "==**Surha Tal** (JP Narayan BS), Ballia: **100**=="}
-   ]},
-  {"type": "table", "title": "Records",
-   "head": ["Record", "Site"],
+    {
+     "when": "2 Feb 2025",
+     "what": "**Sakkarakottai**, **Therthangal** (TN), **Khecheopalri** (Sikkim), **Udhwa** (Jharkhand)"
+    },
+    {
+     "when": "5 Jun 2025",
+     "what": "**Menar**, **Khichan** (Rajasthan)"
+    },
+    {
+     "when": "Sep-Oct 2025",
+     "what": "Bihar: **Gokul**, **Udaipur Jheel**, **Goga Beel**"
+    },
+    {
+     "when": "Dec 2025",
+     "what": "**Siliserh** (Rajasthan), **Kopra** (Chhattisgarh): **96**"
+    },
+    {
+     "when": "World Wetlands Day 2026",
+     "what": "**Patna Bird Sanctuary** (Etah, UP), **Chhari-Dhand** (Kutch): **98**"
+    },
+    {
+     "when": "22 Apr 2026",
+     "what": "**Shekha Jheel**, Aligarh: **99**"
+    },
+    {
+     "when": "Jun 2026",
+     "what": "==**Surha Tal** (Jayaprakash Narayan Bird Sanctuary), Ballia: **100**=="
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Records",
+   "head": [
+    "Record",
+    "Site"
+   ],
    "rows": [
-    ["First (**1981**)", "**Chilika** (Odisha), **Keoladeo** (Rajasthan)"],
-    ["Largest", "**Sundarbans**, West Bengal"],
-    ["Smallest", "**Vembannur** (TN); earlier **Renuka** (HP)"],
-    ["Most", "==**Tamil Nadu 20**=="],
-    ["Second", "**Uttar Pradesh 13**"],
-    ["Andhra Pradesh", "Only **Kolleru Lake** (**2002**)"]
-   ]},
-  {"type": "table", "title": "State counts",
-   "head": ["Sites", "States"],
+    [
+     "First (**1981**)",
+     "**Chilika** (Odisha), **Keoladeo** (Rajasthan)"
+    ],
+    [
+     "Largest",
+     "**Sundarbans**, West Bengal"
+    ],
+    [
+     "Smallest",
+     "**Vembannur** (TN); earlier **Renuka** (HP)"
+    ],
+    [
+     "Most",
+     "==**Tamil Nadu 20**=="
+    ],
+    [
+     "Second",
+     "**Uttar Pradesh 13**"
+    ],
+    [
+     "Andhra Pradesh",
+     "Only **Kolleru Lake** (**2002**)"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "State counts",
+   "head": [
+    "Sites",
+    "States"
+   ],
    "rows": [
-    ["**20**", "Tamil Nadu"],
-    ["**13**", "Uttar Pradesh"],
-    ["**6**", "Bihar, Odisha, Punjab"],
-    ["**5**", "Gujarat, J&K, MP, Rajasthan"],
-    ["**4**", "Karnataka"],
-    ["**1**", "AP, Assam, Goa, Jharkhand, Manipur, Sikkim, Tripura"]
-   ]},
-  {"type": "cards", "title": "Sites to remember",
+    [
+     "**20**",
+     "Tamil Nadu"
+    ],
+    [
+     "**13**",
+     "Uttar Pradesh"
+    ],
+    [
+     "**6**",
+     "Bihar, Odisha, Punjab"
+    ],
+    [
+     "**5**",
+     "Gujarat, J&K, MP, Rajasthan"
+    ],
+    [
+     "**4**",
+     "Karnataka"
+    ],
+    [
+     "**1**",
+     "AP, Assam, Goa, Jharkhand, Manipur, Sikkim, Tripura"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Sites to remember",
    "cards": [
-    {"title": "1990 batch", "lines": ["**Wular**, **Loktak**", "**Harike**, **Sambhar**"]},
-    {"title": "2002 South", "lines": ["**Kolleru** (AP)", "**Point Calimere**: TN's oldest", "**Vembanad-Kol**, **Asthamudi**"]},
-    {"title": "Ladakh", "lines": ["**Tsomoriri** (2002)", "**Tso Kar** (2020)"]},
-    {"title": "NE", "lines": ["**Deepor Beel** (Assam)", "**Loktak** (Manipur), **Pala** (Mizoram)", "**Rudrasagar** (Tripura)"]}
-   ]},
-  {"type": "bullets", "title": "Tamil Nadu (20)",
+    {
+     "title": "1990 batch",
+     "lines": [
+      "**Wular**, **Loktak**",
+      "**Harike**, **Sambhar**"
+     ]
+    },
+    {
+     "title": "2002 South",
+     "lines": [
+      "**Kolleru** (AP)",
+      "**Point Calimere**: TN's oldest",
+      "**Vembanad-Kol**, **Asthamudi**"
+     ]
+    },
+    {
+     "title": "Ladakh",
+     "lines": [
+      "**Tsomoriri** (2002)",
+      "**Tso Kar** (2020)"
+     ]
+    },
+    {
+     "title": "NE",
+     "lines": [
+      "**Deepor Beel** (Assam)",
+      "**Loktak** (Manipur), **Pala** (Mizoram)",
+      "**Rudrasagar** (Tripura)"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Tamil Nadu (20)",
    "items": [
     "==**13** added in **2022**== (Pichavaram, Pallikaranai, Gulf of Mannar, Vedanthangal ...)",
     "**2024**: **Karaivetti**, **Longwood Shola**, **Kazhuveli**, **Nanjarayan**",
     "**2025**: **Sakkarakottai**, **Therthangal**"
-   ]},
-  {"type": "note", "title": "Exam corner",
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "**99th** Shekha Jheel; **100th** Surha Tal (both UP)",
     "UP: **11** on 98-site list → **13** now",
     "**Bihar** and **Rajasthan** each got **3** in 2025",
     "Patna Bird Sanctuary is in **Etah, UP** (not Bihar)",
     "Surha Tal: **freshwater**; groundwater recharge, fisheries"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

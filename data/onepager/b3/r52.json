@@ -1,68 +1,199 @@
-{"title": "Agrarian crisis and farmer distress",
+{
+ "title": "Agrarian crisis and farmer distress",
  "tag": "Indian Agriculture",
  "quote": "Debt is the immediate trigger; the roots are rain-fed risk, low prices and no social security",
  "boxes": [
-  {"type": "table", "title": "Causes of agrarian crisis",
-   "head": ["Cause", "Data point"],
+  {
+   "type": "table",
+   "title": "Causes of agrarian crisis",
+   "head": [
+    "Cause",
+    "Data point"
+   ],
    "rows": [
-    ["Small holdings", "==**86%**== small & marginal"],
-    ["Rainfall dependence", "~**50%** NSA rain-fed; **64%** irrigation on groundwater"],
-    ["Middlemen", "Farmers get ~**35%** of retail price"],
-    ["Input costs", "Up **300%+** since early 2000s"],
-    ["Soil", "NPK **10.9:4.1:1** vs ideal **4:2:1**"],
-    ["Climate", "Yields fall ~**8% per 1°C**"]
-   ]},
-  {"type": "cycle", "title": "Debt cycle",
+    [
+     "Small holdings",
+     "==**86%**== small & marginal"
+    ],
+    [
+     "Rainfall dependence",
+     "~**50%** net sown area rain-fed; **64%** irrigation on groundwater"
+    ],
+    [
+     "Middlemen",
+     "Farmers get ~**35%** of retail price"
+    ],
+    [
+     "Input costs",
+     "Up **300%+** since early 2000s"
+    ],
+    [
+     "Soil",
+     "NPK **10.9:4.1:1** vs ideal **4:2:1**"
+    ],
+    [
+     "Climate",
+     "Yields fall ~**8% per 1°C**"
+    ]
+   ]
+  },
+  {
+   "type": "cycle",
+   "title": "Debt cycle",
    "centre": "==Debt trap==",
-   "steps": ["High input cost", "Borrowing", "Crop failure / low price", "Cannot repay", "Fresh borrowing", "Asset sale"]},
-  {"type": "bullets", "title": "Holdings & debt data",
-   "items": ["2015-16: small + marginal = **86.2%** holdings, only ==**47.3%** area==; avg **1.08 ha** (from **2.28 ha**, 1971)",
+   "steps": [
+    "High input cost",
+    "Borrowing",
+    "Crop failure / low price",
+    "Cannot repay",
+    "Fresh borrowing",
+    "Asset sale"
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Holdings & debt data",
+   "items": [
+    "2015-16: small + marginal = **86.2%** holdings, only ==**47.3%** area==; avg **1.08 ha** (from **2.28 ha**, 1971)",
     "2010-11: **85%** holdings, **44%** area (APPSC 2017)",
     "AP avg holding **0.86 ha** (11th Census, provisional)",
     "**NSS 77th Round (2019)**: ~**50%** indebted; avg debt ₹**74,121**; income ₹**10,218**/month",
     "AP informal credit ~**50%** vs national ~**31%**",
-    "Guntur study: **88%** in debt; tenants Rs **2,07,444** vs owners Rs **76,306**"]},
-  {"type": "bullets", "title": "Farmer suicides (NCRB ADSI)",
-   "items": ["ADSI 2015 top cause: ==**bankruptcy / indebtedness**== (APPSC 2017)",
+    "Guntur study: **88%** in debt; tenants Rs **2,07,444** vs owners Rs **76,306**"
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Farmer suicides (NCRB ADSI)",
+   "items": [
+    "ADSI 2015 top cause: ==**bankruptcy / indebtedness**== (APPSC 2017)",
     "Farm sector **10,546** = **6.2%**: **4,633** farmers + **5,913** labourers",
     "Sharp resurgence in **2023**; rain-fed belts",
     "Hotspots: **Maharashtra** & **Andhra Pradesh**",
-    "AP: **300+** claimed, only **112** recognised"]},
-  {"type": "table", "title": "Committees",
-   "head": ["Body", "Year", "Chair"],
+    "AP: **300+** claimed, only **112** recognised"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Committees",
+   "head": [
+    "Body",
+    "Year",
+    "Chair"
+   ],
    "rows": [
-    ["National Commission on Farmers", "==**2004**==", "**M.S. Swaminathan**: MSP = C2 + 50%"],
-    ["Expert Group on Indebtedness", "**2007**", "**R. Radhakrishna**"],
-    ["Crop holiday committee", "**2011**", "**Mohan Kanda**"]
-   ]},
-  {"type": "table", "title": "Loan waivers",
-   "head": ["Waiver", "Key facts"],
+    [
+     "National Commission on Farmers",
+     "==**2004**==",
+     "**M.S. Swaminathan**: MSP = C2 + 50%"
+    ],
+    [
+     "Expert Group on Indebtedness",
+     "**2007**",
+     "**R. Radhakrishna**"
+    ],
+    [
+     "Crop holiday committee",
+     "**2011**",
+     "**Mohan Kanda**"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Loan waivers",
+   "head": [
+    "Waiver",
+    "Key facts"
+   ],
    "rows": [
-    ["Union **2008**", "Full waiver for small/marginal; others **25%** OTS; ~₹**52,000** crore"],
-    ["AP **2014** (Rythu Runa Mafi)", "**Rythu Sadhikara Samstha**; ceiling ==₹**1.5 lakh**/family=="],
-    ["Critique", "Moral hazard; excludes informal & tenant loans; RBI: hurts credit culture"]
-   ]},
-  {"type": "table", "title": "PMFBY (2016)",
-   "head": ["Item", "Fact"],
+    [
+     "Union **2008**",
+     "Full waiver for small/marginal; others **25%** one-time settlement; ~₹**52,000** crore"
+    ],
+    [
+     "AP **2014** (Rythu Runa Mafi)",
+     "**Rythu Sadhikara Samstha**; ceiling ==₹**1.5 lakh**/family=="
+    ],
+    [
+     "Critique",
+     "Moral hazard; excludes informal & tenant loans; RBI: hurts credit culture"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "PMFBY (2016)",
+   "head": [
+    "Item",
+    "Fact"
+   ],
    "rows": [
-    ["Premium", "Kharif ==**2%**==; rabi **1.5%**; commercial **5%**"],
-    ["Replaced", "**NAIS (1999)**, **MNAIS (2010)**"],
-    ["Voluntary", "For all since **Kharif 2020**"],
-    ["Scale", "**4.19 crore** insured (2024-25)"],
-    ["Tech", "**YES-TECH**, **WINDS**; helpline **14447**"]
-   ]},
-  {"type": "cards", "title": "Income support & tenants",
+    [
+     "Premium",
+     "Kharif ==**2%**==; rabi **1.5%**; commercial **5%**"
+    ],
+    [
+     "Replaced",
+     "**NAIS (1999)**, **MNAIS (2010)**"
+    ],
+    [
+     "Voluntary",
+     "For all since **Kharif 2020**"
+    ],
+    [
+     "Scale",
+     "**4.19 crore** insured (2024-25)"
+    ],
+    [
+     "Tech",
+     "**YES-TECH**, **WINDS**; helpline **14447**"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Income support & tenants",
    "cards": [
-    {"title": "Annadata Sukhibhava (AP)", "lines": ["Rs **20,000**/yr incl. PM-KISAN", "Tenants included"]},
-    {"title": "KALIA", "lines": ["==**Odisha**=="]},
-    {"title": "Rythu Bandhu → Bharosa", "lines": ["**Telangana**; ₹**12,000**/acre"]},
-    {"title": "CCRC (AP, 2019)", "lines": ["Valid ==**11 months**==", "**8.24 lakh** active; ₹**3,768** crore loans"]}
-   ]},
-  {"type": "note", "title": "Exam corner",
-   "items": ["UPPSC 2016: **rural poverty** = reason for slow agri growth",
+    {
+     "title": "Annadata Sukhibhava (AP)",
+     "lines": [
+      "Rs **20,000**/yr incl. PM-KISAN",
+      "Tenants included"
+     ]
+    },
+    {
+     "title": "KALIA",
+     "lines": [
+      "==**Odisha**=="
+     ]
+    },
+    {
+     "title": "Rythu Bandhu → Bharosa",
+     "lines": [
+      "**Telangana**; ₹**12,000**/acre"
+     ]
+    },
+    {
+     "title": "CCRC (AP, 2019)",
+     "lines": [
+      "Valid ==**11 months**==",
+      "**8.24 lakh** active; ₹**3,768** crore loans"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
+   "items": [
+    "UPPSC 2016: **rural poverty** = reason for slow agri growth",
     "NSSO 70th Round: **Rajasthan** highest agri households; **Kerala** >**60%** non-farm income",
     "**2011** = Loan Eligibility Cards; **2019** = CCRC",
     "**2011 crop holiday**: ==**Konaseema**== paddy farmers",
     "Dunkel Draft: **Sharad Joshi** for; **Tikait**, **Nanjundaswamy** against",
-    "10,000 FPO scheme **2020**, ₹**6,865** crore"]}
- ]}
+    "10,000 FPO scheme **2020**, ₹**6,865** crore"
+   ]
+  }
+ ]
+}

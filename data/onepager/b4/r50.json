@@ -1,48 +1,181 @@
-{"title": "Forests and vegetation of AP",
+{
+ "title": "Forests and vegetation of AP",
  "tag": "AP Geography",
  "quote": "Forests in AP are predominantly deciduous; Nallamala is the biggest forest block",
  "boxes": [
-  {"type": "table", "title": "Forest types by rainfall",
-   "head": ["Type", "Rainfall", "Where", "Species"],
+  {
+   "type": "table",
+   "title": "Forest types by rainfall",
+   "head": [
+    "Type",
+    "Rainfall",
+    "Where",
+    "Species"
+   ],
    "rows": [
-    ["**Moist deciduous**", "**125-200 cm**", "Srikakulam, Visakhapatnam, Agency areas; **Papikonda**", "Bamboo, sandalwood"],
-    ["**Dry deciduous** (largest)", "**75-100 cm**", "Kadapa, Kurnool; ==**Seshachalam-Nallamala**==", "Teak, red sanders"],
-    ["**Short thorn**", "**Less than 70 cm**", "Kadapa, Kurnool, Chittoor, Anantapur", "Acacia, Ziziphus"],
-    ["**Tidal** (Koringa)", "-", "Mouths of **Krishna, Godavari**; Pulicat", "Rhizophora, Avicennia"]
-   ]},
-  {"type": "hierarchy", "title": "Forest cover by density (ISFR 2023)",
+    [
+     "**Moist deciduous**",
+     "**125-200 cm**",
+     "Srikakulam, Visakhapatnam, Agency areas; **Papikonda**",
+     "Bamboo, sandalwood"
+    ],
+    [
+     "**Dry deciduous** (largest)",
+     "**75-100 cm**",
+     "Kadapa, Kurnool; ==**Seshachalam-Nallamala**==",
+     "Teak, red sanders"
+    ],
+    [
+     "**Short thorn**",
+     "**Less than 70 cm**",
+     "Kadapa, Kurnool, Chittoor, Anantapur",
+     "Acacia, Ziziphus"
+    ],
+    [
+     "**Tidal** (Koringa)",
+     "-",
+     "Mouths of **Krishna, Godavari**; Pulicat",
+     "Rhizophora, Avicennia"
+    ]
+   ]
+  },
+  {
+   "type": "hierarchy",
+   "title": "Forest cover by density (ISFR 2023)",
    "levels": [
-    {"name": "Very Dense", "note": "**1,995.71** sq km"},
-    {"name": "Moderately Dense", "note": "**13,725.75** sq km"},
-    {"name": "Open Forest", "note": "==**14,363.50** sq km (largest)=="},
-    {"name": "Scrub", "note": "**8,351.62** sq km"}
-   ]},
-  {"type": "bullets", "title": "Legal classes & area",
-   "items": ["Reserved ~**85.8%**; Protected ~**13.6%**; Unclassed ~**0.6%**", "NPs + WLS: **8,139.88 sq km** = **4.99%** of state", "Southern Dry Mixed Deciduous = **15,128 sq km**", "Mangroves & littoral = **418 sq km**", "Godavari-Krishna estuaries: **2nd-largest** mangrove ecosystem ⚠ by ISFR area, 2nd only on east coast"]},
-  {"type": "table", "title": "District extremes",
-   "head": ["Extreme", "Highest", "Lowest"],
+    {
+     "name": "Very Dense",
+     "note": "**1,995.71** sq km"
+    },
+    {
+     "name": "Moderately Dense",
+     "note": "**13,725.75** sq km"
+    },
+    {
+     "name": "Open Forest",
+     "note": "==**14,363.50** sq km (largest)=="
+    },
+    {
+     "name": "Scrub",
+     "note": "**8,351.62** sq km"
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Legal classes & area",
+   "items": [
+    "Reserved ~**85.8%**; Protected ~**13.6%**; Unclassed ~**0.6%**",
+    "NPs + WLS: **8,139.88 sq km** = **4.99%** of state",
+    "Southern Dry Mixed Deciduous = **15,128 sq km**",
+    "Mangroves & littoral = **418 sq km**",
+    "Godavari-Krishna estuaries: **2nd-largest** mangrove ecosystem ⚠ by ISFR area, 2nd only on east coast"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "District extremes",
+   "head": [
+    "Extreme",
+    "Highest",
+    "Lowest"
+   ],
    "rows": [
-    ["Rainfall", "**Visakhapatnam**", "**Anantapur**"],
-    ["Forest area", "==**YSR Kadapa**==", "**Krishna**"],
-    ["Forest %", "==**Visakhapatnam**==", "**Krishna**"]
-   ]},
-  {"type": "cards", "title": "Key species & places",
+    [
+     "Rainfall",
+     "**Visakhapatnam**",
+     "**Anantapur**"
+    ],
+    [
+     "Forest area",
+     "==**YSR Kadapa**==",
+     "**Krishna**"
+    ],
+    [
+     "Forest %",
+     "==**Visakhapatnam**==",
+     "**Krishna**"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Key species & places",
    "cards": [
-    {"title": "Red sanders", "lines": ["Endemic to ==**Seshachalam**==, Palakonda, Veligonda", "IUCN **Endangered**; **Schedule IV**; CITES **App. II**"]},
-    {"title": "Nallamala", "lines": ["==Biggest forests in AP==", "Gundlakamma forest zone"]},
-    {"title": "Tirumala", "lines": ["TTD: **89.40%** green cover"]}
-   ]},
-  {"type": "table", "title": "Agencies",
-   "head": ["Agency", "Role"],
+    {
+     "title": "Red sanders",
+     "lines": [
+      "Endemic to ==**Seshachalam**==, Palakonda, Veligonda",
+      "IUCN **Endangered**; **Schedule IV**; CITES **App. II**"
+     ]
+    },
+    {
+     "title": "Nallamala",
+     "lines": [
+      "==Biggest forests in AP==",
+      "Gundlakamma forest zone"
+     ]
+    },
+    {
+     "title": "Tirumala",
+     "lines": [
+      "TTD: **89.40%** green cover"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Agencies",
+   "head": [
+    "Agency",
+    "Role"
+   ],
    "rows": [
-    ["**GCC**, Visakhapatnam", "Buys MFP from tribals"],
-    ["**TRIFED** (**1987**)", "MSP for MFP; Ministry of Tribal Affairs"],
-    ["**APFDC**", "Exports ==red sanders & beedi leaf==; largest Eucalyptus PSU grower (**33,584 ha**)"],
-    ["**CAMPA**", "Compensatory afforestation"],
-    ["**Vanam-Manam**", "Green cover outside RFs; **5.29 crore** seedlings"]
-   ]},
-  {"type": "bullets", "title": "Produce, fires, law",
-   "items": ["Forest revenue **₹32.81 crore** (2023-24); NTFP over **₹500 crore**/yr", "Craft wood banks: **Kondapalli, Etikoppaka**, Bobbili", "Fires 2023-24: ==AP highest in India, **5,286.76 sq km**==", "Diversion under Van Adhiniyam **1980**: **27,641.252 ha**", "**16th Finance Commission**: counts **open forests** for first time", "**1879 Rekapalli** revolt vs forest laws"]},
-  {"type": "note", "title": "Exam corner",
-   "items": ["Seshachalam = ==**dry deciduous**== (APPSC 2023); Papikonda = moist deciduous", "Highest fire-affected area 2023-24 = **AP** (APPSC 2025)", "Largest density class = **Open Forest**, not Moderately Dense", "Largest forest area = **Kadapa**; highest cover % = **Visakhapatnam**", "Trap: AP is not India's 2nd in mangrove area (behind WB, Gujarat, A&N)"]}
- ]}
+    [
+     "**GCC**, Visakhapatnam",
+     "Buys MFP from tribals"
+    ],
+    [
+     "**TRIFED** (**1987**)",
+     "MSP for MFP; Ministry of Tribal Affairs"
+    ],
+    [
+     "**APFDC**",
+     "Exports ==red sanders & beedi leaf==; largest Eucalyptus PSU grower (**33,584 ha**)"
+    ],
+    [
+     "**CAMPA**",
+     "Compensatory afforestation"
+    ],
+    [
+     "**Vanam-Manam**",
+     "Green cover outside Reserved Forests; **5.29 crore** seedlings"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Produce, fires, law",
+   "items": [
+    "Forest revenue **₹32.81 crore** (2023-24); NTFP over **₹500 crore**/yr",
+    "Craft wood banks: **Kondapalli, Etikoppaka**, Bobbili",
+    "Fires 2023-24: ==AP highest in India, **5,286.76 sq km**==",
+    "Diversion under Van Adhiniyam **1980**: **27,641.252 ha**",
+    "**16th Finance Commission**: counts **open forests** for first time",
+    "**1879 Rekapalli** revolt vs forest laws"
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
+   "items": [
+    "Seshachalam = ==**dry deciduous**== (APPSC 2023); Papikonda = moist deciduous",
+    "Highest fire-affected area 2023-24 = **AP** (APPSC 2025)",
+    "Largest density class = **Open Forest**, not Moderately Dense",
+    "Largest forest area = **Kadapa**; highest cover % = **Visakhapatnam**",
+    "Trap: AP is not India's 2nd in mangrove area (behind WB, Gujarat, A&N)"
+   ]
+  }
+ ]
+}

@@ -1,65 +1,195 @@
-{"title": "Employment generation schemes",
+{
+ "title": "Employment generation schemes",
  "tag": "Indian Economy",
  "quote": "2005 Act - 2006 launch - 2008 all districts - 2009 \"Mahatma Gandhi\" added",
  "boxes": [
-  {"type": "table", "title": "Wage vs self-employment",
-   "head": ["Wage employment", "Self-employment"],
+  {
+   "type": "table",
+   "title": "Wage vs self-employment",
+   "head": [
+    "Wage employment",
+    "Self-employment"
+   ],
    "rows": [
-    ["NREP, RLEGP, JRY, EAS", "IRDP, TRYSEM, DWCRA"],
-    ["JGSY, SGRY, NFFWP", "SGSY, NRLM"],
-    ["MGNREGS, VB-G RAM G", "==**PMRY** (1993)==, REGP, PMEGP"]
-   ]},
-  {"type": "timeline", "title": "MGNREGA milestones",
+    [
+     "NREP, RLEGP, JRY, EAS",
+     "IRDP, TRYSEM, DWCRA"
+    ],
+    [
+     "JGSY, SGRY, NFFWP",
+     "SGSY, NRLM"
+    ],
+    [
+     "MGNREGS, VB-G RAM G",
+     "==**PMRY** (1993)==, REGP, PMEGP"
+    ]
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "MGNREGA milestones",
    "items": [
-    {"when": "1977", "what": "**Food for Work Programme** (Janata govt)"},
-    {"when": "14 Nov 2004", "what": "**NFFWP** in **150** most backward districts"},
-    {"when": "Sep 2005", "what": "**NREGA** passed"},
-    {"when": "2 Feb 2006", "what": "==Launched in **200** districts==; NFFWP + SGRY subsumed"},
-    {"when": "1 Apr 2008", "what": "**All districts** (625)"},
-    {"when": "2 Oct 2009", "what": "\"**Mahatma Gandhi**\" added"},
-    {"when": "1 July 2026", "what": "Repealed; **VB-G RAM G** in force"}
-   ]},
-  {"type": "bullets", "title": "MGNREGA features",
+    {
+     "when": "1977",
+     "what": "**Food for Work Programme** (Janata govt)"
+    },
+    {
+     "when": "14 Nov 2004",
+     "what": "**NFFWP** in **150** most backward districts"
+    },
+    {
+     "when": "Sep 2005",
+     "what": "**NREGA** passed"
+    },
+    {
+     "when": "2 Feb 2006",
+     "what": "==Launched in **200** districts==; NFFWP + SGRY subsumed"
+    },
+    {
+     "when": "1 Apr 2008",
+     "what": "**All districts** (625)"
+    },
+    {
+     "when": "2 Oct 2009",
+     "what": "\"**Mahatma Gandhi**\" added"
+    },
+    {
+     "when": "1 July 2026",
+     "what": "Repealed; **VB-G RAM G** in force"
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "MGNREGA features",
    "items": [
     "==**100 days** per **household** per financial year==; adults, unskilled manual work",
     "Objective: **livelihood security** (APPSC 2023); **Article 41**; Ministry of Rural Development",
     "Women ≥ **one-third** (actual > 50%)",
     "Wages within **15 days**; allowance if no work in **15 days**: **1/4** wage for **30** days, then **1/2**",
     "Monitoring: **Bhuvan** (ISRO) **GeoMGNREGA**; NREGASoft; **Gram Sabha** social audit",
-    "**WDR 2014**: \"stellar example of rural development\""
-   ]},
-  {"type": "table", "title": "MGNREGA vs VB-G RAM G Act 2025",
-   "head": ["Aspect", "MGNREGA", "VB-G RAM G"],
+    "**World Development Report 2014**: \"stellar example of rural development\""
+   ]
+  },
+  {
+   "type": "table",
+   "title": "MGNREGA vs VB-G RAM G Act 2025",
+   "head": [
+    "Aspect",
+    "MGNREGA",
+    "VB-G RAM G"
+   ],
    "rows": [
-    ["Guarantee", "100 days", "==**125 days**=="],
-    ["Seasonal pause", "None", "Up to **60 days**"],
-    ["Funding", "Mostly Central", "**60:40** (90:10 NE/Himalayan)"],
-    ["Wages", "Within 15 days", "**Weekly**; floor **₹300/day**"],
-    ["Works", "Scattered", "**4 priority areas**"],
-    ["Admin ceiling", "6%", "**9%**"]
-   ]},
-  {"type": "table", "title": "Schemes → ministry",
-   "head": ["Scheme", "Ministry", "Feature"],
+    [
+     "Guarantee",
+     "100 days",
+     "==**125 days**=="
+    ],
+    [
+     "Seasonal pause",
+     "None",
+     "Up to **60 days**"
+    ],
+    [
+     "Funding",
+     "Mostly Central",
+     "**60:40** (90:10 NE/Himalayan)"
+    ],
+    [
+     "Wages",
+     "Within 15 days",
+     "**Weekly**; floor **₹300/day**"
+    ],
+    [
+     "Works",
+     "Scattered",
+     "**4 priority areas**"
+    ],
+    [
+     "Admin ceiling",
+     "6%",
+     "**9%**"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Schemes → ministry",
+   "head": [
+    "Scheme",
+    "Ministry",
+    "Feature"
+   ],
    "rows": [
-    ["**PMEGP** (2008)", "**MSME**; ==by **KVIC**==", "Margin **15-35%**; cap **₹50 lakh** / **₹20 lakh**"],
-    ["**DDU-GKY** (2014)", "**Rural Development**", "Placement-linked skilling"],
-    ["**PM-SVANidhi**", "==**Housing & Urban Affairs**==", "Street vendor loans; **75 lakh+**"],
-    ["**PM Vishwakarma**", "MSME", "**18** artisan trades"],
-    ["**National Career Service** (2015)", "**Labour & Employment**", "Job portal"],
-    ["**Garib Kalyan Rojgar** (2020)", "Rural Development", "**125-day**, returnee migrants"]
-   ]},
-  {"type": "cards", "title": "Formal job incentives",
+    [
+     "**PMEGP** (2008)",
+     "**MSME**; ==by **KVIC**==",
+     "Margin **15-35%**; cap **₹50 lakh** / **₹20 lakh**"
+    ],
+    [
+     "**DDU-GKY** (2014)",
+     "**Rural Development**",
+     "Placement-linked skilling"
+    ],
+    [
+     "**PM-SVANidhi**",
+     "==**Housing & Urban Affairs**==",
+     "Street vendor loans; **75 lakh+**"
+    ],
+    [
+     "**PM Vishwakarma**",
+     "MSME",
+     "**18** artisan trades"
+    ],
+    [
+     "**National Career Service** (2015)",
+     "**Labour & Employment**",
+     "Job portal"
+    ],
+    [
+     "**Garib Kalyan Rojgar** (2020)",
+     "Rural Development",
+     "**125-day**, returnee migrants"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Formal job incentives",
    "cards": [
-    {"title": "ABRY", "lines": ["**Atmanirbhar Bharat 3.0**", "New formal jobs, **EPF** support"]},
-    {"title": "PM-Viksit Bharat Rozgar Yojana", "lines": ["**15 Aug 2025**", "==**₹99,446 crore**; **3.5 crore** jobs=="]},
-    {"title": "AP", "lines": ["**4th** nationally in MGNREGS", "**125 days** in distressed pockets"]}
-   ]},
-  {"type": "note", "title": "Exam corner",
+    {
+     "title": "ABRY",
+     "lines": [
+      "**Atmanirbhar Bharat 3.0**",
+      "New formal jobs, **EPF** support"
+     ]
+    },
+    {
+     "title": "PM-Viksit Bharat Rozgar Yojana",
+     "lines": [
+      "**15 Aug 2025**",
+      "==**₹99,446 crore**; **3.5 crore** jobs=="
+     ]
+    },
+    {
+     "title": "AP",
+     "lines": [
+      "**4th** nationally in MGNREGS",
+      "**125 days** in distressed pockets"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "100 days to every ==**household**==, not every adult (APPSC 2017)",
     "⚠ **PMRY** is not a wage programme (APPSC 2017)",
     "⚠ NFFWP merged **2006**, not 2009; 625 = 2008 coverage",
     "GeoMGNREGA = **Bhuvan** (APPSC 2018)",
     "**Olga Tellis (1985)**: livelihood tied to Article 21"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

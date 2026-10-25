@@ -1,43 +1,131 @@
-{"title": "Telecom: 5G, 6G, satcom & fibre",
+{
+ "title": "Telecom: 5G, 6G, satcom & fibre",
  "tag": "Science & Technology",
  "quote": "Terrestrial spectrum = auctioned; satellite spectrum = assigned administratively",
  "boxes": [
-  {"type": "hierarchy", "title": "Mobile generations",
+  {
+   "type": "hierarchy",
+   "title": "Mobile generations",
    "levels": [
-    {"name": "1G (1980s)", "note": "Analog voice; **FDMA**"},
-    {"name": "2G / 2.75G", "note": "GSM, CDMA, SMS / **EDGE**"},
-    {"name": "3G", "note": "**CDMA**-based"},
-    {"name": "4G", "note": "**LTE**, OFDMA; **VoLTE**"},
-    {"name": "5G", "note": "OFDMA; latency ==**1 ms**=="},
-    {"name": "6G", "note": "**Early 2030s**"}
-   ]},
-  {"type": "timeline", "title": "Milestones",
+    {
+     "name": "1G (1980s)",
+     "note": "Analog voice; **FDMA**"
+    },
+    {
+     "name": "2G / 2.75G",
+     "note": "GSM, CDMA, SMS / **EDGE**"
+    },
+    {
+     "name": "3G",
+     "note": "**CDMA**-based"
+    },
+    {
+     "name": "4G",
+     "note": "**LTE**, OFDMA; **VoLTE**"
+    },
+    {
+     "name": "5G",
+     "note": "OFDMA; latency ==**1 ms**=="
+    },
+    {
+     "name": "6G",
+     "note": "**Early 2030s**"
+    }
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "Milestones",
    "items": [
-    {"when": "1975", "what": "First experimental satellite telecom"},
-    {"when": "1984", "what": "**C-DOT**; **1986**: MTNL, VSNL"},
-    {"when": "Apr 2019", "what": "**South Korea**: world first 5G"},
-    {"when": "Aug 2020", "what": "**CANI** submarine OFC (~**2,300 km**)"},
-    {"when": "1 Oct 2022", "what": "==India's 5G launch== (India Mobile Congress)"},
-    {"when": "2023", "what": "**Bharat 6G Vision** (March); **B6GA**, **seven** Working Groups"}
-   ]},
-  {"type": "table", "title": "Key terms",
-   "head": ["Term", "Meaning"],
+    {
+     "when": "1975",
+     "what": "First experimental satellite telecom"
+    },
+    {
+     "when": "1984",
+     "what": "**C-DOT**; **1986**: MTNL, VSNL"
+    },
+    {
+     "when": "Apr 2019",
+     "what": "**South Korea**: world first 5G"
+    },
+    {
+     "when": "Aug 2020",
+     "what": "**CANI** submarine OFC (~**2,300 km**)"
+    },
+    {
+     "when": "1 Oct 2022",
+     "what": "==India's 5G launch== (India Mobile Congress)"
+    },
+    {
+     "when": "2023",
+     "what": "**Bharat 6G Vision** (March); **B6GA**, **seven** Working Groups"
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Key terms",
+   "head": [
+    "Term",
+    "Meaning"
+   ],
    "rows": [
-    ["**sub-6 GHz / mmWave**", "Coverage / speed, short range"],
-    ["**Network slicing**", "Virtual slices of one network"],
-    ["**5G SA**", "No 4G core"],
-    ["**GMPCS**", "DoT satcom licence"],
-    ["**Li-Fi**", "Data via **LEDs**; **Harald Haas** (**2011**)"],
-    ["**Optical fibre**", "==**Total internal reflection**=="]
-   ]},
-  {"type": "table", "title": "GEO vs LEO",
-   "head": ["", "GEO", "LEO"],
+    [
+     "**sub-6 GHz / mmWave**",
+     "Coverage / speed, short range"
+    ],
+    [
+     "**Network slicing**",
+     "Virtual slices of one network"
+    ],
+    [
+     "**5G SA**",
+     "No 4G core"
+    ],
+    [
+     "**GMPCS**",
+     "DoT satcom licence"
+    ],
+    [
+     "**Li-Fi**",
+     "Data via **LEDs**; **Harald Haas** (**2011**)"
+    ],
+    [
+     "**Optical fibre**",
+     "==**Total internal reflection**=="
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "GEO vs LEO",
+   "head": [
+    "",
+    "GEO",
+    "LEO"
+   ],
    "rows": [
-    ["Altitude", "~**35,786 km**", "Below ~**2,000 km**"],
-    ["Latency", "Higher", "==Low=="],
-    ["e.g.", "**GSAT** series", "**Starlink** (**8,000+**), OneWeb, Kuiper"]
-   ]},
-  {"type": "bullets", "title": "Rules & rulings",
+    [
+     "Altitude",
+     "~**35,786 km**",
+     "Below ~**2,000 km**"
+    ],
+    [
+     "Latency",
+     "Higher",
+     "==Low=="
+    ],
+    [
+     "e.g.",
+     "**GSAT** series",
+     "**Starlink** (**8,000+**), OneWeb, Kuiper"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Rules & rulings",
    "items": [
     "**Telecommunications Act 2023**: licensing → **authorisation**",
     "SC (Feb 2026): telcos ==**do not own spectrum**== (Aircel)",
@@ -45,30 +133,59 @@
     "GMPCS: **geofencing**; terminals made in India within **5 years**",
     "ITU: de-orbit within **25 years**",
     "**TTDF (2022)**: **5%** of Digital Bharat Nidhi"
-   ]},
-  {"type": "bullets", "title": "Optical fibre & cables",
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Optical fibre & cables",
    "items": [
     "==**Fastest** medium== (APPSC 2025); single-mode = long distance",
     "Undersea: ~**1.5 million km**; carry ~**99%** of traffic; repeaters **60-80 km**",
     "**NOFN** → BharatNet: **2,50,000 Gram Panchayats**, **USOF**, **GPON**",
     "Gati Shakti: ~**13.5 lakh route km** OFC; **8.26 lakh towers**",
     "**PM-WANI**: **3.15 lakh** hotspots"
-   ]},
-  {"type": "table", "title": "EM waves in communication",
-   "head": ["Wave", "Wavelength / use"],
+   ]
+  },
+  {
+   "type": "table",
+   "title": "electromagnetic waves in communication",
+   "head": [
+    "Wave",
+    "Wavelength / use"
+   ],
    "rows": [
-    ["**Radio**", ">**1 m**; TV, mobile, Wi-Fi"],
-    ["**Microwaves**", "**1 mm-1 m**; satellite, radar, 5G"],
-    ["**Infrared**", "**700 nm-1 mm**; remote controls"],
-    ["**Visible**", "**400-700 nm**; Li-Fi"],
-    ["**UV, X-ray, gamma**", "==Not used=="]
-   ]},
-  {"type": "note", "title": "Exam corner",
+    [
+     "**Radio**",
+     ">**1 m**; TV, mobile, Wi-Fi"
+    ],
+    [
+     "**Microwaves**",
+     "**1 mm-1 m**; satellite, radar, 5G"
+    ],
+    [
+     "**Infrared**",
+     "**700 nm-1 mm**; remote controls"
+    ],
+    [
+     "**Visible**",
+     "**400-700 nm**; Li-Fi"
+    ],
+    [
+     "**UV, X-ray, gamma**",
+     "==Not used=="
+    ]
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "5G hackathon 2023 = ==**DoT**, not DST== (APPSC 2022)",
     "EMF limit = **one-tenth** ICNIRP: **0.92 W/m²** at 1800 MHz (APPSC 2021 key: 9.2 = ICNIRP value)",
     "**IIITDM Kurnool** ranked **1st** among **100** 5G labs",
     "⚠ TDSAT hears appeals against TRAI; Wi-Fi 6 = 802.11ax, Wi-Fi 7 = 802.11be",
     "India **49th** in Network Readiness Index 2024"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

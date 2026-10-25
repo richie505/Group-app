@@ -1,85 +1,230 @@
-{"title": "Cyclones, anticyclones & local storms",
+{
+ "title": "Cyclones, anticyclones & local storms",
  "tag": "Geography",
  "quote": "Eye = calm, lowest pressure; eyewall = strongest winds",
  "boxes": [
-  {"type": "bullets", "title": "Tropical cyclone formation",
+  {
+   "type": "bullets",
+   "title": "Tropical cyclone formation",
    "items": [
     "SST above ==**26.5 °C**== (⚠ other notes: 27 degC); only over warm oceans",
     "Coriolis force, low vertical wind shear, pre-existing disturbance",
     "Belt ==**30 deg N - 30 deg S**== (APPSC 2022); not within **5 deg** of equator",
     "None in **South Atlantic**, south-east Pacific",
-    "NH anticlockwise; SH clockwise; die on landfall"
-   ]},
-  {"type": "table", "title": "Tropical vs temperate",
-   "head": ["Feature", "Tropical", "Temperate"],
+    "NH anticlockwise; Southern Hemisphere clockwise; die on landfall"
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Tropical vs temperate",
+   "head": [
+    "Feature",
+    "Tropical",
+    "Temperate"
+   ],
    "rows": [
-    ["Latitude", "5-30°", "**35-65°**"],
-    ["Origin", "Warm seas only", "==Land and sea=="],
-    ["Fronts", "None", "==Clear frontal system=="],
-    ["Size", "Smaller, intense", "Larger, gentler"],
-    ["Movement", "East → west", "West → east"]
-   ]},
-  {"type": "table", "title": "IMD categories (km/h)",
-   "head": ["Category", "Wind"],
+    [
+     "Latitude",
+     "5-30°",
+     "**35-65°**"
+    ],
+    [
+     "Origin",
+     "Warm seas only",
+     "==Land and sea=="
+    ],
+    [
+     "Fronts",
+     "None",
+     "==Clear frontal system=="
+    ],
+    [
+     "Size",
+     "Smaller, intense",
+     "Larger, gentler"
+    ],
+    [
+     "Movement",
+     "East → west",
+     "West → east"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "IMD categories (km/h)",
+   "head": [
+    "Category",
+    "Wind"
+   ],
    "rows": [
-    ["Depression", "**31-49**"],
-    ["Deep Depression", "**50-61**"],
-    ["**Cyclonic Storm** (named)", "==**62-88**=="],
-    ["Severe", "**89-117**"],
-    ["Very Severe", "**118-166**"],
-    ["Extremely Severe (**2015**)", "**167-221**"],
-    ["Super Cyclonic", "**222**+"]
-   ]},
-  {"type": "table", "title": "Scales",
-   "head": ["Scale", "For"],
+    [
+     "Depression",
+     "**31-49**"
+    ],
+    [
+     "Deep Depression",
+     "**50-61**"
+    ],
+    [
+     "**Cyclonic Storm** (named)",
+     "==**62-88**=="
+    ],
+    [
+     "Severe",
+     "**89-117**"
+    ],
+    [
+     "Very Severe",
+     "**118-166**"
+    ],
+    [
+     "Extremely Severe (**2015**)",
+     "**167-221**"
+    ],
+    [
+     "Super Cyclonic",
+     "**222**+"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Scales",
+   "head": [
+    "Scale",
+    "For"
+   ],
    "rows": [
-    ["**Saffir-Simpson**", "==Hurricanes== (Cat 1-5; from **119 km/h**)"],
-    ["**Enhanced Fujita**", "Tornadoes (EF0-EF5)"],
-    ["**Beaufort**", "Wind force **0-12**"],
-    ["**Richter** (**1935**)", "Earthquake magnitude"],
-    ["**MSK-64** / MMI", "Intensity I-XII"]
-   ]},
-  {"type": "cards", "title": "Regional names",
+    [
+     "**Saffir-Simpson**",
+     "==Hurricanes== (Cat 1-5; from **119 km/h**)"
+    ],
+    [
+     "**Enhanced Fujita**",
+     "Tornadoes (EF0-EF5)"
+    ],
+    [
+     "**Beaufort**",
+     "Wind force **0-12**"
+    ],
+    [
+     "**Richter** (**1935**)",
+     "Earthquake magnitude"
+    ],
+    [
+     "**MSK-64** / MMI",
+     "Intensity I-XII"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Regional names",
    "cards": [
-    {"title": "Hurricane", "lines": ["Atlantic, Caribbean, NE Pacific"]},
-    {"title": "Typhoon", "lines": ["NW Pacific, **Japan**, **China**"]},
-    {"title": "Cyclone", "lines": ["Indian Ocean"]},
-    {"title": "Willy-Willy", "lines": ["NW Australia", "⚠ other notes: Western Australia"]},
-    {"title": "Baguio", "lines": ["**Philippines**"]}
-   ]},
-  {"type": "bullets", "title": "Anticyclones, tornadoes, WDs",
+    {
+     "title": "Hurricane",
+     "lines": [
+      "Atlantic, Caribbean, NE Pacific"
+     ]
+    },
+    {
+     "title": "Typhoon",
+     "lines": [
+      "NW Pacific, **Japan**, **China**"
+     ]
+    },
+    {
+     "title": "Cyclone",
+     "lines": [
+      "Indian Ocean"
+     ]
+    },
+    {
+     "title": "Willy-Willy",
+     "lines": [
+      "NW Australia",
+      "⚠ other notes: Western Australia"
+     ]
+    },
+    {
+     "title": "Baguio",
+     "lines": [
+      "**Philippines**"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Anticyclones, tornadoes, Western Disturbances",
    "items": [
     "**Anticyclone**: high centre, outward sinking air; clockwise in NH; clear weather",
     "**Tornado**: funnel from thunderstorm, **105-322 km/h**; USA (Gulf of Mexico air)",
     "**Western Disturbance**: ==**Mediterranean**== origin, steered by STJ; winter rain → **Rabi**",
     "**Kaal Baisakhi**: Bengal, Assam; **Aandhi**: NW India",
     "**Damini App**: lightning alerts in **15** languages"
-   ]},
-  {"type": "bullets", "title": "India's exposure",
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "India's exposure",
    "items": [
     "Bay of Bengal ==**75-80%**== of cyclones; ratio ~**4:1**",
     "Season bimodal: main **Oct-Dec**, secondary **Apr-May**",
     "~**10%** of world's cyclones (APPSC-GS 2023)",
     "Naming: **IMD (RSMC New Delhi)**; **13** countries, **169** names (**2020**)",
     "IMD colour codes: yellow aware, orange prepared, red action"
-   ]},
-  {"type": "timeline", "title": "Major cyclones",
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "Major cyclones",
    "items": [
-    {"when": "1999", "what": "**Odisha Super Cyclone**: ~**10,000** deaths"},
-    {"when": "2013", "what": "**Phailin**: \"zero casualty\" approach"},
-    {"when": "2014", "what": "==**Hudhud**==: Visakhapatnam"},
-    {"when": "2018", "what": "**Titli**: Srikakulam"},
-    {"when": "2019", "what": "**Fani**: ~**1.2 million** evacuated"},
-    {"when": "2021", "what": "**Tauktae**: Arabian Sea, Gujarat"},
-    {"when": "2023", "what": "**Biparjoy**: longest-lived Arabian Sea"},
-    {"when": "2025", "what": "==**Montha**==: Kakinada; **Ditwah**: Sri Lanka"}
-   ]},
-  {"type": "note", "title": "Exam corner",
+    {
+     "when": "1999",
+     "what": "**Odisha Super Cyclone**: ~**10,000** deaths"
+    },
+    {
+     "when": "2013",
+     "what": "**Phailin**: \"zero casualty\" approach"
+    },
+    {
+     "when": "2014",
+     "what": "==**Hudhud**==: Visakhapatnam"
+    },
+    {
+     "when": "2018",
+     "what": "**Titli**: Srikakulam"
+    },
+    {
+     "when": "2019",
+     "what": "**Fani**: ~**1.2 million** evacuated"
+    },
+    {
+     "when": "2021",
+     "what": "**Tauktae**: Arabian Sea, Gujarat"
+    },
+    {
+     "when": "2023",
+     "what": "**Biparjoy**: longest-lived Arabian Sea"
+    },
+    {
+     "when": "2025",
+     "what": "==**Montha**==: Kakinada; **Ditwah**: Sri Lanka"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "Temperate \"no clear frontal system\" = ==incorrect== (APPSC-G1 2024)",
     "Cyclones form over oceans, not rivers/lakes (APPSC-GS 2025)",
     "Saffir-Simpson = hurricanes (APPSC-GS 2025)",
     "Coastline: old **7,516.6 km** vs remeasured **11,098.81 km**",
     "Montha: only **15** deaths; **AWARE 2.0**, **423** drones"
-   ]}
- ]}
+   ]
+  }
+ ]
+}

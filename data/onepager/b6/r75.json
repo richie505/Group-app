@@ -1,64 +1,172 @@
-{"title": "S&T in news: overview & data",
+{
+ "title": "S&T in news: overview & data",
  "tag": "Current Affairs",
  "quote": "NISAR: first ISRO-NASA joint satellite and world's first dual-frequency radar satellite",
  "boxes": [
-  {"type": "table", "title": "Missions & launch vehicles",
-   "head": ["Mission", "Vehicle", "Key fact"],
+  {
+   "type": "table",
+   "title": "Missions & launch vehicles",
+   "head": [
+    "Mission",
+    "Vehicle",
+    "Key fact"
+   ],
    "rows": [
-    ["**NISAR** (**30 Jul 2025**)", "==**GSLV-F16**==", "NASA **L-band** + ISRO **S-band** SAR; **$1.5 billion**; every **12 days**"],
-    ["**BlueBird Block-2**", "**LVM3-M6**", "**6,100 kg**: heaviest payload from Indian soil"],
-    ["**EOS-05**", "**GSLV-F17**", "-"],
-    ["**EOS-N1**", "**PSLV-C62**", "Failed"]
-   ]},
-  {"type": "cards", "title": "Foreign missions & asteroids",
+    [
+     "**NISAR** (**30 Jul 2025**)",
+     "==**GSLV-F16**==",
+     "NASA **L-band** + ISRO **S-band** SAR; **$1.5 billion**; every **12 days**"
+    ],
+    [
+     "**BlueBird Block-2**",
+     "**LVM3-M6**",
+     "**6,100 kg**: heaviest payload from Indian soil"
+    ],
+    [
+     "**EOS-05**",
+     "**GSLV-F17**",
+     "-"
+    ],
+    [
+     "**EOS-N1**",
+     "**PSLV-C62**",
+     "Failed"
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Foreign missions & asteroids",
    "cards": [
-    {"title": "OSIRIS-APEX", "lines": ["Renamed OSIRIS-REx", "Target: ==**Apophis**=="]},
-    {"title": "OSIRIS-REx", "lines": ["Returned **Bennu** samples (**2023**)"]},
-    {"title": "Proba-3", "lines": ["**ESA**; two-spacecraft formation", "Studies Sun's **corona**"]},
-    {"title": "In news", "lines": ["Asteroid **2024 YR4**", "NASA **Swift Boost**"]}
-   ]},
-  {"type": "table", "title": "Drugs & vaccines",
-   "head": ["Product", "Developer / use"],
+    {
+     "title": "OSIRIS-APEX",
+     "lines": [
+      "Renamed OSIRIS-REx",
+      "Target: ==**Apophis**=="
+     ]
+    },
+    {
+     "title": "OSIRIS-REx",
+     "lines": [
+      "Returned **Bennu** samples (**2023**)"
+     ]
+    },
+    {
+     "title": "Proba-3",
+     "lines": [
+      "**ESA**; two-spacecraft formation",
+      "Studies Sun's **corona**"
+     ]
+    },
+    {
+     "title": "In news",
+     "lines": [
+      "Asteroid **2024 YR4**",
+      "NASA **Swift Boost**"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Drugs & vaccines",
+   "head": [
+    "Product",
+    "Developer / use"
+   ],
    "rows": [
-    ["**Coartem Baby**", "==First malaria drug for newborns== (Novartis + MMV)"],
-    ["**Ervebo**", "Ebola vaccine; ⚠ not licensed for **Bundibugyo**"],
-    ["**Nafithromycin (Miqnaf)**", "**Wockhardt**: first indigenous macrolide"],
-    ["**IndOss**", "**CSIR-NCL** bone substitute"],
-    ["**Covishield**", "Oxford-AstraZeneca; **Serum Institute**"],
-    ["**Sputnik V**", "Russia (Gamaleya)"]
-   ]},
-  {"type": "bullets", "title": "Diseases & health",
+    [
+     "**Coartem Baby**",
+     "==First malaria drug for newborns== (Novartis + Medicines for Malaria Venture)"
+    ],
+    [
+     "**Ervebo**",
+     "Ebola vaccine; ⚠ not licensed for **Bundibugyo**"
+    ],
+    [
+     "**Nafithromycin (Miqnaf)**",
+     "**Wockhardt**: first indigenous macrolide"
+    ],
+    [
+     "**IndOss**",
+     "**CSIR-NCL** bone substitute"
+    ],
+    [
+     "**Covishield**",
+     "Oxford-AstraZeneca; **Serum Institute**"
+    ],
+    [
+     "**Sputnik V**",
+     "Russia (Gamaleya)"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Diseases & health",
    "items": [
     "**Ebola** (**Bundibugyo**, Ituri DRC): WHO **PHEIC** (May 2026)",
     "**H1N1** = Influenza A (swine flu); **Hantavirus** = rodent-borne",
     "Project **BHISHM**: **Aarogya Maitri** cubes; nodal: ==**HLL Lifecare Ltd**== (PYQ)",
     "**GenomeIndia** (DBT): **10,000** genomes, **83** groups",
     "**CDSCO** (DCGI): trials + approvals; India polio-free **2014**"
-   ]},
-  {"type": "table", "title": "Terms & digital initiatives",
-   "head": ["Item", "Fact"],
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Terms & digital initiatives",
+   "head": [
+    "Item",
+    "Fact"
+   ],
    "rows": [
-    ["**Majorana 1**", "Microsoft, **topological qubits**"],
-    ["**GPT**", "Generative Pre-trained Transformer"],
-    ["**Digiboxx**", "==**NITI Aayog**== (PYQ)"],
-    ["**Ananta** campus", "**Google**, Bengaluru (PYQ)"],
-    ["**Sangam** Digital Twin", "**DoT**"],
-    ["**NIELIT Amaravati**", "First **Quantum and AI** campus"]
-   ]},
-  {"type": "bullets", "title": "Observatories & festivals",
+    [
+     "**Majorana 1**",
+     "Microsoft, **topological qubits**"
+    ],
+    [
+     "**GPT**",
+     "Generative Pre-trained Transformer"
+    ],
+    [
+     "**Digiboxx**",
+     "==**NITI Aayog**== (PYQ)"
+    ],
+    [
+     "**Ananta** campus",
+     "**Google**, Bengaluru (PYQ)"
+    ],
+    [
+     "**Sangam** Digital Twin",
+     "**DoT**"
+    ],
+    [
+     "**NIELIT Amaravati**",
+     "First **Quantum and AI** campus"
+    ]
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Observatories & festivals",
    "items": [
     "**LIGO-India**: **Hingoli, Maharashtra**; built by **L&T**",
     "**Himalayan Chandra Telescope**: **Hanle**, **2-m**, since **2001**",
     "**11th IISF**: **Panchkula, Haryana**",
     "Science Congress (1914): **108th** at **Nagpur**",
     "Defence traps: **TARA** = glide weapon; **RudraM-II** = anti-radiation"
-   ]},
-  {"type": "note", "title": "Exam corner",
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Exam corner",
    "items": [
     "NISAR = **GSLV-F16**, not PSLV",
     "**Bennu** = OSIRIS-REx; **Apophis** = OSIRIS-APEX",
     "Digiboxx = NITI Aayog; Ananta = Google; Sangam = DoT",
     "AIIMS Oncology Conclave: **AIIMS Jhajjar (NCI)** (PYQ)",
     "First Vande Bharat: **New Delhi-Varanasi**"
-   ]}
- ]}
+   ]
+  }
+ ]
+}
