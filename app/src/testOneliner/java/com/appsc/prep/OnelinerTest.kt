@@ -3,6 +3,7 @@ package com.appsc.prep
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
 import androidx.test.core.app.ApplicationProvider
@@ -89,7 +90,7 @@ class OnelinerTest {
         assertEquals(fresh.days.map { it.second }, r.planMcqs.days.map { it.second })
     }
 
-    /** A topic's practice: the question and four options, then only "Correct!" or the answer. */
+    /** A topic's practice: the question and four options, "Stuck?" (a hint, then the answer), then only the answer. */
     @Test fun quiz() {
         val app = AppState(repo, ProgressStore(Mem()), AndroidPlatform(ctx))
         runBlocking { app.repo.mcq(1) }
@@ -97,10 +98,15 @@ class OnelinerTest {
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/oneliner/1_question.png")
         val q = runBlocking { app.repo.mcq(1).rows[4]!!.first() }
+        rule.onNodeWithText("Stuck? Show a hint").performClick()
+        rule.waitForIdle()
+        rule.onNodeWithText("Still stuck? Show the answer", substring = true).performClick()
+        rule.waitForIdle()
+        rule.onNodeWithText("ANSWER").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/oneliner/2_stuck_answer.png")
         rule.onAllNodesWithText(q.options[(q.answer + 1) % 4])[0].performClick()
         rule.waitForIdle()
-        rule.onRoot().captureRoboImage("screenshots/oneliner/2_answered.png")
+        rule.onRoot().captureRoboImage("screenshots/oneliner/3_answered.png")
         assertEquals(0, rule.onAllNodesWithText("EXPLANATION").fetchSemanticsNodes().size)
-        assertEquals(0, rule.onAllNodesWithText("Stuck? Show a hint").fetchSemanticsNodes().size)
     }
 }

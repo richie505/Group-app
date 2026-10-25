@@ -536,7 +536,7 @@ private fun Bullet(text: String, ink: Color) {
  */
 @Composable
 private fun HintBox(q: Question, onReveal: () -> Unit) {
-    if (LocalApp.current.repo.oneliner) return // APPSC One-liners: the question and its answer only
+    val oneliner = LocalApp.current.repo.oneliner
     val hints = remember(q.id) { Techniques.hints(q) }
     val hasAnswer = q.answer in q.options.indices
     if (hints.isEmpty() && q.technique.isBlank() && !hasAnswer) return
@@ -588,7 +588,8 @@ private fun HintBox(q: Question, onReveal: () -> Unit) {
                     )
                 }
                 Text(
-                    "Now pick it to see the full explanation and your notes. Shown answers are practice: not scored.",
+                    if (oneliner) "Now pick it to move on. Shown answers are practice: not scored."
+                    else "Now pick it to see the full explanation and your notes. Shown answers are practice: not scored.",
                     style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     modifier = Modifier.padding(top = 6.dp),
                 )
