@@ -121,19 +121,22 @@ class OnelinerTest {
     }
 
     /** The notes are the one-page notes (tools/onepager_app.py): one page per topic, a heading for each box. */
-    @Test fun aSubsectionPerBox() {
+    @Test fun aSubsectionPerBoxThenTheFullNotes() {
         val r = repo
         for (b in 1..6) {
             val book = runBlocking { r.book(b) }
             val mcq = runBlocking { r.mcq(b) }
             for (row in book.rows) {
-                assertTrue("book $b row ${row.index}: ${row.secs.size} subsections", row.secs.size in 5..11)
-                assertTrue("book $b row ${row.index}: exam corner last", row.secs.last().title.contains("Exam", ignoreCase = true))
-                assertEquals("book $b row ${row.index}: subsections", r.rowInfo(b, row.index)?.subsectionCount, row.secs.size)
-                // each MCQ under its box (-1: matches none, the topic's practice only); in box order
+                val core = row.secs.count { !it.full }
+                assertTrue("book $b row ${row.index}: $core boxes", core in 5..11)
+                assertTrue("book $b row ${row.index}: boxes first, then the full notes", row.secs.take(core).none { it.full } && row.secs.drop(core).all { it.full })
+                assertTrue("book $b row ${row.index}: full notes kept", row.secs.size > core)
+                assertTrue("book $b row ${row.index}: exam corner last box", row.secs[core - 1].title.contains("Exam", ignoreCase = true))
+                assertEquals("book $b row ${row.index}: progress counts the boxes", r.rowInfo(b, row.index)?.subsectionCount, core)
+                // each MCQ under its box, else the full-notes page that holds it (-1: the topic only); in that order
                 val subs = mcq.subs[row.index].orEmpty()
-                assertTrue("book $b row ${row.index}: MCQs under its boxes", subs.all { it in -1 until row.secs.size })
-                assertEquals("book $b row ${row.index}: box order", subs.filter { it >= 0 }, subs.filter { it >= 0 }.sorted())
+                assertTrue("book $b row ${row.index}: MCQs under its pages", subs.all { it in -1 until row.secs.size })
+                assertEquals("book $b row ${row.index}: page order", subs.filter { it >= 0 }, subs.filter { it >= 0 }.sorted())
             }
         }
     }
@@ -147,6 +150,10 @@ class OnelinerTest {
         rule.mainClock.advanceTimeBy(3000)
         rule.onRoot().captureRoboImage("screenshots/oneliner/4_topic_subsections.png")
         rule.mainClock.autoAdvance = true
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction())
+            .performScrollToNode(androidx.compose.ui.test.hasText("Full notes (", substring = true, ignoreCase = true))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/oneliner/4b_topic_full_notes.png")
     }
 
     @Test fun subsectionInTheReader() {
@@ -157,6 +164,14 @@ class OnelinerTest {
         rule.onRoot().captureRoboImage("screenshots/oneliner/5_subsection_page.png")
     }
 
+    @Test fun fullNotesPageInTheReader() {
+        val app = AppState(repo, ProgressStore(Mem()), AndroidPlatform(ctx))
+        val k = runBlocking { app.repo.mcq(4); app.repo.book(4).rows[50].secs.count { !it.full } }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.ReaderScreen(4, 50, k, nav) } } }
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/oneliner/5b_full_notes_page.png")
+    }
+
     @Test fun subsectionMcqs() {
         val app = AppState(repo, ProgressStore(Mem()), AndroidPlatform(ctx))
         runBlocking { app.repo.mcq(4) }
@@ -165,28 +180,37 @@ class OnelinerTest {
         rule.onRoot().captureRoboImage("screenshots/oneliner/6_subsection_mcq.png")
     }
 
-    /** Read marks and own notes carry over: from Complete's full pages, and from the one page a topic of 2.71-2.74. */
-    @Test fun readMarksMoveToTheSubsections() {
+    /** Read marks and own notes carry over: from Complete's full pages, the one page a topic (2.71-2.74) and the boxes (2.75). */
+    @Test fun readMarksMoveOn() {
         val r = repo
-        val boxes = runBlocking { r.book(1).rows[0].secs.size }
+        val secs = runBlocking { r.book(1).rows[0].secs }
+        val k = secs.count { !it.full }
+        val k1 = runBlocking { r.book(1).rows[1].secs.count { !it.full } }
         val store = ProgressStore(Mem())
         val olds = r.idMoves.sources["1:0:0"]!!
-        assertTrue(olds.size > 1)
+        assertEquals(secs.size - k, olds.size)
         olds.forEach { store.setDone(it, true) }
-        store.setDone("1:1:2", true) // one page of the next topic only
+        store.setDone("1:1:2", true) // one full page of the next topic only
         store.setAdded("1:0:2#-1", "first")
         store.setAdded("1:0:3#-1", "second")
         store.migrate(r.idMoves)
         store.migrateNotes(r.noteMoves)
-        assertEquals((0 until boxes).map { "1:0:$it" }.toSet(), store.done)
-        assertEquals("first\nsecond", store.added["1:0:${boxes - 1}#-1"])
+        // every full page read, so every box too; the next topic: that full page only
+        assertEquals((0 until secs.size).map { "1:0:$it" }.toSet() + "1:1:${k1 + 2}", store.done)
+        assertEquals("first", store.added["1:0:${k + 2}#-1"])
+        assertEquals("second", store.added["1:0:${k + 3}#-1"])
 
-        // a phone on the one page a topic (2.71-2.74): a topic read there is read in all its subsections
-        val mem = Mem().apply { strings["ids_version"] = "oneliner-onepager-1" }
-        val one = ProgressStore(mem)
+        // the one page a topic (2.71-2.74): a topic read there is read in all its boxes
+        val one = ProgressStore(Mem().apply { strings["ids_version"] = "oneliner-onepager-1" })
         one.setDone("1:0:0", true)
         one.migrate(r.idMoves)
-        assertEquals((0 until boxes).map { "1:0:$it" }.toSet(), one.done)
+        assertEquals((0 until k).map { "1:0:$it" }.toSet(), one.done)
+
+        // the boxes (2.75): the same ids
+        val boxes = ProgressStore(Mem().apply { strings["ids_version"] = "oneliner-boxes-1" })
+        boxes.setDone("1:0:3", true)
+        boxes.migrate(r.idMoves)
+        assertEquals(setOf("1:0:3"), boxes.done)
     }
 
     /** Every MCQ of this app counts in Progress (its ids start with "o", APPSC Complete's with "n" or "ca"); old PYQ ids don't. */

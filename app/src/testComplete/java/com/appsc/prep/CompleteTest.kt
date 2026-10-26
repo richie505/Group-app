@@ -82,7 +82,8 @@ class CompleteTest {
             val book = runBlocking { repo.book(b) }
             val mcq = runBlocking { repo.mcq(b) }
             for (row in book.rows) {
-                assertTrue("book $b row ${row.index}: a subsection per box", row.secs.size in 5..11)
+                assertTrue("book $b row ${row.index}: a subsection per box", row.secs.count { !it.full } in 5..11)
+                assertTrue("book $b row ${row.index}: then the full notes", row.secs.any { it.full })
                 assertTrue("book $b row ${row.index}: MCQs under its boxes", mcq.subs[row.index].orEmpty().all { it in -1 until row.secs.size })
             }
         }

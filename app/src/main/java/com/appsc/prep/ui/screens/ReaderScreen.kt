@@ -76,6 +76,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.appsc.prep.data.NoteRow
 import com.appsc.prep.data.SpeechText
 import com.appsc.prep.data.Book
 import com.appsc.prep.data.Saved
@@ -100,14 +101,20 @@ import kotlinx.coroutines.launch
 /** Position of a subsection within a book: (row, sec). */
 private data class Pos(val row: Int, val sec: Int)
 
-private fun Book.next(p: Pos): Pos? = when {
-    p.sec + 1 < rows[p.row].secs.size -> Pos(p.row, p.sec + 1)
-    else -> (p.row + 1 until rows.size).firstOrNull { rows[it].secs.isNotEmpty() }?.let { Pos(it, 0) }
+// a topic's one-pager pages and its full notes are read as two runs: next from a box is the next box, then the next topic
+private fun NoteRow.run(full: Boolean) = secs.indices.filter { secs[it].full == full }
+
+private fun Book.next(p: Pos): Pos? {
+    val full = rows[p.row].secs[p.sec].full
+    rows[p.row].run(full).firstOrNull { it > p.sec }?.let { return Pos(p.row, it) }
+    return (p.row + 1 until rows.size).firstOrNull { rows[it].secs.isNotEmpty() }?.let { Pos(it, 0) }
 }
 
-private fun Book.prev(p: Pos): Pos? = when {
-    p.sec > 0 -> Pos(p.row, p.sec - 1)
-    else -> (p.row - 1 downTo 0).firstOrNull { rows[it].secs.isNotEmpty() }?.let { Pos(it, rows[it].secs.size - 1) }
+private fun Book.prev(p: Pos): Pos? {
+    val full = rows[p.row].secs[p.sec].full
+    rows[p.row].run(full).lastOrNull { it < p.sec }?.let { return Pos(p.row, it) }
+    return (p.row - 1 downTo 0).firstOrNull { rows[it].secs.isNotEmpty() }
+        ?.let { r -> Pos(r, rows[r].run(false).lastOrNull() ?: rows[r].secs.lastIndex) }
 }
 
 @OptIn(ExperimentalLayoutApi::class)

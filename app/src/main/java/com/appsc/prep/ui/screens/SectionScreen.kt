@@ -74,8 +74,10 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
         val row = book.rows[rowIndex]
         val unit = book.units.getOrNull(row.unitIndex)
         val planRow = app.repo.planRowByRef[bookId to rowIndex]
-        val done = app.store.doneCount(bookId, rowIndex, row.secs.size)
-        val firstUnread = row.secs.indices.firstOrNull { !app.store.isDone(subsectionId(bookId, rowIndex, it)) } ?: 0
+        // APPSC Complete / One-liners: the one-pager's boxes count; the topic's full notes after them are extra
+        val core = row.secs.count { !it.full }
+        val done = app.store.doneCount(bookId, rowIndex, core)
+        val firstUnread = (0 until core).firstOrNull { !app.store.isDone(subsectionId(bookId, rowIndex, it)) } ?: 0
         PageList(Modifier.fillMaxSize()) {
             item {
                 Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
@@ -117,9 +119,9 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                     }
                     Spacer(Modifier.height(14.dp))
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        ProgressLine(if (row.secs.isEmpty()) 0f else done / row.secs.size.toFloat(), Modifier.weight(1f))
+                        ProgressLine(if (core == 0) 0f else done / core.toFloat(), Modifier.weight(1f))
                         Spacer(Modifier.width(10.dp))
-                        Text("$done / ${row.secs.size} ${LocalApp.current.doneWord}", style = TextStyle(fontSize = 12.sp, color = C.Muted))
+                        Text("$done / $core ${LocalApp.current.doneWord}", style = TextStyle(fontSize = 12.sp, color = C.Muted))
                     }
                     Spacer(Modifier.height(14.dp))
                     Button(
@@ -131,7 +133,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                         Text(
                             when {
                                 done == 0 -> "Start reading"
-                                done >= row.secs.size -> "Read again"
+                                done >= core -> "Read again"
                                 else -> "Continue reading"
                             },
                             style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
@@ -155,49 +157,52 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                     }
                 }
                 HorizontalDivider(color = C.Line)
-                SectionHeader("Subsections (${row.secs.size})")
+                SectionHeader("Subsections ($core)")
             }
             itemsIndexed(row.secs) { i, s ->
-                val id = subsectionId(bookId, rowIndex, i)
-                Row(
-                    Modifier
-                        .fillMaxWidth()
-                        .clickable { nav.read(bookId, rowIndex, i) }
-                        .padding(horizontal = 20.dp, vertical = 12.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Text(
-                        "${i + 1}.",
-                        style = TextStyle(fontSize = 15.sp, color = C.Muted),
-                        modifier = Modifier.width(30.dp),
-                    )
-                    Column(Modifier.weight(1f)) {
+                Column {
+                    val id = subsectionId(bookId, rowIndex, i)
+                    if (i == core && s.full) SectionHeader("Full notes (${row.secs.size - core})")
+                    Row(
+                        Modifier
+                            .fillMaxWidth()
+                            .clickable { nav.read(bookId, rowIndex, i) }
+                            .padding(horizontal = 20.dp, vertical = 12.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
                         Text(
-                            s.title,
-                            style = TextStyle(
-                                fontSize = 15.sp, lineHeight = 21.sp, color = C.Ink,
-                                fontWeight = if (s.universal) FontWeight.SemiBold else FontWeight.Normal,
-                            ),
+                            "${if (s.full) i - core + 1 else i + 1}.",
+                            style = TextStyle(fontSize = 15.sp, color = C.Muted),
+                            modifier = Modifier.width(30.dp),
                         )
-                        val subQ = mcq?.subCount(rowIndex, i) ?: 0
-                        if (s.badges.isNotEmpty() || subQ > 0) {
-                            Spacer(Modifier.height(4.dp))
-                            Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
-                                s.badges.forEach { BadgeTag(it) }
-                                if (subQ > 0) {
-                                    Tag(
-                                        "Practice ${mcqCount(subQ)}",
-                                        C.ExamBg, C.ExamInk,
-                                        modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, sub = i) },
-                                    )
+                        Column(Modifier.weight(1f)) {
+                            Text(
+                                s.title,
+                                style = TextStyle(
+                                    fontSize = 15.sp, lineHeight = 21.sp, color = C.Ink,
+                                    fontWeight = if (s.universal) FontWeight.SemiBold else FontWeight.Normal,
+                                ),
+                            )
+                            val subQ = mcq?.subCount(rowIndex, i) ?: 0
+                            if (s.badges.isNotEmpty() || subQ > 0) {
+                                Spacer(Modifier.height(4.dp))
+                                Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
+                                    s.badges.forEach { BadgeTag(it) }
+                                    if (subQ > 0) {
+                                        Tag(
+                                            "Practice ${mcqCount(subQ)}",
+                                            C.ExamBg, C.ExamInk,
+                                            modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, sub = i) },
+                                        )
+                                    }
                                 }
                             }
                         }
+                        Spacer(Modifier.width(10.dp))
+                        DoneIcon(app.store.isDone(id))
                     }
-                    Spacer(Modifier.width(10.dp))
-                    DoneIcon(app.store.isDone(id))
+                    HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 50.dp))
                 }
-                HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 50.dp))
             }
             val otherQ = mcq?.subCount(rowIndex, -1) ?: 0
             if (otherQ > 0) {

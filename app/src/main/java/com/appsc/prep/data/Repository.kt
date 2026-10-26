@@ -300,6 +300,7 @@ class Repository(private val open: (String) -> InputStream) {
                         universal = s.jsonObject.containsKey("u"),
                         coveredIn = (s.jsonObject["cov"] as? JsonArray)?.map { c -> c.jsonArray.map { it.jsonPrimitive.int } } ?: emptyList(),
                         map = (s.jsonObject["m"] as? JsonArray)?.map { mapNode(it.jsonObject) } ?: emptyList(),
+                        full = s.jsonObject.containsKey("f"),
                     )
                 }
                 rows += NoteRow(

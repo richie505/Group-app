@@ -37,6 +37,8 @@ data class Subsection(
     val coveredIn: List<List<Int>> = emptyList(),
     /** The revision app's mind map of this page (tools/build_mindmap.py): its branches, empty when not built. */
     val map: List<MapNode> = emptyList(),
+    /** APPSC Complete / One-liners: a page of the topic's full notes, after its one-pager's boxes (not in progress). */
+    val full: Boolean = false,
 ) {
     val wordCount: Int by lazy {
         blocks.sumOf { b ->
