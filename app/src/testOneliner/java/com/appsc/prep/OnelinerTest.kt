@@ -164,6 +164,21 @@ class OnelinerTest {
         rule.onRoot().captureRoboImage("screenshots/oneliner/5_subsection_page.png")
     }
 
+    /** A subsection's own practice card: not attempted, wrong and practise counts, as for the section. */
+    @Test fun subsectionPracticeCard() {
+        val store = ProgressStore(Mem())
+        val app = AppState(repo, store, AndroidPlatform(ctx))
+        val qs = runBlocking { app.repo.book(4); app.repo.mcq(4).subQuestions(50, 0) }
+        store.recordAnswer(qs[0].id, true)
+        store.recordAnswer(qs[1].id, false)
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.ReaderScreen(4, 50, 0, nav) } } }
+        rule.waitForIdle()
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction())
+            .performScrollToNode(androidx.compose.ui.test.hasText("This subsection's MCQs"))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/oneliner/5c_subsection_practice_card.png")
+    }
+
     @Test fun fullNotesPageInTheReader() {
         val app = AppState(repo, ProgressStore(Mem()), AndroidPlatform(ctx))
         val k = runBlocking { app.repo.mcq(4); app.repo.book(4).rows[50].secs.count { !it.full } }

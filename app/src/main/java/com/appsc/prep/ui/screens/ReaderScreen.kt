@@ -87,6 +87,8 @@ import com.appsc.prep.data.UserNotes
 import com.appsc.prep.data.subsectionId
 import com.appsc.prep.ui.components.BlockView
 import com.appsc.prep.ui.components.PageList
+import com.appsc.prep.ui.components.PracticeCard
+import com.appsc.prep.ui.components.practiceSets
 import com.appsc.prep.ui.components.GooglePage
 import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.Playback
@@ -482,19 +484,20 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                     style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
                                 )
                             }
-                            val subQ = mcq?.subCount(rowI, secI) ?: 0
-                            if (subQ > 0) {
-                                Spacer(Modifier.height(10.dp))
-                                OutlinedButton(
-                                    onClick = { nav.quiz("sub", bookId, rowI, sub = secI) },
-                                    modifier = Modifier.fillMaxWidth().height(50.dp),
-                                    shape = RoundedCornerShape(12.dp),
-                                ) {
-                                    Text(
-                                        "Practice ${mcqCount(subQ)} on this subsection",
-                                        style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
-                                    )
-                                }
+                            val subIds = mcq?.subQuestions(rowI, secI)?.map { it.id }.orEmpty()
+                            if (subIds.isNotEmpty()) {
+                                // what of this subsection is not attempted, wrong or due for practice, as for the section
+                                Spacer(Modifier.height(14.dp))
+                                val stats = app.store.quizStats(subIds)
+                                PracticeCard(
+                                    title = "This subsection's MCQs",
+                                    subtitle = "${mcqCount(subIds.size)} · ${sec.title}",
+                                    attempted = Triple(stats.first, stats.second, subIds.size),
+                                    onStart = { nav.quiz("sub", bookId, rowI, sub = secI) },
+                                    onWrong = { nav.quiz("sub", bookId, rowI, "wrong", sub = secI) },
+                                    sets = practiceSets(subIds, app.store.answers, app.store.seen),
+                                    onSet = { mode -> nav.quiz("sub", bookId, rowI, mode, sub = secI) },
+                                )
                             }
                             val qCount = app.repo.rowInfo(bookId, rowI)?.questionCount ?: 0
                             if (secI == row.secs.size - 1 && qCount > 0) {

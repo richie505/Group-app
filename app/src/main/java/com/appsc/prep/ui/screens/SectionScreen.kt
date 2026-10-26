@@ -183,7 +183,9 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                                     fontWeight = if (s.universal) FontWeight.SemiBold else FontWeight.Normal,
                                 ),
                             )
-                            val subQ = mcq?.subCount(rowIndex, i) ?: 0
+                            val subIds = mcq?.subQuestions(rowIndex, i)?.map { it.id }.orEmpty()
+                            val subQ = subIds.size
+                            val subSets = practiceSets(subIds, app.store.answers, app.store.seen)
                             if (s.badges.isNotEmpty() || subQ > 0) {
                                 Spacer(Modifier.height(4.dp))
                                 Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -194,6 +196,13 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                                             C.ExamBg, C.ExamInk,
                                             modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, sub = i) },
                                         )
+                                        // what is left of it: not attempted, and answered wrong
+                                        if (subSets.unattempted in 1 until subQ) {
+                                            Tag("${subSets.unattempted} left", modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, "new", sub = i) })
+                                        }
+                                        if (subSets.wrong > 0) {
+                                            Tag("${subSets.wrong} wrong", C.HighSoft, C.High, modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, "wrong", sub = i) })
+                                        }
                                     }
                                 }
                             }
