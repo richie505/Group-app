@@ -184,10 +184,9 @@ class ProgressStore(private val prefs: Storage) {
         var attempted = 0
         var correct = 0
         for (id in ids) {
-            if (id in seen) attempted++
-            val a = answers[id] ?: continue
-            attempted++
-            if (a) correct++
+            val a = answers[id]
+            if (a != null || id in seen) attempted++ // once, answered and seen alike
+            if (a == true) correct++
         }
         return attempted to correct
     }

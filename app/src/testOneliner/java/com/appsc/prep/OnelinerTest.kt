@@ -154,6 +154,10 @@ class OnelinerTest {
             .performScrollToNode(androidx.compose.ui.test.hasText("Full notes (", substring = true, ignoreCase = true))
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/oneliner/4b_topic_full_notes.png")
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction())
+            .performScrollToNode(androidx.compose.ui.test.hasText("Next section", substring = true))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/oneliner/4c_topic_next_section.png")
     }
 
     @Test fun subsectionInTheReader() {

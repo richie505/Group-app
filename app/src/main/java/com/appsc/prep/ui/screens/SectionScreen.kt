@@ -32,6 +32,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.Book
@@ -253,6 +254,45 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                         sets = ids?.let { practiceSets(it, app.store.answers, app.store.seen) },
                         onSet = { mode -> nav.quiz("row", bookId, rowIndex, mode) },
                     )
+                }
+            }
+            // on to the next section of the book (or back), without going back to the list
+            item {
+                val prev = book.rows.getOrNull(rowIndex - 1)
+                val next = book.rows.getOrNull(rowIndex + 1)
+                if (prev != null || next != null) {
+                    Spacer(Modifier.height(20.dp))
+                    Row(Modifier.fillMaxWidth().padding(horizontal = 20.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                        if (prev != null) {
+                            OutlinedButton(
+                                onClick = { nav.row(bookId, rowIndex - 1) },
+                                modifier = Modifier.weight(1f).height(64.dp),
+                                shape = RoundedCornerShape(12.dp),
+                            ) {
+                                Column(horizontalAlignment = Alignment.Start, modifier = Modifier.fillMaxWidth()) {
+                                    Text("← Previous section", style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent))
+                                    Text(prev.title, style = TextStyle(fontSize = 12.sp, color = C.Muted), maxLines = 1, overflow = TextOverflow.Ellipsis)
+                                }
+                            }
+                        } else {
+                            Spacer(Modifier.weight(1f))
+                        }
+                        if (next != null) {
+                            Button(
+                                onClick = { nav.row(bookId, rowIndex + 1) },
+                                modifier = Modifier.weight(1f).height(64.dp),
+                                shape = RoundedCornerShape(12.dp),
+                                colors = ButtonDefaults.buttonColors(containerColor = C.Accent),
+                            ) {
+                                Column(horizontalAlignment = Alignment.End, modifier = Modifier.fillMaxWidth()) {
+                                    Text("Next section →", style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = Color.White))
+                                    Text(next.title, style = TextStyle(fontSize = 12.sp, color = Color.White.copy(alpha = 0.85f)), maxLines = 1, overflow = TextOverflow.Ellipsis)
+                                }
+                            }
+                        } else {
+                            Spacer(Modifier.weight(1f))
+                        }
+                    }
                 }
             }
             item { Spacer(Modifier.height(32.dp)) }
