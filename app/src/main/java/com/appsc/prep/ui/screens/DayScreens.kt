@@ -127,7 +127,7 @@ fun TodayScreen(nav: Nav) {
         item { HeroCard(day, daysToExam, plan.examLabel, beforePlan, afterPlan, nav) }
         item { ContinueCard(nav) }
         if (afterPlan) {
-            item { SectionHeader("Final buffer (R3)") }
+            item { SectionHeader("Final buffer") }
             items(plan.buffer) { b ->
                 Card {
                     Column(Modifier.padding(14.dp)) {
@@ -261,7 +261,13 @@ fun LazyListScope.dayBody(day: PlanDay, nav: Nav, showBrief: Boolean) {
                 if (groups.lastOrNull()?.first == key) groups.last().second += r else groups += key to mutableListOf(r)
             }
             Column {
-                SectionHeader(if (day.type == "revision") "Revise today" else "Today's topics")
+                SectionHeader(
+                    when (day.type) {
+                        "revision" -> "Revise today"
+                        "practice" -> "Today's MCQ topics"
+                        else -> "Today's topics"
+                    },
+                )
                 groups.forEachIndexed { gi, (key, rows) ->
                     TopicCard(gi + 1, key.first, key.second, rows, nav)
                 }
@@ -482,7 +488,7 @@ fun PlanScreen(nav: Nav) {
             item(key = "buffer") {
                 Column {
                     SectionHeader(
-                        "Final buffer (R3) · " + plan.days.last().date.plusDays(1).format(DateTimeFormatter.ofPattern("d MMM")) +
+                        "Final buffer · " + plan.days.last().date.plusDays(1).format(DateTimeFormatter.ofPattern("d MMM")) +
                             " – " + plan.exam.minusDays(1).format(DateTimeFormatter.ofPattern("d MMM")),
                     )
                     plan.buffer.forEach { b ->
@@ -570,14 +576,17 @@ private fun dayTitle(d: PlanDay): String = when (d.type) {
 
 private fun phaseGroup(d: PlanDay): String = when {
     d.phase.contains("PHASE 1") || d.type == "sunday" && d.n <= 70 -> "Phase 1 · First pass"
+    d.phase.contains("R3") -> "Phase 3 · R3 revision"
     d.phase.contains("PHASE 2") -> "Phase 2 · R2 revision"
+    d.phase.contains("PHASE 4") -> "Phase 4 · MCQs and mocks"
     d.phase.contains("PHASE 3") -> "Phase 3 · Mocks"
     else -> d.phase.titleCase()
 }
 
 fun prettyPhase(d: PlanDay): String = when (d.type) {
     "sunday" -> "Weekly review"
-    "revision" -> "R2 revision"
+    "revision" -> if (d.phase.contains("R3")) "R3 revision" else "R2 revision"
+    "practice" -> "MCQ practice"
     "mock" -> "Mock test"
     else -> "First pass"
 }

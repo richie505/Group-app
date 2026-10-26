@@ -24,10 +24,15 @@ object DueMcqs {
         val left get() = todayLeft + due
     }
 
-    /** Groups the plan's MCQs by day, each on the first day whose topics hold it. [rows] gives a notes row's MCQ ids. */
+    /**
+     * Groups the plan's MCQs by day, each on the first day whose topics hold it; a topic met on several days gives
+     * each day its [PlanRow.share] (spread evenly over its MCQs). [rows] gives a notes row's MCQ ids.
+     */
     fun planMcqs(plan: Plan, rows: (book: Int, row: Int) -> List<String>): PlanMcqs {
         val seen = HashSet<String>()
-        return PlanMcqs(plan.days.map { d -> d to d.rows.flatMap { rows(it.book, it.row) }.filter { seen.add(it) } })
+        return PlanMcqs(plan.days.map { d ->
+            d to d.rows.flatMap { r -> rows(r.book, r.row).filterIndexed { i, _ -> i % 20 < r.share } }.filter { seen.add(it) }
+        })
     }
 
     fun status(mcqs: PlanMcqs, today: LocalDate, tried: (String) -> Boolean): Status {

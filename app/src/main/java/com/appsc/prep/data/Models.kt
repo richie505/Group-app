@@ -117,6 +117,8 @@ data class PlanRow(
     val priority: String,
     val book: Int,
     val row: Int,
+    /** How much of the topic's MCQs are due by this day, in twentieths (an MCQ at index i when i % 20 < share). */
+    val share: Int = 20,
 )
 
 data class PlanTask(val time: String, val block: String, val task: String)

@@ -396,6 +396,7 @@ class Repository(private val open: (String) -> InputStream) {
                         codes = r.strList("codes"), topic = r.str("topic"), pages = r.str("p"),
                         pyq = r.str("pyq"), priority = r.str("pri"),
                         book = ref[0].jsonPrimitive.int, row = ref[1].jsonPrimitive.int,
+                        share = (r.jsonObject["q"] as? JsonPrimitive)?.int ?: 20,
                     )
                 },
                 tasks = d.jsonObject["tasks"]!!.jsonArray.map { t ->
