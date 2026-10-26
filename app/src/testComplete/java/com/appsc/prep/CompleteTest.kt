@@ -157,7 +157,8 @@ class CompleteTest {
         val books = runBlocking { (1..6).associateWith { repo.mcq(it) } }
         val fresh = com.appsc.prep.data.DueMcqs.planMcqs(repo.plan) { b, r -> books[b]!!.rows[r]?.map { it.id } ?: emptyList() }
         assertEquals(fresh.days.map { it.second }, repo.planMcqs.days.map { it.second })
-        assertEquals(31203, repo.planMcqs.days.sumOf { it.second.size })
+        // the one-pager plan has every topic: every MCQ is on some day
+        assertEquals(books.values.flatMap { b -> b.rows.values.flatten().map { it.id } }.toSet().size, repo.planMcqs.days.sumOf { it.second.size })
     }
 
     /** The MCQs tab: due MCQs from Day 1, Day 1 partly attempted. */
