@@ -121,38 +121,54 @@ class OnelinerTest {
     }
 
     /** The notes are the one-page notes (tools/onepager_app.py): one page per topic, a heading for each box. */
-    @Test fun onePagePerTopic() {
+    @Test fun aSubsectionPerBox() {
         val r = repo
         for (b in 1..6) {
             val book = runBlocking { r.book(b) }
             val mcq = runBlocking { r.mcq(b) }
             for (row in book.rows) {
-                assertEquals("book $b row ${row.index}: one page", 1, row.secs.size)
-                val heads = row.secs[0].blocks.count { it is com.appsc.prep.data.TextBlock && it.kind == 'h' }
-                assertTrue("book $b row ${row.index}: boxes $heads", heads in 4..11)
-                assertTrue("book $b row ${row.index}: MCQs on its one page", mcq.subs[row.index].orEmpty().all { it == 0 })
+                assertTrue("book $b row ${row.index}: ${row.secs.size} subsections", row.secs.size in 5..11)
+                assertTrue("book $b row ${row.index}: exam corner last", row.secs.last().title.contains("Exam", ignoreCase = true))
+                assertEquals("book $b row ${row.index}: subsections", r.rowInfo(b, row.index)?.subsectionCount, row.secs.size)
+                // each MCQ under its box (-1: matches none, the topic's practice only); in box order
+                val subs = mcq.subs[row.index].orEmpty()
+                assertTrue("book $b row ${row.index}: MCQs under its boxes", subs.all { it in -1 until row.secs.size })
+                assertEquals("book $b row ${row.index}: box order", subs.filter { it >= 0 }, subs.filter { it >= 0 }.sorted())
             }
         }
     }
 
-    /** A topic's one page in the reader: the boxes' headings, tables, timelines and the exam corner. */
-    @Test fun onePageInTheReader() {
+    /** A topic's subsections, then one subsection in the reader and its MCQs. */
+    @Test fun topicSubsectionsAndTheirMcqs() {
+        val app = AppState(repo, ProgressStore(Mem()), AndroidPlatform(ctx))
+        runBlocking { app.repo.book(4); app.repo.mcq(4) }
+        rule.mainClock.autoAdvance = false
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.SectionScreen(4, 50, nav) } } }
+        rule.mainClock.advanceTimeBy(3000)
+        rule.onRoot().captureRoboImage("screenshots/oneliner/4_topic_subsections.png")
+        rule.mainClock.autoAdvance = true
+    }
+
+    @Test fun subsectionInTheReader() {
         val app = AppState(repo, ProgressStore(Mem()), AndroidPlatform(ctx))
         runBlocking { app.repo.book(4); app.repo.mcq(4) }
         rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.ReaderScreen(4, 50, 0, nav) } } }
         rule.waitForIdle()
-        rule.onRoot().captureRoboImage("screenshots/oneliner/4_one_page.png")
-        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction())
-            .performScrollToNode(androidx.compose.ui.test.hasText("Exam corner", substring = true, ignoreCase = true))
-        rule.waitForIdle()
-        rule.onRoot().captureRoboImage("screenshots/oneliner/5_one_page_exam_corner.png")
+        rule.onRoot().captureRoboImage("screenshots/oneliner/5_subsection_page.png")
     }
 
-    /** Read marks and own notes of APPSC Complete's pages carry over to the topic's one page. */
-    @Test fun completePagesMoveToTheTopicPage() {
+    @Test fun subsectionMcqs() {
+        val app = AppState(repo, ProgressStore(Mem()), AndroidPlatform(ctx))
+        runBlocking { app.repo.mcq(4) }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { QuizScreen(QuizSource("sub", 4, 50, sub = 0), "all", "Subsection MCQs", nav) } } }
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/oneliner/6_subsection_mcq.png")
+    }
+
+    /** Read marks and own notes carry over: from Complete's full pages, and from the one page a topic of 2.71-2.74. */
+    @Test fun readMarksMoveToTheSubsections() {
         val r = repo
-        val secs = runBlocking { r.book(1).rows[0].secs.size }
-        assertEquals(1, secs)
+        val boxes = runBlocking { r.book(1).rows[0].secs.size }
         val store = ProgressStore(Mem())
         val olds = r.idMoves.sources["1:0:0"]!!
         assertTrue(olds.size > 1)
@@ -162,8 +178,15 @@ class OnelinerTest {
         store.setAdded("1:0:3#-1", "second")
         store.migrate(r.idMoves)
         store.migrateNotes(r.noteMoves)
-        assertEquals(setOf("1:0:0"), store.done)
-        assertEquals("first\nsecond", store.added["1:0:0#-1"])
+        assertEquals((0 until boxes).map { "1:0:$it" }.toSet(), store.done)
+        assertEquals("first\nsecond", store.added["1:0:${boxes - 1}#-1"])
+
+        // a phone on the one page a topic (2.71-2.74): a topic read there is read in all its subsections
+        val mem = Mem().apply { strings["ids_version"] = "oneliner-onepager-1" }
+        val one = ProgressStore(mem)
+        one.setDone("1:0:0", true)
+        one.migrate(r.idMoves)
+        assertEquals((0 until boxes).map { "1:0:$it" }.toSet(), one.done)
     }
 
     /** Every MCQ of this app counts in Progress (its ids start with "o", APPSC Complete's with "n" or "ca"); old PYQ ids don't. */

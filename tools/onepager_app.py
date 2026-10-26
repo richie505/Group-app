@@ -1,23 +1,26 @@
 """APPSC Complete and APPSC One-liners read the one-page notes (data/onepager/b<book>/r<row>.json,
-tools/onepager.py) instead of Complete's full notes (kept in data/complete-full): every topic is one page, its
-boxes in order, and the topic's MCQs follow the boxes (each MCQ goes under the box that shares most of its words;
-those that match no box come last).
+tools/onepager.py) instead of Complete's full notes (kept in data/complete-full): every topic's one-pager, a
+subsection per box in order (the exam corner last), and each MCQ under the box that shares most of its words
+(those that match no box stay on the topic only, after the rest).
 
     python3 tools/onepager_app.py [complete|oneliner|all=both]
 
 Writes into app/src/<app>/assets:
-- book<b>.json: Complete's books with each topic's pages replaced by its one page ("b:row:0").
-- mcq<b>.json: the app's same MCQs, each topic's in box order, all on page 0; index.json, planmcq.json.
-- moved.json: Complete's page ids -> the topic's page; a topic counts as read when all its old pages were read.
-- notemoves.json: Complete's rounds and one more: own notes on a topic's old pages go to the end of its page.
+- book<b>.json: Complete's books with each topic's pages replaced by its boxes ("b:row:box").
+- mcq<b>.json: the app's same MCQs in box order, each under its box (subs); index.json, planmcq.json.
+- moved.json: Complete's page ids -> the topic's first box; its boxes count as read when all its old pages were;
+  from the one page a topic of 2.71-2.74 ("x"), that page read = all its boxes read.
+- notemoves.json: Complete's rounds and two more: own notes go to the end of the topic's last box.
 - keyterms.json: key terms of the new pages (tools/build_key_terms.py).
 """
 import json, math, os, re, shutil, subprocess, sys, tempfile
 from collections import Counter
 
 C, P = "data/complete-full", "data/onepager"
-# the ids version each app moves its readers' marks to (once: keep it while the pages stay one a topic)
-VERSIONS = {"complete": "complete-onepager-1", "oneliner": "oneliner-onepager-1"}
+# the ids version each app moves its readers' marks to (once: keep it while the subsections stay one a box), and the
+# version of its one page a topic before that (2.71-2.74), whose page "b:row:0" became the topic's subsections
+VERSIONS = {"complete": "complete-boxes-1", "oneliner": "oneliner-boxes-1"}
+ONE_PAGE = {"complete": "complete-onepager-1", "oneliner": "oneliner-onepager-1"}
 STOP = set("""the a an of and or in on at to for by with from as is was are were be been its it this that these those
 which who whom what when where why how not no than then also only first under over into about after before between
 during per via vs all any each other more most less such same both either neither one two three his her their our
@@ -44,40 +47,36 @@ def plain(t):
     return re.sub(r"\*\*|==", "", t)
 
 
-def blocks(plan):
-    """The page plan's boxes as the app's blocks: a heading per box, then its content."""
+def box_blocks(b):
+    """One box of a page plan as the app's blocks (its title is the subsection's title)."""
     out = []
-    if plan.get("quote"):
-        out.append({"k": "p", "x": [[plain(plan["quote"]), 2]]})
-    for b in plan["boxes"]:
-        t = b["type"]
-        out.append({"k": "h", "x": runs(b.get("title", ""))})
-        if t == "bullets":
-            out += [{"k": "b", "x": runs(i)} for i in b["items"]]
-        elif t == "note":
-            out += [{"k": "x", "x": runs(i)} for i in b["items"]]
-        elif t == "table":
-            out.append({"k": "t", "h": [runs(h) for h in b["head"]], "r": [[runs(c) for c in r] for r in b["rows"]]})
-        elif t == "timeline":
-            out += [{"k": "b", "x": [[plain(i["when"]), 1], [" — ", 0]] + runs(i["what"])} for i in b["items"]]
-        elif t == "cards":
-            for c in b["cards"]:
-                out.append({"k": "b", "x": runs(f"**{plain(c['title'])}**")})
-                out += [{"k": "s", "x": runs(l)} for l in c.get("lines", [])]
-        elif t == "flow":
-            n = len(b["steps"])
-            out += [{"k": "b", "x": [[f"{i + 1}. ", 1]] + runs(s) + ([[" ↓", 4]] if i < n - 1 else [])} for i, s in enumerate(b["steps"])]
-        elif t == "cycle":
-            if b.get("centre"):
-                out.append({"k": "p", "x": [["Centre: ", 4]] + runs(b["centre"])})
-            out += [{"k": "b", "x": [[f"{i + 1}. ", 1]] + runs(s)} for i, s in enumerate(b["steps"])]
-            out.append({"k": "n", "x": [["↻ and back to step 1", 4]]})
-        elif t == "hierarchy":
-            for i, l in enumerate(b["levels"]):
-                x = [["▲ " if i == 0 else "▸ ", 4]] + runs(f"**{plain(l['name'])}**")
-                if l.get("note"):
-                    x += [[" — ", 0]] + runs(l["note"])
-                out.append({"k": "b", "x": x})
+    t = b["type"]
+    if t == "bullets":
+        out += [{"k": "b", "x": runs(i)} for i in b["items"]]
+    elif t == "note":
+        out += [{"k": "x", "x": runs(i)} for i in b["items"]]
+    elif t == "table":
+        out.append({"k": "t", "h": [runs(h) for h in b["head"]], "r": [[runs(c) for c in r] for r in b["rows"]]})
+    elif t == "timeline":
+        out += [{"k": "b", "x": [[plain(i["when"]), 1], [" — ", 0]] + runs(i["what"])} for i in b["items"]]
+    elif t == "cards":
+        for c in b["cards"]:
+            out.append({"k": "b", "x": runs(f"**{plain(c['title'])}**")})
+            out += [{"k": "s", "x": runs(l)} for l in c.get("lines", [])]
+    elif t == "flow":
+        n = len(b["steps"])
+        out += [{"k": "b", "x": [[f"{i + 1}. ", 1]] + runs(s) + ([[" ↓", 4]] if i < n - 1 else [])} for i, s in enumerate(b["steps"])]
+    elif t == "cycle":
+        if b.get("centre"):
+            out.append({"k": "p", "x": [["Centre: ", 4]] + runs(b["centre"])})
+        out += [{"k": "b", "x": [[f"{i + 1}. ", 1]] + runs(s)} for i, s in enumerate(b["steps"])]
+        out.append({"k": "n", "x": [["↻ and back to step 1", 4]]})
+    elif t == "hierarchy":
+        for i, l in enumerate(b["levels"]):
+            x = [["▲ " if i == 0 else "▸ ", 4]] + runs(f"**{plain(l['name'])}**")
+            if l.get("note"):
+                x += [[" — ", 0]] + runs(l["note"])
+            out.append({"k": "b", "x": x})
     return out
 
 
@@ -129,7 +128,7 @@ def is_gap(b):
 def build(app):
     O, VERSION = f"app/src/{app}/assets", VERSIONS[app]
     moved = json.load(open(f"{C}/moved.json"))
-    m, g, src, notes = {}, set(), {}, {}
+    m, g, src, notes, expand, to_last = {}, set(), {}, {}, {}, {}
     placed = Counter()
     index = json.load(open(f"{O}/index.json"))  # the app's MCQ counts
     for bk in range(1, 7):
@@ -141,6 +140,7 @@ def build(app):
                 plan = json.load(open(f"{P}/b{bk}/r{ri}.json"))
                 new = f"{bk}:{ri}:0"
                 olds = [f"{bk}:{ri}:{si}" for si in range(len(row["secs"]))]
+                boxes = [f"{bk}:{ri}:{k}" for k in range(len(plan["boxes"]))]
                 for si, s in enumerate(row["secs"]):
                     for k, b in enumerate(s["b"]):
                         if is_gap(b):
@@ -149,25 +149,29 @@ def build(app):
                         notes[f"{bk}:{ri}:{si}#-1"] = f"{new}#-1"
                 m.update({o: new for o in olds})
                 g.update(olds)
-                src[new] = olds
-                row["secs"] = [{"t": plan["title"], "badges": [], "p": row.get("p1", 0), "b": blocks(plan)}]
+                src.update({k: olds for k in boxes})  # read when all the old pages were
+                expand[new] = boxes  # the one page of 2.71-2.74: read, all its subsections are
+                to_last[f"{new}#-1"] = f"{boxes[-1]}#-1"  # own notes close the topic: its last subsection
+                quote = [{"k": "p", "x": [[plain(plan["quote"]), 2]]}] if plan.get("quote") else []
+                row["secs"] = [{"t": plain(b.get("title", "")), "badges": [], "p": row.get("p1", 0), "b": (quote if k == 0 else []) + box_blocks(b)}
+                               for k, b in enumerate(plan["boxes"])]
                 qs = mcq["rows"].get(str(ri))
                 if qs:
                     where = box_order(plan, qs)
                     key = {id(q): (w if w >= 0 else len(plan["boxes"]), n) for n, (q, w) in enumerate(zip(qs, where))}
                     mcq["rows"][str(ri)] = sorted(qs, key=lambda q: key[id(q)])
-                    mcq["subs"][str(ri)] = [0] * len(qs)
+                    mcq["subs"][str(ri)] = [w for w in sorted(where, key=lambda w: w if w >= 0 else len(plan["boxes"]))]  # -1: the topic only
                     placed.update("matched" if w >= 0 else "unmatched" for w in where)
-                index["books"][bk - 1]["rows"][ri]["n"] = 1
+                index["books"][bk - 1]["rows"][ri]["n"] = len(plan["boxes"])
                 ri += 1
         json.dump(book, open(f"{O}/book{bk}.json", "w"), ensure_ascii=False, separators=(",", ":"))
         json.dump(mcq, open(f"{O}/mcq{bk}.json", "w"), ensure_ascii=False, separators=(",", ":"))
         print(f"{app} book {bk}: {ri} topics")
     # pages of the Prep app that Complete had moved: on to the topic's page
     m.update({k: m.get(v, v) for k, v in moved["m"].items()})
-    json.dump({"v": VERSION, "m": m, "g": sorted(g | set(moved.get("g", []))), "r": src},
+    json.dump({"v": VERSION, "m": m, "g": sorted(g | set(moved.get("g", []))), "r": src, "x": {ONE_PAGE[app]: expand}},
               open(f"{O}/moved.json", "w"), separators=(",", ":"))
-    rounds = json.load(open(f"{C}/notemoves.json")) + [{"id": VERSION, "m": notes}]
+    rounds = json.load(open(f"{C}/notemoves.json")) + [{"id": ONE_PAGE[app], "m": notes}, {"id": VERSION, "m": to_last}]
     json.dump(rounds, open(f"{O}/notemoves.json", "w"), separators=(",", ":"))
     open(f"{O}/index.json", "w").write(json.dumps(index, ensure_ascii=False, separators=(",", ":")))
     subprocess.run([sys.executable, "tools/build_plan_mcq.py", O], check=True)

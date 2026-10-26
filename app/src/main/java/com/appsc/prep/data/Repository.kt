@@ -142,6 +142,9 @@ class Repository(private val open: (String) -> InputStream) {
             IdMoves(
                 o.str("v"), o["m"]!!.jsonObject.mapValues { it.value.jsonPrimitive.content }, o.strList("g").toSet(),
                 (o["r"] as? JsonObject)?.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } } ?: emptyMap(),
+                (o["x"] as? JsonObject)?.mapValues { (_, m) ->
+                    m.jsonObject.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } }
+                } ?: emptyMap(),
             )
         }.getOrDefault(IdMoves("", emptyMap(), emptySet()))
     }

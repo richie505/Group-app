@@ -81,9 +81,15 @@ class ProgressStore(private val prefs: Storage) {
      * ([Repository.idMoves]). A merged page's read mark is dropped: the page it went into keeps its own mark.
      */
     fun migrate(moves: IdMoves) {
-        if (moves.version.isEmpty() || prefs.getString(KEY_IDS) == moves.version) return
+        val from = prefs.getString(KEY_IDS)
+        if (moves.version.isEmpty() || from == moves.version) return
         val map = moves.map
-        if (map.isNotEmpty()) {
+        val expand = moves.expand[from]
+        if (expand != null) {
+            // a page that became several (a topic's one page -> its subsections): read, they all are
+            done = done.flatMap { expand[it] ?: listOf(it) }.toSet()
+            prefs.putStringSet(KEY_DONE, done)
+        } else if (map.isNotEmpty()) {
             val before = done
             done = done.filter { it !in moves.merged }.map { map[it] ?: it }.toSet() +
                 moves.sources.filter { (_, olds) -> olds.isNotEmpty() && olds.all { it in before } }.keys
@@ -358,12 +364,17 @@ class ProgressStore(private val prefs: Storage) {
             (o[key] as? kotlinx.serialization.json.JsonArray)?.mapNotNull { (it as? kotlinx.serialization.json.JsonPrimitive)?.content } ?: emptyList()
         fun str(key: String) = (o[key] as? kotlinx.serialization.json.JsonPrimitive)?.content
         // a backup made before the notes were regrouped uses the old page ids
-        val old = str("ids") != moves.version && moves.map.isNotEmpty()
+        val expand = moves.expand[str("ids")]
+        val old = expand == null && str("ids") != moves.version && moves.map.isNotEmpty()
         fun id(x: String) = if (old) moves.map[x] ?: x else x
 
         val read = list("done").toSet()
-        val newDone = list("done").filter { !(old && it in moves.merged) }.map(::id).toSet() +
-            (if (old) moves.sources.filter { (_, olds) -> olds.isNotEmpty() && olds.all { it in read } }.keys else emptySet()) - done
+        val newDone = if (expand != null) {
+            read.flatMap { expand[it] ?: listOf(it) }.toSet() - done
+        } else {
+            list("done").filter { !(old && it in moves.merged) }.map(::id).toSet() +
+                (if (old) moves.sources.filter { (_, olds) -> olds.isNotEmpty() && olds.all { it in read } }.keys else emptySet()) - done
+        }
         done = done + newDone
         prefs.putStringSet(KEY_DONE, done)
 
