@@ -11,6 +11,11 @@ Inputs for a topic (book B, row R):
 Write `work/onepager-extra/bB/rR.json` yourself with the Write tool, then run
 `python3 tools/onepager.py check-extra B R` and fix what it reports until it prints PASS.
 
+**Long topics get more pages.** `python3 tools/onepager.py extra-pages B R` says how many (1, 2 or 3: notes over
+5,000 and 10,000 words). For 2 or 3, write `rR.json`, `rR-2.json` (and `rR-3.json`), check each with
+`check-extra B R`, `check-extra B R-2` ... ; split the topic's notes between them in the notes' order (each page
+its own part, titled for it: "... (2 of 3): banking and prices"), nothing twice across the pages.
+
 ## The page plan
 
 The same format as the one-pagers (see `tools/onepager_guide.md` for every box type):

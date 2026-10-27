@@ -255,10 +255,19 @@ def overlap(extra, main):
     return out
 
 
+def extra_pages(book, ri):
+    """How many additional pages a topic gets: one, two or three for notes over 5,000 and 10,000 words."""
+    n = len(open(f"{W}/b{book}/r{ri}.md").read().split("\n=== RELATED NOTES")[0].split())
+    return 1 + min(2, max(0, (n - 1) // 5000))
+
+
 def check(book, ri, extra=False):
+    """ri: the topic's row; for an additional page, "R" or "R-2", "R-3" (a topic's second and third)."""
     errs = []
+    page = str(ri)
+    ri = int(page.split("-")[0])
     try:
-        plan = json.load(open(f"{X if extra else W}/b{book}/r{ri}.json"))
+        plan = json.load(open(f"{X if extra else W}/b{book}/r{page}.json"))
     except Exception as e:
         print(f"FAIL: plan not readable: {e}")
         return False
@@ -297,7 +306,13 @@ def check(book, ri, extra=False):
     if len(bad_w) > 6:
         errs.append("names not in the notes: " + ", ".join(bad_w[:15]))
     if extra:
-        same = overlap(plan, json.load(open(f"{W}/b{book}/r{ri}.json")))
+        # nothing twice: not on the one-pager, nor on the topic's other additional pages
+        others = [f"{X}/b{book}/r{ri}{k}.json" for k in ["", "-2", "-3"] if f"{ri}{k}" != page]
+        before = json.load(open(f"{W}/b{book}/r{ri}.json"))
+        for o in others:
+            if os.path.exists(o):
+                before["boxes"] += json.load(open(o))["boxes"]
+        same = overlap(plan, before)
         if same:
             errs.append("already on the one-pager (leave out or give only what it lacks): " + " | ".join(same[:8]))
     fit = render([(plan, 1)])[0]
@@ -315,7 +330,9 @@ if __name__ == "__main__":
     if cmd == "export":
         export(int(sys.argv[2]), sys.argv[3:])
     elif cmd in ("check", "check-extra"):
-        check(int(sys.argv[2]), int(sys.argv[3]), extra=cmd == "check-extra")
+        check(int(sys.argv[2]), sys.argv[3], extra=cmd == "check-extra")
+    elif cmd == "extra-pages":  # how many additional pages each listed topic gets
+        print(" ".join(f"{r}:{extra_pages(int(sys.argv[2]), int(r))}" for r in sys.argv[3:]))
     elif cmd in ("pdf", "pdf-extra"):
         plans = []
         for n, ref in enumerate(sys.argv[3:], 1):
