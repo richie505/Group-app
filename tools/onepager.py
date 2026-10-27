@@ -5,6 +5,9 @@
     python3 tools/onepager.py check <book> <row>              -> PASS / FAIL: the page plan r<row>.json (written by an
                                                                  agent, tools/onepager_guide.md) and whether it fits
     python3 tools/onepager.py pdf <out.pdf> <book>:<row> [...] -> the pages, in order, as one PDF
+    python3 tools/onepager.py check-extra <book> <row> / pdf-extra ... -> the same for the additional one-pagers
+        (work/onepager-extra, tools/onepager_extra_guide.md): what the topic's own notes have and its one-pager
+        does not; a fact already on the one-pager fails the check
 
 A page plan is {"title", "tag", "quote"?, "boxes": [{"type", "title", ...}]}; the box types are listed in
 tools/onepager_guide.md. Pages are drawn as HTML and printed by Chromium (Playwright), which also measures the fit:
@@ -16,6 +19,7 @@ from pathlib import Path
 sys.path.insert(0, os.path.dirname(__file__))
 
 W = "work/onepager"
+X = "work/onepager-extra"  # the additional one-pagers: what the full notes have and the one-pager does not
 SUBJECT = {1: "History & Culture", 2: "Polity & Society", 3: "Economy", 4: "Geography", 5: "Science & Tech", 6: "Current Affairs"}
 PALETTE = [  # (border / title, soft background)
     ("#1d4ed8", "#eff4ff"), ("#15803d", "#effaf2"), ("#c2410c", "#fff4ec"), ("#7c3aed", "#f5f0ff"),
@@ -152,13 +156,13 @@ th { background: rgba(0,0,0,.06); text-align: left } th, td { border: 1px solid 
 """
 
 
-def page_html(plan, number):
+def page_html(plan, number, foot="APPSC Complete · one-page notes"):
     head = (f"<div class=head><span class=num>{number:02d}</span><span class=title>{md(plan['title'])}</span>"
             f"<span class=tag>{md(plan.get('tag', ''))}</span></div>")
     quote = f"<div class=quote>“{md(plan['quote'])}”</div>" if plan.get("quote") else ""
     boxes = "".join(box(b, k) for k, b in enumerate(plan["boxes"]))
     return (f"<div class=page>{head}{quote}<div class=cols>{boxes}</div>"
-            f"<div class=foot><span>APPSC Complete · one-page notes</span><span>{number}</span></div></div>")
+            f"<div class=foot><span>{foot}</span><span>{number}</span></div></div>")
 
 
 NODE = r"""
@@ -188,9 +192,9 @@ const {chromium} = require('playwright');
 """
 
 
-def render(plans, out=None):
+def render(plans, out=None, foot="APPSC Complete · one-page notes"):
     """[(plan, number)] -> per page {fs, ok}; writes the PDF if out."""
-    doc = f"<!doctype html><meta charset=utf-8><style>{CSS}</style>" + "".join(page_html(p, n) for p, n in plans)
+    doc = f"<!doctype html><meta charset=utf-8><style>{CSS}</style>" + "".join(page_html(p, n, foot) for p, n in plans)
     with tempfile.TemporaryDirectory() as d:
         Path(d, "p.html").write_text(doc)
         Path(d, "r.js").write_text(NODE)
@@ -219,14 +223,48 @@ def plan_text(plan):
     return re.sub(r"\*\*|==", "", " ".join(out))
 
 
-def check(book, ri):
+def items(plan):
+    """The page's facts one by one: a bullet, a table row, a timeline entry, a card line, a step or a level."""
+    out = []
+    for b in plan["boxes"]:
+        for x in b.get("items", []):
+            out.append(x if isinstance(x, str) else " ".join(map(str, x.values())))
+        out += [x for x in b.get("steps", [])]
+        out += [" ".join(map(str, r)) for r in b.get("rows", [])]
+        for c in b.get("cards", []):
+            out += [f"{c['title']} {l}" for l in c["lines"]]
+        out += [f"{l['name']} {l.get('note', '')}" for l in b.get("levels", [])]
+    return [re.sub(r"\*\*|==", "", x) for x in out]
+
+
+STOPW = set("the and of in to a for by with is was as at from or an be are its it this that on not no also only".split())
+
+
+def fact_words(t):
+    return {w for w in re.findall(r"[a-z0-9]+", t.lower()) if (len(w) > 2 or w.isdigit()) and w not in STOPW}
+
+
+def overlap(extra, main):
+    """Facts of the additional page that the one-pager already has: most of a line's words on one of its lines."""
+    got = [fact_words(x) for x in items(main)]
+    out = []
+    for x in items(extra):
+        w = fact_words(x)
+        if len(w) >= 3 and any(len(w & g) >= 0.7 * len(w) for g in got):
+            out.append(x)
+    return out
+
+
+def check(book, ri, extra=False):
     errs = []
     try:
-        plan = json.load(open(f"{W}/b{book}/r{ri}.json"))
+        plan = json.load(open(f"{X if extra else W}/b{book}/r{ri}.json"))
     except Exception as e:
         print(f"FAIL: plan not readable: {e}")
         return False
     notes = open(f"{W}/b{book}/r{ri}.md").read()
+    if extra:  # the topic's own notes only: a neighbour's are its own additional page
+        notes = notes.split("\n=== RELATED NOTES")[0]
     flat = re.sub(r"[^a-z0-9]+", " ", notes.lower())
     if not plan.get("title") or not isinstance(plan.get("boxes"), list):
         errs.append("needs title and boxes")
@@ -240,8 +278,9 @@ def check(book, ri):
             errs.append(f"box {k + 1} ({t}): needs {need}")
         if not b.get("title"):
             errs.append(f"box {k + 1}: needs a title")
-    if not 5 <= len(plan.get("boxes", [])) <= 11:
-        errs.append(f"{len(plan.get('boxes', []))} boxes: use 5-11")
+    lo = 3 if extra else 5
+    if not lo <= len(plan.get("boxes", [])) <= 11:
+        errs.append(f"{len(plan.get('boxes', []))} boxes: use {lo}-11")
     if errs:
         print("FAIL:\n" + "\n".join(errs))
         return False
@@ -257,6 +296,10 @@ def check(book, ri):
         errs.append("figures not in the notes: " + ", ".join(bad_n[:15]))
     if len(bad_w) > 6:
         errs.append("names not in the notes: " + ", ".join(bad_w[:15]))
+    if extra:
+        same = overlap(plan, json.load(open(f"{W}/b{book}/r{ri}.json")))
+        if same:
+            errs.append("already on the one-pager (leave out or give only what it lacks): " + " | ".join(same[:8]))
     fit = render([(plan, 1)])[0]
     if not fit["ok"]:
         errs.append("does not fit one page even at 8 px: cut the longest boxes")
@@ -271,11 +314,12 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "export":
         export(int(sys.argv[2]), sys.argv[3:])
-    elif cmd == "check":
-        check(int(sys.argv[2]), int(sys.argv[3]))
-    elif cmd == "pdf":
+    elif cmd in ("check", "check-extra"):
+        check(int(sys.argv[2]), int(sys.argv[3]), extra=cmd == "check-extra")
+    elif cmd in ("pdf", "pdf-extra"):
         plans = []
         for n, ref in enumerate(sys.argv[3:], 1):
             b, r = ref.split(":")
-            plans.append((json.load(open(f"{W}/b{b}/r{r}.json")), n))
-        print(render(plans, os.path.abspath(sys.argv[2])))
+            plans.append((json.load(open(f"{X if cmd == 'pdf-extra' else W}/b{b}/r{r}.json")), n))
+        print(render(plans, os.path.abspath(sys.argv[2]),
+                     "APPSC Complete · additional one-page notes" if cmd == "pdf-extra" else "APPSC Complete · one-page notes"))
