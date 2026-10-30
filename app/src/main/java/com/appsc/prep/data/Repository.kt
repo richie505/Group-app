@@ -149,6 +149,12 @@ class Repository(private val open: (String) -> InputStream) {
         }.getOrDefault(IdMoves("", emptyMap(), emptySet()))
     }
 
+    /** APPSC Complete <-> One-liners: an MCQ id of the other app -> this app's (tools/build_mcq_links.py). */
+    val mcqLinks: Map<String, List<String>> by lazy {
+        runCatching { readJson("mcqlinks.json").jsonObject.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } } }
+            .getOrDefault(emptyMap())
+    }
+
     val noteMoves: NoteMoves by lazy {
         runCatching {
             NoteMoves(

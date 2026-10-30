@@ -185,9 +185,13 @@ def build(app):
     # pages of the Prep app that Complete had moved: on to the topic's page
     for k, v in moved["m"].items():  # Complete's own ids first: a Prep id that is also one of them stays Complete's
         m.setdefault(k, m.get(v, v))
-    json.dump({"v": VERSION, "m": m, "g": sorted(moved.get("g", [])), "r": src, "x": {ONE_PAGE[app]: expand, BOXES[app]: {}}},
+    json.dump({"v": VERSION, "m": m, "g": sorted(moved.get("g", [])), "r": src, "x": {
+        # a backup of either app restores in the other: their earlier one page a topic -> its boxes, their boxes
+        # (2.75) and their current pages (the same ids) as they are
+        **{ONE_PAGE[a]: expand for a in ONE_PAGE}, **{BOXES[a]: {} for a in BOXES},
+        **{VERSIONS[a]: {} for a in VERSIONS if a != app}}},
               open(f"{O}/moved.json", "w"), separators=(",", ":"))
-    rounds = json.load(open(f"{C}/notemoves.json")) + [{"id": VERSION, "m": notes}]
+    rounds = json.load(open(f"{C}/notemoves.json")) + [{"id": "|".join(VERSIONS.values()), "m": notes}]  # one round in both apps
     json.dump(rounds, open(f"{O}/notemoves.json", "w"), separators=(",", ":"))
     open(f"{O}/index.json", "w").write(json.dumps(index, ensure_ascii=False, separators=(",", ":")))
     subprocess.run([sys.executable, "tools/build_plan_mcq.py", O], check=True)

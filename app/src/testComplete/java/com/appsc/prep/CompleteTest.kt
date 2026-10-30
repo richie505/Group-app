@@ -149,6 +149,33 @@ class CompleteTest {
         assertEquals(3, s.left) // today's 1 not attempted + 2 due
     }
 
+    /** A backup of APPSC One-liners restores here: its pages as they are; its one-liners' results on the MCQ they came from. */
+    @Test fun onelinerBackupRestoresHere() {
+        val r = Repository { ctx.assets.open(it) }
+        val k = runBlocking { r.book(1).rows[0].secs.count { !it.full } }
+        val one = ProgressStore(MemStorage().apply { putString("ids_version", "oneliner-full-1") })
+        one.migrateNotes(r.noteMoves)
+        one.setDone("1:0:1", true)
+        one.setDone("1:0:${k + 1}", true)
+        one.setAdded("1:0:${k + 1}#-1", "from one-liners")
+        // two one-liners of one MCQ: one right, one wrong -> the MCQ is to revise; another MCQ's only one right
+        val byMcq = r.mcqLinks.entries.groupBy({ it.value[0] }, { it.key })
+        val (mcq, lines) = byMcq.entries.first { it.value.size >= 2 }
+        one.recordAnswer(lines[0], true)
+        one.recordAnswer(lines[1], false)
+        val (mcq2, lines2) = byMcq.entries.first { it.value.size == 1 && it.key != mcq }
+        one.recordAnswer(lines2[0], true)
+        val complete = ProgressStore(MemStorage())
+        complete.migrate(r.idMoves)
+        complete.migrateNotes(r.noteMoves)
+        complete.restore(one.backup(), r.idMoves, r.noteMoves, r.mcqLinks)
+        assertEquals(setOf("1:0:1", "1:0:${k + 1}"), complete.done)
+        assertEquals("from one-liners", complete.added["1:0:${k + 1}#-1"])
+        assertEquals(false, complete.answers[mcq])
+        assertEquals(true, complete.answers[mcq2])
+        assertTrue(complete.answers.keys.none { it.startsWith("o") })
+    }
+
     /** planmcq.json matches the plan and the MCQs shipped (tools/build_plan_mcq.py). */
     @Test fun planMcqFileIsCurrent() {
         val repo = Repository { ctx.assets.open(it) }

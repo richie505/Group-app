@@ -163,11 +163,12 @@ data class IdMoves(
 
 /** Rounds of moved note keys ("2:61:0#8" -> "2:61:0#7") from rewriting pages (tools/restructure_import.py), in order. */
 data class NoteMoves(val rounds: List<Pair<String, Map<String, String>>>) {
-    val ids get() = rounds.map { it.first }
+    /** A round's id may name it in both apps ("complete-full-1|oneliner-full-1"): applied under any of them. */
+    val ids get() = rounds.flatMap { it.first.split('|') }
 
     /** Moves [keys] through the rounds not in [applied]; notes that land on one key are kept together, in order. */
     fun apply(notes: Map<String, String>, applied: Collection<String>): Map<String, String> =
-        rounds.filter { it.first !in applied }.fold(notes) { acc, (_, m) ->
+        rounds.filter { r -> r.first.split('|').none { it in applied } }.fold(notes) { acc, (_, m) ->
             acc.entries.groupBy({ (k, _) -> m[k] ?: k }, { it.value }).mapValues { (_, v) -> v.joinToString("\n") }
         }
 }

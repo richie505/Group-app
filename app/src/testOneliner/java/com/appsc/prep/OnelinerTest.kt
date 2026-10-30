@@ -232,6 +232,30 @@ class OnelinerTest {
         assertEquals(setOf("1:0:3"), boxes.done)
     }
 
+    /** A backup of APPSC Complete restores here: the same pages, notes and read marks; its MCQs' results on the one-liners made from them. */
+    @Test fun completeBackupRestoresHere() {
+        val r = repo
+        val k = runBlocking { r.book(1).rows[0].secs.count { !it.full } }
+        // a Complete phone on its current pages (2.76+)
+        val complete = ProgressStore(Mem().apply { strings["ids_version"] = "complete-full-1" })
+        complete.migrateNotes(r.noteMoves)
+        complete.setDone("1:0:0", true)
+        complete.setDone("1:0:$k", true)
+        complete.setAdded("1:0:$k#-1", "my note")
+        val (mcq, lines) = r.mcqLinks.entries.first { it.value.size > 1 }
+        complete.recordAnswer(mcq, false)
+        val one = ProgressStore(Mem())
+        one.migrate(r.idMoves)
+        one.migrateNotes(r.noteMoves)
+        one.restore(complete.backup(), r.idMoves, r.noteMoves, r.mcqLinks)
+        assertEquals(setOf("1:0:0", "1:0:$k"), one.done)
+        assertEquals("my note", one.added["1:0:$k#-1"])
+        assertTrue(lines.all { one.answers[it] == false })
+        assertTrue(mcq !in one.answers)
+
+        // and back: this app's backup in Complete is the next test's (CompleteTest)
+    }
+
     /** Every MCQ of this app counts in Progress (its ids start with "o", APPSC Complete's with "n" or "ca"); old PYQ ids don't. */
     @Test fun allMcqsCountInProgress() {
         val ids = runBlocking { (1..6).flatMap { b -> repo.mcq(b).rows.values.flatten().map { it.id } } }

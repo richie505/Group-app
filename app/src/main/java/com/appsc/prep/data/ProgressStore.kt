@@ -356,7 +356,12 @@ class ProgressStore(private val prefs: Storage) {
      * answer, an own note) the backup's wins. Ids from an older notes version are moved with [moves] first.
      * Throws [IllegalArgumentException] when [text] is not a backup of this app.
      */
-    fun restore(text: String, moves: IdMoves, noteMoves: NoteMoves = NoteMoves(emptyList())): Restored {
+    fun restore(
+        text: String,
+        moves: IdMoves,
+        noteMoves: NoteMoves = NoteMoves(emptyList()),
+        mcqLinks: Map<String, List<String>> = emptyMap(),
+    ): Restored {
         val o = runCatching { kotlinx.serialization.json.Json.parseToJsonElement(text) as kotlinx.serialization.json.JsonObject }.getOrNull()
         require(o != null && (o["app"] as? kotlinx.serialization.json.JsonPrimitive)?.content == BACKUP_APP) { "This file is not an APPSC Prep backup." }
         fun list(key: String): List<String> =
@@ -384,12 +389,19 @@ class ProgressStore(private val prefs: Storage) {
         activeDates = activeDates + list("dates")
         prefs.putStringSet(KEY_DATES, activeDates)
 
-        val inAnswers = list("answers").filter { ':' in it }.associate { it.substringBefore(':') to it.endsWith(":1") }
+        // the other app's MCQs (APPSC Complete <-> One-liners, mcqlinks.json): an MCQ's result goes to the questions
+        // made from it, or the questions' to the MCQ they came from (right only if all of them were right)
+        fun linked(id: String) = mcqLinks[id] ?: listOf(id)
+        val inAnswers = HashMap<String, Boolean>()
+        list("answers").filter { ':' in it }.forEach { a ->
+            val ok = a.endsWith(":1")
+            linked(a.substringBefore(':')).forEach { inAnswers[it] = (inAnswers[it] ?: true) && ok }
+        }
         answers = answers + inAnswers
         prefs.putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet())
-        seen = seen + list("seen")
+        seen = seen + list("seen").flatMap(::linked)
         prefs.putStringSet(KEY_SEEN, seen)
-        missed = missed + list("missed") + inAnswers.filterValues { !it }.keys
+        missed = missed + list("missed").flatMap(::linked) + inAnswers.filterValues { !it }.keys
         prefs.putStringSet(KEY_MISSED, missed)
 
         // notes saved before pages were rewritten sit under other gap indices: move them as this device's were
