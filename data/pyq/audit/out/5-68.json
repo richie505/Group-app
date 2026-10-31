@@ -1,0 +1,48 @@
+{
+ "topic": "5:68",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nchemistry-10-15", "why": "ambiguous 'listed applications' count; methanol vs power/domestic use unclear"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y04928a33609", "why": "wrong topic: states of matter (sublimation)"},
+  {"id": "y4d224431c02", "why": "wrong topic: natural gas composition"},
+  {"id": "y1b89aa79837", "why": "wrong topic: dry ice / CO2"},
+  {"id": "y616702973c8", "why": "wrong topic: colour of objects (light)"},
+  {"id": "yb6d0d9696e9", "why": "wrong topic: gases in balloons"},
+  {"id": "yf62e7609c13", "why": "wrong topic: primary colours / TV"},
+  {"id": "y518fa211dfe", "why": "wrong topic: atomic number basics"},
+  {"id": "y85b960f19ac", "why": "wrong topic: human blood volume"},
+  {"id": "y7a5492c1301", "why": "wrong topic: natural polymers"},
+  {"id": "yce13742562c", "why": "wrong topic: plant nutrition (calcium)"},
+  {"id": "ybf4c9b7f297", "why": "wrong topic: solubility of gases"},
+  {"id": "ybe216c69507", "why": "wrong topic: plant pigments"},
+  {"id": "y95f26ab990a", "why": "garbled: option codes truncated ('only', 'and 3 only')"},
+  {"id": "yb774220de91", "why": "wrong topic: biofuels"},
+  {"id": "y6c2ac1b824a", "why": "wrong topic: CO2 in soda water"},
+  {"id": "y1ffebb7ff34", "why": "wrong topic: welding gases"},
+  {"id": "ycb4d523fba9", "why": "wrong topic: stellar fusion"},
+  {"id": "y693bf60a864", "why": "wrong topic: protein composition"},
+  {"id": "yd71636ee1f7", "why": "wrong topic: desalination (LTTD)"},
+  {"id": "yee3d5813726", "why": "wrong topic: welding gases"},
+  {"id": "yb58d7bda690", "why": "garbled stem"},
+  {"id": "y4ed949c6911", "why": "wrong topic: mine explosions / methane"},
+  {"id": "y4e9a4c6b6b4", "why": "wrong topic: photosynthesis"},
+  {"id": "y2f55a25fbb5", "why": "suspect key: ~118 elements known (~94 natural), not 250; wrong topic"},
+  {"id": "y21f99271e5f", "why": "wrong topic: latent heat"},
+  {"id": "y6728fd4f2f3", "why": "wrong topic: cooling by gas expansion"},
+  {"id": "yb55ebf64c6c", "why": "garbled: truncated duplicate of y0e98df556d8 with conflicting key"},
+  {"id": "y946b29e2ff5", "why": "wrong topic: origin of life elements"},
+  {"id": "yd2dd2aa3081", "why": "wrong topic: biomolecule composition"},
+  {"id": "y339e5a82154", "why": "wrong topic: heavy water"}
+ ],
+ "patterns": [
+  "APPSC asks direct single facts: green hydrogen = electrolysis of water (2023 AMVI), NGHM approval date 4 January 2023 (2022 non-gazetted, twice).",
+  "APPSC-G1 favours 'firsts' and incorrect-statement items: hydrogen ferry by Cochin Shipyard; fuel-cell bus trap 'Veera Vahana' and 'H2 + CO2' as wrong statements.",
+  "AP tilt: AP Green Hydrogen & Green Ammonia Policy 2023 statement question (NREDCAP nodal, MTPA targets, third-party RE sourcing).",
+  "UPSC-style items test uses (IC engine, natural-gas blending, fuel cells) and hard-to-abate sectors (fertiliser, refineries, steel) and the 50 MMT GHG abatement figure.",
+  "App MCQs go much deeper into scheme numbers (SIGHT/SHIP outlays, GHCI, electrolyser types, SECI prices) and multi-statement/match formats than the PYQs show; many filed PYQs are generic chemistry unrelated to the topic."
+ ],
+ "stats": {"app_mcqs": 44, "pyqs": 49, "fixed": 0, "dropped": 1}
+}

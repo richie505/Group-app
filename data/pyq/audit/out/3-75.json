@@ -1,0 +1,22 @@
+{
+ "topic": "3:75",
+ "mcq_fix": [],
+ "mcq_drop": [{"id": "n6102836c461", "why": "obscure current-data trivia with absurd distractors"}],
+ "notes_fix": [
+  {"ref": "2#1", "find": "2000-03", "replace": "2001-02 to 2003-04", "why": "surplus years were 2001-04 (yb792056acc0)"},
+  {"ref": "19#8", "find": "2000-03", "replace": "2001-02 to 2003-04", "why": "yb792056acc0: 2001-04"}
+ ],
+ "pyq_bad": [
+  {"id": "ycda913234bd", "why": "suspect key: FDI is a correction tool; original option 3 was 'Increasing govt spending' (answer), here garbled to 'Reducing'"},
+  {"id": "ya726db56a03", "why": "wrong topic: gas pricing (Kirit Parikh committee)"},
+  {"id": "y48c8e9a649c", "why": "garbled: source header text inside stem"}
+ ],
+ "patterns": [
+  "APPSC asks direct definitional items: what BoP includes (current + capital account), what a CAD is, debit/credit in the current account.",
+  "Recurring traps: BoT = goods only; remittances are current account (private transfers), not capital account; FDI/loans/portfolio = capital account.",
+  "Correction-tool NOT-type question: increasing government spending is not a BoP correction measure.",
+  "Fact recall: continuous CA surplus 2001-04, India largest remittance recipient, FEMA 1999 replacing FERA, current account convertibility 1994.",
+  "App adds many recent-data items (FY25-27 figures, FCNR(B) 2026) and expenditure-switching theory beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 40, "pyqs": 30, "fixed": 0, "dropped": 1}
+}

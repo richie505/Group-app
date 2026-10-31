@@ -1,0 +1,52 @@
+{
+ "topic": "4:82",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n77f1b04746e", "why": "oddly worded ('stated positions', 'older cited assessment'); coconut rank contested"},
+  {"id": "n9d3d78f51a8", "why": "ambiguous: India has been ranked 1st in cotton in several recent years"},
+  {"id": "nf8df988adf9", "why": "odd wording ('as per APPSC 2019 key'); Kerala is not the leading spice producer by output (y257b502cbd9)"}
+ ],
+ "notes_fix": [
+  {"ref": "17#1", "find": "Brown Fertilizer production; non-conventional energy", "replace": "Brown Leather/cocoa production; non-conventional energy", "why": "fertilizers = Grey Revolution; Brown = leather/cocoa/non-conventional energy"}
+ ],
+ "pyq_bad": [
+  {"id": "y7350f11e085", "why": "suspect key: UPSC 2022 tea-states answer is all four (see y4b75c702c6c); also garbled with notes text"},
+  {"id": "yc38b581eb5c", "why": "suspect key: Barak Valley's important crop is tea (see y4da6b14bab9)"},
+  {"id": "y2b09c5699a8", "why": "suspect key: India is 2nd in fruit production (after China)"},
+  {"id": "yf6d122e64c6", "why": "suspect key: Brazil is the largest sugarcane producer; India 2nd"},
+  {"id": "yef3e0c45c03", "why": "wrong options: leading tobacco states (Gujarat/AP) not among options"},
+  {"id": "y04be6295461", "why": "garbled: pairs missing from options"},
+  {"id": "y4b370ec81b9", "why": "garbled: options mixed with another question"},
+  {"id": "y85f5f283f2e", "why": "garbled stem"},
+  {"id": "yd32de141351", "why": "garbled: explanatory text in stem (duplicate of yb485198ec63)"},
+  {"id": "yb3242a05f58", "why": "garbled: explanatory text in stem"},
+  {"id": "y088c3e2d207", "why": "garbled stem ('With reference to Pondicherry')"},
+  {"id": "y53cddcb0422", "why": "garbled: pairs missing from options"},
+  {"id": "y633d6bb4712", "why": "garbled: options truncated"},
+  {"id": "yc2d1ea08703", "why": "garbled: pairs missing from options"},
+  {"id": "y1faf6663ff1", "why": "garbled: mixed with another question"},
+  {"id": "ya247766be47", "why": "wrong topic: rainfall distribution"},
+  {"id": "y277e451a6e8", "why": "wrong topic: river disputes"},
+  {"id": "y1a8936afc49", "why": "wrong topic: rivers"},
+  {"id": "yf12530ff243", "why": "wrong topic: fisheries"},
+  {"id": "y022de228cfd", "why": "wrong topic: fisheries/aquaculture"},
+  {"id": "yd29b7d589ae", "why": "wrong topic: fisheries/aquaculture"},
+  {"id": "yb8e5ae3ae84", "why": "wrong topic: cotton textile industry"},
+  {"id": "y9fe7916f1f9", "why": "wrong topic: food crops (wheat)"},
+  {"id": "yf4c9bfb0f1a", "why": "wrong topic: current affairs (police award)"},
+  {"id": "y584ccd2c2bf", "why": "wrong topic: sports"},
+  {"id": "ybda645b43c0", "why": "wrong topic: physiography"},
+  {"id": "ydbc4167bd03", "why": "wrong topic: irrigation projects"},
+  {"id": "yb358ca3a237", "why": "wrong topic: fodder research"},
+  {"id": "y547d248d5f5", "why": "wrong topic: petroleum institutes"},
+  {"id": "y8e9a7adfe6a", "why": "wrong topic: types of farming"}
+ ],
+ "patterns": [
+  "APPSC asks crop -> leading state one-liners (largest tea producer = Assam), board headquarters matching (Tea Kolkata, Coffee Bengaluru, Rubber Kottayam, Tobacco Guntur, Spices Kochi).",
+  "APPSC Group-1 uses reasoning statement items (why tropical sugarcane out-yields north: cool nights, latitude, long sunshine) and rabi-only oilseed = mustard.",
+  "AP tilt: Guntur chillies/Agri Export Zone, Tobacco Board at Guntur, Araku Arabica GI, Paat-Mitro for jute farmers.",
+  "Other PSCs heavily repeat revolutions (Yellow = oilseeds, Pink = onion, Blue = fish), rubber = Kerala, coffee >70% Karnataka, world ranks (tea 2nd after China).",
+  "App MCQs lean on climate-requirement tables and multi-statement world-producer items; rank facts that change year to year (cotton, spices, coconut) are the main source of ambiguity."
+ ],
+ "stats": {"app_mcqs": 54, "pyqs": 101, "fixed": 0, "dropped": 3}
+}
