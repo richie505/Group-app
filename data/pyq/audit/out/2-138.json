@@ -1,0 +1,30 @@
+{
+ "topic": "2:138",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n164d35ba21e", "why": "ambiguous: D (education, health, psychosocial support) is part of A (rehabilitation)"},
+  {"id": "n4ec72f7978c", "why": "opinion item (criticism)"},
+  {"id": "n86dfd87ad5c", "why": "opinion/debate item, no exam fact"}
+ ],
+ "notes_fix": [
+  {"ref": "18#1", "find": "Justice J.S. Verma Committee Constituted 2013", "replace": "Justice J.S. Verma Committee Constituted Dec 2012 (report Jan 2013)", "why": "committee set up 23 Dec 2012, reported Jan 2013"},
+  {"ref": "18#1", "find": "Justice Pam Rajput Committee Constituted 2015", "replace": "Justice Pam Rajput Committee Constituted 2012 (report 2015)", "why": "High-Level Committee on Status of Women set up 2012, reported 2015"}
+ ],
+ "pyq_bad": [
+  {"id": "y5428d192f84", "why": "wrong topic: branches of zoology"},
+  {"id": "yac9004c3622", "why": "garbled; wrong topic: education methods"},
+  {"id": "y2e308b23aa3", "why": "wrong topic: national symbols"},
+  {"id": "y8d29ed7dc57", "why": "wrong topic: municipalities (Part IXA)"},
+  {"id": "yb49972965ac", "why": "wrong topic: Factories Act / labour law"},
+  {"id": "y8eafb8319a0", "why": "wrong topic: district administration"},
+  {"id": "ya5bd17766ca", "why": "mental ability"}
+ ],
+ "patterns": [
+  "APPSC asks direct facts: year of the Child Labour Act (1986), full form of POCSO, PENCiL portal for child labour (distractors SPARC/SRIJAN/YUKTI), juvenile courts guided by best interests of the child.",
+  "Current-affairs A-R items from court/committee news: MP HC on lowering consent age to 16 (social-media exposure), Home Affairs committee on 18 to 16 (APPSC 2022).",
+  "UPSC-level items here are thin: ILO Conventions 138 and 182 = child labour.",
+  "App MCQs go far deeper (POCSO sections 19/22/29-30, JJB composition, women-commission committees, 2026 SC rulings) than any PYQ; most are sound but many are multi-statement.",
+  "Filed PYQs include several unrelated items (national animal, municipality age, Factories Act occupier, reasoning)."
+ ],
+ "stats": {"app_mcqs": 101, "pyqs": 13, "fixed": 0, "dropped": 3}
+}

@@ -1,0 +1,20 @@
+{
+ "topic": "4:76",
+ "mcq_fix": [
+  {"id": "n423f9443b5a", "s": "The division of Bellary district in 1953 by language resulted in:", "why": "1953 split was of Bellary district; Bellary taluk itself went to Mysore"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "3#0", "find": "Bellary taluk (1953)", "replace": "Bellary district (1953)", "why": "district was split; Bellary taluk itself went to Mysore"},
+  {"ref": "7#9", "find": "Bellary taluk (1953)", "replace": "Bellary district (1953)", "why": "district was split; Bellary taluk itself went to Mysore"},
+  {"ref": "5#4", "find": "TN over 50%", "replace": "TN about 48% (Census 2011)", "why": "Tamil Nadu urban share 2011 = 48.4%"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "Only PYQ is a classical-language recency item (Odia); expect 'which year/which language' questions on classical status (Telugu 2008 with Kannada).",
+  "Likely APPSC angles: Telugu's rank by speakers (4th in 2011, 3rd in 2001), AP least urbanised southern state, AP urban share 29.47%.",
+  "Religious composition of AP is a gap in both notes and app MCQs.",
+  "App MCQs are few and direct, matching APPSC depth."
+ ],
+ "stats": {"app_mcqs": 8, "pyqs": 1, "fixed": 1, "dropped": 0}
+}

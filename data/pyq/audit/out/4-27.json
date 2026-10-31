@@ -1,0 +1,37 @@
+{
+ "topic": "4:27",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n6428d0f1967", "why": "factually wrong premise: Hirakud is on the Mahanadi (Odisha) and cannot flood the Krishna-Godavari delta"},
+  {"id": "ndisaster-management-19-7", "why": "ambiguous match: heavy rainfall also causes landslides; pairings arbitrary"},
+  {"id": "ndisaster-management-11-8", "why": "garbled statement A; flood onset (rapid vs slow) disputed in notes"}
+ ],
+ "notes_fix": [
+  {"ref": "14#10", "find": "worst when Srisailam, Nagarjuna Sagar or Hirakud (Odisha) release water together", "replace": "worst when Krishna reservoirs (Srisailam, Nagarjuna Sagar) release water together with heavy Godavari inflows", "why": "Hirakud is on the Mahanadi, not in the Krishna-Godavari system"}
+ ],
+ "pyq_bad": [
+  {"id": "y83254a2e743", "why": "garbled: pair partners missing from options"},
+  {"id": "y17fd1f78874", "why": "wrong topic: glaciers (physical geography)"},
+  {"id": "ya8724eb51b0", "why": "wrong topic: glaciers (physical geography)"},
+  {"id": "y5e2fcec98cc", "why": "wrong topic: climatology (equatorial rainfall)"},
+  {"id": "ye70b78e04e8", "why": "garbled: options contain page/URL junk"},
+  {"id": "y09815f47f4c", "why": "garbled: stem merged with another question"},
+  {"id": "ycb01d873fe9", "why": "suspect key: tsunami speed is higher in deep water, so R is false (opt 3)"},
+  {"id": "y13f902af4a2", "why": "wrong topic: transport (coal traffic)"},
+  {"id": "y1e95c676d00", "why": "wrong topic: agriculture (cashew)"},
+  {"id": "y8fde8d3c0fa", "why": "wrong topic: climate (rainfall distribution)"},
+  {"id": "y93b77dadd39", "why": "wrong topic: astronomy"},
+  {"id": "yeb2bc82241b", "why": "wrong topic: climate/transport initiatives"},
+  {"id": "y5f3124326e3", "why": "wrong topic: aviation policy"},
+  {"id": "y8fd0fc09211", "why": "wrong topic: agriculture"},
+  {"id": "yf384d61e477", "why": "garbled: options truncated"}
+ ],
+ "patterns": [
+  "APPSC favours headline numbers from NDMA vulnerability profile: 58.6% landmass earthquake-prone, >40 mha flood-prone, ~5,700 km coast cyclone/tsunami-prone.",
+  "Tsunami basics recur: Japanese origin, submarine earthquakes, slows near shore with height rising, 2004 origin Indian Ocean, worst-hit Tamil Nadu.",
+  "Drought items use IMD deficiency thresholds (>50% = severe) and local Indian drought terms; flood items ask causes and expert-committee years (RBA, 2012 committee).",
+  "AP angle: most cyclone-prone state, Rayalaseema drought, Budameru/Vijayawada floods, coastline rank after 2024 remeasurement.",
+  "App MCQs add many statement/match items on avalanches, nodal ministries and 2025-26 events (Dharali, City Flood Alert) beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 106, "pyqs": 40, "fixed": 0, "dropped": 3}
+}

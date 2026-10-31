@@ -1,0 +1,38 @@
+{
+ "topic": "3:63",
+ "mcq_fix": [
+  {"id": "n9ab26fd1306", "o": ["Industrial Policy Statement, 1977 — Economic federalism", "Industrial Policy Resolution, 1980 — District Industries Centres", "Industrial Policy Statement, 1973 — Core sector list", "Industrial Policy Resolution, 1956 — District Industries Centres"], "why": "joint-sector origin is disputed (PYQ yad65451ce67 keys IPR 1956); use the undisputed 1973 core-sector fact"},
+  {"id": "n76735162489", "s": "Under the New Industrial Policy, 1991 as originally framed, which one of the following is NOT correctly matched?", "why": "defence is no longer public-sector-only (opened May 2001); anchor the stem to 1991"},
+  {"id": "n2f0d183ce9d", "o": ["M. Narasimham", "Subimal Dutt", "F. R. K. Rao", "R. K. Hazari"], "why": "options 'Dutt Committee' and 'Subimal Dutt' were both correct"},
+  {"id": "n78c63bc3f52", "s": "Consider the following statements regarding the mandatory convertibility clause under the 1991 industrial policy framework: 1. It related to financial institutions converting term loans into equity. 2. It was relaxed for term loans of less than 10 years. 3. It applied exclusively to foreign equity investments. Which of the statements given above are correct?", "why": "odd wording 'according to the stated provision'"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-economy-1-7", "why": "conflicts with PYQ yad65451ce67 (joint sector keyed to IPR 1956); disputed"},
+  {"id": "nindian-economy-37-6", "why": "ambiguous: both 1948 and 1956 were Industrial Policy Resolutions (PYQ y2df29091e38 keys 1956)"},
+  {"id": "nindian-economy-39-9", "why": "ambiguous: import-duty cuts are usually classed as liberalisation, not globalisation"},
+  {"id": "n78632676dfd", "why": "opinion/policy-claim item"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0c1cec52111", "why": "wrong topic: PMKSY irrigation scheme; garbled options"},
+  {"id": "y401c8b396ee", "why": "garbled: two questions merged, options belong to Lokayukta question"},
+  {"id": "yfd6bcd570cb", "why": "garbled: stray text from another question in stem"},
+  {"id": "yaac330646a8", "why": "garbled: stray text in stem and options"},
+  {"id": "yeee329c23d7", "why": "garbled: stem lost, options are fragments"},
+  {"id": "ybe6b77c58d6", "why": "wrong options: options belong to another question"},
+  {"id": "y75dc55109b6", "why": "wrong topic: industries (economic geography)"},
+  {"id": "y1d3157b5c59", "why": "wrong topic: industrial history"},
+  {"id": "ydb77cf65373", "why": "wrong topic: small-scale industries"},
+  {"id": "ye4698c2ebcf", "why": "wrong topic: industrial finance (SIDBI)"},
+  {"id": "y4b86ee2ce52", "why": "wrong topic: industrial finance (SFCs)"},
+  {"id": "y63453e0ca24", "why": "wrong topic: biodiversity legislation"}
+ ],
+ "patterns": [
+  "Year one-liners dominate: first industrial policy = 1948, IPR 1956 = Economic Constitution, licence raj abolished 1991, liberal policy year 1991.",
+  "APPSC asks feature questions: IPR 1948 defined public and private spheres; IPR 1956 provisions (licensing, public sector, small industry); 51% FDI only in high-priority industries.",
+  "Numbers recur: 18 licensed industries in 1991, 24% equity in SSI, arms and ammunition opened May 2001.",
+  "Traps: joint sector attributed to IPR 1956 in PSC keys, while app notes credit Dutt Committee/1970; avoid items that hinge on it.",
+  "App MCQs add AP Policy 4.0 targets and DPIIT history beyond PYQ depth, which suits the AP tilt."
+ ],
+ "stats": {"app_mcqs": 65, "pyqs": 37, "fixed": 4, "dropped": 4}
+}

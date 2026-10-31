@@ -1,0 +1,23 @@
+{
+ "topic": "3:105",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nbcffc58f344", "why": "opinion item (what critics regard / how rule is described)"},
+  {"id": "n939f4a4e971", "why": "obscure attribution of an expenditure-side measure to CAG/NITI Aayog; oddly worded"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yf639beacb25", "why": "wrong topic: Euro / international economy"},
+  {"id": "y2eeab1ed1a4", "why": "garbled: budget table merged into A-R stem"},
+  {"id": "y76358c7cbde", "why": "wrong topic: functions of public sector"},
+  {"id": "y3347d498092", "why": "wrong options: truncated, keyed option reads as total revenue minus expenditure"}
+ ],
+ "patterns": [
+  "APPSC asks direct definitions: FD = total expenditure minus receipts excluding borrowing; PD = FD minus interest; RD = revenue exp minus revenue receipts; budget deficit + borrowings = FD.",
+  "Relations/traps: 'PD always higher than FD' (false), zero PD means borrowing equals interest, FD always > RD; descending order FD > RD > PD.",
+  "Objective vs tool traps: interest rates/CRR/money supply are monetary, not fiscal; Musgrave allocation/distribution (progressive taxation) functions.",
+  "Year-specific FD figures (BE/RE % of GDP) are asked frequently by PSCs, including APPSC current-year statement pairs (2024-25 RE 4.8%).",
+  "App MCQs match these shapes well; a few add AP-state budget data and opinion/critique statements not seen in PYQs."
+ ],
+ "stats": {"app_mcqs": 56, "pyqs": 63, "fixed": 0, "dropped": 2}
+}

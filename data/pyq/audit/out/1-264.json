@@ -1,0 +1,18 @@
+{
+ "topic": "1:264",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n901a7bc845c", "why": "dubious: statement 3 credits Kanu Sanyal and Nagi Reddy with spreading Srikakulam (led by Vempatapu Satyam, Adibhatla Kailasam); oddly worded 'are named'"}
+ ],
+ "notes_fix": [
+  {"ref": "0#1", "find": "Leaders Charu Majumdar, Kanu Sanyal Kanu Sanyal, Tarimela Nagi Reddy", "replace": "Leaders Charu Majumdar, Kanu Sanyal Vempatapu Satyam, Adibhatla Kailasam", "why": "established fact: Srikakulam Girijan struggle led by Vempatapu Satyam and Adibhatla Kailasam"},
+  {"ref": "6#1", "find": "Kanu Sanyal (misprinted \"Kasu Sanyal\" in some notes) + Tarimela Nagi Reddy spread it", "replace": "Vempatapu Satyam + Adibhatla Kailasam (backed by CPI(ML))", "why": "established fact: Nagi Reddy's group stayed out of the Srikakulam armed struggle"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "Only one APPSC PYQ here, and it is on the state response, not the uprising: GCC (since 1956) as the PSU for tribal upliftment.",
+  "Expect AP-tilted single-fact items: Srikakulam period/tribes (Savara, Jatapu), Virasam founding (1970, Sri Sri), Greyhounds (1989), PWG founder.",
+  "The app covers the topic with direct one-liners plus a few match/chronology items, which matches APPSC depth; avoid leader attributions that are not well established."
+ ],
+ "stats": {"app_mcqs": 22, "pyqs": 2, "fixed": 0, "dropped": 1}
+}

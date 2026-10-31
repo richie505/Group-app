@@ -1,0 +1,63 @@
+{
+ "topic": "1:234",
+ "mcq_fix": [
+  {
+   "id": "n3a224c8c5e5",
+   "s": "In April 1919, while on his way to Punjab, Gandhi was stopped and detained by the British at:",
+   "why": "Palwal detention was not a sedition arrest; his sedition arrest was March 1922"
+  },
+  {
+   "id": "nap-history-25-8",
+   "s": "Gadicherla Harisarvottama Rao led the starting of Home Rule League branches in Andhra. The Home Rule League (Madras) was founded by:",
+   "why": "original stem oddly worded ('overall founder associated with the branches')"
+  }
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {
+   "ref": "15#0",
+   "find": "associated with the Ramanandu Home Rule Movement in Andhra",
+   "replace": "organised the volunteer force 'Ramadandu'",
+   "why": "garbled: Chirala-Perala volunteer force was Ramadandu, not a Home Rule movement (see 15#1)"
+  }
+ ],
+ "pyq_bad": [
+  {
+   "id": "y651f7364fd5",
+   "why": "garbled: options truncated"
+  },
+  {
+   "id": "yd2d43adbc3a",
+   "why": "wrong topic: B.R. Ambedkar / depressed classes"
+  },
+  {
+   "id": "ye1c9b5c9b59",
+   "why": "garbled options (numbers missing)"
+  },
+  {
+   "id": "y4535fcf7ce1",
+   "why": "garbled options (numbers missing)"
+  },
+  {
+   "id": "ya35ae4804b5",
+   "why": "garbled options (numbers missing)"
+  },
+  {
+   "id": "y08d86458447",
+   "why": "garbled options truncated; wrong topic: peasant / kisan organisations"
+  }
+ ],
+ "patterns": [
+  "Single-fact core: launch year 1920 (APPSC), withdrawal after Chauri Chaura (4 Feb 1922, Gorakhpur), Khilafat aim = protect Ottoman Caliph/territory (APPSC 2023).",
+  "APPSC trap statements: 'withdrawn after Jallianwala Bagh' (false); Swaraj Party = C.R. Das + Motilal, not Jawaharlal; Jamia & Kashi Vidyapith are NCM-era but AMU and Besant College, Madanapalle are not (APPSC G1).",
+  "Andhra tilt: Andhra Shivaji = Parvataneni Veerayya Chowdary (Pedanandipadu), Chirala-Perala, Palnadu pullari, Vijayawada AICC 1921 and Pingali Venkayya's flag.",
+  "Session-president matching (Calcutta special - Lajpat Rai, Nagpur - Vijayaraghavachariar, Gaya - C.R. Das) and chronology sequences are frequent in other PSCs.",
+  "App MCQs closely track PYQ facts but add many multi-statement items on Gandhi's trial, Akali and Wahabi movements and Telugu works; more statement-heavy than APPSC's direct items."
+ ],
+ "stats": {
+  "app_mcqs": 61,
+  "pyqs": 55,
+  "fixed": 2,
+  "dropped": 0
+ }
+}

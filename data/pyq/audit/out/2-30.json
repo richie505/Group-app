@@ -1,0 +1,48 @@
+{
+ "topic": "2:30",
+ "mcq_fix": [
+  {"id": "n6d89fe3390a", "o": ["238 representatives of States and Union Territories and 7 nominated members", "225 representatives of States, 12 representatives of Union Territories and 8 nominated members", "225 representatives of States, 8 representatives of Union Territories and 12 nominated members", "238 representatives of States and Union Territories and 12 nominated members"], "why": "option 4 (233 elected + 12 nominated) was also correct; replaced with the maximum-strength figure"},
+  {"id": "n6baa4f0559c", "o": ["42nd Amendment Act, 1976", "44th Amendment Act, 1978", "61st Amendment Act, 1988", "73rd Amendment Act, 1992"], "why": "61st Amendment Act is of 1988 (in force 1989); ye61be0c88ab, y3def781bd24"},
+  {"id": "nd9dd2e18411", "a": 2, "why": "Art. 99: oath on taking seat is before the President or person appointed by him; EC-authorised oath is for candidature (Art. 84(a))"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-polity-13-17", "why": "options 2 and 3 say the same thing; oddly worded"}
+ ],
+ "notes_fix": [
+  {"ref": "1#2", "find": "first woman Nargis Dutt (1980)", "replace": "first film actress Nargis Dutt (1980)", "why": "yab18f5c9401; first nominated woman was Rukmini Devi Arundale (1952)"},
+  {"ref": "15#1", "find": "First nominated woman member: Nargis Dutt, 1980", "replace": "First film actress nominated: Nargis Dutt, 1980 (first nominated woman: Rukmini Devi Arundale, 1952)", "why": "yab18f5c9401"},
+  {"ref": "18#4", "find": "61st Amendment 1987", "replace": "61st Amendment 1988 (in force 1989)", "why": "ye61be0c88ab; 61st Amendment Act, 1988"}
+ ],
+ "pyq_bad": [
+  {"id": "y9e2e2170f5e", "why": "suspect key: Meera Kumar was never RS Chairman (Vice-President is ex-officio Chairman); options mismatched"},
+  {"id": "y39cf95a0e30", "why": "wrong topic: civil services / Cabinet Secretary"},
+  {"id": "y607a0c0d1f9", "why": "wrong topic: Article 3, formation of states"},
+  {"id": "y6a09e8b9b23", "why": "wrong topic: budget / demands for grants"},
+  {"id": "y2bcf83f6dbd", "why": "garbled: options truncated (6/13/7/11 for amendment pairs)"},
+  {"id": "y09862da0996", "why": "garbled: stem merged with another question"},
+  {"id": "y42fb44ca2fe", "why": "wrong topic: electoral reforms"},
+  {"id": "ye1c225d06ee", "why": "suspect key: West Bengal (16) has more RS seats than MP (11); stem garbled"},
+  {"id": "yde45bab795f", "why": "mental ability"},
+  {"id": "y0134d1b9c45", "why": "wrong topic: election current affairs (polling station)"},
+  {"id": "y85223ddd941", "why": "suspect key: Maharashtra 19 vs TN 18; AP (undivided) and TN both 18 (opt 2)"},
+  {"id": "yef364a60155", "why": "garbled: seat numbers missing from options"},
+  {"id": "y23161c6fd61", "why": "wrong topic: international relations"},
+  {"id": "y933b517e177", "why": "mental ability"},
+  {"id": "y3ee8d1e7b59", "why": "garbled: stem and options truncated"},
+  {"id": "y9e0364ab220", "why": "wrong topic: AP development / CSR"},
+  {"id": "y80c364dabbb", "why": "wrong topic: Election Commission"},
+  {"id": "y518e95e2e43", "why": "suspect key: quorum is one-tenth = 10% (opt 4), not 15%"},
+  {"id": "y501e16bfe07", "why": "wrong topic: powers of the President"},
+  {"id": "yf6fe8befdb3", "why": "wrong topic: election results"},
+  {"id": "y683a33e9ea7", "why": "wrong topic: election current affairs"},
+  {"id": "y569ab0cc137", "why": "wrong topic: sports"}
+ ],
+ "patterns": [
+  "APPSC asks bare numbers: LS max 550 / present 543, RS 250 / 12 nominated, AP RS seats 11 (undivided 18), women in 2009 LS = 59, quorum one-tenth.",
+  "Statement-type items test traps: RS not dissolved and 1/3 retire every two years, nominated fields exclude sport, no educational qualification, Anglo-Indian nomination ended by 104th Amdt.",
+  "Rajya Sabha special/equal powers recur: Art. 249 authorises Parliament (not State Assemblies), equal status = CAG report + emergency approval, not money bills or VP removal.",
+  "Privileges asked via 'which is correct' with civil-only freedom from arrest and both collective and individual privileges.",
+  "App MCQs go deeper (2026 delimitation bill, TN resolution, Sita Soren details, article-number matches) than APPSC PYQs, which stay at one-fact level."
+ ],
+ "stats": {"app_mcqs": 115, "pyqs": 98, "fixed": 3, "dropped": 1}
+}

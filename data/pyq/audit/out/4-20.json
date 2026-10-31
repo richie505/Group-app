@@ -1,0 +1,61 @@
+{
+ "topic": "4:20",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nworld-geography-19-18", "why": "A-R pair is ambiguous (R is just examples of A); no clear key"},
+  {"id": "nworld-geography-19-12", "why": "ambiguous: foxes listed under temperate, desert and polar biomes"}
+ ],
+ "notes_fix": [
+  {"ref": "18#3", "find": "Highest ~50 deg C at Ganganagar (1935)", "replace": "Highest 51.0 deg C at Phalodi, Rajasthan (19 May 2016); older books cite ~50 deg C at Ganganagar", "why": "Phalodi 2016 is India's IMD all-time record"}
+ ],
+ "pyq_bad": [
+  {"id": "y239771bb197", "why": "wrong topic: Himalayan peaks"},
+  {"id": "y5f34ad2d1be", "why": "wrong topic: Himalayan rivers"},
+  {"id": "y67a0fc541e6", "why": "garbled: options belong to another question (2004 Olympics were in Athens)"},
+  {"id": "ye66fdcc7ae8", "why": "garbled: pair items missing"},
+  {"id": "y944901ef8f8", "why": "garbled: pair items missing"},
+  {"id": "y2f602926de0", "why": "wrong topic: Indian economy"},
+  {"id": "ya17b509cb0a", "why": "mental ability (statistics)"},
+  {"id": "ye847e02c85a", "why": "garbled: explanation text in stem"},
+  {"id": "yc17dd201d0b", "why": "wrong topic: seed storage"},
+  {"id": "ye8c3412a47f", "why": "wrong topic: Indian agriculture"},
+  {"id": "y646d7b6a695", "why": "garbled: map missing, options truncated"},
+  {"id": "y73cbe286b31", "why": "wrong topic: coal/power sector"},
+  {"id": "y7041dcd5ac5", "why": "wrong topic: national income"},
+  {"id": "yc5d42bb5d92", "why": "wrong topic: Panchayati Raj"},
+  {"id": "y46f6a1092ec", "why": "wrong topic: Indian polity"},
+  {"id": "y764281b44db", "why": "wrong topic: ancient history (Jainism)"},
+  {"id": "yc304830870b", "why": "wrong topic: urbanisation"},
+  {"id": "yc1b9e69074a", "why": "wrong topic: political geography (Kurds)"},
+  {"id": "ya7586249e84", "why": "garbled: pair items missing"},
+  {"id": "yde5f2a3e364", "why": "garbled: pair item missing; wrong topic: human races"},
+  {"id": "y2861c25fa22", "why": "garbled: graph missing"},
+  {"id": "y21c2c73d63e", "why": "wrong topic: public finance"},
+  {"id": "y09c6dd52a5b", "why": "wrong topic: current affairs (G-7)"},
+  {"id": "ybb2ec476cc4", "why": "mental ability (statistics)"},
+  {"id": "y232ed298d6e", "why": "suspect key: same UPSC 1996 item yea58ddf7ef1 keyed 2 (R not explanation)"},
+  {"id": "y075a305789f", "why": "garbled; wrong topic: pollution"},
+  {"id": "yefb33ae5849", "why": "garbled: explanation text with another question's options"},
+  {"id": "ye3d4ea2a2d8", "why": "wrong topic: Australian livestock"},
+  {"id": "ybdc3066fc3d", "why": "wrong topic: world capitals"},
+  {"id": "y8a247154cd0", "why": "wrong topic: fauna by country"},
+  {"id": "y683e3a4e318", "why": "garbled: pair items missing"},
+  {"id": "y6c787fd114d", "why": "wrong topic: African capitals"},
+  {"id": "yd3b3a4109da", "why": "garbled: pair items missing"},
+  {"id": "y36c4f97ff47", "why": "wrong topic: current affairs (vaccine)"},
+  {"id": "yaf136616c66", "why": "wrong topic: current affairs (Commonwealth)"},
+  {"id": "y2de02bda496", "why": "garbled: pair items missing"},
+  {"id": "y22adcb8a659", "why": "wrong topic: current affairs (NATO)"},
+  {"id": "y7b673c53cf4", "why": "wrong topic: world capitals"},
+  {"id": "yaa18af1cba4", "why": "wrong topic: political geography"},
+  {"id": "y837893bb7c2", "why": "mental ability (statistics)"}
+ ],
+ "patterns": [
+  "APPSC asks Koeppen codes as a code->region match (Amw west coast, As Coromandel, Cwg Ganga plain/NE, BShw NW India) and one-liners on controls ('distance from a river' is not a control).",
+  "Biome statements recur with a single false clause: taiga 'narrow temperature range' is the APPSC trap; Mediterranean = winter rain, no dry winter/no severe winter.",
+  "Peoples->region and grassland->country one-liners dominate other PSCs (Masai-savanna, Pygmies-Congo, Bushmen-Kalahari not Australia, Pampas-Argentina, Llanos-Venezuela, Zulu-South Africa).",
+  "Extremes asked directly: Death Valley heat, Atacama driest, Verkhoyansk/Vostok cold, Sahara largest hot desert.",
+  "App MCQs add many obscure tribe statements (Chukchi, Sakai, Ainu, Aeta) and wildlife-biome A-R items well beyond PYQ depth; PYQs stay at well-known groups."
+ ],
+ "stats": {"app_mcqs": 96, "pyqs": 120, "fixed": 0, "dropped": 2}
+}

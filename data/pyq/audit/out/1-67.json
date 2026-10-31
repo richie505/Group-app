@@ -1,0 +1,37 @@
+{
+ "topic": "1:67",
+ "mcq_fix": [
+  {"id": "nf2ef6234500", "s": "Consider the following statements about the Kannauj assembly: 1. It was held to honour Hiuen Tsang and propagate Mahayana doctrine. 2. It lasted for 23 days. 3. It ended without any disturbance or attempt on Harsha's life. Which of the statements given above are correct?", "why": "stem had odd phrase 'according to the stated APP account'"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-history-144-3", "why": "Maukhari ruler sequence is obscure trivia beyond PYQ depth"},
+  {"id": "nc8c1e527b90", "why": "ambiguous: Kamarupa (Bhaskaravarman) was an ally, not clearly a subordinate"},
+  {"id": "n47dc145e344", "why": "oddly worded ('cited explanation'), opinion-type"},
+  {"id": "n115fb749cfd", "why": "dubious: Ashoka did not 'turn towards Mahayana' (Mahayana is later)"}
+ ],
+ "notes_fix": [
+  {"ref": "14#0", "find": "Kshemeshvara An 11th-century Sanskrit poet Kashmir Dasavatar Charita", "replace": "Kshemeshvara A 10th-century Sanskrit playwright Court of Mahipala of Kannauj Chandakaushika (Dasavatara Charita is by Kshemendra of Kashmir, 11th c.)", "why": "Kshemeshvara confused with Kshemendra; yd80c1910547 calls him playwright"}
+ ],
+ "pyq_bad": [
+  {"id": "y7c3acfff49c", "why": "wrong topic: spread of Buddhism to China; suspect key: Nagarjuna"},
+  {"id": "yd67b09c6268", "why": "suspect key: Kalhana (Bana's Harshacharita is the source; 'None of these' expected)"},
+  {"id": "y3df2a1de21e", "why": "garbled: stray book header text in stem; wrong topic: Gupta-era literature"},
+  {"id": "y137020f6d81", "why": "wrong topic: Kalidasa / Gupta literature"},
+  {"id": "y7ca403ca4f7", "why": "wrong topic: Kumbh Mela / Indian culture"},
+  {"id": "y2116cac9ea0", "why": "wrong topic: Mother Teresa / modern personalities"},
+  {"id": "yfb8122be790", "why": "garbled options; wrong topic: Mahayana Buddhism"},
+  {"id": "yd7700b83768", "why": "wrong topic: Chandelas"},
+  {"id": "y5d68023cefa", "why": "wrong topic: Mauryan sources"},
+  {"id": "y4884474cfc5", "why": "wrong topic: Pallava architecture"},
+  {"id": "y7e354466036", "why": "wrong options: pairs missing (only first halves)"},
+  {"id": "y8a5de383387", "why": "wrong options: pairs missing (only first halves)"}
+ ],
+ "patterns": [
+  "Direct one-liners dominate: Siladitya title, Bana patronised by Harsha, Harsha authored Nagananda, Hiuen Tsang visited under Harsha.",
+  "Recurring trap: 'Which work is NOT by Harsha' - Harshacharita/Kadambari (Bana) vs Ratnavali/Priyadarshika/Nagananda.",
+  "Capital shift Thanesar -> Kannauj and Kannauj as Maukhari capital are asked repeatedly; Kannauj and Prayag assemblies as a pair.",
+  "Vakatakas appear as statement sets on Vindhyashakti (founder) vs Pravarasena I (four Ashvamedhas, Samrat).",
+  "App MCQs lean on long statement/match sets and Andhra details from Hiuen Tsang; PYQs are shorter, author-work and ruler-title matching."
+ ],
+ "stats": {"app_mcqs": 67, "pyqs": 47, "fixed": 1, "dropped": 4}
+}

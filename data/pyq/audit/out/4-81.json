@@ -1,0 +1,61 @@
+{
+ "topic": "4:81",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-geography-24-3", "why": "oddly worded A/R ('is listed under Kharif'), no causal link to test"},
+  {"id": "n32b92cf35fb", "why": "oddly worded: asks what an answer key 'marked' rather than a fact"}
+ ],
+ "notes_fix": [
+  {"ref": "23#1", "find": "Rice Brown leaf spot Sphaerulina oryzina", "replace": "Rice Narrow brown leaf spot Sphaerulina oryzina", "why": "brown spot is Helminthosporium oryzae; Sphaerulina oryzina = narrow brown leaf spot (cf. app MCQ nbiology-22-9)"},
+  {"ref": "23#1", "find": "Bajra Ergot Claviceps purpurea", "replace": "Bajra Ergot Claviceps fusiformis", "why": "established fact: C. purpurea is rye ergot; bajra ergot is C. fusiformis"}
+ ],
+ "pyq_bad": [
+  {"id": "y3d8f5bd9b1d", "why": "suspect key: New Agricultural Strategy was introduced in the sixties (opt 3), seventies keyed"},
+  {"id": "y3f5fdc9c1b0", "why": "suspect key: rajma (opt 3) is the poor nitrogen-fixer, gram keyed"},
+  {"id": "y1d18103277c", "why": "suspect key: same item as y5875b5f4301 but keyed differently"},
+  {"id": "y13868857617", "why": "mental ability (data interpretation table)"},
+  {"id": "ydb05b4b23e8", "why": "mental ability (data interpretation table)"},
+  {"id": "y3fa4447ea9d", "why": "mental ability (data interpretation, table missing)"},
+  {"id": "y753eb322390", "why": "garbled options"},
+  {"id": "y6d608f78fb3", "why": "garbled (option 4 missing)"},
+  {"id": "yd764e5c83ba", "why": "garbled (options truncated)"},
+  {"id": "y29ad8ec0618", "why": "garbled (options truncated)"},
+  {"id": "yfe30d5f495d", "why": "garbled (options truncated)"},
+  {"id": "y0ee72151809", "why": "garbled (options truncated)"},
+  {"id": "y90b264606fa", "why": "garbled (options truncated)"},
+  {"id": "y5396b5c0f99", "why": "garbled (options truncated)"},
+  {"id": "y5ce8c5afa2e", "why": "garbled (stem missing)"},
+  {"id": "y3611b6c28ff", "why": "garbled (explanatory text, stem missing)"},
+  {"id": "y8a4d575fe80", "why": "garbled (explanatory text pasted into stem)"},
+  {"id": "ye35b1c5b027", "why": "garbled (explanatory text pasted into stem)"},
+  {"id": "ye3962c072d1", "why": "garbled (list item (c) missing)"},
+  {"id": "yb0d00270f39", "why": "wrong options (options belong to another question)"},
+  {"id": "y7cf5c8149bb", "why": "wrong topic: world oil / Alaska"},
+  {"id": "ya1160e34b9b", "why": "wrong topic: fauna"},
+  {"id": "ya0b3bffb76f", "why": "wrong topic: mangroves"},
+  {"id": "y530c62889ae", "why": "wrong topic: biodiversity"},
+  {"id": "y5f6f5218476", "why": "wrong topic: coal / minerals"},
+  {"id": "ya9f44bdf3b2", "why": "wrong topic: iron ore / minerals"},
+  {"id": "y52838db4a3c", "why": "wrong topic: livestock / milk"},
+  {"id": "yf46e266e834", "why": "wrong topic: livestock / milk"},
+  {"id": "y4c2c52fee28", "why": "wrong topic: livestock"},
+  {"id": "y94e71b4f5a1", "why": "wrong topic: livestock"},
+  {"id": "yfae41fb4cb1", "why": "wrong topic: current affairs awards"},
+  {"id": "ya4254ceb843", "why": "wrong topic: paper industry"},
+  {"id": "yf6acdd36748", "why": "wrong topic: jute industry"},
+  {"id": "yd8fea34b0f3", "why": "wrong topic: groundwater"},
+  {"id": "yfd1b9a8448a", "why": "wrong topic: groundwater"},
+  {"id": "y28a840e2542", "why": "wrong topic: plant physiology (C4 plants)"},
+  {"id": "y8e7e94ae61c", "why": "wrong topic: botany"},
+  {"id": "y18c7f9c3fee", "why": "wrong topic: agrochemicals"},
+  {"id": "y88bd896a2f2", "why": "wrong topic: Thar desert"}
+ ],
+ "patterns": [
+  "APPSC asks direct items: Green Revolution mainly wheat and rice, NFSM 2007 = rice, wheat, pulses, BGREI = paddy, rice-wheat is the dominant cropping system, Assam shifting cultivation = Jhoom.",
+  "APPSC Group-1 uses statement items with a trap (black soil of Deccan 'not suitable' for wheat is the wrong one) and 4-way match of shifting-cultivation names (Ladang-Indonesia, Milpa-Central America, Roca-Brazil, Masole-Central Africa).",
+  "Leading-state questions recur (rice WB, wheat UP, jowar, pulses MP), but keys date to their exam year and drift over time.",
+  "Other PSCs heavily test crop seasons (gram/mustard rabi, fodder zaid), crop varieties and research institute locations.",
+  "App MCQs lean on 2025-26 schemes and data (NFSNM, Dalhan Mission, NMEO, PMFBY) and multi-statement formats; core season/region facts match PYQs."
+ ],
+ "stats": {"app_mcqs": 76, "pyqs": 206, "fixed": 0, "dropped": 2}
+}

@@ -1,0 +1,103 @@
+{
+ "topic": "5:41",
+ "mcq_fix": [
+  {
+   "id": "n0218622aab5",
+   "s": "Chandrayaan-1, 2 and 3, Mangalyaan, AstroSat, Aditya-L1 and XPoSat were all launched from which facility?",
+   "why": "stem referred to 'this section'; oddly worded"
+  },
+  {
+   "id": "n8a42724a160",
+   "s": "Which element did Chandrayaan-3's Pragyan rover confirm near the lunar south pole?",
+   "why": "stem cited 'asked in APPSC 2023'; unexam-like wording (y70c33fea3d0)"
+  }
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {
+   "id": "y948cbe18e14",
+   "why": "suspect stem: XPoSat launched 1 Jan 2024, not May 2023 (answer XPoSat still right)"
+  },
+  {
+   "id": "y2c56e515678",
+   "why": "suspect key: 8 km/s exceeds orbital speed (~7.9 km/s) -> orbits Earth (3)"
+  },
+  {
+   "id": "yb80c6c0a289",
+   "why": "garbled options (LED etc.)"
+  },
+  {
+   "id": "y2ff4af6ee5c",
+   "why": "garbled: stray text in stem"
+  },
+  {
+   "id": "yd19d1d40dfa",
+   "why": "garbled: explanation text in stem"
+  },
+  {
+   "id": "yfd566292064",
+   "why": "garbled: whole explanation chapter pasted as stem"
+  },
+  {
+   "id": "yec06b7ee271",
+   "why": "garbled options; wrong topic: physics of motion"
+  },
+  {
+   "id": "y73360b956ba",
+   "why": "mental ability (data interpretation)"
+  },
+  {
+   "id": "y1e8cb5a6429",
+   "why": "wrong topic: telecom current affairs"
+  },
+  {
+   "id": "y8b868ca16fb",
+   "why": "wrong topic: international relations"
+  },
+  {
+   "id": "y3fd43347472",
+   "why": "wrong topic: international relations / arms treaties"
+  },
+  {
+   "id": "y3967a2e62c2",
+   "why": "garbled options; wrong topic: geography isolines"
+  },
+  {
+   "id": "yff5ea8aaa10",
+   "why": "wrong topic: magnetism"
+  },
+  {
+   "id": "y6bfbf99ae24",
+   "why": "wrong topic: optics (refraction)"
+  },
+  {
+   "id": "yafc25bca067",
+   "why": "wrong topic: solar system / astronomy basics"
+  },
+  {
+   "id": "y3c922d306b8",
+   "why": "wrong topic: solar system / astronomy basics"
+  },
+  {
+   "id": "y7825e66e2ae",
+   "why": "wrong topic: solar system / astronomy basics"
+  },
+  {
+   "id": "yf1fc3721d3f",
+   "why": "wrong topic: solar system / astronomy basics"
+  }
+ ],
+ "patterns": [
+  "APPSC asks one-fact current-affairs items right after each mission: Ch-3 lander/rover names (Vikram/Pragyan), element found (sulphur), Aditya-L1 launch date (2 Sep 2023), XPoSat with RRI, SpaDeX = docking.",
+  "Options are close-name distractors (Aditya-S1/P1/M1; WPoSat/GPoSat/RPoSat) or near dates (2 Aug vs 2 Sep 2023); APPSC 2022 also tested 'Shukrayaan to Saturn' as a false statement.",
+  "Other PSCs add rank facts (India 4th to soft-land), payload -> function (APXS elemental composition), launch-vehicle pairs and Mangalyaan first-attempt record.",
+  "App MCQs are mostly multi-statement / match items with payload and vehicle detail (SoLEXS, HEL1OS, Chang'e, Psyche, Nuri) - deeper than APPSC's single-fact style but factually sound."
+ ],
+ "stats": {
+  "app_mcqs": 40,
+  "pyqs": 57,
+  "fixed": 2,
+  "dropped": 0
+ }
+}

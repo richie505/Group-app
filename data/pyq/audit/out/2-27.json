@@ -1,0 +1,51 @@
+{
+ "topic": "2:27",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-polity-56-29", "why": "oddly worded ('loss of majority is also stated as a route for removal of the Union Ministry')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y2ce56fa4119", "why": "suspect key: PM is appointed by the President (option 1), not elected by Parliament"},
+  {"id": "yb9b4fd401d7", "why": "suspect key: diplomat VPs = S. Radhakrishnan and V.V. Giri (see y7828b22862c), not Zakir Husain"},
+  {"id": "y5f45d438cf4", "why": "suspect key/garbled: cabinet-size cap is the 91st Amdt at 15%, not 97th at 10%; option text mixed"},
+  {"id": "y55eebe297aa", "why": "suspect key: CPCB chairman is not the Vice-President; also wrong topic: pollution boards"},
+  {"id": "yec72905af80", "why": "suspect key: Anglo-Indian LS nominees were nominated by the President; also wrong topic: Lok Sabha"},
+  {"id": "yfac715d970b", "why": "garbled: notes text dumped into stem; actual question is on Art. 300"},
+  {"id": "y5448fb09ddc", "why": "garbled: option 3 split across options (duplicate of ye8d7d7c92d5)"},
+  {"id": "y27f713d6205", "why": "garbled stem"},
+  {"id": "y23de67020b9", "why": "garbled: numbers missing from options"},
+  {"id": "y4b44f73759f", "why": "wrong topic: world leaders"},
+  {"id": "y796a8db4822", "why": "wrong topic: world leaders"},
+  {"id": "ye43dbbd3a19", "why": "wrong topic: world leaders"},
+  {"id": "y4496ef7ee44", "why": "wrong topic: world leaders"},
+  {"id": "y5a2f29b166b", "why": "wrong topic: world leaders"},
+  {"id": "y868e178dd9b", "why": "wrong topic: world leaders"},
+  {"id": "yd2752a30346", "why": "wrong topic: world leaders"},
+  {"id": "y6565e01c426", "why": "wrong topic: world leaders"},
+  {"id": "yce7546a5f84", "why": "wrong topic: parliamentary committees"},
+  {"id": "y21fcf610245", "why": "wrong topic: Rajya Sabha"},
+  {"id": "y85cc552eda1", "why": "wrong topic: Rajya Sabha"},
+  {"id": "y44dfc3fa07c", "why": "wrong topic: Rajya Sabha composition"},
+  {"id": "y432f1c36b56", "why": "wrong topic: Parliament quorum"},
+  {"id": "y3d3c555cee6", "why": "wrong topic: Parliament and State List (Art. 249)"},
+  {"id": "ycbb6463befa", "why": "wrong topic: President's immunity"},
+  {"id": "y456e791089d", "why": "wrong topic: Presidents"},
+  {"id": "y7d4bd6afcd1", "why": "wrong topic: Presidents"},
+  {"id": "yf8695f09195", "why": "wrong topic: Presidents"},
+  {"id": "yd4711269829", "why": "wrong topic: local bodies"},
+  {"id": "y0b48ed675a1", "why": "wrong topic: state budget"},
+  {"id": "ye4086ffe2b4", "why": "wrong topic: Finance Commission"},
+  {"id": "y55d5dd88986", "why": "wrong topic: foreign relations"},
+  {"id": "y68eafe2de08", "why": "wrong topic: architecture"},
+  {"id": "y83f34cddeae", "why": "wrong topic: awards"}
+ ],
+ "patterns": [
+  "APPSC asks direct single-fact items: who elects the VP (both Houses), removal resolution first in Rajya Sabha (Art. 67), President resigns to VP, PM appointed by President, PM chairs Planning Commission/NITI.",
+  "Size cap is a favourite: 91st Amdt, 15% of Lok Sabha (Union) and 15% / minimum 12 (States) - other PSCs repeat this almost verbatim.",
+  "APPSC Group-1 uses 'choose the WRONG statement' on CoM (trap: President gets discretion in National Emergency) and constitutional equality of ministers.",
+  "Records/firsts (first VP, diplomat VPs, PM succession order) and current incumbents appear as one-liners.",
+  "App MCQs are mostly 3-4 statement and 4-way match items on Article numbers and oath/resignation tables; APPSC rarely goes beyond one-line recall here."
+ ],
+ "stats": {"app_mcqs": 64, "pyqs": 128, "fixed": 0, "dropped": 1}
+}

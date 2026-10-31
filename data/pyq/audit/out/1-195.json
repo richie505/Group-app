@@ -1,0 +1,29 @@
+{
+ "topic": "1:195",
+ "mcq_fix": [
+  {"id": "nap-history-16-16", "a": 1, "why": "Vyavaharika Bhasha Parivartaka Samaj was Gidugu's (APPSC 2017; y5ecee5fcb35), Hasyavardhani was Kokkonda's: only two (I, II) are Veeresalingam's"}
+ ],
+ "mcq_drop": [
+  {"id": "naf591b9e2f6", "why": "ambiguous: Social Reform Association date disputed (1871/1875/1878) vs Prarthana Samaj 1878"},
+  {"id": "nap-history-15-4", "why": "ambiguous: calls Andhra Prakasika the first political journal, contradicting Chintamani in other app MCQs"},
+  {"id": "nap-history-32-19", "why": "off topic and near-duplicate of nap-history-19-20 (MIM 1927)"},
+  {"id": "nap-history-19-11", "why": "off topic: Dutch factory 1605, not social reform"},
+  {"id": "nap-history-16-14", "why": "off topic: Veera Shaivam / Basavanna (Karnataka)"}
+ ],
+ "notes_fix": [
+  {"ref": "16#1", "find": "Vyavaaharikandhra Bhasha Parivartaka Samajam Kandukuri Veeresalingam", "replace": "Vyavaaharikandhra Bhasha Parivartaka Samajam Gidugu Ramamurthy", "why": "APPSC 2017 / y5ecee5fcb35; notes 25#5 credit Gidugu"}
+ ],
+ "pyq_bad": [
+  {"id": "yf249078a008", "why": "wrong topic: Bhagavad Gita quotation"},
+  {"id": "y643e13259fb", "why": "wrong options: founder halves of pairs missing"},
+  {"id": "yb1111006eaa", "why": "garbled: stem mixed with code fragments"}
+ ],
+ "patterns": [
+  "APPSC overwhelmingly asks Veeresalingam one-liners: Vivekavardhini (1874) founder/year, Satihita Bodhini for women, Hitakarini Samaj, first girls' school, Rajasekhara Charitra = first Telugu novel, 'father of Telugu renaissance'.",
+  "Other recurring APPSC facts: Bhogam abolition = Raghupathi Venkataratnam Naidu; Kanyasulkam = Gurajada; Prakasika (1896) = Gurajada; Vyavaharika Samaj = Gidugu; Kasiyatra Charitra = Enugula Veeraswamayya.",
+  "Shapes are direct 'who founded/wrote' and simple correct-pair questions; traps swap journals among Veeresalingam, Kokkonda and Venkataratnam Naidu.",
+  "Watch conflicting keys: G2 2025 Vivekavardhini (D. Rangacharyulu), Brahmo Samaj in combined AP keyed to Veeresalingam.",
+  "App MCQs go far deeper (Kanyasulkam characters, dictionaries, missions, MIM/Dutch trivia) and sometimes contradict each other on 'first political journal'."
+ ],
+ "stats": {"app_mcqs": 102, "pyqs": 22, "fixed": 1, "dropped": 5}
+}

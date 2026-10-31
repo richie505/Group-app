@@ -1,0 +1,33 @@
+{
+ "topic": "3:125",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nca2feb6b71a", "why": "filler option 2 is meaningless; answer conflicts with y3c71c698cd6 key (II, III, V), which keeps the 25% GSDP target"},
+  {"id": "n27e412239b4", "why": "oddly worded ('claim was treated as incorrect'); y8f57a3640ea key conflicts on which statement is false"},
+  {"id": "nd838e1165d8", "why": "opinion item (criticism)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y3c71c698cd6", "why": "garbled stem; suspect key vs notes: key (II, III, V) leaves out the 25% GSDP statement the notes call false - verify"},
+  {"id": "y8f57a3640ea", "why": "suspect key: notes/policy give MSMEs 23.5% of GSDP, making option 4 (33.5%) the false one, not option 3"},
+  {"id": "y56d8fd60055", "why": "garbled (URL text in stem); duplicate of y5d0c362f367"},
+  {"id": "y3a1a222ac87", "why": "mental ability"},
+  {"id": "ycf61b6dc261", "why": "mental ability (statistics arithmetic)"},
+  {"id": "y3a4e2db344d", "why": "wrong topic: Nepal census"},
+  {"id": "y477157b129f", "why": "wrong topic: India mineral production"},
+  {"id": "y719205e39e0", "why": "wrong topic: India mineral production"},
+  {"id": "y1d2cd3d6a79", "why": "wrong topic: basic economics (capital)"},
+  {"id": "y5a5ba978075", "why": "wrong topic: railways PPP"},
+  {"id": "yed270fd23d1", "why": "wrong topic: household savings"},
+  {"id": "y13ba347d34f", "why": "wrong topic: national economy targets"},
+  {"id": "y62b4ee120c6", "why": "wrong topic: industrial location in India"}
+ ],
+ "patterns": [
+  "APPSC asks direct policy numbers: Single Desk approvals in 21 days, mega status = 2,000 jobs, 16.2% APIIC plots for SC, 33% land for MSMEs, 26 cement plants (2014-15), 4.0 policies = 2024-29.",
+  "Rank questions recur with specific reporting windows (FDI rank 12th/13th/14th, industrial output 7th) - window wording is the trap.",
+  "'Which is NOT a standard incentive' and 'which statement is incorrect' about the policy text (Foreign vs Fixed capital investment, GSDP share, facilitation timelines).",
+  "Current-affairs company-location items (Pepper Motion-Punganur, Hindalco-Apple, APIIC-Union Bank MoU) appear in G2.",
+  "App MCQs are broadly aligned but add many 2026 news items and multi-part policy minutiae (Early Bird, PLI top-up, CDP outlay) beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 91, "pyqs": 34, "fixed": 0, "dropped": 3}
+}

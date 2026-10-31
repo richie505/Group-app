@@ -1,0 +1,21 @@
+{
+ "topic": "4:26",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n5cc8a0dc9f6", "why": "oddly worded 'current-affairs pairs' item with obscure trivia (D-COIN, PMMSY, Pavona clavus)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yd09c5155fbf", "why": "wrong topic: dams and rivers; options garbled"},
+  {"id": "y7b87e14be92", "why": "wrong topic: biosphere reserves (general)"},
+  {"id": "y8fd618fd199", "why": "garbled: text of other questions merged into stem/options"},
+  {"id": "y021bdf3aa5c", "why": "garbled: stem missing its lead-in (ocean acidification)"}
+ ],
+ "patterns": [
+  "APPSC asks direct coral facts: chemical component (calcium carbonate), bleaching = expulsion of zooxanthellae, Great Barrier Reef off Australia, and a 2024 A-R on 'rainforests of the sea' vs wave-breaking.",
+  "Other PSCs repeat: where reefs occur in India (A&N, Kachchh, Mannar - not Sunderbans/Cambay), Lakshadweep = coral origin, atoll shape, GBR location/length.",
+  "Bleaching cause asked as 'global warming/rising SST'; algal bloom/red tide items appear in UPSC/state papers.",
+  "App closely tracks PYQ depth on reefs; adds ocean-zone, upwelling-current matches and 2023-26 bleaching/MPA data not yet asked by APPSC."
+ ],
+ "stats": {"app_mcqs": 46, "pyqs": 29, "fixed": 0, "dropped": 1}
+}

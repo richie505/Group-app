@@ -1,0 +1,30 @@
+{
+ "topic": "3:10",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n9c96df87fee", "why": "obscure phrase-attribution trivia ('the poor became poorer')"},
+  {"id": "n56f47e6c04b", "why": "off-topic current affairs (Kerala extreme poverty), not Five Year Plans"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y426d82bad2d", "why": "wrong topic: sports (CWG 2022)"},
+  {"id": "yfe8054aa9e8", "why": "wrong topic: misc schemes (Kalp Yojana)"},
+  {"id": "y4bebef5a157", "why": "wrong topic: AP geography"},
+  {"id": "y22ec7eeb73c", "why": "wrong topic: rupee devaluation / BoP"},
+  {"id": "y3db2989a92e", "why": "garbled duplicate of yb683a0feca9"},
+  {"id": "y52bfcc850b1", "why": "garbled stem/options"},
+  {"id": "y33551990d3b", "why": "garbled: outlay table merged into stem"},
+  {"id": "yfc1c90b11f9", "why": "garbled: 'Literature' likely OCR for another goal; key unclear"},
+  {"id": "yeaab85e6fdb", "why": "suspect key: self-reliant, self-generating economy was the Third Plan objective"},
+  {"id": "yf3985c88814", "why": "suspect key: Fifth; HRD focus is the Eighth Plan"},
+  {"id": "y40c1fb81e10", "why": "suspect key: 4% agriculture growth was a 12th Plan target (y3288cc12023)"}
+ ],
+ "patterns": [
+  "APPSC asks plan -> theme one-liners: 11th 'faster and more inclusive', 12th 'faster, sustainable and more inclusive', heavy industry = Second, first priority to agriculture = First.",
+  "Dates/periods: Fourth Plan launched 1969, Plan Holiday 1966-69, Rolling Plan 1978-80, Eighth began 1992; highest growth = Eleventh (APPSC), older PSCs keyed Tenth.",
+  "Programme -> plan matching (CDP 1952, JRY Seventh, Women's Component Plan Ninth, RKVY Eleventh, 20-point programme 1975) recurs across PSCs.",
+  "APPSC Group-1 also asks targets/data (11th Plan 9.5% AP target, 2002-03 growth, Second Plan pruning due to forex shortage).",
+  "App MCQs mirror these well; extras on AP Swarna Andhra, Kerala poverty and phrase trivia drift beyond the topic."
+ ],
+ "stats": {"app_mcqs": 53, "pyqs": 100, "fixed": 0, "dropped": 2}
+}

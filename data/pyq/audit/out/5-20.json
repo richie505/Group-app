@@ -1,0 +1,38 @@
+{
+ "topic": "5:20",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n534db48456d", "why": "dubious stem: C-V2X is itself 4G/5G-based; 'preferred over 4G/5G' is muddled trivia"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y398b2ea35e2", "why": "garbled: option 2 truncated"},
+  {"id": "ydd2de280cd6", "why": "wrong topic: optics (mirage)"},
+  {"id": "yb88b7b0c32b", "why": "wrong topic: optics (diamond TIR)"},
+  {"id": "y950213327ce", "why": "wrong topic: optics (diamond TIR)"},
+  {"id": "y350c7ade3d2", "why": "wrong topic: astronomy units (light-year)"},
+  {"id": "y006ed7de095", "why": "wrong topic: forest fire management"},
+  {"id": "yd186d2643c6", "why": "wrong topic: astronomy units (light-year)"},
+  {"id": "y788e1b1da85", "why": "wrong topic: optics (atmospheric refraction)"},
+  {"id": "ycd13d949ea1", "why": "wrong topic: optics (scattering)"},
+  {"id": "y9c26ce92fa2", "why": "wrong topic: optics (mirage)"},
+  {"id": "y5923132deba", "why": "mental ability"},
+  {"id": "y93c1ea62da0", "why": "wrong options"},
+  {"id": "y3975f13a0c0", "why": "wrong topic: astronomy units (parsec)"},
+  {"id": "ya1db29ec919", "why": "wrong topic: buoyancy/density"},
+  {"id": "y4db4864458d", "why": "wrong topic: human eye/ear physiology"},
+  {"id": "ye8e924337ac", "why": "wrong topic: lasers"},
+  {"id": "yd0897a4a5c8", "why": "garbled: stem is a pasted notes block"},
+  {"id": "yacb5a37f801", "why": "mental ability (numerical interference calc); wrong topic: wave optics"},
+  {"id": "y39051bc3e02", "why": "garbled: options truncated"},
+  {"id": "ycae28787c5c", "why": "wrong topic: heat transfer"},
+  {"id": "yd3e283debe0", "why": "wrong topic: optics"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact items: fastest medium = optical fibre (APPSC 2025), 5G hackathon organiser (DoT), EMF limits (APPSC 2021).",
+  "Most filed PYQs are physics of EM waves/TIR: optical fibre = total internal reflection, IR = remote controls/night vision, longest/shortest wavelength ordering.",
+  "Li-Fi/VLC, Bluetooth vs Wi-Fi (2.4 GHz) and WiMAX recur as one-liners.",
+  "App MCQs lean heavily on 2026 current-affairs numbers (TRAI bands, Gati Shakti, labs) in long statement sets; PYQs are far shorter and more conceptual."
+ ],
+ "stats": {"app_mcqs": 38, "pyqs": 63, "fixed": 0, "dropped": 1}
+}

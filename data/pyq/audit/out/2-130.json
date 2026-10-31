@@ -1,0 +1,30 @@
+{
+ "topic": "2:130",
+ "mcq_fix": [
+  {"id": "n140c2c59866", "s": "Under the POCSO Act, which court is designated as the Special Court in each district?", "o": ["A Court of Session", "A Magistrate's Court in each village", "The High Court for the entire State", "A court notified by the Union Cabinet"], "a": 0, "why": "stem said 'designated by' a Sessions Court; Sessions Court is the court designated"}
+ ],
+ "mcq_drop": [
+  {"id": "n51b0ec5286c", "why": "source-specific 'cited classification' trivia, oddly worded"},
+  {"id": "nf9067254be0", "why": "opinion-style 'best reflects' with absurd distractors"},
+  {"id": "n1279e25a510", "why": "opinion/commentary statements, not exam-style"},
+  {"id": "n0fd66b870e5", "why": "opinion item ('major criticism')"},
+  {"id": "n4dc5aa95538", "why": "opinion label 'current AP policing model'; 2-month probe was CLA 2018, not Nirbhaya Act"}
+ ],
+ "notes_fix": [
+  {"ref": "0#0", "find": "Nirbhaya Act: 2-month probe", "replace": "CLA 2018: 2-month probe", "why": "2-month rape investigation limit (CrPC 173(1A)) came via CLA 2018"},
+  {"ref": "12#4", "find": "rape investigation in 2 months", "replace": "(2-month rape investigation came later, via CLA 2018)", "why": "not a CLA 2013 provision"},
+  {"ref": "21#12", "find": "Nirbhaya Act (2-month probe)", "replace": "CLA 2018 (2-month probe)", "why": "2-month probe introduced by CLA 2018"}
+ ],
+ "pyq_bad": [
+  {"id": "yc33e92afbf3", "why": "garbled: stem carries text of another question, options mangled"},
+  {"id": "yea445e435e8", "why": "wrong topic: sports (Chess Olympiad 2022)"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners on women-safety mechanisms: ERSS number 112, OSCs funded by Nirbhaya Fund, Disha SOS app.",
+  "MHA IT-initiative identification (Cri-MAC vs ITSSO vs NDSO vs SPUWAC) is a recurring trap - know each system's function.",
+  "Strong AP tilt: Disha Act/app, Abhayam (Chittoor) vs Abhay (Ongole), first women's court/police station FIRSTs.",
+  "PYQs do not ask NCRB percentage shares or NFHS fine figures; app has many data-heavy and opinion items beyond PYQ depth.",
+  "App over-uses 'cited data/classification' and commentary statements that no exam would print."
+ ],
+ "stats": {"app_mcqs": 69, "pyqs": 5, "fixed": 1, "dropped": 5}
+}

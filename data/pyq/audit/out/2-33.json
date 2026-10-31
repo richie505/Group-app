@@ -1,0 +1,27 @@
+{
+ "topic": "2:33",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n6909e06bd0b", "why": "Oddly worded: options refer to 'Such a Bill' with no antecedent; mixes RS/Money Bill distractors into a State-legislature item"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y81e6d5eb5ac", "why": "garbled (OCR junk in stem and option 3)"},
+  {"id": "y3f22cb7ccb4", "why": "wrong topic: Rajya Sabha nominated members (2024 current affairs)"},
+  {"id": "y96318979d4b", "why": "wrong options: all four are Art.110 matters; 'all of the above' option lost, key 4 meaningless"},
+  {"id": "y10a8aca6d01", "why": "suspect key: statement 3 (no Bill needed to change existing tax rates) is the false one; UPSC 2004 key is (3)"},
+  {"id": "y77e20b21f55", "why": "suspect key: Financial Bills (I/II) can be returned; only a Money Bill cannot - item means Money Bill"},
+  {"id": "y3cfe03230a0", "why": "wrong topic: Rajya Sabha powers vs Lok Sabha"},
+  {"id": "y48fe90424ae", "why": "wrong topic: collective responsibility / no-confidence motion"},
+  {"id": "y824390dd51d", "why": "wrong topic: dissolution of Lok Sabha (President's powers)"},
+  {"id": "y8177052391b", "why": "wrong topic: Art. 3 reorganisation of States"}
+ ],
+ "patterns": [
+  "Money Bill is the hub: House of introduction (Lok Sabha only), Art.110 definition, 14-day RS limit, Speaker's certificate final, no joint sitting, President cannot return.",
+  "Joint sitting: Art.108 (trap: Art.109 in statements), summoned by President who 'notifies intention', Speaker presides, excluded for Money and Constitution Amendment Bills.",
+  "Parliament composition (President + LS + RS) and 'Bill becomes Act after President's assent' recur as one-liners.",
+  "Stages: general discussion = Second Reading; APPSC-G1 2024 used lapse-on-dissolution statement; pocket veto asked by APPSC.",
+  "App goes deeper (FB-I vs FB-II matrices, Speaker's certificate endorsements, private members' committee, 2025-26 current affairs) than the mostly direct single-fact PYQs."
+ ],
+ "stats": {"app_mcqs": 41, "pyqs": 51, "fixed": 0, "dropped": 1}
+}

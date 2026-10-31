@@ -1,0 +1,30 @@
+{
+ "topic": "5:79",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n17a84ccdb98", "why": "obscure trivia (WDPA update cycle / target mapping) far beyond PYQ depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y442d34336cf", "why": "garbled: stem missing, only statements remain"},
+  {"id": "y2e62459044d", "why": "garbled: two questions merged"},
+  {"id": "y5f45d75de38", "why": "garbled: stem missing"},
+  {"id": "y56ff8bfab8e", "why": "garbled: options truncated (duplicate of y0a21593ba22)"},
+  {"id": "y3caaab1917e", "why": "garbled: options broken (duplicate of y7bb9a958856)"},
+  {"id": "yc741ed7cb98", "why": "wrong topic: UNGA sessions"},
+  {"id": "yc4c8ebd5efe", "why": "wrong topic: international years"},
+  {"id": "ye331be9d805", "why": "wrong topic: agricultural research institutes"},
+  {"id": "y2ad5560d7b9", "why": "wrong topic: agricultural research institutes"},
+  {"id": "y4aa4d2644f4", "why": "wrong topic: UN anti-corruption / organised crime conventions"},
+  {"id": "yab73bf6e787", "why": "wrong topic: defence exercises"},
+  {"id": "y6f59665068c", "why": "wrong topic: important days (general)"}
+ ],
+ "patterns": [
+  "APPSC asks one-line identifications: Ramsar = wetlands, CITES = endangered species trade (Washington Convention), Nagoya = part of CBD, IUCN full form, International Year of Biodiversity 2010.",
+  "Recent APPSC items probe definitions (Nagoya 'utilization of genetic resources' = R&D on genetic/biochemical composition) and CA conferences (CMS COP14 Samarkand 2024).",
+  "AP tilt: Kolleru Lake as AP's Ramsar site; red sanders (Seshachalam) under CITES App II.",
+  "Other PSCs test GEF facts, Montreux Record meaning, Cartagena = biosafety (MoEF nodal), UN Decade on Biodiversity 2011-20.",
+  "App MCQs go much deeper (KMGBF target numbers, finance figures, CoP20 listings, NBSAP counts) mostly as statement/match items; PYQs stay at name-subject-year level."
+ ],
+ "stats": {"app_mcqs": 96, "pyqs": 46, "fixed": 0, "dropped": 1}
+}

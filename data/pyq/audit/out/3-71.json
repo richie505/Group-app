@@ -1,0 +1,35 @@
+{
+ "topic": "3:71",
+ "mcq_fix": [
+  {"id": "nc2ad8b7b53e", "o": ["Navratnas — 9 public sector undertakings in 1997", "Miniratnas — 9 public sector undertakings in 1997", "Navratnas — 97 profit-making public sector undertakings", "Miniratnas — strategic disinvestment policy of 2021"], "why": "Navratna scheme (9 PSUs) was introduced in 1997, not 1996"}
+ ],
+ "mcq_drop": [
+  {"id": "n2c1941ad47d", "why": "dubious: Soviet collapse (Dec 1991) came after the crisis; 'immediate trigger' key is contestable"},
+  {"id": "n37bfa19ee8e", "why": "non-standard 'Reforms 1.0/2.0/3.0' labels from one op-ed; no exam frames it"},
+  {"id": "n7815779f36b", "why": "odd wording ('in the stated criticism') and opinion-based trivia"},
+  {"id": "nindian-economy-37-7", "why": "ambiguous A/R (R is a definition, not a reason)"}
+ ],
+ "notes_fix": [
+  {"ref": "15#12", "find": "Navratnas (1996)", "replace": "Navratnas (1997)", "why": "Navratna and Miniratna schemes introduced in 1997"}
+ ],
+ "pyq_bad": [
+  {"id": "y0ce641f781b", "why": "wrong topic: market forms (microeconomics)"},
+  {"id": "y9bafefc4cd6", "why": "wrong topic: world affairs (Venezuela)"},
+  {"id": "y067958496ec", "why": "garbled (options truncated)"},
+  {"id": "yeabfced53a6", "why": "wrong topic: international trade law (Super 301)"},
+  {"id": "yc5bbaedfe22", "why": "wrong topic: outsourcing controversy (current affairs)"},
+  {"id": "y98632aa600d", "why": "wrong topic: FDI trends / Economic Survey 2023"},
+  {"id": "y9d9064d22f8", "why": "wrong topic: taxation (service tax)"},
+  {"id": "y182dc6551e3", "why": "garbled (stray option text in stem)"},
+  {"id": "y524dc5f0626", "why": "wrong topic: fuel pricing"},
+  {"id": "y6f77bbb6358", "why": "wrong topic: urban schemes (JNNURM)"}
+ ],
+ "patterns": [
+  "APPSC asks the crisis signature (high inflation, low forex, large fiscal deficit), the 1991 rescue step (IMF loan by pledging gold) and 'what was NOT done' (demonetisation, nationalisation, capital-account convertibility).",
+  "Globalisation-impact trap recurs in APPSC-G2: 'exports grew faster than imports' is the false statement; post-reform shift = enhanced global integration.",
+  "APPSC-G1 asks conceptual one-liners: SAPs reduce fiscal imbalances for long-term growth, jobless growth because reforms were confined to the formal sector, railways not much affected.",
+  "Other PSCs: year of reforms (1991, Rao/Manmohan), Chelliah = tax reforms, post-1991 changes (FDI, forex up; agriculture share not up).",
+  "App goes deeper (LERMS ratios, tariff figures, Washington Consensus, 2026 data); APPSC depth is a single conceptual fact."
+ ],
+ "stats": {"app_mcqs": 62, "pyqs": 41, "fixed": 1, "dropped": 4}
+}

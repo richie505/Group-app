@@ -1,0 +1,97 @@
+{
+ "topic": "3:14",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {
+   "id": "na7967e8aa0b",
+   "why": "opinion item drawn from a news commentary (welfare vs development debate)"
+  },
+  {
+   "id": "nacc3ec7adb8",
+   "why": "'high growth-low well-being paradox' is not a standard term; oddly worded"
+  }
+ ],
+ "notes_fix": [
+  {
+   "ref": "5#0",
+   "find": "Lorenz (1906)",
+   "replace": "Lorenz (1905)",
+   "why": "Max Lorenz published the curve in 1905"
+  },
+  {
+   "ref": "14#0",
+   "find": "Max Lorenz, 1906",
+   "replace": "Max Lorenz, 1905",
+   "why": "Lorenz curve published 1905"
+  },
+  {
+   "ref": "14#4",
+   "find": "Lorenz 1906",
+   "replace": "Lorenz 1905",
+   "why": "Lorenz curve published 1905"
+  }
+ ],
+ "pyq_bad": [
+  {
+   "id": "y029ff0489dd",
+   "why": "garbled: stray option text 'B) Core Inflation D)...' in stem"
+  },
+  {
+   "id": "y2c291d52afc",
+   "why": "wrong topic: sports (Ranji Trophy)"
+  },
+  {
+   "id": "yf54486b7d5c",
+   "why": "garbled stem; wrong topic: impact of globalisation / LPG reforms"
+  },
+  {
+   "id": "y194bf3acb06",
+   "why": "garbled: stem truncated (duplicate of yf2d9f7f13d8)"
+  },
+  {
+   "id": "yf1de2af186b",
+   "why": "wrong topic: urbanisation"
+  },
+  {
+   "id": "y17e76574bd0",
+   "why": "wrong topic: population studies"
+  },
+  {
+   "id": "y8821c7ca094",
+   "why": "suspect key: C. Rangarajan chaired PMEAC in 2006; wrong topic: current affairs"
+  },
+  {
+   "id": "y2ce3a090a6f",
+   "why": "garbled: stray option text in stem"
+  },
+  {
+   "id": "y5f57811821c",
+   "why": "wrong options: question withdrawn by APPSC for discrepancy"
+  },
+  {
+   "id": "y50be4760dc8",
+   "why": "wrong topic: population policy; garbled option '(1) and 2'"
+  },
+  {
+   "id": "y2b1406d35b3",
+   "why": "suspect key: market surplus in agriculture is the economic factor; contradicts APPSC y21ca8b33cf8 (corruption = non-economic factor)"
+  },
+  {
+   "id": "y59fe910fcba",
+   "why": "wrong topic: macroeconomics / demonetisation (paradox of thrift)"
+  }
+ ],
+ "patterns": [
+  "APPSC asks concept-identification one-liners: key factor of Western model (economic growth), non-economic factor (corruption), sustainable growth definition, who coined 'Hindu rate of growth' (Raj Krishna).",
+  "Sustainable development / Brundtland definition is the single most repeated item across APPSC papers (G1, 2023 lecturers, screening tests).",
+  "Economist-theory attribution (Nurkse - vicious circle, Sen - capability) and index components (HDI excludes urbanisation; PQLI = IMR + literacy + LE at age one) are the standard traps.",
+  "AP-specific items appear (AP Economic Development Board Act 2018); 'Limits to Growth' asked twice.",
+  "App MCQs are broader and more statement-heavy (curves, ICOR, CPI/WPI/IIP agencies, Swarna Andhra figures) than the direct definitional PYQs."
+ ],
+ "stats": {
+  "app_mcqs": 52,
+  "pyqs": 60,
+  "fixed": 0,
+  "dropped": 2
+ }
+}

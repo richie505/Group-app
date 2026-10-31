@@ -1,0 +1,44 @@
+{
+ "topic": "4:40",
+ "mcq_fix": [
+  {"id": "nenvironment-12-4", "a": 3, "why": "after 2014 NSTR lies in AP only; the Telangana part is Amrabad TR, so A is false and R true"},
+  {"id": "n25bce8a7e25", "s": "Consider the following statements about Himalayan vegetation: 1. Eastern Himalayan forests include oaks, laurels, maples, rhododendrons, alder and birch. 2. The tree line is higher in the Eastern Himalaya than in the Western Himalaya. 3. The northern slopes generally carry denser forests than the southern slopes.", "why": "tree/alpine line is higher in the east (y0662e2365a6); keeps key 1 and 2 only"}
+ ],
+ "mcq_drop": [
+  {"id": "nb1f932a13c4", "why": "dubious: standard classification is Champion & Seth (1968), 16 type groups in 5 major groups"},
+  {"id": "n475f4111d5a", "why": "ambiguous rainfall threshold (>200 vs >250 cm, sources differ)"},
+  {"id": "n93952d11b5e", "why": "stem gives away the answer; 'smallest WLS' claim dubious"}
+ ],
+ "notes_fix": [
+  {"ref": "1#0", "find": "Champion & Puri: 5 types, 15 sub-types", "replace": "Champion & Seth (1968): 5 major groups, 16 type groups", "why": "established classification is Champion & Seth"},
+  {"ref": "8#0", "find": "Based on H.G. Champion and G.S. Puri: 5 major types, 15 sub-types", "replace": "Based on H.G. Champion and S.K. Seth (1968): 5 major groups, 16 type groups", "why": "established classification is Champion & Seth"},
+  {"ref": "12#4", "find": "tree line lower than in the west", "replace": "tree line higher than in the west", "why": "y0662e2365a6: alpine zone ~3000 m west vs ~4000 m east"},
+  {"ref": "19#0", "find": "Andhra Pradesh and Telangana Nagarjunasagar–Srisailam", "replace": "Andhra Pradesh Nagarjunasagar–Srisailam", "why": "post-2014 NSTR is in AP; Telangana part is Amrabad TR"}
+ ],
+ "pyq_bad": [
+  {"id": "y3ec4ae52582", "why": "garbled (deleted question; key notes for other items)"},
+  {"id": "ydacfb905b56", "why": "garbled (duplicate of y629fdf36755)"},
+  {"id": "y72232775708", "why": "garbled: depends on a missing map"},
+  {"id": "y653b3dddebf", "why": "garbled: options truncated"},
+  {"id": "y6b57783812f", "why": "garbled: options truncated"},
+  {"id": "y945ecf8a023", "why": "garbled: options truncated (duplicate of yfa3c4d7d51c)"},
+  {"id": "y6c11e365198", "why": "garbled: options truncated"},
+  {"id": "ya54eac180cb", "why": "suspect key: India's wild tigers are ~3,000-3,700, not 60,000"},
+  {"id": "y2719c8d6c76", "why": "mental ability"},
+  {"id": "y4513a375c95", "why": "wrong topic: aviation (Saras aircraft)"},
+  {"id": "yab47857d62b", "why": "wrong topic: hydroelectric projects"},
+  {"id": "y7c44bf394ad", "why": "wrong topic: environmental movements"},
+  {"id": "yb9961083aaa", "why": "wrong topic: state areas"},
+  {"id": "ycdc814e82a5", "why": "wrong topic: state epithets"},
+  {"id": "y5412c5ad5b1", "why": "wrong topic: irrigation projects"},
+  {"id": "yef4ecfafe19", "why": "wrong topic: fauna (primates)"}
+ ],
+ "patterns": [
+  "APPSC asks species-to-forest-type items (mahogany/ebony/rosewood = tropical evergreen; rosewood-teak-acacia-sundari match), most widespread type (tropical deciduous), Shola = Nilgiri/Anaimalai/Palani temperate forests.",
+  "AP tilt: Seshachalam = dry deciduous, Coringa = tidal mangroves, AP forest cover from ISFR (29,137.40 sq km in 2019), TOFI programme, AP mangrove rank.",
+  "ISFR figures are asked directly (forest cover 21.54% in 2017; 24.56% forest+tree in 2019; 36% fire-prone in ISFR 2015).",
+  "Trap: 'largest single type' - UPSC 2010 key says tropical moist deciduous, but an Uttarakhand 2024 key (FSI 2011 atlas) says tropical dry deciduous; APPSC sidesteps by asking 'tropical deciduous' together.",
+  "App MCQs add many tiger-reserve/sanctuary and CA items (Project Cheetah, GIB case, 56th-58th TRs) as statement/match questions; PYQs are mostly one-line identifications."
+ ],
+ "stats": {"app_mcqs": 80, "pyqs": 106, "fixed": 2, "dropped": 3}
+}

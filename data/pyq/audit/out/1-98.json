@@ -1,0 +1,32 @@
+{
+ "topic": "1:98",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n61aa5ba0bc6", "why": "worded around an answer key; standard fact (Manyapuram inscription) credits Anavota"},
+  {"id": "nap-history-36-11", "why": "dubious: Rachur Durgavibhala credited to Anavema elsewhere (n8a3a539bbca); contradicts"},
+  {"id": "nap-history-44-4", "why": "relies on garbled title 'Dharma Durgavibhala' for Prolaya Vema"},
+  {"id": "nap-history-44-13", "why": "off-topic: Kakatiya-era titles"},
+  {"id": "nap-history-44-15", "why": "off-topic: Kakatiya/Jain titles"},
+  {"id": "nap-history-44-17", "why": "off-topic: Eastern Chalukya title"},
+  {"id": "nap-history-36-17", "why": "off-topic: modern leader's title (Tanguturi Prakasam)"}
+ ],
+ "notes_fix": [
+  {"ref": "9#1", "find": "Vasanta Raju: The last Reddy king", "replace": "Racha Vema Reddi: the last Kondavidu Reddi king (Rajahmundry line ended 1448)", "why": "last Kondavidu ruler was Racha Vema (1420-24); 'Vasanta Raju' not a Reddi king"},
+  {"ref": "22#2", "find": "Listed as Errana Reddy — also known as Prolaya Vema Reddy in the notes", "replace": "Errana's patron was Prolaya Vema Reddy (Errana is not the same person)", "why": "Errana was the court poet, not the king"}
+ ],
+ "pyq_bad": [
+  {"id": "y4860afea49b", "why": "wrong topic: Hindustani classical music"},
+  {"id": "yb570bf170ea", "why": "wrong topic: current affairs awards"},
+  {"id": "y999d94b22ad", "why": "suspect key: Puriti Pannu was levied by Racha Vema, not Kataya Vema"},
+  {"id": "y4a86359920c", "why": "wrong topic: performing artists"},
+  {"id": "y871e64c878c", "why": "mental ability"}
+ ],
+ "patterns": [
+  "APPSC asks one-fact items on Reddi culture: Puriti Pannu (Racha Vema), Sangeeta Chintamani (Pedakomati), Haravilasam (sea trade), Surambika's tank, Ghatika Yantra, Srinatha's works.",
+  "Chronological ordering of rulers (Anavota -> Anavema -> Kumaragiri -> Pedakomati) is a recurring G2 shape.",
+  "Key slips exist (Puriti Pannu keyed to Kataya Vema; tank name differs across years) - read options carefully.",
+  "App goes much deeper into Rajahmundry-line politics (Allada, Veerabhanu Deva, Mallappa Odayar) and pan-dynasty title lists than any PYQ.",
+  "App leans on multi-statement and match items; APPSC uses direct single-answer MCQs here."
+ ],
+ "stats": {"app_mcqs": 103, "pyqs": 11, "fixed": 0, "dropped": 7}
+}

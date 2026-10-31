@@ -1,0 +1,34 @@
+{
+ "topic": "1:66",
+ "mcq_fix": [
+  {"id": "ndc2a9ee6d7d", "a": 0, "why": "Svapnavasavadattam (not Charudatta) is Bhasa's most famous play (ye1b643cb0ea); statement 3 false"},
+  {"id": "n94b35c144a4", "o": ["Shanku — architecture", "Varahamihira — astronomy and astrology", "Kshapanaka — Jyotishyashastra", "Amarasimha — Ayurveda"], "why": "Ghatakarpara is traditionally a poet, not sculptor; avoid a second wrong pair"}
+ ],
+ "mcq_drop": [
+  {"id": "n89d4295c63a", "why": "Bamiyan Buddhas (c. 6th-7th c., Afghanistan) are not Gupta-period; keyed as correct"},
+  {"id": "n9b3ecd20ab2", "why": "List-II repeats 'Drama' twice; flawed match design"}
+ ],
+ "notes_fix": [
+  {"ref": "14#0", "find": "Charudatta most famous [GK]", "replace": "Svapnavasavadattam most famous; also Charudatta", "why": "established fact; Svapnavasavadatta is Bhasa's best-known play (ye1b643cb0ea)"},
+  {"ref": "10#0", "find": "Ghatakarpara, Shanku Sculpture and architecture", "replace": "Shanku Architecture; Ghatakarpara Poet", "why": "Ghatakarpara is traditionally a poet (Ghatakarpara-kavya)"},
+  {"ref": "16#12", "find": "Bamiyan (Afghanistan) Buddhas Afghanistan Of the Gupta period", "replace": "Bamiyan (Afghanistan) Buddhas Afghanistan c. 6th-7th c.; not Gupta", "why": "established dating of Bamiyan Buddhas is post-Gupta"}
+ ],
+ "pyq_bad": [
+  {"id": "y7d8a50f95f8", "why": "wrong topic: folk dances"},
+  {"id": "yb3cf51f6136", "why": "wrong topic: folk dances"},
+  {"id": "yd30088c5768", "why": "wrong topic: Indus Valley sites"},
+  {"id": "yc7952103dde", "why": "wrong topic: medical science"},
+  {"id": "y7e2a514e904", "why": "wrong topic: Mughal mansabdari"},
+  {"id": "ye27b76c1c77", "why": "wrong topic: awards"},
+  {"id": "y8447410db1b", "why": "suspect key: Saumilla; Gupta-period medicine = Sushruta (y427991ad851)"},
+  {"id": "y54813fd2f23", "why": "garbled: stem missing"}
+ ],
+ "patterns": [
+  "APPSC asks direct attributions: Panchatantra = Vishnu Sharma, Aryabhata first to treat maths as a distinct subject, Romaka Siddhanta = astronomy, Ajanta = Buddhist, Cave 10 Chhaddanta Jataka.",
+  "Author-work pairs dominate PSC PYQs (Kalidasa's works, 'not by Kalidasa' with Shringara Shataka/Mudrarakshasa traps, Bhasa, Dandin, Bharavi, Vishakhadatta).",
+  "Scientist -> contribution: Aryabhata earth rotation/place value, Brahmagupta gravitation/zero, Varahamihira encyclopaedic Brihat Samhita, Lilavati = Bhaskara II (not Gupta).",
+  "Art items: Ajanta (Waghora, Vakatakas, Padmapani), Bagh Hallisaka, Bhitargaon brick temple, Gupta silver coin = Rupaka.",
+  "App has many multi-statement items with fine details (temple stages, cave numbers, coin types) - deeper than APPSC's single-fact style but mostly sound."
+ ],
+ "stats": {"app_mcqs": 75, "pyqs": 49, "fixed": 2, "dropped": 2}
+}

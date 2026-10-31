@@ -1,0 +1,45 @@
+{
+ "topic": "1:47",
+ "mcq_fix": [
+  {"id": "n011bf121e54", "s": "Which of the following statements about Gunadhya's Brihatkatha is correct? 1. It is traditionally said to have contained seven lakh verses. 2. It was organised into seven stories. 3. The original work has been lost. 4. It contains a reference to slavery. Select the correct answer using the code given below.", "why": "Brihatkatha traditionally 7 lakh verses, not 7,000"}
+ ],
+ "mcq_drop": [
+  {"id": "n21b69c7a349", "why": "contradicts APPSC key y0c932f10927 (iron coins with copper coating = Ikshvakus); correct option absent"},
+  {"id": "nindian-history-12-5", "why": "dubious: potin is a copper-tin-lead alloy, not copper-silver-lead"},
+  {"id": "n6cefb627761", "why": "oddly worded ('as per key') and dubious attribution of Yogasara"},
+  {"id": "nap-history-11-3", "why": "A-R explanation link ambiguous"},
+  {"id": "nap-history-30-10", "why": "oddly worded A-R pairing unrelated facts; near-duplicate of nap-history-30-5"}
+ ],
+ "notes_fix": [
+  {"ref": "6#0", "find": "7,000 verses, 7 stories", "replace": "traditionally 7 lakh verses, 7 stories", "why": "Brihatkatha tradition: seven lakh verses"},
+  {"ref": "27#10", "find": "7,000 verses in 7 stories", "replace": "traditionally 7 lakh verses in 7 stories", "why": "Brihatkatha tradition: seven lakh verses"},
+  {"ref": "27#20", "find": "7,000 verses in 7 stories = Brihatkatha", "replace": "7 lakh verses in 7 stories = Brihatkatha", "why": "Brihatkatha tradition: seven lakh verses"},
+  {"ref": "21#4", "find": "An alloy of copper, silver and lead", "replace": "An alloy of copper with tin and lead", "why": "potin = copper-tin-lead alloy"},
+  {"ref": "21#10", "find": "Iron coins with copper coating → Shalankayanas", "replace": "Iron coins with copper coating → Ikshvakus (APPSC G2 key)", "why": "y0c932f10927 key = Ikshvakus"},
+  {"ref": "23#7", "find": "iron coins with copper coating = Shalankayanas, not Satavahanas", "replace": "iron coins with copper coating = Ikshvakus (APPSC key), not Satavahanas", "why": "y0c932f10927 key = Ikshvakus"}
+ ],
+ "pyq_bad": [
+  {"id": "ydc6d85cb68e", "why": "wrong topic: ancient Indian mathematics (Bhaskara II)"},
+  {"id": "y45906ea205a", "why": "wrong topic: early medieval coinage (Gadhaiya)"},
+  {"id": "y72734d32b47", "why": "garbled: stem/option text broken"},
+  {"id": "y4ed828f7854", "why": "wrong topic: physics (mirrors)"},
+  {"id": "y03408804762", "why": "wrong topic: Gupta coinage"},
+  {"id": "yb84ce51bc45", "why": "wrong topic: Vijayanagara revenue"},
+  {"id": "yc5fb9f22000", "why": "garbled: option codes lost"},
+  {"id": "y99574dee6de", "why": "garbled: option codes lost"},
+  {"id": "yc8dba27b348", "why": "garbled: text from other questions merged"},
+  {"id": "yfd640d44948", "why": "wrong topic: medieval Deccan guilds"},
+  {"id": "y66f0056e1b7", "why": "garbled: text from other questions merged"},
+  {"id": "yf1a85ac284f", "why": "garbled: options mixed with another question"},
+  {"id": "y0ad96ae6c18", "why": "wrong options: belong to a computer question"},
+  {"id": "yc1a87949528", "why": "garbled: options mixed with another question"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: Katantra = Sarvavarma, guild interest 12%, Kolika = weavers, ship coins = Yajna Sri, metals used (no nickel/gold), official language Prakrit.",
+  "APPSC Group-1 term items: 'Katakas and Skandhavaras' = military camps serving as administrative centres; Gulmika; Nigama Sabha.",
+  "APPSC Group-2 2025 uses statement/A-R pairs: Roman trade declined post-Satavahana (A false, R true); Gathasaptasati love themes true, Brihatkatha in Sanskrit false.",
+  "Traps: Brihatkatha language Paishachi not Sanskrit; Gathasaptasati not a political-history source; iron-copper coated coins belong to a later Andhra dynasty.",
+  "App bank is far larger and deeper (port identifications, Gathasaptasati social details, officer lists, long match items) than the short APPSC items."
+ ],
+ "stats": {"app_mcqs": 104, "pyqs": 25, "fixed": 1, "dropped": 5}
+}

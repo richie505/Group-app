@@ -1,0 +1,27 @@
+{
+ "topic": "2:62",
+ "mcq_fix": [
+  {"id": "n98a78ed5080", "o": ["Article 280 and Section 21 of the Delimitation Act, 2002", "Article 324 and Section 21 of the Representation of the People Act, 1950", "Article 243K and Section 11 of the Representation of the People Act, 1951", "Article 326 and Section 62 of the Representation of the People Act, 1951"], "why": "option 4 garbled (missing section number)"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ye2885b10090", "why": "wrong topic: Parliament jubilee"},
+  {"id": "y84d07aaab14", "why": "garbled: stem truncated"},
+  {"id": "y5f5d9f99536", "why": "garbled duplicate of y4494529868c; suspect key: ECI began single-member, so only IV is valid (opt 2)"},
+  {"id": "y93c0913191b", "why": "garbled: options truncated"},
+  {"id": "y5eeac1ea1db", "why": "suspect key: 'partyless democracy' was proposed by Jayaprakash Narayan; wrong topic: political ideas"},
+  {"id": "y645faa7d460", "why": "wrong topic: Planning Commission"},
+  {"id": "ya53752c2e00", "why": "mental ability (probability)"},
+  {"id": "y8cb7237db8d", "why": "wrong topic: DBT administration"},
+  {"id": "y6310082be8b", "why": "wrong topic: DBT administration"},
+  {"id": "ycc170f49e85", "why": "wrong topic: Chhattisgarh panchayat election rules"}
+ ],
+ "patterns": [
+  "APPSC asks the ECI through direct facts (Golden Jubilee 2001, three-member body, SEC conducts local-body polls) and long multi-statement items built on Laxmikanth flaws (no post-retirement bar, began single-member, VP elections under ECI).",
+  "Other PSCs repeat: National Voters' Day 25 Jan, first CEC Sukumar Sen, first woman CEC V.S. Ramadevi, 1989 three-member, CEC removed like SC judge, ECs removed on CEC's recommendation, Part XV.",
+  "ECI vs SEC is the main trap: Panchayat/municipal polls -> SEC (243K/243ZA, appointed by Governor, removed like HC judge); decision to hold Panchayat polls rests with State Government in older keys.",
+  "App MCQs add 2023 Act mechanics (Search/Selection Committee), Anoop Baranwal and 2026 litigation that PYQs have not yet tested beyond basics; otherwise well aligned."
+ ],
+ "stats": {"app_mcqs": 43, "pyqs": 39, "fixed": 1, "dropped": 0}
+}

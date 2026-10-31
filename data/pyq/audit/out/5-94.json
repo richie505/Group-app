@@ -1,0 +1,40 @@
+{
+ "topic": "5:94",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n6494d426627", "why": "obscure trivia (ODI GDP/poverty projections), far beyond PYQ depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yecb4831ec2a", "why": "wrong topic: aviation general knowledge"},
+  {"id": "ybf14a58f945", "why": "wrong topic: photosynthesis"},
+  {"id": "yef1e2a7ebd5", "why": "wrong topic: physics (electric bulb)"},
+  {"id": "yecca72580dc", "why": "wrong topic: Indian Antarctic research"},
+  {"id": "y04b855e7c0d", "why": "wrong topic: instruments"},
+  {"id": "yc4ea78327df", "why": "wrong topic: physics (heat transfer)"},
+  {"id": "y36e5a2df089", "why": "garbled (match columns missing, URL text); wrong topic: zoology"},
+  {"id": "yd5153e395d4", "why": "wrong topic: plant genetics"},
+  {"id": "yc0ce58a1ecd", "why": "wrong topic: Indian Antarctic research"},
+  {"id": "y5c99365c3ed", "why": "wrong topic: physics (air conditioning)"},
+  {"id": "y07c7a777c10", "why": "wrong topic: physics (evaporative cooling)"},
+  {"id": "y481892c2a9f", "why": "wrong topic: atmospheric humidity basics"},
+  {"id": "y597d0675ce4", "why": "wrong topic: instruments"},
+  {"id": "yfd9a283c5b9", "why": "wrong topic: physics / physiology of sweating"},
+  {"id": "y836af6581a8", "why": "wrong topic: physics (density of water)"},
+  {"id": "y6a712827305", "why": "wrong topic: physics (endothermic processes)"},
+  {"id": "y815611aa570", "why": "garbled (stem and options do not fit)"},
+  {"id": "y427029d6e7a", "why": "wrong topic: physics (primary colours)"},
+  {"id": "y7900fc2f1c0", "why": "wrong topic: biochemistry (sugars)"},
+  {"id": "yc1065af00da", "why": "wrong topic: human physiology"},
+  {"id": "yb02beb4b503", "why": "garbled (stem missing)"},
+  {"id": "yffd4ecb8203", "why": "garbled (stem missing)"},
+  {"id": "y49e7c11f8bc", "why": "wrong topic: physics (latent heat)"}
+ ],
+ "patterns": [
+  "APPSC lifts IMD numbers directly: 2020 mean temperature 25.78 C, 2019 seventh warmest (Bihar), heat-wave thresholds (hills 30 C, plains 40 C) and colour codes (red = take action).",
+  "APPSC asks one-line cause/effect: Gangotri melt = global warming, Arctic ice loss = tipping point, ice-sheet mass loss already observed, Rutgers ocean-vs-land species loss.",
+  "Notes/app miss the IMD departure thresholds (plains >=40 C, hills >=30 C, coast >=37 C) that APPSC actually tested; app only has the >=45 C absolute rule.",
+  "App leans on 2025-26 report trivia (WMO, CRI, Lancet, IPBES, ODI) in multi-statement form; APPSC questions are direct single-fact items."
+ ],
+ "stats": {"app_mcqs": 61, "pyqs": 36, "fixed": 0, "dropped": 1}
+}

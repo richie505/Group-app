@@ -1,0 +1,48 @@
+{
+ "topic": "4:64",
+ "mcq_fix": [
+  {"id": "n4f8ec41f2eb", "s": "Which of the following tribe–habitat pairs are correctly matched? 1. Santhals — Santhal Parganas 2. Gonds — Gondwana and Bastar 3. Bhils — Aravalli-Vindhya-Satpura hills 4. Todas — Nilgiri Hills Select the correct answer using the code given below.", "why": "stem asked for a 'sequence' of 'three tribes' while listing four pairs"},
+  {"id": "n76f0797fd0d", "s": "According to official figures, approximately how many notified Scheduled Tribe groups are there in India?", "why": "stem referred to unseen 'latest figure cited'"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "14#1", "find": "Maria Chhindwara, Patalkot, Madhya Pradesh", "replace": "Maria Bastar, Chhattisgarh (Gond sub-group)", "why": "Patalkot (Chhindwara) is the Bharia habitat; Maria are Bastar Gonds"}
+ ],
+ "pyq_bad": [
+  {"id": "yd55e7a79c54", "why": "suspect key: Bhil, not Gond, is the largest tribe (y2ed8a549792)"},
+  {"id": "yf6105eef7fb", "why": "suspect key: Garo are of Meghalaya, not Manipur"},
+  {"id": "y7d2f8b524b7", "why": "wrong options: Jarawa are in A&N, none of the options fit"},
+  {"id": "y5da8de641b9", "why": "suspect key: Sarhul is a Munda/Oraon festival, not Santhal"},
+  {"id": "yc10d28bbab1", "why": "suspect key: Bharia, not Baigas, first got habitat rights"},
+  {"id": "y75ced9fa8c5", "why": "garbled; matched items missing"},
+  {"id": "y455095356ca", "why": "garbled; matched states missing"},
+  {"id": "y8b8dd735854", "why": "garbled; matched items missing"},
+  {"id": "ya36b51efaa6", "why": "garbled; sub-castes missing"},
+  {"id": "ya4e3b58825b", "why": "garbled; matched regions missing"},
+  {"id": "y99088a0b84d", "why": "garbled; matched regions missing"},
+  {"id": "y1a9a7200652", "why": "wrong topic: coalfields"},
+  {"id": "ya7d378f4696", "why": "wrong topic: coal reserves"},
+  {"id": "yb90085ba20a", "why": "wrong topic: coal production"},
+  {"id": "y0104ac9d0f9", "why": "wrong topic: coal reserves"},
+  {"id": "y50a94991bb6", "why": "wrong topic: coal production"},
+  {"id": "y57e75daf12e", "why": "wrong topic: coal production"},
+  {"id": "y41c5366095a", "why": "wrong topic: coal production"},
+  {"id": "y5514db7a8c0", "why": "wrong topic: international borders"},
+  {"id": "yda57b9abe7c", "why": "wrong topic: international borders"},
+  {"id": "y2987018827e", "why": "wrong topic: forest cover"},
+  {"id": "y458bcdd06bb", "why": "wrong topic: forest cover"},
+  {"id": "yb91d40531f7", "why": "wrong topic: religion census data"},
+  {"id": "y6be3b9125ae", "why": "wrong topic: railways"},
+  {"id": "ye1dc6a0f76f", "why": "wrong topic: state areas; options truncated"},
+  {"id": "y06908790112", "why": "wrong topic: state capitals"},
+  {"id": "y300379b5d33", "why": "wrong topic: awards current affairs"}
+ ],
+ "patterns": [
+  "Tribe-to-state matching dominates: Toda-Nilgiris, Gaddi-HP, Jarawa/Onge-A&N, Santhal-Jharkhand, Bhutia-Sikkim, Tharu-UP/Uttarakhand (APPSC-G2 2023 four-pair match)",
+  "Superlatives: Bhil largest tribe, MP most STs, Lakshadweep/Mizoram highest share, Tripura lowest NE share (APPSC 2019)",
+  "Cultural markers asked as one-liners: Tharus mourn Diwali, Khasi matrilineal/jhum, Toda polyandry, Sarhul festival, Shompen first vote",
+  "APPSC-G2 2025 asked committee chair (Xaxa 2013); odd-one-out by region (Kadar) appears in other PSCs",
+  "App adds many multi-statement and 2024-26 scheme items; PYQs stay at direct tribe-place-fact depth"
+ ],
+ "stats": {"app_mcqs": 84, "pyqs": 62, "fixed": 2, "dropped": 0}
+}

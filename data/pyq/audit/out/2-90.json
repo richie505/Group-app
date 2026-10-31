@@ -1,0 +1,24 @@
+{
+ "topic": "2:90",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ndf6c0386071", "why": "opinion item ('most appropriate description of achievements')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yc63b4ce493d", "why": "garbled options (leading digits lost)"},
+  {"id": "y58f5b4c2229", "why": "mental ability"},
+  {"id": "yb6555a78bdd", "why": "garbled, options truncated"},
+  {"id": "y2534ecfdf08", "why": "wrong topic: Bharatiya Nyaya Sanhita / criminal law"},
+  {"id": "y02e8374fef5", "why": "wrong topic: misc criminal statutes"},
+  {"id": "yc4226e2cc06", "why": "wrong topic: misc criminal statutes"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: Tamil Nadu first state RTI law (1997), FOI Act 2002 repealed by RTI 2005, Section 4 = proactive disclosure.",
+  "Time-limit pair questions recur: 30 days normal, 48 hours life/liberty, 30 days first appeal; '45 days reply' is the planted wrong pair.",
+  "Chronology (Sweden 1766 -> UDHR 1948 -> FOI 2002 -> RTI 2005) and Section 8 'which is NOT exempt' items appear; Assertion-Reason on misuse/impact is a repeated shape.",
+  "Other PSCs ask assent date (15 June 2005), CIC set up 2005, MKSS link, who imposes Section 20 penalty, who cannot be an SIC (legislator).",
+  "App MCQs cover 2026 litigation (DPDP 8(1)(j), BCCI, Economic Survey) and pendency figures in depth beyond the PYQs; core section and time-limit items match APPSC style."
+ ],
+ "stats": {"app_mcqs": 58, "pyqs": 24, "fixed": 0, "dropped": 1}
+}

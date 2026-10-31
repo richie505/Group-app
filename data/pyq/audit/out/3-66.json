@@ -1,0 +1,28 @@
+{
+ "topic": "3:66",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n057a6029507", "why": "dubious: Doing Business was a World Bank Group product; 'conceptualised by IFC' is contestable and the World Bank itself is the expected exam answer"},
+  {"id": "nde5c720e3f2", "why": "opinion item ('expected to be balanced with'), not a fact"}
+ ],
+ "notes_fix": [
+  {"ref": "16#4", "find": "Not in your sources: the first state in which an NIMZ was proposed.", "replace": "India's first NIMZ was proposed in Andhra Pradesh (Nellore-Prakasam).", "why": "PYQ ya7769bda690 / yd4c1ca8c75d key: Andhra Pradesh"}
+ ],
+ "pyq_bad": [
+  {"id": "y818faad4d1f", "why": "wrong topic: Digital India / digital villages (also stray '16.' in stem)"},
+  {"id": "y868ec855305", "why": "wrong topic: IFC / global food security"},
+  {"id": "y20af905d5b2", "why": "wrong topic: World Bank Group institutions"},
+  {"id": "y34f6667e3b7", "why": "wrong topic: World Bank Group institutions (IDA)"},
+  {"id": "y36e5689c4ee", "why": "wrong topic: World Bank Group institutions (MIGA)"},
+  {"id": "y1d1b77a90c5", "why": "wrong topic: e-governance portals (DACNET)"},
+  {"id": "ybd98629b5d7", "why": "wrong topic: e-governance / NeGP"}
+ ],
+ "patterns": [
+  "APPSC asks direct single-fact items: NMP target year (25% by 2022), Make in India launch date, logo (lion), BRAP expansion and AP's rank.",
+  "EoDB reform questions use an 'odd-one-out' trap: GST is a reform; removal of all foreign ownership limits, nationalisation, PSU expansion are not.",
+  "Strong AP tilt: AP No.1 in BRAP, first NIMZ in AP, ACI EoDB ranking with AP on top.",
+  "Other PSCs repeat: NMP year (Nov 2011), NMP objectives (12-14% growth, 100 million jobs by 2022 not 2025), DPIIT releases state EoDB ranking, India 2nd in mobile manufacturing.",
+  "App MCQs lean heavily on 2025-26 scheme figures (MPMS, ECMS, DESH, NITI index) and multi-statement formats, deeper than APPSC's simple recall pattern."
+ ],
+ "stats": {"app_mcqs": 51, "pyqs": 21, "fixed": 0, "dropped": 2}
+}

@@ -1,0 +1,23 @@
+{
+ "topic": "2:84",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "11#1", "find": "Who convenes and presides over Gram Panchayat meetings Sarpanch[GK]", "replace": "Who presides over Gram Panchayat meetings Sarpanch[GK]", "why": "APPSC key yf3bcfa3518f: meetings are convened by the Panchayat Secretary"}
+ ],
+ "pyq_bad": [
+  {"id": "yefb04b37776", "why": "wrong topic: Chhattisgarh panchayat law"},
+  {"id": "yffed6abf6b2", "why": "wrong topic: Chhattisgarh panchayat law"},
+  {"id": "y208f5600b43", "why": "wrong topic: Chhattisgarh panchayat law"},
+  {"id": "ye19e3c9d108", "why": "wrong topic: Madhya Pradesh SEC"},
+  {"id": "y3308ad58c85", "why": "wrong topic: Rajasthan SEC"}
+ ],
+ "patterns": [
+  "APPSC asks AP-specific functionary facts: Gram Panchayat meetings convened by and Marriage Officer = Panchayat Secretary (not Sarpanch); resolutions implemented by Secretary.",
+  "Date recall: AP second to adopt PR on 1 Nov 1959; AP SEC constituted 30 Jan 2016; AP Municipalities Act in force 2 Apr 1965.",
+  "Constitutional hooks: Gram Sabha membership (Art. 243/243A = registered voters), Art. 243G powers, SEC appointment by Governor with HC-judge status.",
+  "Recent statement items: 2024 Municipal Laws Amendment removing the two-child norm.",
+  "App MCQs match these well but add many 2026 current-affairs items (34% BC quota, direct Mayor polls, ZPP terms) that PYQs have not yet tested."
+ ],
+ "stats": {"app_mcqs": 43, "pyqs": 13, "fixed": 0, "dropped": 0}
+}

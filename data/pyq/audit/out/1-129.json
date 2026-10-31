@@ -1,0 +1,36 @@
+{
+ "topic": "1:129",
+ "mcq_fix": [
+  {"id": "nindian-history-84-9", "a": 3, "why": "Akbar discouraged/regulated child marriage and sati, did not abolish them; Shah Jahan did abolish sijda"},
+  {"id": "n843f93b51e8", "a": 3, "why": "y1afd9cc98a2 key: statement that title was NOT given at wazir appointment is wrong, so statement 3 is correct"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-history-17-28", "why": "oddly worded Talikota match (b/c rows describe each other); off-topic for Akbar"},
+  {"id": "ndad25cda6aa", "why": "opinion item ('most directly helped')"}
+ ],
+ "notes_fix": [
+  {"ref": "8#4", "find": "not tied to his appointment as wazir (UPPSC 2024: statement 1 only)", "replace": "conferred when he was appointed wazir/vakil (UPPSC 2024 key: only statement 1 correct, i.e. 'not conferred at appointment' is wrong)", "why": "y1afd9cc98a2"},
+  {"ref": "14#6", "find": "his reign abolished child marriage and Sati", "replace": "discouraged child marriage and forced Sati (not abolished)", "why": "established fact"}
+ ],
+ "pyq_bad": [
+  {"id": "yf1c41c44683", "why": "wrong topic: Bundela architecture (Datia)"},
+  {"id": "yaac8e9d2bff", "why": "wrong topic: Shivaji / Marathas"},
+  {"id": "y7fc3bb9bc16", "why": "wrong topic: Vijayanagara (Talikota)"},
+  {"id": "ye04dfb5d35f", "why": "wrong topic: Aurangzeb's reign"},
+  {"id": "y198c9c4949f", "why": "wrong topic: Sawai Jai Singh / later Rajputs"},
+  {"id": "ycb8e0edad9d", "why": "wrong topic: Bhakti saints (Tukaram)"},
+  {"id": "ye4dc14d8a55", "why": "wrong topic: Bhakti saints (Tukaram)"},
+  {"id": "ye344bb64a9f", "why": "wrong topic: Jahangir"},
+  {"id": "y3dbd8b53cda", "why": "wrong topic: Ashoka's dhamma"},
+  {"id": "yd8789eff21b", "why": "wrong topic: rise of Marathas"},
+  {"id": "y6a5574a8502", "why": "suspect key: Monserrate was in the 1580 first mission, not the 1595 third mission; answer should be (i) and (ii)"}
+ ],
+ "patterns": [
+  "APPSC asks direct recall: Akbar's age at Kalanaur coronation (key 14); other PSCs ask who built Ibadat Khana, who promulgated Din-i-Ilahi, who abolished pilgrimage tax.",
+  "Recurring facts: Din-i-Ilahi 1582, jizya abolished 1564 / reimposed by Aurangzeb 1679, first Rajput alliance with Kachhwahas of Amber, Mewar never submitted, Haldighati 1576.",
+  "Chronology items are common (Jizya -> Ibadat Khana -> Mahzar -> Din-i-Ilahi; deaths Mubarak -> Faizi -> Abul Fazl -> Daniyal).",
+  "Traps: Jagat Guru = Hiravijaya Suri, Ain-i-Dahsala = Todar Mal, Aurangzeb had the most Hindu nobles, Rama-Siya coins = Akbar.",
+  "App MCQs drift into Sikh gurus, Shivaji, Iltutmish and Ashoka coronations, and heavy multi-statement items beyond APPSC's one-line style."
+ ],
+ "stats": {"app_mcqs": 76, "pyqs": 55, "fixed": 2, "dropped": 2}
+}

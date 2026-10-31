@@ -1,0 +1,403 @@
+{
+ "topic": "5:114",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {
+   "id": "nbiology-15-29",
+   "why": "oddly worded (humans-to-animals Ebola clause); weak item"
+  },
+  {
+   "id": "nbiology-21-11",
+   "why": "obscure plant-disease trivia (ear cockle regions); off topic"
+  },
+  {
+   "id": "nbiology-21-12",
+   "why": "meta statement ('often tested through...'); oddly worded"
+  },
+  {
+   "id": "nbiology-15-26",
+   "why": "trivial 'how many' list (yellow fever causes fever); no exam words it so"
+  },
+  {
+   "id": "nbiology-16-5",
+   "why": "oddly worded ('listed against'); near-dup of vector items"
+  },
+  {
+   "id": "nbiology-43-4",
+   "why": "off topic (GMO/transgenic) and odd match"
+  },
+  {
+   "id": "nbiology-15-42",
+   "why": "oddly worded; self-contradictory option"
+  },
+  {
+   "id": "nbiology-15-14",
+   "why": "oddly worded ('listed as'); near-dup of nbiology-15-70"
+  },
+  {
+   "id": "nbiology-15-52",
+   "why": "odd match (host, 'immediate context') for rheumatic fever"
+  }
+ ],
+ "notes_fix": [
+  {
+   "ref": "3#6",
+   "find": "Pigs (⚠ other notes: fruit bats)",
+   "replace": "Fruit bats (Pteropus) = natural reservoir; pigs = intermediate host",
+   "why": "established: Nipah reservoir is fruit bats"
+  },
+  {
+   "ref": "11#5",
+   "find": "⚠ Sources differ: other notes say Nipah's animal source is fruit bats [GK]",
+   "replace": "Nipah: natural reservoir = fruit bats (Pteropus); pigs = intermediate/amplifying host",
+   "why": "established fact; not a source conflict"
+  },
+  {
+   "ref": "6#2",
+   "find": "1985 — UIP: 12 diseases",
+   "replace": "1985 — UIP (6 diseases at launch; now 12)",
+   "why": "UIP began in 1985 with 6 diseases"
+  },
+  {
+   "ref": "22#5",
+   "find": "UIP 1985 12 diseases",
+   "replace": "UIP 1985 6 diseases at launch, now 12",
+   "why": "UIP began in 1985 with 6 diseases"
+  }
+ ],
+ "pyq_bad": [
+  {
+   "id": "y9ab75931b30",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y58f712a5af9",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yc52cc3c34e5",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "ye6789f9d34a",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y899fa5f3dca",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y8f065fb8a66",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yc15a1f370b5",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y7b6b39e5bd7",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y8bf4053d2be",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yebe7ba5dee1",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "ye8faca6ff97",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "ya88e396e031",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "ya6ee35fce6b",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y52faa3f0486",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y2faab21e805",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y6382aa95d91",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y2ff70725c9b",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y54fea894c0f",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y225946b89cc",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yeb57cdcc189",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y1b04bb12127",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y8f986ebd931",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y8b129941a99",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y9298a65ce0e",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y09b31ef48e0",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y640cb63b0eb",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y1235cb28fe1",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y11c1a054b84",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y07ab6883984",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y7c761a4653b",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "ycee66a72ec8",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "ya212b1f8a3f",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yeb6bba76ccc",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yf539bc6d614",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y8f08c850586",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y6315073b2e7",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yfcaa94b9de3",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y83420fca5b8",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yab81de55a0f",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yb937f5a3822",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y997d3591790",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yc6b31c902b3",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y1af567afd4f",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y7d3f6b37211",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y7a0623d6b47",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yf141dae300c",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y3e285f465e6",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yb45468f57e0",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "y61cba29e7d7",
+   "why": "wrong topic: human physiology / general biology"
+  },
+  {
+   "id": "yb39c1c0585f",
+   "why": "wrong topic: plant diseases (agriculture)"
+  },
+  {
+   "id": "yccfe0757f3c",
+   "why": "wrong topic: plant diseases (agriculture)"
+  },
+  {
+   "id": "y1fa5653c176",
+   "why": "wrong topic: plant diseases (agriculture)"
+  },
+  {
+   "id": "y7fa0d17283c",
+   "why": "wrong topic: plant diseases (agriculture)"
+  },
+  {
+   "id": "y46a71303543",
+   "why": "wrong topic: plant diseases (agriculture)"
+  },
+  {
+   "id": "ybb55c30f3de",
+   "why": "wrong topic: plant diseases (agriculture)"
+  },
+  {
+   "id": "y0a8f557594f",
+   "why": "wrong topic: plant diseases (agriculture)"
+  },
+  {
+   "id": "y164ad8c6d1e",
+   "why": "wrong topic: plant diseases (agriculture)"
+  },
+  {
+   "id": "yb5a639c7b39",
+   "why": "garbled: match pairs missing from options"
+  },
+  {
+   "id": "yf9e772de204",
+   "why": "garbled: match pairs missing from options"
+  },
+  {
+   "id": "ya514ee6c853",
+   "why": "garbled: match pairs missing from options"
+  },
+  {
+   "id": "y85e00d24034",
+   "why": "garbled: match pairs missing; wrong topic: crop diseases"
+  },
+  {
+   "id": "yee418caa7a0",
+   "why": "garbled; wrong topic: inventors"
+  },
+  {
+   "id": "y278e9cdcbfd",
+   "why": "garbled: options truncated"
+  },
+  {
+   "id": "y72508e5f232",
+   "why": "garbled stem/options; wrong topic: liver regeneration"
+  },
+  {
+   "id": "y58679687ff4",
+   "why": "garbled options"
+  },
+  {
+   "id": "y12b1f074b9d",
+   "why": "mental ability (letter counting)"
+  },
+  {
+   "id": "y59b2e0a381b",
+   "why": "mental ability (syllogism)"
+  },
+  {
+   "id": "y0a4813b0812",
+   "why": "wrong topic: economics (induced investment)"
+  },
+  {
+   "id": "yc69ce176d03",
+   "why": "wrong topic: zoology (snake venom)"
+  },
+  {
+   "id": "yd7856dd520a",
+   "why": "wrong topic: microbiology (Gram stain)"
+  },
+  {
+   "id": "yf308720021f",
+   "why": "wrong topic: nutrition deficiency diseases"
+  },
+  {
+   "id": "y8cbb4c9cab6",
+   "why": "wrong topic: livestock schemes"
+  },
+  {
+   "id": "y4397018d345",
+   "why": "wrong topic: animal husbandry"
+  },
+  {
+   "id": "y6322193a6b0",
+   "why": "wrong topic: animal husbandry"
+  },
+  {
+   "id": "yfc940181613",
+   "why": "suspect key: penicillin (1) is the antibiotic; sulfadiazine is a sulpha drug"
+  },
+  {
+   "id": "yfdb47405514",
+   "why": "suspect key: chloramphenicol (3) is the antibiotic, not aspirin"
+  },
+  {
+   "id": "ydfb829da71e",
+   "why": "suspect key: rifampicin (4) treats both TB and leprosy"
+  },
+  {
+   "id": "y13c56c497a5",
+   "why": "suspect key: all four (incl. AIDS) are infectious"
+  },
+  {
+   "id": "yf3d5548dfaf",
+   "why": "suspect key: yawning is the 'contagious' one; also wrong topic"
+  },
+  {
+   "id": "y07e6630d765",
+   "why": "suspect key / odd options: none is a typical fungal disease"
+  }
+ ],
+ "patterns": [
+  "APPSC asks single-fact items: dengue lowers platelets, filariasis (lower-limb swelling), Fasciola invades liver, Gambusia for malaria control, ringworm = fungi, brucellosis = bacteria, air pollution hits respiratory system.",
+  "Odd-one-out 'vector is not a mosquito' (leishmaniasis/kala-azar, sleeping sickness, plague) and 'not water-borne' (kwashiorkor, TB, hepatitis B, fluorosis) recur across PSCs.",
+  "Pathogen-type classification (virus/bacteria/protozoa/fungus) and bird flu H5N1 vs swine flu H1N1 are frequent; other PSCs add Fleming-penicillin, Waksman, Widal/Mantoux tests.",
+  "Recent APPSC Forest papers add livestock diseases (FMD, bovine TB, Chagas vector) and State of Global Air figures.",
+  "App MCQs are heavy on long 4-6 statement 'about X disease' sets and match lists built from note tables; APPSC is far more direct. AMR/One Health/AP data items have little PYQ backing but are sound current-affairs angles."
+ ],
+ "stats": {
+  "app_mcqs": 132,
+  "pyqs": 215,
+  "fixed": 0,
+  "dropped": 9
+ }
+}

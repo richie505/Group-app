@@ -1,0 +1,127 @@
+{
+ "topic": "1:255",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {
+   "id": "n9d586bcaa11",
+   "why": "contested fact: APPSC G2 2011 key gives Konda Venkatappayya as first APCC president; ambiguous"
+  },
+  {
+   "id": "n5a04e34ada9",
+   "why": "hinges on same contested 'first APCC president' fact"
+  },
+  {
+   "id": "nap-history-1-25",
+   "why": "ambiguous: first INC annual session in Andhra was Kakinada 1923; Vijayawada 1921 was only an AICC meeting"
+  },
+  {
+   "id": "nap-history-1-32",
+   "why": "odd A/R ('first Telugu session' because it demanded a university); unexam-like"
+  }
+ ],
+ "notes_fix": [
+  {
+   "ref": "15#2",
+   "find": "Konda Venkatappayya — with B.N. Sharma (Bayya Narasimheswara Rao) as secretary; another list names B.N. Sharma as president",
+   "replace": "B.N. Sarma (Bayya Narasimheswara Sarma) — secretary Konda Venkatappayya",
+   "why": "APPSC G2 2017 key + 12#3/12#5: Sarma presided, Konda was secretary"
+  },
+  {
+   "ref": "17#2",
+   "find": "other notes say the Andhra Mahasabha president 1941-46 was M. Suryanarayana (PYQ)",
+   "replace": "APPSC PYQ key gives Sir Vijaya (Sir Gajapathi Vijayananda) for 1941-46; M. Suryanarayana was a distractor",
+   "why": "ya018397671a"
+  },
+  {
+   "ref": "29#1",
+   "find": "Inaugurated on 26 April 1926 at Guntur; first headquarters",
+   "replace": "Established on 26 April 1926; first headquarters",
+   "why": "APPSC 2023 keyed 'inaugurated at Guntur' incorrect (29#8)"
+  },
+  {
+   "ref": "24#1",
+   "find": "First All-India Congress session held in Andhra: Vijayawada",
+   "replace": "First annual INC session held in Andhra: Kakinada, 1923 (Vijayawada hosted an AICC meeting, 1921)",
+   "why": "established fact; 24#4 itself lists Kakinada 1923"
+  }
+ ],
+ "pyq_bad": [
+  {
+   "id": "y132b586e96b",
+   "why": "garbled options / suspect key: correct match a-III b-II c-IV d-I is not among options"
+  },
+  {
+   "id": "yec439e56f4e",
+   "why": "suspect key: official language of Madras Presidency was English, not Tamil"
+  },
+  {
+   "id": "y9111e5a1149",
+   "why": "garbled options"
+  },
+  {
+   "id": "yf1b05f3dc54",
+   "why": "garbled: options mixed with other questions"
+  },
+  {
+   "id": "y7eb96737abb",
+   "why": "garbled; wrong topic: engineering education"
+  },
+  {
+   "id": "y95497c674df",
+   "why": "garbled; wrong topic: ancient history - Nalanda"
+  },
+  {
+   "id": "y25bd17cdf35",
+   "why": "wrong topic: art - cartoonists"
+  },
+  {
+   "id": "y984f3ffd49a",
+   "why": "wrong topic: Congress agrarian policy"
+  },
+  {
+   "id": "y7a2827fb88c",
+   "why": "wrong topic: Bihar personalities trivia"
+  },
+  {
+   "id": "yd01fc405106",
+   "why": "wrong topic: Vandemataram-era Telugu literature"
+  },
+  {
+   "id": "yc66adc7d519",
+   "why": "wrong topic: AP welfare schemes (Navaratnalu)"
+  },
+  {
+   "id": "yf8a2bd97b5b",
+   "why": "wrong topic: AP welfare schemes (Navaratnalu)"
+  },
+  {
+   "id": "y6674d9d2c64",
+   "why": "wrong topic: AP legislature / polity"
+  },
+  {
+   "id": "y24f482b4710",
+   "why": "wrong topic: technical education policy"
+  },
+  {
+   "id": "yfa3d3e56f76",
+   "why": "wrong topic: Non-Cooperation Movement in Andhra"
+  },
+  {
+   "id": "ya8f80e889a3",
+   "why": "wrong topic: Non-Cooperation Movement in Andhra"
+  }
+ ],
+ "patterns": [
+  "APPSC asks single facts: capital of Andhra State 1953 (Kurnool, asked 3+ times), date of Sriramulu's death (15 Dec 1952), who ended Sitaram's fast (Vinoba Bhave), Partition Committee chair (Kumaraswamy Raja).",
+  "Recurring persons/places: Bapatla 1913 president B.N. Sarma who opposed separation; Cooum boundary = Raja of Panagal; Sri Bagh 1937 = Andhra-Rayalaseema; Justice Party govt -> Andhra University.",
+  "Shapes used: session -> president match lists, chronological ordering (Dhar -> Visalandhra -> Sitaram fast -> SRC), first office holders (Speaker Nallapati Venkatramaiah, budget 1955-56 B. Gopala Reddy).",
+  "Traps: Sri Bagh (1937) vs Gentlemen's Agreement (1956); Andhra State 1 Oct 1953 vs AP 1 Nov 1956; Dar (Constituent Assembly) vs JVP (Congress).",
+  "App MCQs are far more numerous and granular (vote tallies, delegate counts, 2026 events, multi-statement items) than the PYQs, and some rest on facts the notes themselves mark as disputed."
+ ],
+ "stats": {
+  "app_mcqs": 195,
+  "pyqs": 35,
+  "fixed": 0,
+  "dropped": 4
+ }
+}
