@@ -1,0 +1,32 @@
+{
+ "topic": "4:47",
+ "mcq_fix": [
+  {"id": "nap-geography-10-2", "s": "Match List-I with List-II:  List-I (a) Jindhagada (b) Aroma (c) Mahendragiri  List-II (i) Gajapati, Odisha (ii) Araku (iii) Chintapalli  Choose the correct code.", "why": "Mahendragiri lies in Gajapati district, Odisha (carved out of Ganjam in 1992)"}
+ ],
+ "mcq_drop": [
+  {"id": "nap-geography-12-5", "why": "garbled source wording ('sea-nack-like projections')"},
+  {"id": "nap-geography-9-1", "why": "ambiguous: options 1 and 2 name the same pair"},
+  {"id": "nap-geography-11-6", "why": "odd matches ('listed as southern geographical extent'), obscure"}
+ ],
+ "notes_fix": [
+  {"ref": "5#0", "find": "▲ Jindhagada — 1690 m, Araku", "replace": "▸ Jindhagada — 1690 m (figure disputed), Araku; exam key: Arma Konda is the highest", "why": "y65cf00acadd, yc3f125d2883 key Arma/Aroya Konda as highest"},
+  {"ref": "17#1", "find": "Ganjam, Odisha 1501 m", "replace": "Gajapati (ex-Ganjam), Odisha 1501 m", "why": "Mahendragiri is in Gajapati district"},
+  {"ref": "20#12", "find": "Arma Konda = highest point", "replace": "Arma Konda = highest point (APPSC keys y65cf00acadd, yc3f125d2883)", "why": "align with PYQ keys"}
+ ],
+ "pyq_bad": [
+  {"id": "yea8bcd15ea1", "why": "garbled: depends on a map not reproduced"},
+  {"id": "y1771379e334", "why": "wrong topic: mineral belts of India"},
+  {"id": "yf6c3f8c50d7", "why": "wrong topic: western coastal plain"},
+  {"id": "ya9d4301dc40", "why": "wrong topic: world geography (Afghanistan)"},
+  {"id": "y1cb129a71bb", "why": "suspect key: Tirupati is in Seshachalam, not Shevaroy; no option correct"},
+  {"id": "y1dfbf5cdd01", "why": "garbled options; wrong topic: current affairs (indoor waterfall)"}
+ ],
+ "patterns": [
+  "APPSC asks direct recall: highest peak (Arma/Aroya Konda), Tirupati on Seshachalam, red sanders = Seshachalam, Borra Caves = Ananthagiri hills.",
+  "'Which range is in AP' and 'which hills belong to Eastern Ghats' (Tirumala, Kalvarayan, Shevaroy, Velikonda) recur.",
+  "Coastline 1,053.07 km (3rd, recalculated) vs 974 km (2nd) and TN 1,068.69 trap; Pulicat brackish lagoon near Sriharikota.",
+  "App adds heavy waterfall/bird-sanctuary detail and assertion items from source notes; some odd wordings copied from source.",
+  "Peak heights (Jindhagada vs Arma Konda) are inconsistent in sources; APPSC keys treat Arma Konda as highest."
+ ],
+ "stats": {"app_mcqs": 64, "pyqs": 22, "fixed": 1, "dropped": 3}
+}

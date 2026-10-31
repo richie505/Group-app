@@ -1,0 +1,28 @@
+{
+ "topic": "4:38",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y13f0c9fd46d", "why": "suspect key: mango shower is pre-monsoon rain (Kerala/Karnataka), not 'crop of mango'; options muddled"},
+  {"id": "yfeb50f6c6c3", "why": "wrong topic: rice crop seasons (Aman)"},
+  {"id": "y606cefe5856", "why": "garbled + wrong topic: rice varieties (stem prefixed by another item)"},
+  {"id": "y3de8cef28e2", "why": "wrong topic: forestry - logging tools"},
+  {"id": "y2d96b38a59f", "why": "wrong topic: forestry - logging tools"},
+  {"id": "ydca6ad4e71b", "why": "wrong topic: current affairs (Hindu Heritage Month)"},
+  {"id": "y8467ca2d504", "why": "wrong topic: international days"},
+  {"id": "y483c5648791", "why": "wrong topic: peninsular rivers (Kali river); PMF text in stem"},
+  {"id": "y77e14976ce7", "why": "wrong topic: India's latitudinal extent"},
+  {"id": "ya170a3674df", "why": "wrong topic: India's latitudinal extent"},
+  {"id": "y0998d0996b6", "why": "wrong topic: inland waterways (transport)"},
+  {"id": "y4b989138fbb", "why": "wrong topic: places/history (Tranquebar)"}
+ ],
+ "patterns": [
+  "APPSC favours feature questions: 'NOT a characteristic' (equally distributed), monsoon = secondary/seasonal winds within 20N-20S, distribution controlled by relief.",
+  "Local storms are an APPSC staple: mango showers (Kerala/coastal Karnataka), Kaal Baisakhi (West Bengal), dust storms in May, heat-wave months.",
+  "Rainfall extremes recur across PSCs: Leh/Jaisalmer driest, Cherrapunji/Mawsynram in Khasi Hills, Tamil Nadu winter rain from NE monsoon, western disturbances for NW plains.",
+  "APPSC G1 2024 tested Koeppen code-to-region matching; app covers it well.",
+  "App adds jet-stream/Tibet/OMT mechanism detail and many 2026 monsoon current-affairs items beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 60, "pyqs": 38, "fixed": 0, "dropped": 0}
+}

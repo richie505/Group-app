@@ -1,0 +1,21 @@
+{
+ "topic": "2:168",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ne7aac07950a", "why": "opinion item (criticism of 'new welfarism')"}
+ ],
+ "notes_fix": [
+  {"ref": "7#2", "find": "Amma Vodi, pensions, Pedalandariki Illu", "replace": "Amma Vodi, Pedalandariki Illu", "why": "list double-counts pensions (Pension Kanuka also listed); Navaratnalu has nine pillars"}
+ ],
+ "pyq_bad": [
+  {"id": "y1dc61c701db", "why": "suspect key: APPSC withdrew this question for discrepancy (see y8ec177b7334)"},
+  {"id": "y8ec177b7334", "why": "suspect key: question officially ignored by APPSC; no valid answer"}
+ ],
+ "patterns": [
+  "APPSC asks scheme-to-purpose and scheme-to-amount one-liners: Amma Vodi/Talliki Vandanam Rs 15,000 to mothers, Rythu Bharosa Rs 13,500 incl. Rs 6,000 PM-KISAN, Cheyutha Rs 75,000 over 4 years for women 45-60, Aasara = SHG loans outstanding on 11 April 2019.",
+  "Launch dates are asked directly (Rythu Bharosa Oct 2019, Jagananna houses 3 June 2021, P4 on Ugadi 30 March 2025); pension step-ups (Rs 2,250 to Rs 2,500, Jan 2022).",
+  "'Which is NOT part of Navaratnalu' and old-name/new-name pairs are recurring traps; NTR Vaidya Seva Rs 25 lakh cover (May 2025) keyed.",
+  "App MCQs track current Super Six schemes well; a few add budget/beneficiary figures and fiscal-debate items beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 62, "pyqs": 22, "fixed": 0, "dropped": 1}
+}

@@ -1,0 +1,21 @@
+{
+ "topic": "2:114",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n2325e7adb46", "why": "malformed match: List-II item 2 used twice, item 3 unused in keyed answer"},
+  {"id": "nindian-society-2-15", "why": "tautological statements ('Social Problems in India concerns social problems'); no exam words it so"},
+  {"id": "nindian-society-19-17", "why": "oddly worded matching of kingship/property to 'hereditary position/right'; ambiguous"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y742bd365c5f", "why": "wrong topic: statistics (class interval)"},
+  {"id": "ya62764da303", "why": "wrong topic: proportional representation / electoral systems"}
+ ],
+ "patterns": [
+  "Very few PYQs: APPSC asks this topic as direct definitional items, e.g. 'which is NOT a basis of stratification' (language) and an AP-history angle (Saivism aided upward mobility in medieval Andhra).",
+  "Likely shapes: theorist -> concept (Sanskritisation-Srinivas, Davis-Moore functionalism, Weber class/status/party), types of mobility (vertical/horizontal, inter/intra-generational), ascribed vs achieved status.",
+  "AP tilt: medieval Andhra religion and caste mobility (Saivism, Kakatiya martial castes) is the APPSC-specific angle.",
+  "App MCQs lean heavily on sociology-textbook theory and 2025-26 data (Economic Survey, Telangana survey, middle-class definitions) - far more volume and depth than the PYQs show; several generated match items are tautological."
+ ],
+ "stats": {"app_mcqs": 61, "pyqs": 3, "fixed": 0, "dropped": 3}
+}

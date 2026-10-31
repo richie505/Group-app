@@ -1,0 +1,29 @@
+{
+ "topic": "2:34",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-polity-79-9", "why": "Ambiguous A-R: whether R 'explains' A is arguable; key not defensible"},
+  {"id": "nindian-polity-79-20", "why": "Abstract/odd wording ('distinct legal questions'); no exam frames it this way"}
+ ],
+ "notes_fix": [
+  {"ref": "12#7", "find": "salaries, allowances and pensions", "replace": "salaries and allowances", "why": "Art. 112(3)(b) charges only salaries and allowances of presiding officers"}
+ ],
+ "pyq_bad": [
+  {"id": "ybfd6d17d4b6", "why": "mental ability (percentage)"},
+  {"id": "y259adba54ca", "why": "mental ability (ratio)"},
+  {"id": "ycca93098852", "why": "mental ability (percentage)"},
+  {"id": "y12ebc036493", "why": "mental ability (ratio)"},
+  {"id": "y2b60ccb8a80", "why": "garbled: pair halves truncated"},
+  {"id": "y078cad22759", "why": "garbled: unrelated Ladakh LG text prefixed to stem"},
+  {"id": "y63e9355baea", "why": "garbled: option digits lost ('(3) only'); PMF text in stem"},
+  {"id": "yde373cbca8c", "why": "garbled: option digits lost ('(3) only')"},
+  {"id": "ye5ed615f52e", "why": "wrong topic: Money Bill definition (legislative procedure)"}
+ ],
+ "patterns": [
+  "APPSC asks one-liners: Art.112 = Annual Financial Statement ('Budget'), first budget by R.K. Shanmukham Chetty, DEA prepares the budget, Contingency Fund for unforeseen expenditure, revenues credited to CFI.",
+  "APPSC-G1 used a 4-statement item: Appropriation Bill auto-repeal + charged expenditure only discussed (I and IV).",
+  "Other PSCs heavily test charged vs voted (VP, PM, EC not charged; HC judges' salary from State fund, pension from CFI) and cut motion types.",
+  "Mental-ability salary/percentage items are mis-filed here; app's Article-number matrices (59(3), 75(6), 97, 148(3)) go beyond PYQ depth but are sound."
+ ],
+ "stats": {"app_mcqs": 49, "pyqs": 48, "fixed": 0, "dropped": 2}
+}

@@ -1,0 +1,22 @@
+{
+ "topic": "2:36",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n22d8ee7453a", "why": "opinion item (courts vs Parliament shaping the law)"}
+ ],
+ "notes_fix": [
+  {"ref": "13#1", "find": "Joining any political party after election — including joining the government as an independent minister without taking party membership", "replace": "Joining any political party after election (becoming a minister without taking party membership is not a ground)", "why": "independents may serve as ministers without disqualification; matches app MCQ nindian-polity-77-23"}
+ ],
+ "pyq_bad": [
+  {"id": "ya0049fdc164", "why": "wrong topic: party system / political science basics"},
+  {"id": "yb376a6b4f99", "why": "garbled: option 4 truncated; key unclear"}
+ ],
+ "patterns": [
+  "APPSC asks the bare identification: Tenth Schedule = anti-defection = 52nd Amendment 1985 (APPSC-GS 2019).",
+  "Other PSCs repeat: first constitutional recognition of parties (1985), J&K's own law (1979), merger needs two-thirds.",
+  "Exception questions: presiding officer giving up and rejoining party; merger vs deleted one-third split.",
+  "UPSC 2025 adds who decides (Speaker, no EC opinion) - app covers this well.",
+  "App MCQs go far beyond PYQ depth with case law (Subhash Desai, Keisham), privileges procedure and 2026 merger disputes."
+ ],
+ "stats": {"app_mcqs": 59, "pyqs": 12, "fixed": 0, "dropped": 1}
+}

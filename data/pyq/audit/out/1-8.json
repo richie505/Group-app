@@ -1,0 +1,27 @@
+{
+ "topic": "1:8",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-history-30-3", "why": "keys Mehrgarh-as-earliest-agriculture 'incorrect', but y361142d1765, ye3fa4149be3, yd6785861c7e key Mehrgarh; ambiguous"},
+  {"id": "nindian-history-90-6", "why": "ambiguous: notes themselves give Belan valley as earliest rice; Lahuradeva vs Mehrgarh contested"}
+ ],
+ "notes_fix": [
+  {"ref": "9#1", "find": "Mahagara provides early evidence", "replace": "Mehrgarh provides early evidence (Mahagara = Neolithic rice and cattle-pen site)", "why": "Mahagara is a rice site, not barley; app MCQ nindian-history-38-4 keys this as incorrect"}
+ ],
+ "pyq_bad": [
+  {"id": "y711418dc33f", "why": "wrong topic: animal husbandry; suspect key: goat (~150 days) has the shortest gestation, camel the longest"},
+  {"id": "y82c56c799cc", "why": "wrong topic: Komagata Maru (freedom struggle)"},
+  {"id": "yedd197e5332", "why": "suspect key: Kili Gul Muhammad; standard answer is Mehrgarh"},
+  {"id": "yc7ad7d50f15", "why": "wrong topic: ancient social professions (Magadha bards)"},
+  {"id": "y05c73636430", "why": "wrong topic: medieval agriculture"},
+  {"id": "ycdbd89226d3", "why": "wrong topic: world geography (old name of Iraq)"},
+  {"id": "y40bfdd2ff51", "why": "wrong topic: world geography (Mecca)"}
+ ],
+ "patterns": [
+  "APPSC asks one-line site facts: measuring scale = Lothal, close external contact = Mesopotamia, Indus region called Meluhha.",
+  "Other PSCs repeat 'animal not known/not depicted' (horse; cow on seals) and 'metal not found' (iron).",
+  "Earliest-agriculture items are keyed inconsistently across PSCs (Mehrgarh vs Lahuradeva); avoid statement items that make either one 'incorrect'.",
+  "App MCQs go much deeper (scale materials, plough models, Gujarat port lists, seal shapes) than the simple PYQs; match/statement format dominates the app."
+ ],
+ "stats": {"app_mcqs": 58, "pyqs": 25, "fixed": 0, "dropped": 2}
+}

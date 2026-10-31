@@ -1,0 +1,26 @@
+{
+ "topic": "4:70",
+ "mcq_fix": [
+  {"id": "nb693447b7a2", "s": "According to Census 2001, which State had the largest number of towns?", "why": "stem referred to 'the relevant question'"}
+ ],
+ "mcq_drop": [
+  {"id": "n1cd4997cee0", "why": "oddly worded ('2001 position referred to in the data'); obscure"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y53364a09484", "why": "wrong topic: national highways; suspect key: old NH-1 = Delhi-Amritsar (Delhi-Kolkata was NH-2)"},
+  {"id": "y8ea14e69b33", "why": "wrong topic: AP districts by area"},
+  {"id": "y6a0e2cad00e", "why": "wrong topic: AP capital / current affairs"},
+  {"id": "y8749559badc", "why": "suspect key: Lutyens designed New Delhi (option 2), not Chandigarh"},
+  {"id": "y42a0c88ced5", "why": "mental ability"},
+  {"id": "y8cbac17b9ad", "why": "mental ability"}
+ ],
+ "patterns": [
+  "APPSC asks city population ranking as 'arrange in decreasing order' (2001 order: Kolkata, Delhi, Bangalore, Ahmedabad, Kanpur); note that Delhi overtook Kolkata in 2011.",
+  "Planned cities and their architects: Le Corbusier for Chandigarh, Lutyens for New Delhi; 'not a planned capital' (Bengaluru).",
+  "Odd-one-out scheme questions: Rurban is not an urban-rejuvenation programme.",
+  "AP tilt: least urbanised southern State, million-plus UAs (Visakhapatnam, Vijayawada), AP district and capital facts.",
+  "The app adds many Census 2011 statement sets and 2025-26 policy figures (16th FC, ES 2025-26, World Cities Report), deeper than the PYQs."
+ ],
+ "stats": {"app_mcqs": 54, "pyqs": 9, "fixed": 1, "dropped": 1}
+}

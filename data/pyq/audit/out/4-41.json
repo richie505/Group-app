@@ -1,0 +1,37 @@
+{
+ "topic": "4:41",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nworld-geography-30-15", "why": "Dubious: Yasuni NP is in Ecuador only; 'spans Ecuador and Brazil' is not a standard fact"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yf39642357b1", "why": "garbled: state names truncated from options"},
+  {"id": "y4031c556faf", "why": "garbled: state names truncated from options"},
+  {"id": "y7295cadd103", "why": "garbled: pair halves truncated"},
+  {"id": "y2618985fdcd", "why": "garbled: pair halves truncated"},
+  {"id": "y03a905754a3", "why": "garbled: species halves truncated"},
+  {"id": "yeed7f7eb42a", "why": "wrong options: options/key from another question (Norway and Sweden)"},
+  {"id": "ycaec1bded57", "why": "wrong options: code options lost"},
+  {"id": "ydebe6d9ca82", "why": "garbled: code options truncated"},
+  {"id": "y5cc664bbc59", "why": "garbled: PMF source text in stem, options truncated (dup of ya68b3df926d)"},
+  {"id": "yb2c205fe548", "why": "garbled: fragments of another question prefixed to stem"},
+  {"id": "y247cafbc6aa", "why": "suspect key: A&N Islands had the most NPs (9); UPSC 2008 key is (1)"},
+  {"id": "y440fb6df148", "why": "wrong topic: current affairs - awards (Emmy)"},
+  {"id": "yfeef7d2e196", "why": "wrong topic: forest research institutes"},
+  {"id": "y7088789a44b", "why": "wrong topic: formation of States (polity)"},
+  {"id": "ye8bd439f6b0", "why": "wrong topic: remote sensing / aerial photography"},
+  {"id": "yee36c478f44", "why": "wrong topic: fossil parks (MP geography)"},
+  {"id": "y53b03618336", "why": "wrong topic: crop varieties (agriculture)"},
+  {"id": "y13fce4d58b4", "why": "wrong topic: space launch centres"},
+  {"id": "y2eb71823220", "why": "wrong topic: museums of natural history"},
+  {"id": "y6a32273e7f7", "why": "wrong topic: Himalayan peaks"}
+ ],
+ "patterns": [
+  "Dominant shape: national park -> state (single-fact or 'not correctly matched' pairs); Kaziranga, Bandipur, Kanha, Gir, Silent Valley, Similipal recur.",
+  "Park -> flagship species (rhino-Kaziranga, Hangul-Dachigam, Barasingha-Kanha, lion-Gir, musk deer-Kedarnath) is the second staple.",
+  "APPSC tilt: Sri Venkateswara NP (Chittoor), Papikonda (Godavari), AMVI 2023 pair Balpakram-Meghalaya trap; Yellowstone/USA and 'first NP' (Corbett) asked directly.",
+  "UNESCO natural WHS (Great Himalayan NP-HP, Keoladeo) appear; app adds many current-affairs counts (2026 PA numbers, Explorer tiger) and world parks beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 57, "pyqs": 72, "fixed": 0, "dropped": 1}
+}

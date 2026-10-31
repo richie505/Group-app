@@ -1,0 +1,26 @@
+{
+ "topic": "3:80",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n83f47910c26", "why": "vague opinion item ('significance' of independence and surplus)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yadf6b68628b", "why": "suspect key: in 1998 RBI's accounting year was July-June (option 2); April-March only since 2020-21"},
+  {"id": "yc63a83e8529", "why": "garbled: stem merges another question's statements"},
+  {"id": "y8c242d266ba", "why": "mental ability (statement-conclusion reasoning)"},
+  {"id": "y55ff0fcf2d4", "why": "garbled: options truncated"},
+  {"id": "y1334490b7b2", "why": "wrong topic: tax reforms (Chelliah Committee)"},
+  {"id": "yc6469f90732", "why": "wrong topic: public expenditure control"},
+  {"id": "yaffc2fdf6d3", "why": "wrong topic: Economic Survey"},
+  {"id": "ye91739ae797", "why": "wrong topic: national institutes for disabled"}
+ ],
+ "patterns": [
+  "APPSC asks direct single-fact items: Hilton Young Commission, lender of last resort = RBI, bank rate definition, RBI issues notes on behalf of Centre.",
+  "Location traps on presses and mints (Bank Note Press = Dewas, not Hyderabad) appear as 'which is not correct'.",
+  "Legal-basis questions: withdrawal of notes from legal tender under the RBI Act.",
+  "Other PSC keys stress who issues what (Re 1 note signed by Finance Secretary, coins by Ministry of Finance) and minimum gold reserve Rs 115 crore.",
+  "App MCQs add section numbers, 2025-26 bodies (PRB, RB-IOS 2026, surplus figures) and governance details beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 52, "pyqs": 59, "fixed": 0, "dropped": 1}
+}

@@ -1,0 +1,32 @@
+{
+ "topic": "3:115",
+ "mcq_fix": [
+  {"id": "n7d0b3c7ccf6", "s": "Which one of the following irrigation projects is correctly matched with its source river and water allocation?", "why": "40/38/43.5 TMC are allocations, not storage capacity"},
+  {"id": "n08a596ccf80", "s": "Which one of the following statements about the Pattiseema scheme is NOT true?", "why": "drop meta reference 'as per the PYQ'"}
+ ],
+ "mcq_drop": [
+  {"id": "ndca4568e228", "why": "project composition (41 major + 25 minor) dubious; Jalayagnam had ~86 projects; garbled options"}
+ ],
+ "notes_fix": [
+  {"ref": "12#4", "find": "built 2014-19; commissioned 2015", "replace": "built 2015-16 (first water Sept 2015)", "why": "Pattiseema was completed in about a year, 2015-16"}
+ ],
+ "pyq_bad": [
+  {"id": "y6dfb4ce81ee", "why": "wrong topic: agriculture science basics"},
+  {"id": "y451ba4d2ac7", "why": "wrong topic: AP districts by area"},
+  {"id": "y5617da4d95c", "why": "wrong topic: AP districts by area (duplicate)"},
+  {"id": "ydc9d52198bf", "why": "garbled; options belong to another question"},
+  {"id": "y10a614a7353", "why": "garbled options; wrong topic: aluminium plants"},
+  {"id": "y530fae165b6", "why": "wrong topic: Ganga plain population density"},
+  {"id": "yaf6665753b9", "why": "wrong topic: AP road projects"},
+  {"id": "ya03959cf1e6", "why": "wrong topic: Mekong-Ganga Cooperation"},
+  {"id": "yc3645302592", "why": "garbled stem"}
+ ],
+ "patterns": [
+  "APPSC asks AP irrigation data as single figures from the Socio-Economic Survey / Economy in Brief (GIA/GCA = 52%; wells the main source).",
+  "Pattiseema is asked through 'NOT true' statement sets and 'beneficiary = Krishna delta'.",
+  "PMKSY components are a favourite 'NOT a component' item (National Water Grid is the odd one out).",
+  "Programmes are asked by state and year (Neeru-Meeru = AP, 2000; Jalayagnam = Tenth Plan); project-river-district matches (Vamsadhara = Srikakulam).",
+  "The app adds many long 3-statement items on 2024-26 figures (micro-irrigation, groundwater, White Paper), deeper than the PYQs."
+ ],
+ "stats": {"app_mcqs": 40, "pyqs": 13, "fixed": 2, "dropped": 1}
+}

@@ -1,0 +1,29 @@
+{
+ "topic": "1:123",
+ "mcq_fix": [
+  {"id": "n84b9874a8ee", "o": ["Bhandaru Lakshminarayana, a court musician of Krishnadevaraya", "Stella Kramrisch", "Percy Brown", "Virupanna of Penugonda"], "why": "author of Sangita Suryodaya is Bhandaru Lakshminarayana; 'Lakminatha' is a misspelling"}
+ ],
+ "mcq_drop": [
+  {"id": "nfdcd7955cdd", "why": "oddly worded (asks what an APPSC key says); duplicate of nap-history-6-9 / Hazara Rama items"},
+  {"id": "n6d8c2050268", "why": "historiographical-debate item, not an exam fact"},
+  {"id": "n7142e97d54f", "why": "dubious: tallest-gopuram claim (Mangalagiri gopuram is 19th-century) and obscure renovation list"},
+  {"id": "n42cb3212dfb", "why": "obscure; Gandikota fell to Mir Jumla c. 1652, '1657 looting' is doubtful"}
+ ],
+ "notes_fix": [
+  {"ref": "18#2", "find": "(also spelt Lakminatha)", "replace": "(Bhandaru Lakshminarayana)", "why": "author of Sangita Suryodaya is Bhandaru Lakshminarayana"}
+ ],
+ "pyq_bad": [
+  {"id": "y7a383d050da", "why": "garbled: options mixed with another question's options"},
+  {"id": "yffc8b9c1b13", "why": "wrong topic: Chandela temples of Khajuraho"},
+  {"id": "y0049a6666f3", "why": "wrong topic: Jain temples of Mount Abu (Solanki architecture)"},
+  {"id": "y275273f9d3b", "why": "garbled: option 4 repeats stem text"}
+ ],
+ "patterns": [
+  "APPSC asks one-line identifications with an AP tilt: Lepakshi = Vijayanagara paintings / stone bull / hanging pillar; Tadipatri = gopurams surpassing Hampi Vittala.",
+  "Hampi location facts recur nationally: Virupaksha and Vittala (56 musical pillars) at Hampi, capital on the Tungabhadra, Hampi ruins.",
+  "APPSC keys credit Hazara Rama (Ramachandra) temple to Krishnadevaraya; mark that unless Devaraya I is offered.",
+  "Typical traps mix temples of other dynasties (Brihadeswara, Dilwara, Khajuraho) into 'not correctly matched' items.",
+  "App MCQs add many patron/renovation details and multi-statement items deeper than PYQs, plus debate-style items APPSC never asks."
+ ],
+ "stats": {"app_mcqs": 48, "pyqs": 14, "fixed": 1, "dropped": 4}
+}

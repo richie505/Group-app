@@ -1,0 +1,32 @@
+{
+ "topic": "3:0",
+ "mcq_fix": [
+  {"id": "n73fd8f0aba1", "s": "Which sector contributes the largest share of national income in the Indian mixed economy?", "why": "odd phrase 'as identified in the given classification'"},
+  {"id": "n01ec9d389db", "s": "In the World Bank's income classification (July 2026), India is placed in which income group?", "why": "odd phrase 'on the basis of the stated July 2026 data'"}
+ ],
+ "mcq_drop": [
+  {"id": "nd29aceee2e2", "why": "non-standard term 'premature leapfrogging' (exam would say premature deindustrialisation)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y95f97240b23", "why": "wrong topic: health / social issues"},
+  {"id": "yff7e179da9d", "why": "wrong topic: health / social issues"},
+  {"id": "y6e999d3a2e1", "why": "wrong topic: international financial institutions (IBRD)"},
+  {"id": "ya91d8ce1d8b", "why": "wrong topic: political ideology / globalisation"},
+  {"id": "y38f3ec65164", "why": "wrong topic: population geography (China)"},
+  {"id": "yd8e37aa6184", "why": "wrong topic: sociology / demography"},
+  {"id": "y1e499299b48", "why": "garbled: stray book header in stem (duplicate of y4d7c1584d89)"},
+  {"id": "y7ab5dd0c0cb", "why": "garbled: stem missing its beginning"},
+  {"id": "yaf304dd61cf", "why": "wrong topic: FDI inflows"},
+  {"id": "y5beb6a74cbb", "why": "wrong topic: FDI inflows"},
+  {"id": "y59c4ee24de2", "why": "wrong topic: FDI inflows"}
+ ],
+ "patterns": [
+  "Most-asked one-liner: 'Indian economy is' -> Mixed; also developing vs underdeveloped and Father of Economics = Adam Smith (not Keynes).",
+  "APPSC uses 'most important cause of underdevelopment' (under-utilised manpower + resources) and 'NOT a main cause' (working efficiency).",
+  "Sector classification matching (Trade = service, water supply = industrial, fisheries = primary, GDP = CSO) and disguised unemployment = agriculture.",
+  "APPSC G1 used an Assertion-Reason on structural change in national income composition.",
+  "App MCQs add many current 2025-26 data items (GDP growth, AP GVA shares, World Bank bands) that PYQs do not test at this depth."
+ ],
+ "stats": {"app_mcqs": 54, "pyqs": 47, "fixed": 2, "dropped": 1}
+}

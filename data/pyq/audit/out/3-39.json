@@ -1,0 +1,27 @@
+{
+ "topic": "3:39",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n8539969da9c", "why": "vague conceptual item with no single exam fact"},
+  {"id": "n8c37fed2db9", "why": "opinion/suggestion item, oddly worded"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y52e012451de", "why": "wrong topic: National Food Security Mission (agriculture); suspect key: NFSM covered wheat, rice and pulses (4)"},
+  {"id": "y16d0c28baa6", "why": "wrong topic: National Food Security Mission (agriculture production)"},
+  {"id": "y3a3fa2385c1", "why": "wrong topic: SDGs / poverty"},
+  {"id": "y80aafd39b84", "why": "wrong topic: POCSO Act"},
+  {"id": "yc019c27a087", "why": "garbled stem ('Food Preservation Commission' for State Food Commission)"},
+  {"id": "yed4f48f9bc7", "why": "garbled options; wrong topic: National Nutrition Mission"},
+  {"id": "y09164a9d435", "why": "wrong topic: rural development programmes; suspect key: SFDA began early 1970s, not 1980"},
+  {"id": "y4900339bb2b", "why": "garbled option text (Telugu OCR)"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: NFSA rural coverage 75%, NFSA objective (nutritional security with dignity), Bharat Rice price (Rs 29).",
+  "Concept traps recur: food security is NOT 'food of choice'; 'accountability' is not a dimension; national vs household security.",
+  "AP angle: Rs 2/kg rice scheme of the 1980s (25 kg per household) - AP PDS history is examinable.",
+  "Other PSCs ask NFSA statement sets (75/50 coverage, eldest woman head, State Food Commission) and MSP vs procurement vs issue price.",
+  "App MCQs are mostly sound but add 2026 draft amendment and Mee Mart details beyond PYQ depth; One Nation One Ration Card is not covered by any app MCQ."
+ ],
+ "stats": {"app_mcqs": 40, "pyqs": 22, "fixed": 0, "dropped": 2}
+}

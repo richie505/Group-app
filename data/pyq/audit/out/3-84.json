@@ -1,0 +1,32 @@
+{
+ "topic": "3:84",
+ "mcq_fix": [
+  {"id": "nb7cb231540c", "s": "Which of the following statements regarding differentiated banking licences is correct? 1. The Nachiket Mor Committee was constituted in 2013. 2. Both Small Finance Banks and Payments Banks emerged from differentiated or niche banking licences. 3. Commercial banks are now licensed on an on-tap basis. Which of the statements given above are correct?", "why": "Nachiket Mor Committee was set up in Sept 2013 but submitted its report in Jan 2014; reworded so key (all three) stays true"}
+ ],
+ "mcq_drop": [
+  {"id": "nca0f8f90e98", "why": "dubious/obscure sweeping claim ('no banks in 19th-century Andhra')"},
+  {"id": "n94af9dede5d", "why": "oddly worded ('stated regulatory framework'); SFB on-tap minimum is now Rs 200 crore, so ambiguous"},
+  {"id": "n8244df4a05e", "why": "ambiguous: Bank of Calcutta (1806) was renamed Bank of Bengal, so options 3 and 4 both fit"}
+ ],
+ "notes_fix": [
+  {"ref": "15#9", "find": "15 RRBs amalgamated from 1 May 2025 → 28 today", "replace": "26 RRBs amalgamated from 1 May 2025 (43 → 28 RRBs)", "why": "4th amalgamation phase merged 26 RRBs, cutting the count from 43 to 28"},
+  {"ref": "10#5", "find": "Karnataka Bank (1788) 1788, Madras", "replace": "Carnatic Bank (1788) 1788, Madras", "why": "the 1788 Madras bank was the Carnatic Bank; Karnataka Bank Ltd dates from 1924 (Mangaluru)"}
+ ],
+ "pyq_bad": [
+  {"id": "ya5b5ecfbb97", "why": "garbled: depends on an emblem image that is missing"},
+  {"id": "y9908bfa91c2", "why": "garbled: depends on an emblem image that is missing"},
+  {"id": "ya62bd6679d6", "why": "garbled: balance-sheet text from the answer prefixed to stem (duplicate of yafd02963b12)"},
+  {"id": "yaee4aeb7817", "why": "garbled: options truncated ('and 2 only', 'only')"},
+  {"id": "y6182eef579a", "why": "garbled: options truncated"},
+  {"id": "y033605802ed", "why": "garbled: options truncated"},
+  {"id": "ya0965b0b8c2", "why": "wrong topic: history of currency / paper money"},
+  {"id": "ya66c0ccc3cc", "why": "wrong topic: RBI and monetary policy"}
+ ],
+ "patterns": [
+  "APPSC asks direct dates/counts: 1969 and 1980 nationalisation, 19 July 1969, 14 banks; Lead Bank Scheme tied to bank nationalisation.",
+  "AP tilt: founder of Andhra Bank (Pattabhi Sitaramayya), SBI slogan/logo and bank-emblem items, ICICI-Videocon 'sweetheart' lending.",
+  "Other PSCs repeat: Oudh Commercial Bank 1881, first RRB 1975, SBI 1955, chronology RBI-SBI-LIC-1969, deposits are not bank assets, Service Area Approach under Lead Bank Scheme, NABARD as apex rural credit body.",
+  "App MCQs add SFB/payments-bank rules, RRB ownership and 2025-26 AP credit data that PYQs rarely touch; PYQs prefer one-line recall, logos and slogans."
+ ],
+ "stats": {"app_mcqs": 50, "pyqs": 51, "fixed": 1, "dropped": 3}
+}

@@ -1,0 +1,44 @@
+{
+ "topic": "3:42",
+ "mcq_fix": [
+  {"id": "nfc7097bcb62", "s": "In terms of absolute urban population, India ranks second in the world, after", "o": ["China", "the United States", "Brazil", "Indonesia"], "a": 0, "why": "India's urban population exceeds the total US population (y40fe7a854f4, y34b2b16bbb9), so India is 2nd, not 3rd"},
+  {"id": "n753eb8a4f1f", "s": "As per Census 2011, which was the least urbanised southern State?", "why": "odd wording ('referred to in the comparative data')"}
+ ],
+ "mcq_drop": [
+  {"id": "nd11ad5668e7", "why": "near-duplicate of nd2715ab1771 (31% vs 63%)"},
+  {"id": "na3ebff0eecd", "why": "dubious: Nigama Sabha is attested in Nasik/Bhattiprolu records, not Nanaghat; off-topic"}
+ ],
+ "notes_fix": [
+  {"ref": "1#3", "find": "India 3rd after China and USA", "replace": "India 2nd after China in absolute urban population", "why": "y40fe7a854f4, y34b2b16bbb9"},
+  {"ref": "7#11", "find": "India 3rd in absolute urban population after China and USA", "replace": "India 2nd in absolute urban population after China", "why": "y40fe7a854f4, y34b2b16bbb9"},
+  {"ref": "13#4", "find": "(Nanaghat inscription)", "replace": "(Nasik and Bhattiprolu inscriptions)", "why": "nigama-sabha attested in Nasik (Ushavadata) and Bhattiprolu records"}
+ ],
+ "pyq_bad": [
+  {"id": "y93af3bbc53f", "why": "wrong topic: Indian coastline"},
+  {"id": "y9bac5496f43", "why": "wrong topic: state food schemes"},
+  {"id": "y4529d085d32", "why": "wrong topic: South Asia literacy"},
+  {"id": "y59530ed2ba9", "why": "wrong topic: religious demography"},
+  {"id": "y02ce398de7f", "why": "wrong topic: religious demography"},
+  {"id": "y1f74363e44d", "why": "garbled (previous answer explanation pasted in)"},
+  {"id": "ydfacb1389ea", "why": "garbled: options from other questions mixed in"},
+  {"id": "y3ee13153619", "why": "garbled codes"},
+  {"id": "ybc6e6b0e9cd", "why": "suspect key: 39.20 marked; 2011 urban share = 31.16%"},
+  {"id": "y0f0ddce5be5", "why": "suspect key: world urban population overtook rural c. 2007-09, not 2001"},
+  {"id": "y7a644bbfd86", "why": "wrong topic: vital registration"},
+  {"id": "y031fe7d7557", "why": "wrong topic: population growth (not urbanisation)"},
+  {"id": "y7c3acef7f53", "why": "wrong topic: population growth (not urbanisation)"},
+  {"id": "yb150317c59e", "why": "wrong topic: population growth (not urbanisation)"},
+  {"id": "y65c3aa73efe", "why": "wrong topic: world population distribution"},
+  {"id": "y29783009a0a", "why": "wrong topic: world population"},
+  {"id": "y20e767cee25", "why": "wrong topic: rural development current affairs"},
+  {"id": "y9a40579172b", "why": "wrong topic: G20 current affairs"},
+  {"id": "yaf68f100662", "why": "wrong topic: world population"}
+ ],
+ "patterns": [
+  "PYQs are dominated by Census figures: 31.16% urban (2011), 53 million-plus cities, 3,894 census towns, Goa most / HP least urbanised, Sikkim fastest urban growth.",
+  "Census-town criteria (5,000 - 75% male non-farm - 400/sq km) and the moderate phase 1931-61 recur, often with near-miss distractors (60%, 31.80%).",
+  "APPSC frames it as 'highest / second highest growth in urban population' state items.",
+  "App adds finance, governance and UN-Habitat items with fewer pure Census number questions; mostly sound but includes off-topic Satavahana items."
+ ],
+ "stats": {"app_mcqs": 34, "pyqs": 78, "fixed": 2, "dropped": 2}
+}

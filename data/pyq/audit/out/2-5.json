@@ -1,0 +1,25 @@
+{
+ "topic": "2:5",
+ "mcq_fix": [
+  {"id": "nee8261b7079", "s": "Which of the following statements regarding the Ninth Schedule is correct? 1. It originally contained 13 Acts. 2. It presently contains about 284 Acts. 3. Laws added after 24 April 1973 are open to judicial review. 4. It is linked with Article 31B.", "why": "standard count is 284 (notes 2#10); 282 is the minority figure"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y9596419d849", "why": "mental ability"},
+  {"id": "y3fc817d413d", "why": "suspect key: AP bifurcation (2014) needed no constitutional amendment; 98th Amendment is Art. 371J Karnataka"},
+  {"id": "ydcc8065531b", "why": "wrong topic: Governor appointment / J&K"},
+  {"id": "y22308352363", "why": "wrong topic: Constitutional amendments (91st, size of ministry)"},
+  {"id": "y610b6a0afac", "why": "wrong topic: Constitutional amendments count"},
+  {"id": "y4bf68ce9d4c", "why": "garbled: explanation text pasted into stem"},
+  {"id": "y556593294bc", "why": "garbled: explanation text pasted into stem"},
+  {"id": "y7d058903871", "why": "garbled: stem replaced by explanation; options broken"}
+ ],
+ "patterns": [
+  "APPSC asks one-line locator items: which Article (Art. 1 Union of States, Art. 370), which Part (Part V Union Executive, Part XX amendment), which Schedule (2nd = President's salary).",
+  "Number recall: original 8 Schedules, now 12; 22 Parts originally; Eighth Schedule languages and the amendments adding them (21st Sindhi, 71st Konkani/Manipuri/Nepali, 92nd Bodo/Dogri/Maithili/Santhali).",
+  "AP tilt: Articles 371D/371E (32nd Amendment, 1973) and Article 371 series match questions.",
+  "App mirrors this well but over-weights long Part-Article-range match tables with many near-duplicate items."
+ ],
+ "stats": {"app_mcqs": 52, "pyqs": 30, "fixed": 1, "dropped": 0}
+}

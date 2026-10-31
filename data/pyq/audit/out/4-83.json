@@ -1,0 +1,36 @@
+{
+ "topic": "4:83",
+ "mcq_fix": [
+  {"id": "n1f1aeb87829", "a": 1, "o": ["Punganur in Chittoor district", "Chadalawada in Nellore district", "Anand in Krishna district", "Ongole in Guntur district"], "why": "APPSC-G2 key: Chadalawada Gokul Gram is in Nellore district (y77419975494)"}
+ ],
+ "mcq_drop": [
+  {"id": "nb231633e3e0", "why": "dubious: India's world rank in coconut varies by source (FAO puts Indonesia 1st)"},
+  {"id": "nindian-geography-24-35", "why": "oddly worded: no context for 'the Ministry of Commerce classification'"}
+ ],
+ "notes_fix": [
+  {"ref": "3#3", "find": "AP Gokul Gram: Chadalawada, Prakasam (APPSC G2 2025)", "replace": "AP Gokul Gram: Chadalawada, Nellore district (APPSC G2 key)", "why": "y77419975494 key = Nellore"},
+  {"ref": "12#5", "find": "Cattle-breeding farm at Chadalawada, Prakasam district (APPSC G2 2025)", "replace": "Cattle-breeding farm at Chadalawada, Nellore district (APPSC G2 key)", "why": "y77419975494 key = Nellore"}
+ ],
+ "pyq_bad": [
+  {"id": "y49c157b6809", "why": "garbled: long explanatory passage merged into stem"},
+  {"id": "yd565a912808", "why": "wrong options: varieties missing"},
+  {"id": "y910384128e2", "why": "wrong options: matched halves missing"},
+  {"id": "y571151d35e8", "why": "wrong options: breed names missing"},
+  {"id": "yfb0d94861a0", "why": "wrong options: breed names missing"},
+  {"id": "ybb806ae0b3d", "why": "garbled: option codes truncated; wrong topic: organic farming"},
+  {"id": "y40cfb6900ac", "why": "suspect key: Central Rice Research Institute is at Cuttack, not Kolkata"},
+  {"id": "y1a685007824", "why": "wrong topic: dog breeds of the world"},
+  {"id": "y898805b8033", "why": "wrong topic: mining institutes"},
+  {"id": "y98e978d5ef7", "why": "wrong topic: agricultural engineering institutes"},
+  {"id": "y04a84c0ac1d", "why": "wrong topic: agricultural marketing institutes"},
+  {"id": "y82b57af2804", "why": "wrong topic: agro-forestry institutes"}
+ ],
+ "patterns": [
+  "APPSC asks single facts with an AP tilt: Chadalawada Gokul Gram district (Nellore), Chintaladeevi = National Kamadhenu Breeding Centre, AP as 'Aqua hub', inland fisheries definition.",
+  "World-rank statements recur: India largest milk producer, 2nd in fruits/vegetables/sugar; 'biggest producer of vegetables' is the trap.",
+  "Silk: Muga endemic to Assam; Karnataka largest (mulberry) silk state; AP + Karnataka produce most raw silk.",
+  "Other PSCs heavily ask institute locations (NDRI Karnal, NDDB Anand, CFTRI Mysore) and Blue Revolution = pisciculture.",
+  "App MCQs lean on Economic Survey numbers (362.08 MT, 33% GVA, 8.8% growth) that PYQs do not test at that depth."
+ ],
+ "stats": {"app_mcqs": 32, "pyqs": 44, "fixed": 1, "dropped": 2}
+}

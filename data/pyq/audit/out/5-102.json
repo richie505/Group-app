@@ -1,0 +1,27 @@
+{
+ "topic": "5:102",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n57a2f198802", "why": "opinion-style A-R on enforcement weakness; not a factual item"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ye6f9a15d3c9", "why": "wrong topic: units of measurement"},
+  {"id": "yd9c3ebaf1e2", "why": "wrong topic: units of measurement; garbled options"},
+  {"id": "yc495cb4d75e", "why": "wrong topic: units of measurement"},
+  {"id": "yea553151375", "why": "garbled options (truncated)"},
+  {"id": "y10c4a696d33", "why": "wrong topic: chemistry (composition of air / noble gases)"},
+  {"id": "yabcdb4fd205", "why": "wrong topic: chemistry (amalgams)"},
+  {"id": "yee02c669a7a", "why": "wrong topic: agriculture (crop rotation)"},
+  {"id": "y19d556451ff", "why": "wrong topic: chemistry (flame colours)"},
+  {"id": "y01e8a9b7319", "why": "wrong topic: physics (boiling point at altitude)"},
+  {"id": "y11cdfa5828d", "why": "garbled options (leading numbers lost)"}
+ ],
+ "patterns": [
+  "Single-fact recall dominates: decibel = unit of sound, green muffler = noise, itai-itai = cadmium, radon = main indoor pollutant, nuclear power = thermal pollution.",
+  "APPSC repeated the NDMA 'MRDS' full-form question (twice) and asked radon as the noble gas used for cancer; building-material radioactivity = thorium.",
+  "APPSC-G2 2025 used type-to-source matching (air-industry, water-sewage, soil-fertilisers, noise-construction) and 'incineration is not an alternative' trap.",
+  "App adds many statute/zone-limit and institution statement sets (Noise Rules, Contaminated Sites Rules, AERB/NDMA roles) that go deeper than the PYQs."
+ ],
+ "stats": {"app_mcqs": 49, "pyqs": 20, "fixed": 0, "dropped": 1}
+}

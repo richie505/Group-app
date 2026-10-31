@@ -1,0 +1,28 @@
+{
+ "topic": "2:75",
+ "mcq_fix": [
+  {"id": "n9a7f986666f", "s": "A complaint is made more than seven years after the alleged offence. Under the Lokpal and Lokayuktas Act, 2013, the Lokpal:", "why": "bar applies after expiry of seven years; 'seven years after' is ambiguous"}
+ ],
+ "mcq_drop": [
+  {"id": "n5dbbc5bec9c", "why": "opinion/criticism item; 'dependent on CBI for inquiries' is dubious since Lokpal has its own Inquiry Wing"},
+  {"id": "nindian-polity-1-52", "why": "oddly built match list (a year as a List-I item); near-duplicate of first-Lokayukta facts"}
+ ],
+ "notes_fix": [
+  {"ref": "22#14", "find": "Maharashtra, UP, Rajasthan, Bihar, Odisha", "replace": "Maharashtra, UP, Rajasthan, Bihar (Odisha: CM included - UPSC 1995 key)", "why": "yc708bbcdc53 key: CM within Lokayukta in MP and Orissa"}
+ ],
+ "pyq_bad": [
+  {"id": "ydfd7b3b4f86", "why": "suspect key: Orissa; first Lokayukta set up in 1971 was Maharashtra (not among options), Odisha only passed the first Act (1970)"},
+  {"id": "y00171f9de83", "why": "wrong topic: Bharat Ratna / awards"},
+  {"id": "y87d1505e166", "why": "garbled: explanation text merged into stem"},
+  {"id": "y33011f3c612", "why": "garbled: option numbers stripped (key reads '1 only', intended '3 only')"},
+  {"id": "y86c881af06d", "why": "garbled: stem start and option 3 truncated"}
+ ],
+ "patterns": [
+  "APPSC asks single firsts: first state to set up a Lokayukta (Maharashtra), first Lokpal Bill year (1968), first AP Lokayukta (Justice A. Sambasiva Rao).",
+  "Recurring dates: Act in force 16 Jan 2014 vs assent 1 Jan 2014; first Lokpal P.C. Ghose (2019).",
+  "State-specific traps: Rajasthan cut Lokayukta tenure 8 to 5 years; AP Lokayukta 'not an interpreter of the Constitution'.",
+  "UPSC/UKPSC test Act details: selection committee (no RS Chairman), min age 45, PM coverage, public servants abroad covered.",
+  "App MCQs cover the Act thoroughly but the topic's CVC half is almost absent; several 2026 current-affairs items exceed PYQ depth."
+ ],
+ "stats": {"app_mcqs": 60, "pyqs": 18, "fixed": 1, "dropped": 2}
+}

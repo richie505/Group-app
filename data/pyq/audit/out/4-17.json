@@ -1,0 +1,32 @@
+{
+ "topic": "4:17",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "4#0", "find": "Strong heating → rising air Western Ghats (⚠ other notes: equatorial belt)", "replace": "Strong heating → rising air Equatorial belt (afternoon showers); pre-monsoon mango showers", "why": "y07a459bcd84: convectional = equatorial; Western Ghats rain is orographic"},
+  {"ref": "15#1", "find": "The Western Ghats — the example location given", "replace": "Equatorial belt - afternoon showers almost daily; pre-monsoon thunder showers", "why": "y07a459bcd84; Western Ghats = orographic"}
+ ],
+ "pyq_bad": [
+  {"id": "y8bfbb3761b6", "why": "wrong topic: S&T display technology"},
+  {"id": "yf7ed626ece3", "why": "wrong topic: sports (Olympics venue)"},
+  {"id": "y8e4c3e4714f", "why": "wrong topic: botany (ginger rhizome)"},
+  {"id": "y8e93a2619ca", "why": "wrong topic: current affairs appointments"},
+  {"id": "y7f2b83a3809", "why": "wrong topic: physics (boiling point and pressure)"},
+  {"id": "yc56f0e235e2", "why": "wrong topic: chemistry (quicklime and water)"},
+  {"id": "y15e707c9e21", "why": "wrong topic: colligative properties"},
+  {"id": "y044a4704012", "why": "suspect key: same UPSC 2002 item y94410e89778 keyed 1, 2 and 4; options garbled"},
+  {"id": "y8655464cd20", "why": "wrong topic: agriculture (basmati varieties)"},
+  {"id": "y4550275f228", "why": "wrong topic: dendrochronology / forestry"},
+  {"id": "y40b26cd5e0b", "why": "garbled (source text in stem); wrong topic: radar applications"},
+  {"id": "yb7b73a3c788", "why": "wrong topic: optics (total internal reflection)"},
+  {"id": "y2162c0b0a33", "why": "wrong topic: Parliament legislative procedure"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact items: instrument for humidity (hygrometer vs hydrometer trap), isohyet/isoneph, cloud producing rainstorms (cumulonimbus).",
+  "Match-the-cloud-appearance (cirrus silky, cirrostratus milky, cirrocumulus globular, cumulus cauliflower) and halo/rainbow optics are recurring.",
+  "AP angle: cloud-seeding chemical (silver iodide + sodium chloride, 2004), hydrological-cycle 'not a part' items.",
+  "Many PYQs filed here are physics/chemistry/current-affairs strays; real topic PYQs are short and definitional.",
+  "App MCQs lean to multi-statement and match items with more numeric detail (latent heat values, water budget BCM) than PYQs show."
+ ],
+ "stats": {"app_mcqs": 54, "pyqs": 34, "fixed": 0, "dropped": 0}
+}

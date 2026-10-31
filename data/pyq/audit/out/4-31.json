@@ -1,0 +1,57 @@
+{
+ "topic": "4:31",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nworld-geography-12-6", "why": "ranks Himalayas 3rd and Great Dividing Range 4th although its own lengths (2,400 vs 3,500 km) say the reverse; obscure ranking"}
+ ],
+ "notes_fix": [
+  {"ref": "8#1", "find": "Third Himalayas", "replace": "Fourth Himalayas", "why": "Himalayas ~2,400 km are shorter than Great Dividing Range ~3,500 km (lengths in same table)"},
+  {"ref": "8#1", "find": "Fourth Great Dividing Range", "replace": "Third Great Dividing Range", "why": "Great Dividing Range ~3,500 km is longer than Himalayas ~2,400 km"}
+ ],
+ "pyq_bad": [
+  {"id": "y7a6bc7f8b87", "why": "wrong topic: demonetisation / current affairs"},
+  {"id": "y33814997779", "why": "garbled (options mixed, no key)"},
+  {"id": "y980a775155f", "why": "garbled (stem missing)"},
+  {"id": "yebcbde044c8", "why": "garbled (options truncated)"},
+  {"id": "ybe6e0a30ab4", "why": "suspect key: Australia's highest peak is Kosciuszko (Mt Bruce is highest in Western Australia)"},
+  {"id": "y82c4f457a2f", "why": "suspect key: upland between Brooks Range and Alaska Range is the Yukon Plateau, not the Great Basin"},
+  {"id": "ye65c29b44be", "why": "garbled (options truncated)"},
+  {"id": "y96c4c584003", "why": "garbled (options truncated)"},
+  {"id": "y19f7a231399", "why": "garbled (options truncated)"},
+  {"id": "y7ce72a56830", "why": "garbled (options truncated)"},
+  {"id": "y33333044714", "why": "garbled (options truncated)"},
+  {"id": "y099c6ec7698", "why": "garbled (options truncated)"},
+  {"id": "yf61ab718c47", "why": "garbled (stem mixed with another question)"},
+  {"id": "yb113a7b0cfa", "why": "garbled (figure-based)"},
+  {"id": "ycfb88b79bfb", "why": "garbled (figure-based, figure missing)"},
+  {"id": "y2a36b98e7e0", "why": "wrong options (belong to another question)"},
+  {"id": "y32d96e97d00", "why": "garbled (mixed with arithmetic question)"},
+  {"id": "yfa636d2f933", "why": "mental ability (arithmetic)"},
+  {"id": "y7d55e6cc42a", "why": "garbled (options truncated)"},
+  {"id": "ybe1666112ea", "why": "wrong topic: Indian mountaineers"},
+  {"id": "ybc2fa53e791", "why": "wrong topic: Indian mountaineers"},
+  {"id": "y47d12c1645f", "why": "wrong topic: megadiverse countries"},
+  {"id": "y5bf443cd5f0", "why": "wrong topic: Olympics"},
+  {"id": "ye520f1ba806", "why": "wrong topic: Golden Crescent / drug trade"},
+  {"id": "y02cea88c81b", "why": "wrong topic: gold production"},
+  {"id": "y7d7eb1bca3b", "why": "wrong topic: capitals / current affairs"},
+  {"id": "y6ef1304a601", "why": "wrong topic: world capitals"},
+  {"id": "y052d0ae7cd4", "why": "wrong topic: Ghadar movement"},
+  {"id": "y75a059131f6", "why": "wrong topic: FIFA World Cup"},
+  {"id": "y8d9aae712b0", "why": "wrong topic: FIFA World Cup"},
+  {"id": "y52e0c22c755", "why": "wrong topic: Global Peace Index"},
+  {"id": "yb6a648692da", "why": "wrong topic: world fauna"},
+  {"id": "y5b1b9bb9a0b", "why": "wrong topic: world places"},
+  {"id": "y4b4d21930d0", "why": "wrong topic: cotton production"},
+  {"id": "y522c91b7e29", "why": "wrong topic: world dams / rivers"},
+  {"id": "ybeb2afcf926", "why": "wrong topic: world minerals"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact location items: highest peak of a continent (Kilimanjaro, Kosciuszko), where a desert lies (Sonoran, Great Victoria), what Sierra Nevada is.",
+  "Ordering items: continents by area and largest countries (APPSC G1 descending order Russia, Canada, USA, China); India 7th.",
+  "South America map facts recur: Pacific coastline countries (not Venezuela), landlocked Bolivia/Paraguay, Andes countries, Tropic of Capricorn.",
+  "APPSC G1 also asks harder regional-physiography names (Tsaidam basin, Yukon plateau, Karakoram between Pamir and Indus).",
+  "App MCQs favour multi-statement and plateau-type classification items; PYQs are simpler and broader (continent superlatives, desert-country pairs)."
+ ],
+ "stats": {"app_mcqs": 38, "pyqs": 111, "fixed": 0, "dropped": 1}
+}

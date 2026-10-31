@@ -1,0 +1,23 @@
+{
+ "topic": "4:13",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ngeneral-geography-5-80", "why": "near-duplicate of ngeneral-geography-5-5 and nc0270a2a3c5 (U-valley / hanging valley statements)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yfbcb960f3e2", "why": "garbled stem (OCR noise); suspect key: answer is Ground Water (see y96e161bf80f), not Wind"},
+  {"id": "ye8f9f1f3418", "why": "wrong options: pair partners missing, only landform names shown"},
+  {"id": "y11f2e3b6d13", "why": "wrong topic: prehistoric formations of the Son valley"},
+  {"id": "y84b17ae087c", "why": "wrong topic: multipurpose river valley projects"},
+  {"id": "y89250b41ad0", "why": "wrong topic: Galwan river / explorers"},
+  {"id": "yb92fbd7869a", "why": "wrong topic: AP mineral resources (lead)"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact agent questions: stalactites/stalagmites formed by groundwater; till/moraine/boulder clay = glacial; which agent forms a delta, cirque, cliff, dune (match).",
+  "Strong AP tilt: karst caves (Belum vs rock-cut Undavalli/Bojjannakonda/Erravaram), Borra, Billa Surgam district, Arwah caves in Meghalaya.",
+  "Other PSCs repeat: bird's-foot delta = Mississippi, hanging valley = glacier, blind valley/sinkhole = karst, maximum coastal erosion = waves, Bhabar/Terai, lacustrine plains.",
+  "App MCQs go deeper than PYQs with multi-statement and match items on drumlins, loess sources, delta density and coast types; most are sound textbook facts."
+ ],
+ "stats": {"app_mcqs": 68, "pyqs": 19, "fixed": 0, "dropped": 1}
+}

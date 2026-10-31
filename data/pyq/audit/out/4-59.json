@@ -1,0 +1,32 @@
+{
+ "topic": "4:59",
+ "mcq_fix": [
+  {"id": "nbe0d17d9f67", "o": ["20–59 years", "0–14 years", "15–49 years", "15–64 years"], "why": "15-59 also keyed correct by APPSC (y56dd452a760); remove second right option"},
+  {"id": "n8489a3b5d8e", "s": "Which one of the following is correctly matched with its stage of demographic transition?", "why": "drop 'indicated in the material'"},
+  {"id": "ne3ab47db052", "s": "Which of the following correctly describes India's recent demographic profile (SRS 2024)?", "why": "drop vague 'mentioned for India'"},
+  {"id": "nadc9b992a82", "s": "Consider the following statements: 1. Kerala and Tamil Nadu are among the most aged States of India. 2. About 18.7% of elderly women live alone. 3. About 78% of elderly persons have no pension cover. 4. About 70% of elderly persons depend on others. Which of the statements given above are correct?", "why": "statement 1 tied to 'States mentioned'"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "2#0", "find": "(Indian projections: 15-59)", "replace": "(Indian projections and an APPSC-G2 key: 15-59)", "why": "y56dd452a760 keys 15-59"}
+ ],
+ "pyq_bad": [
+  {"id": "yaeb4c492c47", "why": "wrong topic: bridges of India"},
+  {"id": "ybf6f286fed7", "why": "garbled; another question's text in options"},
+  {"id": "ybf03fe34749", "why": "wrong topic: state schemes current affairs"},
+  {"id": "ya05150c1ba2", "why": "mental ability"},
+  {"id": "y3426918a815", "why": "wrong topic: sports current affairs"},
+  {"id": "y5918f6e72b6", "why": "mental ability"},
+  {"id": "y83060382a6a", "why": "wrong topic: sports"},
+  {"id": "yc5fdb50b736", "why": "wrong topic: shifting (jhum) cultivation"},
+  {"id": "yd3e93b69389", "why": "garbled; mental ability (statistics)"},
+  {"id": "yb0323a229b6", "why": "mental ability"}
+ ],
+ "patterns": [
+  "Definition questions dominate: 'rise in growth due to rising share of working age' = demographic dividend; the age group is keyed 15-59 (APPSC-G2) or 15-64 (UPSC/ILO), so never put both in the options.",
+  "Transition stages are asked as sequences (high-high, then high-low, then low-low) and as 'population explosion = 1951-81'.",
+  "Thinker-idea lines: Malthus geometric/arithmetic; elderly QoL index ranking (Rajasthan).",
+  "UPSC-style 'what should India do' (skill development) items appear; the app adds many 2026 SRS/NFHS-6 numeric statement sets not seen in PYQs."
+ ],
+ "stats": {"app_mcqs": 49, "pyqs": 15, "fixed": 4, "dropped": 0}
+}

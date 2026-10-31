@@ -1,0 +1,23 @@
+{
+ "topic": "1:131",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y2b22bc809b0", "why": "suspect key: Nur Jahan's childhood name was Mehrunnisa (option 3), not Bahu Begam"},
+  {"id": "y09f92034e52", "why": "suspect key: 'Sir William John' is not a known visitor; Sir Thomas Roe (option 4) fits"},
+  {"id": "y175f08a9b41", "why": "suspect key: Thomas Roe came under Jahangir; no option fits Aurangzeb's reign"},
+  {"id": "y7e51498e7c6", "why": "garbled: pair options truncated to emperor names only"},
+  {"id": "y00c8514d655", "why": "garbled (truncated duplicate of y5e09a2293af); wrong topic: 18th-century regional states"},
+  {"id": "y5e09a2293af", "why": "wrong topic: 18th-century regional states"},
+  {"id": "y3fdaa49559e", "why": "garbled: option codes truncated"},
+  {"id": "y6c7093957de", "why": "wrong topic: Maharashtra saints / Aurangzeb era"}
+ ],
+ "patterns": [
+  "APPSC asks a Jahangir-reign statement set (Arjan Dev, Mewar, English arrival true; Kabul-Kandahar annexation the trap) and single-name items (Nur Jahan's name, Roe at Jahangir's court, Dara translated the Gita).",
+  "Other PSCs repeat: Hawkins = English Khan, Roe received at Ajmer, Nur Jahan junta membership, Abdul Hamid Lahori = Padshahnama, Dharmat, Shah Buland Iqbal = Dara, war-of-succession chronology.",
+  "Several PYQ keys in this topic are unreliable (Nur Jahan's name, English trader, Aurangzeb-era traveller) - do not align app content to them.",
+  "App adds Deccan treaty detail (Inqiyad Nama, four subas, Golconda annexation) with an AP tilt that PYQs barely touch; style is long statement/match items vs short PYQ one-liners."
+ ],
+ "stats": {"app_mcqs": 45, "pyqs": 41, "fixed": 0, "dropped": 0}
+}

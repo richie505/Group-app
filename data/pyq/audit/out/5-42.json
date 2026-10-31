@@ -1,0 +1,32 @@
+{
+ "topic": "5:42",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nfef8c848b17", "why": "ambiguous: TV-D1 is a Gaganyaan test, itself listed as a precursor"},
+  {"id": "nphysics-23-16", "why": "oddly worded; option 4 'space station training' also arguable"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y9aef57d527b", "why": "wrong topic: computer/IT terms"},
+  {"id": "yca51c8bbbca", "why": "wrong topic: human genetics"},
+  {"id": "y2baae45a912", "why": "wrong topic: Chandrayaan / lunar missions"},
+  {"id": "yf6a728cb1ed", "why": "wrong topic: robotics / AI"},
+  {"id": "yeb842517661", "why": "wrong topic: human biology (muscles)"},
+  {"id": "y1c39bf57d8b", "why": "wrong topic: botany terms"},
+  {"id": "y41d5d549f0e", "why": "wrong topic: medical terms"},
+  {"id": "y8789fb5cb5a", "why": "wrong topic: earthquakes"},
+  {"id": "y29c42e6fa9a", "why": "wrong topic: zoology"},
+  {"id": "yd1385cf4d07", "why": "wrong topic: space telescopes / exoplanets"},
+  {"id": "yc8fa57747fd", "why": "wrong topic: physics (air pressure)"},
+  {"id": "y04d8874353c", "why": "wrong topic: earth-observation satellites (NISAR)"},
+  {"id": "yd1230d2b327", "why": "wrong topic: launch vehicles"},
+  {"id": "y80140a87ba1", "why": "garbled options; question annulled by commission"}
+ ],
+ "patterns": [
+  "APPSC asks Gaganyaan as statement sets (Vyommitra is female, not male; HLVM3 not GSLV Mk II; DRDO support) and 'which names are the Gaganyatris' with Pankaj M. Sinha as the trap.",
+  "Event-dated items recur: Leh analogue mission, Human Spaceflight Expo venue/dates, Wentian/Tiangong modules, ISS first module Zarya.",
+  "Physics of weightlessness appears as one-liners/A-R (apple released from spaceship, candle flame, mass vs weight).",
+  "App relies heavily on 2025-26 test dates (IADT-01/02, SOLVE) and long multi-statement sets; exam keeps to named facts and people."
+ ],
+ "stats": {"app_mcqs": 37, "pyqs": 33, "fixed": 0, "dropped": 2}
+}

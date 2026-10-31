@@ -1,0 +1,24 @@
+{
+ "topic": "2:19",
+ "mcq_fix": [
+  {"id": "n0c0682de4c5", "s": "The constitutional provisions relating to the Six-Point Formula and the Central University in Andhra Pradesh (Articles 371D and 371E) were inserted by which amendment?", "why": "drop meta phrase 'as identified in the AP-specific reference'"}
+ ],
+ "mcq_drop": [
+  {"id": "nb7c19652f68", "why": "opinion item ('most controversial in cited debates')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ye4f98b46662", "why": "wrong options: codes reduced to single numerals, match unanswerable"},
+  {"id": "y2341a5cd075", "why": "garbled: options truncated mid-sentence"},
+  {"id": "y59ec151c753", "why": "wrong topic: Sikkim (state profile)"},
+  {"id": "yb800ce3809f", "why": "wrong topic: current affairs (Har Ghar Tiranga)"}
+ ],
+ "patterns": [
+  "Mostly 'which amendment did X' one-liners: Right to Property removed (44th), voting age 18 (61st), anti-defection (52nd), NCT Delhi (69th), 21A (86th), Ninth Schedule (1st).",
+  "APPSC uses A-R on the 42nd 'Mini-Constitution' (Preamble, Seventh Schedule, 54 articles) and 'which amendment' on 21A.",
+  "Recurring traps: 42nd vs 44th (who made advice binding vs who allowed one return), 73rd vs 74th schedules, 53rd/55th/56th statehood numbers.",
+  "App leans heavily on long match/statement items with article numbers and enforcement dates; PYQs are shorter and simpler.",
+  "AP angle (32nd Amendment, 371D/371E) is in the app but not yet seen in PYQs here."
+ ],
+ "stats": {"app_mcqs": 50, "pyqs": 25, "fixed": 1, "dropped": 1}
+}

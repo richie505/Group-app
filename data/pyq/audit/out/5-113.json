@@ -1,0 +1,44 @@
+{
+ "topic": "5:113",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n08b834d2ae4", "why": "opinion-style 'significance' item with straw-man options"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y3ba249f5c60", "why": "garbled: options mixed with AP Reorganisation question text"},
+  {"id": "yb8a9d20d22f", "why": "garbled: exponents lost (10^9 printed as 109)"},
+  {"id": "y5c2c5c9dc12", "why": "wrong topic: surface tension"},
+  {"id": "y5c4bade33bc", "why": "wrong topic: semiconductor physics"},
+  {"id": "y62586093165", "why": "suspect key: 'friction' as most important property of nanomaterials is doubtful"},
+  {"id": "y0ccf9ba91c9", "why": "wrong topic: first engineering college (Roorkee)"},
+  {"id": "y3e9a19f211f", "why": "wrong topic: optics - refractive index/total internal reflection"},
+  {"id": "ycb3472143c0", "why": "wrong topic: optics - refractive index of diamond"},
+  {"id": "y189f4a5a183", "why": "wrong topic: semiconductors/IC chips"},
+  {"id": "yae7f424cf49", "why": "wrong topic: quartz chemistry"},
+  {"id": "yc0f37b91b07", "why": "wrong topic: semiconductors"},
+  {"id": "y248a1441560", "why": "wrong topic: semiconductors/IC chips"},
+  {"id": "y111921a63ba", "why": "wrong topic: semiconductors"},
+  {"id": "y110dd1a420a", "why": "wrong topic: IC chips"},
+  {"id": "y47541c874d3", "why": "wrong topic: materials (smart film)"},
+  {"id": "yc169475fb28", "why": "wrong topic: semiconductors"},
+  {"id": "y1c354c5f1d0", "why": "wrong topic: abundance of elements"},
+  {"id": "yd4640c16eeb", "why": "wrong topic: electric current heating"},
+  {"id": "y2c7e1cc0abe", "why": "wrong topic: electric current heating"},
+  {"id": "yb6ba358b07e", "why": "wrong topic: polymers"},
+  {"id": "y38af45dba68", "why": "wrong topic: electrical conductors"},
+  {"id": "yec30c4c290f", "why": "wrong topic: alloys; suspect key: stainless steel is chiefly iron + chromium"},
+  {"id": "yb68229721f6", "why": "wrong topic: units of length"},
+  {"id": "y47f9871007c", "why": "wrong topic: minerals"},
+  {"id": "yb77df80162c", "why": "wrong topic: organic chemistry (benzene)"},
+  {"id": "ydde5b903d53", "why": "garbled: stem truncated (duplicate of y3922090ab8f)"}
+ ],
+ "patterns": [
+  "APPSC asks the size range 1-100 nm directly (2018) and the NCL nanogenerator = piezoelectric effect (Group 1).",
+  "Other PSCs ask pioneers: Taniguchi coined the term (1974), Iijima made CNTs, Kroto-Curl-Smalley fullerene; and the four generations order (aerosol -> targeted drugs -> 3D networking -> molecular manufacturing).",
+  "UPSC style: graphene/CNT multi-statement items (2D conductor, strongest, not silicon; CNTs not biodegradable).",
+  "Recurring current-affairs hooks: IIT Roorkee nano-fab facility (not Samudrayaan), ICAR-CIRCOT nano-cellulose from cotton, institutional nano developments.",
+  "App has many deep allotrope assertion/match items and 2026 nano-urea data; APPSC itself stays at direct single-fact level."
+ ],
+ "stats": {"app_mcqs": 34, "pyqs": 49, "fixed": 0, "dropped": 1}
+}

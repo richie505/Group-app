@@ -1,0 +1,28 @@
+{
+ "topic": "5:30",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n625a76b6a63", "why": "opinion item (criticism of IT Act)"},
+  {"id": "ndd0add466b4", "why": "opinion/debate item, not an exam fact"},
+  {"id": "n9010de3b96f", "why": "near-duplicate of n0dcfdaa4bf1 (APTS) with obscure framing"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y36e5b257236", "why": "wrong topic: computer hardware (IRQ)"},
+  {"id": "y1d999c8a357", "why": "wrong topic: computer/internet basics"},
+  {"id": "yca7ff56bc90", "why": "garbled: stem prefixed with text of another question"},
+  {"id": "y7ce0969cb31", "why": "wrong topic: monetary policy"},
+  {"id": "ydba141f9fa1", "why": "wrong topic: rare earth elements"},
+  {"id": "y4879b39fc1d", "why": "wrong topic: Flag Code of India"},
+  {"id": "yf15ed9ed14c", "why": "wrong topic: groundwater / water resources"},
+  {"id": "yb9a072e97a0", "why": "wrong topic: international relations (US-EU TTC)"}
+ ],
+ "patterns": [
+  "APPSC asks the IT Act's purpose (legal recognition of EDI / e-commerce) and concepts it introduced (e-record, digital signature, certifying authority).",
+  "APPSC also asks scheme/portal trivia from news: MySecurity.in (MHA), 'Scenario Building & Response' exercise venue (New Delhi).",
+  "UPSC repeats PKI = digital security infrastructure and digital signature = content unaltered.",
+  "Real PYQ pool is thin; most PYQs filed here are unrelated statement-reason items.",
+  "App MCQs go far deeper (section numbers, CERT-In 2022 directions, I4C components, 2026 SOPs) than any PYQ seen."
+ ],
+ "stats": {"app_mcqs": 45, "pyqs": 11, "fixed": 0, "dropped": 3}
+}

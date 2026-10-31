@@ -1,0 +1,26 @@
+{
+ "topic": "4:98",
+ "mcq_fix": [
+  {"id": "n4aa89054976", "s": "Consider the following statements: 1. The Incredible India campaign was launched in 2002. 2. The Travel and Tourism Competitiveness Index has been renamed the Travel and Tourism Development Index. 3. The Travel and Tourism Competitiveness Index was published by the World Tourism Organization. Which of the statements given above is/are correct?", "why": "statement 2 'It' grammatically referred to Incredible India; TTCI/TTDI is a WEF index"},
+  {"id": "nb665d0b0def", "s": "Andhra Pradesh was ranked which among the States for domestic tourist visits in 2024-25?", "why": "vague 'period referred to in the tourism data' wording"}
+ ],
+ "mcq_drop": [
+  {"id": "na2ac9160d01", "why": "opinion item (criticism of tourism development)"},
+  {"id": "n359e65b2e3f", "why": "obscure trivia (NH-167A link to Piduguralla)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yfdf15dbd274", "why": "wrong topic: world geography (Copacabana beach)"},
+  {"id": "y70c995e32b3", "why": "wrong topic: lakes of India"},
+  {"id": "y6d31b4321f7", "why": "wrong options: pair halves missing"},
+  {"id": "y019da7ee428", "why": "garbled: stray option fragment in stem"}
+ ],
+ "patterns": [
+  "APPSC asks AP-place matching: beach to nearest town (Suryalanka-Bapatla, Manginapudi-Machilipatnam, Kothapatnam-Ongole, Perupalem-Narasapuram) and Buddhist sites to districts.",
+  "Geo-heritage site to State matching (Lonar, Siwalik, Akal, Nomira) appears in Group-1 2023.",
+  "Current-affairs one-liners: submarine tourism partner (Mazagon Dock), NMHC at Lothal, national-importance tag count (20), first World Heritage City (Ahmedabad).",
+  "Group-1 uses long statement items on tourism economy (NIDHI, PMI, hotel occupancy).",
+  "App MCQs add many 2025-26 data points (arrival figures, policy incentives, sanction amounts) far more numerous than PYQs show."
+ ],
+ "stats": {"app_mcqs": 76, "pyqs": 21, "fixed": 2, "dropped": 2}
+}

@@ -1,0 +1,28 @@
+{
+ "topic": "3:13",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y4e741090a28", "why": "wrong topic: Census housing data"},
+  {"id": "yae6b587a5a4", "why": "wrong topic: Swachh Bharat Mission"},
+  {"id": "y87ea7149d0e", "why": "wrong topic: urbanisation (Census 2001)"},
+  {"id": "y24f9b388c2e", "why": "garbled"},
+  {"id": "yf2a943ac360", "why": "wrong topic: state GSDP growth"},
+  {"id": "yce447b591c6", "why": "garbled; wrong options (ASEAN trade stem with environment-scheme match list)"},
+  {"id": "y35a45c7df4a", "why": "wrong topic: population density (Census 2011)"},
+  {"id": "y68a4959f38d", "why": "wrong topic: Public Affairs Index (PAC governance ranking)"},
+  {"id": "yd81e78a857a", "why": "wrong topic: Global Peace Index"},
+  {"id": "y1f19ed415d7", "why": "wrong topic: IMD World Competitiveness ranking"},
+  {"id": "yf1745a6caf4", "why": "wrong topic: sex ratio (Census)"},
+  {"id": "y7a5f0f5bb75", "why": "suspect key: in the 2018/2019 SDG India Index Tamil Nadu (66-67) was a Front Runner while Gujarat (64) was a Performer; answer should be Gujarat"}
+ ],
+ "patterns": [
+  "APPSC asks AP's rank in the SDG India Index (overall 4th in 2020-21, SDG-7 1st, SDG-14 2nd, SDG-1 3rd) - straight recall with Roman-numeral or ordinal options.",
+  "Publisher matching recurs: SDG India Index = NITI, Global SDG Report = UNSD, VNR = member states, NIF = MoSPI.",
+  "SDG number-to-name items (SDG 13 climate, SDG 14 oceans, SDG 6 water, SDG 15 life on land) are frequent single-fact questions.",
+  "Current-affairs MoUs/SoIs (NITI-UNICEF children 2022, NITI-UNDP 2023, E-FAST with WRI) and India's SDSN rank by year appear often.",
+  "App covers SDG India Index and FHI well but has no MCQs on Aspirational Districts, Atal Innovation Mission or health/education index toppers named in the topic title."
+ ],
+ "stats": {"app_mcqs": 28, "pyqs": 46, "fixed": 0, "dropped": 0}
+}

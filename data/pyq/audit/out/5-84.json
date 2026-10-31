@@ -1,0 +1,27 @@
+{
+ "topic": "5:84",
+ "mcq_fix": [
+  {"id": "n6337f3704ec", "s": "Which of the following statements about the Seshachalam hills is correct? 1. Red Sanders, endemic to the southern Eastern Ghats of Andhra Pradesh, occurs naturally in the Seshachalam region. 2. Cycas beddomei is a rare endemic cycad of the hills. 3. The Golden Gecko is a micro-endemic fauna of the region. Select the correct answer using the code given below.", "why": "Red Sanders is not confined to Seshachalam alone (also Palakonda, Lankamala, Veligonda hills); answer unchanged"},
+  {"id": "n71e8d754f5e", "s": "Assertion (A): The maximum number of butterfly species is found in tropical regions. Reason (R): Butterflies generally cannot tolerate low temperatures. Select the correct answer using the code given below.", "why": "garbled stem prefix; standard A/R wording as in ya6cde8caf47"}
+ ],
+ "mcq_drop": [
+  {"id": "n55fde4d861a", "why": "ambiguous: Red Sanders is also an AP-endemic threatened species, so option 1 vs 2 unclear"}
+ ],
+ "notes_fix": [
+  {"ref": "22#5", "find": "found naturally only here", "replace": "endemic to the southern Eastern Ghats of AP (Seshachalam, Palakonda, Lankamala, Veligonda hills)", "why": "established range is wider than Seshachalam alone"}
+ ],
+ "pyq_bad": [
+  {"id": "y422fa1a36e6", "why": "garbled: crop-variety pairs truncated"},
+  {"id": "yeb588ab32a8", "why": "wrong topic: gravitation"},
+  {"id": "y68037e14c94", "why": "wrong topic: genetics (chromosome number)"},
+  {"id": "yd01f6cf1c26", "why": "wrong topic: economic zoology (insect products)"},
+  {"id": "yd1fbcccce70", "why": "wrong topic: crop nutrition (protein content)"}
+ ],
+ "patterns": [
+  "APPSC asks plain definitions and roles: role of biodiversity in sustainable development = ecosystem services (2025), Deccan Peninsula provinces (2024), Oryza sativa = rice.",
+  "Other PSCs/UPSC recur on: alpha diversity = local scale, Himalaya rich because of confluence of biogeographic zones, tropics/butterflies A-R, TEEB hosted by UNEP only, marsupials absent from India, Asiatic lion only-India.",
+  "Statement and A-R formats dominate at UPSC; APPSC prefers direct single-answer items.",
+  "App MCQs cover the core well and add a strong AP angle (Seshachalam, Eastern Ghats, APSBB) plus 2025-26 ZSI/BSI figures beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 61, "pyqs": 17, "fixed": 2, "dropped": 1}
+}

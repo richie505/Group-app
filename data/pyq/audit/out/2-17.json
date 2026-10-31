@@ -1,0 +1,25 @@
+{
+ "topic": "2:17",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n76ef4032f20", "why": "off-topic trivia (CSR 2% under Companies Act) for Fundamental Duties"}
+ ],
+ "notes_fix": [
+  {"ref": "9#11", "find": "Its call to continue privy purses was not accepted", "replace": "(Privy purses were already abolished in 1971 by the 26th Amendment - not a Swaran Singh item)", "why": "privy purses abolished 1971; no such 1976 recommendation"}
+ ],
+ "pyq_bad": [
+  {"id": "y1248cdece8f", "why": "garbled: stem truncated, option 4 from another question"},
+  {"id": "ye8465fa7e63", "why": "garbled: match pairs truncated"},
+  {"id": "y921df2b27d5", "why": "wrong topic: Flag Code of India"},
+  {"id": "y20dd7cbb537", "why": "wrong topic: sources of Fundamental Rights"},
+  {"id": "y124d161fe75", "why": "wrong topic: environmental legislation"}
+ ],
+ "patterns": [
+  "APPSC asks the basics: Swaran Singh Committee recommended FDs, number of duties in Art 51A (11), which is NOT a duty (protect elderly/differently abled/children)",
+  "APPSC G1 asks a multi-statement item mixing Verma Committee, Swaran Singh penalty proposal, Art 51A applicability to citizens only",
+  "Other PSCs repeat: 42nd Amendment 1976, Part IV-A, USSR source, 'not a duty' = voting / protecting monuments / respecting parents / organising panchayats",
+  "App MCQs cover clause-by-clause matching and 2025-26 case law well beyond PYQ depth; keep 'which is NOT a duty' items word-for-word",
+  "Traps: 48A (DPSP, State) vs 51A(g) (citizen); 86th not 96th; Swaran Singh 1976 vs Verma 1999"
+ ],
+ "stats": {"app_mcqs": 44, "pyqs": 49, "fixed": 0, "dropped": 1}
+}

@@ -1,0 +1,25 @@
+{
+ "topic": "3:5",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yffd030c61b4", "why": "wrong topic: international years / current affairs"},
+  {"id": "y56c99951b21", "why": "wrong topic: Census population totals"},
+  {"id": "yd82d0c6cbaa", "why": "garbled (other question text prepended); wrong topic: UN international years"},
+  {"id": "ye9b6a0f2115", "why": "garbled (options mixed with sports/flag questions)"},
+  {"id": "ya6715cb4c2d", "why": "wrong topic: sports current affairs"},
+  {"id": "y5b03115cce1", "why": "wrong topic: state population (Census 2001)"},
+  {"id": "y1c4839aea65", "why": "wrong topic: urbanisation - definition of urban centre"},
+  {"id": "yc6e36e036b1", "why": "wrong topic: UN international years (millets)"},
+  {"id": "y13594562f2e", "why": "wrong topic: UN international years (millets)"}
+ ],
+ "patterns": [
+  "APPSC asks single Census 2011 figures: rural share of workforce (72.4% vs population 68.8% as trap), male workers ~332 million.",
+  "Direction-of-change items: cultivators fell, agricultural labourers rose (2001-2011).",
+  "Definitions recur: occupational structure = distribution of working population across sectors; NCEUS chair Arjun Sengupta.",
+  "Census chronology (1872 first, 1881 first synchronous/regular) is a frequent filler around this topic.",
+  "App adds many PLFS 2025-26 current-affairs figures and multi-statement items; PYQs are plainer one-fact recall."
+ ],
+ "stats": {"app_mcqs": 45, "pyqs": 16, "fixed": 0, "dropped": 0}
+}

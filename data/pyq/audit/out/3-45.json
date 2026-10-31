@@ -1,0 +1,24 @@
+{
+ "topic": "3:45",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n573b299987f", "why": "statement 2 dubious: GEAC approved GM mustard DMH-11 for environmental release in 2022; also off-topic under landholdings"}
+ ],
+ "notes_fix": [
+  {"ref": "21#5", "find": "No new GM approvals since (mustard, brinjal pending)", "replace": "No other GM food crop commercialised since (GM mustard DMH-11 got GEAC environmental-release nod in 2022, matter pending in Supreme Court; Bt brinjal under moratorium since 2010)", "why": "established fact: GEAC cleared DMH-11 in Oct 2022"}
+ ],
+ "pyq_bad": [
+  {"id": "yae547c8f88c", "why": "wrong topic: Bharat Nirman / rural infrastructure schemes"},
+  {"id": "y6388ed7a39c", "why": "wrong topic: agricultural schemes (NFSM)"},
+  {"id": "y94fb85e6c0c", "why": "garbled; wrong topic: AP minority welfare budget"},
+  {"id": "y562aca3400d", "why": "mental ability (data interpretation)"}
+ ],
+ "patterns": [
+  "Mostly direct one-liners: which is a cash crop / kharif crop / not a cash crop; size class of marginal or small holding.",
+  "Trap options mix a food crop (jowar, soybean, gram) into a cash-crop list; kharif lists hinge on mustard/wheat/gram being rabi.",
+  "AP tilt is numeric: NSA % of geographical area, foodgrain area in a given year (lakh ha) - options differ by ~3 lakh ha.",
+  "Agro-climatic zone count questions (6/7/9) have changing keys; answer per latest AP Socio-Economic Survey.",
+  "App MCQs lean on multi-statement items with Economic Survey 2025-26 figures, heavier than the PYQs' simple fact recall."
+ ],
+ "stats": {"app_mcqs": 45, "pyqs": 14, "fixed": 0, "dropped": 1}
+}

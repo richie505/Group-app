@@ -1,0 +1,28 @@
+{
+ "topic": "5:62",
+ "mcq_fix": [
+  {"id": "ncd8e788e657", "s": "Which one of the following would NOT follow from India's membership of the Nuclear Suppliers Group?", "why": "stem self-contradictory/oddly worded; answer (NPT membership) unchanged"}
+ ],
+ "mcq_drop": [
+  {"id": "nc1b1f27f9ef", "why": "ambiguous: exclusion zone 1.6 km conflicts with notes (1-1.5 km) and APPSC key of 1 km"},
+  {"id": "ne530156624a", "why": "opinion item on criticisms of the liability framework"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8dd6cd107d5", "why": "garbled: explanation text merged into stem"},
+  {"id": "y172b4cdf444", "why": "wrong options: pairs truncated"},
+  {"id": "y96457ea3f26", "why": "wrong options: states missing from pairs"},
+  {"id": "yc90e074a84f", "why": "garbled: code options truncated"},
+  {"id": "y24fda134c41", "why": "garbled: options truncated (duplicate of ya1bf5ed9b4e)"},
+  {"id": "y9324115a6b8", "why": "wrong topic: chemistry of heavy water"},
+  {"id": "y3100d9312d5", "why": "suspect key: ICONS-2024 was held 20-24 May 2024, so statement 1 looks false"}
+ ],
+ "patterns": [
+  "APPSC asks single facts with an AP tilt: Manuguru HWP year (1991), Kovvada in Srikakulam district, Rawatbhata = Rajasthan, PFBR built by BHAVINI.",
+  "Recurring: first NPP (Tarapur), first HWP (Nangal), plant-state matching, IAEA HQ Vienna, exclusion zone = 1 km.",
+  "Statement-type APPSC item on Kudankulam delays (USSR break-up + protests, not 1991 crisis).",
+  "Other PSCs/UPSC add IAEA safeguards, Additional Protocol and first post-waiver deal (France).",
+  "App MCQs go much deeper into SHANTI Act 2025 caps, fleet mode, dose limits and current figures than PYQs show."
+ ],
+ "stats": {"app_mcqs": 69, "pyqs": 29, "fixed": 1, "dropped": 2}
+}

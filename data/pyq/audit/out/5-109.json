@@ -1,0 +1,23 @@
+{
+ "topic": "5:109",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nchemistry-19-22", "why": "self-answering match: List-I items already name Allethrin/Prallethrin"},
+  {"id": "n04a6a3c7bde", "why": "opinion/debate item ('scalability questioned'), not a testable fact"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y35379c26fd9", "why": "wrong topic: plant fibres"},
+  {"id": "y37bd5698d16", "why": "wrong topic: plant fibres"},
+  {"id": "y602c1a33999", "why": "garbled: option pairs truncated"},
+  {"id": "y0b9046ae4da", "why": "suspect key: aluminium phosphide is chiefly a fumigant (option 4), key says insecticide"}
+ ],
+ "patterns": [
+  "APPSC asks AP-tilted direct facts: Year of Natural Farming (2018), Palekar = ZBNF, PKVY as the organic-farming initiative, NE organic states (Assam not one).",
+  "APPSC statement items on agriculture and environment: fertiliser/pesticide pollution true, monoculture harmful; 'eco-friendly practice = organic farming'.",
+  "Other PSCs ask agrochemical one-liners: zinc phosphide rat poison, copper sulphate fungicide, allethrin/prallethrin repellents, neem-coated urea slows dissolution, DAP 18-46.",
+  "Recurring keys: Sikkim first fully organic State; sunn hemp best green manure; NPOP under Commerce/APEDA (not Rural Development).",
+  "App leans on scheme statistics (NMNF figures, PM-PRANAM) and long multi-statement items beyond APPSC's depth."
+ ],
+ "stats": {"app_mcqs": 37, "pyqs": 36, "fixed": 0, "dropped": 2}
+}

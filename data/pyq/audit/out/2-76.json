@@ -1,0 +1,31 @@
+{
+ "topic": "2:76",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n4649217d543", "why": "ambiguous: Punjab, Rajasthan and West Bengal also all withdrew general consent, so option 1 is also correct"},
+  {"id": "n892a1b445b9", "why": "dubious statement 4: CIC is not the 'only body' able to declare a public authority (courts do too)"},
+  {"id": "nbb166339bc5", "why": "oddly worded, dubious claims on SPSC/State Vigilance Commission; no exam frames it this way"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y32e484d0911", "why": "wrong topic: President/Vice-President vacancy"},
+  {"id": "y95d3dc78f57", "why": "garbled: years missing from options"},
+  {"id": "y36b5c8d877c", "why": "wrong topic: Leader of Opposition in Lok Sabha"},
+  {"id": "y9ad2f38f251", "why": "wrong topic: Brexit current affairs; garbled with another stem, no key"},
+  {"id": "yefb9c89663a", "why": "wrong topic: Brexit current affairs; no key"},
+  {"id": "y2fe99068202", "why": "garbled: stem truncated, options merged, no key"},
+  {"id": "yfa2e926215c", "why": "wrong topic: Gandhi Peace Prize jury"},
+  {"id": "yf94d1dc2b8d", "why": "wrong topic: dissolution of Lok Sabha"},
+  {"id": "ye0cec9ce9d0", "why": "garbled: stem truncated (Lokpal selection committee)"},
+  {"id": "y0c3552c66e4", "why": "wrong topic: constitutional head of India"},
+  {"id": "y6dc8571369b", "why": "wrong topic: order of precedence; stem truncated"}
+ ],
+ "patterns": [
+  "APPSC asks appointing-authority pairs: CIC by President, SIC by Governor, PIO designated by public authority (not SC/Parliament).",
+  "Other PSCs repeatedly ask CVC = Santhanam Committee recommendation; CBI 1963 and founder Director D.P. Kohli; BHARATPOL developed by CBI.",
+  "UPSC uses 'how many rows correctly matched' on agency-function-ministry (CBI = DoPT, ED/DRI = Finance, SFIO = Corporate Affairs).",
+  "Traps: CBI non-statutory vs CVC statutory (2003); CIC panel has a PM-nominated minister, CVC panel the Home Minister, CBI panel the CJI.",
+  "App goes deeper (Directorate of Prosecution, Vineet Narain citation, 2026 current affairs) than the direct one-liners APPSC uses."
+ ],
+ "stats": {"app_mcqs": 37, "pyqs": 18, "fixed": 0, "dropped": 3}
+}

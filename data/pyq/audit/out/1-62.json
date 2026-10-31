@@ -1,0 +1,31 @@
+{
+ "topic": "1:62",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n5d6fc0ab214", "why": "oddly worded option ('no defeat stated'); unexam-like"}
+ ],
+ "notes_fix": [
+  {"ref": "15#14", "find": "(Jaunpur inscription, UP)", "replace": "(Haraha inscription, UP)", "why": "y37ae29c2019: Jaunpur = Ishvaravarman, Haraha = Ishanavarman"}
+ ],
+ "pyq_bad": [
+  {"id": "y23a9f202e29", "why": "suspect key: Asoka marked; founder of Nalanda = Kumaragupta (yac9b82ca36a); option 4 garbled"},
+  {"id": "y69e61928f1f", "why": "mental ability"},
+  {"id": "yf86edd935f3", "why": "mental ability"},
+  {"id": "y3ac3499d43e", "why": "mental ability"},
+  {"id": "y4683c942c30", "why": "garbled; wrong topic: Chausath Yogini temple (medieval architecture)"},
+  {"id": "y0161c6991e2", "why": "wrong topic: Chausath Yogini temple (medieval architecture)"},
+  {"id": "y26c87e55548", "why": "wrong topic: Paramara dynasty"},
+  {"id": "ya671028b24d", "why": "wrong topic: ancient textiles/economy"},
+  {"id": "ybff6368158b", "why": "wrong topic: Mauryan land grants"},
+  {"id": "yb20e304d93a", "why": "garbled"},
+  {"id": "yab45409b1a1", "why": "suspect key: Parama Bhagavata title usually credited first to Chandragupta II"}
+ ],
+ "patterns": [
+  "APPSC asks chronological order of Gupta rulers (Samudragupta > Chandragupta II > Kumaragupta I > Skandagupta) and founder of Nalanda.",
+  "Other PSCs repeatedly ask: Fa-Hien in Chandragupta II's reign, Saka conqueror / silver coins, Prabhavati-Vakataka, Napoleon of India, Skandagupta defeated Hunas, Yashodharman defeated Mihirakula.",
+  "APPSC asks successor states by ruler names (Maitrakas of Valabhi: Dharapatta, Guhasena).",
+  "Trap: Arab invasion not a cause of Gupta decline; Saka-model coins were silver, not gold.",
+  "App adds many analytical/inference and 3-statement items on decline causes, deeper than the direct single-fact PYQs."
+ ],
+ "stats": {"app_mcqs": 48, "pyqs": 45, "fixed": 0, "dropped": 1}
+}

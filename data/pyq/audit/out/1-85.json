@@ -1,0 +1,24 @@
+{
+ "topic": "1:85",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "14#4", "find": "⚠ Trap: \"daughter of Rajendra Chola II\" marked incorrect in the APPSC 2025 key → do not accept Rajendra II", "replace": "Standard histories (Nilakanta Sastri) make Madhurantaki the daughter of Rajendra II; the APPSC key on this item (y5e6494e2863) is unreliable - avoid building answers on it", "why": "established fact; PYQ y5e6494e2863 key is internally impossible"},
+  {"ref": "6#3", "find": "⚠ APPSC 2025: Madhurantaki \"daughter of Rajendra II\" = incorrect", "replace": "Madhurantaki: daughter of Rajendra II per standard histories (some notes: Virarajendra); APPSC 2025 key unreliable", "why": "established fact; PYQ y5e6494e2863 key suspect"},
+  {"ref": "14#6", "find": "Rajaraja III (Mummadi Chola) Titles Vishnuvardhana, Sarvalokashraya;", "replace": "Rajaraja (Mummadi Chola; not the later emperor Rajaraja III) ruled from Jagannathapuram; APPSC key credits titles Vishnuvardhana, Sarvalokashraya + coronation at Jananathapura to Rajaraja Chola Ganga;", "why": "PYQ ybf558a53cd8 key = Raja Raja Chola Ganga; Rajaraja III is a 13th-c. emperor"}
+ ],
+ "pyq_bad": [
+  {"id": "y74b62f076d8", "why": "suspect key: bronze Nataraja images flourished under the Imperial Cholas (option 4), not Pandyas"},
+  {"id": "y5e6494e2863", "why": "suspect key: statement II (Ammangadevi daughter of Rajendra I married Rajaraja Narendra) is correct, so 'Only II' cannot be the answer"},
+  {"id": "y32ad16d09d8", "why": "wrong topic: world geography (Angkor Wat location)"},
+  {"id": "yae54072fe91", "why": "wrong topic: world first woman PM"}
+ ],
+ "patterns": [
+  "APPSC favours 'identify the incorrect/correct statement' on founder (Vijayalaya), successor (Aditya I) and titles (Gangaikonda = Rajendra I).",
+  "Strong AP tilt via Vengi: Chola-Eastern Chalukya marriages (Kundavai-Vimaladitya, Ammangadevi-Rajaraja Narendra) and Chalukya-Chola viceroys at Jananathapura (Draksharama).",
+  "Direct one-liners elsewhere: Brihadeeswara = Rajaraja I, Gangaikondacholapuram/Chola Gangam/Srivijaya = Rajendra I, 72 merchants to China = Kulottunga I.",
+  "Traps swap Rajaraja I and Rajendra I (north vs whole of Sri Lanka; naval army vs Srivijaya).",
+  "App MCQs match the PYQ shapes well; app adds more battle-detail (Kalidindi, Dharanikota) and 2026 current-affairs (Leiden plates)."
+ ],
+ "stats": {"app_mcqs": 46, "pyqs": 24, "fixed": 0, "dropped": 0}
+}

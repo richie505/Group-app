@@ -1,0 +1,138 @@
+{
+ "topic": "4:85",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {
+   "id": "n6be78d7b58d",
+   "why": "off-topic (Index of Core Industries), not industrial location"
+  },
+  {
+   "id": "nworld-geography-16-8",
+   "why": "ambiguous count; Keihin industry list varies by source"
+  }
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {
+   "id": "y2a355aee8f1",
+   "why": "wrong topic: awards (Sakharov Prize)"
+  },
+  {
+   "id": "yb27b9af9f88",
+   "why": "wrong topic: awards (Sakharov Prize)"
+  },
+  {
+   "id": "y7d54e5237bb",
+   "why": "wrong topic: nuclear disasters"
+  },
+  {
+   "id": "y4d0cb4876c1",
+   "why": "wrong topic: India-UK bilateral current affairs"
+  },
+  {
+   "id": "y03f28f351cf",
+   "why": "wrong topic: mineral resources of Africa"
+  },
+  {
+   "id": "y2908135ada7",
+   "why": "wrong topic: conflict regions in news"
+  },
+  {
+   "id": "ye1ba8685b94",
+   "why": "garbled: options truncated"
+  },
+  {
+   "id": "y0980c243d60",
+   "why": "wrong topic: cinema current affairs"
+  },
+  {
+   "id": "yb44db62523b",
+   "why": "wrong topic: Asian countries geography"
+  },
+  {
+   "id": "ye330c8d9db4",
+   "why": "wrong topic: regions in news"
+  },
+  {
+   "id": "ydca0a43f3f1",
+   "why": "wrong topic: Asian airports / map"
+  },
+  {
+   "id": "y2d49c2cfef3",
+   "why": "wrong topic: national capitals"
+  },
+  {
+   "id": "y8126ddae8d1",
+   "why": "wrong topic: city nicknames"
+  },
+  {
+   "id": "ybc9d0df0445",
+   "why": "garbled"
+  },
+  {
+   "id": "y428d29d8253",
+   "why": "wrong topic: AP industrial policy"
+  },
+  {
+   "id": "yd9bc40d92dd",
+   "why": "wrong topic: sports (Commonwealth Games)"
+  },
+  {
+   "id": "yf20b1764748",
+   "why": "wrong topic: sports (Commonwealth Games)"
+  },
+  {
+   "id": "yd77562c107c",
+   "why": "wrong topic: sports (Commonwealth Games)"
+  },
+  {
+   "id": "ye9fdb1204fa",
+   "why": "wrong topic: sports (Commonwealth Games)"
+  },
+  {
+   "id": "y829cbb157b3",
+   "why": "wrong topic: sports; garbled stem"
+  },
+  {
+   "id": "y1c6bb67675b",
+   "why": "wrong topic: national capitals"
+  },
+  {
+   "id": "ybffa0fb91ce",
+   "why": "wrong topic: national capitals"
+  },
+  {
+   "id": "y68911320397",
+   "why": "garbled: options truncated"
+  },
+  {
+   "id": "yf8d24a2c376",
+   "why": "garbled: options truncated"
+  },
+  {
+   "id": "y58129317acc",
+   "why": "garbled: options truncated"
+  },
+  {
+   "id": "yed14f75fe9f",
+   "why": "garbled: options truncated"
+  },
+  {
+   "id": "y18bf7d40deb",
+   "why": "wrong topic: coal production (mineral resources)"
+  }
+ ],
+ "patterns": [
+  "APPSC asks region-country match statements (Atlantic coast = USA, Ural = Russia; Ruhr NOT Eastern Europe) and 'richest mineral region' (Ural).",
+  "Footloose industry example (diamond cutting) and centre-industry pairs (Hamilton = Canadian steel at western Lake Ontario) recur.",
+  "Other PSCs favour 'not correctly matched' city-industry pairs: Osaka cotton, Detroit autos, Aberdeen oil capital, Mesabi = iron ore not coal.",
+  "Japan as market-based steel location and Manchester of the East = Osaka are repeated traps.",
+  "App adds Weber/Losch/Isard theory and many count-type 'how many' items built from note tables, beyond APPSC depth."
+ ],
+ "stats": {
+  "app_mcqs": 45,
+  "pyqs": 45,
+  "fixed": 0,
+  "dropped": 2
+ }
+}

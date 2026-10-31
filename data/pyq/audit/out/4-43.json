@@ -1,0 +1,46 @@
+{
+ "topic": "4:43",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n0f6862e4bd1", "why": "oddly constructed distractor ('climate change - only Punjab...'); obscure state lists"}
+ ],
+ "notes_fix": [
+  {"ref": "12#11", "find": "APPSC-G1 2024 (OCR) key printed \"semi-arid climate with salinity\" — that describes saline soils, not peaty ones; follow the waterlogged-organic description", "replace": "APPSC-G1 key = \"areas of heavy rainfall and high humidity with good vegetation\"; \"semi-arid climate with salinity\" is the saline-soil distractor", "why": "y59695a7b636 key is option 3, not the semi-arid option"}
+ ],
+ "pyq_bad": [
+  {"id": "yb72ae47ba5c", "why": "mental ability"},
+  {"id": "y57014762d66", "why": "wrong topic: plant ecology (hekistotherms)"},
+  {"id": "y6266deb6f98", "why": "wrong topic: world agriculture (coffee in USA)"},
+  {"id": "y19c45013ba7", "why": "wrong topic: chemistry (mosquito repellents)"},
+  {"id": "y32571cbe0f0", "why": "wrong topic: nutrition (milk)"},
+  {"id": "y31376767f94", "why": "wrong topic: biology / nitrogen fixation"},
+  {"id": "y4fdce20118e", "why": "wrong topic: agricultural practices sequence"},
+  {"id": "y66e7f17aabe", "why": "wrong topic: biodiversity; option 3 garbled"},
+  {"id": "y275f5341a8c", "why": "garbled: stem beginning missing"},
+  {"id": "yaaeff451805", "why": "garbled: stem beginning missing"},
+  {"id": "y8040660d868", "why": "garbled: option numbers stripped"},
+  {"id": "ya229586fed4", "why": "garbled: option numbers stripped (duplicate)"},
+  {"id": "y09ba87f9952", "why": "garbled: option numbers stripped (duplicate)"},
+  {"id": "yf2c67b4fc12", "why": "garbled: option numbers stripped (duplicate)"},
+  {"id": "y0001a95f13a", "why": "garbled options; suspect key: UPSC 2012 answer is 1, 2 and 3 (see y13135cab0f5)"},
+  {"id": "y010435490c1", "why": "garbled: option numbers stripped"},
+  {"id": "yc2e6e30fab8", "why": "garbled: option numbers stripped (duplicate)"},
+  {"id": "ya139a994425", "why": "garbled: option numbers stripped"},
+  {"id": "y3c6563947e3", "why": "garbled: option numbers stripped (duplicate)"},
+  {"id": "y5a2f445e159", "why": "garbled: option numbers stripped"},
+  {"id": "yc72caae6869", "why": "garbled: option numbers stripped"},
+  {"id": "y4eeaf2045cd", "why": "garbled options; suspect key: conflicts with yc72caae6869 (same question, key 4)"},
+  {"id": "y0f450fe4022", "why": "garbled: option numbers stripped"},
+  {"id": "y396dc4ad34a", "why": "garbled: option numbers stripped (duplicate)"},
+  {"id": "y51c80533905", "why": "garbled: stray book header in stem (duplicate of y432c9cf0307)"},
+  {"id": "yd523a04b235", "why": "garbled: stray book header in stem"}
+ ],
+ "patterns": [
+  "APPSC tests soil-type identification: Khadar vs Bhangar (kankar in Bhangar), peaty soil conditions, laterite in AP, very deep black soils in NW Deccan.",
+  "Recurring reclamation pair: gypsum for alkaline/saline soils, lime for acidic soils.",
+  "Erosion items: Chambal ravines = gully, order splash-sheet-rill-gully, afforestation/crop rotation as conservation.",
+  "UPSC adds conservation agriculture, Soil Health Card aims and ICAR/USDA order ranking.",
+  "App MCQs track the notes closely and add 2026 FAO report and Kurnool CA items that PYQs never reach."
+ ],
+ "stats": {"app_mcqs": 55, "pyqs": 47, "fixed": 0, "dropped": 1}
+}

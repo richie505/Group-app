@@ -1,0 +1,50 @@
+{
+ "topic": "3:16",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ne6f3eae5949", "why": "vague opinion-style item ('emerging policy preference')"},
+  {"id": "nindian-economy-69-9", "why": "ambiguous A-R: whether R explains A is arguable; overlaps -8 and -13"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ye2a81e26601", "why": "suspect key: NHDR 2001 (Apr 2002) put Kerala at the top, not Maharashtra"},
+  {"id": "yddba36d3a3d", "why": "suspect key: HDR 2015 ranked India 130 of 188, not 183, so statement A is false"},
+  {"id": "yd7bc2f71991", "why": "garbled: HDR 2025 table text merged into a 2014 rank question"},
+  {"id": "ya4ac017e47d", "why": "garbled: explanatory text from another item prefixed to stem"},
+  {"id": "y1049d87b6fd", "why": "garbled: page numbers in stem/options (duplicate of ybcfc923f014)"},
+  {"id": "yb09d649d71c", "why": "garbled; wrong topic: statistics - index numbers"},
+  {"id": "y03e3aa8b265", "why": "wrong topic: statistics - index numbers (geometric mean)"},
+  {"id": "yeb3662b2333", "why": "garbled: options truncated ('and 3', 'and 4')"},
+  {"id": "y8949b6771ff", "why": "garbled: options truncated; wrong topic: human capital formation"},
+  {"id": "ybb0f5689d16", "why": "wrong topic: BRICS membership"},
+  {"id": "y9c691b66350", "why": "wrong topic: BRICS chairmanship"},
+  {"id": "yc30db97b2c8", "why": "wrong topic: BRICS history"},
+  {"id": "ya32f59fa917", "why": "wrong topic: Malthusian population theory"},
+  {"id": "yfe827d43778", "why": "wrong topic: women's media / misc GK"},
+  {"id": "ybe129ad32e8", "why": "wrong topic: SAARC population density"},
+  {"id": "yed5737e10f1", "why": "wrong topic: state per-capita income"},
+  {"id": "ya0db9e36fb5", "why": "wrong topic: Census population density"},
+  {"id": "y944ef17cade", "why": "wrong topic: Census population density"},
+  {"id": "y267891cf474", "why": "wrong topic: Census population density (key also looks wrong)"},
+  {"id": "yd6ef0c9778e", "why": "wrong topic: beggar census / social justice"},
+  {"id": "y39b40021bb6", "why": "wrong topic: SC population (Census)"},
+  {"id": "y67b6f07302d", "why": "wrong topic: state population"},
+  {"id": "y7a3b18b00c1", "why": "wrong topic: Census household size"},
+  {"id": "yfc12e5f12a4", "why": "wrong topic: tribal population"},
+  {"id": "yd4f772603ba", "why": "wrong topic: AP welfare portals"},
+  {"id": "y3b27bd8f65c", "why": "mental ability"},
+  {"id": "y4d844d80a67", "why": "mental ability"},
+  {"id": "y29fbb1310db", "why": "mental ability"},
+  {"id": "y496a91038d2", "why": "mental ability"},
+  {"id": "y931dbf32ade", "why": "mental ability"},
+  {"id": "yfad52d4a7c1", "why": "mental ability"}
+ ],
+ "patterns": [
+  "APPSC asks direct items: India's HDI category (Medium, 0.685), India's rank in a named HDR (119 in 2010, 134 in 2023-24), what HDI does NOT include (assets, environment, nutrition).",
+  "Origin facts recur across PSCs: UNDP, 1990, Mahbub ul Haq; HPI 1997 replaced by MPI 2010; first state HDR Madhya Pradesh.",
+  "APPSC Group-1 uses long multi-statement items on IHDI/GDI/PHDI conceptual traps (IHDI = HDI when no inequality; GDI < 1 favours men).",
+  "State angle: Kerala tops state HDI; Bihar lowest; AP tilt via MPI headcount comparisons.",
+  "App MCQs add many match/A-R items on the capability approach and 2025-26 poverty data, more conceptual than APPSC's rank/category recall."
+ ],
+ "stats": {"app_mcqs": 40, "pyqs": 62, "fixed": 0, "dropped": 2}
+}

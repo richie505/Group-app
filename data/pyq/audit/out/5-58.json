@@ -1,0 +1,36 @@
+{
+ "topic": "5:58",
+ "mcq_fix": [
+  {"id": "n6ac7a628d32", "s": "The Petroleum and Natural Gas Regulatory Board (PNGRB) regulates which two of the following activities? 1. Production of crude oil 2. Refining, storage and distribution of petroleum 3. Marketing and sale of petroleum products 4. Production of natural gas Select the correct answer using the code given below.", "why": "odd wording 'specified regulatory division'; y84f28036add"}
+ ],
+ "mcq_drop": [
+  {"id": "n51aac3c5bc5", "why": "dubious claim (gas 'first found' in Assam and Maharashtra in 1960s)"},
+  {"id": "n9e8cf999fdf", "why": "ambiguous: Tripura lies in the Assam-Arakan fold belt, itself a Category I basin"},
+  {"id": "ndf3362b1061", "why": "obscure IUCN motion trivia"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y7648d8edd69", "why": "wrong topic: physics (density/flotation)"},
+  {"id": "y633a0ed8f5b", "why": "wrong topic: physics (surface tension)"},
+  {"id": "y6add7e38963", "why": "wrong topic: physics (density/flotation)"},
+  {"id": "yce2928c8cd5", "why": "wrong topic: physics (buoyancy)"},
+  {"id": "y5d98e53bc35", "why": "wrong topic: chemistry/polymers; suspect key: polythene is made from ethylene"},
+  {"id": "y8b83ed20130", "why": "wrong topic: chemistry (alkane molecular weights)"},
+  {"id": "y51c784bfecf", "why": "wrong topic: biogas / renewable energy"},
+  {"id": "ybfa69f2f90d", "why": "wrong topic: biogas / renewable energy"},
+  {"id": "y0f4caa32d0f", "why": "wrong topic: biogas / renewable energy"},
+  {"id": "y2e5883c5d1f", "why": "garbled: stem missing, options unrelated to topic"},
+  {"id": "yd10efd843a8", "why": "garbled options (percentages lost)"},
+  {"id": "y189dc1c3f09", "why": "garbled options (leading numbers lost)"},
+  {"id": "yf4eef992cb3", "why": "garbled options (leading numbers lost)"},
+  {"id": "y58d7ef1d659", "why": "garbled options (leading numbers lost)"},
+  {"id": "yc174f3398eb", "why": "suspect key: Indian domestic LPG is mainly butane (other PYQs key butane)"}
+ ],
+ "patterns": [
+  "Most PYQs are chemistry-of-fuels one-liners: main constituent of LPG (butane), CNG/natural gas/biogas (methane), LPG odour (odourless; ethyl mercaptan added).",
+  "APPSC asks single geographic facts: largest shale gas reserves (Cambay), Ravva field partners, oil-gas-water order in a well, SCCL equity 51:49.",
+  "Policy items (PNGRB scope, Coal Controller's Organisation, Brent) come from UPSC; APPSC tilt is KG basin and Singareni.",
+  "App leans heavily on 2025-26 current-affairs numbers (SPR levy, Samudra Manthan, Hormuz) and multi-statement items; few fuel-composition one-liners which the exam favours."
+ ],
+ "stats": {"app_mcqs": 51, "pyqs": 33, "fixed": 1, "dropped": 3}
+}

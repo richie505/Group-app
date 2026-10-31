@@ -1,0 +1,30 @@
+{
+ "topic": "4:80",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n38e16739720", "why": "shaky world-rank trivia (India 6th rubber, 7th coffee) that varies by year/source"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yf159d0f2d43", "why": "suspect key: Malaysia no longer leads natural rubber production/export (Thailand; Indonesia ahead of Malaysia)"},
+  {"id": "y4dc5b4c2407", "why": "suspect key: largest rubber cultivation is in SE Asia (Thailand/Indonesia), not India"},
+  {"id": "y5cc01f86391", "why": "suspect key: India is the largest producer and consumer of pulses, not rice (China)"},
+  {"id": "y0ee45b06f43", "why": "wrong topic: world political geography (former capitals)"},
+  {"id": "yf3454518fa1", "why": "wrong topic: continents"},
+  {"id": "y8b108db7d67", "why": "wrong topic: islands of the world"},
+  {"id": "y59c184a9e57", "why": "wrong topic: national capitals"},
+  {"id": "y4e2c7ff44cd", "why": "wrong topic: sports current affairs"},
+  {"id": "yb7990a5ac0d", "why": "wrong topic: world minerals (copper)"},
+  {"id": "yf20a26c9dac", "why": "wrong topic: world minerals (copper)"},
+  {"id": "yaeaa29acbb6", "why": "wrong topic: world minerals (diamonds)"},
+  {"id": "yd0e7223f2ef", "why": "garbled: two questions merged, options truncated"},
+  {"id": "y94ec87e03df", "why": "garbled options (leading numbers lost)"}
+ ],
+ "patterns": [
+  "Definitions dominate: mixed farming = crops + livestock (APPSC and UPSC), viticulture = grapes, vertical farming = year-round crops in non-tropical regions, jhum in NE India.",
+  "Largest-producer one-liners are the commonest shape (rubber Thailand, cocoa Côte d'Ivoire/Ghana, coffee Brazil, saffron Iran, castor India, rice exporter India); several old keys are outdated.",
+  "APPSC Group-1 asked the geographer behind 4 macro regions of India (Sengupta & Sdasyuk); Borlaug's nationality and HYV origin in Mexico recur.",
+  "App uses many A-R and 'how many' items and long region lists; exam keeps to one fact per question."
+ ],
+ "stats": {"app_mcqs": 39, "pyqs": 53, "fixed": 0, "dropped": 1}
+}

@@ -1,0 +1,26 @@
+{
+ "topic": "3:94",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nfae61666555", "why": "ambiguous: flat sales tax widely called regressive in effect; keyed as not regressive"},
+  {"id": "n1d7a8b70762", "why": "obscure debate trivia (PAN-based data) beyond PYQ depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yb3a93690af8", "why": "garbled: options truncated"},
+  {"id": "ycf65e9f40d1", "why": "suspect key: VAT is self-enforcing; the non-VAT description is 'diminish revenue buoyancy' (opt 1)"},
+  {"id": "y1b72356c7ef", "why": "garbled: mixed with other questions"},
+  {"id": "y69aa1ce57ce", "why": "mental ability"},
+  {"id": "y835d229e1a2", "why": "mental ability"},
+  {"id": "y228350ad58c", "why": "garbled: answer-key text inside options"},
+  {"id": "y389f729eff5", "why": "garbled: Reason text missing"}
+ ],
+ "patterns": [
+  "Dominant shape: 'which is a direct / not an indirect tax' and taxable-event items (excise = production, customs = import/export).",
+  "APPSC also asks definitions (tax = compulsory pecuniary burden, no quid pro quo), Centre tax-GDP figure from Economic Survey (9.9% in 2019-20), early-planning dominance of indirect taxes.",
+  "Committee-to-subject recall: Kelkar (direct and indirect), Chelliah (tax reform), L.K. Jha (VAT/MODVAT); MODVAT/CENVAT = excise.",
+  "Union vs State levies (corporation tax Union; agricultural income, entertainment tax State) recur across PSCs.",
+  "App leans on 2026-27 Budget shares, buoyancy figures and AP own-tax data; more statement-combination items than PYQs show."
+ ],
+ "stats": {"app_mcqs": 38, "pyqs": 57, "fixed": 0, "dropped": 2}
+}

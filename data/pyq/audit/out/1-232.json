@@ -1,0 +1,38 @@
+{
+ "topic": "1:232",
+ "mcq_fix": [
+  {"id": "n149dc584caa", "o": ["Ambalal Sarabhai with Vallabhbhai Patel's guidance", "J.B. Kripalani with Anugrah Narayan Sinha's guidance", "Rajendra Prasad with Gandhi's guidance", "Mahatma Gandhi, with Anusuya Sarabhai"], "why": "UPSC key ybca83dd7bc3/ya0dc34ad97b: TLA founded by Gandhi"},
+  {"id": "nindian-history-122-8", "s": "Match List-I with List-II: List-I (a) Dr. Saifuddin Kitchlew (b) Michael O'Dwyer (c) Brigadier-General Reginald Dyer (d) Lord Chelmsford  List-II i. Viceroy ii. Officer who ordered firing iii. Amritsar leader arrested in April 1919 before the massacre iv. Lieutenant Governor of Punjab", "why": "Kitchlew and Satyapal were arrested on 10 April 1919, not 9 April"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-history-122-22", "why": "dubious trivia ('Lion of British Empire'), junk options"},
+  {"id": "n9836d6abed5", "why": "opinion-style significance item; near-duplicate of n02beb3921f6"}
+ ],
+ "notes_fix": [
+  {"ref": "13#0", "find": "founded 1920 by Anusuya Sarabhai with Gandhi's guidance", "replace": "founded 1920 by Gandhi with Anusuya Sarabhai (exam key: founder = Gandhi)", "why": "ybca83dd7bc3, ya0dc34ad97b"},
+  {"ref": "3#0", "find": "Workers' side; founded TLA", "replace": "Workers' side; co-founded TLA with Gandhi (key: Gandhi)", "why": "ybca83dd7bc3"}
+ ],
+ "pyq_bad": [
+  {"id": "y593c4223798", "why": "suspect key: answer is 'joining of peasant unrest to national movement' (opt 3), not 4"},
+  {"id": "y4dec7a4c104", "why": "garbled: stem carries passage of another question; wrong topic: Non-Cooperation Movement"},
+  {"id": "y5b3a9368d18", "why": "suspect key: 'Himalayan miscalculation' was the 1919 Rowlatt satyagraha (Kheda district), not NCM; stem muddled"},
+  {"id": "ycd7d39c89cb", "why": "wrong topic: Tilak / Home Rule Movement"},
+  {"id": "y7b284c23f08", "why": "wrong topic: Swaraj Party / Non-Cooperation Movement"},
+  {"id": "yc75b951d3b7", "why": "wrong topic: Swaraj Party / Non-Cooperation Movement"},
+  {"id": "y06c30c5a911", "why": "wrong topic: Swadeshi Movement"},
+  {"id": "yaf48563da1c", "why": "wrong topic: women in national movement"},
+  {"id": "ya906c850bf1", "why": "wrong topic: Non-Cooperation Movement in Bihar"},
+  {"id": "y64ec47ca615", "why": "wrong topic: Non-Cooperation Movement"},
+  {"id": "y9953d325f49", "why": "wrong topic: Non-Cooperation Movement"},
+  {"id": "yebb7326a395", "why": "wrong topic: Swadeshi Movement"},
+  {"id": "yd07b39a7100", "why": "garbled/unclear stem; not about Champaran-Kheda-Ahmedabad"}
+ ],
+ "patterns": [
+  "Dominant shape: one-liners - who invited Gandhi (Rajkumar Shukla), Tinkathia = indigo on 3/20, first satyagraha = Champaran, first hunger strike = Ahmedabad.",
+  "Chronology items (Champaran -> Ahmedabad -> Kheda -> Rowlatt -> NCM) recur heavily.",
+  "'Not associated' person traps: Lohia, JP Narayan vs Rajendra Prasad, Kripalani, A.N. Sinha; Agrarian Committee membership.",
+  "APPSC itself asked why Kheda was called off (revenue only from those able to pay) and Gandhi journals (Mathrubhumi trap).",
+  "App adds Jallianwala Bagh depth and some opinion/significance items not seen in PYQs; TLA founder keyed as Gandhi in exams, app credited Anusuya."
+ ],
+ "stats": {"app_mcqs": 49, "pyqs": 60, "fixed": 2, "dropped": 2}
+}

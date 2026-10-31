@@ -1,0 +1,31 @@
+{
+ "topic": "3:12",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nfcdee813737", "why": "oddly worded (asks what an answer key says); member count varies by reconstitution"},
+  {"id": "nebad2312d47", "why": "opinion item ('best describes a major criticism')"}
+ ],
+ "notes_fix": [
+  {"ref": "13#10", "find": "ten meetings held (as of 2026)", "replace": "eleven meetings held (11th on 11 Jun 2026)", "why": "contradicts [13#11]: 11th meeting already held Jun 2026"}
+ ],
+ "pyq_bad": [
+  {"id": "y43c7f4edaff", "why": "wrong topic: government schemes (Beti Bachao Beti Padhao)"},
+  {"id": "yf5bdacd93cc", "why": "wrong topic: sports awards"},
+  {"id": "y33d080bf65a", "why": "wrong topic: outcome budget"},
+  {"id": "yb539841673b", "why": "wrong topic: poverty estimation"},
+  {"id": "y1f3f28ba81e", "why": "wrong topic: Central Pay Commission"},
+  {"id": "y765063e5e2c", "why": "wrong options: committee names belong to another question"},
+  {"id": "y18e16340620", "why": "garbled options (statement numbers lost)"},
+  {"id": "y68749167c8d", "why": "wrong topic: World Consumer Rights Day"},
+  {"id": "y380a4d10bbe", "why": "suspect key: Governors of States (1) are not in the Governing Council; CMs are (cf. y56e319df65f)"},
+  {"id": "y208a3740785", "why": "garbled: options truncated"}
+ ],
+ "patterns": [
+  "Most asked: date of establishment (1 Jan 2015), what it replaced (Planning Commission), full form of NITI.",
+  "APPSC asks the approach (co-operative federalism) and the current Vice-Chairman - answers go stale, so keys must be read by exam year.",
+  "Governing Council composition (CMs, LGs, not Governors) and first VC Arvind Panagariya recur across PSCs.",
+  "APPSC 2025 added an Assertion-Reason on non-constitutional status vs village-level planning objective.",
+  "App MCQs add heavy 2026 current affairs (11th GC theme, new members, SETU, G-HUB) far beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 38, "pyqs": 29, "fixed": 0, "dropped": 2}
+}

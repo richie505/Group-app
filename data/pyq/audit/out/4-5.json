@@ -1,0 +1,35 @@
+{
+ "topic": "4:5",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n6e49d1b982f", "why": "obscure Swarm outer-core flow trivia, far beyond PYQ depth"},
+  {"id": "nb2b206bbd91", "why": "obscure research-news item on mantle earthquakes"},
+  {"id": "n68e73a62fb5", "why": "obscure Suess density/thickness figures; sources disagree"}
+ ],
+ "notes_fix": [
+  {"ref": "10#0", "find": "a Yugoslavian seismologist", "replace": "a Croatian seismologist", "why": "Yugoslavia did not exist in 1909; Mohorovicic was Croatian"}
+ ],
+ "pyq_bad": [
+  {"id": "yf89eedfc0a5", "why": "wrong topic: physics - inertia"},
+  {"id": "y16f52123db2", "why": "wrong topic: AP wildlife sanctuaries"},
+  {"id": "ydfec3b05bc2", "why": "wrong topic: semiconductors / silicon in ICs"},
+  {"id": "y301620faa27", "why": "wrong topic: physics instruments (hydrometer)"},
+  {"id": "y6da5e8d280a", "why": "garbled duplicate of y1a7b6593241"},
+  {"id": "y7a203a23133", "why": "wrong topic: chemistry - rusting"},
+  {"id": "y2a897c3277a", "why": "mental ability (geometry)"},
+  {"id": "y63ca91ffe7b", "why": "wrong topic: plate tectonics / GPS"},
+  {"id": "y4a3debf40b6", "why": "wrong topic: metals and uses"},
+  {"id": "y11a1fdcf8cc", "why": "wrong topic: economic history of India"},
+  {"id": "y2211d08e094", "why": "garbled; wrong topic: economic history of India"},
+  {"id": "y785bbd38e61", "why": "wrong topic: volcanism (item 1 garbled)"},
+  {"id": "y38c22fa0532", "why": "wrong topic: electromagnetic induction"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact items: crust-mantle boundary = Moho, direct source = surface rock from mining, core = iron (+nickel, silicon as extra).",
+  "Discontinuity naming (Conrad/Moho/Repetti/Gutenberg/Lehmann) is the recurring trap; options mix all four.",
+  "Crustal abundance (O > Si > Al > Fe) and NIFE/SIAL/SIMA expansions recur across PSCs.",
+  "Many PYQs filed here are general science (inertia, hydrometer, rusting) - the real interior-of-earth pool is small.",
+  "App MCQs lean on multi-statement and match formats and current research news (Swarm, delamination, mantle quakes) that APPSC does not ask."
+ ],
+ "stats": {"app_mcqs": 49, "pyqs": 24, "fixed": 0, "dropped": 3}
+}

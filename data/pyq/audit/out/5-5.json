@@ -1,0 +1,29 @@
+{
+ "topic": "5:5",
+ "mcq_fix": [
+  {"id": "n41a97b6ac0c", "o": ["It is headquartered at Gandhinagar, has about 40 laboratories and regulates atomic energy", "It is headquartered at Hyderabad, has about 100 laboratories and conducts agricultural research", "It is headquartered at Bengaluru, has about 20 laboratories and plans space missions", "It is headquartered at DRDO Bhawan, New Delhi, has a network of about 40 laboratories and develops indigenous defence technology"], "why": "DRDO lab count was cut from ~52 to ~41 after restructuring; '52' outdated"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "8#3", "find": "IARI: key Hazaribagh (⚠ other notes: New Delhi, Pusa)", "replace": "IARI: New Delhi (Pusa); IARI-Jharkhand campus at Hazaribagh", "why": "IARI HQ is Pusa, New Delhi (established fact)"},
+  {"ref": "12#1", "find": "Indian Agricultural Research Institute Hazaribagh, Jharkhand", "replace": "Indian Agricultural Research Institute New Delhi (Pusa; second campus Hazaribagh, Jharkhand)", "why": "IARI HQ is New Delhi (established fact)"},
+  {"ref": "19#1", "find": "Vaddeswaram, Guntur region", "replace": "Hyderabad, Telangana", "why": "CCMB (CSIR) is in Hyderabad, not in AP"}
+ ],
+ "pyq_bad": [
+  {"id": "y9993f43e30b", "why": "wrong topic: plant botany (coffee seed)"},
+  {"id": "y56f9e5a61b9", "why": "wrong topic: human races (Mestizo)"},
+  {"id": "y080ad5c5518", "why": "wrong topic: dams of India"},
+  {"id": "y3bca269719b", "why": "mental ability"},
+  {"id": "y1dd21e9cd6d", "why": "garbled: options truncated"},
+  {"id": "y5594ca8ff72", "why": "garbled: options truncated"},
+  {"id": "y5ebaac4813c", "why": "garbled: options truncated"},
+  {"id": "y830673c93f9", "why": "wrong topic: Global Forest Watch (forest monitoring tools)"}
+ ],
+ "patterns": [
+  "Overwhelmingly 'institute - location' single-fact items (CTRI Rajahmundry, NRCWA Bhubaneswar, NATMO Kolkata, NIO Goa, IIFM Bhopal, FRI Dehradun, NIV Pune).",
+  "APPSC tilts to AP-located institutes and recent S&T news items (LIGO-India lead labs, ICAR lumpy skin vaccine, IIT research items).",
+  "Mismatch-pair format ('not correctly matched') is common in other PSCs; APPSC mostly direct one-liners.",
+  "App adds founding years, parent departments, BARC reactor trivia and mega-science partner details beyond PYQ depth, but mostly sound."
+ ],
+ "stats": {"app_mcqs": 47, "pyqs": 40, "fixed": 1, "dropped": 0}
+}

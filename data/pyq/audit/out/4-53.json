@@ -1,0 +1,35 @@
+{
+ "topic": "4:53",
+ "mcq_fix": [
+  {"id": "nap-geography-6-1", "o": ["Vizianagaram", "Kurnool", "Srikakulam", "Anantapur"], "a": 0, "why": "AP manganese leader is Vizianagaram (Garbham mine, y33539978a2d); Srikakulam figure predates 1979 district split"},
+  {"id": "nap-geography-28-4", "s": "Match List-I with List-II.  List-I  a. Archaean Rock System  b. Dharwar Rock System  c. Kurnool Rock System  d. Deccan Trap  List-II  i. Prakasam and Guntur  ii. Srikakulam and parts of Eluru  iii. Chittoor and Nellore region  iv. Erstwhile Cuddapah and Kurnool", "why": "APPSC key puts Dharwar in Chittoor-Nellore region (y62af1f5659e)"}
+ ],
+ "mcq_drop": [
+  {"id": "n82855336e34", "why": "oddly worded ('in the stated comparison'); duplicates nbf5841d565b"},
+  {"id": "nindian-geography-8-3", "why": "oddly worded A-R ('listed as a petroleum location')"},
+  {"id": "n1603b63e6c7", "why": "opinion/debate item with a giveaway statement"}
+ ],
+ "notes_fix": [
+  {"ref": "8#0", "find": "Erstwhile Vizianagaram, Visakhapatnam and East Godavari Crude iron", "replace": "Chittoor-Nellore region (APPSC-G1 2024 key) Crude iron", "why": "y62af1f5659e: Dharwar = Chittoor and Nellore region"},
+  {"ref": "9#4", "find": "Manganese Srikakulam — production and reserves", "replace": "Manganese Vizianagaram — production and reserves (older notes: Srikakulam, pre-1979 boundaries)", "why": "Garbham manganese mine = Vizianagaram (y33539978a2d)"}
+ ],
+ "pyq_bad": [
+  {"id": "ye895ba10077", "why": "wrong topic: Buddhist sites of AP (also truncated duplicate of y7c3292cd7b1)"},
+  {"id": "y7c3292cd7b1", "why": "wrong topic: Buddhist sites of AP"},
+  {"id": "yf756a538b4a", "why": "garbled: option pairs truncated"},
+  {"id": "y5fd6290eef6", "why": "wrong topic: Rajasthan oil fields"},
+  {"id": "ya316b11a012", "why": "wrong topic: HVJ gas pipeline"},
+  {"id": "ye36b18a45e8", "why": "wrong topic: HBJ gas pipeline"},
+  {"id": "y169526ea885", "why": "garbled: data table fragments in stem; wrong topic: India petroleum production"},
+  {"id": "ya5e2f72ca92", "why": "garbled + wrong topic: agricultural universities"},
+  {"id": "yd4009314025", "why": "garbled: option codes truncated"}
+ ],
+ "patterns": [
+  "APPSC asks 'which district' one-liners: mica = Nellore, uranium = Kadapa (Tummalapalle), first private gold mine = Tuggali mandal Kurnool, diamonds = Upparpalle (Kadapa).",
+  "Rock systems asked directly: Dharwar = Chittoor-Nellore region; oldest landmass/basin items recur.",
+  "Mine-to-district match items (Garbham manganese = Vizianagaram, Jaggayyapeta limestone = Krishna) and odd-one-out on beach-sand districts.",
+  "Oil/gas: Tatipaka refinery and KG-D6 = gas are the recurring facts.",
+  "App adds many long multi-pair statements and 2026 news (mineral mapping, coal gasification) beyond PYQ depth; Srikakulam/Vizianagaram manganese conflict needs one answer."
+ ],
+ "stats": {"app_mcqs": 49, "pyqs": 26, "fixed": 2, "dropped": 3}
+}

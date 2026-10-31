@@ -1,0 +1,32 @@
+{
+ "topic": "1:139",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "10#1", "find": "Adopted at Kabul in 1504", "replace": "Adopted at Kabul in 1507 (Kabul captured 1504)", "why": "Babur took the Padshah title in 1507; matches app MCQ nindian-history-11-13"}
+ ],
+ "pyq_bad": [
+  {"id": "yff205d694b5", "why": "wrong topic: music (Pakistani singers)"},
+  {"id": "yd41b4bfd370", "why": "wrong topic: Gujarat Sultanate and Portuguese"},
+  {"id": "y567fc9d22d5", "why": "wrong topic: Gujarat Sultanate and Portuguese"},
+  {"id": "y40ad689f597", "why": "garbled: stem carries fragment of another question"},
+  {"id": "y60249ae14e6", "why": "wrong topic: Maratha administration (Modi script)"},
+  {"id": "y3e5be71ccd2", "why": "garbled: options truncated (duplicate of y008405cad17)"},
+  {"id": "ybc2f29fa59f", "why": "garbled options"},
+  {"id": "y492c193b743", "why": "wrong options: mixed with a BHEL-plants question"},
+  {"id": "y41029db3db6", "why": "suspect key: Hyderabad city was founded by the Qutb Shahis (1591), so II is false"},
+  {"id": "y075c532a7fc", "why": "wrong topic: Ranjit Singh / Sikhs"},
+  {"id": "y251410849d9", "why": "wrong topic: Revolt of 1857"},
+  {"id": "y7a12969506f", "why": "garbled; wrong topic: European travellers"},
+  {"id": "y2f16c25967c", "why": "suspect key: the 'Delhi to Palam' saying refers to Shah Alam II's shrunken realm; 'Delhi to Bihar' is wrong"},
+  {"id": "y9b794667d9a", "why": "suspect key: Udham Bai and eunuch Javed Khan dominated under Ahmad Shah (1748-54)"}
+ ],
+ "patterns": [
+  "APPSC asks: correct chronology of Later Mughals, Koh-i-Noor plunderer (Nadir Shah), first/last Nizam, Nizam who took Subsidiary Alliance (Nizam Ali Khan, 1798).",
+  "Match-the-person items (Husain Ali - Sayyid, Murshid Quli - Bengal, Chin Qilich Khan - Hyderabad, Safdar Jung - Awadh) are a recurring APPSC shape.",
+  "Strong Hyderabad/Asaf Jahi tilt for AP: founder Mir Qamar-ud-din, Operation Polo 1948, last Nizam Osman Ali Khan.",
+  "Other PSCs add epithets (Rangeela, Zinda Pir) and Third Panipat basics; historiography of decline rarely appears in PYQs.",
+  "App includes many ancient-invader items (Darius, Hunas) that drift from the topic but are factually sound."
+ ],
+ "stats": {"app_mcqs": 56, "pyqs": 43, "fixed": 0, "dropped": 0}
+}

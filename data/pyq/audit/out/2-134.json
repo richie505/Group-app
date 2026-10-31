@@ -1,0 +1,27 @@
+{
+ "topic": "2:134",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n0dfb6f7f33d", "why": "vague: unnamed Madras HC ruling, no case/date"},
+  {"id": "nindian-society-50-4", "why": "ambiguous A-R (trivial A, explanation link arguable)"},
+  {"id": "nindian-society-36-12", "why": "oddly worded ('mechanism for casteism'), source-dependent"}
+ ],
+ "notes_fix": [
+  {"ref": "9#1", "find": "Sec. 2(1)(bea)", "replace": "Sec. 2(1)(bc)", "why": "economic boycott defined in Sec 2(1)(bc) - yd9ea71b268f"},
+  {"ref": "12#1", "find": "2(1)(bea)", "replace": "2(1)(bc)", "why": "economic boycott defined in Sec 2(1)(bc) - yd9ea71b268f"}
+ ],
+ "pyq_bad": [
+  {"id": "y3f85cf0eb98", "why": "suspect key: Rule 7(2) of 1995 Rules gave 30 days for investigation report (now 60-day charge-sheet), not 15"},
+  {"id": "yb4c61250b4d", "why": "garbled: options truncated, cannot be evaluated"},
+  {"id": "y18f0ae2a825", "why": "wrong topic: state police investigation initiatives"},
+  {"id": "y6c2d66664e4", "why": "wrong topic: ST population distribution"}
+ ],
+ "patterns": [
+  "Almost all PYQs are MPPSC section-number recall: PoA Sec 14 Special Court, Sec 18 anticipatory bail, Sec 6 IPC application, Rule 17 district committee, PCR Sec 5/12/14",
+  "APPSC itself asks: PCR Act extends to whole of India, and the case alleged to have diluted the Act (Subhash Kashinath Mahajan)",
+  "Recurring facts: PoA in force 30 Jan 1990, 23 sections, DSP-rank investigator, Special Court with concurrence of HC Chief Justice, rule-making by Centre, collective fine by State Govt",
+  "App MCQs are heavier on 2015/2018 amendments, case chronology and current NCRB/AP data; light on the bare section-number recall that dominates PYQs",
+  "Trap: Sec 18 vs 18A; PCR Sec 12 presumption applies to SCs only"
+ ],
+ "stats": {"app_mcqs": 43, "pyqs": 32, "fixed": 0, "dropped": 3}
+}

@@ -1,0 +1,23 @@
+{
+ "topic": "1:210",
+ "mcq_fix": [
+  {"id": "n152f84dd0e0", "o": ["C.R. Das", "Ananda K. Coomaraswamy", "Bipin Chandra Pal", "Motilal Nehru"], "why": "option 1 typo 'R. Das'"}
+ ],
+ "mcq_drop": [
+  {"id": "nd837241b1c5", "why": "obscure trivia with oddly built match (three items keyed to the same List-II entry, one unused)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ybd7527d49e9", "why": "suspect key: 'Andhra Shivaji' is Parvataneni Veeraiah Chowdary (option 4); Duggirala is 'Andhra Ratna' (cf. y72dab26ab99, APPSC 2019)"},
+  {"id": "y0cdf4221ecc", "why": "garbled: options of other questions mixed into stem/options"},
+  {"id": "yf9b38530431", "why": "garbled duplicate of ye1577c4408b (page header and List-II spilled into options)"}
+ ],
+ "patterns": [
+  "APPSC asks this topic almost entirely as direct single facts: Alluri's tomb (Krishnadevipeta), first PS attacked (Chintapalli), rebellion years (1922-24), Madras Forest Act (1882).",
+  "Duggirala angles recur: leader of Chirala-Perala, Ramadandu volunteer corps (distractor Shanti Sena), title Andhra Ratna.",
+  "Match-the-following of Andhra leaders -> movement/title/book (Veeraiah Chowdary-Pedanandipadu, Kaleswara Rao-Naa Jeevitha Katha, Tripuraneni-Kavi Raju).",
+  "Trap: 'Andhra Shivaji' (Veeraiah Chowdary) vs 'Andhra Ratna' (Duggirala); Hyderabad State Congress 1938.",
+  "App MCQs go much deeper (1879-80 Rampa revolt leaders, British officers, Pedanandipadu Congress split) with many 3-4 statement items, while PYQs are one-liners."
+ ],
+ "stats": {"app_mcqs": 50, "pyqs": 12, "fixed": 1, "dropped": 1}
+}

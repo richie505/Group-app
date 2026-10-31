@@ -1,0 +1,25 @@
+{
+ "topic": "3:96",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n37c70d158f3", "why": "criticism/debate statements, opinion-style; TN resolution trivia"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0b70de13b6f", "why": "garbled (stray text in stem/options)"},
+  {"id": "y3c2bcf5ce2a", "why": "garbled options"},
+  {"id": "yc3a95866318", "why": "garbled: mixed with another question's statements/options"},
+  {"id": "y040c8eaebb8", "why": "wrong topic: PM-KISAN scheme"},
+  {"id": "y023e1adb245", "why": "wrong topic: Consumer Protection Act"},
+  {"id": "y284658717c2", "why": "wrong topic: Union-State distribution of taxes (Art. 268)"},
+  {"id": "y98a2f0a3ec1", "why": "suspect key: in 2009 GST was proposed from 1 April 2010; '10 April 2014' is not a real target date"}
+ ],
+ "patterns": [
+  "APPSC asks GST Council basics: Article 279A (trap 269A), chair = Union FM, 3/4 weighted majority, constitutional not statutory.",
+  "Lists of what is outside GST (crude, ATF, natural gas, liquor, electricity) answered 'All the above' recur in APPSC.",
+  "Subsumed-tax questions (excise, service tax, VAT, CVD, octroi) and 'GST is an indirect / destination-based tax' are standard.",
+  "Bill vs Act number trap: 122nd Bill -> 101st Act.",
+  "App adds GST 2.0, compensation-cess and anti-profiteering current-affairs detail well beyond the PYQ depth."
+ ],
+ "stats": {"app_mcqs": 46, "pyqs": 25, "fixed": 0, "dropped": 1}
+}

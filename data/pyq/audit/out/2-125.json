@@ -1,0 +1,27 @@
+{
+ "topic": "2:125",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n803fd7cdb38", "why": "oddly worded; filler statement on international trade law, no exam frames it this way"},
+  {"id": "nindian-society-32-20", "why": "odd 'significance vs background fact' wording, opinion-like"},
+  {"id": "nindian-polity-2-19", "why": "ambiguous A/R: whether R explains A is debatable"}
+ ],
+ "notes_fix": [
+  {"ref": "13#9", "find": "Section 2(m) of the Protection of Human Rights Act defines armed forces", "replace": "Section 2(1)(a) of the Protection of Human Rights Act defines armed forces", "why": "PHRA s.2(1)(a) defines armed forces; s.2(m) does not exist for this (PYQ y1c19efcb3c8)"}
+ ],
+ "pyq_bad": [
+  {"id": "ye64164ec05a", "why": "wrong topic: human genetics (autosomes)"},
+  {"id": "y382917e160b", "why": "wrong topic: human genetics (autosomes)"},
+  {"id": "y15dfb7499cb", "why": "garbled (options truncated, article numbers missing)"},
+  {"id": "y106fc39a78f", "why": "garbled (stem truncated; duplicate of y935225bace1)"},
+  {"id": "y7ec0d71289e", "why": "suspect key: PHRA covers life, liberty, equality and dignity; 'education' (option 2) is the one not named, not liberty"}
+ ],
+ "patterns": [
+  "Direct Article-content items dominate: Art 23 traffic/forced labour, Art 24 child labour, Art 21A education as both human and fundamental right.",
+  "PHRA 1993 fact recall: in force 28 Sept 1993, armed forces definition excludes State armed forces, members are 'public servants', Special Public Prosecutor needs 7 years' practice.",
+  "Rights covered by PHRA (life, liberty, equality, dignity) are asked as 'which is not covered' traps.",
+  "Act-year items (Bonded Labour Abolition 1976, MISA not a social act) appear as fillers.",
+  "App uses many A/R and 'how many' formats; PYQs are mostly plain one-liners and simple matches."
+ ],
+ "stats": {"app_mcqs": 43, "pyqs": 17, "fixed": 0, "dropped": 3}
+}

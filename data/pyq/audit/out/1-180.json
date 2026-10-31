@@ -1,0 +1,28 @@
+{
+ "topic": "1:180",
+ "mcq_fix": [
+  {"id": "n08b7756d1b6", "o": ["the transfer of local self-government to the provinces in 1935", "the Royal Commission on Decentralisation of 1907–09", "the first municipal corporation at Madras in 1688", "a statistical survey of India and the first census in 1872"], "why": "first (non-synchronous) census under Mayo is dated 1872, not 1871"}
+ ],
+ "mcq_drop": [
+  {"id": "n1d4e7b801e7", "why": "opinion-style statements on criticism of colonial administration"},
+  {"id": "n6760035be6d", "why": "vague legacy/opinion item, no exam wording"},
+  {"id": "n65d0bd99482", "why": "oddly worded pair-matching with contrived 'Ripon - Madras judicial model'"}
+ ],
+ "notes_fix": [
+  {"ref": "14#5", "find": "first census (1871)", "replace": "first census (1872)", "why": "Mayo's census is the 1872 census"}
+ ],
+ "pyq_bad": [
+  {"id": "yc1e9703739b", "why": "garbled (stray text in stem/options)"},
+  {"id": "y950287ca802", "why": "garbled: stem carries text of another question"},
+  {"id": "y4fb8035d5c3", "why": "garbled: options truncated (duplicate of ye62e897b0bc)"},
+  {"id": "yae03ea92f8c", "why": "wrong topic: important days / Civil Services Day"}
+ ],
+ "patterns": [
+  "Single-fact recall dominates: first municipal corporation = Madras (1688), Father of LSG = Ripon, Lee Commission = 50:50 parity.",
+  "APPSC likes statement sets where all statements are true (Cantonments Act 1924, Madras 1688, Ripon).",
+  "Recurring civil-service chronology: age 19 under Lytton (1878), simultaneous exams 1922, Covenanted service by Cornwallis.",
+  "Ilbert Bill asked as 'what was it about' (Indian judges trying Europeans) - app covers this well.",
+  "App adds many multi-statement and legacy/criticism items that are deeper or vaguer than the PYQs."
+ ],
+ "stats": {"app_mcqs": 49, "pyqs": 23, "fixed": 1, "dropped": 3}
+}

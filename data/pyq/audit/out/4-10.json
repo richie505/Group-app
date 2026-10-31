@@ -1,0 +1,24 @@
+{
+ "topic": "4:10",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n681083f2581", "why": "ambiguous: Ojos del Salado status (active vs dormant) disputed across sources"},
+  {"id": "nfb78cf8b7ee", "why": "obscure trivia (Ladakh Magmatic Arc ages) beyond PYQ depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y50df89e3039", "why": "wrong topic: physics - surface tension"},
+  {"id": "y6c843f2de33", "why": "wrong topic: physics - surface tension"},
+  {"id": "y0e5437fb8c7", "why": "mental ability"},
+  {"id": "yf8ad0dab69d", "why": "wrong topic: hydroelectric power stations"},
+  {"id": "y6eba95114ba", "why": "garbled: options from another item"}
+ ],
+ "patterns": [
+  "APPSC repeatedly asks seismic zone of a place: Delhi = Zone IV, Visakhapatnam = Zone II, AP = Zones II-III, Kutch/North-East = Zone V, least active = Zone II.",
+  "Basic terms: epicentre has maximum intensity, seismology definition, seismograph as instrument, earthquakes cannot be predicted.",
+  "Statement traps on focus vs epicentre ('epicentre directly below the focus' is wrong) and causes of tremors (meteor impacts).",
+  "Occasional world facts: 1960 Chile M 9.5, Japan most earthquake-prone.",
+  "App MCQs add volcano types, intrusive landforms, 2025-26 seismic-code saga and recent quakes, deeper than APPSC's single-fact pattern."
+ ],
+ "stats": {"app_mcqs": 64, "pyqs": 41, "fixed": 0, "dropped": 2}
+}

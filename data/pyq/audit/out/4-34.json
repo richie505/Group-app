@@ -1,0 +1,41 @@
+{
+ "topic": "4:34",
+ "mcq_fix": [
+  {"id": "nf781c9ff857", "s": "Approximately what proportion of India's total area is occupied by plains?", "why": "remove odd 'stated relief-share classification' wording; fact per APPSC-GS 2024"}
+ ],
+ "mcq_drop": [
+  {"id": "nworld-geography-12-16", "why": "oddly worded ('listed peak table' ranks)"},
+  {"id": "n820ae13ba0b", "why": "dubious: Bomdi La 'Tawang-Lhasa' and Lipulekh tri-junction marked correct though notes flag sources differ"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y830f1e60ab0", "why": "suspect key: Nathu La (~4,310 m) is higher than Zoji La (~3,528 m) and Rohtang (~3,978 m)"},
+  {"id": "yf2579656a00", "why": "wrong options: list-II values placed in options; duplicate of y3ea7fe9c0ea"},
+  {"id": "y47e615d1a8b", "why": "garbled options (height ranges truncated)"},
+  {"id": "y5d65e36f85a", "why": "garbled: map-based, map missing"},
+  {"id": "ybd699c948c9", "why": "garbled: match pairs truncated"},
+  {"id": "yf7f72fb0e54", "why": "garbled: match pairs truncated"},
+  {"id": "yec85f130e28", "why": "garbled: match pairs truncated"},
+  {"id": "ybaabbdfef16", "why": "garbled: match pairs truncated"},
+  {"id": "y85d1e19a488", "why": "garbled: match pairs truncated"},
+  {"id": "y4813cfb68b6", "why": "garbled + wrong topic: hill stations"},
+  {"id": "y95732833011", "why": "wrong topic: Pakistan towns"},
+  {"id": "y7d8236fc302", "why": "wrong topic: ancient Indian cosmology (Yugas)"},
+  {"id": "y93f770d8c2d", "why": "wrong topic: current affairs mountaineering"},
+  {"id": "y2d5170eaaf0", "why": "wrong topic: mountaineering personalities"},
+  {"id": "y22f4d760630", "why": "wrong topic: mountaineering personalities"},
+  {"id": "y003ecbd6e88", "why": "wrong topic: railway tunnels"},
+  {"id": "y390c225ce3d", "why": "wrong topic: Asian city altitudes"},
+  {"id": "yc44f62e4b66", "why": "wrong topic: Peninsular plateau (Chhattisgarh)"},
+  {"id": "y90b67ba768c", "why": "wrong topic: Stilwell Road / NE connectivity"},
+  {"id": "y595f6012c86", "why": "wrong topic: Siliguri corridor"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners: Mahabharat Range in Nepal, Kashmir valley in Himachal range, Patkai Bum in Arunachal, Shillong on Khasi hills, K2 in Karakoram",
+  "Highest peak in India: APPSC key = Kanchenjunga, but other PSC keys give K2 - teach both framings",
+  "Regional division by rivers (Sutlej-Kali = Kumaon) and peak-height matching (Everest 8848, Kanchenjunga 8598, Nanga Parbat 8126, Nanda Devi 7817) recur",
+  "Pass-state matching and W-E pass/peak sequences dominate other PSCs; app covers these well",
+  "App leans on multi-statement structure items (origin, slopes, Molasse) more than PYQs; PYQs favour location/sequence recall"
+ ],
+ "stats": {"app_mcqs": 40, "pyqs": 85, "fixed": 1, "dropped": 2}
+}

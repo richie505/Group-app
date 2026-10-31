@@ -1,0 +1,29 @@
+{
+ "topic": "1:176",
+ "mcq_fix": [
+  {"id": "n824bc97912c", "a": 3, "o": ["Kurnool", "Anantapur", "Nellore", "Visakhapatnam"], "why": "APPSC key: world-leading manganese district 1892-1929 = Visakhapatnam (y930a370c6da)"}
+ ],
+ "mcq_drop": [
+  {"id": "n0b0c57406ec", "why": "opinion A-R ('dual economic character'), not an exam fact"}
+ ],
+ "notes_fix": [
+  {"ref": "7#3", "find": "Manganese: Nellore world leader 1892-1929 (⚠ other notes: Vizag)", "replace": "Manganese: Visakhapatnam district world leader 1892-1929 (APPSC key)", "why": "y930a370c6da key = Visakhapatnam"},
+  {"ref": "8#2", "find": "Manganese Nellore district world leader 1892-1929 (APHQ 2019 key; some notes say Vizag district - Vizag manganese world No.1 till 1929)", "replace": "Manganese Visakhapatnam district world leader 1892-1929 (APPSC-G2 key)", "why": "y930a370c6da key = Visakhapatnam"},
+  {"ref": "19#8", "find": "Nellore manganese", "replace": "Visakhapatnam manganese", "why": "y930a370c6da key = Visakhapatnam"}
+ ],
+ "pyq_bad": [
+  {"id": "yee9deac049c", "why": "garbled: option codes truncated ('only', 'and 2 only')"},
+  {"id": "y03d60a98c9d", "why": "garbled: source noise in stem (PMF IAS page tag)"},
+  {"id": "y2ec2d4a3abc", "why": "wrong topic: sports current affairs"},
+  {"id": "yc87ea695dbf", "why": "wrong topic: sports current affairs"},
+  {"id": "y7f37b7006b3", "why": "wrong topic: Olympics"}
+ ],
+ "patterns": [
+  "APPSC asks drain of wealth as direct single facts: 'popularised by' Naoroji, drain reason = profits of British capitalists, drain associated with British (not Portuguese/French/Dutch).",
+  "Strong AP tilt: textiles as second-largest employer after agriculture in Andhra, Visakhapatnam manganese world leader 1892-1929, Guntur/Kurnool famines.",
+  "UPSC/other PSCs ask Home Charges components, imperial preference, Industrial Revolution ruining handicrafts, commercialisation of agriculture, opium triangular trade, Hilton Young ratio.",
+  "Recurring dates: first cotton mill Bombay 1854, Assam Company 1839, Punjab Land Alienation Act 1900, Famine Code 1883.",
+  "App MCQs use many multi-statement and A-R items on famine commissions, Andhra textile places and eve-of-independence indicators - more detail than APPSC's single-fact asks."
+ ],
+ "stats": {"app_mcqs": 51, "pyqs": 23, "fixed": 1, "dropped": 1}
+}

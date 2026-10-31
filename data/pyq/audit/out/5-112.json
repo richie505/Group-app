@@ -1,0 +1,29 @@
+{
+ "topic": "5:112",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nc46c55c32da", "why": "ambiguous: whether trials were 'halted' in the period is contested; oddly framed"},
+  {"id": "nbb16fb7e611", "why": "oddly worded sequence; steps D and A overlap, no exam asks this"},
+  {"id": "n112237b63e2", "why": "opinion item (criticism of exemption)"}
+ ],
+ "notes_fix": [
+  {"ref": "8#1", "find": "Six-tier system: IBSC → RCGM → GEAC → SBCC → DLC → expert committees", "replace": "Six competent authorities under Rules 1989: RDAC, IBSC, RCGM, GEAC, SBCC, DLC", "why": "the six bodies of Rules 1989 include RDAC; 'expert committees' is not a tier"},
+  {"ref": "16#2", "find": "Global Health Security Index (2023): India 66th", "replace": "Global Health Security Index (2021): India 66th", "why": "last GHS Index edition is 2021 (India 66th); no 2023 edition"}
+ ],
+ "pyq_bad": [
+  {"id": "ybb198e6c721", "why": "wrong topic: agriculture current affairs (Seed Congress)"},
+  {"id": "yafd539132cf", "why": "wrong topic: human embryology"},
+  {"id": "y14f69723517", "why": "wrong topic: plant pigments / vitamins"},
+  {"id": "y8a2d0b6616d", "why": "wrong topic: seed types in agriculture"},
+  {"id": "y395ee8dadfe", "why": "wrong topic: plant pigments"},
+  {"id": "yb83170055d0", "why": "garbled options (duplicate of ye2c71eac449)"}
+ ],
+ "patterns": [
+  "APPSC asks direct identification: GMO regulator = GEAC (distractors FSSAI, CPCB, ICAR); GEAC under EPA 1986 / MoEFCC.",
+  "GM crop facts recur: Bt brinjal = pest (fruit and shoot borer) resistance, GM mustard DMH-11 = Delhi University, Golden rice = transgenic/beta-carotene, Bt gene from Bacillus thuringiensis.",
+  "APPSC adds a current-affairs twist (states where farmers defied bans: Maharashtra, Haryana).",
+  "UPSC-style multi-statement items on Bt brinjal resistance and GM food import are the deepest PYQs seen.",
+  "App MCQs go far deeper (SDN categories, committee tiers, PepsiCo case, BSL levels, BWC) - sound but well beyond APPSC depth."
+ ],
+ "stats": {"app_mcqs": 45, "pyqs": 18, "fixed": 0, "dropped": 3}
+}

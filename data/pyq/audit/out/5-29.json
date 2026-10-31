@@ -1,0 +1,39 @@
+{
+ "topic": "5:29",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n81856ff5313", "why": "oddly worded: asks what an exam key said; definition actually describes malware, not virus"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ya94c1ff644d", "why": "wrong topic: computer basics (e-mail attachments)"},
+  {"id": "y6e066b59871", "why": "wrong topic: Paris Agreement Article 6"},
+  {"id": "y8f3992b0597", "why": "wrong topic: activated carbon / pollution"},
+  {"id": "y721e5ca297c", "why": "wrong topic: seismograph"},
+  {"id": "yc62ed6b9b82", "why": "wrong topic: anatomy vs physiology"},
+  {"id": "y0db103ebc2b", "why": "wrong topic: energy resources (uranium/coal)"},
+  {"id": "y47bb9f260f5", "why": "wrong topic: climatology"},
+  {"id": "y1d41f97a22e", "why": "wrong topic: carbon markets"},
+  {"id": "ydab9249e2ff", "why": "wrong topic: trade / PLI"},
+  {"id": "y2f03ebfc445", "why": "wrong topic: world affairs (Venezuela)"},
+  {"id": "y9c9a1821165", "why": "wrong topic: world affairs (Sahel)"},
+  {"id": "yf83567e9a24", "why": "wrong topic: plastic pollution"},
+  {"id": "y539acd2318c", "why": "wrong topic: astronomy (stars)"},
+  {"id": "yb7e45c08406", "why": "wrong topic: finance (bonds vs stocks)"},
+  {"id": "y0ecf178ae12", "why": "wrong topic: cement industry emissions"},
+  {"id": "yd51a6bc811b", "why": "wrong topic: activated carbon / pollution"},
+  {"id": "yb3415814a04", "why": "wrong topic: energy resources (uranium/coal)"},
+  {"id": "y27e563779ab", "why": "wrong topic: astronomy (stars)"},
+  {"id": "yc0c058a14d0", "why": "suspect key: 'binary code' is a computer term; wrong topic: computer basics"},
+  {"id": "yc86cc905791", "why": "wrong topic: computer basics"},
+  {"id": "y5cd8deaa69c", "why": "wrong topic: e-governance portals (Amantran)"},
+  {"id": "y1405788a52f", "why": "wrong topic: sericulture"}
+ ],
+ "patterns": [
+  "APPSC asks current-affairs-flavoured one-liners: Petya/WannaCry = ransomware (G2 2025), digital arrest = criminals' scare term (G2 2025), e-Nagarpalika = MP (G1 2024), Telangana first cyber-trafficking case (G2 2023), firewall purpose (2025).",
+  "Other PSCs ask definitional items: phishing, spoofing, spam, e-mail bombing, DoS/DDoS, Trojan, virus self-replication, Pegasus = Israel, Stuxnet = Iran centrifuges.",
+  "Trap: key-based definitions where the expected answer is the colloquial term (virus for malware, digital arrest as scam not police action).",
+  "App MCQs mirror these well; some add 2025-26 report/data trivia (MeitY threat report, CERT-In counts) beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 40, "pyqs": 47, "fixed": 0, "dropped": 1}
+}

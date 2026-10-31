@@ -1,0 +1,57 @@
+{
+ "topic": "4:33",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-geography-15-3", "why": "A-R causal link (Malabar proximity explains Arabian Sea association) ambiguous"},
+  {"id": "nworld-geography-20-11", "why": "dubious claim (Bosphorus as Russia's 'only' warm-water exit) and off-topic world straits"}
+ ],
+ "notes_fix": [
+  {"ref": "7#1", "find": "SAARC = all neighbours except China", "replace": "SAARC = all neighbours except China and Myanmar", "why": "Myanmar is not a SAARC member"},
+  {"ref": "9#4", "find": "includes all neighbours except China", "replace": "includes all neighbours except China and Myanmar", "why": "Myanmar is not a SAARC member"},
+  {"ref": "6#1", "find": "W Karnataka (⚠ other notes: Telangana too)", "replace": "NW Telangana; W Karnataka", "why": "present AP borders Telangana (y2a4528fecf9 context)"}
+ ],
+ "pyq_bad": [
+  {"id": "ye83949db3e6", "why": "suspect key: Mahabharat Range is in Nepal (option 1), not Bhutan"},
+  {"id": "y16593e07895", "why": "suspect key: Tharu live in the Terai of UP/Uttarakhand/Bihar, not Arunachal; also wrong topic: tribes"},
+  {"id": "yffb011516dd", "why": "suspect key: Rio Grande forms an international border, Nile does not; wrong topic: world rivers"},
+  {"id": "y20824bb4b43", "why": "wrong topic: agricultural extension (KVK)"},
+  {"id": "y5277588ae78", "why": "garbled: map-based, map missing"},
+  {"id": "yedfc7283738", "why": "garbled: pair halves missing"},
+  {"id": "yd673ebff777", "why": "wrong topic: rivers of Sri Lanka"},
+  {"id": "y77d11000cb5", "why": "garbled: outline map missing"},
+  {"id": "y42e640b76d9", "why": "wrong topic: floriculture"},
+  {"id": "y45fb14e04b2", "why": "wrong topic: state policies current affairs"},
+  {"id": "y9ca3321ff64", "why": "mental ability"},
+  {"id": "y15ed97e7c70", "why": "wrong topic: soils of India"},
+  {"id": "y02e657fdc2e", "why": "wrong topic: education PGI index"},
+  {"id": "y32d6ebe9ea5", "why": "garbled: map missing"},
+  {"id": "y99827d72632", "why": "wrong topic: Himalayan passes"},
+  {"id": "y6dd8bbff0c6", "why": "wrong topic: Central Asian cities"},
+  {"id": "yd15acc92901", "why": "garbled: map missing"},
+  {"id": "y585f37501eb", "why": "wrong topic: world political geography"},
+  {"id": "yf024310f25b", "why": "wrong topic: sports trophies"},
+  {"id": "y8d623b3597f", "why": "wrong topic: pilgrimage centres"},
+  {"id": "y1df0b7d9d1c", "why": "wrong topic: railways"},
+  {"id": "y1d15c83b92d", "why": "wrong topic: solar energy"},
+  {"id": "ye6e8fff08ae", "why": "wrong topic: sports"},
+  {"id": "y602d0c57b78", "why": "garbled: nautical-mile figures lost"},
+  {"id": "y8571cc5b48c", "why": "wrong topic: folk music communities"},
+  {"id": "y3ba4e1436aa", "why": "wrong topic: folk music communities"},
+  {"id": "yb67a7e0b607", "why": "wrong topic: world boundaries (Korea)"},
+  {"id": "yd11d266a173", "why": "wrong topic: world boundaries (Korea)"},
+  {"id": "y8f56fcffb66", "why": "wrong topic: tea trade"},
+  {"id": "yef725ec3a4a", "why": "mental ability"},
+  {"id": "y2e05d5ec4d0", "why": "mental ability"},
+  {"id": "yc8aff8c73e3", "why": "wrong topic: sugarcane production"},
+  {"id": "y3fae05ea424", "why": "wrong topic: national highways"},
+  {"id": "y04ec09e7563", "why": "wrong topic: UT capitals"}
+ ],
+ "patterns": [
+  "APPSC asks which state does/does not border a neighbour (Myanmar: not Assam) and which state does not border AP (Kerala).",
+  "AP-specific location facts recur: eastern boundary Bay of Bengal, longitudinal extent 76°47'E-84°50'E, Zone/coastline figures.",
+  "Numeric one-liners: land border 15,106.7 km, revised coastline 11,098.81 km (2025), coastal states/UTs count.",
+  "India-Sri Lanka separation (Gulf of Mannar / Palk Strait) and Lakshadweep as coral islands are repeated APPSC items.",
+  "PYQ pool for this topic is heavily polluted with misfiled world-geography and GK items; app MCQs stay closer to the syllabus but add world straits."
+ ],
+ "stats": {"app_mcqs": 45, "pyqs": 108, "fixed": 0, "dropped": 2}
+}
