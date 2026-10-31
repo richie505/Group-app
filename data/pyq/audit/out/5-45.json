@@ -1,0 +1,20 @@
+{
+ "topic": "5:45",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ndisaster-management-26-14", "why": "oddly framed (NDMA and SDMAs both use GIS for guidelines); near-duplicate of ndisaster-management-26-12"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y7ba51e3df6b", "why": "wrong topic: forest cover of States"},
+  {"id": "y3cfbdfc22ce", "why": "wrong topic: earthquakes; suspect key: Richter measures magnitude, intensity is on the Mercalli scale"},
+  {"id": "yef10f2561b4", "why": "garbled: option codes truncated"}
+ ],
+ "patterns": [
+  "APPSC's favourite shape: 'which CANNOT be monitored / is NOT an application' - answer is the human-health event, chemical soil testing, earthquake prediction or news channels.",
+  "Direct recall of names/full forms: MOSDAC full form, Meghdoot (IMD+ICAR), QGIS as open-source GIS, digitizer as GIS hardware, Nabhmitra.",
+  "GIS basics (store/manipulate/analyse/display) and NRSC flood-prone basin (Ganga-Brahmaputra) appear repeatedly.",
+  "App covers many more programmes (FASAL, YES-TECH, CHAMAN, NADAMS, APSAC data) and 2026 current affairs; PYQs stay at definition/odd-one-out depth."
+ ],
+ "stats": {"app_mcqs": 50, "pyqs": 15, "fixed": 0, "dropped": 1}
+}

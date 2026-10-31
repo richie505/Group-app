@@ -1,0 +1,24 @@
+{
+ "topic": "2:10",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n58d88763d64", "why": "obscure current-affairs item; vague 'criticised as censorship'"},
+  {"id": "ne46e356d77c", "why": "ambiguous after Kaushal Kishor (2023) held Arts 19/21 enforceable against non-State actors"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ye016a853ec1", "why": "mental ability"},
+  {"id": "y9a832ea798e", "why": "mental ability (geometry), garbled options"},
+  {"id": "y3f1a9db2560", "why": "garbled: options truncated"},
+  {"id": "ybdfdcb666e5", "why": "wrong topic: Article 21 (life and personal liberty)"},
+  {"id": "y2d325aef113", "why": "wrong topic: Article 21 (right to privacy)"}
+ ],
+ "patterns": [
+  "Most PYQs are one-line article identification: six freedoms / press freedom / speech = Article 19.",
+  "'Not a fundamental right' traps: right to property (deleted, 44th), right to strike, RTI not expressly an FR.",
+  "Citizens-only: a foreigner (British citizen) cannot claim freedom of trade/profession.",
+  "APPSC repeats: detained person keeps freedom of expression; 97th Amendment co-operative societies (19(1)(c), 43B, Part IXB).",
+  "App adds BNS/BNSS section numbers and case-law match items that go deeper than the PYQs."
+ ],
+ "stats": {"app_mcqs": 45, "pyqs": 28, "fixed": 0, "dropped": 2}
+}

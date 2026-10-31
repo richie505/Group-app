@@ -1,0 +1,28 @@
+{
+ "topic": "5:48",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0a536137d20", "why": "garbled: match options truncated"},
+  {"id": "yc5d2fcbd8e1", "why": "wrong topic: military exercises"},
+  {"id": "y1f03c4f5bbb", "why": "garbled: image-based insignia question"},
+  {"id": "ye1d0afb69f8", "why": "wrong topic: naval ships / aircraft carriers"},
+  {"id": "y8fcf3f109b2", "why": "wrong topic: IAF women fighter pilots"},
+  {"id": "y8649bb17c22", "why": "wrong topic: military exercises"},
+  {"id": "y3a6e92a1770", "why": "wrong topic: fighter aircraft"},
+  {"id": "yd2ca86c5e17", "why": "garbled: options truncated"},
+  {"id": "y88c297a1faf", "why": "suspect key: Prithvi (4) is India's short-range ballistic missile; Nag is anti-tank"},
+  {"id": "yb207fd5f723", "why": "wrong topic: ISRO Bhuvan geoportal"},
+  {"id": "y6691b1dc1d9", "why": "wrong topic: military exercises"},
+  {"id": "y58a43664d42", "why": "wrong topic: current affairs (Golden Globe Race)"},
+  {"id": "yb093e31ffc8", "why": "garbled; wrong topic: persons and fields"}
+ ],
+ "patterns": [
+  "Mostly one-line type identification: surface-to-air = Trishul/Akash, surface-to-surface = Prithvi, anti-tank / fire-and-forget = Nag, 'not a missile' = Pinaka.",
+  "APPSC tilt toward persons and recent tests: Missile Woman = Tessy Thomas; Akash Prime (27 Sep 2021, RF seeker); Agni-III range.",
+  "Range-recall items (Agni-I 700 km, Agni-II 2,000 km) and 'not correct about Agni-5' (not exclusively indigenous) traps.",
+  "The app goes much deeper (variants, warhead weights, NAMICA, SANT, MTCR thresholds) with 3-4 statement sets; PYQs stay at name-type-range level."
+ ],
+ "stats": {"app_mcqs": 41, "pyqs": 31, "fixed": 0, "dropped": 0}
+}

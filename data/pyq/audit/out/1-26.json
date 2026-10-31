@@ -1,0 +1,28 @@
+{
+ "topic": "1:26",
+ "mcq_fix": [
+  {"id": "nf0d9fded73b", "s": "Who among the following preached Syadvada?", "why": "odd wording 'is answered as the preacher'; APPSC 2008 key Kundakundacharya"}
+ ],
+ "mcq_drop": [
+  {"id": "n315ba9efe9c", "why": "obscure and doubtful trivia (Sheetalanatha birthplace at Bhadrachalam)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yc19c184477a", "why": "garbled: long explanation text merged into stem"},
+  {"id": "yc654593376c", "why": "wrong options: 'Iranian', 'Hebrew', OCR noise"},
+  {"id": "y86143e6f90c", "why": "garbled: option numbers stripped"},
+  {"id": "y5a44d80e7e5", "why": "garbled: option numbers stripped"},
+  {"id": "y5174aa6bfc8", "why": "wrong topic: Zoroastrian practices (Dakhma)"},
+  {"id": "y1b6d87b3356", "why": "wrong topic: Buddhism"},
+  {"id": "y3115bf3c1ad", "why": "wrong topic: Buddhism"},
+  {"id": "y08363c3ad5f", "why": "wrong topic: Shankaracharya / Advaita"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners: 24th/1st/20th Tirthankara, Mahavira's varna (Kshatriya), Santhara = Jains, Syadvada preacher, Syadvadachala Simha title.",
+  "Other PSCs repeat Mahavira's life (Kundagrama, Rijupalika, Pavapuri), Parshvanatha-Sammed Shikhar, Chetaka-Lichchhavi, Ajivika = Gosala.",
+  "Doctrine items: Triratna belongs to Jainism, Anekantavada/Syadvada are Jain, four forms of existence (Yaksha trap).",
+  "AP tilt: early Kakatiyas were Jains (APPSC G2 2011); app adds Vaddamanu, Danavulapadu.",
+  "App MCQs mirror PYQs well; mostly statement sets where PYQs are single-fact."
+ ],
+ "stats": {"app_mcqs": 46, "pyqs": 46, "fixed": 1, "dropped": 1}
+}
