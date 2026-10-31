@@ -1,0 +1,55 @@
+{
+ "topic": "3:120",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nfec9646dd9a", "why": "dubious data/odd wording: 'stated 2025-26 data' and NSA 36.29% clashes with 30.40% (2023-24) in notes"},
+  {"id": "n5367016d5db", "why": "opinion item (criticism of paddy dominance)"},
+  {"id": "n198201bc83e", "why": "vague national Economic Survey remark, not an AP agriculture fact"}
+ ],
+ "notes_fix": [
+  {"ref": "11#4", "find": "\"AP is 2nd in mango production\"", "replace": "\"AP ranks 2nd in the productivity of Mango\"", "why": "misquotes yac0ef1c50b1, which asks productivity"}
+ ],
+ "pyq_bad": [
+  {"id": "ye05ac57d7de", "why": "wrong topic: world tea trade"},
+  {"id": "y403071f7b6b", "why": "wrong topic: Aadhaar"},
+  {"id": "yf8e0863fc94", "why": "wrong topic: Aadhaar"},
+  {"id": "y1343500b37a", "why": "wrong topic: Aadhaar"},
+  {"id": "y9789074cfef", "why": "garbled: country pairs missing from options"},
+  {"id": "y4dedd0f2562", "why": "wrong topic: Indian coffee production by state"},
+  {"id": "y7da91579913", "why": "wrong topic: world coffee production"},
+  {"id": "y3e5c55e739c", "why": "mental ability"},
+  {"id": "yf69dca46047", "why": "mental ability"},
+  {"id": "y22c61fa1a79", "why": "mental ability"},
+  {"id": "y1b2ec2600bf", "why": "mental ability"},
+  {"id": "y5b74d49731e", "why": "mental ability"},
+  {"id": "y477ff4acd25", "why": "mental ability"},
+  {"id": "ycd56fbfc585", "why": "garbled; wrong topic: MGNREGA"},
+  {"id": "yce03e36584a", "why": "wrong topic: MGNREGA"},
+  {"id": "ya88acd93f05", "why": "wrong topic: national research institutes"},
+  {"id": "yd9db7d65170", "why": "wrong topic: national research institutes"},
+  {"id": "y715c051d69b", "why": "garbled: OCR noise in stem/options"},
+  {"id": "yc237d3f4438", "why": "wrong topic: classification of economic activities"},
+  {"id": "y8189b464201", "why": "garbled: Centre/State columns lost in options"},
+  {"id": "yc4b4ddb8141", "why": "garbled: statement I missing"},
+  {"id": "ybbeada095e7", "why": "wrong topic: AP soils"},
+  {"id": "yb616a5bbdf6", "why": "wrong topic: Bengal famine 1943"},
+  {"id": "y46461ffa082", "why": "wrong topic: common property resources"},
+  {"id": "y1e867bf05da", "why": "wrong topic: common property resources (duplicate)"},
+  {"id": "y6b24372e702", "why": "wrong topic: AP welfare schemes for barbers/dhobis"},
+  {"id": "y9b519d3f855", "why": "wrong topic: AP minerals"},
+  {"id": "ybbd1011d784", "why": "garbled"},
+  {"id": "y6499e2e12db", "why": "wrong topic: biodiversity"},
+  {"id": "y95d184ae65a", "why": "wrong topic: state population"},
+  {"id": "y6bd1ccceb7c", "why": "garbled: breed names missing from options"},
+  {"id": "y0b8e1604966", "why": "wrong topic: desert irrigation scheme"},
+  {"id": "y891a3eb3169", "why": "garbled: map-based, map missing"}
+ ],
+ "patterns": [
+  "APPSC asks direct SES-figure items: RBKs 10,778 (SES 2023-24), Rythu Bharosa ₹13,500, egg rank 1st, oil palm output 17.81 lakh t, seafood export share 36%, cropping intensity 1.25, cultivated area 37%.",
+  "Expansion/acronym items recur: RySS = Rythu Sadhikara Samstha, APCNF = Community Managed Natural Farming; Panta Sanjeevani = farm ponds; 'white gold' = cotton.",
+  "Two-statement items on AP ranks (oil palm productivity 1st, mango 2nd) and institute-location items (VBRI Vijayawada, Indo-Israel CoE Palnadu).",
+  "Year-specific SES numbers are the trap: APPSC always ties a figure to a named survey year.",
+  "App MCQs go far deeper into 2025-26 current data (budgets, NMNF figures, PMMSY splits, aqua tariffs) and many multi-statement items; APPSC mostly uses single-figure recall."
+ ],
+ "stats": {"app_mcqs": 127, "pyqs": 54, "fixed": 0, "dropped": 3}
+}

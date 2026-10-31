@@ -1,0 +1,38 @@
+{
+ "topic": "2:46",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n00bb292f5fa", "why": "ambiguous: opt 3 'unitary in form with federal features' matches Wheare's own wording (see n60e5b0bd12b) yet opt 4 keyed"},
+  {"id": "n6a6ce367f06", "why": "near-duplicate of n275857c08d5 (unitary without formal amendment)"},
+  {"id": "n1d7c4f66f41", "why": "opinion item drawn from newspaper commentary"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y057a54bf052", "why": "suspect key: 'federation with a centralising tendency' = Ivor Jennings (opt 1), Wheare keyed; stem garbled"},
+  {"id": "y4b634ae9378", "why": "suspect key: Central Services also depart from federal principle; notes cite 2025 key A, B, C and D"},
+  {"id": "y37b998fc21e", "why": "garbled; suspect key: Preamble does not call India quasi-federal"},
+  {"id": "yd5d2edf7fff", "why": "garbled (stray question number), duplicate of y2aec7ddc195"},
+  {"id": "y2aec7ddc195", "why": "garbled (repeated words)"},
+  {"id": "ycd7a316583a", "why": "garbled (options belong to an author-book match)"},
+  {"id": "y20ba2eaafcc", "why": "garbled (options truncated)"},
+  {"id": "yc77d83dd685", "why": "garbled (options truncated)"},
+  {"id": "y497e06ca736", "why": "garbled (stem missing)"},
+  {"id": "y436fa77da57", "why": "garbled options"},
+  {"id": "y5aac08ca275", "why": "garbled options"},
+  {"id": "y001750cc167", "why": "garbled options"},
+  {"id": "ye2063cd0837", "why": "wrong topic: current affairs"},
+  {"id": "y34ea50cea5e", "why": "wrong topic: Criminal Procedure (Identification) Act"},
+  {"id": "ye479942da5e", "why": "wrong topic: Criminal Procedure (Identification) Act"},
+  {"id": "y3c966b90ee3", "why": "wrong topic: constitutional amendments (voting age)"},
+  {"id": "ya9a3177a4d7", "why": "wrong topic: salient features / sources of the Constitution"},
+  {"id": "yccb203df3e9", "why": "wrong topic: Constituent Assembly critics"}
+ ],
+ "patterns": [
+  "APPSC repeatedly asks 'who called India quasi-federal' (K.C. Wheare), 'federation with a centralising tendency' (Jennings), 'elephantine size' (H.V. Kamath).",
+  "APPSC 'NOT a federal feature' items: Office of the Governor, CAG, 'allocation of financial resources'; Union of India = indissoluble union of States; First Schedule lists territories.",
+  "List questions are single-subject: Banking -> Union, Forests -> Concurrent, Higher education not in State List, Entry 64 = institutions of national importance.",
+  "Other PSCs favour Railway Police -> State, Economic planning -> Concurrent, Panchayati Raj -> State, Art. 249 Rajya Sabha 2/3 present and voting, 42nd Amendment education transfer.",
+  "App MCQs are statement-heavy and add 2026 current-affairs (131st Amendment Bill, TH commentary) and entry-number trivia beyond APPSC depth; core scholar/list facts are well aligned."
+ ],
+ "stats": {"app_mcqs": 103, "pyqs": 87, "fixed": 0, "dropped": 3}
+}

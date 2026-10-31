@@ -1,0 +1,34 @@
+{
+ "topic": "4:49",
+ "mcq_fix": [
+  {"id": "n8297d9c8c7b", "a": 3, "why": "after MHA remeasurement TN (1,068.69 km) > AP (1,053.07 km), so AP is second-longest on east coast; all 3 statements true"},
+  {"id": "n5143d0e3dba", "s": "Which State was the worst affected by the 2004 Indian Ocean tsunami along India's east coast?", "why": "vague stem ('the 2004 event')"}
+ ],
+ "mcq_drop": [
+  {"id": "nap-geography-13-2", "why": "dubious key: by IMD normals Rayalaseema gets more total rain from SW than NE monsoon, so option 3 is not clearly the incorrect one"}
+ ],
+ "notes_fix": [
+  {"ref": "20#1", "find": "Established 1980", "replace": "Set up 1976; report 1980", "why": "Rashtriya Barh Ayog constituted 1976, reported 1980"},
+  {"ref": "15#3", "find": "Longest on the east coast either way", "replace": "Longest on the east coast by the old 974 km figure; second after Tamil Nadu (1,068.69 km) by the 2024 remeasurement", "why": "MHA 2024 figures: TN 1,068.69 km > AP 1,053.07 km"},
+  {"ref": "10#1", "find": "Rayalaseema receives more rainfall from the North-East Monsoon", "replace": "Rayalaseema depends heavily on the North-East Monsoon (southern districts like Chittoor get a large NE share)", "why": "IMD normals: Rayalaseema's SW-monsoon total still exceeds its NE total"}
+ ],
+ "pyq_bad": [
+  {"id": "y4aa17c390ad", "why": "mental ability"},
+  {"id": "y0200db46377", "why": "mental ability"},
+  {"id": "y80c40066583", "why": "mental ability"},
+  {"id": "y3f626666fdb", "why": "mental ability"},
+  {"id": "y13332269c2d", "why": "wrong topic: AP mineral resources"},
+  {"id": "ya4b06c3d8a8", "why": "suspect key: Coromandel Coast is Tamil Nadu (option 3), key says Gujarat"},
+  {"id": "ycc8421ad5dc", "why": "wrong topic: disaster management systems (ICS)"},
+  {"id": "y8eb7f1dda55", "why": "wrong topic: agricultural geography"},
+  {"id": "y2a25083978d", "why": "wrong topic: AP mineral resources"},
+  {"id": "y577858eca02", "why": "garbled (options truncated)"}
+ ],
+ "patterns": [
+  "APPSC asks AP-specific single facts: most cyclone-vulnerable stretch (Ongole-Machilipatnam), deadliest cyclone (1977 Diviseema), lowest-rainfall region (south-western / Rayalaseema) from the IMD AP rainfall report.",
+  "APPSC lifts lines from the IMD 'Observed Rainfall Variability ... Andhra Pradesh' report (hot and humid, March-June summer, moisture quite high).",
+  "Cyclone-resistant roof (hip/pyramidal over gable) recurs in APPSC promotion tests; NE monsoon = Tamil Nadu/Coromandel is the standard other-PSC trap.",
+  "App leans on 2026 current affairs (El Nino deficit, City Flood Alert, AWARE 2.0) and long match items on DM structural/non-structural measures, beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 69, "pyqs": 29, "fixed": 2, "dropped": 1}
+}

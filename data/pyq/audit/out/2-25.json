@@ -1,0 +1,37 @@
+{
+ "topic": "2:25",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n1457b04d09d", "why": "ambiguous: J&K UT Assembly MLAs are also in the electoral college (J&K Reorganisation Act 2019), so stmt 4 is arguably true"},
+  {"id": "n59b487fcc12", "why": "oddly worded statement 2; ambiguous"},
+  {"id": "nd5b70c49349", "why": "options 1 and 2 are near-identical; awkward NOT-question"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yc9f6357162b", "why": "wrong topic: US presidential electoral college"},
+  {"id": "y824e93d5b17", "why": "wrong topic: US presidential primaries"},
+  {"id": "y3b8ad1613b9", "why": "suspect key: 50 proposers required since 1997; options lack 50 (outdated)"},
+  {"id": "y9c7079f1f39", "why": "suspect key: President elected by STV with secret ballot, not open ballot"},
+  {"id": "y89c39e9d3dd", "why": "suspect key: Governors and nominated MPs are not in the electoral college"},
+  {"id": "y730138166f1", "why": "suspect key: Droupadi Murmu was the NDA candidate; opposition (UPA) candidate was Yashwant Sinha"},
+  {"id": "yaffe83ba71d", "why": "garbled (mixed with another question)"},
+  {"id": "y2aae9de71cb", "why": "garbled: explanation from another question merged into stem"},
+  {"id": "y30765877897", "why": "garbled: options truncated"},
+  {"id": "yad6efb98122", "why": "garbled: options truncated"},
+  {"id": "ye486a807c48", "why": "garbled: stem missing"},
+  {"id": "yded2b841532", "why": "garbled: options truncated"},
+  {"id": "yee0ca913341", "why": "garbled: options truncated"},
+  {"id": "y8cf62675d52", "why": "mental ability"},
+  {"id": "y9ee371a6d7d", "why": "mental ability"},
+  {"id": "y49fbf325766", "why": "wrong topic: 74th Amendment / municipalities"},
+  {"id": "y1721a801545", "why": "wrong topic: making of the Constitution"}
+ ],
+ "patterns": [
+  "APPSC asks bare Article numbers: tenure Art. 56, removal Art. 61, pardon Art. 72; and electoral-college composition as an A-E statement list (key A, C, E).",
+  "Recurring trap: who votes vs who impeaches (MLAs elect but don't impeach; nominated MPs impeach but don't elect); CM in Legislative Council cannot vote.",
+  "Pardon: 'only the President can pardon a death sentence' (Governor can only commute/remit); suspensive veto not for Money Bills.",
+  "AP tilt: N. Sanjiva Reddy - only unopposed President, ex-Speaker, first AP CM; Epuru Sudhakar case.",
+  "App MCQs are mostly multi-statement items on fine procedure (vote-value formula, Art. 240 UTs, appointment Articles); PYQs are mainly one-line Article/fact recall."
+ ],
+ "stats": {"app_mcqs": 71, "pyqs": 73, "fixed": 0, "dropped": 3}
+}

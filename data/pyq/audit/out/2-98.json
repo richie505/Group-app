@@ -1,0 +1,28 @@
+{
+ "topic": "2:98",
+ "mcq_fix": [
+  {"id": "nb969c292117", "s": "Which one of the following is NOT a quasi-judicial body?", "why": "odd wording 'in the context described'"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-polity-25-32", "why": "5-item match, near-duplicate of nindian-polity-1-54 and 1-55"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y7bf99dfabc8", "why": "garbled, options truncated"},
+  {"id": "yf9702210873", "why": "wrong topic: impeachment of the President"},
+  {"id": "ydabf335e86d", "why": "suspect key: no key given and all four options are constitutional bodies"},
+  {"id": "y5e167233f72", "why": "garbled; precedence table merged with a mental-ability ordering item"},
+  {"id": "y92a068e1cca", "why": "garbled; duplicate of y98ee1b70de0"},
+  {"id": "yd7f3880d474", "why": "wrong topic: mixed polity / dated current affairs"},
+  {"id": "y6dfb7889bf8", "why": "suspect key: no key given (answer Finance Commission)"},
+  {"id": "y77dc48c3f19", "why": "wrong topic: classical languages"}
+ ],
+ "patterns": [
+  "Dominant shape: 'Which is NOT a constitutional body?' with Planning Commission / NITI Aayog / NDC as the odd one out.",
+  "APPSC asks counts and odd-one-out (only Art. 350B officer constitutional among NITI, NCM, NHRC; NITI odd among NCBC, CAG, FC) and Inter-State Council as the constitutional inter-state body.",
+  "Recurring facts: FC report laid by President (Art. 281), UPSC report to President, NDC formed 6 Aug 1952, State Finance Commission constituted by Governor.",
+  "Firsts: K.C. Neogy (FC), Nehru (Planning Commission), Panagariya (NITI VC), M.C. Setalvad (Law Commission), B.G. Kher (Official Language Commission).",
+  "App MCQs are heavier on multi-statement and match-the-list items with peripheral trivia (order of precedence, NCM composition) than the direct PYQ style."
+ ],
+ "stats": {"app_mcqs": 61, "pyqs": 48, "fixed": 1, "dropped": 1}
+}

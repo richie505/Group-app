@@ -1,0 +1,44 @@
+{
+ "topic": "4:96",
+ "mcq_fix": [
+  {"id": "n3e5a2948711", "o": ["7,517 km", "6,100 km", "11,098 km", "15,200 km"], "a": 2, "s": "As per the 2024 recalculation, the length of India's coastline is approximately:", "why": "coastline officially revised to ~11,098 km (2024 recount); 7,517 km is the old figure"},
+  {"id": "nc3b180084d1", "s": "Which one of the following is NOT imported by India, India being an exporter of it?", "why": "remove PYQ tag from stem"},
+  {"id": "n6b9c15a2a54", "s": "Which one of the following waterways is regarded as having the greatest economic and strategic significance?", "why": "remove PYQ tag from stem (yb4b4ab16b94)"}
+ ],
+ "mcq_drop": [
+  {"id": "n3a3f4bd0cc5", "why": "ambiguous: Visakhapatnam widely called a natural port (other app MCQ and notes say natural); 'only natural' distractor is defensible"}
+ ],
+ "notes_fix": [
+  {"ref": "21#5", "find": "About 7,517 km", "replace": "About 11,098 km (2024 recount; older figure 7,517 km)", "why": "official coastline revised to 11,098.81 km"}
+ ],
+ "pyq_bad": [
+  {"id": "y6d585fde384", "why": "wrong topic: energy policy"},
+  {"id": "y80019a93a72", "why": "garbled: pair options truncated"},
+  {"id": "yb92b62269b6", "why": "garbled: pair options truncated"},
+  {"id": "y8ddecf71ef0", "why": "garbled: pair options truncated"},
+  {"id": "y00cad21cf9e", "why": "wrong topic: Arctic Council"},
+  {"id": "yf20db7d96b1", "why": "wrong topic: petroleum production in India"},
+  {"id": "y680b94c9db4", "why": "wrong topic: current affairs (indoor waterfall)"},
+  {"id": "ydb4ae79f008", "why": "wrong topic: current affairs (Islamic banking pilot)"},
+  {"id": "y88aa343270f", "why": "wrong topic: world history/places"},
+  {"id": "y55d3f1af4cf", "why": "wrong topic: European capitals"},
+  {"id": "y3fde9f1c323", "why": "wrong topic: nuclear power"},
+  {"id": "y16362c6fc74", "why": "wrong topic: mountains of the world"},
+  {"id": "yf2ec2af8ae3", "why": "wrong topic: energy resources"},
+  {"id": "y5f97ad88cb2", "why": "wrong topic: cyclones/climate"},
+  {"id": "yf21b766dd36", "why": "wrong topic: political geography of UAE"},
+  {"id": "ycc0a5868334", "why": "wrong topic: groundwater utilisation"},
+  {"id": "y42ffc60bb8a", "why": "garbled: stem carries list from notes"},
+  {"id": "ydb836fee2ad", "why": "garbled: stem carries long explanatory notes"},
+  {"id": "ya0ed65adf2d", "why": "garbled and wrong topic: crescent beaches (Kovalam)"},
+  {"id": "y70254b6ec12", "why": "garbled: stem/options mixed with other questions"}
+ ],
+ "patterns": [
+  "Ports dominate: port-to-state (Haldia WB, Kandla Gujarat), west vs east coast, natural vs artificial (Chennai artificial), tidal Kandla, JNPT decongests Mumbai, Paradip for Kolkata-Visakhapatnam.",
+  "APPSC items: Suez links Mediterranean-Red Sea, Quilon not a major west-coast port, USA largest export destination, India does not import iron ore, milk products not an export.",
+  "Chokepoints asked as 'which strait connects X and Y' (Bab-el-Mandeb, Bering, Malacca-Singapore, SUMED statement pair).",
+  "Commodity-trade items are older-data single facts (gems then chemicals in 2002-03; vegetable oils top agri import; pulses largest producer/consumer/importer).",
+  "App leans on FY26 statistics, FTA-year matching and 2026 chokepoint news; PYQs rarely ask figures beyond port/strait identification."
+ ],
+ "stats": {"app_mcqs": 101, "pyqs": 67, "fixed": 3, "dropped": 1}
+}

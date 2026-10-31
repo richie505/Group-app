@@ -1,0 +1,41 @@
+{
+ "topic": "4:30",
+ "mcq_fix": [
+  {"id": "nworld-geography-18-2", "o": ["Bhutan has a constitutional provision to maintain 60% of its geographical area under forest.", "Tropical rainforest soil is nutrient-poor, and regeneration is slow once the forest is cleared.", "Dense forests are mostly found away from the equator.", "Canada is the largest producer and exporter of softwood timber and wood pulp."], "why": "Bhutan constitution mandates 60%, not 70% (y1b8cb7f2eac); else two options incorrect"}
+ ],
+ "mcq_drop": [
+  {"id": "nworld-geography-11-26", "why": "oddly worded match (List-I gives away answers, e.g. 'producer — Turkey' to Turkey)"}
+ ],
+ "notes_fix": [
+  {"ref": "11#6", "find": "maintain 70% of its geographical area under forest", "replace": "maintain at least 60% of its geographical area under forest", "why": "y1b8cb7f2eac"}
+ ],
+ "pyq_bad": [
+  {"id": "y80a4fd42e0f", "why": "garbled; oil-field names missing from options"},
+  {"id": "y5a0e82b34a8", "why": "garbled; matched rivers/states missing"},
+  {"id": "yb5b55639fcf", "why": "garbled; matched items missing"},
+  {"id": "y5d44219a4b8", "why": "garbled; states missing from options"},
+  {"id": "y070183a6b5a", "why": "garbled; needs outline map image"},
+  {"id": "y64118326310", "why": "suspect key: Indira Gandhi Canal draws from the Sutlej (Harike), not Chambal"},
+  {"id": "y5c28282fb5a", "why": "suspect key: Gujarat is the main beneficiary of Sardar Sarovar"},
+  {"id": "y8b116d98292", "why": "wrong topic: agricultural education"},
+  {"id": "y76c42151455", "why": "wrong topic: livestock / milk production"},
+  {"id": "y3b51cd20030", "why": "wrong topic: crop production (oilseeds)"},
+  {"id": "y43c9badfb03", "why": "wrong topic: crop production (groundnut)"},
+  {"id": "y28f96aa7311", "why": "wrong topic: states by area"},
+  {"id": "y168677abe3e", "why": "wrong topic: states by area"},
+  {"id": "y99b5d804ac9", "why": "wrong topic: agrarian structure / landholdings"},
+  {"id": "y910bb8c483c", "why": "wrong topic: engineering materials (boiler tubes)"},
+  {"id": "ybf526b18030", "why": "wrong topic: AgriStack / digital agriculture"},
+  {"id": "ycec19626a2d", "why": "wrong topic: administrative divisions"},
+  {"id": "yf9fd1aa1ec1", "why": "wrong topic: cotton cultivation in MP; stem garbled"},
+  {"id": "y94a396b0ef7", "why": "wrong topic: child budgeting"}
+ ],
+ "patterns": [
+  "APPSC asks direct single-fact items: resource classification (biotic = plants, animals, micro-organisms), ruby = Al2O3 + chromium, largest copper producer (Chile)",
+  "Traditional water-harvesting systems asked one-per-question (Eri, Ahar-pyne, Zabo); Buckingham Canal as AP's commercial canal",
+  "Dam-river-state matching dominates other PSCs (Hirakud-Mahanadi, Bhakra-Sutlej, Rana Pratap Sagar-Chambal, Sardar Sarovar-Narmada)",
+  "Critical minerals: DRC cobalt, Indonesia nickel, Chile/Bolivia lithium appear as UPSC-style pairs",
+  "App adds heavy 2026 current-affairs (MMDR 2026, Project Vault, BRICS) and multi-statement items; PYQs stay at single-fact depth"
+ ],
+ "stats": {"app_mcqs": 71, "pyqs": 83, "fixed": 1, "dropped": 1}
+}

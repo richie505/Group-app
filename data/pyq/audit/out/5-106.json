@@ -1,0 +1,33 @@
+{
+ "topic": "5:106",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ndisaster-management-2-7", "why": "odd sequence item: 'Recovery' listed as a phase separate from post-crisis"},
+  {"id": "ndisaster-management-7-9", "why": "A/R explanation link ambiguous (R defines radiation, arguably explains A)"},
+  {"id": "ndisaster-management-28-15", "why": "A and R restate the same fact; circular, oddly worded"},
+  {"id": "ndisaster-management-34-12", "why": "hinges on wording 'general' vs 'agricultural' measure; ambiguous"},
+  {"id": "ndisaster-management-32-10", "why": "ambiguous: disability-inclusive DRR and others also make special provisions for vulnerable groups"}
+ ],
+ "notes_fix": [
+  {"ref": "4#0", "find": "1989–1999 — IDNDR", "replace": "1990–1999 — IDNDR (declared by UNGA in Dec 1989)", "why": "IDNDR decade = 1990s; UNGA res. 44/236 of 1989"}
+ ],
+ "pyq_bad": [
+  {"id": "y05b9c0c70c2", "why": "wrong topic: earthquakes / seismology instruments"},
+  {"id": "y6ad36a06e9b", "why": "wrong topic: human physiology"},
+  {"id": "y210f0040f69", "why": "wrong topic: computer networks"},
+  {"id": "y1791368079d", "why": "wrong topic: physics (pendulum)"},
+  {"id": "yadd9ea1153f", "why": "suspect key: IDNDR was 1990-1999 (closest option 1), not 2001-2010"},
+  {"id": "y9e885dfcb57", "why": "wrong topic: atmosphere heat budget"},
+  {"id": "y0d9315ad2b9", "why": "wrong topic: computers / social media marketing"},
+  {"id": "y2e4c5211423", "why": "garbled: stem missing date '1 December'"},
+  {"id": "ye162125dcb2", "why": "garbled: date column of options missing"}
+ ],
+ "patterns": [
+  "APPSC asks direct single-fact items: Sendai target year (2030), Target E (2020), Bhopal gas (MIC), Operation Vanilla (Madagascar), NIDM southern campus, nodal ministry (MHA).",
+  "Statement items on DM Act 2005 NDMA powers (lays down policy, approves National Plan and ministry plans) and Yokohama 1994 / IDNDR dates recur.",
+  "Conceptual DRR items: Disaster Crunch (Pressure-and-Release) model - vulnerability rooted in socio-economic processes; post-2015 frameworks trap (Hyogo NOT one).",
+  "Classification questions ('which type of disaster is avalanche/biological flooding') and earthquake-resistant design (small, centrally located openings) appear.",
+  "App leans heavily on long match-the-list and assertion-reason items built from notes wording (Sendai priorities/targets, MHA division roles), more UPSC-style than the short APPSC items."
+ ],
+ "stats": {"app_mcqs": 92, "pyqs": 38, "fixed": 0, "dropped": 5}
+}

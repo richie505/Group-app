@@ -1,0 +1,32 @@
+{
+ "topic": "2:0",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-polity-38-61", "why": "off topic: Panchayati Raj tiers, not colonial Acts"},
+  {"id": "nindian-polity-38-60", "why": "off topic: collective responsibility under Art 75(3)"},
+  {"id": "nindian-polity-22-30", "why": "oddly worded: options 1 and 3 are mirror statements about enactment year"},
+  {"id": "nindian-polity-22-36", "why": "oddly worded 'had existing High Courts as its judicial body'"},
+  {"id": "n3184898c3df", "why": "vague/dubious claim that British officials had to work under Indian ministers"},
+  {"id": "n4b74a2f3ed7", "why": "opinion-style 'best describes significance' item"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y5367549ceae", "why": "garbled: book preview text dumped into stem"},
+  {"id": "yfe509add2c0", "why": "garbled: previous explanation text merged into stem"},
+  {"id": "y69ce68c418d", "why": "garbled: options mixed with other questions"},
+  {"id": "yb6e1cf1a257", "why": "garbled: options mixed with other questions"},
+  {"id": "yf1a17c7946e", "why": "garbled; suspect key: Supreme Court at Calcutta set up 1774, not 1776"},
+  {"id": "yc0ec2a58591", "why": "wrong options: (A)(B)(C) codes lost; 1926 and 1945 both under 1919 Act"},
+  {"id": "yd112107da2b", "why": "suspect key: discussion of annual statement (budget) = 1892 Act (code 1)"},
+  {"id": "y93886c17b7a", "why": "wrong topic: freedom-struggle chronology"},
+  {"id": "y2b546fe931f", "why": "wrong topic: national movement events and results"}
+ ],
+ "patterns": [
+  "APPSC asks 'which Act' one-liners: GG of Bengal -> GG of India = Charter Act 1833; indirect election = 1892; dyarchy in provinces = 1919.",
+  "Match-the-list of Act vs feature (separate electorate 1909, dyarchy 1919, federation 1935, budget discussion 1892) is a recurring APPSC shape.",
+  "Traps: Regulating Act did not abolish Court of Directors; 1813 kept tea/China monopoly while 1833 ended trade; central dyarchy and federation never implemented.",
+  "Other-PSC staples: bicameral centre 1919, PSC 1919/1926, residuary powers with GG (1935), ordinance power relic of 1935, power distribution based on 1935 Act.",
+  "App MCQs are mostly multi-statement items with fine details (sections/schedules, 1767/1781 Acts) and a few off-topic polity items; APPSC prefers direct single-fact items."
+ ],
+ "stats": {"app_mcqs": 79, "pyqs": 51, "fixed": 0, "dropped": 6}
+}

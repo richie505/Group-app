@@ -1,0 +1,5983 @@
+{
+ "APPSC": {
+  "count": 5178,
+  "answered": 4180,
+  "types": [
+   [
+    "Direct one-liner (what/which)",
+    2272
+   ],
+   [
+    "Superlative / first / largest",
+    585
+   ],
+   [
+    "Negative (NOT / incorrect / false)",
+    470
+   ],
+   [
+    "Scheme / programme / mission",
+    446
+   ],
+   [
+    "Data / number fact",
+    292
+   ],
+   [
+    "Where / place",
+    288
+   ],
+   [
+    "Definition / term / known as",
+    285
+   ],
+   [
+    "Who / person",
+    277
+   ],
+   [
+    "Statement-based (consider the following)",
+    272
+   ],
+   [
+    "Fill in the blank",
+    216
+   ],
+   [
+    "When / year / date",
+    214
+   ],
+   [
+    "How many statements/pairs",
+    176
+   ],
+   [
+    "Match the following",
+    145
+   ],
+   [
+    "Article / Schedule / Amendment number",
+    122
+   ],
+   [
+    "Assertion-Reason",
+    92
+   ],
+   [
+    "Chronological / sequence",
+    54
+   ]
+  ],
+  "types_by_book": {
+   "1": [
+    [
+     "Direct one-liner (what/which)",
+     396
+    ],
+    [
+     "Who / person",
+     137
+    ],
+    [
+     "Superlative / first / largest",
+     88
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     60
+    ],
+    [
+     "When / year / date",
+     53
+    ],
+    [
+     "Statement-based (consider the following)",
+     36
+    ],
+    [
+     "Match the following",
+     36
+    ],
+    [
+     "Where / place",
+     33
+    ],
+    [
+     "Definition / term / known as",
+     32
+    ],
+    [
+     "How many statements/pairs",
+     26
+    ],
+    [
+     "Data / number fact",
+     26
+    ],
+    [
+     "Scheme / programme / mission",
+     21
+    ],
+    [
+     "Fill in the blank",
+     19
+    ],
+    [
+     "Chronological / sequence",
+     13
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     6
+    ],
+    [
+     "Assertion-Reason",
+     5
+    ]
+   ],
+   "4": [
+    [
+     "Direct one-liner (what/which)",
+     510
+    ],
+    [
+     "Superlative / first / largest",
+     180
+    ],
+    [
+     "Where / place",
+     125
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     97
+    ],
+    [
+     "Definition / term / known as",
+     68
+    ],
+    [
+     "Match the following",
+     62
+    ],
+    [
+     "Statement-based (consider the following)",
+     54
+    ],
+    [
+     "Fill in the blank",
+     45
+    ],
+    [
+     "Data / number fact",
+     43
+    ],
+    [
+     "Scheme / programme / mission",
+     33
+    ],
+    [
+     "When / year / date",
+     23
+    ],
+    [
+     "How many statements/pairs",
+     21
+    ],
+    [
+     "Assertion-Reason",
+     20
+    ],
+    [
+     "Chronological / sequence",
+     13
+    ],
+    [
+     "Who / person",
+     10
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     4
+    ]
+   ],
+   "3": [
+    [
+     "Direct one-liner (what/which)",
+     413
+    ],
+    [
+     "Scheme / programme / mission",
+     152
+    ],
+    [
+     "Data / number fact",
+     106
+    ],
+    [
+     "Superlative / first / largest",
+     87
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     77
+    ],
+    [
+     "Fill in the blank",
+     64
+    ],
+    [
+     "Definition / term / known as",
+     61
+    ],
+    [
+     "When / year / date",
+     56
+    ],
+    [
+     "How many statements/pairs",
+     53
+    ],
+    [
+     "Statement-based (consider the following)",
+     37
+    ],
+    [
+     "Where / place",
+     28
+    ],
+    [
+     "Assertion-Reason",
+     16
+    ],
+    [
+     "Match the following",
+     11
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     8
+    ],
+    [
+     "Who / person",
+     8
+    ],
+    [
+     "Chronological / sequence",
+     6
+    ]
+   ],
+   "2": [
+    [
+     "Direct one-liner (what/which)",
+     327
+    ],
+    [
+     "Scheme / programme / mission",
+     136
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     115
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     97
+    ],
+    [
+     "Superlative / first / largest",
+     84
+    ],
+    [
+     "Statement-based (consider the following)",
+     64
+    ],
+    [
+     "Who / person",
+     62
+    ],
+    [
+     "Data / number fact",
+     59
+    ],
+    [
+     "Definition / term / known as",
+     43
+    ],
+    [
+     "How many statements/pairs",
+     42
+    ],
+    [
+     "Where / place",
+     38
+    ],
+    [
+     "When / year / date",
+     36
+    ],
+    [
+     "Fill in the blank",
+     34
+    ],
+    [
+     "Match the following",
+     16
+    ],
+    [
+     "Assertion-Reason",
+     13
+    ],
+    [
+     "Chronological / sequence",
+     4
+    ]
+   ],
+   "0": [
+    [
+     "Direct one-liner (what/which)",
+     102
+    ],
+    [
+     "Superlative / first / largest",
+     26
+    ],
+    [
+     "Definition / term / known as",
+     26
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     23
+    ],
+    [
+     "Data / number fact",
+     13
+    ],
+    [
+     "Statement-based (consider the following)",
+     12
+    ],
+    [
+     "Who / person",
+     10
+    ],
+    [
+     "Chronological / sequence",
+     8
+    ],
+    [
+     "Where / place",
+     7
+    ],
+    [
+     "How many statements/pairs",
+     5
+    ],
+    [
+     "When / year / date",
+     5
+    ],
+    [
+     "Fill in the blank",
+     4
+    ],
+    [
+     "Scheme / programme / mission",
+     2
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     1
+    ],
+    [
+     "Match the following",
+     1
+    ],
+    [
+     "Assertion-Reason",
+     1
+    ]
+   ],
+   "5": [
+    [
+     "Direct one-liner (what/which)",
+     421
+    ],
+    [
+     "Superlative / first / largest",
+     95
+    ],
+    [
+     "Scheme / programme / mission",
+     90
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     81
+    ],
+    [
+     "Statement-based (consider the following)",
+     54
+    ],
+    [
+     "Fill in the blank",
+     50
+    ],
+    [
+     "Definition / term / known as",
+     49
+    ],
+    [
+     "Where / place",
+     43
+    ],
+    [
+     "Assertion-Reason",
+     37
+    ],
+    [
+     "Data / number fact",
+     35
+    ],
+    [
+     "When / year / date",
+     35
+    ],
+    [
+     "Who / person",
+     26
+    ],
+    [
+     "How many statements/pairs",
+     22
+    ],
+    [
+     "Match the following",
+     18
+    ],
+    [
+     "Chronological / sequence",
+     7
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     3
+    ]
+   ],
+   "6": [
+    [
+     "Direct one-liner (what/which)",
+     103
+    ],
+    [
+     "Superlative / first / largest",
+     25
+    ],
+    [
+     "Who / person",
+     24
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     17
+    ],
+    [
+     "Statement-based (consider the following)",
+     15
+    ],
+    [
+     "Where / place",
+     14
+    ],
+    [
+     "Scheme / programme / mission",
+     12
+    ],
+    [
+     "Data / number fact",
+     10
+    ],
+    [
+     "How many statements/pairs",
+     7
+    ],
+    [
+     "When / year / date",
+     6
+    ],
+    [
+     "Definition / term / known as",
+     6
+    ],
+    [
+     "Chronological / sequence",
+     3
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     3
+    ],
+    [
+     "Match the following",
+     1
+    ]
+   ]
+  },
+  "examples": {
+   "Negative (NOT / incorrect / false)": [
+    [
+     "Identify the incorrect pair among the 6. 7. following?",
+     [
+      "Fernao Nunez- Achyuta Devarayalu",
+      "Abdul Razak- Second Deva Raya",
+      "Caesar Frederick - Venkatapati Raya-II",
+      "Domingo Paes - Krishnadevaraya S.I. Mains 16-12-2018"
+     ],
+     3
+    ],
+    [
+     "Which of the following is not a green house gas?",
+     [
+      "Methane",
+      "Carbon Dioxide",
+      "Nitrous Oxide",
+      "Hydrogen"
+     ],
+     3
+    ],
+    [
+     "What of the following is not one of the objectives of Solar Charkha mission launched by President of India in June, 2018?",
+     [
+      "To provide solar charkhas to 10 lakh handloom weavers",
+      "To ensure inclusive growth by generation of employment through solar charkha clusters in rural areas.",
+      "To arrest migration from rural to urban areas",
+      "To leverage low cost innovative technologies and processes for sustenance"
+     ],
+     0
+    ],
+    [
+     "Which of the following Statements is most appropriate? I. Earthquakes do not kill people II. It is badly designed buildings that kill people",
+     [
+      "Statement I is True and Statement II is false",
+      "Statement I is false and Statement II is true",
+      "Both Statements are true and Statement II is the reason behind Statement I",
+      "Both Statements are false"
+     ],
+     2
+    ],
+    [
+     "Out of the following, which is not a feature of the 1991 New Economic Policy?",
+     [
+      "Nationalization",
+      "Liberalization",
+      "Globalization",
+      "Disinvestment"
+     ],
+     0
+    ],
+    [
+     "Ram runs faster than Shyam but is not fast as Janaki whilst Jane always beats Ram. Who is the fastest runner amongst the above?",
+     [
+      "Jane",
+      "Janaki",
+      "Ram",
+      "The above information is not sufficient to find out the correct answer"
+     ],
+     3
+    ]
+   ],
+   "Where / place": [
+    [
+     "Sangamayya cave is located in which iv. Saluva Narasimha",
+     [
+      "i, ii, iii, iv",
+      "iv, iii, II, 1",
+      "iii, i, iv, ii",
+      "ii, iv, i, iii 'Sakala Neeti 28. district?"
+     ],
+     1
+    ],
+    [
+     "Which country gifted two giant tortoises to India, which are kept at Nehru Zoological Park, Hyderabad in June, 2018?",
+     [
+      "Spain",
+      "Argentina",
+      "Seychelles",
+      "Cyprus"
+     ],
+     2
+    ],
+    [
+     "To which country India donated 200 cows during Prime Minister’s visit in July, 2018?",
+     [
+      "Brazil",
+      "Argentina",
+      "Rwanda",
+      "Kenya"
+     ],
+     2
+    ],
+    [
+     "“Ooty” is situated in?",
+     [
+      "Western Ghats",
+      "Eastern Ghats",
+      "Nallamala",
+      "Nilgiris"
+     ],
+     3
+    ],
+    [
+     "Which of the following rivers is located in Brahmaputra basin?",
+     [
+      "Ghagra",
+      "Kali",
+      "Teesta",
+      "Son"
+     ],
+     2
+    ],
+    [
+     "As per latest data, which Country of the World produces the highest quantity of Gold?",
+     [
+      "United States of America",
+      "China",
+      "South Africa",
+      "Australia"
+     ],
+     1
+    ]
+   ],
+   "Direct one-liner (what/which)": [
+    [
+     "In a Dengue patient, the following would fall down drastically?",
+     [
+      "Count of Red Blood Cells",
+      "Count of White Blood Cells",
+      "Count of Platelets",
+      "Count of Mitochondria"
+     ],
+     2
+    ],
+    [
+     "The following is generally used in bone healing in humans?",
+     [
+      "CissusQuadrangularis",
+      "Allium Sativum",
+      "Piper Nigrum",
+      "Allium Cepa"
+     ],
+     0
+    ],
+    [
+     "Radioactivity was discovered by?",
+     [
+      "J J Thomson",
+      "Henri Becquerel",
+      "Marie Curie",
+      "R A Millikan"
+     ],
+     1
+    ],
+    [
+     "During winter in cold countries, the following is mixed to melt the ice on the roads?",
+     [
+      "Salt",
+      "Water",
+      "Carbon Dioxide",
+      "Methane"
+     ],
+     0
+    ],
+    [
+     "Apart from Sun light and Carbon Dioxide, the source for production of Oxygen through photosynthesis in plants is?",
+     [
+      "Air",
+      "Chlorophyll",
+      "Water",
+      "Glucose"
+     ],
+     2
+    ],
+    [
+     "In Chlorophyll, the central metal ion is?",
+     [
+      "Magnesium",
+      "Iron",
+      "Calcium",
+      "Copper"
+     ],
+     0
+    ]
+   ],
+   "Scheme / programme / mission": [
+    [
+     "What of the following is not one of the objectives of Solar Charkha mission launched by President of India in June, 2018?",
+     [
+      "To provide solar charkhas to 10 lakh handloom weavers",
+      "To ensure inclusive growth by generation of employment through solar charkha clusters in rural areas.",
+      "To arrest migration from rural to urban areas",
+      "To leverage low cost innovative technologies and processes for sustenance"
+     ],
+     0
+    ],
+    [
+     "What is name of the flagship programme launched by Government of India in 2018 aiming at holistic nutrition for children, adolescents, pregnant women and lactating mothers?",
+     [
+      "AnnapoornaAbhiyan",
+      "PoshanAbhiyan",
+      "AkshayAbhiyan",
+      "NityannaAbhiyan"
+     ],
+     1
+    ],
+    [
+     "Out of the following, which is not a feature of the 1991 New Economic Policy?",
+     [
+      "Nationalization",
+      "Liberalization",
+      "Globalization",
+      "Disinvestment"
+     ],
+     0
+    ],
+    [
+     "As per India’s National Population Policy, 2000, the objective is to stabilize the population by the year?",
+     [
+      "2025",
+      "2045",
+      "2050",
+      "2070"
+     ],
+     1
+    ],
+    [
+     "The current exchange policy of India is?",
+     [
+      "Pegged exchange rate",
+      "Flexible exchange rate",
+      "Liberalized exchange rate management system",
+      "Market determined exchange rate"
+     ],
+     3
+    ],
+    [
+     "An initiative for meeting aspirations and needs of women entrepreneurs in providing a web-based marketing platform, the Ministry of Women and Child Development launched the scheme:",
+     [
+      "Mahila E-Haat",
+      "Women E Marketing",
+      "Electronic Vyapaar",
+      "Mahila Parikrami"
+     ],
+     0
+    ]
+   ],
+   "Superlative / first / largest": [
+    [
+     "The most abundant element in the Universe is?",
+     [
+      "Oxygen",
+      "Silicon",
+      "Helium",
+      "Hydrogen"
+     ],
+     3
+    ],
+    [
+     "Which of the following planets moves around the Sun with highest speed?",
+     [
+      "Jupiter",
+      "Venus",
+      "Mars",
+      "Mercury"
+     ],
+     3
+    ],
+    [
+     "Out of the following, which compoundhas highest solubility in Water?",
+     [
+      "Table Salt",
+      "Alum",
+      "Glucose",
+      "Ammonium Chloride"
+     ],
+     2
+    ],
+    [
+     "The most common method Uranium enrichment is?",
+     [
+      "Distillation",
+      "Centrifugation",
+      "Ionization",
+      "Calcification"
+     ],
+     1
+    ],
+    [
+     "By which name, the longest lunar eclipse of the Century (occurred in July, 2018) is called?",
+     [
+      "Red moon",
+      "Blood moon",
+      "Blue moon",
+      "Golden moon"
+     ],
+     1
+    ],
+    [
+     "Which metal did the ancient Indians use first?",
+     [
+      "Iron",
+      "Gold",
+      "Silver",
+      "Copper"
+     ],
+     3
+    ]
+   ],
+   "How many statements/pairs": [
+    [
+     "How many medals are won by India at Asian Games, 2018?",
+     [
+      "59",
+      "69",
+      "79",
+      "89"
+     ],
+     1
+    ],
+    [
+     "Approximately how many people died in Great Bengal Famine of 1943 (choose the nearest figure)?",
+     [
+      "About 10 lakh",
+      "About 1 lakh",
+      "About 5 lakh",
+      "About 20 lakh"
+     ],
+     3
+    ],
+    [
+     "How many readings would a bill undergo in a house of Parliament before it is passed?",
+     [
+      "One reading",
+      "Two readings",
+      "Three readings",
+      "Four readings"
+     ],
+     2
+    ],
+    [
+     "How many members are nominated by the President to Rajya Sabha from the fields of Arts, Literature, Science, Social Service etc?",
+     [
+      "5",
+      "7",
+      "10",
+      "12"
+     ],
+     3
+    ],
+    [
+     "In how many days after receipt, the Legislative Council has to send back a “money bill” to Legislative Assembly?",
+     [
+      "days",
+      "days",
+      "days",
+      "days"
+     ],
+     1
+    ],
+    [
+     "In 2016 how many 16 year old children were studying in Polytechnic Colleges (rounded off to nearest integer)?",
+     [
+      "81083",
+      "101657",
+      "112549",
+      "86529"
+     ],
+     1
+    ]
+   ],
+   "Data / number fact": [
+    [
+     "In a healthy adult, what is the approximate percentage of white blood cells in total blood volume?",
+     [
+      "One percent",
+      "Five percent",
+      "Ten percent",
+      "Twenty percent"
+     ],
+     0
+    ],
+    [
+     "How many medals are won by India at Asian Games, 2018?",
+     [
+      "59",
+      "69",
+      "79",
+      "89"
+     ],
+     1
+    ],
+    [
+     "Approximately how many people died in Great Bengal Famine of 1943 (choose the nearest figure)?",
+     [
+      "About 10 lakh",
+      "About 1 lakh",
+      "About 5 lakh",
+      "About 20 lakh"
+     ],
+     3
+    ],
+    [
+     "As per Census 2011, which of the following districts of Andhra Pradesh has lowest number of rural population as percentage of total population of the District?",
+     [
+      "Guntur",
+      "Krishna",
+      "Cuddapah",
+      "Visakhapatnam"
+     ],
+     3
+    ],
+    [
+     "As per Census, 2011, which of the following districts of Andhra Pradesh had the highest percentage of child population (as percentage of total population of the district)?",
+     [
+      "East Godavari",
+      "Kurnool",
+      "Nellore",
+      "Srikakulam"
+     ],
+     1
+    ],
+    [
+     "As per State of Forest report, 2015, which of the following States has highest forest cover as percentage of its area?",
+     [
+      "Arunachal Pradesh",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland"
+     ],
+     2
+    ]
+   ],
+   "Chronological / sequence": [
+    [
+     "Which of the following shows the correct sequence of mountain passes arranged from west to east?",
+     [
+      "Khardung La, Niti Pas, Shipki La, Tunga pass",
+      "Rohtang, Zozi La, Tunga pass, Mana pass",
+      "Banihal, Mana pass, Nathu La pass, Bum La pass",
+      "Rohtang, Tunga pass, Mana pass, Dipher pass"
+     ],
+     2
+    ],
+    [
+     "Arrange the Dams of India on the basis of their heights in descending order.",
+     [
+      "Tehri Dam, Bhakra Dam, Idukki Dam, Koldam Dam",
+      "Tehri Dam, Bhakra Dam, Srisailam Dam, Idukki Dam",
+      "Bhakra Dam, Tehri Dam, Srisailam Dam, Idukki Dam",
+      "Tehri Dam, Idukki Dam, Bhakra Dam, Koldam Dam"
+     ],
+     0
+    ],
+    [
+     "Which of the following is the CORRECT sequence of flow of",
+     [
+      "Sunlight → Producers Herbivores Carnivores → → →",
+      "Sunlight → Herbivores Carnivores → Producers",
+      "Sunlight → → Producers Carnivores Herbivores →",
+      "Sunlight Herbivores →Producers → Carnivores"
+     ],
+     0
+    ],
+    [
+     "Which of the following is the CORRECT sequence of flow of energy in an ecosystem?",
+     [
+      "Sunlight → Producers Herbivores Carnivores → →",
+      "Sunlight → Herbivores → Carnivores → Producers",
+      "Sunlight → → Producers Carnivores Herbivores →",
+      "Sunlight Herbivores Producers → Carnivores"
+     ],
+     0
+    ],
+    [
+     "In the post-bifurcation scenario, Hyderabad remained the common capital for both Andhra Pradesh and Telangana for a transitional period. What was the duration of this arrangement?",
+     [
+      "years",
+      "years",
+      "years",
+      "years"
+     ],
+     3
+    ],
+    [
+     "Which of the following statements is/are NOT correct with respect to definition of anatomy and physiology? I. Physiology focuses on the physical arrangement of parts in the body, II. Anatomy studies the inner functioning of cells, tissues, and organs.",
+     [
+      "Only statement I is not correct",
+      "Only statement II is not correct",
+      "Both statements I and II are not correct",
+      "Both statements I and II are correct"
+     ],
+     2
+    ]
+   ],
+   "Article / Schedule / Amendment number": [
+    [
+     "Which Article of the Constitution prescribes six freedoms?",
+     [
+      "Article 18",
+      "Article 19",
+      "Article 20",
+      "Article 21"
+     ],
+     1
+    ],
+    [
+     "The Inter State Council is Constituted under which Article of the Constitution?",
+     [
+      "Article 261",
+      "Article 262",
+      "Article 263",
+      "Article 264"
+     ],
+     2
+    ],
+    [
+     "Untouchability is abolished and its practice in any form is forbidden in by which article of Constitution of India?",
+     [
+      "Article 14",
+      "Article 15",
+      "Article 16",
+      "Article 17"
+     ],
+     3
+    ],
+    [
+     "The President can proclaim Emergency if he/she finds emergency condition and security threat for India under Article:",
+     [
+      "350",
+      "352",
+      "376",
+      "321"
+     ],
+     1
+    ],
+    [
+     "By which amendments, the fundamental duties of citizens were added to the constitution of India:",
+     [
+      "34th Amendment",
+      "41st Amendment",
+      "42nd Amendment",
+      "45th Amendment"
+     ],
+     2
+    ],
+    [
+     "The Central Universities (Amendment) Bill, 2019 provides for the establishment of which two universities:",
+     [
+      "Central University of Andhra Pradesh and the Central Tribal University of Andhra Pradesh",
+      "Central University of Jammu and the Central University of Kashmir",
+      "Central University of Karnataka and the Central Tribal University of Karnataka",
+      "Central University of Telangana and the Central Tribal University of Telangana"
+     ],
+     0
+    ]
+   ],
+   "When / year / date": [
+    [
+     "When an iron nail gets rusted, its weight?",
+     [
+      "Increases",
+      "Decreases",
+      "Remains same",
+      "Increase or decrease depends on temperature and pressure"
+     ],
+     0
+    ],
+    [
+     "What is the name of the navy sailor from India, who participated in Golden Globe Race and was rescued by a French fishing vessel when his boat was damaged in deep waters recently?",
+     [
+      "Akash Tony",
+      "AbhinavTomy",
+      "Arnav Tony",
+      "AbhilashTomy"
+     ],
+     3
+    ],
+    [
+     "Partition of Bengal was done by the British in the year?",
+     [
+      "1900",
+      "1909",
+      "1905",
+      "1912"
+     ],
+     2
+    ],
+    [
+     "In which year, Emergency was promulgated by President due to “internal disturbances”?",
+     [
+      "1962",
+      "1968",
+      "1971",
+      "1975"
+     ],
+     3
+    ],
+    [
+     "FEMA was passed in the parliament in the year 1999 replacing FERA. One of the objectives of FEMA as stated in the preamble of the Act is?",
+     [
+      "Promotion of export industries",
+      "Facilitating external trade and payments",
+      "Control on imports",
+      "Regulation of all transactions in foreign exchange"
+     ],
+     1
+    ],
+    [
+     "A clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?",
+     [
+      "270",
+      "180",
+      "210",
+      "135"
+     ],
+     1
+    ]
+   ],
+   "Who / person": [
+    [
+     "Who amongst the following is one of the winners of World Food Prize, 2018?",
+     [
+      "Lawrance Haddad",
+      "Dr Sanjay Rajaram",
+      "Sir Fazle Hasan Abed",
+      "AkinwumiAyodejiAdesina"
+     ],
+     0
+    ],
+    [
+     "Who is the present Deputy Chairman of Rajya Sabha?",
+     [
+      "P J Kurien",
+      "Harivansh Narayan Singh",
+      "B K Hariprasad",
+      "M Venkaiah Naidu"
+     ],
+     1
+    ],
+    [
+     "Who amongst the following got Ramon Magsaysay Award for 2018?",
+     [
+      "SonamWangchuk",
+      "T M Krishna",
+      "Anshu Gupta",
+      "SanjivChaturvedi"
+     ],
+     0
+    ],
+    [
+     "Who out of the following persons won a Gold medal at Asian Games, 2018 in Wrestling?",
+     [
+      "GeetaPhogat",
+      "BabitaPhogat",
+      "RituPhogat",
+      "VineshPhogat"
+     ],
+     3
+    ],
+    [
+     "Who won the Gold medal in Women’s Singles Category of Badminton at Asian Games, 2018?",
+     [
+      "P V Sindhu",
+      "Tai Tzu-Ying",
+      "Akane Yamaguchi",
+      "Chen Qingchen"
+     ],
+     1
+    ],
+    [
+     "Who were executed by the British along with Bhagat Singh on 23rd March, 1931?",
+     [
+      "Batukeshwar Dutta and RamprasadBismil",
+      "Batukeshwar Dutta and Sukhdev",
+      "Sukhdev and Rajguru",
+      "Rajguru and RamprasadBismil"
+     ],
+     2
+    ]
+   ],
+   "Definition / term / known as": [
+    [
+     "By which name, the longest lunar eclipse of the Century (occurred in July, 2018) is called?",
+     [
+      "Red moon",
+      "Blood moon",
+      "Blue moon",
+      "Golden moon"
+     ],
+     1
+    ],
+    [
+     "Ancient people of South India buried the dead along with weapons, tools, pottery etc in graves and placed big stones around the graves. These structures are known as?",
+     [
+      "Chalcoliths",
+      "Microliths",
+      "Monoliths",
+      "Megaliths"
+     ],
+     3
+    ],
+    [
+     "In Kerala, the pre-monsoon showers are popularly known as?",
+     [
+      "Onam showers",
+      "Bali showers",
+      "Mango showers",
+      "Kuttan showers"
+     ],
+     2
+    ],
+    [
+     "The grasslands of North America are known as?",
+     [
+      "Prairies",
+      "Steppes",
+      "Pampas",
+      "Veldts"
+     ],
+     0
+    ],
+    [
+     "The most important item in India’s imports in term of expenditure for most of the post-reform period is?",
+     [
+      "Chemical elements and compounds",
+      "Electronic and computer goods",
+      "Gold and silver",
+      "Petroleum, oil and lubricants"
+     ],
+     3
+    ],
+    [
+     "What is the aggregate number of children who were studying Intermediate in Govt college for the three years together (rounded off to nearest integer)?",
+     [
+      "124317",
+      "134418",
+      "114317",
+      "144418"
+     ],
+     2
+    ]
+   ],
+   "Statement-based (consider the following)": [
+    [
+     "Which of the following Statements is most appropriate? I. Earthquakes do not kill people II. It is badly designed buildings that kill people",
+     [
+      "Statement I is True and Statement II is false",
+      "Statement I is false and Statement II is true",
+      "Both Statements are true and Statement II is the reason behind Statement I",
+      "Both Statements are false"
+     ],
+     2
+    ],
+    [
+     "Which of the following statements is NOT correct about Geographical Indication (GI) tag?",
+     [
+      "A geographical indication (GI) is a sign used on a reputed product with assurance of quality and distinctiveness that have a specific geographical origin",
+      "Geographical Indications protection is granted through the Paris Agreement and Protocol",
+      "Palani Panchamirtham has been granted Geographical Indication (GI) tag",
+      "Araku valley Arabica coffee has been granted Geographical Indication (GI) tag"
+     ],
+     1
+    ],
+    [
+     "Which of the following statement is not correct about the Attorney General of India:",
+     [
+      "The Attorney General (AG) of India is appointed by the President",
+      "The current Attorney General of India is Mukul Rohatgi",
+      "Attorney General appears on behalf of the government of India in all the cases in Supreme Court",
+      "The Attorney General of India is the highest law officer of the country"
+     ],
+     1
+    ],
+    [
+     "Which of the following statement is not correct about the Insurance Regulatory & Development Authority of India (IRDAI):",
+     [
+      "IRDAI is a statutory body",
+      "It was set up based on the recommendations of the Gadgil Committee",
+      "Frames regulations for insurance industry in terms of Section 114A of the Insurance Act 1938.",
+      "Its headquartered is at Hyderabad"
+     ],
+     1
+    ],
+    [
+     "Which of the following statements is CORRECT about the 'Disaster Crunch Model'?",
+     [
+      "Vulnerability is rooted in socio-economic processes.",
+      "Vulnerability is in the minds of people.",
+      "Vulnerability is needed to address the problem.",
+      "Vulnerability is chance based."
+     ],
+     0
+    ],
+    [
+     "Which of the following statements is CORRECT about the 'Disaster Crunch Model'?",
+     [
+      "Vulnerability is rooted in socio-economic processes.",
+      "Vulnerability is in the minds of people. 8/53 9/27/2020",
+      "Vulnerability is needed to address the problem.",
+      "Vulnerability is chance based."
+     ],
+     0
+    ]
+   ],
+   "Fill in the blank": [
+    [
+     "The ______________, an experimental satellite communications project launched in India in 1975, was the first attempt to use space technology for education.",
+     [
+      "Satellite Instructional Television Experiment",
+      "Television Infrared Observation Satellite Program",
+      "Central Television Experiment Mission",
+      "Telstar Mission"
+     ],
+     0
+    ],
+    [
+     "According to recently released State of Forest Report- 2019 by Ministry of Environment Forest and Climate Change, the forest cover in India is _________ of total geographical area.",
+     [
+      "11.70 %",
+      "16.80 %",
+      "21.67 %",
+      "22.69 %"
+     ],
+     2
+    ],
+    [
+     "________________ is the flagship initiative set up by the NITI Aayog to promote innovation and entrepreneurship across the country.",
+     [
+      "Sardar Patel Innovation Mission",
+      "The Atal Innovation Mission",
+      "Mahatma Innovation Mission",
+      "Kaushal Navin Lakshay"
+     ],
+     1
+    ],
+    [
+     "Which Programme has been merged with RGSA, a Central Government Scheme from 2015-16....",
+     [
+      "PM Awas Yojana (PMAY)",
+      "Integrated Watershed Development Program (IWDP)",
+      "✓ Backward Region Grant Fund (BRGF)",
+      "PM Krishi Sinchayi Yojana (PMKSY)"
+     ],
+     2
+    ],
+    [
+     "Proline is a type of _______.",
+     [
+      "Amino Acid",
+      "Base",
+      "Bacteria",
+      "Virus"
+     ],
+     0
+    ],
+    [
+     "e-PDs system of Andhra Pradesh is a system to distribute ________.",
+     [
+      "Food Grains to BPL Families",
+      "Subsidized seeds to farmers",
+      "Calculation of Stamp duties",
+      "Scholarship to SC students"
+     ],
+     0
+    ]
+   ],
+   "Match the following": [
+    [
+     "Choose the INCORRECT match from the following.",
+     [
+      "India – IRNSS",
+      "China – BeiDou Navigation Satellite System",
+      "Russia – GLONASS",
+      "USA – Galileo"
+     ],
+     3
+    ],
+    [
+     "Which of the following pair is INCORRECTLY matched with respect to the disaster wise nodal agencies for forecast?",
+     [
+      "Avalanches – Snow and Avalanche Study Establishment",
+      "Landslides – Geological Survey of India",
+      "Floods – Indian Meteorological Department",
+      "Cyclone – Indian Meteorological Department"
+     ],
+     2
+    ],
+    [
+     "Match the following I.Percolation II. Permeability III.Infiltration IV. Saturated flow",
+     [
+      "I-B, II-D, III-A, IV-C",
+      "I-C, II-D, III-A, IV-B *",
+      "IÖD, II-C, III-A, IV-B",
+      "I-C, II-A, III-D, IV-B"
+     ],
+     1
+    ],
+    [
+     "Question Which of the following pairs is not correctly matched-",
+     [
+      "Yellow Book - Official Book of France",
+      "Blue Book - Official Report of British Govemment",
+      "White Book - Official Reports of India",
+      "Orange Book - Official Publication of Netherlands"
+     ],
+     2
+    ],
+    [
+     "Match List-I with List-II and select your answer from the given options: List-I I. Hygrometer II. Ammeter III. Odometer IV. Anemometer",
+     [
+      "✔ I-C, II-A, III-D, IV-B",
+      "I-B, II-D, III-A, IV-C",
+      "I-C, II-D, III-B, IV-A List-II A. Current B. Wind C. Humidity D. Speed 15/41 5/18/23, 5:08 PM",
+      "I-A, II-C, III-B, IV-D"
+     ],
+     0
+    ],
+    [
+     "Match List-I with List-II and select your answer from the given options: List-I I. Owl II. Horse III. Eagle IV. Bear",
+     [
+      "I-C, II-A, III-D, IV-B",
+      "I-B, II-C, III-A, IV-D",
+      "✔I-C, II-D, III-A, IV-B",
+      "I-D, II-C, III-B, IV-A"
+     ],
+     2
+    ]
+   ],
+   "Assertion-Reason": [
+    [
+     "Assertion: (A) A free press necessary for a vibrant democracy. Reason: (B) New media technologies have facilitated participatory communication.",
+     [
+      "Both (A) and (B) are true",
+      "(A) is true and (B)is the correct explanation of (A)",
+      "Both (A) and (B) are false",
+      "(A) is True but (B) is false"
+     ],
+     0
+    ],
+    [
+     "Given below are the two statements marked as Assertion (A) and Reason (R). Analyze the statements and choose one of the given options. Assertion (A): Spirit is used in a thermometer to measure temperatures down to -70° C. Reason (R): Spirit is less toxic and evaporates quickly.",
+     [
+      "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+      "(A) is true but (R) is false.",
+      "(A) is false but (R) is true."
+     ],
+     1
+    ],
+    [
+     "Read the Assertion and select the Logical reason: Assertion: Glucose is highly soluble in water Reason: Glucose forms Hydrogen bonds with water",
+     [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ],
+     0
+    ],
+    [
+     "Read the Assertion and select the Logical reason: Assertion: Crop Rotation is an example of sustainable development Reason: Planting different types of crops on the same land on a rotational basis for improving soil fertility.",
+     [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ],
+     1
+    ],
+    [
+     "Read the Assertion and select the Logical Reason: Assertion: The longitudinal valley lying between lesser Himalaya and the Shiwaliks are known as Duns Reason: Dehra Dun, Kotli Dun and Patli Dun are some of the well-known Duns.",
+     [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ],
+     1
+    ],
+    [
+     "Given below are the two statements marked as Assertion (A) and Reason (R). Analyze the statements and choose one of the given options. Assertion (A): Spirit is used in a thermometer to measure temperatures down to -70° C. Reason (R): Spirit is less toxic and evaporates quickly.",
+     [
+      "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+      "(A) is true but (R) is false.",
+      "(A) is false but (R) is true."
+     ],
+     1
+    ]
+   ]
+  },
+  "answer_position": [
+   1150,
+   1100,
+   1068,
+   862
+  ],
+  "extreme_option": {
+   "total": 782,
+   "correct": 212
+  },
+  "hedge_option": {
+   "total": 75,
+   "correct": 16
+  },
+  "answer_shapes": {
+   "Two items": [
+    89,
+    179
+   ],
+   "None of the above / neither": [
+    26,
+    138
+   ],
+   "Both": [
+    95,
+    188
+   ],
+   "All of the above / 1,2,3 all": [
+    47,
+    120
+   ],
+   "Only one item": [
+    25,
+    75
+   ]
+  },
+  "longest_option_correct": [
+   844,
+   2904
+  ],
+  "signal_words": [
+   [
+    "which",
+    2138
+   ],
+   [
+    "india",
+    987
+   ],
+   [
+    "andhra",
+    848
+   ],
+   [
+    "not",
+    409
+   ],
+   [
+    "who",
+    397
+   ],
+   [
+    "correct",
+    349
+   ],
+   [
+    "first",
+    270
+   ],
+   [
+    "all",
+    236
+   ],
+   [
+    "2023",
+    155
+   ],
+   [
+    "launched",
+    151
+   ],
+   [
+    "scheme",
+    125
+   ],
+   [
+    "match",
+    116
+   ],
+   [
+    "true",
+    101
+   ],
+   [
+    "consider",
+    95
+   ],
+   [
+    "only",
+    90
+   ],
+   [
+    "when",
+    85
+   ],
+   [
+    "article",
+    80
+   ],
+   [
+    "largest",
+    73
+   ],
+   [
+    "where",
+    73
+   ],
+   [
+    "established",
+    71
+   ],
+   [
+    "incorrect",
+    67
+   ],
+   [
+    "2024",
+    60
+   ],
+   [
+    "recently",
+    59
+   ],
+   [
+    "amendment",
+    54
+   ],
+   [
+    "both",
+    47
+   ],
+   [
+    "2025",
+    45
+   ],
+   [
+    "founded",
+    26
+   ],
+   [
+    "chronological",
+    12
+   ],
+   [
+    "false",
+    10
+   ],
+   [
+    "headquarters",
+    6
+   ],
+   [
+    "none",
+    5
+   ]
+  ],
+  "books": [
+   [
+    4,
+    1137
+   ],
+   [
+    3,
+    939
+   ],
+   [
+    2,
+    915
+   ],
+   [
+    5,
+    903
+   ],
+   [
+    1,
+    856
+   ],
+   [
+    0,
+    218
+   ],
+   [
+    6,
+    210
+   ]
+  ],
+  "topics": [
+   [
+    "Relevance of science and technology to day-to-day life - health, food, transport, communication, household",
+    86
+   ],
+   [
+    "Disaster management framework - hazard vs disaster, DM Act 2005, NDMA, early warning systems",
+    67
+   ],
+   [
+    "India - Peninsular drainage: east-flowing and west-flowing rivers, river basins, watershed",
+    52
+   ],
+   [
+    "India - rocks and mineral belts; distribution of metallic and non-metallic minerals",
+    49
+   ],
+   [
+    "Approaches and initiatives in AP agriculture - APCNF/ZBNF, horticulture, aquaculture, allied sectors",
+    37
+   ],
+   [
+    "Andhra Pradesh - drainage: Godavari, Krishna, Penna, Vamsadhara, Nagavali; reservoirs and canals",
+    37
+   ],
+   [
+    "Health and environment - vector-borne and water-borne diseases, air pollution and health, antimicrobial resistance, One Health",
+    36
+   ],
+   [
+    "Later reorganisation of states - 1960s to 2000; creation of Telangana 2014",
+    34
+   ],
+   [
+    "Basic features of the Andhra Pradesh economy after bifurcation - GSDP, growth rate, sectoral shares",
+    34
+   ],
+   [
+    "Linguistic reorganisation demand; Potti Sriramulu's fast and the formation of Andhra State 1953",
+    33
+   ],
+   [
+    "World - major rivers, lakes, seas, straits, canals and islands",
+    32
+   ],
+   [
+    "High Courts and subordinate judiciary; judicial review, judicial activism, PIL and judicial overreach debate",
+    32
+   ],
+   [
+    "Goals of sustainable development - the 17 SDGs, targets and India's SDG Index performance",
+    32
+   ],
+   [
+    "The universe and the solar system - origin theories, the Sun, planets, asteroids, comets, meteors",
+    31
+   ],
+   [
+    "Andhra Pradesh - soil types and their distribution",
+    30
+   ],
+   [
+    "Approaches and initiatives in AP industry - industrial policy, single desk, MSMEs, industrial nodes",
+    30
+   ],
+   [
+    "Environment - components; ecology, ecosystem, food chain and food web, energy flow, ecological pyramids",
+    29
+   ],
+   [
+    "Atmospheric disturbances - tropical cyclones, temperate cyclones, anticyclones, thunderstorms, tornadoes",
+    27
+   ],
+   [
+    "India - the Northern Plains, the Peninsular Plateau, the Coastal Plains and the Islands",
+    27
+   ],
+   [
+    "India - location, extent, frontiers, standard meridian and neighbouring countries",
+    26
+   ],
+   [
+    "Environmental hazards and disaster management - DM Act 2005, NDMA and NDRF, Sendai Framework, disaster types and mitigation",
+    25
+   ],
+   [
+    "Science awards and recognitions - Shanti Swarup Bhatnagar Prize, Rashtriya Vigyan Puraskar, Nobel laureates of Indian origin",
+    24
+   ],
+   [
+    "Interior of the earth - crust, mantle, core; discontinuities and seismic evidence",
+    24
+   ],
+   [
+    "Hydrological disasters - floods, flash floods, cloudbursts, droughts, tsunamis, storm surges",
+    24
+   ],
+   [
+    "Solid waste, plastic waste, e-waste, biomedical and construction waste - rules and management",
+    24
+   ],
+   [
+    "NITI Aayog initiatives - SDG India Index, Aspirational Districts Programme, Health/Education indices, Atal Innovation Mission",
+    23
+   ],
+   [
+    "Elements and factors of climate; world climatic classification (Koeppen)",
+    23
+   ],
+   [
+    "Earthquakes - causes, seismic waves, measurement, distribution, effects",
+    23
+   ],
+   [
+    "Five Year Plans I to XII - objectives, targets, achievements and failures of each",
+    23
+   ],
+   [
+    "India - natural vegetation types and their distribution; forest cover (India State of Forest Report)",
+    23
+   ],
+   [
+    "Vice-President; Prime Minister and the Union Council of Ministers - Articles 74, 75, 77, 78",
+    23
+   ],
+   [
+    "Important policies and programmes of the Government of Andhra Pradesh - welfare and social security",
+    23
+   ],
+   [
+    "Formation of Andhra Pradesh 1956 - Visalandhra, Gentlemen's Agreement",
+    23
+   ],
+   [
+    "World - continents, major mountain systems, plateaus, plains and deserts",
+    22
+   ],
+   [
+    "India - agriculture: major food crops (rice, wheat, maize, pulses) and their regions",
+    22
+   ],
+   [
+    "AP state finances - revenue receipts and expenditure, debt and interest payments, latest AP Budget",
+    21
+   ],
+   [
+    "India - Himalayan drainage system: Indus, Ganga and Brahmaputra basins",
+    21
+   ],
+   [
+    "India - rainfall distribution, variability, El Nino linkage, drought and flood-prone areas",
+    21
+   ],
+   [
+    "National income concepts - GDP, GNP, NDP, NNP, factor cost vs market price, GVA, deflator",
+    21
+   ],
+   [
+    "India - sex ratio and child sex ratio: trends, regional pattern, causes",
+    20
+   ],
+   [
+    "Atmosphere - structure (layers) and composition",
+    20
+   ],
+   [
+    "Parliament - composition of Lok Sabha and Rajya Sabha, qualifications, terms, special powers of Rajya Sabha",
+    20
+   ],
+   [
+    "Social and religious reform in Andhra - Kandukuri Veeresalingam, Gurajada Apparao, Raghupathi Venkataratnam Naidu",
+    20
+   ],
+   [
+    "Transport in Andhra Pradesh - highways, railway network, ports (Visakhapatnam, Krishnapatnam, Gangavaram, Kakinada), airports",
+    20
+   ],
+   [
+    "Biotechnology - nature, scope, tools; applications in agriculture, medicine and industry",
+    19
+   ],
+   [
+    "Federal structure of India - features of federalism and unitary bias; Seventh Schedule (three lists), residuary powers",
+    19
+   ],
+   [
+    "Economic reforms of 1991 - background, stabilisation and structural adjustment measures",
+    19
+   ],
+   [
+    "Poverty eradication and livelihood programmes - DAY-NRLM, DAY-NULM, SHG movement",
+    19
+   ],
+   [
+    "Economic growth vs economic development; measures of development",
+    19
+   ],
+   [
+    "Air pollution - sources, pollutants, NAAQS, AQI, National Clean Air Programme, stubble burning",
+    18
+   ],
+   [
+    "Andhra Pradesh - climate, rainfall regions, cyclone vulnerability, drought-prone areas",
+    18
+   ],
+   [
+    "Energy resources - coal, petroleum, natural gas, hydel, nuclear and renewable; distribution in India and AP",
+    18
+   ],
+   [
+    "Governor - appointment, powers, discretionary powers, position and controversies (Article 200/201, Article 356 reports)",
+    18
+   ],
+   [
+    "Parliamentary devices - Question Hour, Zero Hour, motions (adjournment, no-confidence, censure, calling attention)",
+    17
+   ],
+   [
+    "India - physiographic division: the Himalayas (ranges, regional divisions, passes)",
+    17
+   ],
+   [
+    "International environmental treaties - Stockholm 1972, Rio 1992, Ramsar, CITES, CBD and its protocols",
+    17
+   ],
+   [
+    "Human Development Index - components, methodology, India's rank and trend",
+    17
+   ],
+   [
+    "IVC seals, weights and measures, Harappan script (undeciphered features)",
+    17
+   ],
+   [
+    "Child welfare - ICDS, POSHAN Abhiyaan, mid-day meal (PM POSHAN), child marriage, malnutrition",
+    16
+   ],
+   [
+    "Concept of time - local and standard time, GMT/UTC, Indian Standard Time, time zones, International Date Line",
+    16
+   ],
+   [
+    "S&T institutions - ICAR, ICMR, ICFRE, DRDO, ISRO, DAE, DoS and their mandates",
+    16
+   ],
+   [
+    "Andhra Pradesh - rocks and minerals: barytes, limestone, mica, coal, oil and gas basins (KG basin)",
+    16
+   ],
+   [
+    "Environmental legislation in India - Water Act 1974, Air Act 1981, Environment (Protection) Act 1986",
+    16
+   ],
+   [
+    "A.P. Reorganisation Act 2014 - structure, schedules and key provisions",
+    15
+   ],
+   [
+    "Andhra Pradesh - national parks, wildlife sanctuaries (Nagarjunasagar-Srisailam, Coringa, Papikonda, Rollapadu, Kolleru) and Ramsar sites",
+    15
+   ],
+   [
+    "Special topics: Awards and honours - national civilian awards, international prizes, film and literary awards",
+    15
+   ],
+   [
+    "Climate change - greenhouse effect, greenhouse gases, radiative forcing, evidence and observed impacts",
+    14
+   ],
+   [
+    "Space science missions - Chandrayaan-1, 2 and 3; Mangalyaan; AstroSat; Aditya-L1; XPoSat",
+    14
+   ],
+   [
+    "Satavahana administration, economy, coinage and Prakrit literature (Hala's Gathasaptasati)",
+    14
+   ],
+   [
+    "Andhra Pradesh - coastline, deltas, hill ranges (Eastern Ghats, Nallamala, Seshachalam)",
+    14
+   ],
+   [
+    "Plurilateral groupings - G20, G7, BRICS, QUAD, I2U2, IBSA, BASIC, Colombo Security Conclave",
+    14
+   ],
+   [
+    "Humidity, evaporation, condensation, clouds and forms of precipitation",
+    14
+   ],
+   [
+    "Earth observation - IRS series, Cartosat, Resourcesat, Oceansat, RISAT, EOS series and applications",
+    14
+   ],
+   [
+    "India - literacy: levels, gender and regional gaps, trends",
+    14
+   ],
+   [
+    "Sustainable development - meaning, nature, scope and components",
+    14
+   ],
+   [
+    "73rd Amendment - Part IX, Eleventh Schedule, three-tier structure, Gram Sabha, reservations, State Election Commission",
+    14
+   ],
+   [
+    "Industrial location - factors and theories (Weber); world industrial regions",
+    14
+   ],
+   [
+    "Indian industry - structure, growth and contribution; IIP; public sector role and performance",
+    14
+   ],
+   [
+    "Supreme Court - composition, appointment, collegium and NJAC, jurisdictions (original, appellate, advisory, writ)",
+    14
+   ],
+   [
+    "Comptroller and Auditor General - appointment, duties, types of audit, audit reports and PAC linkage",
+    13
+   ]
+  ]
+ },
+ "UPSC": {
+  "count": 2478,
+  "answered": 2478,
+  "types": [
+   [
+    "Statement-based (consider the following)",
+    1036
+   ],
+   [
+    "Direct one-liner (what/which)",
+    790
+   ],
+   [
+    "Negative (NOT / incorrect / false)",
+    246
+   ],
+   [
+    "Superlative / first / largest",
+    242
+   ],
+   [
+    "Scheme / programme / mission",
+    201
+   ],
+   [
+    "Match the following",
+    180
+   ],
+   [
+    "Definition / term / known as",
+    180
+   ],
+   [
+    "How many statements/pairs",
+    101
+   ],
+   [
+    "Who / person",
+    83
+   ],
+   [
+    "When / year / date",
+    71
+   ],
+   [
+    "Article / Schedule / Amendment number",
+    69
+   ],
+   [
+    "Where / place",
+    65
+   ],
+   [
+    "Assertion-Reason",
+    60
+   ],
+   [
+    "Chronological / sequence",
+    44
+   ],
+   [
+    "Data / number fact",
+    19
+   ],
+   [
+    "Fill in the blank",
+    2
+   ]
+  ],
+  "types_by_book": {
+   "1": [
+    [
+     "Direct one-liner (what/which)",
+     180
+    ],
+    [
+     "Statement-based (consider the following)",
+     151
+    ],
+    [
+     "Who / person",
+     62
+    ],
+    [
+     "Superlative / first / largest",
+     58
+    ],
+    [
+     "Match the following",
+     52
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     46
+    ],
+    [
+     "Definition / term / known as",
+     29
+    ],
+    [
+     "Scheme / programme / mission",
+     29
+    ],
+    [
+     "Assertion-Reason",
+     25
+    ],
+    [
+     "Chronological / sequence",
+     22
+    ],
+    [
+     "When / year / date",
+     14
+    ],
+    [
+     "Where / place",
+     11
+    ],
+    [
+     "How many statements/pairs",
+     9
+    ],
+    [
+     "Fill in the blank",
+     2
+    ],
+    [
+     "Data / number fact",
+     2
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     1
+    ]
+   ],
+   "0": [
+    [
+     "Direct one-liner (what/which)",
+     120
+    ],
+    [
+     "Statement-based (consider the following)",
+     109
+    ],
+    [
+     "Definition / term / known as",
+     28
+    ],
+    [
+     "Match the following",
+     26
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     21
+    ],
+    [
+     "Superlative / first / largest",
+     20
+    ],
+    [
+     "Scheme / programme / mission",
+     15
+    ],
+    [
+     "How many statements/pairs",
+     15
+    ],
+    [
+     "Where / place",
+     8
+    ],
+    [
+     "Chronological / sequence",
+     6
+    ],
+    [
+     "Who / person",
+     4
+    ],
+    [
+     "When / year / date",
+     3
+    ],
+    [
+     "Data / number fact",
+     2
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     1
+    ]
+   ],
+   "4": [
+    [
+     "Statement-based (consider the following)",
+     188
+    ],
+    [
+     "Direct one-liner (what/which)",
+     125
+    ],
+    [
+     "Match the following",
+     56
+    ],
+    [
+     "Superlative / first / largest",
+     53
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     36
+    ],
+    [
+     "Where / place",
+     29
+    ],
+    [
+     "How many statements/pairs",
+     27
+    ],
+    [
+     "Definition / term / known as",
+     20
+    ],
+    [
+     "Assertion-Reason",
+     16
+    ],
+    [
+     "When / year / date",
+     16
+    ],
+    [
+     "Chronological / sequence",
+     9
+    ],
+    [
+     "Scheme / programme / mission",
+     9
+    ],
+    [
+     "Data / number fact",
+     7
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     3
+    ]
+   ],
+   "5": [
+    [
+     "Statement-based (consider the following)",
+     238
+    ],
+    [
+     "Direct one-liner (what/which)",
+     155
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     45
+    ],
+    [
+     "Scheme / programme / mission",
+     45
+    ],
+    [
+     "Definition / term / known as",
+     42
+    ],
+    [
+     "Superlative / first / largest",
+     39
+    ],
+    [
+     "How many statements/pairs",
+     16
+    ],
+    [
+     "Match the following",
+     13
+    ],
+    [
+     "Assertion-Reason",
+     13
+    ],
+    [
+     "When / year / date",
+     12
+    ],
+    [
+     "Where / place",
+     8
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     5
+    ],
+    [
+     "Data / number fact",
+     1
+    ],
+    [
+     "Chronological / sequence",
+     1
+    ]
+   ],
+   "2": [
+    [
+     "Statement-based (consider the following)",
+     205
+    ],
+    [
+     "Direct one-liner (what/which)",
+     112
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     73
+    ],
+    [
+     "Scheme / programme / mission",
+     59
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     57
+    ],
+    [
+     "Superlative / first / largest",
+     34
+    ],
+    [
+     "Definition / term / known as",
+     26
+    ],
+    [
+     "Match the following",
+     22
+    ],
+    [
+     "When / year / date",
+     21
+    ],
+    [
+     "Who / person",
+     15
+    ],
+    [
+     "How many statements/pairs",
+     15
+    ],
+    [
+     "Where / place",
+     4
+    ],
+    [
+     "Chronological / sequence",
+     4
+    ],
+    [
+     "Assertion-Reason",
+     3
+    ],
+    [
+     "Data / number fact",
+     2
+    ]
+   ],
+   "3": [
+    [
+     "Statement-based (consider the following)",
+     126
+    ],
+    [
+     "Direct one-liner (what/which)",
+     92
+    ],
+    [
+     "Scheme / programme / mission",
+     39
+    ],
+    [
+     "Superlative / first / largest",
+     34
+    ],
+    [
+     "Definition / term / known as",
+     32
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     23
+    ],
+    [
+     "How many statements/pairs",
+     13
+    ],
+    [
+     "Match the following",
+     7
+    ],
+    [
+     "Where / place",
+     4
+    ],
+    [
+     "When / year / date",
+     4
+    ],
+    [
+     "Data / number fact",
+     4
+    ],
+    [
+     "Assertion-Reason",
+     3
+    ],
+    [
+     "Chronological / sequence",
+     2
+    ],
+    [
+     "Who / person",
+     2
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     2
+    ]
+   ],
+   "6": [
+    [
+     "Statement-based (consider the following)",
+     19
+    ],
+    [
+     "How many statements/pairs",
+     6
+    ],
+    [
+     "Direct one-liner (what/which)",
+     6
+    ],
+    [
+     "Scheme / programme / mission",
+     5
+    ],
+    [
+     "Match the following",
+     4
+    ],
+    [
+     "Superlative / first / largest",
+     4
+    ],
+    [
+     "Definition / term / known as",
+     3
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     2
+    ],
+    [
+     "Data / number fact",
+     1
+    ],
+    [
+     "Where / place",
+     1
+    ],
+    [
+     "When / year / date",
+     1
+    ]
+   ]
+  },
+  "examples": {
+   "Statement-based (consider the following)": [
+    [
+     "Which one of the following statements is NOT correct?",
+     [
+      "The statue of Gomateshwara at Shravanabelagola represents the last Tirthankara of the Jains.",
+      "India's largest Buddhist monastery is in Arunachal Pradesh.",
+      "The Khajuraho temples were built under the Chandela Kings.",
+      "The Hoysalesvara Temple is dedicated to Shiva."
+     ],
+     0
+    ],
+    [
+     "With reference to the treatment of cancerous tumours, a tool called CyberKnife has been making the news. In this context, which one of the following statements is not correct?",
+     [
+      "It is a robotic image-guided system.",
+      "It delivers an extremely precise dose of radiation.",
+      "It has the capability of achieving sub-millimetre accuracy.",
+      "It can map the spread of tumour in the body."
+     ],
+     3
+    ],
+    [
+     "Which one of the following statements is correct? The Prime Minister of India:",
+     [
+      "Is free to choose ministers only from among Members of Parliament",
+      "Can choose ministers after counselling by the President",
+      "Has full discretion in the choice of persons to serve as ministers",
+      "Has only limited powers due to discretionary powers of the President"
+     ],
+     2
+    ],
+    [
+     "Consider the following: 1. Assertion (A): The word 'minority' is not defined in the Constitution of India. 2. Reason (R): The Minorities Commission is not a constitutional body. Select the correct answer using the code given below:",
+     [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ],
+     1
+    ],
+    [
+     "Consider the following rivers: Indian Geography PMF IAS Geo – 92 I. Kishenganga II. Ganga III. Wainganga IV. Penganga The correct sequence of these rivers when arranged in the north–south direction is:",
+     [
+      "I, II, III, IV",
+      "II, I, III, IV",
+      "II, I, IV, III",
+      "I, IV, II, III"
+     ],
+     0
+    ],
+    [
+     "Consider the following statements: 1. Assertion (A): Areas near the equator receive rainfall throughout the year. 2. Reason (R): High temperatures and high humidity cause convectional rain in most afternoons near the equator. Select the correct answer using the code given below:",
+     [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ],
+     0
+    ]
+   ],
+   "Negative (NOT / incorrect / false)": [
+    [
+     "Which one of the following statements is NOT correct?",
+     [
+      "The statue of Gomateshwara at Shravanabelagola represents the last Tirthankara of the Jains.",
+      "India's largest Buddhist monastery is in Arunachal Pradesh.",
+      "The Khajuraho temples were built under the Chandela Kings.",
+      "The Hoysalesvara Temple is dedicated to Shiva."
+     ],
+     0
+    ],
+    [
+     "With reference to the treatment of cancerous tumours, a tool called CyberKnife has been making the news. In this context, which one of the following statements is not correct?",
+     [
+      "It is a robotic image-guided system.",
+      "It delivers an extremely precise dose of radiation.",
+      "It has the capability of achieving sub-millimetre accuracy.",
+      "It can map the spread of tumour in the body."
+     ],
+     3
+    ],
+    [
+     "The Mughal School of Painting formed the spinal column of the various schools of Indian miniature art. Which one of the following painting styles was not affected by Mughal painting?",
+     [
+      "Pahari",
+      "Rajasthani",
+      "Kangra",
+      "Kalighat"
+     ],
+     3
+    ],
+    [
+     "Which one of the following is not explicitly stated in the Constitution but followed as a convention?",
+     [
+      "Finance Minister must be from Lok Sabha",
+      "PM resigns if he loses majority in Lok Sabha",
+      "All parts of India must be represented in Council of Ministers",
+      "Speaker acts as President if both President and VP offices fall vacant"
+     ],
+     1
+    ],
+    [
+     "Which one of the following is not an instrument of selective credit control in India?",
+     [
+      "Regulation of consumer credit",
+      "Rationing of credit",
+      "Margin requirements",
+      "Variable cash reserve ratios"
+     ],
+     3
+    ],
+    [
+     "Which one of the following is part of the electoral college for the election of the President of India but does not form part of the forum for his impeachment?",
+     [
+      "Lok Sabha",
+      "Rajya Sabha",
+      "State Legislative Councils",
+      "State Legislative Assemblies"
+     ],
+     3
+    ]
+   ],
+   "Direct one-liner (what/which)": [
+    [
+     "Hooghly was used as a base for piracy in the Bay of Bengal by",
+     [
+      "the Portuguese",
+      "the French",
+      "the Danish",
+      "the British"
+     ],
+     0
+    ],
+    [
+     "Which mountain range is spread over only one State?",
+     [
+      "Aravalli",
+      "Satpura",
+      "Ajanta",
+      "Sahyadri"
+     ],
+     2
+    ],
+    [
+     "The Indian subcontinent was originally part of a huge land mass called",
+     [
+      "Jurassic Land Mass",
+      "Aryavarta",
+      "Indiana",
+      "Gondwana Continent"
+     ],
+     3
+    ],
+    [
+     "Cryogenic engines find applications in",
+     [
+      "submarine propulsion",
+      "frost-free refrigerators",
+      "rocket technology",
+      "researches in superconductivity"
+     ],
+     2
+    ],
+    [
+     "An air bubble in water will act like a",
+     [
+      "convex mirror",
+      "convex lens",
+      "concave mirror",
+      "concave lens"
+     ],
+     3
+    ],
+    [
+     "The difference between a nuclear reactor and an atomic bomb is that",
+     [
+      "no chain reaction takes place in nuclear reactor",
+      "the chain reaction in nuclear reactor is controlled",
+      "the chain reaction in nuclear reactor is not controlled",
+      "no chain reaction takes place in atomic bomb"
+     ],
+     1
+    ]
+   ],
+   "Who / person": [
+    [
+     "Who among the following was a Brahmavadini who composed some hymns of the Vedas?",
+     [
+      "Lopamudra",
+      "Gargi",
+      "Leelavati",
+      "Savitri"
+     ],
+     0
+    ],
+    [
+     "Who among the following anticipated Newton by declaring that all things gravitate to the earth?",
+     [
+      "Aryabhata",
+      "Varahamihira",
+      "Buddha Gupta",
+      "Brahmagupta"
+     ],
+     3
+    ],
+    [
+     "Who among the following were famous jurists of medieval India? I. Vijnanesvara II. Hemadri III. Rajasekhara IV. Jimutavahana Choose the correct answer from the codes given below:",
+     [
+      "I, II and III",
+      "II, III and IV",
+      "I, II and IV",
+      "I and IV only"
+     ],
+     2
+    ],
+    [
+     "Who among the following was the first European to initiate the policy of taking part in the quarrels of Indian princes with a view to acquire territories?",
+     [
+      "Clive",
+      "Dupleix",
+      "Albuquerque",
+      "Warren Hastings"
+     ],
+     1
+    ],
+    [
+     "Who among the following is known for his work on medicine during the Gupta period?",
+     [
+      "Saumilla",
+      "Sudraka",
+      "Shaunaka",
+      "Sushruta"
+     ],
+     3
+    ],
+    [
+     "Who among the following was a prominent leader of the Congress Socialist Party?",
+     [
+      "M. N. Roy",
+      "Ganesh Shankar Vidyarthi",
+      "Pattam Thanu Pillai",
+      "Acharya Narendra Dev"
+     ],
+     3
+    ]
+   ],
+   "Match the following": [
+    [
+     "Which one of the following pairs is correctly matched?",
+     [
+      "Battle of Buxar — Mir Jafar vs. Clive",
+      "Battle of Wandiwash — French vs. East India Company",
+      "Battle of Chilianwala — Dalhousie vs. Marathas",
+      "Battle of Kharda — Nizam vs. East India Company"
+     ],
+     1
+    ],
+    [
+     "Match List I with List II and select the correct answer by using the codes given below the lists. List I (Eras) 1. Vikrama era 2. Saka era 3. Gupta era 4. Kali era List II (Reckoned from) A. 3102 B.C. B. 320 A.D. C. 78 A.D. D. 58 B.C. E. 248 A.D. Ancient Indian History PMF IAS IH – 32 Codes:",
+     [
+      "I-B, II-D, III-E, IV-A",
+      "I-A, II-C, III-B, IV-D",
+      "I-D, II-E, III-B, IV-C",
+      "I-D, II-C, III-B, IV-A"
+     ],
+     3
+    ],
+    [
+     "Which one of the following pairs is correctly matched?",
+     [
+      "Naqal — Bihar",
+      "Tamasha — Orissa",
+      "Ankia Nat — Assam",
+      "Baha — Punjab"
+     ],
+     2
+    ],
+    [
+     "Which of the following pairs of states and their important crops are correctly matched? 1. Kerala – Tapioca 2. Maharashtra – Cotton 3. West Bengal – Jute 4. Gujarat – Groundnut Select the correct answer using the codes given below:",
+     [
+      "I, II and III",
+      "I, II and IV",
+      "I, III and IV",
+      "II, III and IV"
+     ],
+     3
+    ],
+    [
+     "Match List I with List II and select the correct answer using the codes given below: List I List II I. Vitamin A. Pepsin II. Enzyme B. Carotene III. Hormone C. Keratin IV. Protein D. Progesterone Codes:",
+     [
+      "I - A, II - B, III - C, IV - D",
+      "I - B, II - A, III - D, IV - C",
+      "I - B, II - A, III - C, IV - D",
+      "I - A, II - B, III - D, IV – C"
+     ],
+     1
+    ],
+    [
+     "Match List I with List II and select the correct answer using the codes given below: List I 1. Visakhadatta 2. Varahamihira 3. Charaka 4. Brahmagupta List II A. Medicine B. Drama C. Astronomy D. Mathematics Indian Art and Culture PMF IAS IH – 229 Codes:",
+     [
+      "I-A, II-C, III-D, IV-B",
+      "I-B, II-A, III-C, IV-D",
+      "I-B, II-C, III-A, IV-D",
+      "I-C, II-B, III-A, IV-B"
+     ],
+     2
+    ]
+   ],
+   "Superlative / first / largest": [
+    [
+     "Which one of the following is the continent with the highest mean elevation in the world?",
+     [
+      "Antarctica",
+      "North America",
+      "Asia",
+      "South America"
+     ],
+     0
+    ],
+    [
+     "The word Adivasi was used for the first time to refer to the tribal people by",
+     [
+      "Mahatma Gandhi",
+      "Thakkar Bappa",
+      "Jyotiba Phule",
+      "B.R. Ambedkar"
+     ],
+     1
+    ],
+    [
+     "Which one of the following monuments has a dome which is said to be one of the largest in the world?",
+     [
+      "Tomb of Sher Shah, Sasaram",
+      "Jama Masjid, Delhi",
+      "Tomb of Ghiyas-ud-din Tughlaq, Delhi",
+      "Gol Gumbaz, Bijapur"
+     ],
+     3
+    ],
+    [
+     "Most of the desert plants bloom during night time because",
+     [
+      "controlled by low temperature",
+      "sensitive to moon phases",
+      "insects eat flowers during day",
+      "desert insects are active during night"
+     ],
+     3
+    ],
+    [
+     "The Barrah dacoity was the first major venture of the revolutionary terrorists of the Indian freedom movement in:",
+     [
+      "Bombay Karnataka",
+      "Punjab",
+      "East Bengal",
+      "The Madras Presidency"
+     ],
+     2
+    ],
+    [
+     "The river most mentioned in early Vedic literature is:",
+     [
+      "Sindhu",
+      "Sutudri",
+      "Sarasvati",
+      "Ganga"
+     ],
+     0
+    ]
+   ],
+   "Where / place": [
+    [
+     "Arakan Yoma is the extension of the Himalayas located in",
+     [
+      "Baluchistan",
+      "Myanmar",
+      "Nepal",
+      "Kashmir"
+     ],
+     1
+    ],
+    [
+     "'Saddle Peak', the highest peak of the Andaman and Nicobar Islands, is located in: Indian Geography PMF IAS Geo – 72",
+     [
+      "Great Nicobar",
+      "Middle Andaman",
+      "Little Andaman",
+      "North Andaman"
+     ],
+     3
+    ],
+    [
+     "Proportional representation is NOT necessary in a country where:",
+     [
+      "there are no reserved constituencies",
+      "a two-party system has developed",
+      "the first-past-post system prevails",
+      "there is a fusion of Presidential and Parliamentary forms of governments"
+     ],
+     1
+    ],
+    [
+     "In which one of the following cities is the Lingaraja Temple located?",
+     [
+      "Bhubaneswar",
+      "Bijapur",
+      "Kolkata",
+      "Shravanabelagola"
+     ],
+     0
+    ],
+    [
+     "If the stars are seen to rise perpendicular to the horizon by an observer, he is located on the",
+     [
+      "Equator",
+      "Tropic of Cancer",
+      "South Pole",
+      "North Pole"
+     ],
+     0
+    ],
+    [
+     "Where do the Sahariya Tribals, who were recently in the news, live?",
+     [
+      "Andhra Pradesh",
+      "Assam",
+      "Rajasthan",
+      "Orissa"
+     ],
+     2
+    ]
+   ],
+   "Scheme / programme / mission": [
+    [
+     "Who among the following was the first European to initiate the policy of taking part in the quarrels of Indian princes with a view to acquire territories?",
+     [
+      "Clive",
+      "Dupleix",
+      "Albuquerque",
+      "Warren Hastings"
+     ],
+     1
+    ],
+    [
+     "Consider the following: 1. Assertion (A): The word 'minority' is not defined in the Constitution of India. 2. Reason (R): The Minorities Commission is not a constitutional body. Select the correct answer using the code given below:",
+     [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ],
+     1
+    ],
+    [
+     "Which one of the following is not correct about the Cabinet Mission Plan? Modern Indian History PMF IAS IH – 128",
+     [
+      "Provincial grouping",
+      "Interim Cabinet of Indians",
+      "Acceptance of Pakistan",
+      "Constitution-framing right"
+     ],
+     2
+    ],
+    [
+     "What is the correct chronological sequence of the following? Modern Indian History PMF IAS IH – 71 I. Wood's Education Despatch II. Macaulay's Minute on Education III. The Sargeant Education Report IV. Indian Education (Hunter Commission) Select the correct answer using the code given below:",
+     [
+      "II, I, IV, III",
+      "II, I, III, IV",
+      "I, II, IV, III",
+      "IV, III, I, II"
+     ],
+     0
+    ],
+    [
+     "Simon Commission of 1927 was boycotted because",
+     [
+      "there was no Indian Member in the Commission",
+      "it supported the Muslim League",
+      "Congress felt that the people of India are entitled to Swaraj",
+      "there were differences among the members"
+     ],
+     0
+    ],
+    [
+     "Consider the following statements: 1. Assertion (A): The Congress rejected the Cripps proposals. 2. Reason (R): The Cripps Mission consisted solely of whites. Select the correct answer using the code given below:",
+     [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT a correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     1
+    ]
+   ],
+   "Definition / term / known as": [
+    [
+     "The term Yavanapriya, mentioned in ancient Sanskrit texts, denoted",
+     [
+      "a fine variety of Indian muslin",
+      "ivory",
+      "damsels sent to the Greek court for dance performance",
+      "pepper"
+     ],
+     3
+    ],
+    [
+     "According to the Mimamsa system of philosophy, liberation is possible by means of Indian Art and Culture PMF IAS IH – 233",
+     [
+      "Jnana",
+      "Bhakti",
+      "Yoga",
+      "Karma"
+     ],
+     3
+    ],
+    [
+     "In the context of ancient Indian society, which one of the following terms does not belong to the category of the other three?",
+     [
+      "Kula",
+      "Vamsa",
+      "Kosa",
+      "Gotra"
+     ],
+     2
+    ],
+    [
+     "The Speaker can ask a member of the House to stop speaking and let another member speak. This phenomenon is known as",
+     [
+      "decorum",
+      "crossing the floor",
+      "interpellation",
+      "yielding the floor"
+     ],
+     3
+    ],
+    [
+     "In the Indian context, the term De-notified tribes refers to:",
+     [
+      "tribes which are aboriginals",
+      "nomadic tribes",
+      "tribes practising shifting cultivation",
+      "tribes which were earlier classified as criminal tribes"
+     ],
+     3
+    ],
+    [
+     "According to the Constitution of India, the term 'district judge' shall not include",
+     [
+      "chief presidency magistrate",
+      "sessions judge",
+      "tribunal judge",
+      "chief judge of a small cause court"
+     ],
+     2
+    ]
+   ],
+   "Chronological / sequence": [
+    [
+     "What is the correct sequence of the following events? I. The Lucknow Pact II. The Introduction of Dyarchy III. The Rowlatt Act IV. The Partition of Bengal Choose the correct answer from the codes given below:",
+     [
+      "I, III, II, IV",
+      "IV, I, III, II",
+      "I, II, III, IV",
+      "IV, III, II, I"
+     ],
+     1
+    ],
+    [
+     "Consider the following rivers: Indian Geography PMF IAS Geo – 92 I. Kishenganga II. Ganga III. Wainganga IV. Penganga The correct sequence of these rivers when arranged in the north–south direction is:",
+     [
+      "I, II, III, IV",
+      "II, I, III, IV",
+      "II, I, IV, III",
+      "I, IV, II, III"
+     ],
+     0
+    ],
+    [
+     "Consider the following landmarks in Indian education: 1. Hindu College, Calcutta 2. University of Calcutta 3. Adam's Report 4. Wood's Despatch The correct chronological order of these landmarks is:",
+     [
+      "I, III, IV, II",
+      "I, IV, III, II",
+      "III, I, IV, II",
+      "III, II, IV, I"
+     ],
+     0
+    ],
+    [
+     "What is the correct chronological sequence of the following? Modern Indian History PMF IAS IH – 71 I. Wood's Education Despatch II. Macaulay's Minute on Education III. The Sargeant Education Report IV. Indian Education (Hunter Commission) Select the correct answer using the code given below:",
+     [
+      "II, I, IV, III",
+      "II, I, III, IV",
+      "I, II, IV, III",
+      "IV, III, I, II"
+     ],
+     0
+    ],
+    [
+     "What is the correct chronological order in which the following appeared in India? I. Gold coins II. Punch-marked silver coins III. Iron plough IV. Urban culture Codes:",
+     [
+      "III, IV, I, II",
+      "III, IV, II, I",
+      "IV, III, I, II",
+      "IV, III, II, I"
+     ],
+     3
+    ],
+    [
+     "The correct sequence of different layers of the atmosphere from the surface of the Earth upwards is",
+     [
+      "Troposphere, Stratosphere, Ionosphere, Mesosphere",
+      "Stratosphere, Troposphere, Ionosphere, Mesosphere",
+      "Troposphere, Stratosphere, Mesosphere, Ionosphere",
+      "Stratosphere, Troposphere, Mesosphere, Ionosphere"
+     ],
+     2
+    ]
+   ],
+   "Article / Schedule / Amendment number": [
+    [
+     "Consider the following statements: An amendment of the Constitution of India can be initiated by the I. Lok Sabha II. Rajya Sabha III. State Legislatures Indian Polity: Constitutional Framework PMF IAS IP – 33 IV. President Which of the above statements is/are correct?",
+     [
+      "I only",
+      "I, II and III",
+      "II, III and IV",
+      "I and II only"
+     ],
+     3
+    ],
+    [
+     "Which Article of the Constitution provides that it shall be the endeavour of every State to provide adequate facility for instruction in the mother tongue at the primary stage of education?",
+     [
+      "Article 349",
+      "Article 350",
+      "Article 350-A",
+      "Article 351"
+     ],
+     2
+    ],
+    [
+     "Which one of the following statements correctly describes the Fourth Schedule of the Constitution of India?",
+     [
+      "It lists the distribution of power between the Union and the States",
+      "It contains the languages listed in the Constitution",
+      "It contains the provisions regarding the administration of tribal areas",
+      "It allocates seats in the Council of States"
+     ],
+     3
+    ],
+    [
+     "Which one of the following amendments to the Indian Constitution empowers the President to send back any matter for reconsideration by the Council of Ministers?",
+     [
+      "39",
+      "40",
+      "42",
+      "44"
+     ],
+     3
+    ],
+    [
+     "Under which Article of the Indian Constitution did the President make a reference to the Supreme Court to seek the Court's opinion on the Constitutional validity of the Election Commission's decision on deferring the Gujarat Assembly elections (in the year 2002)?",
+     [
+      "Article 142",
+      "Article 143",
+      "Article 144",
+      "Article 145"
+     ],
+     1
+    ],
+    [
+     "Under which Article of the Indian Constitution did the President give his assent to the ordinance on electoral reforms when it was sent back to him by the Union Cabinet without making any changes (in the year 2002)?",
+     [
+      "Article 121",
+      "Article 122",
+      "Article 123",
+      "Article 124"
+     ],
+     2
+    ]
+   ],
+   "When / year / date": [
+    [
+     "Total internal reflection can take place when light travels from:",
+     [
+      "Diamond to glass",
+      "Water to glass",
+      "Air to water",
+      "Air to glass"
+     ],
+     0
+    ],
+    [
+     "Consider the following rivers: Indian Geography PMF IAS Geo – 92 I. Kishenganga II. Ganga III. Wainganga IV. Penganga The correct sequence of these rivers when arranged in the north–south direction is:",
+     [
+      "I, II, III, IV",
+      "II, I, III, IV",
+      "II, I, IV, III",
+      "I, IV, II, III"
+     ],
+     0
+    ],
+    [
+     "When the Chief Justice of a High Court acts in an administrative capacity, he is subject to:",
+     [
+      "The writ jurisdiction of other judges of the High Court",
+      "Special control by the Chief Justice of India",
+      "Discretionary powers of the Governor",
+      "Special powers of the Chief Minister"
+     ],
+     0
+    ],
+    [
+     "If the earth's direction of rotation is reversed, what would be the IST when it is noon at the International Date Line?",
+     [
+      "06.30 hrs",
+      "05.30 hrs",
+      "18.30 hrs",
+      "17.30 hrs"
+     ],
+     2
+    ],
+    [
+     "Consider the following statements: 1. Assertion (A): The temperature of a metal wire rises when an electric current is passed through it. 2. Reason (R): Collision of metal atoms with each other releases heat energy. Select the correct answer using the code given below:",
+     [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     2
+    ],
+    [
+     "When there is noon at G.M.T. meridian, people at another place on the Earth are taking their 6 o'clock morning tea. The longitude of the place is",
+     [
+      "17° 30' E",
+      "7° 30' W",
+      "172° 30' E",
+      "90° W"
+     ],
+     3
+    ]
+   ],
+   "Assertion-Reason": [
+    [
+     "Consider the following: 1. Assertion (A): The word 'minority' is not defined in the Constitution of India. 2. Reason (R): The Minorities Commission is not a constitutional body. Select the correct answer using the code given below:",
+     [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ],
+     1
+    ],
+    [
+     "Consider the following statements: 1. Assertion (A): Areas near the equator receive rainfall throughout the year. 2. Reason (R): High temperatures and high humidity cause convectional rain in most afternoons near the equator. Select the correct answer using the code given below:",
+     [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ],
+     0
+    ],
+    [
+     "Consider the following statements: 1. Assertion (A): Contempt of Court is punishable under the Contempt of Courts Act. 2. Reason (R): The purpose of the law of Contempt of Court is to secure public respect and confidence in the judicial process. Select the correct answer using the code given below",
+     [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ],
+     0
+    ],
+    [
+     "Assertion (A): The sponsor and the most prominent figure of the Chisti order of Sufis in India is Khwaja Moinuddin Chisti. Reason (R): The Chisti order takes its name from a village, Chisti, in Ajmer. In the context of the above two statements, which one of the following is correct?",
+     [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true, but R is not a correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     2
+    ],
+    [
+     "Consider the following statements: 1. Assertion (A): At first, the Turkish administration in India was essentially military. 2. Reason (R): The country was parcelled out as 'Iqtas' among leading military leaders. Select the correct answer using the code given below:",
+     [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is not a correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     0
+    ],
+    [
+     "Consider the following statements: 1. Assertion (A): The temperature of a metal wire rises when an electric current is passed through it. 2. Reason (R): Collision of metal atoms with each other releases heat energy. Select the correct answer using the code given below:",
+     [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     2
+    ]
+   ],
+   "Fill in the blank": [],
+   "Data / number fact": [
+    [
+     "Which one of the following is present in the largest amount in terms of per cent by mass in the Earth's crust?",
+     [
+      "Silicon",
+      "Oxygen",
+      "Carbon",
+      "Calcium"
+     ],
+     1
+    ],
+    [
+     "Which one of the following types of coal contains a higher percentage of carbon than the rest?",
+     [
+      "Bituminous coal",
+      "Lignite",
+      "Peat",
+      "Anthracite"
+     ],
+     3
+    ],
+    [
+     "Which one among the following covers the highest percentage of forest area in the world?",
+     [
+      "Temperate Coniferous forests",
+      "Temperate Deciduous forests",
+      "Tropical Monsoon forests",
+      "Tropical Rain forests"
+     ],
+     0
+    ],
+    [
+     "Which of the following Constitution Amendment Acts seeks that the size of the Councils of Ministers at the Centre and in a State must not exceed 15 per cent of the total number of members in the Lok Sabha and the total number of members of the Legislative Assembly of that State, respectively?",
+     [
+      "91",
+      "93",
+      "95",
+      "97"
+     ],
+     0
+    ],
+    [
+     "In India, how many States share the coastline?",
+     [
+      "7",
+      "8",
+      "9",
+      "10"
+     ],
+     2
+    ],
+    [
+     "Consider the following pairs: Wetland / Lake Location I. Hokera Wetland Punjab II. Renuka Wetland Himachal Pradesh III. Rudrasagar Lake Tripura IV. Sasthamkotta Lake Tamil Nadu How many pairs given above are correctly matched?",
+     [
+      "Only one pair",
+      "Only two pairs",
+      "Only three pairs",
+      "All four pairs"
+     ],
+     1
+    ]
+   ],
+   "How many statements/pairs": [
+    [
+     "In India, how many States share the coastline?",
+     [
+      "7",
+      "8",
+      "9",
+      "10"
+     ],
+     2
+    ],
+    [
+     "Consider the following pairs: Wetland / Lake Location I. Hokera Wetland Punjab II. Renuka Wetland Himachal Pradesh III. Rudrasagar Lake Tripura IV. Sasthamkotta Lake Tamil Nadu How many pairs given above are correctly matched?",
+     [
+      "Only one pair",
+      "Only two pairs",
+      "Only three pairs",
+      "All four pairs"
+     ],
+     1
+    ],
+    [
+     "Consider the following pairs: The region often mentioned in the news Country 1. Anatolia Turkey 2. Amhara Ethiopia 3. Cabo Delgado Spain 4. Catalonia Italy How many pairs given above are correctly matched?",
+     [
+      "Only one pair",
+      "Only two pairs",
+      "Only three pairs",
+      "All four pairs"
+     ],
+     1
+    ],
+    [
+     "Consider the following pairs: Reservoirs States 1. Ghataprabha Telangana 2. Gandhi Sagar Madhya Pradesh 3. Indira Sagar Andhra Pradesh 4. Maithon Chhattisgarh How many pairs given above are not correctly matched?",
+     [
+      "Only one pair",
+      "Only two pairs",
+      "Only three pairs",
+      "All four pairs"
+     ],
+     2
+    ],
+    [
+     "Consider the following States: 1. Andhra Pradesh 2. Kerala 3. Himachal Pradesh 4. Tripura How many of the above are generally known as tea-producing States?",
+     [
+      "Only one State",
+      "Only two States",
+      "Only three States",
+      "All four States"
+     ],
+     3
+    ],
+    [
+     "Consider the following pairs: King Dynasty 1. Nannuka Chandela 2. Jayashakti Parmara 3. Nagabhata II Gurjara-Pratihara 4. Bhoja Rashtrakuta How many pairs given above are correctly matched?",
+     [
+      "Only one pair",
+      "Only two pairs",
+      "Only three pairs",
+      "All four pairs"
+     ],
+     1
+    ]
+   ]
+  },
+  "answer_position": [
+   588,
+   676,
+   642,
+   572
+  ],
+  "extreme_option": {
+   "total": 2983,
+   "correct": 740
+  },
+  "hedge_option": {
+   "total": 73,
+   "correct": 18
+  },
+  "answer_shapes": {
+   "All of the above / 1,2,3 all": [
+    193,
+    666
+   ],
+   "Only one item": [
+    57,
+    98
+   ],
+   "Two items": [
+    19,
+    48
+   ],
+   "None of the above / neither": [
+    86,
+    388
+   ],
+   "Both": [
+    119,
+    356
+   ]
+  },
+  "longest_option_correct": [
+   395,
+   1641
+  ],
+  "signal_words": [
+   [
+    "which",
+    1660
+   ],
+   [
+    "correct",
+    1186
+   ],
+   [
+    "india",
+    983
+   ],
+   [
+    "consider",
+    793
+   ],
+   [
+    "not",
+    265
+   ],
+   [
+    "who",
+    123
+   ],
+   [
+    "all",
+    104
+   ],
+   [
+    "only",
+    91
+   ],
+   [
+    "first",
+    88
+   ],
+   [
+    "when",
+    69
+   ],
+   [
+    "match",
+    60
+   ],
+   [
+    "recently",
+    49
+   ],
+   [
+    "article",
+    48
+   ],
+   [
+    "both",
+    39
+   ],
+   [
+    "largest",
+    37
+   ],
+   [
+    "scheme",
+    33
+   ],
+   [
+    "amendment",
+    29
+   ],
+   [
+    "where",
+    27
+   ],
+   [
+    "established",
+    26
+   ],
+   [
+    "launched",
+    24
+   ],
+   [
+    "chronological",
+    20
+   ],
+   [
+    "headquarters",
+    13
+   ],
+   [
+    "2025",
+    10
+   ],
+   [
+    "founded",
+    9
+   ],
+   [
+    "andhra",
+    8
+   ],
+   [
+    "2023",
+    7
+   ],
+   [
+    "true",
+    6
+   ],
+   [
+    "incorrect",
+    4
+   ],
+   [
+    "none",
+    3
+   ],
+   [
+    "2024",
+    3
+   ]
+  ],
+  "books": [
+   [
+    1,
+    529
+   ],
+   [
+    5,
+    477
+   ],
+   [
+    4,
+    430
+   ],
+   [
+    2,
+    427
+   ],
+   [
+    0,
+    300
+   ],
+   [
+    3,
+    284
+   ],
+   [
+    6,
+    31
+   ]
+  ],
+  "topics": [
+   [
+    "Environment - components; ecology, ecosystem, food chain and food web, energy flow, ecological pyramids",
+    31
+   ],
+   [
+    "World - major rivers, lakes, seas, straits, canals and islands",
+    30
+   ],
+   [
+    "Relevance of science and technology to day-to-day life - health, food, transport, communication, household",
+    23
+   ],
+   [
+    "Constitutional evolution - Regulating Act 1773 to the Government of India Act 1935 (act-by-act provisions)",
+    23
+   ],
+   [
+    "India - Peninsular drainage: east-flowing and west-flowing rivers, river basins, watershed",
+    20
+   ],
+   [
+    "India - rocks and mineral belts; distribution of metallic and non-metallic minerals",
+    20
+   ],
+   [
+    "Monetary policy - objectives, instruments (CRR, SLR, repo, reverse repo, MSF, OMO, LAF), transmission",
+    18
+   ],
+   [
+    "Genetic engineering - recombinant DNA, GM crops (Bt cotton, Bt brinjal, GM mustard), gene editing/CRISPR",
+    18
+   ],
+   [
+    "The universe and the solar system - origin theories, the Sun, planets, asteroids, comets, meteors",
+    18
+   ],
+   [
+    "Atmosphere - structure (layers) and composition",
+    16
+   ],
+   [
+    "Bretton Woods institutions - IMF (quota, SDR), World Bank Group; ADB, AIIB, NDB",
+    16
+   ],
+   [
+    "Directive Principles of State Policy - Articles 36-51, classification, implementation",
+    16
+   ],
+   [
+    "Air pollution - sources, pollutants, NAAQS, AQI, National Clean Air Programme, stubble burning",
+    16
+   ],
+   [
+    "India - the Northern Plains, the Peninsular Plateau, the Coastal Plains and the Islands",
+    15
+   ],
+   [
+    "Health and environment - vector-borne and water-borne diseases, air pollution and health, antimicrobial resistance, One Health",
+    15
+   ],
+   [
+    "Elements and factors of climate; world climatic classification (Koeppen)",
+    15
+   ],
+   [
+    "Loss of biodiversity - causes, invasive alien species, IUCN Red List categories",
+    15
+   ],
+   [
+    "Parliamentary devices - Question Hour, Zero Hour, motions (adjournment, no-confidence, censure, calling attention)",
+    14
+   ],
+   [
+    "Supreme Court - composition, appointment, collegium and NJAC, jurisdictions (original, appellate, advisory, writ)",
+    14
+   ],
+   [
+    "International climate initiatives - UNFCCC, Kyoto Protocol, CDM, Paris Agreement, key COP outcomes, IPCC assessment reports",
+    14
+   ],
+   [
+    "Regional organisations - SAARC, BIMSTEC, ASEAN, EU, African Union, SCO, GCC, IORA, BBIN",
+    14
+   ],
+   [
+    "Financial inclusion - PMJDY, MUDRA, microfinance and SHG-bank linkage; digital payments and UPI",
+    14
+   ],
+   [
+    "India - natural vegetation types and their distribution; forest cover (India State of Forest Report)",
+    13
+   ],
+   [
+    "India - Himalayan drainage system: Indus, Ganga and Brahmaputra basins",
+    13
+   ],
+   [
+    "Biotechnology - nature, scope, tools; applications in agriculture, medicine and industry",
+    13
+   ],
+   [
+    "Foundation of the Indian National Congress 1885 - A.O. Hume, the safety-valve theory",
+    13
+   ],
+   [
+    "Exchange rate systems and rupee movement; currency internationalisation",
+    13
+   ],
+   [
+    "Cyber security concerns - types of cyber crime, malware, ransomware, phishing, social engineering",
+    13
+   ],
+   [
+    "Ocean movements - waves, tides (types and causes), ocean currents of the world",
+    12
+   ],
+   [
+    "Financial markets - money market instruments and capital market segments",
+    12
+   ],
+   [
+    "Conservation - in-situ (protected areas, biosphere reserves) and ex-situ (zoos, gene banks, seed banks)",
+    12
+   ],
+   [
+    "International environmental treaties - Stockholm 1972, Rio 1992, Ramsar, CITES, CBD and its protocols",
+    12
+   ],
+   [
+    "Vice-President; Prime Minister and the Union Council of Ministers - Articles 74, 75, 77, 78",
+    11
+   ],
+   [
+    "Concept of time - local and standard time, GMT/UTC, Indian Standard Time, time zones, International Date Line",
+    11
+   ],
+   [
+    "India - agriculture: commercial crops (cotton, sugarcane, oilseeds, jute, tea, coffee, rubber, spices) and their regions",
+    11
+   ],
+   [
+    "India - soil types, characteristics and distribution; soil erosion and conservation",
+    11
+   ],
+   [
+    "High Courts and subordinate judiciary; judicial review, judicial activism, PIL and judicial overreach debate",
+    11
+   ],
+   [
+    "Presiding officers - Speaker, Deputy Speaker, Chairman; Secretariat; sessions, adjournment, prorogation, dissolution",
+    11
+   ],
+   [
+    "India - national parks, wildlife sanctuaries, biosphere reserves, conservation reserves",
+    11
+   ],
+   [
+    "PESA Act 1996; Fifth and Sixth Schedule areas and tribal self-governance",
+    11
+   ],
+   [
+    "Climate change - greenhouse effect, greenhouse gases, radiative forcing, evidence and observed impacts",
+    11
+   ],
+   [
+    "Gupta art, literature, science and technology - Kalidasa, Aryabhata, Varahamihira, Ajanta, Mehrauli pillar",
+    10
+   ],
+   [
+    "Wavell Plan and Simla Conference; Cabinet Mission Plan 1946; Interim Government",
+    10
+   ],
+   [
+    "India - location, extent, frontiers, standard meridian and neighbouring countries",
+    10
+   ],
+   [
+    "Rowlatt Satyagraha and Jallianwala Bagh; Hunter Committee",
+    10
+   ],
+   [
+    "Indian Independence Act 1947; the Constituent Assembly - demand, composition, functioning",
+    10
+   ],
+   [
+    "Insolation and heat budget; horizontal and vertical distribution of temperature, inversion",
+    10
+   ],
+   [
+    "Money supply - M0 to M4, high-powered money, money multiplier, velocity",
+    10
+   ],
+   [
+    "Individual Satyagraha, August Offer, Cripps Mission",
+    10
+   ],
+   [
+    "Biogeochemical cycles, ecological succession, ecosystem services",
+    10
+   ],
+   [
+    "Legislative procedure - ordinary, money, financial and constitutional amendment bills; joint sitting",
+    10
+   ],
+   [
+    "Oil and natural gas - basins, refineries, strategic petroleum reserves, gas grid, city gas distribution",
+    10
+   ],
+   [
+    "Cabinet system, Cabinet committees, collective and individual responsibility; Attorney General of India",
+    10
+   ],
+   [
+    "Solid waste, plastic waste, e-waste, biomedical and construction waste - rules and management",
+    10
+   ],
+   [
+    "Inflation - types, causes, measurement (CPI, WPI, core inflation), effects and control measures",
+    10
+   ],
+   [
+    "International trade - patterns, trade blocs, chokepoints; India's export and import composition",
+    10
+   ],
+   [
+    "World - continents, major mountain systems, plateaus, plains and deserts",
+    9
+   ],
+   [
+    "Nuclear energy - three-stage programme, types of reactors, PHWR/FBR/AHWR, thorium strategy",
+    9
+   ],
+   [
+    "Governor - appointment, powers, discretionary powers, position and controversies (Article 200/201, Article 356 reports)",
+    9
+   ],
+   [
+    "Civil Disobedience Movement - Lahore Session and Purna Swaraj, Dandi March, spread and phases",
+    9
+   ],
+   [
+    "Telecom technologies - 3G to 5G and 6G roadmap, satellite communication, optical fibre",
+    9
+   ],
+   [
+    "Biodiversity hotspots in India; endemism; Biological Diversity Act 2002 and access-benefit sharing",
+    9
+   ],
+   [
+    "Vedic literature - four Vedas, Brahmanas, Aranyakas, Upanishads, Vedangas, Sutras",
+    9
+   ],
+   [
+    "Education policy - Orientalist-Anglicist debate, Macaulay's Minute, Wood's Despatch 1854, Hunter Commission",
+    9
+   ],
+   [
+    "Extremists - Lal-Bal-Pal and Aurobindo; ideology; Surat Split 1907",
+    9
+   ],
+   [
+    "Fiscal policy - objectives, instruments; fiscal, revenue, primary and effective revenue deficits",
+    9
+   ],
+   [
+    "Champaran, Ahmedabad Mill and Kheda Satyagrahas",
+    9
+   ],
+   [
+    "Banking sector reforms - Narasimham Committee I and II, Basel norms, bank mergers, privatisation debate",
+    9
+   ],
+   [
+    "India and the WTO - agreements, ministerial conferences, public stockholding, fisheries subsidies, appellate body crisis",
+    9
+   ],
+   [
+    "Partition of Bengal 1905, Swadeshi and Boycott Movement; techniques and impact",
+    9
+   ],
+   [
+    "Other renewables - biomass, biofuels (National Policy on Biofuels, ethanol blending), small hydro, geothermal, tidal, waste-to-energy",
+    9
+   ],
+   [
+    "Carbon emissions, carbon footprint, carbon sequestration, carbon credits and carbon trading",
+    9
+   ],
+   [
+    "Jainism - Tirthankaras, life of Mahavira, Triratna, Panchamahavratas, anekantavada and syadvada",
+    8
+   ],
+   [
+    "Minimum Support Price - mechanism, CACP, crops covered, procurement, criticism; PM-AASHA",
+    8
+   ],
+   [
+    "Humidity, evaporation, condensation, clouds and forms of precipitation",
+    8
+   ],
+   [
+    "Atmospheric pressure - pressure belts; planetary, periodic and local winds; jet streams",
+    8
+   ],
+   [
+    "Federal structure of India - features of federalism and unitary bias; Seventh Schedule (three lists), residuary powers",
+    8
+   ],
+   [
+    "Budget in Parliament - stages, cut motions, appropriation and finance bills, Consolidated/Contingency/Public Account",
+    8
+   ],
+   [
+    "Biodiversity - levels, values, measurement; India as a megadiverse country",
+    8
+   ],
+   [
+    "Andhra Pradesh - national parks, wildlife sanctuaries (Nagarjunasagar-Srisailam, Coringa, Papikonda, Rollapadu, Kolleru) and Ramsar sites",
+    8
+   ]
+  ]
+ },
+ "State PSC": {
+  "count": 18956,
+  "answered": 18956,
+  "types": [
+   [
+    "Direct one-liner (what/which)",
+    8227
+   ],
+   [
+    "Superlative / first / largest",
+    2497
+   ],
+   [
+    "Negative (NOT / incorrect / false)",
+    2090
+   ],
+   [
+    "Statement-based (consider the following)",
+    1803
+   ],
+   [
+    "Who / person",
+    1707
+   ],
+   [
+    "Where / place",
+    1165
+   ],
+   [
+    "Scheme / programme / mission",
+    1070
+   ],
+   [
+    "Definition / term / known as",
+    974
+   ],
+   [
+    "Match the following",
+    758
+   ],
+   [
+    "When / year / date",
+    665
+   ],
+   [
+    "Chronological / sequence",
+    426
+   ],
+   [
+    "Article / Schedule / Amendment number",
+    401
+   ],
+   [
+    "Assertion-Reason",
+    385
+   ],
+   [
+    "Data / number fact",
+    332
+   ],
+   [
+    "How many statements/pairs",
+    249
+   ],
+   [
+    "Fill in the blank",
+    66
+   ]
+  ],
+  "types_by_book": {
+   "1": [
+    [
+     "Direct one-liner (what/which)",
+     1654
+    ],
+    [
+     "Who / person",
+     854
+    ],
+    [
+     "Superlative / first / largest",
+     406
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     349
+    ],
+    [
+     "Statement-based (consider the following)",
+     282
+    ],
+    [
+     "Match the following",
+     168
+    ],
+    [
+     "Where / place",
+     159
+    ],
+    [
+     "When / year / date",
+     149
+    ],
+    [
+     "Chronological / sequence",
+     145
+    ],
+    [
+     "Definition / term / known as",
+     133
+    ],
+    [
+     "Scheme / programme / mission",
+     106
+    ],
+    [
+     "Assertion-Reason",
+     62
+    ],
+    [
+     "How many statements/pairs",
+     24
+    ],
+    [
+     "Data / number fact",
+     20
+    ],
+    [
+     "Fill in the blank",
+     9
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     2
+    ]
+   ],
+   "0": [
+    [
+     "Direct one-liner (what/which)",
+     1982
+    ],
+    [
+     "Superlative / first / largest",
+     512
+    ],
+    [
+     "Who / person",
+     472
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     340
+    ],
+    [
+     "Where / place",
+     331
+    ],
+    [
+     "Statement-based (consider the following)",
+     275
+    ],
+    [
+     "Definition / term / known as",
+     212
+    ],
+    [
+     "Scheme / programme / mission",
+     142
+    ],
+    [
+     "When / year / date",
+     132
+    ],
+    [
+     "Match the following",
+     126
+    ],
+    [
+     "Data / number fact",
+     85
+    ],
+    [
+     "How many statements/pairs",
+     70
+    ],
+    [
+     "Chronological / sequence",
+     50
+    ],
+    [
+     "Assertion-Reason",
+     24
+    ],
+    [
+     "Fill in the blank",
+     17
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     9
+    ]
+   ],
+   "2": [
+    [
+     "Direct one-liner (what/which)",
+     811
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     388
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     375
+    ],
+    [
+     "Statement-based (consider the following)",
+     293
+    ],
+    [
+     "Scheme / programme / mission",
+     262
+    ],
+    [
+     "Who / person",
+     221
+    ],
+    [
+     "Superlative / first / largest",
+     203
+    ],
+    [
+     "Definition / term / known as",
+     102
+    ],
+    [
+     "When / year / date",
+     86
+    ],
+    [
+     "Assertion-Reason",
+     67
+    ],
+    [
+     "Match the following",
+     66
+    ],
+    [
+     "Where / place",
+     59
+    ],
+    [
+     "How many statements/pairs",
+     51
+    ],
+    [
+     "Data / number fact",
+     43
+    ],
+    [
+     "Chronological / sequence",
+     28
+    ],
+    [
+     "Fill in the blank",
+     6
+    ]
+   ],
+   "6": [
+    [
+     "Direct one-liner (what/which)",
+     21
+    ],
+    [
+     "Who / person",
+     8
+    ],
+    [
+     "Superlative / first / largest",
+     6
+    ],
+    [
+     "Statement-based (consider the following)",
+     4
+    ],
+    [
+     "Where / place",
+     4
+    ],
+    [
+     "How many statements/pairs",
+     2
+    ],
+    [
+     "Data / number fact",
+     2
+    ],
+    [
+     "Definition / term / known as",
+     1
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     1
+    ]
+   ],
+   "5": [
+    [
+     "Direct one-liner (what/which)",
+     1658
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     324
+    ],
+    [
+     "Statement-based (consider the following)",
+     319
+    ],
+    [
+     "Superlative / first / largest",
+     242
+    ],
+    [
+     "Definition / term / known as",
+     190
+    ],
+    [
+     "Match the following",
+     104
+    ],
+    [
+     "When / year / date",
+     98
+    ],
+    [
+     "Where / place",
+     97
+    ],
+    [
+     "Scheme / programme / mission",
+     89
+    ],
+    [
+     "Assertion-Reason",
+     78
+    ],
+    [
+     "Who / person",
+     59
+    ],
+    [
+     "How many statements/pairs",
+     39
+    ],
+    [
+     "Data / number fact",
+     27
+    ],
+    [
+     "Chronological / sequence",
+     20
+    ],
+    [
+     "Fill in the blank",
+     18
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     6
+    ]
+   ],
+   "4": [
+    [
+     "Direct one-liner (what/which)",
+     1109
+    ],
+    [
+     "Superlative / first / largest",
+     525
+    ],
+    [
+     "Where / place",
+     402
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     374
+    ],
+    [
+     "Match the following",
+     236
+    ],
+    [
+     "Statement-based (consider the following)",
+     227
+    ],
+    [
+     "Definition / term / known as",
+     136
+    ],
+    [
+     "Chronological / sequence",
+     80
+    ],
+    [
+     "Assertion-Reason",
+     61
+    ],
+    [
+     "When / year / date",
+     58
+    ],
+    [
+     "Data / number fact",
+     38
+    ],
+    [
+     "How many statements/pairs",
+     29
+    ],
+    [
+     "Scheme / programme / mission",
+     25
+    ],
+    [
+     "Who / person",
+     19
+    ],
+    [
+     "Fill in the blank",
+     6
+    ]
+   ],
+   "3": [
+    [
+     "Direct one-liner (what/which)",
+     992
+    ],
+    [
+     "Superlative / first / largest",
+     603
+    ],
+    [
+     "Scheme / programme / mission",
+     446
+    ],
+    [
+     "Statement-based (consider the following)",
+     403
+    ],
+    [
+     "Negative (NOT / incorrect / false)",
+     314
+    ],
+    [
+     "Definition / term / known as",
+     200
+    ],
+    [
+     "When / year / date",
+     142
+    ],
+    [
+     "Data / number fact",
+     117
+    ],
+    [
+     "Where / place",
+     113
+    ],
+    [
+     "Chronological / sequence",
+     103
+    ],
+    [
+     "Assertion-Reason",
+     93
+    ],
+    [
+     "Who / person",
+     74
+    ],
+    [
+     "Match the following",
+     58
+    ],
+    [
+     "How many statements/pairs",
+     34
+    ],
+    [
+     "Fill in the blank",
+     10
+    ],
+    [
+     "Article / Schedule / Amendment number",
+     9
+    ]
+   ]
+  },
+  "examples": {
+   "Direct one-liner (what/which)": [
+    [
+     "What is the name of the 16th century stepwell that the Archaeological Survey of India recently conserved in collaboration with the World Monuments Fund India?",
+     [
+      "Agrasen ki Baoli",
+      "Rajon ki Baoli",
+      "Chauki Bavdi",
+      "More than one of the above"
+     ],
+     1
+    ],
+    [
+     "It was organized at Lucknow from September 22 to October 2, 2023. 2. It was organized by Government of India. Select the correct answer from the code given below- Code-",
+     [
+      "Only 1",
+      "Neither 1 nor 2",
+      "Both 1 and 2",
+      "Only 2"
+     ],
+     0
+    ],
+    [
+     "Which of the following has been added to the UNESCO World Heritage List in 2022?",
+     [
+      "Archaeological Site of Nalanda Mahavihara at Nalanda",
+      "Astronomical Observatory at the Langat Singh College",
+      "Mahabodhi Temple Complex at Bodh Gaya",
+      "More than one of the above"
+     ],
+     2
+    ],
+    [
+     "It was hosted by Indore city. 2. It was organised in the month of September. Select the correct answer from the code given below: Code-",
+     [
+      "Both 1 and 2",
+      "Only 1",
+      "Neither 1 nor 2",
+      "Only 2"
+     ],
+     0
+    ],
+    [
+     "National Space Day is celebrated on :",
+     [
+      "23rd May",
+      "23rd September",
+      "23rd August",
+      "23rd November"
+     ],
+     2
+    ],
+    [
+     "Which Indian State has recently radio-tagged an Indian Pangolin on the occasion of World Pangolin Day?",
+     [
+      "Kerala",
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Bihar"
+     ],
+     1
+    ]
+   ],
+   "Statement-based (consider the following)": [
+    [
+     "With reference to \"FLY91\" which of the following statements is/are correct? 1. It is a newly launched airline in India. 2. Its inaugural flight took off from Manohar International Airport on 18th March, 2024. Select the correct answer from the codes given below:",
+     [
+      "Only 2",
+      "Neither 1 nor 2",
+      "Only 1",
+      "Both 1 and 2"
+     ],
+     3
+    ],
+    [
+     "With reference to the \"Kohima Peace Memorial and Eco-Park\" which of the following statements is/are correct? 1. Its inauguration programme was held on 8th March, 2024 at Kohima. 2. It will be developed by South Korea. Select the correct answer from the codes given below:",
+     [
+      "Only 2",
+      "Neither 1 nor 2",
+      "Only 1",
+      "Both 1 and 2"
+     ],
+     3
+    ],
+    [
+     "With reference to the India's National Youth Festival organised in January 2022, which of the following statements is/are correct? 1. This was the 20th edition of the National Youth Festival. 2. It was organised at Puducherry. Select the correct answer using the code given below- Code -",
+     [
+      "Only 1",
+      "Only 2",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+     ],
+     1
+    ],
+    [
+     "With reference to the Deakin University, which of the following statement is/are correct? 1. It will be the first Foreign University to enter India as an independent campus. 2. It is being set up in Maharashtra. Select the correct answer using the code given below- Code -",
+     [
+      "Neither 1 nor 2",
+      "Only 1",
+      "Both 1 and 2",
+      "Only 2"
+     ],
+     1
+    ],
+    [
+     "She jumped off the ALH (Advanced Light Helicopter) Dhruv Chopper from a height of 10,000 feet. Lance Naik Manju is from the corps of Military Police. 62. Which of the following statements is incorrect about the Project Elephant started by the Indian Government?",
+     [
+      "It was started in 1991-92",
+      "It works on the confrontation between elephants and",
+      "It focuses only on the welfare of wild elephants",
+      "It has been started as a centrally sponsored scheme"
+     ],
+     2
+    ],
+    [
+     "With reference to the ‘HAUSLA-2018’, which of the following statement(s) is/are correct? 1. ‘HAUSLA-2018’ was organised by the Ministry of Women and Child Development. 2. It was National Festival for Children of Child Care Institution. Select the correct answer from the codes given below. Codes :",
+     [
+      "only",
+      "only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+     ],
+     2
+    ]
+   ],
+   "How many statements/pairs": [
+    [
+     "The Ministry of Home Affairs has completed the Mother Tongue Survey of India (MTSI) in November 2022 with field videography of the country's how many languages?",
+     [
+      "40",
+      "233",
+      "576",
+      "984"
+     ],
+     2
+    ],
+    [
+     "The Ministry of Home Affairs has completed the Mother Tongue Survey of India (MTSI) in November 2022 with field videography of the country's how many languages?",
+     [
+      "576",
+      "40",
+      "233",
+      "More than one of the above"
+     ],
+     0
+    ],
+    [
+     "According to the Union Budget 2021-22 Finance Minister proposed a new levy Agriculture Infrastructure and Development Cess. This cess will be levied on how many products?",
+     [
+      "12",
+      "20",
+      "25",
+      "29"
+     ],
+     3
+    ],
+    [
+     "According to the report of IIT Kharagpur Study Group, continuous low rainfall for how many years was the cause of fall of the Indus Valley Civilization?",
+     [
+      "Years",
+      "Years",
+      "Years",
+      "Years"
+     ],
+     3
+    ],
+    [
+     "How many districts of Uttar Pradesh has been covered under the Aspirational District Programme run by NITI Aayog, up to June, 2021?",
+     [
+      "4",
+      "6",
+      "8",
+      "10"
+     ],
+     2
+    ],
+    [
+     "According to recent data in India \"How many disabled people are self dependent\"?",
+     [
+      "percent",
+      "percent",
+      "percent",
+      "percent"
+     ],
+     0
+    ]
+   ],
+   "Data / number fact": [
+    [
+     "The Ministry of Home Affairs has completed the Mother Tongue Survey of India (MTSI) in November 2022 with field videography of the country's how many languages?",
+     [
+      "40",
+      "233",
+      "576",
+      "984"
+     ],
+     2
+    ],
+    [
+     "The Ministry of Home Affairs has completed the Mother Tongue Survey of India (MTSI) in November 2022 with field videography of the country's how many languages?",
+     [
+      "576",
+      "40",
+      "233",
+      "More than one of the above"
+     ],
+     0
+    ],
+    [
+     "How much loan amount will be granted by the bank under “Pradhan Mantri Mudra Yojana” for Industry business and service under “Kishore enterprise”?",
+     [
+      "Rs. 50,000",
+      "More than Rs. 50,000 and up to Rs. 1,00,000",
+      "More than Rs. 1,00,000 and up to Rs. 5,00,000",
+      "More than Rs. 50,000 and up to Rs. 5,00,000"
+     ],
+     3
+    ],
+    [
+     "According to the Union Budget 2021-22 Finance Minister proposed a new levy Agriculture Infrastructure and Development Cess. This cess will be levied on how many products?",
+     [
+      "12",
+      "20",
+      "25",
+      "29"
+     ],
+     3
+    ],
+    [
+     "According to the report of IIT Kharagpur Study Group, continuous low rainfall for how many years was the cause of fall of the Indus Valley Civilization?",
+     [
+      "Years",
+      "Years",
+      "Years",
+      "Years"
+     ],
+     3
+    ],
+    [
+     "How many districts of Uttar Pradesh has been covered under the Aspirational District Programme run by NITI Aayog, up to June, 2021?",
+     [
+      "4",
+      "6",
+      "8",
+      "10"
+     ],
+     2
+    ]
+   ],
+   "Superlative / first / largest": [
+    [
+     "Who among the following has got a place in the TIME 2021 list of 100 most influential people? (A) Narendra Modi (B) Mamata Banerjee (C) Adar Poonawalla (D) Manjusha P. Kulkarni Correct answer is :",
+     [
+      "(A), (B), (C) and (D) are correct",
+      "Only (B), (C) and (D) are correct",
+      "Only (A) and (B) are correct",
+      "Only (A), (B) and (C) are correct"
+     ],
+     3
+    ],
+    [
+     "Which of the following state started E-ration Card Service the first time?",
+     [
+      "Gujarat",
+      "Maharashtra",
+      "Uttar Pradesh",
+      "Delhi"
+     ],
+     3
+    ],
+    [
+     "Where is India's first rubber based tyre Metro is being built?",
+     [
+      "Ahmednagar",
+      "Surat",
+      "Vadodara",
+      "Nashik"
+     ],
+     3
+    ],
+    [
+     "In which of the following cities India's first 3D printed post office has been inaugurated recently?",
+     [
+      "Bengaluru",
+      "Kolkata",
+      "New Delhi",
+      "Mumbai"
+     ],
+     0
+    ],
+    [
+     "Who is the first Woman Officer to be appointed as Director General of the Central Industrial Security Force (CISF) ?",
+     [
+      "Nina Singh",
+      "Fatima Wasim",
+      "Shiva Chouhan",
+      "None of the above"
+     ],
+     0
+    ],
+    [
+     "In India which of the following city has been declared as the first \"City of Literature\" by UNESCO ?",
+     [
+      "Jabalpur in M.P",
+      "Kozhikode in Kerala",
+      "Kolkata in W.B",
+      "Nashik in Maharastra"
+     ],
+     1
+    ]
+   ],
+   "Who / person": [
+    [
+     "Who among the following has got a place in the TIME 2021 list of 100 most influential people? (A) Narendra Modi (B) Mamata Banerjee (C) Adar Poonawalla (D) Manjusha P. Kulkarni Correct answer is :",
+     [
+      "(A), (B), (C) and (D) are correct",
+      "Only (B), (C) and (D) are correct",
+      "Only (A) and (B) are correct",
+      "Only (A), (B) and (C) are correct"
+     ],
+     3
+    ],
+    [
+     "Who is the first Woman Officer to be appointed as Director General of the Central Industrial Security Force (CISF) ?",
+     [
+      "Nina Singh",
+      "Fatima Wasim",
+      "Shiva Chouhan",
+      "None of the above"
+     ],
+     0
+    ],
+    [
+     "Who is the first Indian woman soldier skydiver?",
+     [
+      "Shital Mahajan Rane",
+      "Manju",
+      "Anamika Sharma",
+      "Shweta Parmar"
+     ],
+     1
+    ],
+    [
+     "What is the current profession of the young U.P. Woman, Arti, who was conferred the Amal Clooney Women's Empowerment Award by the King Charles III in May 2024 ?",
+     [
+      "ASHA (Accredited Social Health Activist) worker",
+      "Farm labourer",
+      "Chikan-kari artisan",
+      "E-rickshaw driver"
+     ],
+     3
+    ],
+    [
+     "From the following industrialists, who is known as the 'Steel Man of India'?",
+     [
+      "Lakshmi Mittal",
+      "Om Prakash Jindal",
+      "Jamshed J. Irani",
+      "Anil Agrawal"
+     ],
+     2
+    ],
+    [
+     "Who among the following have signed the agreement to resolve Assam - Meghalaya border dispute in March 2022 ?",
+     [
+      "Home Secretary of India and Director Generals of",
+      "Union Home Minister, Chief Ministers of Assam and",
+      "Home Secretary of India and Chief Secretaries of",
+      "Chief Ministers of Assam and Meghalaya"
+     ],
+     3
+    ]
+   ],
+   "When / year / date": [
+    [
+     "From which year did the celebration of 21st June as International Yoga Day begin?",
+     [
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+     ],
+     0
+    ],
+    [
+     "Which of the following State Government has started ‘Pashu-Kisan Credit Card’ Scheme in the year 2020?",
+     [
+      "Gujarat",
+      "Haryana",
+      "Punjab",
+      "Rajasthan"
+     ],
+     1
+    ],
+    [
+     "When was ‘Sagarmala Project’ launched in India?",
+     [
+      "March, 2015",
+      "March, 2016",
+      "March, 2014",
+      "December, 2015"
+     ],
+     0
+    ],
+    [
+     "Which State of India ranked top in the Good Governance Index among big States groups in the country in the year 2019?",
+     [
+      "Kerala",
+      "Tamil Nadu",
+      "Maharashtra",
+      "Andhra Pradesh"
+     ],
+     1
+    ],
+    [
+     "The 27 medal sports are spread over 5 cities– Patna, Rajgir, Bhagalpur, Gaya and Begusarai and New Delhi. Maharashtra topping the medal tally followed by Haryana and Rajasthan. 135. When did the Government of India establish the Independent Ministry of ‘Women and Child Development’?",
+     [
+      "1985",
+      "1986",
+      "1987",
+      "1988"
+     ],
+     0
+    ],
+    [
+     "When did the Prime Minister Narendra Modi launch National Disaster Management Plan (NDMP)?",
+     [
+      "June",
+      "June",
+      "June",
+      "May"
+     ],
+     0
+    ]
+   ],
+   "Chronological / sequence": [
+    [
+     "Arrange the following schemes launched by Government of India in chronological order and choose the correct answer from the codes given below: I. Sukanya Samriddhi Yojana II. Atal Pension Yojana III. Make in India IV. Pradhan Mantri Jan-Dhan Yojana Codes :",
+     [
+      "IV, III, II and I",
+      "I, II, III and IV",
+      "III, II, I and IV",
+      "IV, I, II and III"
+     ],
+     0
+    ],
+    [
+     "Consider the following Chairpersons of the National Women Commission: 1. Jayanti Patnaik 2. Mamta Sharma 3. Dr. Girija Vyas 4. Dr. Poornima Advani Select the correct chronological order of their appointment from the codes given below: Codes :",
+     [
+      "2, 1, 3 and 4",
+      "2, 3, 1 and 4",
+      "1, 3, 4 and 2",
+      "1, 4, 3, and 2"
+     ],
+     3
+    ],
+    [
+     "Consider the following events and arrange them in chronological order : 1. World Heritage Day 2. World Thyroid Day 3. World No Tobacco Day 4. International Day of Light Select the correct answer from the codes given below:",
+     [
+      "3, 1, 2, 4",
+      "1, 4, 2, 3",
+      "2, 3, 1, 4",
+      "4, 2, 3, 1"
+     ],
+     1
+    ],
+    [
+     "The Indian women who won the Miss World title are : 1. Manushi Chhillar 2. Aishwarya Rai 3. Priyanka Chopra 4. Diana Hayden The correct chronology of their victory is :",
+     [
+      "4,3,2,1",
+      "2,4,3,1",
+      "3,2,4,1",
+      "3,4,2,1"
+     ],
+     1
+    ],
+    [
+     "The descending order of the countries which won the most number of medals in the 12th South Asian Games is–",
+     [
+      "India, Sri Lanka, Bangladesh, Pakistan",
+      "India, Pakistan, Sri Lanka, Afghanistan",
+      "India, Sri Lanka, Pakistan, Afghanistan",
+      "India, Pakistan, Sri Lanka, Bangladesh"
+     ],
+     2
+    ],
+    [
+     "The correct sequence of the telephonic opinion for the best players of the century by the BBC is : (Tendulkar-T, Gavaskar-G, Pele-P, Muhammad-Ali-A)",
+     [
+      "A. P. G. T",
+      "P. G. A. T",
+      "A. G. P. T",
+      "A. T. P. G"
+     ],
+     0
+    ]
+   ],
+   "Scheme / programme / mission": [
+    [
+     "What is the name of the test for undergraduate admission in Central Universities Single Window Admission for 2022-23 ?",
+     [
+      "CUCET",
+      "UAET",
+      "CUAT",
+      "CUET"
+     ],
+     3
+    ],
+    [
+     "With reference to the \"Kohima Peace Memorial and Eco-Park\" which of the following statements is/are correct? 1. Its inauguration programme was held on 8th March, 2024 at Kohima. 2. It will be developed by South Korea. Select the correct answer from the codes given below:",
+     [
+      "Only 2",
+      "Neither 1 nor 2",
+      "Only 1",
+      "Both 1 and 2"
+     ],
+     3
+    ],
+    [
+     "Which Ship of Indian Navy reached Nha Rong Port of Ho Chi Minh City under Mission Sagar-III with 15 tonnes of Humanitarian Assistance and Disaster Relief Stores for flood-affected people of Central Vietnam in December 2020?",
+     [
+      "INS Kalvari",
+      "INS Shankul",
+      "INS Kiltan",
+      "INS Gharial"
+     ],
+     2
+    ],
+    [
+     "Which of the following Indian States/Union Territories launched Electric Vehicle Policy on 7th August, 2020?",
+     [
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Delhi",
+      "Tamil Nadu"
+     ],
+     2
+    ],
+    [
+     "In 2024 she was posthumously awarded the Padma Bhushan. 65. “Women Power Line - 1090 Programme” started on –",
+     [
+      "12-12-2012",
+      "15-11-2012",
+      "16-11-2013",
+      "20-11-2014"
+     ],
+     1
+    ],
+    [
+     "Which one of the following is the targeted group under the 'Pradhan Mantri Swanidhi Scheme' ?",
+     [
+      "Marginal farmers",
+      "Dairy farmers",
+      "Landless agricultural labourers",
+      "Street vendors"
+     ],
+     3
+    ]
+   ],
+   "Where / place": [
+    [
+     "The Indian Biological Data Centre is being set up in which state?",
+     [
+      "Haryana",
+      "Punjab",
+      "Uttar Pradesh",
+      "Gujarat"
+     ],
+     0
+    ],
+    [
+     "Where is India's first rubber based tyre Metro is being built?",
+     [
+      "Ahmednagar",
+      "Surat",
+      "Vadodara",
+      "Nashik"
+     ],
+     3
+    ],
+    [
+     "In the context of 'Shipwreck Tourism', shipwrecks in Indian waters have been explored at Sunchi Reef, Amee Shoals and Grande Island. Where are these locations?",
+     [
+      "Off the coast of Goa",
+      "Off the coast of Lakshadweep",
+      "Off the coast of Tamil Nadu",
+      "Off the coast of Odisha"
+     ],
+     0
+    ],
+    [
+     "In June 2024, which city was named India’s “First UNESCO City of Literature” ?",
+     [
+      "Delhi",
+      "Kozhikode",
+      "Varanasi",
+      "Hyderabad"
+     ],
+     1
+    ],
+    [
+     "Garba dance was included in the list of UNESCO's 'Intangible Cultural Heritage of Humanity', it belongs to which State?",
+     [
+      "Karnataka",
+      "Punjab",
+      "Gujarat",
+      "None of the above"
+     ],
+     2
+    ],
+    [
+     "Where did the Prime Minister Sri Narendra Modi lay the foundation stone of the largest airport in Asia in November 2021 ?",
+     [
+      "Noida International Airport at Jewar",
+      "Kushinagar Airport",
+      "Delhi Airport",
+      "Kempegowda International Airport in Bengaluru"
+     ],
+     0
+    ]
+   ],
+   "Negative (NOT / incorrect / false)": [
+    [
+     "Which of the following is not one of the UNESCO creative cities from India ?",
+     [
+      "Varanasi (Music)",
+      "Kozhikode (Literature)",
+      "Chennai (Music)",
+      "Pune (Literature)"
+     ],
+     3
+    ],
+    [
+     "As per the SDG India Index and Dashboard 2020-21 published by the NITI Aayog of India, which one of the following states was not among the top ten states in their performance regarding Sustainable Development Goals?",
+     [
+      "Punjab",
+      "Sikkim",
+      "Uttarakhand",
+      "Goa"
+     ],
+     0
+    ],
+    [
+     "She jumped off the ALH (Advanced Light Helicopter) Dhruv Chopper from a height of 10,000 feet. Lance Naik Manju is from the corps of Military Police. 62. Which of the following statements is incorrect about the Project Elephant started by the Indian Government?",
+     [
+      "It was started in 1991-92",
+      "It works on the confrontation between elephants and",
+      "It focuses only on the welfare of wild elephants",
+      "It has been started as a centrally sponsored scheme"
+     ],
+     2
+    ],
+    [
+     "Which of the following is not mentioned in the 'Farmers Produce, Trade and Commerce Bill 2020' of India?",
+     [
+      "Essential Commodities",
+      "Contract Farming",
+      "Minimum Support Price",
+      "Agricultural Produce Market Committees"
+     ],
+     2
+    ],
+    [
+     "Swadesh Darshan Scheme launched by Government of India does not include development of which of the following tourist circuits ?",
+     [
+      "Heritage circuit",
+      "Sufi circuit",
+      "Ramayana circuit",
+      "Coastal circuit"
+     ],
+     2
+    ],
+    [
+     "Which of the following is not correctly matched ? Scheme Aim",
+     [
+      "UDAY",
+      "HRIDAY",
+      "AMRUT",
+      "Swachh Bharat -"
+     ],
+     3
+    ]
+   ],
+   "Definition / term / known as": [
+    [
+     "The Central Vista Project refers to the",
+     [
+      "construction of an IT park in New Delhi",
+      "construction of a new Parliament, the Prime Minister",
+      "construction of a commercial area in New Delhi",
+      "construction of residences for all ministers"
+     ],
+     1
+    ],
+    [
+     "From the following industrialists, who is known as the 'Steel Man of India'?",
+     [
+      "Lakshmi Mittal",
+      "Om Prakash Jindal",
+      "Jamshed J. Irani",
+      "Anil Agrawal"
+     ],
+     2
+    ],
+    [
+     "In June, 2012 a fierce fire damaged the sacred site of Dastagir Sahib in Srinagar. Who among the following is known as Dastgir Sahib?",
+     [
+      "Bahauddin Zakariya",
+      "Sayyad Abdul Jilani",
+      "Khwaja Baki Billah",
+      "Qutubuddin Bakhtiyar Kaki"
+     ],
+     1
+    ],
+    [
+     "I.C.A.R. stands for –",
+     [
+      "Indian Council of Applied Research",
+      "Indian Council of Agricultural Research",
+      "Indian Council of Automatic Research",
+      "Indian Council of Activated Research"
+     ],
+     1
+    ],
+    [
+     "It means that a country will bring down its emissions to zero by 2050. 2. It means that a country's emissions will be compensated by the absorption and removal of greenhouse gases from the atmosphere. Select the correct answer using the codes given below. Codes :",
+     [
+      "Only 1",
+      "Only 2",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+     ],
+     1
+    ],
+    [
+     "On which date did India begin its two-year term as a Non-Permanent Member of the UN Security Council",
+     [
+      "October, 2020",
+      "November, 2020",
+      "January, 2021",
+      "July, 2021"
+     ],
+     2
+    ]
+   ],
+   "Assertion-Reason": [
+    [
+     "Given below are two statements : Assertion (A) : The Indian economic policy is increasingly being criticized by insiders as well as outsiders. Reason (R) : The criticism is largely based on ideological differences. Select the correct answer from the codes given below :",
+     [
+      "Both A and R are true and R is the correct explanation",
+      "Both A and R are true, but R is NOT the correct",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     0
+    ],
+    [
+     "Consider the following statements and select the correct answer from the code given below : Assertion (A) : Economic development requires a multi-dimensional approach. Reason (R) : The present Government of India is focussing mainly on micro-economic issues.",
+     [
+      "Both (A) and (R) are true and (R) is the correct expla-",
+      "Both (A) and (R) are true, but (R) is not the correct",
+      "(A) is true, but (R) is false",
+      "(A) is false, but (R) is true"
+     ],
+     2
+    ],
+    [
+     "Assertion (A): Indian economy has moved to a higher average GDP growth rate in the last 15 years. Reason (R) : The saving ratio has consistently increased in this period. Code:",
+     [
+      "Both (A) and (R) are true and (R) is the correct",
+      "Both (A) and (R) are true but (R) is not the correct",
+      "(A) is true, but (R) is false",
+      "(A) is false, but (R) is true"
+     ],
+     0
+    ],
+    [
+     "Assertion (A) : Economic growth in India has generally remained stagnant for the last ten years. Reason (R): Foodgrains production has not increased for last several years. Choose the correct answer using the codes given below: Code :",
+     [
+      "Both (A) and (R) are true and (R) is the correct",
+      "Both (A) and (R) are true but (R) is not the correct",
+      "(A) is true, but (R) is false",
+      "(A) is false, but (R) is true"
+     ],
+     3
+    ],
+    [
+     "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R). Assertion (A) : Investment in human capital yields returns in the future. Reason (R) Education and health make people more productive. Select the correct answer from the code given below: Code :",
+     [
+      "Both (A) and (R) are true, but (R) is not the correct",
+      "(A) is false, but (R) is true",
+      "(A) is true, but (R) is false",
+      "Both (A) and (R) are true and (R) is the correct"
+     ],
+     3
+    ],
+    [
+     "Assertion (A) : Near self -sufficiency has been achieved in India in the production of foodgrains. Reason (R) : India no longer imports foodgrains in bulk quantity. In the context of above statements, which of the following is correct :",
+     [
+      "Both (A) and (R) are true and (R) is the correct",
+      "Both (A) and (R) are true but (R) is not the correct",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true"
+     ],
+     0
+    ]
+   ],
+   "Match the following": [
+    [
+     "Which of the following is not correctly matched ? Scheme Aim",
+     [
+      "UDAY",
+      "HRIDAY",
+      "AMRUT",
+      "Swachh Bharat -"
+     ],
+     3
+    ],
+    [
+     "Match the following personalities with their fields in which they have been awarded Padma Shri-2021: List-I List-II (A) Sujit Chattopadhyay (i) Art (B) Tsultrim Chonjor (ii) Public Affairs (C) Purnamasi Jani (iii) Literature and Education (D) Bijoya Chakravarty (iv) Social Work Code: A B C D",
+     [
+      "(i)",
+      "(iii)",
+      "(i)",
+      "(iii)"
+     ],
+     1
+    ],
+    [
+     "Which one of the following is not correctly matched?",
+     [
+      "Bachendri Pal",
+      "Bindeshwari Pathak",
+      "Giriraj Kishore",
+      "Sundarlal Bahuguna"
+     ],
+     3
+    ],
+    [
+     "Identify which private sector university is not correctly matched to the place given corresponding to it?",
+     [
+      "Maharishi University of Information Technology -",
+      "Amity University - Noida",
+      "Jagadguru Rambhadracharya Handicapped University",
+      "Integral University - Lucknow"
+     ],
+     2
+    ],
+    [
+     "Which one of the following pairs is correctly matched? Commission President",
+     [
+      "National Commission on",
+      "Nuclear Energy Commission — M.R. Shrinivasan",
+      "National Commission on",
+      "Urban Arts Commission"
+     ],
+     3
+    ],
+    [
+     "Match the following Defence Expo and their venues in different years. Years Venue A. 2016 I. Chennai B. 2018 II. South Goa C. 2019 III. Lucknow D. 2020 IV. Hyderabad Select the correct answer from the codes given below: Codes : A B C D",
+     [
+      "I II IV",
+      "II I IV",
+      "IV III I",
+      "II IV I"
+     ],
+     2
+    ]
+   ],
+   "Fill in the blank": [
+    [
+     "Climate Change Knowledge Network in Indian Agriculture (CCKN-IA) was started in the year .......... in three states Maharashtra, Jharkhand and Odisha.",
+     [
+      "2012",
+      "2011",
+      "2013",
+      "2014"
+     ],
+     2
+    ],
+    [
+     "In December, 2022 New Zealand passed the world's first Law to ban smoking for next generation. New Zealand's goal is to be \"smokefree\" by _______.",
+     [
+      "2029",
+      "2030",
+      "2024",
+      "2025"
+     ],
+     3
+    ],
+    [
+     "Scientists have recently created the world’s smallest light bulb with the help of_______.",
+     [
+      "Tungsten",
+      "Graphene",
+      "Chromium",
+      "Graphite"
+     ],
+     1
+    ],
+    [
+     "The book ‘‘Six Machine : I Don’t Like Cricket.......I Love It’’ is the autobiography of which cricketer?",
+     [
+      "Yuvraj Singh",
+      "Chris Gayle",
+      "Virendra Sehwag",
+      "AB de Villiers"
+     ],
+     1
+    ],
+    [
+     "........ has been appointed as the coach of the Indian cricket team in October, 1999?",
+     [
+      "Kapil Dev",
+      "Anshuman Gaekwad",
+      "Ajit Wadekar",
+      "Sunil Gavaskar"
+     ],
+     0
+    ],
+    [
+     "On 28th September 2003, India won the Asia Cup Hockey Tournament played in Malaysia. India defeated ............",
+     [
+      "Pakistan",
+      "South Korea",
+      "Japan",
+      "China"
+     ],
+     0
+    ]
+   ],
+   "Article / Schedule / Amendment number": [
+    [
+     "Which one of the following statements is correct about an amendment in an article of Penal Code made by the Parliament of Morocco on 23rd of January, 2014?",
+     [
+      "Rapist of a minor girl should marry her in order to",
+      "Rapist of a minor girl should only face the trial",
+      "Rapist should marry the minor girl and face the trial",
+      "Rapist should pay money to the parents of the minor"
+     ],
+     1
+    ],
+    [
+     "Which of the following Constitution (Amendment) Act provides for Goods and Services Tax (G.S.T.)?",
+     [
+      "The Constitution (Ninety-Eighth) Amendment Act,",
+      "The Constitution (Ninety-Ninth) Amendment Act,",
+      "The Constitution (One-Hundredth) Amendment Act,",
+      "The Constitution (One Hundred and First) Amendment"
+     ],
+     3
+    ],
+    [
+     "Which of the following Constitution Amendment Acts made necessary provisions for the implementation of GST (Goods and Services Tax) regime?",
+     [
+      "101st Amendment Act",
+      "102nd Amendment Act",
+      "103rd Amendment Act",
+      "104th Amendment Act"
+     ],
+     0
+    ],
+    [
+     "Land Acquisition Bill was passed in Lok Sabha with how many amendments?",
+     [
+      "05",
+      "09",
+      "10",
+      "11"
+     ],
+     1
+    ],
+    [
+     "The Patents (Second Amendment) Bill was finally passed by the Indian Parliament in :",
+     [
+      "1999",
+      "2000",
+      "2001",
+      "2002"
+     ],
+     3
+    ],
+    [
+     "In India, if a species of tortoise is declared protected under Schedule 1 of the Wildlife (Protection) Act 1972, what does it imply?",
+     [
+      "It enjoys the same level of protection as the tiger",
+      "It no longer exists in the wild, a few individuals are",
+      "It is endemic to a particular region of India",
+      "Both"
+     ],
+     0
+    ]
+   ]
+  },
+  "answer_position": [
+   4466,
+   4974,
+   5066,
+   4450
+  ],
+  "extreme_option": {
+   "total": 5578,
+   "correct": 1315
+  },
+  "hedge_option": {
+   "total": 257,
+   "correct": 54
+  },
+  "answer_shapes": {
+   "None of the above / neither": [
+    180,
+    1435
+   ],
+   "Both": [
+    473,
+    1024
+   ],
+   "Only one item": [
+    230,
+    505
+   ],
+   "All of the above / 1,2,3 all": [
+    517,
+    1180
+   ],
+   "Two items": [
+    264,
+    535
+   ]
+  },
+  "longest_option_correct": [
+   3819,
+   13964
+  ],
+  "signal_words": [
+   [
+    "which",
+    8724
+   ],
+   [
+    "india",
+    4474
+   ],
+   [
+    "correct",
+    2985
+   ],
+   [
+    "not",
+    2085
+   ],
+   [
+    "who",
+    1989
+   ],
+   [
+    "consider",
+    1123
+   ],
+   [
+    "first",
+    1106
+   ],
+   [
+    "largest",
+    452
+   ],
+   [
+    "all",
+    388
+   ],
+   [
+    "when",
+    379
+   ],
+   [
+    "established",
+    315
+   ],
+   [
+    "where",
+    288
+   ],
+   [
+    "launched",
+    266
+   ],
+   [
+    "article",
+    259
+   ],
+   [
+    "recently",
+    238
+   ],
+   [
+    "true",
+    223
+   ],
+   [
+    "only",
+    215
+   ],
+   [
+    "scheme",
+    208
+   ],
+   [
+    "2024",
+    201
+   ],
+   [
+    "amendment",
+    183
+   ],
+   [
+    "chronological",
+    179
+   ],
+   [
+    "2025",
+    177
+   ],
+   [
+    "2023",
+    142
+   ],
+   [
+    "founded",
+    123
+   ],
+   [
+    "match",
+    121
+   ],
+   [
+    "both",
+    111
+   ],
+   [
+    "andhra",
+    84
+   ],
+   [
+    "incorrect",
+    62
+   ],
+   [
+    "headquarters",
+    43
+   ],
+   [
+    "false",
+    5
+   ],
+   [
+    "none",
+    3
+   ]
+  ],
+  "books": [
+   [
+    0,
+    4073
+   ],
+   [
+    1,
+    3871
+   ],
+   [
+    5,
+    2933
+   ],
+   [
+    3,
+    2921
+   ],
+   [
+    4,
+    2782
+   ],
+   [
+    2,
+    2332
+   ],
+   [
+    6,
+    44
+   ]
+  ],
+  "topics": [
+   [
+    "Relevance of science and technology to day-to-day life - health, food, transport, communication, household",
+    387
+   ],
+   [
+    "Demography of India - Census 2011 findings, population growth, density, sex ratio, literacy",
+    205
+   ],
+   [
+    "India - agriculture: major food crops (rice, wheat, maize, pulses) and their regions",
+    190
+   ],
+   [
+    "Health and environment - vector-borne and water-borne diseases, air pollution and health, antimicrobial resistance, One Health",
+    177
+   ],
+   [
+    "World - major rivers, lakes, seas, straits, canals and islands",
+    159
+   ],
+   [
+    "Environment - components; ecology, ecosystem, food chain and food web, energy flow, ecological pyramids",
+    119
+   ],
+   [
+    "Vice-President; Prime Minister and the Union Council of Ministers - Articles 74, 75, 77, 78",
+    113
+   ],
+   [
+    "Extremists - Lal-Bal-Pal and Aurobindo; ideology; Surat Split 1907",
+    113
+   ],
+   [
+    "Nature and scope of ICT; basics of hardware, software, memory and operating systems",
+    112
+   ],
+   [
+    "Energy resources - coal, petroleum, natural gas, hydel, nuclear and renewable; distribution in India and AP",
+    112
+   ],
+   [
+    "India - Peninsular drainage: east-flowing and west-flowing rivers, river basins, watershed",
+    109
+   ],
+   [
+    "Air pollution - sources, pollutants, NAAQS, AQI, National Clean Air Programme, stubble burning",
+    108
+   ],
+   [
+    "Foundation of the Indian National Congress 1885 - A.O. Hume, the safety-valve theory",
+    106
+   ],
+   [
+    "The universe and the solar system - origin theories, the Sun, planets, asteroids, comets, meteors",
+    104
+   ],
+   [
+    "India - the Northern Plains, the Peninsular Plateau, the Coastal Plains and the Islands",
+    97
+   ],
+   [
+    "Nuclear energy - three-stage programme, types of reactors, PHWR/FBR/AHWR, thorium strategy",
+    94
+   ],
+   [
+    "Biotechnology - nature, scope, tools; applications in agriculture, medicine and industry",
+    93
+   ],
+   [
+    "Parliament - composition of Lok Sabha and Rajya Sabha, qualifications, terms, special powers of Rajya Sabha",
+    89
+   ],
+   [
+    "India - agriculture: commercial crops (cotton, sugarcane, oilseeds, jute, tea, coffee, rubber, spices) and their regions",
+    89
+   ],
+   [
+    "World - continents, major mountain systems, plateaus, plains and deserts",
+    88
+   ],
+   [
+    "International trade - composition and direction of India's exports and imports; trade deficit",
+    86
+   ],
+   [
+    "Climate change - greenhouse effect, greenhouse gases, radiative forcing, evidence and observed impacts",
+    86
+   ],
+   [
+    "Indian Independence Act 1947; the Constituent Assembly - demand, composition, functioning",
+    85
+   ],
+   [
+    "Elements and factors of climate; world climatic classification (Koeppen)",
+    85
+   ],
+   [
+    "India - rocks and mineral belts; distribution of metallic and non-metallic minerals",
+    85
+   ],
+   [
+    "India - Himalayan drainage system: Indus, Ganga and Brahmaputra basins",
+    84
+   ],
+   [
+    "Five Year Plans I to XII - objectives, targets, achievements and failures of each",
+    83
+   ],
+   [
+    "Exchange rate systems and rupee movement; currency internationalisation",
+    83
+   ],
+   [
+    "India - location, extent, frontiers, standard meridian and neighbouring countries",
+    82
+   ],
+   [
+    "India - natural vegetation types and their distribution; forest cover (India State of Forest Report)",
+    81
+   ],
+   [
+    "Urban development - urbanisation trends, challenges (housing, slums, transport, waste, finance)",
+    80
+   ],
+   [
+    "Civil Disobedience Movement - Lahore Session and Purna Swaraj, Dandi March, spread and phases",
+    77
+   ],
+   [
+    "Concept of time - local and standard time, GMT/UTC, Indian Standard Time, time zones, International Date Line",
+    76
+   ],
+   [
+    "Continental resources - land, forest, water, mineral and energy resources; conservation",
+    74
+   ],
+   [
+    "Evolution of Panchayati Raj - Community Development Programme, Balwant Rai Mehta, Ashok Mehta, G.V.K. Rao and L.M. Singhvi committees",
+    69
+   ],
+   [
+    "India - physiographic division: the Himalayas (ranges, regional divisions, passes)",
+    68
+   ],
+   [
+    "President of India - election, qualifications, term, impeachment; executive, legislative, financial, judicial powers",
+    68
+   ],
+   [
+    "Federal structure of India - features of federalism and unitary bias; Seventh Schedule (three lists), residuary powers",
+    66
+   ],
+   [
+    "Directive Principles of State Policy - Articles 36-51, classification, implementation",
+    63
+   ],
+   [
+    "Quit India Movement 1942 - causes, course, underground activity, repression, significance",
+    62
+   ],
+   [
+    "High Courts and subordinate judiciary; judicial review, judicial activism, PIL and judicial overreach debate",
+    61
+   ],
+   [
+    "India and the WTO - agreements, ministerial conferences, public stockholding, fisheries subsidies, appellate body crisis",
+    61
+   ],
+   [
+    "Indian industry - structure, growth and contribution; IIP; public sector role and performance",
+    60
+   ],
+   [
+    "Fiscal policy - objectives, instruments; fiscal, revenue, primary and effective revenue deficits",
+    60
+   ],
+   [
+    "Other global indices - Global Hunger Index, Environmental Performance Index, Ease of Doing Business, Global Innovation Index, World Happiness Report",
+    59
+   ],
+   [
+    "Telecom technologies - 3G to 5G and 6G roadmap, satellite communication, optical fibre",
+    58
+   ],
+   [
+    "India - Scheduled Tribe population: distribution, major tribes and tribal regions",
+    57
+   ],
+   [
+    "Supreme Court - composition, appointment, collegium and NJAC, jurisdictions (original, appellate, advisory, writ)",
+    57
+   ],
+   [
+    "Presiding officers - Speaker, Deputy Speaker, Chairman; Secretariat; sessions, adjournment, prorogation, dissolution",
+    57
+   ],
+   [
+    "Mughal painting, music, language and literature; Persian-Sanskrit translation movement",
+    57
+   ],
+   [
+    "Champaran, Ahmedabad Mill and Kheda Satyagrahas",
+    56
+   ],
+   [
+    "Viceroys of India - Canning to Mountbatten: key measures, acts and events",
+    55
+   ],
+   [
+    "Subhas Chandra Bose - Tripuri crisis, Forward Bloc, escape, Azad Hind Government, INA campaigns",
+    55
+   ],
+   [
+    "India - national parks, wildlife sanctuaries, biosphere reserves, conservation reserves",
+    54
+   ],
+   [
+    "International trade - patterns, trade blocs, chokepoints; India's export and import composition",
+    53
+   ],
+   [
+    "Direct Action Day, Mountbatten Plan, Indian Independence Act 1947; partition and its consequences",
+    52
+   ],
+   [
+    "Indian tax system - direct and indirect taxes, tax buoyancy, tax-GDP ratio, progressivity",
+    50
+   ],
+   [
+    "Reserve Bank of India - establishment, organisation and functions",
+    50
+   ],
+   [
+    "Genetic engineering - recombinant DNA, GM crops (Bt cotton, Bt brinjal, GM mustard), gene editing/CRISPR",
+    50
+   ],
+   [
+    "Akbar - conquests, Rajput policy, religious policy, Ibadat Khana, Din-i-Ilahi, Sulh-i-Kul",
+    50
+   ],
+   [
+    "Morley-Minto Reforms 1909; formation of the Muslim League 1906; Lucknow Pact 1916",
+    50
+   ],
+   [
+    "Khilafat and Non-Cooperation Movement - programme, spread, Chauri Chaura and withdrawal",
+    50
+   ],
+   [
+    "Wavell Plan and Simla Conference; Cabinet Mission Plan 1946; Interim Government",
+    50
+   ],
+   [
+    "Transport in India - roads (NH network, Bharatmala), railways (zones), pipelines",
+    49
+   ],
+   [
+    "Monetary policy - objectives, instruments (CRR, SLR, repo, reverse repo, MSF, OMO, LAF), transmission",
+    49
+   ],
+   [
+    "Andhra Pradesh - soil types and their distribution",
+    49
+   ],
+   [
+    "Rowlatt Satyagraha and Jallianwala Bagh; Hunter Committee",
+    49
+   ],
+   [
+    "Preamble - text, keywords, 42nd Amendment; is the Preamble part of the Constitution (Berubari, Kesavananda)",
+    49
+   ],
+   [
+    "Legislative procedure - ordinary, money, financial and constitutional amendment bills; joint sitting",
+    49
+   ],
+   [
+    "Space science missions - Chandrayaan-1, 2 and 3; Mangalyaan; AstroSat; Aditya-L1; XPoSat",
+    48
+   ],
+   [
+    "India - cotton textiles, jute, sugar, cement, paper, fertiliser and petrochemical industries",
+    48
+   ],
+   [
+    "Biogeochemical cycles, ecological succession, ecosystem services",
+    48
+   ],
+   [
+    "Human Development Index - components, methodology, India's rank and trend",
+    47
+   ],
+   [
+    "Networks and the internet - LAN/WAN, protocols, IP, DNS, web technologies",
+    47
+   ],
+   [
+    "Atmosphere - structure (layers) and composition",
+    47
+   ],
+   [
+    "Demographic transition theory and India's position; demographic dividend and its window",
+    46
+   ],
+   [
+    "Poverty eradication and livelihood programmes - DAY-NRLM, DAY-NULM, SHG movement",
+    46
+   ],
+   [
+    "Nanotechnology - nature, scope, applications, Nano Mission, health and environmental concerns",
+    46
+   ],
+   [
+    "Ramakrishna Paramahansa and Swami Vivekananda; Ramakrishna Mission; Theosophical Society",
+    45
+   ],
+   [
+    "Basic characteristics of the Indian economy; features of a developing economy",
+    45
+   ]
+  ]
+ }
+}

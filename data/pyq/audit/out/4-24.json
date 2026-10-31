@@ -1,0 +1,30 @@
+{
+ "topic": "4:24",
+ "mcq_fix": [
+  {"id": "n8279f8c1710", "s": "In May 2026, the IMD warned that a developing super El Nino could have what effect on the 2026 South-West Monsoon?", "why": "odd wording 'the stated warning'"},
+  {"id": "n291f3bb16d6", "s": "According to the IMD criterion, El Nino is identified when the central equatorial Pacific is at least:", "why": "odd wording 'the stated IMD criterion'"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8a2c43e7c22", "why": "suspect key: next day's high tide is ~50 min later (about 8:52 am), not 8:13"},
+  {"id": "y0c5796cdb0d", "why": "suspect key: same item y59d2e871160 keyed (2) 2, 3 and 4; options garbled"},
+  {"id": "y685b3d30d8b", "why": "garbled: long explanatory text pasted into stem"},
+  {"id": "y6ce99c19200", "why": "garbled: option codes lost digits"},
+  {"id": "y59d2e871160", "why": "garbled: option codes lost digits"},
+  {"id": "yf9bc9f297b2", "why": "garbled: stray source text in stem, option codes lost digits"},
+  {"id": "ya84a20882d5", "why": "garbled: refers to a map that is not present"},
+  {"id": "y8c01ae3920f", "why": "garbled: match pairs missing from options"},
+  {"id": "y6f5273ced40", "why": "wrong topic: astrophysics (gravitational waves)"},
+  {"id": "ye8334e834f8", "why": "wrong topic: current affairs (Somalia famine)"},
+  {"id": "y32d042ad533", "why": "wrong topic: Indian Ocean geopolitics"}
+ ],
+ "patterns": [
+  "Most frequent shape: 'which is NOT a warm/cold current' or 'which does not flow in the North Atlantic/Pacific' (Humboldt, Benguela, Agulhas, Canaries).",
+  "APPSC asks direct one-liners: wavelength definition, tide timing (next-day high tide), Humboldt not warm, ITEWS bottom pressure recorders.",
+  "Sargasso Sea (no coastline, North Atlantic, seaweed) and fishing grounds where warm and cold currents meet recur across PSCs.",
+  "Tide items: spring vs neap, tidal ports, Gulf of Khambhat tidal energy, Chandipur receding sea.",
+  "App MCQs add ENSO mechanics, INCOIS services and 2026 current-affairs angles beyond what PYQs show; still largely sound."
+ ],
+ "stats": {"app_mcqs": 65, "pyqs": 39, "fixed": 2, "dropped": 0}
+}

@@ -1,0 +1,46 @@
+{
+ "topic": "5:74",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n5f9038354fa", "why": "ambiguous: stem asks 'long-term' sinks, yet option 1 (carbonate rocks, fossil fuels) is the long-term set while key is the all-inclusive option"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8162425391a", "why": "wrong topic: chemistry (alkaloids)"},
+  {"id": "y2feb4eeddff", "why": "wrong topic: plant physiology (stomata)"},
+  {"id": "ye0430568e30", "why": "wrong topic: climatology (rainfall)"},
+  {"id": "y7c294354962", "why": "wrong topic: plant nutrients"},
+  {"id": "ybacc7a34cf5", "why": "wrong topic: human nutrition"},
+  {"id": "y7243e71bb47", "why": "wrong topic: plant nutrients"},
+  {"id": "yafb9f506b8b", "why": "wrong topic: instruments"},
+  {"id": "yfaef93f5d99", "why": "garbled (option 3 truncated, unclear stem)"},
+  {"id": "yfa055447350", "why": "wrong topic: soil science"},
+  {"id": "ybd5ed12f92b", "why": "wrong topic: geomorphology (cycle of erosion)"},
+  {"id": "y62d8073ca80", "why": "wrong topic: physics / human physiology"},
+  {"id": "yf404384bca0", "why": "wrong topic: plant classification"},
+  {"id": "y9db3701ea52", "why": "wrong topic: units of measurement"},
+  {"id": "ycd43974135c", "why": "wrong topic: plant physiology (transpiration)"},
+  {"id": "y8d01fb88cca", "why": "wrong topic: geology / soil composition"},
+  {"id": "y620d48e6971", "why": "wrong topic: geology (crust composition)"},
+  {"id": "yb61fcb030d7", "why": "wrong topic: chemistry (uses of gases)"},
+  {"id": "y10febd1fe5e", "why": "wrong topic: chemistry"},
+  {"id": "y4d5e3528e8b", "why": "wrong topic: chemistry (organic compounds)"},
+  {"id": "y9599c31e55c", "why": "wrong topic: chemistry (organic compounds)"},
+  {"id": "y4c5784bb491", "why": "garbled (crop column missing from options)"},
+  {"id": "y73baea97fa6", "why": "wrong topic: biotechnology (Bt cotton)"},
+  {"id": "y1075ce4575f", "why": "garbled (stem missing)"},
+  {"id": "yafdb5d7f439", "why": "wrong topic: photosynthesis"},
+  {"id": "y0136fbaa468", "why": "garbled (explanation text pasted into stem)"},
+  {"id": "y3f49b535b89", "why": "wrong topic: plant nutrients"},
+  {"id": "y2b38583872d", "why": "wrong topic: fertilisers / plant nutrients"},
+  {"id": "y05c63eb6c1a", "why": "garbled stem; suspect key: correct order is Migration-Ecesis-Reaction-Stabilisation (option 4)"}
+ ],
+ "patterns": [
+  "APPSC asks the cycle-type identification directly (nitrogen = cycle whose main reservoir is not soil) and the decomposer-removal consequence.",
+  "APPSC recruitment tests ask 'functions of the environment' (biodegradation function, assimilating waste not 'wealth', renewable AND non-renewable) - often as match-the-description items.",
+  "Other PSCs hammer biofertilisers: BGA/Azolla-Anabaena for paddy, Rhizobium japonicum for soybean, leg-haemoglobin in nodules, VAM for phosphorus.",
+  "Succession PYQs: lichens as pioneers on bare rock (algae+fungi), grasslands limited by water and fire, Clements monoclimax.",
+  "App over-supplies long match/multi-statement biofertiliser items and adds Clements phase details, TEEB, Costanza; APPSC depth is single-fact."
+ ],
+ "stats": {"app_mcqs": 51, "pyqs": 64, "fixed": 0, "dropped": 1}
+}

@@ -1,0 +1,33 @@
+{
+ "topic": "2:15",
+ "mcq_fix": [
+  {"id": "n67de70b070f", "a": 0, "why": "APPSC G2 official key y20bdce20f76: both true and R explains A"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-society-9-9", "why": "off-topic: Arts 1, 3, 350A, 371 are not DPSPs"},
+  {"id": "nindian-society-9-17", "why": "ambiguous: 'protection from exploitation' also Arts 23/24 and 39(f)"},
+  {"id": "n08cb0d10968", "why": "opinion item (criticisms/underfunding)"}
+ ],
+ "notes_fix": [
+  {"ref": "7#0", "find": "R does NOT explain A (Art. 37 bar)", "replace": "official key: R is the correct explanation of A", "why": "y20bdce20f76 ANS 1"},
+  {"ref": "9#9", "find": "⚠ Trap: R does not explain A - non-enforceability flows from Art. 37's express bar, not from their guiding role", "replace": "Official key: both true and R is the correct explanation of A", "why": "y20bdce20f76 ANS 1"}
+ ],
+ "pyq_bad": [
+  {"id": "yf2ec6c52255", "why": "mental ability"},
+  {"id": "y1b7e99db9f6", "why": "garbled; wrong topic: right to equality"},
+  {"id": "y1a3a8390bc9", "why": "garbled (duplicate of yc7c0b227b9a)"},
+  {"id": "y4e002d0ed05", "why": "garbled: comparison table text embedded in stem"},
+  {"id": "ya51fe04d5ad", "why": "suspect key: question withdrawn by APPSC (discrepancy)"},
+  {"id": "ye9a7fecc3d9", "why": "wrong topic: Fundamental Rights"},
+  {"id": "y75a34e24a6a", "why": "wrong topic: Fundamental Rights (Art. 13)"},
+  {"id": "ybee3845f68a", "why": "wrong topic: basis of Indian democracy"}
+ ],
+ "patterns": [
+  "APPSC asks directive -> Article (Art. 40 village panchayats, Art. 45), 'which is NOT a DPSP' (right to work vs FRs; international trade) and whether 39(b)/(c) texts are in the Constitution.",
+  "APPSC A-R on non-justiciability: official key treats 'guideposts for legislation' as explaining non-enforceability - the app had the opposite.",
+  "Other PSCs repeatedly test: borrowed from Ireland, welfare state in DPSP, social and economic democracy, 42nd Amendment additions (39A, 43A, 48A), environment in both DPSP and FD.",
+  "App leans heavily on long match-the-list and multi-statement items plus 2026 current affairs (UCC bills, VB-G RAM G); APPSC style is shorter single-fact items.",
+  "Traps: Art. 45 now = ECCE below 6 (6-14 moved to 21A); 'cheque payable at bank's convenience' = K.T. Shah."
+ ],
+ "stats": {"app_mcqs": 59, "pyqs": 80, "fixed": 1, "dropped": 3}
+}

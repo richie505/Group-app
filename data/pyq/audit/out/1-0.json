@@ -1,0 +1,39 @@
+{
+ "topic": "1:0",
+ "mcq_fix": [
+  {"id": "nindian-history-6-31", "a": 2, "why": "Milindapanho is a dialogue with Nagasena; its author is not Nagasena, so R is false (cf. y27adcf8678e)"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-history-13-3", "why": "dubious R: Herodotus' Histories is on Greco-Persian wars, not Indo-Persian relations"},
+  {"id": "nindian-history-1-81", "why": "obscure Lohnara plates trivia, oddly worded statement IV"},
+  {"id": "nindian-history-55-20", "why": "oddly worded ('associated with more than one of the places')"},
+  {"id": "nindian-history-34-8", "why": "obscure trivia, odd A-R (museum location as reason)"},
+  {"id": "nap-history-35-3", "why": "dubious: Syadvada is a general Jain doctrine, not a Kundakundacharya school"},
+  {"id": "nindian-history-54-13", "why": "ambiguous: Al-Biruni also described the Multan Sun Temple"}
+ ],
+ "notes_fix": [
+  {"ref": "0#1", "find": "Milindapanho Nagasena Dialogue with Menander", "replace": "Milindapanho (author unknown) Dialogue of Menander with monk Nagasena", "why": "Nagasena is the interlocutor, not the author (y27adcf8678e)"},
+  {"ref": "12#1", "find": "Milindapanho — Milinda-Panha Nagasena A dialogue with Menander", "replace": "Milindapanho — Milinda-Panha (author unknown) A dialogue between Menander and monk Nagasena", "why": "Nagasena is the interlocutor, not the author (y27adcf8678e)"},
+  {"ref": "9#12", "find": "Annamacharya: The earliest known Indian musician", "replace": "Annamacharya: The earliest known Telugu song-composer (Padakavita Pitamaha)", "why": "not the earliest Indian musician"},
+  {"ref": "19#0", "find": "The Nigama-sabha of the Satavahanas (guild assembly)", "replace": "A Nigama-sabha (guild assembly) - pre-Satavahana record", "why": "Kubhiraka's Bhattiprolu record predates the Satavahanas"}
+ ],
+ "pyq_bad": [
+  {"id": "yc513d2a71af", "why": "suspect key: plot of Chandragupta's revolt vs Nandas is Mudrarakshasa (option 2), not Mahabhashya"},
+  {"id": "y240079568bc", "why": "suspect key: Kalinga war is recorded in Rock Edict XIII, not Maski"},
+  {"id": "ye56aea97b00", "why": "garbled (mixed with a Panipat question)"},
+  {"id": "y3c48c70a12d", "why": "garbled, no key"},
+  {"id": "yc121748a586", "why": "wrong options: matched halves missing"},
+  {"id": "yf84eac8f002", "why": "wrong options: tour years missing"},
+  {"id": "y7814de0d5c4", "why": "wrong options: ruler halves missing"},
+  {"id": "y18c90879c20", "why": "wrong topic: ancient town layouts"},
+  {"id": "y34e2f6ce7cd", "why": "wrong topic: medieval coinage terms"}
+ ],
+ "patterns": [
+  "Dominant shape is work-author or inscription-ruler matching: Rajatarangini-Kalhana, Si-Yu-Ki-Hiuen Tsang, Mudrarakshasa-Vishakhadatta, Hathigumpha-Kharavela, Junagadh-Rudradaman.",
+  "APPSC favourite trap: 'wrong pair' items (Rudradaman-Nanaghat 2012; I-Tsing-Ashoka 2018/2019) and composer vs king confusions.",
+  "AP tilt: Satavahana sources (Nasik, Naneghat, Gathasaptasati, Puranas), Megasthenes' 30 Andhra forts, Andhrapatha, first Telugu inscription (Kalamalla).",
+  "Other PSCs ask 'earliest' facts: Sohgaura famine order, Kavya style in Junagadh, Kharosthi right-to-left, Boghaz-Koi Vedic gods, Ardha-Magadhi Jain canon.",
+  "App MCQs are far more multi-statement and A-R heavy than PYQs, and drift into medieval/modern trivia (Andhra Shivaji, Shivaji, Kakatiya firsts)."
+ ],
+ "stats": {"app_mcqs": 106, "pyqs": 49, "fixed": 1, "dropped": 6}
+}

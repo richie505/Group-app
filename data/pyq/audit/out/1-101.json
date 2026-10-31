@@ -1,0 +1,32 @@
+{
+ "topic": "1:101",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n110bc4d4d2e", "why": "dubious: Telugu is Dravidian, not derived from Prakrit; contradicts n3e4daffa033"},
+  {"id": "n9a08ccf8610", "why": "notes-meta item on periodisation precision, oddly worded"},
+  {"id": "n35aef82c175", "why": "meta 'one source vs another' item, no exam words it so"},
+  {"id": "n8b3f9a2819d", "why": "meta 'source-wise variation' item"},
+  {"id": "n6a15968a3d0", "why": "asks about an answer key, not a fact"},
+  {"id": "n7cf4e039e25", "why": "asks about an answer key; dubious claim"}
+ ],
+ "notes_fix": [
+  {"ref": "8#4", "find": "Origin: Grew out of the Desi bhasha (Paisachi) of Prakrit", "replace": "Origin (old traditional view, not accepted linguistically - Telugu is Dravidian): grew out of the Desi bhasha (Paisachi) of Prakrit", "why": "contradicts Dravidian family stated in 8#1"},
+  {"ref": "27#0", "find": "Bhadraparinayamu Allamaraju Subrahmanya Kavi (APPSC-GS 2022)", "replace": "Bhadraparinayamu Allamaraju Subrahmanya Kavi (19th c., not Vijayanagara age; APPSC-GS 2022)", "why": "Allamaraju Subrahmanya Kavi is a 19th-century poet (yadd7a5341ae)"}
+ ],
+ "pyq_bad": [
+  {"id": "ydb175d24b97", "why": "suspect key: Baddena; Mitakshara (Vijnaneswaramu) was rendered by Ketana"},
+  {"id": "y0ab939073f3", "why": "suspect key: Kupama inscription; standard answer is the Nandampudi grant"},
+  {"id": "y17d9366777c", "why": "wrong topic: Ramayana (Sanskrit epics)"},
+  {"id": "y6f23cdb962f", "why": "wrong topic: Sanskrit epics (Mahabharata)"},
+  {"id": "y3c60b537ebf", "why": "wrong topic: Tamil literature / modern poets"},
+  {"id": "yadd7a5341ae", "why": "wrong topic: 19th-century Telugu literature"}
+ ],
+ "patterns": [
+  "APPSC asks author-work one-liners: Pavuluri Mallana = Ganita Sara Sangraha, Ketana = Abhinava Dandi (Dasakumara Charitra), Jayapa = Gaja-Sahini, Nannechoda = Kumarasambhavam.",
+  "Statement-type items on Nannaya (Andhra Mahabharatam, Andhra Shabda Chintamani, Nandampudi agrahara) with keys sometimes differing from textbook versions.",
+  "Not-correctly-matched pairs among Shiva Kavis (Palkuriki - Panditaradhya Charitra / Basava Puranam) are a recurring trap.",
+  "UPSC/other PSC items cover epic versions in other languages (Pampa - Kannada); APPSC stays on Telugu poets and Kakatiya-court authors.",
+  "App MCQs include meta items about 'sources' and 'keys' and very fine inscription trivia that no PYQ reaches."
+ ],
+ "stats": {"app_mcqs": 86, "pyqs": 15, "fixed": 0, "dropped": 6}
+}

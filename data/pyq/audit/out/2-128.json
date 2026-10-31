@@ -1,0 +1,32 @@
+{
+ "topic": "2:128",
+ "mcq_fix": [
+  {"id": "n7ed12bc5352", "s": "Arrange the following developments associated with the Anti-Arrack Movement in chronological order:  A. Total prohibition of liquor in the State B. Beginning of the movement at Dubagunta C. Ban on arrack  Select the correct answer using the code given below:", "why": "A ('prohibition of arrack') and C ('ban on arrack') were indistinguishable; 1993 arrack ban vs 1995 total prohibition"},
+  {"id": "nf7424dff25b", "o": ["all residents of Andhra Pradesh", "all persons belonging to Scheduled Castes", "members of Scheduled Tribes, unless the Central Government directs otherwise (s.2(2))", "all inter-faith marriages"], "why": "exclusion covers ST members as a whole, not only ST women"}
+ ],
+ "mcq_drop": [
+  {"id": "n3c079678450", "why": "opinion item (criticism of the movement)"},
+  {"id": "n5af3d2cddd4", "why": "dubious link: Eighth Plan shift (1992-97) is not a feature of NPEW 2001"},
+  {"id": "nindian-society-1-41", "why": "dubious 'first' claims (e.g. s.498A IPC 1983 predates PWDVA as DV law)"},
+  {"id": "nindian-society-1-67", "why": "off-topic (Justice Party) and contestable 'first'"}
+ ],
+ "notes_fix": [
+  {"ref": "2#3", "find": "1881 — Arya Mahila Samaj; Veeresalingam's Telugu widow remarriage", "replace": "1881 — Veeresalingam's first Telugu widow remarriage; 1882 — Arya Mahila Samaj (Pandita Ramabai)", "why": "Arya Mahila Samaj founded 1882"},
+  {"ref": "13#1", "find": "Arya Mahila Samaj (1881)", "replace": "Arya Mahila Samaj (1882)", "why": "established fact: founded 1882, Pune"},
+  {"ref": "13#2", "find": "1881 = Pandita Ramabai's Arya Mahila Samaj and Veeresalingam's first Telugu widow remarriage", "replace": "1881 = Veeresalingam's first Telugu widow remarriage; 1882 = Pandita Ramabai's Arya Mahila Samaj", "why": "Arya Mahila Samaj founded 1882"}
+ ],
+ "pyq_bad": [
+  {"id": "y96be22b21b8", "why": "wrong topic: AP health scheme (organ transplantation)"},
+  {"id": "y16c16863417", "why": "garbled (stem lost; duplicate of y900808e850f)"},
+  {"id": "yf9176132b66", "why": "garbled OCR; wrong topic: current affairs (sports/UNICEF campaign)"},
+  {"id": "y514a20f8445", "why": "garbled: option 3 truncated, key depends on missing words"}
+ ],
+ "patterns": [
+  "APPSC asks direct single-fact items: who said a quote (Ambedkar 'progress of a community', Nehru 'condition of a nation'), who coined 'missing women', first women's court state.",
+  "Reformer-contribution statement questions (Vidyasagar: widow remarriage, not Sambad Kaumudi) - trap is attributing another reformer's work.",
+  "'Which was NOT proposed/NOT correct' items on recent bills (Surrogacy Bill 2019) and year-matching of Acts (1986 Indecent Rep. vs 1987 Sati).",
+  "Other PSCs test UN milestones (1975 Women's Year, Beijing 1995) and the triple-talaq timeline (Allahabad HC, Shayara Bano 2017).",
+  "App MCQs are far more numerous and lean to multi-statement/match/assertion formats and 2026 current-affairs detail; PYQs are mostly one-liners with an AP scheme tilt."
+ ],
+ "stats": {"app_mcqs": 121, "pyqs": 12, "fixed": 2, "dropped": 4}
+}

@@ -1,0 +1,38 @@
+{
+ "topic": "4:95",
+ "mcq_fix": [
+  {"id": "n35f9480734a", "s": "As per the 2023-24 remeasurement of its coastline (1,053.07 km), Andhra Pradesh has the:", "why": "ambiguous: APPSC 2022 key (yc215530e24e) says second-longest on the old 974 km figure"},
+  {"id": "n449bd456153", "s": "Before August 2026, how many operational airports did Andhra Pradesh have?", "why": "oddly worded stem"}
+ ],
+ "mcq_drop": [
+  {"id": "nap-geography-26-11", "why": "oddly worded 'how many are named' item; notes conflict on four vs five future ports"}
+ ],
+ "notes_fix": [
+  {"ref": "12#8", "find": "through NTR and Guntur districts,", "replace": "through NTR and Guntur districts (AP) and Khammam district (Telangana),", "why": "Cabinet approval: line also passes Khammam; the false statement was the 6-year timeline (y3397fd56f08)"}
+ ],
+ "pyq_bad": [
+  {"id": "y0cb894c9e7f", "why": "suspect key: Visakhapatnam Port opened 1933 (20th century); APPSC itself voided this question (ybc8bc7b5388)"},
+  {"id": "ybc8bc7b5388", "why": "garbled: question voided by APPSC for discrepancy"},
+  {"id": "yaa075b6794b", "why": "wrong topic: sustainable development goals"},
+  {"id": "y011f56332f5", "why": "wrong topic: airports of India (Amritsar)"},
+  {"id": "ya82b306ce2d", "why": "wrong topic: airports of India (Navi Mumbai)"},
+  {"id": "y7a427d12069", "why": "wrong topic: airports of India (Jewar)"},
+  {"id": "y32ebad99bcf", "why": "wrong topic: airports of Madhya Pradesh"},
+  {"id": "yf4231219a04", "why": "wrong topic: airports of India (Kochi solar)"},
+  {"id": "y7f731959f4e", "why": "wrong topic: airports of India (Kochi solar)"},
+  {"id": "y89a42a2379a", "why": "wrong topic: airports of India (Kochi solar)"},
+  {"id": "ye255ffe336c", "why": "wrong topic: Indian railways (Gujarat PPP)"},
+  {"id": "ycd6b13d8295", "why": "wrong topic: ports of India (out port)"},
+  {"id": "ydab89e25897", "why": "wrong topic: national highways of India"},
+  {"id": "ybf169e0775f", "why": "wrong topic: state highways of India"},
+  {"id": "y2cefe7d538c", "why": "wrong topic: road transport in India"}
+ ],
+ "patterns": [
+  "APPSC asks port-location one-liners repeatedly (Krishnapatnam = Nellore asked 3+ times; Gangavaram = deep-water port; Bhogapuram near Vizag).",
+  "Current-affairs statement items on AP projects are common: Errupalem-Nambur line (timeline trap), Vijayawada station green rating (IGBC vs LEED trap), airport losses, Kadapa-Renigunta highway.",
+  "Count/rank facts: number of international airports (3), coastline rank (2nd on old 974 km; now 3rd), Vizag port traffic rank, NH-44 length.",
+  "Old-NH numbering appears (NH-9 Pune-Vijayawada); app uses new numbers (NH-65) - worth noting both.",
+  "App items lean on 2025-26 budget/progress figures (crore values, MMT, % progress) far deeper than APPSC's single-fact style."
+ ],
+ "stats": {"app_mcqs": 79, "pyqs": 35, "fixed": 2, "dropped": 1}
+}

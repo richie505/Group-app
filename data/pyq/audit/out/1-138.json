@@ -1,0 +1,36 @@
+{
+ "topic": "1:138",
+ "mcq_fix": [
+  {"id": "n407e8338269", "s": "Consider the following statements about the Sayyid brothers: 1. They were Abdullah Khan and Husain Ali Khan. 2. They helped Farrukhsiyar overthrow Jahandar Shah, deposed Farrukhsiyar in 1719 and installed puppet successors. 3. They were overthrown with the help of Murshid Quli Khan. Which of the statements given above is/are correct?", "why": "Sayyids opposed and overthrew Jahandar Shah (1713); they never controlled him"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-history-85-7", "why": "ambiguous A/R (R arguably explains A); no exam frames it this way"},
+  {"id": "nindian-history-71-14", "why": "ambiguous A/R on two unrelated facts"},
+  {"id": "n3e6a994328b", "why": "dubious fixed 'stage' sequence for Urdu names (Hindavi/Rekhta/Lashkari overlap)"}
+ ],
+ "notes_fix": [
+  {"ref": "17#0", "find": "Abdullah Khan + Husain Ali Khan controlled Jahandar Shah and Farrukhsiyar (deposed 1719)", "replace": "Abdullah Khan + Husain Ali Khan overthrew Jahandar Shah (1713), enthroned and then deposed Farrukhsiyar (1719)", "why": "Jahandar Shah was controlled by Zulfiqar Khan; Sayyids backed Farrukhsiyar against him"},
+  {"ref": "13#12", "find": "Tuti Nama (1657)", "replace": "Tuti Nama (1639)", "why": "Ghawwasi's Tuti Nama dates to 1639 (1049 AH)"}
+ ],
+ "pyq_bad": [
+  {"id": "y5a164c5242d", "why": "wrong topic: world art (Mona Lisa)"},
+  {"id": "ye48999a5267", "why": "wrong options (pair halves missing)"},
+  {"id": "y9014365ab7b", "why": "wrong topic: Akbar's religious policy"},
+  {"id": "y4a2a0151654", "why": "wrong options (pair halves missing)"},
+  {"id": "yb215d864149", "why": "garbled (two questions interleaved)"},
+  {"id": "y0e149473034", "why": "garbled (explanation text in stem)"},
+  {"id": "y753994b6539", "why": "wrong topic: Mughal architecture / foreign travellers"},
+  {"id": "y08cf2890157", "why": "suspect key: 'Taraka' (likely OCR); non-Islamic vocal style is Dhrupad"},
+  {"id": "y4060c405034", "why": "wrong topic: ancient music treatises"},
+  {"id": "y22c0ac1b4dd", "why": "wrong topic: awards / modern culture"},
+  {"id": "yf69bfaf93f0", "why": "wrong topic: Delhi Sultanate"},
+  {"id": "y251cb04a1a7", "why": "wrong topic: Mughal political history"}
+ ],
+ "patterns": [
+  "APPSC asks direct facts: Tansen's original name (Ramtanu Pande), number of Akbarnama volumes (three), sitar from Persian lute+veena, Dhrupad as the non-Islamic style.",
+  "APPSC-G2 2025 used a statement set: Humayun's Persian masters (true), Jahangir golden age (true), European painting via Danish merchants (false - Portuguese under Akbar).",
+  "Other PSCs repeat: zenith under Jahangir, Mansur birds / Nadir-ul-Asr, Abul Hasan Nadir-uz-Zaman, Razmnama=Mahabharata, Sirr-i-Akbar=Upanishads, Badauni's Ramayana, Kalighat not Mughal-influenced, Bani Thani=Kishangarh.",
+  "App adds many long match/A-R items and Mughal-decline/Sayyid content beyond this topic's PYQ depth; Deccani/Qutb Shahi angle is a useful AP tilt."
+ ],
+ "stats": {"app_mcqs": 63, "pyqs": 69, "fixed": 1, "dropped": 3}
+}

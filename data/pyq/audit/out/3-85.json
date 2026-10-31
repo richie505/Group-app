@@ -1,0 +1,31 @@
+{
+ "topic": "3:85",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-economy-66-20", "why": "ambiguous: Narasimham-II is also commonly called a financial-sector reform committee"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ycb87c18a0ae", "why": "wrong topic: misc. banking GK (children's bank)"},
+  {"id": "ya6699aad485", "why": "wrong topic: crop insurance; suspect key: NABARD (GIC/AIC handled crop insurance)"},
+  {"id": "y1494d07d58a", "why": "wrong topic: United Nations"},
+  {"id": "y77be2c84173", "why": "wrong topic: RBI governors (dated)"},
+  {"id": "y1c3c841e531", "why": "wrong topic: IMF officials"},
+  {"id": "y31c87717b36", "why": "garbled: stray NHB text from another question"},
+  {"id": "y94f117ec2be", "why": "wrong options: options belong to an e-commerce question"},
+  {"id": "yf434f138fcc", "why": "wrong topic: Euro currency"},
+  {"id": "y6069205034b", "why": "wrong topic: AP land records (BhuSeva)"},
+  {"id": "yc82deeb1fad", "why": "wrong topic: RBI history"},
+  {"id": "y7febd685c37", "why": "wrong topic: RBI history"},
+  {"id": "yf4f6f9688b7", "why": "wrong topic: IMF leadership"},
+  {"id": "y692e655c23f", "why": "wrong topic: small savings schemes"}
+ ],
+ "patterns": [
+  "Narasimham Committee is asked as a one-liner: what it relates to (banking reforms), its 1991 official name (Committee on the Financial System), what it cut (SLR/CRR).",
+  "APPSC tests merger facts directly: Dena + Vijaya into Bank of Baroda (1 Apr 2019), Andhra Bank into Union Bank of India.",
+  "Basel items are definitional (Basel II = capital adequacy standards, Basel III = shock resilience) plus a NOT-correct trap on Tier 1 % in India.",
+  "APPSC G1 asks multi-statement items on EASE reforms and CRAR meaning; committee-to-subject matching recurs across PSCs.",
+  "App MCQs push deeper into exact buffer percentages, RRB Viability Plan and 2025-26 law amendments than PYQs require."
+ ],
+ "stats": {"app_mcqs": 75, "pyqs": 42, "fixed": 0, "dropped": 1}
+}

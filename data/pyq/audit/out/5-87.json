@@ -1,0 +1,36 @@
+{
+ "topic": "5:87",
+ "mcq_fix": [
+  {"id": "nc09aee829b5", "s": "Match List-I with List-II and select the correct answer using the code given below. List-I (Biosphere Reserve) a. Nilgiri b. Agasthyamalai c. Achanakmar-Amarkantak List-II (States covered) i. Madhya Pradesh and Chhattisgarh ii. Kerala and Tamil Nadu iii. Tamil Nadu, Kerala and Karnataka", "why": "stem repeated 'a. Nilgiri' and trailing fragment"}
+ ],
+ "mcq_drop": [
+  {"id": "nea82005671e", "why": "ambiguous order: NP and WLS both 1972, community and conservation reserves both 2002"},
+  {"id": "nenvironment-14-14", "why": "grazing in a sanctuary is regulated, not 'regular/allowed'; marked both-true is dubious"},
+  {"id": "n759e4a90846", "why": "opinion-style 'criticism' item, no exam asks this"},
+  {"id": "nb1d3081cefa", "why": "opinion-style trend item with throwaway distractors"}
+ ],
+ "notes_fix": [
+  {"ref": "12#1", "find": "Cattle grazing Regular / allowed", "replace": "Cattle grazing Regulated (permitted by the Chief Wildlife Warden)", "why": "WPA: grazing in a sanctuary is regulated, not freely allowed"}
+ ],
+ "pyq_bad": [
+  {"id": "yac64517833e", "why": "mental ability"},
+  {"id": "y2da8456afd0", "why": "wrong topic: computer networks"},
+  {"id": "y3f70b78e33d", "why": "wrong topic: scientific research institutions"},
+  {"id": "yb85ea99c9e9", "why": "garbled: stem carries explanatory notes"},
+  {"id": "y54bfa21a403", "why": "garbled: stem carries explanatory notes"},
+  {"id": "y49f8338fe80", "why": "garbled: stem carries explanatory notes"},
+  {"id": "y7673b7dd175", "why": "wrong options: options belong to another question"},
+  {"id": "yc343722ff1a", "why": "garbled: stem truncated"},
+  {"id": "y4c552a0db17", "why": "suspect key: Nilgiri joined WNBR in 2000; all four listed were in WNBR by 2009"},
+  {"id": "y9388dcf6358", "why": "wrong topic: endemic/endangered plants"},
+  {"id": "y37b989c74f3", "why": "wrong topic: tiger reserves of India"}
+ ],
+ "patterns": [
+  "Core shape: 'which is NOT in-situ' with Botanical Garden as answer; cryobank medium = liquid nitrogen.",
+  "Biosphere reserves asked as state-matching, first/largest, and which BRs are outside UNESCO's MAB network (APPSC G1 listed Cold Desert, Dibru-Saikhowa, Great Rann).",
+  "APPSC AP tilt: Seshachalam = first/only AP BR; Naupada ICMBA in Srikakulam; 106 ICMBAs; Svalbard/Chang La seed-vault statements.",
+  "Marine firsts recur: Gulf of Kachchh first marine NP/sanctuary, NCMB at Jamnagar, Gulf of Mannar marine BR.",
+  "App goes much deeper into OECM criteria, ESZ legal rules, funding ratios and 2026 statistics than any PYQ; PYQs stay at single-fact level."
+ ],
+ "stats": {"app_mcqs": 102, "pyqs": 53, "fixed": 1, "dropped": 4}
+}

@@ -1,0 +1,27 @@
+{
+ "topic": "2:41",
+ "mcq_fix": [
+  {"id": "nindian-polity-45-12", "a": 3, "why": "Rajya Sabha elections use open ballot (RPA amended 2003), not secret ballot; only I and II correct"}
+ ],
+ "mcq_drop": [
+  {"id": "n4643b4995ec", "why": "oddly worded 'order of proceedings' item; not an exam framing"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y236faa75c16", "why": "garbled; options mixed with another question, key points to 'Article 26 to 78'"},
+  {"id": "y7e6cde00d15", "why": "suspect key: Maharashtra has a Council; Rajasthan and Kerala do not"},
+  {"id": "y0bea006999e", "why": "garbled; seat numbers missing from options"},
+  {"id": "ye1984d9c7c5", "why": "garbled; match codes truncated"},
+  {"id": "y183000c0de1", "why": "wrong topic: State Human Rights Commission appointment"},
+  {"id": "y524eb84d511", "why": "wrong topic: Rajya Sabha election"},
+  {"id": "y313ff0fa7d6", "why": "wrong topic: Union Finance Bill / Parliament"}
+ ],
+ "patterns": [
+  "APPSC asks direct single-fact items: which states have Councils, Council composition fractions (EXCEPT form), officers of Assembly, Article range 168-212",
+  "Recurring traps: 1/3-1/12-1/12-1/3-1/6 shares, Speaker resigns to Deputy Speaker, Speaker does not preside during own removal, Council only delays (no joint sitting)",
+  "AP tilt: AP Reorganisation Act 2014 caps AP Council at 50; AP Council abolished 1985, revived 2007",
+  "Art. 169 process: Assembly special majority, Parliament simple majority, not an Art. 368 amendment",
+  "App leans on UPSC-style multi-statement / 'how many correct' and match formats far more than APPSC's direct single-fact questions"
+ ],
+ "stats": {"app_mcqs": 75, "pyqs": 41, "fixed": 1, "dropped": 1}
+}

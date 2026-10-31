@@ -1,0 +1,32 @@
+{
+ "topic": "3:107",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-economy-4-6", "why": "off-topic: Human Development Index, not Union Budget"},
+  {"id": "n0ca76a0c553", "why": "oddly framed: GST 2.0 (Sep 2025) was not a Budget 2025-26 reform"},
+  {"id": "ndf35363a468", "why": "opinion-style 'most closely related to' item, trivial"},
+  {"id": "n516dbf744de", "why": "vague 'concerns highlighted' item, unsourced commentary"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y74bc3490207", "why": "mental ability"},
+  {"id": "y11ff4ae3d11", "why": "mental ability"},
+  {"id": "ybcebba4e3cc", "why": "garbled: option texts truncated"},
+  {"id": "y823ea576742", "why": "garbled: option texts truncated"},
+  {"id": "yfd924ca5249", "why": "garbled: option codes lost digits"},
+  {"id": "yd6862366dab", "why": "garbled: option codes lost digits"},
+  {"id": "y5daba8554a6", "why": "garbled: option codes lost digits"},
+  {"id": "y3e24e9829d8", "why": "wrong topic: historical revenue terminology"},
+  {"id": "y1ae43332d41", "why": "wrong topic: CAG"},
+  {"id": "ya6a514213b3", "why": "wrong topic: parliamentary committees (PAC)"},
+  {"id": "yfd07b19699f", "why": "wrong topic: NHAI / road infrastructure financing"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners: definitions (zero-base budgeting, revenue deficit formula), non-plan = interest payments, who presented a budget.",
+  "Receipt classification (revenue vs capital, tax vs non-tax, disinvestment/borrowings) recurs across PSCs; classic trap is small savings/disinvestment as revenue.",
+  "Cut motions (policy Re 1, token Rs 100), guillotine and vote on account are frequent match/one-liner items.",
+  "Current budget figures are asked as simple recall (who presented, FD % RE vs BE), plus AP-angle items like Vision 2030 in Interim Budget 2019.",
+  "App MCQs are heavier on multi-statement and 2026-27 figure detail than the PYQs; many 2026-27 items go deeper than APPSC's typical depth."
+ ],
+ "stats": {"app_mcqs": 74, "pyqs": 39, "fixed": 0, "dropped": 4}
+}

@@ -1,0 +1,37 @@
+{
+ "topic": "2:83",
+ "mcq_fix": [
+  {"id": "nc9783ebe660", "s": "Scheduled Tribes constitute approximately what proportion of India's population as per Census 2011?", "why": "8.6% is the national ST share (Census 2011), not the population 'covered by PESA'"}
+ ],
+ "mcq_drop": [
+  {"id": "n565a6b28529", "why": "opinion item (identified criticism)"},
+  {"id": "n769448e25c9", "why": "opinion/suggestion item, not an exam fact"},
+  {"id": "n26a0da4649a", "why": "obscure, scheme naming dubious (YSR vs NTR Rythu Bharosa / Annadata Sukhibhava)"}
+ ],
+ "notes_fix": [
+  {"ref": "24#6", "find": "PESA covers ST population (8.6% of India)", "replace": "STs form 8.6% of India's population (Census 2011); PESA covers those in Fifth Schedule areas", "why": "8.6% is the national ST share, not PESA coverage"}
+ ],
+ "pyq_bad": [
+  {"id": "yda507fdce03", "why": "garbled"},
+  {"id": "y231d52678ed", "why": "garbled options (codes truncated)"},
+  {"id": "y8ddf0dba3c6", "why": "wrong options: original answer was 'all of the above', option missing"},
+  {"id": "yf8dc17147a1", "why": "wrong topic: protected areas / community reserves"},
+  {"id": "y90bd8f76f3d", "why": "wrong topic: lakes of India"},
+  {"id": "y8a468e31f17", "why": "wrong topic: coalfields of NE India"},
+  {"id": "y6531c0f525d", "why": "wrong topic: formation of states"},
+  {"id": "yde075845a1f", "why": "wrong topic: formation of states"},
+  {"id": "ybe725c95d9e", "why": "wrong topic: Chhattisgarh Gram Sabha quorum rules"},
+  {"id": "yaa7e78e6664", "why": "wrong topic: ST reservation in Lok Sabha"},
+  {"id": "ycb523729aaf", "why": "wrong topic: Lok Sabha seat allocation; suspect key: Maharashtra 2nd, West Bengal 3rd"},
+  {"id": "y4efaeccb637", "why": "wrong topic: AP economy / World Bank loan"},
+  {"id": "yc4a58c7b898", "why": "wrong topic: AP district reorganisation"}
+ ],
+ "patterns": [
+  "Direct one-liners dominate: who declares Scheduled Areas (President), which Schedule (Fifth/Sixth), which states (Assam, Meghalaya, Tripura, Mizoram), PESA year (1996).",
+  "APPSC-specific: TAC size 'up to 20', Governor's power to exclude Acts (false-statement trap), autonomous region as a unit within a district, ST order amended via AP Reorganisation Act's Sixth Schedule.",
+  "Recurring traps: Nagaland/Manipur/Arunachal not Sixth Schedule; CM-to-Home-Ministry report is false (Governor to President); PESA objective is not autonomous regions; 'wherever STs exceed 40%' is false.",
+  "PESA Gram Sabha powers: MFP ownership, prevent land alienation, consultation (not consent) for acquisition, recommendation for minor minerals; presiding officer is an ST member, not Sarpanch.",
+  "App MCQs lean heavily on 2025-26 current-affairs and AP implementation trivia (Mahotsav, model GPs, MoPR survey) that PYQs never touch; core constitutional items are well covered."
+ ],
+ "stats": {"app_mcqs": 80, "pyqs": 45, "fixed": 1, "dropped": 3}
+}

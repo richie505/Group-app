@@ -1,0 +1,35 @@
+{
+ "topic": "4:92",
+ "mcq_fix": [
+  {"id": "nbb6ebd6517c", "s": "Which one of the following is the world's highest motorable road, built by the BRO?", "why": "odd stem wording ('as identified in current highway-related information')"}
+ ],
+ "mcq_drop": [
+  {"id": "na3f712ae4f7", "why": "oddly worded airline-failure sequence; not exam-style"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y9aa80c43951", "why": "mental ability"},
+  {"id": "ye54d21afd4c", "why": "mental ability"},
+  {"id": "y06b9b4c7b40", "why": "garbled options (numbers missing)"},
+  {"id": "y216af68a06e", "why": "garbled, options truncated"},
+  {"id": "y4affe6f84ae", "why": "wrong topic: physical geography (Adam's Bridge)"},
+  {"id": "y8491925c6fa", "why": "garbled, options truncated"},
+  {"id": "y79013fbc014", "why": "garbled options (leading numbers lost)"},
+  {"id": "yafbd5b683ac", "why": "garbled options"},
+  {"id": "yf469277f3ca", "why": "garbled; stem mixes another question"},
+  {"id": "y18370a84fcb", "why": "wrong topic: mountaineering institutes"},
+  {"id": "ya1efd65b400", "why": "garbled; coding-decoding text mixed in"},
+  {"id": "yd37f1e4fcc4", "why": "garbled, options truncated"},
+  {"id": "ya15ae73c048", "why": "suspect key: no key given (answer East Wind); wrong topic: world current affairs"},
+  {"id": "yb7291e9b6c3", "why": "suspect key: no key given (answer option 2, save Rs 41,000 cr)"},
+  {"id": "yc65b88a34c0", "why": "wrong topic: international current affairs (Deutsche Bahn)"}
+ ],
+ "patterns": [
+  "APPSC asks direct recall: zone HQ (West Central = Jabalpur, SECR = Bilaspur), first railway 1853 Bombay-Thane, first crude pipeline Naharkatia-Nunmati-Barauni.",
+  "Highway corridor facts recur across PSCs: E-W = Silchar-Porbandar, N-S/E-W junction = Jhansi, GQ joins Delhi-Mumbai-Chennai-Kolkata, longest NH (old NH-7, now NH-44).",
+  "Current-affairs flavour in APPSC: Mission 41K, electrification % (COREs 94% on 1 Mar 2024), DigiYatra airports, GAIL pipelines in AP.",
+  "Traps: Konkan Railway is a PSU not a zone; HBJ is gas (GAIL), Hazira in Gujarat; Hyderabad not on GQ.",
+  "App MCQs over-rely on 2026 budget/GM/route-km statistics in multi-statement form; APPSC prefers one-line zone/route/first questions."
+ ],
+ "stats": {"app_mcqs": 76, "pyqs": 61, "fixed": 1, "dropped": 1}
+}

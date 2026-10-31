@@ -1,0 +1,28 @@
+{
+ "topic": "2:43",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-polity-69-8", "why": "dubious: SC routinely dismisses Art. 32 petitions; 'cannot refuse' is an overstatement"},
+  {"id": "nf0e54de67b5", "why": "opinion item ('main criticism' of collegium vs executive)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yc3ab6aa2f73", "why": "mental ability (number series)"},
+  {"id": "yda69adbd7ea", "why": "mental ability (letter-number series)"},
+  {"id": "ydad13f6c60f", "why": "wrong topic: US Supreme Court current affairs"},
+  {"id": "ye168a26109b", "why": "garbled (two questions merged)"},
+  {"id": "yc1e38c422b4", "why": "garbled (explanation text in stem)"},
+  {"id": "y605b63e1b2e", "why": "garbled (options from another question)"},
+  {"id": "yef8e89df959", "why": "suspect key: AG and Governors are also appointed on PM/Council advice"},
+  {"id": "yd7b378d14d4", "why": "suspect key: SC is the final interpreter of the Constitution (3), not a civil court"},
+  {"id": "y18d83159ed0", "why": "wrong options (codes truncated)"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: Parliament increases number of judges, first CJI H.J. Kania, 99th Amendment void in 2015, Chelameswar upheld NJAC, Art. 128 retired judges need CJI + President's consent.",
+  "Other PSCs/UPSC repeat: Centre-State disputes = original jurisdiction (Art. 131), Art. 143 advisory, Art. 137 review, Art. 142 complete justice / curative petition, minimum 5 judges for constitutional questions.",
+  "Removal traps: special majority in each House, Judges (Inquiry) Act 1968 (100 LS / 50 RS), Speaker can refuse motion, no judge removed; Soumitra Sen resigned in 2011.",
+  "Appointments: ad hoc judges only in SC for quorum, no additional judges in SC, resignation to President, 10 years HC advocate.",
+  "App leans heavily on 2026 current affairs (ordinance raising strength to 38, collegium members, Punjab objection, private member's bill) and long multi-statement items beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 99, "pyqs": 76, "fixed": 0, "dropped": 2}
+}

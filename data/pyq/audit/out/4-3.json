@@ -1,0 +1,44 @@
+{
+ "topic": "4:3",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n1d551e8a44b", "why": "statement 3 mislabels 82°30'E as 'Kakinada reference' (reference town is Mirzapur); confusing, opinion-style debate item"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yefe576c393d", "why": "wrong topic: remote sensing / satellite orbits"},
+  {"id": "y4b84e53c4dc", "why": "wrong topic: pressure belts / ITCZ"},
+  {"id": "y785873062a8", "why": "suspect key: midnight sun is seen at the North Pole (polar regions), not the Equator"},
+  {"id": "y27d99179ff3", "why": "suspect key: reversed rotation gives 18.30 hrs (as in duplicate yb4b6c272364), not 06.30"},
+  {"id": "y713bd5833d2", "why": "mental ability"},
+  {"id": "y8f4c97d68a0", "why": "wrong topic: nuclear power capacity"},
+  {"id": "y6c7128d294e", "why": "mental ability"},
+  {"id": "ydbd4308f876", "why": "wrong topic: magnetism (physics)"},
+  {"id": "y9c14123034d", "why": "garbled"},
+  {"id": "yb7af0401658", "why": "mental ability"},
+  {"id": "y742ac77b89f", "why": "garbled: stem has text of another question appended"},
+  {"id": "yb00c12a1780", "why": "wrong topic: tin production"},
+  {"id": "y5c062489953", "why": "wrong topic: state boundaries; options truncated"},
+  {"id": "yac6b7be5056", "why": "wrong topic: state boundaries"},
+  {"id": "ye3a2c33da32", "why": "garbled: longitude value missing from stem"},
+  {"id": "yef758593cae", "why": "wrong topic: coal production"},
+  {"id": "yc8f611b5797", "why": "suspect key: IST meridian is associated with Allahabad (Naini)/Mirzapur, not Lucknow"},
+  {"id": "yd2ed12ebb1e", "why": "wrong topic: teak forests"},
+  {"id": "y165a6e7e13e", "why": "wrong topic: silver deposits"},
+  {"id": "y0aa65d6f660", "why": "wrong topic: manganese production"},
+  {"id": "y6807f5dacbc", "why": "wrong topic: states bordering UP; options truncated"},
+  {"id": "ye4085afb2b6", "why": "wrong topic: states bordering UP; options truncated"},
+  {"id": "y15c06cd7d7b", "why": "wrong topic: constellations"},
+  {"id": "y2fc34f14b5d", "why": "wrong topic: coal reserves"},
+  {"id": "y2e9c8c2fd63", "why": "wrong topic: state capitals"},
+  {"id": "yba82709d773", "why": "garbled: match lists merged into options"}
+ ],
+ "patterns": [
+  "APPSC asks direct single facts: IST meridian value (82°30'E), IST = GMT+5:30, IDL in mid-Pacific, which state is NOT crossed by Tropic of Cancer (Odisha) or IST meridian (West Bengal).",
+  "Local-time arithmetic appears as a one-step 4-min-per-degree problem (APPSC-G1 2019: 60°W 10 a.m. -> 90°E = 8 p.m.).",
+  "Solstice/equinox dates asked as a simple match (22 Dec, 21 Jun, 21 Mar, 23 Sep) and 'Uttarayana' period.",
+  "Other PSC/UPSC items add Tropic-of-Cancer state lists, nearest city to the Tropic/IST meridian, Mahi crossing twice.",
+  "App leans on multi-statement and A-R items plus 2026 current affairs (Legal Metrology IST Rules, White Rabbit) beyond APPSC's direct-fact style."
+ ],
+ "stats": {"app_mcqs": 64, "pyqs": 87, "fixed": 0, "dropped": 1}
+}

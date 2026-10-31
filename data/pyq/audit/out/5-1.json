@@ -1,0 +1,309 @@
+{
+ "topic": "5:1",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {
+   "id": "nphysics-11-29",
+   "why": "odd A/R on 'associations' of uncertainty principle; beyond APPSC depth"
+  },
+  {
+   "id": "nphysics-11-14",
+   "why": "oddly worded A/R ('associated with'), explanation link ambiguous"
+  },
+  {
+   "id": "n9ed65fbfeab",
+   "why": "oddly worded pairs (date/institution 'matches'), unexam-like"
+  }
+ ],
+ "notes_fix": [
+  {
+   "ref": "15#10",
+   "find": "Mango: The richest source of vitamins A, B and C",
+   "replace": "Mango: A good source of vitamins A, B and C",
+   "why": "amla is richest vit C (15#7, y66c19a78f83); 'richest' false"
+  }
+ ],
+ "pyq_bad": [
+  {
+   "id": "y4a7517234ad",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "yc4a74909ea7",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "ye9f8f38587b",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y18a84b5a9cd",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "yff8a62312d8",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y55e3c8c6507",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y2d33cfb03b9",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y65ba0de6388",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "ya0276b73edf",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y85b7779ff3e",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y2bdc3aa16cf",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y7e5c6014993",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "yd14fcda78b9",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y0fe65cacc17",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "ycedb41f6cd5",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y808070af809",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "yaba64e64a10",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y299e71c2514",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "yb41e293c941",
+   "why": "garbled: options truncated/unreadable"
+  },
+  {
+   "id": "y0c4b308616c",
+   "why": "wrong options: match columns given as options"
+  },
+  {
+   "id": "y78182314edc",
+   "why": "wrong options: match columns given as options"
+  },
+  {
+   "id": "y7c6b4071de4",
+   "why": "garbled: options merged"
+  },
+  {
+   "id": "y722d562f19e",
+   "why": "garbled stem"
+  },
+  {
+   "id": "ybadb89b694b",
+   "why": "garbled: stem truncated"
+  },
+  {
+   "id": "y75d575f2e03",
+   "why": "garbled stem/options"
+  },
+  {
+   "id": "yd02f244338e",
+   "why": "garbled: option 'Manipur'"
+  },
+  {
+   "id": "yfb9108089e5",
+   "why": "garbled: stray options in stem"
+  },
+  {
+   "id": "ybc0d3acfcb4",
+   "why": "garbled: explanation text, no question"
+  },
+  {
+   "id": "y87b14dc8130",
+   "why": "garbled option 4; wrong topic: physics units"
+  },
+  {
+   "id": "yc0073982b39",
+   "why": "mental ability"
+  },
+  {
+   "id": "yd22d13329f0",
+   "why": "mental ability"
+  },
+  {
+   "id": "y0a74f6b78dd",
+   "why": "mental ability"
+  },
+  {
+   "id": "yb03c5a40c42",
+   "why": "mental ability"
+  },
+  {
+   "id": "yf9050cd89f0",
+   "why": "mental ability"
+  },
+  {
+   "id": "y2d151d8f645",
+   "why": "mental ability"
+  },
+  {
+   "id": "y7aeab0cd53f",
+   "why": "mental ability (arithmetic); garbled option"
+  },
+  {
+   "id": "y3591ac90fd6",
+   "why": "garbled options"
+  },
+  {
+   "id": "ydc05105e890",
+   "why": "wrong topic: AP power sector reforms"
+  },
+  {
+   "id": "yacdf1850a75",
+   "why": "wrong topic: AP power sector reforms"
+  },
+  {
+   "id": "y6f8c3724a66",
+   "why": "wrong topic: AP irrigation"
+  },
+  {
+   "id": "ycdc3036cf90",
+   "why": "wrong topic: AP irrigation"
+  },
+  {
+   "id": "y1b8f880a386",
+   "why": "wrong topic: current affairs - elections"
+  },
+  {
+   "id": "yaa462ce8280",
+   "why": "wrong topic: AP minerals"
+  },
+  {
+   "id": "yaf17f2f3602",
+   "why": "wrong topic: AP mining; garbled options"
+  },
+  {
+   "id": "y5ff7e79f3cb",
+   "why": "wrong topic: Indian economy"
+  },
+  {
+   "id": "y2c714552e2c",
+   "why": "wrong topic: energy/environment"
+  },
+  {
+   "id": "ya3b0c83d416",
+   "why": "wrong topic: sustainable agriculture"
+  },
+  {
+   "id": "yea65a192c75",
+   "why": "wrong topic: agricultural extension"
+  },
+  {
+   "id": "yb462f5565b1",
+   "why": "wrong topic: IT industry/economy"
+  },
+  {
+   "id": "y6277fddc940",
+   "why": "wrong topic: medieval history"
+  },
+  {
+   "id": "yc55ea7a19ab",
+   "why": "wrong topic: Mughal history"
+  },
+  {
+   "id": "ye2c9bcf39a8",
+   "why": "wrong topic: modern Indian history"
+  },
+  {
+   "id": "y920e25d4fb8",
+   "why": "wrong topic: current affairs - disability"
+  },
+  {
+   "id": "y3289c1aa464",
+   "why": "wrong topic: education / MOOCs"
+  },
+  {
+   "id": "yd1c016b2dec",
+   "why": "wrong topic: education / MOOCs"
+  },
+  {
+   "id": "y2ff32efac75",
+   "why": "wrong topic: Indian literature/society"
+  },
+  {
+   "id": "yd5ea0a18929",
+   "why": "wrong topic: minerals geography"
+  },
+  {
+   "id": "yc6e998674a3",
+   "why": "suspect key: sonic boom = supersonic aircraft (3)"
+  },
+  {
+   "id": "y15ad8603816",
+   "why": "suspect key: vit D deficiency = rickets (1)"
+  },
+  {
+   "id": "y4981f5eb35d",
+   "why": "suspect key: glucagon does gluconeogenesis; option 1 is the non-function"
+  },
+  {
+   "id": "y100c496232f",
+   "why": "suspect key: guava has more vit C than orange"
+  },
+  {
+   "id": "yda78fd2774a",
+   "why": "suspect key: MRI uses radio waves; X-ray/gamma not used"
+  },
+  {
+   "id": "yadace313dea",
+   "why": "suspect key: fuse wire needs low melting point (3), high resistivity"
+  },
+  {
+   "id": "y2f124932f5a",
+   "why": "suspect key: resistivity unit ohm-metre, closest Ohm (4), not Ampere"
+  },
+  {
+   "id": "ya3487691807",
+   "why": "suspect key: progesterone production stops after menopause"
+  },
+  {
+   "id": "y39686c5333f",
+   "why": "suspect key: dark adaptation = rhodopsin reformation (3)"
+  },
+  {
+   "id": "y06ef0702471",
+   "why": "suspect key: dentist uses concave mirror, not lens"
+  }
+ ],
+ "patterns": [
+  "Overwhelmingly direct one-liners: vitamin -> deficiency/chemical name, gland -> hormone/location, household chemical -> formula (baking soda NaHCO3, Teflon = PTFE, milk of magnesia).",
+  "APPSC-specific repeats: non-stick coating = Teflon/PTFE (3 times), sodium benzoate preservative, cola = phosphoric acid, PVC dialysis tubes, adrenal on kidney, kwashiorkor oedema.",
+  "Common shapes elsewhere: 'not correctly matched' pairs, A/R on everyday physics (pressure cooker, altitude boiling point, myopia lens).",
+  "Recent APPSC current-science items: Rhodamine B cotton-candy ban (2024), ultrasound for foetus A/R, 'decreased privacy not a positive impact'.",
+  "App MCQs lean heavily to List-match / 'how many statements' formats and notes-derived trivia (monomers, PHBV, principle 'associations', 2026 schemes) that are deeper and more UPSC-styled than APPSC's single-fact pattern."
+ ],
+ "stats": {
+  "app_mcqs": 113,
+  "pyqs": 479,
+  "fixed": 0,
+  "dropped": 3
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "topic": "4:48",
+ "mcq_fix": [
+  {"id": "nap-geography-12-7", "s": "Match List-I with List-II:  List-I  a. Penna River  b. Vamsadhara River  c. Nagavali River  d. Gosthani River  e. Gundlakamma River  List-II  i. Kalingapatnam  ii. Utukuru, Nellore  iii. Devarampadu village  iv. Mopasu Bandar  v. Bheemunipatnam  Select the correct answer using the codes given below.", "why": "Penna mouth (Utukuru) is in Nellore district, not Palnadu; PYQ y47fff5ab92c keys Nellore"},
+  {"id": "n53fabda2066", "s": "During the July-August 2026 Godavari floods, the third warning level was crossed at:", "why": "Undated current-affairs stem; warning levels are crossed in many flood years"}
+ ],
+ "mcq_drop": [
+  {"id": "nap-geography-8-2", "why": "Heights of Dolphin Nose / Papikonda are unverified relief trivia, off this drainage topic"},
+  {"id": "nap-geography-16-15", "why": "Pairs Vani Vilasa Sagar (a Karnataka dam) with 'first dam built by Visvesvaraya', a doubtful attribution; obscure"},
+  {"id": "obfffe26d731", "why": "Same doubtful 'first dam built by Visvesvaraya' claim; Karnataka dam, off-topic"},
+  {"id": "nap-geography-22-4", "why": "Kanithi / Mudasarlova / Kalyani tank matching: urban water-supply trivia beyond PYQ depth"},
+  {"id": "o589694a03b1", "why": "Mudasarlova Park trivia"},
+  {"id": "od670183adca", "why": "Thimmaraju Cheruvu-Owk integration: obscure"},
+  {"id": "o3cb6cffead8", "why": "Thimmaraju Cheruvu region: obscure"},
+  {"id": "oc03e4da29a4", "why": "'Cumbum on the Rayalaseema-Palnadu border' is dubious (Cumbum is in western Prakasam); odd framing"},
+  {"id": "nindian-geography-26-11", "why": "Statement IV repeats the dubious Rayalaseema/Palnadu border claim; near-duplicate of n6577e14dd72 and n23373acb094"},
+  {"id": "o2970f28cd51", "why": "Mandal of Bhairivani Tippa reservoir: trivia"},
+  {"id": "oaf1ed5efdba", "why": "Odd 'on which side of the AP-Telangana region' wording; no exam uses it"},
+  {"id": "o26e36d65790", "why": "Exact inauguration date of Veligonda Phase-I: news trivia"}
+ ],
+ "notes_fix": [
+  {"ref": "0#1", "find": "Vutukuru ⚠ other notes: Utukuru (Nellore)", "replace": "Utukuru (Nellore district)", "why": "PYQ y47fff5ab92c: Pennar meets the sea in Nellore district"},
+  {"ref": "13#1", "find": "Penna Vutukuru, Palnadu", "replace": "Penna Utukuru, Nellore", "why": "PYQ y47fff5ab92c keys Nellore; Palnadu is inland"},
+  {"ref": "14#6", "find": "Joins the Bay of Bengal at Vutukuru in Palnadu district; meets the sea at Pulicat Lake", "replace": "Joins the Bay of Bengal at Utukuru in Nellore district (it does not drain into Pulicat Lake)", "why": "PYQ y47fff5ab92c; Pulicat receives the Arani/Swarnamukhi side, not the Penna"},
+  {"ref": "8#0", "find": "Longest river in AP = Godavari (APPSC 2025)", "replace": "Longest river in AP = Godavari by total length (APPSC 2025); but APPSC 2022 keyed Penna for the longest course within AP (536 km)", "why": "PYQ y11309de8404 keys Penna; both keys exist, so read the wording"},
+  {"ref": "9#11", "find": "Krishna AP, Maharashtra, Karnataka", "replace": "Krishna AP, Maharashtra, Karnataka, Telangana", "why": "Krishna flows through Telangana too (see 11#9, PYQ yeb4728e9e2d)"}
+ ],
+ "pyq_bad": [
+  {"id": "ye0a4e257fa0", "why": "wrong topic: Himalayan drainage (Indus system)"},
+  {"id": "y2025bd14057", "why": "wrong topic: dams of India (Kerala)"},
+  {"id": "y7514aef1b37", "why": "wrong topic: dams of India (Almatti, Karnataka)"},
+  {"id": "yc8390fb301a", "why": "wrong topic: coalfields / minerals of India"},
+  {"id": "yb46115ecd96", "why": "wrong topic: Telangana irrigation projects (Jurala)"},
+  {"id": "ydba7342d14b", "why": "wrong topic: dams of India"},
+  {"id": "y8aafb1a4522", "why": "wrong topic: dams of Rajasthan"},
+  {"id": "y06d143c37d5", "why": "garbled: pair options lost their second halves"},
+  {"id": "yd6160638c5d", "why": "garbled: explanation pasted into stem; wrong topic: Damodar valley"},
+  {"id": "y58872028aca", "why": "wrong topic: reservoirs of India"},
+  {"id": "yd23379cafa1", "why": "wrong topic: Gujarat projects"},
+  {"id": "y081709e78af", "why": "wrong topic: AP coastline / physiography"},
+  {"id": "y0b0493e25e8", "why": "wrong topic: India-Bhutan hydro projects"},
+  {"id": "y7d1f165434c", "why": "wrong topic: AP location and boundaries"},
+  {"id": "y45e2eb81507", "why": "wrong topic: AP location and boundaries"},
+  {"id": "y30c3daa28cc", "why": "garbled: blank lost from stem, options truncated ('Polavaram Mandal of West')"},
+  {"id": "yb5ba0534302", "why": "garbled duplicate of y30c3daa28cc"},
+  {"id": "y0a163d0ad1d", "why": "wrong topic: dams of Uttar Pradesh"},
+  {"id": "ye256b82ebea", "why": "garbled: option 4 merged with the next question"},
+  {"id": "yeeb447ae4c0", "why": "wrong topic: tribes of India; options missing their places"},
+  {"id": "y8482bf44be0", "why": "suspect key: keyed K.L. Rao, but most sources (and topic 1:263 notes) credit Sir Sonti Venkata Ramamurthy; verify against official key"},
+  {"id": "ybfae4db6191", "why": "suspect key: keyed 5 inter-state rivers, notes/AP WRD say 15 of 40; verify (possible OCR index slip)"}
+ ],
+ "patterns": [
+  "APPSC asks drainage as one-fact identification: 'X dam/project is on which river' (Srisailam, Somasila, Polavaram, Nagarjuna Sagar, Basava Sagar), 'river rises where' (Penna - Nandi hills), 'meets sea in which district' (Penna - Nellore), 'Gandikota on which river'.",
+  "Recurring numbers: Godavari 1,465 km; 40 rivers / inter-state count; Tungabhadra forms 58 km AP-Karnataka boundary; Godavari 2 distributaries at Dowleswaram; Penna 536 km in AP. Wording decides the key ('longest' was keyed Godavari in 2025 and Penna in 2022).",
+  "Project-purpose questions: Polavaram = National Project (Sec 90), Pattiseema = lift irrigation linking Godavari-Krishna (Limca record A-R), Telugu Ganga = Chennai/Tamil Nadu, KRMB allocates Srisailam water, NW-4 = Krishna waterway.",
+  "Match-the-pair on river-origin hills (Vamsadhara-Jayapur, Machkund-Mudugal, Gundlakamma-Nallamala, Pennar-Nandidurga) appeared in 2025; the app covers this well.",
+  "The app is broadly accurate but floods the topic with micro-detail (tank parks, mandals, tributary confluence villages, 2026 inauguration dates, flood warning levels) and long 4-5 statement sets; APPSC rarely goes below river-project-district level."
+ ],
+ "stats": {"app_mcqs": 89, "one_liners": 196, "pyqs": 57, "fixed": 2, "dropped": 12}
+}

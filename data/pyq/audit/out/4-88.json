@@ -1,0 +1,92 @@
+{
+ "topic": "4:88",
+ "mcq_fix": [
+  {
+   "id": "n73b3e0c20b0",
+   "s": "Green cements such as Portland Pozzolana Cement (PPC) and Portland Slag Cement (PSC) use which combination of industrial by-products?",
+   "why": "PPC uses fly ash; slag is used in PSC, not PPC"
+  }
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {
+   "ref": "6#4",
+   "find": "PPC = fly ash + slag",
+   "replace": "PPC = fly ash (pozzolana); slag → Portland Slag Cement (PSC)",
+   "why": "established fact: slag cement is PSC, not PPC"
+  },
+  {
+   "ref": "21#1",
+   "find": "Fly ash (thermal plants) + slag (steel plants)",
+   "replace": "Fly ash (thermal plants); slag (steel plants) is used in Portland Slag Cement (PSC)",
+   "why": "established fact: PPC = pozzolanic fly ash; slag -> PSC"
+  }
+ ],
+ "pyq_bad": [
+  {
+   "id": "y24dad61effe",
+   "why": "wrong topic: sports trophies"
+  },
+  {
+   "id": "yd3f27ad7402",
+   "why": "wrong topic: sports (Ranji Trophy)"
+  },
+  {
+   "id": "y47d869c1458",
+   "why": "suspect key: 1965; SAIL was set up in 1973"
+  },
+  {
+   "id": "y6cb85d9af4a",
+   "why": "garbled: statements truncated"
+  },
+  {
+   "id": "y12e0afbbdb4",
+   "why": "garbled: pair options truncated"
+  },
+  {
+   "id": "yde86891cc0a",
+   "why": "wrong topic: art and culture (Kalamkari)"
+  },
+  {
+   "id": "y9ab00718d39",
+   "why": "garbled: pair options truncated"
+  },
+  {
+   "id": "yd238e9b2c10",
+   "why": "garbled: explanation of other questions merged into stem"
+  },
+  {
+   "id": "y6130e93cf08",
+   "why": "garbled: pair options truncated"
+  },
+  {
+   "id": "y1c610d76213",
+   "why": "wrong topic: chemistry/metallurgy (alloys)"
+  },
+  {
+   "id": "y7228d1973c6",
+   "why": "wrong topic: physics (friction)"
+  },
+  {
+   "id": "y1965c3717c6",
+   "why": "garbled: statements truncated"
+  },
+  {
+   "id": "y705e8310688",
+   "why": "garbled options (numbers missing)"
+  }
+ ],
+ "patterns": [
+  "Steel plant - collaborating country / state matching dominates (Bhilai & Bokaro = USSR, Rourkela = Germany, Durgapur = UK); location logic (near raw material vs not) is a favourite trap.",
+  "FIRSTs asked as single facts: Fort Gloster 1818, first cement 1904 Madras (APPSC G2 2024/25), first sugar mill Pratappur 1903, SAIL year.",
+  "Industry-centre matching (APPSC 2023: Jamshedpur-steel, Kolkata-jute, Barauni-refinery, ICF-Perambur; Chunar-cement, Ludhiana-hosiery, Sakkar Nagar-sugar).",
+  "Sugar: leading states order, north-to-south shift reasons, India's world rank; raw materials of fertiliser/cement as 'which is not' items.",
+  "App MCQs add many 2025-26 data and statement-count items (shares, capacities, CCTS sectors) that go deeper than PYQs, which stay at rank/place level."
+ ],
+ "stats": {
+  "app_mcqs": 75,
+  "pyqs": 50,
+  "fixed": 1,
+  "dropped": 0
+ }
+}

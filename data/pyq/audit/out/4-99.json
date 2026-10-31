@@ -1,0 +1,52 @@
+{
+ "topic": "4:99",
+ "mcq_fix": [
+  {"id": "n9186c1498ba", "s": "Which one of the following is India's largest thermal power station by installed capacity?", "why": "odd wording 'according to the given classification'; cf y33e24e7bd86"}
+ ],
+ "mcq_drop": [
+  {"id": "n9eae8321dff", "why": "ambiguous: Mahanadi is itself a Gondwana basin, so 'not included' is unsound"},
+  {"id": "ndee4d2e4285", "why": "dubious thorium reserve figure/rank (sources vary widely)"},
+  {"id": "naed8e83ce71", "why": "oddly worded ('of that scale'); not exam phrasing"}
+ ],
+ "notes_fix": [
+  {"ref": "25#1", "find": "Krishna 1,760 MW APGENCO", "replace": "Krishna 2,560 MW (1,760 + 800 MW Stage-V) APGENCO", "why": "800 MW unit added 2023; APPSC ydb1af8db265 keys Dr NTTPS as AP's largest thermal station"},
+  {"ref": "25#1", "find": "SPSR Nellore 1,960 MW", "replace": "SPSR Nellore 2,400 MW (2 x 800 + 800 MW)", "why": "third 800 MW unit commissioned 2023"}
+ ],
+ "pyq_bad": [
+  {"id": "y1db1dfdd2cc", "why": "garbled: options missing matched items"},
+  {"id": "y9437e32f2c4", "why": "garbled options"},
+  {"id": "yc502ea5f7e7", "why": "mental ability (statement-conclusion)"},
+  {"id": "ye7d5c36edd5", "why": "garbled: options truncated"},
+  {"id": "y53dc9fc6dcc", "why": "suspect key: thermal has the largest share, so Thermal > Hydro > Nuclear > Wind (opt 1)"},
+  {"id": "y216b824a792", "why": "garbled; wrong topic: crop producers"},
+  {"id": "ycd08f84da56", "why": "suspect key: pre-colonial Andhra economy was dominated by textiles, not coal mining"},
+  {"id": "y12125c851c7", "why": "wrong topic: fertilizer production"},
+  {"id": "y84548cb3783", "why": "wrong topic: silver production"},
+  {"id": "y2e4c09469e4", "why": "wrong topic: fuelwood/forest production"},
+  {"id": "ya880665f11c", "why": "wrong topic: AP coastline"},
+  {"id": "yf35e818eb48", "why": "wrong topic: organic farming"},
+  {"id": "yb10d8bf869e", "why": "wrong topic: agricultural universities"},
+  {"id": "y834f731075e", "why": "wrong topic: organic farming"},
+  {"id": "yb174a8f8be6", "why": "garbled: pair items missing"},
+  {"id": "y1521ae3e905", "why": "garbled: explanatory text merged into stem"},
+  {"id": "yef363c4beee", "why": "garbled: pair items missing"},
+  {"id": "yb27c701f99c", "why": "wrong topic: pearls"},
+  {"id": "y78b5e37a641", "why": "wrong topic: pearls"},
+  {"id": "y10b840cc477", "why": "garbled: pair items missing"},
+  {"id": "y0aa33f666a0", "why": "garbled: states missing from options"},
+  {"id": "y8ac1149d040", "why": "garbled: years missing from options"},
+  {"id": "y94286cefad1", "why": "wrong topic: copper reserves"},
+  {"id": "yb9cf26b8a01", "why": "mental ability (logical deduction)"},
+  {"id": "y5931802862e", "why": "garbled: pair items missing"},
+  {"id": "y5d38148b78e", "why": "garbled: pair items missing"},
+  {"id": "y2731439d716", "why": "garbled: pair items missing"},
+  {"id": "y0ddf03c8928", "why": "wrong topic: weather instruments"}
+ ],
+ "patterns": [
+  "APPSC asks this topic as one-liners: 'which is not a fossil fuel / not renewable' (solar, natural gas, uranium traps), petroleum products, biggest thermal plant (Vindhyachal), AP's largest thermal station.",
+  "Other PSCs heavily test place->state matching: coalfields (Jharia, Talcher, Makum, Singareni), refineries (Tatipaka-AP/ONGC, Noonmati, Koyali, Barauni), power stations and nuclear plants, plus firsts (Raniganj 1774, Makum oil well, Digboi, Tarapur 1969).",
+  "Recurring traps: largest lignite = Tamil Nadu not Jharkhand; first oil well Makum vs first commercial Digboi; Barauni in Bihar; Ramagundam now Telangana; Kovvada (US), Kudankulam (Russia), Jaitapur (France).",
+  "App MCQs over-index on 2025-26 capacity statistics, policy details (SHAKTI windows, Budget duty) and AP project investments that PYQs never ask; PYQs prefer stable location facts."
+ ],
+ "stats": {"app_mcqs": 108, "pyqs": 128, "fixed": 1, "dropped": 3}
+}

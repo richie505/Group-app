@@ -1,0 +1,32 @@
+{
+ "topic": "2:39",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-society-44-9", "why": "off-topic (Jeevan Reddy/AFSPA) and contrived A-R causal link"},
+  {"id": "nindian-society-44-5", "why": "vague stem; ambiguous which bodies 'addressed' armed-forces deployment"}
+ ],
+ "notes_fix": [
+  {"ref": "14#10", "find": "Anti-defection: Decides disqualification of MLAs on the advice of the Election Commission", "replace": "Disqualification of MLAs under Art. 191(1) (not anti-defection): decides on the opinion of the Election Commission (Art. 192); anti-defection cases go to the Speaker/Chairman", "why": "Tenth Schedule disqualification is decided by the Speaker, not the Governor"},
+  {"ref": "11#3", "find": "continues until his successor enters office (Art. 159)", "replace": "continues until his successor enters office (Art. 156(3))", "why": "holdover clause is Art. 156(3); Art. 159 is the oath"},
+  {"ref": "30#1", "find": "Sarkaria Commission (constituted 1988) and Punchhi Commission (constituted 2010)", "replace": "Sarkaria Commission (constituted 1983, report 1988) and Punchhi Commission (constituted 2007, report 2010)", "why": "report years given as constitution years"}
+ ],
+ "pyq_bad": [
+  {"id": "y7701383d079", "why": "wrong topic: personalities / days"},
+  {"id": "y347f474ead9", "why": "wrong topic: municipalities (Part IXA)"},
+  {"id": "y8d5510167dd", "why": "wrong topic: ST reservation in Lok Sabha"},
+  {"id": "ye88fb292601", "why": "garbled"},
+  {"id": "y9d40b557831", "why": "garbled (duplicate of y9d859275078)"},
+  {"id": "ya31f95a9a29", "why": "garbled (stem missing)"},
+  {"id": "yb75d204fcc2", "why": "suspect key: Manipur, Mizoram, Meghalaya all lacked Governor's Rule; only J&K had it"},
+  {"id": "y03cfc904887", "why": "wrong topic: State Legislature (Speaker certifies Money Bill)"},
+  {"id": "y348110b8b53", "why": "wrong topic: US politics"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact article numbers: Art. 153 (one Governor for 2+ States, 7th Amendment), 155 appointment, 164 CM appointment, 213 ordinance, 356 PR.",
+  "Statement-type traps: 'Governor quits immediately after term' (false), minimum age 35, max PR 3 years, never in Telangana/Chhattisgarh, reservation = central control.",
+  "AP angle: number of PR spells in AP (1973 Jai Andhra; Andhra State 1954-55), first Governor C.M. Trivedi.",
+  "App adds heavy 2025-26 case-law/current-affairs (TN v Governor, 16th Reference, TN hung House, WB) and long multi-statement items well beyond PYQ depth.",
+  "Other PSCs favour discretion lists (UPSC 2014: report under 356 + reservation of bills), immunity under Art. 361, ordinance approved by State Legislature."
+ ],
+ "stats": {"app_mcqs": 109, "pyqs": 54, "fixed": 0, "dropped": 2}
+}

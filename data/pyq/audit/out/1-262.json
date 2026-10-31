@@ -1,0 +1,29 @@
+{
+ "topic": "1:262",
+ "mcq_fix": [
+  {"id": "n71f156492ca", "s": "Arrange the following Chief Ministers of Andhra Pradesh in the order in which they first took office: 1. P.V. Narasimha Rao 2. Damodaram Sanjivayya 3. T. Anjaiah 4. Kasu Brahmananda Reddy", "why": "remove '(PYQ 2025)' tag from stem; matches y72a291a29f7"}
+ ],
+ "mcq_drop": [
+  {"id": "nap-history-25-3", "why": "oddly worded assertion ('movement was formed by'); A/R relation ambiguous"}
+ ],
+ "notes_fix": [
+  {"ref": "16#3", "find": "lost his majority in 1955 over liquor prohibition", "replace": "lost a no-confidence vote in November 1954 over liquor prohibition", "why": "Prakasam ministry fell Nov 1954; mid-term polls Feb 1955"}
+ ],
+ "pyq_bad": [
+  {"id": "yf4e7c7a86a1", "why": "wrong topic: science/space current events"},
+  {"id": "y446b22cfbab", "why": "wrong topic: Kerala state politics"},
+  {"id": "ye1162767ee5", "why": "suspect key: Kurnool was capital of Andhra State (1953); AP (1956) started with Hyderabad"},
+  {"id": "y8fc511c117f", "why": "suspect key: Kurnool was capital of Andhra State (1953); AP (1956) started with Hyderabad"},
+  {"id": "ya53ddb86413", "why": "garbled: options mixed with another question; key Anjaiah conflicts with TDP founded under Bhavanam Venkatarami Reddy"},
+  {"id": "y043176ca2ec", "why": "wrong topic: AP bifurcation 2014 asset division"},
+  {"id": "y5a26a4a492d", "why": "wrong topic: Telangana governors"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: who was not a Gentlemen's Agreement signatory (Prakasam), name of the 1956 agreement, first CM (Sanjiva Reddy), first capital.",
+  "Visalandhra Mahasabha details recur: founded Nov 1949 at Vijayawada by Ayyadevara Kaleswara Rao, first meeting Warangal 1950; 'Communists opposed linguistic states' is the planted false statement.",
+  "CM chronology and tenure items are frequent (Sanjivayya 1960-62, Brahmananda Reddy 1964-71, Nadendla 31 days, Panchayat Raj under Sanjiva Reddy).",
+  "Telangana-movement leaders (TPS founder Chenna Reddy, CM during 1969 = Brahmananda Reddy, Ramananda Tirtha) are filed here too.",
+  "App adds dense statement sets on safeguard clauses, Hyderabad Congress resolution dates and 2026 Amaravati items far beyond PYQ depth, but they are factually sound."
+ ],
+ "stats": {"app_mcqs": 106, "pyqs": 24, "fixed": 1, "dropped": 1}
+}

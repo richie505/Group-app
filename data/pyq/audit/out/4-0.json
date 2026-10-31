@@ -1,0 +1,47 @@
+{
+ "topic": "4:0",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ngeneral-geography-1-33", "why": "A-R link ambiguous: slowest velocity and longest year are both effects of distance"},
+  {"id": "ngeneral-geography-1-66", "why": "oddly worded: Apollo 11 landing site with nonsensical distractors (Kuiper region, main belt)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y2b3fd7f9ce9", "why": "suspect key: pre-2006 (Pluto); now Neptune has the longest year"},
+  {"id": "y0cf11affbdb", "why": "suspect key: pre-2006 (Pluto); now Mercury is smallest"},
+  {"id": "y930d66ad6a0", "why": "suspect key: pre-2006; now Neptune is farthest"},
+  {"id": "y93c83b8de7a", "why": "suspect key: pre-2006 (9 planets); now 8"},
+  {"id": "ye114e1d22f1", "why": "suspect key: pre-2006 (Pluto); now Neptune"},
+  {"id": "yd137c8445d5", "why": "garbled; wrong topic: latitude/longitude"},
+  {"id": "y6e53c1e0c41", "why": "wrong topic: photosynthesis"},
+  {"id": "yfe27549970f", "why": "mental ability (classification)"},
+  {"id": "yad4219ba5a9", "why": "mental ability (ordering)"},
+  {"id": "ydebdaba7cb7", "why": "garbled (mixed with other questions)"},
+  {"id": "y678f6e35617", "why": "wrong topic: optics/light"},
+  {"id": "y0d63a80ec51", "why": "suspect key: Jupiter was right in 2018; Saturn now has the most moons"},
+  {"id": "y6a26d7ab242", "why": "suspect key: same UPSC 2009 item as y56493be72c7 keyed Saturn"},
+  {"id": "y822ef944235", "why": "suspect key: Sun's core is gaseous/plasma, not liquid"},
+  {"id": "y4544369ddf0", "why": "suspect key: Copernicus is best known as an astronomer"},
+  {"id": "y587109aacf5", "why": "garbled (duplicate of y3cb3ebc0542)"},
+  {"id": "y16b51cfad80", "why": "wrong topic: miscellaneous GK matching"},
+  {"id": "ye43b8654a58", "why": "wrong topic: biofertilisers"},
+  {"id": "yb15b427179f", "why": "wrong options (truncated)"},
+  {"id": "y877e943759a", "why": "wrong topic: music current affairs"},
+  {"id": "y9054e864ae0", "why": "wrong topic: sports current affairs"},
+  {"id": "y5c4aaa457c8", "why": "garbled (mixed stems)"},
+  {"id": "y37e873f3a21", "why": "suspect key: Europa (3), not Earth's Moon, is the candidate for life"},
+  {"id": "y8166efb41dc", "why": "wrong topic: atmosphere composition"},
+  {"id": "yc3010206c7d", "why": "wrong topic: atmosphere composition"},
+  {"id": "y66bb65600bd", "why": "garbled (explanation text pasted into stem)"},
+  {"id": "ye66c733e00e", "why": "wrong topic: time/calendar"},
+  {"id": "y06a73d7b4f1", "why": "wrong topic: zoology"}
+ ],
+ "patterns": [
+  "APPSC asks one-line facts: light year = distance, most abundant element = hydrogen, Venus like Earth in size/mass, fastest planet Mercury, perihelion, blue moon = second full moon in a month, Steady State = Bondi & Gold.",
+  "APPSC dated current-affairs astronomy: total solar eclipse 22 July 2009, annular eclipse 15 Jan 2010, 2018 'blood moon', Blue Marble (Apollo 17).",
+  "Other PSCs repeat superlatives (largest, hottest, densest, no moons), Big Bang evidence (red shift, CMB), Chandrasekhar limit, comet tail away from Sun, eclipse geometry.",
+  "Moon-count and pre-2006 Pluto keys are time-sensitive traps; app correctly uses Saturn and 8 planets.",
+  "App adds many multi-statement and current-affairs items (Aditya-L1 data, 3I/ATLAS, SMILE, 2026 moon count) far beyond the simple PYQ style."
+ ],
+ "stats": {"app_mcqs": 94, "pyqs": 140, "fixed": 0, "dropped": 2}
+}

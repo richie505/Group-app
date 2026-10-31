@@ -1,0 +1,38 @@
+{
+ "topic": "1:5",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-history-3-70", "why": "six-statement count on Sinauli grave contents; obscure trivia far beyond PYQ depth"},
+  {"id": "nindian-history-2-17", "why": "Kalibangan 'excavated 1960-61' conflicts with standard 1961-69 (used in ne1945857670); ambiguous"},
+  {"id": "nindian-history-3-19", "why": "Mohenjodaro main-road width in metres; obscure trivia"}
+ ],
+ "notes_fix": [
+  {"ref": "18#2", "find": "Finds: A terracotta plough; fire altars; Mesopotamian seals; toy-cart wheels; a wooden plough;", "replace": "Finds: Fire altars; Mesopotamian seals; toy-cart wheels;", "why": "terracotta plough model is Banawali, Kalibangan = ploughed field (yb215b81d146)"},
+  {"ref": "19#1", "find": "a terracotta plough; fire altars (seven)", "replace": "fire altars (seven)", "why": "plough model = Banawali, not Kalibangan (yb215b81d146)"}
+ ],
+ "pyq_bad": [
+  {"id": "yb0137ef7763", "why": "mental ability"},
+  {"id": "ycb8a4275719", "why": "mental ability"},
+  {"id": "y0c38488a58d", "why": "wrong topic: sports current affairs"},
+  {"id": "ye642182142e", "why": "wrong topic: Indian geography (reservoirs)"},
+  {"id": "y5199fb7749c", "why": "wrong topic: world civilisations (Nile)"},
+  {"id": "yed5cb3f2fef", "why": "wrong topic: museums / misc GK"},
+  {"id": "y03f2457e9a8", "why": "wrong topic: Palaeolithic sites"},
+  {"id": "ycf1f9ebd22a", "why": "wrong topic: foreign accounts; suspect key: Periplus is by an anonymous Greek sailor, not Ctesias"},
+  {"id": "y42c9dfa1f7a", "why": "garbled stem/options"},
+  {"id": "y9da64d63c63", "why": "garbled: two questions merged in stem"},
+  {"id": "y9c4cc4c8c5a", "why": "wrong options: theory pairs missing, only names shown"},
+  {"id": "y6f2f700227e", "why": "wrong options: positions missing from match pairs"},
+  {"id": "ye88dab3f34c", "why": "wrong options: match partners missing"},
+  {"id": "y6b73e34f689", "why": "wrong options: match partners missing"},
+  {"id": "y48996e77109", "why": "suspect key: Kuntasi; Lothal is the standard double-burial site"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners: excavator of Lothal (S.R. Rao), Kalibangan's district (Hanumangarh), Dholavira habitation span (3000-1800 BCE), which site is in India (Lothal).",
+  "'Not a Harappan site' odd-one-out with Sohgaura as the trap recurs (UPSC 2019, APPSC G2).",
+  "River/location of sites (Harappa-Ravi, Lothal-Bhogava, Kalibangan-Ghaggar) and site-find matches (ploughed field-Kalibangan, plough model-Banawali, dockyard-Lothal, signboard-Dholavira) are staple facts across PSCs.",
+  "App leans heavily on 'how many of the following' and multi-statement items with excavation years and minor finds; APPSC shows far simpler single-fact framing.",
+  "Boundary sites (Manda-Daimabad-Alamgirpur-Sutkagendor) and largest Indian site (Rakhigarhi) are high-yield."
+ ],
+ "stats": {"app_mcqs": 84, "pyqs": 56, "fixed": 0, "dropped": 3}
+}

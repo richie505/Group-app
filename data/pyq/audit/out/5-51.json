@@ -1,0 +1,30 @@
+{
+ "topic": "5:51",
+ "mcq_fix": [
+  {"id": "n26d7a7a8630", "s": "How many Rafale fighter jets does the Indian Air Force operate?", "why": "odd stem wording ('as asked in a 2025 examination')"}
+ ],
+ "mcq_drop": [
+  {"id": "n6d1b6d18547", "why": "Himshakti developed by DLRL and produced by BEL; 'developed by BEL' statement ambiguous"},
+  {"id": "n5ffd6231752", "why": "oddly worded ('in the stated current-affairs context'); obscure 2026 trivia"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yb356d187f08", "why": "wrong topic: household electric wiring"},
+  {"id": "y620fff949e9", "why": "wrong topic: scattering of light"},
+  {"id": "y64a56aa972b", "why": "wrong topic: refraction of light"},
+  {"id": "yee31856d0d0", "why": "wrong topic: scattering of light"},
+  {"id": "y3635963a729", "why": "wrong topic: atmosphere / misc S&T"},
+  {"id": "ye4f346a58ef", "why": "garbled: match partners missing; not about explosives"},
+  {"id": "ye8166491390", "why": "garbled: stem missing (HMX expansion)"},
+  {"id": "yb8e8a556a09", "why": "garbled OCR; duplicate of y5f1731aabe2"},
+  {"id": "y7c064821ade", "why": "suspect key: INS Shakti is a fleet tanker built abroad, not first indigenous destroyer"}
+ ],
+ "patterns": [
+  "APPSC asks 'What is X?' one-liners: PINAKA (MBRL), Varunastra (torpedo), AWACS, TAPAS-201 (MALE UAV), Surya VHF radar, Tavasya (frigate).",
+  "AP tilt: Visakhapatnam (NSTL, HSL, Eastern Naval Command) and recent naval commissionings/decommissionings as statement items (2024 APPSC Cheetah/Guldar/Magar trap).",
+  "Explosives (gun cotton = cellulose nitrate, RDX = cyclonite, Nobel oil = TNG, Amatol has no nitroglycerine) are a recurring chemistry-linked cluster across PSCs.",
+  "Aircraft role matching (IL-76 transport vs IL-78 tanker, C-130J USA, Dornier maritime patrol) recurs in UPSC/state PSCs.",
+  "App MCQs are mostly multi-statement 2025-26 current-affairs details (orders, delivery dates, lab names) much deeper than APPSC's single-fact style."
+ ],
+ "stats": {"app_mcqs": 71, "pyqs": 46, "fixed": 1, "dropped": 2}
+}

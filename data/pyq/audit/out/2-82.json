@@ -1,0 +1,38 @@
+{
+ "topic": "2:82",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-polity-23-38", "why": "off-topic (Ninth Schedule), unrelated to the 74th Amendment"},
+  {"id": "n245c6c93239", "why": "oddly worded ('specifically described as joining'); answer rests on note phrasing"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yd0bc560dd33", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "y64dbba49d02", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "y0e1b56ae0d3", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "yb6e4b3206b0", "why": "garbled: previous answer's explanation merged into stem"},
+  {"id": "y2ef81e062ff", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "y8baf2a74f46", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "yb20546033d3", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "yb34c1d78ba0", "why": "garbled: pair list missing from options"},
+  {"id": "y514be2b58ef", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "y2a362a136e5", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "y479ee83ce11", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "y48727899295", "why": "wrong topic: road signs"},
+  {"id": "y39dec4c3708", "why": "garbled: options truncated"},
+  {"id": "ye9a091bf86e", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "y36fe4766a2c", "why": "mental ability"},
+  {"id": "y6f47451a625", "why": "suspect key: 73rd Act does not provide DPCs (243ZD is from 74th); correct is 2 and 3 only, as in y6afbe0b5c79"},
+  {"id": "y6afbe0b5c79", "why": "garbled: previous answer's explanation merged into stem"},
+  {"id": "y542e0406fe2", "why": "wrong topic: 73rd Amendment / Panchayats"},
+  {"id": "y15fde8d5a4d", "why": "wrong topic: Nyaya Panchayats"}
+ ],
+ "patterns": [
+  "APPSC asks direct items: Twelfth Schedule function picked from Eleventh-Schedule distractors (cattle pounds), commencement date (24 Apr vs 1 Jun 1993), number of AP municipalities/corporations.",
+  "AP-count questions are year-specific (71 municipalities in 2018; 17 corporations in 2019) - answers drift with time.",
+  "Other PSCs test Article numbers (243ZD DPC, 243ZE MPC, 243S ward committees, Part IXA) and DPC/MPC composition (4/5 vs 2/3 elected).",
+  "Trap statements: 'DPC all members elected' (false); DPC is created by 74th, not 73rd; minimum age 21 not 25.",
+  "App adds Kerala/Rajasthan DPC chairs, 2026 AP cabinet decisions and ULB criticism items that APPSC has not asked."
+ ],
+ "stats": {"app_mcqs": 67, "pyqs": 43, "fixed": 0, "dropped": 2}
+}

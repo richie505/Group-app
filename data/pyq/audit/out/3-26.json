@@ -1,0 +1,39 @@
+{
+ "topic": "3:26",
+ "mcq_fix": [
+  {"id": "nc373f251049", "s": "According to Census 2011, which one of the following correctly compares Andhra Pradesh with India in sex ratio and literacy?", "why": "stem referred to unseen 'indicators cited'"},
+  {"id": "na701d0ce1ac", "s": "According to Census 2011, which State recorded the largest gap between male and female literacy rates?", "why": "stem referred to unseen 'figures given'"}
+ ],
+ "mcq_drop": [
+  {"id": "nedf669d060a", "why": "obscure trivia (ST marginal landholding %), far beyond PYQ depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8393e132593", "why": "suspect key: 2001-11 decadal growth was 17.64% (provisional), not 21.54"},
+  {"id": "ybe9791e1d7d", "why": "suspect key: 2011 female literacy ~65.5% provisional / 64.6% final, not 63.0"},
+  {"id": "y3e3364c33aa", "why": "suspect key: Kerala, not Mizoram, has highest male literacy among States; key does not fit"},
+  {"id": "y920d1b21040", "why": "garbled ('2023 Census'); suspect key: Kerala, not Mizoram, highest literacy"},
+  {"id": "yd7e4a566ced", "why": "garbled; options truncated"},
+  {"id": "y66ba004b5ee", "why": "garbled; options truncated"},
+  {"id": "yd7c794c3ece", "why": "garbled; growth figures missing"},
+  {"id": "ybcee4120acf", "why": "garbled; options lack sex-ratio values"},
+  {"id": "yf8b33705b61", "why": "garbled; options lack sex-ratio values"},
+  {"id": "y64842cc319c", "why": "garbled; options lack child sex-ratio values"},
+  {"id": "y66155bf2d22", "why": "garbled; options truncated"},
+  {"id": "ye0375f40882", "why": "garbled; options truncated"},
+  {"id": "y9d76e07aa90", "why": "garbled; options truncated"},
+  {"id": "y6c2f9ec39e3", "why": "garbled; question stem missing"},
+  {"id": "ye95772917d8", "why": "garbled; table values missing"},
+  {"id": "y0055a029c77", "why": "wrong options; stem is explanation text of another question"},
+  {"id": "ya441993c697", "why": "garbled; needs outline map"},
+  {"id": "y58dba836321", "why": "wrong topic: administrative units (district count)"}
+ ],
+ "patterns": [
+  "Single-fact Census rankings dominate: highest/lowest density (Bihar / Arunachal), sex ratio (Kerala / Haryana; UT Daman & Diu), literacy (Kerala / Bihar), only negative growth (Nagaland)",
+  "Number recall: 121.09 crore, 17.7% growth, density 382, sex ratio 943 (provisional 940), literacy 74.04% provisional; '1921 = Great Divide' asked repeatedly",
+  "APPSC tilt: AP-specific Census history (1901 population 1,30,71,874; 1911 sex ratio 992)",
+  "Traps: provisional vs final figures; State vs UT superlatives; descending-order sequence questions",
+  "App has only 22 MCQs and skips many heavily asked ranking items (child sex ratio, UT literacy, ST share, urbanisation ranks)"
+ ],
+ "stats": {"app_mcqs": 22, "pyqs": 198, "fixed": 2, "dropped": 1}
+}

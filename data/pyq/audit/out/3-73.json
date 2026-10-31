@@ -1,0 +1,102 @@
+{
+ "topic": "3:73",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {
+   "id": "nc8457f7ec28",
+   "why": "ranking of imports 3-5 contradicts the 2024-25 table (electronic components 5.1% > coal 4.31%); dubious order"
+  }
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {
+   "id": "y7d6685e4ada",
+   "why": "wrong topic: world geography - population density"
+  },
+  {
+   "id": "y49c3f138378",
+   "why": "wrong topic: international organisations (OPEC)"
+  },
+  {
+   "id": "y250c6b6b059",
+   "why": "wrong topic: world geography (Benelux)"
+  },
+  {
+   "id": "yf99b3b8e58d",
+   "why": "suspect key: China is a founder SCO member; India (non-member in 2013) is the answer; also wrong topic: international organisations"
+  },
+  {
+   "id": "y57faad91c4f",
+   "why": "wrong topic: international organisations (BRIC summit)"
+  },
+  {
+   "id": "yc5e2f5591f1",
+   "why": "wrong topic: IPR / trade marks law"
+  },
+  {
+   "id": "yf7aff6529f5",
+   "why": "wrong topic: public finance - opportunity cost"
+  },
+  {
+   "id": "y1207478fe58",
+   "why": "garbled options (numbers missing); wrong topic: international organisations (GCC)"
+  },
+  {
+   "id": "y935fee65677",
+   "why": "suspect key: China-Bangladesh; Singapore-Japan signed bilateral FTA (JSEPA) in 2002"
+  },
+  {
+   "id": "y36651f63173",
+   "why": "wrong topic: ports of India"
+  },
+  {
+   "id": "ycbbdf48e7bd",
+   "why": "garbled options (numbers missing)"
+  },
+  {
+   "id": "yc38c189ab60",
+   "why": "suspect key: electronic goods; gems and jewellery led exports in 2003"
+  },
+  {
+   "id": "ya79328b7ad0",
+   "why": "wrong topic: world population"
+  },
+  {
+   "id": "ye6fb1e52794",
+   "why": "garbled: explanation of another question merged into stem"
+  },
+  {
+   "id": "y7e3a2a10e39",
+   "why": "wrong topic: world population"
+  },
+  {
+   "id": "y9e1c22ff42d",
+   "why": "suspect key: USA; China was India's largest trading partner c. 2013-15"
+  },
+  {
+   "id": "yc3231cf81d8",
+   "why": "wrong topic: tourism"
+  },
+  {
+   "id": "y5915ebdcb48",
+   "why": "wrong topic: agriculture (cotton); suspect key: India not the leading long-staple exporter"
+  },
+  {
+   "id": "y281bbafd9dc",
+   "why": "wrong topic: environment - GHG emissions"
+  }
+ ],
+ "patterns": [
+  "Dominant shape: 'largest import/export item' or 'largest partner/source/destination' single-fact questions; POL/crude = largest import is the stock answer (APPSC 2018).",
+  "Definitions of trade terms (entrepot trade, closed economy, free trade) asked directly, including by APPSC G2.",
+  "Policy milestones recur: SEZ policy April 2000, FTP targets (3.5% share by 2020, 2 trillion by 2030), first AEFC Pune 2021, rupee settlement via Vostro accounts.",
+  "Trade surplus years 1972-73 and 1976-77 and devaluation effect (exports cheaper, imports dearer) are evergreen traps.",
+  "App MCQs lean on 2024-25 percentage tables and economic theory (J-curve, Marshall-Lerner, GTT/NTT) more deeply than PYQs, which ask rank/identity rather than exact shares."
+ ],
+ "stats": {
+  "app_mcqs": 49,
+  "pyqs": 88,
+  "fixed": 0,
+  "dropped": 1
+ }
+}

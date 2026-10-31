@@ -1,0 +1,41 @@
+{
+ "topic": "5:61",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n56aba6579b6", "why": "obscure burn-up 'units' trivia, oddly worded"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y7fcf8d9239f", "why": "garbled / wrong topic: options are professions, not the KAMINI reactor"},
+  {"id": "yd524297ef2e", "why": "suspect key: heavy water is chiefly a moderator (cf. yf030fa6eead, y522bc9f8bc6)"},
+  {"id": "yc9f30712ae7", "why": "suspect key: Satish Dhawan headed ISRO, not BARC; outdated 'present director'"},
+  {"id": "y66a6c227046", "why": "garbled"},
+  {"id": "y8a369a2747d", "why": "garbled options (truncated codes)"},
+  {"id": "yb2db328fea8", "why": "garbled (truncated options); wrong topic: general chemistry"},
+  {"id": "ye05f1368584", "why": "garbled"},
+  {"id": "y1e7699da488", "why": "wrong options: matched halves missing"},
+  {"id": "y0889862ae99", "why": "wrong topic: heat and colour"},
+  {"id": "y982a59584c8", "why": "wrong topic: inventions (laser)"},
+  {"id": "y83e297d2c64", "why": "wrong topic: laser"},
+  {"id": "ybe9ac366034", "why": "wrong topic: measuring instruments"},
+  {"id": "y5afd0e1b7bd", "why": "wrong topic: measuring devices"},
+  {"id": "ycc24256867d", "why": "wrong topic: chemistry (tear gas)"},
+  {"id": "yb6916cf005b", "why": "wrong topic: heat and thermodynamics"},
+  {"id": "y560ff4e3a55", "why": "wrong topic: seed multiplication (agriculture)"},
+  {"id": "y29d178840a0", "why": "wrong topic: atomic structure"},
+  {"id": "y5d9d16117ab", "why": "wrong topic: atomic structure"},
+  {"id": "yd2a215f3b01", "why": "wrong topic: atomic structure"},
+  {"id": "y907d1d23320", "why": "wrong topic: fundamental particles"},
+  {"id": "y5140c8cb517", "why": "wrong topic: discovery of subatomic particles"},
+  {"id": "yd295acace5e", "why": "wrong topic: particle physics"},
+  {"id": "ye4d49d94ca7", "why": "wrong topic: particle accelerators"}
+ ],
+ "patterns": [
+  "Other PSCs ask textbook one-liners: moderator = heavy water/graphite, atom bomb = fission, Sun = fusion, Nagasaki = plutonium, control rods prevent runaway, breeder makes more fuel than it burns.",
+  "APPSC items are India-programme specific: thorium bombarded gives U-233, PFBR built by BHAVINI (2024), Dhruva largest research reactor + AHWR not plutonium-based (A-R 2025), ITER statements (2022), 'breaking of nucleus is fusion' false (2019).",
+  "Recurring traps: IGCAR designs vs BHAVINI builds; AHWR uses thorium not plutonium spent fuel; fusion vs fission wording swaps; heavy water as moderator vs coolant.",
+  "App MCQs are mostly sound but lean on 2025-26 data (SHANTI Act, fleet MW, ANEEL, Kazakhstan share) and multi-statement formats more than the direct items PYQs use.",
+  "Many filed PYQs are general atomic physics/chemistry that belong to other science topics."
+ ],
+ "stats": {"app_mcqs": 63, "pyqs": 104, "fixed": 0, "dropped": 1}
+}

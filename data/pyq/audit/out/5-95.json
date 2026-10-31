@@ -1,0 +1,30 @@
+{
+ "topic": "5:95",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n1b8e884f02f", "why": "dubious/opinion: RCP8.5 'ruled out' is a contested commentary claim"},
+  {"id": "n4bdb90697cf", "why": "opinion item ('viewed primarily as')"},
+  {"id": "n9d2070a6816", "why": "opinion item on criticism of consensus procedure"},
+  {"id": "nenvironment-8-17", "why": "oddly worded: options 2 and 3 are direct negations"},
+  {"id": "n3afd162dbf0", "why": "obscure article-number trivia (Kyoto Art 10.5) beyond PYQ depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y147498fa616", "why": "wrong topic: AP Janmabhoomi-Maa Vooru programme"},
+  {"id": "y9bd68b90fa1", "why": "wrong topic: NAM summit 2009"},
+  {"id": "yff06553dcb9", "why": "garbled: explanation text merged into stem; wrong topic: Mission LiFE"},
+  {"id": "y02e6db2e69a", "why": "garbled: options mixed with other questions"},
+  {"id": "y58c8c614548", "why": "garbled: options mixed with other questions"},
+  {"id": "y5c3530c65e7", "why": "wrong topic: WHO headquarters"},
+  {"id": "y2cb454e915a", "why": "wrong topic: telehealth"},
+  {"id": "y59cc46ddb8c", "why": "wrong topic: weather/barometer"}
+ ],
+ "patterns": [
+  "APPSC asks direct identification: COP venue (COP26 Glasgow, COP24 Katowice, COP25 Madrid), GCF as UNFCCC financial operating entity, India lowest per-capita emitter.",
+  "Treaty-subject screening recurs: which agreement does not address GHGs (Basel), Kigali amends Montreal, CITES = Washington Convention.",
+  "Other PSCs favour COP-venue matches (COP27-30), carbon credit origin = Kyoto, CDM/CER = Kyoto, GCF not set up at Durban, NCQG $300 bn.",
+  "Traps: Paris targets binding on none; Kyoto binding only for Annex I; Doha 18% vs 1990 (not 2005); GCF HQ Songdo vs GEF Washington.",
+  "App MCQs carry heavy 2025-26 current-affairs detail (SB64, BRICS CBAM, COP33 bid) and policy-commentary items well beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 113, "pyqs": 37, "fixed": 0, "dropped": 5}
+}

@@ -1,0 +1,37 @@
+{
+ "topic": "4:36",
+ "mcq_fix": [
+  {"id": "n1549456385f", "o": ["Gandak — enters India at Raxaul", "Son — joins the Ganga near Maner", "Yamuna — joins the Ganga at Prayagraj", "Ramganga — joins the Ganga near Kannauj"], "why": "Farrukhabad vs Kannauj is disputed in sources; make the only wrong pair Raxaul (Gandak enters at Valmikinagar)"},
+  {"id": "n6d752a2d76f", "s": "Consider the following statements about the Ganga: 1. Its basin covers about 9,51,600 sq km in total. 2. It drains about one-fourth of India's area. 3. It is navigable only up to Farakka. Which of the statements given above are correct?", "why": "Ganga basin drains ~26% of India's area, not 40% (40% is population share)"}
+ ],
+ "mcq_drop": [
+  {"id": "n70903d9ee6a", "why": "obscure study percentage trivia"},
+  {"id": "n87b94a6b078", "why": "opinion/news-analysis item on causes of floods; oddly worded"}
+ ],
+ "notes_fix": [
+  {"ref": "16#0", "find": "drains nearly 40% of India's area", "replace": "drains about 26% of India's area (supports ~40% of its population)", "why": "established fact: Ganga basin ~8.6 lakh sq km in India = ~26% of area"}
+ ],
+ "pyq_bad": [
+  {"id": "yc66fcc9193d", "why": "garbled: glass-wool question mixed with river options"},
+  {"id": "y307328833c7", "why": "garbled: stem missing"},
+  {"id": "yfe9e14802aa", "why": "mental ability"},
+  {"id": "y93e73771d8a", "why": "mental ability (statement-conclusion)"},
+  {"id": "ye93ca446517", "why": "mental ability (statement-conclusion); duplicate"},
+  {"id": "y7e41d29501d", "why": "garbled stem/options"},
+  {"id": "ya0cd9696c0b", "why": "wrong topic: general geography (exotic river, coasts, refinery)"},
+  {"id": "y8a3dce6cdf2", "why": "suspect key: Yamuna; antecedent river among options is Brahmaputra"},
+  {"id": "y525a3214008", "why": "wrong topic: Krishna basin projects (AP-Telangana)"},
+  {"id": "y5849dbd8389", "why": "wrong topic: desert regions"},
+  {"id": "y6ce755f335b", "why": "wrong options: match partners missing"},
+  {"id": "ye81f39ea7a1", "why": "wrong options: match partners missing"},
+  {"id": "y012c868d69f", "why": "garbled: map figure missing"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact source/name items: Jhelum rises at Verinag, Tsangpo = Brahmaputra, Kishanganga -> Jhelum, river through Srinagar, rivers not from Mansarovar (Beas).",
+  "Superlatives recur: westernmost and longest Ganga tributary (Yamuna), largest riverine island (Majuli), Himalayan rivers perennial/ox-bow lakes (A-R).",
+  "Other PSCs heavily ask dam/project -> river (Tehri, Baglihar, Pong, Maithon, Gandhi Sagar) and confluence (Devprayag) items, repeated many times.",
+  "Trap shapes: left vs right bank tributaries (Son right; Subansiri/Manas right of Brahmaputra), sequence of confluences west-to-east, Sutlej originates outside India.",
+  "App adds 2026 current-affairs items (Son MoU, IIT study, GRCA) and multi-statement items; core facts align with PYQs."
+ ],
+ "stats": {"app_mcqs": 61, "pyqs": 110, "fixed": 2, "dropped": 2}
+}

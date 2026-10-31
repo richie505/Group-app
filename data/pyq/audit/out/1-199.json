@@ -1,0 +1,31 @@
+{
+ "topic": "1:199",
+ "mcq_fix": [
+  {"id": "n82b79255df4", "s": "Who was the youngest president of the Indian National Congress?", "why": "odd qualifier in stem; Azad = youngest (y63b079692e0)"}
+ ],
+ "mcq_drop": [
+  {"id": "n3ff14ea5e4d", "why": "ordering of Hume's Indian National Union vs Dec 1884 Madras meeting is ambiguous (both 1884)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y9dedebb2217", "why": "wrong topic: Hindi literature (Harivansh Rai Bachchan)"},
+  {"id": "yf1f2eb9c1a6", "why": "garbled: List-II and codes missing"},
+  {"id": "y485e5caf6a7", "why": "garbled: OCR-mangled match codes"},
+  {"id": "yb35fb6dc578", "why": "suspect key: Belgaum session was 1924, option prints 1925"},
+  {"id": "y88658b95655", "why": "garbled: truncated options; Swaraj resolution was 1906 not 1905"},
+  {"id": "y81f6162f1a6", "why": "garbled: stem carries text from a previous question"},
+  {"id": "y951f99bebef", "why": "suspect key: Madras Mahajana Sabha founded 1884, not 1880"},
+  {"id": "yc6c2fe0f7c3", "why": "wrong topic: British education policy"},
+  {"id": "yee7cd0a909c", "why": "wrong topic: Khilafat movement"},
+  {"id": "y7a8c570bc7c", "why": "wrong topic: Quit India Movement"},
+  {"id": "yedfe69f8eec", "why": "wrong topic: Congress and Second World War"}
+ ],
+ "patterns": [
+  "Dominant shape: direct one-liner on first session - venue Bombay, president W.C. Bonnerjee, 72 delegates, Hume as founder/General Secretary, Dufferin as Viceroy.",
+  "Session-president matches and 'firsts' recur: first Muslim (Tyabji 1887), first English (Yule 1888), first woman (Besant 1917), only Gandhi session (Belgaum 1924), Lahore 1929 Purna Swaraj (Nehru).",
+  "APPSC adds Andhra angle: Anandacharlu presided at Nagpur 1891; Pattabhi Sitaramayya wrote History of INC; the APPSC G1 match even carries the 'Naoroji Calcutta 1886' pair.",
+  "Pre-Congress associations asked as founder or chronology items (British Indian Association/Radhakanta Deb, Indian Association 1876/S.N. Banerjea, Poona Sarvajanik Sabha 1875 petition).",
+  "App leans heavily on multi-statement and 4-way match items about later sessions (1919-1948); PYQs are mostly single-fact, and the safety-valve historiography is barely asked beyond 'who founded'."
+ ],
+ "stats": {"app_mcqs": 91, "pyqs": 118, "fixed": 1, "dropped": 1}
+}

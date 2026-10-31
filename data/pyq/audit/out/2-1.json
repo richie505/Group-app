@@ -1,0 +1,46 @@
+{
+ "topic": "2:1",
+ "mcq_fix": [
+  {"id": "n7781e5dc44b", "o": ["He chaired the Drafting Committee of the Constituent Assembly.", "He prepared the initial draft and later served as a judge of the International Court of Justice (1952–53).", "He was the provisional president as the eldest member.", "He chaired the Assembly in its capacity as the Dominion Legislature."], "why": "B.N. Rau sat on the ICJ Feb 1952 - Nov 1953 (elected late 1951)"},
+  {"id": "n8bbd3e4781d", "s": "Direct Action Day (16 August 1946) was called by the Muslim League primarily to:", "o": ["Press its demand for Pakistan after withdrawing its acceptance of the Cabinet Mission Plan", "Oppose the adoption of Hindi as the official language", "Protest the ratification of India's Commonwealth membership", "Protest the election of Rajendra Prasad as President"], "a": 0, "why": "League resolution of 29 Jul 1946 called direct action to achieve Pakistan; interim-govt invitation was only a background trigger"}
+ ],
+ "mcq_drop": [
+  {"id": "nb3b6d7c3422", "why": "dubious trivia: Madras Estates Act (1949) was not the first law assented to by the GG after 1947"}
+ ],
+ "notes_fix": [
+  {"ref": "3#0", "find": "Order of Business / House K.M. Munshi / Mavalankar", "replace": "Order of Business / House K.M. Munshi / Pattabhi Sitaramayya", "why": "House Committee chaired by B. Pattabhi Sitaramayya (standard list)"},
+  {"ref": "12#1", "find": "House Committee G.V. Mavalankar", "replace": "House Committee B. Pattabhi Sitaramayya", "why": "standard list; Mavalankar chaired Functions Committee"},
+  {"ref": "12#1", "find": "Finance and Staff Committee Alladi Krishnaswami Ayyar", "replace": "Finance and Staff Committee Dr. Rajendra Prasad", "why": "APPSC keys y8db03bc5454, y80dfe5ae9ea"},
+  {"ref": "12#1", "find": "Constituent Assembly Functions Committee Jawaharlal Nehru", "replace": "Constituent Assembly Functions Committee G.V. Mavalankar", "why": "standard list: Committee on Functions of the CA = Mavalankar"},
+  {"ref": "11#6", "find": "International Court of Justice, 1951-52", "replace": "International Court of Justice, 1952-53", "why": "Rau served Feb 1952 - Nov 1953"},
+  {"ref": "16#2", "find": "League protest against Wavell inviting Congress to form the interim government", "replace": "League call for direct action to achieve Pakistan after rejecting the Cabinet Mission Plan", "why": "established fact (League resolution 29 Jul 1946)"}
+ ],
+ "pyq_bad": [
+  {"id": "y927fe4fca39", "why": "wrong topic: President of India"},
+  {"id": "yd5fd6b21a8f", "why": "wrong topic: President of India"},
+  {"id": "y7fb45e15605", "why": "wrong topic: President of India"},
+  {"id": "y4f70360b529", "why": "suspect key: first Finance Minister was R.K. Shanmukham Chetty, not Sarojini Naidu; wrong options"},
+  {"id": "y5d878113e9c", "why": "garbled (mixed with an unrelated railway question)"},
+  {"id": "y80dfe5ae9ea", "why": "garbled OCR (duplicate of y8db03bc5454)"},
+  {"id": "y31f4eab8b29", "why": "suspect key: Finance and Staff Committee = Rajendra Prasad (y8db03bc5454), not Nehru"},
+  {"id": "y53ce5ae4366", "why": "garbled: explanation text merged into stem"},
+  {"id": "ybfd0b2e624d", "why": "garbled: long explanation merged into stem"},
+  {"id": "ya7118c125b9", "why": "garbled: explanation merged into stem"},
+  {"id": "ybcc9942c661", "why": "wrong topic: Panchayati Raj"},
+  {"id": "y84d3d51ffb7", "why": "wrong topic: days of observance"},
+  {"id": "ya3f7c3dfd2b", "why": "mental ability"},
+  {"id": "ye675e034538", "why": "mental ability"},
+  {"id": "y319d7ba7498", "why": "wrong topic: parliamentary standing committees"},
+  {"id": "yab8adf4d94e", "why": "wrong topic: state capitals"},
+  {"id": "y01cb4233625", "why": "wrong topic: Ambedkar biography"},
+  {"id": "yb9cc6a49099", "why": "wrong topic: national symbols (State Emblem)"}
+ ],
+ "patterns": [
+  "APPSC asks committee-chairman matches heavily: Finance and Staff = Rajendra Prasad, Union Constitution / Union Powers = Nehru, FR sub-committee = Kripalani; 'Steering Committee - Nehru' as the wrong pair.",
+  "Direct date items: Drafting Committee 29 Aug 1947, National Anthem 24 Jan 1950, adoption 26 Nov 1949 (Constitution Day).",
+  "Other PSCs repeat: M.N. Roy / Swaraj Party 1934 idea, Cabinet Mission 1946, indirect election by provincial assemblies, 15 women, Sachchidananda Sinha provisional President, Rajendra Prasad elected 11 Dec 1946.",
+  "Time-taken trap: APPSC key uses 2 years 11 months 18 days.",
+  "App adds much deeper material (Interim Govt portfolios, princely accession instruments, 2026 Vande Mataram law, sub-committee chairs) and many statement/match items; PYQs are single-fact one-liners."
+ ],
+ "stats": {"app_mcqs": 73, "pyqs": 96, "fixed": 2, "dropped": 1}
+}

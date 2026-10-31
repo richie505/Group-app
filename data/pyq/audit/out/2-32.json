@@ -1,0 +1,36 @@
+{
+ "topic": "2:32",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-polity-55-52", "why": "dubious: closure applies in both Houses; only guillotine on demands is LS-specific"},
+  {"id": "n0fde95e50c5", "why": "vague 'cited assessment' statistic; obscure trivia"},
+  {"id": "nindian-polity-55-16", "why": "A/R where R merely restates A; oddly worded"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y21cca37f448", "why": "wrong topic: Enlightenment thinkers (world history)"},
+  {"id": "ya2c2c0f4fdc", "why": "mental ability"},
+  {"id": "y17ea4983b60", "why": "mental ability"},
+  {"id": "y0c905dde251", "why": "mental ability"},
+  {"id": "y9336ac1fefe", "why": "mental ability"},
+  {"id": "yb3b6a30ffee", "why": "mental ability"},
+  {"id": "y76cb2ad47d6", "why": "garbled: options mixed with other questions"},
+  {"id": "y139215c4013", "why": "garbled: truncated options"},
+  {"id": "yd43f72905fb", "why": "garbled: options lost table columns"},
+  {"id": "y53477b4784d", "why": "garbled: two questions merged; options truncated"},
+  {"id": "yadc568d2435", "why": "suspect key: Zero Hour = time immediately following Question Hour (option 4)"},
+  {"id": "y923b85db4c0", "why": "suspect key: Zero Hour is not a question-answer session"},
+  {"id": "y363d3e4a038", "why": "suspect key: SC/ST Welfare Committee is also a standing committee"},
+  {"id": "yda907d597f3", "why": "suspect key: standard figure is 20 per day (30 after 2015), not 19"},
+  {"id": "ydd0126a1df9", "why": "wrong topic: Union Budget presentation"},
+  {"id": "y2e7400a2da9", "why": "wrong topic: Union Budget presentation (duplicate)"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners: 'most powerful weapon' = no-confidence motion; time after Question Hour without notice = Zero Hour.",
+  "Committees are a big share: largest committee / no RS member = Estimates; CAG reports = PAC; PAC chair nominated by Speaker; CPU is a parliamentary financial committee.",
+  "Numbers recur: 50 members for no-confidence, PAC 22 (15+7), Estimates 30, SC/ST committee 20+10, 2G JPC 30 (20+10, P.C. Chacko).",
+  "Traps: Zero Hour not in Rules; censure needs reasons, no-confidence does not; calling attention restricted adjournment motion.",
+  "App MCQs lean heavily to multi-statement/match formats and stray into reform-committee and 2025-26 statistics trivia beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 107, "pyqs": 61, "fixed": 0, "dropped": 3}
+}

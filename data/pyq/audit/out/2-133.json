@@ -1,0 +1,25 @@
+{
+ "topic": "2:133",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "naf84e495faa", "why": "opinion item ('best reflects the criticism')"},
+  {"id": "n943f6ceb43c", "why": "dubious chronology: 'Depressed Classes' replaced in official usage with GoI Act 1935/1936 Order, not after the first list"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y764eff9ea87", "why": "garbled: long answer explanation embedded in stem"},
+  {"id": "yd7f860dc68a", "why": "wrong topic: world geography (Berbers, North Africa)"},
+  {"id": "y6d84f811884", "why": "wrong topic: e-governance"},
+  {"id": "y46ad7ffdc24", "why": "wrong topic: e-governance"},
+  {"id": "yb6a927fe14b", "why": "wrong topic: AP bifurcation / asset division"},
+  {"id": "y86886652602", "why": "garbled (stray numbers); duplicate of ye2001bdb9e3"}
+ ],
+ "patterns": [
+  "APPSC asks straight 'which Article' items: untouchability = Art. 17, educational/economic interests of SCs/STs = Art. 46.",
+  "AP-specific institutional facts appear (AP State Commission for SCs & STs Act 9 of 2003, Safai Karmachari Andolan - Bezwada Wilson).",
+  "Other PSCs test Art. 341 (President specifies SCs after consulting Governor), Part XVI scope, 1990 commission's causes of atrocities (religion not listed).",
+  "App MCQs go much deeper (sub-classification case law, NCST ranks, 131st Bill, NCRB heads, Andhra Dalit papers) than the one-line PYQs; multi-statement format dominates in the app vs single-fact in APPSC.",
+  "Traps: NCST is 338A not 338; no SC/ST seats in Rajya Sabha; relaxed qualifying marks = 82nd Amendment."
+ ],
+ "stats": {"app_mcqs": 85, "pyqs": 21, "fixed": 0, "dropped": 2}
+}

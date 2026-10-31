@@ -1,0 +1,38 @@
+{
+ "topic": "4:35",
+ "mcq_fix": [
+  {"id": "n4aede93db48", "s": "Which of the following statements regarding Minicoy and the Lakshadweep groups is correct? 1. Minicoy is the southernmost island of Lakshadweep. 2. The Amindivi group lies north of 11° N. 3. The Cannanore group lies south of 11° N. Select the correct answer using the code given below.", "why": "Andrott, not Minicoy, is the largest Lakshadweep island"}
+ ],
+ "mcq_drop": [
+  {"id": "n372f8da4827", "why": "oddly worded ('first and last positions in stated comparisons'); unverifiable district coastline trivia"}
+ ],
+ "notes_fix": [
+  {"ref": "26#1", "find": "largest and southernmost island of Lakshadweep", "replace": "southernmost island of Lakshadweep (Andrott is the largest)", "why": "established fact: Andrott is largest"}
+ ],
+ "pyq_bad": [
+  {"id": "y8f8eda43a8e", "why": "suspect key: Son and Narmada rise at Amarkantak (opt 2); Eastern Ghats keyed"},
+  {"id": "y782e6652534", "why": "mental ability"},
+  {"id": "y431f2a8172b", "why": "mental ability"},
+  {"id": "y2725dfe923d", "why": "wrong topic: handicraft centres of NE states"},
+  {"id": "y83b153eccd1", "why": "wrong topic: geothermal energy"},
+  {"id": "y3eb5d7f85c2", "why": "wrong topic: drainage patterns (world)"},
+  {"id": "yb60c55f28e2", "why": "wrong topic: tribes of NE India"},
+  {"id": "ybb7179fa831", "why": "wrong topic: national parks"},
+  {"id": "y371f36b3d32", "why": "garbled"},
+  {"id": "y4ba579695a2", "why": "garbled (explanatory text pasted into stem)"},
+  {"id": "y7b058eba1b0", "why": "garbled (options truncated)"},
+  {"id": "ye8f610ce2ac", "why": "wrong options (codes truncated)"},
+  {"id": "ye95574d90ab", "why": "wrong options (option 4 is part of the list)"},
+  {"id": "ya21e12601df", "why": "garbled (options truncated)"},
+  {"id": "y8543fa9af6c", "why": "garbled (map question, no map)"},
+  {"id": "y2245ac65b9d", "why": "wrong options: option 4 'Border security' is junk"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners: which range has Kashmir/Kangra/Kullu valleys (Himachal), Shiwalik valleys = Duns, Lakshadweep capital Kavaratti, Barren = volcanic, Luni in Indian desert.",
+  "Recurring facts: Sahyadri passes Bhorghat/Thalghat (vs Goran ghat trap), Satpura between Narmada-Tapi, Malwa in W MP + SE Rajasthan, Peninsular Plateau rich in metallic minerals, Ooty in Nilgiris.",
+  "APPSC 2022 Group-IV style uses simple match-the-following and 'select all that apply' statement items with obvious distractors (Sahara in India).",
+  "Other PSCs favour Ghats meeting point (Nilgiri), Anaimudi highest in South India, Dandakaranya states, Chota Nagpur minerals.",
+  "App MCQs are far more statement-heavy and dense (Deccan Trap thickness, structural thrust order, 2023-24 coastline remeasurement) than APPSC's direct style; AP angle (Eastern Ghats in AP, Arma Konda) is well covered."
+ ],
+ "stats": {"app_mcqs": 111, "pyqs": 129, "fixed": 1, "dropped": 1}
+}

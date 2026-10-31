@@ -1,0 +1,66 @@
+{
+ "topic": "3:109",
+ "mcq_fix": [
+  {"id": "nda7fc760efc", "s": "Which is the largest port in Andhra Pradesh by cargo volume?", "why": "Paradip, not Visakhapatnam, is the largest east-coast port by volume (~145 MT vs ~81 MT, FY24); options are all AP ports so restrict stem to AP"},
+  {"id": "nedbb96d6558", "s": "Agriculture and allied sectors accounted for what share of Andhra Pradesh GSDP in 2025-26 (Advance Estimates, current prices)?", "why": "Undated stem is ambiguous; share was 35.29% in 2024-25 and 36.19% in 2022-23 (PYQ y4edf2628f2e)"},
+  {"id": "o41a83351ae3", "s": "How many scheduled bank branches did Andhra Pradesh have as per SES 2025-26?", "why": "Undated; notes give 8,388 (Dec 2024) and 8,555 (SES 2025-26)"},
+  {"id": "o00214ea493c", "s": "What was Andhra Pradesh's credit-deposit ratio as per SES 2025-26?", "why": "Undated stem; CD ratio changes yearly"},
+  {"id": "o51bc3b2eb9e", "s": "As per SES data for the 13 old districts, which AP district leads in landline connections?", "why": "Undated; district answers change with data year and reorganisation"}
+ ],
+ "mcq_drop": [
+  {"id": "n2854fc30766", "why": "Garbled imitation of a PYQ ('which of the following is the appropriate answer... All the above') with no clear proposition"},
+  {"id": "ne30a87b16f4", "why": "CM's monthly GSDP review + AI task force: administrative trivia, not exam depth"},
+  {"id": "n518d5515d21", "why": "Convoluted mix of PO distribution and bank-density figures in one option; odd wording"},
+  {"id": "n243482b4e7f", "why": "National PLFS informality estimate: off-topic for AP GSDP and loosely sourced"},
+  {"id": "n344aab8ade0", "why": "National services index features (19 sub-sectors, 60%): off-topic trivia for this AP topic"},
+  {"id": "o4d5ff50c5a8", "why": "Whether SES was tabled in the Budget session: procedural trivia"},
+  {"id": "o982d7fe162b", "why": "Undated near-duplicate of nb1e38670053; conflicts with PYQ-era answer (Chittoor, 2016)"},
+  {"id": "n7e99710d39f", "why": "'Only year in the reported series' is ambiguous (agri also fell in other years in other series); answer depends on unstated series"}
+ ],
+ "notes_fix": [
+  {"ref": "11#1", "find": "Visakhapatnam = largest port on the east coast by volume", "replace": "Visakhapatnam = largest port in AP by volume (Paradip is the largest on the east coast)", "why": "Paradip handles far more cargo (~145 MT vs ~81 MT, FY24)"},
+  {"ref": "20#12", "find": "₹15,05,615 crore", "replace": "about ₹1.5 lakh crore (printed figure ₹15,05,615 cr exceeds AP's whole GSDP; misplaced comma)", "why": "Impossible value: larger than total GSDP of ₹14.22 lakh cr (2023-24)"}
+ ],
+ "pyq_bad": [
+  {"id": "y070ff7db686", "why": "wrong topic: Later reorganisation of states; creation of Telangana 2014"},
+  {"id": "y6990f7a7ef9", "why": "wrong topic: Later reorganisation of states; creation of Telangana 2014 (duplicate)"},
+  {"id": "y9c3c447e5a0", "why": "garbled: stray '09988' in option; duplicate of ye96fbad6dde"},
+  {"id": "ye3c9bb32a4d", "why": "wrong topic: Indian national income"},
+  {"id": "y2395ce9c4ed", "why": "wrong topic: AP agriculture extension services"},
+  {"id": "y8d66e04f1c6", "why": "wrong topic: Indian economy sectoral composition"},
+  {"id": "y1a1549c7894", "why": "wrong topic: Indian agriculture growth"},
+  {"id": "y06b6beda4d9", "why": "wrong topic: Indian economy sectoral composition"},
+  {"id": "yc77d32cdb6a", "why": "wrong topic: Indian agriculture growth"},
+  {"id": "y7c99e945b01", "why": "wrong topic: Indian agriculture growth"},
+  {"id": "y7a091813831", "why": "wrong topic: Indian agriculture growth"},
+  {"id": "yc191aaa6ca6", "why": "wrong topic: Indian Contract Act"},
+  {"id": "y6f9e420535c", "why": "wrong topic: Indian agriculture"},
+  {"id": "yb5677bad2d3", "why": "wrong topic: population and environment"},
+  {"id": "y3f6c4823918", "why": "garbled: data table pasted into stem; wrong topic: Indian economy (Economic Survey 2023-24)"},
+  {"id": "yd2f9ccfe854", "why": "garbled: variance question with data table in options; mental ability"},
+  {"id": "y1968e1a29ca", "why": "garbled: variance question with data table in options; mental ability"},
+  {"id": "y1d433993ae8", "why": "garbled: number-series reasoning, options corrupted"},
+  {"id": "y7b9aae1b725", "why": "garbled: chart-based DI, chart missing, options corrupted"},
+  {"id": "ya71f0c2fd35", "why": "garbled: no stem; options belong to a botany question"},
+  {"id": "y92dbe57da14", "why": "wrong topic: Indian fertilizer industry"},
+  {"id": "y3b66f01928c", "why": "wrong topic: India services sector; option 3 garbled"},
+  {"id": "y543b92d75f6", "why": "wrong topic: Project Arrow (postal modernisation)"},
+  {"id": "yaa6be6f5688", "why": "wrong topic: Project Arrow (postal modernisation)"},
+  {"id": "y754e6aff1ed", "why": "garbled duplicate of ye4f890b3023"},
+  {"id": "y07483ea41e1", "why": "wrong topic: school sanitation awards"},
+  {"id": "y9f692203127", "why": "wrong topic: AP IT/skills policy"},
+  {"id": "y8a194dec9bc", "why": "garbled: chart-based DI, chart missing"},
+  {"id": "yc1a9de7715f", "why": "wrong topic: India services sector"},
+  {"id": "y3a611de212b", "why": "wrong topic: India industrial growth"},
+  {"id": "y605898ce091", "why": "wrong topic: India GDP growth"},
+  {"id": "y59c6038f7aa", "why": "wrong topic: India sectoral growth"}
+ ],
+ "patterns": [
+  "APPSC asks AP economy as single-figure recall tied to a specific Survey/estimate: sector shares of GVA at current prices for a named year (2021-22 services 42%; 2022-23 36.19/23.36/40.45), 'record growth 11.43% in 2021-22', 'first in GSDP growth 2015-16', 'only state with double-digit growth 2015-16'.",
+  "Match-the-following of sector/sub-sector to growth or share (2023-24 AE growth rates; 2024-25 sub-sector GVA shares: communications 2%, construction 8%, horticulture 10%, fishing 9%) is a recurring format; options are permutations of the same numbers.",
+  "Vision documents are asked by target year (Vision 2029: most preferred investment destination by 2050; 2029 targets list) and Swarna Andhra basics (10 Padi Sutralu, P4 aim); not by rupee/dollar milestones.",
+  "Trap is always the estimate stage and price basis: livestock leads at current prices, fishing at constant; AE vs FRE figures differ, so the year+stage must match the key.",
+  "The app's coverage of figures is good, but it leans on 2026 bulletins (CM review orders, SES tabling date, national services index, PLFS) and multi-statement items mixing several Survey tables, which APPSC does not do; undated 'what is AP's X' one-liners are risky because the keyed answer changes with each Survey."
+ ],
+ "stats": {"app_mcqs": 100, "one_liners": 183, "pyqs": 52, "fixed": 5, "dropped": 8}
+}

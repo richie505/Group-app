@@ -1,0 +1,62 @@
+{
+ "topic": "4:37",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n6840bb92597", "why": "Narmada (~99k sq km) vs Kaveri (~81k sq km) 'approximately equal' is dubious"},
+  {"id": "n701afa1bc20", "why": "near-duplicate of prayag match ndd5697a78b9"}
+ ],
+ "notes_fix": [
+  {"ref": "10#1", "find": "Originates in Rajasthan's Banswara district — enters Madhya Pradesh and enters Rajasthan", "replace": "Originates in the Vindhyas near Minda (Dhar district, Madhya Pradesh) — flows through Rajasthan (Banswara) and Gujarat", "why": "Mahi rises in MP, not Rajasthan (established fact)"}
+ ],
+ "pyq_bad": [
+  {"id": "yfca89dcc41f", "why": "garbled"},
+  {"id": "yf26be37ee68", "why": "suspect key: Bhima is a Krishna tributary (option 1), not Narmada"},
+  {"id": "y94ab78ee3e9", "why": "wrong options (pairs truncated)"},
+  {"id": "yca46e781b7b", "why": "wrong options (pairs truncated)"},
+  {"id": "y722ab017adf", "why": "suspect key: Doodh Ganga is a J&K river"},
+  {"id": "y737a716c789", "why": "wrong topic: world tribes"},
+  {"id": "yc86266b5809", "why": "garbled"},
+  {"id": "y6900bd8af5c", "why": "wrong topic: world rivers (Africa)"},
+  {"id": "y20cfe36a9fe", "why": "wrong topic: Antarctic research stations"},
+  {"id": "y14abbfa8fb5", "why": "wrong topic: geological formations"},
+  {"id": "ye5edef55de2", "why": "suspect key: Kunchikal (2) usually given as highest; app follows PYQ 2025"},
+  {"id": "y2e9546dedd0", "why": "wrong options (codes truncated)"},
+  {"id": "y520b47bac27", "why": "wrong topic: scientists and inventions"},
+  {"id": "y25f048d08eb", "why": "mental ability"},
+  {"id": "y67f413ce4a5", "why": "mental ability"},
+  {"id": "y52c4616312c", "why": "wrong topic: instruments"},
+  {"id": "y9e8a5d8c07b", "why": "wrong topic: verbal/animal movements"},
+  {"id": "yf835ea85e61", "why": "wrong topic: instruments"},
+  {"id": "y1db7b2e9a43", "why": "wrong topic: verbal/animal movements"},
+  {"id": "y5f62bb86ed5", "why": "wrong options"},
+  {"id": "y33dad500131", "why": "suspect key: Godavari (3) is the standard 'Dakshin Ganga'"},
+  {"id": "y51f55cb1f33", "why": "wrong topic: AP districts by area"},
+  {"id": "ybdadebe53ea", "why": "wrong topic: AP Reorganisation Act institutes"},
+  {"id": "y3147ea0c812", "why": "wrong topic: Antarctic research stations"},
+  {"id": "ya486094f970", "why": "wrong topic: Antarctic research stations"},
+  {"id": "y945c7964f12", "why": "wrong options (pairs truncated)"},
+  {"id": "yc19049957f2", "why": "wrong options (pairs truncated)"},
+  {"id": "y8b131cd6878", "why": "wrong options (pairs truncated)"},
+  {"id": "y00ae03675bf", "why": "wrong topic: tiger reserves"},
+  {"id": "y1fc854ce8a5", "why": "wrong topic: disaster management"},
+  {"id": "y067b88cfd93", "why": "wrong topic: disaster management"},
+  {"id": "y2638b0c91d7", "why": "wrong topic: oil fields"},
+  {"id": "y48417be6482", "why": "wrong topic: irrigation projects by state"},
+  {"id": "y8795678448d", "why": "wrong options (truncated)"},
+  {"id": "yadf85b65eaf", "why": "garbled; wrong topic: sports"},
+  {"id": "y1f3cb5bdac2", "why": "wrong topic: awards"},
+  {"id": "y22084eb7a0b", "why": "wrong topic: SI units"},
+  {"id": "ycde98344ae2", "why": "garbled; wrong topic: freedom fighters"},
+  {"id": "y21cb2d4f203", "why": "garbled; wrong topic: philosophy schools"},
+  {"id": "y651a2cd7d47", "why": "garbled"},
+  {"id": "yc4426ddbafd", "why": "garbled"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners: origin (Krishna-Mahabaleshwar), largest tributary (Pranhita / Tungabhadra), second largest basin (Godavari), which river is NOT west-flowing.",
+  "AP tilt: Krishna's course (Mahabaleshwar-Sangli-Hamsaladeevi), Tungabhadra as Krishna tributary, Jayamangala-Pennar, NSTR on Krishna, Gokak falls-Ghataprabha.",
+  "Other-PSC staples: west-flowing rivers have estuaries not deltas, rift-valley Narmada/Tapi, Amarkantak sources, waterfall-river pairs, lake-state pairs.",
+  "App leans on long multi-statement and 4-pair match items and current-affairs (ILR, IWT); the exam mostly uses single-fact or short pair questions.",
+  "Trap facts: Tapi lies between Satpura and Ajanta (not Vindhya); Pranhita = Wardha + Wainganga; Kosi is left-bank; Hagari = Vedavathi joins Tungabhadra."
+ ],
+ "stats": {"app_mcqs": 102, "pyqs": 169, "fixed": 0, "dropped": 2}
+}

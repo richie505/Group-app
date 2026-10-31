@@ -1,0 +1,43 @@
+{
+ "topic": "4:52",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n14e61941f45", "why": "worded around an answer key ('as per APPSC-GS 2024 key'); sub-group count is source-dependent"},
+  {"id": "n319e9aeac49", "why": "keyed answer 'Dubba' rests on an unverified mapping; dubious"},
+  {"id": "nf55454a6726", "why": "dubious: skeletal soils described elsewhere as having no nutritive value; coffee in ASR is not a skeletal-soil fact"},
+  {"id": "n536a198866b", "why": "obscure percentage trivia (20.42%, 18.65%) far beyond PYQ depth"},
+  {"id": "n3c379db8936", "why": "obscure acronym trivia"}
+ ],
+ "notes_fix": [
+  {"ref": "13#3", "find": "Less fertile — high nitrogen", "replace": "Less fertile — poor in nitrogen", "why": "laterite is poor in nitrogen (y5251472e0b3, y66c39b72a26)"},
+  {"ref": "14#0", "find": "High Altitude and Tribal Areas Zone Anantapur, Kurnool, Nandyal; the Eastern Ghats", "replace": "High Altitude and Tribal Areas Zone Agency (tribal) tracts of the Eastern Ghats (ASR, Parvathipuram Manyam etc.)", "why": "Anantapur/Kurnool/Nandyal are Scarce Rainfall zone, not high-altitude tribal"}
+ ],
+ "pyq_bad": [
+  {"id": "y53ba62931f0", "why": "garbled; wrong topic: optics/space"},
+  {"id": "y6f5ce88fece", "why": "wrong topic: crops (cotton)"},
+  {"id": "y340df74cebe", "why": "wrong topic: plant pigments"},
+  {"id": "yc2c0a6a3d01", "why": "wrong topic: deltas of India"},
+  {"id": "y77ffea15104", "why": "wrong topic: cyclones current affairs"},
+  {"id": "y445be5d0298", "why": "wrong topic: Chhattisgarh soils; options truncated"},
+  {"id": "y14bb92e6245", "why": "suspect key: Maharashtra (not Assam) has large tracts of black cotton soil"},
+  {"id": "yf27174c954c", "why": "wrong topic: regional names (Jangal Mahal)"},
+  {"id": "y79d3d0c1d69", "why": "wrong topic: sugar industry"},
+  {"id": "yc9559b53ed3", "why": "garbled"},
+  {"id": "y5251472e0b3", "why": "garbled: options truncated"},
+  {"id": "yabd963057e8", "why": "garbled: options mixed with another question"},
+  {"id": "yd886d1745fd", "why": "wrong topic: tea plantations in Africa"},
+  {"id": "yd019339c70d", "why": "wrong topic: spices"},
+  {"id": "yb18ce0066a5", "why": "wrong topic: nutrition (parboiled rice)"},
+  {"id": "yc0c58b2ec22", "why": "wrong topic: Chhattisgarh soils"},
+  {"id": "yfc25ba0bc9b", "why": "wrong topic: state characteristics (Gujarat)"},
+  {"id": "ya12adb623ec", "why": "wrong topic: state characteristics (Gujarat)"}
+ ],
+ "patterns": [
+  "APPSC repeatedly asks one fact: red soil covers the largest area of AP (~66%) - asked in 8+ recruitment papers with near-identical wording.",
+  "Other recurring AP items: deltaic alluvium = most fertile / most important for agriculture in K-G deltas; laterite ~1%, acidic, poor fertility; skeletal soils on eroded hill slopes; black soil = Regur/Vertisols.",
+  "Trap statements: 'laterite formed in semi-arid low rainfall' (incorrect); very deep black soils in north-western Deccan.",
+  "APPSC uses short A-R and 'which are correct' items about AP soil distribution (Nallamala skeletal soils, laterite for horticulture).",
+  "App adds agro-climatic zone, scheme and survey-percentage detail (22 categories, SMWSIPDCL) well beyond what APPSC has asked."
+ ],
+ "stats": {"app_mcqs": 64, "pyqs": 81, "fixed": 0, "dropped": 5}
+}

@@ -1,0 +1,33 @@
+{
+ "topic": "5:67",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nenvironment-36-3", "why": "oddly worded ('are mentioned as'); refers to notes not facts"},
+  {"id": "nenvironment-26-5", "why": "off-topic R2 e-waste item mixed in; odd 'relevant to waste' wording"},
+  {"id": "n32fe181607a", "why": "ambiguous: Naidupalem is itself in Guntur, options 1 and 2 overlap"},
+  {"id": "na6179121b53", "why": "obscure administrative trivia, oddly worded"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ya4b37db9f79", "why": "wrong topic: algae classification (biology)"},
+  {"id": "y46ce02b1c39", "why": "wrong topic: fuel quality / octane number"},
+  {"id": "y486b4b69836", "why": "wrong topic: fuel quality / octane number"},
+  {"id": "y9cca341c151", "why": "wrong topic: rice grain chemistry"},
+  {"id": "y88acd8343ca", "why": "garbled; options from other questions"},
+  {"id": "y53bda814369", "why": "wrong topic: mine gases / chemistry"},
+  {"id": "yc8041183ed9", "why": "suspect key: LPG cooking gas is mainly butane/propane, not methane"},
+  {"id": "y56ae2c641b1", "why": "wrong topic: geomorphic forces"},
+  {"id": "y2084c7b155a", "why": "wrong topic: chemistry of water decomposition"},
+  {"id": "ybe0cbfbf5df", "why": "wrong topic: plant anatomy"},
+  {"id": "y5e221c13869", "why": "wrong topic: cellular respiration"},
+  {"id": "y0d66e47d948", "why": "garbled options"}
+ ],
+ "patterns": [
+  "APPSC asks one-line facts: first geothermal project = Ladakh (Puga), 3G bioethanol = algal biomass, gobar gas = methane / biomass energy.",
+  "Classic recurring items across PSCs: Jatropha = biodiesel crop, gasohol = petrol + ethanol, molasses -> power alcohol, SpiceJet first biofuel flight (Aug 2018).",
+  "Generations trap: 3G = algae, 4G = genetically modified algae; ethanol crop = maize/sugarcane not jatropha/pongamia.",
+  "UPSC-style statement items on NPB feedstocks and SAF feedstock appear, but APPSC itself stays at direct recall.",
+  "App MCQs lean heavily on multi-statement policy detail (NBCC, PM JI-VAN, SATAT obligations, co-firing %) far beyond PYQ depth; few direct one-liners."
+ ],
+ "stats": {"app_mcqs": 74, "pyqs": 42, "fixed": 0, "dropped": 4}
+}

@@ -1,0 +1,38 @@
+{
+ "topic": "4:28",
+ "mcq_fix": [
+  {"id": "nb2710063b3d", "s": "Consider the following as features of the Disaster Management Amendment Act, 2025: 1. Creation of national and state disaster databases 2. Statutory status for the National Crisis Management Committee 3. Mandatory State Disaster Response Force in every state 4. Strengthening of NDMA powers relating to minimum relief standards and audits Which of the above are correct?", "why": "notes 21#6: mandatory SDRF is the Force, not the Fund (Fund already exists under s.48)"}
+ ],
+ "mcq_drop": [
+  {"id": "ndisaster-management-2-13", "why": "ambiguous count: notes give both four and five phases"},
+  {"id": "ndisaster-management-26-6", "why": "oddly worded match ('advanced GIS application'); options not distinguishable"},
+  {"id": "ndisaster-management-21-8", "why": "conflicts with community-as-first-responder item; A/R dubious"},
+  {"id": "ndisaster-management-14-3", "why": "ambiguous: RSMC New Delhi also issues storm-surge guidance"},
+  {"id": "n6e92d8b066e", "why": "obscure proposal trivia, opinion-style"},
+  {"id": "n1b6ed609e3a", "why": "opinion item ('criticism or continuing challenge')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y2083d7c0d17", "why": "mental ability"},
+  {"id": "y8c391879beb", "why": "mental ability"},
+  {"id": "ya35c6804aed", "why": "wrong topic: international current affairs (Chechnya)"},
+  {"id": "y78c67ef841a", "why": "suspect key: question withdrawn by APPSC (discrepancy)"},
+  {"id": "y14580ef3729", "why": "wrong topic: water resources institutions"},
+  {"id": "y5b5661ee786", "why": "wrong topic: national institutions (remote sensing)"},
+  {"id": "yfee9e98c590", "why": "wrong topic: agricultural institutions"},
+  {"id": "yc8954e3efc4", "why": "wrong topic: mapping institutions"},
+  {"id": "y5bf541c1b7b", "why": "wrong topic: mining institutions"},
+  {"id": "y5d80c8cff25", "why": "wrong topic: water management"},
+  {"id": "y10135a112b9", "why": "wrong topic: irrigation (agriculture); key also looks off"},
+  {"id": "y62e8e304883", "why": "wrong options: item D and its description spill into options"},
+  {"id": "y4208cb269eb", "why": "wrong topic: AP police (OCTOPUS counter-terror unit)"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact years repeatedly: DM Act 2005, NPDM 2009, HPC Aug 1999, NDMA 2005/Sept 2006, first NDMP 2016, CWC flood forecasting 1958, APSDMA 2007.",
+  "Heads of bodies are a staple: NDMA = Prime Minister, DDMA = DM/Collector ('any of them'), SDMA set up by Governor under s.14(1).",
+  "Many APPSC items are conceptual one-liners on the DM cycle: risk assessment/vulnerability analysis = mitigation, non-structural mitigation = awareness, recovery not pre-disaster, IMD orange = be prepared.",
+  "GIS/remote-sensing applications appear often as 'which is INCORRECT' with an absurd overclaim option (GIS directly locates victims, completely resolves social issues).",
+  "AP angle: SEOC at Kunchanapalli, APSDMA rules 2007, NIDM southern campus near Vijayawada; app MCQs add heavy 2025-26 amendment and A/R items beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 128, "pyqs": 82, "fixed": 1, "dropped": 6}
+}

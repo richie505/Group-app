@@ -1,0 +1,53 @@
+{
+ "topic": "5:108",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n48281199efa", "why": "vague pairs ('synthetic biology - current relevance'); not a gradable fact"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y3d91250b721", "why": "wrong topic: plant pigments (lycopene)"},
+  {"id": "y50368fa7bb6", "why": "wrong topic: optics / colour mixing"},
+  {"id": "y327a16ee4ff", "why": "wrong topic: natural acids in foods (chemistry)"},
+  {"id": "yd7de628ee10", "why": "wrong topic: natural acids in foods (chemistry)"},
+  {"id": "y9b986cf12e9", "why": "wrong topic: natural acids in foods (chemistry)"},
+  {"id": "y77320660ff3", "why": "wrong topic: natural acids in foods (chemistry)"},
+  {"id": "yf8ac5ddec36", "why": "wrong topic: human physiology (muscle fatigue)"},
+  {"id": "ya0690099764", "why": "wrong topic: human physiology (muscle fatigue)"},
+  {"id": "yc766e4ddcb5", "why": "wrong topic: human physiology (muscle fatigue)"},
+  {"id": "y7e9ecd7a67c", "why": "wrong topic: genetic disorders"},
+  {"id": "y0b912eac60f", "why": "garbled: two questions and match codes merged"},
+  {"id": "y0f6ce74771d", "why": "wrong topic: solubility (chemistry)"},
+  {"id": "y400142884d6", "why": "wrong topic: viruses / microbiology"},
+  {"id": "yd3ddd4174f0", "why": "wrong topic: taxonomy / classification"},
+  {"id": "y97b5c986788", "why": "wrong topic: cell organelles"},
+  {"id": "ya94d194a9e7", "why": "wrong topic: human digestion enzymes"},
+  {"id": "ya52a0edd1d3", "why": "wrong topic: human skeleton / medical tests"},
+  {"id": "y625342f975c", "why": "wrong topic: human skeleton"},
+  {"id": "y0b51098fc2c", "why": "wrong topic: viruses / microbiology"},
+  {"id": "y7f2a28715e8", "why": "wrong topic: human respiratory system"},
+  {"id": "ya70efb68b13", "why": "wrong topic: immunity (antigen)"},
+  {"id": "y92186d72e4c", "why": "wrong topic: immunity (antigen)"},
+  {"id": "yc7bd443691f", "why": "wrong topic: immunity (antibodies)"},
+  {"id": "ya80f4aa35fc", "why": "wrong topic: livestock / dairy production"},
+  {"id": "yb06531b693f", "why": "garbled: options wrong (Lysosome for lysozyme), no key; wrong topic: human body enzymes"},
+  {"id": "y17a56f2a529", "why": "mental ability (classification)"},
+  {"id": "y81f5f8f535c", "why": "wrong topic: chemistry of acids"},
+  {"id": "yda76b7dd466", "why": "wrong topic: plant nutrition"},
+  {"id": "y4010f71787d", "why": "wrong topic: immunity"},
+  {"id": "yee2b81a4b9c", "why": "wrong topic: transition metals (chemistry)"},
+  {"id": "ycc4fc260616", "why": "wrong topic: metallurgy"},
+  {"id": "y7daf5d60481", "why": "wrong topic: human excretion"},
+  {"id": "ya2747124dd2", "why": "garbled: breed pairs missing from options"},
+  {"id": "yb860398aa14", "why": "garbled: two questions merged in stem"},
+  {"id": "y2dac698dd21", "why": "wrong topic: general GK (camel hospital)"}
+ ],
+ "patterns": [
+  "APPSC asks bioremediation as direct one-liners: definition, 'which is NOT bioremediation' (burning soil), in-situ vs ex-situ, oil spill -> bioaugmentation.",
+  "AP tilt: AMTZ (Visakhapatnam medical equipment zone), first biodiesel plant in AP (Kakinada).",
+  "Other PSCs repeat biotech FIRSTs: Dolly (sheep, 1996, Scotland, not IVF), Garima/Samrupa buffalo, Ganga Gir cow, Injaz camel, Triticale, Jaya, Flavr Savr, yeast genome 1996.",
+  "Microbe->product and acid->source items recur (Lactobacillus/curd/lactic acid, Acetobacter/vinegar, yeast/toddy/ethanol); DNA fingerprinting basis = polymorphism, uses = paternity/forensics.",
+  "App MCQs lean heavily on long statement/match items and 2026 current-affairs detail (SWM Rules, Vizag PIL, BioE3 components) far deeper than the single-fact PYQ style."
+ ],
+ "stats": {"app_mcqs": 100, "pyqs": 120, "fixed": 0, "dropped": 1}
+}

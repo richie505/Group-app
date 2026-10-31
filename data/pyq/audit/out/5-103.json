@@ -1,0 +1,44 @@
+{
+ "topic": "5:103",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n1cf419476ab", "why": "oddly worded option ('as the only framework'); no exam phrases it this way"},
+  {"id": "nenvironment-26-2", "why": "ambiguous: option 4 credits EPR origin to Plastic Rules 2011, UPSC key (ye726f5903be) says E-waste Rules 2011"},
+  {"id": "n386264bf708", "why": "unverifiable compliance statistic; opinion-style trivia"}
+ ],
+ "notes_fix": [
+  {"ref": "11#0", "find": "Introduced under the Plastic Waste Management and Handling Rules, 2011", "replace": "Introduced as an important feature under the E-waste (Management and Handling) Rules, 2011 (UPSC 2019 key)", "why": "ye726f5903be"},
+  {"ref": "2#0", "find": "Carry bags 40 microns; EPR first", "replace": "Carry bags 40 microns", "why": "ye726f5903be: EPR credited to E-waste Rules 2011"}
+ ],
+ "pyq_bad": [
+  {"id": "y7aec9ae01a4", "why": "wrong topic: chemistry (composition of substances)"},
+  {"id": "y574784000f9", "why": "wrong topic: computer basics"},
+  {"id": "yb52f6361c34", "why": "garbled: scheme aims missing from options"},
+  {"id": "y5c29c1cf04b", "why": "wrong topic: natural resources"},
+  {"id": "y56d7df3706a", "why": "garbled; wrong topic: human physiology"},
+  {"id": "yde7c4d74847", "why": "wrong topic: electricity/appliances"},
+  {"id": "yef0aca03fca", "why": "wrong topic: metals/alloys"},
+  {"id": "y9bdf42b3928", "why": "wrong topic: alloys"},
+  {"id": "yd02547f45a3", "why": "wrong topic: agriculture (herbicides)"},
+  {"id": "ya6e43421253", "why": "wrong topic: metals (galvanisation)"},
+  {"id": "y43066e9a38b", "why": "suspect key: bauxite is ore of aluminium (opt 3); also wrong topic: minerals"},
+  {"id": "ydb49dea5886", "why": "garbled; wrong topic: states of matter"},
+  {"id": "y3e0fd092606", "why": "wrong topic: forest fire management"},
+  {"id": "ya2e00742214", "why": "wrong topic: forest fire management"},
+  {"id": "y3f8095083fb", "why": "wrong topic: petroleum refining"},
+  {"id": "y4a608b64276", "why": "wrong topic: air pollution (vehicle exhaust)"},
+  {"id": "ye45277e6104", "why": "wrong topic: AP governance programmes"},
+  {"id": "y5a5c42fe3f7", "why": "wrong options: years mixed with city options"},
+  {"id": "y707a4f3178b", "why": "wrong topic: physics (semiconductors)"},
+  {"id": "yd85dea72aae", "why": "mental ability"},
+  {"id": "y3e38e8f6052", "why": "wrong topic: fibres/chemistry"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners: biodegradable vs non-biodegradable item (tin, wool, peels), zero-waste city (Indore), 3R odd-one-out ('Regain'), urban disposal methods ('all the above').",
+  "Rule-year-goal items recur: MSW Rules 2000 = segregation; PWM Amendment 2021 = SUP phase-out by 2022; EPR origin = E-waste Rules 2011 (UPSC).",
+  "Strong AP/current-affairs tilt: CLAP launch date (2 Oct 2021) incl. assertion-reason, APPCB RDF in cement kilns, Water Plus cities, Swachh Survekshan themes.",
+  "Disposal-method matching (organic-composting, e-waste-recycling, hazardous-incineration, glass-landfill) and WtE terms (pyrolysis, plasma gasification) are favourite match items.",
+  "App MCQs are far denser than PYQs: many multi-statement items on 2026 rules, EPR targets, SC orders and statistics that the exam has not yet tested at that depth."
+ ],
+ "stats": {"app_mcqs": 144, "pyqs": 68, "fixed": 0, "dropped": 3}
+}

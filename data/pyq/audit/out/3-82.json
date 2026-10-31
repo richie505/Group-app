@@ -1,0 +1,35 @@
+{
+ "topic": "3:82",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n6e0b17783cb", "why": "oddly worded opinion-style item on NPAs and transmission"},
+  {"id": "ned90ef1e02c", "why": "opinion item ('criticisms correctly stated')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y64d787ad483", "why": "wrong topic: consumption function / Keynesian macro concepts"},
+  {"id": "y8f45ab14a57", "why": "suspect key: Bank Rate policy (4) is quantitative; moral suasion is qualitative"},
+  {"id": "yd0af4862cbd", "why": "garbled: table text merged into stem"},
+  {"id": "y4fa834966be", "why": "garbled: option numbers lost"},
+  {"id": "y78733ad6065", "why": "garbled: option numbers lost"},
+  {"id": "y022f752f169", "why": "garbled: option numbers lost"},
+  {"id": "yc5ce29e75c2", "why": "garbled: merged with another question"},
+  {"id": "y9e97fdb1eec", "why": "wrong topic: sports current affairs"},
+  {"id": "yce2f6c71298", "why": "garbled: statement-code options lost (original answer 1,2,3,4)"},
+  {"id": "y6a97f560c1d", "why": "garbled: explanation text merged into stem"},
+  {"id": "yfea243b66dd", "why": "suspect key: correct is 2 and 3 only (NBFCs cannot access LAF); options garbled"},
+  {"id": "yfb561b73a53", "why": "garbled: option numbers lost"},
+  {"id": "y604161b60e9", "why": "garbled"},
+  {"id": "ydc16bc1bede", "why": "garbled: option numbers lost"},
+  {"id": "yd933fd963a5", "why": "garbled: option numbers lost"},
+  {"id": "y48cb1833123", "why": "wrong topic: RBI as banker to states; suspect key: Jammu & Kashmir"}
+ ],
+ "patterns": [
+  "APPSC asks one-line definitions: repo rate (RBI lends to banks), REPO borrowing = LAF, 'required reserve ratio' = CRR, SLR value in a review year.",
+  "Effect questions recur: raising CRR -> less money in circulation and lower demand (trap: not more lending/purchasing power); bank rate cut -> more liquidity.",
+  "Quantitative vs qualitative credit control classification is a favourite (variable reserve ratios/OMO = quantitative; margin, moral suasion, rationing = selective).",
+  "Recent APPSC Group-2 items test SDF (absorbs liquidity without collateral), I-CRR and fine-tuning ops; snapshot-rate questions tied to a policy date.",
+  "App MCQs go deeper (transmission channels, EBLR/MCLR history, stances, swaps) with many multi-statement items; APPSC is mostly direct and definitional."
+ ],
+ "stats": {"app_mcqs": 70, "pyqs": 67, "fixed": 0, "dropped": 2}
+}
