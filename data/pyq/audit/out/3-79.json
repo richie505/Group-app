@@ -1,0 +1,24 @@
+{
+ "topic": "3:79",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nd501bc186d0", "why": "ambiguous: NBFCs are incorporated under Companies Act but registered with RBI under RBI Act 1934 (both options defensible)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ya104d538dd5", "why": "garbled (stem/options mixed with another question)"},
+  {"id": "y0e6c1745bb6", "why": "garbled (options truncated, unanswerable)"},
+  {"id": "ya648cc7d213", "why": "wrong topic: price indices / CPI base year"},
+  {"id": "ye5760b737bc", "why": "wrong topic: PSUs / marketing institutions"},
+  {"id": "y9fde0979b62", "why": "suspect key: importance most reduced is Development Banks, not Pension Funds"},
+  {"id": "yccee1161326", "why": "suspect key: India had ~1,600+ UCBs in 2012, not 65"}
+ ],
+ "patterns": [
+  "Direct firsts and years dominate: IFCI 1948 = first DFI / 'beginning of development financing' (APPSC), ICICI 1955, IDBI/UTI 1964, NABARD 1982, RESIDEX 2007.",
+  "Chronological ordering of IFCI-ICICI-UTI-IDBI-NABARD and apex-institution one-liners (NABARD = agri credit apex, IDBI = industrial finance apex).",
+  "APPSC tilts to microfinance (Yunus, Malegam, NBFC-MFI NOF Rs 10 crore) and refinance institutions (MUDRA, NHB); cooperative tier levels (DCCB = district).",
+  "Statement-style NBFC vs bank traps (demand deposits, cheques, DICGC, RBI registration) appear only in newer UPSC items.",
+  "App MCQs lean heavily on 2025-26 current data (SBR layers, Tata Sons UL, RDCL, AP Grameena Bank merger, AP tribunal jurisdiction) far beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 66, "pyqs": 31, "fixed": 0, "dropped": 1}
+}

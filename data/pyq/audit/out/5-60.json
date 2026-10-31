@@ -1,0 +1,39 @@
+{
+ "topic": "5:60",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nf3da8225600", "why": "opinion item ('described as very limited in scope')"},
+  {"id": "n98037b01d54", "why": "vague opinion-style stem; near-duplicate of n47a9e5bf95d grid-battery idea"},
+  {"id": "n1866f3a6b3a", "why": "oddly worded ('ranking cited for the past ranking'); stale undated ranking"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y97ffa415036", "why": "wrong topic: mica / mineral uses"},
+  {"id": "y7d513190bec", "why": "garbled: option pairs truncated"},
+  {"id": "y9e591913e7f", "why": "wrong topic: new species / biodiversity"},
+  {"id": "y828f7d6adb1", "why": "wrong topic: new species / biodiversity (duplicate)"},
+  {"id": "ye651a81ce33", "why": "wrong topic: photosynthesis"},
+  {"id": "y4fe335595d7", "why": "wrong topic: photosynthesis"},
+  {"id": "y6896a9fb1d4", "why": "wrong topic: photosynthesis"},
+  {"id": "y51e83ac5a9f", "why": "wrong topic: photosynthesis"},
+  {"id": "yd3573c6fe2e", "why": "wrong topic: chemical kinetics"},
+  {"id": "y0437d0c08d0", "why": "wrong topic: electrostatics"},
+  {"id": "y9a208e14e21", "why": "suspect key: 'no heat loss' when electrical energy becomes motion is physically wrong"},
+  {"id": "y584328e80a1", "why": "wrong topic: thermal expansion / pendulum"},
+  {"id": "y9d163c26c76", "why": "garbled: stem missing its subject"},
+  {"id": "y0c4b0bb7ded", "why": "wrong topic: horticulture (orchids)"},
+  {"id": "y1a19050d1c5", "why": "wrong topic: electrochemistry"},
+  {"id": "yfa976964864", "why": "mental ability (numerical); wrong topic: mechanics"},
+  {"id": "y47c929d0be4", "why": "wrong topic: simple pendulum mechanics"},
+  {"id": "yacfc4649865", "why": "wrong topic: biodiversity types"},
+  {"id": "y69e97b95e98", "why": "wrong topic: ecosystems"},
+  {"id": "y4b725b414d2", "why": "wrong topic: water conservationists"}
+ ],
+ "patterns": [
+  "APPSC asks direct recall: hydro plant energy transformation = potential to electrical (APPSC 2023); Polavaram installed capacity 960 MW (APPSC 2019); dam heights in order (Tehri > Bhakra > Idukki).",
+  "Other PSCs recur on movement-leader pairs (Chipko/Gaura Devi/Chandi Prasad Bhatt, Appiko/Karnataka, NBA/Medha Patkar, Rally for the Valley = resettlement).",
+  "Device energy-conversion one-liners (dynamo, motor, battery, solar cell) are the most common shape.",
+  "App MCQs add many 2026 policy/number items (SHP outlay, CEA storage split, ISTS waiver) and thermal-plant data well beyond PYQ depth; AP project capacities are the right emphasis."
+ ],
+ "stats": {"app_mcqs": 56, "pyqs": 46, "fixed": 0, "dropped": 3}
+}

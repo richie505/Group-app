@@ -1,0 +1,31 @@
+{
+ "topic": "4:84",
+ "mcq_fix": [
+  {"id": "n6478ddec350", "s": "Which State recorded the highest inland fish landings in India in 2019-20?", "why": "stem cites exam name; no exam words it so (y9dec6903076)"}
+ ],
+ "mcq_drop": [
+  {"id": "na108cb17dcc", "why": "tests two conflicting survey figures and a meta 'same year' statement; dubious data, oddly framed"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y171323a9005", "why": "garbled: crop-disease pairs missing from options"},
+  {"id": "y12802792f81", "why": "wrong topic: ports of AP"},
+  {"id": "y5a54c78d121", "why": "wrong options: option 4 belongs to another question; no key"},
+  {"id": "y2a86b3fb076", "why": "wrong topic: rice agronomy (seed rate)"},
+  {"id": "ye9fa3a02a8a", "why": "garbled stem (stray option text from another question)"},
+  {"id": "ye7d0f712b16", "why": "wrong topic: AP district GDDP"},
+  {"id": "ybab8c456286", "why": "wrong topic: social reform movements in AP"},
+  {"id": "y803cf6fffc2", "why": "wrong topic: AP districts by area"},
+  {"id": "y17e2eafe4c7", "why": "garbled: depends on a missing map"},
+  {"id": "yba0ca2d60fd", "why": "garbled: irrigation note text pasted before an unrelated Farakka canal question"},
+  {"id": "y039e03ea7f9", "why": "wrong topic: livestock research institutes (Rajasthan)"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-line facts: AP ranks first in fish & shrimp production, highest inland fish landings (2019-20), largest district by food-crop area.",
+  "Fisheries welfare is asked as statement sets (Matsyakara Bharosa ban relief, Fisheries University district, diesel subsidy, ex-gratia) and number-of-beneficiaries items from the Socio-Economic Survey.",
+  "Irrigation is asked via CCA classes (minor <2,000 ha) and main source (canals in AP vs wells/tube wells in India) - a recurring trap.",
+  "District superlatives (largest food-crop area, best GDDP) come from APSES annexures; the app has few such items.",
+  "App MCQs lean on dated survey numbers and 2026 news (El Nino, tariffs) far more than APPSC does; keep stems direct."
+ ],
+ "stats": {"app_mcqs": 46, "pyqs": 18, "fixed": 1, "dropped": 1}
+}

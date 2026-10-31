@@ -1,0 +1,29 @@
+{
+ "topic": "2:139",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nbe79e6062ad", "why": "opinion item ('best reflects the criticism cited')"},
+  {"id": "nindian-society-31-5", "why": "oddly worded ('measures mentioned'), source-dependent"},
+  {"id": "ncfd700e4107", "why": "off-depth data-methodology trivia"},
+  {"id": "n1398de4a008", "why": "oddly worded compound 'first/unique' pairs"}
+ ],
+ "notes_fix": [
+  {"ref": "12#10", "find": "₹5.45 ₹8.17", "replace": "₹6.19 ₹9.29 (revised from 1 Dec 2024; earlier ₹5.45 / ₹8.17)", "why": "cooking cost revised by 13.7% in Nov 2024"},
+  {"ref": "15#11", "find": "matures at 21", "replace": "matures 21 years from account opening", "why": "SSY maturity is 21 years from opening, not girl's age 21"}
+ ],
+ "pyq_bad": [
+  {"id": "y76f4f8771a3", "why": "garbled stem (OCR fragments of another question)"},
+  {"id": "y6df38d25612", "why": "wrong topic: National Food Security Act"},
+  {"id": "y62cd1963b5e", "why": "wrong topic: PDS / food subsidy"},
+  {"id": "ya9daad5bee0", "why": "wrong topic: health administration (epidemics)"},
+  {"id": "y292e3b724ee", "why": "wrong topic: TB control programme (NIKSHAY)"}
+ ],
+ "patterns": [
+  "APPSC repeats ICDS functionary questions: Anganwadi Worker as grass-root ICDS functionary; NIPCCD trains CDPOs",
+  "Direct one-liners on launch facts: POSHAN Abhiyaan 2018, Mid-Day Meal 1995, Poshan Bhi Padhai Bhi launched by WCD Minister (May 2023)",
+  "Scheme-identification items: Mission Vatsalya (child protection + SDGs), ALIVA (Nayagarh, Odisha), Akshaya Patra (largest MDM NGO), Vatsalya budget 2021-22",
+  "App MCQs lean on multi-statement UPSC-style items (funding ratios, Poshan 2.0 merger, PMMVY 2.0 design) beyond APPSC's single-fact depth",
+  "Traps: ICDS vs NHM/ANM; PM POSHAN (Education) vs Poshan 2.0 (MWCD); Ujjawala vs Ujjwala"
+ ],
+ "stats": {"app_mcqs": 61, "pyqs": 19, "fixed": 0, "dropped": 4}
+}

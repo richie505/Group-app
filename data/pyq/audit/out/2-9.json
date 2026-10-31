@@ -1,0 +1,28 @@
+{
+ "topic": "2:9",
+ "mcq_fix": [
+  {"id": "nindian-society-45-12", "s": "Assertion (A): Janhit Abhiyan v. Union of India upheld economic criteria alone as a valid basis for classification. Reason (R): The case upheld the validity of the 103rd Constitutional Amendment Act providing a 10% EWS quota.", "why": "case name is Janhit Abhiyan, not 'Janki Janhit Abhiyan'"}
+ ],
+ "mcq_drop": [
+  {"id": "ne4e11eb5d0d", "why": "dubious statement 2: 2006 Act was for central institutions; Thakur left private unaided open"},
+  {"id": "n6f4e682d7a8", "why": "opinion/trivial 'criticism and debate' item"},
+  {"id": "nindian-society-9-13", "why": "off-topic and oddly worded (Arts 19-27 matched to 'social concerns')"}
+ ],
+ "notes_fix": [
+  {"ref": "14#1", "find": "Janki Janhit Abhiyan", "replace": "Janhit Abhiyan", "why": "case is Janhit Abhiyan v. Union of India (2022)"}
+ ],
+ "pyq_bad": [
+  {"id": "y8cfec0d4b0e", "why": "mental ability"},
+  {"id": "y754ed28b8da", "why": "suspect key: Rule of Law is British-derived; US-similar feature is Fundamental Rights"},
+  {"id": "y21dd58a48b3", "why": "garbled"},
+  {"id": "y2d88d94bbbc", "why": "wrong topic: Preamble"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact article mapping: Right to Equality = Art. 14 (2025), Art. 15 available to citizens only, untouchability = Art. 17.",
+  "Exclusion traps: groups not covered by Art. 15 special provisions (aged persons, APPSC 2023).",
+  "Amendment-number questions: EWS = 103rd Amendment / 124th Bill; reservation amendments 77th, 81st, 93rd (APPSC 2022).",
+  "Group-1 uses long statement items mixing Dicey's rule of law, Art. 361 and Balaji Raghavan.",
+  "App MCQs lean heavily on case-law chronology, bench splits and 2026 current affairs that APPSC PYQs rarely touch."
+ ],
+ "stats": {"app_mcqs": 62, "pyqs": 33, "fixed": 1, "dropped": 3}
+}

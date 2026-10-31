@@ -1,0 +1,31 @@
+{
+ "topic": "1:48",
+ "mcq_fix": [
+  {"id": "n138d0d35f4c", "s": "Match List-I with List-II.  List-I (Stupa or site) a. Bhattiprolu b. Jaggayyapeta c. Ghantasala d. Nagarjunakonda  List-II (Associated feature) i. Ancient port Kantakossyla ii. Oldest stupa in Andhra iii. Ikshvaku centre with more than 30 stupas iv. Relic stupa and Mandhata sculpture  Select the correct answer using the code given below:", "why": "List-II item iv mislabelled as 'a.'"},
+  {"id": "n4f55ca1906a", "o": ["British Resident at Vijayapuri", "Curator of the Amaravati Museum", "Director General of the Archaeological Survey of India", "Surveyor General of India"], "why": "Mackenzie was the first Surveyor General of India"},
+  {"id": "n414ba66c644", "s": "The Satavahana-era Cave 10 chaitya at Ajanta is known for a painting of which Jataka?", "why": "site missing; Chhaddanta painting is Ajanta Cave 10"}
+ ],
+ "mcq_drop": [
+  {"id": "n34bfc2fac75", "why": "size records contested (Sanchi 'largest', Bharhut 'most ancient'); dubious"},
+  {"id": "n52cd83a94a6", "why": "'built under Pulumavi II' is contested; ambiguous count"},
+  {"id": "n637fcae2379", "why": "contradicts PYQ yb37814e8bc2 (Dhanyakataka); 'according to key' wording"},
+  {"id": "n7e7ecde7c74", "why": "off-topic Reddi item with conflicting keys"}
+ ],
+ "notes_fix": [
+  {"ref": "16#0", "find": "Bhavaviveka Vihara at Sriparvatam (G2 2019 key; some notes: Dhanyakataka)", "replace": "Bhavaviveka Vihara at Dhanyakataka (APPSC key)", "why": "PYQ yb37814e8bc2"},
+  {"ref": "17#9", "find": "Cave 10: Shwetagaja (Chhadanta) Jataka painting (G2 2012); earliest chaitya there", "replace": "(Ajanta, not Guntupalli) Cave 10: Shwetagaja (Chhadanta) Jataka painting (G2 2012)", "why": "Chhaddanta painting is in Ajanta Cave 10"}
+ ],
+ "pyq_bad": [
+  {"id": "y9b5e694ce01", "why": "wrong topic: AP irrigation projects (Nagarjunasagar dam)"},
+  {"id": "y9860041e0c0", "why": "wrong topic: AP current affairs / cabinet 2022"},
+  {"id": "yb37814e8bc2", "why": "wrong options: options 3-4 belong to an Eastern Chalukya question"}
+ ],
+ "patterns": [
+  "APPSC asks direct single-fact items: tutelary deity (Hariti), who enlarged Amaravati (Vasishthiputra), acharya-vihara, sect-centre pairs.",
+  "'Wrong pair' questions on Buddhist sects/ancient names (Purvasaila, Aparasaila, Siddharthaka-Guntupalli) are a recurring trap.",
+  "Other PSCs ask symbol-event (wheel = first sermon), chaitya vs vihara, Ayaka pillars = Amaravati, Karle = largest Hinayana chaitya.",
+  "App leans heavily on multi-statement and 'how many correct' formats and on secondary-note trivia (size records, Thotlakonda survey), deeper than APPSC.",
+  "App includes off-topic patronage/Reddi items filed here."
+ ],
+ "stats": {"app_mcqs": 63, "pyqs": 12, "fixed": 3, "dropped": 4}
+}
