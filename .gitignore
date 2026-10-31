@@ -29,4 +29,5 @@ work/
 pdfs/
 data/pyq/audit/in/
 data/pyq/all.jsonl
-data/pyq/audit/out/*.json  # while the audit runs; added with git add -f when it ends
+# while the PYQ audit runs (results are added with git add -f when it ends)
+data/pyq/audit/out/*.json
