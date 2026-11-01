@@ -144,6 +144,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
     // the magnifier: Google for the MCQ on screen, in a sheet from the bottom
     val shown = remember { mutableStateOf<Question?>(null) }
     var searching by remember { mutableStateOf(false) }
+    var explaining by remember { mutableStateOf(false) } // opened from the explanation: its text can replace it
 
     Column(Modifier.fillMaxSize().background(Color.White)) {
         TopBar(title, onBack = nav::back) {
@@ -162,7 +163,16 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
             kotlinx.coroutines.delay(700)
             results?.load(com.appsc.prep.ui.components.googleUrl(com.appsc.prep.ui.components.mcqQuery(q)))
         }
-        if (searching) shown.value?.let { McqSearchSheet(it, results, ai) { searching = false } }
+        if (searching) shown.value?.let { q ->
+            McqSearchSheet(
+                q, results, ai,
+                startAi = explaining,
+                onUse = if (explaining) { text ->
+                    // kept as the reader's correction of this MCQ (undo / share it like any other)
+                    app.store.setEdit(q.id, com.appsc.prep.data.McqEdit(q.stem, q.options, q.answer, text.trim(), q.kind == 'u' && q.answer < 0))
+                } else null,
+            ) { searching = false; explaining = false }
+        }
         if (pool == null) {
             Loading()
             return@Column
@@ -200,6 +210,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
                     canEdit = canEdit,
                     editOpen = editOpen,
                     shown = shown,
+                    onGoogleExplain = { explaining = true; searching = true },
                 )
             }
         }
@@ -217,6 +228,7 @@ internal fun QuizRound(
     canEdit: androidx.compose.runtime.MutableState<Boolean>? = null,
     editOpen: androidx.compose.runtime.MutableState<Boolean>? = null,
     shown: androidx.compose.runtime.MutableState<Question?>? = null,
+    onGoogleExplain: (() -> Unit)? = null,
 ) {
     val app = LocalApp.current
     val store = app.store
@@ -310,13 +322,20 @@ internal fun QuizRound(
                                 if (answered) {
                                     Spacer(Modifier.height(8.dp))
                                     UnscoredNote(q)
+                                    if (onGoogleExplain != null) {
+                                        Text(
+                                            "Add Google's explanation ›",
+                                            style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
+                                            modifier = Modifier.padding(top = 10.dp).clickable { onGoogleExplain() },
+                                        )
+                                    }
                                 } else HintBox(q) { revealed += q.id }
                             }
                             else -> {
                                 q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
                                 if (answered) {
                                     Spacer(Modifier.height(8.dp))
-                                    Explanation(q, picked == q.answer, picked, onOpenNotes)
+                                    Explanation(q, picked == q.answer, picked, onOpenNotes, onGoogleExplain)
                                 } else HintBox(q) { revealed += q.id }
                             }
                         }
@@ -466,7 +485,7 @@ private fun UnscoredNote(q: Question) {
 }
 
 @Composable
-private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes: (Int, Int, Int) -> Unit) {
+private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes: (Int, Int, Int) -> Unit, onGoogle: (() -> Unit)? = null) {
     Column(
         Modifier
             .fillMaxWidth()
@@ -522,6 +541,13 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes:
             review.forEach {
                 Text("• $it", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
             }
+        }
+        if (onGoogle != null) {
+            Text(
+                "Replace this explanation with Google's ›",
+                style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
+                modifier = Modifier.padding(top = 10.dp).clickable { onGoogle() },
+            )
         }
         if (q.notes.isNotEmpty()) {
             Spacer(Modifier.height(10.dp))

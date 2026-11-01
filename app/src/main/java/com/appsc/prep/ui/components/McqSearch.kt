@@ -53,15 +53,36 @@ import com.appsc.prep.data.Question
 import com.appsc.prep.ui.theme.C
 
 /** Code options ("1 and 2 only", "Both A and B", "All of the above") say nothing to a search engine. */
-private val CODE = Regex("""(?i)^\(?(?:[1-6a-d]|i{1,3}|iv)\)?(?:\s*(?:,|and|&|-|–)\s*\(?(?:[1-6a-d]|i{1,3}|iv)\)?)*\s*(?:only)?$|^only\s+\w+$|^(?:both|neither|none|all)\b|of the above""")
+private val CODE = Regex("""(?i)^\(?(?:[1-6a-d]|i{1,3}|iv)\)?(?:\s*(?:,|and|&|-|–)\s*\(?(?:[1-6a-d]|i{1,3}|iv)\)?)*\s*(?:only)?$|^only\s+\w+$|^(?:all|none) of (?:the )?(?:above|these)$|^(?:both|neither|all|none)\b.{0,25}$|of the above|more than one|^[A-D]\s*[-–]\s*\d""")
 
-/** What to search for an MCQ: its question (without the "select the code" line) and options that carry facts. */
+/** Exam wording that tells a search engine nothing ("Which of the following statements is/are correct?"), line by line. */
+private val BOILER = listOf(
+    """(?i)\bwhich (?:one )?of the (?:followings?|above|statements?(?:/s|\(s\))?|pairs?)(?: statements?(?:/s|\(s\))?| pairs?| events?)?(?: given(?: above| below)?)?(?: is| are| is/are)?(?: not)?(?: correctly matched| incorrectly matched| correct| incorrect| true| false| wrong)?\b\s*[?:]?""",
+    """(?i)\b(?:statements?(?:/s|\(s\))?\s+)?(?:is|are|is/are)\s+(?:not\s+)?(?:correctly matched|incorrectly matched|correct|incorrect|true|false|wrong)\b\s*[?:.]?""",
+    """(?i)\bconsider the following(?: statements?| pairs?| events?| items?)?\s*[:-]?""",
+    """(?i)\b(?:select|choose|find|identify|mark)\s+the correct\s+(?:chronological |locational |geographical )?(?:answer|code|option|sequence|order|statements?|one)\b(?: of (?:the )?(?:following|above|events?|their \w+))*""",
+    """(?i)\b(?:with the help of|using|from|by using) the cod(?:es?|ing scheme) given(?: below| at the end)?\s*[:.-]?|\bcodes?\s*[:-]""",
+    """(?i)\bhow many of the (?:above|following)[^?]{0,60}\??""",
+    """(?i)\barrange the following in (?:the )?(?:correct )?(?:chronological )?order\s*[:.-]?""",
+    """(?i)\bwith (?:reference|regard) to\b|\bregarding\b|\bin (?:the context of|reference to|regards? to)\b""",
+    """(?i)\bstatement[- ]?(?:I{1,2}|[12AB])\s*[:.-]|\b(?:assertion|reason)\s*\(?[AR]\)?\s*[:.-]""",
+    """^\s*\(?(?:[1-6]|[a-fA-F]|i{1,3}|iv|v|vi|I{1,3}|IV|V|VI)[.)]\s""",
+    """(?:^|\s)\(?(?:[1-6]|[a-f]|i{1,3}|iv|v|vi)[.)]\s""",
+).map { Regex(it) }
+
+/**
+ * What to search for an MCQ: the question's topic and facts, without the exam's set phrases (Google reads about
+ * 32 words, and "Which of the following statements is/are correct" swamps them), plus options that carry facts.
+ */
 fun mcqQuery(q: Question): String {
-    val stem = q.stem.lines().map { it.trim() }
-        .filterNot { Regex("(?i)^(?:select|choose) the correct|^codes?\\s*[:-]?$").containsMatchIn(it) }
-        .joinToString(" ").replace(Regex("\\s+"), " ").trim()
+    val s = q.stem.lines().joinToString(" ") { line ->
+        var l = line
+        BOILER.forEach { l = it.replace(l, " ") }
+        l
+    }.replace(Regex("[\\s,;:]+"), " ").trim().trim('?', '.', '-', '–', ' ')
     val opts = q.options.map { it.trim() }.filterNot { CODE.containsMatchIn(it) }
-    return (if (opts.isEmpty()) stem else "$stem ${opts.joinToString(" / ")}").take(900)
+    val words = (s.split(' ') + if (opts.isEmpty()) emptyList() else opts.joinToString(" ").split(' ')).filter { it.isNotBlank() }
+    return words.take(32).joinToString(" ").ifBlank { q.stem.replace(Regex("\\s+"), " ").take(200) }
 }
 
 /** The whole MCQ as a question for an AI answer (Google AI Mode, Gemini): which option is right, and why. */
@@ -75,10 +96,17 @@ fun mcqPrompt(q: Question): String =
  * preloaded while the question shows) and Google's AI Mode answering the whole MCQ ([ai]).
  */
 @Composable
-fun McqSearchSheet(q: Question, results: WebHolder?, ai: WebHolder?, onClose: () -> Unit) {
+fun McqSearchSheet(
+    q: Question,
+    results: WebHolder?,
+    ai: WebHolder?,
+    startAi: Boolean = false,
+    onUse: ((String) -> Unit)? = null,
+    onClose: () -> Unit,
+) {
     val platform = LocalApp.current.platform
     val scope = rememberCoroutineScope()
-    var aiTab by remember(q.id) { mutableStateOf(false) }
+    var aiTab by remember(q.id) { mutableStateOf(startAi) }
     var told by remember(q.id) { mutableStateOf<String?>(null) }
     val url = if (aiTab) googleAiUrl(mcqPrompt(q)) else googleUrl(mcqQuery(q))
     val holder = if (aiTab) ai else results
@@ -147,6 +175,34 @@ fun McqSearchSheet(q: Question, results: WebHolder?, ai: WebHolder?, onClose: ()
                 val page = Modifier.fillMaxWidth().weight(1f).background(Color.White)
                 if (holder != null) key(aiTab) { holder.Show(page) }
                 else key(url) { platform.WebPage(url, page, back, null) }
+                if (onUse != null && holder != null) {
+                    @Suppress("DEPRECATION")
+                    val clipboard = androidx.compose.ui.platform.LocalClipboardManager.current
+                    var empty by remember { mutableStateOf(false) }
+                    var picking by remember { mutableStateOf<Pair<List<String>, Boolean>?>(null) } // paragraphs, first one selected
+                    picking?.let { (all, first) ->
+                        PickText(all, preselect = if (first) 0 else -1, verb = "Use", onAdd = { picking = null; onUse(it); close() }) { picking = null }
+                    }
+                    HorizontalDivider(color = C.Line)
+                    if (empty) {
+                        Text(
+                            "Nothing to take yet - wait for the answer to load, then tap again.",
+                            style = TextStyle(fontSize = 13.sp, color = C.High),
+                            modifier = Modifier.padding(start = 16.dp, end = 16.dp, top = 8.dp),
+                        )
+                    }
+                    androidx.compose.material3.Button(
+                        onClick = {
+                            holder.pageText { page ->
+                                val chosen = page.selection.ifBlank { clipboard.getText()?.text.orEmpty() }.trim()
+                                val all = (listOfNotNull(chosen.takeIf { it.isNotBlank() }) + page.paragraphs).distinct()
+                                if (all.isEmpty()) empty = true else { empty = false; picking = all to chosen.isNotBlank() }
+                            }
+                        },
+                        modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
+                        colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Green),
+                    ) { Text("Use as this MCQ's explanation", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
+                }
             }
         }
     }

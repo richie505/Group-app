@@ -58,6 +58,9 @@ interface WebHolder {
 
     @Composable
     fun Show(modifier: Modifier)
+
+    /** What is selected on the page (or was last) and its paragraphs ([WebText]). */
+    fun pageText(done: (WebText) -> Unit) = done(WebText("", emptyList()))
 }
 
 interface Platform {

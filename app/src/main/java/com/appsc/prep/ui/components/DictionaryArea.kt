@@ -376,13 +376,13 @@ fun GooglePage(
 
 /** The page's paragraphs with a tick box each; [preselect] (the selected or copied text) starts ticked. */
 @Composable
-fun PickText(paragraphs: List<String>, preselect: Int, onAdd: (String) -> Unit, onClose: () -> Unit) {
+fun PickText(paragraphs: List<String>, preselect: Int, verb: String = "Add", onAdd: (String) -> Unit, onClose: () -> Unit) {
     val ticked = remember(paragraphs) { androidx.compose.runtime.mutableStateListOf<Int>().apply { if (preselect >= 0) add(preselect) } }
     androidx.compose.ui.window.Dialog(onDismissRequest = onClose) {
         androidx.compose.material3.Surface(shape = androidx.compose.foundation.shape.RoundedCornerShape(16.dp), color = Color.White) {
             Column(Modifier.fillMaxWidth().padding(vertical = 12.dp)) {
                 Text(
-                    "Tick what to add to your notes",
+                    if (verb == "Add") "Tick what to add to your notes" else "Tick what to use",
                     style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = C.Ink),
                     modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
                 )
@@ -403,7 +403,7 @@ fun PickText(paragraphs: List<String>, preselect: Int, onAdd: (String) -> Unit, 
                     androidx.compose.material3.TextButton(
                         enabled = ticked.isNotEmpty(),
                         onClick = { onAdd(ticked.sorted().joinToString("\n") { paragraphs[it] }) },
-                    ) { Text(if (ticked.isEmpty()) "Add" else "Add (${ticked.size})") }
+                    ) { Text(if (ticked.isEmpty()) verb else "$verb (${ticked.size})") }
                 }
             }
         }

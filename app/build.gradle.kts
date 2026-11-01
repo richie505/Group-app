@@ -14,8 +14,8 @@ android {
         applicationId = "com.appsc.prep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 97
-        versionName = "2.86"
+        versionCode = 98
+        versionName = "2.87"
     }
 
     signingConfigs {

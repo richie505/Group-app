@@ -146,8 +146,8 @@ class AndroidPlatform(private val context: Context) : Platform {
         )
     }
 
-    private companion object {
-        const val GEMINI_APP = "com.google.android.apps.bard"
+    companion object {
+        private const val GEMINI_APP = "com.google.android.apps.bard"
 
         const val WATCH_SELECTION = "if(!window.__prepSel){window.__prepSel=1;document.addEventListener('selectionchange'," +
             "function(){var s=String(window.getSelection());if(s.trim())PrepApp.selected(s);});}"
@@ -161,15 +161,24 @@ class AndroidPlatform(private val context: Context) : Platform {
 
 
 /** One WebView for the MCQ search, kept between opens; [load] can run before it is on screen. */
-@android.annotation.SuppressLint("SetJavaScriptEnabled")
+@android.annotation.SuppressLint("SetJavaScriptEnabled", "JavascriptInterface")
 private class AndroidWebHolder(ctx: Context) : WebHolder {
+    private var last = "" // the latest selection: the copy menu clears it before a button is tapped
     val web = android.webkit.WebView(ctx).apply {
         settings.javaScriptEnabled = true // Google's pages need it
         settings.domStorageEnabled = true
         settings.cacheMode = android.webkit.WebSettings.LOAD_DEFAULT
         settings.setSupportZoom(false)
         isVerticalScrollBarEnabled = true
-        webViewClient = android.webkit.WebViewClient() // links open here, not in Chrome
+        addJavascriptInterface(object {
+            @android.webkit.JavascriptInterface
+            fun selected(text: String) { if (text.isNotBlank()) last = text }
+        }, "PrepApp")
+        webViewClient = object : android.webkit.WebViewClient() { // links open here, not in Chrome
+            override fun onPageFinished(view: android.webkit.WebView, url: String?) {
+                view.evaluateJavascript(AndroidPlatform.WATCH_SELECTION, null)
+            }
+        }
         // the page scrolls by itself: the sheet around it must not take the drag
         setOnTouchListener { v, e ->
             if (e.actionMasked == android.view.MotionEvent.ACTION_DOWN) v.parent?.requestDisallowInterceptTouchEvent(true)
@@ -177,6 +186,17 @@ private class AndroidWebHolder(ctx: Context) : WebHolder {
         }
     }
     private var current = ""
+
+    override fun pageText(done: (WebText) -> Unit) {
+        web.evaluateJavascript(AndroidPlatform.PAGE_TEXT) { r ->
+            val text = runCatching {
+                val o = org.json.JSONObject(org.json.JSONArray("[$r]").getString(0))
+                val ps = o.getJSONArray("p")
+                WebText(o.getString("s").trim(), List(ps.length()) { ps.getString(it) })
+            }.getOrDefault(WebText("", emptyList()))
+            done(if (text.selection.isBlank()) text.copy(selection = last.trim()) else text)
+        }
+    }
 
     override fun load(url: String) {
         if (url == current) return

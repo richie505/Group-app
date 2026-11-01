@@ -177,6 +177,24 @@ class CompleteTest {
     }
 
     /** planmcq.json matches the plan and the MCQs shipped (tools/build_plan_mcq.py). */
+    /** The magnifier's Google search works for every MCQ: a real query, no exam set phrases left in it. */
+    @Test fun everyMcqHasAGoodSearch() {
+        val repo = Repository { ctx.assets.open(it) }
+        val all = runBlocking { (1..6).flatMap { b -> repo.mcq(b).rows.values.flatten() } }.distinctBy { it.id }
+        val bad = mutableListOf<String>()
+        val left = Regex("(?i)which of the following|is/are correct|select the correct|using the code|consider the following")
+        val out = StringBuilder()
+        all.forEachIndexed { i, q ->
+            val s = com.appsc.prep.ui.components.mcqQuery(q)
+            val words = s.split(' ').filter { it.isNotBlank() }
+            if (words.size < 3 || words.size > 32 || left.containsMatchIn(s)) bad += "${q.id}\t$s"
+            if (i % 400 == 0) out.append(q.id).append('\t').append(s).append('\n')
+            assertTrue(com.appsc.prep.ui.components.googleUrl(s).length < 2000)
+        }
+        java.io.File("build/mcq-search-sample.txt").writeText(out.toString() + "\nBAD ${bad.size}\n" + bad.take(200).joinToString("\n"))
+        assertTrue("${bad.size} of ${all.size} MCQs search badly, e.g. ${bad.take(5)}", bad.size * 1000 < all.size) // under 0.1%
+    }
+
     @Test fun planMcqFileIsCurrent() {
         val repo = Repository { ctx.assets.open(it) }
         val books = runBlocking { (1..6).associateWith { repo.mcq(it) } }
