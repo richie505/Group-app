@@ -1,0 +1,23 @@
+{
+ "topic": "5:50",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n11a63c83b88", "why": "oddly worded ('keyed as its stated aim in UPSC'); UPSC y497ca6cd250 keyed all three statements correct"},
+  {"id": "nccdf6cf3da3", "why": "ambiguous: Rafale is widely reported as nuclear-capable, so statement 2 is not clearly false"}
+ ],
+ "notes_fix": [
+  {"ref": "14#2", "find": "UPSC 2026 keyed as correct only: aims to enhance air defence, BMD and aerial offensive capabilities", "replace": "UPSC 2026 keyed all three statements correct: air defence/BMD/aerial offensive capability, rapid precise defence responses, nationwide shield over public places by 2035", "why": "y497ca6cd250 ANS 1 (1, 2 and 3)"}
+ ],
+ "pyq_bad": [
+  {"id": "ybfe1b7b1a8e", "why": "wrong topic: animal husbandry (poultry breeds)"},
+  {"id": "y0c2de675683", "why": "garbled: option codes truncated ('and 2 only')"},
+  {"id": "y64d60b8b38f", "why": "garbled: option 2 truncated"}
+ ],
+ "patterns": [
+  "APPSC asks bare facts: date of first Pokhran test (May 1974), nuclear-bomb trigger (Krytron).",
+  "Other PSCs: code names (Smiling Buddha, Operation Shakti), Pokhran-II date 11 May 1998, Pokhran in Rajasthan, doctrine contents (NFU, moratorium, credible minimum deterrence).",
+  "Regime questions: India not NPT signatory because discriminatory; joined HCoC; recognised NPT nuclear states.",
+  "App is heavily current-affairs and technical (Arihant-class tonnage, BMD tiers, Project Kusha) - well above APPSC PYQ depth but mostly sound."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 17, "fixed": 0, "dropped": 2}
+}

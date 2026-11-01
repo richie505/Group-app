@@ -1,0 +1,25 @@
+{
+ "topic": "2:66",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-polity-54-11", "why": "near-duplicate of nc53faefb4ec (National Front, V.P. Singh, outside support)"},
+  {"id": "nb1c95a23cfa", "why": "stem relies on unstated context ('the meeting referred to'); oddly worded"},
+  {"id": "n4db5454a7cc", "why": "vague opinion item ('federalism more bargained after')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ydc0bd8143fc", "why": "wrong topic: district administration (Collector)"},
+  {"id": "yfc4563df8fb", "why": "garbled: match options lost"},
+  {"id": "y01141c3fd06", "why": "wrong options: dates belong to another question"},
+  {"id": "yfb284a78b1b", "why": "wrong topic: international current affairs (UK election)"},
+  {"id": "yadf21a9c66d", "why": "garbled: stem/options mixed with other questions' explanations"},
+  {"id": "y4e9961d716e", "why": "suspect key: R (people blame parties) does not explain A"}
+ ],
+ "patterns": [
+  "APPSC G1 asks interpretive one-liners on party-system change (BJP's rise, first coalition govt, UPA partners, AP Congress' lowest seat tally 1994).",
+  "Scholar -> term is a recurring trap: Rajni Kothari credited with 'one-party dominant system / Congress system' in PSC keys.",
+  "Election milestones: 1967 (State coalitions, SVD; Bihar most), 1977 first non-Congress govt, 1989 end of Congress system with INC still largest party.",
+  "Assertion-reason items on Indian party system are common in UP PSCs; app uses more statement/match items with Lok Sabha seat data and 2026 current context."
+ ],
+ "stats": {"app_mcqs": 30, "pyqs": 20, "fixed": 0, "dropped": 3}
+}

@@ -1,0 +1,35 @@
+{
+ "topic": "3:18",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "na7869497b4d", "why": "opinion item on criticism of indices; options 2 and 3 are wording-level opposites"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0f25f31f8bd", "why": "wrong topic: business studies (social objective of business)"},
+  {"id": "y8293bdb15d4", "why": "wrong topic: world population"},
+  {"id": "ycec527dfb64", "why": "wrong topic: world population; suspect key: Indonesia > Brazil > Pakistan > Nigeria = option 4, not 3"},
+  {"id": "y9786f41a2f5", "why": "wrong topic: UN organs (UNSC)"},
+  {"id": "y51403624bef", "why": "wrong topic: UN agencies HQ (UNICEF)"},
+  {"id": "y68ae4ff801e", "why": "wrong topic: G20"},
+  {"id": "yda2ca905994", "why": "wrong topic: world tourism"},
+  {"id": "y2c4c79be696", "why": "wrong topic: ILO conventions on child labour"},
+  {"id": "y82e39c1e1c5", "why": "garbled: options truncated; wrong topic: growth policy"},
+  {"id": "y20aed20efef", "why": "garbled: unrelated text fused into stem"},
+  {"id": "y34b70c0bd98", "why": "garbled: ICAR text fused into stem"},
+  {"id": "ybf33d28e7df", "why": "garbled: B-READY text fused into stem; duplicate of y860fe89fd5f"},
+  {"id": "y7398d19eec0", "why": "garbled: 2026 WEF note fused into stem"},
+  {"id": "y841f4f5dcc7", "why": "garbled: option numbers lost ('and 2', 'and 3')"},
+  {"id": "y9cc70e2c5f9", "why": "garbled: option numbers lost ('and 2', 'and 3')"},
+  {"id": "ya8a317332f5", "why": "wrong options: ranks missing from match options"},
+  {"id": "y148208009d7", "why": "garbled: starting rank missing from every option"}
+ ],
+ "patterns": [
+  "Most PYQs are report -> publisher one-liners (Doing Business = World Bank; GCR, Gender Gap, TTCI = WEF; WEO, GFSR = IMF; Wage, Social Protection = ILO; HDI = UNDP).",
+  "APPSC adds India's/AP's rank items: Doing Business 77 (2018), rank climb, AP 1st in state EoDB; World Air Quality Report 63 of 100 cities.",
+  "APPSC G1 2022 trap: Agriculture Orientation Index is FAO, not IFPRI; Doing Business 'ready reckoner for foreign investors', paying taxes weakest.",
+  "Other PSCs ask year-specific India ranks in WHR and GHI - volatile numbers; app rightly keeps components (GHI 4, WHR 6, GII 7 pillars) instead.",
+  "App MCQs are fewer and well aligned; many PYQs filed here are mis-sorted general-UN/world items."
+ ],
+ "stats": {"app_mcqs": 23, "pyqs": 62, "fixed": 0, "dropped": 1}
+}

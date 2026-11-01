@@ -1,0 +1,22 @@
+{
+ "topic": "4:12",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ngeneral-geography-5-77", "why": "oddly built match list (rows mix examples and categories)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y83633c6036f", "why": "wrong topic: physics/chemistry - changes of state"},
+  {"id": "ya66f90fe8d1", "why": "wrong topic: botany (dendrochronology)"},
+  {"id": "ydced0df338b", "why": "wrong topic: plate tectonics / continental drift"},
+  {"id": "y882d8585cab", "why": "wrong topic: lakes/wetlands (Loktak phumdis)"},
+  {"id": "y55fd5d6deeb", "why": "garbled: seismic-zone pairs missing from options; wrong topic: earthquakes"}
+ ],
+ "patterns": [
+  "APPSC asks gorge vs canyon (statement form: 'gorges are extended canyons' is the trap), canyon in upper course, badland = Chambal basin.",
+  "AP angle: delta alluvial soils formed by river deposition; Gandikota canyon on Pennar (UPSC).",
+  "Other PSCs: Grand Canyon (Colorado), largest delta Ganga-Brahmaputra/Sundarbans, Tapti forms an estuary, dendritic pattern in plains.",
+  "App MCQs are textbook-sound; it adds generic landform-type items (mountains, karst, desert) and some 'how many' counts beyond PYQ style."
+ ],
+ "stats": {"app_mcqs": 39, "pyqs": 17, "fixed": 0, "dropped": 1}
+}

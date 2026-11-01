@@ -1,0 +1,32 @@
+{
+ "topic": "1:219",
+ "mcq_fix": [
+  {"id": "n486739e4923", "s": "Which one of the following provided a common factor for tribal revolts in 19th-century India?", "why": "odd 'broader interpretation' wording; align with y3eb66daf02f"}
+ ],
+ "mcq_drop": [
+  {"id": "n7db63359aec", "why": "List-II items 1 and 3 identical, so the match is ambiguous"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yc213ad7bce4", "why": "garbled: match pairs truncated"},
+  {"id": "y9772d43a0c4", "why": "garbled: years missing from options"},
+  {"id": "y29193a414ee", "why": "garbled: years missing from options"},
+  {"id": "y746d4c81d60", "why": "garbled: years missing from options"},
+  {"id": "y305172bd346", "why": "garbled: years missing from options"},
+  {"id": "yc4bc6763b56", "why": "garbled: stem truncated"},
+  {"id": "yefab22a8fa9", "why": "wrong topic: bonded labour / Hali system (social reform)"},
+  {"id": "yd397719219a", "why": "wrong topic: Moplah / peasant rebellions"},
+  {"id": "y57b87953d85", "why": "wrong topic: indigo revolt / Neel Darpan"},
+  {"id": "y6f1a0fd25ff", "why": "wrong topic: indigo revolt / Neel Darpan"},
+  {"id": "y5686fb5072e", "why": "wrong topic: indigo revolt / Neel Darpan"},
+  {"id": "y57fca7be467", "why": "wrong topic: peasant movements (Deccan Riots)"},
+  {"id": "y90f70c01edb", "why": "wrong topic: awards"}
+ ],
+ "patterns": [
+  "Mostly leader-revolt identification: Santhal = Sidhu-Kanhu; Munda/Ulgulan = Birsa; Kol = Budhu Bhagat; Tana Bhagat = Jatra Oraon (1914).",
+  "APPSC tilt: Rampa revolt (1922, Madras Forest Act 1882, Alluri), Rekapalli 1879 forest-law revolt, Paharias and Santhals in the Rajmahal Hills, Paika = Odisha.",
+  "Year-matching and chronology items (Santhal 1855-56; Indigo, Deccan Riots, Sepoy Mutiny sequence) and 'not correctly matched' revolt-year pairs.",
+  "The app matches the shape well but adds deep AP local-leader detail (Chandrayya, Ambul Reddy, police stations) beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 41, "pyqs": 47, "fixed": 1, "dropped": 1}
+}

@@ -1,0 +1,24 @@
+{
+ "topic": "3:17",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "neacff55947d", "why": "confusing stem: 'companion to HPI in HDR 1995' though HPI came in 1997"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y77dcd642162", "why": "wrong topic: demographic features of population"},
+  {"id": "yc21c8a29468", "why": "wrong topic: sports current affairs (SEA Games)"},
+  {"id": "yf27dcb32835", "why": "wrong topic: AP welfare/housing schemes (INDIRAMMA)"},
+  {"id": "y72a8bd054c6", "why": "wrong topic: AP welfare/housing schemes (INDIRAMMA)"},
+  {"id": "ya9922d6a7f7", "why": "wrong topic: international financial institutions (IDA)"},
+  {"id": "y7740dd8f252", "why": "garbled options (numbers missing); suspect key: all three statements true for NITI MPI"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: MPI (2010) replaced HPI; GDI/GEM indicate gender inequality; National MPI estimated by NITI Aayog (G2 2025).",
+  "Global MPI 2018 data recur in APPSC G2: 271 million out of poverty (2005-06 to 2015-16), Bihar poorest state.",
+  "Other PSCs test year of introduction (HPI 1997, GII HDR 2010) and MPI dimensions/indicators (standard-of-living indicator odd-one-out).",
+  "Statement traps: MPI is not '$1 a day'; National MPI does use Alkire-Foster; MPI = headcount x intensity (not sum); rural decline larger than urban.",
+  "App covers these well but adds deeper NITI 2023/2024 figure-heavy statements than PYQs show."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 27, "fixed": 0, "dropped": 1}
+}

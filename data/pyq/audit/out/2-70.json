@@ -1,0 +1,24 @@
+{
+ "topic": "2:70",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-polity-26-13", "why": "odd A/R: two parallel civil-court powers, no causal link to test"},
+  {"id": "n095af040395", "why": "statement 1 (ToR straight from Constitution, no Central directives) dubious; 16th FC ToR also added disaster-financing review"},
+  {"id": "nindian-polity-26-11", "why": "dubious date trivia (6 April 1952); first FC constituted 22 Nov 1951"}
+ ],
+ "notes_fix": [
+  {"ref": "10#5", "find": "14th FC distribution: 2011 population (90%) + area (10%)", "replace": "14th FC distribution: income distance 50%, population 1971 17.5%, population 2011 10%, area 15%, forest cover 7.5%", "why": "established 14th FC criteria"}
+ ],
+ "pyq_bad": [
+  {"id": "y3cdb27a987d", "why": "wrong topic: sports current affairs (ISL)"},
+  {"id": "y97fa8f0b137", "why": "wrong topic: emergency provisions"}
+ ],
+ "patterns": [
+  "APPSC asks direct facts: Article 280 (trap Art. 290), who appoints the Chairman, 14th FC award period and 42% share",
+  "AP angle recurs: AP's share under 14th FC (4.305%), base year of 14th FC",
+  "Statement-type 'incorrect statement' items on composition (Chairman + 4), advisory/quasi-judicial nature",
+  "Other PSCs ask chairmen of specific FCs (Neogy, Rangarajan 12th, N.K. Singh 15th) and qualifications set by Parliament",
+  "App leans heavily on 16th FC numeric details (grants, criteria weights) far beyond PYQ depth, which is mostly single-fact"
+ ],
+ "stats": {"app_mcqs": 34, "pyqs": 17, "fixed": 0, "dropped": 3}
+}

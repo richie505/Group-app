@@ -1,0 +1,24 @@
+{
+ "topic": "3:62",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n2d74e9b298e", "why": "oddly worded (cites India Year Book estimate); near-duplicate of contribution data item n5d1ddbf33ed"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y198dcd8b731", "why": "wrong topic: RIDF / NABARD rural infrastructure"},
+  {"id": "ybff3bfad27b", "why": "suspect key: under MSMED 2006 a small manufacturing unit is Rs 25 lakh-5 crore (option 3), not 5-10 crore"},
+  {"id": "yafde3e45c40", "why": "suspect key: small-scale industry is part of manufacturing; question is ill-posed"},
+  {"id": "yf0f4d98e2e0", "why": "suspect key: micro turnover limit is Rs 5 crore, not 15 crore; options truncated"},
+  {"id": "yd65e5003da4", "why": "mental ability: data interpretation"},
+  {"id": "yc8eb37eff25", "why": "garbled: stray text from another question in stem"}
+ ],
+ "patterns": [
+  "APPSC asks the definition basis directly: small enterprise = investment AND annual turnover (2024); 1950 SSI ceiling Rs 5 lakh (2022); SIDBI set up 1990 (2019).",
+  "APPSC current-affairs hooks: SIDBI-SVC Co-operative Bank partnership (July 2022).",
+  "Other PSCs: SIDBI HQ Lucknow, KVIC HQ Mumbai, Abid Hussain = abolish reservation, CGTMSE full form, Stand-Up India = women/SC/ST, latest classification 2020.",
+  "Problems of SSI asked as 'all of the above' (capital, marketing, raw material); strikes/lockouts is the odd one out.",
+  "App heavy on 2025-26 statistics and Budget items; APPSC stays at definitions, institutions and one-line scheme facts."
+ ],
+ "stats": {"app_mcqs": 47, "pyqs": 21, "fixed": 0, "dropped": 1}
+}

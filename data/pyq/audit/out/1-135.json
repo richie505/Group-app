@@ -1,0 +1,29 @@
+{
+ "topic": "1:135",
+ "mcq_fix": [
+  {"id": "n88e6610a43b", "s": "The Golden Firman of 1632, issued by Abdullah Qutb Shah, primarily granted which of the following?", "why": "Golden Firman year is 1632 (y1634bea8329, APPSC 2023)"}
+ ],
+ "mcq_drop": [
+  {"id": "neeef6715550", "why": "dubious: 1665 falls in Aurangzeb's reign, so 'Dutch exemptions from Shah Jahan in 1665' cannot be correct as keyed"},
+  {"id": "ndf4af58e655", "why": "dubious causal 'best explains' item (Aurangzeb's wars as cause of a post-1750 decline)"}
+ ],
+ "notes_fix": [
+  {"ref": "5#1", "find": "1636 — Golden Firman", "replace": "1632 — Golden Firman", "why": "y1634bea8329 (APPSC 2023): Golden Firman granted 1632"},
+  {"ref": "15#3", "find": "Golden Firman 1636", "replace": "Golden Firman 1632", "why": "y1634bea8329 (APPSC 2023)"},
+  {"ref": "5#2", "find": "1652 / 1665 — Shah Jahan's exemptions: English / Dutch", "replace": "1651-52 — Shah Shuja's nishan (Shah Jahan's reign): English duty-free trade in Bengal for Rs 3,000 a year", "why": "1665 is Aurangzeb's reign; Shah Jahan could not grant it"},
+  {"ref": "15#3", "find": "Shah Jahan's exemptions 1652, 1665 Duty exemptions to English (1652) and Dutch (1665)", "replace": "Shah Shuja's nishan 1651-52 English duty-free trade in Bengal for Rs 3,000 a year (Shah Jahan's reign)", "why": "1665 is Aurangzeb's reign"}
+ ],
+ "pyq_bad": [
+  {"id": "yb774ba026d1", "why": "wrong topic: Mughal central administration (Mir Bakshi)"},
+  {"id": "y88f59e346ab", "why": "wrong topic: prehistoric metallurgy"},
+  {"id": "y6937485159e", "why": "garbled: pair options truncated"}
+ ],
+ "patterns": [
+  "APPSC asks single-term definitions: hundi (letter of credit by shroffs), Banjaras (bulk long-distance traders), share of produce marketed (~15%).",
+  "AP-tilt items: Golden Firman of Golconda (1632), Tavernier and the Golconda/Kollur diamond mines, Masulipatnam as Qutb Shahi port.",
+  "Book-author matching (Moreland, Habib, Bernier, Foster) and traveller identification (Manucci the Venetian artilleryman/physician, Pelsaert under Jahangir).",
+  "Coin terms recur across PSCs: dam = copper, khazana = coins of previous reign; Surat = Bab-ul-Makka.",
+  "App MCQs add many match lists on traders, ports and firmans - sound overall but a few firman dates were wrong in the notes."
+ ],
+ "stats": {"app_mcqs": 50, "pyqs": 22, "fixed": 1, "dropped": 2}
+}

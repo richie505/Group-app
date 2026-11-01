@@ -1,0 +1,26 @@
+{
+ "topic": "5:39",
+ "mcq_fix": [
+  {"id": "nb3f5051ce0a", "s": "Match List-I with List-II and select the correct answer using the code given below the lists:  List-I (Satellite group) a. INSAT-3DS and Kalpana-1 b. Oceansat series c. RISAT, Cartosat, EMISAT and EOS-N1 d. GSAT-19, GSAT-29, GSAT-11 and GSAT-N2  List-II (Application domain) i. Broadband  ii. Weather monitoring  iii. Strategic surveillance  iv. Ocean studies", "why": "stem duplicated the answer codes"}
+ ],
+ "mcq_drop": [
+  {"id": "n55287be86bc", "why": "oddly worded ('all the launches referred to ... are stated to take place')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0d41baf29b6", "why": "garbled stem"},
+  {"id": "y082508e1412", "why": "suspect key: visible light cannot penetrate cloud; microwave/radio (option 4) is correct"},
+  {"id": "yae770ac0b0d", "why": "wrong topic: physics (TV remote infrared)"},
+  {"id": "y45ee36723f5", "why": "wrong topic: physics (TV remote infrared)"},
+  {"id": "y2cd85648ec2", "why": "wrong topic: physics (scattering of light)"},
+  {"id": "y36d353818ea", "why": "wrong topic: astronomy (light-year)"},
+  {"id": "ya9eadc5e471", "why": "wrong topic: communication satellites / GSLV launches"}
+ ],
+ "patterns": [
+  "APPSC tests remote-sensing basics: active sensor = laser, infrared sensors for volcanic heat, non-components/non-resolutions as traps ('minimisation', 'chemical').",
+  "Direct identification: first mapping satellite = Cartosat-1, geo-imaging = EOS-03, NISAR = NASA-ISRO, INFFRAS, MODIS full form.",
+  "Navigation-system owner match (Galileo = EU, GLONASS = Russia) recurs as 'incorrect pair'.",
+  "App adds many 2025-26 launch/failure details (EOS-05, NVS-02, NavIC clocks) and multi-statement items deeper than PYQs."
+ ],
+ "stats": {"app_mcqs": 47, "pyqs": 27, "fixed": 1, "dropped": 1}
+}

@@ -1,0 +1,25 @@
+{
+ "topic": "3:54",
+ "mcq_fix": [
+  {"id": "nfc97649f557", "s": "Consider the following statements about the Andhra Pradesh Land Titling Act: 1. It sought to make the State the guarantor of land titles. 2. It sought to move Andhra Pradesh from conclusive titling to presumptive titling. 3. It was repealed by the coalition government in 2024. Which of the statements given above is/are correct?", "why": "AP Land Titling (Repeal) Act passed by the new NDA government in July 2024, not Jan 2026"}
+ ],
+ "mcq_drop": [
+  {"id": "nd6752f094ae", "why": "obscure pilot-rollout trivia, oddly worded options"}
+ ],
+ "notes_fix": [
+  {"ref": "5#7", "find": "Repealed Jan 2026", "replace": "Repealed 2024 (coalition govt)", "why": "repeal bill passed by AP Assembly July 2024"},
+  {"ref": "12#0", "find": "Repealed by the coalition government (Jan 2026)", "replace": "Repealed by the coalition government (2024)", "why": "repeal bill passed by AP Assembly July 2024"}
+ ],
+ "pyq_bad": [
+  {"id": "y23f3d6b649e", "why": "wrong topic: Aadhaar / UIDAI"},
+  {"id": "yd6eb40f49ee", "why": "wrong topic: banking terms (PIN)"},
+  {"id": "yaa8406a9413", "why": "wrong topic: e-governance maturity model; options truncated"}
+ ],
+ "patterns": [
+  "APPSC asks AP e-governance platforms by name: CARD = computerised land registration (with Mee-Seva, Spandana as distractors).",
+  "Other PSCs ask the launch year of NLRMP (2008) - simple year recall.",
+  "Expected APPSC items: SVAMITVA ministry (Panchayati Raj), launch date (24 Apr 2020), abadi-only coverage; ULPIN 14-digit.",
+  "App leans on 2025-26 progress percentages and AP pilot details (Mee Bhoomi, QR passbooks) far beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 5, "fixed": 1, "dropped": 1}
+}

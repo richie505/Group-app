@@ -1,0 +1,22 @@
+{
+ "topic": "5:32",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n8760aa88f65", "why": "dubious: Puttaswamy noted the Srikrishna committee; it did not direct enactment of a law"},
+  {"id": "nd1f2a03f3f8", "why": "obscure commentary debate, beyond exam depth"},
+  {"id": "n6df11c2d770", "why": "obscure Delhi HC case trivia"}
+ ],
+ "notes_fix": [
+  {"ref": "7#10", "find": "Directed government to enact a data-protection law", "replace": "Took note of the government's expert committee (Justice Srikrishna) on a data-protection law; later followed by", "why": "the judgment did not direct enactment; established fact"}
+ ],
+ "pyq_bad": [
+  {"id": "ye4b8cf3d8a1", "why": "wrong topic: English grammar"}
+ ],
+ "patterns": [
+  "PYQs here are few and direct: privacy flows from Art. 21 + Part III freedoms (UPSC 2018); GDPR adopted by EU April 2016, applied 25 May 2018.",
+  "Expect APPSC single-fact items: Puttaswamy bench size (9, unanimous, 2017), DPDP Act year (2023), maximum penalty Rs 250 crore, Data Protection Board.",
+  "App MCQs are heavily multi-statement and current-affairs driven (DPDP Rules 2025 phases, RTI amendment litigation), deeper than PYQs show.",
+  "Traps: Aadhaar 5-judge 4:1 vs Puttaswamy 9-judge unanimous; GDPR Art. 17 vs DPDP Sec. 12; PUCL (1997) for interception safeguards."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 4, "fixed": 0, "dropped": 3}
+}

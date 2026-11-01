@@ -1,0 +1,27 @@
+{
+ "topic": "2:103",
+ "mcq_fix": [
+  {"id": "n4a79aa7826c", "s": "Consider the following statements about the All India Trade Union Congress (AITUC): 1. It is India's oldest central trade union. 2. It was founded in 1947. 3. N.M. Joshi was one of its co-founders. Which of the statements given above is/are correct?", "why": "statement 1 cited an answer key instead of a fact; answer unchanged (yfe74afcfb93)"}
+ ],
+ "mcq_drop": [
+  {"id": "n3f148ce3943", "why": "stem quotes an answer key; 'observationalists' is not a standard term"},
+  {"id": "ne8e5993e301", "why": "opinion item ('best describes a criticism')"},
+  {"id": "nd05198725d7", "why": "opinion/debate statements, not a factual test"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y9dc6c199bee", "why": "wrong topic: awards (Indira Gandhi Peace Prize); suspect key: 2003 prize went to Kofi Annan"},
+  {"id": "y264e1384ed9", "why": "wrong topic: scheme convergence in administration"},
+  {"id": "y09cb8a1c971", "why": "mental ability (data interpretation)"},
+  {"id": "y7367dd90464", "why": "wrong topic: water resources (NWDA)"},
+  {"id": "y19a210be589", "why": "wrong topic: media basics (multimedia definition)"}
+ ],
+ "patterns": [
+  "APPSC asks founding facts (N.M. Joshi set up AITUC in 1920) and definitional items (lobbying, NGOs' role, pressure group examples).",
+  "Identify-the-pressure-group trap: trade union members yes; MPs, cabinet, panchayat members no.",
+  "Movement-leader matching (Chipko-Bahuguna, NBA-Medha Patkar, Appiko-Hegde) with a wrong pair to spot.",
+  "FCRA asked through a current case (PHFI, lobbying); Press Council as statutory quasi-judicial body.",
+  "App adds many 2026 FCRA rule details and opinion-style civil-society statements; PYQs stay single-fact."
+ ],
+ "stats": {"app_mcqs": 41, "pyqs": 11, "fixed": 1, "dropped": 3}
+}

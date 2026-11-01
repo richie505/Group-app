@@ -1,0 +1,25 @@
+{
+ "topic": "5:38",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n3661dcd4bb1", "why": "opinion/interpretive 'most directly illustrates' on a current-affairs anecdote"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y5ef6568d969", "why": "wrong topic: computer basics / time units"},
+  {"id": "y330168f965a", "why": "mental ability (clock angle)"},
+  {"id": "ye20bfec61e2", "why": "wrong topic: solar storms / space weather (also has stray source text in stem)"},
+  {"id": "y85158e83e06", "why": "wrong topic: solar storms / space weather"},
+  {"id": "y67271b748d9", "why": "garbled: options truncated ('only', 'and 2 only')"},
+  {"id": "y0d9befedd2f", "why": "garbled: options truncated ('only', 'and 2 only')"},
+  {"id": "y3d8aea09d9b", "why": "garbled: options truncated (duplicate of yc06a68f2ea9)"},
+  {"id": "y95af285ea8b", "why": "wrong topic: general science (atomic clock)"}
+ ],
+ "patterns": [
+  "APPSC asks only direct current-affairs facts here, e.g. which firm made the first NavIC-based device (Elena Geo Systems, 2023).",
+  "Other exams ask for the NavIC full form, the IRNSS orbit split (3 GEO + 4 geosynchronous) with regional, not global, coverage, the GAGAN purpose (accuracy + integrity, not aviation-only) and launch site Sriharikota.",
+  "Traps: 'global coverage' for NavIC, GAGAN 'only aviation', inflated coverage areas.",
+  "The app goes far deeper (clock failures, NVS-02 orbit, IRNSS-1F 2026 status, SBAS ground segment), mostly in multi-statement format; this is heavier than the APPSC depth but factually sound."
+ ],
+ "stats": {"app_mcqs": 25, "pyqs": 16, "fixed": 0, "dropped": 1}
+}

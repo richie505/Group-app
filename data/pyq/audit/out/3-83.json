@@ -1,0 +1,21 @@
+{
+ "topic": "3:83",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "12#7", "find": "6 members = 3 from RBI + 3 from Government", "replace": "6 members = 3 from RBI + 3 external members appointed by the Central Government", "why": "external members are not Government officials (Sec 45ZB)"}
+ ],
+ "pyq_bad": [
+  {"id": "y03284827d8a", "why": "wrong topic: political science (pressure groups)"},
+  {"id": "ybd8745ed6e4", "why": "wrong topic: sports (Chess Olympiad)"},
+  {"id": "y87195553846", "why": "garbled (passage + stray question number); wrong topic: G7/G8"},
+  {"id": "ycc778f11ec0", "why": "wrong topic: inflation trends (WPI 2009-10); suspect key: WPI was high, not negative, Oct 2009-Feb 2010"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: year RBI Act amended for FIT (2016), MPC fixes the repo rate, target = 4%, and a definition item ('inflation targeting').",
+  "Other PSCs test who fixes the target (Government of India, not RBI) and the Urjit Patel Committee as origin.",
+  "Traps to expect: 45ZA vs 45ZB, three consecutive quarters vs months, meets at least 4 (not 6) times a year.",
+  "App MCQs add repo-rate histories and 2026 data (CPI base 2024, AP inflation) beyond PYQ depth; structure/section items are at the right level."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 8, "fixed": 0, "dropped": 0}
+}

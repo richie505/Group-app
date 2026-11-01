@@ -1,0 +1,20 @@
+{
+ "topic": "5:4",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n66ffe44e68b", "why": "opinion/debate item on a policy proposal, not an exam-style fact"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y2e04c28790c", "why": "wrong topic: literature / Satyajit Ray (Feluda character)"},
+  {"id": "y46483d75217", "why": "garbled: several questions (waste disposal, CO, DBT institute) merged; options mixed"},
+  {"id": "ye37f55a0597", "why": "wrong topic: Jain temples / Gujarat (Palitana)"}
+ ],
+ "patterns": [
+  "APPSC asks 'headquarters of X' location items: NEERI = Nagpur (asked twice) and CCMB = Hyderabad.",
+  "APPSC-G2 2025 asked 'which is a DBT institute' (CIAB) with CSIR labs as distractors (CFTRI, CGCRI, CCMB), and the steel slag road (CRRI, NH-66) as a statement question.",
+  "Other PSCs ask for lab locations (CDRI/CIMAP Lucknow, NCL Pune, NPL New Delhi, CSMCRI Bhavnagar, CECRI Karaikudi not Kolkata) and lab products (Saheli = CDRI; Hansa = NAL trainer aircraft).",
+  "The app adds founding years, scheme names (PRISM, PACE, A2K+), BRIC/ANRF governance and 2026 news, mostly as 3-4 statement items. This is deeper than APPSC's single-fact location style."
+ ],
+ "stats": {"app_mcqs": 31, "pyqs": 14, "fixed": 0, "dropped": 1}
+}

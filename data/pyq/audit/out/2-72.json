@@ -1,0 +1,33 @@
+{
+ "topic": "2:72",
+ "mcq_fix": [
+  {"id": "n2058d7ccab1", "s": "Who is the present Attorney General of India?", "why": "odd wording 'as stated for September 2026'"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-polity-32-3", "why": "ambiguous A/R: R merely cites the Article, explanation link unclear"},
+  {"id": "nindian-polity-32-7", "why": "ambiguous A/R: R restates content of A's Article"},
+  {"id": "n2fe09298d5f", "why": "opinion item ('best reflects the criticism')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y9cbc90b3c0a", "why": "garbled: options truncated"},
+  {"id": "ye2a9bc10458", "why": "wrong topic: advisory jurisdiction of the Supreme Court"},
+  {"id": "y1a4483bcbbb", "why": "garbled options (truncated statement codes)"},
+  {"id": "y8d5dc215539", "why": "wrong topic: Supreme Court judges"},
+  {"id": "yee543d5a6cb", "why": "wrong topic: presidential election disputes"},
+  {"id": "ycec15df4d32", "why": "garbled: statements merged with another question's text"},
+  {"id": "yac1867ed320", "why": "wrong topic: Governor; options truncated"},
+  {"id": "y5f845aa14a4", "why": "wrong topic: Governor (Art. 160)"},
+  {"id": "ye7310745139", "why": "suspect key: AG has MP privileges (Art. 105(4)), so neither statement is correct"},
+  {"id": "y3570d10a4b8", "why": "wrong topic: sports (Durand Cup)"},
+  {"id": "y3ab414c73e9", "why": "wrong topic: political history (slogan)"}
+ ],
+ "patterns": [
+  "APPSC repeatedly asks 'highest/first law officer of India' = Attorney General (not CJI or Law Minister).",
+  "Statement items: appointed by President, SC-judge qualification, right of audience = correct; pleasure of PM, fixed term, Parliament-set pay = wrong.",
+  "Right to participate in Parliament without vote (Art. 88) = AG, not SG/CJI/CEC - frequent one-liner.",
+  "State counterpart = Advocate General (Art. 165), legal adviser to State Government.",
+  "App mirrors these well but adds several weak A/R items and Article-pair matches beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 28, "pyqs": 31, "fixed": 1, "dropped": 3}
+}

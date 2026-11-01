@@ -1,0 +1,31 @@
+{
+ "topic": "5:9",
+ "mcq_fix": [
+  {"id": "nfc5ded9b3fd", "o": ["S. N. Bose", "Meghnad Saha", "C. V. Raman", "J. C. Bose"], "why": "typo 'V. Raman' in option 3"},
+  {"id": "nd47b100ecff", "o": ["C. V. Raman, Homi Bhabha, Tagore and Mahendra Lal Sircar only", "Homi Bhabha, Albert Einstein, Paul Dirac and Ramanujan", "J. C. Bose, Meghnad Saha, S. N. Bose and C. V. Raman", "Ramanujan, Einstein, Saha and NASA scientists only"], "why": "typo 'V. Raman' in option 1"}
+ ],
+ "mcq_drop": [
+  {"id": "n47993dbb25e", "why": "opinion/debate trivia ('Matilda effect') beyond exam depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yf6e6382007a", "why": "suspect key: National Science Day (28 Feb) marks C.V. Raman's Raman effect, not Bhabha"},
+  {"id": "yc184d52d009", "why": "garbled; reasoning item, not on scientists"},
+  {"id": "y30c398266d9", "why": "garbled: options belong to another question"},
+  {"id": "y7bb043dd7f1", "why": "garbled: another question's text merged into stem"},
+  {"id": "y39f31cac132", "why": "wrong topic: India's joint military exercises"},
+  {"id": "y20380f9819a", "why": "wrong topic: physics (inertia)"},
+  {"id": "yfb45d827d9e", "why": "wrong topic: chemistry (Dalton's atomic theory)"},
+  {"id": "y25980ec08ab", "why": "wrong topic: physics (nature of light)"},
+  {"id": "y6ac2bb234d2", "why": "wrong topic: physics branches"},
+  {"id": "y856c304c28e", "why": "wrong topic: history of institutions (dental college)"},
+  {"id": "yebe5628f191", "why": "wrong topic: scientific instruments"}
+ ],
+ "patterns": [
+  "Single-fact 'who/what' items dominate: plants have life = J.C. Bose, thermal ionisation = Saha, father of atomic energy = Bhabha, 'The Man Who Knew Infinity' = Ramanujan.",
+  "APPSC asks first-woman items (first Indian woman science PhD = Kamala Sohonie) and discoverer one-liners (radioactivity = Becquerel; Radio Astronomy Centre = Ooty).",
+  "World-physicist discoveries recur (nucleus = Rutherford, photoelectric effect = Hertz, relativity = Einstein).",
+  "App leans on multi-statement honours/years sets and title-match lists; exam keeps to one name per question."
+ ],
+ "stats": {"app_mcqs": 40, "pyqs": 34, "fixed": 2, "dropped": 1}
+}

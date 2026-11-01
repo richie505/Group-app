@@ -1,0 +1,33 @@
+{
+ "topic": "3:55",
+ "mcq_fix": [
+  {"id": "nccf0a990f5f", "s": "Consider the following statements about priority sector lending (PSL) targets: 1. The overall PSL target for domestic banks is 40% of Adjusted Net Bank Credit (ANBC). 2. The agriculture target is 18% of ANBC, of which 14% is earmarked for small and marginal farmers. 3. The overall PSL target for Regional Rural Banks is 75% of ANBC. Which of the statements given above is/are correct?", "why": "RBI cut SFB overall PSL target to 60% (June 2025, from FY 2025-26); keep statement 3 true for RRBs only"}
+ ],
+ "mcq_drop": [
+  {"id": "n22097118cce", "why": "obscure regional credit-share percentages, far beyond PYQ depth"},
+  {"id": "ncf106b51f23", "why": "obscure MISS regional-distribution statistic"},
+  {"id": "n4d243a27e9b", "why": "obscure EAC-PM paper details"}
+ ],
+ "notes_fix": [
+  {"ref": "6#0", "find": "RRBs & SFBs 75%", "replace": "RRBs 75%; SFBs 60% (from FY 2025-26)", "why": "RBI reduced SFB PSL target from 75% to 60% (June 2025)"},
+  {"ref": "17#1", "find": "Overall (RRBs and SFBs, May 2026) 75%", "replace": "Overall (RRBs) 75%; SFBs 60% (from FY 2025-26)", "why": "RBI reduced SFB PSL target from 75% to 60% (June 2025)"}
+ ],
+ "pyq_bad": [
+  {"id": "y74d5838cb91", "why": "garbled options + suspect key: medium-term credit is 15 months to 5 years, not <3 months"},
+  {"id": "y4a952160755", "why": "suspect key: NABARD (refinance) is the non-direct source, not SBI"},
+  {"id": "y8680293ed3b", "why": "wrong topic: bank credit card schemes"},
+  {"id": "y648ca741ada", "why": "wrong topic: urban sex ratio / demography"},
+  {"id": "yb987099a9cf", "why": "wrong topic: Miss India (general awareness)"},
+  {"id": "y99147c82aa9", "why": "wrong topic: prepaid payment instruments"},
+  {"id": "y57fe6e2fb60", "why": "wrong topic: banking terminology (smart money)"},
+  {"id": "y7f651bf6a20", "why": "garbled stem + wrong topic: Rashtriya Gokul Mission / livestock"}
+ ],
+ "patterns": [
+  "APPSC asks committee-recommends items: NABARD <- Sivaraman (CRAFICARD), RRBs <- Narasimham (1975)",
+  "Recurring one-liners: RRBs sponsored by scheduled commercial banks; Land Development Banks are part of the cooperative credit structure; NABARD full form / refinance role",
+  "Other PSCs: NABARD 1982, KCC 1998-99, LDB = long-term credit (first at Jhang 1920), commercial banks are the largest agri-credit source, RIDF administered by NABARD",
+  "App MCQs go deep into MISS, PSL sub-targets, KCC 2026 directions and regional data - far beyond the institutional/committee recall PYQs test",
+  "Trap: NABARD refinances (not direct to farmers); Sivaraman (NABARD) vs Narasimham (RRBs) vs R.V. Gupta (KCC)"
+ ],
+ "stats": {"app_mcqs": 40, "pyqs": 53, "fixed": 1, "dropped": 3}
+}

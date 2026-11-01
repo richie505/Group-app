@@ -1,0 +1,26 @@
+{
+ "topic": "5:80",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n310ba5f4258", "why": "oddly worded ('first occurrence ... in the stated international chronology')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y90df81c357d", "why": "wrong options: places/years mixed (Sweden, India, 1993, 1992), no key"},
+  {"id": "yd5f4be041d8", "why": "wrong options: places/years mixed (Sweden, India, 1993, 1992), no key"},
+  {"id": "y28ff27a34a9", "why": "wrong topic: Coriolis force (climatology)"},
+  {"id": "yfac1fe23a49", "why": "wrong topic: world geography (Copacabana beach)"},
+  {"id": "y193c69339b0", "why": "garbled: next question's text fused into options"},
+  {"id": "yf1c154f22dc", "why": "garbled: explanation text in stem, options truncated; duplicate of y45d0b992522"},
+  {"id": "yb516ec2a864", "why": "garbled: options truncated; wrong topic: sustainable agriculture"},
+  {"id": "y7c117a9da61", "why": "mental ability: statement-conclusion reasoning"}
+ ],
+ "patterns": [
+  "APPSC asks one-liners on summits: Rio 1992 (UNCED, Agenda 21, UNFCCC), Rio+20 outcome 'The Future We Want', CSD reviews Agenda 21.",
+  "Definition origin: Brundtland Report 'Our Common Future' (1987) is repeatedly asked; 17 SDGs (AP adopted all 17, 212 indicators).",
+  "Pillars questions: economic, social, environmental; distractors are military/political/cultural.",
+  "Assertion-reason on economic sustainability appears (profit maximisation without social/environmental view = false).",
+  "App adds principles (precautionary, CBDR), NGT, green accounting and Swarna Andhra @2047 items; PYQs stay at summit/definition level."
+ ],
+ "stats": {"app_mcqs": 33, "pyqs": 24, "fixed": 0, "dropped": 1}
+}

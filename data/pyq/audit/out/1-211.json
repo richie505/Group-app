@@ -1,0 +1,21 @@
+{
+ "topic": "1:211",
+ "mcq_fix": [
+  {"id": "n10b42703ee0", "s": "Which Telugu poet is known by the title 'Abhinava Nannaya'?", "why": "odd meta wording about 'commission's key'; y00a6c6b993a"}
+ ],
+ "mcq_drop": [
+  {"id": "n2e84a3a4041", "why": "obscure trivia (ban charge for Tirugubatu)"}
+ ],
+ "notes_fix": [
+  {"ref": "1#1", "find": "*Kanyasulkam* (staged 1893)", "replace": "*Kanyasulkam* (first staged 1892, Vizianagaram)", "why": "Kanyasulkam was first staged in 1892"},
+  {"ref": "12#0", "find": "*Kanyasulkam* staged 1893", "replace": "*Kanyasulkam* staged 1892", "why": "Kanyasulkam was first staged in 1892"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "APPSC asks direct work-author / song-book one-liners: 'Desamante matti kadoi' in Mutyala Saralu, Gabbilam = Jashuva, Japaneeyamu = Sriram Veerabrahmam.",
+  "Titles of poets (Abhinava Nannaya, Kavi Samrat, Telugu Lenka, Madhurakavi) are a recurring G2 shape.",
+  "First Telugu Jnanpith (Viswanatha, Ramayana Kalpavrikshamu) and 4-item work-author matches (G2 2008, 2025).",
+  "App goes deeper into proscribed literature and Garimella biography (jail terms, cyclostyling) than PYQs show."
+ ],
+ "stats": {"app_mcqs": 39, "pyqs": 5, "fixed": 1, "dropped": 1}
+}

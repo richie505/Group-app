@@ -1,0 +1,34 @@
+{
+ "topic": "1:38",
+ "mcq_fix": [
+  {"id": "nde2e259000f", "s": "Consider the following pairs of early Indian art objects and their findspots: 1. Nude male torso — Lohanipur (Patna) 2. Portrait slab of Ashoka — Kanaganahalli (Karnataka) 3. 80-pillared hall — Rampurva Which of the pairs given above is/are correctly matched?", "why": "Kanaganahalli Ashoka slab is a Satavahana-era work, not Mauryan art; stem reworded, key unchanged"},
+  {"id": "n699f923309e", "s": "Which of the following was the most famous centre of learning during the Mauryan period?", "why": "stem had a numbered list and 'code' wording that did not fit single-choice options; cf. PYQ y23c35a07fa7"}
+ ],
+ "mcq_drop": [
+  {"id": "n4252127d272", "why": "dubious: Bharhut is not regarded as India's most ancient stupa (Sanchi/Piprahwa are older)"}
+ ],
+ "notes_fix": [
+  {"ref": "16#2", "find": "⚠ Sanchi = India's largest stupa; Kesariya = largest brick stupa", "replace": "⚠ Kesariya (Bihar) = largest stupa in the world (PYQ key); Sanchi = the 'best' stupa architecturally", "why": "PYQ y2c5897e339c keys Kesariya as largest stupa"},
+  {"ref": "16#0", "find": "; called India's largest stupa", "replace": "", "why": "Kesariya, not Sanchi, is the largest (PYQ y2c5897e339c)"},
+  {"ref": "14#4", "find": "Lohanipur (Patna) / Kanaganahalli (Karnataka)", "replace": "Lohanipur (Patna) / Kanaganahalli (Karnataka; Satavahana-era slab, not Mauryan)", "why": "Kanaganahalli portrait panel dates to c. 1st c. BCE-1st c. CE"}
+ ],
+ "pyq_bad": [
+  {"id": "ye394c0c9b82", "why": "suspect key: Arthashastra = principles and practice of statecraft, not 'wealth accumulation'"},
+  {"id": "y667f3a86418", "why": "suspect key: Dhamekh (Gupta) cannot precede Sanchi (Mauryan); option 4 reverses the order"},
+  {"id": "y995dad9fca0", "why": "suspect key: Bagh caves are Buddhist; wrong topic: cave architecture"},
+  {"id": "ydb26ff8ce48", "why": "garbled: option 2 truncated ('and 3')"},
+  {"id": "y83bef01af06", "why": "garbled: option 3 truncated"},
+  {"id": "y66054986716", "why": "wrong topic: mural paintings (Ajanta, Lepakshi)"},
+  {"id": "y62a5900c7fb", "why": "wrong topic: Gupta-era land terms"},
+  {"id": "yaa2e28fbad0", "why": "wrong topic: Kumbh Mela / culture"},
+  {"id": "y1e8c06659f2", "why": "wrong topic: Odisha temple architecture"},
+  {"id": "yd06f343814f", "why": "wrong topic: world religions odd-one-out"}
+ ],
+ "patterns": [
+  "APPSC asks: which art forms are Mauryan (Dhauli elephant, Didarganj Yakshi, Sanchi, Kumrahar - all four), oldest stone structure (Sanchi), Tamralipti as eastern port, silver coin Pana.",
+  "Other PSCs repeat: Megasthenes' seven classes, Barabar caves for Ajivikas (not Badami, not Chandragupta; inscriptions 3rd c. BCE), Ashokan pillars not parts of structures, Sanchi built by Ashoka, Pataliputra palace of wood, Manibhadra Yaksha at Parkham.",
+  "Arthashastra items: divorce to deserted wife, statecraft vs Prince of Machiavelli.",
+  "App MCQs are mostly sound but go deeper (slave categories, coin denominations, pillar part names, 2026 excavations) than the PYQ pattern."
+ ],
+ "stats": {"app_mcqs": 61, "pyqs": 36, "fixed": 2, "dropped": 1}
+}

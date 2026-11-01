@@ -1,0 +1,27 @@
+{
+ "topic": "3:6",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n04e1ebe522d", "why": "dubious/ambiguous: import-substitution industrialisation is usually tied to the Second (Mahalanobis) Plan; both options present"},
+  {"id": "nindian-economy-4-3", "why": "oddly worded A-R pairing two unrelated dates"}
+ ],
+ "notes_fix": [
+  {"ref": "4#0", "find": "First National Planning Commission", "replace": "National Planning Committee (INC, chaired by Nehru)", "why": "1938 body was the National Planning Committee, not a Commission"},
+  {"ref": "10#1", "find": "The first National Planning Commission — established", "replace": "National Planning Committee (INC, Nehru) set up", "why": "1938 body was the National Planning Committee; Planning Commission came in 1950"}
+ ],
+ "pyq_bad": [
+  {"id": "y4d44eff2dcb", "why": "wrong topic: world demography (deaths exceed births)"},
+  {"id": "y12b14837da0", "why": "garbled: options lost their lower bounds ('to 9 per cent')"},
+  {"id": "yc9a7e1d7f12", "why": "wrong topic: world population growth"},
+  {"id": "y3cd4aa31d2a", "why": "wrong topic: Rajasthan rural scheme (Apna Gaon Apna Kam)"},
+  {"id": "y29c552d0b1f", "why": "wrong topic: ASEAN secretariat (international organisations)"},
+  {"id": "yb0d753c8c25", "why": "wrong topic: ASEAN full form (international organisations)"}
+ ],
+ "patterns": [
+  "Hindu rate of growth asked as a direct definition: growth of national income/GDP (~3.5%), coined by Raj Krishna; trap = per capita income or inequality.",
+  "APPSC frames 1947-1991 strategy as import substitution; traps are export promotion/deregulation.",
+  "Milestone-year recall (first agricultural university Pantnagar, bank nationalisation 1969, RRB 1975, NABARD 1982) appears as single-fact items.",
+  "App relies heavily on match-the-year and multi-statement items; PYQs here are short one-liners with few genuinely on-topic APPSC items."
+ ],
+ "stats": {"app_mcqs": 30, "pyqs": 8, "fixed": 0, "dropped": 2}
+}

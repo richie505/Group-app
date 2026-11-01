@@ -1,0 +1,29 @@
+{
+ "topic": "3:44",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nc571f3e8237", "why": "opinion item ('continuing concerns'); all-of-the-above with no factual test"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y88c08669da6", "why": "garbled options (truncated statement codes)"},
+  {"id": "y44772ede73b", "why": "suspect key: Education for All target year was 2015, not 2018; wrong topic: education goals"},
+  {"id": "y5c6ea11f755", "why": "wrong topic: S&T / AI in health research (Garbhini-GA2)"},
+  {"id": "ye6f5651d187", "why": "wrong topic: AP school education initiatives"},
+  {"id": "y333dd80f81a", "why": "wrong topic: human biology (blood groups)"},
+  {"id": "y496f2c63261", "why": "wrong topic: PM CARES / disaster funds; options truncated"},
+  {"id": "ye69f2d5d611", "why": "wrong topic: school bag policy"},
+  {"id": "y4d9fdf26b04", "why": "wrong topic: history of education (BHU)"},
+  {"id": "y87063608130", "why": "mental ability (interquartile range)"},
+  {"id": "y4e006ab4593", "why": "mental ability; garbled"},
+  {"id": "y1e84fea90ee", "why": "mental ability; garbled"}
+ ],
+ "patterns": [
+  "APPSC asks scheme launch years directly (PMSMA 2016, NRHM 2005) and target groups (Amma Vodi = poor mothers of school-going children).",
+  "Concept items: human capital = knowledge/skills/health; what does NOT form human capital (irrigation).",
+  "Kerala low IMR due to basic health + education is a recurring APPSC fact.",
+  "Implementing agency (National Health Authority for PM-JAY) and NEP-linked scheme exclusions appear in other PSCs.",
+  "App leans on dense 2025-26 data statements (OOPE, Standing Committee figures); PYQs stay at launch year / agency / purpose level."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 25, "fixed": 0, "dropped": 1}
+}

@@ -1,0 +1,89 @@
+{
+ "topic": "3:22",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {
+   "id": "yb2597cb1634",
+   "why": "suspect key: income-method GDP = sum of domestic factor incomes (+ depreciation, NIT); 'minus transfer payments' is not standard"
+  },
+  {
+   "id": "y89981a1b463",
+   "why": "garbled: options split/merged"
+  },
+  {
+   "id": "yf31a06b939e",
+   "why": "mental ability"
+  },
+  {
+   "id": "y80bc47e8046",
+   "why": "mental ability"
+  },
+  {
+   "id": "y51c9d453af5",
+   "why": "mental ability"
+  },
+  {
+   "id": "y6f2f251e5ed",
+   "why": "mental ability"
+  },
+  {
+   "id": "y10269b20cd9",
+   "why": "wrong topic: Keynesian income determination / aggregate demand"
+  },
+  {
+   "id": "y2b5122d6622",
+   "why": "garbled: explanation text pasted into stem"
+  },
+  {
+   "id": "y7f0b38cf348",
+   "why": "wrong topic: shadow prices / project evaluation"
+  },
+  {
+   "id": "y630f6691f39",
+   "why": "wrong topic: AP economy sector shares"
+  },
+  {
+   "id": "y92d60ff8fcc",
+   "why": "wrong topic: Punjab state profile"
+  },
+  {
+   "id": "yd7cf763d591",
+   "why": "garbled: explanation text pasted into stem"
+  },
+  {
+   "id": "yaaabacb74fe",
+   "why": "wrong topic: AP e-governance (Jnanabhumi)"
+  },
+  {
+   "id": "yd523976a9c9",
+   "why": "wrong topic: State borrowing limits / fiscal federalism"
+  },
+  {
+   "id": "y44fa662915d",
+   "why": "wrong topic: HDI; suspect key: HDI uses GDP/GNI per capita at PPP, not national income in US dollars"
+  },
+  {
+   "id": "yead4acb0dab",
+   "why": "wrong topic: unemployment"
+  },
+  {
+   "id": "ye67ab42b92e",
+   "why": "wrong topic: e-commerce"
+  }
+ ],
+ "patterns": [
+  "APPSC asks definitional one-liners: NI = NNP at factor cost, per capita income = average income, real GDP = output at base-year prices, GNP deflator ratio.",
+  "Recurring traps: MP vs FC differ by indirect taxes and subsidies (not direct taxes); GDP vs GNP differ by net factor income from abroad.",
+  "A-R item on transfer earnings excluded from NI; GNP deflator rise lowers purchasing power; APSES SDP definition asked word for word.",
+  "Other PSCs favour formula-statement items (NNP = GNP - depreciation, NI = NNP_MP - (IT - subsidies)) and 'best measure of growth = per capita real income'.",
+  "App matches these shapes well; it adds 2022-23 series, double deflation and PPP agency items beyond PYQ depth."
+ ],
+ "stats": {
+  "app_mcqs": 36,
+  "pyqs": 48,
+  "fixed": 0,
+  "dropped": 0
+ }
+}

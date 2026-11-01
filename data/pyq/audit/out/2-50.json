@@ -1,0 +1,26 @@
+{
+ "topic": "2:50",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-polity-61-21", "why": "oddly worded Part/Article combination item; not exam style"}
+ ],
+ "notes_fix": [
+  {"ref": "16#1", "find": "Gadgil-Mukherjee 1991, 8th Plan Population 55, per-capita income 25, fiscal performance 5, special problems 15 [GK]", "replace": "Gadgil-Mukherjee 1991, 8th Plan Population 60, per-capita income 25, fiscal management 7.5, special problems 7.5", "why": "55/25/5/15 was the 1980 modified Gadgil formula; Gadgil-Mukherjee = 60/25/7.5/7.5"},
+  {"ref": "5#3", "find": "population 60% (⚠ other notes: 1991, 55)", "replace": "population 60% (1991, 8th Plan)", "why": "population weight 55 belongs to the 1980 modified Gadgil formula"}
+ ],
+ "pyq_bad": [
+  {"id": "yc181c06e777", "why": "mental ability"},
+  {"id": "y714714df7dc", "why": "wrong topic: sovereignty / basic polity"},
+  {"id": "y02c9af1404b", "why": "wrong topic: Union Finance Ministers list"},
+  {"id": "yeb86fdeed2d", "why": "garbled: previous answer explanation pasted into stem"},
+  {"id": "y1c1aea7da7d", "why": "wrong topic: Planning Commission"},
+  {"id": "y49035645c49", "why": "wrong topic: sports current affairs"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: profession-tax ceiling (Rs 2,500), GST Council chair (Union Finance Minister), Art. 269 assigned taxes, Art. 275 grants on FC advice not NITI Aayog.",
+  "Other PSCs repeat Article-number identification (265, 270, 282), 101st Amendment = GST, states cannot borrow abroad, agricultural income tax = state by Constitution.",
+  "Traps: Art. 271 surcharges not shared; Art. 268 vs 269 levy/collect/appropriate; special category parameters exclude SC population/high income.",
+  "App is sound but adds 2026 Finance Commission and borrowing-data items and long multi-statement formats beyond the PYQ depth."
+ ],
+ "stats": {"app_mcqs": 48, "pyqs": 21, "fixed": 0, "dropped": 1}
+}

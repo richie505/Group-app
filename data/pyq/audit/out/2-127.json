@@ -1,0 +1,19 @@
+{
+ "topic": "2:127",
+ "mcq_fix": [
+  {"id": "ncd671d8c1bd", "s": "According to Amnesty International, which country is the world's biggest state executioner?", "why": "odd wording 'ranking referred to here'; ya9279f6e17c"},
+  {"id": "nc3b64a1fb94", "s": "Which provision made a judicial inquiry mandatory in cases of custodial death, and what is its present BNSS equivalent?", "why": "stem gave away the answer (Section 196)"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y44f57afa617", "why": "garbled (answer-key fragment, no question)"}
+ ],
+ "patterns": [
+  "PYQs here are few: prisons as a State subject governed by the Prisons Act 1894 (UPSC 2023 statement I/II) and parole rules being State-specific (UPSC 2021).",
+  "Other PSCs ask a single current-affairs fact: Amnesty names China as the biggest executioner.",
+  "Likely APPSC shapes: case-to-principle matches (D.K. Basu, Bachan Singh 'rarest of rare'), Article 72 vs 161 pardon powers, Seventh Schedule entry.",
+  "App MCQs are dense multi-statement items on directives and NCRB 2024 data, more detailed than any PYQ shows."
+ ],
+ "stats": {"app_mcqs": 30, "pyqs": 4, "fixed": 2, "dropped": 0}
+}

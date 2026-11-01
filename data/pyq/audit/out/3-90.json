@@ -1,0 +1,31 @@
+{
+ "topic": "3:90",
+ "mcq_fix": [
+  {"id": "nc39087b9745", "s": "Which of the following pairs of exchanges/institutions and their 'first' status is/are correctly matched? A. India INX — first international exchange B. NSDL — first depository C. BSE — Asia's oldest exchange", "o": ["A only", "B only", "C only", "A, B and C"], "why": "stem asked to 'arrange' but options test correctness of pairs"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-economy-55-20", "why": "oddly built: all options are 'Pherwani' + body type; duplicates NSE origin item"},
+  {"id": "nindian-economy-10-3", "why": "ambiguous A/R: R (definition of primary market) does not explain why SEBI regulates it"}
+ ],
+ "notes_fix": [
+  {"ref": "3#0", "find": "GREENEX BSE 20 2012", "replace": "GREENEX BSE 25 2012", "why": "BSE-GREENEX has 25 companies (y2d957eff4d0, yb945bead0f3)"},
+  {"ref": "12#0", "find": "GREENEX BSE 20 [GK]", "replace": "GREENEX BSE 25", "why": "BSE-GREENEX has 25 companies (y2d957eff4d0, yb945bead0f3)"}
+ ],
+ "pyq_bad": [
+  {"id": "yf68d1ae96a5", "why": "wrong topic: ASEAN membership"},
+  {"id": "ye22eb3aa8e1", "why": "wrong topic: Five-Year Plans (Rolling Plan)"},
+  {"id": "yc2d35804b12", "why": "garbled: options truncated"},
+  {"id": "yce76eb5ca92", "why": "garbled: stem carries another item's explanation"},
+  {"id": "yf3fea933834", "why": "wrong topic: globalisation; options truncated"},
+  {"id": "ya2f0e33d705", "why": "wrong topic: planning (India Vision 2020)"},
+  {"id": "ybd58e130612", "why": "garbled: options truncated"}
+ ],
+ "patterns": [
+  "APPSC asks index identity directly: free-float index of top 30 BSE companies = SENSEX; Moody's is not a share index.",
+  "Classic one-liners: SENSEX = 30 companies, GREENEX = 25, rise in SENSEX = rise in the group not all shares, Dalal Street = Mumbai.",
+  "Market jargon (bull, bear, stag, blue chip, beta) and debenture holders = creditors recur in UPSC/UPPSC.",
+  "NSE facts (Mumbai HQ, promoters, highest turnover) and SEBI's regulatory role are common.",
+  "App adds 2025-26 IPO/STT/F&O data and several A/R items with weak causal links; PYQs are plain single-fact."
+ ],
+ "stats": {"app_mcqs": 39, "pyqs": 30, "fixed": 1, "dropped": 2}
+}

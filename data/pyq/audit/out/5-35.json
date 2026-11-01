@@ -1,0 +1,27 @@
+{
+ "topic": "5:35",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "1#3", "find": "15 Oct 1994 — PSLV: IRS-P2", "replace": "20 Sep 1993 — PSLV-D1 first flight (failed); 15 Oct 1994 PSLV-D2 put IRS-P2 in orbit (first success)", "why": "PSLV's first flight was PSLV-D1 in Sep 1993, which failed"},
+  {"ref": "8#0", "find": "PSLV 15 Oct 1994 (D2) IRS-P2 - first success", "replace": "PSLV 20 Sep 1993 (D1, failed); 15 Oct 1994 (D2) IRS-P2 - first success", "why": "first-flight column gave the D2 date; D1 flew (and failed) in 1993"}
+ ],
+ "pyq_bad": [
+  {"id": "y4bbfad1606e", "why": "wrong topic: physics - states of matter (liquid crystals)"},
+  {"id": "y5928202e2b4", "why": "wrong topic: chemistry (mustard gas)"},
+  {"id": "y013a852075e", "why": "wrong topic: chemistry (LPG)"},
+  {"id": "y25ada6081c6", "why": "wrong topic: physics - gravitation"},
+  {"id": "y494c34a8abf", "why": "wrong topic: physics - optics (rainbow)"},
+  {"id": "y2c7b65413a3", "why": "wrong topic: biology - Rh factor"},
+  {"id": "y188305ea59e", "why": "wrong topic: biology - blood transfusion"},
+  {"id": "y6b7127c0e32", "why": "wrong topic: physics - evaporation/humidity"}
+ ],
+ "patterns": [
+  "APPSC asks mission-vehicle one-liners pegged to news: Cartosat-3 = PSLV-C47, NVS-01 = GSLV-F12, RH-200 200th launch (Nov 2022), 'game changer' GSLV Mk-III.",
+  "Stage/propellant statements: GSLV = solid + earth-storable liquid + cryogenic; SSLV 500 kg to 500 km LEO, three solid stages (not two).",
+  "Other PSCs: Chandrayaan-2 = GSLV Mk III-M1, 104 satellites = PSLV-C37, GSLV-F15 = NVS-02 and 100th Sriharikota launch, chronology SLV-ASLV-PSLV-GSLV.",
+  "AP angle: Sriharikota (Chandrayaan-1 launched from AP).",
+  "App coverage is close to PYQ style; it adds future-vehicle (NGLV, HLVM3, RLV) and 2025-26 current-affairs items beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 39, "pyqs": 20, "fixed": 0, "dropped": 0}
+}

@@ -1,0 +1,22 @@
+{
+ "topic": "2:73",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-society-1-39", "why": "dubious statements: 15(4) was added only in 1951 and 16(4) is about backward classes generally; vague statement V"},
+  {"id": "n6c1db3f04d4", "why": "opinion/criticism item about NCM, off the NCSC/NCST/NCBC focus"}
+ ],
+ "notes_fix": [
+  {"ref": "8#2", "find": "Articles 15(4) and 16(4): The first Constitutional safeguards for SCs and STs", "replace": "Articles 15(4) and 16(4): enabling provisions for reservation (16(4) in the original Constitution; 15(4) added by the 1st Amendment, 1951)", "why": "15(4) was not original; 16(4) covers backward classes, not only SCs/STs"}
+ ],
+ "pyq_bad": [
+  {"id": "y5a68c46ed24", "why": "wrong topic: Scheduled Tribe lists of AP"},
+  {"id": "y91d4bee6690", "why": "suspect key: no key given; time-bound 'present chairman' item now outdated"}
+ ],
+ "patterns": [
+  "Article-number identification dominates: 338 = NCSC, 338A = NCST, 338B = NCBC.",
+  "Amendment-number items: 89th split SC/ST commissions; 102nd gave NCBC constitutional status (APPSC 2022).",
+  "APPSC 'NOT a function' trap: reports go to the President, not the Prime Minister; civil-court powers all correct (G1 2022).",
+  "App adds reservation-history 'first' statement sets and current chairpersons; PYQs stay with articles, amendments and functions."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 11, "fixed": 0, "dropped": 2}
+}

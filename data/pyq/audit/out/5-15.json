@@ -1,0 +1,22 @@
+{
+ "topic": "5:15",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "0#4", "find": "term by Klaus Schwab (2016)", "replace": "'Industry 4.0' coined in Germany (Hannover Fair, 2011); 'Fourth Industrial Revolution' popularised by Klaus Schwab (2016)", "why": "established fact: Industry 4.0 term originated in German policy, 2011"}
+ ],
+ "pyq_bad": [
+  {"id": "yf1043b73a04", "why": "wrong topic: general knowledge (philately)"},
+  {"id": "y5cb01ac0b8a", "why": "wrong topic: sports current affairs"},
+  {"id": "yb2f1e96e299", "why": "wrong topic: sports current affairs"},
+  {"id": "yd339ba6e2d5", "why": "suspect key: 'newest' chip substance should be gallium arsenide, not silicon"}
+ ],
+ "patterns": [
+  "APPSC asks IoT expansion and definitions directly (IoT = Internet of Things), VR basics, and AP-flavoured robotics (Bandicoot ends manual scavenging).",
+  "Statement-based RFID item (APPSC Group-1 2022): passive tags have no internal power; no line-of-sight needed.",
+  "3D-printing applications and Indian firsts (3D-printed cornea, liver tissue, post office in Bengaluru, humanoid Manav) recur across PSCs.",
+  "UPSC-style scenario questions (smart home = IoT) and AR vs VR statements are the template for this topic.",
+  "App covers this well with matching/statement items; adds Semicon 2.0 and drone-rule numbers beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 37, "pyqs": 16, "fixed": 0, "dropped": 0}
+}

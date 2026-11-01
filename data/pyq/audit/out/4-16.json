@@ -1,0 +1,24 @@
+{
+ "topic": "4:16",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ngeneral-geography-3-58", "why": "circular A/R (A and R say the same thing), oddly worded"},
+  {"id": "nb4a4be0d7b5", "why": "oddly worded ('the indicated forecast'); unverifiable news trivia"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y4841550f983", "why": "wrong topic: ancient history sources (Periplus)"},
+  {"id": "yd2628ff907b", "why": "mental ability (data interpretation)"},
+  {"id": "y7aeaa6706a6", "why": "garbled (options truncated)"},
+  {"id": "y362dd7fde1e", "why": "garbled (options truncated)"},
+  {"id": "ya959312c6d4", "why": "garbled (options truncated)"}
+ ],
+ "patterns": [
+  "APPSC asks pressure-belt facts in statement form: doldrums are calm (not strong winds), NH trades are north-easterly, horse latitudes 30-35 deg, ITCZ near the equator.",
+  "Coriolis deflection (right in NH) and pressure gradient setting wind speed are recurring single-fact items.",
+  "Other PSCs heavily test local wind-region matching (Foehn-Alps, Chinook raises winter temperature, Harmattan, Sirocco blood rain, Bora not Siberia) and Roaring Forties = SH westerlies.",
+  "Monsoon basics: 'Mausim' Arabic, seasonal reversal from differential heating; A/R items on winter anticyclones.",
+  "App adds jet-stream detail (STJ/TEJ/Somali jet), polar vortex and 2026 AP monsoon/cyclone current data beyond PYQ depth; otherwise aligned."
+ ],
+ "stats": {"app_mcqs": 51, "pyqs": 35, "fixed": 0, "dropped": 2}
+}

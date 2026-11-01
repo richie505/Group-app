@@ -1,0 +1,27 @@
+{
+ "topic": "1:65",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n0db44344913", "why": "ambiguous: Chandragupta II and Samudragupta both keyed as first 'Parama Bhagavata' (UPPSC keys say Samudragupta), both are options"},
+  {"id": "n81ad920b298", "why": "dubious premise: Hiuen Tsang does record Nirgrantha (Jain) ascetics in several regions"},
+  {"id": "n39eaf4b8b0e", "why": "obscure and doubtful Kalamukha trivia (Kalanana, Simha/Shakti Parishat) beyond PYQ depth"}
+ ],
+ "notes_fix": [
+  {"ref": "12#5", "find": "Fa-Hien mentions Jainism; Hiuen Tsang does not", "replace": "Hiuen Tsang notes Nirgrantha (Jain) ascetics in several regions (e.g. Vaishali, Pundravardhana)", "why": "established fact: Xuanzang's account mentions Nirgranthas"}
+ ],
+ "pyq_bad": [
+  {"id": "y91c8f798502", "why": "suspect key: correct match is a-iii b-ii c-iv d-i = option 3, key says 2"},
+  {"id": "y7dbc069bbda", "why": "wrong topic: status of women in ancient India"},
+  {"id": "y8898fae9900", "why": "mental ability (statistics: range of data)"},
+  {"id": "yf0c83c8b71a", "why": "wrong topic: Jain sects (Sthanakvasi)"},
+  {"id": "y292ef771b2e", "why": "wrong topic: Jain sects (Sthanakvasi); duplicate of yf0c83c8b71a"}
+ ],
+ "patterns": [
+  "APPSC asks sect/symbol matches (Jainism-Triratna, Buddhism-Ashtanga Marga, Saivism-Linga, Animism-Nature worship) and Saiva-sect origins (Kapalikas from Misra Saivam).",
+  "AP-specific facts recur: Gudimallam = oldest Shiva linga, Salankayanas = Vaishnavism, number of Mahapuranas = 18.",
+  "Other PSCs: earliest epigraphic evidence of Bhagavatism = Besnagar Garuda pillar; Bhagavatas first worshipped Vasudeva-Krishna; Panchayatana = temple style; Deogarh = Gupta art.",
+  "Traps: Kapalika keys differ across APPSC papers (Pashupata vs Misra Saivam); first 'Parama Bhagavata' contested; read options carefully.",
+  "App adds temple-stage details and Buddhist scholar matches; these are sound but deeper than APPSC's single-fact style."
+ ],
+ "stats": {"app_mcqs": 38, "pyqs": 13, "fixed": 0, "dropped": 3}
+}

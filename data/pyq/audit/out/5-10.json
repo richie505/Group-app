@@ -1,0 +1,34 @@
+{
+ "topic": "5:10",
+ "mcq_fix": [],
+ "mcq_drop": [{"id": "n1159cf6de98", "why": "dubious: TERLS still exists as a unit of VSSC; not a simple rename"}],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y5e7d816fcad", "why": "wrong topic: horticulture (mango hybrids)"},
+  {"id": "yf3e3e749bd6", "why": "wrong topic: awards current affairs (World Food Prize 2022)"},
+  {"id": "y86652ac19a8", "why": "wrong topic: awards current affairs (World Food Prize 2018)"},
+  {"id": "y27ef668c8d3", "why": "wrong topic: sports"},
+  {"id": "y3a105329167", "why": "wrong topic: ISRO technology current affairs"},
+  {"id": "yb716b8be1e9", "why": "wrong topic: defence / women firsts"},
+  {"id": "y53c9c53c850", "why": "wrong topic: Green Revolution agriculture"},
+  {"id": "y9d6d8ca12d1", "why": "wrong topic: evolution (biology)"},
+  {"id": "y3861cbc6bf8", "why": "wrong topic: evolution (natural selection); stray page number"},
+  {"id": "yabc6faae2ff", "why": "wrong topic: genetics/evolution theories"},
+  {"id": "ycb8a8587263", "why": "wrong topic: evolution (biology)"},
+  {"id": "ye4ac4487907", "why": "wrong topic: evolution (biology)"},
+  {"id": "y6c45f624ab7", "why": "wrong topic: genetics (DNA discovery)"},
+  {"id": "y72ea3f6c1cf", "why": "wrong topic: genetics (chromosomal theory)"},
+  {"id": "y90af52728fb", "why": "wrong topic: evolution (Lamarckism)"},
+  {"id": "y25e21adf847", "why": "garbled: explanation text merged into stem; wrong topic: evolution"},
+  {"id": "y687ab3ec0fb", "why": "garbled options"},
+  {"id": "y89d35ce208c", "why": "wrong topic: cell biology"},
+  {"id": "ya08e8e3656d", "why": "wrong topic: sports"}
+ ],
+ "patterns": [
+  "PYQs are one-line identification: father of India's space programme (Sarabhai), UNEP 'Father of Economic Ecology' (Swaminathan), Khorana synthesised DNA/gene, Raja Ramanna and the atomic bomb.",
+  "APPSC asks year facts (Swaminathan Commission 2004) and birthplace facts (Ramakrishnan - Chidambaram).",
+  "APPSC frequently asks World Food Prize and other award current affairs alongside scientist questions.",
+  "App's multi-statement items (Kalam, Swaminathan, Nayudamma) are deeper than PYQs but factually sound; AP scientists (SubbaRow, Nayudamma) are an AP-tilt gap in PYQs."
+ ],
+ "stats": {"app_mcqs": 28, "pyqs": 29, "fixed": 0, "dropped": 1}
+}

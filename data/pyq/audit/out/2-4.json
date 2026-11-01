@@ -1,0 +1,33 @@
+{
+ "topic": "2:4",
+ "mcq_fix": [
+  {"id": "nindian-polity-14-15", "o": ["A.K. Gopalan Case", "Golaknath Case", "Kesavananda Bharati Case", "Berubari Union Case"], "a": 2, "why": "LIC case (1995) also held it an integral part, making option 1 a second correct answer; replaced with Gopalan (APPSC GS 2025 distractor)"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-polity-14-3", "why": "oddly worded A/R (R merely restates A via a later case)"},
+  {"id": "na8e2937e90a", "why": "opinion item (criticism of Emergency insertions)"}
+ ],
+ "notes_fix": [
+  {"ref": "4#1", "find": "1967 — Golaknath: is a part", "replace": "1967 — Golaknath: did not settle the Preamble's status (exam distractor)", "why": "Kesavananda (1973) overruled Berubari and held the Preamble a part; APPSC GS 2025 key, yfec840ba579"},
+  {"ref": "12#1", "find": "Golaknath Case 1967 Preamble is a part of the Constitution", "replace": "Golaknath Case 1967 Did not settle the Preamble's status (distractor)", "why": "Kesavananda is the case that held the Preamble part of the Constitution (APPSC GS 2025, yfec840ba579)"}
+ ],
+ "pyq_bad": [
+  {"id": "yb7d456d9b96", "why": "garbled"},
+  {"id": "y49f6dda4223", "why": "garbled (two questions merged)"},
+  {"id": "y99f9f95d5c8", "why": "mental ability (dictionary order)"},
+  {"id": "y22c18e3a0ca", "why": "mental ability (word formation)"},
+  {"id": "y1db7fb4cdd0", "why": "wrong topic: Eleventh Schedule / Panchayats"},
+  {"id": "y82283471bf7", "why": "wrong topic: important days"},
+  {"id": "y5e73fd32e9e", "why": "wrong topic: EU constitution"},
+  {"id": "y48d27759963", "why": "wrong topic: salient features of the Constitution"},
+  {"id": "y6ad99d72f22", "why": "suspect key: third reading began 14 Nov 1949 (second reading began 15 Nov 1948)"}
+ ],
+ "patterns": [
+  "APPSC's most repeated item: which amendment added Socialist/Secular - always 42nd (distractors 44th, 43rd, 45th, 46th).",
+  "Which liberty/term is NOT in the Preamble: political/economic liberty, 'Freedom', Federal, welfare - answer from the exact text (thought, expression, belief, faith, worship).",
+  "Case questions: Berubari (not part, key to minds of makers) vs Kesavananda (part, amendable); APPSC GS 2025 keyed Kesavananda.",
+  "Source of political power = the People ('We, the People'); status on 26 Jan 1950 = Sovereign Democratic Republic; date in Preamble = adoption 26 Nov 1949.",
+  "APPSC G1 uses tricky statement sets on keyword meanings (Fabian/Populism, Republic = elected PM) - app reproduces this; most app items are close to PYQ depth."
+ ],
+ "stats": {"app_mcqs": 42, "pyqs": 58, "fixed": 1, "dropped": 2}
+}

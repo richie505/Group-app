@@ -1,0 +1,27 @@
+{
+ "topic": "4:94",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n7c1b07d1049", "why": "obscure Economic Survey slogan trivia"}
+ ],
+ "notes_fix": [
+  {"ref": "10#0", "find": "1975 First experimental satellite-based telecom (SITE) (APP)", "replace": "1975 Satellite Instructional Television Experiment (SITE) - first experimental satellite TV broadcast for education", "why": "SITE was a satellite television experiment, not telecom"}
+ ],
+ "pyq_bad": [
+  {"id": "y63af9c1547c", "why": "mental ability (mode of digits)"},
+  {"id": "y38f36f95f07", "why": "wrong topic: health schemes (PM-ABHIM)"},
+  {"id": "y9761215059a", "why": "wrong topic: human physiology (ECG)"},
+  {"id": "y1e41c583c72", "why": "wrong topic: human physiology (ECG); duplicate"},
+  {"id": "yf0d0657d474", "why": "wrong topic: plant anatomy"},
+  {"id": "y15c7358ea3d", "why": "wrong topic: nervous system"},
+  {"id": "ydcec3dfdfbd", "why": "wrong topic: space terminology"}
+ ],
+ "patterns": [
+  "APPSC tests current tech launches (indigenous IP/MPLS router, Bengaluru 2024) and fastest medium = optical fibre (2025).",
+  "Other PSCs ask scheme purpose (PM-WANI = public Wi-Fi), Speed Post year 1986, India's largest postal network.",
+  "Physics angle: optical fibre works on total internal reflection.",
+  "Regulator vs broadcaster (TRAI vs Prasar Bharati) and PIN/MNP dates are the classic traps.",
+  "App is broad and sound; it adds many 2025-26 AP FiberNet/BharatNet figures that PYQs do not reach."
+ ],
+ "stats": {"app_mcqs": 50, "pyqs": 12, "fixed": 0, "dropped": 1}
+}

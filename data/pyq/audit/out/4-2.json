@@ -1,0 +1,26 @@
+{
+ "topic": "4:2",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ngeneral-geography-2-47", "why": "odd seven-statement item derived from a comparison table; no exam frames it this way"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ye4ba6122f88", "why": "wrong topic: nuclear physics (nuclear force)"},
+  {"id": "y4325a923000", "why": "wrong topic: nuclear physics (nuclear force)"},
+  {"id": "yb95b20bc0c6", "why": "wrong topic: gravitation / satellites"},
+  {"id": "y79ea787e519", "why": "wrong topic: IMD rainfall definitions"},
+  {"id": "y4e4128feef7", "why": "wrong topic: Indian climate (pressure over NW India)"},
+  {"id": "y9d8b8679dc2", "why": "garbled (long unrelated climate text prepended; options truncated)"},
+  {"id": "y573851f5d02", "why": "wrong topic: gravitation (weight in a mine)"},
+  {"id": "yf0769f293eb", "why": "wrong topic: geostationary satellites"}
+ ],
+ "patterns": [
+  "APPSC asks cause-effect one-liners: wind deflection to the right in NH = rotation; variation in day length = inclined axis.",
+  "Coriolis statement sets (apparent force, right in NH, large-scale weather) are the most frequent multi-statement item.",
+  "Tide timing arithmetic (next high tide ~52 minutes later) appears in APPSC Group-1.",
+  "Common trap: day and night attributed to revolution, or seasons to rotation; key is rotation vs revolution + tilt.",
+  "App uses many long statement and 'how many' sets; PYQs are shorter, mostly 2-3 statements or direct cause questions."
+ ],
+ "stats": {"app_mcqs": 34, "pyqs": 25, "fixed": 0, "dropped": 1}
+}

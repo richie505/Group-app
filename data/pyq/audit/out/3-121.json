@@ -1,0 +1,20 @@
+{
+ "topic": "3:121",
+ "mcq_fix": [
+  {"id": "nd3192d4153b", "s": "Consider the following statements regarding Andhra Pradesh's agro-climatic zone listing: 1. The zones continue to be listed against the 13 old districts. 2. They have been fully re-cut according to the April 2022 district reorganisation. 3. Andhra Pradesh now has 28 districts. Which of the statements given above are correct?", "why": "odd phrase 'according to the cited current reference'"}
+ ],
+ "mcq_drop": [
+  {"id": "n2672ccf04c1", "why": "opinion-type Assertion-Reason on regional disparities"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ycecf9bcc446", "why": "wrong options: no correct option (AP has six zones); APPSC withdrew the question"}
+ ],
+ "patterns": [
+  "APPSC asks the count and names of AP's six agro-climatic zones, typically as 'which is NOT a zone' with a fake zone (Low altitude) as the trap.",
+  "Zone-district matching appears (PYQ pair Southern Zone -> Nellore).",
+  "Other PSCs ask India-level counts: Planning Commission's 15 agro-climatic zones.",
+  "App MCQs add RARS headquarters, crops and 2024-26 rainfall data that go beyond PYQ depth but are sound."
+ ],
+ "stats": {"app_mcqs": 20, "pyqs": 4, "fixed": 1, "dropped": 1}
+}

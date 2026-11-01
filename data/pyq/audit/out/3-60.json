@@ -1,0 +1,30 @@
+{
+ "topic": "3:60",
+ "mcq_fix": [
+  {"id": "nc5131a03ee6", "o": ["Banana", "Cashew", "Tea", "Oil palm"], "why": "Araku coffee is from Araku Valley (ASR district, north coastal AP), not Rayalaseema"},
+  {"id": "n3b840641c8d", "s": "In 2024-25, processed food products accounted for approximately what share of India's agricultural exports?", "why": "stem referred to an answer key; reworded"},
+  {"id": "n099d24f9bee", "s": "Which State is the largest producer of fruits in India?", "why": "odd 'cited data' wording"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "6#3", "find": "Rayalaseema: banana, oil palm, cashew, Araku coffee", "replace": "Rayalaseema: banana, oil palm, cashew (Araku coffee is from Araku Valley, ASR district, north coastal AP)", "why": "Araku is not in Rayalaseema"},
+  {"ref": "16#2", "find": "Banana, oil palm, cashew, coconut, Araku coffee", "replace": "Banana, oil palm, cashew, coconut (Araku coffee belongs to the north coastal Araku Valley)", "why": "Araku is not in Rayalaseema"}
+ ],
+ "pyq_bad": [
+  {"id": "y2dc29988d1c", "why": "wrong topic: biology (carbohydrates)"},
+  {"id": "yb995a76b0c4", "why": "garbled (country column missing)"},
+  {"id": "yc83e5efed91", "why": "wrong topic: urbanisation / slum population"},
+  {"id": "y4b527a015a0", "why": "wrong topic: urbanisation"},
+  {"id": "y02e65253163", "why": "wrong topic: sugar industry / crops"},
+  {"id": "y21d375e6e3e", "why": "garbled options (codes truncated)"},
+  {"id": "y1f5d54868f3", "why": "garbled options (codes truncated); duplicate of y21d375e6e3e"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact scheme/body items: who launched the livestock credit guarantee scheme (Dept of AH&D, not NABARD/RBI), MIDH start year 2014-15.",
+  "AP-specific GI/variety items (Banganapalle GI 2017) and AP ranks (eggs, aquaculture, oil palm) are the AP tilt.",
+  "Other PSCs ask leading state/country facts (mulberry - Karnataka, banana top fruit, Alphonso export mango, China largest silk/fish producer).",
+  "Revolutions/colour matching (Blue = fish) recurs as an easy match.",
+  "App MCQs are heavier on multi-statement items with Economic Survey 2025-26 numbers than the PYQs show."
+ ],
+ "stats": {"app_mcqs": 38, "pyqs": 23, "fixed": 3, "dropped": 0}
+}

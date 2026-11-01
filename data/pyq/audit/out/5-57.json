@@ -1,0 +1,25 @@
+{
+ "topic": "5:57",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n1ee3bc34506", "why": "opinion item (why goal viewed with doubt), not exam style"},
+  {"id": "n43dce2996e6", "why": "opinion/recommendation item from commentary; 'statements' wording odd"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y22cd86df43b", "why": "wrong topic: superconductivity (physics)"},
+  {"id": "y3124f1f3499", "why": "wrong topic: star colour and temperature (astronomy)"},
+  {"id": "y0607cffa612", "why": "wrong topic: alloy steels (chemistry/metallurgy)"},
+  {"id": "y0978d7766d7", "why": "wrong topic: boiling point and pressure (physics)"},
+  {"id": "ya9eba18b0b6", "why": "wrong topic: liquefaction of gases (physics)"},
+  {"id": "yd6c06c12af4", "why": "wrong topic: iron ore (Bailadila haematite)"},
+  {"id": "y8327e59898c", "why": "garbled options (leading digits lost: '(1) and 2 only')"}
+ ],
+ "patterns": [
+  "APPSC asks direct single facts: SCCL ownership 51% Telangana : 49% GoI (asked twice, 2019), 'which is NOT a coalfield' (Mosabani = copper).",
+  "Recurring classics: anthracite highest carbon; Gondwana rocks hold >90-98% of coal; Indian coal = high ash, low sulphur; coking coal imported (Australia).",
+  "Coalfield-state matching (Jharia, Raniganj, Bokaro, Talcher, Singareni) is the core AP-relevant shape.",
+  "App adds many 2024-26 current-affairs items (gasification scheme outlays, auction rounds, UCG clauses) in multi-statement form, far more detailed than PYQs show."
+ ],
+ "stats": {"app_mcqs": 35, "pyqs": 15, "fixed": 0, "dropped": 2}
+}

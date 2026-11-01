@@ -1,0 +1,26 @@
+{
+ "topic": "3:1",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nca9a71148e4", "why": "10.84% is AP manufacturing growth rate (16#7), not its GSDP share (~11%); ambiguous"}
+ ],
+ "notes_fix": [
+  {"ref": "16#8", "find": "only ~11% of GSDP (10.84% in 2025-26)", "replace": "only ~11% of GSDP (its growth in 2025-26 was 10.84%)", "why": "10.84% is the growth rate per 16#7, not the share"}
+ ],
+ "pyq_bad": [
+  {"id": "y4cd9635c0af", "why": "wrong topic: workers' participation in management"},
+  {"id": "y6127b332efd", "why": "wrong topic: management / decision making"},
+  {"id": "y0cde927133f", "why": "wrong topic: globalisation (global village)"},
+  {"id": "y892ebcfd135", "why": "wrong topic: urban housing trends in AP"},
+  {"id": "y57086e9fa3c", "why": "garbled: options truncated"},
+  {"id": "y27971b98c6d", "why": "wrong topic: urbanisation"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact classification items: which sector includes water supply / trade / fisheries (secondary, tertiary, primary), often as a match with GDP-CSO.",
+  "Recurring data facts: services share 54.4% in 2017-18 (G2), agriculture largest at Independence, post-1991 growth service-led.",
+  "Decreasing-order-of-contribution items (Services > Industry > Agriculture) are a common shape in other PSCs.",
+  "App adds many current 2025-26 figures, models (Lewis, Clark-Fisher) and AP GSVA splits; more statement-style and data-heavy than the PYQs.",
+  "Trap: mining is primary in the three-sector scheme but under Industry in GVA / AP Survey tables."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 17, "fixed": 0, "dropped": 1}
+}

@@ -1,0 +1,37 @@
+{
+ "topic": "4:60",
+ "mcq_fix": [
+  {"id": "n5818eafc209", "s": "As per Census 2011 data recast for residual (13-district) Andhra Pradesh, the child sex ratio of the State was", "why": "undivided AP's Census 2011 CSR was 939 (APPSC 2019 key ya09dfa341a8); 944 holds only for residual AP"}
+ ],
+ "mcq_drop": [
+  {"id": "naa2d208747b", "why": "obscure study statistic (25% higher mortality) far beyond PYQ depth"},
+  {"id": "n01223a190d0", "why": "odd mix of unrelated statements incl. a dated publication-status claim"}
+ ],
+ "notes_fix": [
+  {"ref": "5#1", "find": "AP CSR 944 vs India 918", "replace": "Residual AP CSR 944 (undivided AP Census 2011: 939, APPSC 2019 key) vs India 918", "why": "ya09dfa341a8 keys AP Census 2011 CSR = 939"},
+  {"ref": "15#6", "find": "AP CSR: AP 944 vs India 918", "replace": "AP CSR: residual AP 944 (undivided AP 939, APPSC 2019 key) vs India 918", "why": "ya09dfa341a8"}
+ ],
+ "pyq_bad": [
+  {"id": "y068c91d610f", "why": "suspect key: AP Census 2011 CSR is 939 (APPSC 2019 key ya09dfa341a8), not 929"},
+  {"id": "yd9bf13093ff", "why": "garbled: stem year range '1991-20012' unreadable"},
+  {"id": "yabb45ea75c8", "why": "mental ability"},
+  {"id": "yc557af6d557", "why": "mental ability"},
+  {"id": "yfdbfe71e87e", "why": "mental ability"},
+  {"id": "y452c51e24b6", "why": "mental ability; options belong to another question"},
+  {"id": "ybe5fc19f75a", "why": "mental ability (data interpretation)"},
+  {"id": "y6d73a6b61a4", "why": "mental ability (data interpretation)"},
+  {"id": "y16b50d9cc36", "why": "mental ability (data interpretation)"},
+  {"id": "y08e14ac3465", "why": "mental ability (data interpretation)"},
+  {"id": "yd53a28dea11", "why": "mental ability"},
+  {"id": "y69743c7efdf", "why": "wrong topic: tribal society (Santhal marriage)"},
+  {"id": "y54d8b25a5de", "why": "wrong topic: health/mortality indicators"}
+ ],
+ "patterns": [
+  "APPSC tilt is heavily AP-specific: AP NFHS-4 sex ratio (1,020), AP Census 2011 child sex ratio (939), AP sex ratio by decade.",
+  "Direct one-number recall: India 2011 sex ratio 943, NFHS-5 1,020; 'only Kerala and Puducherry have more females' (asked as Pondicherry).",
+  "Match-the-value format: Puducherry 1,037, Tamil Nadu 996, Lakshadweep 946, AP 993.",
+  "Trap: undivided vs residual AP figures and Census vs NFHS figures differ; APPSC keys use undivided-AP Census numbers.",
+  "App adds many 2024-26 CRS/SRS/BBBP figures and district recasts that PYQs never touch; core census tables are well covered."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 20, "fixed": 1, "dropped": 2}
+}

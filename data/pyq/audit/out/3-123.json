@@ -1,0 +1,20 @@
+{
+ "topic": "3:123",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0a77a39f2a4", "why": "wrong topic: Rajasthan health insurance scheme; options truncated"},
+  {"id": "y9b9b55f1921", "why": "garbled options (truncated codes)"},
+  {"id": "y7904591a345", "why": "suspect key: no key given; option 3 garbled (Rs 1,00,00)"},
+  {"id": "yd50bc81e4b4", "why": "wrong topic: labour laws (Payment of Gratuity Act)"}
+ ],
+ "patterns": [
+  "Institution chronology is the classic shape: RRB 1975 -> NABARD 1982 -> SHG-Bank Linkage 1992 -> KCC 1998.",
+  "NABARD-as-answer items: RIDF created under/administered by NABARD; district PLPs prepared by NABARD (APPSC G2).",
+  "APPSC AP-specific scheme questions: PS-SBG by Andhra Bank, Stree Nidhi, Indira Prabha, Runa Mafi / zero-interest crop loan limits.",
+  "Sources of agricultural finance asked as 'all of the above' (commercial banks, RRBs, cooperatives).",
+  "App adds heavy 2026 credit-plan figures (SFP, ACP, SLBC) and generic banking-reform A-R items beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 31, "pyqs": 13, "fixed": 0, "dropped": 0}
+}

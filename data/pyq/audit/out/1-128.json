@@ -1,0 +1,27 @@
+{
+ "topic": "1:128",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n6d4dca9a592", "why": "ambiguous: Sher Shah's Rohtas fort is in Pakistan, but Rohtasgarh (also his) is in Rohtas district near Sasaram, Bihar"}
+ ],
+ "notes_fix": [
+  {"ref": "13#1", "find": "Kalinjar Fort Sher Shah Suri Invaded Kalinjar in 1531", "replace": "Kalinjar Fort Humayun; Sher Shah Suri Humayun besieged Kalinjar in 1531; Sher Shah died besieging it in 1545", "why": "1531 siege was Humayun's (notes 8#10); Sher Shah's Kalinjar siege was 1545 (ydc28af0e526, y8700bfab9b8)"}
+ ],
+ "pyq_bad": [
+  {"id": "ybd6927ee27a", "why": "wrong topic: current affairs (Musharraf biography)"},
+  {"id": "y242b2771d84", "why": "wrong topic: Akbar's administration (mansabdari)"},
+  {"id": "y653104912c7", "why": "garbled: explanation text of other questions pasted into stem"},
+  {"id": "yc18bfb49653", "why": "suspect key: Humayun's tomb is in Delhi; Babur (buried in Kabul) has no mausoleum in India"},
+  {"id": "ya007e577174", "why": "wrong topic: prehistory (Bhimbetka)"},
+  {"id": "y1f162671f44", "why": "wrong topic: Mughal administration (muhtasib)"},
+  {"id": "yc51d75ef908", "why": "garbled: option codes truncated; wrong topic: European impact"},
+  {"id": "y93760b8d9cd", "why": "wrong topic: Babur-era monuments"}
+ ],
+ "patterns": [
+  "APPSC asks Sher Shah revenue as a 3-statement item (three land classes, uniform measurement true; one-fourth false) and the GT Road as 'Indus to Sonargaon' / 'restored by Sher Shah'.",
+  "Wrong-pair items on battles (Jahangir-Chausa planted) and chronology of Humayun's battles (Devara, Chausa, Kannauj, Sirhind) recur across PSCs.",
+  "Other PSCs repeat: Sasaram tomb, death at Kalinjar, patta-qabuliyat, 'handful of millet' (Marwar, Jaita-Kumpa), Gulbadan's Humayun-nama, Purana Qila/Qila-i-Kuhna.",
+  "App is aligned in content but uses many two/three-statement items with fine officer terms (karkun, fotedar) and AP fort links beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 44, "pyqs": 38, "fixed": 0, "dropped": 1}
+}

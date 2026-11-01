@@ -1,0 +1,19 @@
+{
+ "topic": "2:119",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n3287caba071", "why": "ambiguous: both 'Andhra Pradesh' and 'Andhra State' given; PYQ y4b10e4cabe9 keys 'Andhra Pradesh'"},
+  {"id": "ne2432233f4e", "why": "opinion/source-referential item ('identified as often unrecognised')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ye445eebcea9", "why": "suspect key: SRC was set up in 1953; 1956 is the SR Act (no 1953 option)"}
+ ],
+ "patterns": [
+  "Core shape: first linguistic state = Andhra (1953), states reorganised in 1956; year-only options.",
+  "SRC membership questions (Fazl Ali, Panikkar, Kunzru) with Sapru / Pattabhi Sitaramayya as distractors; SR Act = 14 states + 6 UTs.",
+  "APPSC current-affairs tilt: AP first 75% private-job local quota (2019); Haryana's law struck down by High Court.",
+  "App adds many definitional/consequence multi-statement items (supra/inter/intra-state, positive vs negative) that PYQs do not test; some read as textbook-referential ('listed among', 'mentioned as')."
+ ],
+ "stats": {"app_mcqs": 29, "pyqs": 11, "fixed": 0, "dropped": 2}
+}

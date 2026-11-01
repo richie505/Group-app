@@ -1,0 +1,21 @@
+{
+ "topic": "1:6",
+ "mcq_fix": [{"id": "na53bba7da44", "s": "Consider the following pairs: a. Mohenjodaro — Citadel and lower town b. Harappa — Citadel and lower town c. Kalibangan — Citadel and fortified lower town d. Lothal — Citadel and lower town in one enclosure e. Sutkagendor — Citadel and lower city Which of the above pairs are correctly matched?", "o": ["a, b and c only", "a, b and d only", "c, d and e only", "a, b, c, d and e"], "why": "duplicate label 'a' in stem; relabelled a-e"}],
+ "mcq_drop": [{"id": "nindian-history-3-17", "why": "dubious trivia ('first artefact reported from Harappa')"}],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y1837f356bcb", "why": "wrong topic: colonial urban administration (Lottery Committee, Calcutta)"},
+  {"id": "y18c51948843", "why": "wrong topic: Census 2011 ST housing"},
+  {"id": "yf931bbe0f55", "why": "wrong topic: sports"},
+  {"id": "y491f24bdc85", "why": "mental ability (mensuration)"},
+  {"id": "y843041670a7", "why": "suspect key: IVC has no identified buildings of worship; burnt-brick buildings expected"},
+  {"id": "y7c238345360", "why": "garbled option (1)"}
+ ],
+ "patterns": [
+  "Site-identification is the dominant shape: Great Bath / Great Granary / most wells -> Mohenjodaro; three-part city -> Dholavira; port/dockyard -> Lothal; water management -> Dholavira.",
+  "Statement traps from CGPSC 2022: same brick size for all constructions and mostly single-storey houses are false; 10 m main streets true.",
+  "APPSC asks the hallmark (town planning) and the great granary site; little depth beyond that.",
+  "App has many multi-statement items on drainage, bricks and Dholavira that are deeper but sound; a few Harappa find-trivia items exceed PYQ depth."
+ ],
+ "stats": {"app_mcqs": 35, "pyqs": 16, "fixed": 1, "dropped": 1}
+}

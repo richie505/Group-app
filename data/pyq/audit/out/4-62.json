@@ -1,0 +1,28 @@
+{
+ "topic": "4:62",
+ "mcq_fix": [
+  {"id": "n45082475e2b", "s": "Which of the following correctly describes the distribution of women workers in India by category in Census 2011?", "o": ["About 24% of women workers were agricultural labourers and 24% were cultivators", "About 55% of women workers were agricultural labourers and 24% were cultivators", "About 55% of women workers were cultivators and 24% were agricultural labourers", "About 12.8% of women workers were agricultural labourers and 55% were cultivators"], "a": 1, "why": "55%/24% are shares of women workers by category, not women's share of all labourers/cultivators (women are ~43% of agri labourers)"}
+ ],
+ "mcq_drop": [
+  {"id": "nf068c788890", "why": "statement on Visakhapatnam household-industry share is unsupported/unverifiable; key rests on it"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ya6d8408bd57", "why": "wrong topic: earthquake-prone area / disaster management"},
+  {"id": "y41542fa86c5", "why": "wrong topic: nature of Indian agriculture"},
+  {"id": "y6047ef32f3a", "why": "wrong topic: India's population share of world"},
+  {"id": "yd84825a22ea", "why": "mental ability (essential-part reasoning item)"},
+  {"id": "yb2e02703a8f", "why": "garbled: stem and options mixed with a taxation question"},
+  {"id": "y53496fe36e8", "why": "wrong topic: AP bifurcation population share"},
+  {"id": "y81de1fa7ee7", "why": "wrong topic: agricultural productivity"},
+  {"id": "y51ca5637606", "why": "mental ability (ranking arithmetic); option 4 garbled"}
+ ],
+ "patterns": [
+  "Genuine APPSC items here are few and data-driven: share of workforce in agriculture (48.9% in 2011-12, NSS) and AP district extremes (Chittoor = cultivators, West Godavari = agricultural labourers).",
+  "APPSC Group-2 uses 'which is not true' statement sets with Census/NSS percentages; traps are swapped 2001 vs 2011 figures and services share.",
+  "Most PYQs filed here are misfiled (population, agriculture, disasters) or mental ability; core worker-definition questions (183 days, WPR denominator) come mostly from other PSCs.",
+  "App MCQs are heavy on 2025-26 PLFS figures and multi-number options; APPSC tends to ask one figure or one district at a time with an AP tilt.",
+  "Key AP facts worth drilling: MGNREGA launched at Bandlapalli (Anantapur) 2 Feb 2006; agricultural labourers ~48% of AP workers; AP WPR above national."
+ ],
+ "stats": {"app_mcqs": 37, "pyqs": 8, "fixed": 1, "dropped": 1}
+}

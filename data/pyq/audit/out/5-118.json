@@ -1,0 +1,25 @@
+{
+ "topic": "5:118",
+ "mcq_fix": [],
+ "mcq_drop": [{"id": "n792a974268c", "why": "obscure NFHS-5 schooling/child-marriage trivia beyond PYQ depth"}],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y924b3333d69", "why": "wrong topic: botany - annual rings / tree age"},
+  {"id": "yfbc961da13c", "why": "wrong topic: biology - myoglobin/iron in proteins"},
+  {"id": "y72eb546f346", "why": "wrong topic: biology/chemistry - cobalt in vitamin B12"},
+  {"id": "y90414a7b3d2", "why": "wrong topic: environment - ENVIS centres"},
+  {"id": "y93d43152b90", "why": "mental ability"},
+  {"id": "y2b1cdac0387", "why": "duplicate of y47a0861726d"},
+  {"id": "yc50eeb2ec66", "why": "wrong topic: biology terms - gerontology"},
+  {"id": "y392f3bd1650", "why": "wrong topic: computer basics - bytes in a megabyte"},
+  {"id": "yefbf7faf72b", "why": "wrong topic: chemistry - rusting"},
+  {"id": "y984e84b934e", "why": "wrong topic: immunity / communicable diseases"}
+ ],
+ "patterns": [
+  "APPSC asks direct data points: AP IMR as per NFHS-4 (35), life expectancy at Independence (~32), lowest-IMR state (Kerala).",
+  "Deficiency-disease one-liners (iodine-goitre, iron-anaemia) dominate the other-PSC PYQs.",
+  "NFHS coverage traps ('which is NOT included') and round-year matching recur.",
+  "App MCQs add many multi-statement items on NFHS-6/SOFI 2025 percentages that are more detailed than APPSC asks."
+ ],
+ "stats": {"app_mcqs": 31, "pyqs": 18, "fixed": 0, "dropped": 1}
+}

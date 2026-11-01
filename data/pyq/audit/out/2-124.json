@@ -1,0 +1,19 @@
+{
+ "topic": "2:124",
+ "mcq_fix": [
+  {"id": "n3b47a2ccea5", "s": "Match the following rights with the year or date of their recognition by the UN General Assembly. a. Right to development b. Right to water and sanitation c. Right to a clean, healthy and sustainable environment 1. 28 July 2010 2. 28 July 2022 3. 1986 Select the correct combination:", "why": "stem garbled: stray 'a. 1986' gave away the answer"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y223dab9a7fc", "why": "suspect key: privacy is protected by UDHR Art 12 and ICCPR Art 17"},
+  {"id": "y1dc516c0490", "why": "suspect key: right to work is also a second-generation right; two options correct"}
+ ],
+ "patterns": [
+  "Direct UDHR facts dominate: adopted 10 Dec 1948, Human Rights Day, 30 articles, 'not included' (universal basic income).",
+  "APPSC items: UDHR guides SDG agenda; July 2022 UNGA resolution = clean environment a universal human right; Human Rights Day theme (2016); UNHRC Asia-Pacific seats (13).",
+  "Generation classification (second generation = economic/social/cultural) and Amnesty International = global human rights movement are recurring.",
+  "App adds treaty-ratification status and HRC procedure in multi-statement form - deeper than PYQs but sound."
+ ],
+ "stats": {"app_mcqs": 31, "pyqs": 14, "fixed": 1, "dropped": 0}
+}

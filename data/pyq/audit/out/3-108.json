@@ -1,0 +1,26 @@
+{
+ "topic": "3:108",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n971f69d1288", "why": "oddly worded (a survey 'headquartered in Bangkok'); off-depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y78da3168ea7", "why": "wrong topic: India's export composition"},
+  {"id": "y3d9f14a0b64", "why": "wrong topic: AP SDG nodal department; options garbled"},
+  {"id": "y72dd7065165", "why": "wrong topic: AP SDG nodal department; options garbled"},
+  {"id": "yb99dbd5bf44", "why": "garbled (options truncated)"},
+  {"id": "yd28b23e5b98", "why": "wrong topic: international groupings (APEC)"},
+  {"id": "y8771cc88951", "why": "wrong topic: savings and capital formation"},
+  {"id": "y89489de00f7", "why": "wrong topic: Pakistan economy"},
+  {"id": "y4acbb5d66f0", "why": "garbled options"},
+  {"id": "y1ed91a44b40", "why": "wrong topic: India's exports"}
+ ],
+ "patterns": [
+  "Basic one-liner: Economic Survey is published by the Ministry of Finance (asked repeatedly).",
+  "APPSC asks specific findings of a named edition: ES 2016-17 (UBI, toilets), ES 2015-16 consumption-driven growth, ES 2018-19 debt repayment principle, ES 2024-25 services HFIs.",
+  "Other PSCs ask 'according to Economic Survey 20xx' statement items on fiscal response, FDI trend, services.",
+  "App covers CEA-wise signature ideas and lots of ES 2025-26 data; matches the 'finding of edition X' shape well but PYQs never ask CEA names."
+ ],
+ "stats": {"app_mcqs": 32, "pyqs": 16, "fixed": 0, "dropped": 1}
+}

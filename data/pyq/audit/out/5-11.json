@@ -1,0 +1,38 @@
+{
+ "topic": "5:11",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0deebb52291", "why": "suspect key: Alfred Nobel invented dynamite (2), key says 1"},
+  {"id": "y065c3f1c633", "why": "wrong topic: sports personalities"},
+  {"id": "y5b3424dd942", "why": "mental ability (data interpretation)"},
+  {"id": "y28bf73586f8", "why": "wrong topic: general awards (Pulitzer, journalism)"},
+  {"id": "ydaa98dd3877", "why": "wrong topic: human physiology (alcohol)"},
+  {"id": "y3370435f874", "why": "wrong topic: sports current affairs"},
+  {"id": "y9a0eeb37925", "why": "wrong topic: sports awards"},
+  {"id": "y63bd82562ce", "why": "wrong topic: books and authors (literature Nobel)"},
+  {"id": "y58c30f71984", "why": "wrong topic: books and authors (duplicate of y63bd82562ce)"},
+  {"id": "y52375fed8da", "why": "mental ability (set arithmetic)"},
+  {"id": "y6a13645ffc8", "why": "mental ability (data interpretation)"},
+  {"id": "y9c4b90f8436", "why": "wrong topic: optics (scattering of light)"},
+  {"id": "yed407cb4805", "why": "garbled: two questions merged, options belong to plant-biology item"},
+  {"id": "y28444985086", "why": "wrong topic: sports awards"},
+  {"id": "yf423d050094", "why": "wrong topic: sports awards"},
+  {"id": "yac6c84a780e", "why": "garbled: award column missing from options"},
+  {"id": "yfb2d627edd6", "why": "wrong topic: Padma awards"},
+  {"id": "y107295827a0", "why": "wrong topic: gene therapy (biotechnology)"},
+  {"id": "y574c85ebc57", "why": "garbled duplicate of yd4e28386620"},
+  {"id": "yfd89a05e25d", "why": "wrong topic: corporate awards"},
+  {"id": "y41bb43716c8", "why": "wrong topic: Padma awards (film)"},
+  {"id": "yd6674e516bf", "why": "wrong topic: particle physics (Higgs boson)"}
+ ],
+ "patterns": [
+  "APPSC asks Nobel basics: Nobel invented dynamite, Einstein's Nobel = photoelectric effect, first Indian Nobel (Tagore) and statement items on Indian-origin laureates (Khorana shared, Raman alone).",
+  "Bhatnagar Prize = science, given by CSIR; APPSC once asked a specific year's awardee (2010).",
+  "'Nobel equivalent' items recur: Fields Medal (mathematics), International Prize in Statistics (C.R. Rao).",
+  "Chandrasekhar = white dwarf limit / 'black hole' principle; Raman 1930 date questions are common in other PSCs.",
+  "App MCQs track these well but add 2024-26 items (RVP categories, Wolf Prize 2026, Nobel status rule) beyond PYQ depth; many PYQs filed here are sports/Padma/mental-ability strays."
+ ],
+ "stats": {"app_mcqs": 30, "pyqs": 58, "fixed": 0, "dropped": 0}
+}

@@ -1,0 +1,38 @@
+{
+ "topic": "1:243",
+ "mcq_fix": [
+  {"id": "n83271053487", "s": "Consider the following statements about the martyrs of the Quit India Movement: 1. Kanaklata Barua was 17 years old. 2. Matangini Hazra was shot while leading a flag procession. 3. Kanaklata Barua and Matangini Hazra were both associated with Tamluk in Bengal. Which of the statements given above are correct?", "why": "Kanaklata Barua (b. Dec 1924, shot Sept 1942) was 17, not 15"},
+  {"id": "n428b1568557", "o": ["Patriot of patriots — Jawaharlal Nehru", "Father of the Nation — Subhas Chandra Bose", "Netaji — Subhas Chandra Bose, as given by the people of Germany", "Ittefaq, Itmad, Qurbani — Indian National Congress"], "why": "Gandhi called Bose 'Patriot of patriots', so option 1 was also correct"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "16#22", "find": "Kanaklata Barua (Assam, aged 15)", "replace": "Kanaklata Barua (Assam, aged 17)", "why": "born 22 Dec 1924, killed 20 Sept 1942"}
+ ],
+ "pyq_bad": [
+  {"id": "ya85e0344675", "why": "suspect key: INA trial defence counsel = Bhulabhai Desai (Asaf Ali also), not C. Rajagopalachari"},
+  {"id": "yb391538d958", "why": "suspect key: Sahgal, Dhillon and Shah Nawaz were all tried; only Bhulabhai Desai (defence) was not"},
+  {"id": "y711b1cc1482", "why": "suspect key: same question y0c7dca597b6 keys Singapore, not Malaya"},
+  {"id": "y3b7f68c5aaa", "why": "garbled: stem truncated before statement 1"},
+  {"id": "yc86dfd55ee5", "why": "garbled stem and options (OCR noise)"},
+  {"id": "yc57665da026", "why": "garbled: OCR noise in stem"},
+  {"id": "y446e646c998", "why": "garbled: answer list prefixed to stem"},
+  {"id": "y7c6e62bcf75", "why": "garbled: book header in stem, option 4 truncated"},
+  {"id": "y0b5c7dfe2ea", "why": "garbled options; wrong topic: Independence for India League 1928"},
+  {"id": "ye03abcdee6f", "why": "wrong topic: economic plans (People's Plan 1945)"},
+  {"id": "ybd80a387ef3", "why": "wrong topic: Gandhi's 1943 fast / Quit India"},
+  {"id": "y2c1d04c5685", "why": "wrong topic: communal question / leaders' quotes"},
+  {"id": "y82acc6f8137", "why": "wrong topic: World War II (atomic bomb)"},
+  {"id": "y790133f923b", "why": "wrong topic: Surendranath Banerjea / ICS"},
+  {"id": "ye16bc81d696", "why": "wrong topic: Champaran Satyagraha"},
+  {"id": "ya2b56a2f69e", "why": "wrong topic: Gandhi and foreign-cloth boycott"},
+  {"id": "ye56a2d05243", "why": "wrong topic: Panchayati Raj nomenclature"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: Tripuri opponent (Pattabhi), Andhra Forward Bloc member (Madduri Annapurnaiah), where Azad Hind Fauj was started (Singapore), Azad Hind Radio (Germany), Dilli Chalo, Bose initiating planning (NPC 1938).",
+  "Red Fort trial items recur everywhere: accused trio Shah Nawaz-Sehgal-Dhillon, defence led by Bhulabhai Desai, 'who was NOT in the dock' (Rash Behari Bose).",
+  "Other PSCs repeat: Forward Bloc 1939, political guru C.R. Das, Rani Jhansi Regiment, first INA commander Mohan Singh, IIL by Rash Behari Bose, 21 Oct 1943, recognised by 9 countries, Nicobar = Swaraj.",
+  "Slogan traps: Do or Die = Gandhi, Quit India coined by Yusuf Meherally, Father of the Nation first used by Bose.",
+  "App MCQs match PYQ depth well; they add Quit India / August Offer context and AP Forward Bloc detail."
+ ],
+ "stats": {"app_mcqs": 44, "pyqs": 69, "fixed": 2, "dropped": 0}
+}

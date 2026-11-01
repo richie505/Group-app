@@ -1,0 +1,26 @@
+{
+ "topic": "2:163",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "7#4", "find": "APPSC 2018 keyed \"a and b\" as correct", "replace": "APPSC 2018 keyed \"a and c\" as correct (Gurugram; collocated with IMAC, run by Navy and Coast Guard)", "why": "ye5f606fad47 key is option 4 (a and c)"},
+  {"ref": "2#7", "find": "UPSC 2025: via Azerbaijan", "replace": "UPSC 2025: India to Central Asia to Europe via Iran", "why": "y1fb5127c0a2 key = option 1"},
+  {"ref": "11#1", "find": "UPSC 2025 keyed INSTC as linking \"India to Europe through Azerbaijan\"", "replace": "UPSC 2025 keyed INSTC as linking \"India to Central Asia to Europe via Iran\"", "why": "y1fb5127c0a2 key = option 1"}
+ ],
+ "pyq_bad": [
+  {"id": "y39bfb2000d0", "why": "wrong topic: sports personalities (squash)"},
+  {"id": "yae18cf13498", "why": "wrong topic: defence technology current affairs"},
+  {"id": "yef3ecf5ceaa", "why": "wrong topic: armed forces commands and establishments"},
+  {"id": "y89f42c0795a", "why": "garbled (duplicate of y325559e56b9 with broken options)"},
+  {"id": "y325559e56b9", "why": "wrong topic: world personalities / obituaries"},
+  {"id": "y120531a5a07", "why": "wrong topic: AP current events (sports)"}
+ ],
+ "patterns": [
+  "APPSC asks multi-statement security items (Chabahar vs Gwadar, Hambantota, Malabar-Quad, IORA) with traps planting wrong countries/funders (e.g. Gwadar 'in Yemen').",
+  "IFC-IOR is asked as statements on purpose, location (Gurugram) and administration; the key accepts Navy + Coast Guard joint administration.",
+  "Direct one-liners recur: Djibouti Code = anti-piracy, IPI = Peace pipeline, INSTC route via Iran.",
+  "Many filed PYQs here are actually world personalities/current events; the real topic PYQs are few and shallow.",
+  "App MCQs lean heavily on 2025-26 doctrines (MAHASAGAR, SHANTI, CTF-154, AIKEYME) that PYQs have not yet tested; core corridor/pipeline facts match PYQ depth."
+ ],
+ "stats": {"app_mcqs": 32, "pyqs": 11, "fixed": 0, "dropped": 0}
+}

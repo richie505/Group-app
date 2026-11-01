@@ -1,0 +1,25 @@
+{
+ "topic": "3:56",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nb1b0b4f7a16", "why": "oddly worded ('price-realisation toolkit mentioned'); notes-specific framing, no exam phrasing"},
+  {"id": "n4a60559a644", "why": "unverifiable, source-specific statistic (~40% storage idle)"},
+  {"id": "n3000db269fd", "why": "oddly worded: '60% of godowns operational' presented as a criticism; trivial distractor"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y9eb295a409f", "why": "garbled: options truncated (duplicate of y67ff3da7d81)"},
+  {"id": "yaab2ee16e5c", "why": "wrong topic: e-commerce business models (C2B)"},
+  {"id": "ye365dc5e686", "why": "wrong topic: Non-Aligned Movement"},
+  {"id": "yb1744cb30c7", "why": "wrong topic: Non-Aligned Movement summits"},
+  {"id": "y4aa93f6fce6", "why": "wrong topic: CVC / anti-corruption"},
+  {"id": "yeb3e1dd2f3f", "why": "wrong topic: farmers' organisations / movements"}
+ ],
+ "patterns": [
+  "APPSC asks short factual items: Central Agmark Lab at Nagpur, e-NAM reform required of states (e-trading), electronic auction via portal, Operation Greens announced in Budget 2018-19, Uzhavar Sandhai = Tamil Nadu, Krishi UDAN.",
+  "APPSC Group-1 uses assertion-reason on e-NAM performance (mostly intra-mandi trade) and the APLM Act 2017.",
+  "Other PSCs repeat: markets regulated by state APMC Acts, AGMARK = quality (issued by DMI, not FCI), e-Choupal = ITC, NAFED = apex marketing cooperative, 'Small Farmer Large Field'.",
+  "App MCQs go far deeper (FPO scheme norms, Operation Greens subsidy %, AP e-NAM data, model contract-farming clauses) than PYQs; keep the scheme-feature items but trim notes-specific statistics."
+ ],
+ "stats": {"app_mcqs": 61, "pyqs": 18, "fixed": 0, "dropped": 3}
+}

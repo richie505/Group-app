@@ -1,0 +1,36 @@
+{
+ "topic": "4:51",
+ "mcq_fix": [
+  {"id": "n8d22c6fc533", "s": "As per the Andhra Pradesh Socio-Economic Survey 2024-25, how many wildlife sanctuaries, national parks, deer parks and zoological parks does Andhra Pradesh have?", "why": "odd wording 'cited 2026/2024-25 compilations'"}
+ ],
+ "mcq_drop": [
+  {"id": "n07784776f5b", "why": "oddly worded; convoluted correct option"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y1f30d30cece", "why": "suspect key: SV National Park is noted for the endemic golden gecko (option 1), not spotted deer"},
+  {"id": "y4372e3301ba", "why": "suspect key: SV National Park is noted for the endemic golden gecko (option 1), not spotted deer"},
+  {"id": "y88bdbdb8700", "why": "wrong topic: protected areas of Tamil Nadu"},
+  {"id": "y29e46181c3d", "why": "wrong topic: biosphere reserves of India (Agasthyamala)"},
+  {"id": "y934328d7e4d", "why": "wrong topic: Cauvery-basin protected areas; garbled options"},
+  {"id": "yd7e1e309d10", "why": "garbled: stem missing; duplicate of Cauvery-basin item"},
+  {"id": "yd8059afd593", "why": "wrong topic: wildlife awards"},
+  {"id": "ya56cff33d4a", "why": "garbled options (states missing)"},
+  {"id": "y1edc8fbadd8", "why": "wrong topic: protected areas abroad (Bhutan)"},
+  {"id": "y950c9d97488", "why": "wrong topic: protected areas of Kerala"},
+  {"id": "yf797121ff60", "why": "wrong topic: protected areas of Chhattisgarh"},
+  {"id": "y55156900469", "why": "wrong topic: protected areas of Kerala"},
+  {"id": "y89074e926b5", "why": "wrong topic: protected areas of the North-East"},
+  {"id": "y0fecc3d5bfa", "why": "wrong topic: protected areas of India (Eastern-Western Ghats link)"},
+  {"id": "yfdc4e261395", "why": "wrong topic: lion translocation / Kuno"},
+  {"id": "ya23c5defa8b", "why": "garbled options (states missing)"},
+  {"id": "y4c9e34285a0", "why": "wrong topic: eco-sensitive zones of India"}
+ ],
+ "patterns": [
+  "APPSC asks species-to-sanctuary one-liners and matches: Koundinya = elephants, Coringa = saltwater crocodile, Rollapadu = GIB, Sri Lankamalleswara = Jerdon's courser, Gundla Brahmeswaram = tiger.",
+  "Chronology of notification (Nelapattu > Rollapadu > Kaundinya > Kolleru) and counts ('13 WLS as of 2019') are recurring shapes.",
+  "Traps: 'NOT a sanctuary in AP' with out-of-state distractors (Chinnar), Kolleru wrongly paired with Krishna river, Telineelapuram pelican mortality.",
+  "Many filed PYQs are pan-India PA locations; app instead goes deep into AP district reassignments, areas and survey figures."
+ ],
+ "stats": {"app_mcqs": 42, "pyqs": 29, "fixed": 1, "dropped": 1}
+}

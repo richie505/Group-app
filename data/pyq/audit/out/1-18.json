@@ -1,0 +1,34 @@
+{
+ "topic": "1:18",
+ "mcq_fix": [
+  {"id": "n6fbc98e5b45", "s": "Which archaeological site in Krishnagiri district, Tamil Nadu, has yielded iron AMS-dated to about 2172 BCE?", "why": "Mayiladumparai no longer the earliest: Sivagalai iron dated c. 2953-3345 BCE (2025); also removed duplicated A-D list"},
+  {"id": "nd668fbe2dec", "s": "The legend of Videgha Madhava is associated with which use of iron technology?", "why": "stem carried a duplicated A-D list in a different order from the options"},
+  {"id": "nc16fae2d45e", "s": "Which one of the following represents the correct chronological sequence of pottery traditions in Indian protohistory, from the earliest to the latest?", "why": "stem carried a duplicated A-D list in a different order from the options"},
+  {"id": "n7b538fb7dd3", "s": "In the context of Iron Age culture in Andhra Pradesh, which one of the following is correct?", "why": "stem carried a duplicated A-D list in a different order from the options"},
+  {"id": "n7b2926d47f4", "s": "Which of the following groups contains the four wares known in the Later Vedic phase?", "why": "stem's A-D list mislabelled vs options (A in stem = option 3)"},
+  {"id": "n8c35b4e13d1", "s": "Which of the following best describes Painted Grey Ware?", "why": "stem carried a duplicated A-D list in a different order from the options"},
+  {"id": "nb0961bac923", "s": "Which of the following is NOT a known site of Painted Grey Ware?", "why": "stem's A-D list mislabelled vs options"}
+ ],
+ "mcq_drop": [
+  {"id": "nf6d06f8d2c6", "why": "opinion item (scholarly debate), not an exam fact"}
+ ],
+ "notes_fix": [
+  {"ref": "3#6", "find": "2172 BCE: earliest iron use", "replace": "2172 BCE: early iron use (earlier claim; Sivagalai now older)", "why": "Sivagalai iron dated c. 2953-3345 BCE (TN report, Jan 2025)"},
+  {"ref": "12#3", "find": "AMS-dated to 2172 BCE; earliest iron-use evidence in India", "replace": "AMS-dated to 2172 BCE; was the earliest claim until the Sivagalai dates (2025)", "why": "contradicts the Sivagalai 2953 BCE row in the same table"}
+ ],
+ "pyq_bad": [
+  {"id": "y295257c514d", "why": "wrong topic: sports (Commonwealth Games 2022)"},
+  {"id": "yfa5a9cfbb75", "why": "wrong topic: art history matching"},
+  {"id": "y05e4d20bdeb", "why": "wrong topic: Indo-Roman trade (amphora)"},
+  {"id": "yaa020f9c781", "why": "wrong topic: Harappan pottery"},
+  {"id": "y510f66fa503", "why": "wrong topic: late Harappan sites"},
+  {"id": "y36ee458903c", "why": "suspect key: Later Vedic people knew four wares (BRW, BSW, PGW, Red Ware) = option 3, not option 1"}
+ ],
+ "patterns": [
+  "APPSC asks pottery identification: 1000-600 BC Gangetic plain pottery = Painted Grey Ware; Later Vedic wares list excludes NBPW.",
+  "Other PSCs ask Upanishadic king-kingdom pairs (Ashvapati - Kekaya), Kuru-Panchala as axis of Aryan culture, Bhagadugha as revenue collector.",
+  "Expect single-fact items on krishna ayas = iron and PGW sites (Hastinapur, Atranjikhera); OCP named at Hastinapur.",
+  "App MCQs are mostly sound but some stems embed duplicated A-D lists that do not match the options; app goes deeper into TN iron dates and ratnin lists."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 10, "fixed": 7, "dropped": 1}
+}

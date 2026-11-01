@@ -1,0 +1,31 @@
+{
+ "topic": "5:12",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n2d1cfaf47c2", "why": "Dubious: 'technology preservation = computer museum' is not a standard definition; ambiguous item"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y794ee7b78f4", "why": "mental ability (coding-decoding)"},
+  {"id": "y2934cbd9e4c", "why": "suspect key: telephone-dialled info on TV screen is teletext/videotex, not 'Telefax'"},
+  {"id": "y5b8442490ed", "why": "garbled: pair halves truncated"},
+  {"id": "y35850457fdf", "why": "garbled: option digits lost"},
+  {"id": "y18d30c06049", "why": "garbled: explanation text merged into stem/options"},
+  {"id": "y278babe6b3d", "why": "garbled: option letters in stem, junk options"},
+  {"id": "ya27fcae76c4", "why": "garbled + wrong topic: scientific instruments"},
+  {"id": "y26a63e0673e", "why": "wrong topic: physics - forces"},
+  {"id": "y568ba235973", "why": "wrong topic: audio electronics (Dolby noise reduction)"},
+  {"id": "ye1dc33a0549", "why": "wrong topic: physics - solar radiation/eye"},
+  {"id": "y1dce31eba7e", "why": "wrong topic: astronomy units (parsec)"},
+  {"id": "yf6f2858f447", "why": "wrong topic: astronomy (light-year)"},
+  {"id": "yccd689c2824", "why": "wrong topic: data communication - modulation"},
+  {"id": "ya85b0a696cb", "why": "wrong topic: television physics"}
+ ],
+ "patterns": [
+  "Mostly direct definitions: byte = 8 bits, RAM volatile / ROM permanent / BIOS in ROM, cache fastest, CPU = brain, ALU expansion, Babbage father of computer, Tim Berners-Lee WWW.",
+  "Classification items recur: input vs output device groups, system vs application software ('MS Word is application'), not-a-language/not-an-OS odd-one-out (APPSC 2019 Python vs OSes).",
+  "APPSC asks expansions (MPEG, ICT) and simple concept items (multimedia, bandwidth, AI) rather than statement sets.",
+  "App uses multi-statement formats on gates, Boolean identities, OS types and 2026 supercomputer news - deeper than PYQs but factually sound."
+ ],
+ "stats": {"app_mcqs": 40, "pyqs": 116, "fixed": 0, "dropped": 1}
+}

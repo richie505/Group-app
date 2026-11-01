@@ -1,0 +1,20 @@
+{
+ "topic": "4:97",
+ "mcq_fix": [
+  {"id": "ndec00f0cb38", "s": "As of July 2023, how many notified Special Economic Zones were there in Andhra Pradesh?", "why": "stem cites 'according to the APPSC figure'"},
+  {"id": "nabf5c7933e7", "s": "Divi's Laboratories, located in the Visakhapatnam region, is associated with which sector?", "why": "stem cites 'APPSC-G2 2023 matching'"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y74575aec6a3", "why": "garbled: stem fragments from other questions"},
+  {"id": "ybdd788e8e9c", "why": "wrong topic: agriculture (cotton yield)"}
+ ],
+ "patterns": [
+  "APPSC asks share/count figures straight from the AP Socio-Economic Survey: marine products 40% of India's exports, 19 operational / 32 notified SEZs, pharma SEZ count.",
+  "AP policy targets are a recurring shape (Retail Trade Policy 20,000 jobs; Aerospace & Defence Policy 5,000 jobs / Rs 20,000 cr) incl. assertion-reason form.",
+  "Unit-to-sector matching (Divi's = pharma) and 'which is NOT an AP export' (crude oil).",
+  "App mirrors the survey-figure style but adds many 2024-26 policy/EPI details; fine as long as figures track the latest survey."
+ ],
+ "stats": {"app_mcqs": 35, "pyqs": 6, "fixed": 2, "dropped": 0}
+}

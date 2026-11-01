@@ -1,0 +1,22 @@
+{
+ "topic": "3:99",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nc7eb472acbe", "why": "opinion item (policy dilemma framing)"},
+  {"id": "n2f7ddb05a48", "why": "opinion item ('identified as a criticism'), source-dependent"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ycd9f4ee6594", "why": "garbled (options truncated)"},
+  {"id": "y6a1d825bc2d", "why": "garbled (options truncated, pairs incomplete)"},
+  {"id": "y47dc14402cd", "why": "wrong topic: centrally sponsored education schemes (Saakshar Bharat)"}
+ ],
+ "patterns": [
+  "APPSC's favourite shape is a chairman match for the 10th-13th FCs (Pant, Khusro, Rangarajan, Kelkar); other PSCs ask single chairmen (1st Neogy, 12th Rangarajan, 14th Y.V. Reddy).",
+  "AP tilt: the 13th FC award apportioned between AP and Telangana under the AP Reorganisation Act 2014 (asked twice).",
+  "Devolution share per FC (12th 30.5%, 13th 32%) and award periods (13th 2010-15) are recurring single facts.",
+  "UPSC/UPPSC use statement items on 15th FC grants (Rs 4,800 cr education, tax effort reintroduced) and the 16th FC constitution date trap (2023 not 2024).",
+  "App MCQs track these well and add 16th FC weights and 2026 grant figures; criticism/opinion items are off-pattern."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 20, "fixed": 0, "dropped": 2}
+}

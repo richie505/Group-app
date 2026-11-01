@@ -1,0 +1,17 @@
+{
+ "topic": "1:124",
+ "mcq_fix": [{"id": "n4f1e407aa4a", "s": "Consider the following statements about Telugu folk theatre: 1. Koravanji was regarded as the ancient precursor of Yakshagana. 2. Sugreeva Vijayam by Kandukuri Rudra Kavi is the first published Yakshaganam in Telugu. 3. Under the Qutb Shahis, Bhagavata stories and Parijatam were confined to the royal court. Which of the statements given above are correct?", "why": "stem framed all statements as Qutb Shahi-period facts; statements 1-2 are not"}],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y4750a1540fc", "why": "wrong topic: classical dances of India (Kathakali)"},
+  {"id": "yb9d0efbe343", "why": "wrong topic: folk theatre of other states (Tamasha)"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-fact items: rural entertainment under Vijayanagara = Tholu Bommalata (y3e17bba682e), Harikatha Pitamaha = Adibhatla, earlier name of Burrakatha = Jangam Katha.",
+  "Options mix sibling folk forms (Harikatha, Burrakatha, Dramas, Bommalata) as distractors.",
+  "Persons-to-form matching (Adibhatla, Nazar, Siddhendra Yogi) is the recurring angle.",
+  "App leans heavily on 3-statement items about obscure works and communities (Pichukuntla, Asadi), deeper than PYQs show."
+ ],
+ "stats": {"app_mcqs": 28, "pyqs": 3, "fixed": 1, "dropped": 0}
+}

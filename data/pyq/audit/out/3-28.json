@@ -1,0 +1,42 @@
+{
+ "topic": "3:28",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n41014e30ab0", "why": "opinion/debate framing; no exam words it this way"},
+  {"id": "n277ee4fa12f", "why": "vague debate item, oddly worded options"}
+ ],
+ "notes_fix": [
+  {"ref": "9#7", "find": "Not in your sources: the revised stabilisation year projected after 2000.", "replace": "Revised: population stabilisation target later pushed from 2045 to 2070 (UPPCS 2014, 2023 keys).", "why": "y6381a01e692, y3debee4e620"}
+ ],
+ "pyq_bad": [
+  {"id": "y16447370c37", "why": "wrong topic: world population geography (South America density)"},
+  {"id": "yb534301f453", "why": "wrong topic: world population geography"},
+  {"id": "y1c0fdcf2d11", "why": "wrong topic: world population geography (East Asia density)"},
+  {"id": "y8704e5d62f9", "why": "wrong topic: world fertility rates"},
+  {"id": "y893e717ec8f", "why": "wrong topic: world fertility rates; suspect key: China not lowest TFR"},
+  {"id": "y4ddee9d32f8", "why": "suspect key: Rashtriya Vayoshri Yojana launched at Nellore (AP) 2017; options lack it"},
+  {"id": "y6ec34ecd02e", "why": "wrong topic: Census 2011 / caste enumeration"},
+  {"id": "y863aeef04b3", "why": "wrong topic: education schemes (SSA)"},
+  {"id": "yc7e7ec55dc7", "why": "wrong topic: air pollution / WHO air quality"},
+  {"id": "y003c3b5340c", "why": "garbled: stem carries another item's explanation; wrong topic: Census 2011 data"},
+  {"id": "y4c0d2a34b02", "why": "wrong topic: health financing"},
+  {"id": "y08644f33ce4", "why": "garbled: stem is an answer explanation, options belong to another question"},
+  {"id": "y447a016afe0", "why": "garbled options (truncated statement codes)"},
+  {"id": "y52718ea76ee", "why": "wrong topic: world population ranking"},
+  {"id": "yc8a675f3282", "why": "wrong topic: Census urbanisation (million cities)"},
+  {"id": "ybd54fb21de8", "why": "wrong topic: education schemes (SSA)"},
+  {"id": "y6dc4b8cea98", "why": "wrong topic: population theories (Malthus)"},
+  {"id": "y761d46e77c7", "why": "wrong topic: world population growth"},
+  {"id": "y7b010c20307", "why": "wrong topic: health care sector (NFHS-3)"},
+  {"id": "ye01db7bf468", "why": "wrong topic: disability schemes"},
+  {"id": "y21a40144157", "why": "wrong topic: Census 2001 state ranking"}
+ ],
+ "patterns": [
+  "Direct year/fact recall dominates: 1952 first programme (India first in world), NPP 2000 adopted, stabilisation 2045 (APPSC 2018).",
+  "Trap on stabilisation year: 2045 in NPP vs later revised 2070; several keys ask the revised year.",
+  "JSY objective (maternal + neonatal mortality, institutional delivery) recurs in single-fact and how-many-statements form.",
+  "Migration asked as largest stream (rural-rural, women/marriage) and theorist names (Lee, Ravenstein).",
+  "App adds heavy AP 2026 draft-policy and ageing-law content; PYQs never go that deep but AP tilt is reasonable; app avoids opinion items mostly."
+ ],
+ "stats": {"app_mcqs": 34, "pyqs": 42, "fixed": 0, "dropped": 2}
+}

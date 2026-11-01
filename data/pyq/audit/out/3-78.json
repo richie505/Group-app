@@ -1,0 +1,33 @@
+{
+ "topic": "3:78",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y5cf4642fac5", "why": "suspect key: most volatile flow is Foreign Portfolio Investment (option 3), 'Both' is meaningless"},
+  {"id": "y4b9d49f6c26", "why": "wrong topic: urbanisation / slums"},
+  {"id": "y6f04338a43a", "why": "wrong topic: urban population census"},
+  {"id": "yb99211a7b44", "why": "wrong topic: state population"},
+  {"id": "y0af95236761", "why": "wrong topic: urbanisation"},
+  {"id": "y12b6577f08b", "why": "wrong topic: state-wise exports"},
+  {"id": "yc01927bcfae", "why": "wrong topic: urbanisation"},
+  {"id": "y29100c6ca4c", "why": "wrong topic: China's Belt and Road Initiative"},
+  {"id": "ybe1fee5b61f", "why": "wrong topic: NABARD"},
+  {"id": "y7123713c3d4", "why": "wrong topic: agriculture policy"},
+  {"id": "yf184d017517", "why": "wrong topic: BIMSTEC"},
+  {"id": "yf6df1442b2f", "why": "wrong topic: G-8 membership"},
+  {"id": "ye51980b6706", "why": "wrong topic: urbanisation"},
+  {"id": "y9d845598e8f", "why": "wrong topic: industrial statistics"},
+  {"id": "y32c7a85b55f", "why": "wrong topic: hydroelectric power"},
+  {"id": "y19162619511", "why": "wrong topic: institutes"},
+  {"id": "y4343586c254", "why": "wrong topic: population density"}
+ ],
+ "patterns": [
+  "APPSC asks sector caps as single facts (multi-brand retail 51%, insurance cap in a named Budget) and prohibited sectors (chit funds).",
+  "Classification items: ADR/GDR capital, forms of foreign capital (FDI, trade credit, NRI deposits, ECBs), FDI vs FII difference.",
+  "Recurring UPSC-style traps: FDI is non-debt creating; portfolio investment is not FDI; P-Notes issued by registered FPIs.",
+  "Source-country questions (Mauritius/Singapore top source) and sector with highest inflows (services/telecom) recur.",
+  "App MCQs lean on 2025-26 data (gross vs net FDI, PN3 2026 amendment, e-commerce relaxation); FTAs/CEPAs in the title are barely covered by either notes or MCQs."
+ ],
+ "stats": {"app_mcqs": 47, "pyqs": 48, "fixed": 0, "dropped": 0}
+}

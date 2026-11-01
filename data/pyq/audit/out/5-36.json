@@ -1,0 +1,18 @@
+{
+ "topic": "5:36",
+ "mcq_fix": [
+  {"id": "n741dedb3cb9", "o": ["It operates with subsonic airflow at speeds below Mach 2.", "It eliminates the need for fuel during hypersonic flight.", "It uses oxygen from the atmosphere, thereby reducing the weight of onboard oxidiser.", "It uses a compressor to compress atmospheric air before combustion."], "why": "a scramjet does not 'carry' atmospheric oxygen; it draws it in"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8730c09d230", "why": "garbled: stray text from another question ('22 carats Gold contains by weight') in options"}
+ ],
+ "patterns": [
+  "Cryogenic engine basics dominate PSC PYQs: used in rocket technology/space shuttle; fuel LH2 + oxidiser LOX.",
+  "APPSC asks recent private space-tech as I/II statement items (Agnilet = first single-piece 3D-printed engine by Chennai's Agnikul) and reusable rocket names (Falcon, 2024).",
+  "Chemistry-flavoured propellant items (ammonium perchlorate as oxidiser) also appear.",
+  "App goes far deeper into ISRO engine cycles (CE-7.5 staged combustion vs CE-20 gas generator), SE2000, Hall thrusters - sound but above PYQ depth; current private-launch items fit APPSC's current-affairs tilt."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 9, "fixed": 1, "dropped": 0}
+}

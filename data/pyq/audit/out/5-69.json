@@ -1,0 +1,130 @@
+{
+ "topic": "5:69",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {
+   "id": "nchemistry-19-7",
+   "why": "ambiguous match (lead-acid is also rechargeable) and off-topic selenium pair"
+  }
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {
+   "id": "y39226d6848d",
+   "why": "garbled (options mixed with a Schedule/new-State question)"
+  },
+  {
+   "id": "yd4402daf1a8",
+   "why": "garbled (pairs truncated); wrong topic: chemistry"
+  },
+  {
+   "id": "ycccd64bb2f9",
+   "why": "wrong topic: electrochemistry (electrolyte conductivity)"
+  },
+  {
+   "id": "yabbf51b868d",
+   "why": "wrong topic: alloys (stainless steel)"
+  },
+  {
+   "id": "y3e6195edf44",
+   "why": "wrong topic: catalysts (hydrogenation)"
+  },
+  {
+   "id": "yc6e5c75737d",
+   "why": "wrong topic: corrosion / galvanisation"
+  },
+  {
+   "id": "y19a09ae5fe1",
+   "why": "wrong topic: allotropes of carbon"
+  },
+  {
+   "id": "y32fe8d82d9b",
+   "why": "wrong topic: properties of metals"
+  },
+  {
+   "id": "y0c0ede4d62c",
+   "why": "wrong topic: alloys (stainless steel)"
+  },
+  {
+   "id": "yf74cd72778f",
+   "why": "wrong topic: chemistry of alkali metals (F-centres)"
+  },
+  {
+   "id": "yf773fe1ff95",
+   "why": "wrong topic: metal ores"
+  },
+  {
+   "id": "y0d2a53396aa",
+   "why": "wrong topic: alloys"
+  },
+  {
+   "id": "ycf43f6c387f",
+   "why": "wrong topic: alloys (brass)"
+  },
+  {
+   "id": "y22db9387c73",
+   "why": "wrong topic: glass colouring agents"
+  },
+  {
+   "id": "y75eeb4a500c",
+   "why": "wrong topic: reactivity of metals"
+  },
+  {
+   "id": "ybd32bb161de",
+   "why": "wrong topic: alloys (brass)"
+  },
+  {
+   "id": "yc9a3887daa7",
+   "why": "wrong topic: alloys"
+  },
+  {
+   "id": "y357af046daa",
+   "why": "wrong topic: alloys (bronze)"
+  },
+  {
+   "id": "ycb5582bd780",
+   "why": "wrong topic: alloys (brass)"
+  },
+  {
+   "id": "yab332149f2e",
+   "why": "wrong topic: properties of elements"
+  },
+  {
+   "id": "y4f98c103ce1",
+   "why": "wrong topic: space centres (Sriharikota)"
+  },
+  {
+   "id": "y059715e82c3",
+   "why": "wrong topic: alloys (stainless steel)"
+  },
+  {
+   "id": "yb638531e774",
+   "why": "wrong topic: magnetism of metals"
+  },
+  {
+   "id": "y0fd1e40d811",
+   "why": "wrong topic: magnetism of metals"
+  },
+  {
+   "id": "y590002edb58",
+   "why": "wrong topic: alloys (German silver)"
+  },
+  {
+   "id": "yd070d4f45d5",
+   "why": "wrong topic: metal ores (bauxite)"
+  }
+ ],
+ "patterns": [
+  "APPSC asks basic electrochemistry: oxidation = loss of electrons; plus AP-specific first (high-energy storage device unveiled at Amaravati, 2018).",
+  "Battery chemistry one-liners from other PSCs: Ni-Cd electrodes and uses, dry cell electrolytes (NH4Cl + ZnCl2), dry cell not rechargeable.",
+  "Recent UPSC items: EV cathode elements (3 of 4, graphite is anode), FCEV exhaust = water vapour, alternative powertrains (all three).",
+  "Many PYQs filed here are generic metals/alloys chemistry, not storage; real storage-policy PYQs are scarce.",
+  "App MCQs lean heavily on 2025-26 policy data (PLI-ACC, ESO, Battery Waste Rules, BESS figures) beyond PYQ depth but sound."
+ ],
+ "stats": {
+  "app_mcqs": 34,
+  "pyqs": 39,
+  "fixed": 0,
+  "dropped": 1
+ }
+}

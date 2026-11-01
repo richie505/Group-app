@@ -1,0 +1,28 @@
+{
+ "topic": "4:58",
+ "mcq_fix": [
+  {"id": "n5ebd427bdf4", "s": "The population of Andhra Pradesh (present area) in the 1901 Census was:", "why": "stem cited an answer key; reworded"},
+  {"id": "na705077a4af", "s": "Andhra Pradesh's decadal population growth fell from its peak in 1981-91 to what level in 2001-11?", "why": "oddly worded stem tied to a news item"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y6ba363e323a", "why": "wrong topic: communications history; suspect key: telephone came to India in 1881-82, not 1951"},
+  {"id": "y0207d913973", "why": "wrong topic: forest cover (ISFR)"},
+  {"id": "y8977d761201", "why": "garbled"},
+  {"id": "y45791e1e69e", "why": "garbled (no key; duplicate of y6efbba5cf4a)"},
+  {"id": "y27a872f9962", "why": "wrong topic: area of states"},
+  {"id": "yd9280007e69", "why": "wrong topic: coal production"},
+  {"id": "y006236fb8ea", "why": "wrong topic: tribes (Shompen)"},
+  {"id": "y3692ba1235d", "why": "garbled: map not available"},
+  {"id": "yafd6693b68f", "why": "mental ability"},
+  {"id": "y25c1964b7c4", "why": "garbled: map missing; wrong topic: groundwater"}
+ ],
+ "patterns": [
+  "APPSC asks direct census facts: first synchronous census 1881, density 117 (1951) to 382 (2011), lowest density Arunachal, only negative-growth state Nagaland.",
+  "Old APPSC papers use Census 2001 rankings (highest density West Bengal, UT with lowest population Lakshadweep, 2nd/3rd most populous Maharashtra and Bihar) - beware mixing 2001 and 2011 figures.",
+  "AP-specific growth and 1901 population figures appear (AP growth decline, AP 1901 population).",
+  "App MCQs lean on Census 2027 current-affairs and multi-statement items; PYQs are short single-fact or pair questions."
+ ],
+ "stats": {"app_mcqs": 38, "pyqs": 17, "fixed": 2, "dropped": 0}
+}

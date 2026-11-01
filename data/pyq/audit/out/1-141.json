@@ -1,0 +1,19 @@
+{
+ "topic": "1:141",
+ "mcq_fix": [{"id": "n727703ee075", "s": "After Shahu's reign real power in the Maratha state passed from the Chhatrapati at Satara to the Peshwa, whose seat of power was at", "why": "Chhatrapati became a non-entity only under Balaji Bajirao (Sangola 1750), not from 1713 (y3f7a87a1593)"}],
+ "mcq_drop": [{"id": "n24b5b891862", "why": "statement 3 (army modernisation) is not a result of the 1771 recapture; oddly framed"}],
+ "notes_fix": [{"ref": "7#0", "find": "From 1713 (Balaji Vishwanath) real power moved from the Chhatrapati at Satara", "replace": "From 1713 (Balaji Vishwanath) power began moving, and under Balaji Baji Rao (Sangola 1750) the Chhatrapati became a non-entity, real power passing from the Chhatrapati at Satara", "why": "y3f7a87a1593: Peshwa virtual ruler from Balaji Bajirao"}],
+ "pyq_bad": [
+  {"id": "ye0b8bad7412", "why": "wrong options: match pairs missing, only battle names given"},
+  {"id": "y4fe74c76b72", "why": "wrong topic: Shivaji's titles"},
+  {"id": "yd202389eb48", "why": "wrong topic: Revolt of 1857 (princely loyalties)"}
+ ],
+ "patterns": [
+  "Direct one-liners: seat of the Peshwas (Poona), Panipat III opponents (Marathas vs Abdali), date 1761, chronicler Kashiraj Pandit.",
+  "Chronology of Peshwas (Balaji Vishwanath > Baji Rao I > Balaji Baji Rao > Madhav Rao I) is a recurring ordering item.",
+  "Treaty-pair items: Mungi-Shevgaon = Marathas-Nizam (APPSC 2025); Salbai ends First War; Bassein 1802.",
+  "Traps: when the Peshwa became virtual ruler (Balaji Bajirao, not Balaji Vishwanath); Pindaris = Maratha horsemen.",
+  "App leans on multi-statement UPSC-style items; APPSC asks mostly single-fact MCQs."
+ ],
+ "stats": {"app_mcqs": 42, "pyqs": 16, "fixed": 1, "dropped": 1}
+}

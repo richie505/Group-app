@@ -1,0 +1,23 @@
+{
+ "topic": "1:110",
+ "mcq_fix": [
+  {"id": "nb82dd92e24e", "s": "Consider the following pairs (Dynasty — Founder): 1. Tughlaq — Ghiyasuddin Tughlaq 2. Sayyid — Khizr Khan 3. Lodi — Bahlol Lodi 4. Mamluk — Iltutmish  Which of the pairs given above are correctly matched?", "why": "stem did not say pairs are founders; Iltutmish is a Mamluk ruler, so pair 4 was arguably correct"}
+ ],
+ "mcq_drop": [
+  {"id": "nbf79bd352fe", "why": "ambiguous: both Kaiqubad and Kayumars are given as last Slave ruler in standard sources, both are options"},
+  {"id": "n14afe07617e", "why": "near-duplicate of nfefefc53e77 (firsts: Aibak/Razia/Bahlol)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8ddb1944e8b", "why": "suspect key: Timur invaded (1398) under Nasiruddin Mahmud Tughlaq; Bahlul Lodi (key 2) is wrong and no option is correct"},
+  {"id": "y8a7eb8404a5", "why": "wrong topic: Vijayanagara culture / dance forms"}
+ ],
+ "patterns": [
+  "APPSC asks direct 'which Sultan' items: conquest of South completed under MBT; Ministry of Agriculture (Diwan-i-Kohi) = MBT; plus a match of Sultan vs reign years (Jalaluddin 1290-96, MBT 1324/25-51, Khizr Khan 1414-21, Bahlol 1451-89).",
+  "Other PSCs recycle the same facts: token currency, Agra founded by Sikandar Lodi, Ashokan pillars/canals/employment bureau/translation dept = Firoz, market control = Alauddin, longest dynasty Tughlaq, shortest Khalji, Bahlol longest reign.",
+  "Traps: Timur under the last Tughlaq (not MBT/Firoz), Mongols at Indus under Iltutmish, two Nasiruddin Mahmuds, Lakh Baksh = Aibak, Zil-i-Ilahi = Balban.",
+  "App MCQs mostly match PYQ depth; it adds AP angle (Kakatiya annexation 1323) and current-affairs (Rajon ki Baoli) and uses more statement-type items than the PYQs.",
+  "Reign-year matching is the main APPSC format here; app should keep Jalaluddin and Khizr Khan reign dates handy."
+ ],
+ "stats": {"app_mcqs": 33, "pyqs": 43, "fixed": 1, "dropped": 2}
+}

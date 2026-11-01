@@ -1,0 +1,26 @@
+{
+ "topic": "3:9",
+ "mcq_fix": [
+  {"id": "n0add1a44645", "o": ["5.27 per cent against a target of 4.5 per cent", "4.5 per cent against a target of 4.27 per cent", "3.27 per cent against a target of 4.5 per cent", "4.27 per cent against a target of 4.5 per cent"], "a": 3, "why": "Second Plan achieved growth is standardly 4.27% (target 4.5%), not 4.21%"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "2#5", "find": "achieved 4.21%", "replace": "achieved 4.27%", "why": "standard figure for Second Plan growth is 4.27%"},
+  {"ref": "11#15", "find": "achieved 4.21%", "replace": "achieved 4.27%", "why": "standard figure for Second Plan growth is 4.27%"}
+ ],
+ "pyq_bad": [
+  {"id": "ye63a7569746", "why": "suspect key: all four pairs are correct (John Mathai signed the Bombay Plan; Gandhian Plan = Shriman Narayan); option 3 is not mismatched"},
+  {"id": "y2a68cf094ac", "why": "garbled: stem carries an ISI passage glued to an unrelated land-use-board question"},
+  {"id": "y718313c6ccf", "why": "wrong topic: rural economy"},
+  {"id": "y117d1826e48", "why": "wrong topic: Economic Survey / budget documents"},
+  {"id": "y33b2b5711df", "why": "wrong topic: current affairs - Statistics Day themes"}
+ ],
+ "patterns": [
+  "APPSC repeatedly asks the plan-model one-liner: First Plan = Harrod-Domar, Second Plan = Mahalanobis (with Rudra-Manne, Sandy-Chakravarty, Solow as distractors).",
+  "Pre-independence plans as 'wrongly matched pair' items: Bombay Plan (industrialists - Tata, Birla, John Mathai; Rajaji is the trap), People's Plan - M.N. Roy, Gandhian - Shriman Narayan Agarwal, Sarvodaya - JP; NPC set up 1938.",
+  "Harrod-Domar logic tested as 'high savings but low growth because of high capital-output ratio' (UPSC 1995, 2018).",
+  "Mahalanobis side-facts: Heavy Sector Strategy, ISI founder, Statistics Day 29 June.",
+  "App adds deeper items (four-sector model, investment 7%->11%, Janata Rolling Plan, Ram Rajya) that are sound but beyond PYQ depth; PYQs mostly stay at name-model matching."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 26, "fixed": 1, "dropped": 0}
+}

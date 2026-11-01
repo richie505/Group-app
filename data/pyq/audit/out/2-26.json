@@ -1,0 +1,24 @@
+{
+ "topic": "2:26",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-polity-64-16", "why": "ambiguous 'prescribed or stated' count; item IV is derived, not prescribed"}
+ ],
+ "notes_fix": [
+  {"ref": "6#4", "find": "US President: only qualified veto (2/3 of Congress)", "replace": "US President: qualified veto (overridable by 2/3 of Congress) plus pocket veto (10-day rule); no absolute veto", "why": "US President also has a pocket veto (see 1#9)"},
+  {"ref": "11#2", "find": "US President has only a qualified veto, overridable by 2/3 of Congress", "replace": "US President has a qualified veto, overridable by 2/3 of Congress, and a pocket veto; no absolute veto", "why": "US President also has a pocket veto"}
+ ],
+ "pyq_bad": [
+  {"id": "yc49988eb6b2", "why": "mental ability / garbled arithmetic item"},
+  {"id": "y6cb0e2df856", "why": "garbled: option codes truncated ('only', 'and 4 only')"},
+  {"id": "yc12da19e4ee", "why": "garbled: options truncated mid-sentence"},
+  {"id": "y24e6836a500", "why": "suspect key: ordinance can amend Central Act and be retrospective but cannot abridge FRs, so I and III (3), not 1"}
+ ],
+ "patterns": [
+  "Pocket veto = Giani Zail Singh / Indian Post Office (Amendment) Bill is the most repeated fact (APPSC and other PSCs).",
+  "Ordinance asked directly by Article number (123) and as 'which statement is NOT correct' (President can withdraw it any time; lapses 6 weeks after reassembly).",
+  "Statement traps: ordinance cannot abridge FRs but can be retrospective and amend Acts; it is a legislative power of the President.",
+  "App covers ordinance case law (D.C. Wadhwa, Krishna Kumar Singh) and 38th/44th Amendment in depth - sound; pardoning power (Art. 72) named in the topic has no app MCQs."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 12, "fixed": 0, "dropped": 1}
+}

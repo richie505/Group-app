@@ -1,0 +1,22 @@
+{
+ "topic": "1:143",
+ "mcq_fix": [
+  {"id": "n7994bc81d83", "s": "Which work of Krishnadevaraya, containing the Mala Dasari Katha, is regarded as a prime literary example of the inclusion of lower groups?", "o": ["Andhra Mahabharatamu", "Manucharitramu", "Amuktamalyada", "Rajatarangini"], "why": "Mala Dasari Katha is an episode within Amuktamalyada, not another name for it"}
+ ],
+ "mcq_drop": [
+  {"id": "n2ebef72053e", "why": "near-duplicate of n0fe4486f0af (Narahari Tirtha - Dvaita - Srikurmam); keep the direct one"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y73552e4b5d6", "why": "wrong topic: modern Indian art / artists"},
+  {"id": "y109699dd66e", "why": "wrong options: pair halves missing, unanswerable"}
+ ],
+ "patterns": [
+  "Most frequent shape: philosophy -> founder (Vishishtadvaita = Ramanuja, Shuddhadvaita = Vallabha, Advaita = Shankara; Pushtimarga = Vallabha in APPSC G1).",
+  "Chronology items (Shankara - Ramanuja - Chaitanya) and 'first to preach in Hindi' = Ramananda recur across PSCs.",
+  "Ramananda: Kabir as disciple and the dictum 'Let no man ask a man's sect or caste'.",
+  "APPSC Andhra angle: Ramanuja's movement in Andhra = Bhakti movement; Statue of Equality in Hyderabad (UPSC 2022).",
+  "'Not correct' statement items as trap (Madhva did not preach Nirguna); app adds deep book/centre/Vyasa Tirtha detail beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 29, "pyqs": 22, "fixed": 1, "dropped": 1}
+}

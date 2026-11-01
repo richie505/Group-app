@@ -1,0 +1,25 @@
+{
+ "topic": "5:37",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n0131b1c3dfd", "why": "vague 'stated role' current-affairs item with silly distractors; not a communication-satellite fact"},
+  {"id": "n36daaff81e6", "why": "dubious/obscure claim (SDSC-SHAR supplying cyclone-track data to APSDMA)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0887c111a95", "why": "wrong topic: solar system (comet orbits)"},
+  {"id": "yba03ef6aa2f", "why": "wrong topic: gravitation (weight variation)"},
+  {"id": "y53e9c587640", "why": "wrong topic: physics (centrifugal force)"},
+  {"id": "y6b174e7f3d1", "why": "wrong topic: physics (circular motion)"},
+  {"id": "y81aef5120af", "why": "garbled: GSAT-8 question merged with a uranium-mining question"},
+  {"id": "yebf3c859596", "why": "wrong topic: international space news (China Shijian-20)"},
+  {"id": "y0af66f2df43", "why": "wrong topic: international space news (Russia Arktika-M)"}
+ ],
+ "patterns": [
+  "APPSC asks launch current affairs: GSAT-8 launch date (2011), a 'NOT correct about GSAT-30' statement trap (launched to GTO, not sun-synchronous) and foreign heaviest satellites.",
+  "Other PSCs ask basics: GEO at a fixed height regardless of mass, a 24-hour period, centripetal force supplied by gravity, INSAT = telecom/meteorological, GSAT-7 = military (Navy).",
+  "Recurring facts: INSAT-3C/GSAT-30 launched from Kourou, GSAT-10 was the heaviest in 2012, INSAT-4C (2,168 kg) failed, INSAT-2A launched 10 July 1992.",
+  "The app adds many 2024-26 items (CMS-03, GSAT-N2, band uses, DWS), mostly as multi-statement and match items. They are sound but go deeper than APPSC's single-line style."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 18, "fixed": 0, "dropped": 2}
+}

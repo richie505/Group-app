@@ -1,0 +1,27 @@
+{
+ "topic": "5:66",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ne6c3d85b1a5", "why": "vague undated 'was expected' current-affairs item, no context"},
+  {"id": "n0be45faa28a", "why": "industry-demand trivia with absurd distractors; off-depth"},
+  {"id": "na286f6b358f", "why": "dubious: 8 windy states hold well over 90% of wind potential, not 'two-thirds'"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y339f0951742", "why": "wrong topic: weather instruments (anemometer)"},
+  {"id": "ye18690c74d1", "why": "wrong topic: miscellaneous current affairs (word of decade)"},
+  {"id": "y7399daf9f38", "why": "wrong topic: cyclones/hurricanes"},
+  {"id": "yb7c2ffb22d1", "why": "wrong topic: human blood (plasma)"},
+  {"id": "yb8f7115ba54", "why": "garbled: statement options truncated"},
+  {"id": "yae2744fcd49", "why": "garbled: stem and options mixed, no key"},
+  {"id": "yc60b31d88a7", "why": "wrong topic: palaeontology / world geography"},
+  {"id": "y9f973a6f544", "why": "wrong topic: measuring instruments (audiometer)"}
+ ],
+ "patterns": [
+  "APPSC asks direct single facts: India's global rank in wind (4th) and largest wind state (Gujarat; Tamil Nadu is the classic trap).",
+  "Installed-capacity figure as of a dated cut-off (e.g. 39.25 GW on 31 Mar 2021) appears in APPSC departmental papers - one number with close distractors.",
+  "Other PSCs use 'which statement is not correct' on state shares/rankings (Gujarat, TN, MP).",
+  "App adds many 2-3 statement items on policies, VGF, NIWE and 2026 figures - deeper and more current-affairs heavy than APPSC PYQs; basic rank/state items match exam well."
+ ],
+ "stats": {"app_mcqs": 32, "pyqs": 11, "fixed": 0, "dropped": 3}
+}

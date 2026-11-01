@@ -1,0 +1,21 @@
+{
+ "topic": "1:43",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n6a5ef272297", "why": "oddly worded 'different traditions' item; PYQs fix Saka era = Kanishka, 78 AD"},
+  {"id": "nindian-history-142-32", "why": "trivially worded Kushana item off the Saka/Kshatrapa focus"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0478493498c", "why": "wrong topic: Chinese travellers (Sung Yun); options garbled"},
+  {"id": "y0a7a179cb5d", "why": "garbled option 1 (date missing); duplicate of y479f740dbac"}
+ ],
+ "patterns": [
+  "Era questions dominate: start years (Vikrama 57/58 BC, Saka 78 AD, Gupta 319/320 AD, Kali 3102 BC) as match-the-list items.",
+  "Conversion arithmetic is a recurring shape: AD = Saka + 78; Vikrama = Saka + 135 (y5a6897fea54, yf82adfe8fbf).",
+  "Chaitra 1 = 22 March (21 in leap year) asked repeatedly; Malav Samvat = Krit Samvat.",
+  "APPSC-specific: Nasik inscription for Govardhana weavers' deposit, Junnar = Ayama; Rudradaman's Junagadh = first long Sanskrit inscription.",
+  "App goes deeper into Kshatrapa branches and Sudarshana lake chain than PYQs; mostly sound."
+ ],
+ "stats": {"app_mcqs": 29, "pyqs": 10, "fixed": 0, "dropped": 2}
+}

@@ -1,0 +1,23 @@
+{
+ "topic": "4:86",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nf53eafc29cb", "why": "opinion item (criticisms 'cited' of PSU siting); no single-fact key"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ydd4088e2fa5", "why": "garbled: options truncated, industries missing from each pair"},
+  {"id": "y0b8d9dd1676", "why": "garbled: options list only places, paired industries missing"},
+  {"id": "y0caae9987d8", "why": "wrong topic: world geography - US shipbuilding centres"},
+  {"id": "yb20f32e6bfc", "why": "wrong topic: sports current affairs (IPL)"},
+  {"id": "yf9f1dbfef6a", "why": "wrong topic: institutions GK (Indian Diamond Institute)"},
+  {"id": "ya5f0273c391", "why": "wrong topic: agriculture research institutes"}
+ ],
+ "patterns": [
+  "PSC questions are centre-industry matching (Muri, Koyali, Panki, Aonla, Sivakasi, Gurgaon, Vizag) and region-resource links (Chotanagpur grew on coal).",
+  "Location-factor concept items: footloose = software/diamond (APPSC 2019); raw material not primary for electronics; cotton textiles spread because raw material is pure (A-R).",
+  "APPSC tilt: first Defence Industrial Corridor (Chennai-Bengaluru), AP corridor nodes (VCIC, CBIC-Krishnapatnam, HBIC-Orvakal), Sri City.",
+  "App adds heavy policy/current-affairs detail (BHAVYA, SEZ counts, NICDC, Budget 2026-27) beyond PYQ depth; classic regional matching is well covered."
+ ],
+ "stats": {"app_mcqs": 44, "pyqs": 12, "fixed": 0, "dropped": 1}
+}

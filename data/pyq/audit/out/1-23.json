@@ -1,0 +1,27 @@
+{
+ "topic": "1:23",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-history-79-4", "why": "off-topic medieval chronology (Takkolam, Tarain) misfiled under Mahajanapadas"},
+  {"id": "nindian-history-138-11", "why": "oddly worded 'how many associated with region A, or B, or C' item; no exam frames it so"}
+ ],
+ "notes_fix": [
+  {"ref": "11#3", "find": "Gandhara 20th and richest satrapy (Herodotus)", "replace": "Hindush (Indus region) 20th and richest satrapy (Herodotus); Gandhara a separate satrapy", "why": "Herodotus' 20th, richest satrapy was the 'Indians' (Indus region), not Gandhara"}
+ ],
+ "pyq_bad": [
+  {"id": "y3fe2641feda", "why": "wrong topic: Gooty fort inscriptions (AP medieval)"},
+  {"id": "yf8d4d6db52f", "why": "wrong topic: Navya-Nyaya philosophy; suspect key: founder is Gangesha, not Udayana"},
+  {"id": "y46399f62639", "why": "suspect key: Anarta was the Gujarat region, not the area south of the Ganga"},
+  {"id": "y7a6491d920b", "why": "wrong options: code options truncated ('and 4', 'and 4 only')"},
+  {"id": "y66ec9f083bd", "why": "wrong options: code options truncated ('and 4', 'and 4 only')"},
+  {"id": "y08130b2ef2a", "why": "garbled: depends on a missing map"}
+ ],
+ "patterns": [
+  "APPSC asks capital pairs (G1 2024: Avanti-Ujjain, Kosala-Shravasti, Vatsa-Kaushambi, Anga-Champa) and Assaka's capital Bodhan (G2 2012).",
+  "APPSC one-liners: Magadha most powerful in 6th-4th c. BCE; Bimbisara's dynasty = Haryanka; Charvaka = Lokayata.",
+  "Other PSCs: Anguttara Nikaya lists 16; Assaka on the Godavari; Suktimati = Chedi; Matsya = Rajasthan; Ahichchhatra = North Panchala; Nanda canal in Kalinga.",
+  "UPSC uses region-river pairs (Asmaka-Godavari, Kosala-Sarayu right; Kamboja-Vipas, Avanti-Mahanadi wrong) and kingdoms in Buddha's life.",
+  "App has many match/statement items on capitals and regions, plus Persian/Alexander and heterodox sects; depth broadly matches."
+ ],
+ "stats": {"app_mcqs": 52, "pyqs": 26, "fixed": 0, "dropped": 2}
+}

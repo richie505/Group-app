@@ -1,0 +1,31 @@
+{
+ "topic": "1:248",
+ "mcq_fix": [
+  {"id": "nindian-history-105-20", "o": ["Liaquat Ali Khan", "Baldev Singh", "Asaf Ali", "B.R. Ambedkar"], "a": 3, "why": "Azad joined the Interim Government as Education Member (Jan 1947) per APPSC key y571a35c6f72; Ambedkar was never a member (y8090b4fe0f8)"}
+ ],
+ "mcq_drop": [
+  {"id": "n4c4b7a9b870", "why": "opinion item ('particularly blamed')"},
+  {"id": "nindian-history-117-8", "why": "off-topic Jesuit missions to Akbar under Wavell/Cabinet Mission topic"}
+ ],
+ "notes_fix": [
+  {"ref": "7#3", "find": "Azad not in Interim Government", "replace": "Azad not in the original (2 Sept 1946) Interim Government; joined Jan 1947 as Education Member", "why": "APPSC key y571a35c6f72: Azad held Education"},
+  {"ref": "13#11", "find": "Abul Kalam Azad was not a member of the Interim Government in 1946", "replace": "Abul Kalam Azad was not in the Interim Government formed on 2 Sept 1946; he joined in Jan 1947 as Education Member", "why": "APPSC key y571a35c6f72"}
+ ],
+ "pyq_bad": [
+  {"id": "ye54d36c28fb", "why": "suspect key: Nehru headed it; Azad was the one not a minister on 2 Sept 1946"},
+  {"id": "y26e3a737262", "why": "suspect key: all portfolios incl. War to Indians = Cabinet Mission (same UPSC item yfe21e6d3cae keyed 4)"},
+  {"id": "y0e3d5f1677a", "why": "wrong options: all 1942 dates; Cabinet Mission arrived March 1946"},
+  {"id": "y82e27867b78", "why": "wrong topic: Quit India / Cripps Mission"},
+  {"id": "yea1d8583042", "why": "garbled: answer explanation in place of stem"},
+  {"id": "y8722064fc43", "why": "garbled date (Allahabad CWC was 1942); wrong topic: Quit India"},
+  {"id": "yffee798c384", "why": "wrong topic: Lok Sabha Speakers"}
+ ],
+ "patterns": [
+  "One-liners dominate: Cabinet Mission led by Pethick-Lawrence, members (Simon/William Wood as fake names), Direct Action Day 16 Aug 1946, Interim Government Sept 1946 under Nehru.",
+  "Interim Government portfolio matching is the most frequent APPSC/PSC shape (Patel-Home, Liaquat-Finance, Prasad-Food, Asaf Ali-Railways, Jagjivan Ram-Labour, Azad-Education).",
+  "Chronology chains (August Offer -> Cripps -> Wavell/Simla -> Cabinet Mission -> Mountbatten) recur in nearly every paper.",
+  "Constituent Assembly set up under Cabinet Mission Plan and three-tier polity are standard; app adds deep grouping/seat-share detail.",
+  "App wrongly taught Azad as never in the Interim Government; APPSC keys him as Education Member."
+ ],
+ "stats": {"app_mcqs": 50, "pyqs": 52, "fixed": 1, "dropped": 2}
+}

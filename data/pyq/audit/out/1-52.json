@@ -1,0 +1,24 @@
+{
+ "topic": "1:52",
+ "mcq_fix": [{"id": "ne230abcd224", "s": "Consider the following statements: 1. N. Venkataramanayya identified 'Sri Parvataswamy' with the Buddha. 2. Sriparvataswami was the family deity of the Vishnukundins. Which of the statements given above is/are correct?", "a": 2, "why": "y51506655ca1 key: N. Venkata Ramanaiah identified Sriparvata Swamy with Buddha, not Kielhorn"}],
+ "mcq_drop": [
+  {"id": "n168c668d82b", "why": "dubious: notes admit Sriparvata University is also credited to Nagarjuna"},
+  {"id": "ne5a502f4260", "why": "ambiguous: Rajagirika's centre given as Guntupalli in notes, Sriparvatam in key"},
+  {"id": "nf8b194768c1", "why": "oddly worded ('according to the APPSC key'); Bodhisri's inscription is usually dated to Virapurushadatta's reign"},
+  {"id": "n6183482b1af", "why": "dubious/obscure: Mahavamsa's Mahadeva attended the Great Stupa rite, did not 'take Buddhism' to Sri Lanka"}
+ ],
+ "notes_fix": [
+  {"ref": "1#0", "find": "Kielhorn Sri Parvataswamy = Buddha", "replace": "N. Venkataramanayya Sri Parvataswamy = Buddha", "why": "y51506655ca1 key = N. Venkata Ramanaiah"},
+  {"ref": "7#3", "find": "Sri Parvataswamy = Buddha: Kielhorn (G2 2019 key), not N. Venkataramanayya", "replace": "Sri Parvataswamy = Buddha: N. Venkataramanayya (APPSC G2 key), not Kielhorn", "why": "y51506655ca1"},
+  {"ref": "9#0", "find": "Kielhorn Identified Sri Parvataswamy with the Buddha (G2 2019 key)", "replace": "N. Venkataramanayya Identified Sri Parvataswamy with the Buddha (APPSC G2 key)", "why": "y51506655ca1"},
+  {"ref": "9#2", "find": "a one-liner credits N. Venkataramanayya - go with Kielhorn", "replace": "APPSC G2 key credits N. Venkataramanayya, not Kielhorn", "why": "y51506655ca1"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "APPSC asks single-fact attribution items: who identified Sriparvata Swamy with Buddha, which king gave greatest patronage, tutelary deity (Hariti).",
+  "Traveller traps recur: Itsing vs Fahien vs Hiuen Tsang (Suhrllekha).",
+  "Sect-centre pairs (Purvasailiya-Amaravati, Aparasailiya-Nagarjunakonda) and dynasty-deity matching are typical shapes.",
+  "App MCQs dig into inscription-level detail (pillar donors, Bodhisri's country list) far deeper than the PYQs."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 1, "fixed": 1, "dropped": 4}
+}

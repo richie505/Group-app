@@ -1,0 +1,37 @@
+{
+ "topic": "3:89",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n2f5e08231aa", "why": "obscure data trivia (household equity share FY12-FY25)"},
+  {"id": "n1f52f7d322d", "why": "obscure data trivia (corporate bond % shares)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y32e19fb243d", "why": "mental ability (profit and loss); garbled options"},
+  {"id": "y37221fe73c8", "why": "wrong topic: taxation / fiscal federalism"},
+  {"id": "ydb08c9412da", "why": "wrong topic: monetary policy tools (Operation Twist)"},
+  {"id": "y4a5a2e7a8ab", "why": "garbled: option numbers lost, book footer in stem"},
+  {"id": "yc66f535e5d9", "why": "garbled: option numbers lost"},
+  {"id": "y0c9f7a6e4f3", "why": "garbled: option numbers lost"},
+  {"id": "ydb3cdc0a63d", "why": "garbled: option numbers lost"},
+  {"id": "yaf48529909c", "why": "garbled: stray text from another question in stem/options"},
+  {"id": "y26be2463803", "why": "garbled: CFMS question mixed with planning/capital-market text"},
+  {"id": "y6afebd21736", "why": "garbled preamble; wrong topic: BRICS / international organisations"},
+  {"id": "y1933b7c2975", "why": "wrong topic: BRICS / New Development Bank"},
+  {"id": "y0d9272f181d", "why": "wrong topic: BRICS"},
+  {"id": "y4d98e965d9d", "why": "wrong topic: BRICS"},
+  {"id": "y7eaa5e3c87d", "why": "wrong topic: BRICS; suspect key: first summit was 2009 in Russia (true); 46% of global trade (3) is the false one"},
+  {"id": "yfbcc99d2d78", "why": "wrong topic: BRICS"},
+  {"id": "y32459c2554b", "why": "wrong topic: BRICS"},
+  {"id": "ya1df20d0405", "why": "wrong topic: BRICS"},
+  {"id": "y9c3d71486c0", "why": "mental ability (range of data)"}
+ ],
+ "patterns": [
+  "APPSC asks direct definitions: T-bill maturities (91, 182, 364 days), gilt-edged market = Treasury Bills + government bonds.",
+  "Other PSCs/UPSC repeat: CP = short-term unsecured note for corporates, call money = inter-bank, CBLO = money market, T-bills issued at discount by RBI.",
+  "Classification traps: which markets are capital vs money market (bond and stock = capital; call and T-bill = money).",
+  "Newer UPSC items: AIF categories (hedge funds, venture capital), sustainability bond, InvITs.",
+  "App MCQs are well aligned but add 2025-26 data points (household equity share, Budget 2026-27, SEBI accredited-investor AIF) beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 32, "pyqs": 41, "fixed": 0, "dropped": 2}
+}

@@ -1,0 +1,34 @@
+{
+ "topic": "3:110",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n323c712b680", "why": "factually dubious: 15,454 / 8,979 cannot be 2015-16 PCI (AP PCI 2015-16 was about Rs 1.08 lakh)"},
+  {"id": "n78622da8d85", "why": "obscure SRC-era trivia beyond PYQ depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y82abfd6d0b5", "why": "suspect key: EAC-PM report gives AP 4.7%, Telangana 4.9% (option 1), as notes 12#2 record"},
+  {"id": "y7f9a01222ef", "why": "suspect key: Russia, not China, had the highest per capita income among BRICS"},
+  {"id": "y5160383ec9a", "why": "suspect key: Haryana's per capita income exceeded Karnataka's in the early 1990s"},
+  {"id": "y7e5de48749a", "why": "wrong topic: inflation / foreign investment"},
+  {"id": "yfba9f850c9d", "why": "wrong topic: population geography"},
+  {"id": "y7e8f5a25847", "why": "wrong topic: current affairs (mobile gaming)"},
+  {"id": "yb8189c379ae", "why": "wrong topic: health/malnutrition"},
+  {"id": "y19ee401b220", "why": "wrong topic: general economic policy (opinion A-R)"},
+  {"id": "yd84ea8c8466", "why": "mental ability (data interpretation; chart missing)"},
+  {"id": "yea0670ecbb9", "why": "wrong topic: urbanisation"},
+  {"id": "y902a338ed54", "why": "wrong topic: literacy"},
+  {"id": "yaa1ae09d4d1", "why": "wrong topic: savings rate; options garbled"},
+  {"id": "yb86019606a9", "why": "wrong topic: population density"},
+  {"id": "yfd98fd55b5e", "why": "garbled: Swachh Survekshan text glued to an open-defecation A-R; wrong topic"},
+  {"id": "y475c859fc7e", "why": "wrong topic: energy / electricity generation"}
+ ],
+ "patterns": [
+  "APPSC asks AP-specific numbers lifted from the Socio-Economic Survey/press: AP PCI Rs 2.07 lakh (2021-22) vs Rs 7,781 (1960); India 2023-24 PCI Rs 1,84,205 below AP's (statement pair).",
+  "EAC-PM state-share question (AP 4.7%, Telangana 4.9%) and national PCI growth figures are typical one-number recall.",
+  "Concept A-R: PCI can fall while national income rises if population grows faster (APPSC G1).",
+  "Other PSCs ask state rankings by PCI (Goa/Haryana/Maharashtra top) - often dated and key-sensitive.",
+  "App MCQs cover AP-India PCI tables, Telangana comparisons and district disparities in more detail than PYQs; some items rest on revisable estimate series."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 28, "fixed": 0, "dropped": 2}
+}

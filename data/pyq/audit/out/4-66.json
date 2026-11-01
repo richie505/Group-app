@@ -1,0 +1,25 @@
+{
+ "topic": "4:66",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n6e8bb6c0d49", "why": "obscure Guha sub-type trivia (Palaeo- vs Tibeto-Mongoloid peoples) beyond PYQ depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y5807dbed803", "why": "wrong topic: HIV/AIDS world distribution (health)"},
+  {"id": "y0a68dccbcad", "why": "wrong topic: temple architecture styles"},
+  {"id": "y3fc6488a77a", "why": "wrong topic: West Asia geography / current affairs (Golan Heights)"},
+  {"id": "yc522f7d0b76", "why": "wrong topic: West Asia geography / current affairs (Golan Heights); duplicate of y3fc6488a77a"},
+  {"id": "y45f819876eb", "why": "wrong topic: Chhattisgarh tribal culture"},
+  {"id": "y7dc7905a7c9", "why": "garbled options (stray numbers), no key; wrong topic: blood groups (biology)"},
+  {"id": "y331edaa0d69", "why": "wrong topic: disaster management (earthquakes)"}
+ ],
+ "patterns": [
+  "PYQs ask single-fact 'which race/tribe' items: Santhal = Proto-Australoid, NE hill tribes = Mongoloid, China/Japan/Mongolia and Native Americans = Mongoloid.",
+  "Distractors are other race names (Austric, Caucasoid, Dinaric, Mediterranean, Nordic); the trap is mixing linguistic (Austric, Dravidian) with racial labels.",
+  "No PYQ tests Risley vs Guha scheme details, cephalic/nasal index thresholds or AnSI facts; the app goes much deeper (index values, sub-types, ICERD).",
+  "App relies heavily on multi-statement and match-list formats while PYQs here are plain 4-option direct questions.",
+  "AP angle (Chenchus = Proto-Australoid) is app-only; a likely APPSC-style direct question."
+ ],
+ "stats": {"app_mcqs": 38, "pyqs": 11, "fixed": 0, "dropped": 1}
+}

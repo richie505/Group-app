@@ -1,0 +1,27 @@
+{
+ "topic": "3:40",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y4df2cf12286", "why": "suspect key: SBM-G Phase II runs 2020-21 to 2024-25 (option 3)"},
+  {"id": "y477ce533223", "why": "suspect key: CDP objective is improving rural standards of living (option 2), not political training"},
+  {"id": "y7fdc58454be", "why": "garbled: unrelated Aadhaar text spliced into stem"},
+  {"id": "yd69931732de", "why": "garbled: pair options truncated"},
+  {"id": "ydb5f13f2ba8", "why": "garbled: pair options truncated, stray text in stem"},
+  {"id": "yfd99ce6e00e", "why": "garbled: pair options truncated"},
+  {"id": "y240d6dc7ef4", "why": "garbled duplicate of y1b84b01a5ae"},
+  {"id": "y2de2cbf3292", "why": "garbled: options truncated, key unreadable"},
+  {"id": "y7b2c8bde519", "why": "wrong topic: COVID-19 vaccination campaign"},
+  {"id": "y6e31fbc9ce6", "why": "wrong topic: Aadhaar"},
+  {"id": "y6cee4801f19", "why": "wrong topic: tribal governance initiative"},
+  {"id": "y8742ea0c58f", "why": "wrong topic: urban infrastructure"}
+ ],
+ "patterns": [
+  "APPSC asks scheme -> objective/date one-liners: SPMRM launched 21 Feb 2016 (asked twice), SPMRM objective, Mission Antyodaya = rural development, JJM = tap water to every rural household by 2024.",
+  "Bharat Nirman component questions recur (APPSC G2: NRLM is NOT part of it; others: SSA, agro-industries, rural hospitals not included).",
+  "Chronology/firsts across PSCs: Etawah pilot 1948, CDP 1952, NES 1953 (first CD programme), PURA = Abdul Kalam, PMGSY plains norm 500.",
+  "App MCQs add 2026 data (JJM 2.0 outlay/sharing, PMAY-G progress, AP JJM coverage, AP budget) and multi-statement items; PYQs stay at scheme-name/year depth."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 46, "fixed": 0, "dropped": 0}
+}

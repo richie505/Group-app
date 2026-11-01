@@ -1,0 +1,23 @@
+{
+ "topic": "5:53",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n1fe12062b63", "why": "obscure monsoon-rainfall trivia, off this topic's depth"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8010c9314a9", "why": "wrong topic: measuring scales (Richter)"},
+  {"id": "y2e086b0f16c", "why": "wrong topic: units of mass"},
+  {"id": "yd9566125f06", "why": "mental ability (letter-number analogy)"},
+  {"id": "yc3497fbf7ec", "why": "garbled options (truncated codes)"},
+  {"id": "ybaff3443012", "why": "mental ability (variance calculation); garbled"},
+  {"id": "y2ccf82e9ddc", "why": "garbled: pairs truncated to one side"}
+ ],
+ "patterns": [
+  "APPSC asks the publisher of 'Energy Statistics' (CSO) and the per-capita consumption/well-being link as one-line concept items.",
+  "Most PSC items on this topic are kWh/unit arithmetic (bulb watts x hours) and unit definitions, not deficit data.",
+  "Other PSCs ask 'energy crisis' meaning and solar as second source after fossil fuels.",
+  "App is heavily current-data driven (2025-26 peak GW, NGAP, AP roadmap); far deeper than PYQs, which never quote GW figures."
+ ],
+ "stats": {"app_mcqs": 45, "pyqs": 10, "fixed": 0, "dropped": 1}
+}

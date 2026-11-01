@@ -1,0 +1,24 @@
+{
+ "topic": "3:8",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nd900e234d8f", "why": "dubious attribution (JP Narayan Committee 1961 on plan centralisation)"},
+  {"id": "n16389f4f85a", "why": "opinion item ('standard criticism')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ycd168145dd5", "why": "suspect key: first Planning Commission chairman was Nehru, not K.C. Pant (cf. ye9e4f0bb2df)"},
+  {"id": "ye9e4f0bb2df", "why": "garbled: OCR junk in stem and options"},
+  {"id": "y591b0af36e4", "why": "garbled: merged with a missile question; option 4 'Dhanush'"},
+  {"id": "ybe2d59ccdac", "why": "garbled: stem starts with another question's explanation, options truncated"},
+  {"id": "y2077becfda1", "why": "wrong topic: Union Budget 2024-25 oilseeds"}
+ ],
+ "patterns": [
+  "APPSC repeats: Planning Commission set up 1950 by executive resolution; PM is ex-officio chairman; first chairman Nehru.",
+  "Rolling plan is a favourite: period 1978-80 (APPSC 2025 twice), novel idea of draft Sixth Plan (G1), Myrdal, Janata government.",
+  "Objectives: principal goal growth; 'social equality' / 'literature' as the odd one out.",
+  "Imperative vs indicative asked as a definitional difference; India indicative from the Eighth Plan.",
+  "App adds AP economic regions and NITI items; PYQs stay on institutional dates and rolling plan."
+ ],
+ "stats": {"app_mcqs": 37, "pyqs": 16, "fixed": 0, "dropped": 2}
+}

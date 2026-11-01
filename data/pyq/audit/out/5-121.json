@@ -1,0 +1,25 @@
+{
+ "topic": "5:121",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n174db73fab7", "why": "oddly worded: three trivially-linked statements, no testable fact"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y38489a0c20c", "why": "garbled: stem fused with previous explanation"},
+  {"id": "yb8eb99e2132", "why": "garbled: stem fused with previous explanation"},
+  {"id": "y70fb2fa5f26", "why": "wrong options: options garbled (Cameroon/Congo merged, 'I, II and III')"},
+  {"id": "yd640eb5f09a", "why": "wrong topic: human health / medicines (beta blockers)"},
+  {"id": "yae183eb156d", "why": "wrong topic: human health (golden hour)"},
+  {"id": "yb25036368d3", "why": "wrong topic: human physiology (heart attack)"},
+  {"id": "ycef2b2fef03", "why": "wrong topic: genetic disorders"}
+ ],
+ "patterns": [
+  "APPSC asks single-year/target facts: Pulse Polio 1995, MERA India malaria target 2030, sickle cell 2047 (A/R passage form)",
+  "Current-report numbers recur: India TB Report 2022 notification rise (19%)",
+  "Firsts: first genetically engineered vaccine (Hep B), first country to roll out malaria vaccine for children",
+  "Other PSCs ask HIV-1C strain, ELISA for AIDS, polio-free certification date, bivalent OPV",
+  "App adds many 2025-26 AP/NACO figures and multi-statement sets deeper than PYQs"
+ ],
+ "stats": {"app_mcqs": 34, "pyqs": 21, "fixed": 0, "dropped": 1}
+}

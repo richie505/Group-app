@@ -1,0 +1,27 @@
+{
+ "topic": "1:142",
+ "mcq_fix": [
+  {"id": "n462439e484e", "s": "Vallabhacharya, the exponent of Pushtimarg, was:", "why": "odd stem wording ('described in the Andhra-related context')"},
+  {"id": "n1ef2d29e5bb", "s": "Which of the following are correctly matched? 1. Karnataka — Basavanna and Akkamahadevi — Vachanas 2. Maharashtra — Tukaram — Abhangas 3. North India — Tulsidas — Ramcharitmanas in Awadhi 4. Bengal — Chaitanya — Kirtans", "why": "stem said 'which one pair' but uses multi-item codes"}
+ ],
+ "mcq_drop": [
+  {"id": "na3d69dcc85c", "why": "oddly worded stem built on a negative trap"},
+  {"id": "nindian-history-22-4", "why": "off-topic (Jainism, Phule), garbled option 'Kshatriya class a', dubious Jamali-warrior-caste pairing"},
+  {"id": "n631133bbd42", "why": "statement 2 (rejected idol worship) false for Saguna stream; ambiguous"}
+ ],
+ "notes_fix": [
+  {"ref": "12#3", "find": "Rejected: Idol worship, ritual", "replace": "Rejected (esp. Nirguna saints; Saguna saints kept idol worship): Idol worship, ritual", "why": "Saguna bhakti (Tulsidas, Chaitanya, Vallabha) worshipped images"}
+ ],
+ "pyq_bad": [
+  {"id": "y365ac5505de", "why": "wrong topic: Shiva iconography / temple art"},
+  {"id": "y81d51d21a40", "why": "wrong topic: Jainism - Mahavira"}
+ ],
+ "patterns": [
+  "PYQs are direct single-fact items: author of a work (Prem Vatika = Raskhan), guru-disciple (Daya Bai - Charandas), number (navadha bhakti = 9).",
+  "Origin questions: movement started by the Alvars; Nathpanthis/Siddhas popularised devotion in Northern India.",
+  "Women saints and their compositions appear as match-the-pair items.",
+  "APPSC tilt: Nirguna saint = Kabir; Siddhacharya trap (Udbhata); Andhra figures (Palnati Brahmanayudu, Vemana, Palkuriki Somanatha).",
+  "App leans heavily on 3-statement and interpretive items (scholarly debate, significance) that the exam rarely uses."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 10, "fixed": 2, "dropped": 3}
+}

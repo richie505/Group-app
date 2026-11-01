@@ -1,0 +1,31 @@
+{
+ "topic": "1:197",
+ "mcq_fix": [
+  {"id": "n96e4dcb5ad4", "o": ["The age of consent is 18 years under POCSO/BNS, while the minimum age of marriage is 18 years for women and 21 years for men under the PCMA, 2006.", "The age of consent is 21 years, while the minimum age of marriage is 18 years for both men and women.", "The age of consent is 16 years, while the minimum age of marriage is 18 years for women and 21 years for men.", "Both the age of consent and the minimum age of marriage are uniformly fixed at 21 years under the PCMA, 2006."], "why": "options 1 and 3 both stated the correct position; made option 3 false"},
+  {"id": "n78fc3cb0ce8", "o": ["Indian Spectator", "Sati Hita Bodhini", "Amrita Bazar Patrika", "Kesari"], "why": "Malabari also edited Voice of India (y29b6f003da5/yb1a588c8d65), so two options were correct"}
+ ],
+ "mcq_drop": [
+  {"id": "nbd2cfdc1828", "why": "opinion item ('best expresses the historical significance')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8950959b393", "why": "suspect key: D.K. Karve is linked to widow remarriage/women's education, not infanticide"},
+  {"id": "y9c0abbeda0c", "why": "mental ability (data interpretation)"},
+  {"id": "yf4941c781a6", "why": "mental ability (letter reasoning)"},
+  {"id": "yed99edc6d4c", "why": "garbled: option codes truncated"},
+  {"id": "ya452bbfc9cb", "why": "garbled: option ages truncated"},
+  {"id": "y29b6f003da5", "why": "garbled: explanatory passage merged into stem"},
+  {"id": "y4f8adf38896", "why": "garbled; wrong topic: Hindi literature"},
+  {"id": "yaa15d7fab53", "why": "wrong topic: ancient Hindu law texts"},
+  {"id": "y398f4fa306c", "why": "wrong topic: Sleeman's report on Oudh"},
+  {"id": "y1f10686a782", "why": "wrong topic: Akbar's social reforms"}
+ ],
+ "patterns": [
+  "APPSC asks direct dates and names: Widow Remarriage Act 1856, Female Infanticide Prevention Act 1870, Lex Loci Act 1850 (convert inherits), Ranade calling Veeresalingam 'South Indian Vidyasagar'.",
+  "Recurring traps: Widow Remarriage Act passed under Canning (not Dalhousie); 1872 Act ages 14/18; 1891 consent age 12.",
+  "Other PSCs/UPSC ask Native Marriage Act-Keshab Sen, Malabari and the Age of Consent Act (Tilak opposed), Vidyasagar's Bahuvivah and Bethune School secretaryship, Karve's women's university.",
+  "AP tilt is concentrated on Veeresalingam (girls' school, first Andhra widow remarriage 1881) and Andhra women reformers.",
+  "App MCQs add chronology and multi-statement items on age laws and western-India institutions; PYQs stay at single-fact level."
+ ],
+ "stats": {"app_mcqs": 45, "pyqs": 29, "fixed": 2, "dropped": 1}
+}

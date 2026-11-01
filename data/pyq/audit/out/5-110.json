@@ -1,0 +1,28 @@
+{
+ "topic": "5:110",
+ "mcq_fix": [
+  {"id": "n7e088f682b2", "s": "Which of the following practices helps conserve water in agriculture?", "why": "drop odd meta phrase about gypsum 'in the stated comparison' (yeb13c4efdcd)"}
+ ],
+ "mcq_drop": [
+  {"id": "nfba59c0ae2f", "why": "opinion item ('criticism or continuing concern') with giveaway distractors"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yb18601aa672", "why": "wrong topic: climatology (dew formation)"},
+  {"id": "y6c5a9380248", "why": "wrong topic: chemistry (Plaster of Paris)"},
+  {"id": "ydcc2e6490f8", "why": "wrong topic: crop pests"},
+  {"id": "yf2469a1a72d", "why": "wrong topic: Green Revolution"},
+  {"id": "y82e01cc9058", "why": "wrong topic: soil reclamation"},
+  {"id": "yd121f9e2bf0", "why": "garbled: option codes truncated"},
+  {"id": "yeb13c4efdcd", "why": "garbled: option codes truncated"},
+  {"id": "y0492299c8f9", "why": "garbled: option codes truncated"},
+  {"id": "y383ddc3c5aa", "why": "garbled: pairs truncated"}
+ ],
+ "patterns": [
+  "APPSC asks simple 'which conserves water / suits water-scarce regions' items - answer drip or micro-irrigation against flood/canal distractors.",
+  "UPSC-style statement items (fertigation advantages, zero tillage, SRI, SSI, drip benefits) carry the trap options (rock phosphate, gypsum).",
+  "Soilless farming definitions (hydroponics = growing without soil) and controlled-environment items recur.",
+  "App adds many scheme numbers (PDMC, MIF, DAM outlay, AgriStack) and AP 2026 news well beyond PYQ depth; keep stems direct."
+ ],
+ "stats": {"app_mcqs": 34, "pyqs": 16, "fixed": 1, "dropped": 1}
+}

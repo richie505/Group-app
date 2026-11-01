@@ -1,0 +1,23 @@
+{
+ "topic": "5:81",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y5f8408ab9e3", "why": "garbled: stem mixed with text from another question (infectious diseases)"},
+  {"id": "ydc14c0abadd", "why": "garbled option (1026341), no key"},
+  {"id": "y8152ba820a6", "why": "wrong options: list-II goals spilled into options 3-4"},
+  {"id": "y4128bd20d82", "why": "wrong options: list-II descriptions spilled into options 1-2"},
+  {"id": "yf50ab7ede81", "why": "garbled stem (OCR noise); topic is poverty estimates"},
+  {"id": "y9ba5e40acc5", "why": "wrong topic: AI for Good summit (current affairs)"},
+  {"id": "y133d48f2633", "why": "wrong topic: World Happiness Report"}
+ ],
+ "patterns": [
+  "APPSC repeatedly asks 'how many SDGs' (17), target year (2030), year adopted (2015) - at least ten near-identical items.",
+  "Goal number -> title is the next most common shape (Goal 1 No Poverty, 2 Zero Hunger, 4 Quality Education, 6 Water & Sanitation, 8 Decent Work), plus 'which is NOT an SDG' (e.g. 'Life in sky').",
+  "Match items pair SDGs with descriptions, socio-economic challenges or Indian schemes (Namami Gange = SDG 6, Ujjwala = clean energy, Ayushman Bharat = health, Samagra Shiksha = education).",
+  "APPSC also asks SDG India Index (NITI Aayog) results: weakest goals (2 and 5 in 2020-21) and drivers of improvement (6 and 7).",
+  "App's MCQs mirror these well but add origins (Rio+20, Colombia-Guatemala) and 2026 SDR data; PYQs use simple single-number answers."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 32, "fixed": 0, "dropped": 0}
+}

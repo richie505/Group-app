@@ -1,0 +1,30 @@
+{
+ "topic": "1:228",
+ "mcq_fix": [{"id": "ndd965c680e2", "s": "Which one of the following journals was NOT associated with Mahatma Gandhi?", "why": "stem 'listed in this context' is odd; APPSC 2019 asks it plainly"}],
+ "mcq_drop": [{"id": "nindian-history-96-19", "why": "contrived A-R pairing two unrelated titles"}],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yb0925ada350", "why": "wrong topic: UNESCO membership"},
+  {"id": "y4803a60c2fc", "why": "wrong topic: world personalities"},
+  {"id": "y6cf2f848621", "why": "wrong topic: Bhagavad Gita philosophy"},
+  {"id": "y29d98d1b8ad", "why": "wrong topic: books and authors"},
+  {"id": "y0597801e6f2", "why": "wrong topic: Ghadar Party"},
+  {"id": "yc18ae9e80f8", "why": "wrong topic: regional press (Swadeshabhimani)"},
+  {"id": "y4c24b4d5c79", "why": "wrong topic: books and authors"},
+  {"id": "y574655ec8a0", "why": "wrong topic: Publications Division newspapers"},
+  {"id": "ydc8fd25c4b3", "why": "wrong topic: Gita language"},
+  {"id": "y30b8a481162", "why": "wrong options: newspaper names missing"},
+  {"id": "y98b43aa1e1b", "why": "wrong topic: Bharat Ratna"},
+  {"id": "y122b07c628c", "why": "wrong topic: Tagore Nobel"},
+  {"id": "yf09b173d100", "why": "wrong topic: Round Table Conference"},
+  {"id": "y822951dde6e", "why": "wrong topic: Nobel laureates"}
+ ],
+ "patterns": [
+  "Direct single facts: first satyagraha in South Africa 1906 (APPSC G1), return 1915, Pietermaritzburg, Indian Opinion and its first editor.",
+  "Hind Swaraj: year 1909, Gujarati, 'sterile' British Parliament; autobiography in Gujarati.",
+  "Newspaper odd-one-out items recur (Yugantar, Indian Mirror, Mathrubhumi not Gandhi papers).",
+  "Influences: Ruskin/Thoreau/Tolstoy 'all the above'; Unto This Last = good of individual in good of all.",
+  "Many filed PYQs are general-awareness strays; app items are on-topic and slightly deeper."
+ ],
+ "stats": {"app_mcqs": 33, "pyqs": 40, "fixed": 1, "dropped": 1}
+}

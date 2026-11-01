@@ -1,0 +1,24 @@
+{
+ "topic": "4:22",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y61fe7098d47", "why": "wrong topic: inter-oceanic canals (Nicaragua)"},
+  {"id": "yd1630506157", "why": "wrong topic: places in Kolkata"},
+  {"id": "y44cee2ff5f2", "why": "mental ability: volume arithmetic"},
+  {"id": "yf28deb3b950", "why": "garbled: depends on a missing map"},
+  {"id": "y9c89532965f", "why": "wrong topic: drought-prone regions of India"},
+  {"id": "y4190f5dff95", "why": "wrong topic: population density in Latin America"},
+  {"id": "yacc6a74ecba", "why": "garbled: stem truncated, options belong to another sub-question"},
+  {"id": "yd22f3948b54", "why": "garbled: depends on a missing map"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: smallest ocean = Arctic, largest = Pacific, oil on continental shelf, bathymetry = sea-floor mapping, hypsometric curve shows bottom topography.",
+  "APPSC G2 2023 used a match of shelf/slope/deep-sea plain/deeps with features, and a salinity ranking (Lake Van > Dead Sea > Great Salt Lake).",
+  "APPSC G1 2024 tested terrigenous deposits with a trap: coarseness does NOT increase seaward.",
+  "Other PSCs: Ninety East Ridge = Indian Ocean, Telegraph Plateau = North Atlantic, Diamantina = Indian Ocean, Mariana deepest, deep sea plains most extensive.",
+  "App MCQs track these closely; extra depth on temperature distribution and Deep Ocean Mission is reasonable."
+ ],
+ "stats": {"app_mcqs": 46, "pyqs": 25, "fixed": 0, "dropped": 0}
+}

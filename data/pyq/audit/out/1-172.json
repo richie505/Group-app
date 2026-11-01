@@ -1,0 +1,39 @@
+{
+ "topic": "1:172",
+ "mcq_fix": [
+  {"id": "nindian-history-106-16", "s": "Consider the following statements: I. Lord Linlithgow served during 1936–1943. II. Lord Linlithgow is associated with the Second World War and the August Offer. III. Lord Linlithgow is associated with the Cripps Mission and Quit India. IV. Lord Wavell is associated with the First Afghan War. Which of the statements given above is/are correct?", "why": "Linlithgow's term ended Oct 1943 (Wavell 1943-47); stem fixed so key 'I, II and III' holds"},
+  {"id": "nindian-history-125-14", "s": "Match List-I with List-II.  List-I (a) Lord Irwin (b) Lord Willingdon (c) Lord Linlithgow (d) Lord Wavell  List-II (i) 1936–1943 (ii) 1943–1947 (iii) 1926–1931 (iv) 1931–1936", "why": "Linlithgow 1936-43, Wavell Oct 1943-Feb 1947"},
+  {"id": "n7792d7d866c", "s": "Which one of the following correctly distinguishes the two early censuses of British India?", "why": "stem carried a duplicate (a)-(d) list in a different order from the options; confusing"},
+  {"id": "nindian-history-134-16", "s": "Consider the following statements about Lord Canning: I. His tenure was 1856–1862. II. He was the last Governor-General under the Company. III. He was the first Viceroy under the Crown. IV. He was associated with the Allahabad High Court established in 1866. Which of the statements given above is/are correct?", "why": "odd wording 'mentioned in this context' removed"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "2#0", "find": "Linlithgow 1936-44", "replace": "Linlithgow 1936-43", "why": "Linlithgow left office 1 Oct 1943"},
+  {"ref": "2#0", "find": "Wavell 1944-47", "replace": "Wavell 1943-47", "why": "Wavell took office 1 Oct 1943"},
+  {"ref": "9#1", "find": "Lord Linlithgow 1936 to 1944", "replace": "Lord Linlithgow 1936 to 1943", "why": "Linlithgow left office Oct 1943"},
+  {"ref": "9#1", "find": "Lord Wavell 1944 to 1947", "replace": "Lord Wavell 1943 to 1947", "why": "Wavell Viceroy from Oct 1943"},
+  {"ref": "8#1", "find": "; Munda uprising (1899)", "replace": "", "why": "Birsa Munda's Ulgulan (Dec 1899-1900) fell under Curzon, who took office Jan 1899"},
+  {"ref": "6#1", "find": "APPSC 2012: Dept of Archaeology = Canning; if absent → Curzon", "replace": "APPSC G1 key: Dept of Archaeology = Curzon (even with Canning listed); Archaeological Surveyor 1861 = Canning", "why": "PYQ ya76212ef967 keys Curzon with Canning among options"},
+  {"ref": "11#2", "find": "(APPSC 2012 key: Department of Archaeology = Canning)", "replace": "(but APPSC G1 key for 'Department of Archaeology' = Curzon)", "why": "PYQ ya76212ef967"}
+ ],
+ "pyq_bad": [
+  {"id": "yf7485c34cd1", "why": "suspect key: Vernacular Press Act 1878 = Lytton, not Warren Hastings"},
+  {"id": "y2e9c636de46", "why": "suspect key: capital shift to Delhi proposed under Hardinge II (1911), not Lansdowne"},
+  {"id": "y3f4b51f1481", "why": "suspect key: Department of Archaeological Survey = Curzon, not Hardinge"},
+  {"id": "y79afd03bf5c", "why": "wrong options: pair partners missing"},
+  {"id": "yf795058711e", "why": "wrong options: pair partners missing"},
+  {"id": "y68e87d7aea9", "why": "wrong options: pair partners missing"},
+  {"id": "yb7fd2b465a2", "why": "garbled options"},
+  {"id": "yba1e8b1a4e5", "why": "garbled: stem truncated (subject and statement 1 lead-in missing)"},
+  {"id": "y4cc89bd4669", "why": "wrong topic: Elephanta caves / art and architecture (options also garbled)"},
+  {"id": "y37d27bda4d2", "why": "wrong topic: Buddhist sites / ASI excavations"},
+  {"id": "y7a9308d13e8", "why": "wrong topic: Orientalists / translations"}
+ ],
+ "patterns": [
+  "APPSC asks direct 'which Viceroy' items: only Viceroy assassinated (Mayo), Gokhale sent to South Africa (Hardinge), Viceroy during CDM 1930 (Irwin), Dept of Archaeology (Curzon), Shimla summer capital (Lawrence).",
+  "Other PSCs heavily repeat: VPA by Lytton / repealed by Ripon, first Factory Act under Ripon, INC founded under Dufferin, Rowlatt Act under Chelmsford, capital to Delhi under Hardinge, first census under Mayo, Masterly Inactivity = Lawrence.",
+  "Trap: the ASI founding is keyed as Canning (1861) or Curzon (reorganisation / Department) depending on the options; APPSC keyed Curzon.",
+  "App MCQs mostly match/chronology versions of the same facts; tenure dates must use Linlithgow 1936-43 / Wavell 1943-47."
+ ],
+ "stats": {"app_mcqs": 43, "pyqs": 69, "fixed": 4, "dropped": 0}
+}

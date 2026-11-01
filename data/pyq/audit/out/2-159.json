@@ -1,0 +1,25 @@
+{
+ "topic": "2:159",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y60ea61a8653", "why": "garbled options (truncated codes)"},
+  {"id": "yb3560920cd4", "why": "garbled options (truncated codes)"},
+  {"id": "y1fc37162197", "why": "garbled options (truncated codes)"},
+  {"id": "y5264c9ba8aa", "why": "wrong topic: awards"},
+  {"id": "y48fb8934673", "why": "wrong topic: sports"},
+  {"id": "y6b9525b401d", "why": "wrong topic: sports (Commonwealth Games)"},
+  {"id": "ya44dc442eff", "why": "wrong topic: sports"},
+  {"id": "ya4f15a85578", "why": "wrong topic: India's power trade with neighbours (no key)"},
+  {"id": "ybc255270fe5", "why": "wrong topic: current affairs (UN Internet Governance Forum)"}
+ ],
+ "patterns": [
+  "Dominant shape: 'Which is NOT a member' (Myanmar not SAARC, China not ASEAN, Iran not GCC) and founding year/place (SAARC Charter, Dhaka 1985).",
+  "APPSC asks summit venues as current affairs: 6th BIMSTEC Summit Bangkok 2025, SCO 2022 Samarkand (Uzbekistan), 15th ASEAN Summit Thailand.",
+  "UPSC-style items probe BIMSTEC founding/centres and EU instruments (Digital Single Market, Stability and Growth Pact).",
+  "Newest-member traps recur: Croatia in EU (2013), Finland/Sweden in NATO.",
+  "App matches the shapes well but leans to multi-statement items on agreements (BBIN, AIFTA/AITIGA) where APPSC uses one-line venue/year questions."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 29, "fixed": 0, "dropped": 0}
+}

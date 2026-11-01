@@ -1,0 +1,21 @@
+{
+ "topic": "3:74",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n16ba8d4b055", "why": "obscure news trivia (CM's demands), no fact-based answer"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8547c6f4231", "why": "garbled: stem fused with explanation; options truncated"},
+  {"id": "y3e8c705754f", "why": "garbled: explanation of another question with unrelated options (demonetisation)"},
+  {"id": "y49b560d87d5", "why": "garbled: pair options missing their second halves"}
+ ],
+ "patterns": [
+  "PYQs are direct institution-function items: ECGC = export credit insurance, EXIM Bank set up 1982, IBEF 1996, MMTC/STC as trading agencies",
+  "Definitions recur: letter of credit produced by importer, duty drawback = refund of import duty, import quota = QR, rules of origin",
+  "Acronym full forms (EPCG) and scheme-sector links (NIRVIK = exports) are typical single-fact shapes",
+  "FTP period/date questions (2004-09, FTP 2023 open-ended) appear",
+  "App adds 2025-26 missions (EPM, RELIEF, Niryat Disha) and FTP 2023 features beyond PYQ depth"
+ ],
+ "stats": {"app_mcqs": 29, "pyqs": 21, "fixed": 0, "dropped": 1}
+}

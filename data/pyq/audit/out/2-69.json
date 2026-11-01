@@ -1,0 +1,23 @@
+{
+ "topic": "2:69",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n623c1be87be", "why": "obscure case-name/year trivia; options differ only in year/party"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y5b6b5ff792a", "why": "wrong topic: Tele-Law programme"},
+  {"id": "yd9feff7aa64", "why": "wrong topic: Tele-Law programme"},
+  {"id": "y317786946ee", "why": "wrong topic: Finance Commission"},
+  {"id": "ye4879b8df7d", "why": "wrong topic: office of profit"},
+  {"id": "ybac8ae059c5", "why": "garbled: emblem image missing, no key"}
+ ],
+ "patterns": [
+  "APPSC's favourite: SPSC members appointed by Governor, removed only by the President (Group-1, 2019).",
+  "APPSC asks 'not a UPSC function' = manner of reservation (G1 2022), APPSC established 1956 (2023), UPSC/Joint Commission appointed by President.",
+  "Other PSCs ask Article numbers (315, 317, 322), Art. 315(4) Governor request + President approval, JSPSC by Parliament on States' request, annual report to Governor.",
+  "Traps: removal of SPSC member by President after SC inquiry (not Governor/impeachment); UPSC is constitutional, not statutory.",
+  "App matches this well; some app items drift to Finance Commission and Lokpal panel, which belong to other topics."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 30, "fixed": 0, "dropped": 1}
+}

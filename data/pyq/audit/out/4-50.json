@@ -1,0 +1,25 @@
+{
+ "topic": "4:50",
+ "mcq_fix": [
+  {"id": "n70001b6612d", "s": "As per the India State of Forest Report 2019, which pre-2022 district of Andhra Pradesh had the highest forest cover?", "o": ["East Godavari", "Kurnool", "Visakhapatnam", "YSR Kadapa"], "a": 0, "why": "PYQs y1c7ea24a695, y6b36f0676e1: East Godavari highest forest cover (4,994.10 sq km)"}
+ ],
+ "mcq_drop": [
+  {"id": "n42a94ac1efa", "why": "obscure 2026 trivia (list of local fire-prone hills)"}
+ ],
+ "notes_fix": [
+  {"ref": "7#3", "find": "highest cover % = Visakhapatnam", "replace": "highest forest % = Visakhapatnam; highest forest cover (ISFR 2019 area) = East Godavari", "why": "y1c7ea24a695, y6b36f0676e1"},
+  {"ref": "12#9", "find": "highest cover = Visakhapatnam", "replace": "highest forest % = Visakhapatnam; highest ISFR 2019 forest cover = East Godavari (4,994.10 sq km)", "why": "y6b36f0676e1"}
+ ],
+ "pyq_bad": [
+  {"id": "y48501b9e4b1", "why": "garbled; wrong topic: Arabian Peninsula / world geography"},
+  {"id": "y340f1fc6e11", "why": "wrong topic: world forest cover by country"}
+ ],
+ "patterns": [
+  "APPSC asks AP district/ISFR facts: district with highest forest cover (East Godavari, ISFR 2019), AP fire-affected area 2023-24 (5,286.76 sq km)",
+  "Endemic species (red sanders) and Seshachalam = dry deciduous are recurring single-fact items",
+  "APFDC plantation crops (eucalyptus largest) and India's 3rd rank in forest-area gain appear",
+  "Other PSCs ask all-India forest-type/location matches (Sundarbans, Silent Valley, khair-catechu)",
+  "Trap: forest cover (ISFR area) vs recorded forest area (Kadapa) vs percentage - app mixes these"
+ ],
+ "stats": {"app_mcqs": 37, "pyqs": 14, "fixed": 1, "dropped": 1}
+}

@@ -1,0 +1,22 @@
+{
+ "topic": "3:41",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "na60fa31a931", "why": "oddly worded ('specifically highlighted'), source-bound trivia"},
+  {"id": "n81ec3e54988", "why": "opinion/debate item, not an exam fact"},
+  {"id": "n5f916ba87c9", "why": "ambiguous/opinion: 'artificially suppressed' is a union claim, not an indicator"}
+ ],
+ "notes_fix": [
+  {"ref": "12#13", "find": "NREGA 2006, renamed 2009", "replace": "NREGA 2005 (in force Feb 2006), renamed 2009", "why": "Act passed 2005; implemented 2006"}
+ ],
+ "pyq_bad": [
+  {"id": "yc8a58862d14", "why": "wrong topic: Australia geography (rural population by state)"}
+ ],
+ "patterns": [
+  "Migration asked as simple 'cause of rural-urban migration' with an 'All the above' key (ya31cefce89f).",
+  "MGNREGA asked via statement-pair codes on its outcomes (purchasing power up, distress migration down) - not data figures.",
+  "Claudia Goldin appears as a current-affairs Nobel fact (2023 Economics), not via the U-curve details.",
+  "App leans heavily on ES 2025-26 numbers and source-bound phrasing ('as described', 'cited'); PYQs ask stable facts (AIRCS, KCC, MGNREGA basics)."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 4, "fixed": 0, "dropped": 3}
+}

@@ -1,0 +1,26 @@
+{
+ "topic": "1:154",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-history-15-6", "why": "Armagaon dated 1628; APPSC key y050ece149ae gives 1626, leaving no valid option"},
+  {"id": "nindian-history-131-3", "why": "near-duplicate of n31078b34877 (charter by Elizabeth I), odd options"},
+  {"id": "n71158da09b9", "why": "oddly worded 'which sequence is correct' with 1/1-2/1-2-3 codes; ambiguous"}
+ ],
+ "notes_fix": [
+  {"ref": "10#1", "find": "Armagaon The Coromandel Coast English East India Company 1628", "replace": "Armagaon The Coromandel Coast English East India Company 1626", "why": "APPSC y050ece149ae: Nellore-district factory 1626"}
+ ],
+ "pyq_bad": [
+  {"id": "y8a745434bd9", "why": "wrong topic: current affairs (knighthood of Mick Jagger)"},
+  {"id": "ya6a153519aa", "why": "wrong topic: current affairs (Queen Elizabeth II reign)"},
+  {"id": "ye14f31ad13b", "why": "suspect key: Globe was under Anthony Hippon, so A false, R true (option 4)"},
+  {"id": "y922514d9331", "why": "suspect key: Levant Co. traded with the Ottoman Levant; first India charter was the East India Company"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact dates: EIC founded 1600, Machilipatnam factory 1611, Nellore (Armagaon) factory 1626.",
+  "Andhra tilt: Globe/Hippon at Machilipatnam, Qutb Shahi grantor, Armagaon; A-R trap swaps Hippon with Hawkins.",
+  "Other PSCs repeat: ruler in 1600 = Akbar, first factory Surat under Jahangir (1613), Job Charnock founded Calcutta, Bombay as dowry.",
+  "Trade-goods angle: Andhra settlements traded locally woven piece-goods; saltpetre/opium from Bihar.",
+  "App adds deeper items (1717 farman clauses, Child's War, Charles II powers) beyond PYQ depth but mostly sound."
+ ],
+ "stats": {"app_mcqs": 37, "pyqs": 28, "fixed": 0, "dropped": 3}
+}

@@ -1,0 +1,27 @@
+{
+ "topic": "1:185",
+ "mcq_fix": [{"id": "n5385b1ba1f9", "s": "R.C. Majumdar, unlike the nationalist school, argued that the Revolt of 1857 was:", "why": "convoluted stem; fact unchanged (y5a49c87c1b4)"}],
+ "mcq_drop": [{"id": "ncecebaa8c1c", "why": "oddly worded 'Other names' pair; ambiguous"}],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yb26cc75ebd7", "why": "garbled; wrong topic: sports awards"},
+  {"id": "yc6a9d5af37c", "why": "wrong topic: sports awards (Wisden)"},
+  {"id": "ycd590f82781", "why": "wrong topic: Marxist political theory"},
+  {"id": "y0cbf1ef598c", "why": "wrong topic: drain theory / economic nationalism"},
+  {"id": "ycff8f28909e", "why": "wrong topic: economics books/authors"},
+  {"id": "yf9455e4487b", "why": "wrong topic: socialist leaders in national movement"},
+  {"id": "y6316068f603", "why": "wrong topic: English literature books"},
+  {"id": "yd3cd57f5264", "why": "wrong topic: books and authors (general)"},
+  {"id": "yb7477e6b1a6", "why": "garbled options"},
+  {"id": "y977fc5d5b34", "why": "wrong topic: consequences of 1857 / army reorganisation"},
+  {"id": "y471b543a397", "why": "suspect key: S.N. Sen was official historian of 1857; Tara Chand of the freedom struggle"}
+ ],
+ "patterns": [
+  "Dominant shape: 'Who called 1857 the First War of Independence?' -> Savarkar, with Majumdar, Sen, Tilak as distractors.",
+  "Quote-attribution: 'neither first, nor national, nor a war of independence' -> R.C. Majumdar; embryonic nationalism -> Majumdar and Sen.",
+  "British-school labels by name: Outram & Taylor (conspiracy), Lawrence/Seeley (sepoy mutiny), Holmes, Rees.",
+  "Participation items: educated middle class neutral/aloof; princes and Rajput rulers loyal; failure due to lack of central organisation.",
+  "App has more multi-statement and interpretive items (Stokes, Mukherjee) than PYQ depth; PYQs are single-fact attribution."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 27, "fixed": 1, "dropped": 1}
+}

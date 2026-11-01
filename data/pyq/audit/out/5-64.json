@@ -1,0 +1,19 @@
+{
+ "topic": "5:64",
+ "mcq_fix": [],
+ "mcq_drop": [{"id": "nd14e17eb3c8", "why": "obscure share-percentage trivia (nuclear 1.6-1.7%) beyond PYQ depth"}],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y793cbe64503", "why": "garbled: notes text fused into stem, options truncated; correct answer is 1 and 4 (option 1), key 4 looks wrong"},
+  {"id": "yd232c1d83dd", "why": "wrong topic: temperature scales (physics)"},
+  {"id": "y47fe8bfcb59", "why": "garbled: duplicate of y1c7a9c587ff with broken options ('GW', '23.67.1 GW')"},
+  {"id": "y8b9731f1653", "why": "wrong topic: sustainable development challenges"}
+ ],
+ "patterns": [
+  "APPSC asks single-figure recall from official MNRE data (e.g. cumulative solar 63.30 GW on 31 Dec 2022) - dated capacity figures are the main APPSC shape.",
+  "Classification traps recur across PSCs: nuclear not renewable, natural gas not green, geothermal/nuclear not from the Sun, non-conventional = renewable.",
+  "Other PSCs ask 'most eco-friendly / no pollution / greatest potential' - answer is almost always solar.",
+  "App adds many targets/programme items (GEC funding, RPO/RCO, IREDA) and 2026 rankings not yet seen in PYQs; these are sound but deeper than APPSC's direct-figure style."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 17, "fixed": 0, "dropped": 1}
+}

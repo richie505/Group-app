@@ -1,0 +1,26 @@
+{
+ "topic": "3:52",
+ "mcq_fix": [
+  {"id": "n31c0af5df2a", "s": "Which of the following is regarded as an effective reason for slow agricultural development in India?", "why": "remove odd 'UPPSC 2016 formulation' wording; y802f931524c"}
+ ],
+ "mcq_drop": [
+  {"id": "n5227363cc88", "why": "oddly worded ('bank-nationalisation era in the discussion on loan waivers')"},
+  {"id": "n347cd8ef9bd", "why": "opinion/debate statements, all-of-the-above"},
+  {"id": "nad7997803b3", "why": "opinion A-R ('considered more important')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ya4a5e69025a", "why": "suspect key: 2011 crop holiday committee chaired by Mohan Kanda (option 4), not Jayati Ghosh"},
+  {"id": "y01a8846e77f", "why": "suspect key: Agri Census 2015-16 - Rajasthan has the largest operated area, so (iii) is also true"},
+  {"id": "ya8f71273478", "why": "wrong topic: Swavalamban pension scheme"},
+  {"id": "yba115cc3444", "why": "mental ability (arithmetic puzzle), question deleted"}
+ ],
+ "patterns": [
+  "APPSC asks AP-specific institutional facts: CCRC full form/purpose, 2011 crop holiday committee chair, YSR crop insurance crop count, RWBCIS aim",
+  "APPSC G1/G2 2017 used Agri Census holding shares (small holdings ~85% of holdings, ~44% of area) and ADSI 2015 top cause (bankruptcy/indebtedness)",
+  "Other PSCs ask crop-insurance history (CCIS 1985, NAIS 1999, WBCIS first in Karnataka) and census/holding statistics",
+  "App MCQs rely heavily on study-report numbers (Guntur study, EAC-PM, 77th Round) and debate statements; trim opinion items, keep scheme/committee recall",
+  "Traps: KALIA (Odisha) vs Rythu Bandhu (Telangana) vs Annadata Sukhibhava (AP); LEC 2011 vs CCRC 2019; Radhakrishna (indebtedness) vs Swaminathan (farmers)"
+ ],
+ "stats": {"app_mcqs": 57, "pyqs": 13, "fixed": 1, "dropped": 3}
+}

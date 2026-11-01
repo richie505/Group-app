@@ -1,0 +1,26 @@
+{
+ "topic": "2:157",
+ "mcq_fix": [
+  {"id": "nfcafdac53b5", "s": "Consider the following statements: 1. Under the Bretton Woods system, currencies were pegged to the dollar and the dollar was pegged to gold. 2. The Smithsonian Agreement of 1971 widened the exchange-rate band to 2.25%. 3. The Smithsonian Agreement lasted about 14 years. Which of the statements given above are correct?", "why": "Smithsonian band was widened from 1% to 2.25%, not 2.5%"}
+ ],
+ "mcq_drop": [
+  {"id": "n274fc3824f2", "why": "opinion item (criticisms/debates), not a testable fact"}
+ ],
+ "notes_fix": [
+  {"ref": "7#5", "find": "widened band to 2.5%", "replace": "widened band to 2.25%", "why": "Smithsonian Agreement (Dec 1971) set a 2.25% band"}
+ ],
+ "pyq_bad": [
+  {"id": "y4e5b92585af", "why": "wrong topic: world geography (rivers)"},
+  {"id": "yf30a72d02cb", "why": "wrong topic: BRICS summit venues"},
+  {"id": "yfd2777f206a", "why": "wrong topic: linguistic reorganisation of states"},
+  {"id": "y61bc0375a30", "why": "wrong topic: India's membership of groupings (MTCR, SCO); garbled options"}
+ ],
+ "patterns": [
+  "APPSC asks current-affairs heads: new World Bank President (Ajay Banga, June 2023) and AIIB/WB state loans",
+  "Other papers: Bretton Woods conference name, IMF vs IBRD vs IDA function matching, Fortaleza = BRICS/NDB",
+  "IMF facilities (RFI, RCF) and reports (GFSR) are recurring identification items",
+  "Membership traps: India in ADB, AIIB, Colombo Plan but not APEC/OECD; IMF loans only to members",
+  "App adds quota formula weights, ADB voting shares and 2026 BRICS reform data - deeper than PYQs"
+ ],
+ "stats": {"app_mcqs": 33, "pyqs": 18, "fixed": 1, "dropped": 1}
+}

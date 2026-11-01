@@ -1,0 +1,42 @@
+{
+ "topic": "3:24",
+ "mcq_fix": [
+  {"id": "ne43e973e162", "s": "Which one of the following is correctly matched?", "why": "stem repeated a differently-ordered A-D list that conflicts with the options"},
+  {"id": "n2d710a2e90b", "s": "Which of the following correctly represents the chronological sequence of the base years of India's National Accounts Statistics, beginning with 1948-49?", "why": "stem duplicated the options as a separate A-D list"}
+ ],
+ "mcq_drop": [
+  {"id": "n2839de9f9fa", "why": "dubious: CSO set up 2 May 1951 is standard; 'formed as Central Statistical Institute' is not an established fact"},
+  {"id": "n6f0c1215f88", "why": "obscure and uncertain year (notes themselves give 1954/1955)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yf243e4b02a2", "why": "suspect key: national income is estimated by the CSO (option 3), not Indian Standard Institution"},
+  {"id": "y749a1b70252", "why": "suspect key: national income data released by CSO (option 3), not NSSO"},
+  {"id": "y05721236e79", "why": "suspect key: IIP released by CSO (option 3), not RBI"},
+  {"id": "yc0ca3cc0dd0", "why": "suspect key: GDP base year in 2009 was 1999-2000 (option 1)"},
+  {"id": "y3bfc6e00a44", "why": "garbled: explanation text in stem, options broken"},
+  {"id": "y5afd0b57a72", "why": "garbled: explanation text in stem; wrong topic: WPI base year"},
+  {"id": "y7585b11052d", "why": "wrong topic: export growth"},
+  {"id": "y4018e339671", "why": "wrong topic: GDP growth trends"},
+  {"id": "y84d92770cb3", "why": "wrong topic: GDP growth trends"},
+  {"id": "y3414cce7d1b", "why": "wrong topic: sectoral composition of GDP"},
+  {"id": "ya1f0ae4964a", "why": "wrong topic: post-1991 rural employment"},
+  {"id": "y04fd563e38e", "why": "wrong topic: post-1991 rural employment"},
+  {"id": "y55f7bc520b6", "why": "wrong topic: crop insurance"},
+  {"id": "ya8d00a0f2dd", "why": "wrong topic: crop insurance"},
+  {"id": "yf74348861e6", "why": "wrong topic: WPI base year"},
+  {"id": "yec3af1e0380", "why": "wrong topic: WPI base year"},
+  {"id": "yd61f7383a1d", "why": "wrong topic: poverty line estimation"},
+  {"id": "yc4b407689cd", "why": "wrong topic: national movement literature"},
+  {"id": "y9c5f9274975", "why": "wrong topic: Economic Survey chapters"},
+  {"id": "y82fa5ba9b60", "why": "wrong topic: Food for Work programme"}
+ ],
+ "patterns": [
+  "APPSC asks who/which body: first NI estimate (Naoroji), first scientific (V.K.R.V. Rao), NI Committee chair (Mahalanobis), agency estimating NI/IIP (CSO, now NSO).",
+  "Base-year revision is a recurring one-liner: 2011-12 replaced 2004-05 (APPSC 2017, 2019, 2023); expect 2022-23 replacing 2011-12 next.",
+  "APPSC G2 has asked Arvind Subramanian's GDP-overestimation critique and 'statistical system designed by' (Mahalanobis, Rao, Sukhatme - all).",
+  "Several PSC keys in this bank are corrupted (ISI/NSSO/RBI keyed for CSO answers) - trust the established answer.",
+  "App MCQs are heavily current-affairs (2022-23 series, release calendar, PLFS 2025 reforms) and methodological (double deflation, SUT, institutional sectors) - much deeper than PYQs."
+ ],
+ "stats": {"app_mcqs": 39, "pyqs": 33, "fixed": 2, "dropped": 2}
+}

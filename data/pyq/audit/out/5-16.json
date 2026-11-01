@@ -1,0 +1,18 @@
+{
+ "topic": "5:16",
+ "mcq_fix": [
+  {"id": "n4b565f1c71f", "s": "Match List-I with List-II and select the correct answer using the code given below: List-I (Hardware) a. GPU b. FPGA c. TPU List-II i. Field-programmable and reconfigurable chip ii. Google's AI chip iii. Massively parallel processing workhorse of AI training", "why": "List-II label garbled ('a.' for 'i.'), List-II heading missing"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y1f372c9a9e8", "why": "garbled: option codes truncated ('and 2 only')"}
+ ],
+ "patterns": [
+  "APPSC asks current-affairs 'who developed / launched' items: Oncology.ai (AIIMS + C-DAC), Pratham (Assert AI), Hanooman, Indrajaal (Hyderabad), RAISE full form.",
+  "A-R traps on stated aims (MATH: A true, R false).",
+  "Other PSCs: basic ML concepts (ML subset of AI, supervised vs reinforcement), FPGA full form, ChatGPT by OpenAI, AI Action Summit Paris 2025.",
+  "App mirrors these well; it adds many 2026 current-affairs items (NIELIT Amaravati, AI4AP, SC on high-risk AI) that cannot be verified - left alone."
+ ],
+ "stats": {"app_mcqs": 34, "pyqs": 16, "fixed": 1, "dropped": 0}
+}

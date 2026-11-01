@@ -1,0 +1,26 @@
+{
+ "topic": "5:13",
+ "mcq_fix": [
+  {"id": "nbcece772e1f", "s": "Match List-I with List-II and select the correct answer using the code given below. List-I (Protocol element) A. Syntax B. Semantics C. Timing List-II (Meaning) 1. Meaning of each field 2. Format of data 3. When and how fast to send", "why": "stray 'option_a' text in stem"}
+ ],
+ "mcq_drop": [
+  {"id": "ndb9c6341b55", "why": "dubious: OCEN is an India Stack lending protocol, not a Web 3.0 component"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y79d6b241c32", "why": "wrong topic: computer hardware (chips)"},
+  {"id": "y2138c357540", "why": "mental ability (analogy)"},
+  {"id": "yf2658687148", "why": "suspect key: router, hub and switch are all connecting devices"},
+  {"id": "y3bb7fa50284", "why": "garbled: options truncated (duplicate of ydd27d4432e5)"},
+  {"id": "yf9ff1f77ca3", "why": "garbled: options truncated"},
+  {"id": "yabaead0d698", "why": "garbled / unreadable"}
+ ],
+ "patterns": [
+  "Mostly one-line definitions/expansions: WWW, FTP, W3C, JSP, DNS, Tim Berners-Lee, MAC = 48 bits.",
+  "APPSC items: LANs across cities = WAN (2019), IPv4 fewer bits than IPv6, podcast, latest Bluetooth version (key 5.1).",
+  "Device questions focus on modem (modulation/demodulation, analog-digital) and OSI layer of IP/data link.",
+  "Browser vs search engine identification is a frequent trap (Yahoo, Google Apps, DuckDuckGo, Bing).",
+  "App uses multi-statement and governance items (IT Act, NIXI, BhashaNet) beyond PYQ depth but sound."
+ ],
+ "stats": {"app_mcqs": 30, "pyqs": 50, "fixed": 1, "dropped": 1}
+}

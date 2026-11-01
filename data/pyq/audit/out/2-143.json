@@ -1,0 +1,25 @@
+{
+ "topic": "2:143",
+ "mcq_fix": [
+  {"id": "n38b22e10554", "s": "Consider the following pairs: 1. Shabnam Mausi — First transgender MLA 2. Madhu Bai Kinnar — First openly transgender mayor (Raigarh, 2015) 3. Karnataka — State with a 1% transgender job quota Which of the pairs given above are correctly matched?", "why": "Kamla Jaan (Katni, 2000) was elected mayor earlier; Madhu Bai Kinnar is the first openly transgender mayor"}
+ ],
+ "mcq_drop": [
+  {"id": "ncbfe3a6acc4", "why": "A-R where R merely restates A's consequence; 'correct explanation' is ambiguous"}
+ ],
+ "notes_fix": [
+  {"ref": "13#2", "find": "Madhu Bai Kinnar, Raigarh, Chhattisgarh (2015) [GK]", "replace": "Madhu Bai Kinnar, Raigarh, Chhattisgarh (2015) - first openly transgender mayor (Kamla Jaan, Katni MP, elected 2000, later unseated) [GK]", "why": "established fact: Kamla Jaan elected mayor 2000"}
+ ],
+ "pyq_bad": [
+  {"id": "y4592375c7e6", "why": "wrong topic: sports current affairs (fencing)"},
+  {"id": "y3f7fce30414", "why": "wrong topic: India-US relations / visas"},
+  {"id": "y06dbde07f39", "why": "wrong topic: awards and honours"},
+  {"id": "y7dca2005155", "why": "wrong topic: Eighth Schedule languages"}
+ ],
+ "patterns": [
+  "APPSC asks this topic only through current-affairs 'first' items: first State with 1% transgender job quota (Karnataka, July 2021).",
+  "Other PSCs ask 'first transgender judge' (Joyita Mondal, WB) with look-alike name distractors.",
+  "No PYQ yet tests NALSA holdings or 2019 Act provisions directly; expect single-fact items (year 2014, DM issues certificate, NCTP chair).",
+  "App MCQs are heavy on multi-statement items about the 2026 Amendment and NHRC advisory, deeper than PYQ depth but sound."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 7, "fixed": 1, "dropped": 1}
+}

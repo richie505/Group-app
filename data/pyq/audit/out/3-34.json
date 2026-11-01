@@ -1,0 +1,26 @@
+{
+ "topic": "3:34",
+ "mcq_fix": [
+  {"id": "nea4afb54cd4", "s": "Which one of the following is NOT a method used by the NSSO for measuring unemployment in India?", "why": "odd wording 'listed status-based framework'; mirror y22e174ef40b"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ydb988f08659", "why": "wrong topic: sociology (Marginal Man)"},
+  {"id": "y40585cb8651", "why": "wrong topic: population / demography"},
+  {"id": "y61430a1f3fe", "why": "wrong topic: Census history"},
+  {"id": "y92d6ccf709d", "why": "wrong topic: international migration"},
+  {"id": "y344c76800a6", "why": "wrong topic: international migration"},
+  {"id": "yd33fbfed2eb", "why": "suspect key: agriculture employed roughly half the workforce in 2012, not 20%; also wrong topic: sectoral employment"},
+  {"id": "ye89811586ba", "why": "wrong topic: labour institutions"},
+  {"id": "y7d9befab3cd", "why": "garbled options (codes lost their numbers)"}
+ ],
+ "patterns": [
+  "Core asked fact: chronic unemployment / major part of the year = Usual (Principal) Status; odd-one-out 'Current Monthly Status' is not an NSSO method.",
+  "Definitions of ratios: WPR = employed / total population (APPSC 2023), LFPR = labour force / working-age population.",
+  "Headline numbers: NSS 68th CDS 5.6%; PLFS 2017-18 UR 6.1% (45-year high); PLFS as NSO's standard tool (APPSC G2).",
+  "Agencies: NSSO/CSO for data (APPSC 2019), Labour Bureau for disputes/QES.",
+  "App adds many current-affairs statement items (monthly CWS, AP-vs-India PLFS) and committee detail beyond PYQ depth, but the methodology core matches."
+ ],
+ "stats": {"app_mcqs": 25, "pyqs": 21, "fixed": 1, "dropped": 0}
+}

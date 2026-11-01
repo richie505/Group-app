@@ -1,0 +1,23 @@
+{
+ "topic": "4:8",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y928f95e5eca", "why": "suspect key: 'Heterogenic' (option 2) is the process not under diastrophism; key 4 (plate tectonics) contradicts it"},
+  {"id": "y127d3ec89b5", "why": "wrong topic: world mountains and their countries (Africa)"},
+  {"id": "y4d44e3a5d9b", "why": "wrong topic: world mountain location"},
+  {"id": "y78339af48b4", "why": "wrong topic: world mountain location (Titlis)"},
+  {"id": "y5a2cb0d5603", "why": "wrong topic: Himalayan peaks location (Annapurna)"},
+  {"id": "y377597659dd", "why": "wrong topic: world mountain ranges as borders (Pyrenees)"},
+  {"id": "y0a33f6d2991", "why": "garbled: stray option/number text inside the statements"}
+ ],
+ "patterns": [
+  "APPSC asks type-identification one-liners: volcanic mountain = Etna; young fold among Appalachians/Aravallis/Alps/Urals = Alps; horst = block mountain.",
+  "APPSC Group-1 used an 'incorrect statement' item: orogeny is NOT continent building (that is epeirogeny).",
+  "Other PSCs repeat: Aravalli oldest range, Guru Shikhar in Rajasthan, Narmada/Death Valley = rift valley, Sierra Nevada = block not young fold, epeirogenic = vertical movements.",
+  "UPSC 2024 'how many rows matched' (Vosges/Alps wrong) and evidence for Himalaya being young.",
+  "App covers isostasy (Airy/Pratt) and Kober in more depth than PYQs show; also carries some off-topic landform items (dunes, karst, estuary)."
+ ],
+ "stats": {"app_mcqs": 41, "pyqs": 44, "fixed": 0, "dropped": 0}
+}

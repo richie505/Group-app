@@ -1,0 +1,25 @@
+{
+ "topic": "1:207",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "2#2", "find": "Singapore → Vancouver", "replace": "Hong Kong → Vancouver", "why": "Komagata Maru sailed from Hong Kong (Apr 1914); Gurdit Singh was a Singapore-based businessman"},
+  {"ref": "11#2", "find": "from Singapore (via East Asian ports)", "replace": "from Hong Kong (via Shanghai, Moji, Yokohama)", "why": "voyage began at Hong Kong"}
+ ],
+ "pyq_bad": [
+  {"id": "yd37350f8887", "why": "wrong topic: Punjabi literature"},
+  {"id": "y4f7ca6395d2", "why": "wrong options: List-II items given as answer options"},
+  {"id": "y1c2b898442e", "why": "garbled: pair options truncated"},
+  {"id": "y28862e30326", "why": "garbled options"},
+  {"id": "ybd7e7c9ce67", "why": "suspect key: Ghadarites were based in North America (opt 2), not 'West America'"},
+  {"id": "yfb6467951a4", "why": "suspect key: Kabul govt (1915) predates Home Rule Movement (1916); Ghadar/WWI phase fits"}
+ ],
+ "patterns": [
+  "Mostly direct single facts: Ghadar founded 1913 in USA, HQ San Francisco, first president Sohan Singh Bhakna, leader Har Dayal",
+  "India House / Indian Home Rule Society = Shyamji Krishnavarma, London 1905; Indian Sociologist",
+  "Madame Cama at Stuttgart 1907, Dhingra hanged at Pentonville 1909 (APPSC G1), Kabul govt with Mahendra Pratap",
+  "Newspaper-person matching (Talwar, Islamic Fraternity, Swadesh Sevak, Free Hindustan, Vanguard) appears in APPSC G1 2022",
+  "App matches PYQ style well; adds AP angle (Darsi Chenchayya) the PYQs do not test"
+ ],
+ "stats": {"app_mcqs": 28, "pyqs": 41, "fixed": 0, "dropped": 0}
+}

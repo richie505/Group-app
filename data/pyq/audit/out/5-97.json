@@ -1,0 +1,25 @@
+{
+ "topic": "5:97",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n7e27804b758", "why": "dubious: no official split of missions into 'adaptation-focused' counts; sources differ"},
+  {"id": "nenvironment-7-11", "why": "oddly worded match (status/objective/focus columns), no exam words it this way"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y51679084558", "why": "wrong topic: climate current affairs (UN summit speakers)"},
+  {"id": "y395855ae51e", "why": "wrong topic: global climate initiatives (C40 Cities)"},
+  {"id": "y516fc61e847", "why": "garbled; wrong topic: biodiversity (People's Biodiversity Register)"},
+  {"id": "y9f28b0ea8cd", "why": "wrong topic: biodiversity (People's Biodiversity Register); options unrelated"},
+  {"id": "ydb7d0550b7d", "why": "garbled (stem start and option codes missing)"},
+  {"id": "y87cfa89f69a", "why": "garbled (explanation text merged into stem)"},
+  {"id": "y06ac24c964b", "why": "garbled; wrong topic: Jharkhand climate plan"}
+ ],
+ "patterns": [
+  "APPSC asks the count of NAPCC missions (8), odd-one-out mission (e.g. 'Coastal and Marine Ecosystem' is not one), and NAPCC release year 2008.",
+  "NMSA launch year is a recurring APPSC item with conflicting keys (2011-12 vs operational 2014-15) - learn both framings.",
+  "Strong AP tilt in recent papers: AP Climate Change Cell created November 2022; FFFAP full form.",
+  "App MCQs go deeper (CAG audits, dashboards, ES 2025-26 ninth mission, funds) and use more multi-statement items than PYQs."
+ ],
+ "stats": {"app_mcqs": 30, "pyqs": 14, "fixed": 0, "dropped": 2}
+}

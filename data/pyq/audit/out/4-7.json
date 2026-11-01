@@ -1,0 +1,33 @@
+{
+ "topic": "4:7",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "7#1", "find": "Owen Fracture = African / Indian plates", "replace": "Owen Fracture Zone = Arabian / Indian plate boundary", "why": "established fact: Owen Fracture Zone separates the Indian and Arabian plates"},
+  {"ref": "13#2", "find": "Owen Fracture now separates African and Indian plates", "replace": "Owen Fracture Zone now separates the Arabian and Indian plates", "why": "established fact"},
+  {"ref": "13#17", "find": "Owen Fracture = African/Indian plates", "replace": "Owen Fracture = Arabian/Indian plates", "why": "established fact"}
+ ],
+ "pyq_bad": [
+  {"id": "ydbd01a9d351", "why": "wrong topic: mad cow disease (health)"},
+  {"id": "y37079534b66", "why": "wrong topic: crop origins (groundnut)"},
+  {"id": "y1aa3a11c774", "why": "garbled (old names missing); wrong topic: African place names"},
+  {"id": "yb74028e6740", "why": "wrong topic: geological time scale"},
+  {"id": "yf92457ca1ed", "why": "mental ability (age arithmetic); garbled"},
+  {"id": "y77a603d008e", "why": "mental ability (age arithmetic)"},
+  {"id": "y43930056edf", "why": "mental ability (age arithmetic); garbled"},
+  {"id": "y933700facda", "why": "garbled (options mixed with another question)"},
+  {"id": "y776f4cb17bf", "why": "mental ability (averages)"},
+  {"id": "yadfc92acb5e", "why": "wrong topic: geological time / dinosaurs"},
+  {"id": "y7933d0c34f7", "why": "wrong topic: geomorphic cycle of erosion (Davis)"},
+  {"id": "y820479692db", "why": "wrong topic: European industrial regions"},
+  {"id": "y39170ca5042", "why": "suspect key: Ghana-Brazil gold is the standard drift evidence, so R should explain A (option 1)"}
+ ],
+ "patterns": [
+  "APPSC asks proponent one-liners: continental drift = Wegener (1912); India part of Gondwanaland; number of major plates (7).",
+  "Sea-floor spreading trends (crust age/density/thickness increase away from the ridge) and GPS-based plate monitoring are APPSC-tested.",
+  "Himalaya-Arakan Yoma earthquakes = Indian-Eurasian collision; tsunami cause = sea-floor fault movement.",
+  "Rift-lake trap (Lake Victoria is not a rift lake) and horst = block mountain (Vosges) appear in APPSC Group-1.",
+  "App MCQs cover evidences and boundaries well; some add research-news detail (delamination, Ladakh arc) beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 43, "pyqs": 27, "fixed": 0, "dropped": 0}
+}

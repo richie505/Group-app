@@ -1,0 +1,29 @@
+{
+ "topic": "1:102",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nf85cc4ca2a8", "why": "ambiguous chronology: Nadia attack and Lakshmana Sena's flight are the same event"}
+ ],
+ "notes_fix": [
+  {"ref": "0#5", "find": "Kayadara (Mount Abu), Bhimdev II", "replace": "Kayadara (Mount Abu), Mularaja II (regent Naiki Devi)", "why": "y49026970295: first defeated Ghori = Mularaja II"},
+  {"ref": "6#3", "find": "Ghori beaten by Bhimdev II", "replace": "Ghori beaten by Mularaja II (1178)", "why": "y49026970295"},
+  {"ref": "8#4", "find": "Ghori was beaten by Bhimdev II", "replace": "Ghori was beaten by Mularaja II (1178)", "why": "y49026970295"}
+ ],
+ "pyq_bad": [
+  {"id": "y059c79cd69c", "why": "suspect key: Malik Kafur, not Bakhtiyar Khalji, raided the far south; wrong topic: Khalji southern campaigns"},
+  {"id": "y04d0186b046", "why": "wrong topic: Sena dynasty of Bengal"},
+  {"id": "y9b8ff40d4e6", "why": "wrong topic: Sena court literature (Jayadeva)"},
+  {"id": "ya889bd6ce89", "why": "wrong topic: musical instruments"},
+  {"id": "yb73fc4763f8", "why": "wrong topic: Buddhist scriptures"},
+  {"id": "y85477ef52da", "why": "wrong topic: Buddhist scriptures"},
+  {"id": "yb31b37a51d0", "why": "wrong topic: Delhi Sultanate chronology"}
+ ],
+ "patterns": [
+  "Single-fact firsts dominate: first Muslim invaders = Arabs / Muhammad bin Qasim; founder of Ghaznavids = Alptigin; first defeat of Ghori = Mularaja II.",
+  "Battle-year-opponent recall: Tarain 1191/1192, Chandawar 1194 vs Jaichand; Second Tarain = foundation of Muslim rule.",
+  "Court scholars: Utbi court historian, Firdausi Shahnama, Al-Biruni accompanied Mahmud; Chachnama translator Kufi.",
+  "APPSC-G1 asked why Ghori won (superior war technology); UPPSC uses A-R on lack of political unity.",
+  "App matches these well but adds long 4-statement and match items; PYQs are direct one-liners."
+ ],
+ "stats": {"app_mcqs": 34, "pyqs": 37, "fixed": 0, "dropped": 1}
+}

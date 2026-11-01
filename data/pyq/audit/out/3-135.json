@@ -1,0 +1,21 @@
+{
+ "topic": "3:135",
+ "mcq_fix": [],
+ "mcq_drop": [{"id": "nda6f9b9682e", "why": "statements cite 'APPSC 2021 key' and 'CDI figure' - meta, oddly worded; no exam asks this way"}],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yee8c43ea227", "why": "mental ability"},
+  {"id": "ydba22867080", "why": "mental ability"},
+  {"id": "ye99c1a9012e", "why": "garbled (URL fragments in options); duplicate of yc953a4b0d6b"},
+  {"id": "y64b8ebea81f", "why": "wrong topic: AP sports current affairs (SAAP policy)"},
+  {"id": "ya0bb5e7157c", "why": "wrong topic: AP sports current affairs (SAAP competitions)"},
+  {"id": "yb64b3d23872", "why": "wrong topic: health programmes (HIV/AIDS)"}
+ ],
+ "patterns": [
+  "APPSC asks direct single-fact items on the APRA 2014 division rules: property outside the State by population ratio; cash balances adjusted in RBI books.",
+  "Schedule-number recall recurs: Schedule IX and X (Dec 2022 SC plea), Seventh Schedule = list of funds.",
+  "Committee-name recall (Sheela Bhide for Schedule IX) and section/part recall (Sec 95, Part XI education).",
+  "App MCQs go further into multi-statement items on disputes, power sharing and debt positions; core facts match the PYQs."
+ ],
+ "stats": {"app_mcqs": 24, "pyqs": 11, "fixed": 0, "dropped": 1}
+}

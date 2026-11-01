@@ -1,0 +1,28 @@
+{
+ "topic": "3:31",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ncb6cb2dacc4", "why": "ambiguous: 6.06% (NITI MPI 2019-21) is also a valid AP MPI figure among options; 'cited 2023 estimate' unclear"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y19b818c98a7", "why": "wrong topic: demography (fertility rate)"},
+  {"id": "y2f688f2bacf", "why": "wrong topic: population density"},
+  {"id": "yaa0438a3a98", "why": "wrong topic: AP horticulture research stations"},
+  {"id": "yfc60470ed75", "why": "wrong topic: literacy (Census 2011)"},
+  {"id": "y55e9c08d91f", "why": "wrong topic: human development index"},
+  {"id": "y515050a0033", "why": "wrong topic: population density"},
+  {"id": "yc7e58634472", "why": "wrong topic: literacy (Census 2011)"},
+  {"id": "y8c3b4bbccb1", "why": "wrong topic: urbanisation / million cities"},
+  {"id": "y591f18a7a73", "why": "garbled: stem from another item, options lack percentages"},
+  {"id": "y9a7a0096e0a", "why": "garbled; wrong topic: domestic tourism"}
+ ],
+ "patterns": [
+  "APPSC asks AP institution identification: SERP full form and role, APMSS for rural and urban poor - recurring Group-2 items.",
+  "APPSC also asks headline numbers: rural poverty 2011-12 (25.7%), 90 million lifted out 2011-15, AP MPI trend.",
+  "Other PSCs ask which State has the most poor (UP) or highest ratio, and World Bank's four-State concentration (Bihar, UP, MP, Odisha).",
+  "Many PYQs filed here are demography/literacy strays, not poverty.",
+  "App MCQs match these well; they add AP district MPI figures and 2025-26 schemes (VB-G RAM G, graduation models)."
+ ],
+ "stats": {"app_mcqs": 20, "pyqs": 19, "fixed": 0, "dropped": 1}
+}

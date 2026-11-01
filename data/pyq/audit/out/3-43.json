@@ -1,0 +1,28 @@
+{
+ "topic": "3:43",
+ "mcq_fix": [
+  {"id": "n10382eed088", "s": "Consider the following statements about AMRUT: 1. It initially covered 500 cities, which became 485 after 15 were merged. 2. It covers about 60% of India's urban population. 3. Its total outlay was Rs 1 lakh crore, of which the central share was Rs 75,000 crore. Which of the statements given above is/are correct?", "why": "y3641efaabff keys AMRUT coverage as 60% of urban population"}
+ ],
+ "mcq_drop": [
+  {"id": "na39d2dc006e", "why": "opinion item ('urban-finance concern highlighted')"},
+  {"id": "na28d3d43575", "why": "opinion item (criticism of ABD approach)"}
+ ],
+ "notes_fix": [
+  {"ref": "8#2", "find": "~65% of urban population (some notes say ~60%)", "replace": "~60% of urban population (some notes say ~65%)", "why": "y3641efaabff key: AMRUT covers 60%"}
+ ],
+ "pyq_bad": [
+  {"id": "ye80f08ff68d", "why": "wrong topic: urban sociology (Redfield and Singer)"},
+  {"id": "y3aeb026fdba", "why": "wrong topic: disaster management (NDMP)"},
+  {"id": "yb618f85d368", "why": "wrong topic: tourism (Golden Triangle)"},
+  {"id": "yc6d0b08736b", "why": "wrong options: stem merged with AMRUT thrust-area list from another question"},
+  {"id": "y7291da2ae70", "why": "mental ability (ratio arithmetic); garbled"},
+  {"id": "y4b2d545066b", "why": "garbled: scheme aims missing from options"}
+ ],
+ "patterns": [
+  "APPSC asks current-affairs style facts: cleanest city (Indore), GHTC full form, World Cities Day theme, UIDF statements (only III valid).",
+  "AMRUT mission-city questions ('which city is not a mission city', Dausa) and JNNURM scope (63 million-plus cities).",
+  "Other PSCs: AMRUT thrust areas, coverage 60%, HRIDAY odd-one-out (Agra), chronology JNNURM -> NUHHP -> AMRUT -> JJM.",
+  "App covers the schemes thoroughly with statement sets; a few opinion/criticism items and recent AP funding figures go beyond PYQ style."
+ ],
+ "stats": {"app_mcqs": 29, "pyqs": 27, "fixed": 1, "dropped": 2}
+}

@@ -1,0 +1,25 @@
+{
+ "topic": "2:156",
+ "mcq_fix": [
+  {"id": "n2b38aecc039", "s": "According to the ILO–UNICEF joint estimate for 2020 (released 2021), the number of child labourers globally was approximately:", "why": "2020 estimate = 160 mn; the 2025 release (for 2024) gives ~138 mn, so pin the year"}
+ ],
+ "mcq_drop": [
+  {"id": "nd410b063013", "why": "ambiguous: India was also elected to the ICAO Council in 2022 (2022-25 term), so statement 3 is arguably true"}
+ ],
+ "notes_fix": [
+  {"ref": "11#7", "find": "ILO-UNICEF joint estimate = 160 million child labourers globally", "replace": "ILO-UNICEF joint estimate = 160 million child labourers globally (2020); latest 2025 release (for 2024) = about 138 million", "why": "ILO-UNICEF Global Estimates 2024 (June 2025)"},
+  {"ref": "3#4", "find": "ILO-UNICEF: 160 million child labourers", "replace": "ILO-UNICEF: 160 million child labourers (2020); ~138 million (2024 estimate)", "why": "ILO-UNICEF Global Estimates 2024 (June 2025)"}
+ ],
+ "pyq_bad": [
+  {"id": "y56e1526a43f", "why": "wrong topic: international news agencies"},
+  {"id": "y942106503e4", "why": "wrong topic: international NGOs"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact mandate items (which UN agency works for children -> UNICEF), sometimes repeated verbatim across papers.",
+  "Current-affairs hooks dominate APPSC: India chairing CND (UNODC as distractor), Hoysala temples WH listing (Sept 2023), first woman UNESCO DG (Irina Bokova).",
+  "HQ matching (UNEP Nairobi, UPU Berne, UNIDO Vienna) and Nobel Peace Prize to agencies (WFP 2020) recur in UPSC/state PSC keys.",
+  "Report-to-agency links appear (World Water Development Report = UNESCO) often with an India rank figure.",
+  "App MCQs go deeper than PYQs on ILO convention numbers and classification statements; HQ/founding and mandate items match exam depth well."
+ ],
+ "stats": {"app_mcqs": 37, "pyqs": 13, "fixed": 1, "dropped": 1}
+}

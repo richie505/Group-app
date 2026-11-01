@@ -1,0 +1,20 @@
+{
+ "topic": "1:261",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yc06be68dfa9", "why": "garbled: stem truncated (duplicate of yc3ad7f4bf31)"},
+  {"id": "yc1fd384ae6b", "why": "wrong topic: Ambedkar biography"},
+  {"id": "yf25695d6bf4", "why": "wrong topic: AP state symbols"},
+  {"id": "y203c50f1d86", "why": "wrong topic: disaster management"},
+  {"id": "y796b01401df", "why": "wrong topic: Bhoodan movement"}
+ ],
+ "patterns": [
+  "APPSC asks single facts: SRC chairman = Fazl Ali; Andhra State capital = Kurnool; Andhra = first linguistic state (1 Oct 1953).",
+  "Traps rest on dates (SRC set up Dec 1953, not 1954 or August 1953) and members (Sapru, Wanchoo and Pattabhi were not members).",
+  "SRC vs SR Act counts (16+3 vs 14+6) and the SRC's para 386 Telangana formula (two-thirds, after 1961) are the recurring AP-angle facts.",
+  "The app goes deeper into the Visalandhra politics (Gentlemen's Agreement terms, Assembly vote, Nehru's remarks); the shapes are appropriate for APPSC."
+ ],
+ "stats": {"app_mcqs": 44, "pyqs": 8, "fixed": 0, "dropped": 0}
+}

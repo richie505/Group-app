@@ -1,0 +1,33 @@
+{
+ "topic": "2:45",
+ "mcq_fix": [
+  {"id": "nea239d12679", "s": "Consider the following statements about Articles 323A and 323B: 1. Both were inserted in Part XIV-A by the 42nd Amendment, 1976. 2. Their insertion followed the recommendations of the Sarkaria Committee. 3. The 75th Amendment, 1994 added the rent and tenancy clause. Which of the statements given above is/are correct?", "why": "Constitution (75th Amendment) Act is of 1994, not 1993"}
+ ],
+ "mcq_drop": [
+  {"id": "na9de6951694", "why": "opinion item ('which criticism relates most directly')"},
+  {"id": "nba577d798d1", "why": "ambiguous: Kesavananda and Minerva also upheld judicial review before 1997; 'stated judicial history' wording"}
+ ],
+ "notes_fix": [
+  {"ref": "0#3", "find": "75th Amendment, 1993", "replace": "75th Amendment, 1994", "why": "75th Amendment Act dated 1994"},
+  {"ref": "9#4", "find": "75th Amendment, 1993", "replace": "75th Amendment, 1994", "why": "75th Amendment Act dated 1994"},
+  {"ref": "9#8", "find": "75th (1993)", "replace": "75th (1994)", "why": "75th Amendment Act dated 1994"}
+ ],
+ "pyq_bad": [
+  {"id": "ya8cb936ee5b", "why": "mental ability"},
+  {"id": "y53a25ab3bc6", "why": "wrong topic: Plant Varieties and Farmers' Rights Act"},
+  {"id": "yed32b9f05e8", "why": "wrong topic: Panchayati Raj (Article 243)"},
+  {"id": "ya67b589144a", "why": "wrong topic: Panchayati Raj (Article 243)"},
+  {"id": "y13bb5834df1", "why": "garbled: options truncated"},
+  {"id": "yb5972e23eee", "why": "wrong topic: due process of law"},
+  {"id": "y0dcfd9281e3", "why": "wrong topic: early nationalist movement"},
+  {"id": "yfbda11e02b0", "why": "wrong topic: sports awards"},
+  {"id": "ya6f1d2c7224", "why": "wrong topic: judicial review / sources of Constitution"}
+ ],
+ "patterns": [
+  "PYQs on tribunals are thin and direct: Part XIV-A (trap Part XI), NGT appeal to SC in 90 days, TDSAT appeal route.",
+  "APPSC GS 2024 asked AFT bench locations (no Bhopal bench); G1 2022 CAT members from judicial and administrative streams.",
+  "Standard contrast 323A (service, Parliament only) vs 323B (other subjects, Parliament + States, hierarchy).",
+  "App has heavy 2025-26 current-affairs content (Madras Bar Association 2025, Tribunals Reforms Bill 2026, NTC) and multiple near-similar A-R items on judicial review."
+ ],
+ "stats": {"app_mcqs": 55, "pyqs": 12, "fixed": 1, "dropped": 2}
+}

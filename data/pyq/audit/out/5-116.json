@@ -1,0 +1,26 @@
+{
+ "topic": "5:116",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nbiology-70-16", "why": "near-duplicate of vaccine-platform matches nbiology-44-3 and nbiology-70-21"},
+  {"id": "nb63887573df", "why": "opinion-style 'lessons' item with a strawman statement"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yfe781615a15", "why": "suspect key: COVID vaccines mostly introduce a harmless piece/instructions (3), not live attenuated virus"},
+  {"id": "ya51ec8a8e61", "why": "garbled preamble; wrong topic: discovery of X-rays"},
+  {"id": "y829be38a206", "why": "suspect key: reason (separate bed) does not explain viral transmission"},
+  {"id": "y250a0bf67cf", "why": "wrong topic: blood groups (Landsteiner)"},
+  {"id": "ye8c499a1269", "why": "garbled: mixed with SC commission question text"},
+  {"id": "y495b9856b6e", "why": "garbled duplicate of y906a48e29db; option 3 is stem text"},
+  {"id": "y02bd6a58a91", "why": "wrong topic: malaria vectors (Anopheles vs Culex)"}
+ ],
+ "patterns": [
+  "APPSC asks COVID-era scheme/state facts: Mo Jeeban = Odisha, PM CARES for Children statement items, ACE2 receptor.",
+  "Pioneer identification recurs across PSCs: Jenner = father of immunology / first vaccination, Salk = polio, Koch = TB bacillus.",
+  "Term definitions (pandemic vs epidemic vs endemic) and vaccine platform of named COVID vaccines (Moderna mRNA, Sinovac whole virus, Sputnik vector) are common.",
+  "Outbreak-geography items: Ebola 2014 in Guinea, Sierra Leone, Liberia.",
+  "App MCQs are broadly aligned; they add 2026 outbreaks (Bundibugyo Ebola PHEIC) and several overlapping vaccine-platform match items."
+ ],
+ "stats": {"app_mcqs": 49, "pyqs": 31, "fixed": 0, "dropped": 2}
+}

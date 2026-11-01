@@ -1,0 +1,30 @@
+{
+ "topic": "2:162",
+ "mcq_fix": [
+  {"id": "ne06ebf21143", "s": "Which country hosts about 3.5 million Indians, the largest number of Indian nationals (NRIs) in any foreign country?", "why": "'according to the cited diaspora data' is odd wording referring to the notes"}
+ ],
+ "mcq_drop": [
+  {"id": "n00cd84299f9", "why": "opinion/abstract IR item ('best reflects the distinction'), not exam style"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y3ff4dfd9db7", "why": "wrong topic: world geography (Israel's borders)"},
+  {"id": "y2733577e2a6", "why": "wrong topic: world history (Yom Kippur War)"},
+  {"id": "y94c007554c5", "why": "wrong topic: international current affairs (famine)"},
+  {"id": "y45dcb001a7e", "why": "wrong topic: film festivals (IFFI)"},
+  {"id": "yad8d0679d12", "why": "wrong topic: film festivals (IFFI); duplicate of y45dcb001a7e"},
+  {"id": "yca336455803", "why": "wrong topic: film festivals (IFFI)"},
+  {"id": "y35f1ecd29fb", "why": "wrong topic: space missions (UAE Mars mission)"},
+  {"id": "y8215739fbb7", "why": "wrong topic: sports (Indian Grand Prix)"},
+  {"id": "y624aeae7bfe", "why": "suspect key: International Yoga Day first celebrated 2015 (UNGA resolution Dec 2014), not 2014"},
+  {"id": "y7f68877cab6", "why": "garbled: option codes truncated ('and 2 only', 'only')"}
+ ],
+ "patterns": [
+  "PBD is the most-asked item: date (9 January), first year (2003), host city of a given edition, Samman recipients.",
+  "Peacekeeping asked as statement items on force (self-defence AND mandate), who withdraws a mission (UNSC), largest budget contributor (USA), and mission-host-period matches (UPSC 2026).",
+  "APPSC items here are current-affairs one-liners (ICCR Distinguished Indologist award) rather than conceptual diplomacy.",
+  "Old keys (UPPSC 2011: India biggest troop contributor) are dated - app correctly teaches the current rank as a trap.",
+  "App has more institution-year items (ITEC 1964, EXIM 1982, DPA 2012) and operation-country matches - reasonable exam fodder."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 18, "fixed": 1, "dropped": 1}
+}

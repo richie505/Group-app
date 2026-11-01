@@ -1,0 +1,17 @@
+{
+ "topic": "2:86",
+ "mcq_fix": [],
+ "mcq_drop": [{"id": "n4e67d9f3f2a", "why": "obscure Baxi-typology trivia, oddly worded; beyond PYQ depth"}],
+ "notes_fix": [{"ref": "12#3", "find": "members removable only after a Supreme Court inquiry", "replace": "members removable for misbehaviour only after a Supreme Court inquiry (Art. 317; other grounds like insolvency need no inquiry)", "why": "Art. 317(3) allows removal without SC inquiry on other grounds"}],
+ "pyq_bad": [
+  {"id": "y63496617c4f", "why": "wrong topic: current affairs - health/medical technology (SSI Mantra robot)"},
+  {"id": "yfc1bfe2e6a9", "why": "duplicate of yd72b6e28711"}
+ ],
+ "patterns": [
+  "APPSC asks this topic mainly via Assertion-Reason on media (free press, new media, image-building of politicians).",
+  "Trap in A-R: two true statements unrelated -> 'Both true' rather than 'correct explanation'.",
+  "Direct conceptual items: options available to government against an SC verdict (law + constitutional amendment).",
+  "App MCQs lean on statement-type items about PIL, NITI Aayog, think tanks and 2026 AP current affairs that PYQs do not test."
+ ],
+ "stats": {"app_mcqs": 28, "pyqs": 5, "fixed": 0, "dropped": 1}
+}

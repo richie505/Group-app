@@ -1,0 +1,16 @@
+{
+ "topic": "1:201",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nap-history-33-14", "why": "dubious: keys 'first meeting held in Guntur', which conflicts with the APPSC key (Machilipatnam) used in n3dcef0bbc58"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [],
+ "patterns": [
+  "Only one PYQ filed: year of the Krishna District Association (1892) - APPSC asks this period as direct year/first facts",
+  "Recurring 'firsts' in APPSC keys: first district association in Madras Presidency (Krishna, 1892), first Telugu INC president (Anandacharlu, 1891), first political magazine (Andhra Prakasika)",
+  "Known key conflict: first meeting of Krishna District Association - Machilipatnam (APPSC 2012 key) vs Guntur in other notes; app should not key Guntur",
+  "App MCQs here are mostly sound single-fact or chronology items; match items mixing later bodies (1907-1940) go beyond this period"
+ ],
+ "stats": {"app_mcqs": 12, "pyqs": 1, "fixed": 0, "dropped": 1}
+}

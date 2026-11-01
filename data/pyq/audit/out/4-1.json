@@ -1,0 +1,27 @@
+{
+ "topic": "4:1",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yc29c2f87c00", "why": "suspect key: China (~35 deg of latitude) does not have the longest N-S extension; Russia/Brazil/Chile span more"},
+  {"id": "y9bfa668f217", "why": "garbled: depends on a map that is missing"},
+  {"id": "y017bea5b5a2", "why": "garbled: map-question text fused into stem (duplicate of y1de438d4db3)"},
+  {"id": "yfef236b9498", "why": "garbled: option latitudes truncated"},
+  {"id": "y8790b90e92f", "why": "wrong topic: international organisations HQs; options truncated"},
+  {"id": "y94d595ac995", "why": "wrong topic: general knowledge (Ground Zero)"},
+  {"id": "yc1dcc7995f4", "why": "wrong topic: current affairs (PM's Rwanda visit)"},
+  {"id": "y54f493daa5c", "why": "wrong topic: international organisations (OPEC)"},
+  {"id": "y0972078b530", "why": "wrong topic: Indian states' boundaries"},
+  {"id": "y1aaec186dd2", "why": "wrong topic: space programme (Thumba site)"},
+  {"id": "y92b19f98808", "why": "wrong topic: pressure belts / planetary winds (doldrums)"},
+  {"id": "y8647e294ec2", "why": "wrong topic: climatology (annual range of temperature)"}
+ ],
+ "patterns": [
+  "APPSC asks simple definitional/person recall: father of geography (Eratosthenes), first to divide circle into 360 deg (Hipparchus), latitudes run east-west.",
+  "Other PSCs heavily test which countries the Equator / Prime Meridian / Tropics cross (Kenya yes, Mexico no), 0 deg-0 deg in Atlantic (Gulf of Guinea), 180 deg meridian forms a great circle with Prime Meridian.",
+  "India extremes are a staple: Indira Point (Great Nicobar) southernmost, Arunachal-Gujarat east-west, 68 deg 7' E westernmost.",
+  "App MCQs match PYQ shapes well and add AP location facts (latitudinal extent, neighbours, districts, IST meridian) that suit APPSC's AP tilt; some items (Equal Earth UNGA vote, EOS-05) are current-affairs add-ons."
+ ],
+ "stats": {"app_mcqs": 32, "pyqs": 37, "fixed": 0, "dropped": 0}
+}

@@ -1,0 +1,30 @@
+{
+ "topic": "3:91",
+ "mcq_fix": [
+  {"id": "nindian-economy-10-5", "s": "Match List-I with List-II:  List-I (a) Primary market (b) Secondary market (c) Initial status of SEBI (d) Statutory status of SEBI  List-II (i) 30 January 1992 (ii) Existing securities (iii) Non-statutory body (iv) New securities  Select the correct code.", "why": "SEBI got statutory powers 30 Jan 1992; 12 April is the 1988 set-up date"},
+  {"id": "n2287e6be852", "s": "Credit rating agencies in India are regulated by:", "why": "odd wording 'in the regulatory classification given'"}
+ ],
+ "mcq_drop": [
+  {"id": "n82b1cf0926b", "why": "opinion item (criticism of SMC)"},
+  {"id": "ncd2499c4b50", "why": "obscure local event trivia"},
+  {"id": "n1d1531f8e80", "why": "dubious causal claim; 49/50-investor deemed-public-issue rule predates Sahara"}
+ ],
+ "notes_fix": [
+  {"ref": "0#2", "find": "12 Apr 1992 — Statutory under SEBI Act, 1992", "replace": "30 Jan 1992 — Statutory under SEBI Act, 1992 (12 April 1988 = non-statutory set-up)", "why": "statutory powers 30 Jan 1992; 12 April is 1988 date"},
+  {"ref": "8#2", "find": "statutory status on 12 April 1992", "replace": "statutory status on 30 January 1992", "why": "established fact; 12 April 1988 = set-up"}
+ ],
+ "pyq_bad": [
+  {"id": "yb27591fc604", "why": "wrong topic: AP governance initiatives (Prajala Vaddaku Palana)"},
+  {"id": "y8ca5b68653b", "why": "suspect key: UTI was the largest mutual fund in 1995, not SBI MF"},
+  {"id": "y4394524799b", "why": "wrong topic: TRAI / regulatory bodies"},
+  {"id": "y739d93d354e", "why": "garbled options"},
+  {"id": "y03558583862", "why": "wrong topic: CSR / Companies Act 2013"}
+ ],
+ "patterns": [
+  "APPSC asks SEBI as direct one-liners: regulator of stock/capital market, who got powers to prevent scams, year of SEBI Act (1992).",
+  "Recurring traps: SEBI vs RBI vs FMC (commodity futures), credit rating agencies (CRISIL/ICRA/CARE), private MFs permitted 1993.",
+  "Recent APPSC-G2 item on T+0 settlement goals in multi-statement form; BRSR (SEBI not RBI) asked by UPSC 2025.",
+  "App over-weights committees, scams and 2025-26 current details (SMC Bill, finfluencers) relative to PYQ depth; PYQs stay at basics."
+ ],
+ "stats": {"app_mcqs": 32, "pyqs": 18, "fixed": 2, "dropped": 3}
+}

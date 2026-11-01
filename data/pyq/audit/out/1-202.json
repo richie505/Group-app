@@ -1,0 +1,30 @@
+{
+ "topic": "1:202",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-history-119-3", "why": "Ambiguous A-R: whether Swaraj as Extremist goal 'explains' Tilak's slogan is arguable; key 2 not defensible"}
+ ],
+ "notes_fix": [
+  {"ref": "9#2", "find": "Occurred in 1917", "replace": "Began in 1916 (Tilak's League Apr 1916, Besant's Sept 1916)", "why": "Home Rule Leagues were founded in 1916"}
+ ],
+ "pyq_bad": [
+  {"id": "y45ed7c58ad2", "why": "garbled: options mixed with another question's text"},
+  {"id": "yf56f26a7740", "why": "wrong options: Tagore missing, years as options; wrong topic: national anthem"},
+  {"id": "y99ad3db9f76", "why": "garbled: statements missing (Lucknow Pact item)"},
+  {"id": "y6b85889b165", "why": "garbled + wrong topic: leadership/extension education"},
+  {"id": "y564b772a18e", "why": "wrong topic: Tagore biography (death year)"},
+  {"id": "y96bad7d1bea", "why": "wrong topic: art history (Nandalal Bose, Kala Bhavana)"},
+  {"id": "y8b3706a363a", "why": "wrong topic: Bengali literature (Durgesh Nandini)"},
+  {"id": "y7ed5dd253f5", "why": "wrong topic: Bengali literature (Durgesh Nandini)"},
+  {"id": "y922068cbcf3", "why": "wrong topic: Nobel laureates"},
+  {"id": "yc2501acb2c7", "why": "wrong topic: patriotic songs (Jhanda Geet)"},
+  {"id": "yba9d0f83b8c", "why": "wrong topic: authors and books (Taslima Nasreen)"}
+ ],
+ "patterns": [
+  "Dates dominate: partition 1905 by Curzon, effective 16 Oct 1905, annulled 1911 at George V's Delhi Durbar with capital shift; APPSC asks year-of-revocation as a one-liner.",
+  "First-use framing recurs: Swadeshi and Boycott first adopted during anti-partition agitation; K.K. Mitra first suggested boycott; Vande Mataram became the theme song.",
+  "Persons -> works: Amar Sonar Bangla (Tagore), Desher Katha (Deuskar), V.O.C. in Madras, Tilak slogans/Ganapati festival; APPSC 2023 matched Lal-Bal-Pal to regions.",
+  "APPSC Andhra angle: Kakinada riot = first criminal case (G2); app adds deep Andhra Vandemataram detail (Pal's tour hosts, Bala Bharati Samiti) far beyond most PYQs."
+ ],
+ "stats": {"app_mcqs": 57, "pyqs": 51, "fixed": 0, "dropped": 1}
+}

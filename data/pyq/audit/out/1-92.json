@@ -1,0 +1,25 @@
+{
+ "topic": "1:92",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nc787f2c650c", "why": "statement 2 cites a key crediting Kesari Samudram to Rudradeva; APPSC G2 key y63b0a5dc27a gives Prola I"},
+  {"id": "n23bba306876", "why": "oddly worded (asks what an answer key gave) and the cited key itself is suspect"}
+ ],
+ "notes_fix": [
+  {"ref": "4#0", "find": "Kesari Samudram (APPSC 2019) Rudradeva", "replace": "Kesari Samudram (= Kesamudram) Prola I (APPSC G2 key)", "why": "y63b0a5dc27a: Kesari Samudra built by Prolaraja I"},
+  {"ref": "7#1", "find": "Kesari = Rudradeva", "replace": "Kesari Samudram = Prola I (APPSC G2 key)", "why": "y63b0a5dc27a"},
+  {"ref": "13#0", "find": "follow Rudradeva", "replace": "APPSC G2 key (y63b0a5dc27a) = Prola I", "why": "y63b0a5dc27a keys Prolaraja I"},
+  {"ref": "13#1", "find": "Kesari Samudram = Rudradeva", "replace": "Kesari Samudram = Prola I (APPSC G2 key)", "why": "y63b0a5dc27a"}
+ ],
+ "pyq_bad": [
+  {"id": "y0d36e1751c8", "why": "suspect key: Motupalli = Ganapatideva, Bayyaram = Mailamba, so option 1 (a-IV b-III c-I d-II) fits; key 2 is a slip"}
+ ],
+ "patterns": [
+  "APPSC asks Kakatiya builder/issuer matches: tanks (Kesari Samudram), inscriptions (Sanigaram, Anumakonda, Bayyaram, Motupalli) to rulers.",
+  "Statement-type APPSC items test titles and religion: Prola I = Arigajakesari (trap: 'Arikesari'), Beta II initiated into Saivism by Rameswara Pandita, Prataparudra and the Nayankara system.",
+  "Simple items: capital = Orugallu (Warangal); Rudrama Devi's victories over Pandyas, Gangas, Seunas.",
+  "APPSC keys on this topic contain slips; app notes should follow the fact-consistent reading and flag key conflicts.",
+  "App MCQs are dense and much deeper (feudatory titles, Velanati wars, dates) than the PYQs; several cite answer keys rather than facts."
+ ],
+ "stats": {"app_mcqs": 51, "pyqs": 7, "fixed": 0, "dropped": 2}
+}

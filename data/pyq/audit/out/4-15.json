@@ -1,0 +1,27 @@
+{
+ "topic": "4:15",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ngeneral-geography-7-44", "why": "ambiguous: distance from sea (land-sea breezes) also alters temperature and air movement"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y81fcff83e53", "why": "garbled: option codes truncated"},
+  {"id": "y0075f72e4aa", "why": "garbled: option codes truncated"},
+  {"id": "y86f67a5c73a", "why": "garbled: options truncated mid-sentence"},
+  {"id": "y9854f920fae", "why": "garbled: options truncated mid-sentence"},
+  {"id": "y8857bc252ae", "why": "garbled: depends on a missing map"},
+  {"id": "y87285d2bcce", "why": "wrong topic: latitudinal biodiversity gradient"},
+  {"id": "y089959de79e", "why": "wrong topic: altitudinal vegetation zones"},
+  {"id": "yfc1d1c81f72", "why": "wrong topic: physics of heat transfer in car radiators"},
+  {"id": "ye7f1a1ba61d", "why": "wrong topic: soil water tension"},
+  {"id": "y4e2ad171ee2", "why": "wrong topic: ecology (stenothermal organisms)"}
+ ],
+ "patterns": [
+  "APPSC asks direct definitions: insolation = incoming solar radiation, highest albedo = snow, process-mechanism matching (advection horizontal, convection vertical), seasonal range maximum in high latitudes.",
+  "UPSC/other PSCs recur on why cloudy nights are warmer (clouds reflect back terrestrial radiation), continentality and annual range, January isotherms bending, hottest latitudes near 20-30 N.",
+  "Heat budget, GWP, inversion types and IMD heat/cold wave thresholds appear in app MCQs but not in PYQs; APPSC depth here is basic NCERT.",
+  "App MCQs use many statement/match items with numeric detail (27 cloud units, 6/9/19 split, 47 C severe heatwave) beyond what PYQs show."
+ ],
+ "stats": {"app_mcqs": 50, "pyqs": 23, "fixed": 0, "dropped": 1}
+}
