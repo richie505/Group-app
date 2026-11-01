@@ -74,6 +74,16 @@ def swap_two(qid, s, o, a, x):
     return s2, x2, 1
 
 
+# writers' notes about the rewrite itself, sometimes left in brackets in the explanation
+NOTE = re.compile(r"\s*\((?:TARGET|Nearest honest|Original|The original|A sequence question|No dated|No dates|Match grid|"
+                  r"Rewritten|Restyled|Written as)[^()]*\)", re.I)
+
+
+def clean(x):
+    x = re.sub(r"(?:^|(?<=[.;] ))The original key [^.]*\.\s*", "", NOTE.sub("", x))
+    return re.sub(r"[ \t]{2,}", " ", x).strip()
+
+
 def valid(r):
     o = r.get("o")
     return (isinstance(r.get("s"), str) and len(r["s"].strip()) >= 10 and isinstance(o, list) and len(o) == 4
@@ -114,7 +124,7 @@ def main():
                         o, a = [o[k] for k in order], order.index(a)
                     elif movable(r, o):
                         o, a = place_key(q["id"], o, a, r.get("shape", ""), r["s"])
-                    s, x = r["s"].strip(), (r.get("x") or "").strip()
+                    s, x = clean(r["s"].strip()), clean(r.get("x") or "")
                     sw = swap_two(q["id"], s, o, a, x)
                     if sw:
                         s, x, a = sw
