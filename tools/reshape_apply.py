@@ -29,10 +29,12 @@ POS_NOT = [0.22, 0.22, 0.21, 0.35]
 
 def movable(r, o):
     """Options in no natural order: not codes, not assertion-reason, no 'All / None / Both' option."""
-    sh = r.get("shape", "")
-    if sh.startswith(("assertion", "statements", "sequence")):
+    # decided by what the options are (agents' shape labels are not always right)
+    if re.search(r"(?i)\bassertion\b|\breason\b \(R\)|chronological|arrange|correct order|sequence", r.get("s", "")):
         return False
-    return not any(re.search(r"(?i)^(?:all|none|both|neither)\b|of the above|^\(?[1-4ivx]+\)?(?:\s*(?:,|and)\s*\(?[1-4ivx]+\)?)+", x) for x in o)
+    code = (r"(?i)^(?:all|none|both|neither|only)\b|of the above|\bonly$|^\(?[1-6a-divx]+\)?\s*(?:only|,|and|-|–)"
+            r"|^\(?[A-D]\)?\s*[-–]\s*\(?[1-4ivx]+\)?|\bA\b.*\bR\b")
+    return not any(re.search(code, x.strip()) for x in o)
 
 
 def place_key(qid, o, a, shape, stem):
