@@ -5,6 +5,8 @@ import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.background
@@ -74,6 +76,11 @@ class MainActivity : ComponentActivity() {
             ProgressStore(PrefsStorage(applicationContext)),
             AndroidPlatform(applicationContext),
         )
+        // the notes and the dictionary read in the background once the first screen is up: a Meaning lookup is then quick
+        lifecycleScope.launch {
+            kotlinx.coroutines.delay(2500)
+            app.repo.warmNotes()
+        }
         setContent {
             PrepTheme {
                 CompositionLocalProvider(LocalApp provides app) { AppRoot() }

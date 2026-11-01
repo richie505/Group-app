@@ -62,35 +62,64 @@ class Repository(private val open: (String) -> InputStream) {
     suspend fun notesAbout(selection: String, limit: Int = 4): Pair<String, List<Dictionary.NoteDefinition>>? =
         withContext(Dispatchers.Default) {
             val term = NotesTerms.parse(selection) ?: return@withContext null
-            val found = mutableListOf<Triple<Int, Int, Dictionary.NoteDefinition>>() // score, order, line
-            var order = 0
+            val all = noteLines()
+            // a word of the selection that the matching lines must contain: most lines are skipped without the regex
+            val key = Regex("[A-Za-z0-9]{3,}").findAll(selection).map { it.value }.maxByOrNull { it.length }
+            fun scan(lines: List<NoteLine>): List<Triple<Int, Int, Dictionary.NoteDefinition>> {
+                val found = mutableListOf<Triple<Int, Int, Dictionary.NoteDefinition>>() // score, order, line
+                lines.forEachIndexed { order, l ->
+                    val m = term.regex.find(l.text) ?: return@forEachIndexed
+                    val text = sentence(l.text, m.range)
+                    if (text.isBlank()) return@forEachIndexed
+                    val heading = term.regex.containsMatchIn(l.heading)
+                    // the line opens with the term > a heading names it > the rest; lines that only open a list last
+                    val score = (if (m.range.first <= 3) 0 else 2) + (if (heading) 0 else 1) + (if (text.length < 45) 4 else 0)
+                    found += Triple(score, order, Dictionary.NoteDefinition(text, l.where))
+                }
+                return found
+            }
+            // the quick pass; if the word is spelled otherwise in the notes (84th = Eighty-fourth), every line
+            val found = (if (key != null) scan(all.filter { it.text.contains(key, ignoreCase = true) }) else emptyList())
+                .ifEmpty { scan(all) }
+            val seen = HashSet<String>()
+            term.display to found.sortedWith(compareBy({ it.first }, { it.second })).map { it.third }
+                .filter { seen.add(it.text.lowercase()) }.take(limit)
+        }
+
+    /** One line of the notes for [notesAbout]: its text, where it is, and its section and subsection titles. */
+    class NoteLine(val text: String, val where: String, val heading: String)
+
+    @Volatile private var lineIndex: List<NoteLine>? = null
+    private val lineMutex = Mutex()
+
+    /** Every line of the six books, read once ([warmNotes] does it when the app opens). */
+    suspend fun noteLines(): List<NoteLine> = lineIndex ?: lineMutex.withLock {
+        lineIndex ?: withContext(Dispatchers.Default) {
+            val out = ArrayList<NoteLine>(200_000)
             for (b in 1..6) {
                 val bk = book(b)
                 for (r in bk.rows) for (s in r.secs) {
-                    val heading = term.regex.containsMatchIn(s.title) || term.regex.containsMatchIn(r.title)
+                    val where = "${bk.short} · ${r.title}"
+                    val heading = s.title + "\n" + r.title
                     for (blk in s.blocks) {
                         val lines = when (blk) {
                             // grey "Not in your sources: ..." notes say what the notes lack: not a meaning
                             is TextBlock -> listOf(blk.runs.filterNot { it.muted && it.text.trimStart().startsWith("Not in your sources") }.joinToString("") { it.text })
                             is TableBlock -> blk.rows.map { row -> row.joinToString(" - ") { c -> c.joinToString("") { it.text } } }
                         }
-                        for (line in lines) {
-                            val m = term.regex.find(line) ?: continue
-                            val text = sentence(line, m.range)
-                            if (text.isBlank()) continue
-                            // the line opens with the term > a heading names it > the rest; lines that only open a list last
-                            val score = (if (m.range.first <= 3) 0 else 2) + (if (heading) 0 else 1) + (if (text.length < 45) 4 else 0)
-                            found += Triple(score, order++, Dictionary.NoteDefinition(text, "${bk.short} · ${r.title}"))
-                        }
+                        for (line in lines) if (line.isNotBlank()) out += NoteLine(line, where, heading)
                     }
                 }
             }
-            val seen = HashSet<String>()
-            term.display to found.sortedWith(compareBy({ it.first }, { it.second })).map { it.third }
-                .filter { seen.add(it.text.lowercase()) }.take(limit)
-        }
+            out
+        }.also { lineIndex = it }
+    }
 
-    /** The sentence of [line] around [hit], without citations, at most about 300 characters. */
+    /** Reads the notes in the background so the first "Meaning" lookup finds them ready. */
+    suspend fun warmNotes() {
+        runCatching { noteLines(); dictionary }
+    }
+
     private fun sentence(line: String, hit: IntRange): String {
         // sentence ends: ". " or "; " outside brackets, and not after an abbreviation (Art. 21, Sec. 144, Dr. X)
         val ends = mutableListOf<Int>()
