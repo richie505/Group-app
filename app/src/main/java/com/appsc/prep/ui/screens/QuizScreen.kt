@@ -160,7 +160,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
         val ai = app.platform.rememberWebHolder()
         LaunchedEffect(shown.value?.id) {
             val q = shown.value ?: return@LaunchedEffect
-            kotlinx.coroutines.delay(700)
+            kotlinx.coroutines.delay(2500) // only for a question one stays on: not a search for every one skipped past
             results?.load(com.appsc.prep.ui.components.googleUrl(com.appsc.prep.ui.components.mcqQuery(q)))
         }
         if (searching) shown.value?.let { q ->

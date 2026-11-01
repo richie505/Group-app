@@ -5,6 +5,8 @@ import android.content.Intent
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
 import androidx.compose.ui.Modifier
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 import com.appsc.prep.data.Storage
 import com.appsc.prep.ui.components.Platform
 import com.appsc.prep.ui.components.WebHolder
@@ -113,6 +115,7 @@ class AndroidPlatform(private val context: Context) : Platform {
         androidx.compose.ui.viewinterop.AndroidView(
             factory = { ctx ->
                 android.webkit.WebView(ctx).apply {
+                    browserLike(this)
                     settings.javaScriptEnabled = true // Google's pages need it
                     settings.domStorageEnabled = true
                     var last = ""
@@ -170,6 +173,7 @@ private class AndroidWebHolder(ctx: Context) : WebHolder {
         settings.cacheMode = android.webkit.WebSettings.LOAD_DEFAULT
         settings.setSupportZoom(false)
         isVerticalScrollBarEnabled = true
+        browserLike(this)
         addJavascriptInterface(object {
             @android.webkit.JavascriptInterface
             fun selected(text: String) { if (text.isNotBlank()) last = text }
@@ -177,6 +181,19 @@ private class AndroidWebHolder(ctx: Context) : WebHolder {
         webViewClient = object : InAppClient() { // links open here, not in Chrome
             override fun onPageFinished(view: android.webkit.WebView, url: String?) {
                 view.evaluateJavascript(AndroidPlatform.WATCH_SELECTION, null)
+            }
+
+            // Google refusing the page (403 / 429): the sheet offers to try again or open it in Chrome
+            override fun onReceivedHttpError(
+                view: android.webkit.WebView,
+                request: android.webkit.WebResourceRequest,
+                response: android.webkit.WebResourceResponse,
+            ) {
+                if (request.isForMainFrame && response.statusCode >= 400) refused = response.statusCode
+            }
+
+            override fun onPageStarted(view: android.webkit.WebView, url: String?, favicon: android.graphics.Bitmap?) {
+                refused = null
             }
         }
         // the page scrolls by itself: the sheet around it must not take the drag
@@ -186,6 +203,13 @@ private class AndroidWebHolder(ctx: Context) : WebHolder {
         }
     }
     private var current = ""
+    private var refused by androidx.compose.runtime.mutableStateOf<Int?>(null)
+    override val refusedCode: Int? get() = refused
+
+    override fun retry() {
+        refused = null
+        web.loadUrl(current)
+    }
 
     override fun pageText(done: (WebText) -> Unit) {
         web.evaluateJavascript(AndroidPlatform.PAGE_TEXT) { r ->
@@ -231,5 +255,19 @@ private open class InAppClient : android.webkit.WebViewClient() {
             if (fallback != null) view.loadUrl(android.net.Uri.decode(fallback))
         }
         return true
+    }
+}
+
+
+/**
+ * The in-app browser as Google sees a phone's Chrome: the WebView's own marks ("; wv", "Version/4.0") taken out of
+ * its user agent (Google refuses some pages, AI Mode among them, to app WebViews), cookies kept like a browser's.
+ */
+internal fun browserLike(web: android.webkit.WebView) {
+    web.settings.userAgentString = web.settings.userAgentString
+        .replace("; wv)", ")").replace(Regex("""\s*Version/[\d.]+"""), "")
+    android.webkit.CookieManager.getInstance().apply {
+        setAcceptCookie(true)
+        setAcceptThirdPartyCookies(web, true)
     }
 }

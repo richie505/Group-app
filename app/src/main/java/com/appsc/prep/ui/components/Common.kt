@@ -59,6 +59,12 @@ interface WebHolder {
     @Composable
     fun Show(modifier: Modifier)
 
+    /** The HTTP error the site answered the page with (403: Google refused it), or null. */
+    val refusedCode: Int? get() = null
+
+    /** Loads the page again. */
+    fun retry() {}
+
     /** Goes back a page; false when there is none (then Back closes what shows the page). */
     fun goBack(): Boolean = false
 

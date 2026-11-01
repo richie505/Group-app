@@ -174,7 +174,37 @@ fun McqSearchSheet(
                 }
                 HorizontalDivider(color = C.Line)
                 val page = Modifier.fillMaxWidth().weight(1f).background(Color.White)
-                if (holder != null) key(aiTab) { holder.Show(page) }
+                val refused = holder?.refusedCode
+                if (refused != null) {
+                    // Google refused this page to the in-app browser (too many searches, or AI Mode limited):
+                    // never a dead end - try again, the other tab, Chrome or Gemini
+                    Column(Modifier.fillMaxWidth().padding(20.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                        Text(
+                            "Google did not open this page inside the app just now (error $refused).",
+                            style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Ink),
+                        )
+                        Text(
+                            "This happens when Google limits searches for a while. Try again, or open it in Chrome, where you " +
+                                "are signed in - it works there.",
+                            style = TextStyle(fontSize = 14.sp, color = C.Body),
+                        )
+                        androidx.compose.material3.Button(
+                            onClick = { holder.retry() },
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Accent),
+                        ) { Text("Try again") }
+                        androidx.compose.material3.OutlinedButton(onClick = { platform.openInBrowser(url) }, modifier = Modifier.fillMaxWidth()) {
+                            Text("Open in Chrome")
+                        }
+                        androidx.compose.material3.OutlinedButton(onClick = { aiTab = !aiTab }, modifier = Modifier.fillMaxWidth()) {
+                            Text(if (aiTab) "Show Google results instead" else "Show the AI answer instead")
+                        }
+                        androidx.compose.material3.OutlinedButton(onClick = { told = platform.askGemini(mcqPrompt(q)) }, modifier = Modifier.fillMaxWidth()) {
+                            Text("Ask Gemini")
+                        }
+                    }
+                }
+                if (holder != null) key(aiTab) { holder.Show(if (refused != null) Modifier.size(0.dp) else page) }
                 else key(url) { platform.WebPage(url, page, back, null) }
                 if (onUse != null && holder != null) {
                     @Suppress("DEPRECATION")
