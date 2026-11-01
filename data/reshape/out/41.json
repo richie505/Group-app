@@ -1,0 +1,3146 @@
+{
+ "n4cb2f048706": {
+  "shape": "NOT",
+  "s": "Which of the following portal–use pairs is wrongly matched?",
+  "o": [
+   "Yuktdhara – National Master Plan GIS platform",
+   "SVAMITVA – Drone mapping and property cards",
+   "Bhuvan Panchayat – Geospatial support for Gram Panchayat development planning",
+   "PM Gati Shakti – National Master Plan GIS platform"
+  ],
+  "a": 0,
+  "x": "Yuktdhara is for planning and monitoring MGNREGA assets; the National Master Plan GIS platform is PM Gati Shakti."
+ },
+ "n9dbffe8cbec": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about satellite support during disasters in India?",
+  "o": [
+   "The Decision Support Centre is located at NRSC, Hyderabad",
+   "The National Database for Emergency Management (NDEM) is located at NRSC, Hyderabad",
+   "States can use satellite data during disasters without requesting it from NRSC",
+   "The Decision Support Centre acts as a single window for satellite inputs during disasters"
+  ],
+  "a": 2,
+  "x": "States must request satellite data from NRSC; the other statements are correct."
+ },
+ "nf4d4ccf6e56": {
+  "shape": "NOT",
+  "s": "Which of the following agency–role pairs is wrongly matched?",
+  "o": [
+   "IIRS – Training and education in remote sensing and GIS",
+   "NESAC – Space applications for the North-East",
+   "SAC – Sensors and applications",
+   "Regional Remote Sensing Centres – Space applications for the North-East"
+  ],
+  "a": 3,
+  "x": "The Regional Remote Sensing Centres undertake regional remote-sensing projects for States; space applications for the North-East are NESAC's role."
+ },
+ "n582bd565731": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about fire-hotspot monitoring?",
+  "o": [
+   "Hotspot data are passed to the India Meteorological Department, which runs the forest-fire alert system",
+   "Thermal-infrared sensors such as MODIS and VIIRS detect fire hotspots",
+   "MODIS flies on NASA's Terra and Aqua satellites",
+   "Hotspot data are received at NRSC's Shadnagar earth station"
+  ],
+  "a": 0,
+  "x": "The hotspot data go to the Forest Survey of India alert system, not to IMD."
+ },
+ "n7d440b2dacb": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about the North Eastern Space Applications Centre (NESAC)?",
+  "o": [
+   "It is located at Umiam (Shillong), Meghalaya",
+   "It is the national agency for training and education in remote sensing and GIS",
+   "It is a joint body of the Department of Space and the North Eastern Council",
+   "It provides space applications for the North-East"
+  ],
+  "a": 1,
+  "x": "Training and education in remote sensing and GIS is the role of IIRS, Dehradun, not NESAC."
+ },
+ "n3b1e2b79e40": {
+  "shape": "assertion",
+  "s": "Assertion (A): ISRO's Disaster Management Support Programme provides satellite imaging and communication support for disasters such as floods and cyclones.\nReason (R): The programme uses INSAT and IRS satellite systems for warning and damage assessment.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "The DMS Programme draws on INSAT and IRS systems, which is how it supplies imaging and communication support for floods, cyclones, droughts and other disasters."
+ },
+ "n75ffa49dd3c": {
+  "shape": "assertion",
+  "s": "Assertion (A): The Nabhmitra service for fishermen was developed by INCOIS, Hyderabad.\nReason (R): Nabhmitra provides two-way messaging via GSAT.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "Nabhmitra comes from ISRO's Space Applications Centre, Ahmedabad (INCOIS with AAI developed GEMINI), so A is false; R is true."
+ },
+ "n9f2f9533b82": {
+  "shape": "one-liner",
+  "s": "Remote sensing is used to assess which of the following natural-resource features?",
+  "o": [
+   "Snow and glaciers only",
+   "Wetlands only",
+   "Surface and groundwater prospects, snow and glaciers, wetlands, and mineral and hydrocarbon zones",
+   "Mineral and hydrocarbon zones only"
+  ],
+  "a": 2,
+  "x": "All of these are listed as measurable by remote sensing, along with land cover, vegetation, soil and crop yield."
+ },
+ "n7735548f86f": {
+  "shape": "one-liner",
+  "s": "The Andhra Pradesh State Spatial Data Infrastructure (APSSDI) has standardised how many GIS layers to ISO standards?",
+  "o": [
+   "64",
+   "47",
+   "84",
+   "74"
+  ],
+  "a": 3,
+  "x": "APSSDI has standardised 74 GIS layers to ISO standards and is registered with the National Data Registry."
+ },
+ "nb36b8503e43": {
+  "shape": "one-liner",
+  "s": "Potential Fishing Zone (PFZ) advisories, now using EOS-06 (Oceansat-3) data, are issued by:",
+  "o": [
+   "INCOIS, Hyderabad",
+   "NRSC, Hyderabad",
+   "SAC, Ahmedabad",
+   "IMD, New Delhi"
+  ],
+  "a": 0,
+  "x": "INCOIS, Hyderabad issues PFZ advisories using EOS-06 (Oceansat-3) data; it also issues the Ocean State Forecast."
+ },
+ "n06ddb5df993": {
+  "shape": "one-liner",
+  "s": "NISAR detects centimetre-scale ground movement for studying land subsidence, earthquakes and glaciers using:",
+  "o": [
+   "Radar observations",
+   "Visible-light images only",
+   "Thermal-infrared images only",
+   "Sonar soundings"
+  ],
+  "a": 0,
+  "x": "NISAR uses radar observations, which let it detect centimetre-scale ground movement."
+ },
+ "na708c3572cc": {
+  "shape": "one-liner",
+  "s": "The Vegetation Condition Index (VCI), used in drought declaration, is derived from:",
+  "o": [
+   "Sea-surface temperature",
+   "Ocean-colour chlorophyll data",
+   "NDVI",
+   "Aerosol optical depth"
+  ],
+  "a": 2,
+  "x": "VCI is derived from vegetation-related NDVI data and is used in drought declaration."
+ },
+ "n32b5406f5a1": {
+  "shape": "one-liner",
+  "s": "In a GIS, QGIS is an example of:",
+  "o": [
+   "GIS software",
+   "GIS hardware",
+   "Raster data",
+   "An attribute table"
+  ],
+  "a": 0,
+  "x": "QGIS is GIS software; GIS hardware means the computer, digitizer, scanner, GPS receiver and plotter."
+ },
+ "n44e146f0df4": {
+  "shape": "one-liner",
+  "s": "Which portal provides meteorological and oceanographic satellite data?",
+  "o": [
+   "VEDAS",
+   "Bhoonidhi",
+   "Yuktdhara",
+   "MOSDAC"
+  ],
+  "a": 3,
+  "x": "MOSDAC (SAC) provides meteorological and oceanographic satellite data; Bhoonidhi (NRSC) is an EO data archive and VEDAS visualises EO data."
+ },
+ "n7014694491b": {
+  "shape": "one-liner",
+  "s": "Andhra Pradesh's City Flood Alert system was first implemented in:",
+  "o": [
+   "Visakhapatnam",
+   "Guntur",
+   "Vijayawada",
+   "Nellore"
+  ],
+  "a": 2,
+  "x": "It was first implemented in Vijayawada, using satellite DEMs and Budameru flood data."
+ },
+ "n7f1b0769597": {
+  "shape": "one-liner",
+  "s": "The Normalised Difference Vegetation Index (NDVI) is computed as:",
+  "o": [
+   "(Red − NIR) / (Red + NIR)",
+   "(NIR − Blue) / (NIR + Blue)",
+   "(NIR + Red) / (NIR − Red)",
+   "(NIR − Red) / (NIR + Red)"
+  ],
+  "a": 3,
+  "x": "NDVI = (NIR − Red) / (NIR + Red); it works because healthy vegetation reflects strongly in the near-infrared band."
+ },
+ "nccc04659e7d": {
+  "shape": "one-liner",
+  "s": "ISRO's single-window centres for tele-education, telemedicine, weather and land/water advisories are called:",
+  "o": [
+   "Village Resource Centres",
+   "Common Service Centres",
+   "Krishi Vigyan Kendras",
+   "Regional Remote Sensing Centres"
+  ],
+  "a": 0,
+  "x": "ISRO's Village Resource Centres are single-window centres for these services."
+ },
+ "nf98570d2b7e": {
+  "shape": "one-liner",
+  "s": "The lightning-alert app Damini was developed by:",
+  "o": [
+   "IMD",
+   "INCOIS, Hyderabad",
+   "IITM, Pune",
+   "NRSC, Hyderabad"
+  ],
+  "a": 2,
+  "x": "Damini is from IITM Pune (MoES); Mausam is IMD's weather app."
+ },
+ "n1fa0f7faaba": {
+  "shape": "one-liner",
+  "s": "Swayam Prabha's educational DTH channels are carried on:",
+  "o": [
+   "GSAT-15",
+   "NVS-02",
+   "Cartosat-3",
+   "Oceansat-3"
+  ],
+  "a": 0,
+  "x": "Swayam Prabha's DTH channels are on GSAT-15."
+ },
+ "n15d0ec25e7f": {
+  "shape": "one-liner",
+  "s": "The Mahalanobis National Crop Forecast Centre (MNCFC), which makes ISRO's crop-forecasting methods operational, was set up in:",
+  "o": [
+   "2005",
+   "2010",
+   "2015",
+   "2012"
+  ],
+  "a": 3,
+  "x": "MNCFC was set up in 2012."
+ },
+ "ndisaster-management-26-12": {
+  "shape": "one-liner",
+  "s": "The National Disaster Management Authority (NDMA) uses GIS for:",
+  "o": [
+   "Planning only",
+   "Planning and decision support only",
+   "Planning, decision support and developing guidelines",
+   "Developing guidelines only"
+  ],
+  "a": 2,
+  "x": "NDMA uses GIS for planning, decision support and drafting guidelines."
+ },
+ "nb0f73b303ec": {
+  "shape": "one-liner",
+  "s": "Which of the following satellites is an example of active (radar) remote sensing?",
+  "o": [
+   "Resourcesat",
+   "Oceansat",
+   "Cartosat",
+   "RISAT"
+  ],
+  "a": 3,
+  "x": "Active systems transmit their own signal, as RISAT's radar does; Resourcesat and Oceansat illustrate passive sensing of naturally available radiation."
+ },
+ "n340e6cfc315": {
+  "shape": "one-liner",
+  "s": "Which satellite system supports flood mapping even through cloud cover?",
+  "o": [
+   "RISAT (SAR)",
+   "INSAT-3DS",
+   "Oceansat",
+   "Cartosat"
+  ],
+  "a": 0,
+  "x": "RISAT's SAR can map floods through clouds; INSAT-3DS tracks cyclones, Oceansat gives ocean-state data and Cartosat maps damage."
+ },
+ "nfc847729bfd": {
+  "shape": "one-liner",
+  "s": "Swayam Prabha provides how many free DTH channels through GSAT-15?",
+  "o": [
+   "32",
+   "40",
+   "50",
+   "30"
+  ],
+  "a": 1,
+  "x": "Swayam Prabha provides 40 free DTH channels through GSAT-15."
+ },
+ "n1b996c3a5e5": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about space-sustainability challenges facing India?",
+  "o": [
+   "Existing treaties adequately address the cumulative harm caused by orbital debris",
+   "Differences in national licensing conditions may push operators to permissive regimes",
+   "Mega-constellations are a newer challenge not adequately addressed by older treaties",
+   "Space debris threatens Gaganyaan and India's in-orbit satellites"
+  ],
+  "a": 0,
+  "x": "The treaties date from the 1960s–70s and do not adequately address cumulative debris harm or mega-constellations."
+ },
+ "n7eaa7e929ad": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India's 2026 rules on re-entry of space objects?",
+  "o": [
+   "Clearance is needed from a foreign State whose territory holds the re-entry site",
+   "Clearance is needed when the re-entry site lies in a foreign State's exclusive economic zone",
+   "The rules turn IADC and UNCOPUOS soft-law guidance into domestic rules",
+   "Aircraft and ships in the re-entry area must be warned at least 30 days before re-entry"
+  ],
+  "a": 3,
+  "x": "The warning must be given at least 45 days before re-entry, not 30."
+ },
+ "nae5b9d1aaa0": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about space debris risks?",
+  "o": [
+   "MMOD (micrometeoroids and orbital debris) is the top risk mainly in geostationary orbit",
+   "Kessler Syndrome is a self-sustaining cascade of debris-creating collisions that can make orbits unusable",
+   "Kessler Syndrome is named after NASA scientist Donald Kessler",
+   "The Kessler Syndrome idea dates from 1978"
+  ],
+  "a": 0,
+  "x": "MMOD is the top risk in low Earth orbit (LEO), not GEO."
+ },
+ "n42fe66a6fe3": {
+  "shape": "assertion",
+  "s": "Assertion (A): Restricting the sharing of space situational awareness (SSA) data is a proposed way forward for a safer outer space.\nReason (R): Confidence-building measures such as advance notices and hotlines have been proposed for a safer outer space.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "The proposal is for more SSA data-sharing, not less, so A is false; confidence-building through advance notices and hotlines is a proposed measure, so R is true."
+ },
+ "n9416fa5ef8e": {
+  "shape": "match",
+  "s": "Which of the following pairs about ISRO's POEM platform is correctly matched?",
+  "o": [
+   "POEM-4 – Chandrayaan-3 mission",
+   "POEM-4 re-entry – 4 April 2024",
+   "POEM-4 – SpaDeX/PSLV-C60 mission",
+   "POEM drag sails – re-entry within decades instead of months"
+  ],
+  "a": 2,
+  "x": "POEM-4 belonged to the SpaDeX/PSLV-C60 mission and fell into the Indian Ocean on 4 April 2025; its inflatable sails make it re-enter within months rather than decades."
+ },
+ "n51410387839": {
+  "shape": "one-liner",
+  "s": "How many collision avoidance manoeuvres (CAMs) did India record in 2025?",
+  "o": [
+   "12",
+   "18",
+   "23",
+   "8"
+  ],
+  "a": 1,
+  "x": "18 CAMs were recorded in 2025, continuing regular CAMs for Cartosat, Resourcesat and GSAT."
+ },
+ "n420d7d1b799": {
+  "shape": "one-liner",
+  "s": "Which space treaty has India signed but not ratified?",
+  "o": [
+   "Rescue Agreement (1968)",
+   "Registration Convention (1975)",
+   "Outer Space Treaty (1967)",
+   "Moon Agreement (1979)"
+  ],
+  "a": 3,
+  "x": "The Moon Agreement is the only one India has signed but not ratified."
+ },
+ "n943fc6fdbad": {
+  "shape": "one-liner",
+  "s": "Project NETRA, which gives 24–72 hours' warning of close approaches in space, is run by:",
+  "o": [
+   "DRDO",
+   "ISRO",
+   "IN-SPACe",
+   "Indian Air Force"
+  ],
+  "a": 1,
+  "x": "NETRA is an ISRO project to safeguard Indian space assets; IS4OM compiles the annual ISSAR."
+ },
+ "nc68134f1747": {
+  "shape": "one-liner",
+  "s": "What is the main source of space debris?",
+  "o": [
+   "Tools lost on spacewalks",
+   "Spent rocket stages",
+   "Fragmentation from collisions and explosions",
+   "Anti-satellite (ASAT) tests"
+  ],
+  "a": 2,
+  "x": "Fragmentation from collisions and explosions is the main source; the others are also sources of debris."
+ },
+ "n41b056327c0": {
+  "shape": "one-liner",
+  "s": "India signed the Artemis Accords in:",
+  "o": [
+   "2023",
+   "2021",
+   "2020",
+   "2024"
+  ],
+  "a": 0,
+  "x": "India signed in 2023; the US launched the Accords in 2020 as non-binding principles, and they now have over 60 signatories."
+ },
+ "n4e78878c99e": {
+  "shape": "one-liner",
+  "s": "Under its Debris Free Space Missions (DFSM) pledge, India aims to make all its space missions debris-free by:",
+  "o": [
+   "2030",
+   "2035",
+   "2040",
+   "2047"
+  ],
+  "a": 0,
+  "x": "The DFSM target year is 2030; India made the pledge at the 2024 IADC meeting."
+ },
+ "nd3942f7e97f": {
+  "shape": "one-liner",
+  "s": "India ratified the Outer Space Treaty of 1967 in:",
+  "o": [
+   "1967",
+   "1975",
+   "1979",
+   "1982"
+  ],
+  "a": 3,
+  "x": "India is a party to the Outer Space Treaty, which bars national appropriation of space, and ratified it in 1982."
+ },
+ "na890fb6684b": {
+  "shape": "one-liner",
+  "s": "Which Article of the Outer Space Treaty deals with national responsibility, including for private actors?",
+  "o": [
+   "Article VI",
+   "Article VII",
+   "Article IX",
+   "Article II"
+  ],
+  "a": 0,
+  "x": "Article VI deals with national responsibility; Article VII concerns liability and Article IX due regard and environmental considerations."
+ },
+ "nb92d9ecaa34": {
+  "shape": "statements (NOT not possible: original has no false statement)",
+  "s": "Consider the following statements about the mission of DRDO:\n1. It includes building an indigenous technology base.\n2. It aims at optimising combat effectiveness and troop well-being.\n3. It is directed towards greater self-reliance and reduced import dependence.\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three are elements of DRDO's mission, along with designing and developing sensors, weapons and platforms for the Services."
+ },
+ "ne3d94f478d0": {
+  "shape": "NOT",
+  "s": "Which of the following DRDO technology cluster–laboratory pairs is wrongly matched?",
+  "o": [
+   "Aeronautics – ADE, ADRDE",
+   "Naval Systems and Materials – GTRE, CABS",
+   "Missiles and Strategic Systems – DRDL, RCI, ASL",
+   "Combat Vehicles – CVRDE, VRDE"
+  ],
+  "a": 1,
+  "x": "GTRE and CABS belong to the Aeronautics cluster; Naval Systems and Materials includes NSTL, NPOL and NMRL."
+ },
+ "nd95ed977c52": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about DRDO?",
+  "o": [
+   "Its headquarters, DRDO Bhawan, is in Pune",
+   "It was formed by merging the TDEs, the DTDP and the Defence Science Organisation",
+   "It was formed in 1958",
+   "It started with 10 laboratories and now runs about 52"
+  ],
+  "a": 0,
+  "x": "DRDO Bhawan is in New Delhi."
+ },
+ "n935d3fe11ee": {
+  "shape": "assertion",
+  "s": "Assertion (A): NSTL, Visakhapatnam completed the final trials of the ULPGM-V3 missile.\nReason (R): The ULPGM-V3 final trials were conducted at the test range near Kurnool.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "The ULPGM-V3 final trials were done at the test range near Kurnool, so A is false and R is true; NSTL develops Varunastra, mines and SMART."
+ },
+ "nfd74754191a": {
+  "shape": "assertion",
+  "s": "Assertion (A): NPOL, DRDO's laboratory for sonars, is located at Visakhapatnam.\nReason (R): The DRDO laboratory at Visakhapatnam is NSTL, which works on torpedoes and mines.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "NPOL is at Kochi, so A is false; the Visakhapatnam laboratory is NSTL (torpedoes, mines), so R is true."
+ },
+ "ne0818342743": {
+  "shape": "one-liner",
+  "s": "DIPAS, the DRDO laboratory that studies soldier physiology at high altitude and in cold, is located in:",
+  "o": [
+   "Delhi",
+   "Dehradun",
+   "Leh",
+   "Pune"
+  ],
+  "a": 0,
+  "x": "DIPAS is in Delhi; Dehradun hosts DEAL."
+ },
+ "n4d367872116": {
+  "shape": "one-liner",
+  "s": "Since 2020, Indian industry gets ____ access to DRDO patents through Transfer of Technology.",
+  "o": [
+   "royalty-free",
+   "reduced-royalty",
+   "licence-fee-based",
+   "time-limited"
+  ],
+  "a": 0,
+  "x": "Since 2020 access to DRDO patents is royalty-free; DRDO has given more than 2,100 free ToTs and opened its test facilities to the private sector."
+ },
+ "ndc77f85daee": {
+  "shape": "one-liner",
+  "s": "In DRDO's three-level leadership structure, Level II consists of:",
+  "o": [
+   "The Secretary, DDR&D, who is also Chairman of DRDO",
+   "Laboratory directors and corporate directorates",
+   "DG (Technology Clusters) and DG (Corporate)",
+   "The Defence Minister and the Secretary, DDR&D"
+  ],
+  "a": 2,
+  "x": "Level I is the Secretary DDR&D and Chairman, Level II the two DGs, and Level III the lab directors and corporate directorates."
+ },
+ "nfa508df9563": {
+  "shape": "one-liner",
+  "s": "Which DRDO laboratory works on fuel-cell Air Independent Propulsion (AIP)?",
+  "o": [
+   "NMRL",
+   "NPOL, Kochi",
+   "LRDE, Bengaluru",
+   "CVRDE, Chennai"
+  ],
+  "a": 0,
+  "x": "Fuel-cell AIP is NMRL's work; NPOL, Kochi works on sonars."
+ },
+ "nd5c63312089": {
+  "shape": "one-liner",
+  "s": "The bike ambulance was developed by which DRDO laboratory?",
+  "o": [
+   "DEBEL",
+   "DRL, Tezpur",
+   "INMAS",
+   "DIPR"
+  ],
+  "a": 2,
+  "x": "INMAS developed the bike ambulance; DEBEL made the medical oxygen plant and DRL, Tezpur the snake repellent."
+ },
+ "nd28d8ae867e": {
+  "shape": "one-liner",
+  "s": "Under DRDO's Technology Development Fund, the grant to industry, including MSMEs and start-ups, may extend up to:",
+  "o": [
+   "₹10 crore",
+   "₹25 crore",
+   "₹100 crore",
+   "₹50 crore"
+  ],
+  "a": 3,
+  "x": "TDF grants extend up to ₹50 crore to support co-development of emerging technologies."
+ },
+ "ne6bfccbf1a2": {
+  "shape": "one-liner",
+  "s": "The Pinaka system was designed by which DRDO laboratory?",
+  "o": [
+   "ARDE, Pune",
+   "DRDL, Hyderabad",
+   "NSTL, Visakhapatnam",
+   "CVRDE, Chennai"
+  ],
+  "a": 0,
+  "x": "ARDE, Pune (guns, ammunition, warheads) designed Pinaka, with HEMRL, Pune as partner."
+ },
+ "n156da04a235": {
+  "shape": "one-liner",
+  "s": "The oral anti-COVID drug 2-DG was developed by INMAS in association with:",
+  "o": [
+   "Bharat Biotech",
+   "Dr Reddy's Laboratories",
+   "Cipla",
+   "Serum Institute of India"
+  ],
+  "a": 1,
+  "x": "2-DG was developed by INMAS with Dr Reddy's Laboratories."
+ },
+ "n509725ec88d": {
+  "shape": "one-liner",
+  "s": "The Aeronautical Development Agency (ADA), which designs the LCA Tejas with DRDO, is:",
+  "o": [
+   "A DRDO laboratory",
+   "A Defence Public Sector Undertaking",
+   "An autonomous society under the Ministry of Defence",
+   "A directorate of the Indian Air Force"
+  ],
+  "a": 2,
+  "x": "ADA is an autonomous society under the Ministry of Defence, not itself a DRDO laboratory."
+ },
+ "n6a19e734727": {
+  "shape": "one-liner",
+  "s": "Which DRDO laboratory is located at Visakhapatnam, Andhra Pradesh?",
+  "o": [
+   "NPOL",
+   "DRDL",
+   "RCI",
+   "NSTL"
+  ],
+  "a": 3,
+  "x": "NSTL is at Visakhapatnam; other AP defence locations include the Kurnool test range, the planned Nagayalanka range and the ADA complex in Sri Sathya Sai district."
+ },
+ "n43d798ebb74": {
+  "shape": "one-liner",
+  "s": "The Secretary, Department of Defence R&D, also serves as:",
+  "o": [
+   "Chairman, DRDO",
+   "Chief of Defence Staff",
+   "Defence Secretary",
+   "DG (Corporate)"
+  ],
+  "a": 0,
+  "x": "In the hierarchy, the Secretary DD R&D is also Chairman DRDO, above the Director Generals and lab directors."
+ },
+ "n56a11f51df5": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "Dr APJ Abdul Kalam Island, used for missile trials, lies off the coast of:",
+  "o": [
+   "Andhra Pradesh",
+   "Odisha",
+   "West Bengal",
+   "Tamil Nadu"
+  ],
+  "a": 1,
+  "x": "Dr APJ Abdul Kalam Island is off the Odisha coast; ranges on the AP and Odisha coasts support sea-skimming trials such as LRAShM."
+ },
+ "n66753ff1cef": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "Agni-V is a ____-stage, solid-fuel, canister-launched missile.",
+  "o": [
+   "three",
+   "two",
+   "four",
+   "single"
+  ],
+  "a": 0,
+  "x": "Agni-V is a three-stage solid-fuel, canister-launched missile with a stated range of 5,000 km or more; MIRV has been tested with it."
+ },
+ "n86bdb413548": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about Dr A.P.J. Abdul Kalam?",
+  "o": [
+   "He was project director of SLV-III",
+   "SLV-III, under his direction, launched Rohini",
+   "He was Chief Scientific Adviser at the 1974 Pokhran-I test",
+   "He was the first Indian Head of State to fly a fighter aircraft"
+  ],
+  "a": 2,
+  "x": "Kalam was Chief Scientific Adviser at Pokhran-II in 1998, not Pokhran-I in 1974."
+ },
+ "nf340d5c187d": {
+  "shape": "assertion",
+  "s": "Assertion (A): Prithvi-I is operated by the Navy.\nReason (R): Dhanush is the naval, ship-launched version of the Prithvi missile.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "Prithvi-I is the Army's 150 km version, so A is false; Dhanush (Prithvi-III) is the Navy's ship-launched Prithvi, so R is true."
+ },
+ "n4237423168c": {
+  "shape": "assertion",
+  "s": "Assertion (A): Missile Technology Control Regime (MTCR) membership has eased India's BrahMos exports and high-tech imports.\nReason (R): India joined the MTCR in June 2016 as its 35th member.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "India's entry into the MTCR in June 2016 is what eased its BrahMos exports and high-tech imports."
+ },
+ "na5dbe418052": {
+  "shape": "match",
+  "s": "Which of the following pairs about the Agni series is correctly matched?",
+  "o": [
+   "Agni-IV – Three-stage, canister-launched",
+   "Agni-III – About 4,000 km",
+   "Agni-V – Two-stage, road-mobile",
+   "Agni-II – Two-stage solid-fuel missile"
+  ],
+  "a": 3,
+  "x": "Agni-II (2,000–3,000 km) is two-stage solid-fuel; Agni-IV (about 4,000 km) is two-stage road-mobile, Agni-III is about 3,500 km, and three-stage canister launch is Agni-V."
+ },
+ "n32ce6f9373c": {
+  "shape": "one-liner",
+  "s": "The nodal laboratory of the Integrated Guided Missile Development Programme (IGMDP) was:",
+  "o": [
+   "ARDE, Pune",
+   "HEMRL, Pune",
+   "DRDL, Hyderabad",
+   "NSTL, Visakhapatnam"
+  ],
+  "a": 2,
+  "x": "DRDL, Hyderabad was the nodal lab, working with RCI and ASL; IGMDP was launched in 1983 under Kalam."
+ },
+ "n8e3a67fbd28": {
+  "shape": "one-liner",
+  "s": "Akash Prime, an upgraded Akash Mk-I with an indigenous active RF seeker, was first tested on:",
+  "o": [
+   "27 September 2021",
+   "27 September 2020",
+   "27 February 2021",
+   "27 September 2022"
+  ],
+  "a": 0,
+  "x": "Akash Prime was first tested on 27 September 2021."
+ },
+ "n8ccab3d44f6": {
+  "shape": "one-liner",
+  "s": "The Trishul surface-to-air missile programme was shut down in:",
+  "o": [
+   "2003",
+   "2005",
+   "2008",
+   "2010"
+  ],
+  "a": 2,
+  "x": "Trishul was never inducted; the programme was shut on 27 February 2008."
+ },
+ "nee65fc4655d": {
+  "shape": "one-liner",
+  "s": "Each Nag Missile Carrier (NAMICA) can carry up to how many missiles?",
+  "o": [
+   "Four",
+   "Eight",
+   "Two",
+   "Six"
+  ],
+  "a": 3,
+  "x": "Each NAMICA, a tracked amphibious vehicle, can carry up to six Nag missiles."
+ },
+ "n89bf05c0d91": {
+  "shape": "one-liner",
+  "s": "Which missile has a range of about 25–30 km?",
+  "o": [
+   "Akash",
+   "Nag",
+   "Trishul",
+   "Agni"
+  ],
+  "a": 0,
+  "x": "Akash has about 25–30 km; Nag is 4–7 km, Trishul about 9 km, and Agni ranges from about 700 km to over 5,000 km."
+ },
+ "n6a12a10e0b4": {
+  "shape": "one-liner",
+  "s": "The canister-launched Akash-NG has an approximate range of:",
+  "o": [
+   "40 km",
+   "120 km",
+   "70 km",
+   "150 km"
+  ],
+  "a": 2,
+  "x": "Akash-NG has a range of about 70 km and was cleared for induction in 2023 for the Army and IAF."
+ },
+ "n1289a739e71": {
+  "shape": "one-liner",
+  "s": "The first missile developed under the IGMDP was:",
+  "o": [
+   "Agni",
+   "Trishul",
+   "Nag",
+   "Prithvi"
+  ],
+  "a": 3,
+  "x": "Prithvi was the first IGMDP missile; Prithvi-I serves the Army and Prithvi-II the Air Force."
+ },
+ "n9d4f984505b": {
+  "shape": "one-liner",
+  "s": "Prithvi-I and Prithvi-II use ____ fuel.",
+  "o": [
+   "liquid",
+   "solid",
+   "hybrid",
+   "cryogenic"
+  ],
+  "a": 0,
+  "x": "Prithvi-I and Prithvi-II use liquid fuel, whereas Agni-I uses solid fuel."
+ },
+ "n1ead5f0015a": {
+  "shape": "one-liner",
+  "s": "Prithvi-II, first tested in 1996, was inducted in:",
+  "o": [
+   "1999",
+   "2003",
+   "2008",
+   "1996"
+  ],
+  "a": 1,
+  "x": "Prithvi-II was inducted in 2003; the naval version is Dhanush."
+ },
+ "nacb770d9cb3": {
+  "shape": "one-liner",
+  "s": "HELINA is the helicopter-launched version of which missile?",
+  "o": [
+   "Akash",
+   "Trishul",
+   "Nag",
+   "Prithvi"
+  ],
+  "a": 2,
+  "x": "HELINA is the helicopter-launched Nag, a fire-and-forget anti-tank missile."
+ },
+ "n64b5b9a13ab": {
+  "shape": "one-liner",
+  "s": "DRDO's Lakshya is a:",
+  "o": [
+   "Target drone",
+   "Multi-barrel rocket launcher",
+   "Surface-to-air missile",
+   "Light combat aircraft"
+  ],
+  "a": 0,
+  "x": "Lakshya is a target drone; Pinaka is a rocket launcher, Tejas an aircraft and Nishant a UAV."
+ },
+ "nf3a81ce506e": {
+  "shape": "one-liner",
+  "s": "On 24 September 2025, Agni-Prime was test-fired from a:",
+  "o": [
+   "Submarine",
+   "Ship",
+   "Rail-based mobile launcher",
+   "Aircraft"
+  ],
+  "a": 2,
+  "x": "Agni-Prime, a canisterised 1,000–2,000 km missile, was fired from a rail-based mobile launcher."
+ },
+ "n6f4c3956794": {
+  "shape": "one-liner",
+  "s": "Under the Ministry of Defence approval, technology of conventional missiles such as Nag is transferred to:",
+  "o": [
+   "Private industry",
+   "Foreign companies",
+   "ISRO",
+   "State-run firms only"
+  ],
+  "a": 0,
+  "x": "Conventional missiles, including Nag, go to private industry, while Agni remains in state production."
+ },
+ "nefd18a80cb8": {
+  "shape": "one-liner",
+  "s": "Under the IGMDP, which missile was developed during the 1992–2008 phase?",
+  "o": [
+   "Prithvi",
+   "Nag",
+   "Trishul",
+   "Agni"
+  ],
+  "a": 3,
+  "x": "Prithvi and Trishul were developed in 1984–89, Nag and Akash in 1989–92, and Agni in 1992–2008."
+ },
+ "ncbb32aa51ce": {
+  "shape": "one-liner",
+  "s": "The formal ICBM range threshold, which places Agni-V's 5,000 km range in the IRBM class, is:",
+  "o": [
+   "5,000 km",
+   "3,500 km",
+   "5,500 km",
+   "8,000 km"
+  ],
+  "a": 2,
+  "x": "The ICBM threshold cited is 5,500 km, so Agni-V is formally an IRBM, though some sources call it an ICBM."
+ },
+ "nd9ef880d2b7": {
+  "shape": "one-liner",
+  "s": "Prithvi, a liquid-fuelled surface-to-surface short-range ballistic missile, has a range of:",
+  "o": [
+   "25–30 km",
+   "700–1,200 km",
+   "150–350 km",
+   "2,000–3,000 km"
+  ],
+  "a": 2,
+  "x": "Prithvi is a surface-to-surface SRBM with a range of 150–350 km and uses liquid fuel."
+ },
+ "n48dae472f15": {
+  "shape": "one-liner",
+  "s": "India's Agni missiles, built by DRDO, are operated by the:",
+  "o": [
+   "Strategic Forces Command",
+   "Indian Air Force alone",
+   "Indian Navy",
+   "Army Air Defence Corps"
+  ],
+  "a": 0,
+  "x": "Agni is DRDO-built, fully indigenous and operated by the Strategic Forces Command."
+ },
+ "nfa05b856456": {
+  "shape": "one-liner",
+  "s": "Nag Mk-2, the tracked fire-and-forget 'tank killer' approved for Army procurement, is called:",
+  "o": [
+   "HELINA",
+   "Dhruvastra",
+   "SANT",
+   "NAMIS"
+  ],
+  "a": 3,
+  "x": "NAMIS is the tracked Nag Mk-2; Dhruvastra is the IAF's helicopter-launched Nag, HELINA the Army Aviation version and SANT an air-launched stand-off ATGM."
+ },
+ "n93e28480ec6": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "Which BrahMos variant is a planned hypersonic missile capable of speeds above Mach 5?",
+  "o": [
+   "BrahMos-NG",
+   "BrahMos-A",
+   "BrahMos-II",
+   "BrahMos-ER"
+  ],
+  "a": 2,
+  "x": "BrahMos-II is the planned hypersonic variant; BrahMos-NG is a lighter version for platforms such as Tejas."
+ },
+ "ne840c2416a6": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India's missile exports?",
+  "o": [
+   "BrahMos and Akashteer have already been delivered to the UAE",
+   "BrahMos deliveries to the Philippines began in 2024",
+   "The Philippines is India's first BrahMos export customer",
+   "The Astra Mk-1 deal with Indonesia (July 2026) is the first Astra-family export"
+  ],
+  "a": 0,
+  "x": "With the UAE, BrahMos and Akashteer talks are only at an early stage; nothing has been delivered."
+ },
+ "na6edb3232cd": {
+  "shape": "NOT",
+  "s": "Which of the following pairs is wrongly matched?",
+  "o": [
+   "Rudram – First indigenous anti-radiation missile",
+   "Mission Shakti – Made India the third country to demonstrate an ASAT capability",
+   "Philippines – First BrahMos buyer",
+   "Indonesia – First Astra buyer"
+  ],
+  "a": 1,
+  "x": "Mission Shakti made India the fourth country, not the third, to demonstrate an ASAT capability."
+ },
+ "n96b4c1876a0": {
+  "shape": "assertion",
+  "s": "Assertion (A): A MIRV lets one missile carry several warheads aimed at different targets.\nReason (R): India's first MIRV flight test, Mission Divyastra (11 March 2024), used the K-4 missile.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is the correct definition of MIRV; R is false because Mission Divyastra used Agni-V, while K-4 is a submarine-launched missile."
+ },
+ "na69f912aae8": {
+  "shape": "assertion",
+  "s": "Assertion (A): Project Kusha's M3 interceptor is expected to reach about 350–400 km.\nReason (R): Project Kusha is DRDO's short-range air-defence system.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false because Project Kusha is DRDO's long-range air-defence system (M1/M2/M3 about 150/250/350–400 km)."
+ },
+ "n37837482888": {
+  "shape": "one-liner",
+  "s": "BrahMos uses a solid booster followed by a:",
+  "o": [
+   "Turbojet",
+   "Scramjet",
+   "Liquid ramjet",
+   "Solid fuel ducted ramjet"
+  ],
+  "a": 2,
+  "x": "BrahMos has a solid booster and a liquid ramjet, combines inertial and satellite navigation, and is canister-launched in fire-and-forget mode."
+ },
+ "naa392915f9d": {
+  "shape": "one-liner",
+  "s": "Hypersonic speed means speed faster than:",
+  "o": [
+   "Mach 2",
+   "Mach 3",
+   "Mach 10",
+   "Mach 5"
+  ],
+  "a": 3,
+  "x": "Hypersonic means faster than Mach 5; a Hypersonic Glide Vehicle glides at Mach 5+ while manoeuvring."
+ },
+ "nc9f27d80c38": {
+  "shape": "one-liner",
+  "s": "BrahMos had its first successful test on 12 June 2001 at:",
+  "o": [
+   "Chandipur, Odisha",
+   "Sriharikota, Andhra Pradesh",
+   "Pokhran, Rajasthan",
+   "Kurnool, Andhra Pradesh"
+  ],
+  "a": 0,
+  "x": "BrahMos, a supersonic cruise missile of about Mach 2.8–3.0, was first successfully tested at Chandipur, Odisha."
+ },
+ "n819397cbbd8": {
+  "shape": "one-liner",
+  "s": "Astra Mk-3 'Gandiva' is powered by a:",
+  "o": [
+   "Solid fuel ducted ramjet (SFDR)",
+   "Scramjet",
+   "Dual-pulse solid motor",
+   "Turbojet"
+  ],
+  "a": 0,
+  "x": "Gandiva uses an SFDR with range of 350+ km; the dual-pulse solid motor powers Astra Mk-2."
+ },
+ "n4b6e5697a31": {
+  "shape": "one-liner",
+  "s": "Which Indian air-defence system is man-portable, for use against low-altitude threats?",
+  "o": [
+   "QRSAM",
+   "VL-SRSAM",
+   "VSHORADS",
+   "MRSAM"
+  ],
+  "a": 2,
+  "x": "VSHORADS is the man-portable system; QRSAM is the Army's mid-range IADWS layer and VL-SRSAM a ship-borne SAM derived from Astra."
+ },
+ "n371b98f8255": {
+  "shape": "one-liner",
+  "s": "Nirbhay, India's subsonic long-range land-attack cruise missile, is powered by a:",
+  "o": [
+   "Turbojet",
+   "Liquid ramjet",
+   "Scramjet",
+   "Solid fuel ducted ramjet"
+  ],
+  "a": 0,
+  "x": "Nirbhay is turbojet-powered; the liquid ramjet belongs to the supersonic BrahMos."
+ },
+ "n5b146a66e6d": {
+  "shape": "one-liner",
+  "s": "In BrahMos Aerospace, DRDO holds a share of:",
+  "o": [
+   "49.5%",
+   "51%",
+   "50.5%",
+   "74%"
+  ],
+  "a": 2,
+  "x": "DRDO holds 50.5% and Russia's NPO Mashinostroyeniya 49.5%."
+ },
+ "n026c7fb4849": {
+  "shape": "one-liner",
+  "s": "Pralay, a quasi-ballistic short-range surface-to-surface missile, has a stated range of:",
+  "o": [
+   "150–500 km",
+   "25–30 km",
+   "700–1,200 km",
+   "1,000–2,000 km"
+  ],
+  "a": 0,
+  "x": "Pralay has a 150–500 km range, a conventional warhead and manoeuvrable re-entry capability."
+ },
+ "n80edd873e68": {
+  "shape": "one-liner",
+  "s": "Mission Shakti, the joint DRDO–ISRO anti-satellite test, was conducted on:",
+  "o": [
+   "27 March 2019",
+   "11 March 2019",
+   "27 March 2018",
+   "11 May 2019"
+  ],
+  "a": 0,
+  "x": "It was conducted on 27 March 2019; Microsat-R was hit in low LEO (~283 km) so the debris would decay quickly."
+ },
+ "n52f7d4ecc2e": {
+  "shape": "one-liner",
+  "s": "Russia's ship-launched hypersonic missile is:",
+  "o": [
+   "Kinzhal",
+   "Zircon",
+   "Hwasong",
+   "Fattah"
+  ],
+  "a": 1,
+  "x": "Zircon is ship-launched; Kinzhal is air-launched. Hwasong is North Korean and Fattah Iranian."
+ },
+ "n739f987a476": {
+  "shape": "one-liner",
+  "s": "India's long-range hypersonic anti-ship missile reportedly uses skipping manoeuvres with a peak speed of about:",
+  "o": [
+   "Mach 3",
+   "Mach 5",
+   "Mach 15",
+   "Mach 10"
+  ],
+  "a": 3,
+  "x": "It reportedly peaks at about Mach 10, with an average speed of about Mach 5."
+ },
+ "ndfde582b6f3": {
+  "shape": "one-liner",
+  "s": "A missile that stays powered throughout its flight and uses aerodynamic lift at relatively low altitude is a:",
+  "o": [
+   "Cruise missile",
+   "Ballistic missile",
+   "Hypersonic glide vehicle",
+   "Sounding rocket"
+  ],
+  "a": 0,
+  "x": "A cruise missile is powered throughout; a ballistic missile is powered mainly in boost phase and then follows a high parabolic arc."
+ },
+ "n0f0dbaeaa3e": {
+  "shape": "one-liner",
+  "s": "Which of the following Indian missiles is subsonic?",
+  "o": [
+   "BrahMos",
+   "BrahMos-II",
+   "Astra Mk-1",
+   "Nirbhay"
+  ],
+  "a": 3,
+  "x": "Nirbhay is subsonic; BrahMos is supersonic and BrahMos-II is hypersonic."
+ },
+ "nf977e865dc7": {
+  "shape": "NOT",
+  "s": "Which of the following pairs about India's nuclear command structure is wrongly matched?",
+  "o": [
+   "Political Council of the NCA – Headed by the Prime Minister",
+   "Executive Council of the NCA – Headed by the National Security Adviser",
+   "Cabinet Committee on Security – Manages nuclear forces",
+   "Strategic Forces Command – Manages nuclear forces"
+  ],
+  "a": 2,
+  "x": "The Strategic Forces Command manages nuclear forces; the CCS supervises civilian political control."
+ },
+ "nea02c679880": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT a tenet of India's nuclear doctrine?",
+  "o": [
+   "Credible minimum deterrence",
+   "No First Use",
+   "Massive retaliation causing unacceptable damage",
+   "Use of nuclear weapons against every non-nuclear-weapon state"
+  ],
+  "a": 3,
+  "x": "The doctrine provides for no use against non-nuclear-weapon states (subject to the clause on major biological or chemical attacks)."
+ },
+ "n8c5524df915": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India's nuclear doctrine?",
+  "o": [
+   "No First Use was first declared by the Indira Gandhi government after Pokhran-I",
+   "The draft doctrine with No First Use came from the Vajpayee government in 1999",
+   "The draft followed the Pokhran-II tests of 1998",
+   "The Cabinet Committee on Security formally adopted it on 4 January 2003"
+  ],
+  "a": 0,
+  "x": "NFU dates from the Vajpayee government after Pokhran-II (1998), not from Pokhran-I (1974)."
+ },
+ "nd562745c2fe": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India and nuclear regimes?",
+  "o": [
+   "India has not signed the NPT, calling it discriminatory",
+   "India has been an NSG member since its 2008 waiver",
+   "India will not sign the CTBT until it is tied to time-bound global disarmament",
+   "India keeps a voluntary nuclear-test moratorium"
+  ],
+  "a": 1,
+  "x": "India is not an NSG member (blocked by China); it got the 2008 NSG waiver and follows NSG guidelines."
+ },
+ "nde65c27cd08": {
+  "shape": "assertion",
+  "s": "Assertion (A): INS Aridhaman (S4) can carry more missiles than INS Arihant and INS Arighaat.\nReason (R): INS Aridhaman has 8 vertical launch tubes, while Arihant and Arighaat have 4 each.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Aridhaman's 8 VLS take 24 K-15 or 8 K-4/K-5, against 4 VLS on the ~6,000 t Arihant and Arighaat, which explains its larger load."
+ },
+ "n06aef2a4aed": {
+  "shape": "assertion",
+  "s": "Assertion (A): The Indian Air Force refers to its S-400 Triumf system as 'Sudarshan Chakra'.\nReason (R): Belarus was the first foreign buyer of the S-400 after Russia.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false because China was the first foreign buyer, and Belarus came later."
+ },
+ "ncc850b9f68b": {
+  "shape": "one-liner",
+  "s": "Akashteer is:",
+  "o": [
+   "A long-range missile developed by DRDO",
+   "An anti-drone soft-kill electronic-warfare system",
+   "An automated air-defence control network built by BEL with the Army",
+   "A high-power laser directed-energy weapon"
+  ],
+  "a": 2,
+  "x": "Akashteer is BEL's automated air-defence control network for the Army; Akash Tarang is the anti-drone soft-kill EW system."
+ },
+ "ndc6701f6b28": {
+  "shape": "one-liner",
+  "s": "Pokhran-II was conducted under which Prime Minister?",
+  "o": [
+   "A.B. Vajpayee",
+   "P.V. Narasimha Rao",
+   "H.D. Deve Gowda",
+   "I.K. Gujral"
+  ],
+  "a": 0,
+  "x": "Pokhran-II was conducted under A.B. Vajpayee, with A.P.J. Abdul Kalam and R. Chidambaram in the scientific leadership."
+ },
+ "n3ad420188ee": {
+  "shape": "one-liner",
+  "s": "The K-15 Sagarika submarine-launched ballistic missile has a range of about:",
+  "o": [
+   "3,500 km",
+   "1,500 km",
+   "750 km",
+   "5,000 km"
+  ],
+  "a": 2,
+  "x": "K-15 Sagarika has a range of about 750 km; 3,500 km is K-4."
+ },
+ "n19c902b2b9c": {
+  "shape": "one-liner",
+  "s": "INS Chakra II, leased by India from Russia, was a:",
+  "o": [
+   "Kilo-class submarine",
+   "Charlie-class submarine",
+   "Type 209 submarine",
+   "Akula-class nuclear attack submarine (SSN)"
+  ],
+  "a": 3,
+  "x": "INS Chakra II was a leased Akula-class SSN (formerly Nerpa); the first INS Chakra was a Charlie-class boat."
+ },
+ "nb7ed88ed56f": {
+  "shape": "one-liner",
+  "s": "Mission Sudarshan Chakra, a networked national shield of air defence, cybersecurity and surveillance, has a vision year of:",
+  "o": [
+   "2035",
+   "2030",
+   "2040",
+   "2047"
+  ],
+  "a": 0,
+  "x": "It is Vision 2035, built from blocks such as Akash Tarang, MRSAM and VSHORADS, with Project Kusha as a core element."
+ },
+ "nd557eac9d75": {
+  "shape": "one-liner",
+  "s": "Pokhran-II (1998) was code-named:",
+  "o": [
+   "Smiling Buddha",
+   "Operation Vijay",
+   "Operation Shakti",
+   "Operation Divyastra"
+  ],
+  "a": 2,
+  "x": "Pokhran-II (11 and 13 May 1998) was 'Operation Shakti'; Pokhran-I (1974) was 'Smiling Buddha'."
+ },
+ "n791b1d10a4b": {
+  "shape": "one-liner",
+  "s": "In a fusion (thermonuclear) weapon, the fusion of light hydrogen isotopes is triggered by:",
+  "o": [
+   "A fission primary",
+   "A fusion primary",
+   "A laser pulse",
+   "Chemical explosives alone"
+  ],
+  "a": 0,
+  "x": "A fission 'primary' supplies the heat to trigger fusion; a fission weapon splits U-235 or Pu-239 in a chain reaction."
+ },
+ "na9140d3c634": {
+  "shape": "one-liner",
+  "s": "India follows the guidelines of the NSG, MTCR, Wassenaar Arrangement and Australia Group through the WMD Act and the:",
+  "o": [
+   "Union List",
+   "SEZ list",
+   "Negative list",
+   "SCOMET list"
+  ],
+  "a": 3,
+  "x": "India implements these guidelines through the WMD Act and the SCOMET list."
+ },
+ "n90ce613b38b": {
+  "shape": "NOT",
+  "s": "Which of the following radar pairs is wrongly matched?",
+  "o": [
+   "Doppler radar – Speed from frequency shift",
+   "Over-the-horizon radar – Imaging at night and through clouds",
+   "AESA radar – T/R module on every element, beam steered electronically",
+   "UTTAM – AESA radar"
+  ],
+  "a": 1,
+  "x": "Over-the-horizon radar bounces HF waves off the ionosphere; imaging at night and through clouds is SAR."
+ },
+ "n7e7a84313f2": {
+  "shape": "NOT",
+  "s": "Which of the following material–application pairs is wrongly matched?",
+  "o": [
+   "Kanchan armour – Composite armour for the Arjun tank",
+   "Carbon-carbon/C-SiC composites – Re-entry heat shields and hot-gas nozzles",
+   "Super-alloys and tungsten heavy alloys – Engines and penetrator rods",
+   "Maraging steel – Re-entry heat shields and hot-gas nozzles"
+  ],
+  "a": 3,
+  "x": "Maraging steel is used in rocket motor casings and submarine hulls; heat shields and nozzles use carbon-carbon/C-SiC composites."
+ },
+ "nc9b9d1c8d2e": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "The stealth frigate Tavasya was launched at Goa Shipyard in:",
+  "o": [
+   "March 2025",
+   "March 2026",
+   "March 2024",
+   "April 2026"
+  ],
+  "a": 0,
+  "x": "Tavasya was launched in March 2025."
+ },
+ "n6799fc781e4": {
+  "shape": "NOT",
+  "s": "Which of the following indigenous radar–role pairs is wrongly matched?",
+  "o": [
+   "Swordfish – Long-range tracking radar of the BMD shield",
+   "Swathi – Weapon-locating radar for enemy guns, mortars and rockets",
+   "Surya – Fire-control radar of the Akash SAM system",
+   "Rajendra – Fire-control radar of the Akash SAM system"
+  ],
+  "a": 2,
+  "x": "Surya is the VHF radar for tracking stealth aircraft; Rajendra is Akash's fire-control radar."
+ },
+ "n1284f948917": {
+  "shape": "NOT",
+  "s": "Which of the following anti-drone or loitering systems is wrongly matched?",
+  "o": [
+   "Indrajaal – AI-powered anti-drone grid by a Hyderabad start-up",
+   "Vayu Astra – Fires 64 micro-rockets at drone swarms",
+   "D4 – DRDO system with radar, jamming and laser kill",
+   "Bhargavastra – Fires 64 micro-rockets at drone swarms"
+  ],
+  "a": 1,
+  "x": "Vayu Astra is NIBE Ltd's loitering munition; Bhargavastra fires 64 micro-rockets."
+ },
+ "n9a4d40ae545": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "The Kalvari-class Scorpene submarines are built under:",
+  "o": [
+   "Project 75",
+   "Project 17A",
+   "Project 15B",
+   "Project 28"
+  ],
+  "a": 0,
+  "x": "The Kalvari class belongs to Project 75: six French-design Scorpene diesel-electric submarines, the last being INS Vaghsheer."
+ },
+ "n9e2e4c92a4c": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about Indian naval ship projects?",
+  "o": [
+   "Project 15B consists of stealth destroyers",
+   "Project 15B includes INS Imphal",
+   "INS Surat is the fourth and last ship of Project 15B",
+   "Project 17A consists of seven stealth destroyers"
+  ],
+  "a": 3,
+  "x": "Project 17A consists of seven Nilgiri-class stealth frigates, not destroyers."
+ },
+ "n2610cc8e4c8": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "The Adamya-class Fast Patrol Vessels are being built by:",
+  "o": [
+   "GRSE",
+   "Cochin Shipyard",
+   "Mazagon Dock",
+   "Goa Shipyard"
+  ],
+  "a": 3,
+  "x": "Goa Shipyard is building eight Adamya-class FPVs for coastal surveillance, anti-smuggling and search and rescue."
+ },
+ "n1cccdc065b8": {
+  "shape": "one-liner",
+  "s": "Rustom-II / TAPAS-BH-201 is a:",
+  "o": [
+   "Medium Altitude Long Endurance (MALE) UAV",
+   "Tactical UAV for battlefield reconnaissance",
+   "Pilotless target drone",
+   "Stealth flying-wing UCAV"
+  ],
+  "a": 0,
+  "x": "Rustom-II/TAPAS-BH-201 is a MALE UAV; Nishant is tactical, Lakshya a target drone and Ghatak a stealth UCAV."
+ },
+ "n1ae1cf25417": {
+  "shape": "one-liner",
+  "s": "Which aircraft serves as a mid-air refuelling tanker?",
+  "o": [
+   "IL-76",
+   "C-17 Globemaster III",
+   "C-130J Super Hercules",
+   "IL-78"
+  ],
+  "a": 3,
+  "x": "The IL-78 is the tanker; the C-130J is tactical transport, the C-17 strategic heavy lift and the IL-76 heavy transport."
+ },
+ "n9651fb654c8": {
+  "shape": "one-liner",
+  "s": "Which of the following shipyards is under the Ministry of Ports, Shipping and Waterways?",
+  "o": [
+   "Cochin Shipyard",
+   "Hindustan Shipyard",
+   "Mazagon Dock",
+   "GRSE"
+  ],
+  "a": 0,
+  "x": "Only Cochin Shipyard (builder of INS Vikrant) is under that ministry; HSL, MDL, GRSE and Goa Shipyard are Ministry of Defence PSUs."
+ },
+ "n4be8bb9a44c": {
+  "shape": "one-liner",
+  "s": "Maareech, an Indian naval system, is a/an:",
+  "o": [
+   "Anti-torpedo decoy system",
+   "Integrated submarine sonar",
+   "Lightweight torpedo",
+   "Anti-submarine rocket"
+  ],
+  "a": 0,
+  "x": "Maareech is an anti-torpedo decoy; TAL is a lightweight torpedo, USHUS a submarine sonar and ERASR an anti-submarine rocket."
+ },
+ "nphysics-20-43": {
+  "shape": "one-liner",
+  "s": "In medical ultrasound, the frequency-shift (Doppler) technique is used to measure:",
+  "o": [
+   "Blood-flow velocity",
+   "Bone density",
+   "Body temperature",
+   "Blood-sugar level"
+  ],
+  "a": 0,
+  "x": "Medical ultrasound measures blood-flow velocity, just as weather radar detects wind speed and SONAR tracks underwater objects."
+ },
+ "n6dfe9722367": {
+  "shape": "one-liner",
+  "s": "The Bukhari space heater and Cognobar were developed by which DRDO laboratory?",
+  "o": [
+   "DIHAR, Leh",
+   "DRDE, Gwalior",
+   "INMAS",
+   "DIPAS"
+  ],
+  "a": 3,
+  "x": "They are DIPAS products; DIHAR, Leh works on high-altitude agriculture and herbal products."
+ },
+ "na1f337b9e80": {
+  "shape": "one-liner",
+  "s": "The Coast Guard's Hovercraft H-561 (2026) is India's first indigenous:",
+  "o": [
+   "Air cushion vehicle",
+   "Fast patrol vessel",
+   "Unmanned surface vessel",
+   "Submarine rescue vehicle"
+  ],
+  "a": 0,
+  "x": "H-561 is the first indigenous air cushion vehicle and can work over mudflats and sandbars such as the Rann of Kutch and the Sundarbans."
+ },
+ "nce26dcd48d7": {
+  "shape": "one-liner",
+  "s": "HAL's 2025 contract for LCA Mk1A aircraft covers how many aircraft?",
+  "o": [
+   "83",
+   "68",
+   "97",
+   "36"
+  ],
+  "a": 2,
+  "x": "The 25 September 2025 contract covers 97 aircraft (68 fighters and 29 twin-seaters); it followed an earlier order of 83 Mk1A."
+ },
+ "n26c245d7eab": {
+  "shape": "one-liner",
+  "s": "Radar cross-section (RCS) of a target indicates:",
+  "o": [
+   "The maximum range of the radar",
+   "How big the target looks to radar",
+   "The frequency at which the radar operates",
+   "The speed of the target"
+  ],
+  "a": 1,
+  "x": "RCS is how 'big' a target looks to radar; shaping, radar-absorbent coatings and flush-mounted weapons reduce it."
+ },
+ "ncd7cb331e48": {
+  "shape": "one-liner",
+  "s": "The Tejas Mk-2, now under development with canards, is powered by the:",
+  "o": [
+   "GE F414",
+   "AL-31FP",
+   "Kaveri engine",
+   "Snecma M88"
+  ],
+  "a": 0,
+  "x": "Tejas Mk-2 uses the GE F414 engine; the sequence of variants is Mk-1, Mk-1A, then Mk-2."
+ },
+ "n3ebe2f9ec53": {
+  "shape": "one-liner",
+  "s": "The Netra AEW&C system built by DRDO-CABS, Bengaluru, is mounted on which aircraft?",
+  "o": [
+   "IL-76",
+   "Embraer EMB-145",
+   "Airbus A330",
+   "C-295"
+  ],
+  "a": 1,
+  "x": "Netra carries an AESA radar on an Embraer EMB-145, with a detection range of about 250–500+ km."
+ },
+ "n6999b57cc0b": {
+  "shape": "one-liner",
+  "s": "The Information Fusion Centre – Indian Ocean Region (IFC-IOR) was set up by the Navy in 2018 at:",
+  "o": [
+   "Visakhapatnam",
+   "Kochi",
+   "Mumbai",
+   "Gurugram"
+  ],
+  "a": 3,
+  "x": "IFC-IOR is at Gurugram and shares white-shipping and maritime-security data with partner countries."
+ },
+ "n61c4b014f51": {
+  "shape": "one-liner",
+  "s": "The Zorawar light tank for high-altitude areas is being developed by DRDO with:",
+  "o": [
+   "L&T",
+   "Tata Advanced Systems",
+   "Bharat Forge",
+   "Mahindra Defence"
+  ],
+  "a": 0,
+  "x": "Zorawar is developed by DRDO with L&T; Arjun Mk-1A is from CVRDE, Chennai."
+ },
+ "nchemistry-18-10": {
+  "shape": "one-liner",
+  "s": "RDX is chemically:",
+  "o": [
+   "Trinitrophenol",
+   "Glyceryl trinitrate",
+   "Cyclotrimethylenetrinitramine",
+   "Trinitrotoluene"
+  ],
+  "a": 2,
+  "x": "RDX is cyclotrimethylenetrinitramine; TNP is trinitrophenol and TNG is glyceryl trinitrate."
+ },
+ "nf3b411f806d": {
+  "shape": "one-liner",
+  "s": "A new submarine base for the Eastern Naval Command is being built at:",
+  "o": [
+   "Kakinada",
+   "Rambilli",
+   "Machilipatnam",
+   "Paradip"
+  ],
+  "a": 1,
+  "x": "The new submarine base is at Rambilli; INS Dega is the naval air station and Visakhapatnam is the ENC headquarters."
+ },
+ "n20d1501238c": {
+  "shape": "one-liner",
+  "s": "The C-295, built by Airbus (Spain) with Tata, is a:",
+  "o": [
+   "Medium tactical transport aircraft",
+   "Mid-air refuelling tanker",
+   "Strategic heavy-lift transport aircraft",
+   "Airborne early-warning aircraft"
+  ],
+  "a": 0,
+  "x": "The C-295 is a medium tactical transport; the C-17 is the strategic heavy-lift transport. The first Made-in-India C-295 rolls out in 2026."
+ },
+ "nchemistry-18-9": {
+  "shape": "one-liner",
+  "s": "The explosive CL-20 is also known as:",
+  "o": [
+   "HMX",
+   "HNIW",
+   "RDX",
+   "PETN"
+  ],
+  "a": 1,
+  "x": "CL-20 is HNIW; HMX is High Melting Explosive."
+ },
+ "nchemistry-18-2": {
+  "shape": "one-liner",
+  "s": "Trinitrophenol is commonly known as:",
+  "o": [
+   "Picric acid",
+   "Nobel's oil",
+   "Cyclonite",
+   "Octogen"
+  ],
+  "a": 0,
+  "x": "Trinitrophenol is picric acid; trinitroglycerine is Nobel's oil, RDX cyclonite and HMX octogen."
+ },
+ "n0b3ff9ce633": {
+  "shape": "one-liner",
+  "s": "ATAGS, the 155 mm/52-calibre towed gun, was designed by:",
+  "o": [
+   "DRDO's ARDE",
+   "Ordnance Factory Board, Jabalpur",
+   "Heavy Vehicles Factory, Avadi",
+   "CVRDE, Chennai"
+  ],
+  "a": 0,
+  "x": "ATAGS is DRDO-ARDE's indigenous design with industry; Dhanush is the Bofors-based gun from OFB Jabalpur."
+ },
+ "nchemistry-18-7": {
+  "shape": "one-liner",
+  "s": "Cyclonite, hexogen and T-4 are alternative names of:",
+  "o": [
+   "HMX",
+   "TNT",
+   "RDX",
+   "Trinitroglycerine"
+  ],
+  "a": 2,
+  "x": "Cyclonite, hexogen and T-4 are names of RDX; octogen is HMX."
+ },
+ "na20eba4e7a5": {
+  "shape": "one-liner",
+  "s": "The Indian Coast Guard was set up in:",
+  "o": [
+   "1971",
+   "1977",
+   "1985",
+   "1991"
+  ],
+  "a": 1,
+  "x": "The ICG dates from 1977; its 84 coastal radar stations were set up after 26/11."
+ },
+ "nchemistry-18-5": {
+  "shape": "one-liner",
+  "s": "The primary agent in C-4 plastic explosive is:",
+  "o": [
+   "RDX",
+   "Amatol",
+   "TNT",
+   "Picric acid"
+  ],
+  "a": 0,
+  "x": "RDX is the base of C-4; TNT fills shells and bombs, and amatol is a high explosive."
+ },
+ "n48f4b4ed6e6": {
+  "shape": "one-liner",
+  "s": "The DRDO-NMRL Air Independent Propulsion (AIP) system for submarines is based on:",
+  "o": [
+   "Fuel-cell technology",
+   "A compact nuclear reactor",
+   "Stirling engines",
+   "Closed-cycle diesel engines"
+  ],
+  "a": 0,
+  "x": "The NMRL system uses fuel cells, letting a diesel-electric submarine stay submerged for long periods without snorkelling."
+ },
+ "nchemistry-18-23": {
+  "shape": "one-liner",
+  "s": "Which explosive is also used in printing inks, leather finishing and celluloid?",
+  "o": [
+   "RDX",
+   "HMX",
+   "TNT",
+   "Gun cotton"
+  ],
+  "a": 3,
+  "x": "Gun cotton is used in printing inks, leather finishing and celluloid; picric acid (TNP) is used in explosives and dyes."
+ },
+ "nphysics-19-39": {
+  "shape": "one-liner",
+  "s": "The changing pitch of a passing siren is an example of:",
+  "o": [
+   "The Doppler effect",
+   "Echo",
+   "Resonance",
+   "Refraction"
+  ],
+  "a": 0,
+  "x": "It is the Doppler effect, also used in radar guns, medical Doppler and astronomy (with light)."
+ },
+ "n43fb1ba527f": {
+  "shape": "one-liner",
+  "s": "Which city hosts the Eastern Naval Command, Hindustan Shipyard Limited and NSTL?",
+  "o": [
+   "Chennai",
+   "Kakinada",
+   "Kolkata",
+   "Visakhapatnam"
+  ],
+  "a": 3,
+  "x": "Visakhapatnam hosts the Eastern Naval Command, HSL and NSTL (linked with Varunastra)."
+ },
+ "nc19b99ff476": {
+  "shape": "one-liner",
+  "s": "A drone that loiters over an area and then crashes into its target carrying a warhead is called a:",
+  "o": [
+   "Target drone",
+   "Kamikaze (suicide) drone",
+   "MALE UAV",
+   "Reconnaissance UAV"
+  ],
+  "a": 1,
+  "x": "That is a kamikaze drone; the DAC approved jet-based kamikaze drones in July 2026."
+ },
+ "n26d7a7a8630": {
+  "shape": "one-liner",
+  "s": "How many Rafale fighter jets from Dassault does the Indian Air Force operate?",
+  "o": [
+   "36",
+   "26",
+   "83",
+   "97"
+  ],
+  "a": 0,
+  "x": "The IAF operates 36 Rafales; 26 is the number of Rafale-M jets ordered for the Navy."
+ },
+ "n3f6440562c0": {
+  "shape": "one-liner",
+  "s": "India's indigenous airborne system that, on a smaller jet than AWACS, provides early warning and command-and-control is:",
+  "o": [
+   "Rustom-II",
+   "Netra AEW&C",
+   "Ghatak",
+   "Nishant"
+  ],
+  "a": 1,
+  "x": "Netra is a smaller jet with early warning and command-and-control; AWACS is larger, with longer range and full air-battle control."
+ },
+ "n2dea2ba3bf7": {
+  "shape": "one-liner",
+  "s": "Varunastra, an indigenous heavyweight anti-submarine torpedo, was designed by:",
+  "o": [
+   "NMRL",
+   "ARDE, Pune",
+   "NSTL, Visakhapatnam",
+   "GRSE, Kolkata"
+  ],
+  "a": 2,
+  "x": "Varunastra was designed by NSTL, Visakhapatnam."
+ },
+ "n2ca8631e560": {
+  "shape": "one-liner",
+  "s": "Which Mumbai-based shipyard builds destroyers, P17A frigates and Scorpene submarines?",
+  "o": [
+   "Goa Shipyard",
+   "GRSE",
+   "Cochin Shipyard",
+   "Mazagon Dock Shipbuilders"
+  ],
+  "a": 3,
+  "x": "Mazagon Dock Shipbuilders, Mumbai builds destroyers, Project 17A frigates and Scorpene submarines."
+ },
+ "na41ededd781": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "India's two defence industrial corridors are in Uttar Pradesh and:",
+  "o": [
+   "Andhra Pradesh",
+   "Gujarat",
+   "Tamil Nadu",
+   "Karnataka"
+  ],
+  "a": 2,
+  "x": "The corridors are in Uttar Pradesh and Tamil Nadu; the BrahMos unit at Lucknow is linked with the UP corridor."
+ },
+ "n036ed6679f9": {
+  "shape": "statements (NOT not possible: original has no false statement)",
+  "s": "Consider the following challenges of defence indigenisation in India:\n1. Dependence on imported engines and semiconductors\n2. A small share of defence expenditure devoted to R&D\n3. Low foreign direct investment\nWhich of the above is/are identified as challenges or criticisms?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three - import dependence for engines and semiconductors, small R&D share and low FDI - are identified as challenges or criticisms."
+ },
+ "nf39d3b5c059": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about the Buy (Indian-IDDM) category?",
+  "o": [
+   "It is the least preferred category under DAP 2020",
+   "IDDM stands for Indigenously Designed, Developed and Manufactured",
+   "It was first added in DPP 2016",
+   "It was introduced on the advice of the Dhirendra Singh Committee"
+  ],
+  "a": 0,
+  "x": "Buy (Indian-IDDM) is the most preferred category under DAP 2020."
+ },
+ "n0dadf48b5de": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India's defence production and exports?",
+  "o": [
+   "Defence production reached a record Rs 1.78 lakh crore in FY 2025-26",
+   "DPEPP 2020 targeted Rs 1.75 lakh crore defence production by 2025",
+   "DPEPP 2020 targeted Rs 50,000 crore defence exports by 2025",
+   "Defence exports rose from Rs 686 crore (2013-14) to Rs 23,622 crore (2024-25)"
+  ],
+  "a": 2,
+  "x": "The DPEPP 2020 export target for 2025 was Rs 35,000 crore, not Rs 50,000 crore."
+ },
+ "n52633b69b4a": {
+  "shape": "assertion",
+  "s": "Assertion (A): Under the Strategic Partnership (SP) model, selected Indian private firms team up with foreign OEMs to build major platforms in India.\nReason (R): The SP model was added to the Defence Procurement Procedure in 2016.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false because the SP model came in 2017 - DPP 2016 added Buy (Indian-IDDM)."
+ },
+ "n87bf25e18da": {
+  "shape": "assertion",
+  "s": "Assertion (A): RAKSHA (Sep 2026) is the Defence Minister's 5-year roadmap for global defence partnerships.\nReason (R): Indigenous exports and maritime security are among the pillars of RAKSHA.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "RAKSHA is a 10-year roadmap, so A is false; its pillars are strategic partnerships, capacity building, indigenous exports and maritime security, so R is true."
+ },
+ "n192b6363301": {
+  "shape": "one-liner",
+  "s": "In 2021, the 41 factories of the Ordnance Factory Board were regrouped into how many new DPSUs?",
+  "o": [
+   "Five",
+   "Six",
+   "Seven",
+   "Nine"
+  ],
+  "a": 2,
+  "x": "The 200-year-old OFB was dissolved and its 41 factories regrouped into 7 DPSUs, including Gliders India and Troop Comforts."
+ },
+ "n79d5404b798": {
+  "shape": "one-liner",
+  "s": "Visakhapatnam is the home port of the Indian Navy's:",
+  "o": [
+   "Western Fleet",
+   "Eastern Fleet",
+   "Southern Naval Command",
+   "Andaman and Nicobar Command"
+  ],
+  "a": 1,
+  "x": "Visakhapatnam is home to the Eastern Fleet, where P-17A frigates are commissioned."
+ },
+ "n3511e9095d5": {
+  "shape": "one-liner",
+  "s": "How many Positive Indigenisation Lists, barring imports of listed items after set dates, have been issued?",
+  "o": [
+   "Five",
+   "Four",
+   "Three",
+   "Six"
+  ],
+  "a": 0,
+  "x": "Five Positive Indigenisation Lists have been issued; the SRIJAN portal supports indigenisation."
+ },
+ "nb873418bb03": {
+  "shape": "one-liner",
+  "s": "iDEX is run by the Defence Innovation Organisation, a not-for-profit set up by:",
+  "o": [
+   "DRDO and BEL",
+   "HAL and BEL",
+   "DRDO and HAL",
+   "BEL and BDL"
+  ],
+  "a": 1,
+  "x": "The DIO was set up by HAL and BEL, not DRDO; iDEX was launched in April 2018."
+ },
+ "ne7552418acd": {
+  "shape": "one-liner",
+  "s": "In July 2023, L&T signed a Teaming Agreement in New Delhi with which company to bid for the P-75(I) submarines?",
+  "o": [
+   "Naval Group",
+   "TKMS",
+   "Navantia",
+   "Rubin Design Bureau"
+  ],
+  "a": 2,
+  "x": "L&T teamed up with Spain's Navantia for the P-75(I) bid."
+ },
+ "ne10e585a97f": {
+  "shape": "one-liner",
+  "s": "The Russian-designed Su-30MKI is licence-built by HAL at:",
+  "o": [
+   "Nashik",
+   "Bengaluru",
+   "Kanpur",
+   "Avadi"
+  ],
+  "a": 0,
+  "x": "HAL licence-builds the Su-30MKI at Nashik; the T-90 Bhishma is licence-built at HVF Avadi."
+ },
+ "n80ede0d5d89": {
+  "shape": "one-liner",
+  "s": "The biennial Aero India show is held at:",
+  "o": [
+   "Hindon Air Force Station",
+   "Yelahanka Air Force Station, Bengaluru",
+   "Lucknow",
+   "Gandhinagar"
+  ],
+  "a": 1,
+  "x": "Aero India is biennial at Yelahanka; DefExpo 2020 was at Lucknow and DefExpo 2022 at Gandhinagar."
+ },
+ "n5d97e8905e7": {
+  "shape": "one-liner",
+  "s": "The Technology Development Fund (TDF) of the Ministry of Defence is executed by:",
+  "o": [
+   "The Defence Innovation Organisation",
+   "HAL",
+   "DRDO",
+   "BEL"
+  ],
+  "a": 2,
+  "x": "TDF is executed by DRDO and gives grants of up to Rs 50 crore; the DIO (HAL + BEL) runs iDEX."
+ },
+ "n4791d636815": {
+  "shape": "one-liner",
+  "s": "The Naval Commanders' Conference is held:",
+  "o": [
+   "Twice a year",
+   "Once every two years",
+   "Once a year",
+   "Every quarter"
+  ],
+  "a": 0,
+  "x": "The conference is held twice a year; its first 2024 edition began on 5 March 2024."
+ },
+ "n9f33671a56c": {
+  "shape": "one-liner",
+  "s": "FDI in the defence sector is permitted through the automatic route up to:",
+  "o": [
+   "26%",
+   "49%",
+   "74%",
+   "100%"
+  ],
+  "a": 2,
+  "x": "74% is allowed through the automatic route; above 74% up to 100% needs the government route where modern technology access is involved."
+ },
+ "nd7a62c964fd": {
+  "shape": "one-liner",
+  "s": "Indonesia is associated with India's export of which missile?",
+  "o": [
+   "Astra",
+   "Nag",
+   "Prithvi",
+   "Agni"
+  ],
+  "a": 0,
+  "x": "Indonesia is the Astra buyer, the Philippines bought BrahMos, and the UAE is in talks."
+ },
+ "n96c021f0d7e": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "The CEA's National Generation Adequacy Plan (2026–27 to 2035–36) projects peak power demand by 2035–36 of:",
+  "o": [
+   "459 GW",
+   "366 GW",
+   "520 GW",
+   "610 GW"
+  ],
+  "a": 0,
+  "x": "NGAP projects 459 GW peak demand, 1,121 GW installed capacity and 70% non-fossil capacity."
+ },
+ "n116db7d7078": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "During the 2026 gas crisis, which strait was identified as a risk to India's LPG supplies?",
+  "o": [
+   "Strait of Malacca",
+   "Bab-el-Mandeb",
+   "Strait of Hormuz",
+   "Strait of Gibraltar"
+  ],
+  "a": 2,
+  "x": "The Strait of Hormuz was identified as the risk; India imports about 50–51% of its natural gas/LNG."
+ },
+ "nfcd3bdba467": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India's NDC targets (versus 2005)?",
+  "o": [
+   "The first NDC (2015) targeted a 33–35% cut in emission intensity by 2030",
+   "The updated NDC (Aug 2022) targeted a 45% cut in intensity and 50% non-fossil capacity by 2030",
+   "The 2031–35 NDC targets a 47% cut in intensity by 2035",
+   "The 2031–35 NDC targets 50% non-fossil capacity by 2035"
+  ],
+  "a": 3,
+  "x": "The 2031–35 NDC sets a 60% non-fossil capacity target, not 50%."
+ },
+ "n996947cf721": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India's fuel position?",
+  "o": [
+   "India holds about 7% of the world's oil reserves",
+   "India's crude-oil import dependence is about 88%",
+   "India has the fourth-largest coal reserves, about 344 billion tonnes",
+   "Coal makes up about 55% of India's primary energy"
+  ],
+  "a": 0,
+  "x": "India holds only about 0.4% of world oil reserves; 7% is its share of coal reserves."
+ },
+ "n57c6ab7862b": {
+  "shape": "assertion",
+  "s": "Assertion (A): According to the Economic Survey 2025–26, India's electricity shortage reached zero by November 2025.\nReason (R): India's electricity shortage had declined from 4.2% in FY14 to 0.03% in 2025.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: the shortage fell from 10–15% in earlier years and 4.2% in FY14 to 0.03% and then zero. R only describes the earlier stage of the decline; it does not explain why the shortage reached zero."
+ },
+ "n9b19d6a9f49": {
+  "shape": "one-liner (assertion not possible: no cause-effect pair in the facts)",
+  "s": "Andhra Pradesh's Resource Adequacy Plan (2025–26 to 2035–36) seeks about how much new thermal capacity?",
+  "o": [
+   "1,600 MW",
+   "5,588 MW",
+   "3,200 MW",
+   "8,500 MW"
+  ],
+  "a": 1,
+  "x": "The plan seeks about 5,588 MW of new thermal capacity; APERC cleared the first 1,600 MW."
+ },
+ "n89f1b907e9f": {
+  "shape": "one-liner",
+  "s": "Which of the following correctly describes the coverage of India's Energy Statistics publication?",
+  "o": [
+   "Coal, lignite, crude oil and natural gas, including imports and exports, plus the energy balance",
+   "Electricity consumption only",
+   "Production data only, excluding imports and exports",
+   "Crude oil and natural gas only"
+  ],
+  "a": 0,
+  "x": "It covers coal, lignite, crude oil, natural gas, electricity consumption and the energy balance, including imports and exports."
+ },
+ "nab84a904b23": {
+  "shape": "one-liner",
+  "s": "The Draft National Electricity Policy 2026 was issued by:",
+  "o": [
+   "NITI Aayog",
+   "Central Electricity Authority",
+   "Ministry of Power",
+   "MNRE"
+  ],
+  "a": 2,
+  "x": "It is from the Ministry of Power; it replaces the 2005 policy and proposes 100 GW of pumped storage by 2047."
+ },
+ "nb256986a5b3": {
+  "shape": "one-liner",
+  "s": "The World Energy Outlook is published by:",
+  "o": [
+   "NITI Aayog",
+   "International Energy Agency",
+   "OPEC",
+   "IRENA"
+  ],
+  "a": 1,
+  "x": "The IEA publishes it; WEO 2022 projected India's coal generation and oil imports to peak around 2030."
+ },
+ "n02b42f06936": {
+  "shape": "one-liner",
+  "s": "The India Cooling Action Plan was launched in 2019 by:",
+  "o": [
+   "Ministry of Power",
+   "Bureau of Energy Efficiency",
+   "MNRE",
+   "MoEFCC"
+  ],
+  "a": 3,
+  "x": "MoEFCC launched it in 2019; it aims to cut cooling demand by 20–25% and refrigerant demand by 25–30% by 2037–38."
+ },
+ "n5fa0b5a5aa1": {
+  "shape": "one-liner",
+  "s": "India is the world's ____-largest energy consumer.",
+  "o": [
+   "largest",
+   "second",
+   "third",
+   "fourth"
+  ],
+  "a": 2,
+  "x": "India is the third-largest energy consumer and the second-largest coal consumer; its energy demand is expected to triple by 2047."
+ },
+ "n2b551a79d38": {
+  "shape": "one-liner",
+  "s": "Which sector uses about 50% of India's electricity?",
+  "o": [
+   "Households",
+   "Agriculture",
+   "Industry",
+   "Commercial buildings"
+  ],
+  "a": 2,
+  "x": "Industry, not households, uses about half of India's electricity; household electrification is about 99%."
+ },
+ "nphysics-16-26": {
+  "shape": "one-liner",
+  "s": "One kilowatt-hour (kWh) of energy equals:",
+  "o": [
+   "3.6 × 10⁶ J",
+   "3.6 × 10⁵ J",
+   "3.6 × 10³ J",
+   "1,000 J"
+  ],
+  "a": 0,
+  "x": "1 kWh is a 1 kW device running for 1 hour = 1,000 W × 3,600 s = 3.6 × 10⁶ J; it is the 'unit' on electricity bills."
+ },
+ "nd323164a0ff": {
+  "shape": "one-liner",
+  "s": "Under the Energy Conservation Act, 2001, the Bureau of Energy Efficiency and NMEEE promote energy efficiency through:",
+  "o": [
+   "Energy Service Companies (ESCOs)",
+   "DISCOMs only",
+   "NHPC",
+   "BESS providers"
+  ],
+  "a": 0,
+  "x": "BEE and the National Mission for Enhanced Energy Efficiency under NAPCC work through ESCOs."
+ },
+ "n6195d413553": {
+  "shape": "one-liner",
+  "s": "India's per-capita electricity consumption is about ____ of China's.",
+  "o": [
+   "one-ninth",
+   "one-third",
+   "one-fifth",
+   "one-half"
+  ],
+  "a": 2,
+  "x": "It is about one-fifth of China's and one-ninth of the USA's."
+ },
+ "n09e00f35d6f": {
+  "shape": "one-liner",
+  "s": "Nuclear energy is significant for India's energy system mainly because it:",
+  "o": [
+   "Provides 24×7 baseload power and can reduce fossil-fuel imports",
+   "Supplies off-grid household lighting",
+   "Meets only the evening peak",
+   "Replaces all transport fuels"
+  ],
+  "a": 0,
+  "x": "Nuclear power gives round-the-clock baseload electricity and can cut dependence on fossil-fuel imports."
+ },
+ "nb82a03935df": {
+  "shape": "one-liner",
+  "s": "Delhi's response to the 6–11 p.m. evening electricity peak, caused by cooling demand after solar output drops, is:",
+  "o": [
+   "A ban on power exchanges",
+   "A 15-day coal stock rule",
+   "Exclusive dependence on pumped hydro",
+   "Time-of-day tariffs and smart meters"
+  ],
+  "a": 3,
+  "x": "Delhi uses time-of-day tariffs and smart meters to manage the evening peak."
+ },
+ "neecccf1b4df": {
+  "shape": "one-liner",
+  "s": "Under Andhra Pradesh's September 2026 energy roadmap, the central VGF battery-storage project with NHPC has a size of:",
+  "o": [
+   "1,500 MW/6,000 MWh",
+   "500 MW/1,000 MWh",
+   "1,600 MW/3,200 MWh",
+   "1,000 MW/4,000 MWh"
+  ],
+  "a": 1,
+  "x": "The NHPC VGF project is 500 MW/1,000 MWh; the 1,500 MW/6,000 MWh BESS is planned for the evening peak."
+ },
+ "nf5ae301eb97": {
+  "shape": "one-liner",
+  "s": "India's per-capita energy consumption is best described as:",
+  "o": [
+   "Low, with a large urban-rural disparity",
+   "High, with negligible regional disparity",
+   "Uniform across urban and rural areas",
+   "High in rural areas and negligible in urban areas"
+  ],
+  "a": 0,
+  "x": "India has low per-capita energy consumption with a large urban-rural gap."
+ },
+ "n349cfbc58ac": {
+  "shape": "one-liner",
+  "s": "India's non-fossil share of installed power capacity rose from 32% in 2014 to ____ in 2025.",
+  "o": [
+   "40%",
+   "45%",
+   "51%",
+   "60%"
+  ],
+  "a": 2,
+  "x": "It reached 51% in 2025, crossing the 50% target five years early."
+ },
+ "nd2719adac9f": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India's Phase I Strategic Petroleum Reserves?",
+  "o": [
+   "They are underground rock caverns at Visakhapatnam, Mangaluru and Padur",
+   "Their capacity is 5.33 MMT, about 9.5 days of cover when full",
+   "Actual stocks of about 3.37 MT give only about 5 days of cover",
+   "The IEA norm for strategic reserves is 60 days of cover"
+  ],
+  "a": 3,
+  "x": "The IEA norm is 90 days of cover, not 60."
+ },
+ "n9db62ef4af8": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "Under the Hydrocarbon Exploration and Licensing Policy (HELP), companies get:",
+  "o": [
+   "A single licence for all hydrocarbons",
+   "Separate licences for oil and for gas",
+   "Licences only for overseas acreage",
+   "Licences only for shale gas"
+  ],
+  "a": 0,
+  "x": "HELP provides a single, unified licence for all hydrocarbons; OALP concerns upstream exploration and production."
+ },
+ "n2b3e7d7aa94": {
+  "shape": "assertion",
+  "s": "Assertion (A): India's E20 ethanol-blending target was advanced to ESY 2025-26 from 2030.\nReason (R): E20 petrol with a minimum 91 RON has been mandated from 1 April 2026.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false because the mandate from 1 April 2026 is E20 with a minimum 95 RON."
+ },
+ "n76c4d03374e": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "The Krishna-Godavari Basin, one of India's most prolific hydrocarbon zones, is located:",
+  "o": [
+   "Offshore on the West Coast",
+   "Offshore on the East Coast",
+   "In the Thar desert",
+   "In the Brahmaputra valley"
+  ],
+  "a": 1,
+  "x": "The KG Basin is an offshore East Coast zone, where Andhra Pradesh produces gas and crude oil."
+ },
+ "n0e4db3fc62d": {
+  "shape": "one-liner",
+  "s": "In cooking applications, methanol can partly replace:",
+  "o": [
+   "LPG and kerosene",
+   "CNG and petrol",
+   "Coal and diesel",
+   "Biogas and firewood"
+  ],
+  "a": 0,
+  "x": "Methanol, a low-carbon hydrogen-carrier fuel, can partly replace LPG and kerosene in cooking, besides petrol/diesel in transport."
+ },
+ "n3117a6560cc": {
+  "shape": "one-liner",
+  "s": "OPEC produces about what share of global oil?",
+  "o": [
+   "15%",
+   "25%",
+   "40%",
+   "60%"
+  ],
+  "a": 2,
+  "x": "OPEC produces about 40% of global oil; its share of India's crude imports has fallen below 50%."
+ },
+ "n1a705ff5913": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "In recent years, India's largest crude-oil supplier has been:",
+  "o": [
+   "Iraq",
+   "Saudi Arabia",
+   "Russia",
+   "UAE"
+  ],
+  "a": 2,
+  "x": "Russia was the largest supplier; Iraq and Saudi Arabia were also major suppliers."
+ },
+ "ne12179db60a": {
+  "shape": "one-liner",
+  "s": "India's import dependence for lithium is about:",
+  "o": [
+   "26%",
+   "50%",
+   "70%",
+   "90%"
+  ],
+  "a": 3,
+  "x": "Lithium import dependence is about 90%; crude oil is about 88% and coal about 26%."
+ },
+ "nd30a11978eb": {
+  "shape": "one-liner",
+  "s": "Di-Methyl Ether (DME) is obtained from two methanol molecules by:",
+  "o": [
+   "Adding one water molecule",
+   "Removing one water molecule",
+   "Adding one hydrogen molecule",
+   "Removing one carbon dioxide molecule"
+  ],
+  "a": 1,
+  "x": "DME is two methanol molecules minus one water molecule; it can substitute propane in LPG and diesel in slow-RPM engines."
+ },
+ "na6cf736bab8": {
+  "shape": "one-liner",
+  "s": "Which of the following pairs is identified as import-substitution tools in India's energy sector?",
+  "o": [
+   "Green Hydrogen Mission and the proposed 41 MT strategic fuel system",
+   "500 GW non-fossil target and the proposed 41 MT strategic fuel system",
+   "500 GW non-fossil capacity target by 2030 and the Green Hydrogen Mission",
+   "The proposed 41 MT strategic fuel system alone"
+  ],
+  "a": 2,
+  "x": "The 500 GW target and the Green Hydrogen Mission are the import-substitution tools; the 41 MT strategic fuel system is a response to energy disruption."
+ },
+ "n5e0626650d9": {
+  "shape": "one-liner",
+  "s": "NITI Aayog's 'Methanol Economy' programme aims to convert coal reserves and municipal solid waste into:",
+  "o": [
+   "Methanol",
+   "Ethanol",
+   "Biodiesel",
+   "Compressed natural gas"
+  ],
+  "a": 0,
+  "x": "The programme converts coal and MSW into methanol to cut the oil import bill and greenhouse gas emissions."
+ },
+ "n40d6e61e437": {
+  "shape": "one-liner",
+  "s": "Roughly what share of world crude-oil trade passes through the Strait of Hormuz?",
+  "o": [
+   "One-tenth",
+   "One-third",
+   "One-half",
+   "Two-thirds"
+  ],
+  "a": 1,
+  "x": "About 15 million bbl/day, roughly 34% of world crude trade, passes through it, along with about a fifth of global LNG trade."
+ },
+ "n34ec98961c2": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about Andhra Pradesh's Integrated Clean Energy Policy 2024 (ICEP-2024)?",
+  "o": [
+   "Its first project is SAEL's 600 MW solar plant in Kadapa",
+   "It targets 160 GW+ of clean energy",
+   "It targets Rs 10 lakh crore of investment and 7.5 lakh jobs",
+   "It targets net zero for the State by 2070"
+  ],
+  "a": 3,
+  "x": "ICEP-2024 targets net zero by 2047; 2070 is India's national target."
+ },
+ "n61ac68a272b": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about IREDA?",
+  "o": [
+   "It was set up in 1987 under the Ministry of Power",
+   "It promotes, develops and finances renewable-energy projects",
+   "It was listed on the stock exchanges in November 2023",
+   "It received Navratna status in April 2024"
+  ],
+  "a": 0,
+  "x": "IREDA was set up in 1987 under MNRE, not the Ministry of Power."
+ },
+ "n048f18bf179": {
+  "shape": "statements (NOT not possible: original has no false statement)",
+  "s": "Consider the following objectives of NITI Aayog's Draft National Energy Policy:\n1. Access to energy at affordable prices\n2. Improved energy security and independence\n3. Greater sustainability and economic growth\nWhich of the above is/are its objectives?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "Its four objectives are affordable access, improved security and independence, greater sustainability and economic growth."
+ },
+ "n7dd60c8ce25": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India's electricity policies?",
+  "o": [
+   "The Electricity Act 2003 requires a National Electricity Policy and a Tariff Policy",
+   "The Tariff Policy of 2006 was revised in 2016",
+   "The Draft National Electricity Policy 2026 replaces the National Electricity Policy 2005",
+   "The Draft National Electricity Policy 2026 was issued by NITI Aayog"
+  ],
+  "a": 3,
+  "x": "The Draft National Electricity Policy 2026 comes from the Ministry of Power, not NITI Aayog."
+ },
+ "n3af08a644e6": {
+  "shape": "assertion",
+  "s": "Assertion (A): NITI Aayog's 'Scenarios Towards Viksit Bharat and Net Zero' (Feb 2026) recommends 200–300 GW of nuclear capacity by 2070.\nReason (R): The same study recommends about 50 GW of nuclear capacity by 2047.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false because the study recommends about 100 GW of nuclear by 2047."
+ },
+ "n0bcda75570e": {
+  "shape": "assertion",
+  "s": "Assertion (A): NITI Aayog's India Energy Security Scenarios 2047 (IESS 2047) was launched in 2017.\nReason (R): IESS 2047 models energy supply and demand up to 2047 under Business-As-Usual and Ambitious scenarios.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "IESS 2047 was launched in 2014 (2017 is the Draft National Energy Policy), so A is false; R is true."
+ },
+ "n425eae8f235": {
+  "shape": "one-liner",
+  "s": "Diesel prices in India were deregulated in:",
+  "o": [
+   "June 2010",
+   "October 2014",
+   "April 2015",
+   "June 2012"
+  ],
+  "a": 1,
+  "x": "Diesel was deregulated in October 2014; petrol in June 2010."
+ },
+ "n6b97e2384d7": {
+  "shape": "one-liner",
+  "s": "The Draft National Electricity Policy 2026 proposes how much pumped storage hydropower capacity by 2047?",
+  "o": [
+   "100 GW",
+   "50 GW",
+   "200 GW",
+   "500 GW"
+  ],
+  "a": 0,
+  "x": "It proposes 100 GW of pumped storage by 2047, along with Time-of-Day tariffs."
+ },
+ "n8dcca1a3996": {
+  "shape": "one-liner",
+  "s": "On fuel subsidies, the Integrated Energy Policy recommended:",
+  "o": [
+   "A general price subsidy for all consumers",
+   "Subsidies targeted to the poor",
+   "Free fuel for all farmers",
+   "Cost-plus pricing of all fuels"
+  ],
+  "a": 1,
+  "x": "It recommended subsidies targeted to the poor, with trade-parity pricing, not a general price subsidy."
+ },
+ "nb6af350cf66": {
+  "shape": "one-liner",
+  "s": "The Ministry of Power, earlier the Ministry of Energy Sources, became an independent ministry on:",
+  "o": [
+   "2 July 1992",
+   "2 July 1982",
+   "15 August 1992",
+   "2 July 2006"
+  ],
+  "a": 0,
+  "x": "It became independent on 2 July 1992; oil and gas belong to MoPNG."
+ },
+ "n2ebd82142c9": {
+  "shape": "one-liner",
+  "s": "The PNGRB, set up under its 2006 Act, regulates:",
+  "o": [
+   "Petroleum and natural gas",
+   "Coal mining",
+   "The electricity sector",
+   "Renewable energy"
+  ],
+  "a": 0,
+  "x": "PNGRB regulates petroleum and natural gas under MoPNG."
+ },
+ "nd81589c9cc8": {
+  "shape": "one-liner",
+  "s": "The Integrated Energy Policy, prepared in 2006, was approved by the Union Cabinet in:",
+  "o": [
+   "December 2006",
+   "December 2008",
+   "December 2010",
+   "December 2012"
+  ],
+  "a": 1,
+  "x": "It was approved in December 2008 and aimed to meet energy needs up to 2031–32."
+ },
+ "n7deac8a3434": {
+  "shape": "one-liner",
+  "s": "The Ministry of New and Renewable Energy received the name MNRE in:",
+  "o": [
+   "1982",
+   "1992",
+   "2006",
+   "2010"
+  ],
+  "a": 2,
+  "x": "It began as DNES in 1982, became MNES in 1992 and was renamed MNRE in 2006."
+ },
+ "nf3df05bbb04": {
+  "shape": "one-liner",
+  "s": "The Draft National Energy Policy (2017) was prepared by:",
+  "o": [
+   "NITI Aayog",
+   "Ministry of Power",
+   "Central Electricity Authority",
+   "Ministry of Petroleum and Natural Gas"
+  ],
+  "a": 0,
+  "x": "National Energy Policy is NITI Aayog's; the National Electricity Policy (2005) is the Ministry of Power's."
+ },
+ "n99fe3ad38f8": {
+  "shape": "one-liner",
+  "s": "India's new NDC (2031–35) targets a cut in the emissions intensity of GDP by 2035 of:",
+  "o": [
+   "45%",
+   "47%",
+   "50%",
+   "60%"
+  ],
+  "a": 1,
+  "x": "The new NDC targets a 47% intensity cut and 60% non-fossil capacity by 2035; 45% and 50% are the 2030 targets."
+ },
+ "nenvironment-7-14": {
+  "shape": "one-liner",
+  "s": "Under the Panchamrit targets, India aims for non-fossil capacity of ____ by 2030.",
+  "o": [
+   "175 GW",
+   "300 GW",
+   "450 GW",
+   "500 GW"
+  ],
+  "a": 3,
+  "x": "Panchamrit targets 500 GW non-fossil capacity, 50% energy from renewables, 1 billion tonnes less emissions and 45% lower carbon intensity by 2030, and net zero by 2070."
+ },
+ "n6bb28f9cc21": {
+  "shape": "one-liner",
+  "s": "India's first sovereign green bonds were issued in:",
+  "o": [
+   "January 2023",
+   "January 2022",
+   "January 2021",
+   "January 2024"
+  ],
+  "a": 0,
+  "x": "They were first issued in January 2023; proceeds are ring-fenced for climate or environmental projects."
+ },
+ "n2231b5abe5d": {
+  "shape": "one-liner",
+  "s": "Before clean-cooking access expanded, about how many people in India relied on solid biomass for cooking?",
+  "o": [
+   "100 million",
+   "200 million",
+   "304 million",
+   "500 million"
+  ],
+  "a": 3,
+  "x": "The baseline was about 500 million relying on solid biomass, with about 304 million without electricity."
+ },
+ "ndbef5bddd4f": {
+  "shape": "one-liner",
+  "s": "About how much gas-based power capacity in India is described as stranded?",
+  "o": [
+   "10 GW",
+   "25 GW",
+   "51 GW",
+   "88 GW"
+  ],
+  "a": 1,
+  "x": "About 25 GW of gas capacity is stranded, and net-zero investment needs exceed $20 trillion."
+ },
+ "nddcefb91631": {
+  "shape": "one-liner",
+  "s": "The Draft National Electricity Policy 2026 replaces the National Electricity Policy of:",
+  "o": [
+   "2005",
+   "2003",
+   "2006",
+   "2016"
+  ],
+  "a": 0,
+  "x": "Issued by the Ministry of Power, it replaces the National Electricity Policy 2005."
+ },
+ "n4a6711876e7": {
+  "shape": "one-liner",
+  "s": "For tradable fuels, the Integrated Energy Policy recommended:",
+  "o": [
+   "Administrative pricing of all fuels",
+   "Market-determined or trade-parity pricing",
+   "A universal price subsidy irrespective of income",
+   "Free pricing only for imported products"
+  ],
+  "a": 1,
+  "x": "It recommended market-determined or trade-parity pricing for tradable fuels, with subsidies targeted to the poor."
+ },
+ "n20d433f5f29": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about renewable-energy initiatives in Andhra Pradesh?",
+  "o": [
+   "Tata Renewable has a planned 800 MW hybrid project",
+   "The Tata Renewable project involves an investment of ₹5,750 crore",
+   "A solar Centre of Excellence is associated with IIT Tirupati and UNSW",
+   "The Tata project is a 5,000 MW floating solar project implemented by SECI"
+  ],
+  "a": 3,
+  "x": "The Tata project is an 800 MW hybrid project, not a 5,000 MW SECI floating solar project."
+ },
+ "n323b237e005": {
+  "shape": "NOT",
+  "s": "Which of the following report–publisher pairs is wrongly matched?",
+  "o": [
+   "World Energy Outlook – IRENA",
+   "Renewable Energy Country Attractiveness Index – EY",
+   "Renewable Capacity Statistics – IRENA",
+   "Renewables Integration in India (2021) – IEA with NITI Aayog"
+  ],
+  "a": 0,
+  "x": "The World Energy Outlook is published by the IEA, not IRENA."
+ },
+ "n97bd3b46015": {
+  "shape": "assertion",
+  "s": "Assertion (A): The Department of Non-Conventional Energy Sources (1982) was created in the Ministry of Science and Technology.\nReason (R): The Commission for Additional Sources of Energy (CASE) was set up in 1981.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "DNES was created in the Ministry of Energy, so A is false; CASE was indeed set up in 1981, so R is true."
+ },
+ "n2289d2603fa": {
+  "shape": "one-liner",
+  "s": "Phase-II of the Grid-Connected Rooftop Solar Programme was subsumed in:",
+  "o": [
+   "PM-KUSUM",
+   "PM Surya Ghar",
+   "Saubhagya",
+   "UJALA"
+  ],
+  "a": 1,
+  "x": "Phase-II of the rooftop programme (40,000 MW target) was subsumed in PM Surya Ghar."
+ },
+ "n46dba6ce6b0": {
+  "shape": "one-liner",
+  "s": "In July 2017, the clean energy cess on coal that financed the National Clean Energy Fund was subsumed into the:",
+  "o": [
+   "GST Compensation Cess",
+   "Krishi Kalyan Cess",
+   "Swachh Bharat Cess",
+   "Road and Infrastructure Cess"
+  ],
+  "a": 0,
+  "x": "It was subsumed into the GST Compensation Cess, ending NCEF's dedicated inflow; the cess had risen from Rs 50 to Rs 400 per tonne."
+ },
+ "n416cd1d9444": {
+  "shape": "one-liner",
+  "s": "IREDA, a PSU and NBFC under MNRE, was set up in:",
+  "o": [
+   "1982",
+   "1987",
+   "1992",
+   "2006"
+  ],
+  "a": 1,
+  "x": "IREDA was set up in 1987; 1992 is when MNES was formed."
+ },
+ "n00baef07ca1": {
+  "shape": "one-liner",
+  "s": "By December 2025, the non-fossil share of India's installed power capacity was reported as:",
+  "o": [
+   "45.12%",
+   "48.50%",
+   "51.93%",
+   "60.05%"
+  ],
+  "a": 2,
+  "x": "The share was 51.93%, so the COP26 Panchamrit goal of 50% by 2030 was met five years early."
+ },
+ "nac3ddb9463b": {
+  "shape": "one-liner",
+  "s": "The International Solar Alliance was launched at COP21 (2015) by India and:",
+  "o": [
+   "France",
+   "Sweden",
+   "United Kingdom",
+   "USA"
+  ],
+  "a": 0,
+  "x": "ISA was launched by India and France; GGI-OSOWOG by India and the UK, and LeadIT by India and Sweden."
+ },
+ "nb69c490722e": {
+  "shape": "one-liner",
+  "s": "The National Institute of Wind Energy (NIWE) is located in:",
+  "o": [
+   "Gurugram",
+   "Chennai",
+   "Kapurthala",
+   "Bengaluru"
+  ],
+  "a": 1,
+  "x": "NIWE is in Chennai; the Gurugram solar R&D body is NISE and NIBE is at Kapurthala."
+ },
+ "n1f6a0459ca5": {
+  "shape": "one-liner",
+  "s": "India became the world's 3rd-largest solar power producer by overtaking:",
+  "o": [
+   "China",
+   "Japan",
+   "Germany",
+   "USA"
+  ],
+  "a": 1,
+  "x": "India overtook Japan; it also ranks 3rd in total renewable capacity and 4th in wind."
+ },
+ "nd2bec7c43df": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about underground coal gasification (UCG)?",
+  "o": [
+   "It is an in-situ process injecting air or oxygen and steam into coal seams to make syngas",
+   "It can use coal that is deep, thin or otherwise unmineable",
+   "Groundwater contamination is a risk associated with it",
+   "The MoEFCC expert panel waived the 300 m minimum depth for UCG pilots"
+  ],
+  "a": 3,
+  "x": "The MoEFCC expert panel refused to waive the 300 m minimum depth."
+ },
+ "nee6de6e03b8": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "The Scheme for Promotion of Surface Coal/Lignite Gasification, approved on 13 May 2026, has an outlay of:",
+  "o": [
+   "₹8,500 crore",
+   "₹25,000 crore",
+   "₹37,500 crore",
+   "₹50,000 crore"
+  ],
+  "a": 2,
+  "x": "The outlay is ₹37,500 crore, with incentives up to 20% of plant and machinery cost, capped at ₹5,000 crore per project."
+ },
+ "n405c14d7f0b": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about Gondwana coal?",
+  "o": [
+   "It is about 250–300 million years old",
+   "It accounts for about 98% of India's coal reserves",
+   "It consists predominantly of Tertiary lignite deposits",
+   "It occurs in the Damodar, Mahanadi, Son and Godavari valleys"
+  ],
+  "a": 2,
+  "x": "Gondwana coal is not Tertiary lignite; Tertiary deposits are younger and include lignite."
+ },
+ "nf0259671258": {
+  "shape": "assertion",
+  "s": "Assertion (A): Sub-bituminous coal lies between bituminous coal and lignite in rank and is used in power plants.\nReason (R): Lignite, also called brown coal, contains about 60–80% carbon.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false because lignite has about 40–55% carbon - 60–80% is bituminous coal."
+ },
+ "nc49bb801e31": {
+  "shape": "assertion",
+  "s": "Assertion (A): Syngas produced by coal gasification can be used to run Integrated Gasification Combined Cycle (IGCC) power plants.\nReason (R): Syngas consists mainly of ammonia and nitrogen.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false because syngas is CO + H2 + CH4 + CO2, and ammonia is only a downstream product."
+ },
+ "n3a693598d0e": {
+  "shape": "match",
+  "s": "Which of the following pairs about coal bed methane (CBM) is correctly matched?",
+  "o": [
+   "CBM in joints of coal seams – Adsorbed form",
+   "CBM in micropores of coal – Free gas",
+   "CBM in micropores of coal – Adsorbed form",
+   "'Sweet gas' label – Rich in heavier hydrocarbons"
+  ],
+  "a": 2,
+  "x": "CBM is partly free in joints and partly adsorbed in micropores; it is called sweet gas because it has few heavier hydrocarbons."
+ },
+ "nf651a1b1c57": {
+  "shape": "one-liner",
+  "s": "Which State has the largest coal reserves in India?",
+  "o": [
+   "Jharkhand",
+   "Chhattisgarh",
+   "Odisha",
+   "West Bengal"
+  ],
+  "a": 0,
+  "x": "Jharkhand leads; GSI put India's coal resources at 389.421 billion tonnes (1 April 2024)."
+ },
+ "n40597f370ca": {
+  "shape": "one-liner",
+  "s": "The planning arm of Coal India Limited is:",
+  "o": [
+   "SCCL",
+   "CMPDI",
+   "SECL",
+   "Coal Controller's Organisation"
+  ],
+  "a": 1,
+  "x": "CMPDI is CIL's planning arm; SCCL is a Telangana-GoI company, not a CIL subsidiary."
+ },
+ "n11c8766ca2c": {
+  "shape": "one-liner",
+  "s": "Under the SHAKTI coal linkage policy (2017), coal linkages are given through:",
+  "o": [
+   "Administrative nomination only",
+   "Auction or tariff-based bidding",
+   "Lottery among applicants",
+   "First-come-first-served allotment"
+  ],
+  "a": 1,
+  "x": "SHAKTI, which replaced the NCDP-2007 regime, gives linkages through auction or tariff-based bidding."
+ },
+ "naa4f866e635": {
+  "shape": "one-liner",
+  "s": "The Neyveli lignite field is located in:",
+  "o": [
+   "Tamil Nadu",
+   "Rajasthan",
+   "Gujarat",
+   "Jharkhand"
+  ],
+  "a": 0,
+  "x": "Neyveli is in Tamil Nadu; Bokaro and Giridih are in Jharkhand and Raigarh in Chhattisgarh."
+ },
+ "nc2f7fa22347": {
+  "shape": "one-liner",
+  "s": "Which of the following can be produced through coal gasification?",
+  "o": [
+   "Nitroglycerine only",
+   "Ethanol and nitroglycerine",
+   "Ethanol and urea",
+   "Urea and nitroglycerine"
+  ],
+  "a": 2,
+  "x": "Ethanol and urea can be produced through coal gasification; nitroglycerine is not among the stated products."
+ },
+ "nc986d13a8d2": {
+  "shape": "one-liner (sequence not used: single date asked)",
+  "s": "Revenue-sharing commercial coal auctions began in India in:",
+  "o": [
+   "2014",
+   "2015",
+   "2020",
+   "2025"
+  ],
+  "a": 2,
+  "x": "They began in 2020; the 13th round opened on 21 August 2025."
+ },
+ "n405d758fb42": {
+  "shape": "one-liner",
+  "s": "Which type of coal has the highest carbon content?",
+  "o": [
+   "Anthracite",
+   "Bituminous",
+   "Sub-bituminous",
+   "Lignite"
+  ],
+  "a": 0,
+  "x": "In descending order: anthracite, bituminous, sub-bituminous, lignite, peat."
+ },
+ "nb68c42510f7": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT a function of the Petroleum and Natural Gas Regulatory Board (PNGRB)?",
+  "o": [
+   "Authorising geographical areas for city gas distribution",
+   "Setting pipeline tariffs",
+   "Regulating crude oil production",
+   "Acting as a statutory regulator under the PNGRB Act, 2006"
+  ],
+  "a": 2,
+  "x": "PNGRB does not regulate crude oil production."
+ },
+ "n6ac7a628d32": {
+  "shape": "NOT",
+  "s": "Which of the following activities is NOT regulated by the PNGRB?",
+  "o": [
+   "Refining of petroleum",
+   "Production of natural gas",
+   "Storage and distribution of petroleum",
+   "Marketing and sale of petroleum products"
+  ],
+  "a": 1,
+  "x": "PNGRB regulates refining, storage and distribution, and marketing and sale; crude oil and natural gas production are outside it."
+ },
+ "n7e7982b06f8": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about Samudra Manthan?",
+  "o": [
+   "It is restricted to blocks held by ONGC alone",
+   "Its outlay of ₹84,084 crore runs up to 2030-31",
+   "It is the National Offshore Exploration Scheme",
+   "It is a 100 per cent Central Sector scheme"
+  ],
+  "a": 0,
+  "x": "It is open to OALP block holders, not only ONGC."
+ },
+ "n7789710cf54": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about the Hydrocarbon Exploration and Licensing Policy (HELP), 2016?",
+  "o": [
+   "It replaced NELP's revenue-sharing contracts with production-sharing contracts",
+   "It provides a single licence for conventional and unconventional hydrocarbons",
+   "It gives marketing and pricing freedom",
+   "It offers open acreage"
+  ],
+  "a": 0,
+  "x": "It is the reverse: HELP brought biddable revenue-sharing contracts in place of NELP's production-sharing contracts."
+ },
+ "nb43f9ed344c": {
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India's Strategic Petroleum Reserves?",
+  "o": [
+   "Phase I reserves cover about 9.5 days of imports",
+   "The IEA norm for strategic reserve cover is 60 days of imports",
+   "They are operated by ISPRL under MoPNG through OIDB",
+   "Phase I sites are Visakhapatnam, Mangaluru and Padur"
+  ],
+  "a": 1,
+  "x": "The IEA norm is 90 days of imports, not 60."
+ },
+ "n3c3963bd44f": {
+  "shape": "one-liner (assertion not possible: original is a single list with no cause-effect)",
+  "s": "The Indradhanush North-East Gas Grid joint venture comprises:",
+  "o": [
+   "IOCL, ONGC and GAIL only",
+   "IOCL, ONGC, GAIL and OIL only",
+   "ONGC, GAIL, OIL and NRL only",
+   "IOCL, ONGC, GAIL, OIL and NRL"
+  ],
+  "a": 3,
+  "x": "All five - IOCL, ONGC, GAIL, OIL and NRL - form the joint venture."
+ },
+ "nc5817eff78d": {
+  "shape": "assertion",
+  "s": "Assertion (A): India's first coal-gasification fertiliser plant is planned at Angul, Odisha, by December 2027.\nReason (R): JSPL's Angul plant is India's only commercial-scale coal-gasification plant.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "The first gasification fertiliser plant is planned at Talcher, not Angul, so A is false; R is true."
+ },
+ "nb87c7b8e868": {
+  "shape": "one-liner (NOT not possible: original has no false statement)",
+  "s": "The East-West gas pipeline runs from Kakinada in Andhra Pradesh to:",
+  "o": [
+   "Mumbai",
+   "Bharuch",
+   "Kandla",
+   "Jamnagar"
+  ],
+  "a": 1,
+  "x": "The East-West pipeline runs from Kakinada to Bharuch in Gujarat."
+ },
+ "nbdd527f78b1": {
+  "shape": "one-liner",
+  "s": "The idea of a national gas grid was first proposed in 1955 by:",
+  "o": [
+   "S. H. Zaheer",
+   "Homi J. Bhabha",
+   "Vikram Sarabhai",
+   "M. Visvesvaraya"
+  ],
+  "a": 0,
+  "x": "S. H. Zaheer of RRL Hyderabad (now CSIR-IICT) proposed it; One Nation One Gas Grid began in 2014."
+ },
+ "nf124d2fb678": {
+  "shape": "one-liner",
+  "s": "The Kalol oilfield lies in the:",
+  "o": [
+   "Krishna-Godavari Basin",
+   "Cambay Basin",
+   "Mumbai Offshore Basin",
+   "Assam Shelf"
+  ],
+  "a": 1,
+  "x": "Kalol, like Ankleshwar, is a Cambay Basin field."
+ },
+ "nd938a1d94fc": {
+  "shape": "one-liner",
+  "s": "The first commercial output of coal bed methane in India came from:",
+  "o": [
+   "Jharia",
+   "Bokaro",
+   "Raniganj",
+   "Sohagpur"
+  ],
+  "a": 2,
+  "x": "Raniganj produced the first commercial CBM; Jharia, Bokaro and Sohagpur are other key CBM areas."
+ },
+ "n5e52fb2aa39": {
+  "shape": "one-liner",
+  "s": "Under the Open Acreage Licensing Policy (OALP), identification of blocks is supported by the:",
+  "o": [
+   "National Data Repository",
+   "Coal Controller's Organisation",
+   "PNGRB",
+   "Oil Industry Development Board"
+  ],
+  "a": 0,
+  "x": "OALP lets companies choose blocks and bid year-round, using data from the National Data Repository."
+ },
+ "n90ca8350ffe": {
+  "shape": "one-liner",
+  "s": "Among the world's coal producers, India ranks:",
+  "o": [
+   "First",
+   "Second",
+   "Third",
+   "Fourth"
+  ],
+  "a": 1,
+  "x": "India is the second-largest producer (about 10%) after China (51%); its output was 1,040.08 MT in FY 2025-26."
+ },
+ "n2a32c85f74a": {
+  "shape": "one-liner",
+  "s": "In petroleum geology, the impervious bed that seals an oil trap is called the:",
+  "o": [
+   "Reservoir rock",
+   "Source rock",
+   "Cap rock",
+   "Basement rock"
+  ],
+  "a": 2,
+  "x": "The cap rock seals the trap; reservoir rock is porous and permeable, and source rock is organic-rich shale."
+ },
+ "ne53bc25be5c": {
+  "shape": "one-liner",
+  "s": "Compiling coal statistics, monitoring captive coal blocks and hearing objections on acquisition of coal-bearing land are functions of the:",
+  "o": [
+   "Coal Controller's Organisation",
+   "Coal India Limited",
+   "CMPDI",
+   "PNGRB"
+  ],
+  "a": 0,
+  "x": "The Coal Controller's Organisation performs all three functions."
+ },
+ "nee4a260b8f1": {
+  "shape": "one-liner",
+  "s": "Which of the following is NOT associated with gas hydrates?",
+  "o": [
+   "Krishna-Godavari",
+   "Mahanadi",
+   "Andaman offshore",
+   "Damodar Valley"
+  ],
+  "a": 3,
+  "x": "Damodar Valley is a major coal bed methane region; gas hydrates are associated with KG, Mahanadi and Andaman offshore."
+ },
+ "ne194f5fba93": {
+  "shape": "one-liner",
+  "s": "India's proposed new strategic fuel reserve is planned to hold about how much LPG?",
+  "o": [
+   "Two weeks",
+   "Six weeks",
+   "Two months",
+   "Three months"
+  ],
+  "a": 1,
+  "x": "It plans about six weeks of LPG and two months of crude and LNG, funded partly by levies on LPG and gas."
+ },
+ "n342300661ab": {
+  "shape": "one-liner",
+  "s": "LPG mainly contains:",
+  "o": [
+   "Propane and butane",
+   "Methane and ethane",
+   "Ethane and propane",
+   "Methane and butane"
+  ],
+  "a": 0,
+  "x": "LPG is mainly propane and butane, a by-product of oil refining and gas processing, and heavier than air."
+ },
+ "nee6f13a6e01": {
+  "shape": "one-liner (sequence not used: single date asked)",
+  "s": "India's oil industry began at Digboi in:",
+  "o": [
+   "1867",
+   "1889",
+   "1901",
+   "1911"
+  ],
+  "a": 1,
+  "x": "Digboi marks 1889; the first coal mine at Raniganj was in 1774, the gas grid proposal in 1955 and Coal India in 1975."
+ },
+ "nc00e63953e0": {
+  "shape": "one-liner",
+  "s": "As per the cited estimate, India's import dependence for crude oil is about:",
+  "o": [
+   "25%",
+   "50%",
+   "65%",
+   "88%"
+  ],
+  "a": 3,
+  "x": "The cited estimate puts import reliance at about 88% for crude oil and 50% for gas."
+ },
+ "nfc57de28d70": {
+  "shape": "one-liner",
+  "s": "In a petroleum reservoir, the usual vertical arrangement from the top downward is:",
+  "o": [
+   "Gas, oil, water",
+   "Water, oil, gas",
+   "Oil, gas, water",
+   "Gas, water, oil"
+  ],
+  "a": 0,
+  "x": "By density, gas lies above oil and water generally lies below oil."
+ }
+}
