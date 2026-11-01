@@ -75,7 +75,7 @@ def text(q):
 def main():
     os.makedirs(f"{OUT}/in", exist_ok=True)
     plan, rows = {}, []
-    for app in ("complete", "main"):
+    for app in ("complete",):  # APPSC Complete only: Prep keeps its MCQs
         for b in range(1, 7):
             book = json.load(open(f"app/src/{app}/assets/book{b}.json"))
             titles = [r["title"] for u in book["units"] for r in u["rows"]]

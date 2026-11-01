@@ -1,4 +1,4 @@
-"""Puts the rewritten MCQs (data/reshape/out/*.json, from tools/reshape_plan.py packets) into APPSC Complete and Prep.
+"""Puts the rewritten MCQs (data/reshape/out/*.json, from tools/reshape_plan.py packets) into APPSC Complete (only).
 
     python3 tools/reshape_apply.py
 
@@ -8,7 +8,7 @@ shape. A rewrite is used only when it is a sound four-option MCQ with a key. Re-
 """
 import glob, json, re
 
-APPS = ("app/src/complete/assets", "app/src/main/assets")
+APPS = ("app/src/complete/assets",)  # APPSC Complete only: the Prep app keeps its MCQs as they are
 
 
 def valid(r):
@@ -27,6 +27,8 @@ def main():
             print("unreadable", f)
             continue
         for i, r in d.items():
+            if r.get("same"):
+                continue
             if valid(r):
                 new[i] = r
             else:

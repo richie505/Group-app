@@ -37,3 +37,11 @@ Write `data/reshape/out/<n>.json` (same number as your packet): a JSON object
 Every id in the packet must appear. Spread the key across positions 1-4 rather than always the same slot.
 Validate with: python3 -c "import json;json.load(open('<file>'))". Large packets: read in chunks and write the output in
 parts, merging into one valid JSON object at the end. Reply at the end with only the count written per shape.
+
+## TARGET: restyle (keep the shape)
+Some packets ask you to restyle MCQs without changing their shape. For each:
+- If it already reads like an APPSC question (short, one clear fact, four plausible same-kind options, no UPSC
+  boilerplate), write only {"<id>": {"same": true}} - do not rewrite it for the sake of it.
+- Otherwise rewrite it in the same shape the APPSC way: shorten the stem, cut "Select the correct answer using the code
+  given below" style boilerplate, make the decoys plausible near-misses of the same kind, keep the same fact and key, and
+  give the usual {"shape", "s", "o", "a", "x"}. A statement set must keep at most 3 statements.
