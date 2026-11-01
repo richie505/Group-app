@@ -27,6 +27,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Cancel
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -55,6 +56,7 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.Question
 import com.appsc.prep.data.edited
 import com.appsc.prep.ui.components.McqEditor
+import com.appsc.prep.ui.components.McqSearchSheet
 import com.appsc.prep.data.Techniques
 import com.appsc.prep.data.needsPractice
 import com.appsc.prep.ui.components.Loading
@@ -139,13 +141,20 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
     // the pencil at the top right: correct the MCQ on screen (its key, text, options, explanation)
     val canEdit = remember { mutableStateOf(false) }
     val editOpen = remember { mutableStateOf(false) }
+    // the magnifier: Google for the MCQ on screen, in a sheet from the bottom
+    val shown = remember { mutableStateOf<Question?>(null) }
+    var searching by remember { mutableStateOf(false) }
 
     Column(Modifier.fillMaxSize().background(Color.White)) {
         TopBar(title, onBack = nav::back) {
+            if (shown.value != null) {
+                IconButton(onClick = { searching = true }) { Icon(Icons.Filled.Search, "Search Google for this MCQ", tint = C.Accent) }
+            }
             if (canEdit.value) {
                 IconButton(onClick = { editOpen.value = true }) { Icon(Icons.Filled.Edit, "Correct this MCQ", tint = C.Accent) }
             }
         }
+        if (searching) shown.value?.let { McqSearchSheet(it) { searching = false } }
         if (pool == null) {
             Loading()
             return@Column
@@ -182,6 +191,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
                     onOpenNotes = { b, r, sec -> nav.read(b, r, sec) },
                     canEdit = canEdit,
                     editOpen = editOpen,
+                    shown = shown,
                 )
             }
         }
@@ -198,6 +208,7 @@ internal fun QuizRound(
     onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit = { _, _, _ -> },
     canEdit: androidx.compose.runtime.MutableState<Boolean>? = null,
     editOpen: androidx.compose.runtime.MutableState<Boolean>? = null,
+    shown: androidx.compose.runtime.MutableState<Question?>? = null,
 ) {
     val app = LocalApp.current
     val store = app.store
@@ -209,13 +220,13 @@ internal fun QuizRound(
 
     val edits = store.edits
     if (index >= set.size) {
-        androidx.compose.runtime.SideEffect { canEdit?.value = false }
+        androidx.compose.runtime.SideEffect { canEdit?.value = false; shown?.value = null }
         Results(set.map { it.edited(edits[it.id]) }, picks, pool, onNext, onDone)
         return
     }
     // the reader's own correction, if any, is what is shown and scored
     val q = set[index].edited(edits[set[index].id])
-    androidx.compose.runtime.SideEffect { canEdit?.value = q.kind != 'f' }
+    androidx.compose.runtime.SideEffect { canEdit?.value = q.kind != 'f'; shown?.value = q }
     if (editOpen?.value == true && q.kind != 'f') {
         McqEditor(q, edited = q.id in edits, onDismiss = { editOpen?.value = false }) { e ->
             store.setEdit(q.id, e)

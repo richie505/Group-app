@@ -1,0 +1,101 @@
+package com.appsc.prep.ui.components
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.outlined.OpenInNew
+import androidx.compose.material.icons.outlined.AutoAwesome
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.Text
+import androidx.compose.material3.rememberModalBottomSheetState
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.appsc.prep.data.Question
+import com.appsc.prep.ui.theme.C
+
+/** Code options ("1 and 2 only", "Both A and B", "All of the above") say nothing to a search engine. */
+private val CODE = Regex("""(?i)^\(?(?:[1-6a-d]|i{1,3}|iv)\)?(?:\s*(?:,|and|&|-|–)\s*\(?(?:[1-6a-d]|i{1,3}|iv)\)?)*\s*(?:only)?$|^only\s+\w+$|^(?:both|neither|none|all)\b|of the above""")
+
+/** What to search for an MCQ: its question (without the "select the code" line) and options that carry facts. */
+fun mcqQuery(q: Question): String {
+    val stem = q.stem.lines().map { it.trim() }
+        .filterNot { Regex("(?i)^(?:select|choose) the correct|^codes?\\s*[:-]?$").containsMatchIn(it) }
+        .joinToString(" ").replace(Regex("\\s+"), " ").trim()
+    val opts = q.options.map { it.trim() }.filterNot { CODE.containsMatchIn(it) }
+    return (if (opts.isEmpty()) stem else "$stem ${opts.joinToString(" / ")}").take(900)
+}
+
+/** The whole MCQ as a question for an AI answer (Google AI Mode, Gemini): which option is right, and why. */
+fun mcqPrompt(q: Question): String =
+    q.stem.trim() + "\n" + q.options.mapIndexed { i, o -> "(${i + 1}) $o" }.joinToString("\n") +
+        "\nWhich option is correct? Give the answer and a short reason with sources."
+
+/**
+ * Google for the MCQ on screen, in a sheet that slides up from the bottom; swipe it down (or Back) to close.
+ * Two tabs: Google's results for the question, and Google's AI Mode answering the whole MCQ.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun McqSearchSheet(q: Question, onClose: () -> Unit) {
+    val platform = LocalApp.current.platform
+    val sheet = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    var ai by remember(q.id) { mutableStateOf(false) }
+    var told by remember(q.id) { mutableStateOf<String?>(null) }
+    val url = if (ai) googleAiUrl(mcqPrompt(q)) else googleUrl(mcqQuery(q))
+    val back = remember { mutableStateOf<(() -> Boolean)?>(null) }
+    ModalBottomSheet(
+        onDismissRequest = onClose,
+        sheetState = sheet,
+        containerColor = Color.White,
+        shape = RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp),
+    ) {
+        Column(Modifier.fillMaxWidth().fillMaxHeight(0.92f)) {
+            Row(
+                Modifier.fillMaxWidth().padding(start = 16.dp, end = 4.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                FilterChip(selected = !ai, onClick = { ai = false }, label = { Text("Google results") })
+                FilterChip(selected = ai, onClick = { ai = true }, label = { Text("AI answer") })
+                Box(Modifier.weight(1f))
+                IconButton(onClick = { told = platform.askGemini(mcqPrompt(q)) }) {
+                    Icon(Icons.Outlined.AutoAwesome, "Ask Gemini", tint = C.Accent)
+                }
+                IconButton(onClick = { platform.openInBrowser(url) }) {
+                    Icon(Icons.AutoMirrored.Outlined.OpenInNew, "Open in Chrome", tint = C.Ink)
+                }
+            }
+            Text(
+                told ?: "Swipe down here to close. Check the answer against more than one source.",
+                style = TextStyle(fontSize = 12.sp, color = if (told != null) C.Green else C.Muted, fontWeight = FontWeight.Normal),
+                modifier = Modifier.padding(horizontal = 16.dp, vertical = 2.dp),
+            )
+            HorizontalDivider(color = C.Line)
+            // a fresh page for each tab
+            key(url) { platform.WebPage(url, Modifier.fillMaxWidth().weight(1f).background(Color.White), back, null) }
+        }
+    }
+}

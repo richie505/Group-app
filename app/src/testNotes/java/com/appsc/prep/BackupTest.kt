@@ -52,6 +52,17 @@ class BackupTest {
         assertTrue(fresh.edits.isEmpty())
     }
 
+    @Test fun mcqSearchAsksTheQuestionNotTheCodes() {
+        val q = com.appsc.prep.data.Question(
+            "y2", "Which led to English education?\n1. Charter Act of 1813\n2. Orientalist Controversy\nSelect the correct answer using the code given below:",
+            emptyList(), listOf("1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"), 2, "", false, "", emptyList(),
+        )
+        assertEquals("Which led to English education? 1. Charter Act of 1813 2. Orientalist Controversy", com.appsc.prep.ui.components.mcqQuery(q))
+        val r = q.copy(stem = "Diego Garcia is situated in:", options = listOf("Indian Ocean", "Pacific Ocean", "Arctic Ocean", "Atlantic Ocean"))
+        assertEquals("Diego Garcia is situated in: Indian Ocean / Pacific Ocean / Arctic Ocean / Atlantic Ocean", com.appsc.prep.ui.components.mcqQuery(r))
+        assertTrue(com.appsc.prep.ui.components.mcqPrompt(r).contains("(1) Indian Ocean"))
+    }
+
     @Test fun backupComesBackOnANewPhone() {
         val phone = ProgressStore(MemStorage())
         phone.migrate(moves)
