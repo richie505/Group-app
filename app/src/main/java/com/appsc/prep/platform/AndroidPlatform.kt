@@ -181,6 +181,12 @@ private class AndroidWebHolder(ctx: Context) : WebHolder {
         webViewClient = object : InAppClient() { // links open here, not in Chrome
             override fun onPageFinished(view: android.webkit.WebView, url: String?) {
                 view.evaluateJavascript(AndroidPlatform.WATCH_SELECTION, null)
+                // Google's own refusal pages: "403. That's an error", "unusual traffic" (/sorry/)
+                if (url?.contains("/sorry/") == true) refused = 429
+                else view.evaluateJavascript(
+                    "(function(){var t=(document.title||'')+' '+String((document.body&&document.body.innerText)||'').slice(0,400);" +
+                        "return /\\b403\\b.*error|That.s an error|unusual traffic|not have permission/i.test(t);})()",
+                ) { if (it == "true") refused = refused ?: 403 }
             }
 
             // Google refusing the page (403 / 429): the sheet offers to try again or open it in Chrome
@@ -192,8 +198,11 @@ private class AndroidWebHolder(ctx: Context) : WebHolder {
                 if (request.isForMainFrame && response.statusCode >= 400) refused = response.statusCode
             }
 
-            override fun onPageStarted(view: android.webkit.WebView, url: String?, favicon: android.graphics.Bitmap?) {
-                refused = null
+            // a link followed on the page: a new page, no refusal yet (a refusal can arrive before onPageStarted)
+            override fun shouldOverrideUrlLoading(view: android.webkit.WebView, request: android.webkit.WebResourceRequest): Boolean {
+                val handled = super.shouldOverrideUrlLoading(view, request)
+                if (!handled && request.isForMainFrame) refused = null
+                return handled
             }
         }
         // the page scrolls by itself: the sheet around it must not take the drag
@@ -227,6 +236,7 @@ private class AndroidWebHolder(ctx: Context) : WebHolder {
     override fun load(url: String) {
         if (url == current) return
         current = url
+        refused = null
         web.loadUrl(url)
     }
 

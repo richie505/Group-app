@@ -85,6 +85,9 @@ fun mcqQuery(q: Question): String {
     return words.take(32).joinToString(" ").ifBlank { q.stem.replace(Regex("\\s+"), " ").take(200) }
 }
 
+/** Bing search in English for India: the fallback when Google refuses the app's searches. */
+fun bingUrl(query: String) = "https://www.bing.com/search?setlang=en-IN&cc=IN&q=" + java.net.URLEncoder.encode(query, "UTF-8")
+
 /** The whole MCQ as a question for an AI answer (Google AI Mode, Gemini): which option is right, and why. */
 fun mcqPrompt(q: Question): String =
     q.stem.trim() + "\n" + q.options.mapIndexed { i, o -> "(${i + 1}) $o" }.joinToString("\n") +
@@ -108,9 +111,14 @@ fun McqSearchSheet(
     val scope = rememberCoroutineScope()
     var aiTab by remember(q.id) { mutableStateOf(startAi) }
     var told by remember(q.id) { mutableStateOf<String?>(null) }
-    val url = if (aiTab) googleAiUrl(mcqPrompt(q)) else googleUrl(mcqQuery(q))
+    // Google sometimes refuses searches from inside apps for a while (403 / "unusual traffic"): then Bing's results
+    var viaBing by remember(q.id, aiTab) { mutableStateOf(false) }
+    val google = if (aiTab) googleAiUrl(mcqPrompt(q)) else googleUrl(mcqQuery(q))
+    val url = if (viaBing) bingUrl(mcqQuery(q)) else google
     val holder = if (aiTab) ai else results
     LaunchedEffect(url) { holder?.load(url) }
+    val refusedNow = holder?.refusedCode
+    LaunchedEffect(refusedNow, viaBing) { if (refusedNow != null && !viaBing) viaBing = true }
     val back = remember { mutableStateOf<(() -> Boolean)?>(null) }
     // how far the sheet sits below its open place (px): slides up on open, follows the finger on the top bar
     val offset = remember { Animatable(Float.MAX_VALUE) }
@@ -174,7 +182,21 @@ fun McqSearchSheet(
                 }
                 HorizontalDivider(color = C.Line)
                 val page = Modifier.fillMaxWidth().weight(1f).background(Color.White)
-                val refused = holder?.refusedCode
+                if (viaBing && holder?.refusedCode == null) {
+                    Row(
+                        Modifier.fillMaxWidth().background(C.MedSoft).padding(horizontal = 16.dp, vertical = 6.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Text(
+                            "Google is limiting searches from the app right now: these are Bing's results.",
+                            style = TextStyle(fontSize = 12.sp, color = C.Body),
+                            modifier = Modifier.weight(1f),
+                        )
+                        androidx.compose.material3.TextButton(onClick = { viaBing = false }) { Text("Try Google") }
+                        androidx.compose.material3.TextButton(onClick = { platform.openInBrowser(google) }) { Text("Chrome") }
+                    }
+                }
+                val refused = if (viaBing) holder?.refusedCode else null
                 if (refused != null) {
                     // Google refused this page to the in-app browser (too many searches, or AI Mode limited):
                     // never a dead end - try again, the other tab, Chrome or Gemini
@@ -189,11 +211,11 @@ fun McqSearchSheet(
                             style = TextStyle(fontSize = 14.sp, color = C.Body),
                         )
                         androidx.compose.material3.Button(
-                            onClick = { holder.retry() },
+                            onClick = { viaBing = false; holder?.retry() },
                             modifier = Modifier.fillMaxWidth(),
                             colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Accent),
                         ) { Text("Try again") }
-                        androidx.compose.material3.OutlinedButton(onClick = { platform.openInBrowser(url) }, modifier = Modifier.fillMaxWidth()) {
+                        androidx.compose.material3.OutlinedButton(onClick = { platform.openInBrowser(google) }, modifier = Modifier.fillMaxWidth()) {
                             Text("Open in Chrome")
                         }
                         androidx.compose.material3.OutlinedButton(onClick = { aiTab = !aiTab }, modifier = Modifier.fillMaxWidth()) {
