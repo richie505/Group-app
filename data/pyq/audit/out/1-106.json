@@ -1,0 +1,28 @@
+{
+ "topic": "1:106",
+ "mcq_fix": [
+  {"id": "ndbb7e26dc13", "s": "Consider the following statements regarding Kakatiya–Delhi relations: 1. The Kakatiyas defeated a Delhi army at Upparapalli in 1303. 2. Malik Kafur concluded a treaty with the Kakatiyas in 1309–10. 3. The Kakatiyas helped the Delhi forces against the Pandyas in 1311. 4. Kakatiya tribute to Delhi stopped after 1316. Which of the statements given above are correct?", "why": "1303 Upparapalli was a Kakatiya victory over Alauddin's army (y720310a89c1)"},
+  {"id": "n317d01f50e1", "s": "Consider the following pairs (Kingdom — Ruler defeated): 1. Gujarat — Rai Karan or Karnadeva II Vaghela 2. Chittor — Rana Ratan Singh 3. Warangal — Prataparudra II 4. Malwa — Mahlak Deva Which of the pairs given above are correctly matched?", "why": "Ain-ul-Mulk was the commander, not the Malwa ruler; pair list mixed rulers and commanders"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "12#1", "find": "Defeat at Upparapalli (1303)", "replace": "Kakatiyas defeated Alauddin's army at Upparapalli (1303)", "why": "y720310a89c1: Kakatiyas defeated Alauddin's army in 1303"}
+ ],
+ "pyq_bad": [
+  {"id": "y2685db8170e", "why": "wrong topic: Mughal origins"},
+  {"id": "y39162214f83", "why": "wrong topic: Akbar-era chronology"},
+  {"id": "yb850fe8bb2d", "why": "wrong topic: sports current affairs"},
+  {"id": "yf99b9f65ecc", "why": "wrong topic: Balban"},
+  {"id": "yb6d5d0f1dba", "why": "wrong topic: medieval Hindi Sufi literature"},
+  {"id": "yd6767030ca9", "why": "wrong topic: medieval Hindi literature (Jayasi)"},
+  {"id": "y96da14c2a1d", "why": "wrong topic: chronology of Indian queens"}
+ ],
+ "patterns": [
+  "Chronological ordering of Alauddin's conquests (Gujarat/Jaisalmer, Ranthambore, Chittor, Warangal) is the dominant shape in PSC papers.",
+  "Single-fact items: Malik Kafur bought by Nusrat Khan (Hazar Dinari), Padmini wife of Ratan Singh, Zafar Khan died fighting Mongols, Ravi as frontier after 1306.",
+  "AP angle: 1303 Kakatiya victory over Alauddin's army at Warangal/Upparapalli is a recurring trap.",
+  "Genghis Khan reached the Indus under Iltutmish; new-religion plan of Alauddin opposed/advised against.",
+  "App relies heavily on multi-statement items; PYQs are mostly direct or chronology-code items."
+ ],
+ "stats": {"app_mcqs": 25, "pyqs": 17, "fixed": 2, "dropped": 0}
+}

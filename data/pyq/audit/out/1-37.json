@@ -1,0 +1,26 @@
+{
+ "topic": "1:37",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n2a4e24a7070", "why": "opinion/debate item ('best reflects historical debate'); not APPSC style"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y80da35723c3", "why": "suspect key: ascending (smallest first) is Sangrahana-Kharvatika-Dronamukha-Sthaniya; keyed option 4 is neither order (option 3 is descending)"},
+  {"id": "y3ccf166ae53", "why": "garbled: options mixed with a Revolt-of-1857 match question; no key"},
+  {"id": "y9cfdd695776", "why": "wrong topic: Gandhi's boycott / national movement"},
+  {"id": "y0c0f3fa928c", "why": "mental ability"},
+  {"id": "y12e7a97cd87", "why": "mental ability"},
+  {"id": "yc32d80700bb", "why": "mental ability"},
+  {"id": "y6ca648a2387", "why": "mental ability"},
+  {"id": "y5648acb717f", "why": "mental ability"}
+ ],
+ "patterns": [
+  "Direct one-liner 'which officer was in charge of X': Samaharta (revenue), Pautavadhyaksha (weights and measures), Sitadhyaksha (crown land), Pradeshtha (justice), Dandapala (army - APPSC key).",
+  "Revenue-term meanings asked singly: Sita = crown land revenue, Pranaya = emergency tax; distractors are literal/joke meanings.",
+  "Settlement-unit ordering (Sthaniya 800, Dronamukha 400, Kharvatika 200, Sangrahana 10) and Saptanga order (7th = Mitra) are recurring sequence traps.",
+  "Ashokan district officers (Rajuka, Pradeshika, Yukta) and Megasthenes' municipal boards (births and deaths registration) recur.",
+  "App leans heavily on multi-statement and 4-pair match items; PYQs are mostly single-fact direct questions."
+ ],
+ "stats": {"app_mcqs": 34, "pyqs": 19, "fixed": 0, "dropped": 1}
+}

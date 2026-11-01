@@ -1,0 +1,18 @@
+{
+ "topic": "1:152",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "6#3", "find": "Some notes: Machilipatnam factory 1670 via Abdullah Qutb Shah (Portuguese last in Andhra)", "replace": "⚠ Machilipatnam factory 1669-70 via Abdullah Qutb Shah was the French (last Europeans in Andhra), not the Portuguese", "why": "established fact: French Masulipatnam factory 1669; Portuguese were the first Europeans there"},
+  {"ref": "7#3", "find": "Last Europeans in Andhra (some notes): Permission from Abdullah Qutb Shah; first Andhra factory at Machilipatnam 1670", "replace": "⚠ Not Portuguese: the 1669-70 Machilipatnam factory under Abdullah Qutb Shah's permission was French", "why": "established fact; conflation with French factory"},
+  {"ref": "12#1", "find": "Machilipatnam factory under Qutb Shahi permission", "replace": "posts at Masulipatnam, Pulicat and San Thome", "why": "1669-70 Qutb Shahi Machilipatnam factory was French"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "Single-fact items: first Europeans to set up sea trade centres (Portuguese); Hooghly as piracy base (Portuguese).",
+  "APPSC AP tilt: fruit/crop introduced to Telugu soil by Portuguese (Tomato); Cartaz = naval trade licence.",
+  "Common traps: Blue Water Policy = Almeida not Albuquerque; Goa taken 1510 from Bijapur.",
+  "App MCQs add settlement-year pairs and decline chronology; sound and moderately deeper than PYQs."
+ ],
+ "stats": {"app_mcqs": 20, "pyqs": 3, "fixed": 0, "dropped": 0}
+}

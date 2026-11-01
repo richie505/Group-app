@@ -1,0 +1,18 @@
+{
+ "topic": "3:98",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n2a9af90db80", "why": "opinion item; contradicts notes' own meaning of '41% illusion' (effective share ~34%)"},
+  {"id": "n2ab3ae791d4", "why": "dubious: 5% cess cap attribution to Punchhi is unsettled ('attributed'), hedged wording"}
+ ],
+ "notes_fix": [
+  {"ref": "6#3", "find": "Some notes show Art. 266 as Contingency Fund", "replace": "Art. 266 = Consolidated Fund and Public Accounts; Contingency Fund = Art. 267", "why": "Contingency Fund is Art. 267"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "No PYQs filed here; APPSC usually asks this area as Article-content matching (271 surcharge, 275 vs 282 grants, 276 profession tax Rs 2,500, 293 State borrowing).",
+  "Expect commission-year/set-up-by traps (Rajamannar by Tamil Nadu 1969; Sarkaria -> Inter-State Council 1990).",
+  "App MCQs carry many 2026 newspaper figures (cess per Rs 100, effective devolution %) which are unlikely exam material."
+ ],
+ "stats": {"app_mcqs": 18, "pyqs": 0, "fixed": 0, "dropped": 2}
+}

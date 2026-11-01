@@ -1,0 +1,22 @@
+{
+ "topic": "1:226",
+ "mcq_fix": [
+  {"id": "n50b6c2c77e3", "s": "Consider the following statements regarding the Andhra angle of the Government of India Act, 1935: 1. Provincial autonomy made an Andhra State look achievable. 2. The Sri Bagh Pact (November 1937) sought to close the Coastal-Rayalaseema rift. 3. The Sri Bagh Pact was concluded at the house of Tanguturi Prakasam. Which of the statements given above is/are correct?", "why": "Sri Bagh Pact was 16 Nov 1937, after the Feb 1937 polls, not before"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "14#3", "find": "Coastal-Rayalaseema rift closed before 1937 polls", "replace": "Coastal-Rayalaseema rift addressed after the 1937 polls", "why": "Sri Bagh Pact signed 16 Nov 1937, after Feb 1937 elections"}
+ ],
+ "pyq_bad": [
+  {"id": "y0356a9daa12", "why": "wrong topic: seismic hazard / disaster geography"},
+  {"id": "y2dece67008c", "why": "garbled: explanatory text merged into the stem"}
+ ],
+ "patterns": [
+  "Quote attribution recurs: 'brakes but no engine' = Nehru on the 1935 Act.",
+  "Province-wise 1937 results: where Congress did not win a majority or form a ministry (Bengal, Punjab, Bombay traps).",
+  "Reason for the 1939 resignations (APPSC 2018): India made a party to the war with Germany without consultation.",
+  "Constitutional borrowings: residuary powers with the Governor-General; Instrument of Instructions became the DPSP.",
+  "App adds a strong Andhra layer (Madras ministry portfolios, Sri Bagh Pact) that PYQs do not test; the core PYQ facts are covered."
+ ],
+ "stats": {"app_mcqs": 20, "pyqs": 13, "fixed": 1, "dropped": 0}
+}

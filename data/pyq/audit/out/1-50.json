@@ -1,0 +1,21 @@
+{
+ "topic": "1:50",
+ "mcq_fix": [
+  {"id": "nd3f74ee9998", "s": "Which of the following statements about early temple and inscriptional developments under the Ikshvakus is correct? 1. Pushpabhadraswami and Ashtabhuja Narayana at Nagarjunakonda are among the earliest Hindu temples in Andhra. 2. Some inscriptions give the dates and names of sculptors. 3. The practice of naming a child after the grandfather is recorded among their distinctive firsts. Select the correct answer using the code given below.", "why": "'first Hindu temples in India' is false (earlier temples e.g. Besnagar/Nagari); they are the earliest in Andhra"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "10#1", "find": "First Hindu temples in India", "replace": "Earliest Hindu temples in Andhra", "why": "earlier Hindu temples exist in north India (Besnagar, Nagari); established fact"}
+ ],
+ "pyq_bad": [
+  {"id": "y4d9361533b6", "why": "suspect key: Puranas do call them Sri Parvatiyas (y4fb2cc2444e); the incorrect statement is 2 (Ayodhya descent claim), per G2 2025 key in notes"},
+  {"id": "y33079839d74", "why": "garbled: options mixed with another question (Sarasangraha Ganita, Daksharamam)"}
+ ],
+ "patterns": [
+  "APPSC G2 favours 'which statement is incorrect' sets on Ikshvakus: Sri Parvatiyas, Ayodhya-descent claim, Saka marriage, Virapurushadatta's Buddhist golden age.",
+  "Single-fact items: last ruler (Rudrapurushadatta), Puranic name Sri Parvatiya, Chamtamula's agrarian patronage (G2 2012).",
+  "Trap: their own inscriptions do not claim Ayodhya descent; Sri Parvatadhipati is Virapurushadatta's title, not the dynasty name.",
+  "App mirrors PYQ facts well, adding origin-theory match lists that are source-dependent (Gopalachari vs Caldwell)."
+ ],
+ "stats": {"app_mcqs": 16, "pyqs": 3, "fixed": 1, "dropped": 0}
+}

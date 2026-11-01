@@ -1,0 +1,21 @@
+{
+ "topic": "5:82",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nfc732c559c1", "why": "false premise: ULBs can and do issue municipal green bonds (Ghaziabad 2021, Indore 2023)"}
+ ],
+ "notes_fix": [
+  {"ref": "13#8", "find": "ULBs cannot issue municipal green bonds → lack credit ratings", "replace": "Few ULBs issue municipal green bonds (Ghaziabad 2021, Indore 2023 did) → most lack credit ratings", "why": "established fact: municipal green bonds have been issued"}
+ ],
+ "pyq_bad": [
+  {"id": "ye1fa729440c", "why": "garbled: stem and options mixed with a CFC assertion-reason question"},
+  {"id": "ye8f9d911a76", "why": "wrong topic: environment awards (Indira Gandhi Paryavaran Puraskar)"}
+ ],
+ "patterns": [
+  "APPSC asks definitional single-fact items: what circular economy is (reuse, recycling, repair), what green technology is not (not inexpensive for developing countries).",
+  "Typical shape is 'which is NOT correct/true about X' with three textbook traits and one false claim.",
+  "Greenwashing = false environmental claims is a recurring definition item across PSCs.",
+  "App goes much deeper into green finance instruments, EU Green Deal, BRSR and current schemes than PYQs ever do; keep them factual and direct."
+ ],
+ "stats": {"app_mcqs": 23, "pyqs": 5, "fixed": 0, "dropped": 1}
+}

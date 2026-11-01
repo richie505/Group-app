@@ -1,0 +1,20 @@
+{
+ "topic": "2:96",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n4f1500376b9", "why": "opinion item ('major criticisms or debates')"},
+  {"id": "nd567be00f60", "why": "dubious/obscure: Govinda Rao committee was a Karnataka state panel; vague stem"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y2294c4ba5cf", "why": "garbled: amounts OCR-mangled, no key (14th FC panchayat grant = Rs 2,00,292.20 cr)"},
+  {"id": "y11b22f0a275", "why": "garbled: duplicate of y2294c4ba5cf with mangled amounts, no key"}
+ ],
+ "patterns": [
+  "PYQs ask direct Finance Commission facts: chairman (14th = Y.V. Reddy) and grant amounts to local bodies.",
+  "Likely APPSC angles: devolution shares 32 -> 42 -> 41 -> 41, FC chairs and periods, FRBM targets, CSS sharing ratios.",
+  "App leans on 2025-26 newspaper data (cess share, CSS growth, cash-transfer critiques) and debate-style items absent from PYQs.",
+  "Traps: NITI Aayog = competitive, GST Council = cooperative; central debt 40% vs general govt 60%."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 3, "fixed": 0, "dropped": 2}
+}

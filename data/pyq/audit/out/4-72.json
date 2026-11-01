@@ -1,0 +1,20 @@
+{
+ "topic": "4:72",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n0e306abed5e", "why": "oddly worded meta-question about not confusing figures"},
+  {"id": "n546b42228e8", "why": "vague 'stated global comparison'; dated fact (Hong Kong/Japan vary by report)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0e21a7d6a8f", "why": "wrong topic: arsenic groundwater contamination"},
+  {"id": "y79b743735ce", "why": "wrong topic: locust invasions / geography"}
+ ],
+ "patterns": [
+  "APPSC asks India's HDI rank tied to a specific report year and country count (e.g. 132 of 191, HDR 2021-22; HDR 2018 ranked 189).",
+  "'NOT an HDI component' and 'loss due to inequality = IHDI' are recurring shapes.",
+  "Neighbour comparison: which neighbour ranks above India (Sri Lanka).",
+  "App MCQs add index-design details (goalposts, log income, geometric mean) and AP MPI data, deeper than PYQs but sound."
+ ],
+ "stats": {"app_mcqs": 23, "pyqs": 3, "fixed": 0, "dropped": 2}
+}

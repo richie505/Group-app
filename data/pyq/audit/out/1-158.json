@@ -1,0 +1,20 @@
+{
+ "topic": "1:158",
+ "mcq_fix": [
+  {"id": "n1a58765ad5c", "o": ["Narasapuram — ships and boats", "Corangi — ancient Satavahana shipyard", "Nizampatnam — principal Company-era shipyard", "Bheemunipatnam — chief shipyard of the Qutb Shahis"], "why": "option 4 'in the stated period' was odd wording; key Narsapur per y3a425a59c2c"}
+ ],
+ "mcq_drop": [
+  {"id": "nap-history-8-3", "why": "ambiguous A-R: whether Ptolemy's mention 'explains' Ghantasala's importance is arguable"}
+ ],
+ "notes_fix": [
+  {"ref": "7#2", "find": "The western seaport of the Satavahanas", "replace": "An east-coast seaport of the Satavahanas", "why": "Motupalli is on the east (Coromandel) coast, not western"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "APPSC asks direct port identification: textile port of 16th-17th c. (Machilipatnam), Kakatiya port (Motupalli), shipbuilding centre (Narsapur), Machilipatnam diamond trade.",
+  "European factory 'firsts' recur: first English factory in South India at Masulipatnam (1611); Dutch HQ Nagapattinam; Yanam French.",
+  "Traps: Haravilasam (not Kashikhandam) for Reddi sea trade; salt from Pedaganjam/Chinaganjam; Motupalli vs Machilipatnam confusion.",
+  "App adds Ptolemy names, lighthouse years and 2024-25 port projects; PYQs stay at one-fact recall."
+ ],
+ "stats": {"app_mcqs": 25, "pyqs": 6, "fixed": 1, "dropped": 1}
+}

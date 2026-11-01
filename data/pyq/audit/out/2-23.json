@@ -1,0 +1,21 @@
+{
+ "topic": "2:23",
+ "mcq_fix": [
+  {"id": "ne51be22cec7", "s": "The basic structure doctrine is commonly traced to the constitutional jurisprudence of which country?", "why": "oddly worded 'identified in the material'"},
+  {"id": "n22432b0fc81", "s": "Which doctrine is used to reconcile apparent conflicts between Central and Provincial (State) laws by examining a law's true nature?", "why": "oddly worded 'identified in an APPSC question'"}
+ ],
+ "mcq_drop": [
+  {"id": "n066aa3f17be", "why": "obscure case-by-case doctrine labelling; debatable (NCT Delhi/Joseph Shine split)"}
+ ],
+ "notes_fix": [
+  {"ref": "4#2", "find": "State List — 254(2): State law with President's assent prevails in that State", "replace": "State List — State law prevails within its field; Art. 254(2) (President's assent) applies only to Concurrent List matters", "why": "Art. 254(2) concerns Concurrent List laws, not State List"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "No PYQs filed here; APPSC G2 2017 asked only which doctrine reconciles Central and Provincial laws (pith and substance).",
+  "Likely APPSC shape: doctrine-meaning one-liners and case-to-doctrine pairs (Balsara, R.M.D.C.).",
+  "Traps: colourable legislation tests competence, not motive; Art. 254(2) applies to Concurrent List.",
+  "App goes into constitutional morality and transformative constitutionalism case lists, which is UPSC-level depth."
+ ],
+ "stats": {"app_mcqs": 20, "pyqs": 0, "fixed": 2, "dropped": 1}
+}

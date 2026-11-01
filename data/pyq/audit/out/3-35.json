@@ -1,0 +1,21 @@
+{
+ "topic": "3:35",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y7a6552a84d6", "why": "wrong topic: foreign tourist arrivals"},
+  {"id": "y8960753ae2c", "why": "mental ability (number odd-pair)"},
+  {"id": "yf2a38899d31", "why": "garbled: duplicated words; duplicate of y5932b7e56ee"},
+  {"id": "yd1deb3b2f10", "why": "garbled: options truncated, statements lost"},
+  {"id": "y0cf190e8334", "why": "garbled: explanation text, not a question"},
+  {"id": "y7c3c83e37fa", "why": "wrong topic: ILO conventions (domestic workers)"}
+ ],
+ "patterns": [
+  "APPSC asks concept definitions in one line: jobless growth, gig economy (2019), basic reason for feminisation of agriculture = male migration (2018).",
+  "Report-based items: Labour Bureau QES 'largest contributor to job growth' (IT/BPO), PLFS annual report findings as 'more than one of the above' statement items.",
+  "Other PSCs ask employment elasticity by sector and NSSO percentages.",
+  "App leans heavily on 2025-26 PLFS/ES numbers and AP vs India FLFPR comparisons; PYQs use older report figures and definitions."
+ ],
+ "stats": {"app_mcqs": 23, "pyqs": 10, "fixed": 0, "dropped": 0}
+}

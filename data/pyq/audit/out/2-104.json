@@ -1,0 +1,22 @@
+{
+ "topic": "2:104",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-society-28-5", "why": "ambiguous feature-vs-example split for network society"},
+  {"id": "nindian-society-28-13", "why": "ambiguous: information economy as 'feature' vs 'example'; near-duplicate of -5"},
+  {"id": "nindian-society-28-15", "why": "ambiguous feature/example matching; near-duplicate"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ye77487bf02f", "why": "wrong topic: sports current affairs (tennis)"},
+  {"id": "y1dd648b8436", "why": "wrong topic: sports (badminton championships)"},
+  {"id": "y74243895ac7", "why": "wrong topic: international financial institutions (SWIFT); no key"}
+ ],
+ "patterns": [
+  "Few genuine PYQs here; APPSC's only on-topic item asks the effects of MNCs as an 'odd one out' list.",
+  "Expect direct theorist-concept pairs (Ritzer-McDonaldisation, Robertson-glocalisation, Castells-network society) and term definitions (acculturation vs assimilation).",
+  "UPSC angle: farm leaders pro/anti WTO (Sharad Joshi pro; Nanjundaswamy, Tikait anti).",
+  "App leans heavily on 2026 report figures and contrived network-society feature/example splits that the exam does not use."
+ ],
+ "stats": {"app_mcqs": 32, "pyqs": 4, "fixed": 0, "dropped": 3}
+}

@@ -1,0 +1,25 @@
+{
+ "topic": "1:157",
+ "mcq_fix": [
+  {"id": "nap-history-35-5", "s": "Consider the following statements: I. The Zilla-bandi or Zila Bandi system was introduced by Salarjung in 1865 in Hyderabad State. II. The Permanent Settlement, introduced by Lord Cornwallis, was extended to the North Sarkar region in 1802. III. Mulki conditions were issued in 1888 during the reign of the 6th Nizam, Mir Mahboob Ali Khan. IV. The resolution on linguistic reorganisation of states was moved by B.N. Sarma in 1918 in the Imperial Legislative Council. Which of the statements given above are correct?", "why": "Central Legislative Assembly did not exist in 1918; B.N. Sarma moved it in the Imperial Legislative Council"}
+ ],
+ "mcq_drop": [
+  {"id": "n858af335eda", "why": "oddly worded ('according to the APPSC 2019 key'); conflicts with factory-order item"},
+  {"id": "nap-history-35-8", "why": "garbled option 'Succeeding in Deccan Affairs'; vague stem"}
+ ],
+ "notes_fix": [
+  {"ref": "7#3", "find": "Office of Collector: Introduced by Lord Cornwallis in 1802 in the North Sarkar region", "replace": "Collectorates and Cornwallis's Permanent Settlement extended to the North Sarkar region in 1802 (Madras Presidency)", "why": "Cornwallis left India in 1793; 1802 was the extension of his system to the Circars"}
+ ],
+ "pyq_bad": [
+  {"id": "y4cf2214b5a6", "why": "wrong topic: sports (tennis Grand Slams)"},
+  {"id": "y90eef6d1412", "why": "wrong topic: world current affairs (East Timor)"},
+  {"id": "y6ca9a35ad9c", "why": "garbled, no key; wrong topic: current affairs"}
+ ],
+ "patterns": [
+  "APPSC asks the first Dutch factory in Andhra (Masulipatnam) and the Telugu Bible translator (Benjamin Schultze).",
+  "APPSC 2019 Bobbili War (French help to Vizianagaram) and missionaries' role in Andhra education (APPSC 2011) recur.",
+  "UPSC trap: last Europeans to come to India as traders = French, unlike the Machilipatnam factory order where Portuguese is last.",
+  "App covers Anglo-French battles in the Circars and colonial 'firsts' in more detail than PYQs; some items drift into Hyderabad State administration."
+ ],
+ "stats": {"app_mcqs": 24, "pyqs": 8, "fixed": 1, "dropped": 2}
+}

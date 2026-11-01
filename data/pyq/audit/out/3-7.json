@@ -1,0 +1,29 @@
+{
+ "topic": "3:7",
+ "mcq_fix": [
+  {"id": "nf5c411261ce", "s": "Consider the following statements about District and Metropolitan Planning Committees: 1. Not less than four-fifths of the members of a District Planning Committee are elected by and from among the elected members of the district panchayat and municipalities. 2. Four-fifths of the members of a Metropolitan Planning Committee are elected. 3. The elected seats of a District Planning Committee are shared in the ratio of the rural and urban population of the district. Which of the statements given above is/are correct?", "why": "Art. 243ZD: not less than four-fifths elected, not 'up to'"},
+  {"id": "n39a33915784", "s": "Consider the following statements about committees on decentralised planning: 1. The Balwantrai Mehta Committee's recommendations were accepted in January 1958. 2. The Thungon sub-committee (1988) made the Gram Sabha the pivot of district planning. 3. The Balwantrai Mehta Committee (1957) recommended entrusting planning and development to Panchayati Raj Institutions. Which of the statements given above is/are correct?", "why": "statement 1 'Its' had no referent"}
+ ],
+ "mcq_drop": [
+  {"id": "n25dcf2f80d7", "why": "obscure/dubious Advisory Planning Board 'common plan' trivia"}
+ ],
+ "notes_fix": [
+  {"ref": "9#1", "find": "Up to four-fifths of members elected", "replace": "Not less than four-fifths of members elected", "why": "Art. 243ZD wording"}
+ ],
+ "pyq_bad": [
+  {"id": "y4ad3d2db350", "why": "suspect key: sugar decontrol committee (2012) was chaired by C. Rangarajan; also wrong topic: sugar sector reforms"},
+  {"id": "y8f3cfee24cb", "why": "wrong topic: social change (sociology); options garbled"},
+  {"id": "y99f7e144ee1", "why": "garbled: stem carries text of a previous Finance Commission question"},
+  {"id": "y4c1e7606458", "why": "wrong topic: drought-prone area development committees"},
+  {"id": "yf3a31826869", "why": "wrong topic: UN Human Rights Commission / Indian women"},
+  {"id": "y235e01a63d2", "why": "garbled: stem merges a chronology question with the Yojana question"}
+ ],
+ "patterns": [
+  "Direct one-liners dominate: chairman of NDC/Planning Commission = PM, NDC year 1952, 'Planned Economy for India' = Visvesvaraya, NPC set up by Bose.",
+  "APPSC tests function-to-body attribution with close wording: 'guidelines incl. assessment of resources' = NDC; tax share = Finance Commission; current allocation of central funds = Union Finance Ministry.",
+  "Recurring traps: NDC/Planning Commission non-constitutional and non-statutory (Zonal Councils statutory); Finance Commission Chairman not an NDC member.",
+  "Economic planning is in the Concurrent List (Entry 20); NDC is final approver of Five-Year Plans.",
+  "App leans heavily on multi-statement items and AP-specific planning trivia; PYQs are mostly single-fact."
+ ],
+ "stats": {"app_mcqs": 32, "pyqs": 25, "fixed": 2, "dropped": 1}
+}

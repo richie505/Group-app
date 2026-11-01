@@ -1,0 +1,22 @@
+{
+ "topic": "5:3",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n9f4ba27325a", "why": "dubious: Israel vs South Korea GERD order varies by year/source (Israel often higher)"},
+  {"id": "n6d29caf1888", "why": "opinion item built on a commentary line, not an exam fact"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y024d99626bc", "why": "wrong topic: defence exercises (current affairs)"},
+  {"id": "y4b709448f34", "why": "wrong topic: India-Japan semiconductor cooperation (current affairs)"},
+  {"id": "y37a2781306b", "why": "wrong topic: Nobel Peace Prize winners"},
+  {"id": "y7177aacb5ab", "why": "mental ability: data interpretation"}
+ ],
+ "patterns": [
+  "No genuine PYQ on R&D spending is filed here; all four are misfiled current-affairs or DI items.",
+  "Expected APPSC shapes: GII publisher (WIPO) and India's latest rank, GERD % of GDP, Startup India launch date, Patents Act term (20 years).",
+  "App relies heavily on 2025-26 data points (0.84% GERD, 51.8% private share, 262 FTE researchers) that date quickly.",
+  "App sound on index-publisher traps (GII = WIPO, India Innovation Index = NITI Aayog) and IPAB abolition (2021)."
+ ],
+ "stats": {"app_mcqs": 23, "pyqs": 4, "fixed": 0, "dropped": 2}
+}

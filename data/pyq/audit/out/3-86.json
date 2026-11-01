@@ -1,0 +1,33 @@
+{
+ "topic": "3:86",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {
+   "id": "n07a88d7dc2b",
+   "why": "oddly worded 'NOT correct' code item with self-contradicting statements 2 and 3"
+  }
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {
+   "id": "yac650486ec7",
+   "why": "wrong topic: company balance sheet / accounting; options truncated"
+  },
+  {
+   "id": "y6ae13dc40d4",
+   "why": "garbled: OCR junk mixed into stem and options, correct option truncated"
+  }
+ ],
+ "patterns": [
+  "PYQs ask only the definition: NPA = principal/interest overdue more than 90 days (traps 30/60/180 days)",
+  "Older PSC wording: 'loans on which interest or principal is not recovered'",
+  "App goes far deeper (SMA bands, ECL stages, 2026 GNPA figures, borrower-level tagging) than any PYQ",
+  "Likely next-level asks: twin balance sheet (ES 2016-17), AQR 2015, 4R strategy"
+ ],
+ "stats": {
+  "app_mcqs": 24,
+  "pyqs": 3,
+  "fixed": 0,
+  "dropped": 1
+ }
+}

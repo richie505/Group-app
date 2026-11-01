@@ -1,0 +1,22 @@
+{
+ "topic": "4:9",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "6#0", "find": "Mud volcanoes: APPSC GS 2021 key \"Barren island\"; correct Baratang", "replace": "Mud volcanoes: Baratang (APPSC 2021 key); Barren Island = active magmatic volcano", "why": "yba83118f4cd key is Baratang (option 1)"},
+  {"ref": "10#9", "find": "the APPSC GS 2021 key gives \"Barren island\" for mud volcanoes - the correct answer is Baratang; Barren is the magmatic active volcano.", "replace": "the APPSC 2021 key gives Baratang for mud volcanoes; Barren Island (distractor) is the magmatic active volcano.", "why": "yba83118f4cd key is Baratang (option 1)"},
+  {"ref": "4#0", "find": "AP Prakasam, Guntur", "replace": "AP: Rajahmundry traps (Godavari districts)", "why": "Deccan Trap basalt in AP occurs as the Rajahmundry traps, not Prakasam/Guntur"},
+  {"ref": "10#1", "find": "in AP - Prakasam, Palnadu, Guntur", "replace": "in AP - Rajahmundry traps (East/West Godavari)", "why": "Deccan Trap basalt in AP occurs as the Rajahmundry traps"}
+ ],
+ "pyq_bad": [
+  {"id": "y2c159f70ade", "why": "wrong options: matched locations missing"},
+  {"id": "yfaaceb71b2a", "why": "wrong topic: lakes of India"}
+ ],
+ "patterns": [
+  "APPSC asks Indian volcanic geography as single-fact recall: mud volcanoes = Baratang (distractors Barren, Havelock, North Bay).",
+  "Other PSCs: activity class of named volcanoes (Stromboli = active), hot spring-state matching, magma vs lava definition traps.",
+  "Instrument-measure matching (tiltmeter, creepmeter) appeared in APPSC 2018.",
+  "App MCQs add form types, gas/aerosol science and 2025-26 eruptions; deeper than the PYQs but sound."
+ ],
+ "stats": {"app_mcqs": 21, "pyqs": 5, "fixed": 0, "dropped": 0}
+}

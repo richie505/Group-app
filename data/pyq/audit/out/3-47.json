@@ -1,0 +1,20 @@
+{
+ "topic": "3:47",
+ "mcq_fix": [
+  {"id": "n6fc40f133af", "s": "Which State held the top position in NITI Aayog's Composite Water Management Index (2018 and 2019 editions)?", "why": "CWMI editions are 2018/2019; 'referred to for 2026' is wrong/odd"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y1cefb02e58c", "why": "suspect key: NWDA was set up in 1982; key 1970 / options look wrong"},
+  {"id": "y1984518b0f2", "why": "wrong topic: India-Norway blue economy task force"},
+  {"id": "ybee00d8a3f3", "why": "wrong topic: Swachhata Hi Seva campaign"}
+ ],
+ "patterns": [
+  "APPSC asks state 'firsts': Tamil Nadu = compulsory rooftop rainwater harvesting; Meghalaya = first draft State Water Policy.",
+  "Body/year one-liners: NWDA (1982), NWRC chaired by PM, National Water Policy editions 1987/2002/2012.",
+  "Traditional water-harvesting terms (e.g., Korambu of Kerala) appear in APPSC G1.",
+  "App adds AP projects (Pattiseema, Polavaram, Godavari-Cauvery links) and CADWM data; PYQs are mostly direct identification."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 6, "fixed": 1, "dropped": 0}
+}

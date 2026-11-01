@@ -1,0 +1,21 @@
+{
+ "topic": "1:159",
+ "mcq_fix": [
+  {"id": "n8fcd77f1ce8", "o": ["Being elected by the French East India Company", "Defeating Dupleix at St. Thome", "The murder of the minor Nawab (Saiyid Muhammad), whom he had been appointed to guard", "Receiving the office directly from the English East India Company"], "why": "the minor Nawab was murdered (Anwaruddin only suspected); 'killing' is not established"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "3#5", "find": "Signed 18 September 1748", "replace": "Signed 18 October 1748", "why": "Treaty of Aix-la-Chapelle was signed 18 Oct 1748"},
+  {"ref": "9#6", "find": "Signed: 18 September 1748", "replace": "Signed: 18 October 1748", "why": "Treaty of Aix-la-Chapelle was signed 18 Oct 1748"},
+  {"ref": "2#0", "find": "Anwaruddin Killed Syed Ali → Nawab of Arcot (1744)", "replace": "Anwaruddin After the minor Nawab's murder → Nawab of Arcot (1744)", "why": "murder of the minor Nawab is only imputed to Anwaruddin"},
+  {"ref": "8#0", "find": "Anwaruddin Killed Syed Ali → made himself Nawab of Arcot (1744)", "replace": "Anwaruddin After the minor Nawab's murder (blamed on him) → became Nawab of Arcot (1744)", "why": "murder of the minor Nawab is only imputed to Anwaruddin"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "No PYQs filed here; notes cite APPSC 2018 asking the belligerents (English vs French Companies).",
+  "Other PSCs (UPPSC 2020/2025) ask treaty outcome statements: war ended, Madras restored to English.",
+  "Traps: St. Thome 1746 vs Ambur 1749; Madras exchanged for Louisbourg; Aix-la-Chapelle (status quo) vs Paris 1763.",
+  "App MCQs are suitably direct; a few multi-statement items go into battle numbers and commanders."
+ ],
+ "stats": {"app_mcqs": 9, "pyqs": 0, "fixed": 1, "dropped": 0}
+}

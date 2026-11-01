@@ -1,0 +1,23 @@
+{
+ "topic": "1:225",
+ "mcq_fix": [
+  {"id": "nffeed07c2c1", "s": "The All Parties Muslim Conference held at Delhi (from 31 December 1928), under the Aga Khan,", "why": "conference opened 31 Dec 1928 (ye6749bd3696), not Jan 1929"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "0#4", "find": "Jan 1929 — All Parties Muslim Conference", "replace": "31 Dec 1928 - Jan 1929 — All Parties Muslim Conference", "why": "opened 31 Dec 1928 (ye6749bd3696)"},
+  {"ref": "9#2", "find": "All Parties Muslim Conference (Delhi, Jan 1929)", "replace": "All Parties Muslim Conference (Delhi, opened 31 Dec 1928)", "why": "ye6749bd3696"}
+ ],
+ "pyq_bad": [
+  {"id": "yb2210924da5", "why": "garbled: stem missing, only option list survives"},
+  {"id": "yf7f553cdcd8", "why": "suspect key: Jinnah did not attend 3rd RTC; Ambedkar/Sapru attended all three"}
+ ],
+ "patterns": [
+  "Direct year/number items dominate: year of 1st RTC (1930), RTC held in 1932 (3rd), session of Fourteen Points (1929).",
+  "Favourite trap: which RTC the Congress attended (only 2nd, Gandhi sole representative); who attended all three (Ambedkar, Sapru).",
+  "Nehru Report asked as 'prepared by' (Motilal) and as the cause of the Independence for India League; Butler Committee and Deepavali Declaration asked as object/content one-liners.",
+  "APPSC tilt: Simon boycott in Andhra (Prakasam, Parthasarathi firing) and match-the-RTC items; app covers these well.",
+  "App MCQs lean on multi-statement formats; PYQs are mostly single-fact, plus trivia like Gandhi's ship (S.S. Rajputana) and stay (Kingsley Hall) that app does not cover."
+ ],
+ "stats": {"app_mcqs": 24, "pyqs": 29, "fixed": 1, "dropped": 0}
+}

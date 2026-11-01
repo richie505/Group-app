@@ -1,0 +1,19 @@
+{
+ "topic": "1:222",
+ "mcq_fix": [
+  {"id": "n508f287c19b", "s": "The Srikakulam Girijana struggle is dated to:", "why": "remove odd 'as per key' wording"}
+ ],
+ "mcq_drop": [
+  {"id": "n40cf2ac83ef", "why": "oddly worded ('credited by APPSC'); founder attribution disputed in notes"},
+  {"id": "n85072951750", "why": "dubious claim (Labour Kisan Gazette as first officially recognised CPI publication)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [],
+ "patterns": [
+  "No PYQs filed here; notes cite APPSC G2 keys: Comrades Association 1939, first Mahasabha president Suravaram, Srikakulam 1968-70, memoir-author matches.",
+  "Expected APPSC shapes: memoir/book to author match, year-venue-president of Andhra Mahasabha sessions, odd-one-out (Ramananda Tirtha = Congress).",
+  "Trap: communists supported Visalandhra and linguistic states (G2 2025).",
+  "App MCQs are mostly direct facts at G2 depth; a few lean on exact dates of bans and papers."
+ ],
+ "stats": {"app_mcqs": 24, "pyqs": 0, "fixed": 1, "dropped": 2}
+}

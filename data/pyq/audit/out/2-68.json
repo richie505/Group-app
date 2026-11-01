@@ -1,0 +1,21 @@
+{
+ "topic": "2:68",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yeb95270250a", "why": "suspect key: contesting all constituencies was never a criterion; none of the options is the actual rule"},
+  {"id": "yb52b231ace0", "why": "wrong topic: general election results (Congress in Kerala 2004)"},
+  {"id": "yd320cab71cc", "why": "mental ability (data interpretation)"},
+  {"id": "ydf126208377", "why": "wrong topic: 2004 Lok Sabha election results"},
+  {"id": "yab68afcf641", "why": "garbled options (numbers missing)"}
+ ],
+ "patterns": [
+  "APPSC asks the national-party criteria directly, often as 'which is NOT a condition' with all listed conditions valid -> 'None of the above' (APPSC-G2).",
+  "Authority trap: ECI (not President / Law Ministry / Speaker) recognises parties and allots symbols.",
+  "Which party was recognised national in a given year (TMC 2016, AAP 2023) and which listed parties are not national (RSP, Forward Bloc, PWP).",
+  "Numbers to hold: 6% + 4 LS seats in 4 States; 2% of LS seats (11) from 3 States; State party in 4 States.",
+  "App MCQs go further into Symbols Order paragraphs (15, 16A), proposers and star campaigners; accurate but deeper than PYQs."
+ ],
+ "stats": {"app_mcqs": 23, "pyqs": 9, "fixed": 0, "dropped": 0}
+}

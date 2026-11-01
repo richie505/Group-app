@@ -1,0 +1,24 @@
+{
+ "topic": "2:121",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nindian-society-36-10", "why": "oddly worded ('scheme addresses youth unrest', 'mechanism includes') - no exam words it so"},
+  {"id": "nindian-society-1-48", "why": "statement I ('first major anti-corruption youth movement') is an opinion; JP movement 1974 was also anti-corruption"}
+ ],
+ "notes_fix": [
+  {"ref": "12#3", "find": "Ministry for Youth Affairs and Sports: First established 1985", "replace": "Department of Youth Affairs and Sports: First set up 1985 (International Youth Year); separate Ministry from 2000", "why": "1985 created a Department; Ministry status came in 2000"},
+  {"ref": "7#3", "find": "Ministry for Youth Affairs and Sports: 1985", "replace": "Department of Youth Affairs and Sports: 1985 (Ministry from 2000)", "why": "1985 created a Department; Ministry status came in 2000"}
+ ],
+ "pyq_bad": [
+  {"id": "ydcb4dafd687", "why": "garbled (meaningless stem 'What is always worry?')"},
+  {"id": "yfcbe851d03f", "why": "wrong topic: sports schemes (Khelo India)"},
+  {"id": "y4273b20bc6e", "why": "wrong topic: skill development schemes (RPL)"}
+ ],
+ "patterns": [
+  "APPSC has asked almost nothing directly on youth unrest theory; PYQs filed here are youth/sports/skill scheme items (Khelo India 2016, RPL).",
+  "Likely APPSC angles: AP agitations (Visakha Ukku 1966, Jai Andhra 1972-73), NYP 2014 age band 15-29, scheme launch years.",
+  "Typical traps: Nav Nirman (Gujarat) vs JP movement (Bihar), NYP 2014 vs 2003 age bands.",
+  "App MCQs are heavy on sociological typologies and 2026 current events, deeper than the PYQs show."
+ ],
+ "stats": {"app_mcqs": 24, "pyqs": 3, "fixed": 0, "dropped": 2}
+}

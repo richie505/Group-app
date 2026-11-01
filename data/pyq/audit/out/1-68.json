@@ -1,0 +1,19 @@
+{
+ "topic": "1:68",
+ "mcq_fix": [],
+ "mcq_drop": [{"id": "n67bbe64bb13", "why": "ambiguous: Govinda III also pressed Vengi; oddly worded ('according to the political context')"}],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yc7f9feb4b54", "why": "wrong topic: Rashtrakuta art/architecture (Elephanta)"},
+  {"id": "yfd369eaa0c2", "why": "wrong topic: Pallava architecture (Mamallapuram rathas)"},
+  {"id": "yce32d784d42", "why": "wrong topic: Chola administration"},
+  {"id": "y3855a0b1737", "why": "wrong topic: Sena dynasty of Bengal (Lakshmana era)"}
+ ],
+ "patterns": [
+  "Core recurring fact: the three contenders = Palas, Gurjara-Pratiharas, Rashtrakutas; 'not a part' distractor = Cholas.",
+  "Old names of Kannauj (Mahodaya, Mahodaya Shri, Kanyakubja) recur in state PSCs.",
+  "King-to-dynasty pairs (Nagabhata II - Pratihara; Bhoja - not Rashtrakuta) and which Rashtrakuta beat Nagabhata II (Govinda III).",
+  "App MCQs add phase-by-phase chronology and inscriptions (Sanjan, Gwalior, Khalimpur) - deeper than PYQs but sound."
+ ],
+ "stats": {"app_mcqs": 20, "pyqs": 11, "fixed": 0, "dropped": 1}
+}

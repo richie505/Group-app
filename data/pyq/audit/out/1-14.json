@@ -1,0 +1,24 @@
+{
+ "topic": "1:14",
+ "mcq_fix": [
+  {"id": "nc84bb0686b2", "s": "Consider the following statements regarding the Dasas and Dasyus: 1. According to Iranian literature, the Dasas were a branch of the early Aryans. 2. The Dasyus are described as original inhabitants. 3. The Dasas and Dasyus were identical groups. Which of the statements given above are correct?", "why": "'in the relevant interpretation' is unexamlike wording"}
+ ],
+ "mcq_drop": [
+  {"id": "n728ad2b4de3", "why": "opinion item ('best reflects the criticism')"},
+  {"id": "ne59a12b2bac", "why": "opinion item ('most appropriate conclusion')"},
+  {"id": "n543e68c4770", "why": "oddly worded ('stated assessment'); opinion-based"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y85d79b200e5", "why": "suspect key: 'Aryan' = speech group (3), as in ya3a738aaaac, not superior race"},
+  {"id": "y7f8ab191d95", "why": "wrong topic: Vedic economy"},
+  {"id": "y69a63aa05c2", "why": "wrong topic: Indian language families / tribal languages"}
+ ],
+ "patterns": [
+  "Classic one-liner: 'Aryan' denotes a speech group (not race / ethnic group).",
+  "Avesta-Rigveda similarity -> Iran; Boghazkoi inscription names Indra, Mitra, Varuna, Nasatyas.",
+  "Homeland theory matches: Tilak-Arctic, Max Muller-Central Asia, Dayananda-Tibet, A.C. Das-Sapta Sindhu.",
+  "PYQs are short direct items; app adds research-debate items (genetics, BMAC, Andronovo, synthesis school) far beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 25, "pyqs": 6, "fixed": 1, "dropped": 3}
+}

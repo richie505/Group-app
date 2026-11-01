@@ -1,0 +1,7 @@
+{"topic":"4:87",
+"mcq_fix":[],
+"mcq_drop":[{"id":"nafe36c8238f","why":"dubious/outdated sales ranking (INDAL merged into HINDALCO, 2005)"}],
+"notes_fix":[],
+"pyq_bad":[{"id":"y1c183ff3a48","why":"wrong options: plant locations missing from options"},{"id":"y51be1c870d0","why":"wrong options: locations missing, unreadable pairs"},{"id":"yd38beefa0c4","why":"suspect key: India is a large importer of coking coal, not self-sufficient"}],
+"patterns":["Company -> plant location 'NOT correctly matched' items dominate (BALCO, HINDALCO, NALCO, MALCO, INDAL)","State-rank facts: Odisha largest bauxite producer (y1b6273a818f); Rampur Agucha best zinc-lead reserves","AP angle likely: Vizag Steel slogan, first shore-based plant, Hindustan Zinc Vizag smelter","App adds 2025-26 output, process mix and emission figures not seen in PYQs"],
+"stats":{"app_mcqs":20,"pyqs":5,"fixed":0,"dropped":1}}

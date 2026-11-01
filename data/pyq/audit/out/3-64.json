@@ -1,0 +1,21 @@
+{
+ "topic": "3:64",
+ "mcq_fix": [{"id": "necace1d2f4b", "o": ["National Company Law Tribunal", "National Renewal Fund", "Industrial Reconstruction Corporation of India", "Appellate Authority for Industrial and Financial Reconstruction"], "why": "1971 body was IRCI; it became IRBI only in 1985"}],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "3#0", "find": "1971 — IRBI: first rehabilitation bank", "replace": "1971 — IRCI (Industrial Reconstruction Corporation of India); reconstituted as IRBI in 1985", "why": "IRBI was set up in 1985 from IRCI (1971)"},
+  {"ref": "9#1", "find": "Industrial Reconstruction Bank of India (IRBI), set up 1971", "replace": "Industrial Reconstruction Corporation of India (IRCI), set up 1971, reconstituted as Industrial Reconstruction Bank of India (IRBI) in 1985", "why": "IRBI dates from 1985"},
+  {"ref": "13#4", "find": "IRBI (1971) = first dedicated rehabilitation bank", "replace": "IRCI (1971), reconstituted as IRBI (1985) = first dedicated rehabilitation institution", "why": "IRBI dates from 1985"}
+ ],
+ "pyq_bad": [
+  {"id": "ye4bba424cbe", "why": "wrong topic: SAARC / regional organisations"},
+  {"id": "yaa29dde46a7", "why": "wrong topic: accounting basics"}
+ ],
+ "patterns": [
+  "PYQs are direct 'X is related to' items: BIFR = reconstruction of sick units; NRF = retraining/safety net for displaced workers.",
+  "'Golden Handshake' = Voluntary Retirement Scheme is a recurring keyword trap.",
+  "Old-to-new regime (SICA/BIFR/AAIFR to IBC/NCLT/NCLAT) is the likely modern angle.",
+  "App MCQs go well beyond PYQ depth (SICA definition tests, committee matches, RBI SMA categories) and use multi-statement formats."
+ ],
+ "stats": {"app_mcqs": 20, "pyqs": 9, "fixed": 1, "dropped": 0}
+}

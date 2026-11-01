@@ -1,0 +1,27 @@
+{
+ "topic": "2:111",
+ "mcq_fix": [
+  {"id": "nindian-society-1-76", "o": ["Central Tribal University of Andhra Pradesh", "Sammakka Sarakka Central Tribal University", "Indira Gandhi National Open University", "Indira Gandhi National Tribal University"], "a": 3, "why": "distractors were not universities (SRC, Ministry)"}
+ ],
+ "mcq_drop": [
+  {"id": "nd2716a3e6a1", "why": "dubious count: only Kolam and Thoti go to Telangana, leaving 10 of 12 in residual AP, not 7"}
+ ],
+ "notes_fix": [
+  {"ref": "4#1", "find": "(⚠ residual AP: 7, APP notes)", "replace": "(residual AP: 10 - all except Kolam and Thoti)", "why": "Kolam and Thoti are the only Telangana-side groups (10#8)"},
+  {"ref": "10#9", "find": "APP notes: 7 groups in residual AP after bifurcation", "replace": "Residual AP: 10 groups (12 minus Kolam and Thoti); some notes print 7", "why": "consistent with 10#8 list"},
+  {"ref": "4#4", "find": "2023-24 to 2027-28, ₹15,000 crore", "replace": "2023-24 to 2025-26 (launched Nov 2023), ₹24,104 crore (Centre ₹15,336 crore)", "why": "PM-JANMAN approved for 3 years to 2025-26"},
+  {"ref": "11#6", "find": "Period: 2023-24 to 2027-28; outlay ₹15,000 crore", "replace": "Period: 2023-24 to 2025-26; outlay ₹24,104 crore (Centre ₹15,336 crore; Budget 2023 said ₹15,000 crore)", "why": "PM-JANMAN Cabinet approval Nov 2023"}
+ ],
+ "pyq_bad": [
+  {"id": "y126f6ec23be", "why": "wrong topic: cell division (biology)"},
+  {"id": "yd61924cd307", "why": "mental ability (data interpretation)"},
+  {"id": "y4566ef8cac9", "why": "mental ability (equation interchange)"}
+ ],
+ "patterns": [
+  "Few genuine PYQs here: definition items (De-notified tribes = formerly 'criminal tribes') and current-affairs PVTG items (Shompen first vote 2024, A&N seat).",
+  "APPSC tilt expected on AP PVTGs (Chenchu, Konda Reddi, Bodo Gadaba) and counts (75 PVTGs, 18 states + 1 UT).",
+  "Classic match items: dormitories Ghotul/Morung/Dhumkuria; books to authors (Elwin, Haimendorf on Chenchus).",
+  "App covers Articles 342/366(25), classification schemes and commissions with many multi-statement items; deeper than PYQ depth but sound."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 5, "fixed": 1, "dropped": 1}
+}

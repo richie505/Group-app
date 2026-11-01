@@ -1,0 +1,21 @@
+{
+ "topic": "1:212",
+ "mcq_fix": [
+  {"id": "n93dea940bdd", "o": ["*Firdausi* — Gurram Jashuva", "*Asamarthuni Jeevayatra* — Tripuraneni Gopichand", "*Gabbilam* — Sri Sri", "*Mahaprasthanam* — Sri Sri"], "why": "options 3 and 4 both named Gabbilam; replace duplicate"},
+  {"id": "n26e5d4724ab", "s": "Which work of Tripuraneni Gopichand won the Sahitya Akademi Award?", "why": "oddly worded stem"},
+  {"id": "nae3994259d7", "s": "Which of the following Virasam publications were banned by the government?", "why": "stem lacked context"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8b0577c58a1", "why": "wrong topic: folk culture (general opinion item)"},
+  {"id": "yf85eef79f61", "why": "wrong topic: sports (Pullela Gopichand, badminton)"}
+ ],
+ "patterns": [
+  "APPSC asks one-line identity facts: Sri Sri = 'Poet of the Millennium', Gopichand = psychological novel Asamarthuni Jeevayatra (G2 2017), Gorky's Mother translator Krovvidi Lingaraju (GS 2019).",
+  "Name-collision traps appear (Tripuraneni Gopichand vs Pullela Gopichand); Arasam (progressive, 1943) vs Virasam (revolutionary, 1970).",
+  "Work-author match items (Mahaprasthanam, Gabbilam, Gudiselu Kalipotunnayi) fit APPSC style.",
+  "App MCQs go deeper (dedication of Mahaprasthanam, banned Virasam books, publishers) than the PYQs show."
+ ],
+ "stats": {"app_mcqs": 23, "pyqs": 3, "fixed": 3, "dropped": 0}
+}

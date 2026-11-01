@@ -1,0 +1,18 @@
+{
+ "topic": "3:139",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yb0b0eac7a5f", "why": "garbled OCR: options mangled, no key"},
+  {"id": "y339d1f4f3e1", "why": "wrong topic: sports schemes (Khelo India outlay)"},
+  {"id": "y45fc3160da9", "why": "wrong topic: current-affairs appointments (judges)"}
+ ],
+ "patterns": [
+  "APPSC asks the AP Reorganisation Act section that funds backward districts (Sec 46) and the package amount (Rs 50 crore per district, 7 districts).",
+  "Typical traps: Rs 100 crore for 7 or Rs 25 crore for 13 districts; Sec 94(1) tax incentives vs Sec 46 package.",
+  "Other PSCs: Aspirational Districts Programme launch (January 2018, NITI Aayog).",
+  "App adds many current project-progress percentages (Veligonda, Vamsadhara) beyond what PYQs test."
+ ],
+ "stats": {"app_mcqs": 28, "pyqs": 4, "fixed": 0, "dropped": 0}
+}

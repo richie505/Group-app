@@ -1,0 +1,40 @@
+{
+ "topic": "1:1",
+ "mcq_fix": [
+  {
+   "id": "nap-history-3-16",
+   "s": "How many of the following pairs are correctly matched?  1. Bhattiprolu — Mentions a ‘Nigama-sabha’ (town council) 2. Erragudi — Ashoka asked teachers to inculcate Dharma in students 3. Pedavegi — First to mention Vishnu temples in Andhra 4. Bodhisri — Evidence of Buddhism patronage under the Ikshvakus",
+   "why": "Bhattiprolu caskets are of pre-Satavahana Kubiraka (ye69538fabc3), not 'of the Satavahanas'"
+  },
+  {
+   "id": "nap-history-3-3",
+   "o": [
+    "The Pithapuram inscription mentions Kolleru lake.",
+    "The Kalamalla inscription is identified as the first inscription in Sanskrit.",
+    "The Pedavegi inscription of Nandi Varma-II records a grant of land to Vishnu.",
+    "The Bhattiprolu inscription mentions a Nigama-sabha (town council)."
+   ],
+   "why": "Bhattiprolu Nigama-sabha is pre-Satavahana (Kubiraka, ye69538fabc3)"
+  }
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {
+   "id": "ye6ddc4c94ad",
+   "why": "wrong topic: musical instruments (Chhattisgarh folk)"
+  }
+ ],
+ "patterns": [
+  "APPSC asks inscription-to-issuer/content matching: Bhattiprolu = Kubiraka, Manchikallu = Pallava Simhavarman replacing Ikshvakus",
+  "Literary-source items on Reddi sea trade (Srinatha's Kashikhandam / Haravilasam) recur with differing keys",
+  "Distractors are other inscription/site names (Nasik, Nagarjunakonda, Nandampudi, Karle)",
+  "App goes much deeper (Kondamudi seal language, Eluru 'Munyada', Roman hoard spots) than the few PYQs, but stays in the same match/identify shape"
+ ],
+ "stats": {
+  "app_mcqs": 26,
+  "pyqs": 3,
+  "fixed": 2,
+  "dropped": 0
+ }
+}

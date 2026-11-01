@@ -1,0 +1,22 @@
+{
+ "topic": "4:63",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yc2b770241d1", "why": "suspect key: SC share in 2001 was 16.2%; no option matches, keyed 17.5%"},
+  {"id": "y20d985aa7f2", "why": "wrong topic: shifting cultivation (jhuming)"},
+  {"id": "y9aa7c597b2c", "why": "wrong topic: orchid cultivation / horticulture"},
+  {"id": "yb050efab684", "why": "wrong topic: coal fields"},
+  {"id": "ycd42bd29b1d", "why": "wrong topic: forest cover by state"},
+  {"id": "ya356a134f2d", "why": "wrong topic: forest cover by state"},
+  {"id": "y61a2c4559b7", "why": "wrong topic: forest cover by state"}
+ ],
+ "patterns": [
+  "Recurring census recall: largest SC number = Uttar Pradesh, largest SC share = Punjab; zero-SC states/UTs (Nagaland, Arunachal, A&N, Lakshadweep).",
+  "APPSC asks national SC share (Census year percentage) and AP's SC share (17.08%, G2 2017).",
+  "Trap: Mizoram has a negligible but non-zero SC share; number vs percentage confusion.",
+  "App MCQs add rural-urban, socio-economic and legal-status items; PYQs are single census figures."
+ ],
+ "stats": {"app_mcqs": 15, "pyqs": 7, "fixed": 0, "dropped": 0}
+}

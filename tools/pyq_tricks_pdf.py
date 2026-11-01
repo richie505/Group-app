@@ -197,6 +197,32 @@ pair you are surest of and eliminate codes; you rarely need all four.</li>
 <li>Numbers / years: anchor to one fact you know (a Plan's start year, a Census figure) and count from it.</li>
 </ol>
 """)
+    # 8. topic by topic: the audit's notes on how APPSC asks each topic (data/pyq/audit/out), for the most-asked topics
+    asked = {}
+    for b in range(1, 7):
+        for r, qs in json.load(open(f"app/src/complete/assets/mcq{b}.json"))["rows"].items():
+            asked[f"{b}:{r}"] = sum(1 for q in qs if q.get("ap"))
+    titles = {}
+    for b in range(1, 7):
+        ri = 0
+        for u in json.load(open(f"app/src/complete/assets/book{b}.json"))["units"]:
+            for r in u["rows"]:
+                titles[f"{b}:{ri}"] = r["title"]
+                ri += 1
+    parts = ["<h2>8. Topic by topic - how APPSC asks the most-asked topics</h2>",
+             "<p>From reading every APPSC, UPSC and state-PSC question filed under each topic. The ten topics per subject with the most APPSC questions.</p>"]
+    for b in range(1, 6):
+        parts.append(f"<h3>{E(BOOKS[b])}</h3>")
+        top = sorted((k for k in asked if k.startswith(f"{b}:")), key=lambda k: -asked[k])[:10]
+        for k in top:
+            f = f"data/pyq/audit/out/{k.replace(':', '-')}.json"
+            if not os.path.exists(f):
+                continue
+            pats = [p for p in json.load(open(f)).get("patterns", []) if not re.search(r"\bapp\b|app's|app MCQ", p, re.I)]
+            if pats:
+                parts.append(f"<div class=topic><b>{E(titles[k])}</b> <span class=n>({asked[k]} APPSC questions)</span><ul>"
+                             + "".join(f"<li>{E(p)}</li>" for p in pats[:5]) + "</ul></div>")
+    doc_topics = "".join(parts)
     css = """
 @page{size:A4;margin:16mm 14mm}
 body{font-family:'Noto Sans','DejaVu Sans',sans-serif;font-size:10.5pt;color:#1d1d1f;line-height:1.45}
@@ -206,9 +232,10 @@ h3{font-size:12pt;margin:12pt 0 4pt;color:#7a3e00}h4{font-size:10.5pt;margin:8pt
 table{border-collapse:collapse;width:100%;margin:6pt 0;font-size:9.5pt}td,th{border:1px solid #ccd;padding:3pt 6pt;text-align:left}th{background:#e8ecf5}
 .ex{border:1px solid #dde;border-radius:4pt;padding:5pt 8pt;margin:5pt 0;page-break-inside:avoid;background:#fafbfd}.ex .q{font-weight:600;white-space:pre-wrap}
 .ex ol{margin:3pt 0 2pt 18pt;padding:0}.ex li.ok{color:#0a7a2f;font-weight:700}.ex .src{font-size:8.5pt;color:#777}
+.topic{margin:6pt 0;page-break-inside:avoid}.topic ul{margin:2pt 0 4pt 16pt;padding:0}.n{color:#777;font-size:9pt}
 .note{font-size:8.5pt;color:#666}ol.hot{margin-top:0}li{margin:2pt 0}
 """
-    doc = f"<!doctype html><html><head><meta charset=utf-8><style>{css}</style></head><body>{''.join(sec)}</body></html>"
+    doc = f"<!doctype html><html><head><meta charset=utf-8><style>{css}</style></head><body>{''.join(sec)}{doc_topics}</body></html>"
     os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
     h = OUT.replace(".pdf", ".html")
     open(h, "w").write(doc)

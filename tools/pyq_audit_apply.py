@@ -3,7 +3,9 @@
     python3 tools/pyq_audit_apply.py notes   # notes corrections into APPSC Complete's sources (data/onepager, data/complete-full)
     python3 tools/pyq_audit_apply.py mcqs    # MCQ fixes and drops, bad PYQs out: APPSC Complete and Prep assets
 
-Order of a full rebuild: notes -> tools/onepager_app.py complete -> tools/pyq_apply.py -> mcqs.
+Order of a full rebuild: notes -> tools/onepager_app.py complete -> tools/pyq_apply.py -> mcqs. Keep APPSC Complete's
+notemoves.json as released (git checkout it after onepager_app): a corrected "Not in your sources" line is no longer a
+gap line, and the round already applied on phones must not lose its keys.
 A subsection k of topic b:r is box k of data/onepager/b<b>/r<r>.json when k < its box count, else page k - K of the
 topic in data/complete-full/book<b>.json. A correction whose text is no longer there is reported and skipped.
 Writes data/pyq/audit/applied.json (what was done) and data/pyq/bad.json (PYQ ids tools/pyq_apply.py leaves out).
@@ -74,6 +76,18 @@ def fix_runs(block, find, repl):
     return False
 
 
+def core(find, repl):
+    """The part of a correction that actually changes: common leading and trailing words dropped."""
+    a, b = find.split(" "), repl.split(" ")
+    i = 0
+    while i < min(len(a), len(b)) and a[i] == b[i]:
+        i += 1
+    j = 0
+    while j < min(len(a), len(b)) - i and a[-1 - j] == b[-1 - j]:
+        j += 1
+    return " ".join(a[i:len(a) - j]), " ".join(b[i:len(b) - j])
+
+
 def notes():
     done, missed = 0, []
     full = {b: json.load(open(f"data/complete-full/book{b}.json")) for b in range(1, 7)}
@@ -101,6 +115,13 @@ def notes():
                 ok = 0 <= k - K < len(secs) and 0 <= i < len(secs[k - K]["b"]) and fix_runs(secs[k - K]["b"][i], find, repl)
                 if not ok and 0 <= k - K < len(secs):  # the reviewer's block number can be off by the gap notes: any block
                     ok = any(fix_runs(bl, find, repl) for bl in secs[k - K]["b"])
+            if not ok:  # the text spans table cells or runs: change only the words that differ, where they are
+                f2, r2 = core(find, repl)
+                if len(f2) >= 3 and f2 != find:
+                    if k < K:
+                        _, ok = fix_strings(plan["boxes"][k], f2, r2)
+                    elif 0 <= k - K < len(rows[b][ri]["secs"]):
+                        ok = any(fix_runs(bl, f2, r2) for bl in rows[b][ri]["secs"][k - K]["b"])
             if ok:
                 done += 1
             else:

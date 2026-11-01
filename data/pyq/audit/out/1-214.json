@@ -1,0 +1,23 @@
+{
+ "topic": "1:214",
+ "mcq_fix": [
+  {"id": "nap-history-28-3", "o": ["Bipin Chandra Pal visited Andhra districts during the Vandemataram Movement.", "Unnava Lakshminarayana visited the Palnadu area in July 1921 to study the Forest Satyagraha.", "Unnava Lakshminarayana visited the Palnadu area in July 1921 to study the Vandemataram Movement.", "Mahatma Gandhi visited Hyderabad on 9 March 1934 for Harijan uplift work."], "why": "option 4 host (Ramadasu Naidu) is disputed vs APPSC 2008 key (Kompalle Hanumantha Rao); remove ambiguity"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "5#1", "find": "APPSC 2023 Durgabai: \"Iron Lady\", \"Paul Hoffman award\" = NOT true", "replace": "APPSC 2023 Durgabai NOT-true question was withdrawn for discrepancy; she was in fact called 'Iron Lady' and received the Paul G. Hoffman award", "why": "yf711206c1ac (question ignored); established fact"},
+  {"ref": "9#20", "find": "the key rejected \"Iron Lady\" and \"Tamrapatra and Paul Hoffman award\".", "replace": "APPSC later withdrew the question for a discrepancy (she did receive the Paul G. Hoffman award and was called 'Iron Lady').", "why": "yf711206c1ac"}
+ ],
+ "pyq_bad": [
+  {"id": "yb960e61652e", "why": "wrong topic: sports/mountaineering firsts"},
+  {"id": "yf711206c1ac", "why": "suspect key: APPSC ignored the question for discrepancy; no key"},
+  {"id": "y64f2caab0f3", "why": "suspect key: same question withdrawn by APPSC; Durgabai did receive Paul G. Hoffman award"}
+ ],
+ "patterns": [
+  "APPSC repeatedly asks who founded Andhra Mahila Sabha (1938) - Durgabai Deshmukh, with Sarojini Naidu / Veeresalingam as distractors.",
+  "Statement-type 'NOT true' items on Durgabai's titles and awards appear; facts must be exact.",
+  "Expect single-fact firsts: Duvvuri Subbamma first Andhra woman jailed; Rukmini Lakshmipathi first woman arrested in Salt Satyagraha; Sarada Niketanam = Unnava couple.",
+  "App MCQs go deeper into place-date-woman matches for Salt Satyagraha and QIM than the PYQs."
+ ],
+ "stats": {"app_mcqs": 21, "pyqs": 4, "fixed": 1, "dropped": 0}
+}

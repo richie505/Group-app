@@ -1,0 +1,19 @@
+{
+ "topic": "2:51",
+ "mcq_fix": [
+  {"id": "nddc22e1dcde", "o": ["Punchhi Committee", "Sarkaria Committee", "Rajamannar Committee (1969)", "Kurian Joseph Committee of Tamil Nadu"], "why": "Rajamannar Committee was set up by Tamil Nadu, not Andhra Pradesh"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yf70233770df", "why": "suspect key: statements 1 and 2 correct (Art 355; Art 22(3)), POTA allowed police confessions -> 'Only two' (same Q y5b32921c1ce keyed 2)"},
+  {"id": "ya8ac6a1eb05", "why": "garbled: stem and statement 1 missing"}
+ ],
+ "patterns": [
+  "Most-repeated fact across PSCs: Art 355 = Union's duty to protect States against external aggression and internal disturbance (distractors 215, 275, 325, 352, 356).",
+  "Commission purpose recall: Sarkaria = Union-State relations; part/article mapping (Part XI legislative+administrative, Part XII financial).",
+  "Statement-count items (UPSC 2023) mix Art 355 with preventive detention and POTA facts.",
+  "App MCQs add AP grievances (SCS, Polavaram Sec 90, APRA assurances) and 2026 friction items, which fit APPSC's AP tilt but go past PYQ depth."
+ ],
+ "stats": {"app_mcqs": 18, "pyqs": 7, "fixed": 1, "dropped": 0}
+}

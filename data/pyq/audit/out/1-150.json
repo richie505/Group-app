@@ -1,0 +1,27 @@
+{
+ "topic": "1:150",
+ "mcq_fix": [
+  {"id": "n4d6a0028a09", "o": ["Nellore", "Machilipatnam", "Kurnool", "Kochi"], "why": "options 2 and 3 were the same place (Masulipatnam = Machilipatnam)"}
+ ],
+ "mcq_drop": [
+  {"id": "nindian-history-87-10", "why": "ambiguous: options 1, 3 and 4 are also true statements about da Gama"},
+  {"id": "n692cfad08c0", "why": "opinion/interpretive item ('significance assigned')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yfdd78ed533c", "why": "garbled; wrong topic: sports (Euro Cup)"},
+  {"id": "yf6ae007dc75", "why": "wrong topic: sports current affairs"},
+  {"id": "yb74df2b0b93", "why": "wrong topic: international current affairs (Cuba PM)"},
+  {"id": "y527ab658eb9", "why": "wrong topic: sports current affairs"},
+  {"id": "y5c9811c9e84", "why": "wrong topic: sports current affairs"},
+  {"id": "yff9244a2249", "why": "wrong topic: Sawai Jai Singh observatories"},
+  {"id": "y80f1db02a58", "why": "wrong topic: Portuguese in India (Almeida's Blue Water policy)"}
+ ],
+ "patterns": [
+  "APPSC asks the year/place of da Gama's arrival (Calicut, 1498; 20 May 1498 in GS 2019) and 'earliest Europeans' = Portuguese.",
+  "Quote attribution: 'commerce of India is the commerce of the world' = Peter the Great (APPSC-G2 2017).",
+  "Chronology items mixing Indian and European events (Qutub Minar, Firuz Tughlaq, Portuguese arrival, Krishnadevaraya).",
+  "Many PYQs filed here are sports/current-affairs mis-files; app covers explorers/treaties in more depth than PYQs."
+ ],
+ "stats": {"app_mcqs": 18, "pyqs": 12, "fixed": 1, "dropped": 2}
+}

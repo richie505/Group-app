@@ -1,0 +1,23 @@
+{
+ "topic": "1:229",
+ "mcq_fix": [
+  {"id": "nd34b288fa21", "s": "The Rowlatt Satyagraha of 1919 is significant because it was Gandhi's first", "why": "'in this classification' refers to app-internal table; reworded"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "6#2", "find": "(UPSC 2013)", "replace": "(UPPSC 2013)", "why": "source is U.P. Lower Sub. 2013 (y889e1fa864d), not UPSC"}
+ ],
+ "pyq_bad": [
+  {"id": "y79cc46d4c53", "why": "wrong topic: books and authors (Khushwant Singh)"},
+  {"id": "y2000a3967f2", "why": "mental ability"},
+  {"id": "y252b23cd726", "why": "wrong topic: Jainism"}
+ ],
+ "patterns": [
+  "PYQs are mostly 'who said this quote' items (wrong means/right ends; morally wrong/politically right) with Gandhi among Nehru/Patel/Rajaji.",
+  "Single-concept items: last step of satyagraha = strike; cruellest violence = persistence of poverty; non-violence = way to attain truth.",
+  "Comparisons recur: Gandhism vs Marxism (common = stateless society), Gandhi vs Nehru (heavy industrialisation).",
+  "'NOT a feature / NOT true' framing is common (aim of satyagrahi is not to defeat the enemy).",
+  "App uses more multi-statement items; content matches PYQ facts closely."
+ ],
+ "stats": {"app_mcqs": 16, "pyqs": 14, "fixed": 1, "dropped": 0}
+}

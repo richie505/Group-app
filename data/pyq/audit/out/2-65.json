@@ -1,0 +1,18 @@
+{
+ "topic": "2:65",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y24cc6db24a6", "why": "suspect key: full name is All India Trinamool Congress, none of the options is right"},
+  {"id": "yf342614662a", "why": "garbled options (first numbers missing); wrong topic: post-independence chronology"}
+ ],
+ "patterns": [
+  "Direct single-fact items: year of CPI split (1964), NCP split from Congress (1999), first BJP president (Vajpayee).",
+  "Party-leader pair matching (UPSC 2024 style: Jana Sangh-S.P. Mookerjee, Congress for Democracy-Jagjivan Ram) with 'how many pairs correct' format.",
+  "Recognition questions ask which party is/is not a national party - status changes over time (NCP, CPI lost it in 2023) are traps.",
+  "Concept terms: inner-party democracy, Kamaraj Plan, social base of parties.",
+  "App MCQs go deeper into laws (Sec 29A, funding caps, court cases) and AP leaders than the PYQs, but are factually sound."
+ ],
+ "stats": {"app_mcqs": 32, "pyqs": 14, "fixed": 0, "dropped": 0}
+}

@@ -1,0 +1,24 @@
+{
+ "topic": "5:33",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n34df6c5d532", "why": "number-shuffle trivia on targets; start-up count is not a target"},
+  {"id": "n03cd6bfb8ff", "why": "obscure ISRO-ESA document trivia"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y9833cba143a", "why": "mental ability"},
+  {"id": "yd505f3c62a2", "why": "wrong topic: botany (false fruit)"},
+  {"id": "yc5299485f91", "why": "wrong topic: NASA/international space programmes"},
+  {"id": "y63c22ca7b53", "why": "suspect key: K.M. Bhandari was never ISRO chairman; G. Madhavan Nair in 2008"},
+  {"id": "y004472931b9", "why": "suspect key: dated current-affairs item (exam year 1990 vs Somanath); now V. Narayanan"}
+ ],
+ "patterns": [
+  "PYQs are direct firsts: first satellite Aryabhata, APPLE launch date (19 June 1981) and site (Kourou), SITE as first education use of space tech.",
+  "Chronology codes of early programmes (SITE, STEP, APPLE, IGMDP) and early satellites recur.",
+  "'Current ISRO chairman' is a recurring current-affairs item - keep it updated.",
+  "APPSC adds recent missions (SpaDeX on PSLV-C60) and the SHAR/Sriharikota AP angle.",
+  "App adds many Vision-2047 numeric targets and chairman-tenure matches, deeper than PYQs."
+ ],
+ "stats": {"app_mcqs": 24, "pyqs": 12, "fixed": 0, "dropped": 2}
+}

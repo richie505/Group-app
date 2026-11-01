@@ -1,0 +1,24 @@
+{
+ "topic": "1:112",
+ "mcq_fix": [{"id": "n65fc0dcb4a3", "s": "Consider the following pairs: 1. Iqta — Delhi Sultanate 2. Jagir — Mughal Empire 3. Amaram — Vijayanagara Empire 4. Mokasa — Marathas Which of the pairs given above are correctly matched?", "why": "UPSC 2000 key pairs Mokasa with Marathas (ycfe68eef657)"}],
+ "mcq_drop": [],
+ "notes_fix": [{"ref": "11#0", "find": "Deccan (Bahmani and later)", "replace": "Marathas (also used in the Deccan)", "why": "ycfe68eef657 matches Mokasa to Marathas"}],
+ "pyq_bad": [
+  {"id": "y24a82143785", "why": "wrong topic: Sultanate coinage (Tanka)"},
+  {"id": "y9b31c319774", "why": "wrong topic: Sultanate coinage (Tanka)"},
+  {"id": "y6cbd95092e5", "why": "wrong topic: Iltutmish / Mongol threat"},
+  {"id": "yb700cdb709c", "why": "wrong topic: Sultanate literature / Firoz Tughlaq"},
+  {"id": "y62003488e53", "why": "wrong topic: Alauddin market reforms"},
+  {"id": "yfa3fc1c24f5", "why": "wrong topic: Tughluq agrarian measures"},
+  {"id": "yc9e062fd974", "why": "wrong topic: ancient Indian feudalism (Gupta)"},
+  {"id": "y26c245e5d03", "why": "wrong topic: Balban's theory of kingship"}
+ ],
+ "patterns": [
+  "Direct 'who introduced' items dominate: iqta = Iltutmish, dagh-huliya = Alauddin, khalisa expansion = Alauddin, hereditary iqtas = Firoz.",
+  "APPSC asked the postal system (horse post ulaq bringing Khorasan fruit) - Ibn Battuta's ulaq vs dawa is the trap.",
+  "Match-the-term items: Iqta-Sultanate, Jagir-Mughal, Amaram-Vijayanagara, Mokasa-Marathas; Madad-i-Mash = revenue-free grant to learned.",
+  "Traps: iqta 'indigenous' (false), Balban branding horses (false), Khalsa/Jagir vs Khalisa/Iqta.",
+  "App MCQs lean on multi-statement and chronology formats and minor details (decimal ranks, khwajas) more than the PYQs do."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 15, "fixed": 1, "dropped": 0}
+}

@@ -1,0 +1,23 @@
+{
+ "topic": "5:18",
+ "mcq_fix": [
+  {"id": "nf5391b49773", "s": "Consider the following statements: 1. The OGD Platform India was launched under NDSAP (2012) and offers free datasets. 2. The National Data Governance Framework Policy set up the India Data Management Office and the India Datasets Programme. 3. The National Data Governance Framework Policy (2022) was issued by MoSPI. Which of the statements given above is/are correct?", "why": "statement 2 said 'The policy' with no referent"},
+  {"id": "ncb2ec3ea67a", "s": "Which city holds the largest share of India's data-centre capacity?", "why": "odd wording 'according to the stated distribution'"}
+ ],
+ "mcq_drop": [
+  {"id": "nc70e7165e13", "why": "opinion item; statement 3 is a debate point, not a fact about data centres"},
+  {"id": "na898691a4fa", "why": "oddly worded (a person 'set' a policy); obscure"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y9af3cf541ac", "why": "wrong topic: tech current affairs (Intel-Dell AI lab)"},
+  {"id": "yabb6f3de6bd", "why": "wrong topic: quantum computing / AI"}
+ ],
+ "patterns": [
+  "PYQs ask cloud service models directly: expand PaaS, which is NOT a layer (Hardware as a Service), what cloud does NOT include (spectrum allocation).",
+  "Company-to-service recall (SkyDrive = Microsoft) is a recurring trap.",
+  "APPSC asks a definitional big-data item (large volume, high velocity, complex, variable data).",
+  "App MCQs lean heavily on 2025-26 current affairs (Vizag hub, draft data-centre policy, capacity figures) and multi-statement formats far beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 28, "pyqs": 6, "fixed": 2, "dropped": 2}
+}

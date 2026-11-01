@@ -1,0 +1,27 @@
+{
+ "topic": "4:78",
+ "mcq_fix": [
+  {"id": "n5f3b7019c3b", "s": "As per the AP Socio-Economic Survey 2024-25, the Scheduled Caste and Scheduled Tribe shares in Andhra Pradesh's population are respectively:", "why": "'according to the cited estimates' has no referent"}
+ ],
+ "mcq_drop": [
+  {"id": "n2cd8f6c7390", "why": "oddly worded ('cited indicators'); contrived options mixing MMR/IMR/literacy numbers"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yff54cd14600", "why": "wrong topic: Indian ports (Marmugao)"},
+  {"id": "y0c5cb990dd2", "why": "wrong topic: AP geography (area rank)"},
+  {"id": "y2aab9c69fb6", "why": "wrong topic: AP geography (area rank)"},
+  {"id": "yf0b7d13c68e", "why": "wrong topic: freedom movement in Andhra (Palnadu forest satyagraha)"},
+  {"id": "y00b427e4bda", "why": "wrong topic: freedom movement in Andhra (Palnadu forest satyagraha)"},
+  {"id": "ye348c1b857e", "why": "mental ability; garbled"},
+  {"id": "y1fe607ed867", "why": "mental ability (statistics)"},
+  {"id": "y15b666ae7e6", "why": "garbled: SDG text merged into an unrelated sustainable-agriculture question"}
+ ],
+ "patterns": [
+  "APPSC asks AP's rank in a named index with year: SPI Dec 2022 = 23rd; Mission Antyodaya score 61.",
+  "Index-publisher/top-state items (SPI tier-1 toppers Puducherry, Lakshadweep, Goa).",
+  "Census 2011 district extremes (e.g., Visakhapatnam lowest rural share) are asked directly.",
+  "App MCQs lean on APSES 2024-25 figures (MPI, SDG ranks, schemes) with multi-statement formats; PYQs are short rank/value lookups."
+ ],
+ "stats": {"app_mcqs": 22, "pyqs": 11, "fixed": 1, "dropped": 1}
+}

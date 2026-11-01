@@ -1,0 +1,28 @@
+{
+ "topic": "3:29",
+ "mcq_fix": [
+  {"id": "nbcc23754e6a", "s": "Consider the following statements about poverty measurement: 1. Absolute poverty can be measured against a fixed line such as the World Bank international poverty line. 2. Relative poverty is widely used in developed economies. 3. Relative poverty is defined exclusively by a fixed calorie norm. Which of the statements given above are correct?", "why": "statement 1 as worded implied absolute poverty is only measured by the World Bank line"},
+  {"id": "n7d3a3bae784", "s": "As per World Bank estimates of 2016, which country had the largest number of people living below the international poverty line?", "why": "stem referred to 'APPSC 2016' instead of the fact"},
+  {"id": "n1833fbc5e62", "s": "The international poverty line revised by the World Bank in June 2025 is:", "why": "awkward wording"}
+ ],
+ "mcq_drop": [
+  {"id": "nd8b6cb4803f", "why": "opinion item (why critics questioned)"},
+  {"id": "nfec385ec28c", "why": "opinion item ('best represents the contemporary debate')"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y41b2d1a8e96", "why": "wrong topic: consumption function (macroeconomics)"},
+  {"id": "yc46bbfc6d29", "why": "wrong topic: G20"},
+  {"id": "ydbc25d67bbc", "why": "wrong topic: waste generation"},
+  {"id": "yc822736ab03", "why": "garbled options"},
+  {"id": "y007edbb2386", "why": "wrong topic: world population"}
+ ],
+ "patterns": [
+  "APPSC asks the committee line figure directly (Rangarajan rural Rs 32/day) and the $1.90 = 2011 PPP World Bank line.",
+  "Basis of poverty line (household consumption expenditure, calorie intake, NSSO) is the most repeated PSC fact.",
+  "Types-of-poverty and Oscar Lewis 'culture of poverty' appear as single-fact or 'which are types' items.",
+  "Traps: Tendulkar Rs 816/1000 vs Rangarajan Rs 972/1407; $2.15 (2022) vs $3.00 (2025).",
+  "App adds FGT formula and MMRP statement items that are deeper than PYQs but sound; also some opinion/debate items."
+ ],
+ "stats": {"app_mcqs": 21, "pyqs": 19, "fixed": 3, "dropped": 2}
+}

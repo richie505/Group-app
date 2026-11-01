@@ -1,0 +1,19 @@
+{
+ "topic": "2:158",
+ "mcq_fix": [{"id": "n386f4219693", "o": ["1 January 1995 — Pascal Lamy", "20 December 1991 — Arthur Dunkel", "15 April 1994 — Arthur Dunkel", "1 January 1991 — Peter Sutherland"], "why": "Dunkel Draft (Draft Final Act) was tabled 20 December 1991, not 20 October"}],
+ "mcq_drop": [],
+ "notes_fix": [{"ref": "8#0", "find": "Dunkel Draft (20 Oct 1991, Arthur Dunkel)", "replace": "Dunkel Draft (20 Dec 1991, Arthur Dunkel)", "why": "Draft Final Act tabled 20 December 1991"}],
+ "pyq_bad": [
+  {"id": "y1a4c9646780", "why": "wrong topic: current affairs (Solar Impulse-2)"},
+  {"id": "y5c022bb7900", "why": "wrong topic: current affairs (Republic Day guest)"},
+  {"id": "y6e7852b3629", "why": "wrong topic: sports current affairs"},
+  {"id": "yd87ff5ed3a9", "why": "garbled options (leading digits lost); key = 1 and 2 only"}
+ ],
+ "patterns": [
+  "APPSC asks WTO as direct GK: Director-General name, HQ Geneva, founding 1995 via Marrakesh after Uruguay Round.",
+  "Concept one-liners: phytosanitary (SPS) condition = non-tariff barrier.",
+  "TRIPS-India link via GI Act 1999 and Patents Act 2005 amendment; trademark vs GI is a statement-type trap.",
+  "App MCQs focus heavily on MC14 (2026) outcomes, disputes and plurilaterals, beyond PYQ depth; DG name (Ngozi Okonjo-Iweala) is a gap worth one MCQ."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 6, "fixed": 1, "dropped": 0}
+}

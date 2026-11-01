@@ -1,0 +1,17 @@
+{
+ "topic": "4:11",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y77355603c2d", "why": "wrong topic: sports trophies"},
+  {"id": "y212b6aab086", "why": "suspect key: clay pores are small, so R is false (answer should be 2)"}
+ ],
+ "patterns": [
+  "APPSC asks soil-formation factor classification (active = climate, biological activity) and in-situ = sedentary.",
+  "Single-fact items: mass movement under gravity = landslide; oxisols on stable tropical surfaces; muscovite to vermiculite = hydrolysis.",
+  "Particle-size and water-holding facts (clay < 0.002 mm, loam = all particles) recur in other PSCs.",
+  "App MCQs cover Davis/Penck and mass-wasting matches at similar depth; AP soil-share items fit the AP tilt."
+ ],
+ "stats": {"app_mcqs": 25, "pyqs": 6, "fixed": 0, "dropped": 0}
+}

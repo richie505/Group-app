@@ -1,0 +1,16 @@
+{
+ "topic": "5:19",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n9e6e85aa5fd", "why": "ambiguous A-R on a news item; explanation link is a matter of opinion"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [],
+ "patterns": [
+  "APPSC asks definition one-liners: blockchain = time-stamped immutable records not owned by one entity; encrypted transfers without a central bank = cryptocurrency.",
+  "Statement-type items on blockchain features (public ledger anyone can inspect, permissionless apps; data not only about cryptocurrency) and Bitcoin features (anonymity, peer-to-peer, not tracked by central banks).",
+  "App covers terms (NFT, PoW/PoS, smart contracts) and AP pilots well, but has no MCQ on CBDC / e-rupee despite the topic title.",
+  "App leans on 2026 news items (Drunix, Mee Bhoomi-Blockchain) more than the PYQs' conceptual focus."
+ ],
+ "stats": {"app_mcqs": 20, "pyqs": 3, "fixed": 0, "dropped": 1}
+}

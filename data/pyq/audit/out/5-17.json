@@ -1,0 +1,24 @@
+{
+ "topic": "5:17",
+ "mcq_fix": [
+  {"id": "n44be08a5af0", "s": "Which of the following was ranked the world's fastest supercomputer in 2020-21?", "why": "odd wording; Fugaku is no longer the fastest, so the item needs a time frame"}
+ ],
+ "mcq_drop": [
+  {"id": "n578dc1dafd9", "why": "opinion item; whether datasets count is arguable"}
+ ],
+ "notes_fix": [
+  {"ref": "7#1", "find": "Carbon materials: Nobel 2010)", "replace": "Carbon materials: graphene (Nobel 2010),", "why": "garbled bullet; graphene missing"}
+ ],
+ "pyq_bad": [
+  {"id": "y7218e05cd50", "why": "wrong topic: UN international years"},
+  {"id": "y79c9094565f", "why": "wrong topic: UN international years"},
+  {"id": "y55e802c0569", "why": "garbled stem and options"}
+ ],
+ "patterns": [
+  "Direct one-liners dominate: father of AI = John McCarthy (APPSC), qubit = quantum computing, Imitation Game = Turing test.",
+  "Bullet-proof vest fibre = Kevlar (aromatic polyamide) is the most repeated materials question across PSCs.",
+  "Current-year 'International Year' items (2025 = Quantum Science and Technology) and Micius quantum satellite recur.",
+  "App MCQs go deep into Indian labs/developers and 2026 news (Majorana 2, RRI quantum flip) well beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 17, "pyqs": 15, "fixed": 1, "dropped": 1}
+}

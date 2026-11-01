@@ -1,0 +1,18 @@
+{
+ "topic": "3:124",
+ "mcq_fix": [{"id": "n7553ae07a50", "s": "Prices in Rythu Bazars are fixed at about what percentage above wholesale prices and below local retail prices?", "why": "stem vague ('in relation to open-market prices'); PYQ y7ebe7814066 wording"}],
+ "mcq_drop": [],
+ "notes_fix": [{"ref": "3#3", "find": "Prices fixed around 25% relative to open market", "replace": "Prices fixed around 25% above wholesale and 25% below local retail prices", "why": "PYQ y7ebe7814066 statement 4"}],
+ "pyq_bad": [
+  {"id": "yf46ebd27dad", "why": "wrong topic: EU Digital Single Market (international affairs)"},
+  {"id": "y72aa21dda9e", "why": "wrong topic: India International Trade Fair 2021 (current affairs)"},
+  {"id": "y81df266d835", "why": "garbled: OCR noise in stem ('Andhra D) Change into aw Pradesh')"}
+ ],
+ "patterns": [
+  "Rythu Bazars dominate: start date (January 1999) asked repeatedly; 'not correct' statement items with the District Collector trap (Estate Officer manages).",
+  "Pricing rule: ~25% above wholesale and ~25% below local retail prices.",
+  "Comparative first: AP second state after Punjab (Apni Mandi) to run farmers' markets.",
+  "App MCQs add Markets Act 1966/Rules 1969 section numbers, godown data and e-NAM - deeper than PYQs."
+ ],
+ "stats": {"app_mcqs": 17, "pyqs": 6, "fixed": 1, "dropped": 0}
+}

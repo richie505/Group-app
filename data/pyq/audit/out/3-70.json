@@ -1,0 +1,27 @@
+{
+ "topic": "3:70",
+ "mcq_fix": [
+  {"id": "nc7b52d7caa0", "o": ["25% and 85%", "50% and 50%", "90% and 10%", "85% and 50%"], "a": 3, "why": "India imports ~85% of crude and ~half of its natural gas, not 25%"},
+  {"id": "n38e49a7198d", "s": "Under the National Policy on Biofuels, 2018 (as amended in 2022) and the Ethanol Blended Petrol programme, India set which ethanol-blending target?", "why": "original 2018 policy said 20% by 2030; option 2 was also defensible"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "6#1", "find": "A and R true, R not the explanation", "replace": "A and R true, R is the correct explanation", "why": "y43f6ac4efda key = option 1"},
+  {"ref": "10#8", "find": "Farmers' price risk is true but not the reason (PYQ 2025: A and R true, R not the explanation)", "replace": "Farmers' price risk in surplus years is the reason (PYQ: A and R true, R explains A)", "why": "y43f6ac4efda key = option 1"},
+  {"ref": "5#0", "find": "about 80% of petroleum, 25% of gas", "replace": "about 85% of petroleum, about 50% of gas", "why": "gas import dependence is ~half"},
+  {"ref": "11#0", "find": "About 80% of petroleum, 25% of gas", "replace": "About 85% of petroleum, about 50% of gas", "why": "gas import dependence is ~half"}
+ ],
+ "pyq_bad": [
+  {"id": "y3cadd4b0f6c", "why": "wrong topic: industrial location (aluminium)"},
+  {"id": "y616e3d2be19", "why": "wrong topic: fertilizer industry"},
+  {"id": "y6f65da175b2", "why": "wrong topic: biodiversity (30x30 is land/sea protection), no key"},
+  {"id": "yf097a97b465", "why": "garbled: option numbers lost ('and 2 only')"}
+ ],
+ "patterns": [
+  "APPSC asks AP-specific policy 'NOT correct' items: AP Solar Power Policy 2018 (NREDCAP nodal, 4,000 MW parks, 300 sunny days; 1 lakh pumps was the wrong one).",
+  "A-R on biofuels: NBCC approval for surplus food grains, with farmer price risk as the explanation (y43f6ac4efda).",
+  "Other PSC/UPSC items: scheme purpose (UDAY = DISCOM turnaround), BEE star label products, PNGRB scope, PM Surya Ghar features.",
+  "App MCQs cover more data points (AT&C losses, SPR days, battery storage) than PYQs, which stay on scheme purposes and policy features."
+ ],
+ "stats": {"app_mcqs": 23, "pyqs": 15, "fixed": 2, "dropped": 0}
+}

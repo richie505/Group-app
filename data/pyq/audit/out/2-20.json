@@ -1,0 +1,19 @@
+{
+ "topic": "2:20",
+ "mcq_fix": [
+  {"id": "n908d7e168cb", "s": "Which of the following is the latest enacted Constitutional Amendment Act?", "why": "oddly worded 'referred to in the current constitutional amendment sequence'"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yf00716d37d6", "why": "wrong topic: public interest litigation"},
+  {"id": "yc6c49ba018a", "why": "mental ability"}
+ ],
+ "patterns": [
+  "PYQs ask the subject of a numbered amendment (97th = co-operative societies) as a direct one-liner.",
+  "Likely APPSC shapes: number-to-subject match (101st GST, 103rd EWS, 104th Art. 334 to 2030, 106th women's quota) and Article inserted (43B, 279A).",
+  "Traps: 105th vs 106th as latest; 103rd and 104th both 2019; Rajendra N. Shah limits Part IXB to multi-State co-operatives.",
+  "App gives pending Bills (129th-131st) and delimitation debates current-affairs weight; 100th and 102nd have no dedicated MCQ."
+ ],
+ "stats": {"app_mcqs": 13, "pyqs": 3, "fixed": 1, "dropped": 0}
+}

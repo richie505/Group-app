@@ -1,0 +1,22 @@
+{
+ "topic": "5:31",
+ "mcq_fix": [
+  {"id": "n89c6e0a7611", "s": "The National Cyber Security Policy, 2013 was released by the IT department that is now which Union Ministry?", "why": "in 2013 DeitY sat under the Ministry of Communications and IT, so option 1 was arguable"}
+ ],
+ "mcq_drop": [
+  {"id": "n29d6a96bd54", "why": "oddly worded ('criticism referred to in the material'); opinion-based"}
+ ],
+ "notes_fix": [
+  {"ref": "8#5", "find": "National Cyber Security Coordinator (NSCS)", "replace": "National Cyber Security Coordinator, in the National Security Council Secretariat (NSCS)", "why": "NSCS = National Security Council Secretariat, not the Coordinator's abbreviation"}
+ ],
+ "pyq_bad": [
+  {"id": "y568bfb15fdd", "why": "wrong topic: cyber insurance coverage; option 3 truncated"}
+ ],
+ "patterns": [
+  "No APPSC PYQ on NCSP 2013; other PSCs ask generic cyber-security features and C-DAC tools (NAYAN).",
+  "Expected exam facts: NCSP 2013 vision, 5 lakh professionals target, CERT-In as nodal incident-response agency, NCIIPC for critical infrastructure.",
+  "Trap to keep: no 'NCSP 2020' was notified; the 2020 strategy is only a draft.",
+  "App adds many scheme-figure items (CCPWC outlay, Cyber Shakti counts, GCI 2024 score) that are deeper than PYQ depth and date quickly."
+ ],
+ "stats": {"app_mcqs": 20, "pyqs": 3, "fixed": 1, "dropped": 1}
+}

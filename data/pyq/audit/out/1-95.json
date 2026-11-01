@@ -1,0 +1,27 @@
+{
+ "topic": "1:95",
+ "mcq_fix": [
+  {"id": "n06466edfedc", "s": "The legal principle recorded in Ketana's Vignaneswaram (Vijnaneswaramu) provided that a woman's property passed to her:", "why": "yf9ff5650f59 key = Vignanesvaram of Ketana, not Purushartha Saramu"},
+  {"id": "n608ae6b712a", "s": "Purushartha Saramu of Sivadevayya is an important administrative source because it gives information about:", "why": "the women's-property tenet belongs to Vignaneswaram (yf9ff5650f59)"}
+ ],
+ "mcq_drop": [
+  {"id": "n09680a906ee", "why": "obscure trivia (disciples Betaraja and Durgaraja)"}
+ ],
+ "notes_fix": [
+  {"ref": "5#0", "find": "Purushartha Saramu (Sivadevayya): women's property to daughters and daughter's daughters (APPSC G2 2019)", "replace": "Vignaneswaram (Ketana, Telugu Mitakshara): women's property to daughters and daughter's daughters (APPSC G2)", "why": "yf9ff5650f59 key 4"},
+  {"ref": "6#1", "find": "Women's property → Purushartha Saramu; ⚠ not Nitisara, Vignaneswaram", "replace": "Women's property → Vignaneswaram (Ketana); ⚠ not Purushartha Saramu, Nitisara", "why": "yf9ff5650f59 key 4"},
+  {"ref": "9#0", "find": "Purushartha Saramu Sivadevayya Women's property; 72 Niyogas (departments) + king's daily council routine Vignaneswaram Ketana Distractor", "replace": "Purushartha Saramu Sivadevayya 72 Niyogas (departments) + king's daily council routine Vignaneswaram Ketana Law (Telugu Mitakshara); women's property to daughters", "why": "yf9ff5650f59 key 4"},
+  {"ref": "9#1", "find": "Women's property: Passes to her daughters and daughter's daughters", "replace": "Women's property (Vignaneswaram of Ketana): Passes to her daughters and daughter's daughters", "why": "yf9ff5650f59"},
+  {"ref": "9#2", "find": "Women's property question → Purushartha Saramu (Sivadevayya), not Vignaneswaram, Nitisara or Niti Shastra Muktavali", "replace": "Women's property question → Vignaneswaram (Ketana), not Purushartha Saramu, Nitisara or Niti Shastra Muktavali", "why": "yf9ff5650f59 key 4"}
+ ],
+ "pyq_bad": [
+  {"id": "yb7be90899f6", "why": "garbled (stem truncated); wrong topic: Vedic/Brahmana era chronology"}
+ ],
+ "patterns": [
+  "APPSC asks single-term identification: caste associations = Samayamu; women's property tenet = Vignaneswaram of Ketana.",
+  "Book-to-content items use Kakatiya-era texts as distractors (Nitisaram, Nitisastra Muktavali, Purushartha Saramu) - know which is legal vs polity.",
+  "Religion items: early Kakatiyas Jain, Jainism's blow from Lingayats, Kapalikas from Pasupata, Pasupata = popular religion of Reddis.",
+  "App carries a wrong attribution (Purushartha Saramu for women's property) and many multi-statement items with obscure names."
+ ],
+ "stats": {"app_mcqs": 22, "pyqs": 4, "fixed": 2, "dropped": 1}
+}

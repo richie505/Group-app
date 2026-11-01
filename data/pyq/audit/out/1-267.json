@@ -1,0 +1,28 @@
+{
+ "topic": "1:267",
+ "mcq_fix": [],
+ "mcq_drop": [{"id": "nd9cc16db255", "why": "ambiguous order: Sahitya (resolved 1952, inaugurated 1954) vs Sangeet Natak (1952/Jan 1953, called the first academy) - key B before C contradicts n5e1ce9a4d76"}],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ydc8801f820c", "why": "wrong topic: international awards (Nobel)"},
+  {"id": "y06bd21bdd6e", "why": "wrong topic: national civilian awards (Bharat Ratna)"},
+  {"id": "y1c8f182e8a7", "why": "wrong topic: national civilian awards (Bharat Ratna)"},
+  {"id": "y2f537117720", "why": "wrong topic: national civilian awards (Bharat Ratna)"},
+  {"id": "y84535d4792f", "why": "wrong topic: national civilian awards (Bharat Ratna)"},
+  {"id": "y1fd13181b4d", "why": "wrong topic: sports awards"},
+  {"id": "yedf36e1d47a", "why": "wrong topic: sports awards"},
+  {"id": "y5d718bee80e", "why": "mental ability"},
+  {"id": "yfe3a6a7ede9", "why": "mental ability"},
+  {"id": "yc144a8209da", "why": "wrong topic: Sahitya Akademi awards (Hindi)"},
+  {"id": "y48da4a9f7d9", "why": "wrong topic: Sahitya Akademi awards (Gujarati)"},
+  {"id": "ycf46ec04b64", "why": "wrong topic: Sahitya Akademi Yuva Puraskar current affairs"},
+  {"id": "y92f9026899b", "why": "wrong topic: classical dances (Sattriya)"}
+ ],
+ "patterns": [
+  "APPSC repeatedly asks the first World Telugu Conference year (1975) and later conferences' venues.",
+  "Telugu Sahitya Akademi award winners (poet-for-year) and institution inaugurators (Ravindra Bharathi) are APPSC favourites.",
+  "Year-of-founding items for AP institutions (AP Sahitya Akademi 1957, ITI 1975, Telugu University 1985) fit the single-fact style.",
+  "Many filed PYQs are generic national awards GK, not AP culture; the app correctly focuses on AP newspapers, Nandi awards, Telugu Phalke awardees."
+ ],
+ "stats": {"app_mcqs": 15, "pyqs": 17, "fixed": 0, "dropped": 1}
+}

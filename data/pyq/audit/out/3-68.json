@@ -1,0 +1,22 @@
+{
+ "topic": "3:68",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yf0b2ce13e16", "why": "garbled: stem starts with tail of a DGDC question"},
+  {"id": "y4e7056df0b2", "why": "garbled: options unreadable (2000 1999 / MM)"},
+  {"id": "yd1965ca9a3b", "why": "wrong topic: Sixth Pay Commission"},
+  {"id": "y16526e478f3", "why": "wrong topic: literacy (first fully literate district)"},
+  {"id": "yf474f07c186", "why": "wrong topic: industrial geography of Gujarat"},
+  {"id": "y2f5825c93ad", "why": "suspect key: Kandla EPZ became an SEZ in Nov 2000; Chennai MEPZ converted only in 2003"}
+ ],
+ "patterns": [
+  "Year questions dominate: SEZ policy 2000 (EXIM Policy 2000-01), Act passed 2005, in force 2006; APPSC accepts 'both 2000 and 2006' for 'policy announced'.",
+  "FIRSTs and places: Kandla = first EPZ (1965), Surat = first private EPZ, Falta = West Bengal.",
+  "APPSC trap: SEZs aim primarily at exports, not employment; FTZs promote export industries.",
+  "Other PSCs ask Nandigram (Salim group) and state with most SEZs; AP corridor nodes (Orvakal, Kopparthy, Krishnapatnam) are the AP tilt.",
+  "App adds detailed numbers (BHAVYA outlay, export values, s.10AA, s.18) and multi-statement items beyond PYQ depth, but they are factually sound."
+ ],
+ "stats": {"app_mcqs": 25, "pyqs": 20, "fixed": 0, "dropped": 0}
+}

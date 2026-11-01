@@ -1,0 +1,21 @@
+{
+ "topic": "1:82",
+ "mcq_fix": [
+  {"id": "n1159a3805c0", "o": ["Anavota Reddy", "Prolaya Vemareddy", "Kapaya Nayaka", "Rudradeva"], "why": "capital moved Addanki -> Kondavidu by Anavota Reddy (Anavema later)"}
+ ],
+ "mcq_drop": [
+  {"id": "n08ff2413b21", "why": "'as per the APPSC 2011 key' wording; contradicts nap-history-16-8 (Hyderabad State = Nizam-ul-Mulk)"}
+ ],
+ "notes_fix": [
+  {"ref": "7#2", "find": "(shifted by Anavema Reddy)", "replace": "(shifted by Anavota Reddy)", "why": "Anavota Reddy moved the capital to Kondavidu"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "APPSC favours chronological arrangement of Andhra dynasties (Kakatiyas -> Reddis -> Vijayanagara -> Bahmanis -> Gajapatis).",
+  "Year one-liners: Talikota 1565 asked repeatedly (G1 and FRO papers).",
+  "Last ruler / founder identification: Abul Hasan Tana Shah last Qutb Shahi; Sultan Quli vs Muhammad Quli trap.",
+  "Raichur Doab as cause of Bahmani-Vijayanagara wars recurs (APPSC 2003, 2017).",
+  "App has many match/statement items on feudatories and succession, deeper than the PYQs."
+ ],
+ "stats": {"app_mcqs": 29, "pyqs": 4, "fixed": 1, "dropped": 1}
+}

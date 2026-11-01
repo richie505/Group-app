@@ -1,0 +1,30 @@
+{
+ "topic": "1:269",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n09e4108260b", "why": "opinion-style item with a throwaway statement; no exam words it so"},
+  {"id": "n6563b646ab4", "why": "oddly worded; 'Hyderabad studio belt' is not an exam term, options are made-up labels"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y86891b77120", "why": "wrong topic: Hindi Filmfare awards (national current affairs)"},
+  {"id": "y693d2521936", "why": "wrong topic: BAFTA awards (world current affairs)"},
+  {"id": "yc520e6ff512", "why": "wrong topic: FAPCCI president (AP current affairs)"},
+  {"id": "y5cccc3a7f3e", "why": "wrong topic: National Film Awards (non-Telugu)"},
+  {"id": "y711b9d3d696", "why": "wrong topic: sports awards (Laureus)"},
+  {"id": "yab9032e305f", "why": "garbled: options truncated, film names missing"},
+  {"id": "y0322bb6c2f7", "why": "garbled: option 1 is a sentence fragment; keyed 1 but intended answer is Nandi Award"},
+  {"id": "yc414b352ec4", "why": "garbled: duplicate of y0322bb6c2f7 with stray text; key points to fragment"},
+  {"id": "y1f761d723a9", "why": "wrong topic: AP council of ministers (current affairs)"},
+  {"id": "yfc1763c6a39", "why": "wrong topic: Phalke awardees (Hindi cinema, national awards)"},
+  {"id": "yd0a28fd3775", "why": "wrong topic: Phalke awardees (Hindi cinema, national awards)"},
+  {"id": "y4796270329f", "why": "wrong topic: Indian cinema personalities (Devika Rani)"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners: first Indian sound film (Alam Ara), Telugu Phalke awardee of 2016 (K. Viswanath), Nandi Award as the Telugu film award.",
+  "Actor-politician angle recurs: Praja Rajyam (Chiranjeevi), TDP founding (March 1982, CM Bhavanam Venkatarami Reddy), Pawan Kalyan's ministry.",
+  "APPSC lower-post papers mix in film-award current affairs (IFFI personality of the year, BAFTA) under this head.",
+  "App uses statement/match items on Telugu cinema firsts and studios; PYQs are mostly single-fact, with incorrect-statement TDP items."
+ ],
+ "stats": {"app_mcqs": 21, "pyqs": 20, "fixed": 0, "dropped": 2}
+}

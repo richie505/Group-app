@@ -1,0 +1,22 @@
+{
+ "topic": "2:141",
+ "mcq_fix": [{"id": "n591c700cfd9", "s": "Under the Pradhan Mantri Vaya Vandana Yojana as originally launched in 2017, which of the following combinations is correct?", "why": "limits raised in 2018 to Rs 15 lakh / Rs 10,000 per month; stem must be dated"}],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "3#12", "find": "Max Rs 7.5 lakh", "replace": "Max Rs 7.5 lakh (2017 launch; raised to Rs 15 lakh in 2018)", "why": "PMVVY ceiling doubled to Rs 15 lakh in 2018"},
+  {"ref": "8#0", "find": "max purchase Rs 7.5 lakh, max pension Rs 5,000/month", "replace": "max purchase Rs 7.5 lakh, max pension Rs 5,000/month at launch (raised to Rs 15 lakh / Rs 10,000 in 2018)", "why": "PMVVY limits revised in 2018"}
+ ],
+ "pyq_bad": [
+  {"id": "y476cdbb3615", "why": "suspect key: Shyam Saran Negi was honoured as the first voter of independent India (option 4); also wrong topic: elections GK"},
+  {"id": "yffbab16135c", "why": "wrong topic: health days / World AIDS Day"},
+  {"id": "y289e8807940", "why": "wrong topic: important days"}
+ ],
+ "patterns": [
+  "APPSC asks this topic as direct single facts: Act punishes children neglecting parents (APPSC 2018); Vayoshri launched at Nellore (APPSC G2 2017).",
+  "AP tilt: Nellore launch, RDO-headed Maintenance Tribunal, District Collector as Appellate Tribunal.",
+  "Important-days style items (1 October, 15 June) fit the APPSC 'days' pattern seen in filed PYQs.",
+  "Traps: scheme confusion PMVVY (pension) vs Ayushman Vay Vandana (health 70+) vs Vayoshri (aids).",
+  "App MCQs are mostly 3-statement items on scheme details; PYQs are simpler one-liners."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 3, "fixed": 1, "dropped": 0}
+}

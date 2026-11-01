@@ -1,0 +1,40 @@
+{
+ "topic": "5:63",
+ "mcq_fix": [
+  {"id": "n94e170b70e4", "s": "Who first demonstrated induced mutation in crop plants (barley) using X-rays?", "why": "Stadler's X-ray mutation work dates to 1928, not 1930"}
+ ],
+ "mcq_drop": [
+  {"id": "n88ac081b21c", "why": "oddly worded ('stated nuclear-medicine context'), current-affairs trivia"}
+ ],
+ "notes_fix": [
+  {"ref": "4#0", "find": "L.J. Stadler (1930, X-rays)", "replace": "L.J. Stadler (1928, X-rays on barley)", "why": "Stadler published X-ray induced mutations in 1928"},
+  {"ref": "14#2", "find": "L.J. Stadler (1930, X-rays)", "replace": "L.J. Stadler (1928, X-rays)", "why": "Stadler 1928"}
+ ],
+ "pyq_bad": [
+  {"id": "y88be68a1c3d", "why": "wrong topic: iron ores / metallurgy"},
+  {"id": "y52469ef1878", "why": "wrong topic: artificial elements (chemistry)"},
+  {"id": "y63b8f25511e", "why": "wrong topic: apiculture"},
+  {"id": "y7a5dc9612a8", "why": "wrong topic: bypass surgery / human health"},
+  {"id": "y17ae642e42a", "why": "wrong topic: noble gases"},
+  {"id": "y231242da9b4", "why": "wrong topic: nature of radioactive rays"},
+  {"id": "y03c18e34f08", "why": "wrong topic: minerals in human body"},
+  {"id": "y0a65afae696", "why": "wrong topic: lasers"},
+  {"id": "ybd36b35b260", "why": "wrong topic: X-ray crystallography"},
+  {"id": "y26a25962ad7", "why": "wrong topic: Mars missions; no key"},
+  {"id": "y03d5fca565f", "why": "garbled; suspect key: fossils dated by carbon-dating (2), not uranium"},
+  {"id": "y4c01e2a7a78", "why": "wrong topic: elements in human body"},
+  {"id": "y546fe3bb453", "why": "garbled (passage text in stem); wrong topic: artificial elements"},
+  {"id": "yafe6771ddbc", "why": "wrong topic: TV audience measurement (Broadcast Audience Research Council)"},
+  {"id": "yd4289b8b9c8", "why": "wrong topic: TV audience measurement (Broadcast Audience Research Council)"},
+  {"id": "yca19e44441c", "why": "wrong topic: chemistry in everyday life (Dettol)"},
+  {"id": "ye80290b3f2e", "why": "wrong topic: fluorescent tube gases"}
+ ],
+ "patterns": [
+  "Dominant shape: direct isotope -> use (P-32/Co-60 leukaemia, Na-24 blood flow, As-74 tumour, I-131 thyroid, Co-60 gamma).",
+  "Dating questions recur: C-14 for fossils/wood/bone; uranium-lead for age of Earth/oldest rocks.",
+  "APPSC asks single-fact items (radon for cancer therapy, BRIT = isotope technology, gamma rays carry no charge).",
+  "Trap: 'BARC' in APPSC Group-2 PYQs is the Broadcast Audience Research Council, not Bhabha Atomic Research Centre.",
+  "App MCQs go far deeper into facilities (ISOMED 2.0, KRUSHAK, cyclotron, variety counts) and statement formats than PYQs show."
+ ],
+ "stats": {"app_mcqs": 36, "pyqs": 33, "fixed": 1, "dropped": 1}
+}

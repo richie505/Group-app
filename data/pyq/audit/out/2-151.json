@@ -1,0 +1,23 @@
+{
+ "topic": "2:151",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n7015620e98c", "why": "oddly worded true/false item ('in the cited security context'); no exam words it so"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y4a6b8b417e2", "why": "wrong topic: world current affairs (Honduras president)"},
+  {"id": "y9b3aa14ba10", "why": "garbled: stem has unrelated note text about Nepal PMs pasted in"},
+  {"id": "yb9af0630acb", "why": "wrong topic: new Parliament building architect (national current affairs)"},
+  {"id": "yf44003cb9a3", "why": "wrong topic: regional groupings (Mekong Ganga Cooperation)"},
+  {"id": "yb75567a0a95", "why": "wrong topic: evacuation operations (Operation Ganga, Ukraine)"},
+  {"id": "yd67934205bf", "why": "wrong topic: regional groupings (BIMSTEC)"}
+ ],
+ "patterns": [
+  "Direct one-liners on neighbour events: Myanmar coup (Feb 2021), first PM of Republic of Nepal (Prachanda), countries banning LTTE.",
+  "Project-country matching (Mangdechhu-Bhutan, Kaladan-Myanmar, Salma Dam-Afghanistan) appears in APPSC and UPSC.",
+  "LBA/100th Amendment enclave counts (111 Indian to Bangladesh, 51 to India) and Katchatheevu/Tin Bigha are classic traps.",
+  "APPSC mixes in current-affairs one-liners (DTAA with Sri Lanka) rather than multi-statement items; app uses many 3-4 statement questions."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 13, "fixed": 0, "dropped": 1}
+}

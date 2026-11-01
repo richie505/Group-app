@@ -1,0 +1,24 @@
+{
+ "topic": "4:93",
+ "mcq_fix": [
+  {"id": "n0ad28c729c2", "s": "Which port has now overtaken Deendayal (Kandla) to become India's largest cargo-handling major port?", "why": "stem 'according to the 2026 ranking cited' is oddly worded"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y0ba0ddf6e0d", "why": "wrong topic: mean sea level / Survey of India datum"},
+  {"id": "y9b961584305", "why": "wrong topic: agriculture (banana production)"},
+  {"id": "y5be61c2b811", "why": "wrong topic: coal reserves; options 1 and 2 garbled (both read 'is the correct')"},
+  {"id": "y4664de4c730", "why": "garbled: depends on a map not reproduced"},
+  {"id": "ya0d0f947eeb", "why": "wrong options: percentages given for a count of airlines"},
+  {"id": "y65d41ba6e79", "why": "wrong topic: modern Indian history chronology; options truncated"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact port items: state with most major ports (Tamil Nadu), largest cargo port (key answer has shifted Kandla -> Paradip), AP's major port Visakhapatnam.",
+  "Reasoning statements on why the east coast has fewer ports (shallow shelf, cyclones) - APPSC 2023 statement type.",
+  "Civil aviation firsts: 1911 Allahabad-Naini airmail, 1953 Air Corporations Act nationalisation.",
+  "Transport 'firsts' (six-lane Mumbai-Pune expressway, Cochin solar airport) recur across PSCs.",
+  "App adds many 2025-26 data and LPPI-ranking statement items that go deeper than the PYQs; inland waterways (NW-1 etc.) are barely covered by app MCQs despite the topic title."
+ ],
+ "stats": {"app_mcqs": 28, "pyqs": 10, "fixed": 1, "dropped": 0}
+}

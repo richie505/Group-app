@@ -1,0 +1,18 @@
+{"topic":"3:32",
+"mcq_fix":[],
+"mcq_drop":[{"id":"n5221278dd38","why":"statement 3 ('associated with WIL analysis') is source-citation trivia, oddly worded"}],
+"notes_fix":[
+{"ref":"0#0","find":"1906 - 1912 - 1955","replace":"1905 - 1912 - 1955","why":"Max Lorenz published the Lorenz curve in 1905"},
+{"ref":"0#1","find":"Lorenz curve: distribution of income/wealth 1906","replace":"Lorenz curve: distribution of income/wealth 1905","why":"Lorenz curve dates to 1905"},
+{"ref":"8#0","find":"CGPSC 2018 key) 1906","replace":"CGPSC 2018 key) 1905","why":"Lorenz curve dates to 1905"},
+{"ref":"8#1","find":"1906 – 1912 – 1955","replace":"1905 – 1912 – 1955","why":"Lorenz curve dates to 1905"}],
+"pyq_bad":[
+{"id":"yce2b84c0a07","why":"garbled: OCR junk in stem and option 3"},
+{"id":"y8ea467ec2fc","why":"wrong topic: theory of demand (normal goods)"},
+{"id":"y9bc0ecc3ae8","why":"wrong topic: Arthashastra / ancient Indian texts"},
+{"id":"y52341431b3a","why":"wrong topic: macro consumption concepts (ex-ante/ex-post)"},
+{"id":"ya387a578afd","why":"suspect key: Hayek/Friedman set (3) favours market economy, not Galbraith set; also wrong topic: economic thinkers"},
+{"id":"y96ef8f20dea","why":"wrong topic: Arthashastra / ancient Indian texts"},
+{"id":"y193816abcd1","why":"garbled: options missing the paired works"}],
+"patterns":["Direct 'Lorenz curve measures what' / 'curve for income distribution' items with Phillips/Laffer/Marshall as distractors","EKC asked by shape (inverted U) and as 'growth vs environmental degradation' (APPSC G1)","Gini statement items: range, higher = more unequal, derived from Lorenz","APPSC asks NSSO inequality indicator = consumption and NSS MPCE rural-urban gap figures","App adds HCES figures, books/authors and wealth-tax history beyond the PYQ depth"],
+"stats":{"app_mcqs":23,"pyqs":15,"fixed":0,"dropped":1}}

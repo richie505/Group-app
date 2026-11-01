@@ -1,0 +1,18 @@
+{
+ "topic": "2:94",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "nb57ecbf5100", "why": "opinion item ('primarily concerned' criticism)"}
+ ],
+ "notes_fix": [
+  {"ref": "13#1", "find": "electronics, aerospace, drugs/pharmaceuticals", "replace": "electronic aerospace and defence equipment (drugs/pharmaceuticals since delicensed)", "why": "current compulsory-licence list is 5 items; drugs no longer licensed"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "No PYQs filed: APPSC would ask this as direct facts - year of SEBI/TRAI/IRDA, FEMA replacing FERA, reserved-industry counts (17-8-2), 1991 PM/FM.",
+  "Likely shapes: regulator-sector match, committee-reform match (Narasimham = banking, Chelliah = tax), year of disinvestment start.",
+  "AP tilt would come via schemes framed as enabler-state (Deepam-2, DBT, Swarna Andhra KPIs).",
+  "App leans on conceptual theory (Pritchett, Evans, Johnson, public choice) that is beyond typical APPSC prelims depth."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 0, "fixed": 0, "dropped": 1}
+}

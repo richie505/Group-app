@@ -1,0 +1,20 @@
+{
+ "topic": "2:89",
+ "mcq_fix": [],
+ "mcq_drop": [{"id": "n264164b94eb", "why": "oddly worded sequence mixing SSAAT into platform progression"}],
+ "notes_fix": [
+  {"ref": "5#0", "find": "Keyed APPSC 2018, 2021", "replace": "Keyed APPSC 2021 (APPSC 2018 keyed Prajavani)", "why": "y45d37e82262 keys Prajavani; Spandana (2019) postdates 2018"},
+  {"ref": "12#17", "find": "APPSC 2021 and 2018 both keyed Spandana as the AP grievance platform.", "replace": "APPSC 2021 keyed Spandana; APPSC 2018 keyed Prajavani as the AP grievance redressal system.", "why": "y45d37e82262"}
+ ],
+ "pyq_bad": [
+  {"id": "yabbb8c4f4b0", "why": "garbled: stem carries text of a previous question"},
+  {"id": "y037b8b3fb08", "why": "wrong topic: ethics case study (no key)"}
+ ],
+ "patterns": [
+  "APPSC asks direct purpose/identity items: social audit = MGNREGA accountability tool; Citizen's Charter purpose = time-bound delivery and redress.",
+  "Strong AP tilt: name the AP e-governance grievance platform (Prajavani in 2018, Spandana in 2021) with similar-sounding distractors.",
+  "Other PSCs: origin of Right to Service (Great Britain), First ARC chair (Morarji Desai) for Lokpal/Lokayukta.",
+  "App goes deeper (GRAI indicators, CPGRAMS circular dates, IS standard) than the PYQs show."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 8, "fixed": 0, "dropped": 1}
+}

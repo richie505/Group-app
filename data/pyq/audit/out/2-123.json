@@ -1,0 +1,20 @@
+{
+ "topic": "2:123",
+ "mcq_fix": [
+  {"id": "nbbc4dbead24", "s": "According to the Economic Survey 2025-26, poverty in 2023-24 measured by the Tendulkar line was", "why": "'stated estimate' is odd wording"},
+  {"id": "n2705288bfd4", "s": "The VB-G RAM G Bill, 2025 raises the rural employment guarantee to", "why": "'stated 2025 update' is odd wording"},
+  {"id": "n5e89af90847", "s": "Which of the following is NOT a feature of the original MGNREGA guarantee?", "why": "'described here' is odd wording"}
+ ],
+ "mcq_drop": [
+  {"id": "n650d96616be", "why": "opinion item (criticism of Tendulkar line)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [],
+ "patterns": [
+  "Only MGNREGA PYQs here: eligibility (adult members of any rural household) and A-R on 100 days with right to work not in Part III.",
+  "Typical traps: guarantee is per household not per individual; right to work is not a fundamental right.",
+  "APPSC elsewhere asks poverty-line committee figures (Rangarajan Rs 32/47) and PLFS as the unemployment standard.",
+  "App adds many committee/data/statement items; they are direct and sound, though some stems used odd 'stated figure' wording."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 2, "fixed": 3, "dropped": 1}
+}

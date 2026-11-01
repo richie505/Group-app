@@ -1,0 +1,46 @@
+{
+ "topic": "1:125",
+ "mcq_fix": [
+  {"id": "nc9a1b70f57c", "s": "Which of the following pairs are correctly matched? 1. Hand-knotted carpets — Eluru 2. Wooden cutlery — Udayagiri 3. Crochet lace — Narasapur 4. Lacquerware toys — Etikoppaka", "why": "stem said 'which one pair' but options are combinations"}
+ ],
+ "mcq_drop": [
+  {"id": "nc5a720ae69a", "why": "exam-meta item; contradicts official key of y041a2c27d5f (Bamboo work keyed)"},
+  {"id": "n743b1cb5c86", "why": "oddly worded slogan trivia with throwaway options"}
+ ],
+ "notes_fix": [
+  {"ref": "14#3", "find": "the one NOT traditional to AP = Bidri work", "replace": "official key = Bamboo work (undivided-AP framing; Bidri, Cherial, Nirmal are now Telangana)", "why": "y041a2c27d5f key is option 1 Bamboo work"}
+ ],
+ "pyq_bad": [
+  {"id": "y02670b4dfc9", "why": "mental ability"},
+  {"id": "y041a2c27d5f", "why": "suspect key: Bamboo work keyed though Bidri/Cherial/Nirmal are all Telangana post-2014; ambiguous"},
+  {"id": "ya37c625a3f5", "why": "wrong topic: Indian folk dances (Gujarat)"},
+  {"id": "y5ad6754812e", "why": "wrong topic: Indian classical dances (Kerala)"},
+  {"id": "y60ffa58e515", "why": "wrong topic: NE folk dances"},
+  {"id": "ye29025cc1ee", "why": "wrong topic: Indian classical dances"},
+  {"id": "y4d3215d413b", "why": "wrong topic: Indian folk dances"},
+  {"id": "yadb330d014e", "why": "wrong topic: Indian classical dances (Odissi)"},
+  {"id": "y90fd86c2b7b", "why": "wrong topic: Indian classical dances"},
+  {"id": "y2ca0b12d2eb", "why": "wrong topic: Indian classical dances"},
+  {"id": "y324efccbc99", "why": "wrong topic: Tamil Nadu folk dance"},
+  {"id": "ycbdf0c05b59", "why": "wrong topic: Indian festivals (Pongal)"},
+  {"id": "ybcc43c48104", "why": "wrong topic: Indian festivals (Sikkim)"},
+  {"id": "y5c698fcb423", "why": "wrong topic: Sattriya (Assam); options truncated"},
+  {"id": "yff277f6736b", "why": "wrong topic: Indian classical dances"},
+  {"id": "yf8670583327", "why": "wrong topic: Indian classical dances"},
+  {"id": "yc5d77dbad90", "why": "garbled: options lack states"},
+  {"id": "y893d98ac6aa", "why": "wrong topic: Indian festivals (Assam); no key"},
+  {"id": "y54f55f0fff4", "why": "wrong topic: UNESCO intangible heritage"},
+  {"id": "y16b695d2f44", "why": "wrong topic: NE festivals"},
+  {"id": "yfd5f4c19b71", "why": "wrong topic: Indian pilgrimage (Chardham)"},
+  {"id": "yd69dfc2a290", "why": "garbled: stem truncated, Eluru missing"},
+  {"id": "y7490b972368", "why": "garbled: truncated duplicate of y581625c5e76"}
+ ],
+ "patterns": [
+  "APPSC asks direct one-liners: classical dance of AP (Kuchipudi), Etikoppaka = wooden craft, Reddi-era favourite festival = Vasantotsavam/Spring festival.",
+  "Crafts->place matching (Eluru carpets, Udayagiri cutlery, Narasapur lace, Etikoppaka) and the 1851 London Exhibition carpet designs recur.",
+  "AP vs Telangana trap items (Bidri, Cherial, Nirmal) appear, but keys can follow undivided-AP framing.",
+  "Most filed PYQs are general Indian dance/festival items from other PSCs; APPSC itself stays AP-specific.",
+  "App MCQs lean on multi-statement and 4-way match formats, heavier than APPSC's single-fact style."
+ ],
+ "stats": {"app_mcqs": 25, "pyqs": 31, "fixed": 1, "dropped": 2}
+}

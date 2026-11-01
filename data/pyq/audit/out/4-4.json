@@ -1,0 +1,21 @@
+{
+ "topic": "4:4",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ngeneral-geography-3-19", "why": "ambiguous A-R: whether R explains A is debatable"},
+  {"id": "ngeneral-geography-3-49", "why": "near-duplicate of nb6cfd932118 (Christmas in Australia)"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "ycf049d4a7a9", "why": "suspect key: seasonal contrast is maximum in high latitudes, not mid latitudes; stem garbled"},
+  {"id": "y4cb9867148f", "why": "garbled (mixed stems) and suspect key: Delhi (north of Tropic of Cancer) never gets vertical rays, not Mumbai"},
+  {"id": "y238d4346a8c", "why": "wrong topic: J&K map identification (figure missing)"}
+ ],
+ "patterns": [
+  "APPSC asks single-fact applications: city with longest summer daylight (Srinagar), city that never gets vertical Sun rays (north of 23.5N), latitude with maximum seasonal contrast.",
+  "Other PSCs: Christmas in Australia = summer, smallest noon shadow on 21 June, midnight Sun at Arctic Circle on 21 June.",
+  "Trap themes: distance (perihelion in January) vs tilt as cause; rotation vs revolution.",
+  "App MCQs lean on A-R and match items about mechanism; PYQs are short date/place recall."
+ ],
+ "stats": {"app_mcqs": 23, "pyqs": 9, "fixed": 0, "dropped": 2}
+}

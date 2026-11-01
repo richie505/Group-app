@@ -1,0 +1,25 @@
+{
+ "topic": "3:2",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "n99b9b74d497", "why": "ambiguous: sources differ (7th vs WTO 8th); odd 'Economic Survey account' wording"},
+  {"id": "nef6e6cfaea7", "why": "dubious: overall export target is USD 2 trillion by 2030 (USD 1 tn each goods/services); odd wording"}
+ ],
+ "notes_fix": [
+  {"ref": "13#9", "find": "Overall export target = USD 1 trillion", "replace": "Services export target = USD 1 trillion (overall USD 2 trillion by 2030)", "why": "USD 1 tn is the services (and goods) share, overall target is USD 2 tn"}
+ ],
+ "pyq_bad": [
+  {"id": "ya60fcbb8943", "why": "wrong topic: merchandise export composition"},
+  {"id": "y26812187517", "why": "wrong topic: sectoral regulators (TRAI)"},
+  {"id": "ye9c1b406ea0", "why": "wrong topic: World Bank loan current affairs"},
+  {"id": "yf04317a99d9", "why": "wrong topic: merchandise export trends 2001-02"},
+  {"id": "y7fc4fa7bf7e", "why": "wrong topic: meat exports share"}
+ ],
+ "patterns": [
+  "Direct one-liners: which sector contributes most to GDP (services); PMI indicator (APPSC key: manufacturing sector).",
+  "State comparisons of services share in GSDP (Delhi highest) and India's rank in commercial services exports (8th, 2014).",
+  "IT/software exports appear as assertion-reason items with a hardware trap.",
+  "App MCQs lean on 2025-26 Economic Survey and MoSPI ISP numbers, GATS modes and GCCs - newer and deeper than PYQs."
+ ],
+ "stats": {"app_mcqs": 22, "pyqs": 11, "fixed": 0, "dropped": 2}
+}

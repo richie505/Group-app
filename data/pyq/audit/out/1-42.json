@@ -1,0 +1,25 @@
+{
+ "topic": "1:42",
+ "mcq_fix": [
+  {"id": "n10861534a06", "s": "Match List-I with List-II: List-I A. Gandhara art B. Junagadh rock inscription C. Milindapanho D. Taxila copper plate; List-II 1. Rudradaman I 2. Menander 3. Patika 4. Kushanas. Which of the following is correct?", "why": "garbled wording ('arrange ... in correct order from the matching tradition') for a match item"},
+  {"id": "n436d84364a8", "s": "Consider the following statements about the historical significance of the Indo-Greek period: 1. It contributed to a Greek-Indian synthesis in Gandhara art. 2. It contributed to religious interaction represented by Heliodorus. 3. It contributed to philosophical exchange represented by the Milindapanho. Which of the statements given above are correct?", "why": "stem said 'which statement best explains' for a multi-statement item"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "0#0", "find": "First gold coins + dated royal coinage", "replace": "First gold coins + first coins definitely attributable to kings", "why": "Indo-Greek coins are not dated; their novelty is attribution to named kings"},
+  {"ref": "12#0", "find": "first gold coins + dated royal coinage", "replace": "first gold coins + coins attributable to named kings", "why": "Indo-Greek coins are not dated"}
+ ],
+ "pyq_bad": [
+  {"id": "yaccaae9ea3f", "why": "garbled (text of next question mixed in); wrong topic: etymology of democracy"},
+  {"id": "y93df18c3e12", "why": "mental ability"},
+  {"id": "y66ae2414806", "why": "wrong topic: Polygars of Vijayanagara / South India"}
+ ],
+ "patterns": [
+  "Core facts asked directly: Milindapanha = Menander-Nagasena dialogue; Bactria in north Afghanistan; Sankarshana-Vasudeva coins = Agathocles.",
+  "Chronology of invaders (Greeks - Sakas - Kushanas) is a repeated order question.",
+  "Coin traps: Indo-Greeks first gold coins vs Kushanas largest gold/copper issues; military governorship first by Greeks.",
+  "Site trivia (16 Menander coins at Bairat) appears in state PSCs.",
+  "App MCQs cover the same core but use many multi-statement items; APPSC itself asks almost nothing direct on this topic."
+ ],
+ "stats": {"app_mcqs": 24, "pyqs": 15, "fixed": 2, "dropped": 0}
+}

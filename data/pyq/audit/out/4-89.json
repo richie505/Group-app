@@ -1,0 +1,25 @@
+{
+ "topic": "4:89",
+ "mcq_fix": [
+  {"id": "nafe63c31a42", "o": ["TELCO — Jamshedpur", "BHEL electric locomotives — Kochi", "Bharat Earth Movers Ltd (BEML) — Patiala only", "Rail Wheel Factory — Jamshedpur"], "why": "company name garbled: Bharat Earth Movers Ltd"}
+ ],
+ "mcq_drop": [
+  {"id": "n6f6c86d78ba", "why": "obscure trivia beyond PYQ depth"},
+  {"id": "n4fc2d28ad0c", "why": "obscure GDP-share statistic, unverifiable"}
+ ],
+ "notes_fix": [
+  {"ref": "8#2", "find": "Bharat Movers Ltd, Bengaluru", "replace": "Bharat Earth Movers Ltd (BEML), Bengaluru", "why": "name garbled"}
+ ],
+ "pyq_bad": [
+  {"id": "y4b80cd7354d", "why": "garbled: options truncated, pairs missing"},
+  {"id": "yc6bf231adaa", "why": "wrong topic: aluminium industry"}
+ ],
+ "patterns": [
+  "Railway production units dominate: Varanasi (DLW/BLW, now electric), Perambur coaches, Rae Bareli third coach factory, Chittaranjan.",
+  "Single-fact location items: Alang-Sosiya (Gujarat) shipbreaking (APPSC 2022), GRSE diesel engine plant Ranchi.",
+  "Nicknames asked: Silicon Valley = Bengaluru, Silicon State = Karnataka.",
+  "PYQs ignore schemes (PLI, FAME, ISM); app has many scheme/data-figure MCQs with current-affairs numbers.",
+  "App adds AP angle (Sri City, Kia, Parawada, VCIC) which suits APPSC tilt."
+ ],
+ "stats": {"app_mcqs": 28, "pyqs": 12, "fixed": 1, "dropped": 2}
+}

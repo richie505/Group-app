@@ -1,0 +1,26 @@
+{
+ "topic": "4:77",
+ "mcq_fix": [
+  {"id": "nf0f163048ff", "s": "Consider the following statements about urbanisation in Andhra Pradesh (Census 2011): 1. AP was the most urbanised of the southern States. 2. Tamil Nadu's urban share (about 48 per cent) was well above AP's. 3. About 29.47 per cent of AP's population was urban, below the all-India figure of 31.16 per cent. Which of the statements given above is/are correct?", "why": "TN urban share in Census 2011 was 48.4%, not over 50%"},
+  {"id": "ncee262f33b3", "s": "As per Census 2011, how many cities of Andhra Pradesh had a population of more than one lakh?", "why": "stem oddly cites an answer key"},
+  {"id": "n2d65e6e0c8d", "s": "Which one of the following correctly states the Census definition of an urban area (census town)?", "why": "stem wording 'in the context described' is odd"}
+ ],
+ "mcq_drop": [],
+ "notes_fix": [
+  {"ref": "0#2", "find": "TN over 50%", "replace": "TN about 48% (2011)", "why": "Census 2011 TN urban share 48.4%"}
+ ],
+ "pyq_bad": [
+  {"id": "yf1a6c78a0c4", "why": "garbled: duplicate of ybc8f6b51d14 with stray '28' in options"},
+  {"id": "y6a2cbdee9fb", "why": "garbled: options run into the next question (Lodha Committee)"},
+  {"id": "y98d93f75252", "why": "wrong topic: Satavahana history"},
+  {"id": "y04f00fe14c3", "why": "garbled (pair options missing); wrong topic: world capitals"}
+ ],
+ "patterns": [
+  "APPSC asks AP urban facts as single-fact items: least urbanised southern State, largest city (Visakhapatnam), number of 1-lakh+ cities (32).",
+  "Scheme-city items: HRIDAY town in AP = Amaravati; Smart Cities list; AMRUT Ease of Living 2018 ranking (AP 1st).",
+  "City nicknames (City of Destiny, Andhra Paris = Tenali) recur in 2019 and 2025 papers.",
+  "Migration patterns and metropolitan regions are barely tested by PYQs; app adds UDAs, economic regions and corridors in depth.",
+  "Several app stems lean on 2025-26 survey numbers and odd 'context described' phrasing that no exam uses."
+ ],
+ "stats": {"app_mcqs": 24, "pyqs": 5, "fixed": 3, "dropped": 0}
+}

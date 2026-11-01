@@ -1,0 +1,21 @@
+{
+ "topic": "5:107",
+ "mcq_fix": [
+  {"id": "n840ef8869b3", "s": "Consider the following statements about disease surveillance in India: 1. The Integrated Disease Surveillance Programme (IDSP) was launched in 2004 and now runs under the National Health Mission. 2. IDSP works through a Central Surveillance Unit in Delhi along with State and District Surveillance Units. 3. The Integrated Health Information Platform (IHIP) was launched nationwide in 2018. Which of the statements given above is/are correct?", "why": "IDSP (Nov 2004) predates NHM/NRHM (2005)"}
+ ],
+ "mcq_drop": [
+  {"id": "n76e45f46fe0", "why": "24h/3-day reporting is IDSP practice, not a provision of the 1897 Act; dubious framing"}
+ ],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y080383df798", "why": "wrong topic: instruments (hygrometer)"},
+  {"id": "ydb1fd690f41", "why": "suspect key: MoHFW (option 2) is nodal ministry for biological disasters per NDMA 2008 guidelines; key says MHA"}
+ ],
+ "patterns": [
+  "APPSC asks this topic through disaster-management lenses: nodal ministry for biological disasters, DM-cycle phase of an action (vaccines before outbreak = mitigation).",
+  "Several APPSC items test GIS/geospatial tools: network analysis for fastest routes, real-time spatial mapping for vaccine distribution, contact tracing (statement form).",
+  "AP-specific item: Covid Pharma app (25 Apr 2020) for over-the-counter cough/cold/fever medicine buyers.",
+  "App is heavy on multi-statement items about 2020 amendment, IHR, PM-ABHIM numbers and 2026 current affairs that PYQs never reach; PYQs are short direct items."
+ ],
+ "stats": {"app_mcqs": 26, "pyqs": 6, "fixed": 1, "dropped": 1}
+}

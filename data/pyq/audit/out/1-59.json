@@ -1,0 +1,21 @@
+{
+ "topic": "1:59",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "y8da3a903fd4", "why": "suspect key: Pandya lifeline is the Vaigai; 'Vengi' is a region, not a river"},
+  {"id": "y9251459201f", "why": "wrong topic: temple architecture (Meenakshi temple, Madurai)"},
+  {"id": "y6c879a2363a", "why": "wrong topic: imperial Chola administration (village autonomy)"},
+  {"id": "y720d38451a5", "why": "wrong topic: early medieval south Indian dynasties (6th-12th c.)"},
+  {"id": "yaac09405b95", "why": "wrong topic: Satavahanas (Simuka)"}
+ ],
+ "patterns": [
+  "Direct one-liners: odd-one-out dynasty not Sangam (Pallava, Kadamba), Chera capital Vanji/Karur, Udiyanjeral = Chera.",
+  "Ports are the most recurrent fact: Korkai/Puhar east coast vs Tondi/Muziris west coast; Korkai, Poompuhar, Muchiri = ports.",
+  "Roman link: Cheras traded with Rome; Pandya embassy to Augustus (26 BC).",
+  "Polity terms (Ko, Kon, Mannan = king) appear as simple meaning items.",
+  "App adds ruler-achievement matches and Pattini cult detail; sound, a bit deeper than PYQs."
+ ],
+ "stats": {"app_mcqs": 27, "pyqs": 14, "fixed": 0, "dropped": 0}
+}

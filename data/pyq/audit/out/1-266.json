@@ -1,0 +1,21 @@
+{
+ "topic": "1:266",
+ "mcq_fix": [
+  {"id": "n16c767adba2", "s": "Match List-I with List-II: List-I (Organisation) a. Andhra Mahila Sabha b. Progressive Organisation of Women c. Stree Shakti Sanghatana d. Mahila Dakshata Samiti List-II (Year) i. 1978 ii. 1937 iii. 1977 iv. 1974 Choose the correct answer using the code given below.", "why": "Mahila Dakshata Samiti was founded in 1977 (Suman Krishnakant, Delhi), not 1990"}
+ ],
+ "mcq_drop": [
+  {"id": "nf8006ef64f0", "why": "opinion item ('best represents broad evolution')"}
+ ],
+ "notes_fix": [
+  {"ref": "0#6", "find": "1990 — Mahila Dakshata Samiti: Suman Krishnakant", "replace": "1977 — Mahila Dakshata Samiti: Suman Krishnakant (AP branches later)", "why": "MDS founded 1977 (established fact)"},
+  {"ref": "6#0", "find": "Suman Krishnakant 1990", "replace": "Suman Krishnakant 1977 (founded in Delhi)", "why": "MDS founded 1977 (established fact)"}
+ ],
+ "pyq_bad": [],
+ "patterns": [
+  "No PYQs filed: APPSC would likely ask direct org-founder-year items (Andhra Mahila Sabha 1937, POW 1974, Stree Shakti Sanghatana 1978).",
+  "AP 'firsts' (first woman Governor Sharda Mukherjee, first woman Speaker Pratibha Bharati) and the 1986 AP coparcenary amendment are natural single-fact items.",
+  "Devadasi/Jogini laws (Madras 1947, AP 1988) and Bhagya Reddy Varma's 1919 demand give the AP social-reform tilt.",
+  "App mixes in national schemes (BBBP, Sashakt Panchayat Netri) that sit outside the 1956-2014 frame."
+ ],
+ "stats": {"app_mcqs": 13, "pyqs": 0, "fixed": 1, "dropped": 1}
+}

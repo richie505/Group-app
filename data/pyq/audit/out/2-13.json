@@ -1,0 +1,21 @@
+{
+ "topic": "2:13",
+ "mcq_fix": [],
+ "mcq_drop": [{"id": "need779ba389", "why": "opinion/debate item, not exam-shaped"}],
+ "notes_fix": [
+  {"ref": "5#0", "find": "Vote Constitutional, not FR", "replace": "Vote Legal (statutory) right, not FR", "why": "PYQs y0271ec280d6, y381984a7ccb, yf64ac80dcd1 key right to vote as legal right"},
+  {"ref": "11#5", "find": "Vote = Art. 326 constitutional right", "replace": "Vote = legal/statutory right (Sec. 62 RPA 1951; adult suffrage in Art. 326)", "why": "PYQs y0271ec280d6, y381984a7ccb, yf64ac80dcd1"}
+ ],
+ "pyq_bad": [
+  {"id": "y76aa8467a22", "why": "garbled: options truncated, article numbers missing"},
+  {"id": "ye9ce32c0e57", "why": "suspect key: 3 (statutory); property is a constitutional legal right under Art. 300A - option 4 Legal Right"}
+ ],
+ "patterns": [
+  "Most-asked single fact: present status of right to property = legal right (Art. 300A, Part XII), via the 44th Amendment 1978; often as A-R or two-statement form.",
+  "Right to vote / to be elected is keyed as a legal (statutory) right, not FR or constitutional right - a recurring trap.",
+  "Article-number recall: Art. 30 (minority institutions), Art. 29, Art. 350A (mother tongue at primary stage).",
+  "UPSC adds 'available to any person' nuance for Art. 300A.",
+  "App MCQs add LARR 2013 numbers, case names (Pramati, T.M.A. Pai) and current affairs beyond PYQ depth."
+ ],
+ "stats": {"app_mcqs": 18, "pyqs": 20, "fixed": 0, "dropped": 1}
+}

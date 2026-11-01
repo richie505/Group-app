@@ -1,0 +1,24 @@
+{
+ "topic": "1:155",
+ "mcq_fix": [],
+ "mcq_drop": [
+  {"id": "ne53a19cef76", "why": "order conflicts with APPSC-G1 key yec71d651f91 (Yanam last); Yanam date disputed (1723/1731/1750)"},
+  {"id": "n96f0fb43e1a", "why": "statement 1 has no referent ('It ended...') and its geography is muddled"}
+ ],
+ "notes_fix": [
+  {"ref": "5#2", "find": "Order: Surat > Pondicherry > Yanam > Mahe > Karaikal (APPSC-G1 2024)", "replace": "Order per APPSC-G1 key: Surat > Pondicherry > Mahe > Karaikal > Yanam (Yanam formally ceded c.1750; by 1723 factory date it precedes Mahe)", "why": "yec71d651f91 key = option 3"},
+  {"ref": "7#1", "find": "Order key: Surat > Pondicherry > Yanam > Mahe > Karaikal (APPSC-G1 2024)", "replace": "Order key (APPSC-G1): Surat > Pondicherry > Mahe > Karaikal > Yanam", "why": "yec71d651f91 key = option 3"}
+ ],
+ "pyq_bad": [
+  {"id": "y544c368cffc", "why": "garbled: Karakum desert stem with Indian-state options"},
+  {"id": "yaa65bbd59a1", "why": "wrong topic: tennis Grand Slam"}
+ ],
+ "patterns": [
+  "APPSC tilt is strong: first French centre in Andhra (Machilipatnam 1669), only French settlement in Andhra (Yanam), Bobbili 1757.",
+  "Chronology of settlements asked as an order item; the official key puts Yanam last - a trap where sources disagree.",
+  "Direct date items: French control of Pondicherry (1674), Treaty of Ryswick restoration (1697).",
+  "Other PSCs ask founder (Colbert), reign (Louis XIV), earliest factory (Surat), Dupleix as first to meddle in princes' quarrels.",
+  "App adds detailed Carnatic/Northern Circars multi-statement items; mostly sound but heavier than PYQ depth."
+ ],
+ "stats": {"app_mcqs": 25, "pyqs": 9, "fixed": 0, "dropped": 2}
+}

@@ -1,0 +1,16 @@
+{
+ "topic": "5:40",
+ "mcq_fix": [],
+ "mcq_drop": [],
+ "notes_fix": [],
+ "pyq_bad": [
+  {"id": "yd12ee6d6f84", "why": "suspect key: PROBA (ESA, built in Belgium) is a correct pair; TUBSAT is German, so the wrong pair is option 4 (TUBSAT-Italy)"}
+ ],
+ "patterns": [
+  "APPSC G1 asks foreign customer satellites launched by PSLV: satellite-country pairs (PROBA, BIRD, KITSAT, TUBSAT) and AGILE (Italy, PSLV-C8).",
+  "'Identify the wrong pair' format recurs for satellite-country/vehicle matching.",
+  "Likely current angles: vehicle-satellite pairing (GSLV-F14 INSAT-3DS 2024 trap), SpaDeX docking, record launches (PSLV-C37, 104).",
+  "App focuses on 2024-26 missions and failures; PYQs are older commercial-launch recall."
+ ],
+ "stats": {"app_mcqs": 16, "pyqs": 2, "fixed": 0, "dropped": 0}
+}
