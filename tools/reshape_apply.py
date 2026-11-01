@@ -54,6 +54,26 @@ def place_key(qid, o, a, shape, stem):
     return o, slot
 
 
+def swap_two(qid, s, o, a, x):
+    """Two-statement sets lean to '1 only' (writers put the true fact first). For about 40% of those, swap statements
+    1 and 2 (and every 'statement 1/2' in the explanation) so the key becomes '2 only'. Returns (s, x, a) or None."""
+    import hashlib
+    if [t.lower() for t in o[:2]] != ["1 only", "2 only"] or a != 0:
+        return None
+    if int(hashlib.md5((qid + "#2").encode()).hexdigest()[:8], 16) % 10 >= 4:
+        return None
+    m = re.fullmatch(r"(?s)(.*?\n)1\.\s*(.+?)\n2\.\s*(.+?)(\n.*)", s)
+    if not m or re.search(r"\n3\.", s):
+        return None
+    s2 = f"{m.group(1)}1. {m.group(3).strip()}\n2. {m.group(2).strip()}{m.group(4)}"
+    if re.search(r"(?i)\b(?:first|second)\b(?!\s+(?:largest|highest|most|time))", x):
+        return None  # explanation says "the first/second statement": leave the set as it is
+    flip = lambda k: k.group(1) + ("2" if k.group(2) == "1" else "1")
+    x2 = re.sub(r"(?i)\b(statement\s*\(?)([12])\b(?!\s*(?:and|&|,)\s*[12])", flip, x)
+    x2 = re.sub(r"(?i)(\b|\()([12])(\)?\s+only\b)", lambda k: k.group(1) + ("2" if k.group(2) == "1" else "1") + k.group(3), x2)
+    return s2, x2, 1
+
+
 def valid(r):
     o = r.get("o")
     return (isinstance(r.get("s"), str) and len(r["s"].strip()) >= 10 and isinstance(o, list) and len(o) == 4
@@ -94,8 +114,12 @@ def main():
                         o, a = [o[k] for k in order], order.index(a)
                     elif movable(r, o):
                         o, a = place_key(q["id"], o, a, r.get("shape", ""), r["s"])
-                    q["s"], q["o"], q["a"] = r["s"].strip(), o, a
-                    q["x"] = (r.get("x") or "").strip()
+                    s, x = r["s"].strip(), (r.get("x") or "").strip()
+                    sw = swap_two(q["id"], s, o, a, x)
+                    if sw:
+                        s, x, a = sw
+                    q["s"], q["o"], q["a"] = s, o, a
+                    q["x"] = x
                     for k in ("xs", "tq", "t"):
                         q.pop(k, None)
                     # extra notes stay only if they do not point at the old options / statements
