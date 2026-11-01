@@ -31,7 +31,7 @@ def valid(r):
 
 def main():
     new, bad = {}, 0
-    for f in sorted(glob.glob("data/reshape/out/*.json")):
+    for f in sorted(f for f in glob.glob("data/reshape/out/*.json") if re.fullmatch(r"\d+\.json", f.rsplit("/", 1)[-1])):
         try:
             d = json.load(open(f))
         except ValueError:

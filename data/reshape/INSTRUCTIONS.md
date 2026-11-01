@@ -38,7 +38,7 @@ If the TARGET shape cannot be built honestly from the facts given, use the neare
 say so in "shape". Keep stems free of "Select the correct answer using the code given below" boilerplate except where a
 code is genuinely needed.
 
-Write `data/reshape/out/<n>.json` (same number as your packet): a JSON object
+Write the final `data/reshape/out/<n>.json` (put any partial files in your scratch folder, never in data/reshape/out) (same number as your packet): a JSON object
 {"<id>": {"shape": "<shape you wrote>", "s": "stem (use \n between numbered statements)", "o": ["..","..","..",".."],
 "a": <0-based index of the key>, "x": "1-2 sentences: why the key is right (and for NOT: why that statement is false)"}, ...}
 Every id in the packet must appear. Spread the key across positions 1-4 rather than always the same slot.
