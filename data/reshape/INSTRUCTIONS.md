@@ -52,3 +52,7 @@ Some packets ask you to restyle MCQs without changing their shape. For each:
 - Otherwise rewrite it in the same shape the APPSC way: shorten the stem, cut "Select the correct answer using the code
   given below" style boilerplate, make the decoys plausible near-misses of the same kind, keep the same fact and key, and
   give the usual {"shape", "s", "o", "a", "x"}. A statement set must keep at most 3 statements.
+
+## Working files
+If you need scratch files, put them ONLY in /tmp/claude-0/-home-user-Group-app/9d62697f-c2bc-5d71-9828-630e63a36f4a/scratchpad/reshape-<packet number>/
+(other rewriters run at the same time; never use or touch a shared folder or another packet's files).
