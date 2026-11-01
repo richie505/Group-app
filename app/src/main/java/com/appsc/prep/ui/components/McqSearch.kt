@@ -12,15 +12,31 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.OpenInNew
 import androidx.compose.material.icons.outlined.AutoAwesome
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberModalBottomSheetState
+import androidx.compose.foundation.gestures.detectVerticalDragGestures
+import androidx.compose.foundation.layout.size
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.offset
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.ui.unit.IntOffset
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+import kotlin.math.roundToInt
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableFloatStateOf
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.input.pointer.pointerInput
+import kotlinx.coroutines.launch
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableStateOf
@@ -54,48 +70,84 @@ fun mcqPrompt(q: Question): String =
         "\nWhich option is correct? Give the answer and a short reason with sources."
 
 /**
- * Google for the MCQ on screen, in a sheet that slides up from the bottom; swipe it down (or Back) to close.
- * Two tabs: Google's results for the question, and Google's AI Mode answering the whole MCQ.
+ * Google for the MCQ on screen, in a sheet that slides up from the bottom. The page scrolls; drag the top bar
+ * (with the handle) down, or press Back, to close. Two tabs: Google's results for the question ([results],
+ * preloaded while the question shows) and Google's AI Mode answering the whole MCQ ([ai]).
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun McqSearchSheet(q: Question, onClose: () -> Unit) {
+fun McqSearchSheet(q: Question, results: WebHolder?, ai: WebHolder?, onClose: () -> Unit) {
     val platform = LocalApp.current.platform
-    val sheet = rememberModalBottomSheetState(skipPartiallyExpanded = true)
-    var ai by remember(q.id) { mutableStateOf(false) }
+    val scope = rememberCoroutineScope()
+    var aiTab by remember(q.id) { mutableStateOf(false) }
     var told by remember(q.id) { mutableStateOf<String?>(null) }
-    val url = if (ai) googleAiUrl(mcqPrompt(q)) else googleUrl(mcqQuery(q))
+    val url = if (aiTab) googleAiUrl(mcqPrompt(q)) else googleUrl(mcqQuery(q))
+    val holder = if (aiTab) ai else results
+    LaunchedEffect(url) { holder?.load(url) }
     val back = remember { mutableStateOf<(() -> Boolean)?>(null) }
-    ModalBottomSheet(
-        onDismissRequest = onClose,
-        sheetState = sheet,
-        containerColor = Color.White,
-        shape = RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp),
-    ) {
-        Column(Modifier.fillMaxWidth().fillMaxHeight(0.92f)) {
-            Row(
-                Modifier.fillMaxWidth().padding(start = 16.dp, end = 4.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(8.dp),
+    // how far the sheet sits below its open place (px): slides up on open, follows the finger on the top bar
+    val offset = remember { Animatable(Float.MAX_VALUE) }
+    var height by remember { mutableFloatStateOf(0f) }
+    fun close() {
+        scope.launch { offset.animateTo(height, tween(220)); onClose() }
+    }
+    Dialog(onDismissRequest = { close() }, properties = DialogProperties(usePlatformDefaultWidth = false, decorFitsSystemWindows = false)) {
+        Box(Modifier.fillMaxSize()) {
+            Box(Modifier.fillMaxSize().background(Color(0x66000000)).pointerInput(Unit) { detectTapGestures { close() } })
+            Column(
+                Modifier.align(Alignment.BottomCenter).fillMaxWidth().fillMaxHeight(0.94f)
+                    .onSizeChanged {
+                        if (height == 0f) {
+                            height = it.height.toFloat()
+                            scope.launch { offset.snapTo(height); offset.animateTo(0f, tween(260)) }
+                        }
+                    }
+                    .offset { IntOffset(0, offset.value.coerceIn(0f, if (height > 0f) height else 0f).roundToInt()) }
+                    .graphicsLayer { alpha = if (height > 0f) 1f else 0f } // not seen before it can slide up
+                    .clip(RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp))
+                    .background(Color.White),
             ) {
-                FilterChip(selected = !ai, onClick = { ai = false }, label = { Text("Google results") })
-                FilterChip(selected = ai, onClick = { ai = true }, label = { Text("AI answer") })
-                Box(Modifier.weight(1f))
-                IconButton(onClick = { told = platform.askGemini(mcqPrompt(q)) }) {
-                    Icon(Icons.Outlined.AutoAwesome, "Ask Gemini", tint = C.Accent)
+                // the top bar: drag it down to close; the page below scrolls on its own
+                Column(
+                    Modifier.fillMaxWidth().pointerInput(Unit) {
+                        detectVerticalDragGestures(
+                            onDragEnd = {
+                                if (offset.value > height * 0.2f) close() else scope.launch { offset.animateTo(0f, tween(180)) }
+                            },
+                        ) { change, dy ->
+                            change.consume()
+                            scope.launch { offset.snapTo((offset.value + dy).coerceAtLeast(0f)) }
+                        }
+                    },
+                ) {
+                    Box(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 6.dp), contentAlignment = Alignment.Center) {
+                        Box(Modifier.size(width = 40.dp, height = 5.dp).clip(RoundedCornerShape(3.dp)).background(C.Faint))
+                    }
+                    Row(
+                        Modifier.fillMaxWidth().padding(start = 16.dp, end = 4.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    ) {
+                        FilterChip(selected = !aiTab, onClick = { aiTab = false }, label = { Text("Google results") })
+                        FilterChip(selected = aiTab, onClick = { aiTab = true }, label = { Text("AI answer") })
+                        Box(Modifier.weight(1f))
+                        IconButton(onClick = { told = platform.askGemini(mcqPrompt(q)) }) {
+                            Icon(Icons.Outlined.AutoAwesome, "Ask Gemini", tint = C.Accent)
+                        }
+                        IconButton(onClick = { platform.openInBrowser(url) }) {
+                            Icon(Icons.AutoMirrored.Outlined.OpenInNew, "Open in Chrome", tint = C.Ink)
+                        }
+                    }
+                    Text(
+                        told ?: "Drag this bar down to close. Check the answer against more than one source.",
+                        style = TextStyle(fontSize = 12.sp, color = if (told != null) C.Green else C.Muted, fontWeight = FontWeight.Normal),
+                        modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
+                    )
                 }
-                IconButton(onClick = { platform.openInBrowser(url) }) {
-                    Icon(Icons.AutoMirrored.Outlined.OpenInNew, "Open in Chrome", tint = C.Ink)
-                }
+                HorizontalDivider(color = C.Line)
+                val page = Modifier.fillMaxWidth().weight(1f).background(Color.White)
+                if (holder != null) key(aiTab) { holder.Show(page) }
+                else key(url) { platform.WebPage(url, page, back, null) }
             }
-            Text(
-                told ?: "Swipe down here to close. Check the answer against more than one source.",
-                style = TextStyle(fontSize = 12.sp, color = if (told != null) C.Green else C.Muted, fontWeight = FontWeight.Normal),
-                modifier = Modifier.padding(horizontal = 16.dp, vertical = 2.dp),
-            )
-            HorizontalDivider(color = C.Line)
-            // a fresh page for each tab
-            key(url) { platform.WebPage(url, Modifier.fillMaxWidth().weight(1f).background(Color.White), back, null) }
         }
     }
 }

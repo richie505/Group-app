@@ -51,10 +51,26 @@ import com.appsc.prep.data.Repository
 import com.appsc.prep.ui.theme.C
 
 /** What differs between the Android and Windows apps. */
+/** A preloadable web page ([Platform.rememberWebHolder]). */
+interface WebHolder {
+    /** Starts loading [url] unless it is already there (or loading). */
+    fun load(url: String)
+
+    @Composable
+    fun Show(modifier: Modifier)
+}
+
 interface Platform {
     /** True on Windows: wider layout and keyboard shortcuts. */
     val desktop: Boolean
     fun share(title: String, text: String)
+
+    /**
+     * A web page kept alive while the screen shows (not rebuilt on each open) that can start loading before it is
+     * shown: the MCQ search sheet preloads Google's results for the question on screen. Null: none (Windows).
+     */
+    @Composable
+    fun rememberWebHolder(): WebHolder? = null
     @Composable
     fun BackHandler(enabled: Boolean, onBack: () -> Unit)
 

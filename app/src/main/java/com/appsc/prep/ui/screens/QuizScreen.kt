@@ -154,7 +154,15 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
                 IconButton(onClick = { editOpen.value = true }) { Icon(Icons.Filled.Edit, "Correct this MCQ", tint = C.Accent) }
             }
         }
-        if (searching) shown.value?.let { McqSearchSheet(it) { searching = false } }
+        // Google's results for the question on screen start loading a moment after it shows, so the sheet opens on them
+        val results = app.platform.rememberWebHolder()
+        val ai = app.platform.rememberWebHolder()
+        LaunchedEffect(shown.value?.id) {
+            val q = shown.value ?: return@LaunchedEffect
+            kotlinx.coroutines.delay(700)
+            results?.load(com.appsc.prep.ui.components.googleUrl(com.appsc.prep.ui.components.mcqQuery(q)))
+        }
+        if (searching) shown.value?.let { McqSearchSheet(it, results, ai) { searching = false } }
         if (pool == null) {
             Loading()
             return@Column

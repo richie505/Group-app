@@ -7,6 +7,7 @@ import androidx.compose.runtime.MutableState
 import androidx.compose.ui.Modifier
 import com.appsc.prep.data.Storage
 import com.appsc.prep.ui.components.Platform
+import com.appsc.prep.ui.components.WebHolder
 import com.appsc.prep.ui.components.WebText
 
 class PrefsStorage(context: Context) : Storage {
@@ -92,6 +93,15 @@ class AndroidPlatform(private val context: Context) : Platform {
      * Google inside the app: an Android WebView that keeps every link in the app. The page's copy menu does not
      * show inside the app's pop-up, so the last text selected is kept here and handed to [selected].
      */
+    @android.annotation.SuppressLint("SetJavaScriptEnabled")
+    @Composable
+    override fun rememberWebHolder(): WebHolder? {
+        val ctx = androidx.compose.ui.platform.LocalContext.current
+        val holder = androidx.compose.runtime.remember { AndroidWebHolder(ctx) }
+        androidx.compose.runtime.DisposableEffect(holder) { onDispose { holder.web.destroy() } }
+        return holder
+    }
+
     @android.annotation.SuppressLint("SetJavaScriptEnabled", "JavascriptInterface")
     @Composable
     override fun WebPage(
@@ -146,5 +156,40 @@ class AndroidPlatform(private val context: Context) : Platform {
         const val PAGE_TEXT = "(function(){var seen={},p=[];String(document.body.innerText||'').split(/\\n+/).forEach(function(l){" +
             "l=l.replace(/\\s+/g,' ').trim();if(l.length>=20&&!seen[l]){seen[l]=1;p.push(l);}});" +
             "return JSON.stringify({s:String(window.getSelection()),p:p.slice(0,150)});})()"
+    }
+}
+
+
+/** One WebView for the MCQ search, kept between opens; [load] can run before it is on screen. */
+@android.annotation.SuppressLint("SetJavaScriptEnabled")
+private class AndroidWebHolder(ctx: Context) : WebHolder {
+    val web = android.webkit.WebView(ctx).apply {
+        settings.javaScriptEnabled = true // Google's pages need it
+        settings.domStorageEnabled = true
+        settings.cacheMode = android.webkit.WebSettings.LOAD_DEFAULT
+        settings.setSupportZoom(false)
+        isVerticalScrollBarEnabled = true
+        webViewClient = android.webkit.WebViewClient() // links open here, not in Chrome
+        // the page scrolls by itself: the sheet around it must not take the drag
+        setOnTouchListener { v, e ->
+            if (e.actionMasked == android.view.MotionEvent.ACTION_DOWN) v.parent?.requestDisallowInterceptTouchEvent(true)
+            false
+        }
+    }
+    private var current = ""
+
+    override fun load(url: String) {
+        if (url == current) return
+        current = url
+        web.loadUrl(url)
+    }
+
+    @Composable
+    override fun Show(modifier: Modifier) {
+        androidx.compose.ui.viewinterop.AndroidView(
+            factory = { (web.parent as? android.view.ViewGroup)?.removeView(web); web },
+            modifier = modifier,
+            onRelease = { (it.parent as? android.view.ViewGroup)?.removeView(it) }, // kept for the next open
+        )
     }
 }
