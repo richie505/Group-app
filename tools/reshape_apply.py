@@ -22,6 +22,36 @@ def num(x):
         return None
 
 
+# where APPSC keys its answer (data/pyq/secrets.json): ordinary questions, and NOT / INCORRECT questions
+POS = [0.27, 0.27, 0.25, 0.21]
+POS_NOT = [0.22, 0.22, 0.21, 0.35]
+
+
+def movable(r, o):
+    """Options in no natural order: not codes, not assertion-reason, no 'All / None / Both' option."""
+    sh = r.get("shape", "")
+    if sh.startswith(("assertion", "statements", "sequence")):
+        return False
+    return not any(re.search(r"(?i)^(?:all|none|both|neither)\b|of the above|^\(?[1-4ivx]+\)?(?:\s*(?:,|and)\s*\(?[1-4ivx]+\)?)+", x) for x in o)
+
+
+def place_key(qid, o, a, shape, stem):
+    """Move the key to a slot drawn (deterministically, from the id) from APPSC's own key positions."""
+    import hashlib
+    neg = shape.startswith("NOT") or re.search(r"\b(?:NOT|INCORRECT|INCORRECTLY|EXCEPT)\b", stem)
+    w = POS_NOT if neg else POS
+    u = int(hashlib.md5(qid.encode()).hexdigest()[:8], 16) / 0xFFFFFFFF
+    slot, acc = 3, 0.0
+    for i, p in enumerate(w):
+        acc += p
+        if u < acc:
+            slot = i
+            break
+    o = list(o)
+    o[a], o[slot] = o[slot], o[a]
+    return o, slot
+
+
 def valid(r):
     o = r.get("o")
     return (isinstance(r.get("s"), str) and len(r["s"].strip()) >= 10 and isinstance(o, list) and len(o) == 4
@@ -60,6 +90,8 @@ def main():
                     if all(v is not None for v in nums) and len(set(nums)) == 4:  # APPSC prints numbers and years in order
                         order = sorted(range(4), key=lambda k: nums[k])
                         o, a = [o[k] for k in order], order.index(a)
+                    elif movable(r, o):
+                        o, a = place_key(q["id"], o, a, r.get("shape", ""), r["s"])
                     q["s"], q["o"], q["a"] = r["s"].strip(), o, a
                     q["x"] = (r.get("x") or "").strip()
                     for k in ("xs", "tq", "t"):
