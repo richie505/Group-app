@@ -118,7 +118,8 @@ fun McqSearchSheet(
     fun close() {
         scope.launch { offset.animateTo(height, tween(220)); onClose() }
     }
-    Dialog(onDismissRequest = { close() }, properties = DialogProperties(usePlatformDefaultWidth = false, decorFitsSystemWindows = false)) {
+    // Back: a page back in the results first (a site opened from them), then closes
+    Dialog(onDismissRequest = { if (holder?.goBack() != true && back.value?.invoke() != true) close() }, properties = DialogProperties(usePlatformDefaultWidth = false, decorFitsSystemWindows = false)) {
         Box(Modifier.fillMaxSize()) {
             Box(Modifier.fillMaxSize().background(Color(0x66000000)).pointerInput(Unit) { detectTapGestures { close() } })
             Column(

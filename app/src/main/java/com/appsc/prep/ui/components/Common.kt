@@ -59,6 +59,9 @@ interface WebHolder {
     @Composable
     fun Show(modifier: Modifier)
 
+    /** Goes back a page; false when there is none (then Back closes what shows the page). */
+    fun goBack(): Boolean = false
+
     /** What is selected on the page (or was last) and its paragraphs ([WebText]). */
     fun pageText(done: (WebText) -> Unit) = done(WebText("", emptyList()))
 }

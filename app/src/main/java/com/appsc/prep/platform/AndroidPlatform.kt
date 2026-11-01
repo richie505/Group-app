@@ -122,7 +122,7 @@ class AndroidPlatform(private val context: Context) : Platform {
                             fun selected(text: String) { if (text.isNotBlank()) last = text }
                         }, "PrepApp")
                     }
-                    webViewClient = object : android.webkit.WebViewClient() { // links open here, not in Chrome
+                    webViewClient = object : InAppClient() { // links open here, not in Chrome
                         override fun onPageFinished(view: android.webkit.WebView, url: String?) {
                             if (selected != null) view.evaluateJavascript(WATCH_SELECTION, null)
                         }
@@ -174,7 +174,7 @@ private class AndroidWebHolder(ctx: Context) : WebHolder {
             @android.webkit.JavascriptInterface
             fun selected(text: String) { if (text.isNotBlank()) last = text }
         }, "PrepApp")
-        webViewClient = object : android.webkit.WebViewClient() { // links open here, not in Chrome
+        webViewClient = object : InAppClient() { // links open here, not in Chrome
             override fun onPageFinished(view: android.webkit.WebView, url: String?) {
                 view.evaluateJavascript(AndroidPlatform.WATCH_SELECTION, null)
             }
@@ -198,6 +198,8 @@ private class AndroidWebHolder(ctx: Context) : WebHolder {
         }
     }
 
+    override fun goBack(): Boolean = web.canGoBack().also { if (it) web.goBack() }
+
     override fun load(url: String) {
         if (url == current) return
         current = url
@@ -211,5 +213,23 @@ private class AndroidWebHolder(ctx: Context) : WebHolder {
             modifier = modifier,
             onRelease = { (it.parent as? android.view.ViewGroup)?.removeView(it) }, // kept for the next open
         )
+    }
+}
+
+
+/**
+ * Links in the in-app browser: web pages open here; an app's own link (truecallersdk://, whatsapp://, a sign-in
+ * hand-off) is dropped so the page stays as it was, and an intent:// link goes to its web fallback if it has one.
+ */
+private open class InAppClient : android.webkit.WebViewClient() {
+    override fun shouldOverrideUrlLoading(view: android.webkit.WebView, request: android.webkit.WebResourceRequest): Boolean {
+        val url = request.url
+        val scheme = url.scheme?.lowercase()
+        if (scheme == "http" || scheme == "https") return false
+        if (scheme == "intent") {
+            val fallback = Regex("S\\.browser_fallback_url=([^;]+)").find(url.toString())?.groupValues?.get(1)
+            if (fallback != null) view.loadUrl(android.net.Uri.decode(fallback))
+        }
+        return true
     }
 }
