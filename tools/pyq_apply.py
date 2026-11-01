@@ -59,6 +59,8 @@ def label(q):
         first = exam.split(";")[0].strip()
         more = exam.count(";")
         return (first if first and "Ghatna" not in first else "State PSC") + (f" +{more} more" if more else "")
+    if f.startswith("AP History"):
+        return "APPSC AP History PYQ"
     if f.startswith("APPSC Group-1"):
         return "APPSC Group-1 PYQ"
     if f.startswith("APPSC Group-2"):

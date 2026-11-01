@@ -27,6 +27,7 @@ TELUGU = re.compile(r"[ఀ-౿]")
 # the subject each Ghatna Chakra volume covers: its questions stay in that book (Environment: Science & Environment)
 BOOK_OF = {"Indian History": [1], "Indian Polity and Governance": [2], "Economic and Social Development": [3],
            "General Geography": [4], "General Science": [5], "Environment and Ecology": [5, 4], "Current Events": None}
+OWN_BOOK = {"AP History previous papers": [1]}  # a file whose questions all belong to one book
 
 
 TCS = re.compile(r"^(?:\s*(?:Qu\b|Question Typ\b|ion Type\b|\d{1,3}(?=\s)|\d+/\d+\s+\d+/\d+/\d+,\s*\d+:\d+\s*[AP]M|Question Type\s*:\s*MCQ|"
@@ -73,15 +74,38 @@ def usable(q):
         return False
     if TELUGU.search(s + " ".join(o)):
         return False
-    if q["a"] < 0:  # no key: only clean ones (scans with no key often pick up the next question's lines)
+    if q["a"] < 0 and not q.get("checked"):  # no key: only clean ones (scans with no key often pick up the next question's lines)
         if any("?" in x or len(x) > 160 for x in o) or not re.search(r"[?:.]\s*$|_{2,}|\bis\s*$|\bwas\s*$", s):
             return False
     return True
 
 
+_FIXES = None
+
+
+def fixes():
+    """Hand-checked repairs of OCR'd questions (data/pyq/aph/out-*.json: the AP History book), by source id."""
+    global _FIXES
+    if _FIXES is None:
+        import glob
+        _FIXES = {}
+        for f in sorted(glob.glob("data/pyq/aph/out-*.json")):
+            _FIXES.update(json.load(open(f)))
+    return _FIXES
+
+
 def cleaned(line):
     q = json.loads(line)
     q["s"], q["o"], q["x"] = clean(q["s"]), [clean(o) for o in q["o"]], clean(q.get("x", ""))
+    f = fixes().get(q["id"])
+    if f is not None:
+        if not f.get("keep"):
+            q["s"] = ""  # unrecoverable: not usable
+        elif isinstance(f.get("o"), list) and len(f["o"]) == 4:
+            q["s"], q["o"] = f.get("s") or q["s"], f["o"]
+            q["a"] = f["a"] if isinstance(f.get("a"), int) and -1 <= f["a"] <= 3 else q["a"]
+            q["x"] = f.get("x") or q["x"]
+            q["checked"] = 1  # read by a person: no-key ones need not pass the OCR test
     return q
 
 
@@ -153,6 +177,9 @@ def place(layout, assets):
             allow = None
             for name, bks in BOOK_OF.items():
                 if q["file"].startswith("Ghatna Chakra - " + name):
+                    allow = bks
+            for name, bks in OWN_BOOK.items():
+                if q["file"].startswith(name):
                     allow = bks
             y = year_of(q)
             mask = np.ones(len(rows), bool)
