@@ -80,8 +80,9 @@ NOTE = re.compile(r"\s*\((?:TARGET|Nearest honest|Original|The original|A sequen
 
 
 def clean(x):
-    x = re.sub(r"(?:^|(?<=[.;] ))The original key [^.]*\.\s*", "", NOTE.sub("", x))
-    return re.sub(r"[ \t]{2,}", " ", x).strip()
+    x0, x = x, re.sub(r"(?:^|(?<=[.;] ))The original key [^.]*\.\s*", "", NOTE.sub("", x))
+    x = re.sub(r"[ \t]{2,}", " ", x).strip()
+    return x or re.sub(r"^The original key marks", "The incorrect statement is", x0.strip())
 
 
 def valid(r):
