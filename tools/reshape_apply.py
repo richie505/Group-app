@@ -11,6 +11,17 @@ import glob, json, re
 APPS = ("app/src/complete/assets",)  # APPSC Complete only: the Prep app keeps its MCQs as they are
 
 
+def num(x):
+    """An option that is just a number / year / percentage (with a unit word at most)."""
+    m = re.fullmatch(r"[^\d]{0,4}?([\d,]+(?:\.\d+)?)\s*(?:%|per ?cent|crore|lakh|million|billion|km|kms|sq ?km|AD|BC|CE|BCE|years?|times|days?)?\.?", x.strip(), re.I)
+    if not m:
+        return None
+    try:
+        return float(m.group(1).replace(",", ""))
+    except ValueError:
+        return None
+
+
 def valid(r):
     o = r.get("o")
     return (isinstance(r.get("s"), str) and len(r["s"].strip()) >= 10 and isinstance(o, list) and len(o) == 4
@@ -44,7 +55,12 @@ def main():
                     r = new.get(q["id"])
                     if not r:
                         continue
-                    q["s"], q["o"], q["a"] = r["s"].strip(), [x.strip() for x in r["o"]], r["a"]
+                    o, a = [x.strip() for x in r["o"]], r["a"]
+                    nums = [num(x) for x in o]
+                    if all(v is not None for v in nums) and len(set(nums)) == 4:  # APPSC prints numbers and years in order
+                        order = sorted(range(4), key=lambda k: nums[k])
+                        o, a = [o[k] for k in order], order.index(a)
+                    q["s"], q["o"], q["a"] = r["s"].strip(), o, a
                     q["x"] = (r.get("x") or "").strip()
                     for k in ("xs", "tq", "t"):
                         q.pop(k, None)
