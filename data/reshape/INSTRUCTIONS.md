@@ -8,6 +8,13 @@ Each line of your packet: `[id] TARGET: <shape> | NOW: <shape> | stem || (1) .. 
 (ANS is 1-based). Keep the SAME facts and the same topic - you only change the form. Never invent facts; use only what
 the question, its options, its answer and its WHY establish (plus completely standard facts).
 
+STRICT FACT RULE (most important): build every new question only from facts the original CONFIRMS - a statement the key
+marks as true, the keyed option itself, or a fact stated in WHY. A statement the key marks as false tells you only that
+it is false; do NOT "correct" it from memory into a new fact (e.g. if "Kushana trade ran through the Black Sea" is false,
+you may NOT make "Red Sea" the answer unless WHY says so). False statements may be reused only as the false option of a
+NOT question or as decoys. If nothing confirmed is left to ask, rewrite the question as a NOT question or a 2-statement set
+from the original's own statements.
+
 TARGET shapes (APPSC style):
 - one-liner: one direct question about the most exam-worthy fact in the original ("Who ...?", "Which ...?", "In which year
   ...?", "Where ...?", "... is known as:", or a fill-in-the-blank with ____). Short stem (ideally under 25 words).
