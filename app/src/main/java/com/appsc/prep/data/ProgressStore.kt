@@ -140,6 +140,19 @@ class ProgressStore(private val prefs: Storage) {
         prefs.putStringSet(KEY_ADDED, added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" }.toSet())
     }
 
+    /** The reader's corrections of MCQs (answer key, text, options, explanation): question id -> [McqEdit]. */
+    var edits by mutableStateOf(prefs.getStringSet(KEY_EDITS).mapNotNull { McqEdit.decode(it) }.toMap())
+        private set
+
+    /** Saves (or, with null, takes back) the reader's correction of one MCQ. */
+    fun setEdit(id: String, edit: McqEdit?) {
+        edits = if (edit == null) edits - id else edits + (id to edit)
+        prefs.putStringSet(KEY_EDITS, edits.map { (k, v) -> v.encode(k) }.toSet())
+    }
+
+    /** All corrections as one JSON list, to send on (they can then be made in the app's own MCQs). */
+    fun editsExport(): String = "[\n" + edits.toSortedMap().map { (k, v) -> v.encode(k) }.joinToString(",\n") + "\n]"
+
     fun isDone(id: String) = id in done
 
     fun setDone(id: String, value: Boolean) {
@@ -331,6 +344,7 @@ class ProgressStore(private val prefs: Storage) {
         set("missed", missed)
         set("noteRounds", noteRounds)
         set("added", added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" })
+        set("edits", edits.map { (k, v) -> v.encode(k) })
         lastRead?.let { put("last", kotlinx.serialization.json.JsonPrimitive(it)) }
         put("device", kotlinx.serialization.json.JsonPrimitive(device))
         set("log", ownLog.map { (d, l) -> "$device\t$d\t${l.encode()}" } + encodeOthers())
@@ -412,6 +426,13 @@ class ProgressStore(private val prefs: Storage) {
         added = added + inNotes
         prefs.putStringSet(KEY_ADDED, added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" }.toSet())
 
+        // MCQ corrections: the backup's wins where both have one
+        val inEdits = list("edits").mapNotNull { McqEdit.decode(it) }.toMap()
+        if (inEdits.isNotEmpty()) {
+            edits = edits + inEdits
+            prefs.putStringSet(KEY_EDITS, edits.map { (k, v) -> v.encode(k) }.toSet())
+        }
+
         // other devices' activity logs; this device's own log here is always the newest
         val inLogs = decodeOthers(list("log")).filterKeys { it != device }
         if (inLogs.isNotEmpty()) {
@@ -462,6 +483,7 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_MISSED = "missed"
         const val KEY_IDS = "ids_version"
         const val KEY_ADDED = "added_notes"
+        const val KEY_EDITS = "mcq_edits"
         const val BACKUP_APP = "APPSC Prep backup"
         const val KEY_BACKUP = "last_backup"
         const val KEY_DEVICE = "device_id"

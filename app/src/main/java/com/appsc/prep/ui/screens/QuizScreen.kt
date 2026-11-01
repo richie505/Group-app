@@ -26,6 +26,8 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Cancel
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
@@ -51,6 +53,8 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.Question
+import com.appsc.prep.data.edited
+import com.appsc.prep.ui.components.McqEditor
 import com.appsc.prep.data.Techniques
 import com.appsc.prep.data.needsPractice
 import com.appsc.prep.ui.components.Loading
@@ -132,9 +136,16 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
     val pool = rememberPool(src)
     var currentMode by rememberSaveable { mutableStateOf(mode) }
     var round by rememberSaveable { mutableIntStateOf(0) }
+    // the pencil at the top right: correct the MCQ on screen (its key, text, options, explanation)
+    val canEdit = remember { mutableStateOf(false) }
+    val editOpen = remember { mutableStateOf(false) }
 
     Column(Modifier.fillMaxSize().background(Color.White)) {
-        TopBar(title, onBack = nav::back)
+        TopBar(title, onBack = nav::back) {
+            if (canEdit.value) {
+                IconButton(onClick = { editOpen.value = true }) { Icon(Icons.Filled.Edit, "Correct this MCQ", tint = C.Accent) }
+            }
+        }
         if (pool == null) {
             Loading()
             return@Column
@@ -169,6 +180,8 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
                     },
                     onDone = nav::back,
                     onOpenNotes = { b, r, sec -> nav.read(b, r, sec) },
+                    canEdit = canEdit,
+                    editOpen = editOpen,
                 )
             }
         }
@@ -183,6 +196,8 @@ internal fun QuizRound(
     onNext: (String) -> Unit,
     onDone: () -> Unit,
     onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit = { _, _, _ -> },
+    canEdit: androidx.compose.runtime.MutableState<Boolean>? = null,
+    editOpen: androidx.compose.runtime.MutableState<Boolean>? = null,
 ) {
     val app = LocalApp.current
     val store = app.store
@@ -192,11 +207,27 @@ internal fun QuizRound(
     val listState = rememberLazyListState()
     LaunchedEffect(index) { listState.scrollToItem(0) }
 
+    val edits = store.edits
     if (index >= set.size) {
-        Results(set, picks, pool, onNext, onDone)
+        androidx.compose.runtime.SideEffect { canEdit?.value = false }
+        Results(set.map { it.edited(edits[it.id]) }, picks, pool, onNext, onDone)
         return
     }
-    val q = set[index]
+    // the reader's own correction, if any, is what is shown and scored
+    val q = set[index].edited(edits[set[index].id])
+    androidx.compose.runtime.SideEffect { canEdit?.value = q.kind != 'f' }
+    if (editOpen?.value == true && q.kind != 'f') {
+        McqEditor(q, edited = q.id in edits, onDismiss = { editOpen?.value = false }) { e ->
+            store.setEdit(q.id, e)
+            editOpen?.value = false
+            // already answered: the result follows the corrected key
+            val p = picks[index]
+            if (p >= 0 && q.id !in revealed) {
+                val now = set[index].edited(e)
+                if (now.scored) store.recordAnswer(q.id, p == now.answer) else store.markSeen(q.id)
+            }
+        }
+    }
     val picked = picks[index]
     val answered = picked >= 0
 
@@ -242,6 +273,7 @@ internal fun QuizRound(
                                 q.kind == 'u' -> Tag("No key", C.MedSoft, C.Med)
                             }
                             if (q.source.isNotBlank()) Tag(q.source)
+                            if (q.id in edits) Tag("Corrected by you", C.GreenSoft, C.Green)
                         }
                         Text(
                             q.stem,

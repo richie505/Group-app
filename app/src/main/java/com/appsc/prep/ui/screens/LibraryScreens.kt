@@ -406,6 +406,7 @@ fun ProgressScreen(nav: Nav) {
                 }
             }
             item { HorizontalDivider(color = C.Line); BackupCard() }
+            item { HorizontalDivider(color = C.Line); EditsCard() }
             item { Spacer(Modifier.height(24.dp)) }
         }
     }
@@ -640,6 +641,46 @@ fun SavedScreen(nav: Nav) {
                 }
                 HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 20.dp))
             }
+        }
+    }
+}
+
+/** The MCQs the reader corrected (the pencil on the quiz screen): how many, and sending them on as one file. */
+@Composable
+private fun EditsCard() {
+    val app = LocalApp.current
+    val store = app.store
+    var message by remember { mutableStateOf<String?>(null) }
+    val save = app.platform.rememberSaveFile { ok -> message = if (ok) "Corrections saved." else "Not saved." }
+    val n = store.edits.size
+    Column(Modifier.padding(20.dp)) {
+        Text("MCQ corrections", style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
+        Spacer(Modifier.height(6.dp))
+        Text(
+            "Found a wrong key or broken text? Tap the pencil at the top right of any MCQ to fix its answer, question, " +
+                "options or explanation. Your fixes show at once and are kept in your backups. " +
+                if (n == 0) "You have not corrected any MCQ yet." else "You have corrected $n MCQ${if (n == 1) "" else "s"}: share them to have them made in the app for good.",
+            style = TextStyle(fontSize = 14.sp, color = C.Body),
+        )
+        if (n > 0) {
+            Spacer(Modifier.height(12.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                androidx.compose.material3.Button(
+                    onClick = { app.platform.share("MCQ corrections", store.editsExport()) },
+                    colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Accent),
+                    modifier = Modifier.weight(1f),
+                ) { Text("Share") }
+                if (save != null) {
+                    androidx.compose.material3.OutlinedButton(
+                        onClick = { save("${app.repo.appName.replace(' ', '-')}-mcq-corrections-${java.time.LocalDate.now()}.json", store.editsExport()) },
+                        modifier = Modifier.weight(1f),
+                    ) { Text("Save as file") }
+                }
+            }
+        }
+        message?.let {
+            Spacer(Modifier.height(8.dp))
+            Text(it, style = TextStyle(fontSize = 14.sp, color = C.Green))
         }
     }
 }

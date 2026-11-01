@@ -7,6 +7,7 @@ import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Saved
 import com.appsc.prep.data.SpeechText
 import com.appsc.prep.data.Storage
+import com.appsc.prep.data.edited
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
@@ -25,6 +26,31 @@ class BackupTest {
     }
 
     private val moves = IdMoves("2.18", mapOf("2:5:9" to "2:5:3"), setOf("2:4:1"))
+
+    @Test fun mcqCorrectionsAreShownKeptAndRestored() {
+        val q = com.appsc.prep.data.Question(
+            "y1", "Which led to English education?", emptyList(), listOf("and 2 only", "only", "and 3 only", "1, 2 and 3"),
+            3, "UPSC 2018", false, "Old why.", emptyList(), solution = listOf("**Old** bullet"),
+        )
+        val phone = ProgressStore(MemStorage())
+        val fix = com.appsc.prep.data.McqEdit(q.stem, listOf("1 and 2 only", "2 only", "1 and 3 only", "1, 2 and 3"), 2, "New why, with \"quotes\"\nand a line.")
+        phone.setEdit("y1", fix)
+        val shown = q.edited(phone.edits["y1"])
+        assertEquals("1 and 3 only", shown.options[shown.answer])
+        assertEquals("New why, with \"quotes\"\nand a line.", shown.explanation)
+        assertTrue(shown.solution.isEmpty()) // the rewritten explanation replaces the old bullets
+        // an unchanged explanation keeps the structured one
+        assertEquals(listOf("**Old** bullet"), q.edited(fix.copy(explanation = "Old why.")).solution)
+        // no key: unscored
+        assertEquals('u', q.edited(fix.copy(answer = -1, noKey = true)).kind)
+
+        val fresh = ProgressStore(MemStorage())
+        fresh.restore(phone.backup(), moves)
+        assertEquals(fix, fresh.edits["y1"])
+        assertTrue(fresh.editsExport().contains("\"1 and 3 only\""))
+        fresh.setEdit("y1", null)
+        assertTrue(fresh.edits.isEmpty())
+    }
 
     @Test fun backupComesBackOnANewPhone() {
         val phone = ProgressStore(MemStorage())

@@ -51,8 +51,11 @@ LAST_TCS = re.compile(r"^.{0,400}(?:Orientation\s*:\s*Vertical|Shuffling\s*:\s*(
 TCS_LEFT = re.compile(r"Question Type|Shuffling|Display Text|Orientation\s*:|Instruction Time", re.I)
 
 
-def clean(t):
-    t = LAST_TCS.sub("", TCS.sub("", t))
+TCS_OPT = re.compile(TCS.pattern.replace(r"\d{1,3}(?=\s)|", ""), re.I)  # options: a leading number is the option ("1 and 2 only")
+
+
+def clean(t, opt=False):
+    t = LAST_TCS.sub("", (TCS_OPT if opt else TCS).sub("", t))
     t = re.sub(r"\s+\d+\s+Question Type\b.*$", "", t, flags=re.S)  # the next question's header run on
     t = re.sub(r"\babout:blank\b|[\x00-\x08\x0b-\x1f\x7f]", "", JUNK.sub("", t))
     t = re.sub(r"(?<=[a-z])- (?=[a-z])", "", t)  # a word the PDF split over two lines: "Sci- ence"
@@ -96,7 +99,7 @@ def fixes():
 
 def cleaned(line):
     q = json.loads(line)
-    q["s"], q["o"], q["x"] = clean(q["s"]), [clean(o) for o in q["o"]], clean(q.get("x", ""))
+    q["s"], q["o"], q["x"] = clean(q["s"]), [clean(o, opt=True) for o in q["o"]], clean(q.get("x", ""))
     f = fixes().get(q["id"])
     if f is not None:
         if not f.get("keep"):
