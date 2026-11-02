@@ -52,6 +52,19 @@ class BackupTest {
         assertTrue(fresh.edits.isEmpty())
     }
 
+    @Test fun pastedMarkdownExplanationIsLaidOut() {
+        val md = "The correct answer is **Article 51-A**.\n### DPSP vs Duties\n| Feature | Article 48A | Article 51A(g) |\n|---|---|---|\n| Addressed To | The State | Every citizen |\n- one\n  - sub"
+        assertTrue(com.appsc.prep.data.MarkdownText.looksLike(md))
+        val b = com.appsc.prep.data.MarkdownText.blocks(md)
+        val t = b.filterIsInstance<com.appsc.prep.data.TableBlock>().single()
+        assertEquals(listOf("Feature", "Article 48A", "Article 51A(g)"), t.head.map { c -> c.joinToString("") { it.text } })
+        assertEquals("Every citizen", t.rows[0][2].joinToString("") { it.text })
+        val first = b[0] as com.appsc.prep.data.TextBlock
+        assertTrue(first.runs.any { it.text == "Article 51-A" && it.bold })
+        assertEquals(listOf('p', 'h', 'b', 's'), b.filterIsInstance<com.appsc.prep.data.TextBlock>().map { it.kind })
+        assertTrue(!com.appsc.prep.data.MarkdownText.looksLike("Plain text explanation. Article 51A says so."))
+    }
+
     @Test fun mcqSearchAsksTheQuestionNotTheCodes() {
         val q = com.appsc.prep.data.Question(
             "y2", "Which led to English education?\n1. Charter Act of 1813\n2. Orientalist Controversy\nSelect the correct answer using the code given below:",

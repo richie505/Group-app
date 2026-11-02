@@ -523,7 +523,20 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes:
                     modifier = Modifier.padding(top = 4.dp),
                 )
             }
-            Text(
+            val md = remember(q.id, q.explanation) {
+                if (com.appsc.prep.data.MarkdownText.looksLike(q.explanation)) com.appsc.prep.data.MarkdownText.blocks(q.explanation) else null
+            }
+            // pasted markdown (tables, **bold**, # headings, - bullets) laid out like the notes
+            if (md != null) {
+                if (why != null) {
+                    Text(
+                        q.explanation.substring(why.first, why.last + 1).replace("**", "").replace("|", " "),
+                        style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = Color(0xFF7F1D1D)),
+                        modifier = Modifier.padding(top = 4.dp).background(Color(0xFFFFD9D9)),
+                    )
+                }
+                Column(Modifier.padding(top = 2.dp)) { md.forEach { com.appsc.prep.ui.components.BlockView(it, 0.875f) } }
+            } else Text(
                 androidx.compose.ui.text.buildAnnotatedString {
                     append(q.explanation)
                     if (why != null) {
