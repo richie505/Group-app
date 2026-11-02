@@ -80,10 +80,20 @@ def parse_out():
     return pages
 
 
+def pending():
+    """Page ids of packets not written yet: those keep APPSC Complete's own text for now."""
+    out = set()
+    for f in glob.glob("data/c2/in/*.md"):
+        if not os.path.exists(f.replace("/in/", "/out/")):
+            out |= set(re.findall(r"^## SEC (\S+)", open(f).read(), re.M))
+    return out
+
+
 def main():
     os.makedirs(DST, exist_ok=True)
     pages = parse_out()
-    done = empty = extra = 0
+    wait = pending()
+    done = empty = extra = kept = 0
     for b in range(1, 7):
         bk = json.load(open(f"{SRC}/book{b}.json"))
         ri = 0
@@ -91,6 +101,9 @@ def main():
             for r in u["rows"]:
                 for si, s in enumerate(r["secs"]):
                     p = pages.get(f"{b}:{ri}:{si}")
+                    if not p and f"{b}:{ri}:{si}" in wait:
+                        kept += 1
+                        continue
                     s["b"] = p if p else EMPTY
                     s.pop("cov", None)  # links to other pages' old text
                     done += bool(p)
@@ -101,7 +114,7 @@ def main():
                     extra += 1
                 ri += 1
         json.dump(bk, open(f"{DST}/book{b}.json", "w"), ensure_ascii=False, separators=(",", ":"))
-    print(f"pages from MCQs: {done}, without MCQs: {empty}, whole-topic pages added: {extra}")
+    print(f"pages from MCQs: {done}, without MCQs: {empty}, whole-topic pages added: {extra}, old text kept (not written yet): {kept}")
 
 
 if __name__ == "__main__":
