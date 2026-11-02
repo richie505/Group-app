@@ -53,9 +53,17 @@ android {
             applicationIdSuffix = ".oneliner"
             resValue("string", "app_name", "APPSC One-liners")
         }
+        // APPSC Complete with its notes written from its own MCQs (tools/c2_build.py): same topics, pages and MCQ ids,
+        // so an APPSC Complete backup restores into it; installs beside APPSC Complete
+        create("complete2") {
+            dimension = "edition"
+            applicationIdSuffix = ".complete2"
+            resValue("string", "app_name", "APPSC Complete 2.0")
+        }
     }
     // its assets: APPSC Complete's, with its own MCQs, topic counts and edition (src/oneliner/assets) in their place
     sourceSets["oneliner"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/onelinerAssets")))
+    sourceSets["complete2"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/complete2Assets")))
 
     buildTypes {
         debug {
@@ -125,3 +133,14 @@ val onelinerAssets = tasks.register<Sync>("onelinerAssets") {
 }
 // every APPSC One-liners task (asset merge, lint, tests) reads them
 tasks.matching { it.name.contains("Oneliner") }.configureEach { dependsOn(onelinerAssets) }
+
+// APPSC Complete 2.0's assets: src/complete/assets, with src/complete2/assets (its notes, edition) taking precedence
+val complete2Assets = tasks.register<Sync>("complete2Assets") {
+    from("src/complete2/assets")
+    from("src/complete/assets") {
+        exclude { f -> file("src/complete2/assets/${f.relativePath.pathString}").exists() }
+    }
+    into(layout.buildDirectory.dir("generated/complete2Assets"))
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+tasks.matching { it.name.contains("Complete2") }.configureEach { dependsOn(complete2Assets) }
