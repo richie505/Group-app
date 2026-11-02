@@ -3,8 +3,8 @@
     python3 tools/build_onepager_plan.py   (then tools/onepager_app.py all, or build_plan_mcq.py per app)
 
 Writes app/src/complete/assets/plan.json (One-liners takes it from there):
-- Phase 1, 26 Oct - 3 Dec: first pass, ~24 one-pagers a day, one subject a day, the subjects interleaved;
-- Phase 2, 4 - 19 Dec: R2 revision, ~58 a day; Phase 3, 20 - 27 Dec: R3 revision, ~116 a day;
+- Phase 1, 2 Nov - 6 Dec: first pass, ~27 one-pagers a day, one subject a day, the subjects interleaved;
+- Phase 2, 7 - 20 Dec: R2 revision, ~66 a day; Phase 3, 21 - 27 Dec: R3 revision, ~132 a day;
 - Phase 4, 28 Dec - 21 Jan: MCQ days (~49 topics each) with a full mock every fourth day; 22 - 23 Jan: the buffer.
 Each topic's MCQs are spread over its days (row "q", twentieths of its MCQs due by then): half on the first
 pass, a little more at R2 and R3, the rest on its MCQ day.
@@ -13,11 +13,11 @@ import datetime as dt
 import json
 import re
 
-START, EXAM = dt.date(2026, 10, 26), dt.date(2027, 1, 24)
+START, EXAM = dt.date(2026, 11, 2), dt.date(2027, 1, 24)  # Day 1 moved to 2 Nov (was 26 Oct)
 PHASES = [  # (days, type, phase, share of each topic's MCQs due by then)
-    (39, "study", "PHASE 1 FIRST PASS", 10),
-    (16, "revision", "PHASE 2 R2 REVISION", 13),
-    (8, "revision", "PHASE 3 R3 REVISION", 14),
+    (35, "study", "PHASE 1 FIRST PASS", 10),
+    (14, "revision", "PHASE 2 R2 REVISION", 13),
+    (7, "revision", "PHASE 3 R3 REVISION", 14),
 ]
 MOCKS = {  # Phase 4 day -> the mock (counted from 28 Dec)
     3: "Full mock: G1 Prelims Paper-I (150 Q, 150 min)",
@@ -139,8 +139,8 @@ def main():
                        {"dates": "23 Jan", "work": "Light review, admit card, centre route, sleep by 22:00"}]}
     open("app/src/complete/assets/plan.json", "w").write(json.dumps(plan, ensure_ascii=False, separators=(",", ":")))
     per = [len(d["rows"]) for d in plan_days]
-    print(f"{len(plan_days)} days; topics a day: first pass {min(per[:39])}-{max(per[:39])}, "
-          f"R2 {min(per[39:55])}-{max(per[39:55])}, R3 {min(per[55:63])}-{max(per[55:63])}; "
+    print(f"{len(plan_days)} days; topics a day: first pass {min(per[:35])}-{max(per[:35])}, "
+          f"R2 {min(per[35:49])}-{max(per[35:49])}, R3 {min(per[49:56])}-{max(per[49:56])}; "
           f"{len(order)} topics, {len(set(tuple(r['ref']) for r in order))} distinct")
 
 
