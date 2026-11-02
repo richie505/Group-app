@@ -25,6 +25,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Cancel
+import androidx.compose.material.icons.filled.ContentCopy
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Search
@@ -149,6 +150,15 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
     Column(Modifier.fillMaxSize().background(Color.White)) {
         TopBar(title, onBack = nav::back) {
             if (shown.value != null) {
+                // copy: the MCQ on screen (question and options) to paste anywhere, in one tap
+                val clipboard = androidx.compose.ui.platform.LocalClipboardManager.current
+                val context = androidx.compose.ui.platform.LocalContext.current
+                IconButton(onClick = {
+                    shown.value?.let { q ->
+                        clipboard.setText(androidx.compose.ui.text.AnnotatedString(com.appsc.prep.ui.components.mcqCopyText(q)))
+                        android.widget.Toast.makeText(context, "MCQ copied", android.widget.Toast.LENGTH_SHORT).show()
+                    }
+                }) { Icon(Icons.Filled.ContentCopy, "Copy this MCQ", tint = C.Accent) }
                 IconButton(onClick = { searching = true }) { Icon(Icons.Filled.Search, "Search Google for this MCQ", tint = C.Accent) }
             }
             if (canEdit.value) {

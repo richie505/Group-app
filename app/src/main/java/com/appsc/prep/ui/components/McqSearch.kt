@@ -89,6 +89,10 @@ fun mcqQuery(q: Question): String {
 fun bingUrl(query: String) = "https://www.bing.com/search?setlang=en-IN&cc=IN&q=" + java.net.URLEncoder.encode(query, "UTF-8")
 
 /** The whole MCQ as a question for an AI answer (Google AI Mode, Gemini): which option is right, and why. */
+/** The MCQ as text to copy: its question, then its options as (a), (b), (c), (d). */
+fun mcqCopyText(q: Question): String =
+    q.stem.trim() + "\n" + q.options.mapIndexed { i, o -> "(${'a' + i}) ${o.trim()}" }.joinToString("\n")
+
 fun mcqPrompt(q: Question): String =
     q.stem.trim() + "\n" + q.options.mapIndexed { i, o -> "(${i + 1}) $o" }.joinToString("\n") +
         "\nWhich option is correct? Give the answer and a short reason with sources."

@@ -63,6 +63,10 @@ class BackupTest {
         val r = q.copy(stem = "Diego Garcia is situated in:", options = listOf("Indian Ocean", "Pacific Ocean", "Arctic Ocean", "Atlantic Ocean"))
         assertEquals("Diego Garcia is situated in Indian Ocean Pacific Ocean Arctic Ocean Atlantic Ocean", com.appsc.prep.ui.components.mcqQuery(r))
         assertTrue(com.appsc.prep.ui.components.mcqPrompt(r).contains("(1) Indian Ocean"))
+        assertEquals(
+            "Diego Garcia is situated in:\n(a) Indian Ocean\n(b) Pacific Ocean\n(c) Arctic Ocean\n(d) Atlantic Ocean",
+            com.appsc.prep.ui.components.mcqCopyText(r),
+        )
     }
 
     @Test fun backupComesBackOnANewPhone() {
