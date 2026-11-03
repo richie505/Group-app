@@ -8,6 +8,9 @@ package com.appsc.prep.data
 object NotesFinder {
     data class Place(val row: Int, val sec: Int, val score: Double)
 
+    /** "[September 2025 · page title]" at the end of a current-affairs MCQ's note: the page it was written from. */
+    private val TAG = Regex("""\s*\[[^\]·]*·\s*([^\]]+)]\s*$""")
+
     private val STOP = setOf(
         "the", "and", "for", "with", "from", "that", "this", "which", "following", "above", "below", "statements",
         "statement", "correct", "incorrect", "consider", "select", "answer", "using", "code", "codes", "given", "only",
@@ -38,7 +41,12 @@ object NotesFinder {
     }
 
     /** A subject's pages as word sets, and in how many pages each word is: built once per book, then kept. */
-    private class Index(val pages: List<Triple<Int, Int, Set<String>>>, val df: Map<String, Int>)
+    private class Index(
+        val pages: List<Triple<Int, Int, Set<String>>>,
+        val df: Map<String, Int>,
+        /** page title -> its pages */
+        val byTitle: Map<String, List<Pair<Int, Int>>>,
+    )
 
     private val indexes = java.util.concurrent.ConcurrentHashMap<Int, Index>()
     private val found = java.util.concurrent.ConcurrentHashMap<String, Place>()
@@ -47,7 +55,13 @@ object NotesFinder {
         val pages = book.rows.flatMapIndexed { ri, r -> r.secs.mapIndexed { si, s -> Triple(ri, si, words(s.title + " " + text(s.blocks))) } }
         val df = HashMap<String, Int>()
         for ((_, _, w) in pages) for (x in w) df[x] = (df[x] ?: 0) + 1
-        Index(pages, df)
+        val byTitle = HashMap<String, MutableList<Pair<Int, Int>>>()
+        book.rows.forEachIndexed { ri, r ->
+            r.secs.forEachIndexed { si, sec ->
+                byTitle.getOrPut(sec.title.trim()) { mutableListOf() } += ri to si
+            }
+        }
+        Index(pages, df, byTitle)
     }
 
     /** Builds the book's index ahead of time (the quiz does it while a question shows). */
@@ -58,14 +72,17 @@ object NotesFinder {
     fun best(q: Question, book: Book, filedRow: Int): Place? {
         found[q.id + "|" + q.answer]?.let { return it }
         val ix = index(book)
-        val ask = words(q.stem) + words(q.explanation) + q.notes.flatMap { words(it) } + q.solution.flatMap { words(it) }
+        // a current-affairs MCQ names its notes page: "... [September 2025 · India's first Centralised Advanced Smart Kitchen — Kadapa]"
+        val named = q.notes.mapNotNull { TAG.find(it)?.groupValues?.get(1)?.trim() }.flatMap { ix.byTitle[it].orEmpty() }.toSet()
+        val facts = q.notes.map { it.replace(TAG, "") }
+        val ask = words(q.stem) + words(q.explanation) + facts.flatMap { words(it) } + q.solution.flatMap { words(it) }
         val ans = answerWords(q)
         // rarer words count more: a page with "Swarnandhra" beats one with "scheme"
         val n = ix.pages.size.toDouble()
         fun idf(x: String) = kotlin.math.ln(1 + n / ((ix.df[x] ?: 0) + 1))
         val wa = ask.associateWith { idf(it) }
         val wb = ans.associateWith { 3 * idf(it) }
-        return ix.pages.map { (ri, si, w) ->
+        return ix.pages.filter { named.isEmpty() || (it.first to it.second) in named }.map { (ri, si, w) ->
             var s = 0.0
             for ((x, v) in wa) if (x in w) s += v
             for ((x, v) in wb) if (x in w) s += v

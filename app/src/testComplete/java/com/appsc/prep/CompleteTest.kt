@@ -62,6 +62,9 @@ class CompleteTest {
         val at = com.appsc.prep.data.NotesFinder.best(q, book, repo.mcq(6).placeOf(q.id)?.first ?: -1)!!
         val page = com.appsc.prep.data.NotesFinder.text(book.rows[at.row].secs[at.sec].blocks)
         assertTrue(page, page.contains("42,000") && page.contains("3,400"))
+        val k = repo.mcq(6).rows.values.flatten().first { it.id == "ca2901f5bd3b04" } // CK Dinne smart kitchen: ₹2 crore, solar, RO
+        val kat = com.appsc.prep.data.NotesFinder.best(k, book, repo.mcq(6).placeOf(k.id)?.first ?: -1)!!
+        assertTrue(book.rows[kat.row].secs[kat.sec].title, book.rows[kat.row].secs[kat.sec].title.contains("Smart Kitchen"))
     }
 
     @Test fun readFromNotesFindsTheAnswerForMostMcqs() = runBlocking {
