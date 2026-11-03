@@ -182,6 +182,16 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
             kotlinx.coroutines.delay(2500) // only for a question one stays on: not a search for every one skipped past
             results?.load(com.appsc.prep.ui.components.googleUrl(com.appsc.prep.ui.components.mcqQuery(q)))
         }
+        // the notes page of the question on screen is found while it shows, so the book icon opens at once
+        LaunchedEffect(shown.value?.id) {
+            val q = shown.value ?: return@LaunchedEffect
+            runCatching {
+                kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Default) {
+                    val book = app.repo.book(q.book)
+                    com.appsc.prep.data.NotesFinder.best(q, book, app.repo.mcq(q.book).placeOf(q.id)?.first ?: -1)
+                }
+            }
+        }
         if (reading) shown.value?.let { q -> NotesPeek(q) { reading = false } }
         if (searching) shown.value?.let { q ->
             McqSearchSheet(
@@ -227,6 +237,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
                     },
                     onDone = nav::back,
                     onOpenNotes = { b, r, sec -> nav.read(b, r, sec) },
+                    onPeek = { reading = true },
                     canEdit = canEdit,
                     editOpen = editOpen,
                     shown = shown,
@@ -245,6 +256,8 @@ internal fun QuizRound(
     onNext: (String) -> Unit,
     onDone: () -> Unit,
     onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit = { _, _, _ -> },
+    /** The book icon's notes page over the quiz (the explanation's "Open this page in the notes"). */
+    onPeek: (() -> Unit)? = null,
     canEdit: androidx.compose.runtime.MutableState<Boolean>? = null,
     editOpen: androidx.compose.runtime.MutableState<Boolean>? = null,
     shown: androidx.compose.runtime.MutableState<Question?>? = null,
@@ -355,7 +368,7 @@ internal fun QuizRound(
                                 q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
                                 if (answered) {
                                     Spacer(Modifier.height(8.dp))
-                                    Explanation(q, picked == q.answer, picked, onOpenNotes, onGoogleExplain)
+                                    Explanation(q, picked == q.answer, picked, onOpenNotes, onGoogleExplain, onPeek)
                                 } else HintBox(q) { revealed += q.id }
                             }
                         }
@@ -505,7 +518,7 @@ private fun UnscoredNote(q: Question) {
 }
 
 @Composable
-private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes: (Int, Int, Int) -> Unit, onGoogle: (() -> Unit)? = null) {
+private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes: (Int, Int, Int) -> Unit, onGoogle: (() -> Unit)? = null, onPeek: (() -> Unit)? = null) {
     Column(
         Modifier
             .fillMaxWidth()
@@ -560,7 +573,7 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes:
                 modifier = Modifier.padding(top = 4.dp),
             )
         }
-        FromNotes(q, onOpenNotes)
+        FromNotes(q, onOpenNotes, onPeek)
         if (q.technique.isNotBlank()) {
             Spacer(Modifier.height(10.dp))
             Text("WHAT THIS QUESTION TRAINS", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
@@ -866,16 +879,18 @@ private fun Results(
 
 /** "From your notes": the lines of the question's own notes page that explain the right answer, and a link to it. */
 @Composable
-private fun FromNotes(q: Question, onOpenNotes: (Int, Int, Int) -> Unit) {
+private fun FromNotes(q: Question, onOpenNotes: (Int, Int, Int) -> Unit, onPeek: (() -> Unit)? = null) {
     val app = LocalApp.current
+    // the same page the book icon opens: the one holding the answer's fact
     val found by androidx.compose.runtime.produceState<Triple<Int, Int, List<String>>?>(null, q.id) {
         value = runCatching {
-            val (row, sec) = app.repo.mcq(q.book).placeOf(q.id) ?: return@runCatching null
-            val secs = app.repo.book(q.book).rows.getOrNull(row)?.secs ?: return@runCatching null
-            // its subsection; a question filed under the whole section: the subsection that explains it best
-            val tried = if (sec >= 0) listOfNotNull(secs.getOrNull(sec)?.let { sec to it }) else secs.withIndex().map { it.index to it.value }
-            tried.map { (i, s) -> i to com.appsc.prep.data.NotesExcerpt.forQuestion(q, s.blocks) }
-                .maxByOrNull { it.second.size }?.takeIf { it.second.isNotEmpty() }?.let { (i, lines) -> Triple(row, i, lines) }
+            kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Default) {
+                val book = app.repo.book(q.book)
+                val at = com.appsc.prep.data.NotesFinder.best(q, book, app.repo.mcq(q.book).placeOf(q.id)?.first ?: -1)
+                    ?: return@withContext null
+                val lines = com.appsc.prep.data.NotesExcerpt.forQuestion(q, book.rows[at.row].secs[at.sec].blocks)
+                lines.takeIf { it.isNotEmpty() }?.let { Triple(at.row, at.sec, it) }
+            }
         }.getOrNull()
     }
     val (row, sec, lines) = found ?: return
@@ -891,7 +906,7 @@ private fun FromNotes(q: Question, onOpenNotes: (Int, Int, Int) -> Unit) {
     Text(
         "Open this page in the notes ›",
         style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
-        modifier = Modifier.padding(top = 6.dp).clickable { onOpenNotes(q.book, row, sec) },
+        modifier = Modifier.padding(top = 6.dp).clickable { onPeek?.invoke() ?: onOpenNotes(q.book, row, sec) },
     )
 }
 
@@ -914,7 +929,6 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
             }
         }.getOrNull()
     }
-    val answer = remember(q.id) { com.appsc.prep.data.NotesFinder.answerWords(q) }
     androidx.compose.ui.window.Dialog(onDismissRequest = onClose, properties = androidx.compose.ui.window.DialogProperties(usePlatformDefaultWidth = false)) {
         Column(Modifier.fillMaxSize().background(Color.White)) {
             Row(Modifier.fillMaxWidth().height(60.dp).padding(horizontal = 4.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -948,10 +962,10 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
                     style = TextStyle(fontSize = 18.sp, lineHeight = 24.sp, fontWeight = FontWeight.Bold, color = C.Ink),
                     modifier = Modifier.padding(top = 4.dp, bottom = 6.dp),
                 )
-                sec.blocks.forEach { blk ->
-                    // the lines with the answer's words: marked, so the eye finds them at once
-                    val hit = answer.isNotEmpty() && com.appsc.prep.data.NotesFinder.words(com.appsc.prep.data.NotesFinder.text(listOf(blk)))
-                        .let { w -> answer.count { it in w } * 2 >= answer.size }
+                // the lines with the answer (or, for a code answer, the question's facts): marked, so the eye finds them at once
+                val marked = remember(q.id, at) { com.appsc.prep.data.NotesFinder.marked(q, sec.blocks) }
+                sec.blocks.forEachIndexed { bi, blk ->
+                    val hit = bi in marked
                     Box(if (hit) Modifier.fillMaxWidth().background(Color(0xFFFFF4C2), RoundedCornerShape(6.dp)).padding(horizontal = 4.dp) else Modifier) {
                         com.appsc.prep.ui.components.BlockView(blk, 0.95f)
                     }
