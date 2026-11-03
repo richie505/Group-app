@@ -1,5 +1,9 @@
 package com.appsc.prep.ui.screens
 
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.automirrored.filled.MenuBook
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.TextButton
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -146,10 +150,15 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
     val shown = remember { mutableStateOf<Question?>(null) }
     var searching by remember { mutableStateOf(false) }
     var explaining by remember { mutableStateOf(false) } // opened from the explanation: its text can replace it
+    var reading by remember { mutableStateOf(false) } // the book icon: the MCQ's notes page over the quiz
 
     Column(Modifier.fillMaxSize().background(Color.White)) {
         TopBar(title, onBack = nav::back) {
             if (shown.value != null) {
+                // stuck: read the notes page this MCQ comes from (the topic's full notes), without leaving the quiz
+                IconButton(onClick = { reading = true }) {
+                    Icon(Icons.AutoMirrored.Filled.MenuBook, "Read from the notes", tint = C.Accent)
+                }
                 // copy: the MCQ on screen (question and options) to paste anywhere, in one tap
                 val clipboard = androidx.compose.ui.platform.LocalClipboardManager.current
                 val context = androidx.compose.ui.platform.LocalContext.current
@@ -173,6 +182,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
             kotlinx.coroutines.delay(2500) // only for a question one stays on: not a search for every one skipped past
             results?.load(com.appsc.prep.ui.components.googleUrl(com.appsc.prep.ui.components.mcqQuery(q)))
         }
+        if (reading) shown.value?.let { q -> NotesPeek(q) { reading = false } }
         if (searching) shown.value?.let { q ->
             McqSearchSheet(
                 q, results, ai,
@@ -883,4 +893,75 @@ private fun FromNotes(q: Question, onOpenNotes: (Int, Int, Int) -> Unit) {
         style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
         modifier = Modifier.padding(top = 6.dp).clickable { onOpenNotes(q.book, row, sec) },
     )
+}
+
+/**
+ * The notes page an MCQ comes from, over the quiz (its place in the quiz is kept): the topic's full notes when it
+ * has them, starting at the page that best explains the question; arrows step through the topic's other pages.
+ */
+@Composable
+private fun NotesPeek(q: Question, onClose: () -> Unit) {
+    val app = LocalApp.current
+    val found by androidx.compose.runtime.produceState<Pair<com.appsc.prep.data.NoteRow, List<Int>>?>(null, q.id) {
+        value = runCatching {
+            val (row, sec) = app.repo.mcq(q.book).placeOf(q.id) ?: return@runCatching null
+            val r = app.repo.book(q.book).rows.getOrNull(row) ?: return@runCatching null
+            val full = r.secs.indices.filter { r.secs[it].full }
+            val pages = full.ifEmpty { r.secs.indices.toList() }
+            // start: its own page if it is one of these, else the page whose lines match the question best
+            val best = if (sec in pages) sec else pages.maxByOrNull {
+                com.appsc.prep.data.NotesExcerpt.forQuestion(q, r.secs[it].blocks, 50).size
+            } ?: return@runCatching null
+            r to (listOf(best) + pages.filter { it != best }.sortedBy { it })
+        }.getOrNull()
+    }
+    androidx.compose.ui.window.Dialog(onDismissRequest = onClose, properties = androidx.compose.ui.window.DialogProperties(usePlatformDefaultWidth = false)) {
+        Column(Modifier.fillMaxSize().background(Color.White)) {
+            Row(Modifier.fillMaxWidth().height(60.dp).padding(horizontal = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+                IconButton(onClick = onClose) { Icon(Icons.Filled.Close, "Back to the MCQ", tint = C.Ink) }
+                Text(
+                    "From the notes",
+                    style = TextStyle(fontSize = 19.sp, fontWeight = FontWeight.SemiBold, color = C.Ink),
+                    modifier = Modifier.weight(1f).padding(start = 4.dp),
+                )
+            }
+            androidx.compose.material3.HorizontalDivider(color = C.Line)
+            val f = found
+            if (f == null) {
+                Text(
+                    "No notes page found for this MCQ.",
+                    style = TextStyle(fontSize = 15.sp, color = C.Muted),
+                    modifier = Modifier.padding(20.dp),
+                )
+                return@Column
+            }
+            val (row, order) = f
+            val pages = order.sorted()
+            var at by remember(q.id) { mutableIntStateOf(order.first()) }
+            val sec = row.secs[at]
+            val scroll = androidx.compose.foundation.rememberScrollState()
+            LaunchedEffect(at) { scroll.scrollTo(0) }
+            Column(Modifier.weight(1f).fillMaxWidth().verticalScroll(scroll).padding(horizontal = 20.dp, vertical = 14.dp)) {
+                Text(row.title.uppercase(), style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.6.sp))
+                Text(
+                    sec.title,
+                    style = TextStyle(fontSize = 18.sp, lineHeight = 24.sp, fontWeight = FontWeight.Bold, color = C.Ink),
+                    modifier = Modifier.padding(top = 4.dp, bottom = 6.dp),
+                )
+                sec.blocks.forEach { com.appsc.prep.ui.components.BlockView(it, 0.95f) }
+            }
+            androidx.compose.material3.HorizontalDivider(color = C.Line)
+            val i = pages.indexOf(at)
+            Row(Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+                TextButton(onClick = { at = pages[i - 1] }, enabled = i > 0) { Text("‹ Previous page") }
+                Text(
+                    "${i + 1} of ${pages.size}",
+                    style = TextStyle(fontSize = 13.sp, color = C.Muted),
+                    modifier = Modifier.weight(1f),
+                    textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                )
+                TextButton(onClick = { at = pages[i + 1] }, enabled = i < pages.lastIndex) { Text("Next page ›") }
+            }
+        }
+    }
 }
