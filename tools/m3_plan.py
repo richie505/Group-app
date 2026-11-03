@@ -1,8 +1,9 @@
 """APPSC Complete: the app's own one-fact MCQs not answered yet, three to a question ("Consider the following
 statements: 1. 2. 3."). This writes the packets for the writers (data/m3/in/<n>.md, rules in data/m3/INSTRUCTIONS.md);
-tools/m3_build.py puts the answers back. PYQs, statement MCQs and answered MCQs stay as they are.
+tools/m3_build.py puts the answers back. PYQs and statement MCQs stay as they are.
 
-    python3 tools/m3_plan.py <backup.json>
+    python3 tools/m3_plan.py            (every one-fact MCQ, answered or not: the user's choice)
+    python3 tools/m3_plan.py <backup.json>   (only those not answered in that backup)
 Each fact is told whether its statement must be TRUE or FALSE (and, if false, the wrong option to use), so the key
 is decided here, not by the writer.
 """
@@ -14,8 +15,8 @@ PER = 100  # questions (triples) a packet
 rnd = random.Random(2026)
 
 
-def main(backup):
-    done = {a.rsplit(":", 1)[0] for a in json.load(open(backup))["answers"]}
+def main(backup=None):
+    done = {a.rsplit(":", 1)[0] for a in json.load(open(backup))["answers"]} if backup else set()
     groups, plan = [], {}
     for b in range(1, 7):
         m = json.load(open(f"{A}/mcq{b}.json"))
@@ -70,4 +71,4 @@ def main(backup):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1] if len(sys.argv) > 1 else None)
