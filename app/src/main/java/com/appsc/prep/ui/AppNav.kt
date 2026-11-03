@@ -70,6 +70,7 @@ class NavImpl(private val nav: NavHostController) : Nav {
     override fun day(n: Int) = nav.navigate("day/$n")
     override fun exam(exam: Int, subject: Int) = nav.navigate("exam/$exam/$subject")
     override fun row(book: Int, row: Int) = nav.navigate("row/$book/$row")
+    override fun dayRow(book: Int, row: Int, day: Int) = nav.navigate("row/$book/$row?d=$day")
     override fun read(book: Int, row: Int, sec: Int) = nav.navigate("read/$book/$row/$sec")
     override fun book(id: Int) = nav.navigate("book/$id")
     override fun back() {
@@ -129,10 +130,14 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
             BookScreen(it.arguments!!.getInt("id"), actions)
         }
         composable(
-            "row/{b}/{r}",
-            listOf(navArgument("b") { type = NavType.IntType }, navArgument("r") { type = NavType.IntType }),
+            "row/{b}/{r}?d={d}",
+            listOf(
+                navArgument("b") { type = NavType.IntType },
+                navArgument("r") { type = NavType.IntType },
+                navArgument("d") { type = NavType.IntType; defaultValue = 0 },
+            ),
         ) {
-            SectionScreen(it.arguments!!.getInt("b"), it.arguments!!.getInt("r"), actions)
+            SectionScreen(it.arguments!!.getInt("b"), it.arguments!!.getInt("r"), actions, it.arguments!!.getInt("d"))
         }
         composable(
             "read/{b}/{r}/{s}",

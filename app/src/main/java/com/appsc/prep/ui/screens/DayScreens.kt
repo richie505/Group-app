@@ -75,6 +75,8 @@ interface Nav {
     fun exam(exam: Int, subject: Int) {}
     fun day(n: Int)
     fun row(book: Int, row: Int)
+    /** A topic opened from plan day [day]: its Next / Previous go through the plan's days, not the subject. */
+    fun dayRow(book: Int, row: Int, day: Int) = row(book, row)
     fun read(book: Int, row: Int, sec: Int)
     fun book(id: Int)
     fun back()
@@ -269,7 +271,7 @@ fun LazyListScope.dayBody(day: PlanDay, nav: Nav, showBrief: Boolean) {
                     },
                 )
                 groups.forEachIndexed { gi, (key, rows) ->
-                    TopicCard(gi + 1, key.first, key.second, rows, nav)
+                    TopicCard(gi + 1, key.first, key.second, rows, nav, day.n)
                 }
             }
         }
@@ -283,7 +285,7 @@ fun LazyListScope.dayBody(day: PlanDay, nav: Nav, showBrief: Boolean) {
 }
 
 @Composable
-private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, nav: Nav) {
+private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, nav: Nav, dayN: Int) {
     val app = LocalApp.current
     val bookInfo = app.repo.index.getOrNull(book - 1)
     val unitInfo = bookInfo?.units?.getOrNull(unit)
@@ -322,7 +324,7 @@ private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, na
                     priority = r.priority,
                     done = app.store.doneCount(r.book, r.row, total),
                     total = total,
-                    onClick = { nav.row(r.book, r.row) },
+                    onClick = { nav.dayRow(r.book, r.row, dayN) },
                     onPractice = if ((info?.questionCount ?: 0) > 0) ({ nav.quiz("row", r.book, r.row) }) else null,
                 )
             }

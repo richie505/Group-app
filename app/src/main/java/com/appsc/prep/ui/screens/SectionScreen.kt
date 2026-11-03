@@ -61,7 +61,7 @@ fun rememberBook(id: Int): Book? {
 /** A syllabus row: its subsections (■ headings) with read state. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
+fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
     val app = LocalApp.current
     val info = app.repo.rowInfo(bookId, rowIndex)
     val book = rememberBook(bookId)
@@ -256,21 +256,34 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                     )
                 }
             }
-            // on to the next section of the book (or back), without going back to the list
+            // on to the next topic (or back) without going back to the list: opened from a plan day, through the
+            // plan's days (the day's next topic, then the next day's); otherwise through the subject
             item {
-                val prev = book.rows.getOrNull(rowIndex - 1)
-                val next = book.rows.getOrNull(rowIndex + 1)
+                val plan = app.repo.plan.days
+                val (prev, next) = androidx.compose.runtime.remember(bookId, rowIndex, day) {
+                    val seq = plan.filter { it.n >= 1 }.flatMap { d -> d.rows.map { Triple(d.n, it.book, it.row) } }
+                    val at = seq.indexOfFirst { it.first == day && it.second == bookId && it.third == rowIndex }
+                    fun step(t: Triple<Int, Int, Int>?, word: String): NavStep? = t?.let { (d, b, r) ->
+                        NavStep(b, r, d, if (d == day) "$word topic" else "$word: Day $d", app.repo.rowInfo(b, r)?.title ?: "")
+                    }
+                    if (day > 0 && at >= 0) step(seq.getOrNull(at - 1), "Previous") to step(seq.getOrNull(at + 1), "Next")
+                    else {
+                        fun near(r: Int) = book.rows.getOrNull(r)?.let { NavStep(bookId, r, 0, "", it.title) }
+                        near(rowIndex - 1)?.copy(label = "Previous section") to near(rowIndex + 1)?.copy(label = "Next section")
+                    }
+                }
+                val go = { s: NavStep -> if (s.day > 0) nav.dayRow(s.book, s.row, s.day) else nav.row(s.book, s.row) }
                 if (prev != null || next != null) {
                     Spacer(Modifier.height(20.dp))
                     Row(Modifier.fillMaxWidth().padding(horizontal = 20.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                         if (prev != null) {
                             OutlinedButton(
-                                onClick = { nav.row(bookId, rowIndex - 1) },
+                                onClick = { go(prev) },
                                 modifier = Modifier.weight(1f).height(64.dp),
                                 shape = RoundedCornerShape(12.dp),
                             ) {
                                 Column(horizontalAlignment = Alignment.Start, modifier = Modifier.fillMaxWidth()) {
-                                    Text("← Previous section", style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent))
+                                    Text("← ${prev.label}", style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent))
                                     Text(prev.title, style = TextStyle(fontSize = 12.sp, color = C.Muted), maxLines = 1, overflow = TextOverflow.Ellipsis)
                                 }
                             }
@@ -279,13 +292,13 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                         }
                         if (next != null) {
                             Button(
-                                onClick = { nav.row(bookId, rowIndex + 1) },
+                                onClick = { go(next) },
                                 modifier = Modifier.weight(1f).height(64.dp),
                                 shape = RoundedCornerShape(12.dp),
                                 colors = ButtonDefaults.buttonColors(containerColor = C.Accent),
                             ) {
                                 Column(horizontalAlignment = Alignment.End, modifier = Modifier.fillMaxWidth()) {
-                                    Text("Next section →", style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = Color.White))
+                                    Text("${next.label} →", style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = Color.White))
                                     Text(next.title, style = TextStyle(fontSize = 12.sp, color = Color.White.copy(alpha = 0.85f)), maxLines = 1, overflow = TextOverflow.Ellipsis)
                                 }
                             }
@@ -306,3 +319,6 @@ fun BadgeTag(badge: String) = when (badge) {
     "GROUP-II" -> Tag("Group-II", C.GreenSoft, C.Green)
     else -> Tag(badge.replaceFirstChar { it.uppercase() })
 }
+
+/** Where a topic's Next / Previous button goes: [day] > 0 keeps the reader inside the plan's day order. */
+private data class NavStep(val book: Int, val row: Int, val day: Int, val label: String, val title: String)
