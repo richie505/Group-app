@@ -58,10 +58,22 @@ fun tabFor(route: String?): String = completeTabs.firstOrNull { it.route == rout
     else -> "books"
 }
 
-fun NavHostController.openTab(route: String) = navigate(route) {
-    popUpTo("today") { saveState = true }
-    launchSingleTop = true
-    restoreState = true
+fun NavHostController.openTab(route: String) {
+    // Today, or the tab already open: straight back to its own first screen (not to a section saved from before)
+    val here = currentBackStackEntry?.destination?.route
+    if (route == "today" || tabFor(here) == route) {
+        if (route == "today") {
+            if (!popBackStack("today", inclusive = false)) navigate("today") { launchSingleTop = true }
+        } else if (here != route && !popBackStack(route, inclusive = false)) {
+            navigate(route) { popUpTo("today"); launchSingleTop = true }
+        }
+        return
+    }
+    navigate(route) {
+        popUpTo("today") { saveState = true }
+        launchSingleTop = true
+        restoreState = true
+    }
 }
 
 class NavImpl(private val nav: NavHostController) : Nav {
