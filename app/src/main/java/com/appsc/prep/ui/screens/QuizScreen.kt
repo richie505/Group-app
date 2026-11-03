@@ -904,17 +904,17 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
     val app = LocalApp.current
     val found by androidx.compose.runtime.produceState<Pair<com.appsc.prep.data.NoteRow, List<Int>>?>(null, q.id) {
         value = runCatching {
-            val (row, sec) = app.repo.mcq(q.book).placeOf(q.id) ?: return@runCatching null
-            val r = app.repo.book(q.book).rows.getOrNull(row) ?: return@runCatching null
-            val full = r.secs.indices.filter { r.secs[it].full }
-            val pages = full.ifEmpty { r.secs.indices.toList() }
-            // start: its own page if it is one of these, else the page whose lines match the question best
-            val best = if (sec in pages) sec else pages.maxByOrNull {
-                com.appsc.prep.data.NotesExcerpt.forQuestion(q, r.secs[it].blocks, 50).size
-            } ?: return@runCatching null
-            r to (listOf(best) + pages.filter { it != best }.sortedBy { it })
+            kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Default) {
+                val book = app.repo.book(q.book)
+                val filed = app.repo.mcq(q.book).placeOf(q.id)?.first ?: -1
+                // the page that holds the answer's fact (anywhere in the subject), then the rest of its topic
+                val at = com.appsc.prep.data.NotesFinder.best(q, book, filed) ?: return@withContext null
+                val r = book.rows[at.row]
+                r to (listOf(at.sec) + r.secs.indices.filter { it != at.sec })
+            }
         }.getOrNull()
     }
+    val answer = remember(q.id) { com.appsc.prep.data.NotesFinder.answerWords(q) }
     androidx.compose.ui.window.Dialog(onDismissRequest = onClose, properties = androidx.compose.ui.window.DialogProperties(usePlatformDefaultWidth = false)) {
         Column(Modifier.fillMaxSize().background(Color.White)) {
             Row(Modifier.fillMaxWidth().height(60.dp).padding(horizontal = 4.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -948,7 +948,14 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
                     style = TextStyle(fontSize = 18.sp, lineHeight = 24.sp, fontWeight = FontWeight.Bold, color = C.Ink),
                     modifier = Modifier.padding(top = 4.dp, bottom = 6.dp),
                 )
-                sec.blocks.forEach { com.appsc.prep.ui.components.BlockView(it, 0.95f) }
+                sec.blocks.forEach { blk ->
+                    // the lines with the answer's words: marked, so the eye finds them at once
+                    val hit = answer.isNotEmpty() && com.appsc.prep.data.NotesFinder.words(com.appsc.prep.data.NotesFinder.text(listOf(blk)))
+                        .let { w -> answer.count { it in w } * 2 >= answer.size }
+                    Box(if (hit) Modifier.fillMaxWidth().background(Color(0xFFFFF4C2), RoundedCornerShape(6.dp)).padding(horizontal = 4.dp) else Modifier) {
+                        com.appsc.prep.ui.components.BlockView(blk, 0.95f)
+                    }
+                }
             }
             androidx.compose.material3.HorizontalDivider(color = C.Line)
             val i = pages.indexOf(at)

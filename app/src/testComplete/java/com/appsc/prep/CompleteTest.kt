@@ -55,6 +55,39 @@ class CompleteTest {
         return app
     }
 
+    @Test fun readFromNotesOpensThePageWithTheAnswer() = runBlocking {
+        val repo = Repository { ctx.assets.open(it) }
+        val book = repo.book(6)
+        val q = repo.mcq(6).rows.values.flatten().first { it.id == "cac5fdc7a963a9" } // Swarnandhra 2047: $42,000
+        val at = com.appsc.prep.data.NotesFinder.best(q, book, repo.mcq(6).placeOf(q.id)?.first ?: -1)!!
+        val page = com.appsc.prep.data.NotesFinder.text(book.rows[at.row].secs[at.sec].blocks)
+        assertTrue(page, page.contains("42,000") && page.contains("3,400"))
+    }
+
+    @Test fun readFromNotesFindsTheAnswerForMostMcqs() = runBlocking {
+        val repo = Repository { ctx.assets.open(it) }
+        val report = StringBuilder()
+        var tried = 0
+        var hit = 0
+        for (b in 1..6) {
+            val book = repo.book(b)
+            val m = repo.mcq(b)
+            val qs = m.rows.values.flatten().filter { q ->
+                val o = q.options.getOrNull(q.answer).orEmpty()
+                q.answer >= 0 && com.appsc.prep.data.NotesFinder.answerWords(q).isNotEmpty() && o.length in 3..40
+            }
+            for (q in qs.filterIndexed { i, _ -> i % 40 == 0 }) {
+                tried++
+                val at = com.appsc.prep.data.NotesFinder.best(q, book, m.placeOf(q.id)?.first ?: -1) ?: continue
+                val w = com.appsc.prep.data.NotesFinder.words(com.appsc.prep.data.NotesFinder.text(book.rows[at.row].secs[at.sec].blocks))
+                val ans = com.appsc.prep.data.NotesFinder.answerWords(q)
+                if (ans.count { it in w } * 2 >= ans.size) hit++ else report.append("${q.id} | ${q.stem.take(80)} => ${q.options[q.answer]} | ${book.rows[at.row].secs[at.sec].title}\n")
+            }
+        }
+        java.io.File("build/notes-finder-misses.txt").writeText("hit $hit of $tried\n$report")
+        assertTrue("hit $hit of $tried", hit >= tried * 0.85)
+    }
+
     @Test fun edition() {
         val repo = Repository { ctx.assets.open(it) }
         assertEquals("APPSC Complete", repo.appName)
