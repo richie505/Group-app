@@ -1,6 +1,6 @@
-"""APPSC Complete's plan from 3 Nov on, by priority: HIGH topics first, then MED, then LIGHT.
+"""APPSC Complete's whole plan (from 26 Oct, Day 1), by priority: HIGH topics first, then MED, then LIGHT.
 
-Days before KEEP_BEFORE stay exactly as they were (already studied). From then on:
+Days before KEEP_BEFORE (if any) stay exactly as they were. From then on:
 - the rest of the first pass (to 3 Dec): HIGH topics, then MED, then LIGHT; still one subject a day, subjects
   interleaved, and each day about the same number of MCQs (the time goes on MCQs, not on topic count);
 - R2, R3 revision and the Phase 4 MCQ days (mocks where they were): HIGH first, then MED, then LIGHT.
@@ -12,7 +12,7 @@ import json
 import re
 
 A = "app/src/complete/assets"
-KEEP_BEFORE = "2026-11-03"
+KEEP_BEFORE = "2026-10-26"  # the whole plan, from Day 1
 TIERS = ["HIGH", "MED", "LIGHT"]
 ORDER = [2, 1, 4, 3, 5, 6]  # Polity first, as in the plan
 
