@@ -78,7 +78,7 @@ class MainActivity : ComponentActivity() {
         )
         // the notes and the dictionary read in the background once the first screen is up: a Meaning lookup is then quick
         lifecycleScope.launch {
-            kotlinx.coroutines.delay(2500)
+            kotlinx.coroutines.delay(800)
             app.repo.warmNotes()
         }
         setContent {

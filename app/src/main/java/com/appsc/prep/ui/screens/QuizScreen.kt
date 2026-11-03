@@ -94,10 +94,8 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "need" -> app.repo.index.flatMap { b ->
                 app.repo.mcqWhere(b.id) { needsPractice(it.id, app.store.answers, app.store.seen) }
             }.distinctBy { it.id }
-            // APPSC Complete: a plan day's own MCQs, as the MCQs tab counts them ([com.appsc.prep.data.DueMcqs])
-            else -> if (app.repo.complete && app.repo.planMcqs.days.isNotEmpty()) {
-                questions(app, app.repo.planMcqs.days.first { it.first.n == src.index }.second)
-            } else {
+            // a plan day: every MCQ of its sections, in the day's order (read straight from those books: quick)
+            else -> {
                 val day = app.repo.plan.days.first { it.n == src.index }
                 val seen = HashSet<String>()
                 day.rows.flatMap { r -> app.repo.mcq(r.book).rows[r.row] ?: emptyList() }.filter { seen.add(it.id) }

@@ -98,7 +98,7 @@ for d, k in zip(study, seq):
     rows = parts[k][used[k]]
     used[k] += 1
     n = sum(map(w, rows))
-    d["rows"] = [dict(r, q=q_study) for r in rows]
+    d["rows"] = [dict(r) for r in rows]  # all of each topic's MCQs on its day: the day's count = its sections' MCQs
     if b:
         d["focus"] = short[b].upper()
         what = f"{len(rows)} one-pagers of {short[b]}, topics {pages(rows)} (same page numbers in its one-pager PDF)"
@@ -107,7 +107,7 @@ for d, k in zip(study, seq):
         what = f"{len(rows)} one-pagers: " + "; ".join(
             f"{short[x]} {pages([r for r in rows if r['ref'][0] == x])}" for x in ORDER if any(r["ref"][0] == x for r in rows))
     d["brief"] = [f"{t} priority. Read: {what}.",
-                  f"About 10 minutes a page; then today's MCQs (about {n // 2} of their {n})."]
+                  f"About 10 minutes a page; then today's MCQs (all {n} of them)."]
 
 # --- R2, R3 and Phase 4: every topic, HIGH first
 allrows = {tuple(r["ref"]): strip(r) for d in plan["days"] for r in d["rows"]}

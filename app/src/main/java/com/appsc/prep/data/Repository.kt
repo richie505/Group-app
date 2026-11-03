@@ -117,6 +117,8 @@ class Repository(private val open: (String) -> InputStream) {
 
     /** Reads the notes in the background so the first "Meaning" lookup finds them ready. */
     suspend fun warmNotes() {
+        // today's subjects' MCQs first (the day's practice opens on them), then the notes' lines
+        runCatching { for (b in dayFor(LocalDate.now()).rows.map { it.book }.distinct()) mcq(b) }
         runCatching { noteLines(); dictionary }
     }
 
