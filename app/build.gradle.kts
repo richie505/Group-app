@@ -14,8 +14,8 @@ android {
         applicationId = "com.appsc.prep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 123
-        versionName = "3.12"
+        versionCode = 124
+        versionName = "3.13"
     }
 
     signingConfigs {
@@ -59,6 +59,13 @@ android {
             dimension = "edition"
             applicationIdSuffix = ".complete2"
             resValue("string", "app_name", "APPSC Complete 2.0")
+        }
+        // APPSC Complete cut down to the Group 2 syllabus, with its own plan (tools/group2_build.py); installs beside it
+        create("group2") {
+            dimension = "edition"
+            applicationIdSuffix = ".group2"
+            versionNameSuffix = "-g2"
+            resValue("string", "app_name", "APPSC Group 2")
         }
     }
     // its assets: APPSC Complete's, with its own MCQs, topic counts and edition (src/oneliner/assets) in their place

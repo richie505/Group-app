@@ -92,8 +92,9 @@ fun dayProgress(day: PlanDay): Pair<Int, Int> {
     var total = 0
     for (r in day.rows) {
         val n = app.repo.rowInfo(r.book, r.row)?.subsectionCount ?: 0
-        total += n
-        done += app.store.doneCount(r.book, r.row, n)
+        // the pages that show (APPSC Complete hides those with nothing for the MCQs)
+        total += app.store.shownCount(r.book, r.row, n)
+        done += app.store.shownDone(r.book, r.row, n)
     }
     return done to total
 }
@@ -188,7 +189,7 @@ private fun HeroCard(
             }
             Spacer(Modifier.height(8.dp))
             Text(
-                "Day ${day.n} of 90",
+                "Day ${day.n} of ${LocalApp.current.repo.plan.days.size}",
                 style = TextStyle(fontSize = 30.sp, fontWeight = FontWeight.Bold, color = Color.White),
             )
             Text(
@@ -313,7 +314,8 @@ private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, na
             }
             rows.forEachIndexed { i, r ->
                 val info = app.repo.rowInfo(r.book, r.row)
-                val total = info?.subsectionCount ?: 0
+                val all = info?.subsectionCount ?: 0
+                val total = app.store.shownCount(r.book, r.row, all)
                 HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 16.dp))
                 SectionItem(
                     number = "${i + 1}",
@@ -324,7 +326,7 @@ private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, na
                         "$total subsections",
                     ).joinToString(" · "),
                     priority = r.priority,
-                    done = app.store.doneCount(r.book, r.row, total),
+                    done = app.store.shownDone(r.book, r.row, all),
                     total = total,
                     onClick = { nav.dayRow(r.book, r.row, dayN) },
                     onPractice = if ((info?.questionCount ?: 0) > 0) ({ nav.quiz("row", r.book, r.row) }) else null,

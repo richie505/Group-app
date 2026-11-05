@@ -158,7 +158,8 @@ private fun ExamSubjectCard(sj: com.appsc.prep.data.ExamSubject, exam: Int, inde
                 Modifier.size(width = 46.dp, height = 58.dp).clip(RoundedCornerShape(8.dp)).background(bookColors[(index + exam * 3) % 6]),
                 contentAlignment = Alignment.Center,
             ) {
-                Text(if (exam == 0) "G1" else "G2", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.Bold, color = Color.White))
+                // the exam's own number (APPSC Group 2 has only Group 2)
+                Text(if (LocalApp.current.repo.exams.getOrNull(exam)?.title?.endsWith("2") == true) "G2" else "G1", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.Bold, color = Color.White))
             }
             Spacer(Modifier.width(14.dp))
             Column(Modifier.weight(1f)) {
@@ -233,8 +234,8 @@ fun ExamSubjectScreen(exam: Int, subject: Int, nav: Nav) {
                                         "${app.store.shownCount(b, ri, r.subsectionCount)} subsections",
                                     ).joinToString(" · "),
                                     priority = app.repo.planRowByRef[b to ri]?.priority ?: "",
-                                    done = app.store.doneCount(b, ri, r.subsectionCount),
-                                    total = r.subsectionCount,
+                                    done = app.store.shownDone(b, ri, r.subsectionCount),
+                                    total = app.store.shownCount(b, ri, r.subsectionCount),
                                     onClick = { nav.row(b, ri) },
                                     onPractice = if (r.questionCount > 0) ({ nav.quiz("row", b, ri) }) else null,
                                 )
@@ -309,8 +310,8 @@ fun BookScreen(id: Int, nav: Nav) {
                                         "${app.store.shownCount(b.id, r.index, r.subsectionCount)} subsections",
                                     ).joinToString(" · "),
                                     priority = app.repo.planRowByRef[b.id to r.index]?.priority ?: "",
-                                    done = app.store.doneCount(b.id, r.index, r.subsectionCount),
-                                    total = r.subsectionCount,
+                                    done = app.store.shownDone(b.id, r.index, r.subsectionCount),
+                                    total = app.store.shownCount(b.id, r.index, r.subsectionCount),
                                     onClick = { nav.row(b.id, r.index) },
                                     onPractice = if (r.questionCount > 0) ({ nav.quiz("row", b.id, r.index) }) else null,
                                 )
