@@ -5,18 +5,18 @@ can be hidden from targets; near-duplicates are only for review.
 
 | | Count |
 |---|---|
-| MCQs in the app | 55,852 |
+| MCQs in the app | 34,908 |
 | of which PYQs | 15,659 |
-| of which the app's own | 40,193 |
-| Exact duplicate groups (same text, same options) | 427 |
-| Extra copies in those groups | 435 |
+| of which the app's own | 19,249 |
+| Exact duplicate groups (same text, same options) | 421 |
+| Extra copies in those groups | 429 |
 | Of the groups, keys that conflict | 24 |
-| Near-duplicates for review (same topic, same answer, ~same question) | 1,194 |
+| Near-duplicates for review (same topic, same answer, ~same question) | 1,131 |
 | MCQs without an explanation | 3,520 |
 | MCQs without an answer key | 574 |
-| Unique MCQs (all, minus extra copies) | 55,417 |
+| Unique MCQs (all, minus extra copies) | 34,479 |
 
-By subject: book 1: 13,933, book 2: 9,450, book 3: 7,762, book 4: 7,773, book 5: 7,796, book 6: 9,138
+By subject: book 1: 9,029, book 2: 5,958, book 3: 4,944, book 4: 5,143, book 5: 5,080, book 6: 4,754
 
 ## Exact duplicates
 
@@ -77,7 +77,6 @@ How many of the above dynasties establi
 - `yf0b383eaec1` (1:120) = `y366a9472d23` (1:120): Who of the following rulers of medieval India gave permission to the Portuguese to build a fort at Bhatkal?
 - `y3d0cb5eb04c` (1:123) = `y9f25d89064f` (1:123): Where is the famous Virupaksha Temple located?
 - `yeeacd2ec83a` (1:125) = `y6c71b84879d` (4:91): Etikoppaka is known for
-- `nindian-history-82-15` (1:129) = `yf59396109da` (1:138): Mughal painting reached its zenith under:
 - `yb410525f827` (1:135) = `y710f1eebf51` (1:135): Which among the following ports was called Babul Makka (Gate of Makka) during the Mughal Period?
 - `yda2fd427122` (1:138) = `y4bd84ab2c99` (1:138): Mughal painting reached its zenith under:
 - `yab8420b4344` (1:142) = `yf4738723b69` (1:142): Prem Vatika, poems on the life of Krishna, was composed by:
@@ -147,7 +146,6 @@ How many of the above dynasties establi
 - `y537354ad37c` (1:249) = `y1b6970c4346` (1:249): Who was the first Governor General of independent India?
 - `y46bbb167e62` (1:252) = `yd4a1afac95a` (1:252): Who advocated 'Neo-Buddhism'?
 - `ya0dad8dc341` (1:255) = `ybd071c06185` (1:255): What was the capital of the 'Andhra State" which was created in 1953?
-- `n7d6a99fd32f` (1:259) = `n8d42581e9e1` (1:259): Who was the first president of the Andhra Desa Library Association?
 - `y36ffa347ad3` (1:262) = `yc364744dabd` (1:262): The agreement signed in 1956 between the leaders of Telangana and Andhra before the formation of the state of Andhra Pra
 - `ye1162767ee5` (1:262) = `y8fc511c117f` (1:262): Which city was the first capital of Andhra Pradesh?
 - `yf8ae773919f` (1:263) = `ye6dcdc51232` (1:263): When did Andhra Pradesh and Telangana get separated into two states?
@@ -157,7 +155,6 @@ How many of the above dynasties establi
 - `y92c02db883f` (1:263) = `ya48a956c93f` (1:263): Which of these provisions were laid down in Legal and Miscellaneous Provisions in Part XII of the Andhra Pradesh Reorgan
 - `yfed292c44ce` (1:263) = `y1fb8c9f20b9` (1:263): Whose responsibility is it to protect residents of common capital of Hyderabad?
 - `y5c7cf19a2dc` (1:269) = `ybaf4357a487` (1:269): The first feature film (talkie) to be produced in India was:
-- `nindian-polity-1-42` (2:0) = `n0f18645f3ea` (2:32): The Public Accounts Committee was first set up in:
 - `y572e4cc7293` (2:1) = `y3553e1f8637` (2:1): Who was the Provisional President of the Constituent Assembly before Dr. Rajendra Prasad took over?
 - `yb8b05e0925b` (2:2) = `ydc736d99f88` (2:2): The 'Election of members of the Rajya Sabha' of the Indian Constitution has been borrowed from which of the following co
 - `yd6bf82d0280` (2:2) = `y49c18237e0c` (2:2): Which of the borrowed features of the Indian Constitution is from Britain?
@@ -183,9 +180,7 @@ How many of the above dynasties establi
 - `y0e7bc2e8aed` (2:34) = `y6f9f3521f5b` (2:34): All revenues received by the Union Government by way of taxes and other receipts for the conduct of Government business 
 - `y16179ea597a` (2:34) = `y0644813896d` (2:34): The salaries and allowances of the Judges of the High Court are charged to the:
 - `y1ea3e08a983` (2:35) = `y3346e26ba8c` (2:35): In India, which of the following review the independent regulators in sectors like telecommunications, insurance, electr
-- `n9ab21af1e53` (2:39) = `nindian-polity-1-44` (2:131): Who was the first woman Governor of an Indian State?
 - `y44634b06e12` (2:41) = `y905078a96dd` (5:90): With reference to the composition of the Legislative Council in a state of India, which of the following statement/s is/
-- `nindian-polity-71-21` (2:43) = `n67a734e7e7a` (6:21): A High Court judge retires at the age of:
 - `ye6355cd00fb` (2:43) = `y197263d8afe` (2:43): The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its:
 - `yfdabcdc52e0` (2:43) = `yead593a58fc` (2:43): Consider the following statements:
 1. The motion to impeach a Judge of the Supreme Court of India cannot be rejected by 
@@ -204,7 +199,6 @@ How many of the above dynasties establi
 1. Within a State, the notification of an
 - `y42f836ccfa0` (2:83) = `y9770c4f6828` (2:83): Under which Schedule of the Constitution of India can the transfer of tribal land to private parties for mining be decla
 - `y8e013c11b61` (2:83) = `yd3fda5605aa` (2:83): Which Schedule of the Constitution of India contains special provisions for the administration and control of Scheduled 
-- `n5ee7e7bf236` (2:85) = `nindian-society-7-1` (2:85): In which year was the Ministry of Welfare renamed the Ministry of Social Justice and Empowerment?
 - `y02b27355fb3` (2:85) = `y9b784103671` (2:85): The Central social welfare Board initiated a for children aged 0-5 years of working engaged in agricultural work, buildi
 - `y0edb0c26d6d` (2:89) = `y08257dc3ed8` (2:89): The following process is employed to enhance accountability in MGNREGA
 - `y0f6ad55ff22` (2:98) = `y77186ae1614` (2:98): The North Eastern Council (NEC) was established by the North Eastern Council Act, 1971. Subsequent to the amendment of N
@@ -664,7 +658,6 @@ How many o
 - `nce255c1b541` / `nef5a9079ddd` (1:5, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `nce255c1b541` / `nce2d0bb5557` (1:5, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `nindian-history-2-2` / `nindian-history-26-2-4` (1:5, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
-- `y4527350818d` / `nindian-history-26-2-20` (1:5, 100%): Harappa was situated on the bank of river | Harappa is situated on the bank of the river:
 - `nef5a9079ddd` / `nce2d0bb5557` (1:5, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `nindian-history-3-33` / `nindian-history-3-40` (1:5, 100%): Which Harappan site is correctly matched? | Which Harappan site is correctly matched?
 - `y922abdce2fa` / `yfa546cdbdcf` (1:5, 100%): Which one of the following is not a Harappan site? | Which one of the following is not a Harappan site?
@@ -690,7 +683,6 @@ How many o
 - `y47dba70f36b` / `yc3b101b12c1` (1:36, 100%): Which one of the following scripts of ancient India was written from right to left? | Which one of the following scripts of ancient India was written from right to left?
 - `yaa7a1bb50b6` / `y82dbf9d0b3e` (1:36, 100%): Who among the following rulers advised his subjects through this inscription? "Whosoever p | Who among the following rulers advised his subjects through this inscription? "Whosoever p
 - `nfa7788d716d` / `n5d6e894034d` (1:38, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
-- `n699f923309e` / `y23c35a07fa7` (1:38, 100%): Which was the most famous centre of learning during the Mauryan period? | The most famous centre of learning during Mauryan period was
 - `ybd33c04954e` / `y87df36fa406` (1:41, 92%): Consider the following statements:
 1. The last Mauryan ruler, Brihadratha, was assassinate | Consider the following statements:
 1. The last Mauryan ruler, Brihadratha was assassinated
@@ -698,7 +690,6 @@ How many o
 - `nap-history-20-2` / `nap-history-11-1` (1:47, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n369e3e7f8dd` / `n2f375e9da64` (1:47, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `y5a4371a528c` / `y3a1b34fd48d` (1:47, 100%): Who is the author of the Gatha Saptasati? | Who is the author of the Gatha Saptasati?
-- `ne853ba57016` / `yac6be68d1ac` (1:47, 100%): Gunadhya wrote the Brihatkatha in which language? | Gunadhya wrote Brihatkatha in which language?
 - `nap-history-41-14` / `ne5ea4ca94a1` (1:49, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n3f39f982788` / `ne37556ffc92` (1:53, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
 - `nbdcd6d7cc65` / `n8b86e17c9b0` (1:58, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
@@ -727,7 +718,6 @@ How many o
 3. Na | Consider the following pairs : King Dynasty
 1. Nannuka – Chandela
 2. Jayashakti – Paramara
-- `ne25740aec80` / `n95a52c5de84` (1:72, 80%): The Kailasa temple at Ellora was carved during the reign of which Rashtrakuta ruler? | The Kailasa temple (Cave 16) at Ellora was carved during the reign of which Rashtrakuta ru
 - `y04f70f716b5` / `y31116e9f46b` (1:75, 100%): Where are the Navabrahma temples located? | Where are the Navabrahma temples located?
 - `y26cc55be709` / `y09ecc255cf8` (1:75, 100%): The Nagara, the Dravida and the Vesara are | The Nagara, the Dravida and the Vesara are :
 - `n0fcd80882d5` / `nf7db3d96c11` (1:79, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
@@ -757,7 +747,6 @@ How many o
 - `n3b1e95f0609` / `nf4070dcfe6c` (1:101, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
 - `n3b1e95f0609` / `nb8cad77c1d1` (1:101, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
 - `nf4070dcfe6c` / `nb8cad77c1d1` (1:101, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
-- `yd5448345998` / `n21395f6174f` (1:103, 100%): The author of ‘Prithviraj Raso’ is – | Who is the author of ‘Prithviraj Raso’?
 - `ya5dcfd60455` / `ya75814840ed` (1:105, 86%): Who among the following introduced the Persian festival Nawruz in India? | Who among the following introduced the famous Persian festival ‘Nawruz’ in India?
 - `yb194b464009` / `y29498fed6b2` (1:108, 100%): The Sultan of Delhi who is reputed to have built the biggest network of canals in India wa | The Sultan of Delhi who is reputed to have built the biggest network of canals in India wa
 - `nfefefc53e77` / `nindian-history-4-9` (1:110, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
@@ -768,7 +757,6 @@ How many o
 - `nindian-history-70-8` / `nindian-history-70-18` (1:115, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `nc24fa0f9887` / `ne1bddaf1296` (1:116, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `y739b74d8ab9` / `y3681b4cb196` (1:116, 100%): The first writer to use Urdu as the medium of poetic expression was: | The first writer to use Urdu as the medium of poetic expression was:
-- `nee808fee64f` / `y18cce14f776` (1:118, 83%): The Kohinoor diamond was presented to Shah Jahan by: | The famous diamond ‘Kohinoor’ was presented to Shah Jahan by –
 - `y15b1274e78c` / `y57e80262374` (1:118, 82%): Which one of the following Muslim rulers was hailed as the 'Jagadguru' by his Muslim subje | Which one of the following Muslim rulers was hailed as the ‘Jagadguru’ by his Muslim subje
 - `yf7e69745eb3` / `y7c3930beca4` (1:119, 100%): The ‘Vijayanagara’ Kingdom was founded by – | The kingdom of Vijayanagara was founded by-
 - `y91ba445be18` / `y1bc91092b14` (1:119, 84%): Who among the following rulers of Vijayanagara Empire constructed a large dam across Tunga | Who among the following rulers of Vijayanagara Empire constructed a large dam across Tunga
@@ -793,7 +781,6 @@ How many o
 - `nc292c5f3c00` / `ne7400c7d769` (1:135, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `yb410525f827` / `yfbe0cdcc081` (1:135, 80%): Which among the following ports was called Babul Makka (Gate of Makka) during the Mughal P | Which among the following ports was called Babul Mecca (Gate of Mecca) during the Mughal P
 - `yfbe0cdcc081` / `y710f1eebf51` (1:135, 80%): Which among the following ports was called Babul Mecca (Gate of Mecca) during the Mughal P | Which among the following ports was called Babul Makka (Gate of Makka) during the Mughal p
-- `n3e0fcf94311` / `y17410a3415e` (1:137, 100%): Akbar's Tomb is located at: | Where is the Tomb of Akbar located ?
 - `n122092a20eb` / `n5b56830a37c` (1:137, 100%): Which of the following pairs is NOT correctly matched? | Which of the following pairs is NOT correctly matched?
 - `nindian-history-71-7` / `nindian-history-6-2` (1:138, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `nindian-history-71-7` / `nindian-history-85-6` (1:138, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
@@ -812,7 +799,6 @@ How many o
 - `nindian-history-141-2` / `nindian-history-65-7` (1:139, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `ye2b69a9884d` / `y3148fcf2476` (1:140, 100%): Ashtapradhan was a Council of Ministers | Ashtapradhan was a Council of Ministers :
 - `n59596b6db5b` / `n1955fc2eed9` (1:141, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
-- `n9859b1caec4` / `yf5504c1d806` (1:142, 88%): The Nathpanthis, Siddhas and Yogis made devotional religion popular mainly in: | Nathpanthis, Siddhas and Yogis made devotional religion popular in
 - `n6fc43cff704` / `n66d47173ccc` (1:144, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
 - `n301d1d68f9d` / `n5fc16d22325` (1:145, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n301d1d68f9d` / `n001ca81db21` (1:145, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
@@ -829,7 +815,6 @@ How many o
 - `n357c1e982dc` / `n7f454e39d46` (1:151, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
 - `ye6b301e89f4` / `y96cbf2da85b` (1:151, 100%): With reference to the entry of European powers into India, which one of the following stat | With reference to the entry of European powers into India, which one of the following stat
 - `n391f3cd06cf` / `n1585631271a` (1:153, 100%): Which one of the following is NOT correctly matched? | Which one of the following is NOT correctly matched?
-- `nindian-history-131-1` / `y742480bea95` (1:154, 83%): In which year was the East India Company established? | In which year was the English East India Company established?
 - `y3620ff98a41` / `y517ab49dd0c` (1:157, 100%): Who among the following Europeans were the last to come to pre-independence India as trade | Who, among the following Europeans, was the last to come to pre-independence India as trad
 - `n70c5e8f4a9e` / `ned9754c80d9` (1:167, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
 - `nindian-history-91-13` / `n16f9813b933` (1:167, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
@@ -859,7 +844,6 @@ How many o
 - `yb7a513c2943` / `y46e448ef3ec` (1:178, 100%): During the colonial period in India, what was the purpose of the Whitley Commission? | During the colonial period in India, what was the purpose of the Whitley Commission?
 - `y79ec9d33252` / `ya73e1e75a21` (1:178, 88%): 34/75 10/18/23, 1:23 PM Identify the CORRECT statements with regards to Mir Osman Ali Khan | Identify the CORRECT statements with regards to Mir Osman Ali Khan Bahadur Asaf Jah VII?
 I
-- `nc6d1942726b` / `yc2c7894d5cb` (1:179, 83%): The first railway line in Andhra (1862) was: | Which was the first railway line laid in Andhra in 1862?
 - `nindian-history-135-10` / `na244fbb193b` (1:179, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `yb8ff4d967e3` / `y38e20477436` (1:179, 100%): Which one of the following was a journal brought out by Abul Kalam Azad? | Which one of the following was a journal brought out by Abul Kalam Azad?
 - `y38e20477436` / `y9e3665c7fbd` (1:179, 100%): Which one of the following was a journal brought out by Abul Kalam Azad? | Which one of the following was a journal brought out by Abul Kalam Azad?
@@ -925,7 +909,6 @@ I
 - `y27106cb1a06` / `y6645defa122` (1:202, 89%): The song Amar Sonar Bangla, written during the Swadeshi Movement, inspired the liberation  | The song ‘Amar Sonar Bangla’ written during the Swadeshi Movement of India inspired the li
 - `n646d6c7c440` / `neafb3655193` (1:202, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
 - `nindian-history-118-6` / `nindian-history-93-6` (1:204, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
-- `ybb53c2f8e79` / `n363eb876977` (1:204, 100%): Who wrote "New Lamps For The Old"? | Who wrote 'New Lamps for Old'?
 - `nb946d64ae25` / `n74d4115646f` (1:204, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
 - `ncf85b6c6c28` / `y7442b11da4a` (1:204, 100%): Which of the following pairs is NOT correctly matched? | Which of the following pairs is not correctly matched:
 - `nindian-history-93-13` / `nindian-history-93-14` (1:204, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
@@ -959,7 +942,6 @@ ii. Format
 - `ya6c23b8297b` / `yabf8ad9d071` (1:210, 100%): When was the Hyderabad State Congress formed? | When was the Hyderabad State Congress formed?
 - `nap-history-5-19` / `nap-history-5-14` (1:211, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n4cd6418a81f` / `nfe5a97ff698` (1:215, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
-- `n64b930349f1` / `n67d8ba5bc4f` (1:215, 100%): Who was the first Chief Minister of Andhra State? | Who was the first Chief Minister of Andhra State?
 - `nindian-history-136-2` / `nindian-history-129-5` (1:219, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `y048c208d02f` / `y12f9a0ff0d7` (1:219, 100%): With reference to the history of India, "Ulgulan" or the Great Tumult is the description o | With reference to the history of India, "Ulgulan" or the Great Tumult is the description o
 - `nff0720fe734` / `n3de168708c8` (1:220, 100%): Which of the following pairs is NOT correctly matched? | Which of the following pairs is NOT correctly matched?
@@ -989,7 +971,6 @@ I. Boycott of
 - `y928a984edf0` / `y40612cd22e6` (1:238, 80%): Who of the following organised a March on the Tanjore coast to break the Salt Law in April | Who of the following organized a march on the Tanjore coast to break the Salt Law in April
 - `y57d1c0d6787` / `yb3086394219` (1:240, 100%): An important aspect of the Cripps Mission of 1942 was | An important aspect of the Cripps Mission of 1942 was:
 - `y05c7bb8c171` / `y9dac4aedd3f` (1:240, 100%): Which of the following Prime Ministers sent the Cripps Mission to India? | Who of the following Prime Ministers sent Cripps Mission to India?
-- `n2859adbb5c6` / `y3efc4147d3f` (1:241, 100%): Who said, "We shall either free India or die in the attempt"? | "We shall either free India or die in the attempt ..." who said it?
 - `ycabbe790e09` / `y89936f987ad` (1:241, 100%): Which one of the following observations is not true about the Quit India Movement of 1942? | Which one of the following observations is not true about the Quit India Movement of 1942?
 - `y66cb9d39eed` / `y51038c11dce` (1:243, 100%): Which party was founded by Subhash Chandra Bose in the year 1939 after he broke away from  | Which party was founded by Subhash Chandra Bose in the Year 1939 after he broke away from 
 - `y8b69ad7b774` / `ydd5e2206b71` (1:243, 89%): Which Indian nationalist leader looked upon a war between Germany and Britain as a godsent | Which Indian nationalist leader looked upon a war between Germany and Britain as a godsend
@@ -1009,7 +990,6 @@ I. Boycott of
 - `y1afa9ecb2c5` / `yb154e212d6c` (1:249, 83%): Who among the following was the first Governor- General of Independent India? | Who was the first Governor-General of Independent India?
 - `y46a3f196554` / `y3465850ca3d` (1:250, 100%): Mahatma Gandhi undertook a fast unto death in 1932, mainly because | Mahatma Gandhi undertook fast unto death in 1932, mainly because :
 - `ya1d487358b6` / `yed990b9a384` (1:250, 100%): Subsequent to which one of the following events, Gandhiji, who consistently opposed untouc | Subsequent to which one of the following events, Gandhiji, who consistently opposed untouc
-- `n23591003016` / `yabb1315c67a` (1:252, 100%): "Nothing can emancipate the outcaste except the destruction of the caste system." Who said | Who said that, 'Nothing can emancipate the outcaste except the destruction of the caste sy
 - `n46ecd9b219d` / `n19b8b1cd50e` (1:255, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n46ecd9b219d` / `nap-history-17-21` (1:255, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n46ecd9b219d` / `nap-history-17-4` (1:255, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
@@ -1024,8 +1004,6 @@ I. Boycott of
 - `nap-history-17-21` / `nap-history-1-10` (1:255, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `nap-history-17-4` / `nap-history-1-4` (1:255, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `nap-history-17-4` / `nap-history-1-10` (1:255, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
-- `nap-history-17-15` / `y886f8632c1f` (1:255, 100%): Who presided over the first session of the Nizam Mahasabha Andhra? | Who presided over the first session of the "Nizam Andhra Mahasabha"?
-- `n130e78c805e` / `y01287be427c` (1:255, 100%): The first Vice-Chancellor of Andhra University was: | Who was the first Vice Chancellor of Andhra University?
 - `nap-history-1-4` / `nap-history-1-10` (1:255, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `y53ab4f86b5d` / `y84544ddc9df` (1:255, 100%): Who was the first Governor of Andhra Pradesh? | First Governor of Andhra Pradesh?
 - `n9fb64dd85b0` / `n47519a07efc` (1:257, 100%): Which of the following pairs is NOT correctly matched? | Which of the following pairs is NOT correctly matched?
@@ -1040,17 +1018,13 @@ I. Boycott of
 - `nindian-polity-1-21` / `nindian-polity-22-31` (2:0, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
 - `nindian-polity-22-61` / `nindian-polity-22-31` (2:0, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
 - `y65aebf3e502` / `y23f63c59de1` (2:0, 100%): By which one of the following Acts was the Governor General of Bengal designated as the Go | By which one of the following Acts was the Governor-General of Bengal designated as the Go
-- `nb4eb00b0ee0` / `y13947393fdd` (2:1, 80%): The Constitution of India was adopted by the Constituent Assembly on | Constitution was adopted by constituent assembly on –
 - `ndbf048de4a8` / `n3c47e449bc2` (2:1, 100%): Which of the following pairs relating to the Constituent Assembly is wrongly matched? | Which of the following pairs relating to the Constituent Assembly is wrongly matched?
-- `nindian-polity-1-34` / `ye60b4db21d0` (2:1, 86%): How many women members were there in the Constituent Assembly? | How many women members were there in the Indian Constituent Assembly?
 - `y2c41207a833` / `y0136edbf4c9` (2:1, 100%): With reference to Indian History, the Members of the Constituent Assembly from the Provinc | With reference to Indian History, the Members of the Constituent Assembly from the Provinc
 - `y2e6cccb6c40` / `y467483b9c46` (2:1, 100%): Who among the following was the Chairman of the Union Constitution Committee of the Consti | Who among the following was the chairman of the Union Constitution Committee of the Consti
 - `y296674d0714` / `y9a6a8ab63fb` (2:1, 92%): Consider the following statements in respect of the Constitution Day:
 1. Statement-I: The  | Consider the following statements in respect of the Constitution Day:
 Statement-I : The Co
 - `n38ddd350ed1` / `nfb5eeddb9b3` (2:2, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
-- `n9b2346d9eb8` / `y273ecf2ab12` (2:2, 86%): During a National Emergency, the enforcement of which of the following Articles cannot be  | Which of the following Articles cannot be suspended during the national Emergency?
-- `n878382d6dc6` / `nindian-polity-14-17` (2:4, 80%): Who called the Preamble the 'political horoscope' of the Constitution? | Who called the Preamble the “Political Horoscope”?
 - `nindian-polity-6-2` / `nindian-polity-5-2-2` (2:5, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `n8807a83deee` / `n96e0148400d` (2:5, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `nindian-polity-5-2-4` / `nindian-polity-5-2-6` (2:5, 100%): Which of the following pairs of Schedule and subject is wrongly matched? | Which of the following pairs of Schedule and subject is wrongly matched?
@@ -1086,12 +1060,9 @@ I.
 - `y1d811b380e4` / `y6cd644ccca3` (2:18, 100%): When a bill is referred to a joint sitting of both the Houses of the Parliament, it has to | When a bill is referred to a joint sitting of both the Houses of the Parliament, it has to
 - `n55b7dc29001` / `ncd2ceb1eaed` (2:21, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n5e4a461179c` / `ne82f5f45292` (2:25, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
-- `yc8f5b093156` / `nindian-polity-46-6` (2:27, 100%): The ex-officio Chairman of the Rajya Sabha is | Who is the ex-officio Chairman of the Rajya Sabha?
-- `ne026ef296d1` / `y3a4d0926b9e` (2:27, 100%): Who was the first Deputy Prime Minister of India? | Who was the first Deputy Prime Minister of India?
 - `nindian-polity-56-4` / `nindian-polity-7-2` (2:27, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `y767de17d50f` / `y4384f756aa1` (2:27, 100%): The present Chairman of the Rajya Sabha is | The present Chairman of the Rajya Sabha is
 - `y5a8b93b6193` / `ya1ab9722633` (2:27, 90%): Which one of the following Constitutional Amendments states that the total number of Minis | Which one of the following Constitutional Amendments states that the total number of Minis
-- `nindian-polity-31-13` / `n785a464778b` (2:28, 100%): Which of the following is NOT correct about the Attorney General of India? | Which of the following is NOT correct about the Attorney General of India?
 - `yfa178d44df7` / `yea10e4fe807` (2:28, 100%): There is a Parliamentary System of Government in India because the | There is parliamentary system of Government in India because the
 - `nindian-polity-12-5` / `n8e3b9a052ad` (2:30, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `nca32f4a42b6` / `n0105be80b63` (2:30, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
@@ -1100,7 +1071,6 @@ I.
 - `nindian-polity-58-20` / `nindian-polity-64-8` (2:31, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `nindian-polity-57-17` / `nindian-polity-64-8` (2:31, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `ya72a4936d5a` / `yb970cd41c0d` (2:31, 80%): Who was the first speaker of the first Lok Sabha of India? | Who was the first speaker of the Lok Sabha ?
-- `nindian-polity-33-28` / `n329b57a7249` (2:32, 100%): Which of the following is NOT correct? | Which of the following is NOT correct?
 - `n9d90df9da50` / `n57e359044f7` (2:32, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `y5dfca800b9d` / `y103c2ae5827` (2:32, 100%): In the Parliament of India, the purpose of an Adjournment Motion is: | In the Parliament of India, the purpose of an adjournment motion is –
 - `nf929beec5d3` / `nindian-polity-21-7` (2:33, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
@@ -1109,8 +1079,6 @@ I.
 - `yb9fb05ef675` / `y8933a3edd11` (2:33, 100%): Which one of the following statements is correct? | Which one of the following statements is correct?
 - `nindian-polity-61-12` / `nindian-polity-79-15` (2:34, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `nindian-polity-61-12` / `nf6633d14a8d` (2:34, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
-- `nindian-polity-61-37` / `y16179ea597a` (2:34, 100%): The salaries and allowances of High Court Judges are charged on the: | The salaries and allowances of the Judges of the High Court are charged to the:
-- `nindian-polity-61-37` / `y0644813896d` (2:34, 100%): The salaries and allowances of High Court Judges are charged on the: | The salaries and allowances of the Judges of the High Court are charged to the:
 - `nindian-polity-79-15` / `nf6633d14a8d` (2:34, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `y2124fd2ad5d` / `y2f177467525` (2:34, 86%): Which one of the following is responsible for the preparation and presentation of the Unio | Which of the following is responsible for preparation and presentation of union budget in 
 - `y37c8d60ccef` / `yf700b46ae8e` (2:38, 100%): The main advantage of the parliamentary form of government is that | The main advantage of the parliamentary form of government is that
@@ -1181,7 +1149,6 @@ I.
 - `nindian-polity-2-53` / `nb0c49a19a7c` (2:51, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `y9f298ff3cb1` / `ybc18e612946` (2:51, 88%): Which one of the following Articles of the Indian Constitution provides that "It shall be  | Which one of following Articles of the Indian constitution provide that It shall be the du
 - `y9d5f42e7386` / `y3a8c1e1845d` (2:54, 100%): Which one of the following suggested that the Governor should be an eminent person from ou | Which one of the following suggested that the Governor should be an eminent person from ou
-- `nindian-polity-65-2` / `n1dfcd383119` (2:59, 100%): Which of the following is NOT correct? | Which of the following is NOT correct?
 - `y987dcebd2da` / `y5d7c9c61687` (2:63, 100%): Proportional representation is NOT necessary in a country where: | Proportional representation is not necessary for a country where:
 - `nindian-polity-28-4` / `nindian-polity-73-12` (2:64, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `y06049fac816` / `y4c951c506a7` (2:65, 100%): Consider the following pairs Party Leader
@@ -1189,22 +1156,18 @@ I.
 1. Bharatiya Jana Sangh Dr. Shyama Prasad 
 - `n1b4e19537c1` / `nf29c5fce72f` (2:67, 100%): Which of the following pairs is NOT correctly matched? | Which of the following pairs is NOT correctly matched?
 - `ye516dc28626` / `y094aac38782` (2:75, 80%): The first 'Lokayukta' was established in which of the following States? | In which of the following States, the office of Lokayukta was, first established?
-- `neefc82155dc` / `n341593c41d0` (2:80, 100%): Which of the following is NOT correct about the Balwant Rai Mehta Committee's recommendati | Which of the following is NOT correct about the Balwant Rai Mehta Committee's recommendati
 - `n09a9c352dfb` / `n9b59da16196` (2:80, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `n16b5a96844f` / `nindian-polity-37-4` (2:80, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
 - `y72eaada37c6` / `y39a39a63ca0` (2:80, 100%): Which one of the following was established as the first programme of Community development | Which one of the following was established as the first programme of community development
 - `y4616bd27e6e` / `y4f04f6c7478` (2:80, 86%): Panchayati Raj was first introduced in India in October, 1959 in | Panchayati Raj was first introduced in October, 1959 in–
 - `y86e867c0522` / `yf31409e07a9` (2:80, 100%): Which one of the following Committees/Commissions recommended the creation of Nyaya Pancha | Which one of the following Committees/Commissions recommended the creation of Nyaya Pancha
 - `n83ec26424b5` / `n271809d7a76` (2:81, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
-- `n275dafc1e9e` / `nf77a458e3bb` (2:83, 100%): Which of the following States is NOT among the ten Fifth Schedule States covered by PESA? | Which of the following States is NOT among the ten Fifth Schedule States covered by PESA?
 - `yc0f0d6f8613` / `y4d08c850e30` (2:83, 92%): The Constitution (Scheduled Tribes) order, 1950. shall stand amended to AP Reorganization  | The Constitution (Scheduled Tribes) order, 1950, shall stand amended to AP Reorganization 
 - `y8bfb9c0fbd7` / `y88d7c71cc59` (2:83, 88%): The provisions in Fifth Schedule and Sixth Schedule in the Constitution of India are made  | The provisions of the fifth and Sixth Schedule in the Constitution of India are made to –
 - `ydf5e053af62` / `y223722b2d77` (2:83, 100%): The Government enacted the Panchayat Extension to Scheduled Areas (PESA) Act in 1996. Whic | The Government enacted the Panchayat Extension to Scheduled Areas (PESA) Act in 1996. Whic
 - `nbb2df7551fe` / `ne9d4eb64e76` (2:84, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
-- `n8d5a1c3bf01` / `y85cfa195ddd` (2:84, 90%): In Andhra Pradesh, who in a Gram Panchayat has been appointed by the Governor as the Marri | The Governor of Andhra Pradesh has appointed of the gram panchayat as the Marriage officer
 - `y0eea9028d48` / `yf24cc569f6a` (2:84, 100%): As per Article 243 of the Constitution, the following would be the members of "Gram Sabha" | As per Article 243 of the Constitution, the following would be the members of "Gram Sabha"
 - `y1b453bba4ff` / `yba042e1eb7b` (2:87, 90%): In which year was the Centre for Good Governance (CGG) established by the Government of An | In which year was the Centre for Good Governance (CGG) established by the Government of An
-- `n8ac107a5fd8` / `n21651cd0626` (2:90, 100%): Under Section 6(2) of the RTI Act, an applicant seeking information: | Under Section 6(2) of the RTI Act, an applicant seeking information:
 - `nindian-polity-65-34` / `nindian-polity-1-11` (2:98, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
 - `yedcccfb4a80` / `y470c5d05cb2` (2:98, 100%): Which one of the following is not a Constitutional body? | Which one of the following is not a Constitutional body?
 - `yedcccfb4a80` / `y6073217650d` (2:98, 100%): Which one of the following is not a Constitutional body? | Which one of the following is not a Constitutional body?
@@ -1285,12 +1248,10 @@ II. The Natio | With reference to India, consider the following:
 - `y80966c72fd1` / `y353f064627a` (3:25, 100%): Which one of the following issues the 'Global Economic Prospects' report periodically? | Which one of the following issues the ‘Global Economic Prospects’ report periodically?
 - `y3bab5f7cbf6` / `yeb8ed28c83b` (3:26, 89%): As per the Census 2011 estimates, which one of the following is the most populous State in | Which one of the following is the most populous State in India as per Census of 2011?
 - `y171be8fc190` / `yfdea7dde0af` (3:26, 86%): Which of the following States has the highest sex-ratio in 2011? | Which among the following States has highest sex-ratio in 2011 ?
-- `n3291944d201` / `y05bcb4ce5d3` (3:28, 89%): The long-term objective of the National Population Policy, 2000 was a stable population by | Long-term objective of the National Population Policy 2000 is to achieve a stable populati
 - `y46f103baf1f` / `y255ec5924ab` (3:36, 88%): Geo-tagging of assets created under MGNREGA is done through: | Geo-tagging of assets created under MGNREGA is done
 - `y2c46d19933d` / `yfefbfb2432b` (3:38, 98%): With reference to the Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM) Yojana, consider the fo | With reference to the Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM) Yojana, consider the fo
 - `n3bec011b25f` / `nindian-economy-3-4` (3:40, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `y80332287189` / `y5d323f0a7b7` (3:40, 90%): The Shyama Prasad Mukherji Rurban Mission (SPMRM)) was launched by the Govt of India on: t | The Shyama Prasad Mukherji Rurban Mission (SPMRM)) was launched by the Govt of India on :
-- `nindian-economy-16-1` / `yfd4dbe9619d` (3:55, 100%): What is the full form of NABARD? | What is the full form of NABARD?
 - `y18c5104cc34` / `y6d851cee02b` (3:55, 80%): Land Development Banks form a part of the: | Land Development Banks is a part of :
 - `y8a33431bc30` / `y5b4a74c6228` (3:55, 91%): Which of the following grants/ grant direct credit assistance to rural households?
 1. Regi | Which of the following grants/grant direct credit assistance to rural household?
@@ -1302,7 +1263,6 @@ II. The Natio | With reference to India, consider the following:
 1. The Government of India provides Minimum Support Pri | Consider the following statements :
 1. The Government of India provides Minimum Support Pr
 - `y978bb7392c4` / `ybcfcdb27b21` (3:58, 88%): The economic cost of food grains to the Food Corporation of India is the Minimum Support P | The economic cost of foodgrains to the Food Corporation of India is Minimum Support Price 
-- `n279481a5a0e` / `y8802d9045b9` (3:60, 86%): The Credit Guarantee Scheme for the Livestock Sector was launched by: | Which organization launched the Credit Guarantee Scheme for the Livestock Sector?
 - `ye4c2c1ce7b9` / `y74885ceee7e` (3:61, 83%): Rourkela Steel Plant is established with which country's-collaboration? | Rourkela Steel Plant was established in collaboration with :
 - `nindian-economy-64-8` / `nindian-economy-65-6` (3:61, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `y8b640cecce0` / `y70574af34ab` (3:61, 86%): With reference to India, consider the following Pairs : Organization Union Ministry
@@ -1332,7 +1292,6 @@ I. The | With reference to India, consider the following pairs: Organisation Uni
 - `ye320fbb225f` / `y6d915f337e4` (3:78, 100%): With reference to Foreign Direct Investment in India, which one of the following is consid | With reference to Foreign Direct Investment in India, which one of the following is consid
 - `y91e225a19c9` / `y6abcf81065f` (3:80, 82%): In India, the interest rate on savings accounts in all the nationalised commercial banks i | In India, the interest rate on savings accounts in all the Nationalized Commercial Banks i
 - `yc50ab8ed2dc` / `y5b239bd64b1` (3:80, 100%): In India which one of the following is responsible for maintaining for price stability by  | In India, which one of the following is responsible for maintaining price stability by con
-- `yee423be03a7` / `nfc944cdb1cc` (3:81, 100%): High powered money is also known as: | High-powered money is also known as:
 - `ye8ccaaa6666` / `y2a0dac7b8fe` (3:81, 100%): If you withdraw Rs. 1,00,000 in cash from your Demand Deposit Account at your bank, the im | If you withdraw Rs. 1,00,000 in cash from your Demand Deposit Account at your bank, the im
 - `yd93d037cbf6` / `yb0e2c9cdced` (3:81, 100%): Which one of the following statements correctly describes the meaning of legal tender mone | Which one of the following statements correctly describes the meaning of legal tender mone
 - `y30ea78e0186` / `y6e762d08790` (3:81, 100%): Consider the following liquid assets:
@@ -1363,8 +1322,6 @@ I. The | With reference to India, consider the following pairs: Organisation Uni
 I. Bonds
 II. Hedge Funds
 III. Stoc
-- `ya3d153528f5` / `n26ac60adfc9` (3:90, 100%): Debenture holders of a company are its | Debenture-holders of a company are its:
-- `y3b4fdb96c4b` / `n26ac60adfc9` (3:90, 100%): Debenture holders of a company are its : | Debenture-holders of a company are its:
 - `y5ebe07c8b72` / `yb2b847f578f` (3:90, 100%): What does the S&P 500 relate to? | What does S & P 500 relate to?
 - `y6129a54e95e` / `ycedca9a3b4c` (3:91, 100%): In India, which of the following is regulated by the Forward Markets Commission? | In India, which of the following is regulated by the Forward Markets Commission?
 - `y2a9e5bbee03` / `yd8ecdc2efa2` (3:92, 100%): With reference to 'Financial Stability and Development Council' consider the following sta | With reference to ‘Financial Stability and Development Council’, consider the following st
@@ -1383,13 +1340,11 @@ III. Stoc
 - `n78f28d6f9c6` / `n650854ac98f` (3:107, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n78f28d6f9c6` / `nindian-economy-32-4` (3:107, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n650854ac98f` / `nindian-economy-32-4` (3:107, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
-- `nc7701996369` / `y65ac7f501e6` (3:112, 87%): In February 2021, Andhra Pradesh became the ______ State to undertake the power-sector ref | In February 2021, Andhra Pradesh became the ________ State to undertake the power sector r
 - `ybe06ee4af44` / `y65ac7f501e6` (3:112, 82%): Andhra Pradesh has become the Ministry of Finance in February 2021. State to undertake the | In February 2021, Andhra Pradesh became the ________ State to undertake the power sector r
 - `n696eaa5e18b` / `nf7cbbf853c0` (3:119, 100%): Which one of the following is NOT correctly matched? | Which one of the following is NOT correctly matched?
 - `n696eaa5e18b` / `n883b2e6d03a` (3:119, 100%): Which one of the following is NOT correctly matched? | Which one of the following is NOT correctly matched?
 - `nf7cbbf853c0` / `n883b2e6d03a` (3:119, 100%): Which one of the following is NOT correctly matched? | Which one of the following is NOT correctly matched?
 - `na483115f31e` / `n1e997c92a63` (3:120, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
-- `n3bd10c0b83b` / `y671ef58df0a` (3:125, 80%): How many cement plants were operational in Andhra Pradesh in 2014-15? | How many total cement plants were operational in Andhra Pradesh in FY 2014-15?
 - `y5c9a5591f11` / `yb530c210c17` (3:129, 100%): Identify the correct statements related to Jagananna Vidya Deevena scheme:
 a) 100% fee rei | : Identify the correct statements related to Jagananna Vidya Deevena scheme:
 a) 100 % fee 
@@ -1502,9 +1457,7 @@ II. Chile : L
 - `nworld-geography-22-4` / `nworld-geography-20-8` (4:32, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
 - `nworld-geography-22-4` / `nworld-geography-20-6` (4:32, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
 - `nworld-geography-20-8` / `nworld-geography-20-6` (4:32, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
-- `n063cfda0180` / `y743e262fc2c` (4:32, 100%): Which is the second largest island in the world? | The second largest Island of the world is :
 - `nworld-geography-2-2` / `nworld-geography-23-2` (4:32, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
-- `nworld-geography-14-3` / `yc2b4000796f` (4:32, 100%): Which country has the longest coastline in the world? | Which country in the world has the longest coastline?
 - `y97523b0ea8d` / `y7f144b2bc16` (4:32, 100%): Which one of the following lakes forms an international boundary between Tanzania and Ugan | Which one of the following lakes forms as an International boundary between Tanzania and U
 - `y92512a6e431` / `y07f12aabb0a` (4:32, 100%): One of the following regions has the world's largest tropical peatland, which holds about  | One of the following regions has the world's largest tropical peatland, which holds about 
 - `ye6a01246c6e` / `yab9107e7ade` (4:32, 100%): Which of the following is not correctly matched? | Which of the following is not correctly matched ?
@@ -1529,11 +1482,9 @@ II. Chile : L
 - `n70369884f30` / `n92a34a204a4` (4:34, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `y25095b82279` / `y8d3d53510e9` (4:34, 100%): Nanda Devi peak forms a part of | Nanda Devi peak forms a part of:
 - `n86fbd7b60af` / `ncd16590382a` (4:35, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
-- `nindian-geography-32-12` / `y5bacd0e2f74` (4:35, 100%): India's most populous island is: | The most populous island of India is:
 - `nindian-geography-12-12` / `nindian-geography-44-4` (4:35, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `nf12206bb686` / `yed5f46650b3` (4:35, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is not correctly matched?
 - `neb387e8dd6d` / `n41d19abe36a` (4:35, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
-- `nb0548303820` / `ngeneral-geography-5-105` (4:35, 100%): India's only active volcano is on: | Which of the following is India's only active volcano?
 - `y0f90e0d8f51` / `y9e22407e0da` (4:35, 100%): Where are the Shevaroy Hills located? | Where are Shevaroy Hills located ?
 - `y2b5f088d297` / `yceec4ce30d2` (4:35, 100%): Which of the following hills are found where the Eastern Ghats and the Western Ghats meet? | Which of the following hills are found where the Eastern Ghats and the Western Ghats meet?
 - `ybc7e5ec4be0` / `y508152418c1` (4:35, 100%): Consider the following statements:
@@ -1617,8 +1568,6 @@ II. Renuka  | Consider the following pairs : Wetland / Lake Location
 - `yfd8d6fa6f5e` / `y5c492b1af1c` (4:80, 100%): Which of the following countries are well known as the two largest cocoa producers in the  | Which of the following countries are well known as the two largest cocoa producers in the 
 - `n2bb1f216269` / `n403de126bbf` (4:81, 100%): Which one of the following is correctly matched? | Which one of the following is correctly matched?
 - `na44a3954ec8` / `nc4968b6c2b5` (4:81, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
-- `nindian-geography-24-4` / `y74f37ac7629` (4:81, 100%): Which of the following is a Zaid crop? | Which of the following is a zaid crop ?
-- `nindian-geography-24-5` / `yefa89345c37` (4:81, 100%): Which of the following is NOT a Rabi crop? | Which of the following is not a Rabi Crop ?
 - `y84321f59278` / `y86c7930bc3c` (4:81, 100%): Which of the following is not a cash crop? | Which of the following is not a cash crop?
 - `y6faf425182a` / `y95548f8ad2e` (4:81, 100%): Which of the following is not a Kharif Crop? | Which is not a Kharif Crop –
 - `y6faf425182a` / `y08cad3debe2` (4:81, 100%): Which of the following is not a Kharif Crop? | Which of the following is not a Kharif Crop?
@@ -1715,15 +1664,12 @@ I. | Which of the following is/are secreted by the gastric glands present in the
 - `y74a597a5d0d` / `y701794e4ecf` (5:13, 100%): Which of the following is not a web browser? | Which of the following is not a Web browser?
 - `yed6e69ba7ad` / `y5a12467a385` (5:15, 100%): When the alarm of your smartphone rings in the morning, you wake up and tap it to stop the | When the alarm of your smartphone rings in the morning, you wake up and tap it to stop the
 - `y8bc7b657792` / `yd4aa4696db6` (5:15, 85%): In the context of digital technologies for entertainment, consider the following statement | In the context of digital technologies for entertainment, consider the following statement
-- `nd74b4401546` / `yeb7f1cdf78f` (5:20, 100%): Optical fibre works on the principle of: | Optical fibre works on the principle of :
 - `yc3b8bd6b0e4` / `y8430c3ffc24` (5:20, 100%): Which one of the following types of waves are used in a night vision apparatus? | Which one of the following types of waves are used in a Night Vision apparatus?
 - `y64965d8f5c4` / `ycb9884ac2b6` (5:20, 100%): With reference to the "Visible Light Communication" technology, which of the following sta | With reference to Visible Light Communication (VLC) technology, which of the following sta
 - `y59b52ff4476` / `y2135d570c52` (5:22, 98%): Which of the following is/are the aims of the "Digital India" Plan of the Government of In | Which of the following is/are the aim/aims of 'Digital India' Plan of the Government of In
 - `nb41c94c49df` / `n0bfc9062b16` (5:24, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n9cb1a61322c` / `n7975da7e29c` (5:28, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `n0d4ca312dc7` / `n4380e64f054` (5:29, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
-- `n12029a64e12` / `y6ac85d122bd` (5:30, 86%): The term 'Public Key Infrastructure' is used in the context of: | In India, the term "Public Key Infrastructure is used in the context of
-- `n12029a64e12` / `yffcb37e2776` (5:30, 86%): The term 'Public Key Infrastructure' is used in the context of: | In India, the term 'Public Key Infrastructure' is used in the context of :
 - `y823ef287bb2` / `ye2b79830130` (5:32, 100%): Which of the adopted following a law on data protection and privacy for its citizens known | Which of the following adopted a law on data protection and privacy for its citizens known
 - `ndce3d878e80` / `nap-geography-18-6` (5:34, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `nd73258a87c1` / `n5f8a2b08dc2` (5:47, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
@@ -1732,7 +1678,6 @@ I. | Which of the following is/are secreted by the gastric glands present in the
 - `y10d6568d562` / `y6de423fd49a` (5:55, 84%): Consider the following statements:
 1. "The Climate Group" is an international nonprofit or | Consider the following statements :
 1. "The Climate Group" is an international nonprofit o
-- `n64e768b62b4` / `nc986d13a8d2` (5:57, 100%): Revenue-sharing commercial coal auctions in India began in: | Revenue-sharing commercial coal auctions began in India in:
 - `na0b454230c8` / `nc7c5b7b9f7e` (5:59, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
 - `naed779b6393` / `nf0d318b292c` (5:61, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
 - `naed779b6393` / `n13d42bc397a` (5:61, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
@@ -1793,13 +1738,11 @@ II. Hydrogen f
 - `n7aee605e10c` / `nenvironment-40-13` (5:83, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `nenvironment-37-5` / `nenvironment-40-2` (5:83, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
 - `y76bf39fea25` / `y2f7241b94ed` (5:83, 100%): The thickness of the ozone in a column of air from the ground to the top of the atmosphere | The thickness of the ozone in a column of air from the ground to the top of the atmosphere
-- `nb8bc7292c6f` / `y740704652f7` (5:84, 100%): The most significant aspect of biodiversity is: | The most significant aspect of biodiversity is:
 - `nf6805b97d73` / `n586c1ab1235` (5:84, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `nf6805b97d73` / `ne362d2b7797` (5:84, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `n586c1ab1235` / `ne362d2b7797` (5:84, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `y4db14010338` / `yf840672789a` (5:84, 100%): The Himalayan Range is very rich in species diversity. Which one among the following is th | The Himalayan Range is very rich in species diversity. Which one among the following is th
 - `ycf9b4ac1507` / `yd4b5507bc2a` (5:85, 100%): Which of the following is NOT an example of an endemic species to Andhra Pradesh ? | Which of the following is NOT an example of an endemic species to Andhra Pradesh ?
-- `n74061e7b33a` / `n29e073ecac6` (5:85, 100%): People's Biodiversity Registers are prepared by: | People's Biodiversity Registers are prepared by:
 - `yab97366f029` / `y8dcd8e29164` (5:85, 100%): Three of the following criteria have contributed to the recognition of western Ghats, Sri  | Three of the following criteria have contributed to the recognition of Western Ghats, Sri 
 - `neeb12c90ac3` / `n8d01c5ee11a` (5:86, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `y6c25650f1f0` / `y02387dca2cf` (5:86, 100%): The term ‘Sixth mass extinction/sixth extinction’ is often mentioned in the news in the co | The term "sixth mass extinction/sixth extinction" is often mentioned in the news in the co
@@ -1808,7 +1751,6 @@ II. Hydrogen f
 - `yc56a398a5f9` / `yc8603553297` (5:86, 100%): The main reason for the decrease in biodiversity is: | The main reason for the decrease in biodiversity is –
 - `ya3a1fa7f2fa` / `y817ae9f004d` (5:86, 82%): 'Invasive Species Specialist Group' (that develops Global Invasive Species Database) belon | ‘Invasive Species Specialist Group’ (that develops Global Invasive Species Database) belon
 - `y39b70bab407` / `yebb57f49fd2` (5:86, 100%): Which one of the following groups of animals belongs to the category of endangered species | Which one of the following groups of animals belongs to the category of endangered species
-- `nenvironment-25-10` / `nenvironment-25-13` (5:87, 100%): Which of the following is an example of ex-situ conservation? | Which of the following is an example of ex-situ conservation?
 - `y4e51cdf8377` / `y8030853210a` (5:87, 100%): Which one of the following is not a site for in-situ method of conservation of flora? | Which one of the following is not a site for an in-situ method of conservation of flora?
 - `y0df218e924e` / `yfbfda5e1f2a` (5:87, 100%): In which one among the following categories of protected areas in India are local people n | In which one among the following categories of protected areas in India are local people n
 - `y42aa87b0d22` / `y56d982fc681` (5:90, 100%): In which year , Wild Life ( Protection ) Act was enacted by the Parliament of India ? | In which year , Wild Life ( Protection ) Act was enacted by the Parliament of India ?
@@ -1848,7 +1790,6 @@ Whic
 - `n0dcdd48f70f` / `nd6fbfb07f19` (5:101, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `y488434f04c2` / `yad2efce8a4d` (5:103, 100%): What is Bisphenol A (BPA)? | What is Bisphenol A (BPA)?
 - `ye7412584bc6` / `y949ea773a64` (5:103, 100%): Which of the following is a biodegradable pollutant? | Which of the following is a biodegradable pollutant?
-- `yc5693c675d0` / `ne8b19050690` (5:103, 100%): Which one of the following is biodegradable? | Which one of the following is biodegradable?
 - `y434dbffc67e` / `ya9959bc863a` (5:103, 100%): Which one of the following is not included in the 3 ' R's suggested by environmentalists ? | Which one of the following is not included in the 3 ' R's suggested by environmentalists ?
 - `yb5b2e800845` / `yfdc4ad1127f` (5:103, 88%): In the context of which one of the following arcs the terms 'pyrolysis and plasma gasifica | In the context of which one of the following are the terms ‘pyrolysis and plasma gasificat
 - `yb5b2e800845` / `y142be9dac4f` (5:103, 88%): In the context of which one of the following arcs the terms 'pyrolysis and plasma gasifica | In the context of which one of the following are the terms ‘pyrolysis and plasma gasificat
@@ -1885,14 +1826,12 @@ Whic
 - `ndisaster-management-22-2` / `ndisaster-management-34-2` (5:106, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `ndisaster-management-12-2` / `ndisaster-management-34-2` (5:106, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `n6c31b1161a3` / `n94c0dd811ae` (5:108, 100%): Which one of the following is correctly matched? | Which one of the following is correctly matched?
-- `nbiology-2-1` / `ydd3763b83bf` (5:108, 80%): Injaz was the world's first cloned: | Injaz, is the name of the world’s first cloned :
 - `nbiology-2-2` / `nbiology-67-6` (5:108, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `nbiology-2-2` / `nbiology-11-3` (5:108, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `nbiology-67-6` / `nbiology-11-3` (5:108, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `yf3e6833ec18` / `y8d36785c3a6` (5:109, 92%): With references to organic farming in India, consider the following statements:
 1. The Nat | With reference to organic farming in India, consider the following statements :
 1. "The Na
-- `n781f51007b4` / `yd7dd4377308` (5:111, 88%): The first human hormone produced using recombinant DNA technology was: | Which of the following is the first human hormone produced by recombinant DNA technology?
 - `nchemistry-6-10` / `nchemistry-6-16` (5:113, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
 - `ne05781eff7c` / `n6f73b00d564` (5:114, 100%): Which one of the following is NOT correctly matched? | Which one of the following is NOT correctly matched?
 - `nbiology-15-60` / `nbiology-18-10` (5:114, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
@@ -1927,12 +1866,10 @@ Whic
 - `nbiology-22-2` / `nbiology-70-6` (5:116, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `nbiology-71-2` / `nbiology-70-6` (5:116, 100%): Which of the following statements is incorrect? | Which of the following statements is incorrect?
 - `yc1ea1613b42` / `yeffb3643555` (5:116, 89%): Among the following, which were frequently mentioned in the news for the outbreak of the E | Among the following, which countries were frequently mentioned in the news for the outbrea
-- `n9f5e1a979e6` / `y1decdc1c7dd` (5:117, 100%): As of December 2021, what was the total number of Primary Health Centres (PHCs) in India? | As of December 2021, what was the total number of Primary Health Centres (PHCs) in India?
 - `ca80e9348010fa` / `ca226d0ccef5a3` (6:39, 100%): With reference to AISHE 2023–24, which pair is correctly matched? | With reference to AISHE 2023–24, which pair is correctly matched?
 - `ca62b04e2b98bd` / `caec22151127c1` (6:32, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `ca33a52d01cf9b` / `cace431417053a` (6:76, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `cafbd71e18c9f5` / `ca24dd0b0afb40` (6:83, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
-- `ca6130f7863516` / `ca6b77089e9152` (6:104, 100%): Which of the following is NOT correct? | Which of the following is NOT correct?
 - `ca9a6b0b651411` / `ca8a3d59f00ad1` (6:33, 100%): Which of the following pairs is wrongly matched? | Which of the following pairs is wrongly matched?
 - `ca8cb9971002f4` / `ca15decfa2723b` (6:77, 100%): Which of the following pairs of degraded rivers and cities is correctly matched? | Which of the following pairs of degraded rivers and cities is correctly matched?
 - `cabbfd7c675533` / `cafdd6588b3057` (6:77, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
@@ -1952,9 +1889,7 @@ Whic
 - `ca1fcecf151d0e` / `caec690d757dfe` (6:2, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `ca6d08f4af568d` / `caec690d757dfe` (6:2, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `ca40272265cc63` / `ca485b781b369f` (6:2, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
-- `n30261da375f` / `ca9528f64dc0bc` (6:27, 100%): Who became Bihar's first Chief Minister from the BJP? | Who became the first BJP Chief Minister of Bihar?
 - `ca769082e510fa` / `ca2420afcdbb23` (6:47, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
-- `ca3389c0891594` / `ca3984b068cf2d` (6:41, 100%): Which of the following is NOT correct? | Which of the following is NOT correct?
 - `ca5a1723044bd4` / `cac48888d3d5f3` (6:41, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `ca593d94dcf0a8` / `ca4116ee86af6f` (6:34, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `ca593d94dcf0a8` / `ca0aefb7184edb` (6:34, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
@@ -1963,7 +1898,6 @@ Whic
 - `ca4116ee86af6f` / `ca1f3b1be49bae` (6:34, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `ca0aefb7184edb` / `ca1f3b1be49bae` (6:34, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `y1fcbe7f6429` / `y79a924fa7fe` (6:66, 100%): "Every Indian is special. Every Indian is a VIP." On which occasion did Prime Minister Nar | " Every Indian is special. Every Indian is a VIP. " On which occasion did Prime Minister N
-- `cad5c422b50498` / `cac60b7163a980` (6:72, 100%): Which of the following is NOT correct? | Which of the following is NOT correct?
 - `ca480906e1b09e` / `ca5b386d6dd2af` (6:72, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `ca0c3f3064cd57` / `ca0cf16bfc9d14` (6:72, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `ca0c3f3064cd57` / `cab4c5e408f54d` (6:72, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
@@ -1997,10 +1931,7 @@ Whic
 - `ca51fda270c5ee` / `ca433cb00891c0` (6:48, 100%): Which of the following pairs is INCORRECTLY matched? | Which of the following pairs is INCORRECTLY matched?
 - `ca373d0f08c7e8` / `n724aabbc59c` (6:73, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
 - `caf417d7077259` / `ca4615a92ffd8a` (6:107, 100%): With reference to Srimanta Sankardeva, which of the following pairs is correctly matched? | With reference to Srimanta Sankardeva, which of the following pairs is correctly matched?
-- `cac62590cdb2a7` / `caca218cce7fa5` (6:29, 100%): Which of the following is NOT correct about the Supreme Court's decision on the Waqf (Amen | Which of the following is NOT correct about the Supreme Court's decision on the Waqf (Amen
-- `ca395cfd278012` / `ca09a6831d3483` (6:36, 100%): Which of the following is NOT correct about the GST 2.0 restructuring? | Which of the following is NOT correct about the GST 2.0 restructuring?
 - `cab40e95e8b31c` / `cad99a99cda3b0` (6:74, 100%): Which of the following pairs is correctly matched? | Which of the following pairs is correctly matched?
-- `cadca89a181e0d` / `n3cf87debc5b` (6:88, 100%): Which country ranked first in the World Press Freedom Index 2026? | Which country ranked first in the World Press Freedom Index 2026?
 - `n0af7e8e676b` / `ndcb703bbf50` (6:57, 100%): Which one of the following pairs is correctly matched? | Which one of the following pairs is correctly matched?
 - `n0cd6fcec8c1` / `n013178fa158` (6:63, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?
 - `n0cd6fcec8c1` / `n4ac76227067` (6:63, 100%): Which one of the following pairs is NOT correctly matched? | Which one of the following pairs is NOT correctly matched?

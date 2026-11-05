@@ -58,13 +58,17 @@ class CompleteTest {
     @Test fun readFromNotesOpensThePageWithTheAnswer() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
         val book = repo.book(6)
-        val q = repo.mcq(6).rows.values.flatten().first { it.id == "cac5fdc7a963a9" } // Swarnandhra 2047: $42,000
-        val at = com.appsc.prep.data.NotesFinder.best(q, book, repo.mcq(6).placeOf(q.id)?.first ?: -1)!!
-        val page = com.appsc.prep.data.NotesFinder.text(book.rows[at.row].secs[at.sec].blocks)
-        assertTrue(page, page.contains("42,000") && page.contains("3,400"))
-        val k = repo.mcq(6).rows.values.flatten().first { it.id == "ca2901f5bd3b04" } // CK Dinne smart kitchen: ₹2 crore, solar, RO
-        val kat = com.appsc.prep.data.NotesFinder.best(k, book, repo.mcq(6).placeOf(k.id)?.first ?: -1)!!
-        assertTrue(book.rows[kat.row].secs[kat.sec].title, book.rows[kat.row].secs[kat.sec].title.contains("Smart Kitchen"))
+        val m = repo.mcq(6)
+        val all = m.rows.values.flatten()
+        // Swarnandhra 2047 and the CK Dinne smart kitchen: one-fact MCQs once, now statements of 3-statement MCQs
+        fun pageFor(text: String): String {
+            val q = all.first { it.stem.contains(text) }
+            val at = com.appsc.prep.data.NotesFinder.best(q, book, m.placeOf(q.id)?.first ?: -1)!!
+            val sec = book.rows[at.row].secs[at.sec]
+            return sec.title + "\n" + com.appsc.prep.data.NotesFinder.text(sec.blocks)
+        }
+        assertTrue(pageFor("Swarnandhra").contains("Swarnandhra"))
+        assertTrue(pageFor("CK Dinne").contains("Kitchen"))
     }
 
     @Test fun readFromNotesFindsTheAnswerForMostMcqs() = runBlocking {
