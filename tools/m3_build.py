@@ -44,7 +44,7 @@ def main():
         b = blocks.get(mid)
         if not b or b.get("topic", "").upper() == "SKIP" or len(b["st"]) != 3 or len(b["why"]) != 3:
             continue
-        if any(len(b["st"][i]) < 12 or "?" in b["st"][i] for i in (1, 2, 3)):
+        if any(len(b["st"][i]) < 12 or b["st"][i].rstrip().endswith("?") for i in (1, 2, 3)):  # a "?" inside a title is fine
             continue
         true = {i + 1 for i, t in enumerate(p["truth"]) if t}
         # an explanation that contradicts the key would mislead: leave such a block out
