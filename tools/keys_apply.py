@@ -40,6 +40,8 @@ def main():
                     if not isinstance(qs, list):
                         continue
                     for q in qs:
+                        if not isinstance(q, dict):  # the subsection lists hold numbers
+                            continue
                         d = dec.get(q.get("id"))
                         if not d:
                             continue
