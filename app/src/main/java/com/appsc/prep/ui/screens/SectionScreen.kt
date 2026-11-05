@@ -77,8 +77,10 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
         val planRow = app.repo.planRowByRef[bookId to rowIndex]
         // APPSC Complete / One-liners: the one-pager's boxes count; the topic's full notes after them are extra
         val core = row.secs.count { !it.full }
-        val done = app.store.doneCount(bookId, rowIndex, core)
-        val firstUnread = (0 until core).firstOrNull { !app.store.isDone(subsectionId(bookId, rowIndex, it)) } ?: 0
+        // pages with nothing the MCQs ask are left out (APPSC Complete)
+        val shown = (0 until core).filter { !row.secs[it].empty }
+        val done = shown.count { app.store.isDone(subsectionId(bookId, rowIndex, it)) }
+        val firstUnread = shown.firstOrNull { !app.store.isDone(subsectionId(bookId, rowIndex, it)) } ?: shown.firstOrNull() ?: 0
         PageList(Modifier.fillMaxSize()) {
             item {
                 Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
@@ -158,9 +160,10 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                     }
                 }
                 HorizontalDivider(color = C.Line)
-                SectionHeader("Subsections ($core)")
+                SectionHeader("Subsections (${shown.size})")
             }
             itemsIndexed(row.secs) { i, s ->
+                if (s.empty) return@itemsIndexed
                 Column {
                     val id = subsectionId(bookId, rowIndex, i)
                     if (i == core && s.full) SectionHeader("Full notes (${row.secs.size - core})")
@@ -172,7 +175,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
                         Text(
-                            "${if (s.full) i - core + 1 else i + 1}.",
+                            "${if (s.full) i - core + 1 else shown.indexOf(i) + 1}.",
                             style = TextStyle(fontSize = 15.sp, color = C.Muted),
                             modifier = Modifier.width(30.dp),
                         )

@@ -211,8 +211,11 @@ class ProgressStore(private val prefs: Storage) {
 
     fun toggleDone(id: String) = setDone(id, id !in done)
 
+    /** APPSC Complete: pages of the notes in use with nothing for the MCQs; hidden, so they count as read. */
+    var skip: Set<String> by mutableStateOf(emptySet())
+
     fun doneCount(book: Int, row: Int, total: Int): Int =
-        (0 until total).count { subsectionId(book, row, it) in done }
+        (0 until total).count { subsectionId(book, row, it).let { id -> id in done || id in skip } }
 
     fun recordAnswer(questionId: String, correct: Boolean) {
         logToday { it.copy(mcqs = it.mcqs + 1, correct = it.correct + if (correct) 1 else 0) }

@@ -753,7 +753,7 @@ private fun NotesModeSwitch() {
                 val sel = on == mode
                 Box(
                     Modifier.weight(1f).clip(RoundedCornerShape(9.dp)).background(if (sel) Color.White else C.Chip)
-                        .clickable { app.store.useMcqNotes(mode); app.repo.mcqNotes = mode }.padding(vertical = 10.dp),
+                        .clickable { app.store.useMcqNotes(mode); app.repo.mcqNotes = mode; app.store.skip = app.repo.emptyPages(mode) }.padding(vertical = 10.dp),
                     contentAlignment = Alignment.Center,
                 ) {
                     Text(label, style = TextStyle(fontSize = 14.sp, fontWeight = if (sel) FontWeight.SemiBold else FontWeight.Normal, color = if (sel) C.Accent else C.Muted))

@@ -10,6 +10,7 @@ import androidx.compose.ui.test.performScrollToNode
 import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
+import com.appsc.prep.data.subsectionId
 import com.appsc.prep.platform.AndroidPlatform
 import com.appsc.prep.platform.PrefsStorage
 import com.appsc.prep.ui.components.AppState
@@ -93,6 +94,25 @@ class CompleteTest {
         }
         java.io.File("build/notes-finder-misses.txt").writeText("hit $hit of $tried\n$report")
         assertTrue("hit $hit of $tried", hit >= tried * 0.85)
+    }
+
+    @Test fun pagesWithNothingForTheMcqsAreHiddenAndCountAsRead() = runBlocking {
+        val repo = Repository { ctx.assets.open(it) }
+        repo.mcqNotes = true
+        val mcqEmpty = repo.emptyPages(true)
+        assertTrue("MCQ notes' empty pages listed: ${mcqEmpty.size}", mcqEmpty.size > 5000)
+        val b = repo.book(1)
+        val flagged = b.rows.flatMapIndexed { ri, r -> r.secs.mapIndexedNotNull { si, s -> if (s.empty) "1:$ri:$si" else null } }
+        assertEquals(mcqEmpty.filter { it.startsWith("1:") }.toSet(), flagged.toSet())
+        val store = ProgressStore(PrefsStorage(ctx))
+        store.skip = mcqEmpty
+        val (ri, row) = b.rows.withIndex().first { (_, r) -> r.secs.any { it.empty } && r.secs.any { !it.empty } }
+        row.secs.indices.filter { !row.secs[it].empty }.forEach { store.setDone(subsectionId(1, ri, it), true) }
+        assertEquals("a topic is finished once its real pages are read", row.secs.size, store.doneCount(1, ri, row.secs.size))
+        // the full notes keep only what the MCQs test, and are still all there in the archive (data/notes-archive)
+        repo.mcqNotes = false
+        assertTrue(repo.emptyPages(false).size < 100)
+        assertTrue(repo.book(1).rows.sumOf { it.secs.size } > 1000)
     }
 
     @Test fun edition() {

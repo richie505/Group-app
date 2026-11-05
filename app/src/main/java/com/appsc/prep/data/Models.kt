@@ -39,6 +39,8 @@ data class Subsection(
     val map: List<MapNode> = emptyList(),
     /** APPSC Complete / One-liners: a page of the topic's full notes, after its one-pager's boxes (not in progress). */
     val full: Boolean = false,
+    /** APPSC Complete: a page with nothing the MCQs ask (tools/trim_notes.py): hidden, and counted as read. */
+    val empty: Boolean = false,
 ) {
     val wordCount: Int by lazy {
         blocks.sumOf { b ->

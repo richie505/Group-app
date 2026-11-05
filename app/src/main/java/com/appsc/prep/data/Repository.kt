@@ -262,6 +262,12 @@ class Repository(private val open: (String) -> InputStream) {
             NotesFinder.clear()
         }
 
+    /** APPSC Complete: the ids of the pages with nothing for the MCQs, in the MCQ notes or the full notes (empty.json). */
+    fun emptyPages(mcq: Boolean): Set<String> = runCatching {
+        val o = readJson("empty.json").jsonObject[if (mcq && hasMcqNotes) "mcq" else "full"]!!.jsonArray
+        o.map { it.jsonPrimitive.content }.toSet()
+    }.getOrDefault(emptySet())
+
     val hasMcqNotes: Boolean by lazy { runCatching { open("mbook1.json").close(); true }.getOrDefault(false) }
 
     suspend fun book(id: Int): Book = mutex.withLock {
@@ -360,6 +366,10 @@ class Repository(private val open: (String) -> InputStream) {
                         coveredIn = (s.jsonObject["cov"] as? JsonArray)?.map { c -> c.jsonArray.map { it.jsonPrimitive.int } } ?: emptyList(),
                         map = (s.jsonObject["m"] as? JsonArray)?.map { mapNode(it.jsonObject) } ?: emptyList(),
                         full = s.jsonObject.containsKey("f"),
+                        empty = s.jsonObject["b"]!!.jsonArray.let { b ->
+                            b.size == 1 && b[0].jsonObject["k"]?.jsonPrimitive?.content == "n" &&
+                                (b[0].jsonObject["x"] as? JsonArray)?.firstOrNull()?.jsonArray?.firstOrNull()?.jsonPrimitive?.content?.startsWith("No MCQ") == true
+                        },
                     )
                 }
                 rows += NoteRow(

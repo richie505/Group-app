@@ -104,19 +104,19 @@ import kotlinx.coroutines.launch
 private data class Pos(val row: Int, val sec: Int)
 
 // a topic's one-pager pages and its full notes are read as two runs: next from a box is the next box, then the next topic
-private fun NoteRow.run(full: Boolean) = secs.indices.filter { secs[it].full == full }
+private fun NoteRow.run(full: Boolean) = secs.indices.filter { secs[it].full == full && !secs[it].empty }
 
 private fun Book.next(p: Pos): Pos? {
     val full = rows[p.row].secs[p.sec].full
     rows[p.row].run(full).firstOrNull { it > p.sec }?.let { return Pos(p.row, it) }
-    return (p.row + 1 until rows.size).firstOrNull { rows[it].secs.isNotEmpty() }?.let { Pos(it, 0) }
+    return (p.row + 1 until rows.size).firstOrNull { rows[it].run(false).isNotEmpty() }?.let { Pos(it, rows[it].run(false).first()) }
 }
 
 private fun Book.prev(p: Pos): Pos? {
     val full = rows[p.row].secs[p.sec].full
     rows[p.row].run(full).lastOrNull { it < p.sec }?.let { return Pos(p.row, it) }
-    return (p.row - 1 downTo 0).firstOrNull { rows[it].secs.isNotEmpty() }
-        ?.let { r -> Pos(r, rows[r].run(false).lastOrNull() ?: rows[r].secs.lastIndex) }
+    return (p.row - 1 downTo 0).firstOrNull { rows[it].run(false).isNotEmpty() }
+        ?.let { r -> Pos(r, rows[r].run(false).last()) }
 }
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -659,6 +659,7 @@ private fun TocList(secs: List<Subsection>, current: Int, isRead: (Int) -> Boole
     val tocState = rememberLazyListState(initialFirstVisibleItemIndex = (current - 2).coerceAtLeast(0))
     LazyColumn(state = tocState) {
         itemsIndexed(secs) { i, s ->
+            if (s.empty && i != current) return@itemsIndexed
             val here = i == current
             Row(
                 Modifier
