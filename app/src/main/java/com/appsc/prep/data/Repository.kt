@@ -249,8 +249,25 @@ class Repository(private val open: (String) -> InputStream) {
     private val books = HashMap<Int, Book>()
     private val mutex = Mutex()
 
+    /**
+     * APPSC Complete: the notes written from the MCQs (mbook*.json, the active notes) instead of the full notes
+     * (book*.json, kept whole: switch back at any time). Same pages and ids, so progress and links stay.
+     */
+    @Volatile var mcqNotes = false
+        set(v) {
+            if (field == v) return
+            field = v
+            books.clear()
+            lineIndex = null
+            NotesFinder.clear()
+        }
+
+    val hasMcqNotes: Boolean by lazy { runCatching { open("mbook1.json").close(); true }.getOrDefault(false) }
+
     suspend fun book(id: Int): Book = mutex.withLock {
-        books[id] ?: withContext(Dispatchers.IO) { parseBook(readJson(if (revision) "rev$id.json" else "book$id.json")) }.also { books[id] = it }
+        books[id] ?: withContext(Dispatchers.IO) {
+            parseBook(readJson(if (revision) "rev$id.json" else if (mcqNotes && hasMcqNotes) "mbook$id.json" else "book$id.json"))
+        }.also { books[id] = it }
     }
 
     fun cachedBook(id: Int): Book? = books[id]
@@ -271,6 +288,11 @@ class Repository(private val open: (String) -> InputStream) {
     suspend fun mcqWhere(id: Int, keep: (Question) -> Boolean): List<Question> {
         val book = mutex.withLock { mcqs[id] } ?: withContext(Dispatchers.IO) { parseMcq(readJson("mcq$id.json"), id) }
         return book.rows.values.flatten().filter(keep)
+    }
+
+    /** APPSC Complete: extra copies of the same MCQ (tools/dup_report.py), left out of daily sessions. */
+    val duplicates: Set<String> by lazy {
+        runCatching { readJson("dups.json").jsonObject.keys }.getOrDefault(emptySet())
     }
 
     fun rowInfo(book: Int, row: Int): RowInfo? = index.getOrNull(book - 1)?.rows?.getOrNull(row)

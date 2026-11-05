@@ -126,6 +126,8 @@ fun TodayScreen(nav: Nav) {
                 }
             }
         }
+        // APPSC Complete: today's practice first, sized to a sustainable day
+        if (app.repo.complete) item { PracticeTodayCard(nav) }
         item { HeroCard(day, daysToExam, plan.examLabel, beforePlan, afterPlan, nav) }
         item { ContinueCard(nav) }
         if (afterPlan) {
@@ -602,3 +604,82 @@ fun String.titleCase(): String =
             else -> w.replaceFirstChar { it.uppercase() }
         }
     }.replace("Ir ", "IR ")
+
+/**
+ * Today's practice (APPSC Complete): the minimum / standard / stretch targets from the reader's own recent days
+ * ([com.appsc.prep.data.DailyTarget]), done in sessions; what was answered on its own vs viewed; the next step.
+ */
+@Composable
+private fun PracticeTodayCard(nav: Nav) {
+    val app = LocalApp.current
+    val store = app.store
+    val today = LocalDate.now()
+    val t = remember(today) { com.appsc.prep.data.DailyTarget.of(store.activity, today) }
+    val log = store.dayLog(today)
+    val done = log.mcqs
+    val sessionsDone = (done / t.session).coerceAtMost(t.sessions)
+    val summary = remember(store.hist) { com.appsc.prep.data.PracticeSummary.of(store.hist) }
+    Card {
+        Column(Modifier.padding(16.dp)) {
+            Text("TODAY'S PRACTICE", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+            Row(verticalAlignment = Alignment.Bottom, modifier = Modifier.padding(top = 4.dp)) {
+                Text("$done", style = TextStyle(fontSize = 30.sp, fontWeight = FontWeight.Bold, color = C.Ink))
+                Text(" of ${t.standard} MCQs", style = TextStyle(fontSize = 15.sp, color = C.Muted), modifier = Modifier.padding(bottom = 5.dp))
+            }
+            Spacer(Modifier.height(8.dp))
+            ProgressLine((done / t.standard.toFloat()).coerceAtMost(1f))
+            Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.SpaceBetween) {
+                listOf("Minimum" to t.minimum, "Standard" to t.standard, "Stretch (optional)" to t.stretch).forEach { (label, n) ->
+                    Text(
+                        (if (done >= n) "✓ " else "") + "$label $n",
+                        style = TextStyle(fontSize = 12.sp, fontWeight = if (done >= n) FontWeight.SemiBold else FontWeight.Normal, color = if (done >= n) C.Green else C.Muted),
+                    )
+                }
+            }
+            val message = when {
+                done >= t.stretch -> "Excellent day. Everything beyond this is a bonus: rest is part of preparation."
+                done >= t.standard -> "Standard target done. Well done: stop here, or take an optional stretch session."
+                done >= t.minimum -> "Minimum done: today counts. One more session if you have the energy."
+                sessionsDone > 0 -> "Session $sessionsDone done. Good progress: take a short break, then the next one."
+                else -> "${t.sessions} sessions of ${t.session} make today's standard. Start with one."
+            }
+            Text(message, style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 10.dp))
+            if (log.mcqs > 0) {
+                val own = log.own
+                val acc = if (own > 0) log.correct * 100 / own else 0
+                Text(
+                    "Today: $own answered on your own · $acc% right" + (if (log.viewed > 0) " · ${log.viewed} answers viewed first" else ""),
+                    style = TextStyle(fontSize = 13.sp, color = C.Muted),
+                    modifier = Modifier.padding(top = 6.dp),
+                )
+            }
+            Spacer(Modifier.height(12.dp))
+            val next = sessionsDone + 1
+            androidx.compose.material3.Button(
+                onClick = { nav.quiz("session", 0, next, "all") },
+                modifier = Modifier.fillMaxWidth().height(52.dp),
+                shape = RoundedCornerShape(12.dp),
+                colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Accent),
+            ) {
+                Text(
+                    if (next <= t.sessions) "Start session $next of ${t.sessions} · ${t.session} MCQs" else "Optional stretch session · ${t.session} MCQs",
+                    style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
+                )
+            }
+            Text(
+                "Each session starts with the MCQs due for revision (wrong or only viewed), then new ones in the plan's order. " +
+                    "Nothing carries over to tomorrow.",
+                style = TextStyle(fontSize = 12.sp, lineHeight = 17.sp, color = C.Muted),
+                modifier = Modifier.padding(top = 8.dp),
+            )
+            if (summary.tried + summary.viewedOnly > 0) {
+                HorizontalDivider(color = C.Line, modifier = Modifier.padding(vertical = 12.dp))
+                Text(
+                    "On your own: ${summary.tried} MCQs · ${if (summary.tried > 0) summary.right * 100 / summary.tried else 0}% right now · " +
+                        "${summary.mastered} mastered · ${summary.revise} to revise · ${summary.viewedOnly} only viewed",
+                    style = TextStyle(fontSize = 13.sp, lineHeight = 19.sp, color = C.Body),
+                )
+            }
+        }
+    }
+}

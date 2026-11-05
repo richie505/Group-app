@@ -27,6 +27,86 @@ class BackupTest {
 
     private val moves = IdMoves("2.18", mapOf("2:5:9" to "2:5:3"), setOf("2:4:1"))
 
+    @Test fun viewedAnswersAreNotSolvedAndHistorySurvivesRestore() {
+        val phone = ProgressStore(MemStorage())
+        phone.recordAnswer("n1", true) // right on its own
+        phone.recordAnswer("n2", false) // wrong
+        phone.markSeen("n3", viewed = true) // answer viewed first, then picked: not scored
+        phone.markSeen("n4", viewed = false) // an MCQ without a key: practised, not "viewed"
+        phone.recordAnswer("n2", true) // right on a retry
+        assertEquals(com.appsc.prep.data.Mastery.MASTERED, phone.mastery("n1"))
+        assertEquals(com.appsc.prep.data.Mastery.IMPROVING, phone.mastery("n2"))
+        assertEquals(com.appsc.prep.data.Mastery.LEARNING, phone.mastery("n3"))
+        assertEquals(com.appsc.prep.data.Mastery.NEW, phone.mastery("n4"))
+        val sum = com.appsc.prep.data.PracticeSummary.of(phone.hist)
+        assertEquals(2, sum.tried) // n3 viewed is not counted as solved
+        assertEquals(1, sum.viewedOnly)
+        val log = phone.dayLog()
+        assertEquals(5, log.mcqs)
+        assertEquals(1, log.viewed)
+        assertEquals(4, log.own)
+        // a new phone gets every history back from the backup
+        val other = ProgressStore(MemStorage())
+        other.restore(phone.backup(), IdMoves("", emptyMap(), emptySet()))
+        assertEquals(phone.hist, other.hist)
+        assertEquals(com.appsc.prep.data.Mastery.LEARNING, other.mastery("n3"))
+    }
+
+    @Test fun anOlderBackupGetsAHistoryOnRestore() {
+        val older = """{"app":"APPSC Prep backup","format":1,"answers":["a1:1","a2:0","a3:1"],"seen":["a3","a4"],"missed":["a2","a3"]}"""
+        val s = ProgressStore(MemStorage())
+        s.restore(older, IdMoves("", emptyMap(), emptySet()))
+        assertEquals("R", s.hist["a1"]?.outcomes)
+        assertEquals("W", s.hist["a2"]?.outcomes)
+        assertEquals("VWR", s.hist["a3"]?.outcomes)
+        assertEquals("V", s.hist["a4"]?.outcomes)
+        assertEquals(com.appsc.prep.data.Mastery.IMPROVING, s.mastery("a3"))
+    }
+
+    @Test fun dailyTargetsComeFromRecentDaysWithoutDebt() {
+        // the reader's real log up to 4 Nov 2026 (both devices added up per day)
+        val days = mapOf(
+            "2026-10-22" to 754, "2026-10-24" to 420, "2026-10-26" to 327, "2026-10-27" to 1074, "2026-10-28" to 1029,
+            "2026-10-29" to 1072, "2026-10-30" to 970, "2026-10-31" to 551, "2026-11-01" to 634, "2026-11-02" to 964,
+            "2026-11-03" to 1111, "2026-11-04" to 922,
+        ).mapValues { DayLog(mcqs = it.value) }
+        val t = com.appsc.prep.data.DailyTarget.of(days, java.time.LocalDate.parse("2026-11-05"))
+        assertEquals(600, t.standard)
+        assertEquals(300, t.minimum)
+        assertEquals(950, t.stretch)
+        assertEquals(200, t.session)
+        assertEquals(3, t.sessions)
+        // three light days in a row bring it down; nothing is added for what was missed
+        val light = days + mapOf("2026-11-05" to 200, "2026-11-06" to 150, "2026-11-07" to 300).mapValues { DayLog(mcqs = it.value) }
+        val after = com.appsc.prep.data.DailyTarget.of(light, java.time.LocalDate.parse("2026-11-08"))
+        assertTrue("${after.standard}", after.standard < t.standard)
+        // a session: due revision first (at most a third), then new ones in order
+        val ids = com.appsc.prep.data.DailyTarget.session(9, listOf("r1", "r2", "r3", "r4"), listOf("n1", "n2", "r1", "n3", "n4", "n5", "n6", "n7")) { false }
+        assertEquals(listOf("r1", "r2", "r3", "n1", "n2", "n3", "n4", "n5", "n6"), ids)
+    }
+
+    @Test fun theReadersRealBackupRestores() {
+        val path = System.getenv("APPSC_BACKUP") ?: return // run with APPSC_BACKUP=<a real backup file>
+        val text = java.io.File(path).readText()
+        val s = ProgressStore(MemStorage())
+        val r = s.restore(text, IdMoves("", emptyMap(), emptySet()))
+        val o = kotlinx.serialization.json.Json.parseToJsonElement(text).let { it as kotlinx.serialization.json.JsonObject }
+        fun n(k: String) = (o[k] as kotlinx.serialization.json.JsonArray).size
+        assertEquals(n("answers"), s.answers.size)
+        assertEquals(n("done"), s.done.size)
+        assertTrue(s.hist.size >= s.answers.size) // every answer has a history now
+        // and survives its own backup again
+        val again = ProgressStore(MemStorage())
+        again.restore(s.backup(), IdMoves("", emptyMap(), emptySet()))
+        assertEquals(s.answers, again.answers)
+        assertEquals(s.hist, again.hist)
+        assertEquals(s.done, again.done)
+        java.io.File("build/real-backup-restore.txt").writeText(
+            "answers ${s.answers.size}, done ${s.done.size}, hist ${s.hist.size}, read ${r.read}, " +
+                com.appsc.prep.data.PracticeSummary.of(s.hist).toString(),
+        )
+    }
+
     @Test fun mcqCorrectionsAreShownKeptAndRestored() {
         val q = com.appsc.prep.data.Question(
             "y1", "Which led to English education?", emptyList(), listOf("and 2 only", "only", "and 3 only", "1, 2 and 3"),

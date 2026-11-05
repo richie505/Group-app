@@ -76,6 +76,7 @@ class MainActivity : ComponentActivity() {
             ProgressStore(PrefsStorage(applicationContext)),
             AndroidPlatform(applicationContext),
         )
+        app.repo.mcqNotes = app.store.mcqNotes // APPSC Complete: the MCQ notes, or the full notes
         // the notes and the dictionary read in the background once the first screen is up: a Meaning lookup is then quick
         lifecycleScope.launch {
             kotlinx.coroutines.delay(800)
@@ -109,7 +110,13 @@ private fun AppRoot() {
                 val current = tabFor(route)
                 val app = LocalApp.current
                 // APPSC Complete: the MCQs tab shows what is left today (target + due)
-                val left = if (app.repo.complete) com.appsc.prep.ui.screens.rememberDueStatus().left else 0
+                // APPSC Complete: what is left of today's standard target (never the whole backlog)
+                val left = if (app.repo.complete) {
+                    val t = androidx.compose.runtime.remember(java.time.LocalDate.now()) {
+                        com.appsc.prep.data.DailyTarget.of(app.store.activity, java.time.LocalDate.now())
+                    }
+                    (t.standard - app.store.dayLog().mcqs).coerceAtLeast(0)
+                } else 0
                 (if (app.repo.complete) completeTabs else tabs).forEach { t ->
                     NavigationBarItem(
                         selected = current == t.route,

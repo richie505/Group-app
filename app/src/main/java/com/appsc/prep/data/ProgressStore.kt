@@ -9,22 +9,28 @@ import java.time.LocalDate
 /** A saved subsection: id is "book:row:sec". */
 data class Saved(val id: String, val title: String, val rowTitle: String)
 
-/** One day's study record: MCQs practised (and answered right), seconds spent on notes and on MCQs. */
-data class DayLog(val mcqs: Int = 0, val correct: Int = 0, val notesSec: Int = 0, val mcqSec: Int = 0) {
+/**
+ * One day's study record: MCQs practised (and answered right), seconds spent on notes and on MCQs, and how many of
+ * the MCQs had their answer viewed before trying (from 3.05; older days have 0).
+ */
+data class DayLog(val mcqs: Int = 0, val correct: Int = 0, val notesSec: Int = 0, val mcqSec: Int = 0, val viewed: Int = 0) {
     val totalSec get() = notesSec + mcqSec
     val empty get() = mcqs == 0 && totalSec == 0
 
-    operator fun plus(o: DayLog) = DayLog(mcqs + o.mcqs, correct + o.correct, notesSec + o.notesSec, mcqSec + o.mcqSec)
+    operator fun plus(o: DayLog) = DayLog(mcqs + o.mcqs, correct + o.correct, notesSec + o.notesSec, mcqSec + o.mcqSec, viewed + o.viewed)
 
     /** Each field's larger value: the same device's log seen twice (an older and a newer backup) counts once. */
-    fun latest(o: DayLog) = DayLog(maxOf(mcqs, o.mcqs), maxOf(correct, o.correct), maxOf(notesSec, o.notesSec), maxOf(mcqSec, o.mcqSec))
+    fun latest(o: DayLog) = DayLog(maxOf(mcqs, o.mcqs), maxOf(correct, o.correct), maxOf(notesSec, o.notesSec), maxOf(mcqSec, o.mcqSec), maxOf(viewed, o.viewed))
 
-    fun encode() = "$mcqs\t$correct\t$notesSec\t$mcqSec"
+    /** Answered on its own (not viewed first). */
+    val own get() = mcqs - viewed
+
+    fun encode() = "$mcqs\t$correct\t$notesSec\t$mcqSec\t$viewed"
 
     companion object {
         fun decode(p: List<String>): DayLog? {
-            val n = p.map { it.toIntOrNull() ?: return null }
-            return if (n.size < 4) null else DayLog(n[0], n[1], n[2], n[3])
+            val n = p.take(5).map { it.toIntOrNull() ?: return null }
+            return if (n.size < 4) null else DayLog(n[0], n[1], n[2], n[3], n.getOrElse(4) { 0 })
         }
     }
 }
@@ -70,6 +76,47 @@ class ProgressStore(private val prefs: Storage) {
     /** Questions ever answered wrong (kept after a later right answer: "right on a retry"). Before 2.59 only the latest wrong ones. */
     var missed by mutableStateOf(prefs.getStringSet(KEY_MISSED).toSet() + answers.filterValues { !it }.keys)
         private set
+    /**
+     * Each MCQ's attempts (right / wrong on its own, answer viewed first) and when ([McqHist]): what mastery, the
+     * revision queue and the "answered on its own" counts are worked out from. Built once from the older records.
+     */
+    var hist by mutableStateOf(loadHist())
+        private set
+
+    private fun loadHist(): Map<String, McqHist> {
+        val kept = prefs.getStringSet(KEY_HIST).mapNotNull { McqHist.decode(it) }.toMap()
+        if (kept.isNotEmpty() || (answers.isEmpty() && seen.isEmpty())) return kept
+        return fillHist(kept, answers.keys + seen).also { saveHist(it) }
+    }
+
+    /** [ids] without a history yet get one from the older records (dated yesterday: due for revision today). */
+    private fun fillHist(h: Map<String, McqHist>, ids: Collection<String>): Map<String, McqHist> {
+        val day = LocalDate.now().minusDays(1)
+        val out = HashMap(h)
+        for (id in ids) if (id !in out) McqHist.fromOld(answers[id], id in seen, id in missed, day)?.let { out[id] = it }
+        return out
+    }
+
+    private fun saveHist(h: Map<String, McqHist>) = prefs.putStringSet(KEY_HIST, h.map { (k, v) -> v.encode(k) }.toSet())
+
+    private fun addHist(id: String, o: Char) {
+        val today = LocalDate.now()
+        val h = (hist[id] ?: McqHist("", today)).add(o, today)
+        hist = hist + (id to h)
+        saveHist(hist)
+    }
+
+    fun mastery(id: String) = Mastery.of(hist[id])
+
+    /** APPSC Complete: read the MCQ notes (true, the default) or the full notes. */
+    var mcqNotes by mutableStateOf(prefs.getString(KEY_NOTES_MODE) != "full")
+        private set
+
+    fun useMcqNotes(on: Boolean) {
+        mcqNotes = on
+        prefs.putString(KEY_NOTES_MODE, if (on) "mcq" else "full")
+    }
+
     var textScale by mutableFloatStateOf(prefs.getFloat(KEY_SCALE, 1f))
         private set
     /** Read-aloud speed (1 = normal). */
@@ -172,6 +219,7 @@ class ProgressStore(private val prefs: Storage) {
         practising?.let { spendToday(it, Spent(mcqs = 1)) }
         answers = answers + (questionId to correct)
         prefs.putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet())
+        addHist(questionId, if (correct) 'R' else 'W')
         if (!correct && questionId !in missed) {
             missed = missed + questionId
             prefs.putStringSet(KEY_MISSED, missed)
@@ -179,9 +227,11 @@ class ProgressStore(private val prefs: Storage) {
         markActive()
     }
 
-    fun markSeen(questionId: String) {
-        logToday { it.copy(mcqs = it.mcqs + 1) }
+    /** [viewed]: the answer was shown before picking (not an MCQ without a key, which can only be practised). */
+    fun markSeen(questionId: String, viewed: Boolean = false) {
+        logToday { it.copy(mcqs = it.mcqs + 1, viewed = it.viewed + if (viewed) 1 else 0) }
         practising?.let { spendToday(it, Spent(mcqs = 1)) }
+        if (viewed) addHist(questionId, 'V')
         if (questionId in seen) return
         seen = seen + questionId
         prefs.putStringSet(KEY_SEEN, seen)
@@ -342,6 +392,7 @@ class ProgressStore(private val prefs: Storage) {
         set("answers", answers.map { (k, v) -> "$k:${if (v) 1 else 0}" })
         set("seen", seen)
         set("missed", missed)
+        set("hist", hist.map { (k, v) -> v.encode(k) })
         set("noteRounds", noteRounds)
         set("added", added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" })
         set("edits", edits.map { (k, v) -> v.encode(k) })
@@ -417,6 +468,16 @@ class ProgressStore(private val prefs: Storage) {
         prefs.putStringSet(KEY_SEEN, seen)
         missed = missed + list("missed").flatMap(::linked) + inAnswers.filterValues { !it }.keys
         prefs.putStringSet(KEY_MISSED, missed)
+        // practice histories: the longer (or, as long, the later) one of each MCQ; then any answer without one
+        val inHist = list("hist").mapNotNull { McqHist.decode(it) }.flatMap { (k, v) -> linked(k).map { it to v } }.toMap()
+        val merged = HashMap(hist)
+        for ((k, v) in inHist) {
+            val h = merged[k]
+            if (h == null || v.outcomes.length > h.outcomes.length || (v.outcomes.length == h.outcomes.length && v.last > h.last)) merged[k] = v
+        }
+        // a backup with histories: only answers lack one; an older one: answers and answers seen (all it kept)
+        hist = fillHist(merged, inAnswers.keys + (if (o.containsKey("hist")) emptyList() else list("seen").flatMap(::linked)))
+        saveHist(hist)
 
         // notes saved before pages were rewritten sit under other gap indices: move them as this device's were
         val inNotes = noteMoves.apply(
@@ -480,6 +541,8 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_SPEECH_SCOPE = "speech_scope"
         const val KEY_ANSWERS = "answers"
         const val KEY_SEEN = "seen"
+        const val KEY_HIST = "mcq_hist"
+        const val KEY_NOTES_MODE = "notes_mode"
         const val KEY_MISSED = "missed"
         const val KEY_IDS = "ids_version"
         const val KEY_ADDED = "added_notes"

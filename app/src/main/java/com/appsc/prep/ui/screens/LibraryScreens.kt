@@ -84,6 +84,7 @@ fun BooksScreen(nav: Nav) {
     Column(Modifier.fillMaxSize()) {
         TopBar("Notes")
         PageList(Modifier.fillMaxSize(), max = 1180.dp) { width ->
+            if (app.repo.hasMcqNotes) item(key = "notes-mode") { NotesModeSwitch() }
             if (app.repo.exams.isNotEmpty()) {
                 // APPSC Complete: the subjects of each exam on their own, Group 1 then Group 2
                 app.repo.exams.forEachIndexed { ei, exam ->
@@ -732,5 +733,38 @@ private fun BackupCard() {
             Spacer(Modifier.height(10.dp))
             Text(text, style = TextStyle(fontSize = 14.sp, color = if (bad) C.High else C.Green))
         }
+    }
+}
+
+/**
+ * APPSC Complete: which notes to read. MCQ notes: only what the MCQs test, page by page (the active notes);
+ * full notes: everything, kept whole. Same pages either way, so marks, saved pages and links carry over.
+ */
+@Composable
+private fun NotesModeSwitch() {
+    val app = LocalApp.current
+    val on = app.store.mcqNotes
+    Column(Modifier.padding(start = 16.dp, end = 16.dp, top = 12.dp)) {
+        Row(
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(C.Chip).padding(4.dp),
+            horizontalArrangement = Arrangement.spacedBy(4.dp),
+        ) {
+            listOf(true to "MCQ notes", false to "Full notes").forEach { (mode, label) ->
+                val sel = on == mode
+                Box(
+                    Modifier.weight(1f).clip(RoundedCornerShape(9.dp)).background(if (sel) Color.White else C.Chip)
+                        .clickable { app.store.useMcqNotes(mode); app.repo.mcqNotes = mode }.padding(vertical = 10.dp),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    Text(label, style = TextStyle(fontSize = 14.sp, fontWeight = if (sel) FontWeight.SemiBold else FontWeight.Normal, color = if (sel) C.Accent else C.Muted))
+                }
+            }
+        }
+        Text(
+            if (on) "Only the facts your MCQs test, as short bullets. The full notes are kept: switch any time."
+            else "Everything, as it was. Switch to MCQ notes for just what the MCQs test.",
+            style = TextStyle(fontSize = 12.sp, lineHeight = 17.sp, color = C.Muted),
+            modifier = Modifier.padding(top = 6.dp, start = 4.dp),
+        )
     }
 }

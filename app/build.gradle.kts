@@ -14,8 +14,8 @@ android {
         applicationId = "com.appsc.prep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 115
-        versionName = "3.04"
+        versionCode = 116
+        versionName = "3.05"
     }
 
     signingConfigs {
@@ -64,6 +64,8 @@ android {
     // its assets: APPSC Complete's, with its own MCQs, topic counts and edition (src/oneliner/assets) in their place
     sourceSets["oneliner"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/onelinerAssets")))
     sourceSets["complete2"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/complete2Assets")))
+    // APPSC Complete: its full notes, plus Complete 2.0's notes written from the MCQs as "MCQ notes" (mbook*.json)
+    sourceSets["complete"].assets.srcDir(layout.buildDirectory.dir("generated/completeMcqNotes"))
 
     buildTypes {
         debug {
@@ -144,3 +146,12 @@ val complete2Assets = tasks.register<Sync>("complete2Assets") {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 tasks.matching { it.name.contains("Complete2") }.configureEach { dependsOn(complete2Assets) }
+
+val completeMcqNotes = tasks.register<Sync>("completeMcqNotes") {
+    from("src/complete2/assets") {
+        include("book*.json")
+        rename("book(\\d+)\\.json", "mbook$1.json")
+    }
+    into(layout.buildDirectory.dir("generated/completeMcqNotes"))
+}
+tasks.matching { it.name.contains("Complete") && !it.name.contains("Complete2") }.configureEach { dependsOn(completeMcqNotes) }

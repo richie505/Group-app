@@ -64,6 +64,12 @@ object NotesFinder {
         Index(pages, df, byTitle)
     }
 
+    /** Forgets every index (the notes were switched). */
+    fun clear() {
+        indexes.clear()
+        found.clear()
+    }
+
     /** Builds the book's index ahead of time (the quiz does it while a question shows). */
     fun warm(book: Book) {
         index(book)
