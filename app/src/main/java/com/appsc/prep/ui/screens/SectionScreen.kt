@@ -122,9 +122,9 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                     }
                     Spacer(Modifier.height(14.dp))
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        ProgressLine(if (core == 0) 0f else done / core.toFloat(), Modifier.weight(1f))
+                        ProgressLine(if (shown.isEmpty()) 0f else done / shown.size.toFloat(), Modifier.weight(1f))
                         Spacer(Modifier.width(10.dp))
-                        Text("$done / $core ${LocalApp.current.doneWord}", style = TextStyle(fontSize = 12.sp, color = C.Muted))
+                        Text("$done / ${shown.size} ${LocalApp.current.doneWord}", style = TextStyle(fontSize = 12.sp, color = C.Muted))
                     }
                     Spacer(Modifier.height(14.dp))
                     Button(

@@ -64,7 +64,8 @@ fun McqsScreen(nav: Nav) {
     val app = LocalApp.current
     val store = app.store
     val status = rememberDueStatus()
-    val wrong = store.answers.count { !it.value }
+    // this app's MCQs only (a backup also holds other apps' answers, and one-fact MCQs since merged)
+    val wrong = remember(store.answers) { app.repo.planIds.let { ids -> store.answers.count { !it.value && (ids.isEmpty() || it.key in ids) } } }
 
     Column(Modifier.fillMaxSize()) {
         TopBar("MCQs")

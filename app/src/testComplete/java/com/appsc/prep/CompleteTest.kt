@@ -6,6 +6,7 @@ import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollToNode
 import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.data.ProgressStore
@@ -56,7 +57,43 @@ class CompleteTest {
         return app
     }
 
-    @Test fun readFromNotesOpensThePageWithTheAnswer() = runBlocking {
+    private fun shot(name: String, book: Int, content: @androidx.compose.runtime.Composable () -> Unit): AppState {
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        app.repo.mcqNotes = true
+        runBlocking { app.repo.book(book); app.repo.mcq(book) }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { content() } } }
+        rule.waitForIdle()
+        rule.mainClock.advanceTimeBy(1000)
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/complete/$name.png")
+        return app
+    }
+
+    /** A topic's subsections and its full-notes pages as one numbered list, without the "Full notes" heading. */
+    @Test fun aTopicIsOneListOfSubsections() {
+        shot("12_topic_one_list", 4) { com.appsc.prep.ui.screens.SectionScreen(4, 30, nav) }
+        rule.onAllNodes(hasText("Full notes", substring = true, ignoreCase = true)).fetchSemanticsNodes().let { assertTrue("no Full notes heading or badge", it.isEmpty()) }
+        rule.onNodeWithText("Subsections", substring = true, ignoreCase = true).assertExists()
+        // the count read is of the pages shown (empty ones hidden)
+        rule.onNodeWithText("SUBSECTIONS (20)", substring = true, ignoreCase = true).assertExists()
+        rule.onNodeWithText("0 / 20", substring = true).assertExists()
+    }
+
+    /** A 3-statement MCQ: the title fits beside the buttons; select an option, then Check answer shows the result. */
+    @Test fun statementMcqSelectThenCheck() {
+        val app = shot("13_statement_mcq", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 30, 0), "all", "Subsection MCQs", nav) }
+        rule.onNodeWithText("Consider the following statements", substring = true).assertExists()
+        rule.onNodeWithText("1, 2 and 3").performClick()
+        rule.waitForIdle()
+        rule.onNodeWithText("Check answer").assertExists()
+        assertTrue("nothing recorded before Check", app.store.answers.isEmpty())
+        rule.onNodeWithText("Check answer").performClick()
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/complete/14_statement_mcq_checked.png")
+        assertEquals(1, app.store.answers.size)
+    }
+
+        @Test fun readFromNotesOpensThePageWithTheAnswer() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
         val book = repo.book(6)
         val m = repo.mcq(6)
@@ -142,7 +179,73 @@ class CompleteTest {
         assertEquals("only once", 0, store.carryMerged(merged))
     }
 
-    @Test fun pagesWithNothingForTheMcqsAreHiddenAndCountAsRead() = runBlocking {
+    /** Every file the app ships loads: both sets of notes, every MCQ, every plan day, and today's session is full. */
+    @Test fun everythingTheAppShipsLoads() = runBlocking {
+        val repo = Repository { ctx.assets.open(it) }
+        var pages = 0
+        for (mode in listOf(true, false)) {
+            repo.mcqNotes = mode
+            for (b in 1..6) {
+                val bk = repo.book(b)
+                assertEquals("book $b rows (notes ${if (mode) "MCQ" else "full"})", repo.index[b - 1].rows.size, bk.rows.size)
+                val empty = repo.emptyPages(mode)
+                bk.rows.forEachIndexed { ri, r ->
+                    val n = repo.index[b - 1].rows[ri].subsectionCount
+                    assertTrue("book $b row $ri pages", r.secs.size <= n)
+                    // a page only the other notes have counts as read here
+                    for (si in r.secs.size until n) assertTrue("book $b row $ri page $si", "$b:$ri:$si" in empty)
+                }
+                pages += bk.rows.sumOf { it.secs.size }
+            }
+        }
+        assertEquals(2 * 17663 + 20, pages)
+        var mcqs = 0
+        for (b in 1..6) {
+            val m = repo.mcq(b)
+            m.rows.forEach { (ri, qs) ->
+                mcqs += qs.size
+                qs.forEach { q ->
+                    assertTrue("${q.id}: 2+ options", q.options.size >= 2)
+                    assertTrue("${q.id}: key in range", q.answer in -1 until q.options.size)
+                }
+                assertEquals("book $b row $ri: MCQ count in the index", repo.index[b - 1].rows[ri].questionCount, qs.size)
+            }
+        }
+        assertEquals(34908, mcqs)
+        assertEquals(mcqs, repo.planIds.size)
+        assertTrue(repo.merged.keys.all { it in repo.planIds })
+        val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        val t = com.appsc.prep.data.DailyTarget.of(app.store.activity, java.time.LocalDate.now())
+        assertEquals("a session is full", t.session, com.appsc.prep.ui.screens.sessionIds(app).size)
+    }
+
+        /** The reader's own backup (APPSC_BACKUP=path; skipped without it): restores, and practice goes on from it. */
+    @Test fun theReadersBackupRestoresHere() {
+        val path = System.getenv("APPSC_BACKUP") ?: return
+        val repo = Repository { ctx.assets.open(it) }
+        val store = ProgressStore(PrefsStorage(ctx))
+        val r = store.restore(java.io.File(path).readText(), repo.idMoves, repo.noteMoves, repo.mcqLinks)
+        val carried = store.carryMerged(repo.merged)
+        val app = AppState(repo, store, AndroidPlatform(ctx))
+        val today = java.time.LocalDate.now()
+        val t = com.appsc.prep.data.DailyTarget.of(store.activity, today)
+        val due = com.appsc.prep.data.DailyTarget.dueRevision(store.hist, today) { it in repo.planIds }
+        val session = com.appsc.prep.ui.screens.sessionIds(app)
+        val own = com.appsc.prep.data.PracticeSummary.of(store.hist) { it in repo.planIds }
+        val report = "restored ${r.answers} answers, ${r.read} pages; merged MCQs marked for revision $carried; " +
+            "targets ${t.minimum}/${t.standard}/${t.stretch}, session ${t.session}; due revision ${due.size}; " +
+            "session ${session.size} (${session.count { it in due }} revision); this app: tried ${own.tried}, to revise ${own.revise}, " +
+            "mastered ${own.mastered}, only viewed ${own.viewedOnly}"
+        println(report)
+        java.io.File("build/backup-check.txt").writeText(report)
+        assertTrue(r.answers > 10000)
+        assertTrue(carried > 200)
+        assertEquals(t.session, session.size)
+        assertTrue("revision first, at most a third", session.take(t.session / 3).all { it in due })
+        assertTrue(session.distinct().size == session.size && session.all { it in repo.planIds })
+    }
+
+        @Test fun pagesWithNothingForTheMcqsAreHiddenAndCountAsRead() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
         repo.mcqNotes = true
         val mcqEmpty = repo.emptyPages(true)
@@ -191,7 +294,7 @@ class CompleteTest {
                 // the boxes, then the topic's full-notes pages, as one list (none marked apart)
                 assertTrue("book $b row ${row.index}: a subsection per box, then the full notes", row.secs.size >= 6)
                 assertTrue("book $b row ${row.index}: one list", row.secs.none { it.full || "Full notes" in it.badges })
-                assertEquals("book $b row ${row.index}: counted in full", row.secs.size, repo.index[b - 1].rows[row.index].subsectionCount)
+                assertTrue("book $b row ${row.index}: counted in full", row.secs.size <= repo.index[b - 1].rows[row.index].subsectionCount)
                 assertTrue("book $b row ${row.index}: MCQs under its boxes", mcq.subs[row.index].orEmpty().all { it in -1 until row.secs.size })
             }
         }

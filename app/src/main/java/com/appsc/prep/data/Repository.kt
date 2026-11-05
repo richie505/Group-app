@@ -225,6 +225,9 @@ class Repository(private val open: (String) -> InputStream) {
         DueMcqs.PlanMcqs(plan.days.zip(ids))
     }
 
+    /** APPSC Complete: every MCQ id in this app (all of them are on a plan day); empty elsewhere. */
+    val planIds: Set<String> by lazy { planMcqs.days.flatMap { it.second }.toHashSet() }
+
     /** Name of this edition: "APPSC Prep", "APPSC Revision" or "APPSC Complete" (edition.json). */
     val appName: String get() = (edition?.get("name") as? JsonPrimitive)?.content ?: "APPSC Prep"
 

@@ -127,6 +127,19 @@ def empty_pages():
                             ids.append(f"{b}:{ri}:{si}")
                     ri += 1
         out[key] = ids
+    # a topic's page count is the larger of the two notes' (the MCQ notes add "More from this topic's MCQs" to some):
+    # a page one set lacks is listed as empty there, so it counts as read
+    idx = json.load(open(f"{A}/index.json"))
+    for b in range(1, 7):
+        counts = {}
+        for key, path in (("mcq", "app/src/complete2/assets/book{}.json"), ("full", A + "/book{}.json")):
+            counts[key] = [len(r["secs"]) for u in json.load(open(path.format(b)))["units"] for r in u["rows"]]
+        for ri, row in enumerate(idx["books"][b - 1]["rows"]):
+            n = max(counts["mcq"][ri], counts["full"][ri])
+            row["n"] = n
+            for key in ("mcq", "full"):
+                out[key] += [f"{b}:{ri}:{si}" for si in range(counts[key][ri], n)]
+    open(f"{A}/index.json", "w").write(json.dumps(idx, ensure_ascii=False, separators=(",", ":")))
     open(f"{A}/empty.json", "w").write(json.dumps(out, separators=(",", ":")))
     print("empty pages:", {k: len(v) for k, v in out.items()})
 

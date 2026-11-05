@@ -230,7 +230,7 @@ fun ExamSubjectScreen(exam: Int, subject: Int, nav: Nav) {
                                     meta = listOfNotNull(
                                         app.repo.index[b - 1].short,
                                         r.questionCount.takeIf { it > 0 }?.let { mcqCount(it) },
-                                        "${r.subsectionCount} subsections",
+                                        "${app.store.shownCount(b, ri, r.subsectionCount)} subsections",
                                     ).joinToString(" · "),
                                     priority = app.repo.planRowByRef[b to ri]?.priority ?: "",
                                     done = app.store.doneCount(b, ri, r.subsectionCount),
@@ -306,7 +306,7 @@ fun BookScreen(id: Int, nav: Nav) {
                                         "pp ${r.p1}-${r.p2}",
                                         r.codes.firstOrNull(),
                                         r.questionCount.takeIf { it > 0 }?.let { mcqCount(it) },
-                                        "${r.subsectionCount} subsections",
+                                        "${app.store.shownCount(b.id, r.index, r.subsectionCount)} subsections",
                                     ).joinToString(" · "),
                                     priority = app.repo.planRowByRef[b.id to r.index]?.priority ?: "",
                                     done = app.store.doneCount(b.id, r.index, r.subsectionCount),

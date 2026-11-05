@@ -236,6 +236,10 @@ class ProgressStore(private val prefs: Storage) {
     /** APPSC Complete: pages of the notes in use with nothing for the MCQs; hidden, so they count as read. */
     var skip: Set<String> by mutableStateOf(emptySet())
 
+    /** Pages of a topic that show (the hidden ones left out). */
+    fun shownCount(book: Int, row: Int, total: Int): Int =
+        if (skip.isEmpty()) total else (0 until total).count { subsectionId(book, row, it) !in skip }
+
     fun doneCount(book: Int, row: Int, total: Int): Int =
         (0 until total).count { subsectionId(book, row, it).let { id -> id in done || id in skip } }
 

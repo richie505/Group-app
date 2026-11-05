@@ -14,8 +14,8 @@ android {
         applicationId = "com.appsc.prep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 122
-        versionName = "3.11"
+        versionCode = 123
+        versionName = "3.12"
     }
 
     signingConfigs {
@@ -88,10 +88,17 @@ android {
     buildFeatures {
         compose = true
     }
+    lint {
+        // a false alarm: every produceState here sets value (the check misses `value = ...` behind `by`)
+        disable += "ProduceStateDoesNotAssignValue"
+    }
     testOptions {
         unitTests.isIncludeAndroidResources = true
         // ./gradlew testNotesDebugUnitTest --tests '*SpeechAuditTest' -Pspeech.audit=/path/out.tsv dumps read-aloud text
         unitTests.all { test ->
+            // the tests run on the debug builds: the same code and data, plus the test-only screen host
+            // (ui-test-manifest) that release builds leave out, so the release copies cannot start a screen
+            if (test.name.contains("Release")) test.enabled = false
             project.findProperty("speech.audit")?.let { test.systemProperty("speech.audit", it) }
             project.findProperty("sample.tag")?.let { test.systemProperty("sample.tag", it) }
             project.findProperty("acronym.audit")?.let { test.systemProperty("acronym.audit", it) }

@@ -618,7 +618,8 @@ private fun PracticeTodayCard(nav: Nav) {
     val log = store.dayLog(today)
     val done = log.mcqs
     val sessionsDone = (done / t.session).coerceAtMost(t.sessions)
-    val summary = remember(store.hist) { com.appsc.prep.data.PracticeSummary.of(store.hist) }
+    // this app's MCQs only: a backup also holds other apps' answers, and one-fact MCQs since merged
+    val summary = remember(store.hist) { app.repo.planIds.let { ids -> com.appsc.prep.data.PracticeSummary.of(store.hist) { ids.isEmpty() || it in ids } } }
     Card {
         Column(Modifier.padding(16.dp)) {
             Text("TODAY'S PRACTICE", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
