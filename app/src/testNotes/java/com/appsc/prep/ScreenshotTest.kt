@@ -314,8 +314,7 @@ class ScreenshotTest {
             }
         }.first()
         shot("29_wrong_answer", preload = 5) { QuizScreen(QuizSource("row", 5, row), "all", "MCQ Practice", nav) }
-        rule.onNodeWithText(q.options[wrong]).performClick() // select
-        rule.onNodeWithText("Check answer").performClick() // then check
+        rule.onNodeWithText(q.options[wrong]).performClick() // one tap answers
         rule.waitForIdle()
         // structured explanation (Solution) or the older one-paragraph explanation
         val structured = q.solution.isNotEmpty()

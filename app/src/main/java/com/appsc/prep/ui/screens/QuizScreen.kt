@@ -305,8 +305,6 @@ internal fun QuizRound(
     }
     val picked = picks[index]
     val answered = picked >= 0
-    // tap an option to select it, then Check (or tap it again): the answer shows only after a real attempt
-    var chosen by remember(key, index) { mutableIntStateOf(-1) }
 
     fun pick(i: Int) {
         if (answered || q.kind == 'f' || i !in q.options.indices) return
@@ -314,7 +312,6 @@ internal fun QuizRound(
         // an answer seen first ("Show the answer") is practice: attempted, not scored
         if (q.kind == 'u' || q.id in revealed) store.markSeen(q.id, viewed = q.id in revealed) else store.recordAnswer(q.id, i == q.answer)
     }
-    fun choose(i: Int) { if (chosen == i) pick(i) else chosen = i }
     app.platform.Shortcuts { k ->
         when {
             k == "Left" && index > 0 -> index--
@@ -365,15 +362,7 @@ internal fun QuizRound(
                                 store.recordAnswer(q.id, knew)
                             }
                             'u' -> {
-                                q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, answer = q.answer, chosen = chosen) { choose(i) } }
-                                if (!answered && chosen >= 0) {
-                                    androidx.compose.material3.Button(
-                                        onClick = { pick(chosen) },
-                                        modifier = Modifier.fillMaxWidth().padding(top = 6.dp).height(50.dp),
-                                        shape = RoundedCornerShape(12.dp),
-                                        colors = ButtonDefaults.buttonColors(containerColor = C.Accent),
-                                    ) { Text("Check answer", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
-                                }
+                                q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, answer = q.answer) { pick(i) } }
                                 if (answered) {
                                     Spacer(Modifier.height(8.dp))
                                     UnscoredNote(q)
@@ -387,15 +376,7 @@ internal fun QuizRound(
                                 } else HintBox(q) { revealed += q.id }
                             }
                             else -> {
-                                q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer, chosen) { choose(i) } }
-                                if (!answered && chosen >= 0) {
-                                    androidx.compose.material3.Button(
-                                        onClick = { pick(chosen) },
-                                        modifier = Modifier.fillMaxWidth().padding(top = 6.dp).height(50.dp),
-                                        shape = RoundedCornerShape(12.dp),
-                                        colors = ButtonDefaults.buttonColors(containerColor = C.Accent),
-                                    ) { Text("Check answer", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
-                                }
+                                q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
                                 if (answered) {
                                     Spacer(Modifier.height(8.dp))
                                     Explanation(q, picked == q.answer, picked, onOpenNotes, onGoogleExplain, onPeek)
@@ -440,12 +421,11 @@ internal fun QuizRound(
 }
 
 @Composable
-private fun OptionCard(i: Int, text: String, picked: Int, answer: Int, chosen: Int = -1, onClick: () -> Unit) {
+private fun OptionCard(i: Int, text: String, picked: Int, answer: Int, onClick: () -> Unit) {
     val answered = picked >= 0
     val isAnswer = i == answer
     val isPicked = i == picked
     val (bg, border, ink) = when {
-        !answered && i == chosen -> Triple(C.AccentSoft, C.Accent, C.Ink) // selected, not checked yet
         answered && answer < 0 && isPicked -> Triple(C.AccentSoft, C.Accent, C.Accent)
         answered && isAnswer -> Triple(C.GreenSoft, C.Green, C.Green)
         answered && isPicked -> Triple(C.HighSoft, C.High, C.High)
@@ -463,14 +443,14 @@ private fun OptionCard(i: Int, text: String, picked: Int, answer: Int, chosen: I
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Box(
-            Modifier.size(28.dp).clip(CircleShape).background(if ((answered && (isAnswer || isPicked)) || (!answered && i == chosen)) border else C.Chip),
+            Modifier.size(28.dp).clip(CircleShape).background(if (answered && (isAnswer || isPicked)) border else C.Chip),
             contentAlignment = Alignment.Center,
         ) {
             Text(
                 "${i + 1}",
                 style = TextStyle(
                     fontSize = 13.sp, fontWeight = FontWeight.Bold,
-                    color = if ((answered && (isAnswer || isPicked)) || (!answered && i == chosen)) Color.White else C.Muted,
+                    color = if (answered && (isAnswer || isPicked)) Color.White else C.Muted,
                 ),
             )
         }

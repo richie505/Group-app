@@ -187,9 +187,6 @@ class Group2Test {
         rule.onNodeWithText("Consider the following statements", substring = true).assertExists()
         rule.onNodeWithText("1, 2 and 3").performClick()
         rule.waitForIdle()
-        assertTrue(app.store.answers.isEmpty())
-        rule.onNodeWithText("Check answer").performClick()
-        rule.waitForIdle()
         assertEquals(1, app.store.answers.size)
     }
 }

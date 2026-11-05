@@ -79,16 +79,13 @@ class CompleteTest {
         rule.onNodeWithText("0 / 20", substring = true).assertExists()
     }
 
-    /** A 3-statement MCQ: the title fits beside the buttons; select an option, then Check answer shows the result. */
+    /** A 3-statement MCQ: the title fits beside the buttons; one tap on an option answers it (no Check step). */
     @Test fun statementMcqSelectThenCheck() {
         val app = shot("13_statement_mcq", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 30, 0), "all", "Subsection MCQs", nav) }
         rule.onNodeWithText("Consider the following statements", substring = true).assertExists()
         rule.onNodeWithText("1, 2 and 3").performClick()
         rule.waitForIdle()
-        rule.onNodeWithText("Check answer").assertExists()
-        assertTrue("nothing recorded before Check", app.store.answers.isEmpty())
-        rule.onNodeWithText("Check answer").performClick()
-        rule.waitForIdle()
+        assertTrue("no Check step", rule.onAllNodes(hasText("Check answer")).fetchSemanticsNodes().isEmpty())
         rule.onRoot().captureRoboImage("screenshots/complete/14_statement_mcq_checked.png")
         assertEquals(1, app.store.answers.size)
     }
