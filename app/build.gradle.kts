@@ -162,7 +162,8 @@ val complete2Assets = tasks.register<Sync>("complete2Assets") {
 tasks.matching { it.name.contains("Complete2") }.configureEach { dependsOn(complete2Assets) }
 
 val completeMcqNotes = tasks.register<Sync>("completeMcqNotes") {
-    from("src/complete2/assets") {
+    // the MCQ notes in simple English (tools/simple_build.py), else Complete 2.0's as written
+    from(if (file("src/complete/mcqnotes/book1.json").exists()) "src/complete/mcqnotes" else "src/complete2/assets") {
         include("book*.json")
         rename("book(\\d+)\\.json", "mbook$1.json")
     }

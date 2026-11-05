@@ -14,7 +14,8 @@ import os
 import sys
 
 C = "app/src/complete/assets"
-C2 = "app/src/complete2/assets"  # the MCQ notes (APPSC Complete ships them as mbook*.json)
+# the MCQ notes APPSC Complete ships (mbook*.json): in simple English (tools/simple_build.py), else as written
+C2 = "app/src/complete/mcqnotes" if os.path.exists("app/src/complete/mcqnotes/book1.json") else "app/src/complete2/assets"
 G = "app/src/group2/assets"
 START = dt.date.fromisoformat(sys.argv[1] if len(sys.argv) > 1 else "2026-11-05")
 EXAM = dt.date(2027, 1, 24)
