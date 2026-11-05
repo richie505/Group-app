@@ -108,6 +108,28 @@ class ProgressStore(private val prefs: Storage) {
 
     fun mastery(id: String) = Mastery.of(hist[id])
 
+    /**
+     * APPSC Complete: three one-fact MCQs became one statement MCQ ([merged]: new id -> the old ids). The new one is
+     * a new question, so it is not counted as answered; but when one of its old MCQs needed revision (answered wrong,
+     * or its answer only viewed), the new one is marked so too, and comes back in the next sessions. Runs on every
+     * start and after a restore; MCQs that already have their own history are left alone. Returns how many it marked.
+     */
+    fun carryMerged(merged: Map<String, List<String>>): Int {
+        if (merged.isEmpty() || hist.isEmpty()) return 0
+        val add = HashMap<String, McqHist>()
+        for ((id, olds) in merged) {
+            if (id in hist) continue
+            val weak = olds.mapNotNull { hist[it] }.filter { Mastery.of(it).let { m -> m == Mastery.REVISE || m == Mastery.LEARNING } }
+            if (weak.isEmpty()) continue
+            val wrong = weak.any { Mastery.of(it) == Mastery.REVISE }
+            add[id] = McqHist(if (wrong) "W" else "V", weak.maxOf { it.last })
+        }
+        if (add.isEmpty()) return 0
+        hist = hist + add
+        saveHist(hist)
+        return add.size
+    }
+
     /** APPSC Complete: read the MCQ notes (true, the default) or the full notes. */
     var mcqNotes by mutableStateOf(prefs.getString(KEY_NOTES_MODE) != "full")
         private set

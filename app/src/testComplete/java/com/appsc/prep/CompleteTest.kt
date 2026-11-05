@@ -122,6 +122,26 @@ class CompleteTest {
         assertTrue("$hit of $stmts", hit * 10 >= stmts * 7)
     }
 
+    /** A statement MCQ made from a one-fact MCQ answered wrong (or only viewed) comes back for revision. */
+    @Test fun weakOneFactMcqsPassTheirRevisionOnToTheMergedMcq() {
+        val repo = Repository { ctx.assets.open(it) }
+        val merged = repo.merged
+        assertTrue(merged.size > 10000)
+        val (wrongId, wrongOlds) = merged.entries.first()
+        val (viewedId, viewedOlds) = merged.entries.drop(1).first()
+        val (rightId, rightOlds) = merged.entries.drop(2).first()
+        val store = ProgressStore(PrefsStorage(ctx))
+        store.recordAnswer(wrongOlds[0], false)
+        store.markSeen(viewedOlds[1], viewed = true)
+        store.recordAnswer(rightOlds[0], true)
+        assertTrue(store.carryMerged(merged) >= 2)
+        assertEquals(com.appsc.prep.data.Mastery.REVISE, store.mastery(wrongId))
+        assertEquals(com.appsc.prep.data.Mastery.LEARNING, store.mastery(viewedId))
+        assertEquals("a right one stays new: it is a new question", com.appsc.prep.data.Mastery.NEW, store.mastery(rightId))
+        assertTrue(wrongId !in store.answers)
+        assertEquals("only once", 0, store.carryMerged(merged))
+    }
+
     @Test fun pagesWithNothingForTheMcqsAreHiddenAndCountAsRead() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
         repo.mcqNotes = true

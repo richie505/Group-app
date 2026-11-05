@@ -81,6 +81,9 @@ class MainActivity : ComponentActivity() {
             val mcq = app.store.mcqNotes
             // read off the main thread, set on it (the lists observe it)
             app.store.skip = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) { app.repo.emptyPages(mcq) }
+            // weak one-fact MCQs pass their "needs revision" on to the statement MCQ they became
+            val merged = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) { app.repo.merged }
+            app.store.carryMerged(merged)
         }
         // the notes and the dictionary read in the background once the first screen is up: a Meaning lookup is then quick
         lifecycleScope.launch {
