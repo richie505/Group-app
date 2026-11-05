@@ -78,7 +78,9 @@ def main():
                         plan["missing"].append({"id": q["id"], "b": b, "r": int(ri), "page": si, "n": n,
                                                 "topic": r["title"], "pagetitle": r["secs"][si]["t"] if 0 <= si < len(pages) else "",
                                                 "q": q["s"] if not n else s, "answer": "" if n else s, "why": why})
-    json.dump(plan, open("data/sync/plan.json", "w"), ensure_ascii=False, indent=0)
+    # the first run is the plan the writers worked from; later runs only report (data/sync/plan-after.json)
+    out = "data/sync/plan.json" if not os.path.exists("data/sync/plan.json") else "data/sync/plan-after.json"
+    json.dump(plan, open(out, "w"), ensure_ascii=False, indent=0)
     print(f"{len(plan['moves'])} MCQs to re-file; {len(plan['missing'])} facts to write into the notes")
 
 

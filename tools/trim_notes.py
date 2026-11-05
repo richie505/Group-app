@@ -115,7 +115,7 @@ def empty_pages():
     """app/src/complete/assets/empty.json: the pages with nothing for the MCQs, in the MCQ notes ("mcq") and the trimmed
     full notes ("full"). The app hides them and counts them as read, so a topic can still be finished."""
     out = {}
-    for key, path in (("mcq", "app/src/complete2/assets/book{}.json"), ("full", A + "/book{}.json")):
+    for key, path in (("mcq", ("app/src/complete/mcqnotes" if os.path.exists("app/src/complete/mcqnotes/book1.json") else "app/src/complete2/assets") + "/book{}.json"), ("full", A + "/book{}.json")):
         ids = []
         for b in range(1, 7):
             ri = 0
@@ -132,7 +132,7 @@ def empty_pages():
     idx = json.load(open(f"{A}/index.json"))
     for b in range(1, 7):
         counts = {}
-        for key, path in (("mcq", "app/src/complete2/assets/book{}.json"), ("full", A + "/book{}.json")):
+        for key, path in (("mcq", ("app/src/complete/mcqnotes" if os.path.exists("app/src/complete/mcqnotes/book1.json") else "app/src/complete2/assets") + "/book{}.json"), ("full", A + "/book{}.json")):
             counts[key] = [len(r["secs"]) for u in json.load(open(path.format(b)))["units"] for r in u["rows"]]
         for ri, row in enumerate(idx["books"][b - 1]["rows"]):
             n = max(counts["mcq"][ri], counts["full"][ri])

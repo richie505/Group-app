@@ -135,6 +135,34 @@ object NotesFinder {
         return out
     }
 
+    /**
+     * The key points of a topic for [q]: (page, line) of each line that states a fact the MCQ tests. A statement MCQ:
+     * for each statement, its best line on any page of the topic. Otherwise: the lines holding the answer on the page
+     * [at] (the one [best] found). Empty when none is clear; the whole page shows then.
+     */
+    fun keyPoints(q: Question, row: NoteRow, at: Int): List<Pair<Int, Int>> {
+        val st = q.stem.lines().mapNotNull { NUMBERED.matchEntire(it)?.let { m -> m.groupValues[1] to m.groupValues[2] } }
+        if (st.size >= 2) {
+            val why = q.explanation.lines().mapNotNull { WHY.matchEntire(it.trim())?.let { m -> m.groupValues[1] to m.groupValues[2] } }.toMap()
+            val lines = row.secs.flatMapIndexed { si, s -> s.blocks.indices.filter { s.blocks[it] is TextBlock && (s.blocks[it] as TextBlock).kind != 'h' }.map { Triple(si, it, words(text(listOf(s.blocks[it])))) } }
+            val out = LinkedHashSet<Pair<Int, Int>>()
+            for ((n, s) in st) {
+                val ws = words(s)
+                val w = ws + words(why[n].orEmpty().replace(Regex("^(Correct|Incorrect):", RegexOption.IGNORE_CASE), ""))
+                if (w.isEmpty()) continue
+                val best = lines.map { (si, bi, lw) ->
+                    val c = lw.count { it in w }
+                    Triple(si to bi, c, (c + lw.count { it in ws }) / Math.pow(lw.size.coerceAtLeast(1).toDouble(), 0.3) + if (si == at) 0.2 else 0.0)
+                }.filter { it.second >= 3 || it.second * 2 >= w.size.coerceAtMost(6) }.maxByOrNull { it.third } ?: continue
+                out += best.first
+            }
+            return out.toList()
+        }
+        val sec = row.secs.getOrNull(at) ?: return emptyList()
+        // the answer's lines, else the lines sharing most of the question's words (as marked on the whole page)
+        return marked(q, sec.blocks).filter { (sec.blocks[it] as? TextBlock)?.kind != 'h' }.sorted().take(4).map { at to it }
+    }
+
     /** Whether a block holds the answer (most of its words): such lines are marked. */
     fun marks(blk: Block, answer: Set<String>): Boolean =
         answer.isNotEmpty() && words(text(listOf(blk))).let { w -> answer.count { it in w } * 2 >= answer.size }

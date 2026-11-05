@@ -242,6 +242,25 @@ class CompleteTest {
         assertTrue(session.distinct().size == session.size && session.all { it in repo.planIds })
     }
 
+        /** From the notes: first only this MCQ's key points (a line for each statement), then the whole page on request. */
+    @Test fun fromTheNotesShowsTheKeyPointsOfTheMcq() {
+        val app = shot("15_key_points", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 30, 0), "all", "Subsection MCQs", nav) }
+        val q = runBlocking { app.repo.mcq(4).rows[30]!!.first { "Seasonal plantation" in it.stem } }
+        val row = runBlocking { app.repo.book(4).rows[30] }
+        val keys = com.appsc.prep.data.NotesFinder.keyPoints(q, row, 0)
+        val text = keys.map { (si, bi) -> com.appsc.prep.data.NotesFinder.text(listOf(row.secs[si].blocks[bi])) }
+        for (fact in listOf("abiotic", "hydrogen", "Seasonal plantation")) assertTrue("$fact in $text", text.any { fact in it })
+        rule.onNode(androidx.compose.ui.test.hasContentDescription("Read from the notes")).performClick()
+        rule.waitForIdle()
+        rule.mainClock.advanceTimeBy(1500)
+        rule.waitForIdle()
+        rule.onNodeWithText("Key points for this MCQ").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/complete/15_key_points.png")
+        rule.onNodeWithText("Show the whole page ›").performClick()
+        rule.waitForIdle()
+        rule.onNodeWithText("‹ Key points").assertExists()
+    }
+
         @Test fun pagesWithNothingForTheMcqsAreHiddenAndCountAsRead() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
         repo.mcqNotes = true

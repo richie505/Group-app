@@ -963,6 +963,39 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
             }
             val (row, order) = f
             val pages = order.sorted()
+            // first: only the key points of this MCQ (its facts' lines, from any page of the topic); the whole page on request
+            val keys = remember(q.id) { com.appsc.prep.data.NotesFinder.keyPoints(q, row, order.first()) }
+            var whole by remember(q.id) { mutableStateOf(keys.isEmpty()) }
+            if (!whole) {
+                Column(Modifier.weight(1f).fillMaxWidth().verticalScroll(androidx.compose.foundation.rememberScrollState()).padding(horizontal = 20.dp, vertical = 14.dp)) {
+                    Text(row.title.uppercase(), style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.6.sp))
+                    Text(
+                        "Key points for this MCQ",
+                        style = TextStyle(fontSize = 18.sp, lineHeight = 24.sp, fontWeight = FontWeight.Bold, color = C.Ink),
+                        modifier = Modifier.padding(top = 4.dp, bottom = 6.dp),
+                    )
+                    var lastSec = -1
+                    keys.forEach { (si, bi) ->
+                        if (si != lastSec) {
+                            Text(
+                                row.secs[si].title,
+                                style = TextStyle(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = C.Muted),
+                                modifier = Modifier.padding(top = 10.dp, bottom = 2.dp),
+                            )
+                            lastSec = si
+                        }
+                        row.secs[si].blocks.getOrNull(bi)?.let { blk ->
+                            Box(Modifier.fillMaxWidth().background(Color(0xFFFFF4C2), RoundedCornerShape(6.dp)).padding(horizontal = 4.dp)) {
+                                com.appsc.prep.ui.components.BlockView(blk, 0.95f)
+                            }
+                            Spacer(Modifier.height(4.dp))
+                        }
+                    }
+                }
+                androidx.compose.material3.HorizontalDivider(color = C.Line)
+                TextButton(onClick = { whole = true }, modifier = Modifier.fillMaxWidth().padding(8.dp)) { Text("Show the whole page ›") }
+                return@Column
+            }
             var at by remember(q.id) { mutableIntStateOf(order.first()) }
             val sec = row.secs[at]
             val scroll = androidx.compose.foundation.rememberScrollState()
@@ -986,14 +1019,15 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
             androidx.compose.material3.HorizontalDivider(color = C.Line)
             val i = pages.indexOf(at)
             Row(Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-                TextButton(onClick = { at = pages[i - 1] }, enabled = i > 0) { Text("‹ Previous page") }
+                if (keys.isNotEmpty()) TextButton(onClick = { whole = false }) { Text("‹ Key points") }
+                TextButton(onClick = { at = pages[i - 1] }, enabled = i > 0) { Text("‹ Previous") }
                 Text(
                     "${i + 1} of ${pages.size}",
                     style = TextStyle(fontSize = 13.sp, color = C.Muted),
                     modifier = Modifier.weight(1f),
                     textAlign = androidx.compose.ui.text.style.TextAlign.Center,
                 )
-                TextButton(onClick = { at = pages[i + 1] }, enabled = i < pages.lastIndex) { Text("Next page ›") }
+                TextButton(onClick = { at = pages[i + 1] }, enabled = i < pages.lastIndex) { Text("Next ›") }
             }
         }
     }
