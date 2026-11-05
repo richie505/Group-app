@@ -200,7 +200,8 @@ fun TopBar(
             }
             Text(
                 title,
-                style = MaterialThemeTitle,
+                // a long title next to the quiz's four buttons: smaller, so it fits
+                style = if (title.length > 13) MaterialThemeTitle.copy(fontSize = 17.sp) else MaterialThemeTitle,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
                 modifier = Modifier.weight(1f).padding(start = 4.dp),

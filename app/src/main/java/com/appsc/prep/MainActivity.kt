@@ -77,7 +77,11 @@ class MainActivity : ComponentActivity() {
             AndroidPlatform(applicationContext),
         )
         app.repo.mcqNotes = app.store.mcqNotes // APPSC Complete: the MCQ notes, or the full notes
-        lifecycleScope.launch(kotlinx.coroutines.Dispatchers.IO) { app.store.skip = app.repo.emptyPages(app.store.mcqNotes) }
+        lifecycleScope.launch {
+            val mcq = app.store.mcqNotes
+            // read off the main thread, set on it (the lists observe it)
+            app.store.skip = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) { app.repo.emptyPages(mcq) }
+        }
         // the notes and the dictionary read in the background once the first screen is up: a Meaning lookup is then quick
         lifecycleScope.launch {
             kotlinx.coroutines.delay(800)

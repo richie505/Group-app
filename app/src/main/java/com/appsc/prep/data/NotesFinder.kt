@@ -46,12 +46,19 @@ object NotesFinder {
         val df: Map<String, Int>,
         /** page title -> its pages */
         val byTitle: Map<String, List<Pair<Int, Int>>>,
+        val book: Book,
     )
 
     private val indexes = java.util.concurrent.ConcurrentHashMap<Int, Index>()
     private val found = java.util.concurrent.ConcurrentHashMap<String, Place>()
 
-    private fun index(book: Book): Index = indexes.getOrPut(book.id) {
+    private fun index(book: Book): Index {
+        // another copy of the book (the notes were switched, or reloaded): its pages differ, so start afresh
+        indexes[book.id]?.let { if (it.book !== book) clear() }
+        return indexes.getOrPut(book.id) { build(book) }
+    }
+
+    private fun build(book: Book): Index = run {
         val pages = book.rows.flatMapIndexed { ri, r -> r.secs.mapIndexed { si, s -> Triple(ri, si, words(s.title + " " + text(s.blocks))) } }
         val df = HashMap<String, Int>()
         for ((_, _, w) in pages) for (x in w) df[x] = (df[x] ?: 0) + 1
@@ -61,7 +68,7 @@ object NotesFinder {
                 byTitle.getOrPut(sec.title.trim()) { mutableListOf() } += ri to si
             }
         }
-        Index(pages, df, byTitle)
+        Index(pages, df, byTitle, book)
     }
 
     /** Forgets every index (the notes were switched). */
@@ -76,8 +83,8 @@ object NotesFinder {
     }
 
     fun best(q: Question, book: Book, filedRow: Int): Place? {
+        val ix = index(book) // first: a switched book clears what was found in the other
         found[q.id + "|" + q.answer]?.let { return it }
-        val ix = index(book)
         // a current-affairs MCQ names its notes page: "... [September 2025 · India's first Centralised Advanced Smart Kitchen — Kadapa]"
         val named = q.notes.mapNotNull { TAG.find(it)?.groupValues?.get(1)?.trim() }.flatMap { ix.byTitle[it].orEmpty() }.toSet()
         val facts = q.notes.map { it.replace(TAG, "") }
@@ -98,6 +105,36 @@ object NotesFinder {
         }.maxByOrNull { it.score }?.takeIf { it.score > 0 }?.also { found[q.id + "|" + q.answer] = it }
     }
 
+    private val NUMBERED = Regex("""^\s*(\d)\.\s+(.+)$""")
+    private val WHY = Regex("""^Statement (\d):\s*(.+)$""")
+
+    /**
+     * A "Consider the following statements" MCQ: each statement's own line (with its explanation, which gives the
+     * right fact of a wrong statement), so all three facts are marked, not just the ones the option code points at.
+     * Null when the MCQ has no numbered statements.
+     */
+    fun statementMarks(q: Question, blocks: List<Block>): Set<Int>? {
+        val st = q.stem.lines().mapNotNull { NUMBERED.matchEntire(it)?.let { m -> m.groupValues[1] to m.groupValues[2] } }
+        if (st.size < 2) return null
+        val why = q.explanation.lines().mapNotNull { WHY.matchEntire(it.trim())?.let { m -> m.groupValues[1] to m.groupValues[2] } }.toMap()
+        val bw = blocks.map { words(text(listOf(it))) }
+        val out = mutableSetOf<Int>()
+        for ((n, s) in st) {
+            val ws = words(s)
+            val w = ws + words(why[n].orEmpty().replace(Regex("^(Correct|Incorrect):", RegexOption.IGNORE_CASE), ""))
+            if (w.isEmpty()) continue
+            // the statement's own words count double (its explanation adds the right fact of a wrong one);
+            // a short line beats a long one that shares as many
+            val best = bw.indices.map { i ->
+                val c = bw[i].count { it in w }
+                i to (c to (c + bw[i].count { it in ws }) / Math.pow(bw[i].size.coerceAtLeast(1).toDouble(), 0.3))
+            }.filter { (_, s2) -> s2.first >= 3 || s2.first * 2 >= w.size.coerceAtMost(6) }
+                .maxByOrNull { it.second.second } ?: continue
+            out += best.first
+        }
+        return out
+    }
+
     /** Whether a block holds the answer (most of its words): such lines are marked. */
     fun marks(blk: Block, answer: Set<String>): Boolean =
         answer.isNotEmpty() && words(text(listOf(blk))).let { w -> answer.count { it in w } * 2 >= answer.size }
@@ -107,6 +144,7 @@ object NotesFinder {
      * no line holds it, the two blocks that share the most of the question's words.
      */
     fun marked(q: Question, blocks: List<Block>): Set<Int> {
+        statementMarks(q, blocks)?.let { return it }
         val ans = answerWords(q)
         val byAnswer = blocks.indices.filter { marks(blocks[it], ans) }.toSet()
         if (byAnswer.isNotEmpty()) return byAnswer

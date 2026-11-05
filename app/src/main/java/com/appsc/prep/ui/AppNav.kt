@@ -121,7 +121,7 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
             val src = QuizSource(a.getString("k")!!, a.getInt("b"), a.getInt("i"), a.getInt("s"))
             val title = when (src.kind) {
                 "day" -> "Day ${src.index} MCQs"
-                "sub" -> if (src.sub < 0) "Other section MCQs" else "Subsection MCQs"
+                "sub" -> if (src.sub < 0) "Other MCQs" else "Subsection MCQs"
                 "row" -> "Section MCQs"
                 "need" -> "MCQs to practise"
                 "due" -> if (src.index == 0) "Due MCQs" else "Day ${src.index}: due MCQs"

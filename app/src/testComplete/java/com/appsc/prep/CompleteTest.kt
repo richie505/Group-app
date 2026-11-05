@@ -96,6 +96,32 @@ class CompleteTest {
         assertTrue("hit $hit of $tried", hit >= tried * 0.85)
     }
 
+    /** A 3-statement MCQ marks the line of each statement, not only those its option code points at. */
+    @Test fun everyStatementIsMarkedInTheNotes() = runBlocking {
+        val repo = Repository { ctx.assets.open(it) }
+        repo.mcqNotes = true
+        val m = repo.mcq(4)
+        val q = m.rows.values.flatten().first { "Seasonal plantation" in it.stem }
+        val book = repo.book(4)
+        val at = com.appsc.prep.data.NotesFinder.best(q, book, m.placeOf(q.id)!!.first)!!
+        val blocks = book.rows[at.row].secs[at.sec].blocks
+        val marked = com.appsc.prep.data.NotesFinder.marked(q, blocks).map { com.appsc.prep.data.NotesFinder.text(listOf(blocks[it])) }
+        println(marked)
+        for (fact in listOf("abiotic", "hydrogen", "Seasonal plantation")) assertTrue("$fact marked: $marked", marked.any { fact in it })
+        // across the bank: most statements of the statement MCQs find their line on the page shown
+        var stmts = 0; var hit = 0
+        for (b in 1..6) {
+            val bk = repo.book(b); val mq = repo.mcq(b)
+            mq.rows.values.flatten().filter { it.id.startsWith("m") }.take(150).forEach { x ->
+                val p = com.appsc.prep.data.NotesFinder.best(x, bk, mq.placeOf(x.id)?.first ?: -1) ?: return@forEach
+                stmts += 3
+                hit += com.appsc.prep.data.NotesFinder.statementMarks(x, bk.rows[p.row].secs[p.sec].blocks)?.size ?: 0
+            }
+        }
+        println("statement lines marked: $hit of $stmts")
+        assertTrue("$hit of $stmts", hit * 10 >= stmts * 7)
+    }
+
     @Test fun pagesWithNothingForTheMcqsAreHiddenAndCountAsRead() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
         repo.mcqNotes = true

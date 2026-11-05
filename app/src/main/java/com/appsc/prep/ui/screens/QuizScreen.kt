@@ -956,7 +956,8 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
                 // the page that holds the answer's fact (anywhere in the subject), then the rest of its topic
                 val at = com.appsc.prep.data.NotesFinder.best(q, book, filed) ?: return@withContext null
                 val r = book.rows[at.row]
-                r to (listOf(at.sec) + r.secs.indices.filter { it != at.sec })
+                // pages with nothing for the MCQs are hidden in the notes, so here too
+                r to (listOf(at.sec) + r.secs.indices.filter { it != at.sec && !r.secs[it].empty })
             }
         }.getOrNull()
     }
