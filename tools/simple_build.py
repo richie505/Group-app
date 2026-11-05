@@ -89,6 +89,13 @@ def check(n):
           + (f" (first missing {missing[:3]})" if missing else ""))
 
 
+# facts corrected by hand (not by the writers, who keep every fact): line id -> the corrected line
+FIXES = {
+    # Babur is buried in Kabul; Humayun's Tomb is in Delhi (the PYQ's key was wrong)
+    "L1:128:8:4": "**★ **Mughal emperor with no mausoleum in India — **Babur** (buried in Kabul)",
+}
+
+
 def build():
     new, kept, failed = {}, collections.Counter(), collections.Counter()
     n = 0
@@ -103,6 +110,7 @@ def build():
             else:
                 new[i] = t
         n += 1
+    new.update(FIXES)
     os.makedirs(DST, exist_ok=True)
     total = changed = w0 = w1 = 0
     for b in range(1, 7):
