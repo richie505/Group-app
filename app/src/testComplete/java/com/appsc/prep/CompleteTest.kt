@@ -135,15 +135,17 @@ class CompleteTest {
         show("3_group2_constitution") { ExamSubjectScreen(1, s, nav) }
     }
 
-    /** Every topic is its one-pager (tools/onepager_app.py): a subsection per box, the exam corner last. */
+    /** Every topic is its one-pager (tools/onepager_app.py): a subsection per box, then its full notes, one list. */
     @Test fun aSubsectionPerBox() {
         val repo = Repository { ctx.assets.open(it) }
         for (b in 1..6) {
             val book = runBlocking { repo.book(b) }
             val mcq = runBlocking { repo.mcq(b) }
             for (row in book.rows) {
-                assertTrue("book $b row ${row.index}: a subsection per box", row.secs.count { !it.full } in 5..11)
-                assertTrue("book $b row ${row.index}: then the full notes", row.secs.any { it.full })
+                // the boxes, then the topic's full-notes pages, as one list (none marked apart)
+                assertTrue("book $b row ${row.index}: a subsection per box, then the full notes", row.secs.size >= 6)
+                assertTrue("book $b row ${row.index}: one list", row.secs.none { it.full || "Full notes" in it.badges })
+                assertEquals("book $b row ${row.index}: counted in full", row.secs.size, repo.index[b - 1].rows[row.index].subsectionCount)
                 assertTrue("book $b row ${row.index}: MCQs under its boxes", mcq.subs[row.index].orEmpty().all { it in -1 until row.secs.size })
             }
         }

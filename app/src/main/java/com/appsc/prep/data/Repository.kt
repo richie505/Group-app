@@ -351,7 +351,7 @@ class Repository(private val open: (String) -> InputStream) {
                 val secs = r.jsonObject["secs"]!!.jsonArray.map { s ->
                     Subsection(
                         title = s.str("t"),
-                        badges = s.strList("badges"),
+                        badges = s.strList("badges").let { b -> if (hasMcqNotes) b - "Full notes" else b },
                         page = s.intOr("p"),
                         blocks = s.jsonObject["b"]!!.jsonArray.map { b -> parseBlock(b.jsonObject) }.let { plain ->
                             // full forms are extras: if they fail on a phone, show the page without them
@@ -365,7 +365,8 @@ class Repository(private val open: (String) -> InputStream) {
                         universal = s.jsonObject.containsKey("u"),
                         coveredIn = (s.jsonObject["cov"] as? JsonArray)?.map { c -> c.jsonArray.map { it.jsonPrimitive.int } } ?: emptyList(),
                         map = (s.jsonObject["m"] as? JsonArray)?.map { mapNode(it.jsonObject) } ?: emptyList(),
-                        full = s.jsonObject.containsKey("f"),
+                        // APPSC Complete: a topic's boxes and its full-notes pages are one list of subsections
+                        full = s.jsonObject.containsKey("f") && !hasMcqNotes,
                         empty = s.jsonObject["b"]!!.jsonArray.let { b ->
                             b.size == 1 && b[0].jsonObject["k"]?.jsonPrimitive?.content == "n" &&
                                 (b[0].jsonObject["x"] as? JsonArray)?.firstOrNull()?.jsonArray?.firstOrNull()?.jsonPrimitive?.content?.startsWith("No MCQ") == true
