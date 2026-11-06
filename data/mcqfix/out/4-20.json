@@ -385,7 +385,7 @@
    "sec": 5,
    "angle": "14",
    "shape": "one-liner",
-   "s": "A sex ratio at birth of 930 for 2023-24 is reported by which data source?",
+   "s": "A sex ratio at birth of 930 for 2023-24 is reported by which data series?",
    "o": [
     "Civil Registration System",
     "Sample Registration System",
@@ -968,17 +968,17 @@
   {
    "topic": 61,
    "sec": 7,
-   "angle": "11",
-   "shape": "one-liner",
-   "s": "India's first fully literate town (1989) was:",
+   "angle": "11,1",
+   "shape": "statements",
+   "s": "Consider the following statements about literacy firsts in Kerala:\n1. Kottayam was the first fully literate town (1989).\n2. Ernakulam was the first totally literate district (1990).\n3. Velland was the first fully literate district.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Ernakulam",
-    "Kottayam",
-    "Velland",
-    "Thiruvananthapuram"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 1,
-   "x": "Kottayam was the first fully literate town (1989); Ernakulam was the first totally literate district (1990)."
+   "a": 0,
+   "x": "Kottayam (town, 1989) and Ernakulam (district, 1990) are correct; Velland is India's first fully computer-literate panchayat, not a district."
   },
   {
    "topic": 61,
@@ -1018,11 +1018,11 @@
    "s": "The first Union Territory declared fully literate under ULLAS (2024) was:",
    "o": [
     "Lakshadweep",
-    "Puducherry",
     "Ladakh",
+    "Puducherry",
     "Chandigarh"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Ladakh was the first fully literate UT (2024); Mizoram was the first State (2025)."
   },
   {
@@ -1034,10 +1034,10 @@
    "o": [
     "Goa",
     "Tripura",
-    "Himachal Pradesh",
-    "Uttarakhand"
+    "Uttarakhand",
+    "Himachal Pradesh"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Uttarakhand became 6th in July 2026 with 98%+, after Mizoram, Goa, Tripura, Himachal Pradesh and Sikkim."
   },
   {
@@ -1047,12 +1047,12 @@
    "shape": "one-liner",
    "s": "ULLAS runs for the period:",
    "o": [
-    "FY 2022-23 to 2026-27",
     "FY 2021-22 to 2025-26",
     "FY 2009-10 to 2011-12",
-    "FY 2020-21 to 2024-25"
+    "FY 2020-21 to 2024-25",
+    "FY 2022-23 to 2026-27"
    ],
-   "a": 0,
+   "a": 3,
    "x": "ULLAS (2022) covers FY 2022-23 to 2026-27."
   },
   {
@@ -1062,12 +1062,12 @@
    "shape": "one-liner",
    "s": "Samagra Shiksha (2018) subsumed which schemes?",
    "o": [
-    "SSA, Operation Blackboard and NAEP",
     "SSA, RMSA and Teacher Education",
+    "SSA, Operation Blackboard and NAEP",
     "RMSA, Saakshar Bharat and NIPUN Bharat",
     "SSA, NLM and ULLAS"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Samagra Shiksha covers pre-school to Class 12 and subsumes SSA, RMSA and Teacher Education."
   },
   {
@@ -1078,11 +1078,11 @@
    "s": "NEP 2020 replaced the National Policy on Education, 1986 after how many years?",
    "o": [
     "30",
-    "24",
     "34",
+    "24",
     "36"
    ],
-   "a": 2,
+   "a": 1,
    "x": "NEP 2020 replaced NPE 1986 after 34 years."
   },
   {
@@ -1094,10 +1094,10 @@
    "o": [
     "Seven",
     "Ten",
-    "Twelve",
-    "Nine"
+    "Nine",
+    "Twelve"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Nadu-Nedu provides nine facilities, including toilets, drinking water, furniture and English labs."
   },
   {
@@ -1107,12 +1107,12 @@
    "shape": "one-liner",
    "s": "As per UDISE+ 2024-25, the dropout rate at the secondary level was:",
    "o": [
-    "8.2%",
     "10.9%",
     "3.5%",
-    "2.3%"
+    "2.3%",
+    "8.2%"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Secondary dropout fell to 8.2% from 10.9%; 3.5% and 2.3% are the middle and preparatory rates."
   },
   {
@@ -1122,12 +1122,12 @@
    "shape": "one-liner",
    "s": "As per AISHE 2023-24, the female GER in higher education was:",
    "o": [
-    "30.2",
     "31.2",
+    "30.2",
     "28.5",
     "27.0"
    ],
-   "a": 1,
+   "a": 0,
    "x": "AISHE 2023-24 gives female GER 31.2 with GPI 1.08; overall GER was about 30."
   },
   {
@@ -1138,11 +1138,11 @@
    "s": "As per NFHS-5, the share of women with 10 or more years of schooling was:",
    "o": [
     "35.7%",
-    "71.5%",
     "41%",
+    "71.5%",
     "31.2%"
    ],
-   "a": 2,
+   "a": 1,
    "x": "NFHS-5 shows 41% (NFHS-4: 35.7%); 71.5% is women's literacy."
   },
   {
@@ -1154,10 +1154,10 @@
    "o": [
     "1966",
     "1965",
-    "1970",
-    "1967"
+    "1967",
+    "1970"
    ],
-   "a": 3,
+   "a": 2,
    "x": "UNESCO declared it in 1966 and it was first observed in 1967."
   },
   {
@@ -1167,12 +1167,12 @@
    "shape": "one-liner",
    "s": "In the Census, a marginal worker is one who worked for:",
    "o": [
-    "Less than 183 days",
     "Less than 180 days",
     "Less than 90 days",
-    "Less than 30 days"
+    "Less than 30 days",
+    "Less than 183 days"
    ],
-   "a": 0,
+   "a": 3,
    "x": "A marginal worker worked less than 183 days in the reference year; 183+ days makes a main worker."
   },
   {
@@ -1182,12 +1182,12 @@
    "shape": "one-liner",
    "s": "In the Census, a person working on another's land for wages is classified as a(n):",
    "o": [
-    "Cultivator",
     "Agricultural labourer",
+    "Cultivator",
     "Household industry worker",
     "Other worker"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Agricultural labourers work on another's land for wages; cultivators work own or leased land."
   },
   {
@@ -1198,11 +1198,11 @@
    "s": "In the Census, a person cultivating leased land is classified as a(n):",
    "o": [
     "Agricultural labourer",
-    "Household industry worker",
     "Cultivator",
+    "Household industry worker",
     "Other worker"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Cultivators work on own or leased land."
   },
   {
@@ -1214,10 +1214,10 @@
    "o": [
     "500 per sq km",
     "300 per sq km",
-    "1,000 per sq km",
-    "400 per sq km"
+    "400 per sq km",
+    "1,000 per sq km"
    ],
-   "a": 3,
+   "a": 2,
    "x": "A Census Town needs 5,000+ population, 75%+ male main workers non-farm and 400+ per sq km."
   },
   {
@@ -1242,12 +1242,12 @@
    "shape": "one-liner",
    "s": "In Census 2011, the male and female Work Participation Rates of India were, respectively:",
    "o": [
-    "53.3% and 25.5%",
     "25.5% and 53.3%",
     "53.3% and 39.8%",
-    "47.5% and 35.8%"
+    "47.5% and 35.8%",
+    "53.3% and 25.5%"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Male WPR was 53.3% and female 25.5%; 39.8% was the overall WPR."
   },
   {
@@ -1257,12 +1257,12 @@
    "shape": "one-liner",
    "s": "In Census 2001, cultivators and agricultural labourers formed, respectively, what share of India's workers?",
    "o": [
-    "24.6% and 30.0%",
     "31.7% and 26.5%",
+    "24.6% and 30.0%",
     "26.5% and 31.7%",
     "30.0% and 24.6%"
    ],
-   "a": 1,
+   "a": 0,
    "x": "In 2001 cultivators (31.7%) exceeded labourers (26.5%); in 2011 it reversed (24.6% vs 30.0%)."
   },
   {
@@ -1273,11 +1273,11 @@
    "s": "In 2011-12, services employed about ____ of India's workers.",
    "o": [
     "36.7%",
-    "48.9%",
     "27%",
+    "48.9%",
     "41.6%"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Services employed about 27% in 2011-12; the 36.7% claim is not true (APPSC-G2 2017)."
   },
   {
@@ -1289,10 +1289,10 @@
    "o": [
     "40%",
     "50%",
-    "75%",
-    "60%"
+    "60%",
+    "75%"
    ],
-   "a": 3,
+   "a": 2,
    "x": "With WPR at 39.8%, about 60% of the population were non-workers."
   },
   {
@@ -1302,12 +1302,12 @@
    "shape": "one-liner",
    "s": "Census 2011 counted India's total workers as:",
    "o": [
-    "4,818.89 lakh",
     "4,018.89 lakh",
     "5,818.89 lakh",
-    "3,818.89 lakh"
+    "3,818.89 lakh",
+    "4,818.89 lakh"
    ],
-   "a": 0,
+   "a": 3,
    "x": "India had 4,818.89 lakh workers in 2011: 75.2% main and 24.8% marginal."
   },
   {
@@ -1317,12 +1317,12 @@
    "shape": "one-liner",
    "s": "Which group of States/UTs has a high share of 'other workers'?",
    "o": [
-    "Himachal Pradesh and Nagaland",
     "Delhi, Chandigarh and Puducherry",
+    "Himachal Pradesh and Nagaland",
     "Bihar, Chhattisgarh and Odisha",
     "Jharkhand, West Bengal and Madhya Pradesh"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Delhi, Chandigarh and Puducherry have high other workers; Himachal and Nagaland have high cultivators."
   },
   {
@@ -1333,11 +1333,11 @@
    "s": "By Census 2011 pattern, Andhra Pradesh belongs to the group of States with a high share of:",
    "o": [
     "Cultivators",
-    "Other workers",
     "Agricultural labourers",
+    "Other workers",
     "Household industry workers"
    ],
-   "a": 2,
+   "a": 1,
    "x": "AP is among the States with high agricultural labourers, with Bihar, Chhattisgarh and Odisha."
   },
   {
@@ -1349,10 +1349,10 @@
    "o": [
     "Total population",
     "Employed persons",
-    "Working-age population",
-    "Labour force"
+    "Labour force",
+    "Working-age population"
    ],
-   "a": 3,
+   "a": 2,
    "x": "UR = unemployed / labour force; WPR uses total population as the denominator."
   },
   {
@@ -1362,12 +1362,12 @@
    "shape": "one-liner",
    "s": "In PLFS, the Labour Force Participation Rate is:",
    "o": [
-    "(Employed + unemployed) / population x 100",
     "Employed / population x 100",
     "Unemployed / labour force x 100",
-    "Employed / labour force x 100"
+    "Employed / labour force x 100",
+    "(Employed + unemployed) / population x 100"
    ],
-   "a": 0,
+   "a": 3,
    "x": "LFPR counts employed plus unemployed against population; employed / population is WPR."
   },
   {
@@ -1377,12 +1377,12 @@
    "shape": "one-liner",
    "s": "According to the Claudia Goldin U-curve, India was on the falling half of female labour participation till:",
    "o": [
-    "2017-18",
     "2018-19",
+    "2017-18",
     "2022-23",
     "2011-12"
    ],
-   "a": 1,
+   "a": 0,
    "x": "India was on the falling half of the U-curve till 2018-19."
   },
   {
@@ -1393,11 +1393,11 @@
    "s": "In Q2 of FY 2025-26, self-employment accounted for about ____ of total employment.",
    "o": [
     "42.4%",
-    "18.9%",
     "55.8%",
+    "18.9%",
     "59%"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Self-employment was 55.8%; agriculture 42.4% and casual labour 18.9%."
   },
   {
@@ -1409,10 +1409,10 @@
    "o": [
     "23.3%",
     "30%",
-    "40%",
-    "37%"
+    "37%",
+    "40%"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Female LFPR rose from 23.3% (2017-18) to 30% (2019-20), 37% (2022-23) and about 40% (2025)."
   },
   {
@@ -1422,12 +1422,12 @@
    "shape": "one-liner",
    "s": "In Census 2011, women held only about ____ of operational holdings.",
    "o": [
-    "12.8%",
     "24%",
     "55%",
-    "25.5%"
+    "25.5%",
+    "12.8%"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Women held only 12.8% of holdings, though they were 55% of agricultural labourers."
   },
   {
@@ -1452,12 +1452,12 @@
    "shape": "one-liner",
    "s": "Which district of Andhra Pradesh had the highest share of cultivators (APPSC-G2 2017)?",
    "o": [
-    "West Godavari",
     "Chittoor",
+    "West Godavari",
     "Kurnool",
     "East Godavari"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Chittoor had the highest share of cultivators; West Godavari had the highest agricultural labourers."
   },
   {
@@ -1468,11 +1468,11 @@
    "s": "Which district of Andhra Pradesh had the highest share of agricultural labourers?",
    "o": [
     "Chittoor",
-    "East Godavari",
     "West Godavari",
+    "East Godavari",
     "Guntur"
    ],
-   "a": 2,
+   "a": 1,
    "x": "West Godavari had the highest share of agricultural labourers; Chittoor had the most cultivators."
   },
   {
@@ -1484,10 +1484,10 @@
    "o": [
     "47.5%",
     "43.7%",
-    "46.6%",
-    "45.6%"
+    "45.6%",
+    "46.6%"
    ],
-   "a": 3,
+   "a": 2,
    "x": "AP's WPR was 45.6% (LFPR 47.5%); India's WPR was 43.7%."
   },
   {
@@ -1497,12 +1497,12 @@
    "shape": "one-liner",
    "s": "In Census 2011, cultivators formed about ____ of Andhra Pradesh's workers.",
    "o": [
-    "14.5%",
     "47.9%",
     "34.8%",
-    "24.6%"
+    "24.6%",
+    "14.5%"
    ],
-   "a": 0,
+   "a": 3,
    "x": "AP's cultivators were 14.5%; agricultural labourers 47.9% and other workers 34.8%."
   },
   {
@@ -1512,12 +1512,12 @@
    "shape": "one-liner",
    "s": "Andhra Pradesh's main agricultural labourers make up nearly ____ of India's main agricultural labourers.",
    "o": [
-    "1 in 5",
     "1 in 10",
+    "1 in 5",
     "1 in 20",
     "1 in 4"
    ],
-   "a": 1,
+   "a": 0,
    "x": "AP's 86.12 lakh main agricultural labourers are nearly 1 in 10 of India's."
   },
   {
@@ -1528,11 +1528,11 @@
    "s": "e-Shram, the database of unorganised workers, was launched on:",
    "o": [
     "15 August 2021",
-    "26 August 2020",
     "26 August 2021",
+    "26 August 2020",
     "2 February 2006"
    ],
-   "a": 2,
+   "a": 1,
    "x": "e-Shram was launched on 26 August 2021; 2 February 2006 was MGNREGA's launch."
   },
   {
@@ -1544,10 +1544,10 @@
    "o": [
     "10 digits",
     "14 digits",
-    "16 digits",
-    "12 digits"
+    "12 digits",
+    "16 digits"
    ],
-   "a": 3,
+   "a": 2,
    "x": "e-Shram gives a 12-digit UAN; 31.89 crore were registered by 18 August 2026."
   },
   {
@@ -1557,12 +1557,12 @@
    "shape": "one-liner",
    "s": "The nodal agency for PMEGP is:",
    "o": [
-    "KVIC",
     "NABARD",
     "SIDBI",
-    "NSIC"
+    "NSIC",
+    "KVIC"
    ],
-   "a": 0,
+   "a": 3,
    "x": "PMEGP's nodal agency is KVIC, not NABARD."
   },
   {
@@ -1572,12 +1572,12 @@
    "shape": "one-liner",
    "s": "The VB-G RAM G Act, 2025, which replaced MGNREGA from 1 July 2026, guarantees:",
    "o": [
-    "100 days of work",
     "125 days of work",
+    "100 days of work",
     "150 days of work",
     "120 days of work"
    ],
-   "a": 1,
+   "a": 0,
    "x": "VB-G RAM G guarantees 125 days, up from MGNREGA's 100 days."
   },
   {
