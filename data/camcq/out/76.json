@@ -1,0 +1,528 @@
+[
+ {
+  "item": 1,
+  "shape": "one-liner",
+  "s": "Mount Kanlaon, which erupted on 16 October 2026, is located on which island of the Philippines?",
+  "o": [
+   "Luzon",
+   "Negros Island",
+   "Mindanao",
+   "Palawan"
+  ],
+  "a": 1,
+  "x": "Mount Kanlaon is an active stratovolcano on Negros Island in the Visayas, part of the Pacific Ring of Fire."
+ },
+ {
+  "item": [
+   1,
+   19
+  ],
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. Mount Kanlaon is an active stratovolcano on Negros Island in the Visayas.\n2. Mayon Volcano, which erupted on 1 November 2026, is located in Albay on Mindanao.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Mayon Volcano is in Albay on Luzon, not Mindanao."
+ },
+ {
+  "item": [
+   1,
+   12,
+   19
+  ],
+  "shape": "sequence",
+  "s": "Arrange the following events of 2026 in chronological order:\n1. Eruption of Mount Kanlaon, Philippines\n2. M6.5 earthquake in the Bonin (Ogasawara) Islands, Japan\n3. Eruption of Mayon Volcano, Philippines\nSelect the correct answer using the code given below:",
+  "o": [
+   "2-1-3",
+   "1-3-2",
+   "1-2-3",
+   "3-1-2"
+  ],
+  "a": 2,
+  "x": "Mount Kanlaon erupted on 16 October 2026, the Bonin Islands earthquake struck on 26 October 2026 and Mayon erupted on 1 November 2026."
+ },
+ {
+  "item": 2,
+  "shape": "one-liner",
+  "s": "Tuvalu, threatened by sea-level rise, has which city as its capital?",
+  "o": [
+   "Majuro",
+   "Tarawa",
+   "Apia",
+   "Funafuti"
+  ],
+  "a": 3,
+  "x": "Funafuti is the capital of Tuvalu, a country of about 26 sq km."
+ },
+ {
+  "item": 2,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. Tuvalu was formerly known as the Ellice Islands.\n2. Tuvalu uses the New Zealand Dollar as its currency.\n3. Tuvalu consists of nine islands.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 3 are correct. Tuvalu's currency is the Australian Dollar, not the New Zealand Dollar."
+ },
+ {
+  "item": 3,
+  "shape": "one-liner",
+  "s": "Which city of Turkiye will host COP31 from 9 to 20 November 2026?",
+  "o": [
+   "Antalya",
+   "Istanbul",
+   "Ankara",
+   "Izmir"
+  ],
+  "a": 0,
+  "x": "COP31 will be held at the Expo Center, Antalya, Turkiye, from 9 to 20 November 2026."
+ },
+ {
+  "item": 3,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. COP31 will be held in Turkiye from 9 to 20 November 2026.\n2. Turkiye leads the negotiations at COP31.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Although Turkiye hosts COP31, Australia leads the negotiations."
+ },
+ {
+  "item": [
+   3,
+   23
+  ],
+  "shape": "match",
+  "s": "Which of the following pairs is correctly matched?",
+  "o": [
+   "CBD COP17 – Baku",
+   "CBD COP18 – Quito",
+   "COP31 – Istanbul",
+   "Lead negotiator at COP31 – Turkiye"
+  ],
+  "a": 1,
+  "x": "CBD COP18 will be held in Quito, Ecuador, in 2028. CBD COP17 was in Yerevan, COP31 is in Antalya and Australia leads COP31 negotiations."
+ },
+ {
+  "item": 4,
+  "shape": "one-liner",
+  "s": "With the addition of Sukhna Wetland and Sauj Jheel on 20 October 2026, India's Ramsar sites rose to how many?",
+  "o": [
+   "101",
+   "102",
+   "103",
+   "105"
+  ],
+  "a": 2,
+  "x": "With Sukhna Wetland (Chandigarh) and Sauj Jheel (Uttar Pradesh), India's Ramsar sites rose to 103."
+ },
+ {
+  "item": 4,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. Sukhna Wetland in Chandigarh was added as a Ramsar site in October 2026.\n2. Sauj Jheel, added as a Ramsar site in October 2026, is in Uttarakhand.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Sauj Jheel is in Uttar Pradesh, not Uttarakhand."
+ },
+ {
+  "item": 5,
+  "shape": "one-liner",
+  "s": "Which State launched India's first state-level Red List Assessment of Ecosystems on 20 October 2026?",
+  "o": [
+   "Karnataka",
+   "Kerala",
+   "Tamil Nadu",
+   "Goa"
+  ],
+  "a": 1,
+  "x": "Kerala launched India's first state-level Red List Assessment of Ecosystems through the Kerala State Biodiversity Board."
+ },
+ {
+  "item": 5,
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about Kerala's Red List Assessment of Ecosystems launched in October 2026?",
+  "o": [
+   "It is India's first state-level Red List Assessment of Ecosystems.",
+   "It is being carried out by the Kerala State Biodiversity Board (KSBB).",
+   "It will cover 12 districts of Kerala.",
+   "It is to be completed in one year."
+  ],
+  "a": 2,
+  "x": "The assessment covers all 14 districts of Kerala, not 12."
+ },
+ {
+  "item": 6,
+  "shape": "one-liner",
+  "s": "The Kigali Amendment, which completed 10 years in October 2026, entered into force on which date?",
+  "o": [
+   "15 October 2016",
+   "1 January 2017",
+   "1 January 2020",
+   "1 January 2019"
+  ],
+  "a": 3,
+  "x": "The Kigali Amendment was adopted on 15 October 2016 and entered into force on 1 January 2019."
+ },
+ {
+  "item": 6,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. The Kigali Amendment was adopted on 15 October 2016.\n2. India begins its phase-down under the Kigali Amendment from 2028.\n3. India must achieve an 85% cut by 2047 under the Kigali Amendment.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 3 are correct. India's phase-down begins from 2032, not 2028."
+ },
+ {
+  "item": 7,
+  "shape": "one-liner",
+  "s": "Which organisation launched the Green Diwali campaign under Mission LiFE, running till 8 November 2026?",
+  "o": [
+   "WWF-India",
+   "UNEP",
+   "TERI",
+   "Centre for Science and Environment"
+  ],
+  "a": 0,
+  "x": "WWF-India runs the Green Diwali campaign under Mission LiFE till 8 November 2026."
+ },
+ {
+  "item": 8,
+  "shape": "one-liner",
+  "s": "After three new Rhysida centipede species were found in the Western Ghats in October 2026, India's Rhysida species number how many?",
+  "o": [
+   "20",
+   "21",
+   "26",
+   "23"
+  ],
+  "a": 3,
+  "x": "With the three new species, India now has 23 Rhysida centipede species."
+ },
+ {
+  "item": 8,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. Three new Rhysida centipede species were discovered in the Western Ghats in October 2026.\n2. The discovery was made by the Botanical Survey of India and Malabar Christian College.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. The discovery was made by the Zoological Survey of India (ZSI), not the Botanical Survey of India, with Malabar Christian College."
+ },
+ {
+  "item": 9,
+  "shape": "one-liner",
+  "s": "AATAL, launched on 25 October 2026 by Dr. Jitendra Singh, is the world's first integrated analysis centre for what?",
+  "o": [
+   "Water pollution in the Yamuna basin",
+   "Air pollution in Delhi-NCR",
+   "Noise pollution in Mumbai",
+   "Air pollution in the Kolkata region"
+  ],
+  "a": 1,
+  "x": "AATAL is the world's first integrated air pollution analysis centre for Delhi-NCR."
+ },
+ {
+  "item": 10,
+  "shape": "one-liner",
+  "s": "What is the title of UNEP's 17th Emissions Gap Report released on 25 October 2026?",
+  "o": [
+   "The Point of No Return",
+   "Closing the Gap",
+   "The Point of Return",
+   "Broken Record"
+  ],
+  "a": 2,
+  "x": "UNEP's 17th Emissions Gap Report is titled \"The Point of Return\"."
+ },
+ {
+  "item": 10,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. UNEP's Emissions Gap Report released in October 2026 is its 17th edition.\n2. The report puts global emissions at 58.4 Gt CO2e in 2025.\n3. The report says a 45% cut in emissions is needed by 2030.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 2 are correct. The report says cuts of 18% are needed by 2030; 45% is the cut needed by 2035."
+ },
+ {
+  "item": 11,
+  "shape": "one-liner",
+  "s": "The name of Cyclone Arnab (October 2026, Bay of Bengal), meaning 'ocean/sea', was given by which country?",
+  "o": [
+   "Bangladesh",
+   "Myanmar",
+   "Sri Lanka",
+   "Pakistan"
+  ],
+  "a": 0,
+  "x": "Arnab is a name given by Bangladesh and means 'ocean/sea'."
+ },
+ {
+  "item": 20,
+  "shape": "one-liner",
+  "s": "The cyclone name 'Murasu', proposed by India in November 2026, is a word of which language and means what?",
+  "o": [
+   "Telugu – war drum",
+   "Tamil – ocean",
+   "Malayalam – war drum",
+   "Tamil – war drum"
+  ],
+  "a": 3,
+  "x": "'Murasu' is a Tamil name proposed by India and means war drum."
+ },
+ {
+  "item": [
+   11,
+   20
+  ],
+  "shape": "match",
+  "s": "Which of the following pairs is INCORRECTLY matched?",
+  "o": [
+   "Cyclone Arnab – Bangladesh",
+   "Cyclone Murasu – India",
+   "Murasu – War drum",
+   "Arnab – Mountain"
+  ],
+  "a": 3,
+  "x": "Arnab means 'ocean/sea', not mountain. Arnab was named by Bangladesh and Murasu (war drum) by India."
+ },
+ {
+  "item": 12,
+  "shape": "one-liner",
+  "s": "A magnitude 6.5 earthquake struck the Bonin (Ogasawara) Islands on 26 October 2026. These islands belong to which country?",
+  "o": [
+   "Philippines",
+   "Indonesia",
+   "Japan",
+   "Taiwan"
+  ],
+  "a": 2,
+  "x": "The Bonin (Ogasawara) Islands belong to Japan."
+ },
+ {
+  "item": 13,
+  "shape": "one-liner",
+  "s": "What is the capacity of the Siang Upper Multipurpose Project in Arunachal Pradesh, against which protests took place in October 2026?",
+  "o": [
+   "10,200 MW",
+   "11,200 MW",
+   "11,000 MW",
+   "12,200 MW"
+  ],
+  "a": 1,
+  "x": "The Siang Upper Multipurpose Project is an 11,200 MW project; protests took place at Pasighat."
+ },
+ {
+  "item": 13,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. The Siang Upper Multipurpose Project in Arunachal Pradesh has a capacity of 11,200 MW.\n2. Protests against the Siang Upper Multipurpose Project in October 2026 took place at Tezu.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. The protests took place at Pasighat, not Tezu."
+ },
+ {
+  "item": 14,
+  "shape": "one-liner",
+  "s": "According to IUCN in October 2026, what share of shallow-water coral reef ecosystems is at risk of collapse by 2075?",
+  "o": [
+   "96%",
+   "69%",
+   "86%",
+   "76%"
+  ],
+  "a": 0,
+  "x": "IUCN said 96% of shallow-water coral reef ecosystems are at risk of collapse by 2075."
+ },
+ {
+  "item": [
+   14,
+   15
+  ],
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. IUCN said that 96% of shallow-water coral reef ecosystems are at risk of collapse by 2050.\n2. A UNFCCC report said that full NDCs would cut emissions by only 9% by 2035 compared with 2019.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 1,
+  "x": "Statement 2 is correct. IUCN's warning is about collapse by 2075, not 2050."
+ },
+ {
+  "item": 15,
+  "shape": "one-liner",
+  "s": "A UNFCCC report of 29 October 2026 says full implementation of NDCs would cut emissions by only how much by 2035, compared with 2019?",
+  "o": [
+   "19%",
+   "12%",
+   "15%",
+   "9%"
+  ],
+  "a": 3,
+  "x": "The UNFCCC report says full NDCs would cut emissions only 9% by 2035 compared with 2019."
+ },
+ {
+  "item": 16,
+  "shape": "one-liner",
+  "s": "Osbeckia assamensis, a new plant reported in October 2026, was found in which protected area?",
+  "o": [
+   "Kaziranga National Park",
+   "Nameri National Park",
+   "Manas National Park",
+   "Orang National Park"
+  ],
+  "a": 2,
+  "x": "Osbeckia assamensis was found in Manas National Park and reported in Phytotaxa."
+ },
+ {
+  "item": [
+   16,
+   18
+  ],
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about the new plant species reported in October 2026?",
+  "o": [
+   "Osbeckia assamensis belongs to the family Melastomataceae.",
+   "Osbeckia assamensis was reported in the journal Phytotaxa.",
+   "Ophiorrhiza shidiensis was found in Changlang, Arunachal Pradesh.",
+   "Ophiorrhiza pemae belongs to the family Melastomataceae."
+  ],
+  "a": 3,
+  "x": "Ophiorrhiza pemae belongs to the family Rubiaceae, not Melastomataceae."
+ },
+ {
+  "item": 17,
+  "shape": "one-liner",
+  "s": "How many Conservation Reserves did Maharashtra approve on 31 October 2026, along with new wildlife sanctuaries?",
+  "o": [
+   "12",
+   "14",
+   "16",
+   "10"
+  ],
+  "a": 1,
+  "x": "Maharashtra approved 14 Conservation Reserves along with new wildlife sanctuaries such as Kolamarka and the expanded Tansa."
+ },
+ {
+  "item": 17,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. Maharashtra approved Kolamarka as a new wildlife sanctuary in October 2026.\n2. Maharashtra approved an expanded Tansa wildlife sanctuary in October 2026.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 2,
+  "x": "Both statements are correct: Maharashtra approved Kolamarka and an expanded Tansa among its new wildlife sanctuaries."
+ },
+ {
+  "item": 18,
+  "shape": "one-liner",
+  "s": "Ophiorrhiza shidiensis and Ophiorrhiza pemae were discovered in October 2026 in which district of Arunachal Pradesh?",
+  "o": [
+   "Changlang",
+   "Tawang",
+   "Lohit",
+   "West Kameng"
+  ],
+  "a": 0,
+  "x": "Both species were found in Changlang by BSI and MCC and reported in the journal Taiwania."
+ },
+ {
+  "item": 19,
+  "shape": "one-liner",
+  "s": "Mayon Volcano, which erupted on 1 November 2026, is located in which province of the Philippines?",
+  "o": [
+   "Sorsogon",
+   "Batangas",
+   "Albay",
+   "Pampanga"
+  ],
+  "a": 2,
+  "x": "Mayon Volcano is in Albay on Luzon; Daraga was evacuated and PHIVOLCS monitored the eruption."
+ },
+ {
+  "item": 21,
+  "shape": "one-liner",
+  "s": "Dicharax tilariensis, reported in November 2026 from Tilari in Kolhapur, is a new species of what?",
+  "o": [
+   "Freshwater crab",
+   "Microscopic land snail",
+   "Centipede",
+   "Tree frog"
+  ],
+  "a": 1,
+  "x": "Dicharax tilariensis is a microscopic land snail found at Tilari, Kolhapur."
+ },
+ {
+  "item": 22,
+  "shape": "one-liner",
+  "s": "According to India's report at FAO COFO 28 (2026), what is India's forest and tree cover?",
+  "o": [
+   "82.74 million ha (21.71%)",
+   "80.90 million ha (25.17%)",
+   "78.74 million ha (24.62%)",
+   "82.74 million ha (25.17%)"
+  ],
+  "a": 3,
+  "x": "At COFO 28, India's forest and tree cover was put at 82.74 million ha, or 25.17%."
+ },
+ {
+  "item": 22,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. The 28th session of the FAO Committee on Forestry (COFO 28) was held in Rome from 28 September to 2 October 2026.\n2. India reported its forest and tree cover as 25.17% at COFO 28.\n3. The State of the World's Forests 2026 says 1.65 billion ha of land is degraded.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 2 are correct. The State of the World's Forests 2026 puts degraded land at 1.56 billion ha, not 1.65 billion ha."
+ },
+ {
+  "item": 23,
+  "shape": "one-liner",
+  "s": "Where was the 17th Conference of the Parties (COP17) to the Convention on Biological Diversity held from 19 to 31 October 2026?",
+  "o": [
+   "Baku, Azerbaijan",
+   "Yerevan, Armenia",
+   "Tbilisi, Georgia",
+   "Quito, Ecuador"
+  ],
+  "a": 1,
+  "x": "CBD COP17 was held in Yerevan, Armenia, with the theme \"Taking Action for Nature\"; COP18 will be in Quito, Ecuador, in 2028."
+ }
+]
