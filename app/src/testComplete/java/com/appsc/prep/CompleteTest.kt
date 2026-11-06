@@ -210,7 +210,7 @@ class CompleteTest {
                 assertEquals("book $b row $ri: MCQ count in the index", repo.index[b - 1].rows[ri].questionCount, qs.size)
             }
         }
-        assertEquals(34908, mcqs)
+        assertEquals(35562, mcqs)
         assertEquals(mcqs, repo.planIds.size)
         assertTrue(repo.merged.keys.all { it in repo.planIds })
         val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
@@ -254,8 +254,12 @@ class CompleteTest {
         for (fact in listOf("hydrogen", "Seasonal plantation")) assertTrue("$fact in $text", text.any { it.contains(fact, ignoreCase = true) })
         rule.onNode(androidx.compose.ui.test.hasContentDescription("Read from the notes")).performClick()
         rule.waitForIdle()
-        rule.mainClock.advanceTimeBy(1500)
-        rule.waitForIdle()
+        // the notes page is found in the background: wait for it (slow on a loaded machine)
+        repeat(20) {
+            if (rule.onAllNodes(hasText("Key points for this MCQ")).fetchSemanticsNodes().isEmpty()) {
+                rule.mainClock.advanceTimeBy(1500); rule.waitForIdle(); Thread.sleep(300)
+            }
+        }
         rule.onNodeWithText("Key points for this MCQ").assertExists()
         rule.onRoot().captureRoboImage("screenshots/complete/15_key_points.png")
         rule.onNodeWithText("Show the whole page ›").performClick()
