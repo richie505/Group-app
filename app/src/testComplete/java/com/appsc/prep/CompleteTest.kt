@@ -261,6 +261,20 @@ class CompleteTest {
         rule.onNodeWithText("‹ Key points").assertExists()
     }
 
+        /** A current-affairs one-liner names its page; that page of the MCQ notes holds its facts (not "No MCQs yet"). */
+    @Test fun aCurrentAffairsMcqFindsItsFactsInTheMcqNotes() = runBlocking {
+        val repo = Repository { ctx.assets.open(it) }
+        repo.mcqNotes = true
+        val m = repo.mcq(6)
+        val q = m.rows.values.flatten().first { "EFTA Prosperity" in it.stem }
+        val book = repo.book(6)
+        val at = com.appsc.prep.data.NotesFinder.best(q, book, m.placeOf(q.id)!!.first)!!
+        val page = com.appsc.prep.data.NotesFinder.text(book.rows[at.row].secs[at.sec].blocks)
+        assertTrue(page, "No MCQs on this subsection" !in page && "1960" in page && "Geneva" in page)
+        val keys = com.appsc.prep.data.NotesFinder.keyPoints(q, book.rows[at.row], at.sec)
+        assertTrue("key points found", keys.isNotEmpty())
+    }
+
         @Test fun pagesWithNothingForTheMcqsAreHiddenAndCountAsRead() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
         repo.mcqNotes = true

@@ -91,7 +91,48 @@ def insert():
     return n
 
 
+TAG = re.compile(r"\[[^\]·]*·\s*([^\]]+)\]\s*$")
+
+
+def fill():
+    """A page of the MCQ notes still saying "No MCQs on this subsection yet" while MCQs are filed under it or name it
+    in their note ("[October 2026 · <page title>]", most current-affairs MCQs): its lines from the full notes (kept
+    to what the MCQs test, tools/trim_notes.py) in place of the placeholder."""
+    n = 0
+    for b in range(1, 7):
+        m = json.load(open(f"{A}/mcq{b}.json"))
+        p = f"{N}/book{b}.json"
+        bk = json.load(open(p))
+        rows = [r for u in bk["units"] for r in u["rows"]]
+        full = [r for u in json.load(open(f"{A}/book{b}.json"))["units"] for r in u["rows"]]
+        titles = {}
+        for ri, r in enumerate(rows):
+            for si, sec in enumerate(r["secs"]):
+                titles.setdefault(sec["t"].strip(), []).append((ri, si))
+        want = set()
+        for ri, qs in m["rows"].items():
+            subs = m["subs"].get(ri, [])
+            for k, q in enumerate(qs):
+                if k < len(subs) and subs[k] >= 0:
+                    want.add((int(ri), subs[k]))
+                for note in q.get("n") or []:
+                    t = TAG.search(note)
+                    if t:
+                        want |= set(titles.get(t.group(1).strip(), []))
+        for ri, si in want:
+            sec = rows[ri]["secs"][si]
+            placeholder = len(sec["b"]) == 1 and sec["b"][0].get("k") == "n" and text(sec["b"][0]["x"]).startswith("No MCQ")
+            if placeholder and si < len(full[ri]["secs"]):
+                blocks = [x for x in full[ri]["secs"][si]["b"] if x.get("k") != "n"]
+                if blocks:
+                    sec["b"] = blocks
+                    n += 1
+        open(p, "w").write(json.dumps(bk, ensure_ascii=False, separators=(",", ":")))
+    return n
+
+
 if __name__ == "__main__":
     print("MCQs moved to the page with their fact:", move())
     subprocess.run([sys.executable, "tools/simple_build.py"], check=True)
     print("facts added to the MCQ notes:", insert())
+    print("empty pages filled from the full notes:", fill())
