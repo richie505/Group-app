@@ -1,0 +1,831 @@
+{
+ "restore": [
+  {
+   "id": "cabd7171c6f89f",
+   "why": "ambiguity fixed: Kulasekarapattinam option replaced",
+   "fix": {
+    "o": [
+     "Khoraj",
+     "Thoothukudi",
+     "Sriharikota",
+     "Bengaluru"
+    ],
+    "x": "The Department of Space approved a Space Vehicles Cluster at Thoothukudi (near the Kulasekarapattinam spaceport, TN) and a Space Manufacturing Park at Khoraj near Ahmedabad; IN-SPACe will operationalise both."
+   }
+  },
+  {
+   "id": "ca3961a18dfe78",
+   "why": "other direction: names the mission from its profile; live MCQ gives the mission and asks the profile"
+  },
+  {
+   "id": "cae4e8da7dbb64",
+   "why": "key fixed: INS Shachi is the first NGOPV",
+   "fix": {
+    "o": [
+     "INS Sanghamitra",
+     "INS Mahendragiri",
+     "INS Shachi",
+     "INS Arnala"
+    ],
+    "a": 2,
+    "x": "INS Shachi, commissioned on 31 March 2026 at Goa Shipyard, is the first of 11 Next Generation Offshore Patrol Vessels. INS Sanghamitra (launched 20 May 2026) is the first NGOPV launched by GRSE, Kolkata."
+   }
+  },
+  {
+   "id": "ca72aeb3382477",
+   "why": "notes name Admiral Dinesh K. Tripathi as Navy Chief and DIVEX under MAHASAGAR; current service chief is askable"
+  },
+  {
+   "id": "cac11d45a715f2",
+   "why": "NOT item with new statements (Boisar, AERB restart May 2026, 160 MWe), not a repeat of the direct BWR question"
+  },
+  {
+   "id": "caa9acaf044a46",
+   "why": "trivia hinge (190 vs 191) replaced with a clear false statement on Biopharma Shakti",
+   "fix": {
+    "o": [
+     "The sector is valued at about $65 billion, with a target of $130 billion by 2030",
+     "India's pharmaceutical exports reach 191 countries",
+     "Biopharma Shakti provides ₹1,00,000 crore",
+     "Biopharma Shakti envisages 1,000 accredited clinical trial sites"
+    ],
+    "a": 2,
+    "x": "Biopharma Shakti (Budget 2026) provides ₹10,000 crore, not ₹1,00,000 crore. The sector is worth about $65 billion (target $130 billion by 2030), exports reach 191 countries, and Biopharma Shakti envisages 1,000 accredited clinical trial sites."
+   }
+  },
+  {
+   "id": "caf743f230ccd0",
+   "why": "a 'first' (railway zone pioneering drone inspections), askable"
+  },
+  {
+   "id": "cadca0074e5ff7",
+   "why": "trivia hinge (Rs 186 vs 168 crore) replaced with a clear false statement",
+   "fix": {
+    "o": [
+     "The MPATGM is a third-generation man-portable anti-tank guided missile",
+     "The MAPS UAV is powered by a diesel engine",
+     "The MPATGM was tested at KK Ranges, Ahilyanagar",
+     "The MAPS UAV is the Army's first fully solar-powered UAV"
+    ],
+    "a": 1,
+    "x": "The MAPS UAV is the Army's first fully solar-powered UAV, not diesel-powered. The MPATGM is a third-generation man-portable anti-tank guided missile tested at KK Ranges, Ahilyanagar."
+   }
+  },
+  {
+   "id": "cab6a642ba3818",
+   "why": "different pairs (Digital Sky zones, PLI, engine-powered large UAVs), teaches more than the live NOT item"
+  },
+  {
+   "id": "ca58530de51abb",
+   "why": "trivia hinge (north vs south Kerala) replaced with a clear false option",
+   "fix": {
+    "o": [
+     "The species involved is Geloina erosa.",
+     "ICAR-CMFRI achieved its induced breeding.",
+     "It is called 'Kandal Kakka' in north Kerala.",
+     "It is a coral-reef gastropod."
+    ],
+    "a": 3,
+    "x": "Geloina erosa is a bivalve of mangrove habitats, not a coral-reef gastropod. ICAR-CMFRI achieved its induced breeding; it is called 'Kandal Kakka' in north Kerala."
+   }
+  },
+  {
+   "id": "cac896798274dd",
+   "why": "wording hinge replaced with a clear false statement (launched by the Security Council)",
+   "fix": {
+    "o": [
+     "Its session in Geneva is scheduled for July 2026",
+     "A session in New York is scheduled for 2027",
+     "It was launched by the UN Security Council",
+     "The UN Secretary-General called it a 'pathbreaking milestone'"
+    ],
+    "a": 2,
+    "x": "The Global Dialogue on AI Governance was launched by the UN General Assembly (with the Independent International Scientific Panel on AI), not the Security Council. Sessions are in Geneva (July 2026) and New York (2027); Antonio Guterres called it a 'pathbreaking milestone'."
+   }
+  },
+  {
+   "id": "f407afc5ceea7",
+   "why": "direct question on tubulin as eukaryotic hallmark; live item is a pair-match keyed on FtsZ"
+  },
+  {
+   "id": "nb747f95d25a",
+   "why": "second wrong pair fixed: Qdenga described as Takeda's tetravalent dengue vaccine",
+   "fix": {
+    "o": [
+     "Qdenga — Takeda — tetravalent dengue vaccine",
+     "Nafithromycin — Wockhardt — drug-resistant pneumonia",
+     "IndOss — CSIR-NCL — indigenous bone substitute",
+     "Wegovy — Bristol Myers — melanoma immunotherapy"
+    ],
+    "x": "Wegovy (semaglutide) is from Novo Nordisk, with a new use for fatty liver disease; Bristol Myers is associated with nivolumab plus relatlimab for melanoma. Qdenga is Takeda's tetravalent dengue vaccine, Nafithromycin is Wockhardt's drug for resistant pneumonia and IndOss is CSIR-NCL's bone substitute."
+   }
+  },
+  {
+   "id": "ca134e458caf6b",
+   "why": "ambiguous option replaced so only the force's own duties are keyed",
+   "fix": {
+    "o": [
+     "Procurement of paddy at MSP",
+     "Operation of city air-quality monitoring stations",
+     "Monitoring of PM2.5, PM10 and CO emissions",
+     "Field surveillance, drone monitoring and midnight patrols"
+    ],
+    "x": "Haryana's Parali Protection Force carries out field surveillance, drone monitoring and midnight patrols at district and block level before the paddy harvest to prevent stubble burning."
+   }
+  },
+  {
+   "id": "cn29d834502c21",
+   "why": "other direction: asks the year given 96%; live item asks the share given 2075"
+  },
+  {
+   "id": "cabdb77f641b01",
+   "why": "ambiguity fixed: options now differ in count and country only",
+   "fix": {
+    "o": [
+     "Seven big cats, with its Secretariat in India",
+     "Six big cats, with its Secretariat in India",
+     "Seven big cats, with its Secretariat in Kenya",
+     "Five big cats, with its Secretariat in Nepal"
+    ],
+    "a": 0,
+    "x": "The International Big Cat Alliance covers seven big cats (tiger, lion, leopard, snow leopard, cheetah, jaguar and puma) and has its Secretariat in India."
+   }
+  },
+  {
+   "id": "ca252caa94727a",
+   "why": "asks GI validity period directly; live item states the period and asks about renewal"
+  },
+  {
+   "id": "cafa0897b4ff77",
+   "why": "A-R key fixed: R restates the volume, it does not explain the share",
+   "fix": {
+    "a": 1,
+    "x": "Both statements are true: offshore aquifers hold about 1 million km³ of freshwater, about 10% of terrestrial freshwater (groundwater). R only gives the volume behind the same estimate; it does not explain why A is true, so R is not the correct explanation of A."
+   }
+  },
+  {
+   "id": "f99575f3bfe32",
+   "why": "direct question (freshwater wetland); live item is a NOT item keyed on the wrong statement"
+  },
+  {
+   "id": "nb67de092b0c",
+   "why": "stem fixed: Fifth Strategic Plan is 2025-2034; asks the meeting, live items ask venue and period",
+   "fix": {
+    "s": "The Victoria Falls Declaration and the Fifth Strategic Plan (2025–2034) are associated with which meeting?",
+    "x": "Ramsar COP15, held at Victoria Falls, Zimbabwe in July 2025, adopted the Victoria Falls Declaration and the Fifth Strategic Plan (2025–2034). CMS COP15 was at Campo Grande and UNCCD COP17 at Ulaanbaatar."
+   }
+  },
+  {
+   "id": "f4f47b74be0cf",
+   "why": "outdated key updated to IMF October 2026 WEO 7.0%; distractors dated",
+   "fix": {
+    "o": [
+     "OECD (June 2026) – 6.6% (FY27)",
+     "IMF WEO (October 2026) – 7.0% (2026)",
+     "Fitch Ratings – 7.3% (FY27)",
+     "World Bank GEP (June 2026) – 6.3% (FY27)"
+    ],
+    "a": 1,
+    "x": "The IMF's October 2026 World Economic Outlook projects India's 2026 growth at 7.0%. The OECD (June 2026) gave 6.3% for FY27, the World Bank GEP (June 2026) 6.6%, and Fitch Ratings lowered FY27 to 6.4% (7.3% is UNCTAD's 2026 figure)."
+   }
+  },
+  {
+   "id": "ff2168dda47d9",
+   "why": "doubtful statement 3 replaced with a clearly false one; key now 1 and 2 only",
+   "fix": {
+    "s": "Consider the following statements about the India Justice Report:\n1. AP ranked 2nd in the India Justice Report 2025.\n2. AP ranked 1st of 19 States in IJR Consumer Justice 2026.\n3. Telangana ranked 1st in the India Justice Report 2025.\nWhich of the statements given above is/are correct?",
+    "a": 0,
+    "x": "Statements 1 and 2 are correct: AP was 2nd in IJR 2025 (up from 5th in 2022) and 1st of 19 States in the Consumer Justice Report 2026. Statement 3 is wrong: Karnataka topped IJR 2025; Telangana was 3rd."
+   }
+  },
+  {
+   "id": "cn9dafe1e62d41",
+   "why": "other direction: asks Telangana's rank; live item names the rank and asks the State"
+  },
+  {
+   "id": "ca448424d1b7dc",
+   "why": "stem fixed so it no longer gives away WEF",
+   "fix": {
+    "s": "The Energy Transition Index 2026 was published by which organisation in collaboration with Accenture?"
+   }
+  },
+  {
+   "id": "ca04fffb0f9a4c",
+   "why": "direct question (India 2nd in FTTH); live item is a NOT item keyed on the wrong statement"
+  },
+  {
+   "id": "cac83dccde7e02",
+   "why": "different statements (semiconductors 35%, quantum 5%, US 1st) and different keyed error than ca098801328cba"
+  },
+  {
+   "id": "fdd91772e6d46",
+   "why": "key fixed: HDR 2025 gives India HDI 0.685",
+   "fix": {
+    "o": [
+     "0.78",
+     "0.59",
+     "0.71",
+     "0.685"
+    ],
+    "a": 3,
+    "x": "HDR 2025 gave India an HDI of 0.685 (2023 data, up from 0.676), rank 130 of 193, medium human development; 0.78 is Himachal Pradesh's HDI in its own HDR."
+   }
+  },
+  {
+   "id": "caa1a9277d3866",
+   "why": "doubtful category key replaced: asks AP's SEEI 2024 group (5-15 Mtoe), per notes",
+   "fix": {
+    "s": "In the State Energy Efficiency Index 2024, Andhra Pradesh was the top performer in which energy-consumption group?",
+    "o": [
+     "Above 15 Mtoe",
+     "5–15 Mtoe",
+     "1–5 Mtoe",
+     "Below 1 Mtoe"
+    ],
+    "a": 1,
+    "x": "SEEI 2024 (BEE with AEEE) names top performers group-wise: Maharashtra (above 15 Mtoe), Andhra Pradesh (5–15 Mtoe), Assam (1–5 Mtoe) and Tripura (below 1 Mtoe)."
+   }
+  },
+  {
+   "id": "fe0f27ba87963",
+   "why": "ambiguity fixed: asks the top performer of the above-15-Mtoe group",
+   "fix": {
+    "s": "In the State Energy Efficiency Index 2024, which State was the top performer in the group consuming above 15 Mtoe?",
+    "x": "SEEI 2024 top performers are group-wise: Maharashtra (above 15 Mtoe), Andhra Pradesh (5–15 Mtoe), Assam (1–5 Mtoe) and Tripura (below 1 Mtoe)."
+   }
+  },
+  {
+   "id": "caeb9e96491d68",
+   "why": "trivia hinge (one vs several nights) replaced with a clear false option; adds Ilaiyaraaja music fact",
+   "fix": {
+    "o": [
+     "It is a Tamil-language film",
+     "Its music was composed by Ilaiyaraaja",
+     "It was directed by Santosh Davakhar",
+     "It is India's official entry for the 99th Academy Awards"
+    ],
+    "a": 0,
+    "x": "Gondhal is a Marathi thriller, not a Tamil film. Its music is by Ilaiyaraaja, it was directed by Santosh Davakhar, and it is India's official entry for Best International Feature Film at the 99th Academy Awards."
+   }
+  },
+  {
+   "id": "ca570e69a1bbb6",
+   "why": "A-R key fixed: assertion now states the MIT Instrumentation Laboratory, both true, R not explanation",
+   "fix": {
+    "s": "Assertion (A): Margaret Hamilton led the development of the Apollo onboard flight software at the MIT Instrumentation Laboratory.\nReason (R): She received the Presidential Medal of Freedom in 2016 from Obama.",
+    "a": 1,
+    "x": "Both are true: Margaret Hamilton led the Apollo onboard flight software work at the MIT Instrumentation Laboratory (for NASA), and she received the Presidential Medal of Freedom in 2016 from Barack Obama. The medal is a recognition, not the reason she led the work, so R does not explain A."
+   }
+  },
+  {
+   "id": "cnb8000914e17a",
+   "why": "direct question (below 45); live item is a NOT item keyed on the wrong age 32"
+  },
+  {
+   "id": "ca3904daf33e98",
+   "why": "trivia hinge (47 vs 48 extensions) replaced with a clear false statement",
+   "fix": {
+    "o": [
+     "He was the sole member of the Liberhan Commission on the Babri Masjid demolition.",
+     "The Commission was set up on 16 December 1992.",
+     "The Commission submitted its report on 30 June 2009, after 17 years.",
+     "The Commission was set up to inquire into the Godhra train burning."
+    ],
+    "a": 3,
+    "x": "The Liberhan Commission inquired into the Babri Masjid demolition (6 December 1992), not the Godhra train burning (2002). Justice M.S. Liberhan was its sole member; it was set up on 16 December 1992 and reported on 30 June 2009 after 48 extensions."
+   }
+  },
+  {
+   "id": "ca0208eb3904f9",
+   "why": "trivia hinge (1,047 vs 1,074 sq m) replaced with a clear false statement",
+   "fix": {
+    "o": [
+     "India was named the Country of the Year at BIOFACH 2026.",
+     "BIOFACH 2026 was held in Nuremberg, Germany, from 10 to 13 February 2026.",
+     "India's pavilion had 67 co-exhibitors.",
+     "India's pavilion was coordinated by the Spices Board."
+    ],
+    "a": 3,
+    "x": "India's pavilion at BIOFACH 2026 was coordinated by APEDA, not the Spices Board. India was the Country of the Year; the fair was held in Nuremberg, Germany, on 10-13 February 2026, and the pavilion (1,074 sq m) had 67 co-exhibitors."
+   }
+  },
+  {
+   "id": "caaa3e45b1b615",
+   "why": "other direction: asks what Safeena Husain founded; live item asks who founded Educate Girls"
+  },
+  {
+   "id": "f506ed32e35db",
+   "why": "statement item affirming 1988 and Strasbourg; live item is a NOT item keyed on Brussels"
+  },
+  {
+   "id": "f8c90b7c0628f",
+   "why": "direct question (Parakram Diwas 2021); live item is a NOT item keyed on the wrong year 2022"
+  },
+  {
+   "id": "n43bf7daa0e5",
+   "why": "second correct option fixed: Flesh replaced with Orbital (2024 winner)",
+   "fix": {
+    "o": [
+     "Heart Lamp by Banu Mushtaq",
+     "Taiwan Travelogue by Yáng Shuāng-zǐ",
+     "The Loneliness of Sonia and Sunny by Kiran Desai",
+     "Orbital by Samantha Harvey"
+    ],
+    "x": "Kiran Desai's The Loneliness of Sonia and Sunny was shortlisted for the Booker Prize 2025 (won by David Szalay's Flesh). Heart Lamp and Taiwan Travelogue won the International Booker Prize (2025 and 2026), and Orbital won the Booker Prize 2024."
+   }
+  },
+  {
+   "id": "fedbc1f97cdeb",
+   "why": "new statements (115 artists, 7 Akademi Ratna, Pasumarthi Rattaiah Sarma for Kuchipudi), not a repeat of n6e222"
+  },
+  {
+   "id": "fc3a26be77476",
+   "why": "direct question (DARPG); live item is a NOT item keyed on MeitY"
+  },
+  {
+   "id": "cafc71b171d6dd",
+   "why": "second wrong statement fixed (women's hockey: first gold since 1982); explanation corrected",
+   "fix": {
+    "o": [
+     "India won double gold in cricket, with the women defeating Sri Lanka and the men defeating Pakistan.",
+     "India’s men’s hockey team defeated Indonesia 5–1 to win its fifth gold medal.",
+     "India’s women’s hockey team defeated China 1–0, securing its first Asian Games gold since 1982.",
+     "India won double gold in kabaddi, with both the women’s and men’s teams defeating Iran."
+    ],
+    "x": "The incorrect statement is the second: India's men defeated Malaysia 5–1, not Indonesia, to win their fifth Asian Games gold. The women beat China 1–0 for their first gold since 1982, and India won double gold in cricket and kabaddi."
+   }
+  },
+  {
+   "id": "cab9e1d894e84c",
+   "why": "ambiguous governance option and silver-count hinge replaced; keyed false statement is now 'second time India hosted'",
+   "fix": {
+    "o": [
+     "India won 15 medals",
+     "It was held at the Sabarmati Riverfront, Ahmedabad",
+     "The series was a qualifier for the Asian Para Games 2026",
+     "It was the second time India hosted the series"
+    ],
+    "a": 3,
+    "x": "Stage 3 at the Sabarmati Riverfront, Ahmedabad (5-9 September 2026) was the first time India hosted the World Archery Para Series. India won 15 medals (4 gold, 3 silver, 8 bronze), and the series was a qualifier for the Asian Para Games 2026."
+   }
+  },
+  {
+   "id": "cn2e18f3bff6c1",
+   "why": "direct question (India 4th); live item is a NOT item keyed on 'third'"
+  },
+  {
+   "id": "n6e2abb9dcca",
+   "why": "other direction: asks which Games; live item asks the sport"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "ca04d175b85e89",
+   "why": "trivia: share of rural schools with functional computers"
+  },
+  {
+   "id": "ca6ef6c8ccfc8d",
+   "why": "trivia: demographic percentages from a private company's AI study"
+  },
+  {
+   "id": "cad48e1e80f3cb",
+   "why": "trivia: count of neurologists in India"
+  },
+  {
+   "id": "ca38cfc52a6ba4",
+   "why": "trivia: fabrication site of THEJAS chips; A-R pair is not causal"
+  },
+  {
+   "id": "ca17358da79bdc",
+   "why": "trivia: number of human tRNA genes"
+  },
+  {
+   "id": "f949778c16577",
+   "why": "exact repeat of ca7a8c771199e2 (17 REEs = 15 lanthanides + Sc + Y)"
+  },
+  {
+   "id": "ca77b7459080dd",
+   "why": "trivia: private-foundation survey percentage"
+  },
+  {
+   "id": "fc36459c90a0f",
+   "why": "exact repeat of PYQ y2e7d37d7200 (NexCAR19, first indigenous CAR-T)"
+  },
+  {
+   "id": "n88e4e6a09ad",
+   "why": "exact repeat of PYQ y3605a432bdd (GPT full form)"
+  },
+  {
+   "id": "nb1a2f8e3626",
+   "why": "exact repeat of PYQ y2c9e97005ad (BHISHM sourcing agency HLL Lifecare)"
+  },
+  {
+   "id": "ca1b95ee82feca",
+   "why": "trivia: school class from which a forest-department programme admits students"
+  },
+  {
+   "id": "nfe8661eae63",
+   "why": "exact repeat of caade96818e808 (AITE 2022 tiger count 3,682)"
+  },
+  {
+   "id": "ca28f519118f77",
+   "why": "trivia: names of officials presenting an award"
+  },
+  {
+   "id": "ca013611606cca",
+   "why": "trivia: exact date of a GI grant"
+  },
+  {
+   "id": "ca4393da7c1d7f",
+   "why": "exact repeat of ca81dd735d5472 (NOT item keyed on hydel projects banned)"
+  },
+  {
+   "id": "ca765968adba1c",
+   "why": "trivia: species count of one moth superfamily"
+  },
+  {
+   "id": "cae4ec22114341",
+   "why": "off-syllabus: which football team displayed a banner at the FIFA final"
+  },
+  {
+   "id": "cacfdcb5b900eb",
+   "why": "exact repeat of n666e8434681 (India 9th in Climate Risk Index), and omits the period"
+  },
+  {
+   "id": "ca17036289a88e",
+   "why": "exact repeat of na3d68d59032 (third cheetah site Veerangana Durgavati TR)"
+  },
+  {
+   "id": "ca3ddc4d92f94e",
+   "why": "trivia: families and acres of a village solar-irrigation project"
+  },
+  {
+   "id": "ca785e18f25e7e",
+   "why": "trivia: destination city of a trial ginger consignment"
+  },
+  {
+   "id": "n88e4a4f9f87",
+   "why": "exact repeat of ca34b7383fe6cc (Indore and Udaipur Wetland Cities)"
+  },
+  {
+   "id": "ca948c6e04db94",
+   "why": "trivia: construction year of Rengali Dam"
+  },
+  {
+   "id": "caa33389d16b6f",
+   "why": "trivia: year Palghar district was carved out of Thane"
+  },
+  {
+   "id": "fe7080fdf4c20",
+   "why": "exact repeat of n2c1382d7586 (pair item keyed Senyar - UAE)"
+  },
+  {
+   "id": "cad6b62e2188b0",
+   "why": "trivia: count of elephant dung samples"
+  },
+  {
+   "id": "ca2026ebdb4bc7",
+   "why": "trivia: NGO of an individual task-force expert"
+  },
+  {
+   "id": "cae87027978326",
+   "why": "trivia: previous recipient state of Karnataka elephants"
+  },
+  {
+   "id": "cad3783d8d010b",
+   "why": "trivia: number of Dravidogecko species"
+  },
+  {
+   "id": "ca6996288d70c6",
+   "why": "exact repeat of n4d5dc6c8e97 (Tamil Nadu, 20 Ramsar sites)"
+  },
+  {
+   "id": "ca80eb74c55754",
+   "why": "exact repeat of ca57e6441ef0fb (UP 13 Ramsar sites)"
+  },
+  {
+   "id": "f06e2fa45ccaf",
+   "why": "exact repeat of ca4aa261ac7c42 (same NE Ramsar site-State pairs, Pala - Mizoram)"
+  },
+  {
+   "id": "fdbd470da9064",
+   "why": "exact repeat of n3034b8c7776 (pair item keyed 2024 - Byrnihat)"
+  },
+  {
+   "id": "ndaf25255f6e",
+   "why": "exact repeat of PYQ y0205da60e23 (Sphaerotheca varshaabhu)"
+  },
+  {
+   "id": "nf1b912a891e",
+   "why": "exact repeat of PYQ y37e42c43de1 (Impatiens karuppusamyi is a plant)"
+  },
+  {
+   "id": "nbff1e658219",
+   "why": "exact repeat of PYQ y7442756d9b8 (Operation Olivia purpose)"
+  },
+  {
+   "id": "n8af436b462d",
+   "why": "exact repeat of PYQ y160fbcec8c6 (Trinidad and Tobago oil spill)"
+  },
+  {
+   "id": "cn60524442b197",
+   "why": "exact repeat of ca25c9c4e09b26 (NSO = CSO + NSSO, 2019)"
+  },
+  {
+   "id": "cn32a27bda0e32",
+   "why": "exact repeat of cab04321b34b3b (second-hand smoke deaths 3.25 lakh, 2023)"
+  },
+  {
+   "id": "cnbccd31ba469d",
+   "why": "trivia: foreign visitor counts at Warangal Fort"
+  },
+  {
+   "id": "n31929446e7f",
+   "why": "exact repeat of ca5cd067be7807 (India 176th in EPI 2026)"
+  },
+  {
+   "id": "ca7f5747d6cda7",
+   "why": "exact repeat of nd54f87ffab7 (India 127th of 163 in GPI 2026)"
+  },
+  {
+   "id": "caebb51ceca613",
+   "why": "exact repeat of ndad79108460 (India 13th in QS Future Skills 2027)"
+  },
+  {
+   "id": "n285b865909e",
+   "why": "exact repeat of cab2bda36a1031 (MIT tops QS WUR 2027)"
+  },
+  {
+   "id": "ca96d53be759dc",
+   "why": "exact repeat of nb79262df8cd (India 157th in Press Freedom 2026)"
+  },
+  {
+   "id": "cab0633976b9e4",
+   "why": "exact repeat of nedc10f9b974 (Afghanistan last in Happiness 2026)"
+  },
+  {
+   "id": "ca55abb90d748e",
+   "why": "exact repeat of nf8ad96a60d0 and f45ec5 (NRI publisher Portulans Institute)"
+  },
+  {
+   "id": "f28a7217bfbd1",
+   "why": "trivia: India's NRI rank in 2019"
+  },
+  {
+   "id": "ca845921396bea",
+   "why": "exact repeat of f7eaef2eeb7b3 (UNCCD - restore 1.5 billion ha)"
+  },
+  {
+   "id": "cac16fa67be5cf",
+   "why": "trivia: average AI-risk score in a journal study"
+  },
+  {
+   "id": "ca1ea64dfa1adf",
+   "why": "exact repeat of n1bde350fe22 (HDI 2025 India 130th of 193)"
+  },
+  {
+   "id": "ca7a4cb9ce3059",
+   "why": "trivia: China's SDR 2025 rank and score"
+  },
+  {
+   "id": "nda2dbac36ea",
+   "why": "exact repeat of PYQ y4a95b19f0f9 (IJR 2025 AP 2nd)"
+  },
+  {
+   "id": "ca30b5957f35d8",
+   "why": "trivia: venue of an award ceremony"
+  },
+  {
+   "id": "caaaae9d9a303b",
+   "why": "trivia: name of the Registrar General on a report"
+  },
+  {
+   "id": "ca068b4312f74f",
+   "why": "trivia: exact MW of AP small-hydro capacity"
+  },
+  {
+   "id": "ca3dc9b58a172a",
+   "why": "trivia: exact MW of AP biomass potential"
+  },
+  {
+   "id": "n65b4b72f5a1",
+   "why": "exact repeat of caaf48882b0655 (SEEI 2024 by BEE with AEEE)"
+  },
+  {
+   "id": "n3cf87debc5b",
+   "why": "exact repeat of cadca89a181e0d (WPFI 2026 Norway 1st)"
+  },
+  {
+   "id": "fabe19e90b045",
+   "why": "wrong edition; corrected to GII 2025 it repeats n738e8 (India 38th of 139)"
+  },
+  {
+   "id": "fce1f7b60b93e",
+   "why": "exact repeat of nd21ee1d972f (World Drug Report - UNODC)"
+  },
+  {
+   "id": "n8b21f374967",
+   "why": "exact repeat of PYQs y19bd8760b01 / yc82546daff2 (LPI 2023 India 38th)"
+  },
+  {
+   "id": "ca3ec7dc745a56",
+   "why": "trivia: field combination of a laureate's work; the achievement itself is asked by ca830d"
+  },
+  {
+   "id": "ca5387f862bcfa",
+   "why": "trivia: city where AGU awards were presented"
+  },
+  {
+   "id": "ca7066656ce7b8",
+   "why": "trivia: academic post of an award winner"
+  },
+  {
+   "id": "ca1febf2a45231",
+   "why": "trivia: venue of an award presentation"
+  },
+  {
+   "id": "cad02e8abcac71",
+   "why": "trivia: a surgeon's research areas"
+  },
+  {
+   "id": "ca0f4e71ecd949",
+   "why": "trivia: founding years of a US award and academy"
+  },
+  {
+   "id": "ca2bae96c3e8d9",
+   "why": "trivia: prize money of a minor regional award"
+  },
+  {
+   "id": "cad8ea7543cf8b",
+   "why": "trivia: memento of a regional award"
+  },
+  {
+   "id": "ca6e960edecc6b",
+   "why": "trivia: serial number of a recipient"
+  },
+  {
+   "id": "caf4d658164289",
+   "why": "trivia: exact death date of a regional freedom fighter"
+  },
+  {
+   "id": "cn0a4ffc5b4f7a",
+   "why": "trivia: venue of a coin and stamp unveiling"
+  },
+  {
+   "id": "cn380cfb181684",
+   "why": "trivia: city of a medal winner's college"
+  },
+  {
+   "id": "cnb25bd602d73e",
+   "why": "trivia: ordinal of a spiritual head"
+  },
+  {
+   "id": "cn3d1f090a37cf",
+   "why": "trivia: year a foreign airline began operations"
+  },
+  {
+   "id": "cnacd5109d365c",
+   "why": "trivia: venue of a prize presentation"
+  },
+  {
+   "id": "ff91c83ae8aa0",
+   "why": "exact repeat of cnd8b0627ed820 (NOT item keyed India is a State Party to the ICC)"
+  },
+  {
+   "id": "ca050a28e39b70",
+   "why": "trivia: end date of a coffee-table book volume"
+  },
+  {
+   "id": "ca30a4b4a57256",
+   "why": "trivia: venue of a book release"
+  },
+  {
+   "id": "ca646bfaef7ca8",
+   "why": "trivia: who released a book in Edinburgh"
+  },
+  {
+   "id": "ca3d3008469c7e",
+   "why": "trivia: presenter of an award at a minor event"
+  },
+  {
+   "id": "caaf6d19c7af13",
+   "why": "exact repeat of f7bb27c19e6af (Padma Shri 4th-highest)"
+  },
+  {
+   "id": "f8c74b91b3d62",
+   "why": "exact repeat of ca268fd9e3983c (pair item keyed 2012 - Ravuri Bharadwaja)"
+  },
+  {
+   "id": "ca9db91caf285c",
+   "why": "trivia: future presentation date of an award"
+  },
+  {
+   "id": "f7c8ace85fea0",
+   "why": "exact repeat of cadbf91508b6cf (Crawford Prize given by the Royal Swedish Academy of Sciences)"
+  },
+  {
+   "id": "ca8c1f8854d658",
+   "why": "trivia: age at death of a foreign computer scientist"
+  },
+  {
+   "id": "cada14b99143ed",
+   "why": "trivia: publication year of one novel"
+  },
+  {
+   "id": "ca62833c671f57",
+   "why": "trivia: chess coach of a child player"
+  },
+  {
+   "id": "ca0bb6ddca1b2d",
+   "why": "trivia: corporate group owning a magazine"
+  },
+  {
+   "id": "f39e5450adea9",
+   "why": "trivia: author of a 1966 biography"
+  },
+  {
+   "id": "fd6c4757d184b",
+   "why": "exact repeat of cad33e22e09702 (same Vithalbhai Patel year-event pairs)"
+  },
+  {
+   "id": "caabe42a9c10e5",
+   "why": "trivia: actor's age at death"
+  },
+  {
+   "id": "f8f594b4a5c8c",
+   "why": "trivia: BAFTA Fellowship recipient (foreign film-industry figure)"
+  },
+  {
+   "id": "ca836fac60cec7",
+   "why": "trivia: film for which a singer won a state film award"
+  },
+  {
+   "id": "n744117965d8",
+   "why": "exact repeat of PYQ y11855415592 (second-highest civilian award)"
+  },
+  {
+   "id": "nbe00a9eb93d",
+   "why": "exact repeat of n1b5f730692a (Balaji Raghavan case)"
+  },
+  {
+   "id": "naa5043d9be8",
+   "why": "exact repeat of PYQ yf60a2c976d8 (Heart Lamp, International Booker 2025)"
+  },
+  {
+   "id": "f6856d382ae54",
+   "why": "exact repeat of nc456738dff0 (Boyi Bhimanna - Gudisale Kalipotunnayi)"
+  },
+  {
+   "id": "fb6b08b67237e",
+   "why": "exact repeat of nc343ab2dfe5 (Whitley Awards 2026 winners)"
+  },
+  {
+   "id": "caf41b37984841",
+   "why": "exact repeat of cndca42d050726 (World Puzzle Championship in Kolkata)"
+  },
+  {
+   "id": "n4efbb9bd6db",
+   "why": "exact repeat of cadd0a6aa1c24c (46th Chess Olympiad at Samarkand)"
+  },
+  {
+   "id": "cn185525096a57",
+   "why": "trivia: nationality of a chess opponent"
+  },
+  {
+   "id": "cn0a9e1b0debe7",
+   "why": "trivia: headquarters town of the European Chess Union"
+  },
+  {
+   "id": "cn632adbd22d57",
+   "why": "trivia: nationality of a badminton opponent"
+  },
+  {
+   "id": "ca856654d9413e",
+   "why": "exact repeat of n379e3c2ab73 (RKPP 2025 to Army Paralympic Node, Pune)"
+  },
+  {
+   "id": "n35abc11f729",
+   "why": "exact repeat of ca0b4d7ef564c1 (CWG 2030 host Ahmedabad)"
+  },
+  {
+   "id": "n12e31e8de7d",
+   "why": "exact repeat of caf67e44ded6a7 (Durand Cup 2026 winner East Bengal)"
+  },
+  {
+   "id": "n0e611f1a0d1",
+   "why": "exact repeat of cac595cdb198b3 (P.V. Sindhu, Japan Open)"
+  },
+  {
+   "id": "ca1c1d7ce41cad",
+   "why": "trivia: mascot of a minor championship"
+  },
+  {
+   "id": "n831ab09eb5e",
+   "why": "exact repeat of PYQ yf482e66fc21 (28 Khelo India athletes at Paris 2024)"
+  },
+  {
+   "id": "n1cb8ce39b89",
+   "why": "exact repeat of ca3dc9607d3760 (Praggnanandhaa first Indian GCT winner)"
+  }
+ ]
+}
