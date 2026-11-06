@@ -102,16 +102,16 @@
    "topic": 45,
    "sec": 1,
    "angle": "1",
-   "shape": "one-liner",
-   "s": "The Gandhara school of art flourished in which region?",
+   "shape": "statements",
+   "s": "Consider the following statements about the Gandhara school of art:\n1. It flourished in the north-west around Peshawar, Taxila and Swat.\n2. Its main medium was spotted red sandstone.\nWhich of the statements given above is/are correct?",
    "o": [
-    "North-west (Peshawar, Taxila, Swat)",
-    "Ganga valley",
-    "Andhra",
-    "Malwa"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 0,
-   "x": "Gandhara art grew in the north-west around Peshawar, Taxila and Swat; Mathura was in the Ganga valley and Amaravati in Andhra."
+   "x": "Gandhara grew in the north-west around Peshawar, Taxila and Swat and used grey schist; spotted red sandstone was Mathura's medium."
   },
   {
    "topic": 45,
@@ -120,12 +120,12 @@
    "shape": "one-liner",
    "s": "Which of the following was a centre of the Gandhara school of art?",
    "o": [
-    "Mathura",
     "Taxila",
+    "Mathura",
     "Amaravati",
     "Nagarjunakonda"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Taxila, with Peshawar and the Swat Valley, was a Gandhara centre; the others belong to the Mathura and Amaravati schools."
   },
   {
@@ -136,11 +136,11 @@
    "s": "The Amaravati school of art was patronised by the:",
    "o": [
     "Kushanas",
-    "Shungas",
     "Satavahanas and later the Ikshvakus",
+    "Shungas",
     "Guptas"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Amaravati art grew under the Satavahanas and later the Ikshvakus; the Kushanas patronised Gandhara and Mathura."
   },
   {
@@ -152,10 +152,10 @@
    "o": [
     "Grey schist",
     "Spotted red sandstone",
-    "Stucco",
-    "White Palnadu limestone"
+    "White Palnadu limestone",
+    "Stucco"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Amaravati used white Palnadu limestone; schist and stucco were Gandhara materials and red sandstone Mathura's."
   },
   {
@@ -165,12 +165,12 @@
    "shape": "one-liner",
    "s": "Heavy, toga-like drapery on the Buddha is a feature of which school of art?",
    "o": [
-    "Gandhara",
     "Mathura",
     "Amaravati",
-    "Pala"
+    "Pala",
+    "Gandhara"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Gandhara shows heavy, toga-like drapery; Mathura shows transparent, clinging robes."
   },
   {
@@ -180,28 +180,28 @@
    "shape": "one-liner",
    "s": "Transparent, clinging drapery and a fleshy, smiling figure characterise which school of art?",
    "o": [
-    "Gandhara",
     "Mathura",
+    "Gandhara",
     "Amaravati",
     "Pala"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Mathura figures are muscular, smiling and fleshy in clinging drapery; Gandhara drapery is heavy and toga-like."
   },
   {
    "topic": 45,
    "sec": 1,
    "angle": "6",
-   "shape": "one-liner",
-   "s": "Wavy hair with a top-knot and an Apollo-like face mark the Buddha images of:",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
    "o": [
-    "Mathura",
-    "Amaravati",
-    "Gandhara",
-    "Pala"
+    "Heavy, toga-like drapery – Mathura",
+    "Transparent, clinging drapery – Gandhara",
+    "Wavy hair with a top-knot – Gandhara",
+    "Jnanachakra halo – Amaravati"
    ],
    "a": 2,
-   "x": "Gandhara Buddhas have wavy hair, a top-knot and an Apollo-like face; Mathura shows shaved heads or snail-shell curls."
+   "x": "Wavy hair with a top-knot is Gandhara's; toga-like drapery is Gandhara's, clinging drapery and the Jnanachakra halo are Mathura's."
   },
   {
    "topic": 45,
@@ -226,11 +226,11 @@
    "s": "The headless standing statue of Kanishka was found at:",
    "o": [
     "Taxila",
+    "Mat",
     "Sarnath",
-    "Amaravati",
-    "Mat"
+    "Amaravati"
    ],
-   "a": 3,
+   "a": 1,
    "x": "The headless standing statue of Kanishka, a Kushana royal portrait of the Mathura school, comes from Mat."
   },
   {
@@ -240,12 +240,12 @@
    "shape": "one-liner",
    "s": "Images of Jain Tirthankaras and Yaksha-Yakshi figures are associated mainly with which school of art?",
    "o": [
-    "Mathura",
     "Gandhara",
     "Amaravati",
+    "Mathura",
     "Pala"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Mathura made Buddhist, Jain and Brahmanical images, including Tirthankaras and Yaksha-Yakshi; Gandhara was Buddhist only."
   },
   {
@@ -256,11 +256,11 @@
    "s": "The Ayakapatas of the Amaravati school show the Buddha:",
    "o": [
     "In human form, standing",
-    "Through symbols",
     "In Greek attire",
-    "Seated in Bhumisparsha mudra"
+    "Seated in Bhumisparsha mudra",
+    "Through symbols"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Amaravati Ayakapatas represent the Buddha through symbols, not in human form."
   },
   {
@@ -270,12 +270,12 @@
    "shape": "one-liner",
    "s": "The Abhaya mudra (raised right palm) of the Buddha symbolises:",
    "o": [
+    "Fearlessness",
     "Meditation",
     "Boon-giving",
-    "Fearlessness",
     "The first sermon"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Abhaya, the raised right palm, means fearlessness; Dhyana is meditation and Varada boon-giving."
   },
   {
@@ -286,11 +286,11 @@
    "s": "Which mudra shows the Buddha with his hands in the lap?",
    "o": [
     "Abhaya",
+    "Dhyana",
     "Varada",
-    "Dharmachakra",
-    "Dhyana"
+    "Dharmachakra"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Dhyana mudra, hands resting in the lap, stands for meditation."
   },
   {
@@ -300,12 +300,12 @@
    "shape": "one-liner",
    "s": "In the Bhumisparsha mudra, the Buddha calls the earth to witness against:",
    "o": [
-    "Mara",
     "Nalagiri",
     "Mahadeva",
+    "Mara",
     "Maitreya"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Bhumisparsha marks the Enlightenment at Bodh Gaya, with the earth as witness against Mara."
   },
   {
@@ -316,11 +316,11 @@
    "s": "Under the Ikshvakus, the main centre of Amaravati-style art was:",
    "o": [
     "Bhattiprolu",
-    "Nagarjunakonda",
     "Jaggayyapeta",
-    "Goli"
+    "Goli",
+    "Nagarjunakonda"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Nagarjunakonda was the main centre under the Ikshvakus; Bhattiprolu is noted as the oldest stupa in AP."
   },
   {
@@ -330,12 +330,12 @@
    "shape": "one-liner",
    "s": "The mature phase of the Amaravati school belongs to the period of the:",
    "o": [
+    "Ikshvakus",
     "Kushanas",
     "Guptas",
-    "Ikshvakus",
     "Palas"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The mature phase of Amaravati art, with Mahayana themes, is Ikshvaku, not Kushana."
   },
   {
@@ -376,11 +376,11 @@
    "s": "Amaravati, where the Buddha is believed to have first taught the Kalachakra, was also known as:",
    "o": [
     "Pratishthana",
+    "Dhanyakataka",
     "Vijayapuri",
-    "Taxila",
-    "Dhanyakataka"
+    "Taxila"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Amaravati was Dhanyakataka; Pratishthana is Paithan and Vijayapuri is Nagarjunakonda."
   },
   {
@@ -390,12 +390,12 @@
    "shape": "one-liner",
    "s": "Who placed the original home of the Satavahanas in Vidarbha (Berar)?",
    "o": [
-    "V.V. Mirashi",
     "V.S. Sukthankar",
     "Gopalachari",
+    "V.V. Mirashi",
     "D.C. Sircar"
    ],
-   "a": 0,
+   "a": 2,
    "x": "V.V. Mirashi placed their home in Vidarbha (Berar); Gopalachari favoured Maharashtra."
   },
   {
@@ -406,11 +406,11 @@
    "s": "Which scholar rejected the Bellary theory and favoured Maharashtra as the Satavahana homeland?",
    "o": [
     "V.V. Mirashi",
-    "Gopalachari",
     "E.J. Rapson",
-    "B.S.L. Hanumantha Rao"
+    "B.S.L. Hanumantha Rao",
+    "Gopalachari"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Gopalachari rejected Bellary, as no early inscription is found there, and favoured Maharashtra."
   },
   {
@@ -420,12 +420,12 @@
    "shape": "one-liner",
    "s": "Who held that 'Andhra' was a tribal name, 'Satavahana' a dynastic name and 'Satakarni' a family name?",
    "o": [
+    "K.A. Nilakanta Sastri",
     "R.S. Sharma",
     "E.J. Rapson",
-    "K.A. Nilakanta Sastri",
     "B.S.L. Hanumantha Rao"
    ],
-   "a": 2,
+   "a": 0,
    "x": "K.A. Nilakanta Sastri distinguished the tribal, dynastic and family names."
   },
   {
@@ -436,27 +436,27 @@
    "s": "Per the APPSC Group 2 (2017) key, the Bellary original-home theory of the Satavahanas is credited to:",
    "o": [
     "V.V. Mirashi",
+    "R.G. Bhandarkar",
     "R.S. Sharma",
-    "D.C. Sircar",
-    "R.G. Bhandarkar"
+    "D.C. Sircar"
    ],
-   "a": 3,
+   "a": 1,
    "x": "The 2017 key credits the Bellary theory to R.G. Bhandarkar; Mirashi favoured Vidarbha."
   },
   {
    "topic": 46,
    "sec": 2,
    "angle": "1",
-   "shape": "one-liner",
-   "s": "Which historian regarded the Satavahanas as Dravidians?",
+   "shape": "match",
+   "s": "Which of the following scholar – view pairs is correctly matched?",
    "o": [
-    "R.S. Sharma",
-    "D.C. Sircar",
-    "V.V. Mirashi",
-    "Gopalachari"
+    "D.C. Sircar – Satavahanas were Andhrabhrityas",
+    "V.V. Mirashi – Origin in the eastern Deccan",
+    "Gopalachari – Bellary original home",
+    "R.S. Sharma – Satavahanas were Dravidians"
    ],
-   "a": 0,
-   "x": "R.S. Sharma called them Dravidians; D.C. Sircar held they were Andhras, not Andhrabhrityas."
+   "a": 3,
+   "x": "R.S. Sharma called them Dravidians; Sircar held they were Andhras, Mirashi favoured Vidarbha and Gopalachari Maharashtra."
   },
   {
    "topic": 46,
@@ -466,11 +466,11 @@
    "s": "The Chulakalinga Jataka and the Hathigumpha inscription record that Kharavela sent an army west ignoring his contemporary:",
    "o": [
     "Simuka",
-    "Satakarni I",
     "Hala",
+    "Satakarni I",
     "Gautamiputra Satakarni"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Kharavela's contemporary was Satakarni I, whom he ignored when sending his army west."
   },
   {
@@ -482,10 +482,10 @@
    "o": [
     "30",
     "23",
-    "17",
-    "27"
+    "27",
+    "17"
    ],
-   "a": 2,
+   "a": 3,
    "x": "The Vayu and Vishnu Puranas give 17 kings and 272 years; the Matsya gives 30 kings and 456 years."
   },
   {
@@ -495,12 +495,12 @@
    "shape": "one-liner",
    "s": "The 'long chronology' places Satavahana rule in:",
    "o": [
+    "271 BC - 174 AD",
     "c. 1st century BCE - 3rd century CE",
     "4th century BCE - 1st century BCE",
-    "3rd century CE - 6th century CE",
-    "271 BC - 174 AD"
+    "3rd century CE - 6th century CE"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The long chronology runs from 271 BC to 174 AD; the short chronology is c. 1st c. BCE - 3rd c. CE."
   },
   {
@@ -510,12 +510,12 @@
    "shape": "one-liner",
    "s": "Which Satavahana ruler is associated with the Sanchi torana and the longest reign?",
    "o": [
-    "Satakarni II",
     "Gautamiputra Satakarni",
+    "Satakarni II",
     "Hala",
     "Vasishthiputra Pulumavi"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Satakarni II, the 6th king, reigned 56 years and is linked with the Sanchi torana; the torana does not name Gautamiputra."
   },
   {
@@ -526,11 +526,11 @@
    "s": "Which early Satavahana ruler performed the Ashvamedha and expanded into Central India?",
    "o": [
     "Simuka",
-    "Satakarni I",
     "Kanha",
+    "Satakarni I",
     "Hala"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Satakarni I, the greatest early ruler, performed the Ashvamedha and expanded into Central India."
   },
   {
@@ -542,10 +542,10 @@
    "o": [
     "Chanda Satakarni",
     "Pulomavi III",
-    "Yajna Sri Satakarni",
-    "Vasishthiputra Satakarni"
+    "Vasishthiputra Satakarni",
+    "Yajna Sri Satakarni"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Yajna Sri Satakarni (27th) was the greatest later ruler and patron of Nagarjuna."
   },
   {
@@ -555,12 +555,12 @@
    "shape": "one-liner",
    "s": "In the Puranic list, Hala was the ____ Satavahana king.",
    "o": [
+    "17th",
     "23rd",
     "6th",
-    "30th",
-    "17th"
+    "30th"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Hala was the 17th king; Gautamiputra was the 23rd, Satakarni II the 6th and Pulomavi III the 30th."
   },
   {
@@ -570,12 +570,12 @@
    "shape": "one-liner",
    "s": "Which Satavahana ruler won back lost territory from the Western Kshatrapas late in the dynasty's history?",
    "o": [
-    "Yajna Sri Satakarni",
     "Hala",
+    "Yajna Sri Satakarni",
     "Simuka",
     "Kanha"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Yajna Sri Satakarni recovered lost territory from the Western Kshatrapas."
   },
   {
@@ -601,11 +601,11 @@
    "s": "Ushavadatta (Rishabhadatta), whose records are at Nasik and Karle, was Nahapana's:",
    "o": [
     "Minister",
-    "Son-in-law",
     "Son",
+    "Son-in-law",
     "Father-in-law"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Ushavadatta was Nahapana's son-in-law; Ayama was his minister."
   },
   {
@@ -617,10 +617,10 @@
    "o": [
     "c. 230-207 BCE",
     "c. 170-199 CE",
-    "c. 106-130 CE",
-    "c. 130-159 CE"
+    "c. 130-159 CE",
+    "c. 106-130 CE"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Gautamiputra ruled c. 106-130 CE, so crediting him with the Saka/Salivahana era of AD 78 does not fit."
   },
   {
@@ -630,12 +630,12 @@
    "shape": "one-liner",
    "s": "The Kanheri inscription shows that the queen of Vasishthiputra Satakarni was the daughter of:",
    "o": [
+    "Rudradaman",
     "Chashtana",
     "Nahapana",
-    "Maharathi Tranakayiro",
-    "Rudradaman"
+    "Maharathi Tranakayiro"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The Kanheri record names the queen of Vasishthiputra Satakarni as Rudradaman's daughter."
   },
   {
@@ -645,12 +645,12 @@
    "shape": "one-liner",
    "s": "The Nasik Prasasti was issued in which regnal year of Vasishthiputra Pulumavi?",
    "o": [
-    "19th",
     "17th",
+    "19th",
     "23rd",
     "24th"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Gautami Balasri issued it in the 19th regnal year of her grandson Vasishthiputra Pulumavi."
   },
   {
@@ -661,27 +661,27 @@
    "s": "Gautamiputra Satakarni's title 'Varnasankarya-nirodhaka' means:",
    "o": [
     "Unique Brahmana",
-    "Stopper of the mixing of varnas",
     "Crusher of the pride of the Kshatriyas",
+    "Stopper of the mixing of varnas",
     "Whose horses drank the waters of three seas"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Varnasankarya-nirodhaka means he stopped the mixing of the varnas; Ekabrahmana means unique Brahmana."
   },
   {
    "topic": 46,
    "sec": 7,
    "angle": "20",
-   "shape": "one-liner",
-   "s": "Gautamiputra Satakarni's title 'Kshatriya-darpa-mana-mardana' means:",
+   "shape": "match",
+   "s": "Which of the following title – meaning pairs of Gautamiputra Satakarni is correctly matched?",
    "o": [
-    "Unique Brahmana",
-    "Stopper of the mixing of varnas",
-    "Crusher of the pride of the Kshatriyas",
-    "Lord of the southern sea"
+    "Ekabrahmana – Crusher of the pride of the Kshatriyas",
+    "Kshatriya-darpa-mana-mardana – Crusher of the pride of the Kshatriyas",
+    "Varnasankarya-nirodhaka – Unique Brahmana",
+    "Trisamudra-toya-pita-vahana – Lord of the southern sea"
    ],
-   "a": 2,
-   "x": "Kshatriya-darpa-mana-mardana means crusher of the pride of the Kshatriyas."
+   "a": 1,
+   "x": "Kshatriya-darpa-mana-mardana means crusher of Kshatriya pride; Ekabrahmana is unique Brahmana and Trisamudra-toya-pita-vahana means his horses drank the waters of three seas."
   },
   {
    "topic": 46,
@@ -791,17 +791,17 @@
   {
    "topic": 46,
    "sec": 10,
-   "angle": "5",
-   "shape": "one-liner",
-   "s": "Kotilingala, claimed as an early Satavahana political centre, is in:",
+   "angle": "5,10",
+   "shape": "statements",
+   "s": "Consider the following statements about Satavahana centres:\n1. Kotilingala, claimed as an early political centre, is in Karimnagar, Telangana.\n2. Pratishthana, the principal western capital, stood on the Krishna.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Krishna district",
-    "Karimnagar, Telangana",
-    "Bellary",
-    "Nasik"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 1,
-   "x": "Kotilingala is in Karimnagar, Telangana."
+   "a": 0,
+   "x": "Kotilingala is in Karimnagar, Telangana; Pratishthana (Paithan) stood on the Godavari, not the Krishna."
   },
   {
    "topic": 46,
@@ -811,11 +811,11 @@
    "s": "Which place in Krishna district is regarded as the traditional early Andhra capital?",
    "o": [
     "Bhattiprolu",
-    "Ghantasala",
     "Srikakulam",
+    "Ghantasala",
     "Jaggayyapeta"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Srikakulam in Krishna district is the traditional early Andhra capital."
   },
   {
@@ -827,10 +827,10 @@
    "o": [
     "Simuka",
     "Kanha",
-    "Gautamiputra Satakarni",
-    "Satakarni I"
+    "Satakarni I",
+    "Gautamiputra Satakarni"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Satakarni I issued the first Satavahana silver coins."
   },
   {
@@ -840,12 +840,12 @@
    "shape": "one-liner",
    "s": "The Jogalthambi hoard of Nahapana's coins restruck by Gautamiputra was found in:",
    "o": [
-    "Nasik district",
     "Bellary",
     "East Godavari",
-    "Pune"
+    "Pune",
+    "Nasik district"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Jogalthambi hoard is from Nasik district and confirms Gautamiputra's victory."
   },
   {
@@ -855,12 +855,12 @@
    "shape": "one-liner",
    "s": "Simuka rose to power by overthrowing the:",
    "o": [
-    "Sungas",
     "Kanvas",
+    "Sungas",
     "Mauryas",
     "Ikshvakus"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Simuka ended the Kanvas, who followed the Sungas in Magadha."
   },
   {
@@ -871,11 +871,11 @@
    "s": "Which successor of the Satavahanas ruled in Maharashtra?",
    "o": [
     "Vakatakas",
-    "Ikshvakus",
     "Abhiras",
+    "Ikshvakus",
     "Chalukyas"
    ],
-   "a": 2,
+   "a": 1,
    "x": "The Abhiras succeeded in Maharashtra, the Vakatakas in Vidarbha and the Ikshvakus in Andhra."
   },
   {
@@ -887,10 +887,10 @@
    "o": [
     "Nagarjuna",
     "Sarvavarma",
-    "Kutuhala",
-    "Kundakundacharya"
+    "Kundakundacharya",
+    "Kutuhala"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Samayasara is Kundakundacharya's Jain treatise."
   },
   {
@@ -900,12 +900,12 @@
    "shape": "one-liner",
    "s": "The Prajnaparamita shastra, a Mahayana work in Sanskrit, is attributed to:",
    "o": [
-    "Nagarjuna",
     "Kundakundacharya",
     "Gunadhya",
-    "Hala"
+    "Hala",
+    "Nagarjuna"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Prajnaparamita shastra is attributed to Nagarjuna."
   },
   {
@@ -915,12 +915,12 @@
    "shape": "one-liner",
    "s": "Nagarjuna's Suhrullekha was a letter addressed to:",
    "o": [
-    "Rudradaman",
     "A Satavahana king",
+    "Rudradaman",
     "An Ikshvaku king",
     "Nahapana"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Suhrullekha, like the Ratnavali, was addressed to a Satavahana king."
   },
   {
@@ -931,11 +931,11 @@
    "s": "Which work of Nagarjuna is a verse treatise on Madhyamika philosophy?",
    "o": [
     "Suhrullekha",
-    "Ratnavali",
     "Mulamadhyamakakarika",
+    "Ratnavali",
     "Samayasara"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Mulamadhyamakakarika is the Madhyamika verse treatise; Suhrullekha and Ratnavali are letters to a Satavahana king."
   },
   {
@@ -947,10 +947,10 @@
    "o": [
     "Katantra – Gunadhya",
     "Kathasaritsagara – Kshemendra",
-    "Lilavati Parinayam – Somadeva Suri",
-    "Yogasara – Kundakundacharya"
+    "Yogasara – Kundakundacharya",
+    "Lilavati Parinayam – Somadeva Suri"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Yogasara is by Kundakundacharya; Katantra is Sarvavarma's, Kathasaritsagara Somadeva's and Lilavati Parinayam Kutuhala's."
   },
   {
@@ -960,12 +960,12 @@
    "shape": "one-liner",
    "s": "According to legend, Gunadhya gave up Sanskrit and wrote in Paishachi after losing a dispute with:",
    "o": [
-    "Sarvavarma",
     "Kshemendra",
     "Kutuhala",
-    "Somadeva Suri"
+    "Somadeva Suri",
+    "Sarvavarma"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Gunadhya lost to Sarvavarma over how fast Kuntala Satakarni could learn Sanskrit."
   },
   {
@@ -975,12 +975,12 @@
    "shape": "one-liner",
    "s": "The Katantra grammar was written so that which king could learn Sanskrit quickly?",
    "o": [
-    "Hala",
     "Kuntala Satakarni",
+    "Hala",
     "Gautamiputra Satakarni",
     "Yajna Sri Satakarni"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Sarvavarma wrote the Katantra for Kuntala Satakarni."
   },
   {
@@ -991,11 +991,11 @@
    "s": "In Lilavati Parinayam, Hala marries Lilavati at the Bhimeswara temple of:",
    "o": [
     "Amaravati",
-    "Srikakulam",
     "Draksharamam",
+    "Srikakulam",
     "Nagarjunakonda"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Kutuhala places the marriage at the Bhimeswara temple, Draksharamam."
   },
   {
@@ -1007,10 +1007,10 @@
    "o": [
     "Vishnu",
     "The Buddha",
-    "Surya",
-    "Shiva"
+    "Shiva",
+    "Surya"
    ],
-   "a": 3,
+   "a": 2,
    "x": "The anthology opens with a prayer to Shiva."
   },
   {
@@ -1020,12 +1020,12 @@
    "shape": "one-liner",
    "s": "The Satavahana officer called Heranika was the:",
    "o": [
-    "Treasurer",
     "Land surveyor",
     "Keeper of stores",
-    "Police officer"
+    "Police officer",
+    "Treasurer"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Heranika was the treasurer; Rajjugahaka was the land surveyor and Bhandagarika kept the stores."
   },
   {
@@ -1035,28 +1035,28 @@
    "shape": "one-liner",
    "s": "In Satavahana administration, the Bhandagarika was in charge of:",
    "o": [
-    "The treasury",
     "Stores",
+    "The treasury",
     "Land survey",
     "Drafting land-grant inscriptions"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Bhandagarika looked after stores; Heranika was the treasurer."
   },
   {
    "topic": 47,
    "sec": 2,
    "angle": "11",
-   "shape": "one-liner",
-   "s": "Which Satavahana officer drafted land-grant inscriptions?",
+   "shape": "statements",
+   "s": "Consider the following statements about Satavahana officers:\n1. Heranika was the treasurer.\n2. Rajjugahaka kept the royal stores.\n3. Pattikapala drafted land-grant inscriptions.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Akshapataka",
-    "Rajjugahaka",
-    "Pattikapala",
-    "Pradeshika"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
    "a": 2,
-   "x": "Pattikapala drafted land grants; Akshapatakas kept records of the king's orders."
+   "x": "Heranika was the treasurer and Pattikapala drafted land grants; Rajjugahaka was the land surveyor, while Bhandagarika kept the stores."
   },
   {
    "topic": 47,
@@ -1066,27 +1066,27 @@
    "s": "The Mahabhojas were powerful local chiefs of:",
    "o": [
     "Eastern Bengal",
+    "Konkan",
     "Mysore",
-    "Kolhapur",
-    "Konkan"
+    "Kolhapur"
    ],
-   "a": 3,
+   "a": 1,
    "x": "The Mahabhojas were chiefs of the Konkan, not Eastern Bengal."
   },
   {
    "topic": 47,
    "sec": 3,
    "angle": "13",
-   "shape": "one-liner",
-   "s": "Which semi-feudal Samanta rajya of the Satavahanas was based at Vijayapuri?",
+   "shape": "match",
+   "s": "Which of the following Samanta rajya – seat pairs is correctly matched?",
    "o": [
-    "Ikshvakus",
-    "Chutus",
-    "Kuras",
-    "Maharathis"
+    "Chutus – Kolhapur",
+    "Kuras – Mysore",
+    "Ikshvakus – Vijayapuri",
+    "Mahabhojas – Eastern Bengal"
    ],
-   "a": 0,
-   "x": "The Ikshvakus held Vijayapuri; the Chutus held Mysore and the Kuras Kolhapur."
+   "a": 2,
+   "x": "The Ikshvakus held Vijayapuri; the Chutus held Mysore, the Kuras Kolhapur, and the Mahabhojas were in the Konkan."
   },
   {
    "topic": 47,
@@ -1096,11 +1096,11 @@
    "s": "The Satavahana tax Karukara was levied on:",
    "o": [
     "Land produce",
-    "Artisans and professionals",
     "Trade",
+    "Artisans and professionals",
     "Salt"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Karukara taxed artisans and professionals; Bhaga was land revenue and Moturpha the tax on trades."
   },
   {
@@ -1112,10 +1112,10 @@
    "o": [
     "1/4",
     "1/3",
-    "1/6",
-    "1/8"
+    "1/8",
+    "1/6"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Bhaga, the land revenue, was one-sixth of the harvest."
   },
   {
@@ -1125,12 +1125,12 @@
    "shape": "one-liner",
    "s": "Which immunity came with Satavahana tax-free land grants?",
    "o": [
+    "Royal officers and soldiers could not enter the granted land",
     "Donees could issue coins",
     "Donees could raise their own armies",
-    "Donees were exempt from guild rules",
-    "Royal officers and soldiers could not enter the granted land"
+    "Donees were exempt from guild rules"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Granted land was immune from entry by royal officers and soldiers."
   },
   {
@@ -1140,12 +1140,12 @@
    "shape": "one-liner",
    "s": "With the village at Tirasmri, Gautamiputra Satakarni gave monks how many nivartanas of his own land?",
    "o": [
-    "100",
     "35",
+    "100",
     "200",
     "1,000"
    ],
-   "a": 0,
+   "a": 1,
    "x": "He gave a village at Tirasmri and 100 nivartanas of his own land."
   },
   {
@@ -1156,11 +1156,11 @@
    "s": "Irrigation devices called ghatiyantras were made by which Satavahana guild?",
    "o": [
     "Kolika",
-    "Udayantrika",
     "Tailika",
+    "Udayantrika",
     "Gandhika"
    ],
-   "a": 1,
+   "a": 2,
    "x": "The Udayantrika guild made water-machines; Kolika were weavers."
   },
   {
@@ -1172,10 +1172,10 @@
    "o": [
     "Gold",
     "Diamonds",
-    "Copper and iron",
-    "Fine cotton"
+    "Fine cotton",
+    "Copper and iron"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Guntupalli yielded copper and iron, not gold; Palnadu gave diamonds and Guduru fine cotton."
   },
   {
@@ -1185,12 +1185,12 @@
    "shape": "one-liner",
    "s": "How many guilds are mentioned in Satavahana inscriptions?",
    "o": [
+    "18",
     "12",
     "35",
-    "7",
-    "18"
+    "7"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Satavahana inscriptions mention 18 guilds."
   },
   {
@@ -1200,12 +1200,12 @@
    "shape": "one-liner",
    "s": "Ushavadatta's second deposit of 1,000 karshapanas carried interest at:",
    "o": [
-    "3/4% a month",
     "1% a month",
+    "3/4% a month",
     "2% a month",
     "1/2% a month"
    ],
-   "a": 0,
+   "a": 1,
    "x": "2,000 karshapanas earned 1% a month and 1,000 karshapanas 3/4% a month."
   },
   {
@@ -1216,27 +1216,27 @@
    "s": "On the main route from the west coast into the Deccan, Kalyan was linked to Junnar through:",
    "o": [
     "Tagara",
-    "The Naneghat pass",
     "Bharukachha",
+    "The Naneghat pass",
     "Vengi"
    ],
-   "a": 1,
+   "a": 2,
    "x": "The route ran Kalyan - Naneghat pass - Junnar - Paithan."
   },
   {
    "topic": 47,
    "sec": 6,
    "angle": "22",
-   "shape": "one-liner",
-   "s": "The port Maisolia, noted by Ptolemy for textiles, is identified with:",
+   "shape": "match",
+   "s": "Which of the following port – identification pairs is correctly matched?",
    "o": [
-    "Ghantasala",
-    "Gudur",
-    "Machilipatnam",
-    "Bharuch"
+    "Kantakossyla – Gudur",
+    "Koddura – Ghantasala",
+    "Vengipuram – Dharanikota",
+    "Maisolia – Machilipatnam"
    ],
-   "a": 2,
-   "x": "Maisolia is Machilipatnam; Kantakossyla is Ghantasala and Koddura is near Gudur."
+   "a": 3,
+   "x": "Maisolia is Machilipatnam; Kantakossyla is Ghantasala, Koddura is the Gudur area and Vengipuram is Pedavegi."
   },
   {
    "topic": 47,
@@ -1287,16 +1287,16 @@
    "topic": 47,
    "sec": 8,
    "angle": "2,18",
-   "shape": "one-liner",
-   "s": "Which metal was most commonly used for Satavahana coins?",
+   "shape": "statements",
+   "s": "Consider the following statements about Satavahana coinage:\n1. Lead was the most commonly used metal.\n2. Gold coins were issued for overseas trade.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Copper",
-    "Silver",
-    "Lead",
-    "Gold"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 2,
-   "x": "Lead was the most common metal; the Satavahanas issued no gold coins."
+   "a": 0,
+   "x": "Lead was the most common metal; the Satavahanas issued no gold coins and used gold only as bullion."
   },
   {
    "topic": 47,
@@ -1307,10 +1307,10 @@
    "o": [
     "3,730",
     "2,000",
-    "12,500",
-    "13,270"
+    "13,270",
+    "12,500"
    ],
-   "a": 3,
+   "a": 2,
    "x": "The Jogalthambi hoard had 13,270 coins; 3,730 is the Ikshvaku Phanigiri pot."
   },
   {
@@ -1320,12 +1320,12 @@
    "shape": "one-liner",
    "s": "The Phanigiri pot of 3,730 lead coins belongs to which dynasty?",
    "o": [
-    "Ikshvakus",
     "Satavahanas",
     "Pallavas",
-    "Salankayanas"
+    "Salankayanas",
+    "Ikshvakus"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Phanigiri lead coins are Ikshvaku, with an elephant obverse and the Ujjain symbol on the reverse."
   },
   {
@@ -1335,12 +1335,12 @@
    "shape": "one-liner",
    "s": "Lead, copper and bronze coins with bull and lion symbols were issued by the:",
    "o": [
-    "Ikshvakus",
     "Pallavas",
+    "Ikshvakus",
     "Satavahanas",
     "Eastern Chalukyas"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The Pallavas issued lead, copper and bronze coins with bull and lion symbols."
   },
   {
@@ -1351,11 +1351,11 @@
    "s": "Satavahana portrait coins began with:",
    "o": [
     "Satakarni I",
-    "Simuka",
     "Gautamiputra Satakarni",
+    "Simuka",
     "Hala"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Portrait coins, an indigenous innovation, began with Gautamiputra Satakarni."
   },
   {
@@ -1367,10 +1367,10 @@
    "o": [
     "Satavahanas",
     "Early Ikshvakus",
-    "Eastern Chalukyas of Vengi",
-    "Salankayanas"
+    "Salankayanas",
+    "Eastern Chalukyas of Vengi"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Sanskrit replaced Prakrit under the Salankayanas; the Satavahanas and early Ikshvakus used Prakrit."
   },
   {
@@ -1380,12 +1380,12 @@
    "shape": "one-liner",
    "s": "The first complete Sanskrit inscription is the:",
    "o": [
-    "Junagadh inscription of Rudradaman",
     "Hathigumpha inscription",
     "Nasik Prasasti",
-    "Naneghat inscription"
+    "Naneghat inscription",
+    "Junagadh inscription of Rudradaman"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Rudradaman's Junagadh inscription is the first complete Sanskrit inscription."
   },
   {
@@ -1395,12 +1395,12 @@
    "shape": "one-liner",
    "s": "Which Telugu word occurs in the Myakadoni inscription of Pulumavi?",
    "o": [
-    "Nagabu",
     "Vepuru",
+    "Nagabu",
     "Atta",
     "Pilla"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Myakadoni has 'Vepuru'; 'Nagabu' is from Amaravati and 'Atta', 'Pilla' are Desi words in the Gathasaptasati."
   },
   {
@@ -1411,11 +1411,11 @@
    "s": "Satavahana kings themselves mainly followed which religion?",
    "o": [
     "Buddhism",
-    "Jainism",
     "Vedic religion",
+    "Jainism",
     "Ajivika"
    ],
-   "a": 2,
+   "a": 1,
    "x": "The kings followed Vedic religion (Ashvamedha), while queens and women donors supported Buddhism."
   },
   {
@@ -1442,10 +1442,10 @@
    "o": [
     "Nigama Sabha",
     "Sreni",
-    "Gulma",
-    "Mantri Parishad"
+    "Mantri Parishad",
+    "Gulma"
    ],
-   "a": 3,
+   "a": 2,
    "x": "The king's council was the Mantri Parishad; the Nigama Sabha was an urban council."
   }
  ]

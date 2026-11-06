@@ -1,0 +1,1350 @@
+{
+ "reshape": {
+  "na19e4236d4b": {
+   "shape": "statements",
+   "s": "Consider the following statements about ancient Indian scientists and physicians:\n1. Charaka belonged to the Gupta period.\n2. Bhaskara II belonged to the twelfth century.\n3. Vagbhata wrote the Ashtanga Hridaya.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Bhaskara II belonged to the twelfth century and Vagbhata wrote the Ashtanga Hridaya. Statement 1 is wrong: Charaka belonged to the Kushana period, not the Gupta period."
+  },
+  "nindian-history-48-8": {
+   "shape": "NOT",
+   "s": "Which of the following physician – patron pairs is NOT correctly matched?",
+   "o": [
+    "Charaka – Bimbisara",
+    "Jivaka – Bimbisara",
+    "Charaka – Kanishka",
+    "Dhanvantari – Chandragupta II"
+   ],
+   "a": 0,
+   "x": "Charaka was physician to Kanishka, not Bimbisara. Jivaka served Bimbisara and Dhanvantari was at the court of Chandragupta II."
+  },
+  "nindian-history-48-17": {
+   "shape": "statements",
+   "s": "Consider the following statements about ancient physicians:\n1. Jivaka treated Chandapradyota of Avanti.\n2. Dhanvantari was the physician of Bimbisara.\n3. Charaka served Kanishka.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Jivaka treated Chandapradyota and Charaka served Kanishka. Statement 2 is wrong: Dhanvantari is counted among the Navaratnas of Chandragupta II, not with Bimbisara."
+  },
+  "n8587ce42845": {
+   "shape": "statements",
+   "s": "Consider the following statements about Sanskrit authors:\n1. Dandin wrote the Kavyadarsha.\n2. Bhatti wrote the Ravanavadha.\n3. Dandin wrote the Dasakumaracharita.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Dandin wrote both the Dasakumaracharita and the Kavyadarsha, while Bhatti wrote the Ravanavadha, so all three are correct."
+  },
+  "nindian-history-71-17": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the history of the Ajanta caves?",
+   "o": [
+    "The earliest caves are associated with the Satavahanas.",
+    "The Vakataka phase came before the Satavahana phase.",
+    "John Smith rediscovered them in 1819 during a tiger hunt.",
+    "They were declared a UNESCO World Heritage Site in 1983."
+   ],
+   "a": 1,
+   "x": "The earliest Ajanta caves are Satavahana (2nd–1st century BCE) and the later phase is Vakataka (5th century CE), so the Vakataka phase came after, not before."
+  },
+  "n4b94b30972d": {
+   "shape": "one-liner",
+   "s": "In the Vardhana line, who ruled immediately before Harshavardhana?",
+   "o": [
+    "Adityavardhana",
+    "Prabhakaravardhana",
+    "Rajyavardhana",
+    "Pushyabhuti"
+   ],
+   "a": 2,
+   "x": "The order is Adityavardhana, Prabhakaravardhana, Rajyavardhana and Harshavardhana, so Rajyavardhana came just before Harsha."
+  },
+  "n5fde81d376f": {
+   "shape": "NOT",
+   "s": "Which of the following chronological statements is NOT correct?",
+   "o": [
+    "Chola Parantaka I came before Pala Gopala.",
+    "Pallava Mahendravarman I came before Pala Gopala.",
+    "Pala Gopala came before Pratihara Bhoja.",
+    "Pratihara Bhoja came before Chola Parantaka I."
+   ],
+   "a": 0,
+   "x": "The order is Pallava Mahendravarman I, Pala Gopala, Pratihara Bhoja and Chola Parantaka I, so Parantaka I came after Gopala, not before."
+  }
+ },
+ "new": [
+  {
+   "topic": 66,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Gupta stone sculpture grew out of which earlier school of art?",
+   "o": [
+    "Gandhara school",
+    "Mathura school",
+    "Amaravati school",
+    "Pala school"
+   ],
+   "a": 1,
+   "x": "Gupta stone sculpture developed from the Mathura school; the Sarnath school was its Gupta offshoot."
+  },
+  {
+   "topic": 66,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Sarnath school Buddha images of the Gupta period typically show which mudra?",
+   "o": [
+    "Bhumisparsha mudra",
+    "Abhaya mudra",
+    "Dharmachakra mudra",
+    "Varada mudra"
+   ],
+   "a": 2,
+   "x": "Sarnath images in polished Chunar sandstone with little decoration typically show the Dharmachakra mudra."
+  },
+  {
+   "topic": 66,
+   "sec": 10,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The Ajanta caves are cut into a horseshoe-shaped gorge of which river?",
+   "o": [
+    "Baghani",
+    "Godavari",
+    "Tapti",
+    "Waghora"
+   ],
+   "a": 3,
+   "x": "Ajanta lies in a horseshoe gorge of the Waghora river in the Sahyadri ranges; the Baghani flows past Bagh."
+  },
+  {
+   "topic": 66,
+   "sec": 10,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The Ajanta caves are located in which district of Maharashtra?",
+   "o": [
+    "Aurangabad",
+    "Nashik",
+    "Pune",
+    "Nagpur"
+   ],
+   "a": 0,
+   "x": "Ajanta is in Aurangabad district, Maharashtra, as is Ellora."
+  },
+  {
+   "topic": 66,
+   "sec": 10,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "In which year were the Ajanta caves declared a UNESCO World Heritage Site?",
+   "o": [
+    "1819",
+    "1983",
+    "1986",
+    "1993"
+   ],
+   "a": 1,
+   "x": "Ajanta was listed by UNESCO in 1983 along with Ellora; 1819 is the year of its rediscovery."
+  },
+  {
+   "topic": 66,
+   "sec": 10,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Mahaparinirvana in Cave 26 at Ajanta is a:",
+   "o": [
+    "Tempera painting",
+    "Brahmi inscription",
+    "Sculpture",
+    "Terracotta plaque"
+   ],
+   "a": 2,
+   "x": "The Cave 26 Mahaparinirvana is a sculpture, not a painting – a common trap."
+  },
+  {
+   "topic": 66,
+   "sec": 10,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The 'Dying Princess' painting at Ajanta is found in Cave:",
+   "o": [
+    "1",
+    "10",
+    "17",
+    "16"
+   ],
+   "a": 3,
+   "x": "Cave 16, excavated by Varahadeva, minister of Harishena, has the Dying Princess."
+  },
+  {
+   "topic": 66,
+   "sec": 10,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "The Bagh caves are located in which district of Madhya Pradesh?",
+   "o": [
+    "Dhar",
+    "Vidisha",
+    "Raisen",
+    "Panna"
+   ],
+   "a": 0,
+   "x": "Bagh lies in Dhar district on the Vindhya slopes by the Baghani river; Udayagiri is near Vidisha."
+  },
+  {
+   "topic": 66,
+   "sec": 10,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "How many caves make up the Gupta-period Udayagiri group near Vidisha?",
+   "o": [
+    "9",
+    "20",
+    "13",
+    "30"
+   ],
+   "a": 1,
+   "x": "Udayagiri near Vidisha has 20 caves (19 Hindu, 1 Jain) under Chandragupta II; 30 is Ajanta's count."
+  },
+  {
+   "topic": 66,
+   "sec": 10,
+   "angle": "12",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Gupta-age caves?",
+   "o": [
+    "Cave 4 at Bagh is called Rang Mahal.",
+    "Udayagiri has a colossal Varaha panel.",
+    "The Gupta Udayagiri caves are in Odisha.",
+    "Bhairavakonda has eight Kapalika caves."
+   ],
+   "a": 2,
+   "x": "The Gupta Udayagiri caves are near Vidisha in Madhya Pradesh; the Odisha Udayagiri is Kharavela's Jain site."
+  },
+  {
+   "topic": 66,
+   "sec": 8,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Which Gupta temple has a covered ambulatory and is two-storeyed?",
+   "o": [
+    "Temple 17, Sanchi",
+    "Tigawa temple",
+    "Bhitargaon temple",
+    "Parvati temple, Nachna"
+   ],
+   "a": 3,
+   "x": "The Parvati temple at Nachna (Panna) is a stage-2 temple with a covered ambulatory and two storeys."
+  },
+  {
+   "topic": 66,
+   "sec": 8,
+   "angle": "10",
+   "shape": "match",
+   "s": "Which of the following temple – place pairs is correctly matched?",
+   "o": [
+    "Tigawa temple – Katni",
+    "Dashavatara temple – Kanpur",
+    "Bhitargaon temple – Panna",
+    "Parvati temple – Satna"
+   ],
+   "a": 0,
+   "x": "Tigawa is in Katni, MP. Dashavatara is at Deogarh (Lalitpur), Bhitargaon in Kanpur and the Nachna Parvati temple in Panna."
+  },
+  {
+   "topic": 66,
+   "sec": 8,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "The stage-3 Gupta temple with a low square shikhara and panchayatana plan marks the start of which style?",
+   "o": [
+    "Dravida",
+    "Nagara",
+    "Vesara",
+    "Kalinga"
+   ],
+   "a": 1,
+   "x": "Stage 3 (low shikhara, high jagati, panchayatana) marks the beginning of the northern Nagara style."
+  },
+  {
+   "topic": 66,
+   "sec": 8,
+   "angle": "13",
+   "shape": "statements",
+   "s": "Consider the following statements about the stages of Gupta temple building:\n1. Stage 1 temples had a square sanctum and a flat roof.\n2. Stage 2 temples added a covered ambulatory.\n3. Stage 3 temples had no shikhara.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Stage 1 had a flat roof and stage 2 a covered ambulatory; stage 3 had a low square shikhara, so statement 3 is wrong."
+  },
+  {
+   "topic": 66,
+   "sec": 11,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "Gupta gold coins were called:",
+   "o": [
+    "Rupaka",
+    "Karshapana",
+    "Dinara",
+    "Nishka"
+   ],
+   "a": 2,
+   "x": "Gupta gold coins were Dinaras (Roman influence); Rupaka was the silver coin."
+  },
+  {
+   "topic": 66,
+   "sec": 11,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "The tiger-slayer type of Gupta gold coin was issued by:",
+   "o": [
+    "Chandragupta I",
+    "Chandragupta II",
+    "Kumaragupta I",
+    "Samudragupta"
+   ],
+   "a": 3,
+   "x": "Tiger-slayer is Samudragupta's type; the lion-slayer belongs to Chandragupta II."
+  },
+  {
+   "topic": 66,
+   "sec": 11,
+   "angle": "11",
+   "shape": "match",
+   "s": "Which of the following coin type – ruler pairs is correctly matched?",
+   "o": [
+    "Lion-slayer – Chandragupta II",
+    "King feeding peacock – Skandagupta",
+    "King-queen type – Samudragupta",
+    "Archer – Kumaragupta I"
+   ],
+   "a": 0,
+   "x": "Lion-slayer and archer types are Chandragupta II's; the peacock type is Kumaragupta I's and the king-queen type Chandragupta I's."
+  },
+  {
+   "topic": 66,
+   "sec": 11,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "Who was the first Gupta ruler to issue coins?",
+   "o": [
+    "Samudragupta",
+    "Chandragupta I",
+    "Chandragupta II",
+    "Kumaragupta I"
+   ],
+   "a": 1,
+   "x": "Chandragupta I was the first Gupta coin issuer, with the king-queen type showing Kumaradevi."
+  },
+  {
+   "topic": 66,
+   "sec": 3,
+   "angle": "17",
+   "shape": "one-liner",
+   "s": "The Nitisara, a Gupta treatise on polity, was written by:",
+   "o": [
+    "Vishnu Sharma",
+    "Narayana Pandita",
+    "Kamandaka",
+    "Vishakhadatta"
+   ],
+   "a": 2,
+   "x": "Kamandaka wrote the Nitisara; Vishnu Sharma wrote the Panchatantra and Narayana Pandita the Hitopadesha."
+  },
+  {
+   "topic": 66,
+   "sec": 3,
+   "angle": "22",
+   "shape": "one-liner",
+   "s": "The Sanskrit lexicon Amarakosha was compiled by:",
+   "o": [
+    "Varahamihira",
+    "Vararuchi",
+    "Chandragomin",
+    "Amarasimha"
+   ],
+   "a": 3,
+   "x": "Amarasimha, a Navaratna, wrote the Amarakosha – not Varahamihira."
+  },
+  {
+   "topic": 66,
+   "sec": 3,
+   "angle": "20",
+   "shape": "one-liner",
+   "s": "The later Jain Harishena, distinct from the Prayaga Prashasti poet, wrote the:",
+   "o": [
+    "Brihatkatha Kosha",
+    "Kavyadarsha",
+    "Karpuramanjari",
+    "Devichandraguptam"
+   ],
+   "a": 0,
+   "x": "There are two Harishenas: Samudragupta's Prayaga Prashasti poet and a later Jain author of the Brihatkatha Kosha."
+  },
+  {
+   "topic": 66,
+   "sec": 3,
+   "angle": "1,20",
+   "shape": "one-liner",
+   "s": "How many plays are attributed to Bhasa?",
+   "o": [
+    "9",
+    "13",
+    "12",
+    "15"
+   ],
+   "a": 1,
+   "x": "Bhasa, who preceded Kalidasa, is credited with 13 plays, including Svapnavasavadattam and Charudatta."
+  },
+  {
+   "topic": 66,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Kamasutra was written by:",
+   "o": [
+    "Kamandaka",
+    "Dandin",
+    "Vatsyayana",
+    "Bhatti"
+   ],
+   "a": 2,
+   "x": "Vatsyayana wrote the Kamasutra; Kamandaka wrote the Nitisara."
+  },
+  {
+   "topic": 66,
+   "sec": 2,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "Which of the following works of Kalidasa is a lyric poem?",
+   "o": [
+    "Raghuvamsha",
+    "Vikramorvashiyam",
+    "Kumarasambhava",
+    "Ritusamhara"
+   ],
+   "a": 3,
+   "x": "Ritusamhara and Meghaduta are lyric poems; Raghuvamsha and Kumarasambhava are mahakavyas and Vikramorvashiyam a drama."
+  },
+  {
+   "topic": 66,
+   "sec": 2,
+   "angle": "18",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a drama by Kalidasa?",
+   "o": [
+    "Meghaduta",
+    "Abhijnana Shakuntalam",
+    "Malavikagnimitram",
+    "Vikramorvashiyam"
+   ],
+   "a": 0,
+   "x": "Kalidasa's three dramas are Shakuntalam, Malavikagnimitram and Vikramorvashiyam; Meghaduta is a lyric poem."
+  },
+  {
+   "topic": 66,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Bharavi's Kiratarjuniyam places Arjuna's fight with Shiva as a hunter at:",
+   "o": [
+    "Kurukshetra",
+    "Indrakeeladri",
+    "Kailasa",
+    "Hastinapura"
+   ],
+   "a": 1,
+   "x": "Kiratarjuniyam shows Arjuna fighting Shiva disguised as a kirata at the Indrakeeladri hills."
+  },
+  {
+   "topic": 66,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Sriharsha's Naishadhiyacharita tells the story of:",
+   "o": [
+    "Arjuna and Shiva",
+    "Agnimitra and Malavika",
+    "Nala and Damayanti",
+    "Udayana and Vasavadatta"
+   ],
+   "a": 2,
+   "x": "Naishadhiyacharita (12th century) is on Nala and Damayanti; Agnimitra and Malavika is Kalidasa's play."
+  },
+  {
+   "topic": 66,
+   "sec": 5,
+   "angle": "2,16",
+   "shape": "one-liner",
+   "s": "Who was the first to study cyclic quadrilaterals?",
+   "o": [
+    "Aryabhata",
+    "Bhaskara I",
+    "Mahavira",
+    "Brahmagupta"
+   ],
+   "a": 3,
+   "x": "Brahmagupta (c. 598–668 CE) first studied cyclic quadrilaterals and set rules for zero and negatives."
+  },
+  {
+   "topic": 66,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Varahamihira treated the presence of which creature as a sign of underground water?",
+   "o": [
+    "Termites",
+    "Snakes",
+    "Frogs",
+    "Bees"
+   ],
+   "a": 0,
+   "x": "Varahamihira's contributions include termites as a sign of underground water, besides earthquake theories."
+  },
+  {
+   "topic": 66,
+   "sec": 5,
+   "angle": "2,4",
+   "shape": "one-liner",
+   "s": "The Ganitasarasangraha was written by:",
+   "o": [
+    "Bhaskara II",
+    "Mahavira",
+    "Brahmagupta",
+    "Bhaskara I"
+   ],
+   "a": 1,
+   "x": "Mahavira of Karnataka (9th century) wrote the Ganitasarasangraha."
+  },
+  {
+   "topic": 66,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Bijaganita, on algebra, is a part of which work?",
+   "o": [
+    "Aryabhatiya",
+    "Brihat Samhita",
+    "Siddhanta Shiromani",
+    "Brahmasphutasiddhanta"
+   ],
+   "a": 2,
+   "x": "Bhaskara II's Siddhanta Shiromani has four parts: Lilavati, Bijaganita, Ganitadhyaya and Goladhyaya."
+  },
+  {
+   "topic": 66,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Varahamihira's Brihat Jataka is a standard work on:",
+   "o": [
+    "Medicine",
+    "Grammar",
+    "Metallurgy",
+    "Astrology"
+   ],
+   "a": 3,
+   "x": "Brihat Jataka is Varahamihira's standard work on astrology; the Brihat Samhita is his encyclopaedia."
+  },
+  {
+   "topic": 66,
+   "sec": 6,
+   "angle": "19",
+   "shape": "one-liner",
+   "s": "Aryabhata gave the value of pi as:",
+   "o": [
+    "3.1416",
+    "3.1415",
+    "3.1428",
+    "3.14"
+   ],
+   "a": 0,
+   "x": "Aryabhata in the Aryabhatiya (499 CE) gave pi as 3.1416."
+  },
+  {
+   "topic": 66,
+   "sec": 6,
+   "angle": "5,19",
+   "shape": "one-liner",
+   "s": "The earliest epigraphic use of the decimal place-value system is found in the:",
+   "o": [
+    "Gwalior inscription",
+    "Mankani (Sankheda) plates",
+    "Aihole inscription",
+    "Mehrauli pillar inscription"
+   ],
+   "a": 1,
+   "x": "The Mankani (Sankheda) plates of Gujarat, AD 595–596, give the earliest epigraphic place-value use; Gwalior (876 CE) is the earliest zero as a circle."
+  },
+  {
+   "topic": 66,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Bhaskara I wrote decimal numbers with a circle for zero in:",
+   "o": [
+    "499 CE",
+    "595 CE",
+    "629 CE",
+    "876 CE"
+   ],
+   "a": 2,
+   "x": "Bhaskara I used a circle for zero in 629 CE; 876 CE is the Gwalior inscription."
+  },
+  {
+   "topic": 66,
+   "sec": 4,
+   "angle": "6,21",
+   "shape": "one-liner",
+   "s": "In the traditional Navaratna list, Shanku is associated with:",
+   "o": [
+    "Astrology",
+    "Magic",
+    "Grammar",
+    "Sculpture and architecture"
+   ],
+   "a": 3,
+   "x": "Ghatakarpara and Shanku stand for sculpture and architecture; Kshapanaka is astrology and Vetala Bhatta magic."
+  },
+  {
+   "topic": 66,
+   "sec": 7,
+   "angle": "23",
+   "shape": "one-liner",
+   "s": "Gupta-age physicians used which metals in medicine?",
+   "o": [
+    "Iron and mercury",
+    "Copper and tin",
+    "Gold and silver",
+    "Lead and zinc"
+   ],
+   "a": 0,
+   "x": "Gupta physicians used iron and mercury and performed lithotomy."
+  },
+  {
+   "topic": 67,
+   "sec": 6,
+   "angle": "2,16",
+   "shape": "one-liner",
+   "s": "Mayura, a court poet of Harsha, wrote the:",
+   "o": [
+    "Kadambari",
+    "Suryashataka",
+    "Gaudavaho",
+    "Karpuramanjari"
+   ],
+   "a": 1,
+   "x": "Mayura's Suryashataka is a hymn to the Sun; Kadambari is Bana's, Gaudavaho Vakpati's and Karpuramanjari Rajasekhara's."
+  },
+  {
+   "topic": 67,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which of the following was a court poet of Harshavardhana?",
+   "o": [
+    "Vakpati",
+    "Bhavabhuti",
+    "Matanga Divakara",
+    "Rajasekhara"
+   ],
+   "a": 2,
+   "x": "Banabhatta, Mayura and Matanga Divakara were Harsha's court poets; Vakpati and Bhavabhuti served Yashovarman."
+  },
+  {
+   "topic": 67,
+   "sec": 6,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "Banabhatta's native village Pritikuta lay on the banks of the:",
+   "o": [
+    "Narmada",
+    "Gandak",
+    "Yamuna",
+    "Sona"
+   ],
+   "a": 3,
+   "x": "Banabhatta, Harsha's Asthana Kavi, came from Pritikuta on the Sona river."
+  },
+  {
+   "topic": 67,
+   "sec": 9,
+   "angle": "3,17",
+   "shape": "one-liner",
+   "s": "Nalanda University was founded by:",
+   "o": [
+    "Kumaragupta I",
+    "Chandragupta II",
+    "Skandagupta",
+    "Harshavardhana"
+   ],
+   "a": 0,
+   "x": "Gupta ruler Kumaragupta I founded Nalanda; Harsha was a patron, not the founder."
+  },
+  {
+   "topic": 67,
+   "sec": 9,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "At Nalanda, Hiuen Tsang studied which subject under Silabhadra?",
+   "o": [
+    "Abhidhamma Pitaka",
+    "Yogashastra",
+    "Arthashastra",
+    "Ayurveda"
+   ],
+   "a": 1,
+   "x": "Hiuen Tsang learnt Yogashastra under Silabhadra for about one and a half years."
+  },
+  {
+   "topic": 67,
+   "sec": 9,
+   "angle": "17",
+   "shape": "one-liner",
+   "s": "Nalanda in Harsha's time was maintained by the revenue of about how many villages?",
+   "o": [
+    "20",
+    "200",
+    "100",
+    "1000"
+   ],
+   "a": 2,
+   "x": "Nalanda was funded by the revenue of 100 villages and patrons such as Harsha."
+  },
+  {
+   "topic": 67,
+   "sec": 1,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Prabhavatigupta, the Vakataka queen, was the ____ of Chandragupta II.",
+   "o": [
+    "sister",
+    "wife",
+    "granddaughter",
+    "daughter"
+   ],
+   "a": 3,
+   "x": "Prabhavatigupta was the daughter of Chandragupta II and married Rudrasena II."
+  },
+  {
+   "topic": 67,
+   "sec": 1,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Prabhavatigupta was married to the Vakataka king:",
+   "o": [
+    "Rudrasena II",
+    "Pravarasena I",
+    "Pravarasena II",
+    "Harishena"
+   ],
+   "a": 0,
+   "x": "Rudrasena II married Prabhavatigupta, who later ruled as regent."
+  },
+  {
+   "topic": 67,
+   "sec": 2,
+   "angle": "7,14",
+   "shape": "one-liner",
+   "s": "Who was Harsha's ally against Shashanka of Gauda?",
+   "o": [
+    "Dhruvasena II of Valabhi",
+    "Bhaskaravarman of Kamarupa",
+    "Devagupta of Malwa",
+    "Pulakesin II of Badami"
+   ],
+   "a": 1,
+   "x": "Bhaskaravarman of Kamarupa (Assam) was Harsha's ally; Dhruvasena II became a vassal and Pulakesin II defeated him."
+  },
+  {
+   "topic": 67,
+   "sec": 2,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "Harsha's elder brother Rajyavardhana was killed by:",
+   "o": [
+    "Devagupta",
+    "Pulakesin II",
+    "Shashanka",
+    "Dhruvasena II"
+   ],
+   "a": 2,
+   "x": "Shashanka of Gauda killed Rajyavardhana; Devagupta of Malwa killed Grahavarman."
+  },
+  {
+   "topic": 67,
+   "sec": 2,
+   "angle": "7",
+   "shape": "match",
+   "s": "Which of the following kingdom – ruler pairs is INCORRECTLY matched?",
+   "o": [
+    "Gauda – Shashanka",
+    "Kamarupa – Bhaskaravarman",
+    "Valabhi – Dhruvasena II",
+    "Malwa – Grahavarman"
+   ],
+   "a": 3,
+   "x": "Grahavarman was a Maukhari of Kannauj; Malwa was ruled by Devagupta, who killed him."
+  },
+  {
+   "topic": 67,
+   "sec": 4,
+   "angle": "4,10",
+   "shape": "one-liner",
+   "s": "Harsha's title Sakalottarapathanatha means:",
+   "o": [
+    "Lord of all North India",
+    "Lord of the Deccan",
+    "Lord of the three seas",
+    "Lord of Prayag"
+   ],
+   "a": 0,
+   "x": "Sakalottarapathanatha (Uttarapathanatha) means lord of all North India."
+  },
+  {
+   "topic": 67,
+   "sec": 4,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "After defeating Harsha on the Narmada, Pulakesin II took the title:",
+   "o": [
+    "Siladitya",
+    "Paramesvara",
+    "Uttarapathanatha",
+    "Samrat"
+   ],
+   "a": 1,
+   "x": "Pulakesin II took the title Paramesvara; Siladitya was Harsha's own title."
+  },
+  {
+   "topic": 67,
+   "sec": 4,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "Pulakesin II, who defeated Harsha, belonged to the Chalukyas of:",
+   "o": [
+    "Kalyani",
+    "Vengi",
+    "Badami",
+    "Gujarat"
+   ],
+   "a": 2,
+   "x": "Pulakesin II was a Chalukya of Badami; his Aihole inscription (634 CE) records the Narmada victory."
+  },
+  {
+   "topic": 67,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Harshavardhana ascended the throne in 606 CE at the age of:",
+   "o": [
+    "18",
+    "20",
+    "25",
+    "16"
+   ],
+   "a": 3,
+   "x": "Harsha became king in 606 CE at 16, which also began the Harsha era."
+  },
+  {
+   "topic": 67,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Harsha died without an heir in:",
+   "o": [
+    "647 CE",
+    "629 CE",
+    "643 CE",
+    "655 CE"
+   ],
+   "a": 0,
+   "x": "Harsha died in 647 CE without an heir, ending the Pushyabhuti line; 643 CE was the Kannauj assembly."
+  },
+  {
+   "topic": 67,
+   "sec": 3,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Who was the first great ruler of the Pushyabhuti dynasty and the father of Harsha?",
+   "o": [
+    "Adityavardhana",
+    "Prabhakaravardhana",
+    "Pushyabhuti",
+    "Rajyavardhana"
+   ],
+   "a": 1,
+   "x": "Prabhakaravardhana, husband of Yashomati, was the first great Pushyabhuti ruler; Pushyabhuti was the founder."
+  },
+  {
+   "topic": 67,
+   "sec": 3,
+   "angle": "13",
+   "shape": "statements",
+   "s": "Consider the following statements about the Pushyabhuti dynasty:\n1. It was founded by Pushyabhuti at Thanesar.\n2. Rajyavardhana was Harsha's younger brother.\n3. Queen Yashomati became sati in 605.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Pushyabhuti founded the line at Thanesar and Yashomati became sati in 605. Rajyavardhana was Harsha's elder brother, so statement 2 is wrong."
+  },
+  {
+   "topic": 67,
+   "sec": 5,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "Which record of Harsha is a land grant used for his chronology?",
+   "o": [
+    "Aihole inscription",
+    "Prayaga Prashasti",
+    "Madhuban plate",
+    "Gwalior prashasti"
+   ],
+   "a": 2,
+   "x": "The Madhuban plate is Harsha's land grant used for chronology with the Sonpat seal; Aihole is Pulakesin II's."
+  },
+  {
+   "topic": 67,
+   "sec": 5,
+   "angle": "1,15",
+   "shape": "one-liner",
+   "s": "Which work of Kalhana also gives information on Harsha?",
+   "o": [
+    "Kavyamimamsa",
+    "Suryashataka",
+    "Dasavatar Charita",
+    "Rajatarangini"
+   ],
+   "a": 3,
+   "x": "Kalhana's Rajatarangini also has information on Harsha; Kavyamimamsa is Rajasekhara's."
+  },
+  {
+   "topic": 67,
+   "sec": 5,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Harsha's play Nagananda deals with:",
+   "o": [
+    "The Buddhist theme of self-sacrifice",
+    "A romantic court comedy",
+    "A biography of Harsha",
+    "A hymn to the Sun"
+   ],
+   "a": 0,
+   "x": "Nagananda has a Buddhist theme of self-sacrifice; Ratnavali and Priyadarshika are romantic comedies."
+  },
+  {
+   "topic": 67,
+   "sec": 7,
+   "angle": "19",
+   "shape": "one-liner",
+   "s": "Hiuen Tsang attended which of Harsha's Prayag assemblies?",
+   "o": [
+    "First",
+    "Sixth",
+    "Fifth",
+    "Seventh"
+   ],
+   "a": 1,
+   "x": "The Prayag assembly met every five years and Hiuen Tsang attended the sixth."
+  },
+  {
+   "topic": 67,
+   "sec": 7,
+   "angle": "19",
+   "shape": "one-liner",
+   "s": "At the Prayag assembly, which deities were worshipped on successive days?",
+   "o": [
+    "Buddha, Vishnu and Shiva",
+    "Sun, Vishnu and Durga",
+    "Buddha, Sun and Shiva",
+    "Buddha, Mahavira and Shiva"
+   ],
+   "a": 2,
+   "x": "Buddha, Surya and Shiva were honoured on successive days, so Prayag was not only for Mahayana."
+  },
+  {
+   "topic": 67,
+   "sec": 7,
+   "angle": "20",
+   "shape": "one-liner",
+   "s": "Harsha began his religious life as a follower of:",
+   "o": [
+    "Hinayana",
+    "Mahayana",
+    "Jainism",
+    "Saivism"
+   ],
+   "a": 3,
+   "x": "Harsha moved from Saivism to Hinayana and then Mahayana Buddhism."
+  },
+  {
+   "topic": 67,
+   "sec": 8,
+   "angle": "21",
+   "shape": "NOT",
+   "s": "Which of the following was NOT one of the four ordeals used under Harsha?",
+   "o": [
+    "Banishment",
+    "Water",
+    "Fire",
+    "Poison"
+   ],
+   "a": 0,
+   "x": "The four ordeals were water, fire, weighing and poison."
+  },
+  {
+   "topic": 67,
+   "sec": 8,
+   "angle": "21",
+   "shape": "one-liner",
+   "s": "In Harsha's administration, the officer Skandagupta was in charge of the:",
+   "o": [
+    "Cavalry",
+    "Elephant force",
+    "War and peace",
+    "Commander-in-chief's office"
+   ],
+   "a": 1,
+   "x": "Skandagupta was Harsha's elephant-force officer, not the Gupta king; Kuntala led the cavalry."
+  },
+  {
+   "topic": 67,
+   "sec": 8,
+   "angle": "9,21",
+   "shape": "match",
+   "s": "Which of the following officer – charge pairs of Harsha's time is correctly matched?",
+   "o": [
+    "Avanti – Elephant force",
+    "Simhanada – War and peace",
+    "Kuntala – Cavalry",
+    "Skandagupta – Commander-in-chief"
+   ],
+   "a": 2,
+   "x": "Kuntala headed the cavalry. Avanti handled war and peace, Simhanada was commander-in-chief and Skandagupta led the elephant force."
+  },
+  {
+   "topic": 67,
+   "sec": 10,
+   "angle": "5,18",
+   "shape": "one-liner",
+   "s": "Hiuen Tsang's account of India is called:",
+   "o": [
+    "Rajatarangini",
+    "Indica",
+    "Kitab-ul-Hind",
+    "Si-Yu-Ki"
+   ],
+   "a": 3,
+   "x": "Si-Yu-Ki ('Records of the Western World') is Hiuen Tsang's work."
+  },
+  {
+   "topic": 67,
+   "sec": 10,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "Which religion does Hiuen Tsang's account not mention at all?",
+   "o": [
+    "Jainism",
+    "Buddhism",
+    "Brahmanism",
+    "Sun worship"
+   ],
+   "a": 0,
+   "x": "Hiuen Tsang noted Buddhism declining and Brahmanism rising, and described the Multan Sun temple, but did not mention Jainism."
+  },
+  {
+   "topic": 67,
+   "sec": 10,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Hiuen Tsang set out for India from which Tang capital?",
+   "o": [
+    "Luoyang",
+    "Changan",
+    "Nanjing",
+    "Beijing"
+   ],
+   "a": 1,
+   "x": "He left Changan in 629 AD despite Emperor Taizong's ban on foreign travel."
+  },
+  {
+   "topic": 67,
+   "sec": 10,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Hiuen Tsang returned to China after how many years?",
+   "o": [
+    "10",
+    "15",
+    "13",
+    "16"
+   ],
+   "a": 2,
+   "x": "Hiuen Tsang returned after 13 years and was welcomed."
+  },
+  {
+   "topic": 67,
+   "sec": 11,
+   "angle": "22",
+   "shape": "one-liner",
+   "s": "Hiuen Tsang visited Andhra (639–640 CE) during the time of:",
+   "o": [
+    "Indra Varma",
+    "Narasimhavarman",
+    "Bhaskaravarman",
+    "Kubja Vishnuvardhana"
+   ],
+   "a": 3,
+   "x": "He visited An-to-lo in 639–640 CE in Kubja Vishnuvardhana's time, with Vengi as capital."
+  },
+  {
+   "topic": 67,
+   "sec": 11,
+   "angle": "22",
+   "shape": "one-liner",
+   "s": "According to Hiuen Tsang, the monks of Dhanyakataka studied the:",
+   "o": [
+    "Abhidhamma Pitaka",
+    "Vinaya Pitaka",
+    "Yogashastra",
+    "Vedas"
+   ],
+   "a": 0,
+   "x": "Dhanyakataka had about 20 Mahasanghika viharas with about 1,000 monks studying the Abhidhamma Pitaka."
+  },
+  {
+   "topic": 68,
+   "sec": 4,
+   "angle": "2,1",
+   "shape": "one-liner",
+   "s": "The Rashtrakuta king Dhruva defeated which Pratihara ruler in the north?",
+   "o": [
+    "Nagabhata I",
+    "Vatsaraja",
+    "Nagabhata II",
+    "Mihira Bhoja"
+   ],
+   "a": 1,
+   "x": "Dhruva (780–793) defeated Vatsaraja and Dharmapala, not Nagabhata I or II."
+  },
+  {
+   "topic": 68,
+   "sec": 4,
+   "angle": "2,1",
+   "shape": "one-liner",
+   "s": "Govinda III defeated which Pratihara ruler during his northern campaign?",
+   "o": [
+    "Vatsaraja",
+    "Mihira Bhoja",
+    "Nagabhata II",
+    "Mahendrapala I"
+   ],
+   "a": 2,
+   "x": "Govinda III, Dhruva's successor, defeated Nagabhata II and Dharmapala on his Himalayan campaign."
+  },
+  {
+   "topic": 68,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Who succeeded Dhruva and led the Rashtrakuta campaign up to the Himalayas?",
+   "o": [
+    "Amoghavarsha I",
+    "Indra III",
+    "Krishna III",
+    "Govinda III"
+   ],
+   "a": 3,
+   "x": "Govinda III, Dhruva's successor, made the Himalayan campaign described in the Sanjan plates."
+  },
+  {
+   "topic": 68,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Besides his northern victories, Dhruva also defeated which ruler of Vengi?",
+   "o": [
+    "Vishnuvardhana IV",
+    "Vishnuvardhana I",
+    "Vijayaditya II",
+    "Gunaga Vijayaditya"
+   ],
+   "a": 0,
+   "x": "The AP angle: Dhruva defeated Vishnuvardhana IV of Vengi."
+  },
+  {
+   "topic": 68,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Nagabhata II defeated Dharmapala at:",
+   "o": [
+    "Kannauj",
+    "Monghyr",
+    "Manyakheta",
+    "Vikramashila"
+   ],
+   "a": 1,
+   "x": "In phase III Nagabhata II ousted Chakrayudha and defeated Dharmapala at Monghyr."
+  },
+  {
+   "topic": 68,
+   "sec": 3,
+   "angle": "6,1",
+   "shape": "statements",
+   "s": "Consider the following statements about the third phase of the struggle for Kannauj:\n1. Nagabhata II defeated Dharmapala at Monghyr.\n2. Nagabhata II was a Pala ruler.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Nagabhata II beat Dharmapala at Monghyr, but he was a Pratihara, not a Pala."
+  },
+  {
+   "topic": 68,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "In phase IV of the struggle, which Pratihara ruler held Kannauj with an empire from the Himalayas to the Narmada?",
+   "o": [
+    "Vatsaraja",
+    "Nagabhata II",
+    "Mihira Bhoja",
+    "Mahipala I"
+   ],
+   "a": 2,
+   "x": "In the late 9th century Mihira Bhoja and Mahendrapala I held Kannauj; Mahipala I was defeated by Indra III."
+  },
+  {
+   "topic": 68,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The Khalimpur plates of Dharmapala record the:",
+   "o": [
+    "Himalayan campaign of Govinda III",
+    "Victories of Nagabhata II",
+    "Sack of Kannauj by Indra III",
+    "Election of Gopala"
+   ],
+   "a": 3,
+   "x": "The Pala Khalimpur plates record Gopala's election and Chakrayudha's installation."
+  },
+  {
+   "topic": 68,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Gopala was elected Pala king to end which condition?",
+   "o": [
+    "Matsya Nyaya",
+    "Dharma Vijaya",
+    "Vishti",
+    "Digvijaya"
+   ],
+   "a": 0,
+   "x": "Gopala's election ended Matsya Nyaya, the law of the jungle, as the Khalimpur plates say."
+  },
+  {
+   "topic": 68,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The Gwalior prashasti, recording Nagabhata II's victories, belongs to which dynasty?",
+   "o": [
+    "Pala",
+    "Gurjara-Pratihara",
+    "Rashtrakuta",
+    "Chandela"
+   ],
+   "a": 1,
+   "x": "The Gwalior prashasti of Mihira Bhoja is a Pratihara record; Sanjan is Rashtrakuta and Khalimpur Pala."
+  },
+  {
+   "topic": 68,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Pala king Dharmapala founded which university?",
+   "o": [
+    "Nalanda",
+    "Valabhi",
+    "Vikramashila",
+    "Taxila"
+   ],
+   "a": 2,
+   "x": "Dharmapala, titled Param Saugat, founded Vikramashila."
+  },
+  {
+   "topic": 68,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Jayashakti, in the list of early medieval kings, belonged to which dynasty?",
+   "o": [
+    "Paramara",
+    "Gurjara-Pratihara",
+    "Rashtrakuta",
+    "Chandela"
+   ],
+   "a": 3,
+   "x": "Jayashakti was a Chandela, not a Paramara; Bhoja of Dhar was the Paramara."
+  },
+  {
+   "topic": 68,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Which Rajput dynasty began as Pratihara feudatories and rose after the tripartite struggle?",
+   "o": [
+    "Chandelas",
+    "Gahadavalas",
+    "Kalachuris",
+    "Palas"
+   ],
+   "a": 0,
+   "x": "The Chandelas began as Pratihara feudatories in the early 9th century and rose as the three powers weakened."
+  },
+  {
+   "topic": 68,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The tripartite struggle for Kannauj was fought mainly in which period?",
+   "o": [
+    "6th–7th century CE",
+    "8th–9th century CE",
+    "10th–11th century CE",
+    "11th–12th century CE"
+   ],
+   "a": 1,
+   "x": "The struggle belongs to the 8th–9th century CE, starting c. 780–800."
+  }
+ ]
+}
