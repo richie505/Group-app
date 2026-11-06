@@ -100,12 +100,24 @@ def clean(t, opt=False):
     return re.sub(r"\s{2,}", " ", t).strip()
 
 
+# reasoning / aptitude questions the keyword list above misses (statement-conclusion, data graphs, ages, dice)
+APT = re.compile(r"conclusions? (?:among|numbered|I and II|A and B|follows?|is true|are true|given)|followed by (?:two|three) conclusions|"
+ r"assumptions? (?:is|are) implicit|implicit in the statement|courses of action|coded as|code language|"
+ r"next (?:term|number) in|missing (?:number|term|letter|figure)|blood relat|means\s*'?\s*[A-Z] is the (?:son|father|daughter|mother|brother|sister)|"
+ r"facing (?:north|south|east|west)|odd one out|syllogism|related word pair|"
+ r"\b[A-Z]\s*[<>≤≥]\s*[A-Z]\s*[<>≤≥]\s*[A-Z]\b|mirror image|water image|positions of the same die|face opposite|"
+ r"(?:simple|compound) interest|study the following (?:graph|table|chart|data)|line graph shows|"
+ r"work (?:in|alone in) \d+ days|cistern|present ages?|years? ago,? .{0,30}age|age is (?:half|twice|one)", re.I)
+# a print timestamp left in an option by the PDF ("11/41 5/18/23, 5:08 PM")
+STAMP = re.compile(r"\s*\d{1,3}/\d{1,3}\s+\d{1,2}/\d{1,2}/\d{2,4},\s*\d{1,2}:\d{2}\s*[AP]M\s*")
+
+
 def usable(q):
     """A question we can show: its text, four options, no OCR debris (Telugu mixed in, an option that is a question)."""
     s, o = q["s"], q["o"]
     if (MENTAL.search(s) and not q["file"].startswith("Ghatna")) or "COMPREHENSION" in q["s"]:
         return False
-    if TCS_LEFT.search(s + " ".join(o)):
+    if TCS_LEFT.search(s + " ".join(o)) or APT.search(s + " " + " ".join(o)):
         return False
     if any(len(x) > 220 for x in o) or all(len(x) <= 1 for x in o):  # an option that ran into the next question; options A-D of a chart
         return False
@@ -135,7 +147,7 @@ def fixes():
 
 def cleaned(line):
     q = json.loads(line)
-    q["s"], q["o"], q["x"] = clean(q["s"]), [clean(o, opt=True) for o in q["o"]], clean(q.get("x", ""))
+    q["s"], q["o"], q["x"] = clean(q["s"]), [STAMP.sub(" ", clean(o, opt=True)).strip(" %") for o in q["o"]], clean(q.get("x", ""))
     f = fixes().get(q["id"])
     if f is not None:
         if not f.get("keep"):
