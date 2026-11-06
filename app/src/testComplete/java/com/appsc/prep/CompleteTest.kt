@@ -161,7 +161,9 @@ class CompleteTest {
     /** A statement MCQ made from a one-fact MCQ answered wrong (or only viewed) comes back for revision. */
     @Test fun weakOneFactMcqsPassTheirRevisionOnToTheMergedMcq() {
         val repo = Repository { ctx.assets.open(it) }
-        val merged = repo.merged
+        // every merged MCQ is now taken apart (merged.json is empty): the same pairs, from unmerged.json, still test the carry
+        assertTrue(repo.merged.isEmpty())
+        val merged = repo.unmerged
         assertTrue(merged.size > 8000)
         val (wrongId, wrongOlds) = merged.entries.first()
         val (viewedId, viewedOlds) = merged.entries.drop(1).first()
@@ -210,7 +212,7 @@ class CompleteTest {
                 assertEquals("book $b row $ri: MCQ count in the index", repo.index[b - 1].rows[ri].questionCount, qs.size)
             }
         }
-        assertEquals(42692, mcqs)
+        assertEquals(78510, mcqs)
         assertEquals(mcqs, repo.planIds.size)
         assertTrue(repo.merged.keys.all { it in repo.planIds })
         val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
