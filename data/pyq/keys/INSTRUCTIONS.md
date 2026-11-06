@@ -17,3 +17,4 @@ Edit nothing else; do not commit.
 - Reply with one line: "<pkt>: <k> of <n> keyed from <file(s)>; <m> not found".
 - Drive refuses downloads over about 8 MB. Use the "Part n of m" split copies (data/pyq/drive_inventory.json:
   entries whose "source_id" is the big file's id, or same title + " - Part n of m"), or a smaller copy of the same key.
+- k41 (G1 2008 Q131-138) dropped: that part of the printed key table is misaligned (Bt -> Bacteria).
