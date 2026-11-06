@@ -12,6 +12,8 @@ Write MCQs on them, the way APPSC asks, into data/camcq/out/<topic>.json. Edit n
 - Use **only the facts the packet states**. Never add a fact from memory; never "correct" the packet.
 - Test what APPSC tests: who / what / where / when (dates, places, ministries, numbers, firsts, ranks, headquarters,
   the related Article, Act or scheme the item names, the static facts the item gives).
+- Dates: give the date of the event or order exactly as the packet does (an order passed on 3 Nov for 7-8 Nov is
+  "on 3 November 2026 ... for 7-8 November", not "in November").
 - Decoys must be plausible near-misses of the same kind (a neighbouring State, the next year, a related ministry, a
   similar scheme name), never jokes. A decoy must be certainly wrong from the packet's facts.
 
