@@ -99,6 +99,14 @@ def packets(b):
     os.makedirs(f"{D}/in", exist_ok=True)
     os.makedirs(f"{D}/out", exist_ok=True)
     m, rows = J(f"{A}/mcq{b}.json"), flat(b)
+    # a current-affairs unit has one topic per period: its notes are <unit>-<k>, k counted in book order
+    seen = collections.Counter()
+    for r in rows:
+        u = r.get("unit") or ""
+        if u and not os.path.exists(f"data/blueprint/out/{u}.md"):
+            seen[u] += 1
+            if os.path.exists(f"data/blueprint/out/{u}-{seen[u]}.md"):
+                r["unit"] = f"{u}-{seen[u]}"
     reshape_plan.TARGET[b] = LATEST
     plan = {}
     order = list(range(len(rows)))
@@ -108,7 +116,7 @@ def packets(b):
         for ri in order[k:k + PER]:
             r, qs = rows[ri], m["rows"].get(str(ri), [])
             subs = m["subs"].get(str(ri), [-1] * len(qs))
-            u = unit_of(r).split("-")[0]
+            u = unit_of(r) if os.path.exists(f"data/blueprint/src/{unit_of(r)}.md") else unit_of(r).split("-")[0]
             mine = [q for q in qs if own(q)]
             todo = reshape_plan.plan_topic(mine, b)
             cut = [q["id"] for q in mine if shape(q) == "statements" and nstat(q) >= 4 and q["id"] not in todo]
