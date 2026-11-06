@@ -130,6 +130,33 @@ class ProgressStore(private val prefs: Storage) {
         return add.size
     }
 
+    /**
+     * The other way: a 3-statement MCQ taken apart into its one-fact MCQs again ([unmerged]). What was answered on
+     * the statement MCQ passes to each one-fact MCQ that has nothing of its own: wrong -> needs revision, right ->
+     * right, only viewed -> viewed. Runs once per MCQ (a one-fact MCQ with its own history is left alone).
+     */
+    fun carryUnmerged(unmerged: Map<String, List<String>>): Int {
+        if (unmerged.isEmpty() || hist.isEmpty()) return 0
+        val add = HashMap<String, McqHist>()
+        val ans = HashMap<String, Boolean>()
+        for ((id, olds) in unmerged) {
+            val h = hist[id] ?: continue
+            val last = h.outcomes.last()
+            for (o in olds) if (o !in hist && o !in add) {
+                add[o] = McqHist(last.toString(), h.last)
+                answers[id]?.let { if (o !in answers) ans[o] = it }
+            }
+        }
+        if (add.isEmpty()) return 0
+        hist = hist + add
+        saveHist(hist)
+        if (ans.isNotEmpty()) {
+            answers = answers + ans
+            prefs.putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet())
+        }
+        return add.size
+    }
+
     /** APPSC Complete: read the MCQ notes (true, the default) or the full notes. */
     var mcqNotes by mutableStateOf(prefs.getString(KEY_NOTES_MODE) != "full")
         private set

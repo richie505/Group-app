@@ -164,6 +164,8 @@ W(f"{G}/keyterms.json", {page(k): v for k, v in kt.items() if page(k)})
 d = J(f"{C}/dups.json")
 W(f"{G}/dups.json", {k: v for k, v in d.items() if k in ids} if isinstance(d, dict) else [x for x in d if x in ids])
 W(f"{G}/merged.json", {k: v for k, v in J(f"{C}/merged.json").items() if k in ids})
+if os.path.exists(f"{C}/unmerged.json"):  # 3-statement MCQs taken apart again: answers pass to their one-fact MCQs
+    W(f"{G}/unmerged.json", {k: [x for x in v if x in ids] for k, v in J(f"{C}/unmerged.json").items() if any(x in ids for x in v)})
 W(f"{G}/edition.json", {"edition": "complete", "name": "APPSC Group 2"})
 W(f"{G}/moved.json", {"v": "group2-1", "m": {}})
 W(f"{G}/notemoves.json", [])

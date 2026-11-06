@@ -84,6 +84,8 @@ class MainActivity : ComponentActivity() {
             // weak one-fact MCQs pass their "needs revision" on to the statement MCQ they became
             val merged = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) { app.repo.merged }
             app.store.carryMerged(merged)
+            // and a statement MCQ taken apart again passes its answers on to its one-fact MCQs
+            app.store.carryUnmerged(kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) { app.repo.unmerged })
         }
         // the notes and the dictionary read in the background once the first screen is up: a Meaning lookup is then quick
         lifecycleScope.launch {

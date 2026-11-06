@@ -275,6 +275,13 @@ class Repository(private val open: (String) -> InputStream) {
         }.getOrDefault(emptyMap())
     }
 
+    /** APPSC Complete: a 3-statement MCQ taken apart again -> its one-fact MCQs (unmerged.json). */
+    val unmerged: Map<String, List<String>> by lazy {
+        runCatching {
+            readJson("unmerged.json").jsonObject.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } }
+        }.getOrDefault(emptyMap())
+    }
+
     /** APPSC Complete: the ids of the pages with nothing for the MCQs, in the MCQ notes or the full notes (empty.json). */
     fun emptyPages(mcq: Boolean): Set<String> = runCatching {
         val o = readJson("empty.json").jsonObject[if (mcq && hasMcqNotes) "mcq" else "full"]!!.jsonArray
