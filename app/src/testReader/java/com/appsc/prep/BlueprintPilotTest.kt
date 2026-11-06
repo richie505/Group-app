@@ -10,6 +10,8 @@ import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
@@ -46,7 +48,7 @@ import java.io.File
  */
 @RunWith(RobolectricTestRunner::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
-@Config(sdk = [34], qualifiers = "w400dp-h9000dp-xxhdpi")
+@Config(sdk = [34], qualifiers = "w400dp-h3000dp-xxhdpi")
 class BlueprintPilotTest {
     @get:Rule val rule = createComposeRule()
     private val ctx get() = ApplicationProvider.getApplicationContext<android.content.Context>()
@@ -59,31 +61,37 @@ class BlueprintPilotTest {
         assumeTrue(n < book.rows.size)
         val row = book.rows[n]
         val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        // one page at a time (very tall windows leave boxes and tables undrawn)
+        var page by androidx.compose.runtime.mutableIntStateOf(0)
         rule.setContent {
             PrepTheme {
                 CompositionLocalProvider(LocalApp provides app) {
                     Column(Modifier.fillMaxWidth().wrapContentHeight().background(Color.White).testTag("unit").padding(vertical = 16.dp)) {
-                        Text(
-                            row.title,
-                            style = TextStyle(fontSize = 22.sp, lineHeight = 28.sp, fontWeight = FontWeight.Bold, color = Color.Black),
-                            modifier = Modifier.padding(horizontal = 20.dp),
-                        )
-                        row.secs.forEachIndexed { i, s ->
-                            Spacer(Modifier.height(14.dp))
-                            HorizontalDivider(color = C.Line)
+                        if (page == 0) {
                             Text(
-                                "Page ${i + 1} · ${s.title}",
-                                style = TextStyle(fontSize = 18.sp, fontWeight = FontWeight.Bold, color = C.Accent),
-                                modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 4.dp),
+                                row.title,
+                                style = TextStyle(fontSize = 22.sp, lineHeight = 28.sp, fontWeight = FontWeight.Bold, color = Color.Black),
+                                modifier = Modifier.padding(horizontal = 20.dp, vertical = 6.dp),
                             )
-                            Column(Modifier.padding(horizontal = 12.dp)) { s.blocks.forEach { BlockView(it, 1f) } }
+                            HorizontalDivider(color = C.Line)
                         }
+                        val s = row.secs[page]
+                        Text(
+                            "Page ${page + 1} of ${row.secs.size} · ${s.title}",
+                            style = TextStyle(fontSize = 18.sp, fontWeight = FontWeight.Bold, color = C.Accent),
+                            modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 4.dp),
+                        )
+                        Column(Modifier.padding(horizontal = 12.dp)) { s.blocks.forEach { BlockView(it, 1f) } }
+                        Spacer(Modifier.height(10.dp))
                     }
                 }
             }
         }
-        rule.waitForIdle()
-        rule.onNodeWithTag("unit").captureRoboImage("screenshots/blueprint/${n + 1}.png")
+        for (i in row.secs.indices) {
+            page = i
+            rule.waitForIdle()
+            rule.onNodeWithTag("unit").captureRoboImage("screenshots/blueprint/${n + 1}_%02d.png".format(i + 1))
+        }
     }
 
     @Test fun unit1() = unit(0)

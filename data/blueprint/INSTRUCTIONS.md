@@ -22,6 +22,8 @@ Output: `data/blueprint/out/<unit>.md`, one unit in exactly the model unit's mar
   names), `HIGH-PROBABILITY MCQ TRAPS` (`!BOX VERY IMPORTANT`, then 8-10 numbered traps).
 - **Length:** the tier's budget, within 15% (CORE ~2,000 words, HIGH ~1,350, MED ~850, LOW ~480).
 - Bold the exam words (`**...**`). Write plain, simple English.
+- Never mention where a fact came from ("the app", "APP", "other notes", "sources say"). Where the sources
+  give two values for a fixed fact (a date, a count), write the correct one only.
 - Do NOT include a self-check list, source references, or provenance tags such as [GK], [Prep], "Not in your
   sources".
 - The last line is `COVERAGE: 1>1.1,2; 2>3; ...`: every keyword number and the section(s) covering it.

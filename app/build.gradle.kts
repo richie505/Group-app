@@ -117,6 +117,7 @@ android {
             project.findProperty("sample.tag")?.let { test.systemProperty("sample.tag", it) }
             project.findProperty("acronym.audit")?.let { test.systemProperty("acronym.audit", it) }
             test.systemProperty("prep.strict", "true") // a failing read-aloud rule fails the tests (skipped on phones)
+            test.maxHeapSize = "6g" // the tall blueprint pilot images (BlueprintPilotTest)
         }
     }
 }
