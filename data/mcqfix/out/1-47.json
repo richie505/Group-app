@@ -1,0 +1,954 @@
+{
+ "reshape": {
+  "n5d6f97bad89": {
+   "shape": "statements",
+   "s": "Consider the following statements about Maratha-British treaties:\n1. The Treaty of Salbai (1782) maintained the status quo.\n2. The Treaty of Bassein (1802) meant subsidiary subordination for the Peshwa.\n3. The Peshwaship was extinguished before the Treaty of Bassein.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Salbai (1782) kept the status quo and Bassein (1802) meant subsidiary subordination. The Peshwaship was extinguished only in 1818, after Bassein."
+  },
+  "nf309bd54a1a": {
+   "shape": "one-liner",
+   "s": "Who founded the Dadu Panth in Rajasthan, in the tradition of Kabir?",
+   "o": [
+    "Kabir",
+    "Dadu Dayal",
+    "Ravidas",
+    "Guru Nanak"
+   ],
+   "a": 1,
+   "x": "Dadu Dayal founded the Dadu Panth in Rajasthan in Kabir's tradition; Kabir himself did not found it."
+  },
+  "n2caa39d092f": {
+   "shape": "one-liner",
+   "s": "The Bhakti movement weakened caste bondage and brought which two communities closer?",
+   "o": [
+    "Hindus and Jains",
+    "Hindus and Buddhists",
+    "Hindus and Muslims",
+    "Muslims and Christians"
+   ],
+   "a": 2,
+   "x": "The movement brought Hindus and Muslims closer and weakened caste bondage, though it did not abolish caste or achieve lasting unity."
+  },
+  "n419c8e7b856": {
+   "shape": "one-liner",
+   "s": "Which of the following acharyas came earliest?",
+   "o": [
+    "Vallabhacharya",
+    "Ramanuja",
+    "Ramananda",
+    "Nimbarka"
+   ],
+   "a": 1,
+   "x": "The order is Ramanuja, Nimbarka (12th-13th century), Ramananda and then Vallabhacharya, so Ramanuja was the earliest."
+  }
+ },
+ "new": [
+  {
+   "topic": 141,
+   "sec": 1,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "In which year did Shahu make Balaji Vishwanath the Peshwa?",
+   "o": [
+    "1708",
+    "1713",
+    "1720",
+    "1728"
+   ],
+   "a": 1,
+   "x": "Shahu appointed Balaji Vishwanath Peshwa in November 1713; 1720 is when Baji Rao I succeeded him."
+  },
+  {
+   "topic": 141,
+   "sec": 2,
+   "angle": "1,9",
+   "shape": "one-liner",
+   "s": "The 1719 Mughal grant of swarajya, chauth and sardeshmukhi of the Deccan was secured by:",
+   "o": [
+    "Baji Rao I",
+    "Balaji Baji Rao",
+    "Balaji Vishwanath",
+    "Madhav Rao I"
+   ],
+   "a": 2,
+   "x": "Balaji Vishwanath obtained the 1719 Mughal grant through the Sayyid brothers."
+  },
+  {
+   "topic": 141,
+   "sec": 2,
+   "angle": "9,14",
+   "shape": "one-liner",
+   "s": "Raghunath Rao (Raghoba) was related to Peshwa Madhav Rao I as his:",
+   "o": [
+    "Brother",
+    "Son",
+    "Nephew",
+    "Uncle"
+   ],
+   "a": 3,
+   "x": "Raghoba was Madhav Rao I's uncle, not his brother - a common trap."
+  },
+  {
+   "topic": 141,
+   "sec": 2,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "The ideology of Baji Rao I is known as:",
+   "o": [
+    "Hindu Pad Padshahi",
+    "Ekasarana Dharma",
+    "Maharashtra Dharma",
+    "Vishishtadvaita"
+   ],
+   "a": 0,
+   "x": "Baji Rao I's ideology was Hindu Pad Padshahi, aimed at striking the Mughal centre."
+  },
+  {
+   "topic": 141,
+   "sec": 3,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "In the Maratha confederacy, 'saranjam' referred to:",
+   "o": [
+    "A tax of one-fourth of land revenue",
+    "Land assignments to chiefs for military service",
+    "The Peshwa's state records",
+    "A council of twelve ministers"
+   ],
+   "a": 1,
+   "x": "Saranjam grants were land assignments to chiefs for military service and formed the base of the confederacy."
+  },
+  {
+   "topic": 141,
+   "sec": 3,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "The Peshwa Daftar records at Pune are written mostly in which script?",
+   "o": [
+    "Devanagari",
+    "Persian",
+    "Modi",
+    "Gurmukhi"
+   ],
+   "a": 2,
+   "x": "The Peshwa Daftar's diaries, orders and sanads are mostly in Modi script; Elphinstone preserved them after 1818."
+  },
+  {
+   "topic": 141,
+   "sec": 3,
+   "angle": "3,11",
+   "shape": "one-liner",
+   "s": "The Gaekwad house of the Maratha confederacy had its seat at:",
+   "o": [
+    "Nagpur",
+    "Indore",
+    "Gwalior",
+    "Baroda"
+   ],
+   "a": 3,
+   "x": "Gaekwad = Baroda; Bhonsle = Nagpur, Holkar = Indore and Scindia = Gwalior."
+  },
+  {
+   "topic": 141,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Nana Phadnavis led which twelve-member council of the Marathas?",
+   "o": [
+    "Ashta Pradhan",
+    "Barabhai",
+    "Huzur Daftar",
+    "Peshwa Daftar"
+   ],
+   "a": 1,
+   "x": "Nana Phadnavis led the twelve-member Barabhai council and was regent for the infant Madhav Rao II."
+  },
+  {
+   "topic": 141,
+   "sec": 4,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "Which Maratha leader restored Shah Alam II to Delhi in 1771?",
+   "o": [
+    "Mahadji Scindia",
+    "Malhar Rao Holkar",
+    "Nana Phadnavis",
+    "Raghuji Bhonsle"
+   ],
+   "a": 0,
+   "x": "Mahadji Scindia recaptured Delhi and restored Shah Alam II in 1771, making the Marathas Mughal king-makers."
+  },
+  {
+   "topic": 141,
+   "sec": 5,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "After the Battle of Bhopal (Treaty of Doraha Sarai, 1738), the Nizam ceded:",
+   "o": [
+    "Gujarat",
+    "Bundelkhand",
+    "Malwa",
+    "Berar"
+   ],
+   "a": 2,
+   "x": "Defeated by Baji Rao I at Bhopal, the Nizam ceded Malwa under the Treaty of Doraha Sarai."
+  },
+  {
+   "topic": 141,
+   "sec": 5,
+   "angle": "1,10",
+   "shape": "one-liner",
+   "s": "The Battle of Palkhed, in which Baji Rao I defeated Nizam-ul-Mulk, was fought in:",
+   "o": [
+    "1719",
+    "1728",
+    "1737",
+    "1760"
+   ],
+   "a": 1,
+   "x": "Palkhed (1728) led to the Treaty of Mungi-Shevgaon; 1760 was Udgir."
+  },
+  {
+   "topic": 141,
+   "sec": 6,
+   "angle": "2,8",
+   "shape": "one-liner",
+   "s": "Abdali's son whom the Marathas drove out of Lahore in 1758 was:",
+   "o": [
+    "Timur Shah",
+    "Najib-ud-Daula",
+    "Shuja-ud-Daula",
+    "Nadir Shah"
+   ],
+   "a": 0,
+   "x": "The expulsion of Timur Shah from Lahore (1758) was Abdali's immediate motive for the Panipat campaign."
+  },
+  {
+   "topic": 141,
+   "sec": 6,
+   "angle": "2,8",
+   "shape": "one-liner",
+   "s": "Who was the overall Maratha commander at the Third Battle of Panipat?",
+   "o": [
+    "Vishwas Rao",
+    "Ibrahim Khan Gardi",
+    "Raghunath Rao",
+    "Sadashiv Rao Bhau"
+   ],
+   "a": 3,
+   "x": "Sadashiv Rao Bhau was overall commander; Vishwas Rao was the Peshwa's son and Ibrahim Khan Gardi led the artillery."
+  },
+  {
+   "topic": 141,
+   "sec": 7,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Under the Treaty of Surat (1775), the Bombay government agreed to back:",
+   "o": [
+    "Madhav Rao II",
+    "Raghunath Rao",
+    "Nana Phadnavis",
+    "Mahadji Scindia"
+   ],
+   "a": 1,
+   "x": "By the Treaty of Surat, Bombay agreed to support Raghunath Rao with 2,500 troops."
+  },
+  {
+   "topic": 141,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Battle of Assaye (1803), in which Arthur Wellesley defeated Scindia and Bhonsle, belongs to the:",
+   "o": [
+    "First Anglo-Maratha War",
+    "Third Anglo-Maratha War",
+    "Second Anglo-Maratha War",
+    "Fourth Anglo-Mysore War"
+   ],
+   "a": 2,
+   "x": "Assaye (23 September 1803) was fought in the Second Anglo-Maratha War (1803-05)."
+  },
+  {
+   "topic": 141,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Who led the British against Scindia at the Battle of Laswari (1803)?",
+   "o": [
+    "Lord Lake",
+    "Arthur Wellesley",
+    "Lord Hastings",
+    "Warren Hastings"
+   ],
+   "a": 0,
+   "x": "At Laswari near Alwar (1 November 1803), Lord Lake defeated Scindia."
+  },
+  {
+   "topic": 141,
+   "sec": 7,
+   "angle": "6",
+   "shape": "statements",
+   "s": "Consider the following statements about the Second Anglo-Maratha War:\n1. By the Treaty of Deogaon, the Bhonsle ceded Cuttack and Balasore.\n2. The Treaty of Surji-Anjangaon was signed with Scindia.\n3. Madhav Rao II accepted the Subsidiary Alliance at Bassein.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Deogaon (Bhonsle) and Surji-Anjangaon (Scindia) are correct; it was Baji Rao II who signed Bassein in 1802."
+  },
+  {
+   "topic": 141,
+   "sec": 7,
+   "angle": "4",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Third Anglo-Maratha War?",
+   "o": [
+    "Lord Hastings was the Governor-General",
+    "The Pindari campaigns were a cause",
+    "Baji Rao II was pensioned to Satara",
+    "The Peshwaship was abolished in 1818"
+   ],
+   "a": 2,
+   "x": "Baji Rao II was pensioned to Bithur near Kanpur; Satara was a small state left for Shivaji's descendant."
+  },
+  {
+   "topic": 142,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Who is regarded as the foremost Alvar, author of the Tiruvaymoli?",
+   "o": [
+    "Andal",
+    "Poigai",
+    "Nammalvar",
+    "Pey"
+   ],
+   "a": 2,
+   "x": "Nammalvar is the foremost Alvar; his Tiruvaymoli has 1,102 verses."
+  },
+  {
+   "topic": 142,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Karaikkal Ammaiyar was one of the women saints among the:",
+   "o": [
+    "Alvars",
+    "Nayanars",
+    "Varkaris",
+    "Lingayats"
+   ],
+   "a": 1,
+   "x": "Karaikkal Ammaiyar was one of three women among the 63 Nayanars, and the only female Nayanar whose poems survive."
+  },
+  {
+   "topic": 142,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Periya Puranam, the lives of the 63 Nayanars, was written by:",
+   "o": [
+    "Nambi Andar Nambi",
+    "Nathamuni",
+    "Manikkavachakar",
+    "Sekkizhar"
+   ],
+   "a": 3,
+   "x": "Sekkizhar wrote the Periya Puranam under Kulottunga II; it is the 12th book of the Tirumurai."
+  },
+  {
+   "topic": 142,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Tevaram contains the hymns of:",
+   "o": [
+    "Appar, Sambandar and Sundarar",
+    "Poigai, Bhoothath and Pey",
+    "Nammalvar and Andal",
+    "Basavanna and Allama Prabhu"
+   ],
+   "a": 0,
+   "x": "The Tevaram holds the hymns of the Nayanars Appar, Sambandar and Sundarar; Poigai, Bhoothath and Pey were the first three Alvars."
+  },
+  {
+   "topic": 142,
+   "sec": 3,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Dvaitadvaita (Bhedabheda) was founded by:",
+   "o": [
+    "Madhvacharya",
+    "Nimbarka",
+    "Ramanuja",
+    "Vallabhacharya"
+   ],
+   "a": 1,
+   "x": "Nimbarka founded Dvaitadvaita; Madhva founded Dvaita and Ramanuja Vishishtadvaita."
+  },
+  {
+   "topic": 142,
+   "sec": 3,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Which philosophy is associated with Chaitanya?",
+   "o": [
+    "Achintya Bhedabheda",
+    "Shuddhadvaita",
+    "Dvaita",
+    "Kevala Advaita"
+   ],
+   "a": 0,
+   "x": "Chaitanya's school is Achintya Bhedabheda (Gaudiya Vaishnavism)."
+  },
+  {
+   "topic": 142,
+   "sec": 6,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "Who compiled the Adi Granth (Guru Granth Sahib)?",
+   "o": [
+    "Guru Nanak",
+    "Guru Angad",
+    "Guru Arjan Dev",
+    "Guru Gobind Singh"
+   ],
+   "a": 2,
+   "x": "Guru Arjan Dev compiled the Adi Granth and installed it at Amritsar in 1604; Guru Gobind Singh declared it the Guru in 1706."
+  },
+  {
+   "topic": 142,
+   "sec": 6,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "Which Sikh Guru standardised the Gurmukhi script?",
+   "o": [
+    "Guru Angad",
+    "Guru Arjan Dev",
+    "Guru Tegh Bahadur",
+    "Guru Nanak"
+   ],
+   "a": 0,
+   "x": "Guru Angad (Lehna), Nanak's successor, standardised Gurmukhi and systematised the langar."
+  },
+  {
+   "topic": 142,
+   "sec": 6,
+   "angle": "12,13",
+   "shape": "one-liner",
+   "s": "The Bijak is the sacred book of the followers of:",
+   "o": [
+    "Guru Nanak",
+    "Dadu Dayal",
+    "Ravidas",
+    "Kabir"
+   ],
+   "a": 3,
+   "x": "The Bijak is the sacred book of Kabir's followers."
+  },
+  {
+   "topic": 142,
+   "sec": 6,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "Guru Nanak's Guru ka Langar (common dining) began at:",
+   "o": [
+    "Amritsar",
+    "Kartarpur",
+    "Talwandi",
+    "Goindwal"
+   ],
+   "a": 1,
+   "x": "Guru ka Langar began at Kartarpur under Guru Nanak."
+  },
+  {
+   "topic": 142,
+   "sec": 7,
+   "angle": "5,13",
+   "shape": "one-liner",
+   "s": "Surdas wrote the Sur Sagar in which language?",
+   "o": [
+    "Awadhi",
+    "Maithili",
+    "Braj",
+    "Rajasthani"
+   ],
+   "a": 2,
+   "x": "Sur Sagar is in Braj, while Tulsidas's Ramcharitmanas is in Awadhi."
+  },
+  {
+   "topic": 142,
+   "sec": 7,
+   "angle": "13",
+   "shape": "NOT",
+   "s": "Which of the following works is NOT by Tulsidas?",
+   "o": [
+    "Vinay Patrika",
+    "Kavitavali",
+    "Dohavali",
+    "Sahitya Lahari"
+   ],
+   "a": 3,
+   "x": "Sahitya Lahari is by Surdas; the other three are works of Tulsidas."
+  },
+  {
+   "topic": 142,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Shankaradeva, who founded the Ekasarana Dharma, spread Bhakti in:",
+   "o": [
+    "Bengal",
+    "Assam",
+    "Orissa",
+    "Rajasthan"
+   ],
+   "a": 1,
+   "x": "Shankaradeva preached Ekasarana Dharma in Assam; Chaitanya worked in Bengal."
+  },
+  {
+   "topic": 142,
+   "sec": 7,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "The Gita Govinda was composed by:",
+   "o": [
+    "Jayadeva",
+    "Surdas",
+    "Chaitanya",
+    "Vidyapati"
+   ],
+   "a": 0,
+   "x": "Jayadeva of Orissa/Bengal (12th century) wrote the Gita Govinda."
+  },
+  {
+   "topic": 142,
+   "sec": 7,
+   "angle": "9",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Chaitanya – Rajasthan",
+    "Mirabai – Bengal",
+    "Chaitanya – Bengal",
+    "Mirabai – Assam"
+   ],
+   "a": 2,
+   "x": "Chaitanya worked in Bengal; Mirabai belonged to Rajasthan."
+  },
+  {
+   "topic": 142,
+   "sec": 8,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "The Varkari sect is centred on the worship of Vithoba at:",
+   "o": [
+    "Nashik",
+    "Pandharpur",
+    "Dehu",
+    "Alandi"
+   ],
+   "a": 1,
+   "x": "The Varkari sect centres on Vithoba (Vitthal) at Pandharpur, with an annual pilgrimage on Ekadashi."
+  },
+  {
+   "topic": 142,
+   "sec": 8,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "Who is credited with founding the Varkari sect and wrote the Jnaneshwari?",
+   "o": [
+    "Namdev",
+    "Eknath",
+    "Jnaneshwar",
+    "Tukaram"
+   ],
+   "a": 2,
+   "x": "Jnaneshwar is credited with founding the sect; his Jnaneshwari is a Marathi commentary on the Gita."
+  },
+  {
+   "topic": 142,
+   "sec": 8,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "Tukaram, the 17th-century Varkari saint, is known for his:",
+   "o": [
+    "Vachanas",
+    "Abhangas",
+    "Dohas",
+    "Padavalis"
+   ],
+   "a": 1,
+   "x": "Tukaram composed thousands of abhangas; vachanas belong to the Virashaivas."
+  },
+  {
+   "topic": 142,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Basavanna was head of the treasury at Kalyana under the Kalachuri king:",
+   "o": [
+    "Bijjala",
+    "Someshvara",
+    "Vikramaditya VI",
+    "Kulottunga II"
+   ],
+   "a": 0,
+   "x": "Basavanna served Kalachuri king Bijjala at Kalyana and set up the Anubhava Mantapa."
+  },
+  {
+   "topic": 142,
+   "sec": 9,
+   "angle": "8,5",
+   "shape": "one-liner",
+   "s": "The vachanas of the Virashaiva saints were composed in:",
+   "o": [
+    "Telugu",
+    "Tamil",
+    "Marathi",
+    "Kannada"
+   ],
+   "a": 3,
+   "x": "Vachanas are short Kannada devotional sayings, signed Kudalasangamadeva by Basavanna."
+  },
+  {
+   "topic": 142,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The Anubhava Mantapa, the assembly of sharanas, was presided over by:",
+   "o": [
+    "Basavanna",
+    "Allama Prabhu",
+    "Akkamahadevi",
+    "Palkuriki Somanatha"
+   ],
+   "a": 1,
+   "x": "Allama Prabhu presided over the Anubhava Mantapa set up by Basavanna."
+  },
+  {
+   "topic": 142,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Nathpanthis, Siddhas and Yogis mainly practised:",
+   "o": [
+    "Hatha yoga and renunciation",
+    "Idol worship and pilgrimage",
+    "Temple rituals and fasting",
+    "Vedic sacrifices"
+   ],
+   "a": 0,
+   "x": "They practised hatha yoga, meditation and renunciation and criticised ritualism and caste."
+  },
+  {
+   "topic": 142,
+   "sec": 10,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "Which of the following Bhakti saints was the earliest?",
+   "o": [
+    "Kabir",
+    "Guru Nanak",
+    "Ramananda",
+    "Tulsidas"
+   ],
+   "a": 2,
+   "x": "The order is Ramananda, Kabir, Nanak, Chaitanya, Tulsidas."
+  },
+  {
+   "topic": 142,
+   "sec": 10,
+   "angle": "15",
+   "shape": "statements",
+   "s": "Consider the following statements about the order of Bhakti saints:\n1. Kabir came after Ramananda.\n2. Tulsidas came before Chaitanya.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "The order is Ramananda, Kabir, Nanak, Chaitanya, Tulsidas, so Tulsidas came after Chaitanya."
+  },
+  {
+   "topic": 142,
+   "sec": 1,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which chapter of the Bhagavad Gita is the Bhakti Yoga?",
+   "o": [
+    "Chapter 2",
+    "Chapter 9",
+    "Chapter 12",
+    "Chapter 18"
+   ],
+   "a": 2,
+   "x": "Gita Chapter 12 is Bhakti Yoga; it holds both Saguna and Nirguna valid."
+  },
+  {
+   "topic": 142,
+   "sec": 10,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Who was the guru of Daya Bai?",
+   "o": [
+    "Ravidas",
+    "Charandas",
+    "Ramananda",
+    "Vallabhacharya"
+   ],
+   "a": 1,
+   "x": "Daya Bai was a disciple of Charandas (Charandasi Sampradaya); Ravidas was Mirabai's guru."
+  },
+  {
+   "topic": 143,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Brahma Sampradaya was founded by:",
+   "o": [
+    "Ramanuja",
+    "Madhvacharya",
+    "Nimbarka",
+    "Ramananda"
+   ],
+   "a": 1,
+   "x": "The Brahma (Madhva) Sampradaya was founded by Madhvacharya."
+  },
+  {
+   "topic": 143,
+   "sec": 4,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Sri Bhashya on the Brahma Sutras was written by:",
+   "o": [
+    "Ramanuja",
+    "Vallabhacharya",
+    "Nimbarka",
+    "Vedanta Desika"
+   ],
+   "a": 0,
+   "x": "Sri Bhashya is Ramanuja's work; Anubhashya is by Vallabhacharya."
+  },
+  {
+   "topic": 143,
+   "sec": 4,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Anubhashya and Subodhini were written by:",
+   "o": [
+    "Nimbarka",
+    "Madhvacharya",
+    "Vyasa Tirtha",
+    "Vallabhacharya"
+   ],
+   "a": 3,
+   "x": "Anubhashya, Subodhini and Vedanta Rahasyam are works of Vallabhacharya."
+  },
+  {
+   "topic": 143,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "How many Pushtimarg centres did Vallabhacharya set up?",
+   "o": [
+    "12",
+    "63",
+    "84",
+    "108"
+   ],
+   "a": 2,
+   "x": "Vallabhacharya set up 84 Pushtimarg centres."
+  },
+  {
+   "topic": 143,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The main centre of Nimbarka was:",
+   "o": [
+    "Udupi",
+    "Brindavan",
+    "Srirangam",
+    "Varanasi"
+   ],
+   "a": 1,
+   "x": "Nimbarka's centre was Brindavan; Udupi was Madhva's."
+  },
+  {
+   "topic": 143,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Ramananda was born, by tradition, at:",
+   "o": [
+    "Varanasi",
+    "Prayag",
+    "Sriperumbudur",
+    "Kaladi"
+   ],
+   "a": 1,
+   "x": "Ramananda was born at Prayag and made Varanasi his centre."
+  },
+  {
+   "topic": 143,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Shankaracharya was born at:",
+   "o": [
+    "Kaladi",
+    "Sringeri",
+    "Udupi",
+    "Sriperumbudur"
+   ],
+   "a": 0,
+   "x": "Shankaracharya was born at Kaladi in Kerala."
+  },
+  {
+   "topic": 143,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Pipa, a disciple of Ramananda, was by background a:",
+   "o": [
+    "Weaver",
+    "Shoemaker",
+    "Rajput ruler",
+    "Jat cultivator"
+   ],
+   "a": 2,
+   "x": "Pipa was a Rajput ruler of Gagron; Kabir was a weaver, Raidas a shoemaker and Dhanna a Jat cultivator."
+  },
+  {
+   "topic": 143,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "How many disciples did Ramananda have, by tradition?",
+   "o": [
+    "9",
+    "12",
+    "63",
+    "84"
+   ],
+   "a": 1,
+   "x": "Ramananda had 12 disciples, Kabir being one of them."
+  },
+  {
+   "topic": 143,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which Bhakti acharya was NOT a contemporary of Akbar?",
+   "o": [
+    "Nimbarka",
+    "Tulsidas",
+    "Surdas",
+    "Mirabai"
+   ],
+   "a": 0,
+   "x": "Nimbarka lived in the 12th-13th century and was not Akbar's contemporary."
+  },
+  {
+   "topic": 143,
+   "sec": 2,
+   "angle": "1",
+   "shape": "statements",
+   "s": "Consider the following statements about Madhvacharya:\n1. He founded Dvaita (dualism).\n2. He preached Nirguna bhakti.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Madhva founded Dvaita and taught Saguna bhakti, not Nirguna."
+  },
+  {
+   "topic": 143,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Ramanuja is credited with installing which deity at Tirupati?",
+   "o": [
+    "Venkateswara",
+    "Govindaraja",
+    "Narasimha",
+    "Ranganatha"
+   ],
+   "a": 1,
+   "x": "Ramanuja is credited with ordering temple worship at Tirumala and installing Govindaraja at Tirupati."
+  },
+  {
+   "topic": 143,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Ramanuja is held to be an incarnation of:",
+   "o": [
+    "Garuda",
+    "Hanuman",
+    "Adisesha (Lakshmana)",
+    "Sudarshana"
+   ],
+   "a": 2,
+   "x": "Ramanuja, called Ilaya Azhwar, is held to be an incarnation of Adisesha/Lakshmana."
+  },
+  {
+   "topic": 143,
+   "sec": 4,
+   "angle": "2",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Sri Vaishnava split?",
+   "o": [
+    "Vadakalai was led by Vedanta Desika",
+    "Both Vadakalai and Tengalai were Vishishtadvaita",
+    "Tengalai was influenced by Dvaita",
+    "Vadakalai followed the Vedic tradition"
+   ],
+   "a": 2,
+   "x": "Tengalai was not Dvaita-influenced; both branches remained Vishishtadvaita."
+  },
+  {
+   "topic": 143,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Salvation through prapatti (intense devotion) to Vishnu was taught by:",
+   "o": [
+    "Shankaracharya",
+    "Ramanuja",
+    "Nimbarka",
+    "Ramananda"
+   ],
+   "a": 1,
+   "x": "Ramanuja taught salvation through prapatti to Vishnu, in reaction against Advaita."
+  },
+  {
+   "topic": 143,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Shankaradeva's Ekasarana sect worshipped which single deity?",
+   "o": [
+    "Shiva",
+    "Rama",
+    "Krishna",
+    "Vithoba"
+   ],
+   "a": 2,
+   "x": "Shankaradeva's Ekasarana sect worshipped one deity, Krishna, and opposed rituals and idolatry."
+  }
+ ]
+}
