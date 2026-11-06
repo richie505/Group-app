@@ -13,34 +13,34 @@
  },
  "Complete": {
   "all": {
-   "n": 60144,
+   "n": 78510,
    "shares": {
-    "one-liner": 0.748,
-    "statements": 0.133,
-    "NOT": 0.049,
-    "match": 0.038,
-    "assertion": 0.019,
-    "sequence": 0.012
+    "one-liner": 0.789,
+    "statements": 0.117,
+    "NOT": 0.045,
+    "match": 0.033,
+    "assertion": 0.008,
+    "sequence": 0.008
    },
-   "stem words (median)": 13,
+   "stem words (median)": 12,
    "4+ statements": 420,
-   "code boilerplate": 377,
+   "code boilerplate": 374,
    "no explanation": 3528
   },
   "by subject": {
    "History & Culture": {
-    "n": 13933,
+    "n": 20163,
     "shares": {
-     "one-liner": 0.804,
-     "statements": 0.089,
-     "NOT": 0.041,
+     "one-liner": 0.813,
+     "statements": 0.097,
+     "NOT": 0.04,
      "match": 0.034,
-     "assertion": 0.008,
-     "sequence": 0.023
+     "assertion": 0.005,
+     "sequence": 0.011
     },
-    "stem words (median)": 12,
+    "stem words (median)": 11,
     "4+ statements": 61,
-    "code boilerplate": 79,
+    "code boilerplate": 78,
     "no explanation": 786
    },
    "Polity, Society & IR": {
@@ -59,63 +59,63 @@
     "no explanation": 646
    },
    "Economy": {
-    "n": 7762,
+    "n": 10996,
     "shares": {
-     "one-liner": 0.758,
-     "statements": 0.113,
-     "NOT": 0.062,
-     "match": 0.021,
-     "assertion": 0.031,
-     "sequence": 0.016
+     "one-liner": 0.786,
+     "statements": 0.116,
+     "NOT": 0.053,
+     "match": 0.027,
+     "assertion": 0.009,
+     "sequence": 0.009
     },
-    "stem words (median)": 14,
+    "stem words (median)": 13,
     "4+ statements": 83,
     "code boilerplate": 79,
     "no explanation": 730
    },
    "Geography": {
-    "n": 7773,
+    "n": 10217,
     "shares": {
-     "one-liner": 0.761,
-     "statements": 0.104,
-     "NOT": 0.062,
-     "match": 0.037,
-     "assertion": 0.021,
-     "sequence": 0.015
+     "one-liner": 0.791,
+     "statements": 0.107,
+     "NOT": 0.049,
+     "match": 0.034,
+     "assertion": 0.01,
+     "sequence": 0.009
     },
-    "stem words (median)": 12,
+    "stem words (median)": 11,
     "4+ statements": 85,
     "code boilerplate": 56,
     "no explanation": 490
    },
    "Science, Tech & Environment": {
-    "n": 7796,
+    "n": 10947,
     "shares": {
-     "one-liner": 0.734,
-     "statements": 0.128,
-     "NOT": 0.056,
-     "match": 0.035,
-     "assertion": 0.044,
+     "one-liner": 0.786,
+     "statements": 0.122,
+     "NOT": 0.046,
+     "match": 0.031,
+     "assertion": 0.011,
      "sequence": 0.004
     },
-    "stem words (median)": 12,
+    "stem words (median)": 11,
     "4+ statements": 99,
     "code boilerplate": 83,
     "no explanation": 764
    },
    "Current Affairs": {
-    "n": 9792,
+    "n": 13099,
     "shares": {
-     "one-liner": 0.634,
-     "statements": 0.25,
-     "NOT": 0.021,
-     "match": 0.069,
-     "assertion": 0.019,
-     "sequence": 0.007
+     "one-liner": 0.776,
+     "statements": 0.146,
+     "NOT": 0.027,
+     "match": 0.039,
+     "assertion": 0.007,
+     "sequence": 0.005
     },
-    "stem words (median)": 15,
+    "stem words (median)": 13,
     "4+ statements": 4,
-    "code boilerplate": 8,
+    "code boilerplate": 6,
     "no explanation": 112
    }
   },
@@ -124,9 +124,9 @@
     "topics": 273,
     "topics without MCQs": 0,
     "pages": 2384,
-    "pages without MCQs": 158,
+    "pages without MCQs": 0,
     "bold facts": 33347,
-    "bold facts asked": 0.762
+    "bold facts asked": 0.824
    },
    "Polity, Society & IR": {
     "topics": 170,
@@ -140,241 +140,241 @@
     "topics": 145,
     "topics without MCQs": 0,
     "pages": 1295,
-    "pages without MCQs": 78,
+    "pages without MCQs": 0,
     "bold facts": 14633,
-    "bold facts asked": 0.667
+    "bold facts asked": 0.748
    },
    "Geography": {
     "topics": 101,
     "topics without MCQs": 0,
     "pages": 936,
-    "pages without MCQs": 42,
+    "pages without MCQs": 0,
     "bold facts": 11890,
-    "bold facts asked": 0.741
+    "bold facts asked": 0.798
    },
    "Science, Tech & Environment": {
     "topics": 122,
     "topics without MCQs": 0,
     "pages": 1133,
-    "pages without MCQs": 45,
+    "pages without MCQs": 0,
     "bold facts": 14483,
-    "bold facts asked": 0.716
+    "bold facts asked": 0.787
    },
    "Current Affairs": {
     "topics": 116,
     "topics without MCQs": 0,
     "pages": 1136,
-    "pages without MCQs": 91,
+    "pages without MCQs": 0,
     "bold facts": 39812,
-    "bold facts asked": 0.767
+    "bold facts asked": 0.816
    }
   },
   "least covered topics": [
    [
-    0.26,
-    1,
-    223,
-    "Depressed Classes Movement, Communal Award and the Poona Pact 1932",
-    7
-   ],
-   [
-    0.28,
-    6,
-    114,
-    "Apr–Nov 2025: Persons in news - appointments, resignations and obituar",
-    9
-   ],
-   [
-    0.34,
-    1,
-    239,
-    "Gandhi-irwin Pact, Round Table Conferences, Communal Award, Poona Pact",
-    14
-   ],
-   [
-    0.35,
-    6,
-    50,
-    "Special topics: National - committees, commissions and their reports",
-    12
-   ],
-   [
-    0.37,
-    6,
-    6,
-    "Sep–4 Nov 2026: Andhra Pradesh - budget and Socio-Economic Survey high",
-    9
-   ],
-   [
-    0.38,
-    6,
-    88,
-    "Special topics: Reports and indices - releasing agency, India's rank, ",
-    8
-   ],
-   [
-    0.39,
-    6,
-    113,
-    "Dec 2025–Feb 2026: Persons in news - appointments, resignations and ob",
-    9
-   ],
-   [
-    0.4,
-    3,
-    27,
-    "Demographic Transition Theory and India's Position; Demographic Divide",
-    51
-   ],
-   [
-    0.41,
-    5,
-    17,
-    "Emerging Technology Frontiers – Artificial Intelligence, Quantum Compu",
-    27
-   ],
-   [
-    0.42,
-    3,
-    110,
-    "Ap Per Capita Income, District Disparities and Ap's Position Among Sta",
-    40
-   ],
-   [
-    0.42,
+    0.5,
     4,
     63,
     "India - Scheduled Caste Population: Distribution and Concentration",
-    14
+    29
    ],
    [
-    0.42,
-    6,
-    30,
-    "Special topics: National - polity and governance: bills, acts, ordinan",
-    22
-   ],
-   [
-    0.42,
-    6,
-    38,
-    "Overview and data: National - economy: Union Budget and Economic Surve",
-    23
-   ],
-   [
-    0.44,
-    3,
-    144,
-    "Special Assistance Package vs Special Category Status - Government's S",
-    17
-   ],
-   [
-    0.45,
-    1,
-    147,
-    "Sufi Saints - Moinuddin Chishti, Nizamuddin Auliya, Baba Farid, Sheikh",
-    8
-   ],
-   [
-    0.46,
+    0.51,
     3,
     132,
     "Ap Socio-economic Survey – Key Indicators of the Latest Edition",
-    36
+    61
    ],
    [
-    0.46,
-    6,
-    102,
-    "Special topics: Sports - major tournaments, winners, records and hosti",
-    11
-   ],
-   [
-    0.47,
-    4,
-    62,
-    "India - Occupational Structure: Main and Marginal Workers, Wpr, Cultiv",
-    36
-   ],
-   [
-    0.47,
-    4,
-    74,
-    "Andhra Pradesh – Sex Ratio, Literacy and Occupational Structure",
-    9
-   ],
-   [
-    0.47,
-    5,
-    54,
-    "India's Energy Resources and Import Dependence – Crude Oil, Coal, Gas ",
-    31
-   ],
-   [
-    0.48,
+    0.52,
     3,
     26,
     "Demography of India – Census 2011 Findings, Population Growth, Density",
-    204
+    220
    ],
    [
-    0.48,
-    6,
-    59,
-    "Jun–Aug 2026: International - treaties, agreements and developments in",
-    23
-   ],
-   [
-    0.49,
+    0.54,
     3,
-    25,
-    "Trends in India's National Income, Per Capita Income and Sectoral Shar",
+    27,
+    "Demographic Transition Theory and India's Position; Demographic Divide",
+    73
+   ],
+   [
+    0.56,
+    6,
+    38,
+    "Overview and data: National - economy: Union Budget and Economic Surve",
     42
    ],
    [
-    0.49,
+    0.57,
+    1,
+    239,
+    "Gandhi-irwin Pact, Round Table Conferences, Communal Award, Poona Pact",
+    45
+   ],
+   [
+    0.57,
+    3,
+    110,
+    "Ap Per Capita Income, District Disparities and Ap's Position Among Sta",
+    58
+   ],
+   [
+    0.58,
+    6,
+    88,
+    "Special topics: Reports and indices - releasing agency, India's rank, ",
+    26
+   ],
+   [
+    0.59,
+    2,
+    61,
+    "Challenges in Local Devolution – Funds, Functions, Functionaries; Para",
+    44
+   ],
+   [
+    0.59,
+    2,
+    93,
+    "Liberalisation, Privatisation and Globalisation – the 1991 Reforms",
+    32
+   ],
+   [
+    0.59,
+    2,
+    160,
+    "Plurilateral Groupings – G20, G7, Brics, Quad, I2U2, Ibsa, Basic, Colo",
+    51
+   ],
+   [
+    0.59,
     4,
     60,
     "India - Sex Ratio and Child Sex Ratio: Trends, Regional Pattern, Cause",
-    42
+    75
    ],
    [
-    0.5,
+    0.6,
+    2,
+    30,
+    "Parliament – Composition of Lok Sabha and Rajya Sabha, Qualifications,",
+    240
+   ],
+   [
+    0.6,
+    2,
+    48,
+    "Distribution of Executive Powers Between the Union and the States",
+    40
+   ],
+   [
+    0.6,
+    3,
+    50,
+    "Agricultural Productivity – Trends, Inter-crop and Inter-state Variati",
+    88
+   ],
+   [
+    0.6,
+    3,
+    109,
+    "Andhra Pradesh Economy After Bifurcation – Gsdp, Growth Rate, Sectoral",
+    148
+   ],
+   [
+    0.6,
+    3,
+    131,
+    "Central Assistance to Andhra Pradesh – Finance Commission Transfers an",
+    31
+   ],
+   [
+    0.6,
+    6,
+    50,
+    "Special topics: National - committees, commissions and their reports",
+    33
+   ],
+   [
+    0.61,
+    1,
+    237,
+    "Civil Disobedience Movement – Lahore Session and Purna Swaraj, Dandi M",
+    157
+   ],
+   [
+    0.61,
     3,
     136,
     "Economic Issues Arising Out of Bifurcation – Revenue Deficit Grant, Re",
-    23
+    37
+   ],
+   [
+    0.62,
+    2,
+    97,
+    "Public-private Partnerships, Disinvestment and Strategic Sale",
+    56
+   ],
+   [
+    0.62,
+    3,
+    25,
+    "Trends in India's National Income, Per Capita Income and Sectoral Shar",
+    68
+   ],
+   [
+    0.62,
+    5,
+    17,
+    "Emerging Technology Frontiers – Artificial Intelligence, Quantum Compu",
+    57
+   ],
+   [
+    0.62,
+    5,
+    120,
+    "Recent Public Health Initiatives – Ayushman Bharat, National Health Mi",
+    61
+   ],
+   [
+    0.62,
+    6,
+    89,
+    "Overview and data: Reports and indices - releasing agency, India's ran",
+    48
    ]
   ]
  },
  "Group 2": {
   "all": {
-   "n": 27712,
+   "n": 51382,
    "shares": {
-    "one-liner": 0.473,
-    "statements": 0.377,
-    "NOT": 0.046,
-    "match": 0.06,
-    "assertion": 0.029,
-    "sequence": 0.017
+    "one-liner": 0.786,
+    "statements": 0.12,
+    "NOT": 0.044,
+    "match": 0.034,
+    "assertion": 0.009,
+    "sequence": 0.008
    },
-   "stem words (median)": 16,
+   "stem words (median)": 12,
    "4+ statements": 290,
-   "code boilerplate": 232,
+   "code boilerplate": 231,
    "no explanation": 2069
   },
   "by subject": {
    "History": {
-    "n": 5143,
+    "n": 11008,
     "shares": {
-     "one-liner": 0.471,
-     "statements": 0.384,
+     "one-liner": 0.813,
+     "statements": 0.094,
      "NOT": 0.041,
-     "match": 0.053,
-     "assertion": 0.015,
-     "sequence": 0.036
+     "match": 0.033,
+     "assertion": 0.007,
+     "sequence": 0.012
     },
-    "stem words (median)": 15,
+    "stem words (median)": 11,
     "4+ statements": 39,
     "code boilerplate": 48,
     "no explanation": 417
@@ -395,63 +395,63 @@
     "no explanation": 464
    },
    "Economy": {
-    "n": 2846,
+    "n": 6298,
     "shares": {
-     "one-liner": 0.423,
-     "statements": 0.422,
-     "NOT": 0.051,
-     "match": 0.033,
-     "assertion": 0.047,
-     "sequence": 0.024
+     "one-liner": 0.786,
+     "statements": 0.115,
+     "NOT": 0.054,
+     "match": 0.027,
+     "assertion": 0.01,
+     "sequence": 0.008
     },
-    "stem words (median)": 21,
+    "stem words (median)": 13,
     "4+ statements": 46,
     "code boilerplate": 56,
     "no explanation": 410
    },
    "Geography": {
-    "n": 3487,
+    "n": 6897,
     "shares": {
-     "one-liner": 0.459,
-     "statements": 0.366,
-     "NOT": 0.059,
-     "match": 0.057,
-     "assertion": 0.037,
-     "sequence": 0.021
+     "one-liner": 0.791,
+     "statements": 0.106,
+     "NOT": 0.046,
+     "match": 0.034,
+     "assertion": 0.014,
+     "sequence": 0.009
     },
-    "stem words (median)": 15,
+    "stem words (median)": 11,
     "4+ statements": 58,
     "code boilerplate": 34,
     "no explanation": 360
    },
    "Science & Tech": {
-    "n": 2951,
+    "n": 6437,
     "shares": {
-     "one-liner": 0.401,
-     "statements": 0.427,
-     "NOT": 0.044,
-     "match": 0.057,
-     "assertion": 0.063,
-     "sequence": 0.008
+     "one-liner": 0.781,
+     "statements": 0.126,
+     "NOT": 0.048,
+     "match": 0.032,
+     "assertion": 0.008,
+     "sequence": 0.004
     },
-    "stem words (median)": 19,
+    "stem words (median)": 12,
     "4+ statements": 78,
     "code boilerplate": 54,
     "no explanation": 358
    },
    "Current Affairs": {
-    "n": 5205,
+    "n": 12662,
     "shares": {
-     "one-liner": 0.099,
-     "statements": 0.711,
-     "NOT": 0.015,
-     "match": 0.127,
-     "assertion": 0.036,
-     "sequence": 0.012
+     "one-liner": 0.776,
+     "statements": 0.145,
+     "NOT": 0.027,
+     "match": 0.039,
+     "assertion": 0.007,
+     "sequence": 0.005
     },
-    "stem words (median)": 41,
+    "stem words (median)": 13,
     "4+ statements": 3,
-    "code boilerplate": 2,
+    "code boilerplate": 1,
     "no explanation": 60
    }
   },
@@ -460,9 +460,9 @@
     "topics": 107,
     "topics without MCQs": 0,
     "pages": 1049,
-    "pages without MCQs": 85,
+    "pages without MCQs": 0,
     "bold facts": 17035,
-    "bold facts asked": 0.656
+    "bold facts asked": 0.823
    },
    "Constitution & Society": {
     "topics": 76,
@@ -476,210 +476,210 @@
     "topics": 64,
     "topics without MCQs": 0,
     "pages": 642,
-    "pages without MCQs": 68,
+    "pages without MCQs": 0,
     "bold facts": 8012,
-    "bold facts asked": 0.529
+    "bold facts asked": 0.73
    },
    "Geography": {
     "topics": 55,
     "topics without MCQs": 0,
     "pages": 556,
-    "pages without MCQs": 38,
+    "pages without MCQs": 0,
     "bold facts": 8042,
-    "bold facts asked": 0.629
+    "bold facts asked": 0.793
    },
    "Science & Tech": {
     "topics": 59,
     "topics without MCQs": 0,
     "pages": 595,
-    "pages without MCQs": 34,
+    "pages without MCQs": 0,
     "bold facts": 8278,
-    "bold facts asked": 0.594
+    "bold facts asked": 0.78
    },
    "Current Affairs": {
     "topics": 110,
     "topics without MCQs": 0,
     "pages": 1084,
-    "pages without MCQs": 135,
+    "pages without MCQs": 0,
     "bold facts": 38073,
-    "bold facts asked": 0.558
+    "bold facts asked": 0.817
    }
   },
   "least covered topics": [
    [
-    0.21,
-    6,
-    23,
-    "Special topics: Reports and indices - releasing agency, India's rank, ",
-    4
-   ],
-   [
-    0.27,
-    6,
-    50,
-    "Special topics: National - committees, commissions and their reports",
-    8
-   ],
-   [
-    0.29,
-    6,
-    91,
-    "Sep–4 Nov 2026: Andhra Pradesh - budget and Socio-Economic Survey high",
-    5
-   ],
-   [
-    0.3,
-    6,
-    30,
-    "Special topics: National - polity and governance: bills, acts, ordinan",
-    10
-   ],
-   [
-    0.3,
-    6,
-    38,
-    "Overview and data: National - economy: Union Budget and Economic Surve",
-    11
-   ],
-   [
-    0.31,
-    4,
-    44,
-    "India - Sex Ratio and Child Sex Ratio: Trends, Regional Pattern, Cause",
-    20
-   ],
-   [
-    0.31,
-    5,
-    24,
-    "India's Energy Resources and Import Dependence – Crude Oil, Coal, Gas ",
-    15
-   ],
-   [
-    0.31,
-    6,
-    9,
-    "Dec 2025–Feb 2026: International - treaties, agreements and developmen",
-    18
-   ],
-   [
-    0.32,
-    3,
-    53,
-    "Ap Per Capita Income, District Disparities and Ap's Position Among Sta",
-    25
-   ],
-   [
-    0.34,
+    0.51,
     3,
     55,
     "Ap Socio-economic Survey – Key Indicators of the Latest Edition",
-    17
+    60
    ],
    [
-    0.34,
+    0.56,
     6,
-    7,
-    "Jun–Aug 2026: International - treaties, agreements and developments in",
-    11
+    38,
+    "Overview and data: National - economy: Union Budget and Economic Surve",
+    42
    ],
    [
-    0.35,
+    0.57,
     3,
-    15,
-    "Trends in India's National Income, Per Capita Income and Sectoral Shar",
-    26
-   ],
-   [
-    0.38,
-    3,
-    2,
-    "Methods of Measuring National Income – Product, Income and Expenditure",
-    14
-   ],
-   [
-    0.38,
-    4,
-    43,
-    "India - Population Growth: Decadal Trends, Growth Rate, Census 2011 Hi",
-    19
-   ],
-   [
-    0.39,
-    3,
-    20,
-    "Banking in India – Nationalisation, Structure, Priority Sector, Small ",
+    53,
+    "Ap Per Capita Income, District Disparities and Ap's Position Among Sta",
     57
    ],
    [
-    0.4,
+    0.58,
+    6,
+    23,
+    "Special topics: Reports and indices - releasing agency, India's rank, ",
+    26
+   ],
+   [
+    0.59,
+    2,
+    72,
+    "Challenges in Local Devolution – Funds, Functions, Functionaries; Para",
+    44
+   ],
+   [
+    0.59,
+    4,
+    44,
+    "India - Sex Ratio and Child Sex Ratio: Trends, Regional Pattern, Cause",
+    71
+   ],
+   [
+    0.6,
+    2,
+    41,
+    "Parliament – Composition of Lok Sabha and Rajya Sabha, Qualifications,",
+    234
+   ],
+   [
+    0.6,
+    3,
+    38,
+    "Agricultural Productivity – Trends, Inter-crop and Inter-state Variati",
+    88
+   ],
+   [
+    0.6,
     3,
     52,
     "Andhra Pradesh Economy After Bifurcation – Gsdp, Growth Rate, Sectoral",
-    58
+    148
    ],
    [
-    0.4,
+    0.6,
     6,
-    1,
-    "Jun–Aug 2026: International - summits, conferences and their outcomes",
-    19
+    50,
+    "Special topics: National - committees, commissions and their reports",
+    33
    ],
    [
-    0.4,
-    6,
-    42,
-    "Dec 2025–Feb 2026: National - new central schemes, missions and their ",
-    32
-   ],
-   [
-    0.4,
-    6,
-    77,
-    "Special topics: Sports - major tournaments, winners, records and hosti",
-    7
-   ],
-   [
-    0.41,
-    3,
-    11,
-    "Second-generation Reforms and the Reform Record Since 2014; Labour Cod",
-    19
-   ],
-   [
-    0.41,
-    3,
-    12,
-    "Sharing of Resources and Devolution – Horizontal and Vertical Devoluti",
-    25
-   ],
-   [
-    0.41,
-    3,
-    56,
-    "Bifurcation and Ap's State Revenue – Revenue Deficit, Loss of Hyderaba",
-    15
-   ],
-   [
-    0.41,
-    5,
-    2,
-    "Launch Vehicles - SLV-3, Aslv, Pslv, Gslv Mk-ii, LVM3, Sslv",
-    27
-   ],
-   [
-    0.41,
-    6,
-    76,
-    "Apr–Nov 2025: Sports - major tournaments, winners, records and hosting",
-    11
-   ],
-   [
-    0.42,
+    0.61,
     1,
     76,
     "Civil Disobedience Movement – Lahore Session and Purna Swaraj, Dandi M",
-    95
+    155
+   ],
+   [
+    0.62,
+    3,
+    15,
+    "Trends in India's National Income, Per Capita Income and Sectoral Shar",
+    68
+   ],
+   [
+    0.62,
+    3,
+    50,
+    "Make in India, Pli, National Manufacturing Policy and Ease of Doing Bu",
+    102
+   ],
+   [
+    0.62,
+    6,
+    24,
+    "Overview and data: Reports and indices - releasing agency, India's ran",
+    46
+   ],
+   [
+    0.63,
+    6,
+    7,
+    "Jun–Aug 2026: International - treaties, agreements and developments in",
+    56
+   ],
+   [
+    0.64,
+    3,
+    20,
+    "Banking in India – Nationalisation, Structure, Priority Sector, Small ",
+    125
+   ],
+   [
+    0.64,
+    3,
+    48,
+    "Industrial Policy – 1948, 1956, 1977, 1980 and New Industrial Policy 1",
+    115
+   ],
+   [
+    0.64,
+    4,
+    53,
+    "Religious Composition of India – Distribution and Change Over Decades",
+    63
+   ],
+   [
+    0.65,
+    3,
+    47,
+    "Indian Industry – Structure, Growth, Iip and Public Sector",
+    163
+   ],
+   [
+    0.65,
+    4,
+    30,
+    "Andhra Pradesh – Rocks and Minerals: Barytes, Limestone, Mica, Coal, O",
+    83
+   ],
+   [
+    0.65,
+    5,
+    52,
+    "Impacts of Climate Change on India – Monsoon, Agriculture, Himalayan G",
+    97
+   ],
+   [
+    0.66,
+    2,
+    53,
+    "Election Commission of India – Composition, Appointment (2023 Act), Po",
+    96
+   ],
+   [
+    0.66,
+    2,
+    74,
+    "Devolution of Powers and Finances to Local Levels – Finance Commission",
+    59
+   ],
+   [
+    0.66,
+    3,
+    54,
+    "Ap State Finances – Revenue Receipts and Expenditure, Debt and Interes",
+    175
+   ],
+   [
+    0.66,
+    3,
+    56,
+    "Bifurcation and Ap's State Revenue – Revenue Deficit, Loss of Hyderaba",
+    52
    ]
   ]
  }

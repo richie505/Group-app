@@ -172,7 +172,9 @@ W(f"{G}/notemoves.json", [])
 W(f"{G}/mcqlinks.json", {})
 
 # --- the plan: 5 Nov -> 21 Jan, phases in APPSC Complete's proportions, HIGH first
-old = J(f"{C}/plan.json")
+# Group 2 keeps its phased plan (study, revision, practice, mocks): its day templates come from APPSC Complete's
+# earlier phased plan, kept in data/plan/g2_template_plan.json (Complete itself now runs notes + MCQs every day)
+old = J("data/plan/g2_template_plan.json")
 pri = {tuple(r["ref"]): r for d in old["days"] for r in d["rows"] if r.get("ref")}
 template = {}
 for dd in old["days"]:
