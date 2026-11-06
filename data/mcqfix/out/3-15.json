@@ -4,22 +4,22 @@
    "shape": "one-liner",
    "s": "Which of the following is a category of the nine-fold land-use classification of India?",
    "o": [
-    "Net irrigated area",
-    "Gross cropped area",
     "Current fallows",
-    "Gross irrigated area"
+    "Net irrigated area",
+    "Gross irrigated area",
+    "Gross cropped area"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Current fallows is one of the nine land-use categories. Net irrigated area and the gross measures are not among them."
   },
   "nef5563d4799": {
    "shape": "one-liner",
    "s": "Which land-use measure counts a plot once for each crop grown on it?",
    "o": [
-    "Net sown area",
+    "Culturable waste land",
     "Gross cropped area",
-    "Current fallows",
-    "Culturable waste land"
+    "Net sown area",
+    "Current fallows"
    ],
    "a": 1,
    "x": "Gross cropped area counts repeated cropping, so it is generally larger than net sown area, which counts a plot only once."
@@ -28,46 +28,46 @@
    "shape": "one-liner",
    "s": "Kharif crops in India are generally sown in:",
    "o": [
-    "October–December",
-    "February–March",
     "March–June",
-    "June–July"
+    "October–December",
+    "June–July",
+    "February–March"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Kharif crops are sown in June–July with the onset of the south-west monsoon and harvested around September–November."
   },
   "naef66b2e4a9": {
    "shape": "one-liner",
    "s": "Which of the following is a traditional commercial crop of Andhra Pradesh?",
    "o": [
-    "Paddy",
-    "Tobacco",
     "Jowar",
-    "Ragi"
+    "Ragi",
+    "Paddy",
+    "Tobacco"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Groundnut, cotton, tobacco and sugarcane are AP's traditional commercial crops; paddy, jowar and ragi are traditional food crops."
   },
   "n184bd20cc61": {
    "shape": "one-liner",
    "s": "Which of the following is one of the Planning Commission's agro-climatic regions?",
    "o": [
+    "Trans-Gangetic Plains",
     "Central Coastal Delta",
     "Godavari Zone",
-    "Trans-Gangetic Plains",
     "Scarce Rainfall Zone"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Trans-Gangetic Plains is a Planning Commission region; Central Coastal Delta is not, and Godavari and Scarce Rainfall are AP's own zones."
   },
   "nf92c4db44fb": {
    "shape": "one-liner",
    "s": "Which of the following was a component of the Agricultural Renewal Action Plan (APPSC Group-II 2017)?",
    "o": [
-    "Boosting capital formation",
+    "Export subsidies",
     "Credit and insurance",
     "Land ceilings",
-    "Export subsidies"
+    "Boosting capital formation"
    ],
    "a": 1,
    "x": "The plan covered soil health, irrigation/water augmentation with demand management, and credit and insurance; boosting capital formation was not a component."
@@ -100,22 +100,22 @@
    "shape": "one-liner",
    "s": "Which of the following is a stage-of-extraction category used in the Central Ground Water Board assessment?",
    "o": [
-    "Adequately exploited",
+    "Over-exploited",
     "Under-exploited",
     "Moderately critical",
-    "Over-exploited"
+    "Adequately exploited"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The CGWB categories are Safe, Semi-critical, Critical, Over-exploited and Saline; 'adequately exploited' is not one of them."
   },
   "n0ae1beb5304": {
    "shape": "one-liner",
    "s": "Which of the following is a component of Command Area Development?",
    "o": [
-    "Coal-mine reclamation",
-    "Field channels",
     "Solar feeder separation",
-    "Afforestation of catchments"
+    "Field channels",
+    "Afforestation of catchments",
+    "Coal-mine reclamation"
    ],
    "a": 1,
    "x": "Field channels, drains, land levelling and Water Users' Associations are components of Command Area Development."
@@ -141,12 +141,12 @@
    "shape": "one-liner",
    "s": "Agriculture's approximate share in India's GVA (Economic Survey 2025-26) is:",
    "o": [
-    "About 10%",
-    "About 18%",
     "About 33%",
-    "About 46%"
+    "About 46%",
+    "About 10%",
+    "About 18%"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Agriculture contributes about 18% of GVA, nearly one-fifth of national income, though it employs 46.1% of workers."
   },
   {
@@ -156,12 +156,12 @@
    "shape": "NOT",
    "s": "Which of the following is NOT a role of agriculture in the Indian economy?",
    "o": [
+    "Contributing the largest share of GVA",
     "Supplying raw material such as cotton and jute to industry",
     "Ensuring food security",
-    "Earning export income",
-    "Contributing the largest share of GVA"
+    "Earning export income"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Agriculture supplies raw material, food security and exports, but its GVA share (~18%) is far below its employment share, not the largest."
   },
   {
@@ -186,12 +186,12 @@
    "shape": "one-liner",
    "s": "India's net sown area in 2021-22 was about:",
    "o": [
-    "141 Mha",
-    "219.16 Mha",
+    "77.9 Mha",
     "120.3 Mha",
-    "77.9 Mha"
+    "141 Mha",
+    "219.16 Mha"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Net sown area was 141 Mha (42.8% of geographical area); 219.16 Mha is the gross cropped area."
   },
   {
@@ -201,12 +201,12 @@
    "shape": "one-liner",
    "s": "Cropping intensity is calculated as:",
    "o": [
+    "GCA ÷ geographical area × 100",
     "NSA ÷ GCA × 100",
-    "GCA ÷ NSA × 100",
     "Net irrigated area ÷ NSA × 100",
-    "GCA ÷ geographical area × 100"
+    "GCA ÷ NSA × 100"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Cropping intensity = gross cropped area ÷ net sown area × 100, about 155.4% for India in 2021-22."
   },
   {
@@ -216,12 +216,12 @@
    "shape": "one-liner",
    "s": "Which is the largest land-use category in Andhra Pradesh?",
    "o": [
-    "Forests",
-    "Current fallows",
     "Net area sown",
-    "Barren and unculturable land"
+    "Forests",
+    "Barren and unculturable land",
+    "Current fallows"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Net area sown (36.29%) is AP's largest category, followed by forests (22.63%)."
   },
   {
@@ -231,10 +231,10 @@
    "shape": "one-liner",
    "s": "Which is the smallest land-use category in Andhra Pradesh?",
    "o": [
-    "Culturable waste",
+    "Barren and unculturable land",
     "Land under miscellaneous tree crops",
     "Current fallows",
-    "Barren and unculturable land"
+    "Culturable waste"
    ],
    "a": 1,
    "x": "Miscellaneous tree crops cover only 0.94% of AP, the smallest category; culturable waste is 2.47%."
@@ -246,8 +246,8 @@
    "shape": "one-liner",
    "s": "India's net irrigated area in 2021-22 was about:",
    "o": [
-    "120.3 Mha",
     "141 Mha",
+    "120.3 Mha",
     "77.9 Mha",
     "51.5 Mha"
    ],
@@ -261,12 +261,12 @@
    "shape": "one-liner",
    "s": "After tubewells, which was the second-largest contributor to India's net irrigated area in 2021-22?",
    "o": [
-    "Tanks",
-    "Canals",
     "Other wells",
-    "Other sources"
+    "Other sources",
+    "Tanks",
+    "Canals"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Canals contributed 24.7%, second to tubewells (47.3%); tanks were only 2.8%."
   },
   {
@@ -276,12 +276,12 @@
    "shape": "one-liner",
    "s": "Women-operated holdings formed what share of operational holdings in the Agriculture Census 2015-16?",
    "o": [
-    "12.8%",
     "13.9%",
     "47.3%",
-    "86.2%"
+    "86.2%",
+    "12.8%"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Women-operated holdings rose from 12.8% (2010-11) to 13.9% (2015-16)."
   },
   {
@@ -291,12 +291,12 @@
    "shape": "one-liner",
    "s": "Which State had the largest average operational holding in India as per the Agriculture Census 2015-16?",
    "o": [
-    "Punjab",
     "Rajasthan",
     "Nagaland",
-    "Andhra Pradesh"
+    "Andhra Pradesh",
+    "Punjab"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Nagaland had the largest average operational holding in 2015-16."
   },
   {
@@ -306,12 +306,12 @@
    "shape": "one-liner",
    "s": "As per the 11th Agriculture Census (2021-22, provisional), which AP district has the smallest average holding?",
    "o": [
-    "Ananthapuram",
-    "Visakhapatnam",
+    "Kurnool",
     "Nellore",
-    "Kurnool"
+    "Visakhapatnam",
+    "Ananthapuram"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Visakhapatnam has the smallest average holding (0.40 ha); Ananthapuram has the largest (1.62 ha)."
   },
   {
@@ -321,12 +321,12 @@
    "shape": "one-liner",
    "s": "Which of the following is a Zaid crop?",
    "o": [
-    "Wheat",
     "Jute",
-    "Watermelon",
-    "Mustard"
+    "Mustard",
+    "Wheat",
+    "Watermelon"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Watermelon is a Zaid crop; jute is Kharif, while wheat and mustard are Rabi."
   },
   {
@@ -336,28 +336,28 @@
    "shape": "one-liner",
    "s": "Jute is grown in India as a:",
    "o": [
-    "Rabi crop",
     "Kharif crop",
     "Zaid crop",
+    "Rabi crop",
     "Zaid Rabi crop"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Jute is a Kharif crop, not Rabi – a common trap."
   },
   {
    "topic": 45,
    "sec": 6,
    "angle": "5,10",
-   "shape": "one-liner",
-   "s": "Which of the following pulses is a kharif crop?",
+   "shape": "statements",
+   "s": "Consider the following statements about pulses:\n1. Tur (arhar) is a kharif crop.\n2. Gram (chana) is a rabi crop.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Gram",
-    "Chana",
-    "Tur (arhar)",
-    "Peas"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 2,
-   "x": "Tur/arhar is kharif, whereas gram/chana and peas are rabi."
+   "x": "Tur/arhar is sown in kharif and gram/chana in rabi, so both statements are correct."
   },
   {
    "topic": 45,
@@ -366,12 +366,12 @@
    "shape": "one-liner",
    "s": "Which of the following crops is grown in both kharif and rabi seasons in Andhra Pradesh?",
    "o": [
+    "Jute",
     "Wheat",
     "Paddy",
-    "Mustard",
-    "Jute"
+    "Mustard"
    ],
-   "a": 1,
+   "a": 2,
    "x": "In AP, paddy, maize, jowar, bajra and pulses are grown in both kharif and rabi."
   },
   {
@@ -381,12 +381,12 @@
    "shape": "one-liner",
    "s": "Foodgrains in India comprise:",
    "o": [
-    "Cereals and pulses",
     "Cereals and oilseeds",
     "Pulses and oilseeds",
-    "Cereals, pulses and oilseeds"
+    "Cereals, pulses and oilseeds",
+    "Cereals and pulses"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Foodgrains = cereals + pulses; oilseeds are a separate group."
   },
   {
@@ -398,8 +398,8 @@
    "o": [
     "Assured MSP procurement",
     "Falling irrigation cover",
-    "Export bans on pulses",
-    "Decline in fertiliser use"
+    "Decline in fertiliser use",
+    "Export bans on pulses"
    ],
    "a": 0,
    "x": "Assured MSP procurement drove rice-wheat expansion in these States."
@@ -411,12 +411,12 @@
    "shape": "one-liner",
    "s": "Irrigation covers about 67% of rice area in India. What share of pulses area is irrigated?",
    "o": [
-    "About 67%",
-    "About 51%",
+    "About 47%",
     "About 26%",
-    "About 47%"
+    "About 67%",
+    "About 51%"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Only about 26% of pulses area is irrigated, against 67% of rice area; pulses are largely rainfed."
   },
   {
@@ -427,11 +427,11 @@
    "s": "After paddy, which is the largest foodgrain group by area in Andhra Pradesh (2024-25)?",
    "o": [
     "Maize",
-    "Pulses",
     "Jowar",
+    "Pulses",
     "Ragi"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Pulses (11.66 lakh ha) follow paddy (20.97 lakh ha); maize has 3.20 lakh ha."
   },
   {
@@ -442,11 +442,11 @@
    "s": "Oil palm cultivation is expanding in which AP districts?",
    "o": [
     "Kurnool, Anantapuramu, Kadapa",
-    "East Godavari, Eluru, West Godavari",
+    "Chittoor, Nellore, Prakasam",
     "Srikakulam, Vizianagaram, Visakhapatnam",
-    "Chittoor, Nellore, Prakasam"
+    "East Godavari, Eluru, West Godavari"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Oil palm is expanding in East Godavari, Eluru and West Godavari."
   },
   {
@@ -456,12 +456,12 @@
    "shape": "one-liner",
    "s": "Undivided Andhra Pradesh had how many agro-climatic zones?",
    "o": [
-    "Six",
-    "Seven",
     "Nine",
-    "Fifteen"
+    "Six",
+    "Fifteen",
+    "Seven"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Undivided AP had nine zones; the 2017 key had seven and APSES 2024-25 lists six."
   },
   {
@@ -471,10 +471,10 @@
    "shape": "one-liner",
    "s": "The zonal headquarters (RARS) of the Godavari Zone, known as the 'Rice Bowl', is at:",
    "o": [
-    "Nandyal",
-    "Maruteru",
     "Chintapalle",
-    "Tirupati"
+    "Maruteru",
+    "Tirupati",
+    "Nandyal"
    ],
    "a": 1,
    "x": "Maruteru is the RARS of the Godavari Zone; Nandyal serves Scarce Rainfall and Chintapalle the High Altitude and Tribal Zone."
@@ -486,12 +486,12 @@
    "shape": "one-liner",
    "s": "The Planning Commission's agro-climatic regionalisation (1989) divided India into:",
    "o": [
-    "15 regions and 72 sub-zones",
+    "15 regions and 127 sub-zones",
     "127 regions",
-    "9 regions and 72 sub-zones",
-    "15 regions and 127 sub-zones"
+    "15 regions and 72 sub-zones",
+    "9 regions and 72 sub-zones"
    ],
-   "a": 0,
+   "a": 2,
    "x": "The Planning Commission set 15 regions with 72 sub-zones; NARP has 127 zones."
   },
   {
@@ -501,12 +501,12 @@
    "shape": "one-liner",
    "s": "Which was the first commercial GM crop in India, approved in 2002?",
    "o": [
-    "Bt brinjal",
+    "Golden rice",
     "GM mustard DMH-11",
-    "Bt cotton",
-    "Golden rice"
+    "Bt brinjal",
+    "Bt cotton"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Bt cotton (2002) is India's only major GM crop; Bt brinjal is under moratorium since 2010."
   },
   {
@@ -531,12 +531,12 @@
    "shape": "one-liner",
    "s": "Tanks provide what share of India's net irrigated area (2021-22)?",
    "o": [
-    "2.8%",
-    "13.2%",
     "24.7%",
-    "47.3%"
+    "2.8%",
+    "47.3%",
+    "13.2%"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Tanks provide only 2.8%, though they matter in peninsular hard-rock States."
   },
   {
@@ -546,12 +546,12 @@
    "shape": "one-liner",
    "s": "Under the Culturable Command Area criterion, a minor irrigation project covers:",
    "o": [
-    "Up to 2,000 ha",
-    "2,000-10,000 ha",
     "Above 10,000 ha",
-    "Up to 5,000 ha"
+    "Up to 5,000 ha",
+    "Up to 2,000 ha",
+    "2,000-10,000 ha"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Minor projects cover up to 2,000 ha CCA; medium 2,000-10,000 ha; major above 10,000 ha."
   },
   {
@@ -561,9 +561,9 @@
    "shape": "one-liner",
    "s": "A major irrigation project has a Culturable Command Area of:",
    "o": [
-    "Up to 2,000 ha",
-    "2,000-5,000 ha",
     "2,000-10,000 ha",
+    "2,000-5,000 ha",
+    "Up to 2,000 ha",
     "Above 10,000 ha"
    ],
    "a": 3,
@@ -576,12 +576,12 @@
    "shape": "one-liner",
    "s": "Since 2016, how many prioritised AIBP projects are funded through NABARD's Long Term Irrigation Fund?",
    "o": [
-    "65",
     "99",
+    "127",
     "27",
-    "127"
+    "65"
    ],
-   "a": 1,
+   "a": 0,
    "x": "99 prioritised AIBP projects (8 in AP) are funded through NABARD's LTIF."
   },
   {
@@ -606,12 +606,12 @@
    "shape": "one-liner",
    "s": "The Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) was launched on:",
    "o": [
-    "1 April 2003",
-    "1 July 2015",
+    "1 July 2019",
     "26 October 2015",
-    "1 July 2019"
+    "1 July 2015",
+    "1 April 2003"
    ],
-   "a": 1,
+   "a": 2,
    "x": "PMKSY, the umbrella irrigation scheme, was launched on 1 July 2015."
   },
   {
@@ -621,12 +621,12 @@
    "shape": "one-liner",
    "s": "Which PMKSY component deals with micro-irrigation?",
    "o": [
+    "Watershed Development",
     "Har Khet Ko Pani",
-    "Per Drop More Crop",
     "AIBP",
-    "Watershed Development"
+    "Per Drop More Crop"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Per Drop More Crop covers micro-irrigation (now under PM-RKVY); Har Khet Ko Pani covers assured irrigation and CAD."
   },
   {
@@ -636,12 +636,12 @@
    "shape": "one-liner",
    "s": "The Micro Irrigation Fund with NABARD has a corpus of:",
    "o": [
-    "Rs 1,600 crore",
     "Rs 5,000 crore",
     "Rs 10,000 crore",
-    "Rs 35,555 crore"
+    "Rs 35,555 crore",
+    "Rs 1,600 crore"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The Micro Irrigation Fund has a corpus of Rs 5,000 crore with NABARD."
   },
   {
@@ -651,12 +651,12 @@
    "shape": "one-liner",
    "s": "The Hariyali guidelines for watershed development came into force from:",
    "o": [
-    "1 April 2003",
     "1 July 2015",
+    "1 April 2003",
     "26 October 2015",
     "1 April 2008"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Hariyali guidelines took effect from 1 April 2003."
   },
   {
@@ -666,10 +666,10 @@
    "shape": "one-liner",
    "s": "Hariyali, IWDP and NWDPRA were merged into which programme in 2008?",
    "o": [
-    "WDC 2.0",
     "Neeranchal",
+    "PMKSY",
     "IWMP",
-    "PMKSY"
+    "WDC 2.0"
    ],
    "a": 2,
    "x": "They were merged into the Integrated Watershed Management Programme (IWMP) under the 2008 common guidelines."
@@ -681,12 +681,12 @@
    "shape": "one-liner",
    "s": "The Neeranchal National Watershed Project is supported by the:",
    "o": [
+    "JICA",
     "Asian Development Bank",
-    "World Bank",
     "NABARD",
-    "JICA"
+    "World Bank"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Neeranchal is World Bank-aided ($178.5 million), covering nine States including AP and Telangana."
   },
   {
@@ -711,10 +711,10 @@
    "shape": "one-liner",
    "s": "As of 2025, India's stage of groundwater extraction is about:",
    "o": [
-    "31.5%",
+    "47.3%",
     "60.63%",
-    "64%",
-    "47.3%"
+    "31.5%",
+    "64%"
    ],
    "a": 1,
    "x": "India's stage of extraction was 60.63% in 2025, up from 60.47% in 2024."
@@ -727,11 +727,11 @@
    "s": "Component B of PM-KUSUM provides for:",
    "o": [
     "10,000 MW decentralised grid-connected solar plants",
-    "14 lakh standalone solar pumps",
     "Feeder-level solarisation",
+    "14 lakh standalone solar pumps",
     "Micro Irrigation Fund"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Component B covers 14 lakh standalone solar pumps (up to 7.5 HP); A is 10,000 MW plants and C is pump solarisation."
   },
   {
@@ -741,12 +741,12 @@
    "shape": "one-liner",
    "s": "Which State ranks first in micro-irrigation in India?",
    "o": [
-    "Gujarat",
     "Maharashtra",
-    "Andhra Pradesh",
-    "Karnataka"
+    "Karnataka",
+    "Gujarat",
+    "Andhra Pradesh"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Andhra Pradesh ranks first in micro-irrigation, through APMIP running since 2003."
   },
   {
@@ -756,28 +756,13 @@
    "shape": "one-liner",
    "s": "Which region accounts for about 64% of the area under the AP Micro Irrigation Project?",
    "o": [
-    "Coastal Andhra",
     "Rayalaseema",
     "North Coastal Andhra",
+    "Coastal Andhra",
     "Godavari delta"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Rayalaseema accounts for 64% of APMIP's 42.25 lakh acres."
-  },
-  {
-   "topic": 46,
-   "sec": 8,
-   "angle": "9",
-   "shape": "one-liner",
-   "s": "The Polavaram project is built on which river?",
-   "o": [
-    "Krishna",
-    "Pennar",
-    "Godavari",
-    "Vamsadhara"
-   ],
-   "a": 2,
-   "x": "Polavaram is on the Godavari; Galeru-Nagari and Veligonda draw on the Krishna."
   },
   {
    "topic": 46,
@@ -787,27 +772,27 @@
    "s": "Which of the following AP projects is NOT based on the Krishna?",
    "o": [
     "Galeru-Nagari",
-    "Veligonda",
     "Polavaram",
+    "Veligonda",
     "Nagarjuna Sagar"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Polavaram is a Godavari project; Galeru-Nagari, Veligonda and Nagarjuna Sagar are Krishna-based."
   },
   {
    "topic": 46,
    "sec": 8,
    "angle": "9",
-   "shape": "one-liner",
-   "s": "Polavaram was declared a National Project under the:",
+   "shape": "statements",
+   "s": "Consider the following statements about AP irrigation projects:\n1. Polavaram is a National Project under the AP Reorganisation Act, 2014.\n2. Veligonda draws Krishna water through Srisailam tunnels.\n3. Galeru-Nagari is a Godavari-based project.\nWhich of the statements given above is/are correct?",
    "o": [
-    "AP Reorganisation Act, 2014",
-    "APWALTA, 2002",
-    "Inter-State River Water Disputes Act, 1956",
-    "PMKSY, 2015"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
    "a": 0,
-   "x": "Polavaram is a National Project under the AP Reorganisation Act, 2014."
+   "x": "Polavaram is a National Project (APRA 2014) and Veligonda takes Krishna water via Srisailam tunnels; Galeru-Nagari is Krishna-based, not Godavari."
   },
   {
    "topic": 46,
@@ -816,12 +801,12 @@
    "shape": "one-liner",
    "s": "How many irrigation tanks does Andhra Pradesh have?",
    "o": [
-    "38,862",
     "19,000",
+    "679",
     "25,600",
-    "679"
+    "38,862"
    ],
-   "a": 0,
+   "a": 3,
    "x": "AP has 38,862 tanks with an ayacut of 25.60 lakh acres."
   },
   {
@@ -831,12 +816,12 @@
    "shape": "one-liner",
    "s": "India's per capita annual water availability places it in which category?",
    "o": [
-    "Water-scarce",
     "Water-stressed",
+    "Absolute scarcity",
     "Water-surplus",
-    "Absolute scarcity"
+    "Water-scarce"
    ],
-   "a": 1,
+   "a": 0,
    "x": "India is already below 1,700 m³ per capita, so it is water-stressed."
   },
   {
@@ -846,10 +831,10 @@
    "shape": "one-liner",
    "s": "Water, as a subject, falls under which entry of the Constitution?",
    "o": [
-    "Entry 56, Union List",
-    "Entry 17, State List",
     "Entry 17, Concurrent List",
-    "Entry 56, State List"
+    "Entry 17, State List",
+    "Entry 56, State List",
+    "Entry 56, Union List"
    ],
    "a": 1,
    "x": "Water is Entry 17 of the State List; inter-State rivers are Entry 56 of the Union List."
@@ -861,12 +846,12 @@
    "shape": "one-liner",
    "s": "Zero or minimum tillage saves irrigation water mainly by:",
    "o": [
-    "Lowering evaporation and keeping soil moisture",
-    "Increasing runoff",
+    "Deepening the water table",
     "Raising weed growth",
-    "Deepening the water table"
+    "Lowering evaporation and keeping soil moisture",
+    "Increasing runoff"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Less soil disturbance lowers evaporation and keeps soil moisture; more weeds is its drawback."
   },
   {
@@ -877,11 +862,11 @@
    "s": "Under FAO's Conservation Agriculture, permanent soil cover should be at least:",
    "o": [
     "10%",
+    "50%",
     "20%",
-    "30%",
-    "50%"
+    "30%"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Conservation Agriculture asks for permanent soil cover of at least 30%, with minimum disturbance and crop diversification."
   },
   {
@@ -891,12 +876,12 @@
    "shape": "one-liner",
    "s": "Which irrigation method has an efficiency of about 70-80%?",
    "o": [
-    "Drip",
     "Sprinkler",
     "Flood",
-    "Basin"
+    "Basin",
+    "Drip"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Sprinkler is about 70-80% efficient; drip is ~90% and flood/basin 30-50%."
   },
   {
@@ -906,9 +891,9 @@
    "shape": "one-liner",
    "s": "India's first National Water Policy was adopted in:",
    "o": [
-    "1982",
-    "1987",
     "2002",
+    "1987",
+    "1982",
     "2012"
    ],
    "a": 1,
@@ -922,11 +907,11 @@
    "s": "Which of the following is NOT a feature of the National Water Policy, 2012?",
    "o": [
     "Water Regulatory Authority in each State",
-    "Incentives for micro-irrigation",
     "Recycling and reuse of water",
-    "A single Union authority replacing State institutions"
+    "A single Union authority replacing State institutions",
+    "Incentives for micro-irrigation"
    ],
-   "a": 3,
+   "a": 2,
    "x": "NWP-2012 proposes a framework law, State regulators, reuse and micro-irrigation incentives, but no single Union authority replacing State institutions."
   },
   {
@@ -936,12 +921,12 @@
    "shape": "one-liner",
    "s": "The Bureau of Water Use Efficiency (BWUE), set up in October 2022, functions under the:",
    "o": [
-    "National Water Mission",
+    "NITI Aayog",
     "NWDA",
     "CGWB",
-    "NITI Aayog"
+    "National Water Mission"
    ],
-   "a": 0,
+   "a": 3,
    "x": "BWUE was set up in October 2022 under the National Water Mission."
   },
   {
@@ -953,8 +938,8 @@
    "o": [
     "No new projects approved after 2021-22",
     "Launched afresh in 2015",
-    "Merged with Atal Bhujal",
-    "Transferred to NITI Aayog"
+    "Transferred to NITI Aayog",
+    "Merged with Atal Bhujal"
    ],
    "a": 0,
    "x": "CADWM has no new approvals after 2021-22; M-CADWM runs from 2025-26."
@@ -966,12 +951,12 @@
    "shape": "one-liner",
    "s": "The Command Area Development Programme was launched mainly to:",
    "o": [
+    "Regulate groundwater extraction",
     "Narrow the gap between irrigation potential created and utilised",
     "Build new major dams",
-    "Link Himalayan rivers",
-    "Regulate groundwater extraction"
+    "Link Himalayan rivers"
    ],
-   "a": 0,
+   "a": 1,
    "x": "CAD (1974-75) aims to narrow the gap between irrigation potential created and used."
   },
   {
@@ -982,11 +967,11 @@
    "s": "The National Perspective Plan for river linking was prepared in:",
    "o": [
     "1974",
+    "2002",
     "1980",
-    "1982",
-    "2002"
+    "1982"
    ],
-   "a": 1,
+   "a": 2,
    "x": "The NPP dates from 1980; NWDA was set up in 1982 to carry it out."
   },
   {
@@ -997,27 +982,27 @@
    "s": "Who first proposed linking Indian rivers in the 19th century?",
    "o": [
     "K.L. Rao",
+    "M. Visvesvaraya",
     "Suresh Prabhu",
-    "Sir Arthur Cotton",
-    "M. Visvesvaraya"
+    "Sir Arthur Cotton"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Sir Arthur Cotton first proposed river linking; K.L. Rao proposed the Ganga-Cauvery link."
   },
   {
    "topic": 47,
    "sec": 5,
    "angle": "5",
-   "shape": "one-liner",
-   "s": "The Godavari-Krishna link of the Godavari-Cauvery proposal starts from:",
+   "shape": "match",
+   "s": "Which of the following link – end point pairs is correctly matched?",
    "o": [
-    "Polavaram",
-    "Inchampalli",
-    "Somasila",
-    "Nagarjunasagar"
+    "Godavari–Krishna link – starts at Inchampalli",
+    "Pennar–Cauvery link – starts at Nagarjunasagar",
+    "Pattiseema lift – ends at Srisailam",
+    "Krishna–Pennar link – ends at Grand Anicut"
    ],
-   "a": 1,
-   "x": "The Godavari-Krishna link runs from Inchampalli to Nagarjunasagar."
+   "a": 0,
+   "x": "The Godavari–Krishna link runs from Inchampalli to Nagarjunasagar; Krishna–Pennar ends at Somasila, Pennar–Cauvery starts at Somasila, and Pattiseema ends at Prakasam barrage."
   },
   {
    "topic": 47,
@@ -1026,10 +1011,10 @@
    "shape": "one-liner",
    "s": "The Composite Water Management Index is published by:",
    "o": [
-    "Central Water Commission",
+    "CGWB",
     "NITI Aayog",
-    "Ministry of Jal Shakti",
-    "CGWB"
+    "Central Water Commission",
+    "Ministry of Jal Shakti"
    ],
    "a": 1,
    "x": "NITI Aayog publishes the CWMI; Gujarat topped it."
