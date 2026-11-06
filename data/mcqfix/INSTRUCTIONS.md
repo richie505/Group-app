@@ -28,7 +28,7 @@ The latest APPSC papers (2023-25) are about 79% direct one-liners, 10% statement
 - APPSC style: short direct stems (under 25 words), four options of the same kind (four Articles, four years, four
   names), plausible near-miss decoys (the neighbouring Article, the next amendment, a similar body). No "Select the
   correct answer using the code given below", no "all of the above", no "the notes", no sources.
-- Statement sets: "1. ...\n2. ...\n3. ..." then "Which of the statements given above is/are correct?" with the
+- Statement sets open with what they are about: "Consider the following statements about <X>:\n1. ...\n2. ...\n3. ..." then "Which of the statements given above is/are correct?" with the
   standard codes ("1 and 2 only / 2 and 3 only / 1 and 3 only / 1, 2 and 3", or for 2: "1 only / 2 only / Both 1 and 2
   / Neither 1 nor 2").
 - Spread keys over positions 1-4. Explanations: 1-2 plain sentences (why the key is right; what is wrong in a false one).

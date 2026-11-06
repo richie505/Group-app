@@ -145,9 +145,9 @@ def packets(b):
 def problems(name):
     b, n = name.split("-")
     src = open(f"{D}/in/{name}.md").read()
-    ids = set(re.findall(r"^\[([a-z0-9]+)\]", src, re.M))
+    ids = set(re.findall(r"^\[([A-Za-z0-9_-]+)\]", src, re.M))
     topics = {int(t) for t in re.findall(r"^## TOPIC (\d+):", src, re.M)}
-    secs = {int(t): len(re.findall(r"^#### \d+\.", part)) for t, part in
+    secs = {int(t): len(re.findall(r"^#### \d+\.", part, re.M)) for t, part in
             zip(re.findall(r"^## TOPIC (\d+):", src, re.M), re.split(r"^## TOPIC \d+:.*$", src, flags=re.M)[1:])}
     p = f"{D}/out/{name}.json"
     if not os.path.exists(p):
@@ -173,6 +173,8 @@ def problems(name):
             out.append(f"{w}: shape {q['shape']!r}")
         if need_shape and q["shape"] == "statements" and nstat(q) not in (2, 3):
             out.append(f"{w}: a statement MCQ has 2 or 3 numbered statements, one per line")
+        if need_shape and q["shape"] == "statements" and re.match(r"\s*1\.", q["s"]):
+            out.append(f"{w}: a statement set opens with what it is about (\"Consider the following statements about ...:\")")
         if re.search(r"select the correct answer using the code", q["s"], re.I):
             out.append(f"{w}: drop 'Select the correct answer using the code given below'")
         if re.search(r"\b(packet|the notes|source)\b", q["s"], re.I):
