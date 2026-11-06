@@ -1,0 +1,918 @@
+{
+ "reshape": {
+  "n1bd599b0885": {
+   "shape": "statements",
+   "s": "Consider the following statements about the composition of the Earth as a whole by mass:\n1. Iron is the most abundant element.\n2. Oxygen is more abundant than silicon.\n3. Magnesium is more abundant than silicon.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "For the whole Earth the order is iron 32.1% > oxygen 30.1% > silicon 15.1% > magnesium 13.9%, so statement 3 is wrong."
+  },
+  "nc8be25cdc8d": {
+   "shape": "match",
+   "s": "Which of the following pairs (mineral – position in Bowen's reaction series) is correctly matched?",
+   "o": [
+    "Olivine – Crystallises last",
+    "Quartz – Crystallises last and is most stable",
+    "Muscovite – Crystallises first",
+    "Amphibole – Most stable mineral"
+   ],
+   "a": 1,
+   "x": "Quartz crystallises last from cooling magma and is the most stable mineral in Bowen's reaction series; olivine crystallises first."
+  },
+  "n21ec54ca192": {
+   "shape": "one-liner",
+   "s": "Which is the uppermost series of the Vindhyan system?",
+   "o": [
+    "Semri",
+    "Kaimur",
+    "Rewa",
+    "Bhander"
+   ],
+   "a": 3,
+   "x": "From lower to upper the Vindhyan series are Semri, Kaimur, Rewa and Bhander, so Bhander is the uppermost."
+  },
+  "n41e80566e91": {
+   "shape": "statements",
+   "s": "Consider the following statements about the Deccan Trap patches of Andhra Pradesh:\n1. They consist of basalt.\n2. They are associated with black cotton soil.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "The Deccan Trap patches are basalt, and weathering of that basalt gives black cotton soil, so both are correct."
+  },
+  "n52b355c6c91": {
+   "shape": "statements",
+   "s": "Consider the following statements about the development of folds with increasing pressure:\n1. A symmetrical fold comes before an asymmetrical fold.\n2. A nappe forms before a recumbent fold.\n3. A recumbent fold forms after an asymmetrical fold.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "The order is symmetrical, asymmetrical, recumbent and finally nappe, so a nappe forms after (not before) a recumbent fold."
+  },
+  "n124efa1da84": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about convergent plate boundaries?",
+   "o": [
+    "Earthquakes occur at them",
+    "New crust is added at them",
+    "Friction associated with subduction can produce earthquakes",
+    "Subduction takes place at them"
+   ],
+   "a": 1,
+   "x": "New crust is added at divergent boundaries; convergent boundaries are destructive, with subduction friction producing earthquakes."
+  },
+  "nae9391a0e61": {
+   "shape": "one-liner",
+   "s": "A low-angle reverse fault is called a:",
+   "o": [
+    "Normal fault",
+    "Strike-slip fault",
+    "Transform fault",
+    "Thrust fault"
+   ],
+   "a": 3,
+   "x": "A thrust fault is a low-angle reverse fault; in a normal fault the hanging wall moves down and a strike-slip fault moves horizontally."
+  },
+  "ngeneral-geography-4-38": {
+   "shape": "one-liner",
+   "s": "Mantle dynamics, produced by endogenic processes, in turn produce:",
+   "o": [
+    "Weathering",
+    "Erosion",
+    "Plate movement",
+    "Deposition"
+   ],
+   "a": 2,
+   "x": "Endogenic processes produce mantle dynamics, and mantle dynamics produce plate movement; weathering and erosion are exogenic."
+  },
+  "n256aacfac7a": {
+   "shape": "one-liner",
+   "s": "In Kober's geosynclinal theory, the first stage, marked by sedimentation, is:",
+   "o": [
+    "Orogenesis",
+    "Gliptogenesis",
+    "Lithogenesis",
+    "Epeirogenesis"
+   ],
+   "a": 2,
+   "x": "Kober's stages are lithogenesis (sedimentation), orogenesis (folding and mountain building) and gliptogenesis (uplift and denudation)."
+  },
+  "n07239fe3205": {
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Siwaliks – Block mountains",
+    "Siwaliks – Horst",
+    "Siwaliks – Rift valley",
+    "Cuddapah sediments – Synclinal troughs"
+   ],
+   "a": 3,
+   "x": "Cuddapah sediments were laid down in synclinal troughs; the Siwaliks show simple Jura-type anticline–syncline folds, not block structures."
+  },
+  "n91655ec0756": {
+   "shape": "one-liner",
+   "s": "Orogeny, epeirogeny and earthquakes are all included in:",
+   "o": [
+    "Diastrophism",
+    "Weathering",
+    "Mass wasting",
+    "Gradation"
+   ],
+   "a": 0,
+   "x": "Diastrophism covers orogeny, epeirogeny and earthquakes; weathering is an exogenic process, and heterogenic movement is not part of diastrophism."
+  }
+ },
+ "new": [
+  {
+   "topic": 6,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which is the most abundant metal in the Earth's crust?",
+   "o": [
+    "Iron",
+    "Aluminium",
+    "Magnesium",
+    "Copper"
+   ],
+   "a": 1,
+   "x": "Aluminium (8.1%) is the most abundant metal in the crust; iron (5.0%) is second. Iron leads only for the whole Earth."
+  },
+  {
+   "topic": 6,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The second-most abundant metal in the Earth's crust is:",
+   "o": [
+    "Aluminium",
+    "Magnesium",
+    "Copper",
+    "Iron"
+   ],
+   "a": 3,
+   "x": "Iron, at 5.0% by weight, is the second-most abundant metal after aluminium (8.1%)."
+  },
+  {
+   "topic": 6,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "In Suess's classification, NIFE refers to the:",
+   "o": [
+    "Nickel-iron core",
+    "Granitic continental layer",
+    "Basaltic layer",
+    "Silica-alumina crust"
+   ],
+   "a": 0,
+   "x": "NIFE is the nickel-iron core; SIAL is the granitic continental layer and SIMA the basaltic layer."
+  },
+  {
+   "topic": 6,
+   "sec": 2,
+   "angle": "2,12",
+   "shape": "one-liner",
+   "s": "The branch of geology that studies rocks is called:",
+   "o": [
+    "Pedology",
+    "Petrology",
+    "Seismology",
+    "Hydrology"
+   ],
+   "a": 1,
+   "x": "Petrology is the study of rocks; it recognises three types – igneous, sedimentary and metamorphic."
+  },
+  {
+   "topic": 6,
+   "sec": 3,
+   "angle": "3,9",
+   "shape": "one-liner",
+   "s": "Dark, dense igneous rocks rich in iron, magnesium and calcium are called:",
+   "o": [
+    "Felsic",
+    "Intermediate",
+    "Mafic",
+    "Siliceous"
+   ],
+   "a": 2,
+   "x": "Mafic (basic) rocks are rich in Fe, Mg and Ca; felsic rocks are silica-rich and light-coloured."
+  },
+  {
+   "topic": 6,
+   "sec": 3,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Diorite is classified as a/an:",
+   "o": [
+    "Felsic extrusive rock",
+    "Mafic extrusive rock",
+    "Felsic intrusive rock",
+    "Intermediate intrusive rock"
+   ],
+   "a": 3,
+   "x": "Diorite is intermediate intrusive; rhyolite is felsic extrusive, granite felsic intrusive and basalt mafic extrusive."
+  },
+  {
+   "topic": 6,
+   "sec": 7,
+   "angle": "4,N1",
+   "shape": "one-liner",
+   "s": "Hornblende belongs to which silicate class?",
+   "o": [
+    "Inosilicate – double chain",
+    "Inosilicate – single chain",
+    "Phyllosilicate (sheet)",
+    "Tectosilicate (framework)"
+   ],
+   "a": 0,
+   "x": "Hornblende (amphibole) is a double-chain inosilicate; augite is single chain and mica a phyllosilicate."
+  },
+  {
+   "topic": 6,
+   "sec": 7,
+   "angle": "4",
+   "shape": "match",
+   "s": "Which of the following pairs (mineral – Mohs hardness) is correctly matched?",
+   "o": [
+    "Apatite – 6",
+    "Topaz – 8",
+    "Orthoclase – 5",
+    "Calcite – 4"
+   ],
+   "a": 1,
+   "x": "On the Mohs scale topaz is 8; apatite is 5, orthoclase 6 and calcite 3."
+  },
+  {
+   "topic": 6,
+   "sec": 6,
+   "angle": "6,13",
+   "shape": "one-liner",
+   "s": "Coal, through metamorphism via anthracite, finally becomes:",
+   "o": [
+    "Lignite",
+    "Slate",
+    "Graphite",
+    "Peat"
+   ],
+   "a": 2,
+   "x": "Coal is metamorphosed into graphite via anthracite; slate comes from shale."
+  },
+  {
+   "topic": 6,
+   "sec": 6,
+   "angle": "6,13",
+   "shape": "one-liner",
+   "s": "Gneiss is usually formed by the metamorphism of:",
+   "o": [
+    "Granite",
+    "Limestone",
+    "Sandstone",
+    "Shale"
+   ],
+   "a": 0,
+   "x": "Gneiss usually forms from granite; limestone gives marble, sandstone quartzite and shale slate."
+  },
+  {
+   "topic": 6,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Sedimentary rocks cover about what share of the Earth's surface?",
+   "o": [
+    "25%",
+    "50%",
+    "75%",
+    "90%"
+   ],
+   "a": 2,
+   "x": "Sedimentary rocks cover about 75% of the Earth's surface and hold most fossils and mineral oil."
+  },
+  {
+   "topic": 6,
+   "sec": 4,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Which of the following is a chemically formed sedimentary rock?",
+   "o": [
+    "Sandstone",
+    "Rock salt",
+    "Coal",
+    "Conglomerate"
+   ],
+   "a": 1,
+   "x": "Rock salt is chemically formed; sandstone and conglomerate are mechanically formed and coal is organically formed."
+  },
+  {
+   "topic": 6,
+   "sec": 10,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "The Neyveli lignite belongs to which rock system?",
+   "o": [
+    "Gondwana",
+    "Dharwar",
+    "Cuddapah",
+    "Tertiary"
+   ],
+   "a": 3,
+   "x": "Neyveli lignite is Tertiary, not Gondwana; Tertiary rocks also hold the petroleum of Assam and Gujarat."
+  },
+  {
+   "topic": 6,
+   "sec": 10,
+   "angle": "11",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Cuddapah system?",
+   "o": [
+    "It belongs to the Purana group",
+    "It is mainly made of clay rocks such as shale and slate",
+    "It holds barytes and asbestos",
+    "It is a major source of coal"
+   ],
+   "a": 3,
+   "x": "The Cuddapah system has no coal; nearly 98% of India's coal is in the Gondwana system."
+  },
+  {
+   "topic": 6,
+   "sec": 11,
+   "angle": "14",
+   "shape": "match",
+   "s": "Which of the following pairs (place in Andhra Pradesh – mineral) is correctly matched?",
+   "o": [
+    "Ramagiri – Gold",
+    "Mangampeta – Bauxite",
+    "Araku – Barytes",
+    "Mangampeta – Gold"
+   ],
+   "a": 0,
+   "x": "Ramagiri is the gold belt; Mangampeta is known for barytes and Araku for bauxite."
+  },
+  {
+   "topic": 6,
+   "sec": 11,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "The largest sedimentary basin of Andhra Pradesh is the:",
+   "o": [
+    "Kurnool group",
+    "Eastern Ghats Mobile Belt",
+    "Cuddapah basin",
+    "Deccan Trap patches"
+   ],
+   "a": 2,
+   "x": "The Cuddapah basin (YSR Kadapa, Nandyal, Kurnool) is the largest sedimentary basin of Andhra Pradesh."
+  },
+  {
+   "topic": 6,
+   "sec": 9,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "Who grouped Indian rocks and prepared the Indian geological time scale?",
+   "o": [
+    "J.D. Dana",
+    "Giovanni Arduino",
+    "Arthur Holmes",
+    "T.H. Holland"
+   ],
+   "a": 3,
+   "x": "Sir T.H. Holland of the GSI grouped Indian rocks; Dana coined 'Archaean' but did not prepare the Indian scale."
+  },
+  {
+   "topic": 6,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Archaean rocks are fossil-free mainly because they:",
+   "o": [
+    "Are sedimentary rocks",
+    "Formed before life appeared",
+    "Are the youngest rocks of India",
+    "Formed under the sea"
+   ],
+   "a": 1,
+   "x": "Archaean rocks formed before life existed, so they contain no fossils."
+  },
+  {
+   "topic": 6,
+   "sec": 9,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "The International Geological Congress that set a standard geological time scale met in Italy in:",
+   "o": [
+    "1760",
+    "1851",
+    "1872",
+    "1881"
+   ],
+   "a": 3,
+   "x": "The International Geological Congress in Italy (1881) set the standard time scale; Arduino's scale dates from 1760."
+  },
+  {
+   "topic": 7,
+   "sec": 8,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Mountain building by folding and faulting due to horizontal (tangential) forces is called:",
+   "o": [
+    "Epeirogenic movement",
+    "Orogenic movement",
+    "Volcanism",
+    "Weathering"
+   ],
+   "a": 1,
+   "x": "Orogenic movements act through horizontal forces and build mountains such as the Himalayas."
+  },
+  {
+   "topic": 7,
+   "sec": 8,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Epeirogenic movements are caused mainly by:",
+   "o": [
+    "Horizontal forces",
+    "Shear forces",
+    "Vertical forces",
+    "Tidal forces"
+   ],
+   "a": 2,
+   "x": "Epeirogenic movements are vertical and uplift or warp continents and plateaus."
+  },
+  {
+   "topic": 7,
+   "sec": 8,
+   "angle": "13",
+   "shape": "statements",
+   "s": "Consider the following statements about diastrophism:\n1. Orogenic movements uplift or warp whole continents and plateaus.\n2. Sudden movements such as earthquakes and volcanoes are treated separately.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 1,
+   "x": "Uplift or warping of continents is epeirogenic, not orogenic; sudden movements are treated separately."
+  },
+  {
+   "topic": 7,
+   "sec": 3,
+   "angle": "1,10",
+   "shape": "one-liner",
+   "s": "Mesosaurus fossils, an evidence of continental drift, are found in:",
+   "o": [
+    "India and Australia",
+    "Antarctica and India",
+    "South Africa and Brazil",
+    "Europe and North America"
+   ],
+   "a": 2,
+   "x": "Mesosaurus occurs in South Africa and Brazil, not in India and Australia."
+  },
+  {
+   "topic": 7,
+   "sec": 3,
+   "angle": "1,10",
+   "shape": "one-liner",
+   "s": "The 1964 computer fit of South America and Africa is associated with:",
+   "o": [
+    "Bullard",
+    "Wegener",
+    "Hess",
+    "Holmes"
+   ],
+   "a": 0,
+   "x": "Bullard's 1964 computer fit supported the jig-saw fit, best at the continental-shelf edge."
+  },
+  {
+   "topic": 7,
+   "sec": 1,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Wegener's continental drift theory was rejected mainly because:",
+   "o": [
+    "It lacked fossil evidence",
+    "It was based on GPS data",
+    "His proposed forces were too weak",
+    "It denied the existence of Pangaea"
+   ],
+   "a": 2,
+   "x": "Wegener's pole-fleeing and tidal forces were too weak to move continents; Holmes later supplied the driving force."
+  },
+  {
+   "topic": 7,
+   "sec": 5,
+   "angle": "3,11",
+   "shape": "one-liner",
+   "s": "The Caroline Plate lies between the:",
+   "o": [
+    "Nazca and Pacific plates",
+    "Arabian and Indian plates",
+    "Cocos and Pacific plates",
+    "Philippine and Indian plates"
+   ],
+   "a": 3,
+   "x": "The Caroline Plate lies between the Philippine and Indian plates, north of New Guinea."
+  },
+  {
+   "topic": 7,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The oldest rocks of the ocean floor are approximately how old?",
+   "o": [
+    "20 million years",
+    "200 million years",
+    "2,000 million years",
+    "2,500 million years"
+   ],
+   "a": 1,
+   "x": "Ocean-floor rocks are much younger than continental rocks; the oldest are about 200 million years old."
+  },
+  {
+   "topic": 7,
+   "sec": 1,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Symmetrical normal and reversed magnetic bands on either side of a ridge were explained in 1963 by:",
+   "o": [
+    "McKenzie and Parker",
+    "Vine and Matthews",
+    "Alfred Wegener",
+    "Arthur Holmes"
+   ],
+   "a": 1,
+   "x": "Vine and Matthews (1963) explained the palaeomagnetic stripes; McKenzie and Parker put plate tectonics together in 1967."
+  },
+  {
+   "topic": 7,
+   "sec": 6,
+   "angle": "5,11",
+   "shape": "one-liner",
+   "s": "The San Andreas Fault is an example of which type of plate boundary?",
+   "o": [
+    "Divergent",
+    "Convergent",
+    "Transform",
+    "Constructive"
+   ],
+   "a": 2,
+   "x": "San Andreas is a transform (conservative) boundary where plates slide past horizontally, not divergent."
+  },
+  {
+   "topic": 7,
+   "sec": 6,
+   "angle": "5",
+   "shape": "match",
+   "s": "Which of the following pairs (example – plate boundary) is correctly matched?",
+   "o": [
+    "Mid-Atlantic Ridge – Convergent",
+    "Himalayas – Divergent",
+    "Red Sea – Transform",
+    "Mariana Trench – Ocean-ocean convergent"
+   ],
+   "a": 3,
+   "x": "The Mariana Trench is an ocean-ocean convergent boundary; the Mid-Atlantic Ridge and Red Sea are divergent and the Himalayas convergent."
+  },
+  {
+   "topic": 7,
+   "sec": 6,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "The Owen Fracture Zone separates which two plates?",
+   "o": [
+    "Arabian and Indian",
+    "Nubian and Somalian",
+    "Indian and Eurasian",
+    "Nazca and South American"
+   ],
+   "a": 0,
+   "x": "The Owen Fracture Zone separates the Arabian and Indian plates."
+  },
+  {
+   "topic": 7,
+   "sec": 7,
+   "angle": "6,14",
+   "shape": "one-liner",
+   "s": "The Deccan Traps erupted as the Indian Plate passed over which hotspot?",
+   "o": [
+    "Hawaii",
+    "Reunion",
+    "Yellowstone",
+    "Iceland"
+   ],
+   "a": 1,
+   "x": "The Deccan Traps erupted as India passed near the equator over the Reunion hotspot."
+  },
+  {
+   "topic": 7,
+   "sec": 9,
+   "angle": "8",
+   "shape": "NOT",
+   "s": "Which one of the following is NOT an old fold mountain?",
+   "o": [
+    "Aravallis",
+    "Appalachians",
+    "Urals",
+    "Rockies"
+   ],
+   "a": 3,
+   "x": "The Rockies are young (Tertiary/Alpine) fold mountains; the Aravallis, Appalachians and Urals are old, worn-down folds."
+  },
+  {
+   "topic": 7,
+   "sec": 9,
+   "angle": "8,15",
+   "shape": "one-liner",
+   "s": "The youngest Himalayan range, with simple Jura-type folds, is the:",
+   "o": [
+    "Greater Himalaya",
+    "Siwaliks",
+    "Lesser Himalaya",
+    "Karakoram"
+   ],
+   "a": 1,
+   "x": "The Siwaliks are the youngest Himalayan range and show simple Jura-type folds."
+  },
+  {
+   "topic": 7,
+   "sec": 9,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "With rising pressure, which fold forms next after an asymmetrical fold?",
+   "o": [
+    "Symmetrical fold",
+    "Nappe",
+    "Overfold",
+    "Anticline"
+   ],
+   "a": 2,
+   "x": "The sequence is symmetrical, asymmetrical, overfold, recumbent and nappe."
+  },
+  {
+   "topic": 7,
+   "sec": 10,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "In the Vosges–Rhine example, the Rhine Valley is a:",
+   "o": [
+    "Graben",
+    "Horst",
+    "Anticline",
+    "Nappe"
+   ],
+   "a": 0,
+   "x": "The Rhine Valley is a graben (sunken block); the Vosges are horsts, i.e. block mountains."
+  },
+  {
+   "topic": 7,
+   "sec": 10,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "The Satpura is a block mountain lying between the rift valleys of the:",
+   "o": [
+    "Godavari and Krishna",
+    "Narmada and Tapi",
+    "Damodar and Mahanadi",
+    "Ganga and Yamuna"
+   ],
+   "a": 1,
+   "x": "The Satpura is a block mountain between the rift valleys of the Narmada and Tapi."
+  },
+  {
+   "topic": 7,
+   "sec": 2,
+   "angle": "2,9",
+   "shape": "one-liner",
+   "s": "The Tethys Sea separated:",
+   "o": [
+    "Africa and South America",
+    "India and Australia",
+    "Laurasia and Gondwanaland",
+    "North America and Europe"
+   ],
+   "a": 2,
+   "x": "Pangaea split into Laurasia in the north and Gondwanaland in the south, separated by the Tethys Sea."
+  },
+  {
+   "topic": 7,
+   "sec": 2,
+   "angle": "2,9",
+   "shape": "one-liner",
+   "s": "Which of the following was a part of Laurasia?",
+   "o": [
+    "India",
+    "Australia",
+    "Madagascar",
+    "Greenland"
+   ],
+   "a": 3,
+   "x": "Laurasia included North America, Greenland, Europe and Asia minus India; India, Australia and Madagascar were Gondwanaland."
+  },
+  {
+   "topic": 8,
+   "sec": 2,
+   "angle": "1,4",
+   "shape": "one-liner",
+   "s": "The Sierra Nevada is an example of a:",
+   "o": [
+    "Young fold mountain",
+    "Block mountain",
+    "Volcanic mountain",
+    "Dome mountain"
+   ],
+   "a": 1,
+   "x": "The Sierra Nevada is a block mountain (horst), not a fold mountain."
+  },
+  {
+   "topic": 8,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Appalachians are old fold mountains of which orogeny?",
+   "o": [
+    "Alpine",
+    "Tertiary",
+    "Caledonian",
+    "Himalayan"
+   ],
+   "a": 2,
+   "x": "The Appalachians are old (Caledonian) fold mountains; Alpine/Tertiary folds are young."
+  },
+  {
+   "topic": 8,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Under the Supreme Court's November 2025 definition, an Aravalli hill rises at least how high above local relief?",
+   "o": [
+    "100 m",
+    "50 m",
+    "500 m",
+    "1,000 m"
+   ],
+   "a": 0,
+   "x": "The Supreme Court defined an Aravalli hill as 100 m above local relief, not 500 m; a range is hills within 500 m of each other."
+  },
+  {
+   "topic": 8,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Aravalli Range is approximately how old?",
+   "o": [
+    "70 million years",
+    "225 million years",
+    "570 million years",
+    "7 million years"
+   ],
+   "a": 2,
+   "x": "The Aravalli, India's oldest range, is about 570 million years old; the Himalayan uplift began about 70 million years ago."
+  },
+  {
+   "topic": 8,
+   "sec": 4,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "A fold whose two limbs are parallel is called a/an:",
+   "o": [
+    "Recumbent fold",
+    "Isoclinal fold",
+    "Symmetrical fold",
+    "Anticline"
+   ],
+   "a": 1,
+   "x": "An isoclinal fold has parallel limbs."
+  },
+  {
+   "topic": 8,
+   "sec": 4,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which fold form develops immediately before a nappe?",
+   "o": [
+    "Symmetrical fold",
+    "Asymmetrical fold",
+    "Isoclinal fold",
+    "Recumbent fold"
+   ],
+   "a": 3,
+   "x": "With rising pressure a recumbent fold breaks along a thrust and is pushed forward to form a nappe."
+  },
+  {
+   "topic": 8,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "In a normal fault, the force and the movement of the hanging wall are:",
+   "o": [
+    "Tension – hanging wall down",
+    "Compression – hanging wall up",
+    "Shear – horizontal movement",
+    "Compression – hanging wall down"
+   ],
+   "a": 0,
+   "x": "A normal fault forms under tension with the hanging wall moving down; a reverse fault forms under compression with it moving up."
+  },
+  {
+   "topic": 8,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "A strike-slip fault results from which force?",
+   "o": [
+    "Tension",
+    "Compression",
+    "Shear",
+    "Gravity"
+   ],
+   "a": 2,
+   "x": "Strike-slip faults form by shear and involve horizontal movement."
+  },
+  {
+   "topic": 8,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Rhine graben lies between the:",
+   "o": [
+    "Vindhyas and Satpuras",
+    "Vosges and Black Forest",
+    "Sierra Nevada and Rockies",
+    "Alps and Atlas"
+   ],
+   "a": 1,
+   "x": "The Rhine graben lies between the Vosges and the Black Forest block mountains."
+  },
+  {
+   "topic": 8,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Pratt's concept of isostasy assumes:",
+   "o": [
+    "Varying density with the same compensation depth",
+    "Uniform density with varying thickness",
+    "Mountains have deep roots",
+    "Uniform density and uniform thickness"
+   ],
+   "a": 0,
+   "x": "Pratt assumed varying density and the same compensation depth, so higher blocks are lighter; Airy assumed uniform density and deep roots."
+  },
+  {
+   "topic": 8,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "In Kober's geosynclinal theory, the rigid forelands bordering a geosyncline are called:",
+   "o": [
+    "Nappes",
+    "Horsts",
+    "Kratogens",
+    "Grabens"
+   ],
+   "a": 2,
+   "x": "Kober's geosynclines are long shallow troughs between rigid kratogens that are squeezed into mountains."
+  },
+  {
+   "topic": 8,
+   "sec": 1,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Weathering and erosion are examples of:",
+   "o": [
+    "Endogenic processes",
+    "Orogenic movements",
+    "Epeirogenic movements",
+    "Exogenic processes"
+   ],
+   "a": 3,
+   "x": "Weathering and erosion are exogenic processes, not part of diastrophism."
+  },
+  {
+   "topic": 8,
+   "sec": 2,
+   "angle": "4",
+   "shape": "statements",
+   "s": "Consider the following statements about mountains:\n1. The Andes are the longest mountain range.\n2. The Himalayas are the highest mountain range.\n3. Mont Blanc is a volcanic peak.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The Andes are the longest and the Himalayas the highest range; Mont Blanc is a fold, not volcanic, peak."
+  }
+ ]
+}
