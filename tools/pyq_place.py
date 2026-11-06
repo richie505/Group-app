@@ -182,6 +182,8 @@ def place(layout, assets):
     for b in range(1, 7):
         for ri, qs in json.load(open(f"{assets}/mcq{b}.json"))["rows"].items():
             for q in qs:
+                if q["id"].startswith("y"):  # a PYQ tools/pyq_apply.py added: not the app's own MCQ
+                    continue
                 mq.append(q)
                 mrow.append(rowix[(b, int(ri))])
     mrow = np.array(mrow)

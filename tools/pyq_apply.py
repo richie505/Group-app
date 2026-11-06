@@ -106,10 +106,13 @@ def apply(app, layout):
     pyq = {q["id"]: q for q in map(cleaned, bank())}
     place = json.load(open(f"data/pyq/place-{layout}.json"))["place"]
     bad = json.load(open("data/pyq/bad.json")) if os.path.exists("data/pyq/bad.json") else {}  # the audit's garbled / misfiled ones
+    # the other boards' PYQs stay the audited set already in the apps; only APPSC ones are added
+    other = set(json.load(open("data/pyq/other_kept.json"))) if os.path.exists("data/pyq/other_kept.json") else None
+    other = other if other is not None else type("All", (), {"__contains__": lambda s, x: True})()
     by_row = {}
     for pid, (b, r, sub, conf) in place.items():
         q = pyq[pid]
-        if keep(q, conf) and to_mcq(q)["id"] not in bad:
+        if keep(q, conf) and to_mcq(q)["id"] not in bad and (rank(q) == 0 or to_mcq(q)["id"] in other):
             by_row.setdefault((b, r), []).append((sub, rank(q), pid))
     index = json.load(open(f"{A}/index.json"))
     added = 0
