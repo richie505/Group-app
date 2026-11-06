@@ -81,7 +81,7 @@ class CompleteTest {
 
     /** A 3-statement MCQ: the title fits beside the buttons; one tap on an option answers it (no Check step). */
     @Test fun statementMcqSelectThenCheck() {
-        val app = shot("13_statement_mcq", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 30, 0), "all", "Subsection MCQs", nav) }
+        val app = shot("13_statement_mcq", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 36, 1), "all", "Subsection MCQs", nav) }
         rule.onNodeWithText("Consider the following statements", substring = true).assertExists()
         rule.onNodeWithText("1, 2 and 3").performClick()
         rule.waitForIdle()
@@ -135,14 +135,14 @@ class CompleteTest {
         val repo = Repository { ctx.assets.open(it) }
         repo.mcqNotes = true
         val m = repo.mcq(4)
-        val q = m.rows.values.flatten().first { "Seasonal plantation" in it.stem }
+        val q = m.rows.values.flatten().first { "Mansarovar" in it.stem && "Karnali" in it.stem }
         val book = repo.book(4)
         val at = com.appsc.prep.data.NotesFinder.best(q, book, m.placeOf(q.id)!!.first)!!
         val blocks = book.rows[at.row].secs[at.sec].blocks
         val marked = com.appsc.prep.data.NotesFinder.marked(q, blocks).map { com.appsc.prep.data.NotesFinder.text(listOf(blocks[it])) }
         println(marked)
-        // the blueprint notes hold the first two statements on the classification page (the third is on Land Resources)
-        for (fact in listOf("abiotic", "hydrogen")) assertTrue("$fact marked: $marked", marked.any { it.contains(fact, ignoreCase = true) })
+        // the rivers rising in the Mansarovar–Kailash area: the Karnali and the Indus statements
+        for (fact in listOf("Karnali", "Indus")) assertTrue("$fact marked: $marked", marked.any { it.contains(fact, ignoreCase = true) })
         // across the bank: most statements of the statement MCQs find their line in the topic (the key points shown first)
         var stmts = 0; var hit = 0
         for (b in 1..6) {
@@ -248,12 +248,12 @@ class CompleteTest {
 
         /** From the notes: first only this MCQ's key points (a line for each statement), then the whole page on request. */
     @Test fun fromTheNotesShowsTheKeyPointsOfTheMcq() {
-        val app = shot("15_key_points", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 30, 0), "all", "Subsection MCQs", nav) }
-        val q = runBlocking { app.repo.mcq(4).rows[30]!!.first { "Seasonal plantation" in it.stem } }
-        val row = runBlocking { app.repo.book(4).rows[30] }
-        val keys = com.appsc.prep.data.NotesFinder.keyPoints(q, row, 0)
+        val app = shot("15_key_points", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 36, 1), "all", "Subsection MCQs", nav) }
+        val q = runBlocking { app.repo.mcq(4).rows[36]!!.first { "Mansarovar" in it.stem && "Karnali" in it.stem } }
+        val row = runBlocking { app.repo.book(4).rows[36] }
+        val keys = com.appsc.prep.data.NotesFinder.keyPoints(q, row, 1)
         val text = keys.map { (si, bi) -> com.appsc.prep.data.NotesFinder.text(listOf(row.secs[si].blocks[bi])) }
-        for (fact in listOf("hydrogen", "Seasonal plantation")) assertTrue("$fact in $text", text.any { it.contains(fact, ignoreCase = true) })
+        for (fact in listOf("Karnali", "Indus")) assertTrue("$fact in $text", text.any { it.contains(fact, ignoreCase = true) })
         rule.onNode(androidx.compose.ui.test.hasContentDescription("Read from the notes")).performClick()
         rule.waitForIdle()
         // the notes page is found in the background: wait for it (slow on a loaded machine)
@@ -274,7 +274,7 @@ class CompleteTest {
         val repo = Repository { ctx.assets.open(it) }
         repo.mcqNotes = true
         val m = repo.mcq(6)
-        val q = m.rows.values.flatten().first { "EFTA Prosperity" in it.stem }
+        val q = m.rows.values.flatten().first { "EFTA), established in 1960" in it.stem }
         val book = repo.book(6)
         val at = com.appsc.prep.data.NotesFinder.best(q, book, m.placeOf(q.id)!!.first)!!
         val page = com.appsc.prep.data.NotesFinder.text(book.rows[at.row].secs[at.sec].blocks)
