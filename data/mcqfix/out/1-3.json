@@ -1,0 +1,732 @@
+{
+ "reshape": {
+  "n96287c57cae": {
+   "shape": "one-liner",
+   "s": "The average Harappan inscription contains about how many signs?",
+   "o": [
+    "About 10",
+    "About 26",
+    "About 5",
+    "About 50"
+   ],
+   "a": 2,
+   "x": "The average Harappan inscription has only about five signs; the script remains undeciphered."
+  },
+  "n6601ab64da1": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Harappan script?",
+   "o": [
+    "It is mainly pictographic.",
+    "It has approximately 400 signs.",
+    "It remains undeciphered.",
+    "It was deciphered through bilingual inscriptions."
+   ],
+   "a": 3,
+   "x": "The script is pictographic with about 400 signs and is still undeciphered, so it was never read through bilingual inscriptions."
+  },
+  "n2b989e29f53": {
+   "shape": "one-liner",
+   "s": "Unlike the Harappan polity, described as corporate, the Later Vedic polity was a:",
+   "o": [
+    "Corporate polity with no king",
+    "Hereditary monarchy with declining Sabha and Samiti",
+    "Elected republic with strong Sabha and Samiti",
+    "Priestly rule without any assemblies"
+   ],
+   "a": 1,
+   "x": "The Later Vedic polity was a hereditary monarchy in which the Sabha and Samiti were declining, while the Harappan polity appears corporate."
+  }
+ },
+ "new": [
+  {
+   "topic": 9,
+   "sec": 1,
+   "angle": "1",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Harappan seal shapes?",
+   "o": [
+    "Square seals carry an animal motif with an inscription.",
+    "Rectangular seals carry an inscription only.",
+    "Button seals are reported from Lothal.",
+    "Cylinder seals were the most common type."
+   ],
+   "a": 3,
+   "x": "Mesopotamian-type cylinder seals are rare; the standard Harappan seal is a square steatite seal."
+  },
+  {
+   "topic": 9,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "A Harappan 'sealing' is:",
+   "o": [
+    "A coin used in trade",
+    "The clay impression of a seal on a package",
+    "A copper tablet with script",
+    "A stone weight with a motif"
+   ],
+   "a": 1,
+   "x": "A sealing is the clay impression of a seal pressed on a package, proving the goods were untouched."
+  },
+  {
+   "topic": 9,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Pashupati seal was found at:",
+   "o": [
+    "Mohenjodaro",
+    "Harappa",
+    "Lothal",
+    "Kalibangan"
+   ],
+   "a": 0,
+   "x": "The Pashupati ('Proto-Shiva') seal, a seated yogic figure ringed by animals, comes from Mohenjodaro."
+  },
+  {
+   "topic": 9,
+   "sec": 3,
+   "angle": "4",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Pashupati seal – Lothal",
+    "Persian Gulf-type seal – Kalibangan",
+    "Button seal – Mohenjodaro",
+    "Persian Gulf-type seal – Lothal"
+   ],
+   "a": 3,
+   "x": "The Persian Gulf-type seal and the button seal come from Lothal; the Pashupati seal is from Mohenjodaro."
+  },
+  {
+   "topic": 9,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which animal is NOT depicted on Harappan seals?",
+   "o": [
+    "Elephant",
+    "Rhinoceros",
+    "Horse",
+    "Tiger"
+   ],
+   "a": 2,
+   "x": "The horse (and the cow) are never shown on Harappan seals, while the elephant, rhinoceros and tiger are."
+  },
+  {
+   "topic": 9,
+   "sec": 4,
+   "angle": "3,4",
+   "shape": "one-liner",
+   "s": "On the Pashupati seal, which animal is shown below the seated figure?",
+   "o": [
+    "Elephant",
+    "Deer",
+    "Tiger",
+    "Buffalo"
+   ],
+   "a": 1,
+   "x": "The Pashupati figure is ringed by an elephant, tiger, rhinoceros and buffalo, with deer below."
+  },
+  {
+   "topic": 9,
+   "sec": 4,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about animals on Harappan seals:\n1. The unicorn is the most common motif.\n2. The cow is frequently shown.\n3. The rhinoceros is depicted.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "The unicorn is the commonest motif and the rhinoceros is shown; the cow is never depicted."
+  },
+  {
+   "topic": 9,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The higher denominations of Harappan weights followed which system?",
+   "o": [
+    "Binary",
+    "Decimal",
+    "Sexagesimal",
+    "Duodecimal"
+   ],
+   "a": 1,
+   "x": "Lower weights were binary (1 to 64); higher weights were decimal multiples such as 160, 320 and 640."
+  },
+  {
+   "topic": 9,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Harappan unit weight (the '16' ratio) was about:",
+   "o": [
+    "6.7 g",
+    "1.70 g",
+    "13.63 g",
+    "27.5 g"
+   ],
+   "a": 2,
+   "x": "The Harappan unit weight was about 13.63 g."
+  },
+  {
+   "topic": 9,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Identical Harappan weights over about ____ point to central regulation of trade.",
+   "o": [
+    "1,00,000 sq km",
+    "2,50,000 sq km",
+    "8,00,000 sq km",
+    "15,00,000 sq km"
+   ],
+   "a": 2,
+   "x": "The same weights are found over about 8,00,000 sq km, pointing to central regulation of trade."
+  },
+  {
+   "topic": 9,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Harappan ivory scale was found at:",
+   "o": [
+    "Mohenjodaro",
+    "Harappa",
+    "Kalibangan",
+    "Lothal"
+   ],
+   "a": 3,
+   "x": "The ivory scale comes from Lothal (APPSC Group 2, 2011); its smallest division is about 1.70 mm."
+  },
+  {
+   "topic": 9,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The shell scale of Mohenjodaro has a unit of about:",
+   "o": [
+    "1.70 mm",
+    "6.7 mm",
+    "13.63 mm",
+    "46 mm"
+   ],
+   "a": 1,
+   "x": "The shell scale from Mohenjodaro has a unit of about 6.7 mm."
+  },
+  {
+   "topic": 9,
+   "sec": 6,
+   "angle": "2",
+   "shape": "match",
+   "s": "Which pair of Harappan scale and site is correctly matched?",
+   "o": [
+    "Copper scale – Harappa",
+    "Ivory scale – Mohenjodaro",
+    "Shell scale – Lothal",
+    "Ivory scale – Harappa"
+   ],
+   "a": 0,
+   "x": "Ivory scale = Lothal, shell scale = Mohenjodaro, copper scale = Harappa."
+  },
+  {
+   "topic": 9,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Harappan script was first noticed in 1912 by:",
+   "o": [
+    "S.R. Rao",
+    "J. Fleet",
+    "R.S. Bisht",
+    "Iravatham Mahadevan"
+   ],
+   "a": 1,
+   "x": "J. Fleet first noticed the Indus script in 1912."
+  },
+  {
+   "topic": 9,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The boustrophedon style of Harappan writing is reported from:",
+   "o": [
+    "Kalibangan",
+    "Lothal",
+    "Dholavira",
+    "Rakhigarhi"
+   ],
+   "a": 0,
+   "x": "The script is usually written right to left, with some boustrophedon writing at Kalibangan."
+  },
+  {
+   "topic": 9,
+   "sec": 8,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "S.R. Rao read the Harappan script as:",
+   "o": [
+    "Proto-Dravidian",
+    "Early Indo-Aryan (Sanskrit)",
+    "Pictographic Sumerian",
+    "Undeciphered and unreadable"
+   ],
+   "a": 1,
+   "x": "S.R. Rao held the Indo-Aryan view, a minority view; Mahadevan and Parpola favour Proto-Dravidian."
+  },
+  {
+   "topic": 9,
+   "sec": 8,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Along with Iravatham Mahadevan, which scholar supports the Proto-Dravidian reading of the Harappan script?",
+   "o": [
+    "S.R. Rao",
+    "J. Fleet",
+    "Asko Parpola",
+    "R.S. Bisht"
+   ],
+   "a": 2,
+   "x": "Iravatham Mahadevan and Asko Parpola support the Proto-Dravidian hypothesis, the most widely supported view."
+  },
+  {
+   "topic": 9,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "How many large signs make up the Dholavira signboard?",
+   "o": [
+    "5",
+    "10",
+    "26",
+    "40"
+   ],
+   "a": 1,
+   "x": "The Dholavira signboard at the North Gate has ten large signs."
+  },
+  {
+   "topic": 9,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The longest known Harappan inscription has about:",
+   "o": [
+    "10 signs",
+    "5 signs",
+    "40 signs",
+    "26 signs"
+   ],
+   "a": 3,
+   "x": "The longest Harappan text has 26 signs; the Dholavira signboard (10) is the largest in sign size."
+  },
+  {
+   "topic": 9,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which is the only Harappan site on the UNESCO World Heritage List (2021)?",
+   "o": [
+    "Lothal",
+    "Rakhigarhi",
+    "Dholavira",
+    "Kalibangan"
+   ],
+   "a": 2,
+   "x": "Dholavira, excavated by R.S. Bisht in 1990, is the only Harappan World Heritage Site (2021)."
+  },
+  {
+   "topic": 10,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Single-roomed barracks, an indicator of social differences, are found at:",
+   "o": [
+    "Harappa",
+    "Lothal",
+    "Ropar",
+    "Surkotada"
+   ],
+   "a": 0,
+   "x": "House sizes vary, and single-roomed barracks at Harappa point to differences in status."
+  },
+  {
+   "topic": 10,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Several large Harappan cities with no single capital support which reading of the polity?",
+   "o": [
+    "Centralised empire",
+    "Hereditary monarchy",
+    "City-state",
+    "Tribal chiefdom"
+   ],
+   "a": 2,
+   "x": "With several large cities and no identified capital, a city-state reading is supported."
+  },
+  {
+   "topic": 10,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Standard Harappan bricks were made in the ratio:",
+   "o": [
+    "1:2:3",
+    "1:3:6",
+    "1:2:4",
+    "1:4:8"
+   ],
+   "a": 2,
+   "x": "Harappan bricks followed a standard 1:2:4 ratio across the cultural area."
+  },
+  {
+   "topic": 10,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Uniform bricks, weights, seals and grid towns are found across about:",
+   "o": [
+    "1,00,000 sq km",
+    "8,00,000 sq km",
+    "2,50,000 sq km",
+    "15,00,000 sq km"
+   ],
+   "a": 1,
+   "x": "Such uniformity across about 8 lakh sq km suggests significant central authority."
+  },
+  {
+   "topic": 10,
+   "sec": 4,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Great Bath, granary and pillared hall show that Harappan public buildings were mainly:",
+   "o": [
+    "Royal palaces",
+    "Temples",
+    "Military forts",
+    "Civic buildings"
+   ],
+   "a": 3,
+   "x": "No palaces or temples are found; the public buildings were mainly civic."
+  },
+  {
+   "topic": 10,
+   "sec": 5,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Burial of a dog with a human in an oval pit is reported from:",
+   "o": [
+    "Lothal",
+    "Ropar",
+    "Surkotada",
+    "Kalibangan"
+   ],
+   "a": 1,
+   "x": "Ropar has the burial of a dog with a human; Lothal has joint burials and Surkotada pot burials."
+  },
+  {
+   "topic": 10,
+   "sec": 5,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Pot burials are associated with which Harappan site?",
+   "o": [
+    "Surkotada",
+    "Ropar",
+    "Lothal",
+    "Sanauli"
+   ],
+   "a": 0,
+   "x": "Surkotada is known for pot burials."
+  },
+  {
+   "topic": 10,
+   "sec": 5,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The large Harappan-period cemetery of Sanauli is in:",
+   "o": [
+    "Hisar, Haryana",
+    "Kutch, Gujarat",
+    "Baghpat, Uttar Pradesh",
+    "Ganganagar, Rajasthan"
+   ],
+   "a": 2,
+   "x": "Sanauli, a large cemetery of human burials, is in Baghpat district, Uttar Pradesh."
+  },
+  {
+   "topic": 10,
+   "sec": 6,
+   "angle": "6",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Harappan dress?",
+   "o": [
+    "Cotton and wool were used.",
+    "The Priest-King wears a shawl.",
+    "Two garments were worn.",
+    "Stitching of garments is well proved."
+   ],
+   "a": 3,
+   "x": "There is no proof of stitching; cotton and wool were worn as two garments, and the Priest-King wears a shawl."
+  },
+  {
+   "topic": 10,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Harappan dice have been found at:",
+   "o": [
+    "Lothal",
+    "Ropar",
+    "Harappa",
+    "Surkotada"
+   ],
+   "a": 2,
+   "x": "Dice were found at Harappa; the toy factory was at Chanhudaro."
+  },
+  {
+   "topic": 10,
+   "sec": 7,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about Harappan pastimes:\n1. Terracotta carts, marbles and whistles were used as toys.\n2. Board games, possibly proto-chess, were played.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: toys included terracotta carts, marbles and whistles, and board games, possibly proto-chess, were played."
+  },
+  {
+   "topic": 10,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which of the following was absent from Harappan warfare?",
+   "o": [
+    "Copper axes",
+    "Bronze spears",
+    "Bows and arrows",
+    "Horse-drawn chariots"
+   ],
+   "a": 3,
+   "x": "The Harappans had no horse-drawn chariots (UPSC 2013); they used copper and bronze maces, axes, spears and bows."
+  },
+  {
+   "topic": 10,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The few and simple weapons of the Harappans suggest that they were:",
+   "o": [
+    "A relatively peaceful people",
+    "A militarised empire",
+    "Dependent on cavalry",
+    "Ruled by warrior kings"
+   ],
+   "a": 0,
+   "x": "Weapons were few and simple, suggesting a relatively peaceful society."
+  },
+  {
+   "topic": 11,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Dancing Girl of Mohenjodaro is made of:",
+   "o": [
+    "Steatite",
+    "Bronze",
+    "Red sandstone",
+    "Terracotta"
+   ],
+   "a": 1,
+   "x": "The Dancing Girl is a bronze made by the lost-wax method; the Priest-King is of steatite."
+  },
+  {
+   "topic": 11,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The male torso from Harappa is made of:",
+   "o": [
+    "Bronze",
+    "Steatite",
+    "Red sandstone",
+    "Faience"
+   ],
+   "a": 2,
+   "x": "The Harappa male torso is of red sandstone."
+  },
+  {
+   "topic": 11,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Dancing Girl, found in 1926, is now kept at the:",
+   "o": [
+    "Indian Museum, Kolkata",
+    "Salar Jung Museum, Hyderabad",
+    "Prince of Wales Museum, Mumbai",
+    "National Museum, New Delhi"
+   ],
+   "a": 3,
+   "x": "The Dancing Girl (about 10.5 cm) is in the National Museum, New Delhi."
+  },
+  {
+   "topic": 11,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In the lost-wax method, after the wax model is coated with clay, it is:",
+   "o": [
+    "Heated so that the wax melts out",
+    "Polished with steatite powder",
+    "Glazed with faience",
+    "Carved with a copper chisel"
+   ],
+   "a": 0,
+   "x": "The clay-coated wax model is heated, the wax melts out, and molten metal is poured into the hollow mould."
+  },
+  {
+   "topic": 11,
+   "sec": 2,
+   "angle": "4,2",
+   "shape": "NOT",
+   "s": "Which of the following was NOT made by the lost-wax technique?",
+   "o": [
+    "Dancing Girl of Mohenjodaro",
+    "Copper dog and bird of Lothal",
+    "Male torso of Harappa",
+    "Bronze bull of Kalibangan"
+   ],
+   "a": 2,
+   "x": "The Harappa male torso is a red sandstone sculpture, not a metal casting."
+  },
+  {
+   "topic": 11,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Gold and silver necklaces of the Harappan period were found at:",
+   "o": [
+    "Allahdino",
+    "Daimabad",
+    "Lothal",
+    "Kalibangan"
+   ],
+   "a": 0,
+   "x": "Allahdino yielded gold and silver necklaces."
+  },
+  {
+   "topic": 11,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The bronze chariot group is associated with:",
+   "o": [
+    "Harappa",
+    "Daimabad",
+    "Lothal",
+    "Rakhigarhi"
+   ],
+   "a": 1,
+   "x": "The chariot group is from Daimabad; the dog chasing a deer is from Harappa."
+  },
+  {
+   "topic": 11,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Six types of Harappan pottery have been reported from:",
+   "o": [
+    "Lothal",
+    "Chanhudaro",
+    "Kalibangan",
+    "Harappa"
+   ],
+   "a": 2,
+   "x": "Kalibangan has six types of pottery; Lothal is known for a painted jar."
+  },
+  {
+   "topic": 11,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Female terracotta figurines from Harappa are generally identified as:",
+   "o": [
+    "Dancing Girls",
+    "Priest-Queens",
+    "Gamesmen",
+    "Mother Goddess"
+   ],
+   "a": 3,
+   "x": "Female terracotta figurines from Harappa are taken as Mother Goddess figures."
+  },
+  {
+   "topic": 11,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "A clay mask of a horned god was found at:",
+   "o": [
+    "Chanhudaro",
+    "Kalibangan",
+    "Allahdino",
+    "Daimabad"
+   ],
+   "a": 1,
+   "x": "The clay mask of a horned god is reported from Kalibangan and from Gujarat."
+  },
+  {
+   "topic": 11,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Harappan beads were exported to:",
+   "o": [
+    "Mesopotamia and the Persian Gulf",
+    "Egypt and Crete",
+    "China and Tibet",
+    "Rome and Greece"
+   ],
+   "a": 0,
+   "x": "Harappan beads went to Mesopotamia and the Persian Gulf."
+  },
+  {
+   "topic": 11,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which Harappan product is called the world's first glazed ware?",
+   "o": [
+    "Red pottery with black designs",
+    "Terracotta",
+    "Faience",
+    "Steatite"
+   ],
+   "a": 2,
+   "x": "Faience beads, bangles and glazed ware are called the world's first glazed ware."
+  },
+  {
+   "topic": 11,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The tie between faience and mosaic glass is an early clue to:",
+   "o": [
+    "Glass-making",
+    "Bronze casting",
+    "Bead drilling",
+    "Seal carving"
+   ],
+   "a": 0,
+   "x": "Faience linked with mosaic glass is an early clue to glass-making."
+  }
+ ]
+}

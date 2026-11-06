@@ -1,0 +1,897 @@
+{
+ "reshape": {
+  "n827f0d70365": {
+   "shape": "one-liner",
+   "s": "The pottery of Kalibangan is classified into how many fabrics?",
+   "o": [
+    "Three",
+    "Four",
+    "Six",
+    "Eight"
+   ],
+   "a": 2,
+   "x": "Kalibangan's pottery is classified into six fabrics; the settlement also had a mud-brick fortification."
+  },
+  "nindian-history-3-34": {
+   "shape": "one-liner",
+   "s": "Sutkagendor in Baluchistan, Pakistan, marks which boundary of the Harappan culture?",
+   "o": [
+    "Eastern",
+    "Northern",
+    "Southern",
+    "Western"
+   ],
+   "a": 3,
+   "x": "Sutkagendor marks the western boundary of Harappan culture; Alamgirpur marks the eastern."
+  },
+  "n633a8d20ae5": {
+   "shape": "NOT",
+   "s": "Which of the following Harappan sites is NOT correctly matched with the year its excavation began?",
+   "o": [
+    "Harappa – 1921",
+    "Mohenjodaro – 1922",
+    "Lothal – 1931",
+    "Chanhudaro – 1931"
+   ],
+   "a": 2,
+   "x": "Lothal's excavation began in 1954; 1931 is the year for Chanhudaro. Harappa (1921) and Mohenjodaro (1922) are correct."
+  }
+ },
+ "new": [
+  {
+   "topic": 3,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Stone-circle megalithic graves in Andhra are popularly called:",
+   "o": [
+    "Ash mounds",
+    "Rakshasa Gullu",
+    "Petroglyphs",
+    "Sarcophagi"
+   ],
+   "a": 1,
+   "x": "Stone-circle graves are called Rakshasa Gullu (also Pandava Gullu). Ash mounds are Neolithic and sarcophagi are terracotta coffins."
+  },
+  {
+   "topic": 3,
+   "sec": 7,
+   "angle": "1,N1",
+   "shape": "one-liner",
+   "s": "The largest collection of anthropomorphic megalithic figures in India is found in:",
+   "o": [
+    "Visakhapatnam",
+    "Krishna",
+    "Anantapuramu",
+    "Tirupati"
+   ],
+   "a": 3,
+   "x": "Tirupati has the largest collection of anthropomorphic (human-shaped) megalithic stones in India."
+  },
+  {
+   "topic": 3,
+   "sec": 7,
+   "angle": "N1",
+   "shape": "one-liner",
+   "s": "Sarcophagus (terracotta coffin) burials of Andhra are concentrated in:",
+   "o": [
+    "Chittoor and Anantapuramu",
+    "Visakhapatnam and Krishna",
+    "Krishna and East Godavari",
+    "Tirupati and Kurnool"
+   ],
+   "a": 0,
+   "x": "Sarcophagi are concentrated in Chittoor and Anantapuramu; dolmens are found in Krishna, Chittoor and East Godavari."
+  },
+  {
+   "topic": 3,
+   "sec": 7,
+   "angle": "1",
+   "shape": "NOT",
+   "s": "Which megalithic burial type is NOT correctly matched with its form?",
+   "o": [
+    "Cist – stone-slab box",
+    "Dolmen – table-like chamber",
+    "Menhir – terracotta coffin",
+    "Anthropomorphic – human-shaped stone"
+   ],
+   "a": 2,
+   "x": "A menhir is an upright stone; the terracotta coffin is the sarcophagus."
+  },
+  {
+   "topic": 3,
+   "sec": 7,
+   "angle": "N1",
+   "shape": "statements",
+   "s": "Consider the following statements about megalithic burials in Andhra:\n1. Menhirs are concentrated in Krishna district.\n2. Cist burials are numerous in Visakhapatnam.\n3. Dolmens are found in Krishna and Chittoor.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Menhirs (Krishna) and dolmens (Krishna, Chittoor, East Godavari) are rightly placed; 'many cist burials in Visakhapatnam' is keyed incorrect (G2 2025)."
+  },
+  {
+   "topic": 3,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The typical pottery of the Megalithic (Iron Age) phase in Andhra is:",
+   "o": [
+    "Painted pottery",
+    "Black-and-red ware",
+    "Aceramic ware",
+    "Microlithic ware"
+   ],
+   "a": 1,
+   "x": "Black-and-red ware is the typical Megalithic pottery; painted pottery marks the Chalcolithic (Patapadu)."
+  },
+  {
+   "topic": 3,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Ketavaram, known for prehistoric rock paintings, is in which district?",
+   "o": [
+    "Kurnool",
+    "Visakhapatnam",
+    "Prakasam",
+    "Chittoor"
+   ],
+   "a": 0,
+   "x": "Ketavaram rock paintings are in Kurnool district; the Borra Caves are in Visakhapatnam."
+  },
+  {
+   "topic": 3,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Borra Caves, a prehistoric cave site of Andhra, are in which district?",
+   "o": [
+    "Kurnool",
+    "Prakasam",
+    "Visakhapatnam",
+    "Krishna"
+   ],
+   "a": 2,
+   "x": "The Borra Caves are in Visakhapatnam; Ketavaram and the Kurnool caves are in Kurnool."
+  },
+  {
+   "topic": 3,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The animal most often painted in the prehistoric rock art of Andhra is the:",
+   "o": [
+    "Bull",
+    "Elephant",
+    "Tiger",
+    "Deer"
+   ],
+   "a": 3,
+   "x": "The deer is the most often painted animal in the rock art of the region."
+  },
+  {
+   "topic": 3,
+   "sec": 6,
+   "angle": "6",
+   "shape": "statements",
+   "s": "Consider the following statements about prehistoric rock art in Andhra:\n1. Petroglyphs are carved, not painted.\n2. Ketavaram rock paintings are in Visakhapatnam district.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Petroglyphs are carved images; Ketavaram is in Kurnool, not Visakhapatnam."
+  },
+  {
+   "topic": 3,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Utnur, a Neolithic ash-mound site, is located in:",
+   "o": [
+    "Kurnool, Andhra Pradesh",
+    "Anantapur, Andhra Pradesh",
+    "Mahbubnagar, Telangana",
+    "Bellary, Karnataka"
+   ],
+   "a": 2,
+   "x": "Utnur, the Neolithic ash mound, is in Mahbubnagar district of Telangana."
+  },
+  {
+   "topic": 3,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Neolithic settlements of Sanganakallu and Tekkalakota are in:",
+   "o": [
+    "Bellary, Karnataka",
+    "Kurnool, Andhra Pradesh",
+    "Mahbubnagar, Telangana",
+    "Chitradurga, Karnataka"
+   ],
+   "a": 0,
+   "x": "Sanganakallu and Tekkalakota are in Bellary district, Karnataka; Brahmagiri is in Chitradurga."
+  },
+  {
+   "topic": 3,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Palavoy, a Neolithic settlement, is in which district of Andhra Pradesh?",
+   "o": [
+    "Kurnool",
+    "Krishna",
+    "Prakasam",
+    "Anantapur"
+   ],
+   "a": 3,
+   "x": "Palavoy is a Neolithic settlement in Anantapur district."
+  },
+  {
+   "topic": 3,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which site on the right bank of the Krishna in Kurnool shows a Neolithic–Chalcolithic to Early Historic sequence?",
+   "o": [
+    "Utnur",
+    "Veerapuram",
+    "Palavoy",
+    "Keesarapalli"
+   ],
+   "a": 1,
+   "x": "Veerapuram in Kurnool, on the right bank of the Krishna, has a Neolithic–Chalcolithic to Early Historic sequence."
+  },
+  {
+   "topic": 3,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Keesarapalli in Krishna district is a Chalcolithic site known for:",
+   "o": [
+    "Painted pottery",
+    "Ash mounds",
+    "Copper tools",
+    "Bone tools"
+   ],
+   "a": 2,
+   "x": "Keesarapalli is known for copper tools; painted pottery is the feature of Patapadu."
+  },
+  {
+   "topic": 3,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Flakes, scrapers, borers and points are characteristic tools of the:",
+   "o": [
+    "Lower Palaeolithic",
+    "Middle Palaeolithic",
+    "Upper Palaeolithic",
+    "Mesolithic"
+   ],
+   "a": 1,
+   "x": "The Middle Palaeolithic is the flake stage; microliths belong to the Mesolithic."
+  },
+  {
+   "topic": 3,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Mesolithic weapons in Andhra were made of:",
+   "o": [
+    "Dolomite",
+    "Quartzite",
+    "Limestone",
+    "Copper"
+   ],
+   "a": 0,
+   "x": "Mesolithic microliths were of chert and jasper, and weapons of dolomite; quartzite and limestone were Lower Palaeolithic materials."
+  },
+  {
+   "topic": 3,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Renigunta in Chittoor district is known for which Upper Palaeolithic industry?",
+   "o": [
+    "Handaxe-cleaver",
+    "Flake-scraper",
+    "Blade-and-burin",
+    "Microlithic"
+   ],
+   "a": 2,
+   "x": "Renigunta has an Upper Palaeolithic blade-and-burin industry."
+  },
+  {
+   "topic": 3,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Belum Caves in Kurnool are the ____ cave system in India.",
+   "o": [
+    "longest",
+    "second-longest",
+    "third-longest",
+    "deepest"
+   ],
+   "a": 1,
+   "x": "Belum Caves in Kurnool form the second-longest cave system in India."
+  },
+  {
+   "topic": 3,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Giddaluru, Dornala and Yerragondapalem, Lower Palaeolithic sites, are in which district?",
+   "o": [
+    "Kurnool",
+    "Krishna",
+    "Chittoor",
+    "Prakasam"
+   ],
+   "a": 3,
+   "x": "Giddaluru, Dornala, Yerragondapalem and Nandikanuma are Lower Palaeolithic sites of Prakasam district."
+  },
+  {
+   "topic": 3,
+   "sec": 4,
+   "angle": "3",
+   "shape": "NOT",
+   "s": "Which of the following is NOT listed among the microlithic centres of Andhra?",
+   "o": [
+    "Giddaluru",
+    "Nagarjunakonda",
+    "Utnur",
+    "Kondapur"
+   ],
+   "a": 2,
+   "x": "Utnur is a Neolithic ash-mound site; Giddaluru, Nagarjunakonda, Kondapur and Khammam are microlithic centres."
+  },
+  {
+   "topic": 3,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The microliths of Andhra resemble those of:",
+   "o": [
+    "South India and the Caspian region",
+    "Mesopotamia and Egypt",
+    "Gujarat and Sindh",
+    "Baluchistan and Afghanistan"
+   ],
+   "a": 0,
+   "x": "Andhra microliths resemble South Indian and Caspian microliths."
+  },
+  {
+   "topic": 4,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "At Mehrgarh, pottery and cotton first appear in:",
+   "o": [
+    "Period I",
+    "Period II",
+    "Period III",
+    "the Mature Harappan phase"
+   ],
+   "a": 1,
+   "x": "Period I was aceramic; pottery and cotton begin in Period II."
+  },
+  {
+   "topic": 4,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Copper working and wheel-made painted pottery at Mehrgarh begin in:",
+   "o": [
+    "Period I",
+    "Period II",
+    "Period III",
+    "the Neolithic aceramic phase"
+   ],
+   "a": 2,
+   "x": "Copper working, wheel-made painted pottery and beads appear from Period III onward."
+  },
+  {
+   "topic": 4,
+   "sec": 2,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Burials at Mehrgarh were sometimes accompanied by which animals?",
+   "o": [
+    "Horses",
+    "Camels",
+    "Dogs",
+    "Goats"
+   ],
+   "a": 3,
+   "x": "Mehrgarh burials, under or near houses and often flexed, sometimes included goats with ornaments and tools."
+  },
+  {
+   "topic": 4,
+   "sec": 2,
+   "angle": "5,8",
+   "shape": "statements",
+   "s": "Consider the following statements about Mehrgarh:\n1. Period I was aceramic and had mud-brick houses.\n2. The dead were usually buried far from the houses.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Period I was aceramic with mud-brick houses; burials were under or near houses."
+  },
+  {
+   "topic": 4,
+   "sec": 3,
+   "angle": "2,7",
+   "shape": "one-liner",
+   "s": "The Hakra culture of the Early Harappan phase is located in:",
+   "o": [
+    "Gujarat",
+    "Cholistan",
+    "Sindh",
+    "Quetta valley"
+   ],
+   "a": 1,
+   "x": "Hakra lies in the Ghaggar-Hakra area of Cholistan, not Gujarat."
+  },
+  {
+   "topic": 4,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Sothi-Siswal culture of the Early Harappan phase belongs to which area?",
+   "o": [
+    "Sindh",
+    "Quetta",
+    "Rajasthan–Haryana",
+    "Cholistan"
+   ],
+   "a": 2,
+   "x": "Sothi-Siswal is the Early Harappan culture of the Rajasthan–Haryana area."
+  },
+  {
+   "topic": 4,
+   "sec": 3,
+   "angle": "2,7",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Early Harappan pottery?",
+   "o": [
+    "Amri and Kot Diji wares were regional traditions",
+    "Early Harappans used the potter's wheel",
+    "Sothi-Siswal and Hakra wares were regional traditions",
+    "Early Harappan pottery was uniform across regions"
+   ],
+   "a": 3,
+   "x": "Uniform pottery came only in the Mature phase; Early Harappan pottery had regional traditions."
+  },
+  {
+   "topic": 4,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Rana Ghundai, a farming and pastoral village, lies in which valley?",
+   "o": [
+    "Quetta valley",
+    "Zhob-Loralai valley",
+    "Bolan valley",
+    "Indus valley"
+   ],
+   "a": 1,
+   "x": "Rana Ghundai is in the Zhob-Loralai valley; Kili Gul Muhammad and Damb Sadaat are in the Quetta valley."
+  },
+  {
+   "topic": 4,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Amri was excavated in 1929 by:",
+   "o": [
+    "J.-F. Jarrige",
+    "F. A. Khan",
+    "N. G. Majumdar",
+    "R. S. Bisht"
+   ],
+   "a": 2,
+   "x": "N. G. Majumdar excavated Amri in 1929; it was later dug by J.-M. Casal."
+  },
+  {
+   "topic": 4,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Rana Ghundai was excavated by:",
+   "o": [
+    "E. J. Ross",
+    "W. A. Fairservis",
+    "J.-F. Jarrige",
+    "Suraj Bhan"
+   ],
+   "a": 0,
+   "x": "Rana Ghundai was excavated by E. J. Ross; Fairservis excavated Kili Gul Muhammad and Damb Sadaat."
+  },
+  {
+   "topic": 4,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Mitathal was excavated in 1968 by:",
+   "o": [
+    "R. S. Bisht",
+    "Suraj Bhan",
+    "B. B. Lal",
+    "F. A. Khan"
+   ],
+   "a": 1,
+   "x": "Suraj Bhan excavated Mitathal in 1968; R. S. Bisht excavated Banawali in 1974."
+  },
+  {
+   "topic": 4,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Kot Diji was excavated in 1955 by:",
+   "o": [
+    "N. G. Majumdar",
+    "J.-M. Casal",
+    "E. J. Ross",
+    "F. A. Khan"
+   ],
+   "a": 3,
+   "x": "F. A. Khan excavated Kot Diji in 1955; Ghurye is also associated with the site."
+  },
+  {
+   "topic": 4,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Who held that the Harappan Civilisation arose by diffusion of ideas from West Asia?",
+   "o": [
+    "John Marshall",
+    "E. J. H. Mackay",
+    "Mortimer Wheeler",
+    "W. A. Fairservis"
+   ],
+   "a": 2,
+   "x": "Wheeler proposed West Asian diffusion; Mackay proposed migration from Sumer and Marshall indigenous evolution."
+  },
+  {
+   "topic": 4,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The criss-cross furrows of the ploughed field at Kalibangan-I indicate:",
+   "o": [
+    "Mixed cropping",
+    "Rice cultivation",
+    "Canal irrigation",
+    "Fire worship"
+   ],
+   "a": 0,
+   "x": "The criss-cross furrows of the earliest ploughed field show mixed cropping."
+  },
+  {
+   "topic": 4,
+   "sec": 4,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about Kalibangan-I:\n1. It has the earliest ploughed field.\n2. Its fire altars belong to the pre-Harappan level.\n3. It had a mud-brick fortification.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "The ploughed field and mud-brick fortification belong to Kalibangan-I; fire altars belong to the Mature phase."
+  },
+  {
+   "topic": 4,
+   "sec": 1,
+   "angle": "1,5",
+   "shape": "one-liner",
+   "s": "The crops of the Neolithic phase of Baluchistan and the Indus plains included:",
+   "o": [
+    "Rice, bajra and sorghum",
+    "Wheat, barley, dates and cotton",
+    "Rice, garlic and millet",
+    "Barley, rice and sugarcane"
+   ],
+   "a": 1,
+   "x": "Neolithic Baluchistan and the Indus plains grew wheat, barley, dates and cotton, with sheep and goats as main animals."
+  },
+  {
+   "topic": 4,
+   "sec": 6,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which problem of Harappan origins remains unsolved?",
+   "o": [
+    "The location of Mehrgarh",
+    "The gap between Neolithic Mehrgarh and the urban phase",
+    "The date of Kalibangan's excavation",
+    "The use of the potter's wheel"
+   ],
+   "a": 1,
+   "x": "The gap between Neolithic Mehrgarh and the urban phase remains unsolved."
+  },
+  {
+   "topic": 5,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In Mesopotamian records, Dilmun refers to:",
+   "o": [
+    "Bahrain",
+    "Oman",
+    "the Indus region",
+    "Makran"
+   ],
+   "a": 0,
+   "x": "Dilmun was the middle stop, Bahrain; Magan was Oman/Makran and Meluha the Indus region."
+  },
+  {
+   "topic": 5,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which Harappan site is known as 'Mini Harappa'?",
+   "o": [
+    "Mohenjodaro",
+    "Chanhudaro",
+    "Lothal",
+    "Kalibangan"
+   ],
+   "a": 2,
+   "x": "Lothal is called Mini Harappa; Mohenjodaro is the 'Mound of the Dead'."
+  },
+  {
+   "topic": 5,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which Harappan site is called the 'Lancashire of India'?",
+   "o": [
+    "Lothal",
+    "Kalibangan",
+    "Dholavira",
+    "Chanhudaro"
+   ],
+   "a": 3,
+   "x": "Chanhudaro is called the Lancashire of India for its cotton."
+  },
+  {
+   "topic": 5,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Kotada is the local name of which Harappan site?",
+   "o": [
+    "Dholavira",
+    "Surkotada",
+    "Kalibangan",
+    "Banawali"
+   ],
+   "a": 0,
+   "x": "Dholavira is locally known as Kotada."
+  },
+  {
+   "topic": 5,
+   "sec": 2,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The term 'Indus Valley Civilisation' was coined by:",
+   "o": [
+    "Mortimer Wheeler",
+    "John Marshall",
+    "E. J. H. Mackay",
+    "Daya Ram Sahni"
+   ],
+   "a": 1,
+   "x": "John Marshall coined 'Indus Valley Civilisation', now thought too narrow."
+  },
+  {
+   "topic": 5,
+   "sec": 2,
+   "angle": "4",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Mohenjodaro – Mini Harappa",
+    "Lothal – Mound of the Dead",
+    "Magan – Bahrain",
+    "Kalibangan – Black bangles"
+   ],
+   "a": 3,
+   "x": "Kalibangan means 'black bangles'. Mohenjodaro is the Mound of the Dead, Lothal Mini Harappa and Magan Oman/Makran."
+  },
+  {
+   "topic": 5,
+   "sec": 9,
+   "angle": "8,16",
+   "shape": "one-liner",
+   "s": "Dholavira, inscribed by UNESCO in 2021, is India's ____ World Heritage Site.",
+   "o": [
+    "38th",
+    "39th",
+    "40th",
+    "41st"
+   ],
+   "a": 2,
+   "x": "Dholavira became India's 40th and Gujarat's 4th World Heritage Site in 2021."
+  },
+  {
+   "topic": 5,
+   "sec": 9,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "As of June 2026, Rakhigarhi's UNESCO status is:",
+   "o": [
+    "On the Tentative List",
+    "Inscribed in 2021",
+    "Inscribed in 1980",
+    "India's 40th World Heritage Site"
+   ],
+   "a": 0,
+   "x": "Rakhigarhi is only on the Tentative List; Dholavira was inscribed in 2021 and Mohenjodaro in 1980."
+  },
+  {
+   "topic": 5,
+   "sec": 9,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "In June 2026, the ASI transferred Rakhigarhi's 56 skeletons to the:",
+   "o": [
+    "National Museum",
+    "Haryana Archaeology Department",
+    "Anthropological Survey of India",
+    "Archaeological Survey of Pakistan"
+   ],
+   "a": 2,
+   "x": "Under an MoU, the ASI transferred the 56 Mound 7 skeletons to the Anthropological Survey of India."
+  },
+  {
+   "topic": 5,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The second-largest Harappan site in India is:",
+   "o": [
+    "Rakhigarhi",
+    "Lothal",
+    "Kalibangan",
+    "Dholavira"
+   ],
+   "a": 3,
+   "x": "Dholavira is the second-largest site in India after Rakhigarhi, and the fifth-largest IVC city."
+  },
+  {
+   "topic": 5,
+   "sec": 4,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "The Late Harappan phase is dated to:",
+   "o": [
+    "3300–2600 BCE",
+    "2600–1900 BCE",
+    "1900–1300 BCE",
+    "2500–1750 BCE"
+   ],
+   "a": 2,
+   "x": "The Late Harappan phase (1900–1300 BCE) saw de-urbanisation; 2600–1900 BCE is the Mature phase."
+  },
+  {
+   "topic": 5,
+   "sec": 4,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "John Marshall dated the Indus Civilisation to 3250–2750 BCE on the basis of:",
+   "o": [
+    "Radiocarbon dating",
+    "Mesopotamian cross-dating",
+    "Tree-ring dating",
+    "AMS dating"
+   ],
+   "a": 1,
+   "x": "Marshall used Mesopotamian cross-dating; D. P. Agrawal's radiocarbon dates gave about 2500–1750 BCE."
+  },
+  {
+   "topic": 5,
+   "sec": 7,
+   "angle": "3,10",
+   "shape": "one-liner",
+   "s": "Sohgaura, often given as a decoy among Harappan sites, is a:",
+   "o": [
+    "Mauryan copper-plate site",
+    "Harappan port in Kutch",
+    "Late Harappan site in Saharanpur",
+    "Neolithic pit-dwelling site in Kashmir"
+   ],
+   "a": 0,
+   "x": "Sohgaura (Gorakhpur, on the Rapti) is a Mauryan copper-plate site, not Harappan; Burzahom has the pit dwellings."
+  },
+  {
+   "topic": 5,
+   "sec": 8,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "The earliest evidence of garlic in the Harappan context comes from:",
+   "o": [
+    "Kot Bala",
+    "Balu",
+    "Banawali",
+    "Rangpur"
+   ],
+   "a": 1,
+   "x": "Balu has the earliest garlic; Kot Bala has the earliest furnace."
+  },
+  {
+   "topic": 5,
+   "sec": 8,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "A dog buried with humans has been found at which Harappan site?",
+   "o": [
+    "Lothal",
+    "Kalibangan",
+    "Ropar",
+    "Banawali"
+   ],
+   "a": 2,
+   "x": "Ropar yielded a dog buried with humans, a steatite seal and oval pit burials."
+  },
+  {
+   "topic": 5,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Sinauli, with 125 graves, is in which district of Uttar Pradesh?",
+   "o": [
+    "Meerut",
+    "Saharanpur",
+    "Muzaffarnagar",
+    "Baghpat"
+   ],
+   "a": 3,
+   "x": "Sinauli (Baraut) is in Baghpat; Alamgirpur is in Meerut, Hulas in Saharanpur, Mandi in Muzaffarnagar."
+  },
+  {
+   "topic": 5,
+   "sec": 3,
+   "angle": "2,11",
+   "shape": "one-liner",
+   "s": "Dholavira, found by J. P. Joshi, was excavated from 1990 by:",
+   "o": [
+    "R. S. Bisht",
+    "S. R. Rao",
+    "B. B. Lal",
+    "Amarendra Nath"
+   ],
+   "a": 0,
+   "x": "R. S. Bisht excavated Dholavira from 1990; J. P. Joshi had found it in 1967–68."
+  },
+  {
+   "topic": 5,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Rakhigarhi was excavated in 1997 by:",
+   "o": [
+    "J. P. Joshi",
+    "R. S. Bisht",
+    "Amarendra Nath",
+    "B. P. Bopardikar"
+   ],
+   "a": 2,
+   "x": "Amarendra Nath excavated Rakhigarhi in 1997."
+  }
+ ]
+}
