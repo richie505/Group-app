@@ -1,0 +1,1347 @@
+{
+ "reshape": {
+  "n3aec0abcecb": {
+   "shape": "statements",
+   "s": "Consider the following statements about MeeSeva in Andhra Pradesh:\n1. MeeSeva was launched in 2001 in the combined State of Andhra Pradesh.\n2. e-Seva, the predecessor of MeeSeva, dates from 2001.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 1,
+   "x": "e-Seva, MeeSeva's predecessor, began in 2001; MeeSeva itself was launched in 2011, so statement 1 is wrong."
+  },
+  "n9cb1a61322c": {
+   "shape": "one-liner",
+   "s": "Publicly sharing someone's private information online without consent to harm or shame them is called:",
+   "o": [
+    "Cyberstalking",
+    "Cyber venting",
+    "Doxxing",
+    "Trolling"
+   ],
+   "a": 2,
+   "x": "Doxxing is publicly sharing someone's private information without consent to harm or shame them; repeated unwanted monitoring or contact is cyberstalking."
+  },
+  "na39fdee323f": {
+   "shape": "statements",
+   "s": "Consider the following statements about netiquette:\n1. Posting another person's photographs without consent is acceptable if the source is credited.\n2. In e-mail, typing in ALL CAPS reads as shouting.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 1,
+   "x": "ALL CAPS in e-mail reads as shouting; posting others' photos without consent is a don't even when the source is credited."
+  },
+  "n016cce0f274": {
+   "shape": "one-liner",
+   "s": "Which one of the following is a recommended online safety practice?",
+   "o": [
+    "Accepting friend requests from unknown persons without caution",
+    "Using strong passwords",
+    "Sharing OTPs with callers claiming to be bank staff",
+    "Using open, unsecured Wi-Fi for banking"
+   ],
+   "a": 1,
+   "x": "Strong passwords are a recommended safety practice; accepting unknown friend requests without caution, sharing OTPs and using unsecured Wi-Fi are unsafe."
+  },
+  "n54551845066": {
+   "shape": "statements",
+   "s": "Consider the following statements about a computer worm:\n1. A worm can self-replicate and spread across networks.\n2. A worm requires the user to execute an infected file before it spreads.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Worms self-replicate across networks without user interaction; needing the user to run an infected file describes a virus."
+  },
+  "n0d4ca312dc7": {
+   "shape": "statements",
+   "s": "Consider the following statements about cyber threats:\n1. Vishing is malicious database code entered through input fields.\n2. Phishing uses deceptive messages posing as a legitimate source.\n3. Spoofing fakes a sender identity such as an e-mail ID or caller ID.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Phishing and spoofing are correctly described; vishing is phishing by voice calls, while database code through input fields is SQL injection."
+  },
+  "n932db0bd280": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the CIA triad of information security?",
+   "o": [
+    "Exposure of confidential records compromises confidentiality",
+    "Alteration of records compromises integrity",
+    "Preventing doctors from accessing a hospital system compromises integrity",
+    "Exposure, alteration and denial of access together hit all three elements"
+   ],
+   "a": 2,
+   "x": "Denial of access compromises availability, not integrity; alteration is the threat to integrity."
+  },
+  "n620f1045098": {
+   "shape": "statements",
+   "s": "Consider the following statements about indigenous cyber security:\n1. CERT-In is a CVE Numbering Authority for products made in India.\n2. M-Kavach is associated with C-DAC Hyderabad.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: CERT-In is a CVE Numbering Authority for Indian products, and M-Kavach mobile security comes from C-DAC Hyderabad."
+  }
+ },
+ "new": [
+  {
+   "topic": 27,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "APSWAN in Andhra Pradesh is a:",
+   "o": [
+    "State-wide area network linking HQ, districts and mandals",
+    "Web portal for G2C services",
+    "Single-window citizen service centre",
+    "Paperless cabinet system"
+   ],
+   "a": 0,
+   "x": "APSWAN is the State-wide area network linking headquarters, districts and mandals; AP Online is the G2C web portal."
+  },
+  {
+   "topic": 27,
+   "sec": 10,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Digital Seva Setu and GSWAN are e-governance projects of which State?",
+   "o": [
+    "Karnataka",
+    "Himachal Pradesh",
+    "Gujarat",
+    "Andhra Pradesh"
+   ],
+   "a": 2,
+   "x": "Digital Seva Setu (321 services) and GSWAN belong to Gujarat; Seva One is Karnataka's."
+  },
+  {
+   "topic": 27,
+   "sec": 10,
+   "angle": "1",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "HIMSWAN – Gujarat",
+    "Seva One – Himachal Pradesh",
+    "APSWAN – Karnataka",
+    "Helpline 1100 – Himachal Pradesh"
+   ],
+   "a": 3,
+   "x": "HIMSWAN, Himachal Online Seva and Helpline 1100 belong to Himachal Pradesh; Seva One is Karnataka's and APSWAN is AP's."
+  },
+  {
+   "topic": 27,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Under MeeSeva, Category B services are those that:",
+   "o": [
+    "Are issued on the spot over the counter",
+    "Are statutory and need notices, hearings or field verification",
+    "Are delivered only through WhatsApp",
+    "Are limited to certified copies"
+   ],
+   "a": 1,
+   "x": "Category B services are statutory, needing notices, hearings or field verification; Category A services are issued on the spot."
+  },
+  {
+   "topic": 27,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Under MeeSeva, over-the-counter services such as certified copies issued on the spot fall under:",
+   "o": [
+    "Category B",
+    "Category C",
+    "Category A",
+    "Category S"
+   ],
+   "a": 2,
+   "x": "Category A covers over-the-counter services issued on the spot; Category B covers statutory services."
+  },
+  {
+   "topic": 27,
+   "sec": 2,
+   "angle": "2",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about MeeSeva?",
+   "o": [
+    "It succeeded e-Seva",
+    "It was launched in 2011 in the combined State",
+    "Services are delivered through franchise centres and an online portal",
+    "The Education Department under it prints all MeeSeva certificates"
+   ],
+   "a": 3,
+   "x": "The EDS Department prints MeeSeva certificates; the Education Department issues migration certificates."
+  },
+  {
+   "topic": 27,
+   "sec": 3,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "e-Pragati is the new name of:",
+   "o": [
+    "AP State Wide Area Network",
+    "AP State Enterprise Architecture",
+    "AP State FiberNet Ltd",
+    "Real Time Governance Society"
+   ],
+   "a": 1,
+   "x": "e-Pragati is the new name of the AP State Enterprise Architecture (APSEA), approved by the state cabinet in 2015."
+  },
+  {
+   "topic": 27,
+   "sec": 3,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The e-Pragati project of Andhra Pradesh, with an outlay of Rs 2,358 crore, consists of:",
+   "o": [
+    "72 projects in 14 packages",
+    "14 projects in 72 packages",
+    "59 projects in 33 packages",
+    "33 projects in 14 packages"
+   ],
+   "a": 0,
+   "x": "e-Pragati's Rs 2,358 crore outlay covers 72 projects in 14 packages; 33 is the number of secretariat departments covered."
+  },
+  {
+   "topic": 27,
+   "sec": 3,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about e-Pragati:\n1. It was approved by the Andhra Pradesh cabinet in 2015.\n2. It covers 33 secretariat departments.\n3. It is being built entirely with State funds, without PPP.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "e-Pragati was approved in 2015 and covers 33 secretariat departments; about Rs 1,528 crore is the state share and the rest comes via PPP."
+  },
+  {
+   "topic": 27,
+   "sec": 4,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The Real Time Governance Society (RTGS) of Andhra Pradesh was formed on:",
+   "o": [
+    "26 November 2017",
+    "30 January 2025",
+    "6 September 2017",
+    "2 October 2016"
+   ],
+   "a": 2,
+   "x": "RTGS was formed on 6 September 2017; its RTG State Centre opened on 26 November 2017."
+  },
+  {
+   "topic": 27,
+   "sec": 4,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The RTG State Centre (command centre) of Andhra Pradesh was inaugurated at:",
+   "o": [
+    "Secretariat, Velagapudi",
+    "Cyber Towers, Hyderabad",
+    "Rushikonda, Visakhapatnam",
+    "Collectorate, Vijayawada"
+   ],
+   "a": 0,
+   "x": "The RTG State Centre was inaugurated at the Secretariat, Velagapudi on 26 November 2017."
+  },
+  {
+   "topic": 27,
+   "sec": 4,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which temple earned the most through bookings on the Mana Mitra WhatsApp platform?",
+   "o": [
+    "Tirumala",
+    "Srisailam",
+    "Simhachalam",
+    "Srikalahasti"
+   ],
+   "a": 3,
+   "x": "Srikalahasti, not Tirumala, was the top earner among the 21 temples that received Rs 22.26 crore via Mana Mitra."
+  },
+  {
+   "topic": 27,
+   "sec": 4,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Mana Mitra, which began with 150 services in January 2025, offered how many services in 2025-26?",
+   "o": [
+    "565",
+    "865",
+    "1,150",
+    "365"
+   ],
+   "a": 1,
+   "x": "Mana Mitra grew from 150 services at launch to 865 services in 2025-26."
+  },
+  {
+   "topic": 27,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The first Disha police station, launched with the Disha SOS app on 10 February 2020, was at:",
+   "o": [
+    "Visakhapatnam",
+    "Tirupati",
+    "Rajamahendravaram",
+    "Guntur"
+   ],
+   "a": 2,
+   "x": "The first Disha police station opened at Rajamahendravaram on 10 February 2020; Disha SOS was later replaced by the Suraksha app (2025)."
+  },
+  {
+   "topic": 27,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Disha SOS app of Andhra Pradesh Police is meant for:",
+   "o": [
+    "Women's safety",
+    "Building plan approval",
+    "Digital health profiles",
+    "Temple darshan booking"
+   ],
+   "a": 0,
+   "x": "Disha SOS is the AP Police women's safety SOS app; building plan approval is under Pura Seva."
+  },
+  {
+   "topic": 27,
+   "sec": 5,
+   "angle": "3",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Pura Seva – AP Police",
+    "Sanjeevani Citizen Wellness App – ABHA-linked health profile",
+    "Mana Mitra – MA&UD",
+    "AP Police Seva – Building plan approval"
+   ],
+   "a": 1,
+   "x": "Sanjeevani is the ABHA-linked digital health app; Pura Seva is MA&UD, Mana Mitra is RTGS and AP Police Seva handles complaints and NOCs."
+  },
+  {
+   "topic": 27,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "e-Office, offered among NIC-AP solutions, is meant for:",
+   "o": [
+    "Paperless file movement in government offices",
+    "Online property registration",
+    "WhatsApp delivery of citizen services",
+    "Health university administration"
+   ],
+   "a": 0,
+   "x": "e-Office enables paperless file movement in government offices; MEDHAS serves Dr. NTR University of Health Sciences."
+  },
+  {
+   "topic": 27,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Rajiv Internet Village (RAJiv) programme was launched in August 2004 by Chief Minister:",
+   "o": [
+    "N. Chandrababu Naidu",
+    "N.T. Rama Rao",
+    "K. Rosaiah",
+    "Y.S. Rajasekhara Reddy"
+   ],
+   "a": 3,
+   "x": "Y.S. Rajasekhara Reddy launched RAJiv in August 2004; Chandrababu Naidu's era is linked to SMART governance and HITEC City."
+  },
+  {
+   "topic": 27,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which company was contracted in December 2004 to set up 5,550 Rajiv Internet Village centres?",
+   "o": [
+    "Wipro",
+    "Bharat Electronics",
+    "IBM",
+    "Tata Consultancy Services"
+   ],
+   "a": 1,
+   "x": "Bharat Electronics got the December 2004 contract for 5,550 RAJiv centres in 14 districts; Wipro built e-Pragati."
+  },
+  {
+   "topic": 27,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which of the following services was offered at Rajiv Internet Village kiosks?",
+   "o": [
+    "State bus tickets",
+    "Passport issue",
+    "Building plan approval",
+    "Migration certificates"
+   ],
+   "a": 0,
+   "x": "RAJiv kiosks offered utility bill payment, state bus tickets, land records and information."
+  },
+  {
+   "topic": 27,
+   "sec": 8,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "'Triple-play' services of AP FiberNet combine:",
+   "o": [
+    "Broadband, TV and telephone",
+    "Broadband, electricity and water",
+    "TV, radio and newspaper",
+    "Telephone, banking and insurance"
+   ],
+   "a": 0,
+   "x": "AP FiberNet's triple-play package gives broadband, TV and telephone together."
+  },
+  {
+   "topic": 27,
+   "sec": 8,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The AP Fibre Grid was inaugurated in December 2017 by the:",
+   "o": [
+    "Prime Minister",
+    "Chief Minister",
+    "President",
+    "Governor"
+   ],
+   "a": 2,
+   "x": "The AP Fibre Grid of AP State FiberNet Ltd was inaugurated by the President in December 2017."
+  },
+  {
+   "topic": 27,
+   "sec": 8,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The basic plan of AP FiberNet is priced at:",
+   "o": [
+    "Rs 99",
+    "Rs 199",
+    "Rs 249",
+    "Rs 149"
+   ],
+   "a": 3,
+   "x": "AP FiberNet's basic plan costs Rs 149 for 15 Mbps and about 250 TV channels."
+  },
+  {
+   "topic": 27,
+   "sec": 9,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "AP IT and GCC Policy 4.0 (2024-29) aims to make which city a global IT destination?",
+   "o": [
+    "Amaravati",
+    "Visakhapatnam",
+    "Tirupati",
+    "Vijayawada"
+   ],
+   "a": 1,
+   "x": "The AP IT and GCC Policy 4.0, issued in December 2024, aims to make Visakhapatnam a global IT destination."
+  },
+  {
+   "topic": 27,
+   "sec": 9,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Quantum Valley at Amaravati is associated with a quantum computer from:",
+   "o": [
+    "IBM",
+    "Google",
+    "Wipro",
+    "Bharat Electronics"
+   ],
+   "a": 0,
+   "x": "Quantum Valley, Amaravati is to have an IBM quantum computer, with TCS software and an L&T tech park."
+  },
+  {
+   "topic": 27,
+   "sec": 9,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Under the AP Data Centre Policy, Google's 1-GW AI data centre is coming up at:",
+   "o": [
+    "Amaravati",
+    "Tirupati",
+    "Visakhapatnam",
+    "Kurnool"
+   ],
+   "a": 2,
+   "x": "The AP Data Centre Policy plans a 500-acre Data City at Visakhapatnam, where Google is building a 1-GW AI data centre."
+  },
+  {
+   "topic": 28,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "In online meetings, good netiquette requires participants to:",
+   "o": [
+    "Mute the microphone when not speaking",
+    "Record the meeting without permission",
+    "Talk over others to be heard",
+    "Keep the camera off at all times"
+   ],
+   "a": 0,
+   "x": "Muting when not speaking is a do; recording without permission and talking over others are don'ts."
+  },
+  {
+   "topic": 28,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which of the following is a 'don't' of e-mail netiquette?",
+   "o": [
+    "Using a clear subject line",
+    "Checking the recipients",
+    "Forwarding chain mails",
+    "Using a polite greeting"
+   ],
+   "a": 2,
+   "x": "Forwarding chain mails and typing in ALL CAPS are e-mail don'ts; a clear subject, polite greeting and checked recipients are dos."
+  },
+  {
+   "topic": 28,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "In online forums, which of the following goes against netiquette?",
+   "o": [
+    "Staying on topic",
+    "Spamming",
+    "Civil discourse",
+    "Respecting privacy"
+   ],
+   "a": 1,
+   "x": "Trolling and spamming break forum netiquette; staying on topic and civil discourse are expected."
+  },
+  {
+   "topic": 28,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which Wi-Fi security standard is recommended for safe online practice?",
+   "o": [
+    "WEP",
+    "WPA",
+    "Open Wi-Fi",
+    "WPA3"
+   ],
+   "a": 3,
+   "x": "WPA3 Wi-Fi is recommended; open, unsecured Wi-Fi is not."
+  },
+  {
+   "topic": 28,
+   "sec": 2,
+   "angle": "1",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a recommended online safety practice?",
+   "o": [
+    "Multi-factor authentication",
+    "Scanning a QR code to receive money",
+    "Verifying information before sharing",
+    "Using privacy settings"
+   ],
+   "a": 1,
+   "x": "A QR code is never scanned to receive money; MFA, verification and privacy settings are recommended."
+  },
+  {
+   "topic": 28,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The national helpline number for reporting cyber offences is:",
+   "o": [
+    "1100",
+    "1098",
+    "1930",
+    "112"
+   ],
+   "a": 2,
+   "x": "Cyber offences are reported at cybercrime.gov.in and on helpline 1930; 1100 is a Himachal helpline."
+  },
+  {
+   "topic": 28,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Stalking, including monitoring a person's electronic communication, is punishable under which section of the Bharatiya Nyaya Sanhita?",
+   "o": [
+    "BNS 78",
+    "BNS 66",
+    "BNS 67",
+    "BNS 87"
+   ],
+   "a": 0,
+   "x": "BNS 78 covers stalking including monitoring electronic communication; 66E and 67 are IT Act sections."
+  },
+  {
+   "topic": 28,
+   "sec": 3,
+   "angle": "4",
+   "shape": "match",
+   "s": "Which of the following pairs of IT Act sections and offences is correctly matched?",
+   "o": [
+    "Section 67 – Privacy violation",
+    "Section 66E – Privacy violation",
+    "Section 66E – Stalking",
+    "Section 87 – Obscene material"
+   ],
+   "a": 1,
+   "x": "IT Act 66E deals with privacy violation and Section 67 with obscene material; stalking falls under BNS 78."
+  },
+  {
+   "topic": 28,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Deliberately posting provocative or abusive content online is called:",
+   "o": [
+    "Cyber venting",
+    "Doxxing",
+    "Nomophobia",
+    "Trolling"
+   ],
+   "a": 3,
+   "x": "Trolling is deliberately provocative or abusive content; cyber venting is pouring out grievances online."
+  },
+  {
+   "topic": 28,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Repeated online harassment, especially of children, is known as:",
+   "o": [
+    "Cyberbullying",
+    "Cyber venting",
+    "Filter bubble",
+    "Digital footprint"
+   ],
+   "a": 0,
+   "x": "Cyberbullying is repeated online harassment, especially of children; cyber venting is a different thing."
+  },
+  {
+   "topic": 28,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Genuine information shared in order to cause harm, such as leaked private data, is called:",
+   "o": [
+    "Misinformation",
+    "Disinformation",
+    "Malinformation",
+    "Deepfake"
+   ],
+   "a": 2,
+   "x": "Malinformation is genuine information shared to cause harm; misinformation and disinformation are both false content."
+  },
+  {
+   "topic": 28,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "False content deliberately created for political, social or economic goals is called:",
+   "o": [
+    "Misinformation",
+    "Malinformation",
+    "Echo chamber",
+    "Disinformation"
+   ],
+   "a": 3,
+   "x": "Disinformation is deliberately false; misinformation is false content spread without intent to deceive."
+  },
+  {
+   "topic": 28,
+   "sec": 4,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about information disorder:\n1. Echo chambers and filter bubbles strengthen fake news.\n2. Deepfakes are AI-made fake audio or video.\n3. Malinformation is false content spread without intent to deceive.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Echo chambers strengthen fake news and deepfakes are AI-made fakes; false content without intent is misinformation, while malinformation is genuine information used to harm."
+  },
+  {
+   "topic": 28,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which of the following is a responsibility of a digital citizen?",
+   "o": [
+    "Keeping a low digital footprint",
+    "Online grievance redressal",
+    "Access to open government data",
+    "Taking part in e-consultations"
+   ],
+   "a": 0,
+   "x": "A low digital footprint, civil discourse and not sharing unverified content are responsibilities; the other three are rights-side aspects."
+  },
+  {
+   "topic": 28,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "In March 2024, the notification of the PIB Fact Check Unit under the IT Rules was stayed by the:",
+   "o": [
+    "Bombay High Court",
+    "Supreme Court",
+    "Delhi High Court",
+    "Election Commission"
+   ],
+   "a": 1,
+   "x": "The Supreme Court stayed the FCU notification in March 2024; the Bombay High Court struck down the 2023 amendment in September 2024."
+  },
+  {
+   "topic": 28,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The IT (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 were framed under which section of the IT Act, 2000?",
+   "o": [
+    "Section 66",
+    "Section 69A",
+    "Section 79",
+    "Section 87"
+   ],
+   "a": 3,
+   "x": "The IT Rules, 2021 were framed under Section 87 of the IT Act, 2000."
+  },
+  {
+   "topic": 28,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Under the takedown rule, flagged unlawful content must be removed within:",
+   "o": [
+    "24 hours",
+    "36 hours",
+    "Three hours",
+    "Seven days"
+   ],
+   "a": 2,
+   "x": "Flagged unlawful content must be removed within three hours."
+  },
+  {
+   "topic": 28,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Mandatory labels on AI content in election campaigns were required through an advisory of the:",
+   "o": [
+    "Election Commission of India",
+    "PIB Fact Check Unit",
+    "European Union",
+    "MeitY"
+   ],
+   "a": 0,
+   "x": "The ECI advisory made labels on AI content in campaigns mandatory; watermarking is mandated by the EU AI Act."
+  },
+  {
+   "topic": 28,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Under platform self-regulation, fake content may be removed or:",
+   "o": [
+    "Down-ranked",
+    "Encrypted",
+    "Watermarked by users",
+    "Sold"
+   ],
+   "a": 0,
+   "x": "Platform policies remove or down-rank fake content as a self-regulation measure."
+  },
+  {
+   "topic": 28,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Penalties as a response to deepfakes are provided under the:",
+   "o": [
+    "EU AI Act",
+    "DPDP Act",
+    "ECI advisory",
+    "NEP 2020"
+   ],
+   "a": 1,
+   "x": "Penalties come under the DPDP Act; the EU AI Act mandates watermarking and the ECI advisory requires labels."
+  },
+  {
+   "topic": 28,
+   "sec": 8,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "According to NSS CAMS 2022-23, what share of persons aged 15-24 could send an e-mail with an attachment?",
+   "o": [
+    "71.2%",
+    "64.8%",
+    "78.4%",
+    "82.1%"
+   ],
+   "a": 2,
+   "x": "78.4% of 15-24-year-olds could send an e-mail with attachment; 71.2% could copy-paste."
+  },
+  {
+   "topic": 28,
+   "sec": 8,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Universal Digital Literacy is the first item under which Vision Area of Digital India?",
+   "o": [
+    "Vision Area 1",
+    "Vision Area 2",
+    "Vision Area 4",
+    "Vision Area 3"
+   ],
+   "a": 3,
+   "x": "Vision Area 3, Digital Empowerment of Citizens, begins with Universal Digital Literacy."
+  },
+  {
+   "topic": 28,
+   "sec": 8,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "ULLAS, the 2022-27 literacy scheme for adults aged 15 and above, is run by the:",
+   "o": [
+    "Ministry of Education",
+    "MeitY",
+    "Ministry of Rural Development",
+    "NITI Aayog"
+   ],
+   "a": 0,
+   "x": "ULLAS is run by the Ministry of Education, not MeitY."
+  },
+  {
+   "topic": 29,
+   "sec": 1,
+   "angle": "1,11",
+   "shape": "one-liner",
+   "s": "Malware that records keystrokes such as passwords, PINs and OTPs is a:",
+   "o": [
+    "Rootkit",
+    "Keylogger",
+    "Adware",
+    "Worm"
+   ],
+   "a": 1,
+   "x": "A keylogger records keystrokes; a rootkit hides other malware."
+  },
+  {
+   "topic": 29,
+   "sec": 1,
+   "angle": "1,11",
+   "shape": "one-liner",
+   "s": "Malware that encrypts a victim's files and demands payment, often in cryptocurrency, is:",
+   "o": [
+    "Spyware",
+    "Trojan",
+    "Ransomware",
+    "Adware"
+   ],
+   "a": 2,
+   "x": "Ransomware encrypts files and demands a ransom, as in the AIIMS Delhi attack (2022)."
+  },
+  {
+   "topic": 29,
+   "sec": 1,
+   "angle": "1,11",
+   "shape": "one-liner",
+   "s": "Spyware is malware that mainly:",
+   "o": [
+    "Carries out secret surveillance and steals passwords or banking data",
+    "Shows unwanted ads",
+    "Floods a server with traffic",
+    "Hides other malware with administrator access"
+   ],
+   "a": 0,
+   "x": "Spyware secretly watches users and steals data, e.g. Pegasus; unwanted ads are adware."
+  },
+  {
+   "topic": 29,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which was the first self-copying program or virus, released on ARPANET in 1971?",
+   "o": [
+    "Elk Cloner",
+    "Brain",
+    "Reaper",
+    "Creeper"
+   ],
+   "a": 3,
+   "x": "Creeper (1971) on ARPANET was the first; it was removed by Reaper."
+  },
+  {
+   "topic": 29,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The first virus found 'in the wild', Elk Cloner (1982), infected:",
+   "o": [
+    "IBM PC",
+    "Apple II",
+    "ARPANET",
+    "Android phones"
+   ],
+   "a": 1,
+   "x": "Elk Cloner (1982) was the first virus in the wild, on the Apple II; Brain was the first IBM-PC virus."
+  },
+  {
+   "topic": 29,
+   "sec": 2,
+   "angle": "2,10",
+   "shape": "one-liner",
+   "s": "StrandHogg (2019), in which malware poses as genuine apps, is a vulnerability of:",
+   "o": [
+    "Android",
+    "Windows SMB",
+    "Siemens PLCs",
+    "Apple II"
+   ],
+   "a": 0,
+   "x": "StrandHogg is an Android vulnerability found by Promon; Windows SMB was the flaw used by EternalBlue."
+  },
+  {
+   "topic": 29,
+   "sec": 2,
+   "angle": "2,10",
+   "shape": "one-liner",
+   "s": "The EternalBlue exploit, used by WannaCry, was developed by:",
+   "o": [
+    "NSO Group, Israel",
+    "Lazarus group, North Korea",
+    "US National Security Agency",
+    "Shadow Brokers"
+   ],
+   "a": 2,
+   "x": "EternalBlue was developed by the US NSA and leaked by the Shadow Brokers in 2017; WannaCry is attributed to Lazarus."
+  },
+  {
+   "topic": 29,
+   "sec": 2,
+   "angle": "2,10",
+   "shape": "one-liner",
+   "s": "Petya ransomware is known for encrypting the:",
+   "o": [
+    "Master boot record",
+    "BIOS chip",
+    "Router firmware",
+    "SIM card"
+   ],
+   "a": 0,
+   "x": "Petya (2016) encrypts the master boot record; NotPetya (2017) hit Ukraine."
+  },
+  {
+   "topic": 29,
+   "sec": 3,
+   "angle": "3,15",
+   "shape": "one-liner",
+   "s": "An attack that secretly intercepts or alters communication between two parties is a:",
+   "o": [
+    "Spoofing attack",
+    "Man-in-the-middle attack",
+    "E-mail bombing",
+    "SQL injection"
+   ],
+   "a": 1,
+   "x": "Man-in-the-middle secretly intercepts or alters communication between two parties."
+  },
+  {
+   "topic": 29,
+   "sec": 3,
+   "angle": "3,15",
+   "shape": "one-liner",
+   "s": "An attack that exploits an unknown, unpatched software flaw is called a:",
+   "o": [
+    "Supply-chain attack",
+    "Spoofing attack",
+    "Zero-day attack",
+    "Vishing attack"
+   ],
+   "a": 2,
+   "x": "A zero-day exploits an unknown, unpatched flaw, as Pegasus does."
+  },
+  {
+   "topic": 29,
+   "sec": 3,
+   "angle": "3,12",
+   "shape": "one-liner",
+   "s": "Phishing carried out through voice calls is called:",
+   "o": [
+    "Smishing",
+    "Spoofing",
+    "Spamming",
+    "Vishing"
+   ],
+   "a": 3,
+   "x": "Vishing is phishing by voice calls."
+  },
+  {
+   "topic": 29,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Sextortion, blackmail using intimate images, is dealt with under which IT Act sections?",
+   "o": [
+    "66C and 66D",
+    "66E and 67A",
+    "43 and 66",
+    "69 and 69A"
+   ],
+   "a": 1,
+   "x": "Sextortion is covered by IT Act Sections 66E and 67A; identity theft is 66C."
+  },
+  {
+   "topic": 29,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The dark web is mostly reached through:",
+   "o": [
+    "Tor",
+    "Bluetooth",
+    "WPA3",
+    "APSWAN"
+   ],
+   "a": 0,
+   "x": "The dark web is a hidden internet reached via Tor, hosting illegal marketplaces and data dumps."
+  },
+  {
+   "topic": 29,
+   "sec": 4,
+   "angle": "4,12",
+   "shape": "one-liner",
+   "s": "Scam centres running cyber fraud with trafficked people were linked by MEA (2025) to:",
+   "o": [
+    "Nepal and Bhutan",
+    "Sri Lanka and Maldives",
+    "Myanmar and Laos",
+    "Pakistan and Afghanistan"
+   ],
+   "a": 2,
+   "x": "MEA (2025) linked scam centres to Myanmar and Laos."
+  },
+  {
+   "topic": 29,
+   "sec": 5,
+   "angle": "9,12",
+   "shape": "one-liner",
+   "s": "In a SIM swap fraud, the fraudster obtains a duplicate SIM mainly to:",
+   "o": [
+    "Mine cryptocurrency",
+    "Intercept OTPs",
+    "Send spam e-mails",
+    "Watch CCTV feeds"
+   ],
+   "a": 1,
+   "x": "SIM swap fraud uses a duplicate SIM to intercept OTPs, often with the fraudster posing as a bank official."
+  },
+  {
+   "topic": 29,
+   "sec": 5,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Syndicates renting out ransomware and fraud tools to others is called:",
+   "o": [
+    "Crime-as-a-service",
+    "Crypto-jacking",
+    "SIM swap",
+    "Doxxing"
+   ],
+   "a": 0,
+   "x": "Crime-as-a-service syndicates rent out ransomware and fraud tools; crypto-jacking is secret mining on a victim's device."
+  },
+  {
+   "topic": 29,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "IRDAI guidance (2021) on retail cyber insurance for individuals excludes losses due to:",
+   "o": [
+    "Identity theft",
+    "Phishing",
+    "Gross negligence",
+    "Unauthorised online transactions"
+   ],
+   "a": 2,
+   "x": "IRDAI's retail cyber cover includes identity theft, phishing and unauthorised transactions, but excludes gross negligence."
+  },
+  {
+   "topic": 29,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Besides confidentiality, integrity and availability, the full list of data security principles includes:",
+   "o": [
+    "Accountability and non-repudiation",
+    "Anonymity and encryption",
+    "Speed and scalability",
+    "Redundancy and replication"
+   ],
+   "a": 0,
+   "x": "The full list adds accountability and non-repudiation to the CIA triad."
+  },
+  {
+   "topic": 29,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "RSA is an example of:",
+   "o": [
+    "Symmetric encryption",
+    "Hashing",
+    "Steganography",
+    "Asymmetric encryption"
+   ],
+   "a": 3,
+   "x": "RSA uses a public-private key pair and is asymmetric; AES and Blowfish are symmetric."
+  },
+  {
+   "topic": 29,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "A digital signature is created using the sender's:",
+   "o": [
+    "Public key",
+    "Private key",
+    "Hash password",
+    "Shared session key"
+   ],
+   "a": 1,
+   "x": "A digital signature is made with the sender's private key and verified with the public key."
+  },
+  {
+   "topic": 29,
+   "sec": 8,
+   "angle": "5,13",
+   "shape": "one-liner",
+   "s": "A virtual keyboard is used mainly to defeat:",
+   "o": [
+    "Keyloggers",
+    "Adware",
+    "Botnets",
+    "Ransomware"
+   ],
+   "a": 0,
+   "x": "Virtual keyboards defeat keyloggers that record keystrokes."
+  },
+  {
+   "topic": 29,
+   "sec": 8,
+   "angle": "5,13",
+   "shape": "one-liner",
+   "s": "Which tool prevents and heals malware infections?",
+   "o": [
+    "Firewall",
+    "Honeypot",
+    "Antivirus",
+    "VPN"
+   ],
+   "a": 2,
+   "x": "Antivirus prevents and heals infections; a firewall blocks unauthorised network access."
+  },
+  {
+   "topic": 29,
+   "sec": 9,
+   "angle": "7,14",
+   "shape": "one-liner",
+   "s": "The 2022 ransomware attack on hospital servers in India hit:",
+   "o": [
+    "AIIMS Delhi",
+    "PGIMER Chandigarh",
+    "NIMS Hyderabad",
+    "JIPMER Puducherry"
+   ],
+   "a": 0,
+   "x": "AIIMS Delhi's servers were hit by ransomware in 2022."
+  },
+  {
+   "topic": 29,
+   "sec": 9,
+   "angle": "7,14",
+   "shape": "one-liner",
+   "s": "In 2019, malware was found on the administrative network of which nuclear power plant?",
+   "o": [
+    "Tarapur",
+    "Kudankulam",
+    "Kaiga",
+    "Kakrapar"
+   ],
+   "a": 1,
+   "x": "Malware was found on the admin network of Kudankulam NPP, Tamil Nadu, in 2019."
+  },
+  {
+   "topic": 29,
+   "sec": 9,
+   "angle": "7,14",
+   "shape": "one-liner",
+   "s": "The Cosmos Bank ATM/SWIFT fraud (2018) of about Rs 94 crore took place in:",
+   "o": [
+    "Mumbai",
+    "Bengaluru",
+    "Pune",
+    "Hyderabad"
+   ],
+   "a": 2,
+   "x": "The Cosmos Bank fraud of about Rs 94 crore happened in Pune, Maharashtra, in 2018."
+  },
+  {
+   "topic": 29,
+   "sec": 9,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "How many Government of Andhra Pradesh applications were audited by APTS?",
+   "o": [
+    "59",
+    "150",
+    "72",
+    "270"
+   ],
+   "a": 3,
+   "x": "APTS, which watches Critical Government Infrastructure via APCSOC, audited 270 GoAP applications."
+  },
+  {
+   "topic": 29,
+   "sec": 10,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "Cyber espionage is often carried out by state-sponsored groups known as:",
+   "o": [
+    "APT groups",
+    "CERT teams",
+    "Honeypots",
+    "Zero Trust agents"
+   ],
+   "a": 0,
+   "x": "Cyber espionage is often state-sponsored, carried out by APT groups using spear-phishing and zero-days."
+  },
+  {
+   "topic": 29,
+   "sec": 10,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "Cyber terrorism mainly aims at:",
+   "o": [
+    "Critical infrastructure",
+    "Online chatting",
+    "Digital literacy",
+    "Cyber insurance"
+   ],
+   "a": 0,
+   "x": "Cyber terrorism aims at critical infrastructure; tracing its source is hard because of VPNs, proxies and botnets."
+  },
+  {
+   "topic": 29,
+   "sec": 10,
+   "angle": "17",
+   "shape": "NOT",
+   "s": "Which of the following is NOT listed as an emerging cyber threat?",
+   "o": [
+    "AI-powered malware evading antivirus",
+    "Ransomware-as-a-service",
+    "Deepfakes",
+    "Virtual keyboards"
+   ],
+   "a": 3,
+   "x": "Virtual keyboards are a defence against keyloggers; AI-powered malware, ransomware-as-a-service and deepfakes are emerging threats."
+  },
+  {
+   "topic": 29,
+   "sec": 10,
+   "angle": "17",
+   "shape": "one-liner",
+   "s": "The MeitY 2nd Digital Threat Report 2025-26 focuses on which sector?",
+   "o": [
+    "Power",
+    "BFSI",
+    "Telecom",
+    "Health"
+   ],
+   "a": 1,
+   "x": "The MeitY 2nd Digital Threat Report 2025-26 covers BFSI; 6 of its 7 earlier predictions came true."
+  },
+  {
+   "topic": 29,
+   "sec": 10,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "According to NCRB, how many cyber crime cases were registered in India in 2023?",
+   "o": [
+    "65,893",
+    "58,249",
+    "86,420",
+    "1,23,672"
+   ],
+   "a": 2,
+   "x": "NCRB recorded 86,420 cyber crime cases in 2023, up 31.2% from 65,893 in 2022."
+  },
+  {
+   "topic": 29,
+   "sec": 10,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "Which State recorded the highest number of cyber crime cases in NCRB 2023?",
+   "o": [
+    "Karnataka",
+    "Telangana",
+    "Maharashtra",
+    "Uttar Pradesh"
+   ],
+   "a": 0,
+   "x": "Karnataka topped NCRB 2023 with 21,889 cyber crime cases."
+  },
+  {
+   "topic": 29,
+   "sec": 10,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "CERT-In handled how many cyber security incidents in 2025, the highest in five years?",
+   "o": [
+    "20.41 lakh",
+    "29.44 lakh",
+    "86.42 lakh",
+    "12.39 lakh"
+   ],
+   "a": 1,
+   "x": "CERT-In handled 29.44 lakh incidents in 2025, up from 20.41 lakh in 2024."
+  },
+  {
+   "topic": 29,
+   "sec": 10,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "DRDO-led Exercise Cyber Suraksha for the armed forces lasted:",
+   "o": [
+    "7 days",
+    "10 days",
+    "15 days",
+    "12 days"
+   ],
+   "a": 3,
+   "x": "Exercise Cyber Suraksha is a 12-day DRDO-led exercise for the armed forces."
+  }
+ ]
+}
