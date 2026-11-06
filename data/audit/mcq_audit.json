@@ -13,18 +13,18 @@
  },
  "Complete": {
   "all": {
-   "n": 39054,
+   "n": 42692,
    "shares": {
-    "one-liner": 0.46,
-    "statements": 0.381,
-    "NOT": 0.05,
-    "match": 0.056,
-    "assertion": 0.034,
-    "sequence": 0.019
+    "one-liner": 0.513,
+    "statements": 0.342,
+    "NOT": 0.047,
+    "match": 0.054,
+    "assertion": 0.027,
+    "sequence": 0.017
    },
-   "stem words (median)": 16,
-   "4+ statements": 421,
-   "code boilerplate": 378,
+   "stem words (median)": 15,
+   "4+ statements": 420,
+   "code boilerplate": 377,
    "no explanation": 3528
   },
   "by subject": {
@@ -44,18 +44,18 @@
     "no explanation": 786
    },
    "Polity, Society & IR": {
-    "n": 9450,
+    "n": 13088,
     "shares": {
-     "one-liner": 0.65,
-     "statements": 0.206,
-     "NOT": 0.072,
+     "one-liner": 0.768,
+     "statements": 0.126,
+     "NOT": 0.058,
      "match": 0.034,
-     "assertion": 0.031,
-     "sequence": 0.006
+     "assertion": 0.008,
+     "sequence": 0.005
     },
-    "stem words (median)": 14,
-    "4+ statements": 89,
-    "code boilerplate": 73,
+    "stem words (median)": 13,
+    "4+ statements": 88,
+    "code boilerplate": 72,
     "no explanation": 646
    },
    "Economy": {
@@ -132,9 +132,9 @@
     "topics": 170,
     "topics without MCQs": 0,
     "pages": 1534,
-    "pages without MCQs": 100,
+    "pages without MCQs": 0,
     "bold facts": 19368,
-    "bold facts asked": 0.706
+    "bold facts asked": 0.77
    },
    "Economy": {
     "topics": 145,
@@ -176,13 +176,6 @@
     223,
     "Depressed Classes Movement, Communal Award and the Poona Pact 1932",
     3
-   ],
-   [
-    0.19,
-    2,
-    101,
-    "Quasi-judicial Bodies – National Green Tribunal, Nclt/nclat, Cat, Sat,",
-    5
    ],
    [
     0.21,
@@ -344,21 +337,28 @@
     25,
     "Ocean-atmosphere Interaction – El Nino, La Nina, Enso, Iod, Walker Cir",
     20
+   ],
+   [
+    0.36,
+    4,
+    56,
+    "World Population Growth, Demographic Transition and Regional Patterns",
+    10
    ]
   ]
  },
  "Group 2": {
   "all": {
-   "n": 23531,
+   "n": 27712,
    "shares": {
-    "one-liner": 0.353,
-    "statements": 0.481,
-    "NOT": 0.042,
-    "match": 0.068,
-    "assertion": 0.038,
-    "sequence": 0.02
+    "one-liner": 0.473,
+    "statements": 0.377,
+    "NOT": 0.046,
+    "match": 0.06,
+    "assertion": 0.029,
+    "sequence": 0.017
    },
-   "stem words (median)": 22,
+   "stem words (median)": 16,
    "4+ statements": 290,
    "code boilerplate": 232,
    "no explanation": 2069
@@ -380,16 +380,16 @@
     "no explanation": 417
    },
    "Constitution & Society": {
-    "n": 3899,
+    "n": 8080,
     "shares": {
-     "one-liner": 0.35,
-     "statements": 0.488,
-     "NOT": 0.053,
-     "match": 0.052,
-     "assertion": 0.045,
-     "sequence": 0.012
+     "one-liner": 0.763,
+     "statements": 0.127,
+     "NOT": 0.061,
+     "match": 0.032,
+     "assertion": 0.011,
+     "sequence": 0.006
     },
-    "stem words (median)": 24,
+    "stem words (median)": 13,
     "4+ statements": 66,
     "code boilerplate": 38,
     "no explanation": 464
@@ -468,9 +468,9 @@
     "topics": 76,
     "topics without MCQs": 0,
     "pages": 763,
-    "pages without MCQs": 79,
+    "pages without MCQs": 0,
     "bold facts": 11272,
-    "bold facts asked": 0.579
+    "bold facts asked": 0.766
    },
    "Economy": {
     "topics": 64,
@@ -606,24 +606,10 @@
    ],
    [
     0.39,
-    2,
-    72,
-    "Challenges in Local Devolution – Funds, Functions, Functionaries; Para",
-    17
-   ],
-   [
-    0.39,
     3,
     20,
     "Banking in India – Nationalisation, Structure, Priority Sector, Small ",
     57
-   ],
-   [
-    0.4,
-    2,
-    74,
-    "Devolution of Powers and Finances to Local Levels – Finance Commission",
-    18
    ],
    [
     0.4,
@@ -680,6 +666,20 @@
     2,
     "Launch Vehicles - SLV-3, Aslv, Pslv, Gslv Mk-ii, LVM3, Sslv",
     27
+   ],
+   [
+    0.41,
+    6,
+    76,
+    "Apr–Nov 2025: Sports - major tournaments, winners, records and hosting",
+    11
+   ],
+   [
+    0.42,
+    1,
+    76,
+    "Civil Disobedience Movement – Lahore Session and Purna Swaraj, Dandi M",
+    95
    ]
   ]
  }

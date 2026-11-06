@@ -162,7 +162,7 @@ class CompleteTest {
     @Test fun weakOneFactMcqsPassTheirRevisionOnToTheMergedMcq() {
         val repo = Repository { ctx.assets.open(it) }
         val merged = repo.merged
-        assertTrue(merged.size > 10000)
+        assertTrue(merged.size > 8000)
         val (wrongId, wrongOlds) = merged.entries.first()
         val (viewedId, viewedOlds) = merged.entries.drop(1).first()
         val (rightId, rightOlds) = merged.entries.drop(2).first()
@@ -210,7 +210,7 @@ class CompleteTest {
                 assertEquals("book $b row $ri: MCQ count in the index", repo.index[b - 1].rows[ri].questionCount, qs.size)
             }
         }
-        assertEquals(35562, mcqs)
+        assertEquals(42692, mcqs)
         assertEquals(mcqs, repo.planIds.size)
         assertTrue(repo.merged.keys.all { it in repo.planIds })
         val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
@@ -289,6 +289,25 @@ class CompleteTest {
             assertTrue(repo.emptyPages(mode).isEmpty())
             for (b in 1..6) assertTrue(repo.book(b).rows.all { r -> r.secs.isNotEmpty() && r.secs.none { it.empty } })
         }
+    }
+
+    /** A 3-statement MCQ taken apart again: what was answered on it passes to its one-fact MCQs, once. */
+    @Test fun answersOnATakenApartMcqPassToItsOneFactMcqs() {
+        val repo = Repository { ctx.assets.open(it) }
+        val un = repo.unmerged
+        assertTrue(un.size > 1000)
+        val (wrongId, wrongOlds) = un.entries.first()
+        val (rightId, rightOlds) = un.entries.drop(1).first()
+        val store = ProgressStore(PrefsStorage(ctx))
+        store.recordAnswer(wrongId, false)
+        store.recordAnswer(rightId, true)
+        assertEquals(wrongOlds.size + rightOlds.size, store.carryUnmerged(un))
+        wrongOlds.forEach { assertEquals(com.appsc.prep.data.Mastery.REVISE, store.mastery(it)) }
+        rightOlds.forEach { assertEquals(com.appsc.prep.data.Mastery.MASTERED, store.mastery(it)) }
+        assertEquals("only once", 0, store.carryUnmerged(un))
+        // the one-fact MCQs are in the bank again, the statement MCQ is not
+        val ids = runBlocking { (1..6).flatMap { b -> repo.mcq(b).rows.values.flatten().map { it.id } }.toSet() }
+        assertTrue(wrongOlds.all { it in ids } && wrongId !in ids)
     }
 
     @Test fun edition() {
