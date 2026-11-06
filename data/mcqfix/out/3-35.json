@@ -1,0 +1,942 @@
+{
+ "reshape": {
+  "n2b68e4f3407": {
+   "shape": "statements",
+   "s": "Consider the following statements about fiscal policy:\n1. It can be used to promote full employment and economic growth.\n2. It operates through government expenditure and taxation decisions that influence aggregate demand.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: expenditure and taxation decisions shape aggregate demand, which is how fiscal policy supports employment and growth."
+  },
+  "n3ef1370b3c0": {
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Routine PSU dividends – Source of financing fiscal deficit",
+    "Market borrowings – Revenue non-tax receipt",
+    "Small savings and NSSF – Source of financing fiscal deficit",
+    "External loans – Revenue non-tax receipt"
+   ],
+   "a": 2,
+   "x": "Fiscal deficit is financed through market borrowings, small savings/NSSF, provident funds and external loans; routine PSU dividends are non-tax revenue receipts, not a financing source."
+  },
+  "nindian-economy-21-3": {
+   "shape": "one-liner",
+   "s": "The main aim of the FRBM Act is to promote:",
+   "o": [
+    "Inflation targeting by the RBI",
+    "Fiscal discipline and fiscal prudence",
+    "Export competitiveness",
+    "Financial inclusion"
+   ],
+   "a": 1,
+   "x": "The FRBM Act aims at fiscal discipline and prudence by cutting the fiscal deficit, revenue deficit and public debt."
+  },
+  "nindian-economy-21-5": {
+   "shape": "one-liner",
+   "s": "The FRBM Review Committee, formed in May 2016 and reporting in January 2017, was chaired by:",
+   "o": [
+    "Vijay Kelkar",
+    "Urjit Patel",
+    "N.K. Singh",
+    "Rathin Roy"
+   ],
+   "a": 2,
+   "x": "N.K. Singh chaired the FRBM Review Committee, set up in May 2016, which reported in January 2017."
+  },
+  "n0b2dfd78d1b": {
+   "shape": "one-liner",
+   "s": "Which one of the following is a ground for invoking the FRBM escape clause?",
+   "o": [
+    "Routine tax shortfall due to administrative delay",
+    "Sharp rise in real output growth",
+    "Change in the repo rate",
+    "National calamity"
+   ],
+   "a": 3,
+   "x": "Escape-clause grounds include national security, war, national calamity, agricultural collapse, structural reforms and a sharp fall in output; a routine tax shortfall is not one, and a sharp rise in growth triggers the buoyancy clause instead."
+  },
+  "nbf6a1db22fd": {
+   "shape": "one-liner",
+   "s": "FRBM targets were suspended after the global financial crisis in:",
+   "o": [
+    "2004",
+    "2008-09",
+    "2012",
+    "2018"
+   ],
+   "a": 1,
+   "x": "After the 2004 Rules, the targets were suspended in 2008-09 following the global financial crisis; 2012 added new targets and 2018 brought the debt anchor."
+  },
+  "n968cf08669b": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Demands for Grants?",
+   "o": [
+    "They are presented under Article 113",
+    "They include revenue expenditure",
+    "They include capital expenditure and loans",
+    "Charged expenditure is not shown separately in them"
+   ],
+   "a": 3,
+   "x": "Demands for Grants (Article 113) cover revenue, capital and loan components; charged items are shown separately, so the last statement is false."
+  },
+  "n650854ac98f": {
+   "shape": "NOT",
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Line-item budget – Traditional control over individual items of expenditure",
+    "Performance budget – Spending linked to activities or work done",
+    "Zero-based budget – Traditional control over individual items of expenditure",
+    "Outcome budget – Outlays linked to outputs and outcomes"
+   ],
+   "a": 2,
+   "x": "Traditional control over individual items describes the line-item budget; a zero-based budget justifies every item afresh from zero."
+  }
+ },
+ "new": [
+  {
+   "topic": 105,
+   "sec": 4,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "A budget in which receipts exceed expenditure is called a:",
+   "o": [
+    "Balanced budget",
+    "Surplus budget",
+    "Deficit budget",
+    "Zero-based budget"
+   ],
+   "a": 1,
+   "x": "Receipts greater than expenditure make a surplus budget; equal receipts and expenditure make a balanced one."
+  },
+  {
+   "topic": 105,
+   "sec": 4,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The first Outcome Budget and the first Gender Budget Statement came with the Union Budget of:",
+   "o": [
+    "1997-98",
+    "2001-02",
+    "2005-06",
+    "2011-12"
+   ],
+   "a": 2,
+   "x": "Both the Outcome Budget and the Gender Budget Statement were first presented with the Union Budget 2005-06."
+  },
+  {
+   "topic": 105,
+   "sec": 4,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "Recovery of loans and disinvestment are classified as:",
+   "o": [
+    "Non-debt capital receipts",
+    "Debt capital receipts",
+    "Tax revenue",
+    "Non-tax revenue"
+   ],
+   "a": 0,
+   "x": "Recovery of loans, disinvestment and asset monetisation are non-debt capital receipts."
+  },
+  {
+   "topic": 105,
+   "sec": 4,
+   "angle": "18",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a capital receipt?",
+   "o": [
+    "Recovery of loans",
+    "Disinvestment",
+    "Dividends from PSUs",
+    "Market borrowings"
+   ],
+   "a": 2,
+   "x": "PSU dividends are non-tax revenue receipts; loan recovery and disinvestment are non-debt and market borrowings are debt capital receipts."
+  },
+  {
+   "topic": 105,
+   "sec": 4,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "In Budget 2026-27, borrowings and other liabilities made up how many paise of every rupee received?",
+   "o": [
+    "15 paise",
+    "18 paise",
+    "21 paise",
+    "24 paise"
+   ],
+   "a": 3,
+   "x": "Borrowings and other liabilities were 24 paise of every rupee, the largest single receipt item in 2026-27."
+  },
+  {
+   "topic": 105,
+   "sec": 4,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "The distinction between Plan and non-Plan expenditure ended in the Union Budget of:",
+   "o": [
+    "2010-11",
+    "2014-15",
+    "2017-18",
+    "2019-20"
+   ],
+   "a": 2,
+   "x": "The Plan/non-Plan distinction ended in Budget 2017-18, the same year the Rail Budget was merged."
+  },
+  {
+   "topic": 105,
+   "sec": 4,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Expenditure charged on the Consolidated Fund under Article 112(3) is:",
+   "o": [
+    "Not voted by Parliament",
+    "Voted only by the Rajya Sabha",
+    "Voted by both Houses",
+    "Approved by the CAG before voting"
+   ],
+   "a": 0,
+   "x": "Charged items such as the President's emoluments, debt charges and Supreme Court judges' salaries are not voted by Parliament; the rest is voted."
+  },
+  {
+   "topic": 105,
+   "sec": 2,
+   "angle": "5,9",
+   "shape": "one-liner",
+   "s": "In Musgrave's budget functions, reducing inequality through progressive taxation and welfare spending is the:",
+   "o": [
+    "Allocation function",
+    "Distribution function",
+    "Stabilisation function",
+    "Regulation function"
+   ],
+   "a": 1,
+   "x": "The distribution function reduces inequality through progressive taxation and welfare spending."
+  },
+  {
+   "topic": 105,
+   "sec": 2,
+   "angle": "5,9",
+   "shape": "one-liner",
+   "s": "Controlling inflation and unemployment to smooth the business cycle is Musgrave's ____ function.",
+   "o": [
+    "allocation",
+    "distribution",
+    "development",
+    "stabilisation"
+   ],
+   "a": 3,
+   "x": "Stabilisation controls inflation and unemployment; allocation provides public goods and distribution reduces inequality."
+  },
+  {
+   "topic": 105,
+   "sec": 2,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "In FY25, direct taxes formed what share of India's total taxes?",
+   "o": [
+    "41.2%",
+    "50.5%",
+    "58.8%",
+    "66.1%"
+   ],
+   "a": 2,
+   "x": "Direct taxes were 58.8% of total taxes in FY25, evidence of progressive taxation."
+  },
+  {
+   "topic": 105,
+   "sec": 7,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which route of deficit financing is the most inflationary?",
+   "o": [
+    "Market borrowing from the public",
+    "Borrowing from the RBI (money creation)",
+    "Small savings collections",
+    "Provident fund deposits"
+   ],
+   "a": 1,
+   "x": "Money creation through RBI borrowing is the most inflationary route; public borrowing absorbs liquidity."
+  },
+  {
+   "topic": 105,
+   "sec": 7,
+   "angle": "2",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Ways and Means Advances – Temporary RBI advances for short receipt-payment gaps",
+    "Overdraft – Automatic monetisation since the mid-1950s",
+    "Ad hoc Treasury Bills – WMA used beyond the permitted limit",
+    "Deficit financing – Selling PSU shares"
+   ],
+   "a": 0,
+   "x": "WMA are temporary RBI advances for short gaps; an overdraft is WMA beyond the limit, and ad hoc T-bills were the automatic monetisation route."
+  },
+  {
+   "topic": 105,
+   "sec": 7,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Ad hoc Treasury Bills, abolished in 1997, had been used for automatic monetisation since the:",
+   "o": [
+    "early 1940s",
+    "mid-1950s",
+    "late 1960s",
+    "mid-1980s"
+   ],
+   "a": 1,
+   "x": "Automatic monetisation through ad hoc T-bills ran from the mid-1950s until they were abolished from 1 April 1997."
+  },
+  {
+   "topic": 105,
+   "sec": 8,
+   "angle": "24",
+   "shape": "one-liner",
+   "s": "The term 'twin deficit' refers to the fiscal deficit together with the:",
+   "o": [
+    "Current account deficit",
+    "Revenue deficit",
+    "Primary deficit",
+    "Monetised deficit"
+   ],
+   "a": 0,
+   "x": "Twin deficit means the fiscal deficit plus the current account deficit; higher government dissaving widens the CAD."
+  },
+  {
+   "topic": 105,
+   "sec": 8,
+   "angle": "23",
+   "shape": "one-liner",
+   "s": "In Budget 2026-27, the revenue deficit (1.5% of GDP) was roughly what fraction of the fiscal deficit (4.3%)?",
+   "o": [
+    "One-third",
+    "One-tenth",
+    "One-half",
+    "Two-thirds"
+   ],
+   "a": 0,
+   "x": "RD 1.5 / FD 4.3 is about one-third, a measure of the quality of the deficit."
+  },
+  {
+   "topic": 105,
+   "sec": 8,
+   "angle": "6,14",
+   "shape": "one-liner",
+   "s": "In India, the capital expenditure multiplier is estimated at about:",
+   "o": [
+    "0.5-1",
+    "1-1.5",
+    "5-6",
+    "2.5-3"
+   ],
+   "a": 3,
+   "x": "India's capex multiplier is about 2.5-3, the largest among fiscal multipliers."
+  },
+  {
+   "topic": 105,
+   "sec": 9,
+   "angle": "7,19",
+   "shape": "one-liner",
+   "s": "The Union fiscal deficit in 2021-22 was:",
+   "o": [
+    "5.9% of GDP",
+    "6.7% of GDP",
+    "7.7% of GDP",
+    "9.2% of GDP"
+   ],
+   "a": 1,
+   "x": "FY22 fiscal deficit was 6.7% of GDP, not 7.7%; 9.2% was the 2020-21 COVID peak."
+  },
+  {
+   "topic": 105,
+   "sec": 9,
+   "angle": "7,19",
+   "shape": "one-liner",
+   "s": "The Union revenue deficit in 2025-26 was:",
+   "o": [
+    "0.8% of GDP",
+    "1.1% of GDP",
+    "1.5% of GDP",
+    "1.7% of GDP"
+   ],
+   "a": 2,
+   "x": "FY26 revenue deficit was 1.5% of GDP; 0.8% was the primary deficit."
+  },
+  {
+   "topic": 105,
+   "sec": 6,
+   "angle": "3,17",
+   "shape": "statements",
+   "s": "Consider the following statements about deficits:\n1. Fiscal deficit is always greater than primary deficit.\n2. Effective revenue deficit can be greater than revenue deficit.\n3. A zero primary deficit means borrowing only to pay interest.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "FD exceeds PD because interest is positive, and zero PD means borrowing equals interest; ERD is never greater than RD, so 2 is wrong."
+  },
+  {
+   "topic": 105,
+   "sec": 1,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Constitution refers to the Union Budget as the:",
+   "o": [
+    "Annual Financial Statement",
+    "Union Budget",
+    "Appropriation Statement",
+    "Finance Account"
+   ],
+   "a": 0,
+   "x": "Article 112 calls it the Annual Financial Statement; the word 'Budget' does not appear in the Constitution."
+  },
+  {
+   "topic": 106,
+   "sec": 2,
+   "angle": "1,8",
+   "shape": "statements",
+   "s": "Consider the following statements about the FRBM Act, 2003:\n1. It has no penal provisions for missing its targets.\n2. It applies automatically to the States.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "The Act has no penal provisions; it does not apply to States, which have their own fiscal responsibility Acts."
+  },
+  {
+   "topic": 106,
+   "sec": 1,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The FRBM Rules came into force on:",
+   "o": [
+    "August 2003",
+    "5 July 2004",
+    "1 April 2005",
+    "31 March 2008"
+   ],
+   "a": 1,
+   "x": "The Act was enacted in August 2003 and its Rules came into force on 5 July 2004."
+  },
+  {
+   "topic": 106,
+   "sec": 1,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Under the FRBM framework, the tax-GDP ratio is:",
+   "o": [
+    "A binding legal target",
+    "A trigger for the escape clause",
+    "A target fixed by the Fiscal Council",
+    "An indicator in the Medium-Term Fiscal Policy Statement"
+   ],
+   "a": 3,
+   "x": "Tax-GDP is not a legal target; it is one of four indicators in the MTFP Statement."
+  },
+  {
+   "topic": 106,
+   "sec": 1,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Under the original FRBM Rules, the revenue deficit was to be cut each year by:",
+   "o": [
+    "0.25% of GDP",
+    "0.3% of GDP",
+    "1.0% of GDP",
+    "0.5% of GDP"
+   ],
+   "a": 3,
+   "x": "The Rules required annual cuts of 0.5% of GDP in RD and 0.3% in FD."
+  },
+  {
+   "topic": 106,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Kelkar Task Force (2004) recommended meeting FRBM targets mainly through:",
+   "o": [
+    "Tax reform including a comprehensive GST",
+    "A debt-to-GDP anchor",
+    "An independent Fiscal Council",
+    "An escape clause"
+   ],
+   "a": 0,
+   "x": "Kelkar's route was tax reform with a wider base and a comprehensive GST; the debt anchor and Fiscal Council came from the N.K. Singh Committee."
+  },
+  {
+   "topic": 106,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Vijay Kelkar later headed which Finance Commission?",
+   "o": [
+    "Twelfth",
+    "Thirteenth",
+    "Fourteenth",
+    "Fifteenth"
+   ],
+   "a": 1,
+   "x": "Vijay Kelkar headed the 13th Finance Commission (2010-15)."
+  },
+  {
+   "topic": 106,
+   "sec": 5,
+   "angle": "2,9",
+   "shape": "one-liner",
+   "s": "The N.K. Singh Committee's 60% general government debt target included a Central share of:",
+   "o": [
+    "20%",
+    "30%",
+    "40%",
+    "50%"
+   ],
+   "a": 2,
+   "x": "General government debt of 60% by 2023 was split as Centre 40% and States 20%."
+  },
+  {
+   "topic": 106,
+   "sec": 5,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The N.K. Singh Committee recommended a revenue deficit target of ____ of GDP by 2023.",
+   "o": [
+    "0.5%",
+    "0.8%",
+    "1.5%",
+    "2.0%"
+   ],
+   "a": 1,
+   "x": "The committee recommended RD of 0.8% of GDP by 2023 along with FD of 3%."
+  },
+  {
+   "topic": 106,
+   "sec": 6,
+   "angle": "5,13",
+   "shape": "one-liner",
+   "s": "The effective revenue deficit target and the Medium-Term Expenditure Framework Statement were added to the FRBM framework in:",
+   "o": [
+    "2004",
+    "2008",
+    "2012",
+    "2018"
+   ],
+   "a": 2,
+   "x": "The 2012 amendment added the ERD target and the MTEF Statement."
+  },
+  {
+   "topic": 106,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "In 2015, the target of a 3% fiscal deficit was deferred to:",
+   "o": [
+    "2017-18",
+    "2015-16",
+    "2016-17",
+    "2020-21"
+   ],
+   "a": 0,
+   "x": "The 2015 change deferred the dates, with FD 3% to be reached by 2017-18."
+  },
+  {
+   "topic": 106,
+   "sec": 7,
+   "angle": "6",
+   "shape": "statements",
+   "s": "Consider the following statements about the FRBM escape clause:\n1. It allows the fiscal deficit to exceed the target by up to 0.5% of GDP in a year.\n2. A routine tax shortfall is a valid ground for invoking it.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Escape-clause deviation is capped at 0.5% of GDP in a year; a routine tax shortfall is not a ground for it."
+  },
+  {
+   "topic": 106,
+   "sec": 9,
+   "angle": "4,12",
+   "shape": "one-liner",
+   "s": "The Andhra Pradesh FRBM Act, 2005 set a fiscal deficit target of:",
+   "o": [
+    "2% of GSDP",
+    "3.5% of GSDP",
+    "4% of GSDP",
+    "3% of GSDP"
+   ],
+   "a": 3,
+   "x": "The AP FRBM Act, 2005 aimed to eliminate RD and hold FD at 3% of GSDP."
+  },
+  {
+   "topic": 106,
+   "sec": 9,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which amendment of the AP FRBM Act raised the revenue deficit limits?",
+   "o": [
+    "2010",
+    "2011",
+    "2020",
+    "2021"
+   ],
+   "a": 2,
+   "x": "The AP FRBM Act was amended in 2010, 2011, 2020 and 2021; the 2020 amendment raised RD limits."
+  },
+  {
+   "topic": 106,
+   "sec": 9,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "From 2023-24 to 2025-26, the 15th Finance Commission allowed States extra borrowing for power-sector reforms of:",
+   "o": [
+    "0.25% of GSDP",
+    "0.5% of GSDP",
+    "1.0% of GSDP",
+    "1.5% of GSDP"
+   ],
+   "a": 1,
+   "x": "States' net borrowing limit was 3% of GSDP plus 0.5% for power-sector reforms in 2023-26."
+  },
+  {
+   "topic": 106,
+   "sec": 3,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "The Medium-Term Expenditure Framework Statement sets:",
+   "o": [
+    "3-year expenditure ceilings",
+    "Growth, inflation and external balance assumptions",
+    "Tax, spending and borrowing strategy",
+    "3-year rolling deficit targets"
+   ],
+   "a": 0,
+   "x": "The MTEF Statement, added in 2012, sets 3-year expenditure ceilings; rolling targets belong to the MTFP Statement."
+  },
+  {
+   "topic": 107,
+   "sec": 2,
+   "angle": "3,13",
+   "shape": "one-liner",
+   "s": "The first budget of independent India, on 26 November 1947, was presented by:",
+   "o": [
+    "Liaquat Ali Khan",
+    "James Wilson",
+    "Morarji Desai",
+    "R.K. Shanmukham Chetty"
+   ],
+   "a": 3,
+   "x": "R.K. Shanmukham Chetty presented independent India's first budget; Liaquat Ali Khan presented the Interim Government budget of 1947-48."
+  },
+  {
+   "topic": 107,
+   "sec": 2,
+   "angle": "3,13",
+   "shape": "one-liner",
+   "s": "India's first budget was presented by James Wilson in:",
+   "o": [
+    "1857",
+    "1860",
+    "1871",
+    "1924"
+   ],
+   "a": 1,
+   "x": "James Wilson presented India's first budget on 7 April 1860; 1924 marks the separate Railway Budget."
+  },
+  {
+   "topic": 107,
+   "sec": 2,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Who has presented the largest number of Union Budgets?",
+   "o": [
+    "Nirmala Sitharaman",
+    "Morarji Desai",
+    "Piyush Goyal",
+    "R.K. Shanmukham Chetty"
+   ],
+   "a": 1,
+   "x": "Morarji Desai presented the most budgets, ten."
+  },
+  {
+   "topic": 107,
+   "sec": 6,
+   "angle": "5",
+   "shape": "NOT",
+   "s": "Which of the following is NOT charged on the Consolidated Fund of India?",
+   "o": [
+    "Emoluments of the President",
+    "Salary of the CAG",
+    "Debt charges",
+    "Salaries of High Court judges"
+   ],
+   "a": 3,
+   "x": "Only the pensions of High Court judges are charged, not their salaries; the President's emoluments, the CAG's salary and debt charges are charged."
+  },
+  {
+   "topic": 107,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Withdrawals from the Public Account of India:",
+   "o": [
+    "Need no appropriation by Parliament",
+    "Need an Appropriation Act",
+    "Need a vote of the Rajya Sabha",
+    "Need prior approval of the CAG"
+   ],
+   "a": 0,
+   "x": "In the Public Account the government acts as banker, so withdrawals need no appropriation."
+  },
+  {
+   "topic": 107,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "From FY 2021-22, the corpus of the Contingency Fund of India is:",
+   "o": [
+    "₹500 crore",
+    "₹10,000 crore",
+    "₹30,000 crore",
+    "₹50,000 crore"
+   ],
+   "a": 2,
+   "x": "The Contingency Fund (Article 267) has a corpus of ₹30,000 crore from FY 2021-22."
+  },
+  {
+   "topic": 107,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "A cut motion that seeks to reduce a demand by ₹100 is called a:",
+   "o": [
+    "Token cut",
+    "Policy cut",
+    "Economy cut",
+    "Guillotine"
+   ],
+   "a": 0,
+   "x": "A token cut reduces a demand by ₹100; a policy cut reduces it to Re 1 and an economy cut by a stated amount."
+  },
+  {
+   "topic": 107,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "A Vote on Account normally covers spending for about:",
+   "o": [
+    "Two weeks",
+    "Two months",
+    "Six months",
+    "One year"
+   ],
+   "a": 1,
+   "x": "A vote on account (Article 116) usually covers about two months, longer in election years."
+  },
+  {
+   "topic": 107,
+   "sec": 8,
+   "angle": "8,14",
+   "shape": "one-liner",
+   "s": "Which budget document is presented one per ministry under Article 113?",
+   "o": [
+    "Annual Financial Statement",
+    "Demands for Grants",
+    "Receipt Budget",
+    "Budget at a Glance"
+   ],
+   "a": 1,
+   "x": "Demands for Grants are laid under Article 113, one per ministry, covering revenue, capital and loans."
+  },
+  {
+   "topic": 107,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The output-outcome framework for schemes is presented in the:",
+   "o": [
+    "Outcome Budget",
+    "Receipt Budget",
+    "Memorandum to the Finance Bill",
+    "Annual Financial Statement"
+   ],
+   "a": 0,
+   "x": "The Outcome Budget presents the output-outcome framework for schemes."
+  },
+  {
+   "topic": 107,
+   "sec": 10,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "In Budget 2026-27, the largest item under 'rupee comes from' was:",
+   "o": [
+    "Income tax",
+    "Corporation tax",
+    "GST and other taxes",
+    "Borrowings and other liabilities"
+   ],
+   "a": 3,
+   "x": "Borrowings and other liabilities were 24 paise, ahead of income tax (21) and corporation tax (18)."
+  },
+  {
+   "topic": 107,
+   "sec": 10,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "In Budget 2026-27, interest payments took how many paise of every rupee spent?",
+   "o": [
+    "11 paise",
+    "17 paise",
+    "20 paise",
+    "22 paise"
+   ],
+   "a": 2,
+   "x": "Interest took 20 paise; the largest outflow was States' share of taxes at 22 paise."
+  },
+  {
+   "topic": 107,
+   "sec": 9,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The gross market borrowing estimated in Budget 2026-27 was:",
+   "o": [
+    "₹11.73 lakh crore",
+    "₹12.22 lakh crore",
+    "₹16.96 lakh crore",
+    "₹17.2 lakh crore"
+   ],
+   "a": 3,
+   "x": "Gross market borrowing was ₹17.2 lakh crore (net ₹11.73 lakh crore); ₹12.22 lakh crore was capex."
+  },
+  {
+   "topic": 107,
+   "sec": 9,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "Budget 2026-27 cut the Minimum Alternate Tax (MAT) from:",
+   "o": [
+    "18.5% to 15%",
+    "15% to 14%",
+    "15% to 12%",
+    "14% to 12%"
+   ],
+   "a": 1,
+   "x": "Budget 2026-27 cut MAT from 15% to 14% with no slab change."
+  },
+  {
+   "topic": 107,
+   "sec": 9,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "In Budget 2025-26, the allocation for Youth Affairs and Sports was:",
+   "o": [
+    "₹900 crore",
+    "₹20,083 crore",
+    "₹3,794.30 crore",
+    "₹30,000 crore"
+   ],
+   "a": 2,
+   "x": "Youth Affairs and Sports got ₹3,794.30 crore in 2025-26; ₹900 crore was Mission VATSALYA in 2021-22."
+  },
+  {
+   "topic": 107,
+   "sec": 9,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "In Budget 2026-27, the allocation for the Ministry of Road Transport and Highways was:",
+   "o": [
+    "₹1.06 lakh crore",
+    "₹1.39 lakh crore",
+    "₹3,09,875 crore",
+    "₹7,84,678 crore"
+   ],
+   "a": 2,
+   "x": "Road Transport and Highways got ₹3,09,875 crore; ₹7,84,678 crore went to Defence, the highest."
+  },
+  {
+   "topic": 107,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In the Gender Budget Statement, Part B covers schemes with what share of allocation for women?",
+   "o": [
+    "100%",
+    "30-99%",
+    "Below 30%",
+    "50-100%"
+   ],
+   "a": 1,
+   "x": "Part A is 100% for women, Part B 30-99% and Part C below 30%."
+  },
+  {
+   "topic": 107,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In Budget 2026-27, the Gender Budget formed what share of the total Budget?",
+   "o": [
+    "6.12%",
+    "8.15%",
+    "9.37%",
+    "11.4%"
+   ],
+   "a": 2,
+   "x": "The Gender Budget (Statement 13) was ₹5.01 lakh crore, 9.37% - the highest ever."
+  },
+  {
+   "topic": 107,
+   "sec": 5,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Defence expenditure is classified as:",
+   "o": [
+    "Developmental expenditure",
+    "Non-developmental expenditure",
+    "Plan expenditure",
+    "Social services expenditure"
+   ],
+   "a": 1,
+   "x": "Defence is non-developmental, committed spending, along with interest, administration and pensions."
+  },
+  {
+   "topic": 107,
+   "sec": 11,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "How many States exceeded the 3% fiscal deficit limit in FY24?",
+   "o": [
+    "10",
+    "14",
+    "18",
+    "22"
+   ],
+   "a": 2,
+   "x": "18 States exceeded the 3% limit in FY24; States' combined FD in FY25 was 3.2% of GDP."
+  },
+  {
+   "topic": 107,
+   "sec": 4,
+   "angle": "2",
+   "shape": "statements",
+   "s": "Consider the following statements about government receipts:\n1. Interest received on loans is a revenue receipt.\n2. Small savings are part of the revenue account.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Interest received creates no liability, so it is revenue; small savings are debt receipts in the capital account."
+  }
+ ]
+}

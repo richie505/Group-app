@@ -537,16 +537,16 @@
    "topic": 93,
    "sec": 7,
    "angle": "3",
-   "shape": "one-liner",
-   "s": "Food carries a larger weight in which index than in WPI?",
+   "shape": "statements",
+   "s": "Consider the following statements about the weights in price indices:\n1. Food has a bigger weight in CPI than in WPI.\n2. Manufactured goods carry the biggest weight in WPI.\nWhich of the statements given above is/are correct?",
    "o": [
-    "IIP",
-    "PPI",
-    "None of the price indices",
-    "CPI"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 3,
-   "x": "Food has a bigger weight in CPI than in WPI, where manufactured goods dominate."
+   "a": 2,
+   "x": "Food carries more weight in CPI than in WPI, while manufactured goods (64.23%) carry the biggest weight in WPI."
   },
   {
    "topic": 93,
@@ -555,12 +555,12 @@
    "shape": "one-liner",
    "s": "On whose committee's framework did the RBI adopt CPI (Combined) as the headline measure in April 2014?",
    "o": [
-    "Urjit Patel",
     "Abhijit Sen",
     "Saumitra Chaudhuri",
-    "Ramesh Chand"
+    "Ramesh Chand",
+    "Urjit Patel"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Urjit Patel Committee (2014) made CPI the nominal anchor under flexible inflation targeting."
   },
   {
@@ -570,12 +570,12 @@
    "shape": "one-liner",
    "s": "The working group on WPI revision to base 2011-12 was headed by:",
    "o": [
-    "Abhijit Sen",
     "Saumitra Chaudhuri",
+    "Abhijit Sen",
     "Urjit Patel",
     "Ramesh Chand"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Saumitra Chaudhuri's group (set up March 2012) gave the 2011-12 base; Abhijit Sen's gave 2004-05."
   },
   {
@@ -586,11 +586,11 @@
    "s": "Who headed the working group for the WPI base 2022-23?",
    "o": [
     "Saumitra Chaudhuri",
-    "Abhijit Sen",
     "Ramesh Chand",
+    "Abhijit Sen",
     "Urjit Patel"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Ramesh Chand of NITI Aayog led the working group for the 2022-23 WPI base (2025)."
   },
   {
@@ -602,10 +602,10 @@
    "o": [
     "Section 45ZA",
     "Section 45ZN",
-    "Section 45ZC",
-    "Section 45ZB"
+    "Section 45ZB",
+    "Section 45ZC"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Section 45ZB sets up the six-member MPC; 45ZA covers target-setting and 45ZN the breach report."
   },
   {
@@ -615,12 +615,12 @@
    "shape": "one-liner",
    "s": "Section 45ZN of the RBI Act was first invoked in:",
    "o": [
-    "2022",
     "2016",
     "2019",
-    "2024"
+    "2024",
+    "2022"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Section 45ZN, requiring a report after three consecutive quarters of band breach, was first invoked in 2022."
   },
   {
@@ -630,12 +630,12 @@
    "shape": "NOT",
    "s": "Which of the following is NOT correct about flexible inflation targeting in India?",
    "o": [
-    "The target is 4% CPI-Combined",
     "6% is the inflation target",
+    "The target is 4% CPI-Combined",
     "The tolerance band is ±2%",
     "The Monetary Policy Framework Agreement was signed in February 2015"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The target is 4% with a 2-6% band; 6% is only the upper limit, not the target."
   },
   {
@@ -646,11 +646,11 @@
    "s": "In the original Phillips curve, lower unemployment comes with:",
    "o": [
     "Lower inflation",
-    "Stable prices",
     "Higher inflation",
+    "Stable prices",
     "Deflation"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Phillips (1958) found an inverse relation: lower unemployment goes with higher (wage) inflation."
   },
   {
@@ -662,26 +662,26 @@
    "o": [
     "52%",
     "72%",
-    "82%",
-    "92%"
+    "92%",
+    "82%"
    ],
-   "a": 3,
+   "a": 2,
    "x": "About 92% of workers are informal, so wage bargaining is weak and India's Phillips curve is fairly flat."
   },
   {
    "topic": 93,
    "sec": 10,
    "angle": "5",
-   "shape": "one-liner",
-   "s": "In 2025, India's food inflation of -0.2% was the first food deflation since:",
+   "shape": "statements",
+   "s": "Consider the following statements about India's inflation in 2025:\n1. CPI inflation was 2.2%, a 12-year low.\n2. Food inflation was -0.2%, the first food deflation since 2014.\n3. Food inflation was higher than headline inflation.\nWhich of the statements given above is/are correct?",
    "o": [
-    "2014",
-    "2008",
-    "2012",
-    "2019"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
    "a": 0,
-   "x": "Food inflation was -0.2% in 2025, the first food deflation since 2014."
+   "x": "In 2025 CPI was 2.2% and food -0.2%, so food was below headline (order Core > Headline > Food)."
   },
   {
    "topic": 93,
@@ -691,11 +691,11 @@
    "s": "India's CPI inflation in August 2026 was 4.8%, described as a:",
    "o": [
     "12-year low",
-    "20-month high",
     "38-month high",
-    "10-year high"
+    "10-year high",
+    "20-month high"
    ],
-   "a": 1,
+   "a": 3,
    "x": "August 2026 CPI inflation of 4.8% was a 20-month high."
   },
   {
@@ -705,12 +705,12 @@
    "shape": "one-liner",
    "s": "What was the order of food, headline and core inflation in the year 2025?",
    "o": [
+    "Core > Headline > Food",
     "Food > Headline > Core",
     "Headline > Food > Core",
-    "Core > Headline > Food",
     "Food > Core > Headline"
    ],
-   "a": 2,
+   "a": 0,
    "x": "In 2025 food inflation was negative (-0.2%), so the order was Core > Headline > Food, unlike 2023-24 and May 2026."
   },
   {
@@ -721,11 +721,11 @@
    "s": "Under OMSS (Domestic), the FCI sells:",
    "o": [
     "Pulses and onions",
+    "Wheat and rice",
     "Edible oils",
-    "Sugar and pulses",
-    "Wheat and rice"
+    "Sugar and pulses"
    ],
-   "a": 3,
+   "a": 1,
    "x": "OMSS (Domestic) is the FCI's sale of wheat and rice; pulses and onions belong to the Price Stabilisation Fund buffer."
   },
   {
@@ -735,12 +735,12 @@
    "shape": "one-liner",
    "s": "The Price Stabilisation Fund maintains a buffer of:",
    "o": [
-    "Pulses and onions",
     "Wheat and rice",
     "Crude oil",
+    "Pulses and onions",
     "Cotton and jute"
    ],
-   "a": 0,
+   "a": 2,
    "x": "The PSF holds a buffer of pulses and onions; wheat and rice are sold under OMSS by the FCI."
   },
   {
@@ -751,11 +751,11 @@
    "s": "Which of the following pairs of anti-inflation tool and its type is correctly matched?",
    "o": [
     "Buffer-stock release – Fiscal",
-    "OMO sale of securities – Monetary",
     "Raising taxes – Supply-side",
-    "Cutting government spending – Monetary"
+    "Cutting government spending – Monetary",
+    "OMO sale of securities – Monetary"
    ],
-   "a": 1,
+   "a": 3,
    "x": "OMO sale of securities is monetary; buffer-stock release is supply-side; taxes and spending are fiscal."
   },
   {
@@ -765,12 +765,12 @@
    "shape": "one-liner",
    "s": "Bharat Chana Dal, sold from July 2023, was priced at:",
    "o": [
+    "₹60 per kg",
     "₹40 per kg",
     "₹50 per kg",
-    "₹60 per kg",
     "₹70 per kg"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Bharat Chana Dal was sold from July 2023 at ₹60/kg through NAFED, NCCF and Kendriya Bhandar."
   },
   {
@@ -781,11 +781,11 @@
    "s": "India's onion export ban was lifted on 4 May 2024 with an export duty of:",
    "o": [
     "20%",
+    "40%",
     "10%",
-    "50%",
-    "40%"
+    "50%"
    ],
-   "a": 3,
+   "a": 1,
    "x": "The ban was lifted on 4 May 2024 with a 40% duty and US$550 MEP; the duty was cut to 20% on 13 September 2024."
   },
   {
@@ -795,12 +795,12 @@
    "shape": "one-liner",
    "s": "In Andhra Pradesh, the DES monitors the prices of how many essential commodities daily?",
    "o": [
-    "8",
     "6",
     "10",
+    "8",
     "12"
    ],
-   "a": 0,
+   "a": 2,
    "x": "AP's DES monitors 8 essential commodities daily; groundnut and palm oil were added in February 2025."
   },
   {
@@ -811,11 +811,11 @@
    "s": "For the government, inflation-indexed bonds mainly offer:",
    "o": [
     "Protection of investors' nominal return only",
-    "Cheaper borrowing when credible on inflation",
     "Exemption from the fiscal deficit",
-    "Higher interest costs during low inflation"
+    "Higher interest costs during low inflation",
+    "Cheaper borrowing when credible on inflation"
    ],
-   "a": 1,
+   "a": 3,
    "x": "For government, IIBs give cheaper borrowing when it is credible on inflation and signal commitment to low inflation."
   },
   {
@@ -825,12 +825,12 @@
    "shape": "one-liner",
    "s": "For investors, inflation-indexed bonds mainly provide:",
    "o": [
+    "A hedge against inflation",
     "A fixed nominal coupon unaffected by prices",
     "Tax-free capital gains",
-    "A hedge against inflation",
     "Guaranteed equity returns"
    ],
-   "a": 2,
+   "a": 0,
    "x": "IIBs link principal and/or interest to an inflation index, protecting the investor's real return."
   },
   {
@@ -841,11 +841,11 @@
    "s": "A levy described as a 'tax on tax' for a specific purpose, ending once the purpose is met, is a:",
    "o": [
     "Fee",
+    "Cess",
     "Surcharge",
-    "Duty",
-    "Cess"
+    "Duty"
    ],
-   "a": 3,
+   "a": 1,
    "x": "A cess is levied for a specific purpose and ends when the purpose is met; it is not shared with States."
   },
   {
@@ -855,12 +855,12 @@
    "shape": "one-liner",
    "s": "The Clean Energy Cess on coal (2010) was renamed in Budget 2016-17 as the:",
    "o": [
-    "Clean Environment Cess",
     "Green Energy Cess",
     "Coal Development Cess",
+    "Clean Environment Cess",
     "Carbon Cess"
    ],
-   "a": 0,
+   "a": 2,
    "x": "The Clean Energy Cess on coal, from the Finance Act 2010, was renamed Clean Environment Cess in Budget 2016-17."
   },
   {
@@ -871,11 +871,11 @@
    "s": "Which of the following is NOT levied by States or local bodies?",
    "o": [
     "Profession tax",
-    "Customs duty",
     "Entertainment tax",
-    "Property tax"
+    "Property tax",
+    "Customs duty"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Customs duty is a Union levy; profession, entertainment, road and property taxes are levied by States or local bodies."
   },
   {
@@ -885,12 +885,12 @@
    "shape": "one-liner",
    "s": "How many taxing entries does the State List contain?",
    "o": [
+    "20",
     "15",
     "3",
-    "20",
     "13"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The Union List has 15 taxing entries, the State List 20 and the Concurrent List 3."
   },
   {
@@ -901,11 +901,11 @@
    "s": "Residuary taxing power, under which gift, wealth and expenditure taxes were levied, rests with:",
    "o": [
     "State Legislatures",
+    "Parliament",
     "Finance Commission",
-    "GST Council",
-    "Parliament"
+    "GST Council"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Residuary taxing power lies with Parliament, the basis of gift, wealth and expenditure taxes."
   },
   {
@@ -915,12 +915,12 @@
    "shape": "one-liner",
    "s": "Under Article 276, the annual ceiling on profession tax is:",
    "o": [
-    "₹2,500",
     "₹1,500",
     "₹2,000",
+    "₹2,500",
     "₹5,000"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Article 276 caps the State profession tax at ₹2,500 a year."
   },
   {
@@ -931,11 +931,11 @@
    "s": "Securities transaction tax (STT), collected by the stock exchange, is classified as a:",
    "o": [
     "Indirect tax",
-    "Direct tax",
     "Cess",
-    "Fee"
+    "Fee",
+    "Direct tax"
    ],
-   "a": 1,
+   "a": 3,
    "x": "STT is a direct tax though collected by the exchange; it came from 1 October 2004."
   },
   {
@@ -945,12 +945,12 @@
    "shape": "one-liner",
    "s": "The person who finally bears the burden of a tax is said to bear its:",
    "o": [
+    "Incidence",
     "Impact",
     "Elasticity",
-    "Incidence",
     "Buoyancy"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Impact is on whom the tax is first imposed; incidence is who finally bears it."
   },
   {
@@ -961,11 +961,11 @@
    "s": "Direct taxes in India are administered by the CBDT, while indirect taxes are administered by the:",
    "o": [
     "CBDT",
+    "CBIC",
     "GST Council",
-    "NSO",
-    "CBIC"
+    "NSO"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Direct taxes are administered by the CBDT and indirect taxes by the CBIC."
   },
   {
@@ -975,12 +975,12 @@
    "shape": "one-liner",
    "s": "Wealth tax, gift tax and estate duty are called 'paper taxes' because they:",
    "o": [
-    "Never yielded much revenue",
     "Were levied only on paper industries",
     "Were collected by the States",
+    "Never yielded much revenue",
     "Were indirect taxes"
    ],
-   "a": 0,
+   "a": 2,
    "x": "These direct taxes never yielded much revenue, hence the name 'paper taxes'."
   },
   {
@@ -991,11 +991,11 @@
    "s": "Under GST, the taxable event is the:",
    "o": [
     "Manufacture of goods",
-    "Supply of goods or services",
     "Sale of goods",
-    "Import of goods only"
+    "Import of goods only",
+    "Supply of goods or services"
    ],
-   "a": 1,
+   "a": 3,
    "x": "GST is levied on supply; excise was on manufacture, VAT on sale and customs on import or export."
   },
   {
@@ -1005,12 +1005,12 @@
    "shape": "one-liner",
    "s": "The taxable event for service tax was the:",
    "o": [
+    "Provision of service",
     "Manufacture of goods",
     "Import of services only",
-    "Provision of service",
     "Sale of goods"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Service tax was levied on the provision of a service; it is now subsumed in GST."
   },
   {
@@ -1021,11 +1021,11 @@
    "s": "Which of the following pairs of tax and taxable event is correctly matched?",
    "o": [
     "Central excise – Sale of goods",
+    "Customs – Import or export",
     "VAT – Manufacture of goods",
-    "GST – Production of goods",
-    "Customs – Import or export"
+    "GST – Production of goods"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Customs is levied on import or export; excise is on manufacture, VAT on sale and GST on supply."
   },
   {
@@ -1035,12 +1035,12 @@
    "shape": "one-liner",
    "s": "A tax charged at one rate for all income levels is called:",
    "o": [
-    "Proportional",
     "Progressive",
     "Regressive",
+    "Proportional",
     "Degressive"
    ],
-   "a": 0,
+   "a": 2,
    "x": "A proportional tax has one rate for all; a flat-rate sales tax is an example."
   },
   {
@@ -1051,11 +1051,11 @@
    "s": "India's tax system is best described as:",
    "o": [
     "Purely proportional",
-    "Progressive in nature but overall degressive",
     "Purely regressive",
-    "Purely progressive"
+    "Purely progressive",
+    "Progressive in nature but overall degressive"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Progressive direct taxes combine with regressive indirect taxes, making the system progressive in nature but overall degressive."
   },
   {
@@ -1065,12 +1065,12 @@
    "shape": "one-liner",
    "s": "A tax under which the poor pay a higher share of their income than the rich is called:",
    "o": [
+    "Regressive",
     "Progressive",
     "Proportional",
-    "Regressive",
     "Degressive"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Under a regressive tax the poor pay a higher share of income; GST on essentials and excise are examples."
   },
   {
@@ -1081,11 +1081,11 @@
    "s": "What is the share of direct taxes in gross tax revenue in the 2026-27 Budget Estimate?",
    "o": [
     "38.8%",
+    "61.2%",
     "55.5%",
-    "58.8%",
-    "61.2%"
+    "58.8%"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Direct taxes are 61.2% of gross tax revenue in 2026-27 BE, against 38.8% for indirect taxes."
   },
   {
@@ -1095,12 +1095,12 @@
    "shape": "one-liner",
    "s": "According to the Economic Survey 2009-10, the share of excise in gross tax revenue fell from 30.4% in 2005-06 to:",
    "o": [
-    "20.8% in 2007-08",
     "25.4% in 2007-08",
     "15.8% in 2007-08",
+    "20.8% in 2007-08",
     "28.2% in 2007-08"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Excise share fell sharply from 30.4% (2005-06) to 20.8% (2007-08)."
   },
   {
@@ -1111,11 +1111,11 @@
    "s": "In the 2026-27 BE, direct taxes are about what percentage of GDP?",
    "o": [
     "4.3%",
-    "6.9%",
     "9.9%",
-    "11.5%"
+    "11.5%",
+    "6.9%"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Direct taxes are 6.9% of GDP and indirect taxes 4.3% in 2026-27 BE."
   },
   {
@@ -1123,14 +1123,14 @@
    "sec": 7,
    "angle": "2,11",
    "shape": "one-liner",
-   "s": "In the Centre's rupee for Budget 2026-27, the largest single source of receipts overall is:",
+   "s": "In the Centre's rupee for Budget 2026-27, the largest single item of receipts overall is:",
    "o": [
+    "Borrowings and other liabilities",
     "Income tax",
     "Corporation tax",
-    "Borrowings and other liabilities",
     "GST and other taxes"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Borrowings and other liabilities are 24%, the largest overall; income tax at 21% is the largest tax."
   },
   {
@@ -1138,14 +1138,14 @@
    "sec": 7,
    "angle": "11",
    "shape": "one-liner",
-   "s": "What is the largest source of revenue receipts of the States?",
+   "s": "Which is the largest component of the revenue receipts of the States?",
    "o": [
     "Share in central taxes",
+    "Own tax revenue",
     "Grants from the Centre",
-    "Non-tax revenue",
-    "Own tax revenue"
+    "Non-tax revenue"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Own tax revenue is about half of States' revenue receipts (FY25); share in central taxes is second."
   },
   {
@@ -1155,12 +1155,12 @@
    "shape": "one-liner",
    "s": "SGST accounts for about what share of Andhra Pradesh's own-tax revenue in 2024-25 (RE)?",
    "o": [
-    "38%",
     "22%",
     "32%",
+    "38%",
     "47%"
    ],
-   "a": 0,
+   "a": 2,
    "x": "SGST, ₹36,296 crore, is about 38% of AP's own-tax revenue; State Excise is about 22%."
   },
   {
@@ -1171,11 +1171,11 @@
    "s": "India's average tax-GDP ratio for 2001-22 was about:",
    "o": [
     "9.9%",
-    "16.36%",
     "19.6%",
-    "15%"
+    "15%",
+    "16.36%"
    ],
-   "a": 1,
+   "a": 3,
    "x": "India averaged 16.36% in 2001-22, the lowest among emerging economies and below the OECD."
   },
   {
@@ -1185,28 +1185,28 @@
    "shape": "one-liner",
    "s": "The combined (Centre and States) tax-GDP ratio of India is about:",
    "o": [
+    "19.6%",
     "9.9%",
     "11.5%",
-    "19.6%",
     "7%"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The combined ratio is about 19.6%; the Centre's is about 11.5% post-pandemic and States' own tax about 7% of GSDP."
   },
   {
    "topic": 94,
    "sec": 8,
    "angle": "3",
-   "shape": "one-liner",
-   "s": "A low tax-GDP ratio in India generally indicates:",
+   "shape": "statements",
+   "s": "Consider the following statements about the tax-GDP ratio:\n1. A low ratio points to a large informal sector or high tax evasion.\n2. A falling ratio means revenue is growing slower than GDP.\n3. The World Bank regards 25% as the tipping point.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Very high tax rates",
-    "Excessive direct tax share",
-    "A budget surplus",
-    "A large informal sector or high tax evasion"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 3,
-   "x": "A low ratio points to a large informal sector or high evasion."
+   "a": 0,
+   "x": "A low ratio reflects informality or evasion and a falling ratio means buoyancy below 1; the World Bank tipping point is 15%, not 25%."
   },
   {
    "topic": 94,
@@ -1215,12 +1215,12 @@
    "shape": "one-liner",
    "s": "Tax buoyancy, unlike tax elasticity, includes the effect of:",
    "o": [
-    "Discretionary changes in tax rates and base",
     "Only inflation",
+    "Discretionary changes in tax rates and base",
     "Only changes in population",
     "Non-tax revenue"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Buoyancy includes discretionary changes in rates and base; elasticity excludes them."
   },
   {
@@ -1231,11 +1231,11 @@
    "s": "In the 2026-27 BE, the buoyancy of direct taxes is:",
    "o": [
     "0.3",
-    "1.1",
     "0.8",
+    "1.1",
     "1.5"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Direct tax buoyancy is 1.1 against 0.3 for indirect taxes and 0.8 gross."
   },
   {
@@ -1247,10 +1247,10 @@
    "o": [
     "Jude Wanniski",
     "Raja Chelliah",
-    "Arthur Laffer",
-    "Nicholas Kaldor"
+    "Nicholas Kaldor",
+    "Arthur Laffer"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Arthur Laffer drew the curve in 1974; the term was coined by Jude Wanniski."
   },
   {
@@ -1260,12 +1260,12 @@
    "shape": "one-liner",
    "s": "According to the Economic Survey 2025-26, buoyant revenues helped bring the fiscal deficit in FY26 down to:",
    "o": [
+    "4.4% of GDP",
     "3.0% of GDP",
     "4.9% of GDP",
-    "5.6% of GDP",
-    "4.4% of GDP"
+    "5.6% of GDP"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Buoyant revenues helped the fiscal deficit fall to 4.4% of GDP in FY26."
   },
   {
@@ -1275,12 +1275,12 @@
    "shape": "one-liner",
    "s": "The Indirect Taxation Enquiry Committee that proposed VAT in India was set up in:",
    "o": [
-    "1976",
     "1986",
+    "1976",
     "1991",
     "2002"
    ],
-   "a": 0,
+   "a": 1,
    "x": "The L.K. Jha Committee (1976) proposed VAT at the manufacturing stage, leading to MODVAT."
   },
   {
@@ -1291,11 +1291,11 @@
    "s": "The first State to adopt VAT in India was:",
    "o": [
     "Punjab",
-    "Haryana",
     "Maharashtra",
+    "Haryana",
     "Andhra Pradesh"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Haryana adopted VAT on 1 April 2003; State VAT became nationwide on 1 April 2005."
   },
   {
@@ -1307,10 +1307,10 @@
    "o": [
     "Introduction of VAT",
     "Agricultural income tax",
-    "GAAR and scrapping retrospective tax",
-    "Price indices"
+    "Price indices",
+    "GAAR and scrapping retrospective tax"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Shome (2012) reviewed GAAR and recommended dropping retrospective tax; the 2013 TARC on administration was also under him."
   },
   {
@@ -1320,12 +1320,12 @@
    "shape": "one-liner",
    "s": "Budget 2015-16 raised the service tax rate from 12% to:",
    "o": [
+    "14%",
     "15%",
     "12.36%",
-    "18%",
-    "14%"
+    "18%"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Service tax rose from 10% to 12% in 2006-07 and from 12% to 14% in Budget 2015-16."
   },
   {
@@ -1335,12 +1335,12 @@
    "shape": "one-liner",
    "s": "Service tax was introduced in India, on the advice of the Chelliah Committee, in:",
    "o": [
-    "1994-95",
     "1986-87",
+    "1994-95",
     "2000-01",
     "2005-06"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Service tax came in 1994-95 on Chelliah's advice."
   },
   {
@@ -1351,11 +1351,11 @@
    "s": "India's first income tax of 1860 was introduced by James Wilson, who was the:",
    "o": [
     "First Governor-General",
-    "First Finance Member",
     "First Finance Minister of independent India",
+    "First Finance Member",
     "Chairman of the CBDT"
    ],
-   "a": 1,
+   "a": 2,
    "x": "James Wilson, the first Finance Member, introduced income tax in 1860 (Act assent 24 July 1860)."
   },
   {
@@ -1367,10 +1367,10 @@
    "o": [
     "15, 30 and 40%",
     "5, 10 and 20%",
-    "10, 20 and 30%",
-    "10, 15 and 25%"
+    "10, 15 and 25%",
+    "10, 20 and 30%"
    ],
-   "a": 2,
+   "a": 3,
    "x": "FM P. Chidambaram's 1997-98 budget cut rates to 10, 20 and 30% from 15, 30 and 40%."
   },
   {
@@ -1380,12 +1380,12 @@
    "shape": "one-liner",
    "s": "Under the new tax regime slabs from Budget 2025-26, income of ₹4-8 lakh is taxed at:",
    "o": [
+    "5%",
     "Nil",
     "10%",
-    "15%",
-    "5%"
+    "15%"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Income up to ₹4 lakh is nil and ₹4-8 lakh is taxed at 5%."
   },
   {
@@ -1395,12 +1395,12 @@
    "shape": "one-liner",
    "s": "The standard deduction available to salaried taxpayers under the new regime is:",
    "o": [
-    "₹75,000",
     "₹50,000",
+    "₹75,000",
     "₹1,00,000",
     "₹60,000"
    ],
-   "a": 0,
+   "a": 1,
    "x": "A ₹75,000 standard deduction takes the salaried tax-free limit from ₹12 lakh to ₹12.75 lakh."
   },
   {
@@ -1411,11 +1411,11 @@
    "s": "What change did Budget 2026-27 make to the new-regime income-tax slabs?",
    "o": [
     "Raised the rebate limit to ₹15 lakh",
-    "No slab change",
     "Cut the top rate to 25%",
+    "No slab change",
     "Abolished the old regime"
    ],
-   "a": 1,
+   "a": 2,
    "x": "The Budget 2025-26 slabs remain unchanged in 2026-27."
   },
   {
@@ -1427,10 +1427,10 @@
    "o": [
     "17.01%",
     "22%",
-    "25.17%",
-    "30%"
+    "30%",
+    "25.17%"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Section 115BAA has a 22% base rate and an effective rate of about 25.17%."
   },
   {
@@ -1440,12 +1440,12 @@
    "shape": "one-liner",
    "s": "The approximate effective tax rate for new manufacturing companies under Section 115BAB is:",
    "o": [
+    "17.01%",
     "15%",
     "25.17%",
-    "22%",
-    "17.01%"
+    "22%"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Section 115BAB has a 15% base rate and an effective rate of about 17.01%."
   },
   {
@@ -1455,12 +1455,12 @@
    "shape": "one-liner",
    "s": "After being withdrawn in 1990, MAT was restarted in the Budget of:",
    "o": [
-    "1996-97",
     "1987-88",
+    "1996-97",
     "1992-93",
     "2000-01"
    ],
-   "a": 0,
+   "a": 1,
    "x": "MAT came in Budget 1987-88, was withdrawn in 1990 and restarted in Budget 1996-97."
   },
   {
@@ -1471,11 +1471,11 @@
    "s": "Angel tax, levied from 2012 on share premium of unlisted start-ups, was abolished in Budget:",
    "o": [
     "2020-21",
-    "2024-25",
     "2023-24",
+    "2024-25",
     "2026-27"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Angel tax was abolished in Budget 2024-25."
   },
   {
@@ -1487,26 +1487,26 @@
    "o": [
     "1981-82",
     "2011-12",
-    "2001-02",
-    "2016-17"
+    "2016-17",
+    "2001-02"
    ],
-   "a": 2,
+   "a": 3,
    "x": "The CII, notified by CBDT, has base year 2001-02."
   },
   {
    "topic": 95,
    "sec": 4,
    "angle": "10",
-   "shape": "one-liner",
-   "s": "Estate duty, introduced in 1953, was abolished in:",
+   "shape": "statements",
+   "s": "Consider the following statements about special direct taxes:\n1. Estate duty was introduced in 1953 and abolished in 1985.\n2. Wealth tax was introduced in 1957 and abolished in 2015.\n3. Gift tax is still in force.\nWhich of the statements given above is/are correct?",
    "o": [
-    "1998",
-    "2015",
-    "1957",
-    "1985"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 3,
-   "x": "Estate duty ran from 1953 to 1985."
+   "a": 0,
+   "x": "Estate duty ran 1953-1985 and wealth tax 1957-2015; gift tax was abolished in October 1998."
   },
   {
    "topic": 95,
@@ -1647,16 +1647,16 @@
    "topic": 95,
    "sec": 6,
    "angle": "4,15",
-   "shape": "one-liner",
-   "s": "The voluntary disclosure scheme for black income launched in 1997 was called:",
+   "shape": "statements",
+   "s": "Consider the following statements about black money disclosure schemes:\n1. The Income Declaration Scheme ran from 1 June to 30 September 2016.\n2. PMGKY 2016 carried a lower levy than IDS 2016.\nWhich of the statements given above is/are correct?",
    "o": [
-    "IDS",
-    "VDIS",
-    "PMGKY",
-    "FAST-DS"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 1,
-   "x": "VDIS 1997 was the Voluntary Disclosure of Income Scheme."
+   "a": 0,
+   "x": "IDS ran from 1 June to 30 September 2016 at 45%; PMGKY carried a higher 50% levy."
   },
   {
    "topic": 95,
@@ -1666,11 +1666,11 @@
    "s": "Which Act withdrew retrospective tax demands in cases such as Vodafone and Cairn?",
    "o": [
     "Finance Act, 2012",
-    "Taxation Laws (Amendment) Act, 2019",
     "Taxation Laws (Amendment) Act, 2021",
+    "Taxation Laws (Amendment) Act, 2019",
     "Income-tax Act, 2025"
    ],
-   "a": 2,
+   "a": 1,
    "x": "The Taxation Laws (Amendment) Act, 2021 withdrew retrospective demands; the Finance Act 2012 had imposed them."
   },
   {
@@ -1682,10 +1682,10 @@
    "o": [
     "E-commerce supplies",
     "Share premium of start-ups",
-    "Dividends",
-    "Online advertisements"
+    "Online advertisements",
+    "Dividends"
    ],
-   "a": 3,
+   "a": 2,
    "x": "The 6% levy (2016) was on online ads and was abolished from 1 April 2025; the 2% levy (2020) was on e-commerce."
   },
   {
@@ -1695,12 +1695,12 @@
    "shape": "one-liner",
    "s": "The OECD/G20 BEPS project has how many actions against profit shifting?",
    "o": [
-    "15",
     "10",
     "12",
-    "20"
+    "20",
+    "15"
    ],
-   "a": 0,
+   "a": 3,
    "x": "BEPS has 15 actions against MNC profit shifting to low-tax places."
   },
   {
@@ -1710,12 +1710,12 @@
    "shape": "one-liner",
    "s": "The Income-tax Act, 2025 came into force with effect from:",
    "o": [
-    "1 April 2025",
     "1 April 2026",
+    "1 April 2025",
     "1 July 2025",
     "1 April 2027"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The Income-tax Act, 2025 replaced the 1961 Act with effect from 1 April 2026, not 2025."
   },
   {
@@ -1726,11 +1726,11 @@
    "s": "The Income-tax Act, 1961 came into effect on:",
    "o": [
     "1 April 1961",
-    "1 April 1960",
     "1 April 1962",
+    "1 April 1960",
     "15 August 1961"
    ],
-   "a": 2,
+   "a": 1,
    "x": "The 1961 Act took effect from 1 April 1962."
   },
   {
@@ -1742,10 +1742,10 @@
    "o": [
     "R.V. Easwar",
     "Vijay Kelkar",
-    "Parthasarathi Shome",
-    "Akhilesh Ranjan"
+    "Akhilesh Ranjan",
+    "Parthasarathi Shome"
    ],
-   "a": 3,
+   "a": 2,
    "x": "The Akhilesh Ranjan task force reported on the Direct Taxes Code in 2019."
   },
   {
@@ -1755,12 +1755,12 @@
    "shape": "one-liner",
    "s": "The CBDT is a statutory body under the:",
    "o": [
-    "Central Boards of Revenue Act, 1963",
     "Income-tax Act, 1961",
     "Finance Act, 1987",
-    "Companies Act, 1956"
+    "Companies Act, 1956",
+    "Central Boards of Revenue Act, 1963"
    ],
-   "a": 0,
+   "a": 3,
    "x": "CBDT is statutory under the Central Boards of Revenue Act, 1963, and sits in the Department of Revenue."
   },
   {
@@ -1770,12 +1770,12 @@
    "shape": "one-liner",
    "s": "Faceless appeals in income tax were launched in:",
    "o": [
-    "August 2020",
     "September 2020",
+    "August 2020",
     "April 2021",
     "July 2019"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Faceless assessment came on 13 August 2020 and faceless appeals in September 2020."
   },
   {
@@ -1786,27 +1786,27 @@
    "s": "Budget 2026-27 cut TCS on LRS remittances for education and medical purposes from 5% to:",
    "o": [
     "1%",
-    "3%",
     "2%",
+    "3%",
     "0.5%"
    ],
-   "a": 2,
+   "a": 1,
    "x": "TCS on LRS for education and medical was cut from 5% to 2% in 2026-27."
   },
   {
    "topic": 95,
    "sec": 9,
    "angle": "7,13",
-   "shape": "one-liner",
-   "s": "The online facility of the Income Tax Department for compliance checks of mismatches is called:",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about tax administration?",
    "o": [
-    "Project Insight",
-    "Saksham",
-    "AIS",
-    "e-Sahyog"
+    "e-Sahyog is an online compliance check of mismatches",
+    "AIS shows all reported transactions",
+    "CBDT is in the Department of Expenditure",
+    "A PAN has 10 characters"
    ],
-   "a": 3,
-   "x": "e-Sahyog is the online compliance check of mismatches; AIS shows reported transactions."
+   "a": 2,
+   "x": "CBDT is in the Department of Revenue, not Expenditure; the other statements are correct."
   }
  ]
 }
