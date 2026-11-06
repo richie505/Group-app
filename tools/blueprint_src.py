@@ -79,3 +79,32 @@ if __name__ == "__main__":
                     out += ls
         open(f"data/blueprint/src/{u}.md", "w").write("\n".join(out) + "\n")
         print(u, rows, len(" ".join(out).split()), "words")
+
+
+def ca_split(path):
+    """current-affairs units: one packet per app topic (a period), <unit>-<k>.md, k = 1.. in topic order"""
+    import os
+    us = units(path)
+    by = topics()
+    books = {b: [r for u in json.load(open(f"{A}/book{b}.json"))["units"] for r in u["rows"]] for b in range(1, 7)}
+    mbooks = {b: [r for u in json.load(open(f"{N}/book{b}.json"))["units"] for r in u["rows"]] for b in range(1, 7)}
+    for n in range(812, 830):
+        u = f"U{n:04d}"
+        body, codes = us[u]
+        rows = sorted({x for c in codes for x in by.get(c, [])})
+        for k, (b, ri) in enumerate(rows, 1):
+            title = books[b][ri]["title"]
+            out = [f"# {u}-{k} | {body}", "", f"**This packet is one period of the unit:** {title}. Write the unit's notes "
+                   f"for this period only, keeping its title's period; no upper word limit (keep every MCQ fact).", ""]
+            out.append(f"# NOTES OF APP TOPIC {b}:{ri} - {title}")
+            for s in books[b][ri]["secs"]:
+                out.append(f"### {s['t']}")
+                out += list(lines(s))
+            out.append(f"# MCQ NOTES OF APP TOPIC {b}:{ri}")
+            for s in mbooks[b][ri]["secs"]:
+                ls = list(lines(s))
+                if ls:
+                    out.append(f"### {s['t']}")
+                    out += ls
+            open(f"data/blueprint/src/{u}-{k}.md", "w").write("\n".join(out) + "\n")
+            print(f"{u}-{k}", title[:40], len(" ".join(out).split()))

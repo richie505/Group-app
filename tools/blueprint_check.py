@@ -38,7 +38,8 @@ def check(u):
     body = t.split("\nCOVERAGE:")[0]
     w = len(re.sub(r"[|#*!-]", " ", body).split())
     b = BUDGET.get(tier)
-    if b and not (0.85 * b <= w <= 1.5 * b):
+    # a current-affairs period (<unit>-<k>) has no upper limit: it keeps every MCQ fact of its period
+    if b and not (0.85 * b <= w <= (10**9 if "-" in u else 1.5 * b)):
         p.append(f"{w} words; {tier} budget ~{b} (0.85x to 1.5x)")
     cov = re.search(r"^COVERAGE: (.+)$", t, re.M)
     if not cov:
