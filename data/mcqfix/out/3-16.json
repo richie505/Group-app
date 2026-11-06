@@ -198,16 +198,16 @@
    "topic": 48,
    "sec": 10,
    "angle": "2,15",
-   "shape": "one-liner",
-   "s": "Krishi Vigyan Kendras are funded 100% by:",
+   "shape": "statements",
+   "s": "Consider the following statements about Krishi Vigyan Kendras:\n1. They are 100% funded by ICAR.\n2. They are supervised through 11 ATARIs.\nWhich of the statements given above is/are correct?",
    "o": [
-    "ICAR",
-    "State Governments",
-    "NABARD",
-    "APEDA"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 0,
-   "x": "KVKs are fully funded by ICAR and supervised through 11 ATARIs."
+   "a": 2,
+   "x": "KVKs are fully ICAR-funded and work under 11 ATARIs."
   },
   {
    "topic": 48,
@@ -483,16 +483,16 @@
    "topic": 48,
    "sec": 7,
    "angle": "4",
-   "shape": "one-liner",
-   "s": "Vermicompost is manure made by:",
+   "shape": "statements",
+   "s": "Consider the following statements about organic inputs:\n1. Vermicompost is made by earthworms turning organic waste into manure.\n2. Bt cotton is a green manure crop.\n3. Sunn hemp and dhaincha are green manure crops.\nWhich of the statements given above is/are correct?",
    "o": [
-    "nitrogen-fixing bacteria in root nodules",
-    "burning crop residue",
-    "neem coating of urea",
-    "earthworms from organic waste"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 3,
-   "x": "In vermicompost, earthworms turn organic waste into manure."
+   "a": 2,
+   "x": "Vermicompost uses earthworms, and sunn hemp and dhaincha are green manures. Bt cotton is a GM crop, not a green manure."
   },
   {
    "topic": 48,
@@ -633,16 +633,16 @@
    "topic": 48,
    "sec": 11,
    "angle": "16",
-   "shape": "one-liner",
-   "s": "The Indian Institute of Maize Research is located at:",
+   "shape": "match",
+   "s": "Which of the following pairs is INCORRECTLY matched?",
    "o": [
-    "Cuttack",
-    "Ludhiana",
-    "Hyderabad",
-    "Varanasi"
+    "CTRI – Rajahmundry",
+    "ICRISAT – Patancheru",
+    "NAARM – Hyderabad",
+    "Indian Institute of Maize Research – Hyderabad"
    ],
-   "a": 1,
-   "x": "IIMR for maize is at Ludhiana, while IIMR for millets is at Hyderabad."
+   "a": 3,
+   "x": "The Indian Institute of Maize Research is at Ludhiana; the Hyderabad IIMR is for millets."
   },
   {
    "topic": 48,
@@ -828,16 +828,16 @@
    "topic": 49,
    "sec": 2,
    "angle": "8",
-   "shape": "one-liner",
-   "s": "The Intensive Agricultural Area Programme (1964-65) was extended to how many districts?",
+   "shape": "statements",
+   "s": "Consider the following statements about pre-Green Revolution programmes:\n1. IADP (1960) began in 7 districts.\n2. IAAP (1964-65) was extended to 114 districts.\n3. IAAP in Andhra Pradesh began in East Godavari.\nWhich of the statements given above is/are correct?",
    "o": [
-    "117",
-    "140",
-    "114",
-    "7"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 2,
-   "x": "IAAP covered 114 districts; 117 is the number of AP blocks under it."
+   "a": 0,
+   "x": "IADP covered 7 districts and IAAP 114. In AP, IAAP began in West Godavari, not East Godavari."
   },
   {
    "topic": 49,
@@ -1128,16 +1128,16 @@
    "topic": 49,
    "sec": 8,
    "angle": "4",
-   "shape": "one-liner",
-   "s": "The National Dairy Development Board was set up in:",
+   "shape": "statements",
+   "s": "Consider the following statements about the White Revolution:\n1. NDDB was set up in 1965 to copy the AMUL model.\n2. Operation Flood was the world's largest dairy development programme.\nWhich of the statements given above is/are correct?",
    "o": [
-    "1946",
-    "1974",
-    "1965",
-    "1970"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 2,
-   "x": "NDDB was set up in 1965; GCMMF in 1946; Operation Flood in 1970."
+   "x": "NDDB (1965) copied the AMUL model, and its Operation Flood (1970) was the world's largest dairy development programme."
   },
   {
    "topic": 49,
@@ -1353,16 +1353,16 @@
    "topic": 50,
    "sec": 4,
    "angle": "5",
-   "shape": "one-liner",
-   "s": "As of January 2026, India's rank in world rice production is:",
+   "shape": "statements",
+   "s": "Consider the following statements about India's global rank:\n1. As of January 2026, India is the largest producer of rice, ahead of China.\n2. India is the largest producer of fruits and vegetables.\nWhich of the statements given above is/are correct?",
    "o": [
-    "fourth",
-    "first",
-    "second",
-    "third"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 1,
-   "x": "India is now 1st (150.18 MT) ahead of China (145.28 MT); older lists show 2nd."
+   "a": 0,
+   "x": "India is now 1st in rice (150.18 MT vs China 145.28 MT). China is the largest producer of fruits and vegetables; India is 2nd."
   },
   {
    "topic": 50,
@@ -1638,16 +1638,16 @@
    "topic": 50,
    "sec": 10,
    "angle": "14",
-   "shape": "one-liner",
-   "s": "The National Commission on Agriculture, which also covered rural employment, gave its final report in:",
+   "shape": "statements",
+   "s": "Consider the following statements about the National Commission on Agriculture:\n1. It gave its final report in 1976 in 15 parts, including rural employment.\n2. It was chaired by Ashok Dalwai.\nWhich of the statements given above is/are correct?",
    "o": [
-    "1976",
-    "1970",
-    "1986",
-    "2018"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 0,
-   "x": "NCA's final report came in 1976 in 15 parts, including rural employment."
+   "x": "NCA reported in 1976. It was chaired by N.R. Mirdha; Ashok Dalwai chaired the Doubling Farmers' Income Committee."
   },
   {
    "topic": 50,
