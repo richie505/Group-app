@@ -1,18 +1,5 @@
 [
  {
-  "item": 1,
-  "shape": "one-liner",
-  "s": "Mount Kanlaon, which erupted on 16 October 2026, is located on which island of the Philippines?",
-  "o": [
-   "Luzon",
-   "Negros Island",
-   "Mindanao",
-   "Palawan"
-  ],
-  "a": 1,
-  "x": "Mount Kanlaon is an active stratovolcano on Negros Island in the Visayas, part of the Pacific Ring of Fire."
- },
- {
   "item": [
    1,
    19
@@ -245,19 +232,6 @@
  },
  {
   "item": 10,
-  "shape": "one-liner",
-  "s": "What is the title of UNEP's 17th Emissions Gap Report released on 25 October 2026?",
-  "o": [
-   "The Point of No Return",
-   "Closing the Gap",
-   "The Point of Return",
-   "Broken Record"
-  ],
-  "a": 2,
-  "x": "UNEP's 17th Emissions Gap Report is titled \"The Point of Return\"."
- },
- {
-  "item": 10,
   "shape": "statements",
   "s": "Consider the following statements:\n1. UNEP's Emissions Gap Report released in October 2026 is its 17th edition.\n2. The report puts global emissions at 58.4 Gt CO2e in 2025.\n3. The report says a 45% cut in emissions is needed by 2030.\nWhich of the statements given above is/are correct?",
   "o": [
@@ -423,19 +397,6 @@
  },
  {
   "item": 17,
-  "shape": "one-liner",
-  "s": "How many Conservation Reserves did Maharashtra approve on 31 October 2026, along with new wildlife sanctuaries?",
-  "o": [
-   "12",
-   "14",
-   "16",
-   "10"
-  ],
-  "a": 1,
-  "x": "Maharashtra approved 14 Conservation Reserves along with new wildlife sanctuaries such as Kolamarka and the expanded Tansa."
- },
- {
-  "item": 17,
   "shape": "statements",
   "s": "Consider the following statements:\n1. Maharashtra approved Kolamarka as a new wildlife sanctuary in October 2026.\n2. Maharashtra approved an expanded Tansa wildlife sanctuary in October 2026.\nWhich of the statements given above is/are correct?",
   "o": [
@@ -459,19 +420,6 @@
   ],
   "a": 0,
   "x": "Both species were found in Changlang by BSI and MCC and reported in the journal Taiwania."
- },
- {
-  "item": 19,
-  "shape": "one-liner",
-  "s": "Mayon Volcano, which erupted on 1 November 2026, is located in which province of the Philippines?",
-  "o": [
-   "Sorsogon",
-   "Batangas",
-   "Albay",
-   "Pampanga"
-  ],
-  "a": 2,
-  "x": "Mayon Volcano is in Albay on Luzon; Daraga was evacuated and PHIVOLCS monitored the eruption."
  },
  {
   "item": 21,
@@ -513,16 +461,62 @@
   "x": "Statements 1 and 2 are correct. The State of the World's Forests 2026 puts degraded land at 1.56 billion ha, not 1.65 billion ha."
  },
  {
-  "item": 23,
-  "shape": "one-liner",
-  "s": "Where was the 17th Conference of the Parties (COP17) to the Convention on Biological Diversity held from 19 to 31 October 2026?",
+  "item": [
+   1,
+   19
+  ],
+  "shape": "match",
+  "s": "Which of the following pairs about the volcanic eruptions in the Philippines in 2026 is INCORRECTLY matched?",
   "o": [
-   "Baku, Azerbaijan",
-   "Yerevan, Armenia",
-   "Tbilisi, Georgia",
-   "Quito, Ecuador"
+   "Mount Kanlaon – Negros Island",
+   "Agency monitoring the Mayon eruption – PAGASA",
+   "Mayon Volcano – Albay",
+   "Town evacuated after the Mayon eruption – Daraga"
   ],
   "a": 1,
-  "x": "CBD COP17 was held in Yerevan, Armenia, with the theme \"Taking Action for Nature\"; COP18 will be in Quito, Ecuador, in 2028."
+  "x": "The Mayon eruption of 1 November 2026 was monitored by PHIVOLCS, not PAGASA. The other pairs are correct."
+ },
+ {
+  "item": 10,
+  "shape": "match",
+  "s": "Which of the following pairs about UNEP's 17th Emissions Gap Report (2026) is INCORRECTLY matched?",
+  "o": [
+   "Title of the report – The Point of Return",
+   "Global emissions in 2025 – 58.4 Gt CO2e",
+   "Emission cut needed by 2035 – 45%",
+   "Emission cut needed by 2040 – 96%"
+  ],
+  "a": 3,
+  "x": "The report says a 69% cut is needed by 2040, not 96%. It is titled \"The Point of Return\" and needs a 45% cut by 2035."
+ },
+ {
+  "item": 23,
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about COP17 of the Convention on Biological Diversity (CBD)?",
+  "o": [
+   "It was held in Yerevan, Armenia.",
+   "It was held from 19 to 31 October 2026.",
+   "Its theme was \"Taking Action for Nature\".",
+   "CBD COP18 will be held in Quito, Ecuador, in 2030."
+  ],
+  "a": 3,
+  "x": "CBD COP18 will be held in Quito, Ecuador, in 2028, not 2030."
+ },
+ {
+  "item": [
+   4,
+   5,
+   17
+  ],
+  "shape": "match",
+  "s": "Which of the following pairs about Indian wetlands, sanctuaries and ecosystem assessment in October 2026 is INCORRECTLY matched?",
+  "o": [
+   "Sukhna Wetland (Ramsar site) – Chandigarh",
+   "India's first state-level Red List Assessment of Ecosystems – Karnataka",
+   "Sauj Jheel (Ramsar site) – Uttar Pradesh",
+   "Kolamarka wildlife sanctuary – Maharashtra"
+  ],
+  "a": 1,
+  "x": "India's first state-level Red List Assessment of Ecosystems was launched by Kerala, not Karnataka. The other pairs are correct."
  }
 ]
