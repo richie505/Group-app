@@ -27,7 +27,8 @@ def bank():
         keys.update(json.load(open(f)))
     src = open("data/pyq/all.jsonl") if os.path.exists("data/pyq/all.jsonl") else gzip.open("data/pyq/all.jsonl.gz", "rt")
     stem = lambda t: re.sub(r"[^a-z0-9]", "", t.lower())[:80]
-    lines, seen = [], {}
+    lines, seen, seen_latest = [], {}, set()
+    LATEST_DUP = set(json.load(open("data/pyq/latest/dup_of_app.json"))) if os.path.exists("data/pyq/latest/dup_of_app.json") else set()
     for line in src:
         q = json.loads(line)
         k = keys.get(q["id"])
@@ -42,6 +43,13 @@ def bank():
             if not line.strip():
                 continue
             q = json.loads(line)
+            if q["id"].startswith("latest"):  # the latestpyqs books: clean copies; tools/latest_dedupe.py drops the ones in the apps
+                if q["id"] in LATEST_DUP or stem(q["s"]) in seen_latest:
+                    continue
+                seen_latest.add(stem(q["s"]))
+                q["new"] = 1
+                lines.append(q)
+                continue
             was = seen.get(stem(q["s"]))
             if was is not None and len(stem(q["s"])) >= 30:  # already in the bank: give it the key if it had none
                 if was.get("a", -1) < 0 <= q["a"] and sorted(map(stem, was.get("o", []))) == sorted(map(stem, q["o"])):
