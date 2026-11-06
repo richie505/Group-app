@@ -1,0 +1,849 @@
+{
+ "reshape": {
+  "n7cb14c3fae3": {
+   "shape": "one-liner",
+   "s": "While the Vice-President acts as President, who presides over the Rajya Sabha?",
+   "o": [
+    "The Speaker of the Lok Sabha",
+    "The senior-most member of the Rajya Sabha",
+    "The Deputy Chairman of the Rajya Sabha",
+    "The Vice-President himself"
+   ],
+   "a": 2,
+   "x": "While acting as President, the Vice-President stops functioning as Chairman and the Deputy Chairman presides. (Sequence not possible: the facts carry no dates.)"
+  },
+  "nindian-polity-9-12": {
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Tie in the Rajya Sabha – Vice-President has no vote",
+    "Resolution for his own removal – Vice-President presides",
+    "Re-election of the Vice-President – any number of times",
+    "Vote of the Vice-President – on every motion in the first instance"
+   ],
+   "a": 2,
+   "x": "The Vice-President can be re-elected any number of times. He has only a casting vote in a tie and does not preside while his own removal is considered."
+  },
+  "nindian-polity-45-2": {
+   "shape": "one-liner",
+   "s": "The Parliament of India consists of:",
+   "o": [
+    "The Lok Sabha and the Rajya Sabha only",
+    "The President, the Lok Sabha and the Rajya Sabha",
+    "The President, the Vice-President, the Lok Sabha and the Rajya Sabha",
+    "The Vice-President, the Lok Sabha and the Rajya Sabha"
+   ],
+   "a": 1,
+   "x": "Parliament consists of the President, the Lok Sabha and the Rajya Sabha. The Vice-President chairs the Rajya Sabha but is not a constituent part of Parliament."
+  },
+  "nindian-polity-7-12": {
+   "shape": "one-liner",
+   "s": "Who among the following can ask any Union Minister to resign?",
+   "o": [
+    "The Speaker of the Lok Sabha",
+    "The Vice-President",
+    "The Chief Justice of India",
+    "The Prime Minister"
+   ],
+   "a": 3,
+   "x": "As head of the Council of Ministers, the Prime Minister selects Ministers, allocates portfolios and can ask any Minister to resign."
+  },
+  "nindian-polity-56-14": {
+   "shape": "one-liner",
+   "s": "Under which Article do the Chief Minister and State Ministers take the oath of office and secrecy?",
+   "o": [
+    "Article 164(3)",
+    "Article 75(4)",
+    "Article 159",
+    "Article 164(2)"
+   ],
+   "a": 0,
+   "x": "The Chief Minister and State Ministers take their oaths under Article 164(3); Article 75(4) is for Union Ministers and Article 159 for the Governor."
+  },
+  "n3b154351943": {
+   "shape": "match",
+   "s": "Which of the following pairs relating to the Prime Minister is correctly matched?",
+   "o": [
+    "Oath of the PM – administered by the Chief Justice of India",
+    "Membership at appointment – must be a Lok Sabha member",
+    "Appointment of the PM – Article 75(1)",
+    "A non-member PM – must enter Parliament within one year"
+   ],
+   "a": 2,
+   "x": "The President appoints the PM under Article 75(1) and administers his oath. The PM may belong to either House, and a non-member gets six months to become an MP."
+  },
+  "n59d62d3918f": {
+   "shape": "one-liner",
+   "s": "Which case held that a non-member cannot be repeatedly reappointed as a Minister without getting elected?",
+   "o": [
+    "Kesavananda Bharati v. State of Kerala",
+    "S.R. Bommai v. Union of India",
+    "Minerva Mills v. Union of India",
+    "S.R. Chaudhuri v. State of Punjab"
+   ],
+   "a": 3,
+   "x": "In S.R. Chaudhuri v. State of Punjab (2001) the Supreme Court held that the non-member provision cannot be used for repeated reappointments without election."
+  },
+  "n0bdc0557043": {
+   "shape": "one-liner",
+   "s": "Unlike the UK Prime Minister, who must belong to the House of Commons, the Indian Prime Minister may belong to:",
+   "o": [
+    "The Lok Sabha only",
+    "Either House of Parliament",
+    "The Rajya Sabha only",
+    "A State Legislative Assembly"
+   ],
+   "a": 1,
+   "x": "The UK Prime Minister must be in the House of Commons, while the Indian Prime Minister may be a member of either the Lok Sabha or the Rajya Sabha."
+  },
+  "nindian-polity-7-5": {
+   "shape": "one-liner",
+   "s": "Who chairs the Inter-State Council?",
+   "o": [
+    "The President",
+    "The Union Home Minister",
+    "The Prime Minister",
+    "The Vice-President"
+   ],
+   "a": 2,
+   "x": "The Prime Minister chairs the Inter-State Council, as well as NITI Aayog, the National Development Council and the National Integration Council."
+  },
+  "nindian-polity-7-13": {
+   "shape": "one-liner",
+   "s": "Which Article lays down the duties of the Prime Minister towards the President?",
+   "o": [
+    "Article 74",
+    "Article 75",
+    "Article 77",
+    "Article 78"
+   ],
+   "a": 3,
+   "x": "The PM's duties to communicate decisions and furnish information to the President are in Article 78; Article 74 provides for the Council of Ministers to aid and advise."
+  },
+  "nindian-polity-7-16": {
+   "shape": "one-liner",
+   "s": "On whose advice does the President appoint the other Union Ministers?",
+   "o": [
+    "The Prime Minister",
+    "The Chief Justice of India",
+    "The Speaker of the Lok Sabha",
+    "The Vice-President"
+   ],
+   "a": 0,
+   "x": "The PM advises the President on appointing Ministers and on dissolving the Lok Sabha; the CJI is appointed through the collegium process, not on the PM's advice."
+  },
+  "n74969792cf4": {
+   "shape": "one-liner",
+   "s": "Which Article provides that the advice tendered by Ministers to the President shall not be inquired into by any court?",
+   "o": [
+    "Article 77(1)",
+    "Article 77(2)",
+    "Article 74(2)",
+    "Article 77(3)"
+   ],
+   "a": 2,
+   "x": "Article 74(2) bars courts from inquiring into ministerial advice; Article 77 deals with action in the President's name, authentication of orders and business rules."
+  },
+  "n41c47e78c3b": {
+   "shape": "one-liner",
+   "s": "Under Article 164(1A), what is the maximum number of Ministers, including the Chief Minister, in a 294-member Assembly?",
+   "o": [
+    "45",
+    "44",
+    "42",
+    "46"
+   ],
+   "a": 1,
+   "x": "15% of 294 is 44.1, so the maximum is 44 (e.g. West Bengal), not 45."
+  },
+  "nindian-polity-31-4": {
+   "shape": "one-liner",
+   "s": "The Attorney General of India holds office:",
+   "o": [
+    "For a fixed term of five years",
+    "Till the age of 65 years",
+    "During the pleasure of the President",
+    "For a fixed term of six years"
+   ],
+   "a": 2,
+   "x": "The Attorney General serves during the President's pleasure, so the Constitution gives him no fixed tenure."
+  },
+  "nindian-polity-31-7": {
+   "shape": "one-liner",
+   "s": "In Parliament, the Attorney General of India CANNOT:",
+   "o": [
+    "Speak in either House",
+    "Vote on a motion or bill",
+    "Enjoy the privileges of an MP under Article 105(4)",
+    "Take part in the proceedings of the Houses"
+   ],
+   "a": 1,
+   "x": "The Attorney General can speak in either House and enjoys MPs' privileges under Article 105(4), but he has no right to vote."
+  },
+  "nindian-polity-31-13": {
+   "shape": "one-liner",
+   "s": "Legal duties are referred to the Attorney General of India by the:",
+   "o": [
+    "State Governors",
+    "Chief Justice of India",
+    "Speaker of the Lok Sabha",
+    "President"
+   ],
+   "a": 3,
+   "x": "The Attorney General performs legal duties referred by the President, not by a Governor; the State's legal adviser is the Advocate General."
+  },
+  "nindian-polity-32-5": {
+   "shape": "one-liner",
+   "s": "Under Article 177, the Advocate General of a State CANNOT:",
+   "o": [
+    "Speak in the Legislative Assembly",
+    "Speak in the Legislative Council",
+    "Vote in the State Legislature",
+    "Be named a member of a Legislative committee"
+   ],
+   "a": 2,
+   "x": "Article 177 lets the Advocate General speak in both Houses and sit on committees, but he cannot vote."
+  },
+  "n785a464778b": {
+   "shape": "one-liner",
+   "s": "Which restriction applies to the Attorney General of India?",
+   "o": [
+    "He cannot take up private practice",
+    "He cannot advise or brief against the Government of India",
+    "He must serve as a full-time officer",
+    "He can never become a company director"
+   ],
+   "a": 1,
+   "x": "Private practice is permitted and the office is not full-time, but the Attorney General cannot advise or brief against the Government of India; a directorship needs permission."
+  },
+  "n634f2279a8f": {
+   "shape": "one-liner",
+   "s": "The Shadow Cabinet is a feature associated with:",
+   "o": [
+    "India",
+    "The United States",
+    "Russia",
+    "The United Kingdom"
+   ],
+   "a": 3,
+   "x": "The Shadow Cabinet is associated with the United Kingdom; India has no formal counterpart."
+  },
+  "nindian-polity-9-16": {
+   "shape": "one-liner",
+   "s": "Which of the following is an integral part of the Parliament of India?",
+   "o": [
+    "The President",
+    "The Vice-President",
+    "The Attorney General",
+    "The Chief Justice of India"
+   ],
+   "a": 0,
+   "x": "The President is an integral part of Parliament (Article 79); the Vice-President, though Chairman of the Rajya Sabha, is not a part of Parliament."
+  },
+  "n02ee91632a7": {
+   "shape": "one-liner",
+   "s": "Which of the following is cited as an argument against a second chamber?",
+   "o": [
+    "It gives a second examination to every Bill",
+    "It causes delay and duplication",
+    "It represents States and regions",
+    "It brings in experts through nomination"
+   ],
+   "a": 1,
+   "x": "Delay and duplication are cited against a second chamber; a double check, regional representation and expert nomination are arguments in its favour."
+  },
+  "nf23467a1f86": {
+   "shape": "one-liner",
+   "s": "A bicameral State Legislature consists of:",
+   "o": [
+    "The Legislative Assembly and the Legislative Council only",
+    "The Governor and the Legislative Assembly",
+    "The Governor, the Legislative Assembly and the Legislative Council",
+    "The Governor and the Legislative Council"
+   ],
+   "a": 2,
+   "x": "A bicameral legislature is Governor + Assembly + Council; a unicameral one is Governor + Assembly."
+  },
+  "nindian-polity-62-37": {
+   "shape": "one-liner",
+   "s": "How many States in India have bicameral legislatures?",
+   "o": [
+    "Five",
+    "Seven",
+    "Eight",
+    "Six"
+   ],
+   "a": 3,
+   "x": "Six States are bicameral: Andhra Pradesh, Telangana, Bihar, Karnataka, Maharashtra and Uttar Pradesh."
+  },
+  "n6b55af108ea": {
+   "shape": "one-liner",
+   "s": "The Legislative Assembly of Delhi is based on:",
+   "o": [
+    "Article 239AA",
+    "Article 239A",
+    "Article 239AB",
+    "Article 239"
+   ],
+   "a": 0,
+   "x": "Delhi's Assembly rests on Article 239AA, inserted by the 69th Amendment (1991); Puducherry's rests on Article 239A."
+  }
+ },
+ "new": [
+  {
+   "topic": 27,
+   "sec": 10,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Which Prime Minister had the shortest tenure, 13 days in 1996?",
+   "o": [
+    "Charan Singh",
+    "Chandra Shekhar",
+    "A.B. Vajpayee",
+    "Gulzarilal Nanda"
+   ],
+   "a": 2,
+   "x": "A.B. Vajpayee's 1996 tenure of 13 days is the shortest; Nanda was acting PM and Charan Singh never faced the Lok Sabha."
+  },
+  {
+   "topic": 27,
+   "sec": 10,
+   "angle": "7,15",
+   "shape": "one-liner",
+   "s": "Who was the first Prime Minister of India from South India?",
+   "o": [
+    "Morarji Desai",
+    "P.V. Narasimha Rao",
+    "Charan Singh",
+    "Chandra Shekhar"
+   ],
+   "a": 1,
+   "x": "P.V. Narasimha Rao became PM in 1991 without being an MP and was the first PM from South India."
+  },
+  {
+   "topic": 27,
+   "sec": 7,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "Union Ministers hold office during the pleasure of the:",
+   "o": [
+    "Prime Minister",
+    "Speaker of the Lok Sabha",
+    "President",
+    "Parliament"
+   ],
+   "a": 2,
+   "x": "Under Article 75(2) Ministers hold office at the President's pleasure, not legally the PM's; the President removes a Minister only on the PM's advice."
+  },
+  {
+   "topic": 27,
+   "sec": 9,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Ministers who head their own ministry without Cabinet rank are called:",
+   "o": [
+    "Ministers of State (independent charge)",
+    "Deputy Ministers",
+    "Cabinet Ministers",
+    "Ministers of State attached to Cabinet Ministers"
+   ],
+   "a": 0,
+   "x": "Ministers of State with independent charge hold their own ministry; Deputy Ministers only assist and Cabinet Ministers have Cabinet rank."
+  },
+  {
+   "topic": 27,
+   "sec": 6,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "The Allocation of Business Rules and the Transaction of Business Rules, made under Article 77(3), date from:",
+   "o": [
+    "1950",
+    "1952",
+    "1966",
+    "1961"
+   ],
+   "a": 3,
+   "x": "Both sets of Rules were made in 1961 under Article 77(3); the President allocates portfolios on the PM's advice."
+  },
+  {
+   "topic": 27,
+   "sec": 6,
+   "angle": "5",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Article 74?",
+   "o": [
+    "Article 74(1) provides a Council of Ministers to aid and advise the President",
+    "The President may ask for reconsideration of advice once",
+    "Article 74(2) bars courts from inquiring into ministerial advice",
+    "Article 74(3) lays down the duties of the Prime Minister"
+   ],
+   "a": 3,
+   "x": "Article 74(3) does not exist; the PM's duties to the President are in Article 78."
+  },
+  {
+   "topic": 27,
+   "sec": 8,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "With a Lok Sabha of 543 members, the Union Council of Ministers, including the PM, can have at most:",
+   "o": [
+    "80",
+    "81",
+    "82",
+    "54"
+   ],
+   "a": 1,
+   "x": "Article 75(1A) caps Ministers at 15% of the Lok Sabha's strength: 15% of 543 gives a maximum of 81."
+  },
+  {
+   "topic": 27,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "When both Houses are full, the electoral college for the Vice-President has how many members?",
+   "o": [
+    "776",
+    "790",
+    "788",
+    "802"
+   ],
+   "a": 2,
+   "x": "All 788 MPs, elected and nominated, elect the Vice-President; State Legislatures have no role."
+  },
+  {
+   "topic": 27,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Disputes regarding the election of the Vice-President are decided by the:",
+   "o": [
+    "Supreme Court",
+    "Election Commission",
+    "Parliament",
+    "Delhi High Court"
+   ],
+   "a": 0,
+   "x": "Under Article 71 all disputes over the Vice-President's election are decided finally by the Supreme Court."
+  },
+  {
+   "topic": 27,
+   "sec": 11,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The form of oath of the Vice-President is laid down in:",
+   "o": [
+    "The Third Schedule",
+    "Article 69",
+    "Article 60",
+    "Article 75(4)"
+   ],
+   "a": 1,
+   "x": "The oaths of the President, Vice-President and Governor are written in Articles 60, 69 and 159, not in the Third Schedule, which holds ministers' oaths."
+  },
+  {
+   "topic": 27,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "A resolution for the removal of the Vice-President can be moved only after a notice of at least:",
+   "o": [
+    "7 days",
+    "21 days",
+    "30 days",
+    "14 days"
+   ],
+   "a": 3,
+   "x": "The removal resolution needs 14 days' notice, is moved only in the Rajya Sabha and must be agreed to by the Lok Sabha."
+  },
+  {
+   "topic": 27,
+   "sec": 3,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "Which future Vice-President had earlier been India's Ambassador to the USSR?",
+   "o": [
+    "V.V. Giri",
+    "S. Radhakrishnan",
+    "K.R. Narayanan",
+    "Zakir Husain"
+   ],
+   "a": 1,
+   "x": "S. Radhakrishnan was Ambassador to the USSR (1949–52) before becoming the first VP; V.V. Giri served in Sri Lanka and K.R. Narayanan in China."
+  },
+  {
+   "topic": 27,
+   "sec": 3,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "M. Venkaiah Naidu of Andhra Pradesh served as Vice-President during:",
+   "o": [
+    "2012–17",
+    "2007–12",
+    "2017–22",
+    "2002–07"
+   ],
+   "a": 2,
+   "x": "M. Venkaiah Naidu (Nellore) was Vice-President from 2017 to 2022."
+  },
+  {
+   "topic": 27,
+   "sec": 9,
+   "angle": "8",
+   "shape": "statements",
+   "s": "Consider the following statements about the Deputy Prime Minister:\n1. The post is not mentioned in the Constitution.\n2. He takes the oath as an ordinary Minister.\n3. He enjoys the powers of the Prime Minister.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The Deputy PM is not a constitutional post and is sworn in as an ordinary Minister; he has no PM powers, so statement 3 is wrong."
+  },
+  {
+   "topic": 27,
+   "sec": 5,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "Who was the first Deputy Chairman of the Planning Commission?",
+   "o": [
+    "Jawaharlal Nehru",
+    "Morarji Desai",
+    "Gulzarilal Nanda",
+    "Sardar Patel"
+   ],
+   "a": 2,
+   "x": "The PM was ex-officio Chairman of the Planning Commission; its first Deputy Chairman, of Cabinet rank, was Gulzarilal Nanda."
+  },
+  {
+   "topic": 27,
+   "sec": 7,
+   "angle": "4,5",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Article 75(2) – Collective responsibility",
+    "Article 75(5) – Size cap of 15%",
+    "Article 75(3) – Collective responsibility to the Lok Sabha",
+    "Article 88 – Allocation of Business Rules"
+   ],
+   "a": 2,
+   "x": "Article 75(3) makes the Council collectively responsible to the Lok Sabha; 75(2) is the President's pleasure, 75(1A) the size cap and 77(3) the business rules."
+  },
+  {
+   "topic": 28,
+   "sec": 4,
+   "angle": "2,14",
+   "shape": "one-liner",
+   "s": "A Minister who has resigned may explain his resignation in the House through a personal statement with the consent of the:",
+   "o": [
+    "Prime Minister",
+    "Speaker",
+    "President",
+    "Leader of the House"
+   ],
+   "a": 1,
+   "x": "A resigned minister may make a personal statement explaining his resignation with the Speaker's consent."
+  },
+  {
+   "topic": 28,
+   "sec": 4,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "In practice, who can ask a Union Minister to resign or advise the President to dismiss him?",
+   "o": [
+    "The Speaker",
+    "The Cabinet Secretary",
+    "The Vice-President",
+    "The Prime Minister"
+   ],
+   "a": 3,
+   "x": "Ministers hold office at the President's pleasure, but in practice the PM can ask a minister to resign or advise his dismissal."
+  },
+  {
+   "topic": 28,
+   "sec": 4,
+   "angle": "14,10",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Article 75(2) – Individual responsibility",
+    "Article 75(3) – Individual responsibility",
+    "Article 75(2) – Collective responsibility to the Lok Sabha",
+    "Article 164(2) – Collective responsibility to Parliament"
+   ],
+   "a": 0,
+   "x": "Article 75(2) is individual responsibility (President's pleasure); 75(3) is collective responsibility to the Lok Sabha, and 164(2) applies it to the State Assembly."
+  },
+  {
+   "topic": 28,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which Cabinet Committee decided on caste enumeration in the Census in April 2025?",
+   "o": [
+    "Cabinet Committee on Economic Affairs",
+    "Cabinet Committee on Security",
+    "Cabinet Committee on Political Affairs",
+    "Appointments Committee of the Cabinet"
+   ],
+   "a": 2,
+   "x": "The Cabinet Committee on Political Affairs, the 'super cabinet', decided caste enumeration in the Census on 30 April 2025 – not the CCEA."
+  },
+  {
+   "topic": 28,
+   "sec": 6,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Who chairs the Cabinet Committee on Accommodation (2024)?",
+   "o": [
+    "The Prime Minister",
+    "Rajnath Singh",
+    "Amit Shah",
+    "Nirmala Sitharaman"
+   ],
+   "a": 2,
+   "x": "Amit Shah chairs the Accommodation committee and Rajnath Singh the Parliamentary Affairs committee; these two are not chaired by the PM."
+  },
+  {
+   "topic": 28,
+   "sec": 9,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The office of the Solicitor General of India is based on:",
+   "o": [
+    "Article 76",
+    "Article 165",
+    "Article 177",
+    "No constitutional provision (it is statutory)"
+   ],
+   "a": 3,
+   "x": "The Solicitor General is non-constitutional; Article 76 is the Attorney General and Article 165 the Advocate General."
+  },
+  {
+   "topic": 28,
+   "sec": 9,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Who was the first Solicitor General of India?",
+   "o": [
+    "M.C. Setalvad",
+    "K.K. Venugopal",
+    "C.K. Daphtary",
+    "R. Venkataramani"
+   ],
+   "a": 2,
+   "x": "C.K. Daphtary was the first Solicitor General; M.C. Setalvad was the first Attorney General."
+  },
+  {
+   "topic": 28,
+   "sec": 9,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The Solicitor General of India is appointed by the:",
+   "o": [
+    "Appointments Committee of the Cabinet",
+    "President on the CJI's advice",
+    "Attorney General",
+    "Chief Justice of India"
+   ],
+   "a": 0,
+   "x": "The Solicitor General is appointed by the Appointments Committee of the Cabinet for 3 years; the Attorney General is appointed by the President."
+  },
+  {
+   "topic": 28,
+   "sec": 2,
+   "angle": "11",
+   "shape": "statements",
+   "s": "Consider the following statements about the Council of Ministers and the Cabinet:\n1. The Council of Ministers rarely meets as a body.\n2. The Cabinet directs and supervises the Council of Ministers.\n3. The word 'Cabinet' appears in Article 74.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The Council rarely meets as a body and the Cabinet directs it. The word 'Cabinet' appears only in Article 352(3), so statement 3 is wrong."
+  },
+  {
+   "topic": 28,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Cabinet Secretary is appointed for an initial term of:",
+   "o": [
+    "3 years",
+    "2 years",
+    "4 years",
+    "5 years"
+   ],
+   "a": 1,
+   "x": "The ACC appoints the Cabinet Secretary for 2 years, extendable up to 4."
+  },
+  {
+   "topic": 28,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "To be appointed Attorney General of India, a person must be qualified to be appointed a:",
+   "o": [
+    "Judge of a High Court",
+    "Member of the Rajya Sabha",
+    "Judge of the Supreme Court",
+    "Chief Justice of a High Court"
+   ],
+   "a": 2,
+   "x": "Under Article 76 the Attorney General must be qualified to be a Supreme Court judge; his remuneration is fixed by the President."
+  },
+  {
+   "topic": 28,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Who has been the Attorney General of India since 1 October 2022?",
+   "o": [
+    "K.K. Venugopal",
+    "R. Venkataramani",
+    "C.K. Daphtary",
+    "M.C. Setalvad"
+   ],
+   "a": 1,
+   "x": "R. Venkataramani succeeded K.K. Venugopal on 1 October 2022 and was re-appointed from 1 October 2025."
+  },
+  {
+   "topic": 29,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Parliament of Japan is known as the:",
+   "o": [
+    "Knesset",
+    "Federal Assembly",
+    "National Diet",
+    "Congress"
+   ],
+   "a": 2,
+   "x": "Japan's Parliament is the National Diet; the Knesset is Israel's, the Federal Assembly Russia's and Congress the USA's."
+  },
+  {
+   "topic": 29,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "In Russia's Federal Assembly, the lower House is the:",
+   "o": [
+    "State Duma",
+    "Federation Council",
+    "House of Councillors",
+    "Senate"
+   ],
+   "a": 0,
+   "x": "The State Duma is the lower House and the Federation Council the upper House of Russia's Federal Assembly."
+  },
+  {
+   "topic": 29,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The upper House of Japan's National Diet is the:",
+   "o": [
+    "House of Lords",
+    "Federation Council",
+    "Senate",
+    "House of Councillors"
+   ],
+   "a": 3,
+   "x": "Japan's upper House is the House of Councillors; its lower House is the House of Representatives."
+  },
+  {
+   "topic": 29,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The allocation of Rajya Sabha seats to the States is given in the:",
+   "o": [
+    "Third Schedule",
+    "Fourth Schedule",
+    "Fifth Schedule",
+    "Seventh Schedule"
+   ],
+   "a": 1,
+   "x": "Rajya Sabha seats are allotted by population in the Fourth Schedule, unlike the equal representation in the US Senate."
+  },
+  {
+   "topic": 29,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In the US Senate, each state is represented by:",
+   "o": [
+    "One senator",
+    "Seats in proportion to population",
+    "Two senators",
+    "Three senators"
+   ],
+   "a": 2,
+   "x": "The US Senate gives equal representation – 2 per state (100 in all) – and has no nominated members."
+  },
+  {
+   "topic": 29,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "A State Legislative Council is created or abolished by:",
+   "o": [
+    "A constitutional amendment under Article 368",
+    "An order of the President",
+    "An ordinance of the Governor",
+    "A law of Parliament under Article 169"
+   ],
+   "a": 3,
+   "x": "Under Article 169 Parliament creates or abolishes a Council by ordinary law after an Assembly resolution; it is not an Article 368 amendment."
+  },
+  {
+   "topic": 29,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which country's unicameral legislature, with 2,977 members, is the biggest Parliament?",
+   "o": [
+    "China",
+    "Israel",
+    "Sweden",
+    "New Zealand"
+   ],
+   "a": 0,
+   "x": "China's National People's Congress, with 2,977 members, is the biggest Parliament."
+  },
+  {
+   "topic": 29,
+   "sec": 3,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about the second chamber:\n1. Abbé Sieyès called it superfluous if it agrees and mischievous if it dissents.\n2. N. Gopalaswami Ayyangar defended the Rajya Sabha as a House of dignified debate.\n3. A second chamber speeds up law-making.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. A second chamber causes delay and duplication; it does not speed up law-making."
+  },
+  {
+   "topic": 29,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "How many members does Jammu and Kashmir elect to the Rajya Sabha?",
+   "o": [
+    "3",
+    "1",
+    "4",
+    "2"
+   ],
+   "a": 2,
+   "x": "Only Delhi (3), Puducherry (1) and Jammu and Kashmir (4) among the UTs elect Rajya Sabha members."
+  }
+ ]
+}
