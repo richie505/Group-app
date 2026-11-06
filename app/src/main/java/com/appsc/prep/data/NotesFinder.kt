@@ -82,7 +82,7 @@ object NotesFinder {
         index(book)
     }
 
-    fun best(q: Question, book: Book, filedRow: Int): Place? {
+    fun best(q: Question, book: Book, filedRow: Int, filedSec: Int = -1): Place? {
         val ix = index(book) // first: a switched book clears what was found in the other
         found[q.id + "|" + q.answer]?.let { return it }
         // a current-affairs MCQ names its notes page: "... [September 2025 · India's first Centralised Advanced Smart Kitchen — Kadapa]"
@@ -101,6 +101,7 @@ object NotesFinder {
             for ((x, v) in wb) if (x in w) s += v
             if (ans.isNotEmpty() && ans.all { it in w }) s *= 1.5
             if (ri == filedRow) s *= 1.15 // a tie goes to the topic it is filed under
+            if (ri == filedRow && si == filedSec) s *= 1.3 // and to the page it was written from
             Place(ri, si, s)
         }.maxByOrNull { it.score }?.takeIf { it.score > 0 }?.also { found[q.id + "|" + q.answer] = it }
     }
@@ -175,9 +176,57 @@ object NotesFinder {
             }
             return out.toList()
         }
-        val sec = row.secs.getOrNull(at) ?: return emptyList()
-        // the answer's lines, else the lines sharing most of the question's words (as marked on the whole page)
-        return marked(q, sec.blocks).filter { (sec.blocks[it] as? TextBlock)?.kind != 'h' }.sorted().take(4).map { Triple(at, it, sec.blocks[it]) }
+        return oneLiner(q, row, at)
+    }
+
+    private val NUM = Regex("""\d[\d,.]*""")
+
+    /** The numbers in a text, single digits too ("3 members" -> 3), which [words] leaves out. */
+    private fun nums(t: String): Set<String> = NUM.findAll(t).map { it.value.trim('.', ',').replace(",", "") }.filter { it.isNotEmpty() }.toSet()
+
+    /**
+     * A one-liner's key points: the one or two lines (a text line, or one row of a table under its head) that state
+     * its fact. Every line of the topic is scored on the right answer's words and numbers, the explanation's and the
+     * stem's; a short line beats a long one that shares as many, and the page [at] (the one [best] found) wins a tie.
+     * Never a whole table or a whole page: when no line is clear, nothing (the whole page shows then).
+     */
+    private fun oneLiner(q: Question, row: NoteRow, at: Int): List<Triple<Int, Int, Block>> {
+        val opt = q.options.getOrNull(q.answer).orEmpty()
+        val ans = answerWords(q)
+        val an = if (ans.isEmpty() && opt.length < 25 && Regex("only|both|neither|above", RegexOption.IGNORE_CASE).containsMatchIn(opt)) emptySet() else nums(opt)
+        val stem = words(q.stem)
+        val why = words(q.explanation) - STOP
+        val body = (row.secs.size - 3).coerceAtLeast(1) // the last three pages: number game, past papers, traps
+        val lines = row.secs.flatMapIndexed { si, sec ->
+            sec.blocks.flatMapIndexed { bi, b ->
+                when {
+                    b is TextBlock && b.kind != 'h' -> listOf(Triple(si, bi, b as Block))
+                    b is TableBlock -> b.rows.map { r -> Triple(si, bi, TableBlock(b.head, listOf(r)) as Block) }
+                    else -> emptyList()
+                }
+            }
+        }
+        val scored = lines.map { key ->
+            val b = key.third
+            // a table row on its own (its head's words would count for every row)
+            val t = if (b is TableBlock) b.rows.joinToString("\n") { r -> r.joinToString(" | ") { c -> c.joinToString("") { it.text } } } else text(listOf(b))
+            val lw = words(t)
+            val a = ans.count { it in lw }
+            val n = an.count { it in nums(t) }
+            val e = why.count { it in lw }
+            val st = stem.count { it in lw }
+            var sc = (3.0 * a + 3.0 * n + 1.5 * e + st) / Math.pow(lw.size.coerceAtLeast(3).toDouble(), 0.35)
+            if (key.first == at) sc += 0.6
+            if (key.first >= body) sc *= 0.6
+            Triple(key, sc, Triple(a + n, e + st, lw.size))
+        }.filter { (_, _, c) ->
+            // the answer must be on the line when the answer has words or numbers; else the question's words carry it
+            (if (ans.isNotEmpty() || an.isNotEmpty()) c.first >= 1 else true) && c.first + c.second >= 2
+        }.sortedByDescending { it.second }
+        val top = scored.firstOrNull() ?: return emptyList()
+        val out = mutableListOf(top.first)
+        scored.getOrNull(1)?.let { (k, sc, _) -> if (sc >= top.second * 0.8 && k.first == top.first.first) out += k }
+        return out.sortedWith(compareBy({ it.first }, { it.second }))
     }
 
     /** Whether a block holds the answer (most of its words): such lines are marked. */

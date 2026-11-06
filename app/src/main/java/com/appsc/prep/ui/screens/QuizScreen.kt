@@ -199,7 +199,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
             runCatching {
                 kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Default) {
                     val book = app.repo.book(q.book)
-                    com.appsc.prep.data.NotesFinder.best(q, book, app.repo.mcq(q.book).placeOf(q.id)?.first ?: -1)
+                    com.appsc.prep.data.NotesFinder.best(q, book, app.repo.mcq(q.book).placeOf(q.id)?.first ?: -1, app.repo.mcq(q.book).placeOf(q.id)?.second ?: -1)
                 }
             }
         }
@@ -897,7 +897,7 @@ private fun FromNotes(q: Question, onOpenNotes: (Int, Int, Int) -> Unit, onPeek:
         value = runCatching {
             kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Default) {
                 val book = app.repo.book(q.book)
-                val at = com.appsc.prep.data.NotesFinder.best(q, book, app.repo.mcq(q.book).placeOf(q.id)?.first ?: -1)
+                val at = com.appsc.prep.data.NotesFinder.best(q, book, app.repo.mcq(q.book).placeOf(q.id)?.first ?: -1, app.repo.mcq(q.book).placeOf(q.id)?.second ?: -1)
                     ?: return@withContext null
                 val lines = com.appsc.prep.data.NotesExcerpt.forQuestion(q, book.rows[at.row].secs[at.sec].blocks)
                 lines.takeIf { it.isNotEmpty() }?.let { Triple(at.row, at.sec, it) }
@@ -932,9 +932,9 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
         value = runCatching {
             kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Default) {
                 val book = app.repo.book(q.book)
-                val filed = app.repo.mcq(q.book).placeOf(q.id)?.first ?: -1
+                val filed = app.repo.mcq(q.book).placeOf(q.id)
                 // the page that holds the answer's fact (anywhere in the subject), then the rest of its topic
-                val at = com.appsc.prep.data.NotesFinder.best(q, book, filed) ?: return@withContext null
+                val at = com.appsc.prep.data.NotesFinder.best(q, book, filed?.first ?: -1, filed?.second ?: -1) ?: return@withContext null
                 val r = book.rows[at.row]
                 // pages with nothing for the MCQs are hidden in the notes, so here too
                 r to (listOf(at.sec) + r.secs.indices.filter { it != at.sec && !r.secs[it].empty })

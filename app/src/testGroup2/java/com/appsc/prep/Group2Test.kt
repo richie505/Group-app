@@ -181,9 +181,12 @@ class Group2Test {
         runBlocking { repo.book(4); repo.mcq(4) }
         val (ri, sub) = runBlocking {
             val m = repo.mcq(4)
-            m.rows.entries.first { (_, qs) -> qs.first().stem.startsWith("Consider the following statements") }.key to 0
+            // a section whose first MCQ is a 3-statement set (most MCQs are one-liners now, as in APPSC's papers)
+            m.rows.keys.sorted().flatMap { r -> (0 until 40).map { r to it } }.first { (r, s) ->
+                m.subQuestions(r, s).firstOrNull()?.let { "Consider the following statements" in it.stem && "1, 2 and 3" in it.options } == true
+            }
         }
-        val app = shot("3_statement_mcq") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("row", 4, ri, sub), "all", "Section MCQs", nav) }
+        val app = shot("3_statement_mcq") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, ri, sub), "all", "Section MCQs", nav) }
         rule.onNodeWithText("Consider the following statements", substring = true).assertExists()
         rule.onNodeWithText("1, 2 and 3").performClick()
         rule.waitForIdle()

@@ -269,6 +269,35 @@ class CompleteTest {
         rule.onNodeWithText("‹ Key points").assertExists()
     }
 
+    /** "From the notes" shows only what the MCQ needs: the line with its fact, never a whole table or page. */
+    @Test fun keyPointsAreTheMcqsOwnLines() = runBlocking {
+        val repo = Repository { ctx.assets.open(it) }
+        repo.mcqNotes = true
+        val m = repo.mcq(2)
+        val book = repo.book(2)
+        val q = m.rows.values.flatten().first { it.stem.startsWith("Pitt's India Act, 1784 reduced") }
+        val place = m.placeOf(q.id)!!
+        val at = com.appsc.prep.data.NotesFinder.best(q, book, place.first, place.second)!!
+        val keys = com.appsc.prep.data.NotesFinder.keyLines(q, book.rows[at.row], at.sec)
+        val text = keys.map { com.appsc.prep.data.NotesFinder.text(listOf(it.third)) }
+        println("Pitt's India Act: page ${book.rows[at.row].secs[at.sec].title}: $text")
+        assertTrue("$text", keys.size in 1..2 && text.any { "council cut to 3" in it })
+        // every one-liner of the subject: at most two lines, and a table only ever one row
+        var shown = 0; var none = 0; var n = 0
+        for ((ri, qs) in m.rows) for (x in qs) {
+            if (x.stem.lines().count { Regex("""^\s*\d\.\s""").containsMatchIn(it) } >= 2) continue
+            n++
+            val p = m.placeOf(x.id)!!
+            val a = com.appsc.prep.data.NotesFinder.best(x, book, p.first, p.second) ?: continue
+            val k = com.appsc.prep.data.NotesFinder.keyLines(x, book.rows[a.row], a.sec)
+            if (k.isEmpty()) none++ else shown++
+            assertTrue("${x.id}: ${k.size} lines", k.size <= 2)
+            assertTrue("${x.id}: a whole table", k.all { (it.third as? com.appsc.prep.data.TableBlock)?.rows?.size ?: 1 <= 1 })
+        }
+        println("Polity one-liners: $n, key points shown for $shown, whole page for $none")
+        assertTrue("$shown of $n", shown * 10 >= n * 8)
+    }
+
         /** A current-affairs one-liner names its page; that page of the MCQ notes holds its facts (not "No MCQs yet"). */
     @Test fun aCurrentAffairsMcqFindsItsFactsInTheMcqNotes() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
