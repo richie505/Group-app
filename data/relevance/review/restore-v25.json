@@ -1,0 +1,619 @@
+{
+ "restore": [
+  {
+   "id": "nca4e61f1d9b",
+   "why": "different option set: Porbandar (first successful plant) and Ranipet traps not in the PYQ"
+  },
+  {
+   "id": "f49fd0721d822",
+   "why": "direct question gives 1964; live item only marks 1940 as wrong"
+  },
+  {
+   "id": "nindian-geography-52-9",
+   "why": "other direction: names the zone and asks its HQ; PYQ gives Bilaspur and asks the zone"
+  },
+  {
+   "id": "ff9c98ec318d8",
+   "why": "direct question gives NOFN; live NOT item only says it was not NKN"
+  },
+  {
+   "id": "n482410760e1",
+   "why": "different angle: names the Cherlopalli-Rapuru tunnel and its line; PYQ does not"
+  },
+  {
+   "id": "fe55f4f1bdb33",
+   "why": "direct question gives APMB/State-run; live NOT item only says not PPP-DBFOT"
+  },
+  {
+   "id": "n6b9c15a2a54",
+   "why": "other direction: PYQ asks the distance, this asks the canal"
+  },
+  {
+   "id": "f6507250f0078",
+   "why": "different angle: teaches VCIC nodes (Srikalahasti-Yerpedu, Kopparthy); live item asks Orvakal's corridor"
+  },
+  {
+   "id": "f6706435d2284",
+   "why": "direct question gives Banda, UP; live NOT item only says not Nandyal"
+  },
+  {
+   "id": "f28522ded7865",
+   "why": "direct question gives UP (Sarnath and Kushinagar); live NOT item only says not Bihar"
+  },
+  {
+   "id": "ned56cfee3b7",
+   "why": "different option set: Uppada, Yarada, Suryalanka pairs; live item asks Mypadu's district"
+  },
+  {
+   "id": "fa23c18d5bc94",
+   "why": "direct question gives Polavaram district; live NOT item only says not Nandyal"
+  },
+  {
+   "id": "fc5469aee2759",
+   "why": "direct question gives 1958; live NOT item only says not 1972"
+  },
+  {
+   "id": "f1fcdb0def75f",
+   "why": "direct question gives West Bengal; PYQ only marks Haripur-Haryana as wrong"
+  },
+  {
+   "id": "nworld-geography-17-2",
+   "why": "key fixed: India option updated to ~69,000 route km so only the China statement is wrong",
+   "fix": {
+    "o": [
+     "The United States has the largest total railway length, primarily freight-oriented.",
+     "India has the fourth-longest railway network, at about 69,000 route km.",
+     "Canada has the fifth-longest railway network, measuring about 49,000 km.",
+     "China has only the third-longest railway network, behind Russia."
+    ],
+    "x": "Option D is incorrect: China has the second-longest network, about 159,000 km, ahead of Russia's roughly 105,000 km. The USA is first, India fourth (about 69,439 route km, March 2025) and Canada fifth."
+   }
+  },
+  {
+   "id": "nphysics-11-21",
+   "why": "general science (relativity basis of GPS correction), not covered elsewhere"
+  },
+  {
+   "id": "nchemistry-8-8",
+   "why": "NCERT polymer monomers, exam-type general science; not covered elsewhere"
+  },
+  {
+   "id": "nchemistry-8-18",
+   "why": "different angle: monomers of PHBV; PYQ asks full form"
+  },
+  {
+   "id": "nphysics-16-15",
+   "why": "basic physics constant, standard general-science question; not covered elsewhere"
+  },
+  {
+   "id": "nbiology-25-6",
+   "why": "discoverers of vitamins are a general-science angle; not covered elsewhere"
+  },
+  {
+   "id": "nphysics-11-28",
+   "why": "Doppler effect / red shift is a common PSC general-science question; not covered"
+  },
+  {
+   "id": "nphysics-11-19",
+   "why": "Huygens' principle is a common general-science question; not covered"
+  },
+  {
+   "id": "nchemistry-19-16",
+   "why": "different angle: asks formula Na2S2O3; PYQ asks the name of the fixer"
+  },
+  {
+   "id": "nc7b14060634",
+   "why": "different option set: teaches TPS 1983 under Indira and STI 2013; live item is a pair-match"
+  },
+  {
+   "id": "nf3358842633",
+   "why": "DRDO formation (1958 merger) is an exam fact; not covered elsewhere"
+  },
+  {
+   "id": "f6cf2a3d26294",
+   "why": "direct question gives Karaikudi; PYQ only marks CECRI-Kolkata as wrong"
+  },
+  {
+   "id": "n9baa39a0a7f",
+   "why": "other direction: Saheli -> CDRI; PYQ asks which pill CDRI developed"
+  },
+  {
+   "id": "nbdda5c55b89",
+   "why": "direct question gives Bhubaneswar; live NOT item only says not Lucknow"
+  },
+  {
+   "id": "fcdd41ac06905",
+   "why": "direct question gives Chennai; live NOT item only says not Pune"
+  },
+  {
+   "id": "f1c398d3327a5",
+   "why": "direct question gives DBT; live NOT item only says not DST"
+  },
+  {
+   "id": "na3f847edccc",
+   "why": "other direction: WIDUSHI -> target group; PYQ gives the group and asks the scheme"
+  },
+  {
+   "id": "n08dded67025",
+   "why": "other direction: programme from CSIR+KVS; PYQ gives JIGYASA and asks the partners"
+  },
+  {
+   "id": "nedaacd49a56",
+   "why": "other direction: person -> description; PYQ asks who is the father of supercomputing"
+  },
+  {
+   "id": "nea62c8f59e5",
+   "why": "other direction: Saha -> theory; PYQ asks whose contribution thermal ionisation is"
+  },
+  {
+   "id": "f8605feef0778",
+   "why": "direct question gives Denmark; live NOT item only says not Germany"
+  },
+  {
+   "id": "nf041585d7d9",
+   "why": "other direction: Swaminathan -> title; PYQ asks who has the title"
+  },
+  {
+   "id": "n11f9b6986f8",
+   "why": "other direction: year -> person; PYQ asks Tagore's year"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "fef231ee5d5ba",
+   "why": "exact repeat of yfe1baf7bb43 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fbdeacf1ea767",
+   "why": "exact repeat of y264f79a38b0 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f54f618a7e21b",
+   "why": "exact repeat of y6d920b78a15/ycbccf086f0a (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fa90f16601c58",
+   "why": "exact repeat of y42a21a1b7a4 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "ncda02705489",
+   "why": "trivia: exact months India was a net steel importer"
+  },
+  {
+   "id": "n73f4eb8e1d2",
+   "why": "exact repeat of n2eb975ae734 (keyed pair ICF-Perambur) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n7b27efba491",
+   "why": "exact repeat of fabc1c423f037 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "ndfdaa06937b",
+   "why": "exact repeat of y5a464c80396/y519944c2d36 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fedab564296bb",
+   "why": "exact repeat of n084adca9aba (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "ff1e0ea70be7c",
+   "why": "exact repeat of yd4df4f5e7bc (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fe85b4c55b61b",
+   "why": "exact repeat of n878b37ef697 (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "na6f6d7061ae",
+   "why": "exact repeat of yc9aee0cd732 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fecdab43e9730",
+   "why": "exact repeat of ncec28a2d8ea (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f4fb232d0fb18",
+   "why": "exact repeat of n74e8908a25a (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n917d7efbf8f",
+   "why": "exact repeat of n5d78c561b0f (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n9db91fbc095",
+   "why": "exact repeat of y6c71b84879d (same fact, same direction, same answer)"
+  },
+  {
+   "id": "faa3e9cbd112d",
+   "why": "trivia: district-wise MSME counts; State total already asked (f70c786715ff9)"
+  },
+  {
+   "id": "n1e7a14e4c48",
+   "why": "exact repeat of y2cd0afbe5c8/y8e3c53fe798 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n41665beb603",
+   "why": "exact repeat of yb800908e73c (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n5fb6b3519e5",
+   "why": "exact repeat of y197d85dfb0f (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f7163ce8cf2f4",
+   "why": "exact repeat of nindian-geography-52-11 (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n1ed0fb5efdd",
+   "why": "exact repeat of ybcefcaf608b (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n35b0d1aa56e",
+   "why": "exact repeat of yf4527847d65 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nindian-geography-52-5",
+   "why": "exact repeat of yf61214e7e67 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n968ba5d67e6",
+   "why": "exact repeat of nb333a0db51c (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nd5a81a7d009",
+   "why": "exact repeat of y0d931bc5580 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n79e5be83f0f",
+   "why": "exact repeat of yb7291e9b6c3 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nworld-geography-6-7",
+   "why": "exact repeat of n0bda9ebc5db (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fb439276e8560",
+   "why": "exact repeat of nadbbdf211a3 (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fe23e404a6126",
+   "why": "exact repeat of y652b74098f9 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f70ed29cd6ca7",
+   "why": "exact repeat of nindian-geography-4-6 (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n8012d175420",
+   "why": "exact repeat of y4766bda2cb0 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n63bce022ca2",
+   "why": "exact repeat of y392e5bedbbe (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n26d6a77de7f",
+   "why": "exact repeat of n4542f3a6401 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "ne9926747fde",
+   "why": "exact repeat of y79bbce2a84f (same fact, same direction, same answer)"
+  },
+  {
+   "id": "neb11961abfd",
+   "why": "exact repeat of y9f7bc82ff15 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n3f849f594a7",
+   "why": "exact repeat of f95b8c7500ef5 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nbeccce775ac",
+   "why": "exact repeat of nworld-geography-31-9 (A-R on Hormuz 20%) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nworld-geography-25-6",
+   "why": "exact repeat of ncc401d1bb87 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fc693675f7ffd",
+   "why": "exact repeat of y1ae912d7d9f (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n11783156c63",
+   "why": "exact repeat of n7db0ebb67a0 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nindian-geography-38-11",
+   "why": "exact repeat of yc13c011eded and nadbbdf211a3 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n1dc5596e217",
+   "why": "exact repeat of y8d6a3067b77 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "ne8c6cc6a503",
+   "why": "exact repeat of yecfef7a804e (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f2508ce7f4ef7",
+   "why": "exact repeat of ne8f93b7e8b6 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fe61074d36a75",
+   "why": "exact repeat of n87441475d5c (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n768742f4933",
+   "why": "exact repeat of ycd8d7d2889c (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nf9f5268ed25",
+   "why": "exact repeat of yd92af113b64 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nb4baf8d6a0c",
+   "why": "exact repeat of ycfc662d3364 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n011936eb4fa",
+   "why": "exact repeat of y86220d8fcc9 (match list) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "ne0871fe2e78",
+   "why": "exact repeat of y86220d8fcc9 and n7c98ccfa20d (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n6fa2a63d9b8",
+   "why": "exact repeat of y1b48900a8b4 (match list) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f60b04e885ce8",
+   "why": "exact repeat of y1b48900a8b4 (match list) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fa4a336913865",
+   "why": "exact repeat of y1b48900a8b4 (match list) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f8d550604ecc7",
+   "why": "exact repeat of y3732be576b2 (match list) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n2121e4c2566",
+   "why": "exact repeat of yd265733dff6 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nchemistry-9-1",
+   "why": "exact repeat of y3e28c54a905/y3e128a4b325 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nb5e334f8861",
+   "why": "exact repeat of y6c6e3443a54 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n3917245f3c6",
+   "why": "exact repeat of yc0dba2f2cab/y982e0c1e428 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n9d4b9503a77",
+   "why": "exact repeat of yd6af629b031 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n0911cf729cd",
+   "why": "exact repeat of y33e24e7bd86 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n9186c1498ba",
+   "why": "exact repeat of y33e24e7bd86 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nc2e5d04b6a3",
+   "why": "exact repeat of n6bcca6d6c43 (identical) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fed5106c88f8b",
+   "why": "exact repeat of y83c230222ee (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f113bb44cee25",
+   "why": "exact repeat of n9d1798ce613 (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fba1b8979156e",
+   "why": "exact repeat of yeda8714fbe5 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "ffc27be14591c",
+   "why": "exact repeat of nd2373f57afd (same Kovvada trap) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nindian-geography-4-4",
+   "why": "exact repeat of y31c96250805 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n56cd5ae6de2",
+   "why": "exact repeat of y484e5b13314/yc156373ce2b (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fb2e7027ba40a",
+   "why": "exact repeat of y9d910ac531d/y7fe5b8f498c (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nbcbfd1caa79",
+   "why": "exact repeat of y791085ede36 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f68d2106ded59",
+   "why": "trivia: count of irradiation units approved"
+  },
+  {
+   "id": "nbiology-24-15",
+   "why": "exact repeat of y6586a8b07aa (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nbiology-35-2",
+   "why": "exact repeat of nbiology-35-4 (same keyed statement) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "ff0d23494cdf2",
+   "why": "exact repeat of n23786f8a4a3 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f8efa02ac787b",
+   "why": "trivia: fair-price-shop count; Anna Chakra purpose already asked (ndaa5a5ef0a2)"
+  },
+  {
+   "id": "nchemistry-19-23",
+   "why": "exact repeat of y6a89f8cca90 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nphysics-16-11",
+   "why": "exact repeat of yc3629aba092 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f941a279c181b",
+   "why": "exact repeat of n9f755ffee7f (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f6cef36bf174f",
+   "why": "exact repeat of n442ea4c1427 (mirror) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "naceacb37096",
+   "why": "exact repeat of y7a14c6f032e (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nab300ea29da",
+   "why": "trivia: number of tiers in a draft policy"
+  },
+  {
+   "id": "nbab39630bfb",
+   "why": "trivia: lead agencies in BRICS S&T cooperation"
+  },
+  {
+   "id": "f28eaf8ec0475",
+   "why": "exact repeat of n1add26f7873 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f4020eb423039",
+   "why": "exact repeat of n8ff4f6157a1 (identical) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f18873808bb63",
+   "why": "trivia: figure from a press critique"
+  },
+  {
+   "id": "ne223316e8f6",
+   "why": "exact repeat of ye30d42809d9 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f75ccf40b9d92",
+   "why": "exact repeat of n1d8754fb8af (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fbdce67ee2acb",
+   "why": "exact repeat of n5ffec60d28e (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n7bdb5631c76",
+   "why": "exact repeat of fcdae46bb89f4 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nindian-geography-22-2",
+   "why": "exact repeat of y02f92f05a07 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n1be411b44a5",
+   "why": "exact repeat of f4d1520f99874 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f33123d375805",
+   "why": "exact repeat of ne39b7717746 (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nenvironment-28-7",
+   "why": "exact repeat of y2914f23bb6f (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n3033b0c6b24",
+   "why": "exact repeat of ycfecfbbd0f5 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nenvironment-28-2",
+   "why": "exact repeat of y4376427f535 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f119cf026b4ee",
+   "why": "exact repeat of nc0be1cbdae0 (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n1f641e65673",
+   "why": "exact repeat of y48893cddea0 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n559ecfc0824",
+   "why": "exact repeat of ye5f22e18946/y78a91db5cbb (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nf7a118c52b1",
+   "why": "exact repeat of y53a25e72cc6 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f306f77711ae2",
+   "why": "exact repeat of n97fdb9dfadf (statement listed as correct) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f0b4f6510e789",
+   "why": "exact repeat of n50dab8e705b (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nbiology-14-24",
+   "why": "exact repeat of y508f51a74d3 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f5131a35b1ab3",
+   "why": "exact repeat of neaa93990961 (keyed pair) (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fa513fa70f27d",
+   "why": "trivia: year J.C. Bose was elected FRS"
+  },
+  {
+   "id": "nphysics-4-5",
+   "why": "exact repeat of y55e4f91526c (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n38295985de9",
+   "why": "exact repeat of y0ea7a55904b (same fact, same direction, same answer)"
+  },
+  {
+   "id": "fd75f3d5662be",
+   "why": "exact repeat of y28ee4c8e03e/f177d55c6a45d (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n353fe75f31b",
+   "why": "exact repeat of y84342d1b25a (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n3afab8d9648",
+   "why": "exact repeat of y4d06edff3bb (same fact, same direction, same answer)"
+  },
+  {
+   "id": "nda90c50efe5",
+   "why": "exact repeat of y2401b1fe669 (same fact, same direction, same answer)"
+  },
+  {
+   "id": "n3bd6ebcc724",
+   "why": "exact repeat of y6bd2f69eb19/y1f788c6703c (same fact, same direction, same answer)"
+  },
+  {
+   "id": "naa814c9af30",
+   "why": "exact repeat of y5c9188bbdff (same fact, same direction, same answer)"
+  },
+  {
+   "id": "f5bd819336b49",
+   "why": "exact repeat of neeb746e3d88 (listed as correct pair) (same fact, same direction, same answer)"
+  }
+ ]
+}
