@@ -9,9 +9,15 @@ Output: `data/blueprint/out/<unit>.md`, one unit in exactly the model unit's mar
 
 ## Rules
 
-- **Facts only from the source packet** (and, for current-affairs units, the newer current-affairs files you are
-  given). Do not add facts from memory. If two sources differ on a changeable fact (a rank, figure, office-holder,
-  status), use the newest dated one and give its date.
+- **Facts from the source packet first** (and, for current-affairs units, the newer current-affairs files you
+  are given). If two sources differ on a changeable fact (a rank, figure, office-holder, status), use the newest
+  dated one and give its date.
+- **Keep every fact the "MCQ NOTES" part of the packet holds**: the app's MCQs test exactly those facts, so each
+  must still be in the unit (in a table, a bullet or a box). This matters more than the word budget.
+- **Gaps: use web search.** When a keyword angle has no facts in the packet, or the packet gives two values for a
+  fixed fact (a date, a count, a name), look it up with WebSearch and use what reliable sources agree on
+  (government sites, PIB, NCERT, RBI, ISRO, UN bodies, established encyclopaedias and newspapers). Never write a
+  fact from memory alone. If nothing reliable is found, leave that angle out rather than guess.
 - **Cover every keyword angle.** Organise by topic in about 8-13 numbered sections (`### 1. TITLE`) with numbered
   sub-sections (`#### 1.1 Title`); the keywords decide what is covered, not the headings. Put the AP angle inside
   its natural section, and latest developments as dated bullets inside their section.
@@ -20,7 +26,8 @@ Output: `data/blueprint/out/<unit>.md`, one unit in exactly the model unit's mar
 - **Always end with these three sections:** `NUMBER GAME AND QUICK REVISION` (a table, then `#### FIRST / LAST /
   SPECIAL FACTS`), `APPSC PREVIOUS YEAR QUESTIONS` (table: Examination | Question Area, from the PYQs the source
   names), `HIGH-PROBABILITY MCQ TRAPS` (`!BOX VERY IMPORTANT`, then 8-10 numbered traps).
-- **Length:** the tier's budget, within 15% (CORE ~2,000 words, HIGH ~1,350, MED ~850, LOW ~480).
+- **Length:** the tier's budget (CORE ~2,000 words, HIGH ~1,350, MED ~850, LOW ~480); up to 1.5x when the
+  MCQ facts need the room, never below 0.85x.
 - Bold the exam words (`**...**`). Write plain, simple English.
 - Never mention where a fact came from ("the app", "APP", "other notes", "sources say"). Where the sources
   give two values for a fixed fact (a date, a count), write the correct one only.
@@ -28,5 +35,7 @@ Output: `data/blueprint/out/<unit>.md`, one unit in exactly the model unit's mar
   sources".
 - The last line is `COVERAGE: 1>1.1,2; 2>3; ...`: every keyword number and the section(s) covering it.
 - Begin with `## <unit> | <TITLE IN CAPITALS>`.
+
+Also add, after the COVERAGE line, one line `WEB: <n>` with the number of facts you added from web search.
 
 When you finish, run `python3 tools/blueprint_check.py <unit>` and fix every problem it lists.

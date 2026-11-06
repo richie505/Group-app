@@ -29,13 +29,17 @@ def check(u):
         p.append("missing '#### FIRST / LAST / SPECIAL FACTS'")
     if "!BOX VERY IMPORTANT" not in t:
         p.append("missing '!BOX VERY IMPORTANT' in the traps section")
+    if re.search(r"\b(APP notes|other notes|the app's notes|sources say)\b", t, re.I):
+        p.append("never mention where a fact came from")
     if re.search(r"\[(GK|Prep|ROCKET|CA)\]|Not in your sources", t):
         p.append("provenance tags are not allowed")
+    if not re.search(r"^WEB: \d+$", t, re.M):
+        p.append("missing the 'WEB: <n>' line after COVERAGE")
     body = t.split("\nCOVERAGE:")[0]
     w = len(re.sub(r"[|#*!-]", " ", body).split())
     b = BUDGET.get(tier)
-    if b and not (0.85 * b <= w <= 1.3 * b):
-        p.append(f"{w} words; {tier} budget ~{b} (0.85x to 1.3x)")
+    if b and not (0.85 * b <= w <= 1.5 * b):
+        p.append(f"{w} words; {tier} budget ~{b} (0.85x to 1.5x)")
     cov = re.search(r"^COVERAGE: (.+)$", t, re.M)
     if not cov:
         p.append("missing COVERAGE line")

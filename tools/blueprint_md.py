@@ -58,7 +58,7 @@ def unit_pages(md):
 
     for line in lines:
         s = line.rstrip()
-        if s.startswith("COVERAGE:"):
+        if s.startswith("COVERAGE:") or s.startswith("WEB:"):
             continue
         if s.startswith("|"):
             if re.match(r"^\|[\s:|-]+\|$", s):
