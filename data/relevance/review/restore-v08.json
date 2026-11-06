@@ -1,0 +1,688 @@
+{
+ "restore": [
+  {
+   "id": "nf4a7508b77b",
+   "why": "one-liner form vs PYQ statement format; different format"
+  },
+  {
+   "id": "fb859945605c7",
+   "why": "direct language question vs 4-pair match; different angle"
+  },
+  {
+   "id": "nbb6e286fefb",
+   "why": "reverse direction: asks name of Debendranath body; PYQ asks founder of Adi Brahmo Samaj"
+  },
+  {
+   "id": "f0167150bdc9f",
+   "why": "NOT-correct format teaching NSC 1887, Deccan Education Society; different option set"
+  },
+  {
+   "id": "nafd12c9867b",
+   "why": "single-earliest question vs full chronological arrangement"
+  },
+  {
+   "id": "nindian-history-97-11",
+   "why": "no direct RKM-founder question in this topic; statement question differs"
+  },
+  {
+   "id": "f25793fb5693c",
+   "why": "direct question with year vs pair-match; no PYQ in topic"
+  },
+  {
+   "id": "f94937e5c6c1f",
+   "why": "ambiguous city removed from statement 1",
+   "fix": {
+    "s": "Consider the following statements about the Paramahansa Mandali:\n1. It was founded in 1849.\n2. It had branches at Poona and Satara.\n3. It opposed women's education.\nWhich of the statements given above is/are correct?",
+    "x": "The Paramahansa Mandali was founded in 1849 by Dadoba Pandurang (sources give Bombay; an APPSC 2023 key says Poona) and had branches at Poona and Satara. It worked for women's education and widow remarriage, not against them."
+   }
+  },
+  {
+   "id": "fe86efe6415e7",
+   "why": "direct one-liner vs 4-pair match"
+  },
+  {
+   "id": "f753c25a14a1f",
+   "why": "direct aim question vs incorrect-statement format"
+  },
+  {
+   "id": "f66cda70f096a",
+   "why": "asks where HQ moved; statement question only says it did not start at Lahore"
+  },
+  {
+   "id": "f9b40c57a9dbe",
+   "why": "reverse direction: journal->person; PYQ asks person->journal"
+  },
+  {
+   "id": "nd3b9a2c351d",
+   "why": "reverse direction: author->book; PYQ asks book->author"
+  },
+  {
+   "id": "n8c3fe19a38e",
+   "why": "NOT-correct format on Andhra Home Rule workers; teaches Venkatappayya/Nageswara Rao roles (AP fact)"
+  },
+  {
+   "id": "f7a560396a481",
+   "why": "reverse direction: asks year; nc13e0cbd033 gives year and asks name"
+  },
+  {
+   "id": "f49706bdeb385",
+   "why": "reverse direction: person->movement; n06d5801662e asks movement->leaders"
+  },
+  {
+   "id": "f6fbac5721f54",
+   "why": "direct question vs incorrectly-matched pair format"
+  },
+  {
+   "id": "fd910c4ce6d4f",
+   "why": "direct year question vs pair format"
+  },
+  {
+   "id": "nindian-history-22-10",
+   "why": "direct question vs pair format"
+  },
+  {
+   "id": "feee895d3e269",
+   "why": "direct question vs pair format"
+  },
+  {
+   "id": "fa47af0096c5c",
+   "why": "asks the year 1936; n956ec7a4fa1 asks the outcome"
+  },
+  {
+   "id": "n77b545c26c9",
+   "why": "direct one-liner vs 3-statement format"
+  },
+  {
+   "id": "na354e89a9c8",
+   "why": "reverse direction: asks tenure; n81a46366377 asks person"
+  },
+  {
+   "id": "f4e3b3c4823f7",
+   "why": "single-earliest question vs full sequence"
+  },
+  {
+   "id": "f940761528562",
+   "why": "3-statement format vs NOT-among format; different option set"
+  },
+  {
+   "id": "nc59e16e899d",
+   "why": "key fixed per notes: first Telugu political journal = Andhra Prakasika",
+   "fix": {
+    "o": [
+     "Andhra Prakasika",
+     "Satyasamvardhini",
+     "Satyaduta",
+     "Janana Patrika"
+    ],
+    "a": 0,
+    "x": "Andhra Prakasika (1885), A.P. Parthasarathi Naidu's weekly from Madras, is counted as the first Telugu political journal (Chintamani, 1891, is a later political journal). Satyaduta (1835, Bellary Christian Mission) was the first Telugu journal, Satyasamvardhini belonged to the Rajahmundry Prarthana Samaj, and Janana Patrika concerned women's education."
+   }
+  },
+  {
+   "id": "fbdc3ece415e0",
+   "why": "statement 3 fixed per notes (Andhra Prakasika first political journal)",
+   "fix": {
+    "s": "Consider the following statements about Telugu journals:\n1. Satya Doota (1835) was the first Telugu journal.\n2. Vivekavardhini (1874) was the first Telugu social-reform journal.\n3. Andhra Prakasika (1885) was the first Telugu political journal.\nWhich of the statements given above is/are correct?",
+    "x": "All three are correct: Satya Doota is the first Telugu journal, Vivekavardhini the first social-reform journal and Andhra Prakasika the first political journal (Chintamani, 1891, came later)."
+   }
+  },
+  {
+   "id": "ncc5dc95bdf2",
+   "why": "key fixed: only statement 1 correct per notes",
+   "fix": {
+    "o": [
+     "1 only",
+     "2 only",
+     "1 and 3 only",
+     "1, 2 and 3"
+    ],
+    "a": 0,
+    "x": "Only statement 1 is correct: R. Venkataratnam Naidu founded the Social Purity Association (1891). The Varthamana Vyavaharikandhra Bhasha Parivartaka Samaj had Veeresalingam as president and Gidugu only as secretary, and the Temperance and Social Purity Sangham was founded by Desiraju Peda Bapayya, not Veeresalingam."
+   }
+  },
+  {
+   "id": "nap-history-19-20",
+   "why": "MIM (1927) is in this topic's notes; Hyderabad-State history is on APPSC syllabus"
+  },
+  {
+   "id": "nf8914f381ce",
+   "why": "off-topic for this row but AP medieval history (Musunuri Prolaya Nayaka) is core APPSC syllabus"
+  },
+  {
+   "id": "ndb37d99712c",
+   "why": "off-topic for this row but Ikshvakus of Andhra are core APPSC syllabus"
+  },
+  {
+   "id": "f6b7cff6293db",
+   "why": "direct question vs NOT-matched pair format"
+  },
+  {
+   "id": "fab5a8b6ca1b5",
+   "why": "reverse direction: person->journal; PYQ asks journal->person"
+  },
+  {
+   "id": "n40af8c7e92f",
+   "why": "stem year fixed to 1921 per notes",
+   "fix": {
+    "s": "The English daily Swarajya, started at Madras in 1921, was founded by:",
+    "x": "Tanguturi Prakasam founded the English daily Swarajya at Madras in 1921 (APPSC G2 2011 key). Gadicherla Harisarvottama Rao ran a different, Telugu Swarajya at Vijayawada (1907-08), which is the trap. Kasinathuni Nageswara Rao founded Andhra Patrika, and G. Subramania Iyer founded Swadesamitran."
+   }
+  },
+  {
+   "id": "fd8480439aec1",
+   "why": "NOT-correct format teaching growth to all-India coordination; different options"
+  },
+  {
+   "id": "nc0408200a34",
+   "why": "different angle: asks co-founder; PYQ y206b26a5fcb asks the organisation"
+  },
+  {
+   "id": "nindian-history-102-32",
+   "why": "incorrect-statement format vs assertion-reason"
+  },
+  {
+   "id": "nindian-history-102-13",
+   "why": "direct question vs incorrect-statement format"
+  },
+  {
+   "id": "nindian-history-103-24",
+   "why": "reverse direction: founders->party with Gaya context; PYQ asks party->founders"
+  },
+  {
+   "id": "nindian-history-123-15",
+   "why": "direct question vs pair format"
+  },
+  {
+   "id": "nd1720586cf5",
+   "why": "asks the count; n7c4f682a1bb asks the person"
+  },
+  {
+   "id": "faed78a457bfd",
+   "why": "direct question vs pair format"
+  },
+  {
+   "id": "ndbd8d3fd44b",
+   "why": "reverse direction: person->session; PYQ y60c99d33cce asks session->person"
+  },
+  {
+   "id": "nindian-history-120-1",
+   "why": "direct question; only a NOT-correct item covers it in this topic"
+  },
+  {
+   "id": "nindian-history-120-5",
+   "why": "pair-match with different distractors (Drain theory, INA)"
+  },
+  {
+   "id": "f90b506aecce8",
+   "why": "direct question vs pair format"
+  },
+  {
+   "id": "n30eed9e70d2",
+   "why": "different angle: asks the Lahore session year"
+  },
+  {
+   "id": "f79c11e6c87fd",
+   "why": "reverse direction: demand->category; n6af467ba8eb asks category->demand"
+  },
+  {
+   "id": "f76426b801b44",
+   "why": "NOT-correct format covering several provisions of 1892 Act"
+  },
+  {
+   "id": "f16f915861b51",
+   "why": "NOT-a-demand format covering several 1885 demands"
+  },
+  {
+   "id": "n69b3590e002",
+   "why": "key fixed: Andhra Prakasika = A.P. Parthasarathi Naidu per notes",
+   "fix": {
+    "o": [
+     "A.P. Parthasarathi Naidu",
+     "Konda Venkatappayya",
+     "Nyapathi Subbarao",
+     "Gajula Lakshmi Narasu Chetty"
+    ],
+    "a": 0,
+    "x": "Andhra Prakasika, the first political magazine in Andhra, was a Telugu news weekly from Madras run by A.P. Parthasarathi Naidu. Pairing it with P. Anandacharyulu is the wrong pair (APPSC 2019 trap)."
+   }
+  },
+  {
+   "id": "nindian-history-128-16",
+   "why": "pair format teaching year, response, interpretation; PYQ asks only Viceroy"
+  },
+  {
+   "id": "fbb7adc5ebd00",
+   "why": "direct NOT-part question vs incorrect-statement format"
+  },
+  {
+   "id": "ne79664acfc2",
+   "why": "different angle: Krishna Patrika appeal; PYQ asks organiser"
+  },
+  {
+   "id": "ndcc1de4aed7",
+   "why": "different angle: who banned Vandemataram badges; PYQs ask the principal name only"
+  },
+  {
+   "id": "f1acbf773636f",
+   "why": "NOT-correct with new statements (New India 1901, England 1908-11, Andhra tour)"
+  },
+  {
+   "id": "nindian-history-93-20",
+   "why": "off-topic for this row only; modern Indian history movements are core APPSC syllabus"
+  },
+  {
+   "id": "nindian-history-93-12",
+   "why": "off-topic for this row only; modern Indian history movements are core APPSC syllabus"
+  },
+  {
+   "id": "nindian-history-93-13",
+   "why": "off-topic for this row only; modern Indian history movements are core APPSC syllabus"
+  },
+  {
+   "id": "nindian-history-93-16",
+   "why": "off-topic for this row only; modern Indian history movements are core APPSC syllabus"
+  },
+  {
+   "id": "nindian-history-94-19",
+   "why": "off-topic for this row only; modern Indian history movements are core APPSC syllabus"
+  },
+  {
+   "id": "nindian-history-120-8",
+   "why": "off-topic for this row only; modern Indian history movements are core APPSC syllabus"
+  },
+  {
+   "id": "nindian-history-93-14",
+   "why": "off-topic for this row only; modern Indian history movements are core APPSC syllabus"
+  },
+  {
+   "id": "nindian-history-93-6",
+   "why": "off-topic for this row only; modern Indian history movements are core APPSC syllabus"
+  },
+  {
+   "id": "nindian-history-93-7",
+   "why": "off-topic for this row only; modern Indian history movements are core APPSC syllabus"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "n844188b51ab",
+   "why": "exact repeat: same fact/direction as PYQ ye35ebef864e (Roy samadhi/death at Bristol)"
+  },
+  {
+   "id": "n93911fabea5",
+   "why": "exact repeat: same as PYQ ybbd14d11ef0 (founder of Brahmo Samaj = Roy)"
+  },
+  {
+   "id": "nindian-history-58-14",
+   "why": "exact repeat: same as APPSC PYQ y36c2e0eac3f (Tattvabodhini = Debendranath)"
+  },
+  {
+   "id": "n81b60bf799a",
+   "why": "exact repeat: same as APPSC PYQ y02789488d00 (first Andhra Prarthana Samaj, Veeresalingam 1878)"
+  },
+  {
+   "id": "f01752edc6d59",
+   "why": "exact repeat: same as PYQs yf9f72f45e48/yd2d05f2c9d6 (Prarthana Samaj founder)"
+  },
+  {
+   "id": "n56cc8f8bfe3",
+   "why": "exact repeat: same as PYQs yb523783ef1e/yacfd9aceaf3 (Lokahitawadi)"
+  },
+  {
+   "id": "nbbe0916e50e",
+   "why": "exact repeat: same as PYQ y6a32acae6db (Shuddhi = Arya Samaj)"
+  },
+  {
+   "id": "f0ee379c020cf",
+   "why": "exact repeat: same as APPSC PYQ y064ca7043b5 (My Master = Vivekananda)"
+  },
+  {
+   "id": "n3825ddf7ca2",
+   "why": "exact repeat: same as PYQs y17f88944395/y4eefa3fcd60 (RKM 1897)"
+  },
+  {
+   "id": "ndc05737482a",
+   "why": "exact repeat: same as APPSC PYQ y5bb5a788380 (Blavatsky and Olcott)"
+  },
+  {
+   "id": "n1964897461c",
+   "why": "exact repeat: same as APPSC PYQ y2a43c950e8f (TS founded at New York)"
+  },
+  {
+   "id": "nbca81bdbcc1",
+   "why": "exact repeat: same as PYQs y4776bfff75e/y72b48b27bd7 (Central Hindu College = Besant)"
+  },
+  {
+   "id": "nindian-history-14-31",
+   "why": "exact repeat: same as PYQ ybb7c99d8d30 (BHU first Central University)"
+  },
+  {
+   "id": "n2abd701e6bf",
+   "why": "exact repeat: same as APPSC PYQ y8dde792da61 (Shuddhi = Arya Samaj)"
+  },
+  {
+   "id": "nindian-history-95-4",
+   "why": "exact repeat: same as nindian-history-126-10 (Aligarh = modern education among Muslims)"
+  },
+  {
+   "id": "fe5c2b154a94a",
+   "why": "exact repeat: same as PYQ y50eb846a661 (Dev Samaj = Agnihotri)"
+  },
+  {
+   "id": "ne406711d78e",
+   "why": "exact repeat: same as PYQ yaf9110e3609 (Wahabi centre Patna)"
+  },
+  {
+   "id": "n685c3c7c343",
+   "why": "exact repeat: same as PYQs y6512815ae49/y267fefa0f5c (Faraizi founder)"
+  },
+  {
+   "id": "ncb16e06f3b4",
+   "why": "exact repeat: same as APPSC PYQ yacc3eed0e07 (Mohammedan Literary Society at Calcutta)"
+  },
+  {
+   "id": "n79894c64c51",
+   "why": "exact repeat: same as PYQ y60a6500df2a (The Indian Musalmans = Hunter)"
+  },
+  {
+   "id": "f375b257c7474",
+   "why": "exact repeat: same as APPSC PYQs y300e63504d7/y0347cbd4412 (Wahabi anti-British)"
+  },
+  {
+   "id": "nb0931073690",
+   "why": "exact repeat: same as APPSC PYQs yeb9b922badb/ya383dcd5c5b (Mazdayasnan = Parsees)"
+  },
+  {
+   "id": "nd9bbf9d7f7c",
+   "why": "exact repeat: same as PYQs y8417cfb8ae3/y3421ccd3f2a (Vital-Vidhvansak = Walangkar)"
+  },
+  {
+   "id": "n28a586c3160",
+   "why": "exact repeat: same as APPSC PYQ yb2344f5cefa (Vaikom = Temple Entry)"
+  },
+  {
+   "id": "n155cc920e44",
+   "why": "exact repeat: same as APPSC PYQs ybc64613dc61/ye14b1d46d13 (first Justice CM)"
+  },
+  {
+   "id": "ff37eb38d5f7e",
+   "why": "exact repeat: exact duplicate of n7ceceb0b903 (first Chancellor Andhra University)"
+  },
+  {
+   "id": "n0ba9a4a4473",
+   "why": "exact repeat: same as f15acbb3b0784 (Justice Party created Andhra University 1926)"
+  },
+  {
+   "id": "nb0d5e75e199",
+   "why": "exact repeat: wrong key (Hyderabad); once fixed to Hanamkonda it repeats APPSC PYQ y7c481c069f6"
+  },
+  {
+   "id": "n4bb6fadae9d",
+   "why": "exact repeat: same as APPSC PYQ yc861f3b7800 (first girls school Dowlaiswaram)"
+  },
+  {
+   "id": "n58a860f41e7",
+   "why": "exact repeat: same as APPSC PYQ y626ac18025b (Ranade: Vidyasagar of South India)"
+  },
+  {
+   "id": "n59bb3cf6b89",
+   "why": "exact repeat: same as APPSC PYQ y9ceaf1c2965 (first widow remarriage 11 Dec 1881)"
+  },
+  {
+   "id": "nap-history-15-1",
+   "why": "exact repeat: same as APPSC PYQ y085a3d59872 (first Telugu journal Satya Doota)"
+  },
+  {
+   "id": "nap-history-15-14",
+   "why": "exact repeat: same as APPSC PYQ y01e7cf5f373 (Nilagiri from Nalgonda)"
+  },
+  {
+   "id": "nap-history-16-16",
+   "why": "exact repeat: same as APPSC PYQ y84eaaad56d4 (Hasyavardhani = Kokkonda)"
+  },
+  {
+   "id": "nf155c952839",
+   "why": "exact repeat: same as ne0212d4a73c (Gidugu with Gurajada, vyavaharika)"
+  },
+  {
+   "id": "nf144b6c3b0f",
+   "why": "exact repeat: same as APPSC PYQ y1dbef053a3d (Kasiyatra Charitra)"
+  },
+  {
+   "id": "f3c7cc3ad1b88",
+   "why": "exact repeat: same as APPSC PYQ y7f0d27e17fc (Rajasekhara Charitra - Vicar of Wakefield)"
+  },
+  {
+   "id": "n9f8789cf81e",
+   "why": "exact repeat: same as APPSC PYQ y47054ba2191 (Kanyasulkam = Gurajada)"
+  },
+  {
+   "id": "n20d6f7f0344",
+   "why": "exact repeat: same as APPSC PYQ y30f3987b715 (first Telugu novel)"
+  },
+  {
+   "id": "n97bca88cd7f",
+   "why": "exact repeat: same as APPSC PYQ yb2495c9241d (C.P. Brown library Kadapa)"
+  },
+  {
+   "id": "n578de7876bc",
+   "why": "exact repeat: same as APPSC PYQ y69cfa6945af (first magazine from Bellary)"
+  },
+  {
+   "id": "n3966b1ff3cd",
+   "why": "exact repeat: same as APPSC PYQ y521500b477d (Asamardhuni Jeevayatra)"
+  },
+  {
+   "id": "n8343f3f0bf2",
+   "why": "exact repeat: same as APPSC PYQ y87f5ace719c (Vasavi - Penugonda)"
+  },
+  {
+   "id": "nccf08d5a07a",
+   "why": "exact repeat: same as APPSC PYQ y1e72ca104f8 (Female Infanticide Act 1870)"
+  },
+  {
+   "id": "nf695eb266eb",
+   "why": "exact repeat: same as PYQ y5d5b92951fd (Widow Remarriage Act under Canning)"
+  },
+  {
+   "id": "n987565b1e98",
+   "why": "exact repeat: same as PYQ ydceecb872e9 (Native Marriage Act - Keshab)"
+  },
+  {
+   "id": "n4ad3fcadad0",
+   "why": "exact repeat: same as PYQ y7376d6bca5b (Anandamath - Sannyasi)"
+  },
+  {
+   "id": "n64a90df8b01",
+   "why": "exact repeat: same as PYQ y6455ee35d64 (first president BIA)"
+  },
+  {
+   "id": "nc4543719da9",
+   "why": "exact repeat: same as PYQ y909fcaf33cb (72 delegates)"
+  },
+  {
+   "id": "n43d4c74264c",
+   "why": "exact repeat: same as PYQs y11c0023777c/y2250cd1933e (first session president)"
+  },
+  {
+   "id": "n304abbd6655",
+   "why": "exact repeat: same as PYQ y8d4f723cbfb (Gandhi first attended Calcutta 1901)"
+  },
+  {
+   "id": "n955a8abd330",
+   "why": "exact repeat: same as PYQs y74a3e17fc2b/ye499daa1cc7 (first Muslim president Tyabji)"
+  },
+  {
+   "id": "nindian-history-103-21",
+   "why": "exact repeat: same as PYQ y725cef4009a (George Yule first European president)"
+  },
+  {
+   "id": "nindian-history-102-14",
+   "why": "exact repeat: same as PYQ y7103d8e95fd (Tilak last session Amritsar 1919)"
+  },
+  {
+   "id": "n82b79255df4",
+   "why": "exact repeat: same as PYQ y63b079692e0 (youngest president Azad)"
+  },
+  {
+   "id": "nd3b4171f5c5",
+   "why": "exact repeat: same as PYQs yd5133b84f39/y4d0dc5d7201 (Gandhi presided Belgaum)"
+  },
+  {
+   "id": "nindian-history-102-38",
+   "why": "exact repeat: same as PYQs y48e82e6c3fb/y8f2dae74a39 (Haripura = Bose)"
+  },
+  {
+   "id": "nindian-history-123-10",
+   "why": "exact repeat: exact repeat of nindian-history-103-10 (first rural session Faizpur)"
+  },
+  {
+   "id": "nindian-history-102-16",
+   "why": "exact repeat: same as PYQs y7b26001b9c7/yd0db7e4087d (Kripalani at Independence)"
+  },
+  {
+   "id": "nap-history-39-12",
+   "why": "exact repeat: identical to APPSC PYQ yfd5c5a99f9d (Andhra Congress Circle)"
+  },
+  {
+   "id": "nf9e2bbfee44",
+   "why": "exact repeat: same as PYQ y7155f354805 (Banaras 1905 = Gokhale)"
+  },
+  {
+   "id": "n484c83fa24e",
+   "why": "exact repeat: same as PYQ y687869a8abb (Indian Parliamentary Committee purpose)"
+  },
+  {
+   "id": "f61c36ae084ca",
+   "why": "exact repeat: same as PYQ ye308cc401e3 (Wedderburn British Committee 1889)"
+  },
+  {
+   "id": "n0340244d5cd",
+   "why": "exact repeat: same as PYQs y617b89cc775/yfd28e22c465 (Poverty and Un-British Rule)"
+  },
+  {
+   "id": "n7647482fa4a",
+   "why": "exact repeat: same as PYQs yd8279d6227b/yd2fd6d181dd (Curzon tottering to its fall)"
+  },
+  {
+   "id": "na342820df74",
+   "why": "exact repeat: same as APPSC PYQ yfafb0eb1643 (first Telugu president 1891)"
+  },
+  {
+   "id": "f55af39b27f03",
+   "why": "exact repeat: same as APPSC PYQ y87fa1e5bdf8 (Anandacharlu Nagpur 1891)"
+  },
+  {
+   "id": "f0b892649ee9a",
+   "why": "exact repeat: same as APPSC PYQ yc11e03f7ede (Krishna District Association)"
+  },
+  {
+   "id": "f90da60178a05",
+   "why": "exact repeat: same as APPSC PYQs y2cc6b6b670b/yb89258848e6 (Satyadoota - Bellary mission)"
+  },
+  {
+   "id": "n1e59c468440",
+   "why": "exact repeat: same as PYQ yaf036be130d (NCE 15 Aug 1906)"
+  },
+  {
+   "id": "n4d8c3f03d06",
+   "why": "exact repeat: same as PYQs y27106cb1a06/y6645defa122 (Amar Sonar Bangla)"
+  },
+  {
+   "id": "nindian-history-119-5",
+   "why": "exact repeat: same as PYQ y7b56f5b7b33 (Gita Rahasya = Tilak)"
+  },
+  {
+   "id": "nf45d9fcc387",
+   "why": "exact repeat: same as APPSC PYQ y2c707bbd36e (Osmania Vande Mataram 1938)"
+  },
+  {
+   "id": "n19c6fddbf10",
+   "why": "exact repeat: same as APPSC PYQs y594683a3ba7/yf34eee13b73 (Kakinada Riot Case)"
+  },
+  {
+   "id": "nfcb89ff6ce9",
+   "why": "exact repeat: same as APPSC PYQ yda1b47164aa (Pal host at Machilipatnam)"
+  },
+  {
+   "id": "f0bd58c123880",
+   "why": "exact repeat: same as APPSC PYQ y2f8b079026a (Pal stay at Machilipatnam - Ramadasu Naidu)"
+  },
+  {
+   "id": "f81e70c6bd446",
+   "why": "exact repeat: same as n5f14982ffd7 (138 students debarred two years)"
+  },
+  {
+   "id": "f0657d8c45239",
+   "why": "exact repeat: same as APPSC PYQ ycfa7a8c1d5c (Young Men's Association)"
+  },
+  {
+   "id": "n2bd62718575",
+   "why": "exact repeat: same as APPSC PYQ ye74a72e3e1c (Japan Charitra = Adipudi Somanatha Rao)"
+  },
+  {
+   "id": "f69ea75224e01",
+   "why": "exact repeat: same as n26e00cd94fe (Chilakamarti - Desamata)"
+  },
+  {
+   "id": "nb9c7ed0f49e",
+   "why": "exact repeat: same as APPSC PYQ y1fd41ff07c8 (Chinnappa Reddy)"
+  },
+  {
+   "id": "f415f7e503847",
+   "why": "trivia: death count of Kotappakonda riots; also covered by n0e8b92f93ec"
+  },
+  {
+   "id": "nc39263bf1d0",
+   "why": "exact repeat: same stem and options as APPSC PYQ y2c4234de6c6"
+  },
+  {
+   "id": "n00dcf5e1418",
+   "why": "exact repeat: same as PYQ y181823521f3 (Extremist = B.C. Pal)"
+  },
+  {
+   "id": "n363eb876977",
+   "why": "exact repeat: same as PYQs y291f91dbe25/ybb53c2f8e79 (New Lamps for Old)"
+  },
+  {
+   "id": "f00441f5dfbb2",
+   "why": "exact repeat: same as n43f4e3e8a1f (regional Extremist pairs)"
+  },
+  {
+   "id": "nindian-history-119-14",
+   "why": "exact repeat: same as PYQs y984484e8971/y9acbe943f2e (Father of Indian Unrest)"
+  },
+  {
+   "id": "nindian-history-96-8",
+   "why": "exact repeat: same as PYQ y8f7db657a9e (Punjab Kesari)"
+  },
+  {
+   "id": "ffc9e371e33f7",
+   "why": "exact repeat: same as PYQ y0885d3e2756 (Martin Luther of India)"
+  },
+  {
+   "id": "nindian-history-96-12",
+   "why": "exact repeat: same as PYQ y7d28f645702 (Grand Old Man)"
+  },
+  {
+   "id": "n8f0fc8ac94b",
+   "why": "exact repeat: same as PYQ ya400d146011 (Surat split led by Tilak)"
+  },
+  {
+   "id": "n97f86d93c5e",
+   "why": "exact repeat: same as PYQ yd82626b6657 (Surat president)"
+  },
+  {
+   "id": "nindian-history-119-30",
+   "why": "exact repeat: same as PYQ y80bf6ea19c8 (Surat split 1907)"
+  },
+  {
+   "id": "nac8820a89eb",
+   "why": "exact repeat: same as UPSC PYQ ydf5c1c7e897 (cause of Surat split)"
+  },
+  {
+   "id": "fe264dd36fc19",
+   "why": "exact repeat: same as APPSC PYQ y220785b2aa7 (events of Extremist phase)"
+  }
+ ]
+}
