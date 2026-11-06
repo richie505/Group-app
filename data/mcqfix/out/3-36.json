@@ -1,89 +1,1221 @@
-{"reshape": {
-"n7db6d534486": {"shape": "statements", "s": "Consider the following statements about the 'Twin Balance Sheet' problem:\n1. It was highlighted in the Economic Survey 2016-17.\n2. It refers to over-leveraged corporates and stressed banks together choking private capex.\n3. The hidden NPAs behind it were exposed by the RBI Asset Quality Review of 2019.\nWhich of the statements given above is/are correct?", "o": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"], "a": 0, "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the Asset Quality Review that exposed hidden NPAs was in 2015, not 2019."},
-"n49cf62090f3": {"shape": "one-liner", "s": "In the Economic Survey 2025-26, the projected FY26 growth of the services sector was:", "o": ["3.1%", "7.0%", "9.1%", "7.4%"], "a": 2, "x": "Services were projected to grow 9.1% in FY26, ahead of manufacturing (7.0%) and agriculture (3.1%)."},
-"ne73446c3555": {"shape": "match", "s": "Which of the following pairs is correctly matched?", "o": ["Compiler of Andhra Pradesh's GSDP – National Statistical Office", "Compiler of Andhra Pradesh's GSDP – State Directorate of Economics & Statistics", "State Domestic Product – goods and services counted at every stage, with duplication", "State Domestic Product – value of goods and services produced outside the State"], "a": 1, "x": "AP's GSDP is compiled by the State Directorate of Economics & Statistics, not the NSO. SDP is the value of goods and services produced within the State in a year, counted without duplication."},
-"n61be65f63a0": {"shape": "match", "s": "Which of the following pairs is correctly matched for Andhra Pradesh's services sector?", "o": ["Slowest-growing services sub-sector, 2025-26 (FAE) – Communications", "Two smallest services sub-sectors by GVA, 2024-25 – Trade and Communications", "Fastest-growing services sub-sector, 2025-26 (FAE) – Communications", "Growth of Communications, 2025-26 (FAE) – 4.41%"], "a": 2, "x": "Communications, though one of the two smallest services sub-sectors (with Railways), was the fastest-growing in 2025-26 at 15.13%."},
-"n35c6fe34c0b": {"shape": "one-liner", "s": "The Visakhapatnam Economic Region, a growth-hub pilot with NITI Aayog, covers how many districts?", "o": ["8", "9", "10", "12"], "a": 2, "x": "VER covers 10 districts and targets a $750-800 billion economy by 2047; nine districts is the Amaravati Economic Region."},
-"n32dfd2a1b6c": {"shape": "one-liner", "s": "The special development package under the AP Reorganisation Act, 2014 covers how many backward districts?", "o": ["Five", "Seven", "Nine", "Thirteen"], "a": 1, "x": "The package covers seven districts: three of North Coastal Andhra and four of Rayalaseema."},
-"na63a0fbc56b": {"shape": "one-liner", "s": "Who compiles the District Domestic Product in Andhra Pradesh?", "o": ["National Statistical Office", "NITI Aayog", "Reserve Bank of India", "State Directorate of Economics and Statistics"], "a": 3, "x": "District Domestic Product is compiled by the State Directorate of Economics and Statistics, not the NSO."},
-"n34702a7132c": {"shape": "match", "s": "Which of the following pairs is correctly matched?", "o": ["AP's per capita income vs India's, since 2014-15 – below India's in most years", "AP's per capita income as a multiple of India's, 2025-26 – about 1.34 times", "AP's per capita income as a multiple of India's, 2025-26 – about 0.75 times", "AP's per capita income as a multiple of India's, 2025-26 – about 2.34 times"], "a": 1, "x": "In 2025-26 AP's per capita income was about 1.34 times the national figure; it has stayed above India's every year since 2014-15."},
-"ncc632648028": {"shape": "one-liner", "s": "Which naval command is identified as a driver of Visakhapatnam's leading district per capita income?", "o": ["Western Naval Command", "Eastern Naval Command", "Southern Naval Command", "Andaman and Nicobar Command"], "a": 1, "x": "The drivers named were Vizag Port; RINL, Hindustan Shipyard and HPCL refinery; Rushikonda IT Park; and the Eastern Naval Command."},
-"ndca27c3b837": {"shape": "one-liner", "s": "In 2024-25, Telangana's per capita income was about how many times that of Andhra Pradesh?", "o": ["0.96", "1.15", "1.35", "1.50"], "a": 2, "x": "Telangana's PCI was 1.35 times AP's, while its economy was 96.5% of AP's size."}
+{
+"reshape": {
+"n7db6d534486": {
+"shape": "statements",
+"s": "Consider the following statements about the 'Twin Balance Sheet' problem:\n1. It was highlighted in the Economic Survey 2016-17.\n2. It refers to over-leveraged corporates and stressed banks together choking private capex.\n3. The hidden NPAs behind it were exposed by the RBI Asset Quality Review of 2019.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 0,
+"x": "Statements 1 and 2 are correct. Statement 3 is wrong: the Asset Quality Review that exposed hidden NPAs was in 2015, not 2019."
+},
+"n49cf62090f3": {
+"shape": "one-liner",
+"s": "In the Economic Survey 2025-26, the projected FY26 growth of the services sector was:",
+"o": [
+"3.1%",
+"7.0%",
+"9.1%",
+"7.4%"
+],
+"a": 2,
+"x": "Services were projected to grow 9.1% in FY26, ahead of manufacturing (7.0%) and agriculture (3.1%)."
+},
+"ne73446c3555": {
+"shape": "match",
+"s": "Which of the following pairs is correctly matched?",
+"o": [
+"Compiler of Andhra Pradesh's GSDP – National Statistical Office",
+"Compiler of Andhra Pradesh's GSDP – State Directorate of Economics & Statistics",
+"State Domestic Product – goods and services counted at every stage, with duplication",
+"State Domestic Product – value of goods and services produced outside the State"
+],
+"a": 1,
+"x": "AP's GSDP is compiled by the State Directorate of Economics & Statistics, not the NSO. SDP is the value of goods and services produced within the State in a year, counted without duplication."
+},
+"n61be65f63a0": {
+"shape": "match",
+"s": "Which of the following pairs is correctly matched for Andhra Pradesh's services sector?",
+"o": [
+"Slowest-growing services sub-sector, 2025-26 (FAE) – Communications",
+"Two smallest services sub-sectors by GVA, 2024-25 – Trade and Communications",
+"Fastest-growing services sub-sector, 2025-26 (FAE) – Communications",
+"Growth of Communications, 2025-26 (FAE) – 4.41%"
+],
+"a": 2,
+"x": "Communications, though one of the two smallest services sub-sectors (with Railways), was the fastest-growing in 2025-26 at 15.13%."
+},
+"n35c6fe34c0b": {
+"shape": "one-liner",
+"s": "The Visakhapatnam Economic Region, a growth-hub pilot with NITI Aayog, covers how many districts?",
+"o": [
+"8",
+"9",
+"10",
+"12"
+],
+"a": 2,
+"x": "VER covers 10 districts and targets a $750-800 billion economy by 2047; nine districts is the Amaravati Economic Region."
+},
+"n32dfd2a1b6c": {
+"shape": "one-liner",
+"s": "The special development package under the AP Reorganisation Act, 2014 covers how many backward districts?",
+"o": [
+"Five",
+"Seven",
+"Nine",
+"Thirteen"
+],
+"a": 1,
+"x": "The package covers seven districts: three of North Coastal Andhra and four of Rayalaseema."
+},
+"na63a0fbc56b": {
+"shape": "one-liner",
+"s": "Who compiles the District Domestic Product in Andhra Pradesh?",
+"o": [
+"National Statistical Office",
+"NITI Aayog",
+"Reserve Bank of India",
+"State Directorate of Economics and Statistics"
+],
+"a": 3,
+"x": "District Domestic Product is compiled by the State Directorate of Economics and Statistics, not the NSO."
+},
+"n34702a7132c": {
+"shape": "match",
+"s": "Which of the following pairs is correctly matched?",
+"o": [
+"AP's per capita income vs India's, since 2014-15 – below India's in most years",
+"AP's per capita income as a multiple of India's, 2025-26 – about 1.34 times",
+"AP's per capita income as a multiple of India's, 2025-26 – about 0.75 times",
+"AP's per capita income as a multiple of India's, 2025-26 – about 2.34 times"
+],
+"a": 1,
+"x": "In 2025-26 AP's per capita income was about 1.34 times the national figure; it has stayed above India's every year since 2014-15."
+},
+"ncc632648028": {
+"shape": "one-liner",
+"s": "Which naval command is identified as a driver of Visakhapatnam's leading district per capita income?",
+"o": [
+"Western Naval Command",
+"Eastern Naval Command",
+"Southern Naval Command",
+"Andaman and Nicobar Command"
+],
+"a": 1,
+"x": "The drivers named were Vizag Port; RINL, Hindustan Shipyard and HPCL refinery; Rushikonda IT Park; and the Eastern Naval Command."
+},
+"ndca27c3b837": {
+"shape": "one-liner",
+"s": "In 2024-25, Telangana's per capita income was about how many times that of Andhra Pradesh?",
+"o": [
+"0.96",
+"1.15",
+"1.35",
+"1.50"
+],
+"a": 2,
+"x": "Telangana's PCI was 1.35 times AP's, while its economy was 96.5% of AP's size."
+}
 },
 "new": [
-{"topic": 108, "sec": 1, "angle": "4", "shape": "one-liner", "s": "The Annual Financial Statement (Union Budget), unlike the Economic Survey, is a constitutional obligation under Article:", "o": ["110", "112", "114", "117"], "a": 1, "x": "The Budget (Annual Financial Statement) is laid under Article 112; presenting the Economic Survey is only a convention."},
-{"topic": 108, "sec": 1, "angle": "4", "shape": "one-liner", "s": "India's first Economic Survey was presented for the year:", "o": ["1947-48", "1950-51", "1964-65", "1951-52"], "a": 1, "x": "The first Survey was for 1950-51; it has been presented separately from the Budget only since 1964."},
-{"topic": 108, "sec": 1, "angle": "4", "shape": "one-liner", "s": "Since which edition has the Economic Survey been a single volume with a statistical appendix?", "o": ["2019-20", "2020-21", "2022-23", "2021-22"], "a": 3, "x": "The Survey had two volumes in the Subramanian years and became a single volume with a statistical appendix from 2021-22."},
-{"topic": 108, "sec": 1, "angle": "4", "shape": "one-liner", "s": "How many chapters does the Economic Survey 2025-26 have?", "o": ["12", "15", "17", "20"], "a": 2, "x": "ES 2025-26 has 17 chapters, including new ones on Artificial Intelligence and urbanisation."},
-{"topic": 108, "sec": 2, "angle": "5", "shape": "one-liner", "s": "The Economic Surveys from 2014-15 to 2017-18 were authored under which Chief Economic Adviser?", "o": ["K.V. Subramanian", "Arvind Subramanian", "V. Anantha Nageswaran", "Sanjeev Sanyal"], "a": 1, "x": "Arvind Subramanian was CEA for the Surveys 2014-15 to 2017-18; K.V. Subramanian followed for 2018-19 to 2020-21."},
-{"topic": 108, "sec": 2, "angle": "5", "shape": "one-liner", "s": "The only Economic Survey prepared under a Principal Economic Adviser, Sanjeev Sanyal, was:", "o": ["2020-21", "2022-23", "2021-22", "2019-20"], "a": 2, "x": "The 2021-22 Survey came under Principal Economic Adviser Sanjeev Sanyal, between the tenures of K.V. Subramanian and V. Anantha Nageswaran."},
-{"topic": 108, "sec": 2, "angle": "5", "shape": "NOT", "s": "Which of the following is NOT correct about Chief Economic Adviser V. Anantha Nageswaran?", "o": ["He took charge on 28 January 2022", "His term has been extended to 31 March 2027", "He authored the Surveys from 2018-19 to 2020-21", "The Economic Survey 2025-26 was prepared under him"], "a": 2, "x": "The Surveys 2018-19 to 2020-21 were under K.V. Subramanian; Nageswaran covers 2022-23 to 2025-26."},
-{"topic": 108, "sec": 3, "angle": "1", "shape": "one-liner", "s": "'Thalinomics', the affordability of a thali, featured in the Economic Survey of:", "o": ["2018-19", "2020-21", "2017-18", "2019-20"], "a": 3, "x": "Thalinomics was in ES 2019-20; the Bare Necessities Index followed in ES 2020-21."},
-{"topic": 108, "sec": 3, "angle": "1", "shape": "one-liner", "s": "The JAM trinity (Jan Dhan, Aadhaar, Mobile) for targeted DBT was the signature idea of the Economic Survey:", "o": ["2014-15", "2015-16", "2016-17", "2018-19"], "a": 0, "x": "ES 2014-15 put forward the JAM trinity under the theme 'Wiping Every Tear from Every Eye'."},
-{"topic": 108, "sec": 3, "angle": "1", "shape": "one-liner", "s": "Which Economic Survey had a pink cover to highlight gender issues?", "o": ["2016-17", "2017-18", "2018-19", "2019-20"], "a": 1, "x": "ES 2017-18 carried a pink cover on gender, along with a chapter on climate change and agriculture."},
-{"topic": 108, "sec": 3, "angle": "1,2", "shape": "one-liner", "s": "The Economic Survey 2021-22 followed an 'agile approach' using how many high-frequency indicators?", "o": ["40", "60", "80", "100"], "a": 2, "x": "ES 2021-22 tracked 80 high-frequency indicators under an 'agile approach'."},
-{"topic": 108, "sec": 4, "angle": "1", "shape": "NOT", "s": "Which of the following is NOT a component of the Bare Necessities Index of the Economic Survey 2020-21?", "o": ["Housing", "Sanitation", "Primary education", "Clean cooking fuel"], "a": 2, "x": "The Bare Necessities Index covered housing, water, sanitation, electricity and clean cooking fuel; primary education was not one."},
-{"topic": 108, "sec": 4, "angle": "1", "shape": "one-liner", "s": "Both the 'Chakravyuha challenge' and the 'Twin Balance Sheet' problem were answered mainly by the:", "o": ["Goods and Services Tax", "Insolvency and Bankruptcy Code", "Universal Basic Income", "JAM trinity"], "a": 1, "x": "The exit problem of firms (Chakravyuha, 2015-16) and the Twin Balance Sheet problem (2016-17) were both answered by the IBC."},
-{"topic": 108, "sec": 5, "angle": "3", "shape": "one-liner", "s": "The Bare Necessities Index was built from which NSO survey rounds?", "o": ["68th and 75th", "69th and 76th", "70th and 77th", "66th and 72nd"], "a": 1, "x": "The Index used the NSO 69th (2012) and 76th (2018) rounds."},
-{"topic": 108, "sec": 5, "angle": "2", "shape": "one-liner", "s": "The Economic Survey 2022-23 projected India's real GDP growth for 2023-24 at:", "o": ["6.0%", "7.0%", "6.5%", "7.4%"], "a": 2, "x": "ES 2022-23 projected 6.5% real growth for 2023-24."},
-{"topic": 108, "sec": 6, "angle": "2", "shape": "one-liner", "s": "The Economic Survey 2025-26 projected India's real GDP growth for FY27 at:", "o": ["6.3% - 6.8%", "6.8% - 7.2%", "7.0% - 7.5%", "7.4% - 7.8%"], "a": 1, "x": "ES 2025-26 projected 6.8% - 7.2% for FY27, after 7.4% in FY26 (First Advance Estimates)."},
-{"topic": 108, "sec": 6, "angle": "2", "shape": "one-liner", "s": "The Economic Survey 2025-26 placed India's potential growth at:", "o": ["6.5%", "6.8%", "7.4%", "7.0%"], "a": 3, "x": "Potential growth was raised to 7.0% from the 6.5% estimated in ES 2022-23."},
-{"topic": 108, "sec": 6, "angle": "2", "shape": "one-liner", "s": "According to the Economic Survey 2025-26, the gross NPA ratio of banks, a multi-decade low, stood at:", "o": ["2.2%", "1.7%", "3.2%", "4.8%"], "a": 0, "x": "Bank GNPA fell to 2.2%, a multi-decade low, alongside a 125 bps repo cut since February 2025."},
-{"topic": 108, "sec": 6, "angle": "2", "shape": "statements", "s": "Consider the following statements about fiscal and external data in the Economic Survey 2025-26:\n1. The fiscal deficit in FY25 was 4.8% against 4.9% budgeted.\n2. The fiscal deficit target for FY26 is 4.4%.\n3. The current account deficit in H1 FY26 was 2.8% of GDP.\nWhich of the statements given above is/are correct?", "o": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"], "a": 0, "x": "Statements 1 and 2 are correct. The CAD in H1 FY26 was only 0.8% of GDP, not 2.8%."},
-{"topic": 108, "sec": 7, "angle": "6", "shape": "one-liner", "s": "The Economic Survey 2025-26 called for a shift from 'regulation and control' to:", "o": ["privatisation", "enabling", "self-regulation", "centralisation"], "a": 1, "x": "ES 2025-26 urged moving from 'regulation and control' to 'enabling', with trust-based compliance replacing inspection."},
-{"topic": 108, "sec": 7, "angle": "6", "shape": "one-liner", "s": "The idea of the State 'letting go' of its grip on non-essential sectors was set out in the Economic Survey:", "o": ["2022-23", "2024-25", "2023-24", "2025-26"], "a": 2, "x": "'Letting go' was the ES 2023-24 idea; deregulation became the central theme in ES 2024-25."},
-
-{"topic": 109, "sec": 2, "angle": "9,6", "shape": "one-liner", "s": "Andhra Pradesh accounts for about what share of India's population?", "o": ["3.09%", "4.09%", "4.96%", "5.8%"], "a": 1, "x": "AP has 4.09% of India's population (10th); 4.96% is its share of area."},
-{"topic": 109, "sec": 2, "angle": "10", "shape": "one-liner", "s": "With a coastline of 1,053.07 km, Andhra Pradesh has India's:", "o": ["longest coastline", "second longest coastline", "third longest coastline", "fourth longest coastline"], "a": 2, "x": "AP's 1,053.07 km coastline is the third longest in India."},
-{"topic": 109, "sec": 2, "angle": "10", "shape": "one-liner", "s": "Mines and Minerals contribute about what share of Andhra Pradesh's own non-tax revenue (2024-25 RE)?", "o": ["25%", "35%", "50%", "65%"], "a": 2, "x": "Mines and Minerals formed about 50% of the State's own non-tax revenue in 2024-25 RE."},
-{"topic": 109, "sec": 2, "angle": "12", "shape": "one-liner", "s": "The AP Economic Development Board is a statutory body under an Act of which year?", "o": ["2014", "2016", "2018", "2020"], "a": 2, "x": "APEDB functions under the AP Economic Development Board Act, 2018."},
-{"topic": 109, "sec": 2, "angle": "12", "shape": "NOT", "s": "Which of the following is NOT correct about the AP Economic Development Board (APEDB)?", "o": ["Its Chairman is the Chief Minister", "Its Vice-Chairman is the Minister for Finance and Planning", "It acts as a single point of contact for investments", "Its Chairman is the Governor"], "a": 3, "x": "The Chief Minister, not the Governor, chairs APEDB; the Finance and Planning Minister is Vice-Chairman."},
-{"topic": 109, "sec": 2, "angle": "13", "shape": "one-liner", "s": "In the Sixth Economic Census (2013-14), undivided Andhra Pradesh had what share of India's establishments?", "o": ["4.96%", "5.8%", "7.25%", "9.1%"], "a": 2, "x": "Undivided AP had 7.25% of India's establishments in the Sixth Economic Census, ranking 5th."},
-{"topic": 109, "sec": 2, "angle": "13", "shape": "one-liner", "s": "Undivided Andhra Pradesh's rank among States by number of establishments in the Sixth Economic Census was:", "o": ["3rd", "5th", "7th", "8th"], "a": 1, "x": "With 7.25% of India's establishments, undivided AP ranked 5th in the Sixth Economic Census (2013-14)."},
-{"topic": 109, "sec": 2, "angle": "21,6", "shape": "one-liner", "s": "In 2025-26, Andhra Pradesh's GSDP of ₹17.62 lakh crore was about what share of India's GDP?", "o": ["3.9%", "4.9%", "5.8%", "7.25%"], "a": 1, "x": "₹17.62 lakh crore of India's ₹357.14 lakh crore is about 4.9%, up from 4.7% in 2023-24."},
-{"topic": 109, "sec": 3, "angle": "22,1", "shape": "one-liner", "s": "Andhra Pradesh's real GSDP growth for 2024-25 was 9.24% at FAE; at the First Revised Estimate it was:", "o": ["8.27%", "9.88%", "7.14%", "10.75%"], "a": 0, "x": "The 2024-25 real growth was revised from 9.24% (FAE) to 8.27% (FRE), which is why the estimate stage must be quoted."},
-{"topic": 109, "sec": 3, "angle": "22", "shape": "one-liner", "s": "Which is the correct order of GSDP estimate stages?", "o": ["FRE → AE → SRE → TRE", "AE → SRE → FRE → TRE", "AE → FRE → SRE → TRE", "TRE → SRE → FRE → AE"], "a": 2, "x": "Advance estimates come first, followed by the First, Second and Third Revised Estimates."},
-{"topic": 109, "sec": 3, "angle": "20,1", "shape": "one-liner", "s": "Andhra Pradesh's Socio-Economic Survey tables compute GSDP at constant prices of the base year:", "o": ["2004-05", "2011-12", "2019-20", "2022-23"], "a": 1, "x": "AP still uses the 2011-12 base; 2022-23 is the base of India's new MoSPI series and 2019-20 is wrong."},
-{"topic": 109, "sec": 3, "angle": "20", "shape": "one-liner", "s": "GSDP is obtained from GVA by:", "o": ["adding product taxes and subtracting product subsidies", "adding product subsidies and subtracting product taxes", "subtracting depreciation", "adding net factor income from abroad"], "a": 0, "x": "GSDP = GVA + product taxes – product subsidies."},
-{"topic": 109, "sec": 5, "angle": "17", "shape": "one-liner", "s": "In 2023-24, Andhra Pradesh's constant-price growth of 6.18% compared with India's:", "o": ["6.4%", "7.4%", "8.2%", "9.24%"], "a": 2, "x": "AP grew slower than India (8.2%) in 2023-24 but faster from 2024-25 onwards."},
-{"topic": 109, "sec": 6, "angle": "27", "shape": "one-liner", "s": "Andhra Pradesh's share of agriculture and allied sectors in GVA is roughly how much of India's share?", "o": ["Half", "About equal", "Twice", "Four times"], "a": 2, "x": "AP's agriculture share (35.29% in 2024-25) is about twice India's (~18%)."},
-{"topic": 109, "sec": 6, "angle": "28", "shape": "one-liner", "s": "The agriculture : industry : services shares in Andhra Pradesh's GVA in 2014-15 were about:", "o": ["30 : 26 : 44", "35 : 23 : 42", "33 : 24 : 43", "18 : 28 : 54"], "a": 0, "x": "The structure shifted from 30 : 26 : 44 in 2014-15 to 35 : 23 : 42 in 2024-25."},
-{"topic": 109, "sec": 6, "angle": "42", "shape": "one-liner", "s": "According to SES 2024-25, about what share of Andhra Pradesh's workforce is in services?", "o": ["22.8%", "31.6%", "45.6%", "53.5%"], "a": 1, "x": "SES 2024-25: agriculture 45.6%, manufacturing 22.8% and services 31.6% of the workforce."},
-{"topic": 109, "sec": 6, "angle": "37,26", "shape": "one-liner", "s": "Livestock, about ₹1.5 lakh crore in 2023-24, formed what share of Andhra Pradesh's agriculture GVA?", "o": ["12%", "20.5%", "30.87%", "43%"], "a": 2, "x": "Livestock was about ₹1.5 lakh crore, i.e. 30.87% of agriculture GVA."},
-{"topic": 109, "sec": 7, "angle": "30,40", "shape": "one-liner", "s": "Which services sub-sector had the largest GVA in Andhra Pradesh in 2024-25?", "o": ["Communications", "Public Administration", "Banking & Insurance", "Trade, Hotels & Restaurants"], "a": 3, "x": "Trade, Hotels & Restaurants had the largest services GVA (₹69,836 crore); Public Administration grew slowest."},
-{"topic": 109, "sec": 8, "angle": "31", "shape": "one-liner", "s": "Residual Andhra Pradesh's post-bifurcation peak foodgrain production of 123.57 lakh tonnes was in:", "o": ["2017-18", "2019-20", "2020-21", "2022-23"], "a": 1, "x": "Foodgrains peaked at 123.57 lakh tonnes in 2019-20, after the drought dip of 2018-19."},
-{"topic": 109, "sec": 8, "angle": "31", "shape": "one-liner", "s": "Andhra Pradesh's foodgrain output dipped to 108.39 lakh tonnes due to drought in:", "o": ["2016-17", "2018-19", "2020-21", "2021-22"], "a": 1, "x": "2018-19 saw a drought dip to 108.39 lakh tonnes, followed by the 2019-20 peak of 123.57 lakh tonnes."},
-{"topic": 109, "sec": 8, "angle": "24,33", "shape": "one-liner", "s": "SES 2024-25 targets 30% agricultural growth over five years through how many growth engines?", "o": ["10", "12", "15", "17"], "a": 3, "x": "The target is 30% growth over five years via 17 growth engines."},
-{"topic": 109, "sec": 8, "angle": "34", "shape": "one-liner", "s": "Fertiliser utilisation as a percentage of allotment in Andhra Pradesh in 2016-17 (AE) was:", "o": ["38.1%", "54.2%", "80.78%", "92.4%"], "a": 0, "x": "Utilisation fell from 80.78% (2015-16) to 38.1% (2016-17 AE)."},
-{"topic": 109, "sec": 8, "angle": "36,7", "shape": "one-liner", "s": "In 2025-26, Andhra Pradesh ranked second in India, after Karnataka, in the production of:", "o": ["Eggs", "Raw silk", "Milk", "Meat"], "a": 1, "x": "AP was 2nd in raw silk after Karnataka; it was 1st in eggs, 4th in meat and 7th in milk."},
-{"topic": 109, "sec": 9, "angle": "38", "shape": "one-liner", "s": "Which Andhra Pradesh district, despite leading in bank branches, had the fewest post offices as on 31 December 2024?", "o": ["Prakasam", "Krishna", "Visakhapatnam", "YSR Kadapa"], "a": 2, "x": "Visakhapatnam leads in bank branches and mobile connections but has the fewest post offices; Prakasam has the most."},
-{"topic": 109, "sec": 9, "angle": "44,45", "shape": "one-liner", "s": "The RMZ GCC Park, an emerging services hub, is located in:", "o": ["Vijayawada", "Tirupati", "Amaravati", "Visakhapatnam"], "a": 3, "x": "Visakhapatnam hosts the RMZ GCC Park along with the Google data centre, TCS and Cognizant."},
-{"topic": 109, "sec": 9, "angle": "43", "shape": "one-liner", "s": "STPI exports from Andhra Pradesh in Q2 2025-26 grew by:", "o": ["15.1%", "22.8%", "32.2%", "43.0%"], "a": 2, "x": "STPI exports rose 32.2% in Q2 2025-26, alongside growth in GCCs and data centres."},
-{"topic": 109, "sec": 9, "angle": "45", "shape": "one-liner", "s": "Vijayawada (NTR district) had how many bank branches?", "o": ["522", "624", "668", "8,555"], "a": 0, "x": "Vijayawada (NTR) had 522 bank branches; Visakhapatnam led with 624."},
-{"topic": 109, "sec": 10, "angle": "23", "shape": "one-liner", "s": "Which district had the highest Gross District Domestic Product in Andhra Pradesh in 2023-24?", "o": ["NTR", "Tirupati", "Visakhapatnam", "Krishna"], "a": 2, "x": "Visakhapatnam led with ₹1,14,859 crore, followed by NTR and Tirupati."},
-{"topic": 109, "sec": 10, "angle": "23", "shape": "one-liner", "s": "Which district had the lowest per capita GDDP in Andhra Pradesh in 2023-24?", "o": ["Parvathipuram Manyam", "Srikakulam", "Alluri Sitharama Raju", "Vizianagaram"], "a": 1, "x": "Srikakulam had the lowest per capita GDDP (₹1,59,029); Parvathipuram Manyam had the lowest GDDP."},
-{"topic": 109, "sec": 10, "angle": "16", "shape": "one-liner", "s": "Andhra Pradesh's districts were reorganised from 13 to 26 on:", "o": ["2 June 2014", "4 April 2022", "13 December 2024", "30 March 2025"], "a": 1, "x": "The 13 districts of 2014 became 26 on 4 April 2022 (28 now)."},
-{"topic": 109, "sec": 10, "angle": "15", "shape": "one-liner", "s": "Andhra Pradesh's capital outlay rose from ₹16,141 crore in 2024-25 to what in 2025-26 RE?", "o": ["₹24,513 crore", "₹33,135 crore", "₹48,311 crore", "₹70,548 crore"], "a": 1, "x": "Capital outlay rose to ₹33,135 crore in 2025-26 RE; ₹48,311 crore was the revenue deficit."},
-{"topic": 109, "sec": 11, "angle": "19,8", "shape": "one-liner", "s": "Sunrise Andhra Pradesh Vision 2029 targeted a compound annual growth rate of:", "o": ["10%", "12%", "15%", "18%"], "a": 1, "x": "Vision 2029 aimed at 12% CAGR till 2029; Swarna Andhra @2047 envisages 15% annual growth."},
-{"topic": 109, "sec": 11, "angle": "4,8", "shape": "one-liner", "s": "Under Swarna Andhra @2047, the women's workforce participation target is:", "o": ["More than 45%", "More than 60%", "More than 80%", "More than 95%"], "a": 2, "x": "The 2047 target is women's workforce participation above 80% (now about 45.8%); >95% is the skilled-workforce target."},
-{"topic": 109, "sec": 11, "angle": "24", "shape": "one-liner", "s": "The Zero Poverty-P4 initiative was launched on Ugadi in:", "o": ["2024", "2025", "2026", "2023"], "a": 1, "x": "P4 was launched on Ugadi, 30 March 2025, with the Swarna Andhra P4 Foundation as nodal body."},
-
-{"topic": 110, "sec": 1, "angle": "14", "shape": "one-liner", "s": "Per capita income can fall in a developing country even as national income rises when:", "o": ["population grows faster than income", "inflation falls", "depreciation is ignored", "income grows faster than population"], "a": 0, "x": "PCI = income ÷ population, so it falls if population growth exceeds income growth."},
-{"topic": 110, "sec": 3, "angle": "9,1", "shape": "one-liner", "s": "Andhra Pradesh's per capita income in 2025-26 (FAE) at current prices was:", "o": ["₹2,19,575", "₹2,66,699", "₹2,94,507", "₹3,21,651"], "a": 2, "x": "AP's PCI was ₹2,94,507 in 2025-26 FAE; ₹2,19,575 was India's."},
-{"topic": 110, "sec": 3, "angle": "9", "shape": "one-liner", "s": "Andhra Pradesh's slowest per capita income growth, 4.10%, was recorded in:", "o": ["2019-20", "2020-21", "2023-24", "2014-15"], "a": 0, "x": "PCI growth was slowest at 4.10% in 2019-20 and fastest at 15.26% in 2021-22."},
-{"topic": 110, "sec": 4, "angle": "10", "shape": "one-liner", "s": "The gap between Andhra Pradesh's and India's per capita income in 2025-26 was about:", "o": ["₹25,000", "₹50,000", "₹75,000", "₹1,00,000"], "a": 2, "x": "AP's PCI (₹2,94,507) exceeded India's (₹2,19,575) by about ₹75,000."},
-{"topic": 110, "sec": 4, "angle": "10", "shape": "one-liner", "s": "With a per capita income of about $2,760, India is classified as a:", "o": ["low-income economy", "lower-middle-income economy", "upper-middle-income economy", "high-income economy"], "a": 1, "x": "India is a lower-middle-income economy with PCI about $2,760."},
-{"topic": 110, "sec": 4, "angle": "5,10", "shape": "one-liner", "s": "In 2023-24, Andhra Pradesh's per capita GSDP was ₹2,70,295 against India's per capita GDP of:", "o": ["₹1,84,205", "₹1,88,892", "₹2,15,935", "₹2,39,311"], "a": 2, "x": "India's per capita GDP was ₹2,15,935; gross measures are compared with gross, not with per capita income."},
-{"topic": 110, "sec": 5, "angle": "2", "shape": "one-liner", "s": "Which State had the highest per capita NSDP in India in 2023-24?", "o": ["Goa", "Karnataka", "Telangana", "Sikkim"], "a": 3, "x": "Sikkim (₹5,87,743) was highest, just ahead of Goa (₹5,85,953); Bihar was lowest."},
-{"topic": 110, "sec": 5, "angle": "5", "shape": "one-liner", "s": "Under the 16th Finance Commission, the income-distance criterion carries a weight of:", "o": ["15%", "42.5%", "45%", "50%"], "a": 1, "x": "Income distance gets 42.5% weight, so AP's above-average PCI lowers its devolution share."},
-{"topic": 110, "sec": 5, "angle": "5", "shape": "one-liner", "s": "Andhra Pradesh's multidimensional poverty headcount of 6.06% compares with India's:", "o": ["2.42%", "9.88%", "12.84%", "14.96%"], "a": 3, "x": "AP's MPI headcount is 6.06% against India's 14.96%."},
-{"topic": 110, "sec": 6, "angle": "3", "shape": "one-liner", "s": "Under the APRA package, each backward district receives how much per year?", "o": ["₹25 crore", "₹50 crore", "₹100 crore", "₹350 crore"], "a": 1, "x": "The package gives ₹50 crore per district a year to the 7 backward districts, though releases stalled."},
-{"topic": 110, "sec": 7, "angle": "6,13", "shape": "one-liner", "s": "Which district ranked first in per capita income in Andhra Pradesh in FY 2025-26?", "o": ["NTR", "Krishna", "Visakhapatnam", "Guntur"], "a": 2, "x": "DES (May 2026) ranked Visakhapatnam 1st in PCI for 2025-26."},
-{"topic": 110, "sec": 7, "angle": "4", "shape": "one-liner", "s": "As per data of March 2016, which district had the most post offices in Andhra Pradesh?", "o": ["Visakhapatnam", "Chittoor", "Prakasam", "Krishna"], "a": 1, "x": "Chittoor had the most post offices; Visakhapatnam led in telephone connections and bank branches."},
-{"topic": 110, "sec": 7, "angle": "4", "shape": "one-liner", "s": "In the latest data, which district leads Andhra Pradesh in bank branches and mobile connections?", "o": ["Prakasam", "Krishna", "Chittoor", "Visakhapatnam"], "a": 3, "x": "Visakhapatnam leads in bank branches and mobile connections, while Prakasam has the most post offices."},
-{"topic": 110, "sec": 8, "angle": "8", "shape": "one-liner", "s": "The Aspirational Districts Programme of NITI Aayog was launched in:", "o": ["January 2016", "January 2018", "June 2018", "April 2022"], "a": 1, "x": "NITI Aayog launched the programme in January 2018 for 112 districts."},
-{"topic": 110, "sec": 8, "angle": "8", "shape": "one-liner", "s": "Andhra Pradesh's original three aspirational districts were:", "o": ["Vizianagaram, Visakhapatnam, YSR Kadapa", "Srikakulam, Vizianagaram, Kurnool", "Kurnool, Anantapur, Chittoor", "Visakhapatnam, Srikakulam, Prakasam"], "a": 0, "x": "The original three were Vizianagaram, Visakhapatnam and YSR Kadapa."},
-{"topic": 110, "sec": 8, "angle": "8", "shape": "one-liner", "s": "After the 2022 reorganisation, which districts replaced Visakhapatnam and Vizianagaram as aspirational districts?", "o": ["Srikakulam and Anakapalli", "Alluri Sitharamaraju and Parvathipuram Manyam", "Kurnool and Anantapur", "Palnadu and Prakasam"], "a": 1, "x": "Alluri Sitharamaraju and Parvathipuram Manyam replaced Visakhapatnam and Vizianagaram."},
-{"topic": 110, "sec": 9, "angle": "12", "shape": "one-liner", "s": "The figure ₹5.43 lakh in Andhra Pradesh's vision targets refers to the 2028-29 target of:", "o": ["per capita income", "per capita GSDP", "GSDP in lakh crore", "household income"], "a": 1, "x": "₹5.43 lakh is the per capita GSDP target for 2028-29, not PCI; the 2047 PCI target is above $42,000."},
-{"topic": 110, "sec": 9, "angle": "12", "shape": "one-liner", "s": "Andhra Pradesh's vision documents aim to double per capita income every:", "o": ["three years", "five years", "seven years", "ten years"], "a": 1, "x": "The stated objective is to double per capita income every five years."}
-]}
+{
+"topic": 108,
+"sec": 1,
+"angle": "4",
+"shape": "one-liner",
+"s": "The Annual Financial Statement (Union Budget), unlike the Economic Survey, is a constitutional obligation under Article:",
+"o": [
+"110",
+"112",
+"114",
+"117"
+],
+"a": 1,
+"x": "The Budget (Annual Financial Statement) is laid under Article 112; presenting the Economic Survey is only a convention."
+},
+{
+"topic": 108,
+"sec": 1,
+"angle": "4",
+"shape": "one-liner",
+"s": "India's first Economic Survey was presented for the year:",
+"o": [
+"1947-48",
+"1950-51",
+"1964-65",
+"1951-52"
+],
+"a": 1,
+"x": "The first Survey was for 1950-51; it has been presented separately from the Budget only since 1964."
+},
+{
+"topic": 108,
+"sec": 1,
+"angle": "4",
+"shape": "one-liner",
+"s": "Since which edition has the Economic Survey been a single volume with a statistical appendix?",
+"o": [
+"2019-20",
+"2020-21",
+"2022-23",
+"2021-22"
+],
+"a": 3,
+"x": "The Survey had two volumes in the Subramanian years and became a single volume with a statistical appendix from 2021-22."
+},
+{
+"topic": 108,
+"sec": 1,
+"angle": "4",
+"shape": "one-liner",
+"s": "How many chapters does the Economic Survey 2025-26 have?",
+"o": [
+"12",
+"15",
+"17",
+"20"
+],
+"a": 2,
+"x": "ES 2025-26 has 17 chapters, including new ones on Artificial Intelligence and urbanisation."
+},
+{
+"topic": 108,
+"sec": 2,
+"angle": "5",
+"shape": "one-liner",
+"s": "The Economic Surveys from 2014-15 to 2017-18 were authored under which Chief Economic Adviser?",
+"o": [
+"K.V. Subramanian",
+"Arvind Subramanian",
+"V. Anantha Nageswaran",
+"Sanjeev Sanyal"
+],
+"a": 1,
+"x": "Arvind Subramanian was CEA for the Surveys 2014-15 to 2017-18; K.V. Subramanian followed for 2018-19 to 2020-21."
+},
+{
+"topic": 108,
+"sec": 2,
+"angle": "5",
+"shape": "one-liner",
+"s": "The only Economic Survey prepared under a Principal Economic Adviser, Sanjeev Sanyal, was:",
+"o": [
+"2020-21",
+"2022-23",
+"2021-22",
+"2019-20"
+],
+"a": 2,
+"x": "The 2021-22 Survey came under Principal Economic Adviser Sanjeev Sanyal, between the tenures of K.V. Subramanian and V. Anantha Nageswaran."
+},
+{
+"topic": 108,
+"sec": 2,
+"angle": "5",
+"shape": "NOT",
+"s": "Which of the following is NOT correct about Chief Economic Adviser V. Anantha Nageswaran?",
+"o": [
+"He took charge on 28 January 2022",
+"His term has been extended to 31 March 2027",
+"He authored the Surveys from 2018-19 to 2020-21",
+"The Economic Survey 2025-26 was prepared under him"
+],
+"a": 2,
+"x": "The Surveys 2018-19 to 2020-21 were under K.V. Subramanian; Nageswaran covers 2022-23 to 2025-26."
+},
+{
+"topic": 108,
+"sec": 3,
+"angle": "1",
+"shape": "match",
+"s": "Which of the following pairs of Economic Survey and signature idea is correctly matched?",
+"o": [
+"2018-19 – Thalinomics",
+"2020-21 – JAM trinity",
+"2019-20 – Thalinomics",
+"2014-15 – Bare Necessities Index"
+],
+"a": 2,
+"x": "Thalinomics was in ES 2019-20. JAM trinity was 2014-15, the Bare Necessities Index 2020-21 and the behavioural nudge 2018-19."
+},
+{
+"topic": 108,
+"sec": 3,
+"angle": "1",
+"shape": "one-liner",
+"s": "The JAM trinity (Jan Dhan, Aadhaar, Mobile) for targeted DBT was the signature idea of the Economic Survey:",
+"o": [
+"2014-15",
+"2015-16",
+"2016-17",
+"2018-19"
+],
+"a": 0,
+"x": "ES 2014-15 put forward the JAM trinity under the theme 'Wiping Every Tear from Every Eye'."
+},
+{
+"topic": 108,
+"sec": 3,
+"angle": "1",
+"shape": "one-liner",
+"s": "Which Economic Survey had a pink cover to highlight gender issues?",
+"o": [
+"2016-17",
+"2017-18",
+"2018-19",
+"2019-20"
+],
+"a": 1,
+"x": "ES 2017-18 carried a pink cover on gender, along with a chapter on climate change and agriculture."
+},
+{
+"topic": 108,
+"sec": 3,
+"angle": "1,2",
+"shape": "one-liner",
+"s": "The Economic Survey 2021-22 followed an 'agile approach' using how many high-frequency indicators?",
+"o": [
+"40",
+"60",
+"80",
+"100"
+],
+"a": 2,
+"x": "ES 2021-22 tracked 80 high-frequency indicators under an 'agile approach'."
+},
+{
+"topic": 108,
+"sec": 4,
+"angle": "1",
+"shape": "NOT",
+"s": "Which of the following is NOT a component of the Bare Necessities Index of the Economic Survey 2020-21?",
+"o": [
+"Housing",
+"Sanitation",
+"Primary education",
+"Clean cooking fuel"
+],
+"a": 2,
+"x": "The Bare Necessities Index covered housing, water, sanitation, electricity and clean cooking fuel; primary education was not one."
+},
+{
+"topic": 108,
+"sec": 4,
+"angle": "1",
+"shape": "one-liner",
+"s": "Both the 'Chakravyuha challenge' and the 'Twin Balance Sheet' problem were answered mainly by the:",
+"o": [
+"Goods and Services Tax",
+"Insolvency and Bankruptcy Code",
+"Universal Basic Income",
+"JAM trinity"
+],
+"a": 1,
+"x": "The exit problem of firms (Chakravyuha, 2015-16) and the Twin Balance Sheet problem (2016-17) were both answered by the IBC."
+},
+{
+"topic": 108,
+"sec": 5,
+"angle": "3",
+"shape": "one-liner",
+"s": "The Bare Necessities Index was built from which NSO survey rounds?",
+"o": [
+"68th and 75th",
+"69th and 76th",
+"70th and 77th",
+"66th and 72nd"
+],
+"a": 1,
+"x": "The Index used the NSO 69th (2012) and 76th (2018) rounds."
+},
+{
+"topic": 108,
+"sec": 5,
+"angle": "2",
+"shape": "one-liner",
+"s": "The Economic Survey 2022-23 projected India's real GDP growth for 2023-24 at:",
+"o": [
+"6.0%",
+"7.0%",
+"6.5%",
+"7.4%"
+],
+"a": 2,
+"x": "ES 2022-23 projected 6.5% real growth for 2023-24."
+},
+{
+"topic": 108,
+"sec": 6,
+"angle": "2",
+"shape": "one-liner",
+"s": "The Economic Survey 2025-26 projected India's real GDP growth for FY27 at:",
+"o": [
+"6.3% - 6.8%",
+"6.8% - 7.2%",
+"7.0% - 7.5%",
+"7.4% - 7.8%"
+],
+"a": 1,
+"x": "ES 2025-26 projected 6.8% - 7.2% for FY27, after 7.4% in FY26 (First Advance Estimates)."
+},
+{
+"topic": 108,
+"sec": 6,
+"angle": "2",
+"shape": "one-liner",
+"s": "The Economic Survey 2025-26 placed India's potential growth at:",
+"o": [
+"6.5%",
+"6.8%",
+"7.4%",
+"7.0%"
+],
+"a": 3,
+"x": "Potential growth was raised to 7.0% from the 6.5% estimated in ES 2022-23."
+},
+{
+"topic": 108,
+"sec": 6,
+"angle": "2",
+"shape": "one-liner",
+"s": "According to the Economic Survey 2025-26, the gross NPA ratio of banks, a multi-decade low, stood at:",
+"o": [
+"2.2%",
+"1.7%",
+"3.2%",
+"4.8%"
+],
+"a": 0,
+"x": "Bank GNPA fell to 2.2%, a multi-decade low, alongside a 125 bps repo cut since February 2025."
+},
+{
+"topic": 108,
+"sec": 6,
+"angle": "2",
+"shape": "statements",
+"s": "Consider the following statements about fiscal and external data in the Economic Survey 2025-26:\n1. The fiscal deficit in FY25 was 4.8% against 4.9% budgeted.\n2. The fiscal deficit target for FY26 is 4.4%.\n3. The current account deficit in H1 FY26 was 2.8% of GDP.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 0,
+"x": "Statements 1 and 2 are correct. The CAD in H1 FY26 was only 0.8% of GDP, not 2.8%."
+},
+{
+"topic": 108,
+"sec": 7,
+"angle": "6",
+"shape": "one-liner",
+"s": "The Economic Survey 2025-26 called for a shift from 'regulation and control' to:",
+"o": [
+"privatisation",
+"enabling",
+"self-regulation",
+"centralisation"
+],
+"a": 1,
+"x": "ES 2025-26 urged moving from 'regulation and control' to 'enabling', with trust-based compliance replacing inspection."
+},
+{
+"topic": 108,
+"sec": 7,
+"angle": "6",
+"shape": "one-liner",
+"s": "The idea of the State 'letting go' of its grip on non-essential sectors was set out in the Economic Survey:",
+"o": [
+"2022-23",
+"2024-25",
+"2023-24",
+"2025-26"
+],
+"a": 2,
+"x": "'Letting go' was the ES 2023-24 idea; deregulation became the central theme in ES 2024-25."
+},
+{
+"topic": 109,
+"sec": 2,
+"angle": "9,6",
+"shape": "one-liner",
+"s": "Andhra Pradesh accounts for about what share of India's population?",
+"o": [
+"3.09%",
+"4.09%",
+"4.96%",
+"5.8%"
+],
+"a": 1,
+"x": "AP has 4.09% of India's population (10th); 4.96% is its share of area."
+},
+{
+"topic": 109,
+"sec": 2,
+"angle": "10",
+"shape": "one-liner",
+"s": "With a coastline of 1,053.07 km, Andhra Pradesh has India's:",
+"o": [
+"longest coastline",
+"second longest coastline",
+"third longest coastline",
+"fourth longest coastline"
+],
+"a": 2,
+"x": "AP's 1,053.07 km coastline is the third longest in India."
+},
+{
+"topic": 109,
+"sec": 2,
+"angle": "10",
+"shape": "one-liner",
+"s": "Mines and Minerals contribute about what share of Andhra Pradesh's own non-tax revenue (2024-25 RE)?",
+"o": [
+"25%",
+"35%",
+"50%",
+"65%"
+],
+"a": 2,
+"x": "Mines and Minerals formed about 50% of the State's own non-tax revenue in 2024-25 RE."
+},
+{
+"topic": 109,
+"sec": 2,
+"angle": "12",
+"shape": "statements",
+"s": "Consider the following statements about the AP Economic Development Board:\n1. It is a statutory body under the AP Economic Development Board Act, 2018.\n2. It publishes export reports on Andhra Pradesh.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 only",
+"2 only",
+"Both 1 and 2",
+"Neither 1 nor 2"
+],
+"a": 2,
+"x": "Both are correct: APEDB was set up under the 2018 Act and, besides investment promotion, publishes export reports."
+},
+{
+"topic": 109,
+"sec": 2,
+"angle": "12",
+"shape": "NOT",
+"s": "Which of the following is NOT correct about the AP Economic Development Board (APEDB)?",
+"o": [
+"Its Chairman is the Chief Minister",
+"Its Vice-Chairman is the Minister for Finance and Planning",
+"It acts as a single point of contact for investments",
+"Its Chairman is the Governor"
+],
+"a": 3,
+"x": "The Chief Minister, not the Governor, chairs APEDB; the Finance and Planning Minister is Vice-Chairman."
+},
+{
+"topic": 109,
+"sec": 2,
+"angle": "13",
+"shape": "one-liner",
+"s": "In the Sixth Economic Census (2013-14), undivided Andhra Pradesh had what share of India's establishments?",
+"o": [
+"4.96%",
+"5.8%",
+"7.25%",
+"9.1%"
+],
+"a": 2,
+"x": "Undivided AP had 7.25% of India's establishments in the Sixth Economic Census, ranking 5th."
+},
+{
+"topic": 109,
+"sec": 2,
+"angle": "13",
+"shape": "one-liner",
+"s": "Undivided Andhra Pradesh's rank among States by number of establishments in the Sixth Economic Census was:",
+"o": [
+"3rd",
+"5th",
+"7th",
+"8th"
+],
+"a": 1,
+"x": "With 7.25% of India's establishments, undivided AP ranked 5th in the Sixth Economic Census (2013-14)."
+},
+{
+"topic": 109,
+"sec": 2,
+"angle": "21,6",
+"shape": "one-liner",
+"s": "In 2025-26, Andhra Pradesh's GSDP of ₹17.62 lakh crore was about what share of India's GDP?",
+"o": [
+"3.9%",
+"4.9%",
+"5.8%",
+"7.25%"
+],
+"a": 1,
+"x": "₹17.62 lakh crore of India's ₹357.14 lakh crore is about 4.9%, up from 4.7% in 2023-24."
+},
+{
+"topic": 109,
+"sec": 3,
+"angle": "22,1",
+"shape": "one-liner",
+"s": "Andhra Pradesh's real GSDP growth for 2024-25 was 9.24% at FAE; at the First Revised Estimate it was:",
+"o": [
+"8.27%",
+"9.88%",
+"7.14%",
+"10.75%"
+],
+"a": 0,
+"x": "The 2024-25 real growth was revised from 9.24% (FAE) to 8.27% (FRE), which is why the estimate stage must be quoted."
+},
+{
+"topic": 109,
+"sec": 3,
+"angle": "22",
+"shape": "one-liner",
+"s": "Which is the correct order of GSDP estimate stages?",
+"o": [
+"FRE → AE → SRE → TRE",
+"AE → SRE → FRE → TRE",
+"AE → FRE → SRE → TRE",
+"TRE → SRE → FRE → AE"
+],
+"a": 2,
+"x": "Advance estimates come first, followed by the First, Second and Third Revised Estimates."
+},
+{
+"topic": 109,
+"sec": 3,
+"angle": "20,1",
+"shape": "one-liner",
+"s": "Andhra Pradesh's Socio-Economic Survey tables compute GSDP at constant prices of the base year:",
+"o": [
+"2004-05",
+"2011-12",
+"2019-20",
+"2022-23"
+],
+"a": 1,
+"x": "AP still uses the 2011-12 base; 2022-23 is the base of India's new MoSPI series and 2019-20 is wrong."
+},
+{
+"topic": 109,
+"sec": 3,
+"angle": "20",
+"shape": "one-liner",
+"s": "GSDP is obtained from GVA by:",
+"o": [
+"adding product taxes and subtracting product subsidies",
+"adding product subsidies and subtracting product taxes",
+"subtracting depreciation",
+"adding net factor income from abroad"
+],
+"a": 0,
+"x": "GSDP = GVA + product taxes – product subsidies."
+},
+{
+"topic": 109,
+"sec": 5,
+"angle": "17",
+"shape": "one-liner",
+"s": "In 2023-24, Andhra Pradesh's constant-price growth of 6.18% compared with India's:",
+"o": [
+"6.4%",
+"7.4%",
+"8.2%",
+"9.24%"
+],
+"a": 2,
+"x": "AP grew slower than India (8.2%) in 2023-24 but faster from 2024-25 onwards."
+},
+{
+"topic": 109,
+"sec": 6,
+"angle": "27",
+"shape": "one-liner",
+"s": "Andhra Pradesh's share of agriculture and allied sectors in GVA is roughly how much of India's share?",
+"o": [
+"Half",
+"About equal",
+"Twice",
+"Four times"
+],
+"a": 2,
+"x": "AP's agriculture share (35.29% in 2024-25) is about twice India's (~18%)."
+},
+{
+"topic": 109,
+"sec": 6,
+"angle": "28",
+"shape": "one-liner",
+"s": "The agriculture : industry : services shares in Andhra Pradesh's GVA in 2014-15 were about:",
+"o": [
+"30 : 26 : 44",
+"35 : 23 : 42",
+"33 : 24 : 43",
+"18 : 28 : 54"
+],
+"a": 0,
+"x": "The structure shifted from 30 : 26 : 44 in 2014-15 to 35 : 23 : 42 in 2024-25."
+},
+{
+"topic": 109,
+"sec": 6,
+"angle": "42",
+"shape": "one-liner",
+"s": "According to SES 2024-25, about what share of Andhra Pradesh's workforce is in services?",
+"o": [
+"22.8%",
+"31.6%",
+"45.6%",
+"53.5%"
+],
+"a": 1,
+"x": "SES 2024-25: agriculture 45.6%, manufacturing 22.8% and services 31.6% of the workforce."
+},
+{
+"topic": 109,
+"sec": 6,
+"angle": "37,26",
+"shape": "one-liner",
+"s": "Livestock, about ₹1.5 lakh crore in 2023-24, formed what share of Andhra Pradesh's agriculture GVA?",
+"o": [
+"12%",
+"20.5%",
+"30.87%",
+"43%"
+],
+"a": 2,
+"x": "Livestock was about ₹1.5 lakh crore, i.e. 30.87% of agriculture GVA."
+},
+{
+"topic": 109,
+"sec": 7,
+"angle": "30,40",
+"shape": "one-liner",
+"s": "Which services sub-sector had the largest GVA in Andhra Pradesh in 2024-25?",
+"o": [
+"Communications",
+"Public Administration",
+"Banking & Insurance",
+"Trade, Hotels & Restaurants"
+],
+"a": 3,
+"x": "Trade, Hotels & Restaurants had the largest services GVA (₹69,836 crore); Public Administration grew slowest."
+},
+{
+"topic": 109,
+"sec": 8,
+"angle": "31",
+"shape": "one-liner",
+"s": "Residual Andhra Pradesh's post-bifurcation peak foodgrain production of 123.57 lakh tonnes was in:",
+"o": [
+"2017-18",
+"2019-20",
+"2020-21",
+"2022-23"
+],
+"a": 1,
+"x": "Foodgrains peaked at 123.57 lakh tonnes in 2019-20, after the drought dip of 2018-19."
+},
+{
+"topic": 109,
+"sec": 8,
+"angle": "31",
+"shape": "one-liner",
+"s": "Andhra Pradesh's foodgrain output dipped to 108.39 lakh tonnes due to drought in:",
+"o": [
+"2016-17",
+"2018-19",
+"2020-21",
+"2021-22"
+],
+"a": 1,
+"x": "2018-19 saw a drought dip to 108.39 lakh tonnes, followed by the 2019-20 peak of 123.57 lakh tonnes."
+},
+{
+"topic": 109,
+"sec": 8,
+"angle": "24,33",
+"shape": "one-liner",
+"s": "SES 2024-25 targets 30% agricultural growth over five years through how many growth engines?",
+"o": [
+"10",
+"12",
+"15",
+"17"
+],
+"a": 3,
+"x": "The target is 30% growth over five years via 17 growth engines."
+},
+{
+"topic": 109,
+"sec": 8,
+"angle": "34",
+"shape": "one-liner",
+"s": "Fertiliser utilisation as a percentage of allotment in Andhra Pradesh in 2016-17 (AE) was:",
+"o": [
+"38.1%",
+"54.2%",
+"80.78%",
+"92.4%"
+],
+"a": 0,
+"x": "Utilisation fell from 80.78% (2015-16) to 38.1% (2016-17 AE)."
+},
+{
+"topic": 109,
+"sec": 8,
+"angle": "36,7",
+"shape": "match",
+"s": "Which of the following pairs of item and Andhra Pradesh's national rank (2025-26) is correctly matched?",
+"o": [
+"Meat – 1st",
+"Milk – 1st",
+"Raw silk – 2nd",
+"Eggs – 4th"
+],
+"a": 2,
+"x": "AP was 2nd in raw silk after Karnataka; it was 1st in eggs, 4th in meat and 7th in milk."
+},
+{
+"topic": 109,
+"sec": 9,
+"angle": "38",
+"shape": "one-liner",
+"s": "Which Andhra Pradesh district, despite leading in bank branches, had the fewest post offices as on 31 December 2024?",
+"o": [
+"Prakasam",
+"Krishna",
+"Visakhapatnam",
+"YSR Kadapa"
+],
+"a": 2,
+"x": "Visakhapatnam leads in bank branches and mobile connections but has the fewest post offices; Prakasam has the most."
+},
+{
+"topic": 109,
+"sec": 9,
+"angle": "44,45",
+"shape": "one-liner",
+"s": "The RMZ GCC Park, an emerging services hub, is located in:",
+"o": [
+"Vijayawada",
+"Tirupati",
+"Amaravati",
+"Visakhapatnam"
+],
+"a": 3,
+"x": "Visakhapatnam hosts the RMZ GCC Park along with the Google data centre, TCS and Cognizant."
+},
+{
+"topic": 109,
+"sec": 9,
+"angle": "43",
+"shape": "one-liner",
+"s": "STPI exports from Andhra Pradesh in Q2 2025-26 grew by:",
+"o": [
+"15.1%",
+"22.8%",
+"32.2%",
+"43.0%"
+],
+"a": 2,
+"x": "STPI exports rose 32.2% in Q2 2025-26, alongside growth in GCCs and data centres."
+},
+{
+"topic": 109,
+"sec": 9,
+"angle": "45",
+"shape": "one-liner",
+"s": "Vijayawada (NTR district) had how many bank branches?",
+"o": [
+"522",
+"624",
+"668",
+"8,555"
+],
+"a": 0,
+"x": "Vijayawada (NTR) had 522 bank branches; Visakhapatnam led with 624."
+},
+{
+"topic": 109,
+"sec": 10,
+"angle": "23",
+"shape": "NOT",
+"s": "Which of the following is NOT correct about District Domestic Product in Andhra Pradesh (2023-24)?",
+"o": [
+"Visakhapatnam had the highest GDDP",
+"Parvathipuram Manyam had the lowest GDDP",
+"Visakhapatnam had the highest per capita GDDP",
+"Srikakulam had the highest per capita GDDP"
+],
+"a": 3,
+"x": "Srikakulam had the lowest per capita GDDP (₹1,59,029); Visakhapatnam was highest on both GDDP and per capita GDDP."
+},
+{
+"topic": 109,
+"sec": 10,
+"angle": "23",
+"shape": "one-liner",
+"s": "Which district had the lowest per capita GDDP in Andhra Pradesh in 2023-24?",
+"o": [
+"Parvathipuram Manyam",
+"Srikakulam",
+"Alluri Sitharama Raju",
+"Vizianagaram"
+],
+"a": 1,
+"x": "Srikakulam had the lowest per capita GDDP (₹1,59,029); Parvathipuram Manyam had the lowest GDDP."
+},
+{
+"topic": 109,
+"sec": 10,
+"angle": "16",
+"shape": "one-liner",
+"s": "Andhra Pradesh's districts were reorganised from 13 to 26 on:",
+"o": [
+"2 June 2014",
+"4 April 2022",
+"13 December 2024",
+"30 March 2025"
+],
+"a": 1,
+"x": "The 13 districts of 2014 became 26 on 4 April 2022 (28 now)."
+},
+{
+"topic": 109,
+"sec": 10,
+"angle": "15",
+"shape": "one-liner",
+"s": "Andhra Pradesh's capital outlay rose from ₹16,141 crore in 2024-25 to what in 2025-26 RE?",
+"o": [
+"₹24,513 crore",
+"₹33,135 crore",
+"₹48,311 crore",
+"₹70,548 crore"
+],
+"a": 1,
+"x": "Capital outlay rose to ₹33,135 crore in 2025-26 RE; ₹48,311 crore was the revenue deficit."
+},
+{
+"topic": 109,
+"sec": 11,
+"angle": "19,8",
+"shape": "one-liner",
+"s": "Sunrise Andhra Pradesh Vision 2029 targeted a compound annual growth rate of:",
+"o": [
+"10%",
+"12%",
+"15%",
+"18%"
+],
+"a": 1,
+"x": "Vision 2029 aimed at 12% CAGR till 2029; Swarna Andhra @2047 envisages 15% annual growth."
+},
+{
+"topic": 109,
+"sec": 11,
+"angle": "4,8",
+"shape": "one-liner",
+"s": "Under Swarna Andhra @2047, the women's workforce participation target is:",
+"o": [
+"More than 45%",
+"More than 60%",
+"More than 80%",
+"More than 95%"
+],
+"a": 2,
+"x": "The 2047 target is women's workforce participation above 80% (now about 45.8%); >95% is the skilled-workforce target."
+},
+{
+"topic": 109,
+"sec": 11,
+"angle": "24",
+"shape": "one-liner",
+"s": "The Zero Poverty-P4 initiative was launched on Ugadi in:",
+"o": [
+"2024",
+"2025",
+"2026",
+"2023"
+],
+"a": 1,
+"x": "P4 was launched on Ugadi, 30 March 2025, with the Swarna Andhra P4 Foundation as nodal body."
+},
+{
+"topic": 110,
+"sec": 1,
+"angle": "14",
+"shape": "one-liner",
+"s": "Per capita income can fall in a developing country even as national income rises when:",
+"o": [
+"population grows faster than income",
+"inflation falls",
+"depreciation is ignored",
+"income grows faster than population"
+],
+"a": 0,
+"x": "PCI = income ÷ population, so it falls if population growth exceeds income growth."
+},
+{
+"topic": 110,
+"sec": 3,
+"angle": "9,1",
+"shape": "one-liner",
+"s": "Andhra Pradesh's per capita income in 2025-26 (FAE) at current prices was:",
+"o": [
+"₹2,19,575",
+"₹2,66,699",
+"₹2,94,507",
+"₹3,21,651"
+],
+"a": 2,
+"x": "AP's PCI was ₹2,94,507 in 2025-26 FAE; ₹2,19,575 was India's."
+},
+{
+"topic": 110,
+"sec": 3,
+"angle": "9",
+"shape": "statements",
+"s": "Consider the following statements about Andhra Pradesh's per capita income growth (current prices):\n1. The slowest growth, 4.10%, was in 2019-20.\n2. The fastest growth, 15.26%, was in 2021-22.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 only",
+"2 only",
+"Both 1 and 2",
+"Neither 1 nor 2"
+],
+"a": 2,
+"x": "Both are correct: AP's PCI growth was slowest at 4.10% in 2019-20 and fastest at 15.26% in 2021-22."
+},
+{
+"topic": 110,
+"sec": 4,
+"angle": "10",
+"shape": "one-liner",
+"s": "The gap between Andhra Pradesh's and India's per capita income in 2025-26 was about:",
+"o": [
+"₹25,000",
+"₹50,000",
+"₹75,000",
+"₹1,00,000"
+],
+"a": 2,
+"x": "AP's PCI (₹2,94,507) exceeded India's (₹2,19,575) by about ₹75,000."
+},
+{
+"topic": 110,
+"sec": 4,
+"angle": "10",
+"shape": "one-liner",
+"s": "With a per capita income of about $2,760, India is classified as a:",
+"o": [
+"low-income economy",
+"lower-middle-income economy",
+"upper-middle-income economy",
+"high-income economy"
+],
+"a": 1,
+"x": "India is a lower-middle-income economy with PCI about $2,760."
+},
+{
+"topic": 110,
+"sec": 4,
+"angle": "5,10",
+"shape": "one-liner",
+"s": "In 2023-24, Andhra Pradesh's per capita GSDP was ₹2,70,295 against India's per capita GDP of:",
+"o": [
+"₹1,84,205",
+"₹1,88,892",
+"₹2,15,935",
+"₹2,39,311"
+],
+"a": 2,
+"x": "India's per capita GDP was ₹2,15,935; gross measures are compared with gross, not with per capita income."
+},
+{
+"topic": 110,
+"sec": 5,
+"angle": "2",
+"shape": "match",
+"s": "Which of the following pairs about per capita NSDP of States (2023-24) is correctly matched?",
+"o": [
+"Sikkim – highest in India",
+"Goa – lowest in India",
+"Bihar – highest in India",
+"Karnataka – lowest in India"
+],
+"a": 0,
+"x": "Sikkim (₹5,87,743) had the highest per capita NSDP, ahead of Goa; Bihar (₹62,201) had the lowest."
+},
+{
+"topic": 110,
+"sec": 5,
+"angle": "5",
+"shape": "one-liner",
+"s": "Under the 16th Finance Commission, the income-distance criterion carries a weight of:",
+"o": [
+"15%",
+"42.5%",
+"45%",
+"50%"
+],
+"a": 1,
+"x": "Income distance gets 42.5% weight, so AP's above-average PCI lowers its devolution share."
+},
+{
+"topic": 110,
+"sec": 5,
+"angle": "5",
+"shape": "one-liner",
+"s": "Andhra Pradesh's multidimensional poverty headcount of 6.06% compares with India's:",
+"o": [
+"2.42%",
+"9.88%",
+"12.84%",
+"14.96%"
+],
+"a": 3,
+"x": "AP's MPI headcount is 6.06% against India's 14.96%."
+},
+{
+"topic": 110,
+"sec": 6,
+"angle": "3",
+"shape": "one-liner",
+"s": "Under the APRA package, each backward district receives how much per year?",
+"o": [
+"₹25 crore",
+"₹50 crore",
+"₹100 crore",
+"₹350 crore"
+],
+"a": 1,
+"x": "The package gives ₹50 crore per district a year to the 7 backward districts, though releases stalled."
+},
+{
+"topic": 110,
+"sec": 7,
+"angle": "6,13",
+"shape": "one-liner",
+"s": "Which district ranked first in per capita income in Andhra Pradesh in FY 2025-26?",
+"o": [
+"NTR",
+"Krishna",
+"Visakhapatnam",
+"Guntur"
+],
+"a": 2,
+"x": "DES (May 2026) ranked Visakhapatnam 1st in PCI for 2025-26."
+},
+{
+"topic": 110,
+"sec": 7,
+"angle": "4",
+"shape": "one-liner",
+"s": "As per data of March 2016, which district had the most post offices in Andhra Pradesh?",
+"o": [
+"Visakhapatnam",
+"Chittoor",
+"Prakasam",
+"Krishna"
+],
+"a": 1,
+"x": "Chittoor had the most post offices; Visakhapatnam led in telephone connections and bank branches."
+},
+{
+"topic": 110,
+"sec": 7,
+"angle": "4",
+"shape": "one-liner",
+"s": "In the latest data, which district leads Andhra Pradesh in bank branches and mobile connections?",
+"o": [
+"Prakasam",
+"Krishna",
+"Chittoor",
+"Visakhapatnam"
+],
+"a": 3,
+"x": "Visakhapatnam leads in bank branches and mobile connections, while Prakasam has the most post offices."
+},
+{
+"topic": 110,
+"sec": 8,
+"angle": "8",
+"shape": "statements",
+"s": "Consider the following statements about the Aspirational Districts Programme:\n1. It was launched by NITI Aayog in January 2018.\n2. It covers 112 districts.\n3. YSR Kadapa was one of Andhra Pradesh's original aspirational districts.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 3,
+"x": "All three are correct: NITI Aayog launched it in January 2018 for 112 districts, and AP's original three were Vizianagaram, Visakhapatnam and YSR Kadapa."
+},
+{
+"topic": 110,
+"sec": 8,
+"angle": "8",
+"shape": "one-liner",
+"s": "Andhra Pradesh's original three aspirational districts were:",
+"o": [
+"Vizianagaram, Visakhapatnam, YSR Kadapa",
+"Srikakulam, Vizianagaram, Kurnool",
+"Kurnool, Anantapur, Chittoor",
+"Visakhapatnam, Srikakulam, Prakasam"
+],
+"a": 0,
+"x": "The original three were Vizianagaram, Visakhapatnam and YSR Kadapa."
+},
+{
+"topic": 110,
+"sec": 8,
+"angle": "8",
+"shape": "one-liner",
+"s": "After the 2022 reorganisation, which districts replaced Visakhapatnam and Vizianagaram as aspirational districts?",
+"o": [
+"Srikakulam and Anakapalli",
+"Alluri Sitharamaraju and Parvathipuram Manyam",
+"Kurnool and Anantapur",
+"Palnadu and Prakasam"
+],
+"a": 1,
+"x": "Alluri Sitharamaraju and Parvathipuram Manyam replaced Visakhapatnam and Vizianagaram."
+},
+{
+"topic": 110,
+"sec": 9,
+"angle": "12",
+"shape": "one-liner",
+"s": "The figure ₹5.43 lakh in Andhra Pradesh's vision targets refers to the 2028-29 target of:",
+"o": [
+"per capita income",
+"per capita GSDP",
+"GSDP in lakh crore",
+"household income"
+],
+"a": 1,
+"x": "₹5.43 lakh is the per capita GSDP target for 2028-29, not PCI; the 2047 PCI target is above $42,000."
+},
+{
+"topic": 110,
+"sec": 9,
+"angle": "12",
+"shape": "one-liner",
+"s": "Andhra Pradesh's vision documents aim to double per capita income every:",
+"o": [
+"three years",
+"five years",
+"seven years",
+"ten years"
+],
+"a": 1,
+"x": "The stated objective is to double per capita income every five years."
+}
+]
+}
