@@ -32,3 +32,4 @@ PYQs (ids "y..."): never in drops. But list clear problems in data/relevance/pyq
 Only (a) a key that is plainly wrong against the standard fact (not a disputed one; not one the notes record with
 "⚠ APPSC key"), or (b) a question outside the APPSC GS syllabus altogether (pure trivia of an unrelated field). A PYQ
 that is relevant but filed under the wrong topic: leave it. These are taken out of the apps by the lead.
+Do not list PYQs that merely have no key marked (they are already shown unscored).
