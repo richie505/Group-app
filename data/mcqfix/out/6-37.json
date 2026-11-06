@@ -294,16 +294,16 @@
    "angle": "4"
   },
   {
-   "shape": "one-liner",
-   "s": "The term of the Cabinet Secretary is:",
+   "shape": "statements",
+   "s": "Consider the following statements about the Cabinet Secretary of India:\n1. The term is 2 years, extendable to 4.\n2. The Cabinet Secretary heads the National Crisis Management Committee.\n3. The appointment is made by the Appointments Committee of the Cabinet.\nWhich of the statements given above is/are correct?",
    "o": [
-    "3 years, extendable to 5",
-    "2 years, extendable to 3",
-    "4 years, non-extendable",
-    "2 years, extendable to 4"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
    "a": 3,
-   "x": "The Cabinet Secretary is appointed by the ACC for 2 years, extendable to 4.",
+   "x": "All three are correct: appointed by the ACC for 2 years (extendable to 4), the Cabinet Secretary heads the NCMC.",
    "topic": 111,
    "sec": 1,
    "angle": "4"
@@ -312,12 +312,12 @@
    "shape": "one-liner",
    "s": "How many Deputy Governors does the Reserve Bank of India have?",
    "o": [
-    "4",
     "2",
     "3",
-    "5"
+    "5",
+    "4"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The RBI has four Deputy Governors under the RBI Act, 1934.",
    "topic": 111,
    "sec": 1,
@@ -327,12 +327,12 @@
    "shape": "one-liner",
    "s": "Who was appointed Director General of Doordarshan in August 2026?",
    "o": [
-    "K. Satish Namboodiripad",
     "Reena Sonowal Kouli",
+    "K. Satish Namboodiripad",
     "Anita Karwal",
     "Varun Bhardwaj"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Reena Sonowal Kouli (IIS 1994) became DG, Doordarshan, succeeding K. Satish Namboodiripad.",
    "topic": 111,
    "sec": 1,
@@ -343,11 +343,11 @@
    "s": "Rahul Navin's tenure as Director of which agency was extended till 31 July 2027?",
    "o": [
     "Intelligence Bureau",
-    "National Crime Records Bureau",
     "Enforcement Directorate",
+    "National Crime Records Bureau",
     "Special Protection Group"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Rahul Navin (IRS 1993) is ED Director, extended till 31 July 2027.",
    "topic": 111,
    "sec": 1,
@@ -359,10 +359,10 @@
    "o": [
     "Shailesh Wagerwal – CMD, Bharat Dynamics Ltd",
     "Bijay Kumar Mohanty – Additional charge CMD, IREDA",
-    "Rahul Himalayan – Additional CMD, IRCTC",
-    "Naresh Pal Gangwar – Secretary, School Education and Literacy"
+    "Naresh Pal Gangwar – Secretary, School Education and Literacy",
+    "Rahul Himalayan – Additional CMD, IRCTC"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Naresh Pal Gangwar is Secretary, Higher Education; T.K. Anil Kumar is Secretary, School Education and Literacy.",
    "topic": 111,
    "sec": 1,
@@ -372,12 +372,12 @@
    "shape": "one-liner",
    "s": "Bharat Dynamics Ltd, whose CMD Shailesh Wagerwal was appointed in June 2026, is located at:",
    "o": [
-    "Hyderabad",
     "Visakhapatnam",
     "Bengaluru",
-    "Dehradun"
+    "Dehradun",
+    "Hyderabad"
    ],
-   "a": 0,
+   "a": 3,
    "x": "BDL (est. 1970) is at Hyderabad and makes missiles and torpedoes; Hindustan Shipyard is at Visakhapatnam.",
    "topic": 111,
    "sec": 1,
@@ -387,28 +387,28 @@
    "shape": "one-liner",
    "s": "Dr. Rajendra Prasad Khajuria, a 1991 IFS officer of the AP cadre, was appointed Director of:",
    "o": [
-    "SVPNPA, Hyderabad",
     "IGNFA, Dehradun",
+    "SVPNPA, Hyderabad",
     "NCRB",
     "National Biodiversity Authority"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Dr. Khajuria became Director of the Indira Gandhi National Forest Academy, Dehradun.",
    "topic": 111,
    "sec": 1,
    "angle": "4"
   },
   {
-   "shape": "one-liner",
-   "s": "Amit Kumar, named the next chief of the SPG, is an IPS officer of which cadre?",
+   "shape": "statements",
+   "s": "Consider the following statements about the cadres of 2026 appointees:\n1. IB Director Mahesh Dixit is an Andhra Pradesh-cadre IPS officer.\n2. SPG chief-designate Amit Kumar is an Andhra Pradesh-cadre IPS officer.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Andhra Pradesh",
-    "Assam–Meghalaya",
-    "Bihar",
-    "Madhya Pradesh"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 2,
-   "x": "Amit Kumar (1994 IPS) is of the Bihar cadre; the IB and NCRB chiefs are AP-cadre officers.",
+   "a": 0,
+   "x": "Only 1 is correct: Mahesh Dixit (and NCRB's Amit Garg) are AP cadre, while Amit Kumar is a 1994 IPS officer of the Bihar cadre.",
    "topic": 111,
    "sec": 1,
    "angle": "4"
@@ -418,11 +418,11 @@
    "s": "Who holds the longest overall tenure as Prime Minister of India?",
    "o": [
     "Narendra Modi",
+    "Jawaharlal Nehru",
     "Indira Gandhi",
-    "Lal Bahadur Shastri",
-    "Jawaharlal Nehru"
+    "Lal Bahadur Shastri"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Nehru holds the longest overall tenure (1947–1964); Modi holds the longest uninterrupted tenure.",
    "topic": 111,
    "sec": 2,
@@ -447,12 +447,12 @@
    "shape": "one-liner",
    "s": "Shrey Parikh won the 2026 Scripps National Spelling Bee, which was its:",
    "o": [
-    "98th edition",
     "96th edition",
     "97th edition",
+    "98th edition",
     "99th edition"
    ],
-   "a": 0,
+   "a": 2,
    "x": "The 2026 Bee, held at DAR Constitution Hall, Washington, was the 98th edition.",
    "topic": 111,
    "sec": 2,
@@ -463,11 +463,11 @@
    "s": "How many Aides-de-Camp (ADCs) does the President of India have?",
    "o": [
     "Three",
-    "Five",
     "Four",
-    "Six"
+    "Six",
+    "Five"
    ],
-   "a": 1,
+   "a": 3,
    "x": "The President has five ADCs: three from the Army, one from the Navy and one from the Air Force.",
    "topic": 111,
    "sec": 3,
@@ -477,12 +477,12 @@
    "shape": "one-liner",
    "s": "\"Sham No Varunah\" is the motto of the:",
    "o": [
+    "Indian Navy",
     "Indian Air Force",
     "Indian Army",
-    "Indian Navy",
     "National Security Guard"
    ],
-   "a": 2,
+   "a": 0,
    "x": "\"Sham No Varunah\" is the Navy's motto; the IAF's is \"Nabhah Sparsham Deeptam\".",
    "topic": 111,
    "sec": 3,
@@ -493,11 +493,11 @@
    "s": "Who chairs the IRDAI AI Task Force set up on 18 June 2026?",
    "o": [
     "Deepak Gaikwad",
+    "Sandeep K. Shukla",
     "Alakh N. Sharma",
-    "Ananta Barua",
-    "Sandeep K. Shukla"
+    "Ananta Barua"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Sandeep K. Shukla, Director of IIIT Hyderabad, chairs the 7-member task force; Deepak Gaikwad is member-convener.",
    "topic": 111,
    "sec": 4,
@@ -507,12 +507,12 @@
    "shape": "one-liner",
    "s": "Saibal Chattopadhyay was appointed Chairperson of the:",
    "o": [
-    "National Statistical Commission",
     "Central Water Commission",
     "SEBI Expert Working Group on debenture trustees",
+    "National Statistical Commission",
     "High-Level Technical Expert Group on Labour Statistics"
    ],
-   "a": 0,
+   "a": 2,
    "x": "The ex-Director of IIM Calcutta heads the National Statistical Commission (est. 2005).",
    "topic": 111,
    "sec": 4,
@@ -523,11 +523,11 @@
    "s": "From 1 July 2026, Dr. U.P. Rajeev heads which ISRO centre?",
    "o": [
     "LPSC",
-    "VSSC",
     "IISU",
-    "SDSC-SHAR"
+    "SDSC-SHAR",
+    "VSSC"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Dr. U.P. Rajeev heads VSSC; Dr. N. Jayan heads LPSC – a common swap trap.",
    "topic": 111,
    "sec": 4,
@@ -537,12 +537,12 @@
    "shape": "one-liner",
    "s": "How many members are there in the High-Powered Task Force on NTA reforms chaired by Nandan Nilekani?",
    "o": [
+    "Six",
     "Five",
     "Seven",
-    "Six",
     "Sixteen"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The task force set up by the PM has six members; the IRDAI AI Task Force has seven.",
    "topic": 111,
    "sec": 4,
@@ -553,11 +553,11 @@
    "s": "Bimal N. Patel was elected a Judge (2026–2035) of the:",
    "o": [
     "International Court of Justice",
+    "International Tribunal for the Law of the Sea",
     "Financial Action Task Force",
-    "ICAO Council",
-    "International Tribunal for the Law of the Sea"
+    "ICAO Council"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Bimal N. Patel was elected to ITLOS (Hamburg), not the ICJ, succeeding Neeru Chadha.",
    "topic": 111,
    "sec": 5,
@@ -567,12 +567,12 @@
    "shape": "one-liner",
    "s": "Who became India's first Vice-President of the FATF?",
    "o": [
-    "Vivek Agarwal",
     "Neelkanth Mishra",
     "Satyajit Mohanty",
+    "Vivek Agarwal",
     "Rahul Jain"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Vivek Agarwal, a 1994-batch IAS officer of the MP cadre, is India's first FATF Vice-President.",
    "topic": 111,
    "sec": 5,
@@ -598,11 +598,11 @@
    "s": "The International Tribunal for the Law of the Sea (ITLOS) is located at:",
    "o": [
     "The Hague",
-    "Hamburg",
     "Paris",
-    "Manila"
+    "Manila",
+    "Hamburg"
    ],
-   "a": 1,
+   "a": 3,
    "x": "ITLOS, with 21 judges, sits at Hamburg; it was set up in 1996.",
    "topic": 111,
    "sec": 5,
@@ -612,12 +612,12 @@
    "shape": "one-liner",
    "s": "Vivek Raghavan, named in TIME100 AI 2026, is a co-founder of:",
    "o": [
+    "Sarvam AI",
     "Adalat AI",
     "Bayesian Health",
-    "Sarvam AI",
     "Micron"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Vivek Raghavan co-founded Sarvam AI; Utkarsh Saxena co-founded Adalat AI.",
    "topic": 111,
    "sec": 5,
@@ -628,11 +628,11 @@
    "s": "How many Indian and Indian-origin names featured in the TIME100 AI 2026 list?",
    "o": [
     "6",
+    "10",
     "8",
-    "12",
-    "10"
+    "12"
    ],
-   "a": 3,
+   "a": 1,
    "x": "The fourth TIME100 AI list (27 August 2026) had 10 Indian and Indian-origin names.",
    "topic": 111,
    "sec": 5,
@@ -642,12 +642,12 @@
    "shape": "NOT",
    "s": "Which of the following is NOT correct about TIME100 AI 2026?",
    "o": [
-    "It was the first edition of the list.",
     "It was released on 27 August 2026.",
     "Arvind Krishna of IBM featured in it.",
+    "It was the first edition of the list.",
     "ITU Secretary-General Doreen Bogdan-Martin featured in it."
    ],
-   "a": 0,
+   "a": 2,
    "x": "TIME100 AI 2026 was the fourth annual list, not the first.",
    "topic": 111,
    "sec": 5,
@@ -658,11 +658,11 @@
    "s": "Vipul, India's Ambassador to Qatar, has been named the next Ambassador to:",
    "o": [
     "Türkiye",
-    "Saudi Arabia",
     "Iran",
-    "Malaysia"
+    "Malaysia",
+    "Saudi Arabia"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Vipul moves from Qatar to Saudi Arabia; Koppula Srikar Reddy is the new envoy to Qatar.",
    "topic": 111,
    "sec": 5,
@@ -672,12 +672,12 @@
    "shape": "one-liner",
    "s": "Khalilur Rahman, elected President of the 81st UN General Assembly, is from:",
    "o": [
+    "Bangladesh",
     "Cyprus",
     "Ethiopia",
-    "Bangladesh",
     "Spain"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Khalilur Rahman is Bangladesh's Foreign Minister; he beat Andreas Kakouris of Cyprus.",
    "topic": 111,
    "sec": 6,
@@ -688,11 +688,11 @@
    "s": "How many votes did Khalilur Rahman receive in the election for President of the 81st UNGA?",
    "o": [
     "91",
+    "99",
     "96",
-    "193",
-    "99"
+    "193"
    ],
-   "a": 3,
+   "a": 1,
    "x": "He won 99 votes against 91 for Andreas Kakouris; 96 of 193 were needed.",
    "topic": 111,
    "sec": 6,
@@ -702,28 +702,28 @@
    "shape": "one-liner",
    "s": "Who is the President of the Asian Development Bank?",
    "o": [
-    "Masato Kanda",
     "Kristalina Georgieva",
     "Doreen Bogdan-Martin",
+    "Masato Kanda",
     "Annalena Baerbock"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Masato Kanda is President of the ADB (est. 1966, Manila); Kristalina Georgieva is IMF MD.",
    "topic": 111,
    "sec": 6,
    "angle": "2"
   },
   {
-   "shape": "one-liner",
-   "s": "Doreen Bogdan-Martin, vice-chair of the AI for Good Global Commission, is Secretary-General of:",
+   "shape": "NOT",
+   "s": "Which of the following about international organisations is NOT correct?",
    "o": [
-    "ICAO",
-    "ITU",
-    "ADB",
-    "IMF"
+    "The IMF was set up in 1944 and is based in Washington DC.",
+    "The ADB was set up in 1966 and is based in Manila.",
+    "ICAO was set up in 1944 and is based in Montreal.",
+    "ITU Secretary-General Doreen Bogdan-Martin heads an organisation based in Montreal."
    ],
-   "a": 1,
-   "x": "Doreen Bogdan-Martin is Secretary-General of the ITU, Geneva.",
+   "a": 3,
+   "x": "ITU, headed by Doreen Bogdan-Martin, is based in Geneva; Montreal is the seat of ICAO.",
    "topic": 111,
    "sec": 6,
    "angle": "2"
@@ -732,12 +732,12 @@
    "shape": "one-liner",
    "s": "In June 2026, footballer Lamine Yamal was named Goodwill Ambassador of:",
    "o": [
+    "UNICEF",
     "ITU",
     "ICAO",
-    "UNICEF",
     "IMF"
    ],
-   "a": 2,
+   "a": 0,
    "x": "On 11 June 2026 Lamine Yamal (Spain) was named UNICEF Goodwill Ambassador.",
    "topic": 111,
    "sec": 6,
@@ -763,11 +763,11 @@
    "s": "Who became the new Prime Minister of Ukraine in July 2026?",
    "o": [
     "Yulia Svyrydenko",
+    "Serhiy Koretsky",
     "Mindaugas Sinkevičius",
-    "Abelardo de la Espriella",
-    "Serhiy Koretsky"
+    "Abelardo de la Espriella"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Serhiy Koretsky, ex-CEO of Naftogaz, succeeded Yulia Svyrydenko as Ukraine's PM.",
    "topic": 111,
    "sec": 7,
@@ -777,28 +777,28 @@
    "shape": "one-liner",
    "s": "Abiy Ahmed Ali's Prosperity Party won 438 of 501 seats in the elections of:",
    "o": [
-    "Ethiopia",
     "Colombia",
     "Peru",
+    "Ethiopia",
     "Denmark"
    ],
-   "a": 0,
+   "a": 2,
    "x": "PM Abiy Ahmed Ali's Prosperity Party won 438 of 501 seats in Ethiopia.",
    "topic": 111,
    "sec": 7,
    "angle": "1"
   },
   {
-   "shape": "one-liner",
-   "s": "Mette Frederiksen was sworn in for a third consecutive term as Prime Minister of:",
+   "shape": "match",
+   "s": "Which of the following pairs (country – leader in news, 2026) is correctly matched?",
    "o": [
-    "Lithuania",
-    "Denmark",
-    "Romania",
-    "Spain"
+    "Lithuania – Serhiy Koretsky",
+    "Ukraine – Mindaugas Sinkevičius",
+    "Colombia – Keiko Fujimori",
+    "Denmark – Mette Frederiksen"
    ],
-   "a": 1,
-   "x": "Mette Frederiksen of the Social Democrats began a 3rd consecutive term in Denmark.",
+   "a": 3,
+   "x": "Mette Frederiksen began a 3rd term in Denmark; Koretsky is Ukraine's PM, Sinkevičius Lithuania's PM and Fujimori won in Peru.",
    "topic": 111,
    "sec": 7,
    "angle": "1"
@@ -807,12 +807,12 @@
    "shape": "one-liner",
    "s": "Andy Burnham was to become Prime Minister of the UK on:",
    "o": [
+    "20 July 2026",
     "22 June 2026",
     "5 July 2026",
-    "20 July 2026",
     "7 August 2026"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Keir Starmer resigned on 22 June 2026; Burnham was to become PM on 20 July 2026.",
    "topic": 111,
    "sec": 7,
@@ -823,27 +823,27 @@
    "s": "Who among the following, who died in 2026, was known as the \"Nightingale of South India\"?",
    "o": [
     "Teejan Bai",
+    "S. Janaki",
     "Bharathiraja",
-    "Subhash C. Kashyap",
-    "S. Janaki"
+    "Subhash C. Kashyap"
    ],
-   "a": 3,
+   "a": 1,
    "x": "S. Janaki sang 48,000+ songs in 20 languages; Teejan Bai was a Pandavani singer.",
    "topic": 111,
    "sec": 8,
    "angle": "5"
   },
   {
-   "shape": "one-liner",
-   "s": "Sir Garfield Sobers, who died in July 2026, played how many Tests?",
+   "shape": "match",
+   "s": "Which of the following pairs (person who died in 2026 – known for) is correctly matched?",
    "o": [
-    "93",
-    "89",
-    "98",
-    "80"
+    "Girish Bharadwaj – Nightingale of South India",
+    "R.T. Nagrani – West Indies all-rounder",
+    "Sir Garfield Sobers – first to hit six sixes in an over (first-class)",
+    "Robert A.F. Thurman – Tamil film director"
    ],
-   "a": 0,
-   "x": "Sobers played 93 Tests and scored 8,032 runs; he died at 89.",
+   "a": 2,
+   "x": "Sobers was the first to hit six sixes in an over in first-class cricket; Bharadwaj was the Bridge Man of India, Nagrani the first NSG DG and Thurman a Buddhist scholar.",
    "topic": 111,
    "sec": 8,
    "angle": "5"
@@ -853,11 +853,11 @@
    "s": "Subhash C. Kashyap, who died in June 2026, served as Secretary-General of the Lok Sabha during:",
    "o": [
     "1977–1983",
-    "1983–1990",
     "1990–1997",
-    "1952–1964"
+    "1952–1964",
+    "1983–1990"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Kashyap, a constitutional expert, was Lok Sabha Secretary-General from 1983 to 1990.",
    "topic": 111,
    "sec": 8,
@@ -867,12 +867,12 @@
    "shape": "one-liner",
    "s": "Bharathiraja, who died on 10 June 2026, was a noted director of which film industry?",
    "o": [
+    "Tamil",
     "Telugu",
     "Kannada",
-    "Tamil",
     "Malayalam"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Bharathiraja was a Tamil director who debuted with \"16 Vayathinile\" (1977).",
    "topic": 111,
    "sec": 8,
@@ -883,11 +883,11 @@
    "s": "Brig. (Retd) Basant Kumar Ponwar, who died in July 2026, set up a jungle-warfare college at:",
    "o": [
     "Raipur",
+    "Kanker",
     "Sullia",
-    "Manesar",
-    "Kanker"
+    "Manesar"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Ponwar set up CTJWC Kanker (Chhattisgarh), which trained 37,000+ police for anti-Naxal operations.",
    "topic": 111,
    "sec": 8,
@@ -897,12 +897,12 @@
    "shape": "one-liner",
    "s": "Who became the 27th Chief of the Naval Staff from 31 May 2026?",
    "o": [
-    "Vice Admiral Krishna Swaminathan",
     "Admiral Dinesh Kumar Tripathi",
     "Vice Adm. Ajay Kochhar",
+    "Vice Admiral Krishna Swaminathan",
     "Lt Gen N.S. Raja Subramani"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Krishna Swaminathan, ex-FOC-in-C Western Naval Command, succeeded Dinesh Kumar Tripathi.",
    "topic": 112,
    "sec": 1,
@@ -913,11 +913,11 @@
    "s": "Who was given additional charge as DRDO Chairman after Dr. Samir V. Kamat retired?",
    "o": [
     "Anugraha Narayan Das",
-    "Rajesh Kumar Singh",
     "Praveen Sood",
-    "Anurag Garg"
+    "Anurag Garg",
+    "Rajesh Kumar Singh"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Defence Secretary Rajesh Kumar Singh got additional charge of DRDO.",
    "topic": 112,
    "sec": 1,
@@ -927,28 +927,28 @@
    "shape": "one-liner",
    "s": "The CBI Director is selected by a panel of:",
    "o": [
+    "PM, CJI and Leader of Opposition",
     "PM, Home Minister and Leader of Opposition",
     "PM, CJI and Lok Sabha Speaker",
-    "PM, CJI and Leader of Opposition",
     "President, PM and CJI"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The CBI Director panel is the PM, the CJI and the Leader of Opposition.",
    "topic": 112,
    "sec": 1,
    "angle": "4"
   },
   {
-   "shape": "one-liner",
-   "s": "The Central Bureau of Investigation functions under the:",
+   "shape": "statements",
+   "s": "Consider the following statements:\n1. The CBI functions under the Department of Personnel and Training.\n2. The Narcotics Control Bureau functions under the Ministry of Home Affairs.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Ministry of Home Affairs",
-    "Ministry of Defence",
-    "Department of Military Affairs",
-    "Department of Personnel and Training"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 3,
-   "x": "CBI (est. 1963) is under DoPT, not MHA; the NCB is under MHA.",
+   "a": 2,
+   "x": "Both are correct: CBI (est. 1963) is under DoPT, not MHA, while the NCB (est. 1986) is under MHA.",
    "topic": 112,
    "sec": 1,
    "angle": "4"
@@ -957,12 +957,12 @@
    "shape": "one-liner",
    "s": "Who was the first Chief of Defence Staff of India?",
    "o": [
-    "Gen Bipin Rawat",
     "Gen Anil Chauhan",
+    "Gen Bipin Rawat",
     "Lt Gen N.S. Raja Subramani",
     "Admiral Dinesh Kumar Tripathi"
    ],
-   "a": 0,
+   "a": 1,
    "x": "The CDS post was created in December 2019 and Gen Bipin Rawat was the first CDS.",
    "topic": 112,
    "sec": 1,
@@ -973,11 +973,11 @@
    "s": "Who became the first NCLT President who had not been a High Court Chief Justice?",
    "o": [
     "Bachu Venkat Balaram Das",
-    "Justice Anupinder Singh Grewal",
     "Justice Sanjiv Khanna",
+    "Justice Anupinder Singh Grewal",
     "Praveen Sood"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Justice A.S. Grewal, appointed in April 2026, is the first such NCLT President.",
    "topic": 112,
    "sec": 2,
@@ -989,10 +989,10 @@
    "o": [
     "Prasoon Joshi",
     "P. Jawahar",
-    "Shashi Shekhar Vempati",
-    "Srikant Velamakanni"
+    "Srikant Velamakanni",
+    "Shashi Shekhar Vempati"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Shashi Shekhar Vempati heads the CBFC; Prasoon Joshi moved from CBFC to Prasar Bharati.",
    "topic": 112,
    "sec": 2,
@@ -1002,12 +1002,12 @@
    "shape": "one-liner",
    "s": "Prasoon Joshi was appointed Chairman of:",
    "o": [
+    "Prasar Bharati",
     "CBFC",
     "NASSCOM",
-    "MPEDA",
-    "Prasar Bharati"
+    "MPEDA"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Prasoon Joshi became Chairman of Prasar Bharati, which manages Doordarshan and AIR.",
    "topic": 112,
    "sec": 2,
@@ -1017,12 +1017,12 @@
    "shape": "one-liner",
    "s": "The Godavari River Management Board, chaired by Padma Dorjee, was set up under the:",
    "o": [
-    "Andhra Pradesh Reorganisation Act, 2014",
     "Companies Act, 2013",
+    "Andhra Pradesh Reorganisation Act, 2014",
     "Aadhaar Act, 2016",
     "Cinematograph Act, 1952"
    ],
-   "a": 0,
+   "a": 1,
    "x": "The GRMB comes from the AP Reorganisation Act, 2014.",
    "topic": 112,
    "sec": 2,
@@ -1033,11 +1033,11 @@
    "s": "Who was given interim charge as CEO of NITI Aayog on 24 February 2026?",
    "o": [
     "B.V.R. Subrahmanyam",
-    "Nidhi Chhibber",
     "Ashok Kumar Lahiri",
+    "Nidhi Chhibber",
     "Saurabh Vijay"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Nidhi Chhibber got additional charge after B.V.R. Subrahmanyam's term ended; Saurabh Vijay is UIDAI CEO.",
    "topic": 112,
    "sec": 2,
@@ -1049,10 +1049,10 @@
    "o": [
     "5",
     "6",
-    "7",
-    "8"
+    "8",
+    "7"
    ],
-   "a": 2,
+   "a": 3,
    "x": "With R. Balasubramaniam and Joram Aniya, NITI Aayog's full-time members are now seven.",
    "topic": 112,
    "sec": 2,
@@ -1062,12 +1062,12 @@
    "shape": "one-liner",
    "s": "Visakhapatnam Steel Plant (RINL) is known as India's first:",
    "o": [
+    "Shore-based integrated steel plant",
     "Hill-based integrated steel plant",
     "Mini steel plant",
-    "Private steel plant",
-    "Shore-based integrated steel plant"
+    "Private steel plant"
    ],
-   "a": 3,
+   "a": 0,
    "x": "RINL (est. 1982) is India's first shore-based integrated steel plant.",
    "topic": 112,
    "sec": 2,
@@ -1077,28 +1077,28 @@
    "shape": "one-liner",
    "s": "Who was appointed India's High Commissioner to the UK in 2026?",
    "o": [
-    "V. Periyasami Kumaran",
     "Vikram K. Doraiswami",
+    "V. Periyasami Kumaran",
     "Prashant Pise",
     "Pranay Verma"
    ],
-   "a": 0,
+   "a": 1,
    "x": "V. Periyasami Kumaran is the new HC to the UK; Vikram Doraiswami moved from the UK to China.",
    "topic": 112,
    "sec": 3,
    "angle": "4"
   },
   {
-   "shape": "one-liner",
-   "s": "Pranay Verma was appointed India's Ambassador to:",
+   "shape": "match",
+   "s": "Which of the following pairs (envoy – post, 2026) is correctly matched?",
    "o": [
-    "Oman",
-    "Belgium and the EU",
-    "China",
-    "Bangladesh"
+    "Dinesh Trivedi – High Commissioner to the UK",
+    "V. Periyasami Kumaran – Ambassador to China",
+    "Pranay Verma – Ambassador to Belgium and the EU",
+    "Vikram K. Doraiswami – Ambassador to Oman"
    ],
-   "a": 1,
-   "x": "Pranay Verma is Ambassador to Belgium and the EU.",
+   "a": 2,
+   "x": "Pranay Verma went to Belgium and the EU; Trivedi to Bangladesh, Kumaran to the UK, Doraiswami to China.",
    "topic": 112,
    "sec": 3,
    "angle": "4"
@@ -1109,10 +1109,10 @@
    "o": [
     "2 years from 2027",
     "4 years from 2026",
-    "3 years from 2027",
-    "5 years from 2026"
+    "5 years from 2026",
+    "3 years from 2027"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Preeti Saran was re-elected to CESCR for a 3-year term from 2027.",
    "topic": 112,
    "sec": 4,
@@ -1122,12 +1122,12 @@
    "shape": "one-liner",
    "s": "The UN Committee on Economic, Social and Cultural Rights (CESCR) was set up in:",
    "o": [
+    "1985",
     "1966",
     "1976",
-    "1995",
-    "1985"
+    "1995"
    ],
-   "a": 3,
+   "a": 0,
    "x": "CESCR was set up in 1985; the ICESCR covenant was adopted in 1966.",
    "topic": 112,
    "sec": 4,
@@ -1137,12 +1137,12 @@
    "shape": "one-liner",
    "s": "Balen Shah, Nepal's youngest Prime Minister at 35, belongs to the:",
    "o": [
-    "Rastriya Swatantra Party",
     "Tisza Party",
+    "Rastriya Swatantra Party",
     "National Resistance Movement",
     "PASTEF"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Balen Shah of the Rastriya Swatantra Party defeated KP Sharma Oli.",
    "topic": 112,
    "sec": 5,
@@ -1153,27 +1153,27 @@
    "s": "Peter Magyar's victory in Hungary ended whose 16-year rule?",
    "o": [
     "Rumen Radev",
-    "Viktor Orbán",
     "Robert Golob",
+    "Viktor Orbán",
     "Janez Janša"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Peter Magyar of the Tisza Party ended Viktor Orbán's 16-year rule.",
    "topic": 112,
    "sec": 5,
    "angle": "1"
   },
   {
-   "shape": "one-liner",
-   "s": "In May 2026, Janez Janša became Prime Minister of Slovenia for the:",
+   "shape": "NOT",
+   "s": "Which of the following about leaders' terms in 2026 is NOT correct?",
    "o": [
-    "Second time",
-    "Third time",
-    "Fourth time",
-    "Fifth time"
+    "Janez Janša became Slovenia's PM for the fourth time.",
+    "Yoweri Museveni was sworn in for a seventh term in Uganda.",
+    "Ismail Omar Guelleh has been in power in Djibouti since 1999.",
+    "Ismail Omar Guelleh won a seventh term in Djibouti."
    ],
-   "a": 2,
-   "x": "Janša became PM for the fourth time with 51 votes in the 90-member National Assembly.",
+   "a": 3,
+   "x": "Guelleh won a sixth term, not a seventh; Museveni has the seventh term and Janša is PM for the fourth time.",
    "topic": 112,
    "sec": 5,
    "angle": "1"
@@ -1182,12 +1182,12 @@
    "shape": "one-liner",
    "s": "Laura Virginia Fernández Delgado was sworn in on 8 May 2026 as President of:",
    "o": [
+    "Costa Rica",
     "Chile",
     "Latvia",
-    "Senegal",
-    "Costa Rica"
+    "Senegal"
    ],
-   "a": 3,
+   "a": 0,
    "x": "She became the 50th President of Costa Rica.",
    "topic": 112,
    "sec": 5,
@@ -1197,28 +1197,28 @@
    "shape": "one-liner",
    "s": "Rebeca Grynspan, a candidate for UN Secretary-General, is Secretary-General of:",
    "o": [
-    "UNCTAD",
     "IAEA",
+    "UNCTAD",
     "WFP",
     "ITU"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Grynspan heads UNCTAD; Rafael Grossi, another candidate, heads the IAEA.",
    "topic": 112,
    "sec": 5,
    "angle": "2"
   },
   {
-   "shape": "one-liner",
-   "s": "Rafael Grossi, a candidate for UN Secretary-General, heads the:",
+   "shape": "statements",
+   "s": "Consider the following statements about the UN Secretary-General race of 2026:\n1. The next Secretary-General is appointed by the General Assembly on the Security Council's recommendation.\n2. Candidate Rafael Grossi heads UNCTAD.\nWhich of the statements given above is/are correct?",
    "o": [
-    "UNCTAD",
-    "IAEA",
-    "WFP",
-    "ITU"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 1,
-   "x": "Rafael Grossi of Argentina is IAEA Director General.",
+   "a": 0,
+   "x": "Only 1 is correct: Rafael Grossi heads the IAEA; it is Rebeca Grynspan who heads UNCTAD.",
    "topic": 112,
    "sec": 5,
    "angle": "2"
@@ -1569,16 +1569,16 @@
    "angle": "1"
   },
   {
-   "shape": "one-liner",
-   "s": "Who became the UN High Commissioner for Refugees from 1 January 2026?",
+   "shape": "match",
+   "s": "Which of the following pairs (person – post from 1 January 2026) is correctly matched?",
    "o": [
-    "Barham Salih",
-    "Filippo Grandi",
-    "Zurab Pololikashvili",
-    "Jean Todt"
+    "Barham Salih – UN High Commissioner for Refugees",
+    "Shaikha Al Nowais – UN High Commissioner for Refugees",
+    "Filippo Grandi – Secretary-General, UN Tourism",
+    "Zurab Pololikashvili – UN High Commissioner for Refugees"
    ],
    "a": 0,
-   "x": "Former Iraqi President Barham Salih succeeded Filippo Grandi for a 5-year term.",
+   "x": "Barham Salih heads UNHCR from 1 January 2026, succeeding Filippo Grandi; Shaikha Al Nowais heads UN Tourism, succeeding Pololikashvili.",
    "topic": 113,
    "sec": 5,
    "angle": "2"
