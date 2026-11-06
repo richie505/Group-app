@@ -1,0 +1,1110 @@
+{
+ "reshape": {
+  "n2b3e7d7aa94": {
+   "shape": "statements",
+   "s": "Consider the following statements about India's E20 ethanol-blended petrol:\n1. The E20 blending target was advanced to ESY 2025-26 from 2030.\n2. E20 petrol with a minimum 91 RON has been mandated from 1 April 2026.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "The E20 target was advanced from 2030 to ESY 2025-26; the mandate from 1 April 2026 is for E20 with a minimum 95 RON, not 91."
+  },
+  "n0bcda75570e": {
+   "shape": "one-liner",
+   "s": "NITI Aayog's India Energy Security Scenarios 2047 (IESS 2047) was launched in:",
+   "o": [
+    "2012",
+    "2017",
+    "2014",
+    "2020"
+   ],
+   "a": 2,
+   "x": "IESS 2047 was launched in 2014; 2017 is the year of the Draft National Energy Policy."
+  },
+  "n048f18bf179": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT an objective of NITI Aayog's Draft National Energy Policy?",
+   "o": [
+    "Access to energy at affordable prices",
+    "Improved energy security and independence",
+    "Greater dependence on imported fossil fuels",
+    "Greater sustainability and economic growth"
+   ],
+   "a": 2,
+   "x": "Its objectives are affordable access, improved security and independence, greater sustainability and economic growth; more import dependence runs against the independence objective."
+  },
+  "n3af08a644e6": {
+   "shape": "match",
+   "s": "Which of the following pairs about nuclear capacity recommended by NITI Aayog's 'Scenarios Towards Viksit Bharat and Net Zero' (Feb 2026) is correctly matched?",
+   "o": [
+    "By 2047 – about 50 GW",
+    "By 2047 – 200–300 GW",
+    "By 2070 – about 50 GW",
+    "By 2070 – 200–300 GW"
+   ],
+   "a": 3,
+   "x": "The study recommends 200–300 GW of nuclear capacity by 2070 and about 100 GW by 2047."
+  },
+  "n2231b5abe5d": {
+   "shape": "one-liner",
+   "s": "Before clean-cooking access expanded, about how many people in India relied on solid biomass for cooking?",
+   "o": [
+    "200 million",
+    "304 million",
+    "500 million",
+    "100 million"
+   ],
+   "a": 2,
+   "x": "About 500 million relied on solid biomass for cooking; 304 million is the number without electricity."
+  },
+  "n34ec98961c2": {
+   "shape": "one-liner",
+   "s": "Andhra Pradesh's Integrated Clean Energy Policy 2024 (ICEP-2024) targets net zero for the State by:",
+   "o": [
+    "2047",
+    "2070",
+    "2050",
+    "2035"
+   ],
+   "a": 0,
+   "x": "ICEP-2024 targets net zero for Andhra Pradesh by 2047; 2070 is India's national target."
+  },
+  "n97bd3b46015": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the evolution of the Ministry of New and Renewable Energy?",
+   "o": [
+    "The Commission for Additional Sources of Energy was set up in 1981",
+    "The Department of Non-Conventional Energy Sources (1982) was created in the Ministry of Science and Technology",
+    "A separate Ministry of Non-Conventional Energy Sources came in 1992",
+    "The ministry was renamed MNRE in 2006"
+   ],
+   "a": 1,
+   "x": "DNES (1982) was created in the Ministry of Energy, not the Ministry of Science and Technology."
+  }
+ },
+ "new": [
+  {
+   "topic": 54,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which of the following energy sources is NOT derived from the Sun?",
+   "o": [
+    "Wind",
+    "Biomass",
+    "Geothermal",
+    "Hydro"
+   ],
+   "a": 2,
+   "x": "Geothermal energy comes from the Earth's interior heat; tidal and nuclear energy are the other sources not derived from the Sun."
+  },
+  {
+   "topic": 54,
+   "sec": 1,
+   "angle": "1",
+   "shape": "statements",
+   "s": "Consider the following statements about the classification of energy resources:\n1. Hydro power is both conventional and renewable.\n2. 'Conventional' energy means non-renewable energy.\n3. Tidal energy is not derived from the Sun.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "'Conventional' means long-established use, not non-renewable, so hydro and biomass are conventional and renewable; tidal energy comes from the movement of ocean water."
+  },
+  {
+   "topic": 54,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which State has India's largest monazite (thorium) resources?",
+   "o": [
+    "Tamil Nadu",
+    "Andhra Pradesh",
+    "Odisha",
+    "Kerala"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh leads with 3.72 Mt of monazite, followed by Tamil Nadu, Odisha, Kerala and West Bengal."
+  },
+  {
+   "topic": 54,
+   "sec": 2,
+   "angle": "6,17",
+   "shape": "one-liner",
+   "s": "The large low-grade uranium deposit at Tummalapalle is in which district of Andhra Pradesh?",
+   "o": [
+    "Kurnool",
+    "Anantapur",
+    "Nellore",
+    "YSR Kadapa"
+   ],
+   "a": 3,
+   "x": "Tummalapalle, a large low-grade uranium deposit, is in YSR Kadapa district."
+  },
+  {
+   "topic": 54,
+   "sec": 3,
+   "angle": "3,12",
+   "shape": "one-liner",
+   "s": "By August 2025, OPEC's share of India's crude-oil imports had fallen to:",
+   "o": [
+    "Below 50%",
+    "About 65%",
+    "About 75%",
+    "Above 90%"
+   ],
+   "a": 0,
+   "x": "OPEC's share of India's crude imports fell below 50% (Aug 2025), though OPEC still produces about 40% of global oil."
+  },
+  {
+   "topic": 54,
+   "sec": 4,
+   "angle": "2,9",
+   "shape": "one-liner",
+   "s": "The Strait of Hormuz lies between:",
+   "o": [
+    "Iran and the UAE",
+    "Iran and Oman",
+    "Saudi Arabia and Qatar",
+    "Oman and Yemen"
+   ],
+   "a": 1,
+   "x": "The Strait of Hormuz lies between Iran and Oman and carries about 34% of world crude trade."
+  },
+  {
+   "topic": 54,
+   "sec": 4,
+   "angle": "2,9",
+   "shape": "one-liner",
+   "s": "Which is the biggest driver of India's trade deficit and current account deficit?",
+   "o": [
+    "Coal imports",
+    "Gold imports",
+    "Electronics imports",
+    "Crude-oil imports"
+   ],
+   "a": 3,
+   "x": "Oil imports are the biggest driver of India's trade deficit and CAD, so global price volatility also feeds domestic inflation."
+  },
+  {
+   "topic": 54,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "India's crude-oil import bill in FY 2024-25 was about:",
+   "o": [
+    "$13.7 billion",
+    "$137.0 billion",
+    "$82.0 billion",
+    "$210.0 billion"
+   ],
+   "a": 1,
+   "x": "The crude import bill in FY 2024-25 was $137.0 billion, up 3%; $13.7 billion is the bill for July 2026 alone."
+  },
+  {
+   "topic": 54,
+   "sec": 6,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Which is the largest of India's Phase I Strategic Petroleum Reserves?",
+   "o": [
+    "Mangaluru",
+    "Visakhapatnam",
+    "Padur",
+    "Chandikhol"
+   ],
+   "a": 2,
+   "x": "Padur (2.5 MMT) is the largest Phase I site, ahead of Mangaluru (1.5 MMT) and Visakhapatnam (1.33 MMT); Chandikhol is a Phase II site."
+  },
+  {
+   "topic": 54,
+   "sec": 6,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "The International Energy Agency norm for strategic oil stocks is cover for:",
+   "o": [
+    "90 days",
+    "60 days",
+    "30 days",
+    "45 days"
+   ],
+   "a": 0,
+   "x": "The IEA norm is 90 days of cover, against only about 5 days from India's SPRs."
+  },
+  {
+   "topic": 54,
+   "sec": 6,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Chandikhol, an approved Phase II Strategic Petroleum Reserve site, is located in:",
+   "o": [
+    "Karnataka",
+    "Gujarat",
+    "Odisha",
+    "Rajasthan"
+   ],
+   "a": 2,
+   "x": "Phase II approved sites are Chandikhol (Odisha) and Padur (Karnataka); Bikaner (Rajasthan) and Rajkot (Gujarat) are proposed."
+  },
+  {
+   "topic": 54,
+   "sec": 6,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Which Strategic Petroleum Reserve site figures in both Phase I and Phase II?",
+   "o": [
+    "Visakhapatnam",
+    "Mangaluru",
+    "Chandikhol",
+    "Padur"
+   ],
+   "a": 3,
+   "x": "Padur in Karnataka is the only site in both Phase I and Phase II."
+  },
+  {
+   "topic": 54,
+   "sec": 7,
+   "angle": "5,14",
+   "shape": "one-liner",
+   "s": "Which company, the overseas arm of ONGC, acquires equity oil and gas abroad for India?",
+   "o": [
+    "ONGC Videsh",
+    "Oil India",
+    "GAIL",
+    "Shipping Corporation of India"
+   ],
+   "a": 0,
+   "x": "ONGC Videsh (OVL) is ONGC's overseas arm and buys equity oil and gas abroad."
+  },
+  {
+   "topic": 54,
+   "sec": 7,
+   "angle": "14,5",
+   "shape": "match",
+   "s": "Which of the following pairs is INCORRECTLY matched?",
+   "o": [
+    "TAPI – Turkmenistan–Afghanistan–Pakistan–India",
+    "IPI – Iran–Pakistan–India",
+    "HELP – Single licence for all hydrocarbons",
+    "ONGC Videsh – Retail marketing of LPG in India"
+   ],
+   "a": 3,
+   "x": "ONGC Videsh buys equity oil and gas abroad; it is not an LPG marketing company."
+  },
+  {
+   "topic": 54,
+   "sec": 7,
+   "angle": "11,5",
+   "shape": "statements",
+   "s": "Consider the following statements about Hydrocarbon Vision 2025:\n1. It was adopted in 2000.\n2. It bans private participation in the hydrocarbon sector.\n3. It seeks self-reliance through indigenous production and equity oil abroad.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Hydrocarbon Vision 2025 (2000) promotes self-reliance, free market and competition; it does not ban private players."
+  },
+  {
+   "topic": 54,
+   "sec": 8,
+   "angle": "4,10",
+   "shape": "one-liner",
+   "s": "Di-Methyl Ether (DME) under the Methanol Economy programme can replace:",
+   "o": [
+    "Petrol in passenger cars",
+    "Propane in LPG",
+    "Aviation turbine fuel",
+    "Naphtha in fertiliser plants"
+   ],
+   "a": 1,
+   "x": "DME replaces propane in LPG and diesel in slow-RPM engines, not petrol."
+  },
+  {
+   "topic": 54,
+   "sec": 8,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "The M15 blend refers to 15% methanol blended in:",
+   "o": [
+    "Diesel",
+    "LPG",
+    "Petrol",
+    "CNG"
+   ],
+   "a": 2,
+   "x": "M15 is 15% methanol in petrol, cutting petrol/crude imports by at least 15%."
+  },
+  {
+   "topic": 54,
+   "sec": 8,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Blending 20% DME in LPG is estimated to save India about how much a year?",
+   "o": [
+    "₹600 crore",
+    "₹60,000 crore",
+    "₹16,000 crore",
+    "₹6,000 crore"
+   ],
+   "a": 3,
+   "x": "20% DME blending in LPG saves about ₹6,000 crore a year, or ₹50–100 per cylinder."
+  },
+  {
+   "topic": 54,
+   "sec": 8,
+   "angle": "15,4",
+   "shape": "one-liner",
+   "s": "India's Ethanol Blended Petrol programme began with 5% blending in:",
+   "o": [
+    "January 2003",
+    "January 2008",
+    "2013-14",
+    "2018"
+   ],
+   "a": 0,
+   "x": "5% EBP began in January 2003 in 9 sugarcane States and 4 UTs, including Andhra Pradesh."
+  },
+  {
+   "topic": 54,
+   "sec": 9,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "The PM E-DRIVE scheme, in force from 1 October 2024, replaced:",
+   "o": [
+    "FAME-I",
+    "FAME-II",
+    "PM-KUSUM",
+    "e-Amrit"
+   ],
+   "a": 1,
+   "x": "PM E-DRIVE (₹10,900 crore) replaced FAME-II and has been extended to March 2028."
+  },
+  {
+   "topic": 54,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "India became an association country of the International Energy Agency in:",
+   "o": [
+    "October 2023",
+    "March 2015",
+    "March 2017",
+    "September 2023"
+   ],
+   "a": 2,
+   "x": "India has been an IEA association country since March 2017 and sought full membership in October 2023."
+  },
+  {
+   "topic": 54,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The core founding members of the Global Biofuels Alliance, launched at the G20 New Delhi summit, are India and:",
+   "o": [
+    "USA and France",
+    "Brazil and Argentina",
+    "USA and Brazil",
+    "UK and Japan"
+   ],
+   "a": 2,
+   "x": "The Global Biofuels Alliance (9 Sep 2023) was founded by India, the USA and Brazil; its secretariat is in New Delhi."
+  },
+  {
+   "topic": 54,
+   "sec": 10,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "KABIL, set up in 2019 under the Ministry of Mines, is a joint venture of:",
+   "o": [
+    "NALCO, HCL and MECL",
+    "NMDC, HCL and MECL",
+    "NALCO, NMDC and Coal India",
+    "HCL, Coal India and MECL"
+   ],
+   "a": 0,
+   "x": "KABIL is a JV of NALCO, Hindustan Copper (HCL) and MECL."
+  },
+  {
+   "topic": 54,
+   "sec": 10,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "KABIL's five lithium blocks in Argentina are in which province?",
+   "o": [
+    "Salta",
+    "Jujuy",
+    "Mendoza",
+    "Catamarca"
+   ],
+   "a": 3,
+   "x": "KABIL signed for five lithium blocks in Catamarca, Argentina, on 15 Jan 2024."
+  },
+  {
+   "topic": 54,
+   "sec": 10,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "The National Critical Mineral Mission, approved in January 2025, has a total outlay of:",
+   "o": [
+    "₹16,300 crore",
+    "₹18,000 crore",
+    "₹34,300 crore",
+    "₹10,900 crore"
+   ],
+   "a": 2,
+   "x": "The mission has ₹34,300 crore over seven years: ₹16,300 crore from government and ₹18,000 crore from PSUs."
+  },
+  {
+   "topic": 54,
+   "sec": 11,
+   "angle": "17",
+   "shape": "one-liner",
+   "s": "Which company is the operator of the KG-D6 block in the Krishna-Godavari Basin?",
+   "o": [
+    "ONGC",
+    "Reliance",
+    "BP",
+    "Oil India"
+   ],
+   "a": 1,
+   "x": "Reliance operates KG-D6 with a 66.67% share; BP holds 33.33%, and ONGC runs the neighbouring KG-DWN-98/2 block."
+  },
+  {
+   "topic": 54,
+   "sec": 11,
+   "angle": "17",
+   "shape": "one-liner",
+   "s": "The oil refinery at Visakhapatnam, which also hosts a Phase I SPR, is run by:",
+   "o": [
+    "IOCL",
+    "BPCL",
+    "ONGC",
+    "HPCL"
+   ],
+   "a": 3,
+   "x": "Visakhapatnam has the HPCL refinery and a 1.33 MMT Phase I Strategic Petroleum Reserve."
+  },
+  {
+   "topic": 55,
+   "sec": 1,
+   "angle": "6,17",
+   "shape": "match",
+   "s": "Which of the following document – drafting body pairs is INCORRECTLY matched?",
+   "o": [
+    "Integrated Energy Policy (2006) – Planning Commission",
+    "Draft National Energy Policy (2017) – NITI Aayog",
+    "Draft National Electricity Policy 2026 – NITI Aayog",
+    "National Electricity Policy (2005) – Ministry of Power"
+   ],
+   "a": 2,
+   "x": "The Draft National Electricity Policy 2026 is from the Ministry of Power; the Draft National Energy Policy is NITI Aayog's."
+  },
+  {
+   "topic": 55,
+   "sec": 2,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "Petrol prices in India were deregulated in:",
+   "o": [
+    "October 2014",
+    "June 2010",
+    "December 2008",
+    "2015"
+   ],
+   "a": 1,
+   "x": "Petrol was deregulated in June 2010 and diesel in October 2014."
+  },
+  {
+   "topic": 55,
+   "sec": 2,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "PAHAL (2015) relates to:",
+   "o": [
+    "Deregulation of diesel prices",
+    "Rooftop solar subsidy",
+    "LPG subsidy through Direct Benefit Transfer",
+    "Rural feeder separation"
+   ],
+   "a": 2,
+   "x": "PAHAL (2015) delivers the LPG subsidy through DBT."
+  },
+  {
+   "topic": 55,
+   "sec": 2,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "The Integrated Energy Policy aimed to meet the energy needs of all at least cost till:",
+   "o": [
+    "2031-32",
+    "2047",
+    "2030",
+    "2021-22"
+   ],
+   "a": 0,
+   "x": "Its aim was to meet energy needs of all at least cost, reliably and sustainably, till 2031-32."
+  },
+  {
+   "topic": 55,
+   "sec": 4,
+   "angle": "16,7",
+   "shape": "one-liner",
+   "s": "India's Panchamrit commitments were announced at:",
+   "o": [
+    "COP21, Paris",
+    "COP27, Sharm el-Sheikh",
+    "COP26, Glasgow",
+    "COP28, Dubai"
+   ],
+   "a": 2,
+   "x": "Panchamrit was announced at COP26, Glasgow (2021); the Long-Term Low Emission Development Strategy came at COP27."
+  },
+  {
+   "topic": 55,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Under India's updated NDC (2022), the target share of non-fossil installed power capacity by 2030 is:",
+   "o": [
+    "40%",
+    "45%",
+    "60%",
+    "50%"
+   ],
+   "a": 3,
+   "x": "The 2022 NDC targets 50% non-fossil capacity and a 45% intensity cut by 2030; 60% is the 2035 target."
+  },
+  {
+   "topic": 55,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "By 2026, non-fossil sources made up about what share of India's installed power capacity?",
+   "o": [
+    "52.27%",
+    "45%",
+    "60%",
+    "40%"
+   ],
+   "a": 0,
+   "x": "Non-fossil capacity reached 52.27% in 2026, and renewables crossed 200 GW."
+  },
+  {
+   "topic": 55,
+   "sec": 5,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "The Department of Atomic Energy functions directly under:",
+   "o": [
+    "The Ministry of Power",
+    "The Prime Minister",
+    "The Ministry of Science and Technology",
+    "NITI Aayog"
+   ],
+   "a": 1,
+   "x": "The Department of Atomic Energy, handling nuclear power and research, is directly under the Prime Minister."
+  },
+  {
+   "topic": 55,
+   "sec": 5,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "The Bureau of Energy Efficiency was created under:",
+   "o": [
+    "The Electricity Act, 2003",
+    "The PNGRB Act, 2006",
+    "The Energy Conservation Act, 2001",
+    "The National Electricity Policy, 2005"
+   ],
+   "a": 2,
+   "x": "BEE was created under the Energy Conservation Act, 2001, and runs NMEEE under the NAPCC."
+  },
+  {
+   "topic": 55,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Energy Transition Index is published by:",
+   "o": [
+    "World Economic Forum",
+    "International Energy Agency",
+    "IRENA",
+    "NITI Aayog"
+   ],
+   "a": 0,
+   "x": "The Energy Transition Index is the World Economic Forum's."
+  },
+  {
+   "topic": 55,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The National Generation Adequacy Plan 2026-27 to 2035-36 was prepared by:",
+   "o": [
+    "Bureau of Energy Efficiency",
+    "NITI Aayog",
+    "Ministry of New and Renewable Energy",
+    "Central Electricity Authority"
+   ],
+   "a": 3,
+   "x": "The National Generation Adequacy Plan is prepared by the Central Electricity Authority (CEA)."
+  },
+  {
+   "topic": 55,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "In Round I (2022) of the State Energy and Climate Index, Andhra Pradesh was placed in the category:",
+   "o": [
+    "Front Runner",
+    "Achiever",
+    "Aspirant",
+    "Performer"
+   ],
+   "a": 1,
+   "x": "Gujarat topped the larger States in SECI Round I, and Andhra Pradesh was an 'Achiever'."
+  },
+  {
+   "topic": 55,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "In the State Energy Efficiency Index 2024, Andhra Pradesh ranked:",
+   "o": [
+    "First in Group 2",
+    "First in Group 1",
+    "Second in Group 2",
+    "Third in Group 1"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh ranked first in Group 2 of SEEI 2024."
+  },
+  {
+   "topic": 55,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which State topped the larger States in Round I of the State Energy and Climate Index (2022)?",
+   "o": [
+    "Kerala",
+    "Punjab",
+    "Andhra Pradesh",
+    "Gujarat"
+   ],
+   "a": 3,
+   "x": "Gujarat topped the larger States, followed by Kerala and Punjab."
+  },
+  {
+   "topic": 55,
+   "sec": 8,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "India's National Clean Energy Fund was financed by:",
+   "o": [
+    "A carbon tax on petrol",
+    "Sovereign green bonds",
+    "A clean energy cess on coal",
+    "A surcharge on electricity bills"
+   ],
+   "a": 2,
+   "x": "The NCEF was created from a clean energy cess on coal, levied also on imported coal, from Budget 2010-11."
+  },
+  {
+   "topic": 55,
+   "sec": 8,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The clean energy cess on coal, introduced in 2010-11 at ₹50 per tonne, rose by 2016-17 to:",
+   "o": [
+    "₹100 per tonne",
+    "₹200 per tonne",
+    "₹300 per tonne",
+    "₹400 per tonne"
+   ],
+   "a": 3,
+   "x": "The cess rose from ₹50 to ₹400 per tonne by 2016-17; after GST it became the GST Compensation Cess."
+  },
+  {
+   "topic": 55,
+   "sec": 8,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "IREDA was granted Navratna status in:",
+   "o": [
+    "November 2023",
+    "April 2024",
+    "January 2023",
+    "1987"
+   ],
+   "a": 1,
+   "x": "IREDA (1987) was listed in November 2023 and became a Navratna in April 2024."
+  },
+  {
+   "topic": 55,
+   "sec": 9,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The 100% ISTS charge waiver applies to solar and wind projects commissioned by:",
+   "o": [
+    "30 June 2025",
+    "31 March 2024",
+    "30 June 2026",
+    "31 December 2025"
+   ],
+   "a": 0,
+   "x": "The full waiver covers projects commissioned by 30 June 2025; it is then graded, with a 75% waiver to June 2026."
+  },
+  {
+   "topic": 55,
+   "sec": 9,
+   "angle": "17",
+   "shape": "one-liner",
+   "s": "The Tariff Policy of 2006 was revised in:",
+   "o": [
+    "2010",
+    "2014",
+    "2016",
+    "2020"
+   ],
+   "a": 2,
+   "x": "The Tariff Policy, required by the Electricity Act 2003, dates from 2006 and was revised in 2016."
+  },
+  {
+   "topic": 55,
+   "sec": 10,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "Pradhan Mantri Ujjwala Yojana was launched in May 2016 at:",
+   "o": [
+    "Varanasi",
+    "Ballia",
+    "Gorakhpur",
+    "Patna"
+   ],
+   "a": 1,
+   "x": "PMUY was launched at Ballia (UP) in May 2016 to give LPG connections to BPL women."
+  },
+  {
+   "topic": 55,
+   "sec": 10,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "The Saubhagya scheme (2017) aims at:",
+   "o": [
+    "Rural feeder separation",
+    "LPG connections to BPL women",
+    "Rooftop solar for households",
+    "Last-mile household electrification"
+   ],
+   "a": 3,
+   "x": "Saubhagya targets last-mile household electrification; feeder separation is DDUGJY and LPG to BPL women is PMUY."
+  },
+  {
+   "topic": 56,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The National Institute of Solar Energy (NISE) is located at:",
+   "o": [
+    "Gurugram",
+    "Chennai",
+    "Kapurthala",
+    "Roorkee"
+   ],
+   "a": 0,
+   "x": "NISE is at Gurugram; NIWE is at Chennai and NIBE at Kapurthala."
+  },
+  {
+   "topic": 56,
+   "sec": 2,
+   "angle": "1",
+   "shape": "NOT",
+   "s": "Which of the following is NOT an institution under MNRE?",
+   "o": [
+    "National Institute of Wind Energy",
+    "National Institute of Bio-Energy",
+    "DHRE, IIT Roorkee",
+    "Solar Energy Corporation of India"
+   ],
+   "a": 2,
+   "x": "DHRE, IIT Roorkee gives technical support for small hydro but is not under MNRE."
+  },
+  {
+   "topic": 56,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The National Institute of Bio-Energy (NIBE) is located at:",
+   "o": [
+    "Gurugram",
+    "Kapurthala",
+    "Chennai",
+    "Bhubaneswar"
+   ],
+   "a": 1,
+   "x": "NIBE, the MNRE institute for bio-energy, is at Kapurthala in Punjab."
+  },
+  {
+   "topic": 56,
+   "sec": 3,
+   "angle": "4,N1",
+   "shape": "one-liner",
+   "s": "Under its performance MoU with MNRE for 2025-26, IREDA's revenue target is:",
+   "o": [
+    "₹4,100 crore",
+    "₹6,000 crore",
+    "₹10,900 crore",
+    "₹8,200 crore"
+   ],
+   "a": 3,
+   "x": "IREDA's performance MoU with MNRE for 2025-26 sets a revenue target of ₹8,200 crore."
+  },
+  {
+   "topic": 56,
+   "sec": 3,
+   "angle": "4,N1",
+   "shape": "one-liner",
+   "s": "IREDA's MoU with IIT Bhubaneswar for renewable-energy research was signed at the:",
+   "o": [
+    "100 Cube Start-up Conclave",
+    "RE-INVEST 2024",
+    "India Energy Week 2024",
+    "8th ISA Assembly"
+   ],
+   "a": 0,
+   "x": "The MoU, which also supports start-ups, was signed at the 100 Cube Start-up Conclave in February 2024."
+  },
+  {
+   "topic": 56,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Phase-II of the Grid-Connected Rooftop Solar Programme had a target of:",
+   "o": [
+    "4,000 MW",
+    "40,000 MW",
+    "100 GW",
+    "20,000 MW"
+   ],
+   "a": 1,
+   "x": "Phase-II targeted 40,000 MW and has been merged into PM Surya Ghar."
+  },
+  {
+   "topic": 56,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The Green Energy Open Access Rules, 2022 reduced the open-access limit from 1 MW to:",
+   "o": [
+    "500 kW",
+    "250 kW",
+    "100 kW",
+    "50 kW"
+   ],
+   "a": 2,
+   "x": "The Rules, notified by the Ministry of Power on 6 June 2022, cut the limit to 100 kW, with no limit for captive users."
+  },
+  {
+   "topic": 56,
+   "sec": 6,
+   "angle": "8",
+   "shape": "statements",
+   "s": "Consider the following statements about the Green Term Ahead Market (G-TAM):\n1. It began on power exchanges in August 2020.\n2. Its sub-segments are Solar, Non-Solar and Hydro.\n3. Purchases on it do not count towards Renewable Purchase Obligations.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "G-TAM began in August 2020 with Solar, Non-Solar and Hydro segments, and its purchases do count towards RPO."
+  },
+  {
+   "topic": 56,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "PM-KUSUM aims to provide:",
+   "o": [
+    "Rooftop solar to 1 crore households",
+    "Solar pumps and decentralised solar plants for farmers",
+    "LPG connections to BPL women",
+    "Battery storage for utility-scale solar parks"
+   ],
+   "a": 1,
+   "x": "PM-KUSUM gives farmers solar pumps and decentralised solar plants; rooftop solar for 1 crore households is PM Surya Ghar."
+  },
+  {
+   "topic": 56,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The Green Energy Open Access Rules, 2022 were notified by:",
+   "o": [
+    "Ministry of New and Renewable Energy",
+    "Central Electricity Regulatory Commission",
+    "NITI Aayog",
+    "Ministry of Power"
+   ],
+   "a": 3,
+   "x": "The Ministry of Power notified the Green Energy Open Access Rules on 6 June 2022."
+  },
+  {
+   "topic": 56,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The Leadership Group for Industry Transition (LeadIT) was launched by India and:",
+   "o": [
+    "France",
+    "United Kingdom",
+    "Sweden",
+    "Brazil"
+   ],
+   "a": 2,
+   "x": "LeadIT was launched by India and Sweden at the UN Climate Action Summit (Sept 2019) for heavy-industry transition."
+  },
+  {
+   "topic": 56,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The Green Grids Initiative–OSOWOG was launched at COP26 (2021) by India and:",
+   "o": [
+    "United Kingdom",
+    "France",
+    "Sweden",
+    "USA"
+   ],
+   "a": 0,
+   "x": "GGI-OSOWOG is an India-UK initiative; the ISA is India-France and LeadIT India-Sweden."
+  },
+  {
+   "topic": 56,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The 4th edition of RE-INVEST (September 2024) was hosted at:",
+   "o": [
+    "Goa",
+    "New Delhi",
+    "Bengaluru",
+    "Gandhinagar"
+   ],
+   "a": 3,
+   "x": "RE-INVEST 2024 was held at Gandhinagar; Goa hosted MI-8 in July 2023."
+  },
+  {
+   "topic": 56,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "India Energy Week 2023 was hosted at:",
+   "o": [
+    "Goa",
+    "Bengaluru",
+    "New Delhi",
+    "Mumbai"
+   ],
+   "a": 1,
+   "x": "India Energy Week was held at Bengaluru (2023), Goa (2024) and New Delhi (2025)."
+  },
+  {
+   "topic": 56,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which became India's first 100% solar-powered Union Territory (daytime) in 2018?",
+   "o": [
+    "Diu",
+    "Puducherry",
+    "Chandigarh",
+    "Lakshadweep"
+   ],
+   "a": 0,
+   "x": "Diu became 100% solar-powered by day in 2018, using a 9 MW solar park and rooftops."
+  },
+  {
+   "topic": 56,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which Andhra Pradesh city targets becoming the world's first 100% renewable-powered city?",
+   "o": [
+    "Visakhapatnam",
+    "Tirupati",
+    "Amaravati",
+    "Kadapa"
+   ],
+   "a": 2,
+   "x": "Amaravati targets being the world's first 100% renewable-powered city; it is a target, not yet achieved."
+  },
+  {
+   "topic": 56,
+   "sec": 10,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Renewable Energy Country Attractiveness Index (RECAI) is published by:",
+   "o": [
+    "IRENA",
+    "International Energy Agency",
+    "World Economic Forum",
+    "EY (Ernst & Young)"
+   ],
+   "a": 3,
+   "x": "RECAI is published by EY."
+  },
+  {
+   "topic": 56,
+   "sec": 10,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The World Energy Outlook is published by:",
+   "o": [
+    "IRENA",
+    "International Energy Agency",
+    "OPEC",
+    "World Energy Council"
+   ],
+   "a": 1,
+   "x": "The World Energy Outlook and India Energy Outlook are IEA reports, not IRENA's."
+  },
+  {
+   "topic": 56,
+   "sec": 11,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "As of August 2026, India's global rank in wind-power capacity is:",
+   "o": [
+    "Second",
+    "Third",
+    "Fourth",
+    "Fifth"
+   ],
+   "a": 2,
+   "x": "India is 4th in wind and 3rd in total renewable capacity."
+  },
+  {
+   "topic": 56,
+   "sec": 11,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Tata Renewable's project in Andhra Pradesh is a:",
+   "o": [
+    "5,000 MW floating solar project",
+    "800 MW hybrid project",
+    "600 MW solar plant",
+    "1,000 MW wind park"
+   ],
+   "a": 1,
+   "x": "Tata Renewable's AP project is an 800 MW hybrid (₹5,750 crore), not the 5,000 MW SECI floating solar."
+  }
+ ]
+}
