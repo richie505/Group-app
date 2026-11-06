@@ -129,16 +129,16 @@
    "topic": 207,
    "sec": 9,
    "angle": "1,4",
-   "shape": "one-liner",
-   "s": "The 'Swadesh Sevak' of Vancouver was associated with:",
+   "shape": "match",
+   "s": "Which of the following pairs is INCORRECTLY matched?",
    "o": [
-    "Bipin Chandra Pal",
-    "G.D. Kumar",
-    "Tarak Nath Das",
-    "Bhagwan Singh"
+    "Indian Sociologist – Shyamji Krishnavarma",
+    "Islamic Fraternity – Muhammad Barkatullah",
+    "Talwar – Virendranath Chattopadhyay",
+    "Swadesh Sevak – Bipin Chandra Pal"
    ],
-   "a": 1,
-   "x": "Swadesh Sevak, Vancouver, was run by G.D. (Guru Dutt) Kumar, not Bipin Chandra Pal."
+   "a": 3,
+   "x": "Swadesh Sevak, Vancouver, was G.D. Kumar's paper, not Bipin Chandra Pal's; the other pairs are correct."
   },
   {
    "topic": 207,
@@ -518,17 +518,17 @@
   {
    "topic": 208,
    "sec": 10,
-   "angle": "7",
-   "shape": "one-liner",
-   "s": "The Home Rule-supporting paper Desamata was edited by:",
+   "angle": "7,2",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
    "o": [
-    "Mutnuri Krishna Rao",
-    "Chilakamarti",
-    "Konda Venkatappayya",
-    "Nyapati Subba Rao"
+    "Krishna Patrika – Chilakamarti",
+    "Desamata – Chilakamarti",
+    "The Leader – Pherozeshah Mehta",
+    "Bombay Chronicle – Madan Mohan Malaviya"
    ],
    "a": 1,
-   "x": "Desamata was edited by Chilakamarti; Krishna Patrika was Mutnuri Krishna Rao's."
+   "x": "Desamata was edited by Chilakamarti; Krishna Patrika was Mutnuri Krishna Rao's, The Leader Malaviya's and Bombay Chronicle Pherozeshah Mehta's."
   },
   {
    "topic": 208,
@@ -729,16 +729,16 @@
    "topic": 209,
    "sec": 6,
    "angle": "1",
-   "shape": "one-liner",
-   "s": "The death sentence in the Lahore Conspiracy Case was pronounced in:",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Lahore Conspiracy Case (1929-31)?",
    "o": [
-    "October 1929",
-    "March 1931",
-    "April 1929",
-    "October 1930"
+    "It was tried by a special tribunal set up by the Governor-General.",
+    "Bhagat Singh, Sukhdev and Rajguru were hanged on 23 March 1931.",
+    "Shiv Verma was sentenced to transportation for life.",
+    "The death sentence was pronounced in October 1929."
    ],
    "a": 3,
-   "x": "The tribunal passed the death sentence in October 1930; the hanging was on 23 March 1931."
+   "x": "The death sentence was pronounced in October 1930, not 1929; the other statements are correct."
   },
   {
    "topic": 209,
@@ -939,16 +939,16 @@
    "topic": 209,
    "sec": 3,
    "angle": "7",
-   "shape": "one-liner",
-   "s": "Rajendra Lahiri was hanged in December 1927 at:",
+   "shape": "match",
+   "s": "Which of the following pairs of Kakori revolutionary and place of hanging is correctly matched?",
    "o": [
-    "Faizabad",
-    "Gorakhpur",
-    "Naini, Allahabad",
-    "Gonda"
+    "Ram Prasad Bismil – Faizabad",
+    "Ashfaqullah Khan – Gonda",
+    "Rajendra Lahiri – Gonda",
+    "Roshan Singh – Gorakhpur"
    ],
-   "a": 3,
-   "x": "Rajendra Lahiri was hanged at Gonda jail."
+   "a": 2,
+   "x": "Rajendra Lahiri was hanged at Gonda; Bismil at Gorakhpur, Ashfaqullah at Faizabad and Roshan Singh at Naini."
   },
   {
    "topic": 209,
@@ -1084,6 +1084,66 @@
    ],
    "a": 0,
    "x": "It aimed to rouse youth, peasants and workers, oppose communalism and spread Marxist ideas."
+  },
+  {
+   "topic": 207,
+   "sec": 4,
+   "angle": "3",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Komagata Maru?",
+   "o": [
+    "It was a Japanese ship.",
+    "It was chartered by Baba Gurdit Singh.",
+    "It was bound for Vancouver, Canada.",
+    "Its passengers were forced back to Bombay."
+   ],
+   "a": 3,
+   "x": "The passengers were forced back to Calcutta, where police fired on them at Budge Budge; the other statements are correct."
+  },
+  {
+   "topic": 208,
+   "sec": 2,
+   "angle": "1,14",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Annie Besant's All India Home Rule League?",
+   "o": [
+    "It was founded in September 1916.",
+    "Its headquarters was at Adyar, Madras.",
+    "It had about 200 branches.",
+    "Its area of work excluded Bombay city."
+   ],
+   "a": 3,
+   "x": "Besant's League covered the rest of India including Bombay city; it was Tilak's League that excluded Bombay city."
+  },
+  {
+   "topic": 208,
+   "sec": 9,
+   "angle": "9,18",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the August Declaration?",
+   "o": [
+    "It was made on 20 August 1917.",
+    "It promised the progressive realisation of responsible government.",
+    "It was announced by Edwin Montagu as Viceroy of India.",
+    "It led on to the Act of 1919."
+   ],
+   "a": 2,
+   "x": "Montagu was Secretary of State; the Viceroy was Lord Chelmsford. The other statements are correct."
+  },
+  {
+   "topic": 209,
+   "sec": 5,
+   "angle": "4",
+   "shape": "statements",
+   "s": "Consider the following statements about the Central Assembly bomb incident (1929):\n1. Non-lethal smoke bombs were thrown.\n2. It protested against the Public Safety Bill and the Trade Disputes Bill.\n3. Batukeshwar Dutt was hanged for it.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Smoke bombs were thrown to protest the Public Safety and Trade Disputes Bills. B.K. Dutt got transportation for life and was not hanged."
   }
  ]
 }
