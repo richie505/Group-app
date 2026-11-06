@@ -1,0 +1,978 @@
+{
+ "reshape": {
+  "n43542e433de": {
+   "shape": "statements",
+   "s": "Consider the following statements about poverty lines in India:\n1. A higher poverty line raises fiscal costs.\n2. A lower poverty line excludes the needy.\n3. Because poverty lines are politically sensitive, governments may delay action on poverty committee reports.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three are correct: the fiscal cost of a higher line and the exclusion caused by a lower one make poverty lines politically sensitive, so action on reports may be delayed."
+  },
+  "ne2cd895ff1a": {
+   "shape": "one-liner",
+   "s": "Approximately how many people in India were lifted out of poverty between 2011 and 2015?",
+   "o": [
+    "About 10 million",
+    "More than 90 million",
+    "About 25 million",
+    "More than 400 million"
+   ],
+   "a": 1,
+   "x": "More than 90 million people were lifted out of poverty between 2011 and 2015 (APPSC-GS 2025 key)."
+  },
+  "n55923bb1086": {
+   "shape": "one-liner",
+   "s": "Under the Tendulkar method (2011-12), which State had the highest poverty ratio?",
+   "o": [
+    "Bihar",
+    "Chhattisgarh",
+    "Uttar Pradesh",
+    "Odisha"
+   ],
+   "a": 1,
+   "x": "Chhattisgarh had the highest poverty ratio (39.93%); Uttar Pradesh, not Bihar, had the largest number of poor."
+  },
+  "na3c2a80341e": {
+   "shape": "match",
+   "s": "Which of the following pairs (region of Andhra Pradesh – poverty level) is correctly matched?",
+   "o": [
+    "Rayalaseema – least poor region",
+    "North Coastal Andhra – least poor region",
+    "Delta districts – generally least poor",
+    "Kurnool and Anantapur – least poor districts"
+   ],
+   "a": 2,
+   "x": "Delta districts are generally the least poor; Rayalaseema (Kurnool, Anantapur) and North Coastal Andhra are the poorer regions."
+  },
+  "n92b18af0a81": {
+   "shape": "one-liner",
+   "s": "The VB-G RAM G Bill, 2025, passed by Parliament on 18 December 2025, raised the rural job guarantee to:",
+   "o": [
+    "100 days",
+    "110 days",
+    "125 days",
+    "150 days"
+   ],
+   "a": 2,
+   "x": "The VB-G RAM G Bill, 2025 increased the rural job guarantee to 125 days."
+  },
+  "ncf3159fde9b": {
+   "shape": "NOT",
+   "s": "Which of the following curves is NOT correctly matched with the relationship it shows?",
+   "o": [
+    "Laffer curve – tax rate and tax revenue",
+    "Phillips curve – inflation and unemployment",
+    "Lorenz curve – distribution of income",
+    "Laffer curve – inflation and unemployment"
+   ],
+   "a": 3,
+   "x": "Inflation and unemployment are shown by the Phillips curve; the Laffer curve shows tax rate and tax revenue."
+  }
+ },
+ "new": [
+  {
+   "topic": 30,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "At 1867-68 prices, Dadabhai Naoroji estimated the poverty line at:",
+   "o": [
+    "₹15-20 per capita per month",
+    "₹16-35 per capita per year",
+    "₹75 per capita per year",
+    "₹20 per capita per month"
+   ],
+   "a": 1,
+   "x": "Naoroji put it at ₹16-35 per capita per year; ₹15-20 a month was the National Planning Committee (1938) and ₹75 a year the Bombay Plan (1944)."
+  },
+  {
+   "topic": 30,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which suggested a poverty line of ₹75 per capita per year?",
+   "o": [
+    "National Planning Committee (1938)",
+    "Dadabhai Naoroji",
+    "Planning Commission Working Group (1962)",
+    "Bombay Plan (1944)"
+   ],
+   "a": 3,
+   "x": "The Bombay Plan (1944) suggested ₹75 per year; the National Planning Committee (1938) suggested ₹15-20 per month."
+  },
+  {
+   "topic": 30,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Planning Commission has estimated poverty since the:",
+   "o": [
+    "Fourth Five Year Plan",
+    "Fifth Five Year Plan",
+    "Sixth Five Year Plan",
+    "Seventh Five Year Plan"
+   ],
+   "a": 2,
+   "x": "Poverty has been estimated by the Planning Commission since the 6th Five Year Plan."
+  },
+  {
+   "topic": 30,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Planning Commission Working Group of 1962 fixed the poverty line per capita per month at:",
+   "o": [
+    "₹20 rural and ₹25 urban",
+    "₹25 rural and ₹20 urban",
+    "₹15 rural and ₹20 urban",
+    "₹26 rural and ₹32 urban"
+   ],
+   "a": 0,
+   "x": "The 1962 Working Group set ₹20 rural and ₹25 urban per capita per month at 1960-61 prices."
+  },
+  {
+   "topic": 30,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Rangarajan Expert Group on poverty was set up in:",
+   "o": [
+    "December 2005",
+    "December 2009",
+    "June 2012",
+    "July 2013"
+   ],
+   "a": 2,
+   "x": "Rangarajan was set up in June 2012 and reported in 2014; December 2005 is the Tendulkar group."
+  },
+  {
+   "topic": 30,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Dandekar and Rath study of 1971 was based on NSS data of:",
+   "o": [
+    "1950-51",
+    "1960-61",
+    "1973-74",
+    "1993-94"
+   ],
+   "a": 1,
+   "x": "Dandekar and Rath used 1960-61 NSS data."
+  },
+  {
+   "topic": 30,
+   "sec": 3,
+   "angle": "5,2",
+   "shape": "statements",
+   "s": "Consider the following statements about the Dandekar and Rath study (1971):\n1. It was the first systematic study of poverty on nutritional norms.\n2. It used 2,400 kcal for rural and 2,100 kcal for urban areas.\n3. It used 1960-61 NSS data.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Dandekar and Rath used 2,250 kcal for both areas; 2,400/2,100 kcal is the Alagh norm."
+  },
+  {
+   "topic": 30,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Rangarajan Expert Group fixed calorie norms of:",
+   "o": [
+    "2,400 kcal rural and 2,100 kcal urban",
+    "2,250 kcal for both areas",
+    "2,155 kcal rural and 2,090 kcal urban",
+    "2,100 kcal rural and 2,400 kcal urban"
+   ],
+   "a": 2,
+   "x": "Rangarajan used 2,155 kcal rural and 2,090 kcal urban plus protein and fat norms; 2,400/2,100 is Alagh."
+  },
+  {
+   "topic": 30,
+   "sec": 4,
+   "angle": "2",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a feature of the Lakdawala methodology?",
+   "o": [
+    "State-specific poverty lines",
+    "Rural line updated by CPI-AL",
+    "Urban line updated by CPI-IW",
+    "One urban poverty line basket for both rural and urban areas"
+   ],
+   "a": 3,
+   "x": "A single urban PLB for both areas was a Tendulkar feature, not Lakdawala."
+  },
+  {
+   "topic": 30,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which committee's method used one urban poverty line basket for both rural and urban areas?",
+   "o": [
+    "Lakdawala",
+    "Alagh",
+    "Tendulkar",
+    "Rangarajan"
+   ],
+   "a": 2,
+   "x": "Tendulkar used one urban PLB for both areas; Rangarajan used separate food and non-food baskets."
+  },
+  {
+   "topic": 30,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Under the Mixed Reference Period (MRP), a 365-day recall is used for:",
+   "o": [
+    "All items of consumption",
+    "Five low-frequency items such as clothing and durables",
+    "Some food items only",
+    "Food items only"
+   ],
+   "a": 1,
+   "x": "MRP uses a 365-day recall for five low-frequency items: clothing, footwear, durables, education and institutional medical care."
+  },
+  {
+   "topic": 30,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Uniform Reference Period (URP) uses a recall period of:",
+   "o": [
+    "7 days for all items",
+    "30 days for all items",
+    "365 days for all items",
+    "90 days for all items"
+   ],
+   "a": 1,
+   "x": "URP is a 30-day recall for all items, used up to 1993-94."
+  },
+  {
+   "topic": 30,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Under the Lakdawala method, the rural poverty line was updated using:",
+   "o": [
+    "CPI-IW",
+    "WPI",
+    "CPI-AL",
+    "GDP deflator"
+   ],
+   "a": 2,
+   "x": "CPI-AL updated the rural line and CPI-IW the urban line."
+  },
+  {
+   "topic": 30,
+   "sec": 6,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Tendulkar poverty line for 2011-12 in rural areas was:",
+   "o": [
+    "₹26 per day",
+    "₹32 per day",
+    "₹47 per day",
+    "₹27 per day"
+   ],
+   "a": 0,
+   "x": "Tendulkar: ₹26 rural and ₹32 urban per day; Rangarajan: ₹32 rural and ₹47 urban."
+  },
+  {
+   "topic": 30,
+   "sec": 6,
+   "angle": "4",
+   "shape": "match",
+   "s": "Which of the following pairs (2011-12 daily per capita line) is correctly matched?",
+   "o": [
+    "Tendulkar rural – ₹32",
+    "Rangarajan rural – ₹26",
+    "Tendulkar urban – ₹47",
+    "Rangarajan urban – ₹47"
+   ],
+   "a": 3,
+   "x": "Rangarajan urban was ₹47; Tendulkar was ₹26 rural and ₹32 urban, and Rangarajan rural ₹32."
+  },
+  {
+   "topic": 30,
+   "sec": 6,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Tendulkar poverty estimates for 2011-12 were released by the Planning Commission on:",
+   "o": [
+    "22 July 2013",
+    "28 December 2012",
+    "December 2009",
+    "1 April 2014"
+   ],
+   "a": 0,
+   "x": "The Planning Commission released the Tendulkar-based 2011-12 estimates on 22 July 2013."
+  },
+  {
+   "topic": 30,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The Planning Commission estimate of 27.5% of people below the poverty line in 2004-05 was based on the:",
+   "o": [
+    "Mixed Recall Period",
+    "Uniform Recall Period",
+    "Modified Mixed Recall Period",
+    "Tendulkar methodology"
+   ],
+   "a": 1,
+   "x": "27.5% for 2004-05 is the Uniform Recall Period estimate; Tendulkar gave 37.2%."
+  },
+  {
+   "topic": 30,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Under the Tendulkar methodology, urban poverty in 2004-05 was:",
+   "o": [
+    "27.5%",
+    "41.8%",
+    "25.7%",
+    "37.2%"
+   ],
+   "a": 2,
+   "x": "Tendulkar urban 2004-05 was 25.7%; 27.5% was the URP all-India estimate and 41.8% Tendulkar rural."
+  },
+  {
+   "topic": 30,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Under the Lakdawala method, India's poverty ratio for 1993-94 was:",
+   "o": [
+    "45.3%",
+    "36.0%",
+    "27.5%",
+    "29.8%"
+   ],
+   "a": 1,
+   "x": "Lakdawala gave 36.0% for 1993-94; Tendulkar gave 45.3%."
+  },
+  {
+   "topic": 30,
+   "sec": 8,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Abhijit Sen Expert Committee (2012) of the Ministry of Rural Development dealt with:",
+   "o": [
+    "Review of the poverty-line methodology",
+    "Use of SECC indicators to select beneficiaries of rural programmes",
+    "Identification of urban BPL families",
+    "The National Multidimensional Poverty Index"
+   ],
+   "a": 1,
+   "x": "Abhijit Sen dealt with using SECC indicators to pick beneficiaries; the poverty methodology was reviewed by Rangarajan in 2012."
+  },
+  {
+   "topic": 30,
+   "sec": 8,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Under the N.C. Saxena approach, an example of automatic exclusion from the rural BPL list is:",
+   "o": [
+    "Income-tax payers",
+    "Bonded labourers",
+    "Destitute households",
+    "Single-woman-headed households"
+   ],
+   "a": 0,
+   "x": "Income-tax payers were to be automatically excluded; the others were for automatic inclusion."
+  },
+  {
+   "topic": 30,
+   "sec": 9,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "NITI Aayog's National MPI is computed using the:",
+   "o": [
+    "Alkire-Foster method",
+    "Tendulkar method",
+    "Lakdawala method",
+    "Mixed Recall Period method"
+   ],
+   "a": 0,
+   "x": "The National MPI uses the Alkire-Foster method with three equally weighted dimensions."
+  },
+  {
+   "topic": 30,
+   "sec": 9,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The National MPI uses how many indicators, compared with the Global MPI?",
+   "o": [
+    "10 and 12",
+    "12 and 10",
+    "12 and 12",
+    "10 and 10"
+   ],
+   "a": 1,
+   "x": "The National MPI has 12 SDG-aligned indicators; the Global MPI has 10."
+  },
+  {
+   "topic": 30,
+   "sec": 9,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "According to the NITI Aayog discussion paper of January 2024, how many people exited multidimensional poverty in 9 years?",
+   "o": [
+    "13.5 crore",
+    "2.75 crore",
+    "24.82 crore",
+    "29.17 crore"
+   ],
+   "a": 2,
+   "x": "24.82 crore people exited in 9 years, about 2.75 crore a year."
+  },
+  {
+   "topic": 30,
+   "sec": 9,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about NITI Aayog's National MPI:\n1. Its dimensions are health, education and standard of living, equally weighted.\n2. It is based on NFHS-4 and NFHS-5 data.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: three equally weighted dimensions and NFHS-4 (2015-16) and NFHS-5 (2019-21) data."
+  },
+  {
+   "topic": 31,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Under the Millennium Development Goals, India's target was to halve poverty from 47.8% in 1990 to:",
+   "o": [
+    "21.9% by 2015",
+    "23.9% by 2015",
+    "25.7% by 2015",
+    "29.8% by 2015"
+   ],
+   "a": 1,
+   "x": "The MDG target was to halve poverty from 47.8% (1990) to 23.9% by 2015."
+  },
+  {
+   "topic": 31,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Under the updated Tendulkar line (Economic Survey 2025-26), poverty in 2023-24 was:",
+   "o": [
+    "4.7%",
+    "5.3%",
+    "2.3%",
+    "11.28%"
+   ],
+   "a": 2,
+   "x": "The updated Tendulkar line shows 4.7% in 2022-23 and 2.3% in 2023-24."
+  },
+  {
+   "topic": 31,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Under the Tendulkar methodology, urban poverty in India in 2011-12 was:",
+   "o": [
+    "13.7%",
+    "20.9%",
+    "25.7%",
+    "21.9%"
+   ],
+   "a": 0,
+   "x": "Urban poverty was 13.7% in 2011-12; 25.7% was rural and 20.9% the 2009-10 urban figure."
+  },
+  {
+   "topic": 31,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which State recorded the largest number of people exiting multidimensional poverty between 2013-14 and 2022-23?",
+   "o": [
+    "Bihar",
+    "Madhya Pradesh",
+    "Rajasthan",
+    "Uttar Pradesh"
+   ],
+   "a": 3,
+   "x": "Uttar Pradesh had 5.94 crore exits, ahead of Bihar (3.77 crore) and MP (2.30 crore)."
+  },
+  {
+   "topic": 31,
+   "sec": 3,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about social group poverty (Tendulkar, 2011-12):\n1. Rural poverty among Scheduled Tribes was about 45%.\n2. Scheduled Castes had the highest poverty ratio among social groups.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "STs had the highest poverty (rural about 45%); SCs came next, not first."
+  },
+  {
+   "topic": 31,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "What share of persons with no formal education are poor, compared with 14.9% of those with post-secondary education?",
+   "o": [
+    "25.7%",
+    "35.1%",
+    "45.0%",
+    "21.9%"
+   ],
+   "a": 1,
+   "x": "35.1% of those with no formal education are poor against 14.9% with post-secondary education."
+  },
+  {
+   "topic": 31,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Low education leading to higher poverty is a cause of regional poverty differences linked to:",
+   "o": [
+    "Infrastructure",
+    "Agro-climatic suitability",
+    "Social transfers",
+    "Human capital"
+   ],
+   "a": 3,
+   "x": "Low education raising poverty is the human capital factor."
+  },
+  {
+   "topic": 31,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Delta districts gain while Rayalaseema lags in poverty mainly because of differences in:",
+   "o": [
+    "Agricultural productivity and irrigation",
+    "Social transfers",
+    "Urban SHG coverage",
+    "Tribal population only"
+   ],
+   "a": 0,
+   "x": "Irrigation and agricultural productivity favour the delta; rain-fed Rayalaseema lags."
+  },
+  {
+   "topic": 31,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "PMGKAY, MGNREGA and PMAY-G are cited as which factor in cutting poverty?",
+   "o": [
+    "Human capital",
+    "Social transfers",
+    "Infrastructure investment",
+    "Agro-climatic suitability"
+   ],
+   "a": 1,
+   "x": "PMGKAY food, MGNREGA and PMAY-G are social transfers that helped cut poverty."
+  },
+  {
+   "topic": 31,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Under the Tendulkar method (2011-12), Andhra Pradesh's rural and urban poverty ratios were respectively:",
+   "o": [
+    "25.70% and 13.70%",
+    "5.81% and 10.96%",
+    "10.96% and 5.81%",
+    "9.20% and 5.81%"
+   ],
+   "a": 2,
+   "x": "AP had 10.96% rural and 5.81% urban poverty; 25.70%/13.70% were the all-India figures."
+  },
+  {
+   "topic": 31,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In the National MPI (2019-21), Andhra Pradesh's multidimensional poverty headcount was:",
+   "o": [
+    "14.96%",
+    "6.06%",
+    "11.28%",
+    "9.20%"
+   ],
+   "a": 1,
+   "x": "AP's headcount was 6.06% (9th), against 14.96% for India."
+  },
+  {
+   "topic": 31,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Andhra Pradesh's multidimensional poverty fell from 41.6% in 2005-06 to about:",
+   "o": [
+    "21%",
+    "9.20%",
+    "6.06%",
+    "29.9%"
+   ],
+   "a": 0,
+   "x": "AP's multidimensional poverty fell from 41.6% to 21% (APPSC answer key)."
+  },
+  {
+   "topic": 31,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Velugu, the World Bank-aided District Poverty Initiatives Project run by SERP, was later renamed:",
+   "o": [
+    "MEPMA",
+    "APMSS",
+    "Indira Kranthi Patham",
+    "Satat Jeevikoparjan Yojana"
+   ],
+   "a": 2,
+   "x": "Velugu was renamed Indira Kranthi Patham (IKP) in 2004-05."
+  },
+  {
+   "topic": 31,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "MEPMA, the Andhra Pradesh body for urban self-help groups, stands for:",
+   "o": [
+    "Mission for Elimination of Poverty in Municipal Areas",
+    "Mission for Eradication of Poverty in Metropolitan Areas",
+    "Mahila Empowerment and Poverty Mitigation Agency",
+    "Mission for Elimination of Poverty in Mandal Areas"
+   ],
+   "a": 0,
+   "x": "MEPMA is the Mission for Elimination of Poverty in Municipal Areas (2007), the urban counterpart of SERP."
+  },
+  {
+   "topic": 31,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "SERP was established in Andhra Pradesh in the year:",
+   "o": [
+    "1995",
+    "2000",
+    "2004",
+    "2007"
+   ],
+   "a": 1,
+   "x": "SERP was set up in 2000; MEPMA came in 2007."
+  },
+  {
+   "topic": 31,
+   "sec": 8,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Samaveshi Aajeevika Yojana, a graduation-approach model, belongs to:",
+   "o": [
+    "Bihar",
+    "Kerala",
+    "Andhra Pradesh",
+    "The Centre, under DAY-NRLM"
+   ],
+   "a": 3,
+   "x": "Samaveshi Aajeevika Yojana is a Central model under DAY-NRLM; Satat Jeevikoparjan is Bihar's."
+  },
+  {
+   "topic": 31,
+   "sec": 8,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "India's social protection coverage rose from 22% in 2016 to:",
+   "o": [
+    "48.8% in 2025",
+    "64.3% in 2025",
+    "72.0% in 2025",
+    "55.3% in 2025"
+   ],
+   "a": 1,
+   "x": "Social protection coverage rose from 22% (2016) to 64.3% (2025)."
+  },
+  {
+   "topic": 32,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Max O. Lorenz introduced the Lorenz curve in:",
+   "o": [
+    "1905",
+    "1912",
+    "1955",
+    "1936"
+   ],
+   "a": 0,
+   "x": "The Lorenz curve dates from 1905; Gini came in 1912 and Kuznets in 1955."
+  },
+  {
+   "topic": 32,
+   "sec": 1,
+   "angle": "1",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Phillips curve – tax rate and tax revenue",
+    "Marshall curve – price and quantity demanded",
+    "Laffer curve – inflation and unemployment",
+    "Lorenz curve – pollution and per capita income"
+   ],
+   "a": 1,
+   "x": "Marshall's curve is the demand curve (price vs quantity); Phillips is inflation vs unemployment and Laffer tax rate vs revenue."
+  },
+  {
+   "topic": 32,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "On the X-axis of a Lorenz curve is plotted the:",
+   "o": [
+    "Cumulative percentage of income",
+    "Per capita income",
+    "Cumulative percentage of population, poorest first",
+    "Tax rate"
+   ],
+   "a": 2,
+   "x": "The X-axis is the cumulative % of population (poorest first); the Y-axis is the cumulative % of income."
+  },
+  {
+   "topic": 32,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "In a Lorenz curve diagram, perfect equality is shown by the:",
+   "o": [
+    "Vertical axis",
+    "45° diagonal line",
+    "Horizontal axis",
+    "Most bowed curve"
+   ],
+   "a": 1,
+   "x": "The 45° line is the line of perfect equality; more bow means more inequality."
+  },
+  {
+   "topic": 32,
+   "sec": 2,
+   "angle": "6",
+   "shape": "statements",
+   "s": "Consider the following statements about inequality in India:\n1. The consumption Gini (World Bank, Spring 2025) fell from 28.8 in 2011-12 to 25.5 in 2022-23.\n2. The income Gini (World Inequality Database) fell from 62 in 2004 to 52 in 2023.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "The consumption Gini fell, but the income Gini rose from 52 (2004) to 62 (2023)."
+  },
+  {
+   "topic": 32,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "A Gini coefficient of 0.40 expressed as a Gini index is:",
+   "o": [
+    "0.4",
+    "4",
+    "40",
+    "400"
+   ],
+   "a": 2,
+   "x": "The Gini index is the coefficient multiplied by 100."
+  },
+  {
+   "topic": 32,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The idea that 'the solution to pollution is economic growth' comes from the:",
+   "o": [
+    "Lorenz curve",
+    "Laffer curve",
+    "Phillips curve",
+    "Environmental Kuznets Curve"
+   ],
+   "a": 3,
+   "x": "The EKC's message is that pollution falls after income passes a point, so growth is the solution."
+  },
+  {
+   "topic": 32,
+   "sec": 4,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "In India, wealth inequality is measured mainly using the:",
+   "o": [
+    "All India Debt and Investment Survey (AIDIS)",
+    "Periodic Labour Force Survey (PLFS)",
+    "Household Consumption Expenditure Survey (HCES)",
+    "Economic Census"
+   ],
+   "a": 0,
+   "x": "Wealth inequality is measured from AIDIS; PLFS gives wages and HCES consumption."
+  },
+  {
+   "topic": 32,
+   "sec": 4,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "According to wealth data, the top 10% in India hold about what share of wealth?",
+   "o": [
+    "13%",
+    "50%",
+    "62%",
+    "77%"
+   ],
+   "a": 3,
+   "x": "The top 10% hold about 77% of wealth (AIDIS)."
+  },
+  {
+   "topic": 32,
+   "sec": 5,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Which State had the highest per capita NSDP in 2023-24 at constant prices?",
+   "o": [
+    "Bihar",
+    "Goa",
+    "Kerala",
+    "Andhra Pradesh"
+   ],
+   "a": 1,
+   "x": "Goa had the highest per capita NSDP; Bihar had the lowest."
+  },
+  {
+   "topic": 32,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "According to HCES 2022-23, rural and urban MPCE were respectively:",
+   "o": [
+    "₹3,773 and ₹6,459",
+    "₹4,122 and ₹6,996",
+    "₹1,430 and ₹2,630",
+    "₹6,459 and ₹3,773"
+   ],
+   "a": 0,
+   "x": "HCES 2022-23 gave ₹3,773 rural and ₹6,459 urban, a gap of about 71%."
+  },
+  {
+   "topic": 32,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Estate duty in India was abolished in:",
+   "o": [
+    "1976",
+    "1985",
+    "1991",
+    "2016"
+   ],
+   "a": 1,
+   "x": "Estate duty was abolished in 1985; wealth tax from 1 April 2016."
+  },
+  {
+   "topic": 32,
+   "sec": 6,
+   "angle": "5",
+   "shape": "NOT",
+   "s": "Which of the following is NOT an indirect (tax) measure to reduce inequality?",
+   "o": [
+    "Estate duty",
+    "Wealth tax",
+    "Capital gains tax",
+    "Ceiling on land holdings"
+   ],
+   "a": 3,
+   "x": "Land ceiling is a direct measure that redistributes assets; the others are taxes."
+  },
+  {
+   "topic": 32,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Who wrote 'The Price of Inequality' (2012)?",
+   "o": [
+    "Thomas Piketty",
+    "Amartya Sen",
+    "Joseph Stiglitz",
+    "Anthony Atkinson"
+   ],
+   "a": 2,
+   "x": "The Price of Inequality is by Joseph Stiglitz."
+  },
+  {
+   "topic": 32,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "'Inequality Reexamined' was written by:",
+   "o": [
+    "Amartya Sen",
+    "Joseph Stiglitz",
+    "Thomas Piketty",
+    "Simon Kuznets"
+   ],
+   "a": 0,
+   "x": "Inequality Reexamined is by Amartya Sen."
+  },
+  {
+   "topic": 32,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "'Capital in the Twenty-First Century' was written by:",
+   "o": [
+    "Joseph Stiglitz",
+    "Anthony Atkinson",
+    "Amartya Sen",
+    "Thomas Piketty"
+   ],
+   "a": 3,
+   "x": "It is by Thomas Piketty, not Stiglitz."
+  },
+  {
+   "topic": 32,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The World Inequality Report is published by the:",
+   "o": [
+    "Oxfam International",
+    "World Inequality Lab (Paris School of Economics)",
+    "Credit Suisse",
+    "NITI Aayog"
+   ],
+   "a": 1,
+   "x": "The World Inequality Report comes from the World Inequality Lab; Davos reports are Oxfam's."
+  },
+  {
+   "topic": 32,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Global Wealth Report and Databook is associated with:",
+   "o": [
+    "Oxfam International",
+    "World Inequality Lab",
+    "Credit Suisse (now UBS)",
+    "MoSPI"
+   ],
+   "a": 2,
+   "x": "The Global Wealth Report/Databook is by Credit Suisse, now UBS."
+  }
+ ]
+}
