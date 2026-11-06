@@ -18,69 +18,34 @@ sys.path.insert(0, "tools")
 from onepager_app import best_match, block_text  # noqa: E402
 
 def bank():
-    """data/pyq/all.jsonl (tools/pyq_parse.py), or its committed gzip."""
-    import gzip, os
-    return open("data/pyq/all.jsonl") if os.path.exists("data/pyq/all.jsonl") else gzip.open("data/pyq/all.jsonl.gz", "rt")
+    """Lines of data/pyq/all.jsonl (tools/pyq_parse.py, or its committed gzip), then the papers read from Drive's
+    scans (data/pyq/new/*.jsonl, data/pyq/new/INSTRUCTIONS.md), with the keys found in the official key files
+    (data/pyq/keys/out/*.json) put on the questions that had none."""
+    import glob, gzip, os
+    keys = {}
+    for f in sorted(glob.glob("data/pyq/keys/out/*.json")):
+        keys.update(json.load(open(f)))
+    src = open("data/pyq/all.jsonl") if os.path.exists("data/pyq/all.jsonl") else gzip.open("data/pyq/all.jsonl.gz", "rt")
+    for line in src:
+        k = keys.get(line[8:40].split('"')[0]) if keys else None
+        if k is not None:
+            q = json.loads(line)
+            if q.get("a", -1) < 0 and isinstance(k.get("a"), int) and 0 <= k["a"] <= 3:
+                q["a"], q["keyed"] = k["a"], k.get("how", "")
+                line = json.dumps(q, ensure_ascii=False)
+        yield line
+    for f in sorted(glob.glob("data/pyq/new/*.jsonl")):
+        if os.path.basename(f) in NOT_NEW:
+            continue
+        for line in open(f):
+            if line.strip():
+                q = json.loads(line)
+                q["new"] = 1
+                yield json.dumps(q, ensure_ascii=False)
 
 
-TELUGU = re.compile(r"[ఀ-౿]")
-# the subject each Ghatna Chakra volume covers: its questions stay in that book (Environment: Science & Environment)
-BOOK_OF = {"Indian History": [1], "Indian Polity and Governance": [2], "Economic and Social Development": [3],
-           "General Geography": [4], "General Science": [5], "Environment and Ecology": [5, 4], "Current Events": None}
-OWN_BOOK = {"AP History previous papers": [1]}  # a file whose questions all belong to one book
-
-
-TCS = re.compile(r"^(?:\s*(?:Qu\b|Question Typ\b|ion Type\b|\d{1,3}(?=\s)|\d+/\d+\s+\d+/\d+/\d+,\s*\d+:\d+\s*[AP]M|Question Type\s*:\s*MCQ|"
-                 r"Option Shuffling\s*:\s*(?:Yes|No)|Display Question Number\s*:\s*(?:Yes|No)|Is Question Mandatory\s*:\s*(?:Yes|No)|"
-                 r"Single Line Question Option\s*:\s*(?:Yes|No)|Option Orientation\s*:\s*\w+|Negative [Mm]arks [Dd]isplay [Tt]ext\s*:\s*1/3|"
-                 r"Minimum Instruction Time\s*:\s*\d+|(?:Response |Think )?Time\s*:\s*(?:N\.?A\.?|\d+/\d+)|Calculator\s*:\s*\w+))+", re.I)
-JUNK = re.compile(r"\s*(?:CELL\s*:\s*\d+\s*)?(?:APPSC PYQS\s*)?(?:SHRESHTA|SHRESTHA|CHRESHTA)\s+ON[LU]\w*(?:\s+ACADEMY)?(?:\s*&\s*PUBLICATIONS?)?|"
-                  r"\s*CELL\s*:\s*\d{10}|\s*Carpe Diem IAS")
-# mental ability (reasoning, arithmetic, data interpretation) in the APPSC papers: no notes topic covers it
-MENTAL = re.compile(r"\bcoded? as\b|code language|missing (?:number|term|letter)|in the following series|next (?:number|term) in the series|"
-                    r"\baverage (?:marks|age|of the)\b|\bmedian of\b|find the (?:median|mode|mean)|\bmean of\b|percentage of marks|following table|"
-                    r"in the table|bar (?:graph|chart)|pie[ -]chart|histogram|frequency (?:polygon|distribution|curve)|\bvenn\b|\bdiagram\b|::|"
-                    r"\bseated\b|sitting (?:immediate|to the|on the|in a)|facing (?:north|south|east|west|the centre|towards)|\bsyllogism|"
-                    r"\bhow is\b.*\brelated\b|related to term|letter-cluster|\bsimple interest\b|compound interest|\bprofit (?:of|per ?cent)|"
-                    r"\bdice\b|hands of a clock|sturges|measures? of (?:centrality|central tendency|dispersion)|"
-                    r"\b\d+\s*[x×*/÷+]\s*\d+\s*=|^find the (?:value|number|odd)|odd one out|\bwhich number\b|\bmarks (?:more|less) than\b|"
-                    r"students (?:in|of) a class|\bdimensions of a\b|same calendar|day of the week|what day|leap year|\bclock\b.*\bangle", re.I)
-
-LAST_TCS = re.compile(r"^.{0,400}(?:Orientation\s*:\s*Vertical|Shuffling\s*:\s*(?:Yes|No)|Mandatory\s*:\s*(?:Yes|No)|"
-                      r"Option\s*:\s*(?:Yes|No)|Display Text\s*:\s*1/3|Instruction Time\s*:\s*\d+|Time\s*:\s*N\.?A\.?)", re.S)
-TCS_LEFT = re.compile(r"Question Type|Shuffling|Display Text|Orientation\s*:|Instruction Time", re.I)
-
-
-TCS_OPT = re.compile(TCS.pattern.replace(r"\d{1,3}(?=\s)|", ""), re.I)  # options: a leading number is the option ("1 and 2 only")
-
-
-def clean(t, opt=False):
-    t = LAST_TCS.sub("", (TCS_OPT if opt else TCS).sub("", t))
-    t = re.sub(r"\s+\d+\s+Question Type\b.*$", "", t, flags=re.S)  # the next question's header run on
-    t = re.sub(r"\babout:blank\b|[\x00-\x08\x0b-\x1f\x7f]", "", JUNK.sub("", t))
-    t = re.sub(r"(?<=[a-z])- (?=[a-z])", "", t)  # a word the PDF split over two lines: "Sci- ence"
-    t = re.sub(r"\s*\bQ\s?\d{1,3}\.(?:\s+[A-Za-z]{1,3}\b(?![.)]))*", " ", t)  # the book's question numbers and the letters around them
-    t = re.sub(r"\s*\b\d{1,3}/\d{1,3}\s+\d{1,2}/\d{1,2}/\d{4}(?:,\s*\d{1,2}:\d{2}\s*[AP]M)?", " ", t)  # page n/N and print date
-    return re.sub(r"\s{2,}", " ", t).strip()
-
-
-def usable(q):
-    """A question we can show: its text, four options, no OCR debris (Telugu mixed in, an option that is a question)."""
-    s, o = q["s"], q["o"]
-    if (MENTAL.search(s) and not q["file"].startswith("Ghatna")) or "COMPREHENSION" in q["s"]:
-        return False
-    if TCS_LEFT.search(s + " ".join(o)):
-        return False
-    if any(len(x) > 220 for x in o) or all(len(x) <= 1 for x in o):  # an option that ran into the next question; options A-D of a chart
-        return False
-    if len(s) < 15 or len(o) != 4 or any(not x.strip() for x in o):
-        return False
-    if TELUGU.search(s + " ".join(o)):
-        return False
-    if q["a"] < 0 and not q.get("checked"):  # no key: only clean ones (scans with no key often pick up the next question's lines)
-        if any("?" in x or len(x) > 160 for x in o) or not re.search(r"[?:.]\s*$|_{2,}|\bis\s*$|\bwas\s*$", s):
-            return False
-    return True
+# read but not added: a key-only official PDF (no wrong options printed), a book of one-line facts
+NOT_NEW = {"2019-12-fso-p1.jsonl", "ng-aph-a.jsonl", "ng-aph-b.jsonl"}
 
 
 _FIXES = None

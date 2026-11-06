@@ -53,6 +53,8 @@ def rank(q):
 
 def label(q):
     f, exam, year = q["file"], q.get("exam", ""), q.get("year", "")
+    if q.get("new"):  # read from Drive's scans: its exam is written out ("APPSC Group-II 2011")
+        return exam[:60]
     if f.startswith("UPSC"):
         return f"UPSC CSE Prelims {year}".strip()
     if f.startswith("Ghatna"):
