@@ -313,20 +313,20 @@
  },
  {
   "item": [
-   2,
+   6,
    7,
    9,
    10
   ],
-  "shape": "sequence",
-  "s": "Arrange the following events of October 2026 in chronological order:\n1. Inauguration of the RBI Greenfield Data Centre at Jatni, Odisha\n2. Launch of SBI's CyRIS Cyber Security Centre of Excellence\n3. Launch of SEBI's \"Samajh Se Investing Simple\" programme\n4. Inauguration of the National Strategic Trade Command Centre",
+  "shape": "match",
+  "s": "Which of the following pairs of October 2026 facilities and their locations is INCORRECTLY matched?",
   "o": [
-   "3-1-4-2",
-   "1-3-4-2",
-   "3-4-1-2",
-   "3-1-2-4"
+   "RBI Greenfield Data Centre – Navi Mumbai",
+   "SBI CyRIS Cyber Security Centre of Excellence – Mumbai",
+   "National Strategic Trade Command Centre – Vanijya Bhawan, New Delhi",
+   "Phenol-acetone facility – Haldia"
   ],
   "a": 0,
-  "x": "SEBI launch 5 October, RBI data centre 25 October, NSTCC 27 October, SBI CyRIS 30 October."
+  "x": "The RBI Greenfield Data Centre is at Jatni, Khordha district, Odisha; it backs up RBI's main data centre in Navi Mumbai."
  }
 ]
