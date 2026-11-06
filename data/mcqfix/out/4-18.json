@@ -1,0 +1,708 @@
+{
+ "reshape": {
+  "n8258079a4a8": {
+   "shape": "one-liner",
+   "s": "In Thornthwaite's moisture classification, which type is the driest?",
+   "o": [
+    "Semi-arid",
+    "Sub-humid",
+    "Humid",
+    "Arid"
+   ],
+   "a": 3,
+   "x": "Thornthwaite's moisture order runs perhumid or wet, humid, semi-arid and arid, so arid is the driest type."
+  },
+  "nap-geography-13-9": {
+   "shape": "one-liner",
+   "s": "What is the main cause of droughts and famines in Rayalaseema?",
+   "o": [
+    "Low population density",
+    "Low and erratic rainfall",
+    "Coastal cyclonic waves",
+    "Land subsidence"
+   ],
+   "a": 1,
+   "x": "Rayalaseema's droughts come from low and erratic rainfall; its low population density is a result of droughts, not their cause."
+  },
+  "need5e0740a8": {
+   "shape": "one-liner",
+   "s": "How many missions does the National Action Plan on Climate Change (NAPCC) have?",
+   "o": [
+    "Six",
+    "Seven",
+    "Eight",
+    "Ten"
+   ],
+   "a": 2,
+   "x": "The NAPCC has eight missions, from Solar to Strategic Knowledge; there is no nuclear mission."
+  },
+  "ne7484eeabe5": {
+   "shape": "NOT",
+   "s": "Which of the following factor–effect pairs on population distribution is NOT correct?",
+   "o": [
+    "Water – River valleys support dense settlement",
+    "Climate – Hot and cold deserts attract population",
+    "Landform – Plains are favoured over mountains",
+    "Soil – Fertile alluvium supports dense farming"
+   ],
+   "a": 1,
+   "x": "Moderate climates attract population; hot and cold deserts repel it, so the climate pair is wrong."
+  },
+  "nbe9e2cc3cfb": {
+   "shape": "one-liner",
+   "s": "Most of the world's people live in the:",
+   "o": [
+    "Southern Hemisphere mid-latitudes",
+    "Polar and sub-polar regions",
+    "Northern Hemisphere mid-latitudes and tropics of Asia",
+    "Southern Hemisphere tropics"
+   ],
+   "a": 2,
+   "x": "Most people live in the Northern Hemisphere mid-latitudes and the tropics of Asia, not the Southern Hemisphere."
+  },
+  "n9d35c1da97e": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the dependency ratio?",
+   "o": [
+    "It relates the 0-14 and 65+ population to the working-age population",
+    "A lower ratio signals a potential demographic dividend",
+    "The Economic Survey 2025-26 says a doubling of it will make construction a growth job sector",
+    "The Economic Survey 2025-26 says India's dependency ratio will double"
+   ],
+   "a": 2,
+   "x": "The Economic Survey 2025-26 names geriatric care, not construction, as the growth job sector from a doubling dependency ratio."
+  }
+ },
+ "new": [
+  {
+   "shape": "one-liner",
+   "s": "Under Koeppen's classification, the hot desert climate of western Rajasthan is coded:",
+   "o": [
+    "BShw",
+    "BWhw",
+    "Aw",
+    "Cwg"
+   ],
+   "a": 1,
+   "x": "Western Rajasthan is BWhw (hot desert); BShw is the semi-arid steppe of rain-shadow belts.",
+   "topic": 54,
+   "sec": 1,
+   "angle": "1"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Under Koeppen's classification, the Coromandel coast of Tamil Nadu has which climate type?",
+   "o": [
+    "Amw",
+    "Aw",
+    "As",
+    "Cwg"
+   ],
+   "a": 2,
+   "x": "The Coromandel coast is As, monsoon with dry summer; Amw is the west coast south of Goa.",
+   "topic": 54,
+   "sec": 1,
+   "angle": "1"
+  },
+  {
+   "shape": "match",
+   "s": "Which of the following Koeppen code–area pairs is correctly matched?",
+   "o": [
+    "Amw – Coromandel coast",
+    "E – Western Rajasthan",
+    "Dfc – Ganga plain",
+    "Cwg – Ganga plain"
+   ],
+   "a": 3,
+   "x": "Cwg (monsoon, dry winter) covers the Ganga plain; Amw is the west coast, E the high Himalaya and Dfc Arunachal Pradesh.",
+   "topic": 54,
+   "sec": 1,
+   "angle": "1"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Trewartha's 'Caw' climate of the Ganga plain corresponds to which Koeppen type?",
+   "o": [
+    "Aw",
+    "Cwg",
+    "Dfc",
+    "BShw"
+   ],
+   "a": 1,
+   "x": "Trewartha's Caw (humid subtropical, dry winter) equals Koeppen Cwg of the Ganga plain, not Aw.",
+   "topic": 54,
+   "sec": 2,
+   "angle": "3"
+  },
+  {
+   "shape": "one-liner",
+   "s": "In Thornthwaite's moisture regions of India, the arid type covers:",
+   "o": [
+    "Western Rajasthan (Thar) and Kutch",
+    "The rain-shadow interior Deccan",
+    "The Western Ghats-west coast",
+    "The North-East"
+   ],
+   "a": 0,
+   "x": "The arid type covers western Rajasthan and Kutch; the interior Deccan is semi-arid and the Western Ghats and North-East are perhumid.",
+   "topic": 54,
+   "sec": 2,
+   "angle": "2"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Which is the hottest place in Andhra Pradesh?",
+   "o": [
+    "Lambasingi",
+    "Horsley Hills",
+    "Rentachintala",
+    "Araku"
+   ],
+   "a": 2,
+   "x": "Rentachintala in Palnadu is the hottest place in AP; Lambasingi is the coldest.",
+   "topic": 54,
+   "sec": 3,
+   "angle": "4"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Which districts form the Scarce Rainfall agro-climatic zone of Andhra Pradesh?",
+   "o": [
+    "Srikakulam and Vizianagaram",
+    "Kurnool and Anantapuramu",
+    "Konaseema and Krishna",
+    "Visakhapatnam and Kakinada"
+   ],
+   "a": 1,
+   "x": "Kurnool and Anantapuramu form the Scarce Rainfall Zone among AP's six agro-climatic zones.",
+   "topic": 54,
+   "sec": 3,
+   "angle": "4"
+  },
+  {
+   "shape": "one-liner",
+   "s": "IMD's temperature anomaly for India in 2024, its warmest year since 1901, was about:",
+   "o": [
+    "+0.28°C",
+    "+1.43°C",
+    "+0.45°C",
+    "+0.65°C"
+   ],
+   "a": 3,
+   "x": "IMD put the 2024 anomaly at +0.65°C; +0.28°C was the 2025 figure and 1.43°C is WMO's global level above pre-industrial.",
+   "topic": 54,
+   "sec": 4,
+   "angle": "5"
+  },
+  {
+   "shape": "statements",
+   "s": "Consider the following statements about climate change signals:\n1. As per WMO, 2015-2025 were the 11 warmest years on record.\n2. India's IMD temperature anomaly for 2025 was higher than that for 2024.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "WMO named 2015-2025 the 11 warmest years; the 2025 anomaly (+0.28°C) was lower than 2024's (+0.65°C), so 2 is false.",
+   "topic": 54,
+   "sec": 4,
+   "angle": "5"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Heatstroke cases in Andhra Pradesh rose from 833 in 2023 to about ____ in 2025.",
+   "o": [
+    "1,053",
+    "3,154",
+    "5,154",
+    "8,330"
+   ],
+   "a": 2,
+   "x": "AP heatstroke cases rose from 833 (2023) to 5,154 (2025), while deaths fell from 3 to 0.",
+   "topic": 54,
+   "sec": 5,
+   "angle": "6"
+  },
+  {
+   "shape": "one-liner",
+   "s": "The AP State Action Plan on Climate Change 2025-30 targets how many EV charging stations?",
+   "o": [
+    "10,000",
+    "50,000",
+    "1 lakh",
+    "10 lakh"
+   ],
+   "a": 2,
+   "x": "AP SAPCC 2025-30 has 8 energy-sector adaptation measures, including 1 lakh EV charging stations.",
+   "topic": 54,
+   "sec": 6,
+   "angle": "7"
+  },
+  {
+   "shape": "one-liner",
+   "s": "According to the DST climate vulnerability report (2021), the most vulnerable State of India is:",
+   "o": [
+    "Odisha",
+    "Jharkhand",
+    "Assam",
+    "Bihar"
+   ],
+   "a": 1,
+   "x": "Jharkhand tops the DST 2021 list of eight highly vulnerable states; Odisha, Assam and Bihar are also on the list but lower.",
+   "topic": 54,
+   "sec": 6,
+   "angle": "8"
+  },
+  {
+   "shape": "NOT",
+   "s": "Which of the following is NOT among the eight highly vulnerable states in the DST climate vulnerability report (2021)?",
+   "o": [
+    "Mizoram",
+    "Chhattisgarh",
+    "Andhra Pradesh",
+    "Arunachal Pradesh"
+   ],
+   "a": 2,
+   "x": "The eight are Jharkhand, Mizoram, Odisha, Chhattisgarh, Assam, Bihar, Arunachal Pradesh and West Bengal; Andhra Pradesh is not one.",
+   "topic": 54,
+   "sec": 6,
+   "angle": "8"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Malthus published An Essay on the Principle of Population in:",
+   "o": [
+    "1768",
+    "1798",
+    "1827",
+    "1872"
+   ],
+   "a": 1,
+   "x": "Thomas Malthus published the Essay in 1798; Ehrlich's Population Bomb came in 1968.",
+   "topic": 55,
+   "sec": 1,
+   "angle": "1"
+  },
+  {
+   "shape": "one-liner",
+   "s": "The Limits to Growth (1972) was prepared for which body?",
+   "o": [
+    "UNFPA",
+    "Club of Rome",
+    "UNDP",
+    "UN Population Division"
+   ],
+   "a": 1,
+   "x": "Donella Meadows and others wrote The Limits to Growth for the Club of Rome, using the World3 computer model.",
+   "topic": 55,
+   "sec": 2,
+   "angle": "1"
+  },
+  {
+   "shape": "one-liner",
+   "s": "The optimum population theory is mainly associated with:",
+   "o": [
+    "Edwin Cannan",
+    "Thomas Malthus",
+    "Frank Notestein",
+    "Karl Marx"
+   ],
+   "a": 0,
+   "x": "Edwin Cannan (also Marshall and Sidgwick) gave the optimum population idea: the size giving the highest output per head.",
+   "topic": 55,
+   "sec": 2,
+   "angle": "8"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Who named the demographic transition theory in 1945?",
+   "o": [
+    "Warren Thompson",
+    "Edwin Cannan",
+    "Frank Notestein",
+    "Paul R. Ehrlich"
+   ],
+   "a": 2,
+   "x": "Warren Thompson outlined it in 1929, but Frank Notestein named it in 1945.",
+   "topic": 55,
+   "sec": 2,
+   "angle": "8"
+  },
+  {
+   "shape": "one-liner",
+   "s": "According to the Marxian (anti-Malthusian) view, hunger results from:",
+   "o": [
+    "Overpopulation",
+    "Exploitation",
+    "Lack of moral restraint",
+    "Arithmetic growth of food"
+   ],
+   "a": 1,
+   "x": "Karl Marx held that hunger comes from exploitation, not overpopulation.",
+   "topic": 55,
+   "sec": 2,
+   "angle": "8"
+  },
+  {
+   "shape": "one-liner",
+   "s": "The dense population of the Katanga-Zambia belt is mainly due to:",
+   "o": [
+    "Fertile alluvium",
+    "Mining",
+    "Moderate climate",
+    "Religious centres"
+   ],
+   "a": 1,
+   "x": "The Katanga-Zambia copper belt draws workers through mining.",
+   "topic": 55,
+   "sec": 4,
+   "angle": "5"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Which is the most densely populated country of the world?",
+   "o": [
+    "Monaco",
+    "Mongolia",
+    "Bangladesh",
+    "India"
+   ],
+   "a": 0,
+   "x": "Monaco is the densest country; Mongolia is the sparsest sovereign country.",
+   "topic": 55,
+   "sec": 5,
+   "angle": "4"
+  },
+  {
+   "shape": "one-liner",
+   "s": "The sparsest sovereign country, with about 2 persons per sq km, is:",
+   "o": [
+    "Monaco",
+    "Indonesia",
+    "Brazil",
+    "Mongolia"
+   ],
+   "a": 3,
+   "x": "Mongolia has about 2 persons per sq km, the lowest among sovereign countries.",
+   "topic": 55,
+   "sec": 5,
+   "angle": "4"
+  },
+  {
+   "shape": "statements",
+   "s": "Consider the following statements about world population:\n1. Asia is the densest continent.\n2. Africa has the highest population growth among continents.\n3. Mongolia is the most densely populated country.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Asia is densest and Africa grows fastest; Mongolia is the sparsest, not the densest, country (Monaco is densest).",
+   "topic": 55,
+   "sec": 5,
+   "angle": "4"
+  },
+  {
+   "shape": "one-liner",
+   "s": "The most populous Muslim-majority country of the world is:",
+   "o": [
+    "Pakistan",
+    "Bangladesh",
+    "Indonesia",
+    "Egypt"
+   ],
+   "a": 2,
+   "x": "Indonesia, 4th in WPP 2024, is the most populous Muslim-majority country, not Pakistan.",
+   "topic": 55,
+   "sec": 6,
+   "angle": "3"
+  },
+  {
+   "shape": "one-liner",
+   "s": "The world's ten most populous countries hold about ____ of its people.",
+   "o": [
+    "40%",
+    "50%",
+    "60%",
+    "70%"
+   ],
+   "a": 2,
+   "x": "The top 10 countries hold about 60% of the world's people, and 6 of them are in Asia.",
+   "topic": 55,
+   "sec": 6,
+   "angle": "3"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Which is the most populous country of South America?",
+   "o": [
+    "Argentina",
+    "Brazil",
+    "Colombia",
+    "Mexico"
+   ],
+   "a": 1,
+   "x": "Brazil is the most populous South American country.",
+   "topic": 55,
+   "sec": 6,
+   "angle": "3"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Which city is projected to be the world's largest by 2050?",
+   "o": [
+    "Jakarta",
+    "Tokyo",
+    "Dhaka",
+    "New Delhi"
+   ],
+   "a": 2,
+   "x": "WUP 2025 projects Dhaka to be the largest city by 2050; Jakarta is the largest now.",
+   "topic": 55,
+   "sec": 7,
+   "angle": "2"
+  },
+  {
+   "shape": "one-liner",
+   "s": "World population reached 2 billion in:",
+   "o": [
+    "1804",
+    "1927",
+    "1960",
+    "1974"
+   ],
+   "a": 1,
+   "x": "The 2nd billion came in 1927, about 123 years after the first (~1804).",
+   "topic": 55,
+   "sec": 8,
+   "angle": "7"
+  },
+  {
+   "shape": "one-liner",
+   "s": "World Population Day is observed on:",
+   "o": [
+    "11 July",
+    "15 November",
+    "12 October",
+    "5 June"
+   ],
+   "a": 0,
+   "x": "World Population Day is 11 July, set in 1989 by the UNDP Governing Council.",
+   "topic": 55,
+   "sec": 9,
+   "angle": "6"
+  },
+  {
+   "shape": "one-liner",
+   "s": "As per WPP 2024, which country has the most male-skewed sex ratio?",
+   "o": [
+    "UAE",
+    "Qatar",
+    "Niger",
+    "Japan"
+   ],
+   "a": 1,
+   "x": "Qatar has about 248 men per 100 women, ahead of the UAE (~177), due to male migrant labour.",
+   "topic": 56,
+   "sec": 3,
+   "angle": "6"
+  },
+  {
+   "shape": "one-liner",
+   "s": "As per UN WPP 2022, world population is projected to reach about ____ by 2100.",
+   "o": [
+    "8.5 billion",
+    "9.7 billion",
+    "10.4 billion",
+    "11.2 billion"
+   ],
+   "a": 2,
+   "x": "WPP 2022 projects 8.5 billion by 2030, 9.7 billion by 2050 and 10.4 billion by 2100.",
+   "topic": 56,
+   "sec": 3,
+   "angle": "6"
+  },
+  {
+   "shape": "one-liner",
+   "s": "In the demographic transition model, Niger and sub-Saharan Africa are in which stage?",
+   "o": [
+    "High stationary",
+    "Early expanding",
+    "Late expanding",
+    "Low stationary"
+   ],
+   "a": 1,
+   "x": "Niger is in stage 2, early expanding: high birth rate and falling death rate, giving rapid growth.",
+   "topic": 56,
+   "sec": 4,
+   "angle": "7"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Japan and Germany, where birth rates are below death rates, are in which demographic transition stage?",
+   "o": [
+    "Late expanding",
+    "Low stationary",
+    "Declining",
+    "Early expanding"
+   ],
+   "a": 2,
+   "x": "Stage 5 (declining) has birth rates below death rates and falling population, as in Japan and Germany.",
+   "topic": 56,
+   "sec": 4,
+   "angle": "7"
+  },
+  {
+   "shape": "one-liner",
+   "s": "The demographic dividend depends on the share of which age group?",
+   "o": [
+    "0-14 years",
+    "15-64 years",
+    "18-60 years",
+    "65 years and above"
+   ],
+   "a": 1,
+   "x": "The dividend arises when the working-age (15-64) share is larger than the dependent share.",
+   "topic": 56,
+   "sec": 8,
+   "angle": "3"
+  },
+  {
+   "shape": "one-liner",
+   "s": "India's demographic window of opportunity runs from about:",
+   "o": [
+    "2005-06 to 2055-56",
+    "1991-92 to 2041-42",
+    "2011-12 to 2061-62",
+    "2001-02 to 2031-32"
+   ],
+   "a": 0,
+   "x": "India's window is about 2005-06 to 2055-56, longer than any other country's.",
+   "topic": 56,
+   "sec": 8,
+   "angle": "3"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Which country had the world's highest working-age population share in 2021?",
+   "o": [
+    "Qatar",
+    "India",
+    "Japan",
+    "UAE"
+   ],
+   "a": 3,
+   "x": "The UAE had 85.7%, just ahead of Qatar's 85.6%.",
+   "topic": 56,
+   "sec": 8,
+   "angle": "3"
+  },
+  {
+   "shape": "one-liner",
+   "s": "As per SRS 2024, India's natural growth rate (per 1,000) is:",
+   "o": [
+    "3.9",
+    "11.9",
+    "18.4",
+    "20.8"
+   ],
+   "a": 1,
+   "x": "India's natural growth rate is 11.9; Bihar is highest at 20.8 and Kerala lowest at 3.9.",
+   "topic": 56,
+   "sec": 9,
+   "angle": "1"
+  },
+  {
+   "shape": "one-liner",
+   "s": "As per SRS 2024, which State has the lowest natural growth rate?",
+   "o": [
+    "Bihar",
+    "Assam",
+    "Kerala",
+    "Andhra Pradesh"
+   ],
+   "a": 2,
+   "x": "Kerala has the lowest natural growth rate (3.9 per 1,000); Bihar has the highest (20.8).",
+   "topic": 56,
+   "sec": 9,
+   "angle": "1"
+  },
+  {
+   "shape": "one-liner",
+   "s": "According to World Urbanization Prospects 2025, urban areas hold about ____ of world population.",
+   "o": [
+    "35%",
+    "45%",
+    "55%",
+    "65%"
+   ],
+   "a": 1,
+   "x": "WUP 2025, using the degree-of-urbanisation method, gives 45%; the older UN DESA series gave 55%.",
+   "topic": 56,
+   "sec": 10,
+   "angle": "4"
+  },
+  {
+   "shape": "one-liner",
+   "s": "The fastest urban growth in the world is taking place in:",
+   "o": [
+    "Northern America and Europe",
+    "Latin America and Europe",
+    "Africa and Asia",
+    "Northern America and Latin America"
+   ],
+   "a": 2,
+   "x": "Africa and Asia urbanise fastest; Northern America, Latin America and Europe are the most urbanised.",
+   "topic": 56,
+   "sec": 10,
+   "angle": "4"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Which country recorded the world's lowest total fertility rate (0.72) in 2023?",
+   "o": [
+    "Japan",
+    "Finland",
+    "South Korea",
+    "USA"
+   ],
+   "a": 2,
+   "x": "South Korea's TFR of 0.72 in 2023 was the world's lowest; Japan is 1.3 and Finland 1.4.",
+   "topic": 56,
+   "sec": 5,
+   "angle": "8"
+  },
+  {
+   "shape": "one-liner",
+   "s": "The replacement level total fertility rate is:",
+   "o": [
+    "1.9",
+    "2.0",
+    "2.1",
+    "2.2"
+   ],
+   "a": 2,
+   "x": "Replacement TFR is 2.1; the world average is 2.2 and India's SRS 2024 TFR is 1.9.",
+   "topic": 56,
+   "sec": 5,
+   "angle": "8"
+  },
+  {
+   "shape": "one-liner",
+   "s": "Which country has the oldest median age in the world?",
+   "o": [
+    "Japan",
+    "Monaco",
+    "Italy",
+    "Niger"
+   ],
+   "a": 1,
+   "x": "Monaco has the oldest median age; Niger the youngest.",
+   "topic": 56,
+   "sec": 6,
+   "angle": "5"
+  }
+ ]
+}

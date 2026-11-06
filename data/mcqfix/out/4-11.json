@@ -483,16 +483,16 @@
    "topic": 33,
    "sec": 8,
    "angle": "7",
-   "shape": "one-liner",
-   "s": "Adam's Bridge (Ram Setu) bounds which water body in the south?",
+   "shape": "statements",
+   "s": "Consider the following statements about Adam's Bridge (Ram Setu):\n1. It is a chain of limestone shoals.\n2. It bounds Palk Bay in the north.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Gulf of Mannar",
-    "Palk Bay",
-    "Gulf of Khambhat",
-    "Laccadive Sea"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 1,
-   "x": "Adam's Bridge, a chain of limestone shoals, bounds Palk Bay in the south."
+   "a": 0,
+   "x": "Adam's Bridge is a chain of limestone shoals that bounds Palk Bay in the south, not the north."
   },
   {
    "topic": 33,
@@ -663,16 +663,16 @@
    "topic": 34,
    "sec": 3,
    "angle": "2",
-   "shape": "one-liner",
-   "s": "The Shiwaliks have which type of folds?",
+   "shape": "statements",
+   "s": "Consider the following statements about the Shiwalik range:\n1. It is the youngest and narrowest Himalayan range.\n2. It has simple Jura-type folds.\n3. It has a granite core.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Asymmetrical recumbent folds",
-    "Simple Jura-type folds",
-    "Overturned nappes",
-    "Block faults"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 1,
-   "x": "The Shiwaliks, formed from loose river sediments, have simple Jura-type folds."
+   "a": 0,
+   "x": "The Shiwaliks are the youngest and narrowest, with Jura-type folds in loose river sediments; the granite core belongs to the Himadri."
   },
   {
    "topic": 34,
@@ -873,31 +873,31 @@
    "topic": 34,
    "sec": 8,
    "angle": "8",
-   "shape": "one-liner",
-   "s": "The Tuju Pass in Manipur links Imphal with:",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
    "o": [
-    "Tamu (Myanmar)",
-    "Lhasa (Tibet)",
-    "Thimphu (Bhutan)",
-    "Chittagong (Bangladesh)"
+    "Tuju – Imphal–Tamu (Myanmar)",
+    "Bomdi La – Sikkim",
+    "Nathu La – Arunachal Pradesh",
+    "Shipki La – Uttarakhand"
    ],
    "a": 0,
-   "x": "The Tuju Pass links Imphal with Tamu in Myanmar."
+   "x": "Tuju in Manipur links Imphal with Tamu; Bomdi La is in Arunachal, Nathu La in Sikkim and Shipki La in Himachal Pradesh."
   },
   {
    "topic": 34,
    "sec": 9,
    "angle": "6",
-   "shape": "one-liner",
-   "s": "The Barail Range, the highest range of Assam, links the Naga Hills with the:",
+   "shape": "NOT",
+   "s": "Which of the following hills is NOT correctly matched with its State?",
    "o": [
-    "Garo Hills",
-    "Mizo Hills",
-    "Patkai Bum",
-    "Miri Hills"
+    "Naga Hills – Nagaland",
+    "Mizo Hills – Mizoram",
+    "Garo Hills – Meghalaya",
+    "Miri Hills – Meghalaya"
    ],
-   "a": 1,
-   "x": "The Barail range in Assam links the Naga and Mizo hills."
+   "a": 3,
+   "x": "The Miri Hills are in Arunachal Pradesh, not Meghalaya; the other pairs are correct."
   },
   {
    "topic": 34,
@@ -1143,16 +1143,16 @@
    "topic": 35,
    "sec": 6,
    "angle": "4",
-   "shape": "one-liner",
-   "s": "The Eastern Ghats are mainly made of:",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Eastern Ghats?",
    "o": [
-    "Basalt and dolerite",
-    "Khondalite and charnockite",
-    "Sandstone and shale",
-    "Granite and gneiss of the Tertiary"
+    "They are cut by the Godavari, Krishna and Mahanadi.",
+    "They are made of khondalite and charnockite.",
+    "They extend from the Mahanadi to the Vaigai.",
+    "They form a continuous range."
    ],
-   "a": 1,
-   "x": "The Eastern Ghats are made of khondalite and charnockite."
+   "a": 3,
+   "x": "The Eastern Ghats are discontinuous and eroded; the Western Ghats are the continuous range."
   },
   {
    "topic": 35,
@@ -1218,16 +1218,16 @@
    "topic": 35,
    "sec": 8,
    "angle": "1",
-   "shape": "one-liner",
-   "s": "The sand dunes of the Malabar coast are locally called:",
+   "shape": "statements",
+   "s": "Consider the following statements about the Malabar coast:\n1. Its backwaters are called kayals.\n2. Its dunes are called teris.\n3. It extends from Goa to Mangaluru.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Kayals",
-    "Teris",
-    "Duns",
-    "Bhangar"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 1,
-   "x": "Teris are the dunes of the Malabar coast; kayals are its backwaters."
+   "a": 0,
+   "x": "Kayals and teris are features of the Malabar coast, which runs from Mangaluru to Kanyakumari; Goa to Mangaluru is the Kannad coast."
   },
   {
    "topic": 35,
@@ -1338,16 +1338,16 @@
    "topic": 35,
    "sec": 10,
    "angle": "2",
-   "shape": "one-liner",
-   "s": "Narcondam Island is a:",
+   "shape": "statements",
+   "s": "Consider the following statements about the volcanic islands of India:\n1. Barren Island is India's only confirmed active volcano.\n2. Narcondam is an active volcano.\nWhich of the statements given above is/are correct?",
    "o": [
-    "coral atoll",
-    "dormant volcano",
-    "active volcano",
-    "tidal island"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 1,
-   "x": "Narcondam is a dormant volcano; Barren Island is the only confirmed active volcano."
+   "a": 0,
+   "x": "Barren Island is the only confirmed active volcano; Narcondam is dormant."
   },
   {
    "topic": 35,
@@ -1428,16 +1428,16 @@
    "topic": 35,
    "sec": 12,
    "angle": "7",
-   "shape": "one-liner",
-   "s": "The Akal Fossil Wood Park, with fossilised tree trunks, is in:",
+   "shape": "match",
+   "s": "Which of the following fossil sites is wrongly matched with its State?",
    "o": [
-    "Jaisalmer, Rajasthan",
-    "Sirmur, Himachal Pradesh",
-    "Manendragarh, Chhattisgarh",
-    "Kutch, Gujarat"
+    "Siwalik Fossil Park, Saketi – Uttarakhand",
+    "Akal Fossil Wood Park – Rajasthan",
+    "Marine Gondwana Fossil Park – Chhattisgarh",
+    "Lonar Lake – Maharashtra"
    ],
    "a": 0,
-   "x": "The Akal Fossil Wood Park is in Jaisalmer, Rajasthan."
+   "x": "The Siwalik Fossil Park at Saketi is in Sirmur, Himachal Pradesh, not Uttarakhand."
   },
   {
    "topic": 35,
