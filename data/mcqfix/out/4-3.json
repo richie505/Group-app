@@ -282,19 +282,19 @@
    "x": "Kilimanjaro, a rift volcano of the East African Rift, is in Tanzania."
   },
   {
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Hekla – Indonesia",
+    "Krakatau – Iceland",
+    "Tungurahua – Ecuador",
+    "Mauna Loa – Japan"
+   ],
+   "a": 2,
+   "x": "Tungurahua is in Ecuador; Hekla is in Iceland, Krakatau in Indonesia and Mauna Loa in Hawaii, USA.",
    "topic": 9,
    "sec": 5,
-   "angle": "1",
-   "shape": "one-liner",
-   "s": "Tungurahua, an active volcano, is located in:",
-   "o": [
-    "Peru",
-    "Ecuador",
-    "Chile",
-    "Colombia"
-   ],
-   "a": 1,
-   "x": "Tungurahua is an active volcano of Ecuador on the Pacific Ring of Fire."
+   "angle": "1"
   },
   {
    "topic": 9,
@@ -387,19 +387,19 @@
    "x": "Taptapani is in Odisha, while the similar-sounding Tattapani is in Chhattisgarh."
   },
   {
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Tattapani – Odisha",
+    "Manikaran – Himachal Pradesh",
+    "Taptapani – Chhattisgarh",
+    "Puga Valley – Himachal Pradesh"
+   ],
+   "a": 1,
+   "x": "Manikaran is in Himachal Pradesh; Tattapani is in Chhattisgarh, Taptapani in Odisha and Puga Valley in Ladakh.",
    "topic": 9,
    "sec": 7,
-   "angle": "7",
-   "shape": "one-liner",
-   "s": "Manikaran hot spring of the Kullu valley lies in:",
-   "o": [
-    "Uttarakhand",
-    "Ladakh",
-    "Jammu and Kashmir",
-    "Himachal Pradesh"
-   ],
-   "a": 3,
-   "x": "Manikaran is a hot spring in the Kullu valley of Himachal Pradesh."
+   "angle": "7"
   },
   {
    "topic": 9,
@@ -750,16 +750,16 @@
    "topic": 10,
    "sec": 8,
    "angle": "10",
-   "shape": "one-liner",
-   "s": "Under IS 1893:2016, the zone factor of Seismic Zone V is:",
+   "shape": "statements",
+   "s": "Consider the following statements about seismic zone factors under IS 1893:2016:\n1. The zone factor of Zone V is 0.36.\n2. The zone factor of Zone II is 0.16.\n3. The zone factor of Zone IV is 0.24.\nWhich of the statements given above is/are correct?",
    "o": [
-    "0.24",
-    "0.16",
-    "0.36",
-    "0.10"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
    "a": 2,
-   "x": "Zone factors are 0.10 (II), 0.16 (III), 0.24 (IV) and 0.36 (V)."
+   "x": "Statements 1 and 3 are correct; Zone II has a factor of 0.10, while 0.16 belongs to Zone III."
   },
   {
    "topic": 10,
@@ -900,16 +900,16 @@
    "topic": 10,
    "sec": 13,
    "angle": "15",
-   "shape": "one-liner",
-   "s": "Fujiyama, Japan's highest peak, last erupted in:",
+   "shape": "statements",
+   "s": "Consider the following statements about Fujiyama:\n1. It is a dormant volcano.\n2. Its last eruption was in 1707.\n3. It is Europe's largest and most active volcano.\nWhich of the statements given above is/are correct?",
    "o": [
-    "1707",
-    "1883",
-    "1980",
-    "1843"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
    "a": 0,
-   "x": "Fujiyama is dormant and last erupted in 1707; 1883 is Krakatoa and 1980 Mount St. Helens."
+   "x": "Fujiyama in Japan is dormant and last erupted in 1707; Europe's largest and most active volcano is Etna."
   },
   {
    "topic": 10,
@@ -927,19 +927,19 @@
    "x": "Kilimanjaro (5,895 m) in Tanzania is dormant, unlike the active Italian volcanoes."
   },
   {
-   "topic": 10,
-   "sec": 13,
-   "angle": "15",
-   "shape": "one-liner",
-   "s": "Mount St. Helens in Washington, USA, is known as the:",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
    "o": [
-    "Lighthouse of the Mediterranean",
-    "Long Mountain",
-    "Fujiyama of America",
-    "Lighthouse of the Pacific"
+    "Stromboli – Long Mountain",
+    "Mauna Loa – Lighthouse of the Mediterranean",
+    "Mount St. Helens – Fujiyama of America",
+    "Etna – Lighthouse of the Pacific"
    ],
    "a": 2,
-   "x": "Mount St. Helens, an active stratovolcano that erupted in 1980, is called the 'Fujiyama of America'."
+   "x": "Mount St. Helens is the 'Fujiyama of America'; Stromboli is the Lighthouse of the Mediterranean and Mauna Loa means 'Long Mountain'.",
+   "topic": 10,
+   "sec": 13,
+   "angle": "15"
   },
   {
    "topic": 11,
@@ -1032,19 +1032,19 @@
    "x": "Block disintegration is the physical break-up of jointed rock into blocks; exfoliation is onion-like peeling."
   },
   {
-   "topic": 11,
-   "sec": 4,
-   "angle": "4",
-   "shape": "one-liner",
-   "s": "The rotational slip of weak, wet soil along a curved surface is called:",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
    "o": [
-    "Creep",
-    "Slump",
-    "Rockfall",
-    "Debris flow"
+    "Creep – Free fall of rocks from cliffs",
+    "Slump – Rotational slip along a curved surface",
+    "Rockfall – Very slow downslope movement",
+    "Mudflow – Coherent mass slipping along a surface"
    ],
    "a": 1,
-   "x": "A slump is a rotational slip along a curved surface; creep is very slow and rockfall is a free fall."
+   "x": "A slump is a rotational slip along a curved surface; rockfall is a free fall, creep is very slow, and mudflow is a fast water-soil-rock mix.",
+   "topic": 11,
+   "sec": 4,
+   "angle": "4"
   },
   {
    "topic": 11,
@@ -1107,19 +1107,19 @@
    "x": "Davis saw landscape as structure, process and stage (time); the uplift-erosion ratio and parallel slope retreat belong to Penck."
   },
   {
-   "topic": 11,
-   "sec": 6,
-   "angle": "1",
-   "shape": "one-liner",
-   "s": "Which of the following is a passive factor of soil formation?",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a passive factor of soil formation?",
    "o": [
-    "Climate",
-    "Vegetation",
     "Parent material",
-    "Micro-organisms"
+    "Topography",
+    "Climate",
+    "Time"
    ],
    "a": 2,
-   "x": "Parent material, topography and time are passive factors; climate and biological activity are active."
+   "x": "Climate is an active factor, along with biological activity; parent material, topography and time are passive.",
+   "topic": 11,
+   "sec": 6,
+   "angle": "1"
   },
   {
    "topic": 11,
@@ -1242,19 +1242,19 @@
    "x": "Laterite forms in hot, heavy-rain tropics where leaching leaves iron and aluminium oxides; it is acidic."
   },
   {
+   "shape": "match",
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Podzol – Cold taiga",
+    "Terra rossa – Mediterranean limestone areas",
+    "Laterite – Hot, heavy-rain tropics",
+    "Chernozem – Cold taiga"
+   ],
+   "a": 3,
+   "x": "Chernozem belongs to temperate grasslands; podzol is the soil of the cold taiga.",
    "topic": 11,
    "sec": 9,
-   "angle": "3",
-   "shape": "one-liner",
-   "s": "Black, humus-rich chernozem soils are associated with:",
-   "o": [
-    "Cold taiga forests",
-    "Hot, heavy-rain tropics",
-    "Temperate grasslands",
-    "Mediterranean limestone areas"
-   ],
-   "a": 2,
-   "x": "Chernozem forms in temperate grasslands such as steppes and prairies; podzol is the taiga soil."
+   "angle": "3"
   },
   {
    "topic": 11,
