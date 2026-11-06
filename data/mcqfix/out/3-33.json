@@ -1,0 +1,852 @@
+{
+ "reshape": {
+  "nf3c1a99a7de": {
+   "shape": "one-liner",
+   "s": "Who chaired the Fourth Finance Commission?",
+   "o": [
+    "K. Santhanam",
+    "A.K. Chanda",
+    "Mahaveer Tyagi",
+    "P.V. Rajamannar"
+   ],
+   "a": 3,
+   "x": "P.V. Rajamannar chaired the 4th Finance Commission (1964); A.M. Khusro later chaired the 11th."
+  },
+  "n97314d574aa": {
+   "shape": "match",
+   "s": "Which of the following pairs relating to the Fourteenth Finance Commission is correctly matched?",
+   "o": [
+    "Main route of transfers – Tax devolution",
+    "Main route of transfers – Grants-in-aid",
+    "Distinction ended – Tied and untied grants",
+    "Distinction ended – Central and State taxes"
+   ],
+   "a": 0,
+   "x": "The 14th FC made tax devolution, rather than grants, the main route of transfers; the distinction it ended was between Plan and non-Plan expenditure."
+  },
+  "n7248f601fd7": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Sixteenth Finance Commission's disaster funding?",
+   "o": [
+    "It recommended disaster grants of ₹1.55 lakh crore",
+    "It proposed a State disaster corpus of ₹2.04 lakh crore",
+    "It discontinued all disaster grants",
+    "It added heatwaves and lightning as notified disasters"
+   ],
+   "a": 2,
+   "x": "The 16th FC did not discontinue disaster grants; it recommended ₹1.55 lakh crore for them and added heatwaves and lightning as notified disasters."
+  },
+  "nindian-economy-50-3": {
+   "shape": "one-liner",
+   "s": "Who chaired the Second Finance Commission, constituted in 1956?",
+   "o": [
+    "K.C. Neogy",
+    "K. Santhanam",
+    "A.M. Khusro",
+    "C. Rangarajan"
+   ],
+   "a": 1,
+   "x": "The 2nd Finance Commission (1956) was chaired by K. Santhanam; A.M. Khusro chaired the 11th (1998) and C. Rangarajan the 12th (2002)."
+  },
+  "nf9738a9553b": {
+   "shape": "one-liner",
+   "s": "The 80th Constitutional Amendment, 2000 gave effect to the 'Alternative Scheme of Devolution' of which Finance Commission?",
+   "o": [
+    "Ninth",
+    "Eleventh",
+    "Tenth",
+    "Twelfth"
+   ],
+   "a": 2,
+   "x": "The 80th Amendment implemented the 10th FC's Alternative Scheme (29%), making all central taxes shareable with effect from 1 April 1996."
+  },
+  "n924f6134ba4": {
+   "shape": "one-liner",
+   "s": "Tax devolution from the Centre to the States takes place under which Article?",
+   "o": [
+    "Article 123",
+    "Article 275",
+    "Article 282",
+    "Article 270"
+   ],
+   "a": 3,
+   "x": "Tax devolution is under Article 270; Article 275 covers FC grants, Article 282 CSS and other transfers, and Article 123 is the ordinance power."
+  },
+  "n5bfa15c2ecb": {
+   "shape": "statements",
+   "s": "Consider the following statements about State Finance Commissions:\n1. There is no separate State Finance Commission for Municipalities.\n2. The State Finance Commission constituted under Article 243I also reviews municipal finances under Article 243Y.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: the same SFC constituted by the Governor under Article 243I reviews municipal finances under Article 243Y, so no separate SFC exists."
+  },
+  "n75e618e1c9b": {
+   "shape": "statements",
+   "s": "Consider the following statements about entry conditions for local bodies under the 16th Finance Commission:\n1. Audited accounts must be published online.\n2. Issue of municipal bonds is mandatory.\n3. The State Finance Commission must be constituted on time.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "The entry conditions are elected bodies, online audited accounts and timely SFCs; issuing municipal bonds is not a condition."
+  }
+ },
+ "new": [
+  {
+   "topic": 99,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Finance Commission of India is constituted by the:",
+   "o": [
+    "Prime Minister",
+    "President",
+    "Parliament",
+    "Union Finance Minister"
+   ],
+   "a": 1,
+   "x": "The Finance Commission is constituted by the President every five years under Article 280."
+  },
+  {
+   "topic": 99,
+   "sec": 1,
+   "angle": "1",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a function of the Finance Commission under Article 280?",
+   "o": [
+    "Sharing the net proceeds of taxes between the Centre and the States",
+    "Recommending principles of grants-in-aid under Article 275",
+    "Suggesting measures to augment State Consolidated Funds for local bodies",
+    "Recommending discretionary grants under Article 282"
+   ],
+   "a": 3,
+   "x": "Discretionary grants under Article 282 are not a Finance Commission role; the other three are its duties under Article 280(3)."
+  },
+  {
+   "topic": 99,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Clauses (bb) and (c) of Article 280(3), on resources for panchayats and municipalities, were added in:",
+   "o": [
+    "1951",
+    "1976",
+    "1992",
+    "2000"
+   ],
+   "a": 2,
+   "x": "The local-body clauses (bb) and (c) were added in 1992 and rest on State Finance Commission reports."
+  },
+  {
+   "topic": 99,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The qualifications of the Chairman and members of the Finance Commission are laid down in the:",
+   "o": [
+    "Finance Commission (Miscellaneous Provisions) Act, 1951",
+    "Article 281 of the Constitution",
+    "Fiscal Responsibility and Budget Management Act, 2003",
+    "Government of India Act, 1935"
+   ],
+   "a": 0,
+   "x": "Qualifications are prescribed by the Finance Commission (Miscellaneous Provisions) Act, 1951."
+  },
+  {
+   "topic": 99,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Under the Finance Commission (Miscellaneous Provisions) Act, 1951, the Chairman must have experience in:",
+   "o": [
+    "Judicial service",
+    "Public affairs",
+    "Finance and accounts",
+    "Economics"
+   ],
+   "a": 1,
+   "x": "The Chairman must have experience in public affairs; judiciary, finance/accounts, administration and economics are fields for the members."
+  },
+  {
+   "topic": 99,
+   "sec": 1,
+   "angle": "1,5",
+   "shape": "statements",
+   "s": "Consider the following statements about the Finance Commission:\n1. It is constituted by the President every five years.\n2. It consists of a Chairman and four members.\n3. Its recommendations are binding on the Union.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The FC is set up by the President every five years with a Chairman and 4 members, but its recommendations are advisory, not binding."
+  },
+  {
+   "topic": 99,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Who among the following is a member of the Sixteenth Finance Commission?",
+   "o": [
+    "Ashok Lahiri",
+    "Sudipto Mundle",
+    "T. Rabi Sankar",
+    "Anoop Singh"
+   ],
+   "a": 2,
+   "x": "T. Rabi Sankar is a 16th FC member; Ashok Lahiri and Anoop Singh were in the 15th FC and Sudipto Mundle in the 14th."
+  },
+  {
+   "topic": 99,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Who chaired the Third Finance Commission (1960)?",
+   "o": [
+    "K. Santhanam",
+    "Mahaveer Tyagi",
+    "P.V. Rajamannar",
+    "A.K. Chanda"
+   ],
+   "a": 3,
+   "x": "A.K. Chanda chaired the 3rd FC (1960); Santhanam chaired the 2nd, Rajamannar the 4th and Tyagi the 5th."
+  },
+  {
+   "topic": 99,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Fourteenth Finance Commission raised the States' share in the divisible pool to:",
+   "o": [
+    "32%",
+    "41%",
+    "42%",
+    "50%"
+   ],
+   "a": 2,
+   "x": "The 14th FC raised the share from 32% to 42%, a rise of 10 points; the 15th set 41%."
+  },
+  {
+   "topic": 99,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Sixteenth Finance Commission rejected the States' demand to raise their share of the divisible pool to:",
+   "o": [
+    "50%",
+    "42%",
+    "45%",
+    "48%"
+   ],
+   "a": 0,
+   "x": "The 16th FC retained 41% and rejected the demand for 50%."
+  },
+  {
+   "topic": 99,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which horizontal devolution criterion of the 15th Finance Commission was dropped by the 16th Finance Commission?",
+   "o": [
+    "Area",
+    "Forest and ecology",
+    "Tax and fiscal effort",
+    "Demographic performance"
+   ],
+   "a": 2,
+   "x": "Tax/fiscal effort (2.5% under the 15th FC) was dropped by the 16th FC; area, forest and demographic performance were retained at 10% each."
+  },
+  {
+   "topic": 99,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Sixteenth Finance Commission cut the weight of area in horizontal devolution from 15% to:",
+   "o": [
+    "12.5%",
+    "10%",
+    "7.5%",
+    "17.5%"
+   ],
+   "a": 1,
+   "x": "Area weight fell from 15% (14th and 15th FC) to 10% under the 16th FC."
+  },
+  {
+   "topic": 99,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Which Finance Commission made no distinction between general and Special Category States in tax sharing?",
+   "o": [
+    "12th",
+    "13th",
+    "15th",
+    "14th"
+   ],
+   "a": 3,
+   "x": "The 14th FC made no distinction between general and Special Category States in sharing."
+  },
+  {
+   "topic": 99,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The 15th Finance Commission's grants for rural local bodies for 2021-26 were about:",
+   "o": [
+    "₹2.00 lakh crore",
+    "₹4.35 lakh crore",
+    "₹2.36 lakh crore",
+    "₹7.91 lakh crore"
+   ],
+   "a": 2,
+   "x": "The 15th FC gave rural local bodies about ₹2.36 lakh crore; ₹2.00 lakh crore was the 14th FC's gram panchayat amount."
+  },
+  {
+   "topic": 99,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Sixteenth Finance Commission's recommendations came into force on:",
+   "o": [
+    "17 November 2025",
+    "1 February 2026",
+    "31 December 2025",
+    "1 April 2026"
+   ],
+   "a": 3,
+   "x": "The 16th FC report was submitted on 17 Nov 2025, tabled on 1 Feb 2026 and came into force on 1 Apr 2026."
+  },
+  {
+   "topic": 99,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Besides the use of Census 2011, the 15th Finance Commission's terms of reference covered a non-lapsable fund for:",
+   "o": [
+    "Defence",
+    "Railways",
+    "Agriculture",
+    "Education"
+   ],
+   "a": 0,
+   "x": "The 15th FC's ToR included a non-lapsable defence fund along with disaster funding."
+  },
+  {
+   "topic": 99,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The use of 2011 Census population by the 15th Finance Commission was objected to mainly by the:",
+   "o": [
+    "North-Eastern States",
+    "Southern States",
+    "Himalayan States",
+    "Union Territories"
+   ],
+   "a": 1,
+   "x": "Southern States objected to the 15th FC being told to use the 2011 Census."
+  },
+  {
+   "topic": 99,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The revenue deficit grant to Andhra Pradesh under the 14th Finance Commission (2015-20) was about:",
+   "o": [
+    "₹16,000 crore",
+    "₹38,000 crore",
+    "₹22,113 crore",
+    "₹48,000 crore"
+   ],
+   "a": 2,
+   "x": "AP got about ₹22,113 crore as 14th FC revenue deficit grant; ₹16,000 crore was its 2014-19 revenue deficit."
+  },
+  {
+   "topic": 99,
+   "sec": 7,
+   "angle": "6,7",
+   "shape": "one-liner",
+   "s": "Andhra Pradesh was given a special package in lieu of:",
+   "o": [
+    "Special Category Status",
+    "Revenue deficit grants",
+    "Disaster grants",
+    "Local body grants"
+   ],
+   "a": 0,
+   "x": "The special package to AP was given in lieu of Special Category Status."
+  },
+  {
+   "topic": 100,
+   "sec": 2,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Who among the following was a member of the Fourteenth Finance Commission?",
+   "o": [
+    "Ramesh Chand",
+    "M. Govinda Rao",
+    "Manoj Panda",
+    "Ajay Narayan Jha"
+   ],
+   "a": 1,
+   "x": "M. Govinda Rao was in the 14th FC; Ramesh Chand and A.N. Jha were 15th FC members and Manoj Panda a 16th FC member."
+  },
+  {
+   "topic": 100,
+   "sec": 2,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Who chairs the Sixteenth Finance Commission?",
+   "o": [
+    "N.K. Singh",
+    "Y.V. Reddy",
+    "Arvind Panagariya",
+    "Vijay Kelkar"
+   ],
+   "a": 2,
+   "x": "Arvind Panagariya chairs the 16th FC (2026-31); N.K. Singh chaired the 15th and Y.V. Reddy the 14th."
+  },
+  {
+   "topic": 100,
+   "sec": 2,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Annie George Mathew is a member of which Finance Commission?",
+   "o": [
+    "13th",
+    "14th",
+    "15th",
+    "16th"
+   ],
+   "a": 3,
+   "x": "Annie George Mathew, Manoj Panda and T. Rabi Sankar are members of the 16th FC."
+  },
+  {
+   "topic": 100,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The 80th Constitutional Amendment, making all central taxes shareable, took effect from:",
+   "o": [
+    "1 April 1995",
+    "1 April 1996",
+    "1 April 2000",
+    "1 April 2005"
+   ],
+   "a": 1,
+   "x": "The 80th Amendment (2000) took effect retrospectively from 1 April 1996."
+  },
+  {
+   "topic": 100,
+   "sec": 3,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "How many of the 28 States sought a 50% share of the divisible pool from the 16th Finance Commission?",
+   "o": [
+    "10",
+    "14",
+    "18",
+    "22"
+   ],
+   "a": 2,
+   "x": "18 of 28 States sought 50%; the 16th FC rejected it and retained 41%."
+  },
+  {
+   "topic": 100,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Under the 14th Finance Commission, the weight given to 1971 population was:",
+   "o": [
+    "10%",
+    "15%",
+    "7.5%",
+    "17.5%"
+   ],
+   "a": 3,
+   "x": "The 14th FC gave 17.5% to 1971 population and 10% to 2011 population."
+  },
+  {
+   "topic": 100,
+   "sec": 5,
+   "angle": "5,14",
+   "shape": "one-liner",
+   "s": "Andhra Pradesh's share in horizontal devolution under the 14th Finance Commission was:",
+   "o": [
+    "4.305%",
+    "4.111%",
+    "4.047%",
+    "4.217%"
+   ],
+   "a": 0,
+   "x": "AP's share was 4.305% under the 14th FC, 4.047% under the 15th (2021-26) and 4.217% under the 16th."
+  },
+  {
+   "topic": 100,
+   "sec": 5,
+   "angle": "5,14",
+   "shape": "one-liner",
+   "s": "Andhra Pradesh's share in horizontal devolution under the 16th Finance Commission is:",
+   "o": [
+    "4.047%",
+    "4.305%",
+    "4.217%",
+    "4.111%"
+   ],
+   "a": 2,
+   "x": "The 16th FC raised AP's share to 4.217% from 4.047% under the 15th FC."
+  },
+  {
+   "topic": 100,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Of the 15th Finance Commission's grants to rural local bodies, the tied portion is:",
+   "o": [
+    "40%",
+    "60%",
+    "50%",
+    "80%"
+   ],
+   "a": 1,
+   "x": "60% is tied (drinking water, rainwater harvesting, sanitation) and 40% untied."
+  },
+  {
+   "topic": 100,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The untied grants to rural local bodies under the 15th Finance Commission cannot be used for:",
+   "o": [
+    "Salaries",
+    "Local needs",
+    "Sanitation",
+    "Drinking water"
+   ],
+   "a": 0,
+   "x": "The 40% untied part is for local needs but not for salaries."
+  },
+  {
+   "topic": 100,
+   "sec": 7,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about the 15th Finance Commission's rural local body grants:\n1. Provisional and audited accounts must be in the public domain for at least 25% of rural local bodies.\n2. Constitution of the State Finance Commission is mandatory for release from 2024-25.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are release conditions: accounts in the public domain for at least 25% of rural local bodies, and an SFC from 2024-25."
+  },
+  {
+   "topic": 100,
+   "sec": 9,
+   "angle": "2,11",
+   "shape": "one-liner",
+   "s": "According to the Economic Survey 2016-17, redistributive transfers had a suggestive negative effect on States':",
+   "o": [
+    "Own tax effort",
+    "Per capita consumption",
+    "Capital expenditure",
+    "Borrowing limits"
+   ],
+   "a": 0,
+   "x": "ES 2016-17 found a suggestive negative effect on own tax effort and no positive link with consumption, growth or governance."
+  },
+  {
+   "topic": 100,
+   "sec": 9,
+   "angle": "2,11",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Economic Survey 2016-17 findings on redistributive transfers?",
+   "o": [
+    "No positive link with per capita consumption",
+    "No positive link with GSDP growth",
+    "Strong positive link with governance",
+    "Transfers should be linked to fiscal and governance effort"
+   ],
+   "a": 2,
+   "x": "ES 2016-17 found no positive link with governance, consumption or GSDP growth, and suggested linking transfers to effort."
+  },
+  {
+   "topic": 100,
+   "sec": 9,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "States were allowed extra borrowing of 0.5% of GSDP linked to reforms in which sector?",
+   "o": [
+    "Agriculture",
+    "Power",
+    "Water",
+    "Urban transport"
+   ],
+   "a": 1,
+   "x": "An extra 0.5% of GSDP was allowed for power-sector reforms (2021-22 to 2024-25, again 2025-26)."
+  },
+  {
+   "topic": 100,
+   "sec": 9,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "The unused balance of the GST compensation cess is split 50:50 between the Centre and States, among States in proportion to:",
+   "o": [
+    "Population",
+    "SGST revenue",
+    "Area",
+    "Income distance"
+   ],
+   "a": 1,
+   "x": "The unused balance is shared among States by SGST revenue, not population."
+  },
+  {
+   "topic": 100,
+   "sec": 9,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "GST compensation to States was paid for five years, from July 2017 to:",
+   "o": [
+    "March 2020",
+    "June 2022",
+    "March 2022",
+    "September 2025"
+   ],
+   "a": 1,
+   "x": "Compensation was paid July 2017 – June 2022; the cess continued to repay COVID loans and ended on 22 Sep 2025 except for tobacco."
+  },
+  {
+   "topic": 100,
+   "sec": 10,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "For Andhra Pradesh, the largest component of central transfers in 2025-26 (RE) is:",
+   "o": [
+    "Tax devolution",
+    "Centrally Sponsored Schemes",
+    "Finance Commission grants",
+    "Capex loans"
+   ],
+   "a": 2,
+   "x": "FC grants are AP's largest central transfer: ₹62,188 crore of ₹1,04,493 crore (2025-26 RE)."
+  },
+  {
+   "topic": 100,
+   "sec": 10,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "The 16th Finance Commission's grant to Andhra Pradesh's rural local bodies is about:",
+   "o": [
+    "₹12,158 crore",
+    "₹6,125 crore",
+    "₹62,188 crore",
+    "₹16,627 crore"
+   ],
+   "a": 3,
+   "x": "AP gets ₹16,627 crore for rural LBs, ₹12,158 crore for urban LBs and ₹6,125 crore for disasters."
+  },
+  {
+   "topic": 101,
+   "sec": 1,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Under Article 243I, the State Finance Commission for panchayats is constituted by the:",
+   "o": [
+    "Chief Minister",
+    "President",
+    "State Legislature",
+    "Governor"
+   ],
+   "a": 3,
+   "x": "The Governor constitutes the SFC every five years under Article 243I."
+  },
+  {
+   "topic": 101,
+   "sec": 1,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "How many subjects are listed in the Eleventh Schedule of the Constitution?",
+   "o": [
+    "18",
+    "29",
+    "22",
+    "12"
+   ],
+   "a": 1,
+   "x": "The Eleventh Schedule (Art. 243G) lists 29 subjects; the Twelfth (Art. 243W) lists 18."
+  },
+  {
+   "topic": 101,
+   "sec": 1,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Twelfth Schedule, listing 18 subjects for municipalities, is linked to which Article?",
+   "o": [
+    "243G",
+    "243X",
+    "243W",
+    "243Y"
+   ],
+   "a": 2,
+   "x": "The Twelfth Schedule goes with Article 243W; the Eleventh goes with Article 243G."
+  },
+  {
+   "topic": 101,
+   "sec": 1,
+   "angle": "4",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Article 243H – Municipalities",
+    "Article 243X – Panchayats",
+    "Article 243Y – Panchayats",
+    "Article 243I – Panchayats"
+   ],
+   "a": 3,
+   "x": "243H and 243I concern Panchayats; 243X and 243Y concern Municipalities."
+  },
+  {
+   "topic": 101,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Professional tax levied by local bodies has a ceiling of:",
+   "o": [
+    "₹2,000",
+    "₹2,500",
+    "₹5,000",
+    "₹1,500"
+   ],
+   "a": 1,
+   "x": "Professional tax is a tax source of ULBs with a ceiling of ₹2,500."
+  },
+  {
+   "topic": 101,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Local Finance Enquiry Committee, chaired by P.K. Wattal, functioned during:",
+   "o": [
+    "1949-51",
+    "1953-54",
+    "1963-66",
+    "1985-88"
+   ],
+   "a": 0,
+   "x": "The Local Finance Enquiry Committee (1949-51) was the first committee on local finance."
+  },
+  {
+   "topic": 101,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Taxation Enquiry Commission (1953-54) was chaired by:",
+   "o": [
+    "K. Santhanam",
+    "A.P. Jain",
+    "John Matthai",
+    "P.K. Wattal"
+   ],
+   "a": 2,
+   "x": "John Matthai chaired the Taxation Enquiry Commission; A.P. Jain chaired the Rural-Urban Relationship Committee (1963-66)."
+  },
+  {
+   "topic": 101,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Who chaired Andhra Pradesh's Fifth State Finance Commission?",
+   "o": [
+    "Prof. G. Nancharaiah",
+    "Prof. S. Rathna Kumari",
+    "Prof. K. Santhanam",
+    "Prof. A.P. Jain"
+   ],
+   "a": 1,
+   "x": "Prof. S. Rathna Kumari chaired the 5th SFC; Prof. G. Nancharaiah chaired the 4th."
+  },
+  {
+   "topic": 101,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The report of Andhra Pradesh's Fifth State Finance Commission (31 Dec 2024) covers the period:",
+   "o": [
+    "2020-25",
+    "2024-29",
+    "2026-31",
+    "2025-30"
+   ],
+   "a": 3,
+   "x": "The 5th SFC reported on 31 Dec 2024 for 2025-30."
+  },
+  {
+   "topic": 101,
+   "sec": 5,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about State Finance Commissions in Andhra Pradesh:\n1. The SFC consists of a chairman and four members.\n2. Its members are appointed by the Chief Minister.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "AP's SFC has a chairman and 4 members, but they are appointed by the Governor, not the Chief Minister."
+  },
+  {
+   "topic": 101,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Under the 16th Finance Commission's local-body grants, the performance grant is:",
+   "o": [
+    "Fully tied",
+    "Half tied, half untied",
+    "Fully untied",
+    "60% tied"
+   ],
+   "a": 2,
+   "x": "The performance grant (20%) is fully untied; the basic grant (80%) is half tied and half untied."
+  },
+  {
+   "topic": 101,
+   "sec": 8,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "After the terms of Andhra Pradesh's local bodies ended in 2026, they were run by:",
+   "o": [
+    "Special Officers",
+    "State Election Commission",
+    "District Collectors' councils",
+    "State Finance Commission"
+   ],
+   "a": 0,
+   "x": "ULB terms ended 15 March 2026 and panchayat terms 4 April 2026, so Special Officers took charge, putting FC grants at risk."
+  },
+  {
+   "topic": 101,
+   "sec": 8,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The 16th Finance Commission's grant to Andhra Pradesh's urban local bodies is about:",
+   "o": [
+    "₹16,627 crore",
+    "₹12,158 crore",
+    "₹56,100 crore",
+    "₹10,000 crore"
+   ],
+   "a": 1,
+   "x": "AP's urban LBs get ₹12,158 crore and rural LBs ₹16,627 crore under the 16th FC."
+  }
+ ]
+}
