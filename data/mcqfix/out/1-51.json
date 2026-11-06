@@ -1,0 +1,864 @@
+{
+ "reshape": {
+  "ne56f57b73f1": {
+   "shape": "one-liner",
+   "s": "Which Dutch factory was established in 1645?",
+   "o": [
+    "Surat",
+    "Chinsura",
+    "Karaikal",
+    "Nagapattinam"
+   ],
+   "a": 2,
+   "x": "Karaikal came in 1645, after Surat (1616) and before Chinsura (1653) and Nagapattinam (1658)."
+  },
+  "n3f34f641649": {
+   "shape": "NOT",
+   "s": "Which of the following English settlements on the Andhra coast is NOT correctly matched with its year?",
+   "o": [
+    "Machilipatnam – 1611",
+    "Pulicat – 1621",
+    "Visakhapatnam – 1626",
+    "Armagaon – 1626"
+   ],
+   "a": 2,
+   "x": "Visakhapatnam came in 1682; Armagaon was the 1626 settlement."
+  },
+  "n994e574c2e4": {
+   "shape": "one-liner",
+   "s": "Mustafanagar, one of the Northern Circars granted to the French by Salabat Jang in 1753, is also known as:",
+   "o": [
+    "Eluru",
+    "Kondapalli",
+    "Rajahmundry",
+    "Chicacole"
+   ],
+   "a": 1,
+   "x": "Mustafanagar is Kondapalli; Eluru, Rajahmundry and Chicacole were the other Circars granted."
+  },
+  "n9979978a0ae": {
+   "shape": "one-liner",
+   "s": "In which year did the Dutch capture Pondicherry?",
+   "o": [
+    "1697",
+    "1761",
+    "1763",
+    "1693"
+   ],
+   "a": 3,
+   "x": "The Dutch captured Pondicherry in 1693; it was restored in 1697 (Ryswick)."
+  }
+ },
+ "new": [
+  {
+   "topic": 153,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Dutch took Nagapattinam in 1658 from the:",
+   "o": [
+    "English",
+    "Portuguese",
+    "French",
+    "Danes"
+   ],
+   "a": 1,
+   "x": "Nagapattinam was taken by the Dutch from the Portuguese in 1658 and later became their chief factory."
+  },
+  {
+   "topic": 153,
+   "sec": 3,
+   "angle": "4,7",
+   "shape": "one-liner",
+   "s": "Cochin, taken by the Dutch from the Portuguese in 1663, passed to the British in:",
+   "o": [
+    "1759",
+    "1824",
+    "1741",
+    "1795"
+   ],
+   "a": 3,
+   "x": "Cochin (Dutch from 1663) passed to the British in 1795; 1824 is the Anglo-Dutch Treaty."
+  },
+  {
+   "topic": 153,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Fort Geldria, the only Dutch fortification in India, stood at:",
+   "o": [
+    "Pulicat",
+    "Bheemunipatnam",
+    "Machilipatnam",
+    "Palakollu"
+   ],
+   "a": 0,
+   "x": "Fort Geldria at Pulicat was the Dutch's only fort in India; Bheemunipatnam has the Dutch cemetery."
+  },
+  {
+   "topic": 153,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which place in Andhra Pradesh has a Dutch cemetery, a remain of the Dutch factory of 1641?",
+   "o": [
+    "Palakollu",
+    "Draksharama",
+    "Bheemunipatnam",
+    "Nizampatnam"
+   ],
+   "a": 2,
+   "x": "Bheemunipatnam (1641) is known for its Dutch cemetery."
+  },
+  {
+   "topic": 153,
+   "sec": 8,
+   "angle": "8",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Fort Geldria?",
+   "o": [
+    "It was at Pulicat",
+    "It was the only Dutch fortification in India",
+    "It was blown up by the British in 1804",
+    "It was built at Bheemunipatnam"
+   ],
+   "a": 3,
+   "x": "Fort Geldria was at Pulicat, not Bheemunipatnam, which is known for its Dutch cemetery."
+  },
+  {
+   "topic": 153,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "In which year did the Dutch set up their factory at Bheemunipatnam?",
+   "o": [
+    "1652",
+    "1610",
+    "1605",
+    "1641"
+   ],
+   "a": 3,
+   "x": "Bheemunipatnam was founded in 1641; Palakollu came in 1652, Pulicat in 1610, Machilipatnam in 1605."
+  },
+  {
+   "topic": 153,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Palakollu (Palicol), a Dutch factory of 1652, was a weaving centre of the:",
+   "o": [
+    "Krishna delta",
+    "Godavari delta",
+    "Penna delta",
+    "Kaveri delta"
+   ],
+   "a": 1,
+   "x": "Palakollu was a Godavari delta weaving centre; Nizampatnam (Petapuli) was the Krishna delta centre."
+  },
+  {
+   "topic": 153,
+   "sec": 2,
+   "angle": "1,8",
+   "shape": "statements",
+   "s": "Consider the following statements about the Dutch in Andhra:\n1. Pulicat was the Dutch Coromandel headquarters till 1690.\n2. Nizampatnam was the Dutch headquarters on the Coromandel coast.\n3. Fort Geldria was built at Pulicat.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Pulicat with Fort Geldria was the HQ till 1690; Nizampatnam was only a Krishna delta weaving centre, not the HQ."
+  },
+  {
+   "topic": 153,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Pulicat under the Dutch was a hub of the:",
+   "o": [
+    "porcelain trade",
+    "pepper trade of Malabar",
+    "slave trade to Batavia",
+    "diamond trade of Golconda"
+   ],
+   "a": 2,
+   "x": "Pulicat was a hub of the slave trade to Batavia, not of porcelain."
+  },
+  {
+   "topic": 153,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "In the Dutch carrying trade, saltpetre came mainly from:",
+   "o": [
+    "Bihar",
+    "Malabar",
+    "Gujarat",
+    "Golconda"
+   ],
+   "a": 0,
+   "x": "Saltpetre came from Bihar; pepper came from Malabar."
+  },
+  {
+   "topic": 153,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Under the Dutch, Koringa in Andhra was known for:",
+   "o": [
+    "jute",
+    "shipbuilding",
+    "the slave trade",
+    "porcelain"
+   ],
+   "a": 1,
+   "x": "Koringa was a Dutch shipbuilding centre; jute was at Chittavalasa."
+  },
+  {
+   "topic": 153,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "In the Battle of Bedara (1759), the English commander who defeated the Dutch was:",
+   "o": [
+    "J.B. Russell",
+    "Van der Haghen",
+    "Cornelis de Houtman",
+    "Francis Forde"
+   ],
+   "a": 3,
+   "x": "Francis Forde led the English at Bedara; J.B. Russell led the Dutch."
+  },
+  {
+   "topic": 153,
+   "sec": 6,
+   "angle": "6",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Colachel – 1759",
+    "Bedara – Travancore vs Dutch",
+    "Colachel – Marthanda Varma",
+    "Bedara – ended Dutch ambitions in Malabar"
+   ],
+   "a": 2,
+   "x": "Colachel (1741) was won by Marthanda Varma of Travancore; Bedara (1759) was English vs Dutch."
+  },
+  {
+   "topic": 153,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Anglo-Dutch conferences that failed to end English-Dutch rivalry were held in:",
+   "o": [
+    "1613 and 1615",
+    "1741 and 1759",
+    "1795 and 1824",
+    "1605 and 1610"
+   ],
+   "a": 0,
+   "x": "The Anglo-Dutch conferences of 1613 and 1615 failed, adding to English rivalry."
+  },
+  {
+   "topic": 153,
+   "sec": 7,
+   "angle": "7",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a cause of the decline of the Dutch in India?",
+   "o": [
+    "Their priority on Indian territory over the Indonesian spice monopoly",
+    "English rivalry",
+    "Defeats at Colachel and Bedara",
+    "Loss of Andhra strongholds in the Anglo-French wars"
+   ],
+   "a": 0,
+   "x": "The Dutch put the Indonesian spice monopoly first, not Indian territory."
+  },
+  {
+   "topic": 153,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Who reached Bantam in 1596, opening the Dutch route to Asia?",
+   "o": [
+    "Linschoten",
+    "Van der Haghen",
+    "Cornelis de Houtman",
+    "Philip II"
+   ],
+   "a": 2,
+   "x": "Cornelis de Houtman reached Bantam in 1596; Linschoten wrote the Itinerario."
+  },
+  {
+   "topic": 153,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The first Dutch factory in Bengal was at:",
+   "o": [
+    "Chinsura",
+    "Balasore",
+    "Kasimbazar",
+    "Pipali"
+   ],
+   "a": 3,
+   "x": "The Dutch first set up in Bengal at Pipali (1627), later Balasore; Chinsura came in 1653."
+  },
+  {
+   "topic": 154,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Bombay came to Charles II as the dowry of Catherine of Braganza in:",
+   "o": [
+    "1668",
+    "1661",
+    "1688",
+    "1639"
+   ],
+   "a": 1,
+   "x": "Bombay was dowry in 1661 and was leased to the Company in 1668."
+  },
+  {
+   "topic": 154,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Bombay replaced which place as the chief English settlement on the west coast?",
+   "o": [
+    "Broach",
+    "Ahmedabad",
+    "Surat",
+    "Baroda"
+   ],
+   "a": 2,
+   "x": "Bombay replaced Surat, the early Western Presidency."
+  },
+  {
+   "topic": 154,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Sir Thomas Roe came to Jahangir's court in 1615 as the ambassador of:",
+   "o": [
+    "James I",
+    "Elizabeth I",
+    "Charles II",
+    "Cromwell"
+   ],
+   "a": 0,
+   "x": "James I sent both Hawkins and Roe to Jahangir."
+  },
+  {
+   "topic": 154,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Edward Terry at Jahangir's court was:",
+   "o": [
+    "captain of the ship Globe",
+    "Sir Thomas Roe's chaplain",
+    "founder of Madras",
+    "leader of the 1717 mission"
+   ],
+   "a": 1,
+   "x": "Edward Terry was Roe's chaplain; Hippon captained the Globe and Surman led the 1717 mission."
+  },
+  {
+   "topic": 154,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Golden Farman of 1632 was issued by:",
+   "o": [
+    "Muhammad Quli Qutb Shah",
+    "Ibrahim Qutb Shah",
+    "Farrukhsiyar",
+    "Abdullah Qutb Shah"
+   ],
+   "a": 3,
+   "x": "Abdullah Qutb Shah, Sultan of Golconda, issued the Golden Farman in 1632."
+  },
+  {
+   "topic": 154,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Under the Golden Farman, the English traded freely in Golconda ports for a yearly payment of:",
+   "o": [
+    "500 pagodas",
+    "Rs 3,000",
+    "Rs 10,000",
+    "£10"
+   ],
+   "a": 0,
+   "x": "The Golden Farman fixed 500 pagodas a year; Rs 3,000 and Rs 10,000 belong to the 1717 Farman."
+  },
+  {
+   "topic": 154,
+   "sec": 5,
+   "angle": "2,3",
+   "shape": "one-liner",
+   "s": "Armagaon, the English settlement of 1626, is the present-day:",
+   "o": [
+    "Nizampatnam",
+    "Bheemunipatnam",
+    "Dugarajapatnam",
+    "Narsapuram"
+   ],
+   "a": 2,
+   "x": "Armagaon is Dugarajapatnam in today's Tirupati district, 35 miles north of Pulicat."
+  },
+  {
+   "topic": 154,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The land for Madras was granted in 1639 by the Chandragiri ruler:",
+   "o": [
+    "Muhammad Quli Qutb Shah",
+    "Abdullah Qutb Shah",
+    "Karanam Armugam Mudali",
+    "Venkatapati Raya III"
+   ],
+   "a": 3,
+   "x": "Venkatapati Raya III of Chandragiri gave the grant, with efforts of the Damerla brothers."
+  },
+  {
+   "topic": 154,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Fort St. George was completed on St George's Day, 23 April:",
+   "o": [
+    "1639",
+    "1644",
+    "1668",
+    "1690"
+   ],
+   "a": 1,
+   "x": "Begun in 1639-40, Fort St. George was completed on 23 April 1644."
+  },
+  {
+   "topic": 154,
+   "sec": 6,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about the founding of Madras:\n1. Francis Day founded it with Andrew Cogan.\n2. The Damerla brothers helped obtain the grant.\n3. Madras became India's first municipality in 1861.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Madras was founded in 1639 by Francis Day and Andrew Cogan with the Damerla brothers' help; it became a municipality in 1687 (Bhimili was Andhra's first in 1861)."
+  },
+  {
+   "topic": 154,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The English East India Company's first voyage (1602) was led by:",
+   "o": [
+    "Thomas Best",
+    "William Hawkins",
+    "James Lancaster",
+    "Francis Day"
+   ],
+   "a": 2,
+   "x": "James Lancaster led the first voyage in 1602 with £68,000 capital, setting up a factory at Bantam."
+  },
+  {
+   "topic": 154,
+   "sec": 1,
+   "angle": "1",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Charter of 1600?",
+   "o": [
+    "It was granted by Elizabeth I",
+    "It gave a 15-year monopoly of East Indies trade",
+    "It gave exclusive trading rights",
+    "It gave territorial governance and legislative power"
+   ],
+   "a": 3,
+   "x": "The 1600 Charter gave trading rights only, not territorial or legislative power (APPSC-GS 2024)."
+  },
+  {
+   "topic": 154,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Child's War (1686-90) ended with the English East India Company:",
+   "o": [
+    "pardoned on payment of a fine",
+    "winning duty-free trade in Bengal",
+    "gaining Bombay",
+    "defeating the Mughal fleet"
+   ],
+   "a": 0,
+   "x": "Aurangzeb crushed the Company, which was pardoned on payment of a fine."
+  },
+  {
+   "topic": 154,
+   "sec": 10,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The early English settlements got silk and cotton piece-goods mainly from:",
+   "o": [
+    "Gujarat",
+    "Bengal",
+    "Golconda",
+    "Bihar"
+   ],
+   "a": 1,
+   "x": "Silk and cotton piece-goods came from Bengal, not Gujarat."
+  },
+  {
+   "topic": 154,
+   "sec": 10,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Diamonds and rubies traded by the early English came from:",
+   "o": [
+    "Bihar",
+    "Gujarat",
+    "Bengal",
+    "Golconda"
+   ],
+   "a": 3,
+   "x": "Diamonds and rubies came from Golconda; Bihar gave saltpetre and opium."
+  },
+  {
+   "topic": 154,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The English factories at Hariharpur and Balasore (1633) were on the coast of:",
+   "o": [
+    "Odisha",
+    "Malabar",
+    "Gujarat",
+    "Konkan"
+   ],
+   "a": 0,
+   "x": "Hariharpur and Balasore (1633) were on the Odisha coast."
+  },
+  {
+   "topic": 154,
+   "sec": 9,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Under the Farman of 1717, all duties at Surat were dropped for a yearly payment of:",
+   "o": [
+    "Rs 3,000",
+    "500 pagodas",
+    "Rs 10,000",
+    "£10"
+   ],
+   "a": 2,
+   "x": "Surat duties went for Rs 10,000 a year; Bengal trade became duty-free for Rs 3,000."
+  },
+  {
+   "topic": 154,
+   "sec": 8,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Before founding Calcutta, Job Charnock was chief of the factory at:",
+   "o": [
+    "Surat",
+    "Balasore",
+    "Hariharpur",
+    "Qasim Bazar"
+   ],
+   "a": 3,
+   "x": "Job Charnock, chief of the Qasim Bazar factory, chose Sutanuti and arrived in 1690."
+  },
+  {
+   "topic": 154,
+   "sec": 8,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Fort William, the nucleus of Calcutta, was built in:",
+   "o": [
+    "1690",
+    "1700",
+    "1698",
+    "1717"
+   ],
+   "a": 1,
+   "x": "Charnock arrived in 1690, the villages were bought in 1698 and Fort William came in 1700."
+  },
+  {
+   "topic": 155,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which was the last European company to arrive in India?",
+   "o": [
+    "Dutch",
+    "English",
+    "French",
+    "Portuguese"
+   ],
+   "a": 2,
+   "x": "The French East India Company (1664) was the last European company to arrive."
+  },
+  {
+   "topic": 155,
+   "sec": 1,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The charter of the French East India Company gave it a monopoly for:",
+   "o": [
+    "50 years",
+    "15 years",
+    "25 years",
+    "100 years"
+   ],
+   "a": 0,
+   "x": "The 1664 charter gave a 50-year monopoly in the Indian and Pacific Oceans."
+  },
+  {
+   "topic": 155,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "In which year did the French settle at Yanam?",
+   "o": [
+    "1725",
+    "1723",
+    "1739",
+    "1669"
+   ],
+   "a": 1,
+   "x": "Yanam came in 1723, Mahe in 1725 and Karaikal in 1739."
+  },
+  {
+   "topic": 155,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Mahe, a French settlement of 1725, lies on the:",
+   "o": [
+    "Coromandel coast",
+    "Bengal coast",
+    "Godavari delta",
+    "Malabar coast"
+   ],
+   "a": 3,
+   "x": "Mahe is on the Malabar coast; Chandernagore is in Bengal and Yanam in the Godavari delta."
+  },
+  {
+   "topic": 155,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Permission for the French settlement at Chandernagore (1673) was given by:",
+   "o": [
+    "Shaista Khan",
+    "Sher Khan Lodi",
+    "Abdullah Qutb Shah",
+    "Salabat Jang"
+   ],
+   "a": 0,
+   "x": "Shaista Khan gave permission in 1673; it was settled in 1690."
+  },
+  {
+   "topic": 155,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Pondicherry was restored to the French from the Dutch by the Treaty of:",
+   "o": [
+    "Paris",
+    "Pondicherry",
+    "Ryswick",
+    "Versailles"
+   ],
+   "a": 2,
+   "x": "The Treaty of Ryswick (1697) restored Pondicherry from the Dutch; Paris (1763) restored it from the British."
+  },
+  {
+   "topic": 155,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Sher Khan Lodi, who granted the land for Pondicherry in 1673, was a governor of:",
+   "o": [
+    "Golconda",
+    "Vijayanagara",
+    "Hyderabad",
+    "Bijapur"
+   ],
+   "a": 3,
+   "x": "Sher Khan Lodi was the Bijapur governor of Valikondapuram."
+  },
+  {
+   "topic": 155,
+   "sec": 4,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which French governor obtained the right to mint rupees at Pondicherry in 1736?",
+   "o": [
+    "Francois Martin",
+    "Pierre Benoit Dumas",
+    "Dupleix",
+    "Godeheu"
+   ],
+   "a": 1,
+   "x": "Dumas (1735-41) got the right to mint rupees in 1736."
+  },
+  {
+   "topic": 155,
+   "sec": 4,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Who replaced Dupleix as French governor in 1754?",
+   "o": [
+    "Count de Lally",
+    "Dumas",
+    "Godeheu",
+    "Bussy"
+   ],
+   "a": 2,
+   "x": "Godeheu replaced Dupleix in 1754 after the Treaty of Pondicherry."
+  },
+  {
+   "topic": 155,
+   "sec": 4,
+   "angle": "6",
+   "shape": "sequence",
+   "s": "Arrange the following French governors in chronological order:\n1. Dupleix\n2. Francois Martin\n3. Godeheu\n4. Dumas",
+   "o": [
+    "2, 4, 1, 3",
+    "4, 2, 1, 3",
+    "2, 1, 4, 3",
+    "2, 4, 3, 1"
+   ],
+   "a": 0,
+   "x": "Francois Martin (died 1706), Dumas (1735-41), Dupleix (1742-54), Godeheu (1754)."
+  },
+  {
+   "topic": 155,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Dupleix received a jagir at:",
+   "o": [
+    "Valapadu",
+    "Valikondapuram",
+    "Rayachoti",
+    "Ambur"
+   ],
+   "a": 0,
+   "x": "Dupleix got the jagir of Valapadu and was made Nawab south of the Krishna."
+  },
+  {
+   "topic": 155,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Dupleix was made Nawab of the Mughal territory south of the river:",
+   "o": [
+    "Godavari",
+    "Krishna",
+    "Tungabhadra",
+    "Kaveri"
+   ],
+   "a": 1,
+   "x": "The Deccan rulers made Dupleix Nawab of the Mughal territory south of the Krishna."
+  },
+  {
+   "topic": 155,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "At Tumnapalem (1756), Bussy and Vijayaramaraju fought against:",
+   "o": [
+    "Bobbili Ranga Rao",
+    "Tandra Papayya",
+    "Anwaruddin",
+    "Jafar Ali"
+   ],
+   "a": 3,
+   "x": "Tumnapalem (1756) was Bussy and Vijayaramaraju against Jafar Ali; Bobbili (1757) was against Ranga Rao."
+  },
+  {
+   "topic": 155,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Who killed Vijayaramaraju after the Battle of Bobbili?",
+   "o": [
+    "Tandra Papayya",
+    "Bobbili Ranga Rao",
+    "Bussy",
+    "Jafar Ali"
+   ],
+   "a": 0,
+   "x": "Tandra Papayya, Ranga Rao's brother-in-law, killed Vijayaramaraju."
+  },
+  {
+   "topic": 155,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Colonel Forde captured Machilipatnam from the French in:",
+   "o": [
+    "1753",
+    "1768",
+    "1759",
+    "1788"
+   ],
+   "a": 2,
+   "x": "Machilipatnam fell to Forde in 1759; the other Circars became British in 1768 and Guntur in 1788."
+  },
+  {
+   "topic": 155,
+   "sec": 6,
+   "angle": "2,7",
+   "shape": "statements",
+   "s": "Consider the following statements about Yanam:\n1. It was the only French territory in Andhra.\n2. It stayed under French control until 1954.\n3. It was founded by the French in 1739.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Yanam (1723) was the only French territory in Andhra, French until 1954; 1739 is Karaikal."
+  },
+  {
+   "topic": 155,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Pondicherry, Karaikal, Mahe and Yanam joined India de jure in:",
+   "o": [
+    "1954",
+    "1950",
+    "1963",
+    "1962"
+   ],
+   "a": 3,
+   "x": "They joined de facto in 1954 and de jure in 1962; Chandernagore joined in 1950."
+  },
+  {
+   "topic": 155,
+   "sec": 7,
+   "angle": "7",
+   "shape": "NOT",
+   "s": "Which of the following was NOT a French enclave left after the Treaty of Paris (1763)?",
+   "o": [
+    "Karaikal",
+    "Mahe",
+    "Machilipatnam",
+    "Chandernagore"
+   ],
+   "a": 2,
+   "x": "After 1763 the French kept only Pondicherry, Karaikal, Mahe, Yanam and Chandernagore; Machilipatnam had fallen to the British in 1759."
+  }
+ ]
+}
