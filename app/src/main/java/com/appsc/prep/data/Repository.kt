@@ -211,7 +211,10 @@ class Repository(private val open: (String) -> InputStream) {
      */
     private val edition: JsonObject? by lazy { runCatching { readJson("edition.json").jsonObject }.getOrNull() }
 
-    val revision: Boolean by lazy { edition != null && (edition!!["edition"] as? JsonPrimitive)?.content !in setOf("complete", "oneliner") }
+    val revision: Boolean by lazy { edition != null && (edition!!["edition"] as? JsonPrimitive)?.content !in setOf("complete", "oneliner", "reader") }
+
+    /** APPSC Reader: the full notes for reading only (no MCQs), with simple meanings (simple.json) and markers. */
+    val reader: Boolean by lazy { (edition?.get("edition") as? JsonPrimitive)?.content == "reader" }
 
     /** APPSC Complete (the three apps in one) or APPSC One-liners (its MCQs as one-liners): the MCQs tab and due MCQs. */
     val complete: Boolean by lazy { (edition?.get("edition") as? JsonPrimitive)?.content in setOf("complete", "oneliner") }

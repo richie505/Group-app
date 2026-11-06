@@ -120,7 +120,8 @@ fun TodayScreen(nav: Nav) {
                 val log = app.store.dayLog(today)
                 if (!log.empty) {
                     Text(
-                        "Today so far: ${log.mcqs} MCQs · notes ${studyTime(log.notesSec)} · MCQs ${studyTime(log.mcqSec)}",
+                        if (app.repo.reader) "Today so far: ${studyTime(log.notesSec)} reading" else
+                            "Today so far: ${log.mcqs} MCQs · notes ${studyTime(log.notesSec)} · MCQs ${studyTime(log.mcqSec)}",
                         style = TextStyle(fontSize = 13.sp, color = C.Body),
                         modifier = Modifier.padding(top = 2.dp),
                     )
@@ -471,7 +472,7 @@ fun PlanScreen(nav: Nav) {
         out
     }
     Column(Modifier.fillMaxSize()) {
-        TopBar("90-Day Plan")
+        TopBar("${app.repo.plan.days.size}-Day Plan")
         androidx.compose.foundation.layout.BoxWithConstraints(Modifier.fillMaxSize()) {
         // a grid of days on a wide window, a list on a phone
         val cols = com.appsc.prep.ui.components.columnsFor(minOf(maxWidth, 1180.dp), 340.dp, 3)

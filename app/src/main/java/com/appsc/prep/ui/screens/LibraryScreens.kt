@@ -15,8 +15,13 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.border
+import androidx.compose.material.icons.filled.Clear
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.Edit
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.ExpandLess
@@ -373,22 +378,29 @@ fun ProgressScreen(nav: Nav) {
                     val right = mine.count { it.value }
                     val boxes: List<@Composable (Modifier) -> Unit> = listOf(
                         { m -> StatBox("$done", "subsections ${app.doneWord}", Icons.Outlined.TaskAlt, m) },
-                        { m -> StatBox("$daysDone / 90", "days completed", Icons.Outlined.CalendarMonth, m) },
+                        { m -> StatBox("$daysDone / ${app.repo.plan.days.size}", "days completed", Icons.Outlined.CalendarMonth, m) },
                         { m -> StatBox("${store.streak()}", "day streak", Icons.Outlined.LocalFireDepartment, m) },
                         { m -> StatBox("${store.saved.size}", "bookmarks", Icons.Outlined.AutoStories, m) },
+                    )
+                    val extra: List<@Composable (Modifier) -> Unit> = if (app.repo.reader) listOf(
+                        { m -> StatBox("${store.marks.size}", "markers", Icons.Outlined.Edit, m) },
+                        { m -> StatBox("${(total - done).let { (it * 0.75).toInt() / 60 }} h", "reading left", Icons.Outlined.Timer, m) },
+                    ) else listOf(
                         { m -> StatBox("$answered", "MCQs answered", Icons.Outlined.Quiz, m) },
                         { m -> StatBox(if (answered == 0) "–" else "${right * 100 / answered}%", "MCQ accuracy", Icons.Outlined.TaskAlt, m) },
                     )
                     // 2 a row on a phone, 3 on a wide window
-                    boxes.chunked(columnsFor(width, 300.dp, 3).coerceAtLeast(2)).forEach { row ->
+                    (boxes + extra).chunked(columnsFor(width, 300.dp, 3).coerceAtLeast(2)).forEach { row ->
                         Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) { row.forEach { it(Modifier.weight(1f)) } }
                         Spacer(Modifier.height(10.dp))
                     }
                 }
             }
             item {
-                HorizontalDivider(color = C.Line)
-                McqResults(nav)
+                if (!app.repo.reader) {
+                    HorizontalDivider(color = C.Line)
+                    McqResults(nav)
+                }
                 HorizontalDivider(color = C.Line)
                 StudyActivity(width)
                 HorizontalDivider(color = C.Line)
@@ -408,7 +420,7 @@ fun ProgressScreen(nav: Nav) {
                 }
             }
             item { HorizontalDivider(color = C.Line); BackupCard() }
-            item { HorizontalDivider(color = C.Line); EditsCard() }
+            if (!app.repo.reader) item { HorizontalDivider(color = C.Line); EditsCard() }
             item { Spacer(Modifier.height(24.dp)) }
         }
     }
@@ -471,13 +483,18 @@ private fun McqResults(nav: Nav) {
 @Composable
 private fun StudyActivity(width: androidx.compose.ui.unit.Dp) {
     val store = LocalApp.current.store
+    val reader = LocalApp.current.repo.reader // APPSC Reader: no MCQs
     val log = store.activity
     val today = store.dayLog()
     SectionHeader("Study activity")
     Column(Modifier.padding(horizontal = 20.dp)) {
         Text("Today", style = TextStyle(fontSize = 13.sp, color = C.Muted))
         Spacer(Modifier.height(6.dp))
-        val boxes: List<@Composable (Modifier) -> Unit> = listOf(
+        val boxes: List<@Composable (Modifier) -> Unit> = if (reader) listOf(
+            { m -> StatBox(studyTime(today.notesSec), "reading today", Icons.Outlined.AutoStories, m) },
+            { m -> StatBox("${store.marks.count { java.time.Instant.ofEpochMilli(it.time).atZone(java.time.ZoneId.systemDefault()).toLocalDate() == java.time.LocalDate.now() }}", "markers today", Icons.Outlined.Edit, m) },
+            { m -> StatBox("${store.streak()}", "day streak", Icons.Outlined.LocalFireDepartment, m) },
+        ) else listOf(
             { m -> StatBox("${today.mcqs}", "MCQs practised", Icons.Outlined.Quiz, m) },
             { m -> StatBox(studyTime(today.notesSec), "on notes", Icons.Outlined.AutoStories, m) },
             { m -> StatBox(studyTime(today.mcqSec), "on MCQs", Icons.Outlined.Timer, m) },
@@ -491,17 +508,19 @@ private fun StudyActivity(width: androidx.compose.ui.unit.Dp) {
             val all = days.values.fold(DayLog()) { a, b -> a + b }
             Spacer(Modifier.height(10.dp))
             Text(
-                "All days: ${all.mcqs} MCQs · ${studyTime(all.totalSec)} in the app (notes ${studyTime(all.notesSec)}, MCQs ${studyTime(all.mcqSec)})",
+                if (reader) "All days: ${studyTime(all.notesSec)} reading" else
+                    "All days: ${all.mcqs} MCQs · ${studyTime(all.totalSec)} in the app (notes ${studyTime(all.notesSec)}, MCQs ${studyTime(all.mcqSec)})",
                 style = TextStyle(fontSize = 13.sp, lineHeight = 19.sp, color = C.Body),
             )
             Spacer(Modifier.height(12.dp))
-            ActivityRow("Day", "MCQs", "Notes", "MCQ time", "Total", header = true)
+            if (reader) ActivityRow("Day", "", "Reading", "", "Total", header = true)
+            else ActivityRow("Day", "MCQs", "Notes", "MCQ time", "Total", header = true)
             var open by rememberSaveable { mutableStateOf<String?>(null) }
             days.entries.take(30).forEach { (d, l) ->
                 val day = runCatching { java.time.LocalDate.parse(d) }.getOrNull()
                 val date = day?.format(java.time.format.DateTimeFormatter.ofPattern("EEE, d MMM")) ?: d
                 // tap a day: what its time went on
-                ActivityRow(date, "${l.mcqs}", studyTime(l.notesSec), studyTime(l.mcqSec), studyTime(l.totalSec), open = open == d) {
+                ActivityRow(date, if (reader) "" else "${l.mcqs}", studyTime(l.notesSec), if (reader) "" else studyTime(l.mcqSec), studyTime(l.totalSec), open = open == d) {
                     open = if (open == d) null else d
                 }
                 if (open == d && day != null) SpentOn(day, null)
@@ -511,7 +530,8 @@ private fun StudyActivity(width: androidx.compose.ui.unit.Dp) {
             }
         }
         Text(
-            "Time counts while you read notes (or listen to them) and practise MCQs; it pauses after 5 minutes without use.",
+            if (reader) "Time counts while you read notes (or listen to them); it pauses after 5 minutes without use." else
+                "Time counts while you read notes (or listen to them) and practise MCQs; it pauses after 5 minutes without use.",
             style = TextStyle(fontSize = 12.sp, lineHeight = 17.sp, color = C.Muted),
             modifier = Modifier.padding(top = 10.dp, bottom = 16.dp),
         )
@@ -608,8 +628,26 @@ private fun ActivityRow(
 fun SavedScreen(nav: Nav) {
     val app = LocalApp.current
     val saved = app.store.saved
+    // APPSC Reader: bookmarks and markers
+    var showMarks by androidx.compose.runtime.saveable.rememberSaveable { mutableStateOf(false) }
     Column(Modifier.fillMaxSize()) {
         TopBar("Saved")
+        if (app.repo.reader) {
+            Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                listOf(false to "Bookmarks (${saved.size})", true to "Markers (${app.store.marks.size})").forEach { (m, label) ->
+                    Text(
+                        label,
+                        style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = if (showMarks == m) Color.White else C.Accent),
+                        modifier = Modifier.clip(RoundedCornerShape(18.dp)).background(if (showMarks == m) C.Accent else C.AccentSoft)
+                            .clickable { showMarks = m }.padding(horizontal = 14.dp, vertical = 8.dp),
+                    )
+                }
+            }
+            if (showMarks) {
+                MarkersList(nav)
+                return@Column
+            }
+        }
         if (saved.isEmpty()) {
             Column(Modifier.fillMaxSize().padding(40.dp), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
                 Icon(Icons.Filled.Bookmark, null, tint = C.Line, modifier = Modifier.size(56.dp))
@@ -643,6 +681,70 @@ fun SavedScreen(nav: Nav) {
                 }
                 HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 20.dp))
             }
+        }
+    }
+}
+
+/** APPSC Reader: every marker, newest first, filtered by colour; tap to open its page. */
+@Composable
+private fun MarkersList(nav: Nav) {
+    val app = LocalApp.current
+    val store = app.store
+    var pen by remember { mutableStateOf(-1) }
+    val pens = com.appsc.prep.data.Markers.pens
+    Row(
+        Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 4.dp),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        (listOf(-1) + pens.indices).forEach { i ->
+            val n = if (i < 0) store.marks.size else store.marks.count { it.color == i }
+            Text(
+                if (i < 0) "All $n" else "${pens[i].use} $n",
+                style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.Medium, color = if (i < 0) C.Ink else pens[i].ink),
+                modifier = Modifier.clip(RoundedCornerShape(14.dp))
+                    .background(if (i < 0) C.Surface else pens[i].fill)
+                    .border(if (pen == i) 2.dp else 0.dp, if (pen == i) C.Ink else Color.Transparent, RoundedCornerShape(14.dp))
+                    .clickable { pen = i }.padding(horizontal = 12.dp, vertical = 6.dp),
+            )
+        }
+    }
+    val shown = store.marks.filter { pen < 0 || it.color == pen }
+    if (shown.isEmpty()) {
+        Column(Modifier.fillMaxSize().padding(40.dp), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
+            Text("No markers yet", style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
+            Text(
+                "While reading, select some words and tap a colour: yellow for a key line, green for dates and numbers, " +
+                    "pink for something confusing, blue to revise again.",
+                style = TextStyle(fontSize = 14.sp, color = C.Muted),
+                modifier = Modifier.padding(top = 6.dp),
+            )
+        }
+        return
+    }
+    PageList(Modifier.fillMaxSize()) {
+        items(shown, key = { "${it.page}|${it.text}" }) { m ->
+            val p = m.page.split(':').map { it.toInt() }
+            Row(
+                Modifier.fillMaxWidth().clickable { nav.read(p[0], p[1], p[2]) }.padding(start = 20.dp, end = 4.dp, top = 12.dp, bottom = 12.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Column(Modifier.weight(1f)) {
+                    Text(
+                        m.text,
+                        style = TextStyle(fontSize = 15.sp, lineHeight = 22.sp, color = C.Ink, background = pens[m.color.coerceIn(0, pens.size - 1)].fill),
+                    )
+                    Text(
+                        "${app.repo.index[p[0] - 1].short} · ${m.title}",
+                        style = TextStyle(fontSize = 12.sp, color = C.Muted),
+                        maxLines = 1, overflow = TextOverflow.Ellipsis,
+                        modifier = Modifier.padding(top = 4.dp),
+                    )
+                }
+                androidx.compose.material3.IconButton(onClick = { store.removeMark(m) }) {
+                    Icon(androidx.compose.material.icons.Icons.Filled.Clear, "Remove marker", tint = C.Faint)
+                }
+            }
+            HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 20.dp))
         }
     }
 }

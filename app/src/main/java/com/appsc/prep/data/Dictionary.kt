@@ -28,6 +28,31 @@ class Dictionary(private val open: (String) -> InputStream) {
     }
     data class Sense(val pos: String, val definition: String, val example: String)
 
+    /** APPSC Reader: the notes' harder words in simple Indian English (assets/simple.json, tools/words_check.py). */
+    val simple: Map<String, String> by lazy {
+        runCatching {
+            (kotlinx.serialization.json.Json.parseToJsonElement(open("simple.json").bufferedReader().use { it.readText() }) as kotlinx.serialization.json.JsonObject)
+                .mapValues { (it.value as kotlinx.serialization.json.JsonPrimitive).content }
+        }.getOrDefault(emptyMap())
+    }
+
+    /** The words of [text] with a simple meaning (in their dictionary form), in order, at most [max]. */
+    fun hardWords(text: String, max: Int = 16): List<String> {
+        if (simple.isEmpty()) return emptyList()
+        val out = LinkedHashSet<String>()
+        for (m in Regex("""(?<![\w-])[a-z]{4,}(?![\w-])""").findAll(text)) {
+            candidates(m.value).firstOrNull { it in simple }?.let { out += it }
+            if (out.size >= max) break
+        }
+        return out.toList()
+    }
+
+    /** The simple meaning of [word] in any of its forms ("accords" -> accord), with the form found. */
+    fun simpleMeaning(word: String): Pair<String, String>? {
+        if (simple.isEmpty()) return null
+        return candidates(word.trim().trim { !it.isLetterOrDigit() }).firstNotNullOfOrNull { f -> simple[f]?.let { f to it } }
+    }
+
     /**
      * [word] is the form found ("government" for "governments"); [india] the Indian-context meaning,
      * [notes] the notes' own definitions, [senses] the general dictionary.
@@ -38,8 +63,10 @@ class Dictionary(private val open: (String) -> InputStream) {
         val shortForm: String? = null,
         val india: String? = null,
         val notes: List<NoteDefinition> = emptyList(),
+        /** APPSC Reader's simple meaning in Indian English. */
+        val simple: String? = null,
     ) {
-        val isEmpty get() = senses.isEmpty() && shortForm == null && india == null && notes.isEmpty()
+        val isEmpty get() = senses.isEmpty() && shortForm == null && india == null && notes.isEmpty() && simple == null
     }
 
     // the last few letter files used: (sorted lower-case keys, lines)
@@ -59,8 +86,9 @@ class Dictionary(private val open: (String) -> InputStream) {
         val indian = forms.firstNotNullOfOrNull { f -> glossary[f]?.let { f to it } }
         val fromNotes = forms.firstNotNullOfOrNull { f -> notes[f]?.let { f to it } }
         val general = forms.firstNotNullOfOrNull { f -> find(f)?.let { f to it } }
-        val word = indian?.first ?: general?.first ?: fromNotes?.first ?: raw.lowercase()
-        val entry = Entry(word, general?.second.orEmpty(), short, indian?.second, fromNotes?.second.orEmpty())
+        val easy = forms.firstNotNullOfOrNull { f -> simple[f]?.let { f to it } }
+        val word = indian?.first ?: easy?.first ?: general?.first ?: fromNotes?.first ?: raw.lowercase()
+        val entry = Entry(word, general?.second.orEmpty(), short, indian?.second, fromNotes?.second.orEmpty(), easy?.second)
         return entry.takeUnless { it.isEmpty }
     }
 

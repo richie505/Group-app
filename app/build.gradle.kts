@@ -14,8 +14,8 @@ android {
         applicationId = "com.appsc.prep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 129
-        versionName = "3.18"
+        versionCode = 130
+        versionName = "3.19"
     }
 
     signingConfigs {
@@ -67,9 +67,16 @@ android {
             versionNameSuffix = "-g2"
             resValue("string", "app_name", "APPSC Group 2")
         }
+        // APPSC Complete's full notes for reading only: no MCQs, simple meanings and markers (tools/reader_build.py)
+        create("reader") {
+            dimension = "edition"
+            applicationIdSuffix = ".reader"
+            resValue("string", "app_name", "APPSC Reader")
+        }
     }
     // its assets: APPSC Complete's, with its own MCQs, topic counts and edition (src/oneliner/assets) in their place
     sourceSets["oneliner"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/onelinerAssets")))
+    sourceSets["reader"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/readerAssets")))
     sourceSets["complete2"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/complete2Assets")))
     // APPSC Complete: its full notes, plus Complete 2.0's notes written from the MCQs as "MCQ notes" (mbook*.json)
     sourceSets["complete"].assets.srcDir(layout.buildDirectory.dir("generated/completeMcqNotes"))
@@ -160,6 +167,18 @@ val complete2Assets = tasks.register<Sync>("complete2Assets") {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 tasks.matching { it.name.contains("Complete2") }.configureEach { dependsOn(complete2Assets) }
+
+// APPSC Reader's assets: APPSC Complete's notes (no MCQs, no MCQ notes), with src/reader/assets taking precedence
+val readerAssets = tasks.register<Sync>("readerAssets") {
+    from("src/reader/assets")
+    from("src/complete/assets") {
+        include("book*.json", "keyterms.json", "plan.json", "exams.json", "empty.json", "moved.json", "notemoves.json")
+        exclude { f -> file("src/reader/assets/${f.relativePath.pathString}").exists() }
+    }
+    into(layout.buildDirectory.dir("generated/readerAssets"))
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+tasks.matching { it.name.contains("Reader") }.configureEach { dependsOn(readerAssets) }
 
 val completeMcqNotes = tasks.register<Sync>("completeMcqNotes") {
     // the MCQ notes in simple English (tools/simple_build.py), else Complete 2.0's as written

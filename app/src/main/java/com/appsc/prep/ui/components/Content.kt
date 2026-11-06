@@ -58,9 +58,13 @@ fun annotated(runs: List<Run>, base: Color = C.Body, strong: Color = Color.Black
         }
     }
 
+/** The markers on the page being shown (APPSC Reader); empty elsewhere. */
+val LocalMarks = androidx.compose.runtime.staticCompositionLocalOf<List<com.appsc.prep.data.Mark>> { emptyList() }
+
 /** Renders one content block of a subsection, scaled by [scale]. */
 @Composable
 fun BlockView(block: Block, scale: Float) {
+    val marks = LocalMarks.current
     val body = TextStyle(fontSize = (16 * scale).sp, lineHeight = (25 * scale).sp, color = C.Body)
     when (block) {
         is TableBlock -> TableView(block, scale)
@@ -74,12 +78,12 @@ fun BlockView(block: Block, scale: Float) {
                         modifier = Modifier.width(14.dp),
                     )
                     Spacer(Modifier.width(6.dp))
-                    val text = remember(block) { annotated(block.runs) }
+                    val text = remember(block, marks) { com.appsc.prep.data.Markers.apply(annotated(block.runs), marks) }
                     Text(text, style = if (sub) body.copy(fontSize = (15 * scale).sp) else body)
                 }
             }
             'h' -> {
-                val text = remember(block) { annotated(block.runs, base = C.Ink, strong = C.Ink) }
+                val text = remember(block, marks) { com.appsc.prep.data.Markers.apply(annotated(block.runs, base = C.Ink, strong = C.Ink), marks) }
                 Text(
                     text,
                     style = body.copy(fontSize = (17 * scale).sp, fontWeight = FontWeight.Bold, color = C.Ink),
@@ -98,7 +102,7 @@ fun BlockView(block: Block, scale: Float) {
                 )
             }
             else -> {
-                val text = remember(block) { annotated(block.runs) }
+                val text = remember(block, marks) { com.appsc.prep.data.Markers.apply(annotated(block.runs), marks) }
                 Text(text, style = body, modifier = Modifier.padding(vertical = 4.dp))
             }
         }
@@ -133,8 +137,9 @@ private fun Callout(runs: List<Run>, bg: Color, ink: Color, label: String?, scal
                 )
                 Spacer(Modifier.height(3.dp))
             }
+            val marks = LocalMarks.current
             Text(
-                remember(shown) { annotated(shown.map { it.copy(flags = it.flags and 2.inv()) }, base = ink, strong = ink) },
+                remember(shown, marks) { com.appsc.prep.data.Markers.apply(annotated(shown.map { it.copy(flags = it.flags and 2.inv()) }, base = ink, strong = ink), marks) },
                 style = TextStyle(fontSize = (15 * scale).sp, lineHeight = (22 * scale).sp),
             )
         }
@@ -231,8 +236,11 @@ private fun TableView(t: TableBlock, scale: Float) {
                             ) {
                                 for (c in 0 until cols) {
                                     val cell = row.getOrNull(c) ?: emptyList()
-                                    val text = remember(cell, isHead) {
-                                        if (isHead) annotated(cell.map { it.copy(flags = 1) }, strong = C.Navy) else annotated(cell)
+                                    val marks = LocalMarks.current
+                                    val text = remember(cell, isHead, marks) {
+                                        com.appsc.prep.data.Markers.apply(
+                                            if (isHead) annotated(cell.map { it.copy(flags = 1) }, strong = C.Navy) else annotated(cell), marks,
+                                        )
                                     }
                                     Text(
                                         text,

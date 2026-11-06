@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.selection.SelectionContainer
@@ -94,7 +95,13 @@ private class SelectionMenu : TextToolbar {
  * the selected word or phrase, the full form of a short form, and the notes pages whose heading mentions it.
  */
 @Composable
-fun DictionaryArea(onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit, modifier: Modifier = Modifier, content: @Composable () -> Unit) {
+fun DictionaryArea(
+    onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit,
+    modifier: Modifier = Modifier,
+    /** APPSC Reader: marks the selection in a marker colour (index in [com.appsc.prep.data.Markers.pens]), -1 takes markers off. */
+    onMark: ((text: String, color: Int) -> Unit)? = null,
+    content: @Composable () -> Unit,
+) {
     val menu = remember { SelectionMenu() }
     val clipboard = LocalClipboardManager.current
     var word by remember { mutableStateOf<String?>(null) }
@@ -113,11 +120,27 @@ fun DictionaryArea(onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit, modifie
                         word = selectedText(clipboard, menu)
                         menu.hide()
                     }
+                    if (onMark != null) {
+                        com.appsc.prep.data.Markers.pens.forEachIndexed { i, pen ->
+                            Box(
+                                Modifier.padding(horizontal = 3.dp).size(26.dp).clip(androidx.compose.foundation.shape.CircleShape)
+                                    .background(pen.fill).border(1.dp, Color.White, androidx.compose.foundation.shape.CircleShape)
+                                    .clickable {
+                                        selectedText(clipboard, menu)?.let { onMark(it, i) }
+                                        menu.hide()
+                                    },
+                            )
+                        }
+                        MenuItem("Unmark") {
+                            selectedText(clipboard, menu)?.let { onMark(it, -1) }
+                            menu.hide()
+                        }
+                    }
                     MenuItem("Copy") {
                         menu.copy?.invoke()
                         menu.hide()
                     }
-                    if (menu.selectAll != null) MenuItem("Select all") { menu.selectAll?.invoke() }
+                    if (menu.selectAll != null && onMark == null) MenuItem("Select all") { menu.selectAll?.invoke() }
                 }
             }
         }
@@ -210,7 +233,7 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
             }
             Column(Modifier.verticalScroll(rememberScrollState()).padding(end = 12.dp)) {
                 val e = entry
-                val general = e?.senses?.isNotEmpty() == true || e?.india != null
+                val general = e?.senses?.isNotEmpty() == true || e?.india != null || e?.simple != null
                 Text(
                     if (general) e!!.word.replaceFirstChar { it.uppercase() } else about?.first ?: text.trim(),
                     style = TextStyle(fontSize = 22.sp, fontWeight = FontWeight.Bold, color = C.Navy),
@@ -230,6 +253,10 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
                         style = TextStyle(fontSize = 15.sp, color = C.Muted), modifier = Modifier.padding(top = 8.dp),
                     )
                     else -> {
+                        e?.simple?.let {
+                            Heading("SIMPLE MEANING", C.Green)
+                            Text(it.replaceFirstChar { c -> c.uppercase() }, style = TextStyle(fontSize = 18.sp, lineHeight = 25.sp, fontWeight = FontWeight.Medium, color = C.Ink))
+                        }
                         e?.india?.let {
                             Heading("IN INDIAN CONTEXT", C.ExamInk)
                             Text(it, style = TextStyle(fontSize = 16.sp, lineHeight = 23.sp, color = C.Body))
@@ -244,7 +271,7 @@ private fun MeaningCard(text: String, onOpenNotes: (Int, Int, Int) -> Unit, onCl
                         }
                         if (e != null && e.senses.isNotEmpty()) {
                             // with an Indian meaning above, two general senses are enough
-                            val shown = if (e.india != null || fromNotes.isNotEmpty()) e.senses.take(2) else e.senses
+                            val shown = if (e.india != null || e.simple != null || fromNotes.isNotEmpty()) e.senses.take(2) else e.senses
                             Heading("DICTIONARY", C.Accent)
                             shown.forEachIndexed { i, s ->
                                 if (i > 0) Spacer(Modifier.height(8.dp))

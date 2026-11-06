@@ -344,7 +344,16 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                 }
                 androidx.compose.material3.VerticalDivider(color = C.Line)
             }
-            DictionaryArea({ b, r, s -> nav.read(b, r, s) }, Modifier.weight(1f).fillMaxHeight()) {
+            // APPSC Reader: markers on the selection, shown on the page
+            val reader = app.repo.reader
+            val onMark: ((String, Int) -> Unit)? = if (!reader) null else { text, color ->
+                com.appsc.prep.data.Markers.pieces(text).forEach { piece ->
+                    if (color < 0) store.clearMarks(id, piece) else store.addMark(id, piece, color, sec.title, row.title)
+                }
+            }
+            val pageMarks = if (reader) store.marks.filter { it.page == id } else emptyList()
+            androidx.compose.runtime.CompositionLocalProvider(com.appsc.prep.ui.components.LocalMarks provides pageMarks) {
+            DictionaryArea({ b, r, s -> nav.read(b, r, s) }, Modifier.weight(1f).fillMaxHeight(), onMark = onMark) {
                 PageList(Modifier.fillMaxSize(), state = listState, max = 880.dp) {
                     item(key = "head-$id") {
                         Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 18.dp)) {
@@ -431,6 +440,35 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                             if (sec.coveredIn.isNotEmpty()) {
                                 CoveredIn(sec.coveredIn) { b, r, s -> nav.read(b, r, s) }
                                 Spacer(Modifier.height(16.dp))
+                            }
+                            // APPSC Reader: the page's harder words, tap for the simple meaning
+                            if (reader) {
+                                val words = remember(id) { app.repo.dictionary.hardWords(plainText(sec.title, sec.blocks)) }
+                                if (words.isNotEmpty()) {
+                                    Text("WORDS TO KNOW", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Green, letterSpacing = 0.8.sp))
+                                    Spacer(Modifier.height(8.dp))
+                                    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                                        words.forEach { w ->
+                                            Text(
+                                                w,
+                                                style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = C.Green),
+                                                modifier = Modifier
+                                                    .clip(RoundedCornerShape(16.dp))
+                                                    .background(C.GreenSoft)
+                                                    .clickable { keyTerm = w }
+                                                    .padding(horizontal = 12.dp, vertical = 7.dp),
+                                            )
+                                        }
+                                    }
+                                    Spacer(Modifier.height(16.dp))
+                                }
+                                if (pageMarks.isNotEmpty()) {
+                                    Text(
+                                        "${pageMarks.size} marker${if (pageMarks.size == 1) "" else "s"} on this page · Saved tab lists them all",
+                                        style = TextStyle(fontSize = 13.sp, color = C.Muted),
+                                    )
+                                    Spacer(Modifier.height(16.dp))
+                                }
                             }
                             // key terms of this page: tap for the meaning
                         val terms = app.repo.keyTerms[id].orEmpty()
@@ -565,6 +603,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     }
                 }
             }
+            } // markers
             }
         }
 

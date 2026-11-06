@@ -287,6 +287,34 @@ class ProgressStore(private val prefs: Storage) {
         return attempted to correct
     }
 
+    /** Markers on the notes (APPSC Reader), newest first. */
+    var marks by mutableStateOf(prefs.getStringSet(KEY_MARKS).mapNotNull { Mark.decode(it) }.sortedByDescending { it.time })
+        private set
+
+    private fun saveMarks() = prefs.putStringSet(KEY_MARKS, marks.map { it.encode() }.toSet())
+
+    fun marksOn(page: String) = marks.filter { it.page == page }
+
+    /** Marks [text] on [page] in [color]; marking the same words again changes their colour. */
+    fun addMark(page: String, text: String, color: Int, title: String, rowTitle: String, now: Long = System.currentTimeMillis()) {
+        val t = text.trim()
+        if (t.length < 2) return
+        marks = listOf(Mark(page, t, color, now, title, rowTitle)) + marks.filterNot { it.page == page && it.text == t }
+        saveMarks()
+    }
+
+    /** Takes off every marker on [page] that overlaps [text] (or all of them on the page for null). */
+    fun clearMarks(page: String, text: String? = null) {
+        val t = text?.trim()
+        marks = marks.filterNot { m -> m.page == page && (t == null || m.text.contains(t) || t.contains(m.text)) }
+        saveMarks()
+    }
+
+    fun removeMark(mark: Mark) {
+        marks = marks - mark
+        saveMarks()
+    }
+
     fun isSaved(id: String) = saved.any { it.id == id }
 
     fun toggleSaved(item: Saved) {
@@ -429,6 +457,7 @@ class ProgressStore(private val prefs: Storage) {
         set("noteRounds", noteRounds)
         set("added", added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" })
         set("edits", edits.map { (k, v) -> v.encode(k) })
+        set("marks", marks.map { it.encode() })
         lastRead?.let { put("last", kotlinx.serialization.json.JsonPrimitive(it)) }
         put("device", kotlinx.serialization.json.JsonPrimitive(device))
         set("log", ownLog.map { (d, l) -> "$device\t$d\t${l.encode()}" } + encodeOthers())
@@ -527,6 +556,13 @@ class ProgressStore(private val prefs: Storage) {
             prefs.putStringSet(KEY_EDITS, edits.map { (k, v) -> v.encode(k) }.toSet())
         }
 
+        // markers: the backup's are added (the same words on the same page take the backup's colour)
+        val inMarks = list("marks").mapNotNull { Mark.decode(it) }.map { it.copy(page = id(it.page)) }
+        if (inMarks.isNotEmpty()) {
+            marks = (inMarks + marks.filterNot { m -> inMarks.any { it.page == m.page && it.text == m.text } }).sortedByDescending { it.time }
+            saveMarks()
+        }
+
         // other devices' activity logs; this device's own log here is always the newest
         val inLogs = decodeOthers(list("log")).filterKeys { it != device }
         if (inLogs.isNotEmpty()) {
@@ -580,6 +616,7 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_IDS = "ids_version"
         const val KEY_ADDED = "added_notes"
         const val KEY_EDITS = "mcq_edits"
+        const val KEY_MARKS = "marks"
         const val BACKUP_APP = "APPSC Prep backup"
         const val KEY_BACKUP = "last_backup"
         const val KEY_DEVICE = "device_id"
