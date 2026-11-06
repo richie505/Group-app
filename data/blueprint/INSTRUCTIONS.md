@@ -36,6 +36,9 @@ Output: `data/blueprint/out/<unit>.md`, one unit in exactly the model unit's mar
 - The last line is `COVERAGE: 1>1.1,2; 2>3; ...`: every keyword number and the section(s) covering it.
 - Begin with `## <unit> | <TITLE IN CAPITALS>`.
 
-Also add, after the COVERAGE line, one line `WEB: <n>` with the number of facts you added from web search.
+Also add, after the COVERAGE line, one line `WEB: <n>` with the number of facts you added from web search, and,
+when a keyword angle stays uncovered because web search failed or was unavailable, one line
+`GAPS: <keyword numbers>` (for example `GAPS: 8, 12`) so it can be filled later; and, for each fixed fact where the packet gave two values and you could not look
+it up, one line `CHECK: <fact>: <value used> vs <other value>`.
 
 When you finish, run `python3 tools/blueprint_check.py <unit>` and fix every problem it lists.
