@@ -160,7 +160,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                     }
                 }
                 HorizontalDivider(color = C.Line)
-                SectionHeader("Subsections (${shown.size})")
+                SectionHeader(if (app.repo.reader) "Full notes · ${shown.size} pages" else "Subsections (${shown.size})")
             }
             itemsIndexed(row.secs) { i, s ->
                 if (s.empty) return@itemsIndexed

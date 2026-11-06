@@ -136,10 +136,10 @@ class ReaderTest {
 
     private fun marked(): AppState {
         val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
-        app.store.addMark("4:0:0", "Hottest = Venus, not Mercury", 0, "Basics & units", "Universe")
-        app.store.addMark("4:0:0", "13.8 billion years", 1, "Basics & units", "Universe")
-        app.store.addMark("4:0:0", "failed to clear its orbit", 2, "Basics & units", "Universe")
-        app.store.addMark("4:0:0", "parsec = 3.26 light years", 3, "Basics & units", "Universe")
+        app.store.addMark("4:0:0", "The Solar System is centred on the Sun", 0, "Universe basics", "Universe")
+        app.store.addMark("4:0:0", "4.6 billion years old", 1, "Universe basics", "Universe")
+        app.store.addMark("4:0:0", "Gravity keeps bodies in orbit", 2, "Universe basics", "Universe")
+        app.store.addMark("4:0:0", "Pluto reclassified as a dwarf planet in 2006 by the IAU", 3, "Universe basics", "Universe")
         return app
     }
 
@@ -164,6 +164,8 @@ class ReaderTest {
     @Test fun shotNotes() { shot("3_notes") { BooksScreen(nav) } }
     @Test fun shotSubject() { shot("4_subject") { ExamSubjectScreen(0, 0, nav) } }
     @Test fun shotTopic() { shot("5_topic") { SectionScreen(1, 0, nav) } }
+    @Config(sdk = [34], qualifiers = "w400dp-h2600dp-xxhdpi")
+    @Test fun shotTopicWhole() { shot("5_topic_whole") { SectionScreen(1, 0, nav) } }
     @Test fun shotTopicGeo() { shot("5b_topic") { SectionScreen(4, 0, nav) } }
     @Test fun shotPage() { shot("6_page") { ReaderScreen(4, 0, 1, nav) } }
     @Test fun shotProgress() { shot("7_progress") { ProgressScreen(nav) } }
