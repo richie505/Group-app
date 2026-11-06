@@ -1,0 +1,372 @@
+{
+ "restore": [
+  {
+   "id": "n922698cdcb2",
+   "why": "different form: single-answer recall of Player of the Tournament; ca4b29cc35c81b asks a paired option"
+  },
+  {
+   "id": "f9653a94e1cbf",
+   "why": "same fact from the other direction: ca938cd0cba946 is a NOT-correct item with 'fourth time' as the trap"
+  },
+  {
+   "id": "cab9a8451538a3",
+   "why": "key fixed: the medal breakdown only restates the total; it does not explain topping the table",
+   "fix": {
+    "a": 1,
+    "x": "Both are true: India topped the World Para Athletics Grand Prix 2026 (New Delhi) with 208 medals, made up of 75 gold, 69 silver and 64 bronze. But R only breaks down the tally; it does not explain why India topped the table (that depends on ranking against other nations, e.g. Russia with 35 medals). So R is not the correct explanation of A."
+   }
+  },
+  {
+   "id": "ne33ea5043e1",
+   "why": "other direction: asks the athlete given the time; ca48aac5021043 asks the time given the athlete"
+  },
+  {
+   "id": "fb5d43013201a",
+   "why": "stem reworded so the sport is not given away",
+   "fix": {
+    "s": "Abhay Singh, named Asia's Best Male Player 2025, plays which sport?",
+    "x": "Abhay Singh is a squash player, named Asia's Best Male Player 2025 by the Asia Squash Federation; Anahat Singh won Best Female (Junior) and India's boys' team won Best Team."
+   }
+  },
+  {
+   "id": "fb160e6dfb228",
+   "why": "other direction: asks the sport (hockey); cadcda84370b3c only says the tour was not football"
+  },
+  {
+   "id": "ca24dc5457bcc1",
+   "why": "stem date fixed to August 2025; asks who won, while f54103f700092 asks her hometown",
+   "fix": {
+    "s": "Who won the gold medal in the 69 kg (Youth girls) category at the Commonwealth Weightlifting Championships 2025 held in Ahmedabad in August 2025?",
+    "x": "Juhita Guna (14), from Rajamahendravaram, Andhra Pradesh, won gold in the 69 kg category at the Commonwealth Weightlifting Championships 2025 in Ahmedabad (28 August 2025). Ragala Venkat Rahul, Santoshi Matsa and Gurunaidu Sanapathi are other Andhra Pradesh weightlifters."
+   }
+  },
+  {
+   "id": "fc6bd031bcf6b",
+   "why": "other direction: asks the U-20 champion directly; ca01c52ec3a3e0 only gives a false U-20 trap"
+  },
+  {
+   "id": "f93c23e645b00",
+   "why": "other direction: asks the Sports Cities; caeda508a37afa only gives a false pair"
+  },
+  {
+   "id": "nbf9c5b402e2",
+   "why": "different option set: also tests runner-up Gujarat Titans and second successive title"
+  },
+  {
+   "id": "cacfce43695ed5",
+   "why": "other direction and wider: NOT-correct item also teaches the 2026 Tentative List additions; f4c3b6778fd4a only asks the year"
+  },
+  {
+   "id": "ca41a09c8d8533",
+   "why": "stem reworded so the city is not given away",
+   "fix": {
+    "s": "Under India's BRICS Chairship 2026, the BRICS Tourism Ministers' Meeting was held in which city?",
+    "x": "The BRICS Tourism Ministers' Meeting was held in Jaipur and adopted the Jaipur Declaration."
+   }
+  },
+  {
+   "id": "f5b516152c7c4",
+   "why": "different format and option set: direct author question also separates the author from the releaser C.P. Radhakrishnan"
+  },
+  {
+   "id": "caee71ca6bb45d",
+   "why": "different option set: NOT-correct item also covers World Youth Skills Day theme and Mandela Day date"
+  },
+  {
+   "id": "fb86216cf4f6c",
+   "why": "different angle: asks the place (Bhognadih); ca2d10a3260b0c only says it was not Ranchi"
+  },
+  {
+   "id": "cade9f6c6c3393",
+   "why": "key fixed: replaced the one-day-shift trap with a clear factual error about Hemis' location",
+   "fix": {
+    "o": [
+     "Ambubachi Mela was held from 22–26 June at Kamakhya Temple, Guwahati",
+     "Kamakhya Temple, venue of Ambubachi Mela, is one of the 51 Shakti Peethas",
+     "Hemis Festival was held at Hemis Monastery in Sikkim",
+     "Raja Parba was observed in Odisha from 14–16 June"
+    ],
+    "a": 2,
+    "x": "Hemis Festival (Hemis Tsechu, 24–25 June 2026) is held at Hemis Monastery near Leh, Ladakh, not Sikkim; it marks Guru Padmasambhava's birth anniversary. The other statements are correct."
+   }
+  },
+  {
+   "id": "fda8ae3f56780",
+   "why": "other direction: direct question on who formed the INA; ca6d53bdba5f02 is a NOT-correct item"
+  },
+  {
+   "id": "cad2fb387d6551",
+   "why": "key fixed: replaced the arguable language option with a clearly false statement (national song, not anthem)",
+   "fix": {
+    "o": [
+     "It was authored by Bankim Chandra Chattopadhyay.",
+     "It appeared in the novel Anandamath.",
+     "It was popularised during the Swadeshi agitation of 1905.",
+     "It was adopted as the National Anthem of India."
+    ],
+    "a": 3,
+    "x": "Vande Mataram, by Bankim Chandra Chattopadhyay, appeared in Anandamath (1882) and became popular during the Swadeshi agitation of 1905. It was adopted as the National Song (24 January 1950), not the National Anthem, which is Jana Gana Mana."
+   }
+  },
+  {
+   "id": "caed51b52ae986",
+   "why": "other direction: NOT-correct form of f2e9e02b0181e"
+  },
+  {
+   "id": "fe0f62149c208",
+   "why": "different angle: asks the year 1755; ca59e6044ccc50 asks the gap of 271 years"
+  },
+  {
+   "id": "cad608876d0212",
+   "why": "key fixed to 44 (notes: 44 WHS as of January 2026)",
+   "fix": {
+    "a": 3,
+    "x": "As of January 2026, India has 44 World Heritage Sites (Moidams of Assam added in 2024 as the 43rd, Maratha Military Landscapes in 2025 as the 44th) under the World Heritage Convention of 1972."
+   }
+  },
+  {
+   "id": "n58a9e52591f",
+   "why": "other direction: asks what the day marks; cad494c43cd91e asks the name of the day"
+  },
+  {
+   "id": "ff73cd5061ae6",
+   "why": "option fixed: removed 'Beat Plastic Pollution' (the campaign slogan) so only the theme is right",
+   "fix": {
+    "o": [
+     "Our Land. Our Future.",
+     "Ending Plastic Pollution",
+     "Only One Earth",
+     "Cooperatives Build a Better World"
+    ],
+    "a": 1,
+    "x": "World Environment Day 2025 (5 June, hosted by the Republic of Korea) had the theme 'Ending Plastic Pollution' (campaign hashtag #BeatPlasticPollution). 'Our Land. Our Future.' was the 2024 theme and 'Only One Earth' the 2022 theme."
+   }
+  },
+  {
+   "id": "ca88e1a9d2e943",
+   "why": "different option set: pair-match also teaches Literacy Day 2025 and the first Swachha Andhra Awards"
+  },
+  {
+   "id": "ca577ffad94216",
+   "why": "different angle: asks where he was sworn in (ITLOS seat Hamburg) vs which body elected him"
+  },
+  {
+   "id": "ff732630e151f",
+   "why": "record: Kami Rita Sherpa's 32nd ascent is the men's Everest summit record"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "cae1d359b2c29a",
+   "why": "trivia: venue of a minor association's AGM"
+  },
+  {
+   "id": "n5322fc01858",
+   "why": "exact repeat of n4ac2ac9da48 (same option set, same answer Vaishali) plus cae140290e471e"
+  },
+  {
+   "id": "fbeb613ab98a0",
+   "why": "trivia: serial member number in IWGA"
+  },
+  {
+   "id": "ndbb0b0f05f7",
+   "why": "exact repeat of n1ffce44635c (same stem idea, same answer: first quadruple amputee to win an international gold)"
+  },
+  {
+   "id": "ndd54c0f7888",
+   "why": "exact repeat of ca72beff8d84f8 (same stem, same answer Norway)"
+  },
+  {
+   "id": "cab29259c70f07",
+   "why": "trivia: venue of a 2024 national powerlifting meet"
+  },
+  {
+   "id": "ca8baaabbabf86",
+   "why": "trivia: mentor of a planned academy (minor person)"
+  },
+  {
+   "id": "caccad5555949d",
+   "why": "trivia: number of matches in a district kabaddi meet"
+  },
+  {
+   "id": "nf0f98809ef3",
+   "why": "exact repeat of faa0fec4b859b (same fact: Chandrika Pujari's gold at Futures Cup Bangkok)"
+  },
+  {
+   "id": "n1122c0754d9",
+   "why": "exact repeat of PYQ yfe7bfe6d338 (same stem and answer Nis, Serbia)"
+  },
+  {
+   "id": "nbf0bee9051d",
+   "why": "exact repeat of PYQ y7b14ffaeba8 (same stem and answer Bihar)"
+  },
+  {
+   "id": "f442dab90ff93",
+   "why": "off-syllabus: US-only observance"
+  },
+  {
+   "id": "ca3b315ffb5cac",
+   "why": "trivia: number of plays at a festival"
+  },
+  {
+   "id": "ca2efce126f780",
+   "why": "off-syllabus: grid operator of a Belgian energy island"
+  },
+  {
+   "id": "cnbff651ae2e76",
+   "why": "exact repeat of ca47532f8774b8 (same stem and answer)"
+  },
+  {
+   "id": "cn40b8886b02b3",
+   "why": "trivia: rupee denominations of stamps"
+  },
+  {
+   "id": "cnc0287f18d673",
+   "why": "trivia: venue of a stamp release"
+  },
+  {
+   "id": "cnec391c0942cb",
+   "why": "trivia: percentage rise in word usage (the word itself is asked elsewhere)"
+  },
+  {
+   "id": "caa901d797dbbb",
+   "why": "trivia: who inaugurated a local boat race"
+  },
+  {
+   "id": "ca15c0bd504410",
+   "why": "trivia: planned plant capacity figure"
+  },
+  {
+   "id": "ca90ebf031731a",
+   "why": "trivia: 3 vs 4 minutes duration of a minor record"
+  },
+  {
+   "id": "caef7f212706f5",
+   "why": "trivia: number of indicators in a rating"
+  },
+  {
+   "id": "caa0667579be26",
+   "why": "trivia: department that drafted a Telangana SOP"
+  },
+  {
+   "id": "ca3ab0c3b8214e",
+   "why": "off-syllabus: foreign local item with answer in stem"
+  },
+  {
+   "id": "ca546c59fc6646",
+   "why": "trivia: village of a first registration in Telangana"
+  },
+  {
+   "id": "nbc1ee98970a",
+   "why": "exact repeat of PYQ yeba90e3c408 (same stem and answer)"
+  },
+  {
+   "id": "ca5d73e06e4419",
+   "why": "trivia: names of parade camels"
+  },
+  {
+   "id": "caabca9b8b2348",
+   "why": "trivia: speed band of a musical road"
+  },
+  {
+   "id": "caec5600ee0a0a",
+   "why": "trivia: ward count of Independents"
+  },
+  {
+   "id": "ca69ed5a18c149",
+   "why": "trivia: count of services"
+  },
+  {
+   "id": "caffa6cfc50443",
+   "why": "trivia: exact date of a district conclave"
+  },
+  {
+   "id": "ca3b5e09ca8ab3",
+   "why": "trivia: name of the person who inspected an inscription"
+  },
+  {
+   "id": "n7b080fd680a",
+   "why": "trivia/no exam value: routine observances, strawman statement"
+  },
+  {
+   "id": "ca248735967c81",
+   "why": "trivia: chairman of a Telangana tribunal (minor official)"
+  },
+  {
+   "id": "cad7515ba3b8de",
+   "why": "trivia: count of scientists on a list"
+  },
+  {
+   "id": "cnd5c2e2e9b17c",
+   "why": "trivia: degree year of an obituary subject"
+  },
+  {
+   "id": "faaf32e0b05c1",
+   "why": "trivia: vote percentage, already covered by f3cca5691dbb7"
+  },
+  {
+   "id": "fefd7341c8e4b",
+   "why": "exact repeat of n543abbaa204 (same three Cabinet Secretary statements)"
+  },
+  {
+   "id": "f83ae29c38a01",
+   "why": "off-syllabus/trivia: edition number of US Spelling Bee"
+  },
+  {
+   "id": "ca219fbac77e57",
+   "why": "trivia: committee reporting deadline"
+  },
+  {
+   "id": "f609c2426646c",
+   "why": "trivia: member count, given in ca20707f3674a1's stem"
+  },
+  {
+   "id": "fa9d1605a0911",
+   "why": "trivia: count of Indian names on a list"
+  },
+  {
+   "id": "f63bfec9c293d",
+   "why": "trivia: UNGA vote count, covered by ca5be1901871e5"
+  },
+  {
+   "id": "ffe99035c3950",
+   "why": "trivia: term length of a UN committee member"
+  },
+  {
+   "id": "f8867ac67c1f3",
+   "why": "trivia: number of climbers in a day"
+  },
+  {
+   "id": "f17d61e835c4d",
+   "why": "trivia: release date of a list"
+  },
+  {
+   "id": "fc57ed282867b",
+   "why": "trivia: years of an obituary subject's nomination"
+  },
+  {
+   "id": "ca6e153685ab04",
+   "why": "trivia: IPS batch and cadre"
+  },
+  {
+   "id": "ca4b3d55b0f931",
+   "why": "trivia: ordinal of NCAER DG"
+  },
+  {
+   "id": "fb9a11b518b19",
+   "why": "trivia: section number for a minor advisory committee"
+  },
+  {
+   "id": "f3a7fddb161ff",
+   "why": "trivia: term count of an export council chairman"
+  },
+  {
+   "id": "f8d0bf6eb8790",
+   "why": "trivia: cause of death of a canonised saint"
+  },
+  {
+   "id": "na3ca6775f85",
+   "why": "trivia: exact runs scored (honours board MCQ f2f57fd98d504 kept)"
+  }
+ ]
+}
