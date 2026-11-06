@@ -26,22 +26,32 @@ def bank():
     for f in sorted(glob.glob("data/pyq/keys/out/*.json")):
         keys.update(json.load(open(f)))
     src = open("data/pyq/all.jsonl") if os.path.exists("data/pyq/all.jsonl") else gzip.open("data/pyq/all.jsonl.gz", "rt")
+    stem = lambda t: re.sub(r"[^a-z0-9]", "", t.lower())[:80]
+    lines, seen = [], {}
     for line in src:
-        k = keys.get(line[8:40].split('"')[0]) if keys else None
-        if k is not None:
-            q = json.loads(line)
-            if q.get("a", -1) < 0 and isinstance(k.get("a"), int) and 0 <= k["a"] <= 3:
-                q["a"], q["keyed"] = k["a"], k.get("how", "")
-                line = json.dumps(q, ensure_ascii=False)
-        yield line
+        q = json.loads(line)
+        k = keys.get(q["id"])
+        if k is not None and q.get("a", -1) < 0 and isinstance(k.get("a"), int) and 0 <= k["a"] <= 3:
+            q["a"], q["keyed"] = k["a"], k.get("how", "")
+        lines.append(q)
+        seen.setdefault(stem(q.get("s", "")), q)
     for f in sorted(glob.glob("data/pyq/new/*.jsonl")):
         if os.path.basename(f) in NOT_NEW:
             continue
         for line in open(f):
-            if line.strip():
-                q = json.loads(line)
-                q["new"] = 1
-                yield json.dumps(q, ensure_ascii=False)
+            if not line.strip():
+                continue
+            q = json.loads(line)
+            was = seen.get(stem(q["s"]))
+            if was is not None and len(stem(q["s"])) >= 30:  # already in the bank: give it the key if it had none
+                if was.get("a", -1) < 0 <= q["a"] and sorted(map(stem, was.get("o", []))) == sorted(map(stem, q["o"])):
+                    was["a"], was["keyed"] = [stem(o) for o in was["o"]].index(stem(q["o"][q["a"]])), q["id"]
+                continue
+            q["new"] = 1
+            seen[stem(q["s"])] = q
+            lines.append(q)
+    for q in lines:
+        yield json.dumps(q, ensure_ascii=False)
 
 
 # read but not added: a key-only official PDF (no wrong options printed), a book of one-line facts
