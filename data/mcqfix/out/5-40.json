@@ -198,16 +198,16 @@
    "topic": 120,
    "sec": 3,
    "angle": "1",
-   "shape": "one-liner",
-   "s": "In ASHA, the expansion 'Accredited Social Health Activist' identifies a worker who functions at the:",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
    "o": [
-    "Village level",
-    "Block level",
-    "District level",
-    "State level"
+    "JSSK – Cash for institutional delivery",
+    "RKSK – Children aged 0–5 years",
+    "Mobile Academy – Weekly audio messages to mothers",
+    "JSY – Cash for institutional delivery"
    ],
-   "a": 0,
-   "x": "ASHA is a village-level community health worker who, with the ANM, links rural households to the health system."
+   "a": 3,
+   "x": "JSY gives cash for institutional delivery. JSSK gives free delivery, RKSK covers adolescents of 10–19 years, and Mobile Academy is an audio course for ASHAs (Kilkari sends messages to mothers)."
   },
   {
    "topic": 120,
@@ -453,16 +453,16 @@
    "topic": 120,
    "sec": 9,
    "angle": "8",
-   "shape": "one-liner",
-   "s": "The headquarters of the World Health Organization is at:",
+   "shape": "statements",
+   "s": "Consider the following statements about the World Health Organization:\n1. Its headquarters is at Geneva.\n2. Its membership reached 194 in 2013.\n3. The second term of its Director-General ends in 2025.\nWhich of the statements given above is/are correct?",
    "o": [
-    "New York",
-    "Geneva",
-    "Vienna",
-    "Paris"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 1,
-   "x": "WHO is headquartered in Geneva."
+   "a": 0,
+   "x": "WHO is at Geneva and has had 194 members since 2013. Tedros's second term ends on 15 August 2027, not 2025."
   },
   {
    "topic": 120,
@@ -531,28 +531,28 @@
    "shape": "one-liner",
    "s": "In HIV services, ICTC stands for:",
    "o": [
-    "Integrated Counselling and Testing Centre",
     "Integrated Care and Treatment Centre",
     "Intensive Counselling and Treatment Centre",
-    "Integrated Community Testing Centre"
+    "Integrated Community Testing Centre",
+    "Integrated Counselling and Testing Centre"
    ],
-   "a": 0,
+   "a": 3,
    "x": "ICTC is the Integrated Counselling and Testing Centre, offering free, voluntary testing with counselling."
   },
   {
    "topic": 121,
    "sec": 5,
    "angle": "1",
-   "shape": "one-liner",
-   "s": "The Red Ribbon Express, an HIV/AIDS project, is:",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
    "o": [
-    "A helpline",
-    "An awareness train",
-    "A testing kit",
-    "A drug-supply scheme"
+    "AVAHAN – Government HIV testing centres",
+    "Red Ribbon Express – HIV/AIDS awareness train",
+    "ELISA – Licensed HIV vaccine",
+    "Zidovudine – HIV screening test"
    ],
    "a": 1,
-   "x": "The Red Ribbon Express is an HIV/AIDS awareness train."
+   "x": "The Red Ribbon Express is an awareness train. AVAHAN is a Gates Foundation prevention initiative, ELISA is a screening test (no HIV vaccine is licensed) and Zidovudine is an anti-retroviral drug."
   },
   {
    "topic": 121,
@@ -576,12 +576,12 @@
    "shape": "one-liner",
    "s": "The first WHO-approved malaria vaccine, RTS,S/AS01 (Mosquirix), was developed by:",
    "o": [
-    "GSK",
     "Serum Institute of India",
     "Bharat Biotech",
-    "Oxford Jenner Institute"
+    "Oxford Jenner Institute",
+    "GSK"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Mosquirix is by GSK; R21/Matrix-M is by Oxford's Jenner Institute with the Serum Institute."
   },
   {
@@ -633,16 +633,16 @@
    "topic": 121,
    "sec": 2,
    "angle": "3",
-   "shape": "one-liner",
-   "s": "India was certified free of Guinea worm in:",
+   "shape": "match",
+   "s": "Which of the following pairs is INCORRECTLY matched?",
    "o": [
-    "1977",
-    "1995",
-    "2000",
-    "2016"
+    "Guinea worm certified free – 2000",
+    "Yaws declared free – 2016",
+    "Pulse Polio launched – 1995",
+    "India smallpox-free – 2014"
    ],
-   "a": 2,
-   "x": "Guinea worm freedom was certified in 2000; Yaws was declared free in 2016."
+   "a": 3,
+   "x": "India became smallpox-free in 1977; 2014 is the polio-free certification year."
   },
   {
    "topic": 121,
@@ -726,12 +726,12 @@
    "shape": "one-liner",
    "s": "The National Sickle Cell Anaemia Elimination Mission was launched on 1 July 2023 at:",
    "o": [
-    "Shahdol",
     "Ranchi",
     "Bastar",
-    "Varanasi"
+    "Varanasi",
+    "Shahdol"
    ],
-   "a": 0,
+   "a": 3,
    "x": "It was launched on 1 July 2023 at Shahdol, Madhya Pradesh, with a tribal focus."
   },
   {
@@ -783,16 +783,16 @@
    "topic": 121,
    "sec": 7,
    "angle": "6",
-   "shape": "one-liner",
-   "s": "The National Goitre Control Programme was launched in:",
+   "shape": "statements",
+   "s": "Consider the following statements about nutrition-related programmes:\n1. The National Goitre Control Programme was launched in 1962.\n2. Vitamin A prophylaxis against nutritional blindness began in 1992.\nWhich of the statements given above is/are correct?",
    "o": [
-    "1962",
-    "1970",
-    "1982",
-    "1992"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 0,
-   "x": "The National Goitre Control Programme began in 1962 and was renamed NIDDCP in 1992."
+   "x": "The Goitre programme began in 1962. Vitamin A prophylaxis began in 1970; 1992 is when the Goitre programme was renamed NIDDCP."
   },
   {
    "topic": 121,
@@ -846,12 +846,12 @@
    "shape": "one-liner",
    "s": "NP-NCD was earlier known as:",
    "o": [
-    "NPCDCS",
     "NVBDCP",
     "NTEP",
-    "IDSP"
+    "IDSP",
+    "NPCDCS"
    ],
-   "a": 0,
+   "a": 3,
    "x": "NP-NCD was earlier NPCDCS; it uses population-based screening to find high-risk people and link them to care."
   },
   {
@@ -876,12 +876,12 @@
    "shape": "one-liner",
    "s": "The main approach of NP-NCD is:",
    "o": [
-    "Population-based screening to find high-risk people",
     "Mass drug administration",
     "Indoor residual spraying",
-    "Contact tracing for outbreaks"
+    "Contact tracing for outbreaks",
+    "Population-based screening to find high-risk people"
    ],
-   "a": 0,
+   "a": 3,
    "x": "NP-NCD uses population-based screening to identify high-risk people and link them to care."
   },
   {
@@ -891,28 +891,28 @@
    "shape": "one-liner",
    "s": "India's first mental health programme, the NMHP, was launched in:",
    "o": [
-    "1982",
     "1987",
     "2017",
-    "2022"
+    "2022",
+    "1982"
    ],
-   "a": 0,
+   "a": 3,
    "x": "NMHP began in 1982; the Mental Health Act came in 1987 and Tele-MANAS in 2022."
   },
   {
    "topic": 121,
    "sec": 9,
    "angle": "8",
-   "shape": "one-liner",
-   "s": "The Mental Healthcare Act, 2017 repealed the Mental Health Act of:",
+   "shape": "statements",
+   "s": "Consider the following statements about the Mental Healthcare Act, 2017:\n1. It decriminalised suicide.\n2. It repealed the Mental Health Act, 1987.\n3. It restricted electroconvulsive therapy (ECT).\nWhich of the statements given above is/are correct?",
    "o": [
-    "1982",
-    "1987",
-    "1992",
-    "2002"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 1,
-   "x": "The Mental Healthcare Act, 2017 repealed the 1987 Act."
+   "a": 3,
+   "x": "The 2017 Act decriminalised suicide, restricted ECT, gave a right to access government care and repealed the 1987 Act."
   },
   {
    "topic": 121,
