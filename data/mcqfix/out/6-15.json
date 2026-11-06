@@ -630,16 +630,16 @@
    "angle": "8"
   },
   {
-   "shape": "one-liner",
-   "s": "RoDTEP is notified by the Department of Commerce through which body?",
+   "shape": "statements",
+   "s": "Consider the following statements about the RoDTEP scheme:\n1. It is notified by the Department of Commerce through DGFT.\n2. It is implemented by the Department of Revenue through CBIC.\nWhich of the statements given above is/are correct?",
    "o": [
-    "CBIC",
-    "CBDT",
-    "DGFT",
-    "ECGC"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 2,
-   "x": "RoDTEP is notified by the Department of Commerce through DGFT and implemented by the Department of Revenue through CBIC.",
+   "x": "Both are correct: DGFT notifies RoDTEP and CBIC implements it, not the other way round.",
    "topic": 45,
    "sec": 3,
    "angle": "3"
@@ -650,10 +650,10 @@
    "o": [
     "SEIS",
     "EPCG",
-    "Advance Authorisation",
-    "MEIS"
+    "MEIS",
+    "Advance Authorisation"
    ],
-   "a": 3,
+   "a": 2,
    "x": "RoDTEP replaced MEIS, which faced WTO objections; RoDTEP is WTO-compliant.",
    "topic": 45,
    "sec": 3,
@@ -663,12 +663,12 @@
    "shape": "one-liner",
    "s": "The Digital Communications Commission was earlier the Telecom Commission, set up in:",
    "o": [
-    "1989",
     "1985",
     "1994",
-    "2018"
+    "2018",
+    "1989"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Telecom Commission was set up in 1989 and renamed DCC in 2018; it was abolished after 37 years.",
    "topic": 45,
    "sec": 3,
@@ -678,12 +678,12 @@
    "shape": "one-liner",
    "s": "After the DCC was abolished, telecom projects of ₹500–1,000 crore now go to the:",
    "o": [
-    "Telecom Secretary",
     "Expenditure Finance Committee",
+    "Telecom Secretary",
     "Telecom Minister",
     "Public Investment Board"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Projects of ₹500–1,000 crore go to the Expenditure Finance Committee; the Telecom Secretary approves up to ₹100 crore and the Minister up to ₹500 crore.",
    "topic": 45,
    "sec": 3,
@@ -694,11 +694,11 @@
    "s": "The 23rd Law Commission of India is which kind of body?",
    "o": [
     "Constitutional body",
-    "Statutory body",
     "Executive body",
+    "Statutory body",
     "Quasi-judicial statutory body"
    ],
-   "a": 2,
+   "a": 1,
    "x": "The Law Commission is an executive body, neither constitutional nor statutory, advising the Ministry of Law and Justice.",
    "topic": 45,
    "sec": 4,
@@ -710,10 +710,10 @@
    "o": [
     "Justice Ranjana Prakash Desai",
     "Justice E. Tirumala Devi",
-    "Justice R. Subhash Reddy",
-    "Justice Dinesh Maheshwari"
+    "Justice Dinesh Maheshwari",
+    "Justice R. Subhash Reddy"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Justice Dinesh Maheshwari has been full-time chair since 15 April 2025; the term runs to 31 August 2027.",
    "topic": 45,
    "sec": 4,
@@ -723,12 +723,12 @@
    "shape": "one-liner",
    "s": "The current mandate of the 23rd Law Commission includes examining:",
    "o": [
-    "A Uniform Civil Code",
     "Delimitation of constituencies",
     "Finance Commission grants",
-    "Press Council penalties"
+    "Press Council penalties",
+    "A Uniform Civil Code"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The 23rd Law Commission's mandate includes examining a Uniform Civil Code; its recommendations are not binding.",
    "topic": 45,
    "sec": 4,
@@ -738,28 +738,28 @@
    "shape": "one-liner",
    "s": "The 16th Finance Commission kept the States' share of the divisible pool at:",
    "o": [
-    "42%",
     "41%",
+    "42%",
     "45%",
     "50%"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The 16th FC kept vertical devolution at 41%, the same as the 15th FC, and declined demands for 50%.",
    "topic": 45,
    "sec": 4,
    "angle": "5"
   },
   {
-   "shape": "one-liner",
-   "s": "In the 16th Finance Commission's formula, the weight of 'income distance' is:",
+   "shape": "statements",
+   "s": "Consider the following statements about the 16th Finance Commission award:\n1. It keeps the States' share of the divisible pool at 41%.\n2. It raises the weight of income distance to 45%.\nWhich of the statements given above is/are correct?",
    "o": [
-    "45%",
-    "17.5%",
-    "42.5%",
-    "10%"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 2,
-   "x": "Income distance gets 42.5% (was 45%); population (2011) 17.5% and demographic performance 10%.",
+   "a": 0,
+   "x": "Statement 1 is correct. Statement 2 is wrong: income distance was cut to 42.5% from 45%.",
    "topic": 45,
    "sec": 4,
    "angle": "5"
@@ -769,11 +769,11 @@
    "s": "Which criterion was newly introduced by the 16th Finance Commission for sharing taxes among States?",
    "o": [
     "Population (2011)",
+    "State's contribution to GDP",
     "Income distance",
-    "Demographic performance",
-    "State's contribution to GDP"
+    "Demographic performance"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Contribution to GDP is the new criterion; the other three were already used and only had their weights changed.",
    "topic": 45,
    "sec": 4,
@@ -783,12 +783,12 @@
    "shape": "one-liner",
    "s": "Who chairs the 16th Finance Commission?",
    "o": [
-    "Arvind Panagariya",
     "Suresh N. Patel",
     "M. Srinivas",
+    "Arvind Panagariya",
     "Dinesh Maheshwari"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Arvind Panagariya chairs the 16th FC, a constitutional body under Article 280, with an award period 2026-27 to 2030-31.",
    "topic": 45,
    "sec": 4,
@@ -799,11 +799,11 @@
    "s": "Who has been the Chairperson of the Press Council of India since 24 April 2026?",
    "o": [
     "Justice E. Tirumala Devi",
-    "Justice Ranjana Prakash Desai",
     "Justice Dinesh Maheshwari",
-    "Justice R. Subhash Reddy"
+    "Justice R. Subhash Reddy",
+    "Justice Ranjana Prakash Desai"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Former SC judge Justice Ranjana Prakash Desai has chaired the PCI since 24 April 2026 for three years.",
    "topic": 45,
    "sec": 4,
@@ -825,31 +825,16 @@
    "angle": "4,11"
   },
   {
-   "shape": "one-liner",
-   "s": "How many Members of Parliament sit on the Press Council of India?",
+   "shape": "statements",
+   "s": "Consider the following statements about the Press Council of India:\n1. It has 13 journalist members among its 28 members.\n2. It has 5 Members of Parliament: 3 from Lok Sabha and 2 from Rajya Sabha.\n3. National Press Day is observed on 16 November.\nWhich of the statements given above is/are correct?",
    "o": [
-    "3",
-    "6",
-    "5",
-    "13"
-   ],
-   "a": 2,
-   "x": "The PCI has 5 MPs (3 Lok Sabha, 2 Rajya Sabha) among its 28 members, besides 13 journalists and 6 newspaper owners.",
-   "topic": 45,
-   "sec": 4,
-   "angle": "11"
-  },
-  {
-   "shape": "one-liner",
-   "s": "National Press Day is observed on:",
-   "o": [
-    "1 October",
-    "29 August",
-    "26 June",
-    "16 November"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
    "a": 3,
-   "x": "National Press Day is 16 November; 1 October is the International Day of Older Persons.",
+   "x": "All three are correct: the PCI has 13 journalists, 6 owners, 5 MPs, 3 institutional nominees and 1 news agency member; National Press Day is 16 November.",
    "topic": 45,
    "sec": 4,
    "angle": "11"
@@ -1005,16 +990,16 @@
    "angle": "14"
   },
   {
-   "shape": "one-liner",
-   "s": "The Annual Status of Education Report (ASER) is brought out by:",
+   "shape": "match",
+   "s": "Which of the following pairs (survey – conducting agency) is correctly matched?",
    "o": [
-    "NSO",
-    "NCERT",
-    "Pratham",
-    "Ministry of Education"
+    "PLFS – IIPS, Mumbai",
+    "NFHS-6 – NSO, MoSPI",
+    "ASER – NCERT",
+    "ASER – Pratham"
    ],
-   "a": 2,
-   "x": "ASER is by Pratham, an NGO, not a government body.",
+   "a": 3,
+   "x": "ASER is by Pratham, an NGO; PLFS is by NSO (MoSPI) and NFHS-6 by the Health Ministry through IIPS Mumbai.",
    "topic": 45,
    "sec": 6,
    "angle": "14"
@@ -1025,10 +1010,10 @@
    "o": [
     "4.2%",
     "5.2%",
-    "6.9%",
-    "5.0%"
+    "5.0%",
+    "6.9%"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Unemployment was 5.0% (rural 4.2%, urban 6.9%); it was 5.2% in September 2025.",
    "topic": 45,
    "sec": 6,
@@ -1038,12 +1023,12 @@
    "shape": "one-liner",
    "s": "Which State topped NITI Aayog's first Investment Friendliness Index (2026)?",
    "o": [
-    "Gujarat",
     "Maharashtra",
     "Tamil Nadu",
-    "Odisha"
+    "Odisha",
+    "Gujarat"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Gujarat topped IFI 2026 with 56.6, followed by Maharashtra, Tamil Nadu, Goa and Odisha.",
    "topic": 45,
    "sec": 6,
@@ -1053,12 +1038,12 @@
    "shape": "one-liner",
    "s": "In NITI Aayog's Investment Friendliness Index 2026, Andhra Pradesh was placed in which category?",
    "o": [
-    "Top Performer",
     "Frontrunner",
+    "Top Performer",
     "Emerging Performer",
     "Aspiring"
    ],
-   "a": 1,
+   "a": 0,
    "x": "AP ranked 8th (48.7) and was a Frontrunner, not a Top Performer.",
    "topic": 45,
    "sec": 6,
@@ -1069,11 +1054,11 @@
    "s": "Which State topped NITI Aayog's Fiscal Health Index 2026 for the second year?",
    "o": [
     "Gujarat",
-    "Punjab",
     "Odisha",
+    "Punjab",
     "Goa"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Odisha topped the Fiscal Health Index 2026 again; Punjab came last.",
    "topic": 45,
    "sec": 6,
@@ -1085,10 +1070,10 @@
    "o": [
     "354.21 MT",
     "370.10 MT",
-    "380.00 MT",
-    "376.56 MT"
+    "376.56 MT",
+    "380.00 MT"
    ],
-   "a": 3,
+   "a": 2,
    "x": "The 2026-27 target (373.93 MT) is slightly lower than the 2025-26 record of 376.56 MT.",
    "topic": 45,
    "sec": 6,
@@ -1098,12 +1083,12 @@
    "shape": "one-liner",
    "s": "Which body does NITI Aayog's October 2026 report on the care economy recommend setting up?",
    "o": [
-    "National Care Council",
     "National Elderly Commission",
     "National Ageing Tribunal",
-    "Senior Citizens Regulatory Authority"
+    "Senior Citizens Regulatory Authority",
+    "National Care Council"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The report recommends a National Care Council, a National Care Qualification Framework and a National Caregiver Registry.",
    "topic": 45,
    "sec": 6,
@@ -1113,12 +1098,12 @@
    "shape": "one-liner",
    "s": "How many river links did the National Perspective Plan (1980) identify?",
    "o": [
-    "14",
     "30",
+    "14",
     "16",
     "32"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The NPP (1980) identified 30 links: 14 Himalayan and 16 Peninsular; NWDA came in 1982.",
    "topic": 45,
    "sec": 7,
@@ -1129,11 +1114,11 @@
    "s": "National Waterway-2 (Dhubri–Sadiya) on the Brahmaputra is how long?",
    "o": [
     "620 km",
-    "1,078 km",
     "891 km",
+    "1,078 km",
     "1,620 km"
    ],
-   "a": 2,
+   "a": 1,
    "x": "NW-2 runs 891 km from Dhubri to Sadiya and is managed by IWAI.",
    "topic": 45,
    "sec": 8,
@@ -1145,10 +1130,10 @@
    "o": [
     "Amit Shah",
     "Shivraj Singh Chouhan",
-    "Mansukh Mandaviya",
-    "Sarbananda Sonowal"
+    "Sarbananda Sonowal",
+    "Mansukh Mandaviya"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Sarbananda Sonowal flagged it off from Bogibeel Terminal, Dibrugarh; it carried methanol from APCL Namrup.",
    "topic": 45,
    "sec": 8,
@@ -1158,12 +1143,12 @@
    "shape": "one-liner",
    "s": "Which Law Commission report (1999) supported simultaneous elections?",
    "o": [
-    "170th Report",
     "255th Report",
     "267th Report",
-    "275th Report"
+    "275th Report",
+    "170th Report"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Law Commission's 170th Report (1999), under Justice B.P. Jeevan Reddy, supported simultaneous elections.",
    "topic": 46,
    "sec": 1,
@@ -1173,12 +1158,12 @@
    "shape": "one-liner",
    "s": "The Law Commission's 170th Report (1999) on simultaneous elections was given under Justice:",
    "o": [
-    "R. Subhash Reddy",
     "B.P. Jeevan Reddy",
+    "R. Subhash Reddy",
     "K.G. Balakrishnan",
     "Dinesh Maheshwari"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Justice B.P. Jeevan Reddy headed the Law Commission that gave the 170th Report.",
    "topic": 46,
    "sec": 1,
@@ -1189,11 +1174,11 @@
    "s": "The Kovind High-Level Committee recommended local body elections within how many days of the simultaneous polls?",
    "o": [
     "30",
-    "60",
     "100",
+    "60",
     "180"
    ],
-   "a": 2,
+   "a": 1,
    "x": "The Kovind Committee (2023-24) recommended a phased model with local body polls within 100 days.",
    "topic": 46,
    "sec": 1,
@@ -1205,10 +1190,10 @@
    "o": [
     "129th",
     "130th",
-    "128th",
-    "131st"
+    "131st",
+    "128th"
    ],
-   "a": 3,
+   "a": 2,
    "x": "The 131st Amendment Bill (850 seats) was defeated; the 129th is the ONOE Bill.",
    "topic": 46,
    "sec": 1,
@@ -1218,28 +1203,28 @@
    "shape": "one-liner",
    "s": "The 'constructive no-confidence motion' suggested in the 2018 Law Commission draft is borrowed from:",
    "o": [
-    "Germany",
     "United Kingdom",
     "United States",
-    "France"
+    "France",
+    "Germany"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The constructive no-confidence motion is borrowed from Germany.",
    "topic": 46,
    "sec": 1,
    "angle": "7,13"
   },
   {
-   "shape": "one-liner",
-   "s": "In which year did the Election Commission recommend a return to simultaneous elections?",
+   "shape": "statements",
+   "s": "Consider the following statements about the Constitution (129th Amendment) Bill, 2024:\n1. It inserts Article 82A.\n2. It amends Articles 83 and 172.\n3. It covers elections to local bodies.\nWhich of the statements given above is/are correct?",
    "o": [
-    "1990",
-    "1983",
-    "1999",
-    "2015"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 1,
-   "x": "The EC recommended a return in 1983; the Law Commission's 170th Report followed in 1999.",
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is wrong: local bodies are excluded from the Bill.",
    "topic": 46,
    "sec": 1,
    "angle": "1"
@@ -1248,12 +1233,12 @@
    "shape": "one-liner",
    "s": "The award period of the 16th Finance Commission is:",
    "o": [
+    "2026-27 to 2030-31",
     "2021-22 to 2025-26",
     "2025-26 to 2029-30",
-    "2026-27 to 2030-31",
     "2027-28 to 2031-32"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The 16th FC, chaired by Arvind Panagariya, covers 2026-27 to 2030-31.",
    "topic": 46,
    "sec": 2,
@@ -1264,11 +1249,11 @@
    "s": "The Finance Commission is a constitutional body under Article:",
    "o": [
     "148",
+    "280",
     "263",
-    "275",
-    "280"
+    "275"
    ],
-   "a": 3,
+   "a": 1,
    "x": "The Finance Commission is constituted under Article 280; Article 148 deals with the CAG.",
    "topic": 46,
    "sec": 2,
@@ -1278,28 +1263,28 @@
    "shape": "one-liner",
    "s": "As per Prison Statistics India 2024, the national prison occupancy rate was:",
    "o": [
-    "112.7%",
     "73%",
     "148.3%",
+    "112.7%",
     "194.6%"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Occupancy was 112.7%, a decade-low; Delhi had the highest at 194.6%.",
    "topic": 46,
    "sec": 3,
    "angle": "12"
   },
   {
-   "shape": "one-liner",
-   "s": "As per Prison Statistics India 2024, undertrials formed about what share of inmates?",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Prison Statistics India 2024?",
    "o": [
-    "26.6%",
-    "73%",
-    "50%",
-    "90%"
+    "The occupancy rate of 112.7% was a decade-low.",
+    "Undertrials were about 73% of inmates.",
+    "Uttar Pradesh recorded the highest occupancy rate.",
+    "Convicts fell to 26.6% of inmates."
    ],
-   "a": 1,
-   "x": "Undertrials were about 73% of inmates; convicts fell to 26.6%.",
+   "a": 2,
+   "x": "Delhi, at 194.6%, recorded the highest occupancy, not Uttar Pradesh.",
    "topic": 46,
    "sec": 3,
    "angle": "12"
@@ -1310,10 +1295,10 @@
    "o": [
     "NITI Aayog",
     "Ministry of Labour and Employment",
-    "NSO, MoSPI",
-    "RBI"
+    "RBI",
+    "NSO, MoSPI"
    ],
-   "a": 2,
+   "a": 3,
    "x": "PLFS is released by the National Statistics Office under MoSPI.",
    "topic": 46,
    "sec": 3,
@@ -1323,12 +1308,12 @@
    "shape": "one-liner",
    "s": "As per the PLFS July 2026 bulletin, the overall unemployment rate (15+) was:",
    "o": [
+    "5.1%",
     "4.5%",
     "5.5%",
-    "6.7%",
-    "5.1%"
+    "6.7%"
    ],
-   "a": 3,
+   "a": 0,
    "x": "UR fell to 5.1% from 5.5% in June; rural UR was 4.5% and urban about 6.7%.",
    "topic": 46,
    "sec": 3,
@@ -1338,12 +1323,12 @@
    "shape": "one-liner",
    "s": "Which Telangana-used portal recorded 89.41% content-takedown success in the PRAGATI cybercrime review?",
    "o": [
-    "Sahyog",
     "Samanvaya",
+    "Sahyog",
     "TG-Veer",
     "e-Zero FIR"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Sahyog recorded 89.41% takedown success; Samanvaya resolved 96.68% of inter-State requests.",
    "topic": 46,
    "sec": 3,
@@ -1354,11 +1339,11 @@
    "s": "The CAG holds office for six years or until the age of:",
    "o": [
     "60 years",
-    "65 years",
     "62 years",
+    "65 years",
     "70 years"
    ],
-   "a": 1,
+   "a": 2,
    "x": "The CAG (Article 148) is appointed by the President for 6 years or until 65 years of age.",
    "topic": 46,
    "sec": 3,
@@ -1370,10 +1355,10 @@
    "o": [
     "Constitutional body under Article 338A",
     "Constitutional body under Article 338B",
-    "Statutory body under the NCM Act, 1992",
-    "Executive body set up by a Cabinet resolution"
+    "Executive body set up by a Cabinet resolution",
+    "Statutory body under the NCM Act, 1992"
    ],
-   "a": 2,
+   "a": 3,
    "x": "The NCM is statutory under the NCM Act, 1992; the NCST is constitutional under Article 338A.",
    "topic": 46,
    "sec": 4,
@@ -1398,12 +1383,12 @@
    "shape": "one-liner",
    "s": "Who was appointed Chairperson of the Supreme Court Legal Services Committee in 2026?",
    "o": [
+    "Justice B.V. Nagarathna",
     "Justice J.K. Maheshwari",
     "Justice Surya Kant",
-    "Justice R. Subhash Reddy",
-    "Justice B.V. Nagarathna"
+    "Justice R. Subhash Reddy"
    ],
-   "a": 3,
+   "a": 0,
    "x": "CJI Surya Kant appointed Justice B.V. Nagarathna, succeeding Justice J.K. Maheshwari.",
    "topic": 46,
    "sec": 4,
@@ -1413,12 +1398,12 @@
    "shape": "one-liner",
    "s": "Who chairs the National Commission for Women?",
    "o": [
-    "Vijaya Rahatkar",
     "Gadwal Vijayalakshmi",
+    "Vijaya Rahatkar",
     "Sadhvi Niranjan Jyoti",
     "Ajitha Begum"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Vijaya Rahatkar chairs the NCW, a statutory body under the NCW Act, 1990.",
    "topic": 46,
    "sec": 4,
@@ -1429,11 +1414,11 @@
    "s": "Who launched AppCOMS 2.0 as Chief Information Commissioner?",
    "o": [
     "Harjit Singh Grewal",
-    "Raj Kumar Goyal",
     "Ajay Kumar Sood",
+    "Raj Kumar Goyal",
     "Ananta Barua"
    ],
-   "a": 1,
+   "a": 2,
    "x": "CIC Raj Kumar Goyal launched AppCOMS 2.0, upgrading the original AppCOMS of 2016.",
    "topic": 46,
    "sec": 4,
@@ -1445,26 +1430,26 @@
    "o": [
     "Rajnish Kumar",
     "Tuhin Kanta Pandey",
-    "Ananta Barua",
-    "Ajay Kumar Sood"
+    "Ajay Kumar Sood",
+    "Ananta Barua"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Former SEBI WTM Ananta Barua chairs it; former SBI Chairman Rajnish Kumar is co-chair.",
    "topic": 46,
    "sec": 5,
    "angle": "6"
   },
   {
-   "shape": "one-liner",
-   "s": "SEBI's June 2026 expert working group reviews which regulations?",
+   "shape": "statements",
+   "s": "Consider the following statements about SEBI's expert working group on debenture trustees (June 2026):\n1. It is chaired by former SEBI Whole Time Member Ananta Barua.\n2. Former SBI Chairman Rajnish Kumar is its co-chair.\nWhich of the statements given above is/are correct?",
    "o": [
-    "SEBI (Credit Rating Agencies) Regulations, 1999",
-    "SEBI (Alternative Investment Funds) Regulations, 2012",
-    "SEBI (Mutual Funds) Regulations, 1996",
-    "SEBI (Debenture Trustees) Regulations, 1993"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 3,
-   "x": "The group reviews the Debenture Trustees Regulations, 1993, including net-worth requirements.",
+   "a": 2,
+   "x": "Both are correct; the group reviews the SEBI (Debenture Trustees) Regulations, 1993, including net-worth requirements.",
    "topic": 46,
    "sec": 5,
    "angle": "6"
@@ -1635,16 +1620,16 @@
    "angle": "4"
   },
   {
-   "shape": "one-liner",
-   "s": "The Constitution (Scheduled Castes) Order, 1950 was extended to Buddhists in:",
+   "shape": "statements",
+   "s": "Consider the following statements about the Constitution (Scheduled Castes) Order, 1950:\n1. It originally covered Hindus only.\n2. It was extended to Sikhs in 1956.\n3. It was extended to Christians in 1990.\nWhich of the statements given above is/are correct?",
    "o": [
-    "1956",
-    "1976",
-    "2003",
-    "1990"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 3,
-   "x": "The Order covered Hindus only, then Sikhs (1956) and Buddhists (1990).",
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the 1990 extension was to Buddhists; Christians and Muslims are not included.",
    "topic": 47,
    "sec": 2,
    "angle": "4"
@@ -1653,12 +1638,12 @@
    "shape": "one-liner",
    "s": "The K.G. Balakrishnan Commission was notified by which ministry?",
    "o": [
-    "Ministry of Social Justice and Empowerment",
     "Ministry of Home Affairs",
     "Ministry of Minority Affairs",
-    "Ministry of Law and Justice"
+    "Ministry of Law and Justice",
+    "Ministry of Social Justice and Empowerment"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Commission of Inquiry was notified by the Ministry of Social Justice and Empowerment.",
    "topic": 47,
    "sec": 2,
@@ -1668,28 +1653,28 @@
    "shape": "one-liner",
    "s": "The Lok Sabha Estimates Committee for 2026-27 has how many members?",
    "o": [
-    "22",
     "30",
+    "22",
     "31",
     "15"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The Estimates Committee has 30 members, all from Lok Sabha; PAC and COPU have 22 (15 + 7).",
    "topic": 47,
    "sec": 3,
    "angle": "8"
   },
   {
-   "shape": "one-liner",
-   "s": "The Public Accounts Committee for 2026-27 has how many members?",
+   "shape": "match",
+   "s": "Which of the following pairs (committee – members) is correctly matched?",
    "o": [
-    "15",
-    "30",
-    "22",
-    "31"
+    "Committee on Public Undertakings – 30, Lok Sabha only",
+    "Public Accounts Committee – 22 (15 LS + 7 RS)",
+    "Welfare of SCs and STs – 22 (15 LS + 7 RS)",
+    "Estimates Committee – 30 (20 LS + 10 RS)"
    ],
-   "a": 2,
-   "x": "PAC has 22 members (15 Lok Sabha + 7 Rajya Sabha) and is chaired by K.C. Venugopal.",
+   "a": 1,
+   "x": "PAC and COPU have 22 (15 + 7); the Estimates Committee has 30 from Lok Sabha only; the SC/ST Welfare Committee has 30 (20 + 10).",
    "topic": 47,
    "sec": 3,
    "angle": "8"
@@ -1699,11 +1684,11 @@
    "s": "Who chairs the Lok Sabha Committee on Privileges, the first under the 18th Lok Sabha?",
    "o": [
     "K.C. Venugopal",
+    "Ravi Shankar Prasad",
     "Faggan Singh Kulaste",
-    "Sudheer Gupta",
-    "Ravi Shankar Prasad"
+    "Sudheer Gupta"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Ravi Shankar Prasad chairs the Committee on Privileges with 14 other MPs.",
    "topic": 47,
    "sec": 3,
@@ -1713,12 +1698,12 @@
    "shape": "one-liner",
    "s": "Who assumed office as Chairperson of the NCBC on 27 March 2026?",
    "o": [
-    "Sadhvi Niranjan Jyoti",
     "Hans Raj Gangaram Ahir",
     "Vijaya Rahatkar",
+    "Sadhvi Niranjan Jyoti",
     "Gadwal Vijayalakshmi"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Sadhvi Niranjan Jyoti replaced Hans Raj Gangaram Ahir as NCBC Chairperson.",
    "topic": 47,
    "sec": 4,
@@ -1729,11 +1714,11 @@
    "s": "Who was appointed Vice-Chairperson of NITI Aayog in April 2026?",
    "o": [
     "Suman Bery",
-    "Ashok Kumar Lahiri",
     "Nidhi Chhibber",
-    "Shamika Ravi"
+    "Shamika Ravi",
+    "Ashok Kumar Lahiri"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Ashok Kumar Lahiri replaced Suman Bery on 25 April 2026 and took charge on 8 May 2026.",
    "topic": 47,
    "sec": 4,
@@ -1743,12 +1728,12 @@
    "shape": "one-liner",
    "s": "Which of the following is an executive body, neither constitutional nor statutory?",
    "o": [
+    "Law Commission",
     "NCSC",
     "NCBC",
-    "Law Commission",
     "Finance Commission"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The Law Commission is executive and advisory; NCSC, NCBC and the Finance Commission are constitutional.",
    "topic": 47,
    "sec": 4,
@@ -1759,11 +1744,11 @@
    "s": "Of the 16th Finance Commission grants to Telangana's rural local bodies, what share goes to Gram Panchayats?",
    "o": [
     "60%",
+    "80%",
     "70%",
-    "90%",
-    "80%"
+    "90%"
    ],
-   "a": 3,
+   "a": 1,
    "x": "GPs get 80%, intermediate and district panchayats 10% each, of Telangana's ₹9,968 crore.",
    "topic": 47,
    "sec": 5,
@@ -1773,12 +1758,12 @@
    "shape": "one-liner",
    "s": "The Women and Politics Survey (2019) was conducted by:",
    "o": [
-    "Lokniti-CSDS",
     "NSO",
     "Election Commission",
+    "Lokniti-CSDS",
     "National Commission for Women"
    ],
-   "a": 0,
+   "a": 2,
    "x": "The Lokniti-CSDS Women and Politics Survey (2019) found many women needed family permission to take part.",
    "topic": 47,
    "sec": 6,
@@ -1789,11 +1774,11 @@
    "s": "The Draft Pesticides Management Bill, 2025 is under which ministry?",
    "o": [
     "Ministry of Chemicals and Fertilizers",
-    "Ministry of Agriculture",
     "Ministry of Health and Family Welfare",
-    "Ministry of Environment"
+    "Ministry of Environment",
+    "Ministry of Agriculture"
    ],
-   "a": 1,
+   "a": 3,
    "x": "The Bill, replacing the Insecticides Act, 1968, is under the Agriculture Ministry, not Chemicals and Fertilizers.",
    "topic": 47,
    "sec": 8,
@@ -1803,28 +1788,28 @@
    "shape": "one-liner",
    "s": "SEBI's Cyber-suraksha.ai Task Force (May 2026) was set up to address:",
    "o": [
+    "AI-driven cyber threats in markets",
     "Misleading posts by finfluencers",
     "Past risk-return claims of advisers",
-    "AI-driven cyber threats in markets",
     "Fast-track approval of AIF schemes"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The task force deals with AI-driven cyber threats; Sudarshan tracks finfluencers, PaRRVA verifies claims and GARUDA speeds AIF approvals.",
    "topic": 47,
    "sec": 9,
    "angle": "6"
   },
   {
-   "shape": "one-liner",
-   "s": "SEBI's in-house AI tool to monitor finfluencers is called:",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about recent SEBI tools and mechanisms?",
    "o": [
-    "GARUDA",
-    "PaRRVA",
-    "Abhay",
-    "Sudarshan"
+    "GARUDA cuts approval for non-accredited investor schemes from 30 to 10 working days.",
+    "CARE Ratings is the PaRRVA Agency.",
+    "Sudarshan is SEBI's in-house AI to monitor finfluencers.",
+    "NSE is the PaRRVA Agency."
    ],
    "a": 3,
-   "x": "SEBI's 'Sudarshan' has removed over 1.20 lakh false posts.",
+   "x": "NSE is the PaRRVA Data Centre; CARE Ratings is the PaRRVA Agency.",
    "topic": 47,
    "sec": 9,
    "angle": "6"
@@ -1833,12 +1818,12 @@
    "shape": "one-liner",
    "s": "What is the capacity of SJVN's Lower Arun run-of-river project in Nepal?",
    "o": [
-    "679 MW",
     "900 MW",
+    "679 MW",
     "450 MW",
     "1,200 MW"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Lower Arun is 679 MW; SJVN's earlier Nepal project Arun-3 is 900 MW.",
    "topic": 47,
    "sec": 11,
