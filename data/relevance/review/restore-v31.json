@@ -1,0 +1,702 @@
+{
+ "restore": [
+  {
+   "id": "n62981b4ce08",
+   "why": "different angle: names the unit (ASIP-APACT); existing asks the village"
+  },
+  {
+   "id": "nbe35937b27f",
+   "why": "different angle: asks location Jonnagiri, Kurnool; existing asks the mine's new name"
+  },
+  {
+   "id": "cabb511e5a0d01",
+   "why": "different angle: ties JSW Kadapa plant to 3 July 2026 launch"
+  },
+  {
+   "id": "f5bf7fc72453b",
+   "why": "other direction: existing NOT-correct item keys 'gaurs from Maharashtra'; this asks the source State"
+  },
+  {
+   "id": "f1f09ce097945",
+   "why": "different angle: asks the actual listing cost; existing asks which statement is wrong"
+  },
+  {
+   "id": "ca3f6ea9462e6f",
+   "why": "different statements (Director, thorium use) with Bhopal/Indore twist"
+  },
+  {
+   "id": "cae6167a638f8f",
+   "why": "AP new species with place (Nigidi forest, Sri Sathya Sai); no other MCQ on it"
+  },
+  {
+   "id": "f35239df4e007",
+   "why": "tests the Sept 2025 announcement of 10 PPP colleges too, not only the one-month deadline"
+  },
+  {
+   "id": "cacd74c8a40369",
+   "why": "key fixed: wrong option made unambiguous (support sought from IN-SPACe)",
+   "fix": {
+    "o": [
+     "It is seeking institutional support from NASA",
+     "It is associated with global players from Israel and Australia",
+     "It has academic collaboration with AU Engineering College",
+     "Google, Reliance, Adani and Airtel investments highlight Vizag as a data-centre hub"
+    ],
+    "a": 0,
+    "x": "Taramandal is seeking support from IN-SPACe, not NASA; AU Engineering College is its academic partner and it has partners from Israel and Australia."
+   }
+  },
+  {
+   "id": "ca20049932cec0",
+   "why": "stem fixed: start date updated to 1 June 2026; asks HQ (no HQ MCQ in topic)",
+   "fix": {
+    "s": "The South Coast Railway zone, which began operations on 1 June 2026, has its headquarters at:",
+    "x": "South Coast Railway is headquartered at Visakhapatnam; East Coast Railway (2003) is headquartered at Bhubaneswar."
+   }
+  },
+  {
+   "id": "ca495308cfe911",
+   "why": "National Tourism Mart 2025 at Visakhapatnam; valid single key; when unsure, restore"
+  },
+  {
+   "id": "ca2a4f2ebe297b",
+   "why": "stem fixed: answer no longer in stem",
+   "fix": {
+    "s": "A Gold Cluster Land Pooling Scheme was notified in Andhra Pradesh through Rules framed in 2025 for which town?",
+    "o": [
+     "Kakinada",
+     "Mangalagiri",
+     "Anantapur",
+     "Srikakulam"
+    ],
+    "a": 1,
+    "x": "The Mangalagiri Gold Cluster Land Pooling Scheme (Formulation & Implementation) Rules, 2025 notified the scheme for Mangalagiri."
+   }
+  },
+  {
+   "id": "ca21e2d1b554b9",
+   "why": "options fixed: removed ₹64,910 crore (Phase-1 figure) to remove ambiguity",
+   "fix": {
+    "o": [
+     "₹65,000 crore",
+     "₹51,000 crore",
+     "₹15,000 crore",
+     "₹11,000 crore"
+    ],
+    "a": 0,
+    "x": "The relaunched Amaravati capital project is valued at ₹65,000 crore (Phase 1 ₹64,910 crore); ₹15,000 crore and ₹11,000 crore are separate funding amounts."
+   }
+  },
+  {
+   "id": "f4aa979865eca",
+   "why": "other direction: asks what was repealed; existing asks what was not"
+  },
+  {
+   "id": "fe5a1b40ea781",
+   "why": "reverse of existing match; teaches Nellore and Srikakulam CCB sites"
+  },
+  {
+   "id": "f8fd1a9514d7a",
+   "why": "adds award name; existing asks only the city"
+  },
+  {
+   "id": "fdba739de544f",
+   "why": "classic history fact asked directly; existing is a NOT-correct item"
+  },
+  {
+   "id": "cac1d7b575932c",
+   "why": "stem fixed: answer no longer in stem",
+   "fix": {
+    "s": "Which award did APCO receive at a summit in New Delhi for digitisation in the handloom sector?",
+    "x": "APCO received the SKOCH Award–2025 at the SKOCH Summit in New Delhi for digitisation in the handloom sector. Digital India and MSME digital transformation are themes its digitisation aligns with, not awards."
+   }
+  },
+  {
+   "id": "ffbe26aa330fe",
+   "why": "other direction: existing NOT-correct keys 'Silver'; this asks the grade"
+  },
+  {
+   "id": "ca7bad91451a5a",
+   "why": "different statements (KADA, IIT Kanpur, State-Academia-Industry model)"
+  },
+  {
+   "id": "faac4f195064d",
+   "why": "different statements (Neolithic art, temples, climbing hub)"
+  },
+  {
+   "id": "ca3f7d28c66982",
+   "why": "different statements (12 species, Schedule I, Kalamkari with AI)"
+  },
+  {
+   "id": "ca480b86f08103",
+   "why": "different statements (Punnami Ghat, Jala Harathi, workshops)"
+  },
+  {
+   "id": "ca26f42007c330",
+   "why": "key fixed: wrong option made unambiguous",
+   "fix": {
+    "o": [
+     "It is associated with West Godavari and Dr. B.R. Ambedkar Konaseema districts",
+     "It is covered under ODOP",
+     "It is associated with Srikakulam and Vizianagaram districts",
+     "It uses fine cotton thread with a single crochet hook"
+    ],
+    "a": 2,
+    "x": "Narsapuram crochet lace belongs to West Godavari and Dr. B.R. Ambedkar Konaseema districts, not Srikakulam/Vizianagaram; it is under ODOP and uses fine cotton thread with a single hook."
+   }
+  },
+  {
+   "id": "caf08efe8ad409",
+   "why": "different angle: asks nature of English Channel crossing (six-member relay)"
+  },
+  {
+   "id": "f4785a5bca5bf",
+   "why": "different statements (formation date, convenor, IT Act)"
+  },
+  {
+   "id": "cac2fa16950544",
+   "why": "different statements (seven panchayats of Guntur Rural, MDU vehicles)"
+  },
+  {
+   "id": "n5dd29390d53",
+   "why": "different option set (BRICS meeting at Vizag, SAAP centre at ANU)"
+  },
+  {
+   "id": "nee3b16a853b",
+   "why": "teaches four ministers' portfolios; existing asks only Water Resources"
+  },
+  {
+   "id": "ca73bee7e68660",
+   "why": "outdated fixed: Gujarat has since got Presidential assent",
+   "fix": {
+    "s": "Which statement on State-level Uniform Civil Code measures is correct?",
+    "o": [
+     "Uttarakhand UCC in force since January 2025; Gujarat became the second State to get Presidential assent",
+     "Uttarakhand UCC in force since January 2024; Gujarat became the second State to get Presidential assent",
+     "Uttarakhand UCC in force since January 2025; Assam became the second State to get Presidential assent",
+     "Gujarat UCC in force since January 2025; Uttarakhand became the second State to get Presidential assent"
+    ],
+    "a": 0,
+    "x": "Uttarakhand was the first State, with its UCC in force since January 2025; Gujarat's UCC Bill-2026 became the second to receive Presidential assent (President Droupadi Murmu)."
+   }
+  },
+  {
+   "id": "ca143cad1f0b6c",
+   "why": "tests GST 40% and Sec 194B as well; options consistent (20% is the wrong statement)"
+  },
+  {
+   "id": "cad8485cac5274",
+   "why": "coral reef geography is APPSC syllabus; no duplicate"
+  },
+  {
+   "id": "n15325816873",
+   "why": "adds Online Gaming Authority of India under 2026 Rules"
+  },
+  {
+   "id": "n8f5fab889f7",
+   "why": "different angle: first in North-East; existing asks only 'third State'"
+  },
+  {
+   "id": "ca963d7e553d1c",
+   "why": "different statements (private operators, govt control of fuel, capped liability)"
+  },
+  {
+   "id": "ca604f89583ac5",
+   "why": "different statements (Art 105/194, committees not constituted, RS 250)"
+  },
+  {
+   "id": "f293270c148b4",
+   "why": "other direction: asks the threshold; existing NOT-correct keys 500"
+  },
+  {
+   "id": "faa8c82cd737b",
+   "why": "other direction: asks the Administrator; existing NOT-correct keys Haryana Governor"
+  },
+  {
+   "id": "f7af22f09d6b0",
+   "why": "different statements (timelines, limited mandamus, 5-judge Gavai bench)"
+  },
+  {
+   "id": "f0a9912a3cbd5",
+   "why": "other direction: asks the gap; existing NOT-correct keys '12 years'"
+  },
+  {
+   "id": "fb2fbd206a4fa",
+   "why": "other direction: correctly-matched pair; existing asks the wrong pair"
+  },
+  {
+   "id": "f7145dc85e084",
+   "why": "asks the case name directly (Shayara Bano vs Shah Bano); existing matches the form"
+  },
+  {
+   "id": "fdaed228b649d",
+   "why": "different angle: asks the technologies; existing keys 'iOS only'"
+  },
+  {
+   "id": "f317b4aa9726e",
+   "why": "different option set (Swarnagiri, Global Engagement Scheme renamings)"
+  },
+  {
+   "id": "fdfae8aab5df8",
+   "why": "other direction: asks the agency; existing asks the figure"
+  },
+  {
+   "id": "ca66d79d504b5f",
+   "why": "Global Fintech Fest venue is standard current-affairs fact"
+  },
+  {
+   "id": "fe207f6bacc8f",
+   "why": "other direction: asks the implementing agency; existing NOT-correct keys State Govts"
+  },
+  {
+   "id": "f57a22a7434aa",
+   "why": "other direction: asks the sugar share; existing NOT-correct keys 50%"
+  },
+  {
+   "id": "cn0d05bffa4077",
+   "why": "other direction: asks location of main data centre; existing NOT-correct keys Chennai"
+  },
+  {
+   "id": "caff8a5c224ffe",
+   "why": "different meeting (June 2026, third consecutive pause); existing is August"
+  },
+  {
+   "id": "ca2a4331242ca0",
+   "why": "PM MITRA full form is exam-relevant; one correct expansion"
+  },
+  {
+   "id": "caad23c2901eab",
+   "why": "notes explicitly list SAF/ethanol feedstocks 'not wheat'; key matches notes"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "nfa54fcda844",
+   "why": "dup: exact repeat of cadc5208fc86af (Veligonda Phase I at Ghantavanipalli)"
+  },
+  {
+   "id": "ca9238272a27ae",
+   "why": "trivia: number of gram panchayats in a district campaign"
+  },
+  {
+   "id": "fb1cc751606c6",
+   "why": "dup: repeat of n010c6ae5beb (Srisailam to Nallamala Sagar via twin tunnels)"
+  },
+  {
+   "id": "cab141c6d44999",
+   "why": "trivia: slogan wording"
+  },
+  {
+   "id": "ca4994fcbc1284",
+   "why": "trivia: signing date of an MoU"
+  },
+  {
+   "id": "ca1b89292b888b",
+   "why": "trivia: chair of an executive committee (minor official)"
+  },
+  {
+   "id": "n9b4e2a6f0cd",
+   "why": "dup: repeat of ca0e9fbd014fd5 (first unit under ISM); poorly framed"
+  },
+  {
+   "id": "cae28cbf49c0d5",
+   "why": "trivia: partner organisations of a design challenge"
+  },
+  {
+   "id": "ca9135d12ff444",
+   "why": "trivia: minor foreign official leading a delegation"
+  },
+  {
+   "id": "ca6910e7232c9b",
+   "why": "trivia: venue of MoU signing"
+  },
+  {
+   "id": "n8ba6812d144",
+   "why": "dup: exact repeat of cac2d011b64ca0 (APEX Korea at Busan)"
+  },
+  {
+   "id": "caad63557d57d1",
+   "why": "trivia: destination of a board meeting caravan"
+  },
+  {
+   "id": "ca061de1ec101e",
+   "why": "trivia: job count of a single facility"
+  },
+  {
+   "id": "cabdc2a1272db1",
+   "why": "trivia: approval date"
+  },
+  {
+   "id": "caea31627dbada",
+   "why": "trivia: MoU duration"
+  },
+  {
+   "id": "na1c63bfa436",
+   "why": "dup: exact repeat of cab0d919871a0f (SCoR 18th zone)"
+  },
+  {
+   "id": "n45116452850",
+   "why": "dup: exact repeat of ca3fe2df406e7c (first green ammonia at Kakinada)"
+  },
+  {
+   "id": "ca92408c2f3355",
+   "why": "trivia: name of association president signing an MoU"
+  },
+  {
+   "id": "ca01a0d66f5209",
+   "why": "trivia: list of research areas, options differ by one word"
+  },
+  {
+   "id": "caac083d8f7efc",
+   "why": "trivia: month of university roadshows"
+  },
+  {
+   "id": "n325ea454366",
+   "why": "trivia: name of zonal General Manager"
+  },
+  {
+   "id": "ca2ceed0d23e9b",
+   "why": "dup: repeat of f715096d0ab88 (Nanded stays with SCR); Raichur facts not in notes"
+  },
+  {
+   "id": "fb50588df17cb",
+   "why": "dup: repeat of cac9afd44c5f36 (final FRL 45.72 m)"
+  },
+  {
+   "id": "fc50ec497a13f",
+   "why": "trivia: venue of MoU signing"
+  },
+  {
+   "id": "ca87d6995c9017",
+   "why": "trivia: acreage of a garden"
+  },
+  {
+   "id": "ca513baa44663e",
+   "why": "trivia: deadline month"
+  },
+  {
+   "id": "ca7960c2b98413",
+   "why": "trivia: number of thematic zones"
+  },
+  {
+   "id": "ca0cff25b48d39",
+   "why": "trivia: version number of a corporate LLM"
+  },
+  {
+   "id": "ca884594893798",
+   "why": "trivia: individual student's ambassador programme"
+  },
+  {
+   "id": "ca08d374324722",
+   "why": "trivia: individual student's ambassador programme; repeat of ca884594893798"
+  },
+  {
+   "id": "ca7497485580e9",
+   "why": "trivia: mission chief of a private flight"
+  },
+  {
+   "id": "n6ed2997a387",
+   "why": "dup: exact repeat of PYQ y0718ee1b732 (Sept 2023 medical colleges)"
+  },
+  {
+   "id": "ca4998e297d306",
+   "why": "offsyl: foreign countries with sacred groves"
+  },
+  {
+   "id": "f881d7f66ceda",
+   "why": "dup: repeat of nb024e2d2dc1 (610 MoUs)"
+  },
+  {
+   "id": "f38ac7ec7dade",
+   "why": "dup: covered by n18039c23a9e (Krishnapatnam node, SPSR Nellore)"
+  },
+  {
+   "id": "fdd36e3e17e1b",
+   "why": "dup: covered by n18039c23a9e (13,919.67 acres)"
+  },
+  {
+   "id": "f5962f29ec06c",
+   "why": "dup: exact repeat of ne5bc1692204 (solar at Pathikonda)"
+  },
+  {
+   "id": "f503608090b32",
+   "why": "dup: repeat of n6b0accdba64 (Nizampatnam - Bapatla)"
+  },
+  {
+   "id": "fc636b254f795",
+   "why": "dup: repeat of cn8e103b7717de (Jantar Mantar 1724)"
+  },
+  {
+   "id": "fbdbd16990226",
+   "why": "dup: repeat of ca8dd9e0804687 (Undavalli originally Buddhist vihara)"
+  },
+  {
+   "id": "cad244f8c12bc9",
+   "why": "trivia: school's regional rank"
+  },
+  {
+   "id": "f014783824033",
+   "why": "trivia: medal count at unnamed meet"
+  },
+  {
+   "id": "ca4fca97388389",
+   "why": "trivia: CEO name of a state society"
+  },
+  {
+   "id": "f51a646e91d2b",
+   "why": "trivia: venue of junior chess championship"
+  },
+  {
+   "id": "f8f9cabe46989",
+   "why": "trivia: venue of junior athletics meet"
+  },
+  {
+   "id": "cab92a1b481519",
+   "why": "trivia: name of researcher"
+  },
+  {
+   "id": "n9b31ccbfce0",
+   "why": "dup: repeat of cae1baf75de6ef (Avakaya Festival - Telugu cinema)"
+  },
+  {
+   "id": "cad72a0834019f",
+   "why": "trivia: device built by a school's students"
+  },
+  {
+   "id": "ca947e905e3cff",
+   "why": "trivia: individual recipient of a religious title"
+  },
+  {
+   "id": "ffb8fb2baafa7",
+   "why": "dup: repeat of ca2d36553fc65a (award by All The Best Academy); minor person"
+  },
+  {
+   "id": "ca87904fcd3a7e",
+   "why": "trivia: retired headmaster's name"
+  },
+  {
+   "id": "caf47dd227f039",
+   "why": "trivia: planetarium on a school tour"
+  },
+  {
+   "id": "fa63930fca988",
+   "why": "dup: repeat of n68487d249a1 (38 Kala Ratna)"
+  },
+  {
+   "id": "n0ebf38ed646",
+   "why": "dup: repeat of f8bfde8dcb837 (Pochampally Ikat Telangana GI)"
+  },
+  {
+   "id": "f9ef40841d281",
+   "why": "trivia: unnamed cricketer's ancestry"
+  },
+  {
+   "id": "f62b9936be6ce",
+   "why": "trivia: rests on unnamed cricketer's ancestry"
+  },
+  {
+   "id": "nc53b6657b7e",
+   "why": "dup: repeat of ca912901d95266 (34 to 38)"
+  },
+  {
+   "id": "n2316d479d39",
+   "why": "dup: repeat of ca20bcf887a266 (IJR judges per million)"
+  },
+  {
+   "id": "f03836c4900a4",
+   "why": "dup: repeat of ca3b6f6ccb63ac (9-judge bench)"
+  },
+  {
+   "id": "n1457e51c8b7",
+   "why": "dup: repeat of cafdedd3570243 (Citizenship Act, 1955)"
+  },
+  {
+   "id": "f9f38345cf8e5",
+   "why": "dup: repeat of ca6b66cd047b98 (Bangadarshan 7 Nov 1875)"
+  },
+  {
+   "id": "n8632312c76f",
+   "why": "dup: repeat of caefdd17d38002 (2011 Census for women's reservation)"
+  },
+  {
+   "id": "nc89bc34cf0b",
+   "why": "dup: repeat of ca2493c60c8f66 (same two statements, key 1 only)"
+  },
+  {
+   "id": "n30261da375f",
+   "why": "dup: exact repeat of ca9528f64dc0bc (Samrat Choudhary)"
+  },
+  {
+   "id": "f340ff0ef7bee",
+   "why": "dup: repeat of caa357c90aa604 (Bhojshala Saraswati temple)"
+  },
+  {
+   "id": "n508934e9530",
+   "why": "dup: exact repeat of ca8cde8a2efda0 (strength 38)"
+  },
+  {
+   "id": "fbd72f776f72b",
+   "why": "trivia: Delhi metro station renaming"
+  },
+  {
+   "id": "fd58deb4780e7",
+   "why": "trivia: Delhi chowk/station renaming"
+  },
+  {
+   "id": "f1beab1dcd1ee",
+   "why": "dup: repeat of ca5bf592a121bd (Hyderabad not a proposed bench)"
+  },
+  {
+   "id": "f8776c9d0a3e7",
+   "why": "dup: exact repeat of ca41ab0306dc04 (Anti-Exclusion Test)"
+  },
+  {
+   "id": "cabf1fe11e9c98",
+   "why": "dup: exact repeat of cae5bb5e6c29a9 (Keralam)"
+  },
+  {
+   "id": "f1a22ee3ce12d",
+   "why": "trivia: Telangana village renaming"
+  },
+  {
+   "id": "caa1e6e802625b",
+   "why": "dup: exact repeat of PYQ ydcb2f681a2c (four Delimitation Commissions)"
+  },
+  {
+   "id": "n11e26230575",
+   "why": "dup: repeat of ca03bfaf4a0017 (1971 Census freeze)"
+  },
+  {
+   "id": "f8b19ed446256",
+   "why": "dup: exact repeat of caccb668592894 (HLHC April-Sept 2026)"
+  },
+  {
+   "id": "cabdab55afa47a",
+   "why": "trivia: commissioning date of a minor project"
+  },
+  {
+   "id": "ca2d7e38756d7e",
+   "why": "dup: exact repeat of cac3f23a5e5f64 (30 days)"
+  },
+  {
+   "id": "ca2fe518db1d9d",
+   "why": "trivia: commentators' concern in an editorial"
+  },
+  {
+   "id": "fd3478ec0b0eb",
+   "why": "dup: repeat of ca8cd6be536620 (JPC 31 members)"
+  },
+  {
+   "id": "ca45ec4599a78d",
+   "why": "trivia: years of cited cases (and the years given are themselves wrong)"
+  },
+  {
+   "id": "n79836152d6e",
+   "why": "dup: repeat of ca5dd1a9e5f451 (five-year practice provision stayed)"
+  },
+  {
+   "id": "caa75d86cbfd8a",
+   "why": "trivia: petitioner name"
+  },
+  {
+   "id": "caee7c242267fe",
+   "why": "trivia: name of HC judge"
+  },
+  {
+   "id": "n634f5d71e46",
+   "why": "dup: repeat of fa7d884de8b17 / caca2d74ddb369 (MLAs do not vote)"
+  },
+  {
+   "id": "ca88898b07e82a",
+   "why": "trivia: place of a newspaper probe"
+  },
+  {
+   "id": "ca69ba4299017a",
+   "why": "trivia: start month of a militant group's course"
+  },
+  {
+   "id": "ca2c01ec4ec233",
+   "why": "trivia: groups cited in an editorial"
+  },
+  {
+   "id": "f8a0b6b519c55",
+   "why": "dup: exact repeat of ca95db2e57274a (Sec 3 Census Act)"
+  },
+  {
+   "id": "f5ac07ef7eb6e",
+   "why": "trivia: date of sine die adjournment"
+  },
+  {
+   "id": "fdf4b0c2cb879",
+   "why": "dup: exact repeat of PYQ yc32cfecccf3 (Bihar)"
+  },
+  {
+   "id": "fff71e35a49ff",
+   "why": "trivia: number of new division benches"
+  },
+  {
+   "id": "f7fc01677fe7e",
+   "why": "dup: repeat of cae2a2665d5b99 (GST 1 July 2017)"
+  },
+  {
+   "id": "ca836f7677b226",
+   "why": "dup: repeat of ca2a42824d0051 (₹2.55 lakh crore)"
+  },
+  {
+   "id": "cae7240c691eea",
+   "why": "trivia: per-well rupee cap"
+  },
+  {
+   "id": "ca4a08ed73bc3c",
+   "why": "trivia: resource-base target figure"
+  },
+  {
+   "id": "ca71f77e714b1d",
+   "why": "trivia: PACS lease-period eligibility"
+  },
+  {
+   "id": "ca6b672f7b141d",
+   "why": "trivia: fair where products were showcased"
+  },
+  {
+   "id": "ca5280a4a9fb4d",
+   "why": "trivia: count of co-production treaties"
+  },
+  {
+   "id": "cnae31bd37757e",
+   "why": "dup: exact repeat of fe84f3e9d25fa (Fitch BMI 7.5%)"
+  },
+  {
+   "id": "cn0e9fe442b035",
+   "why": "trivia: dignitary at an inauguration"
+  },
+  {
+   "id": "cndd9c91912fad",
+   "why": "trivia: building of inauguration"
+  },
+  {
+   "id": "ff8d705a7972c",
+   "why": "trivia: venue of a programme launch"
+  },
+  {
+   "id": "cabab9d69fd9de",
+   "why": "offsyl: Telangana budget zoning"
+  },
+  {
+   "id": "ca8e3d619be5c0",
+   "why": "offsyl: Telangana Vision 2047 targets"
+  },
+  {
+   "id": "ca3a3ea591a804",
+   "why": "dup: repeat of f0fb9139f3223 (moong highest margin)"
+  },
+  {
+   "id": "cae07bb9e5bc09",
+   "why": "trivia: count of Gujarat sailing vessels"
+  },
+  {
+   "id": "cab2c79db75344",
+   "why": "trivia: crew sign-on port for Gujarat vessels"
+  }
+ ]
+}
