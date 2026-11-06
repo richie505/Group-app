@@ -107,7 +107,7 @@ def apply(app, layout):
     place = json.load(open(f"data/pyq/place-{layout}.json"))["place"]
     bad = json.load(open("data/pyq/bad.json")) if os.path.exists("data/pyq/bad.json") else {}  # the audit's garbled / misfiled ones
     import glob
-    bad = set(bad) | {i for f in glob.glob("data/pyq/apt/out-*.json") for i in json.load(open(f))}  # aptitude ones (data/pyq/apt)
+    bad = set(bad) | {i for f in glob.glob("data/pyq/apt/out-*.json") for i in json.load(open(f))} | {x["id"] for f in glob.glob("data/relevance/pyq-*.json") for x in json.load(open(f))["exclude"]}  # aptitude ones (data/pyq/apt)
     # only PYQs a person or the audit has read: those already in the apps (data/pyq/audited.json), the papers read
     # from Drive's scans, and the APPSC questions given their official key (both audited, data/pyq/aph/out-*.json)
     audited = set(json.load(open("data/pyq/audited.json")))
