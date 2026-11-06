@@ -91,6 +91,12 @@ fun BlockView(block: Block, scale: Float) {
                 )
             }
             'x' -> Callout(block.runs, C.ExamBg, C.ExamInk, "Exam angle", scale)
+            // the blueprint's boxes (tools/blueprint_md.py)
+            'T' -> Callout(block.runs, Color(0xFFFDECEC), Color(0xFFB3261E), "Trap", scale)
+            'K' -> Callout(block.runs, C.GreenSoft, C.Green, "Key fact", scale)
+            'M' -> Callout(block.runs, Color(0xFFE8F0FE), Color(0xFF1A56C4), "Number game", scale)
+            'P' -> Callout(block.runs, Color(0xFFF3E8FD), Color(0xFF6B2FA8), "Don't confuse", scale)
+            'V' -> Callout(block.runs, Color(0xFFFFF4D6), Color(0xFF8A5A00), "Very important", scale)
             'a' -> Callout(block.runs, C.SeeBg, C.SeeInk, null, scale)
             com.appsc.prep.data.UserNotes.KIND -> Callout(block.runs, C.GreenSoft, C.Green, "Your note", scale)
             'n' -> {
