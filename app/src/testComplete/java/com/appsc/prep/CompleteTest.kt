@@ -81,7 +81,7 @@ class CompleteTest {
 
     /** A 3-statement MCQ: the title fits beside the buttons; one tap on an option answers it (no Check step). */
     @Test fun statementMcqSelectThenCheck() {
-        val app = shot("13_statement_mcq", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 36, 1), "all", "Subsection MCQs", nav) }
+        val app = shot("13_statement_mcq", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 7, 8), "all", "Subsection MCQs", nav) }
         rule.onNodeWithText("Consider the following statements", substring = true).assertExists()
         rule.onNodeWithText("1, 2 and 3").performClick()
         rule.waitForIdle()
@@ -212,7 +212,7 @@ class CompleteTest {
                 assertEquals("book $b row $ri: MCQ count in the index", repo.index[b - 1].rows[ri].questionCount, qs.size)
             }
         }
-        assertEquals(78510, mcqs)
+        assertEquals(80708, mcqs)
         assertEquals(mcqs, repo.planIds.size)
         assertTrue(repo.merged.keys.all { it in repo.planIds })
         val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
@@ -248,7 +248,7 @@ class CompleteTest {
 
         /** From the notes: first only this MCQ's key points (a line for each statement), then the whole page on request. */
     @Test fun fromTheNotesShowsTheKeyPointsOfTheMcq() {
-        val app = shot("15_key_points", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 36, 1), "all", "Subsection MCQs", nav) }
+        val app = shot("15_key_points", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 7, 8), "all", "Subsection MCQs", nav) }
         val q = runBlocking { app.repo.mcq(4).rows[36]!!.first { "Mansarovar" in it.stem && "Karnali" in it.stem } }
         val row = runBlocking { app.repo.book(4).rows[36] }
         val keys = com.appsc.prep.data.NotesFinder.keyPoints(q, row, 1)
