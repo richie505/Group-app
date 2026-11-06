@@ -26,3 +26,9 @@ MCQs (own MCQs only; ids starting "y" are real PYQs - never list them) - drop on
 Write data/relevance/report-<packet>.md: per topic, counts (notes blocks removed/trimmed, MCQs dropped by reason)
 and 3-5 examples. Do not run anything without --dry; touch no other file; do not commit. Reply only:
 "<packet>: notes -<n> blocks, MCQs -<m> of <total> (<reasons>)".
+
+PYQs (ids "y..."): never in drops. But list clear problems in data/relevance/pyq-<packet>.json:
+{"exclude": [{"id": "y...", "why": "wrong key: <key> but standard fact is <x>" | "off-syllabus: <what>"}]}
+Only (a) a key that is plainly wrong against the standard fact (not a disputed one; not one the notes record with
+"⚠ APPSC key"), or (b) a question outside the APPSC GS syllabus altogether (pure trivia of an unrelated field). A PYQ
+that is relevant but filed under the wrong topic: leave it. These are taken out of the apps by the lead.
