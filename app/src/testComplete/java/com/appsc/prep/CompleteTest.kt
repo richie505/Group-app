@@ -82,8 +82,8 @@ class CompleteTest {
     /** A 3-statement MCQ: the title fits beside the buttons; one tap on an option answers it (no Check step). */
     @Test fun statementMcqSelectThenCheck() {
         val app = shot("13_statement_mcq", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 7, 8), "all", "Subsection MCQs", nav) }
-        rule.onNodeWithText("Consider the following statements", substring = true).assertExists()
-        rule.onNodeWithText("1, 2 and 3").performClick()
+        rule.onNodeWithText("following statements", substring = true).assertExists()
+        rule.onNodeWithText("I, II and III").performClick()
         rule.waitForIdle()
         assertTrue("no Check step", rule.onAllNodes(hasText("Check answer")).fetchSemanticsNodes().isEmpty())
         rule.onRoot().captureRoboImage("screenshots/complete/14_statement_mcq_checked.png")
@@ -212,7 +212,7 @@ class CompleteTest {
                 assertEquals("book $b row $ri: MCQ count in the index", repo.index[b - 1].rows[ri].questionCount, qs.size)
             }
         }
-        assertEquals(81741, mcqs)
+        assertEquals(78504, mcqs)
         assertEquals(mcqs, repo.planIds.size)
         assertTrue(repo.merged.keys.all { it in repo.planIds })
         val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
@@ -327,8 +327,11 @@ class CompleteTest {
         val repo = Repository { ctx.assets.open(it) }
         val un = repo.unmerged
         assertTrue(un.size > 1000)
-        val (wrongId, wrongOlds) = un.entries.first()
-        val (rightId, rightOlds) = un.entries.drop(1).first()
+        // pairs whose one-fact MCQs are all still in the bank (the relevance audit archived some)
+        val bank = runBlocking { (1..6).flatMap { b -> repo.mcq(b).rows.values.flatten().map { it.id } }.toSet() }
+        val live = un.entries.filter { e -> e.value.all { it in bank } }
+        val (wrongId, wrongOlds) = live.first()
+        val (rightId, rightOlds) = live.drop(1).first()
         val store = ProgressStore(PrefsStorage(ctx))
         store.recordAnswer(wrongId, false)
         store.recordAnswer(rightId, true)
