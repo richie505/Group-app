@@ -38,7 +38,7 @@
   },
   "nd018aa7f031": {
    "shape": "statements",
-   "s": "Consider the following statements about the implementation of the Polavaram Project:\n1. Land acquisition and delays in rehabilitation and resettlement funding are sources of friction.\n2. Shortage of coal for thermal power generation is a source of friction.\nWhich of the statements given above is/are correct?",
+   "s": "Consider the following statements about the implementation of the Polavaram Project:\n1. Land acquisition and delays in rehabilitation and resettlement funding have caused friction.\n2. Shortage of coal for thermal power generation has caused friction.\nWhich of the statements given above is/are correct?",
    "o": [
     "1 only",
     "2 only",
@@ -141,16 +141,16 @@
    "topic": 132,
    "sec": 2,
    "angle": "1,9",
-   "shape": "one-liner",
-   "s": "Which broad sector recorded the highest growth in Andhra Pradesh in 2025-26 (FAE)?",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Andhra Pradesh's sectoral growth in 2025-26 (FAE)?",
    "o": [
-    "Services",
-    "Industry",
-    "Agriculture and allied",
-    "All three grew equally"
+    "Services grew by 10.67%",
+    "Industry grew by 9.15%",
+    "Agriculture and allied grew by 10.14%",
+    "Agriculture and allied was the fastest-growing sector"
    ],
-   "a": 0,
-   "x": "Services grew fastest at 10.67%, ahead of agriculture and allied (10.14%) and industry (9.15%)."
+   "a": 3,
+   "x": "Services was the fastest-growing sector at 10.67%, ahead of agriculture and allied (10.14%) and industry (9.15%)."
   },
   {
    "topic": 132,
@@ -306,13 +306,13 @@
    "topic": 132,
    "sec": 7,
    "angle": "2,10,13",
-   "shape": "one-liner",
-   "s": "In which of the following does Andhra Pradesh rank second in India?",
+   "shape": "match",
+   "s": "Which of the following pairs of Andhra Pradesh's national ranks is correctly matched?",
    "o": [
-    "Raw silk",
-    "Meat",
-    "Milk",
-    "Exports"
+    "Raw silk – 2nd",
+    "Meat – 3rd",
+    "Milk – 6th",
+    "Exports – 7th"
    ],
    "a": 0,
    "x": "AP is 2nd in raw silk; it is 4th in meat, 7th in milk and 6th in exports."
@@ -351,6 +351,21 @@
    "topic": 132,
    "sec": 8,
    "angle": "3,15",
+   "shape": "statements",
+   "s": "Consider the following statements about welfare delivery in Andhra Pradesh:\n1. There are 15,004 village and ward secretariats.\n2. Ward secretariats number 8,489.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "There are 15,004 village and ward secretariats, of which 3,863 are ward secretariats; 8,489 is the number of Rythu Seva Kendras."
+  },
+  {
+   "topic": 132,
+   "sec": 8,
+   "angle": "3,15",
    "shape": "one-liner",
    "s": "How many ward secretariats are there in Andhra Pradesh as per the Survey?",
    "o": [
@@ -361,21 +376,6 @@
    ],
    "a": 1,
    "x": "There are 3,863 ward secretariats within 15,004 village and ward secretariats; 8,489 is the number of Rythu Seva Kendras."
-  },
-  {
-   "topic": 132,
-   "sec": 8,
-   "angle": "3,15",
-   "shape": "one-liner",
-   "s": "The total number of village and ward secretariats in Andhra Pradesh is:",
-   "o": [
-    "15,004",
-    "11,086",
-    "10,778",
-    "8,489"
-   ],
-   "a": 0,
-   "x": "Village and ward secretariats together number 15,004."
   },
   {
    "topic": 132,
@@ -591,31 +591,31 @@
    "topic": 133,
    "sec": 3,
    "angle": "3",
-   "shape": "one-liner",
-   "s": "Section 94(4) of the AP Reorganisation Act, 2014 provides for:",
+   "shape": "match",
+   "s": "Which of the following parts of Section 94 is correctly matched?",
    "o": [
-    "Tax incentives",
-    "Support for backward-area infrastructure",
-    "Denotifying degraded forest land for the new capital",
-    "Equal opportunities in higher education"
+    "94(1) – Denotifying degraded forest land",
+    "94(2) – Tax incentives",
+    "94(4) – Denotifying degraded forest land for the capital",
+    "94(3) – Backward-area infrastructure"
    ],
    "a": 2,
-   "x": "94(4) is denotifying degraded forest land for the capital; 94(1) is tax incentives and 94(2) backward-area infrastructure."
+   "x": "94(4) is denotifying degraded forest land for the capital; 94(1) is tax incentives, 94(2) backward-area infrastructure and 94(3) the new capital."
   },
   {
    "topic": 133,
    "sec": 4,
    "angle": "5",
-   "shape": "one-liner",
-   "s": "How many Rajya Sabha seats were allotted to Andhra Pradesh after reorganisation?",
+   "shape": "match",
+   "s": "Which of the following seat allocations after reorganisation is correctly matched?",
    "o": [
-    "7",
-    "11",
-    "18",
-    "25"
+    "Lok Sabha – AP 25, Telangana 19",
+    "Rajya Sabha – AP 11, Telangana 7",
+    "Assembly – AP 175, Telangana 117",
+    "Rajya Sabha – AP 12, Telangana 6"
    ],
    "a": 1,
-   "x": "AP got 11 and Telangana 7 of the 18 Rajya Sabha seats."
+   "x": "AP got 11 and Telangana 7 of the 18 Rajya Sabha seats; Lok Sabha is 25 and 17, Assembly 175 and 119."
   },
   {
    "topic": 133,
@@ -681,16 +681,16 @@
    "topic": 133,
    "sec": 6,
    "angle": "2",
-   "shape": "one-liner",
-   "s": "Which Schedule of the AP Reorganisation Act, 2014 deals with companies and corporations?",
+   "shape": "match",
+   "s": "Which of the following Schedules of the AP Reorganisation Act, 2014 is correctly matched with its subject?",
    "o": [
-    "Schedule VIII",
-    "Schedule X",
-    "Schedule VII",
-    "Schedule IX"
+    "Schedule VII – Pension liability",
+    "Schedule VIII – Companies and corporations",
+    "Schedule XI – Coal, oil, gas and power",
+    "Schedule IX – Companies and corporations"
    ],
    "a": 3,
-   "x": "Schedule IX covers companies and corporations; VII is funds and VIII pension liability."
+   "x": "Schedule IX covers companies and corporations; VII is funds, VIII pension liability and XII coal, oil, gas and power."
   },
   {
    "topic": 133,
@@ -1056,16 +1056,16 @@
    "topic": 134,
    "sec": 9,
    "angle": "3",
-   "shape": "one-liner",
-   "s": "The new South Coast Railway zone has its headquarters at:",
+   "shape": "statements",
+   "s": "Consider the following statements about the South Coast Railway zone:\n1. Its headquarters is at Visakhapatnam.\n2. It is India's 18th railway zone.\n3. It became operational on 1 June 2024.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Vijayawada",
-    "Guntur",
-    "Guntakal",
-    "Visakhapatnam"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 3,
-   "x": "South Coast Railway, India's 18th zone, is headquartered at Visakhapatnam."
+   "a": 0,
+   "x": "South Coast Railway, India's 18th zone, is headquartered at Visakhapatnam and is operational from 1 June 2026, not 2024."
   },
   {
    "topic": 134,
@@ -1101,16 +1101,16 @@
    "topic": 134,
    "sec": 8,
    "angle": "4",
-   "shape": "one-liner",
-   "s": "The IISER set up in Andhra Pradesh under the AP Reorganisation Act is located at:",
+   "shape": "statements",
+   "s": "Consider the following statements about central institutions in Andhra Pradesh:\n1. IISER is located at Tirupati.\n2. IIPE is located at Visakhapatnam.\n3. IIITDM is located at Kurnool.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Visakhapatnam",
-    "Tirupati",
-    "Kurnool",
-    "Anantapur"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 1,
-   "x": "IISER and IIT are at Tirupati; IIM and IIPE are at Visakhapatnam."
+   "a": 3,
+   "x": "IISER (with IIT) is at Tirupati, IIPE (with IIM) at Visakhapatnam and IIITDM at Kurnool."
   },
   {
    "topic": 134,
