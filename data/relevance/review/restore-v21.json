@@ -1,0 +1,750 @@
+{
+ "restore": [
+  {
+   "id": "n687d4fbf48d",
+   "why": "statement form also tests the 10.1 million ha figure that the PYQ gives away in its stem"
+  },
+  {
+   "id": "n444c6aeddd6",
+   "why": "other direction: place -> institution, PYQ asks institution -> place"
+  },
+  {
+   "id": "n5dbe2194717",
+   "why": "key fixed: removed the 10,606 option the notes also cite",
+   "fix": {
+    "o": [
+     "8,489",
+     "9,260",
+     "10,778",
+     "12,489"
+    ],
+    "a": 0,
+    "x": "The 10,778 Rythu Bharosa Kendras set up earlier are now Rythu Seva Kendras, rationalised to 8,489 functional centres."
+   }
+  },
+  {
+   "id": "f6323f5f91a5e",
+   "why": "stem fixed: 350 (=2x175) option removed so only 340 fits",
+   "fix": {
+    "s": "How many mobile veterinary clinics (about two per Assembly constituency) are provided in Andhra Pradesh?",
+    "o": [
+     "175",
+     "26",
+     "255",
+     "340"
+    ],
+    "a": 3,
+    "x": "There are 340 mobile veterinary clinics, about 2 per constituency; 175 came in Phase 1 on 19 May 2022."
+   }
+  },
+  {
+   "id": "fab07291cae3b",
+   "why": "stem fixed for Aug 2026 lifting of the 10-acre cap",
+   "fix": {
+    "s": "The aqua-power tariff for aqua farms outside notified aqua zones in Andhra Pradesh is:",
+    "x": "Farms outside notified aqua zones pay Rs 3.85/unit; farms inside the zones pay Rs 1.50/unit (the 10-acre cap was lifted in Aug 2026)."
+   }
+  },
+  {
+   "id": "f34c6a648bf1d",
+   "why": "direct recall of Maruteru; n5b559392dd4 only flags Rajahmundry as wrong without naming Maruteru"
+  },
+  {
+   "id": "f14d98f82c70d",
+   "why": "positive direct form; na193f3045cb is a NOT-correct item on the 97th Amendment"
+  },
+  {
+   "id": "n41cad2668f2",
+   "why": "figure updated to the 2025-26 count in the notes",
+   "fix": {
+    "s": "As per the latest (2025-26) figures, how many PACS are there in Andhra Pradesh?",
+    "a": 0,
+    "x": "Andhra Pradesh has 2,024 PACS (2025-26), down from 2,042 in APSES 2024-25; 2,037 is the number computerised under the CSS."
+   }
+  },
+  {
+   "id": "nd641f766343",
+   "why": "direct question vs one statement inside a multi-statement item f561d777cb78a"
+  },
+  {
+   "id": "f4a05ae85683e",
+   "why": "other direction: asks the year; nddb894534269 gives the year and asks the chairman"
+  },
+  {
+   "id": "nd6271608faf",
+   "why": "stem fixed: ARDB long-term credit is the national pattern, not AP-specific",
+   "fix": {
+    "s": "In India's cooperative credit structure, long-term agricultural credit is mainly provided by:",
+    "x": "ARDBs (Agriculture and Rural Development Banks) provide long-term credit, whereas the PACS-DCCB-State Cooperative Bank chain mainly provides short-term credit."
+   }
+  },
+  {
+   "id": "nindian-economy-59-21",
+   "why": "positive direct form; nindian-economy-59-17 is a NOT-correct item with Rs 20,000 crore as the wrong statement"
+  },
+  {
+   "id": "f0da6b13f2ee8",
+   "why": "single direct fact vs a three-statement item fdbe793641bcd"
+  },
+  {
+   "id": "fc72f60bec652",
+   "why": "stem reworded away from the notes' framing; tests AP marketing institutions",
+   "fix": {
+    "s": "Andhra Pradesh addresses farmers' weak bargaining power in agricultural marketing mainly through which three mechanisms?"
+   }
+  },
+  {
+   "id": "nf0c5f5671ce",
+   "why": "national portals (PARIVESH 3.0, E-Samudra) are exam-relevant; key correct"
+  },
+  {
+   "id": "f5f3b5e87552c",
+   "why": "other direction: description -> name; n153dd55f186 asks name -> description"
+  },
+  {
+   "id": "f2e885169214c",
+   "why": "direct positive figure; nfca7b56120f is a NOT-matched item"
+  },
+  {
+   "id": "n420befd55a0",
+   "why": "other direction (asks the investor, PYQ asks the client); PYQ yfdbf0d34542 has no key marked"
+  },
+  {
+   "id": "f9f19227604ab",
+   "why": "direct location; in n5616c247f43 the distractors do not test the BPCL site"
+  },
+  {
+   "id": "f446bbac57fb8",
+   "why": "updated to the current SRS 2021-23 figure",
+   "fix": {
+    "s": "As per SRS 2021-23, the Maternal Mortality Ratio of Andhra Pradesh was:",
+    "a": 0,
+    "x": "AP's MMR is 30 (India 88) in SRS 2021-23; the older SRS 2018-20 value was 45 (India 97)."
+   }
+  },
+  {
+   "id": "f4b56e198812c",
+   "why": "direct question; in na5f5b7ceec9 the WB+ADB figure is only a true filler pair"
+  },
+  {
+   "id": "f10506a3c5916",
+   "why": "single-fact recall of the 60-day pause vs a combination item nc52ef4328e9"
+  },
+  {
+   "id": "f605b318c20ed",
+   "why": "positive direct form; nab1e7767892 is a NOT-matched item"
+  },
+  {
+   "id": "f3d21b42e9f30",
+   "why": "tests amount and rate (distractors vary them); n62daa46092a tests purpose vs other schemes"
+  },
+  {
+   "id": "fa98ee55e0f83",
+   "why": "positive form with the 3 June 2021 date not tested in n5a1ea85910b"
+  },
+  {
+   "id": "n1a2ba90475e",
+   "why": "other direction: asks the tax head given 73%; PYQ asks the %"
+  },
+  {
+   "id": "n3fb10b84fb1",
+   "why": "direct concept question vs statement A/B format of PYQ y3fd94a89efc"
+  },
+  {
+   "id": "n6ca66972cd6",
+   "why": "district count updated to 28 (from 31 Dec 2025)",
+   "fix": {
+    "o": [
+     "Urbanisation 29.47%; 28 districts",
+     "Urbanisation 47.45%; 28 districts",
+     "Urbanisation 29.47%; 30 districts",
+     "Urbanisation 67.35%; 28 districts"
+    ],
+    "a": 0,
+    "x": "Andhra Pradesh's urbanisation level is 29.47% and it has 28 districts since 31 December 2025 (26 from 2022). 47.45% is Visakhapatnam's urbanisation; 67.35% is not the urbanisation figure."
+   }
+  },
+  {
+   "id": "nf03debfaa7d",
+   "why": "second wrong pair fixed: IMR option set to notes values",
+   "fix": {
+    "o": [
+     "MMR: AP 97; India 45",
+     "Crude birth rate: AP 15.7; India 19.5",
+     "IMR: AP 19; India 25",
+     "Crude death rate: AP 6.3; India 6.0"
+    ],
+    "a": 0,
+    "x": "MMR was 45 for Andhra Pradesh and 97 for India (SRS 2018-20; now 30 vs 88), not the reverse. IMR is 19 for AP and 25 for India (SRS 2021-23)."
+   }
+  },
+  {
+   "id": "f56a1bd6a5c73",
+   "why": "direct share question vs combination item n86668f7481c"
+  },
+  {
+   "id": "f698456e3fe46",
+   "why": "different sub-clause keyed (94(4)); n4e8debc3cac keys 94(1)"
+  },
+  {
+   "id": "n4fc5d960664",
+   "why": "adds the population-ratio basis; PYQ y0056a069cf8 tests only the RBI-books method"
+  },
+  {
+   "id": "f4e3634614b35",
+   "why": "section corrected to 53(1) per notes and PYQ",
+   "fix": {
+    "s": "Under Section 53(1) of the AP Reorganisation Act, 2014, the right to recover deferred taxes of industrial units goes to:",
+    "x": "Section 53(1) gives the right to recover deferred taxes to the State where the industrial unit is located."
+   }
+  },
+  {
+   "id": "fd925441fbe8e",
+   "why": "other direction: project -> funder; nf58ee2ca7f0 asks funder -> project"
+  },
+  {
+   "id": "f30877ee187c4",
+   "why": "different option set (46 alone vs 94(1)/94(3)); nec243449939 keys the 46+94(2) pair"
+  },
+  {
+   "id": "nce71e3d7e41",
+   "why": "other direction (NOT-a-feature) vs motto item f7572cac9d8b2"
+  },
+  {
+   "id": "n33b0856cff1",
+   "why": "direct question with launch date vs a statement item f3889d09cc62e"
+  },
+  {
+   "id": "fef1cd03c3f20",
+   "why": "single-fact (five stages) vs combination item ndbeed20d212"
+  },
+  {
+   "id": "fc9146bf952a9",
+   "why": "tests the PMSSY basis of AIIMS, not tested in nda519c4945c"
+  },
+  {
+   "id": "f28ab3688ca2a",
+   "why": "other direction (which IS a criterion) vs NOT-criterion item na98c2e543c0"
+  },
+  {
+   "id": "nef91ec254e7",
+   "why": "other direction: asks the weight; n277dcd30196 gives 10% and asks the Commission"
+  },
+  {
+   "id": "fed6a92c1840d",
+   "why": "direct recall of Bihar and Odisha with other-state distractors; nf56563ce9c3 tests the stated reason"
+  },
+  {
+   "id": "f20dd3bc8a22e",
+   "why": "positive statement form vs NOT-correct item n74f3c88a97e"
+  },
+  {
+   "id": "na70b68e9abc",
+   "why": "stem date fixed to March 2026 per notes; asks the split, not the 285 total",
+   "fix": {
+    "s": "In March 2026, the International Astronomical Union announced 15 new moons in the following distribution:"
+   }
+  },
+  {
+   "id": "ngeneral-geography-1-76",
+   "why": "other direction (NOT form, adds radiation pressure and solar wind) vs ngeneral-geography-1-74"
+  },
+  {
+   "id": "fc4221b80ed83",
+   "why": "new practice instance of antipode calculation (different coordinates)"
+  },
+  {
+   "id": "fc0365d879fc8",
+   "why": "pair format teaches Equator, Capricorn and Arctic Circle crossings too"
+  },
+  {
+   "id": "fc78b8493b73f",
+   "why": "other direction: effect -> cause; ngeneral-geography-2-23 asks cause -> effect"
+  },
+  {
+   "id": "f3a27836b608f",
+   "why": "other direction: asks the dates; PYQ y4b07080d15f gives the dates and asks the place"
+  },
+  {
+   "id": "n027312953b2",
+   "why": "other direction: tilt -> season; ngeneral-geography-3-22 asks season -> tilt"
+  },
+  {
+   "id": "fe9ebfafac78d",
+   "why": "direct positive question vs one statement in nfe8663ce8a6"
+  },
+  {
+   "id": "n686566b75e0",
+   "why": "same fact as PYQ ye9aa6061b62 but that PYQ has no key marked; this gives the keyed version"
+  },
+  {
+   "id": "n134edeb35e3",
+   "why": "asks the core, n02a86152b65 asks the mantle"
+  },
+  {
+   "id": "ngeneral-geography-1-7",
+   "why": "different angle: expansion of NIFE vs PYQ asking which elements"
+  },
+  {
+   "id": "ngeneral-geography-4-18",
+   "why": "different wrong statement (outer core solid) vs nacd0cec50a2 (inner core liquid)"
+  },
+  {
+   "id": "fbcbdcd27db1e",
+   "why": "positive direct form vs NOT-correct item ncc82a37f0c3"
+  },
+  {
+   "id": "n81ffbdf7a76",
+   "why": "teaches Mangampeta barytes and cobalt; f84e7c3baae3b is a different statement set"
+  },
+  {
+   "id": "fbe3d7291bd72",
+   "why": "positive direct form vs NOT-matched item n1d86af0b6f6"
+  },
+  {
+   "id": "f4a65ffe65248",
+   "why": "positive direct form vs NOT-matched item n7f99ae54805"
+  },
+  {
+   "id": "f2383da4d94c0",
+   "why": "other direction: NOT an old fold, other options are old folds; n0193a475a38 is a pair item"
+  },
+  {
+   "id": "f620abdef0aa0",
+   "why": "positive form adding Jura-type folds vs NOT-correct item na6e40bdf9b1"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "f9234d45b3c13",
+   "why": "exact repeat of n0de18447ffc, whose distractor \"K. Atchannaidu, for the first time\" already tests the third-time fact",
+   "_c": "dup"
+  },
+  {
+   "id": "f78fc5a787c36",
+   "why": "trivia: sowing share on one date (19 Aug 2026) of one season"
+  },
+  {
+   "id": "fe236e49abd91",
+   "why": "exact kharif-season split of one year's paddy output",
+   "_c": "trivia"
+  },
+  {
+   "id": "na7429a60564",
+   "why": "exact repeat of PYQ y5dbf094c1f2 (CTRI -> Rajahmundry)",
+   "_c": "dup"
+  },
+  {
+   "id": "fadb0209b1042",
+   "why": "trivia: venue of a private foundation's award event"
+  },
+  {
+   "id": "f3bf08e0554a9",
+   "why": "trivia: home district of an individual awardee farmer"
+  },
+  {
+   "id": "n32fba879418",
+   "why": "exact repeat of PYQ y68750202b0e (36% of seafood export value, 2018-19)",
+   "_c": "dup"
+  },
+  {
+   "id": "n44b3ef6ec4c",
+   "why": "exact repeat of PYQ y073c75bdb70 (15 agro-climatic zones)",
+   "_c": "dup"
+  },
+  {
+   "id": "fca97cfe0faab",
+   "why": "trivia: count of labour contract societies being wound up"
+  },
+  {
+   "id": "n0436db5b6aa",
+   "why": "trivia: number of blocks eligible for NCDC equity grants"
+  },
+  {
+   "id": "nindian-economy-30-5",
+   "why": "exact repeat of PYQ y09533bae782 (NABARD - Sivaraman Committee)",
+   "_c": "dup"
+  },
+  {
+   "id": "fc7dc4a3768da",
+   "why": "trivia: derived percentage rise; base figure already asked in f80c0b59e9aac"
+  },
+  {
+   "id": "nee34e311778",
+   "why": "exact repeat of PYQ y0fab4f31f90 (Indira Prabha)",
+   "_c": "dup"
+  },
+  {
+   "id": "f503c7959813e",
+   "why": "trivia: count of lift schemes modernised in one year"
+  },
+  {
+   "id": "n91a5dd671fe",
+   "why": "exact repeat of PYQ y51766160add (PS-SBG by Andhra Bank)",
+   "_c": "dup"
+  },
+  {
+   "id": "f87cabb577101",
+   "why": "trivia: market fee collected in part of one year"
+  },
+  {
+   "id": "nbd0fe24d292",
+   "why": "exact repeat of PYQ y34143c9b0d3 (Rythu Bazars from January 1999)",
+   "_c": "dup"
+  },
+  {
+   "id": "nbd73346d100",
+   "why": "exact repeat of PYQ y404bffa0d4a (Raitu Bandhu = pledge loan on produce)",
+   "_c": "dup"
+  },
+  {
+   "id": "n06ab5bdd076",
+   "why": "exact repeat of PYQ y87158c1ab31 (FDI rank 13th, 2021)",
+   "_c": "dup"
+  },
+  {
+   "id": "n3bd10c0b83b",
+   "why": "exact repeat of PYQ y671ef58df0a (26 cement plants 2014-15)",
+   "_c": "dup"
+  },
+  {
+   "id": "n1996ca32f1c",
+   "why": "exact repeat of PYQ yae4a2b89457 (16.2% SC plots)",
+   "_c": "dup"
+  },
+  {
+   "id": "nc3f9ccd7de7",
+   "why": "exact repeat of PYQ yec15d921a74 (75% local jobs, 2019)",
+   "_c": "dup"
+  },
+  {
+   "id": "n51fb0bc3ecc",
+   "why": "exact repeat of PYQ yc3742a79f1e (15% foreign capital subsidy not standard)",
+   "_c": "dup"
+  },
+  {
+   "id": "na56d6bd6aeb",
+   "why": "off-syllabus: Karnataka-only strategy, not in the AP industry notes"
+  },
+  {
+   "id": "n5c7948de708",
+   "why": "exact repeat of PYQs ybf530776c07 / y49cdf73bfca (21 days)",
+   "_c": "dup"
+  },
+  {
+   "id": "n06d91060834",
+   "why": "unfixable: key (APIIC coordinates Single Desk) not supported by notes; Single Desk already well covered"
+  },
+  {
+   "id": "nee5437eb4f4",
+   "why": "exact repeat of PYQ y433128550aa (APIIC-Union Bank MoU, July 2022)",
+   "_c": "dup"
+  },
+  {
+   "id": "ne0ed93781fb",
+   "why": "trivia: amount of hospitals' unpaid dues"
+  },
+  {
+   "id": "f9f8489dfbb8c",
+   "why": "exact survey head-count",
+   "_c": "trivia"
+  },
+  {
+   "id": "f603f1fd233ec",
+   "why": "exact repeat: repeat of nbf46c3960ca, whose distractor (217 sq km across 7 villages) already tests 29 villages"
+  },
+  {
+   "id": "n8c949a5ca7a",
+   "why": "exact repeat of PYQ ye8fe9c4c853 (DWCRA full form)",
+   "_c": "dup"
+  },
+  {
+   "id": "ffb8a20d40224",
+   "why": "exact repeat of PYQ y1b5c40a783b (YSR Aasara repays SHG loans)",
+   "_c": "dup"
+  },
+  {
+   "id": "f235587ea592c",
+   "why": "exact repeat of PYQ yba5c1c2f80f (health budget +21.1%)",
+   "_c": "dup"
+  },
+  {
+   "id": "ndb00e6e38de",
+   "why": "exact repeat of PYQ y84f7edb36f8 (revenue receipts 2018-19)",
+   "_c": "dup"
+  },
+  {
+   "id": "nf46656c4be7",
+   "why": "exact repeat of nc7644164086 (non-tax ~4% of revenue receipts)",
+   "_c": "dup"
+  },
+  {
+   "id": "n7185cf28670",
+   "why": "exact repeat of PYQ ybcf442faeb8 (stamps and registration Rs 3,476 crore)",
+   "_c": "dup"
+  },
+  {
+   "id": "fa9e307ee04f1",
+   "why": "exact repeat of PYQ y5cbea6d8268 (mines and minerals largest non-tax head)",
+   "_c": "dup"
+  },
+  {
+   "id": "n36004a0a342",
+   "why": "exact repeat of nf83a0845b3d (interest ~16% of revenue receipts)",
+   "_c": "dup"
+  },
+  {
+   "id": "ff1c368e3a51e",
+   "why": "exact repeat of nbb9f322419d (2017-18 RE interest Rs 14,783 crore is its key)",
+   "_c": "dup"
+  },
+  {
+   "id": "n497268398ee",
+   "why": "exact repeat of PYQs y548e27368df / y23ff1fa4935 / yc04dc43a14a (assent 1 March 2014)",
+   "_c": "dup"
+  },
+  {
+   "id": "nbd2e74dc989",
+   "why": "exact repeat of PYQ ya6093f481bf (Assembly 175 to 225)",
+   "_c": "dup"
+  },
+  {
+   "id": "n837ac89768e",
+   "why": "exact repeat of PYQs yfc94c18a8c2 / ybffdfca5d7d (judges' salaries by population ratio)",
+   "_c": "dup"
+  },
+  {
+   "id": "fb4ff62d3279d",
+   "why": "exact repeat of PYQ y2d7a50ee99e (High Court 1 Jan 2019, Amaravati)",
+   "_c": "dup"
+  },
+  {
+   "id": "f205f58dc368e",
+   "why": "exact repeat of PYQ y7fe86afa4d9 (CGS power by actual consumption)",
+   "_c": "dup"
+  },
+  {
+   "id": "feca432627b8c",
+   "why": "exact repeat of PYQ y0b2549d8001 (Section 95, Part XI)",
+   "_c": "dup"
+  },
+  {
+   "id": "n12504a6a536",
+   "why": "exact repeat of PYQ yc953a4b0d6b (Schedules IX and X, Dec 2022)",
+   "_c": "dup"
+  },
+  {
+   "id": "f113c9f80b7bb",
+   "why": "exact repeat of nf99dfb0c025 (APSCHE: population ratio for cash balances is its key)",
+   "_c": "dup"
+  },
+  {
+   "id": "n8e17b2f0bff",
+   "why": "exact repeat of PYQ yefa6ed7fb77 (14th FC RD grant Rs 22,113 crore)",
+   "_c": "dup"
+  },
+  {
+   "id": "f751668952d86",
+   "why": "exact repeat of n027e1c184a2 (Sec 46(2)-(3) package for Rayalaseema and North Coastal AP)",
+   "_c": "dup"
+  },
+  {
+   "id": "f8a888fb299d3",
+   "why": "exact repeat of n9d5f983f900 (pensions 58.32:41.68)",
+   "_c": "dup"
+  },
+  {
+   "id": "f617109366ee6",
+   "why": "exact repeat of n068791084e4 (Sec 6 committee = K.C. Sivaramakrishnan)",
+   "_c": "dup"
+  },
+  {
+   "id": "n02137a8e942",
+   "why": "exact repeat of ncaa93e978a1 (capital facilities = Sec 94(3))",
+   "_c": "dup"
+  },
+  {
+   "id": "n2e106dcf59b",
+   "why": "exact repeat of PYQ y4adbd545ffa (Rs 2,500 crore for the capital)",
+   "_c": "dup"
+  },
+  {
+   "id": "fc05b123cbaef",
+   "why": "exact repeat of n6d08fb78963 (HUDCO Rs 11,000 crore is its key)",
+   "_c": "dup"
+  },
+  {
+   "id": "n7d03837b93c",
+   "why": "exact repeat of PYQ y9a768f34650 (Amaravati Phase-I: World Bank + ADB)",
+   "_c": "dup"
+  },
+  {
+   "id": "fb3e9cae1c64b",
+   "why": "exact repeat of n1ad145b9354 (22 vs 13 districts already its discriminator)",
+   "_c": "dup"
+  },
+  {
+   "id": "f3d4016bec18e",
+   "why": "exact repeat of PYQ y92e43d5f1f7 (five components)",
+   "_c": "dup"
+  },
+  {
+   "id": "f0c51c153d10d",
+   "why": "exact repeat of n32839b88fe2 (APCRDA-VCIC is the wrong pair in both)",
+   "_c": "dup"
+  },
+  {
+   "id": "fc64c348e1d63",
+   "why": "exact repeat of n3b186b2fd44 (Savara and Jatapu - Srikakulam side)",
+   "_c": "dup"
+  },
+  {
+   "id": "n00c93bc9d1e",
+   "why": "exact repeat of nb9bfd0274ce (SCoR operational 1 June 2026)",
+   "_c": "dup"
+  },
+  {
+   "id": "n3a7548ba6ed",
+   "why": "exact repeat of ncf790d48ffe (steel plant in YSR district)",
+   "_c": "dup"
+  },
+  {
+   "id": "nb65882ca218",
+   "why": "exact repeat of PYQ yd1aecdb23a3 (Dugarajapatnam port)",
+   "_c": "dup"
+  },
+  {
+   "id": "fcb3c85ef24c5",
+   "why": "trivia: which politician made a 2026 statement"
+  },
+  {
+   "id": "n85b2232b192",
+   "why": "exact repeat of n1ab01c57fb5 (APFAMGS FAO-executed, Netherlands-funded)",
+   "_c": "dup"
+  },
+  {
+   "id": "f02b052da31c9",
+   "why": "exact repeat of n4bf5bf366b8 (2018 no-confidence motion in Lok Sabha)",
+   "_c": "dup"
+  },
+  {
+   "id": "ngeneral-geography-1-54",
+   "why": "exact repeat of PYQ y8fdaf85e828 (149.6 million km)",
+   "_c": "dup"
+  },
+  {
+   "id": "f38ad2a402058",
+   "why": "exact repeat of PYQs y9b89dd47480 / y6f96c4944c8 (cosmology)",
+   "_c": "dup"
+  },
+  {
+   "id": "ngeneral-geography-1-63",
+   "why": "exact repeat of PYQ y6db283054b6 (same Moon same-face A/R)",
+   "_c": "dup"
+  },
+  {
+   "id": "f2b4113e6a98b",
+   "why": "exact repeat of n9399e20ffd8 (Eris prompted Pluto reclassification)",
+   "_c": "dup"
+  },
+  {
+   "id": "fbfb00c470f98",
+   "why": "exact repeat of na2ff5ebaad6 (Eris as moon of Jupiter is the wrong item in both)",
+   "_c": "dup"
+  },
+  {
+   "id": "f05fb4a2b4791",
+   "why": "exact repeat of PYQ y1de438d4db3 (latitudes run east-west)",
+   "_c": "dup"
+  },
+  {
+   "id": "f0be4c141898f",
+   "why": "exact repeat of ngeneral-geography-2-44 (axis shift from mass redistribution)",
+   "_c": "dup"
+  },
+  {
+   "id": "ngeneral-geography-2-19",
+   "why": "exact repeat of PYQ y88a14d14af8 (day and night by rotation)",
+   "_c": "dup"
+  },
+  {
+   "id": "fc8bfcd5028b8",
+   "why": "exact repeat of PYQ y99274e660ca (revolution on a tilted axis)",
+   "_c": "dup"
+  },
+  {
+   "id": "nb172d8bb055",
+   "why": "copy of APPSC 2019 PYQ yb4428df0283 (60W -> 90E, 8 p.m.)",
+   "_c": "dup"
+  },
+  {
+   "id": "nad86eee7986",
+   "why": "exact repeat of PYQs ya2ce1dad99f / y53cb709e8b8 (Bering Strait)",
+   "_c": "dup"
+  },
+  {
+   "id": "f0b224b6e4151",
+   "why": "exact repeat of PYQ y9f08af2a6f9 (Tropic of Cancer not through Iran)",
+   "_c": "dup"
+  },
+  {
+   "id": "fae94cbfeefa2",
+   "why": "exact repeat of PYQ ya3a79b613be (Equator through Kenya)",
+   "_c": "dup"
+  },
+  {
+   "id": "n63350563f4b",
+   "why": "exact repeat of PYQ ydb3d8822c1e (SH longest day 22 December)",
+   "_c": "dup"
+  },
+  {
+   "id": "f699745e2f683",
+   "why": "exact repeat of PYQs y19d59769f1b / y4abf6c87f61 (Sun does not set at Arctic Circle)",
+   "_c": "dup"
+  },
+  {
+   "id": "nb6cfd932118",
+   "why": "exact repeat of PYQ y38bec457d7c (Christmas in Australia = summer)",
+   "_c": "dup"
+  },
+  {
+   "id": "na5d18d6d37e",
+   "why": "exact repeat of PYQ y3282f425afb (Srinagar longest day)",
+   "_c": "dup"
+  },
+  {
+   "id": "n242801ab685",
+   "why": "exact repeat of PYQ y96b7fe2fee8 (silicon in the core)",
+   "_c": "dup"
+  },
+  {
+   "id": "n8dff58ebe2f",
+   "why": "exact repeat of PYQ y6bb1e0040e8 (oxygen most abundant in crust)",
+   "_c": "dup"
+  },
+  {
+   "id": "fdfdc1c715d35",
+   "why": "exact repeat of nafccc6f15d8 (chemically formed - rock salt is its key)",
+   "_c": "dup"
+  },
+  {
+   "id": "f369efa8ce499",
+   "why": "trivia: year of a 19th-century congress meeting"
+  },
+  {
+   "id": "n9f753f7ab89",
+   "why": "exact repeat of PYQ y88add7e2bf5 (Wegener)",
+   "_c": "dup"
+  },
+  {
+   "id": "n0053e404763",
+   "why": "exact repeat of PYQs y39170ca5042 / y7fbab6a4b24 (Ghana gold - Brazil)",
+   "_c": "dup"
+  },
+  {
+   "id": "f2104dc6ec6a4",
+   "why": "exact repeat of n66901b70dc0 (Reunion hotspot is its key)",
+   "_c": "dup"
+  }
+ ]
+}
