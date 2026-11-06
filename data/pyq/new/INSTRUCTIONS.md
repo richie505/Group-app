@@ -33,3 +33,14 @@ data/pyq/new/<name>.jsonl, one JSON object per line. Edit nothing else; do not c
 - If a page is unreadable, skip those questions; do not guess text.
 - At the end print a one-line summary: "<name>: <n> GS questions written (<k> with key), <m> skipped (mental ability etc.)".
 Reply with only that line.
+
+## Notes from the pilot
+- Official APOnline "Initial/Final Keys" PDFs (2018-2025 online tests) print only the right option: those are NOT read
+  in this round. Scanned question papers (Sakshi, Carpe Diem, appscgroup blogspot, book scans) print all four.
+- A compilation book (many papers in one PDF): set "exam" per question to the paper/year the book names for it
+  (e.g. "APPSC Group-II 2016"); if the book gives an explanation, put it in "x".
+- Big PDFs: read in page ranges; if the Drive download is refused for size, say so in the reply line.
+- Drive refuses downloads over about 8 MB ("message too large"). For a big file use its split copies: in
+  data/pyq/drive_inventory.json the entries whose "source_id" is the big file's id, or titles "<name> - Part n of m"
+  (folders "Split under 5 MB", "PDF Parts Under 5 MB", "Newly Found PDF Parts Under 5 MB", "Missing Requested PDF
+  Parts Under 5 MB"). Download each part and read its pages.
