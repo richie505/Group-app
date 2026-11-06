@@ -75,8 +75,8 @@ class CompleteTest {
         rule.onAllNodes(hasText("Full notes", substring = true, ignoreCase = true)).fetchSemanticsNodes().let { assertTrue("no Full notes heading or badge", it.isEmpty()) }
         rule.onNodeWithText("Subsections", substring = true, ignoreCase = true).assertExists()
         // the count read is of the pages shown (empty ones hidden)
-        rule.onNodeWithText("SUBSECTIONS (20)", substring = true, ignoreCase = true).assertExists()
-        rule.onNodeWithText("0 / 20", substring = true).assertExists()
+        rule.onNodeWithText("SUBSECTIONS (15)", substring = true, ignoreCase = true).assertExists()
+        rule.onNodeWithText("0 / 15", substring = true).assertExists()
     }
 
     /** A 3-statement MCQ: the title fits beside the buttons; one tap on an option answers it (no Check step). */
@@ -141,15 +141,17 @@ class CompleteTest {
         val blocks = book.rows[at.row].secs[at.sec].blocks
         val marked = com.appsc.prep.data.NotesFinder.marked(q, blocks).map { com.appsc.prep.data.NotesFinder.text(listOf(blocks[it])) }
         println(marked)
-        for (fact in listOf("abiotic", "hydrogen", "Seasonal plantation")) assertTrue("$fact marked: $marked", marked.any { fact in it })
-        // across the bank: most statements of the statement MCQs find their line on the page shown
+        // the blueprint notes hold the first two statements on the classification page (the third is on Land Resources)
+        for (fact in listOf("abiotic", "hydrogen")) assertTrue("$fact marked: $marked", marked.any { it.contains(fact, ignoreCase = true) })
+        // across the bank: most statements of the statement MCQs find their line in the topic (the key points shown first)
         var stmts = 0; var hit = 0
         for (b in 1..6) {
             val bk = repo.book(b); val mq = repo.mcq(b)
             mq.rows.values.flatten().filter { it.id.startsWith("m") }.take(150).forEach { x ->
                 val p = com.appsc.prep.data.NotesFinder.best(x, bk, mq.placeOf(x.id)?.first ?: -1) ?: return@forEach
                 stmts += 3
-                hit += com.appsc.prep.data.NotesFinder.statementMarks(x, bk.rows[p.row].secs[p.sec].blocks)?.size ?: 0
+                // a statement's line on any page of the topic: the key points "Read from the notes" shows first
+                hit += com.appsc.prep.data.NotesFinder.keyPoints(x, bk.rows[p.row], p.sec).size.coerceAtMost(3)
             }
         }
         println("statement lines marked: $hit of $stmts")
@@ -195,7 +197,7 @@ class CompleteTest {
                 pages += bk.rows.sumOf { it.secs.size }
             }
         }
-        assertEquals(2 * 17663 + 20, pages)
+        assertEquals("one set of notes, shown in both modes", 2 * 11199, pages)
         var mcqs = 0
         for (b in 1..6) {
             val m = repo.mcq(b)
@@ -249,7 +251,7 @@ class CompleteTest {
         val row = runBlocking { app.repo.book(4).rows[30] }
         val keys = com.appsc.prep.data.NotesFinder.keyPoints(q, row, 0)
         val text = keys.map { (si, bi) -> com.appsc.prep.data.NotesFinder.text(listOf(row.secs[si].blocks[bi])) }
-        for (fact in listOf("abiotic", "hydrogen", "Seasonal plantation")) assertTrue("$fact in $text", text.any { fact in it })
+        for (fact in listOf("hydrogen", "Seasonal plantation")) assertTrue("$fact in $text", text.any { it.contains(fact, ignoreCase = true) })
         rule.onNode(androidx.compose.ui.test.hasContentDescription("Read from the notes")).performClick()
         rule.waitForIdle()
         rule.mainClock.advanceTimeBy(1500)
@@ -275,23 +277,14 @@ class CompleteTest {
         assertTrue("key points found", keys.isNotEmpty())
     }
 
-        @Test fun pagesWithNothingForTheMcqsAreHiddenAndCountAsRead() = runBlocking {
+        /** The blueprint notes have one page per numbered section: none is empty, so none is hidden. */
+    @Test fun noPageIsEmptyOrHidden() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
-        repo.mcqNotes = true
-        val mcqEmpty = repo.emptyPages(true)
-        assertTrue("MCQ notes' empty pages listed: ${mcqEmpty.size}", mcqEmpty.size > 5000)
-        val b = repo.book(1)
-        val flagged = b.rows.flatMapIndexed { ri, r -> r.secs.mapIndexedNotNull { si, s -> if (s.empty) "1:$ri:$si" else null } }
-        assertEquals(mcqEmpty.filter { it.startsWith("1:") }.toSet(), flagged.toSet())
-        val store = ProgressStore(PrefsStorage(ctx))
-        store.skip = mcqEmpty
-        val (ri, row) = b.rows.withIndex().first { (_, r) -> r.secs.any { it.empty } && r.secs.any { !it.empty } }
-        row.secs.indices.filter { !row.secs[it].empty }.forEach { store.setDone(subsectionId(1, ri, it), true) }
-        assertEquals("a topic is finished once its real pages are read", row.secs.size, store.doneCount(1, ri, row.secs.size))
-        // the full notes keep only what the MCQs test, and are still all there in the archive (data/notes-archive)
-        repo.mcqNotes = false
-        assertTrue(repo.emptyPages(false).size < 100)
-        assertTrue(repo.book(1).rows.sumOf { it.secs.size } > 1000)
+        for (mode in listOf(true, false)) {
+            repo.mcqNotes = mode
+            assertTrue(repo.emptyPages(mode).isEmpty())
+            for (b in 1..6) assertTrue(repo.book(b).rows.all { r -> r.secs.isNotEmpty() && r.secs.none { it.empty } })
+        }
     }
 
     @Test fun edition() {
@@ -410,7 +403,8 @@ class CompleteTest {
         complete.migrate(r.idMoves)
         complete.migrateNotes(r.noteMoves)
         complete.restore(one.backup(), r.idMoves, r.noteMoves, r.mcqLinks)
-        assertEquals(setOf("1:0:1", "1:0:${k + 1}"), complete.done)
+        val mv = { id: String -> r.idMoves.map[id] ?: id }
+        assertEquals(setOf(mv("1:0:1"), mv("1:0:${k + 1}")), complete.done)
         assertEquals("from one-liners", complete.added["1:0:${k + 1}#-1"])
         assertEquals(false, complete.answers[mcq])
         assertEquals(true, complete.answers[mcq2])

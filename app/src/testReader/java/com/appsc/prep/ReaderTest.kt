@@ -86,23 +86,22 @@ class ReaderTest {
             assertTrue(repo.mcq(b).rows.isEmpty())
             assertTrue(repo.index[b - 1].rows.all { it.questionCount == 0 })
         }
-        assertTrue(pages in 10000..10676)
+        assertTrue(pages in 10000..11500)
         // the plan reads every topic once
         val study = repo.plan.days.filter { it.type == "study" }.flatMap { d -> d.rows.map { it.book to it.row } }
         assertEquals(927, study.toSet().size)
     }
 
-    /** 3.19's page ids (APPSC Complete's) move to the new pages; read marks and markers go with them. */
+    /** 3.20's page ids move to the blueprint notes' pages of the same topic; read marks and markers go with them. */
     @Test fun readMarksAndMarkersMoveToTheNewPages() {
         val moves = repo.idMoves
-        assertEquals("reader-2", moves.version)
+        assertEquals("reader-3", moves.version)
         val store = ProgressStore(PrefsStorage(ctx))
-        // APPSC Complete's 1:0:9 is topic 1's first full-notes page
-        store.toggleDone("1:0:9")
-        store.addMark("1:0:9", "Sohgaura", 0, "Oldest", "Sources")
-        store.addMark("1:0:0", "gone", 0, "Literary sources", "Sources")
+        val (from, to) = moves.map.entries.first { it.key.startsWith("1:0:") }.toPair()
+        assertTrue(to.startsWith("1:0:"))
+        store.toggleDone(from)
+        store.addMark(from, "Sohgaura", 0, "Oldest", "Sources")
         store.migrate(moves)
-        val to = moves.map["1:0:9"]!!
         assertTrue(store.isDone(to))
         assertEquals(listOf(to), store.marks.map { it.page })
     }

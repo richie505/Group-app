@@ -113,11 +113,11 @@ class Group2Test {
         }
     }
 
-    @Test fun thePlanRunsFromNov5ToTheExam() {
+    @Test fun thePlanRunsFromNov6ToTheExam() {
         val p = repo.plan
-        assertEquals(java.time.LocalDate.of(2026, 11, 5), p.days.first().date)
+        assertEquals(java.time.LocalDate.of(2026, 11, 6), p.days.first().date)
         assertEquals(java.time.LocalDate.of(2027, 1, 21), p.days.last().date)
-        assertEquals(78, p.days.size)
+        assertEquals(77, p.days.size)
         val study = p.days.filter { it.type == "study" }.flatMap { d -> d.rows.map { it.book to it.row } }
         assertEquals(471, study.size)
         assertEquals(471, study.toSet().size)

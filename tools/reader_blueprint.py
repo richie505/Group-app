@@ -6,7 +6,7 @@ for reading only. Run after tools/blueprint_build.py. Writes app/src/reader/asse
   whose words match it best, so read marks and bookmarks stay near where they were
 simple.json (the dictionary) is kept. Then run tools/reader_plan.py.
 
-    python3 tools/reader_blueprint.py
+    python3 tools/reader_blueprint.py [complete assets] [reader assets] [earlier reader books dir]
 """
 import collections
 import json
@@ -15,8 +15,8 @@ import re
 import sys
 
 A = sys.argv[1] if len(sys.argv) > 1 else "app/src/complete/assets"
-R0 = "app/src/reader/assets"  # the earlier Reader notes (for moved.json)
-R = sys.argv[2] if len(sys.argv) > 2 else R0
+R = sys.argv[2] if len(sys.argv) > 2 else "app/src/reader/assets"
+R0 = sys.argv[3] if len(sys.argv) > 3 else R  # the earlier Reader notes (reader-2), for moved.json
 os.makedirs(R, exist_ok=True)
 J = lambda p: json.load(open(p))
 W = lambda p, o: json.dump(o, open(p, "w"), ensure_ascii=False, separators=(",", ":"))
@@ -45,6 +45,9 @@ for b in range(1, 7):
             ws = set(words(s))
             best = max(range(len(cs)), key=lambda i: sum(1 for w in ws if w in cs[i])) if cs else 0
             moved[f"{b}:{ri}:{si}"] = f"{b}:{t}:{best}"
+    for r in nf:  # two groups: the topic's numbered notes, then its last three sections (revision and traps)
+        for i, s in enumerate(r["secs"]):
+            s["g"] = "Quick revision and traps" if i >= len(r["secs"]) - 3 else "Notes"
     pages += sum(len(r["secs"]) for r in nf)
     W(f"{R}/book{b}.json", new)
     W(f"{R}/mcq{b}.json", {"rows": {}, "units": {}, "subs": {}})

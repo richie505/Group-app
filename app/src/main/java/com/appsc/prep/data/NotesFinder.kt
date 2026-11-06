@@ -137,22 +137,39 @@ object NotesFinder {
 
     /**
      * The key points of a topic for [q]: (page, line) of each line that states a fact the MCQ tests. A statement MCQ:
-     * for each statement, its best line on any page of the topic. Otherwise: the lines holding the answer on the page
-     * [at] (the one [best] found). Empty when none is clear; the whole page shows then.
+     * for each statement, its best line on any page of the topic (a text line, or a table: see [keyLines]).
+     * Otherwise: the lines holding the answer on the page [at] (the one [best] found). Empty when none is clear; the
+     * whole page shows then.
      */
-    fun keyPoints(q: Question, row: NoteRow, at: Int): List<Pair<Int, Int>> {
+    fun keyPoints(q: Question, row: NoteRow, at: Int): List<Pair<Int, Int>> =
+        keyLines(q, row, at).map { it.first to it.second }.distinct()
+
+    /**
+     * [keyPoints] with what to show for each: (page, block, the block itself, or for a table just its matching row
+     * under the table's head).
+     */
+    fun keyLines(q: Question, row: NoteRow, at: Int): List<Triple<Int, Int, Block>> {
         val st = q.stem.lines().mapNotNull { NUMBERED.matchEntire(it)?.let { m -> m.groupValues[1] to m.groupValues[2] } }
         if (st.size >= 2) {
             val why = q.explanation.lines().mapNotNull { WHY.matchEntire(it.trim())?.let { m -> m.groupValues[1] to m.groupValues[2] } }.toMap()
-            val lines = row.secs.flatMapIndexed { si, s -> s.blocks.indices.filter { s.blocks[it] is TextBlock && (s.blocks[it] as TextBlock).kind != 'h' }.map { Triple(si, it, words(text(listOf(s.blocks[it])))) } }
-            val out = LinkedHashSet<Pair<Int, Int>>()
+            // every text line (not headings) and every table row is a line
+            val lines = row.secs.flatMapIndexed { si, s ->
+                s.blocks.flatMapIndexed { bi, b ->
+                    when {
+                        b is TextBlock && b.kind != 'h' -> listOf(Triple(si, bi, b as Block))
+                        b is TableBlock -> b.rows.map { r -> Triple(si, bi, TableBlock(b.head, listOf(r)) as Block) }
+                        else -> emptyList()
+                    }
+                }
+            }.map { (si, bi, b) -> Pair(Triple(si, bi, b), words(text(listOf(b)))) }
+            val out = LinkedHashSet<Triple<Int, Int, Block>>()
             for ((n, s) in st) {
                 val ws = words(s)
                 val w = ws + words(why[n].orEmpty().replace(Regex("^(Correct|Incorrect):", RegexOption.IGNORE_CASE), ""))
                 if (w.isEmpty()) continue
-                val best = lines.map { (si, bi, lw) ->
+                val best = lines.map { (key, lw) ->
                     val c = lw.count { it in w }
-                    Triple(si to bi, c, (c + lw.count { it in ws }) / Math.pow(lw.size.coerceAtLeast(1).toDouble(), 0.3) + if (si == at) 0.2 else 0.0)
+                    Triple(key, c, (c + lw.count { it in ws }) / Math.pow(lw.size.coerceAtLeast(1).toDouble(), 0.3) + if (key.first == at) 0.2 else 0.0)
                 }.filter { it.second >= 3 || it.second * 2 >= w.size.coerceAtMost(6) }.maxByOrNull { it.third } ?: continue
                 out += best.first
             }
@@ -160,7 +177,7 @@ object NotesFinder {
         }
         val sec = row.secs.getOrNull(at) ?: return emptyList()
         // the answer's lines, else the lines sharing most of the question's words (as marked on the whole page)
-        return marked(q, sec.blocks).filter { (sec.blocks[it] as? TextBlock)?.kind != 'h' }.sorted().take(4).map { at to it }
+        return marked(q, sec.blocks).filter { (sec.blocks[it] as? TextBlock)?.kind != 'h' }.sorted().take(4).map { Triple(at, it, sec.blocks[it]) }
     }
 
     /** Whether a block holds the answer (most of its words): such lines are marked. */

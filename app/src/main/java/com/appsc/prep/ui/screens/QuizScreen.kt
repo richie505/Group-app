@@ -964,7 +964,7 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
             val (row, order) = f
             val pages = order.sorted()
             // first: only the key points of this MCQ (its facts' lines, from any page of the topic); the whole page on request
-            val keys = remember(q.id) { com.appsc.prep.data.NotesFinder.keyPoints(q, row, order.first()) }
+            val keys = remember(q.id) { com.appsc.prep.data.NotesFinder.keyLines(q, row, order.first()) }
             var whole by remember(q.id) { mutableStateOf(keys.isEmpty()) }
             if (!whole) {
                 Column(Modifier.weight(1f).fillMaxWidth().verticalScroll(androidx.compose.foundation.rememberScrollState()).padding(horizontal = 20.dp, vertical = 14.dp)) {
@@ -975,7 +975,7 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
                         modifier = Modifier.padding(top = 4.dp, bottom = 6.dp),
                     )
                     var lastSec = -1
-                    keys.forEach { (si, bi) ->
+                    keys.forEach { (si, _, blk) ->
                         if (si != lastSec) {
                             Text(
                                 row.secs[si].title,
@@ -984,12 +984,10 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
                             )
                             lastSec = si
                         }
-                        row.secs[si].blocks.getOrNull(bi)?.let { blk ->
-                            Box(Modifier.fillMaxWidth().background(Color(0xFFFFF4C2), RoundedCornerShape(6.dp)).padding(horizontal = 4.dp)) {
-                                com.appsc.prep.ui.components.BlockView(blk, 0.95f)
-                            }
-                            Spacer(Modifier.height(4.dp))
+                        Box(Modifier.fillMaxWidth().background(Color(0xFFFFF4C2), RoundedCornerShape(6.dp)).padding(horizontal = 4.dp)) {
+                            com.appsc.prep.ui.components.BlockView(blk, 0.95f)
                         }
+                        Spacer(Modifier.height(4.dp))
                     }
                 }
                 androidx.compose.material3.HorizontalDivider(color = C.Line)
