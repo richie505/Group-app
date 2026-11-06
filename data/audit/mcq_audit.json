@@ -13,18 +13,18 @@
  },
  "Complete": {
   "all": {
-   "n": 35562,
+   "n": 39054,
    "shares": {
-    "one-liner": 0.388,
-    "statements": 0.448,
-    "NOT": 0.044,
-    "match": 0.062,
-    "assertion": 0.038,
-    "sequence": 0.02
+    "one-liner": 0.46,
+    "statements": 0.381,
+    "NOT": 0.05,
+    "match": 0.056,
+    "assertion": 0.034,
+    "sequence": 0.019
    },
-   "stem words (median)": 19,
-   "4+ statements": 420,
-   "code boilerplate": 377,
+   "stem words (median)": 16,
+   "4+ statements": 421,
+   "code boilerplate": 378,
    "no explanation": 3528
   },
   "by subject": {
@@ -44,18 +44,18 @@
     "no explanation": 786
    },
    "Polity, Society & IR": {
-    "n": 5958,
+    "n": 9450,
     "shares": {
-     "one-liner": 0.329,
-     "statements": 0.503,
-     "NOT": 0.054,
-     "match": 0.055,
-     "assertion": 0.049,
-     "sequence": 0.011
+     "one-liner": 0.65,
+     "statements": 0.206,
+     "NOT": 0.072,
+     "match": 0.034,
+     "assertion": 0.031,
+     "sequence": 0.006
     },
-    "stem words (median)": 26,
-    "4+ statements": 88,
-    "code boilerplate": 72,
+    "stem words (median)": 14,
+    "4+ statements": 89,
+    "code boilerplate": 73,
     "no explanation": 646
    },
    "Economy": {
@@ -132,9 +132,9 @@
     "topics": 170,
     "topics without MCQs": 0,
     "pages": 1534,
-    "pages without MCQs": 210,
+    "pages without MCQs": 100,
     "bold facts": 19368,
-    "bold facts asked": 0.575
+    "bold facts asked": 0.706
    },
    "Economy": {
     "topics": 145,
@@ -171,18 +171,18 @@
   },
   "least covered topics": [
    [
-    0.15,
-    2,
-    101,
-    "Quasi-judicial Bodies – National Green Tribunal, Nclt/nclat, Cat, Sat,",
-    3
-   ],
-   [
     0.18,
     1,
     223,
     "Depressed Classes Movement, Communal Award and the Poona Pact 1932",
     3
+   ],
+   [
+    0.19,
+    2,
+    101,
+    "Quasi-judicial Bodies – National Green Tribunal, Nclt/nclat, Cat, Sat,",
+    5
    ],
    [
     0.21,
@@ -319,20 +319,6 @@
    ],
    [
     0.35,
-    2,
-    20,
-    "Recent Amendments – 97TH to 106TH",
-    7
-   ],
-   [
-    0.35,
-    2,
-    120,
-    "Regionalism in Andhra Pradesh – Regional Imbalance and Its Politics",
-    9
-   ],
-   [
-    0.35,
     3,
     25,
     "Trends in India's National Income, Per Capita Income and Sectoral Shar",
@@ -344,6 +330,20 @@
     9,
     "Ivc Seals, Weights and Measures, Harappan Script",
     6
+   ],
+   [
+    0.36,
+    3,
+    3,
+    "Role of the It and Ites Industry in India's Development",
+    12
+   ],
+   [
+    0.36,
+    4,
+    25,
+    "Ocean-atmosphere Interaction – El Nino, La Nina, Enso, Iod, Walker Cir",
+    20
    ]
   ]
  },
