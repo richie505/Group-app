@@ -1,0 +1,622 @@
+[
+ {
+  "item": 1,
+  "shape": "one-liner",
+  "s": "In which city was the 3rd World AI Summit-2026 held on 14-15 October 2026?",
+  "o": [
+   "Hyderabad",
+   "Chennai",
+   "Bengaluru",
+   "Pune"
+  ],
+  "a": 2,
+  "x": "The 3rd World AI Summit-2026 was held on 14-15 October 2026 at Sheraton Grand Bengaluru, Brigade Gateway, Karnataka."
+ },
+ {
+  "item": 1,
+  "shape": "statements",
+  "s": "Consider the following statements about the IndiaAI Mission:\n1. It was approved on 7 March 2024.\n2. It has an outlay of Rs 10,371.92 crore over five years.\n3. It is implemented by the Ministry of Science and Technology.",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "The IndiaAI Mission was approved on 7 March 2024 with Rs 10,371.92 crore over five years; it is implemented by MeitY, not the Ministry of Science and Technology, so statement 3 is wrong."
+ },
+ {
+  "item": 2,
+  "shape": "one-liner",
+  "s": "Where will the first Cybertech Asia Summit in India be held on 17-18 March 2027?",
+  "o": [
+   "Yashobhoomi, New Delhi",
+   "Jio World Convention Centre, Mumbai",
+   "Bharat Mandapam, New Delhi",
+   "HICC, Hyderabad"
+  ],
+  "a": 1,
+  "x": "The first Cybertech Asia Summit in India will be held on 17-18 March 2027 at Jio World Convention Centre, BKC, Mumbai, as announced by Maharashtra CM Devendra Fadnavis."
+ },
+ {
+  "item": 2,
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about India's cyber security set-up?",
+  "o": [
+   "CERT-In was set up in 2004 under MeitY",
+   "I4C works under the Ministry of Home Affairs",
+   "The national cybercrime helpline number is 1930",
+   "The Information Technology Act was passed in 2005"
+  ],
+  "a": 3,
+  "x": "The Information Technology Act dates from 2000, not 2005. CERT-In (2004, MeitY), I4C under MHA and helpline 1930 are correct."
+ },
+ {
+  "item": 3,
+  "shape": "one-liner",
+  "s": "Where was the 14th International Tourism Mart held on 29-31 October 2026?",
+  "o": [
+   "Gangtok, Sikkim",
+   "Shillong, Meghalaya",
+   "Tawang, Arunachal Pradesh",
+   "Kohima, Nagaland"
+  ],
+  "a": 2,
+  "x": "The 14th International Tourism Mart was held at Tawang, Arunachal Pradesh, on 29-31 October 2026 by the Union Ministry of Tourism and the Arunachal government."
+ },
+ {
+  "item": 3,
+  "shape": "statements",
+  "s": "Consider the following statements about the 14th International Tourism Mart, Tawang:\n1. Stakeholders from 27 countries took part.\n2. Tawang earlier hosted the International Tourism Mart in 2013.\n3. It was organised by the Ministry of DoNER alone.",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Stakeholders came from 27 countries and Tawang had hosted ITM in 2013; the Mart was organised by the Union Ministry of Tourism with the Arunachal government, so statement 3 is wrong."
+ },
+ {
+  "item": 3,
+  "shape": "match",
+  "s": "Which of the following pairs is correctly matched?",
+  "o": [
+   "North Eastern Council – Guwahati",
+   "Tawang Monastery – Gelug school",
+   "Number of Northeast States – Seven",
+   "Nodal ministry for the Northeast – Ministry of Tourism"
+  ],
+  "a": 1,
+  "x": "Tawang Monastery, the largest Buddhist monastery in India, belongs to the Gelug school. The NEC is headquartered in Shillong, the Northeast has 8 States and DoNER is the nodal ministry."
+ },
+ {
+  "item": 4,
+  "shape": "one-liner",
+  "s": "Which city will host the 5th India Energy Week on 28-31 January 2027?",
+  "o": [
+   "Goa",
+   "Bengaluru",
+   "Kolkata",
+   "Bhubaneswar"
+  ],
+  "a": 2,
+  "x": "The 5th India Energy Week-2027 will be held at New Town Convention Centre, Kolkata, on 28-31 January 2027."
+ },
+ {
+  "item": 4,
+  "shape": "statements",
+  "s": "Consider the following statements about India Energy Week:\n1. Its first edition was held in Bengaluru in 2023.\n2. Its 4th edition was held in Goa in 2026.\n3. It is organised by FIPI, headquartered in Mumbai.",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "The 1st edition was in Bengaluru (2023) and the 4th in Goa (2026). FIPI is headquartered in New Delhi, not Mumbai, so statement 3 is wrong."
+ },
+ {
+  "item": 5,
+  "shape": "one-liner",
+  "s": "Where will the 19th Pravasi Bharatiya Divas Convention be held on 7-9 January 2027?",
+  "o": [
+   "Bhubaneswar",
+   "Kolkata",
+   "Indore",
+   "Varanasi"
+  ],
+  "a": 1,
+  "x": "The 19th Pravasi Bharatiya Divas Convention will be held in Kolkata on 7-9 January 2027."
+ },
+ {
+  "item": 5,
+  "shape": "assertion",
+  "s": "Assertion (A): Pravasi Bharatiya Divas is observed on 9 January.\nReason (R): Mahatma Gandhi returned to India from South Africa on 9 January 1915.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "PBD is observed on 9 January because it marks Gandhi's return from South Africa on 9 January 1915, so R explains A."
+ },
+ {
+  "item": 5,
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about the 19th Pravasi Bharatiya Divas Convention?",
+  "o": [
+   "PM Modi is to inaugurate it",
+   "President Droupadi Murmu is to give the Pravasi Bharatiya Samman Awards",
+   "The nodal ministry is the Ministry of Home Affairs",
+   "The first such convention was held in 2003"
+  ],
+  "a": 2,
+  "x": "The nodal ministry for Pravasi Bharatiya Divas is the Ministry of External Affairs, not the Ministry of Home Affairs."
+ },
+ {
+  "item": 6,
+  "shape": "one-liner",
+  "s": "Where was the 13th Conference of the Parties to UNTOC held on 19-23 October 2026?",
+  "o": [
+   "Geneva",
+   "Vienna",
+   "Palermo",
+   "New York"
+  ],
+  "a": 1,
+  "x": "The 13th COP to UNTOC was held on 19-23 October 2026 at the Vienna International Centre, Austria."
+ },
+ {
+  "item": 6,
+  "shape": "statements",
+  "s": "Consider the following statements about the UN Convention against Transnational Organized Crime (UNTOC):\n1. It was adopted by the UN General Assembly on 15 November 2000.\n2. It came into force on 29 September 2005.\n3. It has three protocols, including one on smuggling of migrants.",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "UNTOC was adopted on 15 November 2000 and has three protocols (trafficking in persons, smuggling of migrants, firearms). It came into force on 29 September 2003, not 2005."
+ },
+ {
+  "item": 6,
+  "shape": "match",
+  "s": "Which of the following pairs is correctly matched?",
+  "o": [
+   "UNODC headquarters – Geneva",
+   "UNCAC entry into force – 2005",
+   "World Day against Trafficking in Persons – 15 November",
+   "UNODC established – 2001"
+  ],
+  "a": 1,
+  "x": "UNCAC was adopted in 2003 and came into force in 2005. UNODC was set up in 1997 with HQ Vienna, and the World Day against Trafficking in Persons is 30 July."
+ },
+ {
+  "item": 7,
+  "shape": "one-liner",
+  "s": "What was the theme of the World Health Summit-2026 held in Berlin on 11-13 October 2026?",
+  "o": [
+   "From Crisis to Resilience: Innovating for Health",
+   "Health for All, All for Health",
+   "Building Resilient Health Systems",
+   "One World, One Health"
+  ],
+  "a": 0,
+  "x": "The World Health Summit-2026 in Berlin had the theme \"From Crisis to Resilience: Innovating for Health\"."
+ },
+ {
+  "item": 7,
+  "shape": "statements",
+  "s": "Consider the following statements about the World Health Summit:\n1. It was launched in 2009.\n2. It is held annually in Berlin.",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 2,
+  "x": "The World Health Summit was launched in 2009 and is held annually in Berlin, Germany."
+ },
+ {
+  "item": 8,
+  "shape": "one-liner",
+  "s": "Who inaugurated KAUMARACON-2026, the 3rd International Conference on Kaumarabhritya, in New Delhi?",
+  "o": [
+   "President Droupadi Murmu",
+   "Vice President C. P. Radhakrishnan",
+   "Prime Minister Narendra Modi",
+   "Lok Sabha Speaker Om Birla"
+  ],
+  "a": 1,
+  "x": "KAUMARACON-2026 was inaugurated by Vice President C. P. Radhakrishnan in New Delhi on 15-17 October 2026."
+ },
+ {
+  "item": 8,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. Kaumarabhritya is the Ayurvedic branch of paediatrics and one of the eight branches of Ayurveda.\n2. KAUMARACON-2026 was part of the 10th Foundation Day of the All India Institute of Ayurveda (AIIA).\n3. The Ministry of AYUSH was formed on 9 November 2017.",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Kaumarabhritya is Ayurvedic paediatrics, one of eight branches; the event marked AIIA's 10th Foundation Day (AIIA est. 2017). The Ministry of AYUSH was formed on 9 November 2014, not 2017."
+ },
+ {
+  "item": 8,
+  "shape": "one-liner",
+  "s": "Since 2025, on which date is Ayurveda Day observed?",
+  "o": [
+   "9 November",
+   "23 September",
+   "15 October",
+   "21 June"
+  ],
+  "a": 1,
+  "x": "Ayurveda Day has been observed on 23 September since 2025."
+ },
+ {
+  "item": [
+   9,
+   12
+  ],
+  "shape": "one-liner",
+  "s": "What was the theme of the 7th Agrivoltaics World Conference held at Bharat Mandapam, New Delhi, on 21-23 October 2026?",
+  "o": [
+   "Sun for the Farmer",
+   "Powering the Global South",
+   "Harvesting the Sun Together",
+   "Energy for Annadatas"
+  ],
+  "a": 1,
+  "x": "The 7th Agrivoltaics World Conference (AWC)-2026 had the theme \"Powering the Global South\"; it was the first held in the Global South."
+ },
+ {
+  "item": [
+   9,
+   12
+  ],
+  "shape": "statements",
+  "s": "Consider the following statements about the 7th Agrivoltaics World Conference-2026:\n1. It was organised by MNRE with Germany's BMUV.\n2. It was the first such conference held in the Global South.\n3. It aims to turn farmers from 'Annadatas' into 'Urjadatas'.",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "AWC-2026 was organised by MNRE with Germany's BMUV (partner Conexio-PSE), was the first in the Global South and aims to make 'Annadatas' into 'Urjadatas'."
+ },
+ {
+  "item": [
+   9,
+   12
+  ],
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct?",
+  "o": [
+   "MNRE has been a separate ministry since 2006",
+   "PM-KUSUM was launched in 2019",
+   "India's non-fossil capacity target is 500 GW by 2030",
+   "Conexio-PSE is a ministry of the German government"
+  ],
+  "a": 3,
+  "x": "Conexio-PSE was the partner of AWC-2026; the German ministry involved was BMUV. The other statements are correct."
+ },
+ {
+  "item": 10,
+  "shape": "one-liner",
+  "s": "Which Department organised the 61st CIML Meeting in New Delhi on 26-28 October 2026 with OIML?",
+  "o": [
+   "Department of Commerce",
+   "Department of Consumer Affairs",
+   "Department of Science and Technology",
+   "Department for Promotion of Industry and Internal Trade"
+  ],
+  "a": 1,
+  "x": "The 61st CIML Meeting was organised by the Department of Consumer Affairs with the International Organisation of Legal Metrology (OIML)."
+ },
+ {
+  "item": 10,
+  "shape": "statements",
+  "s": "Consider the following statements about OIML:\n1. It was established in 1955.\n2. Its headquarters is in Geneva.\n3. CIML is its principal decision-making committee.",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "OIML was set up in 1955 and CIML is its principal decision-making committee; its headquarters is in Paris, not Geneva."
+ },
+ {
+  "item": 11,
+  "shape": "one-liner",
+  "s": "Where was the 12th BRICS Parliamentary Forum held on 26-27 October 2026?",
+  "o": [
+   "Bharat Mandapam, New Delhi",
+   "Central Hall of Samvidhan Sadan, New Delhi",
+   "Yashobhoomi, New Delhi",
+   "Vigyan Bhawan, New Delhi"
+  ],
+  "a": 1,
+  "x": "The 12th BRICS Parliamentary Forum was held in the Central Hall of Samvidhan Sadan, New Delhi, and inaugurated by Lok Sabha Speaker Om Birla on 26 October 2026."
+ },
+ {
+  "item": 11,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. The first BRIC summit was held at Yekaterinburg in 2009.\n2. The BRICS Parliamentary Forum was launched in 2015.\n3. The old Parliament building was renamed Samvidhan Sadan on 19 September 2024.",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "The first BRIC summit was at Yekaterinburg (2009) and the BRICS Parliamentary Forum began in 2015. The old Parliament was renamed Samvidhan Sadan on 19 September 2023, not 2024."
+ },
+ {
+  "item": 11,
+  "shape": "sequence",
+  "s": "Arrange in chronological order:\n1. First BRIC summit at Yekaterinburg\n2. Launch of the BRICS Parliamentary Forum\n3. BRIC grouping began\n4. Old Parliament renamed Samvidhan Sadan",
+  "o": [
+   "3-1-2-4",
+   "1-3-2-4",
+   "3-2-1-4",
+   "1-2-3-4"
+  ],
+  "a": 0,
+  "x": "BRIC began in 2006, first summit in 2009, the Parliamentary Forum in 2015 and the renaming as Samvidhan Sadan in 2023."
+ },
+ {
+  "item": 13,
+  "shape": "one-liner",
+  "s": "Where was the 25th SCO Council of Heads of Government meeting held on 19-20 October 2026?",
+  "o": [
+   "Astana",
+   "Tashkent",
+   "Dushanbe",
+   "Bishkek"
+  ],
+  "a": 2,
+  "x": "The 25th SCO Council of Heads of Government met in Dushanbe on 19-20 October 2026, chaired by Tajik PM Kohir Rasulzoda."
+ },
+ {
+  "item": 13,
+  "shape": "statements",
+  "s": "Consider the following statements about the 25th SCO Council of Heads of Government, Dushanbe:\n1. India was represented by Rajnath Singh.\n2. India announced it will host the first SCO Civilizational Dialogue Forum by end-2026.\n3. It adopted the SCO Budget 2027.",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "Rajnath Singh represented India and announced the first SCO Civilizational Dialogue Forum by end-2026; the meeting adopted a Joint Communique, the PMTEC Action Plan 2026-2030 and the SCO Budget 2027."
+ },
+ {
+  "item": 13,
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct about the Shanghai Cooperation Organisation (SCO)?",
+  "o": [
+   "It was founded on 15 June 2001 in Shanghai",
+   "Its headquarters is in Beijing",
+   "Uzbekistan is one of its founder members",
+   "It has 8 full members"
+  ],
+  "a": 3,
+  "x": "The SCO has 10 full members, not 8. It was founded on 15 June 2001 in Shanghai, has HQ in Beijing, and Uzbekistan is a founder."
+ },
+ {
+  "item": 14,
+  "shape": "one-liner",
+  "s": "Which body hosted the Indo-Pacific Regional Dialogue (IPRD)-2026 in New Delhi on 3-5 November 2026?",
+  "o": [
+   "Indian Coast Guard",
+   "Indian Navy",
+   "Ministry of External Affairs",
+   "Indian Air Force"
+  ],
+  "a": 1,
+  "x": "IPRD-2026 was hosted by the Indian Navy as its flagship strategic maritime conference, with the National Maritime Foundation."
+ },
+ {
+  "item": 14,
+  "shape": "statements",
+  "s": "Consider the following statements about the Indo-Pacific Regional Dialogue:\n1. It was launched in 2018.\n2. Its partner, the National Maritime Foundation, was set up in 2005 in New Delhi.",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 2,
+  "x": "IPRD was launched in 2018 and is held with the National Maritime Foundation (2005, New Delhi)."
+ },
+ {
+  "item": 15,
+  "shape": "one-liner",
+  "s": "Where was the 2nd National Urban Conclave-2026 held on 24-25 October 2026?",
+  "o": [
+   "Visakhapatnam",
+   "Bhubaneswar",
+   "Raipur",
+   "Indore"
+  ],
+  "a": 1,
+  "x": "The 2nd National Urban Conclave-2026 was held in Bhubaneswar, organised by MoHUA with Odisha and inaugurated by MoS Tokhan Sahu."
+ },
+ {
+  "item": 15,
+  "shape": "match",
+  "s": "Which of the following pairs is INCORRECTLY matched?",
+  "o": [
+   "NIUA – 1976",
+   "HUDCO – 1970",
+   "NBCC – 1960",
+   "MoHUA – 2014"
+  ],
+  "a": 3,
+  "x": "MoHUA was established in 2017, not 2014. NIUA (1976), HUDCO (1970) and NBCC (1960) are correctly matched."
+ },
+ {
+  "item": 16,
+  "shape": "one-liner",
+  "s": "What was the theme of the 14th India Chem-2026 held in Mumbai on 22-24 October 2026?",
+  "o": [
+   "Make in India for the World",
+   "Chemicals for a Viksit Bharat",
+   "Advantage Bharat: An Emerging Global Chemicals Hub",
+   "Green Chemistry, Global Growth"
+  ],
+  "a": 2,
+  "x": "The 14th India Chem-2026 in Mumbai had the theme \"Advantage Bharat: An Emerging Global Chemicals Hub\"."
+ },
+ {
+  "item": 16,
+  "shape": "statements",
+  "s": "Consider the following statements about India Chem-2026:\n1. It was held under the Department of Chemicals and Petrochemicals of the Ministry of Chemicals and Fertilizers.\n2. It included India-Japan, India-US and India-EU forums.",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 2,
+  "x": "India Chem-2026 was held under the Department of Chemicals and Petrochemicals (Ministry of Chemicals and Fertilizers) and had a CEO Forum and India-Japan, India-US and India-EU forums."
+ },
+ {
+  "item": 17,
+  "shape": "one-liner",
+  "s": "In which country was the 13th ADMM-Plus held on 28-29 October 2026?",
+  "o": [
+   "Malaysia",
+   "Philippines",
+   "Vietnam",
+   "Indonesia"
+  ],
+  "a": 1,
+  "x": "The 13th ADMM-Plus was held in Cebu and Lapu-Lapu City, Philippines, which chairs ASEAN in 2026."
+ },
+ {
+  "item": 17,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. ASEAN now has 11 members after Timor-Leste joined in 2025.\n2. The first ADMM-Plus was held in Hanoi in 2010.\n3. ADMM-Plus has 10 Dialogue Partners.",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "ASEAN has 11 members after Timor-Leste joined in 2025 and the first ADMM-Plus was in Hanoi in 2010. ADMM-Plus has 8 Dialogue Partners, not 10."
+ },
+ {
+  "item": 17,
+  "shape": "NOT",
+  "s": "Which of the following is NOT one of the Dialogue Partners of ADMM-Plus?",
+  "o": [
+   "New Zealand",
+   "South Korea",
+   "Canada",
+   "Russia"
+  ],
+  "a": 2,
+  "x": "The 8 Dialogue Partners are Australia, China, India, Japan, New Zealand, South Korea, Russia and the US; Canada is not one."
+ },
+ {
+  "item": 18,
+  "shape": "one-liner",
+  "s": "Which institution is the host of the ICAR-CGIAR Science and Partnership Week 2027 in New Delhi?",
+  "o": [
+   "ICAR-NAARM",
+   "ICRISAT",
+   "IARI",
+   "IRRI"
+  ],
+  "a": 1,
+  "x": "ICRISAT is the host institution of the ICAR-CGIAR Science and Partnership Week, to be held on 12-17 April 2027 at Yashobhoomi, New Delhi."
+ },
+ {
+  "item": 18,
+  "shape": "match",
+  "s": "Which of the following pairs is correctly matched?",
+  "o": [
+   "ICAR founded – 16 July 1929",
+   "CGIAR founded – 1972",
+   "ICRISAT founded – 1971",
+   "ICAR works under – DAHD"
+  ],
+  "a": 0,
+  "x": "ICAR was founded on 16 July 1929 and works under DARE. CGIAR was set up in 1971 and ICRISAT in 1972."
+ },
+ {
+  "item": 19,
+  "shape": "one-liner",
+  "s": "Who inaugurated Bharat RE 2026 at Bharat Mandapam, New Delhi, on 2 November 2026?",
+  "o": [
+   "Pralhad Joshi",
+   "PM Narendra Modi",
+   "President Droupadi Murmu",
+   "Vice President C. P. Radhakrishnan"
+  ],
+  "a": 1,
+  "x": "PM Modi inaugurated Bharat RE 2026 on 2 November 2026 at Bharat Mandapam; it ran on 2-5 November."
+ },
+ {
+  "item": 19,
+  "shape": "statements",
+  "s": "Consider the following statements about Bharat RE 2026:\n1. It was held with the 9th International Solar Alliance Assembly.\n2. It was held with the 4th International Conference on Green Hydrogen.\n3. Its theme was \"Invest. Innovate. Inspire.\"",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "Bharat RE 2026 had the theme \"Invest. Innovate. Inspire.\" and was held with the 9th ISA Assembly and the 4th ICGH."
+ },
+ {
+  "item": 19,
+  "shape": "NOT",
+  "s": "Which of the following is NOT correct?",
+  "o": [
+   "The International Solar Alliance was launched by India and France at COP21 in 2015",
+   "The headquarters of the International Solar Alliance is in Gurugram",
+   "The National Green Hydrogen Mission has an outlay of ₹19,744 crore",
+   "The National Green Hydrogen Mission targets 10 MMT by 2030"
+  ],
+  "a": 3,
+  "x": "The National Green Hydrogen Mission (January 2023) targets 5 MMT by 2030, not 10 MMT."
+ },
+ {
+  "item": 20,
+  "shape": "one-liner",
+  "s": "Where was the First International Maize Conference 2026 held on 2-4 November 2026?",
+  "o": [
+   "Ludhiana, Punjab",
+   "Shamshabad near Hyderabad, Telangana",
+   "Dharwad, Karnataka",
+   "Guntur, Andhra Pradesh"
+  ],
+  "a": 1,
+  "x": "The First International Maize Conference 2026 was held at Shamshabad near Hyderabad, Telangana, on 2-4 November 2026."
+ },
+ {
+  "item": 20,
+  "shape": "statements",
+  "s": "Consider the following statements:\n1. Maize (Zea mays) belongs to the family Poaceae.\n2. ICAR-NAARM was set up in 1986 in Hyderabad.",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Maize (Zea mays) is of family Poaceae. ICAR-NAARM was set up in 1976, not 1986."
+ }
+]
