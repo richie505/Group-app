@@ -20,6 +20,8 @@ import json, os, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from structured_md import from_blocks, to_blocks
 
+APP = os.environ.get("NOTES_APP", "main")  # NOTES_APP=complete edits APPSC Complete's notes
+
 
 def rows_of(d):
     return [r for u in d["units"] for r in u["rows"]]
@@ -55,7 +57,7 @@ def plain_cells(b):
 
 
 def show(book, row, sec=None):
-    d = json.load(open(f"app/src/main/assets/book{book}.json"))
+    d = json.load(open(f"app/src/{APP}/assets/book{book}.json"))
     r = rows_of(d)[row]
     print(f"=== {book}:{row} | {r['title']}")
     for si, s in enumerate(r["secs"]):
@@ -72,7 +74,7 @@ def apply(path, dry):
     books, errors, done = {}, [], 0
     for n, op in enumerate(ops):
         b = op["book"]
-        d = books.setdefault(b, json.load(open(f"app/src/main/assets/book{b}.json")))
+        d = books.setdefault(b, json.load(open(f"app/src/{APP}/assets/book{b}.json")))
         try:
             s = rows_of(d)[op["row"]]["secs"][op["sec"]]
         except (IndexError, KeyError):
@@ -121,7 +123,7 @@ def apply(path, dry):
     print(f"{done}/{len(ops)} edits ok" + (" (dry run)" if dry else ""))
     if not dry and not errors:
         for b, d in books.items():
-            open(f"app/src/main/assets/book{b}.json", "w").write(json.dumps(d, ensure_ascii=False, separators=(",", ":")))
+            open(f"app/src/{APP}/assets/book{b}.json", "w").write(json.dumps(d, ensure_ascii=False, separators=(",", ":")))
     return not errors
 
 
