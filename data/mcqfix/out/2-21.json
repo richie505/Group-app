@@ -948,16 +948,61 @@
    "topic": 64,
    "sec": 8,
    "angle": "16",
-   "shape": "one-liner",
-   "s": "The first use of an EVM in India, on 19 May 1982, was in which State?",
+   "shape": "statements",
+   "s": "Consider the following statements about EVMs:\n1. They were first used at Parur, Kerala, in 1982.\n2. Gujarat was the first State to hold its entire Assembly election on EVMs.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Goa",
-    "Nagaland",
-    "Kerala",
-    "Gujarat"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Only statement 1 is correct: Goa (1999), not Gujarat, was the first whole-State Assembly poll on EVMs."
+  },
+  {
+   "topic": 64,
+   "sec": 2,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about the RPA, 1951:\n1. Under Section 70, a person elected from two seats must vacate one within 14 days.\n2. Under Section 81, an election petition must be filed within 30 days.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Only statement 1 is correct: Section 81 allows 45 days; 30 days is the limit for filing expense accounts under Section 78."
+  },
+  {
+   "topic": 63,
+   "sec": 6,
+   "angle": "10",
+   "shape": "match",
+   "s": "Which of the following Article – provision pairs is INCORRECTLY matched?",
+   "o": [
+    "Article 330 – SC/ST seats in the Lok Sabha",
+    "Article 332 – SC/ST seats in State Assemblies",
+    "Article 331 – Anglo-Indian nomination to State Assemblies",
+    "Article 334A – One-third seats for women"
    ],
    "a": 2,
-   "x": "EVMs were first used at 70-Parur in Kerala in 1982; Goa (1999) was the first whole-State poll."
+   "x": "Article 331 concerned nomination of two Anglo-Indians to the Lok Sabha; nomination to Assemblies was under Article 333."
+  },
+  {
+   "topic": 65,
+   "sec": 3,
+   "angle": "4",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a party of the Janata Dal family?",
+   "o": [
+    "Rashtriya Janata Dal",
+    "Janata Dal (United)",
+    "Telugu Desam Party",
+    "Biju Janata Dal"
+   ],
+   "a": 2,
+   "x": "The Janata Dal family includes the RJD, JD(U), JD(S) and BJD; the TDP was formed by NTR in 1982."
   },
   {
    "topic": 64,
@@ -966,12 +1011,12 @@
    "shape": "one-liner",
    "s": "An M3 EVM control unit can handle up to how many candidates, including NOTA?",
    "o": [
-    "384",
     "64",
     "240",
+    "384",
     "400"
    ],
-   "a": 0,
+   "a": 2,
    "x": "One M3 control unit takes 24 ballot units, i.e. 384 candidates including NOTA; the M2 took 64."
   },
   {
@@ -981,12 +1026,12 @@
    "shape": "one-liner",
    "s": "A VVPAT slip is visible to the voter through a window for:",
    "o": [
+    "7 seconds",
     "3 seconds",
     "10 seconds",
-    "15 seconds",
-    "7 seconds"
+    "15 seconds"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The VVPAT slip is shown for 7 seconds and is not handed to the voter."
   },
   {
@@ -997,11 +1042,11 @@
    "s": "The 2004 election to the 14th Lok Sabha was the first:",
    "o": [
     "Election using VVPAT",
-    "National election held entirely on EVMs",
     "Election with a NOTA option",
-    "Election using EPIC"
+    "Election using EPIC",
+    "National election held entirely on EVMs"
    ],
-   "a": 1,
+   "a": 3,
    "x": "2004 was the first all-EVM national election; VVPAT and NOTA came in 2013."
   },
   {
@@ -1027,11 +1072,11 @@
    "s": "Under the CEC and Other ECs Act, 2023, who was dropped from the selection panel?",
    "o": [
     "Leader of the Opposition",
+    "Chief Justice of India",
     "Prime Minister",
-    "A Union Cabinet Minister",
-    "Chief Justice of India"
+    "A Union Cabinet Minister"
    ],
-   "a": 3,
+   "a": 1,
    "x": "The 2023 Act panel is the PM, a Union Cabinet Minister nominated by the PM and the LoP; the CJI was dropped."
   },
   {
@@ -1041,12 +1086,12 @@
    "shape": "one-liner",
    "s": "The Tarkunde Committee on electoral reforms (1974-75) was set up by:",
    "o": [
-    "Jayaprakash Narayan",
     "V.P. Singh",
     "The Law Commission",
-    "The Election Commission"
+    "The Election Commission",
+    "Jayaprakash Narayan"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Tarkunde Committee was set up by JP; it proposed a 3-member ECI and voting age 18."
   },
   {
@@ -1056,12 +1101,12 @@
    "shape": "one-liner",
    "s": "The Second Administrative Reforms Commission, which reported on 'Ethics in Governance', was chaired by:",
    "o": [
+    "Veerappa Moily",
     "Dinesh Goswami",
     "Indrajit Gupta",
-    "Veerappa Moily",
     "J.S. Verma"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The 2nd ARC (2007-09) under Veerappa Moily recommended partial State funding."
   },
   {
@@ -1086,12 +1131,12 @@
    "shape": "one-liner",
    "s": "Electoral bonds could be bought by:",
    "o": [
-    "A citizen of India or a body incorporated in India",
     "Only registered political parties",
     "Only companies listed on a stock exchange",
+    "A citizen of India or a body incorporated in India",
     "Any person, including foreign nationals"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Bonds could be bought by a citizen of India or a body incorporated in India, alone or jointly."
   },
   {
@@ -1101,12 +1146,12 @@
    "shape": "one-liner",
    "s": "The Electoral Bond Scheme was notified on:",
    "o": [
+    "2 January 2018",
     "15 February 2024",
     "1 April 2017",
-    "2 January 2019",
-    "2 January 2018"
+    "2 January 2019"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The scheme was notified on 2 January 2018 and struck down on 15 February 2024."
   },
   {
@@ -1117,11 +1162,11 @@
    "s": "The 2024 electoral bonds verdict in ADR v Union of India was delivered by:",
    "o": [
     "A three-judge bench, unanimously",
-    "A five-judge bench, unanimously",
     "A five-judge bench, by 3:2",
-    "A seven-judge bench, by 4:3"
+    "A seven-judge bench, by 4:3",
+    "A five-judge bench, unanimously"
    ],
-   "a": 1,
+   "a": 3,
    "x": "A five-judge bench unanimously held the scheme unconstitutional."
   },
   {
@@ -1162,11 +1207,11 @@
    "s": "Which of the following parties was formed earliest?",
    "o": [
     "DMK",
+    "Forward Bloc",
     "Bharatiya Jana Sangh",
-    "Swatantra Party",
-    "Forward Bloc"
+    "Swatantra Party"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Forward Bloc (1939) came before the DMK (1949), Jana Sangh (1951) and Swatantra (1959)."
   },
   {
@@ -1176,12 +1221,12 @@
    "shape": "one-liner",
    "s": "Which of the following parties was formed after the Janata Dal (1988)?",
    "o": [
-    "Samajwadi Party",
     "Bahujan Samaj Party",
     "Telugu Desam Party",
-    "Bharatiya Janata Party"
+    "Bharatiya Janata Party",
+    "Samajwadi Party"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Samajwadi Party was formed in 1992; the BSP (1984), TDP (1982) and BJP (1980) came earlier."
   },
   {
@@ -1191,12 +1236,12 @@
    "shape": "one-liner",
    "s": "The Swatantra Party (1959) was founded by:",
    "o": [
+    "C. Rajagopalachari",
     "Acharya Narendra Dev",
     "Jayaprakash Narayan",
-    "C. Rajagopalachari",
     "Ram Manohar Lohia"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Rajagopalachari founded Swatantra; Narendra Dev, JP and Lohia were Socialist Party leaders."
   },
   {
@@ -1221,12 +1266,12 @@
    "shape": "one-liner",
    "s": "The DMK was founded in 1949 by:",
    "o": [
-    "C.N. Annadurai",
     "M. Karunanidhi",
     "Periyar",
+    "C.N. Annadurai",
     "K. Kamaraj"
    ],
-   "a": 0,
+   "a": 2,
    "x": "C.N. Annadurai founded the DMK in 1949, out of Periyar's Dravidar Kazhagam."
   },
   {
@@ -1251,12 +1296,12 @@
    "shape": "one-liner",
    "s": "Who was elected BJP national president unopposed on 20 January 2026?",
    "o": [
+    "Nitin Nabin",
     "J.P. Nadda",
     "A.B. Vajpayee",
-    "Mallikarjun Kharge",
-    "Nitin Nabin"
+    "Mallikarjun Kharge"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Nitin Nabin, aged 45, succeeded J.P. Nadda as the youngest BJP national president."
   },
   {
@@ -1267,11 +1312,11 @@
    "s": "Mallikarjun Kharge has been president of the Indian National Congress since:",
    "o": [
     "October 2019",
-    "October 2022",
     "October 2024",
-    "October 2017"
+    "October 2017",
+    "October 2022"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Kharge became INC president in October 2022, the first non-Gandhi in 24 years."
   },
   {
@@ -1297,11 +1342,11 @@
    "s": "The Congress for Democracy (1977) was formed by:",
    "o": [
     "Morarji Desai",
+    "Jagjivan Ram",
     "Sharad Pawar",
-    "K. Kamaraj",
-    "Jagjivan Ram"
+    "K. Kamaraj"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Jagjivan Ram, with H.N. Bahuguna and Nandini Satpathy, formed the Congress for Democracy in 1977."
   },
   {
@@ -1311,12 +1356,12 @@
    "shape": "one-liner",
    "s": "The phase of one-party dominance, the 'Congress system', covers:",
    "o": [
-    "1952-77",
     "1947-67",
     "1952-89",
-    "1977-89"
+    "1977-89",
+    "1952-77"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Congress dominance ran 1952-77; 1977-89 saw the first alternation and 1989-2014 the coalition era."
   },
   {
@@ -1326,12 +1371,12 @@
    "shape": "one-liner",
    "s": "The first non-Congress government at the Centre (1977) was headed by:",
    "o": [
+    "Morarji Desai",
     "Jagjivan Ram",
     "Jayaprakash Narayan",
-    "Morarji Desai",
     "Charan Singh"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The Janata government of 1977 under Morarji Desai was the first non-Congress and first coalition government."
   },
   {
@@ -1356,12 +1401,12 @@
    "shape": "one-liner",
    "s": "A party can be recognised as a State party on vote share alone if it secures:",
    "o": [
-    "8% of votes",
     "6% of votes",
     "10% of votes",
+    "8% of votes",
     "4% of votes"
    ],
-   "a": 0,
+   "a": 2,
    "x": "The vote-only threshold for State party status is 8%, not 10%."
   },
   {
@@ -1371,12 +1416,12 @@
    "shape": "one-liner",
    "s": "Registered unrecognised parties and independents contest elections on:",
    "o": [
+    "Free symbols",
     "Reserved symbols",
     "Symbols of national parties",
-    "No symbol",
-    "Free symbols"
+    "No symbol"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Recognised parties get reserved symbols; RUPPs and independents get free symbols (184 in May 2025)."
   },
   {
@@ -1387,11 +1432,11 @@
    "s": "Under Section 29A of the RPA, 1951, a party must pledge allegiance to the Constitution and to the principles of:",
    "o": [
     "Federalism, liberty and fraternity",
-    "Socialism, secularism and democracy",
     "Justice, equality and fraternity",
-    "Sovereignty, republicanism and federalism"
+    "Sovereignty, republicanism and federalism",
+    "Socialism, secularism and democracy"
    ],
-   "a": 1,
+   "a": 3,
    "x": "A party applying under Section 29A pledges allegiance to the Constitution, socialism, secularism, democracy and national integrity."
   },
   {
