@@ -1,0 +1,642 @@
+{
+ "reshape": {
+  "n6e836df370c": {
+   "shape": "one-liner",
+   "s": "The Indian Science Congress Association (ISCA) is headquartered at:",
+   "o": [
+    "New Delhi",
+    "Kolkata",
+    "Bengaluru",
+    "Prayagraj"
+   ],
+   "a": 1,
+   "x": "ISCA's headquarters is in Kolkata, not New Delhi."
+  },
+  "n874e4a6aba6": {
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Vigyan Prasar – Ministry of Education",
+    "Vigyan Rail – CSIR",
+    "National Council of Science Museums – Ministry of Culture",
+    "National Innovation Foundation – NITI Aayog"
+   ],
+   "a": 2,
+   "x": "NCSM, formed on 4 April 1978 with headquarters at Kolkata, is under the Ministry of Culture. Vigyan Prasar, Vigyan Rail and NIF are all linked to DST."
+  },
+  "ne6f5728a312": {
+   "shape": "statements",
+   "s": "Consider the following statements about INSPIRE-SHE:\n1. SHE stands for Scholarship for Higher Education.\n2. It is meant for top-ranked UG and PG students in natural and basic sciences.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "SHE is the Scholarship for Higher Education for top UG and PG science students, so it targets higher education, not school students."
+  },
+  "n25f91408d3d": {
+   "shape": "one-liner",
+   "s": "Which DST scheme has set up STI Hubs for SC/ST communities?",
+   "o": [
+    "GATI",
+    "CURIE",
+    "SEED",
+    "WiSLP"
+   ],
+   "a": 2,
+   "x": "SEED has set up STI Hubs for SC/ST communities; GATI works on institutional gender equity and CURIE on women PG colleges."
+  },
+  "n94164ecbdfb": {
+   "shape": "one-liner",
+   "s": "The supercomputer PARAM Shivay is hosted at:",
+   "o": [
+    "IISER Pune",
+    "IIT (BHU) Varanasi",
+    "IISc Bengaluru",
+    "IIT Roorkee"
+   ],
+   "a": 1,
+   "x": "PARAM Shivay is at IIT (BHU) Varanasi; PARAM Brahma is at IISER Pune, PARAM Pravega at IISc and PARAM Ganga at IIT Roorkee."
+  },
+  "ne9a9b1ef3c0": {
+   "shape": "one-liner",
+   "s": "The RDI Scheme, approved by the Union Cabinet on 1 July 2025, provides:",
+   "o": [
+    "₹50,000 crore over five years",
+    "₹1 lakh crore over six years",
+    "₹1 lakh crore over ten years",
+    "₹20,000 crore over six years"
+   ],
+   "a": 1,
+   "x": "The RDI Scheme provides ₹1 lakh crore over six years, steered by the ANRF Governing Board with DST as nodal department."
+  },
+  "n25c75e1159d": {
+   "shape": "statements",
+   "s": "Consider the following statements about AIRAWAT:\n1. It is an artificial-intelligence supercomputer associated with the National Supercomputing Mission.\n2. It is located at NCMRWF, Noida.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "AIRAWAT is the NSM's AI supercomputer, but it is located at C-DAC, Pune, not NCMRWF Noida."
+  },
+  "n5979af149e2": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT a target of the National Quantum Mission?",
+   "o": [
+    "Satellite QKD over 2000 km within India",
+    "Development of magnetometers and atomic clocks",
+    "Intermediate-scale quantum computers of 50-1000 physical qubits",
+    "Indigenous Rudra server boards for supercomputers"
+   ],
+   "a": 3,
+   "x": "The Rudra server board belongs to the National Supercomputing Mission; QKD, quantum sensing and 50-1000 qubit computers are NQM targets."
+  }
+ },
+ "new": [
+  {
+   "topic": 6,
+   "sec": 1,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Indian Academy of Sciences (IASc), Bengaluru, was founded in 1934 by:",
+   "o": [
+    "Meghnad Saha",
+    "C.V. Raman",
+    "Homi J. Bhabha",
+    "J.L. Simonsen"
+   ],
+   "a": 1,
+   "x": "C.V. Raman founded IASc in 1934; Meghnad Saha founded NASI in 1930."
+  },
+  {
+   "topic": 6,
+   "sec": 1,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Indian National Science Academy (INSA), New Delhi, was originally founded in 1935 as:",
+   "o": [
+    "National Academy of Sciences, India",
+    "U.P. Academy of Sciences",
+    "National Institute of Sciences of India",
+    "Indian Science Congress Association"
+   ],
+   "a": 2,
+   "x": "INSA began in 1935 as the National Institute of Sciences of India and was renamed in 1970."
+  },
+  {
+   "topic": 6,
+   "sec": 1,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about Indian science academies:\n1. NASI was founded before IASc.\n2. INSA is headquartered at Bengaluru.\n3. IASc was founded by C.V. Raman.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "NASI (1930) came before IASc (1934), which Raman founded; INSA is headquartered at New Delhi, not Bengaluru."
+  },
+  {
+   "topic": 6,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The 108th Indian Science Congress (January 2023) was held at:",
+   "o": [
+    "RTM Nagpur University",
+    "Lovely Professional University",
+    "Osmania University",
+    "University of Calcutta"
+   ],
+   "a": 0,
+   "x": "The 108th session was held at RTM Nagpur University on S&T for sustainable development with women empowerment."
+  },
+  {
+   "topic": 6,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Gyan Darshan, launched on 26 January 2000, is run by the MHRD with Prasar Bharati and:",
+   "o": [
+    "UGC-CEC",
+    "IGNOU",
+    "NCERT",
+    "AICTE"
+   ],
+   "a": 1,
+   "x": "Gyan Darshan is run by the MHRD with IGNOU and Prasar Bharati; Vyas is the UGC-CEC channel."
+  },
+  {
+   "topic": 6,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "SWAYAM Prabha, the free DTH educational service launched in 2017, has how many channels?",
+   "o": [
+    "22",
+    "26",
+    "32",
+    "40"
+   ],
+   "a": 2,
+   "x": "SWAYAM Prabha offers 32 free DTH channels under the Ministry of Education."
+  },
+  {
+   "topic": 6,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "DD Science and India Science were launched together on:",
+   "o": [
+    "26 January 2000",
+    "15 January 2019",
+    "28 February 2019",
+    "11 May 2018"
+   ],
+   "a": 1,
+   "x": "The two Vigyan Prasar platforms were launched on 15 January 2019."
+  },
+  {
+   "topic": 6,
+   "sec": 7,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "National Technology Day, observed on 11 May, commemorates:",
+   "o": [
+    "Pokhran-II nuclear tests of 1998",
+    "Launch of Aryabhata",
+    "Discovery of the Raman Effect",
+    "Pokhran-I test of 1974"
+   ],
+   "a": 0,
+   "x": "National Technology Day (11 May) marks the Pokhran-II tests of 1998 and was declared in 1999."
+  },
+  {
+   "topic": 6,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The 11th India International Science Festival (December 2025) was held at:",
+   "o": [
+    "New Delhi",
+    "Bhopal",
+    "Panchkula",
+    "Kolkata"
+   ],
+   "a": 2,
+   "x": "The 11th IISF was held at Panchkula on 6-9 December 2025."
+  },
+  {
+   "topic": 6,
+   "sec": 6,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Festival of Innovation (FOIN), linked with the National Innovation Foundation, is held at:",
+   "o": [
+    "Rashtrapati Bhavan",
+    "IIM Ahmedabad",
+    "Vigyan Bhawan",
+    "Gandhinagar"
+   ],
+   "a": 0,
+   "x": "NIF's Festival of Innovation is held at Rashtrapati Bhavan."
+  },
+  {
+   "topic": 7,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In the DST scheme FIST, the letters stand for:",
+   "o": [
+    "Fund for Improvement of S&T Infrastructure",
+    "Facility for Innovation in Science and Technology",
+    "Fund for Innovation and Scientific Talent",
+    "Facility for Improvement of Scientific Training"
+   ],
+   "a": 0,
+   "x": "FIST is the Fund for Improvement of S&T Infrastructure in universities and higher institutions."
+  },
+  {
+   "topic": 7,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which DST programme, begun in 2009, supports research only in universities?",
+   "o": [
+    "SAIF",
+    "PURSE",
+    "SATHI",
+    "FIST"
+   ],
+   "a": 1,
+   "x": "PURSE (Promotion of University Research and Scientific Excellence) is university-only research support from 2009."
+  },
+  {
+   "topic": 7,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which DST programme gives researchers access to costly analytical instruments through Sophisticated Analytical Instrument Facilities?",
+   "o": [
+    "PURSE",
+    "FIST",
+    "SAIF",
+    "CURIE"
+   ],
+   "a": 2,
+   "x": "SAIF stands for Sophisticated Analytical Instrument Facilities, which give access to costly instruments."
+  },
+  {
+   "topic": 7,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Ramalingaswami Re-entry Fellowship for life-science returnees is awarded by:",
+   "o": [
+    "DST",
+    "SERB",
+    "DBT",
+    "ANRF"
+   ],
+   "a": 2,
+   "x": "Ramalingaswami is a DBT (not DST) fellowship for life-science and biotech returnees only."
+  },
+  {
+   "topic": 7,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Prime Minister's Research Fellowship (PMRF), started in 2018, is run by the:",
+   "o": [
+    "Department of Science and Technology",
+    "Ministry of Education",
+    "ANRF",
+    "UGC"
+   ],
+   "a": 1,
+   "x": "PMRF is a Ministry of Education scheme for PhD scholars in IITs, IISc and IISERs."
+  },
+  {
+   "topic": 7,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "BioCARe, for women biotech scientists after a career break, is a scheme of:",
+   "o": [
+    "DBT",
+    "DST",
+    "SERB",
+    "ICMR"
+   ],
+   "a": 0,
+   "x": "BioCARe is a DBT scheme; WISE-KIRAN is the DST career-break scheme."
+  },
+  {
+   "topic": 7,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "In INSPIRE, AORC (INSPIRE Fellowship and Faculty) stands for:",
+   "o": [
+    "Advanced Opportunity for Research Careers",
+    "Assured Opportunity for Research Careers",
+    "Assured Outreach for Research Communities",
+    "Accelerated Opportunity for Research Careers"
+   ],
+   "a": 1,
+   "x": "AORC is the Assured Opportunity for Research Careers, covering doctoral and post-doctoral researchers."
+  },
+  {
+   "topic": 7,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "VIPNET, a network of science clubs, is run by:",
+   "o": [
+    "CSIR",
+    "AICTE",
+    "Vigyan Prasar",
+    "Kendriya Vidyalaya Sangathan"
+   ],
+   "a": 2,
+   "x": "VIPNET is Vigyan Prasar's network of science clubs."
+  },
+  {
+   "topic": 7,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "ARISE under the Atal Innovation Mission is aimed at:",
+   "o": [
+    "Schools",
+    "MSMEs",
+    "Rural and under-served areas",
+    "University start-ups"
+   ],
+   "a": 1,
+   "x": "ARISE (Atal Research and Innovation for Small Enterprises) targets MSMEs; ACICs serve rural areas."
+  },
+  {
+   "topic": 7,
+   "sec": 9,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The central hub of Andhra Pradesh's Ratan Tata Innovation Hub is at:",
+   "o": [
+    "Visakhapatnam",
+    "Tirupati",
+    "Mangalagiri",
+    "Anantapur"
+   ],
+   "a": 2,
+   "x": "RTIH's central hub is at Mangalagiri (Amaravati) with spokes at Visakhapatnam, Rajahmundry, Vijayawada-Guntur, Tirupati and Anantapur."
+  },
+  {
+   "topic": 7,
+   "sec": 9,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The Ratan Tata Innovation Hub was set up as a Section-8 company by:",
+   "o": [
+    "AP Innovation Society",
+    "NITI Aayog",
+    "IISER Tirupati",
+    "APSCHE"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh Innovation Society (APIS) set up RTIH, inaugurated on 20 August 2025."
+  },
+  {
+   "topic": 7,
+   "sec": 9,
+   "angle": "8,9",
+   "shape": "one-liner",
+   "s": "How many Atal Tinkering Labs did Andhra Pradesh have in 2024-25?",
+   "o": [
+    "290",
+    "590",
+    "950",
+    "1,590"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh had 590 ATLs in 2024-25."
+  },
+  {
+   "topic": 7,
+   "sec": 5,
+   "angle": "5",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correctly matched with its body?",
+   "o": [
+    "TIDE 2.0 – MeitY",
+    "Fund of Funds for Startups – SIDBI",
+    "Credit Guarantee Scheme for Startups – NCGTC",
+    "NIDHI – NITI Aayog"
+   ],
+   "a": 3,
+   "x": "NIDHI (2016) is a DST initiative; the other three pairs are correct."
+  },
+  {
+   "topic": 8,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The nodal ministry of the Deep Ocean Mission is the:",
+   "o": [
+    "Ministry of Science and Technology",
+    "Ministry of Earth Sciences",
+    "Ministry of Jal Shakti",
+    "Ministry of Defence"
+   ],
+   "a": 1,
+   "x": "The Deep Ocean Mission is run by the Ministry of Earth Sciences, approved in June 2021."
+  },
+  {
+   "topic": 8,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Matsya 6000, India's crewed submersible, is designed to take three people to a depth of:",
+   "o": [
+    "3,000 m",
+    "4,500 m",
+    "6,000 m",
+    "10,000 m"
+   ],
+   "a": 2,
+   "x": "Matsya 6000, built by NIOT Chennai, carries 3 people to 6,000 m."
+  },
+  {
+   "topic": 8,
+   "sec": 4,
+   "angle": "4",
+   "shape": "statements",
+   "s": "Consider the following statements about the Deep Ocean Mission:\n1. It has an outlay of ₹4,077 crore for five years.\n2. Samudrayaan is a sub-project of the mission.\n3. Matsya 6000 is being built by NIO Goa.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The mission has ₹4,077 crore for five years and includes Samudrayaan; Matsya 6000 is built by NIOT Chennai."
+  },
+  {
+   "topic": 8,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Bio-E3 Policy, approved by the Cabinet on 24 August 2024, is steered by:",
+   "o": [
+    "DST",
+    "DBT",
+    "MeitY",
+    "CSIR"
+   ],
+   "a": 1,
+   "x": "Bio-E3 is steered by the Department of Biotechnology (DBT)."
+  },
+  {
+   "topic": 8,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which of the following is NOT part of the infrastructure planned under the Bio-E3 Policy?",
+   "o": [
+    "Biomanufacturing hubs",
+    "Bio-AI hubs",
+    "Biofoundries",
+    "Technology Innovation Hubs"
+   ],
+   "a": 3,
+   "x": "Bio-E3 plans biomanufacturing hubs, Bio-AI hubs and biofoundries; Technology Innovation Hubs belong to NM-ICPS."
+  },
+  {
+   "topic": 8,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Anusandhan National Research Foundation subsumed which body?",
+   "o": [
+    "CSIR",
+    "SERB",
+    "DST",
+    "UGC"
+   ],
+   "a": 1,
+   "x": "The ANRF, created by the ANRF Act 2023, subsumed SERB."
+  },
+  {
+   "topic": 8,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Anusandhan National Research Foundation was created by an Act passed in:",
+   "o": [
+    "2019",
+    "2021",
+    "2023",
+    "2025"
+   ],
+   "a": 2,
+   "x": "ANRF was created by the ANRF Act, 2023."
+  },
+  {
+   "topic": 8,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The IndiaAI Mission (2024) has an outlay of:",
+   "o": [
+    "₹6,003.65 crore",
+    "₹10,371.92 crore",
+    "₹76,000 crore",
+    "₹3,660 crore"
+   ],
+   "a": 1,
+   "x": "IndiaAI Mission (MeitY) has ₹10,371.92 crore; ₹6,003.65 crore is NQM, ₹76,000 crore Semicon India."
+  },
+  {
+   "topic": 8,
+   "sec": 7,
+   "angle": "7,2",
+   "shape": "statements",
+   "s": "Consider the following statements:\n1. The National Quantum Mission is under MeitY.\n2. Semicon India is under MeitY with an outlay of ₹76,000 crore.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 1,
+   "x": "Semicon India is a MeitY mission of ₹76,000 crore; the National Quantum Mission's nodal department is DST, not MeitY."
+  },
+  {
+   "topic": 8,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The National Quantum Mission thematic hub for Quantum Communication is hosted at:",
+   "o": [
+    "IISc Bengaluru",
+    "IIT Bombay",
+    "IIT Madras",
+    "IIT Delhi"
+   ],
+   "a": 2,
+   "x": "Quantum Communication hub is at IIT Madras; computing at IISc, sensing at IIT Bombay, materials at IIT Delhi."
+  },
+  {
+   "topic": 8,
+   "sec": 1,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The weather supercomputer Mihir is located at:",
+   "o": [
+    "IITM Pune",
+    "NCMRWF Noida",
+    "C-DAC Pune",
+    "NAL Bengaluru"
+   ],
+   "a": 1,
+   "x": "Mihir is at NCMRWF Noida; Pratyush is at IITM Pune."
+  },
+  {
+   "topic": 8,
+   "sec": 1,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Flosolver supercomputer was developed by:",
+   "o": [
+    "BARC",
+    "C-DAC",
+    "NAL Bengaluru",
+    "IITM Pune"
+   ],
+   "a": 2,
+   "x": "Flosolver was developed by NAL Bengaluru; Anupam is BARC's machine."
+  },
+  {
+   "topic": 8,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "PARAM Porul, commissioned in May 2022 under the NSM, is hosted at:",
+   "o": [
+    "IIT Gandhinagar",
+    "NIT Tiruchirappalli",
+    "IIT Guwahati",
+    "IIT Madras"
+   ],
+   "a": 1,
+   "x": "PARAM Porul is at NIT Tiruchirappalli; PARAM Ananta is at IIT Gandhinagar."
+  }
+ ]
+}

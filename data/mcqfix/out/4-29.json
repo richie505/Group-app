@@ -1023,16 +1023,16 @@
    "angle": "4"
   },
   {
-   "shape": "NOT",
-   "s": "Which one of the following is NOT among the DPSUs formed from the Ordnance Factory Board?",
+   "shape": "statements",
+   "s": "Consider the following statements about the reorganisation of the Ordnance Factory Board:\n1. Its 41 units were replaced by 7 DPSUs.\n2. BEL is one of the new DPSUs.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Yantra India",
-    "India Optel",
-    "BEL",
-    "None of these – all are DPSUs"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 2,
-   "x": "Yantra India and India Optel are among the 7 new DPSUs; BEL is not one of them.",
+   "a": 0,
+   "x": "The 41-unit OFB became 7 DPSUs, including Yantra India and India Optel; BEL is not one of them.",
    "topic": 89,
    "sec": 1,
    "angle": "4"
@@ -1043,10 +1043,10 @@
    "o": [
     "Heavy machinery",
     "MiG engines",
-    "Machine tools",
-    "Electric locomotives"
+    "Electric locomotives",
+    "Machine tools"
    ],
-   "a": 3,
+   "a": 2,
    "x": "BHEL Jhansi makes electric locomotives; HEC Ranchi is the heavy-machinery unit.",
    "topic": 89,
    "sec": 1,
@@ -1056,12 +1056,12 @@
    "shape": "one-liner",
    "s": "The Rail Wheel Factory (wheels and axles) is located at:",
    "o": [
-    "Yelahanka, Bengaluru",
     "Kapurthala",
     "Patiala",
-    "Chittaranjan"
+    "Chittaranjan",
+    "Yelahanka, Bengaluru"
    ],
-   "a": 0,
+   "a": 3,
    "x": "RWF (1984) is at Yelahanka, Bengaluru; Kapurthala is RCF and Chittaranjan is CLW.",
    "topic": 89,
    "sec": 2,
@@ -1071,12 +1071,12 @@
    "shape": "one-liner",
    "s": "The Chittaranjan Locomotive Works manufactures:",
    "o": [
-    "Passenger coaches",
     "Electric locomotives",
+    "Passenger coaches",
     "Wheels and axles",
     "Diesel engines for ships"
    ],
-   "a": 1,
+   "a": 0,
    "x": "CLW at Chittaranjan (West Bengal) makes electric locomotives.",
    "topic": 89,
    "sec": 2,
@@ -1087,27 +1087,27 @@
    "s": "India's largest shipyard is:",
    "o": [
     "Hindustan Shipyard",
-    "Mazagon Dock",
     "Cochin Shipyard",
+    "Mazagon Dock",
     "Garden Reach Shipbuilders"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Cochin Shipyard (Kochi) is the largest; Hindustan Shipyard at Visakhapatnam is the oldest.",
    "topic": 89,
    "sec": 3,
    "angle": "2"
   },
   {
-   "shape": "one-liner",
-   "s": "The oldest shipyard of India, Hindustan Shipyard (1941), is at:",
+   "shape": "statements",
+   "s": "Consider the following statements about Indian shipyards:\n1. Cochin Shipyard is the largest shipyard.\n2. Hindustan Shipyard, Visakhapatnam is the oldest.\n3. The Alang-Sosiya ship-breaking yard is in Maharashtra.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Kochi",
-    "Mumbai",
-    "Kolkata",
-    "Visakhapatnam"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 3,
-   "x": "Hindustan Shipyard at Visakhapatnam is the oldest yard, dating to 1941.",
+   "a": 0,
+   "x": "Cochin is the largest and Hindustan Shipyard (1941) the oldest; Alang-Sosiya is in Bhavnagar, Gujarat, so statement 3 is wrong.",
    "topic": 89,
    "sec": 3,
    "angle": "2"
@@ -1116,12 +1116,12 @@
    "shape": "one-liner",
    "s": "Garden Reach Shipbuilders and Engineers (GRSE) is based at:",
    "o": [
-    "Kolkata",
     "Mumbai",
     "Kochi",
+    "Kolkata",
     "Visakhapatnam"
    ],
-   "a": 0,
+   "a": 2,
    "x": "GRSE is at Kolkata, with its diesel engine plant at Ranchi.",
    "topic": 89,
    "sec": 3,
@@ -1132,11 +1132,11 @@
    "s": "Which city is known as the \"Detroit of India\"?",
    "o": [
     "Pune",
-    "Chennai",
     "Gurugram",
-    "Jamshedpur"
+    "Jamshedpur",
+    "Chennai"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Chennai, home to Hyundai, BMW, Renault-Nissan and Ashok Leyland, is the Detroit of India.",
    "topic": 89,
    "sec": 4,
@@ -1146,12 +1146,12 @@
    "shape": "one-liner",
    "s": "The Kia car plant in Andhra Pradesh is in which district?",
    "o": [
+    "Sri Sathya Sai",
     "Chittoor",
     "Nellore",
-    "Sri Sathya Sai",
     "Kurnool"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Kia is in Sri Sathya Sai district (Anantapur region); Sri City hosts Isuzu and Foxconn.",
    "topic": 89,
    "sec": 4,
@@ -1162,11 +1162,11 @@
    "s": "Micron's ATMP semiconductor unit is located at:",
    "o": [
     "Dholera",
+    "Sanand",
     "Jagiroad",
-    "Sri City",
-    "Sanand"
+    "Sri City"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Sanand hosts the Micron ATMP; Dholera is the fab and Jagiroad the Tata plant.",
    "topic": 89,
    "sec": 6,
@@ -1176,12 +1176,12 @@
    "shape": "one-liner",
    "s": "India's semiconductor fab is coming up at:",
    "o": [
-    "Dholera",
     "Sanand",
     "Sri City",
+    "Dholera",
     "Anantapur"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Dholera is the fab site; Sanand has Micron's ATMP unit.",
    "topic": 89,
    "sec": 6,
@@ -1192,11 +1192,11 @@
    "s": "The electronics PLI grew out of which policy?",
    "o": [
     "National Policy on Electronics 2012",
-    "National Policy on Electronics 2019",
     "India Semiconductor Mission 2021",
-    "Semicon 2.0"
+    "Semicon 2.0",
+    "National Policy on Electronics 2019"
    ],
-   "a": 1,
+   "a": 3,
    "x": "The electronics PLI grew out of the National Policy on Electronics 2019, giving 4–6% incentives.",
    "topic": 89,
    "sec": 6,
@@ -1206,12 +1206,12 @@
    "shape": "one-liner",
    "s": "Which State is India's largest software exporter?",
    "o": [
+    "Karnataka",
     "Telangana",
     "Maharashtra",
-    "Karnataka",
     "Tamil Nadu"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Karnataka accounts for over a third of India's software exports.",
    "topic": 89,
    "sec": 7,
@@ -1222,11 +1222,11 @@
    "s": "Which city is nicknamed \"Cyberabad\"?",
    "o": [
     "Bengaluru",
+    "Hyderabad",
     "Pune",
-    "Chennai",
-    "Hyderabad"
+    "Chennai"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Hyderabad is Cyberabad; Bengaluru is the Silicon Valley of India.",
    "topic": 89,
    "sec": 7,
@@ -1236,12 +1236,12 @@
    "shape": "one-liner",
    "s": "By export value, India's pharmaceutical industry ranks:",
    "o": [
-    "11th",
     "3rd",
     "5th",
+    "11th",
     "8th"
    ],
-   "a": 0,
+   "a": 2,
    "x": "India is 3rd by volume but 11th by export value.",
    "topic": 89,
    "sec": 8,
@@ -1252,11 +1252,11 @@
    "s": "The PLI scheme announced in 2020 has a total outlay of about:",
    "o": [
     "₹25,938 crore",
-    "₹1.97 lakh crore",
     "₹33,660 crore",
-    "₹1.51 lakh crore"
+    "₹1.51 lakh crore",
+    "₹1.97 lakh crore"
    ],
-   "a": 1,
+   "a": 3,
    "x": "The 2020 PLI covers 14 sectors with ₹1.97 lakh crore; ₹25,938 crore is PLI-Auto.",
    "topic": 89,
    "sec": 5,
