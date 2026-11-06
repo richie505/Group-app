@@ -1,0 +1,656 @@
+{
+ "restore": [
+  {
+   "id": "nindian-polity-2-39",
+   "why": "different option set: distinguishes Arts 63/65/66/67 (VP articles); n5e4a461179c uses 72/74/78"
+  },
+  {
+   "id": "n21e29ffbcdf",
+   "why": "different angle: Part V Chapter I vs Chapter II and Part VI; PYQ asks only the Part"
+  },
+  {
+   "id": "nindian-polity-9-6",
+   "why": "different format: direct option set showing nominated MPs vote and MLAs do not; PYQ is coded statements"
+  },
+  {
+   "id": "nindian-polity-36-8",
+   "why": "other direction: who votes (elected MLAs) vs PYQ who does not (MLCs)"
+  },
+  {
+   "id": "nb90eb9944be",
+   "why": "different option set: shows nominated MPs do take part in impeachment; PYQs contrast electoral college vs impeachment"
+  },
+  {
+   "id": "na2e26578c7c",
+   "why": "key fixed: dropped CJI/judges (collegium consultation) so PM answer is unambiguous",
+   "fix": {
+    "s": "In the formal sense under Article 74, appointments such as the Attorney General and State Governors are made by the President on the advice of the Council of Ministers headed by the:",
+    "x": "Under Article 74 the President acts on the aid and advice of the Council of Ministers headed by the Prime Minister, so appointments like the Attorney General and Governors are formally made on that advice. Judges are different: the President appoints them after consultation with the CJI-led collegium."
+   }
+  },
+  {
+   "id": "f8fa305090c35",
+   "why": "different direction: direct question on Kehar Singh; n343dcb6aa32 is a NOT-correct item across three cases"
+  },
+  {
+   "id": "f257a8fca4453",
+   "why": "different format: direct question on the 10-day rule; nded3ca79b37 is a NOT-correct item on pocket veto"
+  },
+  {
+   "id": "f916aa931ae9d",
+   "why": "current affairs: 10 TN Bills deemed assented is the headline fact of a major 2025 SC ruling"
+  },
+  {
+   "id": "nindian-polity-12-12",
+   "why": "on-syllabus (LS quorum one-tenth); topic placement is not a reason to remove"
+  },
+  {
+   "id": "f9def34522e9c",
+   "why": "different format: direct question with Third Schedule distractor; nindian-polity-56-3 is a matched-pair item"
+  },
+  {
+   "id": "n0f4df986727",
+   "why": "different option set: contrasts presidential features (separation, fixed tenure, judicial review)"
+  },
+  {
+   "id": "f947a754b5c30",
+   "why": "different format: direct question on CCPA caste census decision; nc3014f731d8 is a NOT-correct item"
+  },
+  {
+   "id": "f535634917b41",
+   "why": "different format: direct question with Art 76/165/177 distractors; nindian-polity-31-8 is a matched-pair item"
+  },
+  {
+   "id": "n2c405a7220b",
+   "why": "different format: direct max-vs-present question; f5385c7afacd1 is a NOT-correct item"
+  },
+  {
+   "id": "n5e47bf3ffe6",
+   "why": "different angle: who decides (President on EC opinion) vs PYQs asking whose opinion is taken"
+  },
+  {
+   "id": "f68e0fff6ed54",
+   "why": "different format: direct question on which seat is lost; nf7d7d0b257d is a NOT-correct item on Art. 101"
+  },
+  {
+   "id": "n331a1ed8083",
+   "why": "outdated figure fixed: 18th LS has 74 women = 13.6% (about 14%)",
+   "fix": {
+    "o": [
+     "About 10 per cent",
+     "About 14 per cent",
+     "About 33 per cent",
+     "About 20 per cent"
+    ],
+    "a": 1,
+    "x": "The 18th Lok Sabha (2024) has 74 women members, about 13.6 per cent (roughly 14 per cent). One-third is the future reservation under the 106th Amendment (Nari Shakti Vandan Adhiniyam, 2023)."
+   }
+  },
+  {
+   "id": "f2a07154cd98d",
+   "why": "different option set: contrasts LS-only power with joint powers (impeachment, removal of judges)"
+  },
+  {
+   "id": "nindian-polity-58-16",
+   "why": "different format: direct question; nindian-polity-57-10 is a NOT-correct item"
+  },
+  {
+   "id": "nindian-polity-57-37",
+   "why": "different angle: who appoints Pro-Tem; 57-17 asks the Article, 57-25 is a NOT-correct item"
+  },
+  {
+   "id": "ff3d1e43b055a",
+   "why": "different correct pair (Balram Jakhar 1987) vs nc77622b22b3 (Mavalankar 1954)"
+  },
+  {
+   "id": "nindian-polity-64-6",
+   "why": "different format: direct question on the session pattern; 64-4 is an incorrect-statement item"
+  },
+  {
+   "id": "fbd3bcdb0ada8",
+   "why": "different correct pair (short notice - light pink) vs n42fd84246a0 (NOT matched)"
+  },
+  {
+   "id": "nindian-polity-55-9",
+   "why": "different format: direct contrast with adjournment motion; 33-28 is a NOT-correct item"
+  },
+  {
+   "id": "n177b5de3d9f",
+   "why": "on-syllabus (Speaker removal effective majority); topic placement is not a reason to remove"
+  },
+  {
+   "id": "ff82fce0e6a73",
+   "why": "different format: direct question; n329b57a7249 is a NOT-correct item"
+  },
+  {
+   "id": "na5a31ca13a9",
+   "why": "AP fact: AP Legislative Assembly procedure (biometric attendance for MLAs from 2026 Budget Session)"
+  },
+  {
+   "id": "f3d319d249851",
+   "why": "different format: direct definition question; n9d90df9da50 is a matched-pair item"
+  },
+  {
+   "id": "nindian-polity-39-15",
+   "why": "on-syllabus (Art. 100 quorum); topic placement is not a reason to remove"
+  },
+  {
+   "id": "nc05098b9939",
+   "why": "on-syllabus economy (Urjit Patel inflation targeting); topic placement is not a reason to remove"
+  },
+  {
+   "id": "n1578e61f5dc",
+   "why": "on-syllabus governance (2nd ARC)"
+  },
+  {
+   "id": "n9d725c0c05b",
+   "why": "on-syllabus (Ashok Dalwai committee, doubling farmers' income)"
+  },
+  {
+   "id": "f017e698533c5",
+   "why": "on-syllabus (committee - reform area pairs)"
+  },
+  {
+   "id": "nindian-polity-39-23",
+   "why": "first Lok Sabha election fact (489 seats); APPSC-askable"
+  },
+  {
+   "id": "nindian-polity-39-14",
+   "why": "on-syllabus A/R on Art. 85 session gap"
+  },
+  {
+   "id": "f5a4cf46972cc",
+   "why": "different angle: 15th LS 71% vs n7fa3a65d088 asks 17th LS 16%"
+  },
+  {
+   "id": "fa3c840dfb18c",
+   "why": "different format: direct question; nf929beec5d3 is a matched-pair item"
+  },
+  {
+   "id": "nb5d9070a768",
+   "why": "different angle: which Bill cannot be returned (vs Financial Bills I/II) vs what the President may do with a Money Bill"
+  },
+  {
+   "id": "f0e31952e75c7",
+   "why": "different format: direct NOT-required item on FB-I; na049714d974 is a NOT-matched pair"
+  },
+  {
+   "id": "fe3910523a03b",
+   "why": "different format: direct Art. 274 question; n2f8061072b1 is a NOT-matched pair"
+  },
+  {
+   "id": "fa9320564bfe3",
+   "why": "different format: direct question on Nov 2025 opinion; n9403271632d is a NOT-correct item"
+  },
+  {
+   "id": "f411c1b8b76eb",
+   "why": "commonly asked origin of the word Budget; not covered elsewhere"
+  },
+  {
+   "id": "nindian-polity-61-37",
+   "why": "different format: direct question; 79-13 is a NOT-correct item"
+  },
+  {
+   "id": "nindian-polity-79-30",
+   "why": "different format: NOT-correct item covering voted/charged items; 79-8 is direct"
+  },
+  {
+   "id": "f40b59b7ff933",
+   "why": "different format: direct option set vs statement item 61-7"
+  },
+  {
+   "id": "f006b915ddcda",
+   "why": "different angle: which body approves excess grant; n18b73995d4e asks when an excess grant arises"
+  },
+  {
+   "id": "nindian-polity-61-9",
+   "why": "different format: direct question; ncca12304447 is a NOT-correct item"
+  },
+  {
+   "id": "f662775dbc187",
+   "why": "different format: direct question; n572917a8966 is a NOT-correct item"
+  },
+  {
+   "id": "f439c15279b3e",
+   "why": "other direction: committee to function; PYQs ask function to committee"
+  },
+  {
+   "id": "f82dd01699a2f",
+   "why": "different format: direct question; nf26f02d11e7 is a matched-pair item"
+  },
+  {
+   "id": "nindian-polity-77-5",
+   "why": "other direction: asks the year; PYQ y7c84bfd1872 asks the State"
+  },
+  {
+   "id": "f4d592fd73798",
+   "why": "different statement keyed: Rule 256 not automatic (vs n8defe3dadf2 keying Rule 255)"
+  },
+  {
+   "id": "f38cbff2ad5b3",
+   "why": "other direction: which is NOT semi-presidential (India) vs n1cb1ebae81e listing the countries"
+  },
+  {
+   "id": "nb79acb240cd",
+   "why": "different angle: which value India chose (responsibility) vs nee232b5947c asking the dilemma"
+  },
+  {
+   "id": "f39c2851bc14b",
+   "why": "different format: direct question; n0d3b7d9e469 is a matched-pair item"
+  },
+  {
+   "id": "nindian-polity-74-5",
+   "why": "different option set: contrasts President's and Governor's ordinances and Union CoM role"
+  },
+  {
+   "id": "f19b4db42f906",
+   "why": "different angle: who removes SPSC chairman (President); n092b44307b0 asks what the Governor cannot do"
+  },
+  {
+   "id": "nindian-polity-40-51",
+   "why": "different option set: incorrect-statement item covering assent/withhold/return"
+  },
+  {
+   "id": "nindian-polity-1-43",
+   "why": "first woman SC judge (Fathima Beevi) - a standard first; topic placement is not a reason"
+  },
+  {
+   "id": "n4ed8d98fd41",
+   "why": "stem fixed: Nallapati Venkata Ramaiah was first Speaker of Andhra State Assembly (1953), per notes",
+   "fix": {
+    "s": "The first Speaker of the Andhra State Legislative Assembly (1953) was",
+    "x": "Nallapati Venkata Ramaiah was Speaker of the Andhra State Assembly (1953-55). Ayyadevara Kaleswara Rao was the first Speaker of the united Andhra Pradesh Assembly (1956); Tanguturi Prakasam was the first Chief Minister of Andhra State."
+   }
+  },
+  {
+   "id": "fd2cadcf5d307",
+   "why": "different format: NOT-correct item adding precedence and oath; n628d720ccfa is direct"
+  },
+  {
+   "id": "nindian-polity-39-31",
+   "why": "on-syllabus (Governor term five years); topic placement is not a reason"
+  },
+  {
+   "id": "n9951f8c9d7d",
+   "why": "adds the binding EC opinion (Art. 192) beyond PYQ y07e27dc4698"
+  },
+  {
+   "id": "n41418c135b9",
+   "why": "different option set: President only vs both/VP/neither; f6b405ff5885a asks where MLAs do NOT vote"
+  },
+  {
+   "id": "f6517239913ec",
+   "why": "different format: direct question; nc6f7fa0f86b is a matched-pair item"
+  },
+  {
+   "id": "f56073fa24d11",
+   "why": "different format: direct question; na925bac8d85 is a NOT-matched pair"
+  },
+  {
+   "id": "fa2c22e7256f0",
+   "why": "different format: direct question; nb6083a56a55 is a NOT-correct item"
+  },
+  {
+   "id": "nindian-polity-70-9",
+   "why": "different angle: incorrect-statement item contrasting salary vs pension funds and retirement age"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "nindian-polity-8-29",
+   "why": "exact repeat of PYQ yd1256a9be73 (President term = Art. 56)"
+  },
+  {
+   "id": "n3c8898ace06",
+   "why": "subsumed by n11ef9de097a (impeachment USA, election method Ireland) - same fact, same answer"
+  },
+  {
+   "id": "nindian-polity-8-5",
+   "why": "exact repeat of PYQ y5a23dd2010e (indirect election)"
+  },
+  {
+   "id": "n976b086a951",
+   "why": "US 22nd Amendment two-term limit - foreign-only, no APPSC angle"
+  },
+  {
+   "id": "ned1775a559c",
+   "why": "exact repeat of PYQ y1e0f7aaae8b (re-election any number of times)"
+  },
+  {
+   "id": "f0e002f05f856",
+   "why": "same fact and answer as nd689e4b9b55 (emoluments in Second Schedule)"
+  },
+  {
+   "id": "nindian-polity-8-19",
+   "why": "exact repeat of PYQs y2c8c36b6702/ycdb9aacd605/y6b018d46227/y1cc94f5315d (impeachment Art. 61)"
+  },
+  {
+   "id": "nindian-polity-8-7",
+   "why": "same fact as n5e4a461179c and restored nindian-polity-2-39 (Art. 65 VP acts as President)"
+  },
+  {
+   "id": "f87542c480f5c",
+   "why": "exact repeat of APPSC PYQ y76428717b46 (outgoing President continues)"
+  },
+  {
+   "id": "n96610521688",
+   "why": "exact repeat of PYQ y273c7f4c71c (Hidayatullah acted as President)"
+  },
+  {
+   "id": "nf23efcaebce",
+   "why": "exact repeat of PYQs y473827c5f05/y4c4d91a798a (Sanjiva Reddy unopposed)"
+  },
+  {
+   "id": "nindian-polity-21-31",
+   "why": "exact repeat of APPSC PYQ y8dae0a27680 (Zail Singh, Indian Post Office Bill)"
+  },
+  {
+   "id": "n777da22b250",
+   "why": "exact repeat of PYQ yc21ae5c849a (Governor ordinance Art. 213)"
+  },
+  {
+   "id": "fd26eca70cee8",
+   "why": "exact repeat of APPSC PYQ y992e8485891 (6 months 6 weeks)"
+  },
+  {
+   "id": "nindian-polity-45-2",
+   "why": "exact repeat of PYQs y505948b03c3/yaf222124177 (Parliament = President + two Houses)"
+  },
+  {
+   "id": "nindian-polity-46-6",
+   "why": "exact repeat of PYQs y8b36d4fb8d3/ydcc72f9ea39 (VP Chairman RS)"
+  },
+  {
+   "id": "n92b6c7abbe5",
+   "why": "exact repeat of APPSC PYQ y54a2e3710e3 (non-member minister six months)"
+  },
+  {
+   "id": "f9e532dc23014",
+   "why": "exact repeat of APPSC PYQ y5fd5b2e6ddf (ministers at President's pleasure)"
+  },
+  {
+   "id": "nff5f643de4e",
+   "why": "exact repeat of APPSC PYQ y839202b077a (15% cap, 91st Amendment)"
+  },
+  {
+   "id": "nindian-polity-46-10",
+   "why": "exact repeat of PYQs yc43683f3992/yf7acc7b1a48 (Cabinet = Cabinet-rank ministers)"
+  },
+  {
+   "id": "n45442414735",
+   "why": "exact repeat of PYQ ydb28fb43c44 (principle of Cabinet government = collective responsibility)"
+  },
+  {
+   "id": "f998880d7eac3",
+   "why": "exact repeat of PYQ y7e54a847e4d (AG qualified as SC judge)"
+  },
+  {
+   "id": "f79179c523748",
+   "why": "exact repeat of PYQ y6a6513206e3 (Japan Parliament = Diet)"
+  },
+  {
+   "id": "n6b6173da24c",
+   "why": "exact repeat of PYQ y092c1b39a61 (same A/R and key)"
+  },
+  {
+   "id": "f81f721ba706a",
+   "why": "same fact and answer as PYQ y15f87fda09b (MP elected President vacates seat)"
+  },
+  {
+   "id": "f1c795baf1bd9",
+   "why": "exact repeat of nindian-polity-12-11 (SC/ST reservation initially 10 years)"
+  },
+  {
+   "id": "nindian-polity-45-11",
+   "why": "exact repeat of PYQ ydbbc2fae566 (RS maximum 250)"
+  },
+  {
+   "id": "nindian-polity-36-32",
+   "why": "same fact and answer as n9f358e61db5 (RS elected by elected MLAs)"
+  },
+  {
+   "id": "nindian-polity-13-19",
+   "why": "exact repeat of PYQ yab18f5c9401 (Nargis Dutt)"
+  },
+  {
+   "id": "n2ad6f4445f3",
+   "why": "exact repeat of PYQ yff41ddf68d3 (1971 Census frozen till 2026)"
+  },
+  {
+   "id": "n2414d16c71e",
+   "why": "exact repeat of PYQs y7d4405d4cab/ya260e078f33 (RS not dissolved)"
+  },
+  {
+   "id": "nindian-polity-13-12",
+   "why": "exact repeat of PYQ y300b36032f8 (one-third retire every two years)"
+  },
+  {
+   "id": "n13fdea688b7",
+   "why": "exact repeat of PYQs y7bfcd7397df/ye8e2d1f15c2 (LS extension one year at a time)"
+  },
+  {
+   "id": "n6baa4f0559c",
+   "why": "exact repeat of APPSC PYQ ye61be0c88ab (61st Amendment voting age)"
+  },
+  {
+   "id": "fc7cf7cd3e24a",
+   "why": "exact repeat of APPSC PYQ yc543cc4e81c (no educational qualification)"
+  },
+  {
+   "id": "ff68faee1a281",
+   "why": "exact repeat of n25b92b8a024 (same four-step sequence, same order)"
+  },
+  {
+   "id": "f38ac6cf7a591",
+   "why": "exact repeat of n7af571a485c (civil arrest 40 days)"
+  },
+  {
+   "id": "f4ed945526f27",
+   "why": "exact repeat of nindian-polity-56-7 (Governor removed without notice, same options)"
+  },
+  {
+   "id": "n7bbd329f7bd",
+   "why": "same fact as n77f1d6ca2cb (Deputy Speaker vacant since 2019 = 17th LS)"
+  },
+  {
+   "id": "fc0b1184282ce",
+   "why": "years a State Deputy Speaker post stayed vacant (Jharkhand 21 years)"
+  },
+  {
+   "id": "nindian-polity-33-11",
+   "why": "same fact and answer as n82bfaa1424b (Zero Hour without notice)"
+  },
+  {
+   "id": "nbf95831bbe0",
+   "why": "exact repeat of n139c0d59bc1 (Calling Attention 1954)"
+  },
+  {
+   "id": "f686a83f0a024",
+   "why": "issue behind a single day's adjournment of the AP Council (Feb 2026)"
+  },
+  {
+   "id": "nfff31d19856",
+   "why": "same fact and answer as fedc0f24f6e29 (point of order ruled by presiding officer)"
+  },
+  {
+   "id": "f3666b810b9ec",
+   "why": "percentage of Question Hour time used in the 17th LS"
+  },
+  {
+   "id": "nindian-polity-38-11",
+   "why": "exact repeat of nindian-polity-55-13 (token cut Rs 100)"
+  },
+  {
+   "id": "f53d68515e0e3",
+   "why": "exact repeat of nindian-polity-61-8 (withdrawal only by appropriation law)"
+  },
+  {
+   "id": "f5c37275927b4",
+   "why": "same fact and answer as n000130c706b (Treasury Bills in CFI)"
+  },
+  {
+   "id": "n1d1f88012b4",
+   "why": "exact repeat of APPSC PYQ yfbb66e2a3f4 (PAC Opposition chair by convention)"
+  },
+  {
+   "id": "f7c2f23b3891e",
+   "why": "exact repeat of APPSC PYQ y5a15f94f8ff (20 LS members)"
+  },
+  {
+   "id": "n2cfddd73217",
+   "why": "exact repeat of APPSC PYQ y5a15f94f8ff (20 LS + 10 RS)"
+  },
+  {
+   "id": "f17c471181bb4",
+   "why": "subsumed by n73cbcf5d2d0 (LS Rule 222 / RS Rule 187)"
+  },
+  {
+   "id": "f0d6fe4d46cf5",
+   "why": "which committee summoned a comedian (celebrity news)"
+  },
+  {
+   "id": "f82cf0c31b7de",
+   "why": "exact date of Presidential assent to the 52nd Amendment"
+  },
+  {
+   "id": "nindian-polity-77-17",
+   "why": "exact repeat of PYQ y7ff8cb969c3 (merger two-thirds)"
+  },
+  {
+   "id": "n83614563267",
+   "why": "party-faction dispute detail (AIADMK camp, May 2026)"
+  },
+  {
+   "id": "n3b201d518b1",
+   "why": "same answer and option set as nindian-polity-77-6 (91st Amendment deleted split)"
+  },
+  {
+   "id": "fa5ad2cc8c5fe",
+   "why": "subsumed by na7331ed8064 (NCRWC 120 LS / 100 RS)"
+  },
+  {
+   "id": "nc9f9b6632ab",
+   "why": "exact repeat of APPSC PYQ ya5632fe30a5 (six months)"
+  },
+  {
+   "id": "n4c55d698727",
+   "why": "exact repeat of PYQ y1457bc901e1 (residuary powers with Union)"
+  },
+  {
+   "id": "nc583603c290",
+   "why": "same fact and answer as PYQs y37c8d60ccef/yf700b46ae8e (executive responsible to legislature)"
+  },
+  {
+   "id": "fbca4ad915265",
+   "why": "subsumed by nb7b3417d9a4 (India procedure established by law; USA due process)"
+  },
+  {
+   "id": "nindian-polity-74-4",
+   "why": "exact repeat of PYQ y4907c1c1427 (Governor ordinance Art. 213)"
+  },
+  {
+   "id": "n0655efb9ede",
+   "why": "exact repeat of APPSC PYQ yf38eaf3adcf (UT administrator acts independently)"
+  },
+  {
+   "id": "n9ab21af1e53",
+   "why": "exact repeat of PYQs yde0cd1caccf/y552eca3f996 (Sarojini Naidu)"
+  },
+  {
+   "id": "f0a863ef7d051",
+   "why": "exact repeat of PYQ y1a9babefd3c (Sucheta Kripalani)"
+  },
+  {
+   "id": "f6c742b01cfea",
+   "why": "exact repeat of APPSC PYQ y9c73f3f830e (minimum 12 ministers)"
+  },
+  {
+   "id": "nf68b382a5ce",
+   "why": "exact repeat of APPSC PYQ y2a9c7a53611 (CM appointed under Art. 164)"
+  },
+  {
+   "id": "f6a2215f1f726",
+   "why": "exact repeat of APPSC PYQs y3b26c8cee61/y8933ddc1af3 (first CM of Andhra State)"
+  },
+  {
+   "id": "nindian-polity-39-4",
+   "why": "exact repeat of PYQ y6becb5c8f86 (max 500, same options)"
+  },
+  {
+   "id": "n8fee094ddc9",
+   "why": "exact repeat of APPSC PYQ ybf47131fcc6 (Council Bill rejected ends)"
+  },
+  {
+   "id": "nindian-polity-60-17",
+   "why": "exact repeat of PYQ yd9475725de7 (Money Bill only in Assembly)"
+  },
+  {
+   "id": "nindian-polity-62-18",
+   "why": "exact repeat of PYQ yb6a8cd1c7d8 (3-month delay)"
+  },
+  {
+   "id": "nindian-polity-62-11",
+   "why": "exact repeat of nf6cf8ef682f (Art. 169 special majority)"
+  },
+  {
+   "id": "na2411345a7d",
+   "why": "exact repeat of APPSC PYQ y2280a9e9c1c (29 SC + 7 ST)"
+  },
+  {
+   "id": "f8ce06483b08d",
+   "why": "exact repeat of APPSC PYQ yc23bcbe94b7 (bicameral 1958)"
+  },
+  {
+   "id": "f9157e0fdb5cc",
+   "why": "exact repeat of APPSC PYQ y25d14257acf (first Speaker Kaleswara Rao)"
+  },
+  {
+   "id": "nd3c1af07293",
+   "why": "exact repeat of APPSC PYQ y775257970e7 (AP Council 58)"
+  },
+  {
+   "id": "nindian-polity-30-20",
+   "why": "same NOT-correct statement keyed as f146c5e49ee8e (ad hoc judge on collegium advice)"
+  },
+  {
+   "id": "f83cd656e6683",
+   "why": "exact repeat of PYQ yef8fef41860 (ad hoc yes, additional no)"
+  },
+  {
+   "id": "n5a1d0dcbff0",
+   "why": "exact repeat of APPSC PYQ y53908def592 (collegium from SC judgments)"
+  },
+  {
+   "id": "n2830c9f65ad",
+   "why": "exact repeat of APPSC PYQ y6151f87bf84 (Chelameswar dissent)"
+  },
+  {
+   "id": "nf881e0f5aa8",
+   "why": "exact repeat of APPSC PYQ yd53819b49ff (99th Amendment struck down)"
+  },
+  {
+   "id": "nindian-polity-69-48",
+   "why": "exact repeat of PYQs y77ab41f3c61/yd1db3939522 (minimum five judges)"
+  },
+  {
+   "id": "nindian-polity-69-13",
+   "why": "exact repeat of PYQ y0c1873db42e (SC reviews own judgments)"
+  },
+  {
+   "id": "nindian-polity-2-47",
+   "why": "exact repeat of PYQ y2ba20496b71 (Art. 143)"
+  },
+  {
+   "id": "n88105d66042",
+   "why": "exact repeat of PYQ y7daf687941f (Art. 137)"
+  },
+  {
+   "id": "nindian-polity-69-40",
+   "why": "exact repeat of PYQ y687f3707703 (curative petition Art. 142)"
+  },
+  {
+   "id": "n6c42a0f8f9a",
+   "why": "exact repeat of APPSC PYQ y2687098bac1 (first CJI H.J. Kania)"
+  }
+ ]
+}

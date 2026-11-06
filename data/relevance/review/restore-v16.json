@@ -1,0 +1,709 @@
+{
+ "restore": [
+  {
+   "id": "ff30dd86d6ffe",
+   "why": "direct one-liner; existing item is a matching-pairs format"
+  },
+  {
+   "id": "nindian-society-41-12",
+   "why": "other direction: asks what the Act prohibits, existing asks which law"
+  },
+  {
+   "id": "ffe420e2b0bc9",
+   "why": "direct number question; existing is a multi-part statement item"
+  },
+  {
+   "id": "nindian-society-1-38",
+   "why": "pairs item teaching SRC, Andhra movement, 7th Amendment; key sound"
+  },
+  {
+   "id": "ne60f67833aa",
+   "why": "direct one-liner; existing is a three-way matching item"
+  },
+  {
+   "id": "nindian-society-1-47",
+   "why": "key fixed: duplicate-item giveaway replaced with a correct JP pair",
+   "fix": {
+    "o": [
+     "Founder of the first youth reform movement – Henry Louis Vivian Derozio",
+     "First youth organisation of India – Young Bengal Movement",
+     "First student-led national movement – JP Movement, 1974",
+     "Leader of the 1974 Bihar student movement – Jayaprakash Narayan"
+    ],
+    "a": 2,
+    "x": "The Swadeshi Movement (1905), not the JP Movement, was the first student-led national movement. Derozio founded the Young Bengal movement, India's first youth reform movement, and Jayaprakash Narayan led the 1974 Bihar student movement."
+   }
+  },
+  {
+   "id": "f098535b78e2b",
+   "why": "AP state current-affairs fact (district anti-drug drive)"
+  },
+  {
+   "id": "f94840821c757",
+   "why": "asks the year directly; existing item tests the Optional Protocol position (both its options carry 1979)"
+  },
+  {
+   "id": "nindian-polity-16-6",
+   "why": "the PYQ y2372fd12c7b has no valid key (a=-1), so this is the only working Art. 17 item"
+  },
+  {
+   "id": "n07f1fef4a4f",
+   "why": "different angle: living wage; PYQ asks decent standard of life/leisure; options teach 39(a), 39(d), 42"
+  },
+  {
+   "id": "f4db29bfaf8e7",
+   "why": "direct one-liner; existing is a four-way matching item"
+  },
+  {
+   "id": "n710de7738af",
+   "why": "asks the undertrial share alone; existing pairs it with occupancy rate"
+  },
+  {
+   "id": "nb07dc650cfd",
+   "why": "tests pardon vs commute/remit/suspend directly; PYQ is a mixed statement item"
+  },
+  {
+   "id": "nindian-society-2-5",
+   "why": "APPSC-relevant modern history fact (socio-religious literature)"
+  },
+  {
+   "id": "fa58d259ec9b6",
+   "why": "direct attribution; existing is an incorrectly-matched pairs item"
+  },
+  {
+   "id": "fee44736ee6ab",
+   "why": "different option set teaches Menon, Tarabai Shinde, Phule"
+  },
+  {
+   "id": "n944d368b142",
+   "why": "other direction: gives definition, asks the term"
+  },
+  {
+   "id": "nindian-society-27-2",
+   "why": "different angle: incorrect-statement item on audit components"
+  },
+  {
+   "id": "n58e92556e28",
+   "why": "pairs item contrasting 243D and 243T; existing asks article only"
+  },
+  {
+   "id": "nindian-society-10-32",
+   "why": "A-R ambiguity removed: rewritten as a direct year question",
+   "fix": {
+    "s": "The Prohibition of Child Marriage Act, which replaced the Child Marriage Restraint (Sarda) Act of 1929, was enacted in:",
+    "o": [
+     "1978",
+     "2006",
+     "2012",
+     "2019"
+    ],
+    "a": 1,
+    "x": "The Prohibition of Child Marriage Act was enacted in 2006 and replaced the Sarda Act, 1929. 1978 is when the Sarda Act's age limits were raised, 2012 is the POCSO Act and 2019 is the triple talaq law."
+   }
+  },
+  {
+   "id": "f451859dd1036",
+   "why": "direct year question; existing is a law-year pairs item"
+  },
+  {
+   "id": "f7de6849b2450",
+   "why": "gives the actual commencement date; existing only says 1 Jan 1994 is wrong"
+  },
+  {
+   "id": "f79bd2a7de282",
+   "why": "asks the term of imprisonment directly; existing asks the legal status"
+  },
+  {
+   "id": "n1a957133e8e",
+   "why": "direct item whose distractors teach which labour laws went into other codes; PYQ is statement-code format"
+  },
+  {
+   "id": "fadbb8269fef4",
+   "why": "direct commencement-year question; existing is a pairs item"
+  },
+  {
+   "id": "fcf1ab875af2f",
+   "why": "direct question; existing is a section-pairs NOT-matched item"
+  },
+  {
+   "id": "fc32045416f51",
+   "why": "different statements (NGO member, half women, presiding officer)"
+  },
+  {
+   "id": "f5c8833da103b",
+   "why": "asks the employer time limit alone; existing bundles three limits"
+  },
+  {
+   "id": "f2d0a1993ef66",
+   "why": "NOT-punishable format listing the specific ITPA offences"
+  },
+  {
+   "id": "nindian-society-36-3",
+   "why": "A-R fixed: Reason now states how SHe-Box routes complaints, so it explains A",
+   "fix": {
+    "s": "Assertion (A): SHe-Box helps streamline redressal under the POSH Act.\nReason (R): A complaint filed on SHe-Box goes directly to the Internal or Local Committee that has jurisdiction over it.",
+    "x": "Both are true: SHe-Box (Sexual Harassment electronic Box) is an online portal whose complaints are routed directly to the Internal or Local Committee concerned, which is how it speeds redressal under the POSH Act. R explains A."
+   }
+  },
+  {
+   "id": "nindian-society-38-6",
+   "why": "fixed NDSO statement so only option C is incorrect",
+   "fix": {
+    "o": [
+     "NDSO is a national database of sexual offenders maintained by the NCRB.",
+     "ITSSO ensures mandatory two-month investigation completion in rape cases.",
+     "ITSSO is a citizen portal for reporting online financial fraud.",
+     "ITSSO provides real-time monitoring of investigations in sexual-offence cases."
+    ]
+   }
+  },
+  {
+   "id": "f5c51a29cbd5c",
+   "why": "two-statement format adds the 2030/Art. 334 detail"
+  },
+  {
+   "id": "f3db56cc3b6da",
+   "why": "different angle: asks the excluded State (Bihar)"
+  },
+  {
+   "id": "f290fe6654aec",
+   "why": "other direction: names the benefit, asks the Article"
+  },
+  {
+   "id": "nab05cadb089",
+   "why": "direct form; PYQ is a multi-statement except item"
+  },
+  {
+   "id": "n7b4f194b9f0",
+   "why": "ambiguity fixed: framed on the 2009 MoEF circular",
+   "fix": {
+    "s": "Which of the following is NOT correct regarding forest diversion and the Forest Rights Act?",
+    "o": [
+     "MoEF's 2009 circular required completion of FRA processes before forest diversion under the FCA",
+     "Under the 2009 circular, forest diversion could go ahead before FRA claims were settled if the project was of public importance",
+     "Gram Sabha consent is relevant to the FRA process",
+     "Niyamgiri saw Gram Sabha rejection of bauxite mining"
+    ],
+    "a": 1,
+    "x": "MoEF's August 2009 circular barred forest diversion under the FCA until FRA processes, including Gram Sabha consent, were complete; it made no public-importance exception. In Niyamgiri (2013) the Gram Sabhas rejected bauxite mining. The Forest Conservation Rules, 2022 later diluted this sequencing."
+   }
+  },
+  {
+   "id": "nindian-society-35-24",
+   "why": "A-R fixed: Reason now gives the EMRS siting norm, which explains A",
+   "fix": {
+    "s": "Assertion (A): Eklavya Model Residential Schools provide quality middle and high school education in remote areas.\nReason (R): An EMRS is to be set up in every block with more than 50% ST population and at least 20,000 tribal persons.",
+    "x": "Both are true: EMRS are sited in every block with over 50% ST population and at least 20,000 tribal persons, which are mostly remote areas, so R explains why they bring middle and high school education there."
+   }
+  },
+  {
+   "id": "f91177002e8af",
+   "why": "other direction: asks the year; PYQ asks which body has worked since 1956"
+  },
+  {
+   "id": "nbcaba3aac7d",
+   "why": "other direction: asks the purpose; PYQ asks the portal name"
+  },
+  {
+   "id": "nindian-society-49-9",
+   "why": "A-R fixed: R now a true but non-explanatory fact (NCPCR monitors RTE and POCSO)",
+   "fix": {
+    "s": "Assertion (A): The CPCR Act, 2005 constituted the NCPCR and SCPCRs as statutory bodies.\nReason (R): The NCPCR monitors the implementation of the RTE Act and the POCSO Act.",
+    "a": 1,
+    "x": "Both are true, but R does not explain A: the Commissions are statutory because an Act of Parliament (CPCR Act, 2005) set them up; monitoring the RTE and POCSO Acts is a function later given to them."
+   }
+  },
+  {
+   "id": "nindian-society-38-7",
+   "why": "asks what PENCIL tracks, with different distractors (TrackChild, adoption, Anganwadi)"
+  },
+  {
+   "id": "nindian-society-37-10",
+   "why": "112 India / ERSS is an exam-relevant government initiative"
+  },
+  {
+   "id": "n4feec05cda7",
+   "why": "direct scheme feature; existing is a scheme-benefit pairs item"
+  },
+  {
+   "id": "nindian-society-37-9",
+   "why": "exam-relevant portal; A-R key defensible"
+  },
+  {
+   "id": "nindian-society-37-4",
+   "why": "other direction: asks the app; PYQ asks what PRASHAST screens"
+  },
+  {
+   "id": "nindian-society-37-25",
+   "why": "exam-relevant scheme; formats do explain accessibility"
+  },
+  {
+   "id": "nindian-society-35-33",
+   "why": "other direction: describes function, asks the initiative"
+  },
+  {
+   "id": "na09fb706583",
+   "why": "key fixed: option no longer credits the 2024 two-child-norm removal to the 2026 policy",
+   "fix": {
+    "o": [
+     "A two-child norm for contesting local body elections",
+     "Incentives for a second or third child, marking a shift from population control to population management",
+     "A cash penalty on families with more than two children",
+     "Compulsory sterilisation after the second child"
+    ],
+    "x": "The March 2026 draft policy moves from population control to population management and offers incentives (Rs 25,000) for a second or third child. A two-child norm, penalties or sterilisation would be control measures, the opposite of the policy."
+   }
+  },
+  {
+   "id": "nb74965aff79",
+   "why": "direct Article question; existing is a scenario item"
+  },
+  {
+   "id": "n952e900fff1",
+   "why": "other direction: asks the case name; existing describes P.A. Inamdar"
+  },
+  {
+   "id": "nb4e49b60844",
+   "why": "stem fixed to ask the year of the Act, removing 1992/1993 ambiguity",
+   "fix": {
+    "s": "The National Commission for Minorities Act, which made the Minorities Commission a statutory body, was enacted in:",
+    "x": "The non-statutory Minorities Commission came in 1978; the NCM Act was enacted in 1992 and the first statutory Commission was constituted in 1993."
+   }
+  },
+  {
+   "id": "fd8408c52d581",
+   "why": "direct one-liner; existing is a pairs item"
+  },
+  {
+   "id": "f78ea8637edcc",
+   "why": "pairs item also teaches what Ashraf and Arzal mean"
+  },
+  {
+   "id": "nindian-society-37-20",
+   "why": "PM-JANMAN (PVTGs) is exam-relevant"
+  },
+  {
+   "id": "f5f92260b0ac7",
+   "why": "different option set (USTTAD, Naya Savera, Nai Manzil vs Nai Roshni)"
+  },
+  {
+   "id": "f8bade1304a9a",
+   "why": "tests the number of trades; existing tests the target group"
+  },
+  {
+   "id": "n6e4156892ec",
+   "why": "PYQ only shows 21-40 is wrong and ff4559d115e83 is not in the app; this gives the 18-40 range"
+  },
+  {
+   "id": "n8b5ad5a9bdf",
+   "why": "direct question; PYQ is a three-statement item"
+  },
+  {
+   "id": "nea5de1533d5",
+   "why": "other direction: names Commonwealth, asks the description"
+  },
+  {
+   "id": "n15b13cccbb1",
+   "why": "other direction: asks what IS a principle"
+  },
+  {
+   "id": "ff610260fd11c",
+   "why": "direct one-liner; existing is a three-statement item"
+  },
+  {
+   "id": "f1e997deae20b",
+   "why": "direct one-liner; existing is a pairs item"
+  },
+  {
+   "id": "n5f534cedabd",
+   "why": "asks the signatory; PYQ asks the date"
+  },
+  {
+   "id": "fee4167f69ac5",
+   "why": "tests the length; existing item uses 96 km in two options"
+  },
+  {
+   "id": "fd6d0ad88e340",
+   "why": "direct one-liner; existing is a pairs item"
+  },
+  {
+   "id": "f7f78b47a4148",
+   "why": "gives the right figure (200%); existing only marks 100% as wrong"
+  },
+  {
+   "id": "nd2196a31777",
+   "why": "asks India's stance; existing asks the ground of rejection"
+  },
+  {
+   "id": "fcbb5a6269ab6",
+   "why": "direct one-liner; existing is a pairs item"
+  },
+  {
+   "id": "f47d104aa9ab9",
+   "why": "composite item testing a different angle (Press Note 3 is not a ban)"
+  },
+  {
+   "id": "fb487f837c53c",
+   "why": "direct one-liner; existing is a NOT-matched pairs item"
+  },
+  {
+   "id": "fbf82bb372297",
+   "why": "direct one-liner; existing is a composite NOT-correct item"
+  },
+  {
+   "id": "f534467e31dca",
+   "why": "direct one-liner; existing is a pairs item"
+  },
+  {
+   "id": "n1ea2b652abf",
+   "why": "ambiguity fixed: Chabahar option replaced with Gwadar; explanation corrected",
+   "fix": {
+    "o": [
+     "Jebel Ali",
+     "Gwadar",
+     "Bandar Abbas",
+     "Mundra"
+    ],
+    "x": "The INSTC's main route runs from Mumbai by sea to Bandar Abbas in Iran and then overland through Iran and the Caspian region to Russia. Chabahar is being linked to it; Gwadar is in Pakistan and Jebel Ali in the UAE."
+   }
+  },
+  {
+   "id": "n7f09307b200",
+   "why": "different angle: Charter entry into force; PYQ asks UN Day"
+  },
+  {
+   "id": "f3f2e21a45a26",
+   "why": "direct one-liner; existing is a pairs item"
+  },
+  {
+   "id": "n96854ef36f2",
+   "why": "other direction: asks the year; PYQ asks the laureate"
+  },
+  {
+   "id": "f593c90abde93",
+   "why": "direct item covering IDA, IFC, MIGA roles; existing is a pairs item"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "n1e438a8ffdf",
+   "why": "exact repeat of PYQ y22a27479156 (withdrawal year 2021)"
+  },
+  {
+   "id": "n6a269a38912",
+   "why": "venue of a protest (Jantar Mantar): no exam value"
+  },
+  {
+   "id": "n9614187b136",
+   "why": "exact repeat of PYQ y861e2e8eaed (ADSI 2015, indebtedness)"
+  },
+  {
+   "id": "n70bd4fbfaff",
+   "why": "exact repeat of PYQ y72ea336e40f (suicide)"
+  },
+  {
+   "id": "f011758d2d6b2",
+   "why": "exact repeat of PYQ y2c72a011a28 (West Bengal)"
+  },
+  {
+   "id": "fbc1f5db46fbe",
+   "why": "exact repeat of n36865227240 (same stem and options)"
+  },
+  {
+   "id": "n318c74cdf59",
+   "why": "exact repeat of PYQ yadf864975f3 (30 articles)"
+  },
+  {
+   "id": "n1d65d71dd8b",
+   "why": "exact repeat of PYQ y47eca4c6349 (UBI absent)"
+  },
+  {
+   "id": "nindian-society-32-15",
+   "why": "exact repeat of PYQ y3ff7decaa26 (10 Dec 1948)"
+  },
+  {
+   "id": "fa3dc4fd90789",
+   "why": "exact repeat of n5bfc5e61b61 (NOT a Paris Principle: executive reliance)"
+  },
+  {
+   "id": "fe45356c72453",
+   "why": "exact repeat of PYQ yd2a9c91ee1e (7 years)"
+  },
+  {
+   "id": "fb81fefe255aa",
+   "why": "BNS section number of a cross-referenced definition: serial-number trivia"
+  },
+  {
+   "id": "nd397821f71e",
+   "why": "exact repeat of nb07896552c3 (2019 reappointment limit removed)"
+  },
+  {
+   "id": "nefe56dc419b",
+   "why": "exact repeat of PYQ y7282cdfca42 (CM heads SHRC committee)"
+  },
+  {
+   "id": "f7d85338d475a",
+   "why": "exact repeat of n246a16f4a29 (State + Concurrent List)"
+  },
+  {
+   "id": "naa23742dc9f",
+   "why": "exact repeat of PYQ y878cb4eaf3e (seek Central Govt report)"
+  },
+  {
+   "id": "n0827c225dbc",
+   "why": "police station name in a single case"
+  },
+  {
+   "id": "ncd671d8c1bd",
+   "why": "exact repeat of PYQ ya9279f6e17c (China)"
+  },
+  {
+   "id": "f95573434e2d7",
+   "why": "retrospective commencement date of an Act: date trivia"
+  },
+  {
+   "id": "nindian-society-46-12",
+   "why": "exact repeat of na67a7b1ef11 (Vineeta Sharma, same stem)"
+  },
+  {
+   "id": "n6185748ad00",
+   "why": "exact repeat of PYQ y7828548be04 (26 weeks)"
+  },
+  {
+   "id": "f15bdc0c772b7",
+   "why": "exact repeat of n4cd181e8fa2 (Mexico City 1975)"
+  },
+  {
+   "id": "n7056858b0c7",
+   "why": "exact repeat of PYQ yda837ceb617 (1 July 1961)"
+  },
+  {
+   "id": "nfcd1cc45557",
+   "why": "exact repeat of PYQ yc49930126c7 (26 Oct 2006)"
+  },
+  {
+   "id": "n981b46162be",
+   "why": "exact repeat of PYQ y453a52522c8 (Vishaka)"
+  },
+  {
+   "id": "fd53fe518838a",
+   "why": "exact repeat of PYQ y139fc662c50 (Art. 23)"
+  },
+  {
+   "id": "f150c05af2619",
+   "why": "exact Lok Sabha passage date of a lapsed bill"
+  },
+  {
+   "id": "feaec81c9acff",
+   "why": "exact repeat of PYQ yd62dcf3cffa (occupier)"
+  },
+  {
+   "id": "nindian-polity-76-6",
+   "why": "exact repeat of ne5ea228e03c (106th excludes Rajya Sabha)"
+  },
+  {
+   "id": "n18d67b05b36",
+   "why": "exact repeat of PYQ y32984175935 (Arunachal)"
+  },
+  {
+   "id": "nindian-polity-76-15",
+   "why": "repeat of n03613185fa2 (Bihar, 2006), which already asks state and year"
+  },
+  {
+   "id": "fcc843b1947e3",
+   "why": "exact repeat of n3dcb9e3900f (15 years, extendable)"
+  },
+  {
+   "id": "f7c9fc263a6c6",
+   "why": "exact repeat of n13d6a93aa05 (298-230, 352 needed)"
+  },
+  {
+   "id": "neb11d453d2c",
+   "why": "exact repeat of PYQ y12e27341350 (three umbrella missions)"
+  },
+  {
+   "id": "n75d1fbaeca0",
+   "why": "exact repeat of PYQ ye934d207f97 (laws, education, awareness)"
+  },
+  {
+   "id": "n7facf7e8a78",
+   "why": "exact repeat of PYQ ye074818589b (30 Jan 1990)"
+  },
+  {
+   "id": "n7c995db7519",
+   "why": "exact repeat of PYQ y4591541a84c (HC Chief Justice)"
+  },
+  {
+   "id": "f7ad371688636",
+   "why": "exact repeat of PYQ yd2aa1affcfc (State Government)"
+  },
+  {
+   "id": "nfbb36ce74e0",
+   "why": "exact repeat of PYQs y61aecf8c36c / yf6569a27d50 (DSP)"
+  },
+  {
+   "id": "n5598e20ca98",
+   "why": "exact repeat of PYQ y5d01986d893 (124th Bill)"
+  },
+  {
+   "id": "n11fe97ba28c",
+   "why": "exact repeat of PYQ ye4caef55d3c (Kalelkar)"
+  },
+  {
+   "id": "n17d6fbeaf18",
+   "why": "exact repeat of PYQ y26db2d39e0e (Morarji Desai)"
+  },
+  {
+   "id": "nfba26cc79ca",
+   "why": "count of candidates in a follow-up clarification"
+  },
+  {
+   "id": "ff1582b24e4dc",
+   "why": "exact repeat of n5b1d6ccfb1b (Anantharaman, first AP BC Commission)"
+  },
+  {
+   "id": "nc9b0c60b6d8",
+   "why": "exact repeat of PYQ y9783b9e40fc (religiously neutral)"
+  },
+  {
+   "id": "f96983b6ce688",
+   "why": "repeat of n62ea688001e (Diku = outsider-exploiter)"
+  },
+  {
+   "id": "ncddb4e5b0c6",
+   "why": "exact repeat of PYQ y16c7637769f (1999)"
+  },
+  {
+   "id": "n87227a1d660",
+   "why": "exact repeat of PYQ y522980545b1 (86th Amendment, 51A(k))"
+  },
+  {
+   "id": "n7725e359759",
+   "why": "exact repeat of PYQ y7adfcb110f4 (Centre not sole funder)"
+  },
+  {
+   "id": "f91463dc60ea9",
+   "why": "exact repeat of PYQ y1439afe9e37 (Article 24)"
+  },
+  {
+   "id": "nindian-society-49-5",
+   "why": "exact repeat of nf9770d5160e (DM issues adoption orders)"
+  },
+  {
+   "id": "nindian-society-49-10",
+   "why": "exact repeat of ncf9e0227760 (death penalty)"
+  },
+  {
+   "id": "ne83ed0a721d",
+   "why": "exact repeat of PYQ y6178560f525 (social media, early puberty)"
+  },
+  {
+   "id": "fa1ffceeea828",
+   "why": "number of States covered by a 2007 study"
+  },
+  {
+   "id": "n21a95604152",
+   "why": "exact repeat of PYQ y9d78add55ba (ICDS)"
+  },
+  {
+   "id": "fe9c204306da7",
+   "why": "exact repeat of PYQ ya24fa6f9941 (2016)"
+  },
+  {
+   "id": "n0f5bcd76b95",
+   "why": "exact repeat of PYQ y45d04eb0afe (Nayagarh)"
+  },
+  {
+   "id": "ff52e7c6584b2",
+   "why": "exact repeat of n41d34912ac2 (State List Entry 9)"
+  },
+  {
+   "id": "n0d7a804dc53",
+   "why": "exact repeat of PYQ y1e1fd7d9ed2 (Inclusive India)"
+  },
+  {
+   "id": "n93c312e274a",
+   "why": "exact repeat of PYQ y656417dc6fd (EKAM)"
+  },
+  {
+   "id": "n53f6ff8c7d1",
+   "why": "exact repeat of PYQ yf35a15855cc (3 December)"
+  },
+  {
+   "id": "f423e0a531dfd",
+   "why": "exact repeat of PYQ y354f8303bcc (South Africa)"
+  },
+  {
+   "id": "nfcbbc52f442",
+   "why": "exact repeat of PYQ y063a4ed49ba (Nellore)"
+  },
+  {
+   "id": "f6f047169059a",
+   "why": "repeat of nf61bb5fa631 (11 States before 2014)"
+  },
+  {
+   "id": "nee0f554912b",
+   "why": "exact repeat of PYQ yc2686c27bdb (Central Government)"
+  },
+  {
+   "id": "nf0fd42b840c",
+   "why": "exact repeat of PYQ yd5f7a7318bd (Ajlaf)"
+  },
+  {
+   "id": "f77b85c18cf90",
+   "why": "exact repeat of ndf53bf3eb7d (repealed 1952)"
+  },
+  {
+   "id": "f6317fc7cc04d",
+   "why": "repeat of neab78c0ad31 (statutory body, 1964)"
+  },
+  {
+   "id": "n94f0ed06c0d",
+   "why": "exact repeat of PYQ ycf5d26c59c6 (Arjun Sengupta)"
+  },
+  {
+   "id": "fadab62b092c2",
+   "why": "exact repeat of n6d2c7f98146 (1985/1999/2015)"
+  },
+  {
+   "id": "n07661deb956",
+   "why": "exact repeat of PYQ y6889c1de6dd (Bandung in Indonesia)"
+  },
+  {
+   "id": "nf035dbff2b6",
+   "why": "exact repeat of PYQ y84e9f278e69 (Modi)"
+  },
+  {
+   "id": "f67a0104a9715",
+   "why": "exact repeat of PYQ y10f513334a6 (Brahmaputra and Moskva)"
+  },
+  {
+   "id": "f9fd80aa83639",
+   "why": "exact repeat of PYQ y6ce26c96da2 (Niamey, Niger)"
+  },
+  {
+   "id": "f925db9aafed0",
+   "why": "exact repeat of PYQ y53ba1d22ded (1267 Committee)"
+  },
+  {
+   "id": "n32ac93a7f2e",
+   "why": "exact repeat of PYQ yea04ced11bd (Vajpayee)"
+  },
+  {
+   "id": "nc13c4166583",
+   "why": "exact repeat of PYQ y6b963f079b5 (CND)"
+  },
+  {
+   "id": "n9d0d5c157af",
+   "why": "exact repeat of PYQ y6113b65c88b (Jamnagar)"
+  },
+  {
+   "id": "ndd7a905fe2f",
+   "why": "exact repeat of PYQ y26d94abeabb (Ajay Banga)"
+  },
+  {
+   "id": "f120a03a3fb98",
+   "why": "exact repeat of PYQ y80966c72fd1 (World Bank)"
+  }
+ ]
+}
