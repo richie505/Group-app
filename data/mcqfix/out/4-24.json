@@ -1,0 +1,810 @@
+{
+ "reshape": {
+  "n851e8a91fae": {
+   "shape": "match",
+   "s": "Which of the following pairs about the Human Development Index is INCORRECTLY matched?",
+   "o": [
+    "Health – Included as an HDI dimension",
+    "Education – Included as an HDI dimension",
+    "Inequality – A criticism: not reflected in the HDI",
+    "Sustainability – Included as an HDI dimension"
+   ],
+   "a": 3,
+   "x": "The HDI includes health and education; one of its criticisms is that it ignores sustainability, along with inequality, gender and political freedom."
+  },
+  "ne7649606167": {
+   "shape": "one-liner",
+   "s": "Among the Rayalaseema districts (13-district set), which had the lowest population density?",
+   "o": [
+    "Kurnool",
+    "Anantapuramu",
+    "YSR Kadapa",
+    "Chittoor"
+   ],
+   "a": 2,
+   "x": "In Rayalaseema, YSR Kadapa had the lowest density, while Kurnool had the highest child share."
+  }
+ },
+ "new": [
+  {
+   "topic": 72,
+   "sec": 1,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "In Amartya Sen's capability approach, capabilities are described as:",
+   "o": [
+    "Substantive freedoms to lead lives people value",
+    "Rise in per capita national income",
+    "Fixed universal list of basic needs",
+    "Access to public services only"
+   ],
+   "a": 0,
+   "x": "Sen defined capabilities as substantive freedoms to lead the lives people value and avoided a fixed universal list."
+  },
+  {
+   "topic": 72,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Who is the Pakistani economist who conceived the Human Development Report?",
+   "o": [
+    "Amartya Sen",
+    "Mahbub ul Haq",
+    "Jagdish Bhagwati",
+    "Muhammad Yunus"
+   ],
+   "a": 1,
+   "x": "Mahbub ul Haq, a Pakistani economist, conceived the HDR, which he co-conceived with Amartya Sen."
+  },
+  {
+   "topic": 72,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "What are the goalposts used for life expectancy at birth in the HDI?",
+   "o": [
+    "25–80 years",
+    "15–90 years",
+    "20–85 years",
+    "20–75 years"
+   ],
+   "a": 2,
+   "x": "The health dimension uses life expectancy at birth with goalposts of 20 and 85 years."
+  },
+  {
+   "topic": 72,
+   "sec": 3,
+   "angle": "1",
+   "shape": "statements",
+   "s": "Consider the following statements about the HDI knowledge dimension:\n1. Mean years of schooling is measured for adults aged 25 and above.\n2. Expected years of schooling has a goalpost of 0–18 years.\n3. Adult literacy rate is still one of its indicators.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "MYS (adults 25+, goalpost 0–15) and EYS (0–18) measure knowledge; literacy was replaced by them in 2010."
+  },
+  {
+   "topic": 72,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which neighbouring country shared India's rank of 130 in the HDR 2025?",
+   "o": [
+    "Bhutan",
+    "Nepal",
+    "Sri Lanka",
+    "Bangladesh"
+   ],
+   "a": 3,
+   "x": "Bangladesh shares rank 130 with India; Sri Lanka (89) and Bhutan (125) are ahead and Nepal (145) is below."
+  },
+  {
+   "topic": 72,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "In the HDR 2025, Sri Lanka's HDI rank was:",
+   "o": [
+    "89",
+    "78",
+    "125",
+    "145"
+   ],
+   "a": 0,
+   "x": "Sri Lanka ranked 89, ahead of India (130); China was 78 and Nepal 145."
+  },
+  {
+   "topic": 72,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which country ranked first in the Human Development Report 2025?",
+   "o": [
+    "Norway",
+    "Iceland",
+    "Switzerland",
+    "Japan"
+   ],
+   "a": 1,
+   "x": "Iceland topped the HDR 2025 with an HDI of 0.972; South Sudan was last (193rd)."
+  },
+  {
+   "topic": 72,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which country has the highest life expectancy as per the HDR 2025?",
+   "o": [
+    "Iceland",
+    "Switzerland",
+    "Japan",
+    "South Korea"
+   ],
+   "a": 2,
+   "x": "Japan has the highest life expectancy, while Iceland ranked first overall."
+  },
+  {
+   "topic": 72,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which country was ranked last (193rd) in the HDR 2025?",
+   "o": [
+    "Somalia",
+    "Niger",
+    "Chad",
+    "South Sudan"
+   ],
+   "a": 3,
+   "x": "South Sudan was ranked last, 193rd, in the HDR 2025."
+  },
+  {
+   "topic": 72,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which index is described as HDI discounted for inequality?",
+   "o": [
+    "IHDI",
+    "GII",
+    "GDI",
+    "MPI"
+   ],
+   "a": 0,
+   "x": "The IHDI discounts the HDI for inequality; the gap between HDI and IHDI is the loss due to inequality."
+  },
+  {
+   "topic": 72,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Physical Quality of Life Index (PQLI), a pre-HDI measure, used which indicators?",
+   "o": [
+    "Income, literacy, life expectancy",
+    "Literacy, infant mortality, life expectancy",
+    "Schooling, income, health",
+    "Literacy, income, infant mortality"
+   ],
+   "a": 1,
+   "x": "The PQLI combined literacy, infant mortality and life expectancy before the HDI was introduced."
+  },
+  {
+   "topic": 72,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "According to NITI Aayog (January 2024), multidimensional poverty in India fell from 29.17% in 2013-14 to:",
+   "o": [
+    "14.96% in 2022-23",
+    "9.21% in 2022-23",
+    "11.28% in 2022-23",
+    "6.06% in 2022-23"
+   ],
+   "a": 2,
+   "x": "NITI Aayog reported a fall from 29.17% to 11.28%, with 24.82 crore people moving out of poverty."
+  },
+  {
+   "topic": 72,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which State recorded the biggest fall in the number of multidimensionally poor (2013-14 to 2022-23)?",
+   "o": [
+    "Bihar",
+    "Madhya Pradesh",
+    "Rajasthan",
+    "Uttar Pradesh"
+   ],
+   "a": 3,
+   "x": "Uttar Pradesh saw the biggest fall (5.94 crore), followed by Bihar and Madhya Pradesh."
+  },
+  {
+   "topic": 72,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The first National Human Development Report of India (2001) was prepared by:",
+   "o": [
+    "Planning Commission",
+    "NITI Aayog",
+    "UNDP",
+    "Finance Commission"
+   ],
+   "a": 0,
+   "x": "The first NHDR (2001) was brought out by the Planning Commission and released on 23 April 2002; Kerala was top."
+  },
+  {
+   "topic": 72,
+   "sec": 6,
+   "angle": "6,9",
+   "shape": "one-liner",
+   "s": "Which State topped the first National Human Development Report of India?",
+   "o": [
+    "Goa",
+    "Kerala",
+    "Punjab",
+    "Tamil Nadu"
+   ],
+   "a": 1,
+   "x": "Kerala was ranked top in the first NHDR (2001)."
+  },
+  {
+   "topic": 72,
+   "sec": 6,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Which two States have a state HDI above 0.86 in the sub-national series?",
+   "o": [
+    "Goa and Himachal Pradesh",
+    "Kerala and Punjab",
+    "Kerala and Goa",
+    "Tamil Nadu and Kerala"
+   ],
+   "a": 2,
+   "x": "Kerala and Goa are above 0.86, while Bihar is lowest at 0.650."
+  },
+  {
+   "topic": 72,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Andhra Pradesh's multidimensional poverty headcount ratio (6.06%) compares with a national figure of:",
+   "o": [
+    "11.28%",
+    "29.17%",
+    "24.82%",
+    "14.96%"
+   ],
+   "a": 3,
+   "x": "AP's headcount of 6.06% is well below the national 14.96%; AP's MPI halved from 0.053 to 0.025."
+  },
+  {
+   "topic": 73,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The population density of undivided Andhra Pradesh in 2011 was:",
+   "o": [
+    "308 per sq km",
+    "304 per sq km",
+    "382 per sq km",
+    "279 per sq km"
+   ],
+   "a": 0,
+   "x": "308 was undivided AP's density; residual AP's is 304 and India's 382."
+  },
+  {
+   "topic": 73,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The population density of Andhra Pradesh in 2001 was:",
+   "o": [
+    "252 per sq km",
+    "279 per sq km",
+    "304 per sq km",
+    "208 per sq km"
+   ],
+   "a": 1,
+   "x": "AP's density rose 208 (1981), 252 (1991), 279 (2001) and 304 (2011)."
+  },
+  {
+   "topic": 73,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which district had the highest population density among the 13 districts of Andhra Pradesh in 2011?",
+   "o": [
+    "Guntur",
+    "East Godavari",
+    "Krishna",
+    "Visakhapatnam"
+   ],
+   "a": 2,
+   "x": "Krishna (518 per sq km) was the densest of the 13 districts; YSR Kadapa was the least dense."
+  },
+  {
+   "topic": 73,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which was the least populous district of Andhra Pradesh among the 13 districts in Census 2011?",
+   "o": [
+    "Srikakulam",
+    "Prakasam",
+    "YSR Kadapa",
+    "Vizianagaram"
+   ],
+   "a": 3,
+   "x": "Vizianagaram (about 23.4 lakh) was the least populous; East Godavari was the most populous."
+  },
+  {
+   "topic": 73,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which district of Andhra Pradesh was the most rural in 2011 (only 16.16% urban)?",
+   "o": [
+    "Srikakulam",
+    "Prakasam",
+    "Vizianagaram",
+    "Anantapuramu"
+   ],
+   "a": 0,
+   "x": "Srikakulam was the most rural district; Visakhapatnam (47.45%) was the most urban."
+  },
+  {
+   "topic": 73,
+   "sec": 4,
+   "angle": "3",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Andhra Pradesh's 28-district structure (2025)?",
+   "o": [
+    "SPSR Nellore is the most populous district",
+    "Polavaram is the least populous district",
+    "Visakhapatnam has the highest density",
+    "East Godavari has the lowest density"
+   ],
+   "a": 3,
+   "x": "Polavaram (54 per sq km) has the lowest density in the 28-district set; East Godavari was the most populous of the 13 districts in 2011."
+  },
+  {
+   "topic": 73,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which decade recorded the highest decadal population growth in Andhra Pradesh?",
+   "o": [
+    "1971–81",
+    "1981–91",
+    "1991–2001",
+    "2001–11"
+   ],
+   "a": 1,
+   "x": "AP's highest decadal growth was 21.13% in 1981–91."
+  },
+  {
+   "topic": 73,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which district of Andhra Pradesh grew fastest during 2001–11?",
+   "o": [
+    "Krishna",
+    "West Godavari",
+    "Kurnool",
+    "Chittoor"
+   ],
+   "a": 2,
+   "x": "Kurnool grew fastest (about 14.7%) and West Godavari slowest (about 3.5%) in 2001–11."
+  },
+  {
+   "topic": 73,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Andhra Pradesh's population growth during 2001–11 was:",
+   "o": [
+    "12.32%",
+    "17.7%",
+    "21.13%",
+    "9.21%"
+   ],
+   "a": 3,
+   "x": "AP grew 9.21% in 2001–11, about half India's 17.7%."
+  },
+  {
+   "topic": 73,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "What is the crude death rate (SRS) of Andhra Pradesh compared with India's 6.4?",
+   "o": [
+    "6.9",
+    "6.4",
+    "5.9",
+    "7.4"
+   ],
+   "a": 0,
+   "x": "AP's CDR is 6.9, higher than India's 6.4, even though its birth rate is lower."
+  },
+  {
+   "topic": 73,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "What incentive did the AP Chief Minister announce in May 2026 for a third child?",
+   "o": [
+    "Rs 20,000",
+    "Rs 30,000",
+    "Rs 40,000",
+    "Rs 50,000"
+   ],
+   "a": 1,
+   "x": "Rs 30,000 for the 3rd child and Rs 40,000 for the 4th, under the 'Pillale Sampada' idea."
+  },
+  {
+   "topic": 73,
+   "sec": 6,
+   "angle": "6",
+   "shape": "statements",
+   "s": "Consider the following statements about Andhra Pradesh's population policy in 2026:\n1. The two-child cap for local body elections was removed.\n2. The Draft Population Management Policy aims to raise TFR from 1.5 to 2.1.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "The two-child cap was removed on 12 Feb 2026 and the draft policy of 5 Mar 2026 aims to raise TFR from 1.5 to 2.1."
+  },
+  {
+   "topic": 73,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The rise of households faster than population in Andhra Pradesh indicates a shift towards:",
+   "o": [
+    "Joint families",
+    "Extended families",
+    "Nuclear families",
+    "Single-person households"
+   ],
+   "a": 2,
+   "x": "Households grew faster than population, showing a shift to nuclear families (52.1% rural, 52.3% urban in 2011)."
+  },
+  {
+   "topic": 73,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "About what share of Andhra Pradesh's population lived in Rayalaseema (13-district set)?",
+   "o": [
+    "19%",
+    "40%",
+    "50%",
+    "31%"
+   ],
+   "a": 3,
+   "x": "Rayalaseema had about 31%, the rest of Coastal Andhra about 50% and Uttarandhra about 19%."
+  },
+  {
+   "topic": 74,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "According to Census 2011, the sex ratio of Andhra Pradesh was higher than India's 943 by:",
+   "o": [
+    "54",
+    "40",
+    "14",
+    "64"
+   ],
+   "a": 0,
+   "x": "AP's 997 is 54 above India's 943."
+  },
+  {
+   "topic": 74,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which district of Andhra Pradesh had the highest sex ratio in Census 2011 (13-district map)?",
+   "o": [
+    "Srikakulam",
+    "Vizianagaram",
+    "East Godavari",
+    "Anantapuramu"
+   ],
+   "a": 1,
+   "x": "Vizianagaram had the highest sex ratio, followed by Srikakulam; Anantapuramu had the lowest (977)."
+  },
+  {
+   "topic": 74,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which district of Andhra Pradesh had the lowest sex ratio (977) in Census 2011?",
+   "o": [
+    "Kurnool",
+    "YSR Kadapa",
+    "Anantapuramu",
+    "Chittoor"
+   ],
+   "a": 2,
+   "x": "Anantapuramu, in Rayalaseema, had the lowest sex ratio of 977."
+  },
+  {
+   "topic": 74,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "As per NFHS-5, the sex ratio at birth in Andhra Pradesh was:",
+   "o": [
+    "914",
+    "929",
+    "917",
+    "934"
+   ],
+   "a": 3,
+   "x": "AP's sex ratio at birth rose from 914 (NFHS-4) to 934 (NFHS-5); India's NFHS-5 figure was 929."
+  },
+  {
+   "topic": 74,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The child sex ratio (0–6) of undivided Andhra Pradesh in 2011 was:",
+   "o": [
+    "939",
+    "961",
+    "919",
+    "944"
+   ],
+   "a": 0,
+   "x": "It fell to 939 from 961 in 2001, though still above India's 919."
+  },
+  {
+   "topic": 74,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which district of Andhra Pradesh had the highest child sex ratio (968) in 2011?",
+   "o": [
+    "West Godavari",
+    "East Godavari",
+    "Srikakulam",
+    "Krishna"
+   ],
+   "a": 1,
+   "x": "East Godavari recorded the highest district child sex ratio of 968 in 2011."
+  },
+  {
+   "topic": 74,
+   "sec": 2,
+   "angle": "1,6",
+   "shape": "statements",
+   "s": "Consider the following statements about Andhra Pradesh between 2001 and 2011:\n1. The overall sex ratio rose from 983 to 997.\n2. The child sex ratio rose from 939 to 961.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "The overall sex ratio rose (983 to 997) while the child sex ratio fell from 961 to 939."
+  },
+  {
+   "topic": 74,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "What was the literacy rate of Andhra Pradesh in Census 2011?",
+   "o": [
+    "74.77%",
+    "59.96%",
+    "67.35%",
+    "73.00%"
+   ],
+   "a": 2,
+   "x": "AP's literacy was 67.35% (male 74.77%, female 59.96%)."
+  },
+  {
+   "topic": 74,
+   "sec": 3,
+   "angle": "2,8",
+   "shape": "one-liner",
+   "s": "The female literacy rate of Andhra Pradesh in Census 2011 was:",
+   "o": [
+    "67.35%",
+    "58.89%",
+    "48.80%",
+    "59.96%"
+   ],
+   "a": 3,
+   "x": "Female literacy was 59.96% against male 74.77%, a gap of about 15 points."
+  },
+  {
+   "topic": 74,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which was the most literate district among the 13 districts of Andhra Pradesh in Census 2011?",
+   "o": [
+    "West Godavari",
+    "Krishna",
+    "Guntur",
+    "East Godavari"
+   ],
+   "a": 0,
+   "x": "West Godavari (74.63%) was the most literate; Vizianagaram (58.89%) the least on the 13-district map."
+  },
+  {
+   "topic": 74,
+   "sec": 4,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The literacy rate of Scheduled Tribes in Andhra Pradesh is:",
+   "o": [
+    "44.67%",
+    "48.8%",
+    "58.89%",
+    "59.96%"
+   ],
+   "a": 1,
+   "x": "ST literacy is 48.8% against the State's 67.35%; 44.67% is ASR district's rate."
+  },
+  {
+   "topic": 74,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which district was the least literate on the 13-district map of Andhra Pradesh (2011)?",
+   "o": [
+    "Srikakulam",
+    "Kurnool",
+    "Vizianagaram",
+    "Alluri Sitarama Raju"
+   ],
+   "a": 2,
+   "x": "Vizianagaram (58.89%) was least literate among the 13 districts; ASR is lowest on the new 26/28 map."
+  },
+  {
+   "topic": 74,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which was the first Union Territory declared fully literate?",
+   "o": [
+    "Lakshadweep",
+    "Chandigarh",
+    "Puducherry",
+    "Ladakh"
+   ],
+   "a": 3,
+   "x": "Ladakh (2024) was the first fully literate UT; Mizoram (2025) the first State."
+  },
+  {
+   "topic": 74,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Under ULLAS, an area is declared fully literate when literacy among those aged 15+ reaches:",
+   "o": [
+    "95%+",
+    "90%",
+    "100%",
+    "85%"
+   ],
+   "a": 0,
+   "x": "The fully literate benchmark is 95%+ literacy among people aged 15 and above, not 100%."
+  },
+  {
+   "topic": 74,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which district of Andhra Pradesh has the highest share of agricultural labourers?",
+   "o": [
+    "Krishna",
+    "West Godavari",
+    "East Godavari",
+    "Guntur"
+   ],
+   "a": 1,
+   "x": "West Godavari, a delta paddy district, has the highest share of agricultural labourers."
+  },
+  {
+   "topic": 74,
+   "sec": 6,
+   "angle": "3,4",
+   "shape": "one-liner",
+   "s": "In Andhra Pradesh (2011), agricultural labourers were roughly how many times the cultivators?",
+   "o": [
+    "Two times",
+    "Four times",
+    "Three times",
+    "Equal"
+   ],
+   "a": 2,
+   "x": "Agricultural labourers were the largest worker category, almost three times cultivators."
+  },
+  {
+   "topic": 74,
+   "sec": 6,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In undivided Andhra Pradesh, the share of cultivators among main workers fell between 2001 and 2011 from 22.52% to:",
+   "o": [
+    "18.52%",
+    "19.63%",
+    "13.41%",
+    "16.47%"
+   ],
+   "a": 3,
+   "x": "Cultivators fell from 22.52% to 16.47% while agricultural labourers rose from 39.63% to about 43%."
+  },
+  {
+   "topic": 74,
+   "sec": 6,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "As per PLFS 2023-24, what share of Andhra Pradesh's workers is in agriculture?",
+   "o": [
+    "45.6%",
+    "58.2%",
+    "54.6%",
+    "44.6%"
+   ],
+   "a": 0,
+   "x": "PLFS 2023-24 puts AP's agriculture share at 45.6%; 54.6% is India's Census 2011 figure."
+  },
+  {
+   "topic": 74,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The overall work participation rate of undivided Andhra Pradesh in 2011 was about:",
+   "o": [
+    "35.0%",
+    "46.6%",
+    "39.8%",
+    "52.1%"
+   ],
+   "a": 1,
+   "x": "Undivided AP's overall WPR in 2011 was about 46.6%."
+  },
+  {
+   "topic": 74,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The female main-worker participation rate in Andhra Pradesh in 2011 was:",
+   "o": [
+    "33.01%",
+    "46.60%",
+    "35.04%",
+    "44.60%"
+   ],
+   "a": 2,
+   "x": "Female main-worker participation rose to 35.04% in 2011 from 33.01% in 2001."
+  },
+  {
+   "topic": 74,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The PCPNDT Act, which tackles son preference and sex-selective abortion, was enacted in:",
+   "o": [
+    "1971",
+    "1986",
+    "2003",
+    "1994"
+   ],
+   "a": 3,
+   "x": "The PCPNDT Act dates from 1994; in June 2026 the Supreme Court flagged persisting son preference under it."
+  }
+ ]
+}
