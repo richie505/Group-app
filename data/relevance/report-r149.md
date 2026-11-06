@@ -1,6 +1,6 @@
 # Relevance audit – packet r149
 
-Totals: notes -40 blocks, 11 trimmed; MCQs -37 of 566 (23 near-duplicate, 10 trivia, 4 wrong/ambiguous key or stem). PYQ flagged: 0.
+Totals: notes -38 blocks, 13 trimmed (incl. 1 factual fix); MCQs -37 of 566 (23 near-duplicate, 10 trivia, 4 wrong/ambiguous key or stem). PYQ flagged: 0.
 
 ## 6:97 Sep–4 Nov 2026: Sports
 - Notes: 6 removed, 2 trimmed. MCQs: 8 of 138 dropped (3 near-duplicate, 3 trivia, 2 ambiguous key).
@@ -45,7 +45,7 @@ Totals: notes -40 blocks, 11 trimmed; MCQs -37 of 566 (23 near-duplicate, 10 tri
   - Dropped caccad5555949d (48 matches), ca8baaabbabf86 (academy mentor) and cab29259c70f07 (Senior Nationals venue) as trivia.
 
 ## 6:102 Special topics: T20 WC / IPL / WPL 2026
-- Notes: 15 removed. MCQs: 1 of 37 dropped (1 near-duplicate).
+- Notes: 14 removed. MCQs: 1 of 37 dropped (1 near-duplicate).
 - Examples:
   - Removed repeated restatements: the 96-run result twice in SUB 0, the whole "Records of the 2026 Final" section in SUB 1 (repeats SUB 0), and the 20-team and Italy one-liners in SUB 2.
   - Removed the Orange/Purple Cap gap line and the "Vaibhav Suryavanshi – Person in News" section in SUB 3, which repeat the table. Also removed the IPL numbers line (SUB 4) and the Ahmedabad gap line (SUB 6).
