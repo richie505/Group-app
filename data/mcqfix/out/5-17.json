@@ -312,16 +312,16 @@
    "topic": 51,
    "sec": 2,
    "angle": "13",
-   "shape": "one-liner",
-   "s": "Ghatak, with a flying-wing design, is India's:",
+   "shape": "match",
+   "s": "Which of the following UAV – class pairs is correctly matched?",
    "o": [
-    "Stealth UCAV",
-    "Pilotless target drone",
-    "MALE UAV",
-    "Tactical battlefield UAV"
+    "Ghatak – Stealth UCAV",
+    "Lakshya – MALE UAV",
+    "Nishant – Pilotless target drone",
+    "Rustom-II – Stealth UCAV"
    ],
    "a": 0,
-   "x": "Ghatak is a stealth flying-wing unmanned combat aerial vehicle (UCAV)."
+   "x": "Ghatak is the stealth flying-wing UCAV; Lakshya is a target drone, Nishant tactical and Rustom-II a MALE UAV."
   },
   {
    "topic": 51,
@@ -716,17 +716,17 @@
   {
    "topic": 51,
    "sec": 8,
-   "angle": "11",
-   "shape": "one-liner",
-   "s": "In an AESA radar, the beam is steered:",
+   "angle": "4,11",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about radar types?",
    "o": [
-    "By a rotating dish antenna",
-    "Electronically, with no moving antenna",
-    "By bouncing HF waves off the ionosphere",
-    "By long VHF waves"
+    "SAR produces images at night and through clouds",
+    "AESA radar uses a mechanically rotating antenna",
+    "VHF anti-stealth radar uses long waves",
+    "AESA has a T/R module on every element"
    ],
    "a": 1,
-   "x": "AESA has a T/R module on every element and steers its beam electronically; examples are UTTAM and MF-STAR."
+   "x": "AESA steers its beam electronically with no moving antenna."
   },
   {
    "topic": 51,
@@ -821,17 +821,17 @@
   {
    "topic": 51,
    "sec": 10,
-   "angle": "16",
-   "shape": "one-liner",
-   "s": "Himshakti, an electronic warfare system for mountain terrain, was developed by:",
+   "angle": "16,5",
+   "shape": "statements",
+   "s": "Consider the following statements about electronic warfare and anti-drone systems:\n1. Samyukta is the Army's mobile integrated ground EW system.\n2. Himshakti, for mountain terrain, is from DLRL Hyderabad.\n3. Akash Tarang is a laser hard-kill system.\nWhich of the statements given above is/are correct?",
    "o": [
-    "DLRL Hyderabad",
-    "DMRL Hyderabad",
-    "ASL Hyderabad",
-    "DIPAS"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
    "a": 0,
-   "x": "Himshakti is a mountain-terrain EW system from DLRL Hyderabad."
+   "x": "Samyukta and Himshakti are correctly described; Akash Tarang is an EW soft-kill system that jams control signals."
   },
   {
    "topic": 51,
@@ -840,12 +840,12 @@
    "shape": "one-liner",
    "s": "Akash Tarang, approved by the DAC in July 2026, is an anti-drone:",
    "o": [
-    "Laser hard-kill system",
     "EW soft-kill system that jams control signals",
+    "Laser hard-kill system",
     "Loitering munition",
     "Micro-rocket launcher"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Akash Tarang is an anti-drone EW soft-kill system that jams control signals."
   },
   {
@@ -856,11 +856,11 @@
    "s": "Carbon-carbon and C-SiC composites for heat shields and nozzles are associated with:",
    "o": [
     "DMRL Hyderabad",
-    "HEMRL Pune",
     "ASL Hyderabad",
+    "HEMRL Pune",
     "TBRL Chandigarh"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Carbon-carbon / C-SiC composites come from ASL Hyderabad."
   },
   {
@@ -872,10 +872,10 @@
    "o": [
     "Heat shields and nozzles",
     "Arjun composite armour",
-    "Bio-digester toilets",
-    "Rocket casings and submarine hulls"
+    "Rocket casings and submarine hulls",
+    "Bio-digester toilets"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Maraging steel is used in rocket casings and submarine hulls."
   },
   {
@@ -885,28 +885,28 @@
    "shape": "one-liner",
    "s": "HMX is also known as:",
    "o": [
-    "Octogen",
     "Cyclonite",
     "Hexogen",
-    "HNIW"
+    "HNIW",
+    "Octogen"
    ],
-   "a": 0,
+   "a": 3,
    "x": "HMX is Octogen (High Melting Explosive); Cyclonite and Hexogen are RDX, HNIW is CL-20."
   },
   {
    "topic": 51,
    "sec": 11,
    "angle": "9",
-   "shape": "one-liner",
-   "s": "Dynamite consists of nitroglycerine absorbed in:",
+   "shape": "statements",
+   "s": "Consider the following statements about explosive mixtures:\n1. Dynamite is nitroglycerine in kieselguhr or sawdust.\n2. Blasting gelatin is nitroglycerine with nitrocellulose.\n3. Amatol contains nitroglycerine.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Ammonium nitrate",
-    "Kieselguhr or sawdust",
-    "Nitrocellulose",
-    "A plastic matrix"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 1,
-   "x": "Dynamite is nitroglycerine in kieselguhr or sawdust."
+   "a": 0,
+   "x": "Dynamite and blasting gelatin contain nitroglycerine; Amatol is TNT with ammonium nitrate and has no nitroglycerine."
   },
   {
    "topic": 51,
@@ -915,28 +915,28 @@
    "shape": "one-liner",
    "s": "2-DG, the anti-COVID oral drug, was developed by INMAS with:",
    "o": [
+    "Dr Reddy's",
     "DIHAR",
     "DEBEL",
-    "Dr Reddy's",
     "DIPAS"
    ],
-   "a": 2,
+   "a": 0,
    "x": "2-DG was developed by INMAS with Dr Reddy's; DCGI gave emergency use in May 2021."
   },
   {
    "topic": 51,
    "sec": 12,
    "angle": "14",
-   "shape": "one-liner",
-   "s": "OxyCare, an SpO2-based oxygen supply system, was developed by:",
+   "shape": "match",
+   "s": "Which of the following product – laboratory pairs is correctly matched?",
    "o": [
-    "DIPAS",
-    "DIHAR",
-    "INMAS",
-    "DEBEL"
+    "Lukoskin – INMAS",
+    "OxyCare – DEBEL",
+    "2-DG – DIHAR",
+    "Bukhari heater – DEBEL"
    ],
-   "a": 3,
-   "x": "OxyCare comes from DEBEL."
+   "a": 1,
+   "x": "OxyCare is from DEBEL; Lukoskin is DIHAR's, 2-DG is INMAS's and the Bukhari heater is DIPAS's."
   },
   {
    "topic": 51,
@@ -945,12 +945,12 @@
    "shape": "one-liner",
    "s": "DIHAR, Leh, works mainly on:",
    "o": [
-    "High-altitude agriculture and herbal products",
     "High-altitude physiology",
     "Nuclear medicine",
+    "High-altitude agriculture and herbal products",
     "Explosives"
    ],
-   "a": 0,
+   "a": 2,
    "x": "DIHAR does high-altitude agriculture and herbal products; DIPAS covers high-altitude physiology."
   },
   {
@@ -961,11 +961,11 @@
    "s": "Which of the following is one of the 7 DPSUs formed from the Ordnance Factory Board in 2021?",
    "o": [
     "Bharat Forge",
-    "Gliders India",
     "BEL",
-    "HAL"
+    "HAL",
+    "Gliders India"
    ],
-   "a": 1,
+   "a": 3,
    "x": "The 41 OFB factories became 7 DPSUs, including Gliders India and Troop Comforts."
   },
   {
@@ -975,12 +975,12 @@
    "shape": "one-liner",
    "s": "The Buy (Indian-IDDM) category was first added in:",
    "o": [
+    "DPP 2016",
     "DAP 2020",
     "DPM 2025",
-    "DPP 2016",
     "DPP 2017"
    ],
-   "a": 2,
+   "a": 0,
    "x": "DPP 2016 (Dhirendra Singh committee) first added Buy (Indian-IDDM); 2017 brought the SP model."
   },
   {
@@ -991,11 +991,11 @@
    "s": "iDEX was launched by the Prime Minister in:",
    "o": [
     "May 2001",
+    "April 2018",
     "October 2016",
-    "July 2020",
-    "April 2018"
+    "July 2020"
    ],
-   "a": 3,
+   "a": 1,
    "x": "iDEX (Innovations for Defence Excellence) was launched in April 2018."
   },
   {
@@ -1005,28 +1005,28 @@
    "shape": "one-liner",
    "s": "How many buy categories are there under DAP 2020?",
    "o": [
-    "Five",
     "Four",
     "Six",
+    "Five",
     "Three"
    ],
-   "a": 0,
+   "a": 2,
    "x": "DAP 2020 has five buy categories, from Buy (Indian-IDDM) down to Buy (Global)."
   },
   {
    "topic": 52,
    "sec": 2,
    "angle": "5",
-   "shape": "one-liner",
-   "s": "Which DAP 2020 procurement category has the LOWEST priority?",
+   "shape": "statements",
+   "s": "Consider the following statements about DAP 2020 procurement categories:\n1. Buy (Indian-IDDM) has the highest priority.\n2. Buy (Global) has the lowest priority.\n3. Buy and Make (Indian) ranks above Buy (Indian).\nWhich of the statements given above is/are correct?",
    "o": [
-    "Buy (Indian)",
-    "Buy (Global)",
-    "Buy and Make (Indian)",
-    "Buy (Global – Manufacture in India)"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 1,
-   "x": "Buy (Global) is the lowest of the five categories."
+   "a": 0,
+   "x": "The order is Buy (Indian-IDDM), Buy (Indian), Buy and Make (Indian), Buy (Global – Manufacture in India), Buy (Global)."
   },
   {
    "topic": 52,
@@ -1037,10 +1037,10 @@
    "o": [
     "Buy (Indian-IDDM)",
     "Buy (Indian)",
-    "Buy and Make",
-    "Buy (Global)"
+    "Buy (Global)",
+    "Buy and Make"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Buy (Global – Manufacture in India) replaced the old Buy and Make category."
   },
   {
@@ -1050,12 +1050,12 @@
    "shape": "one-liner",
    "s": "SRIJAN is a/an:",
    "o": [
+    "Indigenisation portal",
     "Deep-tech fund under iDEX",
     "Defence export policy",
-    "Start-up challenge set by the Services",
-    "Indigenisation portal"
+    "Start-up challenge set by the Services"
    ],
-   "a": 3,
+   "a": 0,
    "x": "SRIJAN is the indigenisation portal where DPSUs and Services list import items Indian industry can make."
   },
   {
@@ -1065,12 +1065,12 @@
    "shape": "one-liner",
    "s": "iDEX stands for:",
    "o": [
-    "Innovations for Defence Excellence",
     "Indian Defence Exports",
+    "Innovations for Defence Excellence",
     "Integrated Defence Excellence",
     "Innovations for Defence Exports"
    ],
-   "a": 0,
+   "a": 1,
    "x": "iDEX is Innovations for Defence Excellence."
   },
   {
@@ -1081,11 +1081,11 @@
    "s": "The Technology Development Fund gives grants of up to how much per project?",
    "o": [
     "₹25 crore",
-    "₹50 crore",
     "₹10 crore",
+    "₹50 crore",
     "₹100 crore"
    ],
-   "a": 1,
+   "a": 2,
    "x": "TDF, executed by DRDO, gives up to ₹50 crore per project."
   },
   {
@@ -1097,10 +1097,10 @@
    "o": [
     "Bharat Forge",
     "L&T",
-    "Bellatrix Aerospace",
-    "GTRE"
+    "GTRE",
+    "Bellatrix Aerospace"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Bengaluru start-up Bellatrix Aerospace built the 1N green monopropellant thruster, proved on PSLV-C58 (POEM)."
   },
   {
@@ -1110,12 +1110,12 @@
    "shape": "one-liner",
    "s": "Agnishodh, the Indian Army Research Cell inaugurated on 4 Aug 2025, is at:",
    "o": [
+    "IIT Madras",
     "IIT Bombay",
     "IISc Bengaluru",
-    "IIT Kanpur",
-    "IIT Madras"
+    "IIT Kanpur"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Agnishodh is the Indian Army Research Cell at the IIT Madras Research Park."
   },
   {
@@ -1125,12 +1125,12 @@
    "shape": "one-liner",
    "s": "Agnishodh, the Army research cell at IIT Madras, was inaugurated by:",
    "o": [
-    "Army Chief Gen. Upendra Dwivedi",
     "The Prime Minister",
+    "Army Chief Gen. Upendra Dwivedi",
     "The Defence Minister",
     "The DRDO Chairman"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Army Chief Gen. Upendra Dwivedi inaugurated Agnishodh on 4 Aug 2025."
   },
   {
@@ -1141,11 +1141,11 @@
    "s": "GTRE is developing the marine gas turbine 'Samudra' from which engine?",
    "o": [
     "GE F414",
-    "Kaveri",
     "Uttam",
+    "Kaveri",
     "Rolls-Royce Adour"
    ],
-   "a": 1,
+   "a": 2,
    "x": "GTRE's marine gas turbine 'Samudra' is derived from the Kaveri engine."
   },
   {
@@ -1187,10 +1187,10 @@
    "o": [
     "BEL",
     "DRDO-CVRDE",
-    "HAL",
-    "L&T"
+    "L&T",
+    "HAL"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Dhruv ALH, like HTT-40, is made by HAL."
   },
   {
@@ -1200,12 +1200,12 @@
    "shape": "one-liner",
    "s": "Khanderi and Vagir belong to:",
    "o": [
+    "Project 75 (Kalvari-class Scorpenes)",
     "Project 17A",
     "Project-75(I)",
-    "Project 15B",
-    "Project 75 (Kalvari-class Scorpenes)"
+    "Project 15B"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Khanderi and Vagir are Project 75 Kalvari-class Scorpenes built by MDL."
   },
   {
@@ -1215,12 +1215,12 @@
    "shape": "one-liner",
    "s": "India's first indigenous aircraft carrier INS Vikrant (IAC-1) was built at:",
    "o": [
-    "Cochin Shipyard",
     "Mazagon Dock",
+    "Cochin Shipyard",
     "GRSE",
     "Goa Shipyard"
    ],
-   "a": 0,
+   "a": 1,
    "x": "INS Vikrant (IAC-1) was built at Cochin Shipyard."
   },
   {
@@ -1231,11 +1231,11 @@
    "s": "The stealth frigate Tavasya was built at:",
    "o": [
     "Mazagon Dock",
-    "Goa Shipyard",
     "GRSE",
+    "Goa Shipyard",
     "Cochin Shipyard"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Tavasya is a stealth frigate from Goa Shipyard."
   },
   {
@@ -1247,10 +1247,10 @@
    "o": [
     "Jhansi",
     "Aligarh",
-    "Hosur",
-    "Visakhapatnam"
+    "Visakhapatnam",
+    "Hosur"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Tamil Nadu's nodes are Chennai, Coimbatore, Hosur, Salem and Tiruchirappalli."
   },
   {
@@ -1260,12 +1260,12 @@
    "shape": "one-liner",
    "s": "How many nodes does the Uttar Pradesh Defence Industrial Corridor have?",
    "o": [
+    "6",
     "5",
     "7",
-    "4",
-    "6"
+    "4"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The UP corridor has six nodes: Agra, Aligarh, Chitrakoot, Jhansi, Kanpur and Lucknow; Tamil Nadu has five."
   },
   {
@@ -1275,28 +1275,28 @@
    "shape": "one-liner",
    "s": "The BrahMos unit of the Uttar Pradesh Defence Industrial Corridor is at:",
    "o": [
-    "Lucknow",
     "Kanpur",
+    "Lucknow",
     "Agra",
     "Jhansi"
    ],
-   "a": 0,
+   "a": 1,
    "x": "The BrahMos unit is at Lucknow in the UP corridor."
   },
   {
    "topic": 52,
    "sec": 7,
    "angle": "7",
-   "shape": "one-liner",
-   "s": "The nodal agency of the Tamil Nadu Defence Industrial Corridor is:",
+   "shape": "match",
+   "s": "Which of the following pairs about defence industrial corridors is correctly matched?",
    "o": [
-    "UPEIDA",
-    "TIDCO",
-    "BEL",
-    "DRDO"
+    "TIDCO – Uttar Pradesh corridor",
+    "Hosur – Uttar Pradesh corridor",
+    "UPEIDA – Uttar Pradesh corridor",
+    "Jhansi – Tamil Nadu corridor"
    ],
-   "a": 1,
-   "x": "TIDCO is the nodal agency for Tamil Nadu; UPEIDA for Uttar Pradesh."
+   "a": 2,
+   "x": "UPEIDA is the UP nodal agency; TIDCO and Hosur belong to Tamil Nadu, Jhansi to Uttar Pradesh."
   },
   {
    "topic": 52,
@@ -1307,10 +1307,10 @@
    "o": [
     "Missile and radar systems integration",
     "Refit of Eastern Naval Command ships",
-    "Opto-electronics and night vision",
-    "Torpedoes and mines"
+    "Torpedoes and mines",
+    "Opto-electronics and night vision"
    ],
-   "a": 2,
+   "a": 3,
    "x": "BEL Machilipatnam makes opto-electronics / night vision; BEL Palasamudram integrates missiles and radars."
   },
   {
@@ -1320,12 +1320,12 @@
    "shape": "one-liner",
    "s": "The BEL Palasamudram complex for missile and radar systems integration is in which district?",
    "o": [
+    "Sri Sathya Sai",
     "Anakapalli",
     "Krishna",
-    "Visakhapatnam",
-    "Sri Sathya Sai"
+    "Visakhapatnam"
    ],
-   "a": 3,
+   "a": 0,
    "x": "BEL Palasamudram is in Sri Sathya Sai district."
   },
   {
@@ -1335,12 +1335,12 @@
    "shape": "one-liner",
    "s": "Rambilli in Anakapalli district is the site of a new:",
    "o": [
-    "Eastern Naval Command submarine base",
     "BEL night-vision unit",
+    "Eastern Naval Command submarine base",
     "DRDO naval weapons laboratory",
     "Defence industrial corridor node"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Rambilli is the new ENC submarine base, including for nuclear boats."
   },
   {
@@ -1351,11 +1351,11 @@
    "s": "FDI in defence beyond 74% and up to 100% is allowed through the:",
    "o": [
     "Automatic route",
-    "Government route",
     "Strategic Partnership route",
+    "Government route",
     "Offset route"
    ],
-   "a": 1,
+   "a": 2,
    "x": "74% is automatic; above 74% up to 100% needs the government route."
   },
   {
@@ -1367,10 +1367,10 @@
    "o": [
     "₹50,000 crore",
     "₹23,622 crore",
-    "₹35,000 crore",
-    "₹1.75 lakh crore"
+    "₹1.75 lakh crore",
+    "₹35,000 crore"
    ],
-   "a": 2,
+   "a": 3,
    "x": "DPEPP 2020 set ₹35,000 crore exports (not ₹50,000 crore) and ₹1.75 lakh crore production."
   },
   {
@@ -1380,28 +1380,58 @@
    "shape": "one-liner",
    "s": "India's record defence production in FY 2025-26 was:",
    "o": [
+    "₹1.78 lakh crore",
     "₹1.75 lakh crore",
     "₹1.51 lakh crore",
-    "₹2.10 lakh crore",
-    "₹1.78 lakh crore"
+    "₹2.10 lakh crore"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Actual FY 2025-26 production was ₹1.78 lakh crore; ₹1.75 lakh crore was the DPEPP target."
   },
   {
    "topic": 52,
    "sec": 8,
-   "angle": "17",
-   "shape": "one-liner",
-   "s": "The Philippines is a buyer of which Indian missile?",
+   "angle": "8,17",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about India's defence FDI and exports?",
    "o": [
-    "BrahMos",
-    "Astra",
-    "Akash",
-    "Nag"
+    "74% FDI is allowed through the automatic route",
+    "FDI above 74% is allowed through the automatic route",
+    "The Philippines buys BrahMos",
+    "Exports rose from ₹686 crore (2013-14) to ₹23,622 crore (2024-25)"
+   ],
+   "a": 1,
+   "x": "Beyond 74%, FDI up to 100% needs the government route."
+  },
+  {
+   "topic": 52,
+   "sec": 9,
+   "angle": "14",
+   "shape": "statements",
+   "s": "Consider the following statements about defence expos:\n1. Aero India is held at Yelahanka AFS, Bengaluru.\n2. DefExpo is held every year.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 0,
-   "x": "The Philippines bought BrahMos; Indonesia is linked to Astra."
+   "x": "Aero India is at Yelahanka, Bengaluru; DefExpo, like Aero India, is biennial."
+  },
+  {
+   "topic": 52,
+   "sec": 3,
+   "angle": "15,13",
+   "shape": "statements",
+   "s": "Consider the following statements about defence innovation funding:\n1. iDEX is run by DIO, set up by HAL and BEL.\n2. The TDF is executed by DIO.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "DIO (HAL + BEL) runs iDEX; the Technology Development Fund is executed by DRDO."
   },
   {
    "topic": 52,
@@ -1411,11 +1441,11 @@
    "s": "India's defence exports rose from ₹686 crore in 2013-14 to how much in 2024-25?",
    "o": [
     "₹35,000 crore",
-    "₹23,622 crore",
     "₹15,920 crore",
+    "₹23,622 crore",
     "₹50,000 crore"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Exports grew about 34-fold to ₹23,622 crore in 2024-25."
   },
   {
@@ -1427,10 +1457,10 @@
    "o": [
     "Japan",
     "Indonesia",
-    "Malaysia",
-    "Philippines"
+    "Philippines",
+    "Malaysia"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Samudra Laksamana is the India–Malaysia naval exercise."
   },
   {
@@ -1440,12 +1470,12 @@
    "shape": "one-liner",
    "s": "The 3rd edition of Samudra Laksamana (28 Feb – 2 Mar 2024) was held off:",
    "o": [
+    "Visakhapatnam",
     "Kochi",
     "Port Blair",
-    "Mumbai",
-    "Visakhapatnam"
+    "Mumbai"
    ],
-   "a": 3,
+   "a": 0,
    "x": "It was held off Visakhapatnam with INS Kiltan and KD Lekir."
   },
   {
@@ -1455,12 +1485,12 @@
    "shape": "one-liner",
    "s": "The first DefExpo was held in:",
    "o": [
-    "1999",
     "2001",
+    "1999",
     "2018",
     "2005"
    ],
-   "a": 0,
+   "a": 1,
    "x": "DefExpo, a biennial expo, was first held in 1999."
   },
   {
@@ -1471,11 +1501,11 @@
    "s": "DefExpo 2022 at Gandhinagar was which edition of the expo?",
    "o": [
     "10th",
-    "12th",
     "11th",
+    "12th",
     "13th"
    ],
-   "a": 1,
+   "a": 2,
    "x": "DefExpo 2022 (18–22 Oct, Gandhinagar, 'Path to Pride') was the 12th edition."
   },
   {
@@ -1487,10 +1517,10 @@
    "o": [
     "2.7-fold",
     "3.2-fold",
-    "4.5-fold",
-    "2-fold"
+    "2-fold",
+    "4.5-fold"
    ],
-   "a": 2,
+   "a": 3,
    "x": "IESS projects electricity demand to rise 4.5-fold; total energy demand 2.7–3.2 times."
   },
   {
@@ -1500,12 +1530,12 @@
    "shape": "one-liner",
    "s": "The Electric Power Survey is published by:",
    "o": [
+    "CEA",
     "NITI Aayog",
     "IEA",
-    "NSO",
-    "CEA"
+    "NSO"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The Electric Power Survey and NGAP are CEA reports."
   },
   {
@@ -1515,12 +1545,12 @@
    "shape": "one-liner",
    "s": "According to the IEA's World Energy Outlook 2022, India's coal generation and oil imports peak around:",
    "o": [
-    "2030",
     "2040",
+    "2030",
     "2047",
     "2070"
    ],
-   "a": 0,
+   "a": 1,
    "x": "WEO 2022 sees India's coal generation and oil imports peaking around 2030."
   },
   {
@@ -1531,11 +1561,11 @@
    "s": "By 2037-38, the India Cooling Action Plan aims to cut cooling demand by:",
    "o": [
     "25–30%",
-    "20–25%",
     "10–15%",
+    "20–25%",
     "35–40%"
    ],
-   "a": 1,
+   "a": 2,
    "x": "ICAP targets a 20–25% cut in cooling demand and 25–30% in refrigerant demand."
   },
   {
@@ -1543,14 +1573,14 @@
    "sec": 3,
    "angle": "3",
    "shape": "one-liner",
-   "s": "Which source ranks second in India's energy supply after fossil fuels?",
+   "s": "After fossil fuels, what ranks second in India's energy supply?",
    "o": [
     "Hydro",
     "Nuclear",
-    "Solar",
-    "Wind"
+    "Wind",
+    "Solar"
    ],
-   "a": 2,
+   "a": 3,
    "x": "After fossil fuels, solar is the second source (UPPSC 2021)."
   },
   {
@@ -1572,16 +1602,16 @@
    "topic": 53,
    "sec": 3,
    "angle": "2",
-   "shape": "one-liner",
-   "s": "India's per-capita electricity consumption is about ____ of the USA's.",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about India's per-capita consumption?",
    "o": [
-    "1/5",
-    "1/3",
-    "1/2",
-    "1/9"
+    "Per-capita electricity use is higher than China's",
+    "Per-capita electricity is about 1/9 of the USA's",
+    "Per-capita electricity rose from 957 kWh (FY14) to 1,460 kWh (FY25)",
+    "Per-capita energy is about one-third of the world average"
    ],
-   "a": 3,
-   "x": "It is about 1/5 of China's and 1/9 of the USA's."
+   "a": 0,
+   "x": "India's per-capita electricity is only about 1/5 of China's."
   },
   {
    "topic": 53,
@@ -1590,12 +1620,12 @@
    "shape": "one-liner",
    "s": "Which energy demand in India is projected to fall by 2040?",
    "o": [
-    "Cooking",
     "Industry",
+    "Cooking",
     "Cooling",
     "Data centres"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Industry stays the largest consumer; cooking demand falls, while cooling and data centres drive growth."
   },
   {
@@ -1606,11 +1636,11 @@
    "s": "About what share of Indian households is electrified?",
    "o": [
     "About 75%",
-    "About 99%",
     "About 85%",
+    "About 99%",
     "About 60%"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Household electrification is about 99%; Saubhagya covered about 26 million households."
   },
   {
@@ -1622,10 +1652,10 @@
    "o": [
     "Solar hours (about 2%)",
     "Both solar and non-solar hours",
-    "Non-solar hours (about 2%)",
-    "The afternoon solar peak"
+    "The afternoon solar peak",
+    "Non-solar hours (about 2%)"
    ],
-   "a": 2,
+   "a": 3,
    "x": "There was no solar-hour shortage; a 2% non-solar deficit made the evening peak the focus of storage."
   },
   {
@@ -1635,12 +1665,12 @@
    "shape": "one-liner",
    "s": "India's record peak demand of 270.8 GW in May 2026 was higher than in 2019 by about:",
    "o": [
+    "90 GW",
     "50 GW",
     "120 GW",
-    "37 GW",
-    "90 GW"
+    "37 GW"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The 270.8 GW record (May 2026) was about 90 GW above 2019."
   },
   {
@@ -1650,28 +1680,43 @@
    "shape": "one-liner",
    "s": "About what share of India's crude oil is imported?",
    "o": [
-    "About 88%",
     "About 50%",
+    "About 88%",
     "About 74%",
     "About 60%"
    ],
-   "a": 0,
+   "a": 1,
    "x": "About 88% of crude oil is imported; gas/LNG import dependence is about 50–51%."
   },
   {
    "topic": 53,
    "sec": 6,
    "angle": "14",
-   "shape": "one-liner",
-   "s": "India's share of the world's coal reserves is about:",
+   "shape": "match",
+   "s": "Which of the following pairs about India's share of world reserves is correctly matched?",
    "o": [
-    "0.4%",
-    "7%",
-    "0.6%",
-    "17%"
+    "Oil – 7%",
+    "Gas – 7%",
+    "Coal – 7%",
+    "Coal – 0.4%"
    ],
-   "a": 1,
-   "x": "India has about 7% of coal reserves but only 0.4% of oil and 0.6% of gas."
+   "a": 2,
+   "x": "India has about 7% of coal reserves, 0.4% of oil and 0.6% of gas."
+  },
+  {
+   "topic": 53,
+   "sec": 1,
+   "angle": "15,12",
+   "shape": "statements",
+   "s": "Consider the following statements about energy terms:\n1. Peak demand is the highest draw in a 15-minute interval.\n2. A falling energy intensity of GDP shows growth decoupling.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: peak demand is measured over 15-minute intervals, and falling energy per unit GDP means decoupling."
   },
   {
    "topic": 53,
@@ -1682,10 +1727,10 @@
    "o": [
     "47%",
     "36%",
-    "45%",
-    "33%"
+    "33%",
+    "45%"
    ],
-   "a": 2,
+   "a": 3,
    "x": "The Aug 2022 NDC targets 45% by 2030; 47% is the 2035 target and 36% is already achieved."
   },
   {
@@ -1695,12 +1740,12 @@
    "shape": "one-liner",
    "s": "India's NDC for 2031–35 sets a non-fossil share of installed capacity of:",
    "o": [
+    "60%",
     "50%",
     "45%",
-    "70%",
-    "60%"
+    "70%"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The 2031–35 NDC raises the non-fossil capacity target to 60% (the 2022 NDC had 50%)."
   },
   {
@@ -1710,12 +1755,12 @@
    "shape": "one-liner",
    "s": "The Draft National Electricity Policy 2026 targets how much pumped storage by 2047?",
    "o": [
-    "100 GW",
     "50 GW",
+    "100 GW",
     "200 GW",
     "459 GW"
    ],
-   "a": 0,
+   "a": 1,
    "x": "The draft policy, replacing the 2005 policy, targets 100 GW of pumped storage by 2047."
   },
   {
@@ -1726,11 +1771,11 @@
    "s": "CEA's Resource Adequacy Plan projects Andhra Pradesh's peak demand by 2035-36 at:",
    "o": [
     "25,588 MW",
-    "30,927 MW",
     "35,927 MW",
+    "30,927 MW",
     "20,927 MW"
    ],
-   "a": 1,
+   "a": 2,
    "x": "AP's peak is projected at 30,927 MW by 2035-36, with about 5,588 MW of new thermal capacity."
   },
   {
@@ -1742,10 +1787,10 @@
    "o": [
     "5,588 MW",
     "1,500 MW",
-    "1,600 MW",
-    "500 MW"
+    "500 MW",
+    "1,600 MW"
    ],
-   "a": 2,
+   "a": 3,
    "x": "APERC cleared the first 1,600 MW of the planned new thermal capacity."
   },
   {
@@ -1755,12 +1800,12 @@
    "shape": "one-liner",
    "s": "Andhra Pradesh's September 2026 energy roadmap plans battery storage (BESS) of:",
    "o": [
+    "1,500 MW / 6,000 MWh",
     "500 MW / 1,000 MWh",
     "1,600 MW / 3,200 MWh",
-    "1,000 MW / 4,000 MWh",
-    "1,500 MW / 6,000 MWh"
+    "1,000 MW / 4,000 MWh"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The roadmap plans 1,500 MW/6,000 MWh BESS; the NHPC VGF project is 500 MW/1,000 MWh."
   }
  ]
