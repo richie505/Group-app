@@ -1,0 +1,567 @@
+{
+ "reshape": {
+  "nbdd3514e3c5": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the murder of Nasir Jang?",
+   "o": [
+    "Nasir Jang was the English-backed claimant to Hyderabad",
+    "He was killed by Himmat Khan, Nawab of Kurnool",
+    "The plot was arranged by Dupleix",
+    "He was killed by Raja Sahib"
+   ],
+   "a": 3,
+   "x": "Nasir Jang was murdered by Himmat Khan, the Nawab of Kurnool, in a plot arranged by Dupleix; Raja Sahib did not kill him."
+  },
+  "n0d0774c1b25": {
+   "shape": "one-liner",
+   "s": "Dupleix's fortunes in the Second Carnatic War are best summed up as:",
+   "o": [
+    "Lost the Deccan but won the Carnatic",
+    "Won the Deccan but lost the Carnatic",
+    "Lost both the Deccan and the Carnatic",
+    "Won both the Deccan and the Carnatic"
+   ],
+   "a": 1,
+   "x": "Dupleix succeeded in the Deccan through his influence at Hyderabad, but lost the Carnatic struggle at Arcot and Trichinopoly."
+  },
+  "n7119038d414": {
+   "shape": "one-liner",
+   "s": "Salabat Jang's 1759 grant of Machilipatnam, Nizampatnam, Vakal Mannar and part of Kondapalli to the English was the:",
+   "o": [
+    "first Subsidiary Alliance signed by the Nizam",
+    "Treaty of Masulipatnam leasing the Northern Circars",
+    "first agreement between the British and Hyderabad",
+    "Treaty of Paris settlement of the Carnatic"
+   ],
+   "a": 2,
+   "x": "The 1759 grant was the first British-Hyderabad agreement; the Treaty of Masulipatnam came in 1768, the first Subsidiary Alliance in 1798 and the Treaty of Paris in 1763."
+  }
+ },
+ "new": [
+  {
+   "topic": 159,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The immediate cause of the First Carnatic War was:",
+   "o": [
+    "The English navy's seizure of French ships",
+    "The French capture of Fort St. David",
+    "The death of Nizam-ul-Mulk",
+    "The release of Chanda Sahib by the Marathas"
+   ],
+   "a": 0,
+   "x": "The English navy seized French ships and France retaliated. Nizam-ul-Mulk's death and Chanda Sahib's release triggered the Second War."
+  },
+  {
+   "topic": 159,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Madras was captured by the French in September 1746 under the command of:",
+   "o": [
+    "Dupleix",
+    "Captain Paradis",
+    "La Bourdonnais",
+    "Bussy"
+   ],
+   "a": 2,
+   "x": "The French fleet from Mauritius under La Bourdonnais took Madras; Dupleix did not capture it."
+  },
+  {
+   "topic": 159,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Who refused to ratify La Bourdonnais's deal to ransom Madras back to the English?",
+   "o": [
+    "Anwaruddin",
+    "Mahfuz Khan",
+    "Captain Paradis",
+    "Dupleix"
+   ],
+   "a": 3,
+   "x": "Dupleix, Governor at Pondicherry, refused to ratify the ransom deal and kept Madras."
+  },
+  {
+   "topic": 159,
+   "sec": 3,
+   "angle": "7",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Nawab Anwaruddin?",
+   "o": [
+    "He became Nawab of Arcot in 1744",
+    "He asked both Companies not to fight in his territory",
+    "He marched to support the French against the English",
+    "He was killed at Ambur in 1749"
+   ],
+   "a": 2,
+   "x": "Anwaruddin marched to support the English against the French, not the other way round."
+  },
+  {
+   "topic": 159,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Who led Nawab Anwaruddin's army at the Battle of St. Thome (1746)?",
+   "o": [
+    "Mahfuz Khan",
+    "Muhammad Ali",
+    "Chanda Sahib",
+    "Syed Ali"
+   ],
+   "a": 0,
+   "x": "Mahfuz Khan, Anwaruddin's son, led the Nawab's army against Captain Paradis at St. Thome."
+  },
+  {
+   "topic": 159,
+   "sec": 4,
+   "angle": "4,6",
+   "shape": "one-liner",
+   "s": "At St. Thome (1746), about how many French troops defeated about 10,000 Indian troops?",
+   "o": [
+    "210",
+    "9,300",
+    "930",
+    "3,000"
+   ],
+   "a": 2,
+   "x": "About 930 French troops beat about 10,000 of the Nawab's troops at St. Thome."
+  },
+  {
+   "topic": 159,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "What was the political result of the First Carnatic War?",
+   "o": [
+    "The French gained the Carnatic",
+    "Nil – the pre-war position was restored",
+    "The English gained Pondicherry",
+    "The Nawab took over Madras"
+   ],
+   "a": 1,
+   "x": "Despite Dupleix's victories the political result was nil; Aix-la-Chapelle restored the pre-war position."
+  },
+  {
+   "topic": 159,
+   "sec": 6,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about the Treaty of Aix-la-Chapelle (1748):\n1. It ended the War of Austrian Succession.\n2. Madras was returned to the English.\n3. Louisbourg was given to the English.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The treaty ended the War of Austrian Succession and returned Madras to the English; Louisbourg was given back to the French, so 3 is wrong."
+  },
+  {
+   "topic": 159,
+   "sec": 7,
+   "angle": "1",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "First Carnatic War – Treaty of Pondicherry",
+    "Second Carnatic War – Treaty of Aix-la-Chapelle",
+    "Third Carnatic War – Treaty of Paris",
+    "First Carnatic War – Treaty of Paris"
+   ],
+   "a": 2,
+   "x": "The Third War ended with Paris (1763); the First ended with Aix-la-Chapelle (1748) and the Second with Pondicherry (1754-55)."
+  },
+  {
+   "topic": 159,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Second Carnatic War was concluded by the Treaty of:",
+   "o": [
+    "Aix-la-Chapelle",
+    "Paris",
+    "Allahabad",
+    "Pondicherry"
+   ],
+   "a": 3,
+   "x": "The Treaty of Pondicherry (1754-55) ended the Second War; both sides agreed not to interfere in native rulers' disputes."
+  },
+  {
+   "topic": 160,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Chanda Sahib, whose release triggered the Second Carnatic War, was freed from the captivity of the:",
+   "o": [
+    "Marathas",
+    "Nizam",
+    "English",
+    "Nawab of Kurnool"
+   ],
+   "a": 0,
+   "x": "Chanda Sahib, son-in-law of Dost Ali, was released from Maratha captivity."
+  },
+  {
+   "topic": 160,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The French-backed claimant Muzaffar Jang was Nizam-ul-Mulk's:",
+   "o": [
+    "son",
+    "daughter's son",
+    "fourth son",
+    "son-in-law"
+   ],
+   "a": 1,
+   "x": "Muzaffar Jang was the Nizam's grandson (daughter's son); Nasir Jang was his son."
+  },
+  {
+   "topic": 160,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The first major battle of the Second Carnatic War was fought at:",
+   "o": [
+    "Arcot",
+    "Rayachoti",
+    "Ambur",
+    "Trichinopoly"
+   ],
+   "a": 2,
+   "x": "Ambur (1749) was the first major battle of the Second War."
+  },
+  {
+   "topic": 160,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Who became Nawab of the Carnatic after Anwaruddin was killed at Ambur (1749)?",
+   "o": [
+    "Muhammad Ali",
+    "Raja Sahib",
+    "Muzaffar Jang",
+    "Chanda Sahib"
+   ],
+   "a": 3,
+   "x": "After Ambur, Chanda Sahib became Nawab while Muhammad Ali fled to Trichinopoly."
+  },
+  {
+   "topic": 160,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Muzaffar Jang was killed in 1751 at:",
+   "o": [
+    "Rayachoti",
+    "Ambur",
+    "Arni",
+    "Kaveripak"
+   ],
+   "a": 0,
+   "x": "Muzaffar Jang was killed at Rayachoti (1751) by the Nawabs of Kadapa, Kurnool and Nayanur."
+  },
+  {
+   "topic": 160,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Salabat Jang, installed by Bussy in 1751, was Nizam-ul-Mulk's:",
+   "o": [
+    "eldest son",
+    "daughter's son",
+    "fourth son",
+    "son-in-law"
+   ],
+   "a": 2,
+   "x": "Salabat Jang was the Nizam's fourth son, installed by Bussy after Muzaffar Jang's death."
+  },
+  {
+   "topic": 160,
+   "sec": 4,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "From whom did Bussy obtain the Northern Circars in 1753?",
+   "o": [
+    "Muzaffar Jang",
+    "Salabat Jang",
+    "Nasir Jang",
+    "Chanda Sahib"
+   ],
+   "a": 1,
+   "x": "Salabat Jang granted the Northern Circars to Bussy for the upkeep of French troops."
+  },
+  {
+   "topic": 160,
+   "sec": 4,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "In which year did Bussy get the Northern Circars?",
+   "o": [
+    "1751",
+    "1752",
+    "1754",
+    "1753"
+   ],
+   "a": 3,
+   "x": "Bussy received the Northern Circars from Salabat Jang in 1753."
+  },
+  {
+   "topic": 160,
+   "sec": 4,
+   "angle": "7",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the French in Andhra during the Second Carnatic War?",
+   "o": [
+    "The Northern Circars were granted for the upkeep of French troops",
+    "Machilipatnam and Diviseema were part of the main French gain",
+    "The Northern Circars were granted to Bussy by Nasir Jang",
+    "The Andhra coast was the main French territorial gain"
+   ],
+   "a": 2,
+   "x": "The Northern Circars were granted by Salabat Jang, not Nasir Jang, who was the English-backed claimant."
+  },
+  {
+   "topic": 160,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "With about how many men did Clive take Arcot in 1751?",
+   "o": [
+    "210",
+    "530",
+    "930",
+    "2,100"
+   ],
+   "a": 0,
+   "x": "Clive took Arcot with about 210 men and held it for about 53 days."
+  },
+  {
+   "topic": 160,
+   "sec": 7,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Godeheu signed the Treaty of Pondicherry (1754) with which English Governor?",
+   "o": [
+    "Robert Clive",
+    "Stringer Lawrence",
+    "Thomas Saunders",
+    "Eyre Coote"
+   ],
+   "a": 2,
+   "x": "Godeheu signed the treaty with the English Governor Thomas Saunders in December 1754."
+  },
+  {
+   "topic": 160,
+   "sec": 7,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Who was recognised as Nawab of the Carnatic under the Treaty of Pondicherry?",
+   "o": [
+    "Chanda Sahib",
+    "Raja Sahib",
+    "Anwaruddin",
+    "Muhammad Ali"
+   ],
+   "a": 3,
+   "x": "The treaty recognised Muhammad Ali as Nawab; Chanda Sahib had been executed in 1752."
+  },
+  {
+   "topic": 160,
+   "sec": 7,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about the Treaty of Pondicherry (1754-55):\n1. Both Companies agreed not to interfere in the internal quarrels of Indian rulers.\n2. It recognised Chanda Sahib as Nawab of the Carnatic.",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Both Companies agreed not to interfere in Indian rulers' quarrels; the treaty recognised Muhammad Ali, not Chanda Sahib."
+  },
+  {
+   "topic": 161,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Second Carnatic War lasted from:",
+   "o": [
+    "1746-48",
+    "1750-55",
+    "1749-54",
+    "1758-63"
+   ],
+   "a": 2,
+   "x": "The Second War was fought in 1749-54, not 1750-55."
+  },
+  {
+   "topic": 161,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "By 1758, which French settlement in Bengal had Clive taken?",
+   "o": [
+    "Chandernagore",
+    "Pondicherry",
+    "Yanam",
+    "Mahe"
+   ],
+   "a": 0,
+   "x": "After Plassey (1757) Clive took French Chandernagore, and Bengal revenue funded the Carnatic campaign."
+  },
+  {
+   "topic": 161,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Who described Chandurti as \"a small battle with great results\"?",
+   "o": [
+    "Orme",
+    "Dodwell",
+    "Vincent Smith",
+    "Malleson"
+   ],
+   "a": 3,
+   "x": "Malleson called Chandurti a small battle with great results; it drove the French out of the Northern Circars."
+  },
+  {
+   "topic": 161,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Battle of Wandiwash was fought on:",
+   "o": [
+    "7 December 1758",
+    "22 January 1760",
+    "16 January 1761",
+    "24 January 1757"
+   ],
+   "a": 1,
+   "x": "Wandiwash was fought on 22 January 1760; 7 Dec 1758 is Chandurti and 16 Jan 1761 the fall of Pondicherry."
+  },
+  {
+   "topic": 161,
+   "sec": 4,
+   "angle": "1,3",
+   "shape": "one-liner",
+   "s": "Who commanded the English at the Battle of Wandiwash?",
+   "o": [
+    "Colonel Forde",
+    "Pocock",
+    "Eyre Coote",
+    "Stringer Lawrence"
+   ],
+   "a": 2,
+   "x": "Eyre Coote routed Count de Lally at Wandiwash; Forde won Chandurti and Pocock was the admiral."
+  },
+  {
+   "topic": 161,
+   "sec": 4,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "In 1758 Count de Lally captured:",
+   "o": [
+    "Madras",
+    "Fort St. David",
+    "Thanjavur",
+    "Chandernagore"
+   ],
+   "a": 1,
+   "x": "Lally took Fort St. David (Cuddalore) in 1758 but failed at Madras and Thanjavur."
+  },
+  {
+   "topic": 161,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "For about how long did Lally hold Pondicherry before surrendering?",
+   "o": [
+    "Eight months",
+    "53 days",
+    "Two years",
+    "Three months"
+   ],
+   "a": 0,
+   "x": "Lally held Pondicherry for eight months and surrendered on 16 January 1761."
+  },
+  {
+   "topic": 161,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Pondicherry surrendered to the English on:",
+   "o": [
+    "22 January 1760",
+    "April 1759",
+    "7 December 1758",
+    "16 January 1761"
+   ],
+   "a": 3,
+   "x": "Lally surrendered Pondicherry on 16 January 1761; Jinji and Mahe also fell."
+  },
+  {
+   "topic": 161,
+   "sec": 6,
+   "angle": "1",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Pocock – French admiral",
+    "Conflans – English commander",
+    "D'Ache – French admiral",
+    "Eyre Coote – French commander"
+   ],
+   "a": 2,
+   "x": "D'Ache was the French admiral; Pocock was the English admiral, Conflans was French and Eyre Coote English."
+  },
+  {
+   "topic": 161,
+   "sec": 7,
+   "angle": "2",
+   "shape": "statements",
+   "s": "Consider the following statements about the Treaty of Paris (1763):\n1. French settlements in India were restored only as trading posts.\n2. The French could not fortify these settlements.\n3. Machilipatnam was kept as a French enclave.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "French settlements were restored as unfortified trading posts; Machilipatnam went to the English, so 3 is wrong."
+  },
+  {
+   "topic": 161,
+   "sec": 7,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "How many French enclaves in India were kept under the Treaty of Paris (1763)?",
+   "o": [
+    "Three",
+    "Four",
+    "Six",
+    "Five"
+   ],
+   "a": 3,
+   "x": "Five enclaves were kept: Pondicherry, Karaikal, Mahe, Yanam and Chandernagore."
+  },
+  {
+   "topic": 161,
+   "sec": 8,
+   "angle": "4",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a reason for English success in the Carnatic Wars?",
+   "o": [
+    "English naval superiority",
+    "Bengal's wealth after Plassey",
+    "The English Company was state-controlled with a royal subsidy",
+    "English bases at Calcutta, Bombay and Madras"
+   ],
+   "a": 2,
+   "x": "The English Company was private with a yearly elected board; it was the French company that was state-controlled."
+  }
+ ]
+}
