@@ -1,0 +1,852 @@
+{
+ "reshape": {
+  "ncbe2390b2a8": {
+   "shape": "statements",
+   "s": "Consider the following statements about the March 2026 Aspirational Districts Programme rankings:\n1. Alluri Sitarama Raju district stood first in India in the Basic Infrastructure theme.\n2. YSR Kadapa district stood first in India in the Basic Infrastructure theme.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Alluri Sitarama Raju district stood first in India in the Basic Infrastructure theme in the March 2026 ADP rankings, so YSR Kadapa did not."
+  },
+  "nb7e2b09fb37": {
+   "shape": "one-liner",
+   "s": "The term 'green collar' refers to workers in:",
+   "o": [
+    "Office and professional services",
+    "Primary-sector outdoor activities",
+    "Environment and renewable-energy jobs",
+    "Top decision-making and expert roles"
+   ],
+   "a": 2,
+   "x": "Green-collar work is associated with environmental protection and renewable energy. Office work is white collar, primary outdoor work red collar and top decision-making gold collar."
+  },
+  "nworld-geography-15-15": {
+   "shape": "one-liner",
+   "s": "Commercial grain farming has a high commodity (marketed) rate mainly because of:",
+   "o": [
+    "Dominance of wheat in the cropping pattern",
+    "Large mechanised farms and low local demand",
+    "Small plots worked by family labour",
+    "High rainfall in the growing season"
+   ],
+   "a": 1,
+   "x": "Large mechanised farms and low local demand explain the high marketed share; wheat dominance is true but is not the reason."
+  }
+ },
+ "new": [
+  {
+   "topic": 78,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Since 2010, the three HDI dimension indices are combined using the:",
+   "o": [
+    "Arithmetic mean",
+    "Weighted sum",
+    "Geometric mean",
+    "Harmonic mean"
+   ],
+   "a": 2,
+   "x": "Since 2010 the health, education and income indices are combined by a geometric mean."
+  },
+  {
+   "topic": 78,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "What was Andhra Pradesh's State average score under Mission Antyodaya?",
+   "o": [
+    "74",
+    "61",
+    "23",
+    "71"
+   ],
+   "a": 1,
+   "x": "AP's State average Mission Antyodaya score was 61; 74 is its SDG India Index 2023-24 score."
+  },
+  {
+   "topic": 78,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "As per NFHS-5 (2019-21), the contraceptive prevalence rate of Andhra Pradesh was:",
+   "o": [
+    "66.7%",
+    "61.0%",
+    "74.0%",
+    "71.1%"
+   ],
+   "a": 3,
+   "x": "NFHS-5 put AP's contraceptive prevalence at 71.1%, above India's 66.7%."
+  },
+  {
+   "topic": 78,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "In NITI Aayog's National MPI, Andhra Pradesh's multidimensional poverty headcount (2019-21) was:",
+   "o": [
+    "6.06%",
+    "14.96%",
+    "2.42%",
+    "0.025%"
+   ],
+   "a": 0,
+   "x": "AP's headcount was 6.06% against India's 14.96%; 0.025 is AP's MPI value, not a headcount."
+  },
+  {
+   "topic": 78,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Sunrise AP Vision 2029 set a Human Development Index target of:",
+   "o": [
+    "Over 0.732",
+    "Over 0.9",
+    "Over 0.86",
+    "Over 0.8"
+   ],
+   "a": 1,
+   "x": "Sunrise AP Vision 2029 aimed at an HDI of over 0.9 by 2029."
+  },
+  {
+   "topic": 78,
+   "sec": 3,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about Swarna Andhra @2047:\n1. It targets a GSDP of USD 2.4 trillion.\n2. It targets a per capita income of over USD 43,000.\n3. It targets 100% literacy.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Swarna Andhra @2047 aims at a GSDP of USD 2.4 trillion, per capita income over USD 43,000 and 100% literacy."
+  },
+  {
+   "topic": 78,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "As per Census 2011, which district of Andhra Pradesh had the highest share of Scheduled Castes?",
+   "o": [
+    "Guntur",
+    "Krishna",
+    "Prakasam",
+    "SPSR Nellore"
+   ],
+   "a": 2,
+   "x": "Prakasam had the highest SC share (23.19%) and also the largest SC number."
+  },
+  {
+   "topic": 78,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "As per Census 2011, Andhra Pradesh's SC population formed what share of India's SCs?",
+   "o": [
+    "4.21%",
+    "17.08%",
+    "5.53%",
+    "23.19%"
+   ],
+   "a": 0,
+   "x": "AP's 84.69 lakh SCs were 4.21% of India's SCs; 17.08% is the SC share of AP's own population."
+  },
+  {
+   "topic": 78,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which district of Andhra Pradesh has the highest per capita income (GDDP)?",
+   "o": [
+    "SPSR Nellore",
+    "Krishna",
+    "Guntur",
+    "Visakhapatnam"
+   ],
+   "a": 3,
+   "x": "Visakhapatnam has the highest per capita GDDP among AP's districts."
+  },
+  {
+   "topic": 78,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which district of Andhra Pradesh has the lowest per capita income (GDDP)?",
+   "o": [
+    "Vizianagaram",
+    "Srikakulam",
+    "Polavaram",
+    "Alluri Sitarama Raju"
+   ],
+   "a": 1,
+   "x": "Srikakulam has the lowest per capita GDDP; Visakhapatnam has the highest."
+  },
+  {
+   "topic": 78,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Among AP's 28 districts, which has the smallest population?",
+   "o": [
+    "Polavaram",
+    "Parvathipuram Manyam",
+    "Alluri Sitarama Raju",
+    "Srikakulam"
+   ],
+   "a": 0,
+   "x": "Polavaram has the smallest population (3.49 lakh) and SPSR Nellore the largest (24.17 lakh)."
+  },
+  {
+   "topic": 78,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Which pair correctly gives Andhra Pradesh's MMR and IMR?",
+   "o": [
+    "MMR 19, IMR 30",
+    "MMR 30, IMR 19",
+    "MMR 30, IMR 29",
+    "MMR 97, IMR 19"
+   ],
+   "a": 1,
+   "x": "AP's MMR is 30 and IMR 19, so AP fares better on health than on literacy."
+  },
+  {
+   "topic": 78,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "As per SRS 2016-20, the life expectancy of Andhra Pradesh was:",
+   "o": [
+    "70.0 years",
+    "69.4 years",
+    "70.6 years",
+    "72.6 years"
+   ],
+   "a": 2,
+   "x": "AP's life expectancy was 70.6 years against India's 70.0 years."
+  },
+  {
+   "topic": 78,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Dr. NTR Vaidya Seva provides cashless care to about how many families?",
+   "o": [
+    "1.43 crore",
+    "3.25 crore",
+    "84.69 lakh",
+    "2.43 crore"
+   ],
+   "a": 0,
+   "x": "Dr. NTR Vaidya Seva covers 1.43 crore families for 3,257 procedures."
+  },
+  {
+   "topic": 78,
+   "sec": 7,
+   "angle": "9",
+   "shape": "NOT",
+   "s": "Which of the following is NOT an Aspirational District of Andhra Pradesh?",
+   "o": [
+    "Alluri Sitharama Raju",
+    "Parvathipuram Manyam",
+    "YSR Kadapa",
+    "Srikakulam"
+   ],
+   "a": 3,
+   "x": "AP's three Aspirational Districts are Alluri Sitharama Raju, Parvathipuram Manyam and YSR Kadapa; Srikakulam is not one."
+  },
+  {
+   "topic": 78,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Which Aspirational District represents the lagging Rayalaseema belt of Andhra Pradesh?",
+   "o": [
+    "Alluri Sitharama Raju",
+    "YSR Kadapa",
+    "Parvathipuram Manyam",
+    "Visakhapatnam"
+   ],
+   "a": 1,
+   "x": "Rayalaseema's lagging belt is represented by YSR Kadapa; tribal North Andhra by ASR."
+  },
+  {
+   "topic": 79,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Transport belongs to which sector of the economy?",
+   "o": [
+    "Primary",
+    "Secondary",
+    "Quaternary",
+    "Tertiary"
+   ],
+   "a": 3,
+   "x": "Transport is a service, hence tertiary (APPSC 2018), not secondary."
+  },
+  {
+   "topic": 79,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Top decision-making by government and top executives belongs to the:",
+   "o": [
+    "Quaternary sector",
+    "Quinary sector",
+    "Tertiary sector",
+    "Secondary sector"
+   ],
+   "a": 1,
+   "x": "Top decision-making is quinary ('gold collar'); research and development is quaternary."
+  },
+  {
+   "topic": 79,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Research and development belongs to which sector?",
+   "o": [
+    "Quaternary",
+    "Quinary",
+    "Tertiary",
+    "Primary"
+   ],
+   "a": 0,
+   "x": "R&D, IT, education and consulting are knowledge activities of the quaternary sector."
+  },
+  {
+   "topic": 79,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Animal husbandry is classified as which type of primary activity?",
+   "o": [
+    "Extractive industry",
+    "Oldest activity",
+    "Genetic industry",
+    "Gathering activity"
+   ],
+   "a": 2,
+   "x": "Animal husbandry breeds animals, so it is a genetic industry, not extractive."
+  },
+  {
+   "topic": 79,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The term 'red collar' refers to:",
+   "o": [
+    "Manual factory workers",
+    "Primary-sector outdoor workers",
+    "Office workers",
+    "Nursing and teaching staff"
+   ],
+   "a": 1,
+   "x": "Red collar refers to primary-sector outdoor workers; manual factory workers are blue collar."
+  },
+  {
+   "topic": 79,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "In 2025, which country overtook Saudi Arabia as the top destination for Indian blue-collar workers?",
+   "o": [
+    "Qatar",
+    "Kuwait",
+    "Oman",
+    "UAE"
+   ],
+   "a": 3,
+   "x": "In 2025 the UAE overtook Saudi Arabia as the top destination for Indian blue-collar workers."
+  },
+  {
+   "topic": 79,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In India's GVA for 2024-25 (base 2022-23), the tertiary sector's share was about:",
+   "o": [
+    "52.9%",
+    "25.8%",
+    "21.4%",
+    "43%"
+   ],
+   "a": 0,
+   "x": "Tertiary was 52.9%, secondary 25.8% and primary 21.4%."
+  },
+  {
+   "topic": 79,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "As per PLFS 2023-24, the primary sector's share of employment in Andhra Pradesh was:",
+   "o": [
+    "33%",
+    "31.6%",
+    "45.6%",
+    "22.8%"
+   ],
+   "a": 2,
+   "x": "The primary sector employs 45.6% of AP's workers, though its GVA share is only about 33%."
+  },
+  {
+   "topic": 79,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Fisher-Clark thesis is associated with Allan Fisher and:",
+   "o": [
+    "Simon Kuznets",
+    "Colin Clark",
+    "W. Arthur Lewis",
+    "Ragnar Nurkse"
+   ],
+   "a": 1,
+   "x": "The thesis comes from Allan Fisher (1935) and Colin Clark (1940)."
+  },
+  {
+   "topic": 79,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Andhra Pradesh's 'missing middle' of low manufacturing (about 11% of GSDP) is targeted by:",
+   "o": [
+    "Industrial Policy 4.0 (2024-29)",
+    "Swarna Andhra @2047",
+    "Sunrise AP Vision 2029",
+    "Mission Antyodaya"
+   ],
+   "a": 0,
+   "x": "Industrial Policy 4.0 (2024-29) targets AP's missing manufacturing middle."
+  },
+  {
+   "topic": 79,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "In developed countries, the services sector accounts for about what share of GDP?",
+   "o": [
+    "30-40%",
+    "50-55%",
+    "70-80%",
+    "90-95%"
+   ],
+   "a": 2,
+   "x": "Services make up about 70-80% of GDP in developed countries."
+  },
+  {
+   "topic": 79,
+   "sec": 6,
+   "angle": "6",
+   "shape": "statements",
+   "s": "Consider the following statements about developed countries:\n1. Most of their employment is in services.\n2. Their quaternary and quinary activities are shrinking.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Developed countries employ mostly in services, and their quaternary and quinary activities are growing, not shrinking."
+  },
+  {
+   "topic": 79,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The division of the economy into public and private sectors is based on:",
+   "o": [
+    "Regulation",
+    "Size of units",
+    "Ownership",
+    "Terms of employment"
+   ],
+   "a": 2,
+   "x": "Public vs private is split by ownership; organised vs unorganised by regulation."
+  },
+  {
+   "topic": 79,
+   "sec": 7,
+   "angle": "7",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a feature of the organised sector?",
+   "o": [
+    "Registered units",
+    "Regular terms of employment",
+    "Coverage of labour laws such as PF",
+    "Absence of social security"
+   ],
+   "a": 3,
+   "x": "Absence of social security marks the unorganised sector; organised units are registered and follow labour laws."
+  },
+  {
+   "topic": 79,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "As of January 2026, women formed what share of unorganised workers registered on e-Shram?",
+   "o": [
+    "45.6%",
+    "54%",
+    "62.3%",
+    "31%"
+   ],
+   "a": 1,
+   "x": "e-Shram had 31 crore+ unorganised workers, 54% of them women."
+  },
+  {
+   "topic": 79,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Informal employment in Andhra Pradesh's rural areas is about:",
+   "o": [
+    "45.6%",
+    "54%",
+    "31.6%",
+    "62.3%"
+   ],
+   "a": 3,
+   "x": "AP informal employment is 62.3% in rural areas against 45.6% in urban areas."
+  },
+  {
+   "topic": 80,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "'Milpa' is the name of shifting cultivation in:",
+   "o": [
+    "Brazil",
+    "Venezuela",
+    "Mexico and Central America",
+    "Indonesia"
+   ],
+   "a": 2,
+   "x": "Milpa is Mexico and Central America; Roca is Brazil and Conuco Venezuela."
+  },
+  {
+   "topic": 80,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Shifting cultivation is called 'Roca' in:",
+   "o": [
+    "Brazil",
+    "Mexico",
+    "Venezuela",
+    "Vietnam"
+   ],
+   "a": 0,
+   "x": "Roca is the Brazilian name; Milpa is Mexico and Conuco Venezuela."
+  },
+  {
+   "topic": 80,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "'Ladang' is the local name of shifting cultivation in:",
+   "o": [
+    "Vietnam",
+    "Central Africa",
+    "Venezuela",
+    "Indonesia and Malaysia"
+   ],
+   "a": 3,
+   "x": "Ladang is used in Indonesia/Malaysia; Ray is Vietnam and Masole Central Africa."
+  },
+  {
+   "topic": 80,
+   "sec": 1,
+   "angle": "1",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Conuco – Brazil",
+    "Masole – Central Africa (Congo)",
+    "Ray – Mexico",
+    "Milpa – Venezuela"
+   ],
+   "a": 1,
+   "x": "Masole is the Congo name; Conuco is Venezuela, Ray Vietnam and Milpa Mexico."
+  },
+  {
+   "topic": 80,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "In the agency tracts of Andhra Pradesh, shifting cultivation is called:",
+   "o": [
+    "Jhum",
+    "Dipa",
+    "Podu",
+    "Bewar"
+   ],
+   "a": 2,
+   "x": "Podu (Penda) is the AP name; Dipa is Bastar, Bewar Madhya Pradesh and Jhum the North-East."
+  },
+  {
+   "topic": 80,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "'Dipa' shifting cultivation is practised in:",
+   "o": [
+    "Manipur",
+    "Bastar and Andaman and Nicobar",
+    "Madhya Pradesh",
+    "Western Ghats"
+   ],
+   "a": 1,
+   "x": "Dipa is practised in Bastar and Andaman and Nicobar; Manipur has Pamlou, MP Bewar and the Western Ghats Kumari."
+  },
+  {
+   "topic": 80,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Farming over large areas with low input per unit of land is called:",
+   "o": [
+    "Extensive farming",
+    "Intensive farming",
+    "Mixed farming",
+    "Plantation farming"
+   ],
+   "a": 0,
+   "x": "Extensive farming uses large areas with low input; intensive uses high labour and capital per unit of land."
+  },
+  {
+   "topic": 80,
+   "sec": 3,
+   "angle": "2",
+   "shape": "statements",
+   "s": "Consider the following statements about hydroponics and aquaponics:\n1. Hydroponics is soil-free cultivation.\n2. Aquaponics combines hydroponics with fish rearing.\n3. Both hydroponics and aquaponics are agroecological practices.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Hydroponics is soil-free and aquaponics adds fish rearing, but neither is agroecological."
+  },
+  {
+   "topic": 80,
+   "sec": 4,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The use of grapes for wine-making is called:",
+   "o": [
+    "Viticulture",
+    "Sericulture",
+    "Viniculture",
+    "Pisciculture"
+   ],
+   "a": 2,
+   "x": "Viniculture is the wine-making use of grapes; viticulture is grape production itself."
+  },
+  {
+   "topic": 80,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which geographer is associated with both crop diversification and crop concentration?",
+   "o": [
+    "J.C. Weaver",
+    "Bhatia",
+    "Kendall",
+    "Derwent Whittlesey"
+   ],
+   "a": 1,
+   "x": "Bhatia worked on diversification and concentration; Weaver on crop combination."
+  },
+  {
+   "topic": 80,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The ranking coefficient method of agricultural efficiency is associated with:",
+   "o": [
+    "Bhatia",
+    "J.C. Weaver",
+    "Sengupta",
+    "Kendall"
+   ],
+   "a": 3,
+   "x": "Kendall gave the ranking coefficient for agricultural efficiency."
+  },
+  {
+   "topic": 80,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Arabica coffee originated in:",
+   "o": [
+    "Yemen",
+    "Ethiopia",
+    "Brazil",
+    "Côte d'Ivoire"
+   ],
+   "a": 1,
+   "x": "Arabica originated in Ethiopia; Mocha, an Arabica, is named after the port of Mocha in Yemen."
+  },
+  {
+   "topic": 80,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "In 2024, the world's largest exporter of tea by quantity was:",
+   "o": [
+    "Kenya",
+    "China",
+    "India",
+    "Sri Lanka"
+   ],
+   "a": 0,
+   "x": "In 2024 Kenya led tea exports by quantity and China by value."
+  },
+  {
+   "topic": 80,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which country is the world's largest producer of sugarcane?",
+   "o": [
+    "India",
+    "China",
+    "Thailand",
+    "Brazil"
+   ],
+   "a": 3,
+   "x": "Brazil leads in sugarcane; India is 2nd."
+  },
+  {
+   "topic": 80,
+   "sec": 7,
+   "angle": "8",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a New World crop?",
+   "o": [
+    "Maize",
+    "Tobacco",
+    "Coffee",
+    "Cocoa"
+   ],
+   "a": 2,
+   "x": "Coffee is an Old World crop; maize, tobacco and cocoa came from the Americas."
+  },
+  {
+   "topic": 80,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The transfer of crops between the Old and New Worlds after 1493 is known as the:",
+   "o": [
+    "Columbian Exchange",
+    "Green Revolution",
+    "Agricultural Revolution",
+    "Plantation System"
+   ],
+   "a": 0,
+   "x": "Crops moved between the Old and New Worlds through the Columbian Exchange after 1493."
+  },
+  {
+   "topic": 80,
+   "sec": 8,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "In which year was the International Rice Research Institute (IRRI) founded?",
+   "o": [
+    "1968",
+    "1970",
+    "1960",
+    "1972"
+   ],
+   "a": 2,
+   "x": "IRRI was founded at Los Baños in 1960; 1968 is when Gaud coined 'Green Revolution'."
+  },
+  {
+   "topic": 80,
+   "sec": 8,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "CIMMYT joined ICAR in 2011 to form:",
+   "o": [
+    "IRRI",
+    "BISA",
+    "IR8",
+    "APCNF"
+   ],
+   "a": 1,
+   "x": "CIMMYT (Mexico) and ICAR formed BISA in 2011, working in Punjab, MP and Bihar."
+  },
+  {
+   "topic": 80,
+   "sec": 9,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which farming system avoids synthetic inputs and GMOs, relying on crop rotation and manures?",
+   "o": [
+    "Hydroponics",
+    "Permaculture",
+    "Integrated pest management",
+    "Organic farming"
+   ],
+   "a": 3,
+   "x": "Organic farming avoids synthetic inputs and GMOs and uses crop rotation and manures."
+  },
+  {
+   "topic": 80,
+   "sec": 9,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Bio-pesticides, pheromone traps and predators are tools of:",
+   "o": [
+    "Integrated pest management",
+    "Permaculture",
+    "Hydroponics",
+    "Viticulture"
+   ],
+   "a": 0,
+   "x": "IPM relies on biological and ecological control such as bio-pesticides, pheromone traps and predators."
+  },
+  {
+   "topic": 80,
+   "sec": 9,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Permaculture refers to:",
+   "o": [
+    "Soil-free cultivation",
+    "Self-sustaining designed ecological systems",
+    "Cultivation of grapes",
+    "Large mechanised wheat farms"
+   ],
+   "a": 1,
+   "x": "Permaculture designs self-sustaining ecological systems; soil-free cultivation is hydroponics."
+  },
+  {
+   "topic": 80,
+   "sec": 9,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Sericulture is the rearing of:",
+   "o": [
+    "Bees for honey",
+    "Fish",
+    "Silkworms for silk",
+    "Grapes"
+   ],
+   "a": 2,
+   "x": "Sericulture is silk production; apiculture is bee-keeping and pisciculture fish rearing."
+  }
+ ]
+}
