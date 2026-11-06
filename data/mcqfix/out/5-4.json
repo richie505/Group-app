@@ -1,0 +1,2175 @@
+{
+ "reshape": {
+  "n4b37a1e2f2a": {
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Linus Torvalds – GNU project (1983)",
+    "Richard Stallman – Linux kernel (1991)",
+    "Linus Torvalds – Linux kernel (1991)",
+    "Linus Torvalds – GPL licence"
+   ],
+   "a": 2,
+   "x": "Linus Torvalds wrote the Linux kernel in 1991; the GNU project (1983) and the GPL licence are Richard Stallman's."
+  },
+  "nd61ece3c7e3": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about assembly language?",
+   "o": [
+    "It is a second-generation language (2GL)",
+    "It uses mnemonics",
+    "It is converted into machine code by a compiler",
+    "It is converted into machine code by an assembler"
+   ],
+   "a": 2,
+   "x": "Assembly language uses mnemonics and is converted into machine code by an assembler, not a compiler."
+  },
+  "n9858c787405": {
+   "shape": "one-liner",
+   "s": "In the OSI model, which layer lies immediately below the Presentation layer?",
+   "o": [
+    "Transport",
+    "Session",
+    "Application",
+    "Network"
+   ],
+   "a": 1,
+   "x": "From the top the OSI order is Application, Presentation, Session, Transport, Network, Data Link and Physical, so Session lies just below Presentation."
+  },
+  "n00b43a560d2": {
+   "shape": "one-liner",
+   "s": "Encryption, compression and data formats are functions of which OSI layer?",
+   "o": [
+    "Session",
+    "Transport",
+    "Presentation",
+    "Data Link"
+   ],
+   "a": 2,
+   "x": "Encryption, compression and formats belong to the Presentation layer; the Transport layer uses TCP and UDP."
+  },
+  "ncf904f1ba5c": {
+   "shape": "one-liner",
+   "s": "In which year was NIXI, the body under MeitY that runs the .in registry and IRINN, established?",
+   "o": [
+    "1998",
+    "2000",
+    "2003",
+    "2008"
+   ],
+   "a": 2,
+   "x": "NIXI was established in 2003 and runs internet exchange points, the .in registry and IRINN."
+  },
+  "n2016445e002": {
+   "shape": "one-liner",
+   "s": "A website opens for users of one ISP but not for users of another. The likely cause is:",
+   "o": [
+    "ISP-level DNS poisoning, HTTP interception or SNI filtering",
+    "Expiry of the website's domain name",
+    "Shutdown of the website's server",
+    "Permanent deletion of the website"
+   ],
+   "a": 0,
+   "x": "ISPs may block sites through DNS poisoning, HTTP interception or SNI filtering, so access differs between ISPs; the other causes would affect all users."
+  },
+  "n8f8dafdefd9": {
+   "shape": "one-liner",
+   "s": "HTTPS encrypts the traffic between the browser and the server through:",
+   "o": [
+    "FTP",
+    "SMTP",
+    "DHCP",
+    "TLS"
+   ],
+   "a": 3,
+   "x": "HTTPS is more secure than HTTP because it encrypts browser-server traffic through TLS."
+  },
+  "nbcece772e1f": {
+   "shape": "one-liner",
+   "s": "Which element of a protocol specifies the format of data?",
+   "o": [
+    "Semantics",
+    "Syntax",
+    "Timing",
+    "Addressing"
+   ],
+   "a": 1,
+   "x": "Syntax specifies the format of data, semantics the meaning of each field, and timing when and how fast data is sent."
+  },
+  "n5eb1ddf831e": {
+   "shape": "statements",
+   "s": "Consider the following statements about the IT Amendment Rules, 2023:\n1. An intermediary ignoring government orders on false content may lose safe-harbour protection.\n2. Safe-harbour protection is provided under Section 87 of the IT Act.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "An intermediary ignoring such orders may lose safe harbour, but safe harbour is under Section 79, not Section 87."
+  },
+  "n0d837e25c92": {
+   "shape": "one-liner",
+   "s": "Endless scrolling through bad news is called:",
+   "o": [
+    "Cyberchondria",
+    "Nomophobia",
+    "Doomscrolling",
+    "Digital detox"
+   ],
+   "a": 2,
+   "x": "Doomscrolling is endless scrolling through bad news; health anxiety from symptom searches is cyberchondria."
+  },
+  "nb593fcc4eb6": {
+   "shape": "one-liner",
+   "s": "The PRAGYATA framework concerning screen time is a measure of which ministry?",
+   "o": [
+    "Ministry of Health and Family Welfare",
+    "Ministry of Education",
+    "Ministry of Electronics and IT",
+    "Ministry of Women and Child Development"
+   ],
+   "a": 1,
+   "x": "PRAGYATA is the Ministry of Education's framework, one of the central measures on screen time and digital addiction."
+  },
+  "nf8093de9273": {
+   "shape": "one-liner",
+   "s": "'Digital Detox Centre – Beyond Screens' is an initiative of which state?",
+   "o": [
+    "Kerala",
+    "Andhra Pradesh",
+    "Karnataka",
+    "Tamil Nadu"
+   ],
+   "a": 2,
+   "x": "'Digital Detox Centre – Beyond Screens' is Karnataka's; Kerala Police run D-DAD centres."
+  }
+ },
+ "new": [
+  {
+   "topic": 12,
+   "sec": 1,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The term 'Cybernetics', the study of automation and communication between human and machine, was given by:",
+   "o": [
+    "Norbert Wiener",
+    "Charles Babbage",
+    "George Boole",
+    "Tim Berners-Lee"
+   ],
+   "a": 0,
+   "x": "Cybernetics was named by Norbert Wiener."
+  },
+  {
+   "topic": 12,
+   "sec": 2,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Who invented the computer mouse?",
+   "o": [
+    "Larry Tesler",
+    "Douglas Engelbart",
+    "Charles Babbage",
+    "Tim Berners-Lee"
+   ],
+   "a": 1,
+   "x": "Douglas Engelbart invented the mouse; Larry Tesler is credited with cut, copy and paste."
+  },
+  {
+   "topic": 12,
+   "sec": 2,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Who is regarded as the first computer programmer?",
+   "o": [
+    "Charles Babbage",
+    "Dennis Ritchie",
+    "Ada Lovelace",
+    "Tim Paterson"
+   ],
+   "a": 2,
+   "x": "Ada Lovelace wrote the first program; Charles Babbage is the Father of Computers."
+  },
+  {
+   "topic": 12,
+   "sec": 2,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "ENIAC (1946), the world's first general-purpose electronic computer, was built by:",
+   "o": [
+    "Babbage and Lovelace",
+    "Stallman and Torvalds",
+    "Ritchie and Gosling",
+    "Eckert and Mauchly"
+   ],
+   "a": 3,
+   "x": "ENIAC was built by Eckert and Mauchly in 1946."
+  },
+  {
+   "topic": 12,
+   "sec": 2,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Which was India's first supercomputer (1991)?",
+   "o": [
+    "PARAM 8000",
+    "TIFRAC",
+    "Param Shakti",
+    "UNIVAC"
+   ],
+   "a": 0,
+   "x": "PARAM 8000 (1991) was India's first supercomputer; TIFRAC was India's first indigenous computer."
+  },
+  {
+   "topic": 12,
+   "sec": 2,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Intel 4004, the first commercial microprocessor, came in the year:",
+   "o": [
+    "1958",
+    "1971",
+    "1964",
+    "1981"
+   ],
+   "a": 1,
+   "x": "Intel 4004 came in 1971; ICs were invented in 1958."
+  },
+  {
+   "topic": 12,
+   "sec": 2,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Integrated circuit (IC) chips, which made computers smaller, were invented in:",
+   "o": [
+    "1946",
+    "1964",
+    "1958",
+    "1971"
+   ],
+   "a": 2,
+   "x": "IC chips were invented in 1958 and replaced transistors."
+  },
+  {
+   "topic": 12,
+   "sec": 2,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The fax was invented in 1842 by:",
+   "o": [
+    "David S. Lee",
+    "Tim Paterson",
+    "George Boole",
+    "Alexander Bain"
+   ],
+   "a": 3,
+   "x": "Scottish inventor Alexander Bain invented the fax in 1842; David S. Lee made the daisy-wheel printer."
+  },
+  {
+   "topic": 12,
+   "sec": 2,
+   "angle": "5,7",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Dennis Ritchie – Java",
+    "James Gosling – Java",
+    "Guido van Rossum – C",
+    "Tim Paterson – Python"
+   ],
+   "a": 1,
+   "x": "James Gosling created Java; Dennis Ritchie made C, Guido van Rossum Python, and Tim Paterson wrote MS-DOS."
+  },
+  {
+   "topic": 12,
+   "sec": 3,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Which of the following is an example of a hybrid computer?",
+   "o": [
+    "ICU monitor",
+    "Car speedometer",
+    "Digital watch",
+    "Desktop PC"
+   ],
+   "a": 0,
+   "x": "Hybrid computers like ICU monitors and ECG use both analog and digital data; a speedometer is analog and a digital watch is embedded."
+  },
+  {
+   "topic": 12,
+   "sec": 3,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Quantum computers process information using:",
+   "o": [
+    "Nibbles",
+    "Qubits",
+    "Bytes",
+    "Transistor bits only"
+   ],
+   "a": 1,
+   "x": "Quantum computers use qubits, which rely on superposition and entanglement."
+  },
+  {
+   "topic": 12,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "CPU stands for:",
+   "o": [
+    "Control Processing Unit",
+    "Central Program Unit",
+    "Central Processing Unit",
+    "Computer Processing Unit"
+   ],
+   "a": 2,
+   "x": "CPU is the Central (not Control) Processing Unit, the brain of the computer."
+  },
+  {
+   "topic": 12,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which is the fastest storage inside the CPU?",
+   "o": [
+    "Cache",
+    "RAM",
+    "ROM",
+    "Registers"
+   ],
+   "a": 3,
+   "x": "Registers are the fastest storage, followed by cache and then RAM."
+  },
+  {
+   "topic": 12,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "An Intel Core i9 processor has how many cores?",
+   "o": [
+    "8 to 24",
+    "2 to 4",
+    "4 to 6",
+    "32 to 64"
+   ],
+   "a": 0,
+   "x": "Intel Core i9 is a high-end CPU with 8 to 24 cores."
+  },
+  {
+   "topic": 12,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "MICR technology is mainly used to read:",
+   "o": [
+    "Answer sheets",
+    "Cheques",
+    "Product barcodes",
+    "Fingerprints"
+   ],
+   "a": 1,
+   "x": "MICR reads cheques; OMR reads answer sheets."
+  },
+  {
+   "topic": 12,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which of the following is a non-impact printer?",
+   "o": [
+    "Dot-matrix printer",
+    "Daisy-wheel printer",
+    "Laser printer",
+    "Line printer"
+   ],
+   "a": 2,
+   "x": "Laser, inkjet and thermal printers are non-impact; dot-matrix, daisy-wheel and line printers are impact printers."
+  },
+  {
+   "topic": 12,
+   "sec": 5,
+   "angle": "2",
+   "shape": "NOT",
+   "s": "Which of the following is NOT an input device?",
+   "o": [
+    "Scanner",
+    "Joystick",
+    "Plotter",
+    "Light pen"
+   ],
+   "a": 2,
+   "x": "A plotter is an output device; scanner, joystick and light pen are input devices."
+  },
+  {
+   "topic": 12,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Excimer (exciplex) lasers are used to make:",
+   "o": [
+    "Laser printer drums",
+    "CD players",
+    "DVD players",
+    "Microelectronic devices"
+   ],
+   "a": 3,
+   "x": "Excimer lasers are ultraviolet lasers used to make microelectronic devices; semiconductor lasers are used in laser printers and CD/DVD players."
+  },
+  {
+   "topic": 12,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which memory is erased by ultraviolet light?",
+   "o": [
+    "EPROM",
+    "EEPROM",
+    "SRAM",
+    "DRAM"
+   ],
+   "a": 0,
+   "x": "EPROM is erased by ultraviolet light; EEPROM is erased electrically."
+  },
+  {
+   "topic": 12,
+   "sec": 6,
+   "angle": "1",
+   "shape": "statements",
+   "s": "Consider the following statements about memory:\n1. EEPROM is erased electrically.\n2. DRAM is used as cache memory.\n3. BIOS is held in ROM.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "EEPROM is erased electrically and BIOS resides in ROM; cache is SRAM, while DRAM is main memory."
+  },
+  {
+   "topic": 12,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "A single-layer DVD can store about:",
+   "o": [
+    "700 MB",
+    "4.7 GB",
+    "8.5 GB",
+    "25 GB"
+   ],
+   "a": 1,
+   "x": "A single-layer DVD holds 4.7 GB (8.5 GB dual layer); a CD holds about 700 MB."
+  },
+  {
+   "topic": 12,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "A single-layer Blu-ray disc can store about:",
+   "o": [
+    "4.7 GB",
+    "8.5 GB",
+    "25 GB",
+    "50 GB"
+   ],
+   "a": 2,
+   "x": "A single-layer Blu-ray holds 25 GB; dual layer holds 50 GB."
+  },
+  {
+   "topic": 12,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which storage uses flash memory and has no moving parts?",
+   "o": [
+    "HDD",
+    "Magnetic tape",
+    "DVD",
+    "SSD"
+   ],
+   "a": 3,
+   "x": "An SSD uses flash memory with no moving parts and is faster than an HDD."
+  },
+  {
+   "topic": 12,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "1 TB is equal to:",
+   "o": [
+    "1024 GB",
+    "1000 MB",
+    "1024 MB",
+    "1024 PB"
+   ],
+   "a": 0,
+   "x": "1 TB = 1024 GB, and 1 GB = 1024 MB."
+  },
+  {
+   "topic": 12,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "A device driver is an example of:",
+   "o": [
+    "Application software",
+    "System software",
+    "Utility software",
+    "Multimedia software"
+   ],
+   "a": 1,
+   "x": "Device drivers are system software, along with the OS and translators."
+  },
+  {
+   "topic": 12,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Antivirus, disk cleanup and backup programs are examples of:",
+   "o": [
+    "Application software",
+    "Device drivers",
+    "Utility software",
+    "Language translators"
+   ],
+   "a": 2,
+   "x": "Antivirus, disk cleanup, backup and compression tools are utility software."
+  },
+  {
+   "topic": 12,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Oracle, MySQL and MS Access are examples of which application software?",
+   "o": [
+    "Graphics",
+    "Multimedia",
+    "Word processing",
+    "Database"
+   ],
+   "a": 3,
+   "x": "Oracle, MySQL and MS Access are database software; Photoshop and CorelDRAW are graphics software."
+  },
+  {
+   "topic": 12,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The full form of GNU is:",
+   "o": [
+    "GNU's Not Unix",
+    "General Network Utility",
+    "Global Native Unix",
+    "GNU's New Unix"
+   ],
+   "a": 0,
+   "x": "GNU stands for 'GNU's Not Unix'; it is free, Unix-like OS software."
+  },
+  {
+   "topic": 12,
+   "sec": 7,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about software:\n1. Internet Explorer is closed (proprietary) software.\n2. Microsoft Office is an operating system.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Internet Explorer is closed source; Microsoft Office is an office suite, not an OS."
+  },
+  {
+   "topic": 12,
+   "sec": 8,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Missile guidance and air-traffic control systems use which type of operating system?",
+   "o": [
+    "Time-sharing",
+    "Real-time",
+    "Mobile",
+    "Batch"
+   ],
+   "a": 1,
+   "x": "Real-time OSs work to fixed response deadlines, as in missile guidance and air-traffic control."
+  },
+  {
+   "topic": 12,
+   "sec": 8,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The mobile operating system BharOS was developed by:",
+   "o": [
+    "Google",
+    "Apple",
+    "IIT Madras",
+    "AT&T"
+   ],
+   "a": 2,
+   "x": "BharOS is from IIT Madras; Android is Google's and iOS is Apple's."
+  },
+  {
+   "topic": 12,
+   "sec": 8,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "MS-DOS was written from 86-DOS by:",
+   "o": [
+    "Dennis Ritchie",
+    "Linus Torvalds",
+    "Richard Stallman",
+    "Tim Paterson"
+   ],
+   "a": 3,
+   "x": "Tim Paterson wrote MS-DOS from 86-DOS; Microsoft released it in August 1981."
+  },
+  {
+   "topic": 12,
+   "sec": 8,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which of the following operating systems uses a graphical user interface (GUI)?",
+   "o": [
+    "macOS",
+    "MS-DOS",
+    "UNIX shell",
+    "86-DOS"
+   ],
+   "a": 0,
+   "x": "Windows and macOS use a GUI; MS-DOS and the UNIX shell are command-line interfaces."
+  },
+  {
+   "topic": 12,
+   "sec": 9,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Python programming language was created by:",
+   "o": [
+    "James Gosling",
+    "Guido van Rossum",
+    "Dennis Ritchie",
+    "Bjarne Stroustrup"
+   ],
+   "a": 1,
+   "x": "Guido van Rossum created Python; Gosling made Java, Ritchie C and Stroustrup C++."
+  },
+  {
+   "topic": 12,
+   "sec": 9,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "A compiler differs from an interpreter because a compiler:",
+   "o": [
+    "Translates and runs line by line",
+    "Is a hardware device",
+    "Translates the whole program at once",
+    "Converts only assembly mnemonics"
+   ],
+   "a": 2,
+   "x": "A compiler translates the whole program at once; an interpreter works line by line."
+  },
+  {
+   "topic": 12,
+   "sec": 9,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "In a flowchart, a decision is shown by a:",
+   "o": [
+    "Oval",
+    "Parallelogram",
+    "Rectangle",
+    "Diamond"
+   ],
+   "a": 3,
+   "x": "Diamond = decision; oval = start/end, parallelogram = input/output, rectangle = process."
+  },
+  {
+   "topic": 12,
+   "sec": 9,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "An English-like text outline of a program's logic is called:",
+   "o": [
+    "Pseudocode",
+    "Flowchart",
+    "Machine code",
+    "Source code"
+   ],
+   "a": 0,
+   "x": "Pseudocode is an English-like outline; a flowchart is the pictorial form of an algorithm."
+  },
+  {
+   "topic": 12,
+   "sec": 9,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "An XOR gate gives output 1 when:",
+   "o": [
+    "All inputs are 1",
+    "The inputs differ",
+    "All inputs are 0",
+    "Both inputs are the same"
+   ],
+   "a": 1,
+   "x": "XOR gives 1 only when its inputs differ."
+  },
+  {
+   "topic": 12,
+   "sec": 9,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The binary number (1010)₂ is equal to the decimal number:",
+   "o": [
+    "8",
+    "12",
+    "10",
+    "5"
+   ],
+   "a": 2,
+   "x": "(1010)₂ = 8 + 2 = 10."
+  },
+  {
+   "topic": 12,
+   "sec": 10,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "MP3 is a file format for:",
+   "o": [
+    "Video",
+    "Images",
+    "Documents",
+    "Audio"
+   ],
+   "a": 3,
+   "x": "MP3 (MPEG-1 Audio Layer 3) is an audio format; MP4, MOV and AVI are video formats."
+  },
+  {
+   "topic": 12,
+   "sec": 10,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "PDF stands for:",
+   "o": [
+    "Portable Document Format",
+    "Printable Document Format",
+    "Portable Data File",
+    "Public Document Format"
+   ],
+   "a": 0,
+   "x": "PDF is Adobe's Portable Document Format."
+  },
+  {
+   "topic": 12,
+   "sec": 10,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The AVI (Audio Video Interleave) format was developed by:",
+   "o": [
+    "Apple",
+    "Microsoft",
+    "Adobe",
+    "CompuServe"
+   ],
+   "a": 1,
+   "x": "AVI is Microsoft's; MOV is Apple's, PDF Adobe's and GIF CompuServe's."
+  },
+  {
+   "topic": 12,
+   "sec": 10,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "A telephone call is an example of which transmission mode?",
+   "o": [
+    "Simplex",
+    "Half duplex",
+    "Full duplex",
+    "Multiplexing"
+   ],
+   "a": 2,
+   "x": "A telephone is full duplex; television is simplex and a walkie-talkie half duplex."
+  },
+  {
+   "topic": 12,
+   "sec": 11,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Bandwidth, the data-transfer rate, is measured in:",
+   "o": [
+    "Hertz",
+    "FLOPS",
+    "MIPS",
+    "Bits per second"
+   ],
+   "a": 3,
+   "x": "Bandwidth is measured in bits per second; clock speed is in hertz."
+  },
+  {
+   "topic": 12,
+   "sec": 11,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "MIPS stands for:",
+   "o": [
+    "Million Instructions Per Second",
+    "Million Inputs Per Second",
+    "Memory Instructions Per Second",
+    "Million Integer Processing Steps"
+   ],
+   "a": 0,
+   "x": "MIPS = Million Instructions Per Second."
+  },
+  {
+   "topic": 12,
+   "sec": 11,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "In January 2026, the world's fastest supercomputer was:",
+   "o": [
+    "LineShine (China)",
+    "El Capitan (USA)",
+    "Tianhe-2 (China)",
+    "Param Shakti (India)"
+   ],
+   "a": 1,
+   "x": "El Capitan was fastest in January 2026; LineShine replaced it at ISC 2026."
+  },
+  {
+   "topic": 13,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which was India's first academic network (1986)?",
+   "o": [
+    "VSNL",
+    "Sify",
+    "ERNET",
+    "NIXI"
+   ],
+   "a": 2,
+   "x": "ERNET (1986) was India's academic network; VSNL launched public internet in 1995."
+  },
+  {
+   "topic": 13,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "India's first private Internet Service Provider (1998) was:",
+   "o": [
+    "VSNL",
+    "ERNET",
+    "NIXI",
+    "Satyam Infoway (Sify)"
+   ],
+   "a": 3,
+   "x": "Satyam Infoway (Sify) became India's first private ISP in 1998."
+  },
+  {
+   "topic": 13,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Tim Berners-Lee invented the World Wide Web in 1989 at:",
+   "o": [
+    "CERN",
+    "US Department of Defense",
+    "W3C",
+    "ICANN"
+   ],
+   "a": 0,
+   "x": "The WWW was invented at CERN in 1989; ARPANET was a US DoD project."
+  },
+  {
+   "topic": 13,
+   "sec": 1,
+   "angle": "2",
+   "shape": "sequence",
+   "s": "Arrange in chronological order:\n1. WWW invented\n2. ARPANET\n3. ERNET\n4. VSNL public internet in India",
+   "o": [
+    "2, 1, 3, 4",
+    "3, 2, 1, 4",
+    "2, 3, 1, 4",
+    "2, 3, 4, 1"
+   ],
+   "a": 2,
+   "x": "ARPANET (1969), ERNET (1986), WWW (1989), VSNL public internet (1995)."
+  },
+  {
+   "topic": 13,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which network topology is the most resilient?",
+   "o": [
+    "Star",
+    "Mesh",
+    "Bus",
+    "Ring"
+   ],
+   "a": 1,
+   "x": "In a mesh every node links to every other, making it the most resilient and costliest."
+  },
+  {
+   "topic": 13,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "A full mesh network of n nodes needs how many links?",
+   "o": [
+    "n(n-1)",
+    "n-1",
+    "n(n-1)/2",
+    "2n"
+   ],
+   "a": 2,
+   "x": "A mesh needs n(n-1)/2 links."
+  },
+  {
+   "topic": 13,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "In which topology does the failure of the central hub stop the whole network?",
+   "o": [
+    "Mesh",
+    "Ring",
+    "Tree",
+    "Star"
+   ],
+   "a": 3,
+   "x": "In a star, a failed node is only isolated, but hub failure stops all."
+  },
+  {
+   "topic": 13,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Ethernet, an example of LAN, follows the IEEE standard:",
+   "o": [
+    "802.3",
+    "802.11",
+    "802.15.1",
+    "802.11be"
+   ],
+   "a": 0,
+   "x": "Ethernet uses IEEE 802.3; Wi-Fi uses 802.11 and Bluetooth 802.15.1."
+  },
+  {
+   "topic": 13,
+   "sec": 3,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which device regenerates a weak signal to extend a network along the cable?",
+   "o": [
+    "Hub",
+    "Repeater",
+    "Gateway",
+    "Switch"
+   ],
+   "a": 1,
+   "x": "A repeater regenerates or amplifies a weak signal; a hub only broadcasts to all ports."
+  },
+  {
+   "topic": 13,
+   "sec": 3,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which device joins networks that use different protocols?",
+   "o": [
+    "Hub",
+    "Repeater",
+    "Gateway",
+    "Switch"
+   ],
+   "a": 2,
+   "x": "A gateway joins networks using different protocols."
+  },
+  {
+   "topic": 13,
+   "sec": 3,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "A router works at which layer of the OSI model?",
+   "o": [
+    "Data Link",
+    "Transport",
+    "Physical",
+    "Network"
+   ],
+   "a": 3,
+   "x": "A router routes by IP at Layer 3 (Network); a switch works at Layer 2."
+  },
+  {
+   "topic": 13,
+   "sec": 3,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "TCP and UDP belong to which OSI layer?",
+   "o": [
+    "Transport",
+    "Network",
+    "Session",
+    "Application"
+   ],
+   "a": 0,
+   "x": "TCP and UDP work at the Transport layer (Layer 4)."
+  },
+  {
+   "topic": 13,
+   "sec": 3,
+   "angle": "8",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the modem?",
+   "o": [
+    "It converts digital to analog and analog to digital",
+    "It works at the Transport layer",
+    "Its name comes from modulator-demodulator",
+    "It links a microcomputer with the telephone line"
+   ],
+   "a": 1,
+   "x": "The modem works at the Physical layer, not the Transport layer."
+  },
+  {
+   "topic": 13,
+   "sec": 4,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which protocol keeps e-mail on the server, synced across devices?",
+   "o": [
+    "POP3",
+    "IMAP",
+    "SMTP",
+    "FTP"
+   ],
+   "a": 1,
+   "x": "IMAP keeps mail on the server; POP3 downloads and usually deletes it; SMTP sends."
+  },
+  {
+   "topic": 13,
+   "sec": 4,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which protocol is used to send e-mail?",
+   "o": [
+    "POP3",
+    "IMAP",
+    "SMTP",
+    "DHCP"
+   ],
+   "a": 2,
+   "x": "SMTP sends e-mail; POP3 and IMAP receive it."
+  },
+  {
+   "topic": 13,
+   "sec": 4,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "DNS stands for:",
+   "o": [
+    "Domain Network Service",
+    "Data Name System",
+    "Digital Naming Server",
+    "Domain Name System"
+   ],
+   "a": 3,
+   "x": "DNS (Domain Name System) turns domain names into IP addresses."
+  },
+  {
+   "topic": 13,
+   "sec": 4,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about TCP/IP:\n1. TCP makes sure no part of the data goes missing.\n2. IP handles addressing and routing.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "TCP gives reliable delivery by checking that nothing is missing; IP addresses and routes the data."
+  },
+  {
+   "topic": 13,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "An IPv4 address is how many bits long?",
+   "o": [
+    "32",
+    "48",
+    "64",
+    "128"
+   ],
+   "a": 0,
+   "x": "IPv4 is 32 bits; IPv6 is 128 and a MAC address 48 bits."
+  },
+  {
+   "topic": 13,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The first-octet range of IPv4 Class C addresses is:",
+   "o": [
+    "128–191",
+    "192–223",
+    "224–239",
+    "240–255"
+   ],
+   "a": 1,
+   "x": "Class C is 192–223; B is 128–191, D 224–239 and E 240–255."
+  },
+  {
+   "topic": 13,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "IPv4 Class E addresses (240–255) are used for:",
+   "o": [
+    "Multicast",
+    "Large networks",
+    "Experimental purposes",
+    "Small networks"
+   ],
+   "a": 2,
+   "x": "Class E is experimental; Class D is multicast."
+  },
+  {
+   "topic": 13,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "An IPv6 address is written as:",
+   "o": [
+    "4 groups of decimal separated by dots",
+    "6 groups of binary separated by dashes",
+    "12 decimal digits",
+    "8 groups of hexadecimal separated by colons"
+   ],
+   "a": 3,
+   "x": "IPv6 uses 8 hexadecimal groups separated by colons; IPv4 uses dotted decimal."
+  },
+  {
+   "topic": 13,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Dial-up, the slowest internet connection, offers speeds up to:",
+   "o": [
+    "56 Kbps",
+    "128 Kbps",
+    "1 Mbps",
+    "10 Mbps"
+   ],
+   "a": 0,
+   "x": "Dial-up is the slowest connection, up to 56 Kbps."
+  },
+  {
+   "topic": 13,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Cable internet uses:",
+   "o": [
+    "Telephone copper lines",
+    "Coaxial lines of cable TV companies",
+    "Light pulses in optical fibre",
+    "VSAT terminals"
+   ],
+   "a": 1,
+   "x": "Cable internet runs over coaxial lines through a cable modem; DSL uses telephone lines."
+  },
+  {
+   "topic": 13,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which internet connection needs no terrestrial wire?",
+   "o": [
+    "DSL",
+    "Cable internet",
+    "Satellite internet",
+    "Fibre"
+   ],
+   "a": 2,
+   "x": "Satellite internet uses space, ground and VSAT user segments, with no terrestrial wire."
+  },
+  {
+   "topic": 13,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Wi-Fi (wireless LAN) follows the IEEE standard:",
+   "o": [
+    "802.3",
+    "802.15.1",
+    "802.5",
+    "802.11"
+   ],
+   "a": 3,
+   "x": "Wi-Fi is IEEE 802.11; Ethernet is 802.3 and Bluetooth 802.15.1."
+  },
+  {
+   "topic": 13,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Wi-Fi 7 corresponds to the IEEE standard:",
+   "o": [
+    "802.11be",
+    "802.11ac",
+    "802.11ax",
+    "802.15.1"
+   ],
+   "a": 0,
+   "x": "Wi-Fi 7 is IEEE 802.11be and works in the 2.4, 5 and 6 GHz bands."
+  },
+  {
+   "topic": 13,
+   "sec": 7,
+   "angle": "4",
+   "shape": "statements",
+   "s": "Consider the following statements about Bluetooth and Wi-Fi:\n1. Both use the 2.4 GHz band.\n2. Bluetooth also uses the 5 GHz band.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Both use 2.4 GHz, but only Wi-Fi also uses 5 GHz."
+  },
+  {
+   "topic": 13,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Bluetooth 6.0 (August 2024) added which feature?",
+   "o": [
+    "Wi-Fi Direct",
+    "Channel Sounding",
+    "Li-Fi",
+    "Multicast addressing"
+   ],
+   "a": 1,
+   "x": "Bluetooth 6.0 added Channel Sounding."
+  },
+  {
+   "topic": 13,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Li-Fi carries data using:",
+   "o": [
+    "Copper wire",
+    "Coaxial cable",
+    "LED light",
+    "Magnetic tape"
+   ],
+   "a": 2,
+   "x": "Li-Fi carries data on LED light, with better bandwidth and security than Wi-Fi."
+  },
+  {
+   "topic": 13,
+   "sec": 8,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "HTML stands for:",
+   "o": [
+    "HyperText Machine Language",
+    "High Transfer Markup Language",
+    "HyperLink Text Module Language",
+    "HyperText Markup Language"
+   ],
+   "a": 3,
+   "x": "Webpages are marked up with HTML, HyperText Markup Language."
+  },
+  {
+   "topic": 13,
+   "sec": 8,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The World Wide Web Consortium (W3C) was founded in:",
+   "o": [
+    "1994",
+    "1989",
+    "1998",
+    "2003"
+   ],
+   "a": 0,
+   "x": "Tim Berners-Lee founded W3C in 1994, five years after inventing the WWW."
+  },
+  {
+   "topic": 13,
+   "sec": 8,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "URL stands for:",
+   "o": [
+    "Universal Resource Link",
+    "Uniform Resource Locator",
+    "Uniform Routing Locator",
+    "Universal Reference Locator"
+   ],
+   "a": 1,
+   "x": "URL = Uniform Resource Locator."
+  },
+  {
+   "topic": 13,
+   "sec": 8,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "About what share of the web is the deep web, not indexed by search engines?",
+   "o": [
+    "4-5%",
+    "20-30%",
+    "90-95%",
+    "50%"
+   ],
+   "a": 2,
+   "x": "The deep web is about 90-95% of the web; the surface web is about 4-5%."
+  },
+  {
+   "topic": 13,
+   "sec": 8,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Web 3.0 refers to:",
+   "o": [
+    "The third version of HTML",
+    "A Wi-Fi standard",
+    "A class of IPv4 addresses",
+    "The third generation of the web"
+   ],
+   "a": 3,
+   "x": "Web 3.0 is the third generation of the web, changing how it is used and how services are delivered."
+  },
+  {
+   "topic": 13,
+   "sec": 8,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Access to the dark web needs:",
+   "o": [
+    "Tor or I2P",
+    "DHCP",
+    "SMTP",
+    "A dial-up modem"
+   ],
+   "a": 0,
+   "x": "The dark web is a hidden part of the deep web reached through Tor or I2P."
+  },
+  {
+   "topic": 13,
+   "sec": 9,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "BhashaNet promotes the .Bharat domain in which script?",
+   "o": [
+    "Roman",
+    "Devanagari",
+    "Telugu",
+    "Tamil"
+   ],
+   "a": 1,
+   "x": "BhashaNet by MeitY-NIXI promotes Universal Acceptance, including .Bharat in Devanagari."
+  },
+  {
+   "topic": 13,
+   "sec": 9,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Telecommunications Act, 2023 holds the power to:",
+   "o": [
+    "Allocate global IP addresses",
+    "Run the .in registry",
+    "Suspend internet services",
+    "Manage the global DNS"
+   ],
+   "a": 2,
+   "x": "The 2023 Act holds the power to suspend internet services; ICANN manages global DNS and NIXI the .in registry."
+  },
+  {
+   "topic": 13,
+   "sec": 9,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Under the IT Act, 2000, the government can order ISPs to block content under Sections:",
+   "o": [
+    "43 and 66",
+    "87 and 9",
+    "65 and 72",
+    "69A and 79"
+   ],
+   "a": 3,
+   "x": "Sections 69A and 79 of the IT Act allow blocking orders to ISPs and intermediaries."
+  },
+  {
+   "topic": 14,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Mobile Number Portability was first piloted in India in:",
+   "o": [
+    "Haryana",
+    "Kerala",
+    "Andhra Pradesh",
+    "Karnataka"
+   ],
+   "a": 0,
+   "x": "MNP was piloted in Haryana on 25 November 2010 and went pan-India on 20 January 2011."
+  },
+  {
+   "topic": 14,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Pan-India Mobile Number Portability began on:",
+   "o": [
+    "25 November 2010",
+    "20 January 2011",
+    "3 July 2015",
+    "3 April 1973"
+   ],
+   "a": 1,
+   "x": "MNP went pan-India on 20 January 2011; full nationwide porting started 3 July 2015."
+  },
+  {
+   "topic": 14,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The QR code was designed in the year:",
+   "o": [
+    "1996",
+    "1973",
+    "1994",
+    "2004"
+   ],
+   "a": 2,
+   "x": "Denso Wave designed the QR code in 1994, not 1996."
+  },
+  {
+   "topic": 14,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "As of May 2025, India's rank among world telecom markets is:",
+   "o": [
+    "Largest",
+    "Third-largest",
+    "Fifth-largest",
+    "Second-largest"
+   ],
+   "a": 3,
+   "x": "India is the world's second-largest telecom market (May 2025)."
+  },
+  {
+   "topic": 14,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "6G mobile technology is expected in:",
+   "o": [
+    "The early 2030s",
+    "2025",
+    "The late 2020s",
+    "The 2040s"
+   ],
+   "a": 0,
+   "x": "6G is expected in the early 2030s; 4G runs on LTE."
+  },
+  {
+   "topic": 14,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Tele-MANAS is a mobile health service for:",
+   "o": [
+    "Telemedicine for eyes",
+    "Tele mental health",
+    "Crop prices",
+    "Free online courses"
+   ],
+   "a": 1,
+   "x": "Tele-MANAS provides tele mental health; eSanjeevani provides telemedicine."
+  },
+  {
+   "topic": 14,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Agrimarket app gives crop prices at markets within:",
+   "o": [
+    "10 km",
+    "100 km",
+    "50 km",
+    "500 km"
+   ],
+   "a": 2,
+   "x": "Agrimarket uses GPS to find crop prices within 50 km, with data from Agmarknet."
+  },
+  {
+   "topic": 14,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "UMANG stands for:",
+   "o": [
+    "Universal Mobile App for National Governance",
+    "Unified Mobile Access for Government",
+    "Universal Mobile Application for New Growth",
+    "Unified Mobile Application for New-age Governance"
+   ],
+   "a": 3,
+   "x": "UMANG is the Unified Mobile Application for New-age Governance, an m-governance app."
+  },
+  {
+   "topic": 14,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "SWAYAM, which offers free online courses, is an example of:",
+   "o": [
+    "m-learning",
+    "m-health",
+    "m-agriculture",
+    "m-governance"
+   ],
+   "a": 0,
+   "x": "SWAYAM is an m-learning platform with free online courses."
+  },
+  {
+   "topic": 14,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Folksonomy in social media refers to:",
+   "o": [
+    "Social Media Optimisation",
+    "User-created tagging",
+    "A profile wall",
+    "Fast spreading of content"
+   ],
+   "a": 1,
+   "x": "Folksonomy is user-created tagging or social tagging."
+  },
+  {
+   "topic": 14,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "SMO stands for:",
+   "o": [
+    "Social Media Operation",
+    "Search Media Optimisation",
+    "Social Media Optimisation",
+    "Social Marketing Office"
+   ],
+   "a": 2,
+   "x": "SMO = Social Media Optimisation, raising reach through social platforms."
+  },
+  {
+   "topic": 14,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Facebook's parent company is:",
+   "o": [
+    "Microsoft",
+    "Alphabet",
+    "X Corp",
+    "Meta Platforms"
+   ],
+   "a": 3,
+   "x": "Facebook (2004, Mark Zuckerberg) belongs to Meta Platforms; LinkedIn belongs to Microsoft."
+  },
+  {
+   "topic": 14,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Twitter was founded in March 2006 in:",
+   "o": [
+    "San Francisco",
+    "Seattle",
+    "New York",
+    "Boston"
+   ],
+   "a": 0,
+   "x": "Twitter was founded in March 2006 in San Francisco by Jack Dorsey and others."
+  },
+  {
+   "topic": 14,
+   "sec": 4,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Video conferencing provides:",
+   "o": [
+    "One-way pre-recorded video",
+    "Live two-way video and audio",
+    "Text chat only",
+    "Audio only over telephone"
+   ],
+   "a": 1,
+   "x": "Video conferencing is live two-way video and audio between places."
+  },
+  {
+   "topic": 14,
+   "sec": 4,
+   "angle": "8",
+   "shape": "NOT",
+   "s": "Which of the following is NOT an essential of video conferencing?",
+   "o": [
+    "Video camera",
+    "Microphone",
+    "Telephone",
+    "Display"
+   ],
+   "a": 2,
+   "x": "A telephone is not essential; video camera, display and microphone are."
+  },
+  {
+   "topic": 14,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Final Cut Pro (FCP) is the video editing software of:",
+   "o": [
+    "Adobe",
+    "Microsoft",
+    "Apple",
+    "Google"
+   ],
+   "a": 2,
+   "x": "FCP is Apple's professional non-linear video editor; Premiere Pro is Adobe's."
+  },
+  {
+   "topic": 14,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "DTH television receives signals from:",
+   "o": [
+    "Coaxial cable operators",
+    "Terrestrial transmitters",
+    "Internet apps",
+    "Geostationary satellites"
+   ],
+   "a": 3,
+   "x": "DTH brings signals from geostationary satellites straight to home dishes, bypassing cable operators."
+  },
+  {
+   "topic": 14,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "DD Free Dish, India's first free DTH service, was launched in:",
+   "o": [
+    "December 2004",
+    "December 1995",
+    "December 2013",
+    "December 2010"
+   ],
+   "a": 0,
+   "x": "DD Free Dish launched in December 2004 as DD Direct+ and was renamed in 2013."
+  },
+  {
+   "topic": 14,
+   "sec": 5,
+   "angle": "4",
+   "shape": "statements",
+   "s": "Consider the following statements about multimedia:\n1. Its components include text, graphics, audio, video and animation.\n2. A podcast is a radio programme shared via the internet.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Multimedia combines text, graphics, audio, video and animation; a podcast is a radio programme shared via the internet."
+  },
+  {
+   "topic": 14,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "OLX-type resale is an example of which e-commerce model?",
+   "o": [
+    "B2B",
+    "C2C",
+    "B2C",
+    "D2C"
+   ],
+   "a": 1,
+   "x": "OLX-type resale is consumer to consumer (C2C)."
+  },
+  {
+   "topic": 14,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "IndiaMART is an example of which e-commerce model?",
+   "o": [
+    "C2C",
+    "B2C",
+    "B2B",
+    "D2C"
+   ],
+   "a": 2,
+   "x": "IndiaMART is business to business (B2B)."
+  },
+  {
+   "topic": 14,
+   "sec": 6,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about FDI in e-commerce:\n1. 100% FDI is allowed under the automatic route in the marketplace model.\n2. 100% FDI is allowed in the inventory model.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "100% FDI under the automatic route is allowed in the marketplace model; no FDI is allowed in the inventory model."
+  },
+  {
+   "topic": 14,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "In the D2C e-commerce model:",
+   "o": [
+    "Consumers sell to consumers",
+    "Businesses sell to businesses",
+    "A marketplace holds inventory",
+    "A brand sells directly to consumers"
+   ],
+   "a": 3,
+   "x": "D2C means the brand sells directly to the consumer without a middleman."
+  },
+  {
+   "topic": 14,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The rules under the Online Gaming Act, 2025 took effect from:",
+   "o": [
+    "1 May 2026",
+    "1 April 2026",
+    "21 November 2025",
+    "1 January 2026"
+   ],
+   "a": 0,
+   "x": "Rules were notified in April 2026 and took effect from 1 May 2026."
+  },
+  {
+   "topic": 14,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The Promotion and Regulation of Online Gaming Act, 2025 banned:",
+   "o": [
+    "All e-sports",
+    "Real-money gaming",
+    "Social media for children",
+    "OTT platforms"
+   ],
+   "a": 1,
+   "x": "The Act banned real-money gaming and created the Online Gaming Authority of India."
+  },
+  {
+   "topic": 14,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Under the DPDP Act, verifiable parental consent for children is in Section:",
+   "o": [
+    "79",
+    "87",
+    "9",
+    "69A"
+   ],
+   "a": 2,
+   "x": "Section 9 of the DPDP Act requires verifiable parental consent; a child is anyone below 18."
+  },
+  {
+   "topic": 14,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The IT Rules, 2021 provide a grievance redressal mechanism of how many tiers?",
+   "o": [
+    "Two",
+    "Four",
+    "Five",
+    "Three"
+   ],
+   "a": 3,
+   "x": "The IT Rules 2021 set a Code of Ethics and three-tier grievance redressal."
+  },
+  {
+   "topic": 14,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Consumer Protection (E-Commerce) Rules, 2020 require display of:",
+   "o": [
+    "Country of origin",
+    "FDI share",
+    "GST registration of buyers",
+    "Server location"
+   ],
+   "a": 0,
+   "x": "The rules require a grievance officer and display of country of origin."
+  },
+  {
+   "topic": 14,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The Code on Social Security, with all four labour codes, came into force from:",
+   "o": [
+    "1 May 2026",
+    "21 November 2025",
+    "1 April 2020",
+    "20 January 2011"
+   ],
+   "a": 1,
+   "x": "All four labour codes, including the Code on Social Security, are in force from 21 November 2025."
+  },
+  {
+   "topic": 14,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Fear of being without one's mobile phone is called:",
+   "o": [
+    "FOMO",
+    "Cyberchondria",
+    "Nomophobia",
+    "Doomscrolling"
+   ],
+   "a": 2,
+   "x": "Nomophobia is 'no-mobile-phobia'; FOMO is fear of missing out."
+  },
+  {
+   "topic": 14,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Health worry fed by online symptom searches is called:",
+   "o": [
+    "Nomophobia",
+    "Digital detox",
+    "FOMO",
+    "Cyberchondria"
+   ],
+   "a": 3,
+   "x": "Cyberchondria is health anxiety from online symptom searches."
+  },
+  {
+   "topic": 14,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "A deliberate break from digital devices is called:",
+   "o": [
+    "Digital detox",
+    "Doomscrolling",
+    "Nomophobia",
+    "Cyberchondria"
+   ],
+   "a": 0,
+   "x": "A digital detox is a deliberate break from devices."
+  },
+  {
+   "topic": 14,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "D-DAD (Digital De-Addiction) centres are run by the police of:",
+   "o": [
+    "Karnataka",
+    "Kerala",
+    "Andhra Pradesh",
+    "Tamil Nadu"
+   ],
+   "a": 1,
+   "x": "Kerala Police run D-DAD centres; 'Beyond Screens' is Karnataka's."
+  },
+  {
+   "topic": 14,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Andhra Pradesh's social-media ban applies to children under the age of:",
+   "o": [
+    "16",
+    "14",
+    "13",
+    "18"
+   ],
+   "a": 2,
+   "x": "AP's ban is for children under 13; Karnataka's is for under 16."
+  },
+  {
+   "topic": 14,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The SHUT Clinic for technology addiction is run by:",
+   "o": [
+    "AIIMS",
+    "NCPCR",
+    "CBSE",
+    "NIMHANS"
+   ],
+   "a": 3,
+   "x": "NIMHANS runs the SHUT Clinic."
+  },
+  {
+   "topic": 14,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The first Indian state to announce a social-media ban for children under 16 is:",
+   "o": [
+    "Karnataka",
+    "Kerala",
+    "Andhra Pradesh",
+    "Maharashtra"
+   ],
+   "a": 0,
+   "x": "Karnataka was the first state to announce an under-16 ban; AP's ban is for under 13."
+  },
+  {
+   "topic": 14,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which country brought the world's first nationwide under-16 social-media ban (December 2025)?",
+   "o": [
+    "New Zealand",
+    "Australia",
+    "United Kingdom",
+    "Canada"
+   ],
+   "a": 1,
+   "x": "Australia's under-16 ban took effect on 10 December 2025."
+  },
+  {
+   "topic": 12,
+   "sec": 2,
+   "angle": "7",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correctly matched with its computer generation?",
+   "o": [
+    "First – Vacuum tubes",
+    "Second – Integrated circuits",
+    "Fourth – Microprocessors",
+    "Fifth – Artificial intelligence"
+   ],
+   "a": 1,
+   "x": "The second generation used transistors; integrated circuits were the basis of the third generation."
+  },
+  {
+   "topic": 12,
+   "sec": 6,
+   "angle": "1",
+   "shape": "statements",
+   "s": "Consider the following statements about secondary storage:\n1. Magnetic tape is sequential-access and the slowest storage.\n2. A flash drive is cheaper than mechanical disks.\n3. RAM is a secondary memory.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Magnetic tape is sequential and slowest; flash drives are not cheaper than mechanical disks, and RAM is primary memory."
+  },
+  {
+   "topic": 12,
+   "sec": 10,
+   "angle": "6",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "MOV – Microsoft",
+    "JPEG – Audio format",
+    "MP4 – Video format",
+    "PNG – Portable Network Interface"
+   ],
+   "a": 2,
+   "x": "MP4 (MPEG-4 Part 14) is a video format; MOV is Apple's, JPEG is an image format and PNG is Portable Network Graphics."
+  },
+  {
+   "topic": 12,
+   "sec": 11,
+   "angle": "8",
+   "shape": "statements",
+   "s": "Consider the following statements about Param Shakti:\n1. It is a 3.1-petaflop supercomputer.\n2. It was launched at IIT Madras.\n3. It was built under the Digital India Mission.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Param Shakti (3.1 petaflops) was launched by MeitY at IIT Madras under the National Supercomputing Mission."
+  },
+  {
+   "topic": 12,
+   "sec": 8,
+   "angle": "4",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about UNIX?",
+   "o": [
+    "It is a multi-user operating system",
+    "It was made in 1969 by AT&T",
+    "Its main part is the kernel",
+    "It is a mobile operating system by Google"
+   ],
+   "a": 3,
+   "x": "UNIX is a multi-user OS made in 1969 by AT&T with the kernel as its main part; Android is Google's mobile OS."
+  },
+  {
+   "topic": 13,
+   "sec": 3,
+   "angle": "8,9",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Switch – Layer 3",
+    "Router – Layer 2",
+    "Hub – Network layer",
+    "Switch – MAC address"
+   ],
+   "a": 3,
+   "x": "A switch works at Layer 2 using MAC addresses; a router works at Layer 3 using IP addresses; a hub is a Physical-layer device."
+  },
+  {
+   "topic": 13,
+   "sec": 4,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about e-mail protocols:\n1. SMTP sends e-mail.\n2. POP3 keeps mail on the server.\n3. IMAP keeps mail synced across devices.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "SMTP sends and IMAP keeps mail on the server; POP3 usually deletes mail from the server."
+  },
+  {
+   "topic": 13,
+   "sec": 8,
+   "angle": "1",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a web browser?",
+   "o": [
+    "Firefox",
+    "Opera",
+    "Vivaldi",
+    "Baidu"
+   ],
+   "a": 3,
+   "x": "Baidu is a Chinese search engine; Firefox, Opera and Vivaldi are web browsers."
+  },
+  {
+   "topic": 13,
+   "sec": 9,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about ICANN and NIXI:\n1. ICANN manages the global Domain Name System.\n2. NIXI runs the .in registry.\n3. BhashaNet is an initiative of ICANN.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "ICANN manages the global DNS and NIXI runs the .in registry; BhashaNet is by MeitY-NIXI, not ICANN."
+  },
+  {
+   "topic": 13,
+   "sec": 2,
+   "angle": "6",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correctly matched?",
+   "o": [
+    "PAN – Bluetooth",
+    "LAN – A building or campus",
+    "MAN – A city",
+    "WAN – Personal devices only"
+   ],
+   "a": 3,
+   "x": "A WAN spans large areas and links LANs; personal devices form a PAN."
+  },
+  {
+   "topic": 14,
+   "sec": 3,
+   "angle": "1",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "LinkedIn – Mark Zuckerberg",
+    "Facebook – Reid Hoffman",
+    "LinkedIn – Reid Hoffman",
+    "Twitter – Reid Hoffman"
+   ],
+   "a": 2,
+   "x": "Reid Hoffman founded LinkedIn (2003); Facebook is Mark Zuckerberg's and Twitter Jack Dorsey's."
+  },
+  {
+   "topic": 14,
+   "sec": 6,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about ONDC:\n1. It is an open, network-based protocol.\n2. It is a payment gateway.\n3. It connects buyer apps to seller apps across B2C and B2B.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "ONDC is an open protocol linking buyer and seller apps across B2C and B2B; it is not a payment gateway or a single platform."
+  },
+  {
+   "topic": 14,
+   "sec": 7,
+   "angle": "9",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the IT Rules, 2021?",
+   "o": [
+    "They were framed under Section 87 of the IT Act",
+    "They regulate social media, OTT and digital news",
+    "They replaced the 2011 guidelines",
+    "They were framed under the Consumer Protection Act, 2019"
+   ],
+   "a": 3,
+   "x": "The IT Rules 2021 were framed under Section 87 of the IT Act; the E-Commerce Rules 2020 come under the Consumer Protection Act, 2019."
+  },
+  {
+   "topic": 14,
+   "sec": 1,
+   "angle": "2",
+   "shape": "statements",
+   "s": "Consider the following statements about NFC:\n1. Its range is a few centimetres.\n2. It uses more power than Bluetooth.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "NFC works over a few centimetres and uses less power than Bluetooth."
+  }
+ ]
+}

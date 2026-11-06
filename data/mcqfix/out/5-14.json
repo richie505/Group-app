@@ -1,0 +1,1113 @@
+{
+ "reshape": {
+  "n44a20b6ea46": {
+   "shape": "statements",
+   "s": "Consider the following statements about the Gaganyaan spacecraft:\n1. The Orbital Module is the Crew Module and the Service Module joined together.\n2. The Crew Module is the crew habitat that survives re-entry and splashdown.\n3. The Service Module injects the Orbital Module into orbit.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The Orbital Module is Crew Module plus Service Module, and the Crew Module survives re-entry. Statement 3 is wrong: the human-rated LVM3 injects the Orbital Module into orbit; the Service Module gives on-orbit support and de-orbits."
+  },
+  "nf601fa938ba": {
+   "shape": "statements",
+   "s": "Consider the following statements about China's Tiangong space station:\n1. It was completed in 2022.\n2. It is owned by China alone.\n3. It consists of the Tianhe core module along with Wentian and Mengtian.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three are correct: Tiangong, completed in 2022, is China's alone and has the Tianhe core with the Wentian and Mengtian modules."
+  },
+  "nphysics-23-14": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about astronauts in an orbiting satellite?",
+   "o": [
+    "They experience apparent weightlessness",
+    "The satellite and the astronaut accelerate towards Earth with the same g",
+    "The mass of the astronaut becomes zero",
+    "There is no normal force on the astronaut"
+   ],
+   "a": 2,
+   "x": "The satellite and astronaut fall together with the same g, so the normal force is zero and the astronaut feels weightless; the astronaut's mass stays the same."
+  },
+  "n088341571a4": {
+   "shape": "one-liner",
+   "s": "The SBS-3 programme, approved by the Cabinet Committee on Security in November 2024, envisages how many satellites?",
+   "o": [
+    "21",
+    "31",
+    "52",
+    "62"
+   ],
+   "a": 2,
+   "x": "SBS-3 has 52 satellites: 21 to be built by ISRO and 31 by private industry."
+  },
+  "ne17adef5872": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about ISRO's UNNATI programme?",
+   "o": [
+    "It is a nanosatellite assembly and training programme",
+    "It is meant for engineers from developing countries",
+    "It was launched in 2019 to mark 50 years of UNISPACE-I",
+    "It is a summer space-science programme for Class 9 school students"
+   ],
+   "a": 3,
+   "x": "UNNATI trains developing-country engineers in nanosatellite assembly (2019, 50 years of UNISPACE-I); the Class 9 school programme is YUVIKA."
+  },
+  "n8596824be37": {
+   "shape": "one-liner",
+   "s": "PSLV-C37 (15 February 2017) placed how many satellites in orbit in a single launch?",
+   "o": [
+    "104",
+    "88",
+    "96",
+    "101"
+   ],
+   "a": 0,
+   "x": "PSLV-C37 launched 104 satellites: a Cartosat-2 series satellite, two ISRO nanosatellites and 101 foreign nanosatellites."
+  },
+  "n5483e0c9101": {
+   "shape": "one-liner",
+   "s": "Under the Indian Space Policy 2023, advanced research, deep space missions and human spaceflight are assigned to:",
+   "o": [
+    "NSIL",
+    "IN-SPACe",
+    "ISRO",
+    "Non-Governmental Entities"
+   ],
+   "a": 2,
+   "x": "The policy keeps advanced research, deep space and human spaceflight with ISRO; NGEs undertake end-to-end space activities such as satellites, launches and services."
+  },
+  "n1ef7d3b77d3": {
+   "shape": "statements",
+   "s": "Consider the following statements about ISRO under the Indian Space Policy 2023:\n1. ISRO is to move out of making operational and commercial satellites and rockets over time.\n2. The policy seeks to privatise ISRO and reduce it to a regulatory body.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "ISRO will move out of operational and commercial production to focus on advanced research, deep space and human spaceflight; it will not be privatised or reduced to a regulator."
+  },
+  "nd08e9b833ef": {
+   "shape": "one-liner",
+   "s": "Under India's space framework, commercialising mature ISRO technologies through industry is the role of:",
+   "o": [
+    "IN-SPACe",
+    "Department of Space",
+    "ISRO",
+    "NSIL"
+   ],
+   "a": 3,
+   "x": "Commercialising mature ISRO technology is NSIL's role; IN-SPACe is the independent regulator that authorises and promotes non-governmental entities."
+  },
+  "n4e47713f6cd": {
+   "shape": "one-liner",
+   "s": "IN-SPACe enabled the technology transfer of which launch vehicle to private consortia?",
+   "o": [
+    "PSLV",
+    "SSLV",
+    "GSLV",
+    "LVM3"
+   ],
+   "a": 1,
+   "x": "IN-SPACe enabled the transfer of SSLV technology to private consortia; it was not kept restricted to ISRO."
+  },
+  "ne02521c606a": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the absence of a Space Activities Act in India?",
+   "o": [
+    "Private space entities lack a statutory framework on liability",
+    "Private space entities lack a statutory framework on dispute resolution",
+    "Private space entities lack sovereign-backed insurance arrangements",
+    "Private space entities already have a statutory liability framework"
+   ],
+   "a": 3,
+   "x": "Without an Act, private entities have no statutory framework on liability, dispute resolution or risk-sharing, and no sovereign-backed insurance."
+  }
+ },
+ "new": [
+  {
+   "topic": 42,
+   "sec": 1,
+   "angle": "1,12",
+   "shape": "one-liner",
+   "s": "The Gaganyaan mission aims to take a crew of three to a low Earth orbit of about:",
+   "o": [
+    "400 km",
+    "300 km",
+    "500 km",
+    "36,000 km"
+   ],
+   "a": 0,
+   "x": "Gaganyaan plans to take a crew of 3 to a 400 km low Earth orbit."
+  },
+  {
+   "topic": 42,
+   "sec": 1,
+   "angle": "1,12",
+   "shape": "one-liner",
+   "s": "The planned duration of the Gaganyaan crewed mission is:",
+   "o": [
+    "1 day",
+    "3 days",
+    "7 days",
+    "18 days"
+   ],
+   "a": 1,
+   "x": "Gaganyaan's goal is a 3-day mission for a crew of 3 in a 400 km orbit; 18 days was Shukla's Axiom-4 stay."
+  },
+  {
+   "topic": 42,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Gaganyaan's first crewed flight H1 is now targeted for:",
+   "o": [
+    "December 2021",
+    "2028",
+    "Q1 2027",
+    "2035"
+   ],
+   "a": 2,
+   "x": "The original target (stated 2018) was December 2021; after repeated revisions H1 is now targeted for Q1 2027."
+  },
+  {
+   "topic": 42,
+   "sec": 1,
+   "angle": "1,12",
+   "shape": "one-liner",
+   "s": "Which engine, for the L110 stage of the human-rated LVM3, was qualified in three tests?",
+   "o": [
+    "CE-20",
+    "Vulcain",
+    "S200",
+    "Vikas"
+   ],
+   "a": 3,
+   "x": "The Vikas engine for the L110 stage was qualified in 3 tests (730 s) for HLVM3."
+  },
+  {
+   "topic": 42,
+   "sec": 2,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The TV-D1 test (18 October 2023) demonstrated a Crew Escape System abort at:",
+   "o": [
+    "Mach 1.2",
+    "Mach 0.8",
+    "Mach 2.0",
+    "Mach 3.5"
+   ],
+   "a": 0,
+   "x": "TV-D1 tested a Crew Escape System abort at Mach 1.2, followed by sea recovery."
+  },
+  {
+   "topic": 42,
+   "sec": 2,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "In IADT-02 (10 April 2026), how heavy was the module dropped to test Gaganyaan parachutes?",
+   "o": [
+    "4.8 t",
+    "5.7 t",
+    "3.0 t",
+    "7.5 t"
+   ],
+   "a": 1,
+   "x": "IADT-02 used a 5.7 t module with 10 parachutes of 4 types; IADT-01 used a 4.8 t module."
+  },
+  {
+   "topic": 42,
+   "sec": 2,
+   "angle": "8",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Vyommitra?",
+   "o": [
+    "It is an AI-enabled half-humanoid robot",
+    "It is to fly on the uncrewed G1 flight",
+    "It is a male robot",
+    "It is to fly on the G2 flight"
+   ],
+   "a": 2,
+   "x": "Vyommitra is an AI-enabled female half-humanoid robot that flies on G1 and G2; calling it male is false."
+  },
+  {
+   "topic": 42,
+   "sec": 2,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "In the IADT-01 air-drop test, the 4.8 t crew module was dropped by an IAF:",
+   "o": [
+    "C-17 Globemaster",
+    "Mi-17",
+    "C-130J Hercules",
+    "Chinook"
+   ],
+   "a": 3,
+   "x": "IADT-01 (24 Aug 2025) dropped a 4.8 t module from 3 km using an IAF Chinook at SDSC-SHAR."
+  },
+  {
+   "topic": 42,
+   "sec": 3,
+   "angle": "2,10",
+   "shape": "one-liner",
+   "s": "The four Gaganyatris named in February 2024 all have which service background?",
+   "o": [
+    "IAF test pilots",
+    "Indian Navy pilots",
+    "Army aviators",
+    "ISRO scientists"
+   ],
+   "a": 0,
+   "x": "All four Gaganyatris are IAF test pilots."
+  },
+  {
+   "topic": 42,
+   "sec": 3,
+   "angle": "2,10",
+   "shape": "one-liner",
+   "s": "The Gaganyatris received basic training abroad at the:",
+   "o": [
+    "Johnson Space Center, USA",
+    "Yuri Gagarin Cosmonaut Training Centre, Russia",
+    "European Astronaut Centre, Germany",
+    "Tsukuba Space Center, Japan"
+   ],
+   "a": 1,
+   "x": "Basic training was at the Yuri Gagarin Cosmonaut Training Centre, Russia, followed by ISRO's Astronaut Training Facility, Bengaluru."
+  },
+  {
+   "topic": 42,
+   "sec": 4,
+   "angle": "3,11",
+   "shape": "one-liner",
+   "s": "Axiom-4, which carried Shubhanshu Shukla to the ISS in June 2025, was launched on:",
+   "o": [
+    "Soyuz MS spacecraft on a Soyuz rocket",
+    "Boeing Starliner on Atlas V",
+    "SpaceX Dragon on Falcon 9",
+    "Crew module on HLVM3"
+   ],
+   "a": 2,
+   "x": "Axiom-4 (25 Jun 2025) flew on a SpaceX Dragon atop a Falcon 9."
+  },
+  {
+   "topic": 42,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Shubhanshu Shukla is known as the:",
+   "o": [
+    "First Indian in space",
+    "First Indian-origin woman in space",
+    "First Indian on Tiangong",
+    "First Indian on the ISS"
+   ],
+   "a": 3,
+   "x": "Shukla is the first Indian on the ISS and the second Indian in space; Rakesh Sharma was the first Indian in space (1984)."
+  },
+  {
+   "topic": 42,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which Indian-origin NASA astronaut flew on Soyuz MS-29 in July 2026 for an eight-month mission?",
+   "o": [
+    "Anil Menon",
+    "Sunita Williams",
+    "Raja Chari",
+    "Shubhanshu Shukla"
+   ],
+   "a": 0,
+   "x": "Anil Menon, an Indian-origin NASA astronaut, flew on Soyuz MS-29 in July 2026 for 8 months."
+  },
+  {
+   "topic": 42,
+   "sec": 5,
+   "angle": "4,14",
+   "shape": "one-liner",
+   "s": "The Third Launch Pad at Sriharikota, approved in January 2025, will cost about:",
+   "o": [
+    "Rs 1,000 crore",
+    "Rs 4,000 crore",
+    "Rs 10,000 crore",
+    "Rs 25,000 crore"
+   ],
+   "a": 1,
+   "x": "The Third Launch Pad was approved in January 2025 at about Rs 4,000 crore for NGLV and human spaceflight."
+  },
+  {
+   "topic": 42,
+   "sec": 5,
+   "angle": "16",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "IAM, Bengaluru – New ISRO vertical leading Gaganyaan",
+    "HSFC, Bengaluru – Astronaut selection and aeromedical tests",
+    "ISTRAC, Bengaluru – Tracking network",
+    "Dhanush – ISRO's Third Launch Pad"
+   ],
+   "a": 2,
+   "x": "ISTRAC runs the tracking network; HSFC leads Gaganyaan, IAM does selection and aeromedical tests, and Dhanush is Agnikul's private pad."
+  },
+  {
+   "topic": 42,
+   "sec": 6,
+   "angle": "5,13",
+   "shape": "one-liner",
+   "s": "India's first analogue space mission at Leh (November 2024) was conducted by ISRO with AAKA and:",
+   "o": [
+    "IIT Madras",
+    "IISc Bengaluru",
+    "IIT Kanpur",
+    "IIT Bombay"
+   ],
+   "a": 3,
+   "x": "The Leh analogue mission was run with AAKA and IIT Bombay."
+  },
+  {
+   "topic": 42,
+   "sec": 6,
+   "angle": "5,13",
+   "shape": "one-liner",
+   "s": "The HOPE analogue habitat (Himalayan Outpost for Planetary Exploration) is located at:",
+   "o": [
+    "Tso Kar, Ladakh",
+    "Leh town, Ladakh",
+    "Spiti, Himachal Pradesh",
+    "Sriharikota, Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "HOPE is at Tso Kar, Ladakh, chosen for its early-Mars-like conditions."
+  },
+  {
+   "topic": 42,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Space motion sickness experienced by astronauts is called:",
+   "o": [
+    "Spaceflight-Associated Neuro-ocular Syndrome",
+    "Space Adaptation Syndrome",
+    "Fluid shift",
+    "Muscle atrophy"
+   ],
+   "a": 1,
+   "x": "Space Adaptation Syndrome is space motion sickness; SANS causes optic disc swelling."
+  },
+  {
+   "topic": 42,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "In microgravity, astronauts lose about how much bone mass a month?",
+   "o": [
+    "0.1–0.2%",
+    "5–6%",
+    "1–1.5%",
+    "10%"
+   ],
+   "a": 2,
+   "x": "Bone loss in space is about 1–1.5% of bone mass a month."
+  },
+  {
+   "topic": 42,
+   "sec": 8,
+   "angle": "6,17",
+   "shape": "one-liner",
+   "s": "The International Space Station is expected to retire around:",
+   "o": [
+    "2025",
+    "2035",
+    "2040",
+    "2030"
+   ],
+   "a": 3,
+   "x": "The ISS, inhabited since November 2000, is to retire around 2030."
+  },
+  {
+   "topic": 42,
+   "sec": 8,
+   "angle": "9,15",
+   "shape": "one-liner",
+   "s": "BAS-1, the base module of the Bharatiya Antariksh Station, is targeted for launch by:",
+   "o": [
+    "2028",
+    "2027",
+    "2035",
+    "2040"
+   ],
+   "a": 0,
+   "x": "BAS-1 is targeted by 2028 on LVM3; the full five-module station by 2035."
+  },
+  {
+   "topic": 42,
+   "sec": 8,
+   "angle": "9,15",
+   "shape": "statements",
+   "s": "Consider the following statements about the Bharatiya Antariksh Station:\n1. It was approved in September 2024.\n2. It will have five modules.\n3. Its base module will be launched on PSLV.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "BAS was approved in Sep 2024 and will have five modules; BAS-1 goes up on LVM3, not PSLV."
+  },
+  {
+   "topic": 42,
+   "sec": 8,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "SpaDeX, a precursor mission for the Bharatiya Antariksh Station, achieved docking on 16 January 2025 after launch on:",
+   "o": [
+    "PSLV-C58",
+    "GSLV-F15",
+    "PSLV-C60",
+    "LVM3-M5"
+   ],
+   "a": 2,
+   "x": "SpaDeX flew on PSLV-C60 and docked on 16 Jan 2025, making India the 4th country to dock."
+  },
+  {
+   "topic": 42,
+   "sec": 8,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Kibo, a module of the International Space Station, was contributed by:",
+   "o": [
+    "Russia",
+    "Europe",
+    "Canada",
+    "Japan"
+   ],
+   "a": 3,
+   "x": "Kibo is Japan's ISS module; Zarya (1998) was the first module."
+  },
+  {
+   "topic": 42,
+   "sec": 1,
+   "angle": "17",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Gaganyaan Orbital Module?",
+   "o": [
+    "It has three modules like Soyuz and Shenzhou",
+    "It consists of the Crew Module and the Service Module",
+    "It is put into orbit by HLVM3",
+    "Its Service Module burns up after the de-orbit burn"
+   ],
+   "a": 0,
+   "x": "Gaganyaan has two parts (Crew Module + Service Module); Russia's Soyuz and China's Shenzhou have three modules."
+  },
+  {
+   "topic": 43,
+   "sec": 1,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "GSAT-7, the Indian Navy's 'Rukmini' satellite (2013), was launched by:",
+   "o": [
+    "GSLV-F08",
+    "Ariane-5",
+    "PSLV-C25",
+    "LVM3-M1"
+   ],
+   "a": 1,
+   "x": "GSAT-7 (Rukmini) was launched by Ariane-5, not GSLV."
+  },
+  {
+   "topic": 43,
+   "sec": 1,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "GSAT-7R (CMS-03), launched on 2 November 2025 on LVM3-M5, serves the:",
+   "o": [
+    "Indian Air Force",
+    "Indian Army",
+    "Indian Navy",
+    "DRDO"
+   ],
+   "a": 2,
+   "x": "GSAT-7R (CMS-03) is the Indian Navy's satellite that replaces GSAT-7."
+  },
+  {
+   "topic": 43,
+   "sec": 1,
+   "angle": "4",
+   "shape": "match",
+   "s": "Which of the following pairs is INCORRECTLY matched?",
+   "o": [
+    "GSAT-7 – Indian Navy",
+    "GSAT-7A – Indian Air Force",
+    "EMISAT – DRDO",
+    "GSAT-7B – Indian Navy"
+   ],
+   "a": 3,
+   "x": "GSAT-7B is the proposed Indian Army satellite; GSAT-7 serves the Navy, GSAT-7A the Air Force and EMISAT the DRDO."
+  },
+  {
+   "topic": 43,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "RISAT-2, launched in April 2009 on PSLV-C12, carried which type of radar?",
+   "o": [
+    "X-band, Israeli-built",
+    "C-band, indigenous",
+    "S-band, indigenous",
+    "L-band, Israeli-built"
+   ],
+   "a": 0,
+   "x": "RISAT-2 is an X-band Israeli-built radar satellite; RISAT-1 (2012) is C-band and indigenous."
+  },
+  {
+   "topic": 43,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "RISAT-2BR1, launched in December 2019 on PSLV-C48, marked the:",
+   "o": [
+    "25th PSLV flight",
+    "50th PSLV flight",
+    "60th PSLV flight",
+    "100th Sriharikota launch"
+   ],
+   "a": 1,
+   "x": "RISAT-2BR1 flew on PSLV-C48, the 50th PSLV flight."
+  },
+  {
+   "topic": 43,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which radar satellite was the co-passenger of ANUSAT on PSLV-C12 (2009)?",
+   "o": [
+    "RISAT-1",
+    "RISAT-2B",
+    "RISAT-2",
+    "EOS-01"
+   ],
+   "a": 2,
+   "x": "ANUSAT shared PSLV-C12 with RISAT-2 in 2009."
+  },
+  {
+   "topic": 43,
+   "sec": 3,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Defence Space Research Organisation (DSRO) is the:",
+   "o": [
+    "Regulator of private space activity",
+    "Commercial arm of ISRO",
+    "Tri-services space command at Bengaluru",
+    "R&D arm of the Defence Space Agency"
+   ],
+   "a": 3,
+   "x": "DSRO is the R&D arm of the Defence Space Agency; IN-SPACe authorises private space activity."
+  },
+  {
+   "topic": 43,
+   "sec": 3,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "India's tri-service Defence Space Agency was set up in 2019 at:",
+   "o": [
+    "Bengaluru",
+    "New Delhi",
+    "Hyderabad",
+    "Ahmedabad"
+   ],
+   "a": 0,
+   "x": "The Defence Space Agency was set up in 2019 at Bengaluru."
+  },
+  {
+   "topic": 43,
+   "sec": 4,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "TSAT-1A, India's first private-sector-built sub-metre optical satellite, was launched in April 2024 on:",
+   "o": [
+    "PSLV-C58",
+    "SpaceX Falcon 9",
+    "SSLV-D3",
+    "Ariane-6"
+   ],
+   "a": 1,
+   "x": "TSAT-1A was launched on 7 Apr 2024 on a SpaceX Falcon 9 (Bandwagon-1), not on PSLV."
+  },
+  {
+   "topic": 43,
+   "sec": 4,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "TSAT-1A was built by Tata Advanced Systems with Satellogic and assembled at TASL's facility in:",
+   "o": [
+    "Hosur, Tamil Nadu",
+    "Sriharikota, Andhra Pradesh",
+    "Vemagal, Karnataka",
+    "Nagpur, Maharashtra"
+   ],
+   "a": 2,
+   "x": "TSAT-1A was assembled at TASL's Vemagal (Karnataka) facility."
+  },
+  {
+   "topic": 43,
+   "sec": 5,
+   "angle": "6",
+   "shape": "statements",
+   "s": "Consider the following statements about EDUSAT:\n1. It is India's first satellite dedicated to education.\n2. It was launched on 20 September 2004 on PSLV.\n3. It provides two-way satellite communication to classrooms.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "EDUSAT (GSAT-3) is India's first education satellite giving two-way links to virtual classrooms; it was launched on GSLV-F01, not PSLV."
+  },
+  {
+   "topic": 43,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "ANUSAT (2009) is known as India's first:",
+   "o": [
+    "University satellite",
+    "Pico-satellite",
+    "All-women-student satellite",
+    "Satellite to use the PS4 stage as an orbital platform"
+   ],
+   "a": 0,
+   "x": "ANUSAT of Anna University was India's first university satellite; StudSat was the first pico-satellite."
+  },
+  {
+   "topic": 43,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Kalamsat-V2 (January 2019) was the first satellite to use which as an orbital platform?",
+   "o": [
+    "The ISS",
+    "The PS4 stage of PSLV",
+    "The SSLV upper stage",
+    "A high-altitude balloon"
+   ],
+   "a": 1,
+   "x": "Kalamsat-V2 by Space Kidz India was the first to use the PS4 stage as an orbital platform."
+  },
+  {
+   "topic": 43,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "WESAT, the first satellite fully built by women students, was built by:",
+   "o": [
+    "Space Kidz India",
+    "Sathyabama University, Chennai",
+    "LBS Institute of Technology for Women, Thiruvananthapuram",
+    "Anna University, Chennai"
+   ],
+   "a": 2,
+   "x": "WESAT was built by LBS Institute of Technology for Women and flew on PSLV-C58 POEM-3."
+  },
+  {
+   "topic": 43,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "SATYABAMASAT, launched on PSLV-C34 in June 2016, collected data on:",
+   "o": [
+    "Solar ultraviolet",
+    "Ocean winds",
+    "Lightning",
+    "Greenhouse gases"
+   ],
+   "a": 3,
+   "x": "SATYABAMASAT was a micro experimental satellite for greenhouse-gas data; solar UV was WESAT's study."
+  },
+  {
+   "topic": 43,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "PSLV-C62 (January 2026) carried how many start-up and academic co-passengers?",
+   "o": [
+    "15",
+    "9",
+    "101",
+    "104"
+   ],
+   "a": 0,
+   "x": "PSLV-C62 carried 15 co-passengers from Indian and foreign start-ups and academic institutions."
+  },
+  {
+   "topic": 43,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "As of 1 January 2026, Indian rockets had launched over how many foreign satellites?",
+   "o": [
+    "100",
+    "400",
+    "200",
+    "1,000"
+   ],
+   "a": 1,
+   "x": "Over 400 foreign satellites had been launched on Indian rockets by 1 January 2026."
+  },
+  {
+   "topic": 43,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "ISRO's YUVIKA programme is meant for:",
+   "o": [
+    "Developing-country engineers",
+    "University faculty",
+    "Indian school students of Class 9",
+    "Private start-ups"
+   ],
+   "a": 2,
+   "x": "YUVIKA (Yuva Vigyani Karyakram) is for Indian Class 9 students; UNNATI is for developing-country engineers."
+  },
+  {
+   "topic": 44,
+   "sec": 1,
+   "angle": "7,16",
+   "shape": "one-liner",
+   "s": "Under India's space FDI policy, the automatic-route limit for satellite components and subsystems manufacturing is:",
+   "o": [
+    "49%",
+    "74%",
+    "26%",
+    "100%"
+   ],
+   "a": 3,
+   "x": "Components and subsystems get 100% automatic route; satellites/data up to 74%; launch vehicles and spaceports up to 49%."
+  },
+  {
+   "topic": 44,
+   "sec": 1,
+   "angle": "7,16",
+   "shape": "one-liner",
+   "s": "FDI in satellite manufacturing, operation and data products is allowed on the automatic route up to:",
+   "o": [
+    "74%",
+    "49%",
+    "100%",
+    "51%"
+   ],
+   "a": 0,
+   "x": "Satellites, their operation and data products get up to 74% automatic; beyond the limit is the government route."
+  },
+  {
+   "topic": 44,
+   "sec": 2,
+   "angle": "6,14",
+   "shape": "one-liner",
+   "s": "The Indian Space Policy 2023 was released by the Department of Space on:",
+   "o": [
+    "6 April 2023",
+    "20 April 2023",
+    "1 June 2020",
+    "20 July 2023"
+   ],
+   "a": 1,
+   "x": "Approved by Cabinet on 6 April 2023 and released by DoS on 20 April 2023."
+  },
+  {
+   "topic": 44,
+   "sec": 2,
+   "angle": "6,14",
+   "shape": "one-liner",
+   "s": "Under the Indian Space Policy 2023, space diplomacy and treaty compliance are the responsibility of:",
+   "o": [
+    "IN-SPACe",
+    "NSIL",
+    "Department of Space",
+    "ISRO"
+   ],
+   "a": 2,
+   "x": "DoS handles overall policy, international cooperation, space diplomacy and treaty compliance."
+  },
+  {
+   "topic": 44,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Antrix Corporation, set up in September 1992, followed which business model?",
+   "o": [
+    "Demand-driven",
+    "Build-own-operate against assured demand",
+    "Regulatory",
+    "Supply-driven"
+   ],
+   "a": 3,
+   "x": "Antrix was supply-driven, marketing ISRO products; NSIL (2019) is demand-driven."
+  },
+  {
+   "topic": 44,
+   "sec": 3,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "NewSpace India Limited (NSIL), set up in 2019, is a CPSE under:",
+   "o": [
+    "Department of Space",
+    "Ministry of Defence",
+    "Ministry of Electronics and IT",
+    "DRDO"
+   ],
+   "a": 0,
+   "x": "NSIL is a CPSE under the Department of Space, headquartered in Bengaluru."
+  },
+  {
+   "topic": 44,
+   "sec": 3,
+   "angle": "4,13",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about IN-SPACe?",
+   "o": [
+    "It is an autonomous single-window agency under DoS",
+    "It is headquartered at Bengaluru",
+    "It authorised the first private launch Vikram-S",
+    "It approved the Pixxel-led PPP EOS constellation"
+   ],
+   "a": 1,
+   "x": "IN-SPACe is headquartered at Ahmedabad; NSIL is at Bengaluru."
+  },
+  {
+   "topic": 44,
+   "sec": 4,
+   "angle": "3,12",
+   "shape": "one-liner",
+   "s": "GSAT-N2 (GSAT-20), fully funded and owned by NSIL, was launched in November 2024 on:",
+   "o": [
+    "LVM3",
+    "Ariane-5",
+    "SpaceX Falcon 9",
+    "PSLV"
+   ],
+   "a": 2,
+   "x": "GSAT-N2, a Ka-band broadband satellite fully owned by NSIL, went up on a SpaceX Falcon 9."
+  },
+  {
+   "topic": 44,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "GSAT-24 (2022), India's first demand-driven satellite, was launched from:",
+   "o": [
+    "Sriharikota",
+    "Cape Canaveral",
+    "Baikonur",
+    "Kourou, French Guiana"
+   ],
+   "a": 3,
+   "x": "GSAT-24 was launched from Kourou, French Guiana; its DTH capacity went to Tata Play."
+  },
+  {
+   "topic": 44,
+   "sec": 5,
+   "angle": "2,11",
+   "shape": "one-liner",
+   "s": "India's first private rocket launch, Vikram-S (2022), was developed by:",
+   "o": [
+    "Skyroot Aerospace",
+    "Agnikul Cosmos",
+    "Bellatrix Aerospace",
+    "Dhruva Space"
+   ],
+   "a": 0,
+   "x": "Skyroot Aerospace (Hyderabad) launched Vikram-S in Mission Prarambh on 18 Nov 2022."
+  },
+  {
+   "topic": 44,
+   "sec": 5,
+   "angle": "11,N1",
+   "shape": "one-liner",
+   "s": "Bellatrix Aerospace's green propulsion system, demonstrated on PSLV-C58, was developed under DRDO's:",
+   "o": [
+    "Technology Adoption Fund",
+    "Technology Development Fund",
+    "Seed Fund Scheme",
+    "Venture Capital Fund"
+   ],
+   "a": 1,
+   "x": "It was developed under the Technology Development Fund (TDF) of DRDO; the Technology Adoption Fund is IN-SPACe's."
+  },
+  {
+   "topic": 44,
+   "sec": 5,
+   "angle": "2,11",
+   "shape": "one-liner",
+   "s": "Vikram-1, India's first private orbital rocket, was launched on 18 July 2026 in Mission:",
+   "o": [
+    "Prarambh",
+    "Shakti",
+    "Aagaman",
+    "Abhyas"
+   ],
+   "a": 2,
+   "x": "Aagaman = Vikram-1, orbital (2026); Prarambh = Vikram-S, suborbital (2022)."
+  },
+  {
+   "topic": 44,
+   "sec": 5,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Bellatrix Aerospace, maker of electric thrusters and green propulsion, is based in:",
+   "o": [
+    "Hyderabad",
+    "Chennai",
+    "Ahmedabad",
+    "Bengaluru"
+   ],
+   "a": 3,
+   "x": "Bellatrix is based in Bengaluru, not Hyderabad."
+  },
+  {
+   "topic": 44,
+   "sec": 6,
+   "angle": "1,10",
+   "shape": "match",
+   "s": "Which of the following pairs is INCORRECTLY matched?",
+   "o": [
+    "Dhruva Space – First private launch pad Dhanush",
+    "Pixxel – Hyperspectral earth-observation satellites",
+    "Digantara – Space surveillance and debris tracking",
+    "GalaxEye – Drishti SAR and optical satellite"
+   ],
+   "a": 0,
+   "x": "Dhanush is Agnikul Cosmos's pad; Dhruva Space (Hyderabad) makes nanosatellite platforms."
+  },
+  {
+   "topic": 44,
+   "sec": 6,
+   "angle": "1,10",
+   "shape": "one-liner",
+   "s": "India's first private satellite integration facility was set up by:",
+   "o": [
+    "Azista Space Industries",
+    "Ananth Technologies",
+    "Pixxel",
+    "Digantara"
+   ],
+   "a": 1,
+   "x": "Ananth Technologies (Hyderabad) set up India's first private satellite integration facility."
+  },
+  {
+   "topic": 44,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Agnikul Cosmos's private launch pad and its own mission control are located at:",
+   "o": [
+    "Kulasekarapattinam",
+    "Thumba",
+    "Sriharikota",
+    "Chandipur"
+   ],
+   "a": 2,
+   "x": "Agnikul's pad Dhanush and its mission control are at Sriharikota, India's only operational spaceport."
+  },
+  {
+   "topic": 44,
+   "sec": 8,
+   "angle": "5,15",
+   "shape": "one-liner",
+   "s": "The Space Activities Bill finalised in May 2025 gives statutory powers to:",
+   "o": [
+    "ISRO",
+    "NSIL",
+    "Antrix",
+    "IN-SPACe"
+   ],
+   "a": 3,
+   "x": "The Bill, finalised in May 2025, boosts private participation and gives statutory powers to IN-SPACe."
+  },
+  {
+   "topic": 44,
+   "sec": 8,
+   "angle": "5,15",
+   "shape": "statements",
+   "s": "Consider the following statements about space legislation in India:\n1. The draft Space Activities Bill was first put out in 2017.\n2. India has enacted a Space Activities Act.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "The draft Bill came in 2017, but India still has no Space Activities Act; the sector runs on policies and guidelines."
+  },
+  {
+   "topic": 44,
+   "sec": 9,
+   "angle": "8,17",
+   "shape": "statements",
+   "s": "Consider the following statements about India's space economy:\n1. Its current size is about US$8.4 billion.\n2. The IN-SPACe Decadal Vision targets about 8% global share by 2033.\n3. The Rs 1,000 crore Venture Capital Fund is managed through NSIL.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The economy is about US$8.4 billion with a target of US$44 billion (~8% share) by 2033; the VC fund is managed through SIDBI, not NSIL."
+  },
+  {
+   "topic": 44,
+   "sec": 9,
+   "angle": "17",
+   "shape": "one-liner",
+   "s": "The Technology Adoption Fund for the space sector is run by:",
+   "o": [
+    "SIDBI",
+    "NSIL",
+    "IN-SPACe",
+    "DRDO"
+   ],
+   "a": 2,
+   "x": "The Technology Adoption Fund is run by IN-SPACe; the Rs 1,000 crore VC fund is managed through SIDBI."
+  },
+  {
+   "topic": 44,
+   "sec": 10,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "Under Andhra Pradesh's space-city plan, Lepakshi Space City is meant for:",
+   "o": [
+    "Launch-vehicle assembly",
+    "A second spaceport",
+    "Satellite ground stations only",
+    "Research and development"
+   ],
+   "a": 3,
+   "x": "Lepakshi is the second space city, for R&D; Tirupati Space City covers launch-vehicle assembly and satellite manufacturing."
+  },
+  {
+   "topic": 44,
+   "sec": 10,
+   "angle": "18",
+   "shape": "one-liner",
+   "s": "AP Space Policy 4.0 targets an investment of about ____ during 2025-35.",
+   "o": [
+    "Rs 25,000 crore",
+    "Rs 1,000 crore",
+    "Rs 4,000 crore",
+    "Rs 44,000 crore"
+   ],
+   "a": 0,
+   "x": "AP Space Policy 4.0 targets Rs 25,000 crore investment and 5,000 direct + 30,000 indirect jobs."
+  }
+ ]
+}

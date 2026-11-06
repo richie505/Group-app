@@ -1,0 +1,1080 @@
+{
+ "reshape": {
+  "n03ef7c28b8d": {
+   "shape": "one-liner",
+   "s": "Which air-breathing engine has supersonic combustion and is designed for about Mach 5–6 and above?",
+   "o": [
+    "Scramjet",
+    "Ramjet",
+    "Cryogenic engine",
+    "Hall thruster"
+   ],
+   "a": 0,
+   "x": "A scramjet burns fuel in supersonic airflow and is built for Mach 5–6+; a ramjet has subsonic combustion and works above Mach 2."
+  },
+  "n09632ce4c44": {
+   "shape": "statements",
+   "s": "Consider the following statements about ISRO's life-tested 300 mN Stationary Plasma Thruster:\n1. It is a Hall-type thruster using xenon.\n2. It is meant to replace chemical propulsion in the booster stages of future launch vehicles.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Statement 1 is correct. Statement 2 is wrong: the thruster will replace chemical propulsion on future communication satellites, not launch-vehicle boosters."
+  },
+  "nphysics-23-19": {
+   "shape": "one-liner",
+   "s": "An orbit whose apogee and perigee distances differ is called a(n):",
+   "o": [
+    "Polar orbit",
+    "Elliptical orbit",
+    "Geostationary orbit",
+    "Circular orbit"
+   ],
+   "a": 1,
+   "x": "An elliptical orbit has different apogee and perigee; a polar orbit is one that passes over the poles."
+  },
+  "nphysics-23-20": {
+   "shape": "statements",
+   "s": "Consider the following statements about satellite orbits:\n1. A circular orbit is possible when centripetal force equals gravitational force.\n2. An elliptical orbit has different apogee and perigee distances.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: a circular orbit needs centripetal force equal to gravity, and an elliptical orbit has unequal apogee and perigee."
+  },
+  "nd2dd3bbceb5": {
+   "shape": "one-liner",
+   "s": "After the last clock on IRNSS-1F failed on 13 March 2026, how many PNT-capable NavIC satellites remained?",
+   "o": [
+    "Two",
+    "Four",
+    "Three",
+    "Five"
+   ],
+   "a": 2,
+   "x": "Only IRNSS-1B, IRNSS-1I and NVS-01 remained PNT-capable - three satellites, below the four the service needs."
+  },
+  "nebb65f528b8": {
+   "shape": "one-liner",
+   "s": "Which of the following GPS applications belongs to agriculture?",
+   "o": [
+    "Fleet tracking",
+    "Surveying",
+    "Precise timing for banking",
+    "Precision farming"
+   ],
+   "a": 3,
+   "x": "Precision farming is the agricultural use of GPS; fleet tracking, surveying and timing are GPS uses in other sectors."
+  },
+  "n5abcc3a273f": {
+   "shape": "one-liner",
+   "s": "NavIC is important for India's strategic autonomy mainly because:",
+   "o": [
+    "In a conflict, Indian forces need not depend on foreign navigation systems",
+    "It provides global coverage like GPS",
+    "It uses the GPS L1 and L2 bands",
+    "It is operated by DRDO"
+   ],
+   "a": 0,
+   "x": "An indigenous system frees forces and emergency responders from dependence on foreign navigation systems during conflict; NavIC is regional, uses L5 and S, and is run by ISRO."
+  }
+ },
+ "new": [
+  {
+   "topic": 36,
+   "sec": 1,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which propellant category gives high initial thrust but cannot be throttled or stopped?",
+   "o": [
+    "Earth-storable liquid",
+    "Solid (HTPB)",
+    "Hybrid",
+    "Semi-cryogenic"
+   ],
+   "a": 1,
+   "x": "Solid motors such as HTPB in S200 cannot be throttled or stopped; hybrids can be stopped and restarted."
+  },
+  {
+   "topic": 36,
+   "sec": 1,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "A hybrid rocket motor combines:",
+   "o": [
+    "Liquid fuel and solid oxidiser",
+    "Liquid hydrogen and liquid oxygen",
+    "Solid fuel and liquid oxidiser",
+    "Refined kerosene and liquid oxygen"
+   ],
+   "a": 2,
+   "x": "A hybrid uses solid fuel with a liquid oxidiser, so it can be stopped and restarted."
+  },
+  {
+   "topic": 36,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The term 'cryogenics' comes from the Greek word 'Kryos', meaning:",
+   "o": [
+    "Fire",
+    "Pressure",
+    "Gas",
+    "Frost"
+   ],
+   "a": 3,
+   "x": "Kryos means frost; cryogenics deals with temperatures below about -150°C."
+  },
+  {
+   "topic": 36,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "With the indigenous CE-7.5 flying on GSLV-D5 in January 2014, India became the ____ country with cryogenic technology.",
+   "o": [
+    "6th",
+    "4th",
+    "5th",
+    "7th"
+   ],
+   "a": 0,
+   "x": "India is 6th, after the US, Russia, France, Japan and China - not 4th."
+  },
+  {
+   "topic": 36,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "After the US MTCR sanctions of 1992, how many cryogenic engines did Russia supply to India?",
+   "o": [
+    "5",
+    "7",
+    "10",
+    "12"
+   ],
+   "a": 1,
+   "x": "The sanctions stopped technology transfer under the 1991 Glavkosmos deal, and Russia supplied only 7 engines."
+  },
+  {
+   "topic": 36,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Cryogenic engines are unfit for military missiles mainly because liquid hydrogen:",
+   "o": [
+    "Is hypergolic and highly toxic",
+    "Cannot be throttled once ignited",
+    "Has very low density, needing huge tanks, and cannot be stored long",
+    "Produces dense smoke on burning"
+   ],
+   "a": 2,
+   "x": "LH2 density is only 0.071 g/ml, so tanks are huge and storage is short - unsuited to missiles."
+  },
+  {
+   "topic": 36,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Liquid oxygen, the oxidiser of a cryogenic engine, is kept at about:",
+   "o": [
+    "-253°C",
+    "-150°C",
+    "-100°C",
+    "-183°C"
+   ],
+   "a": 3,
+   "x": "LOX is at about -183°C; -253°C is the temperature of liquid hydrogen."
+  },
+  {
+   "topic": 36,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The CE-7.5 cryogenic engine powers the upper stage of:",
+   "o": [
+    "GSLV Mk II",
+    "LVM3",
+    "PSLV",
+    "NGLV"
+   ],
+   "a": 0,
+   "x": "CE-7.5 is the GSLV Mk II upper stage; CE-20 powers the LVM3 C25 stage."
+  },
+  {
+   "topic": 36,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which ISRO engine uses UH25 + N2O4 and powers the L110 stage of LVM3?",
+   "o": [
+    "CE-20",
+    "Vikas",
+    "CE-7.5",
+    "SE2000"
+   ],
+   "a": 1,
+   "x": "Vikas burns UH25 + N2O4 and powers PSLV/GSLV second stages and the LVM3 L110."
+  },
+  {
+   "topic": 36,
+   "sec": 3,
+   "angle": "5,7",
+   "shape": "one-liner",
+   "s": "The SE2000 semi-cryogenic engine uses:",
+   "o": [
+    "LH2 + LOX",
+    "UH25 + N2O4",
+    "Refined kerosene + LOX",
+    "HTPB"
+   ],
+   "a": 2,
+   "x": "Semi-cryogenic means refined kerosene with liquid oxygen, not liquid hydrogen."
+  },
+  {
+   "topic": 36,
+   "sec": 3,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "In 2026, the third hot test of the SE2000 Power Head Test Article was run at what power level?",
+   "o": [
+    "40%",
+    "80%",
+    "100%",
+    "60%"
+   ],
+   "a": 3,
+   "x": "The SE2000 Power Head Test Article completed its third hot test at 60% power."
+  },
+  {
+   "topic": 36,
+   "sec": 3,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about ISRO cryogenic engines:\n1. CE-7.5 uses staged combustion and produces 75 kN.\n2. CE-20 uses a gas-generator cycle and powers the LVM3 C25 stage.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: CE-7.5 is a 75 kN staged-combustion engine; CE-20 is a 200 kN gas-generator engine on LVM3 C25."
+  },
+  {
+   "topic": 36,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Agnite, the largest single-piece 3D-printed booster engine of Agnikul, is made of:",
+   "o": [
+    "Inconel",
+    "Titanium",
+    "Aluminium-lithium alloy",
+    "Carbon composite"
+   ],
+   "a": 0,
+   "x": "Agnite is a single-piece 3D-printed booster engine made of Inconel."
+  },
+  {
+   "topic": 36,
+   "sec": 4,
+   "angle": "2",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Agnilet – Skyroot",
+    "EVEREST – Astrobase",
+    "KALAM 1200 – Agnikul",
+    "Vikram-1 – Agnikul"
+   ],
+   "a": 1,
+   "x": "EVEREST is Astrobase's LOX-methane engine; Agnilet is Agnikul's, and KALAM 1200 and Vikram-1 are Skyroot's."
+  },
+  {
+   "topic": 36,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Skyroot's KALAM 1200, tested at SHAR, is a:",
+   "o": [
+    "Semi-cryogenic engine",
+    "LOX-methane engine",
+    "Solid motor",
+    "Hall thruster"
+   ],
+   "a": 2,
+   "x": "KALAM 1200 is an 11 m, 30 t solid motor."
+  },
+  {
+   "topic": 36,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "ISRO's 300 mN Stationary Plasma Thruster completed a life test of:",
+   "o": [
+    "100 hours",
+    "500 hours",
+    "10,000 hours",
+    "1,000 hours"
+   ],
+   "a": 3,
+   "x": "The Hall-type xenon thruster passed a 1,000-hour life test."
+  },
+  {
+   "topic": 36,
+   "sec": 5,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "POEM, which uses the spent PS4 stage as an orbital platform, stands for:",
+   "o": [
+    "PSLV Orbital Experimental Module",
+    "Polar Orbit Experimental Mission",
+    "PSLV Orbital Exploration Mission",
+    "Payload Orbital Experiment Module"
+   ],
+   "a": 0,
+   "x": "POEM = PSLV Orbital Experimental Module, hosting start-up and academic payloads."
+  },
+  {
+   "topic": 36,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which agency carried out the ATV scramjet flight test in August 2016?",
+   "o": [
+    "DRDO",
+    "ISRO",
+    "HAL",
+    "NAL"
+   ],
+   "a": 1,
+   "x": "ATV was ISRO's test from Sriharikota; HSTDV is DRDO's vehicle."
+  },
+  {
+   "topic": 36,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "In May 2026, HSTDV's actively cooled full-scale scramjet combustor ran on endothermic fuel for:",
+   "o": [
+    "20 seconds",
+    "2 minutes",
+    "20 minutes",
+    "200 seconds"
+   ],
+   "a": 2,
+   "x": "DRDO's actively cooled full-scale combustor ran for 20 minutes."
+  },
+  {
+   "topic": 36,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "NGLV 'Soorya' is designed to place how much payload in low Earth orbit?",
+   "o": [
+    "10,000 kg",
+    "15,000 kg",
+    "25,000 kg",
+    "20,000 kg"
+   ],
+   "a": 3,
+   "x": "Soorya is planned for 20,000 kg to LEO (not 10,000), about 2.5 times LVM3."
+  },
+  {
+   "topic": 36,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "NGLV 'Soorya' will be launched from:",
+   "o": [
+    "The Third Launch Pad",
+    "The Second Launch Pad",
+    "The First Launch Pad",
+    "Dhanush launch pad"
+   ],
+   "a": 0,
+   "x": "Soorya is linked to the new Third Launch Pad; Dhanush is Agnikul's private pad."
+  },
+  {
+   "topic": 36,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The reusable rocket New Glenn belongs to:",
+   "o": [
+    "SpaceX",
+    "Blue Origin",
+    "LandSpace",
+    "Skyroot"
+   ],
+   "a": 1,
+   "x": "New Glenn is Blue Origin's; Falcon 9 and Starship are SpaceX's, Zhuque-3 is LandSpace's."
+  },
+  {
+   "topic": 36,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Zhuque-3, a reusable rocket, was developed by:",
+   "o": [
+    "SpaceX",
+    "Blue Origin",
+    "LandSpace (China)",
+    "Agnikul Cosmos"
+   ],
+   "a": 2,
+   "x": "Zhuque-3 is the reusable rocket of China's LandSpace."
+  },
+  {
+   "topic": 36,
+   "sec": 7,
+   "angle": "1",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about ISRO's RLV-TD 'Pushpak'?",
+   "o": [
+    "It is a winged vehicle",
+    "It has completed LEX-03",
+    "It aims at a TSTO vehicle",
+    "It does not need a thermal protection system"
+   ],
+   "a": 3,
+   "x": "Pushpak needs a reusable Thermal Protection System; the other statements are correct."
+  },
+  {
+   "topic": 36,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Reusable launch vehicles such as RLV-TD are expected to cut launch cost by up to:",
+   "o": [
+    "80%",
+    "30%",
+    "50%",
+    "95%"
+   ],
+   "a": 0,
+   "x": "Reusability is expected to cut launch cost by up to 80%."
+  },
+  {
+   "topic": 37,
+   "sec": 1,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The orbital height of a geostationary satellite:",
+   "o": [
+    "Increases with the satellite's mass",
+    "Does not depend on the satellite's mass",
+    "Decreases with the satellite's mass",
+    "Depends on the launch vehicle used"
+   ],
+   "a": 1,
+   "x": "A geostationary satellite revolves at a fixed height that is independent of its mass."
+  },
+  {
+   "topic": 37,
+   "sec": 1,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "A launcher first places a geostationary satellite in a(n):",
+   "o": [
+    "Polar orbit",
+    "Sun-synchronous orbit",
+    "Elliptical Geosynchronous Transfer Orbit",
+    "Circular orbit at 400 km"
+   ],
+   "a": 2,
+   "x": "The launcher puts it in an elliptical GTO; the satellite's own motor then raises it to GEO."
+  },
+  {
+   "topic": 37,
+   "sec": 1,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The precise altitude of the geostationary orbit is about:",
+   "o": [
+    "33,786 km",
+    "20,200 km",
+    "38,786 km",
+    "35,786 km"
+   ],
+   "a": 3,
+   "x": "GEO is about 36,000 km, precisely 35,786 km, above the equator; 20,200 km is the GPS altitude."
+  },
+  {
+   "topic": 37,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which satellite made the INSAT system operational in 1983?",
+   "o": [
+    "INSAT-1B",
+    "INSAT-1A",
+    "APPLE",
+    "INSAT-2A"
+   ],
+   "a": 0,
+   "x": "INSAT-1A (1982) was the first INSAT, but INSAT-1B made the system operational in 1983."
+  },
+  {
+   "topic": 37,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The INSAT system, a joint venture of DoS, DoT, IMD, AIR and Doordarshan, is coordinated by:",
+   "o": [
+    "NSIL",
+    "ICC",
+    "DoT",
+    "IMD"
+   ],
+   "a": 1,
+   "x": "The INSAT Coordination Committee (ICC) coordinates the system."
+  },
+  {
+   "topic": 37,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "In 2022, ten in-orbit ISRO communication satellites were taken over by:",
+   "o": [
+    "ICC",
+    "IMD",
+    "NSIL",
+    "Doordarshan"
+   ],
+   "a": 2,
+   "x": "NSIL took over 10 in-orbit communication satellites in 2022."
+  },
+  {
+   "topic": 37,
+   "sec": 2,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about KALPANA-1:\n1. It was launched in September 2002 by PSLV.\n2. It was also known as METSAT.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: KALPANA-1 (METSAT) went up on PSLV in September 2002 as the first exclusive weather satellite."
+  },
+  {
+   "topic": 37,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The heaviest ISRO-built satellite, about 5.8 tonnes, is:",
+   "o": [
+    "CMS-03",
+    "GSAT-10",
+    "GSAT-N2",
+    "GSAT-11"
+   ],
+   "a": 3,
+   "x": "GSAT-11 is the heaviest ISRO-built satellite; CMS-03 is the heaviest launched from Indian soil."
+  },
+  {
+   "topic": 37,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "GSAT-8, launched on Ariane-5 on 21 May 2011, carries the payload of:",
+   "o": [
+    "GAGAN",
+    "NavIC",
+    "Swayam Prabha",
+    "EDUSAT"
+   ],
+   "a": 0,
+   "x": "GSAT-8 carries the GAGAN payload (also on GSAT-10 and GSAT-15), not INSAT-3D."
+  },
+  {
+   "topic": 37,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "EDUSAT (GSAT-3), launched in 2004 on GSLV-F01, is dedicated to:",
+   "o": [
+    "Meteorology",
+    "Education",
+    "Naval communication",
+    "Broadband"
+   ],
+   "a": 1,
+   "x": "EDUSAT is India's education satellite, located at 74°E."
+  },
+  {
+   "topic": 37,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which satellite, launched in 2015, carries a large deployable antenna?",
+   "o": [
+    "GSAT-7",
+    "GSAT-11",
+    "GSAT-6",
+    "GSAT-30"
+   ],
+   "a": 2,
+   "x": "GSAT-6 (2015) is known for its large deployable antenna."
+  },
+  {
+   "topic": 37,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "GSAT-N2 (GSAT-20) was launched in November 2024 by Falcon 9 from:",
+   "o": [
+    "Kourou",
+    "Sriharikota",
+    "Baikonur",
+    "Cape Canaveral"
+   ],
+   "a": 3,
+   "x": "GSAT-N2 flew on SpaceX's Falcon 9 from Cape Canaveral."
+  },
+  {
+   "topic": 37,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "GSAT-31, launched on 6 February 2019, lifted off from:",
+   "o": [
+    "Kourou, French Guiana",
+    "Cape Canaveral",
+    "Sriharikota",
+    "Baikonur"
+   ],
+   "a": 0,
+   "x": "GSAT-31 was launched on Ariane from Kourou, French Guiana."
+  },
+  {
+   "topic": 37,
+   "sec": 4,
+   "angle": "4",
+   "shape": "NOT",
+   "s": "Which of the following satellites was NOT launched on Ariane from Kourou?",
+   "o": [
+    "INSAT-4A",
+    "GSAT-N2",
+    "GSAT-7",
+    "GSAT-11"
+   ],
+   "a": 1,
+   "x": "GSAT-N2 was launched by Falcon 9 from Cape Canaveral; the others flew on Ariane from Kourou."
+  },
+  {
+   "topic": 37,
+   "sec": 5,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The proposed GSAT-7B is meant for the:",
+   "o": [
+    "Navy",
+    "Air Force",
+    "Army",
+    "Coast Guard"
+   ],
+   "a": 2,
+   "x": "GSAT-7 'Rukmini' serves the Navy, GSAT-7A the Air Force and GSAT-7B the Army."
+  },
+  {
+   "topic": 37,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which country opted out of the South Asia Satellite (GSAT-9)?",
+   "o": [
+    "Afghanistan",
+    "Maldives",
+    "Sri Lanka",
+    "Pakistan"
+   ],
+   "a": 3,
+   "x": "The South Asia Satellite serves seven countries including Afghanistan, Maldives and Sri Lanka; Pakistan opted out."
+  },
+  {
+   "topic": 37,
+   "sec": 5,
+   "angle": "1,4",
+   "shape": "one-liner",
+   "s": "GSAT-7 'Rukmini', the Navy's satellite, was launched on 30 August 2013 by:",
+   "o": [
+    "Ariane-5",
+    "GSLV-F09",
+    "LVM3-M5",
+    "PSLV-C50"
+   ],
+   "a": 0,
+   "x": "GSAT-7 flew on Ariane-5; CMS-03 (LVM3-M5) later replaced it."
+  },
+  {
+   "topic": 37,
+   "sec": 6,
+   "angle": "6,2",
+   "shape": "one-liner",
+   "s": "In the Disaster Warning System, the uplink and downlink bands are respectively:",
+   "o": [
+    "S and C",
+    "C and S",
+    "Ku and Ka",
+    "C and Ku"
+   ],
+   "a": 1,
+   "x": "DWS warnings go up in C band and come down in S band to addressable coastal receivers."
+  },
+  {
+   "topic": 37,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Ka band on GSAT-11 and GSAT-N2 is used for:",
+   "o": [
+    "DTH and VSAT",
+    "Mobile satellite services",
+    "High-throughput broadband",
+    "TV distribution"
+   ],
+   "a": 2,
+   "x": "Ka band carries high-throughput broadband; Ku serves DTH/VSAT and S serves mobile services."
+  },
+  {
+   "topic": 37,
+   "sec": 7,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "DSNG, a satellite communication application, is used for:",
+   "o": [
+    "Mobile telephony",
+    "Tele-education",
+    "Search and rescue",
+    "News gathering"
+   ],
+   "a": 3,
+   "x": "DSNG is digital satellite news gathering."
+  },
+  {
+   "topic": 37,
+   "sec": 7,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "In June 2025, Andhra Pradesh's RTGS signed an MoU with:",
+   "o": [
+    "SDSC-SHAR",
+    "Master Control Facility, Hassan",
+    "IMD",
+    "NSIL"
+   ],
+   "a": 0,
+   "x": "The RTGS–SHAR MoU was signed in June 2025; SDSC-SHAR also gives APSDMA cyclone-track data."
+  },
+  {
+   "topic": 37,
+   "sec": 7,
+   "angle": "2",
+   "shape": "statements",
+   "s": "Consider the following statements about satellite support for disaster management in Andhra Pradesh:\n1. SDSC-SHAR provides cyclone-track data to APSDMA.\n2. Satellite phones are used in emergencies.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: SHAR shares cyclone-track data with APSDMA and satellite phones are used in emergencies."
+  },
+  {
+   "topic": 38,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "GLONASS is the satellite navigation system of:",
+   "o": [
+    "China",
+    "Russia",
+    "European Union",
+    "Japan"
+   ],
+   "a": 1,
+   "x": "GLONASS is Russia's; BeiDou is China's, Galileo the EU's and QZSS Japan's."
+  },
+  {
+   "topic": 38,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "QZSS, a regional navigation satellite system, belongs to:",
+   "o": [
+    "China",
+    "India",
+    "Japan",
+    "European Union"
+   ],
+   "a": 2,
+   "x": "QZSS is Japan's regional system; Galileo (EU) is global."
+  },
+  {
+   "topic": 38,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "BeiDou is the global navigation satellite system of:",
+   "o": [
+    "Russia",
+    "Japan",
+    "USA",
+    "China"
+   ],
+   "a": 3,
+   "x": "BeiDou is China's global system."
+  },
+  {
+   "topic": 38,
+   "sec": 1,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "GPS stands for:",
+   "o": [
+    "Global Positioning System",
+    "Global Positioning Satellite",
+    "Geo Positioning System",
+    "General Positioning System"
+   ],
+   "a": 0,
+   "x": "GPS = Global Positioning System, begun in 1973."
+  },
+  {
+   "topic": 38,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The original GPS constellation has:",
+   "o": [
+    "7 satellites in 3 orbits",
+    "24 satellites in 6 orbits",
+    "24 satellites in 3 orbits",
+    "30 satellites in 6 orbits"
+   ],
+   "a": 1,
+   "x": "GPS was designed with 24 satellites in 6 orbits; NavIC has 7 satellites."
+  },
+  {
+   "topic": 38,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "NavIC's seven-satellite constellation consists of:",
+   "o": [
+    "4 GEO + 3 GSO",
+    "7 GEO",
+    "3 GEO + 4 GSO",
+    "2 GEO + 5 GSO"
+   ],
+   "a": 2,
+   "x": "NavIC has 3 geostationary and 4 inclined geosynchronous satellites, not 4 + 3."
+  },
+  {
+   "topic": 38,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "NavIC transmits its signals in the:",
+   "o": [
+    "L1 and L2 bands",
+    "Ku and Ka bands",
+    "C and S bands",
+    "L5 and S bands"
+   ],
+   "a": 3,
+   "x": "NavIC uses L5 and S; L1 and L2 are GPS signals (NVS satellites add civilian L1)."
+  },
+  {
+   "topic": 38,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The need for an indigenous system like NavIC arose when the US denied GPS data during the:",
+   "o": [
+    "1999 Kargil War",
+    "1971 war",
+    "1965 war",
+    "1962 war"
+   ],
+   "a": 0,
+   "x": "NavIC's genesis lies in the US denial of GPS data in the 1999 Kargil War."
+  },
+  {
+   "topic": 38,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "IRNSS-1A, India's first dedicated navigation satellite, was launched on 1 July 2013 by:",
+   "o": [
+    "GSLV-F12",
+    "PSLV-C22",
+    "GSLV-F15",
+    "PSLV-C50"
+   ],
+   "a": 1,
+   "x": "IRNSS-1A flew on PSLV-C22; NVS-01 used GSLV-F12 and NVS-02 GSLV-F15."
+  },
+  {
+   "topic": 38,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "How many navigation satellites has India launched since 2013?",
+   "o": [
+    "7",
+    "9",
+    "11",
+    "13"
+   ],
+   "a": 2,
+   "x": "Eleven navigation satellites have been launched since 2013, all from Sriharikota."
+  },
+  {
+   "topic": 38,
+   "sec": 3,
+   "angle": "6,7",
+   "shape": "statements",
+   "s": "Consider the following statements about NVS-02:\n1. It was launched by GSLV-F15 in January 2025.\n2. A valve glitch left it in the wrong orbit.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: NVS-02 flew on GSLV-F15 in January 2025, and a valve glitch left it in the wrong orbit."
+  },
+  {
+   "topic": 38,
+   "sec": 4,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Whose Snapdragon mobile chipsets support NavIC?",
+   "o": [
+    "Intel",
+    "Nvidia",
+    "AMD",
+    "Qualcomm"
+   ],
+   "a": 3,
+   "x": "Qualcomm's Snapdragon chipsets support NavIC."
+  },
+  {
+   "topic": 38,
+   "sec": 4,
+   "angle": "2,4",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about NavIC applications?",
+   "o": [
+    "AIS-140 makes NavIC trackers compulsory in all private cars",
+    "Reconfigured IRNSS-1A sends cyclone and tsunami alerts to fishermen",
+    "It supports fleet management",
+    "It supports timing for Indian Standard Time"
+   ],
+   "a": 0,
+   "x": "AIS-140 covers public transport vehicles only, not all private cars."
+  },
+  {
+   "topic": 38,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "DGCA certified GAGAN for aviation approach guidance in:",
+   "o": [
+    "2012",
+    "2015",
+    "2013",
+    "2018"
+   ],
+   "a": 1,
+   "x": "GAGAN was certified by DGCA for approach guidance in 2015."
+  },
+  {
+   "topic": 38,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "GAGAN was developed by ISRO together with:",
+   "o": [
+    "DRDO",
+    "DGCA",
+    "Airports Authority of India",
+    "HAL"
+   ],
+   "a": 2,
+   "x": "GAGAN is by ISRO and the Airports Authority of India, not DRDO."
+  },
+  {
+   "topic": 38,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "MSAS, a Satellite-Based Augmentation System, serves:",
+   "o": [
+    "Europe",
+    "USA",
+    "India",
+    "Japan"
+   ],
+   "a": 3,
+   "x": "MSAS is Japan's SBAS; EGNOS is Europe's and WAAS is the USA's."
+  },
+  {
+   "topic": 38,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "EGNOS is the Satellite-Based Augmentation System of:",
+   "o": [
+    "Europe",
+    "USA",
+    "Japan",
+    "India"
+   ],
+   "a": 0,
+   "x": "EGNOS serves Europe; WAAS serves the USA and GAGAN India."
+  },
+  {
+   "topic": 38,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Adding the civilian L1 band on NVS satellites helps NavIC overcome which limitation?",
+   "o": [
+    "Regional coverage",
+    "Thin receiver ecosystem",
+    "Clock failures",
+    "Wrong orbit of NVS-02"
+   ],
+   "a": 1,
+   "x": "L5 and S are rarely in phone chips; adding L1 on NVS helps receivers adopt NavIC."
+  },
+  {
+   "topic": 38,
+   "sec": 6,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about NavIC's limitations:\n1. It provides only regional coverage.\n2. L5 and S bands are rarely found in phone chips.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: NavIC is regional, and its L5/S signals are rarely supported by phone chips."
+  }
+ ]
+}

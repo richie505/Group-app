@@ -1,0 +1,1431 @@
+{
+ "reshape": {
+  "n229ea0c35d9": {
+   "shape": "statements",
+   "s": "Consider the following statements about the Fourth Industrial Revolution:\n1. The term was coined by Klaus Schwab, founder of the World Economic Forum, in 2016.\n2. It involves the convergence of digital, physical and biological technologies.\n3. It is the stage that puts people at the centre of industrial innovation.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Schwab coined the term in 2016 and it merges digital, physical and biological technologies; putting people at the centre is the idea of Industry 5.0."
+  },
+  "n2863249b23b": {
+   "shape": "one-liner",
+   "s": "Tracking heart rate, steps and sleep is a typical function of:",
+   "o": [
+    "Programmable Logic Controllers",
+    "SCADA systems",
+    "Wearable devices such as smartwatches",
+    "RFID readers"
+   ],
+   "a": 2,
+   "x": "Wearables such as smartwatches and fitness bands track health indicators and act as IoT end-devices."
+  },
+  "nacf099a6fce": {
+   "shape": "one-liner",
+   "s": "A collaborative robot designed to work safely beside humans is called a:",
+   "o": [
+    "Digital twin",
+    "Cobot",
+    "PLC",
+    "SCADA"
+   ],
+   "a": 1,
+   "x": "A cobot is a collaborative robot working alongside humans; remote monitoring of plants and grids is SCADA."
+  },
+  "n67fa02416bd": {
+   "shape": "one-liner",
+   "s": "Under the Drone Rules, 2021, drones weighing more than 150 kg are classified as:",
+   "o": [
+    "Small drones",
+    "Medium drones",
+    "Micro drones",
+    "Large drones"
+   ],
+   "a": 3,
+   "x": "Drones above 150 kg are large; 25-150 kg is medium and 2-25 kg is small."
+  },
+  "n0c3ba144f5f": {
+   "shape": "one-liner",
+   "s": "Facial recognition is an application of:",
+   "o": [
+    "Computer vision",
+    "Recommender systems",
+    "Natural Language Processing",
+    "Generative AI"
+   ],
+   "a": 0,
+   "x": "Computer vision interprets images, as in facial recognition; recommender systems suggest content from past behaviour."
+  },
+  "n1202601d000": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the NIELIT campus at Amaravati?",
+   "o": [
+    "It is billed as India's first dedicated Quantum and AI university campus",
+    "It is a deemed university under MeitY",
+    "Its classes begin in September 2026",
+    "Its temporary site is at IIT Hyderabad"
+   ],
+   "a": 3,
+   "x": "The temporary site is Acharya Nagarjuna University, Guntur, not IIT Hyderabad."
+  },
+  "nc29a6ccf58c": {
+   "shape": "one-liner",
+   "s": "Which pillar of the IndiaAI Mission provides public-sector datasets?",
+   "o": [
+    "Innovation Centre",
+    "Compute Capacity",
+    "Datasets Platform",
+    "FutureSkills"
+   ],
+   "a": 2,
+   "x": "The Datasets Platform provides public-sector datasets; indigenous foundation models are the Innovation Centre's work."
+  },
+  "n552d67b574b": {
+   "shape": "one-liner",
+   "s": "The REAIM summit of 2023 was held at:",
+   "o": [
+    "Seoul",
+    "The Hague",
+    "Paris",
+    "Bletchley Park"
+   ],
+   "a": 1,
+   "x": "REAIM 2023 was held at The Hague; the AI Seoul Summit 2024 was in Seoul and the AI Action Summit 2025 in Paris."
+  },
+  "n1b9703147cc": {
+   "shape": "statements",
+   "s": "Consider the following statements about MATH:\n1. It is an AI/ML hub set up by DST and the Telangana government.\n2. It was set up with T-Hub.\n3. Its stated aim is modernising higher education.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "MATH is an AI/ML hub of DST and the Telangana government with T-Hub; modernising higher education is not its stated aim (APPSC 2023 key)."
+  },
+  "nfcf43e9912a": {
+   "shape": "statements",
+   "s": "Consider the following statements about quantum science observances:\n1. The UN declared 2024 the International Year of Quantum Science and Technology.\n2. World Quantum Day is observed on 14 April.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 1,
+   "x": "2025, the centenary of quantum mechanics, is the International Year of Quantum Science and Technology, so 1 is wrong; World Quantum Day is 14 April."
+  }
+ },
+ "new": [
+  {
+   "topic": 15,
+   "sec": 1,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The term 'Industry 4.0' was coined in which country?",
+   "o": [
+    "Germany",
+    "Japan",
+    "United States",
+    "United Kingdom"
+   ],
+   "a": 0,
+   "x": "'Industry 4.0' was coined in Germany at the Hannover Fair in 2011."
+  },
+  {
+   "topic": 15,
+   "sec": 1,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Industry 5.0 is characterised by:",
+   "o": [
+    "Cyber-physical systems",
+    "Human-machine collaboration",
+    "Automation and computers",
+    "Electricity and assembly lines"
+   ],
+   "a": 1,
+   "x": "Industry 5.0 means human-machine collaboration with people at the centre; cyber-physical systems define Industry 4.0."
+  },
+  {
+   "topic": 15,
+   "sec": 1,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Electricity, mass production and the assembly line were the defining features of:",
+   "o": [
+    "Industry 1.0",
+    "Industry 3.0",
+    "Industry 2.0",
+    "Industry 4.0"
+   ],
+   "a": 2,
+   "x": "Industry 2.0 brought electricity and mass production; Industry 1.0 was steam power and 3.0 automation and computers."
+  },
+  {
+   "topic": 15,
+   "sec": 1,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "How many Technology Innovation Hubs are there under the National Mission on Interdisciplinary Cyber-Physical Systems (NM-ICPS)?",
+   "o": [
+    "15",
+    "20",
+    "30",
+    "25"
+   ],
+   "a": 3,
+   "x": "NM-ICPS has 25 Technology Innovation Hubs, robotics being one vertical."
+  },
+  {
+   "topic": 15,
+   "sec": 2,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "A virtual replica of a physical object or system used for simulation and monitoring is called a:",
+   "o": [
+    "Digital twin",
+    "Cobot",
+    "Programmable Logic Controller",
+    "Cyber-physical system"
+   ],
+   "a": 0,
+   "x": "A digital twin is a virtual replica of a physical object or system."
+  },
+  {
+   "topic": 15,
+   "sec": 2,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "In industrial automation, PLC stands for:",
+   "o": [
+    "Process Load Controller",
+    "Programmable Logic Controller",
+    "Programmed Linear Circuit",
+    "Peripheral Logic Computer"
+   ],
+   "a": 1,
+   "x": "A Programmable Logic Controller is a rugged industrial computer that controls machines."
+  },
+  {
+   "topic": 15,
+   "sec": 2,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "SCADA, used for remote monitoring of plants and grids, stands for:",
+   "o": [
+    "System Control and Data Analysis",
+    "Supervisory Computing and Device Automation",
+    "Supervisory Control and Data Acquisition",
+    "Smart Control and Data Access"
+   ],
+   "a": 2,
+   "x": "SCADA is Supervisory Control and Data Acquisition, used to monitor plants and grids remotely."
+  },
+  {
+   "topic": 15,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which IoT variant is concerned with nano-devices?",
+   "o": [
+    "IIoT",
+    "Internet of Mobile Things",
+    "Mission-critical IoT",
+    "IoNT"
+   ],
+   "a": 3,
+   "x": "IoNT is the Internet of Nano Things; IIoT is industrial automation and mission-critical IoT is military."
+  },
+  {
+   "topic": 15,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The four-stage model of IoT adds which layer to the perception, network and application layers?",
+   "o": [
+    "Transport layer",
+    "Session layer",
+    "Presentation layer",
+    "Physical layer"
+   ],
+   "a": 0,
+   "x": "The four-stage version is perception, transport, network and application."
+  },
+  {
+   "topic": 15,
+   "sec": 3,
+   "angle": "2",
+   "shape": "statements",
+   "s": "Consider the following statements about the Internet of Things:\n1. A smart thermostat is an example of IoT rather than AI.\n2. IIoT is concerned with industrial automation.\n3. The Internet of Mobile Things is concerned with assembly lines.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "A smart thermostat is IoT and IIoT is industrial; the Internet of Mobile Things concerns mobile objects, not assembly lines."
+  },
+  {
+   "topic": 15,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Smart farming, smart homes and smart grids are applications of:",
+   "o": [
+    "Digital twins",
+    "Internet of Things",
+    "4D printing",
+    "Mixed Reality"
+   ],
+   "a": 1,
+   "x": "IoT applications include smart farming, smart homes, smart grids, healthcare, logistics and smart cities."
+  },
+  {
+   "topic": 15,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "A passive RFID tag replies to the reader by:",
+   "o": [
+    "Broadcasting through its own transmitter",
+    "Using a battery that runs a transmitter",
+    "Backscattering the reader's signal",
+    "Using a battery that runs the chip only"
+   ],
+   "a": 2,
+   "x": "Passive tags have no battery and backscatter the reader's signal; active tags broadcast with their own transmitter."
+  },
+  {
+   "topic": 15,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The technology in which real and virtual objects interact in real time is:",
+   "o": [
+    "Augmented Reality",
+    "Virtual Reality",
+    "Metaverse",
+    "Mixed Reality"
+   ],
+   "a": 3,
+   "x": "In Mixed Reality real and virtual objects interact in real time; AR only lays digital layers over the real world."
+  },
+  {
+   "topic": 15,
+   "sec": 5,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about extended reality:\n1. Augmented Reality blocks out the physical world.\n2. In Virtual Reality, the user is still a real person.\n3. Extended Reality is an umbrella term for VR, AR and MR.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "AR places digital layers over the real world without blocking it, so 1 is wrong; 2 and 3 are correct."
+  },
+  {
+   "topic": 15,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The IMAGE Centre of Excellence for gaming, VFX, computer vision and AI, set up by MeitY, STPI and Telangana, is located at:",
+   "o": [
+    "Hyderabad",
+    "Bhubaneswar",
+    "Visakhapatnam",
+    "Bengaluru"
+   ],
+   "a": 0,
+   "x": "IMAGE CoE is in Hyderabad; VARCoE is at IIT Bhubaneswar."
+  },
+  {
+   "topic": 15,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "A persistent, shared 3D virtual space using XR, avatars and digital assets is called the:",
+   "o": [
+    "Digital twin",
+    "Metaverse",
+    "Mixed Reality",
+    "Augmented Reality"
+   ],
+   "a": 1,
+   "x": "The metaverse is a persistent, shared 3D virtual space built on XR, avatars and digital assets."
+  },
+  {
+   "topic": 15,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "HomoSEP, a robot that cleans septic tanks, was developed by:",
+   "o": [
+    "Genrobotics, Kerala",
+    "DRDO",
+    "IIT Madras",
+    "ISRO"
+   ],
+   "a": 2,
+   "x": "HomoSEP is from IIT Madras; Bandicoot, which cleans sewers, is from Genrobotics."
+  },
+  {
+   "topic": 15,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Vyommitra, a half-humanoid robot developed by ISRO, is meant for:",
+   "o": [
+    "Defusing IEDs",
+    "Cleaning sewers",
+    "Robotic surgery",
+    "The uncrewed Gaganyaan flight"
+   ],
+   "a": 3,
+   "x": "Vyommitra is ISRO's half-humanoid astronaut for the uncrewed Gaganyaan flight."
+  },
+  {
+   "topic": 15,
+   "sec": 6,
+   "angle": "1",
+   "shape": "match",
+   "s": "Which of the following pairs (robot – purpose) is correctly matched?",
+   "o": [
+    "HomoSEP – Cleaning sewers and manholes",
+    "Vyommitra – Robotic surgery",
+    "Daksh – Handling and defusing IEDs",
+    "Bandicoot – Cleaning septic tanks"
+   ],
+   "a": 2,
+   "x": "Daksh is DRDO's robot for defusing IEDs; Bandicoot cleans sewers, HomoSEP septic tanks and Vyommitra is for Gaganyaan."
+  },
+  {
+   "topic": 15,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Robotics is dealt with by which ISO Technical Committee?",
+   "o": [
+    "TC 299",
+    "TC 199",
+    "TC 289",
+    "TC 309"
+   ],
+   "a": 0,
+   "x": "ISO Technical Committee 299 deals with robotics; ISO 10218 sets industrial-robot safety norms."
+  },
+  {
+   "topic": 15,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "A robot used in hospitality, retail or reception is classified as a(n):",
+   "o": [
+    "Industrial robot",
+    "Service robot",
+    "Surgical robot",
+    "Humanoid robot"
+   ],
+   "a": 1,
+   "x": "Service robots work in hospitality, retail and reception; industrial robots do assembly, welding and painting."
+  },
+  {
+   "topic": 15,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Vikram 3201, a 32-bit space-grade processor, was developed by:",
+   "o": [
+    "C-DAC",
+    "IIT Madras",
+    "ISRO's Semi-Conductor Laboratory, Chandigarh",
+    "IIT Bombay"
+   ],
+   "a": 2,
+   "x": "Vikram 3201 is from ISRO's SCL, Chandigarh; DHRUV64 is C-DAC's 64-bit processor."
+  },
+  {
+   "topic": 15,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which is the only true wafer fab among India's approved semiconductor units?",
+   "o": [
+    "Micron, Sanand",
+    "Tata, Jagiroad",
+    "Kaynes Semicon, Sanand",
+    "Tata-PSMC, Dholera"
+   ],
+   "a": 3,
+   "x": "Tata-PSMC Dholera is the wafer fab; Micron and Tata Jagiroad are ATMP units and Kaynes is OSAT."
+  },
+  {
+   "topic": 15,
+   "sec": 7,
+   "angle": "6",
+   "shape": "match",
+   "s": "Which of the following pairs (semiconductor unit – state) is correctly matched?",
+   "o": [
+    "Micron, Sanand – Assam",
+    "Tata-PSMC, Dholera – Assam",
+    "Tata, Jagiroad – Gujarat",
+    "Tata, Jagiroad – Assam"
+   ],
+   "a": 3,
+   "x": "Tata's Jagiroad (Morigaon) ATMP unit is in Assam; Micron Sanand and Tata-PSMC Dholera are in Gujarat."
+  },
+  {
+   "topic": 15,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Semicon 2.0 (ISM Phase 2) was notified with an outlay of:",
+   "o": [
+    "₹1,27,500 crore",
+    "₹76,000 crore",
+    "₹65,000 crore",
+    "₹1,00,000 crore"
+   ],
+   "a": 0,
+   "x": "Semicon 2.0 carries ₹1,27,500 crore; ₹76,000 crore was the original ISM outlay."
+  },
+  {
+   "topic": 15,
+   "sec": 8,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Under the Drone Rules, 2021, a drone weighing 25-150 kg is classified as:",
+   "o": [
+    "Small",
+    "Medium",
+    "Large",
+    "Micro"
+   ],
+   "a": 1,
+   "x": "25-150 kg is the medium class; small is 2-25 kg and large is above 150 kg."
+  },
+  {
+   "topic": 15,
+   "sec": 8,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The AP Drone City is coming up at:",
+   "o": [
+    "Sri Sathya Sai district",
+    "Visakhapatnam",
+    "Orvakal, Kurnool",
+    "Guntur"
+   ],
+   "a": 2,
+   "x": "AP Drone City is at Orvakal, Kurnool, on 300 acres; its foundation was laid on 14 Nov 2025."
+  },
+  {
+   "topic": 15,
+   "sec": 8,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The PLI scheme for drones (2021) has an outlay of:",
+   "o": [
+    "₹1,261 crore",
+    "₹220 crore",
+    "₹100 crore",
+    "₹120 crore"
+   ],
+   "a": 3,
+   "x": "PLI for drones gives ₹120 crore over three years from 2021-22; ₹1,261 crore is Namo Drone Didi."
+  },
+  {
+   "topic": 15,
+   "sec": 8,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "India's online permission platform for drones is:",
+   "o": [
+    "DigitalSky",
+    "Drone Shakti",
+    "Bharat Drone Mahotsav",
+    "Namo Drone Didi"
+   ],
+   "a": 0,
+   "x": "DigitalSky is the permission platform under the liberalised Drone Rules 2021."
+  },
+  {
+   "topic": 15,
+   "sec": 8,
+   "angle": "7",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Namo Drone Didi scheme?",
+   "o": [
+    "It provides drones to women SHGs for agri-services",
+    "It has an outlay of ₹1,261 crore",
+    "It covers 1,500 SHGs",
+    "It runs from 2023-24 to 2025-26"
+   ],
+   "a": 2,
+   "x": "Namo Drone Didi covers 15,000 SHGs, not 1,500."
+  },
+  {
+   "topic": 15,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "3D printing is also known as:",
+   "o": [
+    "Subtractive machining",
+    "Additive manufacturing",
+    "4D printing",
+    "Digital twinning"
+   ],
+   "a": 1,
+   "x": "3D printing is additive manufacturing, building objects layer by layer from a CAD model; it is not subtractive."
+  },
+  {
+   "topic": 15,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "India's first 3D-printed post office in Bengaluru was built in:",
+   "o": [
+    "34 days",
+    "21 days",
+    "43 days",
+    "60 days"
+   ],
+   "a": 2,
+   "x": "The 1,021 sq ft post office at Cambridge Layout, Bengaluru, was built in 43 days in 2023."
+  },
+  {
+   "topic": 16,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Who is known as the 'Father of Artificial Intelligence'?",
+   "o": [
+    "Alan Turing",
+    "Marvin Minsky",
+    "Claude Shannon",
+    "John McCarthy"
+   ],
+   "a": 3,
+   "x": "John McCarthy coined the term 'artificial intelligence' and is called the Father of AI."
+  },
+  {
+   "topic": 16,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The term 'artificial intelligence' was coined at the Dartmouth summer workshop of:",
+   "o": [
+    "1956",
+    "1950",
+    "1955",
+    "1960"
+   ],
+   "a": 0,
+   "x": "The Dartmouth workshop was held in 1956 (proposed in 1955); 1950 is Turing's paper."
+  },
+  {
+   "topic": 16,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Turing test was originally called:",
+   "o": [
+    "The thinking game",
+    "The imitation game",
+    "The Turing machine",
+    "The Dartmouth test"
+   ],
+   "a": 1,
+   "x": "Turing's 1950 paper 'Computing Machinery and Intelligence' called it the imitation game."
+  },
+  {
+   "topic": 16,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Siri and Alexa are examples of:",
+   "o": [
+    "General AI",
+    "Strong AI",
+    "Narrow AI",
+    "Artificial Superintelligence"
+   ],
+   "a": 2,
+   "x": "Siri and Alexa are narrow AI made for one task; general (strong) AI is not yet achieved."
+  },
+  {
+   "topic": 16,
+   "sec": 2,
+   "angle": "1",
+   "shape": "statements",
+   "s": "Consider the following statements about AI concepts:\n1. Deep learning is a subset of machine learning.\n2. Recommender systems suggest content from past behaviour.\n3. An FPGA cannot be re-set after manufacturing.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Deep learning is a subset of ML and recommenders use past behaviour; an FPGA is re-settable after manufacturing."
+  },
+  {
+   "topic": 16,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which hardware, with massively parallel processing, is called the workhorse of AI training?",
+   "o": [
+    "FPGA",
+    "PLC",
+    "RFID tag",
+    "GPU"
+   ],
+   "a": 3,
+   "x": "The GPU's massively parallel processing makes it the workhorse of AI training."
+  },
+  {
+   "topic": 16,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which of the following is a type of machine learning?",
+   "o": [
+    "Reinforcement learning",
+    "Random learning",
+    "Explainable learning",
+    "Backscatter learning"
+   ],
+   "a": 0,
+   "x": "Machine learning is of three types: supervised, unsupervised and reinforcement."
+  },
+  {
+   "topic": 16,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "OpenHathi is an AI model developed by:",
+   "o": [
+    "Ola",
+    "Sarvam AI",
+    "Assert AI",
+    "Grene Robotics"
+   ],
+   "a": 1,
+   "x": "OpenHathi is from Sarvam AI; Krutrim is Ola's model."
+  },
+  {
+   "topic": 16,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The virtual assistant Cortana belongs to:",
+   "o": [
+    "Apple",
+    "Amazon",
+    "Microsoft",
+    "OpenAI"
+   ],
+   "a": 2,
+   "x": "Cortana is Microsoft's; Siri is Apple's and Alexa is Amazon's."
+  },
+  {
+   "topic": 16,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Bhashini supports how many scheduled languages?",
+   "o": [
+    "11",
+    "18",
+    "24",
+    "22"
+   ],
+   "a": 3,
+   "x": "Bhashini covers the 22 scheduled languages; Hanooman responds in 11 languages."
+  },
+  {
+   "topic": 16,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "MedTech Mitra is an initiative of:",
+   "o": [
+    "ICMR-CDSCO",
+    "MeitY-Google",
+    "IIT Kanpur-NHA",
+    "AIIMS-C-DAC"
+   ],
+   "a": 0,
+   "x": "MedTech Mitra is ICMR-CDSCO, not MeitY-Google; BODH is IIT Kanpur-NHA."
+  },
+  {
+   "topic": 16,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Contributions of language data to Bhashini are crowd-sourced through:",
+   "o": [
+    "AI-Kosh",
+    "Bhasha Daan",
+    "BODH",
+    "YUVAi"
+   ],
+   "a": 1,
+   "x": "Bhashini crowd-sources data via Bhasha Daan."
+  },
+  {
+   "topic": 16,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "By reading X-rays, MRI and CT scans, AI could cut diagnostic errors by up to:",
+   "o": [
+    "25%",
+    "60%",
+    "40%",
+    "10%"
+   ],
+   "a": 2,
+   "x": "AI reading of scans could cut diagnostic errors by up to 40%."
+  },
+  {
+   "topic": 16,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "SAHI, released in 2026, is India's:",
+   "o": [
+    "AI sowing advisory for farmers",
+    "AI anti-drone system",
+    "AI policing project",
+    "Strategy for AI in Healthcare"
+   ],
+   "a": 3,
+   "x": "SAHI is the Strategy for AI in Healthcare (2026)."
+  },
+  {
+   "topic": 16,
+   "sec": 4,
+   "angle": "4",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a stated use of the AI4AP Police Project?",
+   "o": [
+    "Traffic management",
+    "Crime prediction",
+    "Yield-oriented sowing advisories",
+    "Investigation"
+   ],
+   "a": 2,
+   "x": "AI4AP covers traffic management, crime prediction and investigation; sowing advisories are the Microsoft-ICRISAT app."
+  },
+  {
+   "topic": 16,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The tagline of NITI Aayog's National Strategy for Artificial Intelligence (2018) is:",
+   "o": [
+    "#AIforAll",
+    "#IndiaAI",
+    "#DigitalIndia",
+    "#AIforGood"
+   ],
+   "a": 0,
+   "x": "NITI Aayog's 2018 strategy carries the tagline #AIforAll."
+  },
+  {
+   "topic": 16,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The proof-of-concept capacity of the AIRAWAT AI compute platform is:",
+   "o": [
+    "790 AI petaflops",
+    "200 AI petaflops",
+    "75 AI petaflops",
+    "500 AI petaflops"
+   ],
+   "a": 1,
+   "x": "AIRAWAT's PoC is 200 AI petaflops, scalable to 790."
+  },
+  {
+   "topic": 16,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The IndiaAI Mission plans sovereign compute of more than:",
+   "o": [
+    "1,000 GPUs",
+    "5,000 GPUs",
+    "10,000 GPUs",
+    "25,000 GPUs"
+   ],
+   "a": 2,
+   "x": "The IndiaAI Mission targets 10,000+ GPUs of sovereign compute."
+  },
+  {
+   "topic": 16,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Central Sanskrit University will offer a B.Tech in AI and data science from:",
+   "o": [
+    "2025-26",
+    "2019-20",
+    "2027-28",
+    "2026-27"
+   ],
+   "a": 3,
+   "x": "It becomes the first Sanskrit university with engineering, offering B.Tech in AI and data science from 2026-27."
+  },
+  {
+   "topic": 16,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The NIELIT Quantum and AI campus at Amaravati has an outlay over 5 years of:",
+   "o": [
+    "₹730.70 crore",
+    "₹10,371.92 crore",
+    "₹6,003.65 crore",
+    "₹370.70 crore"
+   ],
+   "a": 0,
+   "x": "The 8.5-acre NIELIT Amaravati campus has ₹730.70 crore over 5 years."
+  },
+  {
+   "topic": 16,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Identification without consent, mass surveillance and predictive policing are concerns mainly linked to:",
+   "o": [
+    "Random forests",
+    "Facial recognition",
+    "Recommender systems",
+    "Text-to-speech"
+   ],
+   "a": 1,
+   "x": "Facial recognition raises privacy concerns: identification without consent, mass surveillance and predictive policing."
+  },
+  {
+   "topic": 16,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Deep AI models are often called 'black boxes' because:",
+   "o": [
+    "They run only on GPUs",
+    "They cannot learn from data",
+    "Their decisions are hard to explain",
+    "They need no training data"
+   ],
+   "a": 2,
+   "x": "The explainability concern is that deep models' decisions are hard to justify."
+  },
+  {
+   "topic": 16,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The AI Safety Summit of 2023 was held at:",
+   "o": [
+    "The Hague",
+    "Seoul",
+    "Paris",
+    "Bletchley Park"
+   ],
+   "a": 3,
+   "x": "The 2023 AI Safety Summit was at Bletchley Park, UK."
+  },
+  {
+   "topic": 16,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The India AI Impact Summit of February 2026 was held in:",
+   "o": [
+    "New Delhi",
+    "Hyderabad",
+    "Bengaluru",
+    "Mumbai"
+   ],
+   "a": 0,
+   "x": "It was held at Bharat Mandapam, New Delhi, producing the New Delhi Declaration on AI Impact."
+  },
+  {
+   "topic": 16,
+   "sec": 8,
+   "angle": "8",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a risk tier of the EU AI Act?",
+   "o": [
+    "Unacceptable",
+    "High",
+    "Moderate",
+    "Minimal"
+   ],
+   "a": 2,
+   "x": "The four tiers are unacceptable, high, limited and minimal; there is no 'moderate' tier."
+  },
+  {
+   "topic": 17,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Colossus electronic computers (1943-45) for British code breakers were designed by:",
+   "o": [
+    "Alan Turing",
+    "Tommy Flowers",
+    "John McCarthy",
+    "Charles Babbage"
+   ],
+   "a": 1,
+   "x": "Tommy Flowers designed Colossus; Turing contributed to it."
+  },
+  {
+   "topic": 17,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Turing test checks whether:",
+   "o": [
+    "A quantum computer beats a supercomputer",
+    "A robot can walk like a human",
+    "A machine's replies can be told apart from a human's",
+    "A chip can be reprogrammed"
+   ],
+   "a": 2,
+   "x": "The Turing test asks whether a machine's replies can be distinguished from a human's, i.e. whether it can think like a human."
+  },
+  {
+   "topic": 17,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "AI that creates new text, images and music is called:",
+   "o": [
+    "Computer vision",
+    "Narrow AI",
+    "Recommender system",
+    "Generative AI"
+   ],
+   "a": 3,
+   "x": "Generative AI creates new content such as text, images and music."
+  },
+  {
+   "topic": 17,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "BharatGen is:",
+   "o": [
+    "India's first multimodal LLM project in Indian languages",
+    "India's first AI-powered anti-drone system",
+    "The world's first no-code computer-vision platform",
+    "An AI tool for early detection of cancer"
+   ],
+   "a": 0,
+   "x": "BharatGen is the government's first multimodal LLM project in Indian languages."
+  },
+  {
+   "topic": 17,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The DRDO Young Scientist Lab for AI (DYSL-AI) is located in:",
+   "o": [
+    "Hyderabad",
+    "Bengaluru",
+    "Chennai",
+    "Pune"
+   ],
+   "a": 1,
+   "x": "DYSL-AI is in Bengaluru; DYSL-Smart Materials is in Hyderabad."
+  },
+  {
+   "topic": 17,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "CAIR, the DRDO laboratory for AI and robotics, is located in:",
+   "o": [
+    "Hyderabad",
+    "New Delhi",
+    "Bengaluru",
+    "Chandigarh"
+   ],
+   "a": 2,
+   "x": "CAIR is DRDO's AI and robotics lab in Bengaluru."
+  },
+  {
+   "topic": 17,
+   "sec": 4,
+   "angle": "9",
+   "shape": "NOT",
+   "s": "Which of the following is NOT one of the focus sectors of NITI Aayog's National Strategy for AI (#AIforAll)?",
+   "o": [
+    "Smart mobility and transport",
+    "Smart cities and infrastructure",
+    "Education",
+    "Defence manufacturing"
+   ],
+   "a": 3,
+   "x": "The five focus sectors are healthcare, agriculture, education, smart cities and infrastructure, and smart mobility and transport."
+  },
+  {
+   "topic": 17,
+   "sec": 4,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The IndiaAI Mission (MeitY, March 2024) has an outlay over 5 years of:",
+   "o": [
+    "₹6,003.65 crore",
+    "₹730.70 crore",
+    "₹1,037.19 crore",
+    "₹10,371.92 crore"
+   ],
+   "a": 3,
+   "x": "IndiaAI has ₹10,371.92 crore; ₹6,003.65 crore is the National Quantum Mission."
+  },
+  {
+   "topic": 17,
+   "sec": 4,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Which IndiaAI pillar builds indigenous foundation models?",
+   "o": [
+    "Innovation Centre",
+    "Datasets Platform",
+    "Compute Capacity",
+    "Safe & Trusted AI"
+   ],
+   "a": 0,
+   "x": "The Innovation Centre builds indigenous foundation models; the Datasets Platform holds public datasets."
+  },
+  {
+   "topic": 17,
+   "sec": 4,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "In the Top500 list of 2023, AIRAWAT was ranked:",
+   "o": [
+    "57th",
+    "75th",
+    "100th",
+    "25th"
+   ],
+   "a": 1,
+   "x": "AIRAWAT was ranked 75th in the Top500 in 2023."
+  },
+  {
+   "topic": 17,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "REAIM, the summit held in the Netherlands in 2023, dealt with:",
+   "o": [
+    "AI safety of frontier models",
+    "AI impact on development",
+    "Responsible AI in the military domain",
+    "AI in healthcare"
+   ],
+   "a": 2,
+   "x": "REAIM is Responsible AI in the Military Domain, held at The Hague in 2023."
+  },
+  {
+   "topic": 17,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The AI Action Summit (Paris, February 2025) was co-chaired by France and:",
+   "o": [
+    "United Kingdom",
+    "South Korea",
+    "Netherlands",
+    "India"
+   ],
+   "a": 3,
+   "x": "The AI Action Summit was co-chaired by India and France."
+  },
+  {
+   "topic": 17,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Deepfakes are synthetic media commonly made using:",
+   "o": [
+    "Generative adversarial networks",
+    "Random forests",
+    "Recommender systems",
+    "Decision trees"
+   ],
+   "a": 0,
+   "x": "Deepfakes are made with GANs, diffusion models and large neural networks."
+  },
+  {
+   "topic": 17,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The AI Seoul Summit was held in:",
+   "o": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "a": 1,
+   "x": "The AI Seoul Summit was in 2024; Bletchley and REAIM were 2023 and Paris 2025."
+  },
+  {
+   "topic": 17,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The property that lets a qubit be 0, 1 or both at once is:",
+   "o": [
+    "Entanglement",
+    "Decoherence",
+    "Superposition",
+    "Backscatter"
+   ],
+   "a": 2,
+   "x": "Superposition lets a qubit be 0, 1 or both; entanglement links qubits regardless of distance."
+  },
+  {
+   "topic": 17,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "China's photonic quantum supremacy machine of 2020 is:",
+   "o": [
+    "Micius",
+    "Sycamore",
+    "Fugaku",
+    "Jiuzhang"
+   ],
+   "a": 3,
+   "x": "Jiuzhang is China's photonic supremacy machine; Micius is a satellite and Sycamore is Google's."
+  },
+  {
+   "topic": 17,
+   "sec": 6,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about the National Quantum Mission:\n1. It was approved on 19 April 2023.\n2. It targets 50-1,000 physical qubits in 8 years.\n3. It has five thematic hubs.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The mission, approved on 19 April 2023, targets 50-1,000 qubits in 8 years; it has four thematic hubs, not five."
+  },
+  {
+   "topic": 17,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Shor's algorithm is significant because it can:",
+   "o": [
+    "Break public-key cryptography",
+    "Prevent entanglement sudden death",
+    "Stop decoherence",
+    "Create quantum satellites"
+   ],
+   "a": 0,
+   "x": "Shor's algorithm can break public-key cryptography, which is why Q-Day is feared."
+  },
+  {
+   "topic": 17,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Graphene, a one-atom-thick sheet of carbon, was linked to the Nobel Prize of:",
+   "o": [
+    "2008",
+    "2010",
+    "2012",
+    "2016"
+   ],
+   "a": 1,
+   "x": "Graphene was recognised with the Nobel Prize in 2010."
+  },
+  {
+   "topic": 17,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Biodegradable natural-polymer nanoparticles for colorectal cancer were developed by:",
+   "o": [
+    "IIT Delhi",
+    "IISc Bengaluru",
+    "IIT Mandi",
+    "C-DAC"
+   ],
+   "a": 2,
+   "x": "IIT Mandi developed them; IIT Delhi works on perovskite displays and IISc on CNT transistors."
+  },
+  {
+   "topic": 17,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Carbon-nanotube transistors were developed by:",
+   "o": [
+    "IIT Mandi",
+    "C-DAC",
+    "IIT Guwahati",
+    "IISc Bengaluru"
+   ],
+   "a": 3,
+   "x": "CNT transistors are from IISc Bengaluru; C-DAC works on graphene flexible electronics."
+  },
+  {
+   "topic": 17,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Bandicoot, the robot developed by Genrobotics, Kerala, is used for:",
+   "o": [
+    "Cleaning sewers and manholes",
+    "Cleaning septic tanks",
+    "Defusing IEDs",
+    "Robotic surgery"
+   ],
+   "a": 0,
+   "x": "Bandicoot cleans sewers and manholes to end manual scavenging; HomoSEP cleans septic tanks."
+  },
+  {
+   "topic": 17,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Manav, India's first 3D-printed humanoid, was developed by:",
+   "o": [
+    "Genrobotics, Kerala",
+    "A-SET, Delhi",
+    "ISRO",
+    "IIT Madras"
+   ],
+   "a": 1,
+   "x": "Manav was built by Diwakar Vaish of A-SET, Delhi, not Genrobotics."
+  },
+  {
+   "topic": 17,
+   "sec": 8,
+   "angle": "5",
+   "shape": "match",
+   "s": "Which of the following pairs (robot – developer) is correctly matched?",
+   "o": [
+    "Daksh – Genrobotics",
+    "Vyommitra – ISRO",
+    "HomoSEP – DRDO",
+    "SSI Mantra – IIT Madras"
+   ],
+   "a": 1,
+   "x": "Vyommitra is ISRO's; Daksh is DRDO's, HomoSEP is IIT Madras's and SSI Mantra is SS Innovations'."
+  },
+  {
+   "topic": 17,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The VEGA RISC-V processors were developed by:",
+   "o": [
+    "IIT Madras",
+    "IIT Bombay",
+    "C-DAC",
+    "ISRO SCL"
+   ],
+   "a": 2,
+   "x": "VEGA and DHRUV64 are C-DAC's; SHAKTI is from IIT Madras."
+  },
+  {
+   "topic": 17,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The SHAKTI processor was developed by:",
+   "o": [
+    "C-DAC",
+    "IIT Bombay",
+    "ISRO SCL",
+    "IIT Madras"
+   ],
+   "a": 3,
+   "x": "SHAKTI is IIT Madras's RISC-V processor; AJIT is from IIT Bombay."
+  },
+  {
+   "topic": 17,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "MeitY launched the Digital India RISC-V (DIR-V) programme in:",
+   "o": [
+    "2022",
+    "2021",
+    "2023",
+    "2019"
+   ],
+   "a": 0,
+   "x": "DIR-V was launched in 2022; SHAKTI and VEGA are its two main lines."
+  },
+  {
+   "topic": 17,
+   "sec": 10,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The first Indian company to 3D-print human liver tissue is:",
+   "o": [
+    "Assert AI",
+    "Pandorum Technologies",
+    "Grene Robotics",
+    "Genrobotics"
+   ],
+   "a": 1,
+   "x": "Pandorum Technologies, Bengaluru, first 3D-printed human liver tissue in India."
+  },
+  {
+   "topic": 17,
+   "sec": 10,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "4D printing differs from 3D printing in that the printed object:",
+   "o": [
+    "Is made by subtractive machining",
+    "Needs no CAD model",
+    "Changes shape over time",
+    "Is built only from metal"
+   ],
+   "a": 2,
+   "x": "4D printing adds materials that change shape over time."
+  },
+  {
+   "topic": 17,
+   "sec": 10,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The 3D-printed cornea was developed by IIT Hyderabad with the LV Prasad Eye Institute and:",
+   "o": [
+    "AIIMS",
+    "C-DAC",
+    "IISc Bengaluru",
+    "CCMB"
+   ],
+   "a": 3,
+   "x": "IIT Hyderabad, LV Prasad Eye Institute and CCMB made the cornea from decellularised corneal matrix and stem cells."
+  }
+ ]
+}
