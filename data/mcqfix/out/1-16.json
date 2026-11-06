@@ -405,16 +405,16 @@
    "topic": 48,
    "sec": 6,
    "angle": "14",
-   "shape": "one-liner",
-   "s": "The 1988–92 excavations at Thotlakonda yielded which coins?",
+   "shape": "statements",
+   "s": "Consider the following statements about Thotlakonda:\n1. It was first spotted in an Indian Navy aerial survey.\n2. Its 1988–92 excavations found Satavahana and Roman coins.\n3. A pot of 3,730 lead coins was found there in 2024.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Kushana and Gupta coins",
-    "Ikshvaku lead coins",
-    "Mauryan punch-marked coins",
-    "Satavahana and Roman coins"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 3,
-   "x": "The 1988–92 Thotlakonda digs found the main stupa, votive stupas, and Satavahana and Roman coins."
+   "a": 0,
+   "x": "Thotlakonda was spotted by an Indian Navy aerial survey and its 1988–92 digs found Satavahana and Roman coins; the 3,730 lead coins come from Phanigiri."
   },
   {
    "topic": 48,
@@ -423,12 +423,12 @@
    "shape": "one-liner",
    "s": "A life-size stucco sculpture is a notable find from:",
    "o": [
-    "Phanigiri",
     "Guntupalli",
     "Bhattiprolu",
-    "Ghantasala"
+    "Ghantasala",
+    "Phanigiri"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Phanigiri has a mahastupa, viharas, apsidal chaityagrihas and a life-size stucco sculpture."
   },
   {
@@ -438,12 +438,12 @@
    "shape": "one-liner",
    "s": "The Siddharthika sect of Andhra Buddhism had its centre at:",
    "o": [
-    "Guntupalli",
     "Gudivada",
+    "Guntupalli",
     "Jaggayyapeta",
     "Dhanyakataka"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The Siddharthika sect was centred at Gudivada; do not confuse it with the Siddharthaka chaitya at Guntupalli."
   },
   {
@@ -454,11 +454,11 @@
    "s": "The five Chaitika sects of Andhra were founded by:",
    "o": [
     "Acharya Nagarjuna",
-    "Aryadeva",
     "Mahadeva Bhikshu",
+    "Aryadeva",
     "Bhavaviveka"
    ],
-   "a": 2,
+   "a": 1,
    "x": "The five Chaitika (Mahasanghika) sects trace to Mahadeva Bhikshu."
   },
   {
@@ -470,10 +470,10 @@
    "o": [
     "Dinnaga",
     "Aryadeva",
-    "Maitreyanatha",
-    "Bhavaviveka"
+    "Bhavaviveka",
+    "Maitreyanatha"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Bhavaviveka's vihara was at Dhanyakataka."
   },
   {
@@ -483,12 +483,12 @@
    "shape": "one-liner",
    "s": "Who is known as the Father of Buddhist logic?",
    "o": [
-    "Dinnaga",
     "Nagarjuna",
     "Aryasangha",
-    "Bhavaviveka"
+    "Bhavaviveka",
+    "Dinnaga"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Dinnaga is called the Father of Buddhist logic."
   },
   {
@@ -513,12 +513,12 @@
    "shape": "one-liner",
    "s": "At Amaravati, guilds of which craftsmen were among the donors?",
    "o": [
-    "Goldsmiths",
     "Ivory workers",
+    "Goldsmiths",
     "Potters",
     "Weavers"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Ivory-worker guilds were among the donors at Amaravati."
   },
   {
@@ -529,11 +529,11 @@
    "s": "The term 'Tambaya Danamu' was found at Kotturu (Dhanadibbalu) on the banks of which river?",
    "o": [
     "Nagavali",
-    "Vamsadhara",
     "Sarada",
+    "Vamsadhara",
     "Gosthani"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Tambaya Danamu was found at Kotturu (Dhanadibbalu) on the Sarada river near Yelamanchili."
   },
   {
@@ -545,10 +545,10 @@
    "o": [
     "Ikshvakus",
     "Satavahanas",
-    "Eastern Chalukyas",
-    "Salankayanas"
+    "Salankayanas",
+    "Eastern Chalukyas"
    ],
-   "a": 3,
+   "a": 2,
    "x": "The Salankayanas patronised Saivism (Chitrarathaswami)."
   },
   {
@@ -558,12 +558,12 @@
    "shape": "one-liner",
    "s": "Which western Deccan cave site has a chaitya with bell-capital pillars?",
    "o": [
-    "Bedsa",
     "Bhaja",
     "Pitalkhora",
-    "Kanheri"
+    "Kanheri",
+    "Bedsa"
    ],
-   "a": 0,
+   "a": 3,
    "x": "Bedsa (Pune) has a chaitya with bell-capital pillars."
   },
   {
@@ -573,28 +573,28 @@
    "shape": "one-liner",
    "s": "Which cave site is earlier than Karle?",
    "o": [
-    "Kanheri",
     "Bhaja",
+    "Kanheri",
     "Nasik",
     "Bedsa"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Bhaja's caves are earlier than Karle's, though some notes wrongly call Karle the most ancient."
   },
   {
    "topic": 48,
    "sec": 10,
-   "angle": "5",
-   "shape": "one-liner",
-   "s": "How many dance-couple sculptures are found at the Karle chaitya?",
+   "angle": "5,19",
+   "shape": "statements",
+   "s": "Consider the following statements about the Karle chaitya:\n1. It is earlier than the Bhaja caves.\n2. It has 12 dance-couple sculptures.\n3. Pulumavi II donated a village to it.\nWhich of the statements given above is/are correct?",
    "o": [
-    "8",
-    "10",
-    "12",
-    "16"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 2,
-   "x": "Karle has 12 dance-couple sculptures."
+   "a": 1,
+   "x": "Karle has 12 dance couples and Pulumavi II donated a village; Bhaja is earlier than Karle."
   },
   {
    "topic": 48,
@@ -604,11 +604,11 @@
    "s": "Which western Deccan site is noted for viharas bearing Satavahana inscriptions?",
    "o": [
     "Pitalkhora",
+    "Nasik",
     "Bedsa",
-    "Bhaja",
-    "Nasik"
+    "Bhaja"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Nasik has viharas with Satavahana inscriptions; its chaitya was funded by Vishnudatta."
   },
   {
@@ -618,12 +618,12 @@
    "shape": "one-liner",
    "s": "The Amaravati school of art mainly used which material?",
    "o": [
-    "White Palnadu limestone",
     "Grey-blue schist",
     "Spotted red sandstone",
+    "White Palnadu limestone",
     "Black basalt"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Amaravati used white Palnadu limestone; Gandhara used grey-blue schist and Mathura spotted red sandstone."
   },
   {
@@ -645,16 +645,16 @@
    "topic": 48,
    "sec": 11,
    "angle": "17",
-   "shape": "one-liner",
-   "s": "The Amaravati school flourished in which region?",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Amaravati school of art?",
    "o": [
-    "Upper Ganga valley",
-    "Lower Krishna-Godavari valley",
-    "Kaveri delta",
-    "Narmada valley"
+    "It flourished in the lower Krishna-Godavari valley",
+    "Its most mature phase came under the Ikshvakus",
+    "It shows Greco-Roman influence",
+    "Its influence spread to Sri Lanka and Southeast Asia"
    ],
-   "a": 1,
-   "x": "The Amaravati school belongs to the lower Krishna-Godavari valley, 2nd c. BCE–3rd c. CE."
+   "a": 2,
+   "x": "Amaravati art is indigenous; Greco-Roman influence marks the Gandhara school."
   },
   {
    "topic": 48,
@@ -665,10 +665,10 @@
    "o": [
     "A seated human figure on a lotus",
     "A standing figure with Greco-Roman drapery",
-    "Symbols like the Bodhi tree, empty throne and footprints",
-    "A colossal stucco image"
+    "A colossal stucco image",
+    "Symbols like the Bodhi tree, empty throne and footprints"
    ],
-   "a": 2,
+   "a": 3,
    "x": "The early phase was aniconic (Bodhi tree, empty throne, footprints, wheel, stupa); the later phase showed the Buddha in human form."
   },
   {
@@ -678,12 +678,12 @@
    "shape": "one-liner",
    "s": "Which language helped Buddhism become a mass movement in the Satavahana period?",
    "o": [
+    "Prakrit",
     "Sanskrit",
     "Pali",
-    "Tamil",
-    "Prakrit"
+    "Tamil"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Prakrit, the people's language, helped Buddhism become a mass movement."
   },
   {
@@ -693,12 +693,12 @@
    "shape": "one-liner",
    "s": "Which dynasty is linked with the rise of Brahmanism and the downfall of Buddhism in Andhra?",
    "o": [
-    "Pallavas",
     "Satavahanas",
+    "Pallavas",
     "Ikshvakus",
     "Salankayanas"
    ],
-   "a": 0,
+   "a": 1,
    "x": "The Pallava period saw the rise of Brahmanism and downfall of Buddhism."
   },
   {
@@ -709,11 +709,11 @@
    "s": "The Naneghat inscription was issued by:",
    "o": [
     "Gautami Balasri",
-    "Devi Naganika",
     "Rudrabhattarika",
+    "Devi Naganika",
     "Bhatti Mahadevi"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Devi Naganika, wife of Satakarni I, issued the Naneghat inscription; Gautami Balasri issued the Nasik record."
   },
   {
@@ -725,10 +725,10 @@
    "o": [
     "Satakarni I",
     "Ushavadata",
-    "Maharathi Tranakayiro",
-    "Gautamiputra Satakarni"
+    "Gautamiputra Satakarni",
+    "Maharathi Tranakayiro"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Naganika was the daughter of Maharathi Tranakayiro of the Amgiya family and wife of Satakarni I."
   },
   {
@@ -738,12 +738,12 @@
    "shape": "one-liner",
    "s": "Which of the following deities invoked in the Naneghat inscription is a Vedic god?",
    "o": [
+    "Varuna",
     "Vasudeva",
     "Sankarshana",
-    "Krishna",
-    "Varuna"
+    "Krishna"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Indra, Yama and Varuna are Vedic gods; Vasudeva and Sankarshana are Bhagavata deities."
   },
   {
@@ -753,12 +753,12 @@
    "shape": "one-liner",
    "s": "The Nasik inscription calls Gautamiputra Satakarni:",
    "o": [
-    "Agama nilaya",
     "Apratihatachakra",
+    "Agama nilaya",
     "Dakshinapathapati",
     "Sri Parvatadhipati"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Agama nilaya is Gautamiputra's title in the Nasik record; Apratihatachakra and Dakshinapathapati belong to Satakarni I (Naneghat)."
   },
   {
@@ -769,11 +769,11 @@
    "s": "The Bhagavata religion reached Andhra under which Satavahana king?",
    "o": [
     "Simuka",
-    "Krishna",
     "Hala",
+    "Krishna",
     "Satakarni I"
    ],
-   "a": 1,
+   "a": 2,
    "x": "It reached Andhra under Krishna, the 2nd Satavahana king; by Hala's time it was called the Vasudeva religion."
   },
   {
@@ -785,10 +785,10 @@
    "o": [
     "Chittoor",
     "Annamayya",
-    "Tirupati",
-    "Nellore"
+    "Nellore",
+    "Tirupati"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Gudimallam (Yerpedu mandal) was in Chittoor and is now in Tirupati district."
   },
   {
@@ -798,12 +798,12 @@
    "shape": "one-liner",
    "s": "The Rajagirika sect had its centre at:",
    "o": [
+    "Sriparvatam",
     "Dhanyakataka",
     "Nasik",
-    "Jaggayyapeta",
-    "Sriparvatam"
+    "Jaggayyapeta"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Rajagirika was centred at Sriparvatam (G2 2012 key); Mahasanghika at Dhanyakataka."
   },
   {
@@ -813,12 +813,12 @@
    "shape": "one-liner",
    "s": "The Mahasanghika sect in Andhra was centred at:",
    "o": [
-    "Dhanyakataka",
     "Sriparvatam",
+    "Dhanyakataka",
     "Nasik",
     "Karle"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Mahasanghikas were centred at Dhanyakataka; their followers were also called Chaityakas."
   },
   {
@@ -829,11 +829,11 @@
    "s": "Which Satavahana king gave a village to Mahasanghika monks at Karle?",
    "o": [
     "Gautamiputra Satakarni",
-    "Pulumavi II",
     "Yajna Sri Satakarni",
+    "Pulumavi II",
     "Krishna"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Pulumavi II gave a village to Mahasanghika monks at Karle."
   },
   {
@@ -845,10 +845,10 @@
    "o": [
     "Mahasanghika",
     "Rajagirika",
-    "Bhadrayaniya",
-    "Chaityaka"
+    "Chaityaka",
+    "Bhadrayaniya"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Gautami Balasri gave the Nasik vihara to the Bhadrayaniya sect."
   },
   {
@@ -858,12 +858,12 @@
    "shape": "one-liner",
    "s": "Which Satavahana king made a Nasik cave for shramanas and appointed a Dharma Mahamatra?",
    "o": [
+    "Krishna",
     "Simuka",
     "Pulumavi II",
-    "Yajna Sri Satakarni",
-    "Krishna"
+    "Yajna Sri Satakarni"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Krishna, the 2nd king, built a Nasik cave for shramanas and appointed a Dharma Mahamatra."
   },
   {
@@ -873,12 +873,12 @@
    "shape": "one-liner",
    "s": "Ushavadata deposited money with which guild to support monks?",
    "o": [
-    "Govardhana weavers",
     "Junnar potters",
+    "Govardhana weavers",
     "Kanheri oil-pressers",
     "Karle bamboo-workers"
    ],
-   "a": 0,
+   "a": 1,
    "x": "Ushavadata's deposit with the Govardhana weavers paid interest to monks."
   },
   {
@@ -889,11 +889,11 @@
    "s": "Which foreign group funded caves at Karle, Bhaja, Nasik, Junnar and Kanheri?",
    "o": [
     "Saka kings",
-    "Yavana merchants",
     "Kushana officials",
+    "Yavana merchants",
     "Roman envoys"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Yavana merchants funded caves at these western Deccan sites."
   },
   {
@@ -905,26 +905,26 @@
    "o": [
     "Yogachara",
     "Vijnanavada",
-    "Madhyamika (Sunyavada)",
-    "Vajrayana"
+    "Vajrayana",
+    "Madhyamika (Sunyavada)"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Nagarjuna belongs to the Madhyamika (Sunyavada) school."
   },
   {
    "topic": 49,
    "sec": 7,
    "angle": "1",
-   "shape": "one-liner",
-   "s": "Which work, according to tradition, says a Satavahana king supported Nagarjuna?",
+   "shape": "statements",
+   "s": "Consider the following statements about Acharya Nagarjuna:\n1. Ratnavali is one of his works.\n2. He belonged to the Yogachara school.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Kathasaritsagara",
-    "Gatha Saptasati",
-    "Ratnavali",
-    "Lilavati Parinayam"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
-   "a": 3,
-   "x": "Lilavati Parinayam says a Satavahana king supported him; Kathasaritsagara says a Satavahana prince killed him."
+   "a": 0,
+   "x": "Ratnavali is among Nagarjuna's works; he belonged to the Madhyamika (Sunyavada) school, while Yogachara was founded by Aryasangha."
   },
   {
    "topic": 49,
@@ -976,7 +976,7 @@
    "sec": 9,
    "angle": "4",
    "shape": "one-liner",
-   "s": "Amaravati was excavated in the Satavahana-study era by:",
+   "s": "The Amaravati stupa was excavated by:",
    "o": [
     "Colin Mackenzie",
     "Kielhorn",
@@ -984,37 +984,22 @@
     "James Fergusson"
    ],
    "a": 2,
-   "x": "Mackenzie discovered Amaravati; Sewell excavated it."
+   "x": "Mackenzie discovered Amaravati; Robert Sewell excavated it."
   },
   {
    "topic": 50,
    "sec": 1,
    "angle": "1",
-   "shape": "one-liner",
-   "s": "Puranas list seven Ikshvaku kings; how many are confirmed by inscriptions?",
+   "shape": "statements",
+   "s": "Consider the following statements about the Ikshvakus of Vijayapuri:\n1. They ruled for about 75 years (c. AD 225–300).\n2. Inscriptions confirm all seven kings listed in the Puranas.\nWhich of the statements given above is/are correct?",
    "o": [
-    "3",
-    "5",
-    "6",
-    "4"
-   ],
-   "a": 3,
-   "x": "Puranas list 7 kings but inscriptions confirm only 4."
-  },
-  {
-   "topic": 50,
-   "sec": 1,
-   "angle": "1",
-   "shape": "one-liner",
-   "s": "The Ikshvakus of Vijayapuri ruled for about how many years?",
-   "o": [
-    "75",
-    "50",
-    "100",
-    "150"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 0,
-   "x": "They ruled about 75 years, c. AD 225–300."
+   "x": "They ruled about 75 years; the Puranas list 7 kings but inscriptions confirm only 4."
   },
   {
    "topic": 50,
@@ -1024,11 +1009,11 @@
    "s": "Who were the immediate successors of the Satavahanas in the Krishna valley?",
    "o": [
     "Pallavas",
-    "Ikshvakus",
     "Vishnukundins",
-    "Brihatpalayanas"
+    "Brihatpalayanas",
+    "Ikshvakus"
    ],
-   "a": 1,
+   "a": 3,
    "x": "The Ikshvakus directly succeeded the Satavahanas; Pallavas and Vishnukundins came later."
   },
   {
@@ -1038,12 +1023,12 @@
    "shape": "one-liner",
    "s": "The Brihatpalayanas had their capital at:",
    "o": [
+    "Pithunda",
     "Vengi",
     "Vijayapuri",
-    "Pithunda",
     "Dhanyakataka"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Brihatpalayana capital was Pithunda near Machilipatnam; Kondamudi plates of Jayavarma."
   },
   {
@@ -1069,11 +1054,11 @@
    "s": "Which scholar held that the Ikshvakus were of Kannada origin?",
    "o": [
     "Rapson",
+    "Vogel",
     "Gopalachari",
-    "D. R. Bhandarkar",
-    "Vogel"
+    "D. R. Bhandarkar"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Vogel proposed a Kannada origin; Rapson and Buhler a North Indian one; Gopalachari a Telugu one."
   },
   {
@@ -1098,12 +1083,12 @@
    "shape": "one-liner",
    "s": "Vijayapuri, the Ikshvaku capital, now lies in which district?",
    "o": [
-    "Palnadu",
     "Guntur",
     "Krishna",
+    "Palnadu",
     "Prakasam"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Vijayapuri = Nagarjunakonda, in the Nagarjuna Sagar valley, now Palnadu district."
   },
   {
@@ -1114,11 +1099,11 @@
    "s": "Which were ports of the Ikshvaku period?",
    "o": [
     "Machilipatnam and Kalingapatnam",
-    "Motupalli and Ghantasala",
     "Bhattiprolu and Amaravati",
-    "Pithunda and Vengi"
+    "Pithunda and Vengi",
+    "Motupalli and Ghantasala"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Motupalli and Ghantasala were Ikshvaku-period ports."
   },
   {
@@ -1128,12 +1113,12 @@
    "shape": "one-liner",
    "s": "The titles Gosatasahasra and Halasatasahasra belong to:",
    "o": [
+    "Vasishthiputra Chamtamula",
     "Virapurushadatta",
     "Ehuvala Chamtamula",
-    "Vasishthiputra Chamtamula",
     "Rudrapurushadatta"
    ],
-   "a": 2,
+   "a": 0,
    "x": "These titles (giver of lakhs of cows and ploughs) belong to Chamtamula, not Virapurushadatta."
   },
   {
@@ -1159,11 +1144,11 @@
    "s": "The Gurajala inscription was issued by:",
    "o": [
     "Virapurushadatta",
+    "Rudrapurushadatta",
     "Ehuvala Chamtamula",
-    "Vasishthiputra Chamtamula",
-    "Rudrapurushadatta"
+    "Vasishthiputra Chamtamula"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Rudrapurushadatta, the last ruler, issued the Gurajala record."
   },
   {
@@ -1173,12 +1158,12 @@
    "shape": "one-liner",
    "s": "Ehuvala Chamtamula ruled for about how many years?",
    "o": [
-    "24",
     "12",
     "18",
+    "24",
     "30"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Ehuvala Chamtamula ruled about 24 years."
   },
   {
@@ -1189,11 +1174,11 @@
    "s": "The Ikshvakus practised marriage with the:",
    "o": [
     "Paternal aunt's son's daughter",
-    "Maternal uncle's daughter",
     "Elder brother's widow",
-    "Paternal uncle's daughter"
+    "Paternal uncle's daughter",
+    "Maternal uncle's daughter"
    ],
-   "a": 1,
+   "a": 3,
    "x": "They practised cross-cousin marriage with the maternal uncle's daughter."
   },
   {
@@ -1203,12 +1188,12 @@
    "shape": "one-liner",
    "s": "Rudrabhattarika's marriage linked the Ikshvakus with which power?",
    "o": [
+    "Sakas (Western Kshatrapas)",
     "Pallavas",
     "Vakatakas",
-    "Sakas (Western Kshatrapas)",
     "Satavahanas"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Rudrabhattarika was a Saka princess of Ujjain, linking them with the Western Kshatrapas."
   },
   {
@@ -1219,11 +1204,11 @@
    "s": "The Manchikallu inscription, found near Vijayapuri, was issued by:",
    "o": [
     "Sivaskandavarman",
+    "Pallava Simhavarman",
     "Rudrapurushadatta",
-    "Jayavarma",
-    "Pallava Simhavarman"
+    "Jayavarma"
    ],
-   "a": 3,
+   "a": 1,
    "x": "Manchikallu is the earliest Pallava record, of Simhavarman; Mayidavolu plates are of Sivaskandavarman."
   },
   {
@@ -1233,12 +1218,12 @@
    "shape": "one-liner",
    "s": "The Mayidavolu plates, concerning Dhanyakataka, were issued by:",
    "o": [
-    "Sivaskandavarman",
     "Simhavarman",
     "Virapurushadatta",
+    "Sivaskandavarman",
     "Ehuvala Chamtamula"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Sivaskandavarman issued the Mayidavolu plates as crown prince from Kanchi."
   },
   {
@@ -1249,11 +1234,11 @@
    "s": "The Gummadidurru inscription belongs to:",
    "o": [
     "Virapurushadatta",
-    "Ehuvala Chamtamula",
     "Rudrapurushadatta",
-    "Vasishthiputra Chamtamula"
+    "Vasishthiputra Chamtamula",
+    "Ehuvala Chamtamula"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Gummadidurru is Ehuvala Chamtamula's record showing later Ikshvaku rule."
   },
   {
@@ -1263,12 +1248,12 @@
    "shape": "one-liner",
    "s": "Which are among the earliest Hindu temples in Andhra at Nagarjunakonda?",
    "o": [
+    "Pushpabhadraswami and Ashtabhuja Narayana",
     "Parasurameswara and Bhimeswara",
     "Virupaksha and Mallikarjuna",
-    "Pushpabhadraswami and Ashtabhuja Narayana",
     "Chitrarathaswami and Kapoteswara"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Pushpabhadraswami and Ashtabhuja Narayana are the earliest Hindu temples at Nagarjunakonda."
   }
  ]
