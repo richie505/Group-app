@@ -1,0 +1,801 @@
+{
+ "reshape": {
+  "nindian-geography-46-16": {
+   "shape": "NOT",
+   "s": "Which of the following pairs (city near the Tropic of Cancer – State) is NOT correctly matched?",
+   "o": [
+    "Agartala – Tripura",
+    "Gandhinagar – Gujarat",
+    "Ranchi – Tripura",
+    "Ujjain – Madhya Pradesh"
+   ],
+   "a": 2,
+   "x": "Ranchi is in Jharkhand, not Tripura. Agartala is the capital of Tripura, Gandhinagar is in Gujarat and Ujjain in Madhya Pradesh."
+  },
+  "ne3fc432e663": {
+   "shape": "statements",
+   "s": "Consider the following statements about the overhead noon Sun:\n1. Only places between the Tropic of Cancer and the Tropic of Capricorn can receive it.\n2. Delhi, lying north of 23½°N, receives it once a year.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Only places between the two Tropics get the overhead Sun; Delhi, north of 23½°N, never does, so statement 2 is wrong."
+  },
+  "ngeneral-geography-4-3": {
+   "shape": "one-liner",
+   "s": "S-waves disappear on reaching the outer core because the outer core is:",
+   "o": [
+    "Solid",
+    "Plastic",
+    "Gaseous",
+    "Liquid"
+   ],
+   "a": 3,
+   "x": "S-waves cannot pass through liquids, so they vanish at the liquid outer core."
+  },
+  "n29126a7a86d": {
+   "shape": "match",
+   "s": "Which of the following pairs (discontinuity – position counted from the Earth's surface) is correctly matched?",
+   "o": [
+    "Gutenberg – 2nd",
+    "Conrad – 1st",
+    "Lehmann – 3rd",
+    "Mohorovicic – 4th"
+   ],
+   "a": 1,
+   "x": "From the surface downward the order is Conrad, Mohorovicic, Gutenberg and Lehmann, so Conrad comes first."
+  },
+  "nb8b903e0011": {
+   "shape": "one-liner",
+   "s": "The Bakreshwar geothermal site is located in:",
+   "o": [
+    "Gujarat",
+    "West Bengal",
+    "Himachal Pradesh",
+    "Chhattisgarh"
+   ],
+   "a": 1,
+   "x": "Bakreshwar is in West Bengal; Cambay is the geothermal site of Gujarat, Manikaran of Himachal Pradesh and Tattapani of Chhattisgarh."
+  }
+ },
+ "new": [
+  {
+   "topic": 3,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Coordinated Universal Time (UTC) is kept by:",
+   "o": [
+    "Rubidium atomic clocks",
+    "Caesium atomic clocks",
+    "Sundials at Greenwich",
+    "Lunar observations"
+   ],
+   "a": 1,
+   "x": "UTC is the world standard kept by caesium atomic clocks; rubidium clocks are used by NavIC."
+  },
+  {
+   "topic": 3,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "To keep it in step, UTC is corrected from time to time with:",
+   "o": [
+    "Leap days",
+    "Leap minutes",
+    "Leap seconds",
+    "Half-hour offsets"
+   ],
+   "a": 2,
+   "x": "UTC is corrected with leap seconds."
+  },
+  {
+   "topic": 3,
+   "sec": 2,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which natural unit of time is based on the Moon's revolution?",
+   "o": [
+    "Month",
+    "Day",
+    "Year",
+    "Week"
+   ],
+   "a": 0,
+   "x": "The month comes from the Moon's revolution; the day from rotation and the year from the Earth's revolution."
+  },
+  {
+   "topic": 3,
+   "sec": 2,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about Daylight Saving Time:\n1. Clocks are advanced by one hour in summer to use evening light.\n2. India follows Daylight Saving Time.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Under DST clocks go forward one hour in summer at mid and high latitudes; India does not use it."
+  },
+  {
+   "topic": 3,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Theoretically, the world is divided into how many time zones of 15° each?",
+   "o": [
+    "12",
+    "36",
+    "48",
+    "24"
+   ],
+   "a": 3,
+   "x": "360° ÷ 15° gives 24 theoretical time zones; in practice there are more because of half- and quarter-hour offsets."
+  },
+  {
+   "topic": 3,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The standard time of Nepal is:",
+   "o": [
+    "UTC+5:30",
+    "UTC+5:45",
+    "UTC+6:00",
+    "UTC+5:00"
+   ],
+   "a": 1,
+   "x": "Nepal keeps UTC+5:45, while India and Colombo keep UTC+5:30."
+  },
+  {
+   "topic": 3,
+   "sec": 3,
+   "angle": "4",
+   "shape": "match",
+   "s": "Which of the following pairs (country – number of time zones) is correctly matched?",
+   "o": [
+    "Russia – 11",
+    "France – 9",
+    "Brazil – 5",
+    "China – 2"
+   ],
+   "a": 0,
+   "x": "Russia has 11 time zones. France has 12 with its overseas territories, Brazil exactly 4 and China only one."
+  },
+  {
+   "topic": 3,
+   "sec": 4,
+   "angle": "2,9",
+   "shape": "one-liner",
+   "s": "How many States does the Indian Standard Time meridian pass through?",
+   "o": [
+    "8",
+    "4",
+    "5",
+    "6"
+   ],
+   "a": 2,
+   "x": "The IST meridian crosses five States: UP, MP, Chhattisgarh, Odisha and Andhra Pradesh; it is the Tropic of Cancer that crosses eight."
+  },
+  {
+   "topic": 3,
+   "sec": 4,
+   "angle": "2,9",
+   "shape": "one-liner",
+   "s": "Going from west to east, which is the last State on the Indian Standard Time meridian?",
+   "o": [
+    "Odisha",
+    "Chhattisgarh",
+    "West Bengal",
+    "Andhra Pradesh"
+   ],
+   "a": 3,
+   "x": "The IST meridian runs through UP, MP, Chhattisgarh, Odisha and ends in Andhra Pradesh; it does not pass West Bengal."
+  },
+  {
+   "topic": 3,
+   "sec": 5,
+   "angle": "2,9",
+   "shape": "one-liner",
+   "s": "In the two-time-zone debate, one proposal is to advance Indian Standard Time by:",
+   "o": [
+    "30 minutes",
+    "15 minutes",
+    "45 minutes",
+    "2 hours"
+   ],
+   "a": 0,
+   "x": "One proposal is to advance IST by 30 minutes; another is a separate zone about 1 hour ahead for the North-East."
+  },
+  {
+   "topic": 3,
+   "sec": 5,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "The northernmost point of India is:",
+   "o": [
+    "Indira Point",
+    "Indira Col",
+    "Kibithu",
+    "Guhar Moti"
+   ],
+   "a": 1,
+   "x": "Indira Col is the northernmost point; Indira Point is the southernmost, Kibithu the easternmost and Guhar Moti the westernmost."
+  },
+  {
+   "topic": 3,
+   "sec": 5,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "The latitudinal extent of Andhra Pradesh is:",
+   "o": [
+    "8°4'N – 37°6'N",
+    "10°41'N – 17°07'N",
+    "12°41'N – 19°07'N",
+    "13°41'N – 21°07'N"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh lies between 12°41'N and 19°07'N; 8°4'N–37°6'N is India's extent."
+  },
+  {
+   "topic": 3,
+   "sec": 6,
+   "angle": "3,12",
+   "shape": "one-liner",
+   "s": "The International Date Line zigzags away from the 180° meridian mainly because:",
+   "o": [
+    "Land is in the way",
+    "Of ocean currents",
+    "Of the Earth's magnetic field",
+    "Of the Earth's axial tilt"
+   ],
+   "a": 0,
+   "x": "The Date Line bends where land is in the way, as at Chukotka, the Aleutians, Kiribati, Fiji, Tonga and Samoa."
+  },
+  {
+   "topic": 3,
+   "sec": 6,
+   "angle": "3,12",
+   "shape": "one-liner",
+   "s": "A traveller crossing the International Date Line westward, from America to Asia, must:",
+   "o": [
+    "Subtract a day",
+    "Add a day",
+    "Add 12 hours",
+    "Make no change"
+   ],
+   "a": 1,
+   "x": "Crossing westward a day is added (skipped); crossing eastward a day is subtracted (repeated)."
+  },
+  {
+   "topic": 3,
+   "sec": 7,
+   "angle": "14",
+   "shape": "NOT",
+   "s": "The Tropic of Cancer does NOT pass through which one of the following countries?",
+   "o": [
+    "Egypt",
+    "Saudi Arabia",
+    "Iran",
+    "Mexico"
+   ],
+   "a": 2,
+   "x": "The Tropic of Cancer crosses Mexico, Egypt and Saudi Arabia among 17 countries, but not Iran."
+  },
+  {
+   "topic": 3,
+   "sec": 7,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "How many parallels of latitude are drawn on the globe at 1° intervals?",
+   "o": [
+    "180",
+    "179",
+    "181",
+    "360"
+   ],
+   "a": 1,
+   "x": "The globe has 179 parallels and 360 meridians."
+  },
+  {
+   "topic": 3,
+   "sec": 7,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "The Equator passes through which one of the following countries?",
+   "o": [
+    "Egypt",
+    "Mexico",
+    "Oman",
+    "Kenya"
+   ],
+   "a": 3,
+   "x": "The Equator passes Kenya, Colombia and Indonesia; Egypt, Mexico and Oman lie on the Tropic of Cancer."
+  },
+  {
+   "topic": 3,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The Tropic of Cancer lies at a latitude of about:",
+   "o": [
+    "23°26'N",
+    "22°30'N",
+    "23°50'N",
+    "24°26'N"
+   ],
+   "a": 0,
+   "x": "The Tropic of Cancer is at 23°26'N, usually written 23½°N."
+  },
+  {
+   "topic": 3,
+   "sec": 8,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "The line on the Earth that divides day from night is called the:",
+   "o": [
+    "Prime Meridian",
+    "International Date Line",
+    "Circle of illumination",
+    "Equator"
+   ],
+   "a": 2,
+   "x": "The circle of illumination divides the lit half of the Earth from the dark half."
+  },
+  {
+   "topic": 3,
+   "sec": 8,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Because of the Earth's rotation, the Coriolis force deflects winds in the Northern Hemisphere to the:",
+   "o": [
+    "Left",
+    "Right",
+    "East only",
+    "Equator"
+   ],
+   "a": 1,
+   "x": "The Coriolis effect deflects winds to the right in the Northern Hemisphere."
+  },
+  {
+   "topic": 3,
+   "sec": 8,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "Melting ice that shifts mass away from the Earth's axis affects rotation by:",
+   "o": [
+    "Speeding it up",
+    "Reversing its direction",
+    "Slowing it down",
+    "Stopping axial precession"
+   ],
+   "a": 2,
+   "x": "Mass moving away from the axis slows the Earth's rotation."
+  },
+  {
+   "topic": 3,
+   "sec": 9,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "On 22 December, the Arctic Circle experiences:",
+   "o": [
+    "24 hours of night",
+    "24 hours of day",
+    "12 hours of day",
+    "About 13½ hours of day"
+   ],
+   "a": 0,
+   "x": "On 22 December the Arctic Circle has 24 hours of night; on 21 June it has 24 hours of day."
+  },
+  {
+   "topic": 4,
+   "sec": 2,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The Earth is at perihelion, nearest the Sun, around:",
+   "o": [
+    "21 June",
+    "Early July",
+    "22 December",
+    "3 January"
+   ],
+   "a": 3,
+   "x": "Perihelion falls around 3 January; aphelion, the farthest point, is in early July."
+  },
+  {
+   "topic": 4,
+   "sec": 2,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "When the Earth is nearest the Sun, the Northern Hemisphere has:",
+   "o": [
+    "Summer",
+    "Winter",
+    "Spring",
+    "Autumn"
+   ],
+   "a": 1,
+   "x": "Earth is nearest the Sun (~3 January) during the northern winter, so distance cannot cause seasons."
+  },
+  {
+   "topic": 4,
+   "sec": 2,
+   "angle": "8,2",
+   "shape": "statements",
+   "s": "Consider the following statements about the Earth–Sun distance:\n1. Aphelion, the farthest point, falls in early July.\n2. The changing Earth–Sun distance is the main cause of seasons.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Aphelion is in early July; seasons are caused by axial tilt, not by distance."
+  },
+  {
+   "topic": 4,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Earth's axis is inclined to the plane of its orbit at:",
+   "o": [
+    "23½°",
+    "66½°",
+    "90°",
+    "45°"
+   ],
+   "a": 1,
+   "x": "The axis is 23½° from the perpendicular, which is 66½° to the orbital plane."
+  },
+  {
+   "topic": 4,
+   "sec": 1,
+   "angle": "2",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a cause of the seasons?",
+   "o": [
+    "Inclination of the Earth's axis",
+    "Parallelism of the axis",
+    "Revolution of the Earth",
+    "Rotation of the Earth"
+   ],
+   "a": 3,
+   "x": "Rotation causes day and night, not seasons; seasons come from axial inclination, parallelism and revolution."
+  },
+  {
+   "topic": 4,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Sun is vertically overhead at the Equator on:",
+   "o": [
+    "21 June and 22 December",
+    "21 March and 23 September",
+    "3 January and early July",
+    "21 March and 21 June"
+   ],
+   "a": 1,
+   "x": "The Sun is overhead at the Equator twice a year, at the equinoxes of 21 March and 23 September."
+  },
+  {
+   "topic": 4,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which latitude has a 12-hour day throughout the year?",
+   "o": [
+    "Tropic of Cancer",
+    "Arctic Circle",
+    "Equator",
+    "Tropic of Capricorn"
+   ],
+   "a": 2,
+   "x": "Only the Equator has equal day and night (12 hours) all year."
+  },
+  {
+   "topic": 4,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "On 21 June, at the Arctic Circle, the Sun:",
+   "o": [
+    "Does not set",
+    "Does not rise",
+    "Shines for 12 hours",
+    "Shines for about 13½ hours"
+   ],
+   "a": 0,
+   "x": "On 21 June the Sun makes a full circle above the horizon at the Arctic Circle, giving a 24-hour day."
+  },
+  {
+   "topic": 4,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "On 22 December, the length of day at the Tropic of Cancer is about:",
+   "o": [
+    "13½ hours",
+    "12 hours",
+    "24 hours",
+    "10½ hours"
+   ],
+   "a": 3,
+   "x": "The Tropic of Cancer has about 10½ hours of day on 22 December and about 13½ hours on 21 June."
+  },
+  {
+   "topic": 4,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The low latitudes mainly experience:",
+   "o": [
+    "Four distinct seasons",
+    "Wet and dry seasons",
+    "Hot summers and mild winters",
+    "The largest swings in day length"
+   ],
+   "a": 1,
+   "x": "Low latitudes have small temperature contrast and wet and dry seasons; four distinct seasons belong to the mid-latitudes."
+  },
+  {
+   "topic": 4,
+   "sec": 7,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The hottest month of summer in the Southern Hemisphere is:",
+   "o": [
+    "June",
+    "July",
+    "January",
+    "September"
+   ],
+   "a": 2,
+   "x": "The Southern Hemisphere's summer peaks in January, its hottest month."
+  },
+  {
+   "topic": 4,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Maximum insolation is received over:",
+   "o": [
+    "The Equator",
+    "Cloudless subtropical deserts",
+    "The poles",
+    "Mid-latitude forests"
+   ],
+   "a": 1,
+   "x": "Insolation is highest over cloudless subtropical deserts, not the Equator."
+  },
+  {
+   "topic": 4,
+   "sec": 5,
+   "angle": "7",
+   "shape": "match",
+   "s": "Which of the following pairs (season – feature) is correctly matched?",
+   "o": [
+    "Summer – Longer noon shadow",
+    "Winter – More direct rays",
+    "Winter – Longer days",
+    "Summer – Higher Sun altitude"
+   ],
+   "a": 3,
+   "x": "In summer the Sun is higher and shadows shorter; winter has oblique rays and shorter days."
+  },
+  {
+   "topic": 4,
+   "sec": 8,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "At the Equator, the noon shadow is absent in:",
+   "o": [
+    "March and September",
+    "June and December",
+    "January and July",
+    "Only in June"
+   ],
+   "a": 0,
+   "x": "The Sun is overhead at the Equator at the March and September equinoxes, so there is no noon shadow then."
+  },
+  {
+   "topic": 5,
+   "sec": 4,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Conrad discontinuity separates the:",
+   "o": [
+    "Crust and mantle",
+    "Upper and lower crust",
+    "Mantle and outer core",
+    "Outer and inner core"
+   ],
+   "a": 1,
+   "x": "The Conrad discontinuity lies between the upper and lower crust (SIAL and SIMA)."
+  },
+  {
+   "topic": 5,
+   "sec": 4,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which discontinuity separates the outer core from the inner core?",
+   "o": [
+    "Gutenberg",
+    "Repetti",
+    "Conrad",
+    "Lehmann"
+   ],
+   "a": 3,
+   "x": "The Lehmann discontinuity (~5,150 km) separates the outer and inner core; Gutenberg separates the mantle and outer core."
+  },
+  {
+   "topic": 5,
+   "sec": 4,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Repetti discontinuity separates the:",
+   "o": [
+    "Upper and lower mantle",
+    "Crust and mantle",
+    "Upper and lower crust",
+    "Mantle and outer core"
+   ],
+   "a": 0,
+   "x": "The Repetti discontinuity, at about 700–1,000 km, separates the upper and lower mantle."
+  },
+  {
+   "topic": 5,
+   "sec": 6,
+   "angle": "3,12",
+   "shape": "one-liner",
+   "s": "SIMA is composed mainly of:",
+   "o": [
+    "Silica and aluminium",
+    "Nickel and iron",
+    "Silica and magnesium",
+    "Silica and iron"
+   ],
+   "a": 2,
+   "x": "SIMA stands for silica and magnesium (basalt); SIAL is silica and aluminium, NIFE nickel and iron."
+  },
+  {
+   "topic": 5,
+   "sec": 6,
+   "angle": "3,12",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "SIAL – Basalt",
+    "SIMA – Continents",
+    "NIFE – Core",
+    "SIAL – Nickel and iron"
+   ],
+   "a": 2,
+   "x": "NIFE (nickel and iron) forms the core. SIAL is granitic and forms continents; SIMA is basaltic."
+  },
+  {
+   "topic": 5,
+   "sec": 6,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Oxygen makes up about what percentage of the Earth's crust by weight?",
+   "o": [
+    "27.72%",
+    "46.60%",
+    "8.13%",
+    "5.00%"
+   ],
+   "a": 1,
+   "x": "Oxygen, at 46.60%, is the most abundant element of the crust; silicon is 27.72%, aluminium 8.13% and iron 5%."
+  },
+  {
+   "topic": 5,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which one of the following is an indirect source of information about the Earth's interior?",
+   "o": [
+    "Surface rock from mining",
+    "Magma and lava",
+    "Meteorites",
+    "The Kola deep hole"
+   ],
+   "a": 2,
+   "x": "Meteorites are an indirect source; mining rock, lava and drilling are direct sources."
+  },
+  {
+   "topic": 5,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Mponeng and TauTona, the deepest mines (about 3.9 km), are in:",
+   "o": [
+    "South Africa",
+    "Russia",
+    "Canada",
+    "Australia"
+   ],
+   "a": 0,
+   "x": "Mponeng and TauTona are in South Africa; the Kola deep hole (~12 km) is in the former USSR."
+  },
+  {
+   "topic": 5,
+   "sec": 2,
+   "angle": "4,11",
+   "shape": "statements",
+   "s": "Consider the following statements about seismic shadow zones:\n1. Each earthquake has its own shadow zone, set by its epicentre.\n2. The S-wave shadow zone is smaller than the P-wave shadow zone.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Each earthquake has its own shadow zone. S-waves are absent beyond 105°, so their shadow is bigger, not smaller."
+  },
+  {
+   "topic": 5,
+   "sec": 2,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "Which seismic waves cause the most damage?",
+   "o": [
+    "P-waves",
+    "S-waves",
+    "Body waves",
+    "Surface waves"
+   ],
+   "a": 3,
+   "x": "Surface (L) waves are the slowest but cause the highest damage."
+  },
+  {
+   "topic": 5,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The mantle extends from the Moho down to a depth of about:",
+   "o": [
+    "5,150 km",
+    "2,900 km",
+    "6,371 km",
+    "700 km"
+   ],
+   "a": 1,
+   "x": "The mantle runs from the Moho to about 2,900 km, where the core begins."
+  },
+  {
+   "topic": 5,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The main source of magma is the:",
+   "o": [
+    "Lithosphere",
+    "Outer core",
+    "Asthenosphere",
+    "Inner core"
+   ],
+   "a": 2,
+   "x": "The weak, partly molten asthenosphere is the main source of magma."
+  },
+  {
+   "topic": 5,
+   "sec": 3,
+   "angle": "6,12",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the continental crust?",
+   "o": [
+    "It is thicker than the oceanic crust",
+    "It is older than the oceanic crust",
+    "It is mainly granitic",
+    "It is mainly basaltic"
+   ],
+   "a": 3,
+   "x": "Continental crust is thicker, older and granitic; basaltic rock marks the oceanic crust."
+  }
+ ]
+}
