@@ -1,0 +1,792 @@
+{
+ "restore": [
+  {
+   "id": "f7b05d8794f6d",
+   "why": "NOT-format combining several forest facts; different angle from n571bae6d3fc"
+  },
+  {
+   "id": "f84851799165b",
+   "why": "direct question; existing item is an incorrect-statement form"
+  },
+  {
+   "id": "fb5ef407db0eb",
+   "why": "direct question; existing is a multi-pair match"
+  },
+  {
+   "id": "n2e3eb8593c6",
+   "why": "names Kapavaram; existing pair only says Udayagiri is wrong"
+  },
+  {
+   "id": "n799883c222c",
+   "why": "reverse direction of nfb53417694d"
+  },
+  {
+   "id": "f4adb37ffcdd8",
+   "why": "direct form; existing tests the wrong Nellore statement"
+  },
+  {
+   "id": "f6edfe6643170",
+   "why": "asks NSTR core; existing asks Rajiv Gandhi WLS"
+  },
+  {
+   "id": "nindian-geography-19-20",
+   "why": "asks the characteristic; existing asks which soil"
+  },
+  {
+   "id": "nap-geography-20-4",
+   "why": "reverse direction of n30df7f844d3"
+  },
+  {
+   "id": "na5d0ec5304b",
+   "why": "asks conditions; PYQ asks soil name"
+  },
+  {
+   "id": "nap-geography-20-5",
+   "why": "asks rice soil; existing asks what delta alluvium supports"
+  },
+  {
+   "id": "ffb6dccdc0d80",
+   "why": "names Swarnagiri/Jonnagiri mine; PYQ does not"
+  },
+  {
+   "id": "na8e1a8f9d3f",
+   "why": "outdated figure fixed to Dec 2024 remeasurement",
+   "fix": {
+    "s": "As per the December 2024 remeasurement, Andhra Pradesh's coastline of about 1,053 km ranks where among Indian States?",
+    "o": [
+     "First",
+     "Second, after Gujarat",
+     "Second, after Tamil Nadu",
+     "Third, after Gujarat and Tamil Nadu"
+    ],
+    "a": 3,
+    "x": "The December 2024 remeasurement gives AP 1,053.07 km, third after Gujarat and Tamil Nadu; on the older 974 km figure AP was second after Gujarat."
+   }
+  },
+  {
+   "id": "nc79847f9c9f",
+   "why": "direct reason; PYQ asks which region does not depend on agriculture"
+  },
+  {
+   "id": "f72c872e56de4",
+   "why": "direct question; existing is a pair-match"
+  },
+  {
+   "id": "fc10832d8e41a",
+   "why": "ranking fact (highest working-age share); not trivia"
+  },
+  {
+   "id": "nad26802b684",
+   "why": "repeated Kerala option replaced; NOT-style pairs test highest/lowest",
+   "fix": {
+    "o": [
+     "India – 11.9 per 1,000",
+     "Bihar – 20.8 per 1,000 (highest)",
+     "Kerala – 3.9 per 1,000 (lowest)",
+     "Tamil Nadu – 20.8 per 1,000 (highest)"
+    ],
+    "a": 3,
+    "x": "SRS 2024: India 11.9 per 1,000; Bihar highest (20.8), Kerala lowest (3.9). Tamil Nadu is not the highest."
+   }
+  },
+  {
+   "id": "fcadf5115bd4f",
+   "why": "direct date; existing is a pair-match"
+  },
+  {
+   "id": "n77f5f32f712",
+   "why": "historic SRS 2021 fact; explanation updated with current data",
+   "fix": {
+    "x": "Bihar recorded the highest TFR in SRS 2021 (3.0); it remains highest in NFHS-6 (2.7) and is 2.9 in SRS 2024."
+   }
+  },
+  {
+   "id": "f786fea9dcf99",
+   "why": "other direction (boys per 100 girls)"
+  },
+  {
+   "id": "f39bfcbff181d",
+   "why": "direct Haryana CSR; existing is a two-state statement"
+  },
+  {
+   "id": "fbcc5b5016921",
+   "why": "correct-match form with different pairs (Sikh 903)"
+  },
+  {
+   "id": "n1a0073ad01c",
+   "why": "direct question; existing is a pair-match"
+  },
+  {
+   "id": "n9e7a2e83324",
+   "why": "asks date; PYQ gives date and asks scheme"
+  },
+  {
+   "id": "f2be2e51ab0e5",
+   "why": "marginal worker definition; existing asks main worker"
+  },
+  {
+   "id": "fc0776100f432",
+   "why": "asks content of Art. 46; PYQ asks article number"
+  },
+  {
+   "id": "nindian-geography-21-4",
+   "why": "Census 2011 CSR highest; valid exam fact, no repeat"
+  },
+  {
+   "id": "nindian-geography-21-2",
+   "why": "Census 2011 statements; no repeat in topic"
+  },
+  {
+   "id": "fe54447058963",
+   "why": "single-State option set differs from f8b84d043d95f groups"
+  },
+  {
+   "id": "f405d9c6bd4fd",
+   "why": "wrong premise fixed: general population density, not tribal density",
+   "fix": {
+    "s": "As per Census 2011, which State had the highest population density, and which the lowest?",
+    "x": "Bihar had the highest density (1,106 per sq km) and Arunachal Pradesh the lowest (17 per sq km)."
+   }
+  },
+  {
+   "id": "na491e6a8459",
+   "why": "direct one-liner; PYQ is a four-way match"
+  },
+  {
+   "id": "n617d1732f8d",
+   "why": "asks Gadda Brahmin; existing asks Pahari"
+  },
+  {
+   "id": "f8dd25227e9be",
+   "why": "asks covered States; existing asks the amendment"
+  },
+  {
+   "id": "n681a88af67d",
+   "why": "key fixed to Baiga per notes",
+   "fix": {
+    "a": 3,
+    "x": "The Baiga of Dindori (MP) were the first PVTG to receive habitat rights under FRA Section 3(1)(e) (2015-16), followed by the Bharia and Kamar."
+   }
+  },
+  {
+   "id": "n74c61596baa",
+   "why": "AP SC population and share; no repeat in this topic"
+  },
+  {
+   "id": "n88c2f58d196",
+   "why": "asks expansion of ASI; existing asks the two groups"
+  },
+  {
+   "id": "f95f050d8560b",
+   "why": "direct figure; existing asks critique of racial classification"
+  },
+  {
+   "id": "nb05ea1075f3",
+   "why": "literacy 2011; no repeat in this topic"
+  },
+  {
+   "id": "nindian-geography-21-11",
+   "why": "ST share 2011; no repeat in this topic"
+  },
+  {
+   "id": "nindian-geography-21-8",
+   "why": "sex ratio 2011; no repeat in this topic"
+  },
+  {
+   "id": "ff472df933c40",
+   "why": "asks the 30% figure; existing only says 50% is wrong"
+  },
+  {
+   "id": "nfedfb7d71da",
+   "why": "different option set (Santhali, Nepali, Konkani)"
+  },
+  {
+   "id": "fcf6a6b7dc550",
+   "why": "different distractors (Nagaland, Sikkim, Meghalaya)"
+  },
+  {
+   "id": "ncdb74bc070d",
+   "why": "asks the Act's name; PYQ asks the year"
+  },
+  {
+   "id": "nf585ebe5524",
+   "why": "stem fixed to sub-national series (no mixing with UNDP 0.685)",
+   "fix": {
+    "s": "In the sub-national HDI series, which State has the lowest HDI (0.650)?",
+    "x": "Bihar is lowest at 0.650 in the sub-national series (India 0.732; not comparable with UNDP's 0.685); Kerala and Goa are above 0.86."
+   }
+  },
+  {
+   "id": "f66859100a3e6",
+   "why": "asks coverage figure; existing asks scheme type"
+  },
+  {
+   "id": "fc7275516f80f",
+   "why": "teaches 'genetic industry' term; existing asks NOT extractive"
+  },
+  {
+   "id": "f481a84d81470",
+   "why": "direct one-liner; PYQ is a four-way match"
+  },
+  {
+   "id": "f31c2907bdb38",
+   "why": "direct one-liner; PYQ is a four-way match"
+  },
+  {
+   "id": "ne68943325c0",
+   "why": "direct one-liner; existing is a three-statement item"
+  },
+  {
+   "id": "f053e662e4a58",
+   "why": "NOT New World form; existing asks Old World crop"
+  },
+  {
+   "id": "nindian-geography-24-2",
+   "why": "incorrect-pair form with different pairs"
+  },
+  {
+   "id": "nindian-geography-24-27",
+   "why": "direct form; PYQs ask not-kharif"
+  },
+  {
+   "id": "n1e29ce99474",
+   "why": "direct form; existing is pair-match"
+  },
+  {
+   "id": "ncf05aad9069",
+   "why": "outdated key fixed: UP largest rice producer 2024-25 per notes",
+   "fix": {
+    "s": "Which State was the largest producer of rice in India in 2024-25?",
+    "a": 1,
+    "x": "In 2024-25 Uttar Pradesh led (20.76 MT), ahead of Telangana, West Bengal (16.02 MT) and Punjab; West Bengal is traditionally called the 'Rice Bowl of India'."
+   }
+  },
+  {
+   "id": "f457811c85abc",
+   "why": "different statements (largest irrigated area, wells 63%, drip 12%)"
+  },
+  {
+   "id": "nf38ceed9a8e",
+   "why": "asks IGP system; PYQ asks India-wide area"
+  },
+  {
+   "id": "fee2c2877cd83",
+   "why": "direct form; existing is pair-match"
+  },
+  {
+   "id": "n75a783a3437",
+   "why": "updated to 2024-25 milk output per notes",
+   "fix": {
+    "s": "India's milk production during 2024–25 was approximately:",
+    "o": [
+     "247.87 million tonnes",
+     "239.30 million tonnes",
+     "471.00 million tonnes",
+     "146.31 million tonnes"
+    ],
+    "a": 0,
+    "x": "India produced 247.87 million tonnes of milk in 2024–25 (239.30 MT in 2023–24; 146.31 MT in 2014–15)."
+   }
+  },
+  {
+   "id": "f4f33bea183b6",
+   "why": "direct rank; existing is NOT-statement form"
+  },
+  {
+   "id": "f2e0ef02ea254",
+   "why": "asks Phase I; existing asks not-Phase II"
+  },
+  {
+   "id": "nworld-geography-16-4",
+   "why": "reverse direction (definition to term)"
+  },
+  {
+   "id": "f70e2aa28f5d2",
+   "why": "direct form; existing is wrongly-matched pairs"
+  },
+  {
+   "id": "fdb5c44af188c",
+   "why": "direct form; existing is NOT-statement"
+  },
+  {
+   "id": "fdc243dfee444",
+   "why": "direct form teaching cigars; existing NOT-match"
+  },
+  {
+   "id": "f688761a79c76",
+   "why": "direct one-liner; existing statements item"
+  },
+  {
+   "id": "f5c6828e54c2d",
+   "why": "different pairs (Renukoot, Pithampur)"
+  },
+  {
+   "id": "f7bff044458e2",
+   "why": "direct form; existing NOT-statement"
+  },
+  {
+   "id": "fbc258834f811",
+   "why": "updated to 2025-26 crude steel output per notes",
+   "fix": {
+    "s": "India's crude steel production in 2025-26 was about:",
+    "a": 2
+   }
+  },
+  {
+   "id": "f1c92b6fc798d",
+   "why": "direct leader; existing statements item"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "ffa8a6181cf1f",
+   "why": "exact repeat of PYQs y87f36211a63/y24f6d0a46a2 (AP RFA rank 8th)",
+   "reason": "dup"
+  },
+  {
+   "id": "n70001b6612d",
+   "why": "exact repeat of PYQs y1c7ea24a695/y6b36f0676e1 (East Godavari highest cover ISFR 2019)",
+   "reason": "dup"
+  },
+  {
+   "id": "n072e1bdb800",
+   "why": "exact repeat of PYQ y753a2f7a672 (same chronology)",
+   "reason": "dup"
+  },
+  {
+   "id": "n3251c2db7dc",
+   "why": "exact repeat of PYQ ycada7fddd51 (Telineelapuram spot-billed pelican)",
+   "reason": "dup"
+  },
+  {
+   "id": "f03cf19e0e43c",
+   "why": "exact repeat of PYQ y4ad737d5bbd (Naupada in Srikakulam)",
+   "reason": "dup"
+  },
+  {
+   "id": "n0d942b6857e",
+   "why": "exact repeat of n8100d6f2d89 (Koundinya only elephant sanctuary/habitat)",
+   "reason": "dup"
+  },
+  {
+   "id": "n3232fdc357f",
+   "why": "exact repeat of PYQ y53947c26143 (deltaic alluvium of K-G deltas)",
+   "reason": "dup"
+  },
+  {
+   "id": "ncf58d7f29c6",
+   "why": "exact repeat of PYQs y35d35582cdc/y2e31ddd032a (red soil most extensive)",
+   "reason": "dup"
+  },
+  {
+   "id": "n1c7b9488061",
+   "why": "exact repeat of PYQ ya012ac781bc (very deep black soils NW Deccan)",
+   "reason": "dup"
+  },
+  {
+   "id": "f80ba7fd10f46",
+   "why": "cumulative Soil Health Card count; trivia",
+   "reason": "trivia"
+  },
+  {
+   "id": "f1f213a78103b",
+   "why": "number of KVs in a school programme; trivia",
+   "reason": "trivia"
+  },
+  {
+   "id": "fbeda978c85dc",
+   "why": "old-inventory diamond carats; trivia",
+   "reason": "trivia"
+  },
+  {
+   "id": "n2019311130a",
+   "why": "exact repeat of PYQ y62c02d6fd6f (oldest basin = Cuddapah)",
+   "reason": "dup"
+  },
+  {
+   "id": "n1d5f57d8745",
+   "why": "exact repeat of nc6af6d41e1f (uranium locality Tummalapalle)",
+   "reason": "dup"
+  },
+  {
+   "id": "f8f75d7c646ca",
+   "why": "exact repeat of PYQ y7558c1365f4 (NGRI rare earths Anantapur)",
+   "reason": "dup"
+  },
+  {
+   "id": "ff66a30b8f110",
+   "why": "year of a corporate stake purchase; trivia",
+   "reason": "trivia"
+  },
+  {
+   "id": "f856415a524cd",
+   "why": "heatstroke case count; trivia",
+   "reason": "trivia"
+  },
+  {
+   "id": "n08a37bdeb21",
+   "why": "repeat of f588f5c6a8ef8 (1 lakh EV stations); other statements unverifiable in notes",
+   "reason": "dup"
+  },
+  {
+   "id": "nafd3cea80eb",
+   "why": "exact repeat of PYQ ya411a2bf954 (India ~17% of world population)",
+   "reason": "dup"
+  },
+  {
+   "id": "n1e26b4bce7a",
+   "why": "exact repeat of PYQ y8fb6df230dd (same CBR 44/CDR 11 calculation)",
+   "reason": "dup"
+  },
+  {
+   "id": "nb534adc4b3a",
+   "why": "exact repeat of PYQ y888d33ef083 (5 to 6 billion, 1987-1999)",
+   "reason": "dup"
+  },
+  {
+   "id": "n23abe71296f",
+   "why": "exact repeat of PYQ y84f2cd8f9d9 (Italy, Japan, South Korea)",
+   "reason": "dup"
+  },
+  {
+   "id": "fe6b154a2e058",
+   "why": "exact repeat of PYQ yb28631211d3 (Arunachal lowest density)",
+   "reason": "dup"
+  },
+  {
+   "id": "n41e12114929",
+   "why": "exact repeat of PYQ yae2c24f1492 (Dhanbad density from mining)",
+   "reason": "dup"
+  },
+  {
+   "id": "nindian-geography-36-5",
+   "why": "exact repeat of PYQ y8df3b2f4549 (smallest UT Lakshadweep)",
+   "reason": "dup"
+  },
+  {
+   "id": "n49bf850ebf4",
+   "why": "exact repeat of PYQ y5907bc0ab08 (1921 Great Divide)",
+   "reason": "dup"
+  },
+  {
+   "id": "f019a4a679d35",
+   "why": "exact repeat of PYQ ya7553b4939e (1.64%)",
+   "reason": "dup"
+  },
+  {
+   "id": "n2e32cef0732",
+   "why": "exact repeat of PYQ y938e8905657 (117 to 382)",
+   "reason": "dup"
+  },
+  {
+   "id": "n432f4337edb",
+   "why": "exact repeat of PYQ yd0cdca12f85 (demographic dividend definition)",
+   "reason": "dup"
+  },
+  {
+   "id": "n4ef7a563f40",
+   "why": "exact repeat of PYQ y5745af0cf93 (same four sex-ratio pairs)",
+   "reason": "dup"
+  },
+  {
+   "id": "n2c77fbe2589",
+   "why": "exact repeat of PYQ y7c0ff33d6b6 (NFHS-5 1,020)",
+   "reason": "dup"
+  },
+  {
+   "id": "n81915c3e86a",
+   "why": "health-table adult sex ratio 996; trivia",
+   "reason": "trivia"
+  },
+  {
+   "id": "f7b94bde29ae8",
+   "why": "mandal-level lowest CSR; trivia",
+   "reason": "trivia"
+  },
+  {
+   "id": "n846108c1f73",
+   "why": "minor list member of AP ULLAS target groups; trivia",
+   "reason": "trivia"
+  },
+  {
+   "id": "nf6aa91f1680",
+   "why": "exact repeat of n37a12a19e25 (NLM launched 1988)",
+   "reason": "dup"
+  },
+  {
+   "id": "na3c280481ab",
+   "why": "exact repeat of PYQ yf0fce474a66 (48.9% in 2011-12)",
+   "reason": "dup"
+  },
+  {
+   "id": "f00cc7d3eba5c",
+   "why": "exact repeat of PYQ y3f7ba4e0f48 (Chittoor highest cultivators)",
+   "reason": "dup"
+  },
+  {
+   "id": "ff8baad89ad5a",
+   "why": "same three facts and same false item as n27517f546cc (PMEGP/NABARD/MGNREGA)",
+   "reason": "dup"
+  },
+  {
+   "id": "ffc386105bfbe",
+   "why": "exact repeat of nb5ee42f58b1 (SC 16.6%)",
+   "reason": "dup"
+  },
+  {
+   "id": "fcbd401e02659",
+   "why": "exact repeat of PYQ y2f3e351c7c1 (AP SC 17.08%)",
+   "reason": "dup"
+  },
+  {
+   "id": "n1bfe52a4c79",
+   "why": "exact repeat of PYQ y7511ecb59e2 (Kadar odd one out)",
+   "reason": "dup"
+  },
+  {
+   "id": "fb284be6c4a01",
+   "why": "exact repeat of n07ecea5bc46 (Korku Satpura-Melghat)",
+   "reason": "dup"
+  },
+  {
+   "id": "na872eff9324",
+   "why": "exact repeat of fb5e129ecd4fc (PM-JANMAN launched 15 Nov 2023)",
+   "reason": "dup"
+  },
+  {
+   "id": "nworld-geography-27-5",
+   "why": "exact repeat of PYQs y897dcb33f84/y62c382671f0 (Mongoloid)",
+   "reason": "dup"
+  },
+  {
+   "id": "n293d332f7b5",
+   "why": "exact repeat of PYQ y06edf689b4d (NE tribes Mongoloid)",
+   "reason": "dup"
+  },
+  {
+   "id": "n50b098d0fc9",
+   "why": "exact repeat of PYQ y3bf8e761eb7 (Santhal Proto-Australoid)",
+   "reason": "dup"
+  },
+  {
+   "id": "n2c54ab3708e",
+   "why": "exact repeat of n11d25b36db7 (Christians 2.3%)",
+   "reason": "dup"
+  },
+  {
+   "id": "n86fd5adcaef",
+   "why": "Haj pilgrim counts and minor allocation figures; trivia",
+   "reason": "trivia"
+  },
+  {
+   "id": "n2c37d1f9125",
+   "why": "exact repeat of PYQ y69383cd6ea9 (Italian of the East)",
+   "reason": "dup"
+  },
+  {
+   "id": "na5d346d0543",
+   "why": "exact repeat of PYQs y80b8f7bba0a/y9c0142be1dd (Bengali after Hindi)",
+   "reason": "dup"
+  },
+  {
+   "id": "nec418b9c373",
+   "why": "exact repeat of PYQ yb1a944a3d32 (Art. 350A)",
+   "reason": "dup"
+  },
+  {
+   "id": "n3ac41f88b64",
+   "why": "exact repeat of PYQ yc5c008aef54 (metropolitan area 10 lakh)",
+   "reason": "dup"
+  },
+  {
+   "id": "n66a7195b9aa",
+   "why": "exact repeat of PYQ y7144a208ae3 (reclassification)",
+   "reason": "dup"
+  },
+  {
+   "id": "n4c3e1bc1d27",
+   "why": "exact repeat of PYQ y67086c65ae5 (same town-function pairs)",
+   "reason": "dup"
+  },
+  {
+   "id": "fb143d9603ce0",
+   "why": "exact repeat of PYQ yc538a41fafe (Bengaluru not planned)",
+   "reason": "dup"
+  },
+  {
+   "id": "nap-geography-24-1",
+   "why": "exact repeat of PYQ ydf2f5245310 (AP 7th by area)",
+   "reason": "dup"
+  },
+  {
+   "id": "naa6ccabf3b8",
+   "why": "exact repeat of PYQ ydf77376a29b (Kurnool highest child share)",
+   "reason": "dup"
+  },
+  {
+   "id": "f06f3cb5678dc",
+   "why": "exact repeat of PYQ y94cd0606aae (Vizianagaram least literate)",
+   "reason": "dup"
+  },
+  {
+   "id": "fae1ab868aee6",
+   "why": "exact repeat of PYQ y95361bd9e66 (West Godavari agri labourers)",
+   "reason": "dup"
+  },
+  {
+   "id": "nfbc1a6f9064",
+   "why": "exact repeat of PYQ yca3741520e2 (Visakhapatnam highest ST)",
+   "reason": "dup"
+  },
+  {
+   "id": "n71a57b47b15",
+   "why": "exact repeat of nap-geography-5-4 (Yanadi, Nellore coastal plains)",
+   "reason": "dup"
+  },
+  {
+   "id": "fec241ba66827",
+   "why": "exact repeat of nap-geography-5-11 (Yerukula basket-making, fortune-telling)",
+   "reason": "dup"
+  },
+  {
+   "id": "nf502cf06817",
+   "why": "exact repeat of PYQ y77dcb7d114d (AMRUT 2018 Odisha, MP)",
+   "reason": "dup"
+  },
+  {
+   "id": "n5c43bb67e39",
+   "why": "exact repeat of PYQ y6e9559beacd (SPI 2022 23rd)",
+   "reason": "dup"
+  },
+  {
+   "id": "f8573f55da23f",
+   "why": "repeat of na3f93fd8db9 (AP MPI headcount 6.06%)",
+   "reason": "dup"
+  },
+  {
+   "id": "f263907aad49c",
+   "why": "exact repeat of n859e086ee1c (tertiary 52.9% GVA)",
+   "reason": "dup"
+  },
+  {
+   "id": "f752a10235feb",
+   "why": "same facts as n9d878638826 (services dominant, quaternary not shrinking)",
+   "reason": "dup"
+  },
+  {
+   "id": "f88e0da594146",
+   "why": "exact repeat of PYQs yd14e7390cbc/yc50c702123b (Milpa = Mexico)",
+   "reason": "dup"
+  },
+  {
+   "id": "nworld-geography-15-17",
+   "why": "exact repeat of PYQs y4c5e3042680/yf3b9f7618e7 (mixed farming)",
+   "reason": "dup"
+  },
+  {
+   "id": "n120b2b332d1",
+   "why": "exact repeat of PYQ y0cb5c75cd21 (Mocha = Yemen)",
+   "reason": "dup"
+  },
+  {
+   "id": "nworld-geography-3-4",
+   "why": "exact repeat of PYQs y24ffca87b56/y5bb2583ac80 (India largest rice exporter)",
+   "reason": "dup"
+  },
+  {
+   "id": "f7a8952dae7be",
+   "why": "exact repeat of PYQ y5945c3d6c13 (Brazil sugarcane)",
+   "reason": "dup"
+  },
+  {
+   "id": "nindian-geography-24-10",
+   "why": "exact repeat of PYQ ya6f063c69b9 (rice 25 C)",
+   "reason": "dup"
+  },
+  {
+   "id": "n0ac99081056",
+   "why": "exact repeat of PYQ y34fdc0fab2d (rice chief food crop)",
+   "reason": "dup"
+  },
+  {
+   "id": "ned5dacc9e10",
+   "why": "exact repeat of PYQ y48a4d5a02ae (third phase = MSP)",
+   "reason": "dup"
+  },
+  {
+   "id": "f871275e84099",
+   "why": "exact repeat of PYQ y97f0216a8b4 (BGREI paddy)",
+   "reason": "dup"
+  },
+  {
+   "id": "n573cf3f864c",
+   "why": "exact repeat of PYQ ycfd31fd9a76 (dryland < 75 cm)",
+   "reason": "dup"
+  },
+  {
+   "id": "n400b80cf8c0",
+   "why": "exact repeat of nd0cf34deebb (Lakadong = Meghalaya)",
+   "reason": "dup"
+  },
+  {
+   "id": "ne098b5c1f5e",
+   "why": "exact repeat of PYQ y45b1cff5935 (tea in Brahmaputra valley)",
+   "reason": "dup"
+  },
+  {
+   "id": "n023e53c86b9",
+   "why": "exact repeat of PYQ yadea9f5e7bf (mustard rabi-only)",
+   "reason": "dup"
+  },
+  {
+   "id": "f1e723a917711",
+   "why": "name of a microbial retting consortium; trivia",
+   "reason": "trivia"
+  },
+  {
+   "id": "nworld-geography-21-17",
+   "why": "exact repeat of PYQ yd172557b7a8 (China tobacco)",
+   "reason": "dup"
+  },
+  {
+   "id": "n644ec4bacf7",
+   "why": "exact repeat of PYQ y8c353d7f1ac (NRC Banana Trichy)",
+   "reason": "dup"
+  },
+  {
+   "id": "nindian-geography-22-9",
+   "why": "exact repeat of PYQ y1fb4d0f417b (CIAH Bikaner)",
+   "reason": "dup"
+  },
+  {
+   "id": "nindian-geography-17-1",
+   "why": "exact repeat of PYQ yfa5d14374c4 (White Revolution milk)",
+   "reason": "dup"
+  },
+  {
+   "id": "n1953edbf080",
+   "why": "exact repeat of PYQ ye38badd5984 (AP first in fish and shrimp)",
+   "reason": "dup"
+  },
+  {
+   "id": "n6478ddec350",
+   "why": "exact repeat of PYQ y9dec6903076 (AP highest inland landings 2019-20)",
+   "reason": "dup"
+  },
+  {
+   "id": "n4aae3d7a01c",
+   "why": "exact repeat of PYQ y7bd64165ce3 / nworld-geography-16-1 (Ruhr Germany)",
+   "reason": "dup"
+  },
+  {
+   "id": "nbfcd23f0eef",
+   "why": "exact repeat of PYQ ya8044ccd9b1 (Sivakasi region)",
+   "reason": "dup"
+  },
+  {
+   "id": "fd0898d2213f7",
+   "why": "exact repeat of naae5ae2fc46 (NALCO refinery Damanjodi)",
+   "reason": "dup"
+  }
+ ]
+}
