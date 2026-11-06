@@ -1,0 +1,671 @@
+{
+ "restore": [
+  {
+   "id": "f046cb898e946",
+   "why": "PSLV-C62 (2026) co-passenger count; current-affairs launch fact in the PSLV co-passenger sub, no repeat"
+  },
+  {
+   "id": "f98a6b9b3a19e",
+   "why": "asks Bellatrix location directly; n0b94617fdab only uses it as a false statement in a NOT-correct item"
+  },
+  {
+   "id": "nc22c6cecb46",
+   "why": "PSLV-C62 failure and its co-passengers; current-affairs launch fact, no repeat in topic"
+  },
+  {
+   "id": "f07c218f7cbd2",
+   "why": "direct question; n2e1a0453ec0 is a four-pair match item"
+  },
+  {
+   "id": "fdc727c0b9b15",
+   "why": "direct question on FSI; n582bd565731 is a NOT-correct item with other statements"
+  },
+  {
+   "id": "fc66ccf3b09fa",
+   "why": "direct question on MMOD orbit; nae5b9d1aaa0 is a Kessler NOT-correct item"
+  },
+  {
+   "id": "f02dfd9f0ee25",
+   "why": "reverse direction: picks Digantara among IS4OM/NETRA/POEM; n9b7921cfb7b asks what Digantara does"
+  },
+  {
+   "id": "fd6fb003f1c8c",
+   "why": "asks launcher of POEM-4; PYQ asks module name, n9416fa5ef8e is a pair item"
+  },
+  {
+   "id": "f69f8679afa8a",
+   "why": "statement-format item (range, type, induction); ncdb46c837b1 is a NOT-correct item in another sub"
+  },
+  {
+   "id": "f8e0f0b804fe7",
+   "why": "direct question on the Nag seeker; nfef67fe9622 is a NOT-matched pair item"
+  },
+  {
+   "id": "ff4313cc49c29",
+   "why": "direct question on Kalam as CSA at Pokhran-II; n86bdb413548 is a NOT-correct item in another sub"
+  },
+  {
+   "id": "nd92ccdd97c6",
+   "why": "reverse direction: what Astra is; PYQ ydad971adb5c asks which missile is the first BVR AAM"
+  },
+  {
+   "id": "ff8119d57e494",
+   "why": "different option set: tests PDV Mk-II interceptor and DRDO-ISRO joint effort, not just the PYQ statements"
+  },
+  {
+   "id": "nd557eac9d75",
+   "why": "reverse direction: asks the code name; PYQ y996b2e3f7fc asks what Operation Shakti was"
+  },
+  {
+   "id": "n575c1c79e50",
+   "why": "reverse direction: what 11 May is; PYQ y096b3e9e01a asks why 11 May is celebrated"
+  },
+  {
+   "id": "fc4a15e59af71",
+   "why": "direct question on NFU origin; n8c5524df915 is a NOT-correct doctrine item"
+  },
+  {
+   "id": "fd24ddfabb152",
+   "why": "different angle: tests MTCR, Wassenaar and Australia Group membership against NSG"
+  },
+  {
+   "id": "na3d2dca78ca",
+   "why": "reverse direction: what Arihant is; PYQ ybbb574c0752 asks which is the first armed nuclear sub"
+  },
+  {
+   "id": "nchemistry-18-7",
+   "why": "reverse direction plus hexogen/T-4 synonyms; PYQs ask another name of RDX"
+  },
+  {
+   "id": "nchemistry-18-5",
+   "why": "direct question on C-4 base; nchemistry-18-3 is an incorrect-statement item"
+  },
+  {
+   "id": "nchemistry-18-14",
+   "why": "different option set: contrasts gun cotton with amatol, dynamite and C-4"
+  },
+  {
+   "id": "f99221fa5ce3d",
+   "why": "AP fact asked directly; nda928c05632 is a four-pair match"
+  },
+  {
+   "id": "f76b5d0b0d5dd",
+   "why": "direct question on DPEPP export target; n0dadf48b5de is a NOT-correct item"
+  },
+  {
+   "id": "f4812b3cfa918",
+   "why": "different statement set (BrahMos to Philippines, export growth); fd1cbf1013e1c only asks the route"
+  },
+  {
+   "id": "f940ffeff4b7e",
+   "why": "different angle: falling energy intensity = decoupling; nd066ae923c7 tests the rising-value trap"
+  },
+  {
+   "id": "n996947cf721",
+   "why": "key fixed: notes give coal reserves as fifth-largest, option reworded so only the 7% oil option is wrong",
+   "fix": {
+    "o": [
+     "India's crude-oil import dependence is about 88%",
+     "India holds about 7% of the world's oil reserves",
+     "India has the fifth-largest coal reserves in the world",
+     "Coal makes up about 55% of India's primary energy"
+    ],
+    "a": 1,
+    "x": "India holds only about 0.4% of world oil reserves; 7% is its share of coal reserves. India has the fifth-largest coal reserves, imports about 88% of its crude oil, and coal is about 55% of its energy mix."
+   }
+  },
+  {
+   "id": "fc87789d25652",
+   "why": "direct question on the 2031-35 NDC target; nfcd3bdba467 is a NOT-correct item"
+  },
+  {
+   "id": "n1a705ff5913",
+   "why": "direct question on largest supplier; n3dba691dd27 asks supplier-share pairs"
+  },
+  {
+   "id": "f1a07a5a6a9c4",
+   "why": "direct question on the IEA 90-day norm; nd2719adac9f is a NOT-correct SPR item"
+  },
+  {
+   "id": "f8fdf35fc93e9",
+   "why": "statement-format item combining year, private role and aim; existing items test them separately"
+  },
+  {
+   "id": "f8a196f545733",
+   "why": "pair item also testing IEP 2006 and DNEP 2017 drafting bodies"
+  },
+  {
+   "id": "ncb3553ee9ad",
+   "why": "NOT-one-of format on MNRE missions; PYQ y15a53e26f50 asks all of the above"
+  },
+  {
+   "id": "f44d5271d4fd6",
+   "why": "direct question on ETI publisher; n173133e89f0 is a pair item"
+  },
+  {
+   "id": "n33c5fd7c837",
+   "why": "different option set: contrasts DERs with coal plants, refineries, nuclear reactors"
+  },
+  {
+   "id": "n9cff898c1bd",
+   "why": "reverse direction: ministry for what; PYQ y43e335e1a92 asks which country"
+  },
+  {
+   "id": "f1758a82c8b04",
+   "why": "direct question on WEO publisher; n323b237e005 is a wrongly-matched pair item"
+  },
+  {
+   "id": "ff342eeaa2e93",
+   "why": "CANNOT-be-produced form (UPSC 2025) with methanol; nc2f7fa22347 asks the combination that can"
+  },
+  {
+   "id": "f5921cbffd072",
+   "why": "direct question on sour gas; n9cab61e5a99 is a combination item"
+  },
+  {
+   "id": "f353bdd988227",
+   "why": "direct question on Brent; n46af13eb72c is a pair item"
+  },
+  {
+   "id": "f2e14d7302f69",
+   "why": "asks what replaced NELP production-sharing; PYQ y4253aeaf5e2 asks how revenue accrues"
+  },
+  {
+   "id": "fae057b4ee2f0",
+   "why": "direct question on IEA norm; nb43f9ed344c is a NOT-correct SPR item"
+  },
+  {
+   "id": "f86574b5971d1",
+   "why": "direct question on per-capita consumption; f647ca52b1d57 is a statement item"
+  },
+  {
+   "id": "nc7c5b7b9f7e",
+   "why": "pair item also testing UDAY debt takeover and AP ICEP-2024 160 GW target (notes 5:72 confirm 160 GW)"
+  },
+  {
+   "id": "f8fb484d30613",
+   "why": "different statement set (sedimentation, seismic risk, 18.5 million displaced)"
+  },
+  {
+   "id": "nbf053892184",
+   "why": "different option set: names the Narmada project; PYQ ye6d895216a5 only asks the theme"
+  },
+  {
+   "id": "f23c1afa9cf4e",
+   "why": "direct question on NBA target; n6c7de4d548f is a movement-fact match item"
+  },
+  {
+   "id": "n4587f25f33a",
+   "why": "outdated option fixed: Tehri PSP now 1,000 MW commissioned (notes, fd7bc07fde803)",
+   "fix": {
+    "o": [
+     "Pinnapuram PSP — Andhra Pradesh — 1,680 MW",
+     "Tehri PSP — Uttarakhand — 1,000 MW",
+     "Sharavathi PSP — Karnataka — 2,000 MW",
+     "Upper Sileru PSP — Andhra Pradesh — 500 MW"
+    ],
+    "a": 3,
+    "x": "Upper Sileru PSP has a capacity of 1,350 MW, not 500 MW. Tehri PSP (1,000 MW, fully commissioned April 2026), Sharavathi (2,000 MW) and Pinnapuram (1,680 MW) are correctly matched."
+   }
+  },
+  {
+   "id": "f1c9198694465",
+   "why": "direct question on Little Boy fuel; naed779b6393 is a pair item"
+  },
+  {
+   "id": "n126509d72a9",
+   "why": "ambiguous key fixed: plutonium-bearing statement (true per APPSC key) replaced by a clearly false coolant statement",
+   "fix": {
+    "o": [
+     "It is a conceptual prototype designed at BARC",
+     "It is regarded as India's flagship thorium reactor",
+     "It uses liquid sodium as its coolant",
+     "It uses heavy water as its moderator"
+    ],
+    "a": 2,
+    "x": "The AHWR is a BARC-designed thorium reactor that uses heavy water as moderator and boiling light water as coolant. Liquid sodium is the coolant of fast breeder reactors, not of the AHWR."
+   }
+  },
+  {
+   "id": "n5ec907fa4b8",
+   "why": "adds the exact site Cadarache and Indian distractors; PYQs ask region (southern France)"
+  },
+  {
+   "id": "n878f2916b9e",
+   "why": "single-answer form contrasting USSR breakup with 1991 crisis, NSG waiver and 123 Agreement"
+  },
+  {
+   "id": "f0b38b55d1444",
+   "why": "different option set: VVER-1000 vs EPR, AP1000 and PHWR-700"
+  },
+  {
+   "id": "f9513d5ff714c",
+   "why": "direct question on TMI INES level; nbfd6775c700 is a pair item"
+  },
+  {
+   "id": "n1c5e64c99b7",
+   "why": "reverse direction: use of Na-24; PYQ yc985e19aeef asks which isotope measures blood flow"
+  },
+  {
+   "id": "faff8f460f524",
+   "why": "reverse direction: use of As-74; PYQ y428ab53b40c asks which isotope detects tumours"
+  },
+  {
+   "id": "f02da9001297c",
+   "why": "direct use of Gold-198; PYQ y2c2872c8264 only shows it as the wrong pair"
+  },
+  {
+   "id": "fe7508a50018c",
+   "why": "direct unit question with J/kg definition; n80fa6d4e340 is a pair item"
+  },
+  {
+   "id": "fa7debec3eb11",
+   "why": "direct question on port radiotracers; naf4561a0fde is a NOT-correct item"
+  },
+  {
+   "id": "f00c19c4b93ac",
+   "why": "direct question on 500 GW target; n98738ac0641 pairs it with net zero"
+  },
+  {
+   "id": "f28053f5c208e",
+   "why": "pair item also testing Panchamrit 50%, net zero 2070 and 175 GW by 2022"
+  },
+  {
+   "id": "f210a09a9e549",
+   "why": "asks the capacity figure; n31fd4aec86d asks only the rank"
+  },
+  {
+   "id": "f64f3d6f4d705",
+   "why": "asks the lender (KfW); ndf084a73254 asks the percentage split"
+  },
+  {
+   "id": "n3944801f431",
+   "why": "ambiguous figure fixed: stem dated to August 2026 and key set to the notes value 164.59 GW",
+   "fix": {
+    "s": "India's installed solar capacity in August 2026, about 29 per cent of total installed capacity, was:",
+    "o": [
+     "44.61 GW",
+     "132.85 GW",
+     "150.26 GW",
+     "164.59 GW"
+    ],
+    "a": 3,
+    "x": "Installed solar capacity reached 164.59 GW in August 2026, about 29 per cent of India's total capacity. 150.26 GW was the 31 March 2026 figure and 44.61 GW the record addition in 2025-26."
+   }
+  },
+  {
+   "id": "na086ca458ac",
+   "why": "NOT-correct item with other AP solar facts (Rayalaseema cluster, Simhadri floating, land lease)"
+  },
+  {
+   "id": "fe19dea86ac80",
+   "why": "AP solar policy fact (land offered for solar lease); AP facts are exam material"
+  },
+  {
+   "id": "n08e4deedadf",
+   "why": "quantifies the cost premium (25%); f4b7ac5711e97 only asks which is not an advantage"
+  },
+  {
+   "id": "n9192cf7fb83",
+   "why": "different option set (STAR-C, Global Solar Facility) from PYQ y5aeb81f318b"
+  },
+  {
+   "id": "f8de17b6f30b9",
+   "why": "different pairs and answer (STAR-C) from n07c61332b56"
+  },
+  {
+   "id": "nenvironment-1-1",
+   "why": "environment fact on APPSC syllabus (National Centre for Marine Biodiversity, Jamnagar); misplaced topic is not off-syllabus"
+  },
+  {
+   "id": "nenvironment-1-2",
+   "why": "environment fact on APPSC syllabus (Corbett 1936, Dudhwa rhino 1984)"
+  },
+  {
+   "id": "nenvironment-1-6",
+   "why": "AP environment fact (Seshachalam first AP biosphere reserve) plus Surat solar PHCs"
+  },
+  {
+   "id": "nenvironment-1-4",
+   "why": "environment fact on APPSC syllabus (first World Climate Conference 1979)"
+  },
+  {
+   "id": "f0f579e5b73d9",
+   "why": "NOT-correct format with different statements (any-direction VAWT, yaw control)"
+  },
+  {
+   "id": "f004c71e7aa41",
+   "why": "direct question on parent ministry; n87c42ace21b is a NOT-correct item"
+  },
+  {
+   "id": "n9640945f6cb",
+   "why": "asks the ordering (USA second); f2addf07fde8b only lists the three ahead of India"
+  },
+  {
+   "id": "f86f4c6f5b31f",
+   "why": "direct question on GEC-I States; n75150a540f5 is a NOT-correct item"
+  },
+  {
+   "id": "fca2fbf3af61d",
+   "why": "different option set (large hydro, small hydro, bagasse); n42174f65551 is a NOT-correct item"
+  },
+  {
+   "id": "f887fac3fbe54",
+   "why": "asks the right methane range; ne3a90655653 only uses 85-95% as a false statement"
+  },
+  {
+   "id": "n660db919e67",
+   "why": "reverse direction: what power alcohol is; PYQ y1f7d7bd7e64 asks what molasses makes"
+  },
+  {
+   "id": "f6fb4dc5fbcab",
+   "why": "direct question on Durgaduani location; nb5ebce93540 is a pair item"
+  },
+  {
+   "id": "f24c631f938fe",
+   "why": "AP clean-energy fact (Kanigiri CBG plant feedstock); AP facts are exam material"
+  },
+  {
+   "id": "naa827a13b2c",
+   "why": "different option set: separates green from pink (nuclear) and turquoise hydrogen"
+  },
+  {
+   "id": "f78f5724542ca",
+   "why": "direct question on electrolyser target; n2853618ea40 is a NOT-a-target item"
+  },
+  {
+   "id": "ncc491122791",
+   "why": "direct question on port State; n8acb2c5da23 is a pair item"
+  },
+  {
+   "id": "ff94ffa6325c4",
+   "why": "direct question on CAES; n33281637fea is a pair item"
+  },
+  {
+   "id": "ff9a85fe43472",
+   "why": "direct question on SAKSHAM agency; nb24d707def1 is a NOT-correct item"
+  },
+  {
+   "id": "nc421af3d018",
+   "why": "pair format also testing ECSBC; existing items are a direct question and a statement item"
+  },
+  {
+   "id": "f0d4057cf50f6",
+   "why": "direct question on 75% takeover; nf731b69b7d2 is a NOT-correct item"
+  },
+  {
+   "id": "f11569980d038",
+   "why": "direct question on Omkareshwar State; na825432cdad is a NOT-correct item"
+  },
+  {
+   "id": "f179263f99fca",
+   "why": "direct AP question on Galiveedu; n4fbeeb9fb03 is a NOT-matched pair item"
+  },
+  {
+   "id": "n4882cb40a26",
+   "why": "NOT-correct item covering both components and districts of the AP Tata hybrid"
+  },
+  {
+   "id": "fa5a9a0534d97",
+   "why": "direct AP question on Simhadri operator; existing items are pair items"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "n8596824be37",
+   "why": "exact repeat of PYQ y19c4d3d61b1 (PSLV-C37, 104 satellites, same stem and answer)"
+  },
+  {
+   "id": "fa33ecda9418e",
+   "why": "trivia: exact three-decimal wheat estimate (122.724 MT), no exam value"
+  },
+  {
+   "id": "nbea5d5d729e",
+   "why": "exact repeat of PYQ yebf32a57032 (cannot be monitored = spread of disease among humans)"
+  },
+  {
+   "id": "fabc2e0470a77",
+   "why": "exact repeat of PYQ yf9d9b58f08a (NRSC most flood-prone = Ganga-Brahmaputra)"
+  },
+  {
+   "id": "fcf4b8bb104b0",
+   "why": "trivia: a planned but never-executed step of a failed launch (PS4 de-boost on PSLV-C62)"
+  },
+  {
+   "id": "ne376b1b5bd7",
+   "why": "exact repeat of PYQ y277a5f142b1 (DRDO motto, same answer and trap)"
+  },
+  {
+   "id": "nad283435bd1",
+   "why": "exact repeat of PYQ yb3106bb274d (JCBCAT set up with DRDO)"
+  },
+  {
+   "id": "n3fae4d2aade",
+   "why": "exact repeat of PYQ y7e7be882526 (Nocdurna not DRDO, same four options)"
+  },
+  {
+   "id": "n4b6e5697a31",
+   "why": "exact repeat of PYQ ycb411c91910 (man-portable air defence = VSHORADS, same options)"
+  },
+  {
+   "id": "n9924ef5260f",
+   "why": "exact repeat of PYQ y7025ba76687 (Pokhran-I date 18 May 1974)"
+  },
+  {
+   "id": "nb5c11448f02",
+   "why": "exact repeat of PYQ y4eefcfccf23 (krytron as nuclear trigger, same four options)"
+  },
+  {
+   "id": "n1ae1cf25417",
+   "why": "exact repeat of PYQ yf5de8325e8d (IL-78 refueller, same options)"
+  },
+  {
+   "id": "n2657a3dd4df",
+   "why": "exact repeat of PYQ y619dad568e6 (Astradharini = torpedo launch and recovery vessel)"
+  },
+  {
+   "id": "faf67c8165f99",
+   "why": "trivia: who inaugurated a research cell"
+  },
+  {
+   "id": "n6916a267212",
+   "why": "exact repeat of PYQ ya518b994942 (supply disruptions and fluctuating prices)"
+  },
+  {
+   "id": "nd7108e9f90b",
+   "why": "trivia: one-month year-on-year change in the import bill"
+  },
+  {
+   "id": "n5e0626650d9",
+   "why": "repeats statement III of PYQ y0afd393a847 (coal/MSW to methanol); answer is in the programme name"
+  },
+  {
+   "id": "naa7218cc793",
+   "why": "exact repeat of PYQ y704327b48b3 (first in-depth review = IEA)"
+  },
+  {
+   "id": "nd72f9e6f71e",
+   "why": "exact repeat of PYQ y22f1b782453 (Renewables Integration in India 2021 = NITI + IEA)"
+  },
+  {
+   "id": "na16a18ab5de",
+   "why": "exact repeat of PYQ y9cbf76f91a2 (IREDA MoU with IIT Bhubaneswar)"
+  },
+  {
+   "id": "ff5f01d8fd8e4",
+   "why": "trivia: revenue target in a PSU performance MoU"
+  },
+  {
+   "id": "faa665cfd74aa",
+   "why": "trivia: event at which an MoU was signed"
+  },
+  {
+   "id": "nf1ba902850f",
+   "why": "exact repeat of PYQ yfe4c541bf45 (NCEF purpose)"
+  },
+  {
+   "id": "f0642a20ea6ab",
+   "why": "repeat of PYQs y04b79b2a523/y70ee9f06835 (Diu first 100% solar by day) and n24f27a807e2"
+  },
+  {
+   "id": "n405d758fb42",
+   "why": "exact repeat of PYQs yfc550569841/ycbe078b1b4a (anthracite highest carbon)"
+  },
+  {
+   "id": "nc986d13a8d2",
+   "why": "exact repeat of n64e768b62b4 (same stem, commercial auctions began 2020)"
+  },
+  {
+   "id": "fe0c1d51fbd98",
+   "why": "repeat of nd505135729d (shale gas via fracking and horizontal drilling, same distractors)"
+  },
+  {
+   "id": "nc2310e04dab",
+   "why": "exact repeat of PYQ y94a59fac566 (state autonomy not a problem of the power sector)"
+  },
+  {
+   "id": "nee1fe62d6fc",
+   "why": "exact repeat of PYQ y049ac9ccffe (UDAY = financial turnaround of DISCOMs)"
+  },
+  {
+   "id": "nphysics-14-16",
+   "why": "repeat of PYQ y8b4e4abe086 (photoelectric cell: light to electric) and y4feb128a49e"
+  },
+  {
+   "id": "nenvironment-32-5",
+   "why": "exact repeat of PYQ y54e25181498 (Gaura Devi led Raini women)"
+  },
+  {
+   "id": "nd7948c356ed",
+   "why": "exact repeat of PYQs y3db0f3b0a50/y0f959492102 (PSP = long-duration storage)"
+  },
+  {
+   "id": "faef3efc23cd3",
+   "why": "exact repeat of PYQ y3421dcec2ff (Tehri on Bhagirathi)"
+  },
+  {
+   "id": "f316e2572b0f3",
+   "why": "exact repeat of PYQ y956e2a268fe (Edward Teller, hydrogen bomb)"
+  },
+  {
+   "id": "f4bcc9d041dad",
+   "why": "exact repeat of n13d42bc397a (reactor-site pairs, answer Tarapur-BWR)"
+  },
+  {
+   "id": "ff3cfd715ec77",
+   "why": "exact repeat of na69a9239a3c (lack of thorium not a Stage III hurdle)"
+  },
+  {
+   "id": "n749b8e05789",
+   "why": "exact repeat of PYQ y411e1d7ebac (PFBR by BHAVINI)"
+  },
+  {
+   "id": "ne047c1e518d",
+   "why": "exact repeat of PYQ yb4f29719551 (Dec 2022 fusion ignition at Lawrence Livermore)"
+  },
+  {
+   "id": "f6e5d5c41fd13",
+   "why": "exact repeat of PYQ y0c99dd1668a (Canada not in ITER)"
+  },
+  {
+   "id": "f332b62332586",
+   "why": "exact repeat of n43c0cbaf0c4 (Aditya at IPR Gandhinagar, same options)"
+  },
+  {
+   "id": "nee13d9917c9",
+   "why": "exact repeat of PYQ y2f3e0c93fd7 (Kovvada in Srikakulam)"
+  },
+  {
+   "id": "nda32b363bf0",
+   "why": "exact repeat of PYQ yd0f77de6c9b (France first post-waiver deal)"
+  },
+  {
+   "id": "fbbccfb1405a6",
+   "why": "repeat of n8d3d8ab6ab6 (NSG entry blocked by China)"
+  },
+  {
+   "id": "n117be65d835",
+   "why": "exact repeat of PYQs y36c4093db75/y791030cfa4e (P-32 for leukaemia)"
+  },
+  {
+   "id": "n4db2cf497e9",
+   "why": "exact repeat of PYQs y666a20ae167/y2e02737e6ff (radon for cancer)"
+  },
+  {
+   "id": "n2b61c607aef",
+   "why": "repeat of PYQ y75fcfa38ea3 (natural gas not renewable) and y1b891dae5be"
+  },
+  {
+   "id": "n9fc607c13fd",
+   "why": "exact repeat of PYQ y2bcd9e2965f (solar most important non-conventional source)"
+  },
+  {
+   "id": "f3e2c443d90c8",
+   "why": "exact repeat of PYQ yaaf5af343a0 (gobar gas mainly methane)"
+  },
+  {
+   "id": "fb966948e14f1",
+   "why": "trivia: derived growth multiple (58 times the 2014 level)"
+  },
+  {
+   "id": "n6fa42af32f0",
+   "why": "exact repeat of PYQ y1c7a9c587ff (63.30 GW solar on 31 Dec 2022)"
+  },
+  {
+   "id": "f96992bc02a98",
+   "why": "trivia: stopover cities of a foreign aircraft tour"
+  },
+  {
+   "id": "n953bdb12c52",
+   "why": "exact repeat of PYQ yb6d6f35addd (India fourth in wind)"
+  },
+  {
+   "id": "n157bb36afdd",
+   "why": "exact repeat of PYQ y9c53a06f6b4 (Gujarat largest wind State)"
+  },
+  {
+   "id": "f060fb0a5153e",
+   "why": "trivia: which plant felt one grid oscillation"
+  },
+  {
+   "id": "fc455aa4c9d23",
+   "why": "trivia: an industry lobbying demand"
+  },
+  {
+   "id": "na38d9b1d808",
+   "why": "trivia: site of a foreign firm pilot (already in app as n7820fb345a3)"
+  },
+  {
+   "id": "n011a7c19f22",
+   "why": "exact repeat of n89220133333 (mandatory E20 from 1 April 2026)"
+  },
+  {
+   "id": "n6df1b12147b",
+   "why": "exact repeat of PYQs y31e79c295e3/y938c37afb6d (first geothermal project, Puga, Ladakh)"
+  },
+  {
+   "id": "f9be537f37962",
+   "why": "exact repeat of PYQs ye8194dc5394/yb481d5879bc (FCEV exhaust = water vapour)"
+  },
+  {
+   "id": "f33e3fd852af9",
+   "why": "trivia: cylinder class on one train"
+  },
+  {
+   "id": "f05f106872b64",
+   "why": "trivia: exact density value of liquid hydrogen"
+  },
+  {
+   "id": "fe30589c29f57",
+   "why": "copy of PYQ y14f64180a0d (same three statements, all correct)"
+  },
+  {
+   "id": "f990ff4f3ec50",
+   "why": "exact repeat of PYQ ycd032e60dc8 (97% of DISCOM debt covered)"
+  },
+  {
+   "id": "nc927e657a92",
+   "why": "exact repeat of PYQ yf943ea0ad93 (25 MW floating solar at Simhadri)"
+  }
+ ]
+}
