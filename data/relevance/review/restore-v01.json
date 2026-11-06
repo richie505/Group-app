@@ -1,0 +1,682 @@
+{
+ "restore": [
+  {
+   "id": "n7026278d82d",
+   "why": "different option set: contrasts Kushana gold with PMC-era dynasties (Haryanka/Nanda/Maurya silver)"
+  },
+  {
+   "id": "n4e6c4d65d24",
+   "why": "other direction: n9d8af1ee860 gives Kusidin asks meaning; this asks the term and adds Satapatha Brahmana"
+  },
+  {
+   "id": "f0059d2f2f30c",
+   "why": "direct one-fact question; n6515ab3186d is a combination item"
+  },
+  {
+   "id": "fbd25a7fd3edb",
+   "why": "direct question; ncfdd356b529 is a ruler-capital matching item"
+  },
+  {
+   "id": "nindian-history-51-11",
+   "why": "different angle: asks place of nirvana; PYQ only asks pilgrimage place related to Parshvanath"
+  },
+  {
+   "id": "nf9b98a28ceb",
+   "why": "direct symbol question; n3b49d63e97f is a multi-pair item"
+  },
+  {
+   "id": "faa9ee999126b",
+   "why": "teaches the right place (Champapuri); na2f0d45da93 only marks Vasupujya-Pavapuri as wrong"
+  },
+  {
+   "id": "f63dcb4224cc2",
+   "why": "other direction: n5ee70f6ae16 asks whose sister Trishala was; this asks the maternal uncle"
+  },
+  {
+   "id": "ne710e424f4f",
+   "why": "different angle: adds Pravachanasara and Panchastikaya to Kundakunda works"
+  },
+  {
+   "id": "f890076e2b699",
+   "why": "direct question with 18th-century date; n45cf012526f is a multi-pair item"
+  },
+  {
+   "id": "f2c7d55fa0285",
+   "why": "direct question; nbd8811bbf32 is a multi-pair item"
+  },
+  {
+   "id": "f8a7c2a503b0a",
+   "why": "direct question; ncc424a6dc47 is a work-author matching item"
+  },
+  {
+   "id": "n5b314dc8396",
+   "why": "other direction: PYQs give the Eastern Chalukyas and ask the faith; this gives the Jain centre and asks the dynasty (AP fact)"
+  },
+  {
+   "id": "nindian-history-26-2-9",
+   "why": "place-event pairs teach four sites (Lumbini, Bodh Gaya, Sarnath, Kushinagar), not just the sermon"
+  },
+  {
+   "id": "f0d5328a3fc3e",
+   "why": "other direction: PYQ gives the wheel and asks the event; this gives the event and asks the symbol"
+  },
+  {
+   "id": "f625365292c01",
+   "why": "direct question; n874d2cee3f9 is a multi-pair item"
+  },
+  {
+   "id": "n2768738c420",
+   "why": "different statement: Dhamma and Vinaya as teacher after his death is new"
+  },
+  {
+   "id": "ff44dd3591576",
+   "why": "direct definition; ndd7f631ded1 is a NOT-matched pairs item"
+  },
+  {
+   "id": "f721023ded13b",
+   "why": "direct question; nf4dfe405556 is a council-president matching item"
+  },
+  {
+   "id": "fed4fe07b730e",
+   "why": "direct question; n5314bc54610 is a text-language matching item"
+  },
+  {
+   "id": "fd321fa0235a1",
+   "why": "direct question; n4cf6e03a5cc is a school-doctrine matching item"
+  },
+  {
+   "id": "nbee0c5aec4d",
+   "why": "key fixed: location dropped (notes give Dhanyakataka, PYQ key Sriparvata); now asks the author of the Tarkajvala",
+   "fix": {
+    "s": "Which Andhra Buddhist scholar of the Madhyamika school wrote the Tarkajvala?",
+    "x": "Bhavaviveka, a Madhyamika scholar from Andhra, wrote the Tarkajvala; Hiuen Tsang places him at the Dhanyakataka (Amaravati) vihara, while an APPSC key gave Sriparvata. Buddhaghosha worked at Anuradhapura (Visuddhimagga), Dharmakirti wrote Pramana Vartika and Nyaya Bindu, and Asanga is linked with Yogachara."
+   }
+  },
+  {
+   "id": "fc256975ed169",
+   "why": "direct question on the tradition linking the stupa to Devi; n7e3d869de09 is a description item"
+  },
+  {
+   "id": "nindian-history-76-15",
+   "why": "other direction: PYQ gives the image and asks the cave; this gives Kanheri and asks its feature"
+  },
+  {
+   "id": "nac70359156a",
+   "why": "key fixed: Siddharthaka identification is disputed; now asks the sect centre at Guntupalli (Rajagirika)",
+   "fix": {
+    "s": "Guntupalli is identified as the centre of which Buddhist sect of Andhra?",
+    "o": [
+     "Purvasaila",
+     "Aparasaila",
+     "Rajagirika",
+     "Uttarasaila"
+    ],
+    "a": 2,
+    "x": "Guntupalli is identified as the Rajagirika centre (some lists place Rajagirika at Sriparvata). Purvasaila was centred at Dhanyakataka (Amaravati) and Aparasaila at Sriparvata (Nagarjunakonda). The APPSC 2011 key treated 'Guntupalli - Siddharthaka' as a wrong pair."
+   }
+  },
+  {
+   "id": "nindian-history-26-2-35",
+   "why": "AP history fact (Reddy kingdom capital Kondaveedu) is on the APPSC syllabus"
+  },
+  {
+   "id": "fab2be9c8f812",
+   "why": "different option set: teaches Adurru as the only Divya stupa, Bhairavakonda (Nellore) and Guntupalli (West Godavari)"
+  },
+  {
+   "id": "nf2d32ed5d6e",
+   "why": "key fixed: replaced the second wrong pair so only Purvasaila - Salihundam is wrong",
+   "fix": {
+    "o": [
+     "Purvasaila - Dhanyakataka (Amaravati)",
+     "Aparasaila - Sriparvata (Nagarjunakonda)",
+     "Rajagirika - Guntupalli",
+     "Purvasaila - Salihundam"
+    ],
+    "x": "Purvasaila was centred at Dhanyakataka (Amaravati), Aparasaila at Sriparvata (Nagarjunakonda) and Rajagirika at Guntupalli (some lists give Sriparvata). Salihundam was a later Mahayana-Vajrayana centre, not the Purvasaila centre."
+   }
+  },
+  {
+   "id": "f1d8995a5fdb6",
+   "why": "different angle: adds the Indrapalanagara vihara to the Vishnukundin fact"
+  },
+  {
+   "id": "ff370c9aad1be",
+   "why": "direct one-ruler question; n3daa961f50a is a group item"
+  },
+  {
+   "id": "n3ebeabd77cd",
+   "why": "other direction: PYQ gives Lokayata and asks the school; this gives Charvaka and asks the other name"
+  },
+  {
+   "id": "n8fffaf63609",
+   "why": "other direction: PYQs give the fate doctrine and ask the sect; this gives the Ajivikas and asks the doctrine"
+  },
+  {
+   "id": "n0f387a8271d",
+   "why": "other direction: PYQ gives the doctrine and asks the school; this gives Charvaka and asks the doctrine"
+  },
+  {
+   "id": "ndf8d723cb30",
+   "why": "other direction: PYQ asks who accepts only perception; this asks Charvaka's only pramana"
+  },
+  {
+   "id": "f0887c1fa3038",
+   "why": "direct question; n1d8db8cd15d is a school-doctrine matching item"
+  },
+  {
+   "id": "f3fa0ffc6c7ba",
+   "why": "direct question; nindian-history-39-16 is a pairs item"
+  },
+  {
+   "id": "nindian-history-17-15",
+   "why": "Rigvedic Battle of Ten Kings is on the APPSC ancient history syllabus"
+  },
+  {
+   "id": "nc448b31b3a0",
+   "why": "different angle: battle site plus Vedic river names (Vitasta, Asikni, Parushni, Vipasha)"
+  },
+  {
+   "id": "nindian-history-17-3",
+   "why": "Kalinga War date is a core APPSC fact"
+  },
+  {
+   "id": "n6f64c4dc925",
+   "why": "other direction: PYQ gives Polibrotha and asks the city; this gives Pataliputra and asks Megasthenes' name"
+  },
+  {
+   "id": "n83d6f5297f3",
+   "why": "different angle: adds the 30 fortified towns and 1,00,000 infantry figures from Megasthenes"
+  },
+  {
+   "id": "f904cefc4a2be",
+   "why": "statement format combining Purana count with the Vishnu Purana as Mauryan source"
+  },
+  {
+   "id": "f530afec126f4",
+   "why": "different option set: pairs texts with Mauryan rulers (Dipavamsa, Mahavamsa, Ashokavadana)"
+  },
+  {
+   "id": "fdafc9cf2d971",
+   "why": "direct question; n98a7d68aaae is a ruler-faith matching item"
+  },
+  {
+   "id": "nb69818b143c",
+   "why": "other direction: PYQ gives Megasthenes and asks whose envoy; this gives Seleucus and asks the envoy"
+  },
+  {
+   "id": "f86c023dc317a",
+   "why": "different option set: teaches Bherighosha to Dhammaghosha and 261 BCE alongside the RE XIII point"
+  },
+  {
+   "id": "fb15b9ddf2e0e",
+   "why": "teaches the right missionary; n940076cd311 only marks Maharakkhita - Maharattha as wrong"
+  },
+  {
+   "id": "f354eb22202ef",
+   "why": "direct question on the year; PYQ yf0a59eb5d9f is a two-statement item"
+  },
+  {
+   "id": "n754fe839162",
+   "why": "direct question on the source; PYQ yf0a59eb5d9f is a two-statement item"
+  },
+  {
+   "id": "nindian-history-5-6",
+   "why": "Kanishka's court is a standard APPSC question; no repeat in this topic"
+  },
+  {
+   "id": "nindian-history-5-2",
+   "why": "Agrammes = Dhanananda is exam-worthy; no repeat in this topic"
+  },
+  {
+   "id": "nindian-history-5-10",
+   "why": "Patanjali - Pushyamitra Shunga is a standard exam fact"
+  },
+  {
+   "id": "f8dbbfa89897f",
+   "why": "direct question; nindian-history-1-2 is a site-script matching item"
+  },
+  {
+   "id": "ne92e3a098ad",
+   "why": "other direction: PYQ gives AP and asks the site; this gives Erragudi and asks the state"
+  },
+  {
+   "id": "n36edd347662",
+   "why": "key fixed: replaced the Erragudi option (teachers-students, arguably also right) with Kalsi",
+   "fix": {
+    "o": [
+     "Kalsi",
+     "Rajula Mandagiri",
+     "Kanaganahalli",
+     "Maski"
+    ],
+    "x": "Rajula Mandagiri (Kurnool, AP) is associated with the guru-disciple relationship. Kalsi has a set of Major Rock Edicts, Maski names Ashoka, and Kanaganahalli has the portrait label. (Erragudi records teachers instilling Dhamma in students.)"
+   }
+  },
+  {
+   "id": "f7b29831058a7",
+   "why": "location of edict sites is examinable (places), not trivia"
+  },
+  {
+   "id": "n6b0fe7e7f3c",
+   "why": "other direction: PYQs give weights and measures and ask the officer; this gives the officer and asks the duty"
+  },
+  {
+   "id": "neb3d27568b9",
+   "why": "other direction: nf059149ec1a asks the capital of Dakshinapatha; this gives Suvarnagiri and asks its role"
+  },
+  {
+   "id": "ff63d9e53b321",
+   "why": "direct question on the numbered committee; n6a1537c6cab is a NOT-matched pairs item"
+  },
+  {
+   "id": "nda3d0b5e30b",
+   "why": "different option set: also teaches Sita and Vivita"
+  },
+  {
+   "id": "f531f4daec0f0",
+   "why": "direct question; n04b1c78096b is a revenue-term matching item"
+  },
+  {
+   "id": "fcd57fcc9e1e3",
+   "why": "different correct pair (Mashaka - copper); n5d6e894034d keys Suvarna - gold"
+  },
+  {
+   "id": "f9e4b3b45e74e",
+   "why": "other direction: nf56cafabcad gives divorce and asks the term; this gives Moksha and asks the meaning"
+  },
+  {
+   "id": "fbbb3884439c9",
+   "why": "direct material question; n36a130866bc is a description item"
+  },
+  {
+   "id": "ff19dcdae1d67",
+   "why": "direct contrast question; n60f7fa5da7a is a NOT-correct statement item"
+  },
+  {
+   "id": "n95dc6271d61",
+   "why": "key fixed: the Didarganj option was also correct; changed to Yaksha so only Parkham is right",
+   "fix": {
+    "o": [
+     "Manibhadra Yaksha — Parkham near Mathura",
+     "Chauri-bearer Yakshi — Noh near Bharatpur",
+     "Yaksha — Didarganj near Patna",
+     "Yaksha — Besnagar near Vidisha"
+    ],
+    "x": "The inscribed Manibhadra Yaksha was found at Parkham near Mathura. The chauri-bearer Yakshi is from Didarganj near Patna (a Yakshi, not a Yaksha), Besnagar is associated with a Yakshi, and Noh with a Yaksha."
+   }
+  },
+  {
+   "id": "n685d84290b0",
+   "why": "different angle: full chronological order of four monuments; PYQs ask only the earliest"
+  },
+  {
+   "id": "f93106c071e08",
+   "why": "direct question; n2a7c70a3341 is a pairs item"
+  },
+  {
+   "id": "nc8e49fb58b0",
+   "why": "key fixed: Siddharthaka identification disputed; rebuilt pairs so only Sriparvata - Nagarjunakonda is right",
+   "fix": {
+    "o": [
+     "Sriparvata — Nagarjunakonda",
+     "Siddharthaka Chaitya — Bodhan",
+     "Andhranagari — Guntupalli",
+     "Rajagirika centre — Salihundam"
+    ],
+    "a": 0,
+    "x": "Sriparvata (Vijayapuri) is Nagarjunakonda. The Siddharthaka chaitya is placed at Gudivada (APPSC G2 2008 key; some lists give Guntupalli), not Bodhan, the Assaka capital. Andhranagari (Dhanyakataka) is Amaravati-Dharanikota, and the Rajagirika centre is Guntupalli."
+   }
+  },
+  {
+   "id": "nindian-history-29-4",
+   "why": "founder-predecessor pairs also teach Pushyamitra - Brihadratha; different format from nindian-history-27-4"
+  },
+  {
+   "id": "nindian-history-143-14",
+   "why": "different angle: asks the author (Sudraka); PYQ only asks which is not by Kalidasa"
+  },
+  {
+   "id": "nindian-history-4-25",
+   "why": "Chola revival under Vijayalaya is on the APPSC syllabus"
+  },
+  {
+   "id": "f565890135eb0",
+   "why": "different statements: stone encasing of Sanchi, wood/ivory to stone transition"
+  },
+  {
+   "id": "nindian-history-29-12",
+   "why": "Vijayanagara dynasty start year is examinable"
+  },
+  {
+   "id": "nindian-history-29-14",
+   "why": "Delhi Sultanate dynasty order is examinable"
+  },
+  {
+   "id": "nindian-history-4-26",
+   "why": "Jejakabhukti / Chandela origin is examinable"
+  },
+  {
+   "id": "f85ccebd3e75c",
+   "why": "ancient region names (Gedrosia) are examinable historical geography"
+  },
+  {
+   "id": "nindian-history-12-8",
+   "why": "other direction: PYQ gives 16 coins and asks the site; this gives Bairat and asks the count"
+  },
+  {
+   "id": "fc4e54af859f2",
+   "why": "direct question; n10861534a06 is a pairs item"
+  },
+  {
+   "id": "n24d59324c58",
+   "why": "other direction: PYQ asks where restruck coins are found; this gives Jogalthembi and asks what it holds"
+  },
+  {
+   "id": "f715e55369820",
+   "why": "different option set: teaches Saka 72, victories over Satakarni and Yaudheyas, Sudarshana repair"
+  },
+  {
+   "id": "nindian-history-9-11",
+   "why": "different angle: links Vikrama Samvat with Krit and Malav; PYQ only links Malav and Krit"
+  },
+  {
+   "id": "nee33dfb0419",
+   "why": "other direction: PYQ gives Kadphises II and asks the title; this gives the titles and asks the ruler"
+  },
+  {
+   "id": "f371d652c4cff",
+   "why": "different angle: asks whom the earth is called to witness against; PYQ asks what the mudra symbolises"
+  },
+  {
+   "id": "f07e6356e4d91",
+   "why": "direct question; ne53e0c333ed is a NOT-correct statement item"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "n6b3a4de90b0",
+   "why": "exact repeat of PYQ y52524397d5f (Sarthavaha = convoy of merchants); other terms already in f091a1b3bce24"
+  },
+  {
+   "id": "n4bb08fcc913",
+   "why": "exact repeat of PYQ ydc836dae429 (Second Council organised by Kalashoka)"
+  },
+  {
+   "id": "nindian-history-140-15",
+   "why": "exact repeat of PYQ y08b0bceabca (Second Council at Vaishali), near-identical options"
+  },
+  {
+   "id": "nf2ef960ccbe",
+   "why": "exact repeat of PYQ y66653a4b72b (Udayin made Pataliputra capital)"
+  },
+  {
+   "id": "n43861a90055",
+   "why": "exact repeat of PYQ y088711eeabf (Mahavira born at Kundagrama)"
+  },
+  {
+   "id": "nf0d9fded73b",
+   "why": "exact repeat of PYQs y56f5de37dd5/ybd332bd42de (Syadvada - Kundakundacharya)"
+  },
+  {
+   "id": "ffe8547fde416",
+   "why": "exact repeat of PYQs ye45f2195e33/yf9f20a19de0/y518156dc9d3 (Syadvadachala Simha)"
+  },
+  {
+   "id": "fc802b5b2dbda",
+   "why": "exact repeat of PYQ y64796fdb111 (Therigatha not Jain)"
+  },
+  {
+   "id": "n744b9288378",
+   "why": "exact repeat of PYQs yf8cb16a37ed/y2dd24395865 (Samayasara - Kundakundacharya)"
+  },
+  {
+   "id": "f22a6aff79f50",
+   "why": "exact repeat of PYQ yedd18a50d65 (Kalyanakaraka - Ugradityacharya)"
+  },
+  {
+   "id": "f7e1fb209f1a5",
+   "why": "authorship of Yogasara is contested (notes: Nagarjuna; the topic PYQ keys Kundakundacharya); cannot key one answer safely, and the PYQ already asks it"
+  },
+  {
+   "id": "n308edeef0be",
+   "why": "exact repeat of PYQ y78cee4ae099 (Kharavela - Chedi dynasty)"
+  },
+  {
+   "id": "n5db173aada3",
+   "why": "exact repeat of PYQ y1f0291f1966 (Chamundaraya built Gommateshwara); its 983 CE date also conflicts with notes"
+  },
+  {
+   "id": "n57bf09cb10e",
+   "why": "exact repeat of PYQ y9e343f384ee (Maya from the Koliya clan)"
+  },
+  {
+   "id": "n75c96720555",
+   "why": "exact repeat of PYQ y47de05b7df3 (Nirvana = extinction of desire/craving)"
+  },
+  {
+   "id": "ned4586c8f3a",
+   "why": "exact repeat of PYQs ya16769866b5/yb9568517ed9 (council venue order)"
+  },
+  {
+   "id": "nindian-history-57-17",
+   "why": "exact repeat of PYQ y0232fded0b4 (Vinaya Pitaka = monastic rules)"
+  },
+  {
+   "id": "n13be8cf6daa",
+   "why": "exact repeat of nba8c34a0791 (Mahaparinibbana Sutta in Digha Nikaya), same options"
+  },
+  {
+   "id": "fe5751ac0f956",
+   "why": "exact repeat of n6b1f51205f2 (Vajrayana - Padmasambhava)"
+  },
+  {
+   "id": "nindian-history-76-11",
+   "why": "exact repeat of PYQ y3c103fae522 (Ellora has Buddhist, Hindu and Jain caves)"
+  },
+  {
+   "id": "f324c98022ee3",
+   "why": "exact repeat of PYQ yac486539906 (Svetagaja Jataka in Ajanta Cave 10)"
+  },
+  {
+   "id": "f675f1dcacc13",
+   "why": "exact repeat of PYQ y5193db181fe (Bhavaviveka acharya at Sriparvata); key also disputed"
+  },
+  {
+   "id": "nindian-history-14-18",
+   "why": "exact repeat of PYQ y86810f31343 (Somapura Mahavihara - Dharmapala)"
+  },
+  {
+   "id": "nf329b83cfdb",
+   "why": "exact repeat of PYQ yf0dfa6e320c (Darius I first Persian ruler to take part of India)"
+  },
+  {
+   "id": "nindian-history-39-13",
+   "why": "exact repeat of nb397b6dd606 (Ambhi of Taxila surrendered and helped Alexander)"
+  },
+  {
+   "id": "n5f91b9e106f",
+   "why": "exact repeat of PYQs y8ded3c19f3b/yaf1bbf380a6 (Chanakya = Vishnugupta)"
+  },
+  {
+   "id": "n7018c53d15e",
+   "why": "exact repeat of PYQ y5008963e8f9 (Sandrocottus = Chandragupta Maurya)"
+  },
+  {
+   "id": "nf8fd93f388f",
+   "why": "exact repeat of n115af3d4833 and PYQ yb3c03219374 (first pan-Indian empire = Mauryas)"
+  },
+  {
+   "id": "f9f89c6824303",
+   "why": "exact repeat of PYQ yae20f704afa (Rudradaman repaired Sudarshana lake without forced labour)"
+  },
+  {
+   "id": "n73671d1dddb",
+   "why": "exact repeat of PYQ y469f670528a (Bhadrabahu with Chandragupta)"
+  },
+  {
+   "id": "nindian-history-51-42",
+   "why": "exact repeat of n6da0b56b295 (Barabar caves dedicated to the Ajivikas)"
+  },
+  {
+   "id": "f215d5640b486",
+   "why": "exact repeat of nbab4523b839 (Kalinga War in Ashoka's 8th regnal year)"
+  },
+  {
+   "id": "n11cd5743968",
+   "why": "exact repeat of PYQ y596aae9b101 (minds unpolluted with jealousy - Ashoka)"
+  },
+  {
+   "id": "f865e7fd36077",
+   "why": "exact repeat of PYQ ye7e6bb5a444 (first hospitals and herbal gardens - Ashoka)"
+  },
+  {
+   "id": "n18ebedda9f4",
+   "why": "exact repeat of PYQ yc5e30c6ed38 (first ruler to inscribe on rocks and pillars)"
+  },
+  {
+   "id": "nindian-history-1-3",
+   "why": "exact repeat of PYQs y8b53434de36/ye8f55a2abc7 (Prinsep first read the edicts)"
+  },
+  {
+   "id": "f7f5870f865f3",
+   "why": "exact repeat of ne98f24310ac (Maski edict found in 1915)"
+  },
+  {
+   "id": "nindian-history-1-4",
+   "why": "exact repeat of PYQs y47dba70f36b/yc3b101b12c1 (Kharosthi written right to left)"
+  },
+  {
+   "id": "n3d34b146c17",
+   "why": "exact repeat of PYQ yeb08b7f23d6 (Andhras in Rock Edict XIII)"
+  },
+  {
+   "id": "nindian-history-1-27",
+   "why": "exact repeat of PYQ yc0a0e2cacb0 (Rock Edict XII on religious tolerance)"
+  },
+  {
+   "id": "n2b36c32ff03",
+   "why": "exact repeat of PYQ yc0ac6787223 (Firoz Shah Tughlaq brought the Topra pillar to Delhi)"
+  },
+  {
+   "id": "nd4d83e6ccac",
+   "why": "exact repeat of PYQs ybd4cc45d8da/y838e75da064 (Samaharta collected revenue)"
+  },
+  {
+   "id": "n1d2a4cf337b",
+   "why": "exact repeat of PYQ y4c3d5a7e61b (Dandapala = army department)"
+  },
+  {
+   "id": "n16b95b6044c",
+   "why": "date of a Korean rain gauge: foreign trivia with no APPSC value"
+  },
+  {
+   "id": "nbaff3f6589b",
+   "why": "exact repeat of PYQ ycfce741b680 (Mauryan silver coin = Pana), same options"
+  },
+  {
+   "id": "f2682cc9b13ce",
+   "why": "exact repeat of PYQ yf30cd4b82ef (Tamralipti main Ganga port)"
+  },
+  {
+   "id": "n0aabf1b9d31",
+   "why": "exact repeat of PYQ y1e773a65baa (Megasthenes' seven classes)"
+  },
+  {
+   "id": "n1d8f0c3f635",
+   "why": "exact repeat of PYQ ya544b2e9a15 (Barabar caves for the Ajivikas)"
+  },
+  {
+   "id": "n3e30ab62fea",
+   "why": "exact repeat of PYQ y2c5897e339c (Kesariya largest stupa)"
+  },
+  {
+   "id": "ffb38c44de740",
+   "why": "exact repeat of nc737ca38ddf (debasement of later punch-marked coins)"
+  },
+  {
+   "id": "n1ed03d73211",
+   "why": "exact repeat of PYQs yd835cdcb6e8/y9128952d54d (Sungas succeeded the Mauryas)"
+  },
+  {
+   "id": "n32e22da705f",
+   "why": "exact repeat of n0b6452dedaf (Aitareya Brahmana first mentions the Andhras)"
+  },
+  {
+   "id": "n291d679196c",
+   "why": "exact repeat of PYQ yf5b6022623d (Andhapatha in Vinayavatthu)"
+  },
+  {
+   "id": "fefa6875343b6",
+   "why": "exact repeat of PYQ yfc0c4753ede (Assaka capital Bodhan)"
+  },
+  {
+   "id": "f0848c24a6687",
+   "why": "exact repeat of PYQ y3d119c97154 (Siddharthaka chaitya identification, same options); key also disputed"
+  },
+  {
+   "id": "nindian-history-27-9",
+   "why": "exact repeat of PYQ y0ead9cf0aa6 (Kanvas succeeded the Sungas)"
+  },
+  {
+   "id": "nindian-history-143-12",
+   "why": "exact repeat of PYQs ye65f81ddfcb/ycdc85d1c070 (Malavikagnimitram, hero Agnimitra)"
+  },
+  {
+   "id": "f5ab84792fb9d",
+   "why": "exact repeat of na9071ed64e4 (Besnagar Garuda-dhvaja to Vasudeva) and PYQ yd5a4a29cb8e"
+  },
+  {
+   "id": "n7fec1a47d3b",
+   "why": "exact repeat of PYQ y38d58bf5c1a (Agathocles coins with Sankarshana and Vasudeva)"
+  },
+  {
+   "id": "n35c482f7a2b",
+   "why": "exact repeat of PYQ y38d58bf5c1a (Agathocles coins with Vasudeva and Sankarshana)"
+  },
+  {
+   "id": "n364588bbff0",
+   "why": "exact repeat of PYQs y27adcf8678e/yf68ec363e87/ya6a7b4a9daa (Nagasena)"
+  },
+  {
+   "id": "f261012fbf6ee",
+   "why": "exact repeat of PYQ ya7632e3dc26 (Milindapanho is a Pali text)"
+  },
+  {
+   "id": "nda90cacbdf1",
+   "why": "exact repeat of PYQ ye4bdca21f60 (Junnar inscription issued by Ayama)"
+  },
+  {
+   "id": "nindian-history-9-13",
+   "why": "exact repeat of PYQ y5a6897fea54 (2009 = Saka 1931)"
+  },
+  {
+   "id": "nindian-history-142-2",
+   "why": "exact repeat of nee33dfb0419 (restored in this packet): title Sarvalokeshvara -> Vima Kadphises"
+  },
+  {
+   "id": "f8e8a181031b0",
+   "why": "army size of a single campaign (70,000 troops)"
+  },
+  {
+   "id": "nindian-history-142-27",
+   "why": "exact repeat of PYQ yf8aedf9d1af (Saundarananda - Ashvaghosha)"
+  },
+  {
+   "id": "nindian-history-142-13",
+   "why": "exact repeat of PYQ y3f2a64b747e (Patanjali not at Kanishka's court)"
+  },
+  {
+   "id": "n1c4ae7b1b06",
+   "why": "exact repeat of PYQs y39f1525cbd5/y2b6e89c7dea/ya62315253c3 (Vima first large-scale gold)"
+  },
+  {
+   "id": "nindian-history-142-19",
+   "why": "exact repeat of PYQ yfc8aeedd713 (Kartikeya on Yaudheya coins)"
+  },
+  {
+   "id": "nindian-history-142-10",
+   "why": "exact repeat of PYQs y899a3c79917/y40faf5cddf4 (Sarnath style = Gupta)"
+  }
+ ]
+}
