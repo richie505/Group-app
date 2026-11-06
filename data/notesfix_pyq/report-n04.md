@@ -17,4 +17,4 @@
 ## Counts
 - Contradictions fixed: 9
 - MISSING facts added: 2 (Burhan-i-Maasir: Sadasiva Raya's income 12 crore huns – row 122; Vyasatirtha as Krishnadevaraya's Rajaguru, with Purandaradasa as his disciple – row 120)
-- Already covered: 48
+- Already covered: 69 (of 85 points; the other 16 points fed the contradiction fixes and additions above)
