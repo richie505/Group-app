@@ -1,0 +1,1770 @@
+{
+ "reshape": {
+  "n675f2d3141d": {
+   "shape": "statements",
+   "s": "Consider the following statements about SAR sensors:\n1. SAR sensors can observe through clouds and in darkness.\n2. SAR is an active sensor that uses its own microwave signal and reads the echo.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: SAR sends its own microwave signal instead of relying on sunlight, so it works through clouds and in darkness."
+  },
+  "n501adac5357": {
+   "shape": "statements",
+   "s": "Consider the following statements about NVS-02:\n1. It was launched by GSLV-F14.\n2. Its launch on 29 January 2025 was the 100th launch from Sriharikota.\n3. A loose pyro connector was blamed for its failure to reach its circular orbit.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "NVS-02 was launched by GSLV-F15 (not F14) on 29 January 2025, the 100th Sriharikota launch; a loose pyro connector was blamed."
+  },
+  "nb3f5051ce0a": {
+   "shape": "statements",
+   "s": "Consider the following statements about Indian satellites:\n1. INSAT-3DS and Kalpana-1 are used for weather monitoring.\n2. The Oceansat series serves ocean studies.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: INSAT-3DS and Kalpana-1 are weather satellites and Oceansat serves ocean studies."
+  },
+  "n1fc87cb9eaa": {
+   "shape": "statements",
+   "s": "Consider the following statements about national Earth-observation applications of NRSC:\n1. FASAL crop forecasting is one of them.\n2. Forest-fire monitoring through INFFRAS is one of them.\n3. Civil aviation precision landing is one of them.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "FASAL and INFFRAS are NRSC Earth-observation applications; civil aviation precision landing is the job of GAGAN, not an NRSC application."
+  },
+  "ndb8a5683f99": {
+   "shape": "one-liner",
+   "s": "Remote sensing gathers information about a target without:",
+   "o": [
+    "Electromagnetic radiation",
+    "Physical contact",
+    "Transmission and processing of data",
+    "A sensor"
+   ],
+   "a": 1,
+   "x": "Remote sensing works from a distance without physical contact, so physical sampling is not one of its stages."
+  },
+  "n1970791ad86": {
+   "shape": "one-liner",
+   "s": "How many types of resolution are there in remote sensing?",
+   "o": [
+    "Five",
+    "Three",
+    "Six",
+    "Four"
+   ],
+   "a": 3,
+   "x": "The four types are spatial, spectral, temporal and radiometric; 'chemical resolution' does not exist."
+  },
+  "n53277bfe671": {
+   "shape": "one-liner",
+   "s": "INSAT-3DS was launched in 2024 by:",
+   "o": [
+    "GSLV-F15",
+    "GSLV-F16",
+    "GSLV-F14",
+    "PSLV-C57"
+   ],
+   "a": 2,
+   "x": "INSAT-3DS flew on GSLV-F14 in 2024; GSLV-F16 carried NISAR and PSLV-C57 carried Aditya-L1."
+  },
+  "nc926817e7f1": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about PSLV-C62?",
+   "o": [
+    "It lost 15 co-passengers",
+    "Its first stage did not ignite",
+    "It was launched on 12 January 2026",
+    "It lost EOS-N1 'Anvesha'"
+   ],
+   "a": 1,
+   "x": "PSLV-C62 failed because of a roll-rate disturbance at the end of its third stage, not first-stage non-ignition."
+  },
+  "n1680612e274": {
+   "shape": "one-liner",
+   "s": "Which mission's lander crash-landed on the Moon in September 2019?",
+   "o": [
+    "Chandrayaan-1",
+    "Chandrayaan-3",
+    "Mangalyaan",
+    "Chandrayaan-2"
+   ],
+   "a": 3,
+   "x": "Chandrayaan-2's Vikram lander crash-landed in September 2019; it did not soft-land."
+  },
+  "n742b2757c61": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Chandrayaan-2?",
+   "o": [
+    "Its Vikram lander soft-landed in September 2019",
+    "It aimed to study lunar surface, minerals and water ice",
+    "Its orbiter kept operating",
+    "It aimed to study the lunar south polar region"
+   ],
+   "a": 0,
+   "x": "Vikram's soft landing failed in September 2019, though the orbiter kept operating."
+  },
+  "n4397999f29a": {
+   "shape": "statements",
+   "s": "Consider the following statements about Chandrayaan-3 payloads:\n1. APXS performs passive laser ranging.\n2. Passive laser ranging is performed by NASA's laser retroreflector.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 1,
+   "x": "APXS determines elemental composition, so 1 is wrong; passive laser ranging is done by NASA's laser retroreflector."
+  },
+  "n906b85a06be": {
+   "shape": "one-liner",
+   "s": "India's first polarimetry mission is:",
+   "o": [
+    "Chandrayaan-3",
+    "XPoSat",
+    "Aditya-L1",
+    "AstroSat"
+   ],
+   "a": 1,
+   "x": "XPoSat is India's first polarimetry mission; Aditya-L1 is India's first solar observatory."
+  }
+ },
+ "new": [
+  {
+   "topic": 39,
+   "sec": 1,
+   "angle": "2,11",
+   "shape": "one-liner",
+   "s": "In a remote sensing system, which stage comes right after recording by the sensor?",
+   "o": [
+    "Radiation through the atmosphere",
+    "Transmission, reception and processing",
+    "Interpretation and analysis",
+    "Interaction with the target"
+   ],
+   "a": 1,
+   "x": "The stages run: energy source, atmosphere, interaction with target, recording, then transmission, reception and processing, interpretation, application."
+  },
+  {
+   "topic": 39,
+   "sec": 2,
+   "angle": "2,11",
+   "shape": "one-liner",
+   "s": "Which of the following is a passive remote-sensing instrument?",
+   "o": [
+    "LiDAR",
+    "Infrared radiometer",
+    "Laser ranging sensor",
+    "RISAT SAR"
+   ],
+   "a": 1,
+   "x": "Infrared radiometers record emitted heat and are passive; SAR and laser/LiDAR send their own pulse and are active."
+  },
+  {
+   "topic": 39,
+   "sec": 2,
+   "angle": "2,11",
+   "shape": "one-liner",
+   "s": "Optical (visible/near-infrared) imaging needs:",
+   "o": [
+    "Cloud cover",
+    "Its own microwave pulse",
+    "A laser echo",
+    "Daylight and a clear sky"
+   ],
+   "a": 3,
+   "x": "Optical sensors use reflected light, so they need daylight and a clear sky, unlike SAR."
+  },
+  {
+   "topic": 39,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which remote-sensing technique maps ground deformation such as land subsidence?",
+   "o": [
+    "NDVI",
+    "InSAR",
+    "LiDAR",
+    "Hyperspectral imaging"
+   ],
+   "a": 1,
+   "x": "InSAR maps ground deformation such as subsidence and earthquake or volcano uplift."
+  },
+  {
+   "topic": 39,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "NDVI estimates vegetation health from reflectance in which bands?",
+   "o": [
+    "Microwave and thermal infrared",
+    "Blue and green",
+    "Ultraviolet and visible",
+    "Red and near-infrared"
+   ],
+   "a": 3,
+   "x": "NDVI compares red and near-infrared reflectance to judge vegetation health."
+  },
+  {
+   "topic": 39,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "LiDAR is used mainly to map:",
+   "o": [
+    "Ocean colour",
+    "Elevation, 3D terrain and canopy height",
+    "Heat from forest fires",
+    "Materials and chemicals"
+   ],
+   "a": 1,
+   "x": "LiDAR is laser ranging that maps elevation, 3D terrain and canopy height."
+  },
+  {
+   "topic": 39,
+   "sec": 4,
+   "angle": "7,13",
+   "shape": "one-liner",
+   "s": "In satellite orbits, LEO stands for:",
+   "o": [
+    "Long Equatorial Orbit",
+    "Lateral Earth Orbit",
+    "Lunar Elliptical Orbit",
+    "Low Earth Orbit"
+   ],
+   "a": 3,
+   "x": "LEO is Low Earth Orbit (200-2,000 km), used for Earth observation."
+  },
+  {
+   "topic": 39,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Most Earth-observation satellites use a sun-synchronous orbit because it:",
+   "o": [
+    "Passes each place at the same local solar time",
+    "Traces a figure-8 ground track",
+    "Lies in the plane of the equator",
+    "Keeps the satellite fixed over one longitude"
+   ],
+   "a": 0,
+   "x": "A sun-synchronous orbit crosses each place at the same local solar time, giving even lighting."
+  },
+  {
+   "topic": 39,
+   "sec": 4,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "The geostationary orbit is also called:",
+   "o": [
+    "Sun-synchronous orbit",
+    "Hohmann orbit",
+    "Halo orbit",
+    "Clarke's orbit"
+   ],
+   "a": 3,
+   "x": "The geostationary orbit, circular and in the equatorial plane, is also called Clarke's orbit."
+  },
+  {
+   "topic": 39,
+   "sec": 4,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Navigation satellites such as GPS mainly use which orbit?",
+   "o": [
+    "GEO",
+    "Sun-synchronous polar orbit",
+    "LEO",
+    "MEO"
+   ],
+   "a": 3,
+   "x": "MEO (2,000-30,000 km) is used for navigation such as GPS."
+  },
+  {
+   "topic": 39,
+   "sec": 5,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "IRS-1A was launched in 1988 on a:",
+   "o": [
+    "PSLV",
+    "Ariane-1",
+    "SLV-3",
+    "Soviet Vostok rocket"
+   ],
+   "a": 3,
+   "x": "IRS-1A went up from Baikonur on a Soviet Vostok rocket; IRS-P2 (1994) was the first IRS on PSLV."
+  },
+  {
+   "topic": 39,
+   "sec": 5,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "India's first experimental Earth-observation satellite (1979) was:",
+   "o": [
+    "Bhaskara I",
+    "Rohini",
+    "IRS-1A",
+    "IRS-P2"
+   ],
+   "a": 0,
+   "x": "Bhaskara I (1979) was the first experimental EO satellite; IRS-1A (1988) was the first operational one."
+  },
+  {
+   "topic": 39,
+   "sec": 5,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "IRS satellites are NOT used for:",
+   "o": [
+    "Mineral exploration",
+    "Locating groundwater",
+    "Assessing crop productivity",
+    "Telecommunication"
+   ],
+   "a": 3,
+   "x": "IRS data serve crops, groundwater and mineral exploration, not telecommunication."
+  },
+  {
+   "topic": 39,
+   "sec": 6,
+   "angle": "1,10",
+   "shape": "one-liner",
+   "s": "SCATSAT-1 carries a scatterometer to measure:",
+   "o": [
+    "Sea-surface height",
+    "Land subsidence",
+    "Crop health",
+    "Ocean wind vectors"
+   ],
+   "a": 3,
+   "x": "SCATSAT-1's scatterometer measures ocean wind vectors and helps track cyclones."
+  },
+  {
+   "topic": 39,
+   "sec": 6,
+   "angle": "1,10",
+   "shape": "one-liner",
+   "s": "HySIS is an Indian satellite used for:",
+   "o": [
+    "Navigation",
+    "Ocean wind vectors",
+    "DTH broadcasting",
+    "Hyperspectral imaging"
+   ],
+   "a": 3,
+   "x": "HySIS is a hyperspectral imaging satellite, not a DTH satellite."
+  },
+  {
+   "topic": 39,
+   "sec": 6,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "SARAL, carrying the AltiKa Ka-band altimeter, is a joint satellite of ISRO and:",
+   "o": [
+    "ESA",
+    "NASA",
+    "CNES",
+    "JAXA"
+   ],
+   "a": 2,
+   "x": "SARAL is an ISRO-CNES (France) satellite measuring sea-surface height."
+  },
+  {
+   "topic": 39,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "EOS-04 is the new name of:",
+   "o": [
+    "Oceansat-3",
+    "RISAT-1A",
+    "GISAT-1A",
+    "GISAT-1"
+   ],
+   "a": 1,
+   "x": "EOS-04 was RISAT-1A, a SAR satellite; GISAT-1 became EOS-03 and Oceansat-3 became EOS-06."
+  },
+  {
+   "topic": 39,
+   "sec": 6,
+   "angle": "1,10",
+   "shape": "one-liner",
+   "s": "Resourcesat satellites are mainly used for:",
+   "o": [
+    "Crops, watershed and precision farming",
+    "Mapping and surveillance",
+    "All-weather radar imaging",
+    "Potential Fishing Zone advisories"
+   ],
+   "a": 0,
+   "x": "Resourcesat is for crops; Cartosat maps, Oceansat gives PFZ advisories and RISAT does radar imaging."
+  },
+  {
+   "topic": 39,
+   "sec": 6,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The EOS-08 microsatellite was launched in 2024 by:",
+   "o": [
+    "GSLV-F17",
+    "PSLV-C61",
+    "SSLV-D3",
+    "SSLV-D2"
+   ],
+   "a": 2,
+   "x": "EOS-08 is a microsatellite launched by SSLV-D3 in 2024."
+  },
+  {
+   "topic": 39,
+   "sec": 6,
+   "angle": "1",
+   "shape": "statements",
+   "s": "Consider the following statements about EOS renamings:\n1. EOS-03 was earlier GISAT-1.\n2. EOS-05 was earlier GISAT-1A.\n3. EOS-06 was earlier RISAT-1A.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "EOS-03 = GISAT-1 and EOS-05 = GISAT-1A; EOS-06 is Oceansat-3 (RISAT-1A is EOS-04)."
+  },
+  {
+   "topic": 39,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Cartosat-1 (2005), India's first mapping satellite, provided:",
+   "o": [
+    "Radar images through cloud",
+    "About 25 cm resolution",
+    "Stereo images for 3D maps",
+    "Hyperspectral images"
+   ],
+   "a": 2,
+   "x": "Cartosat-1 gave stereo images for 3D maps; ~25 cm resolution is Cartosat-3."
+  },
+  {
+   "topic": 39,
+   "sec": 7,
+   "angle": "4,12",
+   "shape": "one-liner",
+   "s": "Cartosat-3 was launched on PSLV-C47 along with how many US nanosatellites?",
+   "o": [
+    "13",
+    "15",
+    "36",
+    "104"
+   ],
+   "a": 0,
+   "x": "Cartosat-3 (Nov 2019) flew on PSLV-C47 with 13 US nanosatellites."
+  },
+  {
+   "topic": 39,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Cartosat-3 imagery is used for:",
+   "o": [
+    "Gati Shakti and border monitoring",
+    "Potential Fishing Zone advisories",
+    "Ocean wind vectors",
+    "Weather forecasting"
+   ],
+   "a": 0,
+   "x": "Cartosat-3 (~25 cm) supports Gati Shakti, borders and heritage apps."
+  },
+  {
+   "topic": 39,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "NISAR was launched on 30 July 2025 by:",
+   "o": [
+    "GSLV-F15",
+    "GSLV-F17",
+    "GSLV-F16",
+    "PSLV-C61"
+   ],
+   "a": 2,
+   "x": "NISAR flew on GSLV-F16, not on a PSLV."
+  },
+  {
+   "topic": 39,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "NISAR is the world's first:",
+   "o": [
+    "Dual-frequency radar satellite",
+    "Hyperspectral satellite",
+    "Scatterometer satellite",
+    "Geosynchronous land-imaging satellite"
+   ],
+   "a": 0,
+   "x": "NISAR, with NASA L-band and ISRO S-band radars and a 12 m reflector, is the first dual-frequency radar satellite."
+  },
+  {
+   "topic": 39,
+   "sec": 8,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "EOS-09, a C-band SAR satellite, was lost in May 2025 on:",
+   "o": [
+    "GSLV-F10",
+    "PSLV-C61",
+    "GSLV-F15",
+    "PSLV-C62"
+   ],
+   "a": 1,
+   "x": "PSLV-C61 lost EOS-09 in May 2025; PSLV-C62 lost EOS-N1 and GSLV-F10 lost EOS-03."
+  },
+  {
+   "topic": 39,
+   "sec": 8,
+   "angle": "1",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about EOS-05?",
+   "o": [
+    "It images from visible to long-wave infrared",
+    "It was launched on 4 September 2026",
+    "It weighs about 2,367 kg",
+    "It was launched by PSLV-C62"
+   ],
+   "a": 3,
+   "x": "EOS-05 was launched by GSLV-F17 from Sriharikota; the other statements are correct."
+  },
+  {
+   "topic": 39,
+   "sec": 9,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "GSAT-10 (2012) carried communication payloads and a payload for:",
+   "o": [
+    "COSPAS-SARSAT",
+    "GAGAN",
+    "QZSS",
+    "NavIC"
+   ],
+   "a": 1,
+   "x": "GSAT-10, launched on Ariane-5, carried communication and GAGAN payloads."
+  },
+  {
+   "topic": 39,
+   "sec": 9,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "GSAT-30 (January 2020) was launched to replace:",
+   "o": [
+    "INSAT-1B",
+    "INSAT-4CR",
+    "Kalpana-1",
+    "INSAT-4A"
+   ],
+   "a": 3,
+   "x": "GSAT-30, a C/Ku communication satellite on Ariane-5, replaces INSAT-4A."
+  },
+  {
+   "topic": 39,
+   "sec": 9,
+   "angle": "17",
+   "shape": "one-liner",
+   "s": "INSAT services are carried in which frequency bands?",
+   "o": [
+    "C and Ku only",
+    "C, Ku, Ka and S",
+    "L5 and S only",
+    "Ka only"
+   ],
+   "a": 1,
+   "x": "INSAT uses the C, Ku, Ka and S bands; L5 and S are NavIC bands."
+  },
+  {
+   "topic": 39,
+   "sec": 9,
+   "angle": "12,17",
+   "shape": "one-liner",
+   "s": "INSAT-4CR (2007), the heaviest satellite launched from India in its day, was launched by:",
+   "o": [
+    "GSLV-F10",
+    "GSLV-F04",
+    "GSLV-F02",
+    "Ariane-5"
+   ],
+   "a": 1,
+   "x": "INSAT-4CR (2,130 kg) was launched by GSLV-F04."
+  },
+  {
+   "topic": 39,
+   "sec": 10,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "The NavIC constellation consists of:",
+   "o": [
+    "7 GEO satellites",
+    "3 GEO + 4 GSO satellites",
+    "3 MEO + 4 GSO satellites",
+    "4 GEO + 3 GSO satellites"
+   ],
+   "a": 1,
+   "x": "NavIC has 7 satellites: 3 geostationary and 4 inclined geosynchronous."
+  },
+  {
+   "topic": 39,
+   "sec": 10,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "NavIC signals are transmitted in which bands?",
+   "o": [
+    "Ka and S",
+    "C and S",
+    "C and Ku",
+    "L5 and S"
+   ],
+   "a": 3,
+   "x": "NavIC uses the L5 and S bands."
+  },
+  {
+   "topic": 39,
+   "sec": 10,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "The first NavIC-based device was developed by:",
+   "o": [
+    "Elena Geo Systems",
+    "NRSC",
+    "NSIL",
+    "Airports Authority of India"
+   ],
+   "a": 0,
+   "x": "Elena Geo Systems built the first NavIC-based device."
+  },
+  {
+   "topic": 39,
+   "sec": 10,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "GAGAN is implemented by ISRO with the:",
+   "o": [
+    "DRDO",
+    "Ministry of Earth Sciences",
+    "NRSC",
+    "Airports Authority of India"
+   ],
+   "a": 3,
+   "x": "GAGAN is an ISRO-Airports Authority of India system for civil aviation precision landing."
+  },
+  {
+   "topic": 39,
+   "sec": 10,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "GAGAN stands for:",
+   "o": [
+    "GPS and GLONASS Augmented Navigation",
+    "GEO Aided GPS Area Navigation",
+    "Global Aided GEO Augmented Network",
+    "GPS Aided GEO Augmented Navigation"
+   ],
+   "a": 3,
+   "x": "GAGAN = GPS Aided GEO Augmented Navigation; its ground stations send corrections for aviation."
+  },
+  {
+   "topic": 39,
+   "sec": 11,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Landslide Atlas of India (2023) was prepared by:",
+   "o": [
+    "NRSC",
+    "CWC",
+    "APSAC",
+    "IIRS"
+   ],
+   "a": 0,
+   "x": "NRSC brought out the Landslide Atlas of India in 2023."
+  },
+  {
+   "topic": 39,
+   "sec": 11,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Glacial Lake Atlas 2023 counted how many glacial lakes in India?",
+   "o": [
+    "7,750",
+    "7,570",
+    "9,570",
+    "5,570"
+   ],
+   "a": 1,
+   "x": "The 2023 atlas counted 7,570 glacial lakes in India."
+  },
+  {
+   "topic": 39,
+   "sec": 11,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which body has monitored glacial lakes since 2011 using NRSC imagery?",
+   "o": [
+    "IIRS",
+    "NSIL",
+    "APSDMA",
+    "CWC"
+   ],
+   "a": 3,
+   "x": "The Central Water Commission (CWC) monitors glacial lakes with NRSC imagery since 2011."
+  },
+  {
+   "topic": 39,
+   "sec": 11,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The state remote-sensing agency of Andhra Pradesh is:",
+   "o": [
+    "SDSC-SHAR",
+    "APSAC",
+    "NRSC",
+    "APSDMA"
+   ],
+   "a": 1,
+   "x": "The AP Space Applications Centre (APSAC) is the state remote-sensing agency; APSDMA is the disaster agency."
+  },
+  {
+   "topic": 39,
+   "sec": 11,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Bhuvan, Bhoonidhi and VEDAS are Earth-observation data platforms of:",
+   "o": [
+    "NRSC",
+    "NSIL",
+    "CWC",
+    "Airports Authority of India"
+   ],
+   "a": 0,
+   "x": "Bhuvan, Bhoonidhi, MOSDAC and VEDAS are NRSC/ISRO Earth-observation data platforms."
+  },
+  {
+   "topic": 40,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "RISAT-2BR1, a radar imaging satellite, was launched in December 2019 by:",
+   "o": [
+    "PSLV-C48",
+    "PSLV-C19",
+    "PSLV-C56",
+    "PSLV-C47"
+   ],
+   "a": 0,
+   "x": "RISAT-2BR1 flew on PSLV-C48 in December 2019."
+  },
+  {
+   "topic": 40,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "CMS-03 (GSAT-7R), launched on LVM3-M5 in November 2025, is meant for:",
+   "o": [
+    "Radar imaging",
+    "Weather monitoring",
+    "Navigation",
+    "Naval communication"
+   ],
+   "a": 3,
+   "x": "CMS-03 (GSAT-7R) is a naval communication satellite."
+  },
+  {
+   "topic": 40,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "EOS-07 was launched on 10 February 2023 by:",
+   "o": [
+    "SSLV-D1",
+    "SSLV-D2",
+    "GSLV-F14",
+    "PSLV-C48"
+   ],
+   "a": 1,
+   "x": "EOS-07 flew on SSLV-D2; SSLV-D1 (2022) failed."
+  },
+  {
+   "topic": 40,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "SpaDeX made India the fourth country to dock in space, after the US, Russia and:",
+   "o": [
+    "China",
+    "Japan",
+    "the UK",
+    "France"
+   ],
+   "a": 0,
+   "x": "India docked on 16 January 2025 after the US, Russia and China, not Japan."
+  },
+  {
+   "topic": 40,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The record of 104 satellites in a single launch was set by:",
+   "o": [
+    "LVM3-M6",
+    "PSLV-C37",
+    "PSLV-C60",
+    "PSLV-C48"
+   ],
+   "a": 1,
+   "x": "PSLV-C37 placed 104 satellites in one launch in 2017."
+  },
+  {
+   "topic": 40,
+   "sec": 2,
+   "angle": "2,4",
+   "shape": "one-liner",
+   "s": "The first dedicated commercial LVM3 flight (2022) carried satellites of:",
+   "o": [
+    "Satellogic",
+    "OneWeb",
+    "AST SpaceMobile",
+    "ESA"
+   ],
+   "a": 1,
+   "x": "The first dedicated commercial LVM3 flight carried 36 OneWeb satellites."
+  },
+  {
+   "topic": 40,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Jugnu, a 3 kg nanosatellite launched on PSLV-C18 in 2011, was built by:",
+   "o": [
+    "Sathyabama University",
+    "NMIT Bengaluru",
+    "Anna University",
+    "IIT Kanpur"
+   ],
+   "a": 3,
+   "x": "Jugnu was built by IIT Kanpur and launched with Megha-Tropiques."
+  },
+  {
+   "topic": 40,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "ANUSAT (2009), the first student satellite launched by ISRO, was built by:",
+   "o": [
+    "Anna University",
+    "NMIT Bengaluru",
+    "IIT Kanpur",
+    "Space Kidz India"
+   ],
+   "a": 0,
+   "x": "ANUSAT was built by Anna University."
+  },
+  {
+   "topic": 40,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Kalamsat-V2, the world's lightest satellite, was built by:",
+   "o": [
+    "IIT Kanpur",
+    "Sathyabama University",
+    "Space Kidz India",
+    "Pixxel"
+   ],
+   "a": 2,
+   "x": "Kalamsat-V2 (~1.26 kg, 3D-printed) was built by Space Kidz India."
+  },
+  {
+   "topic": 40,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "AzaadiSAT was built by 750 girl students from how many rural government schools?",
+   "o": [
+    "100",
+    "50",
+    "150",
+    "75"
+   ],
+   "a": 3,
+   "x": "AzaadiSAT was built by 750 girl students of 75 rural government schools, via Space Kidz India."
+  },
+  {
+   "topic": 40,
+   "sec": 3,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about Kalamsat-V2:\n1. It was launched by PSLV-C44 in January 2019.\n2. It was the first to use the PS4 stage as an orbital platform.\n3. It was lost on SSLV-D1.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Kalamsat-V2 flew on PSLV-C44 and first used PS4 as an orbital platform; SSLV-D1 lost AzaadiSAT and EOS-02."
+  },
+  {
+   "topic": 40,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Duchifat-3, launched on PSLV-C48 in December 2019, belongs to:",
+   "o": [
+    "the UK",
+    "Israel",
+    "Belgium",
+    "Italy"
+   ],
+   "a": 1,
+   "x": "Duchifat-3 is a 3U CubeSat of Israel's Herzliya Science Center."
+  },
+  {
+   "topic": 40,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "OneWeb's 72 satellites were launched by ISRO on:",
+   "o": [
+    "LVM3",
+    "SSLV",
+    "PSLV",
+    "GSLV Mk II"
+   ],
+   "a": 0,
+   "x": "OneWeb's 72 satellites flew on two LVM3 missions."
+  },
+  {
+   "topic": 40,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "TSAT-1A, a sub-metre optical surveillance satellite, was built by Tata Advanced Systems with:",
+   "o": [
+    "Pixxel",
+    "Space Kidz India",
+    "Satellogic",
+    "AST SpaceMobile"
+   ],
+   "a": 2,
+   "x": "TSAT-1A was built by Tata Advanced Systems with Satellogic at Vemagal, Karnataka."
+  },
+  {
+   "topic": 40,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Shakuntala (TD-2), a hyperspectral satellite launched in April 2022, belongs to:",
+   "o": [
+    "Satellogic",
+    "Pixxel",
+    "DRDO",
+    "Tata Advanced Systems"
+   ],
+   "a": 1,
+   "x": "Shakuntala is Pixxel's hyperspectral satellite, the first private commercial imaging satellite."
+  },
+  {
+   "topic": 40,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "TSAT-1A and Pixxel's Shakuntala were launched on:",
+   "o": [
+    "SpaceX Falcon 9",
+    "LVM3",
+    "PSLV",
+    "SSLV"
+   ],
+   "a": 0,
+   "x": "Both flew on SpaceX Falcon 9, not on PSLV."
+  },
+  {
+   "topic": 40,
+   "sec": 5,
+   "angle": "5,6",
+   "shape": "one-liner",
+   "s": "AayulSAT, lost on PSLV-C62, was meant to be the first demonstrator of:",
+   "o": [
+    "Space docking",
+    "Re-entry capsule recovery",
+    "Hyperspectral imaging",
+    "On-orbit refuelling"
+   ],
+   "a": 3,
+   "x": "AayulSAT was the first on-orbit refuelling demonstrator; it was lost on PSLV-C62."
+  },
+  {
+   "topic": 40,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "SSLV-D1 (2022) lost which satellites?",
+   "o": [
+    "EOS-02 and AzaadiSAT",
+    "EOS-07 and Jugnu",
+    "EOS-09 and AzaadiSAT",
+    "EOS-03 and Kalamsat-V2"
+   ],
+   "a": 0,
+   "x": "SSLV-D1 put EOS-02 and AzaadiSAT in a wrong orbit."
+  },
+  {
+   "topic": 40,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "INSAT-4C was lost in 2006 on:",
+   "o": [
+    "GSLV-F02",
+    "PSLV-C61",
+    "GSLV-F10",
+    "SSLV-D1"
+   ],
+   "a": 0,
+   "x": "GSLV-F02 lost INSAT-4C in 2006; GSLV-F10 lost EOS-03."
+  },
+  {
+   "topic": 40,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "POEM, which uses the spent PS4 stage as an orbital laboratory, first flew on:",
+   "o": [
+    "PSLV-C55 (2023)",
+    "PSLV-C53 (2022)",
+    "PSLV-C58 (2024)",
+    "PSLV-C7 (2007)"
+   ],
+   "a": 1,
+   "x": "POEM flew on PSLV-C53 in 2022; POEM-2 on C55 and POEM-3 on C58."
+  },
+  {
+   "topic": 40,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Space Capsule Recovery Experiment SRE-1 flew on:",
+   "o": [
+    "PSLV-C58 in 2024",
+    "PSLV-C7 in 2007",
+    "PSLV-C53 in 2022",
+    "LVM3 in 2014"
+   ],
+   "a": 1,
+   "x": "SRE-1 flew on PSLV-C7 in 2007; CARE flew on LVM3 in 2014."
+  },
+  {
+   "topic": 40,
+   "sec": 8,
+   "angle": "7",
+   "shape": "match",
+   "s": "Which joint mission – partner pair is correctly matched?",
+   "o": [
+    "Proba-3 – NASA",
+    "NISAR – ESA",
+    "TRISHNA – CNES",
+    "TRISHNA – JAXA"
+   ],
+   "a": 2,
+   "x": "TRISHNA is an ISRO-CNES mission; NISAR is with NASA and Proba-3 is an ESA mission."
+  },
+  {
+   "topic": 40,
+   "sec": 8,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "TRISHNA, a thermal infrared mission, mainly measures:",
+   "o": [
+    "Land surface temperature and water stress",
+    "Ocean wind vectors",
+    "Ground deformation",
+    "The solar corona"
+   ],
+   "a": 0,
+   "x": "TRISHNA's thermal infrared payload measures land surface temperature, water stress and water quality."
+  },
+  {
+   "topic": 40,
+   "sec": 8,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Proba-3 creates an artificial solar eclipse to study the corona by:",
+   "o": [
+    "Hovering at Sun-Earth L1",
+    "A re-entry capsule",
+    "Docking two spacecraft",
+    "Formation flying of two spacecraft"
+   ],
+   "a": 3,
+   "x": "Proba-3's Occulter flies 150 m from the Coronagraph and shadows the Sun."
+  },
+  {
+   "topic": 40,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "EMISAT is a satellite for:",
+   "o": [
+    "Weather",
+    "Ocean studies",
+    "Electronic intelligence",
+    "Navigation"
+   ],
+   "a": 2,
+   "x": "EMISAT is an electronic intelligence (strategic surveillance) satellite."
+  },
+  {
+   "topic": 40,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "GSAT-7A 'Angry Bird' serves the:",
+   "o": [
+    "Indian Navy",
+    "Indian Air Force",
+    "Ministry of Earth Sciences",
+    "Indian Army"
+   ],
+   "a": 1,
+   "x": "GSAT-7 serves the Navy, GSAT-7A the IAF and GSAT-7B is proposed for the Army."
+  },
+  {
+   "topic": 40,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "According to ISSAR 2025, how many Indian satellites were operational?",
+   "o": [
+    "19",
+    "27",
+    "86",
+    "8"
+   ],
+   "a": 1,
+   "x": "ISSAR 2025 counted 86 Indian satellites in orbit, of which 27 were operational."
+  },
+  {
+   "topic": 40,
+   "sec": 10,
+   "angle": "N1",
+   "shape": "one-liner",
+   "s": "NASA's PACE mission was launched on 8 February 2024 by:",
+   "o": [
+    "Falcon 9",
+    "Falcon Heavy",
+    "LVM3",
+    "Ariane-5"
+   ],
+   "a": 0,
+   "x": "PACE flew on Falcon 9 from Cape Canaveral; Europa Clipper used Falcon Heavy."
+  },
+  {
+   "topic": 40,
+   "sec": 10,
+   "angle": "N1",
+   "shape": "one-liner",
+   "s": "NASA's Europa Clipper, launched in October 2024, will study an icy moon of:",
+   "o": [
+    "Mars",
+    "Neptune",
+    "Jupiter",
+    "Saturn"
+   ],
+   "a": 2,
+   "x": "Europa Clipper targets Jupiter's icy moon Europa, NASA's first mission to an ocean world."
+  },
+  {
+   "topic": 40,
+   "sec": 10,
+   "angle": "N1",
+   "shape": "one-liner",
+   "s": "The James Webb Space Telescope (2021) is a joint mission of:",
+   "o": [
+    "NASA, ESA and CSA",
+    "NASA, ISRO and ESA",
+    "NASA, JAXA and ESA",
+    "NASA, CNES and CSA"
+   ],
+   "a": 0,
+   "x": "JWST is a NASA-ESA-CSA infrared space telescope launched on 25 December 2021."
+  },
+  {
+   "topic": 41,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "AstroSat was launched in 2015 by:",
+   "o": [
+    "PSLV-C11",
+    "PSLV-C25",
+    "PSLV-C30",
+    "PSLV-C57"
+   ],
+   "a": 2,
+   "x": "AstroSat flew on PSLV-C30 on 28 September 2015."
+  },
+  {
+   "topic": 41,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Chandrayaan-2 was launched on 22 July 2019 by:",
+   "o": [
+    "PSLV-C25",
+    "PSLV-C11",
+    "GSLV Mk III-M1",
+    "LVM3-M4"
+   ],
+   "a": 2,
+   "x": "Chandrayaan-2 flew on GSLV Mk III-M1; Chandrayaan-3 used LVM3-M4."
+  },
+  {
+   "topic": 41,
+   "sec": 1,
+   "angle": "2,4",
+   "shape": "one-liner",
+   "s": "XPoSat was launched on 1 January 2024 by:",
+   "o": [
+    "PSLV-C57",
+    "PSLV-C56",
+    "PSLV-C58",
+    "PSLV-C60"
+   ],
+   "a": 2,
+   "x": "XPoSat flew on PSLV-C58; PSLV-C57 carried Aditya-L1."
+  },
+  {
+   "topic": 41,
+   "sec": 1,
+   "angle": "2",
+   "shape": "sequence",
+   "s": "Arrange in chronological order:\n1. SpaDeX\n2. Chandrayaan-3\n3. Chandrayaan-2\n4. Aditya-L1",
+   "o": [
+    "2-3-4-1",
+    "3-2-4-1",
+    "3-4-2-1",
+    "3-2-1-4"
+   ],
+   "a": 1,
+   "x": "Chandrayaan-2 (Jul 2019), Chandrayaan-3 (Jul 2023), Aditya-L1 (Sep 2023), SpaDeX (Dec 2024)."
+  },
+  {
+   "topic": 41,
+   "sec": 2,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "Chandrayaan-1's Moon Impact Probe hit the Moon on:",
+   "o": [
+    "14 November 2008",
+    "22 October 2008",
+    "23 August 2023",
+    "29 August 2009"
+   ],
+   "a": 0,
+   "x": "The MIP hit the south polar region on 14 November 2008, at Jawahar Point."
+  },
+  {
+   "topic": 41,
+   "sec": 2,
+   "angle": "15,6",
+   "shape": "one-liner",
+   "s": "The first probe to hit the Moon (1959) was:",
+   "o": [
+    "SOFIA",
+    "Moon Impact Probe",
+    "Luna 2",
+    "LCROSS"
+   ],
+   "a": 2,
+   "x": "USSR's Luna 2 (1959) was the first to hit the Moon."
+  },
+  {
+   "topic": 41,
+   "sec": 2,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "Chandrayaan-1 confirmed water molecules on the lunar surface through NASA's:",
+   "o": [
+    "SOFIA",
+    "LCROSS",
+    "Mini-SAR",
+    "Moon Mineralogy Mapper (M3)"
+   ],
+   "a": 3,
+   "x": "NASA's M3 on Chandrayaan-1 detected water/hydroxyl and confirmed water molecules."
+  },
+  {
+   "topic": 41,
+   "sec": 5,
+   "angle": "8,14",
+   "shape": "one-liner",
+   "s": "The Lyman Alpha Photometer was a payload of:",
+   "o": [
+    "Aditya-L1",
+    "Chandrayaan-3",
+    "Mangalyaan",
+    "Chandrayaan-1"
+   ],
+   "a": 2,
+   "x": "The Lyman Alpha Photometer flew on Mangalyaan, not on Chandrayaan-1."
+  },
+  {
+   "topic": 41,
+   "sec": 3,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "The crash site of Chandrayaan-2's Vikram lander is called:",
+   "o": [
+    "Jawahar Point",
+    "Shiv Shakti Point",
+    "Mons Mouton",
+    "Tiranga Point"
+   ],
+   "a": 3,
+   "x": "Tiranga Point is Vikram's crash site; Jawahar Point is the Ch-1 MIP impact and Shiv Shakti the Ch-3 landing."
+  },
+  {
+   "topic": 41,
+   "sec": 3,
+   "angle": "10",
+   "shape": "one-liner",
+   "s": "Chandrayaan-2 was approved by the Union Cabinet in:",
+   "o": [
+    "2008",
+    "2019",
+    "2003",
+    "2013"
+   ],
+   "a": 0,
+   "x": "The Union Cabinet under PM Manmohan Singh approved Chandrayaan-2 in 2008."
+  },
+  {
+   "topic": 41,
+   "sec": 4,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "Which Chandrayaan-3 lander payload studies moonquakes?",
+   "o": [
+    "APXS",
+    "LRA",
+    "ILSA",
+    "ChaSTE"
+   ],
+   "a": 2,
+   "x": "ILSA records moonquakes; ChaSTE measures surface thermal profile."
+  },
+  {
+   "topic": 41,
+   "sec": 4,
+   "angle": "11",
+   "shape": "one-liner",
+   "s": "ChaSTE on Chandrayaan-3 measures:",
+   "o": [
+    "The Earth from lunar orbit",
+    "Elemental composition",
+    "Moonquakes",
+    "The surface thermal profile"
+   ],
+   "a": 3,
+   "x": "ChaSTE, on the lander, studies the surface thermal profile."
+  },
+  {
+   "topic": 41,
+   "sec": 4,
+   "angle": "1,11",
+   "shape": "one-liner",
+   "s": "Chandrayaan-3's mission life was:",
+   "o": [
+    "312 days",
+    "One Earth year",
+    "Six months",
+    "One lunar day (about 14 Earth days)"
+   ],
+   "a": 3,
+   "x": "Chandrayaan-3's lander and rover were built for one lunar day, about 14 Earth days."
+  },
+  {
+   "topic": 41,
+   "sec": 4,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Chandrayaan-3's Pragyan rover weighed about:",
+   "o": [
+    "1,752 kg",
+    "260 kg",
+    "26 kg",
+    "3,900 kg"
+   ],
+   "a": 2,
+   "x": "The rover weighed 26 kg; the lander 1,752 kg and the whole craft 3,900 kg."
+  },
+  {
+   "topic": 41,
+   "sec": 4,
+   "angle": "1,11",
+   "shape": "statements",
+   "s": "Consider the following statements about Chandrayaan-3 findings:\n1. Pragyan confirmed sulphur on the lunar surface.\n2. APXS found the soil rich in aluminium.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Pragyan confirmed sulphur; APXS found the soil rich in iron and magnesium but poor in aluminium."
+  },
+  {
+   "topic": 41,
+   "sec": 4,
+   "angle": "13",
+   "shape": "one-liner",
+   "s": "Which mission made Japan the fifth country to soft-land on the Moon?",
+   "o": [
+    "Chang'e-3",
+    "EQUULEUS",
+    "SLIM",
+    "Luna-25"
+   ],
+   "a": 2,
+   "x": "Japan's SLIM, the 'Moon sniper' (2024), made Japan the fifth soft-lander."
+  },
+  {
+   "topic": 41,
+   "sec": 5,
+   "angle": "8,14",
+   "shape": "one-liner",
+   "s": "Mangalyaan entered Mars orbit on:",
+   "o": [
+    "24 September 2014",
+    "5 November 2013",
+    "5 November 2014",
+    "24 September 2013"
+   ],
+   "a": 0,
+   "x": "Launched on 5 November 2013, Mangalyaan entered Mars orbit on 24 September 2014."
+  },
+  {
+   "topic": 41,
+   "sec": 5,
+   "angle": "8,14",
+   "shape": "one-liner",
+   "s": "ISRO became the fourth agency to reach Mars, after NASA, Roscosmos and:",
+   "o": [
+    "JAXA",
+    "ESA",
+    "CNSA",
+    "CNES"
+   ],
+   "a": 1,
+   "x": "ISRO came after NASA, Roscosmos and ESA, not CNSA."
+  },
+  {
+   "topic": 41,
+   "sec": 5,
+   "angle": "8,14",
+   "shape": "one-liner",
+   "s": "How many payloads did Mangalyaan carry?",
+   "o": [
+    "3",
+    "7",
+    "11",
+    "5"
+   ],
+   "a": 3,
+   "x": "Mangalyaan carried 5 payloads, including the Methane Sensor for Mars and the Mars Colour Camera."
+  },
+  {
+   "topic": 41,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "How many payloads does Aditya-L1 carry?",
+   "o": [
+    "7",
+    "5",
+    "11",
+    "4"
+   ],
+   "a": 0,
+   "x": "Aditya-L1 carries 7 payloads: 4 remote sensing and 3 in-situ."
+  },
+  {
+   "topic": 41,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Aditya-L1's SUIT payload studies the Sun's:",
+   "o": [
+    "Corona",
+    "Solar-wind electrons",
+    "Magnetic field",
+    "Photosphere and chromosphere"
+   ],
+   "a": 3,
+   "x": "SUIT images the photosphere and chromosphere in near-UV; VELC studies the corona."
+  },
+  {
+   "topic": 41,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Aditya-L1 was inserted into its halo orbit around L1 on:",
+   "o": [
+    "25 January 2024",
+    "6 January 2024",
+    "2 September 2023",
+    "1 January 2024"
+   ],
+   "a": 1,
+   "x": "Launched on 2 September 2023, Aditya-L1 entered its halo orbit on 6 January 2024."
+  },
+  {
+   "topic": 41,
+   "sec": 6,
+   "angle": "3",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a payload of Aditya-L1?",
+   "o": [
+    "LIBS",
+    "ASPEX",
+    "PAPA",
+    "VELC"
+   ],
+   "a": 0,
+   "x": "LIBS is a Chandrayaan-3 rover payload; VELC, ASPEX and PAPA are on Aditya-L1."
+  },
+  {
+   "topic": 41,
+   "sec": 7,
+   "angle": "4,12",
+   "shape": "one-liner",
+   "s": "AstroSat observes in which bands?",
+   "o": [
+    "Radio and microwave",
+    "Visible, UV and X-ray",
+    "Gamma-ray only",
+    "Visible, infrared and microwave"
+   ],
+   "a": 1,
+   "x": "AstroSat, India's first multi-wavelength observatory, observes in visible, UV and X-ray."
+  },
+  {
+   "topic": 41,
+   "sec": 7,
+   "angle": "4,12",
+   "shape": "one-liner",
+   "s": "Which of the following is a payload of AstroSat?",
+   "o": [
+    "ChaSTE",
+    "VELC",
+    "UVIT",
+    "POLIX"
+   ],
+   "a": 2,
+   "x": "UVIT is an AstroSat payload; POLIX is on XPoSat, VELC on Aditya-L1 and ChaSTE on Chandrayaan-3."
+  },
+  {
+   "topic": 41,
+   "sec": 7,
+   "angle": "4,12",
+   "shape": "one-liner",
+   "s": "XPoSat studies the X-ray polarisation of:",
+   "o": [
+    "Lunar soil",
+    "The Martian atmosphere",
+    "The solar corona",
+    "Black holes and neutron stars"
+   ],
+   "a": 3,
+   "x": "XPoSat studies X-ray polarisation from black holes and neutron stars."
+  },
+  {
+   "topic": 41,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Mangalyaan-2, targeted for 2030, is planned as a:",
+   "o": [
+    "Venus orbiter",
+    "Mars landing mission",
+    "Lunar sample return mission",
+    "Mars orbiter"
+   ],
+   "a": 1,
+   "x": "Mangalyaan-2 aims at a Mars landing."
+  },
+  {
+   "topic": 41,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Cabinet-approved cost of Shukrayaan is:",
+   "o": [
+    "Rs 1,632 crore",
+    "Rs 1,236 crore",
+    "Rs 2,136 crore",
+    "Rs 1,326 crore"
+   ],
+   "a": 1,
+   "x": "The Venus Orbiter Mission is approved at Rs 1,236 crore."
+  },
+  {
+   "topic": 41,
+   "sec": 8,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Under Space Vision 2047, the Bharatiya Antariksh Station is to be set up by:",
+   "o": [
+    "2035",
+    "2040",
+    "2030",
+    "2047"
+   ],
+   "a": 0,
+   "x": "The station is targeted for 2035 and an Indian on the Moon for 2040."
+  },
+  {
+   "topic": 41,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "NASA's Psyche mission (October 2023) is headed for:",
+   "o": [
+    "Jupiter's moon Europa",
+    "Comet Tempel-1",
+    "Venus",
+    "A metal asteroid"
+   ],
+   "a": 3,
+   "x": "Psyche goes to the metal asteroid 16 Psyche."
+  },
+  {
+   "topic": 41,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Nuri (KSLV-II), which reached orbit in 2022, is the first indigenous launcher of:",
+   "o": [
+    "Russia",
+    "South Korea",
+    "Japan",
+    "China"
+   ],
+   "a": 1,
+   "x": "Nuri is South Korea's first indigenous launcher."
+  },
+  {
+   "topic": 41,
+   "sec": 9,
+   "angle": "6,13",
+   "shape": "one-liner",
+   "s": "The rover of ESA's ExoMars mission is named:",
+   "o": [
+    "Pragyan",
+    "Rosalind Franklin",
+    "Yutu-2",
+    "Spirit"
+   ],
+   "a": 1,
+   "x": "ExoMars's rover is Rosalind Franklin; Yutu-2 is China's Chang'e-4 rover."
+  },
+  {
+   "topic": 41,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "SuperView, a commercial high-resolution Earth observation series, belongs to:",
+   "o": [
+    "Japan",
+    "Russia",
+    "South Korea",
+    "China"
+   ],
+   "a": 3,
+   "x": "SuperView is a Chinese commercial high-resolution imaging series."
+  },
+  {
+   "topic": 41,
+   "sec": 9,
+   "angle": "6,13",
+   "shape": "one-liner",
+   "s": "Under NASA's Artemis programme, the first crewed lunar landing is planned with:",
+   "o": [
+    "Artemis I",
+    "Artemis II",
+    "Artemis IV",
+    "Artemis III"
+   ],
+   "a": 2,
+   "x": "Artemis IV (2028) is the first landing; II is a crewed flyby and III an Earth-orbit test."
+  },
+  {
+   "topic": 41,
+   "sec": 10,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The first Space Shuttle flight (STS-1, April 1981) was made by:",
+   "o": [
+    "Columbia",
+    "Challenger",
+    "Discovery",
+    "Atlantis"
+   ],
+   "a": 0,
+   "x": "Columbia flew the first Space Shuttle mission, STS-1, in April 1981."
+  },
+  {
+   "topic": 41,
+   "sec": 10,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "NASA's Solar Maximum Mission was repaired in orbit in April 1984 by the crew of:",
+   "o": [
+    "Challenger",
+    "Discovery",
+    "Columbia",
+    "Atlantis"
+   ],
+   "a": 0,
+   "x": "The Challenger crew (STS-41C) repaired it, the first satellite repaired in orbit."
+  },
+  {
+   "topic": 41,
+   "sec": 11,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "How many Lagrange points exist in a two-body system?",
+   "o": [
+    "Three",
+    "Four",
+    "Seven",
+    "Five"
+   ],
+   "a": 3,
+   "x": "There are five Lagrange points, L1 to L5."
+  }
+ ]
+}
