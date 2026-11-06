@@ -1,0 +1,984 @@
+{
+ "reshape": {
+  "nf0ac263ccc4": {
+   "shape": "statements",
+   "s": "Consider the following statements about cultural akademis:\n1. The Andhra Pradesh Sahitya Akademi was set up in 1957.\n2. The national Sahitya Akademi was inaugurated in 1954.\n3. The International Telugu Institute was set up in 1957.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The AP Sahitya Akademi dates from 1957 and the national Sahitya Akademi was inaugurated in 1954. The International Telugu Institute dates from 1975, not 1957."
+  },
+  "nd981cb29d05": {
+   "shape": "statements",
+   "s": "Consider the following statements about the Digambara poets:\n1. Cherabandaraju moved on to Virasam in 1970.\n2. Jwalamukhi and Nikhileswar moved on to Virasam in 1970.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Cherabandaraju, Jwalamukhi and Nikhileswar, all Digambara poets, joined Virasam in 1970."
+  },
+  "nc7a726c5680": {
+   "shape": "statements",
+   "s": "Consider the following statements about the poem Firdausi:\n1. It was written by Sri Sri.\n2. It is about a Persian poet cheated of his promised reward by Sultan Mahmud.\n3. It presents the poet as a rebel against patronage.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Firdausi is Gurram Jashuva's poem, not Sri Sri's; it shows the Persian poet cheated by Sultan Mahmud as a rebel against patronage."
+  },
+  "ne671b6d4ac8": {
+   "shape": "statements",
+   "s": "Consider the following statements about Telugu recipients of the Dadasaheb Phalke Award:\n1. B.N. Reddy received it in 1974.\n2. Akkineni Nageswara Rao received it in 2009.\n3. K. Viswanath received it in 2016.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "B.N. Reddy got it in 1974 and K. Viswanath in 2016. Akkineni Nageswara Rao got it in 1990; 2009 was D. Ramanaidu."
+  }
+ },
+ "new": [
+  {
+   "topic": 267,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Sahitya Akademi, set up in 1952, was formally inaugurated on:",
+   "o": [
+    "12 March 1954",
+    "28 January 1953",
+    "11 May 1961",
+    "1 August 1964"
+   ],
+   "a": 0,
+   "x": "The Sahitya Akademi was set up in 1952 but inaugurated on 12 March 1954; 28 January 1953 is the Sangeet Natak Akademi."
+  },
+  {
+   "topic": 267,
+   "sec": 1,
+   "angle": "1",
+   "shape": "statements",
+   "s": "Consider the following statements about the national akademis:\n1. The Sahitya Akademi is a statutory body.\n2. The Lalit Kala Akademi was set up in 1954.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 1,
+   "x": "The Lalit Kala Akademi dates from 1954. The Sahitya Akademi is a society, not a statutory body."
+  },
+  {
+   "topic": 267,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The International Telugu Institute was established in:",
+   "o": [
+    "1957",
+    "1975",
+    "1964",
+    "1985"
+   ],
+   "a": 1,
+   "x": "The International Telugu Institute was set up in 1975, the year of the first World Telugu Conference."
+  },
+  {
+   "topic": 267,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Nataka Vidyalayam at Vijayawada, a drama training school of the Andhra Nataka Kala Parishad, was started on:",
+   "o": [
+    "11 May 1961",
+    "12 March 1954",
+    "1 August 1964",
+    "28 January 1953"
+   ],
+   "a": 2,
+   "x": "The Nataka Vidyalayam, Vijayawada, began on 1 August 1964 to train people in drama."
+  },
+  {
+   "topic": 267,
+   "sec": 2,
+   "angle": "1,7",
+   "shape": "one-liner",
+   "s": "Potti Sreeramulu Telugu University, which absorbed the State akademis and the International Telugu Institute, was set up in:",
+   "o": [
+    "1957",
+    "1975",
+    "1964",
+    "1985"
+   ],
+   "a": 3,
+   "x": "Telugu University was set up in 1985 and absorbed the State akademis and the International Telugu Institute."
+  },
+  {
+   "topic": 267,
+   "sec": 3,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Fourth World Telugu Conference (December 2012) was held at:",
+   "o": [
+    "Tirupati",
+    "Hyderabad",
+    "Kuala Lumpur",
+    "Mauritius"
+   ],
+   "a": 0,
+   "x": "The fourth World Telugu Conference met at Tirupati in December 2012; Hyderabad hosted the first (1975)."
+  },
+  {
+   "topic": 267,
+   "sec": 3,
+   "angle": "2",
+   "shape": "match",
+   "s": "Which of the following World Telugu Conference – venue pairs is correctly matched?",
+   "o": [
+    "First – Kuala Lumpur",
+    "Third – Mauritius",
+    "Second – Hyderabad",
+    "Fourth – Kuala Lumpur"
+   ],
+   "a": 1,
+   "x": "The third conference was held in Mauritius (1990). The first was at Hyderabad, the second at Kuala Lumpur, the fourth at Tirupati."
+  },
+  {
+   "topic": 267,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Telugu daily Udayam (1984) was founded by:",
+   "o": [
+    "Ramoji Rao",
+    "K.L.N. Prasad",
+    "Dasari Narayana Rao",
+    "Y.S. Jagan Mohan Reddy"
+   ],
+   "a": 2,
+   "x": "Udayam was founded by Dasari Narayana Rao in 1984; Ramoji Rao founded Eenadu."
+  },
+  {
+   "topic": 267,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Telugu daily Sakshi was launched in:",
+   "o": [
+    "1960",
+    "1974",
+    "1984",
+    "2008"
+   ],
+   "a": 3,
+   "x": "Sakshi was launched by Y.S. Jagan Mohan Reddy in 2008."
+  },
+  {
+   "topic": 267,
+   "sec": 4,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about Telugu newspapers and journals:\n1. Andhra Jyothi was founded by K.L.N. Prasad in 1960.\n2. Eenadu was started at Visakhapatnam in 1974.\n3. Jaya Bharat was the first communist Telugu journal.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Andhra Jyothi (K.L.N. Prasad, 1960) and Eenadu (Visakhapatnam, 1974) are right. Prajasakti was the first communist Telugu journal; Jaya Bharat was the first after Independence."
+  },
+  {
+   "topic": 267,
+   "sec": 5,
+   "angle": "4",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Gurram Jashuva?",
+   "o": [
+    "His Sahitya Akademi Award was for Gabbilam",
+    "He received the Sahitya Akademi Award in 1964",
+    "He was nominated MLC in 1964",
+    "He received the Padma Bhushan in 1970"
+   ],
+   "a": 0,
+   "x": "Jashuva won the Sahitya Akademi Award in 1964, but not for Gabbilam."
+  },
+  {
+   "topic": 267,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Rayaprolu Subbarao received the Sahitya Akademi Award in:",
+   "o": [
+    "1964",
+    "1965",
+    "1957",
+    "1970"
+   ],
+   "a": 1,
+   "x": "Rayaprolu Subbarao won the Sahitya Akademi Award in 1965 for Misra Manjari; 1964 was Jashuva's year."
+  },
+  {
+   "topic": 267,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Telugu Velugu award of Ugadi 2012 was given to Bapu in the field of:",
+   "o": [
+    "Literature",
+    "Music",
+    "Painting",
+    "Theatre"
+   ],
+   "a": 2,
+   "x": "At Ugadi 2012 the Telugu Velugu awards went to C. Narayana Reddy for literature and Bapu for painting."
+  },
+  {
+   "topic": 267,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Sahitya Akademi Award is given in how many languages?",
+   "o": [
+    "22",
+    "18",
+    "26",
+    "24"
+   ],
+   "a": 3,
+   "x": "It covers 24 languages: the 22 Eighth Schedule languages plus English and Rajasthani."
+  },
+  {
+   "topic": 267,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Surabhi family theatre company was founded in 1885 in Surabhi village of which district?",
+   "o": [
+    "Kadapa",
+    "Kurnool",
+    "Anantapur",
+    "Chittoor"
+   ],
+   "a": 0,
+   "x": "Surabhi was founded in 1885 in Surabhi village, Kadapa, by Vanarasa Govinda Rao and his brother."
+  },
+  {
+   "topic": 267,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Surabhi theatre company was founded by:",
+   "o": [
+    "Kandukuri Veeresalingam",
+    "Vanarasa Govinda Rao",
+    "Kasinadhuni Nageswara Rao",
+    "Gurram Jashuva"
+   ],
+   "a": 1,
+   "x": "Vanarasa Govinda Rao and his brother founded Surabhi in 1885; puppets were gradually replaced by live actors."
+  },
+  {
+   "topic": 267,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Sangeet Natak Akademi's National Theatre Festival (July 2026) on 150 years of Vande Mataram was held at how many locations?",
+   "o": [
+    "75",
+    "100",
+    "150",
+    "250"
+   ],
+   "a": 2,
+   "x": "The festival was held at 150 locations to mark 150 years of Vande Mataram; two AP plays were selected."
+  },
+  {
+   "topic": 267,
+   "sec": 6,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about theatre in Andhra Pradesh:\n1. Nandi Natakotsavams are the State drama festivals.\n2. In Surabhi, live actors gradually replaced puppets.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Nandi Natakotsavams are the State drama festivals, and Surabhi gradually replaced puppets with live actors."
+  },
+  {
+   "topic": 267,
+   "sec": 7,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Along with the Swarna Kamal, the Dadasaheb Phalke Award now carries a cash prize of:",
+   "o": [
+    "Rs 10 lakh",
+    "Rs 1 lakh",
+    "Rs 25 lakh",
+    "Rs 15 lakh"
+   ],
+   "a": 3,
+   "x": "The Phalke prize was raised from Rs 10 lakh to Rs 15 lakh in 2024."
+  },
+  {
+   "topic": 267,
+   "sec": 8,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "In 1985, which government merged the State akademis into the new Telugu University?",
+   "o": [
+    "N.T. Rama Rao government",
+    "YSRCP government",
+    "Coalition government",
+    "Kotla Vijaya Bhaskara Reddy government"
+   ],
+   "a": 0,
+   "x": "The NTR government merged the State akademis into Telugu University in 1985."
+  },
+  {
+   "topic": 267,
+   "sec": 8,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The annual Telugu Mahotsavam was announced in July 2026 at:",
+   "o": [
+    "Belum Caves",
+    "Undavalli Caves",
+    "Borra Caves",
+    "Ravindra Bharathi"
+   ],
+   "a": 1,
+   "x": "Minister Kandula Durgesh announced the annual Telugu Mahotsavam at the Undavalli Caves in July 2026."
+  },
+  {
+   "topic": 267,
+   "sec": 8,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about cultural awards of Andhra Pradesh:\n1. The previous YSRCP government let the Kandukuri Veeresalingam Awards lapse.\n2. The coalition government revived the Kandukuri Veeresalingam Awards.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "The Kandukuri Awards lapsed under the YSRCP government and were revived by the coalition government."
+  },
+  {
+   "topic": 268,
+   "sec": 1,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Viplava Rachayitala Sangham (Virasam) was founded on:",
+   "o": [
+    "4 July 1965",
+    "4 July 1969",
+    "4 July 1970",
+    "4 July 1985"
+   ],
+   "a": 2,
+   "x": "Virasam was founded on 4 July 1970; 1965 is the Digambaras and 1969 the Srikakulam struggle."
+  },
+  {
+   "topic": 268,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "'Mahaswapna', one of the Digambara poets, was the pen name of:",
+   "o": [
+    "Baddam Bhaskara Reddy",
+    "Vempatapu Satyam",
+    "R.C. Krishnaswamy Raju",
+    "Kammisetti Venkateswara Rao"
+   ],
+   "a": 3,
+   "x": "Mahaswapna was Kammisetti Venkateswara Rao; Baddam Bhaskara Reddy wrote as Cherabandaraju."
+  },
+  {
+   "topic": 268,
+   "sec": 2,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about the Digambara kavulu:\n1. They were six anti-establishment poets of the mid-1960s.\n2. Three volumes of Digambara Kavitvam appeared between 1965 and 1968.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "The Digambaras were six anti-establishment 'naked poets', and three volumes of Digambara Kavitvam came out in 1965-68."
+  },
+  {
+   "topic": 268,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Srikakulam peasant struggle of 1969, which spread Naxalism in Andhra, was led by:",
+   "o": [
+    "Vempatapu Satyam",
+    "Sri Sri",
+    "Cherabandaraju",
+    "Gaddar"
+   ],
+   "a": 0,
+   "x": "Vempatapu Satyam led the 1969 Srikakulam peasant struggle, the context of Virasam."
+  },
+  {
+   "topic": 268,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The 1970 pamphlet 'Writers, where do you stand?' that led to Virasam was issued by students of:",
+   "o": [
+    "Hyderabad",
+    "Visakhapatnam",
+    "Vijayawada",
+    "Guntur"
+   ],
+   "a": 1,
+   "x": "Visakhapatnam students' pamphlet 'Writers, where do you stand?' (1970) triggered the founding of Virasam."
+  },
+  {
+   "topic": 268,
+   "sec": 3,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Sri Sri won the first National Award for a Telugu lyricist for 'Teluguveera Levara' in the film:",
+   "o": [
+    "Mayabazar",
+    "Malliswari",
+    "Alluri Seetharamaraju",
+    "Sankarabharanam"
+   ],
+   "a": 2,
+   "x": "Sri Sri's 'Teluguveera Levara' in Alluri Seetharamaraju gave him the first National Award for a Telugu lyricist."
+  },
+  {
+   "topic": 268,
+   "sec": 4,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Dalit poetry anthology Chikkanavutunna Pata (1995) was edited by G. Lakshmi Narasaiah and:",
+   "o": [
+    "Gogu Syamala",
+    "Volga",
+    "Khadar Mohiuddin",
+    "Tripuraneni Srinivas"
+   ],
+   "a": 3,
+   "x": "Chikkanavutunna Pata (1995) was edited by G. Lakshmi Narasaiah and Tripuraneni Srinivas."
+  },
+  {
+   "topic": 268,
+   "sec": 4,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Padunekkina Pata, a Dalit poetry anthology edited by G. Lakshmi Narasaiah, appeared in:",
+   "o": [
+    "1996",
+    "1985",
+    "1993",
+    "1995"
+   ],
+   "a": 0,
+   "x": "Padunekkina Pata came out in 1996; Chikkanavutunna Pata was 1995."
+  },
+  {
+   "topic": 268,
+   "sec": 4,
+   "angle": "1,7",
+   "shape": "NOT",
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Nallapoddu – Gogu Syamala",
+    "Neeli Meghalu – Gogu Syamala",
+    "Padunekkina Pata – G. Lakshmi Narasaiah",
+    "Chikkanavutunna Pata – G. Lakshmi Narasaiah"
+   ],
+   "a": 1,
+   "x": "Neeli Meghalu was edited by Volga and others; Gogu Syamala edited Nallapoddu."
+  },
+  {
+   "topic": 268,
+   "sec": 4,
+   "angle": "1,4",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a work of Gurram Jashuva?",
+   "o": [
+    "Gabbilam",
+    "Kandiseekudu",
+    "Puttumacha",
+    "Kreesthu Charitra"
+   ],
+   "a": 2,
+   "x": "Puttumacha is Khadar Mohiuddin's poem; Gabbilam, Kandiseekudu and Kreesthu Charitra are Jashuva's."
+  },
+  {
+   "topic": 268,
+   "sec": 4,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Nallapoddu is known as the first collection of:",
+   "o": [
+    "Muslim minority poetry",
+    "Feminist poetry",
+    "Digambara poetry",
+    "Dalit women's writing"
+   ],
+   "a": 3,
+   "x": "Nallapoddu, edited by Gogu Syamala, is the first collection of Dalit women's writing."
+  },
+  {
+   "topic": 268,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Jashuva's Gabbilam is modelled on:",
+   "o": [
+    "Kalidasa's Meghaduta",
+    "Sri Sri's Maha Prasthanam",
+    "Jashuva's Firdausi",
+    "Viswanatha's Ramayana Kalpavrukshamu"
+   ],
+   "a": 0,
+   "x": "Gabbilam, in which a bat carries a message, is modelled on Kalidasa's cloud-messenger poem Meghaduta."
+  },
+  {
+   "topic": 268,
+   "sec": 5,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In Gabbilam, the bat carries a hungry Dalit's message to:",
+   "o": [
+    "Lord Vishnu",
+    "Lord Shiva",
+    "Lord Rama",
+    "Lord Krishna"
+   ],
+   "a": 1,
+   "x": "In Gabbilam the bat carries a hungry Dalit's message to Lord Shiva."
+  },
+  {
+   "topic": 268,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The feminist magazine Bhumika is edited by:",
+   "o": [
+    "Volga",
+    "Jayaprabha",
+    "Kondaveeti Satyavathi",
+    "Gogu Syamala"
+   ],
+   "a": 2,
+   "x": "Bhumika is edited by Kondaveeti Satyavathi; Volga edited Neeli Meghalu."
+  },
+  {
+   "topic": 268,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The feminist anthology Neeli Meghalu was published in:",
+   "o": [
+    "1985",
+    "1995",
+    "1970",
+    "1993"
+   ],
+   "a": 3,
+   "x": "Neeli Meghalu, edited by Volga and others, came out in 1993."
+  },
+  {
+   "topic": 268,
+   "sec": 6,
+   "angle": "7",
+   "shape": "NOT",
+   "s": "Who among the following is NOT among the feminist poets of Telugu?",
+   "o": [
+    "Khadar Mohiuddin",
+    "Jayaprabha",
+    "Vimala",
+    "Kondepudi Nirmala"
+   ],
+   "a": 0,
+   "x": "Khadar Mohiuddin is a Muslim minority poet (Puttumacha); Jayaprabha, Vimala and Kondepudi Nirmala are feminist poets."
+  },
+  {
+   "topic": 268,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Jaljala is an anthology of Telugu Muslim minority poetry of the:",
+   "o": [
+    "1960s",
+    "1990s",
+    "1970s",
+    "1980s"
+   ],
+   "a": 1,
+   "x": "Jaljala collects Telugu Muslim minority poetry of the 1990s."
+  },
+  {
+   "topic": 268,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Khadar Mohiuddin's long poem Puttumacha deals with:",
+   "o": [
+    "Dalit untouchability",
+    "Women's liberation",
+    "Muslim identity",
+    "The Srikakulam peasant struggle"
+   ],
+   "a": 2,
+   "x": "Puttumacha ('Birthmark') is a long poem on Muslim identity."
+  },
+  {
+   "topic": 268,
+   "sec": 8,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Ramayana Vishavruksham, a Marxist-feminist critique of the Ramayana, was written by:",
+   "o": [
+    "Volga",
+    "Kesava Reddy",
+    "Yandamuri Veerendranath",
+    "Ranganayakamma"
+   ],
+   "a": 3,
+   "x": "Ranganayakamma wrote Ramayana Vishavruksham."
+  },
+  {
+   "topic": 268,
+   "sec": 8,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The rural realist novel Athadu Adavini Jayinchadu was written by:",
+   "o": [
+    "Kesava Reddy",
+    "R.C. Krishnaswamy Raju",
+    "Ranganayakamma",
+    "Yandamuri Veerendranath"
+   ],
+   "a": 0,
+   "x": "Athadu Adavini Jayinchadu is Kesava Reddy's novel of rural realism."
+  },
+  {
+   "topic": 268,
+   "sec": 8,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Tulasidalam and Vennello Aadapilla are popular novels of:",
+   "o": [
+    "Viswanatha Satyanarayana",
+    "Yandamuri Veerendranath",
+    "Kesava Reddy",
+    "Sri Sri"
+   ],
+   "a": 1,
+   "x": "Both are Yandamuri Veerendranath's popular fiction."
+  },
+  {
+   "topic": 268,
+   "sec": 9,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Viswanatha Satyanarayana received the Jnanpith Award for:",
+   "o": [
+    "Veyi Padagalu",
+    "Vishwambhara",
+    "Ramayana Kalpavrukshamu",
+    "Paakudu Raallu"
+   ],
+   "a": 2,
+   "x": "Viswanatha's Jnanpith work is Ramayana Kalpavrukshamu, not Veyi Padagalu."
+  },
+  {
+   "topic": 268,
+   "sec": 9,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Ravuri Bharadwaja received the Jnanpith Award in 2012 for:",
+   "o": [
+    "Vishwambhara",
+    "Ramayana Kalpavrukshamu",
+    "Veyi Padagalu",
+    "Paakudu Raallu"
+   ],
+   "a": 3,
+   "x": "Ravuri Bharadwaja won the Jnanpith in 2012 for Paakudu Raallu."
+  },
+  {
+   "topic": 268,
+   "sec": 9,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The first Telugu Jnanpith Award, to Viswanatha Satyanarayana, was given in:",
+   "o": [
+    "1970",
+    "1965",
+    "1988",
+    "2012"
+   ],
+   "a": 0,
+   "x": "Viswanatha got the first Telugu Jnanpith in 1970; 1988 and 2012 went to C. Narayana Reddy and Ravuri Bharadwaja."
+  },
+  {
+   "topic": 269,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The first Telugu silent film (1921) was:",
+   "o": [
+    "Bhakta Prahlada",
+    "Bhishma Pratigna",
+    "Lava Kusa",
+    "Raja Harishchandra"
+   ],
+   "a": 1,
+   "x": "Bhishma Pratigna (1921) was the first Telugu silent film; Bhakta Prahlada (1931) was the first talkie."
+  },
+  {
+   "topic": 269,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Lava Kusa, the first full-length Telugu colour film, was released in:",
+   "o": [
+    "1921",
+    "1931",
+    "1963",
+    "1974"
+   ],
+   "a": 2,
+   "x": "Lava Kusa (1963), directed by C. Pullaiah and C.S. Rao, was the first full-length Telugu colour film."
+  },
+  {
+   "topic": 269,
+   "sec": 2,
+   "angle": "2,4",
+   "shape": "one-liner",
+   "s": "H.M. Reddy assisted Ardeshir Irani on which film?",
+   "o": [
+    "Raja Harishchandra",
+    "Bhakta Prahlada",
+    "Gruha Lakshmi",
+    "Alam Ara"
+   ],
+   "a": 3,
+   "x": "H.M. Reddy assisted Ardeshir Irani on Alam Ara (1931), the first Indian sound film."
+  },
+  {
+   "topic": 269,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The folklore classics Pathala Bhairavi and Mayabazar were directed by:",
+   "o": [
+    "K.V. Reddy",
+    "K. Viswanath",
+    "B.N. Reddy",
+    "H.M. Reddy"
+   ],
+   "a": 0,
+   "x": "Mayabazar and Pathala Bhairavi are K.V. Reddy's films, not K. Viswanath's."
+  },
+  {
+   "topic": 269,
+   "sec": 2,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The classical-arts social film Sankarabharanam was directed by:",
+   "o": [
+    "K.V. Reddy",
+    "K. Viswanath",
+    "B.N. Reddy",
+    "Bapu"
+   ],
+   "a": 1,
+   "x": "Sankarabharanam is K. Viswanath's classical-arts social film."
+  },
+  {
+   "topic": 269,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Ramoji Film City in Hyderabad was set up in:",
+   "o": [
+    "1976",
+    "1948",
+    "1996",
+    "1995"
+   ],
+   "a": 2,
+   "x": "Ramoji Film City dates from 1996 (APPSC 2018); Ramoji Rao's ETV began in 1995."
+  },
+  {
+   "topic": 269,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Vijaya Vauhini Studios, founded in 1948 by B. Nagi Reddy and Aluri Chakrapani, was located at:",
+   "o": [
+    "Hyderabad",
+    "Vijayawada",
+    "Visakhapatnam",
+    "Madras"
+   ],
+   "a": 3,
+   "x": "Vijaya Vauhini was a Madras studio (1948)."
+  },
+  {
+   "topic": 269,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Annapurna Studios at Banjara Hills, Hyderabad, founded by Akkineni Nageswara Rao, was set up in:",
+   "o": [
+    "1976",
+    "1948",
+    "1990",
+    "1996"
+   ],
+   "a": 0,
+   "x": "Annapurna Studios was set up in 1976."
+  },
+  {
+   "topic": 269,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "L.V. Prasad received the Dadasaheb Phalke Award in:",
+   "o": [
+    "1974",
+    "1982",
+    "1986",
+    "1990"
+   ],
+   "a": 1,
+   "x": "L.V. Prasad got the Phalke Award in 1982; 1974 was B.N. Reddy and 1986 B. Nagi Reddy."
+  },
+  {
+   "topic": 269,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Chiranjeevi received the Padma Vibhushan in:",
+   "o": [
+    "2006",
+    "2016",
+    "2024",
+    "2022"
+   ],
+   "a": 2,
+   "x": "Chiranjeevi got the Padma Bhushan in 2006 and the Padma Vibhushan in 2024."
+  },
+  {
+   "topic": 269,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Anant Nag, Dadasaheb Phalke awardee for 2024, is the second Kannada actor to get it after:",
+   "o": [
+    "Mohanlal",
+    "Chiranjeevi",
+    "Akkineni Nageswara Rao",
+    "Rajkumar"
+   ],
+   "a": 3,
+   "x": "Anant Nag (72nd NFA) is the second Kannada actor after Rajkumar to win the Phalke Award."
+  },
+  {
+   "topic": 269,
+   "sec": 4,
+   "angle": "6",
+   "shape": "statements",
+   "s": "Consider the following statements about film awards:\n1. The Nandi Awards were instituted by the Centre in 1969.\n2. The Dadasaheb Phalke Award was started in 1969.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 1,
+   "x": "The Phalke Award is the Centre's, from 1969. The Nandi Awards were instituted by the Government of AP in 1964."
+  },
+  {
+   "topic": 269,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Chiranjeevi served as Union Minister of State (Independent Charge) for:",
+   "o": [
+    "Tourism",
+    "Culture",
+    "Information and Broadcasting",
+    "Textiles"
+   ],
+   "a": 0,
+   "x": "After the Praja Rajyam merger, Chiranjeevi was Union MoS (IC) for Tourism."
+  },
+  {
+   "topic": 269,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Chiranjeevi launched the Praja Rajyam Party on:",
+   "o": [
+    "29 March 1982",
+    "26 August 2008",
+    "6 February 2011",
+    "26 August 1995"
+   ],
+   "a": 1,
+   "x": "Praja Rajyam was launched on 26 August 2008 and merged with the Congress on 6 February 2011."
+  },
+  {
+   "topic": 269,
+   "sec": 5,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The slogan of the Telugu Desam Party at its founding was:",
+   "o": [
+    "Jai Andhra",
+    "Praja Rajyam",
+    "Telugu Vari Atma Gauravam",
+    "Vande Mataram"
+   ],
+   "a": 2,
+   "x": "NTR's TDP campaigned on 'Telugu Vari Atma Gauravam' and ended the Congress monopoly in 1983."
+  },
+  {
+   "topic": 269,
+   "sec": 6,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The National Film Awards are run by:",
+   "o": [
+    "CBFC",
+    "Prasar Bharati",
+    "Doordarshan",
+    "NFDC"
+   ],
+   "a": 3,
+   "x": "The NFDC runs the National Film Awards; CBFC and Prasar Bharati are separate bodies."
+  }
+ ]
+}
