@@ -157,11 +157,11 @@
    "s": "The Mazdoor Kisan Shakti Sangathan, whose jan sunwais started the RTI movement, was founded in Rajasthan by:",
    "o": [
     "Medha Patkar and Baba Amte",
-    "Aruna Roy, Nikhil Dey and Shankar Singh",
+    "Sunderlal Bahuguna and Chandi Prasad Bhatt",
     "Anna Hazare and Arvind Kejriwal",
-    "Sunderlal Bahuguna and Chandi Prasad Bhatt"
+    "Aruna Roy, Nikhil Dey and Shankar Singh"
    ],
-   "a": 1,
+   "a": 3,
    "x": "MKSS (1990) was founded by Aruna Roy, Nikhil Dey and Shankar Singh, not Medha Patkar."
   },
   {
@@ -213,16 +213,16 @@
    "topic": 90,
    "sec": 3,
    "angle": "11",
-   "shape": "one-liner",
-   "s": "Which Section of the RTI Act deals with complaints to the Information Commission and inquiry into them?",
+   "shape": "match",
+   "s": "Which of the following pairs (RTI Act Section – subject) is correctly matched?",
    "o": [
-    "Section 18",
-    "Section 19",
-    "Section 20",
-    "Section 25"
+    "Section 18 – Appeals",
+    "Section 19 – Penalties",
+    "Section 20 – Complaints",
+    "Section 25 – Annual report"
    ],
-   "a": 0,
-   "x": "Section 18 covers complaints; Section 19 is appeals, Section 20 penalties and Section 25 the annual report."
+   "a": 3,
+   "x": "Section 25 provides for the annual report; 18 is complaints, 19 appeals and 20 penalties."
   },
   {
    "topic": 90,
@@ -231,12 +231,12 @@
    "shape": "one-liner",
    "s": "Under which Section of the RTI Act can a request be rejected because it infringes the copyright of a person other than the State?",
    "o": [
-    "Section 7",
-    "Section 8",
     "Section 9",
+    "Section 8",
+    "Section 7",
     "Section 11"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Section 9 allows rejection on grounds of copyright of a person other than the State; Section 11 deals with third-party information."
   },
   {
@@ -277,27 +277,27 @@
    "s": "Under which provision of the RTI Act may exempt information be disclosed if public interest outweighs the harm, even if covered by the Official Secrets Act?",
    "o": [
     "Section 8(1)(j)",
-    "Section 8(2)",
+    "Section 9",
     "Section 8(3)",
-    "Section 9"
+    "Section 8(2)"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Section 8(2) is the public-interest override; 8(3) is the 20-year rule and 8(1)(j) covers personal information."
   },
   {
    "topic": 90,
    "sec": 5,
    "angle": "13",
-   "shape": "one-liner",
-   "s": "Cabinet papers are exempt from disclosure under which clause of Section 8(1) of the RTI Act?",
+   "shape": "match",
+   "s": "Which of the following pairs (Section 8(1) clause – exempt information) is wrongly matched?",
    "o": [
-    "8(1)(d)",
-    "8(1)(e)",
-    "8(1)(i)",
-    "8(1)(j)"
+    "8(1)(d) – Trade secrets",
+    "8(1)(e) – Fiduciary relationship",
+    "8(1)(i) – Personal information",
+    "8(1)(f) – Information from a foreign government in confidence"
    ],
    "a": 2,
-   "x": "Clause 8(1)(i) exempts cabinet papers; (d) is commercial confidence, (e) fiduciary relationship and (j) personal information."
+   "x": "Clause 8(1)(i) covers cabinet papers; personal information is 8(1)(j)."
   },
   {
    "topic": 90,
@@ -321,12 +321,12 @@
    "shape": "one-liner",
    "s": "The Chief Information Commissioner and Information Commissioners of the Central Information Commission are appointed by the:",
    "o": [
-    "Prime Minister",
     "President",
+    "Prime Minister",
     "Chief Justice of India",
     "Speaker of the Lok Sabha"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Under Section 12, the President appoints them on the recommendation of a committee of the PM, the LoP in the Lok Sabha and a Union Cabinet Minister."
   },
   {
@@ -367,27 +367,27 @@
    "s": "Before the 2019 amendment, the salary of the Chief Information Commissioner was equal to that of the:",
    "o": [
     "Chief Justice of India",
-    "Chief Election Commissioner",
+    "Comptroller and Auditor General",
     "Cabinet Secretary",
-    "Comptroller and Auditor General"
+    "Chief Election Commissioner"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Originally the CIC's salary equalled the Chief Election Commissioner's and an IC's an Election Commissioner's; since 2019 the Centre fixes it."
   },
   {
    "topic": 90,
    "sec": 8,
    "angle": "7,16",
-   "shape": "one-liner",
-   "s": "Which provision of the RTI Act was rewritten into a blanket exemption for personal information by the DPDP Act, 2023?",
+   "shape": "statements",
+   "s": "Consider the following statements about amendments to the RTI Act:\n1. The 2019 amendment changed the tenure and salaries of Information Commissioners.\n2. Section 44(3) of the DPDP Act, 2023 altered Section 8(1)(j) of the RTI Act.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Section 8(1)(e)",
-    "Section 8(1)(i)",
-    "Section 8(1)(j)",
-    "Section 8(2)"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 2,
-   "x": "Section 44(3) of the DPDP Act, 2023 rewrote Section 8(1)(j), dropping the public-interest override for personal information."
+   "x": "Both are correct: 2019 changed tenure and pay; DPDP 2023 Section 44(3) rewrote 8(1)(j) into a blanket exemption for personal information."
   },
   {
    "topic": 90,
@@ -411,12 +411,12 @@
    "shape": "one-liner",
    "s": "The RTI (Amendment) Bill, 2013, which sought to exclude political parties from the RTI Act:",
    "o": [
-    "Was passed and notified",
-    "Was struck down by the Supreme Court",
     "Lapsed",
+    "Was struck down by the Supreme Court",
+    "Was passed and notified",
     "Was referred to the Law Commission"
    ],
-   "a": 2,
+   "a": 0,
    "x": "Parties did not comply with the CIC's 2013 order, and the 2013 Bill to exclude them lapsed; the matter is pending before the Supreme Court."
   },
   {
@@ -427,11 +427,11 @@
    "s": "In Girish Ramchandra Deshpande v CIC (2012), service records, assets and tax returns of an employee were held to be:",
    "o": [
     "Information held in fiduciary capacity",
-    "Personal information under Section 8(1)(j)",
+    "Information that must be proactively disclosed",
     "Cabinet papers under Section 8(1)(i)",
-    "Information that must be proactively disclosed"
+    "Personal information under Section 8(1)(j)"
    ],
-   "a": 1,
+   "a": 3,
    "x": "The Supreme Court held these to be personal information under Section 8(1)(j)."
   },
   {
@@ -456,12 +456,12 @@
    "shape": "one-liner",
    "s": "The RTI Online portal for central public authorities, launched in 2013, is run by the:",
    "o": [
-    "Central Information Commission",
-    "Ministry of Electronics and IT",
     "Department of Personnel and Training",
+    "Ministry of Electronics and IT",
+    "Central Information Commission",
     "National Informatics Centre"
    ],
-   "a": 2,
+   "a": 0,
    "x": "The RTI Online portal (rtionline.gov.in) of the DoPT was launched in 2013 for applications, first appeals and online fees."
   },
   {
@@ -487,11 +487,11 @@
    "s": "In November 2023, the Andhra Pradesh High Court directed the State to set up:",
    "o": [
     "A State Lokayukta",
-    "An online RTI portal",
+    "A whistle-blower helpline",
     "A second State Information Commission",
-    "A whistle-blower helpline"
+    "An online RTI portal"
    ],
-   "a": 1,
+   "a": 3,
    "x": "Following the Supreme Court's Pravasi Legal Cell judgment, the AP High Court directed the state to set up an online RTI portal."
   },
   {
@@ -516,12 +516,12 @@
    "shape": "one-liner",
    "s": "The Second ARC recommended linking the RTI regime with which law to protect RTI activists?",
    "o": [
-    "Official Secrets Act, 1923",
     "Whistle Blowers Protection Act, 2014",
+    "Official Secrets Act, 1923",
     "Prevention of Corruption Act, 1988",
     "DPDP Act, 2023"
    ],
-   "a": 1,
+   "a": 0,
    "x": "With over 100 RTI activists killed, the Second ARC urged linking RTI with whistle-blower protection; the 2014 Act is not operationalised."
   },
   {
@@ -533,10 +533,10 @@
    "o": [
     "Article 309",
     "Article 310",
-    "Article 311",
-    "Article 312"
+    "Article 312",
+    "Article 311"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Article 311 gives safeguards; Article 310 is the doctrine of pleasure and 312 the All India Services."
   },
   {
@@ -576,12 +576,12 @@
    "shape": "one-liner",
    "s": "The cadre-controlling authority for the IAS is the:",
    "o": [
-    "Ministry of Home Affairs",
     "Department of Personnel and Training",
+    "Ministry of Home Affairs",
     "Union Public Service Commission",
     "Cabinet Secretariat"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The IAS cadre is controlled by the DoPT, the IPS by the MHA and the Indian Forest Service by the MoEFCC."
   },
   {
@@ -663,16 +663,16 @@
    "topic": 91,
    "sec": 5,
    "angle": "2",
-   "shape": "one-liner",
-   "s": "Which committee (1989) recommended introducing an essay paper in the Civil Services Examination?",
+   "shape": "match",
+   "s": "Which of the following pairs (committee – year) is correctly matched?",
    "o": [
-    "Satish Chandra Committee",
-    "D.S. Kothari Committee",
-    "B.S. Baswan Committee",
-    "Y.K. Alagh Committee"
+    "D.S. Kothari – 1989",
+    "Satish Chandra – 1976",
+    "P.C. Hota – 2004",
+    "B.S. Baswan – 2000"
    ],
-   "a": 0,
-   "x": "The Satish Chandra Committee (1989) recommended the essay paper and more weight to the interview."
+   "a": 2,
+   "x": "The P.C. Hota Committee was formed in February 2004; Kothari was 1976, Satish Chandra 1989 and Baswan 2016."
   },
   {
    "topic": 91,
@@ -693,16 +693,16 @@
    "topic": 91,
    "sec": 6,
    "angle": "1",
-   "shape": "one-liner",
-   "s": "The first report of the Second Administrative Reforms Commission (June 2006) dealt with:",
+   "shape": "statements",
+   "s": "Consider the following statements about the Second Administrative Reforms Commission:\n1. It was constituted in 2005.\n2. Its first report dealt with Right to Information.\n3. It recommended abolition of right to public services laws.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Ethics in Governance",
-    "Personnel Administration",
-    "Right to Information",
-    "Citizen Centric Administration"
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
    ],
-   "a": 2,
-   "x": "The 1st Report was 'Right to Information: Master Key to Good Governance' (9 June 2006)."
+   "a": 0,
+   "x": "Statements 1 and 2 are correct (constituted 31 Aug 2005; 1st Report on RTI). Statement 3 is wrong: it recommended right to public services laws, not their abolition."
   },
   {
    "topic": 91,
@@ -858,16 +858,16 @@
    "topic": 92,
    "sec": 3,
    "angle": "14",
-   "shape": "one-liner",
-   "s": "Which provision of the BNSS replaced Section 197 CrPC on sanction for prosecution of public servants?",
+   "shape": "match",
+   "s": "Which of the following pairs (provision – stage of protection) is correctly matched?",
    "o": [
-    "Section 197 BNSS",
-    "Section 210 BNSS",
-    "Section 218 BNSS",
-    "Section 223 BNSS"
+    "Sec 19 PCA – Approval before investigation",
+    "Sec 17A PCA – Sanction before cognizance",
+    "Sec 218 BNSS – General protection of public servants",
+    "Sec 197 BNSS – Sanction before cognizance"
    ],
    "a": 2,
-   "x": "Section 218 of the BNSS (in force from 1 July 2024) replaced Section 197 of the CrPC."
+   "x": "Sec 218 BNSS (earlier Sec 197 CrPC) is the general protection; 17A is approval before investigation and 19 sanction before cognizance."
   },
   {
    "topic": 92,
@@ -933,16 +933,16 @@
    "topic": 92,
    "sec": 5,
    "angle": "7",
-   "shape": "one-liner",
-   "s": "Under which Act is the Central Vigilance Commission a statutory body?",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Central Vigilance Commission?",
    "o": [
-    "DSPE Act 1946",
-    "Prevention of Corruption Act 1988",
-    "CVC Act 2003",
-    "Lokpal and Lokayuktas Act 2013"
+    "It is a statutory body under the CVC Act 2003",
+    "It has superintendence over the CBI in corruption cases",
+    "It has up to 2 Vigilance Commissioners",
+    "Its members hold office for 5 years or until 65"
    ],
-   "a": 2,
-   "x": "The CVC is an independent statutory body under the CVC Act 2003; the DSPE Act 1946 is the basis of the CBI."
+   "a": 3,
+   "x": "CVC members hold office for 4 years or until 65, not 5 years; the other statements are correct."
   },
   {
    "topic": 92,
@@ -1098,16 +1098,16 @@
    "topic": 92,
    "sec": 9,
    "angle": "9",
-   "shape": "one-liner",
-   "s": "Social audit of scheme works such as MGNREGA is carried out by the:",
+   "shape": "match",
+   "s": "Which of the following pairs (citizen oversight tool – origin) is correctly matched?",
    "o": [
-    "Gram Sabha",
-    "District Collector",
-    "Comptroller and Auditor General",
-    "State Vigilance Commission"
+    "Jan Sunwai – Public Affairs Centre, Bengaluru",
+    "Citizen Report Cards – MKSS, Rajasthan",
+    "Social audit – Gram Sabha audit of MGNREGA works",
+    "Citizen Report Cards – Transparency International"
    ],
-   "a": 0,
-   "x": "Social audit is the Gram Sabha's audit of scheme works under MGNREGA."
+   "a": 2,
+   "x": "Social audit is the Gram Sabha's audit of scheme works; Citizen Report Cards come from the Public Affairs Centre and Jan Sunwai from MKSS."
   },
   {
    "topic": 92,
