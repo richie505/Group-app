@@ -1,5 +1,5 @@
 """APPSC Reader's reading plan (app/src/reader/assets/plan.json): every one of the 927 topics read once from
-START, in APPSC Complete's first-pass order, a day's share by words (about the same reading time each day); then
+START, in APPSC Complete's first-pass order, a day's share by words (about the same reading time each day; the words of the Reader's own notes, tools/reader_build.py); then
 revision days for the HIGH-priority topics and your own markers; then two buffer days before the exam.
 
     python3 tools/reader_plan.py
@@ -26,7 +26,7 @@ for d in src["days"]:
 words = {}
 for b in range(1, 7):
     ri = 0
-    for u in json.load(open(f"{A}/book{b}.json"))["units"]:
+    for u in json.load(open(f"app/src/reader/assets/book{b}.json"))["units"]:  # the Reader's full notes
         for row in u["rows"]:
             n = 0
             for s in row["secs"]:

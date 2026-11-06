@@ -41,6 +41,8 @@ data class Subsection(
     val full: Boolean = false,
     /** APPSC Complete: a page with nothing the MCQs ask (tools/trim_notes.py): hidden, and counted as read. */
     val empty: Boolean = false,
+    /** APPSC Reader: the heading of the group of pages this page opens or continues (tools/reader_build.py). */
+    val group: String = "",
 ) {
     val wordCount: Int by lazy {
         blocks.sumOf { b ->

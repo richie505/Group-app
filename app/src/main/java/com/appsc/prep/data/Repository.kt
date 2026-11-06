@@ -380,6 +380,7 @@ class Repository(private val open: (String) -> InputStream) {
                         map = (s.jsonObject["m"] as? JsonArray)?.map { mapNode(it.jsonObject) } ?: emptyList(),
                         // APPSC Complete: a topic's boxes and its full-notes pages are one list of subsections
                         full = s.jsonObject.containsKey("f") && !hasMcqNotes,
+                        group = (s.jsonObject["g"] as? JsonPrimitive)?.content ?: "",
                         empty = s.jsonObject["b"]!!.jsonArray.let { b ->
                             b.size == 1 && b[0].jsonObject["k"]?.jsonPrimitive?.content == "n" &&
                                 (b[0].jsonObject["x"] as? JsonArray)?.firstOrNull()?.jsonArray?.firstOrNull()?.jsonPrimitive?.content?.startsWith("No MCQ") == true

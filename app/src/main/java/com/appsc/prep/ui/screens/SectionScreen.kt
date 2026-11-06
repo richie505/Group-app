@@ -167,6 +167,14 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                 Column {
                     val id = subsectionId(bookId, rowIndex, i)
                     if (i == core && s.full) SectionHeader("Full notes (${row.secs.size - core})")
+                    // APPSC Reader: a heading over each group of pages
+                    if (s.group.isNotEmpty() && (i == 0 || row.secs[i - 1].group != s.group)) {
+                        Text(
+                            s.group,
+                            style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.Bold, color = C.Accent),
+                            modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = if (i == 0) 4.dp else 18.dp, bottom = 2.dp),
+                        )
+                    }
                     Row(
                         Modifier
                             .fillMaxWidth()

@@ -166,6 +166,11 @@ class ProgressStore(private val prefs: Storage) {
             saved = saved.map { s -> map[s.id]?.let { s.copy(id = it) } ?: s }.distinctBy { it.id }
             prefs.putStringSet(KEY_SAVED, saved.mapIndexed { i, s -> "$i\t${s.id}\t${s.title}\t${s.rowTitle}" }.toSet())
             lastRead?.let { l -> map[l]?.let { rememberPosition(it) } }
+            // markers go with their page; a page that is gone takes its markers with it
+            if (marks.isNotEmpty()) {
+                marks = marks.filter { it.page !in moves.merged }.map { m -> map[m.page]?.let { m.copy(page = it) } ?: m }
+                saveMarks()
+            }
         }
         prefs.putString(KEY_IDS, moves.version)
     }

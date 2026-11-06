@@ -362,6 +362,15 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                 style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, color = C.Accent, fontWeight = FontWeight.SemiBold),
                                 maxLines = 2, overflow = TextOverflow.Ellipsis,
                             )
+                            // APPSC Reader: the group of pages this one belongs to, and where it is in it
+                            if (sec.group.isNotEmpty()) {
+                                val inGroup = row.secs.indices.filter { row.secs[it].group == sec.group }
+                                Text(
+                                    "${sec.group} · ${inGroup.indexOf(secI) + 1} of ${inGroup.size}",
+                                    style = TextStyle(fontSize = 13.sp, color = C.Muted),
+                                    modifier = Modifier.padding(top = 4.dp),
+                                )
+                            }
                             Spacer(Modifier.height(8.dp))
                             Text(
                                 sec.title,
@@ -699,6 +708,13 @@ private fun TocList(secs: List<Subsection>, current: Int, isRead: (Int) -> Boole
     LazyColumn(state = tocState) {
         itemsIndexed(secs) { i, s ->
             if (s.empty && i != current) return@itemsIndexed
+            if (s.group.isNotEmpty() && (i == 0 || secs[i - 1].group != s.group)) {
+                Text(
+                    s.group.uppercase(),
+                    style = TextStyle(fontSize = 12.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp),
+                    modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = if (i == 0) 8.dp else 18.dp, bottom = 4.dp),
+                )
+            }
             val here = i == current
             Row(
                 Modifier

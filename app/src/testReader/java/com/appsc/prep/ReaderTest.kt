@@ -65,18 +65,46 @@ class ReaderTest {
         assertTrue(repo.reader && !repo.complete && !repo.revision)
     }
 
-    /** All 927 topics of the full notes, every page loads, and no MCQs. */
-    @Test fun everyTopicAndPageLoads() = runBlocking {
+    /** All 927 topics, only their full notes (no one-page summaries), each topic's pages in headed groups. */
+    @Test fun everyTopicIsItsFullNotesInGroups() = runBlocking {
         assertEquals(927, repo.index.sumOf { it.rows.size })
         var pages = 0
         for (b in 1..6) {
             val bk = repo.book(b)
             assertEquals(repo.index[b - 1].rows.size, bk.rows.size)
+            bk.rows.forEachIndexed { ri, r ->
+                assertEquals("$b:$ri", repo.index[b - 1].rows[ri].subsectionCount, r.secs.size)
+                assertTrue("$b:$ri", r.secs.isNotEmpty() && r.secs.none { it.full || it.empty })
+                assertTrue("$b:$ri", r.secs.none { "Full notes" in it.badges })
+                // every page has its group, and a group's pages are together
+                assertTrue("$b:$ri", r.secs.all { it.group.isNotEmpty() })
+                val runs = r.secs.map { it.group }.fold(mutableListOf<String>()) { a, g -> if (a.lastOrNull() != g) a += g; a }
+                assertEquals("$b:$ri groups split", runs.toSet().size, runs.size)
+                assertTrue("$b:$ri", r.secs.all { s -> s.blocks.isNotEmpty() })
+            }
             pages += bk.rows.sumOf { it.secs.size }
             assertTrue(repo.mcq(b).rows.isEmpty())
             assertTrue(repo.index[b - 1].rows.all { it.questionCount == 0 })
         }
-        assertEquals(17663, pages)
+        assertTrue(pages in 10000..10676)
+        // the plan reads every topic once
+        val study = repo.plan.days.filter { it.type == "study" }.flatMap { d -> d.rows.map { it.book to it.row } }
+        assertEquals(927, study.toSet().size)
+    }
+
+    /** 3.19's page ids (APPSC Complete's) move to the new pages; read marks and markers go with them. */
+    @Test fun readMarksAndMarkersMoveToTheNewPages() {
+        val moves = repo.idMoves
+        assertEquals("reader-2", moves.version)
+        val store = ProgressStore(PrefsStorage(ctx))
+        // APPSC Complete's 1:0:9 is topic 1's first full-notes page
+        store.toggleDone("1:0:9")
+        store.addMark("1:0:9", "Sohgaura", 0, "Oldest", "Sources")
+        store.addMark("1:0:0", "gone", 0, "Literary sources", "Sources")
+        store.migrate(moves)
+        val to = moves.map["1:0:9"]!!
+        assertTrue(store.isDone(to))
+        assertEquals(listOf(to), store.marks.map { it.page })
     }
 
     /** Simple meanings: the harder words of the notes, in simple Indian English, found in any form. */
@@ -135,7 +163,8 @@ class ReaderTest {
     @Test fun shotPlan() { shot("2_plan") { PlanScreen(nav) } }
     @Test fun shotNotes() { shot("3_notes") { BooksScreen(nav) } }
     @Test fun shotSubject() { shot("4_subject") { ExamSubjectScreen(0, 0, nav) } }
-    @Test fun shotTopic() { shot("5_topic") { SectionScreen(4, 0, nav) } }
+    @Test fun shotTopic() { shot("5_topic") { SectionScreen(1, 0, nav) } }
+    @Test fun shotTopicGeo() { shot("5b_topic") { SectionScreen(4, 0, nav) } }
     @Test fun shotPage() { shot("6_page") { ReaderScreen(4, 0, 1, nav) } }
     @Test fun shotProgress() { shot("7_progress") { ProgressScreen(nav) } }
     @Test fun shotSaved() { shot("8_saved") { SavedScreen(nav) } }
