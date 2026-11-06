@@ -1,0 +1,1089 @@
+{
+ "reshape": {
+  "n450f00048a9": {
+   "shape": "one-liner",
+   "s": "Containers such as Docker are lighter than virtual machines mainly because they:",
+   "o": [
+    "Each carry a full operating system",
+    "Share the host OS kernel",
+    "Run only on edge devices",
+    "Need no server hardware"
+   ],
+   "a": 1,
+   "x": "Containers share the host OS kernel, while each virtual machine runs its own operating system; this makes containers lightweight."
+  },
+  "n8e4c9f62db7": {
+   "shape": "one-liner",
+   "s": "The Vizag–Kapuluppada data-centre corridor lies in which seismic zone?",
+   "o": [
+    "Seismic Zone IV",
+    "Seismic Zone III",
+    "Seismic Zone V",
+    "Seismic Zone II"
+   ],
+   "a": 3,
+   "x": "Location in Seismic Zone II is one of the corridor's advantages, along with a submarine cable landing station, sea-breeze cooling and nearness to Southeast Asia."
+  },
+  "n0bd8e045de0": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Web 3.0 terms?",
+   "o": [
+    "Stablecoins are pegged to fiat currencies, commodities or crypto-assets",
+    "Tokenisation means mining new coins to validate transactions",
+    "Tokenisation converts ownership rights in an asset into a blockchain token",
+    "Mining validates transactions"
+   ],
+   "a": 1,
+   "x": "Tokenisation converts asset ownership rights into a blockchain token; it is mining, not tokenisation, that validates transactions."
+  },
+  "n188d19dc222": {
+   "shape": "one-liner",
+   "s": "The property-registration pilot of MeitY's Distributed Centre of Excellence in Blockchain was in Shamshabad, which lies in:",
+   "o": [
+    "Andhra Pradesh",
+    "Karnataka",
+    "Telangana",
+    "Maharashtra"
+   ],
+   "a": 2,
+   "x": "Shamshabad is in Telangana, not Andhra Pradesh."
+  },
+  "n4e43b300b5c": {
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Cryptocurrency – legal tender in India",
+    "Cryptocurrency – decentralised and peer-to-peer",
+    "Cryptocurrency – issued by the RBI",
+    "Cryptocurrency – liability of the RBI"
+   ],
+   "a": 1,
+   "x": "Cryptocurrency is decentralised and peer-to-peer; it is not legal tender in India and has no issuer, unlike the RBI's e-rupee."
+  },
+  "n3c6721ce1b2": {
+   "shape": "one-liner",
+   "s": "The Bharat 6G Vision (March 2023) aims for India to lead 6G design, development and deployment by:",
+   "o": [
+    "2027",
+    "2030",
+    "2035",
+    "2040"
+   ],
+   "a": 1,
+   "x": "The Bharat 6G Vision, released in March 2023, targets Indian leadership in 6G by 2030."
+  },
+  "n1503deb6b9e": {
+   "shape": "one-liner",
+   "s": "5G Standalone (SA) gives lower latency mainly because it:",
+   "o": [
+    "Splits the network into virtual slices",
+    "Depends on a 4G LTE core",
+    "Runs without a 4G core",
+    "Uses GEO satellite backhaul"
+   ],
+   "a": 2,
+   "x": "5G SA runs without a 4G core, which gives it lower latency; network slicing is a separate feature and does not explain it."
+  },
+  "n5f6140aecae": {
+   "shape": "one-liner",
+   "s": "Under GMPCS licence conditions, what must satellite operators get made in India within five years?",
+   "o": [
+    "All satellites",
+    "Launch vehicles",
+    "Ground rockets",
+    "User terminals"
+   ],
+   "a": 3,
+   "x": "The GMPCS conditions require terminals to be made in India within five years, besides geofencing, no cross-border spillover and lawful surveillance."
+  },
+  "nb48f6956a04": {
+   "shape": "one-liner",
+   "s": "Under ITU rules, a satellite must be de-orbited within how many years of the end of its mission?",
+   "o": [
+    "10 years",
+    "25 years",
+    "50 years",
+    "100 years"
+   ],
+   "a": 1,
+   "x": "The ITU de-orbit limit is 25 years after mission end; orbital slots are given first-come, first-served."
+  }
+ },
+ "new": [
+  {
+   "topic": 18,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Raw data stored in its native format is called a:",
+   "o": [
+    "Data warehouse",
+    "Data lake",
+    "Data mart",
+    "Metadata"
+   ],
+   "a": 1,
+   "x": "A data lake holds raw data in native format; a data warehouse holds cleaned, structured data."
+  },
+  {
+   "topic": 18,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "'Data about data' is known as:",
+   "o": [
+    "Data mining",
+    "Data lake",
+    "Metadata",
+    "Data warehouse"
+   ],
+   "a": 2,
+   "x": "Metadata is data about data; data mining is finding patterns in large datasets."
+  },
+  {
+   "topic": 18,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Finding patterns in large datasets is called:",
+   "o": [
+    "Data mining",
+    "Data warehousing",
+    "Data lake",
+    "Metadata"
+   ],
+   "a": 0,
+   "x": "Data mining means finding patterns in large datasets."
+  },
+  {
+   "topic": 18,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Google App Engine is an example of which cloud service model?",
+   "o": [
+    "IaaS",
+    "SaaS",
+    "DaaS",
+    "PaaS"
+   ],
+   "a": 3,
+   "x": "Google App Engine is PaaS, a platform to develop, deploy and run apps; Amazon EC2 is IaaS and Gmail is SaaS."
+  },
+  {
+   "topic": 18,
+   "sec": 2,
+   "angle": "2",
+   "shape": "NOT",
+   "s": "Which of the following is NOT a deployment model of cloud computing?",
+   "o": [
+    "Public cloud",
+    "Hybrid cloud",
+    "Community cloud",
+    "Platform cloud"
+   ],
+   "a": 3,
+   "x": "The deployment models are public, private, hybrid and community; 'platform' refers to the PaaS service model, not a deployment model."
+  },
+  {
+   "topic": 18,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The cloud feature under which many users share a common set of resources is:",
+   "o": [
+    "Elasticity",
+    "Resource pooling",
+    "Metered use",
+    "On-demand self-service"
+   ],
+   "a": 1,
+   "x": "Resource pooling means shared resources; elasticity means resources grow or shrink with demand."
+  },
+  {
+   "topic": 18,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "In which model does the provider run and scale the servers and bill the user per use, as in AWS Lambda?",
+   "o": [
+    "Serverless computing",
+    "Virtualisation",
+    "Fog computing",
+    "Containers"
+   ],
+   "a": 0,
+   "x": "Serverless computing lets the provider run and scale servers with billing per use; AWS Lambda is an example."
+  },
+  {
+   "topic": 18,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Running many virtual machines, each with its own OS, on one server is called:",
+   "o": [
+    "Containerisation",
+    "Serverless computing",
+    "Virtualisation",
+    "Edge computing"
+   ],
+   "a": 2,
+   "x": "Virtualisation lets one server run many VMs, each with its own OS; containers instead share the host kernel."
+  },
+  {
+   "topic": 18,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Which computing layer sits between edge and cloud and does local aggregation of data?",
+   "o": [
+    "Edge",
+    "Fog",
+    "Grid",
+    "Mainframe"
+   ],
+   "a": 1,
+   "x": "Fog computing lies between edge and cloud and aggregates data locally; edge has the lowest latency."
+  },
+  {
+   "topic": 18,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The National Data Governance Framework Policy (2022) set up the India Data Management Office and the:",
+   "o": [
+    "India Datasets Programme",
+    "MeghRaj Programme",
+    "Digital India Land Records Programme",
+    "National e-Governance Plan"
+   ],
+   "a": 0,
+   "x": "The NDGF Policy (MeitY, 2022) set up the India Data Management Office and the India Datasets Programme."
+  },
+  {
+   "topic": 18,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Open Government Data (OGD) Platform India was set up under the NDSAP of:",
+   "o": [
+    "2008",
+    "2015",
+    "2012",
+    "2022"
+   ],
+   "a": 2,
+   "x": "The OGD Platform India comes under the NDSAP of 2012 and offers over 2.34 lakh dataset APIs."
+  },
+  {
+   "topic": 18,
+   "sec": 4,
+   "angle": "3,2",
+   "shape": "one-liner",
+   "s": "MeghRaj (GI Cloud), the Government of India cloud, runs on the infrastructure of:",
+   "o": [
+    "C-DAC",
+    "STPI",
+    "MeitY Startup Hub",
+    "NIC"
+   ],
+   "a": 3,
+   "x": "MeghRaj (GI Cloud) is the GoI cloud on NIC, with interoperability and security standards."
+  },
+  {
+   "topic": 18,
+   "sec": 4,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about the Economic Survey 2025-26 proposal on health hotspots:\n1. It uses UDISE+, AISHE and ABDM surveys.\n2. It combines these surveys with AI.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: the Economic Survey 2025-26 proposes UDISE+, AISHE and ABDM surveys plus AI to find health hotspots."
+  },
+  {
+   "topic": 18,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The draft Data Centre Policy (September 2025) proposes a tax holiday of:",
+   "o": [
+    "10 years",
+    "15 years",
+    "20 years",
+    "25 years"
+   ],
+   "a": 2,
+   "x": "The draft policy proposes a 20-year tax holiday, not 10 years."
+  },
+  {
+   "topic": 18,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Which value of Power Usage Effectiveness (PUE) shows the most efficient data centre?",
+   "o": [
+    "1.1",
+    "1.5",
+    "2.0",
+    "2.5"
+   ],
+   "a": 0,
+   "x": "PUE is total facility energy divided by IT energy; the closer to 1, the better."
+  },
+  {
+   "topic": 18,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Uptime Institute Tier IV data centre offers availability of about:",
+   "o": [
+    "99.671%",
+    "99.982%",
+    "99.995%",
+    "99.741%"
+   ],
+   "a": 2,
+   "x": "Tier IV is fully fault-tolerant with about 99.995% availability; Tier I is basic."
+  },
+  {
+   "topic": 18,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Data centres use about what share of global electricity?",
+   "o": [
+    "1%",
+    "5%",
+    "10%",
+    "15%"
+   ],
+   "a": 0,
+   "x": "Data centres use about 1% of global electricity, and their cooling needs much water."
+  },
+  {
+   "topic": 18,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Which company announced a $15 billion, 1 GW AI hub in Visakhapatnam in October 2025?",
+   "o": [
+    "Microsoft",
+    "Amazon",
+    "Meta",
+    "Google"
+   ],
+   "a": 3,
+   "x": "Google announced the $15 billion, 1 GW AI hub in Visakhapatnam in October 2025."
+  },
+  {
+   "topic": 18,
+   "sec": 5,
+   "angle": "8",
+   "shape": "match",
+   "s": "Which of the following pairs (investor in Visakhapatnam – project) is correctly matched?",
+   "o": [
+    "TCS – 1 GW AI hub",
+    "Google – HyperVault",
+    "TCS – HyperVault",
+    "Google – Kapuluppada cable landing"
+   ],
+   "a": 2,
+   "x": "HyperVault is TCS's data-centre proposal; the $15 billion 1 GW AI hub is Google's."
+  },
+  {
+   "topic": 19,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "AP DigiVerify, used for certificate verification, runs on which type of blockchain?",
+   "o": [
+    "Public permissionless",
+    "Private permissioned",
+    "Hybrid permissionless",
+    "Public Proof of Work"
+   ],
+   "a": 1,
+   "x": "AP DigiVerify is a permissioned blockchain where only authorised entities join and validate; Bitcoin is public and permissionless."
+  },
+  {
+   "topic": 19,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which consensus mechanism uses far more energy, with miners racing to solve puzzles?",
+   "o": [
+    "Proof of Stake",
+    "Proof of Existence",
+    "Proof of Work",
+    "Proof of Authority"
+   ],
+   "a": 2,
+   "x": "Proof of Work has miners racing to solve puzzles and uses far more energy; Proof of Stake picks validators by coins staked."
+  },
+  {
+   "topic": 19,
+   "sec": 2,
+   "angle": "5,2",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct?",
+   "o": [
+    "Bitcoin still uses Proof of Work",
+    "Ethereum uses Proof of Stake since September 2022",
+    "Bitcoin is a public blockchain",
+    "AP DigiVerify is a permissionless blockchain"
+   ],
+   "a": 3,
+   "x": "AP DigiVerify is permissioned: only authorised entities join and validate."
+  },
+  {
+   "topic": 19,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The tax on gains from virtual digital assets under Section 115BBH is:",
+   "o": [
+    "30%",
+    "20%",
+    "15%",
+    "1%"
+   ],
+   "a": 0,
+   "x": "The Finance Act 2022 levies 30% tax on VDA gains (Section 115BBH) and 1% TDS on transfers (Section 194S)."
+  },
+  {
+   "topic": 19,
+   "sec": 3,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "1% TDS on transfers of virtual digital assets is levied under which section of the Income Tax Act?",
+   "o": [
+    "Section 115BBH",
+    "Section 194S",
+    "Section 194N",
+    "Section 80C"
+   ],
+   "a": 1,
+   "x": "Section 194S levies 1% TDS on VDA transfers from 1 July 2022; Section 115BBH taxes the gains at 30%."
+  },
+  {
+   "topic": 19,
+   "sec": 3,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about the taxation of virtual digital assets in India:\n1. Gains are taxed at 30%.\n2. Losses can be set off against other income.\n3. 1% TDS applies on transfers.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Statements 1 and 3 are correct; losses on VDAs cannot be set off."
+  },
+  {
+   "topic": 19,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "Lending and trading through smart contracts without banks is called:",
+   "o": [
+    "DeFi",
+    "NFT",
+    "Tokenisation",
+    "Stablecoin"
+   ],
+   "a": 0,
+   "x": "DeFi (decentralised finance) means lending and trading via smart contracts without banks."
+  },
+  {
+   "topic": 19,
+   "sec": 4,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "NFTs are called non-fungible because they:",
+   "o": [
+    "Are pegged to fiat currencies",
+    "Are issued only by central banks",
+    "Cannot be held as digital assets",
+    "Are unique and not exchangeable at equivalency"
+   ],
+   "a": 3,
+   "x": "NFTs are unique tokens not exchangeable at equivalency; they can even represent physical assets."
+  },
+  {
+   "topic": 19,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Vishvasya, MeitY's 2024 blockchain stack, is offered as:",
+   "o": [
+    "Blockchain-as-a-Service",
+    "Software-as-a-Service",
+    "Infrastructure-as-a-Service",
+    "Data-as-a-Service"
+   ],
+   "a": 0,
+   "x": "Vishvasya is a Blockchain-as-a-Service stack across NIC data centres, building on the National Blockchain Framework."
+  },
+  {
+   "topic": 19,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Vishvasya blockchain stack is hosted across the data centres of:",
+   "o": [
+    "C-DAC",
+    "IDRBT",
+    "NIC",
+    "NPCI"
+   ],
+   "a": 2,
+   "x": "Vishvasya (MeitY, 2024) runs across NIC data centres."
+  },
+  {
+   "topic": 19,
+   "sec": 5,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Which blockchain did NPCI release as its first, before Drunix?",
+   "o": [
+    "Vishvasya",
+    "Falcon",
+    "Hyperledger Fabric",
+    "DigiVerify"
+   ],
+   "a": 1,
+   "x": "Falcon was NPCI's first open-source blockchain; Drunix, rebuilt from Hyperledger Fabric, is the second."
+  },
+  {
+   "topic": 19,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "The Distributed Centre of Excellence in Blockchain produced a Proof-of-Existence framework for:",
+   "o": [
+    "Land titles",
+    "Certificates",
+    "Health records",
+    "Farm insurance"
+   ],
+   "a": 1,
+   "x": "The Distributed CoE (C-DAC, IDRBT Hyderabad, VJTI Mumbai) produced a Proof-of-Existence framework for certificates."
+  },
+  {
+   "topic": 19,
+   "sec": 7,
+   "angle": "6,9",
+   "shape": "one-liner",
+   "s": "On 1 January 2026, the Supreme Court suggested the use of blockchain for:",
+   "o": [
+    "Electoral rolls",
+    "Court records",
+    "Land records",
+    "Tax returns"
+   ],
+   "a": 2,
+   "x": "On 1 January 2026 the Supreme Court suggested blockchain for land records."
+  },
+  {
+   "topic": 19,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "India's CBDC, the e-rupee, is issued by the:",
+   "o": [
+    "NPCI",
+    "Ministry of Finance",
+    "SEBI",
+    "RBI"
+   ],
+   "a": 3,
+   "x": "The e-rupee is legal tender in digital form issued by the RBI and is a liability of the RBI."
+  },
+  {
+   "topic": 19,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The wholesale e-rupee (e₹-W) pilot began on:",
+   "o": [
+    "1 November 2022",
+    "1 December 2022",
+    "1 October 2022",
+    "1 April 2022"
+   ],
+   "a": 0,
+   "x": "The wholesale pilot began on 1 November 2022, before the retail pilot of 1 December 2022."
+  },
+  {
+   "topic": 19,
+   "sec": 6,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The wholesale e-rupee pilot is used for the settlement of:",
+   "o": [
+    "Retail merchant payments",
+    "Secondary-market government securities",
+    "Cross-border remittances",
+    "UPI transactions"
+   ],
+   "a": 1,
+   "x": "The wholesale pilot (e₹-W) settles secondary-market government securities, with 9 banks."
+  },
+  {
+   "topic": 19,
+   "sec": 6,
+   "angle": "8",
+   "shape": "statements",
+   "s": "Consider the following statements about the e-rupee:\n1. It is legal tender.\n2. Like UPI, it only moves bank-account money.\n3. The retail pilot began on 1 December 2022.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Statements 1 and 3 are correct; UPI moves bank-account money, whereas the e-rupee is RBI money itself."
+  },
+  {
+   "topic": 19,
+   "sec": 6,
+   "angle": "8",
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "UPI – RBI money in digital form",
+    "Cryptocurrency – legal tender",
+    "e-rupee – liability of the RBI",
+    "e-rupee – no issuer"
+   ],
+   "a": 2,
+   "x": "The e-rupee is a liability of the RBI (concept note, October 2022); UPI moves bank-account money and crypto has no issuer and is not legal tender."
+  },
+  {
+   "topic": 19,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The Mee Bhoomi-Blockchain pilot unifies which three AP departments?",
+   "o": [
+    "Revenue, Survey and Registration",
+    "Revenue, Agriculture and Panchayat Raj",
+    "Survey, Municipal Administration and Registration",
+    "Revenue, Police and Registration"
+   ],
+   "a": 0,
+   "x": "Mee Bhoomi-Blockchain, launched by CM Naidu on 23 July 2026, unifies Revenue, Survey and Registration."
+  },
+  {
+   "topic": 19,
+   "sec": 7,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "The Mee Bhoomi-Blockchain pilot was launched by Chief Minister Naidu on:",
+   "o": [
+    "10 April 2026",
+    "1 January 2026",
+    "1 November 2026",
+    "23 July 2026"
+   ],
+   "a": 3,
+   "x": "The pilot was launched on 23 July 2026 and is to go statewide from November."
+  },
+  {
+   "topic": 20,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which body is DoT's technical arm for telecom standards and equipment testing?",
+   "o": [
+    "TEC",
+    "C-DOT",
+    "TRAI",
+    "TDSAT"
+   ],
+   "a": 0,
+   "x": "TEC is DoT's technical body for standards and equipment testing (not USOF collection); C-DOT is the R&D centre."
+  },
+  {
+   "topic": 20,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "India launched 5G services on 1 October 2022 at the:",
+   "o": [
+    "Global Fintech Fest",
+    "India Mobile Congress",
+    "Digital India Week",
+    "Bengaluru Tech Summit"
+   ],
+   "a": 1,
+   "x": "India's 5G launch was on 1 October 2022 at the India Mobile Congress."
+  },
+  {
+   "topic": 20,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "MTNL and VSNL were set up in:",
+   "o": [
+    "1984",
+    "1985",
+    "1986",
+    "1997"
+   ],
+   "a": 2,
+   "x": "MTNL and VSNL came in 1986, after C-DOT (1984) and DoT (1985); TRAI came in 1997."
+  },
+  {
+   "topic": 20,
+   "sec": 1,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "The Telecom Regulatory Authority of India (TRAI) was set up in:",
+   "o": [
+    "1997",
+    "2000",
+    "1985",
+    "1986"
+   ],
+   "a": 0,
+   "x": "TRAI was set up in 1997; TDSAT came through the 2000 amendment."
+  },
+  {
+   "topic": 20,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "3G mobile technology is based on:",
+   "o": [
+    "FDMA",
+    "OFDMA",
+    "Analog",
+    "CDMA"
+   ],
+   "a": 3,
+   "x": "3G is CDMA-based (WCDMA/CDMA2000); 4G and 5G use OFDMA and 1G was analog FDMA."
+  },
+  {
+   "topic": 20,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "WLL, the radio link that replaces the copper last mile, stands for:",
+   "o": [
+    "Wide Line Link",
+    "Wireless Local Loop",
+    "Wireless Long Line",
+    "Wide Local LAN"
+   ],
+   "a": 1,
+   "x": "WLL is Wireless Local Loop, a radio link replacing the copper last mile."
+  },
+  {
+   "topic": 20,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "5G offers latency as low as about:",
+   "o": [
+    "1 ms",
+    "10 ms",
+    "50 ms",
+    "100 ms"
+   ],
+   "a": 0,
+   "x": "5G uses OFDMA and offers latency as low as 1 ms."
+  },
+  {
+   "topic": 20,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which 5G band gives very high data rates but only a short range?",
+   "o": [
+    "Low band",
+    "Sub-6 GHz",
+    "mmWave",
+    "Mid band"
+   ],
+   "a": 2,
+   "x": "mmWave gives very high data rates over short range; sub-6 GHz (low/mid) gives wider coverage and better penetration."
+  },
+  {
+   "topic": 20,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Telecom Technology Development Fund (TTDF) receives what share of the Digital Bharat Nidhi?",
+   "o": [
+    "2%",
+    "5%",
+    "10%",
+    "25%"
+   ],
+   "a": 1,
+   "x": "TTDF (2022) gets 5% of the Digital Bharat Nidhi, about Rs 500 crore a year."
+  },
+  {
+   "topic": 20,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The Bharat 6G Alliance (B6GA) was launched in:",
+   "o": [
+    "2025",
+    "2021",
+    "2022",
+    "2023"
+   ],
+   "a": 3,
+   "x": "The Bharat 6G Alliance was launched in 2023 and has seven Working Groups."
+  },
+  {
+   "topic": 20,
+   "sec": 4,
+   "angle": "7,3",
+   "shape": "one-liner",
+   "s": "6G is expected to arrive in the:",
+   "o": [
+    "Early 2030s",
+    "Late 2020s",
+    "Early 2040s",
+    "Mid-2020s"
+   ],
+   "a": 0,
+   "x": "6G is expected in the early 2030s and is described as 'omnipresent wireless intelligence'."
+  },
+  {
+   "topic": 20,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The Telecommunications Act, 2023 replaced telecom licensing with:",
+   "o": [
+    "Registration",
+    "Authorisation",
+    "Permission",
+    "Accreditation"
+   ],
+   "a": 1,
+   "x": "The Telecommunications Act 2023 moved from licensing to authorisation."
+  },
+  {
+   "topic": 20,
+   "sec": 5,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "In February 2026, TRAI recommended cutting the net-worth requirement for a new entrant per service area from Rs 100 crore to:",
+   "o": [
+    "Rs 75 crore",
+    "Rs 25 crore",
+    "Rs 50 crore",
+    "Rs 10 crore"
+   ],
+   "a": 2,
+   "x": "TRAI (February 2026) recommended a cut from Rs 100 crore to Rs 50 crore per service area."
+  },
+  {
+   "topic": 20,
+   "sec": 5,
+   "angle": "8",
+   "shape": "statements",
+   "s": "Consider the following statements about spectrum under the Telecommunications Act, 2023:\n1. Terrestrial spectrum is auctioned.\n2. Satellite spectrum is auctioned.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Only statement 1 is correct; under the First Schedule satellite spectrum is assigned administratively, not auctioned."
+  },
+  {
+   "topic": 20,
+   "sec": 6,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Which of the following satellite series operates in geostationary orbit?",
+   "o": [
+    "Starlink",
+    "OneWeb",
+    "GSAT",
+    "Kuiper"
+   ],
+   "a": 2,
+   "x": "GSAT satellites are GEO; Starlink, OneWeb and Kuiper are LEO constellations."
+  },
+  {
+   "topic": 20,
+   "sec": 6,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "LEO satellites orbit Earth at altitudes below about:",
+   "o": [
+    "2,000 km",
+    "20,000 km",
+    "35,786 km",
+    "10,000 km"
+   ],
+   "a": 0,
+   "x": "LEO satellites are below about 2,000 km and have low latency; GEO satellites are at about 35,786 km."
+  },
+  {
+   "topic": 20,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The CANI undersea optical fibre cable links Chennai with:",
+   "o": [
+    "Lakshadweep",
+    "Sri Lanka",
+    "Andaman and Nicobar Islands",
+    "Maldives"
+   ],
+   "a": 2,
+   "x": "CANI (Chennai–Andaman and Nicobar Islands), about 2,300 km, was inaugurated on 10 August 2020."
+  },
+  {
+   "topic": 20,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The National Optical Fibre Network (NOFN) is funded by the:",
+   "o": [
+    "NIIF",
+    "USOF",
+    "TTDF",
+    "NABARD"
+   ],
+   "a": 1,
+   "x": "NOFN, covering 2,50,000 Gram Panchayats, is funded by USOF, not NIIF."
+  },
+  {
+   "topic": 20,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which type of optical fibre is used for long distances?",
+   "o": [
+    "Single-mode",
+    "Multi-mode",
+    "Step-index plastic",
+    "Coaxial"
+   ],
+   "a": 0,
+   "x": "Single-mode fibre is used for long distances; multi-mode for short runs."
+  },
+  {
+   "topic": 20,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which of the following has the highest refractive index?",
+   "o": [
+    "Glass",
+    "Water",
+    "Air",
+    "Diamond"
+   ],
+   "a": 3,
+   "x": "Refractive index order is Diamond > Glass > Water > Air."
+  },
+  {
+   "topic": 20,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Google's Project Loon used which of the following to provide internet?",
+   "o": [
+    "Low-orbit satellites",
+    "Stratospheric helium balloons",
+    "Solar drones",
+    "Undersea cables"
+   ],
+   "a": 1,
+   "x": "Project Loon (Google/Alphabet) used stratospheric helium balloons for internet and was shut in January 2021."
+  },
+  {
+   "topic": 20,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Wi-Fi 6 corresponds to the IEEE standard:",
+   "o": [
+    "802.11be",
+    "802.16",
+    "802.11ax",
+    "802.15"
+   ],
+   "a": 2,
+   "x": "Wi-Fi 6 is 802.11ax; Wi-Fi 7 is 802.11be and WiMAX is 802.16."
+  },
+  {
+   "topic": 20,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Transmitting data by laser beams through the air without fibre is called:",
+   "o": [
+    "Li-Fi",
+    "FSO",
+    "RFID",
+    "NFC"
+   ],
+   "a": 1,
+   "x": "FSO (free-space optics) sends data by laser beams without fibre."
+  },
+  {
+   "topic": 20,
+   "sec": 9,
+   "angle": "6,1",
+   "shape": "one-liner",
+   "s": "According to PM Gati Shakti NMP data (2026), the number of PM-WANI hotspots is about:",
+   "o": [
+    "1.5 lakh",
+    "8.26 lakh",
+    "13.5 lakh",
+    "3.15 lakh"
+   ],
+   "a": 3,
+   "x": "PM Gati Shakti NMP (2026) shows about 3.15 lakh PM-WANI hotspots, 8.26 lakh towers and 13.5 lakh route km of OFC."
+  },
+  {
+   "topic": 20,
+   "sec": 9,
+   "angle": "4",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Li-Fi?",
+   "o": [
+    "It uses visible light from LEDs",
+    "It passes through walls",
+    "It offers more bandwidth than Wi-Fi",
+    "Its term was coined by Harald Haas"
+   ],
+   "a": 1,
+   "x": "Li-Fi does not pass through walls; Wi-Fi, which uses radio waves, does."
+  },
+  {
+   "topic": 20,
+   "sec": 9,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Radio tags read wirelessly, as used in Kavach track tags, are an example of:",
+   "o": [
+    "NFC",
+    "Bluetooth",
+    "RFID",
+    "Li-Fi"
+   ],
+   "a": 2,
+   "x": "RFID uses radio tags read wirelessly, such as Kavach track tags."
+  }
+ ]
+}
