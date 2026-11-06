@@ -147,7 +147,9 @@ def fixes():
 
 def cleaned(line):
     q = json.loads(line)
-    q["s"], q["o"], q["x"] = clean(q["s"]), [STAMP.sub(" ", clean(o, opt=True)).strip(" %") for o in q["o"]], clean(q.get("x", ""))
+    q["s"] = STAMP.sub(" ", clean(q["s"])).strip()
+    q["o"] = [re.sub(r"[✔✓✅]", "", STAMP.sub(" ", clean(o, opt=True))).strip(" %'") for o in q["o"]]  # a tick gives the answer away
+    q["x"] = clean(q.get("x", ""))
     f = fixes().get(q["id"])
     if f is not None:
         if not f.get("keep"):
