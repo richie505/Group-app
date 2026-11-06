@@ -1,0 +1,642 @@
+{
+ "restore": [
+  {
+   "id": "nf613a3432ae",
+   "why": "different angle: asks year and place together; PYQ gives the date and asks only the city"
+  },
+  {
+   "id": "ffb65cd24abab",
+   "why": "tests the 20,000 km figure on its own; ne7a5da2c73e bundles dates/distance/start in one option"
+  },
+  {
+   "id": "fed2f29bab406",
+   "why": "tests the starting point (Wardha) directly; ne7a5da2c73e is a bundled description"
+  },
+  {
+   "id": "n87fd74719a9",
+   "why": "direct question on widow remarriage; fe4550ed4f126 is a multi-statement item"
+  },
+  {
+   "id": "n8c7867649d8",
+   "why": "direct definition of sarva dharma samabhava; f2e51b4b368ce is a two-statement item"
+  },
+  {
+   "id": "fd3f94fb7f833",
+   "why": "direct question on Zakir Hussain Committee with Hunter/Sargent/Kothari distractors; nf34498b1ac7 is a pairs item"
+  },
+  {
+   "id": "f3eaf6c9a9439",
+   "why": "asks the year of Phoenix Settlement directly; nb973ef0404f is a pairs item mixing Tolstoy Farm"
+  },
+  {
+   "id": "f1b849eed53f7",
+   "why": "direct \"Kheda = first non-cooperation\" with firsts as distractors; n056373a10f3 is a pairs item"
+  },
+  {
+   "id": "f2763559d13a0",
+   "why": "asks the actual duration (21 days); nindian-history-100-3 only says 35 days is wrong"
+  },
+  {
+   "id": "n7f892b24bd9",
+   "why": "different option set (Ahmedabad, Kheda, Rowlatt) tests the 1917-19 sequence; PYQ y370919f8d8a uses CDM/NCM"
+  },
+  {
+   "id": "ffb31375e7a59",
+   "why": "asks the arrest date (9 April); nindian-history-122-9 only marks 13 April as wrong"
+  },
+  {
+   "id": "ffd22c7c8507c",
+   "why": "other direction: names Tyabji and asks the body; nbe5af635e61 names the body and asks the member"
+  },
+  {
+   "id": "nindian-history-26-2-17",
+   "why": "in the topic chronology (sub 9); no item in topic matches Champaran-indigo pairs"
+  },
+  {
+   "id": "nindian-history-26-2-18",
+   "why": "in the topic chronology (sub 9); Chauri Chaura -> NCM withdrawal not asked directly in topic"
+  },
+  {
+   "id": "nf9442721c70",
+   "why": "in the topic chronology (sub 9); Dandi year not asked directly in topic"
+  },
+  {
+   "id": "nindian-history-100-17",
+   "why": "in the topic chronology (sub 9); Poona Pact year not asked directly in topic"
+  },
+  {
+   "id": "n71ea7e74320",
+   "why": "other direction: asks what Gandhi sought (Hindu-Muslim unity); PYQ yacf9c7e39f5 asks who held that view"
+  },
+  {
+   "id": "n8a271665eab",
+   "why": "other direction: asks who presided at Nagpur; PYQ y1c7f1703ab5 names Vijayaraghavachariar and asks the session"
+  },
+  {
+   "id": "f31375c80c17c",
+   "why": "reverse angle: who did NOT give up practice, teaches Rajendra Prasad and Asaf Ali; n3ac432ba3ad asks who did"
+  },
+  {
+   "id": "n7daebbb62d9",
+   "why": "direct leader question on an AP movement; ne9584cc2671 is a pairs item and PYQ asks where Hanumanthu was killed"
+  },
+  {
+   "id": "nap-history-25-8",
+   "why": "on-syllabus AP fact (Home Rule in Andhra, Gadicherla); not asked elsewhere in topic"
+  },
+  {
+   "id": "nap-history-25-5",
+   "why": "on-syllabus AP fact (N.G. Ranga, Kisan movement); not asked in topic"
+  },
+  {
+   "id": "nap-history-25-26",
+   "why": "on-syllabus AP/Hyderabad history (Wahabi, Mubariz-ud-Daulah); not asked in topic"
+  },
+  {
+   "id": "n3c53000c051",
+   "why": "key fixed: notes credit Viplava Parivarthanam to Kodali Anjaneyulu, so the correct pair is now Makoddi Telladoratanam - Garimella Satyanarayana",
+   "fix": {
+    "o": [
+     "Veeragandhamu Techhinaramu – Garimella Satyanarayana",
+     "Viplava Parivarthanam – Tripuraneni Ramaswamy Chowdary",
+     "Makoddi Telladoratanam – Garimella Satyanarayana",
+     "Makoddi Telladoratanam – Tripuraneni Ramaswamy Chowdary"
+    ],
+    "a": 2,
+    "x": "Makoddi Telladoratanam was by Garimella Satyanarayana and Veeragandhamu Techhinaramu by Tripuraneni Ramaswamy Chowdary; the banned play Viplava Parivarthanam is credited in the notes to Kodali Anjaneyulu."
+   }
+  },
+  {
+   "id": "nap-history-25-4",
+   "why": "on-syllabus AP fact (Mypadu salt centre, Nellore); not asked in topic"
+  },
+  {
+   "id": "f300885c3950c",
+   "why": "key fixed to the notes (Kodali Anjaneyulu); Gollapudi removed from options so only one is right",
+   "fix": {
+    "o": [
+     "Duggirala Gopalakrishnayya",
+     "Garimella Satyanarayana",
+     "Tripuraneni Ramaswamy Chowdary",
+     "Kodali Anjaneyulu"
+    ],
+    "a": 3,
+    "x": "The banned play Viplava Parivarthanam is credited to Kodali Anjaneyulu (some keys give Gollapudi Sitarama Sastri). Tripuraneni wrote Veeragandhamu Techhinaramu and Garimella Makoddi Telladoratanam."
+   }
+  },
+  {
+   "id": "n0120d6849c1",
+   "why": "tests Tadipatri vs the April coastal tour; f82041cf6716b lists Kurnool, Kadapa, Tirupati only"
+  },
+  {
+   "id": "faf738fe8c1ee",
+   "why": "asks where the National College was (Eluru); nd692c328b05 keys the wrong pair (Tadipatri)"
+  },
+  {
+   "id": "n72497c7f876",
+   "why": "other direction: asks what Lahore adopted; PYQ y9883c787442 asks where Purna Swaraj was declared"
+  },
+  {
+   "id": "f1b6355d3d77d",
+   "why": "other direction: asks the Viceroy; PYQ y7d1d029c595 asks which events fell under Irwin"
+  },
+  {
+   "id": "n8198cf628f7",
+   "why": "other direction: asks who reported Dharasana; PYQ y3edd3fafa28 names Webb Miller and asks the place"
+  },
+  {
+   "id": "n7bc1928985f",
+   "why": "pairs item also teaches Gaidinliu and Ghaffar Khan; exactly one pair (Babu Genu - Dharasana) is wrong, so key is sound"
+  },
+  {
+   "id": "f080c89f50a4b",
+   "why": "in notes (sub 5); Khudiram Bose/Kingsford is a standard exam fact, not asked directly in topic"
+  },
+  {
+   "id": "f20652edce28d",
+   "why": "in notes (sub 5); Chapekar brothers/Rand 1897 is a standard exam fact, not asked directly in topic"
+  },
+  {
+   "id": "f86803b3a25ff",
+   "why": "different option set teaches the pact terms (salt for own use, ordinances withdrawn); n1f25eaede97 is a pairs item"
+  },
+  {
+   "id": "n926e6318657",
+   "why": "in topic chronology (sub 11); Cripps year is an APPSC chronology item, not asked directly in topic"
+  },
+  {
+   "id": "ffd291d693dd9",
+   "why": "asks where Vedavanam was (Madras); n785276f469c only marks Krishna as wrong"
+  },
+  {
+   "id": "fb72baae4a1d4",
+   "why": "direct AP salt-centre question (APPSC 2023 area); nec14159ae82 is a pairs item"
+  },
+  {
+   "id": "f81d0aa9a7a62",
+   "why": "direct question on Malabar leader; nfbc7ae75dd1 is a pairs item"
+  },
+  {
+   "id": "f0e3f3369177a",
+   "why": "in topic chronology (sub 9); NCM launch date not asked in topic"
+  },
+  {
+   "id": "f86d0ab598825",
+   "why": "in topic chronology (sub 9); Swaraj Party formation not asked in topic"
+  },
+  {
+   "id": "fa08dd4c5413b",
+   "why": "in topic chronology (sub 9); Bardoli resolution not asked in topic"
+  },
+  {
+   "id": "nbc7b04aafd7",
+   "why": "positive form (defence stays with Britain); f8a58b71824c3 asks what was NOT in the proposals"
+  },
+  {
+   "id": "nindian-history-100-34",
+   "why": "other direction: asks the slogan; PYQs y040ff48b63b/yb72e7e145f5 give the slogan and ask who/which movement"
+  },
+  {
+   "id": "f09bb54f28f8c",
+   "why": "direct attribution of the quote; nindian-history-112-3 is a NOT-correct statement set"
+  },
+  {
+   "id": "f86ee12d41b13",
+   "why": "asks who gave the slogan (Dayanand); nindian-history-113-6 only marks C.R. Das as wrong"
+  },
+  {
+   "id": "feb4428fb76f4",
+   "why": "also tests Nehru as second (not third) satyagrahi; n12a62062d16 covers only Vinoba first"
+  },
+  {
+   "id": "nd16599c43f1",
+   "why": "asks the place of seizure directly; f39670271c2c7 asks why it was called the Kurnool Circular"
+  },
+  {
+   "id": "n347baa2c8ac",
+   "why": "other direction: names Annapurnaiah and asks the title; n271c103bfdc gives the title and asks the person"
+  },
+  {
+   "id": "f306452465635",
+   "why": "asks who handed over the islands (Japan); n8c497c5faaa only marks Germany as wrong among four statements"
+  },
+  {
+   "id": "ff59c6ffee9bc",
+   "why": "positive form (Patel and Jinnah urged surrender); ne25d2904650 asks what is NOT correct"
+  },
+  {
+   "id": "ff733a335d382",
+   "why": "direct title question asked in APPSC 2025; n38236bbcc2f is a pairs item"
+  },
+  {
+   "id": "f2c0042f74069",
+   "why": "asks the author (Pattabhi); n40d40e4633e only marks Sarojini Naidu as wrong"
+  },
+  {
+   "id": "f2f50184cea0b",
+   "why": "asks the founder (Savarkar); nindian-history-114-7 only marks Bose as wrong"
+  },
+  {
+   "id": "n3a9067edbce",
+   "why": "tests which movement the Maxwell-Broomfield inquiry belongs to; n0cd85c47689 asks its outcome"
+  },
+  {
+   "id": "f949fee953712",
+   "why": "direct question on award composition; n1cc5980bc5b is a three-statement item"
+  },
+  {
+   "id": "nindian-history-117-7",
+   "why": "on-syllabus (Mughal history, Jesuit mission to Akbar 1580); misplaced in this topic but not off-syllabus"
+  }
+ ],
+ "keep_out": [
+  {
+   "id": "n130456bfa55",
+   "why": "exact repeat of PYQ y2facab9364d (Sangh president = G.D. Birla), also yf33a40f823d"
+  },
+  {
+   "id": "fb45aaf1497d0",
+   "why": "exact repeat of PYQ y940a3d3cfde (former name Anti-Untouchability League)"
+  },
+  {
+   "id": "n426c1f77b9e",
+   "why": "exact repeat of PYQ yfecdd9bc498 (Tagore called Gandhi Mahatma)"
+  },
+  {
+   "id": "nindian-history-100-26",
+   "why": "exact repeat of PYQs y663ffdc99e4/yc935e9c0e4a (first hunger strike = Ahmedabad)"
+  },
+  {
+   "id": "n48bd592d27f",
+   "why": "exact repeat of nindian-history-132-11 (Champaran year 1917)"
+  },
+  {
+   "id": "nindian-history-100-4",
+   "why": "exact repeat of PYQs y4aa6801b8e1/yf25616272a6 (Tinkathia 3/20)"
+  },
+  {
+   "id": "nindian-history-100-28",
+   "why": "exact repeat of nd03f6ecf292 (Kheda cause = crop failure)"
+  },
+  {
+   "id": "nindian-history-23-17",
+   "why": "exact repeat of PYQs y4aa6801b8e1/yf25616272a6 (Tinkathia 3/20)"
+  },
+  {
+   "id": "f97a07f827057",
+   "why": "exact repeat of APPSC PYQ y4e163c330d3 (plague bonus)"
+  },
+  {
+   "id": "n92bc965004e",
+   "why": "exact repeat of APPSC PYQ yce73c75889f (revenue only from those able to pay)"
+  },
+  {
+   "id": "f1eeaeb21e368",
+   "why": "exact repeat of ncc3d4a52fbf (Patel, Pandya, Parikh organised Kheda)"
+  },
+  {
+   "id": "n842b818ee75",
+   "why": "exact repeat of nafcbd19283b (Patel led Kheda)"
+  },
+  {
+   "id": "n2269387be3b",
+   "why": "exact repeat of PYQ ya8a9c052ab7 (Chelmsford Viceroy at Jallianwala)"
+  },
+  {
+   "id": "f1961a26fe70f",
+   "why": "exact repeat of PYQ y78c56734794 (Moplah revolt in Kerala/Malabar)"
+  },
+  {
+   "id": "nindian-history-122-15",
+   "why": "exact repeat of several PYQs (Tagore renounced knighthood)"
+  },
+  {
+   "id": "nindian-history-122-17",
+   "why": "exact repeat of PYQs y1a6a8cc4e55 etc. (Sankaran Nair resigned)"
+  },
+  {
+   "id": "nindian-history-122-12",
+   "why": "exact repeat of PYQ y4845225e426 (Gandhi drafted Congress report)"
+  },
+  {
+   "id": "nc47f2616cac",
+   "why": "exact repeat of PYQs on Hunter Committee appointed after Jallianwala"
+  },
+  {
+   "id": "n7f6070af9d3",
+   "why": "exact repeat of APPSC PYQ y0b03be8d918 (Khilafat objective)"
+  },
+  {
+   "id": "fbba4d391953f",
+   "why": "exact repeat of nffbcf047a6e (Sapru not a Khilafat leader)"
+  },
+  {
+   "id": "n61e42dc8c18",
+   "why": "exact repeat of n5376427d04e (NCM launched on Tilak's death)"
+  },
+  {
+   "id": "na99b673d562",
+   "why": "exact repeat of PYQ y807ea324cb1 (Malaviya defended Chauri Chaura accused)"
+  },
+  {
+   "id": "nap-history-25-23",
+   "why": "exact repeat of APPSC PYQ y31843d64cf1 (Andhra Shivaji)"
+  },
+  {
+   "id": "fcffbfd08a39b",
+   "why": "exact repeat of APPSC PYQ y1b85df4814c (forest satyagraha first in Palnadu)"
+  },
+  {
+   "id": "n0b08df628b0",
+   "why": "exact repeat of PYQ y91b774a567b (Chauri Chaura in Gorakhpur)"
+  },
+  {
+   "id": "nfb9b91b41a9",
+   "why": "exact repeat of nb48db856a01 (Bardoli resolution 11-12 Feb 1922)"
+  },
+  {
+   "id": "nbd0d2223cad",
+   "why": "exact repeat of APPSC PYQ yd8220164dcb (Hanumanthu born in Guntur)"
+  },
+  {
+   "id": "f5b7fad33a65d",
+   "why": "exact repeat of APPSC PYQ yafe50e16d81 (Andhra Kesari = Prakasam)"
+  },
+  {
+   "id": "f13deb40b8581",
+   "why": "exact repeat of PYQ y5ebf26975ec (Rajendra Prasad not a Swarajist)"
+  },
+  {
+   "id": "n2c67085b81e",
+   "why": "exact repeat of PYQ y23e4440e46d (Vithalbhai Patel, 1925)"
+  },
+  {
+   "id": "n3faedbdc636",
+   "why": "exact repeat of PYQs y871383711f5/ya1bcb98bb94 (Nehru presided at Lahore)"
+  },
+  {
+   "id": "nindian-history-111-5",
+   "why": "exact repeat of PYQ y70623c5b7a2 (flag hoisted 31 Dec 1929)"
+  },
+  {
+   "id": "n07e9ed350d6",
+   "why": "exact repeat of APPSC PYQ y1ea48c71ca7 (Yerneni Subrahmanyam)"
+  },
+  {
+   "id": "f2d47e6137b60",
+   "why": "exact repeat of PYQ y928a984edf0 (Rajaji, Vedaranyam)"
+  },
+  {
+   "id": "fcb8d719c34b6",
+   "why": "exact repeat of PYQs yd8b4498de31/y95b887858ff (Aruna Asaf Ali = Quit India)"
+  },
+  {
+   "id": "ff9bc1c0e55ad",
+   "why": "exact repeat of nddd8622e225 (Sarojini Naidu, Kanpur 1925)"
+  },
+  {
+   "id": "n702ef681b21",
+   "why": "exact repeat of APPSC PYQ y16e9b00512e (Veeragandhamu song = CDM)"
+  },
+  {
+   "id": "f0896dfc69a87",
+   "why": "exact repeat of PYQ y11f1c3a5076 (Two Mahatmas = Sarojini Naidu)"
+  },
+  {
+   "id": "n5ef0f63697f",
+   "why": "exact repeat of APPSC PYQs yb20a3a2f833/yd46e4e808fc (Konda Venkatappayya dictator)"
+  },
+  {
+   "id": "ne16e643a2e9",
+   "why": "exact repeat of APPSC PYQs yb1e52e727ac/y9721da4c908 (Pedaganjam-Chinaganjam salt)"
+  },
+  {
+   "id": "f7f42e0287a89",
+   "why": "exact repeat of PYQ y7973aef7cb4 (Abbas Tyabji)"
+  },
+  {
+   "id": "f7677c0c6a0cb",
+   "why": "exact repeat of PYQ yb8f5760d8f1 (Consolation Prizes = Campbell Johnson)"
+  },
+  {
+   "id": "n44e17db3228",
+   "why": "exact repeat of PYQ y932680ae4b0 (Gandhi represented Congress at RTC-2)"
+  },
+  {
+   "id": "f2e1db3138e8b",
+   "why": "exact repeat of PYQ yff6c3e1ae56 (Nehru did not attend RTC-2)"
+  },
+  {
+   "id": "f15cfce4985c6",
+   "why": "exact date of the Berhampur firing (15 Jan 1932): date of a minor event"
+  },
+  {
+   "id": "ffd8a5c8e68b2",
+   "why": "exact date of Gandhi's 1933 release: date of a minor event"
+  },
+  {
+   "id": "f384c90e1c995",
+   "why": "exact repeat of PYQ y97b2185a706 (Communal Award by MacDonald)"
+  },
+  {
+   "id": "n03a658be114",
+   "why": "exact repeat of APPSC PYQ yea9cfc9a609 (CDM withdrawn April 1934)"
+  },
+  {
+   "id": "f981d27aa546b",
+   "why": "exact repeat of APPSC PYQ y700ed533e08 (same four events, same order)"
+  },
+  {
+   "id": "f993acc075a8e",
+   "why": "why Brahma Dutt was chosen: minor detail with a vague key"
+  },
+  {
+   "id": "ne4b842b248b",
+   "why": "exact repeat of PYQ y6498e68422b (Cripps: Dominion status)"
+  },
+  {
+   "id": "nee5d6ca8cf3",
+   "why": "exact repeat of PYQ y10792b94d3f (Nehru and Azad)"
+  },
+  {
+   "id": "n7f375b13c91",
+   "why": "exact repeat of PYQ y799a90670fc (Quit India in response to Cripps)"
+  },
+  {
+   "id": "nb10e779a01d",
+   "why": "exact repeat of APPSC PYQ y360cd07194f (Quit India resolution at Bombay)"
+  },
+  {
+   "id": "nedbef80e794",
+   "why": "exact repeat of PYQ yde3fd7be6e6 (Yusuf Meherally)"
+  },
+  {
+   "id": "nindian-history-112-4",
+   "why": "exact repeat of PYQ y76e490fce1f (Surendranath Banerjee)"
+  },
+  {
+   "id": "n2859adbb5c6",
+   "why": "exact repeat of PYQ y3efc4147d3f (free India or die = Gandhi)"
+  },
+  {
+   "id": "nindian-history-112-14",
+   "why": "exact repeat of PYQ y70e4a4c12eb (Jai Jawan Jai Kisan = Shastri)"
+  },
+  {
+   "id": "fa0d7fef0ea32",
+   "why": "exact repeat of PYQ yf304a80f6b6 (Nehru, agriculture)"
+  },
+  {
+   "id": "n0683b85d002",
+   "why": "exact repeat of n99d8d71240a (Jatiya Sarkar at Tamluk)"
+  },
+  {
+   "id": "f44ac19945b04",
+   "why": "exact repeat of n4695cb75d76 (AICC Gowalia Tank, 8 Aug 1942 vs 6 Aug)"
+  },
+  {
+   "id": "ncb0d71de94f",
+   "why": "exact repeat of APPSC PYQs y5457ccf8666/y3b0ed645209 (Kala Venkata Rao)"
+  },
+  {
+   "id": "f8774dbc398ba",
+   "why": "attendee count (500 students at Chirala)"
+  },
+  {
+   "id": "fb0d7c3d051e9",
+   "why": "age of a minor figure at arrest"
+  },
+  {
+   "id": "fc157a27734d3",
+   "why": "minor 2025 honouree from Tamil Nadu; not an Andhra Quit India fact"
+  },
+  {
+   "id": "n10f1602e5fd",
+   "why": "exact repeat of PYQ y7456a844ae1 (Bose born at Cuttack)"
+  },
+  {
+   "id": "n4da042ac899",
+   "why": "exact repeat of PYQ y2ddc437f46a (NPC chaired by Nehru)"
+  },
+  {
+   "id": "nc22d97b456b",
+   "why": "exact repeat of PYQ ya6788fa098f (C.R. Das political guru)"
+  },
+  {
+   "id": "n2b3a27b1b88",
+   "why": "exact repeat of PYQ yf276ac21447 (Bhulabhai Desai)"
+  },
+  {
+   "id": "fabd2bbe9e46c",
+   "why": "exact repeat of n2360b999754 (78 ships option), number-only item"
+  },
+  {
+   "id": "n386fe644499",
+   "why": "exact repeat of PYQ yc21665e5fc8 (Bose called Gandhi Father of the Nation)"
+  },
+  {
+   "id": "ndf7fbdb0a06",
+   "why": "exact repeat of PYQ y2c7c92da7a5 (Discovery of India, Ahmednagar Fort)"
+  },
+  {
+   "id": "ncc7fc742b77",
+   "why": "exact repeat of nf035b57e3fb (Sarvodaya = Unto This Last)"
+  },
+  {
+   "id": "f2819c77e4e68",
+   "why": "exact repeat of nindian-history-114-18 and PYQ y9d8afdeb9b0 (ILP = Ambedkar)"
+  },
+  {
+   "id": "n2e003a3b052",
+   "why": "exact repeat of PYQs y7ae0c41de44/ye9d756fafe3 (Servants of India = Gokhale)"
+  },
+  {
+   "id": "f025e722b5b32",
+   "why": "exact repeat of APPSC PYQ y18ffaaaa621 (Nehru presided at Lahore)"
+  },
+  {
+   "id": "f192d52a42179",
+   "why": "exact repeat of PYQ y64d805ee8c7 (Cama, Stuttgart 1907)"
+  },
+  {
+   "id": "fd9aa75d55fb8",
+   "why": "exact repeat of n86a7753570e (Iron Man, 565 states)"
+  },
+  {
+   "id": "fa0f858037a11",
+   "why": "exact repeat of PYQ y283a0288ab7 (Karachi resolution drafted by Nehru)"
+  },
+  {
+   "id": "n277efcb4c9d",
+   "why": "exact repeat of APPSC PYQ yd738bc6aa1f (Ramananda Tirtha)"
+  },
+  {
+   "id": "f5bc6a31c029f",
+   "why": "exact repeat of PYQ y3bd484c3944 (AISPC 1927)"
+  },
+  {
+   "id": "f62ffe8cddc18",
+   "why": "exact repeat of PYQ y58d5bc23822 (AISPC president 1939 Nehru)"
+  },
+  {
+   "id": "n72f846c50ad",
+   "why": "exact repeat of PYQ y394069b77a8 (J&K accession 26 Oct 1947)"
+  },
+  {
+   "id": "n60ace5e9392",
+   "why": "wrong key (Laik Ali); once fixed to Ali Yavar Jung it is an exact repeat of APPSC PYQ yd343f58e616"
+  },
+  {
+   "id": "n40f8893f104",
+   "why": "exact repeat of APPSC PYQ yec5781c3808 (Moin Nawaz Jung)"
+  },
+  {
+   "id": "na1379796f96",
+   "why": "exact repeat of APPSC PYQs yc80eb114fce/yda0ba5ba4ff (Kasim Razvi)"
+  },
+  {
+   "id": "f1a88f6da1b3c",
+   "why": "exact repeat of APPSC PYQ y7356052de8b (MIM 1927)"
+  },
+  {
+   "id": "f21d53cd43556",
+   "why": "exact repeat of APPSC PYQs ye0697404a4f/ye874502dea9 (Standstill 29 Nov 1947)"
+  },
+  {
+   "id": "f37f262891678",
+   "why": "exact repeat of APPSC PYQs ybaaebcdbfc4/y8963dd07e64 (El Edroos)"
+  },
+  {
+   "id": "nc2ca617c047",
+   "why": "exact repeat of APPSC PYQ ybbaffa75fe9 and y1b06ea86d61 (Cabinet Mission)"
+  },
+  {
+   "id": "nindian-history-117-18",
+   "why": "exact repeat of n96bec2b1eda (Simla Conference = Wavell Plan)"
+  },
+  {
+   "id": "nindian-history-105-2",
+   "why": "exact repeat of PYQs ybe56c1a04b9/yb1309bcd348 (Nehru headed Interim Govt)"
+  },
+  {
+   "id": "nindian-history-105-4",
+   "why": "exact repeat of PYQ yb913200351b (Liaquat = Finance)"
+  },
+  {
+   "id": "nindian-history-105-15",
+   "why": "exact repeat of nindian-history-105-1 (2 September 1946)"
+  },
+  {
+   "id": "nindian-history-105-20",
+   "why": "exact repeat of PYQ y8090b4fe0f8 (Ambedkar not in Interim Cabinet)"
+  },
+  {
+   "id": "fa5f8559df6d5",
+   "why": "exact repeat of PYQs y347f80e41d1/ya7bf8aa5568 (Kripalani)"
+  },
+  {
+   "id": "fbb79b045af15",
+   "why": "exact repeat of PYQ y252847f7ebd (George VI)"
+  }
+ ]
+}

@@ -79,6 +79,8 @@ def restore(path, dry):
             for k, v in (d.get("fix") or {}).items():
                 if k in ("s", "o", "a", "x"):
                     q[k] = v
+            if d.get("fix"):
+                q.pop("xs", None); q.pop("xa", None)  # per-option explanation bullets would be stale
             if not (isinstance(q["a"], int) and 0 <= q["a"] < len(q["o"])):
                 miss.append(d["id"]); continue
             row = str(r["row"])
