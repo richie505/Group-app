@@ -1,0 +1,903 @@
+{
+ "reshape": {
+  "n169b7fd38b6": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about regions of high population density in India?",
+   "o": [
+    "The Ganga plain is densely populated owing to fertile alluvial soils",
+    "The Ganges–Brahmaputra delta is among the world's densely populated regions",
+    "Intensive agriculture and water support the density of the Ganga plain",
+    "The Thar desert has very high density owing to fertile alluvium"
+   ],
+   "a": 3,
+   "x": "The Thar desert is not a high-density region; the Ganga plain and Ganges–Brahmaputra delta are, owing to fertile alluvium, water and intensive agriculture."
+  },
+  "n0cb1df45bf2": {
+   "shape": "match",
+   "s": "Which of the following pairs (region – population-resource type) is correctly matched?",
+   "o": [
+    "Ganga-Yamuna Doab and Coastal Odisha – Progressive",
+    "Tamil Nadu and Rajasthan – Progressive",
+    "Ganga-Yamuna Doab and Tamil Nadu – Progressive",
+    "Coastal Odisha and Rajasthan – Progressive"
+   ],
+   "a": 2,
+   "x": "The Ganga-Yamuna Doab and Tamil Nadu are progressive (resource-developed) regions; Coastal Odisha and Rajasthan are not."
+  },
+  "nc95f46eca87": {
+   "shape": "one-liner",
+   "s": "Because Census 2021 was postponed, Census 2027 will come how many years after Census 2011?",
+   "o": [
+    "16 years",
+    "12 years",
+    "10 years",
+    "14 years"
+   ],
+   "a": 0,
+   "x": "The delay of the 2021 Census makes Census 2027 the next Census, 16 years after Census 2011."
+  },
+  "n2e32cef0732": {
+   "shape": "one-liner",
+   "s": "India's population density rose from 117 persons per sq km in 1951 to ____ in Census 2011.",
+   "o": [
+    "304",
+    "382",
+    "325",
+    "421"
+   ],
+   "a": 1,
+   "x": "Density rose from 117 (1951) to 382 persons per sq km in 2011; 304 is Andhra Pradesh's density."
+  },
+  "n70a2ff43526": {
+   "shape": "match",
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "106th Amendment – Delimitation freeze till the first census after 2026",
+    "84th Amendment – Women's reservation",
+    "84th Amendment – Delimitation freeze till the first census after 2026",
+    "Article 334A – Delimitation freeze till the first census after 2026"
+   ],
+   "a": 2,
+   "x": "The delimitation freeze till the first census after 2026 is linked to the 84th Amendment; the 106th Amendment and Article 334A concern women's reservation."
+  },
+  "ne666af8ffea": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the population of Andhra Pradesh?",
+   "o": [
+    "Its density in 2011 (304) was lower than India's average (382)",
+    "Its population was about 233 lakh in 1961",
+    "Its population was 495.77 lakh in 2011",
+    "The doubling of its population since 1961 explains why its density is below India's average"
+   ],
+   "a": 3,
+   "x": "Both the density gap and the doubling of population are true, but the doubling does not explain why AP's density is below India's average."
+  },
+  "n6b8326e3b7b": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about population density as per Census 2011?",
+   "o": [
+    "Sikkim had a lower density than Mizoram",
+    "Arunachal Pradesh had a density of 17 per sq km",
+    "Andaman and Nicobar Islands had a density of 46 per sq km",
+    "Mizoram had a density of 52 per sq km"
+   ],
+   "a": 0,
+   "x": "Sikkim (86) was denser than Mizoram (52); the ascending order is Arunachal Pradesh (17), Andaman and Nicobar (46), Mizoram (52), Sikkim (86)."
+  },
+  "ndf232638a06": {
+   "shape": "match",
+   "s": "Which of the following pairs (stage of demographic transition – position) is correctly matched?",
+   "o": [
+    "Late expanding – Second stage",
+    "Early expanding – Second stage",
+    "Low stationary – Third stage",
+    "Declining – Fourth stage"
+   ],
+   "a": 1,
+   "x": "The sequence is high stationary, early expanding, late expanding, low stationary and declining, so early expanding is the second stage."
+  },
+  "n59f82a665b0": {
+   "shape": "one-liner",
+   "s": "The Economic Survey 2025-26 placed the peak of India's demographic dividend around:",
+   "o": [
+    "2041",
+    "2036",
+    "2030",
+    "2047"
+   ],
+   "a": 2,
+   "x": "ES 2025-26 placed the peak around 2030 (about 65% aged 15-59); 2041 was the ES 2018-19 estimate."
+  },
+  "nacdceac69c0": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Andhra Pradesh and the demographic dividend?",
+   "o": [
+    "It combines a 9.21% growth rate with a large youth workforce",
+    "Its dividend rests exclusively on a rising elderly population",
+    "Its literacy rate of 67.35% remains a concern",
+    "Its large youth workforce supports a demographic dividend"
+   ],
+   "a": 1,
+   "x": "A dividend rests on the working-age, not the elderly, population; AP pairs a 9.21% growth rate and a large youth workforce with lagging 67.35% literacy."
+  },
+  "n0c95824a21c": {
+   "shape": "one-liner",
+   "s": "Andhra Pradesh is ageing faster than India mainly because of its:",
+   "o": [
+    "Large youth workforce and 9.21% growth rate",
+    "Literacy rate of 67.35%",
+    "High TFR and low median age",
+    "Low TFR (1.5) and high median age (32.5)"
+   ],
+   "a": 3,
+   "x": "Low fertility (TFR 1.5) and a relatively high median age (32.5) explain why AP is ageing faster than India."
+  }
+ },
+ "new": [
+  {
+   "topic": 57,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "As per Census 2011, the population density of India was:",
+   "o": [
+    "325 per sq km",
+    "308 per sq km",
+    "382 per sq km",
+    "304 per sq km"
+   ],
+   "a": 2,
+   "x": "India's density was 382 per sq km in 2011, up from 325 in 2001."
+  },
+  {
+   "topic": 57,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which was the most densely populated State of India in Census 2011?",
+   "o": [
+    "West Bengal",
+    "Bihar",
+    "Kerala",
+    "Uttar Pradesh"
+   ],
+   "a": 1,
+   "x": "Bihar was the densest State, with over 1,100 persons per sq km."
+  },
+  {
+   "topic": 57,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which Union Territory had the highest population density in Census 2011?",
+   "o": [
+    "Chandigarh",
+    "Puducherry",
+    "Lakshadweep",
+    "NCT of Delhi"
+   ],
+   "a": 3,
+   "x": "NCT of Delhi (over 11,000 per sq km) was the densest UT, followed by Chandigarh."
+  },
+  {
+   "topic": 57,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Which State had the lowest population density (17 per sq km) in Census 2011?",
+   "o": [
+    "Arunachal Pradesh",
+    "Sikkim",
+    "Mizoram",
+    "Nagaland"
+   ],
+   "a": 0,
+   "x": "Arunachal Pradesh was the sparsest State at 17 persons per sq km."
+  },
+  {
+   "topic": 57,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Among these southern States, which had the lowest population density in Census 2011?",
+   "o": [
+    "Kerala",
+    "Tamil Nadu",
+    "Undivided Andhra Pradesh",
+    "Karnataka"
+   ],
+   "a": 2,
+   "x": "Undivided AP had 308, below Karnataka (319), Tamil Nadu (555) and Kerala (860)."
+  },
+  {
+   "topic": 57,
+   "sec": 1,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Agricultural density is calculated as:",
+   "o": [
+    "Total population / total area",
+    "Total population / net cultivated area",
+    "Agricultural population / total area",
+    "Agricultural population / net cultivable area"
+   ],
+   "a": 3,
+   "x": "Agricultural density counts only farm people per unit of net cultivable area; physiological density uses all people per net cultivated area."
+  },
+  {
+   "topic": 57,
+   "sec": 2,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which of the following is sparsely populated mainly because of a lack of water?",
+   "o": [
+    "Ganga plain",
+    "Thar desert",
+    "Godavari-Krishna deltas",
+    "Kashmir valley"
+   ],
+   "a": 1,
+   "x": "Water draws people to river valleys, while the dry Thar desert remains sparsely populated."
+  },
+  {
+   "topic": 57,
+   "sec": 2,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about factors of population distribution in India:\n1. Loamy alluvial soils support dense population.\n2. Thin, rocky soils support dense population.\n3. Plains are more densely populated than hills and mountains.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Loamy alluvium and plains support dense population; thin, rocky soils are linked with sparse population."
+  },
+  {
+   "topic": 57,
+   "sec": 3,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The Godavari-Krishna coastal deltas are densely populated mainly because of:",
+   "o": [
+    "Coal mining",
+    "Intensive rice farming",
+    "Industrialisation",
+    "Tea plantations"
+   ],
+   "a": 1,
+   "x": "The Godavari-Krishna deltas support dense population through intensive rice farming; mining explains Dhanbad's density."
+  },
+  {
+   "topic": 57,
+   "sec": 4,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "In population-resource regions, a region where resources exceed their use is called a:",
+   "o": [
+    "Progressive region",
+    "Problem region",
+    "Deficit region",
+    "Resource-developed region"
+   ],
+   "a": 2,
+   "x": "A deficit region is one where resources exceed use; a problem region has population pressure on limited resources."
+  },
+  {
+   "topic": 57,
+   "sec": 4,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Population pressure on limited or degraded resources characterises which population-resource region?",
+   "o": [
+    "Problem region",
+    "Progressive region",
+    "Deficit region",
+    "Resource-developed region"
+   ],
+   "a": 0,
+   "x": "A problem region has population pressure on limited or degraded resources."
+  },
+  {
+   "topic": 57,
+   "sec": 5,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Which of the following States is NOT part of the BIMARU group?",
+   "o": [
+    "Bihar",
+    "Rajasthan",
+    "Madhya Pradesh",
+    "Odisha"
+   ],
+   "a": 3,
+   "x": "BIMARU stands for Bihar, Madhya Pradesh, Rajasthan and Uttar Pradesh; Odisha is not one of them."
+  },
+  {
+   "topic": 57,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which was the least populous State of India in Census 2011?",
+   "o": [
+    "Mizoram",
+    "Goa",
+    "Sikkim",
+    "Arunachal Pradesh"
+   ],
+   "a": 2,
+   "x": "Sikkim (6.08 lakh) was the least populous State, followed by Mizoram, Arunachal Pradesh, Goa and Nagaland."
+  },
+  {
+   "topic": 57,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The smallest State of India by area is:",
+   "o": [
+    "Goa",
+    "Sikkim",
+    "Tripura",
+    "Lakshadweep"
+   ],
+   "a": 0,
+   "x": "Goa is the smallest State by area; Lakshadweep is the smallest Union Territory."
+  },
+  {
+   "topic": 57,
+   "sec": 6,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The smallest district of India by area is:",
+   "o": [
+    "Lakshadweep",
+    "Mahe",
+    "Dhanbad",
+    "Polavaram"
+   ],
+   "a": 1,
+   "x": "Mahe in Puducherry is the smallest district by area."
+  },
+  {
+   "topic": 57,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "To be a Census Town, a settlement must have a population density of at least:",
+   "o": [
+    "300 per sq km",
+    "500 per sq km",
+    "1,000 per sq km",
+    "400 per sq km"
+   ],
+   "a": 3,
+   "x": "A Census Town needs at least 5,000 people, a density of 400 per sq km and 75% male non-farm workers."
+  },
+  {
+   "topic": 58,
+   "sec": 1,
+   "angle": "7,14",
+   "shape": "one-liner",
+   "s": "India's first census, a non-synchronous one, was held in 1872 under:",
+   "o": [
+    "Lord Ripon",
+    "Lord Mayo",
+    "Lord Lytton",
+    "Lord Curzon"
+   ],
+   "a": 1,
+   "x": "The first census of 1872 was non-synchronous, under Lord Mayo; the first synchronous census of 1881 was under Lord Ripon."
+  },
+  {
+   "topic": 58,
+   "sec": 1,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Census 2011 was India's ____ census since 1872.",
+   "o": [
+    "7th",
+    "14th",
+    "15th",
+    "16th"
+   ],
+   "a": 2,
+   "x": "Census 2011 was the 15th census since 1872 and the 7th after Independence."
+  },
+  {
+   "topic": 58,
+   "sec": 1,
+   "angle": "14",
+   "shape": "one-liner",
+   "s": "The subject 'Census' is placed in which list of the Seventh Schedule?",
+   "o": [
+    "Union List",
+    "State List",
+    "Concurrent List",
+    "None; it is a residuary subject"
+   ],
+   "a": 0,
+   "x": "Census is Entry 69 of the Union List and is conducted under the Census Act, 1948."
+  },
+  {
+   "topic": 58,
+   "sec": 2,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Census 2027 will be India's first census that is:",
+   "o": [
+    "Synchronous",
+    "Conducted under the Census Act, 1948",
+    "Digital (mobile-app based)",
+    "Decennial"
+   ],
+   "a": 2,
+   "x": "Census 2027 will be the first digital census, mobile-app based with self-enumeration, and the first caste count beyond SC/ST since Independence."
+  },
+  {
+   "topic": 58,
+   "sec": 2,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Phase I (House Listing and Housing Census) of Census 2027 is held during:",
+   "o": [
+    "1 April - 30 September 2026",
+    "1 March - 31 August 2026",
+    "February 2027",
+    "17 August - 30 September 2027"
+   ],
+   "a": 0,
+   "x": "The House Listing phase runs from 1 April to 30 September 2026; population enumeration follows in February 2027."
+  },
+  {
+   "topic": 58,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "India's share of the world's area is about:",
+   "o": [
+    "17.7%",
+    "16.7%",
+    "17.5%",
+    "2.4%"
+   ],
+   "a": 3,
+   "x": "India has 2.4% of the world's area but about 17.7% of its population."
+  },
+  {
+   "topic": 58,
+   "sec": 3,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "According to UN DESA, India overtook China as the most populous country in:",
+   "o": [
+    "April 2021",
+    "April 2023",
+    "March 2011",
+    "April 2025"
+   ],
+   "a": 1,
+   "x": "UN DESA reported that India overtook China in April 2023."
+  },
+  {
+   "topic": 58,
+   "sec": 3,
+   "angle": "16",
+   "shape": "one-liner",
+   "s": "The Technical Group on Population Projections projects India's population at 1,522.3 million by:",
+   "o": [
+    "2031",
+    "2041",
+    "2036",
+    "2047"
+   ],
+   "a": 2,
+   "x": "The Technical Group (MoHFW) projects 1,363.0 million in 2021 rising to 1,522.3 million by 2036."
+  },
+  {
+   "topic": 58,
+   "sec": 4,
+   "angle": "6,13",
+   "shape": "one-liner",
+   "s": "The 'steady growth' phase of India's population, when mortality fell but the birth rate stayed high, was:",
+   "o": [
+    "1901-1921",
+    "1921-1951",
+    "1951-1981",
+    "1981-2011"
+   ],
+   "a": 1,
+   "x": "Phase II (1921-1951) saw steady growth as health, sanitation and transport reduced mortality."
+  },
+  {
+   "topic": 58,
+   "sec": 5,
+   "angle": "2,11",
+   "shape": "one-liner",
+   "s": "The average annual exponential growth rate of India's population in Census 2011 was:",
+   "o": [
+    "1.64%",
+    "2.15%",
+    "17.7%",
+    "2.2%"
+   ],
+   "a": 0,
+   "x": "The average annual exponential growth rate was 1.64%; 17.7% was the decadal growth."
+  },
+  {
+   "topic": 58,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "As per Census 2011, persons aged 60 and above formed about what share of India's population?",
+   "o": [
+    "5.6%",
+    "9.7%",
+    "12.6%",
+    "8.6%"
+   ],
+   "a": 3,
+   "x": "The elderly (60+) were 8.6% in 2011, up from 5.6% in 1961; 9.7% is the SRS 2024 figure."
+  },
+  {
+   "topic": 58,
+   "sec": 6,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Which State had the highest share of elderly population in Census 2011?",
+   "o": [
+    "Jharkhand",
+    "Kerala",
+    "Tamil Nadu",
+    "Himachal Pradesh"
+   ],
+   "a": 1,
+   "x": "Kerala had the highest elderly share (12.6%) and Jharkhand the lowest (7.1%)."
+  },
+  {
+   "topic": 58,
+   "sec": 6,
+   "angle": "5",
+   "shape": "statements",
+   "s": "Consider the following statements about India's age structure as per SRS 2024:\n1. The 15-59 age group forms 66.4% of the population.\n2. Persons aged 60 and above form 9.7%.\n3. The 0-14 age group forms 34%.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "SRS 2024 puts 15-59 at 66.4% and 60+ at 9.7%; the 0-14 share is 24%, not 34%."
+  },
+  {
+   "topic": 58,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Natural increase of population is the difference between:",
+   "o": [
+    "In-migrants and out-migrants",
+    "Births and deaths",
+    "Births and in-migrants",
+    "Deaths and out-migrants"
+   ],
+   "a": 1,
+   "x": "Natural increase is births minus deaths; net migration is in-migrants minus out-migrants."
+  },
+  {
+   "topic": 58,
+   "sec": 7,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "Actual growth of population equals:",
+   "o": [
+    "Births minus deaths",
+    "In-migrants minus out-migrants",
+    "Natural increase plus net migration",
+    "Natural increase minus births"
+   ],
+   "a": 2,
+   "x": "Actual growth is natural increase plus net migration."
+  },
+  {
+   "topic": 58,
+   "sec": 8,
+   "angle": "3,11",
+   "shape": "one-liner",
+   "s": "Which State recorded the highest decadal population growth during 2001-11?",
+   "o": [
+    "Arunachal Pradesh",
+    "Nagaland",
+    "Bihar",
+    "Meghalaya"
+   ],
+   "a": 3,
+   "x": "Meghalaya (27.9%) was highest, followed by Arunachal Pradesh (26.0%); Nagaland was the only State with negative growth."
+  },
+  {
+   "topic": 58,
+   "sec": 8,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which Union Territory recorded the highest decadal population growth during 2001-11?",
+   "o": [
+    "Dadra and Nagar Haveli",
+    "Lakshadweep",
+    "NCT of Delhi",
+    "Puducherry"
+   ],
+   "a": 0,
+   "x": "Dadra and Nagar Haveli (55.9%) had the highest UT growth; Lakshadweep (6.3%) had the lowest."
+  },
+  {
+   "topic": 58,
+   "sec": 8,
+   "angle": "15",
+   "shape": "one-liner",
+   "s": "The term 'BIMARU' was coined by:",
+   "o": [
+    "Amartya Sen",
+    "Ashish Bose",
+    "Paul Ehrlich",
+    "Edwin Cannan"
+   ],
+   "a": 1,
+   "x": "Demographer Ashish Bose coined BIMARU (1986) for Bihar, Madhya Pradesh, Rajasthan and Uttar Pradesh."
+  },
+  {
+   "topic": 58,
+   "sec": 10,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "The literacy rate of Andhra Pradesh in Census 2011 was:",
+   "o": [
+    "72.98%",
+    "59.96%",
+    "67.35%",
+    "70.35%"
+   ],
+   "a": 2,
+   "x": "AP's literacy was 67.35%; 72.98% is India's rate and 59.96% is AP's female literacy."
+  },
+  {
+   "topic": 58,
+   "sec": 10,
+   "angle": "12",
+   "shape": "one-liner",
+   "s": "The sex ratio of Andhra Pradesh as per Census 2011 was:",
+   "o": [
+    "997",
+    "993",
+    "940",
+    "1,084"
+   ],
+   "a": 0,
+   "x": "AP's sex ratio in 2011 was 997."
+  },
+  {
+   "topic": 58,
+   "sec": 11,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The medium-term objective of the National Population Policy 2000 was to bring TFR to 2.1 by:",
+   "o": [
+    "2005",
+    "2016",
+    "2045",
+    "2010"
+   ],
+   "a": 3,
+   "x": "NPP 2000 set TFR 2.1 (replacement level) by 2010 as its medium-term objective."
+  },
+  {
+   "topic": 58,
+   "sec": 11,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The long-term objective of the National Population Policy 2000 is a stable population by:",
+   "o": [
+    "2026",
+    "2045",
+    "2035",
+    "2050"
+   ],
+   "a": 1,
+   "x": "NPP 2000's long-term objective is population stabilisation by 2045."
+  },
+  {
+   "topic": 58,
+   "sec": 11,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The immediate objective of the National Population Policy 2000 is to:",
+   "o": [
+    "Achieve TFR 2.1",
+    "Stabilise population",
+    "Meet the unmet need for contraception",
+    "Freeze delimitation"
+   ],
+   "a": 2,
+   "x": "Its immediate objective is to meet the unmet need for contraception, health infrastructure and personnel."
+  },
+  {
+   "topic": 59,
+   "sec": 7,
+   "angle": "2",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correctly matched about the National Population Policy 2000?",
+   "o": [
+    "Immediate objective – meeting unmet need for contraception",
+    "Medium-term objective – TFR 2.1 by 2010",
+    "Long-term objective – TFR 2.1 by 2045",
+    "Long-term objective – stable population by 2045"
+   ],
+   "a": 2,
+   "x": "The long-term objective is a stable population by 2045; TFR 2.1 was the medium-term target for 2010."
+  },
+  {
+   "topic": 59,
+   "sec": 7,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Under the National Population Policy 2000, replacement-level TFR was targeted by:",
+   "o": [
+    "2010",
+    "2045",
+    "2000",
+    "2030"
+   ],
+   "a": 0,
+   "x": "NPP 2000's medium-term objective was TFR 2.1 by 2010; 2045 is the target for a stable population."
+  },
+  {
+   "topic": 59,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The demographic transition theory was first put forward in 1929 by:",
+   "o": [
+    "Frank Notestein",
+    "Thomas Malthus",
+    "Warren Thompson",
+    "Edwin Cannan"
+   ],
+   "a": 2,
+   "x": "Warren Thompson proposed it in 1929; Frank Notestein later gave the formal three-stage version."
+  },
+  {
+   "topic": 59,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "'The Population Bomb' (1968) was written by:",
+   "o": [
+    "Paul Ehrlich",
+    "Thomas Malthus",
+    "Warren Thompson",
+    "Frank Notestein"
+   ],
+   "a": 0,
+   "x": "Paul Ehrlich's The Population Bomb (1968) warned of mass famine from overpopulation."
+  },
+  {
+   "topic": 59,
+   "sec": 3,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The National Policy for Skill Development and Entrepreneurship was issued in:",
+   "o": [
+    "2014",
+    "2016",
+    "2015",
+    "2012"
+   ],
+   "a": 2,
+   "x": "The National Policy for Skill Development and Entrepreneurship dates from 2015; the National Youth Policy is of 2014."
+  },
+  {
+   "topic": 59,
+   "sec": 8,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Uttar Pradesh's draft Population (Control, Stabilization and Welfare) Bill was brought in:",
+   "o": [
+    "2019",
+    "2023",
+    "2026",
+    "2021"
+   ],
+   "a": 3,
+   "x": "UP's draft Population (Control, Stabilization and Welfare) Bill dates from 2021."
+  },
+  {
+   "topic": 59,
+   "sec": 8,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "As per NFHS-6 (2023-24), which State had the highest TFR?",
+   "o": [
+    "Uttar Pradesh",
+    "Bihar",
+    "Madhya Pradesh",
+    "Rajasthan"
+   ],
+   "a": 1,
+   "x": "NFHS-6 shows Bihar highest (2.7) and Andaman and Nicobar lowest (0.9)."
+  },
+  {
+   "topic": 59,
+   "sec": 9,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "India launched the world's first national family planning programme in:",
+   "o": [
+    "1951",
+    "1976",
+    "1952",
+    "1977"
+   ],
+   "a": 2,
+   "x": "India's national family planning programme of 1952 was the first in the world; it was renamed the Family Welfare Programme in 1977."
+  },
+  {
+   "topic": 59,
+   "sec": 9,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Mission Parivar Vikas (2016) covers how many districts with TFR of 3 or more?",
+   "o": [
+    "146",
+    "115",
+    "175",
+    "200"
+   ],
+   "a": 0,
+   "x": "It covers 146 high-fertility districts in seven States, including UP, Bihar and Rajasthan."
+  },
+  {
+   "topic": 59,
+   "sec": 9,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The dominant contraceptive method among married women in India (NFHS-5) is:",
+   "o": [
+    "Oral pills",
+    "Condoms",
+    "Male sterilisation",
+    "Female sterilisation"
+   ],
+   "a": 3,
+   "x": "Female sterilisation dominates, used by 37.9% of married women in NFHS-5."
+  },
+  {
+   "topic": 59,
+   "sec": 10,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Longitudinal Ageing Study in India (LASI) covers people aged:",
+   "o": [
+    "45 and above",
+    "60 and above",
+    "65 and above",
+    "50 and above"
+   ],
+   "a": 0,
+   "x": "LASI, by IIPS Mumbai for MoHFW, covers people aged 45 and above."
+  },
+  {
+   "topic": 59,
+   "sec": 10,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Around 2020, which country had a median age of about 45?",
+   "o": [
+    "China",
+    "United States",
+    "Japan",
+    "India"
+   ],
+   "a": 2,
+   "x": "Japan's median age was about 45, against 37 for China and the US and 28 for India."
+  }
+ ]
+}
