@@ -171,6 +171,8 @@ for b in range(1, 7):
             secs = [{"t": pt, "badges": [], "p": orow[0].get("p1", 0), "b": blocks} for pt, blocks in pages]
             if isinstance(key, tuple):
                 title = orow[0]["title"]  # a current-affairs period keeps its own title
+                if name.endswith("-1"):  # the first period now runs to 4 Nov 2026
+                    title = title.replace("Sep–Oct 2026", "Sep–4 Nov 2026")
         else:
             if name:
                 missing.append(name)
