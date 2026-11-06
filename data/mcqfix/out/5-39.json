@@ -1,0 +1,831 @@
+{
+ "reshape": {
+  "n5b621e69690": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the Primary Health Centre (PHC)?",
+   "o": [
+    "It serves as the referral centre for Sub Health Centres",
+    "Its population norm in plain areas is 30,000",
+    "It belongs to the secondary healthcare tier",
+    "Its population norm in hilly and tribal areas is 20,000"
+   ],
+   "a": 2,
+   "x": "The PHC is the referral unit for SHCs but belongs to the primary tier; the CHC is the secondary-tier facility."
+  },
+  "n2bd244832db": {
+   "shape": "one-liner",
+   "s": "Which digital health platform provides connectivity among cancer centres?",
+   "o": [
+    "Tele-MANAS",
+    "SeHAT",
+    "eSanjeevani OPD",
+    "ONCONET"
+   ],
+   "a": 3,
+   "x": "ONCONET links cancer centres; Tele-MANAS is for mental health and SeHAT serves the armed forces."
+  },
+  "ne8df6062a3b": {
+   "shape": "one-liner",
+   "s": "At rural Community Health Centres in India, the highest vacancies are found in which posts?",
+   "o": [
+    "Specialist doctors",
+    "Village health guides",
+    "Anganwadi workers",
+    "ASHA workers"
+   ],
+   "a": 0,
+   "x": "Specialist posts at rural CHCs have high vacancies (shortfall of about 80%), while the nurse ratio is also below global norms."
+  },
+  "n0c68ee5304b": {
+   "shape": "one-liner",
+   "s": "The Under-Five Mortality Rate (U5MR) is expressed per how many live births?",
+   "o": [
+    "100",
+    "1,000",
+    "10,000",
+    "1,00,000"
+   ],
+   "a": 1,
+   "x": "U5MR, like IMR, uses a base of 1,000 live births; only the MMR uses 1,00,000."
+  },
+  "nae8e0f3590e": {
+   "shape": "one-liner",
+   "s": "According to the Economic Survey 2025-26, India's life expectancy in 2023 was:",
+   "o": [
+    "65.8 years",
+    "68.3 years",
+    "70.3 years",
+    "72.2 years"
+   ],
+   "a": 2,
+   "x": "Life expectancy rose from 49.7 years (1973) to 70.3 years (2023); 68.3 is the older SRS 2011-15 figure and 72.2 is AP's female figure."
+  },
+  "nc9b9e7b412e": {
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about POSHAN Abhiyaan?",
+   "o": [
+    "It was launched in 2018",
+    "It works through convergence of ICDS, NHM and Swachh Bharat",
+    "It aims to reduce stunting, wasting, anaemia and low birth weight",
+    "It is under the Ministry of Health and Family Welfare"
+   ],
+   "a": 3,
+   "x": "POSHAN Abhiyaan (2018) is under the Ministry of Women and Child Development, not the Health Ministry."
+  },
+  "n3e618f6a50f": {
+   "shape": "one-liner",
+   "s": "Anganwadi Services under ICDS cover children of which age group, besides pregnant and lactating women?",
+   "o": [
+    "Birth to six months",
+    "Six months to six years",
+    "Six to fourteen years",
+    "Three to ten years"
+   ],
+   "a": 1,
+   "x": "Anganwadi Services cover children from six months to six years, and pregnant and lactating women."
+  },
+  "nac10466581c": {
+   "shape": "one-liner",
+   "s": "How does the National Family Health Survey report child malnutrition?",
+   "o": [
+    "As one single overall malnutrition percentage",
+    "As wasting alone, excluding stunting and underweight",
+    "As stunting, wasting and underweight separately",
+    "Only for urban children"
+   ],
+   "a": 2,
+   "x": "NFHS reports stunting, wasting and underweight as separate indicators and gives no single overall malnutrition percentage."
+  },
+  "nda12cb02171": {
+   "shape": "match",
+   "s": "Which of the following pairs relating to the 15th Finance Commission health grants is correctly matched?",
+   "o": [
+    "Total health grants – ₹70,051 crore",
+    "Period – 2016–21",
+    "Channel – Central Government Health Scheme",
+    "Coverage – only urban health and wellness centres"
+   ],
+   "a": 0,
+   "x": "The 15th FC recommended ₹70,051 crore for 2021–26 through local governments, covering rural and building-less SCs/PHCs/CHCs too, not only urban HWCs."
+  },
+  "nba61393491f": {
+   "shape": "one-liner",
+   "s": "Dr. NTR Vaidya Seva in Andhra Pradesh is implemented in convergence with which scheme, enabling portability and wider empanelment?",
+   "o": [
+    "CGHS",
+    "PM-JAY",
+    "ESIS",
+    "Employee Health Scheme"
+   ],
+   "a": 1,
+   "x": "The AP scheme runs in convergence with PM-JAY, providing portability and wider hospital empanelment."
+  }
+ },
+ "new": [
+  {
+   "topic": 117,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "What is the population norm for a Community Health Centre (CHC) in plain areas?",
+   "o": [
+    "1,20,000",
+    "80,000",
+    "30,000",
+    "1,50,000"
+   ],
+   "a": 0,
+   "x": "A CHC serves 1,20,000 people in plain areas and 80,000 in hilly/tribal areas."
+  },
+  {
+   "topic": 117,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "As per Health Dynamics of India 2022-23, how many district hospitals did India have?",
+   "o": [
+    "614",
+    "714",
+    "6,359",
+    "814"
+   ],
+   "a": 1,
+   "x": "Health Dynamics of India 2022-23 reports 714 district hospitals, along with 6,359 CHCs."
+  },
+  {
+   "topic": 117,
+   "sec": 2,
+   "angle": "3",
+   "shape": "match",
+   "s": "Which of the following committee–recommendation pairs is correctly matched?",
+   "o": [
+    "Mudaliar Committee – Village health guides",
+    "Shrivastava Committee – Consolidate existing PHCs",
+    "Kartar Singh Committee – Multipurpose health workers",
+    "Bhore Committee – Referral Services Complex"
+   ],
+   "a": 2,
+   "x": "Kartar Singh (1973) recommended multipurpose health workers; Mudaliar wanted PHCs consolidated and Shrivastava proposed village health guides."
+  },
+  {
+   "topic": 117,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The Shrivastava Committee (1975) is known for recommending:",
+   "o": [
+    "Multipurpose health workers",
+    "One PHC per 50,000 people",
+    "Consolidation of PHCs",
+    "Village health guides"
+   ],
+   "a": 3,
+   "x": "Shrivastava recommended community volunteers called village health guides and a Referral Services Complex."
+  },
+  {
+   "topic": 117,
+   "sec": 2,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "Which committee recommended consolidating existing PHCs before expanding them?",
+   "o": [
+    "Mudaliar Committee",
+    "Kartar Singh Committee",
+    "Bhore Committee",
+    "Shrivastava Committee"
+   ],
+   "a": 0,
+   "x": "The Mudaliar Committee (1959–62) asked for consolidation of existing PHCs and stronger district hospitals."
+  },
+  {
+   "topic": 117,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The Indian Public Health Standards 2022 lay down norms for which of the following?",
+   "o": [
+    "Only district hospitals",
+    "SHC/HWC, PHC, CHC, sub-district and district hospitals",
+    "Only medical colleges",
+    "Only private hospitals"
+   ],
+   "a": 1,
+   "x": "IPHS 2022, the latest revision, sets norms for SHC/HWC, PHC, CHC, sub-district and district hospitals."
+  },
+  {
+   "topic": 117,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "Ayushman Arogya Mandirs follow the facility norms of:",
+   "o": [
+    "IPHS 2012",
+    "IPHS 2017",
+    "IPHS 2022",
+    "IPHS 2020"
+   ],
+   "a": 2,
+   "x": "Ayushman Arogya Mandirs follow IPHS 2022, the latest revision of the standards."
+  },
+  {
+   "topic": 117,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "By 2026, the number of functioning Ayushman Arogya Mandirs was more than:",
+   "o": [
+    "1.50 lakh",
+    "2.50 lakh",
+    "1.35 lakh",
+    "1.79 lakh"
+   ],
+   "a": 3,
+   "x": "More than 1.79 lakh AAMs were functioning in 2026; 1,50,000 was the December 2022 figure."
+  },
+  {
+   "topic": 117,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Health and Wellness Centres (now Ayushman Arogya Mandirs) were set up by upgrading which facilities?",
+   "o": [
+    "Sub Health Centres and PHCs",
+    "District hospitals and CHCs",
+    "Medical colleges",
+    "Anganwadi centres"
+   ],
+   "a": 0,
+   "x": "HWCs were created in 2018 by upgrading SHCs and PHCs and were later renamed Ayushman Arogya Mandirs."
+  },
+  {
+   "topic": 117,
+   "sec": 5,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "eSanjeevani OPD is a telemedicine service of which type?",
+   "o": [
+    "Provider-to-provider",
+    "Patient-to-provider from home",
+    "Hub-to-hub",
+    "Provider-to-pharmacy"
+   ],
+   "a": 1,
+   "x": "eSanjeevani OPD links patients at home to providers; eSanjeevani AAM is provider-to-provider (hub-and-spoke)."
+  },
+  {
+   "topic": 117,
+   "sec": 6,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "What is India's doctor-population ratio (NMC-registered allopathic doctors)?",
+   "o": [
+    "1:1456",
+    "1:1000",
+    "1:834",
+    "1:2000"
+   ],
+   "a": 2,
+   "x": "India's ratio is about 1:834, better than the WHO norm of 1:1000, though doctors cluster in cities."
+  },
+  {
+   "topic": 117,
+   "sec": 6,
+   "angle": "6",
+   "shape": "statements",
+   "s": "Consider the following statements about specialists at rural CHCs (March 2023):\n1. Only 4,413 of the 21,964 required specialists were in place.\n2. The shortfall was about 80%.\n3. Kerala had the largest gap.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "About 4,413 of 21,964 specialists were available, a shortfall of about 80%; Uttar Pradesh, not Kerala, had the largest gap."
+  },
+  {
+   "topic": 117,
+   "sec": 7,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "In India, the private sector's share of outpatient care is about:",
+   "o": [
+    "40%",
+    "50%",
+    "60%",
+    "70%"
+   ],
+   "a": 3,
+   "x": "The private sector provides about 70% of outpatient care and over 60% of inpatient care."
+  },
+  {
+   "topic": 117,
+   "sec": 8,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The number of medical colleges in India rose from 387 in 2014 to how many in 2025?",
+   "o": [
+    "819",
+    "719",
+    "619",
+    "919"
+   ],
+   "a": 0,
+   "x": "Medical colleges grew from 387 (2014) to 819 (2025)."
+  },
+  {
+   "topic": 117,
+   "sec": 9,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "In Andhra Pradesh, the 108 service provides:",
+   "o": [
+    "Mobile medical units",
+    "Emergency ambulance service",
+    "Health advisory only",
+    "Telemedicine consultation"
+   ],
+   "a": 1,
+   "x": "108 is the emergency ambulance service; 104 is the mobile medical unit with health advisory."
+  },
+  {
+   "topic": 117,
+   "sec": 9,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "How many Village Health Clinics does Andhra Pradesh have?",
+   "o": [
+    "9,032",
+    "11,086",
+    "10,032",
+    "1,144"
+   ],
+   "a": 2,
+   "x": "AP has 10,032 Village Health Clinics; 11,086 is the number of Sub Centres."
+  },
+  {
+   "topic": 118,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "According to SRS 2020-22, India's Maternal Mortality Ratio was:",
+   "o": [
+    "97",
+    "93",
+    "45",
+    "88"
+   ],
+   "a": 3,
+   "x": "MMR fell from 97 (2018-20) to 93 (2019-21) and 88 (SRS 2020-22); 45 is AP's MMR."
+  },
+  {
+   "topic": 118,
+   "sec": 1,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "The Neonatal Mortality Rate counts deaths of infants within the first:",
+   "o": [
+    "28 days",
+    "7 days",
+    "6 months",
+    "1 year"
+   ],
+   "a": 0,
+   "x": "NMR counts deaths in the first 28 days per 1,000 live births."
+  },
+  {
+   "topic": 118,
+   "sec": 2,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "As per SRS 2020, Andhra Pradesh's Infant Mortality Rate was:",
+   "o": [
+    "18",
+    "24",
+    "28",
+    "35"
+   ],
+   "a": 1,
+   "x": "AP's IMR was 24 against India's 28 (SRS 2020); 35 was AP's NFHS-4 value."
+  },
+  {
+   "topic": 118,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "As per SRS abridged life tables 2016-20, female life expectancy in Andhra Pradesh was:",
+   "o": [
+    "69.1 years",
+    "71.4 years",
+    "72.2 years",
+    "70.3 years"
+   ],
+   "a": 2,
+   "x": "AP's female life expectancy was 72.2 years, higher than India's 71.4; 69.1 is AP's male figure."
+  },
+  {
+   "topic": 118,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "The replacement level of Total Fertility Rate is:",
+   "o": [
+    "1.5",
+    "2.0",
+    "2.5",
+    "2.1"
+   ],
+   "a": 3,
+   "x": "Replacement-level TFR is 2.1."
+  },
+  {
+   "topic": 118,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "According to NFHS-5, India's Total Fertility Rate fell from 2.2 to:",
+   "o": [
+    "2.0",
+    "2.1",
+    "1.9",
+    "1.5"
+   ],
+   "a": 0,
+   "x": "NFHS-5 shows India's TFR at 2.0, below the replacement level of 2.1."
+  },
+  {
+   "topic": 118,
+   "sec": 4,
+   "angle": "7",
+   "shape": "one-liner",
+   "s": "Which State had the highest Total Fertility Rate in NFHS-5?",
+   "o": [
+    "Uttar Pradesh",
+    "Bihar",
+    "Meghalaya",
+    "Jharkhand"
+   ],
+   "a": 1,
+   "x": "Bihar had the highest TFR (3.0), followed by Meghalaya (2.9) and Uttar Pradesh (2.4)."
+  },
+  {
+   "topic": 118,
+   "sec": 4,
+   "angle": "7",
+   "shape": "statements",
+   "s": "Consider the following statements about Total Fertility Rate:\n1. Andhra Pradesh's TFR is 1.5.\n2. Five States were still above the replacement level in NFHS-5.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "AP's TFR is 1.5, and five States (Bihar, Meghalaya, UP, Jharkhand, Manipur) were above 2.1 in NFHS-5."
+  },
+  {
+   "topic": 118,
+   "sec": 5,
+   "angle": "9",
+   "shape": "one-liner",
+   "s": "Which of the following was NOT included in NFHS-5?",
+   "o": [
+    "Pre-school education",
+    "Menstrual hygiene",
+    "HIV test",
+    "High blood pressure"
+   ],
+   "a": 2,
+   "x": "NFHS-5 included pre-school education, menstrual hygiene and NCD screening, but not the HIV test."
+  },
+  {
+   "topic": 118,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Stunting in children refers to low:",
+   "o": [
+    "Weight-for-height",
+    "Mid-upper arm circumference",
+    "Weight-for-age",
+    "Height-for-age"
+   ],
+   "a": 3,
+   "x": "Stunting is low height-for-age; wasting is low weight-for-height and underweight is low weight-for-age."
+  },
+  {
+   "topic": 118,
+   "sec": 6,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "According to NFHS-5, stunting among children in Andhra Pradesh was:",
+   "o": [
+    "31.2%",
+    "29.6%",
+    "25%",
+    "35.5%"
+   ],
+   "a": 0,
+   "x": "AP's stunting was 31.2% in NFHS-5 (25% in NFHS-6); 35.5% is the national figure."
+  },
+  {
+   "topic": 118,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "The 'triple burden' of malnutrition (SOFI 2025) adds which of the following to undernutrition and overweight?",
+   "o": [
+    "Infectious disease",
+    "Micronutrient deficiency/anaemia",
+    "Food wastage",
+    "Low birth rate"
+   ],
+   "a": 1,
+   "x": "The triple burden is undernutrition plus micronutrient deficiency/anaemia plus overweight."
+  },
+  {
+   "topic": 118,
+   "sec": 7,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "According to SOFI 2025, India's child wasting rate, the world's highest, is:",
+   "o": [
+    "7.7%",
+    "15.6%",
+    "18.7%",
+    "19.3%"
+   ],
+   "a": 2,
+   "x": "SOFI 2025 puts India's wasting at 18.7% (21 million), the world's highest."
+  },
+  {
+   "topic": 118,
+   "sec": 8,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "According to NFHS-5, what share of women had 10 or more years of schooling?",
+   "o": [
+    "31%",
+    "57%",
+    "51%",
+    "41%"
+   ],
+   "a": 3,
+   "x": "NFHS-5 found 41% of women had 10+ years of schooling, a driver of child nutrition."
+  },
+  {
+   "topic": 118,
+   "sec": 9,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "PM POSHAN, launched in 2021, was renamed from which scheme?",
+   "o": [
+    "Mid-Day Meal",
+    "ICDS",
+    "Anemia Mukt Bharat",
+    "POSHAN Abhiyaan"
+   ],
+   "a": 0,
+   "x": "PM POSHAN (2021) replaced the Mid-Day Meal scheme and covers Classes I–VIII plus Bal Vatika."
+  },
+  {
+   "topic": 118,
+   "sec": 10,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "YSR Sampoorna Poshana Plus covers pregnant women, lactating mothers and children in how many tribal mandals?",
+   "o": [
+    "57",
+    "77",
+    "67",
+    "87"
+   ],
+   "a": 1,
+   "x": "YSR Sampoorna Poshana Plus (Sep 2020) covers the same groups in 77 tribal mandals."
+  },
+  {
+   "topic": 118,
+   "sec": 10,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Anna Amrutha Hastam in Andhra Pradesh mainly targets:",
+   "o": [
+    "School children",
+    "Adolescent boys",
+    "Pregnant and lactating women",
+    "Elderly persons"
+   ],
+   "a": 2,
+   "x": "Anna Amrutha Hastam gives pregnant and lactating women a nutritious meal and iron-folic acid tablets through Anganwadis."
+  },
+  {
+   "topic": 119,
+   "sec": 1,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "The first National Health Accounts estimates in India were prepared for the year:",
+   "o": [
+    "2004-05",
+    "2010-11",
+    "2017-18",
+    "2013-14"
+   ],
+   "a": 3,
+   "x": "India's first NHA was for 2013-14."
+  },
+  {
+   "topic": 119,
+   "sec": 1,
+   "angle": "8",
+   "shape": "one-liner",
+   "s": "According to NHA 2022-23, the share of social security expenditure in Total Health Expenditure was:",
+   "o": [
+    "9.9%",
+    "6%",
+    "28.6%",
+    "43.4%"
+   ],
+   "a": 0,
+   "x": "Social security's share rose from 6% (2013-14) to 9.9% (2022-23)."
+  },
+  {
+   "topic": 119,
+   "sec": 2,
+   "angle": "2",
+   "shape": "one-liner",
+   "s": "Under the National Health Policy 2017, the Centre's share of public health spending was to be:",
+   "o": [
+    "25%",
+    "40%",
+    "50%",
+    "60%"
+   ],
+   "a": 1,
+   "x": "NHP 2017 set the Centre's share at 40% of public health spending, along with GHE of 2.5% of GDP by 2025."
+  },
+  {
+   "topic": 119,
+   "sec": 3,
+   "angle": "5",
+   "shape": "one-liner",
+   "s": "The average cost of childbirth in private facilities is about ₹37,630, compared with how much in government facilities?",
+   "o": [
+    "₹12,500",
+    "₹6,631",
+    "₹2,299",
+    "₹50,508"
+   ],
+   "a": 2,
+   "x": "Childbirth costs about ₹37,630 privately against ₹2,299 in government facilities."
+  },
+  {
+   "topic": 119,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "PM-JAY provides health cover of how much per family per year?",
+   "o": [
+    "₹2.5 lakh",
+    "₹25 lakh",
+    "₹10 lakh",
+    "₹5 lakh"
+   ],
+   "a": 3,
+   "x": "PM-JAY covers ₹5 lakh per family per year; ₹25 lakh is AP's Universal Health Policy cover."
+  },
+  {
+   "topic": 119,
+   "sec": 4,
+   "angle": "3",
+   "shape": "one-liner",
+   "s": "In October 2024, PM-JAY was extended to all citizens aged 70 and above:",
+   "o": [
+    "Irrespective of income",
+    "Only in BPL families",
+    "Only in rural areas",
+    "Only if not covered by any other scheme"
+   ],
+   "a": 0,
+   "x": "The October 2024 extension covers all citizens aged 70+, irrespective of income, through the Ayushman Vay Vandana card."
+  },
+  {
+   "topic": 119,
+   "sec": 4,
+   "angle": "3",
+   "shape": "statements",
+   "s": "Consider the following statements about the 2024 PM-JAY extension for senior citizens:\n1. Beneficiaries receive the Ayushman Vay Vandana card.\n2. Members aged 70+ of already covered families get an extra ₹5 lakh top-up.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: the 70+ cover uses the Ayushman Vay Vandana card and gives a ₹5 lakh top-up to already covered families."
+  },
+  {
+   "topic": 119,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "Between 2017-18 and 2025, government-financed health insurance coverage in India rose by about:",
+   "o": [
+    "1.5-fold",
+    "2.5-fold",
+    "3.5-fold",
+    "5-fold"
+   ],
+   "a": 1,
+   "x": "NSS 80th round shows government-financed insurance up 2.5-fold."
+  },
+  {
+   "topic": 119,
+   "sec": 5,
+   "angle": "6",
+   "shape": "one-liner",
+   "s": "According to NFHS-6, households with at least one insured member rose from 41.0% to:",
+   "o": [
+    "50.2%",
+    "55.4%",
+    "60.2%",
+    "70.0%"
+   ],
+   "a": 2,
+   "x": "NFHS-6 shows insured households rising from 41.0% to 60.2%."
+  },
+  {
+   "topic": 119,
+   "sec": 6,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "The National Pharmaceutical Pricing Authority (NPPA) was set up in:",
+   "o": [
+    "2013",
+    "2003",
+    "2010",
+    "1997"
+   ],
+   "a": 3,
+   "x": "NPPA was set up in 1997; it fixes ceiling prices under the Drugs Price Control Order 2013."
+  },
+  {
+   "topic": 119,
+   "sec": 6,
+   "angle": "4",
+   "shape": "one-liner",
+   "s": "How many Jan Aushadhi Kendras had been opened by December 2025?",
+   "o": [
+    "17,990",
+    "11,990",
+    "20,000",
+    "25,000"
+   ],
+   "a": 0,
+   "x": "17,990 Jan Aushadhi Kendras had opened by Dec 2025; 25,000 is the target for March 2027."
+  },
+  {
+   "topic": 119,
+   "sec": 7,
+   "angle": "1",
+   "shape": "one-liner",
+   "s": "Andhra Pradesh's Universal Health Policy (Sep 2025) provides cover of up to how much per family per year?",
+   "o": [
+    "₹5 lakh",
+    "₹25 lakh",
+    "₹10 lakh",
+    "₹2.5 lakh"
+   ],
+   "a": 1,
+   "x": "The policy offers up to ₹25 lakh per family per year covering all 3,257 procedures."
+  },
+  {
+   "topic": 119,
+   "sec": 7,
+   "angle": "1",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about Andhra Pradesh's Universal Health Policy (2025)?",
+   "o": [
+    "It covers all 3,257 procedures",
+    "Claims up to ₹2.5 lakh are handled through insurers",
+    "Employees under the Employee Health Scheme are included",
+    "Claims from ₹2.5 lakh to ₹25 lakh go through the NTR Vaidya Seva Trust"
+   ],
+   "a": 2,
+   "x": "EHS employees are excluded from the Universal Health Policy; the other statements are correct."
+  },
+  {
+   "topic": 119,
+   "sec": 7,
+   "angle": "1,6",
+   "shape": "one-liner",
+   "s": "Together with EHS, RSBY, ESIS and CGHS, AP's state health scheme covers about what share of AP households (2026)?",
+   "o": [
+    "40%",
+    "50%",
+    "70%",
+    "60%"
+   ],
+   "a": 2,
+   "x": "The state scheme with EHS, RSBY, ESIS and CGHS covers about 70% of AP households."
+  }
+ ]
+}
