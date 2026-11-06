@@ -510,31 +510,31 @@
    "topic": 96,
    "sec": 6,
    "angle": "4",
-   "shape": "one-liner",
-   "s": "States bear what share of India's school education spending?",
+   "shape": "statements",
+   "s": "Consider the following statements about social sector spending in India:\n1. Social protection spending is only about 4.0% of GDP.\n2. States bear 75.2% of school education spending.\nWhich of the statements given above is/are correct?",
    "o": [
-    "41%",
-    "60%",
-    "75.2%",
-    "90%"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 2,
-   "x": "States bear 75.2% of school education spending."
+   "x": "Social protection is just 4.0% of GDP, and States bear 75.2% of school education spending."
   },
   {
    "topic": 96,
-   "sec": 6,
-   "angle": "4",
-   "shape": "one-liner",
-   "s": "India's spending on social protection is only about:",
+   "sec": 8,
+   "angle": "7",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the National Food Security Act, 2013?",
    "o": [
-    "2.5% of GDP",
-    "4.0% of GDP",
-    "6% of GDP",
-    "18% of GDP"
+    "It covers up to 75% of the rural population",
+    "It covers up to 50% of the urban population",
+    "It gives 5 kg of foodgrains per person per month",
+    "It gives 10 kg of grain per household per month"
    ],
-   "a": 1,
-   "x": "Social protection is just 4.0% of GDP, behind most upper-middle-income countries."
+   "a": 3,
+   "x": "NFSA gives 5 kg per person per month, not 10 kg per household."
   },
   {
    "topic": 96,
@@ -580,21 +580,6 @@
    ],
    "a": 1,
    "x": "The VB-G RAM G Act replaced MGNREGA and raises the States' contribution."
-  },
-  {
-   "topic": 96,
-   "sec": 8,
-   "angle": "7",
-   "shape": "one-liner",
-   "s": "Under the National Food Security Act, 2013, how much foodgrain is each person entitled to per month?",
-   "o": [
-    "2 kg",
-    "5 kg",
-    "10 kg",
-    "35 kg"
-   ],
-   "a": 1,
-   "x": "NFSA gives 5 kg of foodgrains per person per month."
   },
   {
    "topic": 96,
@@ -795,16 +780,16 @@
    "topic": 97,
    "sec": 5,
    "angle": "5",
-   "shape": "one-liner",
-   "s": "DIPAM functions under which ministry?",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about DIPAM?",
    "o": [
-    "Ministry of Finance",
-    "Ministry of Heavy Industries",
-    "Ministry of Corporate Affairs",
-    "Ministry of Commerce"
+    "It functions under the Ministry of Finance",
+    "It manages the Centre's equity in CPSEs",
+    "It got its present name on 14 April 2016",
+    "It functions under the Ministry of Commerce"
    ],
-   "a": 0,
-   "x": "DIPAM is under the Ministry of Finance and manages the Centre's equity in CPSEs."
+   "a": 3,
+   "x": "DIPAM is under the Ministry of Finance, not the Ministry of Commerce."
   },
   {
    "topic": 97,
@@ -1168,6 +1153,21 @@
   },
   {
    "topic": 98,
+   "sec": 4,
+   "angle": "3",
+   "shape": "NOT",
+   "s": "Which of the following is NOT correct about the National Commission for Minorities?",
+   "o": [
+    "It functions under the Ministry of Minority Affairs",
+    "It was set up under the NCM Act, 1992",
+    "It is a constitutional body under Article 350-B",
+    "Its members have a 3-year term"
+   ],
+   "a": 2,
+   "x": "The NCM is statutory (1992 Act); Article 350-B is the Special Officer for Linguistic Minorities."
+  },
+  {
+   "topic": 98,
    "sec": 6,
    "angle": "5,6",
    "shape": "one-liner",
@@ -1305,16 +1305,16 @@
    "topic": 98,
    "sec": 10,
    "angle": "9",
-   "shape": "one-liner",
-   "s": "Besides being laid before Parliament, the report of the Special Officer for Linguistic Minorities is also:",
+   "shape": "statements",
+   "s": "Consider the following statements about the report of a Joint State Public Service Commission:\n1. It is submitted to each Governor concerned.\n2. It is laid before Parliament.\nWhich of the statements given above is/are correct?",
    "o": [
-    "Sent to the States",
-    "Sent to the UPSC",
-    "Sent to the Supreme Court",
-    "Sent to the Election Commission"
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
    ],
    "a": 0,
-   "x": "The Art. 350B officer reports to the President; the report is laid before Parliament and also sent to the States."
+   "x": "A JSPSC reports to each Governor concerned, and the report is laid before each State Legislature, not Parliament."
   }
  ]
 }
