@@ -170,6 +170,21 @@ W(f"{G}/edition.json", {"edition": "complete", "name": "APPSC Group 2"})
 W(f"{G}/moved.json", {"v": "group2-1", "m": {}})
 W(f"{G}/notemoves.json", [])
 W(f"{G}/mcqlinks.json", {})
+# the book icon's checked notes lines (tools/notelink.py): same secs and blocks, rows renumbered; a line on a
+# row Group 2 does not keep is dropped (the app then falls back to its own guess)
+if os.path.exists(f"{C}/notelinks.json"):
+    nl = {}
+    for qid, refs in J(f"{C}/notelinks.json").items():
+        if qid not in ids:
+            continue
+        keep = []
+        for ref in refs:
+            b, r, rest = ref.split(":", 2)
+            if (int(b), int(r)) in new:
+                keep.append(f"{b}:{new[(int(b), int(r))]}:{rest}")
+        if keep:
+            nl[qid] = keep
+    W(f"{G}/notelinks.json", nl)
 
 # --- the plan: 5 Nov -> 21 Jan, phases in APPSC Complete's proportions, HIGH first
 # Group 2 keeps its phased plan (study, revision, practice, mocks): its day templates come from APPSC Complete's
