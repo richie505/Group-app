@@ -96,6 +96,8 @@ def check(path, quiet=False):
             bad.append(f"{L['id']}: PYQs are not linked")
         if not L.get("lines"):
             bad.append(f"{L['id']}: no lines")
+        if "x" in L and not (isinstance(L["x"], str) and len(L["x"].strip()) > 10):
+            bad.append(f"{L['id']}: corrected explanation x is empty")
         for ref in L.get("lines", []):
             if ref.startswith("+"):
                 if not (ref[1:].isdigit() and int(ref[1:]) < len(ops)):
@@ -139,6 +141,22 @@ def apply(paths):
             with open("data/notelink/notes_added.jsonl", "a") as f:
                 for o in ops:
                     f.write(json.dumps({"file": p, **o}, ensure_ascii=False) + "\n")
+        fixes = {L["id"]: L["x"].strip() for L in d["links"] if L.get("x")}
+        if fixes:  # explanations corrected against the linked lines (options and key unchanged); old ones logged
+            for b in {int(L["book"]) for L in d["links"] if L["id"] in fixes}:
+                mp = f"{A}/mcq{b}.json"
+                m = json.load(open(mp))
+                log = []
+                for qs in m["rows"].values():
+                    for q in qs:
+                        if q["id"] in fixes and not q["id"].startswith("y"):
+                            log.append({"id": q["id"], "old": q.get("x", ""), "new": fixes[q["id"]]})
+                            q["x"] = fixes[q["id"]]
+                            q.pop("xs", None); q.pop("xa", None)  # per-option bullets would be stale
+                json.dump(m, open(mp, "w"), ensure_ascii=False, separators=(",", ":"))
+                with open("data/notelink/xfixed.jsonl", "a") as f:
+                    for o in log:
+                        f.write(json.dumps(o, ensure_ascii=False) + "\n")
         n = 0
         for L in d["links"]:
             refs = []
@@ -151,7 +169,7 @@ def apply(paths):
                     refs.append(f"{L['book']}:{ref}")
             if refs:
                 cur[L["id"]] = refs; n += 1
-        print(f"{p}: {n} MCQs linked, {len(ops)} notes additions")
+        print(f"{p}: {n} MCQs linked, {len(ops)} notes additions, {len(fixes)} explanations corrected")
     json.dump(cur, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"), sort_keys=True)
 
 
@@ -165,7 +183,7 @@ def preview(path):
             m = json.load(open(f"{A}/mcq{b}.json"))
             ms[b] = {q["id"]: q for qs in m["rows"].values() for q in qs}
         q = ms[b][L["id"]]
-        print(f"\n[{q['id']}] {q['s']}\n  ANSWER: {q['o'][q['a']]}")
+        print(f"\n[{q['id']}] {q['s']}\n  ANSWER: {q['o'][q['a']]}\n  WHY: {L.get('x') or q.get('x', '')}{'  (CORRECTED)' if L.get('x') else ''}")
         for ref in L["lines"]:
             t = d["notes"][int(ref[1:])]["md"] + "  (NEW)" if ref.startswith("+") else line_text(bk, ref)
             print(f"  > {ref}: {t}")

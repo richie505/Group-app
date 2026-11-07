@@ -5,6 +5,10 @@ the right answer and the line(s) of the notes that state it. Today the app guess
 often shows a neighbouring fact. You replace the guess with a checked link for every own MCQ (ids not starting
 "y"; PYQs are left alone).
 
+## Your packet
+
+`data/notelink/queue.txt`: the line starting with your packet id lists its topics as `book:row`. Do every topic.
+
 ## For each topic in your packet
 
 Run `python3 tools/notelink.py show <book> <row>`. It prints the topic's notes with every line numbered
@@ -28,12 +32,22 @@ For EVERY own MCQ listed, pick the line(s) that state the fact the right answer 
   your `notes` list). If the MCQ's key itself looks wrong against the notes, link the line that shows it and add it
   to `doubtful` (do not change the MCQ).
 
+## Check each explanation
+
+The book icon shows the MCQ's explanation (`x`) above the linked lines, so it must be right. Compare it with the
+lines you linked. If it states a wrong fact (a wrong number, place, year or name against the notes), or explains
+a different fact than the one asked, write a corrected one in the link entry as `"x": "…"`: 1-3 short sentences in
+simple English that say why the right option is right (and, for NOT / statements / match, why the others are as
+they are), using only facts from the linked lines or the notes. Leave a correct explanation alone (no `"x"`). Never
+change the options or the key.
+
 ## Output
 
 `data/notelink/link-<packet>.json`:
 
 ```json
 {"links": [{"book": 6, "id": "ca4cf9d4152886", "lines": ["14:0:1"]},
+           {"book": 6, "id": "…", "lines": ["14:1:4"], "x": "corrected explanation, only when the old one is wrong"},
            {"book": 6, "id": "…", "lines": ["14:0:2.3"]},
            {"book": 6, "id": "…", "lines": ["+0"]}],
  "notes": [{"book": 6, "row": 14, "sec": 3, "append": true, "md": "- **…:** …"}],
@@ -46,4 +60,6 @@ Check: `python3 tools/notelink.py check data/notelink/link-<packet>.json` must s
 `python3 tools/notelink.py preview data/notelink/link-<packet>.json` and fix any MCQ whose linked text does not
 plainly answer it. Only check/preview: never apply, never commit, never edit other files.
 
-Reply first in one line: `<packet>: N MCQs linked (T table rows, M multi-line), A notes additions, D doubtful`.
+Several packets run at once and other topics' notes may grow while you work; your line numbers stay valid
+because additions only go at the end of a subsection. Reply first in one line:
+`<packet>: N MCQs linked (T table rows, M multi-line), A notes additions, X explanations corrected, D doubtful`.
