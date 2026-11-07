@@ -10,9 +10,9 @@
    "appsc_covered": 2,
    "missing": [
     "#4 Programme acronyms -> full form (partly: SHRESTH full form not asked)",
-    "#5 Task forces -> mandate (partly: 2026 Cabinet task forces only asked indirectly)",
-    "#14 CM and cabinet (partly: portfolios only; swearing-in/ordinal not in notes)",
-    "#20 Agriculture initiatives (partly: RBK -> RSK renaming only in a NOT question)",
+    "#5 Task forces -> mandate (partly: 2026 Cabinet task forces asked only indirectly)",
+    "#14 CM and cabinet (partly: two portfolios only; swearing-in/ordinal not in notes)",
+    "#20 Agriculture initiatives (partly: RBK -> RSK renaming only inside a NOT question)",
     "#16 Capital decisions (not in this topic's notes; covered in 6:0/6:2)",
     "#24 P4 flagship programme (not in this topic's notes; covered in 6:0/6:2/6:4)"
    ],
@@ -25,17 +25,16 @@
    "kw_partly": 2,
    "kw_missing": 0,
    "appsc_pyqs": 8,
-   "appsc_covered": 6,
+   "appsc_covered": 7,
    "missing": [
     "#4 Programme acronyms (partly: SHRESTH, APCNF, NSAP full forms not asked)",
     "#14 CM and cabinet (partly: portfolios only; swearing-in/ordinal not in notes)",
-    "PYQ y58cefca0f98 calendar reasoning (days occurring five times) - no own MCQ",
-    "PYQ y1eeea31065e Twenty Point Programme year/introducer - no own MCQ",
+    "PYQ y1eeea31065e Twenty Point Programme (1975) - no own MCQ on the programme's origin",
     "misfiled: y328318ff1b9 (PM on higher education through PPP)",
     "misfiled: y01a1224e623 (direct democracy - Grama Sabha)",
     "misfiled: yf3d5548dfaf (contagious - gnashing)"
    ],
-   "notes_gaps": 23
+   "notes_gaps": 16
   },
   {
    "u": "U0813-1",
@@ -1778,59 +1777,14 @@
    "book": 6,
    "row": 0,
    "sub": 2,
-   "s": "October 2026 begins on a Thursday. Which days occur five times in that month?",
-   "o": [
-    "Saturday, Sunday and Monday",
-    "Monday, Tuesday and Wednesday",
-    "Thursday, Friday and Saturday",
-    "Wednesday, Thursday and Friday"
-   ],
-   "a": 2,
-   "x": "A 31-day month has 4 weeks and 3 extra days; the extra days are the first three days of the month, so Thursday, Friday and Saturday occur five times.",
-   "angle": "U0812 PYQ y58cefca0f98 calendar reasoning (days occurring five times)"
-  },
-  {
-   "book": 6,
-   "row": 0,
-   "sub": 2,
-   "s": "In a month, the first Monday falls on the 5th. On which date does the third Monday fall?",
-   "o": [
-    "17th",
-    "19th",
-    "21st",
-    "26th"
-   ],
-   "a": 1,
-   "x": "Mondays fall every 7 days: 5th, 12th and 19th, so the third Monday is the 19th (as in October 2026).",
-   "angle": "U0812 PYQ y58cefca0f98 calendar reasoning (date of a weekday)"
-  },
-  {
-   "book": 6,
-   "row": 0,
-   "sub": 0,
-   "s": "Under which Union Ministry is the Jal Jeevan Mission, launched in 2019, implemented?",
-   "o": [
-    "Ministry of Jal Shakti",
-    "Ministry of Rural Development",
-    "Ministry of Housing and Urban Affairs",
-    "Ministry of Panchayati Raj"
-   ],
-   "a": 0,
-   "x": "JJM was launched in 2019 under the Ministry of Jal Shakti; Amarajeevi Jaladhara is AP's programme under JJM 2.0.",
-   "angle": "U0812 #1 Scheme -> ministry (JJM)"
-  },
-  {
-   "book": 6,
-   "row": 0,
-   "sub": 2,
    "s": "On which occasion were the Swachh Andhra Awards 2026 presented at Vijayawada?",
    "o": [
     "World Habitat Day, 5 October 2026",
     "Independence Day, 15 August 2026",
-    "Ugadi, 2026",
-    "Gandhi Jayanti (Swachh Diwas), 2 October 2026"
+    "Gandhi Jayanti (Swachh Diwas), 2 October 2026",
+    "Ugadi, 2026"
    ],
-   "a": 3,
+   "a": 2,
    "x": "CM Chandrababu Naidu presented the Swachh Andhra Awards 2026 on Swachh Diwas, Gandhi Jayanti, 2 October 2026.",
    "angle": "U0812 #25 Clean-village campaign -> launch occasion (Swachh Andhra Awards 2026)"
   },
@@ -1841,11 +1795,11 @@
    "s": "What is the full form of NSAP, whose Central pension share is credited through SNA-SPARSH from 1 October 2026?",
    "o": [
     "National Social Security Assistance Plan",
-    "National Scheme for Aged Persons",
     "National Social Assistance Programme",
+    "National Scheme for Aged Persons",
     "National Senior-citizen Assistance Programme"
    ],
-   "a": 2,
+   "a": 1,
    "x": "NSAP is the National Social Assistance Programme; its Central share of pensions now goes directly to Aadhaar-linked bank accounts.",
    "angle": "U0812 #4 Programme acronym -> full form (NSAP)"
   },
@@ -1855,12 +1809,12 @@
    "sub": 7,
    "s": "Pulicat Lake, where a GPS-based fishing boundary is planned, is shared by which two States?",
    "o": [
-    "Andhra Pradesh and Odisha",
     "Andhra Pradesh and Tamil Nadu",
+    "Andhra Pradesh and Odisha",
     "Andhra Pradesh and Karnataka",
     "Tamil Nadu and Kerala"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Pulicat is a brackish-water lake shared by Andhra Pradesh and Tamil Nadu.",
    "angle": "U0812 #8 Location -> Pulicat Lake"
   },
@@ -1870,29 +1824,14 @@
    "sub": 7,
    "s": "Who chairs the State Apprenticeship Council of Andhra Pradesh?",
    "o": [
-    "Principal Secretary, Skill Development & Training Department",
     "Director of Employment and Training",
     "Chief Secretary",
-    "Minister for Skill Development"
-   ],
-   "a": 0,
-   "x": "The State Apprenticeship Council is chaired by the Principal Secretary, Skill Development & Training; the Director of Employment and Training chairs the NAPS 2.0 committee.",
-   "angle": "U0812 #18 Committee -> chairperson (State Apprenticeship Council)"
-  },
-  {
-   "book": 6,
-   "row": 0,
-   "sub": 8,
-   "s": "On which date did the President give assent to the AP Reorganisation (Amendment) Act, 2026, which made Amaravati the capital?",
-   "o": [
-    "28 March 2026",
-    "2 June 2024",
-    "1 October 2026",
-    "6 April 2026"
+    "Minister for Skill Development",
+    "Principal Secretary, Skill Development & Training Department"
    ],
    "a": 3,
-   "x": "Presidential assent came on 6 April 2026 (Act 7 of 2026); the Assembly resolution was on 28 March 2026 and the Act has effect from 2 June 2024.",
-   "angle": "U0812 #16 Capital decisions -> related Act"
+   "x": "The State Apprenticeship Council is chaired by the Principal Secretary, Skill Development & Training; the Director of Employment and Training chairs the NAPS 2.0 committee.",
+   "angle": "U0812 #18 Committee -> chairperson (State Apprenticeship Council)"
   },
   {
    "book": 6,
@@ -1912,30 +1851,15 @@
   {
    "book": 6,
    "row": 0,
-   "sub": 5,
-   "s": "What is Jeevandan in Andhra Pradesh?",
-   "o": [
-    "A blood bank network",
-    "The deceased organ donation programme",
-    "A free medicine scheme for the poor",
-    "A maternal health programme"
-   ],
-   "a": 1,
-   "x": "Jeevandan is AP's deceased organ donation programme; its proposals shaped the Human Organ Transplantation Amendment Act 2026.",
-   "angle": "U0812 #22 Health initiative -> purpose (Jeevandan)"
-  },
-  {
-   "book": 6,
-   "row": 0,
    "sub": 3,
    "s": "With which organisation is Andhra Pradesh setting up a permanent Pan-IIT Council at Amaravati?",
    "o": [
-    "PanIIT Alumni India",
     "IIT Madras",
+    "PanIIT Alumni India",
     "IIT Tirupati",
     "All India Council for Technical Education"
    ],
-   "a": 0,
+   "a": 1,
    "x": "The AP Government and PanIIT Alumni India agreed on a permanent Pan-IIT Council at Amaravati.",
    "angle": "U0812 #8 Partnership -> sector (Pan-IIT Council)"
   },
@@ -1945,44 +1869,14 @@
    "sub": 2,
    "s": "What is the full form of APCNF, which won the 2026 Food Planet Prize?",
    "o": [
+    "Andhra Pradesh Community Managed Natural Farming",
     "Andhra Pradesh Climate-resilient Natural Farming",
     "Andhra Pradesh Comprehensive Natural Farming",
-    "Andhra Pradesh Community Network for Farmers",
-    "Andhra Pradesh Community Managed Natural Farming"
+    "Andhra Pradesh Community Network for Farmers"
    ],
-   "a": 3,
+   "a": 0,
    "x": "APCNF stands for Andhra Pradesh Community Managed Natural Farming, implemented by Rythu Sadhikara Samstha.",
    "angle": "U0812 #4 Programme acronym -> full form (APCNF)"
-  },
-  {
-   "book": 6,
-   "row": 1,
-   "sub": 2,
-   "s": "What was the prize money of the 2026 Food Planet Prize won by APCNF?",
-   "o": [
-    "$1 million",
-    "$2.5 million",
-    "$1.5 million",
-    "$250,000"
-   ],
-   "a": 2,
-   "x": "The 2026 Food Planet Prize, given by Sweden's Curt Bergfors Foundation, carries $1.5 million.",
-   "angle": "U0812 #20 Agriculture initiative -> award amount"
-  },
-  {
-   "book": 6,
-   "row": 1,
-   "sub": 2,
-   "s": "In which year was APCNF launched by Rythu Sadhikara Samstha?",
-   "o": [
-    "2014",
-    "2016",
-    "2019",
-    "2020"
-   ],
-   "a": 1,
-   "x": "APCNF was launched in 2016 by Rythu Sadhikara Samstha (RySS) under the AP Agriculture Department.",
-   "angle": "U0812 #20 Agriculture initiative -> launch year (APCNF)"
   },
   {
    "book": 6,
@@ -1990,29 +1884,14 @@
    "sub": 3,
    "s": "Where was Netanna Sevalo launched on the 12th National Handloom Day, 7 August 2026?",
    "o": [
-    "Chirala constituency, Bapatla district",
     "Mangalagiri, Guntur district",
     "Dharmavaram, Sri Sathya Sai district",
-    "Uppada, Kakinada district"
-   ],
-   "a": 0,
-   "x": "CM Naidu launched Netanna Sevalo at Kothapeta, Vetapalem mandal, in Chirala constituency of Bapatla district.",
-   "angle": "U0812 #1 Scheme -> launch place (Netanna Sevalo)"
-  },
-  {
-   "book": 6,
-   "row": 1,
-   "sub": 3,
-   "s": "Where is the Handloom Park of Andhra Pradesh located?",
-   "o": [
-    "Chirala",
-    "Venkatagiri",
-    "Ponduru",
-    "Mangalagiri"
+    "Uppada, Kakinada district",
+    "Chirala constituency, Bapatla district"
    ],
    "a": 3,
-   "x": "The Handloom Park is at Mangalagiri; the Handloom and Handicrafts Museum is at Shakhamuru, Amaravati.",
-   "angle": "U0812 Location -> Handloom Park"
+   "x": "CM Naidu launched Netanna Sevalo at Kothapeta, Vetapalem mandal, in Chirala constituency of Bapatla district.",
+   "angle": "U0812 #1 Scheme -> launch place (Netanna Sevalo)"
   },
   {
    "book": 6,
@@ -2032,30 +1911,15 @@
   {
    "book": 6,
    "row": 1,
-   "sub": 4,
-   "s": "With which organisation was the Shishu Maapan contactless AI app for newborns developed?",
-   "o": [
-    "Mobile Crèches",
-    "Wadhwani AI",
-    "CSIR–CCMB",
-    "National Health Authority"
-   ],
-   "a": 1,
-   "x": "Shishu Maapan was built with Wadhwani AI; ASHAs and ANMs use it to estimate newborn measurements from smartphone video.",
-   "angle": "U0812 #8 Partnership -> institution (Shishu Maapan)"
-  },
-  {
-   "book": 6,
-   "row": 1,
    "sub": 5,
    "s": "What is the purpose of the e-Suvidha project in Andhra Pradesh?",
    "o": [
-    "Computerisation of Urban Local Bodies",
     "Monitoring of urban water supply works",
+    "Computerisation of Urban Local Bodies",
     "Modernisation of fair price shops",
     "Disability screening in schools"
    ],
-   "a": 0,
+   "a": 1,
    "x": "e-Suvidha computerises Urban Local Bodies (online payments, certificates, municipal services); OWMS monitors works and Mee Mart modernises ration shops.",
    "angle": "U0812 PYQ yd638f2d30ff app -> purpose (e-Suvidha, other direction)"
   },
@@ -2065,12 +1929,12 @@
    "sub": 7,
    "s": "In which district did Operation Chaitanyam destroy ganja on 94.77 acres using drones and satellite imagery?",
    "o": [
+    "Alluri Sitarama Raju",
     "Prakasam",
     "Anakapalli",
-    "Srikakulam",
-    "Alluri Sitarama Raju"
+    "Srikakulam"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Operation Chaitanyam was carried out in Alluri Sitarama Raju (ASR) district.",
    "angle": "U0812 #13 Enforcement drive -> district (Operation Chaitanyam)"
   },
@@ -2082,10 +1946,10 @@
    "o": [
     "King Henry VIII",
     "Queen Elizabeth I",
-    "King Edward VI",
-    "King James I"
+    "King James I",
+    "King Edward VI"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Bedford School was founded in 1552 by King Edward VI.",
    "angle": "U0812 Founder -> Bedford School"
   },
@@ -2106,78 +1970,18 @@
   },
   {
    "book": 6,
-   "row": 1,
-   "sub": 7,
-   "s": "Polavaram district was carved out of which district?",
-   "o": [
-    "Alluri Sitharama Raju",
-    "East Godavari",
-    "Eluru",
-    "Prakasam"
-   ],
-   "a": 0,
-   "x": "Polavaram district (HQ Rampachodavaram) was carved from Alluri Sitharama Raju district; Markapuram came from Prakasam.",
-   "angle": "U0812 #15 New district -> parent district"
-  },
-  {
-   "book": 6,
    "row": 2,
    "sub": 4,
    "s": "Which Prime Minister introduced the Twenty Point Programme in 1975?",
    "o": [
     "Morarji Desai",
+    "Indira Gandhi",
     "Rajiv Gandhi",
-    "Charan Singh",
-    "Indira Gandhi"
-   ],
-   "a": 3,
-   "x": "The Twenty Point Programme was introduced by Indira Gandhi in 1975; in AP its implementation committee is chaired by Lanka Dinakar.",
-   "angle": "U0812 PYQ y1eeea31065e Twenty Point Programme -> introducer"
-  },
-  {
-   "book": 6,
-   "row": 2,
-   "sub": 4,
-   "s": "Which was the first State in India to have a dedicated quantum computing policy?",
-   "o": [
-    "Karnataka",
-    "Telangana",
-    "Andhra Pradesh",
-    "Tamil Nadu"
-   ],
-   "a": 2,
-   "x": "Andhra Pradesh is the first State with a dedicated quantum computing policy; it guides Amaravati Quantum Valley.",
-   "angle": "U0812 PYQ yeced4c69516 State FIRST angle (quantum policy)"
-  },
-  {
-   "book": 6,
-   "row": 2,
-   "sub": 1,
-   "s": "Under which Article of the Constitution does the President give assent to Bills?",
-   "o": [
-    "Article 200",
-    "Article 111",
-    "Article 123",
-    "Article 74"
+    "Charan Singh"
    ],
    "a": 1,
-   "x": "Article 111 deals with the President's assent to Bills; President Murmu gave assent to the AP Reorganisation (Amendment) Bill, 2026 under it.",
-   "angle": "U0812 Article -> provision (President's assent)"
-  },
-  {
-   "book": 6,
-   "row": 2,
-   "sub": 1,
-   "s": "Under which Article of the Constitution was the AP Reorganisation Act, 2014 made?",
-   "o": [
-    "Article 3",
-    "Article 2",
-    "Article 1",
-    "Article 368"
-   ],
-   "a": 0,
-   "x": "The AP Reorganisation Act, 2014 was made under Article 3, which deals with forming new States and altering boundaries.",
-   "angle": "U0812 #16 Capital decisions -> constitutional basis"
+   "x": "The Twenty Point Programme was introduced by Indira Gandhi in 1975; in AP its implementation committee is chaired by Lanka Dinakar.",
+   "angle": "U0812 PYQ y1eeea31065e Twenty Point Programme -> introducer"
   },
   {
    "book": 6,
@@ -2185,12 +1989,12 @@
    "sub": 1,
    "s": "Which case held that the right to livelihood is a part of Article 21?",
    "o": [
+    "Olga Tellis (1985)",
     "Maneka Gandhi (1978)",
     "Mohini Jain (1992)",
-    "A.K. Gopalan (1950)",
-    "Olga Tellis (1985)"
+    "A.K. Gopalan (1950)"
    ],
-   "a": 3,
+   "a": 0,
    "x": "Olga Tellis (1985) held that the right to livelihood is part of the right to life under Article 21.",
    "angle": "U0812 Case -> point (Olga Tellis)"
   },
@@ -2202,10 +2006,10 @@
    "o": [
     "Kshema",
     "Shakti",
-    "Matrutva",
-    "Naipunyam"
+    "Naipunyam",
+    "Matrutva"
    ],
-   "a": 2,
+   "a": 3,
    "x": "Matrutva covers maternal health; Kshema is elderly care, Shakti is women's workforce and Naipunyam is skills.",
    "angle": "U0812 #10 Policy document -> component (Matrutva)"
   },
@@ -2216,28 +2020,13 @@
    "s": "Where is the headquarters of the National Biodiversity Authority?",
    "o": [
     "Hyderabad",
-    "Chennai",
     "New Delhi",
+    "Chennai",
     "Bengaluru"
    ],
-   "a": 1,
+   "a": 2,
    "x": "The NBA, set up in 2003 under the Biological Diversity Act, 2002, has its headquarters at Chennai.",
    "angle": "U0812 Body -> headquarters (NBA)"
-  },
-  {
-   "book": 6,
-   "row": 2,
-   "sub": 10,
-   "s": "What is the IUCN status of the Olive Ridley turtle, whose eggs were protected on Hope Island?",
-   "o": [
-    "Vulnerable",
-    "Endangered",
-    "Critically Endangered",
-    "Near Threatened"
-   ],
-   "a": 0,
-   "x": "The Olive Ridley is listed as Vulnerable by the IUCN and is in Schedule I of the Wildlife (Protection) Act.",
-   "angle": "U0812 Species -> IUCN status (Olive Ridley)"
   },
   {
    "book": 6,
@@ -2246,43 +2035,13 @@
    "s": "In which districts was the Hello Kidney project for early detection of kidney disease piloted?",
    "o": [
     "Guntur and Kurnool",
+    "NTR and Anantapur",
     "Kadapa and Chittoor",
-    "Krishna and Nellore",
-    "NTR and Anantapur"
-   ],
-   "a": 3,
-   "x": "Hello Kidney, an AI-based early detection project, was piloted in NTR and Anantapur districts.",
-   "angle": "U0812 #22 Health initiative -> pilot districts (Hello Kidney)"
-  },
-  {
-   "book": 6,
-   "row": 2,
-   "sub": 10,
-   "s": "Which State ranked first in MGNREGS social audits in 2025–26?",
-   "o": [
-    "Rajasthan",
-    "Kerala",
-    "Andhra Pradesh",
-    "Tamil Nadu"
-   ],
-   "a": 2,
-   "x": "Andhra Pradesh ranked first, with about 9.18 lakh works inspected, and also led in grievance redressal.",
-   "angle": "U0812 #6 State FIRST -> MGNREGS social audit"
-  },
-  {
-   "book": 6,
-   "row": 2,
-   "sub": 5,
-   "s": "What was the Swechha scheme, which gives free sanitary napkins to girls, renamed as?",
-   "o": [
-    "Abdul Kalam Pratibha Puraskaram",
-    "Balika Raksha",
-    "Stree Shakti",
-    "Dokka Seethamma Madhyahna Badi Bhojanam"
+    "Krishna and Nellore"
    ],
    "a": 1,
-   "x": "After 2024, Swechha was renamed Balika Raksha.",
-   "angle": "U0812 #27 Scheme renamed (Swechha)"
+   "x": "Hello Kidney, an AI-based early detection project, was piloted in NTR and Anantapur districts.",
+   "angle": "U0812 #22 Health initiative -> pilot districts (Hello Kidney)"
   },
   {
    "book": 6,
@@ -2298,21 +2057,6 @@
    "a": 0,
    "x": "Jagananna Animutyalu became the Abdul Kalam Pratibha Puraskaram.",
    "angle": "U0812 #27 Scheme renamed (Animutyalu)"
-  },
-  {
-   "book": 6,
-   "row": 3,
-   "sub": 0,
-   "s": "Where is the Green Hydrogen Valley planned in Andhra Pradesh?",
-   "o": [
-    "Visakhapatnam",
-    "Orvakal",
-    "Lepakshi",
-    "Kakinada"
-   ],
-   "a": 3,
-   "x": "The Green Hydrogen Valley is at Kakinada; Data & AI City is Visakhapatnam and Drone City is Orvakal.",
-   "angle": "U0812 Tech cluster -> location (Green Hydrogen Valley)"
   },
   {
    "book": 6,
@@ -2336,11 +2080,11 @@
    "s": "Under Swarnandhra Vision-2047, to what level is Andhra Pradesh's unemployment rate to be reduced from 4.1%?",
    "o": [
     "1%",
-    "2%",
     "3%",
+    "2%",
     "3.5%"
    ],
-   "a": 1,
+   "a": 2,
    "x": "Vision-2047 targets cutting unemployment from 4.1% to 2%.",
    "angle": "U0812 #10 Vision document -> target (unemployment)"
   },
@@ -2350,12 +2094,12 @@
    "sub": 5,
    "s": "Where is the headquarters of APSRTC, established in 1958?",
    "o": [
-    "Vijayawada",
     "Visakhapatnam",
+    "Vijayawada",
     "Amaravati",
     "Guntur"
    ],
-   "a": 0,
+   "a": 1,
    "x": "APSRTC was established in 1958 and has its headquarters at Vijayawada.",
    "angle": "U0812 Body -> headquarters (APSRTC)"
   },
@@ -2365,29 +2109,14 @@
    "sub": 2,
    "s": "Which was India's first police-specific AI hackathon?",
    "o": [
+    "AI4 Andhra Police Hackathon (June 2025)",
     "Smart India Hackathon",
     "Kavach Hackathon",
-    "Cyber Surakshit Bharat Hackathon",
-    "AI4 Andhra Police Hackathon (June 2025)"
+    "Cyber Surakshit Bharat Hackathon"
    ],
-   "a": 3,
+   "a": 0,
    "x": "The AI4 Andhra Police Hackathon (June 2025) was India's first police-specific AI hackathon and led to the AI4AP project.",
    "angle": "U0812 #6 FIRST -> police AI hackathon"
-  },
-  {
-   "book": 6,
-   "row": 3,
-   "sub": 1,
-   "s": "Who is the Speaker of the Andhra Pradesh Legislative Assembly who introduced digital attendance for MLAs?",
-   "o": [
-    "Anagani Satyaprasad",
-    "Payyavula Keshav",
-    "Chintakayala Ayyanna Patrudu",
-    "Vangalapudi Anitha"
-   ],
-   "a": 2,
-   "x": "Speaker Chintakayala Ayyanna Patrudu decided on digital attendance for MLAs; biometric attendance began in February 2026.",
-   "angle": "U0812 #14 Office-holder -> Assembly Speaker"
   },
   {
    "book": 6,
@@ -2396,73 +2125,13 @@
    "s": "Who launched the AI4AP Police project at the Mangalagiri Police Headquarters?",
    "o": [
     "Home Minister Vangalapudi Anitha",
-    "DGP Harish Kumar Gupta",
     "CM N. Chandrababu Naidu",
-    "IGP B. Rajakumari"
-   ],
-   "a": 1,
-   "x": "DGP Harish Kumar Gupta launched AI4AP at Mangalagiri Police HQ; it was piloted in Chittoor, Guntur and Annamayya.",
-   "angle": "U0812 #12 Governance app -> launcher (AI4AP)"
-  },
-  {
-   "book": 6,
-   "row": 4,
-   "sub": 1,
-   "s": "How many families are covered under Andhra Pradesh's Universal Health Policy (September 2025)?",
-   "o": [
-    "1.63 crore",
-    "1.43 crore",
-    "20 lakh",
-    "5 crore"
-   ],
-   "a": 0,
-   "x": "The policy covers 1.63 crore families: 1.43 crore economically weaker families and 20 lakh others.",
-   "angle": "U0812 #3 Scheme limits -> beneficiaries (Universal Health Policy)"
-  },
-  {
-   "book": 6,
-   "row": 4,
-   "sub": 2,
-   "s": "Where was the Matsyakara Sevalo scheme launched in April 2025?",
-   "o": [
-    "Singarayakonda, Prakasam district",
-    "Uppada, Kakinada district",
-    "Narendrapuram, Konaseema district",
-    "Budagatlapalem, Srikakulam district"
+    "IGP B. Rajakumari",
+    "DGP Harish Kumar Gupta"
    ],
    "a": 3,
-   "x": "CM Naidu launched Matsyakara Sevalo at Budagatlapalem, Etcherla mandal, Srikakulam district.",
-   "angle": "U0812 #1 Scheme -> launch place (Matsyakara Sevalo)"
-  },
-  {
-   "book": 6,
-   "row": 4,
-   "sub": 5,
-   "s": "On whose One-Man Commission report is the sub-classification of Scheduled Castes in Andhra Pradesh based?",
-   "o": [
-    "Justice Usha Mehra",
-    "Justice G. Rohini",
-    "Rajiv Ranjan Mishra",
-    "B.P. Mandal"
-   ],
-   "a": 2,
-   "x": "The sub-classification ordinance of 16 April 2025 was based on the One-Man Commission of Rajiv Ranjan Mishra (IAS retd.).",
-   "angle": "U0812 #18 Commission -> chairperson (SC sub-classification)"
-  },
-  {
-   "book": 6,
-   "row": 4,
-   "sub": 5,
-   "s": "Into how many groups does the Andhra Pradesh Bill sub-classify the State's 59 Scheduled Castes?",
-   "o": [
-    "Two",
-    "Three",
-    "Four",
-    "Five"
-   ],
-   "a": 1,
-   "x": "The Bill sub-classifies AP's 59 Scheduled Castes into three groups for reservation in education and jobs.",
-   "angle": "U0812 #11 Bill -> subject (SC sub-classification)"
+   "x": "DGP Harish Kumar Gupta launched AI4AP at Mangalagiri Police HQ; it was piloted in Chittoor, Guntur and Annamayya.",
+   "angle": "U0812 #12 Governance app -> launcher (AI4AP)"
   },
   {
    "book": 6,
@@ -2470,12 +2139,12 @@
    "sub": 8,
    "s": "Under which Article of the Constitution is the Andhra Pradesh Public Service Commission a constitutional body?",
    "o": [
-    "Article 315",
     "Article 320",
     "Article 324",
+    "Article 315",
     "Article 243K"
    ],
-   "a": 0,
+   "a": 2,
    "x": "Public Service Commissions are set up under Article 315; APPSC's Chairman and Members are appointed by the Governor.",
    "angle": "U0812 #9 Commission -> constitutional basis (APPSC)"
   },
@@ -2486,11 +2155,11 @@
    "s": "Which agency implements the Prime Minister's Employment Generation Programme (PMEGP)?",
    "o": [
     "NABARD",
+    "KVIC",
     "SIDBI",
-    "District Industries Centres alone",
-    "KVIC"
+    "District Industries Centres alone"
    ],
-   "a": 3,
+   "a": 1,
    "x": "PMEGP, a Central Sector Scheme of 2008, is implemented by KVIC, a statutory body under the KVIC Act, 1956.",
    "angle": "U0812 Scheme -> implementing agency (PMEGP)"
   },
@@ -2498,29 +2167,14 @@
    "book": 6,
    "row": 4,
    "sub": 6,
-   "s": "Peddaharivanam, a new mandal in Kurnool district, was carved out of which mandal?",
-   "o": [
-    "Yemmiganur",
-    "Alur",
-    "Adoni",
-    "Pattikonda"
-   ],
-   "a": 2,
-   "x": "Peddaharivanam mandal was carved out of Adoni mandal in Kurnool district.",
-   "angle": "U0812 #15 New mandal -> parent mandal"
-  },
-  {
-   "book": 6,
-   "row": 4,
-   "sub": 6,
    "s": "To which district does the new Addanki revenue division belong?",
    "o": [
-    "Bapatla",
     "Prakasam",
+    "Bapatla",
     "Markapuram",
     "Palnadu"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The Addanki division (Addanki, Darsi) was formed in Prakasam district.",
    "angle": "U0812 #15 New revenue division -> district"
   },
@@ -2530,12 +2184,12 @@
    "sub": 4,
    "s": "Under Andhra Pradesh's modified livestock insurance scheme, in what ratio do the Centre and the State share the remaining 85% of the premium?",
    "o": [
-    "60:40",
     "90:10",
     "50:50",
-    "75:25"
+    "75:25",
+    "60:40"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The farmer pays 15%; the rest is shared 60:40 by the Centre and AP, which is a general-category State.",
    "angle": "U0812 #3 Scheme model -> cost sharing (livestock insurance)"
   },
@@ -2547,10 +2201,10 @@
    "o": [
     "About ₹75,868 crore",
     "About ₹39,498 crore",
-    "About ₹22,003 crore",
-    "About ₹53,915 crore"
+    "About ₹53,915 crore",
+    "About ₹22,003 crore"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Capital expenditure is about ₹53,915 crore; ₹75,868 crore is the fiscal deficit and ₹22,003 crore the revenue deficit.",
    "angle": "U0813-1 #4 Budget size -> capital expenditure"
   },
@@ -2561,11 +2215,11 @@
    "s": "What is Andhra Pradesh's own tax revenue in BE 2026-27?",
    "o": [
     "₹64,362.16 crore",
-    "₹97,315.41 crore",
     "₹1,25,845.78 crore",
+    "₹97,315.41 crore",
     "₹2,56,143 crore"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Own tax revenue is ₹1,25,845.78 crore; ₹64,362.16 crore is the share in central taxes.",
    "angle": "U0813-1 #8 Own tax revenue"
   },
@@ -2575,12 +2229,12 @@
    "sub": 6,
    "s": "What was Andhra Pradesh's rank among States in merchandise exports in 2025-26 as per DGFT data?",
    "o": [
-    "Eighth",
     "Seventh",
+    "Eighth",
     "Fifth",
     "Fourth"
    ],
-   "a": 1,
+   "a": 0,
    "x": "AP ranked 7th with ₹1.77 lakh crore; Telangana was 8th and Gujarat 1st.",
    "angle": "U0813-1 #6 Ranking -> AP rank in exports"
   },
@@ -2590,12 +2244,12 @@
    "sub": 7,
    "s": "According to the Second Census of Water Bodies, what share of Andhra Pradesh's water bodies is in rural areas?",
    "o": [
-    "99.68%",
     "90.32%",
     "60.33%",
-    "49.48%"
+    "49.48%",
+    "99.68%"
    ],
-   "a": 0,
+   "a": 3,
    "x": "99.68% of AP's water bodies are rural; 60.33% are tanks and 49.48% are privately owned.",
    "angle": "U0813-1 #2 SES indicator -> water bodies"
   },
@@ -2607,10 +2261,10 @@
    "o": [
     "State Assistance Scheme for Capital Infrastructure",
     "Special Allocation to States for Capital Improvement",
-    "Scheme of Assistance to States for Capital Infrastructure",
-    "Special Assistance to States for Capital Investment"
+    "Special Assistance to States for Capital Investment",
+    "Scheme of Assistance to States for Capital Infrastructure"
    ],
-   "a": 3,
+   "a": 2,
    "x": "SASCI is Special Assistance to States for Capital Investment: 50-year interest-free loans under the Ministry of Finance.",
    "angle": "U0813-1 #12 Acronym -> full form (SASCI)"
   },
@@ -2621,11 +2275,11 @@
    "s": "In Q2 of 2025-26, Andhra Pradesh's GSDP grew by 11.28%. What was the all-India GDP growth in that quarter?",
    "o": [
     "7.2%",
-    "10.7%",
     "8.7%",
+    "10.7%",
     "6.5%"
    ],
-   "a": 2,
+   "a": 1,
    "x": "AP's Q2 2025-26 growth of 11.28% was well above the all-India GDP growth of 8.7%.",
    "angle": "U0813-1 #6 GSDP growth -> national comparison"
   },
@@ -2635,12 +2289,12 @@
    "sub": 0,
    "s": "What was the revised estimate of Andhra Pradesh's fiscal deficit for 2025-26, as a share of GSDP?",
    "o": [
-    "4.4%",
     "4.6%",
+    "4.4%",
     "3.8%",
     "5.2%"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The 2025-26 fiscal deficit was budgeted at 4.4% and revised to 4.6% of GSDP; 3.8% is the 2026-27 target.",
    "angle": "U0813-1 #4 Deficit target -> revised estimate"
   },
@@ -2650,12 +2304,12 @@
    "sub": 4,
    "s": "Who is the Chairman of the 16th Finance Commission?",
    "o": [
-    "Dr. Arvind Panagariya",
     "N.K. Singh",
     "Y.V. Reddy",
-    "Vijay Kelkar"
+    "Vijay Kelkar",
+    "Dr. Arvind Panagariya"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The 16th Finance Commission is chaired by Dr. Arvind Panagariya; the Finance Commission is set up under Article 280.",
    "angle": "U0813-2 #8 Central transfers -> 16th Finance Commission chair"
   },
@@ -2667,10 +2321,10 @@
    "o": [
     "Vijayawada and Guntur",
     "Tirupati and Nellore",
-    "Kakinada and Rajamahendravaram",
-    "Visakhapatnam and Mangalagiri-Tadepalli"
+    "Visakhapatnam and Mangalagiri-Tadepalli",
+    "Kakinada and Rajamahendravaram"
    ],
-   "a": 3,
+   "a": 2,
    "x": "₹2,085 crore was earlier given for Visakhapatnam and Mangalagiri-Tadepalli; the 2nd tranche proposal is ₹5,940 crore.",
    "angle": "U0813-2 #16 Central funds -> Urban Challenge Fund"
   },
@@ -2681,11 +2335,11 @@
    "s": "How many DWCRA women received individual business loans, placing Andhra Pradesh first in promoting women entrepreneurs in 2025-26?",
    "o": [
     "1.28 lakh",
-    "1.09 lakh",
     "1.47 lakh",
+    "1.09 lakh",
     "5 lakh"
    ],
-   "a": 2,
+   "a": 1,
    "x": "AP gave loans to 1.47 lakh DWCRA women (99% of target); Telangana (1.28 lakh) and UP (1.09 lakh) followed.",
    "angle": "U0813-2 #2 Ranking -> women entrepreneurs data"
   },
@@ -2695,12 +2349,12 @@
    "sub": 4,
    "s": "What is the full form of VB-GRAM, implemented in Andhra Pradesh from 1 July 2026?",
    "o": [
-    "Viksit Bharat – Gramin Rozgar and Aajeevika Mission",
     "Viksit Bharat – Guarantee for Rozgar and Aajeevika Mission (Grameen)",
+    "Viksit Bharat – Gramin Rozgar and Aajeevika Mission",
     "Village Bharat – Guarantee for Rural Asset Management",
     "Viksit Bharat – Grameen Rural Area Mission"
    ],
-   "a": 1,
+   "a": 0,
    "x": "VB-GRAM is the Viksit Bharat – Guarantee for Rozgar and Aajeevika Mission (Grameen), funded 60:40 by the Centre and State.",
    "angle": "U0813-2 #12 Acronym -> full form (VB-GRAM)"
   },
@@ -2710,12 +2364,12 @@
    "sub": 3,
    "s": "What is Andhra Pradesh's share in central taxes (devolution) in BE 2026-27?",
    "o": [
-    "₹64,362.16 crore",
     "₹1,25,845.78 crore",
     "₹56,741.18 crore",
-    "₹16,627 crore"
+    "₹16,627 crore",
+    "₹64,362.16 crore"
    ],
-   "a": 0,
+   "a": 3,
    "x": "AP's share in central taxes is ₹64,362.16 crore; its own tax revenue is ₹1,25,845.78 crore.",
    "angle": "U0813-2 #8 Central transfers -> devolution"
   },
@@ -2727,10 +2381,10 @@
    "o": [
     "₹3,439 crore",
     "₹2,302 crore",
-    "₹8,300 crore",
-    "₹5,437 crore"
+    "₹5,437 crore",
+    "₹8,300 crore"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Ports got ₹5,437 crore; roads ₹3,439 crore, airports ₹2,302 crore and Polavaram ₹8,300 crore.",
    "angle": "U0813-2 #5 Sector allocation -> ports"
   },
@@ -2741,11 +2395,11 @@
    "s": "Which district had the lowest urbanisation (2.84%) among Andhra Pradesh's district indicators cited?",
    "o": [
     "Alluri Sitharama Raju",
-    "Parvathipuram Manyam",
     "Polavaram",
+    "Parvathipuram Manyam",
     "Markapuram"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Polavaram had the lowest urbanisation (2.84%) and density; Visakhapatnam had the highest (89.69%).",
    "angle": "U0813-3 #14 District data -> lowest urbanisation"
   },
@@ -2755,12 +2409,12 @@
    "sub": 6,
    "s": "What is the outlay of Andhra Pradesh's proposed Mushroom Mission?",
    "o": [
-    "₹5,184 crore",
     "₹13,000 crore",
+    "₹5,184 crore",
     "₹6,750 crore",
     "₹1,620 crore"
    ],
-   "a": 1,
+   "a": 0,
    "x": "The Mushroom Mission has an outlay of ₹13,000 crore, with about ₹5,184 crore (~40%) as subsidy.",
    "angle": "U0813-3 #16 New announcement -> outlay (Mushroom Mission)"
   },
@@ -2770,12 +2424,12 @@
    "sub": 7,
    "s": "What was Andhra Pradesh's Rabi paddy procurement target for 2026?",
    "o": [
-    "23 lakh MT",
     "51 lakh MT",
     "32 lakh MT",
-    "15 lakh MT"
+    "15 lakh MT",
+    "23 lakh MT"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Rabi 2026 target was 23 lakh MT through 1,917 centres; about 51 lakh MT was procured in the previous Kharif.",
    "angle": "U0813-3 #1 Agriculture -> procurement target"
   },
@@ -2787,10 +2441,10 @@
    "o": [
     "Article 41",
     "Article 46",
-    "Article 48",
-    "Article 43"
+    "Article 43",
+    "Article 48"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Article 43 (a Directive Principle) asks the State to promote cottage industries, such as handlooms.",
    "angle": "U0813-3 Article -> cottage industries"
   },
@@ -2801,11 +2455,11 @@
    "s": "How much nitrogen does urea contain?",
    "o": [
     "36%",
-    "56%",
     "46%",
+    "56%",
     "26%"
    ],
-   "a": 2,
+   "a": 1,
    "x": "Urea contains 46% nitrogen, but crops absorb only 30-40% of it.",
    "angle": "U0813-3 Fertilizer fact -> urea nitrogen"
   },
@@ -2815,12 +2469,12 @@
    "sub": 3,
    "s": "How much area did Andhra Pradesh cover under micro irrigation in 2025-26, ranking first in India?",
    "o": [
-    "2.63 lakh ha",
     "3.15 lakh ha",
+    "2.63 lakh ha",
     "2.62 lakh ha",
     "2.42 lakh ha"
    ],
-   "a": 1,
+   "a": 0,
    "x": "AP covered 3.15 lakh ha for 1,08,143 farmers; Gujarat (2.63), Tamil Nadu (2.62) and Rajasthan (2.42 lakh ha) followed.",
    "angle": "U0813-3 #2 Ranking -> micro irrigation area"
   },
@@ -2830,12 +2484,12 @@
    "sub": 9,
    "s": "Which commission is associated with BC reservation in local bodies in Andhra Pradesh?",
    "o": [
-    "Rajeev Ranjan Mishra Commission",
     "Usha Mehra Commission",
     "G. Rohini Commission",
-    "B.P. Mandal Commission"
+    "B.P. Mandal Commission",
+    "Rajeev Ranjan Mishra Commission"
    ],
-   "a": 0,
+   "a": 3,
    "x": "The Rajeev Ranjan Mishra Commission is linked with BC reservation in AP local bodies.",
    "angle": "U0813-4 notes gap Commission -> subject (BC quota)"
   },
@@ -2847,10 +2501,10 @@
    "o": [
     "Destroying ganja cultivation",
     "Curbing cyber fraud",
-    "Checking red sanders smuggling",
-    "Tracing missing women and girls"
+    "Tracing missing women and girls",
+    "Checking red sanders smuggling"
    ],
-   "a": 3,
+   "a": 2,
    "x": "Operation TRACE traced 1,177 girls and 2,483 women in four months.",
    "angle": "U0813-4 Police operation -> purpose (Operation TRACE)"
   },
@@ -2861,11 +2515,11 @@
    "s": "How many districts does the Visakha Economic Region announced in the AP Budget 2026–27 cover?",
    "o": [
     "9",
-    "8",
     "10",
+    "8",
     "12"
    ],
-   "a": 2,
+   "a": 1,
    "x": "The Visakha Economic Region covers 10 districts (₹28,000 crore); the Amaravati Economic Region covers 9.",
    "angle": "U0813-4 #16 New announcement -> Visakha Economic Region"
   },
@@ -2875,12 +2529,12 @@
    "sub": 6,
    "s": "Which district ranked second in GDDP in Andhra Pradesh in 2025-26 (advance estimates)?",
    "o": [
-    "Krishna",
     "NTR",
+    "Krishna",
     "Tirupati",
     "Guntur"
    ],
-   "a": 1,
+   "a": 0,
    "x": "Visakhapatnam was first and NTR second in GDDP; in per capita income, Krishna was second.",
    "angle": "U0813-4 #14 District ranking -> GDDP second"
   },
@@ -2890,12 +2544,12 @@
    "sub": 8,
    "s": "What is the objective of the AP Rural Inclusive Growth Project (APRIGP)?",
    "o": [
-    "Raising farm incomes of poor households and their access to health, nutrition and entitlements",
     "Building ports and coastal corridors",
     "Urban metro rail and housing",
-    "Power sector reforms"
+    "Power sector reforms",
+    "Raising farm incomes of poor households and their access to health, nutrition and entitlements"
    ],
-   "a": 0,
+   "a": 3,
    "x": "APRIGP, funded by the World Bank (IDA) and run by SERP, aims to raise farm incomes of poor households in 150 backward mandals.",
    "angle": "U0813-4 #11 Externally aided project -> objective (APRIGP)"
   }
