@@ -1,6 +1,6 @@
 # a000 report (U0001-U0006)
 
-a000: keyword angles 54/61 covered (7 partly), APPSC PYQ angles 35/49 covered, 25 new MCQs
+a000: keyword angles 54/61 covered (7 partly), APPSC PYQ angles 35/49 covered, 25 new MCQs, 168 reworded
 
 | Unit | Topic | Keywords C/P/M of T | APPSC PYQ angles C/T | New |
 |---|---|---|---|---|
@@ -19,9 +19,18 @@ a000: keyword angles 54/61 covered (7 partly), APPSC PYQ angles 35/49 covered, 2
 - **U0005:** Fully covered; no APPSC PYQs.
 - **U0006:** Partly covered: the northernmost site, site to district, the Dholavira occupation span, and India vs Pakistan sites. PYQ angles missing: Chanhudaro bead industry and Harappa's river. Added Manda, a boundary-sites match, Kalibangan-Hanumangarh, Harappa-Ravi from the other direction, Mohenjodaro-Larkana, Dholavira 3000-1800 BCE, the Chanhudaro bead/bangle factory, and a site in Pakistan.
 
+## APPSC wording
+- All 25 new MCQs follow the APPSC framing: direct questions ending in "?" ("Who issued ...?", "In which district ...?", "What is X known for?"), "Consider the following statements ... Which of the statements given above is/are correct?", and "Match the following: List-I ... List-II ... Select the correct answer using the code given below."
+- The 2 keyless APPSC PYQs (Mohenjodaro "Mound of the Dead", y0fb812efdd9 and ya6bb83fed73) count fully. Their angle is covered by nef5a9079ddd.
+
+## Rewordings (168, stem only)
+- Rows 1:0 to 1:5: every own fill-in stem ("X was written by:", "X is in:", "The ... is the:", "____") became a direct APPSC-style question. The fact, the options, their order and the key are unchanged.
+- Left as they were: statements, assertion-reason, chronology and match items, stems that already end in "?", and 4 fill-ins whose options would not fit a question (n0dcca7eecef, nf586a6b7529, nc24f91c15dc, f2bc74f524abe).
+- No reworded stem duplicates another stem in its topic.
+
 ## Off-topic APPSC PYQs filed under these topics (not counted)
 - 1:2: y54e9057d7c8 (chocolate and dogs), y70068357208 (human bones)
 - 1:3: yb0444cdab7f, ye26f80fb09b (leaf lamina), ya0d0538edab (district area)
 - 1:5: y62bd619ebdc (TTD Asthana Vidvamsulu), yead6b76739c (206 bones)
 
-Check: `python3 tools/angle_add.py data/angle2/out-a000.json --dry` gives 25/25 would be added, none refused.
+Check: `python3 tools/angle_add.py data/angle2/out-a000.json --dry` gives "25/25 new MCQs and 168/168 rewordings would be applied", none refused.
