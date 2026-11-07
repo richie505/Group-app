@@ -106,6 +106,32 @@ object NotesFinder {
         }.maxByOrNull { it.score }?.takeIf { it.score > 0 }?.also { found[q.id + "|" + q.answer] = it }
     }
 
+    /**
+     * The checked notes lines of an MCQ ([Repository.noteLinks]): its topic row and, per line, (page, block, the block
+     * or one table row under its head). Lines on another topic than the first are left out. Null when there is no
+     * link, or it no longer fits the notes.
+     */
+    fun linked(refs: List<String>?, book: Book): Pair<Int, List<Triple<Int, Int, Block>>>? {
+        if (refs.isNullOrEmpty()) return null
+        val parsed = refs.mapNotNull { r ->
+            val p = r.split(":")
+            if (p.size != 4 || p[0].toIntOrNull() != book.id) return@mapNotNull null
+            val (bi, tr) = p[3].split(".").let { it[0].toIntOrNull() to it.getOrNull(1)?.toIntOrNull() }
+            Triple(p[1].toIntOrNull() ?: return@mapNotNull null, p[2].toIntOrNull() ?: return@mapNotNull null, bi to tr)
+        }
+        val row = parsed.firstOrNull()?.first ?: return null
+        val nr = book.rows.getOrNull(row) ?: return null
+        val out = parsed.filter { it.first == row }.mapNotNull { (_, si, b) ->
+            val blk = nr.secs.getOrNull(si)?.blocks?.getOrNull(b.first ?: return@mapNotNull null) ?: return@mapNotNull null
+            val shown: Block = if (b.second != null) {
+                val t = blk as? TableBlock ?: return@mapNotNull null
+                TableBlock(t.head, listOf(t.rows.getOrNull(b.second!!) ?: return@mapNotNull null))
+            } else blk
+            Triple(si, b.first!!, shown)
+        }
+        return if (out.isEmpty()) null else row to out
+    }
+
     private val NUMBERED = Regex("""^\s*(\d)\.\s+(.+)$""")
     private val WHY = Regex("""^Statement (\d):\s*(.+)$""")
 

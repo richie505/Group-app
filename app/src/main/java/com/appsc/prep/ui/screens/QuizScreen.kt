@@ -55,6 +55,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -897,6 +899,10 @@ private fun FromNotes(q: Question, onOpenNotes: (Int, Int, Int) -> Unit, onPeek:
         value = runCatching {
             kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Default) {
                 val book = app.repo.book(q.book)
+                // checked lines first: exactly the ones the book icon shows
+                com.appsc.prep.data.NotesFinder.linked(app.repo.noteLinks[q.id], book)?.let { (r, ks) ->
+                    return@withContext Triple(r, ks.first().first, ks.map { com.appsc.prep.data.NotesFinder.text(listOf(it.third)).replace("\n", " · ") })
+                }
                 val at = com.appsc.prep.data.NotesFinder.best(q, book, app.repo.mcq(q.book).placeOf(q.id)?.first ?: -1, app.repo.mcq(q.book).placeOf(q.id)?.second ?: -1)
                     ?: return@withContext null
                 val lines = com.appsc.prep.data.NotesExcerpt.forQuestion(q, book.rows[at.row].secs[at.sec].blocks)
@@ -928,16 +934,25 @@ private fun FromNotes(q: Question, onOpenNotes: (Int, Int, Int) -> Unit, onPeek:
 @Composable
 private fun NotesPeek(q: Question, onClose: () -> Unit) {
     val app = LocalApp.current
+    // the checked notes lines of this MCQ, when it has them (else the page found by its words)
+    var linkedKeys by remember(q.id) { mutableStateOf<List<Triple<Int, Int, com.appsc.prep.data.Block>>?>(null) }
     val found by androidx.compose.runtime.produceState<Pair<com.appsc.prep.data.NoteRow, List<Int>>?>(null, q.id) {
         value = runCatching {
             kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Default) {
                 val book = app.repo.book(q.book)
-                val filed = app.repo.mcq(q.book).placeOf(q.id)
-                // the page that holds the answer's fact (anywhere in the subject), then the rest of its topic
-                val at = com.appsc.prep.data.NotesFinder.best(q, book, filed?.first ?: -1, filed?.second ?: -1) ?: return@withContext null
-                val r = book.rows[at.row]
+                val link = com.appsc.prep.data.NotesFinder.linked(app.repo.noteLinks[q.id], book)
+                val (rowAt, secAt) = if (link != null) {
+                    linkedKeys = link.second
+                    link.first to link.second.first().first
+                } else {
+                    val filed = app.repo.mcq(q.book).placeOf(q.id)
+                    // the page that holds the answer's fact (anywhere in the subject), then the rest of its topic
+                    val at = com.appsc.prep.data.NotesFinder.best(q, book, filed?.first ?: -1, filed?.second ?: -1) ?: return@withContext null
+                    at.row to at.sec
+                }
+                val r = book.rows[rowAt]
                 // pages with nothing for the MCQs are hidden in the notes, so here too
-                r to (listOf(at.sec) + r.secs.indices.filter { it != at.sec && !r.secs[it].empty })
+                r to (listOf(secAt) + r.secs.indices.filter { it != secAt && !r.secs[it].empty })
             }
         }.getOrNull()
     }
@@ -964,13 +979,28 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
             val (row, order) = f
             val pages = order.sorted()
             // first: only the key points of this MCQ (its facts' lines, from any page of the topic); the whole page on request
-            val keys = remember(q.id) { com.appsc.prep.data.NotesFinder.keyLines(q, row, order.first()) }
-            var whole by remember(q.id) { mutableStateOf(keys.isEmpty()) }
+            val keys = remember(q.id, linkedKeys) { linkedKeys ?: com.appsc.prep.data.NotesFinder.keyLines(q, row, order.first()) }
+            var whole by remember(q.id, keys) { mutableStateOf(keys.isEmpty()) }
             if (!whole) {
                 Column(Modifier.weight(1f).fillMaxWidth().verticalScroll(androidx.compose.foundation.rememberScrollState()).padding(horizontal = 20.dp, vertical = 14.dp)) {
+                    // checked lines: the answer first, as a reference answer reads ("The correct answer is (c) …"), then why
+                    if (linkedKeys != null && q.answer in q.options.indices) {
+                        Text(
+                            buildAnnotatedString {
+                                append("The correct answer is ")
+                                withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("(${'a' + q.answer}) ${q.options[q.answer]}") }
+                                append(".")
+                            },
+                            style = TextStyle(fontSize = 17.sp, lineHeight = 24.sp, color = C.Ink),
+                        )
+                        if (q.explanation.isNotBlank() && q.explanation.lines().none { Regex("""^\s*Statement \d:""").containsMatchIn(it) }) {
+                            Text(q.explanation.trim(), style = TextStyle(fontSize = 15.sp, lineHeight = 22.sp, color = C.Body), modifier = Modifier.padding(top = 8.dp))
+                        }
+                        Spacer(Modifier.height(14.dp))
+                    }
                     Text(row.title.uppercase(), style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.6.sp))
                     Text(
-                        "Key points for this MCQ",
+                        if (linkedKeys != null) "From your notes" else "Key points for this MCQ",
                         style = TextStyle(fontSize = 18.sp, lineHeight = 24.sp, fontWeight = FontWeight.Bold, color = C.Ink),
                         modifier = Modifier.padding(top = 4.dp, bottom = 6.dp),
                     )

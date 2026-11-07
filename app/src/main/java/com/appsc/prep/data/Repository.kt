@@ -186,6 +186,15 @@ class Repository(private val open: (String) -> InputStream) {
             .getOrDefault(emptyMap())
     }
 
+    /**
+     * An own MCQ -> the notes lines that state its answer, checked one by one (tools/notelink.py):
+     * "book:row:sec:block" or "book:row:sec:block.tableRow". The book icon shows these instead of a guess.
+     */
+    val noteLinks: Map<String, List<String>> by lazy {
+        runCatching { readJson("notelinks.json").jsonObject.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } } }
+            .getOrDefault(emptyMap())
+    }
+
     val noteMoves: NoteMoves by lazy {
         runCatching {
             NoteMoves(
