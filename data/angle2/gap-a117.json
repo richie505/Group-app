@@ -1,0 +1,671 @@
+{
+ "units": [
+  {
+   "u": "U0703",
+   "notes_gaps": 4
+  },
+  {
+   "u": "U0704",
+   "notes_gaps": 8
+  },
+  {
+   "u": "U0705",
+   "notes_gaps": 5
+  },
+  {
+   "u": "U0706",
+   "notes_gaps": 4
+  },
+  {
+   "u": "U0707",
+   "notes_gaps": 14
+  },
+  {
+   "u": "U0708",
+   "notes_gaps": 1
+  }
+ ],
+ "notes": [
+  {
+   "book": 5,
+   "row": 16,
+   "sec": 5,
+   "append": true,
+   "md": "- **International Olympiad in Artificial Intelligence (IOAI):** first held in **Burgas, Bulgaria (August 2024)**, on Bulgaria's initiative; the second was held in **Beijing, China (August 2025)**."
+  }
+ ],
+ "new": [
+  {
+   "book": 5,
+   "row": 13,
+   "sub": 5,
+   "s": "Which of the following is an example of full duplex transmission?",
+   "o": [
+    "Radio broadcast",
+    "Walkie-talkie",
+    "Telephone call",
+    "Keyboard input"
+   ],
+   "a": 2,
+   "x": "In full duplex, data flows both ways at the same time, as in a telephone call.",
+   "angle": "U0703 notes gap: full duplex -> telephone"
+  },
+  {
+   "book": 5,
+   "row": 13,
+   "sub": 5,
+   "s": "Radio and television broadcasting are examples of which transmission mode?",
+   "o": [
+    "Simplex",
+    "Half duplex",
+    "Full duplex",
+    "Multiplex"
+   ],
+   "a": 0,
+   "x": "Simplex is one-way transmission, as in radio and TV broadcasts.",
+   "angle": "U0703 notes gap: simplex -> broadcast"
+  },
+  {
+   "book": 5,
+   "row": 13,
+   "sub": 2,
+   "s": "How many layers are there in the OSI model?",
+   "o": [
+    "Five",
+    "Six",
+    "Seven",
+    "Four"
+   ],
+   "a": 2,
+   "x": "The OSI model has seven layers, from Application at the top to Physical at the bottom.",
+   "angle": "U0703 notes gap: OSI seven layers"
+  },
+  {
+   "book": 5,
+   "row": 13,
+   "sub": 2,
+   "s": "Which is the top layer of the OSI model?",
+   "o": [
+    "Physical layer",
+    "Application layer",
+    "Session layer",
+    "Transport layer"
+   ],
+   "a": 1,
+   "x": "The Application layer (HTTP, FTP, SMTP, DNS) is the top layer; the Physical layer is the bottom.",
+   "angle": "U0703 notes gap: OSI top layer"
+  },
+  {
+   "book": 5,
+   "row": 13,
+   "sub": 7,
+   "s": "Which company released Java Server Pages (JSP) in 1999?",
+   "o": [
+    "Microsoft",
+    "Sun Microsystems",
+    "IBM",
+    "Netscape"
+   ],
+   "a": 1,
+   "x": "JSP (Java Server Pages), used to make live web pages, was released in 1999 by Sun Microsystems.",
+   "angle": "U0703 notes gap: JSP -> Sun Microsystems"
+  },
+  {
+   "book": 5,
+   "row": 13,
+   "sub": 6,
+   "s": "Which technology links devices with each other without a LAN?",
+   "o": [
+    "Wi-Fi Direct",
+    "Li-Fi",
+    "Ethernet",
+    "DSL"
+   ],
+   "a": 0,
+   "x": "Wi-Fi Direct connects devices directly, with no LAN in between.",
+   "angle": "U0703 notes gap: Wi-Fi Direct"
+  },
+  {
+   "book": 5,
+   "row": 14,
+   "sub": 2,
+   "s": "Match the following:\nList-I (Platform)\nA. Facebook\nB. Twitter\nC. LinkedIn\nList-II (Year founded)\n1. 2003\n2. 2004\n3. 2006\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-2, B-3, C-1",
+    "A-1, B-2, C-3",
+    "A-3, B-1, C-2",
+    "A-2, B-1, C-3"
+   ],
+   "a": 0,
+   "x": "Facebook was founded in 2004, Twitter in 2006 and LinkedIn in 2003.",
+   "angle": "U0704 notes gap: platform -> founding year"
+  },
+  {
+   "book": 5,
+   "row": 14,
+   "sub": 2,
+   "s": "In which year was Facebook founded by Mark Zuckerberg?",
+   "o": [
+    "2002",
+    "2004",
+    "2006",
+    "2008"
+   ],
+   "a": 1,
+   "x": "Facebook was co-founded by Mark Zuckerberg in 2004; its parent is now Meta Platforms.",
+   "angle": "U0704 notes gap: Facebook 2004"
+  },
+  {
+   "book": 5,
+   "row": 14,
+   "sub": 2,
+   "s": "What type of service is Twitter (now X)?",
+   "o": [
+    "Micro-blogging",
+    "Professional networking",
+    "Photo sharing",
+    "Video streaming"
+   ],
+   "a": 0,
+   "x": "Twitter, founded in 2006 and renamed X in 2023, is a micro-blogging service.",
+   "angle": "U0704 notes gap: Twitter -> micro-blogging"
+  },
+  {
+   "book": 5,
+   "row": 14,
+   "sub": 2,
+   "s": "On Facebook, what is the profile space where posts appear called?",
+   "o": [
+    "Wall",
+    "Hashtag",
+    "Folksonomy",
+    "Influencer"
+   ],
+   "a": 0,
+   "x": "The wall is the profile space on Facebook where posts appear.",
+   "angle": "U0704 notes gap: Wall term"
+  },
+  {
+   "book": 5,
+   "row": 14,
+   "sub": 4,
+   "s": "From which city is The Wall Street Journal, a business daily, published?",
+   "o": [
+    "London",
+    "New York",
+    "Washington, D.C.",
+    "Chicago"
+   ],
+   "a": 1,
+   "x": "The Wall Street Journal is a business daily from New York, USA, owned by Dow Jones (News Corp).",
+   "angle": "U0704 notes gap: Wall Street Journal -> New York"
+  },
+  {
+   "book": 5,
+   "row": 14,
+   "sub": 4,
+   "s": "In news reporting, what are 'knowledgeable sources'?",
+   "o": [
+    "Official spokespersons of the government",
+    "Sources that are not official but have access to official information",
+    "Anonymous users of social media",
+    "Press releases issued by companies"
+   ],
+   "a": 1,
+   "x": "'Knowledgeable sources' are not official sources, but they have access to official information.",
+   "angle": "U0704 notes gap: knowledgeable sources"
+  },
+  {
+   "book": 5,
+   "row": 14,
+   "sub": 5,
+   "s": "In which city was ONDC (Open Network for Digital Commerce) beta-tested?",
+   "o": [
+    "Hyderabad",
+    "Bengaluru",
+    "Pune",
+    "New Delhi"
+   ],
+   "a": 1,
+   "x": "ONDC, an open network-based protocol for e-commerce, was beta-tested in Bengaluru.",
+   "angle": "U0704 notes gap: ONDC beta test -> Bengaluru"
+  },
+  {
+   "book": 5,
+   "row": 14,
+   "sub": 8,
+   "s": "In which year was the Digital India programme launched?",
+   "o": [
+    "2014",
+    "2015",
+    "2016",
+    "2019"
+   ],
+   "a": 1,
+   "x": "Digital India was launched in 2015 and completed 11 years in 2026.",
+   "angle": "U0704 notes gap: Digital India 2015"
+  },
+  {
+   "book": 5,
+   "row": 14,
+   "sub": 4,
+   "s": "For what purpose is Adobe Premiere Pro software used?",
+   "o": [
+    "Video editing",
+    "Spreadsheet calculations",
+    "Database management",
+    "Sound recording only"
+   ],
+   "a": 0,
+   "x": "Adobe Premiere Pro, like Apple's Final Cut Pro, is video editing software.",
+   "angle": "U0704 notes gap: Adobe Premiere Pro -> video editing"
+  },
+  {
+   "book": 5,
+   "row": 15,
+   "sub": 5,
+   "s": "Who developed Bandicoot, the robot that cleans manholes and sewers?",
+   "o": [
+    "Genrobotics, Kerala",
+    "IIT Madras",
+    "DRDO",
+    "A-SET, Delhi"
+   ],
+   "a": 0,
+   "x": "Bandicoot was developed by Genrobotics of Kerala to clean manholes and sewers and end manual scavenging.",
+   "angle": "U0705 notes gap: Bandicoot -> Genrobotics"
+  },
+  {
+   "book": 5,
+   "row": 15,
+   "sub": 5,
+   "s": "Consider the following statements:\n1. Bandicoot was developed by Genrobotics, Kerala.\n2. HomoSEP was developed by IIT Madras to clean septic tanks.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: Bandicoot (Genrobotics) cleans sewers and HomoSEP (IIT Madras) cleans septic tanks.",
+   "angle": "U0705 notes gap: Bandicoot and HomoSEP -> developer"
+  },
+  {
+   "book": 5,
+   "row": 15,
+   "sub": 5,
+   "s": "Which organisation developed Daksh, the remotely operated robot used to defuse IEDs?",
+   "o": [
+    "ISRO",
+    "DRDO",
+    "IIT Madras",
+    "Genrobotics"
+   ],
+   "a": 1,
+   "x": "Daksh is a DRDO robot that handles and defuses IEDs.",
+   "angle": "U0705 notes gap: Daksh -> DRDO"
+  },
+  {
+   "book": 5,
+   "row": 15,
+   "sub": 5,
+   "s": "Who developed SSI Mantra, India's first indigenous surgical robotic system?",
+   "o": [
+    "SS Innovations (Dr Sudhir Srivastava)",
+    "AIIMS, New Delhi",
+    "IIT Bombay",
+    "C-DAC"
+   ],
+   "a": 0,
+   "x": "SSI Mantra was developed by SS Innovations, founded by Dr Sudhir Srivastava.",
+   "angle": "U0705 notes gap: SSI Mantra -> SS Innovations"
+  },
+  {
+   "book": 5,
+   "row": 15,
+   "sub": 6,
+   "s": "Which institution developed the SHAKTI processor?",
+   "o": [
+    "C-DAC",
+    "IIT Madras",
+    "IIT Bombay",
+    "ISRO's Semi-Conductor Laboratory"
+   ],
+   "a": 1,
+   "x": "SHAKTI is a RISC-V processor developed by IIT Madras.",
+   "angle": "U0705 notes gap: SHAKTI -> IIT Madras"
+  },
+  {
+   "book": 5,
+   "row": 15,
+   "sub": 7,
+   "s": "Under the Drone Rules, 2021, up to what weight is a drone classed as a nano drone?",
+   "o": [
+    "250 g",
+    "2 kg",
+    "500 g",
+    "25 kg"
+   ],
+   "a": 0,
+   "x": "Nano drones weigh up to 250 g; micro drones are 250 g to 2 kg.",
+   "angle": "U0705 notes gap: nano drone class"
+  },
+  {
+   "book": 5,
+   "row": 16,
+   "sub": 2,
+   "s": "Which company developed the virtual assistant Siri?",
+   "o": [
+    "Google",
+    "Amazon",
+    "Apple",
+    "Microsoft"
+   ],
+   "a": 2,
+   "x": "Siri belongs to Apple; Alexa is Amazon's and Cortana is Microsoft's.",
+   "angle": "U0706 notes gap: Siri -> Apple"
+  },
+  {
+   "book": 5,
+   "row": 16,
+   "sub": 7,
+   "s": "Which country hosted the AI summit of 2024, held after the AI Safety Summit at Bletchley Park?",
+   "o": [
+    "United Kingdom",
+    "South Korea",
+    "France",
+    "Netherlands"
+   ],
+   "a": 1,
+   "x": "The AI Seoul Summit of 2024 was held in South Korea.",
+   "angle": "U0706 notes gap: AI Seoul Summit -> South Korea"
+  },
+  {
+   "book": 5,
+   "row": 16,
+   "sub": 1,
+   "s": "Which branch of AI enables machines to understand and generate human language, as in chatbots and translation?",
+   "o": [
+    "Computer vision",
+    "Natural Language Processing",
+    "Recommender systems",
+    "Robotics"
+   ],
+   "a": 1,
+   "x": "Natural Language Processing (NLP) handles human language; computer vision handles images.",
+   "angle": "U0706 notes gap: NLP"
+  },
+  {
+   "book": 5,
+   "row": 16,
+   "sub": 7,
+   "s": "Which declaration was adopted at the India AI Impact Summit held in New Delhi in February 2026?",
+   "o": [
+    "New Delhi Declaration on AI Impact",
+    "Bletchley Declaration",
+    "Seoul Declaration",
+    "Paris Declaration on AI Action"
+   ],
+   "a": 0,
+   "x": "The India AI Impact Summit (19-20 February 2026, Bharat Mandapam) adopted the New Delhi Declaration on AI Impact.",
+   "angle": "U0706 notes gap: India AI Impact Summit -> New Delhi Declaration"
+  },
+  {
+   "book": 5,
+   "row": 16,
+   "sub": 5,
+   "s": "Where was the first International Olympiad in Artificial Intelligence (IOAI) held in August 2024?",
+   "o": [
+    "Beijing, China",
+    "Burgas, Bulgaria",
+    "Astana, Kazakhstan",
+    "Paris, France"
+   ],
+   "a": 1,
+   "x": "The first IOAI was held in Burgas, Bulgaria, in August 2024, on Bulgaria's initiative.",
+   "angle": "U0706 #7 AI competitions -> host city (web)",
+   "web": "https://ioai-official.org/the-worlds-best-students-in-ai-honoured-at-the-first-international-artificial-intelligence-olympiad-in-burgas-bulgaria/"
+  },
+  {
+   "book": 5,
+   "row": 16,
+   "sub": 5,
+   "s": "Which city hosted the second International Olympiad in Artificial Intelligence (IOAI) in 2025?",
+   "o": [
+    "Burgas",
+    "Seoul",
+    "Beijing",
+    "New Delhi"
+   ],
+   "a": 2,
+   "x": "The second IOAI was held in Beijing, China, in August 2025, after the first in Burgas, Bulgaria (2024).",
+   "angle": "U0706 #7 AI competitions -> host city (web)",
+   "web": "https://ioai-official.org/2025-press-release-1/"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 7,
+   "s": "Which DRDO robot is used to handle and defuse IEDs?",
+   "o": [
+    "Bandicoot",
+    "Daksh",
+    "Vyommitra",
+    "Manav"
+   ],
+   "a": 1,
+   "x": "Daksh, a DRDO defence robot, handles and defuses IEDs.",
+   "angle": "U0707 notes gap: Daksh -> defusing IEDs"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 7,
+   "s": "For what purpose is HomoSEP, developed by IIT Madras, used?",
+   "o": [
+    "Cleaning septic tanks",
+    "Defusing IEDs",
+    "Robotic surgery",
+    "Flying on Gaganyaan"
+   ],
+   "a": 0,
+   "x": "HomoSEP (IIT Madras) cleans septic tanks; Bandicoot cleans sewers and manholes.",
+   "angle": "U0707 notes gap: HomoSEP -> septic tanks"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 8,
+   "s": "Which organisation developed DHRUV64, a 64-bit RISC-V processor?",
+   "o": [
+    "IIT Madras",
+    "C-DAC",
+    "IIT Bombay",
+    "ISRO's Semi-Conductor Laboratory"
+   ],
+   "a": 1,
+   "x": "DHRUV64 and VEGA are C-DAC processors; SHAKTI is from IIT Madras.",
+   "angle": "U0707 notes gap: DHRUV64 -> C-DAC"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 8,
+   "s": "Match the following:\nList-I (Processor)\nA. SHAKTI\nB. AJIT\nC. Vikram 3201\nD. DHRUV64\nList-II (Developer)\n1. ISRO's Semi-Conductor Laboratory, Chandigarh\n2. C-DAC\n3. IIT Madras\n4. IIT Bombay\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-4, B-3, C-2, D-1",
+    "A-3, B-1, C-4, D-2",
+    "A-3, B-4, C-1, D-2",
+    "A-2, B-4, C-1, D-3"
+   ],
+   "a": 2,
+   "x": "SHAKTI is from IIT Madras, AJIT from IIT Bombay, Vikram 3201 from ISRO SCL Chandigarh and DHRUV64 from C-DAC.",
+   "angle": "U0707 notes gap: processors -> developer"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 8,
+   "s": "What are the two main processor lines of MeitY's Digital India RISC-V (DIR-V) programme?",
+   "o": [
+    "SHAKTI and VEGA",
+    "AJIT and Vikram 3201",
+    "DHRUV64 and AJIT",
+    "Vikram 3201 and SHAKTI"
+   ],
+   "a": 0,
+   "x": "DIR-V, launched by MeitY in 2022, has SHAKTI and VEGA as its two main lines.",
+   "angle": "U0707 notes gap: DIR-V -> SHAKTI and VEGA"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 2,
+   "s": "Who developed BharatGPT?",
+   "o": [
+    "A consortium of IITs led by IIT Bombay, backed by Reliance Jio",
+    "Ola",
+    "Sarvam AI",
+    "Assert AI"
+   ],
+   "a": 0,
+   "x": "BharatGPT is from an IIT consortium led by IIT Bombay and backed by Reliance Jio.",
+   "angle": "U0707 notes gap: BharatGPT -> developer"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 2,
+   "s": "What is Pratham, launched by Assert AI?",
+   "o": [
+    "The world's first no-code computer-vision platform",
+    "India's first AI-powered anti-drone system",
+    "India's first multimodal LLM project",
+    "An AI tool for early detection of cancer"
+   ],
+   "a": 0,
+   "x": "Pratham, by Assert AI, is the world's first no-code computer-vision platform.",
+   "angle": "U0707 notes gap: Pratham -> no-code computer vision"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 4,
+   "s": "Which of the following AI summits is correctly matched with its host country?",
+   "o": [
+    "AI Safety Summit (2023) – France",
+    "REAIM (2023) – United Kingdom",
+    "AI Action Summit (2025) – South Korea",
+    "India AI Impact Summit (2026) – India"
+   ],
+   "a": 3,
+   "x": "The 2026 India AI Impact Summit was held in New Delhi; Bletchley Park (UK), REAIM (Netherlands) and Paris (France) hosted the others.",
+   "angle": "U0707 notes gap: AI summits -> host country"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 4,
+   "s": "Which is the world's first comprehensive law on artificial intelligence?",
+   "o": [
+    "EU AI Act",
+    "EU General Data Protection Regulation",
+    "UK Online Safety Act",
+    "India's DPDP Act"
+   ],
+   "a": 0,
+   "x": "The EU AI Act, in force from August 2024, is the world's first comprehensive AI law, with four risk tiers.",
+   "angle": "U0707 notes gap: EU AI Act first AI law"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 4,
+   "s": "What is a group of many drones guided by software for surveillance, light shows or strikes called?",
+   "o": [
+    "Drone swarm",
+    "Drone corridor",
+    "Digital twin",
+    "Cobot"
+   ],
+   "a": 0,
+   "x": "A drone swarm is many drones guided together by software.",
+   "angle": "U0707 notes gap: drone swarms"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 3,
+   "s": "Where is the NIELIT Quantum and AI campus, with an outlay of ₹730.70 crore, coming up?",
+   "o": [
+    "Amaravati",
+    "Hyderabad",
+    "Visakhapatnam",
+    "Bengaluru"
+   ],
+   "a": 0,
+   "x": "The NIELIT Quantum and AI campus is coming up at Amaravati, Andhra Pradesh, on 8.5 acres.",
+   "angle": "U0707 notes gap: NIELIT campus -> Amaravati"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 9,
+   "s": "How is an object made in 3D printing?",
+   "o": [
+    "Layer by layer from a CAD model",
+    "By cutting material away from a solid block",
+    "By pouring molten metal into moulds",
+    "By pressing powder in a die"
+   ],
+   "a": 0,
+   "x": "3D printing is additive manufacturing: the object is built layer by layer from a CAD model.",
+   "angle": "U0707 notes gap: additive manufacturing process"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 6,
+   "s": "Which of the following pairs (innovation – developer) is correctly matched?",
+   "o": [
+    "Carbon-nanotube transistors – IIT Mandi",
+    "CNT-reinforced polymers for aerospace – DRDO",
+    "Perovskite nanocrystal displays – IISc Bengaluru",
+    "Nanoparticles for colorectal cancer – C-DAC"
+   ],
+   "a": 1,
+   "x": "CNT-reinforced polymers for aerospace are from DRDO; CNT transistors are from IISc, perovskite displays from IIT Delhi and colorectal-cancer nanoparticles from IIT Mandi.",
+   "angle": "U0707 notes gap: CNT polymers -> DRDO"
+  },
+  {
+   "book": 5,
+   "row": 17,
+   "sub": 5,
+   "s": "Which company's Majorana 2 raised qubit stability to 20-60 seconds in 2026?",
+   "o": [
+    "Google",
+    "IBM",
+    "Microsoft",
+    "Intel"
+   ],
+   "a": 2,
+   "x": "Microsoft's Majorana 2 raised qubit stability to 20-60 seconds in 2026.",
+   "angle": "U0707 notes gap: Majorana 2 -> Microsoft"
+  },
+  {
+   "book": 5,
+   "row": 18,
+   "sub": 1,
+   "s": "To which company does the cloud storage service iCloud belong?",
+   "o": [
+    "Google",
+    "Apple",
+    "Microsoft",
+    "Dropbox Inc."
+   ],
+   "a": 1,
+   "x": "iCloud is Apple's; Google Drive is Google's and OneDrive (SkyDrive) is Microsoft's.",
+   "angle": "U0708 notes gap: iCloud -> Apple"
+  }
+ ]
+}
