@@ -80,6 +80,16 @@ class CompleteTest {
     }
 
     /** A 3-statement MCQ: the title fits beside the buttons; one tap on an option answers it (no Check step). */
+    /** The book icon of a linked MCQ: the answer, why, and the exact notes line (Veligonda Phase I, 6:14 sub 0). */
+    @Test fun bookIconShowsTheLinkedLine() {
+        shot("15_book_icon_linked", 6) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 6, 14, 0), "all", "Subsection MCQs", nav) }
+        rule.onNodeWithText("Markapuram on 31 August 2026", substring = true).assertExists()
+        rule.onNode(androidx.compose.ui.test.hasContentDescription("Read from the notes")).performClick()
+        rule.waitUntil(20_000) { rule.onAllNodes(hasText("The correct answer is", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Ghantavanipalli", substring = true).assertExists()
+        com.github.takahirom.roborazzi.captureScreenRoboImage("screenshots/complete/15_book_icon_linked.png")
+    }
+
     @Test fun statementMcqSelectThenCheck() {
         val app = shot("13_statement_mcq", 4) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, 10, 3), "all", "Subsection MCQs", nav) }
         rule.onNodeWithText("following statements", substring = true).assertExists()

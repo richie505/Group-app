@@ -935,14 +935,12 @@ private fun FromNotes(q: Question, onOpenNotes: (Int, Int, Int) -> Unit, onPeek:
 private fun NotesPeek(q: Question, onClose: () -> Unit) {
     val app = LocalApp.current
     // the checked notes lines of this MCQ, when it has them (else the page found by its words)
-    var linkedKeys by remember(q.id) { mutableStateOf<List<Triple<Int, Int, com.appsc.prep.data.Block>>?>(null) }
-    val found by androidx.compose.runtime.produceState<Pair<com.appsc.prep.data.NoteRow, List<Int>>?>(null, q.id) {
+    val found by androidx.compose.runtime.produceState<Triple<com.appsc.prep.data.NoteRow, List<Int>, List<Triple<Int, Int, com.appsc.prep.data.Block>>?>?>(null, q.id) {
         value = runCatching {
             kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Default) {
                 val book = app.repo.book(q.book)
                 val link = com.appsc.prep.data.NotesFinder.linked(app.repo.noteLinks[q.id], book)
                 val (rowAt, secAt) = if (link != null) {
-                    linkedKeys = link.second
                     link.first to link.second.first().first
                 } else {
                     val filed = app.repo.mcq(q.book).placeOf(q.id)
@@ -952,7 +950,7 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
                 }
                 val r = book.rows[rowAt]
                 // pages with nothing for the MCQs are hidden in the notes, so here too
-                r to (listOf(secAt) + r.secs.indices.filter { it != secAt && !r.secs[it].empty })
+                Triple(r, listOf(secAt) + r.secs.indices.filter { it != secAt && !r.secs[it].empty }, link?.second)
             }
         }.getOrNull()
     }
@@ -976,7 +974,7 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
                 )
                 return@Column
             }
-            val (row, order) = f
+            val (row, order, linkedKeys) = f
             val pages = order.sorted()
             // first: only the key points of this MCQ (its facts' lines, from any page of the topic); the whole page on request
             val keys = remember(q.id, linkedKeys) { linkedKeys ?: com.appsc.prep.data.NotesFinder.keyLines(q, row, order.first()) }
@@ -988,7 +986,7 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
                         Text(
                             buildAnnotatedString {
                                 append("The correct answer is ")
-                                withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("(${'a' + q.answer}) ${q.options[q.answer]}") }
+                                withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("(${q.answer + 1}) ${q.options[q.answer]}") }
                                 append(".")
                             },
                             style = TextStyle(fontSize = 17.sp, lineHeight = 24.sp, color = C.Ink),
