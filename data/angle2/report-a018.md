@@ -22,6 +22,6 @@ a018: keyword angles 62/69 covered (7 partly), APPSC PYQ angles 10/14 covered, 1
 - Shortest dynasty not written for U0110: 1:109 notes say Sayyid (37 years) while 1:110 notes say Khalji (30 years); the 1:109 line looks inconsistent.
 
 ## Rewordings
-186 own-MCQ stems reworded from fill-ins ("...:", "...was", "____") to APPSC-style direct questions, same facts, options and keys (46 in 1:108, 26 in 1:109, 30 in 1:110, 30 in 1:111, 21 in 1:112, 33 in 1:113).
+186 own-MCQ stems reworded from fill-ins ("...:", "...was", "____") to APPSC-style direct questions, same facts, options and keys (46 in 1:108, 26 in 1:109, 30 in 1:110, 29 in 1:111, 21 in 1:112, 34 in 1:113).
 
 Check: `python3 tools/angle_add.py data/angle2/out-a018.json --dry` -> 16/16 new MCQs and 186/186 rewordings would be applied.
