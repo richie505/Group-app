@@ -1,0 +1,467 @@
+{
+ "units": [
+  {
+   "u": "U0001",
+   "kw_total": 13,
+   "kw_covered": 12,
+   "kw_partly": 1,
+   "kw_missing": 0,
+   "appsc_pyqs": 13,
+   "appsc_covered": 9,
+   "missing": [
+    "#2 Inscription -> language/script/vocabulary (partly: Satavahana Prakrit-Brahmi, Maski Gulmika, Bhattiprolu ruler)",
+    "PYQ y5d70b5b95b5 / yfabccf8d5c7 Satavahana inscriptions -> language + script",
+    "PYQ y79e445dd76f / ye69538fabc3 Bhattiprolu -> ruler Kubhiraka"
+   ]
+  },
+  {
+   "u": "U0002",
+   "kw_total": 7,
+   "kw_covered": 7,
+   "kw_partly": 0,
+   "kw_missing": 0,
+   "appsc_pyqs": 18,
+   "appsc_covered": 12,
+   "missing": [
+    "PYQ yb63c21ee525 early Satavahana inscriptions -> region (Maharashtra)",
+    "PYQ y58cc55827d7 nigama-sabha term (partly)",
+    "PYQ y81ce5d3b49c Malkapuram -> content",
+    "PYQ y4b52d61aaa5 copper-plate -> language",
+    "PYQ y9965d914e06 Rudrapurushadatta -> his inscription",
+    "PYQ y1e1491f6186 Alluru -> multiple gifts"
+   ]
+  },
+  {
+   "u": "U0003",
+   "kw_total": 9,
+   "kw_covered": 9,
+   "kw_partly": 0,
+   "kw_missing": 0,
+   "appsc_pyqs": 3,
+   "appsc_covered": 2,
+   "missing": [
+    "PYQ yf6b5811c31e Levallois technique -> site (Sembur)"
+   ],
+   "note": "2 APPSC PYQs filed here are off-topic (y54e9057d7c8 chocolate/dogs, y70068357208 bones) and not counted"
+  },
+  {
+   "u": "U0004",
+   "kw_total": 8,
+   "kw_covered": 7,
+   "kw_partly": 1,
+   "kw_missing": 0,
+   "appsc_pyqs": 8,
+   "appsc_covered": 7,
+   "missing": [
+    "N1 Burial type -> district concentration (partly: cist-Visakhapatnam, sarcophagus-Krishna valley)",
+    "PYQ y14864b5d23f Betamcherla -> prehistoric caves"
+   ],
+   "note": "3 off-topic APPSC PYQs (y yb0444cdab7f, ye26f80fb09b leaf; ya0d0538edab district area) not counted"
+  },
+  {
+   "u": "U0005",
+   "kw_total": 8,
+   "kw_covered": 8,
+   "kw_partly": 0,
+   "kw_missing": 0,
+   "appsc_pyqs": 0,
+   "appsc_covered": 0,
+   "missing": []
+  },
+  {
+   "u": "U0006",
+   "kw_total": 16,
+   "kw_covered": 11,
+   "kw_partly": 5,
+   "kw_missing": 0,
+   "appsc_pyqs": 7,
+   "appsc_covered": 5,
+   "missing": [
+    "#5/#15 Boundary sites (partly: northernmost Manda not asked)",
+    "#9 Major sites -> district (partly: Kalibangan-Hanumangarh, Mohenjodaro-Larkana)",
+    "#13 Dholavira occupation span",
+    "#14 Sites India vs Pakistan (partly)",
+    "PYQ yb87c0e86a60 bead industry -> Chanhudaro",
+    "PYQ ydb7d7fa0ace Harappa -> river"
+   ],
+   "note": "2 off-topic APPSC PYQs (y62bd619ebdc TTD, yead6b76739c bones) not counted"
+  }
+ ],
+ "new": [
+  {
+   "book": 1,
+   "row": 0,
+   "sub": 3,
+   "s": "The Naneghat record of Queen Naganika, like all Satavahana inscriptions, is written in:",
+   "o": [
+    "Sanskrit language in Kharosthi script",
+    "Prakrit language in Brahmi script",
+    "Telugu language in Brahmi script",
+    "Sanskrit language in Devanagari script"
+   ],
+   "a": 1,
+   "x": "All Satavahana inscriptions, including Naneghat and Nasik, use the Prakrit language and the Brahmi script.",
+   "angle": "U0001 #2 Inscription -> language + script (APPSC PYQ y5d70b5b95b5 / yfabccf8d5c7)"
+  },
+  {
+   "book": 1,
+   "row": 0,
+   "sub": 3,
+   "s": "Consider the following statements:\n1. The Satavahana inscriptions are in the Prakrit language.\n2. The Junagadh inscription of Rudradaman I is the first long inscription in Sanskrit.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are true: Satavahana records are in Prakrit (Brahmi script), and Junagadh (c. 150 AD) is the first long Sanskrit inscription.",
+   "angle": "U0001 #2 Inscription -> language (APPSC PYQ y5d70b5b95b5)"
+  },
+  {
+   "book": 1,
+   "row": 0,
+   "sub": 3,
+   "s": "Raja Kubhiraka, a local ruler of Andhra in the 3rd century BC, is known from which inscription?",
+   "o": [
+    "Myakadoni",
+    "Alluru",
+    "Bhattiprolu",
+    "Maidavolu"
+   ],
+   "a": 2,
+   "x": "The Bhattiprolu inscription names Raja Kubhiraka (3rd c. BC) and also mentions the nigama-sabha.",
+   "angle": "U0001 #2/#9 Inscription -> ruler (APPSC PYQ y79e445dd76f / ye69538fabc3)"
+  },
+  {
+   "book": 1,
+   "row": 0,
+   "sub": 3,
+   "s": "Match the inscriptions with their issuers:\nA. Bhattiprolu - 1. Pulumavi III\nB. Myakadoni - 2. Queen Naganika\nC. Naneghat - 3. Raja Kubhiraka\nD. Maidavolu - 4. Pallava Sivaskandavarma",
+   "o": [
+    "A-3, B-1, C-2, D-4",
+    "A-1, B-3, C-2, D-4",
+    "A-3, B-2, C-1, D-4",
+    "A-4, B-1, C-2, D-3"
+   ],
+   "a": 0,
+   "x": "Bhattiprolu names Kubhiraka, Myakadoni is of Pulumavi III, Naneghat is of Naganika, and the Maidavolu plates are of Pallava Sivaskandavarma.",
+   "angle": "U0001 #2 Inscription -> ruler/issuer (APPSC PYQ ye69538fabc3)"
+  },
+  {
+   "book": 1,
+   "row": 0,
+   "sub": 3,
+   "s": "In Ashoka's Maski edict, the term 'Gulmika' denotes a:",
+   "o": [
+    "Guild assembly",
+    "Village headman",
+    "Royal envoy",
+    "Buddhist monk"
+   ],
+   "a": 1,
+   "x": "Gulmika in the Maski edict means a village headman; Maski is also the first edict that names the king as 'Asoka'.",
+   "angle": "U0001 #2 Inscription -> vocabulary (Maski-Gulmika)"
+  },
+  {
+   "book": 1,
+   "row": 1,
+   "sub": 2,
+   "s": "The Naneghat and Nasik inscriptions of the early Satavahanas are located in present-day:",
+   "o": [
+    "Andhra Pradesh",
+    "Karnataka",
+    "Maharashtra",
+    "Telangana"
+   ],
+   "a": 2,
+   "x": "Naneghat and Nasik are in Maharashtra, where the early Satavahana records are found; Amaravati (Pulumavi II) is the first Satavahana inscription in Andhra.",
+   "angle": "U0002 PYQ yb63c21ee525 early Satavahana inscriptions -> find-region"
+  },
+  {
+   "book": 1,
+   "row": 1,
+   "sub": 2,
+   "s": "The Malkapuram inscription of Rudramadevi's reign (1261 CE) mentions 'Jalakaranda', which was a:",
+   "o": [
+    "Musical instrument",
+    "Land measure",
+    "Political employee",
+    "Town council"
+   ],
+   "a": 0,
+   "x": "Jalakaranda in the Malkapuram inscription is a musical instrument; nivartana is a land measure and munyada a political employee.",
+   "angle": "U0002 #1 Inscription -> cultural details (PYQ y81ce5d3b49c Malkapuram)"
+  },
+  {
+   "book": 1,
+   "row": 1,
+   "sub": 4,
+   "s": "In the Bhattiprolu inscription, the term 'Nigama-sabha' refers to a:",
+   "o": [
+    "Village headman",
+    "Town council",
+    "Royal mint",
+    "Land-grant charter"
+   ],
+   "a": 1,
+   "x": "Nigama-sabha in the Bhattiprolu inscription means a town council.",
+   "angle": "U0002 #1 Inscription -> term recorded (PYQ y58cc55827d7 nigama-sabha)"
+  },
+  {
+   "book": 1,
+   "row": 1,
+   "sub": 3,
+   "s": "The Mayidavolu copper-plate grant of Pallava Sivaskandavarman (c. AD 300) is written in which language?",
+   "o": [
+    "Prakrit",
+    "Sanskrit",
+    "Telugu",
+    "Tamil"
+   ],
+   "a": 0,
+   "x": "Mayidavolu is a Prakrit copper-plate grant; the first inscription in Telugu is Kalamalla.",
+   "angle": "U0002 #1 Inscription -> language (PYQ y4b52d61aaa5 Kondamudi language)"
+  },
+  {
+   "book": 1,
+   "row": 1,
+   "sub": 3,
+   "s": "The Phanigiri pillar inscription of the 18th regnal year belongs to which Ikshvaku ruler?",
+   "o": [
+    "Santamula I",
+    "Veerapurushadatta",
+    "Ehuvala Chamtamula",
+    "Rudrapurushadatta"
+   ],
+   "a": 3,
+   "x": "The Phanigiri pillar is of the 18th year of Rudrapurushadatta, the last Ikshvaku ruler.",
+   "angle": "U0002 PYQ y9965d914e06 Rudrapurushadatta -> inscription"
+  },
+  {
+   "book": 1,
+   "row": 1,
+   "sub": 3,
+   "s": "The Alluru inscription of the Ikshvaku period is noted for recording:",
+   "o": [
+    "The conquest of Vijayapuri by the Pallavas",
+    "Multiple gifts to different communities and institutions",
+    "The first mention of Vishnu temples in Andhra",
+    "Wars between the Ikshvakus and the Anandagotrikas"
+   ],
+   "a": 1,
+   "x": "Alluru records multiple gifts to different communities and institutions; Manchikallu, Pedavegi and Chejerla record the other events.",
+   "angle": "U0002 PYQ y1e1491f6186 Alluru -> content"
+  },
+  {
+   "book": 1,
+   "row": 2,
+   "sub": 1,
+   "s": "Which Tamil Nadu site shows the use of the Levallois technique in the Palaeolithic period?",
+   "o": [
+    "Mayiladumparai",
+    "Sembur",
+    "Mangulam",
+    "Arikamedu"
+   ],
+   "a": 1,
+   "x": "Levallois (prepared-core flake) tools were made at Sembur; Mayiladumparai is an early iron site, Mangulam a Tamil-Brahmi site and Arikamedu a Roman trade site.",
+   "angle": "U0003 #4 Tool technique -> site (APPSC PYQ yf6b5811c31e)"
+  },
+  {
+   "book": 1,
+   "row": 2,
+   "sub": 1,
+   "s": "Consider the following statements:\n1. The Levallois technique is a prepared-core flake technique of the Middle Palaeolithic.\n2. A Neanderthal fossil has been found at Sembur in Tamil Nadu.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Levallois belongs to the Middle Palaeolithic flake industry, but no Neanderthal fossil has been found in India.",
+   "angle": "U0003 #4 Tool technique -> stage/site (APPSC PYQ yf6b5811c31e)"
+  },
+  {
+   "book": 1,
+   "row": 3,
+   "sub": 2,
+   "s": "The Billa Surgam limestone caves, explored by Robert Bruce Foote in 1884, lie near:",
+   "o": [
+    "Betamcherla",
+    "Giddaluru",
+    "Renigunta",
+    "Yerragondapalem"
+   ],
+   "a": 0,
+   "x": "Billa Surgam caves are near Betamcherla in Kurnool (now Nandyal) district, an area known for prehistoric caves.",
+   "angle": "U0004 PYQ y14864b5d23f Betamcherla -> prehistoric caves"
+  },
+  {
+   "book": 1,
+   "row": 3,
+   "sub": 6,
+   "s": "Cist (stone-slab box) megalithic burials of Andhra are found in large numbers in:",
+   "o": [
+    "Tirupati",
+    "Visakhapatnam",
+    "Anantapuramu",
+    "Kurnool"
+   ],
+   "a": 1,
+   "x": "Many cist burials are found in Visakhapatnam district; this statement was accepted as correct in the G2 2025 key.",
+   "angle": "U0004 N1 Burial type -> district concentration (cist)"
+  },
+  {
+   "book": 1,
+   "row": 3,
+   "sub": 6,
+   "s": "Terracotta sarcophagus burials in Andhra are associated mainly with:",
+   "o": [
+    "The Visakhapatnam coast",
+    "The Tirupati region",
+    "Nagarjunakonda in the Krishna valley",
+    "The Kurnool caves"
+   ],
+   "a": 2,
+   "x": "Sarcophagi are linked with Nagarjunakonda and the Krishna valley; 'more in Chittoor and Anantapuramu' was keyed incorrect in G2 2025.",
+   "angle": "U0004 N1 Burial type -> district concentration (sarcophagus)"
+  },
+  {
+   "book": 1,
+   "row": 3,
+   "sub": 6,
+   "s": "Which of the following megalithic burial types is NOT correctly matched with its area of concentration in Andhra?",
+   "o": [
+    "Cist - Visakhapatnam",
+    "Menhir - Krishna",
+    "Anthropomorphic - Tirupati",
+    "Dolmen - Kurnool"
+   ],
+   "a": 3,
+   "x": "Dolmens are found mainly in Krishna, Chittoor and East Godavari, not Kurnool; the other three pairs are correct.",
+   "angle": "U0004 #1/N1 Burial type -> district (APPSC PYQ y382b530b2d5)"
+  },
+  {
+   "book": 1,
+   "row": 5,
+   "sub": 4,
+   "s": "The northernmost Harappan site, Manda, is located:",
+   "o": [
+    "In Jammu, on the Chenab",
+    "In Punjab, on the Sutlej",
+    "In Meerut, on the Hindon",
+    "On the Makran coast of Balochistan"
+   ],
+   "a": 0,
+   "x": "Manda on the Chenab in Jammu is the northern limit; Ropar is on the Sutlej, Alamgirpur on the Hindon and Sutkagendor on the Makran coast.",
+   "angle": "U0006 #5/#15 Boundary sites -> northernmost"
+  },
+  {
+   "book": 1,
+   "row": 5,
+   "sub": 4,
+   "s": "Match the boundary of the Harappan civilisation with its site:\nA. Northern - 1. Alamgirpur\nB. Southern - 2. Sutkagendor\nC. Eastern - 3. Manda\nD. Western - 4. Daimabad",
+   "o": [
+    "A-4, B-3, C-1, D-2",
+    "A-1, B-4, C-3, D-2",
+    "A-3, B-4, C-1, D-2",
+    "A-3, B-4, C-2, D-1"
+   ],
+   "a": 2,
+   "x": "North-South-East-West = Manda, Daimabad, Alamgirpur, Sutkagendor.",
+   "angle": "U0006 #5/#15 Boundary sites -> all four directions"
+  },
+  {
+   "book": 1,
+   "row": 5,
+   "sub": 5,
+   "s": "Kalibangan, on the Ghaggar, is in which district of Rajasthan?",
+   "o": [
+    "Sri Ganganagar",
+    "Hanumangarh",
+    "Bikaner",
+    "Jhunjhunu"
+   ],
+   "a": 1,
+   "x": "Kalibangan lies on the Ghaggar in Hanumangarh district of Rajasthan (asked by APPSC in 2018).",
+   "angle": "U0006 #9 Site -> district (APPSC 2018 Kalibangan-Hanumangarh)"
+  },
+  {
+   "book": 1,
+   "row": 5,
+   "sub": 5,
+   "s": "Which Harappan city lies on the left bank of the Ravi in Sahiwal (Montgomery) district of Pakistani Punjab?",
+   "o": [
+    "Mohenjodaro",
+    "Chanhudaro",
+    "Harappa",
+    "Kot Diji"
+   ],
+   "a": 2,
+   "x": "Harappa is on the left bank of the Ravi in Sahiwal; Mohenjodaro, Chanhudaro and Kot Diji are on the Indus in Sindh.",
+   "angle": "U0006 #9 Site -> river (APPSC PYQ ydb7d7fa0ace)"
+  },
+  {
+   "book": 1,
+   "row": 5,
+   "sub": 5,
+   "s": "Mohenjodaro, on the right bank of the Indus, is in which district of Sindh?",
+   "o": [
+    "Larkana",
+    "Hyderabad",
+    "Sukkur",
+    "Karachi"
+   ],
+   "a": 0,
+   "x": "Mohenjodaro lies on the right bank of the Indus in Larkana district, Sindh.",
+   "angle": "U0006 #9 Site -> river + district (APPSC PYQ ydb7d7fa0ace)"
+  },
+  {
+   "book": 1,
+   "row": 5,
+   "sub": 3,
+   "s": "Dholavira, which was occupied in seven stages, was inhabited approximately during:",
+   "o": [
+    "3000-1800 BCE",
+    "2600-1900 BCE",
+    "1900-1300 BCE",
+    "7000-3300 BCE"
+   ],
+   "a": 0,
+   "x": "Dholavira was inhabited from about 3000 to 1800 BCE (APPSC 2018 key); 2600-1900 BCE is the Mature Harappan phase in general.",
+   "angle": "U0006 #13 Site-wise occupation span (Dholavira, APPSC 2018)"
+  },
+  {
+   "book": 1,
+   "row": 5,
+   "sub": 7,
+   "s": "Chanhudaro, called the 'Lancashire of India', is especially known for a:",
+   "o": [
+    "Dockyard and a ship model",
+    "Bead-making and bangle factory",
+    "Great Bath and assembly hall",
+    "Set of seven fire altars"
+   ],
+   "a": 1,
+   "x": "Chanhudaro had a bead-making and bangle factory; the dockyard is at Lothal, the Great Bath at Mohenjodaro and seven fire altars at Kalibangan.",
+   "angle": "U0006 #12 Site-specific findings (APPSC PYQ yb87c0e86a60 bead industry)"
+  },
+  {
+   "book": 1,
+   "row": 5,
+   "sub": 5,
+   "s": "Which of the following Harappan sites is in present-day Pakistan?",
+   "o": [
+    "Lothal",
+    "Kalibangan",
+    "Chanhudaro",
+    "Banawali"
+   ],
+   "a": 2,
+   "x": "Chanhudaro is in Sindh, Pakistan; Lothal is in Gujarat, Kalibangan in Rajasthan and Banawali in Haryana.",
+   "angle": "U0006 #1/#14 Sites in India vs Pakistan (APPSC 2018)"
+  }
+ ]
+}
