@@ -86,7 +86,7 @@ def check(path, quiet=False):
     books, mcqs = {}, {}
     for L in links:
         b = int(L["book"])
-        bk = books.setdefault(b, json.load(open(f"{A}/book{b}.json")))
+        bk = (books[b] if b in books else books.setdefault(b, json.load(open(f"{A}/book{b}.json"))))
         if b not in mcqs:
             m = json.load(open(f"{A}/mcq{b}.json"))
             mcqs[b] = {q["id"] for qs in m["rows"].values() for q in qs}
@@ -117,7 +117,7 @@ def resolve_new(ops):
     books = {}
     for op in ops:
         b = op["book"]
-        d = books.setdefault(b, json.load(open(f"{A}/book{b}.json")))
+        d = (books[b] if b in books else books.setdefault(b, json.load(open(f"{A}/book{b}.json"))))
         blocks = rows_of(d)[op["row"]]["secs"][op["sec"]]["b"]
         want = op["md"].lstrip("-* ").replace("**", "").strip()[:60]
         hit = [i for i, blk in enumerate(blocks) if blk["k"] != "t" and want[:40] in text(blk)]
@@ -178,7 +178,7 @@ def preview(path):
     books, ms = {}, {}
     for L in d["links"]:
         b = int(L["book"])
-        bk = books.setdefault(b, json.load(open(f"{A}/book{b}.json")))
+        bk = (books[b] if b in books else books.setdefault(b, json.load(open(f"{A}/book{b}.json"))))
         if b not in ms:
             m = json.load(open(f"{A}/mcq{b}.json"))
             ms[b] = {q["id"]: q for qs in m["rows"].values() for q in qs}
@@ -189,6 +189,61 @@ def preview(path):
             print(f"  > {ref}: {t}")
 
 
+def bulk(paths):
+    """Apply many packets in one pass: each book and MCQ file is read and written once (much faster than apply)."""
+    cur = json.load(open(OUT)) if os.path.exists(OUT) else {}
+    books, mcqs, okp = {}, {}, []
+    def book(b):
+        if b not in books:
+            books[b] = json.load(open(f"{A}/book{b}.json"))
+        return books[b]
+    def mcq(b):
+        if b not in mcqs:
+            m = json.load(open(f"{A}/mcq{b}.json"))
+            mcqs[b] = (m, {q["id"]: q for qs in m["rows"].values() for q in qs})
+        return mcqs[b]
+    all_ops, xlog, nlog = [], [], []
+    for p in paths:
+        d = json.load(open(p))
+        ops, links = d.get("notes", []), d.get("links", [])
+        bad = [L["id"] for L in links if L["id"].startswith("y") or L["id"] not in mcq(int(L["book"]))[1]
+               or not L.get("lines") or any(not r.startswith("+") and line_text(book(int(L["book"])), r) is None for r in L["lines"])]
+        if bad:
+            print(f"{p}: refused, bad links {bad[:5]}"); continue
+        okp.append((p, d)); all_ops += ops
+    if all_ops:  # every packet's notes additions in one notes_fix run (they only append)
+        rc, out = notes_dry(all_ops, dry=False)
+        if rc:
+            print("notes edits refused, nothing applied:", out); return
+        books.clear()
+    for p, d in okp:
+        ops = d.get("notes", [])
+        new = resolve_new(ops) if ops else []
+        nlog += [{"file": p, **o} for o in ops]
+        n = nx = 0
+        for L in d["links"]:
+            b = int(L["book"])
+            refs = [f"{b}:{new[int(r[1:])]}" if r.startswith("+") else f"{b}:{r}" for r in L["lines"]
+                    if not r.startswith("+") or new[int(r[1:])]]
+            if refs:
+                cur[L["id"]] = refs; n += 1
+            if L.get("x"):
+                q = mcq(b)[1][L["id"]]
+                xlog.append({"id": q["id"], "old": q.get("x", ""), "new": L["x"].strip()})
+                q["x"] = L["x"].strip(); q.pop("xs", None); q.pop("xa", None); nx += 1
+        print(f"{p}: {n} MCQs linked, {len(ops)} notes additions, {nx} explanations corrected")
+        with open("data/notelink/done.txt", "a") as f:
+            f.write(os.path.basename(p)[5:-5] + "\n")
+    for b, (m, _) in mcqs.items():
+        if any(x["id"] in _ for x in xlog):
+            json.dump(m, open(f"{A}/mcq{b}.json", "w"), ensure_ascii=False, separators=(",", ":"))
+    with open("data/notelink/xfixed.jsonl", "a") as f:
+        for o in xlog: f.write(json.dumps(o, ensure_ascii=False) + "\n")
+    with open("data/notelink/notes_added.jsonl", "a") as f:
+        for o in nlog: f.write(json.dumps(o, ensure_ascii=False) + "\n")
+    json.dump(cur, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+
+
 if __name__ == "__main__":
     c = sys.argv[1]
     if c == "show":
@@ -197,5 +252,7 @@ if __name__ == "__main__":
         sys.exit(1 if check(sys.argv[2]) else 0)
     elif c == "apply":
         apply(sys.argv[2:])
+    elif c == "bulk":
+        bulk(sys.argv[2:])
     elif c == "preview":
         preview(sys.argv[2])
