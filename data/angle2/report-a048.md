@@ -1,6 +1,6 @@
 # a048 report (U0289-U0294)
 
-a048: keyword angles 82/88 covered (5 partly), APPSC PYQ angles 35/41 covered, 17 new MCQs
+a048: keyword angles 82/88 covered (5 partly), APPSC PYQ angles 35/41 covered, 17 new MCQs, 107 reworded
 
 | Unit | Topic | Keywords C/P/M of T | APPSC PYQs covered | New |
 |---|---|---|---|---|
@@ -20,3 +20,8 @@ a048: keyword angles 82/88 covered (5 partly), APPSC PYQ angles 35/41 covered, 1
 - **U0294**: #2 97th Amendment: Art. 19(1)(c) and Part IXB board/audit (partly) -> 2.
 
 Note: PYQ ye711deec8a1 (2:19, State PSC) keys the 35th Amendment for Sikkim statehood, but the notes say 36th. I did not change it.
+
+## APPSC wording follow-up
+- I rewrote the stems of the 17 new MCQs to follow how the APPSC PYQs in these topics are worded: direct "Which Article ...?", "Who set up ...?", "From the Constitution of which country ...?", "Which of the following famous cases ...?", and a List-I/List-II match ending "Select the correct answer using the code given below:".
+- Keyless APPSC PYQs already counted fully as angles in the first pass. All of them were covered, so no new MCQ was needed. The two skipped PYQs (ybb16dead219, y8ab69f7395b) have answer keys and were skipped as out of scope.
+- 107 own MCQ stems were reworded across rows 15-20 (mostly "...:" fill-ins turned into direct questions). Fact, options, option order and answer are unchanged. A-R, chronology, statement and NOT-type stems were left alone.

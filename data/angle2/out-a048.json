@@ -1,33 +1,877 @@
-{"units": [
- {"u": "U0289", "kw_total": 17, "kw_covered": 16, "kw_partly": 1, "kw_missing": 0, "appsc_pyqs": 14, "appsc_covered": 11,
-  "missing": ["#14 Statement-type: which themes are DPSP vs FD or both (partly)", "PYQ ybd6e709f538 status of a right (FR vs not) angle", "PYQ yf9867a003dd NALSA / legal-aid implementation angle", "PYQ ybb16dead219 DPSP applicability to J&K (obsolete, not in notes; no MCQ written)"]},
- {"u": "U0290", "kw_total": 15, "kw_covered": 14, "kw_partly": 1, "kw_missing": 0, "appsc_pyqs": 5, "appsc_covered": 3,
-  "missing": ["#2 Cases in chronological order (partly; only a non-APPSC PYQ)", "PYQ y5bfb8896ac3 Preamble as aid to decide scope of FRs and DPSPs", "PYQ y3d062583ae8 case not about property (Gopalan / Article 21) angle"]},
- {"u": "U0291", "kw_total": 17, "kw_covered": 15, "kw_partly": 1, "kw_missing": 1,
-  "appsc_pyqs": 11, "appsc_covered": 10,
-  "missing": ["#5 Source country of Fundamental Duties (USSR)", "#12 Eleventh duty -> amendment and year (partly)", "#2 Swaran Singh Committee set up by (Congress party) - G2 2025 angle, strengthened", "PYQ y8ab69f7395b Green Revolution names (off-topic, not in notes; no MCQ written)"]},
- {"u": "U0292", "kw_total": 13, "kw_covered": 13, "kw_partly": 0, "kw_missing": 0, "appsc_pyqs": 6, "appsc_covered": 6, "missing": []},
- {"u": "U0293", "kw_total": 18, "kw_covered": 17, "kw_partly": 1, "kw_missing": 0, "appsc_pyqs": 5, "appsc_covered": 5,
-  "missing": ["#14 106th Amendment commencement conditions and duration (partly)", "#1 12th/15th Amendments match (APPSC 2023 area, added for practice)"]},
- {"u": "U0294", "kw_total": 8, "kw_covered": 7, "kw_partly": 1, "kw_missing": 0, "appsc_pyqs": 0, "appsc_covered": 0,
-  "missing": ["#2 97th Amendment - Article 19(1)(c) and Part IXB board/audit provisions (partly)"]}
-],
-"new": [
- {"book": 2, "row": 15, "sub": 8, "s": "Consider the following statements:\n1. Protection of the environment, forests and wildlife appears both as a Directive Principle and as a Fundamental Duty.\n2. Free legal aid is a Fundamental Duty of every citizen under Article 51A.\nWhich of the statements given above is/are correct?", "o": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"], "a": 0, "x": "Environment is in DPSP Article 48A (duty of the State) and FD Article 51A(g) (duty of citizens). Free legal aid is DPSP Article 39A, not a Fundamental Duty.", "angle": "U0289 #14 DPSP vs FD vs both"},
- {"book": 2, "row": 15, "sub": 8, "s": "Which of the following is found in the Directive Principles but has no matching Fundamental Duty in Article 51A?", "o": ["Protection of forests and wildlife", "Preserving the heritage of composite culture", "Equal justice and free legal aid", "Education of children"], "a": 2, "x": "Free legal aid is only a Directive Principle (Article 39A). Environment (51A(g)), heritage (51A(f)) and education (51A(k)) also appear as Fundamental Duties.", "angle": "U0289 #14 DPSP vs FD vs both"},
- {"book": 2, "row": 15, "sub": 3, "s": "Which of the following is a Directive Principle and NOT a Fundamental Right under the Constitution?", "o": ["Right to education for children aged 6-14", "Right against forced labour", "Right to work", "Right to equality before law"], "a": 2, "x": "The right to work is a Directive Principle under Article 41, not a Fundamental Right. Education for 6-14 (Art. 21A), forced labour ban (Art. 23) and equality (Art. 14) are Fundamental Rights.", "angle": "U0289 PYQ ybd6e709f538 status of a right"},
- {"book": 2, "row": 15, "sub": 9, "s": "9 November, the day the Legal Services Authorities Act came into force in 1995, is observed as:", "o": ["Constitution Day", "National Legal Services Day", "National Voters' Day", "Human Rights Day"], "a": 1, "x": "The Legal Services Authorities Act, 1987 came into force on 9 November 1995, so 9 November is National Legal Services Day.", "angle": "U0289 PYQ yf9867a003dd NALSA / legal aid"},
- {"book": 2, "row": 15, "sub": 9, "s": "The National Legal Services Authority (NALSA), which organises Lok Adalats, gives effect to which Directive Principle?", "o": ["Article 39(d)", "Article 41", "Article 50", "Article 39A"], "a": 3, "x": "NALSA was formed under the Legal Services Authorities Act, 1987, which implements Article 39A on equal justice and free legal aid.", "angle": "U0289 PYQ yf9867a003dd NALSA / legal aid"},
- {"book": 2, "row": 16, "sub": 0, "s": "Which part of the Constitution may be used to decide the scope of both the Fundamental Rights and the Directive Principles?", "o": ["The Seventh Schedule", "The Preamble", "Article 368", "The Tenth Schedule"], "a": 1, "x": "The Preamble states the aims of the Constitution, so it may be used to decide the ambit of both Fundamental Rights and Directive Principles.", "angle": "U0290 PYQ y5bfb8896ac3 Preamble and FR/DPSP scope"},
- {"book": 2, "row": 16, "sub": 1, "s": "Which of the following cases concerned personal liberty under Article 21 rather than property rights or the amending power?", "o": ["Golaknath (1967)", "Kesavananda Bharati (1973)", "Sanjeev Coke (1983)", "Maneka Gandhi (1978)"], "a": 3, "x": "Maneka Gandhi widened Article 21 by requiring a fair, just and reasonable procedure. Golaknath and Kesavananda dealt with property and amending power; Sanjeev Coke with Article 39(b).", "angle": "U0290 PYQ y3d062583ae8 case not about property"},
- {"book": 2, "row": 16, "sub": 1, "s": "Arrange the following cases in chronological order:\nA. Minerva Mills\nB. In re Kerala Education Bill\nC. Sanjeev Coke\nD. Golaknath", "o": ["D, B, A, C", "B, D, C, A", "B, D, A, C", "D, B, C, A"], "a": 2, "x": "Kerala Education Bill (1958), Golaknath (1967), Minerva Mills (1980), Sanjeev Coke (1983).", "angle": "U0290 #2 Cases in chronological order"},
- {"book": 2, "row": 17, "sub": 5, "s": "The idea of Fundamental Duties in the Indian Constitution was borrowed from the Constitution of:", "o": ["Ireland", "The USA", "The former USSR", "Japan"], "a": 2, "x": "Fundamental Duties were taken from the Constitution of the former Soviet Union (USSR). Japan only has a comparable list; Ireland is the source of DPSPs.", "angle": "U0291 #5 Source country of FDs"},
- {"book": 2, "row": 17, "sub": 5, "s": "Which of the following pairs of constitutional feature and source country is correctly matched?", "o": ["Directive Principles – USA", "Fundamental Duties – Former USSR", "Fundamental Rights – Ireland", "Fundamental Duties – Ireland"], "a": 1, "x": "Fundamental Duties come from the former USSR, Directive Principles from Ireland and Fundamental Rights from the USA.", "angle": "U0291 #5 Source country of FDs"},
- {"book": 2, "row": 17, "sub": 4, "s": "In which year was the eleventh Fundamental Duty, Article 51A(k), added to the Constitution?", "o": ["1976", "2001", "2002", "2011"], "a": 2, "x": "The 86th Constitutional Amendment Act, 2002 added Article 51A(k), raising the number of duties from 10 to 11.", "angle": "U0291 #12 Eleventh duty -> amendment and year"},
- {"book": 2, "row": 17, "sub": 4, "s": "Consider the following statements about Article 51A(k):\n1. It was added by the 86th Constitutional Amendment Act, 2002.\n2. It is addressed to parents or guardians of children aged 6 to 14 years.\nWhich of the statements given above is/are correct?", "o": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"], "a": 2, "x": "Both are correct: the 86th Amendment (2002) added 51A(k), the only duty addressed to parents or guardians, to give education to children aged 6-14.", "angle": "U0291 #12 Eleventh duty -> amendment and year"},
- {"book": 2, "row": 17, "sub": 3, "s": "The Swaran Singh Committee of 1976, which recommended Fundamental Duties, was set up by:", "o": ["The Janata government", "The Supreme Court", "The Law Commission", "The Congress party"], "a": 3, "x": "The Congress party set up the Swaran Singh Committee in 1976, during the Internal Emergency of 1975-77.", "angle": "U0291 #2 Swaran Singh Committee - set up by"},
- {"book": 2, "row": 19, "sub": 6, "s": "Consider the following statements about the 106th Amendment (women's reservation):\n1. The reservation starts only after delimitation based on the first Census taken after its commencement.\n2. The reservation lasts 15 years and cannot be extended by Parliament.\nWhich of the statements given above is/are correct?", "o": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"], "a": 0, "x": "The quota begins only after delimitation on the first Census after commencement. It lasts 15 years but Parliament can extend it by law, so statement 2 is wrong.", "angle": "U0293 #14 106th Amendment commencement and duration"},
- {"book": 2, "row": 19, "sub": 0, "s": "Match the amendments with their changes:\nA. 12th Amendment\nB. 15th Amendment\nC. 58th Amendment\nD. 96th Amendment\n1. Authoritative Hindi text of the Constitution\n2. 'Oriya' changed to 'Odia'\n3. Goa, Daman and Diu made a Union Territory\n4. Retirement age of High Court judges raised from 60 to 62", "o": ["A-4, B-3, C-1, D-2", "A-3, B-4, C-1, D-2", "A-3, B-4, C-2, D-1", "A-1, B-4, C-3, D-2"], "a": 1, "x": "12th (1962) made Goa, Daman and Diu a UT; 15th (1963) raised HC judges' retirement age to 62; 58th (1987) gave the Hindi text; 96th (2011) changed Oriya to Odia.", "angle": "U0293 #1 Amendment number -> subject (12th, 15th match)"},
- {"book": 2, "row": 20, "sub": 1, "s": "The 97th Amendment made the right to form co-operative societies a Fundamental Right by amending Article:", "o": ["19(1)(b)", "21", "19(1)(c)", "43B"], "a": 2, "x": "The 97th Amendment (2011) added co-operative societies to Article 19(1)(c); Article 43B is the Directive Principle it added.", "angle": "U0294 #2 97th Amendment - Article 19(1)(c)"},
- {"book": 2, "row": 20, "sub": 1, "s": "Consider the following statements about Part IXB (co-operative societies):\n1. A co-operative board can have a maximum of 21 directors.\n2. The accounts must be audited within six months of the close of the financial year.\nWhich of the statements given above is/are correct?", "o": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"], "a": 2, "x": "Both are correct: Article 243ZJ caps the board at 21 directors, and audit must be done within six months of the end of the financial year.", "angle": "U0294 #2 97th Amendment - Part IXB board and audit"}
-]}
+{
+ "units": [
+  {
+   "u": "U0289",
+   "kw_total": 17,
+   "kw_covered": 16,
+   "kw_partly": 1,
+   "kw_missing": 0,
+   "appsc_pyqs": 14,
+   "appsc_covered": 11,
+   "missing": [
+    "#14 Statement-type: which themes are DPSP vs FD or both (partly)",
+    "PYQ ybd6e709f538 status of a right (FR vs not) angle",
+    "PYQ yf9867a003dd NALSA / legal-aid implementation angle",
+    "PYQ ybb16dead219 DPSP applicability to J&K (obsolete, not in notes; no MCQ written)"
+   ]
+  },
+  {
+   "u": "U0290",
+   "kw_total": 15,
+   "kw_covered": 14,
+   "kw_partly": 1,
+   "kw_missing": 0,
+   "appsc_pyqs": 5,
+   "appsc_covered": 3,
+   "missing": [
+    "#2 Cases in chronological order (partly; only a non-APPSC PYQ)",
+    "PYQ y5bfb8896ac3 Preamble as aid to decide scope of FRs and DPSPs",
+    "PYQ y3d062583ae8 case not about property (Gopalan / Article 21) angle"
+   ]
+  },
+  {
+   "u": "U0291",
+   "kw_total": 17,
+   "kw_covered": 15,
+   "kw_partly": 1,
+   "kw_missing": 1,
+   "appsc_pyqs": 11,
+   "appsc_covered": 10,
+   "missing": [
+    "#5 Source country of Fundamental Duties (USSR)",
+    "#12 Eleventh duty -> amendment and year (partly)",
+    "#2 Swaran Singh Committee set up by (Congress party) - G2 2025 angle, strengthened",
+    "PYQ y8ab69f7395b Green Revolution names (off-topic, not in notes; no MCQ written)"
+   ]
+  },
+  {
+   "u": "U0292",
+   "kw_total": 13,
+   "kw_covered": 13,
+   "kw_partly": 0,
+   "kw_missing": 0,
+   "appsc_pyqs": 6,
+   "appsc_covered": 6,
+   "missing": []
+  },
+  {
+   "u": "U0293",
+   "kw_total": 18,
+   "kw_covered": 17,
+   "kw_partly": 1,
+   "kw_missing": 0,
+   "appsc_pyqs": 5,
+   "appsc_covered": 5,
+   "missing": [
+    "#14 106th Amendment commencement conditions and duration (partly)",
+    "#1 12th/15th Amendments match (APPSC 2023 area, added for practice)"
+   ]
+  },
+  {
+   "u": "U0294",
+   "kw_total": 8,
+   "kw_covered": 7,
+   "kw_partly": 1,
+   "kw_missing": 0,
+   "appsc_pyqs": 0,
+   "appsc_covered": 0,
+   "missing": [
+    "#2 97th Amendment - Article 19(1)(c) and Part IXB board/audit provisions (partly)"
+   ]
+  }
+ ],
+ "reword": [
+  {
+   "book": 2,
+   "id": "n6988073029a",
+   "s": "The Directive Principles of State Policy in the Indian Constitution were modelled directly on the Constitution of which country?"
+  },
+  {
+   "book": 2,
+   "id": "n629490bc26c",
+   "s": "Under which Act was the Instrument of Instructions, an antecedent of the Directive Principles, found?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-20-6",
+   "s": "What do the Directive Principles of State Policy aim to establish?"
+  },
+  {
+   "book": 2,
+   "id": "f383d04611f64",
+   "s": "From the Constitution of which country did Ireland borrow the idea of Directive Principles?"
+  },
+  {
+   "book": 2,
+   "id": "n7e0f092f46f",
+   "s": "What is the sanction behind the Directive Principles of State Policy?"
+  },
+  {
+   "book": 2,
+   "id": "n37691c36cb9",
+   "s": "According to the Minerva Mills case (1980), what is the relationship between Fundamental Rights and Directive Principles?"
+  },
+  {
+   "book": 2,
+   "id": "n67de70b070f",
+   "s": "From which of the following does the non-enforceability of the Directive Principles in courts arise?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-20-13",
+   "s": "Which Article of the Constitution directs the State to secure a living wage and promote cottage industries?"
+  },
+  {
+   "book": 2,
+   "id": "n40ee9b2d117",
+   "s": "Which Article of the Constitution directs the State to organise village panchayats?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-19-14",
+   "s": "Which Article of the Directive Principles provides for the prohibition of slaughter of cows and calves?"
+  },
+  {
+   "book": 2,
+   "id": "n6e94e87cae1",
+   "s": "Which Article of the Constitution deals with a social order based on social, economic and political justice and the minimisation of inequalities?"
+  },
+  {
+   "book": 2,
+   "id": "nbe698119cd3",
+   "s": "After the constitutional changes relating to education, what does Article 45 direct the State to provide?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-19-12",
+   "s": "Which Article of the Constitution provides for just and humane conditions of work and maternity relief?"
+  },
+  {
+   "book": 2,
+   "id": "ffb3f13d3f262",
+   "s": "Article 43A provides for participation of workers in the management of which of the following?"
+  },
+  {
+   "book": 2,
+   "id": "n31f84062143",
+   "s": "What does Article 39(a) of the Constitution direct the State to secure?"
+  },
+  {
+   "book": 2,
+   "id": "n05bbd46c6eb",
+   "s": "Which clause of Article 39 protects children against exploitation and abandonment and provides for their development in freedom and dignity?"
+  },
+  {
+   "book": 2,
+   "id": "ncd10e0bdc37",
+   "s": "Which clause of Article 39 provides for equal pay for equal work for both men and women?"
+  },
+  {
+   "book": 2,
+   "id": "n989c71f64ed",
+   "s": "Which of the following is true of the classification of Directive Principles into Socialist, Gandhian and Liberal-intellectual groups?"
+  },
+  {
+   "book": 2,
+   "id": "n64f58eec506",
+   "s": "By which Amendment was the Ninth Schedule added to the Constitution?"
+  },
+  {
+   "book": 2,
+   "id": "n1a8aa7989eb",
+   "s": "By which Amendment was Article 38(2) added to the Directive Principles?"
+  },
+  {
+   "book": 2,
+   "id": "f280aab8f9430",
+   "s": "On which date did Article 39A on free legal aid come into force?"
+  },
+  {
+   "book": 2,
+   "id": "n1c9b9a6ac04",
+   "s": "Heritage and monuments are covered by Article 49. Which Fundamental Duty also covers them?"
+  },
+  {
+   "book": 2,
+   "id": "f2855cb929d44",
+   "s": "Which Article of the Constitution directs instruction in the mother tongue at the primary stage?"
+  },
+  {
+   "book": 2,
+   "id": "f6c0a561c3048",
+   "s": "Article 335, a directive outside Part IV, is related to which of the following?"
+  },
+  {
+   "book": 2,
+   "id": "n41b41019dd8",
+   "s": "MGNREGA, 2005, linked to Article 41, has been replaced by which Act?"
+  },
+  {
+   "book": 2,
+   "id": "n455b0c66d3a",
+   "s": "Through which of the following was Article 40 (organisation of village panchayats) implemented?"
+  },
+  {
+   "book": 2,
+   "id": "f1560f7652abf",
+   "s": "When was the National Social Assistance Programme, which meets the directive of Article 41, launched?"
+  },
+  {
+   "book": 2,
+   "id": "n13440ae4127",
+   "s": "What does Article 37 declare the Directive Principles to be?"
+  },
+  {
+   "book": 2,
+   "id": "n9b4c4de4683",
+   "s": "If Fundamental Rights are the means, what are the Directive Principles described as?"
+  },
+  {
+   "book": 2,
+   "id": "f10639b828e9d",
+   "s": "In the Sanjeev Coke case (1983), what did the Supreme Court hold Article 39(b) to include?"
+  },
+  {
+   "book": 2,
+   "id": "f1a395be593ec",
+   "s": "Article 15(4) was the response to the Champakam Dorairajan case. The bar under which Article did it overcome?"
+  },
+  {
+   "book": 2,
+   "id": "f394280855f63",
+   "s": "For whom does Article 15(4) enable special provisions?"
+  },
+  {
+   "book": 2,
+   "id": "nd6e0e21ff96",
+   "s": "By which Amendment was Article 31C inserted into the Constitution?"
+  },
+  {
+   "book": 2,
+   "id": "ncfa865647e4",
+   "s": "What did the Twenty-fourth Constitutional Amendment Act, 1971, enacted in response to Golaknath, provide?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-51-14",
+   "s": "In which year was the First Constitutional Amendment Act, which added Articles 31A, 31B and the Ninth Schedule, enacted?"
+  },
+  {
+   "book": 2,
+   "id": "n525bcb69410",
+   "s": "The original Article 31C protected laws giving effect to Articles 39(b) and 39(c) from challenge under which Articles?"
+  },
+  {
+   "book": 2,
+   "id": "f947d35a037b0",
+   "s": "Besides striking down the 42nd Amendment's extension of Article 31C, what did Minerva Mills hold about a proclamation of Emergency?"
+  },
+  {
+   "book": 2,
+   "id": "nfd4383db760",
+   "s": "By which Amendment were Article 31B and the Ninth Schedule inserted?"
+  },
+  {
+   "book": 2,
+   "id": "f42e4da39d925",
+   "s": "In the I.R. Coelho case (2007), which Articles make up the 'golden triangle' test for Ninth Schedule laws?"
+  },
+  {
+   "book": 2,
+   "id": "n47b507788c4",
+   "s": "In Property Owners Association v. State of Maharashtra, on what does it depend whether a privately owned resource falls under Article 39(b)?"
+  },
+  {
+   "book": 2,
+   "id": "n288b5f1f75b",
+   "s": "Who wrote the 7:2 majority opinion in Property Owners Association v. State of Maharashtra (2024)?"
+  },
+  {
+   "book": 2,
+   "id": "f94b63b6610f5",
+   "s": "In the Ranganatha Reddy case (1977), who gave the minority view that Article 39(b) includes all privately owned resources?"
+  },
+  {
+   "book": 2,
+   "id": "fc282f6427b6e",
+   "s": "On which date did the 42nd Amendment, which inserted the Fundamental Duties, come into force?"
+  },
+  {
+   "book": 2,
+   "id": "n493e2bdab7f",
+   "s": "Under which clause of Article 51A is renouncing practices derogatory to the dignity of women a Fundamental Duty?"
+  },
+  {
+   "book": 2,
+   "id": "n0cf3d2f02c9",
+   "s": "Which Article contains the duty of a parent or guardian to provide opportunities for education to a child aged six to fourteen years?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-18-4",
+   "s": "Under which clause of Article 51A is developing scientific temper, humanism and the spirit of inquiry a Fundamental Duty?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-17-15",
+   "s": "Under Article 51A(g), which of the following make up the natural environment that citizens must protect?"
+  },
+  {
+   "book": 2,
+   "id": "n1a4ba3ce922",
+   "s": "What happened to the Swaran Singh Committee's proposal to make payment of taxes a Fundamental Duty?"
+  },
+  {
+   "book": 2,
+   "id": "n8a784ea0770",
+   "s": "Under which Article is protection of monuments of national importance provided?"
+  },
+  {
+   "book": 2,
+   "id": "f28a7632450e0",
+   "s": "Under which Article is safeguarding public property a Fundamental Duty?"
+  },
+  {
+   "book": 2,
+   "id": "n916cd9ba1da",
+   "s": "Critics say the Fundamental Duties are not exhaustive. Which of the following do they omit?"
+  },
+  {
+   "book": 2,
+   "id": "f80ff573eea95",
+   "s": "Under which Article is protecting the weaker sections from social injustice a directive?"
+  },
+  {
+   "book": 2,
+   "id": "nfe86a54e034",
+   "s": "Under the Swaran Singh Committee proposal that was not accepted, who was to prescribe penalties for non-compliance with Fundamental Duties?"
+  },
+  {
+   "book": 2,
+   "id": "f93513ffd500c",
+   "s": "During which of the following was the need for the Swaran Singh Committee felt?"
+  },
+  {
+   "book": 2,
+   "id": "fdad4ed7eb016",
+   "s": "Under which Entries of the Concurrent List did the 42nd Amendment place forests and protection of wild animals and birds?"
+  },
+  {
+   "book": 2,
+   "id": "nb1f01804005",
+   "s": "The Unlawful Activities (Prevention) Act, 1967 relates to which Fundamental Duty?"
+  },
+  {
+   "book": 2,
+   "id": "ne3b6fb3d1cb",
+   "s": "Through which of the following may Fundamental Duties be given legal effect?"
+  },
+  {
+   "book": 2,
+   "id": "nbf85ca6a175",
+   "s": "Why are the Fundamental Duties described as a 'code of moral precepts'?"
+  },
+  {
+   "book": 2,
+   "id": "ffe6173055612",
+   "s": "The J.S. Verma Committee linked the Protection of Civil Rights Act, 1955 to the duty under which Article?"
+  },
+  {
+   "book": 2,
+   "id": "nd0214c2ff52",
+   "s": "In M.K. Ranjitsinh v. Union of India, to which Article was CSR including environmental protection linked?"
+  },
+  {
+   "book": 2,
+   "id": "n9f88a8c1788",
+   "s": "Article 48A, relating to the environment, falls under which of the following?"
+  },
+  {
+   "book": 2,
+   "id": "n29dd29a52eb",
+   "s": "Environmental protection appears in Directive Principle Article 48A. In which Fundamental Duty does it also appear?"
+  },
+  {
+   "book": 2,
+   "id": "f88119f201600",
+   "s": "Why do critics object to the placement of the Fundamental Duties?"
+  },
+  {
+   "book": 2,
+   "id": "n2625cec22b4",
+   "s": "How many Fundamental Duties were there immediately after the Forty-Second Amendment, and how many are there at present?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-21-15",
+   "s": "What does the Constitution provide in case of a deadlock between the two Houses over an Ordinary Bill?"
+  },
+  {
+   "book": 2,
+   "id": "n0ea64af1ceb",
+   "s": "In which manner may a Bill for amendment of the Constitution be introduced?"
+  },
+  {
+   "book": 2,
+   "id": "nf59e7489592",
+   "s": "By which Amendment was it made obligatory for the President to give assent to a Constitution Amendment Bill?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-21-12",
+   "s": "Where must a Constitution Amendment Bill be passed by a special majority?"
+  },
+  {
+   "book": 2,
+   "id": "nfe7f719f672",
+   "s": "For which of the following is ratification by the States required?"
+  },
+  {
+   "book": 2,
+   "id": "n30bd6911c7b",
+   "s": "What does a special majority for amending the Constitution mean?"
+  },
+  {
+   "book": 2,
+   "id": "nb607dccdae5",
+   "s": "What can the President do once a Constitution Amendment Bill is duly passed?"
+  },
+  {
+   "book": 2,
+   "id": "n08ca829b75b",
+   "s": "What happens if either House of Parliament rejects a Constitution Amendment Bill?"
+  },
+  {
+   "book": 2,
+   "id": "n8edc0e72267",
+   "s": "By which procedure can Article 32 be amended?"
+  },
+  {
+   "book": 2,
+   "id": "fd0c6a5b2c5a0",
+   "s": "Which of the following is required to amend the Directive Principles of State Policy?"
+  },
+  {
+   "book": 2,
+   "id": "n0041f387500",
+   "s": "Which of the following is required to create or abolish a State Legislative Council under Article 169?"
+  },
+  {
+   "book": 2,
+   "id": "neb94fcbdb15",
+   "s": "How can changes relating to Articles 2, 3 and 169 of the Constitution be made?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-23-6",
+   "s": "Amendments to specified federal provisions require ratification by how many State Legislatures?"
+  },
+  {
+   "book": 2,
+   "id": "n45469783125",
+   "s": "What majority is required for the impeachment of the President of India?"
+  },
+  {
+   "book": 2,
+   "id": "n81893dddc5d",
+   "s": "The Constitution (131st Amendment) Bill, 2026 proposed raising the maximum strength of the Lok Sabha from 550 to how many?"
+  },
+  {
+   "book": 2,
+   "id": "fc266750cabe8",
+   "s": "India's amendment procedure has no special body (convention). Which of the following is it also without?"
+  },
+  {
+   "book": 2,
+   "id": "n15fc3c7cb3a",
+   "s": "By which Amendment was Article 13(4) inserted?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-23-9",
+   "s": "By which Amendment were privy purses abolished?"
+  },
+  {
+   "book": 2,
+   "id": "n8a6328c8a06",
+   "s": "When was the 42nd Constitutional Amendment Bill introduced in the Lok Sabha?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-23-24",
+   "s": "Part XIV-A, added by the 42nd Amendment, deals with which of the following?"
+  },
+  {
+   "book": 2,
+   "id": "n07a36cd13b2",
+   "s": "After the 44th Amendment, under which Article is the right to property a legal right?"
+  },
+  {
+   "book": 2,
+   "id": "n78a00dd6e79",
+   "s": "By which Amendment were Articles 239AA and 239AB, on Delhi's special status, inserted?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-22-12",
+   "s": "Up to which year did the 84th Amendment extend the freeze of seat allocation on the 1971 Census?"
+  },
+  {
+   "book": 2,
+   "id": "nc1fb70eb404",
+   "s": "What did the earlier Tenth Schedule, added by the 35th Amendment, 1974, deal with?"
+  },
+  {
+   "book": 2,
+   "id": "fdcb6ff6b7846",
+   "s": "What did the 89th Amendment, 2003 provide for?"
+  },
+  {
+   "book": 2,
+   "id": "f2982393fab9e",
+   "s": "The 82nd Amendment allowed relaxation of qualifying marks in promotion through a proviso to which Article?"
+  },
+  {
+   "book": 2,
+   "id": "nindian-polity-43-30",
+   "s": "With which of the following is the 104th Amendment associated?"
+  },
+  {
+   "book": 2,
+   "id": "febbaa88e9daf",
+   "s": "Under Article 243ZJ, what is the maximum number of directors on a co-operative board?"
+  },
+  {
+   "book": 2,
+   "id": "f994e2c337bbe",
+   "s": "What does Article 371E, inserted by the 32nd Amendment, provide for?"
+  },
+  {
+   "book": 2,
+   "id": "f7866d94fdfe7",
+   "s": "By which of the following were Articles 371D and 371E extended to Telangana?"
+  },
+  {
+   "book": 2,
+   "id": "n4d44153c900",
+   "s": "What is the term of the board of a co-operative society under the constitutional provisions?"
+  },
+  {
+   "book": 2,
+   "id": "ndd3cf65d115",
+   "s": "In Rajendra N. Shah v. Union of India (2021), why was Part IXB held inapplicable to State co-operative societies?"
+  },
+  {
+   "book": 2,
+   "id": "fe8180a3cecf5",
+   "s": "Under the 97th Amendment, for whom must a co-operative board reserve seats?"
+  },
+  {
+   "book": 2,
+   "id": "ffd6b4c9bf4af",
+   "s": "What does Article 246A, inserted by the 101st Amendment, provide for?"
+  },
+  {
+   "book": 2,
+   "id": "f21ff5810ee39",
+   "s": "By what majority does the GST Council take its decisions?"
+  },
+  {
+   "book": 2,
+   "id": "fbb44eea7142e",
+   "s": "Through which Article did the 105th Amendment restore the States' power to identify their own SEBCs?"
+  },
+  {
+   "book": 2,
+   "id": "f421ccd8acfb9",
+   "s": "On which date did the 103rd Amendment receive Presidential assent?"
+  },
+  {
+   "book": 2,
+   "id": "f1ea5b8e5f10d",
+   "s": "From which month and year did the nomination of Anglo-Indians to the Lok Sabha and Assemblies end?"
+  },
+  {
+   "book": 2,
+   "id": "fc6fc1fa57c78",
+   "s": "Up to which year did the 104th Amendment extend SC/ST seat reservation under Article 334?"
+  },
+  {
+   "book": 2,
+   "id": "n90fb2a04865",
+   "s": "To the completion of which of the following has the implementation of women's reservation under the 2023 law been linked?"
+  },
+  {
+   "book": 2,
+   "id": "n433d5e00c23",
+   "s": "Under which Articles has one-third reservation for women in Panchayats and Municipalities been provided since 1992?"
+  },
+  {
+   "book": 2,
+   "id": "fd941ac016f95",
+   "s": "Under which Article are seats reserved for women in the Lok Sabha by the 106th Amendment?"
+  },
+  {
+   "book": 2,
+   "id": "f24614b4777bf",
+   "s": "The 129th Amendment Bill, 2024 on One Nation, One Election inserts Article 82A. Which Articles does it amend?"
+  }
+ ],
+ "new": [
+  {
+   "book": 2,
+   "row": 15,
+   "sub": 8,
+   "s": "Consider the following statements:\n1. Protection of the environment, forests and wildlife appears both as a Directive Principle and as a Fundamental Duty.\n2. Free legal aid is a Fundamental Duty of every citizen under Article 51A.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "Environment is in DPSP Article 48A (duty of the State) and FD Article 51A(g) (duty of citizens). Free legal aid is DPSP Article 39A, not a Fundamental Duty.",
+   "angle": "U0289 #14 DPSP vs FD vs both"
+  },
+  {
+   "book": 2,
+   "row": 15,
+   "sub": 8,
+   "s": "Which of the following is found in the Directive Principles but has no matching Fundamental Duty in Article 51A?",
+   "o": [
+    "Protection of forests and wildlife",
+    "Preserving the heritage of composite culture",
+    "Equal justice and free legal aid",
+    "Education of children"
+   ],
+   "a": 2,
+   "x": "Free legal aid is only a Directive Principle (Article 39A). Environment (51A(g)), heritage (51A(f)) and education (51A(k)) also appear as Fundamental Duties.",
+   "angle": "U0289 #14 DPSP vs FD vs both"
+  },
+  {
+   "book": 2,
+   "row": 15,
+   "sub": 3,
+   "s": "Which of the following is a Directive Principle and NOT a Fundamental Right under the Constitution?",
+   "o": [
+    "Right to education for children aged 6-14",
+    "Right against forced labour",
+    "Right to work",
+    "Right to equality before law"
+   ],
+   "a": 2,
+   "x": "The right to work is a Directive Principle under Article 41, not a Fundamental Right. Education for 6-14 (Art. 21A), forced labour ban (Art. 23) and equality (Art. 14) are Fundamental Rights.",
+   "angle": "U0289 PYQ ybd6e709f538 status of a right"
+  },
+  {
+   "book": 2,
+   "row": 15,
+   "sub": 9,
+   "s": "Which of the following days is observed on 9 November, the day the Legal Services Authorities Act came into force in 1995?",
+   "o": [
+    "Constitution Day",
+    "National Legal Services Day",
+    "National Voters' Day",
+    "Human Rights Day"
+   ],
+   "a": 1,
+   "x": "The Legal Services Authorities Act, 1987 came into force on 9 November 1995, so 9 November is National Legal Services Day.",
+   "angle": "U0289 PYQ yf9867a003dd NALSA / legal aid"
+  },
+  {
+   "book": 2,
+   "row": 15,
+   "sub": 9,
+   "s": "Which Directive Principle is given effect by the National Legal Services Authority (NALSA), which organises Lok Adalats?",
+   "o": [
+    "Article 39(d)",
+    "Article 41",
+    "Article 50",
+    "Article 39A"
+   ],
+   "a": 3,
+   "x": "NALSA was formed under the Legal Services Authorities Act, 1987, which implements Article 39A on equal justice and free legal aid.",
+   "angle": "U0289 PYQ yf9867a003dd NALSA / legal aid"
+  },
+  {
+   "book": 2,
+   "row": 16,
+   "sub": 0,
+   "s": "Which of the following may be invoked to determine the ambit of both Fundamental Rights and Directive Principles?",
+   "o": [
+    "The Seventh Schedule",
+    "The Preamble",
+    "Article 368",
+    "The Tenth Schedule"
+   ],
+   "a": 1,
+   "x": "The Preamble states the aims of the Constitution, so it may be used to decide the ambit of both Fundamental Rights and Directive Principles.",
+   "angle": "U0290 PYQ y5bfb8896ac3 Preamble and FR/DPSP scope"
+  },
+  {
+   "book": 2,
+   "row": 16,
+   "sub": 1,
+   "s": "Which of the following famous cases is related to personal liberty under Article 21 and not to the Right to Property or the amending power?",
+   "o": [
+    "Golaknath (1967)",
+    "Kesavananda Bharati (1973)",
+    "Sanjeev Coke (1983)",
+    "Maneka Gandhi (1978)"
+   ],
+   "a": 3,
+   "x": "Maneka Gandhi widened Article 21 by requiring a fair, just and reasonable procedure. Golaknath and Kesavananda dealt with property and amending power; Sanjeev Coke with Article 39(b).",
+   "angle": "U0290 PYQ y3d062583ae8 case not about property"
+  },
+  {
+   "book": 2,
+   "row": 16,
+   "sub": 1,
+   "s": "Arrange the following cases in chronological order:\nA. Minerva Mills\nB. In re Kerala Education Bill\nC. Sanjeev Coke\nD. Golaknath",
+   "o": [
+    "D, B, A, C",
+    "B, D, C, A",
+    "B, D, A, C",
+    "D, B, C, A"
+   ],
+   "a": 2,
+   "x": "Kerala Education Bill (1958), Golaknath (1967), Minerva Mills (1980), Sanjeev Coke (1983).",
+   "angle": "U0290 #2 Cases in chronological order"
+  },
+  {
+   "book": 2,
+   "row": 17,
+   "sub": 5,
+   "s": "From the Constitution of which country was the concept of Fundamental Duties taken?",
+   "o": [
+    "Ireland",
+    "The USA",
+    "The former USSR",
+    "Japan"
+   ],
+   "a": 2,
+   "x": "Fundamental Duties were taken from the Constitution of the former Soviet Union (USSR). Japan only has a comparable list; Ireland is the source of DPSPs.",
+   "angle": "U0291 #5 Source country of FDs"
+  },
+  {
+   "book": 2,
+   "row": 17,
+   "sub": 5,
+   "s": "Which of the following pairs of constitutional feature and source country is correctly matched?",
+   "o": [
+    "Directive Principles – USA",
+    "Fundamental Duties – Former USSR",
+    "Fundamental Rights – Ireland",
+    "Fundamental Duties – Ireland"
+   ],
+   "a": 1,
+   "x": "Fundamental Duties come from the former USSR, Directive Principles from Ireland and Fundamental Rights from the USA.",
+   "angle": "U0291 #5 Source country of FDs"
+  },
+  {
+   "book": 2,
+   "row": 17,
+   "sub": 4,
+   "s": "In which year was the eleventh Fundamental Duty, Article 51A(k), added to the Constitution?",
+   "o": [
+    "1976",
+    "2001",
+    "2002",
+    "2011"
+   ],
+   "a": 2,
+   "x": "The 86th Constitutional Amendment Act, 2002 added Article 51A(k), raising the number of duties from 10 to 11.",
+   "angle": "U0291 #12 Eleventh duty -> amendment and year"
+  },
+  {
+   "book": 2,
+   "row": 17,
+   "sub": 4,
+   "s": "Consider the following statements about Article 51A(k):\n1. It was added by the 86th Constitutional Amendment Act, 2002.\n2. It is addressed to parents or guardians of children aged 6 to 14 years.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: the 86th Amendment (2002) added 51A(k), the only duty addressed to parents or guardians, to give education to children aged 6-14.",
+   "angle": "U0291 #12 Eleventh duty -> amendment and year"
+  },
+  {
+   "book": 2,
+   "row": 17,
+   "sub": 3,
+   "s": "Who set up the Swaran Singh Committee of 1976, which recommended the Fundamental Duties?",
+   "o": [
+    "The Janata government",
+    "The Supreme Court",
+    "The Law Commission",
+    "The Congress party"
+   ],
+   "a": 3,
+   "x": "The Congress party set up the Swaran Singh Committee in 1976, during the Internal Emergency of 1975-77.",
+   "angle": "U0291 #2 Swaran Singh Committee - set up by"
+  },
+  {
+   "book": 2,
+   "row": 19,
+   "sub": 6,
+   "s": "Consider the following statements about the 106th Amendment (women's reservation):\n1. The reservation starts only after delimitation based on the first Census taken after its commencement.\n2. The reservation lasts 15 years and cannot be extended by Parliament.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "The quota begins only after delimitation on the first Census after commencement. It lasts 15 years but Parliament can extend it by law, so statement 2 is wrong.",
+   "angle": "U0293 #14 106th Amendment commencement and duration"
+  },
+  {
+   "book": 2,
+   "row": 19,
+   "sub": 0,
+   "s": "Match the following:\nList-I (Amendment)\nA. 12th Amendment\nB. 15th Amendment\nC. 58th Amendment\nD. 96th Amendment\nList-II (Change)\n1. Authoritative Hindi text of the Constitution\n2. 'Oriya' changed to 'Odia'\n3. Goa, Daman and Diu made a Union Territory\n4. Retirement age of High Court judges raised from 60 to 62\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-4, B-3, C-1, D-2",
+    "A-3, B-4, C-1, D-2",
+    "A-3, B-4, C-2, D-1",
+    "A-1, B-4, C-3, D-2"
+   ],
+   "a": 1,
+   "x": "12th (1962) made Goa, Daman and Diu a UT; 15th (1963) raised HC judges' retirement age to 62; 58th (1987) gave the Hindi text; 96th (2011) changed Oriya to Odia.",
+   "angle": "U0293 #1 Amendment number -> subject (12th, 15th match)"
+  },
+  {
+   "book": 2,
+   "row": 20,
+   "sub": 1,
+   "s": "Which Article was amended by the 97th Amendment to make the right to form co-operative societies a Fundamental Right?",
+   "o": [
+    "19(1)(b)",
+    "21",
+    "19(1)(c)",
+    "43B"
+   ],
+   "a": 2,
+   "x": "The 97th Amendment (2011) added co-operative societies to Article 19(1)(c); Article 43B is the Directive Principle it added.",
+   "angle": "U0294 #2 97th Amendment - Article 19(1)(c)"
+  },
+  {
+   "book": 2,
+   "row": 20,
+   "sub": 1,
+   "s": "Consider the following statements about Part IXB (co-operative societies):\n1. A co-operative board can have a maximum of 21 directors.\n2. The accounts must be audited within six months of the close of the financial year.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both are correct: Article 243ZJ caps the board at 21 directors, and audit must be done within six months of the end of the financial year.",
+   "angle": "U0294 #2 97th Amendment - Part IXB board and audit"
+  }
+ ]
+}
