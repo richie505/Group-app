@@ -22,7 +22,9 @@ edit an existing MCQ or PYQ, and never edit the notes.
   relation, not necessarily the same fact; a PYQ asking "author of Mudrarakshasa" is covered by own MCQs asking
   authors of other works of the same period, or the same book the other way round)? Covered / missing.
   The PYQ itself does not count: the point is practice beyond the PYQ. A PYQ with no key or a doubtful key still
-  counts fully: what matters is the angle it asks and how it asks it.
+  counts fully: what matters is the angle it asks and how it asks it. Only an APPSC PYQ plainly filed under the
+  wrong topic (its subject is not in this topic's notes at all) is left out of the count; list it in `missing`
+  as "misfiled".
 
 ## Write MCQs for what is missing
 
