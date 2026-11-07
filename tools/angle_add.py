@@ -13,6 +13,18 @@ norm = lambda t: re.sub(r"\W+", " ", t.lower()).strip()
 
 def main(path, dry):
     d = json.load(open(path))
+    if d.get("notes"):  # web-found facts added to the notes first (tools/notes_fix.py ops, APPSC Complete)
+        import os, subprocess, tempfile
+        tf = tempfile.NamedTemporaryFile("w", suffix=".json", delete=False)
+        json.dump(d["notes"], tf, ensure_ascii=False); tf.close()
+        r = subprocess.run([sys.executable, "tools/notes_fix.py", "apply", tf.name] + (["--dry"] if dry else []),
+                           env={**os.environ, "NOTES_APP": "complete"}, capture_output=True, text=True)
+        print("notes: " + r.stdout.strip().splitlines()[-1] if r.stdout.strip() else "notes: ?", end="; ")
+        if r.returncode:
+            print("\nnotes edits refused, nothing applied:\n" + r.stdout); return
+        if not dry:
+            with open("data/angle2/notes_added.jsonl", "a") as f:
+                for o in d["notes"]: f.write(json.dumps({"file": path, **o}, ensure_ascii=False) + "\n")
     new = d.get("new", [])
     rw = d.get("reword", [])
     index = json.load(open(f"{A}/index.json"))
@@ -61,7 +73,7 @@ def main(path, dry):
         with open("data/angle2/reworded.jsonl", "a") as f:  # the old stems, so any rewording can be undone
             for o in rlog: f.write(json.dumps(o, ensure_ascii=False) + "\n")
         with open("data/angle2/added.jsonl", "a") as f:
-            for q in new: f.write(json.dumps({"file": path, "angle": q.get("angle", ""), "s": q.get("s", "")[:80]}, ensure_ascii=False) + "\n")
+            for q in new: f.write(json.dumps({"file": path, "angle": q.get("angle", ""), "s": q.get("s", "")[:80], **({"web": q["web"]} if q.get("web") else {})}, ensure_ascii=False) + "\n")
     print(f"{added}/{len(new)} new MCQs and {reworded}/{len(rw)} rewordings {'would be ' if dry else ''}applied" + (f"; refused: {bad}" if bad else ""))
 
 
