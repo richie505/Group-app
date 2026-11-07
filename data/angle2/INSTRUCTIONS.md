@@ -21,7 +21,8 @@ edit an existing MCQ or PYQ, and never edit the notes.
 - **APPSC PYQ angles.** For each APPSC PYQ in the topic: is there an own MCQ that tests the same angle (same kind of
   relation, not necessarily the same fact; a PYQ asking "author of Mudrarakshasa" is covered by own MCQs asking
   authors of other works of the same period, or the same book the other way round)? Covered / missing.
-  The PYQ itself does not count: the point is practice beyond the PYQ.
+  The PYQ itself does not count: the point is practice beyond the PYQ. A PYQ with no key or a doubtful key still
+  counts fully: what matters is the angle it asks and how it asks it.
 
 ## Write MCQs for what is missing
 
@@ -40,6 +41,31 @@ APPSC asked the angle repeatedly:
 - `sub` is the notes subsection number (SUB n in `show`) the fact comes from, or -1.
 - Do not write an MCQ that repeats an own MCQ already in the topic.
 
+## APPSC wording (the user's rule: our MCQs must read like APPSC's)
+
+Frame every new MCQ the way the topic's APPSC PYQs are framed: the same kind of words, phrases and sentence
+structure. Copy their framing, not their facts. Across all APPSC PYQs:
+
+- 60% are direct questions ending in "?"; only 10% are fill-ins ending in ":". Our own MCQs are 45% fill-ins
+  ("X is:", "X was founded by:", "The capital was:") — APPSC asks "Who founded X?", "Which was the capital of X?".
+- Typical APPSC openers: "Which of the following …?", "Who among the following …?", "Who was the first …?",
+  "In which year was/did …?", "In which of the following …?", "What is the name of …?", "Who is the author of …?",
+  "Which among the following …?", "Who was the founder of …?", "Which Article of the Constitution …?",
+  "Where was the first …?", "What is the full form of …?", "Consider the following statements: … Which of the
+  statements given above is/are correct?", "Match the following: List-I … List-II", "Select the correct answer
+  using the code given below".
+- We overuse "Which one of the following …" and "Consider the following statements"; prefer the opener the
+  topic's APPSC PYQs use for that angle.
+- Plain, short, exam English; no "best described as", no meta-words ("APPSC asked", "according to the notes").
+
+## Reword existing own MCQs
+
+In each topic, also reword the stems of own MCQs (ids not starting "y") that are framed unlike APPSC — chiefly the
+"…:" fill-ins and awkward or wordy stems — into APPSC wording, keeping the SAME fact, the SAME options in the same
+order and the SAME answer. Only the stem changes, and the reworded stem must still fit the options exactly (e.g.
+options are people -> "Who …?"; years -> "In which year …?"). Leave stems that already read like APPSC alone;
+never reword a PYQ. List rewordings in `reword`.
+
 ## Output
 
 `data/angle2/out-<packet>.json`:
@@ -48,13 +74,14 @@ APPSC asked the angle repeatedly:
 {"units": [{"u": "U0001", "kw_total": 13, "kw_covered": 9, "kw_partly": 2, "kw_missing": 2,
             "appsc_pyqs": 14, "appsc_covered": 11,
             "missing": ["#5 Earliest inscriptions -> script decipherer", "PYQ y… Kalhana -> Rajatarangini angle"]}],
+ "reword": [{"book": 1, "id": "n…", "s": "Who among the following founded …?"}],
  "new": [{"book": 1, "row": 0, "sub": 3, "s": "…", "o": ["…", "…", "…", "…"], "a": 2, "x": "…",
           "angle": "U0001 #5 Earliest inscriptions -> decipherer"}]}
 ```
 
-Check: `python3 tools/angle_add.py data/angle2/out-<packet>.json --dry` must add all your new MCQs with none
-refused. Run ONLY with `--dry`; never apply, never commit, never edit other files. Write
+Check: `python3 tools/angle_add.py data/angle2/out-<packet>.json --dry` must apply all your new MCQs and rewordings
+with none refused. Run ONLY with `--dry`; never apply, never commit, never edit other files. Write
 `data/angle2/report-<packet>.md` (per unit: counts and what was missing); if the harness will not let you write
 the report, put it in your final message.
 
-Reply first in one line: `<packet>: keyword angles C/T covered (P partly), APPSC PYQ angles C/T covered, N new MCQs`.
+Reply first in one line: `<packet>: keyword angles C/T covered (P partly), APPSC PYQ angles C/T covered, N new MCQs, R reworded`.
