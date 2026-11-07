@@ -7,8 +7,8 @@ a042: keyword angles 99/120 covered (20 partly), APPSC PYQ angles 84/114 covered
 | U0253 | 1:252 Ambedkar's social thought | 8/0/0 of 8 | 1/1 | 0 | 18 |
 | U0254 | 1:253 Constituent Assembly | 7/1/1 of 9 | 2/2 | 4 | 22 |
 | U0255 | 1:254 Nehru era | 6/1/0 of 7 | 1/2 | 3 | 27 |
-| U0256 | 1:255 Andhra Movement, Andhra State 1953 | 65/17/0 of 82 | 73/102 | 32 | 109 |
-| U0257 | 1:256 Wanchoo Committee | 7/0/0 of 7 | 6/6 | 0 | 19 |
+| U0256 | 1:255 Andhra Movement, Andhra State 1953 | 65/17/0 of 82 | 73/102 | 32 | 107 |
+| U0257 | 1:256 Wanchoo Committee | 7/0/0 of 7 | 6/6 | 0 | 21 |
 | U0258 | 1:257 Press in the Andhra Movement | 6/1/0 of 7 | 1/1 | 4 | 21 |
 
 ## What was missing
