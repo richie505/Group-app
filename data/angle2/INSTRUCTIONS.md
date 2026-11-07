@@ -26,6 +26,13 @@ edit an existing MCQ or PYQ, and never edit the notes.
   wrong topic (its subject is not in this topic's notes at all) is left out of the count; list it in `missing`
   as "misfiled".
 
+- **Notes facts with no MCQ (the user's rule).** Read each topic's notes sentence by sentence. A fact that APPSC
+  would ask — it fits a blueprint keyword or the angle vocabulary (first/largest, who/which/where/when, founder,
+  author, title, capital, Article, Act + year, committee + chairman, scheme + objective, location, inscription,
+  ranking, data point) or it is the kind of fact the topic's APPSC PYQs ask — but that no MCQ (own or PYQ) tests,
+  is a gap. Fill these too. Skip trivia (minor officials, attendee counts, venue of a minor meeting, page-filler
+  dates) and facts already tested.
+
 ## Write MCQs for what is missing
 
 For each missing (or only partly covered) angle write 1-2 new MCQs, more (up to 4) for a CORE or HIGH unit when
@@ -75,7 +82,8 @@ never reword a PYQ. List rewordings in `reword`.
 ```json
 {"units": [{"u": "U0001", "kw_total": 13, "kw_covered": 9, "kw_partly": 2, "kw_missing": 2,
             "appsc_pyqs": 14, "appsc_covered": 11,
-            "missing": ["#5 Earliest inscriptions -> script decipherer", "PYQ y… Kalhana -> Rajatarangini angle"]}],
+            "missing": ["#5 Earliest inscriptions -> script decipherer", "PYQ y… Kalhana -> Rajatarangini angle"],
+            "notes_gaps": 4}],
  "reword": [{"book": 1, "id": "n…", "s": "Who among the following founded …?"}],
  "new": [{"book": 1, "row": 0, "sub": 3, "s": "…", "o": ["…", "…", "…", "…"], "a": 2, "x": "…",
           "angle": "U0001 #5 Earliest inscriptions -> decipherer"}]}
@@ -86,4 +94,4 @@ with none refused. Run ONLY with `--dry`; never apply, never commit, never edit 
 `data/angle2/report-<packet>.md` (per unit: counts and what was missing); if the harness will not let you write
 the report, put it in your final message.
 
-Reply first in one line: `<packet>: keyword angles C/T covered (P partly), APPSC PYQ angles C/T covered, N new MCQs, R reworded`.
+Reply first in one line: `<packet>: keyword angles C/T covered (P partly), APPSC PYQ angles C/T covered, G notes gaps, N new MCQs, R reworded`.
