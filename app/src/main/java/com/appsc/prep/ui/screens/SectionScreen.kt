@@ -128,7 +128,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                     }
                     Spacer(Modifier.height(14.dp))
                     Button(
-                        onClick = { nav.read(bookId, rowIndex, firstUnread) },
+                        onClick = { (if (day > 0) nav.dayRead(bookId, rowIndex, firstUnread, day) else nav.read(bookId, rowIndex, firstUnread)) },
                         modifier = Modifier.fillMaxWidth().height(48.dp),
                         shape = RoundedCornerShape(12.dp),
                         colors = ButtonDefaults.buttonColors(containerColor = C.Accent),
@@ -178,7 +178,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                     Row(
                         Modifier
                             .fillMaxWidth()
-                            .clickable { nav.read(bookId, rowIndex, i) }
+                            .clickable { (if (day > 0) nav.dayRead(bookId, rowIndex, i, day) else nav.read(bookId, rowIndex, i)) }
                             .padding(horizontal = 20.dp, vertical = 12.dp),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {

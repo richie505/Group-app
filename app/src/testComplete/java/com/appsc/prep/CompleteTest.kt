@@ -69,6 +69,22 @@ class CompleteTest {
         return app
     }
 
+    /** Read from a plan day: Next at a topic's last page goes to the day's next topic, not the book's next row. */
+    @Test fun readerNextFollowsThePlanDay() {
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        val (d, a, b) = app.repo.plan.days.filter { it.n >= 1 }.firstNotNullOf { d ->
+            d.rows.zipWithNext().firstOrNull { (x, y) -> x.book == y.book && y.row != x.row + 1 }?.let { Triple(d.n, it.first, it.second) }
+        }
+        val book = runBlocking { app.repo.mcq(a.book); app.repo.book(a.book) }!!
+        val last = book.rows[a.row].secs.indices.last { !book.rows[a.row].secs[it].full && !book.rows[a.row].secs[it].empty }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { ReaderScreen(a.book, a.row, last, nav, d) } } }
+        rule.waitForIdle()
+        rule.onNode(androidx.compose.ui.test.hasScrollAction()).performScrollToNode(hasText("Next topic"))
+        rule.onNodeWithText("Next topic").assertExists()
+        rule.onNodeWithText(book.rows[b.row].title).assertExists()
+        rule.onRoot().captureRoboImage("screenshots/complete/16_reader_next_plan_topic.png")
+    }
+
     /** A topic's subsections and its full-notes pages as one numbered list, without the "Full notes" heading. */
     @Test fun aTopicIsOneListOfSubsections() {
         shot("12_topic_one_list", 4) { com.appsc.prep.ui.screens.SectionScreen(4, 30, nav) }

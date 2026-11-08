@@ -78,6 +78,9 @@ interface Nav {
     /** A topic opened from plan day [day]: its Next / Previous go through the plan's days, not the subject. */
     fun dayRow(book: Int, row: Int, day: Int) = row(book, row)
     fun read(book: Int, row: Int, sec: Int)
+    /** A page read from plan day [day]: Next / Previous at a topic's end go to the day's next topic, not the book's.
+     *  [sec] -1 = the topic's first page, -2 = its last. */
+    fun dayRead(book: Int, row: Int, sec: Int, day: Int) = read(book, row, maxOf(sec, 0))
     fun book(id: Int)
     fun back()
 }

@@ -119,15 +119,19 @@ private fun Book.prev(p: Pos): Pos? {
         ?.let { r -> Pos(r, rows[r].run(false).last()) }
 }
 
+/** Where the page's Next / Previous goes: a page of this book, or (read from a plan day) the day's next topic. */
+private data class Step(val book: Int, val row: Int, val sec: Int, val day: Int, val title: String, val topic: Boolean)
+
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
+fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav, day: Int = 0) {
     val app = LocalApp.current
     val store = app.store
     val book = rememberBook(bookId)
     val mcq by androidx.compose.runtime.produceState(app.repo.cachedMcq(bookId), bookId) { value = app.repo.mcq(bookId) }
     var rowI by rememberSaveable { mutableStateOf(rowIndex) }
     var secI by rememberSaveable { mutableStateOf(secIndex) }
+    var dayI by rememberSaveable { mutableStateOf(day) } // > 0: opened from this plan day
     var tocOpen by rememberSaveable { mutableStateOf(false) }
     var sizeMenu by remember { mutableStateOf(false) }
     val listState = rememberLazyListState()
@@ -140,13 +144,31 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         }
         return
     }
+    // -1 / -2: the topic's first / last page (a plan day's next or previous topic)
+    fun edge(r: Int, last: Boolean): Int {
+        val run = book.rows[r].run(false).ifEmpty { book.rows[r].secs.indices.toList() }
+        return if (last) run.last() else run.first()
+    }
+    if (secI < 0) secI = edge(rowI, secI == -2)
     val row = book.rows[rowI]
     val id = subsectionId(bookId, rowI, secI)
     val revision = app.repo.revision // APPSC Revision: the page's revision facts
     val sec = row.secs[secI.coerceIn(0, row.secs.size - 1)]
     val pos = Pos(rowI, secI)
-    val next = book.next(pos)
-    val prev = book.prev(pos)
+    // Next / Previous: page by page through the topic; at the topic's end, opened from a plan day, on to the
+    // day's next topic (then the next day's), as the topic page's own buttons do; otherwise on through the book
+    val seq = remember(app.repo.plan) {
+        app.repo.plan.days.filter { it.n >= 1 }.flatMap { d -> d.rows.map { Triple(d.n, it.book, it.row) } }
+    }
+    val at = if (dayI > 0) seq.indexOfFirst { it.first == dayI && it.second == bookId && it.third == rowI } else -1
+    fun planStep(t: Triple<Int, Int, Int>?, last: Boolean) = t?.let { (d, b, r) ->
+        Step(b, r, if (b == bookId) edge(r, last) else if (last) -2 else -1, d, app.repo.rowInfo(b, r)?.title ?: "", true)
+    }
+    fun bookStep(p: Pos?) = p?.let { Step(bookId, it.row, it.sec, dayI, book.rows[it.row].secs[it.sec].title, it.row != rowI) }
+    val bookNext = book.next(pos)
+    val bookPrev = book.prev(pos)
+    val next = if (at >= 0 && bookNext?.row != rowI) planStep(seq.getOrNull(at + 1), false) else bookStep(bookNext)
+    val prev = if (at >= 0 && bookPrev?.row != rowI) planStep(seq.getOrNull(at - 1), true) else bookStep(bookPrev)
     val scale = store.textScale
 
     LaunchedEffect(id) {
@@ -158,6 +180,16 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
     fun go(p: Pos) {
         rowI = p.row
         secI = p.sec
+    }
+
+    fun go(s: Step) {
+        if (s.book == bookId) {
+            rowI = s.row
+            secI = s.sec
+            dayI = s.day
+        } else {
+            nav.dayRead(s.book, s.row, s.sec, s.day)
+        }
     }
 
     var keyTerm by remember { mutableStateOf<String?>(null) }
@@ -575,10 +607,10 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                     if (prev != null) {
                                         Row(verticalAlignment = Alignment.CenterVertically) {
                                             Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, null, tint = C.Navy)
-                                            Text("Previous", style = TextStyle(fontSize = 16.sp, color = C.Navy))
+                                            Text(if (prev.topic) "Previous topic" else "Previous", style = TextStyle(fontSize = 16.sp, color = C.Navy))
                                         }
                                         Text(
-                                            book.rows[prev.row].secs[prev.sec].title,
+                                            prev.title,
                                             style = TextStyle(fontSize = 14.sp, lineHeight = 19.sp, color = C.Faint),
                                             maxLines = 2, overflow = TextOverflow.Ellipsis,
                                             modifier = Modifier.padding(start = 24.dp),
@@ -595,11 +627,11 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                 ) {
                                     if (next != null) {
                                         Row(verticalAlignment = Alignment.CenterVertically) {
-                                            Text("Next", style = TextStyle(fontSize = 16.sp, color = C.Navy))
+                                            Text(if (next.topic) "Next topic" else "Next", style = TextStyle(fontSize = 16.sp, color = C.Navy))
                                             Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Navy)
                                         }
                                         Text(
-                                            book.rows[next.row].secs[next.sec].title,
+                                            next.title,
                                             style = TextStyle(fontSize = 14.sp, lineHeight = 19.sp, color = C.Faint),
                                             maxLines = 2, overflow = TextOverflow.Ellipsis,
                                             modifier = Modifier.padding(end = 24.dp),
