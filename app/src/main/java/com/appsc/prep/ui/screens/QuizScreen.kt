@@ -90,6 +90,9 @@ fun rememberPool(src: QuizSource): List<Question>? {
         value = when (src.kind) {
             "row" -> app.repo.mcq(src.book).rows[src.index] ?: emptyList()
             "sub" -> app.repo.mcq(src.book).subQuestions(src.index, src.sub)
+            // the app's own MCQs or the past-paper questions (ids "y") of a subsection / section, apart
+            "subapp", "subpyq" -> app.repo.mcq(src.book).subQuestions(src.index, src.sub).filter { com.appsc.prep.ui.components.isPyq(it) == (src.kind == "subpyq") }
+            "rowapp", "rowpyq" -> (app.repo.mcq(src.book).rows[src.index] ?: emptyList()).filter { com.appsc.prep.ui.components.isPyq(it) == (src.kind == "rowpyq") }
             "unit" -> app.repo.mcq(src.book).units[src.index] ?: emptyList()
             "due" -> duePool(app, src.index)
             // today's practice session: due revision first, then new MCQs in the plan's order ([DailyTarget])

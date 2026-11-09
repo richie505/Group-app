@@ -509,3 +509,47 @@ fun PracticeCard(
         }
     }
 }
+
+
+/** A past-paper question (PYQ): its id starts with "y"; the app's own MCQs do not. */
+fun isPyq(q: com.appsc.prep.data.Question) = q.id.startsWith("y")
+
+/** Where a set of PYQs was asked: "APPSC 5 · UPSC 2 · other PSCs 3". */
+fun pyqDepth(qs: List<com.appsc.prep.data.Question>): String {
+    val upsc = Regex("""UPSC|I\.A\.S|\bIAS\b|\bCSE\b|Civil Services""")
+    val a = qs.count { "APPSC" in it.source }
+    val u = qs.count { "APPSC" !in it.source && upsc.containsMatchIn(it.source) }
+    val o = qs.size - a - u
+    return listOfNotNull("APPSC $a".takeIf { a > 0 }, "UPSC $u".takeIf { u > 0 }, "other PSCs $o".takeIf { o > 0 }).joinToString(" · ")
+}
+
+/** A subsection's or section's MCQs as two cards: the app's own MCQs, then the PYQs (with where they were asked). */
+@Composable
+fun SplitPracticeCards(
+    qs: List<com.appsc.prep.data.Question>,
+    what: String,
+    title: String,
+    kind: String, // "sub" or "row"
+    onQuiz: (kind: String, mode: String) -> Unit,
+) {
+    val store = LocalApp.current.store
+    val own = qs.filterNot(::isPyq)
+    val pyq = qs.filter(::isPyq)
+    @Composable
+    fun card(part: List<com.appsc.prep.data.Question>, label: String, sub: String, k: String) {
+        val ids = part.map { it.id }
+        val stats = store.quizStats(ids)
+        PracticeCard(
+            title = label,
+            subtitle = sub,
+            attempted = Triple(stats.first, stats.second, ids.size),
+            onStart = { onQuiz(k, "new") },
+            onWrong = { onQuiz(k, "wrong") },
+            sets = practiceSets(ids, store.answers, store.seen),
+            onSet = { mode -> onQuiz(k, mode) },
+        )
+    }
+    if (own.isNotEmpty()) card(own, "$what app MCQs", "${own.size} MCQs · $title", kind + "app")
+    if (own.isNotEmpty() && pyq.isNotEmpty()) Spacer(Modifier.height(10.dp))
+    if (pyq.isNotEmpty()) card(pyq, "$what PYQs", "${pyq.size} PYQs · ${pyqDepth(pyq)}", kind + "pyq")
+}

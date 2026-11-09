@@ -513,6 +513,22 @@ class CompleteTest {
         assertTrue("${bad.size} of ${all.size} MCQs search badly, e.g. ${bad.take(5)}", bad.size * 1000 < all.size) // under 0.1%
     }
 
+    /** A subsection's practice: the app's own MCQs and the PYQs as two cards, the PYQs with where they were asked. */
+    @Test fun subsectionShowsAppMcqsAndPyqsApart() {
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        val m = runBlocking { app.repo.book(4); app.repo.mcq(4) }
+        val (r, sx) = m.rows.keys.sorted().firstNotNullOf { r ->
+            (0 until 12).firstOrNull { sx -> m.subQuestions(r, sx).let { q -> q.count { it.id.startsWith("y") } >= 3 && q.any { !it.id.startsWith("y") } } }?.let { r to it }
+        }
+        val pyqs = m.subQuestions(r, sx).count { it.id.startsWith("y") }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { ReaderScreen(4, r, sx, nav) } } }
+        rule.waitForIdle()
+        rule.onNode(androidx.compose.ui.test.hasScrollAction()).performScrollToNode(hasText("This subsection's PYQs"))
+        rule.onNodeWithText("This subsection's app MCQs").assertExists()
+        rule.onNodeWithText("$pyqs PYQs", substring = true).assertExists()
+        rule.onRoot().captureRoboImage("screenshots/complete/17_subsection_app_mcqs_and_pyqs.png")
+    }
+
     /** No PYQ question carries the previous question's pasted explanation in front of it. */
     @Test fun noPyqStemCarriesAPastedExplanation() {
         val repo = Repository { ctx.assets.open(it) }

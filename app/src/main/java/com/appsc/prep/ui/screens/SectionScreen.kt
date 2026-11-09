@@ -265,6 +265,13 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                         sets = ids?.let { practiceSets(it, app.store.answers, app.store.seen) },
                         onSet = { mode -> nav.quiz("row", bookId, rowIndex, mode) },
                     )
+                    // the same, the app's own MCQs and the past-paper questions apart
+                    mcq?.rows?.get(rowIndex)?.let { qs ->
+                        Spacer(Modifier.height(10.dp))
+                        com.appsc.prep.ui.components.SplitPracticeCards(qs, "Section", info.title, "row") { k, mode ->
+                            nav.quiz(k, bookId, rowIndex, mode)
+                        }
+                    }
                 }
             }
             // on to the next topic (or back) without going back to the list: opened from a plan day, through the

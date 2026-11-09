@@ -563,20 +563,14 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav, day: Int =
                                     style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
                                 )
                             }
-                            val subIds = mcq?.subQuestions(rowI, secI)?.map { it.id }.orEmpty()
-                            if (subIds.isNotEmpty()) {
-                                // what of this subsection is not attempted, wrong or due for practice, as for the section
+                            val subQs = mcq?.subQuestions(rowI, secI).orEmpty()
+                            if (subQs.isNotEmpty()) {
+                                // what of this subsection is not attempted, wrong or due for practice: the app's own
+                                // MCQs and the past-paper questions apart, so the PYQs done can be seen
                                 Spacer(Modifier.height(14.dp))
-                                val stats = app.store.quizStats(subIds)
-                                PracticeCard(
-                                    title = "This subsection's MCQs",
-                                    subtitle = "${mcqCount(subIds.size)} · ${sec.title}",
-                                    attempted = Triple(stats.first, stats.second, subIds.size),
-                                    onStart = { nav.quiz("sub", bookId, rowI, sub = secI) },
-                                    onWrong = { nav.quiz("sub", bookId, rowI, "wrong", sub = secI) },
-                                    sets = practiceSets(subIds, app.store.answers, app.store.seen),
-                                    onSet = { mode -> nav.quiz("sub", bookId, rowI, mode, sub = secI) },
-                                )
+                                com.appsc.prep.ui.components.SplitPracticeCards(subQs, "This subsection's", sec.title, "sub") { k, mode ->
+                                    nav.quiz(k, bookId, rowI, mode, sub = secI)
+                                }
                             }
                             val qCount = app.repo.rowInfo(bookId, rowI)?.questionCount ?: 0
                             if (secI == row.secs.size - 1 && qCount > 0) {
