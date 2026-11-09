@@ -513,6 +513,16 @@ class CompleteTest {
         assertTrue("${bad.size} of ${all.size} MCQs search badly, e.g. ${bad.take(5)}", bad.size * 1000 < all.size) // under 0.1%
     }
 
+    /** No PYQ question carries the previous question's pasted explanation in front of it. */
+    @Test fun noPyqStemCarriesAPastedExplanation() {
+        val repo = Repository { ctx.assets.open(it) }
+        val qs = runBlocking { (1..6).flatMap { repo.mcq(it).rows.values.flatten() } }
+        assertEquals("When did man first land on the Moon?", qs.first { it.id == "y4eb66c5caea" }.stem)
+        val leaked = qs.filter { q -> q.id.startsWith("y") && Regex("""\*[A-Z].{100,}\s\d{1,3}\.\s+(Which|What|When|Who)""").containsMatchIn(q.stem) }
+        assertTrue("pasted explanations: ${leaked.map { it.id }}", leaked.isEmpty())
+        assertTrue("a question over 1,200 characters", qs.none { it.stem.length > 1200 })
+    }
+
     @Test fun planMcqFileIsCurrent() {
         val repo = Repository { ctx.assets.open(it) }
         val books = runBlocking { (1..6).associateWith { repo.mcq(it) } }

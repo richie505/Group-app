@@ -6,7 +6,7 @@ id -> {"s": repaired text or null, "note"}) into both apps. null: beyond repair,
 import json
 
 FIX = {k: v["s"] for k, v in json.load(open("data/pyq/stemfix/out.json")).items() if v.get("s")}
-for app in ("main", "complete"):
+for app in ("main", "complete", "oneliner"):
     n = 0
     for b in range(1, 7):
         p = f"app/src/{app}/assets/mcq{b}.json"
@@ -22,7 +22,7 @@ for app in ("main", "complete"):
 # options with scan debris (data/pyq/stemfix/opts-out.json: id -> {"o", optional "s"} | {"same"} | {"broken"}):
 # options cleaned in place, in the same order, keys unchanged
 OPTS = {k: v for k, v in json.load(open("data/pyq/stemfix/opts-out.json")).items() if isinstance(v.get("o"), list) and len(v["o"]) == 4}
-for app in ("main", "complete"):
+for app in ("main", "complete", "oneliner"):
     n = 0
     for b in range(1, 7):
         p = f"app/src/{app}/assets/mcq{b}.json"
@@ -43,7 +43,7 @@ EXPLAIN = {
     "y0d63a80ec51": "Keyed as the 2018 paper had it: then Jupiter had the most known moons (79). Newer discoveries "
                     "have since given Saturn the most (over 140 since 2023), so a current paper would key Saturn.",
 }
-for app in ("main", "complete"):
+for app in ("main", "complete", "oneliner"):
     for b in range(1, 7):
         p = f"app/src/{app}/assets/mcq{b}.json"
         m = json.load(open(p))
