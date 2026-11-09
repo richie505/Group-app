@@ -565,6 +565,19 @@ class CompleteTest {
     }
 
     /** The Today tab shows what is due from earlier plan days under today's practice, so due MCQs done count there. */
+    /** A plan day's practice: the day's app MCQs and PYQs as their own cards, under the day's MCQs. */
+    @Test fun dayShowsAppMcqsAndPyqsApart() {
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(MemStorage()), AndroidPlatform(ctx))
+        val day = app.repo.plan.days.first { it.n >= 1 && it.rows.isNotEmpty() }
+        runBlocking { day.rows.forEach { app.repo.mcq(it.book); app.repo.book(it.book) } }
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.DayScreen(day.n, nav) } } }
+        rule.waitForIdle()
+        rule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Today's PYQs"))
+        rule.waitForIdle()
+        rule.onNodeWithText("Today's app MCQs").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/complete/18_day_app_mcqs_and_pyqs.png")
+    }
+
     @Test fun todayTabShowsDue() {
         val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(MemStorage()), AndroidPlatform(ctx))
         val today = java.time.LocalDate.now()

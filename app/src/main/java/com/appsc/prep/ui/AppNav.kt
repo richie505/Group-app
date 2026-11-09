@@ -122,6 +122,8 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
             val src = QuizSource(a.getString("k")!!, a.getInt("b"), a.getInt("i"), a.getInt("s"))
             val title = when (src.kind) {
                 "day" -> "Day ${src.index} MCQs"
+                "dayapp" -> "Day ${src.index}: app MCQs"
+                "daypyq" -> "Day ${src.index}: PYQs"
                 "sub" -> if (src.sub < 0) "Other MCQs" else "Subsection MCQs"
                 "row" -> "Section MCQs"
                 "subapp" -> "Subsection: app MCQs"

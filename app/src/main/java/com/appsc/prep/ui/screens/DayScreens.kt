@@ -359,6 +359,13 @@ private fun DayPracticeCard(day: PlanDay, nav: Nav) {
         sets = sets,
         onSet = { mode -> nav.quiz("day", 0, day.n, mode) },
     )
+    // the same, the app's own MCQs and the past-paper questions apart (with where the PYQs were asked)
+    if (pool != null) {
+        Spacer(Modifier.height(10.dp))
+        com.appsc.prep.ui.components.SplitPracticeCards(pool, "Today's", "today's sections", "day") { k, mode ->
+            nav.quiz(k, 0, day.n, mode)
+        }
+    }
     // APPSC Complete: today's practice counts only today's own MCQs; what is due from earlier days shows here too
     if (app.repo.complete && day.date == LocalDate.now()) {
         val status = rememberDueStatus()

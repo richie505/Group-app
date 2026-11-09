@@ -101,11 +101,13 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "need" -> app.repo.index.flatMap { b ->
                 app.repo.mcqWhere(b.id) { needsPractice(it.id, app.store.answers, app.store.seen) }
             }.distinctBy { it.id }
-            // a plan day: every MCQ of its sections, in the day's order (read straight from those books: quick)
+            // a plan day: every MCQ of its sections, in the day's order (read straight from those books: quick);
+            // "dayapp" / "daypyq": only the app's own MCQs / only the past-paper questions
             else -> {
                 val day = app.repo.plan.days.first { it.n == src.index }
                 val seen = HashSet<String>()
                 day.rows.flatMap { r -> app.repo.mcq(r.book).rows[r.row] ?: emptyList() }.filter { seen.add(it.id) }
+                    .filter { src.kind == "day" || com.appsc.prep.ui.components.isPyq(it) == (src.kind == "daypyq") }
             }
         }
     }
