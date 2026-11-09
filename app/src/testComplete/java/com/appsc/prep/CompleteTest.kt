@@ -238,7 +238,7 @@ class CompleteTest {
                 assertEquals("book $b row $ri: MCQ count in the index", repo.index[b - 1].rows[ri].questionCount, qs.size)
             }
         }
-        assertEquals(94200, mcqs)
+        assertEquals(98542, mcqs)
         assertEquals(mcqs, repo.planIds.size)
         assertTrue(repo.merged.keys.all { it in repo.planIds })
         val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
