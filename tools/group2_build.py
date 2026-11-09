@@ -123,6 +123,8 @@ for b, book in enumerate(idx["books"], 1):
 W(f"{G}/index.json", dict(idx, books=ib))
 
 # --- MCQs
+# the Arihant book's PYQs (tools/arihant_apply.py) are APPSC Complete's only
+ARIHANT = set(J("data/pyq/arihant/applied.json")) if os.path.exists("data/pyq/arihant/applied.json") else set()
 ids = set()
 for b in range(1, 7):
     m = J(f"{C}/mcq{b}.json")
@@ -131,7 +133,7 @@ for b in range(1, 7):
         if (b, int(r)) not in new:
             continue
         sb = m.get("subs", {}).get(r, [-1] * len(v))
-        kept = [(q, x) for q, x in zip(v, sb) if not G1_PYQ.search(q.get("src", ""))]
+        kept = [(q, x) for q, x in zip(v, sb) if not G1_PYQ.search(q.get("src", "")) and q["id"] not in ARIHANT]
         for q, _ in kept:
             for f in ("x", "s"):
                 if q.get(f):
