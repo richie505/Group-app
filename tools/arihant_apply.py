@@ -20,6 +20,8 @@ D = "data/pyq/arihant"
 
 def main(packets):
     place = json.load(open(f"{D}/place.json"))["place"]
+    if os.path.exists(f"{D}/place2.json"):  # the second round: questions the first dedupe wrongly took for repeats
+        place.update(json.load(open(f"{D}/place2.json"))["place"])
     bank = {}
     for line in open("data/pyq/new/arihant.jsonl"):
         q = json.loads(line)
