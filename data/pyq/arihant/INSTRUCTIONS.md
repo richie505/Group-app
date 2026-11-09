@@ -27,3 +27,13 @@ Output, JSON object keyed by question id:
  "arihant-p3-5-2": {"v": "drop", "note": "needs a map"}}
 "a" is 1-based. Every id in the packet must appear exactly once. Validate: python3 -c "import json;json.load(open('<file>'))".
 Reply with one line: "<packet>: N checked, ok X, key Y, fix Z, move M, drop D".
+
+## Keep every GS question (user: "fill them all")
+Never drop a question only because no topic fits exactly. File it under the NEAREST topic instead:
+- general physics, chemistry, biology, human body, everyday science → a 5:1 subsection (5:1:3 Human Body,
+  5:1:2 Nutrition and Vitamins, 5:1:6 Household Chemicals, 5:1:1 Food Technology), else 5:1:10 Number Game and Quick Revision;
+- world history (revolutions, world wars, civilisations) → the nearest history/world topic in topics.txt
+  (e.g. 1:150 Age of Discovery, a freedom-struggle topic for the world wars, or an international-relations topic in book 6);
+- another state's GK, general misc GK → the nearest Indian geography/culture/static GK topic.
+Drop only: garbled beyond repair, mental ability/arithmetic/reasoning/English, physics/maths numericals that need
+calculation, a picture/map question, or no option correct.
