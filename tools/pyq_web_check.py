@@ -6,6 +6,7 @@ sources, and answers KEEP / KEY n / UNSURE with a source URL. collect writes the
 format (data/keys/out/<n>.md), so applying them is:  python3 tools/keys_apply.py
 
     python3 tools/pyq_web_check.py build --run web --from full                    # CONFLICT + NO_KEY + NOT_COVERED
+                                                          # 8 PYQs of the same paper per request (--group 1: one each)
     python3 tools/pyq_web_check.py build --run webpilot --from full --sample 100  # a small paid test first
     python3 tools/pyq_web_check.py submit  --run web
     python3 tools/pyq_web_check.py status  --run web
@@ -52,6 +53,26 @@ End your reply with ONE line of JSON and nothing after it:
 
 WEB_SEARCH = {"type": "web_search_20260209", "name": "web_search", "max_uses": MAX_SEARCHES}
 
+# Grouped mode: several PYQs of the SAME exam paper in one request, so one search for that paper's official key
+# (or one topic search) can settle several of them.
+SYSTEM_GROUP = SYSTEM.replace("the answer key of one previous-year exam question (PYQ)",
+                              "the answer keys of several previous-year exam questions (PYQs), mostly from one paper,")
+SYSTEM_GROUP = SYSTEM_GROUP[:SYSTEM_GROUP.index("End your reply")] + """Search efficiently: first look for the \
+official answer key of the paper(s) named, which can settle many questions at once; then search only for the \
+questions still open, combining related questions in one query where you can.
+
+End your reply with one JSON line per question, in the given order, and nothing after them:
+{"id": "<question id>", "verdict": "KEEP" | "KEY" | "UNSURE", "option": <1-based correct option, 0 if UNSURE>, \
+"source": "<best URL>", "fact": "<one sentence stating the correct fact, usable as the explanation>"}
+- KEEP: the given key is correct (option = the key's number).
+- KEY: the given key is wrong or missing and "option" is correct, shown by the source.
+- UNSURE: sources disagree, nothing reliable was found, or the question/options are garbled. Never guess."""
+
+
+def paper(src):
+    """Exam paper label for grouping: 'U.P.P.C.S. (Mains) 2017 +1 more' -> 'u p p c s mains 2017'."""
+    return nc.norm(re.sub(r"\+\s*\d+\s*more", "", str(src)))
+
 
 def tidy_rows(run):
     pyq = {q["id"]: q for ps in nc.pyqs_by_row("all").values() for q in ps}
@@ -72,6 +93,14 @@ def prompt(q, r):
             f"{note}\n\nCheck the key.")
 
 
+def prompt_group(items):
+    parts = []
+    for i, (q, r) in enumerate(items, 1):
+        body = prompt(q, r).replace("\n\nCheck the key.", "")
+        parts.append(f"--- Question {i}, id={q['id']} ---\n{body}")
+    return "\n\n".join(parts) + "\n\nCheck every key."
+
+
 def build(args):
     rows, pyq = tidy_rows(args.source)
     want = set(args.verdicts.split(","))
@@ -81,16 +110,39 @@ def build(args):
         picked = random.sample(picked, min(args.sample, len(picked)))
     d = os.path.join(OUT, args.run)
     os.makedirs(d, exist_ok=True)
+    n_req = 0
     with open(os.path.join(d, "requests.jsonl"), "w") as f:
-        for r in picked:
-            params = {"model": MODEL, "max_tokens": 16000, "output_config": {"effort": EFFORT},
-                      "system": SYSTEM, "tools": [WEB_SEARCH],
-                      "messages": [{"role": "user", "content": prompt(pyq[r["id"]], r)}]}
-            f.write(json.dumps({"custom_id": r["id"], "params": params, "notes_verdict": r["final"]},
-                               ensure_ascii=False) + "\n")
+        if args.group <= 1:
+            for r in picked:
+                params = {"model": MODEL, "max_tokens": 16000, "output_config": {"effort": EFFORT},
+                          "system": SYSTEM, "tools": [WEB_SEARCH],
+                          "messages": [{"role": "user", "content": prompt(pyq[r["id"]], r)}]}
+                f.write(json.dumps({"custom_id": r["id"], "params": params, "ids": [r["id"]],
+                                    "notes_verdict": {r["id"]: r["final"]}}, ensure_ascii=False) + "\n")
+                n_req += 1
+        else:
+            # same paper together; leftovers of small papers are packed with others of the same exam board
+            by_paper = {}
+            for r in picked:
+                by_paper.setdefault(paper(pyq[r["id"]].get("src", "")), []).append(r)
+            chunks, rest = [], []
+            for k in sorted(by_paper):
+                rs = by_paper[k]
+                full = len(rs) - len(rs) % args.group if len(rs) >= args.group else 0
+                chunks += [rs[i:i + args.group] for i in range(0, full, args.group)]
+                rest += rs[full:]
+            rest.sort(key=lambda r: paper(pyq[r["id"]].get("src", "")))
+            chunks += [rest[i:i + args.group] for i in range(0, len(rest), args.group)]
+            for i, ch in enumerate(chunks):
+                tool = dict(WEB_SEARCH, max_uses=min(2 + len(ch), 10))
+                params = {"model": MODEL, "max_tokens": 32000, "output_config": {"effort": EFFORT},
+                          "system": SYSTEM_GROUP, "tools": [tool],
+                          "messages": [{"role": "user", "content": prompt_group([(pyq[r["id"]], r) for r in ch])}]}
+                f.write(json.dumps({"custom_id": f"g{i}", "params": params, "ids": [r["id"] for r in ch],
+                                    "notes_verdict": {r["id"]: r["final"] for r in ch}}, ensure_ascii=False) + "\n")
+                n_req += 1
     by = {v: sum(r["final"] == v for r in picked) for v in sorted(want)}
-    print(f"{args.run}: {len(picked)} PYQs {by} -> {d}/requests.jsonl; rough cost ${len(picked) * 0.025:.0f}-"
-          f"${len(picked) * 0.035:.0f}")
+    print(f"{args.run}: {len(picked)} PYQs {by} in {n_req} requests -> {d}/requests.jsonl")
 
 
 def submit_file(c, d, name, out_name):
@@ -124,15 +176,21 @@ def status(args):
         print(bid, b.processing_status, b.request_counts)
 
 
-def parse(text):
-    for m in reversed(list(re.finditer(r"\{[^{}]*\"verdict\"[^{}]*\}", text))):
+def parse_all(text):
+    out = []
+    for m in re.finditer(r"\{[^{}]*\"verdict\"[^{}]*\}", text):
         try:
             x = json.loads(m.group(0))
-            if x.get("verdict") in ("KEEP", "KEY", "UNSURE"):
-                return x
         except ValueError:
-            pass
-    return None
+            continue
+        if x.get("verdict") in ("KEEP", "KEY", "UNSURE"):
+            out.append(x)
+    return out
+
+
+def parse(text):
+    xs = parse_all(text)
+    return xs[-1] if xs else None
 
 
 def collect(args):
@@ -164,13 +222,22 @@ def collect(args):
                 paused.append({"custom_id": cid, "params": p})
                 continue
             text = "".join(b.text for b in msg.content if b.type == "text")
-            x = parse(text)
-            if not x:
-                failed.append((cid, f"no verdict line (stop_reason={msg.stop_reason})"))
-                continue
-            done[cid] = {"id": cid, "notes_verdict": reqs[cid]["notes_verdict"], **x}
+            ids = reqs[cid].get("ids", [cid])
+            nv = reqs[cid]["notes_verdict"]
+            xs = parse_all(text)
+            if len(ids) == 1 and xs:
+                got = {ids[0]: xs[-1]}
+            else:
+                got = {str(x.get("id")): x for x in xs}
+            for qid in ids:
+                x = got.get(qid)
+                if not x:
+                    failed.append((qid, f"no verdict line in {cid} (stop_reason={msg.stop_reason})"))
+                    continue
+                x = {k: v for k, v in x.items() if k != "id"}
+                done[qid] = {"id": qid, "notes_verdict": nv.get(qid) if isinstance(nv, dict) else nv, **x}
     # a turn that paused in an earlier batch and finished in a resume batch counts as done
-    paused = [x for x in paused if x["custom_id"] not in done]
+    paused = [x for x in paused if not all(i in done for i in reqs[x["custom_id"]].get("ids", [x["custom_id"]]))]
     failed = [x for x in failed if x[0] not in done]
     with open(os.path.join(d, "results.jsonl"), "w") as f:
         for r in done.values():
@@ -237,6 +304,7 @@ def main():
     b.add_argument("--verdicts", default="CONFLICT,NO_KEY,NOT_COVERED")
     b.add_argument("--sample", type=int, default=0)
     b.add_argument("--seed", type=int, default=7)
+    b.add_argument("--group", type=int, default=8, help="PYQs per request, same exam paper together (1 = one each)")
     for name in ("submit", "status", "collect", "resume"):
         sub.add_parser(name).add_argument("--run", required=True)
     a = p.parse_args()
