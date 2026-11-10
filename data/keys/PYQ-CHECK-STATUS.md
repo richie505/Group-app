@@ -12,14 +12,16 @@ Everything below runs on the Message Batches API with the key in the environment
 | Keys applied (`tools/keys_apply.py`) | | | 929 MCQs corrected in Complete + Prep; 425 copied into Group 2 in place | — |
 | Owner rulings (`data/keys/out/9.md`) | | 3 | Guntupalli = Rajagirika; Siddharthaka chaitya = Gudivada | — |
 | Notes fixed | | | Rajagirika = Guntupalli in Prep and Complete2 | — |
-| Deep web pass on UNSURE + unanswered | `pyq_web_check.py --retry-from web --group 4` | 1,101 | batch ended 276/276; see `web_check/deep/summary.md` | see summary |
+| Deep web pass on UNSURE + unanswered | `pyq_web_check.py --retry-from web --group 4` | 1,101 | KEEP 493 · KEY 224 · UNSURE 362 · 22 no answer; 224 applied (99 also in Group 2) | $85.10 |
 | Notes links + missing explanations | `tools/pyq_notelink.py` | 23,975 | 20,180 linked (84%); 9,780 explanations written | $23.70 |
 | Pilots and comparisons | | | | ~$8 |
 
+Released as APPSC Complete 3.43 and APPSC Group 2 3.43 (`apks/`). API spend so far: about $231.
+
 ## Left to do (needs API credits)
 
-1. Review and apply the deep pass's KEY decisions if not yet applied: `python3 tools/keys_apply.py`
-   (then copy the changed MCQs into Group 2 as in commit 4b8e9f0).
+1. Done in 3.43: all KEY decisions applied, 1,153 MCQs corrected in total (`data/keys/report.md`). Still open:
+   362 PYQs UNSURE after the deep pass and 22 with no answer (`web_check/deep/summary.md`), for manual review.
 2. Link the 1,101 deep-pass PYQs to their notes lines (~$2):
    `python3 tools/pyq_notelink.py build --run links2` (it skips PYQs already linked), then submit/status/collect/
    revalidate/apply.
