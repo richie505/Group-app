@@ -13,7 +13,8 @@ tools/keys_apply.py.
     python3 tools/pyq_notes_check.py build --run full
     python3 tools/pyq_notes_check.py submit --run pilot       # needs ANTHROPIC_API_KEY, KEY or key
     python3 tools/pyq_notes_check.py status --run pilot
-    python3 tools/pyq_notes_check.py collect --run pilot      # results.jsonl, summary.md (counts, cost, conflicts)
+    python3 tools/pyq_notes_check.py collect --run pilot      # results.jsonl, usage.json, summary.md
+    python3 tools/pyq_notes_check.py summarize --run pilot    # rewrite summary.md from results.jsonl (no API)
 
 Files go to data/keys/notes_check/<run>/.
 """
@@ -54,7 +55,9 @@ this exact point (option = what the stronger/more specific note says; say "notes
 - NOT_COVERED: the notes do not contain the fact needed, or the question is garbled/unanswerable as written \
 (say which in evidence).
 
-Rules: "option" is 1-based and 0 when there is no alternative option (AGREE / NOT_COVERED). For "which is NOT \
+Rules: "option" is 1-based and 0 when there is no alternative option (AGREE / NOT_COVERED). CONFLICT means \
+"option" differs from the given key's number: never return CONFLICT with the key's own option. If the given key is \
+"none", return CONFLICT with the option the notes support (or NOT_COVERED). For "which is NOT \
 correct", "wrong pair" and statement-combination questions, work out which option the notes make right before \
 judging. Keep evidence under 30 words; leave it empty for AGREE. Return exactly one result per PYQ id, in order."""
 
@@ -306,8 +309,8 @@ def build(args):
                 "output_config": {"effort": EFFORT, "format": {"type": "json_schema", "schema": SCHEMA}},
                 "system": [{"type": "text", "text": SYSTEM}],
                 "messages": [{"role": "user", "content": [
-                    # the topic's notes are shared by every chunk of that topic: cache them
-                    {"type": "text", "text": "STUDY NOTES\n\n" + notes, "cache_control": {"type": "ephemeral"}},
+                    # no cache_control: batch requests rarely hit the cache (pilot: ~10%) and writes cost 1.25x
+                    {"type": "text", "text": "STUDY NOTES\n\n" + notes},
                     {"type": "text", "text": (more + "\n\n" if more else "") + f"PYQs to check ({len(ps)}):\n\n" + qtext},
                 ]}],
             }
@@ -393,37 +396,66 @@ def collect(args):
     with open(os.path.join(d, "results.jsonl"), "w") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    json.dump({"usage": usage, "failed": failed}, open(os.path.join(d, "usage.json"), "w"))
+    summarize(args)
+
+
+def tidy(r, q):
+    """Fixes the model's own inconsistencies. CONFLICT naming the key's own option -> AGREE; CONFLICT with no
+    option -> NOT_COVERED; a PYQ that has no key in the app -> NO_KEY (option = what the notes support)."""
+    a = q.get("a", -1)
+    has_key = 0 <= a < len(q.get("o", []))
+    v, o = r["verdict"], r["option"]
+    if not has_key:
+        return "NO_KEY"
+    if v == "CONFLICT" and o == a + 1:
+        return "AGREE"
+    if v == "CONFLICT" and not (1 <= o <= len(q["o"])):
+        return "NOT_COVERED"
+    return v
+
+
+def summarize(args):
+    """Rewrites summary.md from results.jsonl + usage.json (no API calls)."""
+    d = os.path.join(OUT, args.run)
+    pyq = {q["id"]: q for ps in pyqs_by_row("all").values() for q in ps}
+    rows = [json.loads(l) for l in open(os.path.join(d, "results.jsonl"))]
+    for r in rows:
+        r["final"] = tidy(r, pyq.get(r["id"], {}))
+    meta = json.load(open(os.path.join(d, "usage.json")))
+    usage, failed = meta["usage"], meta["failed"]
     cost = sum(usage[k] / 1e6 * PRICE[k] for k in usage)
     n = len(rows)
-    counts = {v: sum(r["verdict"] == v for r in rows) for v in ("AGREE", "CONFLICT", "NOT_COVERED")}
+    kinds = ("AGREE", "CONFLICT", "NOT_COVERED", "NO_KEY")
+    counts = {v: sum(r["final"] == v for r in rows) for v in kinds}
+    fixed = sum(r["final"] != r["verdict"] for r in rows)
     out = [f"# PYQ key check against the app notes: {args.run}", "",
-           f"Model {MODEL}, effort {EFFORT}, Message Batches API. {n} PYQs answered, {len(failed)} failures.", "",
+           f"Model {MODEL}, effort {EFFORT}, Message Batches API. {n} PYQs answered, {len(failed)} failures. "
+           f"{fixed} verdicts tidied (a CONFLICT naming the key's own option counts as AGREE; a PYQ with no key "
+           f"in the app is NO_KEY).", "",
            "| Verdict | PYQs | Share |", "|---|---|---|"]
     out += [f"| {v} | {k} | {k / max(n, 1):.1%} |" for v, k in counts.items()]
     out += ["", f"Tokens: input {usage['input']:,}, cache write {usage['cache_write']:,}, "
                 f"cache read {usage['cache_read']:,}, output {usage['output']:,}.",
             f"Cost (batch price): ${cost:.2f} = ${cost / max(n, 1) * 1000:.2f} per 1,000 PYQs; "
-            f"per 25,076 exam PYQs: ${cost / max(n, 1) * 25076:.0f}; per all 73,178 MCQs with a src: "
-            f"${cost / max(n, 1) * 73178:.0f}.", ""]
+            f"per 25,076 exam PYQs: ${cost / max(n, 1) * 25076:.0f}.", ""]
     if failed:
         out += ["## Failures", ""] + [f"- {cid}: {why}" for cid, why in failed] + [""]
-    out += ["## Conflicts", ""]
-    for r in rows:
-        if r["verdict"] != "CONFLICT":
-            continue
+
+    def line(r):
         q = pyq.get(r["id"], {})
-        o = q.get("o", [])
-        a = q.get("a", -1)
-        given = o[a] if 0 <= a < len(o) else "?"
-        notes_opt = o[r["option"] - 1] if 1 <= r["option"] <= len(o) else "?"
-        out.append(f"- `{r['id']}` [{q.get('src', '')}] {q.get('s', '')}\n  key ({a + 1}) {given} → notes "
-                   f"({r['option']}) {notes_opt}. {r['evidence']}")
-    out += ["", "## Not covered", ""]
-    out += [f"- `{r['id']}` {pyq.get(r['id'], {}).get('s', '')[:120]} — {r['evidence']}"
-            for r in rows if r["verdict"] == "NOT_COVERED"]
+        o, a = q.get("o", []), q.get("a", -1)
+        given = f"({a + 1}) {o[a]}" if 0 <= a < len(o) else "none"
+        nt = f"({r['option']}) {o[r['option'] - 1]}" if 1 <= r["option"] <= len(o) else "-"
+        return (f"- `{r['id']}` [{q.get('src', '')}] {q.get('s', '')}\n  key {given} → notes {nt}. "
+                f"{r['evidence']}")
+
+    for v, title in (("CONFLICT", "Conflicts: notes support another option"),
+                     ("NO_KEY", "No key in the app"), ("NOT_COVERED", "Not covered by the notes")):
+        out += [f"## {title}", ""] + [line(r) for r in rows if r["final"] == v] + [""]
     open(os.path.join(d, "summary.md"), "w").write("\n".join(out) + "\n")
-    print("\n".join(out[:12]))
-    print(f"-> {d}/summary.md, {d}/results.jsonl")
+    print("\n".join(out[:13]))
+    print(f"-> {d}/summary.md")
 
 
 # ---------- free cross-app key comparison ----------
@@ -496,12 +528,12 @@ def main():
     b.add_argument("--seed", type=int, default=7)
     b.add_argument("--scope", choices=["exam", "all"], default="exam",
                    help="exam = real exam PYQs only (default); all = also app/ca/rocket MCQs")
-    for name in ("submit", "status", "collect"):
+    for name in ("submit", "status", "collect", "summarize"):
         sub.add_parser(name).add_argument("--run", required=True)
     sub.add_parser("crosscheck")
     sub.add_parser("extract")
     a = p.parse_args()
-    {"build": build, "submit": submit, "status": status, "collect": collect, "crosscheck": crosscheck, "extract": extract}[a.cmd](a)
+    {"build": build, "submit": submit, "status": status, "collect": collect, "summarize": summarize, "crosscheck": crosscheck, "extract": extract}[a.cmd](a)
 
 
 if __name__ == "__main__":
