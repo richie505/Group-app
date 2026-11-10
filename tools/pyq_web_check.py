@@ -8,6 +8,7 @@ format (data/keys/out/<n>.md), so applying them is:  python3 tools/keys_apply.py
     python3 tools/pyq_web_check.py build --run web --from full                    # CONFLICT + NO_KEY + NOT_COVERED
                                                           # 8 PYQs of the same paper per request (--group 1: one each)
     python3 tools/pyq_web_check.py build --run webpilot --from full --sample 100  # a small paid test first
+    python3 tools/pyq_web_check.py build --run deep --from full --retry-from web --group 4   # deep pass on UNSURE
     python3 tools/pyq_web_check.py submit  --run web
     python3 tools/pyq_web_check.py status  --run web
     python3 tools/pyq_web_check.py collect --run web      # results.jsonl, summary.md, data/keys/out/<n>.md
@@ -69,6 +70,19 @@ End your reply with one JSON line per question, in the given order, and nothing 
 - UNSURE: sources disagree, nothing reliable was found, or the question/options are garbled. Never guess."""
 
 
+# Deep pass for what the first web check left UNSURE (or could not answer): fewer PYQs per request, more effort,
+# more searches, and web fetch so the model can open official answer-key PDFs and primary sources.
+WEB_FETCH = {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": 4, "max_content_tokens": 20000}
+DEEP_NOTE = """These questions were left UNSURE by a first, quick check. Dig deeper this time: open (web_fetch) the \
+official answer-key PDF of the paper, or the primary source (bare act, census table, government page), rather than \
+relying on search snippets. Decide whenever a reliable source supports one option. When reliable sources genuinely \
+conflict, prefer: official key (or its official revision) > primary source > standard textbook (NCERT, Telugu \
+Academy, Laxmikanth, Spectrum, Ramesh Singh) > the app's own notes, and say in "fact" which source you followed. Use \
+UNSURE only when the question or options are garbled, or no reliable source exists at all.
+
+"""
+
+
 def paper(src):
     """Exam paper label for grouping: 'U.P.P.C.S. (Mains) 2017 +1 more' -> 'u p p c s mains 2017'."""
     return nc.norm(re.sub(r"\+\s*\d+\s*more", "", str(src)))
@@ -105,6 +119,20 @@ def build(args):
     rows, pyq = tidy_rows(args.source)
     want = set(args.verdicts.split(","))
     picked = [r for r in rows if r["final"] in want and r["id"] in pyq]
+    if args.retry_from:  # deep pass: what web run <retry_from> left UNSURE or could not answer
+        prev = os.path.join(OUT, args.retry_from)
+        got = {json.loads(l)["id"]: json.loads(l) for l in open(os.path.join(prev, "results.jsonl"))}
+        failed = re.findall(r"^- `?([A-Za-z0-9_-]+)`?: no verdict", open(os.path.join(prev, "summary.md")).read(), re.M)
+        ruled = {l.split(" | ")[0] for f in glob.glob(os.path.join(KEYS_OUT, "*.md"))
+                 for l in open(f) if "owner review" in l}  # questions the owner already decided by hand
+        out_file = os.path.join(ROOT, "data/keys/out", os.path.basename(open(os.path.join(prev, "keys_out_file.txt")).read().strip()))
+        unsure = [l.split(" | ")[0] for l in open(out_file) if " | UNSURE | " in l]  # incl. KEY lines without a source
+        redo = unsure + [i for i in failed if i not in got]
+        redo = [i for i in dict.fromkeys(redo) if i not in ruled]
+        by_id = {r["id"]: r for r in rows}
+        picked = [by_id.get(i, {"id": i, "final": "NOT_COVERED", "option": 0, "evidence": ""}) for i in redo
+                  if i in pyq]
+        want = {r["final"] for r in picked}
     if args.include_missing:  # exam PYQs the notes run returned no verdict for: treat as NOT_COVERED
         seen = {r["id"] for r in rows}
         picked += [{"id": q["id"], "final": "NOT_COVERED", "option": 0, "evidence": ""}
@@ -139,8 +167,12 @@ def build(args):
             chunks += [rest[i:i + args.group] for i in range(0, len(rest), args.group)]
             for i, ch in enumerate(chunks):
                 tool = dict(WEB_SEARCH, max_uses=min(2 + len(ch), 10))
-                params = {"model": MODEL, "max_tokens": 32000, "output_config": {"effort": EFFORT},
-                          "system": SYSTEM_GROUP, "tools": [tool],
+                system, effort, tools = SYSTEM_GROUP, EFFORT, [tool]
+                if args.retry_from:
+                    system = DEEP_NOTE + SYSTEM_GROUP
+                    effort, tools = "high", [dict(WEB_SEARCH, max_uses=min(4 + 2 * len(ch), 12)), WEB_FETCH]
+                params = {"model": MODEL, "max_tokens": 32000, "output_config": {"effort": effort},
+                          "system": system, "tools": tools,
                           "messages": [{"role": "user", "content": prompt_group([(pyq[r["id"]], r) for r in ch])}]}
                 f.write(json.dumps({"custom_id": f"g{i}", "params": params, "ids": [r["id"] for r in ch],
                                     "notes_verdict": {r["id"]: r["final"] for r in ch}}, ensure_ascii=False) + "\n")
@@ -308,6 +340,8 @@ def main():
     b.add_argument("--verdicts", default="CONFLICT,NO_KEY,NOT_COVERED")
     b.add_argument("--sample", type=int, default=0)
     b.add_argument("--seed", type=int, default=7)
+    b.add_argument("--retry-from", help="deep pass on what this web run left UNSURE or unanswered "
+                                        "(use with --group 4)")
     b.add_argument("--include-missing", action="store_true",
                    help="also check exam PYQs the notes run gave no verdict for")
     b.add_argument("--group", type=int, default=8, help="PYQs per request, same exam paper together (1 = one each)")
