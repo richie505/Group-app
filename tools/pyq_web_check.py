@@ -105,6 +105,10 @@ def build(args):
     rows, pyq = tidy_rows(args.source)
     want = set(args.verdicts.split(","))
     picked = [r for r in rows if r["final"] in want and r["id"] in pyq]
+    if args.include_missing:  # exam PYQs the notes run returned no verdict for: treat as NOT_COVERED
+        seen = {r["id"] for r in rows}
+        picked += [{"id": q["id"], "final": "NOT_COVERED", "option": 0, "evidence": ""}
+                   for ps in nc.pyqs_by_row("exam").values() for q in ps if q["id"] not in seen]
     if args.sample:
         random.seed(args.seed)
         picked = random.sample(picked, min(args.sample, len(picked)))
@@ -304,6 +308,8 @@ def main():
     b.add_argument("--verdicts", default="CONFLICT,NO_KEY,NOT_COVERED")
     b.add_argument("--sample", type=int, default=0)
     b.add_argument("--seed", type=int, default=7)
+    b.add_argument("--include-missing", action="store_true",
+                   help="also check exam PYQs the notes run gave no verdict for")
     b.add_argument("--group", type=int, default=8, help="PYQs per request, same exam paper together (1 = one each)")
     for name in ("submit", "status", "collect", "resume"):
         sub.add_parser(name).add_argument("--run", required=True)
