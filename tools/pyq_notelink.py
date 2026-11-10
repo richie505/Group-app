@@ -10,6 +10,7 @@ line refs that state the answer ([] when the notes lack the fact) and, for a PYQ
     python3 tools/pyq_notelink.py submit  --run links
     python3 tools/pyq_notelink.py status  --run links
     python3 tools/pyq_notelink.py collect --run links      # validates refs -> results.jsonl, summary.md
+    python3 tools/pyq_notelink.py revalidate --run links   # re-check rejected refs offline (no API)
     python3 tools/pyq_notelink.py apply   --run links      # notelinks.json + missing explanations (APPSC Complete)
 
 Files go to data/notelink/pyq_<run>/.
@@ -163,8 +164,9 @@ def collect(args):
                 if not x:
                     failed.append((res.custom_id, f"missing {qid}"))
                     continue
-                good = [ref for ref in x["lines"] if nl.line_text(books[rq["book"]], ref) is not None][:3]
-                bad = [ref for ref in x["lines"] if ref not in good]
+                refs = [ref.strip().strip("[]").strip() for ref in x["lines"]]  # the notes show refs in brackets
+                good = list(dict.fromkeys(ref for ref in refs if nl.line_text(books[rq["book"]], ref) is not None))[:3]
+                bad = [ref for ref in refs if ref not in good]
                 rows.append({"id": qid, "book": rq["book"], "lines": good, "bad": bad,
                              "x": x["x"].strip() if qid in rq["need_x"] else ""})
     with open(os.path.join(d, "results.jsonl"), "w") as f:
@@ -184,6 +186,26 @@ def collect(args):
         out += ["## Failures", ""] + [f"- {c_}: {w}" for c_, w in failed] + [""]
     open(os.path.join(d, "summary.md"), "w").write("\n".join(out) + "\n")
     print("\n".join(out[:6]))
+
+
+def revalidate(args):
+    """Re-checks the refs collect rejected (brackets stripped) without calling the API, and rewrites results.jsonl."""
+    d = os.path.join(OUT, f"pyq_{args.run}")
+    books = {b: json.load(open(os.path.join(A, f"book{b}.json"))) for b in range(1, 7)}
+    rows = [json.loads(l) for l in open(os.path.join(d, "results.jsonl"))]
+    fixed = 0
+    for r in rows:
+        refs = r["lines"] + [ref.strip().strip("[]").strip() for ref in r["bad"]]
+        good = list(dict.fromkeys(ref for ref in refs if nl.line_text(books[r["book"]], ref) is not None))[:3]
+        fixed += bool(good) and not r["lines"]
+        r["bad"] = [ref for ref in refs if ref not in good]
+        r["lines"] = good
+    with open(os.path.join(d, "results.jsonl"), "w") as f:
+        for r in rows:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    linked = sum(bool(r["lines"]) for r in rows)
+    print(f"{fixed} more PYQs linked; now {linked} of {len(rows)} ({linked / len(rows):.0%}); "
+          f"refs still invalid: {sum(len(r['bad']) for r in rows)}")
 
 
 def apply(args):
@@ -221,10 +243,10 @@ def main():
     b = sub.add_parser("build")
     b.add_argument("--run", required=True)
     b.add_argument("--exclude-from", help="a requests.jsonl whose PYQ ids to leave out (e.g. the deep web pass)")
-    for name in ("submit", "status", "collect", "apply"):
+    for name in ("submit", "status", "collect", "revalidate", "apply"):
         sub.add_parser(name).add_argument("--run", required=True)
     a = p.parse_args()
-    {"build": build, "submit": submit, "status": status, "collect": collect, "apply": apply}[a.cmd](a)
+    {"build": build, "submit": submit, "status": status, "collect": collect, "revalidate": revalidate, "apply": apply}[a.cmd](a)
 
 
 if __name__ == "__main__":
