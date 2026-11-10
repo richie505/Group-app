@@ -8,6 +8,7 @@ streams, and stops when the agent goes idle.
 
 Exit status: 0 when the agent finished, 1 on an error (API error, session error, or the session ended badly).
 """
+import os
 import sys
 
 import anthropic
@@ -17,7 +18,8 @@ ENVIRONMENT_ID = "env_01W7iqhpLRpBVnT6VZF4TbfQ"
 
 
 def run(text: str) -> int:
-    client = anthropic.Anthropic()
+    # ANTHROPIC_API_KEY, or a variable named "key" as set in the cloud environment's settings
+    client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("key"))
     session = client.beta.sessions.create(agent=AGENT_ID, environment_id=ENVIRONMENT_ID)
     print(f"[session {session.id}]", file=sys.stderr)
 
