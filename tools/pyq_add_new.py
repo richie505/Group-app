@@ -1,5 +1,5 @@
 """Adds newly read PYQs (data/pyq/ocr2026/out/*.jsonl, data/pyq/ocr2026/INSTRUCTIONS.md) to APPSC Complete and APPSC
-Group 2 WITHOUT rebuilding the PYQs already there (tools/pyq_apply.py rebuilds them all from the bank, which would undo
+Group 2 (only questions Complete adds, where Group 2's syllabus has a topic for them) WITHOUT rebuilding the PYQs already there (tools/pyq_apply.py rebuilds them all from the bank, which would undo
 the key fixes and explanations made in the apps since). Only questions that are not already in the app are added.
 
 For each app layout it reuses tools/pyq_place.py's matching: the topic whose notes and own MCQs are closest (TF-IDF),
@@ -181,8 +181,13 @@ def main():
     apply = "--apply" in sys.argv
     new, dropped = new_questions()
     print(f"read {len(new)} usable new questions; dropped: {dict(dropped)}")
+    in_complete = None
     for app, assets in APPS.items():
+        if in_complete is not None:  # Group 2 is APPSC Complete cut to its syllabus: only what Complete adds
+            new = [q for q in new if q["id"] in in_complete]
         placed, dup, off = place(app, assets, new)
+        if app == "complete":
+            in_complete = set(placed)
         json.dump({"placed": placed, "dup_of": dup, "off_syllabus": off, "dropped": dropped},
                   open(f"data/pyq/ocr2026/added-{app}.json", "w"), ensure_ascii=False)
         keyed = sum(1 for p in placed if next(q for q in new if q["id"] == p)["a"] >= 0)
