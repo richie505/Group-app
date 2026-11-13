@@ -99,6 +99,7 @@
 | Lord Mayo's resolution | 1870 | Financial decentralisation |
 | Lord Ripon's resolution | 18 May 1882 | Local self-government; Ripon = "Father of LSG" |
 | Royal Commission on Decentralisation | 1907-09 | Chair Sir Henry Primrose, then **C.E.H. Hobhouse**; **village panchayats** as base of rural administration |
+# Rural reconstruction experiments
 | Project | Person | Region / year |
 |---|---|---|
 | Gurgaon experiment | F.L. Brayne | Punjab, 1920 |
@@ -121,6 +122,7 @@
 | Stagnation | mid-1960s |
 | Decline | 1969-1983 |
 | Revival | after Ashok Mehta (1978) |
+# State patterns (Laxmikanth)
 | Pattern | Structure |
 |---|---|
 | Rajasthan-AP | 3-tier; Panchayat Samiti powerful (block = planning unit) |
@@ -192,6 +194,7 @@
 | Mandal system, 1985 (NTR) | Ended hereditary Patel-Patwari system; 1104 mandals replaced talukas and firkas |
 | Mandal Praja Parishads Act, 1986 | MPPs replaced block Panchayat Samithis (Ashok Mehta idea) – aim: **minimise the gap between the common man and officials** |
 | AP Panchayat Raj Act, 1994 | Implements the 73rd Amendment: Gram Panchayat – Mandal Parishad – Zilla Parishad |
+# AP State committees
 | AP committee | Recommendation (APPSC Panchayat Secretary keys) |
 |---|---|
 | **M.T. Raju Committee** | **District Development Boards** |
