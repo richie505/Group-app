@@ -26,6 +26,7 @@
 | **Andhra State** (1 Oct 1953 – 31 Oct 1956, capital Kurnool) | **Tanguturi Prakasam** (1953-54) | **Bezawada Gopala Reddy** (1955-56) |
 | **Hyderabad State** (first election 1952) | **Burgula Ramakrishna Rao** (1952) | **Burgula Ramakrishna Rao** (till 1956) |
 - Osman Ali Khan = **Asaf Jah VII**, the last **Nizam** (a ruler, not a CM).
+- First Speakers: **Nallapati Venkata Ramaiah** – Andhra State Assembly (1953); **Ayyadevara Kaleswara Rao** – united AP Assembly (1956).
 # United Andhra Pradesh (1956-2014) – order and dates
 | CM | Took office |
 |---|---|
