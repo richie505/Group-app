@@ -17,19 +17,6 @@
 > Asked as: who appoints SPSC members / Chairman (8 PYQs); who appoints UPSC / JSPSC members (3); term 6 years and age (65 UPSC, 62 SPSC/JSPSC – 4 PYQs); acting chairman (wrong statement); who fixes service conditions.
 ~~ Sources: NextGen Polity APPSC Part 26 (src/polity/nextgen-polity-appsc-26.txt) p.4, p.7, p.9; Laxmikanth 8th ed. Ch44-45 (src/polity/laxmikanth-indian-polity-02.txt) p.604, 609, 612-613; MPPSC (Conditions of Service) Regulations 1973 (legitquest.com); app notes 2:69 sub 2
 
-=== Removal and Suspension – Article 317
-# Grounds (President removes)
-- 1. Adjudged **insolvent**.
-- 2. **Paid employment** outside the duties of office during the term.
-- 3. **Infirmity of mind or body** – in the **President's opinion**.
-- 4. **Misbehaviour** – only after the President refers the matter to the **Supreme Court**, and the Court upholds it after an enquiry; its **advice is binding**.
-- **Misbehaviour (Art. 317(4))** includes being **interested in a government contract** or sharing in its profit.
-- **Parliament has no role** (unlike SC/HC judges and the CAG, who are removed on an address of both Houses).
-- **SPSC:** appointed by the Governor, **removed only by the President** after the **Supreme Court** enquiry (not the Governor, not a HC enquiry, not impeachment in the Vidhan Sabha); the **Governor** may suspend during the enquiry.
-- Being found guilty in a **civil case** is **not** a ground; "inquiry committee headed by the CJI" and "misconduct in the President's opinion" are loose versions of the real grounds.
-> Asked as: who removes a UPSC / SPSC member (7 PYQs); Article of removal (317); role of Parliament (none – UPSC 2020); grounds statements.
-~~ Sources: NextGen Polity APPSC Part 26 (src/polity/nextgen-polity-appsc-26.txt) p.4, p.7; Laxmikanth 8th ed. Ch44-45 (src/polity/laxmikanth-indian-polity-02.txt) p.604-605, 609-610; app notes 2:69 sub 3
-
 === Constitutional Status – Part XIV, Articles 315-323
 - UPSC is an **independent constitutional body**, directly created by the **Constitution** (Art. 315) – not by an Act, ordinance or Presidential order; the **central recruiting agency** of India.
 - SPSCs are equally constitutional; the **UPSC has nothing to do with the SPSCs** (no supervision, no guidelines).
@@ -49,6 +36,19 @@
 - **Sources of UPSC functions:** the **Constitution** (Art. 320), **Parliamentary laws** (Art. 321), **executive rules and orders** (e.g. Exemption from Consultation Regulations, 1958) and **conventions**.
 > Asked as: UPSC created by (Constitution – 3 PYQs); which Article / Part (4); constitutional bodies; A-R on central recruiting agency (G2 2025); UPSC and SPSC relation.
 ~~ Sources: NextGen Polity APPSC Part 26 (src/polity/nextgen-polity-appsc-26.txt) p.4, p.6; Laxmikanth 8th ed. Ch44 (src/polity/laxmikanth-indian-polity-02.txt) p.604, 607-608; app notes 2:69 sub 0, 5
+
+=== Removal and Suspension – Article 317
+# Grounds (President removes)
+- 1. Adjudged **insolvent**.
+- 2. **Paid employment** outside the duties of office during the term.
+- 3. **Infirmity of mind or body** – in the **President's opinion**.
+- 4. **Misbehaviour** – only after the President refers the matter to the **Supreme Court**, and the Court upholds it after an enquiry; its **advice is binding**.
+- **Misbehaviour (Art. 317(4))** includes being **interested in a government contract** or sharing in its profit.
+- **Parliament has no role** (unlike SC/HC judges and the CAG, who are removed on an address of both Houses).
+- **SPSC:** appointed by the Governor, **removed only by the President** after the **Supreme Court** enquiry (not the Governor, not a HC enquiry, not impeachment in the Vidhan Sabha); the **Governor** may suspend during the enquiry.
+- Being found guilty in a **civil case** is **not** a ground; "inquiry committee headed by the CJI" and "misconduct in the President's opinion" are loose versions of the real grounds.
+> Asked as: who removes a UPSC / SPSC member (7 PYQs); Article of removal (317); role of Parliament (none – UPSC 2020); grounds statements.
+~~ Sources: NextGen Polity APPSC Part 26 (src/polity/nextgen-polity-appsc-26.txt) p.4, p.7; Laxmikanth 8th ed. Ch44-45 (src/polity/laxmikanth-indian-polity-02.txt) p.604-605, 609-610; app notes 2:69 sub 3
 
 === Joint State PSC and UPSC Serving a State
 - **JSPSC (Art. 315(2)):** two or more States **agree**, their **Legislatures pass resolutions**, and **Parliament creates it by law** – a **statutory**, not constitutional, body. Example: **Punjab and Haryana** (once).
