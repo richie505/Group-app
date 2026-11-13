@@ -40,3 +40,10 @@
 - y2cdee37b625 "not an active agency of education": no key (-1), printed "State" looks wrong.
 - y49392cd640f original copies: "Two" (some books say three).
 - Non-polity PYQs left here (no book for teaching aptitude): Gagné's hierarchy, agnosia, agencies of education; Flag Code kept in polity.
+
+## b2-r001 Independence Act 1947, Constituent Assembly (150 PYQs, 13 keys changed, 40 generated, 1 outdated, 4 no key)
+- No correct option (-1): y4f70360b529 first Finance Minister (R.K. Shanmukham Chetty not offered); y31f4eab8b29 committee match (Finance & Staff = Rajendra Prasad); y088bcfb2976 Bharat Ratna before President (Radhakrishnan and Kalam both fit); yfa48b164117 who argued for a flexible Constitution (Nehru / Brajeshwar Prasad, not Kamath) — source of the question unknown.
+- y11eaec51034 Purna Swaraj: "None" → "Only b" (Lahore Dec 1929; 26 Jan 1930 observed).
+- y78f266cb399 first Lok Sabha session: "18 May 1952" kept as a misprint (actual 13 May 1952).
+- NextGen errors overridden: Flag Committee = Rajendra Prasad (not Kripalani); 207 members at first meeting (not 211); 2 y 11 m 18 days.
+- Ambiguous but kept: y80a5928fd26, ya086d80c757, ya5203fb479c, y1dafa310790, yed5e186e6d1, y7734ce145ce.
