@@ -1,0 +1,933 @@
+=== NOTES 4:15 | Insolation and Heat Budget; Distribution of Temperature, Inversion
+## SUB 0 | Heating and Cooling of the Atmosphere
+[15:0:0] TABLE head: Process | Mechanism
+  [15:0:0.0] Insolation | Incoming solar radiation; direct heating by short waves
+  [15:0:0.1] Conduction | Heats lower layers of air in contact with warm ground
+  [15:0:0.2] Convection | Vertical transfer by rising warm air (troposphere)
+  [15:0:0.3] Advection | Horizontal transfer by wind (e.g. the Loo)
+  [15:0:0.4] Terrestrial radiation | Long-wave heat from the earth = main heater of air
+[15:0:1] APPSC-G2 2023 match: Advection – horizontal; Convection – vertical; Insolation – direct; Conduction – lower layers.
+[15:0:2] - Air is **heated from below**, not directly by the sun. Earth re-emits long-wave infra-red (8,000–25,000 nm), absorbed by CO₂ and water vapour.
+[15:0:3] UPSC 2024: "Atmosphere is heated more by incoming solar radiation" = WRONG; "greenhouse gases absorb long waves" = right.
+## SUB 1 | Insolation – Factors and Distribution
+[15:1:0] - Factors: **angle of sun's rays**, **length of day**, **transparency** (clouds, dust, vapour), **earth-sun distance**, land-sea distribution, slope and aspect.
+[15:1:1] - **Perihelion ~3 Jan, 147 million km**; **aphelion ~4 Jul, 152 million km**.
+[15:1:2] - Equator gets direct rays; poles oblique rays. Insolation falls poleward; **higher over continents than oceans** at the same latitude.
+[15:1:3] - **Maximum insolation and highest temperatures: subtropical deserts (20–30° N)**, not the equator – clear skies, dry air.
+[15:1:4] - Heat **surplus in tropics**, deficit at poles; winds and currents carry heat poleward.
+## SUB 2 | Albedo and Clouds
+[15:2:0] - **Albedo** = share of incoming radiation a surface reflects.
+[15:2:1] - Order: **fresh snow (highest, APPSC-G1 2019) > sand > grass > forest > water**.
+[15:2:2] TABLE head: Surface | Albedo (approx.)
+  [15:2:2.0] Fresh snow | 75–95%
+  [15:2:2.1] Dry sand | 20–40%
+  [15:2:2.2] Grass | 20–25%
+  [15:2:2.3] Crop land | 15–25%
+  [15:2:2.4] Water (sun high) | below 10%
+[15:2:3] - **High, thin clouds trap heat** (warming); **low, thick clouds reflect sunlight** (cooling).
+[15:2:4] - **Ice-albedo feedback** (positive): melting ice exposes darker ocean → more absorption. **Arctic** warms **3–4 times** the global average, at least 2°C (Apr 2025).
+## SUB 3 | Earth's Heat Budget (100 Units)
+[15:3:0] TABLE head: Of 100 units | Units
+  [15:3:0.0] Reflected to space (clouds 27, scattering 6, snow/ice 2) = planetary albedo | 35
+  [15:3:0.1] Absorbed by atmosphere | 14
+  [15:3:0.2] Absorbed by surface | 51
+[15:3:1] - Surface radiates all 51: **17 to space**, **34 to atmosphere** (6 direct, 9 convection/turbulence, 19 latent heat).
+[15:3:2] - Atmosphere sends **48** (14 + 34) to space → balance; earth neither warms nor cools.
+## SUB 4 | Greenhouse Effect
+[15:4:0] - Atmosphere **transparent to short-wave** sunlight, **opaque to long-wave** terrestrial radiation; re-radiates part back.
+[15:4:1] - GHGs **CO₂, CH₄, water vapour, N₂O** trap heat and raise temperature (APPSC-GS 2025).
+[15:4:2] - **Without atmosphere: about −18°C** instead of **+15°C** (UPSC 2025).
+[15:4:3] TABLE head: Gas | Share of effect | Source
+  [15:4:3.0] CO₂ | ~60% | Fossil fuels, deforestation, cement
+  [15:4:3.1] Methane ("marsh gas") | ~20% | Paddy, wetlands, livestock
+  [15:4:3.2] CFCs | ~15% | Refrigeration, aerosols
+  [15:4:3.3] N₂O | ~5% | Fertilisers
+[15:4:4] - **Water vapour** = commonest GHG, a climate feedback.
+[15:4:5] - **GWP (100 yr)**: CO₂ 1; methane **28–36**; N₂O **265–298**.
+[15:4:6] - Global land temperature up **1.59°C** since pre-industrial (UNEP Emissions Gap 2025). Oceans took a record **+23 ZJ** in 2025 (~90% of excess heat).
+## SUB 5 | Vertical Distribution
+[15:5:0] - **Normal lapse rate 6.5°C per km**.
+[15:5:1] - Why: ground heats air from below; higher air is **thinner, with less water vapour and dust**.
+[15:5:2] - **Himalayas** are cool despite low latitude – **altitude**.
+## SUB 6 | Horizontal Distribution – Isotherms and Thermal Equator
+[15:6:0] - **Isotherms** join places of equal temperature; run east-west; **more regular in Southern Hemisphere** (mostly ocean).
+[15:6:1] TABLE head: Month | Over land | Over oceans
+  [15:6:1.0] January (NH) | Bend equatorward | Bend poleward (oceans warmer; land cools faster)
+  [15:6:1.1] July | Bend poleward | Reverse
+[15:6:2] - **Thermal equator**: line of highest mean temperature; **mostly north of the Equator** (more land); moves with the sun.
+[15:6:3] - India, winter: **20°C isotherm** runs **Tapi mouth → Mahanadi delta**; temperature rises north to south.
+[15:6:4] - **January 18°C isotherm** splits India into tropical (south) and sub-tropical (north).
+[15:6:5] - Controls: latitude, altitude, sea (equable coasts), **ocean currents** (cold currents lower coast temperatures, help west-coast deserts), relief.
+## SUB 7 | Range of Temperature
+[15:7:0] - **Seasonal range maximum in high latitudes** (APPSC-G1 2023); largest annual range in **high-latitude continental interiors (Siberia)**; **minimum at the equator**.
+[15:7:1] - **Interior** = larger annual and daily range (continentality); **coasts** = equable, small range.
+[15:7:2] - **Cloudy nights warmer** – clouds send back Earth's heat (blanket); **no dew** on cloudy nights. **Clear nights cooler** – frost.
+[15:7:3] - India: highest winter daily range in **NW India (14–18°C)**; highest daily range in **Rajasthan deserts**.
+[15:7:4] - **Chennai**: annual mean 26°C, rainfall ~63 cm, annual range **9°C**.
+[15:7:5] - AP: **Rayalaseema** high daily range; coast low (**Visakhapatnam, Kakinada** sea breezes).
+## SUB 8 | Temperature Inversion
+[15:8:0] - Temperature **rises with height** (normal lapse reversed).
+[15:8:1] - Conditions: **long winter nights, clear skies, calm dry air, snow cover**.
+[15:8:2] TABLE head: Type | Feature
+  [15:8:2.0] Ground (radiation) | Surface night cooling
+  [15:8:2.1] Valley (air drainage) | Cold air drains into valleys → frost pockets on floor; slopes warmer → orchards on upper slopes
+  [15:8:2.2] Permanent | Polar areas; stratosphere = permanent inversion layer
+[15:8:3] - Effects: **fog, frost, smog**; pollutants trapped in the **planetary boundary layer**. North Indian winter mornings: inversion + moisture → fog.
+[15:8:4] - **Frontal inversion:** forms along a front, where warm air rides over a wedge of cold air, so temperature rises with height across the frontal boundary.
+## SUB 9 | Extremes, Urban Heat Islands and Heat Waves
+[15:9:0] # Records
+[15:9:1] TABLE head: Record | Place | Value
+  [15:9:1.0] World hottest | Death Valley | 56.7°C
+  [15:9:1.1] World coldest | Vostok | −89.2°C
+  [15:9:1.2] India coldest | Dras (Ladakh) | −45°C (1908)
+  [15:9:1.3] AP hottest | Rentachintala (Palnadu) | above 47°C
+  [15:9:1.4] AP coldest | Lambasingi (ASR) – "Kashmir of AP" | ~2°C
+[15:9:2] - **Urban heat island**: concrete and asphalt store heat.
+[15:9:3] - **TRISHNA**: **ISRO–CNES** (Indo-French) thermal-infrared satellite; land surface temperature, urban heat islands; **PSLV launch due 2027**.
+[15:9:4] - **Heat dome**: stuck high pressure under a slowed, winding jet stream.
+[15:9:5] # IMD Heat Wave and Cold Wave Criteria
+[15:9:6] TABLE head: Region | Heat wave max | Cold wave min
+  [15:9:6.0] Plains | 40°C | 10°C or below
+  [15:9:6.1] Coast | 37°C | —
+  [15:9:6.2] Hills | 30°C | 0°C or below
+[15:9:7] - Heat wave: departure **4.5–6.4°C**; severe: **above 6.4°C**. Coast: departure 4.5°C or more with max at least 37°C.
+[15:9:8] - Plains also by actual max: **45°C = heat wave**, **47°C = severe**.
+[15:9:9] - Cold wave (plains, actual): **4°C** or below; severe **2°C** or below.
+[15:9:10] - **NDMA** heat guidelines: **2019**.
+[15:9:11] # AP Angle
+[15:9:12] - **AP Heat Wave Action Plan since 2016**; **APSDMA** district-wise SMS alerts (Apr 2026).
+[15:9:13] - Severe-heatwave districts (HAP 2026): Tirupati, Prakasam, SPSR Nellore, Markapuram, Guntur, Bapatla, Palnadu.
+[15:9:14] - **2026 peak: 48.1°C at Piduguralla** (Palnadu), 21 May 2026; 45°C crossed in 18 districts.
+## SUB 10 | Number Game and Quick Revision
+[15:10:0] TABLE head: Item | Fact
+  [15:10:0.0] Heat budget | 35 / 14 / 51
+  [15:10:0.1] Lapse rate | 6.5°C/km
+  [15:10:0.2] Perihelion / aphelion | 147 / 152 million km
+  [15:10:0.3] Heat wave thresholds | 40 / 37 / 30°C
+  [15:10:0.4] Without atmosphere | −18°C
+[15:10:1] # FIRST / LAST / SPECIAL FACTS
+[15:10:2] - Highest albedo: fresh snow; lowest: water.
+[15:10:3] - Hottest latitude: ~20° N, not the equator.
+[15:10:4] - Permanent inversion: stratosphere.
+## SUB 11 | Appsc Previous Year Questions
+[15:11:0] TABLE head: Examination | Question Area
+  [15:11:0.0] APPSC-G1 2019 | Highest albedo – fresh snow
+  [15:11:0.1] APPSC-G2 2023 | Heating processes match
+  [15:11:0.2] APPSC-G1 2023 | Seasonal range by latitude
+  [15:11:0.3] APPSC-GS 2025 | Greenhouse gases trap heat
+## SUB 12 | High-probability Mcq Traps
+[15:12:0] VERY IMPORTANT
+[15:12:1] - 1. Air is heated mainly by terrestrial radiation, not sunlight.
+[15:12:2] - 2. Advection = horizontal; convection = vertical.
+[15:12:3] - 3. Highest temperatures at 20–30° N, not the equator.
+[15:12:4] - 4. January isotherms bend equatorward over land.
+[15:12:5] - 5. High thin clouds warm; low thick clouds cool.
+[15:12:6] - 6. Cloudy nights are warmer.
+[15:12:7] - 7. 40–37–30 = plains–coast–hills.
+[15:12:8] - 8. Thermal equator lies north of the equator.
+[15:12:9] - 9. Aphelion is in July, not January.
+
+=== OWN MCQs of 4:15 (83)
+[n03ae250431b] sub0
+  Which one of the following correctly describes insolation?
+  Vertical transfer of heat by rising air | Horizontal transfer of heat by moving air | Direct heating of the atmosphere by outgoing long-wave radiation | *Direct heating by incoming short-wave solar radiation
+  x: Insolation is the direct heating received from incoming short-wave solar radiation.
+[n210206fe3fc] sub0
+  What is the horizontal transfer of heat by wind called?
+  Convection | *Advection | Conduction | Insolation
+  x: Advection is the horizontal transfer of heat by wind; vertical transfer by rising warm air is convection.
+[n179058dc0fd] sub0
+  The Loo, a hot wind of northern India, is an example of which of the following processes?
+  Radiation | *Advection | Conduction | Convection
+  x: The Loo transfers heat horizontally through moving air and is therefore an example of advection.
+[nd816845f1b0] sub0
+  By which of the following is the atmosphere mainly heated?
+  Direct absorption of incoming short-wave solar radiation | Heat from the Earth's interior | *Outgoing long-wave terrestrial radiation from below | Radiation reflected by clouds
+  x: The atmosphere is largely transparent to incoming short-wave radiation but absorbs outgoing long-wave terrestrial radiation, so it is heated mainly from below.
+[n617efcdebd2] sub0
+  Why does temperature normally decrease with increasing altitude?
+  Higher air receives more long-wave radiation from the Sun. | *The ground heats the air from below, while higher air is thinner and contains less water vapour and dust. | The Earth stops emitting radiation above the lower atmosphere. | The atmosphere is heated mainly from above by direct solar radiation.
+  x: The ground heats the atmosphere from below. At higher levels the air is thinner and contains less water vapour and dust, so it absorbs less heat.
+[ngeneral-geography-7-32] sub0
+  Which sky condition produces the greatest terrestrial cooling at night?
+  Overcast skies | *Clear skies | Low, thick clouds | Heavy cloud cover
+  x: Clear skies allow more daytime solar heating and more night-time terrestrial cooling, whereas clouds cut both.
+[f4d3569b2f06f] sub0
+  In what form is terrestrial radiation, the main heater of the atmosphere, emitted?
+  Short-wave radiation | Ultraviolet radiation | Visible light | *Long-wave infra-red radiation
+  x: The Earth re-emits heat as long-wave infra-red radiation, which heats the air from below.
+[fea0d630a79af] sub0
+  Which gases mainly absorb the long-wave radiation re-emitted by the Earth?
+  *Carbon dioxide and water vapour | Nitrogen and oxygen | Argon and nitrogen | Oxygen and helium
+  x: Carbon dioxide and water vapour absorb the Earth's long-wave infra-red radiation.
+[f63ef00ebac0b] sub0
+  Which of the following pairs of heating process and mechanism is correctly matched?
+  Advection – Vertical transfer of heat | *Conduction – Heats the lower layers of air | Convection – Horizontal transfer of heat | Insolation – Long-wave heat from the Earth
+  x: Conduction heats the lower air in contact with warm ground; advection is horizontal, convection vertical and insolation short-wave.
+[n585a32d9a23] sub1
+  Which of the following is NOT correct about insolation?
+  The angle of the Sun's rays affects the insolation received at a place. | The length of the day affects the insolation received at a place. | *Atmospheric transparency has no effect on the insolation received. | The slope and aspect of the land affect the insolation received.
+  x: Atmospheric transparency does influence insolation, along with the angle of the rays, duration of sunshine, and slope and aspect of land.
+[n18587fd0a78] sub1
+  Which one of the following correctly represents the Earth's aphelion?
+  *Around 4 July at 152 million km | Around 3 January at 147 million km | Around 21 March at 150 million km | Around 23 September at 147 million km
+  x: Aphelion occurs around 4 July, when the Earth is approximately 152 million kilometres from the Sun.
+[ne80619ce523] sub1
+  Why do the highest temperatures on Earth generally occur in the sub-tropical deserts rather than at the Equator?
+  The maximum annual rainfall of the deserts | The permanent presence of cold ocean currents | Persistent cloud cover and humid air | *Clear skies and dry air
+  x: Sub-tropical deserts around 20°–30° N have clear skies and dry air, permitting very high temperatures; the Equator does not record the highest temperatures merely because it receives strong insolation.
+[n9635aca7212] sub1
+  At the same latitude, insolation is generally higher over:
+  Oceans than over continents | Polar seas than over tropical land | Oceans and continents equally | *Continents than over oceans
+  x: Insolation declines towards the poles and, at the same latitude, is higher over continents than over oceans.
+[n8ebc405c016] sub1
+  In the Earth's heat budget, where is a heat surplus found?
+  Antarctic region | Polar regions | Arctic Circle | *Tropics
+  x: The tropics have a heat surplus and the poles a deficit; winds and ocean currents carry heat poleward.
+[ngeneral-geography-7-33] sub1
+  What type of the Sun's rays does the equator receive, causing it to be heated more than the poles?
+  *direct | oblique | reflected | scattered
+  x: Latitude sets the Sun's angle: the equator gets more direct rays and greater heating, while the poles get oblique rays and lower heating.
+[feda39f38e8ae] sub1
+  On about which date is the Earth at perihelion, its closest point to the Sun?
+  *3 January | 4 July | 21 March | 23 September
+  x: Perihelion falls around 3 January (about 147 million km); aphelion around 4 July.
+[f78981bae5965] sub1
+  What is the approximate Earth–Sun distance at perihelion?
+  152 million km | *147 million km | 157 million km | 142 million km
+  x: The Earth is about 147 million km from the Sun at perihelion and about 152 million km at aphelion.
+[f1d16358c4503] sub1
+  How does insolation received at the Earth's surface generally change from the Equator towards the poles?
+  increases | remains the same | *decreases | first decreases and then increases
+  x: The Equator gets direct rays and the poles oblique rays, so insolation falls poleward.
+[n40aec04c546] sub2
+  According to recent assessments (Apr 2025), the Arctic is warming at about what rate compared with the global average?
+  *3-4 times faster | About half as fast | At the same rate | 10 times faster
+  x: The Arctic has warmed by at least 2 deg C and is warming 3-4 times faster than the global average (older estimates said about twice), driven by the ice-albedo feedback in which melting ice exposes dark ocean. It is not slower, equal or ten times faster.
+[n27fe05dcf62] sub2
+  After fresh snow, which of the following surfaces has the highest albedo?
+  *Sand | Grass | Forest | Water
+  x: The descending albedo order is fresh snow, sand, grass, forest and water, so sand comes second.
+[n319a424c6a3] sub2
+  Which clouds tend to reflect incoming sunlight and produce cooling?
+  High, thin clouds | Cirrostratus clouds | Cirrus clouds | *Low, thick clouds
+  x: Low, thick clouds reflect more sunlight and cause cooling, whereas high, thin clouds tend to trap outgoing heat.
+[n7113fb6c4a8] sub2
+  What does the albedo of a surface refer to?
+  *share of incoming radiation reflected by the surface | amount of heat stored below the surface | rate at which terrestrial radiation is emitted | amount of moisture absorbed by the surface
+  x: Albedo is the proportion or share of incoming radiation that a surface reflects.
+[nb8f3b9f39f8] sub2
+  Why can melting of ice intensify warming?
+  converts long-wave radiation into short-wave radiation | increases the albedo of the exposed ocean | *exposes a darker ocean surface that absorbs more heat | prevents the ocean from absorbing solar radiation
+  x: Melting ice exposes dark ocean water, which has a lower albedo and absorbs more heat, producing a positive ice-albedo feedback.
+[fb48293aed7c3] sub2
+  What effect do high, thin clouds generally have?
+  Reflect sunlight and cause cooling | *Trap heat and cause warming | Have no effect on temperature | Raise the Earth's albedo the most
+  x: High, thin clouds trap heat (warming), while low, thick clouds reflect sunlight (cooling).
+[f69a070d1b8c0] sub2
+  What is the approximate albedo of fresh snow?
+  20–40% | 15–25% | *75–95% | Below 10%
+  x: Fresh snow reflects 75–95% of incoming radiation; dry sand 20–40%, crop land 15–25% and water below 10%.
+[n06b1c1202f6] sub3
+  Which of the following pairs about the 35 units of insolation reflected to space is correctly matched?
+  Scattering – 27 units | Snow and ice – 6 units | *Clouds – 27 units | Scattering – 2 units
+  x: Of the 35 reflected units, clouds reflect 27, scattering 6 and snow and ice 2.
+[ndb5f1e5e452] sub3
+  Of 100 units of insolation reaching the top of the atmosphere, how many are absorbed by the Earth's surface?
+  35 | *51 | 14 | 65
+  x: Of 100 units, 35 are reflected to space, 14 absorbed by the atmosphere and 51 by the Earth's surface.
+[fe8f167a22d25] sub3
+  Of the 51 units absorbed by the Earth's surface, how many are radiated directly to space?
+  34 | 48 | *17 | 14
+  x: The surface radiates 17 units directly to space and 34 to the atmosphere.
+[f60fd6b71e3ee] sub3
+  Of 100 units of insolation, how many are absorbed by the atmosphere?
+  35 | 17 | 51 | *14
+  x: Of 100 units, 35 are reflected, 14 absorbed by the atmosphere and 51 by the surface.
+[f8733637fe82b] sub3
+  What do the 35 units of insolation reflected back to space form?
+  *Planetary albedo | Heat surplus | Terrestrial radiation | Greenhouse effect
+  x: The 35 units reflected by clouds, scattering and snow and ice make up the planetary albedo.
+[f4d89d53ef340] sub3
+  In the Earth's heat budget, how many units does the atmosphere radiate to space?
+  34 | *48 | 65 | 17
+  x: The atmosphere sends 48 units (14 + 34) to space; with 17 from the surface, 65 units go out.
+[n5819ae88978] sub4
+  Carbon dioxide contributes approximately what share of the greenhouse effect?
+  5% | 15% | 20% | *60%
+  x: CO2 contributes about 60%, from fossil fuels, deforestation and cement; methane about 20%, CFCs about 15% and N2O about 5%.
+[n924229365ec] sub4
+  Which one of the following gases is the most abundant greenhouse gas and acts importantly as a feedback in the climate system?
+  *Water vapour | Nitrous oxide | Carbon dioxide | Methane
+  x: Water vapour is the most abundant greenhouse gas and functions importantly as a climate feedback.
+[n6313abaab08] sub4
+  With carbon dioxide assigned a Global Warming Potential of 1 over 100 years, which of the following ranges is correctly matched?
+  *Methane: 28–36; Nitrous oxide: 265–298 | Methane: 60–80; Nitrous oxide: 100–150 | Methane: 1–5; Nitrous oxide: 10–20 | Methane: 265–298; Nitrous oxide: 28–36
+  x: On the stated 100-year scale, carbon dioxide has a GWP of 1, methane 28–36 and nitrous oxide 265–298.
+[n3f7ebc323a7] sub4
+  In the absence of the atmosphere, what would be the approximate average surface temperature of the Earth?
+  0°C instead of +15°C | +35°C instead of −18°C | *−18°C instead of +15°C | +15°C instead of −18°C
+  x: Without the atmospheric heat-trapping effect, the average surface temperature would be about −18°C rather than approximately +15°C.
+[f55403d0e539a] sub4
+  Methane contributes approximately what share of the greenhouse effect?
+  About 60% | About 15% | *About 20% | About 5%
+  x: Methane gives about 20% of the greenhouse effect; CO₂ about 60%, CFCs about 15% and N₂O about 5%.
+[f43d31ccced7d] sub4
+  Consider the following statements about the greenhouse effect:
+1. The atmosphere is transparent to short-wave sunlight.
+2. The atmosphere is transparent to long-wave terrestrial radiation.
+3. Without the atmosphere, the Earth's average surface temperature would be about −18°C.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: The atmosphere lets short-wave sunlight through but is opaque to long-wave terrestrial radiation; without it the Earth would be about −18°C.
+[gd9ad6fac1ab7] sub4
+  Which greenhouse gas is known as 'marsh gas'?
+  *Methane | Nitrous oxide | Carbon dioxide | Ozone
+  x: Methane, called marsh gas, comes from paddy fields, wetlands and livestock and gives about 20% of the greenhouse effect.
+[gd2135a4801ce] sub4
+  According to the UNEP Emissions Gap Report 2025, by how much has global land temperature risen since pre-industrial times?
+  0.89°C | 1.15°C | *1.59°C | 2.10°C
+  x: The UNEP Emissions Gap Report 2025 puts the rise in global land temperature at 1.59°C above pre-industrial levels.
+[ngeneral-geography-7-7] sub5
+  Which climatic control explains why the Himalayas are cooler despite their lower latitude?
+  *Altitude | Distance from sea | Cloudiness | Ocean currents
+  x: Altitude makes the Himalayas cool despite their low latitude, since temperature falls about 6.5°C per km.
+[n3023b54f8a6] sub5
+  What is the normal lapse rate, at which temperature falls with increasing height in the troposphere?
+  3.5 °C per km | 5.5 °C per km | *6.5 °C per km | 9.8 °C per km
+  x: Temperature normally falls with height at about 6.5 °C per km, because the air is heated from below and higher air absorbs less heat.
+[f333eff8d84db] sub5
+  Which of the following is NOT a reason why temperature falls with height in the troposphere?
+  The air is heated from below by the ground. | Higher air is thinner. | Higher air holds less water vapour and dust. | *Higher air is heated directly by the Sun more than lower air.
+  x: Air is heated from below, not directly by the Sun; thinner air with less vapour and dust aloft makes temperature fall with height.
+[ngeneral-geography-7-22] sub6
+  Which of the following is NOT correct about factors affecting temperature?
+  *Cold ocean currents raise coastal temperatures. | Continentality produces extreme interior climates with a large annual range. | Cloud cover reduces daytime heating and night-time cooling. | Warm ocean currents raise coastal temperatures.
+  x: Cold ocean currents lower coastal temperatures and favour west-coast deserts; it is warm currents that raise them.
+[n2f5bf5abd13] sub6
+  How do isotherms in the Northern Hemisphere bend in January?
+  Equatorward over both land and oceans | Poleward over land and equatorward over oceans | *Equatorward over land and poleward over oceans | Exactly along the parallels
+  x: In January, Northern Hemisphere isotherms bend equatorward over colder landmasses and poleward over relatively warmer oceans.
+[nb6d1cc9ef10] sub6
+  In winter, India's 20°C isotherm runs approximately from the mouth of the Tapi to which delta?
+  Godavari delta | Ganga delta | Krishna delta | *Mahanadi delta
+  x: In winter the 20°C isotherm runs from the Tapi mouth to the Mahanadi delta; temperature rises from north to south.
+[na09cdb227ef] sub6
+  Which of the following defines the thermal equator?
+  *line joining places of highest mean temperature, generally lying north of the geographical Equator. | boundary between the tropical and polar zones, fixed at 23½° latitude. | line joining the coldest places in both hemispheres. | geographical Equator, which never shifts seasonally.
+  x: The thermal equator is the line of highest mean temperature. It lies mostly north of the geographical Equator and shifts with the apparent movement of the Sun.
+[nb2e22754093] sub6
+  What are lines joining places having equal temperature called?
+  Isobars | *Isotherms | Isohyets | Isohalines
+  x: Isotherms join places of equal temperature; they generally run east-west and are more regular in the ocean-dominated Southern Hemisphere.
+[f0bb5b8d54dbb] sub6
+  How do isotherms in the Northern Hemisphere bend in July?
+  Equatorward over land and poleward over oceans | Poleward over both land and oceans | Equatorward over both land and oceans | *Poleward over land and equatorward over oceans
+  x: In July isotherms bend poleward over land and the reverse over oceans; January shows the opposite pattern.
+[f14fce3ba4c57] sub6
+  Why are isotherms more regular in the Southern Hemisphere?
+  *Mostly ocean | Mostly land | More mountainous | Closer to the Sun in July
+  x: The Southern Hemisphere is mostly ocean, so its isotherms run more regularly east-west.
+[faab7405dec25] sub6
+  What does the Northern Hemisphere have that makes the thermal equator lie mostly north of the Equator?
+  More ocean | *More land | More cold currents | Longer winters
+  x: The thermal equator, the line of highest mean temperature, lies mostly north of the Equator because there is more land there.
+[g2cd9f4775c5a] sub6
+  Which January isotherm divides India into tropical and sub-tropical parts?
+  15°C isotherm | *18°C isotherm | 20°C isotherm | 25°C isotherm
+  x: The January 18°C isotherm separates tropical south India from sub-tropical north India.
+[ne9e28d4312d] sub7
+  Which one of the following regions of India records the highest diurnal range of temperature in winter?
+  The south-western coast | The eastern coastal delta | *North-western India | North-eastern India
+  x: The diurnal range is highest in north-western India during winter, where it is about 14°–18°C.
+[ngeneral-geography-7-2] sub7
+  Which of the following statements is incorrect?
+  Temperature generally decreases from the equator towards the poles. | The sea moderates temperature, making coastal climates more equable. | *Interior areas generally have a smaller annual temperature range than coastal areas. | Temperature generally decreases with increasing altitude.
+  x: Option C is incorrect: interior areas have a larger annual range, because land heats and cools fast. Coasts are equable because the sea moderates them.
+[n427c3521e76] sub7
+  Where is the annual range of temperature largest?
+  Equatorial regions | *High-latitude continental interiors such as Siberia | Coastal areas | Tropical oceans
+  x: The annual range is largest in high-latitude continental interiors like Siberia and minimum at the equator; coasts have a small range.
+[n85835978403] sub7
+  Where in Andhra Pradesh is a high diurnal range of temperature found?
+  Coastal Andhra | Kakinada | Visakhapatnam | *Interior Rayalaseema
+  x: The coast has a low diurnal range moderated by the sea and sea breezes (as at Visakhapatnam and Kakinada), while interior Rayalaseema has a high range.
+[f403901f4c0b2] sub7
+  Where is the annual range of temperature minimum?
+  Tropic of Cancer | Arctic Circle | *Equator | Interior of Siberia
+  x: The annual range is smallest at the Equator and largest in high-latitude continental interiors such as Siberia.
+[fa175d1f4183e] sub7
+  Where is the seasonal range of temperature maximum?
+  Equatorial regions | Tropical coasts | Low-latitude islands | *High latitudes
+  x: Seasonal range is maximum in high latitudes (APPSC-G1 2023) and minimum at the Equator.
+[n9a5372bc8a1] sub8
+  In a valley inversion, why is the valley floor colder than the slopes?
+  warm air flows downslope and accumulates at the valley floor. | the valley floor is always nearer to the Sun. | *cold air drains downslope and settles in the valley. | the slopes receive no solar radiation in winter.
+  x: Cold, dense air flows downslope and accumulates in valleys, producing frost pockets while the slopes remain relatively warmer.
+[n1fe79756e62] sub8
+  Which of the following is NOT correctly matched?
+  Frontal inversion — association with a frontal boundary | Valley inversion — downslope drainage of cold air | Surface or radiation inversion — night-time cooling of the ground | *Stratosphere — absence of any inversion condition
+  x: The stratosphere is a permanent inversion layer, so it is incorrect to associate it with the absence of inversion.
+[n76dfb674516] sub8
+  What is a condition in which temperature rises with height instead of falling called?
+  Normal lapse rate | Adiabatic cooling | Convection | *Temperature inversion
+  x: In a temperature inversion the normal lapse rate reverses; it is favoured by long winter nights, clear skies and calm dry air.
+[ne8824e7cded] sub8
+  Fog, frost, smog and the trapping of pollutants in the planetary boundary layer are effects of which condition?
+  Strong convection | *Temperature inversion | Atmospheric instability | The normal lapse rate
+  x: Temperature inversions can produce fog, frost and smog and trap pollutants within the planetary boundary layer.
+[f9c108bc21edf] sub8
+  Which layer of the atmosphere is a permanent inversion layer?
+  *Stratosphere | Troposphere | Planetary boundary layer | Lowest air near the ground
+  x: The stratosphere is the permanent inversion layer, where temperature rises with height.
+[fb9e68636f35c] sub8
+  Which of the following does NOT favour a temperature inversion?
+  Long winter nights | Clear skies | Snow cover | *Cloudy skies
+  x: Inversions need long winter nights, clear skies, calm dry air and snow cover; cloudy skies do not favour them.
+[f50df9fd6cc65] sub8
+  In valleys with temperature inversion, why are orchards usually planted on upper slopes?
+  Upper slopes receive more rain | *Frost pockets form on the valley floor | Valley floors are warmer at night | Upper slopes are colder at night
+  x: Cold air drains into the valley floor and forms frost pockets, while the slopes stay warmer.
+[nabf4dde5d48] sub9
+  Which of the following describes a heat dome?
+  A cold ocean current remains below a stationary cyclone | A low-pressure system forms over a rapidly moving jet stream | A monsoon trough shifts permanently towards the poles | *A stalled high-pressure system remains under a slowed, meandering jet stream
+  x: A heat dome develops when a high-pressure system stalls beneath a slowed and meandering jet stream, producing persistent heat.
+[nbbee96d0f59] sub9
+  Why is an urban heat island primarily produced?
+  cities receive no long-wave radiation at night. | rural vegetation reflects all incoming radiation toward cities. | urban areas are always located at lower latitudes than rural areas. | *concrete and asphalt store heat and make cities warmer than surrounding rural areas.
+  x: Concrete and asphalt absorb and retain heat, causing urban areas to be warmer than their rural surroundings.
+[ndisaster-management-33-5] sub9
+  Under IMD heatwave criteria, what is the minimum threshold temperature for coastal areas?
+  30°C | 40°C | *37°C | 45°C
+  x: A heatwave needs at least 37°C on the coast, 40°C in the plains and 30°C in the hills.
+[ndisaster-management-34-7] sub9
+  Under IMD criteria, what is the minimum-temperature threshold for a cold wave in hilly regions?
+  10°C or below | 4°C or below | 2°C or below | *0°C or below
+  x: The hilly-region cold-wave threshold is 0°C or below; 10°C or below is the threshold for the plains.
+[n448c3012ac9] sub9
+  TRISHNA, a thermal-infrared satellite mission, is a joint venture of ISRO and which agency?
+  ESA | NASA | JAXA | *CNES
+  x: TRISHNA is an Indo-French ISRO-CNES mission to map energy and water budgets, land surface temperature and urban heat islands; its PSLV launch is due in 2027.
+[n6e9b3796531] sub9
+  Which is identified as the hottest place in Andhra Pradesh?
+  Lambasingi | *Rentachintala | Sileru | Chittoor
+  x: Rentachintala in Palnadu is the hottest place in Andhra Pradesh, while Lambasingi is the coolest.
+[nf14d0d8f23c] sub9
+  Which one of the following pairs is correctly matched?
+  *Dras — about −45°C recorded in 1908 | Death Valley — −89.2°C | Vostok — 56.7°C | Lambasingi — −45°C recorded in 1908
+  x: Dras in Ladakh recorded approximately −45°C in 1908. Death Valley is associated with 56.7°C, while Vostok is associated with −89.2°C.
+[ncf4904e289d] sub9
+  Since which year has Andhra Pradesh had a Heat Wave Action Plan?
+  2012 | 2019 | *2016 | 2026
+  x: Andhra Pradesh has had a Heat Wave Action Plan since 2016; APSDMA also sends district-wise SMS heat-wave alerts.
+[ndisaster-management-33-7] sub9
+  Which of the following is NOT correct about heatwave criteria?
+  *In the plains, a severe heatwave is declared at an actual maximum temperature of 45°C or more. | In the plains, a heatwave is a departure from normal of 4.5°C to 6.4°C. | In the plains, a severe heatwave is a departure from normal of more than 6.4°C. | In coastal areas, a departure of 4.5°C or more counts as a heatwave when the maximum is at least 37°C.
+  x: A severe heatwave by actual maximum temperature in the plains needs 47°C or more, not 45°C.
+[ndisaster-management-33-9] sub9
+  In the plains, at what actual maximum temperature is a severe heatwave declared?
+  40°C | 45°C | *47°C | 50°C
+  x: In the plains an actual maximum of 45°C or more counts as a heatwave and 47°C or more as a severe heatwave.
+[f733ec2f63892] sub9
+  Where was the world's coldest recorded temperature of −89.2°C recorded?
+  Dras | Death Valley | *Vostok | Lambasingi
+  x: Vostok holds the world record of −89.2°C; Dras is India's coldest and Death Valley the world's hottest.
+[f731d3b063733] sub9
+  Which place is called the 'Kashmir of Andhra Pradesh'?
+  Rentachintala | Piduguralla | Kakinada | *Lambasingi
+  x: Lambasingi in ASR district, about 2°C, is the coldest place in AP; Rentachintala is the hottest.
+[fbdedd5155535] sub9
+  What departure from the normal maximum temperature marks a severe heatwave?
+  4.5°C to 6.4°C | *Above 6.4°C | 2.5°C to 4.5°C | Above 2.5°C
+  x: A departure of 4.5–6.4°C is a heatwave; above 6.4°C is a severe heatwave.
+[f1e000bc9e55c] sub9
+  Where was Andhra Pradesh's 2026 peak temperature of 48.1°C recorded?
+  Lambasingi | Visakhapatnam | *Piduguralla | Kakinada
+  x: The 2026 peak of 48.1°C was recorded at Piduguralla in Palnadu on 21 May 2026.
+[fc9fa292a1906] sub9
+  In which year did NDMA issue its heat-wave guidelines?
+  2016 | 2010 | 2025 | *2019
+  x: NDMA's heat guidelines date from 2019; AP's Heat Wave Action Plan has run since 2016.
+[g7c39388a4e8b] sub9
+  According to the India Meteorological Department, what is the minimum maximum-temperature threshold for a heat wave in the plains?
+  30°C | 37°C | *40°C | 45°C
+  x: IMD considers a heat wave in the plains only when the maximum is at least 40°C (37°C on the coast, 30°C in the hills).
+[gde144a590631] sub9
+  Which of the following districts was listed as a severe-heatwave district in Andhra Pradesh's Heat Action Plan 2026?
+  Alluri Sitharama Raju | Srikakulam | Visakhapatnam | *Palnadu
+  x: Palnadu, with Tirupati, Prakasam, SPSR Nellore, Markapuram, Guntur and Bapatla, was a severe-heatwave district in HAP 2026.
+[g65fb3bed32a0] sub9
+  Consider the following statements about IMD criteria:
+1. A heat wave in coastal areas needs a maximum temperature of at least 37°C.
+2. A cold wave in the plains needs a minimum temperature of 10°C or below.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: IMD uses 37°C as the coastal heat-wave threshold and 10°C or below as the cold-wave minimum for the plains.
+[g71a5d79b6b36] sub9
+  Where was the world's highest temperature of 56.7°C recorded?
+  Vostok | *Death Valley | Dras | Rentachintala
+  x: Death Valley holds the world record of 56.7°C; Vostok holds the coldest (-89.2°C).
+
+=== NOTES 4:16 | Atmospheric Pressure – Pressure Belts; Planetary, Periodic and Local Winds; Jet Streams
+## SUB 0 | Pressure – Basics and Instruments
+[16:0:0] - Heated air **expands, becomes lighter → low pressure**; cooled air contracts → high pressure.
+[16:0:1] - Pressure **falls with altitude**.
+[16:0:2] - **Standard sea-level pressure: 1013.25 mb (hPa)**.
+[16:0:3] - **Isobars** join places of equal pressure (reduced to sea level).
+[16:0:4] - **Pressure gradient** = fall of pressure per unit distance; **sets wind speed** (APPSC-G2 2011). Air moves **high → low**.
+[16:0:5] - **Closely spaced isobars** = steep gradient = **strong winds**.
+[16:0:6] TABLE head: Barometer | Weather
+  [16:0:6.0] Sudden / steady fall | Low pressure → cloud, rain, storm
+  [16:0:6.1] Rising | Fair, settled
+  [16:0:6.2] Instrument | Measures
+  [16:0:6.3] Barometer (mercury, aneroid) / barograph | Pressure (mb, hPa)
+  [16:0:6.4] Anemometer | Wind speed (km/h, knots)
+  [16:0:6.5] Wind vane | Wind direction
+## SUB 1 | Wind Controls – Coriolis, Friction, Geostrophic Wind
+[16:1:0] - **Coriolis force**: due to Earth's rotation; deflects **right in NH, left in SH** (**Ferrel's law**, APPSC-G1 2019).
+[16:1:1] - Coriolis is **zero at the equator, maximum at poles**; **grows with wind speed**.
+[16:1:2] - **No cyclones within ~5°** of the equator (Coriolis negligible); tropical cyclones stay between 30°N and 30°S.
+[16:1:3] - **Friction** slows surface winds, stronger over land; negligible aloft.
+[16:1:4] - **Geostrophic wind**: upper air, **parallel to isobars**; **pressure gradient force = Coriolis force**, no friction.
+[16:1:5] - Coriolis decides direction; friction affects speed.
+## SUB 2 | Pressure Belts
+[16:2:0] TABLE head: Belt | Latitude | Other name / nature
+  [16:2:0.0] Equatorial low | 0–5° N and S | Doldrums, ITCZ; calm rising air; trades converge
+  [16:2:0.1] Subtropical high | 30–35° N and S | Horse latitudes; calm, sinking dry air, hot deserts
+  [16:2:0.2] Subpolar low | 60–65° | Westerlies meet polar easterlies; storms
+  [16:2:0.3] Polar high | Poles (90°) | Cold, dense, sinking air
+[16:2:1] - Belts **shift 5–10°** with the overhead sun (**north in NH summer**, south in winter).
+[16:2:2] - **Horse latitudes** and ITCZ asked in APPSC 2019.
+[16:2:3] APPSC-G1 2024: "Doldrums are strong winds" and "NH trades blow from NW" are both WRONG → **neither**. Doldrums = **calm**; NH trades = **north-east**.
+## SUB 3 | Itcz and the Monsoon
+[16:3:0] - **ITCZ**: low-pressure trough near the equator where **NE and SE trades meet**; shifts with the sun.
+[16:3:1] - NH summer: ITCZ moves **north over the Indian plains** (monsoon trough) – this **helps** the monsoon (a result, not cause).
+[16:3:2] - Winter: ITCZ moves **south** of India; highs over **Tibet and Siberia** → **north-east monsoon**; most of India dry under **NE trades**.
+[16:3:3] - Southward shift of doldrums → heavy rain in southern states.
+[16:3:4] - Winter **anticyclonic** conditions: high pressure, low temperature. **Western disturbances** give North India winter rain – they do not cause the anticyclone.
+[16:3:5] - Himalayas = **climatic divide**, giving India its distinct monsoon climate.
+## SUB 4 | Planetary Winds
+[16:4:0] TABLE head: Wind | From → to | NH | SH
+  [16:4:0.0] Trade winds (easterlies) | Subtropical high → equatorial low | NE | SE
+  [16:4:0.1] Westerlies | Subtropical high → subpolar low (35–60°) | SW | NW
+  [16:4:0.2] Polar easterlies | Polar high → subpolar low | NE | SE
+[16:4:1] - Trade winds push tropical cyclones **west onto east coasts**; westerlies turn them **north-east** (Cyclone Montha, Kakinada, Nov 2025).
+[16:4:2] - **Hadley cell**: rises at equator, sinks near **30°**, returns as trades (meridional). **Walker circulation**: **east–west** Pacific cell.
+[16:4:3] - NW Europe ports open all year; SW winds blow there all year (true, but not the reason).
+## SUB 5 | Roaring Forties, Furious Fifties, Shrieking Sixties
+[16:5:0] TABLE head: Name | Latitude
+  [16:5:0.0] Roaring Forties | 40–50° S
+  [16:5:0.1] Furious Fifties | 50–60° S
+  [16:5:0.2] Shrieking Sixties | Around 60° S
+[16:5:1] - **SH westerlies** are stronger and steadier – open ocean, little land friction; NH westerlies less steady (landmasses).
+[16:5:2] - Roaring Forties: strong, constant, blow west to east; over the **Indian Ocean**.
+## SUB 6 | Jet Streams and Polar Vortex
+[16:6:0] - **Jet streams**: narrow, fast upper winds at **10–12 km**; regulate monsoon onset and withdrawal.
+[16:6:1] - **First identified by Wasaburo Ooishi (Japan, 1920s)**; widely known in **World War II** (bomber pilots).
+[16:6:2] TABLE head: Jet | Position / season | Role
+  [16:6:2.0] Sub-Tropical Westerly Jet | South of Himalayas in winter; north in summer | Carries western disturbances from the Mediterranean; leaves before monsoon "burst"; returns October
+  [16:6:2.1] Tropical Easterly Jet | Summer, 5–20°N, June–early Oct (South China Sea → East Africa) | Upper anticyclone; strengthens SW monsoon
+  [16:6:2.2] Somali (Findlater) Jet | Low-level, off East Africa | With Somali Current boosts monsoon
+[16:6:3] - STWJ-carried western disturbances worsened 2026 monsoon extremes; may have fed flash floods in Nepal and Tibet (Aug 2026).
+[16:6:4] - **El Niño** weakens the monsoon; **positive IOD** (warmer western Indian Ocean) can offset it. UK Met Office expects the **biggest El Niño in over a century** (Aug 2026).
+[16:6:5] - **Polar vortex**: year-round **cold low** around the poles; **anticlockwise**; strongest in **winter**; stratospheric part 15–50 km.
+[16:6:6] - **Strong vortex keeps cold air up north** (APPSC 2018). **Rossby waves / sudden stratospheric warming** weaken it → winds reverse, vortex splits → cold spells in mid-latitudes.
+## SUB 7 | Periodic Winds – Breezes and Monsoon
+[16:7:0] TABLE head: Breeze | Time | Direction
+  [16:7:0.0] Sea breeze | Day | Sea → land (land heats faster, lower pressure)
+  [16:7:0.1] Land breeze | Night | Land → sea
+  [16:7:0.2] Valley (anabatic) | Day | Uphill
+  [16:7:0.3] Mountain (katabatic) | Night | Downhill; cold air in valleys → inversion, frost
+[16:7:1] - Land and sea breezes are **daily**; monsoon reverses **seasonally**. They moderate **AP coastal** temperatures.
+[16:7:2] - **Monsoon**: from Arabic **"mausim" = season**; **seasonal reversal of winds** from **differential heating of land and sea**; summer sea → land, winter land → sea; clear wet and dry seasons.
+[16:7:3] TABLE head: Theory | Year | Idea
+  [16:7:3.0] Halley | 1686 | Giant land-sea breeze
+  [16:7:3.1] Modern theory | 1957 | ITCZ shift + jet streams + Tibet Plateau + ENSO
+[16:7:4] - **AP**: SW monsoon 2026 reached AP via **Rayalaseema on 6 June 2026** (two days late; normal 4 June). IMD expected **below-normal** AP rain under El Niño (Jun 2026).
+[16:7:5] - AP coastline **1,053.07 km**, **third longest** in India (AP Socio-Economic Survey 2025-26).
+## SUB 8 | Local Winds and Storms
+[16:8:0] - Local winds: **short-lived, predictable, region-specific**; from local temperature and pressure differences.
+[16:8:1] TABLE head: Wind | Region | Nature
+  [16:8:1.0] Loo | North India, Rayalaseema | Hot, dry summer wind
+  [16:8:1.1] Kaal Baisakhi (Nor'westers) | Bihar, Odisha, West Bengal, Assam | Violent pre-monsoon storms
+  [16:8:1.2] Mango showers | Kerala, Karnataka | Pre-monsoon showers
+  [16:8:1.3] Aandhi | NW India | Dust storms
+  [16:8:1.4] Foehn | Alps (Switzerland) | Warm, dry; melts snow
+  [16:8:1.5] Chinook | Rockies | Warm, dry; "snow eater"
+  [16:8:1.6] Mistral | Rhone valley, France | Cold, dry
+  [16:8:1.7] Sirocco | Sahara → Italy | Hot, dusty; "blood rain"
+  [16:8:1.8] Harmattan | West Africa | Hot, dry; "the doctor"
+  [16:8:1.9] Bora | NE Adriatic (Italy, Slovenia, Croatia) | Cold, dry – not Siberia
+  [16:8:1.10] Santa Ana | Southern California | Spreads wildfires
+  [16:8:1.11] Leveche | Spain | Hot, dry
+  [16:8:1.12] Brickfielder | SE Australia | Hot, dusty
+  [16:8:1.13] Shamal | Iraq, Persian Gulf | Hot, dusty
+  [16:8:1.14] Blizzard | Polar lands, Siberia, Canada, USA – not Chile | Snowstorm with strong winds
+## SUB 9 | Number Game and Quick Revision
+[16:9:0] TABLE head: Item | Fact
+  [16:9:0.0] Standard pressure | 1013.25 mb
+  [16:9:0.1] Horse latitudes | 30–35°
+  [16:9:0.2] Belt shift | 5–10°
+  [16:9:0.3] TEJ | 5–20°N
+  [16:9:0.4] Jet height | 10–12 km
+  [16:9:0.5] Halley / modern theory | 1686 / 1957
+[16:9:1] # FIRST / LAST / SPECIAL FACTS
+[16:9:2] - First to identify jet streams: Wasaburo Ooishi.
+[16:9:3] - Coriolis zero at equator, maximum at poles.
+[16:9:4] - "Snow eater" = Chinook; "the doctor" = Harmattan.
+## SUB 10 | Appsc Previous Year Questions
+[16:10:0] TABLE head: Examination | Question Area
+  [16:10:0.0] APPSC-G2 2011 | Pressure gradient and wind speed
+  [16:10:0.1] APPSC 2018 | Polar vortex
+  [16:10:0.2] APPSC-G1 2019 | Coriolis; horse latitudes, ITCZ
+  [16:10:0.3] G1 Prelims 2024, Paper 1 | Doldrums and trade wind statements
+## SUB 11 | High-probability Mcq Traps
+[16:11:0] VERY IMPORTANT
+[16:11:1] - 1. Doldrums are calm, not strong winds.
+[16:11:2] - 2. NH trades are north-easterly.
+[16:11:3] - 3. Coriolis: right in NH, zero at equator.
+[16:11:4] - 4. Geostrophic wind is upper air, no friction.
+[16:11:5] - 5. Roaring Forties are in the Southern Hemisphere.
+[16:11:6] - 6. Foehn = Alps; Chinook = Rockies.
+[16:11:7] - 7. Bora = Adriatic, not Siberia.
+[16:11:8] - 8. Anabatic = uphill by day; katabatic = downhill at night.
+[16:11:9] - 9. Anemometer = speed; wind vane = direction.
+[16:11:10] - 10. ITCZ shift helps the monsoon; differential heating causes it.
+
+=== OWN MCQs of 4:16 (79)
+[ngeneral-geography-7-3] sub0
+  When air is heated, it expands and its density decreases. What does this produce?
+  *Low pressure | High pressure | Temperature inversion | Subsidence
+  x: Heated air expands and becomes less dense, which lowers pressure, so rising temperature can lead to low pressure.
+[n91f09f4464a] sub0
+  What do closely spaced isobars on a weather map indicate?
+  A gentle pressure gradient and calm air | *A steep pressure gradient and strong winds | Uniform pressure over the area | Air moving from low to high pressure
+  x: Closely spaced isobars mean a steep pressure gradient and strong winds; air moves from high to low pressure.
+[n9743db4fad4] sub0
+  What is the standard sea-level atmospheric pressure?
+  986.25 mb | 1000.00 mb | 1031.25 mb | *1013.25 mb
+  x: Standard sea-level pressure is 1013.25 mb (hPa).
+[n9bb673b60cf] sub0
+  Which one of the following pairs is correctly matched?
+  Barometer — wind direction | *Anemometer — wind speed | Wind vane — atmospheric pressure | Barograph — rainfall amount
+  x: An anemometer measures wind speed, generally in kilometres per hour or knots. A barometer or barograph measures pressure, while a wind vane shows wind direction.
+[f35f93bb0720e] sub0
+  Which instrument shows the direction of the wind?
+  *Wind vane | Anemometer | Aneroid barometer | Barograph
+  x: A wind vane shows wind direction; an anemometer measures its speed.
+[f0a7f19c6a493] sub0
+  How does atmospheric pressure change with altitude?
+  rises | *falls | remains constant | first rises and then falls
+  x: Pressure falls with altitude.
+[f4b3daa115030] sub0
+  Which instrument is used to measure wind speed?
+  Wind vane | Barometer | Barograph | *Anemometer
+  x: An anemometer measures wind speed; a wind vane shows direction and a barometer measures pressure.
+[g1a24c7ae205d] sub0
+  What does a sudden fall in the barometer reading generally indicate?
+  Fair and settled weather | A cold, dry spell | *An approaching storm | A temperature inversion
+  x: A sudden fall in pressure means a low is coming, bringing cloud, rain and storm; a rising barometer means fair weather.
+[g42bd2ba1376c] sub0
+  What are lines joining places of equal atmospheric pressure, reduced to sea level, called?
+  Isotherms | *Isobars | Isohyets | Isonephs
+  x: Isobars join places of equal pressure; closely spaced isobars show a steep pressure gradient and strong winds.
+[nf0319405867] sub1
+  Where is the Coriolis force maximum?
+  *Poles | Tropic of Cancer | 30° latitudes | Equator
+  x: The Coriolis force is zero at the equator and maximum at the poles; it is proportional to wind speed.
+[n82a4d0beea0] sub1
+  Which one of the following statements regarding friction is NOT correct?
+  It is negligible in the upper air. | *It increases the speed of surface winds. | It slows surface winds. | It is stronger over land than over a smooth water surface.
+  x: Friction slows surface winds; it is stronger over land and becomes negligible in the upper air. It does not increase wind speed.
+[n16662b3dae6] sub1
+  When does a geostrophic wind develop?
+  Coriolis force is absent and air moves vertically | Friction alone drives air parallel to the equator | *Pressure gradient force and Coriolis force balance each other, with no frictional effect | Pressure gradient force becomes zero near the poles
+  x: A geostrophic wind is an upper-air wind blowing parallel to isobars when the pressure gradient force and Coriolis force are balanced and friction is negligible.
+[n54493af7ae3] sub1
+  Why do tropical cyclones not normally form within about 5° of the Equator?
+  Sea-surface temperatures are too low | *The Coriolis force is zero or negligible | Friction over the ocean is very high | Trade winds are absent throughout the year
+  x: The Coriolis force, caused by the Earth's rotation, is zero at the equator and maximum at the poles, so the rotation needed for a cyclone cannot develop within about 5° latitude. Equatorial seas are warm, not cold; friction is low over the ocean, not high; and the trade winds do blow towards the equatorial low, so the other options are wrong.
+[f509845be2eb5] sub1
+  According to Ferrel's law, in which direction are winds in the Southern Hemisphere deflected?
+  Right | East only | *Left | West only
+  x: The Coriolis force deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.
+[feb3371e86e4b] sub1
+  Where is the Coriolis force zero?
+  Poles | Tropic of Cancer | 60° latitude | *Equator
+  x: The Coriolis force is zero at the Equator and maximum at the poles.
+[f46c80982cc52] sub1
+  Consider the following statements about the Coriolis force:
+1. It deflects winds to the right in the Northern Hemisphere.
+2. It decreases as wind speed increases.
+3. It is maximum at the poles.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: The Coriolis force deflects winds right in the NH and is maximum at the poles, but it grows with wind speed.
+[f82c2b301b5bb] sub1
+  Over which surface does friction slow surface winds the most?
+  *Land | Oceans | The upper air | Jet stream levels
+  x: Friction is stronger over land and negligible aloft.
+[n7922412beb8] sub2
+  Between which latitudes does the subtropical high-pressure belt approximately lie?
+  *30° and 35° | 0° and 5° | 45° and 50° | 60° and 65°
+  x: The subtropical high lies at about 30°–35°, the equatorial low at 0°–5° and the subpolar low at 60°–65° in both hemispheres.
+[ndbdafbd7fb1] sub2
+  The term ‘horse latitudes’ refers to which one of the following?
+  The polar high-pressure belt around 90° | The subpolar low-pressure belt between 60° and 65° | The equatorial low-pressure belt between 0° and 5° | *The subtropical high-pressure belt between 30° and 35°
+  x: The subtropical high-pressure belts at approximately 30°–35° N and S are known as the horse latitudes.
+[n53164692b2b] sub2
+  Which pressure belt is associated with sinking dry air and hot deserts?
+  Equatorial low | *Subtropical high | Subpolar low | Polar high
+  x: The subtropical high has sinking dry air and hot deserts; the equatorial low has calm rising air and the polar high cold sinking air.
+[n0d986b612eb] sub2
+  Following the overhead sun, by about how much do the pressure belts shift seasonally?
+  1°–2° | *5°–10° | 15°–20° | 25°–30°
+  x: The belts shift about 5°–10° north in the NH summer and south in winter, not 25°–30°.
+[nb6a9225a308] sub2
+  Which of the following correctly represents the direction of the trade winds?
+  From the subtropical high to the subpolar low; south-westerly in the NH and north-westerly in the SH | *From the subtropical high to the equatorial low; north-easterly in the NH and south-easterly in the SH | From the equatorial low to the subtropical high; north-westerly in the NH and south-westerly in the SH | From the polar high to the subpolar low; north-easterly in the NH and south-easterly in the SH
+  x: Trade winds blow from the subtropical high-pressure belts towards the equatorial low-pressure belt. They are north-easterlies in the Northern Hemisphere and south-easterlies in the Southern Hemisphere.
+[n0e864724cb1] sub2
+  From which direction do the westerlies blow in the Northern Hemisphere?
+  North-east | South-east | North-west | *South-west
+  x: Westerlies blow from the subtropical high to the subpolar low and are south-westerly in the Northern Hemisphere.
+[n90ac704025b] sub2
+  Which of the following describes the Inter-Tropical Convergence Zone?
+  A high-pressure zone near the poles where polar easterlies diverge | A low-pressure zone at 60°–65° where polar highs converge | A high-pressure zone at 30°–35° where westerlies originate | *A low-pressure zone near the Equator where the trade winds converge
+  x: The ITCZ is the equatorial low-pressure zone formed where the trade winds from the two hemispheres converge.
+[n1bba002910a] sub2
+  From which direction do the trade winds blow in the Northern Hemisphere?
+  North-west | *North-east | South-west | South-east
+  x: Northern Hemisphere trade winds are north-easterly; the doldrums near the equator are a belt of calm (APPSC-G1 2024).
+[f06ad58c5a75a] sub2
+  At about which latitudes does the subpolar low-pressure belt lie?
+  30–35° | *60–65° | 0–5° | 40–50°
+  x: The subpolar low lies at about 60–65°, where the westerlies meet the polar easterlies.
+[f0b6b228737fa] sub2
+  In which direction do the pressure belts shift during the Northern Hemisphere summer?
+  Southward | Eastward | *Northward | Westward
+  x: The belts follow the overhead sun, moving north in the NH summer and south in winter.
+[f59ee3f4dc066] sub2
+  Which of the following pairs of pressure belt and its other name is correctly matched?
+  Subtropical high – Doldrums | Equatorial low – Horse latitudes | Subpolar low – Horse latitudes | *Equatorial low – Doldrums
+  x: The equatorial low is the doldrums; the subtropical high (30–35°) is the horse latitudes.
+[nc8e991556c8] sub3
+  Which one of the following correctly describes the Sub-Tropical Westerly Jet over India?
+  It lies north of the Himalayas in winter and south of them in summer. | It remains north of the Himalayas throughout the year. | It remains south of the Himalayas throughout the year. | *It lies south of the Himalayas in winter and shifts north of them in summer.
+  x: The Sub-Tropical Westerly Jet lies south of the Himalayas in winter and shifts north of them in summer.
+[ngeneral-geography-7-37] sub3
+  Consider the following statements about the ITCZ:
+1. It shifts northward during the northern summer.
+2. It moves north because it helps the monsoon circulation.
+3. Its northward shift helps the monsoon circulation.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: The ITCZ shifts north in the northern summer and this helps the monsoon, but it moves because it follows the overhead Sun, not because it helps the monsoon.
+[n5c7cdc7b00b] sub3
+  In the Northern Hemisphere winter, the southward migration of the ITCZ, with high-pressure cells over Tibet and Siberia, helps establish which of the following?
+  Monsoon trough | South-west monsoon | *North-east monsoon | Tropical Easterly Jet
+  x: In winter the ITCZ moves south of India and, with highs over Tibet and Siberia, sets up the north-east monsoon; the monsoon trough over the plains is a summer feature.
+[gfe6625c67e4d] sub3
+  Which mountain range acts as a climatic divide and gives India its distinct monsoon climate?
+  Aravallis | Western Ghats | *Himalayas | Vindhyas
+  x: The Himalayas act as a climatic divide, blocking cold Central Asian winds and confining the monsoon to India.
+[n970d75bef19] sub4
+  Which planetary winds push tropical cyclones westward towards the east coasts of continents, and which winds later turn mature cyclones towards the north-east?
+  Westerlies push them westward; polar easterlies turn them north-east | *Trade winds push them westward; westerlies turn them north-east | Polar easterlies push them westward; trade winds turn them north-east | Westerlies push them westward; trade winds turn them north-east
+  x: Trade winds (easterlies) steer tropical cyclones westward onto east coasts; on reaching higher latitudes the westerlies turn mature cyclones north-east. Westerlies do not push cyclones west, and polar easterlies do not act in the tropics, so the other options are wrong.
+[nffcd2148336] sub4
+  What is the east–west zonal circulation cell over the Pacific Ocean called?
+  Hadley cell | Ferrel cell | Polar cell | *Walker circulation
+  x: The Walker circulation is the east–west zonal cell over the Pacific; the Hadley cell is meridional, between the Equator and the subtropics.
+[fbe943c0c7b75] sub4
+  From which direction do the westerlies blow in the Southern Hemisphere?
+  *North-west | South-west | South-east | North-east
+  x: The westerlies blow from the south-west in the NH and from the north-west in the SH.
+[f2bcf64a865b0] sub4
+  Why are the westerlies stronger and steadier in the Southern Hemisphere?
+  Larger landmasses | *Open ocean with little land friction | Higher mountains | The Tibetan high
+  x: The SH has open ocean with little land friction; NH westerlies are less steady because of the landmasses.
+[f08c6820e4f64] sub4
+  In the Hadley cell, near which latitude does air rising at the Equator sink?
+  60° | 5° | *30° | 90°
+  x: The Hadley cell rises at the Equator, sinks near 30° and returns as the trade winds.
+[f8fa993e0d185] sub4
+  From which belt to which belt do the polar easterlies blow?
+  Subtropical high to the subpolar low | Subtropical high to the equatorial low | Subpolar low to the polar high | *Polar high to the subpolar low
+  x: Polar easterlies blow from the polar high to the subpolar low; westerlies blow from the subtropical high to the subpolar low.
+[n6170ba53a9f] sub5
+  Between which latitudes do the 'Roaring Forties' blow?
+  *40° and 50° S | 30° and 40° S | 50° and 60° S | 60° and 70° S
+  x: The Roaring Forties blow at 40–50° S and the Furious Fifties at 50–60° S; Southern Hemisphere westerlies are stronger because of little land friction.
+[fdaa9929da879] sub5
+  Between which latitudes do the Furious Fifties blow?
+  *50–60° S | 40–50° S | 50–60° N | 40–50° N
+  x: The Furious Fifties blow at 50–60° S; the Roaring Forties at 40–50° S.
+[f196e10ca4c50] sub5
+  Around which latitude do the Shrieking Sixties blow?
+  60° N | *60° S | 40° S | 30° N
+  x: The Shrieking Sixties blow around 60° S, in the Southern Hemisphere.
+[n827c1185853] sub6
+  During which season is the polar vortex, a cold low-pressure region around the poles, strongest?
+  Summer | *Winter | Spring | Autumn
+  x: The polar vortex exists year-round, is strongest in winter, and its anticlockwise flow keeps cold air near the poles.
+[n38565c39cd7] sub6
+  In which month does the Sub-Tropical Westerly Jet return over India, marking the end of the monsoon?
+  *October | August | June | December
+  x: The Sub-Tropical Westerly Jet withdraws before the monsoon burst and returns in October as the monsoon ends.
+[nf177340bee5] sub6
+  The Tropical Easterly Jet, a summer jet of about 5°N–20°N, extends from the South China Sea to which region?
+  Japan | *East Africa | The Mediterranean | Australia
+  x: The TEJ extends from the South China Sea to East Africa from June to early October.
+[n421ef9b1295] sub6
+  What is the Somali (Findlater) Jet?
+  *Low-level jet off the East African coast | Upper-level easterly jet over the Indian plains | Sub-tropical westerly jet carrying western disturbances | Cold ocean current off Labrador
+  x: The Somali Jet is a low-level jet off East Africa that strengthens monsoon winds together with the Somali Current.
+[n44a0c3548ad] sub6
+  Which jet carries western disturbances eastward from the Mediterranean region?
+  Tropical Easterly Jet | Somali Jet | *Subtropical Westerly Jet | Polar easterlies
+  x: The Subtropical Westerly Jet carries western disturbances eastward; in 2026 they worsened monsoon weather extremes.
+[n152eae2d573] sub6
+  Who first identified jet streams in the 1920s?
+  Carl-Gustaf Rossby | *Wasaburo Ooishi | Vilhelm Bjerknes | George Hadley
+  x: Wasaburo Ooishi of Japan first identified jet streams in the 1920s; they became widely known during the Second World War.
+[n0a716c84d81] sub6
+  What may happen when Rossby waves weaken the polar vortex?
+  The vortex becomes permanently stationary and cold air remains confined to the poles. | The tropical easterly jet disappears and the equator cools permanently. | The polar region changes into a high-pressure warm region throughout the year. | *The winds may reverse, the vortex may split and cold air may spill into the mid-latitudes.
+  x: Weakening by Rossby waves can reverse the winds, split the vortex and allow cold air to move into the mid-latitudes, producing cold spells.
+[ngeneral-geography-7-13] sub6
+  Which of the following is wrongly matched with its climatic connection?
+  El Niño – Warming of the eastern Pacific that generally weakens the Indian monsoon | Southern Oscillation – See-saw of sea-level pressure between the eastern Pacific and the Indian Ocean | *Western Disturbances – Warmer western Indian Ocean that can partly offset El Niño | Positive IOD – Warmer western Indian Ocean that can partly offset El Niño
+  x: Western Disturbances bring winter rain and snow to north-western India; the warmer western Indian Ocean offsetting El Niño is the positive IOD.
+[ffd4a0a768bf3] sub6
+  At about what height do jet streams generally blow?
+  1–2 km | 15–50 km | *10–12 km | 60–70 km
+  x: Jet streams are narrow, fast upper winds at about 10–12 km.
+[ff2b5b9500de2] sub6
+  Which upper-air easterly jet of summer strengthens the south-west monsoon over India?
+  Sub-Tropical Westerly Jet | Somali (Findlater) Jet | Polar vortex | *Tropical Easterly Jet
+  x: The Tropical Easterly Jet (5–20°N, summer) strengthens the SW monsoon; the Somali Jet is a low-level jet.
+[f00f07d084349] sub6
+  During which period did jet streams become widely known?
+  *World War II | World War I | the 1880s | the 1990s
+  x: First identified by Wasaburo Ooishi in the 1920s, jet streams became widely known in World War II through bomber pilots.
+[f25102be381b8] sub6
+  In which direction does the polar vortex rotate?
+  Clockwise | From north to south | *Anticlockwise | From south to north
+  x: The polar vortex is a year-round cold low around the poles that rotates anticlockwise.
+[g093142ed141e] sub6
+  Which of the following can offset the weakening effect of El Niño on the Indian monsoon?
+  La Niña in the Atlantic | *Positive Indian Ocean Dipole | Negative Indian Ocean Dipole | A strong polar vortex
+  x: El Niño weakens the monsoon, but a positive IOD (warmer western Indian Ocean) can offset it.
+[nb9bdc8f39f1] sub7
+  Under El Niño conditions, what was the expected south-west monsoon rainfall in Andhra Pradesh?
+  Above normal | Normal | Excess | *Below normal
+  x: Because of El Niño, IMD expected below-normal south-west monsoon rainfall in Andhra Pradesh in 2026 (June 2026).
+[n2a7c2a89b30] sub7
+  The word 'monsoon' is derived from the Arabic word 'mausim'. What does it mean?
+  storm | ocean | *season | reversal
+  x: 'Monsoon' comes from the Arabic 'mausim', meaning season; the term refers to the seasonal reversal of winds, but the word itself means season, not reversal, storm or ocean.
+[ngeneral-geography-7-14] sub7
+  During summer, what pressure condition over heated land helps monsoon circulation?
+  Low pressure over cooled land, reversing seasonal winds | *Low pressure over heated land, drawing moisture-bearing winds | High pressure over heated land, drawing dry winds | High pressure over heated land, suppressing the pressure gradient
+  x: In summer heated land develops low pressure, which draws moist winds in from the sea and drives the monsoon.
+[n5229214a01e] sub7
+  As what did Halley's theory of 1686 primarily regard the Indian monsoon?
+  *Giant land-sea breeze | Permanent polar circulation | Local mountain-valley wind | Result of ocean tides
+  x: Halley’s 1686 theory explained the monsoon as a giant land-sea breeze.
+[n5abab525f4a] sub7
+  In which year was the modern monsoon theory, considering the ITCZ shift, jet streams, the Tibet Plateau and ENSO, formulated?
+  1947 | *1957 | 1967 | 1977
+  x: The modern monsoon theory of 1957 brings together the northward ITCZ shift, jet streams, the Tibet Plateau and ENSO.
+[na1a19a4f544] sub7
+  During the daytime, a coastal city experiences air moving from the sea towards the land. What is the immediate reason?
+  the land cools faster than the sea and develops relatively higher pressure | the pressure over land and sea remains identical throughout the day | the sea heats faster than the land and develops relatively lower pressure | *the land heats faster than the sea and develops relatively lower pressure
+  x: During the day, land heats faster than the sea, producing relatively lower pressure over land and drawing air from the sea. This is the sea breeze.
+[ngeneral-geography-3-14] sub7
+  Land and sea breezes are which type of phenomena?
+  decadal | seasonal | annual | *daily
+  x: Land and sea breezes are daily, whereas monsoon winds reverse seasonally.
+[n6152bc66580] sub7
+  Through which region did the south-west monsoon enter Andhra Pradesh in 2026?
+  *Rayalaseema | North Coastal Andhra | Coastal Andhra | The Godavari delta
+  x: The monsoon entered through Rayalaseema, reaching AP on 6 June 2026, two days after the normal date.
+[nde3a16facc5] sub7
+  Which of the following correctly describes mountain and valley breezes?
+  Valley breeze blows downhill during the day, while mountain breeze blows uphill at night. | *Valley breeze blows uphill during the day, while mountain breeze blows downhill at night. | Both breezes blow uphill because slopes are heated throughout the day and night. | Both breezes blow downhill because cold air rises along mountain slopes.
+  x: Valley or anabatic breeze rises uphill during the day. Mountain or katabatic breeze descends downhill at night.
+[n047363a7953] sub7
+  Cold air carried downhill by the nocturnal mountain (katabatic) breeze collects in valleys. What may it produce?
+  Permanent low pressure and intense convection | Sea breeze and coastal cooling | The equatorial low-pressure belt | *Temperature inversion and frost
+  x: The katabatic breeze carries cold air downhill; it accumulates in valleys and may produce temperature inversion and frost.
+[nfdd91400b82] sub7
+  Which of the following is a significant climatic effect of sea and land breezes along the Andhra Pradesh coast?
+  They eliminate all seasonal variations in rainfall. | They create permanent westerlies over the coast. | *They moderate coastal temperatures. | They prevent the formation of any local pressure differences.
+  x: The alternating sea and land breezes moderate temperatures along the coast, including the coastal areas of Andhra Pradesh.
+[nb62577120e3] sub7
+  As per the AP Socio-Economic Survey 2025-26, what is the rank of Andhra Pradesh's coastline of about 1,053 km in length among Indian states?
+  first | *third | second | fourth
+  x: The AP coastline is 1,053.07 km, the third longest in India.
+[f58ee9ebadd3a] sub7
+  When and in which direction does a land breeze blow?
+  *From land to sea at night | From sea to land at night | From land to sea by day | From sea to land by day
+  x: The land breeze blows from land to sea at night; the sea breeze blows from sea to land by day.
+[n84560fbabe2] sub8
+  Which one of the following local winds is a hot, dry summer wind that affects North India as well as Rayalaseema?
+  Mistral | Harmattan | Bora | *Loo
+  x: The Loo is a hot and dry summer wind affecting North India and also Rayalaseema.
+[nab4ef32eaf0] sub8
+  Which warm, dry wind of the Rockies is popularly called the 'snow eater'?
+  Sirocco | Foehn | Mistral | *Chinook
+  x: The Chinook of the Rockies is the 'snow eater'; the Foehn is its Alpine counterpart, and both can melt snow.
+[n5b0fd3f1235] sub8
+  What are the violent pre-monsoon thunderstorms of Bihar, Odisha, West Bengal and Assam called?
+  Aandhi | Mango showers | Loo | *Kaal Baisakhi
+  x: Nor'westers or Kaal Baisakhi are violent pre-monsoon thunderstorms in the east; Aandhi are dust storms of north-west India and mango showers occur in Kerala and Karnataka.
+[n4e95a88f8f5] sub8
+  Which of the following local winds is wrongly matched?
+  Mistral – Cold, dry northerly wind down the Rhone valley | Santa Ana – Hot, dry wind of southern California that spreads wildfires | Sirocco – Hot, dusty Saharan wind reaching Italy that can cause 'blood rain' | *Harmattan – Hot, dry wind of southern California that spreads wildfires
+  x: The Harmattan is the hot, dry wind of West Africa called 'the doctor'; the Californian wildfire wind is the Santa Ana.
+[nccc3d4329e1] sub8
+  Which one of the following statements regarding local winds is correct?
+  *They are temporary, predictable and region-specific winds caused by local temperature and pressure differences. | They occur only over oceans and are unrelated to relief. | They are permanent global winds caused only by the rotation of the Earth. | They are seasonal winds that reverse direction over the entire Indian subcontinent.
+  x: Local winds are temporary, predictable and region-specific. They arise from factors such as differential heating, pressure gradients, relief, surface cover and season.
+[n1c5c3c7dddc] sub8
+  Where does the Brickfielder, a local wind, blow?
+  Spain | Iraq and the Persian Gulf | *South-east Australia | Polar lands and North America
+  x: The Brickfielder blows in south-east Australia; Leveche is of Spain, Shamal of Iraq and the Persian Gulf, and Blizzard of polar lands.
+[f1ab849b213e9] sub8
+  Which local wind is known as 'the doctor'?
+  Chinook | *Harmattan | Sirocco | Mistral
+  x: The Harmattan, a hot dry wind of West Africa, is called 'the doctor'; the Chinook is the 'snow eater'.
+[ff7ad229aeeea] sub8
+  Where does the Mistral, a cold, dry local wind, blow?
+  Alps, Switzerland | Spain | *Rhone valley, France | Southern California
+  x: The Mistral is a cold, dry wind of the Rhone valley in France.
+[f9861dbeea96c] sub8
+  Which local wind is notorious for spreading wildfires in Southern California?
+  Chinook | Leveche | Foehn | *Santa Ana
+  x: The Santa Ana of Southern California spreads wildfires.
+[f29cae2ab85c8] sub8
+  What does Aandhi of north-west India refer to?
+  *Dust storms | Pre-monsoon mango showers | Cold, dry winter winds | Snowstorms
+  x: Aandhi are dust storms of NW India; mango showers are pre-monsoon showers of Kerala and Karnataka.
+[g342e1d62b89c] sub8
+  Match the following:
+List-I (Local wind)
+A. Shamal
+B. Leveche
+C. Bora
+D. Foehn
+List-II (Region)
+1. Iraq and the Persian Gulf
+2. Spain
+3. North-east Adriatic coast
+4. Alps
+Select the correct answer using the code given below:
+  A-2, B-1, C-4, D-3 | A-1, B-3, C-2, D-4 | *A-1, B-2, C-3, D-4 | A-4, B-2, C-3, D-1
+  x: Shamal blows over Iraq and the Gulf, Leveche over Spain, Bora on the NE Adriatic and Foehn in the Alps.
+[g50cf6b2f3b85] sub8
+  What are the pre-monsoon showers of Kerala and Karnataka known as?
+  Kaal Baisakhi | Aandhi | Loo | *Mango showers
+  x: Pre-monsoon showers in Kerala and Karnataka are called mango showers; Kaal Baisakhi are the storms of Bengal and Assam.
+
