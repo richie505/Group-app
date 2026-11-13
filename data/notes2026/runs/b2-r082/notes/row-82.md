@@ -20,36 +20,6 @@
 > UPSC 2005: "Art. 243Q envisages **two** types of municipalities" is false – it envisages **three** (Nagar Panchayat, Council, Corporation).
 ~~ Sources: Laxmikanth 8th ed. ch.40 (src/polity/laxmikanth-indian-polity-02.txt p.119, 132); NextGen Polity - APPSC Exams 24 p.9-10; app notes 2:82
 
-=== Types of Municipalities (243Q) and Urban Local Bodies
-| Type (243Q) | Area |
-|---|---|
-| **Nagar Panchayat** | **Transitional area** – in transition from rural to urban |
-| **Municipal Council** | **Smaller urban area** |
-| **Municipal Corporation** | **Larger urban area** – big cities |
-- **Who specifies the areas:** the **Governor**, by public notification, on population, density, revenue, share of non-agricultural employment, economic importance.
-- **Industrial township** (243Q proviso): where an **industrial establishment** provides municipal services, the Governor may specify it as an industrial township and no municipality need be constituted.
-- **Municipal Corporations** are for big cities because urban administration there is very complex (CGPSC 2021 A-R: both true, R explains A); set up by **State Acts** (Acts of Parliament in UTs).
-- **Corporation's three authorities:** **Council** (headed by the **Mayor**), **Standing Committees**, **Municipal Commissioner** (chief executive, appointed by the State, usually IAS).
-- **Municipal Council:** council headed by a **president/chairman** (real executive pivot), standing committees, chief executive officer.
-- **Eight types of ULBs:** Municipal Corporation, Municipality, **Notified Area Committee** (entirely nominated), Town Area Committee, **Cantonment Board**, Township, **Port Trust**, Special Purpose Agency.
-- **Municipal Corporations, Municipal Councils and Nagar Panchayats** are all **urban** local governments.
-- **Cantonment Board:** outside 243Q; set up under the **Cantonments Act, 2006** (replaced the **1924 Act**); under the **Ministry of Defence**; 62 boards. **MoHUA** is the main ministry for ULBs; Home Affairs for UTs.
-- **Panchayat vs Cantonment Board dispute** (Chhattisgarh Municipalities Act, 1961, s.79(2)): decided by the **State Government, subject to Central Government approval**.
-~~ Sources: Laxmikanth 8th ed. ch.40 p.117, 119, 126-129; NextGen Polity - APPSC Exams 25 p.3-5; NextGen 24 p.13; app notes 2:82
-
-=== Composition, Reservation, Term, Disqualification and Elections
-- **Composition (243R):** **all members directly elected** by the people from territorial constituencies called **wards**; State law may add persons with **municipal-administration experience (no vote)**, MPs/MLAs of the area, Rajya Sabha/MLC members registered there, chairpersons of committees.
-- **Chairperson / Mayor:** manner of election left to the **State Legislature**.
-- **Reservation (243T):** SC and ST seats **in every municipality** in proportion to their population; **not less than one-third of SC/ST seats for SC/ST women**; **not less than one-third of all directly-elected seats for women** (including SC/ST women); backward-class reservation optional.
-- **Duration (243U):** **five years** from the date appointed for its **first meeting**; reasonable opportunity of being heard before dissolution; fresh election before expiry or **within six months** of dissolution.
-- **Disqualification (243V):** as for elections to the **State Legislature** or under a State law; **minimum age 21** – no one is disqualified for being under 25 if he/she is 21.
-- **Being on the electoral roll** of the area is the basic condition for contesting – no party membership or permission needed.
-- **Elections (243ZA):** superintendence, direction and control of rolls and all municipal elections vested in the **State Election Commission** (not the State Government).
-- **Finance (243Y):** the same **State Finance Commission** (243I) reviews municipal finances every five years.
-- **Mayor's tenure:** fixed by **State law** – Laxmikanth: in a majority of States **one year, renewable**; States with directly elected Mayors (e.g. UP) give **five years**, matching the municipality's term (UPPSC key: 5 years).
-> APPSC 2011 key gave "25" for the minimum age because 21 was not offered – the constitutional age is **21**.
-~~ Sources: Laxmikanth 8th ed. ch.40 p.120-122, 126; NextGen Polity - APPSC Exams 24 p.10-15; NextGen 25 p.1
-
 === District and Metropolitan Planning Committees (243ZD, 243ZE)
 | Feature | DPC | MPC |
 |---|---|---|
@@ -73,6 +43,36 @@
 | Rajasthan | Zila Pramukh |
 | Kerala | District Panchayat President (Collector – member secretary) |
 ~~ Sources: Laxmikanth 8th ed. ch.40 p.123-124; NextGen Polity - APPSC Exams 25 p.1-2; MCRHRDI (AP) "Decentralized Planning" slides (mcrhrdi.gov.in/Group12012/decentralizedplan.pdf); app notes 2:82
+
+=== Composition, Reservation, Term, Disqualification and Elections
+- **Composition (243R):** **all members directly elected** by the people from territorial constituencies called **wards**; State law may add persons with **municipal-administration experience (no vote)**, MPs/MLAs of the area, Rajya Sabha/MLC members registered there, chairpersons of committees.
+- **Chairperson / Mayor:** manner of election left to the **State Legislature**.
+- **Reservation (243T):** SC and ST seats **in every municipality** in proportion to their population; **not less than one-third of SC/ST seats for SC/ST women**; **not less than one-third of all directly-elected seats for women** (including SC/ST women); backward-class reservation optional.
+- **Duration (243U):** **five years** from the date appointed for its **first meeting**; reasonable opportunity of being heard before dissolution; fresh election before expiry or **within six months** of dissolution.
+- **Disqualification (243V):** as for elections to the **State Legislature** or under a State law; **minimum age 21** – no one is disqualified for being under 25 if he/she is 21.
+- **Being on the electoral roll** of the area is the basic condition for contesting – no party membership or permission needed.
+- **Elections (243ZA):** superintendence, direction and control of rolls and all municipal elections vested in the **State Election Commission** (not the State Government).
+- **Finance (243Y):** the same **State Finance Commission** (243I) reviews municipal finances every five years.
+- **Mayor's tenure:** fixed by **State law** – Laxmikanth: in a majority of States **one year, renewable**; States with directly elected Mayors (e.g. UP) give **five years**, matching the municipality's term (UPPSC key: 5 years).
+> APPSC 2011 key gave "25" for the minimum age because 21 was not offered – the constitutional age is **21**.
+~~ Sources: Laxmikanth 8th ed. ch.40 p.120-122, 126; NextGen Polity - APPSC Exams 24 p.10-15; NextGen 25 p.1
+
+=== Types of Municipalities (243Q) and Urban Local Bodies
+| Type (243Q) | Area |
+|---|---|
+| **Nagar Panchayat** | **Transitional area** – in transition from rural to urban |
+| **Municipal Council** | **Smaller urban area** |
+| **Municipal Corporation** | **Larger urban area** – big cities |
+- **Who specifies the areas:** the **Governor**, by public notification, on population, density, revenue, share of non-agricultural employment, economic importance.
+- **Industrial township** (243Q proviso): where an **industrial establishment** provides municipal services, the Governor may specify it as an industrial township and no municipality need be constituted.
+- **Municipal Corporations** are for big cities because urban administration there is very complex (CGPSC 2021 A-R: both true, R explains A); set up by **State Acts** (Acts of Parliament in UTs).
+- **Corporation's three authorities:** **Council** (headed by the **Mayor**), **Standing Committees**, **Municipal Commissioner** (chief executive, appointed by the State, usually IAS).
+- **Municipal Council:** council headed by a **president/chairman** (real executive pivot), standing committees, chief executive officer.
+- **Eight types of ULBs:** Municipal Corporation, Municipality, **Notified Area Committee** (entirely nominated), Town Area Committee, **Cantonment Board**, Township, **Port Trust**, Special Purpose Agency.
+- **Municipal Corporations, Municipal Councils and Nagar Panchayats** are all **urban** local governments.
+- **Cantonment Board:** outside 243Q; set up under the **Cantonments Act, 2006** (replaced the **1924 Act**); under the **Ministry of Defence**; 62 boards. **MoHUA** is the main ministry for ULBs; Home Affairs for UTs.
+- **Panchayat vs Cantonment Board dispute** (Chhattisgarh Municipalities Act, 1961, s.79(2)): decided by the **State Government, subject to Central Government approval**.
+~~ Sources: Laxmikanth 8th ed. ch.40 p.117, 119, 126-129; NextGen Polity - APPSC Exams 25 p.3-5; NextGen 24 p.13; app notes 2:82
 
 === Twelfth Schedule – 18 Functions of Municipalities
 - **18 items**, added by the 74th; linked to **Art. 243W**; an illustrative list the State may devolve.
@@ -99,6 +99,23 @@
 - **Area Sabha:** all voters of a **polling-booth area** – proposed in the **Model Nagara Raj Bill, 2008**; the **Community Participation Law** was a mandatory reform under **JNNURM**.
 > 3 lakh = Wards Committee; 10 lakh = metropolitan area (MPC).
 ~~ Sources: Laxmikanth 8th ed. ch.40 p.120; NextGen Polity - APPSC Exams 24 p.11, 14; app notes 2:82
+
+=== Functionaries and Andhra Pradesh Urban Bodies
+| Functionary | Institution |
+|---|---|
+| **Sarpanch** | **Village (Gram) Panchayat** |
+| Pradhan | Panchayat Samiti (block) |
+| **Chairperson** | **Municipality** (Municipal Council / Nagar Panchayat); also Zilla Parishad |
+| **Mayor** (with Deputy Mayor) | **Municipal Corporation** |
+| **Councillor** | Elected member for a **ward** |
+- **State control over ULBs:** **legislative, financial and personnel** matters (not citizens' grievances).
+- **AP SES 2025-26:** **123 ULBs = 17 Municipal Corporations + 76 Municipalities + 30 Nagar Panchayats**.
+- **Department:** **Municipal Administration and Urban Development (MA&UD)**; **DIGIT** e-Governance platform.
+- **Laws:** **AP Municipalities Act, 1965**; **AP Municipal Corporations Act, 1994** (applies the **Hyderabad Municipal Corporations Act, 1955**).
+- **2026:** Cabinet (18 Aug 2026) – **direct election of Mayors** and chairpersons; **G.O. Rt. No. 1065** (19 Aug 2026) – **33.33% BC quota** in ULBs; SEC **Anil Chandra Punetha** – ward-wise photo rolls for **41 ULBs**.
+- **VMRDA** (2018) replaced **VUDA**; **APCRDA** (Dec 2014) plans the capital region and **Amaravati**.
+- ULBs: "**stepchild**" of federalism; **property tax** – main own revenue, under-collected.
+~~ Sources: Laxmikanth 8th ed. ch.40 p.126-127; app notes 2:82 (AP SES 2025-26; current affairs 2026)
 
 === Articles 243P to 243ZG at a Glance
 | Article | Content | Panchayat twin |
@@ -138,19 +155,3 @@
 - **Hanumantha Rao Committee (1984)** made the **Collector** central to district planning.
 ~~ Sources: Laxmikanth 8th ed. ch.40 p.117, 131; NextGen Polity - APPSC Exams 24 p.9; app notes 2:82
 
-=== Functionaries and Andhra Pradesh Urban Bodies
-| Functionary | Institution |
-|---|---|
-| **Sarpanch** | **Village (Gram) Panchayat** |
-| Pradhan | Panchayat Samiti (block) |
-| **Chairperson** | **Municipality** (Municipal Council / Nagar Panchayat); also Zilla Parishad |
-| **Mayor** (with Deputy Mayor) | **Municipal Corporation** |
-| **Councillor** | Elected member for a **ward** |
-- **State control over ULBs:** **legislative, financial and personnel** matters (not citizens' grievances).
-- **AP SES 2025-26:** **123 ULBs = 17 Municipal Corporations + 76 Municipalities + 30 Nagar Panchayats**.
-- **Department:** **Municipal Administration and Urban Development (MA&UD)**; **DIGIT** e-Governance platform.
-- **Laws:** **AP Municipalities Act, 1965**; **AP Municipal Corporations Act, 1994** (applies the **Hyderabad Municipal Corporations Act, 1955**).
-- **2026:** Cabinet (18 Aug 2026) – **direct election of Mayors** and chairpersons; **G.O. Rt. No. 1065** (19 Aug 2026) – **33.33% BC quota** in ULBs; SEC **Anil Chandra Punetha** – ward-wise photo rolls for **41 ULBs**.
-- **VMRDA** (2018) replaced **VUDA**; **APCRDA** (Dec 2014) plans the capital region and **Amaravati**.
-- ULBs: "**stepchild**" of federalism; **property tax** – main own revenue, under-collected.
-~~ Sources: Laxmikanth 8th ed. ch.40 p.126-127; app notes 2:82 (AP SES 2025-26; current affairs 2026)
