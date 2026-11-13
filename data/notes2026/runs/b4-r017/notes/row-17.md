@@ -1,5 +1,5 @@
 === Clouds – Families, Types and Thunderclouds
-# Cloud basics (asked 16 times)
+# Cloud basics (asked 15 times)
 - **Cloud** = mass of minute water droplets or ice crystals formed by **condensation** of water vapour in free air around **hygroscopic nuclei**, mainly by **adiabatic cooling** of rising air below its dew point – clouds are the result of **condensation** (UKPSC 2016), not evaporation.
 - Clouds **float** because of their **low density** (UPSC 1995): the droplets are tiny, fall extremely slowly and are held up by gentle updrafts.
 - Four basic forms: **cirrus, cumulus, stratus, nimbus** ("nimbus" = rain-bearing; black or dark grey, dense, opaque).

@@ -14,8 +14,8 @@ Data: 41 PYQs (pyqs.json, keyed in keys.jsonl) + 120 app MCQs = 161, all mapped 
 ### Exams
 | Row | APPSC (Panchayat Secretary Gr-III/IV, Group-II, others) | Other AP (Sachivalayam) | UPSC/IAS | UPPCS / other State PSC |
 |---|---|---|---|---|
-| 60 | 15 | 1 | 3 | 6 |
-| 61 | 14 | 1 | 0 | 0 |
+| 60 | 16 | 1 | 4 | 6 |
+| 61 | 13 | 1 | 0 | 0 |
 - The APPSC Panchayat Secretary (Rural Development paper, 2017) supplies most of the row: 14th FC grant rules and the Devolution Index are asked in detail there and nowhere else.
 
 ### Angles
