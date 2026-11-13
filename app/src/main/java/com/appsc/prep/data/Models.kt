@@ -200,6 +200,8 @@ data class Question(
     /** Structured explanation: the solution bullets and the additional-information bullets (with **bold**). */
     val solution: List<String> = emptyList(),
     val extra: List<String> = emptyList(),
+    /** Key tags shown as chips beside the source: "outdated", "added" (correct option added), "disputed". */
+    val tags: List<String> = emptyList(),
 ) {
     val scored get() = kind != 'u'
 }

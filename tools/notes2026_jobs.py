@@ -423,6 +423,19 @@ def apply():
         if ch:
             json.dump(mm, open(f, "w"), ensure_ascii=False, separators=(",", ":"))
     print(f"keys copied into the other apps: {n}")
+    tagged = 0
+    for f in glob.glob("app/src/*/assets/mcq*.json"):
+        mm = json.load(open(f))
+        ch = False
+        for part in ("rows", "units"):
+            for lst in (mm.get(part) or {}).values():
+                for q in lst:
+                    if isinstance(q, dict) and tagify(q):
+                        ch = True
+                        tagged += 1
+        if ch:
+            json.dump(mm, open(f, "w"), ensure_ascii=False, separators=(",", ":"))
+    print(f"tag lines moved to chips: {tagged}")
 
 
 def set_key(q, k):
@@ -443,17 +456,59 @@ def set_key(q, k):
             q.pop("k", None)
         if k["a"] == -1:
             q["k"] = "u"
-    tag = ""
+    lines, tg = [], []
     if k.get("add_option") and q.get("k") != "f":
-        tag = (f"⚠ Option added: the printed options did not include the correct answer"
-               f" ({k['add_option'].strip()}); it is added as option {q['a'] + 1}.\n")
+        tg.append("added")
+        lines.append(f"The printed options did not include the correct answer ({k['add_option'].strip()});"
+                     f" it is added as option {q['a'] + 1}.")
     if k.get("dispute"):
-        tag += "⚠ Disputed: " + k["dispute"].strip().removeprefix("⚠ Disputed:").strip() + "\n"
-    xx = tag + (k.get("outdated", "").strip() + "\n" if k.get("outdated") else "") + k.get("x", "").strip()
-    if xx.strip():
-        q["x"] = xx.strip()
+        tg.append("disputed")
+        lines.append(strip_label(k["dispute"]))
+    if k.get("outdated"):
+        tg.append("outdated")
+        lines.append(strip_label(k["outdated"]))
+    xx = "\n".join(lines + [k.get("x", "").strip()]).strip()
+    if xx:
+        q["x"] = xx
         q.pop("xs", None)
         q.pop("xa", None)
+    if tg:
+        q["tg"] = tg
+    else:
+        q.pop("tg", None)
+    tagify(q)
+
+
+LABELS = {"⚠ Outdated": "outdated", "⚠ Option added": "added", "⚠ Disputed": "disputed"}
+
+
+def strip_label(s):
+    s = s.strip()
+    for lab in LABELS:
+        if s.startswith(lab):
+            return s[len(lab):].lstrip(" :–-").strip()
+    return s
+
+
+def tagify(q):
+    """Moves "⚠ Outdated: …" style label lines out of the explanation into chips (q["tg"])."""
+    x = q.get("x") or ""
+    if "⚠" not in x:
+        return False
+    tg, out = list(q.get("tg") or []), []
+    for line in x.split("\n"):
+        s = line.strip()
+        hit = next((lab for lab in LABELS if s.startswith(lab)), None)
+        if hit:
+            if LABELS[hit] not in tg:
+                tg.append(LABELS[hit])
+            out.append(strip_label(s))
+        else:
+            out.append(line)
+    q["x"] = "\n".join(l for l in out if l.strip()).strip()
+    if tg:
+        q["tg"] = tg
+    return True
 
 
 def status():

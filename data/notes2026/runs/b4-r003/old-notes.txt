@@ -1,0 +1,839 @@
+=== NOTES 4:3 | Concept of Time – Local and Standard Time, Gmt/utc, Indian Standard Time, Time Zones, International Date Line
+## SUB 0 | Longitude and Local Time
+[3:0:0] - Earth turns **360° in 24 h**, **west to east**, so places to the **east are ahead** (add) and places to the **west behind** (subtract). Moving west, local time falls behind.
+[3:0:1] TABLE head: Longitude gap | Time gap
+  [3:0:1.0] 1° | 4 minutes
+  [3:0:1.1] 15° | 1 hour
+  [3:0:1.2] 180° | 12 hours
+  [3:0:1.3] 1' of arc | 4 seconds
+[3:0:2] # Method
+[3:0:3] - 1. Longitude gap: **same side subtract**, **opposite sides add** (25°E and 35°W = 60° = 4 h).
+[3:0:4] - 2. Gap × 4 min = time gap.
+[3:0:5] - 3. **Add if east**, subtract if west.
+[3:0:6] - Flight/message: arrival local time = departure time + journey time ± longitude time (add when going east). Depart 10:00 a.m., 3-hour flight, 15° east → **2:00 p.m.**
+[3:0:7] # Worked Questions
+[3:0:8] TABLE head: Given | Answer
+  [3:0:8.0] A (60°W) 10 a.m. → B (90°E) (APPSC-G1 2019) | 150° = 10 h ahead → 8 p.m.
+  [3:0:8.1] 10:00 a.m. IST → Shillong (92°E) | 9.5° × 4 = 38 min → 10:38 a.m.
+  [3:0:8.2] Noon GMT, place at 6 a.m. | 90°W
+  [3:0:8.3] Local time 2 h behind Greenwich | 30°W
+  [3:0:8.4] Cairo 2 h ahead of Greenwich | 30°E
+  [3:0:8.5] Local 6:00 a.m. when GMT 3:00 a.m. | 45°E
+  [3:0:8.6] Thimphu (90°E) at Greenwich noon | 6:00 p.m.
+  [3:0:8.7] Noon at 82°30'E, place at 6.30 a.m. | 0°
+  [3:0:8.8] Noon at IST meridian, place at 6 a.m. | 7°30'W
+  [3:0:8.9] Noon IST → 120°E | 37°30' × 4 = 150 min → 14.30
+  [3:0:8.10] Midnight IST, place at 6 a.m. | 172°30'E
+  [3:0:8.11] Greenwich telegram at noon, 12 min transit, arrives 6.00 p.m. | 87°E
+  [3:0:8.12] Sunrise Tirap (Arunachal) 5.00 a.m. → Kandla (Gujarat) | ~7.00 a.m.
+[3:0:9] - Ship moving west at rotation speed, 10:00 Monday at 90°W: at the Date Line it is still **10.00 Monday**.
+[3:0:10] - Earth rotation reversed, noon at the Date Line: old keys gave IST **06.30 hrs** and **18.30 hrs** (UPSC 1997).
+## SUB 1 | Time Terms – Gmt, Utc, Dst
+[3:1:0] TABLE head: Term | Meaning
+  [3:1:0.0] GMT | Mean solar time at Royal Observatory, Greenwich (0°); Prime Meridian fixed at International Meridian Conference, 1884
+  [3:1:0.1] UTC | World standard kept by caesium atomic clocks; corrected with leap seconds
+  [3:1:0.2] Daylight Saving Time | Clocks +1 h in summer (mid/high latitudes) to use evening light; India does not use it
+  [3:1:0.3] Natural units | Day (rotation), month (Moon's revolution), year (Earth's revolution)
+[3:1:1] - Standard time is set from the Prime Meridian; **180°** = Date Line, **12 h** (720 min) from Greenwich.
+[3:1:2] - **NavIC** (7 satellites: 3 GEO + 4 GSO) uses **rubidium** clocks; IRNSS-1F clock failed.
+[3:1:3] UTC = caesium; NavIC = rubidium.
+## SUB 2 | Time Zones
+[3:2:0] - **24 theoretical zones**, 15° each; more in practice (half/quarter-hour offsets).
+[3:2:1] TABLE head: Country / place | Fact
+  [3:2:1.0] France (with overseas territories) | 12 zones – most
+  [3:2:1.1] Russia | 11
+  [3:2:1.2] UK 9, Australia 9, Denmark 5 (6 with Realm), New Zealand 5 | More than four
+  [3:2:1.3] Brazil | Exactly 4
+  [3:2:1.4] China | One zone despite its width
+  [3:2:1.5] Mumbai, Kolkata, Chennai + Colombo | Same clock (UTC+5:30)
+  [3:2:1.6] Nepal | UTC+5:45
+  [3:2:1.7] Accra, Dublin, Lisbon, London | GMT (not Madrid; Addis Ababa, 38°45'E, is GMT+3)
+[3:2:2] - Ahead to behind GMT: **Japan (+9) > Iraq (+3) > Greece (+2) > Cuba (−5) > Costa Rica (−6)**.
+[3:2:3] Most time zones = France, not Russia.
+## SUB 3 | Indian Standard Time
+[3:3:0] TABLE head: Item | Fact
+  [3:3:0.0] Standard meridian | 82°30'E (82.5°E) (APPSC 2019)
+  [3:3:0.1] Reference town | Mirzapur, UP (old keys: Lucknow; passes Allahabad)
+  [3:3:0.2] City closest | Rewa
+  [3:3:0.3] IST vs GMT | GMT + 5 h 30 min (82.5 × 4 = 330 min) (APPSC 2019); 0000 UTC = 5:30 a.m. IST
+  [3:3:0.4] States crossed (W→E) | UP, MP, Chhattisgarh, Odisha, Andhra Pradesh – 5 (not West Bengal, APPSC 2021)
+  [3:3:0.5] In AP | Kakinada district
+  [3:3:0.6] Meets Tropic of Cancer | Koriya district, Chhattisgarh, Baghelkhand Plateau
+  [3:3:0.7] Keeper | CSIR-National Physical Laboratory, New Delhi (1947)
+[3:3:1] - History: separate **Bombay and Calcutta times** from 1884; single IST after **1947**.
+[3:3:2] # IST in 2026
+[3:3:3] - **Jul 2026**: **White Rabbit** IST network at Regional Reference Standards Laboratory, **Jakkur (Bengaluru)** – sub-nanosecond sync over fibre, independent of GPS; protocol by **CERN** (not ISRO); "One Nation, One Time" (NPL-ISRO). Uses: banking, payments, railways, airports, power grids, telecom; guards against GPS spoofing.
+[3:3:4] - **27 Aug 2026**: Consumer Affairs Ministry notified **Legal Metrology (Indian Standard Time) Rules, 2026** – IST the single legal reference; in force **180 days** after Gazette publication.
+## SUB 4 | India's Extent and the Two-time-zone Debate
+[3:4:0] TABLE head: Extent | India | AP
+  [3:4:0.0] Latitude | 8°4'N – 37°6'N | 12°41'N – 19°07'N
+  [3:4:0.1] Longitude | 68°7'E (Kutch) – 97°25'E (Arunachal) | 77°E – 84°40'E
+[3:4:1] - Extremes: north Indira Col, south Indira Point, east Kibithu, west Guhar Moti. Both extents about **30°**.
+[3:4:2] - Span ~29° ≈ 116 min → **about 2 hours** (not 2½) between Arunachal and Gujarat; Kibithu ~2 h ahead of Guhar Moti.
+[3:4:3] - Debate: north-east loses daylight. Proposals: advance IST by **30 min**; separate zone ~1 h ahead for the North-East. Assam tea gardens: informal **"Bagan time"** (not official).
+## SUB 5 | International Date Line
+[3:5:0] - Imaginary pole-to-pole line roughly along **180°**, in the **middle of the Pacific Ocean** (**APPSC 2021**); passes the **Bering Strait** (Chukchi Peninsula, Russia / Seward Peninsula, Alaska).
+[3:5:1] - **Zigzags** where land is in the way: Chukotka, **Aleutians**, Kiribati, Fiji, Tonga, Samoa.
+[3:5:2] TABLE head: Crossing | Date change
+  [3:5:2.0] Eastward (Asia → America) | Subtract a day (repeat)
+  [3:5:2.1] Westward (America → Asia) | Add a day (skip)
+  [3:5:2.2] Place | Fact
+  [3:5:2.3] Big Diomede (Russia) / Little Diomede (USA) | Neighbours, different dates
+  [3:5:2.4] Samoa | Moved to the Asian side in 2011
+  [3:5:2.5] Kiribati's Line Islands (UTC+14) | First to see a new day
+[3:5:3] - Old key: crossing 180° east to west a day is lost, west to east gained; shortest ship path is along the meridian.
+## SUB 6 | Tropic of Cancer and Key Latitudes
+[3:6:0] - Tropic of Cancer at **23°26'N** (written 23½°N); divides India into almost two halves (not the boundary).
+[3:6:1] - Crosses **8 states** (**APPSC 2025**), W→E: **Gujarat** (1st), **Rajasthan**, **MP** (3rd), **Chhattisgarh**, **Jharkhand** (5th), **West Bengal**, **Tripura** (7th), **Mizoram**. Not Odisha, UP, Bihar (older keys wrote Bihar for Jharkhand).
+[3:6:2] - Wholly north: UP, Bihar, Punjab, Haryana, Himachal, Uttarakhand, Sikkim, Assam, Meghalaya, Arunachal, Nagaland, **Manipur**. **AP wholly south**.
+[3:6:3] TABLE head: City | Latitude
+  [3:6:3.0] Jabalpur (nearest by key) | 23°11'N
+  [3:6:3.1] Ujjain | 23°9'N
+  [3:6:3.2] Gandhinagar | 23°19'N
+  [3:6:3.3] Agartala | 23°50'N
+  [3:6:3.4] Ahmedabad | 23°2'N
+[3:6:4] - Also near: Ranchi, Bhopal, Aizawl; Kolkata 22°30'–22°37'N; 28°N crosses Arunachal and north Rajasthan.
+[3:6:5] - **Mahi** crosses it **twice**: rises in MP, enters Rajasthan at Banswara, into Gulf of Khambhat.
+[3:6:6] - Crosses **17 countries** incl. Mexico, Egypt, Saudi Arabia, UAE, Oman, Bangladesh, Myanmar, China – **not Iran**.
+[3:6:7] - Globe: **179 parallels**, **360 meridians**. Equator passes Kenya, Colombia, Indonesia.
+[3:6:8] 8 states on the Tropic vs 5 on the IST meridian; Chhattisgarh is on both.
+[3:6:9] - **Cities near the Tropic and their States:** Ahmedabad and Gandhinagar (Gujarat), Ujjain, Bhopal and Jabalpur (Madhya Pradesh), Ranchi (Jharkhand), Agartala (Tripura), Aizawl (Mizoram).
+## SUB 7 | Rotation, Axial Tilt and Seasons
+[3:7:0] - Rotation (west to east) gives day and night and time differences; the **circle of illumination** divides day from night; Coriolis deflects winds right in NH.
+[3:7:1] - Axis **23½°** from the perpendicular = **66½°** to the orbital plane. **Parallelism** (angular momentum) → **opposite seasons** in two hemispheres.
+[3:7:2] - Tilt gives seasons, unequal day length, tropics and polar circles – **not** day and night.
+[3:7:3] - **Precession**: **Vega** was pole star ~14,000 years ago, again in ~12,000 years. **Milankovitch cycles** drive long-term climate change.
+[3:7:4] - Melting ice shifts mass away from the axis → slows rotation.
+[3:7:5] - To walk east, keep the **pole star on your left**. Stars rise perpendicular to the horizon at the Equator.
+## SUB 8 | Solstices, Equinoxes and Day Length
+[3:8:0] TABLE head: Date | Event | Sun overhead | NH
+  [3:8:0.0] 21 March (20/21) | Vernal equinox | Equator | Spring; day = night
+  [3:8:0.1] 21 June (20/21) | Summer solstice | Tropic of Cancer | Longest day
+  [3:8:0.2] 23 Sept (22/23) | Autumnal equinox | Equator | Autumn; day = night
+  [3:8:0.3] 22 Dec (21/22) | Winter solstice | Tropic of Capricorn | Shortest day
+[3:8:1] - **APPSC-G1 2019** match: winter 22 Dec, summer 21 June, vernal 21 March, autumnal 23 Sept.
+[3:8:2] - 21 June = **International Day of Yoga**. **Uttarayana**: Sun's northward movement, 22 Dec to 21 June.
+[3:8:3] - **SH longest day: 22 December** (second fortnight); NH longest: second half of June. Of the options, Delhi has the longest June day.
+[3:8:4] - Solstice: day and night unequal, biggest contrast. Winter solstice noon Sun at Tropic of Cancer: **43°**.
+[3:8:5] - 23 Sept to 21 Dec: NH days shorten. Southern summer: South Pole tilts to the Sun.
+[3:8:6] TABLE head: Latitude | 21 June | Equinox | 22 Dec
+  [3:8:6.0] Equator | 12 h | 12 h | 12 h
+  [3:8:6.1] Tropic of Cancer | ~13½ h | 12 h | ~10½ h
+  [3:8:6.2] Arctic Circle | 24 h day (Sun does not set) | 12 h | 24 h night
+  [3:8:6.3] North Pole | Continuous day | Sunrise/sunset | Continuous night
+[3:8:7] - North Pole lit ~21 March to ~23 September; poles get ~6 months day and 6 months night.
+## SUB 9 | Number Game and Quick Revision
+[3:9:0] TABLE head: Item | Fact
+  [3:9:0.0] 1° / 15° | 4 min / 1 h
+  [3:9:0.1] IST meridian | 82°30'E
+  [3:9:0.2] IST − GMT | 5 h 30 min
+  [3:9:0.3] States on IST line / Tropic | 5 / 8
+  [3:9:0.4] India's time span | ~2 h
+  [3:9:0.5] Most time zones | France, 12
+[3:9:1] # FIRST / LAST / SPECIAL FACTS
+[3:9:2] - First to see a new day: Kiribati's Line Islands (UTC+14).
+[3:9:3] - Only state on both lines: Chhattisgarh. Last state on IST line: Andhra Pradesh.
+[3:9:4] - Single legal reference since 2026 Rules: IST.
+## SUB 10 | Appsc Previous Year Questions
+[3:10:0] TABLE head: Examination | Question Area
+  [3:10:0.0] APPSC Group 1 2019 | Local time 60°W → 90°E; solstice-equinox match
+  [3:10:0.1] APPSC 2019 | IST meridian 82°30'E; GMT + 5:30
+  [3:10:0.2] APPSC 2021 | IST states (not West Bengal); Date Line in mid-Pacific
+  [3:10:0.3] APPSC 2025 | Tropic of Cancer – 8 states
+## SUB 11 | High-probability Mcq Traps
+[3:11:0] VERY IMPORTANT
+[3:11:1] - 1. **East ahead, west behind**.
+[3:11:2] - 2. Opposite sides of Greenwich: **add** longitudes.
+[3:11:3] - 3. IST line misses **West Bengal**; Tropic misses **Odisha**.
+[3:11:4] - 4. Reference town is **Mirzapur**.
+[3:11:5] - 5. Most zones: **France**; China one.
+[3:11:6] - 6. Crossing Date Line **eastward = subtract** a day.
+[3:11:7] - 7. **Colombo** shares IST; Nepal is +5:45.
+[3:11:8] - 8. White Rabbit is from **CERN**.
+[3:11:9] - 9. India's gap is **2 hours**, not 2½.
+[3:11:10] - 10. SH longest day **22 December**.
+
+=== OWN MCQs of 4:3 (96)
+[n9384d02647c] sub0
+  How much time does one minute of arc of longitude correspond to?
+  4 minutes of time | 1 minute of time | 15 seconds of time | *4 seconds of time
+  x: 15° = 1 hour and 1° = 4 minutes, so one minute of arc equals 4 seconds of time.
+[nbe5f052963b] sub0
+  Compared with a given place, what is the local time of places to its east?
+  Ahead only in the Northern Hemisphere | Behind | The same | *Ahead
+  x: The Earth rotates from west to east, so places to the east see the Sun earlier and their local time is ahead.
+[n4c120fed181] sub0
+  The longitudes of two places are 25°E and 35°W. What is their local-time difference?
+  40 minutes | *4 hours | 10 hours | 2 hours 40 minutes
+  x: The longitudes lie on opposite sides of Greenwich, so they are added: 25° + 35° = 60°. Sixty degrees correspond to four hours.
+[ngeneral-geography-2-12] sub0
+  What happens to local time when moving westward?
+  Remains unchanged | Advances | *Falls behind | Changes by one full day
+  x: Local time advances eastward, so moving west it falls behind (15° = one hour).
+[nbab7e2559ee] sub0
+  A place is situated 30° west of Greenwich. What will be its local time in relation to Greenwich Mean Time?
+  1 hour ahead | *2 hours behind | 2 hours ahead | 30 minutes behind
+  x: Thirty degrees correspond to two hours, and a place west of Greenwich is behind Greenwich Mean Time.
+[n4313a321a18] sub0
+  A flight departs from a western location at 10:00 a.m. local time, travels for three hours and reaches a location 15° east of the point of departure. What will be its local arrival time?
+  *2:00 p.m. | 1:00 p.m. | 3:00 p.m. | 12:00 noon
+  x: The journey takes three hours and the eastward movement adds one hour because 15° equals one hour. The arrival time is therefore 2:00 p.m.
+[nindian-geography-47-18] sub0
+  Fifteen degrees of longitude correspond to how much time?
+  Four minutes | 15 minutes | 30 minutes | *One hour
+  x: 15° equals one hour and 1° equals 4 minutes; IST (82°30′E) is GMT + 5 h 30 min.
+[n05cecdea98f] sub1
+  Consider the following statements:
+1. GMT is the mean solar time at Greenwich.
+2. UTC is based only on solar observation.
+Which of the above statement(s) is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: GMT is mean solar time at Greenwich; UTC is maintained by atomic caesium clocks and adjusted with leap seconds, so statement 2 is wrong.
+[ndb98c6f8461] sub1
+  The Prime Meridian, the reference for Greenwich Mean Time, was adopted at the International Meridian Conference in which year?
+  1851 | *1884 | 1947 | 1569
+  x: The Prime Meridian through the Royal Observatory, Greenwich was adopted at the International Meridian Conference of 1884. 1851 is the year of Foucault's pendulum, 1947 the year a single IST was adopted, and 1569 the year of the Mercator projection.
+[n477c8d4905e] sub1
+  What is the main aim of Daylight Saving Time?
+  Align a country's time with GMT | Shift the Prime Meridian | Lengthen winter days | *Make more use of evening daylight in summer
+  x: DST makes better use of evening daylight in summer; India does not use it.
+[ndd4eb7d4922] sub1
+  With which clocks are NavIC signals timed?
+  Caesium atomic clocks | Hydrogen maser clocks | *Rubidium atomic clocks | Quartz clocks
+  x: NavIC (7 satellites: 3 GEO + 4 GSO) uses rubidium atomic clocks; the clock on IRNSS-1F failed.
+[f2a98f7abc502] sub1
+  By which clocks is Coordinated Universal Time (UTC) kept?
+  Rubidium atomic clocks | *Caesium atomic clocks | Sundials at Greenwich | Lunar observations
+  x: UTC is the world standard kept by caesium atomic clocks; rubidium clocks are used by NavIC.
+[f0d118d8ace12] sub1
+  With what is UTC corrected from time to time to keep it in step?
+  Leap days | Leap minutes | *Leap seconds | Half-hour offsets
+  x: UTC is corrected with leap seconds.
+[f7aa45a3093bb] sub1
+  Which natural unit of time is based on the Moon's revolution?
+  *Month | Day | Year | Week
+  x: The month comes from the Moon's revolution; the day from rotation and the year from the Earth's revolution.
+[fbff01bf17139] sub1
+  Consider the following statements about Daylight Saving Time:
+1. Clocks are advanced by one hour in summer to use evening light.
+2. India follows Daylight Saving Time.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Under DST clocks go forward one hour in summer at mid and high latitudes; India does not use it.
+[g584b06b3f13f] sub1
+  How many satellites make up the NavIC constellation?
+  4 | *7 | 11 | 24
+  x: NavIC has 7 satellites (3 GEO and 4 GSO) timed with rubidium clocks.
+[n28d574b3ec4] sub2
+  Which of the following cities has the same clock time as Mumbai, Kolkata and Chennai?
+  Kathmandu | *Colombo | Dhaka | Yangon
+  x: Mumbai, Kolkata, Chennai and Colombo observe UTC+5:30. Nepal uses UTC+5:45 and therefore does not have the same clock time.
+[ne49957c6056] sub2
+  Which country has the greatest number of time zones when its overseas territories are included?
+  *France | Australia | Russia | China
+  x: France has 12 time zones when its overseas territories are included, while Russia has 11.
+[n7120a6e5d67] sub2
+  Which one of the following countries uses a single time zone despite its considerable east-west extent?
+  Russia | *China | France | Australia
+  x: China uses one official time zone throughout the country despite its large longitudinal span.
+[f170e5e07a02c] sub2
+  Theoretically, the world is divided into how many time zones of 15° each?
+  12 | 36 | 48 | *24
+  x: 360° ÷ 15° gives 24 theoretical time zones; in practice there are more because of half- and quarter-hour offsets.
+[faaebfabd420d] sub2
+  What is the standard time of Nepal?
+  UTC+5:30 | *UTC+5:45 | UTC+6:00 | UTC+5:00
+  x: Nepal keeps UTC+5:45, while India and Colombo keep UTC+5:30.
+[ffe979ba2c08b] sub2
+  Which of the following pairs (country – number of time zones) is correctly matched?
+  *Russia – 11 | France – 9 | Brazil – 5 | China – 2
+  x: Russia has 11 time zones. France has 12 with its overseas territories, Brazil exactly 4 and China only one.
+[n5a0f46a7bf1] sub3
+  Which one of the following is the correct reference location associated with the Indian Standard Time meridian?
+  *Mirzapur | Kakinada | New Delhi | Jakkur
+  x: Mirzapur in Uttar Pradesh is the reference town associated with the Indian Standard Time meridian.
+[n211a02526f7] sub3
+  The Indian Standard Time meridian passes through which one of the following sequences of States from west to east?
+  *Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh | Uttar Pradesh, Rajasthan, Chhattisgarh, Odisha and West Bengal | Madhya Pradesh, Uttar Pradesh, Jharkhand, Odisha and Andhra Pradesh | Uttar Pradesh, Madhya Pradesh, Odisha, West Bengal and Andhra Pradesh
+  x: The meridian crosses Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh. West Bengal is not included in this sequence.
+[ne958281fff1] sub3
+  A weather balloon launched at 0000 UTC goes up at what Indian Standard Time?
+  *5:30 a.m. | 6:30 a.m. | 4:30 a.m. | 5:30 p.m.
+  x: IST (82°30′E) is 5 h 30 min ahead of GMT, so 0000 UTC is 5:30 a.m. IST.
+[n83bde8d6483] sub3
+  Who maintains Indian Standard Time?
+  India Meteorological Department, New Delhi | *CSIR-National Physical Laboratory, New Delhi | Survey of India, Dehradun | ISRO, Bengaluru
+  x: IST is maintained by the CSIR-National Physical Laboratory, New Delhi.
+[na591a96dd5c] sub3
+  Which of the following pairs is NOT correctly matched?
+  Chhattisgarh — intersection of the IST meridian and Tropic of Cancer | *West Bengal — State crossed by the IST meridian | Kakinada district — passage of the IST meridian in Andhra Pradesh | Mirzapur — reference town of Indian Standard Time
+  x: West Bengal is not crossed by the Indian Standard Time meridian. The other three pairs are correctly matched.
+[nindian-geography-45-9] sub3
+  Assertion (A): The Tropic of Cancer and the Indian Standard Time meridian intersect in Chhattisgarh.
+Reason (R): Their intersection is located in Koriya district on the Baghelkhand Plateau.
+  *Both A and R are true, and R is the correct explanation of A | Both A and R are true, but R is NOT the correct explanation of A | A is true, but R is false | A is false, but R is true
+  x: Both are true and R explains A: the crossing point of 23°30′ N and 82°30′ E lies in Koriya district on the Baghelkhand Plateau, and Koriya is a district of Chhattisgarh, which is what places the intersection in that State.
+[n33cfa11fd3c] sub3
+  In which year were separate Bombay and Calcutta times introduced?
+  1857 | *1884 | 1920 | 1947
+  x: Bombay and Calcutta times date from 1884; a single IST was adopted after 1947.
+[nc56457d52c3] sub3
+  Which of the following is NOT correct about the Legal Metrology (Indian Standard Time) Rules, 2026?
+  They were notified by the Ministry of Consumer Affairs | They were notified on 27 August 2026 | They make IST the single mandatory reference for legal, administrative, commercial and official purposes | *They came into force immediately on notification
+  x: The Rules come into force 180 days after Gazette publication, not immediately.
+[na93abcd69b1] sub3
+  Which of the following is NOT correct about the White Rabbit-based IST Distribution Demonstration Network?
+  It was inaugurated at RRSL, Jakkur (Bengaluru) | It reduces dependence on GPS | It gives sub-nanosecond synchronisation over fibre | *Its White Rabbit protocol was developed by ISRO
+  x: The White Rabbit protocol was developed by CERN, not ISRO.
+[n8257fccdbe0] sub3
+  Why is the White Rabbit IST network significant?
+  Forecasts cyclones along the east coast | Monitors seismic activity in the Himalayas | Provides broadband internet to rural areas | *Provides synchronised high-precision IST time-stamps for critical infrastructure and helps guard against GPS spoofing
+  x: The White Rabbit IST network gives synchronised IST time-stamps for banking, payments, railways, airports, power grids and telecom, and helps protect against GPS spoofing.
+[f6d4684798422] sub3
+  How many States does the Indian Standard Time meridian pass through?
+  8 | 4 | *5 | 6
+  x: The IST meridian crosses five States: UP, MP, Chhattisgarh, Odisha and Andhra Pradesh; it is the Tropic of Cancer that crosses eight.
+[f5e96bb61e3ed] sub3
+  Going from west to east, which is the last State on the Indian Standard Time meridian?
+  Odisha | Chhattisgarh | West Bengal | *Andhra Pradesh
+  x: The IST meridian runs through UP, MP, Chhattisgarh, Odisha and ends in Andhra Pradesh; it does not pass West Bengal.
+[g76e386856868] sub3
+  What is the significance of the longitude 82°30'E for India?
+  It marks the eastern limit of India | *It is the Standard Meridian of India | It is the line of the Tropic of Cancer | It is India's westernmost longitude
+  x: Indian Standard Time is taken from the 82°30'E meridian.
+[g2794ea947488] sub3
+  By how much is Indian Standard Time ahead of Greenwich Mean Time?
+  5 hours | 5 hours 45 minutes | *5 hours 30 minutes | 6 hours 30 minutes
+  x: 82.5° × 4 minutes = 330 minutes, so IST is 5 h 30 min ahead of GMT.
+[g9061c703a5f9] sub3
+  Consider the following statements:
+1. The Standard Meridian of India is 82°30'E.
+2. The Standard Meridian of India passes through West Bengal.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: The meridian is 82°30'E and crosses UP, MP, Chhattisgarh, Odisha and Andhra Pradesh, not West Bengal.
+[n210ecf83b07] sub4
+  India's single time zone mainly costs which region daylight hours?
+  *North-eastern region | Southern region | Western region | Central region
+  x: India's wide east-west extent leaves the north-east at a daylight disadvantage; separate-zone proposals remain undecided.
+[nffddaa77c13] sub4
+  India extends approximately from 68°7'E to 97°25'E. What is the approximate difference in local time between its western and eastern extremities?
+  About 1 hour | About 30 minutes | *About 2 hours | About 4 hours
+  x: The longitudinal span is approximately 29°, which corresponds to about 116 minutes, or nearly two hours.
+[nindian-geography-47-2] sub4
+  What is the westernmost longitude of India?
+  82°30′ E | *68°7′ E | 97°30′ E | 97°25′ E
+  x: India's westernmost longitude is 68°7′ E in Kutch. 82°30′ E is the IST meridian and 97°25′ E the eastern limit.
+[nindian-geography-47-20] sub4
+  The easternmost extent of India is approximately located between which longitudes?
+  68°7′ E and 68°30′ E | 80°34′ E and 81°12′ E | 82°30′ E and 83° E | *97°25′ E and 97°30′ E
+  x: India's eastern limit is at about 97°25′–97°30′ E in Arunachal Pradesh.
+[nbc542207c22] sub4
+  What does 'Bagan time' refer to?
+  The time maintained by NavIC satellites | An official Indian time zone created under the 2026 Rules | *An informal time followed in Assam tea gardens | The time used at the Greenwich Observatory
+  x: Bagan time is an informal time followed in Assam's tea gardens; it is not an official Indian time zone.
+[fd802186ec7e7] sub4
+  In the two-time-zone debate, by how much does one proposal seek to advance Indian Standard Time?
+  *30 minutes | 15 minutes | 45 minutes | 2 hours
+  x: One proposal is to advance IST by 30 minutes; another is a separate zone about 1 hour ahead for the North-East.
+[fd191af3aca71] sub4
+  Which is the northernmost point of India?
+  Indira Point | *Indira Col | Kibithu | Guhar Moti
+  x: Indira Col is the northernmost point; Indira Point is the southernmost, Kibithu the easternmost and Guhar Moti the westernmost.
+[f0e50f9b39c18] sub4
+  What is the latitudinal extent of Andhra Pradesh?
+  8°4'N – 37°6'N | 10°41'N – 17°07'N | *12°41'N – 19°07'N | 13°41'N – 21°07'N
+  x: Andhra Pradesh lies between 12°41'N and 19°07'N; 8°4'N–37°6'N is India's extent.
+[n32ee6694598] sub5
+  Which of the following pairs represents neighbouring places on opposite sides of the International Date Line?
+  *Big Diomede and Little Diomede | Samoa and Tonga | Fiji and Kiribati | Greenwich and Chukotka
+  x: Big Diomede belongs to Russia and Little Diomede belongs to the United States; they lie close to each other in the Bering Strait but on different calendar dates.
+[nb2e7739ef4f] sub5
+  Which Pacific country moved to the Asian side of the International Date Line in 2011?
+  Fiji | Tonga | Kiribati | *Samoa
+  x: Samoa shifted to the Asian side of the Date Line in 2011, changing its calendar relation with neighbours.
+[n958888b4cb2] sub5
+  Which of the following locations is among the first to experience a new calendar day?
+  The Aleutian Islands | *Kiribati’s Line Islands | Little Diomede | Greenwich
+  x: Kiribati’s Line Islands use UTC+14 and are among the first inhabited places to enter a new day.
+[nindian-geography-47-16] sub5
+  What must one do to the date when crossing the International Date Line (about 180°) eastward?
+  Add one day | Add 12 hours | *Subtract one day | Make no change
+  x: Crossing the Date Line eastward means subtracting a day.
+[f2356944484fb] sub5
+  Why does the International Date Line zigzag away from the 180° meridian?
+  *Land is in the way | Of ocean currents | Of the Earth's magnetic field | Of the Earth's axial tilt
+  x: The Date Line bends where land is in the way, as at Chukotka, the Aleutians, Kiribati, Fiji, Tonga and Samoa.
+[fe92566646ad6] sub5
+  What must a traveller crossing the International Date Line westward, from America to Asia, do to the date?
+  Subtract a day | *Add a day | Add 12 hours | Make no change
+  x: Crossing westward a day is added (skipped); crossing eastward a day is subtracted (repeated).
+[g48f68cfe3ccd] sub5
+  Along which meridian does the International Date Line roughly run?
+  0° | 90°E | *180° | 90°W
+  x: The Date Line runs roughly along 180° in the middle of the Pacific Ocean.
+[g006cde8dbc05] sub5
+  The International Date Line passes through the Bering Strait between which two peninsulas?
+  *Chukchi and Seward | Kola and Kamchatka | Seward and Kenai | Taimyr and Chukchi
+  x: In the Bering Strait the Date Line passes between the Chukchi Peninsula (Russia) and the Seward Peninsula (Alaska).
+[n8bb2873c6f3] sub6
+  The Tropic of Cancer does NOT pass through which one of the following States?
+  Jharkhand | *Odisha | Tripura | Rajasthan
+  x: Odisha lies wholly south of the Tropic of Cancer. Jharkhand, Tripura and Rajasthan are among the 8 States it crosses (with Gujarat, Madhya Pradesh, Chhattisgarh, West Bengal and Mizoram).
+[nae87856f10a] sub6
+  Where does Andhra Pradesh lie with respect to the Tropic of Cancer?
+  Along it, on its northern boundary | Wholly north of it | Crossed by it in its northern part | *Wholly south of it
+  x: Andhra Pradesh lies wholly south of the Tropic of Cancer.
+[n39c2f345f1d] sub6
+  Through how many Indian States does the Tropic of Cancer pass?
+  6 | 7 | *8 | 9
+  x: The Tropic of Cancer passes through 8 States: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. 6, 7 and 9 are wrong counts.
+[nindian-geography-45-4] sub6
+  Of the States crossed by the Tropic of Cancer, which is first in the west-to-east order?
+  *Gujarat | Madhya Pradesh | Rajasthan | Mizoram
+  x: West to east, Gujarat is first, Madhya Pradesh third, Jharkhand fifth and Tripura seventh.
+[nindian-geography-45-20] sub6
+  Into which water body does the Mahi river, which crosses the Tropic of Cancer twice, drain?
+  Gulf of Kachchh | Rann of Kachchh | *Gulf of Khambhat | Gulf of Mannar
+  x: The Mahi rises in Madhya Pradesh, flows through Rajasthan and Gujarat and drains into the Gulf of Khambhat.
+[nindian-geography-46-16] sub6
+  Which of the following pairs (city near the Tropic of Cancer – State) is NOT correctly matched?
+  Agartala – Tripura | Gandhinagar – Gujarat | *Ranchi – Tripura | Ujjain – Madhya Pradesh
+  x: Ranchi is in Jharkhand, not Tripura. Agartala is the capital of Tripura, Gandhinagar is in Gujarat and Ujjain in Madhya Pradesh.
+[nindian-geography-46-17] sub6
+  Which of the following pairs is correctly matched?
+  Southernmost extent of mainland India – 28° N | Northernmost extent of India – 8°4′ N | *Tropic of Cancer – 23°30′ N | Arunachal Pradesh and northern Rajasthan – 37°6′ N
+  x: The Tropic of Cancer is at 23°30′ N. Mainland India ends at 8°4′ N, India's northern limit is 37°6′ N and Arunachal and northern Rajasthan lie near 28° N.
+[f36de06ba9b1a] sub6
+  How many parallels of latitude are drawn on the globe at 1° intervals?
+  180 | *179 | 181 | 360
+  x: The globe has 179 parallels and 360 meridians.
+[fcdd0f3d868a4] sub6
+  At about which latitude does the Tropic of Cancer lie?
+  *23°26'N | 22°30'N | 23°50'N | 24°26'N
+  x: The Tropic of Cancer is at 23°26'N, usually written 23½°N.
+[ga9b46e62dcfc] sub6
+  Which of the following States lies wholly north of the Tropic of Cancer?
+  Tripura | Mizoram | *Manipur | Jharkhand
+  x: Manipur lies wholly north of the Tropic; Tripura, Mizoram and Jharkhand are crossed by it.
+[g61c3e171c7fe] sub6
+  Which of the following cities lies close to the Tropic of Cancer?
+  *Ujjain | Hyderabad | Nagpur | Chennai
+  x: Ujjain (23°9'N) lies near the Tropic of Cancer (23°26'N).
+[g848c5bf06342] sub6
+  Through which of the following countries does the Equator pass?
+  Rwanda | Mexico | *Indonesia | Equatorial Guinea
+  x: The Equator passes through Indonesia; it misses Rwanda, Mexico and Equatorial Guinea.
+[g7266d5a21d13] sub6
+  How many meridians of longitude are there on the globe at 1° interval?
+  179 | 180 | 181 | *360
+  x: There are 360 meridians, against 179 parallels.
+[gecbc35c97899] sub6
+  Which is the easternmost State through which the Tropic of Cancer passes?
+  Tripura | Manipur | *Mizoram | West Bengal
+  x: From west to east the Tropic of Cancer crosses 8 States, beginning with Gujarat and ending with Mizoram.
+[g344c94e73eb7] sub6
+  Arrange the following States crossed by the Tropic of Cancer from west to east:
+1. Jharkhand
+2. Madhya Pradesh
+3. Tripura
+4. Rajasthan
+Select the correct answer using the code given below:
+  *4, 2, 1, 3 | 2, 4, 1, 3 | 4, 2, 3, 1 | 2, 4, 3, 1
+  x: The order is Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram.
+[gbc20b2db823a] sub6
+  Through how many countries does the Tropic of Cancer pass?
+  8 | 13 | *17 | 24
+  x: The Tropic of Cancer crosses 17 countries, including Mexico, Egypt, Saudi Arabia, India and China.
+[n6eedc295452] sub7
+  Which of the following is NOT a consequence of the Earth's axial tilt?
+  Formation of seasons | Unequal length of day and night | *Occurrence of day and night | Location of the polar circles at about 66½°
+  x: Day and night are caused by rotation; the tilt gives seasons, unequal day length and the positions of the tropics and polar circles.
+[ndfd9b57ca64] sub7
+  Vega was the pole star about 14,000 years ago and will be again in about 12,000 years. What is the reason?
+  Earth's revolution | Changes in Earth's orbital speed | *The slow wobble (precession) of Earth's axis | Earth's equatorial bulge
+  x: Earth's axis slowly wobbles (axial precession), changing the direction of the celestial pole; Vega was the pole star about 14,000 years ago and will be again in about 12,000 years.
+[n2d88479c721] sub7
+  What are the long-term orbital and axial variations that influence climate collectively known as?
+  Ferrel cycles | Walker cycles | Hadley cycles | *Milankovitch cycles
+  x: Long-period variations in Earth's orbit and axial behaviour that influence climate are called Milankovitch cycles.
+[ngeneral-geography-2-6] sub7
+  Seasons occur because of the Earth's revolution combined with which of the following?
+  Changing distance from the Sun | Rotation | *Axial tilt | Magnetic field
+  x: The axial tilt changes the Sun's angle and day length as Earth revolves, producing seasons.
+[ngeneral-geography-2-8] sub7
+  Why does the Earth's axis keep approximately the same orientation during its revolution?
+  The Sun's gravity | Opposite seasons in the hemispheres | The Earth's magnetic field | *Angular momentum
+  x: Angular momentum keeps the axis parallel to itself; opposite seasons are a result of this, not its cause.
+[ngeneral-geography-3-18] sub7
+  At what angle is the Earth's axis inclined to the plane of its orbit?
+  23½° | *66½° | 45° | 90°
+  x: The axis makes 66½° with the orbital plane, which is a 23½° tilt from the perpendicular.
+[f4cc9c2c558d1] sub7
+  What is the line on the Earth that divides day from night called?
+  Prime Meridian | International Date Line | *Circle of illumination | Equator
+  x: The circle of illumination divides the lit half of the Earth from the dark half.
+[fc9e6619f9955] sub7
+  Because of the Earth's rotation, in which direction does the Coriolis force deflect winds in the Northern Hemisphere?
+  Left | *Right | East only | Equator
+  x: The Coriolis effect deflects winds to the right in the Northern Hemisphere.
+[f5abff09421a2] sub7
+  How does melting ice that shifts mass away from the Earth's axis affect its rotation?
+  Speeding it up | Reversing its direction | *Slowing it down | Stopping axial precession
+  x: Mass moving away from the axis slows the Earth's rotation.
+[n5235e58c520] sub8
+  The poles experience about how long a period of continuous daylight?
+  Three months | One month | *Six months | Nine months
+  x: The poles have roughly six months of day and six months of night.
+[nc894ea3a8a8] sub8
+  On 21 June, about how long does daylight last at the Tropic of Cancer?
+  15 hours | 12 hours | *13½ hours | 24 hours
+  x: On 21 June the Tropic of Cancer has about 13.5 h of daylight, the Arctic Circle 24 h and the Equator about 12 h.
+[ngeneral-geography-3-34] sub8
+  What happens to days in the Northern Hemisphere from 23 September to 21 December?
+  Last 24 hours | Become progressively longer | Remain equal to nights | *Become progressively shorter
+  x: In this period northern days shorten while southern days lengthen; the reverse happens from December to March.
+[ngeneral-geography-3-62] sub8
+  When are day and night approximately equal?
+  *An equinox | A solstice | Perihelion | Aphelion
+  x: An equinox is a seasonal transition with about equal day and night; a solstice has unequal day and night and maximum seasonal contrast.
+[n56224144119] sub8
+  Around which date does the winter solstice occur in the Northern Hemisphere?
+  23 September | 21 June | *22 December | 21 March
+  x: The northern winter solstice is around 22 December and the autumnal equinox around 22 or 23 September.
+[n5b43f2eb25b] sub8
+  The International Day of Yoga is observed on which date, which also corresponds to the summer solstice in the Northern Hemisphere?
+  23 September | *21 June | 22 December | 21 March
+  x: The International Day of Yoga is observed on 21 June, the date of the Northern Hemisphere’s summer solstice.
+[n73555956d55] sub8
+  What does the North Pole experience on 22 December?
+  Continuous day | *Continuous night | A 12-hour day | Sunrise and sunset
+  x: The North Pole has continuous night at the December solstice, continuous day at the June solstice and sunrise or sunset at an equinox.
+[ngeneral-geography-1-5] sub8
+  On 23 September, over which latitude is the Sun overhead?
+  Tropic of Cancer | Tropic of Capricorn | *Equator | Arctic Circle
+  x: On 23 September (and 21 March) the Sun is overhead at the Equator.
+[ngeneral-geography-2-13] sub8
+  What does the Southern Hemisphere have on 21/22 December?
+  Shortest day and longest night | *Longest day and shortest night | Equal day and night | Six-month night
+  x: On 21/22 December the Southern Hemisphere has its longest day; on 21 June the Northern Hemisphere does.
+[ngeneral-geography-2-27] sub8
+  During the March Equinox, which season begins in the Southern Hemisphere?
+  Spring | Summer | Winter | *Autumn
+  x: At the March Equinox spring begins in the Northern Hemisphere and autumn in the Southern Hemisphere.
+[ngeneral-geography-2-15] sub8
+  Arrange the following critical positions of Earth in chronological order during a year:
+A. September Equinox
+B. June Solstice
+C. December Solstice
+D. March Equinox
+  C, D, B, A | B, D, C, A | D, A, B, C | *D, B, A, C
+  x: The order is March Equinox, June Solstice, September Equinox, December Solstice, that is D, B, A, C.
+[ngeneral-geography-3-25] sub8
+  Which of the following pairs about the June solstice is NOT correctly matched?
+  *North Pole – Continuous darkness | Northern Hemisphere – Longest day and shortest night | Southern Hemisphere – Winter | Equator – Approximately 12-hour day
+  x: At the June solstice the North Pole has continuous daylight, not darkness.
+[ngeneral-geography-3-32] sub8
+  Which of the following pairs is NOT correctly matched?
+  21 March – Sun overhead at the Equator, moving northward | *21/22 December – Sun overhead at the Tropic of Cancer | 21 June – Sun overhead at the Tropic of Cancer, starting to move southward | 23 September – Sun overhead at the Equator, moving southward
+  x: On 21/22 December the Sun is overhead at the Tropic of Capricorn, not Cancer.
+[n76695dd1c5f] sub8
+  During the summer season in the Southern Hemisphere, which pole is tilted towards the Sun?
+  *South Pole | North Pole | Both poles equally | Neither pole
+  x: During southern summer, the South Pole is tilted towards the Sun, producing longer days and summer conditions in the Southern Hemisphere.
+[ngeneral-geography-2-32] sub8
+  When the North Pole has six months of continuous daylight, what does the South Pole have?
+  About 13½-hour days | Continuous daylight | About 12-hour days | *Continuous darkness
+  x: Axial inclination and revolution give the poles opposite six-month patterns of day and night.
+[f8473f208c474] sub8
+  What does the Arctic Circle experience on 22 December?
+  *24 hours of night | 24 hours of day | 12 hours of day | About 13½ hours of day
+  x: On 22 December the Arctic Circle has 24 hours of night; on 21 June it has 24 hours of day.
+[g11b696358408] sub8
+  What is the period from 22 December to 21 June, when the Sun appears to move northward, called?
+  Dakshinayana | *Uttarayana | Vernal equinox | Perihelion
+  x: Uttarayana is the Sun's apparent northward movement from 22 December to 21 June.
+[g34c5aa0a28f7] sub8
+  Which of the following cities has the shortest day on 21 June?
+  Delhi | Hyderabad | Chennai | *Thiruvananthapuram
+  x: On 21 June day length grows northward, so the southernmost city, Thiruvananthapuram, has the shortest day.
+
+=== NOTES 4:4 | Seasons – Inclination of the Axis, Solstices and Equinoxes, Distribution of Insolation
+## SUB 0 | Why Seasons Occur
+[4:0:0] - Earth **revolves** round the Sun in **365.25 days** with its axis tilted **23½° from the perpendicular** (**66½° to the orbital plane**) – the key reason (**APPSC 2018**).
+[4:0:1] - **Parallelism**: the axis keeps pointing the same way (towards the Pole Star) during revolution.
+[4:0:2] - Seasons come from **axial inclination + parallelism + revolution + spherical shape** → changing **angle of insolation** and **day length**.
+[4:0:3] - Hemispheres tilt alternately towards (summer) and away (winter) from the Sun; so seasons in the two hemispheres are **opposite**.
+[4:0:4] - Tilt + revolution also give changing day length, solstices and equinoxes, six-month polar day and night.
+[4:0:5] Rotation causes day and night, not seasons. Revolution alone is not enough – it needs axial tilt.
+## SUB 1 | Distance Is Not the Cause
+[4:1:0] TABLE head: Point | Date | NH season
+  [4:1:0.0] Perihelion (nearest) | ~3 January | Winter
+  [4:1:0.1] Aphelion (farthest) | early July | Summer
+[4:1:1] - Earth is nearest the Sun during **northern winter**, so distance cannot cause seasons; **tilt** does (solar angle + day length).
+[4:1:2] Seasons = axial tilt, not Earth–Sun distance.
+## SUB 2 | Solstices and Equinoxes
+[4:2:0] TABLE head: Date | Event | Sun overhead at
+  [4:2:0.0] 21 March | Vernal (spring) equinox | Equator
+  [4:2:0.1] 21 June | Summer solstice (NH) | Tropic of Cancer
+  [4:2:0.2] 23 September | Autumnal equinox | Equator
+  [4:2:0.3] 22 December | Winter solstice (NH) | Tropic of Capricorn
+[4:2:1] - Sun overhead at the Equator **twice a year**: 21 March and 23 September; day and night equal everywhere.
+[4:2:2] - **21 March – 23 September**: Sun between Equator and Tropic of Cancer → **NH summer**.
+[4:2:3] - **21 June** = **International Day of Yoga** (2026 theme "Yoga for Healthy Ageing") – marks the summer solstice.
+## SUB 3 | Day Length by Latitude
+[4:3:0] TABLE head: Latitude | 21 June | Equinoxes | 22 Dec
+  [4:3:0.0] Equator | 12 h | 12 h | 12 h
+  [4:3:0.1] Tropic of Cancer | ~13½ h | 12 h | ~10½ h
+  [4:3:0.2] Arctic Circle | 24 h day | 12 h | 24 h night
+  [4:3:0.3] North Pole | Continuous day | Sunrise/sunset | Continuous night
+[4:3:1] - Place with **equal day and night all year**: the **Equator**.
+[4:3:2] - On **21 June** the Sun **does not set at the Arctic Circle** (makes a full circle above the horizon).
+[4:3:3] - **Midnight sun** = Sun visible above the horizon at midnight.
+## SUB 4 | Summer vs Winter
+[4:4:0] TABLE head: Basis | Summer | Winter
+  [4:4:0.0] Hemisphere | Tilted towards Sun | Tilted away
+  [4:4:0.1] Rays | More direct | More oblique (slanting)
+  [4:4:0.2] Energy | Concentrated, more heating | Spread over larger area, less heating
+  [4:4:0.3] Days | Longer | Shorter
+  [4:4:0.4] Sun altitude / shadow | Higher / shorter | Lower / longer
+[4:4:1] - Noon is hotter in summer at a place like Delhi because in winter the rays fall **more slanting**.
+[4:4:2] - Example: NH tilted towards the Sun → NH summer.
+## SUB 5 | Insolation – Factors and Distribution
+[4:5:0] - Factors: **angle of incidence** (vertical rays heat a smaller area), **duration of day**, **transparency of atmosphere**, **land configuration**.
+[4:5:1] Direction of ocean tides is NOT a factor of insolation.
+[4:5:2] - Insolation **falls from the tropics to the poles**.
+[4:5:3] - Maximum over **cloudless subtropical deserts**, not the Equator.
+## SUB 6 | Seasons by Hemisphere and Latitude Zone
+[4:6:0] TABLE head: Zone | Seasonal feature
+  [4:6:0.0] Low latitudes | Small temperature contrast; wet and dry seasons
+  [4:6:0.1] Subtropics | Hot summers, mild winters
+  [4:6:0.2] Mid-latitudes | Four distinct seasons; large summer–winter temperature gaps
+  [4:6:0.3] High latitudes | Largest swings in day length and insolation
+[4:6:1] - Greatest seasonal contrast: **high latitudes** (**APPSC-G1 2023**); another key gave **mid-latitudes** for the biggest summer–winter temperature gap.
+[4:6:2] - **Southern Hemisphere**: longest day ~**22 December**, shortest ~21 June; summer in **January** (its hottest month).
+[4:6:3] - **Christmas in Australia falls in summer** – Australia is in the Southern Hemisphere.
+## SUB 7 | Shadows and Places in India
+[4:7:0] - Vertically **overhead Sun → no noon shadow**. Higher Sun → shorter shadow.
+[4:7:1] - **21 June**: no noon shadow on the **Tropic of Cancer**; north India's noon shadow is **smallest on 21 June** and longest in December.
+[4:7:2] - Equator: no noon shadow in March and September.
+[4:7:3] - Overhead Sun only **between the Tropics**, twice a year (**zero-shadow days**). **Delhi, Srinagar** (north of 23½°N) **never** get it (⚠ APPSC key (2002) gave Mumbai, which lies south of the Tropic).
+[4:7:4] - **AP** (12°41'N–19°07'N) lies between Equator and Tropic of Cancer → overhead noon Sun **twice a year**, high temperatures all year.
+[4:7:5] - **21 June day length grows northward**: **Srinagar > Delhi > Hyderabad > Chennai > Kanyakumari**. Longest summer sunlight: **Srinagar**.
+[4:7:6] # Indian and AP Seasons
+[4:7:7] - Hot weather season **March–May** (Sun's northward march): ~**50°C at Ganganagar (1935)**; ~10% rain pre-monsoon.
+[4:7:8] - **IMD's four seasons**: winter (Jan–Feb) → pre-monsoon (Mar–May) → South-West monsoon → post-monsoon. Traditional: six **ritus** (Vasanta to Shishira).
+[4:7:9] TABLE head: AP season | Months
+  [4:7:9.0] SW monsoon | June–September (~2/3 of rain)
+  [4:7:9.1] Winter | October–February; Lambasingi coldest (~2°C)
+[4:7:10] # Related One-Liners
+[4:7:11] - "Yellow Sea is the coastless sea of the world" is a **wrong** statement.
+[4:7:12] - **Stratosphere** holds the ozone layer – the **Ozonosphere**.
+## SUB 8 | Number Game and Quick Revision
+[4:8:0] TABLE head: Item | Fact
+  [4:8:0.0] Axial tilt | 23½° from perpendicular; 66½° to orbit
+  [4:8:0.1] Revolution | 365.25 days
+  [4:8:0.2] Perihelion | ~3 January
+  [4:8:0.3] Equinoxes | 21 March, 23 September
+  [4:8:0.4] Solstices | 21 June, 22 December
+  [4:8:0.5] Ganganagar record | ~50°C, 1935
+[4:8:1] # FIRST / LAST / SPECIAL FACTS
+[4:8:2] - Only latitude with 12 h day all year: Equator.
+[4:8:3] - Last latitude with overhead Sun (north): Tropic of Cancer, 21 June.
+[4:8:4] - Coldest place in AP: Lambasingi.
+## SUB 9 | Appsc Previous Year Questions
+[4:9:0] TABLE head: Examination | Question Area
+  [4:9:0.0] APPSC 2018 | Key reason for seasons – 23½° inclination
+  [4:9:0.1] APPSC Group 1 2023 | Zone of maximum seasonal contrast
+## SUB 10 | High-probability Mcq Traps
+[4:10:0] VERY IMPORTANT
+[4:10:1] - 1. Seasons = **tilt**, not distance; Earth is nearest the Sun in NH **winter**.
+[4:10:2] - 2. **Rotation** gives day and night, not seasons.
+[4:10:3] - 3. Maximum insolation: **subtropical deserts**, not the Equator.
+[4:10:4] - 4. Ocean tides are **not** an insolation factor.
+[4:10:5] - 5. Christmas in Australia = **summer**.
+[4:10:6] - 6. SH longest day = **22 December**.
+[4:10:7] - 7. **Delhi never** gets an overhead Sun; AP gets it twice.
+[4:10:8] - 8. June day length: **Srinagar** longest, Kanyakumari shortest.
+[4:10:9] - 9. 23½° from perpendicular = **66½°** to the orbital plane.
+
+=== OWN MCQs of 4:4 (41)
+[n0b70d26f000] sub0
+  Which combination most accurately explains the seasonal variation in the angle of incidence of solar rays and the length of day?
+  Rotation alone and changing distance from the Sun | Ocean currents, tides and the changing speed of winds | *Axial inclination, parallelism of the axis, revolution and the spherical shape of the Earth | The elliptical orbit alone and the rotation of the Moon
+  x: Seasonal variation results from the Earth’s axial inclination, the parallelism of its axis, its revolution around the Sun and its spherical shape. These alter the Sun’s angle and the duration of daylight received by different regions.
+[n5e9919eac3e] sub0
+  What mainly causes the seasons on the Earth?
+  *Axial tilt | Changing Earth-Sun distance | Earth's rotation | Ocean currents
+  x: Seasons come mainly from axial tilt affecting solar angle and day length; Earth is in fact nearest the Sun during northern winter.
+[f20d7e6ca94a3] sub0
+  At what angle is the Earth's axis inclined to the plane of its orbit?
+  23½° | *66½° | 90° | 45°
+  x: The axis is 23½° from the perpendicular, which is 66½° to the orbital plane.
+[fbaac57c7ad9f] sub0
+  Which of the following is NOT a cause of the seasons?
+  Inclination of the Earth's axis | Parallelism of the axis | Revolution of the Earth | *Rotation of the Earth
+  x: Rotation causes day and night, not seasons; seasons come from axial inclination, parallelism and revolution.
+[ge895971d6e7a] sub0
+  Towards which star does the Earth's axis keep pointing during its revolution?
+  Sirius | Vega | *Pole Star | Alpha Centauri
+  x: By parallelism the axis keeps pointing towards the Pole Star throughout the revolution.
+[f82c55e94bff4] sub1
+  Around which date is the Earth at perihelion, nearest the Sun?
+  21 June | Early July | 22 December | *3 January
+  x: Perihelion falls around 3 January; aphelion, the farthest point, is in early July.
+[f3d61e823408c] sub1
+  Which season does the Northern Hemisphere have when the Earth is nearest the Sun?
+  Summer | *Winter | Spring | Autumn
+  x: Earth is nearest the Sun (~3 January) during the northern winter, so distance cannot cause seasons.
+[fca6e33523edb] sub1
+  Consider the following statements about the Earth–Sun distance:
+1. Aphelion, the farthest point, falls in early July.
+2. The changing Earth–Sun distance is the main cause of seasons.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Aphelion is in early July; seasons are caused by axial tilt, not by distance.
+[ngeneral-geography-3-10] sub2
+  At the December solstice, over which latitude is the Sun overhead?
+  Tropic of Cancer | Equator | *Tropic of Capricorn | Antarctic Circle
+  x: At the December solstice the Sun is over Capricorn; at the June solstice over Cancer; at the equinoxes over the Equator.
+[f3a27836b608f] sub2
+  On which dates is the Sun vertically overhead at the Equator?
+  21 June and 22 December | *21 March and 23 September | 3 January and early July | 21 March and 21 June
+  x: The Sun is overhead at the Equator twice a year, at the equinoxes of 21 March and 23 September.
+[g92698e03e04f] sub2
+  What was the theme of the International Day of Yoga 2026?
+  *Yoga for Healthy Ageing | Yoga for One Earth, One Health | Yoga for Self and Society | Yoga for Humanity
+  x: The 2026 theme of the International Day of Yoga (21 June, summer solstice) was 'Yoga for Healthy Ageing'.
+[f907cdf8eb1e7] sub3
+  Which latitude has a 12-hour day throughout the year?
+  Tropic of Cancer | Arctic Circle | *Equator | Tropic of Capricorn
+  x: Only the Equator has equal day and night (12 hours) all year.
+[f497cd58c0887] sub3
+  On 22 December, about how long is the day at the Tropic of Cancer?
+  13½ hours | 12 hours | 24 hours | *10½ hours
+  x: The Tropic of Cancer has about 10½ hours of day on 22 December and about 13½ hours on 21 June.
+[ngeneral-geography-3-45] sub4
+  Why do more oblique solar rays produce lower heating?
+  Travel more slowly | Are completely reflected | Carry less light | *Spread the same energy over a larger area
+  x: Oblique rays spread the same energy over a larger area, so heating per unit area is lower.
+[ngeneral-geography-3-8] sub4
+  Why does the summer hemisphere receive greater heating than the winter hemisphere?
+  It is nearer to the Sun | *Its solar rays are more direct and its days are longer | Its solar rays are more oblique | It has more cloud cover
+  x: Direct rays and longer days give the summer hemisphere more heating.
+[ngeneral-geography-3-22] sub4
+  Which of the following describes the summer hemisphere?
+  Tilted away from the Sun | Having shorter days | Receiving more oblique rays | *Tilted towards the Sun
+  x: The summer hemisphere tilts towards the Sun, getting concentrated energy, a higher Sun and longer days.
+[fb90a454918fc] sub4
+  Which of the following pairs (season – feature) is correctly matched?
+  Summer – Longer noon shadow | Winter – More direct rays | Winter – Longer days | *Summer – Higher Sun altitude
+  x: In summer the Sun is higher and shadows shorter; winter has oblique rays and shorter days.
+[n027312953b2] sub4
+  Which season does the Northern Hemisphere experience when it is tilted towards the Sun?
+  *Summer | Spring | Autumn | Winter
+  x: The hemisphere tilted towards the Sun gets more direct rays and longer days, producing summer.
+[n2c049add9e8] sub5
+  Which of the following is NOT a factor affecting the distribution of insolation?
+  *Direction of ocean tides | Angle of incidence of solar rays | Duration of the day | Transparency of the atmosphere
+  x: The major factors listed are the angle of incidence, duration of day, atmospheric transparency and land configuration. Direction of ocean tides is not one of them.
+[nfe8663ce8a6] sub5
+  Consider the following statements about the distribution of insolation:
+1. Maximum insolation is always received at the Equator.
+2. Insolation generally decreases from the tropics towards the poles.
+Which of the above statement(s) is/are correct?
+  1 only | *2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Insolation generally decreases from the tropics to the poles; subtropical deserts with cloudless skies can receive the maximum, so the Equator is not always the maximum zone.
+[fe9ebfafac78d] sub5
+  Where is maximum insolation received?
+  The Equator | *Cloudless subtropical deserts | The poles | Mid-latitude forests
+  x: Insolation is highest over cloudless subtropical deserts, not the Equator.
+[n67a13603649] sub6
+  Which latitude zone experiences the greatest seasonal differences in day length and insolation?
+  *High latitudes | Mid-latitudes | Equatorial latitudes | Low latitudes
+  x: Seasonal differences are greatest in high latitudes because the annual swings in day length and insolation are very large there.
+[n715a1cd23de] sub6
+  In which regions are four distinct seasons generally experienced?
+  Low-latitude regions | *Mid-latitude regions | Equatorial regions | Subtropical regions
+  x: Mid-latitudes show four distinct seasons; low latitudes have wet and dry periods and subtropics hot summers and mild winters.
+[f3875271b057f] sub6
+  What type of seasons do the low latitudes mainly experience?
+  Four distinct seasons | *Wet and dry seasons | Hot summers and mild winters | The largest swings in day length
+  x: Low latitudes have small temperature contrast and wet and dry seasons; four distinct seasons belong to the mid-latitudes.
+[fe2abf17ad648] sub6
+  Which is the hottest month of summer in the Southern Hemisphere?
+  June | July | *January | September
+  x: The Southern Hemisphere's summer peaks in January, its hottest month.
+[g354e882d8512] sub6
+  Why does Christmas fall in summer in Australia?
+  *Australia lies in the Southern Hemisphere | Australia lies on the Equator | Australia is nearest the Sun in December because of its longitude | Australia has no winter season
+  x: In December the Southern Hemisphere is tilted towards the Sun, so Australia has summer at Christmas.
+[g47cf2d1209eb] sub6
+  In which month does the Southern Hemisphere have its shortest day?
+  December | March | *June | September
+  x: The Southern Hemisphere has its longest day around 22 December and its shortest around 21 June.
+[ngeneral-geography-3-47] sub7
+  Which of the following pairs is correctly matched?
+  Lower Sun in the sky – Shorter shadow | Higher Sun in the sky – Longer shadow | *Vertically overhead Sun – No shadow at noon | Midnight sun – No shadow at noon
+  x: An overhead Sun casts no shadow at noon; a higher Sun gives a shorter shadow, a lower Sun a longer one, and the midnight sun is the Sun visible above the horizon at midnight.
+[ne3fc432e663] sub7
+  Consider the following statements about the overhead noon Sun:
+1. Only places between the Tropic of Cancer and the Tropic of Capricorn can receive it.
+2. Delhi, lying north of 23½°N, receives it once a year.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Only places between the two Tropics get the overhead Sun; Delhi, north of 23½°N, never does, so statement 2 is wrong.
+[n2b888797dd7] sub7
+  On 21 June, where is the noon shadow absent because the Sun is overhead?
+  *The Tropic of Cancer | Kanyakumari | Delhi | Hyderabad
+  x: On 21 June, the Sun is overhead at the Tropic of Cancer, so an object there casts no shadow at local noon.
+[ne2bd14f1074] sub7
+  Lying between the Equator and the Tropic of Cancer, how often can Andhra Pradesh receive the overhead noon Sun?
+  Never | Once a year | Thrice a year | *Twice a year
+  x: Andhra Pradesh (about 12°41′N to 19°07′N) lies between the Equator and the Tropic of Cancer, so the overhead Sun can occur there twice a year.
+[n00837821c3e] sub7
+  Where was a temperature of about 50°C recorded in 1935?
+  *Ganganagar | Jaisalmer | Barmer | Phalodi
+  x: About 50°C was recorded at Ganganagar in 1935, during the March-May hot weather season.
+[n419243c65a3] sub7
+  Under the IMD's seasonal classification, which season follows the South-West monsoon?
+  Winter | Pre-monsoon | *Post-monsoon | Spring
+  x: IMD's four seasons run winter, pre-monsoon, South-West monsoon and post-monsoon.
+[f8d774a9717bb] sub7
+  In which months is the noon shadow absent at the Equator?
+  *March and September | June and December | January and July | Only in June
+  x: The Sun is overhead at the Equator at the March and September equinoxes, so there is no noon shadow then.
+[gd8b6c4dc972a] sub7
+  Arrange the following cities in decreasing order of day length on 21 June:
+1. Delhi
+2. Kanyakumari
+3. Srinagar
+4. Hyderabad
+Select the correct answer using the code given below:
+  *3, 1, 4, 2 | 1, 3, 4, 2 | 3, 4, 1, 2 | 2, 4, 1, 3
+  x: On 21 June day length grows northward: Srinagar > Delhi > Hyderabad > Kanyakumari.
+[ge175604bc340] sub7
+  Which of the following cities never has the Sun overhead at noon?
+  Hyderabad | *Srinagar | Chennai | Visakhapatnam
+  x: Only places between the Tropics get the overhead Sun; Srinagar lies north of 23½°N.
+[g6c78a226b630] sub7
+  How many ritus (seasons) are there in the traditional Indian calendar?
+  Four | *Six | Three | Twelve
+  x: The traditional calendar has six ritus, from Vasanta to Shishira.
+[gbc14e52063bf] sub7
+  About what share of Andhra Pradesh's rainfall comes from the South-West monsoon?
+  One-third | Half | *Two-thirds | Nine-tenths
+  x: The South-West monsoon (June–September) brings about two-thirds of AP's rain.
+[gbd14ae440173] sub7
+  Which layer of the atmosphere is called the 'Ozonosphere'?
+  Troposphere | *Stratosphere | Mesosphere | Thermosphere
+  x: The stratosphere holds the ozone layer and so is called the Ozonosphere.
+[g72366bf1946d] sub7
+  What are the days called when the noon Sun is overhead at a place between the Tropics and objects cast no shadow?
+  Solstice days | Equinox days | *Zero-shadow days | Leap days
+  x: Places between the Tropics get the overhead noon Sun twice a year; these are called zero-shadow days.
+[nbc4552262d0] sub8
+  Which is the coldest place in Andhra Pradesh?
+  Araku Valley | *Lambasingi | Horsley Hills | Paderu
+  x: Lambasingi is the coldest place in AP (about 2°C), not the hottest.
+

@@ -455,6 +455,7 @@ class Repository(private val open: (String) -> InputStream) {
                 technique = q.str("tq"),
                 solution = q.strList("xs"),
                 extra = q.strList("xa"),
+                tags = q.strList("tg"),
             )
         }
         fun map(key: String): Map<Int, List<Question>> =

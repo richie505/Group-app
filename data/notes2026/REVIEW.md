@@ -154,3 +154,11 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y5f3fd7bf7cf economic and social planning → Concurrent List (Entry 20); yfca16f13ae5 → option added "Article 48A".
 - Disputed: J&K DPSP (y875d578852a, ybb16dead219); 42nd Amendment count four vs three+39(f) (y21113d2115f, y447ad879706); yd6a5e9f84cc Kesavananda.
 - Weak printed keys kept: yd75a8ed915d, y34b98b8fede, ye0be9ba6ce9, y340a638253e. y414cdea490e is an English synonym question ("pious") — drop?
+
+## b3-r002 Economy: planning, reforms, sectors (142 PYQs, 8 changed, 2 options added, 3 disputed)
+- y94b9b7a8a36 (UPSC 2009) import substitution began in the 2nd Plan → "a only" (disputed). Census 2011 WPR → option added 39.8%; agriculture workers → option added 55%.
+- Weak keys: y4ab4ddcd108, y0e1a53051ab, PMFBY AP ~15 lakh, mining 0.60%, CII "year of integration", AP primary sector 1999-2006. Own MCQ fb6ef11dcf73b "Third Plan import substitution" needs rewording.
+## b2-r015-k1 DPSP remaining 29 (0 changed): y7bf12005e26 "New Magna Carta" no key (Vijeta grid "1,3" Pylee & Ambedkar); y00e19c39461 "post-dated cheque" K.T. Shah (quiz books); y20826afc8d5 MGNREGA → Art. 43 (Art. 41 not offered).
+## b2-r016 Fundamental Duties, DPSP–FR (145 PYQs, 7 changed): y31ea4047d58 (UPSC 2003) → option added "role"; y77e08edbd73 Golaknath "second largest bench" disputed; y85056d75487 Swaran Singh list unverified.
+## b2-r018 Amendments (129 PYQs, 6 changed): seat freeze → option added "84th Amendment"; AP bifurcation → option added "None – AP Reorganisation Act, 2014"; ya4696315f61 promotions → 85th disputed (strictly 77th). Latest enacted still 106th (Nov 2026); 131st Bill defeated Apr 2026 (needed 352, Praveen CA says 326).
+## b4-r001 Earth, India/AP location (112 PYQs, 4 changed, 4 outdated): AP coastline 974 → 1,053.07 km (2025 re-measurement, 3rd longest); yc29c2f87c00 latitude span China → Chile; y42273a075df → Sri Aurobindo; AP area rank 7th (NextGen says 8th, pre-2019).

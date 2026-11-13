@@ -1,3 +1,5 @@
+@file:OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
+
 package com.appsc.prep.ui.screens
 
 import androidx.compose.material.icons.filled.Close
@@ -11,6 +13,8 @@ import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -155,6 +159,7 @@ fun pickSet(pool: List<Question>, answers: Map<String, Boolean>, seen: Set<Strin
 }
 
 @Composable
+@OptIn(ExperimentalLayoutApi::class)
 fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
     val app = LocalApp.current
     val store = app.store
@@ -347,7 +352,11 @@ internal fun QuizRound(
             PageList(Modifier.fillMaxSize(), state = listState, max = 900.dp) {
                 item(key = "q-${q.id}") {
                     Column(Modifier.padding(horizontal = 20.dp)) {
-                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(vertical = 6.dp)) {
+                        FlowRow(
+                            horizontalArrangement = Arrangement.spacedBy(6.dp),
+                            verticalArrangement = Arrangement.spacedBy(6.dp),
+                            modifier = Modifier.padding(vertical = 6.dp),
+                        ) {
                             if (q.appsc) Tag("APPSC", C.ExamBg, C.ExamInk)
                             when {
                                 q.kind == 'f' -> Tag("Flashcard", C.AccentSoft, C.Accent)
@@ -355,6 +364,11 @@ internal fun QuizRound(
                                 q.kind == 'u' -> Tag("No key", C.MedSoft, C.Med)
                             }
                             if (q.source.isNotBlank()) Tag(q.source)
+                            for (tg in q.tags) when (tg) {
+                                "outdated" -> Tag("⚠ Outdated", C.HighSoft, C.High)
+                                "added" -> Tag("Option added", C.AccentSoft, C.Accent)
+                                "disputed" -> Tag("Disputed", C.MedSoft, C.Med)
+                            }
                             if (q.id in edits) Tag("Corrected by you", C.GreenSoft, C.Green)
                         }
                         Text(
