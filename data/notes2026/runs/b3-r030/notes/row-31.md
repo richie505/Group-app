@@ -54,6 +54,18 @@
 - World Bank $3-a-day extreme poverty: 27.1% (2011-12) → **5.3% (2022-23)**; MPI 55.3% (2005-06) → 14.96% (2019-21) → 11.28% (2022-23).
 ~~ Sources: Planning Commission Press Note 2011-12 (July 2013) para 8-10; RBI Handbook Table 11; Economic Survey 2025-26 Highlights part 2 p.14 and Summary part 2 p.40; app notes 3:31 sub 0
 
+=== AP Poverty-Reduction Institutions
+| Body | Role | Year |
+|---|---|---|
+| **DWCRA** (Development of Women and Children in Rural Areas) | Sub-scheme of IRDP; women's groups with thrift and credit – **first SHGs in AP** (UNICEF-aided) | **1982-83** |
+| **SERP** – **Society for Elimination of Rural Poverty** | People-sensitive support structure: **social mobilisation** of the **rural poor** into women's SHGs and livelihoods | 2000 |
+| Velugu | District Poverty Initiatives Project, World Bank-aided, run by SERP | 2000 |
+| **IKP** – **Indira Kranthi Patham** | Velugu and DWCRA merged; women's organisations, livelihoods and community investment fund for **BPL households** | 2004-05 |
+| MEPMA – Mission for Elimination of Poverty in Municipal Areas | Urban SHGs (Municipal Administration) | 1 Sep 2007 |
+| **APMSS** – Andhra Pradesh **Mahila Sadhikara Samstha** | Integrated body for poverty alleviation and empowerment of poor households in **both rural and urban** areas | – |
+- SERP = rural, MEPMA = urban, **APMSS = both**.
+~~ Sources: NextGen AP Economy STATIC-1 Part 1 p.15; NextGen Indian Economy Part 1 - APPSC 02 p.38 (DWCRA); AP Socio-Economic Survey 2024-25 p.275 (MEPMA); app notes 3:31 sub 6
+
 === Poverty in Andhra Pradesh
 | Measure | AP | India |
 |---|---|---|
@@ -68,18 +80,6 @@
 - **Districts (old 13, MPI):** least poor **West Godavari 2.42%**, YSR Kadapa, Guntur, Krishna; poorest **Kurnool 12.84%**, Vizianagaram 8.66%, Visakhapatnam, Anantapur.
 - Poorer regions: **Rayalaseema** (rain-fed) and **North Coastal Andhra** (tribal ITDA tracts); least poor: **delta districts** (irrigation, productivity).
 ~~ Sources: Planning Commission Press Note 2011-12 (July 2013) Table 2; RBI Handbook Table 11; AP Socio-Economic Survey 2024-25 p.13, p.290; app notes 3:31 sub 4-5
-
-=== AP Poverty-Reduction Institutions
-| Body | Role | Year |
-|---|---|---|
-| **DWCRA** (Development of Women and Children in Rural Areas) | Sub-scheme of IRDP; women's groups with thrift and credit – **first SHGs in AP** (UNICEF-aided) | **1982-83** |
-| **SERP** – **Society for Elimination of Rural Poverty** | People-sensitive support structure: **social mobilisation** of the **rural poor** into women's SHGs and livelihoods | 2000 |
-| Velugu | District Poverty Initiatives Project, World Bank-aided, run by SERP | 2000 |
-| **IKP** – **Indira Kranthi Patham** | Velugu and DWCRA merged; women's organisations, livelihoods and community investment fund for **BPL households** | 2004-05 |
-| MEPMA – Mission for Elimination of Poverty in Municipal Areas | Urban SHGs (Municipal Administration) | 1 Sep 2007 |
-| **APMSS** – Andhra Pradesh **Mahila Sadhikara Samstha** | Integrated body for poverty alleviation and empowerment of poor households in **both rural and urban** areas | – |
-- SERP = rural, MEPMA = urban, **APMSS = both**.
-~~ Sources: NextGen AP Economy STATIC-1 Part 1 p.15; NextGen Indian Economy Part 1 - APPSC 02 p.38 (DWCRA); AP Socio-Economic Survey 2024-25 p.275 (MEPMA); app notes 3:31 sub 6
 
 === Social Groups, Causes and Latest Developments
 - Highest poverty: **Scheduled Tribes** (about 43-45% in 2011-12), then SCs (29%); rural agricultural labour and urban casual labour households about 34%.
