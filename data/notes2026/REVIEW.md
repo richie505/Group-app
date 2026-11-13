@@ -117,3 +117,9 @@
 - ya17bf8f5430 (MPDO 1998) property ceased to be an FR from: 1978 → 1979 (assent 30 Apr 1979, in force 20 Jun 1979). Most books say 1978 — DECIDE.
 - Vote / RTI legal vs constitutional: each exam's own key kept (UPSC 2017 constitutional; UPPCS legal); notes give both.
 - Unchecked old-notes items: GGR Housing (AP HC May 2026), Kerala Malayalam Bhasha Bill.
+
+## b3-r000 Economy: basic characteristics, planning (132 PYQs, 9 keys changed, 52 generated, 4 outdated, 2 no key)
+- y46bd8bc8532 unorganised sector: barter (WBCS key) → more currency transactions — confirm.
+- yb0adc6e9c71 industry share: key → 26.4% (Economic Survey 2006-07). y7011b4eb993 unit root = time-series.
+- No key: y0aa08ef6d4c Stree Nidhi interest (13% at launch / 11% now, no option); yb71feae5909 primary share 2008 (~20%, options 40-70%).
+- Single uncertain source: y2c9bf9c5514, y8fd4cb32bec, y3e82d076574, yf34025d8f4c.
