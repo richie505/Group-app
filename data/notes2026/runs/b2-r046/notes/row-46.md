@@ -14,6 +14,7 @@
 - Concurrent List conflict (**Art. 254**): the **Union law prevails** – but **not always**: a State law **reserved for and assented to by the President** prevails in that State (Art. 254(2)), until Parliament legislates again.
 - So "Union law **always** prevails" is **false**, and "**only States** can legislate on the Concurrent List" is **false**; under special circumstances (Arts 249, 250, 252, 253, 356) Parliament **can** legislate on the State List.
 - **Central sector schemes** are mostly framed on Union List subjects.
+- Entry numbering still ends at 97 / 66 / 47 because entries were inserted (e.g. **Union Entry 92A**, inter-State sales tax, by the **6th Amendment, 1956**) or omitted.
 ~~ Sources: Laxmikanth Indian Polity 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.215, p.222-223; NextGen Polity - APPSC Exams (full text, src/polity/nextgen-polity-full.txt) p.157; Constitution of India Arts 246, 254 and Seventh Schedule (legislative.gov.in); app notes 2:46 sub 4
 === Subject → List – the Entries Asked Most
 # Union List (List I)
@@ -96,6 +97,7 @@
 - **Violating federal principles:** **Governor, CAG, Emergency powers (esp. Art. 356)**; **Central Services** serve only the Union and are not a violation – it is the **All India Services** (Art. 312) that Laxmikanth says "violate the principle of federalism".
 - **Not violative of federalism:** the **three-List division** and **residuary power with Parliament** (Canadian model); President taking over a State under emergency **is** violative.
 - Unitary features in a code: **Appointment of Governor, All India Services, President's approval on State Bills, constitutional crisis (emergency)**; written/rigid Constitution, supremacy, decentralisation are federal.
+- **Governor** is appointed by the President (**Arts 155-156**); **All India Services** (**Art. 312**) are recruited through the **UPSC** and controlled by the Centre (Art. 312 has nothing to do with the Concurrent List).
 - **Constitutional amendment affecting the federal structure** needs ratification by **at least half the States** (Art. 368(2) proviso).
 # Borrowed features linked to federalism
 | Feature | Source |
@@ -127,7 +129,7 @@
 - The **Preamble** does **not** describe India as federal, unitary or quasi-federal – it says "**Sovereign Socialist Secular Democratic Republic**".
 - India **is** a federal system with a very strong Centre: "federalism is not practical" or "India is not a Union" are false assertions.
 > Harold Laski and Lord Bryce have no label for Indian federalism – pure distractors. "Centralising tendency" = Jennings, not Wheare.
-~~ Sources: Laxmikanth Indian Polity 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.218-219 (critical evaluation), p.30 (elephantine size); NextGen Polity - APPSC Exams (full text, src/polity/nextgen-polity-full.txt) p.159, p.163; app notes 2:46 sub 3
+~~ Sources: Laxmikanth Indian Polity 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.218-219 (critical evaluation), ch. Salient Features (elephantine size); NextGen Polity - APPSC Exams (full text, src/polity/nextgen-polity-full.txt) p.159, p.163; app notes 2:46 sub 3
 === India – a "Union of States" (Article 1)
 - **Art. 1(1):** "**India, that is Bharat, shall be a Union of States**" – the Constitution's names for the country are **India and Bharat** only (not Hindustan, Bharatvarsh).
 - The word "**Federation**" is **nowhere** used in the Constitution; India is described neither as a federation nor as a confederation.
@@ -189,7 +191,7 @@
 | 250 | During National Emergency Parliament legislates on the State List; laws lapse **6 months** after it ends |
 | 252 | **Two or more States** request Parliament to legislate |
 | 253 | Laws to implement **international agreements** |
-| 354 | President may **modify revenue distribution** during a National Emergency |
+| 354 | President may **modify revenue distribution** during a National Emergency – the order lasts till the **end of the financial year** in which the Emergency ends (not six months) |
 # Emergencies compared
 | Basis | 352 National | 356 President's Rule | 360 Financial |
 |---|---|---|---|
@@ -199,6 +201,7 @@
 | Used | **3 times – 1962, 1971, 1975** | Many times (AP **1973**, Jai Andhra) | **Never** |
 - **44th Amendment (1978):** Cabinet's **written advice**; **1/10th** of Lok Sabha members can seek a sitting to disapprove; **Arts 20-21** never suspended; **Art. 19** suspended automatically only in war/external aggression; **38th Amendment** had barred judicial review.
 - During a National Emergency Parliament can extend the **Lok Sabha/Assembly term by 1 year at a time**, at most **6 months** after it ends; a proclamation survives **30 days** after a new Lok Sabha's first sitting if the old one was dissolved.
+- **Only a National Emergency** affects Fundamental Rights; President's Rule and Financial Emergency do not.
 - **Financial Emergency:** financial directions, **salary cuts** (incl. judges), State **Money Bills reserved** for the President.
 - **1975 Emergency:** 25 June 1975 – **Samvidhan Hatya Diwas (25 June)**; withdrawn **21 March 1977**.
 ~~ Sources: Laxmikanth Indian Polity 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.216-217 (emergency as unitary feature), ch. Emergency Provisions; Constitution of India Arts 249-253, 352-360; app notes 2:46 sub 7
@@ -213,6 +216,7 @@
 - **Judicial review** (incl. of **executive orders**) reinforces the federal principle; it does not question policy wisdom.
 # Representation and amendment
 - Rajya Sabha seats: **Fourth Schedule**, by population (**UP 31**); US Senate **2 per State**.
+- Parliamentary form: Council of Ministers **collectively responsible to the Lok Sabha** (Art. 75(3)); the Constitution is **neither wholly rigid nor wholly flexible**.
 - **Article 368** is in **Part XX**; federal provisions need ratification by **half the State Legislatures**.
 - **India vs USA:** India – single citizenship, integrated judiciary, three Lists, residue with Centre; USA – dual citizenship, dual courts, residue with States; both have a written Constitution, division of powers and a federal Supreme Court.
 # Asymmetric federalism
