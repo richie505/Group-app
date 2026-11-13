@@ -143,6 +143,7 @@
 | Agriculture | Neglected → food shortages |
 | Employment | **Capital-intensive** industry → few jobs |
 | Prices | High inflation by the late 1950s |
+# Eleventh vs Twelfth Plan
 | Feature | Eleventh (2007-12) | Twelfth (2012-17) |
 |---|---|---|
 | GDP target | 9% (10% by end) | 9% → 8% |

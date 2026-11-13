@@ -1,32 +1,3 @@
-=== Hiuen Tsang (Xuanzang) – Journey, Si-Yu-Ki and Observations
-# Profile
-- Chinese Buddhist monk, the "**Prince of Pilgrims**"; visited India in **Harsha's** reign (SSC 2019; UPPCS 2012; State PSC) – **Fa-Hien** came under **Chandragupta II** (so "Fa-Hien under Harsha, Hiuen Tsang under Chandragupta II" are both wrong).
-- Left **Changan** (Tang capital) in **629**; emperor **Taizong** had banned foreign travel, so he went **on his own** by the Silk Route – **no one sent him as an emissary** (UPPCS 2007); back in China in **645**, about **16 years** later.
-- At Harsha's court **631**; studied at **Nalanda** under **Silabhadra** (Yogashastra) and taught there.
-- His record = **Si-Yu-Ki** ("Records of the Western World") (UPPCS 2016) – the main reason he is remembered (RAS 1992). Not Fa-Hien, Al-Biruni or Megasthenes.
-- Praised **Harsha**, **Pulakesin II** and Pallava **Narasimhavarman I**.
-| Pilgrim | Period |
-|---|---|
-| Fa-Hien | Chandragupta II |
-| **Hiuen Tsang** | **Harsha** |
-| **I-Tsing** | Late 7th c.; came by sea via Srivijaya; studied at Nalanda; records **Maharaja Sri Gupta** (the first Gupta) building a temple for Chinese pilgrims |
-# Observations
-| Aspect | Observation |
-|---|---|
-| Law and order | Generally good, but **roads were not safe** – he was robbed (IAS 2013 statement I false) |
-| Punishment | **Ordeals** by water, fire, weighing and **poison** (statement II true) |
-| Tax | Light; **duties at ferries and barrier stations** (statement III true) |
-| Economy | Trade declining; **Mathura famous for cotton cloth**; Thanesar prosperous by trade |
-| Caste, women | Rigid caste, untouchables; position of women declined |
-| Religion | Buddhism declining, Brahmanism rising; he also records **Jain (Nirgrantha)** ascetics |
-# Places described
-| Place | Record |
-|---|---|
-| **Bhinmal** (Pi-lo-mo-lo) | **Gurjara** capital (RAS 2007) |
-| **Sun temple of Multan** | Also described by **Abu Zaid, Al-Masudi, Alberuni**; **Sambapur** pilgrimage = Sun worship (UPPCS 2020: both true) |
-| Kannauj | Premier city of the north |
-~~ Sources: NextGen Indian History APPSC Part 3 p.18, p.26 (Shi-Yu-Ki; praised Harsha, Narasimhavarman, Pulakesin II; studied at Nalanda); Beal, Si-Yu-Ki (Nirgranthas at Vaishali, Pundravardhana, Samatata); https://www.britannica.com/biography/Xuanzang; app notes 1:67 (sub 9)
-
 === Harsha's Works, Banabhatta and Other Court Poets
 # By Harsha vs about Harsha
 | Work | Author | Type |
@@ -71,6 +42,35 @@
 | Brihatsamhita | Varahamihira |
 ~~ Sources: NextGen Indian History APPSC Part 3 p.15-16, p.18, p.20, p.26 (Harshacharita, Kadambari, Harsha's three plays, inscriptions, Gaudavaho); https://en.wikipedia.org/wiki/Banabhatta (Pritikuta on the Sona); app notes 1:67 (sub 4, 5)
 
+=== Hiuen Tsang (Xuanzang) – Journey, Si-Yu-Ki and Observations
+# Profile
+- Chinese Buddhist monk, the "**Prince of Pilgrims**"; visited India in **Harsha's** reign (SSC 2019; UPPCS 2012; State PSC) – **Fa-Hien** came under **Chandragupta II** (so "Fa-Hien under Harsha, Hiuen Tsang under Chandragupta II" are both wrong).
+- Left **Changan** (Tang capital) in **629**; emperor **Taizong** had banned foreign travel, so he went **on his own** by the Silk Route – **no one sent him as an emissary** (UPPCS 2007); back in China in **645**, about **16 years** later.
+- At Harsha's court **631**; studied at **Nalanda** under **Silabhadra** (Yogashastra) and taught there.
+- His record = **Si-Yu-Ki** ("Records of the Western World") (UPPCS 2016) – the main reason he is remembered (RAS 1992). Not Fa-Hien, Al-Biruni or Megasthenes.
+- Praised **Harsha**, **Pulakesin II** and Pallava **Narasimhavarman I**.
+| Pilgrim | Period |
+|---|---|
+| Fa-Hien | Chandragupta II |
+| **Hiuen Tsang** | **Harsha** |
+| **I-Tsing** | Late 7th c.; came by sea via Srivijaya; studied at Nalanda; records **Maharaja Sri Gupta** (the first Gupta) building a temple for Chinese pilgrims |
+# Observations
+| Aspect | Observation |
+|---|---|
+| Law and order | Generally good, but **roads were not safe** – he was robbed (IAS 2013 statement I false) |
+| Punishment | **Ordeals** by water, fire, weighing and **poison** (statement II true) |
+| Tax | Light; **duties at ferries and barrier stations** (statement III true) |
+| Economy | Trade declining; **Mathura famous for cotton cloth**; Thanesar prosperous by trade |
+| Caste, women | Rigid caste, untouchables; position of women declined |
+| Religion | Buddhism declining, Brahmanism rising; he also records **Jain (Nirgrantha)** ascetics |
+# Places described
+| Place | Record |
+|---|---|
+| **Bhinmal** (Pi-lo-mo-lo) | **Gurjara** capital (RAS 2007) |
+| **Sun temple of Multan** | Also described by **Abu Zaid, Al-Masudi, Alberuni**; **Sambapur** pilgrimage = Sun worship (UPPCS 2020: both true) |
+| Kannauj | Premier city of the north |
+~~ Sources: NextGen Indian History APPSC Part 3 p.18, p.26 (Shi-Yu-Ki; praised Harsha, Narasimhavarman, Pulakesin II; studied at Nalanda); Beal, Si-Yu-Ki (Nirgranthas at Vaishali, Pundravardhana, Samatata); https://www.britannica.com/biography/Xuanzang; app notes 1:67 (sub 9)
+
 === Harsha – Dynasty, Family, Rivals and Capital
 # Pushyabhuti (Vardhana) dynasty
 - Founded at **Thanesar (Sthanvishvara)** by **Pushyabhuti** per Bana's Harshacharita (State PSC); NextGen names **Naravardhana** as the first historical king.
@@ -99,20 +99,6 @@
 | 647 | Death without heir |
 ~~ Sources: NextGen Indian History APPSC Part 3 p.16-18 (family, Sasanka, Devagupta, Pulakesin II, Kannauj capital, Siladitya); app notes 1:67 (sub 1-3)
 
-=== Kannauj and Prayag Assemblies; Harsha's Religion
-| Point | Kannauj assembly | Prayag assembly (Maha Moksha Parishad) |
-|---|---|---|
-| When | **643**, one-time | **Every five years** |
-| Place | Kannauj | **Ganga-Yamuna Sangam, Prayag** |
-| Purpose | Honour **Hiuen Tsang**; show the excellence of **Mahayana** | **Charity** – the treasury given away |
-| Attendance | **20 kings**, 1000 Nalanda scholars, Hinayanists, Mahayanists, Brahmins, Jains | All sects |
-| Events | **23 days**; arson; attempt on Harsha's life | Hiuen Tsang at the **sixth**; **Buddha, Sun and Shiva** honoured on successive days |
-- Harsha's two great religious conventions = **Kannauj and Prayaga** (UP UDA 2001); the UP place of his great convention among the options = **Prayag** (State PSC).
-- UPSC 2001 A-R: **A true** (he convened the Prayag assembly), **R false** – Prayag was not to popularise **only** Mahayana.
-# Religion
-- **Saiva → Hinayana → Mahayana** (influence of Rajyashri and Hiuen Tsang); **banned animal food**; still patronised Brahmanical scholars; last great Buddhist patron-king of the north before the **Rajput** states.
-~~ Sources: NextGen Indian History APPSC Part 3 p.19 (Kanauj assembly, Allahabad conference every five years); app notes 1:67 (sub 6)
-
 === Vakatakas
 - Rose in the **Deccan** after the weakening of the **Satavahanas**; founder **Vindhyashakti** (3rd c.); **Pravarasena I** was his **son** (CGPSC 2021: only statement (i) true).
 - Order: **Satavahanas → Vakatakas → Chalukyas** (JPSC 2021).
@@ -128,6 +114,27 @@
 - AP angle: **Indra Varma**, founder of the **Vishnukundins**, began as a **Vakataka** vassal.
 ~~ Sources: NextGen Indian History APPSC Part 3 p.4, p.7 (Prabhavati married Rudrasena II; Vakataka empire centralised); app notes 1:67 (sub 0)
 
+=== Post-Gupta Kingdoms – Maukharis and Maitrakas
+- **Maukharis**: Gupta feudatories from **Gaya**; capital **Kannauj** (CGPSC 2011) – Thanesar was the Pushyabhuti capital, Purushapura the Kushana.
+- **Maitrakas** of **Valabhi** ruled **Gujarat and Saurashtra** after the Guptas (APPSC ASO).
+- Later Guptas in Magadha; Pushyabhutis of Thanesar moved to Kannauj.
+- **Hundi** in post-Harsha sources = a **bill of exchange** (UPSC 2020).
+~~ Sources: NextGen Indian History APPSC Part 3 p.6 (Later Guptas, Maukharis, Maitrakas, Pushyabhutis); app notes 1:67 (sub 1)
+
+=== Kannauj and Prayag Assemblies; Harsha's Religion
+| Point | Kannauj assembly | Prayag assembly (Maha Moksha Parishad) |
+|---|---|---|
+| When | **643**, one-time | **Every five years** |
+| Place | Kannauj | **Ganga-Yamuna Sangam, Prayag** |
+| Purpose | Honour **Hiuen Tsang**; show the excellence of **Mahayana** | **Charity** – the treasury given away |
+| Attendance | **20 kings**, 1000 Nalanda scholars, Hinayanists, Mahayanists, Brahmins, Jains | All sects |
+| Events | **23 days**; arson; attempt on Harsha's life | Hiuen Tsang at the **sixth**; **Buddha, Sun and Shiva** honoured on successive days |
+- Harsha's two great religious conventions = **Kannauj and Prayaga** (UP UDA 2001); the UP place of his great convention among the options = **Prayag** (State PSC).
+- UPSC 2001 A-R: **A true** (he convened the Prayag assembly), **R false** – Prayag was not to popularise **only** Mahayana.
+# Religion
+- **Saiva → Hinayana → Mahayana** (influence of Rajyashri and Hiuen Tsang); **banned animal food**; still patronised Brahmanical scholars; last great Buddhist patron-king of the north before the **Rajput** states.
+~~ Sources: NextGen Indian History APPSC Part 3 p.19 (Kanauj assembly, Allahabad conference every five years); app notes 1:67 (sub 6)
+
 === Nalanda in Harsha's Time
 | Point | Fact |
 |---|---|
@@ -140,13 +147,6 @@
 - **Hiuen Tsang studied at Nalanda** (UPPCS 1995) – not Taxila or Vikramashila.
 - Harsha was a **patron**, not founder or head; built a multi-storey monastery.
 ~~ Sources: NextGen Indian History APPSC Part 3 p.20 (Nalanda founded by Kumaragupta I; Silabhadra; 100–200 villages; Sanskrit medium); app notes 1:67 (sub 8)
-
-=== Post-Gupta Kingdoms – Maukharis and Maitrakas
-- **Maukharis**: Gupta feudatories from **Gaya**; capital **Kannauj** (CGPSC 2011) – Thanesar was the Pushyabhuti capital, Purushapura the Kushana.
-- **Maitrakas** of **Valabhi** ruled **Gujarat and Saurashtra** after the Guptas (APPSC ASO).
-- Later Guptas in Magadha; Pushyabhutis of Thanesar moved to Kannauj.
-- **Hundi** in post-Harsha sources = a **bill of exchange** (UPSC 2020).
-~~ Sources: NextGen Indian History APPSC Part 3 p.6 (Later Guptas, Maukharis, Maitrakas, Pushyabhutis); app notes 1:67 (sub 1)
 
 === Harsha's Administration
 - Revenue in **four parts**: king's use, **scholars**, public servants, religious purposes.
