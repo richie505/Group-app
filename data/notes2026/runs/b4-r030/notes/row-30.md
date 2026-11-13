@@ -211,6 +211,7 @@
 | Origin | **Biotic** (plants, animals, micro-organisms) vs **abiotic** (land, water, minerals) |
 | Exhaustibility | Renewable (forests, water, wildlife) vs non-renewable (fossil fuels, minerals) |
 | Development | Potential; developed; **stock** (technology lacking – hydrogen from water); **reserve** (usable now, part of stock) |
+# Resource Depletion
 | Resource | Cause of depletion (APPSC 2025) |
 |---|---|
 | Groundwater | **Deep bore tubewells** for irrigation |
