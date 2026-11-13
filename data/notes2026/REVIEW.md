@@ -144,3 +144,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y273f9bcaa15 Bonded Labour Act → 1976; y72e94276371 culture "man-made part of environment" = Herskovits → "None of the above".
 - yd07a5973560 (G2 Mains 2025) Supriyo Chakraborty "both right" kept — uneasy with Art 21 choice of partner.
 - yabb6264f225 Art 226: "All" → alternative efficacious remedy.
+
+## b1-r012 Vedic age (82 PYQs, 5 changed, 5 disputes, 1 option added, 2 outdated)
+- y280a82fafb5 IAS 1999 pairs garbled → no key. y6013667c7a1 MGNREGA cattle shelters → option added "None of these"; MGNREGA → VB-G RAM G (gazette not checked).
+- Old notes error fixed: Indus people did not "believe in Spirit and Brahma".
+- Own MCQ fc33477e9f541 "3 Rigvedic hymns to Vishnu" (NextGen) — strictly 5-6.
