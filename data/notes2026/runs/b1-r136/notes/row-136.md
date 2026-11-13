@@ -1,0 +1,70 @@
+=== Position of Women – Royal Women, Purdah and Property
+| Royal woman | Exam fact |
+|---|---|
+| **Gulbadan Begum** | Babur's daughter (Humayun's sister); wrote the **Humayun-nama** – the woman who wrote a historical record of the period (UPPCS 1998) |
+| **Maham Anga** | Akbar's foster-mother; built the **Khair-ul-Manazil** mosque-madrasa opposite the Purana Qila, Delhi (1561), known as the **Madarsa-e-Begum** (UPPSC 2012, 2018) – not Gulbadan or Zinat-un-nisa |
+| **Nur Jahan** | Married Jahangir **1611**; Padshah Begum; the only empress whose name appeared on **coins** and farmans; built **Itimad-ud-Daula's tomb**, Agra |
+| **Jahanara** | Shah Jahan's daughter, Padshah Begum; built the **Jama Masjid, Agra** and a sarai at Chandni Chowk |
+| **Zeb-un-Nissa** | Aurangzeb's daughter; poet, pen name **Makhfi** |
+- **Status of women (NextGen):** élite women were educated and some (Nur Jahan, Mumtaz Mahal, Jahanara, Chand Bibi, Tarabai) influenced politics; in general **purdah, child marriage, sati, polygamy** and the ban on widow remarriage lowered their status (Bernier, Tavernier report sati, child marriage, polygamy). Akbar tried to stop **forced sati**.
+- **Purdah:** Muslim women strictly veiled, carried in covered palanquins; Hindu women of the Deccan moved freely (**John Fryer**, *A New Account of East India and Persia*).
+- **Property:** Muslim women – inheritance shares + **mehr** (the dower a Muslim bridegroom pays the bride, APPSC 2000) under sharia; Hindu women – **stridhana**.
+~~ Sources: NextGen Indian History - APPSC 04 p.6 (position of women); NextGen Indian History - APPSC 05 p.14 (Humayun Nama – Gulbadan Begum); PMF Ancient & Medieval 04 p.99 (Khairul Manazil, Maham Anga, 1561); app notes 1:136 (sub 3)
+
+=== Education and Urban Classes
+- **Firangi Mahal, Lucknow** – the Mughal-period madrasa specialised in **Muslim jurisprudence** (UPPCS 2016 ×2) – not Delhi, Sialkot or Hyderabad; **Mulla Nizamuddin** of Sihali founded the **Dars-e-Nizami** curriculum (Tafsir, Hadith, Fiqh).
+- **Urban society** was not merchants and soldiers only: **nagarseths, Marwaris, Bohras, Chettis**, **artisans** (in guilds, state **karkhanas** or private) and professionals – **hakims**, teachers, lawyers, painters, musicians.
+- **Classes (NextGen):** upper – emperor, royal family, nobles; middle – merchants and officials; lower – labourers and servants in mud houses. **Bernier**: Delhi had no real **middle class** – people were very rich or very poor.
+~~ Sources: NextGen Indian History - APPSC 04 p.4 (social classes); app notes 1:136 (sub 4); UPPCS 2016 explanation (Firangi Mahal, Dars-e-Nizami)
+
+=== Court Customs, Festivals and Honours
+| Custom | Fact |
+|---|---|
+| **Khilat** | **Robe of honour**, a garment once worn by the emperor, given to meritorious men (NDA 2018); **sarapa** = "head-to-foot" set of tunic, turban and sash; **padma murassa** = jewelled lotus, only in exceptional cases |
+| **Nauroz** | Persian New Year, a **Zoroastrian** (Parsi) festival (UPPSC 2001) – not Jewish, Mongol or Turkish; made a court festival by Akbar, abolished by Aurangzeb |
+| Jharokha darshan | Emperor showed himself daily at a balcony; begun by **Akbar**, ended by Aurangzeb |
+| Tuladan | Weighing the emperor against gold and goods on his birthday, given to the poor – a **Hindu** custom adopted by Akbar |
+| Sijda / paibos | Prostration / kissing the feet – introduced at the Mughal court by **Akbar** (not Shah Jahan) |
+- Emperors except Aurangzeb celebrated **Dasara, Dipawali, Nauroz and Id** with special durbars (NextGen).
+- **AP angle:** Qutb Shahi Golconda shared **Nauroz** and **Muharram (Peerla Panduga)**.
+~~ Sources: NCERT Themes in Indian History II, ch. 9 "Kings and Chronicles" (khilat, sarapa, padma murassa); Singhania Art & Culture 05 p.37 (Jamshedi Navroz – Parsi/Zoroastrian New Year); NextGen Indian History - APPSC 04 p.5 (festivals); app notes 1:136 (sub 2)
+
+=== Akbar's Social Reforms and Slavery
+| Year | Akbar's measure |
+|---|---|
+| **1562** | Stopped enslavement and forced conversion of **prisoners of war** |
+| **1563** | Abolished the **pilgrim tax** |
+| **1564** | Abolished the **jizya** |
+| 1575 | Built the **Ibadat Khana** |
+- **Social justice (Sachivalayam):** abolition of jizya, public offices open to all on merit (Rajputs and Hindus as mansabdars), discouraging child marriage and allowing widow remarriage, and stopping conversion of prisoners of war – **all four (A, B, C and D)**.
+- Despite the 1562 measure, noble households stayed full of **slaves and large domestic staffs**; **Pelsaert** (Dutch factor) contrasted nobles' luxury with the misery of servants and workmen.
+~~ Sources: PMF Ancient & Medieval 04 p.95-96 (pilgrim tax 1563, jizya 1564, sati); app notes 1:136 (sub 5, 7)
+
+=== Nobility (Umara)
+- **Umara** = top mansabdars; wealthy but **wholly dependent on the emperor's favour**.
+- Cosmopolitan: **Turanis** (Central Asians), **Iranis** (Persians), **Afghans**, **Hindustanis** (Indian Muslims), **Rajputs**, later **Deccanis**.
+| Reign | Shift in nobility |
+|---|---|
+| Babur–Humayun | **Turanis and Iranis** dominated |
+| Akbar | Added **Rajputs and Hindustanis** to balance them |
+| Aurangzeb | Deccanis and Marathas swelled it; Hindu share about **one-third** (M. Athar Ali) |
+~~ Sources: app notes 1:136 (sub 0)
+
+=== Peasantry
+| Category | Meaning |
+|---|---|
+| **Khud-kasht** | Resident peasant cultivating land in **own village** |
+| **Pahi-kasht** | Non-resident cultivator of land in **another village** |
+| **Muzarian** | **Tenants** cultivating land held by others |
+| Raiyats | Peasants – backbone of the economy; bore the land revenue |
+~~ Sources: app notes 1:136 (sub 1)
+
+=== Foreign Travellers on Society
+| Traveller | Post / account |
+|---|---|
+| Bernier | French physician of Dara Shikoh; no middle class; sati |
+| Tavernier | French diamond merchant; sati, child marriage |
+| **Manucci** | Venetian; artilleryman, then **physician**; *Storia do Mogor* |
+| **Pelsaert** | Dutch factor (Jahangir); ***Remonstrantie*** |
+| Peter Mundy | English; famine under Shah Jahan |
+~~ Sources: app notes 1:136 (sub 6)
