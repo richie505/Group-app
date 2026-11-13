@@ -5,7 +5,7 @@
 | State / UT | Seats |
 |---|---|
 | Uttar Pradesh (largest) | **403** |
-| Andhra Pradesh / Telangana | 175 / 119 |
+| Andhra Pradesh / Telangana | 175 / 119 (united AP: **301** in 1956, later 294) |
 | **Himachal Pradesh** | **68** – larger than Arunachal, Manipur, Meghalaya (60 each) |
 | **Meghalaya, Nagaland, Tripura** (also Arunachal, Manipur) | **60** each |
 | **Goa**, Mizoram | **40** each |
@@ -31,6 +31,7 @@
 # Ordinary Bills – Article 197
 - A Bill passed by the Assembly can be held by the Council **not more than three months** on first passage and **one month** on second – the Council can only **interpose delay** (max. 4 months); it cannot permanently block a Bill.
 - **Final authority = the Legislative Assembly**; the Governor has no "final say" on a deadlock.
+- **Demands for grants** are voted **only by the Assembly**; the Council only discusses the budget.
 - **No joint sitting** in a State Legislature (unlike Art. 108 for Parliament).
 - **Bill originating in the Council** and **rejected by the Assembly** → the Bill **ends (dies)**; no joint sitting, no reconsideration, no reference to the Governor.
 | Point | Council's power |
@@ -48,8 +49,10 @@
 | **MLAs** (from among non-members) | **1/3** – not 1/13 |
 | **Graduates** of 3 years' standing | **1/12** |
 | **Teachers** (secondary school and above) of 3 years' standing | **1/12** |
-| **Nominated by the Governor** (literature, science, art, co-operative movement, social service) | **1/6** |
+| **Nominated by the Governor** (literature, science, art, **co-operative movement**, social service – co-operative movement is not a Rajya Sabha field) | **1/6** |
 - **Industrialists** are **not** a category. "1/13 elected by the Legislative Assembly" is the **wrong** statement (it is one-third).
+- Elections to the Council: **proportional representation by the single transferable vote**.
+- **Muthulakshmi Reddy** – India's first woman legislator (Madras Legislative Council).
 - **Article 171** = composition of the **Vidhan Parishad** (Art. 169 = creation / abolition; Art. 170 = Assembly).
 # Size
 - **Maximum one-third** of the Assembly's total membership (not one-half, two-thirds or one-fourth); **minimum 40** (not 44, 52 or 65). Parliament fixes the actual strength.
@@ -64,9 +67,10 @@
 - **Article 169** (not 167, 168, 170, 171, 368 or 162): **Parliament** may by law **abolish** a Council or **create** one.
 - **Step 1 – Assembly resolution by special majority:** a majority of the **total membership** and **two-thirds of members present and voting** (not a simple majority; not the Lok Sabha).
 - **Step 2 – Parliament** passes the law by a **simple majority**; it is **not deemed an amendment** under **Art. 368**.
-- The resolution is **recommendatory** – it **does not impose an obligation on the Union** (Parliament) to legislate. The **Governor has no role**.
+- The resolution is **recommendatory** – it **does not impose an obligation on the Union** (Parliament) to legislate. The **Governor has no role** (nor the Speaker).
 - Statements (NTR University): A – Art. 169 deals with creation/abolition ✓; B – resolution by **simple** majority ✗; C – Art. 171: not more than 1/3, not less than 40 ✓ → **A and C**.
 - **AP, January 2020:** the Assembly passed the resolution to abolish the Council under **Article 169(1)**; it was **withdrawn in November 2021**.
+- **AP Council history:** created 1958, **abolished 1985** (NTR), **revived 2007**; strength **50** under the AP Reorganisation Act 2014, **58** since the 2015 Amendment; Telangana **40**.
 > "Parliament ratifies the resolution passed by the Assembly with special majority" is the best of the loose options; Parliament itself needs only a simple majority.
 ~~ Sources: NextGen Polity - APPSC Exams p.300-301; Laxmikanth Indian Polity 8th ed. ch.33 (src/polity/laxmikanth-indian-polity-02.txt p.28-29); app notes 2:41 (sub 5, 7)
 
@@ -81,6 +85,7 @@
 | **Telangana** – smallest | **40** |
 - **Six States** have a Council (2026): AP, Telangana, Bihar, Maharashtra, Karnataka, UP. In **2019 (before 31 October)** there were **seven** – J&K's Council was abolished by the **J&K Reorganisation Act, 2019**.
 - **No Council:** Arunachal Pradesh, Gujarat, **Rajasthan**, **Kerala**, Tamil Nadu (abolished 1986), West Bengal (abolished 1969), Punjab (abolished 1970).
+- **Telangana (2026):** Council Chairman **Gutha Sukender Reddy**; Assembly Speaker **Gaddam Prasad Kumar**.
 - **1956:** after the 7th Amendment, Art. 168 provided Councils for **8 States** – Bihar, Bombay, Madhya Pradesh (never set up), Madras, Mysore, Punjab, Uttar Pradesh, West Bengal; AP's Council came in 1958 (Legislative Councils Act, 1957).
 ~~ Sources: NextGen Polity - APPSC Exams p.300; Laxmikanth Indian Polity 8th ed. ch.33 (src/polity/laxmikanth-indian-polity-02.txt p.28); Constitution (Seventh Amendment) Act 1956 s.8 (Art. 168); app notes 2:41 (sub 6)
 
@@ -92,6 +97,7 @@
 - **On dissolution** the Speaker **does not vacate** office; he continues until just before the **first meeting of the new Assembly**.
 - **Vote:** only a **casting vote in a tie** (**Art. 189**); during a resolution for his removal he **does not preside** but may speak and **vote in the first instance** (**Art. 181**).
 - Decides **Money Bill** certification (Art. 199(3)) and **Tenth Schedule** defection (subject to judicial review, Kihoto Hollohan 1992).
+- **K. Pratibha Bharati** – first woman Speaker of the AP Assembly (1999-2004).
 - **Immunity (Art. 194(2)):** no member is liable in any court for anything said or any vote given in the Legislature.
 # Chairman of the Council – Article 182
 - **Elected by the Council** from its members (not nominated by the Governor); resigns to the Deputy Chairman.
@@ -113,6 +119,8 @@
 | 211 / 212 / 213 | No discussion of a HC judge's conduct / courts barred / Ordinances |
 - **Art. 208(2):** until a House makes its rules, the **pre-1950 provincial rules** apply with changes made by the Speaker / Chairman – **not** the Lok Sabha rules.
 - **Order of proceedings (MP Assembly):** **oath or affirmation → Governor's address → introduction of Ministers → mention of death** (3, 2, 4, 1).
+- **Art. 210:** language of business = the State's official language, **Hindi or English**.
+- **PRS Annual Review of State Laws 2025 (June 2026):** Assemblies sat on average **24 days** a year.
 - **Rajasthan** Assembly was the first to launch an online **question-answering information system (OASYS)** for MLAs' questions (2010).
 ~~ Sources: NextGen Polity - APPSC Exams p.300-303; Laxmikanth Indian Polity 8th ed. ch.33 (src/polity/laxmikanth-indian-polity-02.txt p.28-55); Constitution of India Art. 176, 208; The Hindu 11 Jan 2010 (Rajasthan online Assembly Q&A system); app notes 2:41 (sub 0, 10)
 
@@ -122,6 +130,8 @@
 | **Art. 191** – office of profit, unsound mind, undischarged insolvent, not a citizen, disqualified by a law of Parliament (RPA 1951) | **Governor** – his decision is **final**, but he acts on the **binding opinion of the Election Commission** (**Art. 192**) |
 | **Tenth Schedule** – defection | **Speaker / Chairman** |
 - So for matters **other than the Tenth Schedule** the final authority is the **Governor** – not the Speaker, the ECI, the State Election Commission, the CM or the High Court.
+- **Art. 190 – vacation of seats:** no one can be a member of **both Houses** (or of two States' legislatures); a resignation takes effect only on the **Speaker's / Chairman's acceptance** (190(3)(b)); **60 days' absence** without permission → seat **vacated** (190(4)) – vacation, not an Art. 191 disqualification.
+- Compare MPs: **Art. 103** – the **President** decides, on the **Election Commission's** binding opinion.
 - **Conviction:** an MLA sentenced to **2 years or more** is disqualified **immediately** (RPA s.8(3); Lily Thomas, 2013).
 ~~ Sources: Laxmikanth Indian Polity 8th ed. ch.33 (src/polity/laxmikanth-indian-polity-02.txt p.32-34); app notes 2:41 (sub 9)
 

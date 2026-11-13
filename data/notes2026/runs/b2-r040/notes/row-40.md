@@ -63,7 +63,7 @@
 | Record | Person |
 |---|---|
 | **First woman CM** of an Indian State | **Sucheta Kripalani** (UP, 1963) – not Nandini Satpathy, Janaki Ramachandran, Jayalalithaa or Shashikala Kakodkar |
-| **First communist government / CM** | **Kerala, 1957 – E.M.S. Namboodiripad** (not West Bengal / Jyoti Basu) |
+| **First communist government / CM**; first **non-Congress** CM | **Kerala, 1957 – E.M.S. Namboodiripad** (not West Bengal / Jyoti Basu) |
 | Woman CM for the **shortest period** | **Janaki Ramachandran** (Tamil Nadu, Jan 1988, about 3 weeks) |
 | Mayawati as UP CM | **Three times by May 2002** (1995, 1997, 3 May 2002); fourth term 2007 |
 - **Nitish Kumar** (Bihar) resigned on 26 July 2017 and was sworn in again within 24 hours (27 July 2017).
