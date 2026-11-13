@@ -32,14 +32,21 @@ wrong "fact" and a wrong "trap". So for EVERY PYQ:
      outdated / contradiction / not in notes.
    - Never keep a key "because the APPSC key says so" when the verified fact says otherwise. If an official key is
      itself disputed, key the verified fact and say "(official key: X)" in the explanation.
-   - Genuinely unresolvable (authorities split, question defective, options all wrong) → `a: -1` and the reason in x.
+   - No printed option is correct but the correct answer is known (e.g. "the 77th Amendment" when only 85th/86th/… are
+     offered; "26 Nov 1949" when only 1950 dates are offered) → do NOT leave it unkeyed and do NOT key the nearest
+     wrong option: write `"add_option": "<the correct answer, in the options' style>"` (no `a`); the app adds it as a
+     new last option, keys it and shows "⚠ Option added: …" above the explanation. Your x says why each printed
+     option is wrong. Same when two printed options are both right only because the stem is loose? No — then key
+     the better one and explain.
+   - Only when even the correct answer cannot be established (authorities split, garbled question) → `a: -1` and the
+     reason in x.
 3. Explanation `x`: 1–3 short sentences — why the key is right, and why the tempting option is wrong. Reuse the notes'
    own wording where the notes state it. No sentence may contradict the key.
 4. Outdated: `outdated: "⚠ Outdated: <what changed> — now <current fact> (<source>)"` and an inline "(now …)" in x.
 5. `source`: the file + page (e.g. "NextGen Polity - APPSC Exams 07 p.12") or URL that settled it.
 
 `keys.jsonl`, one line per PYQ (write in batches of ~20 as you go, so nothing is lost):
-`{"id", "a" (or "at" for k:"f"), "method", "why_generated", "from_notes", "from_notes_src", "x", "outdated",
+`{"id", "a" (or "at" for k:"f", or "add_option"), "method", "why_generated", "from_notes", "from_notes_src", "x", "outdated",
 "source", "changed": true|false, "evidence": ["<each extra source checked when changed or generated>"]}`
 
 The app's own MCQs (ids not starting with "y") in `all-mcqs.json`: you do not re-key them all, but if one's key

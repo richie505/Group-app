@@ -210,7 +210,7 @@ def line_ok(secs, ref):
 
 def read_keys(d):
     keys = {}
-    for f in glob.glob(f"{d}/keys*.jsonl"):
+    for f in sorted(glob.glob(f"{d}/keys*.jsonl")):
         for line in open(f):
             if line.strip():
                 k = json.loads(line)
@@ -241,7 +241,7 @@ def check(jid, quiet=False):
         if q.get("k") == "f":
             if not (k.get("at") or q.get("at")):
                 probs.append(f"{q['id']}: flashcard without answer")
-        elif not (isinstance(k.get("a"), int) and -1 <= k["a"] < len(q["o"])):
+        elif not k.get("add_option") and not (isinstance(k.get("a"), int) and -1 <= k["a"] < len(q["o"])):
             probs.append(f"{q['id']}: bad a {k.get('a')}")
         if not k.get("x", "").strip():
             probs.append(f"{q['id']}: no explanation")
@@ -428,13 +428,26 @@ def apply():
 def set_key(q, k):
     if q.get("k") == "f":
         q["at"] = k.get("at") or q.get("at", "")
+    elif k.get("add_option"):                    # no printed option was right: the correct one is added and keyed
+        opt = k["add_option"].strip()
+        low = [o.strip().lower() for o in q.get("o", [])]
+        if opt.lower() not in low:
+            q["o"] = list(q.get("o", [])) + [opt]
+            low.append(opt.lower())
+        q["a"] = low.index(opt.lower())
+        if q.get("k") == "u":
+            q.pop("k", None)
     elif isinstance(k.get("a"), int) and -1 <= k["a"] < len(q.get("o", [])):
         q["a"] = k["a"]
         if k["a"] >= 0 and q.get("k") == "u":
             q.pop("k", None)
         if k["a"] == -1:
             q["k"] = "u"
-    xx = (k.get("outdated", "").strip() + "\n" if k.get("outdated") else "") + k.get("x", "").strip()
+    tag = ""
+    if k.get("add_option") and q.get("k") != "f":
+        tag = (f"⚠ Option added: the printed options did not include the correct answer"
+               f" ({k['add_option'].strip()}); it is added as option {q['a'] + 1}.\n")
+    xx = tag + (k.get("outdated", "").strip() + "\n" if k.get("outdated") else "") + k.get("x", "").strip()
     if xx.strip():
         q["x"] = xx.strip()
         q.pop("xs", None)

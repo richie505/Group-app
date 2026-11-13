@@ -4,6 +4,7 @@
 - **Most significant feature:** **burnt-brick buildings** – large-scale use of burnt bricks in almost all constructions (BPSC 2018, JPSC 2023). Egypt used mainly dried bricks; no "first true arches", no buildings of worship.
 - **Known for (UK UDA 2003):** town planning, Mohenjodaro and Harappa, agriculture and craft industry (bead, shell, metal factories) → "all of these".
 - **No temples or palaces** clearly found, unlike Mesopotamia and Egypt.
+- Standard bricks, grid, streets and drains point to a **civic authority**; the absence of palaces or temples does **not** disprove it.
 - **Not known:** the **true arch** (only corbelled), and **iron** – IVC is a **Bronze Age** culture; iron came c. 1000 BC (Later Vedic). Pillars (Mohenjodaro assembly hall, 20 pillars), wells, drains and bows-and-arrows were all known.
 # IVC vs Vedic / Aryan
 | Point | IVC (Harappan) | Vedic |
@@ -16,6 +17,19 @@
 - **IVC different from Vedic (UPPCS 2004):** city amenities + pictographic script + no iron → "all of the above".
 > Trap: "the IVC knew iron" is always the false statement.
 ~~ Sources: PMF Ancient & Medieval Part 1 p.83-86, p.101, p.107; NextGen Indian History - APPSC Exams Part 1 p.5, p.7; old app notes row 6
+
+=== Wells, Drainage and Water Management
+| Site | Feature |
+|---|---|
+| **Mohenjodaro** | **About 700 brick wells**, many inside houses → **most wells** (UPPCS 2004) |
+| **Dholavira** | **Water management**: 16 reservoirs, dams, embankments, channels; some **rock-cut** (UPSC 2021, CDS 2012, UPPCS 2010) |
+| Kalibangan | Many houses had their own wells; **wooden drains** |
+| Banawali | **No systematic drainage** |
+| Allahdino (Sindh) | Well irrigation |
+- **Drainage** = the most advanced IVC feature: house drains → sump/cesspit → **covered** street drains (bricks or stone slabs) with **manholes** → **soak pits** or main channels; streets sloped for flow; better than contemporary Mesopotamia and Egypt. Lothal: mud-brick houses but burnt-brick drains.
+- **Dholavira reservoirs:** water from the **Manhar and Mansar** rivulets; huge rock-cut reservoir about **73–79 m long, 7 m deep**; stepwells cut in sandstone = Harappan **rock-cut architecture** (UPPSC 2006).
+> Trap: Dholavira = reservoirs (water harvesting); Mohenjodaro = wells.
+~~ Sources: PMF Ancient & Medieval Part 1 p.85-86, p.102-103; NextGen Indian History - APPSC Exams Part 1 p.14; Rocket Indian History Part 1 p.21-22; old app notes row 6
 
 === Citadel and Lower Town – Dholavira's Three Parts
 | Site | Plan |
@@ -46,19 +60,6 @@
 - **Storeys:** most houses single-storeyed but **staircases** show many had an upper storey. CGPSC 2022 key treats "mostly all houses single storey" as untrue along with "same size of bricks" → **(i) and (ii)**; "main roads ~10 m" is true.
 - **Arch:** Harappans used only the corbelled arch, never the true arch (MPPSC 2009).
 ~~ Sources: PMF Ancient & Medieval Part 1 p.85-86; NextGen Indian History - APPSC Exams Part 1 p.5; Rocket Indian History Part 1 p.19; old app notes row 6
-
-=== Wells, Drainage and Water Management
-| Site | Feature |
-|---|---|
-| **Mohenjodaro** | **About 700 brick wells**, many inside houses → **most wells** (UPPCS 2004) |
-| **Dholavira** | **Water management**: 16 reservoirs, dams, embankments, channels; some **rock-cut** (UPSC 2021, CDS 2012, UPPCS 2010) |
-| Kalibangan | Many houses had their own wells; **wooden drains** |
-| Banawali | **No systematic drainage** |
-| Allahdino (Sindh) | Well irrigation |
-- **Drainage** = the most advanced IVC feature: house drains → sump/cesspit → **covered** street drains (bricks or stone slabs) with **manholes**; streets sloped for flow. Lothal: mud-brick houses but burnt-brick drains.
-- **Dholavira reservoirs:** water from the **Manhar and Mansar** rivulets; huge rock-cut reservoir about **73–79 m long, 7 m deep**; stepwells cut in sandstone = Harappan **rock-cut architecture** (UPPSC 2006).
-> Trap: Dholavira = reservoirs (water harvesting); Mohenjodaro = wells.
-~~ Sources: PMF Ancient & Medieval Part 1 p.85-86, p.102-103; NextGen Indian History - APPSC Exams Part 1 p.14; Rocket Indian History Part 1 p.21-22; old app notes row 6
 
 === The Great Bath
 | Angle | Fact |
@@ -92,14 +93,3 @@
 - **UNESCO 2021**: India's **40th** WHS; **first IVC site in India** on the list.
 ~~ Sources: PMF Ancient & Medieval Part 1 p.102; NextGen Indian History - APPSC Exams Part 1 p.14, p.16; old app notes row 6
 
-=== Number Game
-| Item | Fact |
-|---|---|
-| Brick ratio | 1:2:4 |
-| Harappa granary | 12 rooms (2 × 6) |
-| Kalibangan fire altars | 7 |
-| Dholavira parts / signs / reservoirs | 3 / 10 / 16 |
-| Great Bath depth | 2.4 m |
-| Mohenjodaro wells | ~700 |
-- **Only:** radial streets – Banawali; no citadel – Chanhudaro; three-part city – Dholavira.
-~~ Sources: PMF Ancient & Medieval Part 1 p.84-86; old app notes row 6

@@ -30,6 +30,18 @@
 - S.R. Rao = Lothal; R.S. Bisht = Banawali and Dholavira; J.P. Joshi = Surkotada; A. Ghosh = Kalibangan.
 ~~ Sources: Rocket Indian History Part 1 p.17-25; PMF Ancient & Medieval Part 1 p.82, p.111; NextGen Indian History - APPSC Exams Part 1 p.4; old app notes row 7
 
+=== Not a Harappan Site – Odd-one-out
+| Name | Status |
+|---|---|
+| Sutkagendor (Makran, Baluchistan) | Harappan – westernmost |
+| Surkotada, Desalpur (Kachchh) | Harappan |
+| Kot Diji, Chanhudaro (Sindh) | Harappan (Kot Diji also pre-Harappan) |
+| Rakhigarhi (Hisar) | Harappan |
+| **Sohgaura** (Gorakhpur, UP, on the Rapti) | **NOT Harappan** – Mauryan-era copper plate on famine granaries (UPSC 2019, APPSC G2) |
+| Pataliputra | NOT Harappan |
+> Sohgaura sounds like Surkotada – it is a Mauryan copper-plate site.
+~~ Sources: PMF Ancient & Medieval Part 1 p.79-83; old app notes row 7
+
 === Signature Find → Site
 | Signature find | Site |
 |---|---|
@@ -57,18 +69,6 @@
 - Surkotada horse bones dated c. 2100–1700 BCE; Banawali has pre-, mature and post-Harappan phases.
 > Trap: horse remains = Surkotada, not Lothal; ploughed field = Kalibangan, toy plough = Banawali.
 ~~ Sources: NextGen Indian History - APPSC Exams Part 1 p.11-15; Rocket Indian History Part 1 p.18-27; PMF Ancient & Medieval Part 1 p.72, p.82-83; old app notes row 7
-
-=== Not a Harappan Site – Odd-one-out
-| Name | Status |
-|---|---|
-| Sutkagendor (Makran, Baluchistan) | Harappan – westernmost |
-| Surkotada, Desalpur (Kachchh) | Harappan |
-| Kot Diji, Chanhudaro (Sindh) | Harappan (Kot Diji also pre-Harappan) |
-| Rakhigarhi (Hisar) | Harappan |
-| **Sohgaura** (Gorakhpur, UP, on the Rapti) | **NOT Harappan** – Mauryan-era copper plate on famine granaries (UPSC 2019, APPSC G2) |
-| Pataliputra | NOT Harappan |
-> Sohgaura sounds like Surkotada – it is a Mauryan copper-plate site.
-~~ Sources: PMF Ancient & Medieval Part 1 p.79-83; old app notes row 7
 
 === Largest Sites, UNESCO and Rakhigarhi
 - **Five largest** cities: **Mohenjodaro, Harappa, Ganweriwala, Rakhigarhi, Dholavira**.

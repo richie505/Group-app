@@ -1,0 +1,696 @@
+=== NOTES 4:1 | Earth – Shape, Size, Geoid; Latitudes and Longitudes, the Graticule
+## SUB 0 | Shape of the Earth
+[1:0:0] - **Geoid** = "earth-shaped"; Earth is an **oblate spheroid** (flat at poles, bulging at Equator).
+[1:0:1] - First to say Earth is round: **Aristotle** ("On the Heavens").
+[1:0:2] - Proofs: **circular shadow on the Moon** in a lunar eclipse; mast seen first; circumnavigation.
+[1:0:3] - Weight: **minimum at Equator**, maximum at poles (centrifugal force maximum at Equator).
+[1:0:4] - Surface point nearest the centre: **poles** (Arctic Ocean floor near North Pole).
+[1:0:5] - At the Equator, stars rise **perpendicular** to the horizon.
+## SUB 1 | Dimensions
+[1:1:0] TABLE head: Measure | Value
+  [1:1:0.0] Equatorial diameter | 12,756 km (~12,800)
+  [1:1:0.1] Polar diameter | 12,714 km (~43 km less)
+  [1:1:0.2] Mean radius | 6,371 km
+  [1:1:0.3] Equatorial circumference | ~40,075 km
+  [1:1:0.4] Water : land | 71 : 29 (about two-thirds water)
+## SUB 2 | Graticule
+[1:2:0] - Parallels at 1°: **179** (89 N + 89 S + Equator; poles are points). Meridians: **360**.
+[1:2:1] - Latitudes run **east–west**; valid range 0–90° (longitude 0–180°).
+[1:2:2] - **Great circles**: Equator (only great-circle parallel) and opposite meridian pairs (**180° + Prime Meridian**). **60°N is not** a great circle.
+[1:2:3] - **0°, 0°** = **Gulf of Guinea**, Atlantic Ocean.
+[1:2:4] - 1° latitude ≈ **111 km** everywhere; 1° longitude: 111 km at Equator → **55.5 km at 60°** → 0 at poles.
+[1:2:5] - **Antipode**: (x°N, y°E) → (x°S, (180 − y)°W); **20°N 80°E → 20°S 100°W**.
+[1:2:6] 179 parallels, not 181 (BPSC 2023).
+[1:2:7] - **Meridians:** lines of longitude run north–south, from the North Pole to the South Pole.
+## SUB 3 | Key Lines and Countries
+[1:3:0] TABLE head: Line | Value | Passes through | Does NOT
+  [1:3:0.0] Equator | 0° | 13: Ecuador, Colombia, Brazil, São Tomé and Príncipe, Gabon, Rep. Congo, DR Congo, Uganda, Kenya, Somalia, Maldives, Indonesia, Kiribati | Rwanda, Equatorial Guinea, Mexico
+  [1:3:0.1] Tropic of Cancer | 23.5°N | 17 incl. Mexico, Niger, Egypt, India, China | –
+  [1:3:0.2] Tropic of Capricorn | 23.5°S | Chile, Brazil, South Africa, Australia | –
+  [1:3:0.3] Arctic Circle | 66.5°N | Norway, Sweden, Finland, Russia, Canada | Iceland (just south)
+  [1:3:0.4] Prime Meridian | 0° | UK, France, Spain, Algeria, Mali, Burkina Faso, Togo, Ghana | Niger
+[1:3:1] - Equator, both Tropics cross **Africa**; Equator and Capricorn cross **South America**. Longest north–south land spread: **China**.
+[1:3:2] - Tropics are **47°** apart; noon Sun at Cancer on December solstice = **43°** (90° − 47°).
+[1:3:3] - Tropic of Cancer crosses **8 states**: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram (**not Odisha**).
+## SUB 4 | Firsts and Maps
+[1:4:0] TABLE head: Who / what | Fact
+  [1:4:0.0] Eratosthenes | Father of Geography; first correct circumference; coined "Geography"
+  [1:4:0.1] Hipparchus | First split the circle into 360°
+  [1:4:0.2] Anaximander | First Greek world map
+  [1:4:0.3] Ptolemy | First used latitude and longitude
+  [1:4:0.4] Amundsen | South Pole, 1911 (Peary's North Pole claim doubted)
+  [1:4:0.5] Meridian Conference, 1884 | Prime Meridian at Greenwich
+  [1:4:0.6] Mercator, 1569 | Right-angled graticule, straight rhumb lines, polar areas enlarged
+[1:4:1] - UNGA non-binding resolution (Sep 2026) to replace Mercator with **Equal Earth**: India for, US against; "Correct the Map" backed by **African Union**.
+[1:4:2] - **EOS-05**: first Indian Earth-imaging satellite in geosynchronous orbit (~36,000 km).
+## SUB 5 | India and Andhra Pradesh
+[1:5:0] - North to south: **Srinagar > Bhopal > Visakhapatnam > Hyderabad > Chennai > Kanyakumari** (nearest Equator).
+[1:5:1] TABLE head: Extreme | Point
+  [1:5:1.0] North | Indira Col, Karakoram (Ladakh)
+  [1:5:1.1] South (mainland) | Kanyakumari
+  [1:5:1.2] South (overall) | Indira Point (6°45'N), Great Nicobar – nearest the Equator
+  [1:5:1.3] East | Kibithu, Arunachal (97°25'E)
+  [1:5:1.4] West | Guhar Moti, Kutch (68°7'E)
+  [1:5:1.5]  | India | AP
+  [1:5:1.6] Latitude | 8°4'N – 37°6'N | 12°41'N – 19°07'N
+  [1:5:1.7] Longitude | 68°7'E – 97°25'E | 77°E – 84°40'E
+  [1:5:1.8] Area | 32,87,263 sq km; 3,214 km N-S, 2,933 km E-W | 1,62,970 sq km (~4.96%); 7th largest state
+[1:5:2] - AP: coast **974 km**; districts 13 (2014) → 26 (2022) → **28** (2025); neighbours: Odisha, Chhattisgarh (north), Telangana (west), Karnataka (south-west), Tamil Nadu (south); wholly between Equator and Tropic of Cancer (Aw); **IST meridian** in **Kakinada** district.
+[1:5:3] AP's northern limit is 19°07'N, not 22°N.
+## SUB 6 | Number Game and Quick Revision
+[1:6:0] TABLE head: Item | Fact
+  [1:6:0.0] Parallels / meridians | 179 / 360
+  [1:6:0.1] Diameter gap | ~43 km
+[1:6:1] # FIRST / LAST / SPECIAL FACTS
+[1:6:2] - First round Earth: Aristotle; first circumference: Eratosthenes.
+[1:6:3] - Only great-circle parallel: Equator.
+## SUB 7 | Appsc Previous Year Questions
+[1:7:0] TABLE head: Examination | Question Area
+  [1:7:0.0] Other exams (UPPSC, BPSC) | Lines and countries; parallel count
+## SUB 8 | High-probability Mcq Traps
+[1:8:0] VERY IMPORTANT
+[1:8:1] - 1. **Indira Col** north vs **Indira Point** south.
+[1:8:2] - 2. **Niger** on Tropic of Cancer, not Prime Meridian.
+[1:8:3] - 3. **Iceland** south of the Arctic Circle.
+[1:8:4] - 4. Equator misses **Rwanda**, Equatorial Guinea.
+[1:8:5] - 5. Cancer misses **Odisha**.
+[1:8:6] - 6. Weight least at **Equator**.
+[1:8:7] - 7. AP is **7th** in area.
+
+=== OWN MCQs of 4:1 (68)
+[nead2c6d1626] sub0
+  What does the term 'geoid' mean?
+  Sphere-shaped | Egg-shaped | Flat-disc shaped | *Earth-shaped
+  x: Geoid means 'earth-shaped'; the Earth is an oblate spheroid, flattened at the poles and bulging at the Equator.
+[n089a032c499] sub0
+  Which of the following is evidence of the spherical shape of the Earth?
+  Occurrence of tides | *The Earth's circular shadow on the Moon during a lunar eclipse | Twinkling of stars | Equal day and night at the equinoxes
+  x: The circular lunar-eclipse shadow, like the mast-first view of ships, circumnavigation and satellite images, shows the Earth is spherical.
+[ngeneral-geography-1-13] sub0
+  Where is the weight of an object on the Earth's surface maximum?
+  Equator | Tropic of Cancer | Arctic Circle | *Poles
+  x: Rotation and the equatorial bulge reduce effective gravity at the Equator, so weight is least there and greatest at the poles.
+[fbd8d048bb40c] sub0
+  What is the Earth's shape, flattened at the poles and bulging at the Equator, called?
+  Prolate spheroid | Perfect sphere | *Oblate spheroid | Flat disc
+  x: The Earth is an oblate spheroid, flattened at the poles and bulging at the Equator.
+[f5ee2f43fa4d7] sub0
+  Where does the point on the Earth's surface nearest to its centre lie?
+  Equator | *Poles | Tropic of Cancer | Mount Everest
+  x: Because of polar flattening, the poles (the Arctic Ocean floor near the North Pole) are nearest the centre.
+[n69bf01559c3] sub1
+  What is the approximate ratio of water-covered area to land area on the Earth's surface?
+  80:20 | 50:50 | 29:71 | *71:29
+  x: Approximately 71% of the Earth's surface is covered by water and 29% is land.
+[ngeneral-geography-1-38] sub1
+  What is the approximate equatorial diameter of the Earth?
+  12,656 km | 12,714 km | *12,756 km | 12,856 km
+  x: The Earth's equatorial diameter is about 12,756 km, while the polar diameter is about 12,714 km. The equatorial circumference is about 40,075 km.
+[nc9ee24f1ab9] sub1
+  What is the approximate mean radius of the Earth?
+  6,271 km | *6,371 km | 6,471 km | 6,571 km
+  x: Earth's mean radius is about 6,371 km; the equatorial diameter exceeds the polar diameter by about 43 km.
+[f464c7d543f94] sub1
+  What is the approximate polar diameter of the Earth?
+  *12,714 km | 12,756 km | 12,800 km | 6,371 km
+  x: The polar diameter is about 12,714 km, about 43 km less than the equatorial diameter of 12,756 km.
+[f1bd8725d0dec] sub1
+  By about how much is the Earth's polar diameter shorter than its equatorial diameter?
+  21 km | 111 km | 430 km | *43 km
+  x: The polar diameter (12,714 km) is about 43 km less than the equatorial (12,756 km).
+[f7c9933adbecd] sub1
+  What is the approximate equatorial circumference of the Earth?
+  12,756 km | 36,000 km | *40,075 km | 44,075 km
+  x: The Earth's circumference at the Equator is about 40,075 km.
+[ncf52f2623b1] sub2
+  How many parallels of latitude are conventionally drawn on the globe at 1° interval?
+  181 | *179 | 180 | 360
+  x: There are 89 parallels in each hemisphere plus the Equator, making 179 (the poles are points); there are 360 meridians.
+[ne0e472ec860] sub2
+  Which one of the following is the only great-circle parallel on the Earth?
+  Tropic of Cancer | *Equator | Tropic of Capricorn | Arctic Circle
+  x: The Equator is the only parallel whose plane passes through the centre of the Earth and is therefore a great circle. All other parallels are small circles.
+[n177de5ab099] sub2
+  Where does the point at 0° latitude and 0° longitude lie?
+  Arabian Sea near the Tropic of Cancer | Pacific Ocean near the Equator | *Gulf of Guinea in the Atlantic Ocean | Indian Ocean near the Prime Meridian
+  x: The intersection of the Equator and the Prime Meridian, represented by 0° latitude and 0° longitude, lies in the Gulf of Guinea in the Atlantic Ocean.
+[nbbcaa5f3c93] sub2
+  What is the antipode of the point 20°N, 80°E?
+  80°S, 20°W | *20°S, 100°W | 20°S, 80°W | 20°N, 100°W
+  x: To find the antipode, change north to south and subtract the longitude from 180°. Thus, the antipode of 20°N, 80°E is 20°S, 100°W.
+[n4dcbf55e1b4] sub2
+  About what distance does one degree of longitude at 60° latitude represent?
+  27.7 km | *55.5 km | 83.3 km | 111 km
+  x: Because meridians converge, one degree of longitude is about 111 km at the Equator, 55.5 km at 60° and zero at the poles.
+[f481832c3e84d] sub2
+  Which of the following is NOT a valid latitude?
+  66.5°N | *95°N | 89°S | 23.5°S
+  x: Latitudes range from 0° to 90° north or south, so 95°N cannot exist.
+[f6af5b0b7dfc4] sub2
+  About what distance does one degree of latitude represent?
+  55.5 km | 69 km | 180 km | *111 km
+  x: One degree of latitude is about 111 km everywhere.
+[fc4221b80ed83] sub2
+  What is the antipode of the point 30°N, 60°E?
+  30°S, 60°W | 60°S, 120°W | *30°S, 120°W | 30°N, 120°W
+  x: The antipode of (x°N, y°E) is (x°S, (180 − y)°W), so 30°N 60°E becomes 30°S 120°W.
+[g6d7278a3462b] sub2
+  In which direction do meridians of longitude run?
+  East to west | *North to south | Parallel to the Equator | From the Tropic of Cancer to the Equator
+  x: Meridians run north to south from pole to pole; parallels of latitude run east to west.
+[g1e1593a4781e] sub2
+  Consider the following statements:
+1. Parallels of latitude run east–west.
+2. Latitude values range from 0° to 180°.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Latitudes run east–west and range from 0° to 90°; longitudes range from 0° to 180°.
+[g7d38a3d07a67] sub2
+  How many meridians of longitude are drawn on the globe at 1° interval?
+  179 | 180 | *360 | 361
+  x: There are 360 meridians at 1° interval (180 east and 180 west, with 0° and 180° counted once).
+[gb643125aa877] sub2
+  Which of the following is NOT a valid longitude?
+  179°E | 90°W | *195°E | 0°
+  x: Longitude runs only from 0° to 180° east or west, so 195°E is not valid.
+[n9c7ac7e6435] sub3
+  Which one of the following countries is NOT traversed by the Equator?
+  Kenya | Colombia | Indonesia | *Rwanda
+  x: The Equator passes through Kenya, Colombia and Indonesia. Rwanda is the commonly tested trap (UPPSC 2020): it lies just south of the Equator and is not crossed by it, as is Equatorial Guinea.
+[naa7c94d924c] sub3
+  Which one of the following countries is NOT traversed by the Prime Meridian?
+  *Niger | Burkina Faso | Togo | Ghana
+  x: The Prime Meridian passes through the United Kingdom, France, Spain, Algeria, Mali, Burkina Faso, Togo and Ghana. Niger is not traversed by it.
+[ngeneral-geography-3-43] sub3
+  Which of the following is NOT correct?
+  The Tropics of Cancer and Capricorn are 47° apart | The Tropic of Cancer is 23½° from the Equator | The Arctic Circle lies at 66½°N | *The noon altitude of the Sun at the Tropic of Cancer at the December solstice is 47°
+  x: At the December solstice the noon Sun at the Tropic of Cancer stands at 90° − 47° = 43°, not 47°.
+[ngeneral-geography-2-39] sub3
+  Which of the following pairs is INCORRECTLY matched?
+  Tropic of Cancer – 23.5°N | *Arctic Circle – 23.5°N | Equator – 0° latitude | Tropic of Capricorn – 23.5°S
+  x: The Arctic Circle is at 66.5°N; 23.5°N is the Tropic of Cancer. The other three pairs are correct.
+[n9624215d8b5] sub3
+  The Tropic of Cancer passes through how many Indian States?
+  *Eight | Seven | Nine | Six
+  x: It crosses 8 States: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram (not Odisha).
+[fadddbcf700a9] sub3
+  Which of the following countries lies on the Tropic of Cancer?
+  Ghana | *Niger | Kenya | Chile
+  x: Niger lies on the Tropic of Cancer, not on the Prime Meridian.
+[fb585140df989] sub3
+  Which of the following Indian states is NOT crossed by the Tropic of Cancer?
+  Jharkhand | Tripura | Chhattisgarh | *Odisha
+  x: The Tropic of Cancer crosses eight states, including Jharkhand, Tripura and Chhattisgarh, but not Odisha.
+[fa47e6cf49e1c] sub3
+  Which of the following countries is NOT crossed by the Arctic Circle?
+  Norway | Finland | *Iceland | Sweden
+  x: Iceland lies just south of the Arctic Circle, which crosses Norway, Sweden, Finland, Russia and Canada.
+[fe2482ca7634c] sub3
+  The Tropic of Cancer and the Tropic of Capricorn are how many degrees apart?
+  23.5° | *47° | 43° | 66.5°
+  x: Each Tropic lies at 23.5° from the Equator, so they are 47° apart.
+[f7cc20ee82864] sub3
+  On the December solstice, what is the noon Sun's altitude at the Tropic of Cancer?
+  *43° | 47° | 66.5° | 23.5°
+  x: The Sun is overhead at Capricorn, 47° away, so its noon altitude at Cancer is 90° − 47° = 43°.
+[fc0365d879fc8] sub3
+  Which of the following pairs (line – country it crosses) is INCORRECTLY matched?
+  Equator – Kenya | Tropic of Capricorn – Australia | Arctic Circle – Finland | *Prime Meridian – Niger
+  x: Niger lies on the Tropic of Cancer; the Prime Meridian passes through Ghana, Togo, Burkina Faso and Mali but not Niger.
+[g48236bce0a1a] sub3
+  Through which of the following countries does the Tropic of Capricorn pass?
+  Egypt | Mexico | India | *Australia
+  x: The Tropic of Capricorn (23.5°S) passes through Chile, Brazil, South Africa and Australia; the others lie on the Tropic of Cancer.
+[nc6669dcee95] sub4
+  In which year was the International Meridian Conference held that fixed the Prime Meridian?
+  1851 | *1884 | 1904 | 1947
+  x: The Prime Meridian through Greenwich was fixed at the International Meridian Conference in 1884.
+[nworld-geography-3-1] sub4
+  Who was the first to calculate the Earth's circumference accurately and coin the term “Geography”?
+  Anaximander | Roald Amundsen | *Eratosthenes | Ptolemy
+  x: Eratosthenes measured Earth's circumference and coined the word geography. Anaximander drew the first Greek map and Ptolemy used latitude and longitude.
+[nworld-geography-3-5] sub4
+  Who was the first person to reach the South Pole, in 1911?
+  *Roald Amundsen | Robert Scott | Robert Peary | Ernest Shackleton
+  x: Roald Amundsen reached the South Pole in 1911; Peary's claim to the North Pole is disputed.
+[n7133d251209] sub4
+  In which year did Gerardus Mercator develop the Mercator projection?
+  1492 | *1569 | 1596 | 1659
+  x: The Mercator projection (1569) has right-angled graticule, straight rhumb lines and enlarged polar areas.
+[nfa2801b4223] sub4
+  Who backed the 'Correct the Map' campaign against the Mercator projection?
+  The European Union | The Commonwealth | ASEAN | *The African Union
+  x: The African Union backed 'Correct the Map'; the resulting UNGA resolution was non-binding (India for, US against).
+[nff587fda7bf] sub4
+  EOS-05, India's first Earth-imaging satellite in geosynchronous orbit, orbits about how high above the Earth?
+  600 km | 1,000 km | 20,000 km | *36,000 km
+  x: EOS-05 is in geosynchronous orbit about 36,000 km up, allowing frequent views of the same area.
+[f7580956f850a] sub4
+  Who first used latitude and longitude?
+  Hipparchus | Anaximander | Eratosthenes | *Ptolemy
+  x: Ptolemy first used latitude and longitude; Hipparchus divided the circle into 360°.
+[fbdd57914f2d6] sub4
+  Who is credited with the first Greek world map?
+  Ptolemy | Aristotle | *Anaximander | Mercator
+  x: Anaximander drew the first Greek world map.
+[ff7d679128356] sub4
+  With which projection did the UNGA resolution of 2026 propose replacing the Mercator projection?
+  Robinson projection | *Equal Earth projection | Gall-Peters projection | Winkel Tripel projection
+  x: The non-binding UNGA resolution (September 2026) proposed the Equal Earth projection in place of Mercator.
+[g2af791ce0a30] sub4
+  Hipparchus is remembered in geography for which of the following?
+  *Dividing the circle into 360 degrees | Coining the term 'Geography' | Drawing the first Greek world map | First using latitude and longitude
+  x: Hipparchus first divided the circle into 360 degrees.
+[g8bc48645f94c] sub4
+  Match the following:
+List-I (Person)
+A. Eratosthenes
+B. Hipparchus
+C. Anaximander
+D. Ptolemy
+List-II (Contribution)
+1. First Greek world map
+2. First use of latitude and longitude
+3. First correct measure of the Earth's circumference
+4. Division of the circle into 360 degrees
+Select the correct answer using the code given below:
+  A-4, B-3, C-1, D-2 | A-3, B-4, C-2, D-1 | *A-3, B-4, C-1, D-2 | A-1, B-2, C-3, D-4
+  x: Eratosthenes measured the circumference, Hipparchus made 360 degrees, Anaximander drew the first Greek map, Ptolemy used latitude and longitude.
+[g80dca5636966] sub4
+  Which map projection, made in 1569, shows rhumb lines as straight lines but greatly enlarges the polar areas?
+  Equal Earth projection | *Mercator projection | Polar zenithal projection | Conical projection
+  x: Mercator's 1569 projection has a right-angled graticule and straight rhumb lines, but polar areas look much larger.
+[n741ada9410f] sub5
+  Which is India's nearest point to the Equator?
+  Kanyakumari | *Indira Point | Rameswaram | Indira Col
+  x: The Equator does not touch India; Indira Point, at 6°45' N, is India's nearest point to it.
+[naedfafa8bfc] sub5
+  Which is the easternmost point of India?
+  Guhar Moti | Indira Point | *Kibithu | Kanyakumari
+  x: Kibithu in Arunachal Pradesh is India's easternmost point; Guhar Moti in Gujarat is the westernmost.
+[n948552c0de3] sub5
+  Andhra Pradesh lies wholly between the Equator and the Tropic of Cancer. Which type of tropical climate does it have?
+  Am | Cwg | BSh | *Aw
+  x: Andhra Pradesh is described as having a tropical Aw climate.
+[nc141ac3da7c] sub5
+  Which of the following cities lies farthest south?
+  Bhopal | Visakhapatnam | *Chennai | Srinagar
+  x: From north to south the order is Srinagar, Bhopal, Visakhapatnam and Chennai, so Chennai is farthest south.
+[n2a8839ea633] sub5
+  Which is the northernmost point of India?
+  *Indira Col | Indira Point | Kibithu | Guhar Moti
+  x: Indira Col in the Karakoram is India's northern extreme; Indira Point is the southernmost, Kibithu the easternmost and Guhar Moti the westernmost point.
+[ncc2d16fe793] sub5
+  What is the approximate north-south extent of India?
+  2,500 km | 2,933 km | *3,214 km | 3,500 km
+  x: India measures about 3,214 km north-south and 2,933 km east-west, with an area of about 32,87,263 sq km.
+[n9a975f7aaf9] sub5
+  As of 2025, how many districts does Andhra Pradesh have?
+  13 | 26 | *28 | 30
+  x: AP had 13 districts in 2014, 26 in 2022 and 28 in 2025.
+[nea375b494a5] sub5
+  Which State borders Andhra Pradesh on the south-west?
+  Tamil Nadu | Odisha | Telangana | *Karnataka
+  x: Karnataka lies to the south-west of AP; Tamil Nadu is to the south, Telangana to the west and north-west, and Chhattisgarh and Odisha to the north.
+[n285255da357] sub5
+  What is the approximate length of the coastline of Andhra Pradesh?
+  872 km | *974 km | 1,054 km | 1,214 km
+  x: AP has a coastline of about 974 km and an area of about 1,62,970 sq km (~4.96% of India).
+[n963488d0eab] sub5
+  The Indian Standard Time meridian is associated with which district of Andhra Pradesh?
+  Anantapuramu | Tirupati | Visakhapatnam | *Kakinada
+  x: Kakinada district hosts the meridian associated with Indian Standard Time.
+[f0e9299a89b63] sub5
+  What is the northern limit of Andhra Pradesh's latitude extent?
+  *19°07'N | 22°N | 23.5°N | 17°N
+  x: Andhra Pradesh extends from 12°41'N to 19°07'N, not to 22°N.
+[f9aebaaca43b9] sub5
+  What is the longitudinal extent of Andhra Pradesh?
+  68°7'E – 97°25'E | 74°E – 80°E | 80°E – 88°E | *77°E – 84°40'E
+  x: Andhra Pradesh lies between 77°E and 84°40'E.
+[fc7d0611ef60f] sub5
+  What is the rank of Andhra Pradesh among Indian states in area?
+  4th | 8th | *7th | 10th
+  x: Andhra Pradesh, with 1,62,970 sq km (~4.96% of India), is the 7th largest state.
+[fe33b06245e38] sub5
+  Which of the following cities lies farthest north?
+  *Visakhapatnam | Hyderabad | Chennai | Kanyakumari
+  x: From north to south the order is Visakhapatnam, Hyderabad, Chennai and Kanyakumari.
+[ff0b84e120bfb] sub5
+  Consider the following statements about Andhra Pradesh:
+1. Its coastline is about 974 km long.
+2. It lies wholly between the Equator and the Tropic of Cancer.
+3. Its northern limit is about 22°N.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: AP has a 974 km coast and lies wholly between the Equator and the Tropic of Cancer; its northern limit is 19°07'N, not 22°N.
+[g3aba26974347] sub5
+  What is the latitudinal extent of India?
+  6°45'N – 35°6'N | *8°4'N – 37°6'N | 12°41'N – 19°07'N | 68°7'N – 97°25'N
+  x: Mainland India extends from 8°4'N to 37°6'N.
+[g8f4317fc903e] sub5
+  What is the approximate east-west extent of India?
+  *2,933 km | 3,214 km | 2,500 km | 3,500 km
+  x: India stretches about 2,933 km from east to west and 3,214 km from north to south.
+[gfc986d632d1f] sub5
+  What share of India's area does Andhra Pradesh have?
+  About 2.5% | *About 4.96% | About 7% | About 9.5%
+  x: Andhra Pradesh covers 1,62,970 sq km, about 4.96% of India's area.
+[g0bcbde55d2ba] sub5
+  What is the total area of India?
+  *32,87,263 sq km | 31,66,414 sq km | 33,28,048 sq km | 29,73,190 sq km
+  x: India's area is 32,87,263 sq km.
+[gabdb7738f5dd] sub5
+  What is the area of Andhra Pradesh?
+  1,30,060 sq km | *1,62,970 sq km | 1,12,077 sq km | 1,91,791 sq km
+  x: Andhra Pradesh covers 1,62,970 sq km, about 4.96% of India, and is the 7th largest state.
+[g66f563c33cb3] sub5
+  Into how many districts was Andhra Pradesh reorganised in 2022?
+  13 | *26 | 28 | 33
+  x: AP had 13 districts in 2014, 26 after the 2022 reorganisation and 28 by 2025.
+
+=== NOTES 4:2 | Motions of the Earth – Rotation and Revolution; Effects (day and Night, Coriolis Force, Tides)
+## SUB 0 | Rotation
+[2:0:0] - Earth spins on its **axis** (line through both poles) **west to east** – counter-clockwise seen from the North Pole. Only **Venus and Uranus** spin the other way.
+[2:0:1] - Axis tilted **23.5° (23°30')** from the ecliptic axis.
+[2:0:2] - Angular speed **15° per hour** (1° in 4 minutes). Linear speed ~**1,670 km/h at the Equator**, **zero at the poles**.
+[2:0:3] - Not felt: uniform motion; atmosphere moves along.
+[2:0:4] # Sidereal vs Solar Day
+[2:0:5] TABLE head: Day | Measured against | Length
+  [2:0:5.0] Sidereal | A distant star | 23 h 56 min 4 s
+  [2:0:5.1] Solar | The Sun | 24 h (~4 min longer, as Earth also moves in orbit)
+[2:0:6] # Changes in Rotation
+[2:0:7] - Ice melt moves mass towards the Equator, raising the moment of inertia: days longer by **~1.33 ms per century**.
+[2:0:8] - Axis shift is mainly from mass redistribution (ice, groundwater loss) – **UPSC 2025**; solar flares only disturb the upper atmosphere.
+## SUB 1 | Evidence of Rotation
+[2:1:0] TABLE head: Person / proof | Fact
+  [2:1:0.0] Aryabhata | First proposed rotation; explained the Sun's daily rise and set (Aryasiddhanta)
+  [2:1:0.1] Foucault pendulum | Paris, 1851: plane of swing slowly turns
+  [2:1:0.2] Other proofs | Coriolis, equatorial bulge, apparent sky motion
+## SUB 2 | Day and Night
+[2:2:0] - Caused by **rotation** – not revolution, not tilt alone.
+[2:2:1] - **Circle of illumination** = terminator = "**grey line**" / twilight zone (**APPSC 2019**); passes through both poles **only at the equinoxes**.
+[2:2:2] - Unequal day lengths: **tilt + revolution**.
+[2:2:3] - **Equator**: ~12 h day all year; seasons marked by wet and dry periods. Variation grows with latitude; **poles: ~6 months day + 6 months night** (revolution with tilt).
+[2:2:4] - **Midnight Sun**: beyond the Arctic and Antarctic Circles near the summer solstice; **Norway** = "Land of the Midnight Sun".
+[2:2:5] # Twilight
+[2:2:6] - **Shortest at Equator** (Sun rises and sets almost vertically); **longest at high latitudes** (oblique path; weeks near poles).
+## SUB 3 | Coriolis and Centrifugal Effects
+[2:3:0] - **Coriolis** = apparent deflection of moving air/water caused by **rotation** (APPSC-G1 2019; BPSC 2022).
+[2:3:1] - **Ferrel's law**: deflection to the **right in NH**, **left in SH**.
+[2:3:2] - Force = **2Ωv sin(latitude)**: **zero at Equator**, maximum at poles; grows with latitude and wind speed (UPSC 2024).
+[2:3:3] - Cyclones rarely form within **5° of the Equator**; NH cyclones spin **anticlockwise**.
+[2:3:4] - AP angle: **Cyclone Montha (2025)** was pushed north-northwest (steering winds, trade winds, Coriolis) to the **Kakinada** coast.
+[2:3:5] - **Centrifugal force**: maximum at Equator, zero at poles → equatorial bulge, polar flattening (**oblate spheroid**); **weight least at Equator**.
+## SUB 4 | Tides
+[2:4:0] TABLE head: Tide | Position
+  [2:4:0.0] Spring | Sun–Earth–Moon in line (new and full moon)
+  [2:4:0.1] Neap | Sun and Moon at right angles (~7 days later)
+[2:4:1] - Each twice a month. Two high, two low tides daily (~**12 h 25 min** apart).
+[2:4:2] - High tide comes **~52 min later** each day (lunar day 24 h 52 min): 8:00 am → 8:52 am.
+## SUB 5 | Revolution and Leap Year
+[2:5:0] - Slightly **elliptical** orbit; period **365.25 days** (365 d 6 h 9 min 9.51 s); mean speed **29.78 km/s**.
+[2:5:1] - Perihelion early January (**3 Jan in 2026**); aphelion early July (**6 July in 2026**). Earth–Sun distance is not constant.
+[2:5:2] - **Sun's gravity** = centripetal force.
+[2:5:3] - Gives the year, **seasons** (with tilt), solstices and equinoxes. Sun overhead at Equator on **21 March and 23 September**.
+[2:5:4] - Extra quarter day → **leap year** of **366 days** with **29 February**; century year only if divisible by **400** (**2000 yes, 1900 no**).
+[2:5:5] - Rotation gives **day and night, time zones, Coriolis**; revolution gives the year and seasons.
+## SUB 6 | Number Game and Quick Revision
+[2:6:0] TABLE head: Item | Fact
+  [2:6:0.0] Sidereal day | 23 h 56 min 4 s
+  [2:6:0.1] Orbital speed | 29.78 km/s
+[2:6:1] # FIRST / LAST / SPECIAL FACTS
+[2:6:2] - First to propose rotation: Aryabhata; Foucault proof 1851.
+## SUB 7 | Appsc Previous Year Questions
+[2:7:0] TABLE head: Examination | Question Area
+  [2:7:0.0] APPSC 2019 | Circle of illumination – grey line
+  [2:7:0.1] APPSC Group 1 2019 | Coriolis effect – cause
+## SUB 8 | High-probability Mcq Traps
+[2:8:0] VERY IMPORTANT
+[2:8:1] - 1. Day and night = **rotation**; seasons = revolution + tilt.
+[2:8:2] - 2. Sidereal day is **shorter** than solar.
+[2:8:3] - 3. Coriolis **zero at Equator**.
+[2:8:4] - 4. Right in NH, left in SH.
+[2:8:5] - 5. Twilight shortest at **Equator**.
+[2:8:6] - 6. 1900 not a leap year.
+[2:8:7] - 7. Spring tide = **aligned**.
+[2:8:8] - 8. Weight least at **Equator**.
+
+=== OWN MCQs of 4:2 (60)
+[na9704a91143] sub0
+  Which two planets rotate in the direction opposite to Earth's west-to-east rotation?
+  Mars and Jupiter | *Venus and Uranus | Uranus and Neptune | Mercury and Venus
+  x: Earth rotates west to east, whereas Venus and Uranus spin in the opposite direction.
+[ngeneral-geography-1-3] sub0
+  In which direction does the Earth rotate on its axis?
+  East to west | *West to east | North to south | South to north
+  x: Earth spins west to east once in 24 hours, turning each place toward and away from the Sun to give day and night.
+[ngeneral-geography-2-17] sub0
+  What is the spinning of the Earth on its own axis called?
+  Revolution | *Rotation | Precession | Nutation
+  x: Rotation is Earth's spin on its axis; revolution is its elliptical path around the Sun.
+[ngeneral-geography-2-18] sub0
+  Where is the linear speed of the Earth's rotation maximum?
+  Poles | Tropic of Cancer | Arctic Circle | *Equator
+  x: Linear rotational speed is greatest at the Equator and zero at the poles.
+[ngeneral-geography-2-44] sub0
+  What mainly drives the shifts in the Earth's rotational axis?
+  Solar flares | *Redistribution of mass, such as melting ice and groundwater depletion | The solar wind | Coronal mass ejections
+  x: Mass redistribution from melting ice and groundwater use shifts the axis; solar flares only disturb the upper atmosphere.
+[n593be1b14f1] sub0
+  Why do people not feel the Earth's rotation?
+  The Sun's gravity cancels the rotational motion | The Earth's magnetic field absorbs the motion | The Earth's rotation is confined to the polar regions | *The atmosphere and objects on Earth move along with it at a nearly uniform speed
+  x: The Earth's motion is nearly uniform, and the atmosphere and everything on it move along with it, so the motion is not felt.
+[n0e6375dbdd7] sub0
+  Climate-driven melting of ice is lengthening the Earth's day by about how much per century?
+  0.133 milliseconds | 13.3 milliseconds | *1.33 milliseconds | 1.33 seconds
+  x: Melting ice shifts mass towards the Equator, raising the moment of inertia and lengthening the day by about 1.33 ms per century.
+[n32bad90290d] sub0
+  How long does a sidereal day, measured relative to a distant star, last?
+  24 hours | 24 hours 4 minutes | 23 hours 4 minutes | *23 hours 56 minutes
+  x: A sidereal day lasts 23 h 56 min 4 s, about four minutes shorter than the 24-hour solar day measured from noon to noon.
+[n399bb8c3efa] sub0
+  In which direction do tropical cyclones generally rotate in the Northern Hemisphere?
+  In a direction determined only by ocean salinity | From east to west without rotation | *Anticlockwise | Clockwise
+  x: The Coriolis effect causes tropical cyclones in the Northern Hemisphere to rotate anticlockwise.
+[f0916ea53a60a] sub0
+  What is the angular speed of the Earth's rotation?
+  1° per hour | 4° per hour | 15° per minute | *15° per hour
+  x: The Earth turns 360° in 24 hours, i.e. 15° per hour or 1° every 4 minutes.
+[f5fcb7da68fd1] sub0
+  What is the approximate linear speed of the Earth's rotation at the Equator?
+  29.78 km/h | 1,000 km/h | *1,670 km/h | 107,000 km/h
+  x: Rotation speed is about 1,670 km/h at the Equator and zero at the poles.
+[f81d42a3f54d9] sub0
+  Seen from above the North Pole, in which direction does the Earth rotate?
+  Clockwise | *Counter-clockwise | Clockwise in summer only | Counter-clockwise in winter only
+  x: The Earth spins west to east, which appears counter-clockwise from above the North Pole.
+[fd85af0fc9c5d] sub0
+  By about how much is the solar day longer than the sidereal day?
+  *4 minutes | 4 seconds | 52 minutes | 1 hour
+  x: The solar day is about 4 minutes longer because the Earth also moves along its orbit while rotating.
+[f5c69006f6571] sub0
+  Consider the following statements about the sidereal day:
+1. It is measured against a distant star.
+2. It is longer than the solar day.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: The sidereal day (23 h 56 min 4 s) is measured against a distant star and is about 4 minutes shorter than the solar day.
+[nf3c1c2c8959] sub1
+  How did the Foucault pendulum experiment conducted in Paris in 1851 demonstrate the Earth's rotation?
+  A permanent change in the length of the pendulum | The direct measurement of the Earth's orbital speed | *The slow turning of the plane of the pendulum's swing | The rise and fall of ocean tides
+  x: In Foucault's 1851 experiment at Paris, the plane of swing of the pendulum slowly turned, providing visible evidence of Earth's rotation.
+[fbd963ff0f226] sub1
+  In which year did Foucault demonstrate the Earth's rotation with a pendulum in Paris?
+  1815 | 1884 | *1851 | 1905
+  x: Foucault's pendulum experiment was performed in Paris in 1851.
+[f0744c4bacf26] sub1
+  In which work did Aryabhata explain the daily rising and setting of the Sun?
+  Surya Siddhanta | *Aryasiddhanta | Brihat Samhita | Lilavati
+  x: Aryabhata first proposed the Earth's rotation and explained the Sun's daily rise and set in the Aryasiddhanta.
+[ndbd7750db30] sub2
+  Where are approximately 12 hours of daylight experienced throughout the year?
+  Tropic of Cancer | Tropic of Capricorn | Arctic Circle | *Equator
+  x: The Equator has about 12-hour days all year; variation in day length increases with latitude.
+[n28417f6b920] sub2
+  When does the circle of illumination pass through both poles?
+  Perihelion | Solstices | *Equinoxes | Aphelion
+  x: The circle of illumination (grey line) divides day from night and passes through both poles only at the equinoxes.
+[n3843dba38ae] sub2
+  What is the phenomenon called in which the Sun remains above the horizon for 24 hours during summer beyond the Arctic or Antarctic Circle?
+  Twilight arc | *Midnight sun | Solar eclipse | Polar night
+  x: The midnight sun refers to continuous daylight for 24 hours or more in high-latitude regions during their summer.
+[n1401323b8f4] sub2
+  How does the duration of twilight generally vary with latitude?
+  It occurs only between the Tropics. | It is approximately the same at every latitude. | It is longest at the Equator and shortest at the poles. | *It is shortest at the Equator and becomes longer towards the poles.
+  x: Twilight is shortest at the Equator because the Sun rises and sets nearly vertically. It lasts longer at high latitudes because the Sun follows an oblique path, becoming weeks-long near the poles.
+[ngeneral-geography-3-15] sub2
+  By what are seasons at the Equator mainly marked?
+  *Wet and dry periods | Four distinct seasons | Six-month day and night | Winter and summer
+  x: Day length hardly changes at the Equator, so it has wet and dry seasons rather than winter and summer.
+[ngeneral-geography-3-39] sub2
+  Where does the midnight sun occur?
+  Between the two Tropics | Along the Tropic of Cancer | *North of the Arctic Circle and south of the Antarctic Circle | Between the Tropic of Cancer and the Arctic Circle
+  x: The midnight sun occurs beyond the polar circles, peaking near each summer solstice, as in Norway.
+[f7de514319e53] sub2
+  By what other name is the circle of illumination known?
+  *Grey line | Date line | Ecliptic | Great circle route
+  x: The circle of illumination, or terminator, is also called the grey line or twilight zone.
+[f643106e61e11] sub2
+  Which country is known as the 'Land of the Midnight Sun'?
+  Finland | Iceland | Canada | *Norway
+  x: Norway, beyond the Arctic Circle, is called the Land of the Midnight Sun.
+[fa0707433ff7c] sub2
+  Why does twilight last longest at high latitudes?
+  Rises and sets almost vertically | *Rises and sets along an oblique path | Is overhead at noon | Is closest to the Earth
+  x: At high latitudes the Sun's oblique path makes twilight long, even weeks near the poles; at the Equator it rises almost vertically.
+[g987951bb2f00] sub2
+  Consider the following statements:
+1. Day and night are caused by the rotation of the Earth.
+2. Unequal lengths of day and night are caused by the tilt of the Earth's axis together with its revolution.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Rotation gives day and night; the tilted axis and revolution make day length vary through the year.
+[g9142de2d824c] sub2
+  If the Earth's axis were not tilted, which of the following would happen?
+  *Day and night would be equal everywhere throughout the year | There would be no day and night | Days would be longest at the Equator | The poles would have six months of day
+  x: Unequal day lengths come from the tilt; without it every place would have 12-hour days and nights all year.
+[ngeneral-geography-2-28] sub3
+  Consider the following statements about the Coriolis effect:
+1. It affects cyclones.
+2. It is caused by the Earth's revolution around the Sun.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: The Coriolis effect shapes cyclones, but it comes from the Earth's rotation, not its revolution.
+[ngeneral-geography-2-23] sub3
+  What does the centrifugal effect of the Earth's rotation result in?
+  Day and night | Equatorial flattening | The seasons | *Polar flattening
+  x: Rotation's centrifugal effect is greatest at the Equator and zero at the poles, causing polar flattening.
+[ngeneral-geography-2-59] sub3
+  Where is the weight of an object on the Earth minimum?
+  Poles | Arctic Circle | *Equator | Tropic of Cancer
+  x: The centrifugal effect of rotation is greatest at the Equator, so effective gravity and weight are least there.
+[n503b5a8e788] sub3
+  Which of the following is NOT correct about the effects of the Earth's rotation?
+  The Coriolis force deflects winds and currents to the right in the Northern Hemisphere | *The Coriolis force deflects winds and currents to the left in the Northern Hemisphere | The Coriolis force deflects winds and currents to the left in the Southern Hemisphere | Rotation contributes to the flattening of the Earth at the poles
+  x: In the Northern Hemisphere the Coriolis deflection is to the right, not the left; deflection is to the left only in the Southern Hemisphere.
+[nc04267294b3] sub3
+  Where is the Coriolis force maximum?
+  Equator | Tropics | 30° latitudes | *Poles
+  x: The Coriolis force (2Ωv sin latitude) is zero at the Equator, maximum at the poles and grows with wind velocity.
+[ngeneral-geography-2-9] sub3
+  Which of the following pairs is correctly matched?
+  *Coriolis effect – Deflection of moving objects | Revolution – Day and night | Rotation – Annual cycle | Centrifugal effect – Day and night
+  x: The Coriolis effect deflects moving objects; rotation causes day and night, revolution the annual cycle and the centrifugal effect the equatorial bulge.
+[n11e3d6ef22d] sub3
+  In which direction is a cyclone approaching the Andhra Pradesh coast usually steered?
+  South-southwest | *North-northwest | East | South-east
+  x: Steering winds, trade winds and the Coriolis effect steer such cyclones north-northwest.
+[f23d35130a876] sub3
+  What is the rule called by which moving air is deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere?
+  *Ferrel's law | Buys Ballot's law | Kepler's law | Newton's law
+  x: Ferrel's law describes deflection to the right in the NH and to the left in the SH.
+[f1631d14174e0] sub3
+  Tropical cyclones rarely form within how many degrees of the Equator?
+  15° | 23.5° | 1° | *5°
+  x: Coriolis force is too weak near the Equator, so cyclones rarely form within 5° of it.
+[f26c457e98924] sub3
+  Consider the following statements about the Coriolis force:
+1. It increases with latitude.
+2. It increases with wind speed.
+3. It is maximum at the Equator.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: The Coriolis force (2Ωv sin latitude) grows with latitude and wind speed; it is zero at the Equator and maximum at the poles.
+[fc78b8493b73f] sub3
+  What mainly causes the equatorial bulge and polar flattening of the Earth?
+  Coriolis force | Moon's gravity | *Centrifugal force of rotation | Earth's revolution
+  x: Centrifugal force, maximum at the Equator and zero at the poles, causes the bulge and flattening.
+[g7f8b625c332e] sub3
+  At which of the following is the Coriolis force zero?
+  Poles | Tropic of Cancer | *Equator | Arctic Circle
+  x: The Coriolis force is 2Ωv sin(latitude), so it is zero at the Equator and greatest at the poles.
+[g1502a124c58b] sub3
+  Near which coast did Cyclone Montha (2025) make landfall?
+  *Kakinada | Nellore | Chennai | Puri
+  x: Steering winds, trade winds and the Coriolis effect pushed Cyclone Montha north-northwest to the Kakinada coast of Andhra Pradesh.
+[ne32b0c7fd54] sub4
+  As the Earth rotates, what does a coastal place passing through two tidal bulges in a day generally experience?
+  One high tide and one low tide | Four high tides and no low tide | Two high tides and one low tide | *Two high tides and two low tides
+  x: Passing through two tidal bulges gives two high tides and two low tides, with similar tides about 12 hours 25 minutes apart.
+[n5e29daa19e4] sub4
+  What is the position of the Sun and the Moon when neap tides occur?
+  In conjunction at new Moon | In line at full Moon | Both at their farthest from Earth | *At approximately right angles to each other
+  x: Neap tides occur when the Sun and Moon are at about right angles; spring tides occur at new and full Moon when they are aligned.
+[f7b14d93e42f4] sub4
+  Successive high tides at a place occur about how far apart?
+  *12 h 25 min | 12 h | 24 h 52 min | 6 h
+  x: There are two high tides a day, about 12 h 25 min apart.
+[fd28bc89327e9] sub4
+  Consider the following statements about tides:
+1. Spring tides occur at new moon and full moon.
+2. Neap tides occur when the Sun, the Earth and the Moon are in a straight line.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Spring tides come when the Sun, Earth and Moon are aligned (new and full moon); neap tides come when the Sun and Moon are at right angles.
+[gfc227d8300f0] sub4
+  If high tide occurs at a port at 6:00 a.m. today, at about what time will it occur tomorrow?
+  6:00 a.m. | 6:26 a.m. | *6:52 a.m. | 7:15 a.m.
+  x: High tide comes about 52 minutes later each day, so 6:00 a.m. becomes about 6:52 a.m.
+[g120423ed2500] sub4
+  Why does high tide at a place come about 52 minutes later each day?
+  *Because the lunar day is about 24 hours 52 minutes long | Because the solar day is longer than the sidereal day | Because the Earth's orbit is elliptical | Because the Sun's pull is stronger than the Moon's
+  x: The Moon moves on in its orbit, so the lunar day is about 24 h 52 min and the tide comes about 52 minutes later.
+[g1960d2c94cca] sub4
+  How many times in a month do spring tides occur?
+  Once | *Twice | Four times | Every day
+  x: Spring tides come twice a month, at new moon and full moon, when the Sun, Earth and Moon are in line.
+[ngeneral-geography-2-16] sub5
+  Which of the following is NOT primarily associated with the Earth's rotation?
+  *Perihelion and aphelion | Coriolis effect | Time zones | Day and night
+  x: Perihelion and aphelion belong to revolution; day and night, the Coriolis effect and time zones come from rotation.
+[ngeneral-geography-2-25] sub5
+  The Earth takes about how many days to complete one revolution around the Sun?
+  364¼ | *365¼ | 365 | 366
+  x: Earth takes about 365¼ days to complete one revolution on its elliptical orbit.
+[ngeneral-geography-3-17] sub5
+  What causes the six-month polar day and night?
+  Rotation alone | *Revolution combined with axial tilt | The Earth's elliptical orbit alone | The Moon's gravitational pull
+  x: Revolution with axial tilt causes seasons, solstices and equinoxes, opposite seasons in the hemispheres and six-month polar day and night.
+[n484f9566c61] sub5
+  Which of the following is NOT an evidence of the rotation of the Earth?
+  The equatorial bulge | Coriolis deflection of winds and ocean currents | The apparent east-to-west motion of stars and the Sun | *The constant distance between the Earth and the Sun throughout the year
+  x: The constant Earth-Sun distance is not an evidence of Earth's rotation; in fact, the distance varies slightly because Earth's orbit is elliptical. Coriolis deflection, equatorial bulge and apparent celestial motion are evidences of rotation.
+[n5c90f6964c7] sub5
+  What provides the principal centripetal force that keeps the Earth in its orbit around the Sun?
+  The pressure of solar radiation | *The gravitational force of the Sun | The magnetic force of the Sun | The gravitational force of the Moon
+  x: The Sun's gravitational attraction acts as the centripetal force that keeps the Earth revolving around it.
+[na430c1cfbad] sub5
+  Under the Gregorian rule, which of the following century years was a leap year?
+  1700 | 1800 | 1900 | *2000
+  x: A century year is a leap year only if divisible by 400, so 2000 was a leap year and 1900 was not.
+[ngeneral-geography-2-38] sub5
+  About how much is the extra fraction of a day in each calendar year that adds up to a leap day in four years?
+  One-tenth of a day | One-half of a day | One-third of a day | *One-quarter of a day
+  x: The extra quarter day accumulates to one day in four years, giving a 366-day leap year with 29 February.
+[ff18e46769615] sub5
+  What is the approximate mean orbital speed of the Earth around the Sun?
+  1,670 km/s | 11.2 km/s | 7.9 km/s | *29.78 km/s
+  x: The Earth revolves round the Sun at a mean speed of about 29.78 km/s.
+[fccf711f04f69] sub5
+  On which date did the Earth reach aphelion in 2026?
+  3 January | 21 June | *6 July | 23 September
+  x: In 2026 perihelion fell on 3 January and aphelion on 6 July.
+[fd68216870ea2] sub5
+  On which dates is the Sun overhead at the Equator?
+  *21 March and 23 September | 21 June and 22 December | 3 January and 4 July | 1 January and 1 July
+  x: At the equinoxes, 21 March and 23 September, the Sun is overhead at the Equator.
+[fc0cb2dc52ca7] sub5
+  By which number must a century year be divisible to be a leap year?
+  4 | 100 | 40 | *400
+  x: A century year is a leap year only if divisible by 400, so 2000 was a leap year and 1900 was not.
+[fa0918e38f5b0] sub5
+  Which of the following is NOT correct about the Earth's revolution?
+  It takes about 365.25 days | Its mean speed is about 29.78 km/s | The orbit is slightly elliptical | *The Earth–Sun distance stays constant
+  x: The orbit is slightly elliptical, so the Earth–Sun distance is not constant.
+

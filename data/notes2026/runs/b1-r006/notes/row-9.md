@@ -11,6 +11,7 @@
 |---|---|
 | **Unicorn** (most common), **humped bull** (best artwork), bull, buffalo, elephant, tiger, rhinoceros, bison, goat, antelope, gharial | **Cow**, **horse**, **lion**, camel (PMF memory aid "HoLiCa") |
 - "Animal **not** on seals and terracotta" with cow in the options = **Cow** (UPSC 2001); with horse = **Horse** (UPPCS 2009); lion is never shown either.
+- **Pipal** = the tree most commonly depicted on seals.
 - **Pashupati seal** (Mohenjodaro, steatite): three-faced horned figure in yogic posture ringed by **elephant, tiger, rhinoceros and buffalo**, two deer below.
 | Seal | Site |
 |---|---|
@@ -59,6 +60,7 @@
 | Direction | **Right to left**; some **boustrophedon** (Kalibangan) |
 | Number of signs | About 375–400 (estimates 62 to 676) |
 | Average / longest inscription | About **5** / **26** signs |
+| Corpus | About **5,000** inscribed objects (≈3,500 seals) |
 | Found on | Seals, tablets, pottery, copper tools, bone rods, jewellery, a signboard |
 | Status | **Undeciphered** |
 - First noticed 1853; seals with unknown symbols reported by **J. Fleet, 1912**.

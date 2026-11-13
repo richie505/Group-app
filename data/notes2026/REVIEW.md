@@ -123,3 +123,10 @@
 - yb0adc6e9c71 industry share: key → 26.4% (Economic Survey 2006-07). y7011b4eb993 unit root = time-series.
 - No key: y0aa08ef6d4c Stree Nidhi interest (13% at launch / 11% now, no option); yb71feae5909 primary share 2008 (~20%, options 40-70%).
 - Single uncertain source: y2c9bf9c5514, y8fd4cb32bec, y3e82d076574, yf34025d8f4c.
+
+## Owner's rule (13 Nov): no correct printed option → the correct answer is ADDED as a new option, keyed, tagged "⚠ Option added"
+Applied to 21 questions so far (keys_zfix.jsonl in each run folder), e.g. Sikkim → 36th Amendment, reservation in promotion → 77th Amendment, spherical Earth → Pythagoras, Constitution adopted → 26th November 1949, first Finance Minister → R.K. Shanmukham Chetty, Udranga → fixed land tax, Golden Trinity → Art. 14, 19 and 21. Still unkeyed (answer itself unsettled): y31f4eab8b29, ydde65211829 (garbled), y2cdee37b625, y0aa08ef6d4c.
+
+## b4-r000-k1 Universe, remaining 94 PYQs (3 keys changed, 5 outdated)
+- Pluto (reclassified 2006): farthest → Neptune, longest year → Neptune, smallest → Mercury (tagged outdated).
+- Weak questions kept: y4a2e19e2928 diamond ring; y6f5edce2768 Moon distance; yc548f072c32 NGTS-4b.
