@@ -50,6 +50,7 @@
 | Raj Narain (1975) | Legislature cannot decide an election dispute; **39th** Amendment validation of PM's election struck |
 | Minerva Mills (1980) | 42nd Amendment bar on review struck |
 | I.R. Coelho (2007) | Post-**24 April 1973** Ninth Schedule entries reviewable |
+- Ways the legislature can respond to a judgment, and their limits:
 | Option to override a judgment | Limit |
 |---|---|
 | Constitutional amendment | Basic structure |
