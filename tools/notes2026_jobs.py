@@ -291,9 +291,27 @@ def apply():
     allkeys = {}
     links = json.load(open(f"{A}/notelinks.json"))
     idx = json.load(open(f"{A}/index.json"))
+    # cross-book moves ({"move_book": B, "move_row": N}): taken out of their book, filed under book B row N
+    xmoves, xkeys = {}, {}
+    for j in jobs:
+        xkeys.update(read_keys(run_dir(j)))
+        for i, e in read_mapping(run_dir(j)).items():
+            if "move_book" in e and int(e["move_book"]) != j["book"]:
+                xmoves[i] = (int(e["move_book"]), int(e["move_row"]))
+    incoming = {}                                    # book -> [(row, q)]
+    for b in range(1, 7):
+        m = json.load(open(f"{A}/mcq{b}.json"))
+        for r, lst in m["rows"].items():
+            for q in lst:
+                if isinstance(q, dict) and q["id"] in xmoves and xmoves[q["id"]][0] != b:
+                    if q["id"] in xkeys:
+                        set_key(q, xkeys[q["id"]])
+                        allkeys[q["id"]] = xkeys[q["id"]]
+                    incoming.setdefault(xmoves[q["id"]][0], []).append((xmoves[q["id"]][1], q))
+                    links.pop(q["id"], None)
     for b in range(1, 7):
         bj = [j for j in jobs if j["book"] == b]
-        if not bj:
+        if not bj and b not in incoming:
             continue
         bk = json.load(open(f"{A}/book{b}.json"))
         rows = [r for u in bk["units"] for r in u["rows"]]
@@ -301,8 +319,11 @@ def apply():
         where = {}                                   # id -> (row, q)
         for r, lst in m["rows"].items():
             for q in lst:
-                if isinstance(q, dict):
+                if isinstance(q, dict) and not (q["id"] in xmoves and xmoves[q["id"]][0] != b):
                     where[q["id"]] = (int(r), q)
+        moved_in = {q["id"] for _, q in incoming.get(b, [])}
+        for r, q in incoming.get(b, []):
+            where[q["id"]] = (r, q)
         new = {}                                     # rebuilt row -> secs
         for j in bj:
             if j["type"] != "topic":

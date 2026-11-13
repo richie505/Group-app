@@ -12,3 +12,9 @@
 - ybf558a53cd8 viceroy crowned at Draksharama: Rajaraja Chodaganga kept, moderate confidence.
 - y79b4a6057a5 Velanati marriages: "Neither" kept; statement A unverifiable.
 - y46b27af6e9e (G2 2019) Chalukya mother goddess: Cushmandini → Hariti (Rocket sheet; "Hariti-putras").
+
+## b1-r085 Imperial Cholas, Hoysalas (111 PYQs, 8 keyed from -1, 28 generated, 1 outdated)
+- Debatable but kept: y7433adcffe0 (IAS 2001 "conquered Ceylon") Rajendra I; yce0b6c9fdba (Malik Kafur) Yadava Ramachandra; y7e86e9952ea (UPPSC 2018 guild) Nanadesis; y4b591155267 (NDA 2018) "only I".
+- yc3148ab92d6 Rajendra's title → Gangaikonda (Kadaram Kondan also his: flawed question). y358bc859520 lost-wax Nataraja → Pallavas (Cholas not among options).
+- Notes conflicts settled: Uttaramerur committee term 1 year (+3-year bar), not 3 years (NextGen); Hoysaleswara temple built by Ketamalla c.1121, not Narasimha I (Rocket).
+- 8 off-subject PYQs moved to other books (Chandranna Bata → Polity AP welfare; flower/ovary, lifestyle disease, disaster → Science; Iran president, Vishwakarma Award → Current Affairs; dyslexia, parenting → Polity child/disability).

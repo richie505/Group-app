@@ -68,7 +68,7 @@ Run `python3 tools/notes2026_jobs.py number <job>` to get `numbered/row-N.txt` (
 `{"<id>": {"row": N, "sub": S, "lines": ["S:B", "S:B.R"]}}` — exactly one sub-section (the dominant angle decides), 1–3
 lines that state the answer. If no line states it, add `"add": "- **…:** …"` (one bullet that will be appended to that
 sub-section) instead of / besides lines. A PYQ that belongs to a different topic of the same book:
-`{"<id>": {"move_row": N}}` (row titles: `data/notes2026/rows-book<B>.txt`); use sparingly.
+`{"<id>": {"move_row": N}}` (row titles: `data/notes2026/rows-book<B>.txt`); a PYQ of another SUBJECT (another book): `{"<id>": {"move_book": B, "move_row": N}}` — still key it. Use sparingly.
 For `keys` jobs the notes already exist in `notes/` (from the topic job): map onto them, use "add" for missing facts.
 
 ## 5. Finish
