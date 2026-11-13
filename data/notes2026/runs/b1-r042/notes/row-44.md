@@ -29,20 +29,6 @@
 - **Shift:** from Pali-Prakrit Hinayana to **Sanskrit Mahayana**, which worshipped the **Buddha as god through images**; spread to Central Asia, China, Korea, Japan.
 ~~ Sources: PMF Ancient & Medieval 03 p.1-4; NextGen Indian History APPSC 03 p.27; Rocket Indian History 01 p.35; app notes 1:44 (sub 3, 4, 5)
 
-=== Kushana Coinage
-| Ruler | Coinage |
-|---|---|
-| **Kujula Kadphises** | **Copper** coins imitating Roman coins |
-| **Vima Kadphises** | **First Kushana gold** – first gold coins on a **large scale, for regular use**; Shiva with trident and bull |
-| **Kanishka** | Gold and copper; **Buddha (BOΔΔO)** on coins; Shiva as Oesho; Bactrian legends in Greek script |
-- **First to issue gold coins on a large scale:** **Vima Kadphises** (State PSC; UPPCS Mains 2009; UPPCS 2015) – Menander's Indo-Greeks issued the first gold, but rarely; Kujula = copper.
-- **Most copper coins in north and north-west India:** the **Kushanas** (UPPCS 2005); Indo-Greeks, Sakas, Pratiharas are distractors.
-- **Buddha on coins:** **Kanishka** (UPPCS 2010); not Vima Kadphises, Nahapana or Budhagupta.
-- **Gold dinara:** Roman weight standard, about **8 g (120 grains)**; purer than Gupta gold.
-- **Portrait:** Kanishka standing in **peaked helmet, long coat and boots**, sacrificing at an **altar**; **30+ deities** (Greek, Iranian, Indian) on Kushana coins.
-- **Yaudheya** copper coins (Kushana age): six-headed **Kartikeya** with a peacock (UPPCS Mains 2008); not Vasudeva, Mitra or Indra.
-~~ Sources: PMF Ancient & Medieval 03 p.2-3, p.8; PMF Ancient & Medieval 02 p.152; Rocket Indian History 02 p.113-116; app notes 1:44 (sub 6)
-
 === Kushana Rulers, Empire and Kanishka
 # Origin
 - **Kushanas = Yuezhi (Yueh-chi)** of north-west China/Central Asia – one of five Yuezhi clans; Silk Road middlemen between **Han China, Rome and India**; trade fed a second wave of urbanisation (Mathura, Taxila, Ujjain, Shravasti).
@@ -65,6 +51,20 @@
 - **Sarnath image:** Bodhisattva dedicated by Friar **Bala** in year 3 (81 AD).
 - **China:** refused a Han princess, the Kushanas marched against the Chinese general **Pan Chao (Ban Chao)** and were **defeated** (Jharkhand 2003); Ban Yong, Shi Huang Ti, He-Ti are distractors.
 ~~ Sources: PMF Ancient & Medieval 02 p.146, p.152-153; PMF Ancient & Medieval 03 p.1, p.3; Rocket Indian History 01 p.8-9; Rocket Indian History 02 p.9, p.115; app notes 1:44 (sub 0, 1, 2)
+
+=== Kushana Coinage
+| Ruler | Coinage |
+|---|---|
+| **Kujula Kadphises** | **Copper** coins imitating Roman coins |
+| **Vima Kadphises** | **First Kushana gold** – first gold coins on a **large scale, for regular use**; Shiva with trident and bull |
+| **Kanishka** | Gold and copper; **Buddha (BOΔΔO)** on coins; Shiva as Oesho; Bactrian legends in Greek script |
+- **First to issue gold coins on a large scale:** **Vima Kadphises** (State PSC; UPPCS Mains 2009; UPPCS 2015) – Menander's Indo-Greeks issued the first gold, but rarely; Kujula = copper.
+- **Most copper coins in north and north-west India:** the **Kushanas** (UPPCS 2005); Indo-Greeks, Sakas, Pratiharas are distractors.
+- **Buddha on coins:** **Kanishka** (UPPCS 2010); not Vima Kadphises, Nahapana or Budhagupta.
+- **Gold dinara:** Roman weight standard, about **8 g (120 grains)**; purer than Gupta gold.
+- **Portrait:** Kanishka standing in **peaked helmet, long coat and boots**, sacrificing at an **altar**; **30+ deities** (Greek, Iranian, Indian) on Kushana coins.
+- **Yaudheya** copper coins (Kushana age): six-headed **Kartikeya** with a peacock (UPPCS Mains 2008); not Vasudeva, Mitra or Indra.
+~~ Sources: PMF Ancient & Medieval 03 p.2-3, p.8; PMF Ancient & Medieval 02 p.152; Rocket Indian History 02 p.113-116; app notes 1:44 (sub 6)
 
 === Central Asian Contributions – Dress, Cavalry, Surkhi and Art
 - **Dress (Shakas and Kushanas):** **turban, tunic, trousers and heavy long coat** (the sherwani descends from the coat); Central Asians also brought **caps, helmets and boots** → all five items, **I, II, III, IV and V** (APPSC G1 PYQ).
