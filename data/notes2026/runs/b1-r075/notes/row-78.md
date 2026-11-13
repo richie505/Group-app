@@ -14,7 +14,7 @@
 # Kandukuru "on the lines of Bezawada"
 - **Vijayaditya III (Gunaga Vijayaditya)** developed **Kandukuru** like **Bezawada** (G2 2008 ×2, 2019; Mains; APPSC PYQ) – Pandaranga made it a strong fort after conquering the Boya kingdoms.
   - **⚠ Settled:** one G2 2008 printed key gave **Vijayaditya II** – wrong; Vijayaditya II is the 108-temples king.
-~~ Sources: NextGen Eastern Chalukyas (src/ap-history/nextgen-06-eastern-chalukyas.pdf) p.2-3, p.7, p.13, p.34; NextGen AP History Previous Papers (src/ap-history/nextgen-previous-papers.txt) p.27 and Kandukuru entries; Rocket AP History p.43; app notes 1:78 (sub 2)
+~~ Sources: NextGen Eastern Chalukyas (src/ap-history/nextgen-06-eastern-chalukyas.pdf) p.2-3, p.7, p.13, p.34; NextGen AP History Previous Papers (src/ap-history/nextgen-previous-papers.txt) p.14, p.19, p.27; Rocket AP History p.47; app notes 1:78 (sub 2)
 
 === Nannaya and Telugu – Nandampudi, Narayana Bhattu and the First Telugu Inscriptions
 # Nannaya
@@ -66,7 +66,7 @@
 | Andhra Nagaram | Vengi (Dandin's Dashakumaracharita) |
 | Mangalapura | Mangalagiri (Kopparam / Marturu records) |
 | Venginadu | **Krishna-Godavari doab** – core territory |
-~~ Sources: NextGen Eastern Chalukyas (src/ap-history/nextgen-06-eastern-chalukyas.pdf) p.4, p.7, p.15-16, p.32; NextGen AP History Previous Papers (src/ap-history/nextgen-previous-papers.txt) "Ammaraja ruler built Rajahmundry"; Rocket AP History p.30, p.36; https://en.wikipedia.org/wiki/Rajahmundry_district; app notes 1:78 (sub 5)
+~~ Sources: NextGen Eastern Chalukyas (src/ap-history/nextgen-06-eastern-chalukyas.pdf) p.4, p.7, p.15-16, p.32; NextGen AP History Previous Papers (src/ap-history/nextgen-previous-papers.txt) p.21, p.45; Rocket AP History p.25; https://en.wikipedia.org/wiki/Rajahmundry_district; app notes 1:78 (sub 5)
 
 === Temples, Religion and Jain Patronage
 # Builders
@@ -75,7 +75,7 @@
 | **Kunti Madhava (Vishnu), Pithapuram** | **Kubja Vishnuvardhana** (Welfare Officers 2017 ×2) – not Jayasimha, Mangi Yuvaraja or Vijayaditya |
 | 108 Shiva temples (Narendreswara) | Vijayaditya II |
 | Bikkavolu – Mukteshwara, Vijayeshwara, Chandrashekhara, Golingeswara | Gunaga Vijayaditya III |
-| **Pancharamas; Bhimeswara (Draksharama, Samalkot)** | **Chalukya Bhima I** |
+| **Pancharamas** (Draksharama = **Bhimarama**, Kumararama, Somarama, Ksheerarama, Amararama); **Bhimeswara** (Draksharama, Samalkot) | **Chalukya Bhima I** |
 | Kartikeya, Bezawada | Yuddhamalla |
 | Three Shiva temples at **Kalidindi** for fallen Chola soldiers | **Rajaraja Narendra** |
 - **Vengi school:** Vesara/Chalukya idiom; **local sandstone (not granite)**, raised jagati; leads into the **Chalukya-Chola** style.
@@ -87,7 +87,7 @@
 - **Vimaladitya** = the Eastern Chalukya king who **embraced Jainism** (guru **Trikalayogi Siddhanti**; Ramatirtha cave) (JA 2012) – not Gunaga Vijayaditya, Bhima I or Rajaraja Narendra.
 - **Vishnuvardhana III** granted **Mushikonda** to the Jains; **Ammaraja II** issued the **Maliyapundi** grant (Jain temple, Dharmapuri); courtesan **Chamekamba** won the **Kaluchumbarru** grant.
 - **Dynasty that most propagated Jainism in Telugu land = the Vemulawada Chalukyas** (Welfare Officers 2017 ×2) – patrons of **Pampa** and Somadeva Suri; Baddega built the Subhadhama Jinalaya – not the Eastern, Badami or Kalyani Chalukyas.
-~~ Sources: NextGen Eastern Chalukyas (src/ap-history/nextgen-06-eastern-chalukyas.pdf) p.1, p.9-10, p.12, p.14, p.20, p.27-29, p.31; Rocket AP History p.30; app notes 1:78 (sub 7)
+~~ Sources: NextGen Eastern Chalukyas (src/ap-history/nextgen-06-eastern-chalukyas.pdf) p.1, p.9-10, p.12, p.14, p.20, p.27-29, p.31; Rocket AP History p.11, p.25; app notes 1:78 (sub 7)
 
 === Founder, Dynasty Outline and the Chola Connection
 # Founder
@@ -106,7 +106,7 @@
 | **Kokkili Vikramaditya** | An **Eastern Chalukya** prince; ousted by Vishnuvardhana III, set up a kingdom at **Yalamanchili** (Welfare Officers) |
 | Vijayaditya I | Conflict with **Dantidurga** (Rashtrakuta) begins |
 | Vishnuvardhana IV | Defeated by **Dhruva**, who married his daughter **Sheela Mahadevi** |
-| Chalukya Bhima I | **360 battles** (Pithapuram inscription of Mallappadeva); repelled **Krishna II** at Niravadyapura and Peruvanguru; court singer **Chellavva** |
+| Chalukya Bhima I | **360 battles** (Pithapuram inscription of Mallappadeva); repelled **Krishna II** at Niravadyapura and Peruvanguru; court singer and dancer **Chellavva**, title **Gandharva-Vidya-Visarada** |
 | **Vijayaditya IV** | **Kollabhiganda** (G2 2012; APPSC PYQ); ruled **six months**; died at **Virajapuri** fighting Kalinga – not Vijayaditya II, Gunaga or Chalukya Bhima |
 | Ammaraja I | Rajamahendra; Chekurru plate |
 | Danarnava | Magallu inscription; killed by **Jatachoda Bhima** |
@@ -128,4 +128,4 @@
   - **⚠ Settled:** one G2 printed key gave **Vijayaditya I**; the king is **Vijayaditya II** (when he is missing from the options, the correct answer is added).
   - Not Kubja Vishnuvardhana, Vishnuvardhana III/IV, Gunaga Vijayaditya or Chalukya Bhima (Bhima I = 360 battles).
 - He overthrew his brother **Bhima Salki** and took the throne (c. 808/818).
-~~ Sources: NextGen Eastern Chalukyas (src/ap-history/nextgen-06-eastern-chalukyas.pdf) p.2, p.7, p.12, p.29; Rocket AP History p.43; app notes 1:78 (sub 2, 7)
+~~ Sources: NextGen Eastern Chalukyas (src/ap-history/nextgen-06-eastern-chalukyas.pdf) p.2, p.7, p.12, p.29; Rocket AP History p.25, p.47; app notes 1:78 (sub 2, 7)
