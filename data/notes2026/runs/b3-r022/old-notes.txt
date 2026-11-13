@@ -1,0 +1,496 @@
+=== NOTES 3:22 | National Income Concepts – Gdp, Gnp, Ndp, Nnp, Factor Cost vs Market Price, Gva, Deflator
+## SUB 0 | Gdp – Definition and Elements
+[22:0:0] - **GDP** = market value of **all final goods and services** produced **within the geographical boundaries** of a country **during a year**, **whoever produces them** (GS 2025 key).
+[22:0:1] - Three elements: **final** goods only (no intermediate goods), **domestic territory**, **time period** (one year).
+[22:0:2] - **Gross** = before deducting depreciation; **Domestic** = within the country irrespective of nationality.
+[22:0:3] - GDP = **Q x P**; counts production by both residents and non-residents inside the territory.
+[22:0:4] - GDP is **place-based**; it does **NOT include NFIA**.
+[22:0:5] - **National income** = money value of final goods and services produced (**no intermediate goods**).
+[22:0:6] - **Income method**: GDP = domestic factor incomes − transfer payments.
+[22:0:7] - **Hindu growth rate** is related to **GDP**.
+## SUB 1 | Gnp and Gdp vs Gnp
+[22:1:0] # GNP
+[22:1:1] - **GNP (Gross National Product)** = total money value of final goods and services produced by the **normal residents** of a country during a period, **inside and outside** the country's boundaries.
+[22:1:2] - GNP is **nationality/residence-based**.
+[22:1:3] # Comparison
+[22:1:4] TABLE head: Basis | GDP | GNP
+  [22:1:4.0] Based on | Domestic territory | Normal residents / nationals
+  [22:1:4.1] Measures | Production within the country | Production by residents within and outside the country
+  [22:1:4.2] Nature | Location-based | Residence-based
+  [22:1:4.3] Indians earning abroad | Excluded | Included
+  [22:1:4.4] Link | GDP = GNP − NFIA | GNP = GDP + NFIA
+[22:1:5] - **Main difference** between GDP and GNP = **net factor income from abroad (NFIA)**.
+[22:1:6] - **NFIA** = factor income **received from abroad − factor income paid abroad**.
+[22:1:7] - NFIA form: **GNP = GDP + X − M** (X = income of nationals abroad; M = income of foreigners in India).
+[22:1:8] # When one exceeds the other
+[22:1:9] TABLE head: Condition | Result
+  [22:1:9.0] NFIA positive (residents earn more abroad than foreigners earn at home) | GNP > GDP
+  [22:1:9.1] NFIA negative | GNP < GDP
+  [22:1:9.2] NFIA zero | GNP = GDP
+[22:1:10] - **India**: NFIA usually **negative** -> **GNP lower than GDP**.
+[22:1:11] - An Indian resident's factor income earned in **Saudi Arabia** counts in India's **GNP only**, not GDP.
+[22:1:12] GDP is NOT equal to GNP – GNP considers nationality (factor income from abroad).
+## SUB 2 | Aggregates and Conversions
+[22:2:0] # Formula table
+[22:2:1] TABLE head: Aggregate | Formula
+  [22:2:1.0] GNP | GDP + NFIA; also NNP + depreciation
+  [22:2:1.1] NDP | GDP minus depreciation (not plus)
+  [22:2:1.2] NNP | NDP + NFIA; also GNP − depreciation
+  [22:2:1.3] NNP at MP | GNP at MP − depreciation
+  [22:2:1.4] NNP (FC) | NNP (MP) − net indirect taxes
+  [22:2:1.5] National Income | NNP at factor cost = NDP at FC + NFIA
+  [22:2:1.6] National Income (long form) | GNP at MP − depreciation − indirect taxes + subsidies
+  [22:2:1.7] National Income (from NNP) | NNP at MP − (indirect taxes − subsidies)
+  [22:2:1.8] GDP at MP | GNP at MP − net income from abroad
+  [22:2:1.9] Shortcut | NNP = GDP + NFIA − depreciation
+[22:2:2] # Three bridges
+[22:2:3] TABLE head: Bridge | Item | Rule
+  [22:2:3.0] Domestic -> National | NFIA | GNP = GDP + NFIA
+  [22:2:3.1] Gross -> Net | Depreciation | NDP = GDP − Dep; NNP = GNP − Dep
+  [22:2:3.2] Market price -> Factor cost | Net indirect taxes | FC = MP − (indirect taxes − subsidies)
+[22:2:4] - **Depreciation** (consumption of fixed capital) is removed because output that only replaces worn-out capital is **not new output**.
+[22:2:5] # Path from GDP (MP) to National Income
+[22:2:6] - 1. GDP (MP)
+[22:2:7] - 2. + NFIA -> GNP (MP)
+[22:2:8] - 3. − depreciation -> NNP (MP)
+[22:2:9] - 4. − net indirect taxes -> **NNP (FC) = National Income**
+[22:2:10] National Income = **NNP at factor cost** – the standard measure.
+## SUB 3 | Factor Cost vs Market Price; Gva at Basic Prices
+[22:3:0] # Factor cost vs market price
+[22:3:1] - **MP = FC + indirect taxes − subsidies**; **FC = MP − indirect taxes + subsidies**.
+[22:3:2] - GDP at MP and GDP at FC differ by **indirect taxes and subsidies – not direct taxes** (APPSC-G2 2025).
+[22:3:3] Subsidies are **added back** when going from MP to FC; "− subsidies" in that step is the wrong sign.
+[22:3:4] # Production taxes vs product taxes
+[22:3:5] TABLE head: Type | Meaning | Examples
+  [22:3:5.0] Production taxes | Levied irrespective of output | Land revenue, stamp duty, property tax
+  [22:3:5.1] Product taxes | Levied per unit of product | Excise, sales tax/GST
+[22:3:6] # Three price levels
+[22:3:7] TABLE head: Step | Result
+  [22:3:7.0] GVA at factor cost + net production taxes | GVA at basic prices
+  [22:3:7.1] GVA at basic prices + net product taxes | GVA at market prices = GDP
+[22:3:8] - **GDP = GVA + taxes on products − subsidies** (wider measure).
+[22:3:9] - **GVA vs NVA**: GVA **includes** depreciation; NVA **excludes** it.
+## SUB 4 | Gva – Meaning and Headline Measure
+[22:4:0] - **GVA** = value added by producers and sectors – a **production-side** measure; GDP = broader measure after net taxes on products.
+[22:4:1] - **Real GVA** at constant prices (base year **removes the effect of price changes**); **nominal GVA** at current prices.
+[22:4:2] - **GVA at basic prices** = headline sectoral measure since the **2011-12 series**; still used in the **2022-23 series**; NSO headline growth is on GVA at basic prices.
+[22:4:3] - **Sep 2026**: Q1 2026-27 real GDP **Rs 81.36 lakh crore** vs real GVA **Rs 73.82 lakh crore** (difference = net product taxes).
+## SUB 5 | Inclusions and Exclusions
+[22:5:0] TABLE head: Included | Excluded
+  [22:5:0.0] Wages and salaries, rent, profits, dividends, interest on productive loans | Transfer payments – pensions, scholarships, unemployment allowance, prizes (no productive service in return)
+  [22:5:0.1] Value added at each stage | Intermediate goods (double counting)
+  [22:5:0.2] Commission on resale (payment for a productive service; NOT a transfer payment) | Second-hand sales (already counted when produced)
+  [22:5:0.3]  | Interest on public debt, tax revenue (transfers, not factor payments)
+  [22:5:0.4]  | Transfer earnings (not payments for factor services)
+[22:5:1] - **Factor income** = wages, rent, interest, profit earned by the factors of production.
+[22:5:2] - **National income at factor cost** = wages, rent, interest and profits of the country's **normal residents**.
+[22:5:3] - Transfer payments are **added back** when moving from NI to personal income.
+[22:5:4] APPSC-G2 2025 A-R: Transfer earnings are excluded – both A and R true, R explains A.
+## SUB 6 | Personal, Disposable and Per Capita Income
+[22:6:0] # Derivation steps
+[22:6:1] TABLE head: Measure | Derivation
+  [22:6:1.0] Personal Income | NI − undistributed corporate profits − social security contributions − corporate tax + government and business transfer payments + net interest paid by government
+  [22:6:1.1] Personal Disposable Income | Personal income − personal direct taxes − non-tax payments (fines, fees) = what individuals can spend or save
+  [22:6:1.2] National savings | National disposable income − consumption
+  [22:6:1.3] Per Capita Income | National Income ÷ Population (APPSC 2025; GS 2025 key)
+[22:6:2] - **Per capita income** = average income of a country; it rises **only when NI grows faster than population**.
+[22:6:3] # Flow vs stock
+[22:6:4] - **National income = flow** (over a period); **national wealth = stock** (point of time).
+[22:6:5] # Growth measure
+[22:6:6] - **Sign of economic growth** = sustained increase in **real per capita income**.
+[22:6:7] - **Most appropriate measure** of economic growth = **per capita real income** (per capita product / per capita NNP).
+[22:6:8] - Considered in growth: GDP, GNP, per capita GNP; **NOT considered: growth in financial aid from World Bank**.
+## SUB 7 | Nominal vs Real Gdp
+[22:7:0] TABLE head: Basis | Nominal GDP | Real GDP
+  [22:7:0.0] Prices | Current-year prices | Constant / base-year prices
+  [22:7:0.1] Includes price change | Yes | No
+  [22:7:0.2] Better indicator of output growth | No | Yes
+[22:7:1] - **Real GDP** = value of production at prices of a **single (base) year**.
+[22:7:2] - **Base year now 2022-23** (earlier 2011-12).
+[22:7:3] - Example: nominal GDP 1,000 -> 1,200 while price index 100 -> 120 -> **real GDP unchanged**.
+[22:7:4] - **Prices and money income both doubled** -> **real income unchanged**.
+[22:7:5] - Nominal growth exceeds real by roughly the **inflation rate**; 2025-26: nominal **8.0%** vs real **7.4%** (estimates, old series).
+[22:7:6] - Per capita income grows faster at **current** prices than at **constant** prices, because constant prices allow for the rise in price level.
+## SUB 8 | Gdp Deflator and Gnp Deflator
+[22:8:0] TABLE head: Item | Fact
+  [22:8:0.0] GDP deflator | Nominal GDP / Real GDP x 100 = GDP at current prices / GDP at constant prices x 100 (APPSC-G2 2025)
+  [22:8:0.1] GNP deflator | Ratio of nominal GNP to real GNP, as a percentage
+  [22:8:0.2] Why most comprehensive | Covers all goods and services in GDP (consumption, investment, government, exports); WPI, CPI, CPI-IW use fixed baskets
+  [22:8:0.3] Rising deflator | Higher prices -> purchasing power of money falls
+[22:8:1] - GDP deflator = **most comprehensive measure of inflation** (G2 2025 key).
+[22:8:2] - **Double deflation** (2022-23 series): deflates **output and input prices separately** for manufacturing and agriculture, replacing single deflation.
+[22:8:3] - Sectoral deflators (2025-26): agriculture grew fastest -> services -> industry -> manufacturing; so manufacturing's nominal share fell while its real share stayed about **17-18%**.
+## SUB 9 | New Gdp Series, Ppp and India's Rank
+[22:9:0] # New series
+[22:9:1] - **27 Feb 2026**: NSO released the new GDP series (**base 2022-23**) with **double deflation** and **Supply-Use Tables**.
+[22:9:2] - GDP at current prices: **Rs 261.18 / 289.84 / 318.07 lakh crore** for 2022-23 / 2023-24 / 2024-25.
+[22:9:3] # Purchasing Power Parity
+[22:9:4] - **PPP** compares GDP by pricing a **common basket** at each country's own prices -> removes price-level differences.
+[22:9:5] - Estimated under the **International Comparison Program (ICP)** of the **UNSD**; **World Bank** = global implementing agency; **NSO** = India's nodal agency.
+[22:9:6] - India's **PPP GDP is much larger** than market-rate GDP because **prices are lower in India**.
+[22:9:7] # India's rank
+[22:9:8] TABLE head: Measure | India's rank
+  [22:9:8.0] Nominal GDP, 2025 | 4th (overtook Japan; about USD 4.18 trillion)
+  [22:9:8.1] Nominal GDP, IMF WEO April 2026 | 6th (USD 4.15 trillion)
+  [22:9:8.2] PPP GDP | 3rd, after USA and China (ICP 2021)
+[22:9:9] - Older facts: **Japan** was the third largest economy (UPPCS 2007); highest per capita income in World Development Report 2000 = **Luxembourg ($44,640)**; in 2024 **Singapore** had the highest per capita GNI (PPP).
+## SUB 10 | State Domestic Product and Ap
+[22:10:0] - **State Domestic Product** (APSES wording, asked word for word in APPSC-GS 2025) = aggregate economic value of all goods and services produced **within the State's boundaries**, **counted without duplication**, during a specified period, usually a year.
+[22:10:1] - **AP per capita income** is computed on **NSDP**: **Rs 2,68,653** vs India **Rs 2,00,162** (2024-25 FAE).
+[22:10:2] - Per capita GSDP = gross; per capita income = net -> compare gross with gross, net with net.
+[22:10:3] - **Goa** = highest per capita income among Indian States; **Bihar** had the highest GSDP growth in 2010-11 among the States given.
+[22:10:4] - **Largest State economy (2024-25):** **Maharashtra** has the largest GSDP among Indian States; **Tamil Nadu** is second.
+## SUB 11 | Investment Concepts – Saving, Multiplier, Accelerator
+[22:11:0] TABLE head: Concept | Meaning
+  [22:11:0.0] Autonomous investment | Independent of income; driven by outside factors – new product, new technique, new market
+  [22:11:0.1] Induced investment | Rises with income / demand for consumer goods
+  [22:11:0.2] Gross vs net investment | Net = gross − depreciation; net addition to capital stock
+  [22:11:0.3] Planned (ex-ante) vs unplanned | Unplanned = unintended change in inventories; realised = planned + unplanned
+  [22:11:0.4] Saving-investment link | Equilibrium income where planned saving = planned investment
+  [22:11:0.5] Multiplier (k) | k = 1/(1 − MPC) = 1/MPS
+  [22:11:0.6] Accelerator | Induced investment ÷ change in income; linked to J.M. Clark
+[22:11:1] - If planned saving > planned investment, unsold goods pile up, output and income fall until saving = investment.
+[22:11:2] - Gross investment that only covers depreciation -> **net investment zero**.
+[22:11:3] Multiplier works on **MPC/MPS**; accelerator works on the **change in income**, not its level.
+## SUB 12 | Number Game and Quick Revision
+[22:12:0] TABLE head: Item | Correct Fact
+  [22:12:0.0] Example: GDP(MP) 500, Dep 50, NFIA −10, NIT 40 | GNP(MP) 490; NNP(MP) 440; NDP(FC) 410; NI 400
+  [22:12:0.1] Example: GDP(MP) 110; Indians earn 20 abroad, foreigners 10 in India | NFIA +10 -> GNP 120; Dep 15 -> NNP 105; NIT 5 -> NI 100
+  [22:12:0.2] Base year | 2022-23 (earlier 2011-12)
+  [22:12:0.3] New series released | 27 Feb 2026
+  [22:12:0.4] AP vs India per capita income (2024-25) | Rs 2,68,653 vs Rs 2,00,162
+  [22:12:0.5] India's PPP rank | 3rd
+[22:12:1] # FIRST / LAST / SPECIAL FACTS
+[22:12:2] - National income proper: NNP at factor cost.
+[22:12:3] - Most comprehensive inflation measure: GDP deflator.
+[22:12:4] - Only bridge with subsidies: MP -> FC (subsidies added back).
+## SUB 13 | Appsc Previous Year Questions
+[22:13:0] TABLE head: Examination | Question Area
+  [22:13:0.0] Group 2 Mains 2025, Paper 2 | Investment, saving, multiplier concepts
+  [22:13:0.1] Group 2 Mains 2025, Paper 2 | GDP deflator, inflation index
+  [22:13:0.2] Group 2 Mains 2025, Paper 2 | GDP at MP vs FC – subsidies and taxes
+  [22:13:0.3] Group 2 Mains 2025, Paper 2 | Transfer earnings A-R; GDP index
+  [22:13:0.4] APPSC-GS 2025 | SDP definition; per capita income; GDP definition
+## SUB 14 | High-probability Mcq Traps
+[22:14:0] VERY IMPORTANT
+[22:14:1] - 1. **National Income = NNP at FC**, not GNP or GDP at MP.
+[22:14:2] - 2. **NDP = GDP − depreciation**, not plus.
+[22:14:3] - 3. MP vs FC differ by **indirect taxes and subsidies**, not direct taxes.
+[22:14:4] - 4. India's **GNP < GDP** because NFIA is negative.
+[22:14:5] - 5. **Transfer payments and transfer earnings** are excluded; **commission on resale** is included.
+[22:14:6] - 6. **Interest on public debt** and **second-hand sales** are excluded.
+[22:14:7] - 7. Rising GNP deflator **decreases** purchasing power of money.
+[22:14:8] - 8. Prices and money income both doubled -> real income **unchanged**.
+[22:14:9] - 9. **GVA includes depreciation**; NVA excludes it.
+[22:14:10] - 10. PPP nodal agency in India = **NSO**; global implementing agency = **World Bank**.
+
+=== OWN MCQs of 3:22 (75)
+[n7a3aca4c29c] sub0
+  What is the value of all final goods and services produced within the geographical boundaries of a country during a year, irrespective of who produces them, called?
+  GNP | *GDP | NNP | NDP
+  x: GDP measures the market value of final goods and services produced within a country's geographical boundaries during a year, including production by residents and non-residents.
+[g00e660f78d1a] sub0
+  Which method measures GDP as domestic factor incomes minus transfer payments?
+  Product method | Expenditure method | *Income method | Commodity flow method
+  x: The income method adds factor incomes (wages, rent, interest, profit); transfer payments are kept out.
+[nindian-economy-5-4] sub1
+  Which of the following pairs is correctly matched?
+  *GNP – GDP + NFIA | NDP – GDP + NFIA | NNP – GDP − Depreciation | GDP – NDP + NFIA
+  x: GNP is GDP plus NFIA. NDP is GDP minus depreciation, and NNP is NDP plus NFIA.
+[n6f43ca764b7] sub1
+  Which one of the following correctly represents Net Factor Income from Abroad (NFIA)?
+  Exports minus imports of goods and services | Domestic factor income minus domestic consumption | Factor income paid abroad minus factor income received from abroad | *Factor income received from abroad minus factor income paid abroad
+  x: NFIA is factor income received from abroad minus factor income paid abroad. It is added to GDP to obtain GNP.
+[nadc2bd49e6c] sub1
+  To which aggregate of India does an Indian resident's factor income earned in Saudi Arabia contribute?
+  GDP only | *GNP only | Neither GDP nor GNP | Both GDP and GNP
+  x: Factor income earned by an Indian resident abroad is excluded from India's domestic product but included in its national product.
+[n3d207955e2d] sub1
+  India's GNP is usually lower than its GDP. What is the usual sign of its net factor income from abroad?
+  positive | *negative | zero | equal to depreciation
+  x: India's NFIA is usually negative, making GNP lower than GDP.
+[nindian-economy-5-2] sub1
+  Which of the following statements is incorrect?
+  GNP considers nationality or factor income. | *GDP includes net factor income from abroad. | GDP refers to production within the country. | GDP is different from GNP.
+  x: Option B is incorrect: GDP counts production inside the country's borders. Net factor income from abroad (NFIA) is added to get GNP, the measure based on nationality.
+[nindian-economy-27-2] sub1
+  Which of the following statements is incorrect?
+  GDP is based on production within a country's domestic territory. | *GDP includes production by residents both within and outside the country. | GNP includes production by residents within and outside the country. | GNP is based on production by normal residents of a country.
+  x: Option B is incorrect: GDP is based on location and counts all production inside the country. Counting residents' production inside and outside the country is GNP.
+[ga4f534955574] sub1
+  Under which condition will GNP be greater than GDP?
+  When net factor income from abroad is negative | *When net factor income from abroad is positive | When depreciation exceeds net indirect taxes | When net factor income from abroad is zero
+  x: GNP = GDP + NFIA, so GNP exceeds GDP only when NFIA is positive.
+[g135dbac7455a] sub1
+  What is the full form of NFIA?
+  Net Foreign Investment Account | National Fund for Income Accounting | Net Fixed Investment Allowance | *Net Factor Income from Abroad
+  x: NFIA = Net Factor Income from Abroad, the factor income received from abroad minus that paid abroad.
+[nindian-economy-27-5] sub2
+  Which of the following is GNP equal to?
+  NNP minus depreciation | NNP plus indirect taxes | *NNP plus depreciation | NDP minus depreciation
+  x: GNP = NNP + depreciation; national income is NNP at factor cost.
+[na8e41beb8db] sub2
+  How is GDP at factor cost obtained from GDP at market prices?
+  minus direct taxes plus subsidies | *minus indirect taxes plus subsidies | minus depreciation | plus indirect taxes minus subsidies
+  x: Indirect taxes and subsidies, not direct taxes, bridge GDP at market prices and at factor cost.
+[nd6fd5839299] sub2
+  Why is depreciation deducted while calculating net national or domestic product?
+  Because depreciation measures the income earned by foreign factors | Because depreciation is a direct tax on capital goods | Because depreciation represents transfer payments to households | *Because output used merely to replace worn-out capital does not constitute new output
+  x: Depreciation, or consumption of fixed capital, is deducted because production used only to replace worn-out capital adds nothing new to the productive stock.
+[f4ec86aa3f87a] sub2
+  What is Net Domestic Product (NDP) equal to?
+  *GDP minus depreciation | GDP plus depreciation | GDP plus NFIA | GNP minus depreciation
+  x: NDP = GDP − depreciation; GNP − depreciation gives NNP.
+[fae05a3fe7717] sub2
+  GDP at market prices is ₹110; Indians earn ₹20 abroad, foreigners ₹10 in India; depreciation ₹15; net indirect taxes ₹5. What is the national income?
+  ₹105 | ₹120 | ₹90 | *₹100
+  x: NFIA +10 gives GNP 120; minus depreciation 15 gives NNP 105; minus NIT 5 gives NI 100.
+[g7c45abe58c39] sub2
+  Which item is deducted from NNP at market prices to obtain national income?
+  Depreciation | Net factor income from abroad | *Net indirect taxes | Transfer payments
+  x: National income is NNP at factor cost = NNP at market prices minus (indirect taxes minus subsidies).
+[g38ce9072e0a5] sub2
+  Consider the following statements:
+1. National income is NNP at factor cost.
+2. National income is equal to NDP at factor cost plus NFIA.
+3. National income is GDP at market prices.
+Which of the statements given above is/are correct?
+  1 only | *1 and 2 only | 2 and 3 only | 1, 2 and 3
+  x: National income = NNP at factor cost = NDP at factor cost + NFIA; GDP at market prices is a different, wider aggregate.
+[n4c72f5df597] sub3
+  Which of the following is a production tax rather than a product tax?
+  Goods and Services Tax | Sales tax on each unit sold | Excise duty per unit of output | *Stamp duty
+  x: Production taxes are levied irrespective of the quantity of output; stamp duty and property tax are examples. GST, excise and sales tax are product taxes levied per unit or value of product.
+[ff0d43863dcfb] sub3
+  What does GVA at factor cost plus net production taxes give?
+  GVA at market prices | Net value added | NNP at factor cost | *GVA at basic prices
+  x: Adding net production taxes to GVA at factor cost gives GVA at basic prices; adding net product taxes then gives GDP.
+[f390309a25f35] sub3
+  Which of the following is a product tax?
+  Land revenue | Stamp duty | *GST | Property tax
+  x: Product taxes such as GST and excise are levied per unit; land revenue, stamp duty and property tax are production taxes.
+[fdb5e3ff4e679] sub3
+  While converting GDP at market prices to GDP at factor cost, what is done with subsidies?
+  *Added | Subtracted | Ignored | Replaced by direct taxes
+  x: FC = MP − indirect taxes + subsidies, so subsidies are added back.
+[nindian-economy-26-3] sub4
+  GDP is equal to GVA plus which of the following?
+  Depreciation | *Taxes on products minus subsidies | Net factor income from abroad | Direct taxes minus transfer payments
+  x: GVA is the production-side measure; GDP is the wider measure, GVA plus taxes on products minus subsidies.
+[nindian-economy-26-5] sub4
+  Why is a base year used in Real GVA?
+  include depreciation | convert values to current prices | add product subsidies | *remove the effect of price changes
+  x: Real GVA uses constant base-year prices to strip out price changes; nominal GVA uses current prices.
+[n3c944c65493] sub4
+  Which of the following is NOT correct about Gross Value Added (GVA)?
+  GVA at basic prices has been the headline sectoral measure since the 2011-12 series. | *GVA at basic prices is not used in the 2022-23 series. | GVA includes depreciation. | NVA excludes depreciation.
+  x: GVA at basic prices continues to be used in the 2022-23 series.
+[f9301de47b82c] sub4
+  Which of the following is true of GVA and NVA?
+  GVA excludes depreciation; NVA includes it | *GVA includes depreciation; NVA excludes it | Both include depreciation | Both exclude depreciation
+  x: GVA includes depreciation, while NVA excludes it.
+[ge83148a82b51] sub4
+  In Q1 2026-27, real GDP was Rs 81.36 lakh crore and real GVA Rs 73.82 lakh crore. What does the difference between them represent?
+  *Net product taxes | Depreciation | Net factor income from abroad | Transfer payments
+  x: GDP = GVA + taxes on products − subsidies, so the gap is net product taxes.
+[n75bc786385a] sub5
+  Which of the following combinations represents the components of national income at factor cost?
+  Indirect taxes, subsidies, depreciation and exports | Consumption, investment, government expenditure and imports | *Wages, rent, interest and profits earned by the country's normal residents | Only wages and salaries earned within domestic territory
+  x: National income is the sum of wages, rent, interest and profits earned by factors belonging to the country, including the adjustment for NFIA.
+[nf7f8328abe4] sub5
+  Which one of the following is NOT treated as a transfer payment for purposes of national income accounting?
+  Scholarship | Old-age pension | *Commission earned on resale | Unemployment allowance
+  x: Commission on resale is payment for a productive service and is included. Pensions, scholarships and unemployment allowances are transfer payments.
+[n35580d5d8c4] sub5
+  Which one of the following is correctly matched?
+  *Value added at each stage — included without counting the full value of intermediate goods again | Intermediate goods — included separately in national income to reflect all production | Second-hand sales — included as current production in national income | Interest on public debt — factor payment for current productive services
+  x: Value added at each stage is included, while intermediate goods are excluded separately to avoid double counting. Second-hand sales and interest on public debt are also excluded in the stated accounting treatment.
+[f70ed8f0cf165] sub5
+  Interest on public debt is excluded from national income because it is treated as what?
+  An intermediate good | Depreciation | *A transfer, not a factor payment | A product tax
+  x: Interest on public debt, like tax revenue, is a transfer and not a factor payment.
+[nbdea3166b0c] sub5
+  Which of the following is excluded from national income because it is not a payment for factor services?
+  Rent received by a landowner | Interest on a productive loan | *Transfer earnings | Profit earned by an enterprise
+  x: Transfer earnings are not payments for factor services; rent, productive interest and profit are factor incomes.
+[f3418e2fe4faf] sub5
+  Which of the following is included in national income?
+  Second-hand sales | *Commission on resale | Pensions | Scholarships
+  x: Commission on resale pays for a productive service; second-hand sales and transfer payments are excluded.
+[n0df2bd20925] sub6
+  Which one of the following conditions is necessary for per capita income to rise?
+  Income must grow more slowly than population | Depreciation must be greater than income growth | *Income must grow faster than population | Population must remain completely constant
+  x: Per capita income rises only when the growth of income exceeds the growth of population.
+[n7679df498b1] sub6
+  What is deducted from personal income to obtain personal disposable income?
+  Undistributed corporate profits and social security contributions | Government and business transfer payments | Only corporate tax | *Personal direct taxes and non-tax payments such as fines and fees
+  x: Personal disposable income equals personal income minus personal direct taxes and non-tax payments such as fines and fees.
+[n71f5df02633] sub6
+  What kind of concept is national wealth, measured at a point of time?
+  *stock | nominal | real | flow
+  x: National wealth is a stock measured at a point of time; national income is a flow measured over a period.
+[n8718eb52fc2] sub6
+  Which of the following is ADDED to national income in arriving at personal income?
+  *Government and business transfer payments | Undistributed corporate profits | Social security contributions | Corporate tax
+  x: Transfer payments are added; undistributed profits, social security contributions and corporate tax are deducted.
+[f89a6f2e5a906] sub6
+  Which of the following is deducted from national income in arriving at personal income?
+  *Undistributed corporate profits | Transfer payments | Net interest paid by government | Personal direct taxes
+  x: Undistributed corporate profits are deducted; transfer payments are added; personal direct taxes are deducted later for disposable income.
+[ga131a13a8c83] sub6
+  How is per capita income calculated?
+  *National income ÷ Population | GDP ÷ Number of workers | National income × Population | GNP ÷ Number of households
+  x: Per capita income is national income divided by population; it rises only when income grows faster than population.
+[g0a232420014d] sub6
+  How are national savings obtained?
+  *National disposable income minus consumption | GDP minus consumption | Personal income minus personal direct taxes | NNP minus depreciation
+  x: National savings = national disposable income − consumption.
+[nce2ac7a2e5f] sub7
+  A country's nominal GDP rises from ₹1,000 crore to ₹1,200 crore, while its price index rises from 100 to 120. What happens to its real GDP?
+  It rises by 20 per cent | It falls by 20 per cent | *It remains unchanged | It rises by 40 per cent
+  x: The increase in nominal GDP is exactly matched by the increase in the price index from 100 to 120, so output measured at constant prices remains unchanged.
+[nindian-economy-5-5] sub7
+  At which prices is real GDP measured?
+  current-year prices | *constant (base-year) prices | current factor prices | average world prices
+  x: Real GDP uses constant base-year prices, nominal GDP current prices; real growth shows true output growth.
+[g7c7b10953137] sub7
+  Why does nominal GDP growth usually exceed real GDP growth?
+  Because of depreciation | Because of population growth | *Because of the rise in the price level (inflation) | Because of net factor income from abroad
+  x: Nominal GDP uses current prices, so its growth includes price rise; it exceeds real growth by roughly the inflation rate.
+[g577a8b893695] sub7
+  In 2025-26 (estimates, old series), India's nominal GDP growth was 8.0%. What was its real GDP growth?
+  6.5% | *7.4% | 8.0% | 9.2%
+  x: Real growth was 7.4%; nominal growth exceeds real growth by roughly the inflation rate.
+[n95f7aa10888] sub8
+  In the 2022–23 national accounts series, which method replaced single deflation for manufacturing and agriculture?
+  *Double deflation | Fixed-basket deflation | Export-price deflation | Gross deflation
+  x: The 2022–23 series uses double deflation, which separately deflates output prices and input prices.
+[n4a942c9a3da] sub8
+  Which of the following is regarded as the most comprehensive measure of inflation in India?
+  Wholesale Price Index | Consumer Price Index (Combined) | *GDP deflator | CPI for Industrial Workers
+  x: The GDP deflator covers all goods and services in GDP (consumption, investment, government, exports), whereas WPI, CPI and CPI-IW price fixed baskets (APPSC-G2 2025 key).
+[g1cc045569e2e] sub8
+  What is obtained by dividing nominal GDP by real GDP and multiplying by 100?
+  *GDP deflator | Consumer Price Index | Wholesale Price Index | Real GVA
+  x: GDP deflator = nominal GDP / real GDP x 100, i.e. GDP at current prices over GDP at constant prices.
+[gfc6d3bf1c25d] sub8
+  What happens to the purchasing power of money when the GNP deflator rises?
+  It rises | It stays unchanged | It doubles | *It falls
+  x: A rising deflator means higher prices, so each rupee buys less: purchasing power of money falls.
+[g160fdcc9cedc] sub8
+  Why is the GDP deflator regarded as the most comprehensive measure of inflation?
+  It covers only consumer goods | *It covers all goods and services included in GDP | It is based on a fixed basket of goods | It is released every week
+  x: The GDP deflator covers all goods and services in GDP, while WPI and CPI use fixed baskets.
+[nbdf110f7ed8] sub9
+  Which is India's nodal agency for purchasing power parity estimation under the International Comparison Program?
+  RBI | NITI Aayog | Ministry of Finance | *NSO
+  x: The World Bank is the global implementing agency and the NSO is India's nodal agency.
+[nb4ca55f4338] sub9
+  Why is India's PPP-based GDP much larger than its GDP measured at the market exchange rate?
+  Market exchange rates include transfer payments while PPP excludes them | India has higher domestic price levels than the United States and China | *Prices are lower in India, so the same domestic output has greater purchasing power when compared internationally | PPP excludes services from GDP measurement
+  x: Lower prices in India make its output larger when valued using purchasing power parity than when converted at market exchange rates.
+[ff6d569e65a8a] sub9
+  Which is the global implementing agency of the International Comparison Program for PPP?
+  IMF | NSO | WTO | *World Bank
+  x: The World Bank implements the ICP globally; NSO is India's nodal agency.
+[f8c6d4d0d38dd] sub9
+  What is India's rank by PPP-based GDP (ICP 2021)?
+  4th | 5th | *3rd | 6th
+  x: India is 3rd by PPP GDP, after the USA and China.
+[fb24f2f08151b] sub9
+  What is the base year of India's new GDP series released on 27 February 2026?
+  2011-12 | *2022-23 | 2017-18 | 2004-05
+  x: The new series has base 2022-23, replacing 2011-12.
+[gfedb045dee07] sub9
+  In 2025, India became the world's fourth-largest economy by nominal GDP by overtaking which country?
+  Germany | United Kingdom | *Japan | France
+  x: India became 4th by nominal GDP in 2025 (about USD 4.18 trillion), overtaking Japan.
+[g550baa91e108] sub9
+  Under the new GDP series (base 2022-23), what was India's GDP at current prices in 2024-25?
+  Rs 261.18 lakh crore | Rs 289.84 lakh crore | *Rs 318.07 lakh crore | Rs 331.03 lakh crore
+  x: The new series gives Rs 261.18, 289.84 and 318.07 lakh crore for 2022-23, 2023-24 and 2024-25.
+[g2184368f7fc6] sub9
+  Which country had the highest per capita GNI (PPP) in 2024?
+  Luxembourg | *Singapore | Qatar | Switzerland
+  x: In 2024, Singapore had the highest per capita GNI at PPP.
+[gce2edd88e815] sub9
+  According to the World Development Report 2000, which country had the highest per capita income?
+  *Luxembourg | Switzerland | Japan | USA
+  x: WDR 2000 placed Luxembourg first, at $44,640 per capita.
+[g89b346023f4d] sub9
+  On what basis is GDP compared across countries under purchasing power parity (PPP)?
+  *Pricing a common basket of goods and services at each country's own prices | Converting GDP at market exchange rates | Comparing gold reserves of countries | Comparing per capita exports
+  x: PPP prices a common basket at each country's own prices, removing price-level differences.
+[g19e657486da7] sub9
+  Under which programme of the UN Statistics Division are PPP estimates made?
+  *International Comparison Program (ICP) | System of National Accounts (SNA) | System of Environmental-Economic Accounting (SEEA) | Special Data Dissemination Standard (SDDS)
+  x: PPPs are estimated under the International Comparison Program of the UNSD; the World Bank is its global implementing agency.
+[g46deff9a8cc1] sub9
+  According to the IMF World Economic Outlook (April 2026), what was India's rank by nominal GDP?
+  3rd | 4th | 5th | *6th
+  x: The IMF WEO April 2026 placed India 6th by nominal GDP (USD 4.15 trillion).
+[n2c7139e37db] sub10
+  As per the AP Socio-Economic Survey, what is the value of all goods and services produced within the State in a period, counted without duplication, called?
+  *State Domestic Product | Per capita income | Personal disposable income | Gross National Product
+  x: This is the APSES definition of State Domestic Product. GNP is a national, nationality-based measure, and per capita income divides income by population.
+[na881f4407b3] sub10
+  On the basis of which aggregate is per capita income computed in Andhra Pradesh?
+  Gross State Domestic Product (GSDP) | *Net State Domestic Product (NSDP) | Gross Domestic Product (GDP) at the national level | Net National Product (NNP)
+  x: Andhra Pradesh per capita income is computed on the basis of Net State Domestic Product (NSDP).
+[n1be3a9a33ea] sub10
+  What was Andhra Pradesh's per capita income in 2024-25 (FAE)?
+  Rs. 2,00,162 | Rs. 2,48,653 | *Rs. 2,68,653 | Rs. 2,86,653
+  x: AP's per capita income was Rs. 2,68,653 against India's Rs. 2,00,162 in 2024-25 FAE.
+[ga00db071bd6a] sub10
+  Which State has the highest per capita income among Indian States?
+  Maharashtra | *Goa | Kerala | Gujarat
+  x: Goa has the highest per capita income among Indian States.
+[gdd41520c5629] sub10
+  What was India's per capita income in 2024-25 (FAE)?
+  Rs 1,72,000 | *Rs 2,00,162 | Rs 2,68,653 | Rs 2,31,000
+  x: India's per capita income in 2024-25 (FAE) was Rs 2,00,162, against AP's Rs 2,68,653.
+[g80088e61518f] sub10
+  Which State is the largest State economy of India by GSDP (2024-25)?
+  *Maharashtra | Tamil Nadu | Uttar Pradesh | Karnataka
+  x: Maharashtra has the largest GSDP among Indian States (2024-25); Tamil Nadu is second.
+[g732665320110] sub10
+  Which State ranked second by GSDP in India in 2024-25, after Maharashtra?
+  *Tamil Nadu | Karnataka | Gujarat | Uttar Pradesh
+  x: Tamil Nadu is the second-largest State economy, behind Maharashtra (2024-25).
+[f9b684585b4fd] sub11
+  What is the investment multiplier (k) equal to?
+  1/MPC | 1 − MPC | MPC/MPS | *1/(1 − MPC)
+  x: k = 1/(1 − MPC), which is the same as 1/MPS.
+[f42175c2869df] sub11
+  With whom is the accelerator principle linked?
+  Alfred Marshall | A.C. Pigou | *J.M. Clark | Irving Fisher
+  x: The accelerator, induced investment over the change in income, is linked to J.M. Clark.
+[f392d2749eedd] sub11
+  What is investment that is independent of income, driven by a new product, technique or market, called?
+  Induced investment | *Autonomous investment | Unplanned investment | Net investment
+  x: Autonomous investment does not depend on income; induced investment rises with income.
+[f95660396c051] sub11
+  If gross investment only covers depreciation, what is net investment?
+  *Zero | Equal to gross investment | Negative | Double the depreciation
+  x: Net investment = gross investment − depreciation, so it is zero.
+[fdb80d230dd1b] sub11
+  Consider the following statements about saving and investment:
+1. Realised investment equals planned plus unplanned investment.
+2. Equilibrium income is where planned saving equals planned investment.
+3. If planned saving exceeds planned investment, output and income rise.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Statements 1 and 2 are correct; excess planned saving piles up unsold goods, so output and income fall.
+[gf8afc44a5339] sub11
+  On what does the accelerator principle depend?
+  *The change in income | The level of income | The marginal propensity to consume | The rate of interest
+  x: The accelerator links induced investment to the change in income, not its level; the multiplier works on MPC/MPS.
+[g0dbdcca779f1] sub11
+  If the marginal propensity to save (MPS) is 0.25, what is the value of the investment multiplier?
+  2 | *4 | 5 | 0.25
+  x: k = 1/MPS = 1/0.25 = 4.
+[nb19198aed10] sub12
+  A country has GDP at market prices of ₹500 crore, depreciation of ₹50 crore, NFIA of –₹10 crore and net indirect taxes of ₹40 crore. What is its national income?
+  *₹400 crore | ₹410 crore | ₹440 crore | ₹490 crore
+  x: GNPMP = 500 – 10 = ₹490 crore; NNPMP = 490 – 50 = ₹440 crore; NNPFC = 440 – 40 = ₹400 crore. NNP at factor cost is national income.
+
