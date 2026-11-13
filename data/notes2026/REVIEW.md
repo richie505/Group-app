@@ -130,3 +130,8 @@ Applied to 21 questions so far (keys_zfix.jsonl in each run folder), e.g. Sikkim
 ## b4-r000-k1 Universe, remaining 94 PYQs (3 keys changed, 5 outdated)
 - Pluto (reclassified 2006): farthest → Neptune, longest year → Neptune, smallest → Mercury (tagged outdated).
 - Weak questions kept: y4a2e19e2928 diamond ring; y6f5edce2768 Moon distance; yc548f072c32 NGTS-4b.
+
+## b1-r002 Prehistory, Harappan sites (129 PYQs, 5 keys changed, 26 generated)
+- y198d4b6c4a4 Attirampakkam: Middle → Old Stone Age; yb51908f144b bone ornaments: Lekhahia → Mahadaha; y48996e77109 double burials → Lothal (old notes "Kuntasi" wrong).
+- y382b530b2d5 (G2 megaliths): official key kept (sarcophagus statement wrong); NextGen suggests the cist statement may also be wrong — check Telugu Academy text.
+- Weak sources: yed8032754c7, y9edf9b67569 Kaimur, yba3a528c0a0.

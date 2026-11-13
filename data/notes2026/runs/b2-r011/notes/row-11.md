@@ -69,20 +69,6 @@
 > Asked as: "right to privacy/marry/travel abroad/food is in which Article" (21), wrong case pair (**Govind = privacy, not property**), what is NOT an enumerated right.
 ~~ Sources: NextGen Polity - APPSC Exams (src/polity/nextgen-polity-full.txt) p.205-206; Laxmikanth ch. Fundamental Rights (src/polity/indian-polity-part1.txt) (Art. 21 case list); sci.gov.in Puttaswamy (2017), Supriyo Chakraborty (2023); app notes 2:11 sub 3-4
 
-=== Article 21 – Procedure Established by Law, Due Process, Natural Justice
-- **Text:** "No person shall be deprived of his life or personal liberty except according to **procedure established by law**" – phrase from the **Japanese** Constitution; "**due process of law**" is American. Art. 21 does not use the words "due process".
-| A.K. Gopalan (1950) | Maneka Gandhi (1978) |
-|---|---|
-| Any procedure enacted by the legislature suffices | Procedure must be **just, fair and reasonable** |
-| Arts. 19, 21, 22 separate | Arts. **14, 19, 21** linked – the golden triangle |
-| Protects only against the **executive** | Also against **arbitrary legislation** – in effect American due process read into Art. 21 |
-- **Due process of law**, in essence = the **principle of natural justice** (UPSC 2023); the doctrine is now read into **Article 21**.
-- **Natural justice:** **audi alteram partem** = "hear the other side" – the **right to be heard**; *nemo judex in causa sua* = no one a judge in his own cause.
-- **Protection is against** the State's **executive and legislative** action (Laxmikanth). *(Since **Kaushal Kishor v. State of UP, 2023**, Arts. 19 and 21 can also be enforced against private persons.)*
-- **Unguided, uncontrolled executive discretion** breaks **Article 14** (arbitrary).
-- **Capital punishment** does not violate Art. 21 – **Bachan Singh (1980)**, "rarest of rare"; so it is "not within the purview" of Art. 21 rights.
-~~ Sources: NextGen Polity - APPSC Exams (src/polity/nextgen-polity-full.txt) p.205-206; Laxmikanth ch. Fundamental Rights (src/polity/indian-polity-part1.txt); UPSC CSP 2023 answer key; app notes 2:11 sub 2
-
 === Article 22 – Arrest and Preventive Detention
 # Punitive arrest – 22(1), 22(2)
 - Arrested person must be **told the grounds** of arrest; may **consult and be defended by a lawyer of choice**; must be **produced before the nearest magistrate within 24 hours** (**Art. 22(2)**, excluding journey time) – not 12, 48 hours or one week.
@@ -106,6 +92,20 @@
 | **COFEPOSA** | **1974** | Smugglers and foreign-exchange manipulators |
 | **NSA** | **1980** | Detention up to **12 months** without charges |
 ~~ Sources: NextGen Polity - APPSC Exams (src/polity/nextgen-polity-full.txt) p.208-209; PMF Polity Part 1 (src/polity/pmf-polity-01.txt) (Art. 22, Advisory Board, 44th Amendment); app notes 2:11 sub 7-8
+
+=== Article 21 – Procedure Established by Law, Due Process, Natural Justice
+- **Text:** "No person shall be deprived of his life or personal liberty except according to **procedure established by law**" – phrase from the **Japanese** Constitution; "**due process of law**" is American. Art. 21 does not use the words "due process".
+| A.K. Gopalan (1950) | Maneka Gandhi (1978) |
+|---|---|
+| Any procedure enacted by the legislature suffices | Procedure must be **just, fair and reasonable** |
+| Arts. 19, 21, 22 separate | Arts. **14, 19, 21** linked – the golden triangle |
+| Protects only against the **executive** | Also against **arbitrary legislation** – in effect American due process read into Art. 21 |
+- **Due process of law**, in essence = the **principle of natural justice** (UPSC 2023); the doctrine is now read into **Article 21**.
+- **Natural justice:** **audi alteram partem** = "hear the other side" – the **right to be heard**; *nemo judex in causa sua* = no one a judge in his own cause.
+- **Protection is against** the State's **executive and legislative** action (Laxmikanth). *(Since **Kaushal Kishor v. State of UP, 2023**, Arts. 19 and 21 can also be enforced against private persons.)*
+- **Unguided, uncontrolled executive discretion** breaks **Article 14** (arbitrary).
+- **Capital punishment** does not violate Art. 21 – **Bachan Singh (1980)**, "rarest of rare"; so it is "not within the purview" of Art. 21 rights.
+~~ Sources: NextGen Polity - APPSC Exams (src/polity/nextgen-polity-full.txt) p.205-206; Laxmikanth ch. Fundamental Rights (src/polity/indian-polity-part1.txt); UPSC CSP 2023 answer key; app notes 2:11 sub 2
 
 === Right to Die and Euthanasia
 | Case | Year | Ruling |

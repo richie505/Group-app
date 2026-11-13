@@ -59,6 +59,7 @@
 | **Abhiram Singh (2017)** | Widened **Sec. 123(3) RPA** – appeals to religion, caste etc. = corrupt practice |
 | **Shakti Vahini (2018)** | Khap interference, honour killings illegal |
 | Amit Sahni (2020) (Shaheen Bagh) | Peaceful protest, but public ways cannot be occupied indefinitely |
+- Indian pluralism also protects language: **Art. 343** – **Hindi** (Devanagari) is the **official language of the Union**; India has **no national language**.
 ~~ Sources: NextGen Polity - APPSC Exams (src/polity/nextgen-polity-full.txt) p.230 (secular state; Art. 25(2)(a)); Laxmikanth ch. Preamble/Secularism (src/polity/indian-polity-part1.txt); app notes 2:12 sub 6
 
 === Articles 26-28 and the Group at a Glance
