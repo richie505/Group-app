@@ -54,6 +54,7 @@
 - **⚠ Sources differ:** NextGen says he "started the Salivahana era (AD 78)".
   - Settled: 78 CE begins the **Shaka era**, tied to Chashtana's accession; the "Salivahana era" is a later legend (https://en.wikipedia.org/wiki/Shaka_era).
 - **Dates:** traditionally c. 106-130 CE (23rd king, ruled 34 years per NextGen); some scholars now prefer c. 60-85 CE.
+- **Ayama:** minister of the Kshaharata **Nahapana** – linked with the **Junnar** inscription (a Kshaharata record, not Satavahana); Ushavadatta was Nahapana's son-in-law.
 ~~ Sources: NextGen Satavahanas p.10, p.25; Rocket AP History p.6, p.8; app notes 1:46 (sub 4, 5); https://en.wikipedia.org/wiki/Gautamiputra_Satakarni; https://en.wikipedia.org/wiki/Shaka_era
 
 === Queens and Metronymics
@@ -101,6 +102,9 @@
 # End of the dynasty
 - **Fall:** the Ikshvaku **Santamula (Srisantamula)** overthrew Pulomavi III (c. AD 225-230) and took Dharanikota and Nagarjunakonda; Pulomavi III spent his last days at **Myakadoni** (Bellary).
 > A-R angle: "Dynasty ended in the mid-3rd century CE" ✓; "break-up paved the way for the Ikshvakus" ✓ – but R is a result, not the cause → both true, R not the explanation.
+- **Bodhisri's king:** Upasika **Bodhisri** made her gifts at Nagarjunakonda in the reign of the Ikshvaku **Virapurushadatta** – the golden age of Buddhism there.
+- **Recovery from the Western Kshatrapas:** **Yajnasri Satakarni** won back the lost territory late in the dynasty's history.
+- **First silver coins:** issued by **Satakarni I**.
 ~~ Sources: NextGen Satavahanas p.5-11; Rocket AP History p.5; app notes 1:46 (sub 2, 3)
 
 === Royal Titles
@@ -171,6 +175,7 @@
 | Ptolemy | Geography; Pulumavi vs Chashtana; Maisolia a great market |
 - **⚠ Sources differ:** NextGen: Megasthenes gives the Andhras "30 forts and one lakh infantry"; app notes: Pliny's army figures.
   - Settled: Pliny quoting Megasthenes – **30 walled towns, 1,00,000 foot, 2,000 horse, 1,000 elephants** (https://www.philipharland.com/Blog/2023/06/indians-taprobanians-and-serians-pliny-the-elder-on-peoples-and-customs-in-india-and-beyond-first-century-ce/)
+- **Kanhabenna:** the Hathigumpha inscription's name for the **Krishna** river.
 ~~ Sources: NextGen Satavahanas p.3-5, p.7; app notes 1:46 (sub 2); https://en.wikipedia.org/wiki/Hathigumpha_inscription
 
 === Other Inscriptions – Issuer and Findspot
@@ -190,4 +195,6 @@
 - **Karle village grant:** to Mahasanghika monks by **Pulomavi II** (APPSC PYQ); ⚠ the king's name is damaged – Senart reads Vasishthiputra Pulumavi; a separate Karajaka record names Gautamiputra.
 - **Earliest inscriptions:** of the early kings are in **Maharashtra** (Naneghat, Kanha's Nasik) (G2 PYQ) – not Andhra, Karnataka or Telangana.
 - **Language:** all in **Prakrit**, **Brahmi** script.
+- **Patagandigudem copper plates:** of the Ikshvaku king **Ehuvala Chamtamula** (3rd c. CE) – the earliest known copper-plate land grant of south India; they record a grant to a **Buddhist monastery**.
+- **Bhairavakonda:** a **Saiva** centre with **eight** rock-cut caves, in **Nellore** district.
 ~~ Sources: NextGen Satavahanas p.6, p.10-11; Rocket AP History p.6; app notes 1:46 (sub 8)

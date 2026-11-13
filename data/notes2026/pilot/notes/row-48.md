@@ -25,6 +25,11 @@
 - **Ayaka gift:** the artisan **Siddhattha** gave five ayaka pillars at the eastern gate.
 - **Amaravati school:** white **Palnadu limestone**; narrative Jataka reliefs; early aniconic Buddha (tree, throne, footprints), later human form.
 - **Sculptures today:** British Museum (London), Government Museum (Chennai), Amaravati site museum.
+- **Birth symbol in full:** **lotus and bull**.
+- **Amaravati style:** marked by **movement and emotional expression**; its Jataka and Buddha-life subjects do not explain the style.
+- **Colin Mackenzie:** the first **Surveyor General of India**.
+- **UNESCO tentative list:** **Lepakshi Veerabhadra Temple** (monolithic Nandi) was added in 2022.
+- **Amaravati and UNESCO:** the app key puts the **Amaravati Buddhist Stupa** on India's UNESCO tentative list.
 ~~ Sources: NextGen Satavahanas p.10, p.21-22, p.29-30; Rocket AP History p.25, p.34; app notes 1:48 (sub 1, 2, 10); https://en.wikipedia.org/wiki/Amaravati_Stupa
 
 === Stupa, Chaitya, Vihara – Terms
@@ -43,6 +48,7 @@
 > Match angle (APPSC): 1-(b), 2-(a), 3-(d), 4-(c).
 - **Arama:** stupa + vihara + chaitya together (e.g. Guntupalli).
 - **Stupa types:** Dhatugarbha (bodily relics), Paribhogika (objects used by the Buddha), Uddeshika (symbolic).
+- **Uposatha:** monks' meeting in the vihara's central hall every **15 days**.
 ~~ Sources: NextGen Satavahanas p.22; app notes 1:48 (sub 0)
 
 === Relic Stupas and Other Andhra Buddhist Sites
@@ -63,6 +69,10 @@
 - **Mandhata sculpture:** **Jaggayyapeta** (G1 1991) – not Simhachalam, Kondapuram.
 - **Current link:** the rare life-size stucco sculpture came from a Buddhist site in **Telangana** (Phanigiri) (G1 PYQ).
 > A-R angle (Welfare Officers): "Amaravati and Nagarjunakonda became big stupa-monastery complexes" ✓ because "they lay near urban centres on trade and pilgrimage routes" ✓ – R explains A.
+- **House viharas:** a distinctive feature of **Guntupalli**.
+- **Nelakondapalli (Khammam, Telangana):** post-Satavahana mahastupa; bronze and marble Buddha images; sculptor's workshop found by **V.V. Krishna Sastry** – not the oldest stupa in Andhra.
+- **Thotlakonda finds:** its 1988–92 excavations found the main stupa, votive stupas and **Satavahana and Roman coins**.
+- **AP Buddhist International Tourism Circuit:** Amaravati, Thotlakonda-Bavikonda, Bojjannakonda-Sankaram, **Salihundam**, Ghantasala.
 ~~ Sources: NextGen Satavahanas p.14, p.22; Rocket AP History p.6, p.32; app notes 1:48 (sub 4, 5)
 
 === Chaitika Sects and the Siddharthaka Chaitya
@@ -92,6 +102,12 @@
 - **⚠ Outdated:** "Guntupalli in West Godavari" — now **Eluru district** (Kamavarapukota mandal) after the 2022 reorganisation.
 - **Later imitation:** Buddhists cut the first rock-cut chaityas; Vaishnavas, Shaivas and Jainas imitated them later ✓ – at the same sites, not far away ✗ (NDA 2011).
 - **Western Deccan caves:** Nasik, Naneghat, Bhaja, Kanheri, Junnar, Bedsa, Pitalkhora; **Ajanta** Caves 9-10 – Shwetagaja (Chhaddanta) Jataka painting in Cave 10.
+- **Peak of rock-cut activity:** the **Sahyadris** of the western Deccan (Nasik, Naneghat, Karle, Bhaja, Kanheri, Junnar, Ajanta, Bedsa, Pitalkhora).
+- **Karle details:** **12 dance-couple** sculptures; **Pulumavi II** donated a village to it.
+- **Bedsa (Pune):** chaitya with **bell-capital pillars**.
+- **Nasik:** viharas bearing **Satavahana inscriptions**.
+- **Sankaram and Bagh:** Sankaram (Anakapalli) has horseshoe-shaped caves; the **Bagh** cave viharas (MP) are linked to the Satavahanas in exam keys.
+- **Bhairavakonda (Nellore–Prakasam border):** **8 rock-cut cave temples of Shiva** (Pallava style) – Hindu, not Buddhist.
 ~~ Sources: NextGen Satavahanas p.22; Rocket AP History p.8; app notes 1:48 (sub 9)
 
 === Nagarjunakonda (Ikshvaku)
@@ -101,6 +117,7 @@
 - **Satavahana link:** **Yajnasri Satakarni** built the 1,500-room **Sriparvata Sangharama** for Nagarjuna.
 - **Sects:** Bahushrutiya, Aparasaila and **Mahishasaka** (the only Hinayana sect there).
 - **Discovery:** A.R. Saraswati, 1926; excavated by Longhurst, 1927-31; drowned by the Nagarjunasagar reservoir – monuments rebuilt on an island.
+- **Golden Temple (Swarna Devalayam):** of Ehuvala Chamtamula at Nagarjunakonda – bears the **first Sanskrit inscription** of Andhra and South India.
 ~~ Sources: NextGen Satavahanas p.10, p.30; app notes 1:48 (sub 3)
 
 === Amaravati School, Donors and Acharyas
@@ -122,4 +139,8 @@ Asked only in the app's own MCQs (no PYQ yet) – one quick read.
 | Aryadeva | Nagarjuna's disciple; Chittasuddhi Prakaranam |
 - **Records:** oldest stupa in Andhra = Bhattiprolu; largest brick stupa = **Kesariya**; "Sakiyanam" relic casket = **Piprahwa**.
 - **Jain patron:** Bethanamathya (and early Kakatiya kings).
+- **Most ancient stupa in India (exam key):** **Bharhut**; oldest in Andhra = Bhattiprolu.
+- **Nannayabhattu:** patronised by the Eastern Chalukya **Rajaraja Narendra**; began the Telugu Mahabharata.
+- **Most mature phase:** the Amaravati school reached its final phase under the **Ikshvakus**.
+- **Sanchi gateway:** carved by the **ivory carvers of Vidisha**.
 ~~ Sources: NextGen Satavahanas p.24, p.30; Rocket AP History p.39; app notes 1:48 (sub 7, 8, 10)

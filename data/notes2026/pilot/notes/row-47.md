@@ -61,6 +61,7 @@
 > Wrong-pair angle (G1 2003 ×2): **Harshacharita–Harshavardhana** is wrong (Banabhatta wrote it); Brihatkatha–Gunadhya, Gathasaptasati–Hala, Mallana–Rajasekhara Charitramu are right.
 - **⚠ Trap:** Mallana's **Rajasekhara Charitramu** (Ashtadiggaja prabandha) ≠ Veeresalingam's novel Rajasekhara Charitram.
 - **⚠ Trap:** **Naganandam** is Harsha's play, not Kalidasa's; Meghasandesam, Raghuvamsam, Vikramorvasiyam are Kalidasa's (SI 2016).
+- **Yashastilaka:** Sanskrit champu by the Jain **Somadeva Suri** (c. 959 CE), written at Gangadhara in the **Vemulavada Chalukya** kingdom – not Somadeva of Kashmir.
 ~~ Sources: NextGen Satavahanas p.1-3, p.9, p.23-24, p.28, p.30; Rocket AP History p.9; app notes 1:47 (sub 10); https://en.wikipedia.org/wiki/Brihatkatha; https://en.wikipedia.org/wiki/Kathasaritsagara
 
 === Administration – Units and Officers
@@ -91,6 +92,8 @@
 | Rajjugahaka / Pradeshika | Land surveyor / police |
 | Akshapatakas | Kept records of the king's orders |
 - **⚠ Trap:** Mahataraka, Dhutaka, Pratihari, Patlika-palaka are distractors for treasurer and archivist.
+- **Most prominent Ahara:** **Govardhana** (Nasik inscription); others – Satavahani, Sopara, Mamala, Kodura, Vaijayanti.
+- **Pattikapala:** drafted the land-grant inscriptions.
 ~~ Sources: NextGen Satavahanas p.12-13; Rocket AP History p.15, p.49; app notes 1:47 (sub 1)
 
 === Official Language – Prakrit
@@ -104,6 +107,10 @@
 > Statement angle (UPPCS 2021): "Satavahanas were nurturers of Prakrit" ✓; "public aspect of the arts got more encouragement" ✓ → both.
 - **Firsts:** first complete Sanskrit inscription = **Junagadh** (Rudradaman); first Telugu word **"Nagabu"** (Amaravati); "Vepuru" in Myakadoni.
 - **Desi bhasha:** language of the common people, of the **Dravidian** family.
+- **"Italian of the East":** Telugu (its words end in vowels) – phrase from Niccolo de Conti, used by the British.
+- **Telugu script:** developed from **Brahmi**, via the Bhattiprolu and Telugu-Kannada scripts.
+- **Official language of AP:** Telugu from **1966** (AP Official Languages Act), not 1956.
+- **Gundaram inscriptions:** 11 Satavahana-era Prakrit-Brahmi records decoded by the ASI in the **Gundaram reserve forest, Peddapalli district** (Telangana) in May 2025.
 ~~ Sources: NextGen Satavahanas p.9, p.23-24; Rocket AP History p.16; app notes 1:47 (sub 8)
 
 === Coinage
@@ -119,6 +126,10 @@
 - **Jogalthambi:** Nahapana's silver coins restruck by Gautamiputra.
 - **Portrait coins:** an indigenous innovation, beginning with Gautamiputra.
 - **Bilingual silver:** Vasishthiputra Satakarni – Prakrit + a Dravidian language.
+- **Karshapana:** the **silver** coin was called a karshapana (copper and lead karshapanas also circulated).
+- **Ujjain symbol:** a **cross with four circles** on the reverse; obverse motifs – elephant, horse, lion, camel, chaitya.
+- **Coin legends:** in **Prakrit**, **Brahmi** script – not Kharosthi.
+- **⚠ Trap:** lead, copper and bronze coins with **bull and lion** symbols = **Pallavas**, not Satavahanas.
 ~~ Sources: NextGen Satavahanas p.10, p.19-21; Rocket AP History p.14, p.19; app notes 1:47 (sub 7); https://iaspoint.com/satavahana-coinage/
 
 === Trade, Ports and Roman Contact
@@ -142,6 +153,13 @@
 - **Inland route:** Ujjain → Bharuch via **Paithan and Tagara**; the Satavahanas were famed road builders ("Mahapatha nirmatalu").
 - **Reach:** Rome, and the eastern islands – Siam, Java, Borneo.
 > A-R angle (G2 PYQ): "Trade with Rome flourished after the Satavahanas" ✗ (it peaked under them and declined); "no ruler issued ship-motif coins after them" ✓.
+- **Products of Andhra centres:** Palnadu – diamonds; Guduru – fine cotton; Vinukonda – metal; **Guntupalli – copper and iron** (not gold).
+- **Kalyan and the Sakas:** per the Periplus, Kalyan was ruined by the Sakas (Kshatrapas) – the answer for "port destroyed by the Sakas".
+- **West coast into the Deccan:** Kalyan → **Naneghat pass** → Junnar → Paithan.
+- **Vengipuram:** = **Pedavegi** (near Eluru).
+- **Constantine gold coin:** found at **Kudali Sangameswaram** (Alampur) – of a later period.
+- **Egypt (Feb 2026):** about **30 Indian inscriptions** of the Indo-Roman phase (Tamil-Brahmi, Prakrit, Sanskrit) reported from tombs of the Theban necropolis, Luxor.
+- **Significance:** land grants, guild banking and Roman trade laid the base of **Deccan urbanisation**.
 ~~ Sources: NextGen Satavahanas p.3-4, p.19-21; Rocket AP History p.13-14, p.41; app notes 1:47 (sub 5, 6); https://en.wikipedia.org/wiki/Kalyan; https://en.wikipedia.org/wiki/Motupalli
 
 === Land Revenue, Taxes and Tax-free Grants
@@ -152,6 +170,7 @@
 - **Vetti:** forced unpaid labour; with hereditary village headships it fed the growth of **feudalism**; also the term for the exploitation of village servant castes by **feudal lords in Telangana** (Social Structure 2016).
 - **⚠ Trap:** **Moturpha** was a **British** tax on trades and occupations (looms) in Andhra, not Satavahana; and the British salt monopoly did apply in Andhra (A ✓, R ✗; Welfare Officers).
 - **Nivartana:** land unit, about 1.5 acres.
+- **Spread of cultivation:** mainly in the **Krishna-Godavari** basin; paddy transplantation; chief crops rice and cotton.
 ~~ Sources: NextGen Satavahanas p.7, p.16-17; Rocket AP History p.48; app notes 1:47 (sub 3)
 
 === Society and Women
@@ -168,6 +187,8 @@
 - **Order question:** Maharathas → Mahamatras → Gandhikas → Lohavanijas (Sachivalayam).
 - **Third class:** Suvarnakara and Gandhika ("1 and 5") (Welfare Officers); ⚠ some lists put the Lekhaka in the 2nd class.
 - **Others:** Sakas and Yavanas absorbed with Indian names; slavery (Brihatkatha, Kamasutra); a sati statue at Nagarjunakonda.
+- **Vetti by women:** recorded in the **Kamasutra**.
+- **Independent donors:** women made gifts at **Bharhut, Sanchi and Amaravati** without naming husbands or fathers.
 ~~ Sources: NextGen Satavahanas p.14-16; Rocket AP History p.56; app notes 1:47 (sub 9); V.D. Mahajan, Ancient India (four classes)
 
 === Feudatories and Military Camps
@@ -182,4 +203,8 @@
 - **Kataka:** permanent garrison; **Skandhavara:** temporary camp.
 - **Meaning together:** **military camps and settlements** that served as **administrative centres** when the king was present (G1 2024; JA NTR UHS); not monks' tax-free villages, rock-cut areas or paddy lands.
 - **Army:** chaturanga bala (Hathigumpha); Amaravati sculptures show infantry in front, cavalry and elephants on the flanks, archers at the rear.
+- **Highest feudatory:** the **Raja**, who could issue coins; grading Raja > Mahabhoja > Senapati.
+- **Maharathis:** hereditary tax-collecting feudatories, mainly of the **western Deccan**.
+- **Mahabhojas:** powerful local chiefs of the **Konkan** – not Eastern Bengal.
+- **Samanta rajyas:** Chutus – Mysore; Kuras – Kolhapur; Ikshvakus – Vijayapuri; they paid tribute and sent troops.
 ~~ Sources: NextGen Satavahanas p.12-14; app notes 1:47 (sub 2)

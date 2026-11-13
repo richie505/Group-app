@@ -35,6 +35,11 @@
 | Pallavas | Rise of Brahmanism, decline of Buddhism |
 | Early Kakatiya kings | Jainism |
 | Reddy period | Veerasaivism |
+- **Prakrit:** the people's language helped Buddhism become a mass movement.
+- **Krishna (Kanha), 2nd king:** made a Nasik cave for shramanas and appointed a **Dharma Mahamatra**.
+- **Alluru inscription:** of the Ikshvaku **Virapurushadatta** – records his donations to many communities and institutions (G2 2017).
+- **Yavana merchants:** funded caves at Karle, Bhaja, Nasik, Junnar and Kanheri.
+- **Chitrarathaswami:** family deity of the **Salankayanas** of Vengi (Pedavegi), usually taken as the Sun god – match "Salankayanas – Chitrarathaswami".
 ~~ Sources: NextGen Satavahanas p.24, p.29; Rocket AP History p.39, p.45, p.52; app notes 1:49 (sub 0, 4)
 
 === Gudimallam and Shaivism
