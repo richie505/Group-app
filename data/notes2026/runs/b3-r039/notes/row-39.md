@@ -123,7 +123,7 @@
 - **Anna Darpan** (FCI, 2024; Coforge as system integrator): microservices-based supply chain system **replacing the Depot Online System**, covering mandis, mills, depots and all office levels; an **FCI / Department of Food and Public Distribution** project, not the Agriculture Ministry.
 # Bharat brand
 - **Bharat Rice** (**Feb 2024**) at **₹29/kg**; Bharat Atta and dal – via **NAFED, NCCF, Kendriya Bhandar** outlets and mobile vans to curb inflation.
-~~ Sources: Ramesh Singh Indian Economy 10th ed. part 04 p.160-161 (buffer stock, issue price, OMSS); Economic Survey 2025-26 Summary 01 p.54 (ONORC in all 36 States/UTs, ~80 crore); Economic Survey 2025-26 Highlights 01 p.23 (PMGKAY continued); gktoday.in and maritimegateway.com on Anna Darpan (web search, 2024); app notes 3:39 sub 8, 9
+~~ Sources: Ramesh Singh Indian Economy 10th ed. part 04 p.160-161 (buffer stock, issue price, OMSS); Economic Survey 2025-26 Summary 01 p.54 (ONORC in all 36 States/UTs, ~80 crore); Economic Survey 2025-26 Highlights 01 p.23 (PMGKAY continued); gktoday.in and maritimegateway.com on Anna Darpan (web search result summaries; pages not opened); app notes 3:39 sub 8, 9
 
 === National Food Security Mission and Global Initiatives
 - **NFSM (2007-08):** Centrally Sponsored Scheme of the **Ministry of Agriculture**, launched in pursuance of the **National Development Council resolution (29 May 2007)** – the APPSC 2011 key calls it the "**National Food Security Resolution**"; targets for the end of the **Eleventh Plan**.
