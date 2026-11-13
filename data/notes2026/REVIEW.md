@@ -112,3 +112,8 @@
 - y05fcb4444b5 secularism: two options false as worded.
 - y35e383dff40 AP operational SEZs: 19 → now 25 (31.07.2026, sezindia.gov.in), outdated.
 - Printed keys kept without firm source: y243b233652c (G.D.H. Cole), y109d4d8d65c, yc91f8970c57.
+
+## b2-r013 Art. 29-30, right to property, 44th Amendment (44 PYQs, 3 keys changed)
+- ya17bf8f5430 (MPDO 1998) property ceased to be an FR from: 1978 → 1979 (assent 30 Apr 1979, in force 20 Jun 1979). Most books say 1978 — DECIDE.
+- Vote / RTI legal vs constitutional: each exam's own key kept (UPSC 2017 constitutional; UPPCS legal); notes give both.
+- Unchecked old-notes items: GGR Housing (AP HC May 2026), Kerala Malayalam Bhasha Bill.

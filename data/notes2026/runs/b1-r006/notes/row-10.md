@@ -3,7 +3,7 @@
 - **Three forms:** complete (extended) burials, fractional burials, post-cremation burials.
 | Burial practice | Site |
 |---|---|
-| Extended burials with goods; coffin burial | R-37, Harappa (graves aligned north–south; NextGen notes east–west) |
+| Extended burials with goods; coffin burial | R-37, Harappa (head generally to the north) |
 | Post-cremation / fractional, Late Harappan | Cemetery H, Harappa |
 | Joint / double burial | Lothal (UPPSC 2016) |
 | Dog buried with human, oval pit burials | Ropar |

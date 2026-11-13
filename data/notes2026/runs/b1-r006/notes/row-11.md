@@ -8,7 +8,7 @@
 - The IVC gives the **first cities**, the **first script** (right to left) and the **earliest stone sculpture** (three-dimensional) in the subcontinent – but **not iron** sculpture; iron was unknown (CDS 2017).
 - Lifelike bronze and stone figures → **advanced metallurgy** and **craft specialisation**.
 - **18 Jun 2026:** **NCERT** to restore the original Dancing Girl image in the new **Class 9 Art** textbook.
-~~ Sources: PMF Ancient & Medieval Part 1 p.97-99, Part 1 PYQ list (CDS 2017); NextGen Indian History - APPSC Exams Part 1 p.8; old app notes row 11
+~~ Sources: PMF Ancient & Medieval Part 1 p.97-99, p.112 (CDS 2017); NextGen Indian History - APPSC Exams Part 1 p.8; old app notes row 11
 
 === Pottery
 - **Wheel-made**, sturdy, glossy; typical **red pottery** (red slip) **with black painted designs**; **plain red** ware the most common → colour = **red** (BPSC 1995).

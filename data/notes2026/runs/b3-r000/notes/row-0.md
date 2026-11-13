@@ -47,16 +47,6 @@
 - Capital formation in a developing economy can rise only with an adequate **savings rate**.
 ~~ Sources: NextGen Indian Economy Part 1 - APPSC 04 p.29-30; NextGen Indian Economy Part 1 - APPSC 02 p.43 (vicious circle); Rocket Indian Economy #36 p.53, #33 p.49; app notes 3:0 subs 1-3
 
-=== India at Independence and the Colonial Legacy
-- **Colonial rule** (from **Plassey, 1757**) turned India from a textile exporter into a **raw-material supplier and captive market** – India was **NOT a supplier of manufactured goods** under British rule; the economy **stagnated** (UPPSC 2013).
-- **Paul Bairoch:** India made about **24.5% of the world's manufactures in 1750** (APPSC G2 2017) → about **1.7% by 1900** (deindustrialisation).
-- **Angus Maddison:** India's share of world GDP **22.6% (1700) → 3.8% (1952)**.
-- **First National Income Committee (1951):** 1948-49 national income **₹8,710 crore**; per capita **₹225**.
-- **Agriculture:** about **72% of the workforce (1951)**; about half of GDP.
-- **Weak industrial base:** capital goods only **one-fourth** of industrial output.
-- **Literacy below 16%**; **life expectancy 32 years** (1947).
-~~ Sources: NextGen Indian Economy Part 1 - APPSC 04 p.30; P. Bairoch, "International Industrialization Levels from 1750 to 1980" (J. European Econ. Hist. 1982) via en.wikipedia.org/wiki/Economic_history_of_India; app notes 3:0 sub 3, 3:1 sub 6
-
 === Basic Concepts of Economics and Economists
 | Name | Remember for |
 |---|---|
@@ -77,6 +67,16 @@
 - **Economic models** simplify reality, represent a whole or part of a theory and show cause and effect; they can be expressed in words, diagrams, tables or equations – **not only equations**.
 - **Unit root** is a concept of **time-series models** (Dickey-Fuller test): a series with a unit root is non-stationary – not of cross-section or structural-form models.
 ~~ Sources: NextGen Indian Economy Part 1 - APPSC 04 p.30 (Adam Smith); Rocket Indian Economy #36 p.53 (economists); en.wikipedia.org/wiki/Unit_root (Dickey & Fuller 1979); NCERT Class 12 Introductory Microeconomics ch.2-4; app notes 3:0 sub 3
+
+=== India at Independence and the Colonial Legacy
+- **Colonial rule** (from **Plassey, 1757**) turned India from a textile exporter into a **raw-material supplier and captive market** – India was **NOT a supplier of manufactured goods** under British rule; the economy **stagnated** (UPPSC 2013).
+- **Paul Bairoch:** India made about **24.5% of the world's manufactures in 1750** (APPSC G2 2017) → about **1.7% by 1900** (deindustrialisation).
+- **Angus Maddison:** India's share of world GDP **22.6% (1700) → 3.8% (1952)**.
+- **First National Income Committee (1951):** 1948-49 national income **₹8,710 crore**; per capita **₹225**.
+- **Agriculture:** about **72% of the workforce (1951)**; about half of GDP.
+- **Weak industrial base:** capital goods only **one-fourth** of industrial output.
+- **Literacy below 16%**; **life expectancy 32 years** (1947).
+~~ Sources: NextGen Indian Economy Part 1 - APPSC 04 p.30; P. Bairoch, "International Industrialization Levels from 1750 to 1980" (J. European Econ. Hist. 1982) via en.wikipedia.org/wiki/Economic_history_of_India; app notes 3:0 sub 3, 3:1 sub 6
 
 === Ownership, Institutional Sectors and Savings
 | Sector | Ownership |
