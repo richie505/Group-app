@@ -1,19 +1,3 @@
-=== Capitals – Anumakonda to Orugallu (Warangal)
-# Who shifted the capital?
-| Step | Ruler | Capital |
-|---|---|---|
-| 1 | **Prola I** | Made **Anumakonda (Hanumakonda)** the capital |
-| 2 | Prola II | Developed Hanamkonda; Swayambhu temple in Orugallu |
-| 3 | **Rudradeva** | **Founded Orugallu** and **began the Warangal fort** |
-| 4 | **Ganapatideva** | **Completed the fort** and **transferred the capital** from Hanumakonda to **Orugallu** (Rocket: 1254); called it **Andhranagari** |
-| 5 | After 1323 | Renamed **Sultanpur** |
-- **Answer to "who shifted the capital?":** **Ganapatideva** (APPSC G2 2012; Architecture 2011; APPSC PYQ; G1 2024 match B-I).
-- **⚠ Disputed:** the Bekkallu inscription (1195) already calls Orugallu Rudradeva's capital, so some keys (G2 2019, Asst. Welfare Officers) gave **Rudradeva**; NextGen, Rocket and the G1 2024 official match credit **Ganapatideva**, who completed the move.
-- **Orugallu fort:** construction **begun by Rudradeva** (APSLPRB 2023), completed by Ganapatideva, strengthened by Rudramadevi.
-- **Kakatiya capital:** **Orugallu / Warangal** (APPSC 2019 ×2; Polytechnic Lecturers 2020) – not Vijayanagara, Amaravati, Vijayawada, Guntur or Visakhapatnam.
-- **Orugallu** = "single rock", the ancient name of Warangal; **Warangal** is the place that best reflects the Kakatiya contribution to culture (fort, Thousand Pillar temple, Ramappa nearby) (AEE 2008).
-~~ Sources: NextGen AP History - Kakatiyas p.11, p.15, p.45; Rocket AP History p.47; app notes 1:92 (sub 3)
-
 === Origins, Overlords and First Mentions
 # Overlords
 - **First overlords:** the **Rashtrakutas** (APPSC G2 2005 ×2; G2 Mains 2017 ×2) – the Magallu record calls Gundaya and Eriya "Rashtrakuta", and the early emblem was **Garuda**.
@@ -37,25 +21,21 @@
 - **Eastern Deccan:** the **Kakatiyas** ruled the eastern Deccan in the 12th–14th c.; the Seunas held the west.
 ~~ Sources: NextGen AP History - Kakatiyas p.35-37, p.41; PMF Ancient & Medieval India p.410; app notes 1:92 (sub 0, 9)
 
-=== Ganapatideva (1199–1262)
-- **Reign:** **1199–1262** (about **63 years**, the longest; APPSC AE 2011); first inscription **Manthena, 26 Dec 1199**; title **Andhra Deshadhiswara**.
-- **Accession:** held captive by Yadava **Jaitugi**; **Recherla Rudra** crushed revolts and installed him.
-- **Unifier:** brought **the whole Telugu area under one rule** after the Satavahanas (1199 PYQ ×2), from Ganjam to Kanchi – the Kakatiya who ruled all Andhradesa as one sovereign (APPSC G1 2003).
-- **Kanchi:** the most powerful Kakatiya, who **extended the empire up to Kanchi** (Group-I 1990-91; G1 1994) – not Beta I, Prola I or Prola II.
-- **Gurus:** raja guru **Visvesvara Sivacharya** – not Vidyanatha, Narahari Tirtha, Rameswara Pandita or Dhruveshwara Pandita.
-# Campaigns
-- **Velanadu:** 1201 coastal campaign – general **Mutyalachaundaraya** took **Divi**; married **Narama and Perama**, daughters of **Pinnachodi**; made their brother **Jayapa** **Gajasahani**.
-- **1210:** with **Choda Tikka** of Nellore killed **Prithviswara** → Velanati kingdom ended (title **Prithviswara Shirakhandika Kreeda Vinoda**); **1257:** with Akkana and Bayyana killed **Mummadi Rajendra Chola** – final end of the Velanati Chodas.
-- **Pithapuram inscription** of Velanati **Prithvisvara** names **Kolleru Lake** (G2 2017).
-- **Nellore:** restored **Manumasiddhi II** after the poet **Tikkana** came as envoy; Tikkana dedicated **Nirvachanottara Ramayana** to **Manumasiddhi**, not Ganapati.
-- **Kalinga:** fought the **Eastern Gangas** for southern Kalinga and Vengi.
-- **Defeat, 1263:** **Jatavarman Sundara Pandya** beat the Kakatiyas at **Muttukur** (Nellore); **Nellore fell to the Pandyas** (G2 Mains 2017 ×2) – not the Velanati Chodas, Yadavas or Hoysalas.
-# Works and succession
-- **Ramappa temple** (Recherla Rudra, 1213), **Lakkavaram** and **Ghanapur** tanks, **Ganapavaram** villages, **Motupalli Abhaya Sasanam** (1244).
-- **Telugu replaced Sanskrit** in inscriptions from his reign.
-- **Family:** no son → daughter **Rudramadevi succeeded him** (APPSC PYQ), raised as a son (putrika), trained by her mother **Kupama Devi**; married **Veerabhadra** of the **Nidadavolu Eastern Chalukyas**; daughter **Ganapamba** married the **Kota** chief; sisters **Mailamba** and **Kundamamba** married the sons of **Natavadi Buddharaja**.
-- Rudrama defeated the Pandyas, Eastern Gangas and Seunas – **not the Western Chalukyas**; Marco Polo visited Motupalli ("Mutfili") in her reign.
-~~ Sources: NextGen AP History - Kakatiyas p.11-15, p.47-51; app notes 1:92 (sub 4, 5)
+=== Capitals – Anumakonda to Orugallu (Warangal)
+# Who shifted the capital?
+| Step | Ruler | Capital |
+|---|---|---|
+| 1 | **Prola I** | Made **Anumakonda (Hanumakonda)** the capital |
+| 2 | Prola II | Developed Hanamkonda; Swayambhu temple in Orugallu |
+| 3 | **Rudradeva** | **Founded Orugallu** and **began the Warangal fort** |
+| 4 | **Ganapatideva** | **Completed the fort** and **transferred the capital** from Hanumakonda to **Orugallu** (Rocket: 1254); called it **Andhranagari** |
+| 5 | After 1323 | Renamed **Sultanpur** |
+- **Answer to "who shifted the capital?":** **Ganapatideva** (APPSC G2 2012; Architecture 2011; APPSC PYQ; G1 2024 match B-I).
+- **⚠ Disputed:** the Bekkallu inscription (1195) already calls Orugallu Rudradeva's capital, so some keys (G2 2019, Asst. Welfare Officers) gave **Rudradeva**; NextGen, Rocket and the G1 2024 official match credit **Ganapatideva**, who completed the move.
+- **Orugallu fort:** construction **begun by Rudradeva** (APSLPRB 2023), completed by Ganapatideva, strengthened by Rudramadevi.
+- **Kakatiya capital:** **Orugallu / Warangal** (APPSC 2019 ×2; Polytechnic Lecturers 2020) – not Vijayanagara, Amaravati, Vijayawada, Guntur or Visakhapatnam.
+- **Orugallu** = "single rock", the ancient name of Warangal; **Warangal** is the place that best reflects the Kakatiya contribution to culture (fort, Thousand Pillar temple, Ramappa nearby) (AEE 2008).
+~~ Sources: NextGen AP History - Kakatiyas p.11, p.15, p.45; Rocket AP History p.47; app notes 1:92 (sub 3)
 
 === Early Rulers, Titles, Temples and Tanks
 # Rulers
@@ -92,6 +72,26 @@
 - **Ramappa (Rudreswara) temple** = **Kakatiya** (APPSC ASO); **UNESCO World Heritage Site 2021**; **floating bricks**; star-shaped platform.
 - **Feudatory families:** **Viriyala** (Kamasani), **Recherla** (Rudra, Prasaditya), **Malyala**, **Natavadi**.
 ~~ Sources: NextGen AP History - Kakatiyas p.7-11, p.33, p.41-45; NextGen previous papers p.14, p.28; Rocket AP History p.25; app notes 1:92 (sub 1, 2, 7, 8)
+
+=== Ganapatideva (1199–1262)
+- **Reign:** **1199–1262** (about **63 years**, the longest; APPSC AE 2011); first inscription **Manthena, 26 Dec 1199**; title **Andhra Deshadhiswara**.
+- **Accession:** held captive by Yadava **Jaitugi**; **Recherla Rudra** crushed revolts and installed him.
+- **Unifier:** brought **the whole Telugu area under one rule** after the Satavahanas (1199 PYQ ×2), from Ganjam to Kanchi – the Kakatiya who ruled all Andhradesa as one sovereign (APPSC G1 2003).
+- **Kanchi:** the most powerful Kakatiya, who **extended the empire up to Kanchi** (Group-I 1990-91; G1 1994) – not Beta I, Prola I or Prola II.
+- **Gurus:** raja guru **Visvesvara Sivacharya** – not Vidyanatha, Narahari Tirtha, Rameswara Pandita or Dhruveshwara Pandita.
+# Campaigns
+- **Velanadu:** 1201 coastal campaign – general **Mutyalachaundaraya** took **Divi**; married **Narama and Perama**, daughters of **Pinnachodi**; made their brother **Jayapa** **Gajasahani**.
+- **1210:** with **Choda Tikka** of Nellore killed **Prithviswara** → Velanati kingdom ended (title **Prithviswara Shirakhandika Kreeda Vinoda**); **1257:** with Akkana and Bayyana killed **Mummadi Rajendra Chola** – final end of the Velanati Chodas.
+- **Pithapuram inscription** of Velanati **Prithvisvara** names **Kolleru Lake** (G2 2017).
+- **Nellore:** restored **Manumasiddhi II** after the poet **Tikkana** came as envoy; Tikkana dedicated **Nirvachanottara Ramayana** to **Manumasiddhi**, not Ganapati.
+- **Kalinga:** fought the **Eastern Gangas** for southern Kalinga and Vengi.
+- **Defeat, 1263:** **Jatavarman Sundara Pandya** beat the Kakatiyas at **Muttukur** (Nellore); **Nellore fell to the Pandyas** (G2 Mains 2017 ×2) – not the Velanati Chodas, Yadavas or Hoysalas.
+# Works and succession
+- **Ramappa temple** (Recherla Rudra, 1213), **Lakkavaram** and **Ghanapur** tanks, **Ganapavaram** villages, **Motupalli Abhaya Sasanam** (1244).
+- **Telugu replaced Sanskrit** in inscriptions from his reign.
+- **Family:** no son → daughter **Rudramadevi succeeded him** (APPSC PYQ), raised as a son (putrika), trained by her mother **Kupama Devi**; married **Veerabhadra** of the **Nidadavolu Eastern Chalukyas**; daughter **Ganapamba** married the **Kota** chief; sisters **Mailamba** and **Kundamamba** married the sons of **Natavadi Buddharaja**.
+- Rudrama defeated the Pandyas, Eastern Gangas and Seunas – **not the Western Chalukyas**; Marco Polo visited Motupalli ("Mutfili") in her reign.
+~~ Sources: NextGen AP History - Kakatiyas p.11-15, p.47-51; app notes 1:92 (sub 4, 5)
 
 === Inscriptions → Ruler
 | Inscription | Ruler / issuer | Fact |
