@@ -11,7 +11,7 @@
 - Role: **coordinator between the Planning Commission and the States**; **final approval of Five-Year Plans**; prescribes **guidelines** for formulating the Plan, **considers/discusses its progress**, and **suggests ways to achieve its targets** – it did not allocate plan money.
 - Restructured into NITI Aayog's **Governing Council**.
 > Angles: Planning Commission basis (Cabinet resolution ×3), first chairman, NDC date/members/secretary/functions (×8), "not in existence now".
-~~ Sources: Laxmikanth 8th ed. ch.56 p.660-664 (laxmikanth-indian-polity-02 p.215-220); Rocket Polity Part 2 p.20-21; Ramesh Singh, Indian Economy 10th ed. ch.5; app notes 2:77 sub 0
+~~ Sources: Laxmikanth 8th ed. ch.56 (laxmikanth-indian-polity-02 p.215-220); Rocket Polity Part 2 p.20-21; Ramesh Singh, Indian Economy 10th ed. ch.5; app notes 2:77 sub 0
 
 === NITI Aayog – Status, Structure and Hubs
 - Came into force on **1 January 2015** (Cabinet Secretariat notification) by a **Union Cabinet resolution** – **neither constitutional nor statutory** (not an ordinance or Act); a **think-tank**; based on **cooperative federalism**.
@@ -28,7 +28,7 @@
 # Planning horizon
 - Five-Year Plans replaced by a **15-year Vision**, **7-year Strategy** and **3-year Action Agenda** – **5 years is not** one of them.
 > Angles: date 1 Jan 2015 (×3), Cabinet resolution, no full-time chairman, first VC, Team India Hub, 3/7/15 years.
-~~ Sources: Laxmikanth 8th ed. ch.56 p.660-668; NextGen Indian Economy - APPSC Part 1 p.4-6; Rocket Indian Economy p.33-35; app notes 2:77 sub 1
+~~ Sources: Laxmikanth 8th ed. ch.56 (laxmikanth-indian-polity-02 p.215-222); NextGen Indian Economy - APPSC Part 1 p.4-6; Rocket Indian Economy p.33-35; app notes 2:77 sub 1
 
 === NITI Aayog vs the Planning Commission
 | Feature | Planning Commission | NITI Aayog |

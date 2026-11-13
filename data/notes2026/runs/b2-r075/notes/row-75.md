@@ -145,7 +145,7 @@
 - **Whistle Blowers Protection Act, 2014** (assent **9 May 2014**): **public interest disclosure** on corruption; **competent authority** for central employees = **CVC**; anonymous complaints not taken up; 7-year bar.
 - **⚠ Trap:** Santhanam → CVC/CBI; Kripalani, Gorwala, Kelkar, Swaran Singh, Bakshi Tek Chand → distractors.
 > Angles: recommended by Santhanam (×4), year 1964, statutory body, objective = prevent corruption, present CVC.
-~~ Sources: Laxmikanth 8th ed. ch.64 p.716-719 (laxmikanth-indian-polity-02 p.259-263); NextGen Polity - APPSC (full) p.178; PMF Polity Part 4 ch.61 p.22-24; DoPT notification Aug 2026 (A.S. Rajeev acting CVC)
+~~ Sources: Laxmikanth 8th ed. ch.64 (laxmikanth-indian-polity-02 p.259-263); NextGen Polity - APPSC (full) p.178; PMF Polity Part 4 ch.61 p.22-24; DoPT notification Aug 2026 (A.S. Rajeev acting CVC)
 
 === Civil Society Movement (2011)
 - **India Against Corruption (IAC)**, led by **Anna Hazare**; fasts at **Jantar Mantar (April 2011)** and **Ramlila Maidan (August 2011)** for the **Jan Lokpal Bill**.

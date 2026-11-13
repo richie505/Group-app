@@ -27,7 +27,7 @@
 | **BHARATPOL** | Developed by the **CBI**; launched **7 January 2025** by Home Minister **Amit Shah**; real-time Interpol requests (not RAW, IB or ED) |
 | Interpol | CBI is India's **National Central Bureau** |
 > Angles: year 1963, founder Kohli, DSPE Act → CBI, present Director (Alok Verma then; now Praveen Sood), OCSAE, BHARATPOL, UPSC 2026 row-match (CBI–DoPT correct).
-~~ Sources: Laxmikanth 8th ed. ch.65 p.720-722 (laxmikanth-indian-polity-02 p.264-268); PMF Polity Part 4 ch.62 p.25-28; Rocket Polity Part 1 p.6; India TV / Hitavada 13-14 May 2026 (Sood extension)
+~~ Sources: Laxmikanth 8th ed. ch.65 (laxmikanth-indian-polity-02 p.264-268); PMF Polity Part 4 ch.62 p.25-28; Rocket Polity Part 1 p.6; India TV / Hitavada 13-14 May 2026 (Sood extension)
 
 === Status of the Bodies and Who Appoints Whom
 # Status
@@ -50,7 +50,7 @@
 | CEC and ECs (2023 Act) | President | PM, Union Cabinet Minister, LoP |
 - **Public Information Officers** are designated by **each public authority** (Section 5) – not by the Supreme Court; first appellate authority is a senior officer of the public authority – not elected by Parliament.
 > Angles: correctly paired appointing authority (CIC–President, SIC–Governor), bodies not in the Constitution.
-~~ Sources: Laxmikanth 8th ed. ch.62-63 p.705-712; Rocket Polity Part 2 p.20-21; app notes 2:76 sub 0-1
+~~ Sources: Laxmikanth 8th ed. ch.62-63 (laxmikanth-indian-polity-02 p.252-258); Rocket Polity Part 2 p.20-21; app notes 2:76 sub 0-1
 
 === Information Commissions Under the RTI Act
 - **CIC** constituted **2005** under **Section 12**: CIC + up to **10** ICs; only body that can declare an organisation a "**public authority**".
