@@ -54,6 +54,8 @@
 | Direct attack | 5th Plan "Garibi Hatao"; wage-employment and livelihood missions |
 | Welfare | Nordic states |
 | Bottom-up | SHG movement |
+- **Bhagwati–Sen debate** – growth first vs social infrastructure first:
+
 | | Jagdish Bhagwati (with Arvind Panagariya) | Amartya Sen (with Jean Drèze) |
 |---|---|---|
 | Priority | **Economic growth first** – rapid market-led growth creates jobs and revenue for welfare | **Investment in social infrastructure first** – health, education, nutrition |
