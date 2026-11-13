@@ -14,6 +14,7 @@
 | Amaravati | Right bank of the Krishna, AP; traced by Colin Mackenzie, 1797 |
 - **Chronological order (UPPCS Mains 2014):** **Bharhut → Sanchi → Amaravati → Dhamek** (Bharhut and Sanchi stone work 2nd–1st c. BCE, Amaravati's peak 1st–2nd c. CE, Dhamek Gupta). The old key "Dhamek, Bharhut, Amaravati, Sanchi" puts the Gupta stupa first and is wrong.
 - **Sanchi gateway:** Ashoka's visit to the **Bodhi tree with his two queens**; south gateway – Ashoka at Ramagrama.
+- **Andhra:** the oldest stupa of Andhra is **Bhattiprolu**; the Amaravati stupa grew from an Ashokan core.
 ~~ Sources: PMF Ancient & Medieval 02 p.134-137, p.139; NextGen Indian History APPSC 02 p.52; https://www.doubtnut.com/qna/648093855; app notes 1:38 (sub 8)
 
 === Pillars, Capitals and Court Art
