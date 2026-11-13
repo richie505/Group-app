@@ -51,3 +51,10 @@
 ## b2-r001-k1 Constituent Assembly, remaining 32 PYQs (3 keys changed)
 - y477bb618fa6 "Constitution was adopted on": printed 26 Jan 1950 → no key (-1): adopted 26 Nov 1949 (not offered).
 - Light sources: y1061cb1b529 Azad and deferment of adult franchise; y1c410c7df89 "sacred document" = Ambedkar; y667bd22de20 "Deshratna" = Rajendra Prasad.
+
+## b2-r004 Preamble (142 PYQs, 10 keys changed, 22 generated, 2 no key)
+- ybdc605b54c7 last day of the Constituent Assembly: 26-11-1949 → 24-1-1950.
+- yb61baed19e4 'Secular' "more mischief than benefit": Krishna Iyer → D.D. Basu (indirect evidence) — confirm or set -1.
+- No correct option: yf9960cb6bb9 word NOT in the Preamble (all four are); yaa54d316e18 "key of the Constitution" (Barker / SC, not Ambedkar).
+- Ambiguous kept: ybe5c07672b4 "Unity" added by 42nd (only "integrity" was); yf57bedd766f; yd01c2ef4180 / y09d4a7d9e58 → Bommai.
+- Rocket p.37 Golaknath vs NextGen Kesavananda (Preamble part of the Constitution): notes follow NextGen.
