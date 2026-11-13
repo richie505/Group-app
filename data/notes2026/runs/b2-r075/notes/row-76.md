@@ -20,7 +20,7 @@
 - **Section 6, DSPE Act**: CBI needs the State's **consent**, as **police** is **State List Entry 2**; **AP withdrew general consent Nov 2018**, restored June 2019.
 - **Lokpal**: superintendence over the CBI only in cases it refers.
 # Mandate, units and platforms
-- **Corruption, economic and special crimes**, mainly **Central Government and UT employees** and their PSUs.
+- **Corruption, economic and special crimes**, mainly **Central Government and UT employees** and their PSUs; there is **no constitutional bar** on its probing economic offences.
 | Unit / platform | Purpose |
 |---|---|
 | **OCSAE Prevention/Investigation Unit (2019)** | Online child sexual abuse and exploitation – set up by the **CBI** (not NIA, NCPCR or CVC) |

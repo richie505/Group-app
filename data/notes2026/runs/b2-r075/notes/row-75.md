@@ -113,7 +113,7 @@
 - **Chairman of the Rajya Sabha is NOT a member**; **Search Committee** of **at least 7 persons** (half from SC/ST/OBC/minorities/women).
 # Jurisdiction, powers, time limits
 - Covers the **PM** (except international relations, security, public order, atomic energy, space; inquiry only if **two-thirds** of the full bench approves, in camera), **Ministers, MPs** (not for anything said or votes in Parliament), **Group A–D** central officials (**C and D → CVC**, which reports back), NGOs with foreign contributions **above ₹10 lakh**, public servants **posted abroad**.
-- **Inquiry Wing (Section 11)** and Prosecution Wing; **superintendence over the CBI only in cases referred by the Lokpal**; attach property **even while prosecution is pending**.
+- **Inquiry Wing (Section 11**; preliminary inquiry into **Prevention of Corruption Act** offences) and Prosecution Wing; **superintendence over the CBI only in cases referred by the Lokpal**; attach property **even while prosecution is pending**.
 - Time limits: preliminary inquiry **90 days** (+90); Inquiry Wing report **60 days**; investigation **6 months + 6 months**; trial **1 year, up to 2**; complaint bar **7 years**.
 - **Section 17A** belongs to the **PC Act** (prior approval before probe): **22 Jan 2026** SC split verdict – **Justice B.V. Nagarathna** (unconstitutional) vs **Justice K.V. Viswanathan**.
 # People and working

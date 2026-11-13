@@ -10,6 +10,7 @@
 | Deconcentration | Work shifted to field offices of the same government | Centre keeps full control – weakest |
 | Delegation | Tasks given to semi-autonomous bodies | **Can be withdrawn at will** |
 | **Devolution** | Powers to **elected local governments** that **elect their own officials, raise own revenue, decide independently** | Not withdrawable at will – strongest (73rd, 74th) |
+- **Dimensions** of decentralisation (India's weakest = **fiscal**):
 | Dimension | Transfers |
 |---|---|
 | Political | Power to decide – elected local bodies |
