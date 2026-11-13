@@ -73,3 +73,11 @@
 - y240079568bc "Kalinga victory is mentioned in" (UPPCS 2016): Maski → no key (Rock Edict XIII not offered).
 - Old notes fixed: Maski does not mention Kalinga; "Gulmika" is from Myakadoni (own MCQ g5655bc407272 stem corrected).
 - Judgement calls: y5997894f8ec Brahmi deciphered from "stone tablets"; y069e0d2717c Namami Brahmaputra purpose.
+
+## b1-r057 Early Andhra society, Sangam age, Guptas (117 PYQs, 8 keys changed, 21 generated)
+- yb515db2094f "Maiputa" (G2 2019 foundation cream): Kusuma Lepanam → Aradalam (NextGen PP p.13, Rocket); old notes had copied the wrong key. Own MCQ g0ff983772cf6 → no key (Aradalam not offered).
+- y732454e61b4 Devarashtra → Yelamanchili (NextGen); old notes said S. Kota.
+- yb0fa3595770 women in Satavahana inscriptions: no key (three options true, no "all").
+- Param Bhagavata (yab45409b1a1, yb7817a4a616): Samudragupta kept (Rocket; Nalanda/Gaya plates) — UPPSC official key gave Chandragupta II. DECIDE.
+- NextGen Indian History Part 3 p.2 wrongly credits Chandragupta I with defeating the Sakas / first silver coins — notes flag it.
+- ybbf1e920745 UPSC 2000 A–R kept (a) per PMF; y8c67e8f7109 Indo-Roman trade centre → Muziris.

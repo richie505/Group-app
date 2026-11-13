@@ -24,26 +24,6 @@
 - Tamil ports traded with **Berenike** and **Myos Hormos** on the **Egyptian Red Sea coast**.
 ~~ Sources: PMF Ancient & Medieval India Part 3 p.33, p.36-37, p.48-49; https://www.vedantu.com/question-answer/the-chief-centre-or-meeting-point-of-the-class-12-social-science-cbse-5fdb5f5366a68856d08b50d3; app notes 1:60 (sub 6)
 
-=== Ports – Kingdom, Coast, Classical Name
-| Port | Kingdom / coast | Classical name / note |
-|---|---|---|
-| **Muziris** | **Chera** chief port; west (Malabar) coast | Pattanam |
-| **Tondi** | Chera; west coast | **Tyndis** |
-| **Korkai** | **Pandya**; east coast | Kolkoi; **pearl fishery**, pearls and shells |
-| **Puhar (Kaveripattinam)** | **Chola** port and capital; east coast | Cotton, muslin, silk; a **Yavana quarter** |
-| **Arikamedu** | Near Puducherry; east coast | **Poduke** (UPPCS 1997) |
-| **Uraiyur** | **Inland** Chola capital, craft centre | Not a port |
-| **Motupalli** | **Kakatiya** (Andhra) seaport | Not a Sangam port |
-- Other ports: Nelkynda, Bakare (Kerala), Marakkanam.
-# Ports of the wider trade (IAS 2000 match)
-| Port | Location |
-|---|---|
-| **Barygaza** (Bharuch) | **North of the Narmada** |
-| **Muziris** | **Malabar coast** |
-| **Sopara** | Present **Mumbai coast** |
-| Suvarnabhumi | Eastern lands (code 4-1-2-3) |
-~~ Sources: PMF Ancient & Medieval India Part 3 p.34, p.37, p.48-49; app notes 1:60 (sub 5)
-
 === Social Groups and Customs – Vellalar, Vattakirutal
 # Tolkappiyam's four castes
 | Order | Caste | Role |
@@ -65,6 +45,26 @@
 | **Pukal** | **Glory** – the hero's goal in puram poems |
 | **Nadukal** | **Hero stone** for a warrior fallen in battle |
 ~~ Sources: PMF Ancient & Medieval India Part 3 p.34, p.37, p.42; app notes 1:60 (sub 1, 2)
+
+=== Ports – Kingdom, Coast, Classical Name
+| Port | Kingdom / coast | Classical name / note |
+|---|---|---|
+| **Muziris** | **Chera** chief port; west (Malabar) coast | Pattanam |
+| **Tondi** | Chera; west coast | **Tyndis** |
+| **Korkai** | **Pandya**; east coast | Kolkoi; **pearl fishery**, pearls and shells |
+| **Puhar (Kaveripattinam)** | **Chola** port and capital; east coast | Cotton, muslin, silk; a **Yavana quarter** |
+| **Arikamedu** | Near Puducherry; east coast | **Poduke** (UPPCS 1997) |
+| **Uraiyur** | **Inland** Chola capital, craft centre | Not a port |
+| **Motupalli** | **Kakatiya** (Andhra) seaport | Not a Sangam port |
+- Other ports: Nelkynda, Bakare (Kerala), Marakkanam.
+# Ports of the wider trade (IAS 2000 match)
+| Port | Location |
+|---|---|
+| **Barygaza** (Bharuch) | **North of the Narmada** |
+| **Muziris** | **Malabar coast** |
+| **Sopara** | Present **Mumbai coast** |
+| Suvarnabhumi | Eastern lands (code 4-1-2-3) |
+~~ Sources: PMF Ancient & Medieval India Part 3 p.34, p.37, p.48-49; app notes 1:60 (sub 5)
 
 === Religion, Women and Festivals
 # Gods
