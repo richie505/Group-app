@@ -75,7 +75,7 @@
 === Coastline – Length, Coastal States and Rankings
 | Measure | Figure |
 |---|---|
-| **Revised coastline** (NHO and Survey of India; adopted 2024–25, MHA) | **11,098.81 km** (+~47.7%: finer 1:250,000 GIS tracing of creeks and inlets, not real growth) |
+| **Revised coastline** (NHO and Survey of India; Ports Ministry circular 29 Apr 2025, accepted by CPDAC; PIB 4 Dec 2025) | **11,098.81 km** (+~47.7%: finer 1:250,000 GIS tracing of creeks and inlets, not real growth) |
 | Earlier figure (still in most books and older keys) | **7,516.6 km** = mainland **~6,100 km** + islands |
 | Coastal States | **9:** Gujarat, Maharashtra, Goa, Karnataka, Kerala (west); Tamil Nadu, Andhra Pradesh, Odisha, West Bengal (east) |
 | Coastal UTs | 4: Andaman & Nicobar, Lakshadweep, Puducherry, Dadra & Nagar Haveli and Daman & Diu → excluding island UTs = **9 States + 2 UTs** |
@@ -90,7 +90,7 @@
 | Kerala | ~570 | 600.15 |
 | Odisha | ~476 | 574.71 |
 | Karnataka | ~280 | 343.30 |
-| Goa | ~101 | 193.95 |
+| Goa | 160.50 | 193.95 |
 | A&N Islands | – | 3,083.50 |
 - **Longest:** **Gujarat** (both measures). **Second:** **Tamil Nadu now**; Andhra Pradesh in the old figures (pre-2025 keys "AP second", now outdated). Longest on the **east coast:** Tamil Nadu now (AP in old keys).
 - **Increasing order now:** Odisha < Andhra Pradesh < Tamil Nadu < Gujarat; Maharashtra < AP < TN < Gujarat (old: Maharashtra < TN < AP < Gujarat).

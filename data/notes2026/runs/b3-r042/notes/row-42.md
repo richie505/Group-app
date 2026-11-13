@@ -33,7 +33,7 @@
 | Urban population | 28.6 crore (**27.81%**) | **37.71 crore (377.1 million) = 31.16%** |
 | Rural population | 74.3 crore (72.19%) | 83.3 crore (68.84%) |
 | Total towns | 5,161 | **7,935** |
-| Statutory towns | 4,378 | **4,041** |
+| Statutory towns | 3,799 | **4,041** |
 | Census towns | **1,362** | **3,894** provisional (3,892 final) |
 | Million-plus cities / UAs | **35** | **53** |
 - Increase 2001-11: urban **+91.0 million**, rural +90.4 million – first decade with a larger urban than rural increase.
