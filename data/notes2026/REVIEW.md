@@ -64,3 +64,12 @@
 - Ninth Schedule Acts: NextGen 282 vs Rocket 284.
 - Own MCQ n722ef076557 Bhojpuri demand June 2026: no Drive source for the date.
 - Duplicates: UPSC 2003 Ninth Schedule ×3 ids; CGPSC Chhattisgarhi ×2.
+
+## b1-r000 Sources of ancient Indian and Andhra history (119 PYQs, 10 keys changed, 37 generated)
+- yf6be0664313 "Andhakaratta" (G2 Mains 2017): Jain → Buddhist literature (NextGen Previous Papers p.8).
+- y0217def2d26 "Black Princess" (Ajanta): Satavahana → Vakataka (Cave 1, Harishena).
+- y166f760990f temple of Augustus at Muziris: Periplus → "Genealogical tables" (= Peutinger Tables, garbled option).
+- y236bb3acae2 Manusmriti: Social System → Law.
+- y240079568bc "Kalinga victory is mentioned in" (UPPCS 2016): Maski → no key (Rock Edict XIII not offered).
+- Old notes fixed: Maski does not mention Kalinga; "Gulmika" is from Myakadoni (own MCQ g5655bc407272 stem corrected).
+- Judgement calls: y5997894f8ec Brahmi deciphered from "stone tablets"; y069e0d2717c Namami Brahmaputra purpose.
