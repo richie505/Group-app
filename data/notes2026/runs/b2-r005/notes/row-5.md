@@ -22,7 +22,7 @@
 - **Jun 2026**: fresh demands to include **Bhojpuri** (Konkani, Maithili, Santali are already in).
 - **Jul 2026**: Ministry of Tribal Affairs told Parliament of continuing demands to include **Gor Boli (Lambadi)**, the **Banjara** language of AP and Telangana (PIB).
 - **Sep 2026**: Karnataka made **Tulu** an additional official language in Dakshina Kannada and Udupi – Tulu is **not** in the Eighth Schedule.
-> Odd-one-out pattern: English (4 times), Rajasthani, Gondi, Bhojpuri, Bhutani – none is scheduled; Urdu, Sindhi, Nepali, Dogri, Kashmiri, Sanskrit are.
+> Odd-one-out pattern: English (3 times), Rajasthani, Gondi, Bhojpuri, Bhutani – none is scheduled; Urdu, Sindhi, Nepali, Dogri, Kashmiri, Sanskrit are.
 ~~ Sources: NextGen Polity - APPSC Exams p.157; Indian_Polity Part 1 ch.2 (8th Schedule list); PMF Lens Jul 2026 1.23; Praveen CA360 Sep 2026 (Tulu); Official Languages Commission – Lok Sabha debates 5 May 1955 and Report 1956
 
 === The Twelve Schedules – Contents

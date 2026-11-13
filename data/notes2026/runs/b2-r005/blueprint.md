@@ -17,7 +17,7 @@ Data: 75 PYQs (pyqs.json, keyed in keys.jsonl) + 84 app MCQs (all-mcqs.json); 15
 | Exam family | PYQs |
 |---|---|
 | APPSC (Group 2, Group 3, JL/DL, HWO, AEE, Fisheries, Stenos, Medical, etc.) | 39 |
-| Other state PSCs (UPPSC ×15, CGPSC ×3, RAS) and SSC | 22 |
+| Other state PSCs (UPPSC/UP exams, CGPSC, RAS) and SSC | 22 |
 | UPSC (CSE 2003 ×4, 2014, 2019, 2024; CDS 2017) | 8 |
 | AP Police (APSLPRB SI / Constable) | 4 |
 | AP Sachivalayam | 2 |
@@ -37,7 +37,7 @@ Data: 75 PYQs (pyqs.json, keyed in keys.jsonl) + 84 app MCQs (all-mcqs.json); 15
 ## 2. Sub-topic weight (rebuilt sub-sections, heaviest first)
 | # | Sub-section | PYQs | App MCQs | Most-asked points |
 |---|---|---|---|---|
-| 0 | Eighth Schedule – Languages | 18 | 9 | Not included: English ×4, Rajasthani, Gondi, Bhojpuri, Bhutani; 22 languages ×2; 71st = Konkani/Manipuri/Nepali; Konkani 1992; Sindhi by amendment; Official Language Commission 1955; Chhattisgarhi demand ×2 |
+| 0 | Eighth Schedule – Languages | 18 | 9 | Not included: English ×3, Rajasthani, Gondi, Bhojpuri, Bhutani; 22 languages ×2; 71st = Konkani/Manipuri/Nepali; Konkani 1992; Sindhi by amendment; Official Language Commission 1955; Chhattisgarhi demand ×2 |
 | 1 | The Twelve Schedules – Contents | 12 | 14 | First Schedule (States/UTs) ×3, Third (oaths) ×2 incl. CJI form, Fourth (RS seats), Fifth (PESA), 7/10/11/12 match, wrong pairs ×2, 73rd → 11th, State List 66 |
 | 2 | Ninth Schedule | 10 | 5 | Added by 1st Amendment ×7 (UPSC 2003 ×3 identical), Nehru, land reforms, TN 69% (76th, 1994) ×2 |
 | 3 | Parts of the Constitution | 10 | 22 | Union Executive Part V, Elections XV, UTs VIII, DPSP 36–51, Part XVI, PSCs Part XIV, Official language 343–351, 73rd → Part IX, 74th → Municipalities, wrong pair Part XX |
@@ -47,9 +47,9 @@ Data: 75 PYQs (pyqs.json, keyed in keys.jsonl) + 84 app MCQs (all-mcqs.json); 15
 | 7 | Counts – Original vs Present (2026) | 3 | 2 | 12 Schedules now ×2, 8 originally |
 
 ## 3. Repeats
-- "Ninth Schedule added by" – 7 times (UPSC CSE 2003 asked the same item under three ids; IAS 2003 also as "lists the names of States"); 1st Amendment is the answer every time.
+- "Ninth Schedule added by" – 6 times (UPSC CSE 2003 asked the same item under three ids) plus the UPSC 2019 "prime ministership of Nehru" variant; 1st Amendment is the answer every time.
 - "Which Schedule – anti-defection" – 5 times (UPSC 2014, UPPSC 2013, APSLPRB 2023, APPSC ×2); "52nd Amendment" – 3 times.
-- "English not in the Eighth Schedule" – 4 times (Degree Lecturers 2011, APSLPRB 2019, CGPSC 2018, the Bhutani flashcard pattern).
+- "English not in the Eighth Schedule" – 3 times (Degree Lecturers 2011, APSLPRB 2019, CGPSC 2018); same odd-one-out pattern with Rajasthani, Gondi, Bhojpuri, Bhutani.
 - "Election Commission – Art. 324" – 3 times (SI 2012, APPSC 2012, UPPSC 2017).
 - "Number of Schedules" – 3 times (12 now ×2, 8 originally).
 - TN 69% in the Ninth Schedule – twice (APPSC G2 2011; Sachivalayam 1994-year form).
