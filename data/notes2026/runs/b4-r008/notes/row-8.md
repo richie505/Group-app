@@ -1,5 +1,5 @@
 === Types of Mountains – Fold, Block, Volcanic, Residual, Dome
-# Five types (asked about 16 times)
+# Five types (asked 15 times)
 | Type | How formed | Features | Examples |
 |---|---|---|---|
 | **Young fold** | Tertiary (Alpine) compression of geosyncline sediments | Very high, rugged, sharp conical peaks; **world's highest peaks** | **Himalaya, Alps, Andes, Rockies**, Atlas |
@@ -19,6 +19,19 @@
 - **"Island of precipitation":** **dome** mountains like the Black Hills rise abruptly from dry plains and get about twice the plains' rainfall (APPSC G2 2011, printed as "Down mountains").
 > Trap: Aravallis are both old fold and residual; when "old mountains" and "fold mountains" are both offered, the books' key is "old mountains".
 ~~ Sources: NextGen Rocket General Geography p.33-34; NextGen Indian Geography 02 p.7-8 (pp.21-22); PMF Physical Geography 02 p.46-48 (pp.133-135); NPS/NWS Black Hills climate; app notes 4:8 sub 1
+
+=== The Aravalli – India's Oldest Fold (Residual) Range
+- **Oldest mountain range of India** (asked 6 times: vs Himalaya, Shiwalik, Vindhya, Satpura, Nilgiri, Western Ghats); Precambrian, from Dharwar sediments; age about **570 million years** (IAS 2001).
+- **Old fold mountain** (APPSC FSO flashcard: "fold mountain") and a **residual** mountain – "continuously denuded, typical residual hills" 400–600 m.
+- Runs ~800 km from **Delhi** through **Haryana** and **Rajasthan** to northern **Gujarat** – mainly **Rajasthan** (UPRO 2014).
+| Peak | Height | Note |
+|---|---|---|
+| **Guru Shikhar** | **1,722 m** | Highest; Mount Abu, **Sirohi district, Rajasthan** (UPSC 2007, asked twice) |
+| **Kumbhalgarh** | ~1,224 m | Highest when Guru Shikhar is not offered (RAS 2012) |
+| Sajjangarh, Lilagarh, Taragarh | ~938, 874, 873 m | Lower |
+- Guru Shikhar is also the **highest peak of the Central Highlands** of the Peninsular Plateau (APPSC Degree Lecturers 2020); Parasnath and Dalma are Chotanagpur, Kamet is Himalaya.
+- **Supreme Court (Nov 2025):** an Aravalli **hill** = landform rising at least **100 m** above local relief (not 500 m); an Aravalli **range** = hills lying within **500 m** of each other; new mining leases paused. MoEF&CC banned new leases on **24 Dec 2025**; the SC later stayed its own directions (Dec 2025).
+~~ Sources: NextGen Rocket Indian Geography p.43; NextGen Indian Geography 05 p.10; PMF Physical Geography 02 p.48 (p.135); app notes 4:8 sub 2 (SC 2025 items, as of 2026)
 
 === Faults, Block Mountains and Rift Valleys
 # Faults
@@ -43,19 +56,6 @@
 - Why the Narmada flows west: **only because it occupies a rift valley** (UPSC 2015: "Only I"); lying between Vindhya and Satpura is just its location.
 - **Damodar** = east-flowing river in a **rift valley due to down-warping** (IAS 1998). Tapi also flows in a rift.
 ~~ Sources: NextGen Rocket General Geography p.36; NextGen Indian Geography 02 p.8 (p.22); NextGen Indian Geography 05 (Narmada rift); NCERT Class 11 India Physical Environment ch.3; app notes 4:8 sub 4
-
-=== The Aravalli – India's Oldest Fold (Residual) Range
-- **Oldest mountain range of India** (asked 6 times: vs Himalaya, Shiwalik, Vindhya, Satpura, Nilgiri, Western Ghats); Precambrian, from Dharwar sediments; age about **570 million years** (IAS 2001).
-- **Old fold mountain** (APPSC FSO flashcard: "fold mountain") and a **residual** mountain – "continuously denuded, typical residual hills" 400–600 m.
-- Runs ~800 km from **Delhi** through **Haryana** and **Rajasthan** to northern **Gujarat** – mainly **Rajasthan** (UPRO 2014).
-| Peak | Height | Note |
-|---|---|---|
-| **Guru Shikhar** | **1,722 m** | Highest; Mount Abu, **Sirohi district, Rajasthan** (UPSC 2007, asked twice) |
-| **Kumbhalgarh** | ~1,224 m | Highest when Guru Shikhar is not offered (RAS 2012) |
-| Sajjangarh, Lilagarh, Taragarh | ~938, 874, 873 m | Lower |
-- Guru Shikhar is also the **highest peak of the Central Highlands** of the Peninsular Plateau (APPSC Degree Lecturers 2020); Parasnath and Dalma are Chotanagpur, Kamet is Himalaya.
-- **Supreme Court (Nov 2025):** an Aravalli **hill** = landform rising at least **100 m** above local relief (not 500 m); an Aravalli **range** = hills lying within **500 m** of each other; new mining leases paused. MoEF&CC banned new leases on **24 Dec 2025**; the SC later stayed its own directions (Dec 2025).
-~~ Sources: NextGen Rocket Indian Geography p.43; NextGen Indian Geography 05 p.10; PMF Physical Geography 02 p.48 (p.135); app notes 4:8 sub 2 (SC 2025 items, as of 2026)
 
 === Young Fold Mountains – Evidence from the Himalaya
 - **Youngest/most recent range:** the **Himalayas** (CGPSC 2018); within them the **Shiwaliks** are the youngest chain (UPPSC 2010).

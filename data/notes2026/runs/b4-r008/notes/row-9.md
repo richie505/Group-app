@@ -36,23 +36,6 @@
 - **No volcanoes in the Himalaya or the Peninsula** today.
 ~~ Sources: PMF Physical Geography 02 p.69 (p.156); NextGen Rocket General Geography p.40; NextGen Indian Geography 06 p.3-5 (Andaman map, labels garbled); Smithsonian GVP (Barren, Narcondam); app notes 4:9 sub 7
 
-=== Types of Volcanoes – Activity and Form
-| By activity | Meaning | Example |
-|---|---|---|
-| **Active** | Erupts fairly frequently | Barren Island, **Stromboli**, Etna, **Mauna Loa** |
-| **Dormant** | Quiet for long, **capable of erupting again** | Narcondam, Kilimanjaro, Mauna Kea |
-| **Extinct** | No eruption expected | Dhinodhar, Mount Kenya |
-# By form
-| Form | Shape | Examples |
-|---|---|---|
-| **Shield** | Broad, gentle slopes of fluid basalt | **Mauna Loa**, Hayli Gubbi |
-| **Composite / strato** | Steep cone of alternating lava and ash; explosive | Fuji, Vesuvius, St. Helens, Fuego, Taftan |
-| **Cinder cone** | Small steep cone of ash, cinders, scoria around one vent | Cerro Negro (Nicaragua) |
-| **Complex** | Several vents, overlapping cones | Taal, Dukono |
-| **Caldera** | Cauldron-shaped hollow after the chamber empties and the summit collapses | – |
-- Crater = funnel-shaped mouth at the top of a cone; caldera = much larger collapse hollow.
-~~ Sources: PMF Physical Geography 02 p.54-55 (pp.141-142); app notes 4:9 sub 0, 2
-
 === Magma, Lava and Volcanic Materials
 - **Magma** = molten rock **below** the surface (~600–1,200°C, in a magma chamber); **lava** = magma at the surface. "Molten material inside the Earth" = magma → "None of the above" when only lava, basalt, obsidian are offered (UKPSC 2006).
 - Solidified magma/lava → **igneous rocks**.
@@ -72,18 +55,6 @@
 | Saffir–Simpson scale | Hurricane intensity |
 | Anemometer | Wind **speed** (wind vane gives direction) – the wrong pair |
 ~~ Sources: NextGen Rocket General Geography p.31-32; PMF Physical Geography 02 p.44, 55, 83; app notes 4:9 sub 0, 1
-
-=== Global Distribution of Volcanoes
-| Belt | Volcanoes |
-|---|---|
-| **Circum-Pacific "Ring of Fire"** | **Most eruptions and earthquakes** – Fuji, St. Helens, Cotopaxi, Tungurahua, Fuego, Mayon, Pinatubo, Krakatau, Whakaari, Popocatepetl |
-| Mid-Atlantic belt | Iceland – Hekla |
-| Mediterranean belt | Vesuvius, Etna, **Stromboli** |
-| Intraplate hotspots | Hawaii (Mauna Loa) |
-| East African Rift | Kilimanjaro, Afar triple junction |
-- **No extrusive volcanoes in the Himalayas** (CDS 2018): continent–continent collision yields no magma; Alaska, Rockies, Andes lie on subduction margins.
-- Stromboli = Mediterranean, **not** East African Rift.
-~~ Sources: PMF Physical Geography 02 p.69 (p.156); app notes 4:9 sub 3
 
 === Volcanic Landforms, Hot Springs and Geysers
 - **Volcanic cone = basic (constructional) landform** (UKPSC 2016, asked twice); residual mountain, monadnock, erosional waterfall are erosional forms.
@@ -106,3 +77,32 @@
 | Puga Valley, Chumathang | **Ladakh** (not Himachal) |
 - **Puga:** ONGC drilled India's **first and deepest geothermal wells** (to 1,000 m) for a 1 MW pilot. GSI lists **340** geothermal sites.
 ~~ Sources: PMF Physical Geography 02 p.70 (geysers); app notes 4:9 sub 5, 6
+
+=== Types of Volcanoes – Activity and Form
+| By activity | Meaning | Example |
+|---|---|---|
+| **Active** | Erupts fairly frequently | Barren Island, **Stromboli**, Etna, **Mauna Loa** |
+| **Dormant** | Quiet for long, **capable of erupting again** | Narcondam, Kilimanjaro, Mauna Kea |
+| **Extinct** | No eruption expected | Dhinodhar, Mount Kenya |
+# By form
+| Form | Shape | Examples |
+|---|---|---|
+| **Shield** | Broad, gentle slopes of fluid basalt | **Mauna Loa**, Hayli Gubbi |
+| **Composite / strato** | Steep cone of alternating lava and ash; explosive | Fuji, Vesuvius, St. Helens, Fuego, Taftan |
+| **Cinder cone** | Small steep cone of ash, cinders, scoria around one vent | Cerro Negro (Nicaragua) |
+| **Complex** | Several vents, overlapping cones | Taal, Dukono |
+| **Caldera** | Cauldron-shaped hollow after the chamber empties and the summit collapses | – |
+- Crater = funnel-shaped mouth at the top of a cone; caldera = much larger collapse hollow.
+~~ Sources: PMF Physical Geography 02 p.54-55 (pp.141-142); app notes 4:9 sub 0, 2
+
+=== Global Distribution of Volcanoes
+| Belt | Volcanoes |
+|---|---|
+| **Circum-Pacific "Ring of Fire"** | **Most eruptions and earthquakes** – Fuji, St. Helens, Cotopaxi, Tungurahua, Fuego, Mayon, Pinatubo, Krakatau, Whakaari, Popocatepetl |
+| Mid-Atlantic belt | Iceland – Hekla |
+| Mediterranean belt | Vesuvius, Etna, **Stromboli** |
+| Intraplate hotspots | Hawaii (Mauna Loa) |
+| East African Rift | Kilimanjaro, Afar triple junction |
+- **No extrusive volcanoes in the Himalayas** (CDS 2018): continent–continent collision yields no magma; Alaska, Rockies, Andes lie on subduction margins.
+- Stromboli = Mediterranean, **not** East African Rift.
+~~ Sources: PMF Physical Geography 02 p.69 (p.156); app notes 4:9 sub 3
