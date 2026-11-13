@@ -18,3 +18,11 @@
 - yc3148ab92d6 Rajendra's title → Gangaikonda (Kadaram Kondan also his: flawed question). y358bc859520 lost-wax Nataraja → Pallavas (Cholas not among options).
 - Notes conflicts settled: Uttaramerur committee term 1 year (+3-year bar), not 3 years (NextGen); Hoysaleswara temple built by Ketamalla c.1121, not Narasimha I (Rocket).
 - 8 off-subject PYQs moved to other books (Chandranna Bata → Polity AP welfare; flower/ovary, lifestyle disease, disaster → Science; Iran president, Vishwakarma Award → Current Affairs; dyslexia, parenting → Polity child/disability).
+
+## b1-r050 Ikshvakus → Vishnukundins (98 PYQs, 11 keys changed, 25 generated)
+- Reversals: y36756ba3cd9 Bodhisri's reign Ehuvala → Virapurushadatta (inscription dated his 14th year); yf4b36cf9aed capital Amarapuri→Denduluru Vikramendravarma → Madhava Varma II (official final key accepted both).
+- Old notes wrong on G2 Mains 2025 Ikshvaku question: the final key marks the Ayodhya-descent statement incorrect (not "Sri Parvathiyas"); notes fixed.
+- y7ac7b6e8673 Nagarjuna Sagar start: no key (-1) — foundation 10 Dec 1955 not among options.
+- y1d681dae11e colonisation of Indo-China → Salankayanas, low certainty.
+- Gooty fort "7th century" inscriptions (2 PYQs) from the Anantapur district website only.
+- Old-note errors fixed: Hiranyagarbha by Attivarma (not Damodaravarma); A.R. (Rangaswami) Saraswati.
