@@ -1,5 +1,8 @@
 # PYQ answer-key check and notes links: where it stands (10 Nov 2026)
 
+> **Owner's rule (13 Nov 2026): do NOT use the Anthropic API key (`KEY`) for anything any more.** All further
+> reading, checking and linking is done inside Claude Code sessions (the owner's plan), never with the Batch API.
+
 Scope: the 25,076 real exam PYQs of APPSC Complete (MCQs whose `src` is an exam, not `app`, `ca` or `rocket`).
 Everything below runs on the Message Batches API with the key in the environment variable `KEY`.
 
