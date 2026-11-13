@@ -52,3 +52,14 @@ python3 tools/pyq_notelink.py submit|status|collect|revalidate|apply --run newli
 ```
 
 Measured rates: notes check ~$1.8 per 1,000 PYQs; web check ~$1.15 per 100 flagged PYQs; links ~$1 per 1,000.
+
+## 3.44: new PYQs from the OCR'd previous-bits books (13 Nov 2026)
+
+Six books from Drive "OCR Output" (752 pages) read by Claude Code helper sessions into data/pyq/ocr2026/out/ and
+added with tools/pyq_add_new.py (add-only: the 3.43 key fixes are kept). 7,606 new PYQs in APPSC Complete
+(6,562 with the book's key, 164 one-liners as flashcards, 36 with five options); 2,102 were already in the app.
+Owner's rule: keep every question except mental ability / reasoning.
+Not yet in the app: 757 questions marked "unclear" (lost text "[?]") waiting for a check against the scanned PDFs;
+the second-pass recovery of adobe-scan-04, economy-01, economy-12, polity-02, polity-13, science-tech-05 (stopped
+by a safety check) and ap-history-01; upside-down pages (polity p.53 recovered; p.196, 199, 203, 205-208 unread).
+The new PYQs' keys come from the books' answer grids (not web-checked) and they have no notes links yet.
