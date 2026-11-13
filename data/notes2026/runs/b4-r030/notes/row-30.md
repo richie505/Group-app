@@ -122,7 +122,7 @@
 - **Sringaverapura** (near Allahabad, 1st century BC): sophisticated system channelling the **flood water of the Ganga**.
 - Thar / north-west: scarce water – tanka, kuan, kund, johad.
 > APPSC asks system → state (Zabo, Ahar-pyne, Jhalara, Korambu, Apatani) and the 5-pair match (Zing–Ladakh, Zabo–Nagaland, Johad–Rajasthan, Phad–Maharashtra, Eri–Tamil Nadu).
-~~ Sources: shankariasparliament.com "Traditional water conservation systems"; thebetterindia.com "traditional water conservation systems India"; Wikipedia "Johad"; Shankar Environment 08 (Apatani landscape); app notes 4:30 sub 4
+~~ Sources: shankariasparliament.com "Traditional water conservation systems"; thebetterindia.com "traditional water conservation systems India"; Wikipedia "Johad" (via web search); Shankar Environment 08 (Apatani eco-cultural landscape); Sringaverapura and Khash Dhalai – general knowledge, not checked; app notes 4:30 sub 4
 
 === Canals and Interlinking of Rivers
 | Canal | River | Head / Location |
@@ -180,7 +180,7 @@
 - Terms: silviculture (raising and tending trees), agroforestry (trees with crops or livestock), jhum (NE shifting cultivation; shorter fallow → degradation and erosion).
 - **ISFR 2023:** largest forest area – **Madhya Pradesh** (77,073 sq km).
 - World: **Amazon** – largest continuous rainforest (Congo second); **taiga** – largest terrestrial biome; Bhutan – Constitution keeps ≥ 60% under forest; Canada – largest softwood and pulp exporter; dense forests lie near the equator.
-~~ Sources: Shankar Environment 08 (forest conservation); FAO Global Forest Resources Assessment 2010 key findings (general knowledge, not checked); app notes 4:30 sub 2
+~~ Sources: NextGen Indian Economy P1 03 p.52 (Chipko, Appiko); PMF Environment 01 p.44 (dieback); FAO 2010 figures, Japan forest share and Appiko aims – general knowledge, not checked; app notes 4:30 sub 2
 
 === Water Resources – Availability, Groundwater and Irrigation
 | Indicator | Figure |
@@ -239,7 +239,7 @@
 - **MADA v. SAIL (2024, nine judges):** royalty is not a tax; States tax mineral rights (Entry 50) and mineral land (Entry 49).
 - India: diamonds – Panna (MP); chromite – Sukinda (Odisha); gold – Jonnagiri (Kurnool, AP); Peninsular plateau = mineral heartland.
 - **Deep sea:** India first to sign an **ISA** contract for **polymetallic sulphides** on the **Carlsberg Ridge** (2025); sulphides – Cu, Zn, Pb, Fe, Ag, Au; nodules – Mn, Co, Ni, Cu. ISA – Jamaica; ITLOS – Hamburg.
-~~ Sources: PMF Environment (environmental legislation – DMF, as quoted in UPSC 2016 explanation); India Code / courtkutchehry bare acts (1948 and 1957 Acts, web search); app notes 4:30 sub 8
+~~ Sources: NextGen Indian Economy P1 04 p.49 (DMF statutory bodies); AP Socio-Economic Survey 2024-25 p.119 (DMF trusts); web search – courtkutchehry.com bare act (1948 Act) and India Code (MMDR Act 1957); app notes 4:30 sub 8
 
 === Gemstones, Alloys and Resource Regions of India
 | Gem | Mineral | Colour cause |
