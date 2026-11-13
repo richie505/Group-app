@@ -38,7 +38,7 @@
 - **Growth** = rise in **real** output: a growing country has **rising GNP at constant prices** (APRO 2008); GDP growth data is the usual yardstick (Polytechnic Lect. 2020).
 - **Best measure / sign of growth** = a **sustained increase in real per capita income** (per capita product) (UPPCS 2013; RAS 2013).
 - **Not** a growth measure: growth in **financial aid from the World Bank** (Jharkhand 2013); GDP, GNP and per capita GNP are.
-~~ Sources: NextGen Rocket Sheets Economy p.39 (real GVA: base year removes price changes); NextGen Indian Economy - APPSC 11 p.21 (nominal at current, real at constant prices); Ramesh Singh 10th ed. part 03 p.30-33; MoSPI press release 27 Feb 2026 (new series base 2022-23); app notes 3:22 sub 6, 7, 9
+~~ Sources: NextGen Rocket Sheets Economy p.39 (real GVA: base year removes price changes); NextGen Indian Economy - APPSC 11 p.21 (nominal at current, real at constant prices); Ramesh Singh 10th ed. part 03 p.46, p.48 (current vs constant prices); MoSPI press release 27 Feb 2026 (new series base 2022-23); app notes 3:22 sub 6, 7, 9
 
 === Personal, Disposable and Per Capita Income
 | Measure | Derivation |
@@ -87,7 +87,7 @@
 - **Mobilisation of domestic savings** depends on past behaviour, the **propensity to save** and **tax policy** (G2 2011).
 - Gross vs net investment: net = gross − depreciation; gross investment that only covers depreciation → net investment **zero**.
 - Realised investment = planned + unplanned (unintended change in inventories); equilibrium where planned saving = planned investment.
-~~ Sources: OnlyIAS NCERT Economy 04 (Macroeconomics ch.4 consumption function, MPC, MPS, multiplier); NextGen Indian Economy Part 1 - APPSC 04 (propensity to consume); Ramesh Singh 10th ed. part 03 (induced investment); app notes 3:22 sub 11
+~~ Sources: OnlyIAS NCERT Economy 04 p.77-79 (consumption function C = C̄ + cY, MPC, autonomous consumption); Ramesh Singh 10th ed. glossary (induced investment); app notes 3:22 sub 11
 
 === Gross to Net – Depreciation, NDP and NNP
 - **Depreciation** (consumption of fixed capital) = loss in value of **machinery** and other fixed capital through wear and tear (SSC CGL 2016) – deducted because output that only replaces worn-out capital is **not new output**.
@@ -111,7 +111,7 @@
 | Nominal GDP, 2025 | 4th (overtook Japan) |
 | Nominal GDP, IMF WEO April 2026 | **6th** (USD 4.15 trillion, behind Japan and the UK – weaker rupee and new base year) |
 - **Older facts:** **Japan** was the third largest economy (PPP) when UPPCS 2007 asked; highest per capita income in **World Development Report 2000** = **Luxembourg** (USD 44,640); 2024 highest per capita GNI (PPP) = **Singapore**.
-~~ Sources: NextGen Indian Economy - APPSC 15 p.1 (PPP); Ramesh Singh 10th ed. part 03 (PPP, ICP); World Bank ICP 2021 results (icp.worldbank.org); IMF WEO April 2026 (reported by Indian Express, 21 Apr 2026); app notes 3:22 sub 9
+~~ Sources: NextGen Indian Economy - APPSC 15 p.11 (PPP rates vs market exchange rates); Ramesh Singh 10th ed. part 03 p.45 (PPP); World Bank ICP 2021 results (icp.worldbank.org); IMF WEO April 2026 (reported by Indian Express, 21 Apr 2026); app notes 3:22 sub 9
 
 === Factor Cost vs Market Price – Indirect Taxes and Subsidies
 - **MP = FC + indirect taxes − subsidies**; **FC = MP − indirect taxes + subsidies** → **GDP at FC = GDP at MP − indirect taxes + subsidies** (G2 Mains flashcard).
@@ -156,4 +156,4 @@
 - **Most comprehensive measure of inflation:** covers **all goods and services in GDP**; WPI, CPI use fixed baskets.
 - A rising deflator → higher prices → **purchasing power of money falls**.
 - **Double deflation** (2022-23 series): output and input prices deflated separately for manufacturing and agriculture.
-~~ Sources: Ramesh Singh 10th ed. part 03 (GDP deflator); NextGen Indian Economy Part 1 - APPSC 01 p.5-8 (inflation measures); app notes 3:22 sub 8
+~~ Sources: Ramesh Singh 10th ed. ch.7 (GDP deflator, index p.13 of part 03); NextGen Indian Economy Part 1 - APPSC 01 p.5-8 (inflation measures); app notes 3:22 sub 8
