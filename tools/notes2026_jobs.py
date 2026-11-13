@@ -447,6 +447,8 @@ def set_key(q, k):
     if k.get("add_option") and q.get("k") != "f":
         tag = (f"⚠ Option added: the printed options did not include the correct answer"
                f" ({k['add_option'].strip()}); it is added as option {q['a'] + 1}.\n")
+    if k.get("dispute"):
+        tag += "⚠ Disputed: " + k["dispute"].strip().removeprefix("⚠ Disputed:").strip() + "\n"
     xx = tag + (k.get("outdated", "").strip() + "\n" if k.get("outdated") else "") + k.get("x", "").strip()
     if xx.strip():
         q["x"] = xx.strip()

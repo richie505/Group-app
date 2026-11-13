@@ -135,3 +135,12 @@ Applied to 21 questions so far (keys_zfix.jsonl in each run folder), e.g. Sikkim
 - y198d4b6c4a4 Attirampakkam: Middle → Old Stone Age; yb51908f144b bone ornaments: Lekhahia → Mahadaha; y48996e77109 double burials → Lothal (old notes "Kuntasi" wrong).
 - y382b530b2d5 (G2 megaliths): official key kept (sarcophagus statement wrong); NextGen suggests the cist statement may also be wrong — check Telugu Academy text.
 - Weak sources: yed8032754c7, y9edf9b67569 Kaimur, yba3a528c0a0.
+
+## Owner's rule (13 Nov): strict fact ≠ most-told answer → key the most commonly given answer, tag "⚠ Disputed: Most books/keys: X. Strictly: Y"
+Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPSC 2020 → (d) official; Param Bhagavata ×2 → Chandragupta II (Rocket: Samudragupta); right to vote ×2 (constitutional vs legal); y46bd8bc8532 unorganised sector → barter (WBCS key; strictly cash); y9819dfb2532 turban; yf6f3fff4c24 UPPCS 2019 → (a) official.
+
+## b1-r006 Harappan civilisation (94 PYQs, 6 keys changed) · b2-r011 Art. 20-28 (138 PYQs, 16 changed, 3 outdated) · b2-r014 Art. 32, writs (123 PYQs, 9 changed)
+- yedd197e5332 earliest agriculture → Mehrgarh; y39e128b678a humped-bull seal → Mohenjodaro (keys split).
+- y273f9bcaa15 Bonded Labour Act → 1976; y72e94276371 culture "man-made part of environment" = Herskovits → "None of the above".
+- yd07a5973560 (G2 Mains 2025) Supriyo Chakraborty "both right" kept — uneasy with Art 21 choice of partner.
+- yabb6264f225 Art 226: "All" → alternative efficacious remedy.

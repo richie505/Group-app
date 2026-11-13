@@ -38,6 +38,10 @@ wrong "fact" and a wrong "trap". So for EVERY PYQ:
      new last option, keys it and shows "⚠ Option added: …" above the explanation. Your x says why each printed
      option is wrong. Same when two printed options are both right only because the stem is loose? No — then key
      the better one and explain.
+   - The strict fact differs from the answer most books / official keys give (e.g. "property ceased to be an FR in 1978"
+     — most books — though Art. 31 went only from 20 June 1979): key the MOST COMMONLY GIVEN answer and write
+     `"dispute": "Most books and keys: <X>. Strictly: <Y> (<source>)."` — the app shows it as a "⚠ Disputed:" line above
+     the explanation, so the reader knows both. Use this also when official keys disagree with each other.
    - Only when even the correct answer cannot be established (authorities split, garbled question) → `a: -1` and the
      reason in x.
 3. Explanation `x`: 1–3 short sentences — why the key is right, and why the tempting option is wrong. Reuse the notes'
