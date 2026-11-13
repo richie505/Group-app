@@ -35,11 +35,11 @@
 === Good Governance Day and the Good Governance Index
 - **Good Governance Day – 25 December**, birthday of **Atal Bihari Vajpayee**; first observed in **2014**.
 - **GGI** – launched by **DARPG** on Good Governance Day 2019; ranks States, UTs, districts; **10 sectors** (agriculture, commerce and industry, HRD, public health, public infrastructure, economic governance, social welfare, judicial and public security, environment, citizen-centric governance); **foreign affairs is NOT** a sector.
-- **GGI 2021:** **Gujarat** 1st, then Maharashtra, Goa; **AP 1st in agriculture and allied**.
+- **GGI 2021** (25 Dec 2021; **58 indicators**): **Gujarat** 1st, then Maharashtra, Goa; **AP 1st in agriculture and allied**.
 ~~ Sources: app notes 2:87
 
 === Governance Indices – World Bank, UNDP and Others
-- **World Bank WGI** – since **1996**, 200+ countries; **six dimensions**: Voice and Accountability; Political Stability and Absence of Violence; Government Effectiveness; Regulatory Quality; Rule of Law; Control of Corruption. **HDI is NOT** a WGI dimension.
+- **World Bank WGI** – since **1996**, 200+ countries; **DARPG** is India's nodal department; **six dimensions**: Voice and Accountability; Political Stability and Absence of Violence; Government Effectiveness; Regulatory Quality; Rule of Law; Control of Corruption. **HDI is NOT** a WGI dimension.
 - **UNDP Human Development Index** – **three basic dimensions**: long and healthy life, knowledge (education), decent standard of living.
 | Index | Publisher | Latest |
 |---|---|---|
@@ -51,6 +51,7 @@
 | V-Dem | University of Gothenburg | India 106th of 179 (2026) |
 | Responsible Nations Index | WIF, JNU, IIM Mumbai | India 16th of 154 (2026) |
 - **WGI and V-Dem** are perception-based (expert opinion).
+- **India (WGI 2023):** moderate government effectiveness and rule of law; **low political stability**.
 ~~ Sources: Ramesh Singh, Indian Economy (src/economy/ramesh-singh-indian-economy-03.txt) p.55 (HDI); app notes 2:87
 
 === Second ARC – Ethics and Citizen-centric Administration

@@ -13,10 +13,10 @@
 | Benami Transactions (Prohibition) Act, 1988 | **Sec 3(2): up to 3 years' imprisonment, or fine, or both** for entering into a benami transaction |
 | Benami (Amendment) Act, 2016 | Prohibition of Benami Property Transactions Act; bans proxy holdings; **confiscation** + RI **1 to 7 years** (not ten) |
 | Fugitive Economic Offenders Act, 2018 | Warrant + offence of **₹100 crore** or more + flight from India; **Special Court** (on ED application) may confiscate **even before conviction**; e.g. Vijay Mallya, Nirav Modi |
-- **Ganpati Dealcom (23 Aug 2022):** SC (CJI N.V. Ramana bench) held **Sec 3(2)** (3-year punishment) **unconstitutional** and the 2016 Act **prospective** (APSLPRB SI 2023). **⚠ Recalled on 18 Oct 2024** when the SC allowed the Union's review petition.
+- **Ganpati Dealcom (23 Aug 2022):** SC held **Sec 3(2)** (3-year punishment) **unconstitutional** and the 2016 Act **prospective** (APSLPRB SI 2023). **⚠ Recalled in Oct 2024** when the SC allowed the Union's review petition.
 # Offshore leaks
-- **Paradise Papers (5 Nov 2017, ICIJ):** leaked records mainly of offshore law firm **Appleby**; **714 Indians** named. **Panama Papers** = 2016 (Mossack Fonseca).
-~~ Sources: PMF Internal Security & DM Part 1 p.78-79 (PMLA, Benami, FEOA, ED); bcajonline.org (Finance Act 2015, proceeds of crime); taxmann.com / sci.gov.in (Ganpati Dealcom recall, 18 Oct 2024); en.wikipedia.org/wiki/Paradise_Papers; app notes 2:92 sub 6
+- **Paradise Papers (5 Nov 2017, ICIJ):** leaked records mainly of offshore law firm **Appleby**; **714 Indians** named. (Panama Papers = the earlier 2016 leak.)
+~~ Sources: PMF Internal Security & DM Part 1 p.78-79 (PMLA, Benami, FEOA, ED); bcajonline.org (Finance Act 2015, proceeds of crime); verdictum.in (Ganpati Dealcom, 23 Aug 2022); taxmann.com (recall, Oct 2024); indiankanoon.org (Benami 1988 Sec 3 text quoted in Rajasthan HC 1997); en.wikipedia.org/wiki/Paradise_Papers; app notes 2:92 sub 6
 
 === UN Conventions against Corruption and Organised Crime
 | Feature | UNCAC | UNTOC (Palermo) |
@@ -39,7 +39,7 @@
 | CPI 2024 | 96th | 38 |
 | CPI 2025 (10 Feb 2026) | **91st of 182** | **39** |
 > Dated angle: always check which edition is asked; CPI 2016 = **79** (APPSC AD Economics & Statistics).
-~~ Sources: Rocket Current Affairs 2026 Part 1 p.26 (CPI 2025); outlookindia.com and businesstoday.in reports (CPI 2016); app notes 2:92 sub 7
+~~ Sources: Rocket Current Affairs 2026 Part 1 p.26 (CPI 2025); businesstoday.in (CPI 2016, 27 Jan 2017); app notes 2:92 sub 7
 
 === Prevention of Corruption Act and Sanction for Prosecution
 - **PCA 1988**: consolidated anti-bribery law after the **Santhanam Committee**'s push.

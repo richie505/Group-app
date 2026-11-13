@@ -28,6 +28,7 @@
 # Ombudsman
 - Ombudsman = **Sweden, 1809**; banks, insurance and tax departments use an **Ombudsman** as the alternate grievance redress system for complaints (Banking/Insurance/Tax Ombudsman).
 - Classic ombudsman = **maladministration**; Lokpal/Lokayukta = **corruption** (Lokpal and Lokayuktas Act **2013**); terms coined by **L.M. Singhvi**; first Lokayukta **Maharashtra 1971**.
+- **First ARC** (1966-70, **Morarji Desai**): recommended a **Lokpal at the Union** and **Lokayuktas in the States**.
 ~~ Sources: app's current notes 2:89 sub 0-1, 8
 
 === Right to Services Acts

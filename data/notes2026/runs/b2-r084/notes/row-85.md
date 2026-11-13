@@ -53,7 +53,7 @@
 - **Formative evaluation** (internal) – judges a programme's worth **while its activities are forming / in progress**; **summative** – at the end, on outcomes.
 - **Data analysis** – critical examination of the assembled and grouped data to study the characteristics of the object under study.
 - **Communication and transparency** run through **every stage**.
-- **DMEO** – apex M&E office under **NITI Aayog**; evaluates Central schemes.
+- **DMEO** – apex M&E office under **NITI Aayog**; evaluates Central schemes; with AP's **ATRs** it marks the shift from announcement-based to **outcome-based governance**.
 - **Gender budgeting** and **Outcome Budget** – both **2005-06**; **DBT** from **1 January 2013** (JAM – Jan Dhan, Aadhaar, Mobile).
 - **Social audit** – **MGNREGA s.17**, by the **Gram Sabha**; AP statewide social audits **2006**, independent **SSAAT 2009**.
 - **17 Sep 2026:** NITI Aayog (with WRI India) – second **India Electric Mobility Index**.
