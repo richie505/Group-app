@@ -3,7 +3,7 @@
 - **Continental drift:** **Alfred Wegener** (German), **1912** – not Wilson, Du Toit or Hess.
 - Drift forces: **pole-fleeing force** (Earth's rotation) and **tidal force** (Sun and Moon) – **too weak**, so the theory was rejected.
 - Original single landmass: **Pangaea** (UPPCS 2016), surrounded by the mega-ocean **Panthalassa**.
-- Pangaea split into **Laurasia** (north) and **Gondwanaland** (south), separated by the **Tethys Sea**; the split began **about 200 million years ago** (NCERT; PMF). Gondwanaland broke up from ~180 million years ago (old notes: ~225 million).
+- Pangaea split into **Laurasia** (north) and **Gondwanaland** (south), separated by the **Tethys Sea**; the split began **about 200 million years ago** (NCERT; PMF); older books round Pangaea's break-up to **~225 million years** – the figure the app's MCQs use for Gondwanaland's break-up.
 | Name | Present landmasses |
 |---|---|
 | Laurasia | North America, Greenland, Europe, Asia (minus India) |

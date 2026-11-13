@@ -29,12 +29,7 @@
 |---|---|---|
 | **Intrusive (plutonic)** | Cools **slowly at depth** → **large grains / crystals** | **Granite** (APPSC G2 2024), gabbro, diorite, pegmatite |
 | **Extrusive (volcanic)** | Lava cools fast at the surface → fine grains | **Basalt** (APPSC FBO), rhyolite, andesite |
-| Rock | Type |
-|---|---|
-| Rhyolite | Felsic extrusive |
-| Granite | Felsic intrusive |
-| Diorite | Intermediate intrusive |
-| Basalt | Mafic extrusive |
+- **By silica:** rhyolite = felsic extrusive; granite = felsic intrusive; **diorite = intermediate intrusive**; basalt = mafic extrusive.
 - **Felsic:** silica-rich, light-coloured. **Mafic (basic):** rich in Fe, Mg, Ca; dark, dense.
 - **Not igneous:** **quartzite** (metamorphic, APSLPRB 2023), **dolomite** (sedimentary carbonate, NDA 2017). Granite and basalt = igneous (NDA 2007).
 - **Granite has no fossils** – formed from magma (JPSC 2013).
