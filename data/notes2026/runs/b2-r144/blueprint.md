@@ -11,7 +11,7 @@ Data: 87 PYQs (pyqs.json, keyed in keys.jsonl) and 261 app MCQs (all-mcqs.json),
 | Disputed | 2 (NCM "five/seven members"; UPSC 2001 minorities statements) |
 | Outdated | 2 (Manipur Assembly poll limit Rs 20 lakh → Rs 28 lakh in 2022; bare metal stent cap Rs 7,400 → Rs 7,660 in 2018) |
 | -1 keys | 0 |
-| Moved | 23: 9 to other rows of book 2 (forms of government r38, elections r63, Gram Sabha r81, reservation r135, ST scholarship r136, One Stop Centre r132, disability marriage incentive r140); 10 to book 3 (AP GSDP r109, Unnathi r37, PMAY-G r40 ×2, PMAY-U r43, AP welfare r129 ×3, Talliki Vandanam r126, Amaravati r137, pyometra r60); 1 to book 4 (tsunami r27); 3 to book 5 (WhatsApp safety r29, plastic waste r103, PSE r115); 1 to book 1 (Potti Sreeramulu r255). One app MCQ (PM-JANMAN) moved to r136 |
+| Moved | 23: 7 to other rows of book 2 (forms of government r38, elections r63, Gram Sabha r81, reservation r135, ST scholarship r136, One Stop Centre r132, disability marriage incentive r140); 11 to book 3 (AP GSDP r109, Unnathi r37, PMAY-G r40 ×2, PMAY-U r43, AP welfare r129 ×3, Talliki Vandanam r126, Amaravati r137, pyometra r60); 1 to book 4 (tsunami r27); 3 to book 5 (WhatsApp safety r29, plastic waste r103, PSE r115); 1 to book 1 (Potti Sreeramulu r255). One app MCQ (PM-JANMAN) moved to r136 |
 
 ### Exams
 | Exam family | PYQs |
