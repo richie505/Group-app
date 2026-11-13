@@ -87,3 +87,6 @@ For `keys` jobs the notes already exist in `notes/` (from the topic job): map on
 `python3 tools/notes2026_jobs.py check <job>` must print 0 problems. Then create the empty file `DONE` in the run folder
 and reply in a few lines: PYQs checked, keys changed (list id: old → new, one-line reason), generated count, outdated
 count, -1 count, notes sub-sections, and anything the owner should look at.
+
+## Settled facts (apply everywhere)
+- India's coastline is officially revised to **11,098.81 km** (PIB Release 2198800, 4 Dec 2025; Ports Ministry circular 29 Apr 2025): Gujarat 2,340.62 km, **Tamil Nadu 1,068.69 km (2nd)**, **Andhra Pradesh 1,053.07 km (3rd; old 973.7 / "974 km, 2nd")**. Key coastline PYQs to the current figures with an `outdated` line giving the old answer.
