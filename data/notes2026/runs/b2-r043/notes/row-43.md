@@ -86,6 +86,7 @@
 === Composition, Appointment, Qualifications, Tenure; Acting, Ad Hoc and Retired Judges
 # Appointment – Art. 124(2)
 - **Every judge is appointed by the President** by warrant under his hand and seal – the collegium only recommends.
+- HC judges too are appointed by the **President** by warrant (Art. 217) – **not by the Governor**; both SC and HC judges resign to the President.
 - **CJI**: President after consulting such SC and HC judges as he deems necessary; by convention (and Second Judges Case) the **senior-most judge**.
 - **Other judges**: consultation with the **CJI is obligatory**; the President **may** consult other SC and HC judges.
 - The President acts on the advice of the **Union Council of Ministers headed by the PM** (Art. 74) – the file goes Law Minister → PM → President (Memorandum of Procedure).
@@ -121,6 +122,8 @@
 - **Not in the Constitution or any Act** – it derives from **Supreme Court decisions** (Judges Cases); adopted **1993**, present form **1998**.
 - Formal appointment by the **President** (Art. 124(2) SC; Art. 217(1) HC); a reiterated name **must** be appointed.
 - Criticism: **"imperium in imperio"**, opacity.
+- **Art. 222**: the **President** transfers an HC judge (incl. a Chief Justice) after consulting the **CJI**; an HC Chief Justice's appointment starts with the **CJI + 2 senior-most SC judges** → Law Minister → State consulted → President.
+- **Collegium (June 2026)**: CJI **Surya Kant**, Vikram Nath, B.V. Nagarathna, M.M. Sundresh, P.S. Narasimha (joined when **J.K. Maheshwari** retired, 29 Jun 2026).
 # NJAC – 99th Amendment, 2014
 - **Constitution (99th Amendment) Act, 2014** + **National Judicial Appointments Commission Act, 2014** – inserted **Art. 124A-124C**; passed LS 13 Aug 2014, ratified by **16 States**, assent **31 Dec 2014**, in force **13 Apr 2015**.
 - **Six members**: **CJI (Chairperson)**, **two senior-most SC judges**, **Union Law Minister**, **two eminent persons** nominated by a committee of the **PM, CJI and Leader of Opposition** in the Lok Sabha (or leader of the largest opposition party). AG not a member.
@@ -129,6 +132,9 @@
 - **Constitution (98th Amendment) Bill, 2003** (NDA, Law Minister Arun Jaitley) – a **National Judicial Commission**. (The 98th Amendment **Act** of 2012 is different – Hyderabad-Karnataka, Art. 371J.)
 - **NCRWC (Venkatachaliah, report 2002)** and the **Malimath Committee (2003, criminal justice reforms)** proposed a **National Judicial Commission**; Malimath also suggested amending Art. 124 to make **impeachment of judges less difficult** (not Panchayati Raj).
 - **Judicial Standards and Accountability Bill, 2010** – passed by Lok Sabha (Mar 2012): a mechanism to **inquire into complaints against judges**; **lapsed** in 2014.
+- **Law Commission**: **14th Report (1958)** – appoint eminent Bar members directly, not strictly by seniority; **214th Report (2008)** – review of the appointment procedure.
+- Reform ideas: accountability law, a permanent disciplinary authority, asset disclosure, RTI on the administrative side – **not** abolishing the collegium by executive notification.
+- **P. Wilson's private member's Bill (19 Feb 2026)**: social diversity, a **90-day** limit for the Centre to notify collegium names, **regional benches**.
 ~~ Sources: Laxmikanth, Indian Polity 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.414-415, 427; NextGen Polity - APPSC Exams (src/polity/nextgen-polity-full.txt) p.321-322; Supreme Court Advocates-on-Record Assn. v. Union of India (2015); PRS Legislative Research, Judicial Standards and Accountability Bill 2010
 
 === Advisory Jurisdiction – Article 143
@@ -137,6 +143,7 @@
 - Opinion is **advisory, not binding on the President**; heard by at least **five judges** (Art. 145(3)).
 - Courts treat the law stated in a reference opinion as binding precedent (Art. 141) – the usual key "**not binding on the President, but binding on subordinate courts**".
 - **India v. USA**: advisory jurisdiction is the main difference – the **US Supreme Court has none**.
+- Also: India's review is under **'procedure established by law'** – narrower than the US **'due process of law'**; India blends **American judicial supremacy** with **British parliamentary sovereignty**.
 # References asked
 | Year | Reference |
 |---|---|
@@ -154,6 +161,8 @@
 - **Judges (Inquiry) Act, 1968** gives the procedure: motion signed by **100 LS / 50 RS** members; **Speaker / Chairman may admit or reject** it; a **3-member committee** (CJI or SC judge, an HC Chief Justice, a distinguished jurist) – **not the President** – inquires; debate allowed on the motion.
 - **No judge removed so far**: **V. Ramaswami** (SC, 1993) – motion failed in the Lok Sabha; **Soumitra Sen** (Calcutta HC, 2011) – Rajya Sabha passed it, he **resigned (1 Sep 2011)** before the Lok Sabha vote.
 - CAG (Art. 148) and CEC (Art. 324(5)) are removed like an SC judge; Art. 218 applies these provisions to HC judges.
+- The Constitution says **"removal"** for judges; **"impeachment"** is used only for the President (Art. 61).
+- Lesser misconduct: **In-House Procedure (1999)**, after **C. Ravichandran Iyer (1995)**; **Restatement of Values of Judicial Life (1997)**.
 > UPSC 2019: correct = 3 and 4 (procedure in the 1968 Act; special majority in each House). Speaker can reject the motion; "misbehaviour" is not defined.
 # Independence safeguards
 | Safeguard | Provision |
