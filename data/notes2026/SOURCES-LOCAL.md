@@ -628,3 +628,6 @@ Total: 572 files, 22879 pages.
 | octlatest-daily-em-ca-2026-11-03.pdf + .txt | octlatest: CA-03-11-2026-EM-pdf.pdf | 11 | 16mHmaBPqzXftvmTLdf0zf8nlV-PC-EPX | 7 | Science & technology/space/defence p.1-4; International relations & organisations p.5; Sports p.6-7 |
 | octlatest-daily-em-ca-2026-11-04.pdf + .txt | octlatest: CA-04-11-2026-EM-pdf.pdf | 11 | 1rSSGPdWBAu88j3bQmGg67UKktuOQZwrn | 8 | Environment & ecology p.1; Science & technology/space/defence p.2-6; Awards & honours p.7; Sports p.8 |
 
+
+## International Relations
+- PMF IAS International Relations notes (203 pp): international-relations/pmf-international-relations.pdf / .txt (downloaded by job b2-r147)
