@@ -8,7 +8,8 @@
 | Status | **Non-constitutional, non-statutory, advisory body** (Rocket: also "quasi-political") |
 | Chairman | **Prime Minister, ex officio**; first – **Jawaharlal Nehru** (as first PM) |
 | Model | Broadly the **Soviet Gosplan** |
-| Replaced by | **NITI Aayog, 1 January 2015** (also a Cabinet resolution) |
+| Replaced by | **NITI Aayog, 1 January 2015** (also a Cabinet resolution); last Plan = **Twelfth (2012-17)** |
+- Body set up after Independence to prepare a **common plan** for the country = **Planning Commission**.
 - **Five-Year Plan idea in India: Jawaharlal Nehru** (as PM and first Chairman); planned development began with the **First Plan from 1 April 1951**.
 - **Functions:** assess material, capital and human resources; **formulate** plans; fix stages and priorities; determine resources; **appraise progress**; recommend on policy and administration; **perspective planning**.
 - **Execution is NOT its function** – plans were executed by ministries and States.

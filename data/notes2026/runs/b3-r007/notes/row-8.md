@@ -78,4 +78,5 @@
 - **Wage-goods model:** **C.N. Vakil and P.R. Brahmananda** – alternative to Mahalanobis.
 - **Plan financing:** domestic budgetary resources, PSU surpluses, **market borrowing**, **deficit financing (borrowing from the RBI = money creation)**, foreign aid.
 - **Eighth Plan (1992-97):** largest source of public sector outlay = **government borrowings** (Rs 2,02,255 crore of Rs 4,34,100 crore, **46.6%**); deficit financing only Rs 20,000 crore.
+- **PURA** (Providing Urban Amenities in Rural Areas, 2003): idea of **A.P.J. Abdul Kalam**, announced by PM Vajpayee.
 ~~ Sources: NextGen Indian Economy - APPSC 01 p.6-24; Eighth Five Year Plan Vol.1 ch.4 (financing of public sector outlay, 1991-92 prices) via Economic Survey 2000-01 Appendix 2.11; app notes 3:8 sub 3, 4, 10

@@ -1,5 +1,5 @@
 === Solstices, Equinoxes and Day Length
-# The four positions (asked most: 33 PYQs)
+# The four positions (asked most: 29 PYQs)
 | Date | Event (NH) | Sun overhead at | NH | SH |
 |---|---|---|---|---|
 | **21 March** (20/21) | **Vernal (spring) equinox** | **Equator** | Spring; day = night | Autumn begins |

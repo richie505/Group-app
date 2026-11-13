@@ -1,5 +1,5 @@
 === Longitude and Local Time – Calculations
-# The rule (asked most: 26 PYQs)
+# The rule (asked most: 23 PYQs)
 - Earth turns **360° in 24 h**, **west to east** → **15° = 1 hour**, **1° = 4 minutes**, **1' of arc = 4 seconds**.
 | Longitude gap | Time gap |
 |---|---|
@@ -35,7 +35,7 @@
 ~~ Sources: PMF Physical Geography 03 p.47-51; NextGen Rocket Indian Geography #47 p.118; NextGen Rocket General Geography #2 p.17; app notes 4:3 sub 0
 
 === Indian Standard Time and the Standard Meridian
-# IST (asked 17 times)
+# IST (asked 21 times)
 | Item | Fact |
 |---|---|
 | **Standard meridian** | **82°30'E (82.5°E)** – India's central meridian |
@@ -60,7 +60,7 @@
 ~~ Sources: NextGen Rocket Indian Geography #45-47 p.116-120; PMF Physical Geography 03 p.47-50; Wikipedia "Time in India" (Bombay/Calcutta time, 1884); app notes 4:3 sub 3-4
 
 === Tropic of Cancer and India
-# Tropic of Cancer (asked 20 times)
+# Tropic of Cancer (asked 18 times)
 - At **23°26'N** (written **23½°N / 23°30'N**); divides India into **almost two equal halves** (not the international boundary).
 - Crosses **8 states**, W→E: **Gujarat** (1st), **Rajasthan**, **Madhya Pradesh**, **Chhattisgarh**, **Jharkhand**, **West Bengal**, **Tripura**, **Mizoram** (last).
 - **Not** crossed: **Odisha** (asked 4 times), **Uttar Pradesh**, **Bihar**, Himachal, J&K, Assam, AP. Old keys write "Bihar (Jharkhand)" – Jharkhand was then part of Bihar.
