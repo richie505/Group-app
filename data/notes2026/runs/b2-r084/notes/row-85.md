@@ -15,6 +15,7 @@
 | 43 | Living wage for workers |
 | 46 | Interests of SCs, STs, weaker sections |
 | 47 | Nutrition, living standards, public health |
+# Term → Meaning
 | Term | Meaning |
 |---|---|
 | Social policy | State's overall framework for social well-being |
@@ -31,6 +32,7 @@
 | Protective | Guard against exploitation | Factories Act 1948, Bonded Labour Act 1976 |
 | Regulatory | Control conduct | Minimum Wages Act 1948, Dowry Prohibition Act 1961 |
 | Enabling | Create entitlements | RTI, NREGA, RTE, NFSA |
+# Law → Guarantee
 | Law | Guarantee |
 |---|---|
 | RTI Act, 2005 | Information within 30 days |
@@ -68,52 +70,6 @@
 | Maternity Benefit Act, 1961 | A legislation catering to the needs of women |
 ~~ Sources: Rajya Sabha answer PQ 208, 22 Aug 2006 (rsdebate.nic.in, search result); app notes 2:85
 
-=== Meaning and Definitions of Public Policy
-- **Public policy** – planned state action to tackle public issues; the **bridge between political intent and administrative action**.
-- Indian bases: Constitution, laws, **judicial interpretation** (e.g. **Right to Food** read into **Article 21**), NITI Aayog agendas, Budget.
-| Thinker | Definition / idea |
-|---|---|
-| Thomas Dye | "Whatever governments choose to do or not to do" |
-| David Easton | "Authoritative allocation of values for the whole society"; systems model |
-| Harold Lasswell | Founder of the **policy sciences** |
-| James Anderson | "Purposive course of action" by actors dealing with a problem |
-~~ Sources: app notes 2:85
-
-=== Policy Models, Thinkers and Types
-| Model / concept | Proponent |
-|---|---|
-| Bounded rationality, "satisficing"; called the "principles of administration" **myths and proverbs** | **Herbert Simon** |
-| Incrementalism – "science of muddling through" (1959) | Charles Lindblom |
-| Mixed scanning | Amitai Etzioni |
-| Optimal model | Yehezkel Dror |
-| Elite theory – "power elite" | C. Wright Mills; Dye with Zeigler |
-| Group theory | Arthur Bentley, David Truman |
-| Systems model (inputs, conversion, outputs, feedback) | David Easton |
-| Lowi type | Does | Indian example |
-|---|---|---|
-| Distributive | Benefits to specific groups; costs borne by all | PM-KISAN, farm input subsidies |
-| Redistributive | Transfers from one group to another | Land reforms, progressive income tax |
-| Regulatory | Limits individual/firm behaviour | Licensing, food-safety standards |
-| Constitutive | Creates or reorganises institutions | NITI Aayog, delimitation |
-~~ Sources: app notes 2:85; Jharkhand PCS 2016 key (Simon)
-
-=== Policy Instruments and Implementation
-| Instrument | Indian illustration |
-|---|---|
-| Regulation | Licensing, standards |
-| Taxes and subsidies | DBT subsidy reform, PLI incentives |
-| Direct provision | Schools, PHCs |
-| Information | RTI s.4 proactive disclosure, campaigns |
-| Nudges | Behavioural design – Thaler and Sunstein |
-- **Hood's NATO tools:** **Nodality, Authority, Treasure, Organisation**.
-| Approach | Idea | Author |
-|---|---|---|
-| Top-down | Central direction; chains of clearances derail programmes | Pressman and Wildavsky, "Implementation" (1973) |
-| Bottom-up | Street-level bureaucracy (1980) | Michael Lipsky |
-| Bottom-up | Backward mapping | Richard Elmore |
-- **Why policies fail:** weak coordination, low resources, poor targeting, capacity gaps; remedy – phased roll-out, real-time outcome tracking.
-~~ Sources: app notes 2:85
-
 === Welfare Ministries and the Evolution of the Welfare Approach
 - **Ministry of Women and Social Welfare** – already in place by **31 Dec 1984** (MoS M. Chandra Sekhar, to Sep 1985); split in **1985** into the **Department of Women and Child Development** (under MHRD) and the Ministry of Welfare.
 - **AP Social Welfare Fund** (aid to registered voluntary organisations in social welfare) – **1975**.
@@ -133,4 +89,51 @@
 | 2000s | Rights-based laws |
 | Now | "New welfarism" – targeted, tech-driven DBT |
 - **ES 2025-26:** social protection covers **64.3%** (22% in 2016); spending **4.0% of GDP**.
+~~ Sources: app notes 2:85
+
+=== Policy Models, Thinkers and Types
+| Model / concept | Proponent |
+|---|---|
+| Bounded rationality, "satisficing"; called the "principles of administration" **myths and proverbs** | **Herbert Simon** |
+| Incrementalism – "science of muddling through" (1959) | Charles Lindblom |
+| Mixed scanning | Amitai Etzioni |
+| Optimal model | Yehezkel Dror |
+| Elite theory – "power elite" | C. Wright Mills; Dye with Zeigler |
+| Group theory | Arthur Bentley, David Truman |
+| Systems model (inputs, conversion, outputs, feedback) | David Easton |
+# Lowi type → Does
+| Lowi type | Does | Indian example |
+|---|---|---|
+| Distributive | Benefits to specific groups; costs borne by all | PM-KISAN, farm input subsidies |
+| Redistributive | Transfers from one group to another | Land reforms, progressive income tax |
+| Regulatory | Limits individual/firm behaviour | Licensing, food-safety standards |
+| Constitutive | Creates or reorganises institutions | NITI Aayog, delimitation |
+~~ Sources: app notes 2:85; Jharkhand PCS 2016 key (Simon)
+
+=== Meaning and Definitions of Public Policy
+- **Public policy** – planned state action to tackle public issues; the **bridge between political intent and administrative action**.
+- Indian bases: Constitution, laws, **judicial interpretation** (e.g. **Right to Food** read into **Article 21**), NITI Aayog agendas, Budget.
+| Thinker | Definition / idea |
+|---|---|
+| Thomas Dye | "Whatever governments choose to do or not to do" |
+| David Easton | "Authoritative allocation of values for the whole society"; systems model |
+| Harold Lasswell | Founder of the **policy sciences** |
+| James Anderson | "Purposive course of action" by actors dealing with a problem |
+~~ Sources: app notes 2:85
+
+=== Policy Instruments and Implementation
+| Instrument | Indian illustration |
+|---|---|
+| Regulation | Licensing, standards |
+| Taxes and subsidies | DBT subsidy reform, PLI incentives |
+| Direct provision | Schools, PHCs |
+| Information | RTI s.4 proactive disclosure, campaigns |
+| Nudges | Behavioural design – Thaler and Sunstein |
+- **Hood's NATO tools:** **Nodality, Authority, Treasure, Organisation**.
+| Approach | Idea | Author |
+|---|---|---|
+| Top-down | Central direction; chains of clearances derail programmes | Pressman and Wildavsky, "Implementation" (1973) |
+| Bottom-up | Street-level bureaucracy (1980) | Michael Lipsky |
+| Bottom-up | Backward mapping | Richard Elmore |
+- **Why policies fail:** weak coordination, low resources, poor targeting, capacity gaps; remedy – phased roll-out, real-time outcome tracking.
 ~~ Sources: app notes 2:85

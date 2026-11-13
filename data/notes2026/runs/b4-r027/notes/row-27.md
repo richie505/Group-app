@@ -1,42 +1,5 @@
-=== Tsunamis – Meaning, Causes, Behaviour and the 2004 Tsunami
-# Meaning (asked 18 times)
-- **Tsunami** = Japanese word: **"tsu" = harbour + "nami" = wave** ("harbour wave") – **not Latin, Arabic or Hebrew** (UKPSC 2005; CDS 2017 "Latin word" = the wrong statement).
-- A **series of waves** of very long wavelength (over 500 km) and long period (10 minutes to 2 hours) – **not a single wave**; the **first wave is often not the largest**, later waves can be bigger.
-- A **natural disaster**; can strike at **any time of day or night**. **Not a "tidal wave"** – tides (gravity of Moon and Sun) play **no role** in generating it (CDS 2012).
-# Causes
-| Cause | Note |
-|---|---|
-| **Undersea earthquakes** | **Main / most common cause** – sudden vertical displacement of the sea floor at **subduction zones** (shocks above about 7.5) |
-| Submarine or coastal **landslides** | Displace water |
-| **Volcanic eruptions** | E.g. Krakatoa 1883 (about 40 m wave), Anak Krakatau 2018 |
-| Explosions, meteorite (bolide) impacts | Rare |
-- **Not caused by hurricanes / cyclones** (they raise **storm surges**) or deserts (CDS 2010, asked twice).
-- Most tsunamis occur in the **Pacific Ocean** (Ring of Fire – Alaska, Japan, Philippines, Indonesia).
-- **Coastal States/UTs** of India are vulnerable to **tsunamis** (not volcanic eruptions).
-# Behaviour
-| Deep ocean | Near the coast |
-|---|---|
-| Very long wavelength; height under 1 m ("slight swell" about 30 cm); speed **hundreds of km/h** (about **700–850 km/h** at 4,000–6,000 m depth) | **Slows down** (speed depends on depth); wavelength shortens, **height rises sharply** (shoaling) – 15 m or more; on coastal plains it moves at roughly **50 km/h** |
-- Impact is **less over the open ocean, more near the coast**; ships at sea hardly notice it.
-- **Warning sign: drawdown** – the sea **suddenly recedes** (sea level falls quickly) before the wave hits; also strong quake shaking.
-# 2004 Indian Ocean Tsunami
-- **26 December 2004**; **Sumatra-Andaman earthquake, Mw about 9.1** (Indian plate under the Burma plate); speed about 800 km/h, falling to under 70 km/h near shore.
-- Hit **Tamil Nadu, Andhra Pradesh, Puducherry, Kerala, Andaman & Nicobar** – **not Gujarat**; **worst-hit state Tamil Nadu**, worst district **Nagapattinam**; India: over **12,000 deaths**; Indira Point submerged.
-- **Mangroves** acted as a safety hedge: their **extensive prop roots** (and pneumatophores) are **not uprooted by storms and tides** and absorb wave energy (UPSC 2011). Sand dunes and coastal cliffs also block waves; **open water bodies give no protection**.
-- **Fukushima (Japan), 11 March 2011**: Mw 9.0 Tohoku earthquake + tsunami → nuclear radiation.
-# Risk zones and warning
-| Risk | States/UTs |
-|---|---|
-| Very high | **Andaman & Nicobar** (near the Sunda subduction zone) |
-| High | Tamil Nadu, Andhra Pradesh, Puducherry, Odisha |
-| Moderate | Kerala, Karnataka, Goa, Maharashtra, Gujarat |
-- Sources for India: **Sunda-Andaman** subduction zone (east) and the **Makran** zone (west coast).
-- **Indian Tsunami Early Warning Centre (ITEWC)** at **INCOIS, Hyderabad** (MoES): detects tsunamigenic quakes within **10 minutes** and can warn **25 Indian Ocean countries**; **NIOT (Nellore)** OMNI buoys feed it. International Tsunami Information Centre: **Honolulu**. World Tsunami Awareness Day: **5 November**.
-> Traps: Japanese (not Latin); tides play no role; hurricanes do not cause tsunamis; the wave slows near the shore; the first wave may not be the largest.
-~~ Sources: Rocket Disaster Management p.10-13; PMF Internal Security & DM 02 p.53-54 (book p.127-128); PMF Physical Geography 02 p.101-103 (book p.192-194); NCERT summary (OnlyIAS Indian Geography 05) p.20-21; app notes 4:27 sub 7
-
 === Floods – Extent, Causes and Management
-# Nature and extent (asked 17 times)
+# Nature and extent (asked 18 times)
 - Flood = overflow of water onto normally dry land when rivers or other water bodies cannot contain it; **rapid-onset**; the **most frequent / most common natural disaster in India**; can be **mitigated through early warning**.
 - **Rashtriya Barh Ayog (National Flood Commission)**, set up **1976**, report **1980**: of India's **329 mha**, **more than 40 mha** (about **12%** of the area) is flood-prone; a recent estimate is about **49 mha**. About **10%** of India's area is actually flood-affected.
 - Worst-affected states: **Assam and Bihar**, then **Uttar Pradesh and West Bengal**; **most flood-prone state: Bihar** (UPPCS 2000). Tamil Nadu floods in Nov–Jan (retreating monsoon).
@@ -73,9 +36,44 @@
 | **Expert Committee for Scientific Assessment of Flood-Prone Areas** | **July 2012** | Set up by **Ministry of Water Resources**, under the CWC Chairman |
 | NDMA Guidelines | 2008 (floods), 2010 (urban floods) | Policy |
 ~~ Sources: Rocket Disaster Management p.27-31; PMF Internal Security & DM 02 p.55-56 (book p.130-131); NCERT summary (OnlyIAS Indian Geography 05) p.25-27; CAG Report No.10 of 2017 ch.6 (Expert Committee, July 2012), via web search; app notes 4:27 sub 2, 3
-
+=== Tsunamis – Meaning, Causes, Behaviour and the 2004 Tsunami
+# Meaning (asked 17 times)
+- **Tsunami** = Japanese word: **"tsu" = harbour + "nami" = wave** ("harbour wave") – **not Latin, Arabic or Hebrew** (UKPSC 2005; CDS 2017 "Latin word" = the wrong statement).
+- A **series of waves** of very long wavelength (over 500 km) and long period (10 minutes to 2 hours) – **not a single wave**; the **first wave is often not the largest**, later waves can be bigger.
+- A **natural disaster**; can strike at **any time of day or night**. **Not a "tidal wave"** – tides (gravity of Moon and Sun) play **no role** in generating it (CDS 2012).
+# Causes
+| Cause | Note |
+|---|---|
+| **Undersea earthquakes** | **Main / most common cause** – sudden vertical displacement of the sea floor at **subduction zones** (shocks above about 7.5) |
+| Submarine or coastal **landslides** | Displace water |
+| **Volcanic eruptions** | E.g. Krakatoa 1883 (about 40 m wave), Anak Krakatau 2018 |
+| Explosions, meteorite (bolide) impacts | Rare |
+- **Not caused by hurricanes / cyclones** (they raise **storm surges**) or deserts (CDS 2010, asked twice).
+- Most tsunamis occur in the **Pacific Ocean** (Ring of Fire – Alaska, Japan, Philippines, Indonesia).
+- **Coastal States/UTs** of India are vulnerable to **tsunamis** (not volcanic eruptions).
+# Behaviour
+| Deep ocean | Near the coast |
+|---|---|
+| Very long wavelength; height under 1 m ("slight swell" about 30 cm); speed **hundreds of km/h** (about **700–850 km/h** at 4,000–6,000 m depth) | **Slows down** (speed depends on depth); wavelength shortens, **height rises sharply** (shoaling) – 15 m or more; on coastal plains it moves at roughly **50 km/h** |
+- Impact is **less over the open ocean, more near the coast**; ships at sea hardly notice it.
+- **Warning sign: drawdown** – the sea **suddenly recedes** (sea level falls quickly) before the wave hits; also strong quake shaking.
+# 2004 Indian Ocean Tsunami
+- **26 December 2004**; **Sumatra-Andaman earthquake, Mw about 9.1** (Indian plate under the Burma plate); speed about 800 km/h, falling to under 70 km/h near shore.
+- Hit **Tamil Nadu, Andhra Pradesh, Puducherry, Kerala, Andaman & Nicobar** – **not Gujarat**; **worst-hit state Tamil Nadu**, worst district **Nagapattinam**; India: over **12,000 deaths**; Indira Point submerged.
+- **Mangroves** acted as a safety hedge: their **extensive prop roots** (and pneumatophores) are **not uprooted by storms and tides** and absorb wave energy (UPSC 2011). Sand dunes and coastal cliffs also block waves; **open water bodies give no protection**.
+- **Fukushima (Japan), 11 March 2011**: Mw 9.0 Tohoku earthquake + tsunami → nuclear radiation.
+# Risk zones and warning
+| Risk | States/UTs |
+|---|---|
+| Very high | **Andaman & Nicobar** (near the Sunda subduction zone) |
+| High | Tamil Nadu, Andhra Pradesh, Puducherry, Odisha |
+| Moderate | Kerala, Karnataka, Goa, Maharashtra, Gujarat |
+- Sources for India: **Sunda-Andaman** subduction zone (east) and the **Makran** zone (west coast).
+- **Indian Tsunami Early Warning Centre (ITEWC)** at **INCOIS, Hyderabad** (MoES): detects tsunamigenic quakes within **10 minutes** and can warn **25 Indian Ocean countries**; **NIOT (Nellore)** OMNI buoys feed it. International Tsunami Information Centre: **Honolulu**. World Tsunami Awareness Day: **5 November**.
+> Traps: Japanese (not Latin); tides play no role; hurricanes do not cause tsunamis; the wave slows near the shore; the first wave may not be the largest.
+~~ Sources: Rocket Disaster Management p.10-13; PMF Internal Security & DM 02 p.53-54 (book p.127-128); PMF Physical Geography 02 p.101-103 (book p.192-194); NCERT summary (OnlyIAS Indian Geography 05) p.20-21; app notes 4:27 sub 7
 === Disasters – Meaning, Classification and Onset
-# Meaning (asked about 16 times)
+# Meaning (asked 15 times)
 - **Disaster = Hazard × Vulnerability** (with low capacity to cope); French "desastre" = "bad star".
 - Natural disasters cause most damage in **developing countries**; the **Bhopal gas tragedy** was **man-made**; **India is not disaster-free**; **mangroves reduce cyclone impact** → UPPCS 2018 (asked twice): **1, 2 and 4**.
 - Globally **drought (and famine)** are the **deadliest** weather/climate disasters, followed by **floods** (NCERT); **floods** cause the largest economic losses over the long run and affect the most people.
@@ -99,7 +97,6 @@
 |---|---|
 | **Cyclone**, flood, tsunami, earthquake, flash flood, cloudburst | **Drought** ("creeping emergency / creeping hazard"), **pest infestation**, environmental degradation |
 ~~ Sources: Rocket Disaster Management p.40, 47-48; NCERT summary (OnlyIAS Indian Geography 05) p.15-17; PMF Internal Security & DM 02 p.42-43 (book p.116-117); UNDRR/ScienceDaily 2016 natural-disaster losses study (via web search); app notes 4:27 sub 0
-
 === Flash Floods, Cloudbursts and GLOFs
 # Flash floods (asked 10 times)
 - A flood that **occurs suddenly, unexpectedly and for a short duration** – from **local precipitation of high intensity** (intense rain, cloudbursts), or dam / glacial-lake / landslide-lake bursts; little warning time; main danger is **debris**; also landslides.
@@ -128,9 +125,8 @@
 | **Dharali-Harsil** (Uttarkashi) | 5 Aug 2025 | **Flash flood**; ice-patch collapse on the **Srikanta glacier** (ISRO) |
 | Nepal GLOF floods | 26 Aug 2026 | 26 GLOFs since the 1970s (UNDP) |
 ~~ Sources: Rocket Disaster Management p.45-46; PMF Internal Security & DM 02 p.57-59 (book p.132-134); PMF Indian Physical Geography 01 p.54 (Chorabari, Rudraprayag); NDMA GLOF Guidelines Oct 2020 (nidm.gov.in/PDF/pubs/NDMA/29.pdf, via web search); app notes 4:27 sub 4
-
 === India's Vulnerability Profile
-# Hazard exposure (asked about 9 times)
+# Hazard exposure (asked 8 times)
 | Hazard | Exposure | Region |
 |---|---|---|
 | Earthquake | **58.6% of landmass** (moderate to very high intensity; PMF rounds to 59%) | Himalaya, Kutch |
@@ -150,9 +146,8 @@
 - APPSC key: India **seventh** worst climate-disaster-hit country (2020 to May 2021, IDMC).
 - **GRID 2025**: India **5.4 million** disaster displacements in **2024**; over **2015–2024** **32.3 million**, **3rd** after China and the Philippines.
 ~~ Sources: PMF Internal Security & DM 02 p.44 (book p.118); Rocket Disaster Management p.22; NIDM IEC material (27 of 35, via web search); app notes 4:27 sub 1
-
 === Droughts
-# Nature and types (asked 7 times)
+# Nature and types (asked 8 times)
 - Prolonged deficiency of rainfall or moisture → water scarcity; **slow-onset**; in India drought is **coterminous with the monsoon** (its failure or delay) – **irregular or delayed monsoons** raise drought chances; >80% of rain falls in under 100 days of the SW monsoon.
 | Type | Indicator | Time lag |
 |---|---|---|
@@ -176,7 +171,6 @@
 - Regions: **Western Rajasthan, Kutch-Saurashtra, Marathwada-Vidarbha, interior Karnataka, Rayalaseema (AP)** – not Lower Assam. **Rayalaseema**: **deep borewells** worsen groundwater loss.
 - Management: NDMA Guidelines 2010; Manual for Drought Management 2016 (Agriculture); nodal ministry **Agriculture**.
 ~~ Sources: Rocket Disaster Management p.22-23; NCERT summary (OnlyIAS Indian Geography 05) p.27-28; PMF Internal Security & DM 02 p.64 (book p.136); NCERT India Physical Environment ch.7 (jalkal, trikal – general knowledge, not checked); app notes 4:27 sub 6
-
 === Urban Floods and Major Floods
 # Urban flooding
 - Causes: intense rain, cloudbursts, cyclone rain; **encroached drains and lakes**, **wetland destruction**, impervious surfaces, **floodplain construction**, poor storm drains, **high tides**. **Wetland restoration** reduces it. Nodal ministry: **Housing and Urban Affairs**.
@@ -197,7 +191,6 @@
 | GLOF | Proglacial lake burst | Downstream flash flood |
 | Dam failure | Breach | Downstream flash flooding |
 ~~ Sources: Rocket Disaster Management p.28-29; PMF Internal Security & DM 02 p.56-57 (book p.131-132); app notes 4:27 sub 0, 2, 5
-
 === Storm Surges and the Coastline
 - **Storm surge** = abnormal sea rise pushed by **cyclone winds and low pressure**; a **high tide** raises the baseline; **sea-level rise** worsens surge flooding (more, not less, exposure); heavy coastal rain causes drainage congestion; brings **salinity**.
 - **East coast** gets far more cyclones than the west (Bay of Bengal : Arabian Sea about 4 : 1).
@@ -205,7 +198,6 @@
 - **Coastline remeasured (2023–24)** by the **National Hydrographic Office with the Survey of India**, reported Dec 2024: **11,098.81 km**; **Gujarat** 1st (2,340.62 km), Tamil Nadu 2nd, **Andhra Pradesh 3rd (1,053.07 km)**.
 - **AP pattern**: coastal belt – cyclones and storm surges; deltas – floods; **Rayalaseema – drought**.
 ~~ Sources: NCERT summary (OnlyIAS Indian Geography 05) p.24; Rocket Disaster Management p.35; app notes 4:27 sub 8
-
 === Related Hazards – Landslides, Avalanches, Nodal Ministries and Major Disasters
 # Landslides
 - **Mass movement of rocks, debris or earth down mountain slopes or riverbanks** under gravity; both **geological and hydro-meteorological**; **prolonged rainfall** is the main trigger. About **12.6%** of land landslide-prone.

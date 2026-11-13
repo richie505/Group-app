@@ -19,7 +19,7 @@
 - **Permanent executive:** All-India Services, State services; advises, drafts, implements; concern – **discretion at the front line of implementation**.
 - **Split system** – separates **policy (Secretariat) from implementation (executive departments)**.
 - Recruitment by **UPSC and State PSCs**; PSC members removed for misbehaviour after a **Supreme Court inquiry**.
-- **Manifesto → policy:** **33.33% BC quota** in AP ULBs via **G.O. Rt. No. 1065** (Aug 2026).
+- **Manifesto → policy:** **33.33% BC quota** in AP ULBs – an **NDA 2024 poll promise** – via **G.O. Rt. No. 1065** (Aug 2026).
 ~~ Sources: app notes 2:86; UPSC CSE 2019 key (PMO)
 
 === Legislature
@@ -53,6 +53,7 @@
 | State | Legislature, judiciary, executive, bureaucracy |
 | Market | Private sector |
 | Civil Society | NGOs, VOs, **media**, trade unions, religious and pressure groups |
+# Think tank type → Examples
 | Think tank type | Examples |
 |---|---|
 | Government | NITI Aayog (DMEO); National Innovation Council (2010) |
