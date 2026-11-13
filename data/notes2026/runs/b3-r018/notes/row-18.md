@@ -89,6 +89,7 @@
 | **Global Talent Competitiveness Index** (INSEAD) | **2017: 92nd** |
 | **International IP Index** | **2024: 42nd of 55** |
 | Global Innovation Index | 2025: **38th** of 139; Switzerland 1st for the 15th year |
+- **Global Innovation Index** has **7 pillars** = **5 input** (institutions, human capital and research, infrastructure, market sophistication, business sophistication) + **2 output** (knowledge and technology outputs, **creative outputs**).
 ~~ Sources: WEF Global Competitiveness Reports 2011-2019 (weforum.org); IMD World Competitiveness Yearbook (imd.org); INSEAD GTCI 2017; US Chamber GIPC International IP Index 2024; WIPO GII 2025; app notes 3:18 sub 2, 5
 
 === Gender Gap and Human Capital Indices

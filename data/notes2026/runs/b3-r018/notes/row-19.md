@@ -20,6 +20,7 @@
 | Groundwater | Deep bore tubewells for irrigation |
 | Topsoil | Brick production |
 | Biodiversity habitats | Expansion of agriculture |
+- **Causes vs conservation practices:**
 | Human-driven causes | NOT causes (conservation) |
 |---|---|
 | **Deforestation** (primary cause) | Sustainable agriculture |
@@ -54,6 +55,7 @@
 | Y-axis | Environmental degradation |
 | Shape | **Inverted U** – pollution rises at low income, falls after a turning point |
 | Origin | Simon Kuznets' curve: income vs **income inequality**; for environment first shown by **Grossman and Krueger** (1991) |
+- **Growth vs environment debate:**
 | View | Argument |
 |---|---|
 | **Trade-off view** | Environmental rules slow growth; "**grow first, clean up later**" |
