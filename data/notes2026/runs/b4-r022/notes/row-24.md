@@ -111,6 +111,7 @@
 - Ocean currents = large masses of surface water circulating in regular patterns; the slow **surface movement** of water, set in motion **mainly by prevailing winds**, help keep the **heat balance**, are affected by the **configuration of the ocean** – UPSC 2002: **all four** statements correct.
 - **Equatorial Counter Current** flows **west to east** between the North and South Equatorial Currents (through the doldrums) because their **convergence piles up water in the west** (UPSC 2015, asked twice).
 - Surface currents = upper 400 m, about 10% of ocean water; deep currents = 90%.
+- Waves = oscillations moving energy; tides = periodic vertical rise and fall; **currents = continuous horizontal flow** with major effects on **climate, fisheries and navigation**; currents **redistribute heat**, so they influence climate.
 ~~ Sources: NextGen Indian Geography 03 p.11–13; NCERT Fundamentals ch.12 (OnlyIAS Physical Geography 08 p.27); Rocket General Geography p.64, 73; PMF Physical Geography 07 (counter current); app notes 4:24 sub 4
 
 === Gyres and the Sargasso Sea
