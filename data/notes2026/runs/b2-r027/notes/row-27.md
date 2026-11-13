@@ -17,7 +17,7 @@
 | Proposers / seconders | 50 / 50 | 20 / 20 |
 - **Qualifications**: citizen; **35 years**; qualified for election as a member of the **Rajya Sabha** (not the Lok Sabha); no office of profit.
 - **Article 71**: all doubts and disputes about the VP's election are decided by the **Supreme Court** – final (not the Speaker, President or Parliament); acts done before the election is declared void stay valid. **39th Amendment (1975)** removed the SC's power over President/VP election disputes; **44th Amendment (1978)** restored it.
-> Exam angle: "Chairman of the Rajya Sabha?" → the Vice-President (asked 12 times); "who elects?" → members of both Houses only.
+> Exam angle: "Chairman of the Rajya Sabha?" → the Vice-President (×10 PYQs); "who elects?" → members of both Houses only.
 ~~ Sources: NextGen Polity - APPSC Exams Part 1.2 p.8-9 (src/polity/nextgen-polity-appsc-02.txt); PMF Polity Notes Part 2 p.7-10 (src/polity/pmf-polity-02.txt); Rocket Polity Part 1 p.20-22 (src/polity/rocket-polity-01.txt)
 
 === Vice-President – Term, Oath, Resignation, Removal, Vacancy; Acting President (Arts. 65, 67-70)
@@ -90,7 +90,7 @@
 - **Death or resignation of the PM automatically dissolves the Council of Ministers**; a Minister's death only creates a vacancy.
 - **Convention, not text**: the **PM resigns on losing the majority in the Lok Sabha** (the Constitution does not say so). The Finance Minister's House, regional representation and the Speaker acting as President are not rules at all.
 - The **Prime Minister is the most important political institution in the country** (NCERT Class 9, "Working of Institutions").
-> Exam angle: "appointed by the President" (×7) and "within six months, either House".
+> Exam angle: "appointed by the President" (×8) and "within six months, either House".
 ~~ Sources: NextGen Polity - APPSC Exams Part 1.2 p.9-10 (src/polity/nextgen-polity-appsc-02.txt); PMF Polity Notes Part 2 p.13-14 (src/polity/pmf-polity-02.txt); Rocket Polity Part 1 p.20-21 (src/polity/rocket-polity-01.txt); NCERT Democratic Politics Class 9 ch.4
 
 === Articles 74, 77, 78 – Advice, Name of the President, Duties of the PM
@@ -106,7 +106,7 @@
 - Under **Art. 78** the PM is the **bridge / link between the President and the Council of Ministers** – not Arts. 76, 79 or 81. Administering Ministers' oaths is **not** an Art. 78 duty (the President does it).
 - **Article 53**: the **executive power of the Union is vested in the President** (not the PM); executive power means **carrying on the business of government** (residuary functions after legislation and adjudication) – true, but not the reason for vesting it in the President.
 - State parallel: executive action of a State is taken in the **name of the Governor** (Art. 166).
-> Exam angle: Art. 78 = PM communicates decisions (×4); Art. 77 = name of the President (×3).
+> Exam angle: Art. 78 = PM communicates decisions (×3); Art. 77 = name of the President (×2).
 ~~ Sources: PMF Polity Notes Part 2 p.14-15, p.17-18, p.22 (src/polity/pmf-polity-02.txt); NextGen Polity - APPSC Exams Part 1.2 p.9 (src/polity/nextgen-polity-appsc-02.txt); Rocket Polity Part 2 p.2-3 (src/polity/rocket-polity-02.txt)
 
 === Council of Ministers – Responsibility, Non-member Ministers, Rights in Parliament (Arts. 75, 88)
@@ -136,7 +136,7 @@
 | 95th (2009) | Extended SC/ST seat reservation |
 | **97th (2011)** | **Co-operative societies** – Art. 19(1)(c), Art. 43B, **Part IXB** – **not** cabinet size |
 - **130th Constitution Amendment Bill, 2025**: a PM/CM/Minister detained for **30 consecutive days** for an offence punishable with **5+ years** is removed on the **31st day**; touches **Articles 75, 164, 239AA**.
-> Exam angle: 91st = 15% (×8 PYQs); the 97th is co-operatives.
+> Exam angle: 91st = 15% (×7 PYQs); the 97th is co-operatives.
 ~~ Sources: NextGen Polity - APPSC Exams Part 1.2 p.9 (src/polity/nextgen-polity-appsc-02.txt); PMF Polity Notes Part 2 p.19 (src/polity/pmf-polity-02.txt); Rocket Polity Part 1 p.21 (src/polity/rocket-polity-01.txt)
 
 === Categories of Ministers; Cabinet; Deputy PM and Other Non-constitutional Posts
@@ -167,7 +167,7 @@
 | National Defence Council / Committee | **PM** |
 | **CSIR** | **PM** is its **President** (not the President of India or the S&T Minister) |
 | **Gandhi Peace Prize jury** (prize instituted **1995**) | **PM** (chair), **CJI**, **Leader of the largest Opposition party in the Lok Sabha**, Speaker of the LS, one eminent person – **not the President** |
-> Exam angle: NDMA → PM (×7 PYQs, APPSC 2019-20).
+> Exam angle: NDMA → PM (×6 PYQs, APPSC 2019-20).
 ~~ Sources: Rocket Polity Part 1 p.20 (src/polity/rocket-polity-01.txt); Disaster Management Act, 2005, s.3 (ndma.gov.in); csir.res.in (Society, President = PM); Ministry of Culture, Gandhi Peace Prize (indiaculture.gov.in)
 
 === Prime Ministers – Firsts and Records

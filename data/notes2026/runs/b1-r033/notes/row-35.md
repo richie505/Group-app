@@ -29,6 +29,18 @@
 > Exam angle: "event that changed his policy" → **Kalinga War**; killed / deported = **1 lakh / 1.5 lakh**.
 ~~ Sources: NextGen Indian History APPSC Part 2 p.43; NextGen Rocket Indian History Part 1 p.5; PMF Ancient & Medieval Part 2 p.116-117, p.123; app notes 1:35 (sub 1)
 
+=== Yavana Contemporaries in Rock Edict XIII
+| RE XIII name | King | Kingdom |
+|---|---|---|
+| **Antiyoka** | Antiochus II Theos | **Syria** |
+| **Turamaya** | **Ptolemy II Philadelphus** | **Egypt** |
+| **Antikini** | Antigonus Gonatas | **Macedonia** |
+| **Maka** | Magas | **Cyrene** |
+| Alikasudara | Alexander | Epirus (or Corinth) |
+- **Turamaya:** ruler of **Egypt** (UPPCS 2012) – not Corinth, Macedonia or Syria. **Ptolemy Philadelphus:** king of **Egypt** (UPUDA 2006).
+> Exam angle: Tura**maya** = Ptole**my**; Antiyoka = Syria; Antikini = Macedonia.
+~~ Sources: NextGen Indian History APPSC Part 2 p.43; PMF Ancient & Medieval Part 2 p.125; app notes 1:35 (sub 6)
+
 === Ashoka and Buddhism – Pilgrimage, Council and Missions
 - **Initiation:** by **Nigrodha** (Sri Lankan tradition, 4th regnal year); by **Upagupta** (Divyavadana).
 - **Bhabru edict:** faith in the Buddha, Dhamma and Sangha.
@@ -64,15 +76,3 @@
 - **Out-of-row facts asked with Ashoka:** Agrammes = Dhanananda; Patanjali – Pushyamitra Shunga; Kanishka's court – Ashvaghosha, Vasumitra, Charaka (not Banabhatta, who was Harsha's poet).
 > Exam angle: Dharmasoka = **Sarnath**; Buddhashakya = **Maski**.
 ~~ Sources: NextGen Indian History APPSC Part 2 p.43; PMF Ancient & Medieval Part 2 p.116; app notes 1:35 (sub 0, 6)
-
-=== Yavana Contemporaries in Rock Edict XIII
-| RE XIII name | King | Kingdom |
-|---|---|---|
-| **Antiyoka** | Antiochus II Theos | **Syria** |
-| **Turamaya** | **Ptolemy II Philadelphus** | **Egypt** |
-| **Antikini** | Antigonus Gonatas | **Macedonia** |
-| **Maka** | Magas | **Cyrene** |
-| Alikasudara | Alexander | Epirus (or Corinth) |
-- **Turamaya:** ruler of **Egypt** (UPPCS 2012) – not Corinth, Macedonia or Syria. **Ptolemy Philadelphus:** king of **Egypt** (UPUDA 2006).
-> Exam angle: Tura**maya** = Ptole**my**; Antiyoka = Syria; Antikini = Macedonia.
-~~ Sources: NextGen Indian History APPSC Part 2 p.43; PMF Ancient & Medieval Part 2 p.125; app notes 1:35 (sub 6)

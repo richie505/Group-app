@@ -1,3 +1,24 @@
+=== Seleucus Nicator and the Greek Envoys
+- **Seleucus I Nicator**, Alexander's general and ruler of Sindh–Afghanistan, was **defeated by Chandragupta in 305 BCE** (MPPSC 2008).
+| Treaty term | Detail |
+|---|---|
+| Ceded to Chandragupta | **Aria** (Herat), **Arachosia** (Kandahar), **Paropanisadai** (Kabul), **Gedrosia** (Balochistan) – not Bactria |
+| Marriage | Seleucus's daughter (Helena) married Chandragupta – not the reverse |
+| Chandragupta gave | **500 war elephants** |
+| Envoy | **Megasthenes** sent to Pataliputra |
+# Greek envoys
+| Envoy | Sent by | Court |
+|---|---|---|
+| **Megasthenes** | **Seleucus I Nicator** | **Chandragupta Maurya** – wrote Indica |
+| **Deimachus** | **Antiochus I** (Syria) | **Bindusara** – replaced Megasthenes (Strabo) |
+| **Dionysius** | **Ptolemy II Philadelphus** (Egypt) | Bindusara |
+- **Megasthenes:** ambassador of **Seleucus** (State PSC); came in the reign of **Chandragupta Maurya** (UPPCS Mains 2017; RAS 1997) – not Ashoka, Harsha or Kumaragupta; the **first Greek envoy** to an Indian court.
+- **Deimachus:** came under **Bindusara** (UP Lower 2015); he **did not come with Alexander** – Nearchus, Onesicritus, Aristobulus did (UPPCS 2015).
+- **Diplomatic ties with Syria and Egypt:** the **Mauryas** (UPPSC 2010) – not Cholas, Guptas or Pallavas.
+- **Megasthenes on Palibothra:** a **30-member body in six boards**, **64 gates**; his seven classes had **no merchants**.
+> Exam angle: Megasthenes → Chandragupta; Deimachus, Dionysius → Bindusara.
+~~ Sources: NextGen Indian History APPSC Part 2 p.43; PMF Ancient & Medieval Part 2 p.111, p.116; app notes 1:34 (sub 4, 7)
+
 === Chandragupta Maurya – Names, Rise and the First Empire
 # Greek names
 - **Sandrocottus / Sandrokottos:** Greek name of Chandragupta used by **Justin** (Uttarakhand PCS 2016) and Strabo; Arrian and Plutarch – **Androkottus**. Not Chandragupta I or II, or Samudragupta.
@@ -41,41 +62,12 @@
 > Exam angle: built = **Pushyagupta / Chandragupta**; canals = **Tushaspha / Ashoka**; repaired = **Rudradaman, Skandagupta**.
 ~~ Sources: NextGen Rocket Indian History Part 1 p.6-7; PMF Ancient & Medieval Part 2 p.111, p.116; NextGen Indian History APPSC Part 2 p.43, p.47; app notes 1:34 (sub 3, 11)
 
-=== Seleucus Nicator and the Greek Envoys
-- **Seleucus I Nicator**, Alexander's general and ruler of Sindh–Afghanistan, was **defeated by Chandragupta in 305 BCE** (MPPSC 2008).
-| Treaty term | Detail |
-|---|---|
-| Ceded to Chandragupta | **Aria** (Herat), **Arachosia** (Kandahar), **Paropanisadai** (Kabul), **Gedrosia** (Balochistan) – not Bactria |
-| Marriage | Seleucus's daughter (Helena) married Chandragupta – not the reverse |
-| Chandragupta gave | **500 war elephants** |
-| Envoy | **Megasthenes** sent to Pataliputra |
-# Greek envoys
-| Envoy | Sent by | Court |
-|---|---|---|
-| **Megasthenes** | **Seleucus I Nicator** | **Chandragupta Maurya** – wrote Indica |
-| **Deimachus** | **Antiochus I** (Syria) | **Bindusara** – replaced Megasthenes (Strabo) |
-| **Dionysius** | **Ptolemy II Philadelphus** (Egypt) | Bindusara |
-- **Megasthenes:** ambassador of **Seleucus** (State PSC); came in the reign of **Chandragupta Maurya** (UPPCS Mains 2017; RAS 1997) – not Ashoka, Harsha or Kumaragupta; the **first Greek envoy** to an Indian court.
-- **Deimachus:** came under **Bindusara** (UP Lower 2015); he **did not come with Alexander** – Nearchus, Onesicritus, Aristobulus did (UPPCS 2015).
-- **Diplomatic ties with Syria and Egypt:** the **Mauryas** (UPPSC 2010) – not Cholas, Guptas or Pallavas.
-- **Megasthenes on Palibothra:** a **30-member body in six boards**, **64 gates**; his seven classes had **no merchants**.
-> Exam angle: Megasthenes → Chandragupta; Deimachus, Dionysius → Bindusara.
-~~ Sources: NextGen Indian History APPSC Part 2 p.43; PMF Ancient & Medieval Part 2 p.111, p.116; app notes 1:34 (sub 4, 7)
-
 === Chanakya (Kautilya, Vishnugupta)
 - **Other name / childhood name:** **Vishnugupta** (UPPCS 2006; IAS 1993 ×2) – not Bhattaswami, Rajasekhara or Vishakhadatta; one Arthashastra verse names its author Vishnugupta.
 - **Office:** **prime minister** of **Chandragupta Maurya** (UPPCS 2002) – not Chandragupta Vikramaditya, Ashoka or Janaka.
 - **Taranath and Jain tradition:** he stayed on as **Bindusara's** minister; Puranas call him "dvijarshabha".
 - **Mudrarakshasa:** Chanakya against **Rakshasa**, minister of the **Nandas**.
 ~~ Sources: NextGen Indian History APPSC Part 2 p.43, p.47; PMF Ancient & Medieval Part 2 p.109; app notes 1:34 (sub 2)
-
-=== Bindusara
-- **Title:** **Amitraghata** ("**slayer of foes**", Mahabhashya) = Greek Amitrochates (UP Lower 2015) – not Chandragupta, Samudragupta or Ashoka.
-- **Birth name:** **Simhasena**; mother **Durdhara**; reign **297–273 BCE**.
-- **Antiochus I** was asked for sweet wine, dried figs and a **philosopher** – the philosopher could not be sent.
-- **Religion:** **Ajivika**; council of 500 ministers under Khallataka.
-- **Taxila revolt:** **Susima** failed, then **Ashoka** was sent (Divyavadana); a later Taxila revolt under Ashoka was handled by **Kunala**. Ashoka was viceroy at Taxila and **Ujjain**.
-~~ Sources: NextGen Indian History APPSC Part 2 p.43; PMF Ancient & Medieval Part 2 p.116; app notes 1:34 (sub 6)
 
 === Chandragupta's Jain End and the Religion of the Mauryas
 - **Went south with Chandragupta in the great famine:** **Bhadrabahu** (APPSC G2 2003) – not Sthulabhadra, Merutunga or Lakulisha.
@@ -90,3 +82,11 @@
 | **Samprati** | Jainism – "**Ashoka of Jainism**"; spread Jainism in Andhra |
 - **Barabar caves** (Bihar): the **oldest surviving rock-cut caves**, carved in **granite** – not at Girnar; **Lomas Rishi** cave is in the Barabar hills.
 ~~ Sources: NextGen Indian History APPSC Part 2 p.43, p.52; PMF Ancient & Medieval Part 2 p.111; app notes 1:34 (sub 5, 10)
+
+=== Bindusara
+- **Title:** **Amitraghata** ("**slayer of foes**", Mahabhashya) = Greek Amitrochates (UP Lower 2015) – not Chandragupta, Samudragupta or Ashoka.
+- **Birth name:** **Simhasena**; mother **Durdhara**; reign **297–273 BCE**.
+- **Antiochus I** was asked for sweet wine, dried figs and a **philosopher** – the philosopher could not be sent.
+- **Religion:** **Ajivika**; council of 500 ministers under Khallataka.
+- **Taxila revolt:** **Susima** failed, then **Ashoka** was sent (Divyavadana); a later Taxila revolt under Ashoka was handled by **Kunala**. Ashoka was viceroy at Taxila and **Ujjain**.
+~~ Sources: NextGen Indian History APPSC Part 2 p.43; PMF Ancient & Medieval Part 2 p.116; app notes 1:34 (sub 6)
