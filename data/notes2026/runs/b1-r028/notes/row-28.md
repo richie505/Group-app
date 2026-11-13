@@ -20,31 +20,6 @@
 > Lumbini = birth; Bodh Gaya = enlightenment (Niranjana); Sarnath = first sermon; Kushinagar = death (Mallas).
 ~~ Sources: NextGen Indian History - APPSC Exams Part 1 p.63; PMF Ancient & Medieval Part 2 p.42-43; PMF Art & Culture Part 5 p.73-74; old app notes row 28 (sub 2)
 
-=== Other Sites – Shravasti, Vaishali, Rajgir and the Kingdoms
-| Place | Association |
-|---|---|
-| **Shravasti** (Kosala capital) | **Most sermons**; **Jetavana Vihara** (Anathapindika); **Twin Miracle** |
-| **Vaishali** (Lichchhavis) | **Last rainy season** (at **Beluva**, a suburb); **women admitted** to the Sangha; monkey's honey offering; Second Council |
-| **Rajagriha (Rajgir)** | Taming of the elephant **Nalagiri**; **Venuvana**; First Council |
-| **Sankasya** | Descent from the **Trayastrimsa** heaven |
-| **Pava** | Fell ill after **Sukaramaddava** offered by **Chunda** |
-- **Council venues:** **Rajgir, Vaishali, Pataliputra, Kashmir** – not Sarnath, Bodh Gaya or Kushinagar.
-- **Pairs (UPPSC 2004):** Lothal – dockyard ✓, Sarnath – first sermon ✓, Nalanda – seat of Buddhist learning ✓; **Rajgir – Lion Capital ✗** (the Lion Capital is at **Sarnath**).
-# Kingdoms and royal followers
-- **Magadha:** **Bimbisara, Ajatashatru**; **Kosala:** **Prasenjit** (a disciple with his family); **Vatsa / Kausambi:** **Udayana**.
-- **UPSC 2015 – kingdoms associated with the Buddha's life:** **Kosala and Magadha** (official key); PMF also counts **Chanda Pradyota of Avanti** a disciple, but Avanti and **Gandhara** are not in the key.
-> Shravasti = most sermons; Vaishali = last rainy season + nuns; Rajgir = Nalagiri + First Council.
-~~ Sources: NextGen Indian History - APPSC Exams Part 1 p.63; PMF Ancient & Medieval Part 2 p.43-44 (UPSC 2015 key); old app notes row 28 (sub 1, 2, 5)
-
-=== First Sermon – Dhammachakkappavattana
-- **Name:** **Dhammachakra Pravartana / Dhammacakkappavattana Sutta** = "setting in motion the **Wheel of Dharma**" – the **first sermon at Sarnath** (not his "sight", norms or rituals).
-- **Theme:** the **Four Noble Truths** and the **Eightfold Path** – so the Eightfold Path "forms the theme of" the **Dhammacakkappavattana Sutta** (UPSC 1998), not the Dipavamsa, Divyavadana or Mahaparinibbana Sutta.
-  - **Mahaparinibbana Sutta** = his last journey and death; **Brahmajala Sutta** = first sutta of the Digha Nikaya.
-- **Audience:** the **five former companions** – **Kondanna (Kaundinya), Bhaddiya, Vappa, Mahanama, Assaji (Ashvajit)** – who became **arhats**.
-- **Vesak / Buddha Purnima** (Vaisakha full moon) marks **birth, enlightenment and Mahaparinirvana** – **not the first sermon**.
-> Dhammachakra = first sermon = Sarnath = Four Truths + Eightfold Path.
-~~ Sources: NextGen Indian History - APPSC Exams Part 1 p.63; PMF Ancient & Medieval Part 2 p.43; PMF Art & Culture Part 5 p.74; old app notes row 28 (sub 3)
-
 === Core Teachings – Nirvana, Karma, Anatta, Middle Path
 | Term | Meaning |
 |---|---|
@@ -131,6 +106,31 @@
 > Triratna = Buddha-Dhamma-Sangha; Pavarana = end-of-Vassa confession; nuns admitted at Vaishali.
 ~~ Sources: NextGen Indian History - APPSC Exams Part 1 p.67; PMF Ancient & Medieval Part 2 p.47-49; PMF Art & Culture Part 5 p.77; old app notes row 28 (sub 10)
 
+=== First Sermon – Dhammachakkappavattana
+- **Name:** **Dhammachakra Pravartana / Dhammacakkappavattana Sutta** = "setting in motion the **Wheel of Dharma**" – the **first sermon at Sarnath** (not his "sight", norms or rituals).
+- **Theme:** the **Four Noble Truths** and the **Eightfold Path** – so the Eightfold Path "forms the theme of" the **Dhammacakkappavattana Sutta** (UPSC 1998), not the Dipavamsa, Divyavadana or Mahaparinibbana Sutta.
+  - **Mahaparinibbana Sutta** = his last journey and death; **Brahmajala Sutta** = first sutta of the Digha Nikaya.
+- **Audience:** the **five former companions** – **Kondanna (Kaundinya), Bhaddiya, Vappa, Mahanama, Assaji (Ashvajit)** – who became **arhats**.
+- **Vesak / Buddha Purnima** (Vaisakha full moon) marks **birth, enlightenment and Mahaparinirvana** – **not the first sermon**.
+> Dhammachakra = first sermon = Sarnath = Four Truths + Eightfold Path.
+~~ Sources: NextGen Indian History - APPSC Exams Part 1 p.63; PMF Ancient & Medieval Part 2 p.43; PMF Art & Culture Part 5 p.74; old app notes row 28 (sub 3)
+
+=== Other Sites – Shravasti, Vaishali, Rajgir and the Kingdoms
+| Place | Association |
+|---|---|
+| **Shravasti** (Kosala capital) | **Most sermons**; **Jetavana Vihara** (Anathapindika); **Twin Miracle** |
+| **Vaishali** (Lichchhavis) | **Last rainy season** (at **Beluva**, a suburb); **women admitted** to the Sangha; monkey's honey offering; Second Council |
+| **Rajagriha (Rajgir)** | Taming of the elephant **Nalagiri**; **Venuvana**; First Council |
+| **Sankasya** | Descent from the **Trayastrimsa** heaven |
+| **Pava** | Fell ill after **Sukaramaddava** offered by **Chunda** |
+- **Council venues:** **Rajgir, Vaishali, Pataliputra, Kashmir** – not Sarnath, Bodh Gaya or Kushinagar.
+- **Pairs (UPPSC 2004):** Lothal – dockyard ✓, Sarnath – first sermon ✓, Nalanda – seat of Buddhist learning ✓; **Rajgir – Lion Capital ✗** (the Lion Capital is at **Sarnath**).
+# Kingdoms and royal followers
+- **Magadha:** **Bimbisara, Ajatashatru**; **Kosala:** **Prasenjit** (a disciple with his family); **Vatsa / Kausambi:** **Udayana**.
+- **UPSC 2015 – kingdoms associated with the Buddha's life:** **Kosala and Magadha** (official key); PMF also counts **Chanda Pradyota of Avanti** a disciple, but Avanti and **Gandhara** are not in the key.
+> Shravasti = most sermons; Vaishali = last rainy season + nuns; Rajgir = Nalagiri + First Council.
+~~ Sources: NextGen Indian History - APPSC Exams Part 1 p.63; PMF Ancient & Medieval Part 2 p.43-44 (UPSC 2015 key); old app notes row 28 (sub 1, 2, 5)
+
 === Four Noble Truths and the Eightfold Path
 | Truth | Content |
 |---|---|
@@ -149,16 +149,6 @@
 - Called the **Middle Path** because it **avoids self-indulgence as well as self-mortification** (APSC 2017).
 ~~ Sources: NextGen Indian History - APPSC Exams Part 1 p.63-64; PMF Ancient & Medieval Part 2 p.44-45; old app notes row 28 (sub 7, 8)
 
-=== Pratityasamutpada – Dependent Origination
-- **Pratityasamutpada (Paticca-samuppada):** every phenomenon arises from a cause; a **12-link** chain (**12 nidanas**, bhavachakra); removing ignorance ends the chain.
-| Order | Links |
-|---|---|
-| 1–4 | **Avidya** (ignorance) → **Samskara** (impressions) → Vijnana (consciousness) → Namarupa |
-| 5–8 | Shadayatana (six senses) → Sparsha (contact) → Vedana (feeling) → Trishna (craving) |
-| 9–12 | Upadana (clinging) → Bhava (becoming) → Jati (birth) → **Jara-marana** (old age–death) |
-- **Cause of Samskara = Avidya** (CGPSC 2024) – the first link and root of suffering; Vijnana comes after Samskara.
-~~ Sources: PMF Ancient & Medieval Part 2 p.45; old app notes row 28 (sub 9)
-
 === Symbols in Early Buddhist Art
 | Event | Symbol |
 |---|---|
@@ -171,3 +161,13 @@
 - Early (aniconic) art showed the Buddha only through such symbols; **UPSC 2026:** the **empty seat = meditation** of the Buddha (not enlightenment, which is the tree).
 - **Wheel with deer** = the **first preaching** at Sarnath.
 ~~ Sources: PMF Ancient & Medieval Part 2 p.49 (UPSC 2026 key); NCERT Themes in Indian History I ch.4; old app notes row 28 (sub 4)
+
+=== Pratityasamutpada – Dependent Origination
+- **Pratityasamutpada (Paticca-samuppada):** every phenomenon arises from a cause; a **12-link** chain (**12 nidanas**, bhavachakra); removing ignorance ends the chain.
+| Order | Links |
+|---|---|
+| 1–4 | **Avidya** (ignorance) → **Samskara** (impressions) → Vijnana (consciousness) → Namarupa |
+| 5–8 | Shadayatana (six senses) → Sparsha (contact) → Vedana (feeling) → Trishna (craving) |
+| 9–12 | Upadana (clinging) → Bhava (becoming) → Jati (birth) → **Jara-marana** (old age–death) |
+- **Cause of Samskara = Avidya** (CGPSC 2024) – the first link and root of suffering; Vijnana comes after Samskara.
+~~ Sources: PMF Ancient & Medieval Part 2 p.45; old app notes row 28 (sub 9)

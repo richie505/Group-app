@@ -14,7 +14,7 @@
 - 3. A **perspective plan** of **10, 15 or 20 years**.
 - Rolling plan **changes both its allocations and its targets every year** → flexibility; criticism: yearly revision **weakened commitment** to targets.
 > Myrdal suggested – Janata introduced – Lakdawala Deputy Chairman – 1978-80. Not Indira, Rajiv or the National Front; Madhu Dandavate was Deputy Chairman only in 1990-91.
-~~ Sources: NextGen Indian Economy - APPSC 01 p.22 (Rolling Plan 1978-80); NextGen Indian Economy Part 1 - APPSC 04 p.38 (Myrdal; April 1978 – April 1980); app notes 3:8 sub 8
+~~ Sources: NextGen Indian Economy - APPSC 01 p.16 (Rolling Plan 1978-80); NextGen Indian Economy Part 1 - APPSC 04 p.38 (Myrdal; April 1978 – April 1980); app notes 3:8 sub 8
 
 === Objectives of Planning
 - **Four long-term objectives:** **growth, modernisation, self-reliance, social justice (equity)** – plus employment and removal of poverty; the long-term objective = **all** of high standard of living, social justice and self-reliance.
@@ -52,7 +52,7 @@
 - Perspective planning was a **Planning Commission function**.
 - **Long-term perspective plan 1985-2000** accompanied the **Seventh Plan**.
 - **AP now:** **Swarna Andhra Vision 2047** – GSDP **Rs 308.11 lakh crore by 2047-48**; ten "**Padi Sutralu**"; targets (10 Feb 2026): **15%** growth, GSDP **Rs 31 lakh crore**, PCI Rs 5.15 lakh by 2030.
-~~ Sources: NextGen Indian Economy - APPSC 01 p.5, p.24 (15-year perspective 1985-2000); app notes 3:8 sub 7
+~~ Sources: NextGen Indian Economy - APPSC 01 p.5, p.20 (15-year perspective 1985-2000); app notes 3:8 sub 7
 
 === Other Types of Planning
 | Pair | Distinction |
