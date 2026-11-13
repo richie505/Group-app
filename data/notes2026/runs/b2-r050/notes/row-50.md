@@ -44,7 +44,7 @@
 - **Compositional shift:** more tax devolution and fewer conditional grants → **increase in the share of unconditional (untied) transfers** to States and more fiscal autonomy (APPSC Group-I 2017).
 - **Cesses and surcharges** (~18% of gross tax) stay outside the pool, so effective devolution is about **31-32%**; southern States' **"Chalo Delhi" (2024)** opposed population-based criteria. Tax devolution 2024-25: **₹12.87 lakh crore**.
 > Asked as: who recommends distribution of net tax proceeds / principles of grants-in-aid (Finance Commission – 6 PYQs); horizontal distribution; effect of the compositional shift.
-~~ Sources: NextGen Polity APPSC Part 26 (src/polity/nextgen-polity-appsc-26.txt) p.8-9; NextGen Polity APPSC Part 20 (src/polity/nextgen-polity-appsc-20.txt) p.6; Laxmikanth 8th ed. Ch15 (src/polity/laxmikanth-indian-polity-01.txt) p.234; Rocket Polity (src/polity/rocket-polity-01.txt) p.65-66; app notes 2:50 sub 5, 6
+~~ Sources: NextGen Polity APPSC Part 26 (src/polity/nextgen-polity-appsc-26.txt) p.10; NextGen Polity APPSC Part 20 (src/polity/nextgen-polity-appsc-20.txt) p.6; Laxmikanth 8th ed. Ch15 (src/polity/laxmikanth-indian-polity-01.txt) p.234; Rocket Polity (src/polity/rocket-polity-01.txt) p.65-66; app notes 2:50 sub 5, 6
 
 === Part XII Framework – Key Articles 264 to 293
 | Article | Subject |
@@ -115,7 +115,7 @@
 - **Net Borrowing Ceiling** (~3% of GSDP) is imposed via **293(3)** and counts off-budget borrowing; **Kerala v Union of India (2024)** – Art. 131 suit, referred to a **five-judge bench**.
 - AP net borrowings **2024-25: ₹60,485.40 crore**.
 > Asked as: can a State take foreign loans directly? – **No** (UPPCS 2012).
-~~ Sources: Laxmikanth 8th ed. Ch15 (src/polity/laxmikanth-indian-polity-01.txt) p.235; NextGen Polity APPSC Part 17 (src/polity/nextgen-polity-appsc-17.txt) p.7; app notes 2:50 sub 9
+~~ Sources: Laxmikanth 8th ed. Ch15 (src/polity/laxmikanth-indian-polity-01.txt) p.235; NextGen Polity APPSC Part 17 (src/polity/nextgen-polity-appsc-17.txt) p.4; app notes 2:50 sub 9
 
 === Amendments, Emergencies and Fiscal Disputes
 | Amendment | Year | Change |
