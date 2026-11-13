@@ -161,6 +161,7 @@
 | CDRI | 2019 | Launched by India at the **UN Climate Action Summit, New York**; secretariat **New Delhi** |
 - **Build Back Better** = the current UN approach to post-disaster recovery and reconstruction.
 - India ranks **second after China** in natural disasters (UNISDR data cited in exams).
+- **Shift in approach**: pre-2005 **3 Rs** (rescue, relief, rehabilitation) – relief-centric, reactive → post-2005 **3 Ps** (**prevention, preparedness, proofing/mitigation**) – holistic, proactive, continuous cycle.
 ~~ Sources: Rocket Disaster Management p.2-3, 48, 56, 59-62, 74; PMF Internal Security & DM 02 p.44-46 (book p.117-119); Laxmikanth 8th ed. ch.68 p.733 (HPC 1999); web search (HPC L1-L3 and NDMP L0; 1 June 2016 NDMP release; UNISDR ranking reports); app notes 4:28 sub 1, 6
 === NDRF, SDRF and Disaster Funds
 # National Disaster Response Force (asked about 13 times)
