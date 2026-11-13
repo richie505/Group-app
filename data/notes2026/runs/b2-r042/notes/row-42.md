@@ -88,6 +88,7 @@
 |---|---|
 | NDA | **164** of 175 – TDP **135**, JSP **21**, BJP **8** |
 | YSRCP | **11** – below one-tenth, so **no official Opposition** status |
+- **First meeting** of the AP Legislative Assembly: **3 December 1956** (AP formed 1 November 1956).
 ~~ Sources: Wikipedia "1967 Andhra Pradesh Legislative Assembly election" (independents 68 of 287); aplegislature "Women in Legislature" (11th Assembly, 1999); Business Standard 16 Jun 2012 "Jagan's party sweeps Andhra by-elections"; app notes 2:42 sub 3
 
 === Districts → Assembly Constituencies (Delimitation 2008)
