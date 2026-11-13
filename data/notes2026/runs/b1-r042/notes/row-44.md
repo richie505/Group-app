@@ -25,6 +25,7 @@
 - **⚠ Trap:** Buddhacharita = Ashvaghosha, not Nagasena, Nagarjuna or Vasumitra.
 - **Nagarjuna in Andhra:** Sriparvata and the Satavahana court; **I-tsing** saw students memorising his Suhrllekha.
 # Mahayana
+- **Kashmir link (2026):** stupas at **Zehanpora** (Baramulla) highlighted in 2026 show the valley's Kushana-Gandhara Buddhist heritage.
 - **Shift:** from Pali-Prakrit Hinayana to **Sanskrit Mahayana**, which worshipped the **Buddha as god through images**; spread to Central Asia, China, Korea, Japan.
 ~~ Sources: PMF Ancient & Medieval 03 p.1-4; NextGen Indian History APPSC 03 p.27; Rocket Indian History 01 p.35; app notes 1:44 (sub 3, 4, 5)
 
@@ -59,6 +60,8 @@
 # Kanishka
 - **Coronation / era:** **78 AD**, starting the Saka era (UPPSC 1991) – modern estimates put his accession c. 127 CE (Falk).
 - **Rabatak inscription (1993, near Surkh Kotal, Afghanistan):** Bactrian language, Greek script; genealogy Kujula → Vima Taktu → Vima Kadphises → Kanishka; cities **Saketa, Kaushambi, Pataliputra, Sri Champa** – **Shravasti is NOT named** (UPRO 2014).
+- **Era of 78 CE:** called the **Saka era** because the **Western Kshatrapas** used it on their records and coins; also **Salivahana Saka** (a legend credits Gautamiputra Satakarni); it began **135 years after** the Vikrama era (57 BCE); India's national calendar since 1957.
+- **Trade evidence of the period:** the **Periplus of the Erythraean Sea** (text) and the **Arikamedu** excavation – not Inamgaon.
 - **Sarnath image:** Bodhisattva dedicated by Friar **Bala** in year 3 (81 AD).
 - **China:** refused a Han princess, the Kushanas marched against the Chinese general **Pan Chao (Ban Chao)** and were **defeated** (Jharkhand 2003); Ban Yong, Shi Huang Ti, He-Ti are distractors.
 ~~ Sources: PMF Ancient & Medieval 02 p.146, p.152-153; PMF Ancient & Medieval 03 p.1, p.3; Rocket Indian History 01 p.8-9; Rocket Indian History 02 p.9, p.115; app notes 1:44 (sub 0, 1, 2)
@@ -71,5 +74,6 @@
 - **Social status:** Manu called foreigners (Shakas, Kushanas) who did not follow priestly custom **"fallen Kshatriyas" (Vratya Kshatriyas)** (UPPSC 2014).
 - **Greatest development of the Kushan period:** **art** (SSC 2005) – Gandhara and Mathura schools under Kushana patronage.
 - **Gandhara art flourished under:** the **Kushans** (BPSC 1992); not Guptas, Akbar or Mauryas.
+- **Early Buddha images (1st c. CE):** Gandhara – standing Buddha in pleated robes; Mathura – seated Buddha with a halo; Amaravati – **white limestone** narrative panels (not red sandstone).
 - **First human statues worshipped in India:** those of the **Buddha** (RAS 2010) – Mahayana image worship.
 ~~ Sources: PMF Ancient & Medieval 03 p.20; PMF Art & Culture 03 p.17; Rocket Indian History 01 p.97; R.S. Sharma, India's Ancient Past ch. "Central Asian Contacts and their Results"; app notes 1:44 (sub 0, 7)

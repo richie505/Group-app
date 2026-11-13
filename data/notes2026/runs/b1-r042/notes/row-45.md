@@ -13,6 +13,7 @@
 === The Buddha Image, Mudras and Mahayana
 - **Mahayana features:** deification of the Buddha, the Bodhisattva path, image worship and rituals → **A, B and C** (UPSC 2019).
 - **Before images:** aniconic – throne, footprints, wheel, Bodhi tree, stupa; **Hinayana = symbols, Mahayana = images**.
+- **Andhra:** symbol worship (**Chaitika Vada**) was started by **Mahadeva**; Amaravati **ayakapatas** show the Buddha through symbols, not in human form.
 - **First human images:** Kushana period (1st c. CE), in **Mathura** and Gandhara – priority is debated.
 - **Oldest Buddha sculpture – style:** **Mathura** (IAS 2012 key; PMF: Mathura was the first to make anthropomorphic Buddha and Tirthankara images); Gandhara is the tempting option.
 - **Standing statue of the Buddha:** **Kushana period** (UPPCS 1992).
@@ -42,8 +43,8 @@
 | Religion | Buddhist (Mahayana) | Buddhist, Jain, Hindu | Mainly Buddhist |
 | Patron | Kushanas | Kushanas | Satavahanas, later Ikshvakus |
 | Figures | Calm, Apollo-like | Fleshy, smiling | Slender, dynamic, crowded |
-- **Sthapati (temple tradition):** the **master craftsman-architect** who designs and directs the making of temples and images – "the master who makes sculptures" (APPSC Endowment 2022); the carver under him is the **shilpi**, the carpenter the **vardhaki/takshaka**.
-~~ Sources: PMF Art & Culture 03 p.18-19, p.23; NextGen Indian History APPSC 02 p.54; app notes 1:45 (sub 0, 2); https://en.wikipedia.org/wiki/Sthapati
+- **Sthapati (temple tradition):** the **master craftsman-architect** who designs and directs the making of temples and images – "the master who makes sculptures" (APPSC Endowment 2022); the carver under him is the **shilpi**, the builders and carvers under him the **vardhaki** and **takshaka**.
+~~ Sources: PMF Art & Culture 03 p.18-19, p.23; NextGen Indian History APPSC 02 p.54; app notes 1:45 (sub 0, 2); https://www.wisdomlib.org/hinduism/essay/mayamata-and-building-construction-study/d/doc1598551.html
 
 === Amaravati School
 - **Famous for:** **Buddhist sculpture** (APPSC PYQ) – not Jain, Hindu or Indo-Islamic.
@@ -51,6 +52,8 @@
 - **Patrons:** **Satavahanas**, mature phase under the **Ikshvakus**; also called the Andhra or Vengi school; Krishna valley sites – **Amaravati (Dhanyakataka)**, **Nagarjunakonda** (Ikshvaku centre), Jaggayyapeta, Goli, Ghantasala.
 - **Style:** narrative reliefs of the Jatakas and the Buddha's life; slender figures in **tribhanga**, movement and emotion; crowded scenes with Yakshas and Gandharvas.
 - **Symbols on ayakapatas:** lotus = birth, horse = renunciation, Bodhi tree = enlightenment, wheel = first sermon, stupa = parinirvana; **Purna-kumbha** = AP State emblem.
+- **Only school showing all the events of the Buddha's life** in its panels: **Amaravati**.
+- **In news (2026):** the Buddha is believed to have first taught the **Kalachakra** at Dhanyakataka (Amaravati); the AP Buddhist circuit links Amaravati, Bavikonda and **Thotlakonda**.
 - **Sculptors:** **Selavardhakulu**; first depiction of **Sati** (Ikshvaku phase).
 - **Writers:** **James Fergusson** – "Tree and Serpent Worship", "epitome of Indian architecture"; **Percy Brown** – "dynamic beauty".
 - **Oldest stupa in AP:** **Bhattiprolu**; sculptures today in the Amaravati museum, Chennai and the **British Museum**.

@@ -29,6 +29,7 @@
 # Other coin facts
 - **Lead coins:** **Strato II** (UPPSC 2014); Strato I, Demetrius and Menander are distractors.
 - **Largest ancient gold coin:** **Eucratides** (20 staters).
+- **Other early coinages:** Saka-Kshatrapas (Rudradaman) – **silver and copper**; **Chandragupta II** – silver **Rupaka** after defeating the Sakas; **Muhammad Ghori** – coins with **Lakshmi**, some with the Arabic **Kalma**; Kanishka – the Buddha; Mahmud of Ghazni – silver coins with Arabic and Sanskrit legends.
 ~~ Sources: PMF Ancient & Medieval 02 p.147-148; Rocket Indian History 01 p.55; app notes 1:42 (sub 1, 3, 8); https://en.wikipedia.org/wiki/Agathocles_of_Bactria
 
 === Bactria, Rulers and the Order of Invaders

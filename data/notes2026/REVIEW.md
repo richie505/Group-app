@@ -81,3 +81,10 @@
 - Param Bhagavata (yab45409b1a1, yb7817a4a616): Samudragupta kept (Rocket; Nalanda/Gaya plates) — UPPSC official key gave Chandragupta II. DECIDE.
 - NextGen Indian History Part 3 p.2 wrongly credits Chandragupta I with defeating the Sakas / first silver coins — notes flag it.
 - ybbf1e920745 UPSC 2000 A–R kept (a) per PMF; y8c67e8f7109 Indo-Roman trade centre → Muziris.
+
+## b2-r008 Fundamental Rights – Art. 12, 13, doctrines (91 PYQs, 8 keys changed, 13 generated, 2 no key)
+- yf1d0fe7db67 citizens-only Article: 29 → no key (15, 16, 19, 29 all citizens-only). yaaef08a37a7 Golden Trinity: no key (14, 19, 21 not offered).
+- y9b1c79656c9 political sufferers → aliens; y68d459b149e "all" → life and liberty; yd129b408898 President → Parliament.
+- y41fd3c1d97f (CDS 2015) A → C — check official CDS-II 2015 key.
+- y966973564d1 → not paying minimum wages (Art. 23); "banning a book" tempting — check APPSC key.
+- y77ee1f27bd4 right to vote: UPSC 2017 official "constitutional right" kept; NextGen p.174 says statutory (own MCQ nd05298c39ba "statutory").
