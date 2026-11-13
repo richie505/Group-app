@@ -93,3 +93,9 @@
 - ya439ab40535 Indo-Greek coins with Indian deities: Menander → Agathocles (Balarama, Vasudeva-Krishna; PMF).
 - y9819dfb2532 (APPSC G1 2024) Shaka-Kushana dress: II–V → all five incl. turban (PMF, R.S. Sharma); old trap "turban excluded – follow the key" withdrawn. Official key not found — check.
 - Kept with caveats: Kanishka 78 AD (modern ~127 CE); Badami Saka 465 = Vikrama 600 (option 601 nearest); oldest Buddha image Mathura; surkhi introduced by Kushans.
+
+## b2-r006 Union and its territory, Citizenship (142 PYQs, 10 keys changed, 40 generated, 5 outdated, 1 no key)
+- ye89041fe723 (G1) Union vs Territory: Only I → Only IV. yb1476c2cb45 NRC: A–D → A, B, C. ye711deec8a1 Sikkim became a State: 35th → no key (36th not offered).
+- yca3e56f3fbf (UPSC 2025 pairs) "All three" kept — Nagaland pair loosely worded.
+- Outdated facts from memory (verify): Satya Pal Malik died 5 Aug 2025; Dharam Gokhool Mauritius President since Dec 2024.
+- Unverified 2026 items in own MCQs/notes: CAA Rules 2026, 19 Aug 2026 MHA order, Ladakh Chapter K, Amaravati sole capital.
