@@ -63,6 +63,7 @@
 | **Zonal** | Mature soils reflecting climate and vegetation | Podzol, chernozem, laterite, **sierozem** (desert grey) |
 | Intrazonal | Local conditions (drainage, salts) dominate | **Solonchak** (saline), bog soils |
 | **Azonal** | Young, **no developed profile** | **Lithosol** (thin soil on rock), alluvium, regosol |
+- Major zonal and other world soils:
 | Soil | Climate / setting |
 |---|---|
 | Podzol | Cold taiga (boreal conifer); thin, acidic, leached, humus-poor |

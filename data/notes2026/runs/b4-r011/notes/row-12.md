@@ -38,12 +38,14 @@
 | Potholes | Eddy-whirled pebbles drill holes; large one below a waterfall = **plunge pool** |
 | Incised (entrenched) meanders | Uplift rejuvenates the river; meanders cut deep into hard rock |
 | River terraces | Stream cuts down into its own floodplain (erosional); paired = same height both banks; unpaired = one bank |
+- River-profile terms:
 | Term | Meaning |
 |---|---|
 | Graded profile | Smooth concave long profile; erosion and deposition roughly balanced |
 | Base level | Lowest level a river can erode to; **sea level = ultimate**; lakes and dams = local |
 | Stream capture (river piracy) | Headward erosion breaches a divide and takes a neighbour's upper waters |
 | **Peneplain** | Near-featureless gentle plain worn by **rivers** almost to base level (W.M. Davis) |
+- Gorge vs canyon:
 | Basis | Gorge | Canyon |
 |---|---|---|
 | Nature | Deep, narrow, steep-sided valley | **Very deeply / widely eroded gorge** – a variant of a gorge |
