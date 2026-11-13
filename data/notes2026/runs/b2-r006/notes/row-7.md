@@ -41,15 +41,6 @@
 # Residence periods – then and now
 - Before the 2003 Act (in force 3 Dec 2004) naturalisation needed **1 year + 4 of the preceding 7 years = 5 years** (APPSC G1 2003 key: 5 years); **now 12 years**; registration of PIO now **7 years**; CAA communities **5 years**.
 ~~ Sources: NextGen Polity - APPSC Exams (full text) p.240-242 (modes, pre-2004 naturalisation conditions); Indian_Polity Part 1 (src/polity/indian-polity-part1.txt) ch. Citizenship (Sections 3-7, 2003 Amendment); Citizenship Act 1955 (indiacode.nic.in) Third Schedule; app notes 2:7 sub 3
-=== Who Regulates Citizenship – Parliament (Art. 11)
-| Authority | Role |
-|---|---|
-| **Parliament (Art. 11)** | **Alone** legislates on and **prescribes conditions** for acquisition and termination → **Citizenship Act, 1955** |
-| **Central Government** (Home Ministry) | Administers the Act; **determines** questions of acquisition of foreign citizenship (**Sec. 9(2)**); frames Citizenship Rules (2009, amended 2026) under **Sec. 18**; deprives under Sec. 10 |
-| Election Commission | Checks citizenship only for electoral rolls (Art. 324, Art. 326 adult suffrage) |
-- **No power** to make citizenship law: **State Legislatures**, the **President**, the **Election Commission**, the Union Cabinet, the Supreme Court, the Law Commission.
-- "**Exclusive power of determining the issue of citizenship**" (CGPSC 2013) → **Central Government** (Sec. 9(2)); "**competent to prescribe conditions**" → **Parliament**.
-~~ Sources: NextGen Polity - APPSC Exams (full text) p.239-240 (Art. 11, Citizenship Act); Citizenship Act 1955 Secs. 9(2), 18 (indiacode.nic.in); app notes 2:7 sub 1
 === Single Citizenship – No Dual Citizenship
 - India: **single citizenship** and a **single domicile** for the Union and the States – allegiance only to the Union; **no separate State citizenship** (UPSC 2021: "one citizenship and one domicile" is the only correct statement).
 - **Source:** **Britain**; **Canada** also has single citizenship.
@@ -83,6 +74,28 @@
 - **Exempt:** **Sixth Schedule** tribal areas of Assam, Meghalaya, Mizoram, Tripura and **Inner Line Permit** areas.
 - **2026:** Citizenship (Amendment) Rules, 2026 – affidavit on any Pakistani, Afghan or Bangladeshi passport, **surrender within 15 days** of approval; **19 Aug 2026 MHA order** – applications in 8 States/UTs processed by **District Collectors**; challenge under **Art. 14** pending before a Bench under **CJI Surya Kant**.
 ~~ Sources: Indian_Polity Part 1 (src/polity/indian-polity-part1.txt) ch. Citizenship (2003 Amendment, OCI, CAA); nishithdesai.com dual-citizenship-for-persons-of-indian-origin-5843 and eparlib.nic.in (16 specified countries); app notes 2:7 sub 5-6
+=== Who Regulates Citizenship – Parliament (Art. 11)
+| Authority | Role |
+|---|---|
+| **Parliament (Art. 11)** | **Alone** legislates on and **prescribes conditions** for acquisition and termination → **Citizenship Act, 1955** |
+| **Central Government** (Home Ministry) | Administers the Act; **determines** questions of acquisition of foreign citizenship (**Sec. 9(2)**); frames Citizenship Rules (2009, amended 2026) under **Sec. 18**; deprives under Sec. 10 |
+| Election Commission | Checks citizenship only for electoral rolls (Art. 324, Art. 326 adult suffrage) |
+- **No power** to make citizenship law: **State Legislatures**, the **President**, the **Election Commission**, the Union Cabinet, the Supreme Court, the Law Commission.
+- "**Exclusive power of determining the issue of citizenship**" (CGPSC 2013) → **Central Government** (Sec. 9(2)); "**competent to prescribe conditions**" → **Parliament**.
+~~ Sources: NextGen Polity - APPSC Exams (full text) p.239-240 (Art. 11, Citizenship Act); Citizenship Act 1955 Secs. 9(2), 18 (indiacode.nic.in); app notes 2:7 sub 1
+=== NRI, PIO and OCI
+| Term | Meaning |
+|---|---|
+| **NRI** | **Indian citizen** ordinarily residing outside India; holds an Indian passport |
+| **PIO** | Foreign citizen who, or any of whose ancestors, was an Indian national; card merged into OCI (2015) |
+| **OCI** | Person **registered as an OCI Cardholder** under **Sec. 7A** of the Citizenship Act, 1955 |
+| Commonwealth citizen | Citizen of a member country of the Commonwealth of Nations |
+| Single citizenship | One citizenship for all of India |
+- **OCI eligible:** foreign citizens of Indian origin, their **children/minor children of Indian citizens**, **foreign-origin spouses** of Indian citizens or OCIs.
+- **OCI barred:** if the person, a **parent or grandparent** was a citizen of **Pakistan or Bangladesh** – so an Indian who migrated to Pakistan after Partition is not eligible.
+- **OCI gets:** **lifelong (multiple-entry) visa**; OCI card alone enough to enter India (since 2016). **Not:** voting, contesting elections, constitutional offices; OCIs are **not citizens**.
+- **2015 Amendment** did **not** give NRIs any new voting right; **2026 Rules:** e-OCI cards.
+~~ Sources: NextGen Polity - APPSC Exams (full text) p.243 (OCI and PIO merger); Indian_Polity Part 1 (src/polity/indian-polity-part1.txt) ch. Citizenship (OCI rights); app notes 2:7 sub 7
 === Loss of Citizenship – Three Modes
 | Mode | Section | How |
 |---|---|---|
@@ -98,19 +111,6 @@
 | 14A | National Register of Indian Citizens and national identity card |
 | 18 | Power to make Rules |
 ~~ Sources: NextGen Polity - APPSC Exams (full text) p.242-243; Indian_Polity Part 1 (src/polity/indian-polity-part1.txt) ch. Citizenship; app notes 2:7 sub 4
-=== NRI, PIO and OCI
-| Term | Meaning |
-|---|---|
-| **NRI** | **Indian citizen** ordinarily residing outside India; holds an Indian passport |
-| **PIO** | Foreign citizen who, or any of whose ancestors, was an Indian national; card merged into OCI (2015) |
-| **OCI** | Person **registered as an OCI Cardholder** under **Sec. 7A** of the Citizenship Act, 1955 |
-| Commonwealth citizen | Citizen of a member country of the Commonwealth of Nations |
-| Single citizenship | One citizenship for all of India |
-- **OCI eligible:** foreign citizens of Indian origin, their **children/minor children of Indian citizens**, **foreign-origin spouses** of Indian citizens or OCIs.
-- **OCI barred:** if the person, a **parent or grandparent** was a citizen of **Pakistan or Bangladesh** – so an Indian who migrated to Pakistan after Partition is not eligible.
-- **OCI gets:** **lifelong (multiple-entry) visa**; OCI card alone enough to enter India (since 2016). **Not:** voting, contesting elections, constitutional offices; OCIs are **not citizens**.
-- **2015 Amendment** did **not** give NRIs any new voting right; **2026 Rules:** e-OCI cards.
-~~ Sources: NextGen Polity - APPSC Exams (full text) p.243 (OCI and PIO merger); Indian_Polity Part 1 (src/polity/indian-polity-part1.txt) ch. Citizenship (OCI rights); app notes 2:7 sub 7
 === NRC, NPR and Proof of Citizenship
 - **NRC (Assam):** identifies **genuine citizens in Assam**; eligibility = names in the **NRC of 1951** or electoral rolls up to **24 March 1971** (cut-off of the **Assam Accord, 1985**); **draft NRC published for Assam** (2018). The **2019 CAA was not an NRC amendment** – the Accord was given effect by **Sec. 6A** (1985).
 - **NRC** (citizens only) is a **subset of the NPR** (all usual residents); Sec. **14A** of the Citizenship Act.

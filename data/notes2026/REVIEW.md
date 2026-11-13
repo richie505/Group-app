@@ -88,3 +88,8 @@
 - y41fd3c1d97f (CDS 2015) A → C — check official CDS-II 2015 key.
 - y966973564d1 → not paying minimum wages (Art. 23); "banning a book" tempting — check APPSC key.
 - y77ee1f27bd4 right to vote: UPSC 2017 official "constitutional right" kept; NextGen p.174 says statutory (own MCQ nd05298c39ba "statutory").
+
+## b1-r042 Indo-Greeks, Shakas, Kushanas, schools of art (92 PYQs, 4 keys changed)
+- ya439ab40535 Indo-Greek coins with Indian deities: Menander → Agathocles (Balarama, Vasudeva-Krishna; PMF).
+- y9819dfb2532 (APPSC G1 2024) Shaka-Kushana dress: II–V → all five incl. turban (PMF, R.S. Sharma); old trap "turban excluded – follow the key" withdrawn. Official key not found — check.
+- Kept with caveats: Kanishka 78 AD (modern ~127 CE); Badami Saka 465 = Vikrama 600 (option 601 nearest); oldest Buddha image Mathura; surkhi introduced by Kushans.
