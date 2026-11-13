@@ -107,6 +107,8 @@
 |---|---|
 | Stupa sites | Amaravati, Nagarjunakonda, **Bhattiprolu (oldest)**, Jaggayyapeta, Guntupalli, Salihundam |
 | Habitation mounds | Gudiwada Dibba (Mauryan to Satavahana), Kotilingala, **Kondapur (mint)**, Dharanikota |
+- Dharanikota is a habitation mound, not a listed stupa site.
+# Foreign accounts on Andhra
 | Writer | Period | Andhra places / facts |
 |---|---|---|
 | Megasthenes | 4th c. BCE, Mauryan | Andhras: 30 fortified towns |
@@ -114,5 +116,4 @@
 | Pliny | 1st c. CE | Roman gold drain to India |
 | Ptolemy | 2nd c. CE | Masulia (Machilipatnam), **Ben Ra (Vengi)** |
 | Hiuen Tsang | 7th c. CE (visited Dhanakataka, c. **639 CE**) | Buddhist monasteries of Andhra |
-- Dharanikota is a habitation mound, not a listed stupa site.
 ~~ Sources: NextGen AP HISTORY Part 1 p.8; app notes 1:1 (sub 0, 6, 8)

@@ -140,7 +140,7 @@
 | **315–323** | **Public Service Commissions** (320 = functions) |
 | **324** | **Election Commission** |
 | **326** | **Adult suffrage** (elections on the basis of adult suffrage) |
-| 330–334 | Reservation of seats – SCs, STs |
+| 330–334 | Reservation of seats – SCs, STs (and the Anglo-Indian nomination of Arts. 331/333, lapsed in Jan 2020 – 104th Amendment) |
 | **338** / 338A / 338B | **NCSC** / NCST / NCBC |
 | 340 | Commission for Backward Classes |
 | 343–351 | Official Language |

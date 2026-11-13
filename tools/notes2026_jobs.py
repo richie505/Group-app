@@ -481,6 +481,18 @@ def done_next(jid, book=None):
         print_prompt(nxt["id"])
 
 
+def start(book):
+    jobs = load_jobs()
+    st = {j["id"]: j["status"] for j in jobs}
+    for j in jobs:
+        if j["book"] == book and j["status"] == "todo" and st.get(j.get("after"), "done") == "done":
+            j["status"] = "running"
+            save_jobs(jobs)
+            prep(j["id"])
+            print_prompt(j["id"])
+            return
+
+
 def print_prompt(jid):
     j = get(jid)
     titles = dict(l.rstrip("\n").split("\t", 1) for l in open(f"{D}/rows-book{j['book']}.txt"))
@@ -493,7 +505,9 @@ def print_prompt(jid):
 
 if __name__ == "__main__":
     cmd = sys.argv[1]
-    if cmd == "prompt":
+    if cmd == "start":
+        start(int(sys.argv[2]))
+    elif cmd == "prompt":
         print_prompt(sys.argv[2])
     elif cmd == "done_next":
         done_next(*sys.argv[2:])
