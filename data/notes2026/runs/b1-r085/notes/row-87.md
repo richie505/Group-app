@@ -1,3 +1,14 @@
+=== Army and Navy
+- **Army:** **elephants, cavalry, infantry** (the three limbs) **and a navy** – **chariots were not part of it** (Police Constable 2016).
+- **Naval power:** the **Cholas** were the South Indian state famous for naval power (UPPSC 2004 ×2); **Rajaraja I** built the navy.
+| Term | Meaning |
+|---|---|
+| **Kaikkolar** | Royal infantry regiments |
+| **Velaikkarar** | Bodyguards sworn to die with the king |
+| **Kadagams** | Military cantonments |
+- Rajaraja I's navy destroyed the Chera fleet at **Trivandrum (Kandalur)**; Rajendra I's 1025 fleet took **Kadaram = Kedah**; the Bay of Bengal became a **"Chola Lake"**.
+~~ Sources: PMF Ancient & Medieval India p.406; NextGen Indian History - APPSC Exams 3 p.204; app notes 1:87 (sub 5)
+
 === Kingship and Chola Records
 - **Successor named in the king's lifetime:** the **Cholas** – the yuvaraja was made **co-regent** (UPPSC 2001); Rajendra I co-regent **1012**, king 1014.
 - **⚠ Trap:** "the successor was named only after the king's death" is false.
@@ -42,17 +53,6 @@
 - **Modern parallel:** **DILRMP** first phase ran **2008–2016**.
 ~~ Sources: PMF Ancient & Medieval India p.405-408, p.414; NextGen Indian History - APPSC Exams 3 p.205; app notes 1:87 (sub 3, 4)
 
-=== Army and Navy
-- **Army:** **elephants, cavalry, infantry** (the three limbs) **and a navy** – **chariots were not part of it** (Police Constable 2016).
-- **Naval power:** the **Cholas** were the South Indian state famous for naval power (UPPSC 2004 ×2); **Rajaraja I** built the navy.
-| Term | Meaning |
-|---|---|
-| **Kaikkolar** | Royal infantry regiments |
-| **Velaikkarar** | Bodyguards sworn to die with the king |
-| **Kadagams** | Military cantonments |
-- Rajaraja I's navy destroyed the Chera fleet at **Trivandrum (Kandalur)**; Rajendra I's 1025 fleet took **Kadaram = Kedah**; the Bay of Bengal became a **"Chola Lake"**.
-~~ Sources: PMF Ancient & Medieval India p.406; NextGen Indian History - APPSC Exams 3 p.204; app notes 1:87 (sub 5)
-
 === Officials and Provinces
 | Term | Meaning |
 |---|---|
@@ -75,6 +75,6 @@
 === Irrigation and the Temple
 - **Eri variyam:** managed village tanks and water distribution; repairs paid from **eripatti** land.
 - **Kallanai (Grand Anicut)** on the Kaveri = **Karikala** (Sangam); **tank irrigation** was a major feature of the Chola economy (also Vijayanagara, Kakatiyas).
-- **Araghatta:** Persian wheel used for irrigation in this period.
+- **Araghatta:** a water wheel with earthen pots tied to its rim, used for irrigation.
 - **Temple:** biggest landholder, employer and lender, and the **meeting place of the village assembly**; Rajaraja I made the Cholamandalam sabhas serve the **Brihadeeswara, Thanjavur**.
 ~~ Sources: PMF Ancient & Medieval India p.414; Rocket Indian History #89; app notes 1:87 (sub 6)

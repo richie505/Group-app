@@ -15,6 +15,14 @@
 > Statements (UPRO 2021): "four hands" ✓; "man's earring right, woman's left" ✓ → **both**.
 ~~ Sources: PMF Ancient & Medieval India p.421; NextGen Indian History - APPSC Exams 3 p.211 (OCR); app notes 1:89 (sub 2)
 
+=== Temple Life – Dance, Devadasis, Colleges
+- **Dance and music:** **Rajaraja I** appointed about **400 dancing girls** (with musicians and staff, paid by grants) at the Thanjavur temple; hymns of the Alvars and Nayanars sung in temples.
+- **Devadasis** ("female servants of God"): unmarried women dedicated to temple service, music and dance.
+- **Devadasis in the news (UPSC 1996 ×2):** the **Jagannath temple, Puri**, whose Devadasis (**Maharis**) served its rituals – not Pashupatinath, Kandariya Mahadev or Chausath Yogini.
+- **Vedic colleges:** Chola inscriptions record temple colleges at **Ennayiram** and **Tribhuvani** (near Pondicherry, South Arcot) (APPSC G2 2000; APPSC PYQ) – Chola, not Pallava or Pandya.
+- **Uttaramerur (Parantaka I):** important for the **kudavolai** election system.
+~~ Sources: NextGen Indian History - APPSC Exams 3 p.214-215 (OCR); PMF Ancient & Medieval India p.416; app notes 1:89 (sub 4)
+
 === Chola Temples and the Dravida Style
 - **Dravida style** = South India (APPSC G1 2008); reached its **peak under the Cholas**; continued under the Kalyani Chalukyas and Hoysalas.
 - "The **Pallavas laid the foundation**, the **Cholas** developed it on a monumental scale"; early Chola temples (**Vijayalaya's Narthamalai**, Pudukottai region) are of stone.
@@ -40,6 +48,7 @@
 | **Nagara** (north, from c. 5th c.) | Curvilinear **shikhara** | Khajuraho (Kandariya Mahadeva), Lingaraj |
 | **Dravida** | Pyramidal **vimana**, gopurams, prakara | Kailasanatha, Brihadeeswara |
 | **Vesara** | Hybrid; started by the **Badami Chalukyas** | Hoysala, Rashtrakuta temples |
+# Temple terms
 | Term | Meaning |
 |---|---|
 | **Garbhagriha** | Womb-house with the principal icon |
@@ -54,14 +63,6 @@
 - **Kapoteswara temple:** **Chejarla** (Palnadu district) – a Buddhist apsidal shrine, later Shaiva (APPSC Welfare 2017 ×2; APPSC PYQ) – not Nallajerla, Velpur, Srikakulam or Alampur.
 - **Draksharama Bhimeswara** = **Chalukya-Chola** style; **Padmakshi, Hanamkonda** = Kakatiya (not Pallava).
 ~~ Sources: PMF Ancient & Medieval India p.421; app notes 1:89 (sub 0); https://en.wikipedia.org/wiki/Kapoteswara_Temple,_Chejarla
-
-=== Temple Life – Dance, Devadasis, Colleges
-- **Dance and music:** **Rajaraja I** appointed about **400 dancing girls** (with musicians and staff, paid by grants) at the Thanjavur temple; hymns of the Alvars and Nayanars sung in temples.
-- **Devadasis** ("female servants of God"): unmarried women dedicated to temple service, music and dance.
-- **Devadasis in the news (UPSC 1996 ×2):** the **Jagannath temple, Puri**, whose Devadasis (**Maharis**) served its rituals – not Pashupatinath, Kandariya Mahadev or Chausath Yogini.
-- **Vedic colleges:** Chola inscriptions record temple colleges at **Ennayiram** and **Tribhuvani** (near Pondicherry, South Arcot) (APPSC G2 2000; APPSC PYQ) – Chola, not Pallava or Pandya.
-- **Uttaramerur (Parantaka I):** important for the **kudavolai** election system.
-~~ Sources: NextGen Indian History - APPSC Exams 3 p.214-215 (OCR); PMF Ancient & Medieval India p.416; app notes 1:89 (sub 4)
 
 === Tamil Literature
 | Work | Author |

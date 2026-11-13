@@ -22,6 +22,30 @@
 - **Firsts:** the Imperial Cholas were the **first Indian power to carry out overseas naval campaigns**; their contacts spread **Dravidian art** to South-East Asia.
 ~~ Sources: PMF Ancient & Medieval India p.403-405; Rocket Indian History #1, #11; app notes 1:85 (sub 3, 4)
 
+=== Chola–Eastern Chalukya Marriages and the Chalukya-Chola Line
+# Marriages
+| Chola princess | Father | Husband (Eastern Chalukya) |
+|---|---|---|
+| **Kundavai** | **Rajaraja I** | **Vimaladitya** – not Saktivarman |
+| **Ammanga Devi** | **Rajendra I** | **Rajaraja Narendra** (1019–1061), married 16 Aug 1022 |
+| **Madhurantaki** | **Rajendra II** | **Rajendra Chalukya = Kulottunga I** |
+- **Vimaladitya's father-in-law:** **Rajaraja I** (APSLPRB SI 2019 ×2).
+- **Rajaraja Narendra's wife:** **Ammanga Devi** (APPSC PYQ); their son = **Rajendra Chalukya (Kulottunga I)**.
+- **Statements PYQ (G2):** "Saktivarma married Kundavai" ✗; the other two ✓ → **only I incorrect**.
+- **Saktivarman I:** Vimaladitya's elder brother; ruled Vengi with Rajaraja I's help after **Jatachoda Bhima** was ousted (1002).
+# Kulottunga I – the first Chalukya-Chola
+- **First Chalukya-Chola king:** **Kulottunga I** (G2 2011 ×2; G2 2012; APPSC PYQ) – not Rajaraja Narendra, Rajendra I, Rajadhiraja or Vijayalaya.
+- **Born:** **Rajendra Chalukya** (counted as **Rajendra II** of Vengi), son of Rajaraja Narendra and Ammanga Devi; took the Chola throne in **1070** as Kulottunga (CDS 2001).
+- **1075:** after **Vijayaditya VII** (last Eastern Chalukya) died, he **merged Vengi** with the Chola state – uniting Tamil and Andhra kingdoms.
+- **Vengi viceroys:** his sons, titled **Rajapratinidhi** – Rajaraja (Mummadi Chola; commander **Gonka I**; installed **Anantavarman Chodaganga** in Kalinga), Vira Chola, Rajaraja Chola Ganga (crowned at **Jananathapura = Draksharama**; **Tekkali** inscription).
+- **Last Chalukya-Chola ruler in Vengi:** **Parantaka Chola**; then the **Mandalika Yugam** (**1076 to c. 1210**).
+# Kulottunga I's reign
+- **China:** sent **72 merchants** to China in **1077** (UPPSC 1992).
+- **Sri Lanka:** **Vijayabahu I** made the island independent; Kulottunga accepted it and married his daughter to the Sinhala prince **Virapperumal** (UPPSC 2012).
+- **Kalinga war:** sung in **Jayamkondar's Kalingattuparani**; abolished tolls (**Sungam Tavirtta**).
+- **Decline after him:** weakening central bureaucracy, growth of **local chieftains**, rise of the Pandyas.
+~~ Sources: NextGen AP History 06 (Eastern Chalukyas) l.927-1121; PMF Ancient & Medieval India p.405; app notes 1:85 (sub 7, 8, 9)
+
 === Founder, Succession and Extent
 # Founder
 - **Founder:** **Vijayalaya**, a **Pallava feudatory at Uraiyur**, captured **Thanjavur** from the **Muttaraiyars** in **850 CE** and founded the imperial line (9th century) (RAS 2016; APPSC G1).
@@ -49,23 +73,8 @@
 - **Extent:** the **Coromandel Coast** and parts of the Deccan (Tungabhadra–Krishna) (UPPSC 1991).
 - **Coromandel** comes from **Cholamandalam**; Tondaimandalam was the Pallava country.
 - **Capital:** **Tanjore (Thanjavur)** from Vijayalaya; later **Gangaikondacholapuram** (Rajendra I). **Uraiyur** = earliest (Sangam) Chola capital; Kaveripattinam (Puhar) = Sangam port (U.P. Lower 2009).
+- **Granary of South India:** **Thanjavur** in the Kaveri delta (WBCS 2020).
 ~~ Sources: PMF Ancient & Medieval India p.403-405; Rocket Indian History #4, #11, #18; app notes 1:85 (sub 0, 1)
-
-=== Titles → Ruler
-| Title | Ruler | Why |
-|---|---|---|
-| **Maduraikonda** (Madurantaka) | **Parantaka I** | Captured Madurai (Pandyas) |
-| **Mummudi Chola**, Ulakalanda Perumal | **Rajaraja I** | "Three-crowned"; measured the earth (land survey) |
-| **Gangaikonda Chola** | **Rajendra I** | Ganga expedition (1022) – beat the Pala **Mahipala I** |
-| **Kadaram Kondan**, **Mudikonda**, **Pandita Chola** | **Rajendra I** | Kadaram (Kedah); crowned Chola; scholar |
-| Yanai-mel-thunjina Devar | Rajadhiraja I | Died on an elephant at Koppam |
-| Sungam Tavirtta Chola | Kulottunga I | Abolished tolls |
-| Vengi Purveshwara | Someshvara I (Western Chalukya) | Taken after Koppam – not a Chola title |
-- **Gangaikonda Chola:** **Rajendra I** (WBCS 2018) – "Victor of the Ganges" is not Aditya I or Vijayalaya.
-- **Conqueror of Bengal:** **Rajendra I** – the 1022 northern campaign crossed the Ganga and defeated Mahipala I (WBCS 2007).
-- **Rajendra I's titles (G2 2000):** Gangaikonda **and** Kadaram Kondan are both his; Singalantaka and Telinga-kula-kala belong to **Rajaraja I**.
-- **Not his title:** **Tyagasamudra** is not among Rajendra I's titles (SSC 2006).
-~~ Sources: PMF Ancient & Medieval India p.403-404; Rocket Indian History #11; Rocket Indian History #96; app notes 1:85 (sub 2)
 
 === Capitals and Constructions → Builder
 | Construction | Builder |
@@ -83,29 +92,21 @@
 - **Visakhapatnam built by:** **Kulottunga Chola** (APPSC AP History PYQ) – not Arikesari II, Narasimha II or Pandurangadu.
 ~~ Sources: PMF Ancient & Medieval India p.404, p.420; Rocket Indian History #75, #86; NextGen AP History 06 (Eastern Chalukyas); app notes 1:85 (sub 5)
 
-=== Chola–Eastern Chalukya Marriages and the Chalukya-Chola Line
-# Marriages
-| Chola princess | Father | Husband (Eastern Chalukya) |
+=== Titles → Ruler
+| Title | Ruler | Why |
 |---|---|---|
-| **Kundavai** | **Rajaraja I** | **Vimaladitya** – not Saktivarman |
-| **Ammanga Devi** | **Rajendra I** | **Rajaraja Narendra** (1019–1061), married 16 Aug 1022 |
-| **Madhurantaki** | **Rajendra II** | **Rajendra Chalukya = Kulottunga I** |
-- **Vimaladitya's father-in-law:** **Rajaraja I** (APSLPRB SI 2019 ×2).
-- **Rajaraja Narendra's wife:** **Ammanga Devi** (APPSC PYQ); their son = **Rajendra Chalukya (Kulottunga I)**.
-- **Statements PYQ (G2):** "Saktivarma married Kundavai" ✗; the other two ✓ → **only I incorrect**.
-- **Saktivarman I:** Vimaladitya's elder brother; ruled Vengi with Rajaraja I's help after **Jatachoda Bhima** was ousted (1002).
-# Kulottunga I – the first Chalukya-Chola
-- **First Chalukya-Chola king:** **Kulottunga I** (G2 2011 ×2; G2 2012; APPSC PYQ) – not Rajaraja Narendra, Rajendra I, Rajadhiraja or Vijayalaya.
-- **Born:** **Rajendra Chalukya** (counted as **Rajendra II** of Vengi), son of Rajaraja Narendra and Ammanga Devi; took the Chola throne in **1070** as Kulottunga (CDS 2001).
-- **1075:** after **Vijayaditya VII** (last Eastern Chalukya) died, he **merged Vengi** with the Chola state – uniting Tamil and Andhra kingdoms.
-- **Vengi viceroys:** his sons, titled **Rajapratinidhi** – Rajaraja (Mummadi Chola; commander **Gonka I**; installed **Anantavarman Chodaganga** in Kalinga), Vira Chola, Rajaraja Chola Ganga (crowned at **Jananathapura = Draksharama**; **Tekkali** inscription).
-- **Last Chalukya-Chola ruler in Vengi:** **Parantaka Chola**; then the **Mandalika Yugam** (**1076 to c. 1210**).
-# Kulottunga I's reign
-- **China:** sent **72 merchants** to China in **1077** (UPPSC 1992).
-- **Sri Lanka:** **Vijayabahu I** made the island independent; Kulottunga accepted it and married his daughter to the Sinhala prince **Virapperumal** (UPPSC 2012).
-- **Kalinga war:** sung in **Jayamkondar's Kalingattuparani**; abolished tolls (**Sungam Tavirtta**).
-- **Decline after him:** weakening central bureaucracy, growth of **local chieftains**, rise of the Pandyas.
-~~ Sources: NextGen AP History 06 (Eastern Chalukyas) l.927-1121; PMF Ancient & Medieval India p.405; app notes 1:85 (sub 7, 8, 9)
+| **Maduraikonda** (Madurantaka) | **Parantaka I** | Captured Madurai (Pandyas) |
+| **Mummudi Chola**, Ulakalanda Perumal | **Rajaraja I** | "Three-crowned"; measured the earth (land survey) |
+| **Gangaikonda Chola** | **Rajendra I** | Ganga expedition (1022) – beat the Pala **Mahipala I** |
+| **Kadaram Kondan**, **Mudikonda**, **Pandita Chola** | **Rajendra I** | Kadaram (Kedah); crowned Chola; scholar |
+| Yanai-mel-thunjina Devar | Rajadhiraja I | Died on an elephant at Koppam |
+| Sungam Tavirtta Chola | Kulottunga I | Abolished tolls |
+| Vengi Purveshwara | Someshvara I (Western Chalukya) | Taken after Koppam – not a Chola title |
+- **Gangaikonda Chola:** **Rajendra I** (WBCS 2018) – "Victor of the Ganges" is not Aditya I or Vijayalaya.
+- **Conqueror of Bengal:** **Rajendra I** – the 1022 northern campaign crossed the Ganga and defeated Mahipala I (WBCS 2007).
+- **Rajendra I's titles (G2 2000):** Gangaikonda **and** Kadaram Kondan are both his; Singalantaka and Telinga-kula-kala belong to **Rajaraja I**.
+- **Not his title:** **Tyagasamudra** is not among Rajendra I's titles (SSC 2006).
+~~ Sources: PMF Ancient & Medieval India p.403-404; Rocket Indian History #11; Rocket Indian History #96; app notes 1:85 (sub 2)
 
 === Battles and the Struggle for Vengi
 | Battle | Sides | Result |

@@ -16,6 +16,11 @@
 - Eastern Chalukya **Nakaras** were headed by **Shreshthis**; **Tagara** = trade centre between Kalyan and Vengi.
 ~~ Sources: NextGen Indian History - APPSC Exams 3 p.204; app notes 1:88 (sub 0); https://en.wikipedia.org/wiki/Manigramam
 
+=== Temple Economy and the Chudamani Vihara
+- **Donations to temples:** **land, money and livestock** (cows, sheep for lamps), guild gifts and royal grants of paddy – **slaves** were not a donation category (CDS 2008).
+- **Chudamani Vihara, Nagapattinam:** Buddhist vihara built (**1006**) by the Srivijaya king **Sri Mara Vijayottunga Varman**; Rajaraja I granted it Anaimangalam village.
+~~ Sources: NCERT Class VII Our Pasts-II ch.2; app notes 1:88 (sub 5)
+
 === Overseas Trade – China, Srivijaya, Ports
 - **China:** Chola embassies reached the **Song** court in **1015** and **1033**; **Kulottunga I** sent **72 merchants** in **1077**.
 - **Srivijaya:** friendly at first (Chudamani Vihara) → hostile under **Rajendra I** over the China route (1025).
@@ -33,8 +38,3 @@
 |---|---|
 | Textiles, **pepper**, spices, precious stones | **Horses**, Chinese silk, porcelain, camphor |
 ~~ Sources: PMF Ancient & Medieval India p.405, p.414; app notes 1:88 (sub 1-4)
-
-=== Temple Economy and the Chudamani Vihara
-- **Donations to temples:** **land, money and livestock** (cows, sheep for lamps), guild gifts and royal grants of paddy – **slaves** were not a donation category (CDS 2008).
-- **Chudamani Vihara, Nagapattinam:** Buddhist vihara built (**1006**) by the Srivijaya king **Sri Mara Vijayottunga Varman**; Rajaraja I granted it Anaimangalam village.
-~~ Sources: NCERT Class VII Our Pasts-II ch.2; app notes 1:88 (sub 5)

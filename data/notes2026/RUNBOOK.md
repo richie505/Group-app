@@ -2,7 +2,7 @@
 
 You are a Claude Code helper doing ONE job. The owner's method was proven on the Satavahanas pilot
 (`data/notes2026/pilot/`, read `PILOT.md`; the pilot's files are your worked example of every output). Never use the
-Anthropic API. Do not edit `app/`, do not commit, do not touch other jobs' folders. Work only in your run folder
+Anthropic API. Do not edit `app/`, do not commit, do not touch other jobs' folders. Keep every scratch file (scripts, drafts) in `data/notes2026/runs/<job>/work/`, never in a shared scratchpad. Work only in your run folder
 `data/notes2026/runs/<job>/` (it already holds `meta.json`, `pyqs.json`, `all-mcqs.json`, `old-notes.txt`).
 
 Sources: `data/notes2026/src/INDEX.md` lists the local text library built from the owner's Drive (PDF + .txt per

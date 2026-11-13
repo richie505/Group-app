@@ -61,7 +61,7 @@
 # The Ayodhya claim (G2 Mains 2025)
 - **Incorrect statement (official final key):** "In their inscriptions, the Ikshvakus of Vijayapuri described themselves as descendants of the **Ikshvakus of Ayodhya**."
 - **True statements in the same question:** Puranas call them **Sri Parvathiyas**; matrimonial ties with the **Sakas / Western Satraps of Ujjain**; **Virapurushadatta's** reign = golden age of Buddhism in Andhra.
-- The Ayodhya link comes from later texts (Ramayana, Puranas, the Kannada Jain *Dharmamrita* of Nyayasena), not from a clear claim in the Vijayapuri records.
+- The **Ayodhya** link comes from texts (Ramayana, Puranas, the Kannada Jain *Dharmamrita* of Nyayasena); the Vijayapuri records use the Ikshvaku name (a record of Ehuvala traces him to the legendary Ikshvakus) but do not name Ayodhya – hence the key.
 ~~ Sources: NextGen Ikshvakus p.1, p.8, p.10; APPSC G2 Mains 2025 Paper 1 final key (Q3, Series A, https://bloomappsc.com/documents/G2_MAINS_2025_P1_SeriesA_FINAL_KEY.pdf); https://en.wikipedia.org/wiki/Andhra_Ikshvaku
 
 === Marriage Alliances
