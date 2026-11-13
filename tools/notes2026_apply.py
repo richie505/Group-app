@@ -93,23 +93,26 @@ def apply(run):
         for s in secs:
             s["p"] = p
         old["secs"] = secs
-        qs, subs = m["rows"][str(r)], m["subs"][str(r)]
-        placed = []
-        for q, s_old in zip(qs, subs):
+    # every MCQ of the rebuilt rows goes to the row and sub-section the mapping names (a move between these rows is
+    # allowed when another row's notes answer it); PYQs first within a sub-section
+    placed = {r: [] for r in new}
+    for r in new:
+        for q in m["rows"][str(r)]:
             if not isinstance(q, dict):
                 continue
             mp = mapping.get(q["id"])
+            tr, sub = r, len(new[r]) - 1
             if mp is None:
                 problems.append(f"{q['id']}: not mapped")
-                sub = len(secs) - 1
             else:
+                tr = int(mp.get("row", r)) if int(mp.get("row", r)) in new else r
                 sub = int(mp["sub"])
-                if not 0 <= sub < len(secs):
-                    problems.append(f"{q['id']}: sub {sub} out of range")
-                    sub = len(secs) - 1
-                refs = [x for x in mp.get("lines", []) if line_ok(secs, x)]
+                if not 0 <= sub < len(new[tr]):
+                    problems.append(f"{q['id']}: sub {sub} out of range for row {tr}")
+                    sub = len(new[tr]) - 1
+                refs = [x for x in mp.get("lines", []) if line_ok(new[tr], x)]
                 if refs:
-                    links[q["id"]] = [f"{BOOK}:{r}:{x}" for x in refs[:3]]
+                    links[q["id"]] = [f"{BOOK}:{tr}:{x}" for x in refs[:3]]
                 else:
                     links.pop(q["id"], None)
             k = keys.get(q["id"])
@@ -118,21 +121,27 @@ def apply(run):
                     q["at"] = k.get("at") or q.get("at", "")
                 elif isinstance(k.get("a"), int) and -1 <= k["a"] < len(q["o"]):
                     q["a"] = k["a"]
-                    if k["a"] >= 0:
+                    if k["a"] >= 0 and q.get("k") == "u":
                         q.pop("k", None)
                 xx = (k.get("outdated", "").strip() + "\n" if k.get("outdated") else "") + k.get("x", "").strip()
                 if xx.strip():
                     q["x"] = xx.strip()
                     q.pop("xs", None)
                     q.pop("xa", None)
-            placed.append((sub, q))
-        pyq_first = lambda t: (t[0], 0 if t[1]["id"].startswith("y") else 1)
-        placed.sort(key=pyq_first)
-        m["rows"][str(r)] = [q for _, q in placed]
-        m["subs"][str(r)] = [s for s, _ in placed]
+            placed[tr].append((sub, q))
+    idx = json.load(open(f"{A}/index.json"))
+    irows = idx["books"][BOOK - 1]["rows"]
+    for r, lst in placed.items():
+        lst.sort(key=lambda t: (t[0], 0 if t[1]["id"].startswith("y") else 1))
+        m["rows"][str(r)] = [q for _, q in lst]
+        m["subs"][str(r)] = [s for s, _ in lst]
+        irows[r]["q"] = len(lst)
+    open(f"{A}/index.json", "w").write(json.dumps(idx, ensure_ascii=False, separators=(",", ":")))
     json.dump(bk, open(f"{A}/book{BOOK}.json", "w"), ensure_ascii=False, separators=(",", ":"))
     json.dump(m, open(f"{A}/mcq{BOOK}.json", "w"), ensure_ascii=False, separators=(",", ":"))
     json.dump(links, open(f"{A}/notelinks.json", "w"), ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+    import subprocess
+    subprocess.run([sys.executable, "tools/build_plan_mcq.py", A], check=True)
     print(f"rows {sorted(new)} replaced; {len(mapping)} MCQs mapped; {len(keys)} PYQ keys applied; problems: {len(problems)}")
     for p in problems[:20]:
         print("  ", p)
