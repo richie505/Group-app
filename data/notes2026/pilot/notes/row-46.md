@@ -99,7 +99,7 @@
 - **Last king (Puranas):** **Pulomavi III**, the 30th (G2 2011 ×2); Sivasri, Vijayasri, Chandrasri are distractors.
 - **⚠ Trap:** the APPSC 2011 key printed **Chandasri**, but the Matsya list ends with Pulomavi; our key is Pulomavi III. Rocket numbers the Myakadoni king "Pulumavi IV".
 # End of the dynasty
-- **Fall:** the Ikshvaku **Santamula** overthrew Pulomavi III (c. AD 225-230) and took Dharanikota and Nagarjunakonda; Pulomavi III spent his last days at **Myakadoni** (Bellary).
+- **Fall:** the Ikshvaku **Santamula (Srisantamula)** overthrew Pulomavi III (c. AD 225-230) and took Dharanikota and Nagarjunakonda; Pulomavi III spent his last days at **Myakadoni** (Bellary).
 > A-R angle: "Dynasty ended in the mid-3rd century CE" ✓; "break-up paved the way for the Ikshvakus" ✓ – but R is a result, not the cause → both true, R not the explanation.
 ~~ Sources: NextGen Satavahanas p.5-11; Rocket AP History p.5; app notes 1:46 (sub 2, 3)
 
@@ -170,7 +170,7 @@
 | Periplus (anonymous Greek) | Saka–Satavahana conflict; Koddura the only east-coast port; Arikamedu |
 | Ptolemy | Geography; Pulumavi vs Chashtana; Maisolia a great market |
 - **⚠ Sources differ:** NextGen: Megasthenes gives the Andhras "30 forts and one lakh infantry"; app notes: Pliny's army figures.
-  - Settled: Pliny, quoting Megasthenes, gives **30 walled towns, 1,00,000 infantry, 2,000 cavalry, 1,000 elephants** (https://www.philipharland.com/Blog/2023/06/indians-taprobanians-and-serians-pliny-the-elder-on-peoples-and-customs-in-india-and-beyond-first-century-ce/).
+  - Settled: Pliny quoting Megasthenes – **30 walled towns, 1,00,000 foot, 2,000 horse, 1,000 elephants** (https://www.philipharland.com/Blog/2023/06/indians-taprobanians-and-serians-pliny-the-elder-on-peoples-and-customs-in-india-and-beyond-first-century-ce/)
 ~~ Sources: NextGen Satavahanas p.3-5, p.7; app notes 1:46 (sub 2); https://en.wikipedia.org/wiki/Hathigumpha_inscription
 
 === Other Inscriptions – Issuer and Findspot

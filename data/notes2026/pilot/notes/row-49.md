@@ -26,6 +26,7 @@
 - **Ikshvakus:** Vedic themselves but **great supporters of Buddhism** (Social & Cultural History); Virapurushadatta's reign = golden age of Buddhism.
 > Statement angle (Welfare Officers): Satavahanas and Ikshvakus gave to Hindu (Brahmanical) cults and to Buddhist monks ✓; both claim Shrauta (Vedic) sacrifices ✓; "Satavahanas gave only to Hindu temples" ✗ → "1 and 2".
 - **Donors:** queens, merchants and common people; **Gautami Balasri** gave the Nasik cave vihara to the **Bhadrayaniya** sect; Pulomavi II gave a village to Mahasanghika monks at Karle.
+- **Guild support:** guilds at Nasik, Junnar and Kanheri held money on deposit and paid the interest to monks.
 | Patron | Religion |
 |---|---|
 | Satavahana rulers | Vedic religion |
@@ -51,7 +52,7 @@
 - **⚠ Trap:** **Kielhorn** identified Sri Parvataswamy with Mallikarjuna of Srisailam; another key named Kielhorn – follow G2 2019.
 - **First Buddhist acharya in Andhra:** **Mahadeva Bhikshu**, founder of **Chaityakavada** (worship of chaityas).
 - **Mahasanghika:** main centre **Dhanyakataka**; followers called Mahasanghis or Chaityakas. **Bhadrayaniya** sect: Nasik.
-- **Arrival:** Buddhism reached Andhra in the **6th century BC**; Tibetan tradition – the Buddha preached at Amaravati at king Subendran's request.
+- **Arrival:** Buddhism reached Andhra in the **6th century BC**; "Andhra Buddhism" held the **Pratitya Samutpada** doctrine; Tibetan tradition – the Buddha preached at Amaravati at king Subendran's request.
 ~~ Sources: NextGen Satavahanas p.28-29; Rocket AP History p.8; app notes 1:49 (sub 3)
 
 === Jainism – Kundakundacharya
@@ -66,6 +67,6 @@
 - **Deities invoked at Naneghat:** Indra, Vasudeva, Sankarshana, Surya, Chandra, Yama, Varuna (NextGen p.24 also lists Agni).
 - **Yajna-performing kings:** Satakarni I, Satakarni II, Gautamiputra, Yajnasri; the names **Vedasri** and **Yajnasri** show Vedic faith.
 > A-R angle (Welfare Officers): "Satavahanas performed the Ashvamedha to legitimise power" ✓; "they patronised both Brahmanas and Buddhists" ✓ – but R does not explain A.
-- **Bhagavata religion:** founded on Krishna-Vasudeva, centred at Mathura; entered Andhra under **Kanha (Krishna)**, the 2nd king; called the "Vasudeva religion" by Hala's time.
+- **Bhagavata religion:** founded on Krishna-Vasudeva (a Vrishni of Mathura; disciple of **Ghor Angirasa** in the Chhandogya Upanishad); entered Andhra under **Kanha (Krishna)**, the 2nd king; called the "Vasudeva religion" by Hala's time.
 - **Symbols:** Bhagavata symbols on Gautamiputra's inscriptions; Nasik calls him **Agama-nilaya**.
 ~~ Sources: NextGen Satavahanas p.7-8, p.24-25; app notes 1:49 (sub 1, 2)

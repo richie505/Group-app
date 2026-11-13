@@ -2,7 +2,7 @@
 - **Compiler:** the Satavahana king **Hala** (17th king, ruled 5 years), himself a poet – the most repeated fact of the topic (G2-A 1984, G2-B 1989, G2-A 1991, G2 2008 ×2; Welfare Officers 2017 ×2; APPSC PYQ ×5).
 - **Distractors:** Gunadhya, Sarvavarma, Kuntala Satakarni, Shudraka, Pulomavi, Lilavati, Rudramadevi, Yajnasri.
 - **Work:** **Gathasaptasati** (Sattasai) – **700** Prakrit gathas, in **Maharashtri Prakrit**.
-- **Themes:** **love and romance**, rural life and nature (G2 PYQ statement ✓).
+- **Themes:** **love and romance**, rural life and nature (G2 PYQ statement ✓); first work to cover all the **Navarasas**.
 - **Women poets:** **Anulakshmi, Anupalabdha (Anupamalabdha), Reva (Revati), Madhavi** – the text "containing writing by women" (G2 PYQ; APPSC PYQ); not Brihatkatha, Kamasutra or Lilavati.
 - **Religion in it:** opens with a prayer to **Shiva**, ends with a Gauri stotra; names Gauri, Indra, Ganesha; Radha-Krishna stories.
 - **Social picture:** sugar and jaggery, hanging of criminals, sati, no child marriage, prostitution, group dances, plight of wives of seafaring merchants.
@@ -14,7 +14,7 @@
 ~~ Sources: NextGen Satavahanas p.1-2, p.9, p.23; Rocket AP History p.9, p.52; app notes 1:47 (sub 10)
 
 === Guilds (Srenis) and Guild Banking
-- **Shreni:** guild of traders or artisans of one craft; fixed work rules, **quality and prices**, controlled its members' conduct; head = **Shreshthi (Setti)**.
+- **Shreni:** guild of traders or artisans of one craft; fixed work rules, **quality and prices**, controlled its members' conduct; head = **Shreshthi (Sethi / Setti)**.
 - **⚠ Trap:** guilds existed in **north and south** India – "prevalent only in northern India" is the untrue statement (State PSC).
 - **Number:** **18** guilds in Satavahana records; they later hardened into castes.
 | Guild | Members |
@@ -42,7 +42,7 @@
 | Work | Author | Note |
 |---|---|---|
 | **Katantra Vyakaranam** | **Sarvavarma (Sharvavarma)** | Short **Sanskrit** grammar, for Kuntala Satakarni |
-| **Brihatkatha** | **Gunadhya** | **Paishachi** Prakrit; lost; source of Kathasaritsagara |
+| **Brihatkatha** | **Gunadhya** | **Paishachi** Prakrit; seven stories; lost; source of Kathasaritsagara |
 | **Lilavati Parinayam** | **Kutuhala** | Prakrit; Hala marries Lilavati at Draksharama |
 | **Prajnaparamita Shastra** | **Acharya Nagarjuna** | Sanskrit; foundation text of Mahayana |
 | **Samayasara** | **Kundakundacharya** | Jain treatise |
@@ -87,6 +87,9 @@
 | Mahatalavara | Commander of border provinces |
 | Akshapatala | Secretariat; kept the king's orders |
 | Mahadharmika / Mahaaryaka | Religious-educational / legal disputes |
+| Visvamaatyulu / Rajaamatyas | Consulted on important decisions / advisers |
+| Rajjugahaka / Pradeshika | Land surveyor / police |
+| Akshapatakas | Kept records of the king's orders |
 - **⚠ Trap:** Mahataraka, Dhutaka, Pratihari, Patlika-palaka are distractors for treasurer and archivist.
 ~~ Sources: NextGen Satavahanas p.12-13; Rocket AP History p.15, p.49; app notes 1:47 (sub 1)
 
@@ -114,13 +117,14 @@
 - **Simuka's coins:** mostly at **Kotilingala** (Karimnagar), legend "Siri Chimuka Sata"; also Kondapur (Medak) (Asst Social Welfare); Dhulikatta is a distractor.
 > A-R angle (Welfare Officers): "Coins are a crucial source" ✓; "Satakarni's coins show only religious symbols, no portraits" ✗ – they carry elephant, horse, lion and the Ujjain symbol, and portrait coins began with Gautamiputra.
 - **Jogalthambi:** Nahapana's silver coins restruck by Gautamiputra.
+- **Portrait coins:** an indigenous innovation, beginning with Gautamiputra.
 - **Bilingual silver:** Vasishthiputra Satakarni – Prakrit + a Dravidian language.
 ~~ Sources: NextGen Satavahanas p.10, p.19-21; Rocket AP History p.14, p.19; app notes 1:47 (sub 7); https://iaspoint.com/satavahana-coinage/
 
 === Trade, Ports and Roman Contact
 | Coast | Ports (Satavahana period) |
 |---|---|
-| West | **Sopara (Shurparaka)**, Bharukachha (Broach / Barygaza), Kalyan |
+| West | **Sopara (Shurparaka)**, Bharukachha (Bharuch / Broach; Greek Barygaza), Kalyan |
 | East | **Maisolia (Machilipatnam)**, Kantakossyla (Ghantasala), Koddura (Gudur, Krishna), Arikamedu (Puducherry) |
 - **Western port:** **Sopara** – in the Satavahanas' Konkan heartland (G2-A 1984, owner's key).
 - **⚠ Trap:** Broach was often in Western Kshatrapa hands — exams mark Sopara as the Satavahana western port; Broach came under the Satavahanas only after Nahapana's defeat, and Kalyan was the main port before it.
@@ -132,7 +136,10 @@
 # Evidence of sea trade
 - **All three testify:** the **Periplus**, **Roman coins** found in Andhra-Telangana, and the **ship coins** of Pulomavi and Yajnasri (Welfare Officers Mains).
 - **Roman objects found most in India:** **coins** (IAS 1999) – Bhattiprolu, Nagarjunakonda, Attirala, Salihundam, Vijayawada, Vinukonda, Nellore.
-- **Pliny:** Roman gold drained to India for fine cloth (mallasella, muslin).
+- **Pliny:** Roman gold drained to India for fine cloth (mallasella, muslin) – about 12.5 million denarii a year.
+- **Arikamedu:** the Periplus' "market street of the Romans" (near Puducherry).
+- **Exports / imports:** muslin, spices, pearls, diamonds, ivory out; gold (Malaya, Sumatra), wine (Italy, Arabia), silk and camphor (China) in.
+- **Inland route:** Ujjain → Bharuch via **Paithan and Tagara**; the Satavahanas were famed road builders ("Mahapatha nirmatalu").
 - **Reach:** Rome, and the eastern islands – Siam, Java, Borneo.
 > A-R angle (G2 PYQ): "Trade with Rome flourished after the Satavahanas" ✗ (it peaked under them and declined); "no ruler issued ship-motif coins after them" ✓.
 ~~ Sources: NextGen Satavahanas p.3-4, p.19-21; Rocket AP History p.13-14, p.41; app notes 1:47 (sub 5, 6); https://en.wikipedia.org/wiki/Kalyan; https://en.wikipedia.org/wiki/Motupalli
@@ -142,14 +149,14 @@
 - **First tax-free land grants:** to **Brahmanas and Buddhist monks** – by the **Satavahanas** (Deputy screening 2023; Welfare Officers) – not Parthians, Kushanas, Shakas, Guptas, Mauryas or Ikshvakus.
 - **Satakarni I:** gave tax-free land, cows and gold to Brahmanas (Naneghat); granted land could not be entered by royal officers.
 - **Other dues:** Karukara (artisans' and professionals' tax), Kara, Sulka (water tax), Deya-meya (king's share in kind).
-- **Vetti:** forced unpaid labour; also the term for the exploitation of village servant castes by **feudal lords in Telangana** (Social Structure 2016).
+- **Vetti:** forced unpaid labour; with hereditary village headships it fed the growth of **feudalism**; also the term for the exploitation of village servant castes by **feudal lords in Telangana** (Social Structure 2016).
 - **⚠ Trap:** **Moturpha** was a **British** tax on trades and occupations (looms) in Andhra, not Satavahana; and the British salt monopoly did apply in Andhra (A ✓, R ✗; Welfare Officers).
 - **Nivartana:** land unit, about 1.5 acres.
 ~~ Sources: NextGen Satavahanas p.7, p.16-17; Rocket AP History p.48; app notes 1:47 (sub 3)
 
 === Society and Women
 - **G2 2008 statement:** kings followed Hinduism (Vedic), some queens patronised Buddhism ✓; **chaturvarna** existed ✓; shipping developed ✓; "**women were looked down upon**" ✗.
-- **Women respected:** joined festivals, donated to viharas, issued inscriptions; titles Maharathini, Mahabhoji, Mahasenapatni.
+- **Women respected:** matronymics; joined festivals, donated to viharas, issued inscriptions; titles Maharathini, Mahabhoji, Mahasenapatni.
 - **Patriarchal:** **both family and kingship** were patriarchal (G2 2011; APPSC PYQ); joint families.
 # Four status classes
 | Class | Members |
@@ -174,5 +181,5 @@
 - **⚠ Trap:** **Mahajanapadas** were NOT Satavahana feudal chiefs (Social & Cultural History).
 - **Kataka:** permanent garrison; **Skandhavara:** temporary camp.
 - **Meaning together:** **military camps and settlements** that served as **administrative centres** when the king was present (G1 2024; JA NTR UHS); not monks' tax-free villages, rock-cut areas or paddy lands.
-- **Army:** chaturanga bala (Hathigumpha); battle order in the Amaravati sculptures.
+- **Army:** chaturanga bala (Hathigumpha); Amaravati sculptures show infantry in front, cavalry and elephants on the flanks, archers at the rear.
 ~~ Sources: NextGen Satavahanas p.12-14; app notes 1:47 (sub 2)

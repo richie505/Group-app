@@ -4,7 +4,7 @@
 - **Enlarged, with the stone railing round the Mahachaitya:** in the reign of **Yajnasri Satakarni**, by his contemporary **Acharya Nagarjuna** (G2 2001; Sachivalayam ×2; G2 PYQ; APPSC PYQ).
   - Options printed "Gautamiputra Yagnasri" = Yajnasri Satakarni. When the question asks for the king, do not mark Nagarjuna.
 - **⚠ Trap:** Vasishthiputra Satakarni (earlier vedika sculptures), Vasishthiputra Pulomavi, Gautamiputra and Srimukha are distractors; final enlargement under the Ikshvakus.
-- **Origin:** Ashokan age – **Mahadeva Bhikshu**, first Buddhist teacher in Andhra, enshrined the Buddha's relics.
+- **Origin:** Ashokan age – **Mahadeva Bhikshu**, first Buddhist teacher in Andhra, enshrined the Buddha's relics; Naga king **Nagashoka** helped build it at Dharanikota.
 # Size
 - **Biggest stupa in Andhra Pradesh:** Amaravati (G2 2019 prelims; G2 PYQ) and the **largest in South India** (Welfare Officers 2017); Bhattiprolu is the **oldest**.
 - **Larger and more artistic:** than Sanchi and Bharhut (Welfare Officers 2017).
@@ -21,14 +21,15 @@
 | First sermon | Wheel |
 | Mahaparinirvana | Stupa |
 # Discovery and the Amaravati school
-- **Identified:** Col. **Colin Mackenzie**, 1797; excavated by Robert Sewell, 1877; Fergusson: "epitome of Indian architecture".
+- **Identified:** Col. **Colin Mackenzie**, 1797; excavated by Robert Sewell, 1877; James **Fergusson** (Tree and Serpent Worship): "epitome of Indian architecture".
+- **Ayaka gift:** the artisan **Siddhattha** gave five ayaka pillars at the eastern gate.
 - **Amaravati school:** white **Palnadu limestone**; narrative Jataka reliefs; early aniconic Buddha (tree, throne, footprints), later human form.
 - **Sculptures today:** British Museum (London), Government Museum (Chennai), Amaravati site museum.
 ~~ Sources: NextGen Satavahanas p.10, p.21-22, p.29-30; Rocket AP History p.25, p.34; app notes 1:48 (sub 1, 2, 10); https://en.wikipedia.org/wiki/Amaravati_Stupa
 
 === Stupa, Chaitya, Vihara – Terms
-- **Chaitya:** **prayer hall / place of worship** (Chaitya-shala, Chaitya-griha); rectangular, apsidal end, stupa at the far end.
-- **Vihara:** **monastery – dwelling of the monks**; square, cells round a hall.
+- **Chaitya:** **prayer hall / place of worship** (Chaitya-shala, Chaitya-griha); rectangular, ending in an **apse (horseshoe plan)** with the stupa; horseshoe **chaitya window** on the facade.
+- **Vihara:** **monastery – dwelling of the monks**; square, cells round a central hall (**Madhyashala**).
 > Most-asked angle (UPSC 2013; IAS 2013; UP 2001; APPSC PYQ): "Chaitya = place of worship, Vihara = dwelling of monks".
 - **Stupa, chaitya and vihara:** all **Buddhist** structures (State PSC) – not Ajivika, Vaishnava or Shaiva.
 - **Stupa:** a **mound**, generally a **repository of relics**, and a **votive and commemorative** structure.
@@ -49,13 +50,14 @@
 - **Centres of Buddhism in AP:** Amaravati, Bhattiprolu, Guntupalli – "all the above" (AEE 2011).
 | Site | Key fact |
 |---|---|
-| **Bhattiprolu** (Bapatla dt, old Guntur) | **Oldest stupa** in AP; relic-casket inscriptions name **Raja Kubiraka** (3rd c. BC) and the Nigama Sabha |
-| **Jaggayyapeta** (NTR dt, old Krishna) | **Mandhata** (chakravartin) sculpture with raised hand |
+| **Bhattiprolu** (Bapatla dt, old Guntur) | **Oldest stupa** in AP; relic-casket inscriptions name **Raja Kubiraka** (3rd c. BC) and the Nigama Sabha; excavated by Alexander Rea, 1892 |
+| **Jaggayyapeta** (NTR dt, old Krishna) | **Mandhata** (chakravartin) sculpture with raised hand; excavated by James Burgess, 1882 |
 | Ghantasala (Krishna) | Stupa at the port Kantakossyla |
 | Guntupalli (Eluru) | Oldest chaitya in AP; rock-cut |
 | Salihundam (Srikakulam) | Relic stupa |
 | Sankaram–Bojjannakonda (Anakapalli) | Rock-cut monastery on twin hills |
-| Thotlakonda, Bavikonda (Visakhapatnam) | Hill-top monasteries |
+| Thotlakonda, Bavikonda (Visakhapatnam) | Hill-top monasteries; Thotlakonda spotted in an **Indian Navy** aerial survey |
+| Kondapur (Sangareddy, Telangana) | Fortified Satavahana town; terracotta, beads, coins |
 | **Phanigiri** (Suryapet, **Telangana**) | **Life-size stucco** sculpture found recently; 3,730 Ikshvaku lead coins (2024) |
 - **Bhattiprolu ruler:** **Kubiraka** (APPSC PYQ) – not Sudarshana, Mahadeva or Ashoka.
 - **Mandhata sculpture:** **Jaggayyapeta** (G1 1991) – not Simhachalam, Kondapuram.
@@ -73,7 +75,7 @@
 | Siddharthika | Gudivada |
 - **Siddharthaka chaitya:** of Buddhist literature = **Gudivada** (G2 2008; APPSC PYQ).
 - **Wrong pair:** **Guntupalli – Siddharthaka chaitya** (G2 2011; APPSC PYQ); Purvasaila–Dhanyakataka, Aparasaila–Sriparvata, Uttarasaila–Jaggayyapeta are right.
-- **Origin:** the five Chaitika sects were Mahasanghika branches founded by **Mahadeva Bhikshu**.
+- **Origin:** the five Chaitika sects were branches of the **Mahasanghikas**, founded by **Mahadeva Bhikshu**.
 ~~ Sources: Rocket AP History p.8; app notes 1:48 (sub 6)
 
 === Tambaya Danamu – Kotturu
@@ -96,6 +98,28 @@
 - **Dynasty:** the **Ikshvakus** built the stupas, viharas and temples at Nagarjunakonda, backing both Vedic and Buddhist traditions (Welfare Officers) – not Mauryas, Satavahanas or Pallavas.
 - **Names:** **Vijayapuri** / **Sriparvata** – the Ikshvaku capital; tutelary goddess **Hariti**.
 - **Monuments:** 30+ stupas, viharas, apsidal chaityas; Ikshvaku queens chief donors; a Sinhala vihara; the first structural Hindu temples of Andhra.
-- **Satavahana link:** **Yajnasri Satakarni** built the Sriparvata vihara for Nagarjuna.
+- **Satavahana link:** **Yajnasri Satakarni** built the 1,500-room **Sriparvata Sangharama** for Nagarjuna.
+- **Sects:** Bahushrutiya, Aparasaila and **Mahishasaka** (the only Hinayana sect there).
 - **Discovery:** A.R. Saraswati, 1926; excavated by Longhurst, 1927-31; drowned by the Nagarjunasagar reservoir – monuments rebuilt on an island.
 ~~ Sources: NextGen Satavahanas p.10, p.30; app notes 1:48 (sub 3)
+
+=== Amaravati School, Donors and Acharyas
+Asked only in the app's own MCQs (no PYQ yet) – one quick read.
+| Feature | Gandhara | Mathura | Amaravati |
+|---|---|---|---|
+| Material | Grey-blue schist | Spotted red sandstone | White limestone |
+| Influence | Greco-Roman | Indigenous | Indigenous |
+| Patrons | Kushanas | Kushanas | Satavahanas, Ikshvakus |
+- **⚠ Trap:** Amaravati shows **no** Greco-Roman influence; its influence spread to **Sri Lanka and Southeast Asia**.
+- **Donors:** queens and women first; merchants, guilds (**ivory workers** at Amaravati), Yavanas; leather-worker **Dimikudu** offers a **Purnakumbha** in a relief.
+- **Karle donors:** Bhutapala funded the great chaitya hall.
+| Acharya | Association |
+|---|---|
+| Bhavaviveka | Vihara at Dhanyakataka |
+| Dinnaga | Father of Buddhist logic |
+| Aryasangha | Yogachara |
+| Padmasambhava | From Andhra; took Vajrayana to Tibet |
+| Aryadeva | Nagarjuna's disciple; Chittasuddhi Prakaranam |
+- **Records:** oldest stupa in Andhra = Bhattiprolu; largest brick stupa = **Kesariya**; "Sakiyanam" relic casket = **Piprahwa**.
+- **Jain patron:** Bethanamathya (and early Kakatiya kings).
+~~ Sources: NextGen Satavahanas p.24, p.30; Rocket AP History p.39; app notes 1:48 (sub 7, 8, 10)
