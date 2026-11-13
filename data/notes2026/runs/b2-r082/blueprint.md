@@ -7,7 +7,7 @@ Data: 137 PYQs (pyqs.json, keyed in keys.jsonl; 9 flashcards) + 196 app MCQs (al
 |---|---|
 | PYQs | 137: 57 in row 82 (46 stay, 11 moved), 80 in row 83 (57 stay, 23 moved) |
 | Keys from notes / generated | 98 / 39 |
-| Printed keys changed | 7 PYQs (4 had no key) + 3 app MCQs (1 key, 2 explanations) – see the job summary |
+| Printed keys changed | 6 PYQs (5 had no key) + 3 app MCQs (1 key, 2 explanations) – see the job summary |
 | Option added | 2 (municipal minimum age "21"; AP DPCs constituted "2007") |
 | Disputed / Outdated / -1 | 2 / 1 / 0 |
 | Moved | 34 (row 79 ×2, 80, 81 ×2, 84 ×2, 12 ×2, 19, 29, 30 ×2, 111 ×2, 119 ×3, 133 ×5, 135, 136 ×3, 165, 169; book 1 row 180; book 4 rows 33, 99; book 6 rows 103, 115) |
