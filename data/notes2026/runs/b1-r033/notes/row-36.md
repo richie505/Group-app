@@ -95,7 +95,7 @@
 - **Erragudi's district:** **Kurnool** (Pattikonda mandal; ASI site on the Gooty–Pattikonda road) – not Nandyal.
 - **Connection with Buddhism:** **Minor Rock Edict I** – Ashoka calls himself an **upasaka** who drew closer to the Sangha (NDA 2017); RE XIII, RE VI and PE IV are distractors. Minor edicts are the earliest Ashokan records and are densest in the Andhra–Karnataka area.
 > Exam angle: AP edict sites = **Erragudi and Rajula Mandagiri (Kurnool)**; Bhattiprolu = Kubiraka casket, not Ashoka.
-~~ Sources: Rocket AP History (src/ap-history/rocket-ap-history.txt, inscriptions table); AP History APPSC 01 p.4, p.11; PMF Ancient & Medieval Part 2 p.125-126; deccanchronicle.com (Jonnagiri edict, Pattikonda mandal, Kurnool); app notes 1:36 (sub 4)
+~~ Sources: Rocket AP History (src/ap-history/rocket-ap-history.txt, inscriptions table); AP History APPSC 01 p.6, p.11; PMF Ancient & Medieval Part 2 p.125-126; deccanchronicle.com (Jonnagiri edict, Pattikonda mandal, Kurnool); app notes 1:36 (sub 4)
 
 === Major Rock Edict Sites
 | Site | Present location |
