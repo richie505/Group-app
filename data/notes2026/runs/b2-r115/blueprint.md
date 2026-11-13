@@ -8,7 +8,7 @@ Data: 92 PYQs (keys.jsonl), 352 app MCQs, 444 in all (all-mcqs.json). Counts fro
 |---|---|
 | PYQs | 92 (filed: 115 – 17, 116 – 16, 117 – 3, 118 – 4, 119 – 24, 120 – 17, 121 – 11) |
 | After mapping | 115 – 15, 116 – 12, 117 – 2, 118 – 2, 119 – 11, 120 – 18, 121 – 11; moved out – 21 |
-| Keys from the notes / generated | 76 / 16 |
+| Keys from the notes / generated | 75 / 17 |
 | Keys changed | 8 (3 of them were unkeyed, -1; 2 options added) |
 | Left at -1 | 1 (garbled "caste conversion" exchange item) |
 | Outdated tags | 6 (Haryana Governor, longest-serving CM, AP capital ×4) |
