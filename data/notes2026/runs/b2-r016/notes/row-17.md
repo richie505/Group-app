@@ -95,7 +95,7 @@
 | **AIIMS Students' Union v. AIIMS** | 2001 (reported 2002) | Duties are **as important as Fundamental Rights**; rights and duties correlative |
 | Mohan Kumar Singhania v. Union of India | 1991 | Art. 51A may be used to interpret laws and test their validity |
 | **Bijoe Emmanuel v. State of Kerala** | 1986 | Duties **cannot override FRs**; respect for the Anthem needs no compelled singing |
-| M.K. Ranjitsinh v. Union of India | 2024 | CSR includes environmental protection, linked to **51A(g)** |
+| M.K. Ranjitsinh v. Union of India | – | CSR includes environmental protection, linked to **51A(g)** |
 | SC on corporations | Mar 2026 | Corporations, as legal persons, also carry the **51A(g)** duty (CSR = at least **2%** of average net profit, **Sec. 135, Companies Act 2013**) |
 | SC on Pollution Control Boards | Aug 2025 | Linked PCB enforcement to 51A(g) |
 - **Ramlila Maidan case (2012)**: Parts III, IV and IVA are to be read together. **Subhash Kumar (1991)**: clean environment is part of **Art. 21**.
