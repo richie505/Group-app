@@ -121,8 +121,10 @@
 - Word from Arabic **"mausim" = season** (MPPCS 2013; APPSC ASO 2017).
 - **Seasonal reversal of winds** due to **differential heating of land and sea** (State PSC).
 - Summer: **high temperature and low pressure** over the subcontinent draw air from the Indian Ocean → **south-west monsoon** (UPSC 1996), flowing **from south-west to north-east** (MPPCS 2012).
-- Modern theory (1950s): ITCZ shift + jet streams + Tibet Plateau + ENSO. Halley (1686): giant land–sea breeze.
+- Modern theory (**1957**): ITCZ shift + jet streams + Tibet Plateau + ENSO. Halley (1686): giant land–sea breeze.
 - Mediterranean (UPPCS 1992 key "monsoonal"): in winter air from the surrounding high-pressure lands flows towards the warmer sea, reversing in summer; its winter rain itself comes with the westerlies.
+- **ITCZ** moves north over the Indian plains in summer (monsoon trough) – this **helps** the monsoon; in winter it moves south and highs over **Tibet and Siberia** set up the **north-east monsoon**.
+- The **Himalayas** act as a **climatic divide**, giving India its distinct monsoon climate.
 - **El Niño** weakens the monsoon; **positive IOD** can offset it.
 - AP: SW monsoon 2026 entered via **Rayalaseema** (6 June 2026); IMD expected **below-normal** AP rain under El Niño. AP coastline **~1,053 km – third longest** (AP Socio-Economic Survey 2025-26).
 # Breezes
