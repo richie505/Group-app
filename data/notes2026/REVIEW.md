@@ -33,3 +33,10 @@
 - No correct option (-1): yb9e379e1940 emergency powers (printed South Africa; real 1935 Act / Weimar); yc74a51193d1 G2 Mains 2025 match (correct a-iii b-iv c-ii d-i not among codes — check the paper); ydde65211829 garbled options; yce659a3c6c0 suspension of FRs (Weimar not offered).
 - yfddf5b70ec6 integrated judiciary A–R: Laxmikanth (1935 Act) vs NextGen p.164 (US) — R false either way.
 - Outdated GK: US Vice-President, Women's Hockey World Cup, Miss Universe, Ambedkar Overseas Vidya Nidhi — verify the 2026 facts.
+
+## b2-r003 Salient features (62 PYQs, 4 keys changed, 12 generated)
+- y844277c5895 (UPSC 2021) → "Both 1 and 2" (official key C).
+- ya230b95cb69 (UPSC 2020 basic structure / judicial review): kept "Only II" (NextGen p.324) although UPSC's official key is D "Neither" — decide.
+- y2cdee37b625 "not an active agency of education": no key (-1), printed "State" looks wrong.
+- y49392cd640f original copies: "Two" (some books say three).
+- Non-polity PYQs left here (no book for teaching aptitude): Gagné's hierarchy, agnosia, agencies of education; Flag Code kept in polity.

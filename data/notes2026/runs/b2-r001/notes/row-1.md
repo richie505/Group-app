@@ -139,6 +139,7 @@
 - **NOT a member:** **Dr S. Radhakrishnan** (nor Jinnah).
 - **First cabinet of free India (15 Aug 1947):** **B.R. Ambedkar – Law**; **Sardar Patel – first Deputy Prime Minister** (and Home); **first Finance Minister R.K. Shanmukham Chetty** (1947-48), then **John Mathai**.
 - **Nehru** took the oath as first PM on 15 Aug 1947 from Governor-General **Lord Mountbatten**.
+- **Direct Action Day (16 Aug 1946):** the Muslim League's call to press for **Pakistan** after it withdrew its acceptance of the Cabinet Mission Plan → **Calcutta riots**.
 ~~ Sources: NextGen Polity - APPSC Exams p.130; NextGen Indian History - APPSC 06 p.386-389 (biographies); Rocket Polity p.3; app notes 2:1 sub 8
 
 === Time, Sessions and Size of the Text
@@ -169,6 +170,7 @@
 - **National Calendar (Saka):** 1 Chaitra = **22 March** (21 March in a leap year).
 - **National flower: Lotus** (*Nelumbo nucifera*).
 > UPSC 2003 NOT-correct statement: "Vande Mataram composed originally in **Bengali**" ✗ (it was Sanskrit).
+- **Language – Munshi-Ayyangar formula (14 Sep 1949):** **Hindi in Devanagari** as official language of the Union, **English continued for 15 years**, **14** other languages in the Eighth Schedule – **not** an immediate end of English.
 ~~ Sources: NextGen Polity - APPSC Exams p.143, p.145-146, p.148; knowindia.india.gov.in (national symbols); mha.gov.in Flag Code of India 2002; prsindia.org (National Honour Amendment Bill 2026); guinnessworldrecords.com (largest singing of a national anthem, 2017); app notes 2:1 sub 7
 
 === Indian Independence Act, 1947 and the Transition

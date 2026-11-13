@@ -28,7 +28,6 @@
 | Citizenship | Single | Single |
 > UPSC 2021: both statements correct → **Both 1 and 2** (UPSC official key C).
 ~~ Sources: NextGen Polity - APPSC Exams (full text) p.159-164 (parliamentary system), p.149, 155 (Preamble, French Republic), p.324-325 (judicial review); Indian_Polity Part 1 ch.2-3 p.26-43; mrunal.org/2022/05/upsc-prelims-2021-answerkey-errors.html (UPSC official key); app notes 2:3 sub 3-4
-
 === Written and Lengthiest Constitution – Parts, Schedules, Articles
 # Written and lengthiest
 - **A Constitution** = the document that lays down the **basic rules** for the people and the government (SSC 2018).
@@ -72,27 +71,6 @@
 - **Article 395 = Repeals:** it repealed the **Indian Independence Act, 1947** and the **Government of India Act, 1935** (not the commencement – that is Art. 394) (APPSC Asst. Social Welfare).
 > Match (CGPSC 2019): titles → FR; village panchayats → DPSP; education 6-14 duty → FD; "Union of States" → Union and its Territories → **3, 1, 4, 2**.
 ~~ Sources: NextGen Polity - APPSC Exams (full text) p.141-142, p.154-160 (schedules, Parts table, lengthiest); Indian_Polity Part 1 ch.1 p.20-24 (calligraphy, signed copies), ch.2 p.26-30; byjus.com/ias-questions/how-many-handwritten-copies-of-the-indian-constitution-are-there; app notes 2:3 sub 1-2
-
-=== Constitutionalism and Supremacy of the Constitution
-# Constitutionalism
-- **Constitutionalism** = government whose powers are **limited** by a supreme Constitution; it **recognises the need to limit the powers of government** (APPSC G2 2011).
-- It is **not inherent in every constitution** – a country can have a constitution without constitutionalism (a dictator's constitution).
-- **Antithesis of constitutionalism = despotism** (absolute, unlimited rule); limited power and restraint of power are its features (APPSC G2 2011).
-- **Constitutional government** = one that places **effective restrictions on the authority of the State in the interest of individual liberty** – not restrictions on liberty in the interest of the State (UPSC 2014: **II only**).
-- **Limits in India:** Fundamental Rights (**Art. 13** – laws inconsistent with FRs are void), judicial review, federal division of powers, **basic structure** (**Kesavananda Bharati, 1973**).
-- Parliament's amending power is limited by the **basic structure doctrine**; basic-structure elements include **supremacy of the Constitution**, rule of law, separation of powers, judicial review, limited amending power.
-# Supremacy of the Constitution
-- The **Constitution is supreme** in the Indian political system – not Parliament, not the Supreme Court, not religion (UPPSC Mains 2013).
-- **Governmental organs owe their origin to the Constitution** – the Union and States derive their powers from it (APPSC Asst. Social Welfare).
-- **Why the Constitution is above Parliament:** the **Constitution specifies how Parliament is formed and what its powers are** (not because it is older or its makers were more eminent) (APPSC HWO).
-# Judicial review
-- **Judicial review** = power of the SC/HCs to declare laws and executive orders **unconstitutional**; the phrase is **nowhere used in the Constitution**, but **Arts. 13, 32, 226** (and others) **explicitly confer** the power.
-- **Basic structure is NOT defined in the Constitution** – it was evolved by the Supreme Court (Kesavananda Bharati, 1973) (UPSC 2020, statement I wrong).
-- **Synthesis** of British **parliamentary sovereignty** and American **judicial supremacy**: courts can strike down laws; Parliament can amend most of the Constitution.
-- **Scope narrower than in the USA:** India has **"procedure established by law"** (Art. 21), the USA **"due process of law"**; courts test a law only **against the supreme written Constitution** (FR violation, lack of competence, repugnancy), not its wisdom → judicial review is **restricted because the Constitution is supreme**, not because the executive or legislature is supreme.
-> UPSC 2020: II (Constitution provides for judicial review) is correct on the text of Arts. 13, 32, 226 → **Only II**. (UPSC's official key said D, "Neither", on the view that the Constitution never uses the term "judicial review".)
-~~ Sources: NextGen Polity - APPSC Exams (full text) p.164 (synthesis), p.324-325 (judicial review, phrase not used, narrower than USA); Indian_Polity Part 1 ch.1 p.3-4 (constitutionalism, K.C. Wheare), ch.2; mrunal.org/2021/11/upsc-prelims-2020-answerkey-error-discrepancy.html (official key D); app notes 2:3 sub 4
-
 === Other Salient Features – Amendment, Emergency, Rights, Duties, Franchise
 # Blend of rigidity and flexibility
 | Method | Examples |
@@ -104,7 +82,7 @@
 - **First amendment: 1951** (1st Amendment Act – added the 9th Schedule).
 - Neither as rigid as the US nor as flexible as the British Constitution.
 # Rights, duties, franchise
-- **Fundamental Rights:** six categories (Part III); all suspendable in a National Emergency except **Arts. 20 and 21**; Right to Property moved out → now **Art. 300A**.
+- **Fundamental Rights:** six categories (Part III); all suspendable in a National Emergency except **Arts. 20 and 21**; Right to Property moved out → now **Art. 300A**. Rights for individuals make it a **liberal** constitution (NDA 2010).
 - **DPSP** (Part IV) – Ambedkar's "novel feature".
 - **Fundamental Duties:** added by the **42nd Amendment, 1976** on the **Swaran Singh Committee**'s recommendation – **10** duties; the **86th (2002)** added the 11th → **11** now (Part IVA, Art. 51A).
 - **Universal adult franchise** from the start (1950) at **21 years**; voting age **changed once – 21 → 18 by the 61st Amendment (1988, effective 1989)**; the same age for Lok Sabha and Assembly elections; no literacy or property test.
@@ -124,7 +102,25 @@
 | **UPSC** | **Original** (Art. 315) |
 > APPSC JA (NTR Univ.): of basic structure, secular, FDs and UPSC, only **UPSC (D only)** was in the original Constitution.
 ~~ Sources: NextGen Polity - APPSC Exams (full text) p.157 (9th Schedule, 1st Amendment 1951), p.161 (rigidity), p.165-167 (FDs, Swaran Singh, franchise, independent bodies), p.337, 349 (61st Amendment); Indian_Polity Part 1 ch.2 p.30-35 (three emergencies); app notes 2:3 sub 6, 8
-
+=== Constitutionalism and Supremacy of the Constitution
+# Constitutionalism
+- **Constitutionalism** = government whose powers are **limited** by a supreme Constitution; it **recognises the need to limit the powers of government** (APPSC G2 2011).
+- It is **not inherent in every constitution** – a country can have a constitution without constitutionalism (a dictator's constitution).
+- **Antithesis of constitutionalism = despotism** (absolute, unlimited rule); limited power and restraint of power are its features (APPSC G2 2011).
+- **Constitutional government** = one that places **effective restrictions on the authority of the State in the interest of individual liberty** – not restrictions on liberty in the interest of the State (UPSC 2014: **II only**).
+- **Limits in India:** Fundamental Rights (**Art. 13** – laws inconsistent with FRs are void), judicial review, federal division of powers, **basic structure** (**Kesavananda Bharati, 1973**).
+- Parliament's amending power is limited by the **basic structure doctrine**; basic-structure elements include **supremacy of the Constitution**, rule of law, separation of powers, judicial review, limited amending power.
+# Supremacy of the Constitution
+- The **Constitution is supreme** in the Indian political system – not Parliament, not the Supreme Court, not religion (UPPSC Mains 2013).
+- **Governmental organs owe their origin to the Constitution** – the Union and States derive their powers from it (APPSC Asst. Social Welfare).
+- **Why the Constitution is above Parliament:** the **Constitution specifies how Parliament is formed and what its powers are** (not because it is older or its makers were more eminent) (APPSC HWO).
+# Judicial review
+- **Judicial review** = power of the SC/HCs to declare laws and executive orders **unconstitutional**; the phrase is **nowhere used in the Constitution**, but **Arts. 13, 32, 226** (and others) **explicitly confer** the power.
+- **Basic structure is NOT defined in the Constitution** – it was evolved by the Supreme Court (Kesavananda Bharati, 1973) (UPSC 2020, statement I wrong).
+- **Synthesis** of British **parliamentary sovereignty** and American **judicial supremacy**: courts can strike down laws; Parliament can amend most of the Constitution.
+- **Scope narrower than in the USA:** India has **"procedure established by law"** (Art. 21), the USA **"due process of law"**; courts test a law only **against the supreme written Constitution** (FR violation, lack of competence, repugnancy), not its wisdom → judicial review is **restricted because the Constitution is supreme**, not because the executive or legislature is supreme.
+> UPSC 2020: II (Constitution provides for judicial review) is correct on the text of Arts. 13, 32, 226 → **Only II**. (UPSC's official key said D, "Neither", on the view that the Constitution never uses the term "judicial review".)
+~~ Sources: NextGen Polity - APPSC Exams (full text) p.164 (synthesis), p.324-325 (judicial review, phrase not used, narrower than USA); Indian_Polity Part 1 ch.1 p.3-4 (constitutionalism, K.C. Wheare), ch.2; mrunal.org/2021/11/upsc-prelims-2020-answerkey-error-discrepancy.html (official key D); app notes 2:3 sub 4
 === Who Said What – Opinions on the Constitution
 | Description | Person |
 |---|---|
@@ -150,7 +146,6 @@
 | Concurrent List | Australia |
 | Amendment procedure | South Africa |
 ~~ Sources: NextGen Polity - APPSC Exams (full text) p.155 (borrowed features), p.163 (variously described), PYQ Q.147 p.289 (quasi-federal = Wheare); Indian_Polity Part 1 ch.2 p.35 (Wheare, Ambedkar, cooperative federalism); app notes 2:3 sub 0
-
 === Federal System with Unitary Bias
 | Federal features | Unitary features |
 |---|---|
@@ -166,7 +161,6 @@
 - **Quasi-federal**: federal in form, unitary in spirit (Wheare); in an emergency the structure turns **unitary without a formal amendment**.
 - Indian States have **no separate constitutions and no dual citizenship** (the USA has both).
 ~~ Sources: NextGen Polity - APPSC Exams (full text) p.160, 162-163 (federal / unitary features), p.167 (single citizenship); Indian_Polity Part 1 ch.2 p.34-35; app notes 2:3 sub 5, 9
-
 === Secular State
 - India is a **secular state**: it **does not uphold any religion as the official religion** – the Indian State has **no religious basis** (APPSC Asst. Director).
 - **"Secular" was added to the Preamble** by the **42nd Amendment, 1976** → the **Preamble** describes India as a secular State (Deputy Information Engineers).
@@ -174,7 +168,6 @@
 - **Secular provisions:** Preamble; Arts. 14, 15, 16, **25-28** (freedom of religion), 29, 30, 44.
 - **Religious (theocratic) state is NOT a feature** of the Constitution (APPSC DL 2020).
 ~~ Sources: NextGen Polity - APPSC Exams (full text) p.166-167 (secular state, provisions, positive concept); app notes 2:3 sub 7
-
 === Stray PYQs Filed Here (Other Subjects)
 - **Flag Code of India, 2002:** divided into **three Parts** – I general description of the flag; II display by public, private bodies and educational institutions; III display by Central/State governments and their agencies.
 - **Gagné's hierarchy of learning:** **eight** types – signal, stimulus–response, chaining, verbal association, multiple discrimination, concept, principle (rule), problem solving.
