@@ -24,13 +24,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 sys.path.insert(0, "tools")
 from onepager_app import best_match  # noqa: E402
-from pyq_place import clean, usable, qtext, mcq_text, sec_text  # noqa: E402
+from pyq_place import clean, MENTAL, qtext, mcq_text, sec_text  # noqa: E402
 from pyq_apply import stem as tidy_stem  # noqa: E402
 
 APPS = {"complete": "app/src/complete/assets", "group2": "app/src/group2/assets"}
 OWN_BOOK = {"ap-history": [1], "polity": [2], "economy": [3], "science-tech": [5]}  # whole books of one subject
 DUP = 0.75   # stem+options similarity above which a question repeats one already in the app
-NEAR = 0.08  # below this it shares nothing with any topic
+NEAR = 0.0   # owner: keep every PYQ (only mental ability / reasoning are left out): each goes to its closest topic
 
 
 def norm(t):
@@ -50,8 +50,14 @@ def new_questions():
             q["file"] = f"OCR2026 {q.get('book', '')}"
             a = q.get("a", -1)
             q["a"] = a if isinstance(a, int) and -1 <= a <= 3 else -1
-            if not usable(q):
-                dropped["unusable (garbled, not 4 options, no key and unclean)"] += 1
+            if q.get("unclear"):
+                dropped["unclear OCR: waits for a check against the scanned PDF"] += 1
+                continue
+            if MENTAL.search(q["s"]):
+                dropped["mental ability / reasoning"] += 1
+                continue
+            if len(q["s"]) < 10 or len(q["o"]) not in (4, 5) or any(not o for o in q["o"]) or not (-1 <= q["a"] < len(q["o"])):
+                dropped["malformed (stem, options or key)"] += 1
                 continue
             k = norm(q["s"])[:80] + "|" + "|".join(sorted(norm(o) for o in q["o"]))
             if k in seen:
@@ -137,7 +143,7 @@ def place(app, assets, new):
             score = np.where(mask, score, -1)
             k = int(score.argmax())
             conf = float(max(sm[j, top].max(), sn[j, k] * 1.5))
-            if conf < NEAR:
+            if conf < NEAR or not mask.any():
                 off.append(q["id"])
                 continue
             sub = best_match(secs[k], [q if q["a"] >= 0 else dict(q, a=0, o=[" ".join(q["o"])])])[0]

@@ -28,9 +28,16 @@ in its paper, or your best reading>, "s": "<stem>", "o": ["<opt1>", "<opt2>", "<
   "2,)" or "(3)" or a tick printed by an option in the question itself may also show the key. Map a key only when the
   question number and the option are certain; otherwise a = -1. A grid belongs to the paper above it: match numbers
   within that paper only.
-- Keep: general studies questions (history, AP history, polity, economy, geography, science and technology,
-  environment, disaster management, current affairs). Skip: mental ability, reasoning, maths, English, Telugu,
-  questions of a technical subject paper, and any question whose stem or any option you cannot read.
+- KEEP EVERY QUESTION (owner's rule, 13 Nov 2026), whatever the subject: general studies, Indian society and
+  sociology papers, technical / subject papers (engineering, statistics, agriculture, forestry, medicine, …),
+  current affairs, Telugu-region facts. The ONLY questions to leave out are MENTAL ABILITY and REASONING ones
+  (series, coding-decoding, blood relations, directions, seating, syllogism, analogies, puzzles, clocks/calendars,
+  arithmetic/aptitude sums, data interpretation of a table or chart).
+- 5-option questions: keep all five options ("o" has 5 entries; "a" 0-4).
+- Hard-to-read text: recover it from context whenever the meaning is certain (a broken word, a lost number that the
+  other options or the question make obvious). If a stem or an option still cannot be read with certainty, write
+  the question anyway with your best reading, put "[?]" where text is lost, set "a": -1 unless the key is certain,
+  and add "unclear": 1. Such questions are checked against the scanned PDF before they go into the app.
 - Statements, List-I/List-II and assertion/reason: keep their lines ("1. …\n2. …", "A. … B. …", "List-I … List-II …")
   in the stem, and the codes as the four options.
 - English only. Never invent a question, an option or a key.
