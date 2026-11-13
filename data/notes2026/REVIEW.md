@@ -105,3 +105,10 @@
 - y90aece6d284 H/He/methane: → Uranus, Neptune, Pluto (best option; Pluto mostly N2).
 - y00395e441ff who found Earth spherical: Copernicus → no key (Pythagoras/Aristotle not offered). y80beeebd26f planet match: no key.
 - Unverified: y86c7faf0f28 marine sediment volume order; y3c8c874d907 "Transparent Earth" (thin source). "Nearest planet" kept Venus (notes mention Mercury on average).
+
+## b2-r009 FR: equality, freedoms (117 PYQs, 10 keys changed, 24 generated, 2 outdated)
+- y754ed28b8da US resemblance: Rule of Law → Fundamental Rights (Rule of Law is British); old notes repeated the wrong key.
+- y19e5ba9c6e4 promotion amendment keyed 85th — the 77th (1995) is the true answer but not offered. DECIDE (or set no key).
+- y05fcb4444b5 secularism: two options false as worded.
+- y35e383dff40 AP operational SEZs: 19 → now 25 (31.07.2026, sezindia.gov.in), outdated.
+- Printed keys kept without firm source: y243b233652c (G.D.H. Cole), y109d4d8d65c, yc91f8970c57.
