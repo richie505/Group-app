@@ -34,7 +34,7 @@
 
 === Good Governance Day and the Good Governance Index
 - **Good Governance Day – 25 December**, birthday of **Atal Bihari Vajpayee**; first observed in **2014**.
-- **GGI** – launched by **DARPG** on Good Governance Day 2019; ranks States, UTs, districts; **10 sectors** (agriculture, commerce and industry, HRD, public health, public infrastructure, economic governance, social welfare, judicial and public security, environment, citizen-centric governance); **foreign affairs is NOT** a sector.
+- **GGI** – launched by **DARPG** on Good Governance Day 2019; ranks States, UTs, districts; revised **every two years**; **10 sectors** (agriculture, commerce and industry, HRD, public health, public infrastructure, economic governance, social welfare, judicial and public security, environment, citizen-centric governance); **foreign affairs is NOT** a sector.
 - **GGI 2021** (25 Dec 2021; **58 indicators**): **Gujarat** 1st, then Maharashtra, Goa; **AP 1st in agriculture and allied**.
 ~~ Sources: app notes 2:87
 
