@@ -1,0 +1,105 @@
+=== Ishwar Chandra Vidyasagar and Widow Remarriage
+# Vidyasagar (1820-1891)
+- **Widow remarriage:** the reformer who worked successfully to **legalise widow remarriage**; he **cited the ancient (Vedic) texts** (Parashara) to show widows could remarry → **Hindu Widows' Remarriage Act (Act XV of 1856)**, drafted under **Dalhousie**, **passed under Lord Canning** (July 1856).
+- **First lawful Hindu widow remarriage:** **Calcutta, 7 December 1856**, under his supervision.
+- **Women's education:** in 1850 Bethune made him **Secretary of the Hindu Female School**, later the **Bethune School** (founded **1849** by **J.E.D. Bethune**, with Dakshinaranjan Mukherjee); he ran about **35 girls' schools**.
+- **Principal of the Sanskrit College, Calcutta** (1851) – opened it to non-Brahmins; title "**Vidyasagar**" (Ocean of Learning) for his Sanskrit learning.
+- **Books:** **Bahubivah (Bahu Bibaho)** against polygamy; Bidhobabivah (widow remarriage); **Barnaparichay** (Bengali primer); his prose shaped modern **Bengali**.
+- **Somprakash (Som / Shome Prakash), 1858:** Bengali weekly **started on Vidyasagar's plan**, edited by Dwarkanath Vidyabhushan – keys answer **Vidyasagar**.
+- **Quote:** "I have no time to think about God; a lot of work has to be done on this earth" – **Vidyasagar**.
+- **Not his:** **Sambad Kaumudi** (1821) and **Mirat-ul-Akhbar** (1822) were **Rammohan Roy**'s; the 1829 sati ban was Roy's campaign under **Bentinck** (not Keshab Chandra Sen).
+- Andhra link: he sent support for **Veeresalingam's** third widow remarriage.
+# Widow remarriage elsewhere
+| Reformer | Body / work |
+|---|---|
+| **Vishnu Parashuram Shastri Pandit** | **Widow Remarriage Association (Society)**, Bombay, **1850s** (PMF: Vidhva Vivaha Uttejak Mandal, 1866); led the **campaign in Maharashtra**; journal Indu Prakash |
+| M.G. Ranade | Widow Remarriage Association, 1865 |
+| **D.K. Karve** | Married a widow (1893); **Widow Marriage Association (1893)** |
+| Karsondas Mulji | Satya Prakash (Gujarati, 1852) |
+> Trap: the Widow Remarriage **Society/Association** was founded by **Vishnu Shastri Pandit**, not Vidyasagar (who led the law campaign). Bankim Chandra was one of the **first two graduates of Calcutta University (1858)**.
+~~ Sources: PMF Modern History Part 3 p.35, p.45, p.173-174, p.181, p.195; PMF Modern History Part 5 p.171; Spectrum p.228-229; app notes 1:197 (sub 2)
+
+=== Social-Reform Acts – Year, Governor-General, Provision
+| Year | Act | Governor-General | Provision |
+|---|---|---|---|
+| 1795, 1804 | Bengal Regulations XXI and III | – | **Infanticide declared murder** |
+| 1802 | Anti-infanticide regulation | **Wellesley** | Child sacrifice at Sagar Island banned |
+| 1829 | Sati Regulation (XVII) | **William Bentinck** | Sati illegal; abetment = **culpable homicide** |
+| 1843 | Act V of 1843 | **Ellenborough** | **Slavery illegal** (Charter Act 1833 had directed abolition; IPC 1860 made slave trade an offence) |
+| 1850 | **Caste Disabilities Removal Act (Lex Loci, Act XXI)** | Dalhousie | A **convert to Christianity could still inherit ancestral property** |
+| 1856 | **Hindu Widows' Remarriage Act (Act XV)** | Drafted Dalhousie, **passed Canning** | Widow remarriage legal; **children legitimate** |
+| **1870** | **Female Infanticide Prevention Act** | **Mayo** | Compulsory **registration of births**; watch on female infants |
+| **1872** | **Native (Civil / Brahmo) Marriage Act – Act III of 1872** | – | A **social-reform Act**: girls **14**, boys **18**; inter-caste allowed; **polygamy barred**; urged by **Keshab Chandra Sen** |
+| **1891** | **Age of Consent Act** | **Lansdowne** | Consent (consummation) for girls raised from **10 to 12** |
+| **1929** | **Child Marriage Restraint Act (Sarda Act)** | **Irwin** | **Prevention of child marriage**: girls **14**, boys **18**; moved by **Har Bilas Sarda**; in force **1 April 1930** |
+- **Order:** Caste Disabilities (1850) → Widows' Remarriage (1856) → Age of Consent (1891) → Child Marriage Restraint (1929).
+- **Ages ladder:** consent 10 (IPC 1860) → **12 (1891)** → 14 (1925) → 16 (1949) → 18 (POCSO 2012 / BNS); marriage 14/18 (1872, 1929) → **18/21** (1978 amendment; **Prohibition of Child Marriage Act, 2006**). The 2021 proposal to raise women's age to 21 is not law (as of 2026).
+- **Thuggee:** suppressed by **Colonel William Sleeman** (1830s).
+- Keshab's 1878 marriage of his minor daughter to the **Cooch Behar** prince broke the 1872 Act and split the Brahmo Samaj.
+> Trap: Female Infanticide Act = **1870 (Mayo)**, not 1856; 1872 and 1929 = **14/18**, 1891 = **12**.
+~~ Sources: Spectrum p.228-229; PMF Modern History Part 3 p.25, p.171, p.174, p.196; NextGen Modern India L2 Part 1 p.18; Rocket Indian Society p.39; app notes 1:197 (sub 0, 1, 4)
+
+=== Age of Consent Act 1891 – Malabari, Tilak, Rakhmabai
+- **Behramji M. Malabari** (1853-1912): **Parsi** from Western India (born Baroda), "**greatest Parsi social reformer of the 19th century**"; editor of **Indian Spectator** and **Voice of India**; **Notes on Infant Marriage and Enforced Widowhood (1884)**; **chief crusader for the Age of Consent Act**.
+- **Tilak opposed** the Bill (Kesari) as foreign interference in Hindu custom – so "Tilak supported the Bill" is the wrong statement; the Moderates (Ranade, Telang, Bhandarkar) supported it.
+- **Rakhmabai case (1884-88):** married as a child, she refused to live with husband Dadaji; he sued for **restitution of conjugal rights** – the case raised **age of consent** and conjugal rights, **not women's education**; she became one of India's first women doctors.
+- **Phulmoni Dasi** (1889-90): a child bride's death that pushed the 1891 Act.
+- The 1891 Act made intercourse with a girl **below 12** an offence, married or not.
+~~ Sources: PMF Modern History Part 3 p.185, p.196, p.198; Spectrum p.229, p.255; app notes 1:197 (sub 3)
+
+=== Western India Women Reformers – Phule, Ramabai, Karve
+| Reformer | Key facts |
+|---|---|
+| **Savitribai Phule** (1831-97) | With Jyotiba, **first girls' school, Bhide Wada, Pune, 1 Jan 1848** – India's first woman teacher; women's rights in **Maharashtra**; home for widows (1854); Home for the Prevention of Infanticide (1863) |
+| **Pandita Ramabai** (1858-1922) | Titles **"Pandita" and "Saraswati"** (Calcutta, 1878); **Arya Mahila Samaj, Pune, 30 Nov 1882** (against child marriage); **Sharada Sadan** (Bombay 1889, moved to **Poona**) – **home for widows**; **Mukti Mission, Kedgaon** (1898); *The High-Caste Hindu Woman* |
+| **D.K. Karve** (1858-1962) | Known for **widow remarriage** (married a widow, Widow Marriage Association 1893); **Hindu Widows' Home, Hingne, Poona (1896)**; **first Women's University (1916)**, now **SNDT** (Indian Women's University); Bharat Ratna 1958 |
+| Tarabai Shinde | *Stri Purush Tulana* (1882) |
+| Anandibai Joshi (1865-87) | First Indian woman with a degree in Western medicine |
+- In keys, **Karve = widow remarriage** (with women's education); infanticide and sati are not his.
+~~ Sources: PMF Modern History Part 3 p.40, p.44, p.184; Spectrum p.229; app notes 1:197 (sub 5)
+
+=== Reform Institutions and Women's Organisations
+# Reform institutions
+| Institution | Founder | Year / place |
+|---|---|---|
+| **Seva Sadan** | **Behramji Malabari** and **Dayaram Gidumal** | Bombay, 1908 |
+| Poona Seva Sadan | Ramabai Ranade and G.K. Devadhar | Poona, 1909 |
+| Social Service League | N.M. Joshi | Bombay, 1911 |
+| **Seva Samiti** | **Hriday Nath Kunzru** | Allahabad, 1914 |
+| **Deva (Dev) Samaj** | **Shiv Narayan Agnihotri** – not Radhakant Deb | Lahore, 1887 |
+| Bahujan Samaj | Mukundrao Patil | Satara, 1910 |
+| Sarada Niketan | Unnava Lakshminarayana with Lakshmibayamma | Guntur, 1922 |
+- **Radhakant Deb** led the orthodox **Dharma Sabha (1830)** – the wrong pair in "Deva Samaj – Radhakant Deb".
+# Women's organisations
+| Organisation | Year | Founder / note |
+|---|---|---|
+| Ladies' Social Conference (Bharat Mahila Parishad) | 1904 | **Ramabai Ranade**, Bombay |
+| **Bharat Stree Mahamandal** | **1910** | **Sarala Devi Chaudhurani**; first session Allahabad; first all-India women's body |
+| **Anjuman-e-Khawatin-e-Islam** | **1914** | **All India Muslim Ladies' Conference** – Muslim women's education |
+| Women's Indian Association | 1917 | **Annie Besant, Margaret Cousins, Dorothy Jinarajadasa** – **Adyar (Madras)** |
+| National Council of Women in India | 1925 | **Meherbai Tata**, Cornelia Sorabji |
+| **All India Women's Conference** | **1927** | **Margaret Cousins**; first meeting **Poona**; pressed for the **Sarda Act (1929)** and **Hindu Women's Right to Property Act (1937)** |
+# Reformers' journals
+| Reformer | Journal |
+|---|---|
+| Rammohan Roy | **Sambad Kaumudi** (Bengali, 1821); **Mirat-ul-Akhbar** (Persian, 1822) |
+| Vidyasagar | Somprakash (1858) |
+| Malabari | Indian Spectator, Voice of India |
+| Phule's Satyashodhak Samaj | Din Bandhu (Pune, 1877; Krishnarao Bhalekar) |
+| Veeresalingam | Satihita Bodhini (1883) |
+~~ Sources: Spectrum p.230-231, p.255-256, p.867; PMF Modern History Part 3 p.168, p.196; PMF Modern History Part 5 p.135-136; Rocket Indian History Part 2 p.80; app notes 1:197 (sub 6, 7, 8)
+
+=== Andhra – Veeresalingam and Women's Reform
+- **Kandukuri Veeresalingam** performed the **first widow remarriage in Andhra – 11 December 1881**, Rajahmundry (bride **Sitamma/Gauramma**, groom **Gogulapati Sriramulu**; aid from Pyda Ramakrishnaiah); second on 15 Dec 1881.
+- **Girls' schools:** **Dowlaiswaram, 1874** (first in Andhra); **Innispeta, Rajahmundry, 1881**; co-education.
+- **Widow Remarriage Association, Rajahmundry (1880)**; Madras widow home (**1897**); Hitakarini Samajam (**1905**).
+- Journal for women **Satihita Bodhini (1883)**.
+- Title **"Vidyasagar of South India"** from **M.G. Ranade**.
+| Person | Contribution |
+|---|---|
+| Kandukuri Rajyalakshmamma | Veeresalingam's wife; hosted widow and inter-caste marriages; sheltered widows |
+| **Bandaru Achamamba** | **Abala Sachcharitra Ratnamala** (lives of famous women); early Telugu woman historian and short-story writer |
+| Unnava Lakshmibayamma | Widow asylum, **Guntur (1902)** → Sarada Niketan; monthly Sri Sarada Niketanam |
+| Kotikalapudi Seethamma | Ahalya Bai; Sadhu Rakshana Shatakam |
+> Dates: Bengal **7 Dec 1856** (Vidyasagar) vs Andhra **11 Dec 1881** (Veeresalingam).
+~~ Sources: NextGen Modern India L2 Part 3 p.5-7; app notes 1:197 (sub 9)
