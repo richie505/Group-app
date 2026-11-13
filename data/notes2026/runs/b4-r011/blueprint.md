@@ -7,7 +7,7 @@ Data: 103 PYQs keyed in keys.jsonl (87 on topic, 16 moved), plus 225 app MCQs = 
 |---|---|
 | PYQs | 103 (87 on topic; 16 moved: 7 within book 4, 9 to book 5) |
 | Keys from the notes / generated | 84 / 19 (generated = mostly off-topic science/English items, plus 1 contradiction, 1 conflict, 1 ambiguous) |
-| Printed keys changed | 7 (2 wrong keys corrected, 5 unkeyed items keyed) |
+| Printed keys changed | 6 (2 wrong keys corrected, 4 unkeyed items keyed) |
 | Disputed / outdated / -1 | 1 / 0 / 0 |
 
 ### Exams
