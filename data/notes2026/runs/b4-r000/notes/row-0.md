@@ -36,6 +36,28 @@
 > Statement angle (CGPSC 2020): "Mercury hottest" ✗ (Venus); "Ganymede satellite of Saturn" ✗ (Jupiter); "Neptune has methane / rings" ✓; "Phobos and Deimos – Mars" ✓ → "3 and 4".
 ~~ Sources: Rocket General Geography #1 p.2-4; NextGen Indian Geography - APPSC Exams 01 p.9-13; PMF Physical Geography 01 p.31-32; earthsky.org / space.com (moon counts, March 2026); app notes 4:0 sub 5-6
 
+=== Distance Units, Light Travel and the Universe
+# Units of astronomical distance
+| Unit | Meaning | Value |
+|---|---|---|
+| **Astronomical unit (AU)** | **Mean Earth–Sun distance** | **~149.6 million km** (149.598 × 10⁶ km) |
+| **Light year** | **Distance** light travels in one year | 9.461 × 10¹² km (~9.46 trillion km) |
+| **Parsec** | Largest of the three | **3.26 light years** |
+- **Light year = distance, not time** (asked 9 times); it is the unit for **distances of stars**. Sun–Earth = **1 AU**.
+- **Why light years:** the **speed of light is constant** (~3 × 10⁵ km/s) (UPSC 2021).
+- **"4.3 light years away"** (Alpha Centauri) = its light takes **4.3 years** to reach Earth.
+- **Sunlight reaches Earth in 8 min 19 s** (~**500 seconds**, "about 8 minutes").
+- **Order of size:** AU < light year < parsec. **Not** distance units: mile/fathom are not used for stars; "longsec" is not a unit at all.
+- **Cepheids** (stars that brighten and dim) are used to measure astronomical distances.
+# The universe
+- **Cosmology** = study of the origin, evolution and structure of the **universe**.
+- **Age of the universe: 13.8 billion years** (APPSC 2019). **Age of the Earth: ~4.54 billion years** (~4.6 billion for the solar system).
+- **Most abundant element** in the universe and in the Sun: **hydrogen**, then **helium** (Sun ~74% H, ~24% He).
+- **Milky Way** = **barred spiral galaxy**; the Sun lies in the **Orion Arm**, ~26,000 light years from the centre, and takes **~225–250 million years (~25 crore years)** to go once round the galactic centre (a "galactic year").
+- **Constellations:** **88** recognised by the **IAU** (founded 1919, Paris).
+- News terms **event horizon, singularity, string theory, Standard Model** belong to the observation and understanding of the **universe** (UPSC 2017).
+~~ Sources: Rocket General Geography #1 p.5-6; PMF Physical Geography 01 p.8, p.19; NextGen Indian Geography - APPSC Exams 01 p.7; app notes 4:0 sub 0
+
 === Planets – Order, Distance, Size and Classification
 # Order and data
 | Planet | Distance from Sun (million km) | Diameter (km) | Revolution | Density (g/cm³) |
@@ -58,28 +80,6 @@
 - **Outer / Jovian planets:** **Jupiter, Saturn** (**gas giants**), **Uranus, Neptune** (**ice giants**) – beyond the asteroid belt, thick H-He atmospheres.
 - **Planets are non-luminous** – they **shine by reflected sunlight**; stars twinkle, planets do not. The Sun's gravity gives the **centripetal force** that keeps planets in orbit.
 ~~ Sources: Rocket General Geography #1 p.2-4; NextGen Indian Geography - APPSC Exams 01 p.8-9; app notes 4:0 sub 0, 5
-
-=== Distance Units, Light Travel and the Universe
-# Units of astronomical distance
-| Unit | Meaning | Value |
-|---|---|---|
-| **Astronomical unit (AU)** | **Mean Earth–Sun distance** | **~149.6 million km** (149.598 × 10⁶ km) |
-| **Light year** | **Distance** light travels in one year | 9.461 × 10¹² km (~9.46 trillion km) |
-| **Parsec** | Largest of the three | **3.26 light years** |
-- **Light year = distance, not time** (asked 9 times); it is the unit for **distances of stars**. Sun–Earth = **1 AU**.
-- **Why light years:** the **speed of light is constant** (~3 × 10⁵ km/s) (UPSC 2021).
-- **"4.3 light years away"** (Alpha Centauri) = its light takes **4.3 years** to reach Earth.
-- **Sunlight reaches Earth in 8 min 19 s** (~**500 seconds**, "about 8 minutes").
-- **Order of size:** AU < light year < parsec. **Not** distance units: mile/fathom are not used for stars; "longsec" is not a unit at all.
-- **Cepheids** (stars that brighten and dim) are used to measure astronomical distances.
-# The universe
-- **Cosmology** = study of the origin, evolution and structure of the **universe**.
-- **Age of the universe: 13.8 billion years** (APPSC 2019). **Age of the Earth: ~4.54 billion years** (~4.6 billion for the solar system).
-- **Most abundant element** in the universe and in the Sun: **hydrogen**, then **helium** (Sun ~74% H, ~24% He).
-- **Milky Way** = **barred spiral galaxy**; the Sun lies in the **Orion Arm**, ~26,000 light years from the centre, and takes **~225–250 million years (~25 crore years)** to go once round the galactic centre (a "galactic year").
-- **Constellations:** **88** recognised by the **IAU** (founded 1919, Paris).
-- News terms **event horizon, singularity, string theory, Standard Model** belong to the observation and understanding of the **universe** (UPSC 2017).
-~~ Sources: Rocket General Geography #1 p.5-6; PMF Physical Geography 01 p.8, p.19; NextGen Indian Geography - APPSC Exams 01 p.7; app notes 4:0 sub 0
 
 === Stars – Nearest Star, Colour, Brightness, Twinkling and Constellations
 # Nearest stars

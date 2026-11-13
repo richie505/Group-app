@@ -99,3 +99,9 @@
 - yca3e56f3fbf (UPSC 2025 pairs) "All three" kept — Nagaland pair loosely worded.
 - Outdated facts from memory (verify): Satya Pal Malik died 5 Aug 2025; Dharam Gokhool Mauritius President since Dec 2024.
 - Unverified 2026 items in own MCQs/notes: CAA Rules 2026, 19 Aug 2026 MHA order, Ladakh Chapter K, Amaravati sole capital.
+
+## b4-r000 Universe and Solar System (150 PYQs, 4 keys changed, 29 generated, 4 outdated, 2 no key)
+- Most moons (G2 2011, IAS 2009): Jupiter → Saturn (285 vs 101, Mar 2026), tagged outdated.
+- y90aece6d284 H/He/methane: → Uranus, Neptune, Pluto (best option; Pluto mostly N2).
+- y00395e441ff who found Earth spherical: Copernicus → no key (Pythagoras/Aristotle not offered). y80beeebd26f planet match: no key.
+- Unverified: y86c7faf0f28 marine sediment volume order; y3c8c874d907 "Transparent Earth" (thin source). "Nearest planet" kept Venus (notes mention Mercury on average).
