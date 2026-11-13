@@ -49,6 +49,7 @@
 | Marriage | Seleucus's daughter (Helena) married Chandragupta – not the reverse |
 | Chandragupta gave | **500 war elephants** |
 | Envoy | **Megasthenes** sent to Pataliputra |
+# Greek envoys
 | Envoy | Sent by | Court |
 |---|---|---|
 | **Megasthenes** | **Seleucus I Nicator** | **Chandragupta Maurya** – wrote Indica |
