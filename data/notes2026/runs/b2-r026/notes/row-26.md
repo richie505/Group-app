@@ -7,6 +7,7 @@
 | **Suspensive** | Returns the Bill **once**; if re-passed (with or without amendment) he **must assent** | **Ordinary Bills** (and Financial Bills) – **not Money Bills** |
 | **Pocket** | Neither assents, rejects nor returns – keeps the Bill pending **indefinitely** | Possible because **Art. 111 prescribes no time limit** |
 | **Qualified** | Can be overridden only by a **higher (two-thirds) majority** | **USA** – not India |
+- **Veto by type of Bill:**
 | Bill | President (Union) | President (State Bill reserved, Art. 201) |
 |---|---|---|
 | Ordinary | Assent, withhold or **return once** – must assent if re-passed | Assent, withhold or direct return – **not bound** to assent even if re-passed |
@@ -32,8 +33,7 @@
 - The Post Office Bill question is asked in every form – "refused to sign / did not assent / did not give assent / first to use the power on it" → **Zail Singh** (not Radhakrishnan, V.V. Giri, Zakir Hussain, R. Venkataraman, K.R. Narayanan, Rajendra Prasad or A.P.J. Abdul Kalam). He **did not return** it; he simply kept it pending, and it was never enacted (later withdrawn).
 - Pocket veto used **only once** at the Union level; "the only instance of the President's veto" in older keys means this Bill, though the **PEPSU (1954)** and **1991** Bills were absolute vetoes.
 - **2002**: the **Representation of the People (Amendment) Ordinance** on **electoral reforms** was returned by **President Kalam**; the Union Cabinet sent it back unchanged and he **assented under Art. 123**.
-- Zail Singh (President 1982-87) was also **Chairman/Secretary-General of the Non-Aligned Movement (1983-86)**, after India hosted the 1983 NAM summit.
-~~ Sources: Rocket Polity Part 1 p.55 (src/polity/rocket-polity-01.txt); PMF Polity Notes Part 2 p.2; NextGen Polity - APPSC Exams p.23, p.381; Sunday Guardian, "The President who used 'pocket veto'" (sundayguardianlive.com); Laxmikanth, Indian Polity ch. President
+~~ Sources: Rocket Polity Part 1 p.51 (src/polity/rocket-polity-01.txt); PMF Polity Notes Part 2 p.2; NextGen Polity - APPSC Exams p.23, p.381; Sunday Guardian, "The President who used 'pocket veto'" (sundayguardianlive.com); Laxmikanth, Indian Polity ch. President
 
 === Ordinance-making Power – Article 123: Basis, Nature, Scope
 - **Art. 123** (Part V): the **President** promulgates ordinances during the **recess of Parliament** – not the Speaker, the RS Chairman or the Attorney-General. Governor: **Art. 213** (Part VI). Not Arts. 161, 200, 201, 356 or 360.
@@ -47,7 +47,7 @@
 | Introduce or change tax provisions | Go beyond Parliament's legislative competence |
 - UPSC 2025: "amend any Central Act" and "come into effect from a back date" true; "abridge a FR" false → **I and III only**.
 - Origin: a **relic of the Government of India Act, 1935** (Governor-General's ordinance power).
-~~ Sources: NextGen Polity - APPSC Exams p.385-387 (src/polity/nextgen-polity-full.txt); PMF Polity Notes Part 2 p.2-3; Rocket Polity Part 1 p.23-24, Part 2 p.3848-3976 lines ("Ordinance-Making Power"); Constitution of India Art. 123
+~~ Sources: NextGen Polity - APPSC Exams p.386 (src/polity/nextgen-polity-full.txt); PMF Polity Notes Part 2 p.2-3; Rocket Polity Part 1 p.23-24, Part 2 p.82-84 (src/polity/rocket-polity-02.txt); Constitution of India Art. 123
 
 === Ordinance – Life, Lapse, Withdrawal and Judicial Review
 - 1. Promulgated during recess. 2. **Laid before both Houses** on reassembly. 3. **Ceases six weeks after reassembly** unless approved – if the Houses reassemble on **different dates**, the six weeks run from the **later date**. 4. Ends **earlier** if **both Houses pass resolutions disapproving** it (within those six weeks – not "six months"), or if the President **withdraws** it.
@@ -59,6 +59,7 @@
 | Maximum gap between sessions | 6 months |
 | Maximum life | **6 months + 6 weeks** |
 | Linked limit – **Art. 101(4)** | MP's unexcused absence for **60 days** vacates the seat (prorogation and adjournments of more than four consecutive days excluded) |
+- **Satisfaction and judicial review:**
 | Year | Event | Effect |
 |---|---|---|
 | 1975 | **38th Amendment** | Satisfaction under Arts. 123, 213, 352 made **final** |
@@ -68,7 +69,7 @@
 - Ordinances are **subject to judicial review**; criticism – they **bypass parliamentary deliberation**.
 - In news (2026): the **Supreme Court (Number of Judges) Amendment Ordinance, 2026** (judges 33 → 37 besides the CJI) revived the debate on **ordinance misuse and executive overreach**.
 - AP: the State used a Governor's ordinance (**Art. 213**) on **organ-transplant committees**.
-~~ Sources: NextGen Polity - APPSC Exams p.386 (src/polity/nextgen-polity-full.txt); PMF Polity Notes Part 2 p.3; Rocket Polity Part 2 ("Session Gap vs Ordinance Lifespan", "Ordinance-Making Power"); PMF Lens June 2026 (2) 1.13 p.3; Constitution of India Arts. 85, 123(2)
+~~ Sources: NextGen Polity - APPSC Exams p.386 (src/polity/nextgen-polity-full.txt); PMF Polity Notes Part 2 p.3; Rocket Polity Part 2 p.52, p.82-84; PMF Lens June 2026 (2) 1.13 p.3; Constitution of India Arts. 85, 123(2)
 
 === Pardoning Power – Article 72: Forms and Nature
 - **Art. 72**: the President may "grant **pardons, reprieves, respites or remissions** of punishment or **suspend, remit or commute** the sentence of any person convicted of any offence" – not Arts. 62, 63, 70, 71, 73, 74 or 75.
@@ -96,13 +97,13 @@
 | Case | Holding |
 |---|---|
 | **Maru Ram (1980)** | Power exercised on the **Council of Ministers' advice** |
-| **Kehar Singh (1989)** | President may examine the evidence afresh; no right of oral hearing |
+| **Kehar Singh (decided 1988, reported AIR 1989)** | President may examine the evidence afresh; no right of oral hearing |
 | **Epuru Sudhakar v Govt of AP (2006)** | **Limited judicial review** – mala fide, arbitrary or irrelevant grounds |
-~~ Sources: PMF Polity Notes Part 2 p.4, p.44 (src/polity/pmf-polity-02.txt); NextGen Polity - APPSC Exams p.300 (Governor, src/polity/nextgen-polity-full.txt); Rocket Polity Part 1 p.27-31
+~~ Sources: PMF Polity Notes Part 2 p.4, p.80 (src/polity/pmf-polity-02.txt); NextGen Polity - APPSC Exams p.297 (Governor, src/polity/nextgen-polity-full.txt); Rocket Polity Part 1 p.31
 
 === State Bills Reserved for the President – Articles 200 and 201
 - **Art. 200**: the Governor may **assent, withhold, return** (non-Money Bill) or **reserve** a Bill for the President; the **Governor has no pocket veto**.
 - **Art. 201**: for a reserved Bill the President **declares or withholds assent**, or directs its return (non-Money Bill); no time limit is written in Arts. 200 or 201.
 - **8 April 2025, State of Tamil Nadu v Governor**: indefinite inaction under **Art. 200** held **justiciable**; **ten** TN Bills deemed assented.
 - **Nov 2025, Presidential reference (Art. 143, five judges)**: courts **cannot fix timelines** for the Governor or President; **no deemed assent**; the powers cannot be used arbitrarily.
-~~ Sources: PMF Polity Notes Part 2 p.2 (src/polity/pmf-polity-02.txt); Rocket Polity Part 1 p.55; old app notes 2:26 sub 3; Praveen CA360 Sep 2026 (Art. 143 reference)
+~~ Sources: PMF Polity Notes Part 2 p.2 (src/polity/pmf-polity-02.txt); Rocket Polity Part 1 p.51; old app notes 2:26 sub 3; Praveen CA360 Sep 2026 (Art. 143 reference)
