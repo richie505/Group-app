@@ -26,3 +26,10 @@
 - y1d681dae11e colonisation of Indo-China → Salankayanas, low certainty.
 - Gooty fort "7th century" inscriptions (2 PYQs) from the Anantapur district website only.
 - Old-note errors fixed: Hiranyagarbha by Attivarma (not Damodaravarma); A.R. (Rangaswami) Saraswati.
+
+## b2-r002 Sources of the Constitution (103 PYQs, 14 keys changed, 41 generated, 4 outdated, 4 no key)
+- yed8d3460ef9 (G1 "most profound influence") British Constitution → GoI Act 1935.
+- yb3044d7f4cd Rule of Law objective: All of the above → Liberty of citizens (judgement call).
+- No correct option (-1): yb9e379e1940 emergency powers (printed South Africa; real 1935 Act / Weimar); yc74a51193d1 G2 Mains 2025 match (correct a-iii b-iv c-ii d-i not among codes — check the paper); ydde65211829 garbled options; yce659a3c6c0 suspension of FRs (Weimar not offered).
+- yfddf5b70ec6 integrated judiciary A–R: Laxmikanth (1935 Act) vs NextGen p.164 (US) — R false either way.
+- Outdated GK: US Vice-President, Women's Hockey World Cup, Miss Universe, Ambedkar Overseas Vidya Nidhi — verify the 2026 facts.
