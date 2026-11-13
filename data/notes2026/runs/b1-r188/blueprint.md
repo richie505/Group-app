@@ -8,7 +8,7 @@ Data: 146 PYQs (keys.jsonl), 165 app MCQs, 311 in all (all-mcqs.json). Counts fr
 |---|---|
 | PYQs | 146 (filed: row 188 – 76, row 189 – 36, row 190 – 34) |
 | After mapping | row 188 – 63; row 189 – 27; row 190 – 31; moved out – 25 |
-| Keys from the notes / generated | 113 / 33 (21 not in notes – mostly off-topic GK, 6 conflict, 5 ambiguous, 1 contradiction) |
+| Keys from the notes / generated | 113 / 33 (22 not in notes – mostly off-topic GK, 5 conflict, 5 ambiguous, 1 contradiction) |
 | Keys changed | 10 (6 were unkeyed -1 → keyed; Brahmo Samaj year ×2 → option added "1828"; Brahmunical Magazine → Rammohan Roy; UP Lower 2013 statements → 1, 2 and 4) |
 | Disputed | 3 PYQs (prophet of nationalism; Hindu College founder; Prarthana Samaj and untouchability) + 1 app MCQ (Ranade's widow association 1861/1865) |
 | Outdated / left at -1 | 0 / 0 |
