@@ -77,7 +77,7 @@
 - Penalties: revealing identity = up to **3 years + ₹50,000**; knowingly false complaint = up to **2 years + ₹30,000**.
 - **SPG** excluded. Bill passed the Lok Sabha in 2011; **Act of 2014**, still **not brought into force** (CVC uses the 2004 PIDPI resolution).
 - **Amendment Bill 2015** (Lok Sabha, May 2015) would bar disclosures in **RTI Sec 8(1)-type** categories; **lapsed in 2019** with the 16th Lok Sabha.
-~~ Sources: Laxmikanth 8th ed. Part 2 p.261-262; PMF Polity Part 4 (CVC, whistleblower complaints); PMF LENS Jul 2026 Part 1; app notes 2:92 sub 3
+~~ Sources: Laxmikanth 8th ed. Part 2 p.262; PMF Polity Part 4 p.24 (Act not in force); PMF LENS Jul 2026 Part 1 p.17; app notes 2:92 sub 3
 
 === Agencies – CBI, CVC, ED
 | Agency | Basis | Parent | Key powers |
@@ -96,7 +96,7 @@
 - The Act obliged every State to set up a **Lokayukta within one year**.
 - **AP Lokayukta and Upa-Lokayukta Act, 1983**; Lokayukta = **higher functionaries**, Upa-Lokayukta = the rest; **2024 amendment**: retired HC CJ or Judge, chosen by a committee **chaired by the CM**, term **5 years**.
 - **Aug 2026**: **Justice Tallapragada Mallikarjuna Rao** selected and sworn in (25 Aug) as AP Lokayukta; oath by Governor **S. Abdul Nazeer**.
-~~ Sources: Rocket Polity #1 p.4; Praveen CA-360 Aug 2026 p.37 (AP Lokayukta); app notes 2:92 sub 5
+~~ Sources: Rocket Polity Part 1 p.5 (Lokpal); Praveen CA-360 Aug 2026 p.37 (AP Lokayukta); app notes 2:92 sub 5
 
 === Citizens' Oversight Tools
 | Tool | Body / origin |
