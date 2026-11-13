@@ -6,7 +6,7 @@ Data: 105 PYQs (keyed in keys.jsonl) + 113 app MCQs = 218 MCQs, all mapped (mapp
 | Item | Count |
 |---|---|
 | PYQs | 105 (98 kept in row 138, 7 moved off-topic) |
-| Keys from the notes / generated | 77 / 28 (not in notes 19, ambiguous 4, conflict 4, outdated 1) |
+| Keys from the notes / generated | 77 / 28 (not in notes 20, ambiguous 4, conflict 3, outdated 1) |
 | Keys changed | 1 (Alamgirnama: no printed key → Mirza Muhammad Kazim) |
 | ⚠ Disputed lines | 6 (Hamzanama ×2, Tarikh-i-Alfi, NDA 2013 statement III, Akbarnama "seven years", Dhrupad / "Taraka") |
 | ⚠ Outdated | 1 (Rural Development and Panchayati Raj minister, moved to book 6) |
