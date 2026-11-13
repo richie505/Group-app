@@ -47,3 +47,7 @@
 - y78f266cb399 first Lok Sabha session: "18 May 1952" kept as a misprint (actual 13 May 1952).
 - NextGen errors overridden: Flag Committee = Rajendra Prasad (not Kripalani); 207 members at first meeting (not 211); 2 y 11 m 18 days.
 - Ambiguous but kept: y80a5928fd26, ya086d80c757, ya5203fb479c, y1dafa310790, yed5e186e6d1, y7734ce145ce.
+
+## b2-r001-k1 Constituent Assembly, remaining 32 PYQs (3 keys changed)
+- y477bb618fa6 "Constitution was adopted on": printed 26 Jan 1950 → no key (-1): adopted 26 Nov 1949 (not offered).
+- Light sources: y1061cb1b529 Azad and deferment of adult franchise; y1c410c7df89 "sacred document" = Ambedkar; y667bd22de20 "Deshratna" = Rajendra Prasad.

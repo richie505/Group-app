@@ -451,9 +451,53 @@ def status():
         print(f"book {b}: {sum(1 for j in bj if j['status'] == 'done')}/{len(bj)} done")
 
 
+
+def done_next(jid, book=None):
+    """Marks <jid> done (check must pass), picks the next runnable job (same book first), preps it, prints its prompt."""
+    probs = check(jid, quiet=True)
+    if probs:
+        print("check failed:", probs[:5])
+        return
+    jobs = load_jobs()
+    st = {j["id"]: j["status"] for j in jobs}
+    b = int(book) if book else get(jid)["book"]
+    nxt = None
+    for j in jobs:
+        if j["id"] == jid:
+            j["status"] = "done"
+            st[jid] = "done"
+    for pref in (b, None):
+        for j in jobs:
+            if j["status"] == "todo" and st.get(j.get("after"), "done") == "done" and (pref is None or j["book"] == pref):
+                nxt = j
+                break
+        if nxt:
+            break
+    if nxt:
+        nxt["status"] = "running"
+    save_jobs(jobs)
+    if nxt:
+        prep(nxt["id"])
+        print_prompt(nxt["id"])
+
+
+def print_prompt(jid):
+    j = get(jid)
+    titles = dict(l.rstrip("\n").split("\t", 1) for l in open(f"{D}/rows-book{j['book']}.txt"))
+    topic = f"book {j['book']} rows {j['rows']}: " + "; ".join(titles[str(r)] for r in j["rows"])
+    txt = (open(f"{D}/HELPER-PROMPT{'-KEYS' if j['type'] == 'keys' else ''}.txt").read()
+           .replace("{JOB}", jid).replace("{TOPIC}", topic))
+    open(f"{run_dir(j)}/PROMPT.txt", "w").write(txt)
+    print(f"next: {jid} ({j['type']}, book {j['book']}, rows {j['rows']}) -> {run_dir(j)}/PROMPT.txt")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1]
-    if cmd in ("plan", "apply", "status"):
+    if cmd == "prompt":
+        print_prompt(sys.argv[2])
+    elif cmd == "done_next":
+        done_next(*sys.argv[2:])
+    elif cmd in ("plan", "apply", "status"):
         globals()[cmd]()
     else:
         globals()[cmd](sys.argv[2])
