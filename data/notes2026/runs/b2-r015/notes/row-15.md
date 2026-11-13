@@ -35,37 +35,7 @@
 > Asked as: "Which Article…?" – 40 (village panchayats, ~15 times), 51 (international peace, ~10), 46 (~6), 44 (UCC, 4), 50 (4), 48/49/48A/43A/41/45/47/38 (1-3 each); match lists (APPSC ASO: 46-47-40, 39-48-47; APSLPRB SI 2019: 50-IV, 48-III, 42-II, 47-I).
 ~~ Sources: NextGen Polity - APPSC Exams (src/polity/nextgen-polity-full.txt) p.248-251 (Arts. 36-51 text); Rocket Polity Part 1 (src/polity/rocket-polity-01.txt) p.45-48; PMF Polity Part 1 (src/polity/pmf-polity-01.txt) p.78-81, p.84 (UPSC 2021)
 
-=== Article 37 – Non-justiciable, yet Fundamental in Governance
-# The text
-- **Article 37:** the provisions of Part IV "**shall not be enforced by any court**", but the principles are "**fundamental in the governance of the country**" and "it shall be the **duty of the State to apply these principles in making laws**".
-- So DPSPs are **non-justiciable** – not enforceable, no justiciable rights for individuals, **no legal duty** on the State; their sanction is **moral and political** (public opinion, elections).
-- They are **not limitations** on the legislative or executive function (UPSC 2017: "neither") – they are **guide-posts for legislation** and a **positive mandate** to the State, not prohibitions or "mere moral precepts".
-- "Fundamental in the governance of the country" = **DPSPs** (UPSC 2013) – not FRs or FDs.
-# FR vs DPSP
-| Basis | Fundamental Rights | Directive Principles |
-|---|---|---|
-| Place | Part III, Arts. 12-35 | Part IV, Arts. 36-51 |
-| Courts | **Justiciable** | **Non-justiciable** (Art. 37) |
-| Character | **Negative** – restrain the State | **Positive** – exhort the State to act |
-| Aim | Political democracy | **Social and economic democracy**, welfare state |
-| Sanction | Legal | Moral and political |
-| Conflict | Generally prevail (Champakam Dorairajan 1951) | Subordinate; laws for 39(b), (c) protected by Art. 31C |
-- **Minerva Mills (1980):** **harmony and balance** between Part III and Part IV is part of the **basic structure**.
-- **Kesavananda Bharati (1973):** Justices Shelat and Grover listed "the **mandate to build a welfare State contained in Part IV**" among basic features – the basis for NDA 2012's "all of the above".
-> A-R (APPSC G2): "DPSPs are not independently enforceable" + "they serve as guide-posts for legislation" → both true, R explains A (official key). Odd one out: "They impose a legal duty on the State" ✗; "directed at making India an advanced capitalist country" ✗.
-~~ Sources: NextGen Polity p.13, p.245-246, p.248 (Art. 37; FR negative, DPSP positive); PMF Polity Part 1 p.77, p.82-83 (sanction; Champakam, Minerva), p.84 (UPSC 2020); Rocket Polity Part 1 p.46
 
-=== Part IV Basics – Articles 36-51, Welfare State and Aims
-# Where and what
-- **Part IV**, **Articles 36 to 51** (16 Articles) – not Part III (12-35, FRs), Part I (1-4), Part II (5-11), Part IVA (FDs).
-- **Article 36:** "State" has the **same meaning as in Part III** (Art. 12).
-- **Aim:** **social and economic democracy** (not political democracy, which FRs secure) and a **welfare state** – a **secular** welfare state, **not a religious State** and not a capitalist, police or communist State.
-- **Welfare state:** its ideal is enshrined in the **DPSPs** (UPSC 2015, 2020); "**The State is everywhere: it leaves hardly a gap**" describes a welfare State; it gives **special care to the welfare of weaker sections**.
-- **Economic justice:** in the **Preamble and the DPSPs** (UPSC 2013); **economic democracy** is envisaged through the DPSPs; **social justice** runs through the Preamble, FRs, DPSPs and the special provisions for Scheduled and Tribal Areas.
-- **Economic goals:** from the DPSPs flow two dominant goals of economic policy – **increasing national income** and **improving its distribution**.
-- **Nature:** **positive** and **expansive** (they widen the State's role; FRs are restrictive/negative); their spirit is welfare and **humanism** (APPSC key).
-> Asked as: "Which Part?" (IV – ~10 times), "Articles 36 to 51 cover…", "goal of DPSP" (welfare state), "not an objective" (religious State), "purpose" (social and economic democracy – UPSC 2002).
-~~ Sources: NextGen Polity p.245 (Part IV, aims, positive obligations), p.247; PMF Polity Part 1 p.77 (Police State into Welfare State), p.84 (UPSC 2020); Rocket Polity Part 1 p.45, p.47; app notes 2:15 sub 0
 
 === Is It a DPSP? – Lists and Odd Ones Out
 | Is a DPSP (Article) | Is NOT a DPSP (where it is) |
@@ -86,6 +56,44 @@
 > Odd-one-out PYQs: "adult education" (silent – UP 2008), "free education up to 16" (UP 2013), "free education to 14" (UDA/LDA 2010, after 2002), "RTI" (UPPCS 2006), "untouchability" (State PSC), "increasing international trade" (APPSC G2 Mains 2017).
 ~~ Sources: NextGen Polity p.248-251 (Part IV list), p.312 (Concurrent List Entry 20 "Economic and social planning"), p.294 (PYQ 140: Concurrent); Rocket Polity Part 2 (src/polity/rocket-polity-02.txt) "Economic and Social Planning: Concurrent List"; PMF Polity Part 1 p.85 (UPSC 2020 separation of judiciary); app notes 2:15 sub 3
 
+
+
+=== Part IV Basics – Articles 36-51, Welfare State and Aims
+# Where and what
+- **Part IV**, **Articles 36 to 51** (16 Articles) – not Part III (12-35, FRs), Part I (1-4), Part II (5-11), Part IVA (FDs).
+- **Article 36:** "State" has the **same meaning as in Part III** (Art. 12).
+- **Aim:** **social and economic democracy** (not political democracy, which FRs secure) and a **welfare state** – a **secular** welfare state, **not a religious State** and not a capitalist, police or communist State.
+- **Welfare state:** its ideal is enshrined in the **DPSPs** (UPSC 2015, 2020); "**The State is everywhere: it leaves hardly a gap**" describes a welfare State; it gives **special care to the welfare of weaker sections**.
+- **Economic justice:** in the **Preamble and the DPSPs** (UPSC 2013); **economic democracy** is envisaged through the DPSPs; **social justice** runs through the Preamble, FRs, DPSPs and the special provisions for Scheduled and Tribal Areas.
+- **Economic goals:** from the DPSPs flow two dominant goals of economic policy – **increasing national income** and **improving its distribution**.
+- **Nature:** **positive** and **expansive** (they widen the State's role; FRs are restrictive/negative); their spirit is welfare and **humanism** (APPSC key).
+> Asked as: "Which Part?" (IV – ~10 times), "Articles 36 to 51 cover…", "goal of DPSP" (welfare state), "not an objective" (religious State), "purpose" (social and economic democracy – UPSC 2002).
+~~ Sources: NextGen Polity p.245 (Part IV, aims, positive obligations), p.247; PMF Polity Part 1 p.77 (Police State into Welfare State), p.84 (UPSC 2020); Rocket Polity Part 1 p.45, p.47; app notes 2:15 sub 0
+
+
+
+=== Article 37 – Non-justiciable, yet Fundamental in Governance
+# The text
+- **Article 37:** the provisions of Part IV "**shall not be enforced by any court**", but the principles are "**fundamental in the governance of the country**" and "it shall be the **duty of the State to apply these principles in making laws**".
+- So DPSPs are **non-justiciable** – not enforceable, no justiciable rights for individuals, **no legal duty** on the State; their sanction is **moral and political** (public opinion, elections).
+- They are **not limitations** on the legislative or executive function (UPSC 2017: "neither") – they are **guide-posts for legislation** and a **positive mandate** to the State, not prohibitions or "mere moral precepts".
+- "Fundamental in the governance of the country" = **DPSPs** (UPSC 2013) – not FRs or FDs.
+# FR vs DPSP
+| Basis | Fundamental Rights | Directive Principles |
+|---|---|---|
+| Place | Part III, Arts. 12-35 | Part IV, Arts. 36-51 |
+| Courts | **Justiciable** | **Non-justiciable** (Art. 37) |
+| Character | **Negative** – restrain the State | **Positive** – exhort the State to act |
+| Aim | Political democracy | **Social and economic democracy**, welfare state |
+| Sanction | Legal | Moral and political |
+| Conflict | Generally prevail (Champakam Dorairajan 1951) | Subordinate; laws for 39(b), (c) protected by Art. 31C |
+- **Minerva Mills (1980):** **harmony and balance** between Part III and Part IV is part of the **basic structure**.
+- **Kesavananda Bharati (1973):** Justices Shelat and Grover listed "the **mandate to build a welfare State contained in Part IV**" among basic features – the basis for NDA 2012's "all of the above".
+> A-R (APPSC G2): "DPSPs are not independently enforceable" + "they serve as guide-posts for legislation" → both true, R explains A (official key). Odd one out: "They impose a legal duty on the State" ✗; "directed at making India an advanced capitalist country" ✗.
+~~ Sources: NextGen Polity p.13, p.245-246, p.248 (Art. 37; FR negative, DPSP positive); PMF Polity Part 1 p.77, p.82-83 (sanction; Champakam, Minerva), p.84 (UPSC 2020); Rocket Polity Part 1 p.46
+
+
+
 === Amendments that Added or Changed DPSPs
 | Amendment | Year | Change |
 |---|---|---|
@@ -100,17 +108,7 @@
 > Asked as: "Which was added by the 42nd?" (43A – UPSC 2017, UPPCS 2019; 39A – NDA 2020; free legal aid "later date" – UPRO 2014), "year of free legal aid" (1976 – RAS 2024), "86th altered…" (ECCE till six – WBCS 2019).
 ~~ Sources: Rocket Polity Part 1 p.46, p.48 (amendment table); PMF Polity Part 1 p.81-82 (amendment table; 42nd strengthened 39(f)), p.82 (Champakam → 1st Amendment); NextGen Polity p.250 (Art. 45, 43A); M. Laxmikanth, Indian Polity ch. "Directive Principles" (42nd added four DPSPs); app notes 2:15 sub 6
 
-=== Classification – Socialist, Gandhian, Liberal-intellectual
-- The **Constitution does not classify** DPSPs; the three-fold grouping (**socialistic, Gandhian, liberal-intellectual**) is an **academic** one for convenient study – "all of the above" (UPPCS 2018).
-| Group | Articles | Ideas |
-|---|---|---|
-| **Socialistic** (economic and social principles) | 38, 39, 39A, 41, 42, 43, 43A, 47 | Welfare, livelihood, equal pay, legal aid, right to work, living wage, workers in management |
-| **Gandhian** (6) | **40, 43, 43B, 46, 47, 48** | **Village panchayats**, **cottage industries**, co-operatives, weaker sections, **prohibition**, **cow protection** |
-| **Liberal-intellectual** (7) | 44, 45, 48, 48A, 49, 50, 51 | **UCC**, ECCE, modern agriculture, environment, monuments, separation of judiciary, international peace |
-- **Overlaps:** 43 and 47 are Socialist and Gandhian; 48 is Gandhian and Liberal-intellectual; 43B is Gandhian.
-- **Not Gandhian:** **UCC** (liberal-intellectual) and **right to work** (socialist); "reasonable leisure and cultural opportunities" for workers (43) is asked as socialist.
-> UPSC 2012: Gandhian = village panchayats + cottage industries (**2 and 3**); State PSC: not Gandhian = UCC + right to work (**2 and 4**); APPSC JA (NTRUHS): "economic and social principles" = livelihood (39(a)) + equal pay (39(d)).
-~~ Sources: NextGen Polity p.247-248 (three groups), p.165; Rocket Polity Part 1 p.45, p.47 (Gandhian 6, Liberal 7); PMF Polity Part 1 p.77-79 (not watertight; overlaps)
+
 
 === Sources and Antecedents; Jammu and Kashmir
 # Foreign source
@@ -129,6 +127,8 @@
 - **C.O. 272 of 5 August 2019** superseded the 1954 Order and applied **all provisions** of the Constitution to J&K (now a Union Territory since 31 Oct 2019).
 > APPSC G1 2003 asked "not applicable to J&K" with both DPSP and FD among the options – both were true then; today nothing in Part IV is excluded.
 ~~ Sources: NextGen Polity p.245 (Irish 1937 from Spain), p.34 (DPSP did not apply in J&K), p.306 (Part IV and Part IVA not applicable to J&K); PMF Polity Part 1 p.77 (Instrument of Instructions); app notes 2:15 sub 1
+
+
 
 === Implementation – Panchayats, Legal Aid, UCC, Cow Protection
 # Article 40 – village panchayats
@@ -149,6 +149,22 @@
 - **48A:** Wildlife (Protection) Act 1972, Environment (Protection) Act 1986; **45/21A:** RTE Act 2009; **47:** prohibition laws, public health; **39(b), (c):** land reforms.
 ~~ Sources: NextGen Polity p.388 (Art. 40 → 73rd Amendment), p.326; PMF Polity Part 1 p.79 (73rd gave practical shape to Art. 40), p.81 (Uttarakhand UCC 27 Jan 2025), p.83 (implementation laws); PMF Polity Part 2 (src/polity/pmf-polity-02.txt) (Nyaya Panchayats); en.wikipedia.org Hindu code bills (four Acts 1955-56); app notes 2:15 sub 9
 
+
+
+=== Classification – Socialist, Gandhian, Liberal-intellectual
+- The **Constitution does not classify** DPSPs; the three-fold grouping (**socialistic, Gandhian, liberal-intellectual**) is an **academic** one for convenient study – "all of the above" (UPPCS 2018).
+| Group | Articles | Ideas |
+|---|---|---|
+| **Socialistic** (economic and social principles) | 38, 39, 39A, 41, 42, 43, 43A, 47 | Welfare, livelihood, equal pay, legal aid, right to work, living wage, workers in management |
+| **Gandhian** (6) | **40, 43, 43B, 46, 47, 48** | **Village panchayats**, **cottage industries**, co-operatives, weaker sections, **prohibition**, **cow protection** |
+| **Liberal-intellectual** (7) | 44, 45, 48, 48A, 49, 50, 51 | **UCC**, ECCE, modern agriculture, environment, monuments, separation of judiciary, international peace |
+- **Overlaps:** 43 and 47 are Socialist and Gandhian; 48 is Gandhian and Liberal-intellectual; 43B is Gandhian.
+- **Not Gandhian:** **UCC** (liberal-intellectual) and **right to work** (socialist); "reasonable leisure and cultural opportunities" for workers (43) is asked as socialist.
+> UPSC 2012: Gandhian = village panchayats + cottage industries (**2 and 3**); State PSC: not Gandhian = UCC + right to work (**2 and 4**); APPSC JA (NTRUHS): "economic and social principles" = livelihood (39(a)) + equal pay (39(d)).
+~~ Sources: NextGen Polity p.247-248 (three groups), p.165; Rocket Polity Part 1 p.45, p.47 (Gandhian 6, Liberal 7); PMF Polity Part 1 p.77-79 (not watertight; overlaps)
+
+
+
 === Criticism – Who Said What
 | Person | Remark |
 |---|---|
@@ -161,6 +177,8 @@
 | Sir Ivor Jennings | "**Pious aspirations**" (pious = devoutly religious / well-meant but unrealistic) |
 - Most criticism targets **non-justiciability** (Art. 37); the right-to-work debate (FR or DPSP) pitted **K.T. Shah** against **Ambedkar** in the Constituent Assembly.
 ~~ Sources: NextGen Polity p.165 (Ambedkar "novel feature"), p.245; PMF Polity Part 1 p.77, p.83; app notes 2:15 sub 7
+
+
 
 === Directives Outside Part IV; DPSP and Fundamental Duty Links
 | Article | Directive outside Part IV |

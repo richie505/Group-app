@@ -149,3 +149,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y280a82fafb5 IAS 1999 pairs garbled → no key. y6013667c7a1 MGNREGA cattle shelters → option added "None of these"; MGNREGA → VB-G RAM G (gazette not checked).
 - Old notes error fixed: Indus people did not "believe in Spirit and Brahma".
 - Own MCQ fc33477e9f541 "3 Rigvedic hymns to Vishnu" (NextGen) — strictly 5-6.
+
+## b2-r015 DPSP (150 PYQs, 12 changed, 6 outdated, 5 disputed, 1 option added)
+- y5f3fd7bf7cf economic and social planning → Concurrent List (Entry 20); yfca16f13ae5 → option added "Article 48A".
+- Disputed: J&K DPSP (y875d578852a, ybb16dead219); 42nd Amendment count four vs three+39(f) (y21113d2115f, y447ad879706); yd6a5e9f84cc Kesavananda.
+- Weak printed keys kept: yd75a8ed915d, y34b98b8fede, ye0be9ba6ce9, y340a638253e. y414cdea490e is an English synonym question ("pious") — drop?

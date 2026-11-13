@@ -39,7 +39,7 @@
 === Phases and Growth Rates
 | Phase | Average growth |
 |---|---|
-| Before Independence | about **1%** a year; agriculture 0.3% |
+| Before Independence | about **1%** a year; agriculture 0.3%; **agriculture the main livelihood** on the eve of Independence |
 | Plan era (Plans 1-11) | about **4.5%**; agriculture 2-3%, industry 6-8% |
 | 1950-1980 ("Hindu rate") | ~3.5% |
 | 1980-81 to 1989-90 | **5.13-5.18%** |
