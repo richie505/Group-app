@@ -123,11 +123,11 @@
 | **K.M. Nambiar** | Emergency powers a "**fraud on the Constitution**" |
 | **H.V. Kamath** | "**Elephantine**" Constitution (the CA's seal was an elephant) |
 | **Carl Friedrich** | India "not a nation in the traditional western sense but a comprehensive **culture of continental scope**" (APPSC G1 key) |
-- Standard book label: "**federal system with unitary bias**" / "**federal in form, unitary in spirit**" (Laxmikanth, NextGen); Wheare's own phrase is the reverse – "unitary with federal features".
+- Standard book label: "**federal system with unitary bias**" / "**federal in form, unitary in spirit**" (Laxmikanth, NextGen); Wheare's own phrase is the reverse – "unitary with federal features". The unitary features tilt **the balance of power in favour of the Centre** (Laxmikanth), so India is a **quasi-federation**.
 - **D.D. Basu:** neither purely federal nor purely unitary but a combination of both → "quasi-federal because neither federal nor unitary" (UPPSC 2007: A and R true, R explains A).
 - **Supreme Court:** "fundamentally federal with **pronounced unitary elements**".
 - The **Preamble** does **not** describe India as federal, unitary or quasi-federal – it says "**Sovereign Socialist Secular Democratic Republic**".
-- India **is** a federal system with a very strong Centre: "federalism is not practical" or "India is not a Union" are false assertions.
+- India **is** a federal system with a very strong Centre: "India is not a Union" is false; in the UPPSC 1998 A-R the key took "federalism is not practical in India" as true and "India is not a federal State" as false (A true, R false).
 > Harold Laski and Lord Bryce have no label for Indian federalism – pure distractors. "Centralising tendency" = Jennings, not Wheare.
 ~~ Sources: Laxmikanth Indian Polity 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.218-219 (critical evaluation), ch. Salient Features (elephantine size); NextGen Polity - APPSC Exams (full text, src/polity/nextgen-polity-full.txt) p.159, p.163; app notes 2:46 sub 3
 === India – a "Union of States" (Article 1)
