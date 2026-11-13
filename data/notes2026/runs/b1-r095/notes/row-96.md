@@ -1,18 +1,3 @@
-=== Jayapa's Nritta Ratnavali and Perini Shiva Tandavam
-| Work | Author | Post / court | Link |
-|---|---|---|---|
-| **Nritta Ratnavali** (Sanskrit) | **Jayapa Senani** (Jayana, Jayapa Nayaka) | **Gaja Sahini** (head of the elephant corps) of **Ganapatideva** | **Ramappa** madanika poses follow it |
-| Gita Ratnavali, Vadya Ratnavali | Jayapa Senani | same | Music and instruments |
-| Sangita Ratnakara | **Sarangadeva** | **Yadavas of Devagiri** | General music-dance treatise |
-- **Author:** **Jayapa Senani** (G2-A 1989; Labs 2012) – not Racherla Rudra, Prolaya Nayaka or Ganapatideva.
-- **Profession:** **Gaja Sahini** (G2 2019; G2 PYQ) – not Asva Sahini, architect or dancer.
-- **Reign:** **Ganapatideva** (G1 2010; G1 PYQ) – a general and scholar of his court.
-- **Ramappa dance sculptures:** carved on the principles of **Jayapa's Nritta Ratnavali** (G2 2019 ×2) – not Ranganatha Ramayana or a separate "marga/desi" book; the text itself covers **Marga** (classical) and **Desi** (folk) dance and describes **Perini**.
-# Perini Shiva Tandavam
-- **What:** warrior dance of **male warriors before battle**, invoking Shiva, to drum beats; postures carved at Ramappa.
-- **Revived by:** **Nataraja Ramakrishna** (G2 PYQ; APPSC PYQ) from Nritta Ratnavali and the **Ramappa / Thousand Pillar** sculptures – not Vedantam Satyanarayana Sarma, Yamini Krishnamurthy or Raja-Radha Reddy.
-~~ Sources: NextGen Kakatiyas p.31, p.33; NextGen AP History - APPSC 07 p.1; app notes 1:96 (sub 7)
-
 === Ramappa (Rudreswara) Temple, Palampet
 | Particular | Fact |
 |---|---|
@@ -65,6 +50,21 @@
 - **Founder mentioned in a Chalukyan record:** **Mangallu** grant (Prelims 2023).
 - **Satavahana link:** dancers' **Maiputa** = **Kusuma Lepanam**.
 ~~ Sources: NextGen AP History - APPSC 07 p.1; Rocket AP History (inscriptions); NextGen Kakatiyas p.17, p.35, p.53; app notes 1:96 (sub 1)
+
+=== Jayapa's Nritta Ratnavali and Perini Shiva Tandavam
+| Work | Author | Post / court | Link |
+|---|---|---|---|
+| **Nritta Ratnavali** (Sanskrit) | **Jayapa Senani** (Jayana, Jayapa Nayaka) | **Gaja Sahini** (head of the elephant corps) of **Ganapatideva** | **Ramappa** madanika poses follow it |
+| Gita Ratnavali, Vadya Ratnavali | Jayapa Senani | same | Music and instruments |
+| Sangita Ratnakara | **Sarangadeva** | **Yadavas of Devagiri** | General music-dance treatise |
+- **Author:** **Jayapa Senani** (G2-A 1989; Labs 2012) – not Racherla Rudra, Prolaya Nayaka or Ganapatideva.
+- **Profession:** **Gaja Sahini** (G2 2019; G2 PYQ) – not Asva Sahini, architect or dancer.
+- **Reign:** **Ganapatideva** (G1 2010; G1 PYQ) – a general and scholar of his court.
+- **Ramappa dance sculptures:** carved on the principles of **Jayapa's Nritta Ratnavali** (G2 2019 ×2) – not Ranganatha Ramayana or a separate "marga/desi" book; the text itself covers **Marga** (classical) and **Desi** (folk) dance and describes **Perini**.
+# Perini Shiva Tandavam
+- **What:** warrior dance of **male warriors before battle**, invoking Shiva, to drum beats; postures carved at Ramappa.
+- **Revived by:** **Nataraja Ramakrishna** (G2 PYQ; APPSC PYQ) from Nritta Ratnavali and the **Ramappa / Thousand Pillar** sculptures – not Vedantam Satyanarayana Sarma, Yamini Krishnamurthy or Raja-Radha Reddy.
+~~ Sources: NextGen Kakatiyas p.31, p.33; NextGen AP History - APPSC 07 p.1; app notes 1:96 (sub 7)
 
 === Other Kakatiya-era Temples and Paintings
 | Temple | Builder / feature | Place |
