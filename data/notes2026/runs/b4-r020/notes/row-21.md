@@ -1,10 +1,10 @@
 === Evidence of Climate Change – Past Climates and Recent Warming
-# Past climates (asked 6 times)
+# Past climates (asked 7 times)
 - **Tree rings (dendroclimatology)**: ring width is a fairly accurate index of a year's **precipitation** (water available in the growing season); old tree rings are the best record of a place's **past local climate over centuries** (weather logs cover only recent decades).
 - Other evidence: glacial landforms (advances and retreats), sediments of glacial lakes, archaeological finds (Rajasthan wet and cool about 8,000 BC).
 - **Great Ice Age = Pleistocene** (cooling began in the **Pliocene**) – APPSC G1 2002 key: "Pleistocene and Pliocene". Last glacial peak about 18,000 years ago; present interglacial began about 10,000 years ago.
 - **Glaciation of peninsular India** = the **Permo-Carboniferous (Carboniferous) ice age** of Gondwana, recorded in the **Talchir tillite** at the base of the Gondwana rocks; Pleistocene glaciers reached only the Himalaya.
-- **Little Ice Age**: about **1550–1850** (NCERT); much colder winters in Europe and N America; among exam options **1650–1870** is the period given. 950–1250 AD = Medieval Warm Period.
+- **Little Ice Age**: about **1550–1850** (NCERT; others 1300–1850, glaciers greatest **1500–1850**); much colder winters in Europe and N America; among exam options **1650–1870** is the period given. 950–1250 AD = Medieval Warm Period.
 # Recent warming
 | Indicator | Record |
 |---|---|
@@ -19,7 +19,7 @@
 ~~ Sources: NCERT Fundamentals ch.11 (OnlyIAS Physical Geography 08 p.7–8); PMF Physical Geography 01 p.68 (Carboniferous glaciation of Gondwana); Talchir Formation studies (J. Palaeogeography 2015); WMO; IMD; app notes 4:21 sub 0–1
 
 === Causes – Natural and Anthropogenic
-# Natural causes (asked 6 times)
+# Natural causes (asked 5 times)
 | Cause | Meaning / effect |
 |---|---|
 | **Eccentricity** | Shape of Earth's orbit |

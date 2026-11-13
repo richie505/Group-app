@@ -1,5 +1,5 @@
 === Forests and Biomes of the World
-# Biome basics (asked 27 times)
+# Biome basics (asked 29 times)
 - **Biome:** a large naturally occurring community of flora and fauna occupying a **major habitat**, shaped mainly by climate (APPSC Panchayat Secretary).
 - **Anthromes** (anthropogenic biomes): units shaped by sustained human use – croplands, villages, cities.
 - Geomorphic factors of plant and animal distribution: **slope angle, slope aspect and relative relief** (CDS 2020).
@@ -38,7 +38,7 @@
 ~~ Sources: NextGen Rocket World Geography p.29–30 (forest types, biomes); G.C. Leong ch.15, 23, 25; NCERT Fundamentals ch.11 (OnlyIAS Physical Geography 08); PMF Physical Geography 07; app notes 4:20 sub 5
 
 === Peoples of the World's Natural Regions
-# Tribe – habitat (asked 23 times)
+# Tribe – habitat (asked 22 times)
 | People | Region | Life |
 |---|---|---|
 | **Pygmies** (Mbuti, Baka, Twa) | **Congo Basin – equatorial rainforest** (not Irrawaddy) | Hunter-gatherers; **nomadic, no permanent home** (temporary leaf huts, *mongulus*); NOT pastoral nomads |
@@ -74,7 +74,7 @@
 ~~ Sources: NextGen Rocket World Geography p.13–15 (tribes), p.36 (races); NextGen Indian Geography Part 9 (appsc-14) p.5 (races); G.C. Leong ch.15, 17, 18, 20, 25; app notes 4:20 sub 8
 
 === World Climatic Regions – Identify the Type
-# Region table (asked 22 times)
+# Region table (asked 23 times)
 | Region | Location | Climate | Vegetation |
 |---|---|---|---|
 | **Equatorial** | 0–10° N/S: Amazon, **Congo, Gabon, Zaire**, Indonesia (Ethiopia is NOT equatorial – a highland) | Hot, wet all year; mean ~27°C; annual range only 2–3°C; **rain every month**, double peak after the equinoxes; **afternoon convectional thunder rain**; no seasons | Evergreen hardwoods (mahogany, ebony) |
@@ -100,10 +100,11 @@
 - **Asia** has all climatic zones (Equator to near the North Pole).
 - Of the Earth's land, **humid regions** cover the largest share; drylands (arid, semi-arid, dry sub-humid, hyper-arid) together ≈ 41%.
 - Equatorial climate suits plants more than people (constant heat and humidity).
+- Order from the Equator to the poles: equatorial → tropical monsoon → temperate deciduous → tundra.
 ~~ Sources: G.C. Leong ch.15 (equatorial), 16 (monsoon), 17 (savanna), 21 (China and Gulf type), 22 (British type); NCERT Fundamentals ch.11 (OnlyIAS Physical Geography 08); PMF Physical Geography 07; UNCCD (drylands 41%); app notes 4:20 sub 3
 
 === Mediterranean Climate and Hot Deserts
-# Mediterranean (asked 17 times)
+# Mediterranean (asked 16 times)
 - **Hot dry summers, mild wet winters** – **dry summer** is the most noticeable feature (CDS 2019); heavy rain in **winter**.
 - **Cause: seasonal shift of pressure and wind belts.** Summer: belts shift north, **subtropical high** and dry offshore (land) trade winds → drought. Winter (winter solstice, sun over the Tropic of Capricorn): belts shift **south**, **westerlies** and their depressions bring rain. (In the S hemisphere the shift is the reverse.)
 - UPPCS 2022 A-R (winter rain; summer under dry land winds): official key – **both true and R explains A**.
