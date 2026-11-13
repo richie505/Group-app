@@ -7,7 +7,7 @@ Data: 87 PYQs (pyqs.json, keyed in keys.jsonl) + 333 app MCQs (all-mcqs.json); 4
 |---|---|
 | PYQs | 87 (16 flashcards): row 99 = 16, row 100 = 15, row 101 = 9, row 102 = 4, row 103 = 32, row 104 = 11 (printed rows) |
 | Keys settled from the notes / generated | 46 / 41 |
-| Printed keys changed | 9 (3 "no key" now keyed, 3 wrong keys replaced by an added option, 3 flashcard answers corrected) |
+| Printed keys changed | 9 (3 "no key" now keyed, 4 wrong keys replaced by an added option, 2 flashcard answers corrected) |
 | Outdated | 3 (Kakinada–Srikakulam pipeline authorisation terminated 2023; PCI chairman ×2 – now Justice Ranjana Prakash Desai) |
 | -1 keys | 0 |
 | Moved | 18: 13 to other rows of book 2 (0 ×2, 17, 25, 46, 73, 86, 90, 105, 113, 136, 138, 168), 3 to book 6 (r96 ×2 awards, r103 sports), 1 to book 1 (r234 Gandhian era), 1 to book 4 (r89 cycle industry) |
