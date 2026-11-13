@@ -1,16 +1,3 @@
-=== Parliamentary System – Meaning and Why India Is Parliamentary
-- **Names:** **cabinet government**, **responsible government**, Westminster model – the executive stays in power only while it has a **majority (confidence) in the popular House**.
-- **Defining test:** India is parliamentary because the **Council of Ministers is responsible to the Lok Sabha** (Art. 75(3); States Art. 164(2)) – not because the Lok Sabha is directly elected, Parliament can amend the Constitution or the Rajya Sabha cannot be dissolved (UPSC 2015).
-- **Parliamentary executive** = an executive **dependent on the support of a majority in Parliament** – not "elected by Parliament", not "Parliament acting as executive".
-- **Main principle:** **responsibility of the executive to the legislature**; the legislature controls the executive. "Legislature and Executive are independent" is the **presidential** feature.
-- **Removal:** the government is **responsible to Parliament and can be removed by it** (no-confidence) – not "all parties represented", not "elected by the people", not "fixed term" (UPSC 2020).
-- **Basis:** **fusion of powers** – co-operation of legislature and executive; presidential = separation of powers.
-- **Source of authority:** the Constitution sets up the parliamentary system at the **Centre and in the States**; both governments draw authority from the **Constitution**.
-- India = **secular, federal, parliamentary** – "presidential system" ✗; "government by experts" ✗ (ministers are amateurs). India is parliamentary, cabinet and responsible government.
-- **Statements:** "President **represents the nation but does not rule** it" ✓; "executive independent of and not accountable to the legislature" ✗.
-> Exam angle: "There is parliamentary government in India because…" = **CoM responsible to the Lok Sabha** (UPSC 2015 ×2); A-R UPPSC 2025: both true, R explains A.
-~~ Sources: Laxmikanth, Indian Polity 8th ed. ch.13 p.206-209 (src/polity/laxmikanth-indian-polity-01.txt); app notes 2:38 (sub 0)
-
 === Features – Nominal Executive, Collective Responsibility, Double Membership
 | Feature | Fact |
 |---|---|
@@ -27,6 +14,19 @@
 - **Cabinet membership** is **not restricted** to Lok Sabha members.
 > Exam angle: "collectively responsible to" (×6) = **Lok Sabha**, **Art. 75(3)**; "individually responsible to" = **President**; non-member minister = **six months**.
 ~~ Sources: Laxmikanth, Indian Polity 8th ed. ch.13 p.206-207 and ch. Central Council of Ministers (src/polity/laxmikanth-indian-polity-01.txt); Constitution Arts 74-75; app notes 2:38 (sub 1)
+
+=== Parliamentary System – Meaning and Why India Is Parliamentary
+- **Names:** **cabinet government**, **responsible government**, Westminster model – the executive stays in power only while it has a **majority (confidence) in the popular House**.
+- **Defining test:** India is parliamentary because the **Council of Ministers is responsible to the Lok Sabha** (Art. 75(3); States Art. 164(2)) – not because the Lok Sabha is directly elected, Parliament can amend the Constitution or the Rajya Sabha cannot be dissolved (UPSC 2015).
+- **Parliamentary executive** = an executive **dependent on the support of a majority in Parliament** – not "elected by Parliament", not "Parliament acting as executive".
+- **Main principle:** **responsibility of the executive to the legislature**; the legislature controls the executive. "Legislature and Executive are independent" is the **presidential** feature.
+- **Removal:** the government is **responsible to Parliament and can be removed by it** (no-confidence) – not "all parties represented", not "elected by the people", not "fixed term" (UPSC 2020).
+- **Basis:** **fusion of powers** – co-operation of legislature and executive; presidential = separation of powers.
+- **Source of authority:** the Constitution sets up the parliamentary system at the **Centre and in the States**; both governments draw authority from the **Constitution**.
+- India = **secular, federal, parliamentary** – "presidential system" ✗; "government by experts" ✗ (ministers are amateurs). India is parliamentary, cabinet and responsible government.
+- **Statements:** "President **represents the nation but does not rule** it" ✓; "executive independent of and not accountable to the legislature" ✗.
+> Exam angle: "There is parliamentary government in India because…" = **CoM responsible to the Lok Sabha** (UPSC 2015 ×2); A-R UPPSC 2025: both true, R explains A.
+~~ Sources: Laxmikanth, Indian Polity 8th ed. ch.13 p.206-209 (src/polity/laxmikanth-indian-polity-01.txt); app notes 2:38 (sub 0)
 
 === Presidential System – Features and Contrast
 - President = **Head of State and Head of Government** – **single executive**; all executive power vested in him.

@@ -47,30 +47,6 @@
 > Exam angle: "merger fraction" = **two-thirds** (asked ×3); "not covered by the law" = **en-bloc defections**; UPSC 2022 – nominated member six-month statement ✗, no time-frame ✓.
 ~~ Sources: Rocket Polity Sheets #77 p.91-92, #54 p.25 (src/polity/rocket-polity-02.txt); Laxmikanth, Indian Polity 8th ed. ch. Anti-defection Law p.844-846 (src/polity/laxmikanth-indian-polity-02.txt); app notes 2:36 (sub 3, 4)
 
-=== Speaker as Deciding Authority and Key Cases
-| Basis | Defection | General disqualification |
-|---|---|---|
-| Provisions | Tenth Schedule; **Arts 102(2), 191(2)** | Arts 102(1), 103 / **191(1)**, 192 |
-| Decided by | **Speaker / Chairman** acting as a **tribunal** (Para 6) | **President / Governor** |
-| ECI | **Not consulted** | Opinion **binding** (for MPs and State legislators alike) |
-- **Final decision** on a Lok Sabha member's defection: the **Speaker** – not the President, Vice-President or ECI. "President decides on the Council of Ministers' advice" ✗ (UPSC 2025).
-- **Speaker's own disqualification:** decided by **such member of the House as the House may elect** (Para 6(1)).
-- **Petition needed:** the presiding officer acts on a petition by a member – **no suo motu** case (Defection Rules 1985).
-- **No time limit** in the Schedule; Speakers stay members of their parties – hence delays.
-- **Para 7** (bar on courts) **struck down** in Kihoto: it needed State **ratification under Art. 368(2)**. **Judicial review only after** the decision, on limited grounds – mala fides, perversity, natural justice, constitutional mandate.
-| Case | Holding |
-|---|---|
-| **Kihoto Hollohan (1992)** | Tenth Schedule **valid** (no violation of free speech or basic structure); Para 7 struck down; **3:2** |
-| Ravi S. Naik (1994) | Giving up membership ≠ resigning; inferred from conduct |
-| G. Viswanathan (1996) | Expelled member **still belongs** to the party |
-| Karnataka (2019) | Upheld disqualification of **17** rebel MLAs; Speaker **cannot bar them from contesting** |
-| **Keisham Meghachandra (Jan 2020)** | Decide petitions ordinarily within **three months**; Parliament to consider a **permanent independent tribunal** |
-| **Subhash Desai (May 2023)** | The **political party** (not the legislature party) appoints the whip and leader; legislators alone cannot bring a "**deemed merger**" |
-- **Telangana (BRS) matter:** SC gave the Speaker a final **three weeks** for the last **2 of 10** BRS petitions (Feb 2026, app notes).
-- **Jul 2026 (app notes):** Bench of **P.S. Narasimha** and **Alok Aradhe** said gaps in Para 4 are "**matters for Parliament**".
-> Exam angle: "who decides" (×3) = **Speaker**; Speaker's own case = **member elected by the House**; Kihoto = validity + review; Keisham = 3 months; Desai = party appoints whip.
-~~ Sources: Rocket Polity Sheets #77 p.92 (src/polity/rocket-polity-02.txt); Laxmikanth, Indian Polity 8th ed. ch. Anti-defection Law (src/polity/laxmikanth-indian-polity-02.txt); Tenth Schedule para 6-7; app notes 2:36 (sub 5, 6)
-
 === Parliamentary Privileges – Articles 105, 194 and 122
 | Article | Subject |
 |---|---|
@@ -96,6 +72,30 @@
 | **Sita Soren (2024)** | 7 judges: **no immunity for bribery** to speak or vote; overruled **P.V. Narasimha Rao (1998)** |
 > Exam angle: "courts barred from inquiring" = **Art. 122**; privileges article = **105**; "wrong statement" = arrest immunity "whether in session or not" ✗; punishment = **expulsion**, not fine.
 ~~ Sources: Laxmikanth, Indian Polity 8th ed. p.378 (src/polity/laxmikanth-indian-polity-01.txt); NextGen Polity APPSC 21 p.9 (src/polity/nextgen-polity-appsc-21.txt); app notes 2:36 (sub 0)
+
+=== Speaker as Deciding Authority and Key Cases
+| Basis | Defection | General disqualification |
+|---|---|---|
+| Provisions | Tenth Schedule; **Arts 102(2), 191(2)** | Arts 102(1), 103 / **191(1)**, 192 |
+| Decided by | **Speaker / Chairman** acting as a **tribunal** (Para 6) | **President / Governor** |
+| ECI | **Not consulted** | Opinion **binding** (for MPs and State legislators alike) |
+- **Final decision** on a Lok Sabha member's defection: the **Speaker** – not the President, Vice-President or ECI. "President decides on the Council of Ministers' advice" ✗ (UPSC 2025).
+- **Speaker's own disqualification:** decided by **such member of the House as the House may elect** (Para 6(1)).
+- **Petition needed:** the presiding officer acts on a petition by a member – **no suo motu** case (Defection Rules 1985).
+- **No time limit** in the Schedule; Speakers stay members of their parties – hence delays.
+- **Para 7** (bar on courts) **struck down** in Kihoto: it needed State **ratification under Art. 368(2)**. **Judicial review only after** the decision, on limited grounds – mala fides, perversity, natural justice, constitutional mandate.
+| Case | Holding |
+|---|---|
+| **Kihoto Hollohan (1992)** | Tenth Schedule **valid** (no violation of free speech or basic structure); Para 7 struck down; **3:2** |
+| Ravi S. Naik (1994) | Giving up membership ≠ resigning; inferred from conduct |
+| G. Viswanathan (1996) | Expelled member **still belongs** to the party |
+| Karnataka (2019) | Upheld disqualification of **17** rebel MLAs; Speaker **cannot bar them from contesting** |
+| **Keisham Meghachandra (Jan 2020)** | Decide petitions ordinarily within **three months**; Parliament to consider a **permanent independent tribunal** |
+| **Subhash Desai (May 2023)** | The **political party** (not the legislature party) appoints the whip and leader; legislators alone cannot bring a "**deemed merger**" |
+- **Telangana (BRS) matter:** SC gave the Speaker a final **three weeks** for the last **2 of 10** BRS petitions (Feb 2026, app notes).
+- **Jul 2026 (app notes):** Bench of **P.S. Narasimha** and **Alok Aradhe** said gaps in Para 4 are "**matters for Parliament**".
+> Exam angle: "who decides" (×3) = **Speaker**; Speaker's own case = **member elected by the House**; Kihoto = validity + review; Keisham = 3 months; Desai = party appoints whip.
+~~ Sources: Rocket Polity Sheets #77 p.92 (src/polity/rocket-polity-02.txt); Laxmikanth, Indian Polity 8th ed. ch. Anti-defection Law (src/polity/laxmikanth-indian-polity-02.txt); Tenth Schedule para 6-7; app notes 2:36 (sub 5, 6)
 
 === Working of the Law, AP Angle and Reform Proposals
 - **Record:** the law has not stopped defections; its main effect has been to make **presiding officers** the deciders of defection cases (often criticised for partisan delay) – APPSC ASO 2017 key.
