@@ -33,6 +33,8 @@
 - **Kalika Purana:** an **upapurana** of **Shaktism**, likely composed in **Assam** (MPPSC 2018 ×2) – not Vaishnava, Buddhist or Jain.
 # Puranas
 - **18 Mahapuranas**; took their final shape in the **Gupta period**; five topics (**pancha-lakshana**): creation, re-creation, genealogies, manvantaras, dynastic history.
+- **Surya worship:** the silk-weavers' guild built a **Sun temple at Mandsaur** under **Kumaragupta I**; Skandagupta's **Indore** plate endows a lamp in a Sun temple.
+- **Kakatiya link:** the **Kalamukha and Pashupata** sects later flourished under the Kakatiyas.
 ~~ Sources: NextGen AP History 04 p.28 (Pasupata, Kalamukha, Kapalika); NextGen AP History 06 p.14 (Kapalikas from Misra Saivam); PMF Ancient & Medieval 03 p.72; app notes 1:65 (sub 2, 3, 4)
 
 === Gupta Temple Architecture – Deogarh, Bhitargaon and the Panchayatana

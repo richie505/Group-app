@@ -21,6 +21,7 @@
 | Copper | – | Very few |
 | Cowries | – | Daily exchange (Fa-hien) |
 - **AP angle:** **Motupalli and Koduru** served SE Asian trade under the **Vishnukundins**; Satavahana weavers' guild = **Kolika Shreni**.
+- **Sudarshana lake (Girnar):** built by **Pushyagupta**, Chandragupta Maurya's governor; repaired by Rudradaman and again by **Parnadatta**, Skandagupta's governor (Junagadh inscription).
 ~~ Sources: Rocket Indian History 01 p.64, p.66, p.99; PMF Ancient & Medieval 03 p.68; PMF Ancient & Medieval 04 p.142; NextGen Indian History APPSC 03 p.6; app notes 1:64 (sub 4, 6, 7)
 
 === Trade Decline and Urban Decay

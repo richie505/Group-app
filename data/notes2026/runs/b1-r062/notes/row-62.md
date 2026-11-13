@@ -112,4 +112,5 @@
 | **Haraha** stone inscription | **Ishanavarman** – also records his defeat of the Vishnukundin Indrabhattaraka Varma |
 | **Deobaranark** inscription | **Jivitagupta II** (Later Gupta) |
 - **Other neighbours:** **Vakatakas** (Vidarbha; Harishena patronised Ajanta), **Kadambas** of Banavasi (founded by **Mayurasharma**), **Vishnukundins** of Andhra (**Madhava Varma II**, 11 Ashvamedhas).
+- **Outcome:** the decline marked a transition from a single empire to **regional kingdoms and a feudal order** – not a return to Mauryan-style centralisation.
 ~~ Sources: NextGen Indian History APPSC 03 p.6; PMF Ancient & Medieval 03 p.81-82; app notes 1:62 (sub 6, 7, 5)
