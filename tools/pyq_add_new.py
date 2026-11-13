@@ -30,6 +30,7 @@ from pyq_apply import stem as tidy_stem  # noqa: E402
 APPS = {"complete": "app/src/complete/assets", "group2": "app/src/group2/assets"}
 OWN_BOOK = {"ap-history": [1], "polity": [2], "economy": [3], "science-tech": [5]}  # whole books of one subject
 DUP = 0.75   # stem+options similarity above which a question repeats one already in the app
+G2_NEAR = 0.08  # Group 2 keeps its syllabus: a question that fits none of its topics stays in Complete only
 NEAR = 0.0   # owner: keep every PYQ (only mental ability / reasoning are left out): each goes to its closest topic
 
 
@@ -49,17 +50,22 @@ def new_questions():
             q.setdefault("x", "")
             q["file"] = f"OCR2026 {q.get('book', '')}"
             a = q.get("a", -1)
-            q["a"] = a if isinstance(a, int) and -1 <= a <= 3 else -1
+            q["a"] = a if isinstance(a, int) and -1 <= a < max(len(q["o"]), 1) else -1  # 5-option keys up to 4
             if q.get("unclear"):
                 dropped["unclear OCR: waits for a check against the scanned PDF"] += 1
                 continue
             if MENTAL.search(q["s"]):
                 dropped["mental ability / reasoning"] += 1
                 continue
-            if len(q["s"]) < 10 or len(q["o"]) not in (4, 5) or any(not o for o in q["o"]) or not (-1 <= q["a"] < len(q["o"])):
+            if q.get("k") == "f":  # a one-liner (question + printed answer): a flashcard
+                if len(q["s"]) < 8 or not str(q.get("at", "")).strip():
+                    dropped["malformed one-liner"] += 1
+                    continue
+                q["o"], q["a"] = ["Knew it", "Did not know"], 0
+            elif len(q["s"]) < 10 or len(q["o"]) not in (4, 5) or any(not o for o in q["o"]) or not (-1 <= q["a"] < len(q["o"])):
                 dropped["malformed (stem, options or key)"] += 1
                 continue
-            k = norm(q["s"])[:80] + "|" + "|".join(sorted(norm(o) for o in q["o"]))
+            k = norm(q["s"])[:80] + "|" + ("f:" + norm(q.get("at", "")) if q.get("k") == "f" else "|".join(sorted(norm(o) for o in q["o"])))
             if k in seen:
                 dropped["repeated inside the new books"] += 1
                 continue
@@ -74,7 +80,9 @@ def to_mcq(q):
          "src": src}
     if q.get("x"):
         o["x"] = q["x"][:1500]
-    if q["a"] < 0:
+    if q.get("k") == "f":
+        o["k"], o["at"], o["a"] = "f", str(q["at"]).strip(), 0
+    elif q["a"] < 0:
         o["k"], o["a"] = "u", -1
     if re.search(r"\bAPPSC\b|\bA\.?P\.?P\.?S\.?C\b", src, re.I):
         o["ap"] = 1
@@ -143,7 +151,7 @@ def place(app, assets, new):
             score = np.where(mask, score, -1)
             k = int(score.argmax())
             conf = float(max(sm[j, top].max(), sn[j, k] * 1.5))
-            if conf < NEAR or not mask.any():
+            if conf < (G2_NEAR if app == "group2" else NEAR) or not mask.any():
                 off.append(q["id"])
                 continue
             sub = best_match(secs[k], [q if q["a"] >= 0 else dict(q, a=0, o=[" ".join(q["o"])])])[0]

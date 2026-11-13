@@ -38,6 +38,11 @@ in its paper, or your best reading>, "s": "<stem>", "o": ["<opt1>", "<opt2>", "<
   other options or the question make obvious). If a stem or an option still cannot be read with certainty, write
   the question anyway with your best reading, put "[?]" where text is lost, set "a": -1 unless the key is certain,
   and add "unclear": 1. Such questions are checked against the scanned PDF before they go into the app.
+- ONE-LINERS (question + printed answer, no options): keep them too, as flashcards, in
+  data/pyq/ocr2026/out/<chunk>-oneliners.jsonl, one line each:
+  {"id": "ocr26-<chunk>-<page>-<n>-f", "exam": …, "year": …, "book": …, "page": …, "n": …, "s": "<question>",
+   "k": "f", "at": "<the printed answer, exactly>", "o": ["Knew it", "Did not know"], "a": 0, "x": "", "src": …}
+  Never invent options for them. Skip a one-liner only if its question or answer cannot be read.
 - Statements, List-I/List-II and assertion/reason: keep their lines ("1. …\n2. …", "A. … B. …", "List-I … List-II …")
   in the stem, and the codes as the four options.
 - English only. Never invent a question, an option or a key.
