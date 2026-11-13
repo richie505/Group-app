@@ -58,3 +58,9 @@
 - No correct option: yf9960cb6bb9 word NOT in the Preamble (all four are); yaa54d316e18 "key of the Constitution" (Barker / SC, not Ambedkar).
 - Ambiguous kept: ybe5c07672b4 "Unity" added by 42nd (only "integrity" was); yf57bedd766f; yd01c2ef4180 / y09d4a7d9e58 → Bommai.
 - Rocket p.37 Golaknath vs NextGen Kesavananda (Preamble part of the Constitution): notes follow NextGen.
+
+## b2-r005 Parts, Schedules, Articles (75 PYQs, 3 keyed from -1, 2 outdated)
+- Settled counts: 395 Articles / 22 Parts / 8 Schedules originally; ~470 / 25 / 12 now; 106th Amendment latest (2026). NextGen p.160 "447 Articles, 24 Parts" is outdated.
+- Ninth Schedule Acts: NextGen 282 vs Rocket 284.
+- Own MCQ n722ef076557 Bhojpuri demand June 2026: no Drive source for the date.
+- Duplicates: UPSC 2003 Ninth Schedule ×3 ids; CGPSC Chhattisgarhi ×2.
