@@ -28,7 +28,7 @@ from pyq_place import clean, MENTAL, qtext, mcq_text, sec_text  # noqa: E402
 from pyq_apply import stem as tidy_stem  # noqa: E402
 
 APPS = {"complete": "app/src/complete/assets", "group2": "app/src/group2/assets"}
-OWN_BOOK = {"ap-history": [1], "polity": [2], "economy": [3], "science-tech": [5]}  # whole books of one subject
+OWN_BOOK = {"ap-history": [1], "polity": [2], "economy": [3], "science-tech": [5]}  # Vijeta books mix subjects: none  # whole books of one subject
 DUP = 0.75   # stem+options similarity above which a question repeats one already in the app
 G2_NEAR = 0.08  # Group 2 keeps its syllabus: a question that fits none of its topics stays in Complete only
 NEAR = 0.0   # owner: keep every PYQ (only mental ability / reasoning are left out): each goes to its closest topic
@@ -40,7 +40,7 @@ def norm(t):
 
 def new_questions():
     out, seen, dropped = [], set(), defaultdict(int)
-    for f in sorted(glob.glob("data/pyq/ocr2026/out/*.jsonl")):
+    for f in sorted(glob.glob("data/pyq/ocr2026/out/*.jsonl") + glob.glob("data/pyq/vijeta/out/*.jsonl")):
         for line in open(f):
             if not line.strip():
                 continue
