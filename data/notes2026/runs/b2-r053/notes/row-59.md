@@ -63,6 +63,7 @@
 | Fiscal Health Index | NITI Aayog |
 | **Ease of Doing Business** (BRAP) | **DPIIT** |
 | **Swachh Survekshan** | **MoHUA** – not NITI |
+# Andhra Pradesh's positions
 | AP index | Position |
 |---|---|
 | SDG India Index 2023-24 | **74/100, Frontrunner** |
