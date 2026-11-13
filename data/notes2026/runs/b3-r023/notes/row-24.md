@@ -33,7 +33,7 @@
 | 1993-94 | **Feb 1999** (UPSC 2000) | 1980-81 |
 | 1999-2000 | 2006 | 1993-94 (still "present" base at UPPCS 2009) |
 | 2004-05 | Jan 2010 | 1999-2000 |
-| **2011-12** | **Jan 2015** | **2004-05** (APPSC 2012-2023 and UPPCS 2015-16 asked this 6 times) |
+| **2011-12** | **Jan 2015** | **2004-05** (APPSC 2012-2023 and UPPCS 2015-16 asked this 5 times) |
 | **2022-23** | **27 Feb 2026** (current) | 2011-12 |
 - **2015 change = both base year and method** (RAS 2013 re-exam): GDP at factor cost dropped; headline = **GVA at basic prices**; GDP at market prices; **MCA-21** corporate database partly replaced ASI.
 - **AP GSDP base**: 1999-2000 at the 2008 exam; AP still reports at **2011-12** (APSES 2024-25), moving to 2022-23.

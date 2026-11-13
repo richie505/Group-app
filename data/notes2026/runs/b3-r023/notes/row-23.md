@@ -9,7 +9,7 @@
 - **"Net product method"** = the product method (G1 2007).
 - **"Final product method":** standard texts (NCERT/NIOS, NextGen) place it under the **product method** – value of final goods produced (the other variant being value added); one APPSC flashcard key gave "expenditure method".
 - All three give the **same total** (product = income = expenditure).
-> Most asked angle: "Which is NOT a method?" – 7 PYQs. Answer = the odd one (export-import, savings, diminishing cost, gross value).
+> Most asked angle: "Which is NOT a method?" – 5 PYQs. Answer = the odd one (export-import, savings, diminishing cost, gross value).
 ~~ Sources: NextGen Indian Economy - APPSC 12 p.3-7 (three methods; product method = total final product); OnlyIAS NCERT Economy 03 p.65-71 (product/value added, expenditure, income methods); NIOS Economics 318 L25 (final product and value added variants of product method); app notes 3:23 sub 0
 
 === Income Method – Factor Incomes, Inclusions and Exclusions
