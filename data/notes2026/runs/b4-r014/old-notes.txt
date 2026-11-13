@@ -1,0 +1,490 @@
+=== NOTES 4:14 | Atmosphere – Structure (layers) and Composition
+## SUB 0 | Composition of the Atmosphere
+[14:0:0] # Gases by Volume (dry air)
+[14:0:1] TABLE head: Gas | Share | Type / role
+  [14:0:1.0] Nitrogen | 78.08% (~78%) | Permanent; most abundant
+  [14:0:1.1] Oxygen | 20.95% (~21%) | Permanent; respiration, combustion; negligible by ~120 km
+  [14:0:1.2] Argon | 0.93% | Permanent, inert; third
+  [14:0:1.3] Carbon dioxide | ~0.04% | Variable; photosynthesis, greenhouse; reaches ~90 km
+  [14:0:1.4] Water vapour | 0–4% | Variable; most abundant GHG
+  [14:0:1.5] Ozone | Trace | Variable; absorbs UV
+[14:0:2] - Order: **N₂ > O₂ > Ar > CO₂** (APPSC-G1 2023). N₂ + O₂ = **99%**. N₂ ~78% (APPSC-GS 2025).
+[14:0:3] - Trace gases: **neon, helium, xenon, hydrogen, krypton**. Xenon = "**Stranger Gas**" (Greek *xenos*), found by **Ramsay and Travers, 1898**.
+[14:0:4] - Weather balloons are filled with **helium** (inert).
+[14:0:5] - Greenhouse gases include **methane and nitrous oxide**; **not** hydrogen, krypton, neon, helium, argon.
+[14:0:6] - Best CO₂ for natural balance: **0.03%**, kept within the troposphere.
+[14:0:7] - **CO₂ 2024: 423.9 ppm**, up 3.5 ppm – largest rise since 1957; ~152% of pre-industrial (WMO Greenhouse Gas Bulletin, Oct 2025).
+[14:0:8] Third place = **Argon**, not CO₂.
+[14:0:9] # Variable Constituents and Distribution
+[14:0:10] - **Water vapour**: up to **4%** in warm wet tropics; **below 1%** in deserts and polar air; falls with height; absorbs sunlight and Earth's heat (**blanket effect**); decides air stability; absorbs most infrared in the lower atmosphere.
+[14:0:11] - **Dust**: sea salt, soil, smoke, ash, pollen, meteor dust; mostly in lower layers; **more in subtropical and temperate belts** (dry winds) than equatorial and polar; act as **hygroscopic nuclei** for condensation.
+[14:0:12] - Near the surface: mainly nitrogen and oxygen; **hydrogen** (light) goes higher than N₂ and O₂.
+[14:0:13] - **Early atmosphere**: **reducing**, little or no free oxygen.
+[14:0:14] - Rain cleans a polluted atmosphere by washing out particles.
+## SUB 1 | Greenhouse Effect
+[14:1:0] - Atmosphere is **transparent to incoming short-wave solar** radiation but **absorbs outgoing long-wave terrestrial** radiation; it is not heated mainly by incoming sunlight.
+[14:1:1] - CO₂ and other GHGs are good absorbers of long-wave (infrared) radiation.
+## SUB 2 | Layers – Height, Temperature, Features
+[14:2:0] - **Basis of division: change of temperature with height**; composition gives homosphere/heterosphere.
+[14:2:1] - **99%** of mass lies within **32 km**.
+[14:2:2] TABLE head: Layer | Height | Temperature | Key feature
+  [14:2:2.0] Troposphere | 0 to 8 km (poles), 18 km (equator); avg 13 km | Falls | Weather; life; water vapour, dust
+  [14:2:2.1] Stratosphere | to 50 km | Rises (inversion) | Ozone; calm, dry – jets
+  [14:2:2.2] Mesosphere | 50–80 km | Falls to −100°C (coldest) | Meteors burn
+  [14:2:2.3] Thermosphere (ionosphere) | from 80 km | Rises sharply | Aurora, airglow, radio-wave reflection
+  [14:2:2.4] Exosphere | ~600–10,000 km | — | Outermost; light gases; merges into space; satellites
+[14:2:3] - Ascending order: troposphere → stratosphere (15–50 km) → mesosphere → ionosphere (**80–640 km**) → exosphere.
+[14:2:4] - Geostationary satellites (~**36,000 km**) lie in the **exosphere** (above 640 km).
+## SUB 3 | Temperature Trend and Boundaries
+[14:3:0] - Upward: troposphere **falls** → stratosphere **rises** (ozone absorbs UV) → mesosphere **falls** → thermosphere **rises** (high-energy radiation).
+[14:3:1] - **Reversal (inversion) layers: stratosphere and thermosphere.**
+[14:3:2] TABLE head: Boundary | Height
+  [14:3:2.0] Tropopause | 8–18 km
+  [14:3:2.1] Stratopause | ~50 km
+  [14:3:2.2] Mesopause | ~80 km
+## SUB 4 | Troposphere and Tropopause
+[14:4:0] - **Normal lapse rate: 6.5°C per km** (**1°C per 165 m**).
+[14:4:1] - **Thickest at equator** (16–18 km) – high insolation → strong **convection** lifts the tropopause; ~8 km at poles.
+[14:4:2] - Almost all weather, clouds, storms; key for biological activity.
+[14:4:3] - **Agra and Darjeeling**: same latitude; Darjeeling colder in January because of **altitude** (lapse rate).
+[14:4:4] - **Tropopause**: boundary of troposphere and stratosphere; **higher at equator**, lower at poles; **higher in summer** than winter; caps weather and vertical mixing.
+[14:4:5] - Tropopause temperature: **−80°C over equator**, **−45°C over poles**.
+## SUB 5 | Homosphere vs Heterosphere
+[14:5:0] TABLE head: Region | Height | Layers | Composition
+  [14:5:0.0] Homosphere | 0 to ~90 km | Troposphere, stratosphere, mesosphere | Gases evenly mixed
+  [14:5:0.1] Heterosphere | Above ~90 km | Thermosphere, exosphere | Gases layered by molecular weight: N₂ → atomic O → He → H
+[14:5:1] - Ionosphere is **not** in the homosphere.
+## SUB 6 | Phenomena → Layer
+[14:6:0] TABLE head: Phenomenon | Layer
+  [14:6:0.0] Weather, clouds, rain | Troposphere
+  [14:6:0.1] Ozone layer | Stratosphere (APPSC 2025)
+  [14:6:0.2] Meteors burn | Mesosphere (APPSC-G2 2025)
+  [14:6:0.3] Aurora, airglow | Thermosphere / ionosphere
+  [14:6:0.4] Radio-wave reflection, wireless signals | Ionosphere
+  [14:6:0.5] Jet aircraft | Lower stratosphere – no clouds, very dry
+[14:6:1] - Aurora: solar charged particles excite upper-air particles; **Borealis = north**, **Australis = south**.
+[14:6:2] Meteors burn in the mesosphere, not the thermosphere; aurora is ionospheric, not mesospheric.
+## SUB 7 | Ionosphere – D, E, F Layers
+[14:7:0] TABLE head: Layer | Height | Role
+  [14:7:0.0] D | 60–90 km | Absorbs medium/long waves; fades at night
+  [14:7:0.1] E (Kennelly-Heaviside) | 90–150 km | Reflects medium-frequency waves
+  [14:7:0.2] F (Appleton); F1, F2 by day | 150–400 km | Main reflector of short-wave radio
+[14:7:1] - Formed when solar UV and X-rays strip electrons; **expands by day, contracts at night**.
+[14:7:2] - Solar flares and geomagnetic storms disrupt **GNSS** signals (9 Jul 2026).
+## SUB 8 | Ozone Layer
+[14:8:0] - O₃ = three oxygen atoms; mainly in the **lower stratosphere** (stratosphere ~10–50 km); main layer **15–30 km**, densest **15–35 km**; exam height also **15–20 km**.
+[14:8:1] - About **90%** of ozone is stratospheric, 10% tropospheric.
+[14:8:2] - Absorbs harmful **UV-B and UV-C** (APPSC 2025); stratosphere warms because ozone turns UV to heat.
+[14:8:3] - **Unit: Dobson Unit (DU)** for column ozone.
+[14:8:4] TABLE head: UV band | Wavelength
+  [14:8:4.0] UV-A | 315–400 nm
+  [14:8:4.1] UV-B | 280–315 nm
+  [14:8:4.2] UV-C | 100–280 nm (shortest, most harmful)
+[14:8:5] - **Chapman cycle**: O₂ + UV → O + O; O + O₂ → O₃; O₃ absorbs UV and splits.
+[14:8:6] - Extra UV causes **cataract, skin cancer, weaker immunity, lower crop yield**.
+[14:8:7] - **Ground-level ozone** = secondary pollutant from **NOx + VOCs** in sunlight (photochemical smog).
+[14:8:8] Stratospheric ozone | shield | good
+Ground-level ozone | pollutant | bad
+[14:8:9] - **Heatwaves and ozone:** heatwaves raise **ground-level ozone**; north-west India and the Indo-Gangetic Plain are badly affected.
+## SUB 9 | Ozone Depletion and Treaties
+[14:9:0] - **Main cause: halocarbons** (CFCs, HCFCs) releasing **chlorine and bromine** (APPSC 2023). Maximum damage: **CFCs**.
+[14:9:1] TABLE head: ODS | Use
+  [14:9:1.0] CFCs | Refrigeration, ACs, aerosols, foam
+  [14:9:1.1] HCFCs | CFC substitute – also deplete ozone
+  [14:9:1.2] Halons | Fire extinguishers
+  [14:9:1.3] Methyl bromide | Fumigant
+  [14:9:1.4] Carbon tetrachloride, methyl chloroform | Solvents
+[14:9:2] - **HFCs** spare ozone but have high global-warming potential; CFCs harm ozone and are strong GHGs.
+[14:9:3] - **Antarctic ozone hole**: **Aug–Nov** (southern spring), aided by **polar stratospheric clouds**; reported in **1985** by a **British** team (Farman, Gardiner, Shanklin).
+[14:9:4] - **2025 hole** peaked at just over **21 million sq km**, closed early; record **29 million sq km (2006)**.
+[14:9:5] TABLE head: Treaty | Year | Point
+  [14:9:5.0] Vienna Convention | 1985 | Framework: research, monitoring
+  [14:9:5.1] Montreal Protocol | 1987 | Legally binding; ends ~100 ODS; 198 parties (197 states + EU) – universally ratified
+  [14:9:5.2] Kigali Amendment | 2016 (Rwanda) | HFC phase-down 80–85%; in force 2019
+[14:9:6] - India: **first developing country** to phase out **HCFC-141b** in rigid foam; HCFCs cut **44%** vs 35% target by Jan 2020.
+[14:9:7] - AP: **Mission SANA** (Red Balloon Aerospace) – India's first home-made **stratospheric super-pressure balloon**, launched from **Vijayawada** (May 2026).
+## SUB 10 | Number Game and Quick Revision
+[14:10:0] TABLE head: Item | Fact
+  [14:10:0.0] N₂ / O₂ / Ar / CO₂ | 78.08 / 20.95 / 0.93 / 0.04%
+  [14:10:0.1] Lapse rate | 6.5°C/km
+  [14:10:0.2] Troposphere | 8 km poles, 18 km equator, avg 13 km
+  [14:10:0.3] CO₂ 2024 | 423.9 ppm
+[14:10:1] # FIRST / LAST / SPECIAL FACTS
+[14:10:2] - Coldest layer: mesosphere. Outermost: exosphere.
+[14:10:3] - First universally ratified UN treaties: Vienna and Montreal.
+## SUB 11 | Appsc Previous Year Questions
+[14:11:0] TABLE head: Examination | Question Area
+  [14:11:0.0] APPSC-G1 2023 | Gases in descending order; halocarbons
+  [14:11:0.1] G2 Screening 2024 | Atmospheric layers
+  [14:11:0.2] APPSC-G2 2025 | Meteors burn in mesosphere
+  [14:11:0.3] APPSC-GS 2025 | Nitrogen share; ozone in stratosphere absorbs UV-B, UV-C
+## SUB 12 | High-probability Mcq Traps
+[14:12:0] VERY IMPORTANT
+[14:12:1] - 1. Argon is third, not CO₂.
+[14:12:2] - 2. Meteors burn in the mesosphere.
+[14:12:3] - 3. Inversion layers: stratosphere and thermosphere.
+[14:12:4] - 4. Tropopause is higher and colder at the equator.
+[14:12:5] - 5. E = Kennelly-Heaviside; F = Appleton; D absorbs.
+[14:12:6] - 6. HCFCs also deplete ozone; HFCs do not.
+[14:12:7] - 7. Vienna 1985, Montreal 1987, Kigali 2016.
+[14:12:8] - 8. Homosphere excludes the ionosphere.
+[14:12:9] - 9. Jet aircraft prefer the lower stratosphere.
+
+=== OWN MCQs of 4:14 (87)
+[na41540b5f96] sub0
+  In warm, wet tropical regions, up to what share of the atmosphere may water vapour constitute?
+  1 per cent | *4 per cent | 8 per cent | 12 per cent
+  x: Water vapour may reach 4 per cent in warm, wet tropics and is below 1 per cent in deserts and polar air; it decreases with altitude.
+[naf8d80df0e0] sub0
+  Which of the following is NOT correct about water vapour in the atmosphere?
+  It absorbs both insolation and terrestrial heat | *It is a permanent constituent uniformly distributed at all heights | It produces a blanket effect | It influences the stability of the air
+  x: Water vapour is a variable constituent and is not uniformly distributed; it absorbs insolation and terrestrial heat and affects stability.
+[n95bb252da4a] sub0
+  In which belts are atmospheric dust particles, mostly found in the lower layers, relatively more abundant?
+  the equatorial belt alone | equatorial and polar belts | *subtropical and temperate belts | only the upper thermosphere
+  x: Dust is concentrated in the lower atmospheric layers and is more abundant in subtropical and temperate belts, where dry winds help raise and transport particles.
+[n8917ec7dd24] sub0
+  By about what height does oxygen in the atmosphere become negligible?
+  50 km | 90 km | *120 km | 600 km
+  x: Oxygen becomes negligible by about 120 km, while carbon dioxide reaches only about 90 km.
+[n6f3ab618c5a] sub0
+  Which one of the following sequences represents the principal gases of the heterosphere from lower to higher levels, according to molecular weight?
+  Hydrogen, helium, atomic oxygen, nitrogen | *Nitrogen, atomic oxygen, helium, hydrogen | Nitrogen, hydrogen, helium, atomic oxygen | Atomic oxygen, hydrogen, nitrogen, helium
+  x: The heterosphere is described as having nitrogen, atomic oxygen, helium and hydrogen in upward order according to molecular weight.
+[nb26e2ef8fe1] sub0
+  Which sequence correctly represents the ozone–oxygen or Chapman cycle?
+  *O2 is split by UV, oxygen atoms combine with O2 to form O3, and O3 absorbs UV and dissociates | O3 combines with nitrogen to form O2, which is then converted into methane | O2 absorbs infrared radiation and directly forms carbon dioxide | Ozone is formed only by the action of pollutants in the troposphere
+  x: Ultraviolet radiation splits O2 into free oxygen atoms; these combine with O2 to form O3, which absorbs UV and can split back into oxygen molecules and atoms.
+[ngeneral-geography-6-2] sub0
+  What is the approximate proportion of argon in the atmosphere?
+  21% | 0.04% | *0.93% | 4%
+  x: Argon is about 0.93% of dry air, the third most abundant gas. 21% is oxygen and 0.04% carbon dioxide.
+[ngeneral-geography-6-10] sub0
+  Which atmospheric gas absorbs harmful ultraviolet radiation?
+  Nitrogen | *Ozone | Carbon dioxide | Oxygen
+  x: Ozone absorbs harmful UV radiation; carbon dioxide serves photosynthesis and the greenhouse effect, and oxygen supports respiration and combustion.
+[ngeneral-geography-6-12] sub0
+  Which of the following gases extends higher in the atmosphere than nitrogen and oxygen?
+  *Hydrogen | Carbon dioxide | Water vapour | Ozone
+  x: Hydrogen is a light gas, so it goes higher than nitrogen and oxygen; carbon dioxide reaches only about 90 km.
+[ngeneral-geography-6-14] sub0
+  What was the character of the Earth's early atmosphere, with little or no free oxygen?
+  *reducing | oxidising | nitrogen-dominated | ozone-rich
+  x: The early atmosphere was reducing with little free oxygen, whereas today's is dominated by nitrogen and oxygen.
+[ngeneral-geography-6-17] sub0
+  Approximately what share of the atmosphere does carbon dioxide constitute?
+  *0.04% | 0.4% | 4% | 21%
+  x: CO2 is about 0.04% of the atmosphere; oxygen is about 21%, water vapour 0–4% and ozone a trace.
+[ngeneral-geography-6-21] sub0
+  Which of the following groups consists entirely of trace minor atmospheric gases?
+  Oxygen, carbon dioxide, water vapour and ozone | Nitrogen, water vapour, methane and ozone | Nitrogen, oxygen, argon and carbon dioxide | *Neon, helium, xenon, hydrogen and krypton
+  x: Neon, helium, xenon, hydrogen and krypton are all trace gases. Every other group includes a major or variable gas.
+[ngeneral-geography-6-23] sub0
+  Which of the following gases are identified as greenhouse gases?
+  Hydrogen and krypton | Neon and helium | Argon and neon | *Methane and nitrous oxide
+  x: Methane and nitrous oxide are greenhouse gases that trap outgoing heat. Hydrogen, krypton, neon, helium and argon are not greenhouse gases.
+[nbbdb3f4c7be] sub0
+  According to the WMO Greenhouse Gas Bulletin 2025, what was the approximate atmospheric concentration of carbon dioxide in 2024?
+  *423.9 ppm | 383.9 ppm | 523.9 ppm | 323.9 ppm
+  x: Per the WMO Greenhouse Gas Bulletin 2025, CO2 rose by 3.5 ppm to 423.9 ppm in 2024, the largest rise since 1957 and about 152% of the pre-industrial level.
+[n9b12de4f5ad] sub0
+  Why do dust particles help in cloud formation?
+  convert oxygen into carbon dioxide | *act as hygroscopic nuclei for condensation | absorb all incoming solar radiation | prevent water vapour from condensing
+  x: Dust particles serve as hygroscopic nuclei around which water vapour can condense, assisting cloud formation.
+[fee44bea577bf] sub0
+  Nitrogen and oxygen together make up about what share of dry air?
+  90% | 95% | 97% | *99%
+  x: Nitrogen (~78%) and oxygen (~21%) together make up 99% of dry air.
+[f945a0ba282fe] sub0
+  Who discovered xenon in 1898?
+  *Ramsay and Travers | Farman and Gardiner | Kennelly and Heaviside | Chapman
+  x: Xenon, the 'Stranger Gas', was found by Ramsay and Travers in 1898.
+[gb7449d49a79b] sub0
+  Which is the third most abundant gas in dry air by volume?
+  Carbon dioxide | Neon | *Argon | Helium
+  x: Dry air is nitrogen (78%) > oxygen (21%) > argon (0.93%) > carbon dioxide (0.04%).
+[g36ec00470402] sub0
+  Which of the following is the most abundant greenhouse gas in the atmosphere?
+  *Water vapour | Carbon dioxide | Methane | Nitrous oxide
+  x: Water vapour (0-4%) is the most abundant greenhouse gas; it absorbs most infrared in the lower atmosphere.
+[n89c031a3473] sub1
+  Which one of the following best explains the greenhouse effect in relation to atmospheric radiation?
+  *The atmosphere is transparent to incoming solar radiation but opaque to outgoing terrestrial radiation. | The atmosphere is opaque to incoming solar radiation and transparent to outgoing terrestrial radiation. | The atmosphere absorbs both incoming solar radiation and outgoing terrestrial radiation completely. | The atmosphere reflects all incoming solar radiation and absorbs none of the terrestrial radiation.
+  x: The atmosphere is relatively transparent to incoming solar radiation but absorbs outgoing terrestrial radiation, thereby contributing to the greenhouse effect.
+[ngeneral-geography-6-51] sub2
+  Which of the following is NOT correct about the troposphere?
+  Temperature in it decreases with height. | *It extends to about 18 km at the poles and 8 km at the equator. | Its upper boundary is the tropopause. | It is the layer where weather occurs.
+  x: The heights are reversed: the troposphere extends to about 8 km at the poles and 18 km at the equator.
+[n7506920113c] sub2
+  Which is generally the coldest layer of the atmosphere?
+  Stratosphere | Troposphere | Thermosphere | *Mesosphere
+  x: The mesosphere is the coldest layer, with temperature falling to about −100°C near 80 km.
+[nd3d17125f0d] sub2
+  Which of the following is NOT correct about the thermosphere?
+  *It is the coldest layer of the atmosphere. | It contains the ionosphere, where auroras occur. | Temperature rises rapidly with height in it. | The International Space Station orbits at about 400 km within it.
+  x: The mesosphere, not the thermosphere, is the coldest layer (about -100°C at 80 km).
+[nbc2512c5c89] sub2
+  Which is the outermost, extremely thin layer of the atmosphere that merges into outer space?
+  *Exosphere | Thermosphere | Mesosphere | Ionosphere
+  x: The exosphere is the outermost layer, extending roughly from 600 to 10,000 km and merging into space.
+[n60f86745e4b] sub2
+  What is the primary basis for dividing the atmosphere into troposphere, stratosphere, mesosphere, thermosphere and exosphere?
+  Variation in atmospheric composition | Variation in atmospheric pressure alone | *Variation in temperature with height | Variation in wind direction
+  x: These layers are identified mainly on the basis of how temperature changes with height. Composition provides the basis for the homosphere and heterosphere division.
+[n10f8ab0e754] sub2
+  Which of the following sequences correctly represents the temperature trend with increasing altitude from the troposphere upward?
+  *Falls, rises, falls, rises | Rises, falls, rises, falls | Falls, falls, rises, rises | Rises, rises, falls, falls
+  x: Temperature falls in the troposphere, rises in the stratosphere, falls in the mesosphere and rises again in the thermosphere.
+[n3d515b90eed] sub2
+  Why does temperature rise with height in the stratosphere?
+  Water vapour absorbs terrestrial radiation | *Ozone absorbs ultraviolet radiation | Meteors burn up in it | Strong convection lifts warm air into it
+  x: The stratospheric temperature rise is an inversion caused by ozone absorbing UV radiation.
+[ngeneral-geography-6-9] sub2
+  Which of the following pairs is correctly matched?
+  Troposphere – Meteors burn | *Ionosphere – Radio-wave reflection | Exosphere – Weather | Mesosphere – Outer atmospheric region
+  x: The ionosphere reflects radio waves. Weather occurs in the troposphere, meteors burn in the mesosphere and the exosphere is the outer region.
+[ngeneral-geography-6-24] sub2
+  In which layer of the atmosphere does temperature decrease with height and meteors burn?
+  Stratosphere | Thermosphere | *Mesosphere | Exosphere
+  x: In the mesosphere (50–80 km) temperature falls with height and meteors burn; it rises in the stratosphere and thermosphere.
+[ngeneral-geography-6-25] sub2
+  Which is the lowest atmospheric layer, most important for biological activity?
+  Mesosphere | Stratosphere | *Troposphere | Exosphere
+  x: The troposphere is the lowest layer and the one where life exists.
+[ngeneral-geography-6-31] sub2
+  Which layer of the atmosphere, with very limited clouds and weather, is suitable for jet aircraft?
+  Troposphere | Mesosphere | Thermosphere | *Stratosphere
+  x: The stratosphere, above the troposphere up to 50 km, has little weather and suits jet aircraft.
+[nd62c55a3bfa] sub2
+  What is the average height of the troposphere?
+  8 km | *13 km | 18 km | 50 km
+  x: The troposphere averages about 13 km, being about 8 km over the poles and 18 km over the equator.
+[n21befe67ce6] sub2
+  Within about what height from the Earth's surface does nearly 99% of the atmosphere's mass lie?
+  8 km | *32 km | 80 km | 600 km
+  x: About 99% of the atmosphere's mass is concentrated within 32 km of the Earth's surface.
+[ngeneral-geography-6-4] sub2
+  The ozone layer is mainly concentrated at which approximate altitude range?
+  *15–35 km | 0–8 km | 80–640 km | 50–80 km
+  x: The ozone layer lies mainly at about 15–35 km in the stratosphere.
+[n9b437a3148a] sub2
+  Which pair of atmospheric layers represents the principal temperature-inversion or reversal layers?
+  *Stratosphere and thermosphere | Troposphere and mesosphere | Troposphere and stratosphere | Mesosphere and exosphere
+  x: The stratosphere and thermosphere are reversal layers in which temperature increases with height, unlike the normal decrease in the troposphere and mesosphere.
+[f7c33fdce956a] sub2
+  To about what level does the temperature in the mesosphere fall?
+  −45°C | *−100°C | −80°C | −60°C
+  x: The mesosphere is the coldest layer, with temperature falling to about −100°C.
+[f069f04c41693] sub2
+  In which layer do geostationary satellites at about 36,000 km lie?
+  Thermosphere | Ionosphere | *Exosphere | Mesosphere
+  x: Geostationary satellites (~36,000 km) lie in the exosphere, above 640 km.
+[nfcae953b7ed] sub3
+  Which one of the following pairs is correctly matched?
+  Tropopause — approximately 50 km | Stratopause — approximately 80 km | *Mesopause — approximately 80 km | Tropopause — approximately 120 km
+  x: The mesopause is situated at approximately 80 km. The stratopause is around 50 km, while the tropopause varies from about 8 km to 18 km.
+[ngeneral-geography-6-29] sub3
+  What is the boundary between the troposphere and the stratosphere called?
+  *Tropopause | Stratopause | Mesopause | Thermopause
+  x: The tropopause marks where temperature stops falling with height and the stratosphere's warming begins.
+[f3e2e614b8a4e] sub3
+  At about what height does the stratopause lie?
+  13 km | 80 km | 18 km | *50 km
+  x: The stratopause is at about 50 km; the mesopause is at about 80 km and the tropopause at 8–18 km.
+[fc7c328ddd332] sub3
+  In which layer does temperature rise because of high-energy radiation?
+  Mesosphere | Troposphere | *Thermosphere | Stratosphere
+  x: Temperature rises in the thermosphere due to high-energy radiation; in the stratosphere it rises because ozone absorbs UV.
+[ngeneral-geography-6-26] sub4
+  What is the normal lapse rate of temperature in the troposphere?
+  1°C per km | 3.5°C per km | *6.5°C per km | 9.8°C per km
+  x: Temperature falls with height in the troposphere at the normal lapse rate of 6.5°C per km, about 1°C per 165 m.
+[n850522c5a13] sub4
+  Which of the following statements about the tropopause is correct?
+  *Its temperature is approximately -80°C over the equator and -45°C over the poles. | It promotes unrestricted vertical mixing of weather throughout the stratosphere. | It is lower in summer than in winter at all locations. | It is the boundary between the stratosphere and mesosphere.
+  x: The temperature at the tropopause is about -80°C over the equator and -45°C over the poles. It separates the troposphere from the stratosphere and caps weather and vertical mixing in the troposphere.
+[ngeneral-geography-6-6] sub4
+  Why is the troposphere thicker at the equator than at the poles?
+  Ozone absorbing ultraviolet radiation | *Strong convection lifting air higher | Lower surface temperatures at the equator | Ionisation of the upper air
+  x: Strong equatorial convection lifts air higher, raising the tropopause to about 18 km against 8 km at the poles.
+[f4097fcce8bc5] sub4
+  Consider the following statements about the tropopause:
+1. It is higher at the equator than at the poles.
+2. It is higher in winter than in summer.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: The tropopause is higher at the equator and higher in summer than in winter, so statement 2 is wrong.
+[fa4bd6cb25892] sub4
+  At the normal lapse rate, temperature falls by 1°C for every how much rise in height?
+  *165 m | 100 m | 265 m | 65 m
+  x: The normal lapse rate of 6.5°C per km equals about 1°C per 165 m.
+[nf1ceea32dbe] sub5
+  Which of the following pairs is correctly matched?
+  Homosphere – Gases layered by molecular weight | *Heterosphere – Gases layered by molecular weight | Heterosphere – Gases evenly mixed | Homosphere – Lies above about 80–90 km
+  x: In the heterosphere gases are arranged in layers by molecular weight; the homosphere, below about 80–90 km, has evenly mixed gases.
+[fbd89055d4af3] sub5
+  Which of the following layers together form the homosphere?
+  Thermosphere and exosphere | *Troposphere, stratosphere and mesosphere | Troposphere and ionosphere | Stratosphere, mesosphere and thermosphere
+  x: The homosphere (0 to ~90 km) includes the troposphere, stratosphere and mesosphere; the thermosphere and exosphere form the heterosphere.
+[f855f524f7bc7] sub5
+  Up to what height does the homosphere extend from the surface?
+  50 km | 13 km | 640 km | *90 km
+  x: The homosphere, with evenly mixed gases, extends to about 90 km.
+[n8e68c7a90f2] sub6
+  With which layer are auroras and airglow primarily associated?
+  Stratosphere | Troposphere | *Thermosphere | Mesosphere
+  x: Auroras and airglow occur mainly in the thermosphere, particularly in the ionospheric region.
+[ngeneral-geography-6-11] sub6
+  Where is the Aurora Australis seen?
+  Northern Hemisphere | *Southern Hemisphere | Equatorial belt | Tropics only
+  x: Aurora Australis is the southern aurora; Aurora Borealis is the northern one.
+[nd798d9a8629] sub7
+  How does the ionosphere generally change between day and night?
+  *expands during the day and contracts at night | disappears completely at night | remains unchanged between day and night | contracts during the day and expands at night
+  x: Solar radiation causes the ionosphere to expand during the day, while it contracts at night.
+[n8d7315db050] sub7
+  Which is the main reflector of short-wave radio in the ionosphere?
+  D layer | *F layer | E layer | Ozone layer
+  x: The F layer is the main reflector of short-wave radio; the D layer absorbs medium and long waves and the E layer reflects medium-frequency waves.
+[ne57389716ca] sub7
+  Which of the following may be disrupted by solar flares and geomagnetic storms?
+  the normal lapse rate only | the composition of the homosphere permanently | *GNSS signals | the formation of all atmospheric dust
+  x: Solar flares and geomagnetic storms can disturb ionospheric conditions and disrupt GNSS signals.
+[f2c88cfed7c12] sub7
+  By which name is the E layer of the ionosphere also known?
+  Appleton layer | *Kennelly-Heaviside layer | Chapman layer | D layer
+  x: The E layer is the Kennelly-Heaviside layer; the F layer is the Appleton layer.
+[fc674dd2cab2d] sub7
+  Which ionospheric layer absorbs medium and long waves and fades at night?
+  *D layer | E layer | F1 layer | F2 layer
+  x: The D layer (60–90 km) absorbs medium/long waves and fades at night.
+[f908a4707f5dd] sub7
+  Between which heights does the ionosphere approximately extend?
+  50 and 80 km | 15 and 50 km | *80 and 640 km | 640 and 10,000 km
+  x: The ionosphere lies at about 80–640 km, above the mesosphere and below the exosphere.
+[gb22a62c1897f] sub7
+  By which name is the F layer of the ionosphere also known?
+  Kennelly-Heaviside layer | Chapman layer | *Appleton layer | Ozone layer
+  x: The F layer is the Appleton layer and is the main reflector of short-wave radio; the E layer is Kennelly-Heaviside.
+[n856af75e0bb] sub8
+  Excessive ultraviolet exposure due to ozone depletion is associated with which eye disorder?
+  Glaucoma | Night blindness | *Cataract | Colour blindness
+  x: Increased UV exposure is associated with cataract, as well as skin cancer, immune suppression and lower crop yield.
+[n6d721a3821a] sub8
+  Which of the following is NOT correct about ozone?
+  Stratospheric ozone absorbs harmful UV-B | Ground-level ozone is a pollutant | Ground-level ozone forms from NOx and VOCs in sunlight | *Ground-level ozone protects living organisms from UV-B
+  x: UV-B protection is given by stratospheric ozone; ground-level ozone is a pollutant formed from NOx and VOCs in sunlight.
+[n35caec6cdf5] sub8
+  In which layer does about 90% of atmospheric ozone lie?
+  *Stratosphere | Troposphere | Mesosphere | Thermosphere
+  x: About 90% of ozone lies in the stratosphere between about 10 and 50 km, densest at about 15-35 km.
+[n03119e2b65f] sub8
+  Which radiation does the ozone layer absorb in its principal protective function?
+  Infrared and microwave radiation | *Ultraviolet-B and ultraviolet-C radiation | Long-wave terrestrial radiation only | Visible light and radio waves
+  x: Stratospheric ozone absorbs harmful UV-B and UV-C radiation and thereby acts as a shield for life on Earth.
+[n877e20a0de8] sub8
+  In which unit is the total column amount of ozone in the atmosphere expressed?
+  Sievert units | *Dobson Units | Beaufort units | Pascal units
+  x: Ozone concentration in an atmospheric column is measured in Dobson Units (DU).
+[ngeneral-geography-6-7] sub8
+  Assertion (A): Temperature increases with altitude in the stratosphere.
+Reason (R): Ozone absorbs ultraviolet radiation and converts solar energy into heat.
+  *Both A and R are true, and R is the correct explanation of A | Both A and R are true, but R is NOT the correct explanation of A | A is true, but R is false | A is false, but R is true
+  x: Both are true and R explains A: ozone absorbs ultraviolet rays and turns them into heat, so the stratosphere warms with height.
+[nenvironment-27-4] sub8
+  Which of the following pairs of ultraviolet band and wavelength range is correctly matched?
+  UV-A – 100–280 nm | UV-C – 315–400 nm | UV-A – 280–315 nm | *UV-B – 280–315 nm
+  x: UV-B covers 280–315 nm. UV-A is 315–400 nm and UV-C, the shortest and most harmful, is 100–280 nm.
+[n45a67b819bb] sub8
+  Which of the following is NOT correct about ozone?
+  Heatwaves can increase ground-level ozone concentrations. | North-west India and the Indo-Gangetic Plain are affected by heatwave-driven ground-level ozone. | *Ground-level ozone is necessarily beneficial because all ozone protects against UV radiation. | The protective role against ultraviolet radiation is associated with stratospheric ozone.
+  x: The beneficial UV-shielding role belongs to stratospheric ozone; ground-level ozone is not necessarily beneficial.
+[n08d78b7790e] sub9
+  In which year did the Kigali Amendment, adopted in 2016, enter into force?
+  2016 | 2017 | *2019 | 2021
+  x: The Kigali Amendment was adopted in 2016 and entered into force in 2019; it targets 80-85% HFC cuts.
+[n552b4086970] sub9
+  India's phase-out of HCFC-141b in rigid foam had which of the following outcomes?
+  *It was the first such phase-out among developing countries, with a 44% cut against a 35% target by January 2020. | It concerned HFC-134a in refrigeration and achieved no measurable reduction. | It was the first phase-out among developed countries, with a 35% cut against a 44% target by January 2020. | It achieved a 15% cut against a 10% target by January 2015.
+  x: India was the first developing country to phase out HCFC-141b in rigid foam and achieved a 44% reduction against a 35% target by January 2020.
+[n477b93ce067] sub9
+  Which agreement, adopted in 1987, created legally binding measures to phase out ozone-depleting substances?
+  Vienna Convention | Kigali Amendment | Kyoto Protocol | *Montreal Protocol
+  x: The 1987 Montreal Protocol is legally binding for phasing out ODS; the 1985 Vienna Convention set a framework for research, monitoring and cooperation.
+[na0916c3ce59] sub9
+  During which months does the ozone hole, a seasonal thinning of ozone, form mainly over Antarctica?
+  April to June | December to February | January to March | *August to November
+  x: The Antarctic ozone hole develops mainly from August to November, during the Southern Hemisphere spring, aided by polar stratospheric clouds.
+[n2bc0db7bab1] sub9
+  In which year did the Antarctic ozone hole come into scientific focus?
+  1975 | 1983 | *1985 | 1991
+  x: The Antarctic ozone hole was reported in 1985 by a British team (Farman, Gardiner and Shanklin).
+[ne04ce531000] sub9
+  Which one of the following is correctly matched with its use?
+  *CFCs — Refrigeration and aerosol applications | Halons — Agricultural fumigants | Methyl bromide — Fire extinguishers | Carbon tetrachloride — Ozone formation
+  x: CFCs were used in refrigeration, air conditioners, aerosols and foam blowing. Halons were used in fire extinguishers, while methyl bromide was used as an agricultural fumigant.
+[nac4f9ed9d78] sub9
+  Which one of the following correctly compares CFCs and HFCs?
+  CFCs spare ozone, whereas HFCs destroy ozone and have no warming effect. | *CFCs destroy stratospheric ozone and are potent greenhouse gases; HFCs spare ozone but have high global-warming potential. | Both CFCs and HFCs destroy stratospheric ozone to the same extent. | Neither CFCs nor HFCs has any significant effect on the atmosphere.
+  x: CFCs deplete stratospheric ozone and act as potent greenhouse gases. HFCs do not harm ozone but have high global-warming potential.
+[n4598282f174] sub9
+  In 2025, the Antarctic ozone hole peaked at just over what size?
+  18 million sq km | 29 million sq km | 25 million sq km | *21 million sq km
+  x: The 2025 Antarctic ozone hole peaked at just over 21 million sq km and closed early, below the 2006 record of 29 million sq km.
+[nenvironment-27-9] sub9
+  Which of the following is NOT correct about ozone-depleting substances?
+  *Hydrochlorofluorocarbons (HCFCs) do not deplete ozone. | Halons are ozone-depleting substances. | Methyl bromide is an ozone-depleting substance. | Carbon tetrachloride is an ozone-depleting substance.
+  x: HCFCs do deplete ozone, as do CFCs, halons, carbon tetrachloride, methyl chloroform and methyl bromide.
+[naf43c288695] sub9
+  Which of the following is NOT correct about the Montreal Protocol?
+  *It was adopted in 1985 to set up only a research framework | It was adopted in 1987 | It controls or phases out nearly 100 ozone-depleting substances | It is legally binding
+  x: The Montreal Protocol was adopted in 1987; the 1985 framework for research is the Vienna Convention.
+[nd17b1b04391] sub9
+  From where was Mission SANA, India's first indigenous stratospheric super-pressure balloon, launched?
+  Hyderabad | *Vijayawada | Thiruvananthapuram | Sriharikota
+  x: Mission SANA by Red Balloon Aerospace, India's first home-made stratospheric super-pressure balloon, was launched from Vijayawada in May 2026.
+[fbbee791c9521] sub9
+  Which of the following pairs of ozone treaty and year is correctly matched?
+  Montreal Protocol – 1985 | *Vienna Convention – 1985 | Kigali Amendment – 1987 | Vienna Convention – 2016
+  x: The Vienna Convention is of 1985, the Montreal Protocol of 1987 and the Kigali Amendment of 2016.
+[fbac8d7c9995a] sub9
+  In which country was the Kigali Amendment of 2016 adopted?
+  Kenya | Austria | Canada | *Rwanda
+  x: The Kigali Amendment was adopted in 2016 in Rwanda for an 80–85% HFC phase-down.
+[fd7dcf142ceee] sub9
+  Consider the following statements about ozone-depleting substances:
+1. HCFCs also deplete ozone.
+2. HFCs spare ozone but have high global-warming potential.
+3. Halons are used as fumigants.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: HCFCs deplete ozone and HFCs spare it but warm the climate; halons are used in fire extinguishers, methyl bromide is the fumigant.
+[fd83458bb0f5d] sub9
+  In which year did the Antarctic ozone hole reach its record size of about 29 million sq km?
+  *2006 | 1985 | 2016 | 2025
+  x: The record ozone hole of 29 million sq km was in 2006; the 2025 hole peaked at just over 21 million sq km.
+[g5f9d7266af1b] sub9
+  Which elements released by halocarbons destroy ozone in the stratosphere?
+  Nitrogen and argon | *Chlorine and bromine | Carbon and hydrogen | Sulphur and oxygen
+  x: Halocarbons such as CFCs and halons release chlorine and bromine, which break down ozone.
+[g13cbf8fb6d93] sub9
+  Who among the following first reported the Antarctic ozone hole in 1985?
+  Ramsay and Travers | Kennelly and Heaviside | *Farman, Gardiner and Shanklin | Chapman
+  x: The Antarctic ozone hole was reported in 1985 by the British team of Farman, Gardiner and Shanklin.
+[ga0422ce24201] sub9
+  Which clouds help the formation of the Antarctic ozone hole?
+  Cumulonimbus clouds | Cirrocumulus clouds | Nimbostratus clouds | *Polar stratospheric clouds
+  x: Polar stratospheric clouds in the Antarctic spring (Aug-Nov) speed up ozone loss.
+[gc72ec005b410] sub9
+  What does the Kigali Amendment to the Montreal Protocol phase down?
+  *Hydrofluorocarbons (HFCs) | Chlorofluorocarbons (CFCs) | Halons | Methyl bromide
+  x: The Kigali Amendment (2016) phases down HFCs by 80-85%; HFCs spare ozone but are strong warming gases.
+[g970777f58fbc] sub9
+  Which of the following are the first universally ratified treaties in UN history?
+  Kyoto Protocol and Paris Agreement | *Vienna Convention and Montreal Protocol | Kigali Amendment and Kyoto Protocol | Rio Declaration and Agenda 21
+  x: The Vienna Convention (1985) and the Montreal Protocol (1987) were the first UN treaties ratified by all countries.
+[gf36755b81133] sub9
+  Halons, which deplete the ozone layer, are mainly used in which of the following?
+  Refrigerators | *Fire extinguishers | Fumigants | Solvents
+  x: Halons are used in fire extinguishers; CFCs in refrigeration, methyl bromide as a fumigant, carbon tetrachloride as a solvent.
+
