@@ -58,6 +58,7 @@
 | **Viranarayana** | Amoghavarsha I (after **Vingavalli**) |
 | **Prabhutavarsha** | Govinda III |
 | **Vallabharaja** ("**Balhara**" of the Arabs) | Rashtrakuta kings generally |
+# Arab writers on the Rashtrakutas
 | Writer | Statement |
 |---|---|
 | **Sulaiman** (**851**) | Visited in Amoghavarsha I's reign; one of the four great kings of the world |
