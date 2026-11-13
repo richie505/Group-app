@@ -71,6 +71,24 @@ def new_questions():
                 continue
             seen.add(k)
             out.append(q)
+    # APPSC "master" papers print the right answer as option 1 for (nearly) every question (the online test
+    # shuffles options per candidate). The keys are right, but in the app the answer would always be (1):
+    # shuffle such a paper's options (seeded by the question id, so it is stable) and move the key with them.
+    import random
+    papers = defaultdict(list)
+    for q in out:
+        if q.get("k") != "f" and q["a"] >= 0:
+            papers[(q.get("book", ""), q.get("exam", ""))].append(q)
+    for key, qs in papers.items():
+        top = max(range(5), key=lambda i: sum(q["a"] == i for q in qs))
+        if len(qs) >= 15 and sum(q["a"] == top for q in qs) / len(qs) >= 0.8:
+            for q in qs:
+                if re.search(r"\b(all|none|both)\b.*\b(above|these|of the)\b|^\s*(1|2|3|4|a|b|c|d)\s*(and|&|,)", " ".join(q["o"]), re.I):
+                    continue  # "all of the above"-type or coded options keep their printed order
+                order = list(range(len(q["o"])))
+                random.Random(q["id"]).shuffle(order)
+                q["o"], q["a"] = [q["o"][i] for i in order], order.index(q["a"])
+            dropped[f"options shuffled (master paper, key always option {top + 1}): {key[1][:50]}"] = len(qs)
     return out, dropped
 
 

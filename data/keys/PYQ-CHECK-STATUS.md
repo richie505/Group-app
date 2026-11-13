@@ -63,3 +63,12 @@ Not yet in the app: 757 questions marked "unclear" (lost text "[?]") waiting for
 the second-pass recovery of adobe-scan-04, economy-01, economy-12, polity-02, polity-13, science-tech-05 (stopped
 by a safety check) and ap-history-01; upside-down pages (polity p.53 recovered; p.196, 199, 203, 205-208 unread).
 The new PYQs' keys come from the books' answer grids (not web-checked) and they have no notes links yet.
+
+## 3.45: Vijeta Competitions previous papers (Drive "new pyqs from 128 papers", 13 Nov 2026)
+
+947 scanned pages (4 Adobe scans) read page by page from the images by helper sessions into data/pyq/vijeta/out/ and
+added with tools/pyq_add_new.py: 8,261 new PYQs in APPSC Complete (8,101 keyed, 1,686 one-liners as flashcards), 8,191
+in Group 2; about 4,900 were already in the app and 4,453 repeat inside the book. APPSC "master" papers (answer always
+option 1: AE Environmental/Subordinate 2017, Dental Asst. Surgeons/Zilla Sainik) had their options shuffled, keys kept.
+Printed keys that contradict a well-known fact were left blank by the readers. Still out: 791 "unclear" questions
+(both batches) for a PDF check; some book pages are missing from the scans (e.g. 669-670, 393-396, 596-597, 911-916).
