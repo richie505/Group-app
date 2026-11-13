@@ -34,6 +34,7 @@
 - **Red Sea:** an **axial trough** (rift) between **Africa and Arabia**, part of the Great Rift system; no permanent river enters it; it is not associated with Europe.
 - **Volcanoes:** none in the **Baltic Sea** (away from plate margins); the Caribbean has volcanic islands, the Caspian mud volcanoes.
 - **West → east:** **Mediterranean, Black Sea, Caspian, Aral**.
+- **Landlocked states near these seas:** **Azerbaijan** touches only the Caspian (books treat it as not landlocked); **Laos** is the only landlocked country of SE Asia; doubly landlocked: **Uzbekistan, Liechtenstein**.
 - **North Natuna Sea:** **Indonesia** renamed the part of the South China Sea in its EEZ north of the Natuna Islands (2017).
 > Most-asked: Mediterranean borders (UPSC 2015, 2017 – Jordan, Iraq do not), sea–country pairs (UPSC 2004, 2019), North Sea count (UPSC 2024), Caspian borders, Balearic/Malta location, Dead Sea depth and salinity.
 ~~ Sources: PMF World Geography 02 p.11-13 (Black Sea, Caspian, UPSC 2014/2019/2004), 02 p.18 (Dead Sea ~420 m, salinity 9.6×), 02 p.20 (Aral Sea, UPSC 2018), 04 p.19 (Bermuda Triangle), 04 p.53 (Balearics, Malta), 05 p.15-19 (Malta UPSC 2008, Adriatic, Tyrrhenian, Mediterranean states); NextGen Rocket World Geography p.20-21 (Adriatic, Sargasso, Dead Sea); OnlyIAS NCERT Physical Geography 08 p.24 (salinity of Dead Sea, Van, Great Salt Lake); G.C. Leong 10.1 p.2 (Dead Sea 250‰); web: thenaturalhistorian.com 2024 (Dead Sea about -435 m in 2021), en.globes.co.il 2018 (falling 1.2 m a year); app notes 4:32 sub 6
@@ -172,6 +173,7 @@
 | Detroit River | Huron (via Lake St Clair) – Erie |
 | **Niagara River** (Niagara Falls) / Welland Canal | **Erie – Ontario** |
 | St Lawrence | Ontario – Atlantic |
+- **Cities on the lakes** (UPPCS 2011 match):
 | City | Lake |
 |---|---|
 | **Duluth** | **Superior** (westernmost point) |
