@@ -59,7 +59,7 @@
 # Groupings and newest members
 | Grouping | Members | Newest / change |
 |---|---|---|
-| BRICS | 10 full members + partner countries | Invited at Johannesburg, Aug 2023; joined **1 Jan 2024: Egypt, Ethiopia, Iran, UAE** (Saudi Arabia counted by most books); **Indonesia Jan 2025** |
+| BRICS | **11 members** as most books and Rocket CA count them (10 if Saudi Arabia, not formally confirmed, is left out) + 10 partner countries | Invited at Johannesburg, Aug 2023; joined **1 Jan 2024: Egypt, Ethiopia, Iran, UAE** (Saudi Arabia counted by most books); **Indonesia Jan 2025** |
 | Eurozone | 21 | **Bulgaria 21st member, 1 Jan 2026** (replaced the lev); **Croatia** before it, 1 Jan 2023 |
 | SCO | Est. 15 June 2001 (Shanghai Five); HQ Beijing | **India and Pakistan full members 2017** (India only an observer before) |
 | Commonwealth | 56 | **Gabon (55th) and Togo (56th)** joined **25 June 2022**, CHOGM Kigali – no British colonial past; Rwanda 2009 before them |
@@ -201,7 +201,7 @@
 # Treaties and action plans
 - **WHO Pandemic Agreement:** adopted by the **World Health Assembly on 20 May 2025**; its **PABS annex** (Pathogen Access and Benefit-Sharing) is still unfinished; India backs the developing-country **Group for Equity**.
 - **WHA79 (May 2026):** adopted the **Global Action Plan on AMR 2026-2036**.
-~~ Sources: who.int (Cabo Verde certification, 12 Jan 2024); app notes 6:63 sub 3
+~~ Sources: who.int (Cabo Verde certification, 12 Jan 2024; DG remarks 12 Jan 2024: "43rd country globally … third in the WHO African Region"); app notes 6:63 sub 3
 
 === International Conventions, Treaties and India's Status
 # Conventions → subject

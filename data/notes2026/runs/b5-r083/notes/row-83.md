@@ -161,7 +161,7 @@
 - **2025 Annex A additions:** **chlorpyrifos** (neurotoxic insecticide – not in the dirty dozen), **long-chain PFCAs** ("**forever chemicals**"), medium-chain chlorinated paraffins.
 # Minamata (mercury)
 - Protects from **man-made emissions of mercury**; named after **Minamata, Japan** (factory wastewater mercury poisoned fish-eaters, 1950s).
-- **Mercury pollution (UPSC 2023):** **gold mining** ✓, **coal-based thermal power plants** ✓, **no known safe level of exposure** (WHO) ✓ → **all three**. Solar PV panels in normal operation are not a source.
+- **Mercury pollution (UPSC 2023):** **gold mining** ✓, **coal-based thermal power plants** ✓, **no known safe level of exposure** (WHO) ✓ → **all three** (PMF key; ⚠ disputed – Vajiram and some keys reject statement 3 as absolute → only two). Solar PV panels in normal operation are not a source.
 - **Dental amalgam** phase-out by **2034**. "Mercury – Rotterdam" is a wrong pair.
 # Chronology
 - **Vienna 1985 → Montreal 1987 → Basel 1989 → Kyoto 1997 → Cartagena 2000 → Stockholm 2001 → Minamata 2013 → Kigali 2016.**

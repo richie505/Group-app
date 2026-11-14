@@ -30,7 +30,7 @@
 |---|---|---|---|
 | Los Angeles smog | 1943 | Los Angeles, USA | **Photochemical** smog: sunlight on NOx and hydrocarbons from vehicles |
 | London smog | 5-11 Dec 1952 | London | **Classical** smog: SO2 + water vapour at low temperature; ~4,000 killed |
-| **Minamata disease** | Found **1956** (Kyushu) | Minamata, Japan | **Methyl mercury** in **Chisso Corporation** wastewater, biomagnified in **fish** – **mercury poisoning** (water pollution) |
+| **Minamata disease** | Officially identified **1956**; first patient's symptoms **1953** (Kyushu) | Minamata, Japan | **Methyl mercury** in **Chisso Corporation** wastewater, biomagnified in **fish** – **mercury poisoning** (water pollution) |
 | **Bhopal gas tragedy** | **2-3 Dec 1984** | Bhopal, MP | **Methyl isocyanate (MIC)** from the **Union Carbide** pesticide plant; over 2,500 (officially 3,000+) deaths |
 | Chernobyl | 26 April 1986 | Ukraine (then **USSR**) | Radioactive leak from a reactor |
 | Fukushima | 2011 | Japan | Hydrogen explosion and radioactive leak after earthquake-tsunami |
@@ -39,7 +39,7 @@
 - MIC spellings: **Methyl Iso Cyanate** – not "Methyl Iso Cyanide", not ethyl/carbide isocyanate, not hydrogen cyanide or NO2.
 - Other metal diseases: **cadmium → itai-itai**; **arsenic → black-foot disease**; nitrate → blue-baby syndrome; fluoride → fluorosis.
 > Most-asked angle (≈13 PYQs): Bhopal = **MIC, Dec 1984**; Minamata = **mercury**.
-~~ Sources: NextGen Environment APPSC 09 p.12; NextGen Environment APPSC 10 p.12-13; app notes 5:98 sub 5
+~~ Sources: NextGen Environment APPSC 09 p.12; NextGen Environment APPSC 10 p.12-13; app notes 5:98 sub 5; nimd.env.go.jp/archives/english/faq (1956 official, 1953 first patient)
 
 === Types of Pollution – Sources and Impacts
 | Pollution type | Major source | Key impacts |
@@ -81,8 +81,8 @@
 | Brominated flame retardants | Electronics, plastics, foam; persistent, endocrine-disrupting; released from **e-waste** |
 | Ammonia (NCR) | 77-80% from **fertilisers + livestock** |
 | Open burning (Bhogi bonfires) | Tyres, plastics, flex, e-waste → dioxins, furans, CO, SO2, NOx, lead, cadmium, mercury (APPCB advisory, 11 Jan 2026) |
-- UPSC 2023 mercury statements: gold mining and coal plants are mercury sources; "no known safe level of exposure" is disputed between answer keys.
-~~ Sources: NextGen Environment APPSC 09 p.10; PMF Environment Part 05 p.13-14; Rocket Environment p.21; app notes 5:98 sub 4
+- UPSC 2023 mercury statements: gold mining and coal plants are mercury sources; "no known safe level of exposure" is disputed between answer keys (PMF: true → **all three**; Vajiram and others: false → **only two**).
+~~ Sources: NextGen Environment APPSC 09 p.10; PMF Environment Part 05 p.13-14; Rocket Environment p.21; app notes 5:98 sub 4; vajiramandravi.com UPSC 2023 mercury question (only two)
 
 === Pollutant → Effect Pairs and Biomagnification
 | Pollutant | Effect |

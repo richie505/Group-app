@@ -4,7 +4,7 @@
 |---|---|---|
 | MC12 (2022) | **Geneva** | First fisheries subsidies deal – bans subsidies to illegal, unreported and unregulated (IUU) fishing |
 | MC13 (26 Feb–2 Mar 2024) | **Abu Dhabi (UAE)** | E-commerce moratorium extended two years; no second-wave fisheries deal |
-| MC14 (26–29 March 2026) | **Yaoundé (Cameroon)** | Ended in deadlock; e-commerce moratorium (in place since **1998**) lapsed (30 March 2026; PMF LENS: 31 March) – first time since 1998 |
+| MC14 (26–29 March 2026) | **Yaoundé (Cameroon)** | Ended in deadlock; e-commerce moratorium (in place since **1998**) lapsed on **30 March 2026** (WTO; MC13 decision ran "until MC14 or 31 March 2026, whichever is earlier" – PMF LENS gives 31 March) – first time since 1998 |
 - **Agreement on Fisheries Subsidies:** in force **15 September 2025**, after acceptances by **two-thirds (111)** of WTO members; the WTO's **first agreement with environmental sustainability at its core** (bans subsidies to IUU fishing and overfished stocks).
 - After MC14, **66** members (about **70%** of world trade) agreed interim implementation of a **plurilateral E-Commerce Agreement**.
 > Venue match: MC12 – Geneva, MC13 – Abu Dhabi, MC14 – Yaoundé (not Geneva or Bali).
@@ -26,7 +26,7 @@
 | World Bank | **$800 million** | Approved 19 December 2024; 29 years incl. 6-year grace; Amaravati Integrated Urban Development Program; first tranche $207 million (March 2025) |
 | **ADB** | **$788.8 million** | Approved December 2024; **results-based** loan |
 - Together about **$1.6 billion** (~₹13,600 crore) for **Amaravati capital Phase-I**.
-~~ Sources: Praveen CA-360 Mar 2026 p.39-40 (MC14 Yaoundé, 26–29 March 2026); PMF LENS Apr 2026-02 p.7 (e-commerce moratorium since 1998 expired 31 March 2026; no Phase-2 fisheries deal); Rocket CA 2026 Part 02 p.73 (IMF WEO October 2026); app notes 6:62 (sub 11) for the boxes, IMF/IBRD membership, LPI and Amaravati loans
+~~ Sources: Praveen CA-360 Mar 2026 p.39-40 (MC14 Yaoundé, 26–29 March 2026); PMF LENS Apr 2026-02 p.7 (e-commerce moratorium since 1998 expired 31 March 2026; no Phase-2 fisheries deal); wto.org MC14 briefing note on e-commerce (moratorium lapsed 30 March 2026); Rocket CA 2026 Part 02 p.73 (IMF WEO October 2026); app notes 6:62 (sub 11) for the boxes, IMF/IBRD membership, LPI and Amaravati loans
 
 === Membership Changes – ICC Withdrawals and Recognition of Palestine
 # Sahel states leave the ICC
