@@ -762,3 +762,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y04bf928f083 newest Eurozone member: Croatia → Bulgaria (2026, in options; exam year unknown), outdated line keeps Croatia.
 - Disputes: y90e7344edaa BRICS 2024 Saudi; y67bbd717820 mobility pact France. Outdated yf99b3b8e58d SCO non-member India (member since 2017).
 - ycb24e874687 Brexit 52:48 already option 5.
+
+## b6-r070 (CA row 70 S&T Sep–Nov 2026)
+- No key changes (INS Sarvekshak; Charles de Gaulle 1,950 — web only). Own MCQ gfaa84b59e976 Varuna began 1993 (not 1983) explanation fixed.
+- Check: Yudh Abhyas-2026 22nd (9–28 Sep, notes) vs 23rd (15–28 Sep, Rocket). Samarthak delivered 27 Aug / inducted 16 Oct.
+- Late Oct/Nov items (NVS-03, Pralay, PRANIK) old notes only.
