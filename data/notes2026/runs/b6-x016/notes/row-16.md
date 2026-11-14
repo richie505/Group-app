@@ -1,4 +1,4 @@
-=== Ports, South Coast Railway and Roads
+=== Ports and South Coast Railway
 # Four major ports under construction in AP
 - Informed to Parliament by the **Ministry of Ports, Shipping and Waterways** (February 2026).
 | Port | District |
@@ -169,7 +169,7 @@
 - Jal Jeevan Mission = **Amarajeevi Jaladhara**: 5 projects, **₹7,910 crore** (Chittoor, Prakasam, Palnadu, undivided Godavari).
 # Mangroves and the Great Green Wall
 - Deputy CM and Forest Minister **K. Pawan Kalyan** ordered green cover fast-tracked and unclassified mangroves protected – about **10,000 acres** found by satellite, to be notified as protected forests.
-- **Great Green Wall of AP** (Forest Department) – bioshield about **5 km wide** along the **974 km** coastline; about 33 lakh people; three zones – **mangroves at river mouths, windbreaks on canal bunds and roads, village agroforestry**.
+- **Great Green Wall of AP** (Forest Department) – bioshield about **5 km wide** along the **974 km** coastline (the project's old figure; AP's official coastline is now 1,053.07 km); about 33 lakh people; three zones – **mangroves at river mouths, windbreaks on canal bunds and roads, village agroforestry**.
 - **MISHTI** – **2023**, MoEFCC, after India joined the **Mangrove Alliance for Climate** at **COP27**; coastline and salt-pan lands.
 # New species, national park and herbal garden
 - New army ants **Aenictus chittoorensis** and **Aenictus lankamallensis** – around **Sri Venkateswara Wildlife Sanctuary**, southern Eastern Ghats.
