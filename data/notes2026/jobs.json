@@ -99981,5 +99981,509 @@
    }
   ],
   "status": "done"
+ },
+ {
+  "id": "b6-x002",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   2,
+   3
+  ],
+  "pyqs": "all",
+  "status": "running",
+  "extra": true
+ },
+ {
+  "id": "b6-x006",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   6,
+   7
+  ],
+  "pyqs": "all",
+  "status": "running",
+  "extra": true
+ },
+ {
+  "id": "b6-x009",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   9,
+   12
+  ],
+  "pyqs": "all",
+  "status": "running",
+  "extra": true
+ },
+ {
+  "id": "b6-x014",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   14,
+   15
+  ],
+  "pyqs": "all",
+  "status": "todo",
+  "extra": true
+ },
+ {
+  "id": "b6-x016",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   16,
+   21
+  ],
+  "pyqs": "all",
+  "status": "todo",
+  "extra": true
+ },
+ {
+  "id": "b6-x023",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   23,
+   28
+  ],
+  "pyqs": "all",
+  "status": "todo",
+  "extra": true
+ },
+ {
+  "id": "b6-x032",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   32,
+   35
+  ],
+  "pyqs": "all",
+  "status": "running",
+  "extra": true
+ },
+ {
+  "id": "b6-x043",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   43,
+   45
+  ],
+  "pyqs": "all",
+  "status": "running",
+  "extra": true
+ },
+ {
+  "id": "b6-x053",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   53,
+   55
+  ],
+  "pyqs": "all",
+  "status": "todo",
+  "extra": true
+ },
+ {
+  "id": "b6-x062",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   62,
+   71
+  ],
+  "pyqs": "all",
+  "status": "todo",
+  "extra": true
+ },
+ {
+  "id": "b6-x080",
+  "type": "topic",
+  "book": 6,
+  "rows": [
+   80,
+   113
+  ],
+  "pyqs": "all",
+  "status": "todo",
+  "extra": true
+ },
+ {
+  "id": "b6-n000",
+  "type": "canew",
+  "book": 6,
+  "rows": [
+   0,
+   6,
+   13
+  ],
+  "items": [],
+  "status": "todo",
+  "extra": true,
+  "after": "b6-x006"
+ },
+ {
+  "id": "b6-n019",
+  "type": "canew",
+  "book": 6,
+  "rows": [
+   19,
+   25,
+   32
+  ],
+  "items": [],
+  "status": "todo",
+  "extra": true,
+  "after": "b6-x032"
+ },
+ {
+  "id": "b6-n039",
+  "type": "canew",
+  "book": 6,
+  "rows": [
+   39,
+   45,
+   52
+  ],
+  "items": [],
+  "status": "todo",
+  "extra": true,
+  "after": "b6-x043"
+ },
+ {
+  "id": "b6-n058",
+  "type": "canew",
+  "book": 6,
+  "rows": [
+   58,
+   64,
+   70
+  ],
+  "items": [],
+  "status": "running",
+  "extra": true
+ },
+ {
+  "id": "b6-n076",
+  "type": "canew",
+  "book": 6,
+  "rows": [
+   76,
+   83,
+   90
+  ],
+  "items": [],
+  "status": "running",
+  "extra": true
+ },
+ {
+  "id": "b6-n097",
+  "type": "canew",
+  "book": 6,
+  "rows": [
+   97,
+   104,
+   110
+  ],
+  "items": [],
+  "status": "todo",
+  "extra": true
+ },
+ {
+  "id": "b1-p129",
+  "type": "place",
+  "book": 1,
+  "rows": [
+   129,
+   192,
+   209,
+   238,
+   263
+  ],
+  "items": [
+   {
+    "id": "nindian-history-117-7",
+    "row": 129,
+    "src": "rocket",
+    "s": "The first Jesuit Mission is associated with which year?",
+    "o": [
+     "1542",
+     "1800",
+     "1580",
+     "1942"
+    ],
+    "a": 2,
+    "k": null,
+    "at": null,
+    "x": "The first Jesuit mission reached Akbar in 1580; 1800 is the Serampore Mission and 1942 the Cripps Mission."
+   },
+   {
+    "id": "nindian-history-93-14",
+    "row": 192,
+    "src": "rocket",
+    "s": "Which of the following pairs is correctly matched?",
+    "o": [
+     "Faraizi Movement – Haji Shariatullah",
+     "Champaran Satyagraha – B.R. Ambedkar",
+     "Swadeshi Movement – Mahatma Gandhi",
+     "Neo-Buddhist Movement – Mahatma Gandhi"
+    ],
+    "a": 0,
+    "k": null,
+    "at": null,
+    "x": "The Faraizi Movement was led by Haji Shariatullah. Champaran was led by Gandhi, Swadeshi by the nationalists and the Neo-Buddhist Movement by B.R. Ambedkar."
+   },
+   {
+    "id": "nindian-history-93-6",
+    "row": 192,
+    "src": "rocket",
+    "s": "Which of the following statements is incorrect?",
+    "o": [
+     "The Bijoliya Movement was started by Sadhu Sitaram Das and later led by Vijay Singh Pathik.",
+     "The Deoband Movement was started by Sir Syed Ahmad Khan.",
+     "The Neo-Buddhist / Dalit Buddhist Movement was led by B. R. Ambedkar.",
+     "The Faraizi Movement was started by Haji Shariatullah."
+    ],
+    "a": 1,
+    "k": null,
+    "at": null,
+    "x": "Option B is incorrect: the Deoband Movement (1866) was started by Muhammad Qasim Nanautavi and Rashid Ahmad Gangohi, not Sir Syed Ahmad Khan, who led the Aligarh Movement. The Bijoliya, Neo-Buddhist and Faraizi pairings are right."
+   },
+   {
+    "id": "nap-history-25-26",
+    "row": 192,
+    "src": "rocket",
+    "s": "Consider the following about the Wahabi Movement:\n1. It was pro-British.\n2. In Hyderabad, it was led by Mubariz-ud-Daulah.\nWhich of the above statement(s) is/are correct?",
+    "o": [
+     "1 only",
+     "2 only",
+     "Both 1 and 2",
+     "Neither 1 nor 2"
+    ],
+    "a": 1,
+    "k": null,
+    "at": null,
+    "x": "The Wahabi Movement was anti-British, not pro-British; in Hyderabad it was led by Mubariz-ud-Daulah."
+   },
+   {
+    "id": "ged3ba9cbf51e",
+    "row": 209,
+    "src": "app",
+    "s": "Who led the Chittagong Armoury Raid of 1930?",
+    "o": [
+     "Rash Behari Bose",
+     "Jatindranath Mukherjee",
+     "Surya Sen",
+     "Sachindranath Sanyal"
+    ],
+    "a": 2,
+    "k": null,
+    "at": null,
+    "x": "Surya Sen ('Masterda') led the Chittagong Armoury Raid of April 1930."
+   },
+   {
+    "id": "nap-history-25-4",
+    "row": 238,
+    "src": "rocket",
+    "s": "In which region was the Salt Satyagraha centre Mypadu located?",
+    "o": [
+     "Machilipatnam",
+     "Nellore",
+     "Ongole",
+     "Guntur"
+    ],
+    "a": 1,
+    "k": null,
+    "at": null,
+    "x": "Mypadu (spelt Mylapadu beach in the notes) is in Nellore district, where Bezawada Gopal Reddy made salt. Devarampadu, the 'Dakshina Dandi', was near Ongole."
+   },
+   {
+    "id": "na8648655ebf",
+    "row": 263,
+    "src": null,
+    "s": "With which provision is the AP Reorganisation (Amendment) Act, 2026 associated?",
+    "o": [
+     "Abolition of the statutory concept of a state capital",
+     "Affirmation of Amaravati’s permanent statutory position as the capital",
+     "Transfer of Andhra Pradesh’s capital to Hyderabad",
+     "Recognition of Kurnool as the permanent capital of Andhra Pradesh"
+    ],
+    "a": 1,
+    "k": null,
+    "at": null,
+    "x": "The AP Reorganisation (Amendment) Act, 2026 affirms Amaravati’s permanent statutory position as the capital of Andhra Pradesh."
+   }
+  ],
+  "status": "running"
+ },
+ {
+  "id": "b3-p070",
+  "type": "place",
+  "book": 3,
+  "rows": [
+   70
+  ],
+  "items": [
+   {
+    "id": "n3f88d61f836",
+    "row": 70,
+    "src": null,
+    "s": "Under UDAY (November 2015), States took over what share of DISCOM debt?",
+    "o": [
+     "25%",
+     "50%",
+     "75%",
+     "100%"
+    ],
+    "a": 2,
+    "k": null,
+    "at": null,
+    "x": "UDAY shifted 75% of DISCOM debt to the States; RDSS came later, in 2021."
+   }
+  ],
+  "status": "running"
+ },
+ {
+  "id": "b4-p060",
+  "type": "place",
+  "book": 4,
+  "rows": [
+   60,
+   61
+  ],
+  "items": [
+   {
+    "id": "nindian-geography-21-8",
+    "row": 60,
+    "src": "rocket",
+    "s": "As per Census 2011, what was India's sex ratio?",
+    "o": [
+     "927",
+     "933",
+     "943",
+     "946"
+    ],
+    "a": 2,
+    "k": null,
+    "at": null,
+    "x": "Census 2011 recorded a sex ratio of 943 females per 1,000 males and density of 382 per sq km."
+   },
+   {
+    "id": "nb05ea1075f3",
+    "row": 61,
+    "src": null,
+    "s": "According to Census 2011, what was India's literacy rate?",
+    "o": [
+     "64.84 per cent",
+     "65.46 per cent",
+     "74.04 per cent",
+     "82.14 per cent"
+    ],
+    "a": 2,
+    "k": null,
+    "at": null,
+    "x": "Literacy in 2011 was 74.04% (male 82.14%, female 65.46%)."
+   }
+  ],
+  "status": "running"
+ },
+ {
+  "id": "b6-p084",
+  "type": "place",
+  "book": 6,
+  "rows": [
+   84,
+   87,
+   89
+  ],
+  "items": [
+   {
+    "id": "f7f82c540ab2c",
+    "row": 84,
+    "src": "app",
+    "s": "Consider the following statements about the Sustainable Development Report 2026:\n1. India ranked 94th of 169.\n2. India entered the top 100 for the first time in this edition.\nWhich of the statements given above is/are correct?",
+    "o": [
+     "1 only",
+     "2 only",
+     "Both 1 and 2",
+     "Neither 1 nor 2"
+    ],
+    "a": 0,
+    "k": null,
+    "at": null,
+    "x": "Statement 1 is correct: 94th is India's best ever. Statement 2 is wrong: India first entered the top 100 in 2025 (99th)."
+   },
+   {
+    "id": "fedb68cfc58ca",
+    "row": 87,
+    "src": "app",
+    "s": "Which Andhra Pradesh city was among the safest cities in NARI 2025?",
+    "o": [
+     "Vijayawada",
+     "Guntur",
+     "Visakhapatnam",
+     "Tirupati"
+    ],
+    "a": 2,
+    "k": null,
+    "at": null,
+    "x": "NARI 2025 (not an NCRB report) named Kohima and Visakhapatnam the safest."
+   },
+   {
+    "id": "fd727d708acb7",
+    "row": 87,
+    "src": "app",
+    "s": "Which institution topped the NIRF 2025 rankings for the 7th year?",
+    "o": [
+     "IISc Bengaluru",
+     "IIT Madras",
+     "IIT Delhi",
+     "IIT Bombay"
+    ],
+    "a": 1,
+    "k": null,
+    "at": null,
+    "x": "IIT Madras topped NIRF 2025 for the 7th year."
+   },
+   {
+    "id": "fe2be2fda505f",
+    "row": 89,
+    "src": "app",
+    "s": "As per the WIPO report 2023, what is India's rank in IP/patent filings?",
+    "o": [
+     "3rd",
+     "8th",
+     "10th",
+     "6th"
+    ],
+    "a": 3,
+    "k": null,
+    "at": null,
+    "x": "India ranked 6th in IP/patent filings in the WIPO report 2023."
+   },
+   {
+    "id": "f9df3bac38a63",
+    "row": 89,
+    "src": "app",
+    "s": "What was India's rank in UNDP's Gender Inequality Index (2022 data)?",
+    "o": [
+     "131st",
+     "122nd",
+     "130th",
+     "108th"
+    ],
+    "a": 3,
+    "k": null,
+    "at": null,
+    "x": "India was 108th in the Gender Inequality Index; 131st is its Gender Gap rank and 130th its HDR rank."
+   }
+  ],
+  "status": "running"
  }
 ]

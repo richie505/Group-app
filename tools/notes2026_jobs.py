@@ -24,6 +24,7 @@ import os
 import re
 import subprocess
 import sys
+from collections import Counter
 
 sys.path.insert(0, "tools")
 from structured_md import to_blocks, from_blocks  # noqa: E402
@@ -100,7 +101,7 @@ def plan():
                 if k in old[j["id"]]:
                     j[k] = old[j["id"]][k]
         j.setdefault("status", "todo")
-    jobs += [j for j in old.values() if j["type"] in ("place", "spot")]
+    jobs += [j for j in old.values() if j["type"] in ("place", "spot", "canew") or j.get("extra")]
     save_jobs(jobs)
     from collections import Counter
     print(len(jobs), "jobs", Counter(j["type"] for j in jobs), Counter(j["status"] for j in jobs))
@@ -135,6 +136,8 @@ def prep(jid):
                     allm.append(slim(q, r))
             elif j["type"] == "topic":
                 allm.append(slim(q, r))
+    if j["type"] == "canew":                    # new MCQs written by the helper (new-mcqs.json)
+        pyqs, allm = [], []
     if j["type"] == "place":                    # already keyed elsewhere: only mapping
         pyqs, allm = [], list(j["items"])
     if j["type"] == "spot":                     # re-verify weak keys: no mapping
@@ -155,7 +158,7 @@ def prep(jid):
         for r in ([] if j["type"] == "spot" else j["rows"]):
             fh.write(subprocess.run([sys.executable, "tools/notelink.py", "show", str(j["book"]), str(r)],
                                     capture_output=True, text=True).stdout.split("\n=== OWN MCQS")[0] + "\n")
-    if j["type"] in ("keys", "place"):          # the rebuilt notes they map onto
+    if j["type"] in ("keys", "place", "canew"):  # the rebuilt notes they map onto
         for r in j["rows"]:
             src = rebuilt_row(j["book"], r)
             if src:
@@ -253,6 +256,16 @@ def check(jid, quiet=False):
     probs = []
     pyqs = json.load(open(f"{d}/pyqs.json"))
     allm = json.load(open(f"{d}/all-mcqs.json"))
+    if j["type"] == "canew":
+        nf = f"{d}/new-mcqs.json"
+        newq = json.load(open(nf)) if os.path.exists(nf) else []
+        if not newq:
+            probs.append("no new-mcqs.json")
+        for q in newq:
+            if not (q.get("id", "").startswith("cz") and q.get("s") and isinstance(q.get("o"), list)
+                    and len(q["o"]) >= 4 and isinstance(q.get("a"), int) and 0 <= q["a"] < len(q["o"]) and q.get("x")):
+                probs.append(f"bad new MCQ {q.get('id')}")
+        allm = allm + newq
     keys, mp = read_keys(d), read_mapping(d)
     byid = {q["id"]: q for q in allm}
     for q in pyqs:
@@ -346,6 +359,14 @@ def apply():
         moved_in = {q["id"] for _, q in incoming.get(b, [])}
         for r, q in incoming.get(b, []):
             where[q["id"]] = (r, q)
+        for j in bj:                                 # "canew" jobs: new current-affairs MCQs, filed by their mapping
+            f = f"{run_dir(j)}/new-mcqs.json"
+            if j["type"] == "canew" and os.path.exists(f):
+                mpj = read_mapping(run_dir(j))
+                for q in json.load(open(f)):
+                    if q["id"] not in where and q["id"] in mpj:
+                        where[q["id"]] = (int(mpj[q["id"]].get("row", j["rows"][0])), q)
+                        m["rows"].setdefault(str(where[q["id"]][0]), [])
         new = {}                                     # rebuilt row -> secs
         for j in bj:
             if j["type"] != "topic":
@@ -355,13 +376,13 @@ def apply():
                 if os.path.exists(f):
                     new[r] = parse(open(f).read())
         for j in bj:                                 # place jobs may append new sub-sections to a rebuilt row
-            if j["type"] == "place":
+            if j["type"] in ("place", "canew"):
                 for r in j["rows"]:
                     x = f"{run_dir(j)}/notes/row-{r}.extra.md"
                     if r in new and os.path.exists(x):
                         new[r] += parse(open(x).read())
         mapping, keys = {}, {}
-        order = {"topic": 0, "keys": 1, "place": 2, "spot": 3}
+        order = {"topic": 0, "keys": 1, "place": 2, "canew": 2, "spot": 3}
         for j in sorted(bj, key=lambda j: order[j["type"]]):
             mapping.update(read_mapping(run_dir(j)))
             keys.update(read_keys(run_dir(j)))
@@ -383,6 +404,29 @@ def apply():
                         e = dict(e, lines=list(e.get("lines", [])) + [seen_add[key]])
                         adds[i] = e
         mapping.update(adds)
+        # PYQ-weight order: sub-sections sorted by how many PYQs map to them (now, after all moves);
+        # revision / trap / misfiled / off-syllabus sections stay last. Refs are remapped.
+        last_kw = ("quick revision", "trap", "misfiled", "off-syllabus", "off syllabus", "number game")
+        for r in list(new):
+            w = Counter()
+            for i, e in mapping.items():
+                if i.startswith("y") and "move_row" not in e and int(e.get("row", -1)) == r:
+                    w[int(e.get("sub", -1))] += 1
+            secs = new[r]
+            perm = sorted(range(len(secs)), key=lambda s: (any(k in secs[s]["t"].lower() for k in last_kw), -w[s], s))
+            if perm == list(range(len(secs))):
+                continue
+            pos = {old_s: n for n, old_s in enumerate(perm)}
+            new[r] = [secs[s] for s in perm]
+            for i, e in list(mapping.items()):
+                if "move_row" in e or int(e.get("row", -1)) != r:
+                    continue
+                e = dict(e)
+                if "sub" in e and 0 <= int(e["sub"]) < len(secs):
+                    e["sub"] = pos[int(e["sub"])]
+                e["lines"] = [f"{pos[int(x.split(':')[0])]}:{x.split(':', 1)[1]}" if x.split(":")[0].isdigit()
+                              and int(x.split(":")[0]) in pos else x for x in e.get("lines", [])]
+                mapping[i] = e
         for r, secs in new.items():
             old = rows[r]
             p = old["secs"][0].get("p", old.get("p1", 0)) if old["secs"] else old.get("p1", 0)
@@ -407,6 +451,7 @@ def apply():
                         refs = [x for x in e.get("lines", []) if line_ok(new[tr], x)]
                         if refs:
                             links[i] = [f"{b}:{tr}:{x}" for x in refs[:3]]
+                            sub = int(refs[0].split(":")[0])     # shown under the sub-section it links to
                         else:
                             links.pop(i, None)
                     else:
@@ -601,7 +646,7 @@ def print_prompt(jid):
     j = get(jid)
     titles = dict(l.rstrip("\n").split("\t", 1) for l in open(f"{D}/rows-book{j['book']}.txt"))
     topic = f"book {j['book']} rows {j['rows']}: " + "; ".join(titles[str(r)] for r in j["rows"])
-    suf = {"keys": "-KEYS", "place": "-PLACE", "spot": "-SPOT"}.get(j["type"], "")
+    suf = {"keys": "-KEYS", "place": "-PLACE", "spot": "-SPOT", "canew": "-CANEW"}.get(j["type"], "")
     txt = (open(f"{D}/HELPER-PROMPT{suf}.txt").read()
            .replace("{JOB}", jid).replace("{TOPIC}", topic))
     open(f"{run_dir(j)}/PROMPT.txt", "w").write(txt)
@@ -612,7 +657,7 @@ def unplaced():
     """MCQs sitting in a rebuilt row with no notes link into that row (moved in by other jobs, or never mapped)."""
     links = json.load(open(f"{A}/notelinks.json"))
     jobs = load_jobs()
-    out = {}
+    out, rows_of = {}, {}
     for b in range(1, 7):
         rebuilt = {r for j in jobs if j["book"] == b and j["type"] == "topic" and j["status"] == "done"
                    for r in j["rows"]}
@@ -624,7 +669,13 @@ def unplaced():
                 if not isinstance(q, dict):
                     continue
                 lk = links.get(q["id"])
-                if not lk or lk[0].split(":")[:2] != [str(b), r]:
+                bad = False
+                if lk and lk[0].split(":")[:2] == [str(b), r]:
+                    if b not in rows_of:
+                        rows_of[b] = [x for u in json.load(open(f"{A}/book{b}.json"))["units"] for x in u["rows"]]
+                    bk_ = rows_of[b]
+                    bad = not line_ok(bk_[int(r)].get("secs", []), lk[0].split(":", 2)[2])
+                if not lk or lk[0].split(":")[:2] != [str(b), r] or bad:
                     out.setdefault((b, int(r)), []).append(slim(q, int(r)))
     return out
 

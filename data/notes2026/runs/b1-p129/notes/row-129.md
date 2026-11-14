@@ -1,0 +1,127 @@
+=== Religious Policy – Ibadat Khana, Mahzar, Din-i-Ilahi, Sulh-i-Kul
+# Measures in order
+| Year | Measure |
+|---|---|
+| **1563** | **Pilgrimage tax abolished** – by Akbar (not Bahlul Lodi, Sher Shah or Humayun) |
+| **1564** | **Jizya abolished** |
+| **1575** | **Ibadat Khana** (House of Worship) built at **Fatehpur Sikri** – first for Ulemas, Sayyids, Shaikhs |
+| **1576** | Haj caravans from the state treasury under a **Mir Haj** – **Akbar was the first Indian ruler to organise the Haj at state expense** (UPPSC 1998) |
+| **1578** | Ibadat Khana opened to **all religions** – Hindus, Jains, Christians, Zoroastrians |
+| **1579** | **Mahzar** – an attested statement of leading Ulemas making Akbar supreme arbiter in religious disputes; issued by **Akbar**, drafted by **Shaikh Mubarak** |
+| **1582** | **Din-i-Ilahi (Tauhid-i-Ilahi)** launched |
+- **Chronology:** **jizya 1564 → Ibadat Khana 1575 → Mahzar 1579 → Din-i-Ilahi 1582 = 1, 2, 3, 4** (UP UDA 2006).
+- **Ibadat Khana = the hall where Akbar held discussions with scholars of various religions** (UPSC 2014) – **built by Akbar (1575)**; not a royal mosque, a private prayer chamber or a nobles' room.
+- Guiding principle **Sulh-i-Kul** = "**peace with all**" (universal harmony) – **promulgated by Akbar** (not Nizamuddin Auliya, Zainul Abidin or Nasiruddin Chirag); the result of **political generosity, religious tolerance and a liberal cultural attitude – all three** (UPPCS 1998).
+- Coins with **Rama and Sita** and the Devanagari legend **"Rama-Siya"** – **Akbar** (UPPCS 2011), not Bhoja, Siddharaja or Zain-ul-Abidin.
+- Akbar is called **"an enlightened despot"** (UP Mains 2009).
+- Akbar's reign is known for **annexation, provincial administration, judicial administration – NOT religious intolerance** (1, 2, 3); his popularity rested on **mansabdari, religious policy, land revenue and social reforms – all** (UPPSC 1990).
+- He did **not** forsake Islam – that is the factor NOT conducive to calling him a nationalist (RAS 1994); unity in law, administration and culture and his religious policy were.
+- **Pilgrim tax at Banaras and Allahabad:** a deputation of Banaras pandits led by **Kavindracharya** (Sarasvati) persuaded **Shah Jahan** to end it (UPPCS 2000).
+# Taxes – who imposed or abolished
+| Tax / measure | Ruler / meaning |
+|---|---|
+| Jizya, pilgrimage tax abolished | Akbar (1564 / 1563) |
+| Jizya reimposed | Aurangzeb, 1679 |
+| **Grain tax** ended | **Sikandar Lodi** (not Akbar) |
+| Jizya and cow slaughter ended | Zain-ul-Abidin of Kashmir |
+| Privileges of Khuts, Muqaddams, Chaudharis ended | Alauddin Khalji |
+| **Ushr** | Land tax on Muslims |
+| **Zakat** | Alms tax on Muslims |
+| **Khums** | One-fifth of war booty |
+| **Haqq-e-Sharb** | Irrigation tax |
+# Din-i-Ilahi (1582)
+- **Promoted / promulgated by Akbar** (MPPSC 1998; State PSC); **launched 1582** (CGPSC 2011).
+- Features: **one God**, greeting "Allah-hu-Akbar", reverence for **sun and fire**, avoiding meat; piety, prudence, kindness.
+- **Never forced** – a voluntary small circle of about **18**, not a mass religion; **Abul Fazl** its chief exponent; **Birbal the only Hindu**; it **ended with Akbar's death**.
+- **Why it failed (SSC 2009):** not patronised after Akbar, rejected by orthodox Muslims, never projected to the masses – **all of the above**.
+- Debate: an ideology based on **Sufi pantheism**, not a religion; **Mohsin Fani** (Jahangir's time) called it a religion in **Dabistan-i-Mazahib** – none of **Abul Fazl, Badauni, Nizamuddin** (UPPCS 2000: "none of these").
+- Orthodox critics: **Badauni** and **Shaikh Ahmad Sirhindi** (Naqshbandi, "Mujaddid Alf-i-Sani").
+# Jesuits, Jains and others at court
+| Group | Person | Title / grant / year |
+|---|---|---|
+| Jesuits (Goa) | **Rudolf Acquaviva, Antonio Monserrate** | **1580** – first mission, Fatehpur Sikri |
+| Jesuits (Goa) | – | **1591** – second mission |
+| Jesuits (Goa) | **Jerome Xavier**, Pinheiro, Bento de Goes | **1595** – third mission, met Akbar at **Lahore** |
+| Jains | **Hiravijaya Suri** | "**Jagat Guru**" (CGPSC 2024; UPPSC 2012) |
+| Jains | **Jinachandra Suri** | "**Yuga Pradhan**" |
+| Sikhs | Guru Ram Das | Land granted – Amritsar grew |
+| Parsis | Dastur Meherji Rana | Land grant |
+- **CGPSC 2022:** the 1595 mission was the **third** and met Akbar at **Lahore**; **Monserrate** belonged to the **first** (1580) – so (i) and (ii) only.
+~~ Sources: NextGen Indian History Part 4 (src/indian-history/nextgen-indian-history-appsc-04.txt) p.27; NextGen Indian History Part 5 (src/indian-history/nextgen-indian-history-appsc-05.txt) p.16 (Ibadat Khana); NextGen Rocket Sheets Indian History Part 1 (src/indian-history/rocket-indian-history-01.txt) p.114, p.125; app notes 1:129 (sub 3, 4, 5)
+
+=== Court, Navratnas and Translations – Abul Fazl, Faizi, Tansen
+| Figure | Field | Fate / note |
+|---|---|---|
+| **Abul Fazl** | **Akbarnama, Ain-i-Akbari**; Panchatantra as **Ayar-i-Danish**; chief exponent of Din-i-Ilahi | **Murdered 1602 by Bir (Vir) Singh Bundela** of Orchha on **Prince Salim's** orders; the killer was **rewarded by Jahangir** |
+| **Faizi** (Abul Faizi) | **Poet laureate**, Abul Fazl's brother; Persian **Lilavati**; **supervised the translation department** – incl. the Persian Mahabharata | Died 1595 |
+| Birbal (Mahesh Das) | Wit, adviser; only Hindu in Din-i-Ilahi | Killed 1586 fighting the **Yusufzai** |
+| Todar Mal | Revenue minister; earlier served Sher Shah | Died 1589 |
+| **Tansen** | Original name **Ramtanu Pandey**; **Miyan ki Malhar**, Miyan ki Todi; first patron **Raja Ramchandra Singh of Rewa (Bhata)**; Akbar gave the title "**Miyan**" | Navaratna |
+| Man Singh I | General (Kachhwaha of Amber) | Led the Mughals at Haldighati |
+| Abdur Rahim Khan-i-Khanan | Son of Bairam Khan; Hindi dohas; Baburnama into Persian | – |
+- **Ata Ali Khan** – the name of **Abul Faizi** (CGPSC 2014 key).
+- **Abul Fazl's death** was caused by **Prince Salim** (Jharkhand 2013); actual killer **Bir Singh Deo Bundela** (MPSC 2009) – not Hemu, Bairam Khan or Udai Singh.
+- **Abul Fazl** is the medieval writer who **refers to the discovery of America** ("alam-i-nau", the New World) (UPSC 1997 ×2) – not Jayasi, Amir Khusrau or Raskhan.
+- Abul Fazl **shaped, represented and articulated the ideas of Akbar's reign**; his qualities made Akbar choose him as **adviser and spokesperson** – statement II explains I (NDA 2019; NCERT Themes II).
+- **Sheikh Mubarak** – father of Abul Fazl and Faizi. Death order: **Sheikh Mubarak (1593) → Faizi (1595) → Abul Fazl (1602) → Prince Daniyal (1605)** = 2, 3, 1, 4 (UPPSC 2024).
+- **Persian Mahabharata (Razmnama)** – translated by Naqib Khan, Badauni and others **under the supervision of Faizi** (RAS 1999) – not Utbi, Naziri or Abul Fazl.
+- Akbar **learnt Hindu music from Lala Kalavant** (UPPSC 2016); Dhrupad under Akbar: Tansen and **Swami Haridas**; **Vilas Khan** – Jahangir's court.
+# Maktab Khana and translations
+- **Maktab Khana** ("House of Translation") at **Fatehpur Sikri**, set up around **1574**.
+- **Razmnama** = Persian **Mahabharata**; Atharvaveda, Rajatarangini and the Baburnama also translated; **Nizamuddin Panipati** – Persian **Yogavasistha**.
+- **Buland Darwaza** at Fatehpur Sikri commemorates the **Gujarat conquest (1572-73)**.
+~~ Sources: NextGen Indian History Part 4 p.9 (Razm Namah); NextGen Rocket Sheets Indian History Part 1 p.58, p.114, p.115; NCERT Class 12 Themes II ch.9 (Abul Fazl); app notes 1:129 (sub 6)
+
+=== Accession, Bairam Khan's Regency and Conquests
+# Accession and regency
+- Born **15 October 1542** at **Amarkot**; enthroned **14 February 1556** at **Kalanaur (Gurdaspur, Punjab)** on news of Humayun's death (CGPSC 2015) – not Kabul, Lahore or Sirhind – by **Bairam Khan**.
+- **Age at coronation:** books and keys say **fourteen** ("only fourteen years old", NextGen); strictly **13 years 4 months** ("under 14", Rocket).
+- **Panipat II – 5 November 1556**: Hemu hit in the eye by an arrow; Afghan power ended.
+| Phase | Years | Who dominated |
+|---|---|---|
+| **Bairam Khan's regency** | **1556-60** (JPSC 2010) | Bairam Khan – made Wakil/Wazir and **given the title Khan-i-Khanan by Akbar at that time**; dismissed 1560; killed 1561 on the way to **Mecca** |
+| Petticoat government | 1560-64 | **Maham Anaga** and her son **Adham Khan** |
+- **Adham Khan** was **personally killed by Akbar (1562)** for murdering the minister **Atagh (Atka) Khan** – not Bairam Khan, Baz Bahadur or Pir Muhammad.
+- Aurangzeb was crowned twice (21 July 1658 Delhi; 5 June 1659); his first coronation was NOT at Kalanaur.
+# Conquests
+| Region | Year | Ruler / queen opposed |
+|---|---|---|
+| Malwa | 1561 | **Baz Bahadur** (Afghan) |
+| Gondwana | 1564 | **Rani Durgavati** – Akbar's contemporary (SSC 2003; not Ahilya Bai, Martanda Varma, Sawai Jai Singh) |
+| Chittor (Mewar) | 1568 | Rana Udai Singh |
+| Ranthambore | 1569 | Surjan Rai (Hada) |
+| Gujarat | 1572-73 | Muzaffar Shah III; Buland Darwaza |
+| **Bengal and Bihar** | **1576** | **Daud Khan Karrani** defeated, both merged (BPSC 2001; State PSC) |
+| Kabul | **1581** | Half-brother **Mirza Hakim**, who backed the Bengal–Bihar rebels – **not to reclaim Ferghana** (UPSC 2003: A true, R false) |
+| Kashmir | 1586 | **Yusuf Shah Chak** – exiled to Bihar; tomb at **Biswak, Nalanda district** (BPSC 2019) |
+| Ahmednagar | 1600 | **Chand Bibi** |
+| Khandesh (**Asirgarh**) | 1601 | Miran Bahadur – last campaign |
+- Extent: **Bengal to Afghanistan, Kashmir to the Godavari**; **Khandesh, Kabul and Kashmir were inside – Bijapur was outside** (annexed by Aurangzeb, 1686) (NDA 2004).
+- **UPSC 1998 match:** **1556 – accession of Akbar**; 1600 – EIC charter; 1739 – Nadir Shah takes Delhi; the key pairs 1686 with Shivaji's death (strictly **1680**).
+- Mughal order: **Babur → Humayun → Akbar → Jahangir → Shah Jahan → Aurangzeb**; "Akbar, Shah Jahan, Jahangir" is the incorrect sequence (SSC 2020).
+~~ Sources: NextGen Indian History Part 4 p.25-27; NextGen Rocket Sheets Indian History Part 1 p.73; Wikipedia, Yusuf Shah Chak (tomb at Biswak, Nalanda; cites Kashmir histories); app notes 1:129 (sub 0, 1)
+
+=== Rajput Policy, Mewar and Haldighati
+- Twin policy of **conquest and conciliation**: surrender followed by restoration of **autonomy and honour**; high posts, marriages, toleration.
+- **First marriage alliance – 1562**, with the daughter of **Raja Bharmal (Bihari Mal) of Amber – the Kachhwahas** (State PSC; UPRO 2016; UPPCS 2004) – not Rathores, Sisodias, Chauhans or Bundelas; on Akbar's pilgrimage to **Ajmer**.
+- Top Rajput mansabdars: **Man Singh, Bhagwan Das**; also Raja Todar Mal and Raja Birbal.
+- **Contemporaries of Akbar:** Man Singh, Amar Singh, Udai Singh – **Jaswant Singh** of Marwar belongs to Shah Jahan–Aurangzeb (WBCS 2018).
+# Mewar – the holdout
+- **Mewar did not accept Akbar's supremacy willingly** (UP Lower 2004) – Amber, Marwar, Bikaner did.
+- **Haldighati – 18 June 1576** (UKPSC 2010; CGPSC 2016) – **Maharana Pratap** vs Akbar's army under **Man Singh of Amber**; aim: **to subdue Rana Pratap** (RAS 1992).
+- **Hakim Khan Sur** commanded Pratap's army (vanguard of Afghans) – not Amar Singh, Man Singh or Shakti Singh.
+- Rana Pratap employed **Baksariya Muslims** in his army (APPSC G1 2019 key).
+- Mewar submitted only under **Jahangir** – **Amar Singh**'s treaty, **1615**.
+- **Rao Chandrasena of Marwar** never surrendered (Bhadrajun 1571, Siwana; died 1581) – Rai Singh of Bikaner and Bharmal submitted; Amar Singh submitted to Jahangir (RAS 2012).
+- Pairs: Chausa = 1539 (not 1538), Kannauj = 1540 (not 1539), **Haldighati = 1576**, Khajwa = 1659 (not 1657).
+~~ Sources: NextGen Indian History Part 4 p.26-27; NextGen Rocket Sheets Indian History Part 1 p.73-74; app notes 1:129 (sub 2)
+
+=== Social and Educational Reforms
+- **Sati** was prohibited / curbed under **Akbar** (WBCS 2018) – widows not to be burnt against their will.
+- **Monogamy order:** a man to marry **only one wife**, a second only if the first was **barren** – **Akbar** (UPPCS 2002).
+- **Marriage age fixed** (16 for boys, 14 for girls) and **consent of bride and groom** required – **both statements true** (UPPSC 2020).
+- Discouraged child marriage, dowries, marriages between close relatives; allowed widow remarriage.
+- **Educational reforms:** **Akbar** (MPPSC 2014) – curriculum of arithmetic, logic, geometry, astronomy, accountancy, agriculture, ethics, medicine, history.
+- **Memoirs:** Babur – Tuzuk-i-Baburi in **Turki**; Jahangir – Tuzuk-i-Jahangiri in **Persian**; Akbar wrote none (Abul Fazl's Akbarnama); Humayun was learned in Persian, Arabic and Turkish.
+- **Akbar was unlettered (illiterate)** but a great patron of learning (APPSC G2 2011) – Babur, Jahangir and Aurangzeb were literate.
+~~ Sources: NextGen Indian History Part 4 p.12 (education), p.27 (social reforms); app notes 1:129 (sub 3, 8)
