@@ -1154,3 +1154,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 440 → 77 kept + 83 new (160, 36%); new 47 statements / 24 match / 12 A–R; 3 of 270 lines lost.
 - PYQ y8ec53b6cfec keys Ustad Isa as Taj chief architect; notes 137:3:0.3 say Ustad Ahmad Lahori. Both attributions in books — official key + Disputed chip.
 - Row 139: own MCQs on Treaty of Allahabad Diwani, jizya 1679, exact Panipat date removed as not in notes — possible notes gaps.
+
+## rewrite b2-w047 (rows 47–53)
+- own 415 → 77 kept + 82 new (159, 38%); new 53 statements / 19 match / 10 A–R; 5 of 299 lines lost. No wrong notes/keys.
+- nindian-polity-44-19 (6-month gap between sessions) not in notes — removed; notes gap (Art. 85).

@@ -570,16 +570,16 @@
   "tq": "assertion"
  },
  {
-  "id": "cpfb2ce4fd029c",
+  "id": "cpff61a0809d56",
   "row": 47,
-  "s": "Match List-I (Waterfall) with List-II (District / place):\nList-I:\na. Talakona\nb. Ethipothala\nc. Katiki\nd. Kailasakona\nList-II:\ni. Alluri Sitharama Raju\nii. Nagari valley, near Puttur\niii. Tirupati (Nerabailu, Sri Venkateswara NP)\niv. Palnadu, near Macherla\nSelect the correct answer using the codes given below:",
+  "s": "Match List-I (Waterfall) with List-II (District / place):\nList-I:\na. Talakona\nb. Ethipothala\nc. Katiki\nd. Kailasakona\nList-II:\ni. Palnadu, near Macherla\nii. Alluri Sitharama Raju\niii. Nagari valley, near Puttur\niv. Tirupati (Nerabailu, Sri Venkateswara NP)\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-ii, b-iv, c-i, d-iii"
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-i, c-ii, d-iv"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Talakona – Nerabailu, Tirupati (tallest, ~270 ft); Ethipothala – Palnadu near Macherla (Chandravanka); Katiki – ASR; Kailasakona – Nagari valley near Puttur.",
   "src": "app",
   "tq": "match"
@@ -598,5 +598,590 @@
   "x": "1 and 3 are correct. 2 is wrong: Lambasingi is in Alluri Sitharama Raju district (Nagalapuram is the Tirupati one).",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp8e7580a9733c",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Dowleswaram anicut on the Godavari was built by Sir Arthur Cotton in 1847–1852.\n2. The Sir Arthur Cotton Barrage lies in West Godavari district.\n3. The barrage feeds the Eastern, Central and Western delta canals, irrigating about 10.30 lakh acres.\n4. In October 2022 it became the fourth ICID World Heritage Irrigation Structure of Andhra Pradesh.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 3 and 4 only",
+   "2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 3 and 4 are correct (after the KC Canal, Cumbum Tank and Porumamilla Tank). 2 is the classic wrong pair: the barrage is at Dowleswaram, Rajamahendravaram, on the East Godavari bank (it spans to West Godavari).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1561f8605e97",
+  "row": 48,
+  "s": "Match List-I (Project) with List-II (River):\nList-I:\na. Sunkesula Barrage\nb. Denkada check dam\nc. Vani Vilasa Sagar (Marikanive)\nd. Bhairivani Tippa\nList-II:\ni. Vedavathi\nii. Champavathi\niii. Tungabhadra\niv. Vedavathi (Gummagatta, Anantapur)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 0,
+  "x": "Sunkesula (Kurnool, head of the KC Canal) – Tungabhadra; Denkada – Champavathi (Vizianagaram); Vani Vilasa Sagar – Vedavathi (Karnataka; M. Visvesvaraya's first dam); Bhairivani Tippa – Vedavathi at Gummagatta, Anantapur.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe6344a100757",
+  "row": 48,
+  "s": "Consider the following statements:\n1. Nagarjuna Sagar is a masonry dam at Nandikonda, and its Right Main Canal is the Jawahar Canal.\n2. Srisailam is a masonry gravity dam and the source of the Telugu Ganga, Handri-Neeva and Veligonda schemes.\n3. The Prakasam Barrage on the Krishna is at Rajamahendravaram.\n4. The Pulichintala project lies in Palnadu district.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 2 and 4) are correct. 3 is wrong: the Prakasam Barrage is at Vijayawada, linking Krishna (now NTR) and Guntur districts; Rajamahendravaram has the Cotton Barrage on the Godavari.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1f06bb28c629",
+  "row": 48,
+  "s": "Consider the following statements:\n1. Somasila dam on the Penna lies in SPSR Nellore district.\n2. Kandaleru is a Godavari project near Rajamahendravaram.\n3. Brahmamsagar reservoir is in YSR Kadapa district.\n4. The Kalyani dam is in Tirupati district.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 3,
+  "x": "1, 3 and 4 are correct. 2 is wrong: Kandaleru (Nellore) is the Telugu Ganga balancing reservoir in the Penna basin – not a Godavari project.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa9e17b979f2c",
+  "row": 48,
+  "s": "Consider the following statements:\n1. Anantaraja Sagar (Porumamilla tank) in YSR Kadapa is a 14th-century Vijayanagara tank.\n2. Cumbum Tank on the Gundlakamma in Prakasam is associated with Queen Varadharajamma.\n3. Thimmaraju Cheruvu has been joined to the Gandikota reservoir system.\n4. The Kanithi Balancing Reservoir supplies water to the Visakhapatnam Steel Plant.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Thimmaraju Cheruvu (Nandyal–Kurnool) is joined to the Owk Reservoir system.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp78dddaabadc8",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Tungabhadra Dam at Hosapete is a common project of Karnataka, Andhra Pradesh and Telangana.\n2. The Annamayya dam on the Cheyyeru breached in the 2021 floods.\n3. The Rallapadu project in Prakasam is on the Gundlakamma.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: Rallapadu is on the Manneru.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpedd98e37f855",
+  "row": 48,
+  "s": "Consider the following statements:\n1. Andhra Pradesh has about 40 rivers, of which 15 are inter-state.\n2. About 75% of Andhra Pradesh lies in the Godavari, Krishna and Pennar basins.\n3. The Krishna and Godavari waters are shared by inter-state agreements, while the Bahuda, Vamsadhara and Nagavali are shared by tribunal awards.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 reverses the mechanisms: the Krishna and Godavari are shared by tribunal awards; the Bahuda, Vamsadhara, Nagavali, Pennar, Palar and Ponniar by inter-state agreements.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7f1d5530b973",
+  "row": 48,
+  "s": "Match List-I (Inter-state river) with List-II (Shared with):\nList-I:\na. Araniar\nb. Pennar\nc. Mahendra Tanaya\nd. Errakalava\nList-II:\ni. Odisha\nii. Telangana\niii. Tamil Nadu\niv. Karnataka\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Araniar – Tamil Nadu; Pennar – Karnataka (it never touches Telangana); Mahendra Tanaya – Odisha; Errakalava – Telangana (SES Table 7.1).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp66630cfd77ca",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The largest share of the Krishna basin lies in Karnataka.\n2. Puducherry (Yanam) lies in the Godavari basin.\n3. Jharkhand is one of the States of the Godavari basin.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 2) are correct. 3 is wrong: the Godavari basin covers Maharashtra, Telangana, AP, Chhattisgarh, Odisha, MP, Karnataka and Puducherry – no Jharkhand, no Gujarat.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf471936da969",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The longest river flowing in Andhra Pradesh is the Godavari.\n2. The river with the longest course inside Andhra Pradesh is the Krishna.\n3. Strictly, by area inside present Andhra Pradesh, the Pennar basin (48,276 sq km) is the largest.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: the longest course inside AP is the Penna's (536 km).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp231b8064debe",
+  "row": 48,
+  "s": "Consider the following statements:\n1. India has 20 river basins: 12 major and 8 composite.\n2. A major basin is one of over 20,000 sq km.\n3. The Kaveri basin has the highest level of water utilisation in India.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three are correct: 20 basins = 12 major (over 20,000 sq km) + 8 composite; the Kaveri has the highest water utilisation (CWC), mostly for irrigation in Karnataka and Tamil Nadu.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcc54ca69d279",
+  "row": 48,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The Godavari basin area inside present Andhra Pradesh is only about 4.5% of its total basin.\nReason (R): Most of the undivided State's Godavari basin (73,201 sq km) went to Telangana in 2014.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the Godavari's AP share is only ~4.5% of 312,812 sq km because most of the pre-2014 basin went to Telangana; hence strictly the Pennar is the largest basin inside present AP.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp108eda95b945",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Polavaram project has a gross storage of 194.6 TMC.\n2. It has a designed hydropower capacity of 960 MW.\n3. It is designed to irrigate 7.20 lakh acres.\n4. It is to divert 80 TMC of Krishna water to the Godavari.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 2 and 3 are correct. 4 reverses the link: Polavaram diverts 80 TMC of Godavari water to the Krishna (the Godavari–Krishna link of the ILR).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp31bb29534328",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Polavaram Left Main Canal carries Godavari water to North Coastal Andhra and Visakhapatnam.\n2. The Polavaram Right Main Canal reaches the Krishna at Vijayawada.\n3. Polavaram is to be dedicated by March 2027, before the Godavari Pushkaralu 2027.\n4. The Polavaram reservoir spreads into Odisha and Chhattisgarh.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "All four are correct (notes: Left Main Canal → North Coastal Andhra/Visakhapatnam; Right Main Canal → Krishna at Vijayawada; dedication by March 2027; reservoir spreads into Odisha and Chhattisgarh).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0929769bd9de",
+  "row": 48,
+  "s": "Match List-I (Scheme) with List-II (Districts served):\nList-I:\na. Handri-Neeva\nb. Galeru-Nagari\nc. KC Canal\nd. Veligonda\nList-II:\ni. Kurnool, Kadapa\nii. Prakasam, Nellore, Kadapa\niii. Kurnool, Anantapur, Kadapa, Chittoor\niv. Kadapa, Chittoor, Nellore\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "Handri-Neeva (Srisailam backwaters) – Kurnool, Anantapur, Kadapa, Chittoor; Galeru-Nagari (Krishna floodwaters) – Kadapa, Chittoor, Nellore; KC Canal (Sunkesula) – Kurnool, Kadapa; Veligonda – Prakasam, Nellore, Kadapa.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8509c7a4c7d9",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Veligonda project is named after Poola Subbaiah.\n2. It carries Srisailam water through twin Nallamala tunnels to Nallamala Sagar in the Penna basin.\n3. It is to irrigate about 4.47 lakh acres.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: Nallamala Sagar is in the Gundlakamma basin (Phase-I 31 Aug 2026).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf51377a1950e",
+  "row": 48,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The Pattiseema scheme is called India's first river-linking initiative.\nReason (R): Pattiseema lifts Godavari water into the Polavaram Right Main Canal, which delivers it to the Krishna above Prakasam Barrage.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: by moving Godavari water into the Krishna above Prakasam Barrage, Pattiseema made the working Godavari–Krishna link (UPSC 2016).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp0238a5aaaaf0",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Pothireddypadu head regulator is at the start of the Srisailam Right Main Canal.\n2. The Telugu Ganga route runs Srisailam – Somasila – Kandaleru – Poondi (Tamil Nadu).\n3. The Telugu Ganga project was conceived by N.T. Rama Rao.\n4. Under it, each of AP, Maharashtra and Karnataka gives 10 tmc ft for Chennai.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: each of the three Krishna States gives 5 tmc (15 tmc in all); 10 tmc ft is the Chennai supply figure for 2026.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe4e79762ccdc",
+  "row": 48,
+  "s": "Consider the following statements:\n1. Ken–Betwa is the first national (NPP) river link under implementation.\n2. The NWDA Godavari–Cauvery link runs Inchampalli → Nagarjunasagar → Somasila → Grand Anicut.\n3. The Godavari–Penna link Phase-I is a 73 TMC, 3-stage lift.\n4. The Polavaram–Nallamala Sagar link was earlier called the Banakacherla link.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Godavari–Penna Phase-I is a 73 TMC, 5-stage lift.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp33ab2eea4162",
+  "row": 48,
+  "s": "Consider the following statements:\n1. National Waterway-4 runs from Kakinada to Puducherry.\n2. The KC Canal was built by the Madras Irrigation and Canal Company.\n3. The Gandikota Lift Irrigation Scheme released water to the Pulivendula Branch Canal in January 2017.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three are correct: NW-4 is Kakinada–Puducherry (Godavari and Krishna stretches with the Kakinada, Eluru, Commamur and Buckingham canals); the KC Canal (1863–1870) was built by the Madras Irrigation and Canal Company; Gandikota LIS fed the Pulivendula Branch Canal in Jan 2017.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf801f7ab367d",
+  "row": 48,
+  "s": "Match List-I (River) with List-II (Mouth):\nList-I:\na. Vamsadhara\nb. Nagavali\nc. Gundlakamma\nd. Krishna\nList-II:\ni. Hamsaladeevi\nii. Devarampadu\niii. Mopasu Bandar\niv. Kalingapatnam\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 0,
+  "x": "Vamsadhara – Kalingapatnam; Nagavali – Mopasu Bandar; Gundlakamma – Devarampadu village; Krishna – Hamsaladeevi.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0c41763fef9f",
+  "row": 48,
+  "s": "Match List-I (River) with List-II (Origin):\nList-I:\na. Tungabhadra\nb. Sabari (Kolab)\nc. Arani (Araniyar)\nd. Swarnamukhi\nList-II:\ni. Near Pakala\nii. Varaha hills, Western Ghats\niii. Sadasivakonda, Narayanavanam PF\niv. Sinkaram hills, Odisha\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "Tungabhadra – Varaha hills; Sabari – Sinkaram hills, Odisha; Arani – Sadasivakonda (108 km, to the SW tip of Pulicat); Swarnamukhi – near Pakala.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3b3d8609b622",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Godavari flows about 485 km inside Andhra Pradesh.\n2. The Godavari rises at Trimbakeshwar, Nashik.\n3. The Gautami branch of the Godavari meets the sea near Yanam and the Vasishta at Antarvedi.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the Godavari flows only about 250 km in AP; 485 km is the Krishna's length in AP (APPSC key).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpafd8014a9392",
+  "row": 48,
+  "s": "Match List-I (River) with List-II (Other name):\nList-I:\na. Nagavali\nb. Vedavathi\nc. Swarnamukhi\nd. Godavari\nList-II:\ni. Mogaleru\nii. Dakshina Ganga\niii. Langulya\niv. Hagari\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "Nagavali – Langulya; Vedavathi – Hagari; Swarnamukhi – Mogaleru (Dhurjati); Godavari – Dakshina Ganga (also Vriddha Ganga). Penna = Pinakini/Penneru.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpef807235331e",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Machkund (upper Sileru) rises in the Madugula hills and joins the Sabari.\n2. The Gosthani rises in the Anantagiri hills and has its estuary near Bheemunipatnam.\n3. The Mahendratanaya rises in the Jayapur hills.\n4. The Veda and Avathi rivers join to form the Vedavathi.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the Mahendratanaya rises in the Mahendragiri hills; the Jayapur hills are the source of the Vamsadhara.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6a30af504d2d",
+  "row": 48,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The Penna meets the Bay of Bengal through Pulicat Lake.\nReason (R): The Arani river reaches the south-western tip of Pulicat Lake.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the Penna meets the sea at Utukuru, SPSR Nellore ('Penna–Pulicat' in some books is a slip). R is true: it is the Arani that reaches Pulicat.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6c6f1dc0a3c2",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Pranhita, the largest tributary of the Godavari, is formed by the Wainganga, Wardha and Penganga.\n2. The Pranhita joins the Godavari at Kaleshwaram in Telangana and is not an AP river.\n3. The Manjira is a left-bank tributary of the Godavari.\n4. The Sileru joins the Sabari at the AP–Chhattisgarh–Odisha tri-junction.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the Manjira (like Pravara and Manair) is a right-bank tributary; Purna, Pranhita, Indravati and Sabari are left-bank.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb905633b60bb",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Tungabhadra is the largest tributary of the Krishna by drainage area.\n2. The Bhima is the longest tributary of the Krishna.\n3. The Musi is a right-bank tributary of the Krishna.\n4. The Tungabhadra forms the Karnataka–AP boundary for 58 km.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 2 and 4) are correct. 3 is wrong: the Musi (with Bhima, Dindi, Paleru, Munneru) is a left-bank tributary.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd292ca2b234d",
+  "row": 48,
+  "s": "Match List-I (Penna tributary) with List-II (Where it joins the Penna):\nList-I:\na. Chitravathi\nb. Cheyyeru\nc. Kundu (Kunderu)\nd. Papagni\nList-II:\ni. Adinimmayapalli\nii. Near Kamalapuram\niii. Gandikota\niv. Gundlamada\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 0,
+  "x": "Chitravathi – Gandikota; Cheyyeru – Gundlamada (Kadapa); Kundu – Adinimmayapalli; Papagni – near Kamalapuram.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3777abc83ad5",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Papagni is a left-bank tributary of the Penna.\n2. The Kundu rises at Uppalapadu (Kurnool) and its valley is called Renadu.\n3. The Cheyyeru is formed by the Bahuda and the Pincha (Pancha), which join at Rayavaram.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "2 and 3 are correct. 1 is wrong: the Papagni (from the Nandi hills, Chikkaballapur) is a right-bank tributary.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp312f21a31526",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Vamsadhara enters Andhra Pradesh at Pathapatnam and its tributary is the Mahendratanaya.\n2. The Janjavathi, with Asia's first rubber dam, is a tributary of the Nagavali.\n3. The Kalyani is a tributary of the Swarnamukhi.\n4. The Tammileru drains into Pulicat Lake.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 2 and 3 are correct. 4 is wrong: the Tammileru (Eluru–Krishna boundary) drains into Kolleru Lake.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8646eb6daa24",
+  "row": 48,
+  "s": "Consider the following statements:\n1. Below Rajahmundry the Godavari splits at Dowleswaram into the Gautami and the Vasishta, and has 7 mouths in all.\n2. Konaseema is the delta between the Gautami and the Vasishta; its 'lankas' are silt islands.\n3. The Krishna splits at Puligadda, 64 km below Vijayawada, and Diviseema lies between its two branches.\n4. Bhavani Island lies in the Godavari at Rajahmundry.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 4 only",
+   "2 and 3 only",
+   "1, 2, 3 and 4",
+   "1, 2 and 3 only"
+  ],
+  "a": 3,
+  "x": "1, 2 and 3 are correct. 4 is wrong: Bhavani Island is in the Krishna at Vijayawada, near Prakasam Barrage.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd8fec2484d71",
+  "row": 48,
+  "s": "Match List-I (Place / feature) with List-II (River):\nList-I:\na. Puttaparthi\nb. Bhavani Island\nc. Nandyal floods\nd. Srikalahasti\nList-II:\ni. Kundu\nii. Swarnamukhi\niii. Chitravathi\niv. Krishna\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "Puttaparthi – Chitravathi; Bhavani Island – Krishna (Vijayawada); Nandyal floods – Kundu ('Sorrow of Nandyal'); Srikalahasti – Swarnamukhi.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa33f4ecddd5c",
+  "row": 48,
+  "s": "Consider the following statements:\n1. In 2025 the Godavari stretch near Rajamahendravaram was named among India's most polluted.\n2. In the July–August 2026 Godavari floods the third warning level was crossed at Dowleswaram.\n3. The Raichur Doab lies between the Krishna and the Tungabhadra.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the 3rd warning level was crossed at Bhadrachalam; Dowleswaram recorded 5.2 lakh cusecs.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpba6708d0f9e7",
+  "row": 48,
+  "s": "Consider the following statements:\n1. The Apex Council under APRA 2014 is the Union Water Resources Minister (chair) with the CMs of AP and Telangana.\n2. Under Section 85, the GRMB has its headquarters in Andhra Pradesh and the KRMB in Telangana.\n3. Schedule 11 gives the priority: drinking water > irrigation > power.\n4. The river boards are provided in Part IX (Sections 84-91) of the Act.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 3 and 4 are correct. 2 reverses the seats: the GRMB headquarters is in Telangana and the KRMB headquarters in Andhra Pradesh.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp546e971277b5",
+  "row": 48,
+  "s": "Match List-I (Tribunal) with List-II (Fact):\nList-I:\na. Bachawat Tribunal (KWDT-I)\nb. Brijesh Kumar Tribunal (KWDT-II)\nc. Godavari Water Disputes Tribunal\nd. Vamsadhara Tribunal\nList-II:\ni. Award 1980\nii. AP–Odisha; final award 2017\niii. Award 1976; AP 811 TMC\niv. Report 2010\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "Bachawat – award 1976, 2,060 TMC at 75% dependability, AP 811 TMC; Brijesh Kumar – report 2010 (further report 2013); GWDT – award 1980; Vamsadhara Tribunal – AP–Odisha, final award 2017.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1f3be685d04c",
+  "row": 48,
+  "s": "Consider the following statements:\n1. After 2014, Andhra Pradesh controls Srisailam, Pulichintala and the Prakasam Barrage.\n2. Telangana controls Nagarjuna Sagar and Jurala.\n3. Since 3 December 2023 the Nagarjuna Sagar dam has been guarded by the CISF.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the Centre posted the CRPF (not CISF) at Nagarjuna Sagar after the AP–Telangana stand-off.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbad47cb6114d",
+  "row": 48,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): Andhra Pradesh objects to Telangana's Kaleshwaram and Palamuru-Rangareddy projects.\nReason (R): Telangana objects to Pattiseema, Polavaram and Banakacherla as overuse of the Krishna share.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: each State objects to the other's projects; AP's objection to Kaleshwaram and Palamuru-Rangareddy is not caused by Telangana's objections.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp65f67b063005",
+  "row": 48,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The Babli barrage has reduced the inflow into the Sriramsagar reservoir.\nReason (R): Maharashtra built the Babli barrage on the Godavari upstream of Sriramsagar.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: being upstream on the Godavari, Babli cuts Sriramsagar's inflow (SC verdict 2013).",
+  "src": "app",
+  "tq": "assertion"
  }
 ]
