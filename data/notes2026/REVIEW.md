@@ -719,3 +719,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Disputes: y01643a705dc Rudramadevi 1262 vs 1258; ydd87cb066c5 NHAI 1988 (operational 1995); own MCQ cacf2a381db0c8 HPV "under 14" vs 14-year-olds.
 - HPV drive launched 28 Feb 2026 (not March) — explanations fixed.
 - Unverified: y9105195de1c LPG match; y0082b639600 Gentlemen's Agreement Muslim-minister clause (web only).
+
+## b6-r046 (CA rows 46-48 national institutions/appointments)
+- No key changes. y1289c8b26d4 emblem question image missing: printed UGC kept, not verified; garbled explanation replaced.
+- yc9fd42ed8f1 AP five campaigns: source only a 2015 blog. ONOE 129th Bill from Praveen + Rocket Polity.
+- Notes fixed: NCM chair Grewal (16/21 Jul 2026), NITI CEO Anurag Jain (17 Aug 2026), 16th FC report 17 Nov 2025.

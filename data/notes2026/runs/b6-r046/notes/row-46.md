@@ -30,7 +30,7 @@
 
 === Commissions – Appointments, Status and Initiatives (NCM, NCW, CIC)
 # National Commission for Minorities
-- **[July 2026]** **Harjit Singh Grewal** (senior BJP leader) appointed **Chairman, NCM**; **assumed charge 21 July 2026**.
+- **[16 Jul 2026]** **Harjit Singh Grewal** (senior BJP leader) appointed **Chairman, NCM** for a **3-year term**; **assumed charge 21 July 2026**.
 - NCM: **statutory** - **NCM Act, 1992**; **Ministry of Minority Affairs**; HQ **New Delhi**.
 - **Six notified minorities**: **Muslims, Christians, Sikhs, Buddhists, Parsis, Jains**.
 # Other appointments
@@ -44,7 +44,7 @@
 # NCW initiatives
 - Launched by the **National Commission for Women** in **Jalandhar, Punjab** (chairperson **Vijaya Rahatkar**).
 - **Yashoda AI**: AI awareness, digital literacy and cyber-safety for women. **She Serves**: careers in the **Armed Forces** for young women.
-> **Yashoda AI** was launched by the **National Commission for Women** – not by the Ministry of WCD (only NCW's nodal ministry) or MeitY.
+> **Yashoda AI** was launched by the **National Commission for Women** – not by a Ministry (WCD is only NCW's nodal ministry).
 - NCW: est. **1992** under the **NCW Act, 1990**; **Ministry of Women and Child Development**.
 # Nature of bodies in news
 | Body | Nature |
@@ -184,39 +184,3 @@
 - Developed by **ICAR-NIHSAD, Bhopal** (est. **1985**); dedicated by **Shivraj Singh Chouhan**.
 - ASF: viral disease of **pigs**; **does not infect humans**.
 ~~ Sources: app notes 6:46 (sub 8)
-
-=== Quick Revision – Numbers, Firsts and Traps
-| Item | Correct Fact |
-|---|---|
-| ONOE Bill | 129th Amendment; Art 82A; amends 83, 172 |
-| Law Commission report on simultaneous polls | 170th (1999) |
-| Notified calamities | 12 to 14 |
-| Prison occupancy 2024 | 112.7% (Delhi 194.6% highest) |
-| Undertrials | ~73% |
-| BNSS Sec 479 | release after one-third of max sentence |
-| Notified minorities | 6 |
-| CAG tenure | 6 years or 65 years |
-| RE border bands | 1 km ban; 20 km MoD NOC; 50 km clearance |
-| 2024 election cost | ~₹1.35 lakh crore |
-| Sarvam AI | 130th unicorn |
-| PLFS July 2026 | UR 5.1%; LFPR 55.4% |
-| Ayurveda exports | USD 2.16 bn (2023) |
-# FIRST / LAST / SPECIAL FACTS
-- Samadhan Didi: first AI voice chatbot for CPGRAMS.
-- MA-104: India's first indigenous ASF vaccine.
-- Sarvam AI: first full-stack indigenous AI unicorn.
-- NHAI-NCAER centre: first permanent independent research centre on transport economics.
-- Operation Shiva 2026: first time with extensive counter-drone and EW systems.
-- Telangana: first in the PRAGATI cybercrime review.
-# Traps
-- 1. **129th** = ONOE (JPC **P.P. Chaudhary**); **131st** = 850 Lok Sabha seats (defeated).
-- 2. ONOE Bill **excludes local bodies**; Kovind Committee wanted local polls **within 100 days**.
-- 3. Law Commission **170th Report (1999)**, Justice **B.P. Jeevan Reddy**; EC recommended return in **1983**.
-- 4. Constructive no-confidence: from **Germany**.
-- 5. Heatwave and lightning added on **16th FC advice** - calamities **12 to 14**, not 12 to 13.
-- 6. Highest prison occupancy: **Delhi**, not UP.
-- 7. 50 km zone = **security clearance**, not a ban; the ban is only **within 1 km**.
-- 8. **NCM is statutory** (1992 Act), not constitutional; NCST is constitutional (Art 338A).
-- 9. Bureau of Port Security is modelled on **BCAS**; CISF is the **RSO**.
-- 10. ASF **does not infect humans**; vaccine by **ICAR-NIHSAD, Bhopal**.
-~~ Sources: app notes 6:46 (subs 9, 11)
