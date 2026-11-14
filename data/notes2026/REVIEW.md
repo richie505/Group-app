@@ -1149,3 +1149,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b5-w061 (rows 61–65)
 - own 410 → 79 kept + 89 new (168, 41%); new 54 statements / 21 match / 14 A–R; 3 of 249 lines lost.
 - PYQ yfe771516be2 (row 63) keyed "Cobalt-62" — should be Cobalt-60 (check printed option; likely typo).
+
+## rewrite b1-w137 (rows 137–141)
+- own 440 → 77 kept + 83 new (160, 36%); new 47 statements / 24 match / 12 A–R; 3 of 270 lines lost.
+- PYQ y8ec53b6cfec keys Ustad Isa as Taj chief architect; notes 137:3:0.3 say Ustad Ahmad Lahori. Both attributions in books — official key + Disputed chip.
+- Row 139: own MCQs on Treaty of Allahabad Diwani, jizya 1679, exact Panipat date removed as not in notes — possible notes gaps.
