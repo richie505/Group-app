@@ -165,9 +165,9 @@
   "tq": "match"
  },
  {
-  "id": "cpb3b39a4da1e4",
+  "id": "cp0d1a3a5fd2da",
   "row": 30,
-  "s": "Consider the following statements about critical minerals (2026):\n1. The US 'Project Vault' is a $12 billion critical-mineral stockpile.\n2. At the 18th BRICS Summit in New Delhi, the Prime Minister warned against weaponising critical minerals.\n3. China refines about 30% of the world's strategic minerals.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about critical minerals (2026):\n1. China refines about 30% of the world's strategic minerals.\n2. The US 'Project Vault' is a $12 billion critical-mineral stockpile.\n3. At the 18th BRICS Summit in New Delhi, the Prime Minister warned against weaponising critical minerals.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -175,7 +175,7 @@
    "None"
   ],
   "a": 1,
-  "x": "Two are correct. Statement 3 is wrong: China refines about 70%, not 30%, of strategic minerals.",
+  "x": "Two are correct. Statement 1 is wrong: China refines about 70%, not 30%, of strategic minerals.",
   "src": "app",
   "tq": "statements"
  },
@@ -225,17 +225,17 @@
   "tq": "statements"
  },
  {
-  "id": "cp7ab0182b0cdd",
+  "id": "cp0315e26e8159",
   "row": 30,
-  "s": "Consider the following statements about the canals of Rajasthan:\n1. The Indira Gandhi Canal takes off from the Harike Barrage and its main canal is about 649 km long.\n2. The Gang Canal was built in 1927 by Maharaja Ganga Singh of Bikaner.\n3. In winter the Indira Gandhi Canal is fed by the Bhakra dam on the Sutlej.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the canals of Rajasthan:\n1. The Indira Gandhi Canal takes off from the Harike Barrage and its main canal is about 649 km long.\n2. In winter the Indira Gandhi Canal is fed by the Bhakra dam on the Sutlej.\n3. The Gang Canal was built in 1927 by Maharaja Ganga Singh of Bikaner.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "2 only",
+   "1 and 3 only",
    "1, 2 and 3",
-   "1 only"
+   "1 only",
+   "3 only"
   ],
   "a": 0,
-  "x": "1 and 2 are correct. 3 is wrong: in winter the Indira Gandhi Canal is fed by the Pong dam on the Beas, not Bhakra.",
+  "x": "1 and 3 are correct. 2 is wrong: in winter the Indira Gandhi Canal is fed by the Pong dam on the Beas, not Bhakra.",
   "src": "app",
   "tq": "statements"
  },
@@ -300,17 +300,17 @@
   "tq": "match"
  },
  {
-  "id": "cp0aabd6581220",
+  "id": "cp49c21ee28569",
   "row": 30,
-  "s": "Consider the following statements:\n1. The Hariyali scheme was launched by Atal Bihari Vajpayee on 27 January 2003.\n2. Under Hariyali, watershed projects are implemented through Panchayati Raj Institutions.\n3. Command Area Development and Water Management is a component of the National River Conservation Plan.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. Command Area Development and Water Management is a component of the National River Conservation Plan.\n2. The Hariyali scheme was launched by Atal Bihari Vajpayee on 27 January 2003.\n3. Under Hariyali, watershed projects are implemented through Panchayati Raj Institutions.\nWhich of the statements given above is/are correct?",
   "o": [
    "1, 2 and 3",
-   "1 only",
-   "1 and 2 only",
-   "2 only"
+   "2 only",
+   "2 and 3 only",
+   "3 only"
   ],
   "a": 2,
-  "x": "1 and 2 are correct. 3 is wrong: CAD&WM is a component of the Pradhan Mantri Krishi Sinchayee Yojana (PMKSY), not the NRCP.",
+  "x": "2 and 3 are correct. 1 is wrong: CAD&WM is a component of the Pradhan Mantri Krishi Sinchayee Yojana (PMKSY), not the NRCP.",
   "src": "app",
   "tq": "statements"
  },
@@ -330,32 +330,32 @@
   "tq": "statements"
  },
  {
-  "id": "cp920b0205b581",
+  "id": "cpdb25424e5b7c",
   "row": 30,
-  "s": "Consider the following statements about Andhra Pradesh's water projects:\n1. The Pattiseema lift transfers Godavari water to the Krishna.\n2. In the 2026 El Nino deficit, Pattiseema lift water fed the Krishna delta.\n3. The Gandikota reservoir, serving Rayalaseema, is on the Krishna.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about Andhra Pradesh's water projects:\n1. The Pattiseema lift transfers Godavari water to the Krishna.\n2. The Gandikota reservoir, serving Rayalaseema, is on the Krishna.\n3. In the 2026 El Nino deficit, Pattiseema lift water fed the Krishna delta.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "2 only",
-   "1 and 2 only",
-   "1, 2 and 3"
+   "3 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "1 only"
   ],
   "a": 2,
-  "x": "1 and 2 are correct. 3 is wrong: Gandikota is on the Pennar.",
+  "x": "1 and 3 are correct. 2 is wrong: Gandikota is on the Pennar.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp6b35093a1132",
+  "id": "cp3ec1ab623e0d",
   "row": 30,
-  "s": "Consider the following statements about forest policy:\n1. The National Forest Policy, 1988 aims at 33% of the country under forest and two-thirds of the area in the hills.\n2. The Centre's guidelines on Joint Forest Management were issued in 1990.\n3. Arabari, the forerunner of Joint Forest Management (1972), is in Odisha.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about forest policy:\n1. Arabari, the forerunner of Joint Forest Management (1972), is in Odisha.\n2. The National Forest Policy, 1988 aims at 33% of the country under forest and two-thirds of the area in the hills.\n3. The Centre's guidelines on Joint Forest Management were issued in 1990.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "2 only",
+   "2 and 3 only",
    "1, 2 and 3",
-   "1 only"
+   "3 only",
+   "2 only"
   ],
   "a": 0,
-  "x": "1 and 2 are correct. 3 is wrong: Arabari is in West Bengal.",
+  "x": "2 and 3 are correct. 1 is wrong: Arabari is in West Bengal.",
   "src": "app",
   "tq": "statements"
  },
@@ -510,24 +510,24 @@
   "tq": "sequence"
  },
  {
-  "id": "cp3a47791e8316",
+  "id": "cped26874d05be",
   "row": 30,
-  "s": "Consider the following statements about amendments to the MMDR Act, 1957:\n1. The 2015 amendment made auction mandatory and created the District Mineral Foundation and the National Mineral Exploration Trust.\n2. The 2023 amendment lets the Centre auction critical and strategic minerals such as lithium and introduced the exploration licence.\n3. The 2015 amendment funded the District Mineral Foundation from the Consolidated Fund of India.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about amendments to the MMDR Act, 1957:\n1. The 2015 amendment made auction mandatory and created the District Mineral Foundation and the National Mineral Exploration Trust.\n2. The 2015 amendment funded the District Mineral Foundation from the Consolidated Fund of India.\n3. The 2023 amendment lets the Centre auction critical and strategic minerals such as lithium and introduced the exploration licence.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
+   "1, 2 and 3",
+   "3 only",
    "1 only",
-   "2 only",
-   "1, 2 and 3"
+   "1 and 3 only"
   ],
-  "a": 0,
-  "x": "1 and 2 are correct. 3 is wrong: DMFs are funded by the miners (30% of royalty for old leases, 10% for auctioned ones), not from the Consolidated Fund.",
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: DMFs are funded by the miners (30% of royalty for old leases, 10% for auctioned ones), not from the Consolidated Fund.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp6de2456947f3",
+  "id": "cpc0c95a008c17",
   "row": 30,
-  "s": "Consider the following statements:\n1. Miners pay 30% of royalty for old leases and 10% for auctioned leases to the District Mineral Foundation.\n2. The MMDR Amendment of 14 August 2026 lets States tax mineral rights and lands only within limits set by the Centre.\n3. In MADA v. SAIL (2024) the Supreme Court held that royalty is a tax.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements:\n1. In MADA v. SAIL (2024) the Supreme Court held that royalty is a tax.\n2. Miners pay 30% of royalty for old leases and 10% for auctioned leases to the District Mineral Foundation.\n3. The MMDR Amendment of 14 August 2026 lets States tax mineral rights and lands only within limits set by the Centre.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -535,7 +535,7 @@
    "None"
   ],
   "a": 1,
-  "x": "Two are correct. Statement 3 is wrong: the nine-judge bench held that royalty is not a tax.",
+  "x": "Two are correct. Statement 1 is wrong: the nine-judge bench held that royalty is not a tax.",
   "src": "app",
   "tq": "statements"
  },
@@ -555,24 +555,24 @@
   "tq": "assertion"
  },
  {
-  "id": "cp3d1e9c844bb3",
+  "id": "cpd4565986abd3",
   "row": 30,
-  "s": "Consider the following statements about deep-sea minerals:\n1. India was the first to sign an ISA contract for polymetallic sulphides on the Carlsberg Ridge (2025).\n2. Polymetallic sulphides are rich in copper, zinc, lead, iron, silver and gold.\n3. Polymetallic nodules are rich in manganese, cobalt, nickel and copper.\n4. The International Seabed Authority is headquartered in Hamburg.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about deep-sea minerals:\n1. India was the first to sign an ISA contract for polymetallic sulphides on the Carlsberg Ridge (2025).\n2. The International Seabed Authority is headquartered in Hamburg.\n3. Polymetallic sulphides are rich in copper, zinc, lead, iron, silver and gold.\n4. Polymetallic nodules are rich in manganese, cobalt, nickel and copper.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
-   "1 and 2 only",
+   "1, 3 and 4 only",
    "1, 2, 3 and 4",
-   "1, 2 and 3 only"
+   "1 and 3 only",
+   "1 and 4 only"
   ],
-  "a": 3,
-  "x": "1, 2 and 3 are correct. 4 is wrong: the ISA is in Jamaica; Hamburg is the seat of ITLOS.",
+  "a": 0,
+  "x": "1, 3 and 4 are correct. 2 is wrong: the ISA is in Jamaica; Hamburg is the seat of ITLOS.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cpe6307e04a44a",
+  "id": "cp3b5529ecbe70",
   "row": 30,
-  "s": "Consider the following statements about gemstones:\n1. Ruby and sapphire are both varieties of corundum (Al₂O₃).\n2. The colour of sapphire comes from iron and titanium.\n3. Emerald is a variety of corundum coloured by chromium.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about gemstones:\n1. Ruby and sapphire are both varieties of corundum (Al₂O₃).\n2. Emerald is a variety of corundum coloured by chromium.\n3. The colour of sapphire comes from iron and titanium.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -580,7 +580,7 @@
    "None"
   ],
   "a": 1,
-  "x": "Two are correct. Statement 3 is wrong: emerald is a variety of beryl (beryllium aluminium silicate), coloured by chromium or vanadium.",
+  "x": "Two are correct. Statement 2 is wrong: emerald is a variety of beryl (beryllium aluminium silicate), coloured by chromium or vanadium.",
   "src": "app",
   "tq": "statements"
  },
@@ -765,17 +765,17 @@
   "tq": "statements"
  },
  {
-  "id": "cp5e792d3b9229",
+  "id": "cpf2c5c638191b",
   "row": 31,
-  "s": "Consider the following statements:\n1. The Andes are formed where the Nazca and South American plates meet.\n2. The Atlas, in Morocco, Algeria and Tunisia, separates the Atlantic and Mediterranean coast from the Sahara.\n3. Thabana Ntlenyana, the highest peak of the Drakensberg, is in South Africa.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. Thabana Ntlenyana, the highest peak of the Drakensberg, is in South Africa.\n2. The Andes are formed where the Nazca and South American plates meet.\n3. The Atlas, in Morocco, Algeria and Tunisia, separates the Atlantic and Mediterranean coast from the Sahara.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "2 only",
-   "1 only",
-   "1, 2 and 3"
+   "3 only",
+   "1, 2 and 3",
+   "2 and 3 only"
   ],
-  "a": 0,
-  "x": "1 and 2 are correct. 3 is wrong: Thabana Ntlenyana (3,482 m) is in Lesotho; the Drakensberg is shared by South Africa and Lesotho.",
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: Thabana Ntlenyana (3,482 m) is in Lesotho; the Drakensberg is shared by South Africa and Lesotho.",
   "src": "app",
   "tq": "statements"
  },
@@ -799,12 +799,12 @@
   "row": 31,
   "s": "Match List-I with List-II:\nList-I (Mountain range)\na. Pyrenees\nb. Ruwenzori\nc. Apennines\nd. Hindu Raj\nList-II (Location)\ni. Italy\nii. Northern Pakistan\niii. Uganda–DR Congo\niv. Spain–France border\nSelect the correct answer using the code given below:",
   "o": [
-   "a-ii, b-iii, c-i, d-iv",
    "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iii, c-i, d-iv",
    "a-iv, b-i, c-iii, d-ii",
    "a-iii, b-iv, c-i, d-ii"
   ],
-  "a": 1,
+  "a": 0,
   "x": "The Pyrenees (Andorra) lie on the Spain–France border, the Ruwenzori ('Mountains of the Moon') on the Uganda–DR Congo border, the Apennines in Italy and the Hindu Raj in northern Pakistan.",
   "src": "app",
   "tq": "match"
@@ -815,11 +815,11 @@
   "s": "Consider the following statements about the longest mountain ranges:\n1. The Rockies (~4,800 km), whose highest peak is Mount Elbert, are the second-longest range.\n2. The Great Dividing Range (~3,500 km) lies in eastern Africa.\n3. The Himalayas (~2,400–2,500 km) are shorter than the Great Dividing Range.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1 and 3 only",
    "1, 2 and 3",
-   "3 only",
-   "1 and 3 only"
+   "3 only"
   ],
-  "a": 3,
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: the Great Dividing Range is in eastern Australia. Order: Andes > Rockies > Great Dividing Range > Himalayas.",
   "src": "app",
   "tq": "statements"
@@ -1020,17 +1020,17 @@
   "tq": "statements"
  },
  {
-  "id": "cp221c62d4abf2",
+  "id": "cp59d7f79ccc44",
   "row": 32,
-  "s": "Consider the following statements:\n1. The Dahlak archipelago lies off Eritrea in the Red Sea.\n2. The Adriatic is an arm of the Mediterranean.\n3. North Macedonia has a short coastline on the Adriatic.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. The Dahlak archipelago lies off Eritrea in the Red Sea.\n2. North Macedonia has a short coastline on the Adriatic.\n3. The Adriatic is an arm of the Mediterranean.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
+   "1 and 3 only",
+   "3 only",
    "1, 2 and 3",
-   "1 only",
-   "2 only"
+   "1 only"
   ],
   "a": 0,
-  "x": "1 and 2 are correct. 3 is wrong: North Macedonia is landlocked; it is Bosnia that has the short Neum coast.",
+  "x": "1 and 3 are correct. 2 is wrong: North Macedonia is landlocked; it is Bosnia that has the short Neum coast.",
   "src": "app",
   "tq": "statements"
  },
@@ -1080,17 +1080,17 @@
   "tq": "assertion"
  },
  {
-  "id": "cp09dfe21b059b",
+  "id": "cpac11ab0abc02",
   "row": 32,
-  "s": "Consider the following statements:\n1. Uzbekistan and Liechtenstein are doubly landlocked.\n2. Laos is the only landlocked country of South-East Asia.\n3. Azerbaijan has a coastline on the Black Sea.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. Azerbaijan has a coastline on the Black Sea.\n2. Uzbekistan and Liechtenstein are doubly landlocked.\n3. Laos is the only landlocked country of South-East Asia.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "1, 2 and 3",
+   "2 and 3 only",
+   "3 only",
    "2 only",
-   "1 and 2 only"
+   "1, 2 and 3"
   ],
-  "a": 3,
-  "x": "1 and 2 are correct. 3 is wrong: Azerbaijan touches only the Caspian.",
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: Azerbaijan touches only the Caspian.",
   "src": "app",
   "tq": "statements"
  },
@@ -1129,12 +1129,12 @@
   "row": 32,
   "s": "Consider the following statements about lakes:\n1. Baikal is the deepest (1,642 m) and oldest lake and holds about 20% of the unfrozen fresh water.\n2. Victoria is the second-largest freshwater lake by area and the source of the White Nile.\n3. Lake Tanganyika lies wholly north of the Equator.\n4. By area, Lake Michigan is larger than Lake Victoria.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "1 only",
+   "1 and 2 only",
    "1, 2 and 3 only",
    "1, 2 and 4 only"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1 and 2 are correct. 3 is wrong: Tanganyika lies wholly south of the Equator. 4 is wrong: the order is Superior (82,100) > Victoria (68,870) > Michigan (58,000 sq km).",
   "src": "app",
   "tq": "statements"
@@ -1145,11 +1145,11 @@
   "s": "Match List-I with List-II:\nList-I (Lake)\na. Titicaca\nb. Balkhash\nc. Maracaibo\nd. Turkana\nList-II (Feature)\ni. Largest lake of South America\nii. Largest desert lake\niii. Western half fresh, eastern half saline\niv. Highest navigable lake\nSelect the correct answer using the code given below:",
   "o": [
    "a-iv, b-i, c-iii, d-ii",
-   "a-iv, b-iii, c-i, d-ii",
    "a-iv, b-ii, c-i, d-iii",
-   "a-i, b-iii, c-iv, d-ii"
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-iii, c-i, d-ii"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Titicaca (Peru–Bolivia) is the highest navigable lake; Balkhash (Kazakhstan) is fresh in the west and saline in the east; Maracaibo (Venezuela) is South America's largest; Turkana (Kenya) is the largest desert lake.",
   "src": "app",
   "tq": "match"
@@ -1185,32 +1185,32 @@
   "tq": "statements"
  },
  {
-  "id": "cp2d917284f791",
+  "id": "cpf9825d03c95a",
   "row": 32,
-  "s": "Consider the following statements about rivers of Asia:\n1. The Amur flows north-east along the Russia–China border to the Sea of Okhotsk.\n2. The Tigris and Euphrates join to form the Shatt al-Arab before entering the Persian Gulf.\n3. The Salween flows north to the Arctic Ocean.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about rivers of Asia:\n1. The Amur flows north-east along the Russia–China border to the Sea of Okhotsk.\n2. The Salween flows north to the Arctic Ocean.\n3. The Tigris and Euphrates join to form the Shatt al-Arab before entering the Persian Gulf.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 only",
+   "1, 2 and 3",
    "1 only",
-   "1 and 2 only",
-   "1, 2 and 3"
+   "1 and 3 only",
+   "3 only"
   ],
   "a": 2,
-  "x": "1 and 2 are correct. 3 is wrong: the Salween flows south through Myanmar to the Andaman Sea; the Ob, Yenisei and Lena flow north to the Arctic.",
+  "x": "1 and 3 are correct. 2 is wrong: the Salween flows south through Myanmar to the Andaman Sea; the Ob, Yenisei and Lena flow north to the Arctic.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cpedb828625672",
+  "id": "cp5398167def98",
   "row": 32,
-  "s": "Consider the following statements:\n1. The Volga rises in the Valdai Hills and drains into the Caspian Sea.\n2. The Volga–Don canal is in Russia.\n3. The Danube, Europe's second-longest river, flows through 10 countries.\n4. The Danube rises in the Swiss Alps.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. The Danube rises in the Swiss Alps.\n2. The Volga rises in the Valdai Hills and drains into the Caspian Sea.\n3. The Volga–Don canal is in Russia.\n4. The Danube, Europe's second-longest river, flows through 10 countries.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
-   "1, 2 and 3 only",
-   "2 and 3 only",
+   "3 and 4 only",
+   "2, 3 and 4 only",
+   "2 and 4 only",
    "1, 2, 3 and 4"
   ],
   "a": 1,
-  "x": "1, 2 and 3 are correct. 4 is wrong: the Danube rises in the Black Forest of Germany; the Rhine rises in the Swiss Alps.",
+  "x": "2, 3 and 4 are correct. 1 is wrong: the Danube rises in the Black Forest of Germany; the Rhine rises in the Swiss Alps.",
   "src": "app",
   "tq": "statements"
  },
@@ -1245,17 +1245,17 @@
   "tq": "statements"
  },
  {
-  "id": "cp626e444d5e96",
+  "id": "cp993fe0eda518",
   "row": 32,
-  "s": "Consider the following statements about rivers:\n1. The Congo is the deepest river and crosses the Equator twice.\n2. The Limpopo crosses the Tropic of Capricorn twice.\n3. The Yangtze is the longest river of Asia and third in the world.\n4. The Mississippi–Missouri is the second-longest river.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about rivers:\n1. The Congo is the deepest river and crosses the Equator twice.\n2. The Mississippi–Missouri is the second-longest river.\n3. The Limpopo crosses the Tropic of Capricorn twice.\n4. The Yangtze is the longest river of Asia and third in the world.\nWhich of the statements given above is/are correct?",
   "o": [
+   "3 and 4 only",
+   "1, 2, 3 and 4",
    "1 and 3 only",
-   "1, 2 and 3 only",
-   "1 and 2 only",
-   "1, 2, 3 and 4"
+   "1, 3 and 4 only"
   ],
-  "a": 1,
-  "x": "1, 2 and 3 are correct. 4 is wrong: the Mississippi–Missouri (~5,970 km) is fourth; the Amazon is second.",
+  "a": 3,
+  "x": "1, 3 and 4 are correct. 2 is wrong: the Mississippi–Missouri (~5,970 km) is fourth; the Amazon is second.",
   "src": "app",
   "tq": "statements"
  },
@@ -1265,11 +1265,11 @@
   "s": "Arrange the following rivers of Asia in descending order of length:\n1. Mekong\n2. Lena\n3. Yellow River\n4. Yangtze\nSelect the correct answer using the code given below:",
   "o": [
    "1 - 3 - 4 - 2",
+   "4 - 3 - 1 - 2",
    "2 - 3 - 1 - 4",
-   "4 - 2 - 1 - 3",
-   "4 - 3 - 1 - 2"
+   "4 - 2 - 1 - 3"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Yangtze (~6,300 km) > Yellow River (5,464 km) > Mekong (4,909 km) > Lena (4,294 km).",
   "src": "app",
   "tq": "sequence"
@@ -1290,17 +1290,17 @@
   "tq": "assertion"
  },
  {
-  "id": "cp4e7614650ba6",
+  "id": "cp4d19d82bd3d5",
   "row": 32,
-  "s": "Consider the following statements about the Zambezi:\n1. Victoria Falls, 'Mosi-oa-Tunya' (the Smoke that Thunders), is on the Zambia–Zimbabwe border.\n2. The Kariba Dam is on the Zambezi.\n3. The Zambezi drains into the Atlantic Ocean.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the Zambezi:\n1. The Zambezi drains into the Atlantic Ocean.\n2. Victoria Falls, 'Mosi-oa-Tunya' (the Smoke that Thunders), is on the Zambia–Zimbabwe border.\n3. The Kariba Dam is on the Zambezi.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "1 only",
    "1, 2 and 3",
-   "2 only"
+   "2 and 3 only",
+   "2 only",
+   "3 only"
   ],
-  "a": 0,
-  "x": "1 and 2 are correct. 3 is wrong: the Zambezi drains into the Indian Ocean (Mozambique Channel).",
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the Zambezi drains into the Indian Ocean (Mozambique Channel).",
   "src": "app",
   "tq": "statements"
  },
@@ -1339,12 +1339,12 @@
   "row": 32,
   "s": "Match List-I with List-II:\nList-I (Waterfall)\na. Angel\nb. Tugela\nc. Iguazu\nd. Niagara\nList-II (Location)\ni. Argentina–Brazil\nii. Churun river, Venezuela\niii. USA–Canada\niv. South Africa\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iii, b-iv, c-i, d-ii",
    "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-iv, c-i, d-ii",
    "a-ii, b-iv, c-iii, d-i",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Angel Falls (979 m, highest) is on the Churun in Venezuela; Tugela (second highest) in South Africa; Iguazu on the Argentina–Brazil border; Niagara between the USA and Canada.",
   "src": "app",
   "tq": "match"
@@ -1380,17 +1380,17 @@
   "tq": "match"
  },
  {
-  "id": "cp802cd2eff10f",
+  "id": "cp39ba92e7b080",
   "row": 32,
-  "s": "Consider the following statements about the Great Lakes of North America:\n1. Michigan is the only Great Lake wholly within the USA.\n2. The Straits of Mackinac connect Lakes Michigan and Huron.\n3. The Welland Canal connects Lakes Erie and Ontario, bypassing Niagara Falls.\n4. Lake Ontario is the westernmost of the Great Lakes.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the Great Lakes of North America:\n1. Michigan is the only Great Lake wholly within the USA.\n2. The Straits of Mackinac connect Lakes Michigan and Huron.\n3. Lake Ontario is the westernmost of the Great Lakes.\n4. The Welland Canal connects Lakes Erie and Ontario, bypassing Niagara Falls.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3 only",
-   "2 and 3 only",
-   "1 and 2 only",
-   "1, 2, 3 and 4"
+   "1, 2, 3 and 4",
+   "1 and 4 only",
+   "1, 2 and 4 only",
+   "1 and 2 only"
   ],
-  "a": 0,
-  "x": "1, 2 and 3 are correct. 4 is wrong: from west to east the lakes are Superior, Michigan, Huron, Erie, Ontario – Ontario is the easternmost.",
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: from west to east the lakes are Superior, Michigan, Huron, Erie, Ontario – Ontario is the easternmost.",
   "src": "app",
   "tq": "statements"
  },
@@ -1414,28 +1414,28 @@
   "row": 32,
   "s": "Match List-I with List-II:\nList-I (Lake)\na. Loktak\nb. Lonar\nc. Roopkund\nd. Tam Dil\nList-II (Feature)\ni. Glacial 'Skeleton lake' (Uttarakhand)\nii. Mizoram\niii. Meteorite crater\niv. Phumdis (Manipur)\nSelect the correct answer using the code given below:",
   "o": [
+   "a-iv, b-iii, c-i, d-ii",
    "a-i, b-iii, c-iv, d-ii",
    "a-iv, b-ii, c-i, d-iii",
-   "a-iv, b-iii, c-i, d-ii",
    "a-iv, b-i, c-iii, d-ii"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Loktak (Manipur) has floating phumdis; Lonar is a meteorite crater lake; Roopkund is the glacial 'Skeleton lake' of Uttarakhand; Tam Dil is in Mizoram.",
   "src": "app",
   "tq": "match"
  },
  {
-  "id": "cpb94508c30a2a",
+  "id": "cpe04cbed126fb",
   "row": 32,
-  "s": "Consider the following statements about canals:\n1. The Panama Canal works by locks (Gatun, Pedro Miguel, Miraflores).\n2. The Suez Canal, a sea-level canal without locks, opened in 1869.\n3. The Kiel Canal, linking the North Sea and the Baltic, is in Denmark.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about canals:\n1. The Panama Canal works by locks (Gatun, Pedro Miguel, Miraflores).\n2. The Kiel Canal, linking the North Sea and the Baltic, is in Denmark.\n3. The Suez Canal, a sea-level canal without locks, opened in 1869.\nWhich of the statements given above is/are correct?",
   "o": [
+   "3 only",
+   "1 and 3 only",
    "1 only",
-   "2 only",
-   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 2,
-  "x": "1 and 2 are correct. 3 is wrong: the Kiel Canal is in Germany.",
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: the Kiel Canal is in Germany.",
   "src": "app",
   "tq": "statements"
  },
@@ -1474,12 +1474,12 @@
   "row": 32,
   "s": "Consider the following statements:\n1. The Bosphorus connects the Black Sea with the Sea of Marmara.\n2. The Dardanelles connects the Black Sea with the Aegean Sea.\n3. The Bering Strait connects the Pacific with the Arctic Ocean.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "1 only",
    "1, 2 and 3",
+   "1 and 3 only",
    "3 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: the Dardanelles connects the Sea of Marmara with the Aegean.",
   "src": "app",
   "tq": "statements"
@@ -1489,12 +1489,12 @@
   "row": 32,
   "s": "Consider the following statements:\n1. The Bass Strait separates Australia from New Zealand.\n2. The Drake Passage is the stormiest and widest passage.\n3. The Strait of Magellan offers a sheltered alternative to the Drake Passage.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 only",
    "2 and 3 only",
+   "2 only",
    "1, 2 and 3",
    "3 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "2 and 3 are correct. 1 is wrong: the Bass Strait separates Australia from Tasmania.",
   "src": "app",
   "tq": "statements"

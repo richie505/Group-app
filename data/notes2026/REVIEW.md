@@ -1005,3 +1005,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Notes conflict: EOS-05 dated 4 Sep 2026 (GSLV-F17) in row 40 vs 7 Sep 2026 in row 43 — reconcile.
 - Row 43 line 4:0.5: broken GSAT-7 table row ("Item | Fact |").
 - PYQ yfef4334c5f7 keyed Artemis III as first crewed south-pole landing; notes say Artemis IV (2028) after NASA's re-plan — likely ⚠ Outdated chip.
+
+## rewrite b2-w031 (rows 31–34)
+- own 363 → 67 kept + 83 new (150, 41%); new 55 statements / 18 match / 10 A–R; no lines lost.
+- Row 32 notes 6:2: Rule 377 daily limit 20 (most books) vs 30 (NextGen) — reconcile. Removed nindian-polity-55-18 (30/day) and nindian-polity-55-22 (Zero Hour "max one hour", notes say unspecified).
+- Row 31: g472445cf5c2f "Harivansh Deputy Chairman till April 2026" contradicted notes (re-elected Apr 2026) — merged away.
+- Row 33: 5 unlinked own MCQs (Art. 312, Private Members' Bills committee, pocket veto) removed as not in notes — possible notes gap.
