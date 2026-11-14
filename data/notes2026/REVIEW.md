@@ -847,3 +847,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - yefea69feee6 Solomon Islands -1 → Jeremiah Manele (stem says "Chief Minister"), outdated (Matthew Wale PM since 15 May 2026).
 - Outdated y25714f2b568 Air Chief (now ACM Ashutosh Dixit from 31 Oct 2026, Rocket p.40 — confirms b5-r100 item).
 - Own MCQ caa80f08cf9a80 Mongolia PM stem wrong (Uchral Nyam-Osor; Khurelsukh is President) — reword. ca0fb7632554b0 Preeti Saran CESCR 4-year term.
+
+## b6-r103 (CA row 103 sports overview, 288 PYQs)
+- y95f6b29509e ISSF WC New Delhi gold -1 → Jitu Rai. y17e86c0146d Hyderabad Juniorthon 2023 left -1 (no option matches).
+- Disputes: Blind WC 2018; Wisden 2019 Stokes vs Kohli; Sania Brisbane partner.
+- 9 outdated (stadium, Rio order, AO, WTA doubles, Ranji 42, National Games 2022, Deodhar, hockey coach, Khel Ratna name).
+- 257 general-knowledge keys (2016–2023 sports GK) — spot-check candidate. Own MCQ gacbfab252b2f stem false premise (Mittal gold) — reword.
