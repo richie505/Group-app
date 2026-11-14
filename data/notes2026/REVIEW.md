@@ -578,3 +578,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Dispute y56356409a92 "Think globally, act locally" Earth Summit.
 - Outdated: warmest year 2016→2024; WMO 2009 fifth warmest.
 - Unverified: yf7bc39066d9 weather symbols 1998 IMO; y514c4013712 AP/PMFBY A-R; y56d4a970ce5, y0b0b71d8b3a9, y1dcaaf14f30 CRI ranks; IMD 2019/2020 statements. Own MCQ n3c478de5547 Okjökull stem "2019" (PMF 2014).
+
+## b5-r096 (rows 96-98 climate policy, NDCs, NAPCC)
+- Disputes: y4e5ef54dc9e CCPI rank 2019 (9th vs 11th); y694adb32d4d UPSC 2023 mercury "only two" (official not found); yece26eb6fee adaptation vs divergence; ya2a1e166189 thermometer range.
+- ydaab8d2e7ed APPSC 2010 garbled stem → Climate change (own judgement).
+- Unverified printed: Save Water Hero (Makarand Tillo), Jharkhand district, AP 7 missions, pragmatism, WHO 2016 Gwalior, NTRUHS match. NextGen ITTO "Geneva" wrong (Yokohama).
