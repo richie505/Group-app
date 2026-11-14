@@ -939,3 +939,5 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b1-w026 rewrite (rows 26-29): own 330 → 106 (32%), 0 lines lost.
 - b5-w011 rewrite (S&T rows 11-15): own 443 → 198 (45%), 0 lines lost.
 - b6-w015 rewrite (rows 15-16): own 276 → 122 (44%). Notes conflicts: Polavaram target (Mar/Jun–Jul 2027); SCoR divisions list (Visakhapatnam).
+- b3-w013 rewrite (rows 13-19): own 423 → 152 (36%), 0 lost. Notes row 14 3:0.9 'welfare approach' credited to Pigou — doubtful.
+- b4-w011 rewrite (rows 11-15): own 395 → 138 (35%), 0 lost. Notes row 14 5:1.4 geostationary in exosphere (UKPSC key wording).
