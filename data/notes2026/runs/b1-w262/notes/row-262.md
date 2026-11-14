@@ -1,0 +1,158 @@
+=== Chief Ministers and Politics of United Andhra Pradesh, 1956–2014
+| Chief Minister | Took office | Note |
+|---|---|---|
+| **Neelam Sanjiva Reddy** | **1 Nov 1956** | **First CM of AP**; appointed **no Deputy CM** ("**sixth finger**") |
+| **Damodaram Sanjivayya** | **11 Jan 1960** (1960–62) | **Second CM**; **first Dalit CM in India**; later **AICC President**; a minister in AP |
+| Neelam Sanjiva Reddy | 12 Mar 1962 – Feb 1964 | Resigned after the Kurnool bus-routes verdict; joined Shastri's cabinet as **Union Minister of Steel and Mines (1964)** |
+| **Kasu Brahmananda Reddy** | **Feb 1964** (29 Feb 1964 in exam keys) – Sep 1971 | CM during the **1969 separate Telangana movement** |
+| **P.V. Narasimha Rao** | **30 Sep 1971** – Jan 1973 | **Land Reforms (Ceiling) Act 1973**; Jai Andhra 1972 → President's Rule **18 Jan 1973** |
+| **Jalagam Vengala Rao** | **10 Dec 1973** – Mar 1978 | First World Telugu Conference 1975 |
+| **Marri Chenna Reddy** | **6 Mar 1978**; again **3 Dec 1989** | |
+| **T. Anjaiah** | 11 Oct 1980 | |
+| **Bhavanam Venkatarami Reddy** | **24 Feb – 20 Sep 1982** | **First CM from the Legislative Council** (exam answer); **TDP founded in his tenure** |
+| **Kotla Vijaya Bhaskara Reddy** | **20 Sep 1982**; again **9 Oct 1992** | |
+| **N.T. Rama Rao** | **9 Jan 1983**; 16 Sep 1984; 1985; 1994 | **First non-Congress CM** |
+| **Nadendla Bhaskara Rao** | **16 Aug – 16 Sep 1984** | **31 days – shortest tenure** |
+| **N. Janardhana Reddy** | **17 Dec 1990** – Oct 1992 | CM during the **1991 economic crisis** |
+| N. Chandrababu Naidu | 1 Sep 1995 – 2004 | Longest continuous tenure in united AP |
+| **Y.S. Rajasekhara Reddy** | **14 May 2004** – 2 Sep 2009 | First term **May 2004 – May 2009** |
+| K. Rosaiah; N. Kiran Kumar Reddy | 3 Sep 2009; 25 Nov 2010 – 2014 | Kiran Kumar Reddy = last CM of united AP |
+- **Order asked:** Sanjivayya → Brahmananda Reddy → P.V. Narasimha Rao → Anjaiah (G2 Mains 2025); Sanjivayya → Brahmananda Reddy → **Kotla (1982)** → NTR (1983) – Kotla's first term came before NTR's.
+- **Never CM:** **Surjit Singh Barnala** (Governor of AP, not CM); Ayyadevara Kaleswara Rao (Speaker); Pingali Venkayya.
+- **Sanjivayya "never defeated in an election"** = the false statement (G2 2008); he was the second CM, an AP minister and AICC President.
+- **Congress ruled uninterruptedly 1956–1983**; **1983** = the big change – a **non-Congress party (TDP) came to power with a large majority**.
+- **YSR** died in a **helicopter crash** in the **Nallamala** forest on **2 September 2009**; **K. Rosaiah** succeeded.
+- **Dismissal of NTR (Aug 1984)** by Governor **Ram Lal** → Nadendla CM 16 Aug → NTR restored 16 Sep 1984 → Indira assassinated 31 Oct → polls 28 Dec 1984 → NTR sworn in 9 Mar 1985; the crisis fed the **52nd Amendment (1985)** anti-defection law – a classic case of the Governor's discretion misused.
+- **Residual AP:** **N. Chandrababu Naidu** first CM of bifurcated AP (2014–19); **Y.S. Jagan Mohan Reddy** 2019–24 (5 Deputy CMs); Naidu again from **12 June 2024**.
+- **2026:** Governor **S. Abdul Nazeer**, CM **N. Chandrababu Naidu**, sole Deputy CM **K. Pawan Kalyan**; Amaravati made the sole capital by the AP Reorganisation (Amendment) Bill, 2026 (not Hyderabad).
+# TDP and NTR
+- **TDP founded 29 March 1982** by **N.T. Rama Rao**, when **Bhavanam Venkatarami Reddy** was CM (not Anjaiah); **1983: 202 seats**; Deputy CM **Nadendla Bhaskara Rao**.
+- NTR measures: **Dharma Mahamatra** to fight corruption – first holder **E.V. Rama Reddy**; **Rs 2/kg rice from 14 Apr 1983**; **Women's University, Tirupati**; **Mandal system 1985**; abolished the Legislative Council (1985); **Chairman of the National Front**.
+- 1984 breakaways: Nadendla's **Democratic Telugu Desam Party**; Chenna Reddy's **National Democratic Party**.
+# Elections, Splits and Institutions
+| Year | Event |
+|---|---|
+| 1959 | **Panchayat Raj in AP on 1 Nov 1959** under **Neelam Sanjiva Reddy** (**Rajasthan first, 2 Oct 1959**); **Swatantra Party – N.G. Ranga** |
+| 1962 | Congress **177** seats; Communists over 50 |
+| 1 Jan 1978 | Congress (I) formed; **Kasu Brahmananda Reddy led the rival Reddy Congress** |
+| **2007** | **OCTOPUS** (Organisation for Counter Terrorist Operations) – AP's **anti-terror** commando force; **Greyhounds = anti-Naxal** |
+| Leaders in national office | **N. Sanjiva Reddy** – AICC President 1960, Lok Sabha Speaker, **President of India 1977**; **Sanjivayya** – AICC President; **P.V. Narasimha Rao – first (and only) PM from AP** |
+- **Last Speaker of combined AP = Nadendla Manohar** (2011–14).
+> First CM Sanjiva Reddy; first Dalit CM Sanjivayya; TDP 29 Mar 1982 under Bhavanam; NTR 9 Jan 1983; Nadendla 31 days; YSR crash 2 Sep 2009.
+~~ Sources: NextGen Modern India L2 Part 13 (src/ap-history/nextgen-modern-l2-13.txt) p.2-12; NextGen AP History Part 20 p.14-17; Carpe Diem AP History G2 PYQs 2000-2025 (src/ap-history/cdi-ap-history-g2-pyqs-2000-2025.txt) G2 2025 Q43, G2 Prelims 2019 Q24; NextGen Previous Papers p.12, 16-17, 67; Wikipedia, List of chief ministers of Andhra Pradesh (dates); old app notes row 262
+
+=== Formation of Andhra Pradesh, 1 November 1956 – First Holders
+- **Andhra Pradesh formed on 1 November 1956** under the **States Reorganisation Act, 1956**, on a **linguistic basis** – the first state formed under the SR Act; **Andhra State (11 districts) + 9 Telugu districts of Hyderabad State**; Kannada areas → Mysore, Marathi → Bombay.
+- **Andhra State** (1 Oct 1953): capital **Kurnool**; first CM **Tanguturi Prakasam**, Deputy CM N. Sanjiva Reddy; Prakasam's ministry fell on **prohibition** (1954) → mid-term polls 1955 → **Bezawada Gopala Reddy** CM. Before it, the **Wanchoo Committee** (Dec 1952) identified the **financial and administrative problems** of forming Andhra State; the **Pataskar Award** fixed the Andhra–Madras border (**Tiruttani** to Tamil Nadu).
+- **Capital:** **Kurnool = capital of Andhra State until 1956** (the "capital before 1956" answer); **Hyderabad became the capital of AP in 1956** – reasons: the SRC's view and the Mahasabha demand. Exam keys often call Kurnool "the first capital of AP".
+- **Andhra Legislature met at Kurnool** and backed the merger **unanimously**; **inaugurated by Prime Minister Nehru on 1 Nov 1956**.
+- **Name:** draft Bill "**Andhra Telangana**"; Communists wanted "**Visalandhra**"; the **Joint Select Committee** changed it to "**Andhra Pradesh**" – so none of "Andhra Telangana / Telangana Andhra / Visalandhra".
+| Office | First holder |
+|---|---|
+| **Chief Minister** | **Neelam Sanjiva Reddy** (1 Nov 1956) – not Burgula, Sanjivayya or Prakasam |
+| **Governor** | **C.M. (Chandulal Madhavlal) Trivedi** – also Governor of Andhra State |
+| **Speaker** (first / "founder" of the Assembly) | **Ayyadevara Kaleswara Rao** |
+| Deputy Speaker | Kalluri Subbarao |
+| Leader of Opposition | Puchalapalli Sundarayya |
+| **Chairman, Legislative Council** (1958) | **Madapati Hanumantha Rao** |
+| **First Deputy CM** | **K.V. Ranga Reddy** (1959–62, under Sanjivayya) – not Prakasam, Sanjivayya or Sanjiva Reddy |
+- First ministry: **Bezawada Gopala Reddy – Finance**, **K.V. Ranga Reddy – Home**, Kasu Brahmananda Reddy – Local Bodies, J.V. Narsing Rao – Irrigation and Electricity, D. Sanjivayya – Labour.
+- Congress strength: 40 (Hyderabad 1952) + 119 (Andhra 1955) = **159**; **1957** elections only in Telangana (**79** seats).
+- **Legislative Council:** set up **1958** with **90** members; **abolished 1985** (NTR); revived **2007** (YSR) – again **90** members under the 2007 law.
+- **High Court:** at Hyderabad from **5 Nov 1956**; separate AP High Court at **Amaravati functioning from 1 Jan 2019** (President's order of **26 Dec 2018**, so keys also give 2018).
+- **Burgula Ramakrishna Rao** became the **first Governor of Kerala (1956)**, later Governor of **Uttar Pradesh**.
+- **Capital pair (2002):** Andhra Pradesh – Hyderabad (now Amaravati, after 2014).
+> AP = 1 Nov 1956, SR Act, linguistic; capital Hyderabad (Kurnool for Andhra State); CM Sanjiva Reddy, Governor Trivedi, Speaker Kaleswara Rao, Council Chairman Madapati, Deputy CM K.V. Ranga Reddy.
+~~ Sources: NextGen Modern India L2 Part 12 (src/ap-history/nextgen-modern-l2-12.txt) p.4; NextGen Modern India L2 Part 13 p.1-2; NextGen AP History Part 23 (src/ap-history/ap-history-appsc-23.txt) p.24; NextGen AP History Part 6 p.4, 8; NextGen AP History Part 7 p.9-10, 13, 22; old app notes row 262
+
+=== Visalandhra Movement and the Visalandhra Mahasabha
+- **Visalandhra** ("**Greater Andhra**") = the movement for **one state for all Telugu people** – the Circars, the Ceded districts (Rayalaseema) and Telangana, then divided between Madras and the Nizam's Hyderabad (in **1950** southern and eastern Andhra were in Madras State, Telangana in Hyderabad State).
+- Roots: 1912 Unnava Lakshminarayana and Jonnavittula Gurunatham sketched a united Andhra; 1914 second Andhra Mahasabha – **Nyapati Subbarao** proposed one rule for all Telugu areas; **1936 Andhra Congress Swaraj Party manifesto**; 1937 the idea spread in the Circars; 1954 **Madapati Hanumantha Rao**: the idea was 50 years old.
+- **Started / championed by the Communist Party** – demanded integrated linguistic states from **1946**; **Puchalapalli Sundarayya** coined the word and wrote ***Visalandhralo Prajarajyam***; daily **Visalandhra** from **June 1952**; Sundarayya later first General Secretary of CPI(M) (1964).
+- The Communists **became a great force in Telangana politics** and propagated Visalandhra **even before Andhra State (1953)**; they **did not oppose** integrated linguistic states (the only incorrect statement, G2 2025).
+- Other Communist leaders: **Ravi Narayana Reddy, Baddam Ella Reddy, Arutla Ramachandra Reddy**; the Hyderabad State Communist Party was a branch of the Andhra party (HQ **Vijayawada**); its 1952 electoral front = **People's Democratic Front (PDF)**. The Congress was first cold because the idea came from the Communists.
+| Event | Date | Place | Key facts |
+|---|---|---|---|
+| **Visalandhra Mahasabha founded** | **26 Nov 1949** | **Vijayawada** (not Hyderabad) | Founder and president **Ayyadevara Kaleswara Rao** |
+| APCC resolution | Jan 1950 | Madras | Madras temporary, Hyderabad permanent capital |
+| **First Mahasabha session** | **Feb 1950** | **Warangal** | President **Hayagreevachari**; **Hyderabad as capital**; Hyderabad State split into three linguistic parts |
+| Hyderabad Congress | June 1953 | – | Split into Visalandhra, United Maharashtra, **United Karnataka** |
+| APCC, Kurnool | 30 Sep 1953 | Kurnool | Visalandhra with Hyderabad capital |
+| Socialists | 21–22 Mar 1954 | Kurnool | For Visalandhra |
+| **Second Mahasabha** | **13–14 June 1954** | **Hyderabad** | President **Sri Sri**; **Swami Ramananda Tirtha strongly supported Visalandhra** |
+- **Kaleswara Rao** raised Visalandhra at the **1951 Bangalore** Congress manifesto meeting; he had translated **Gandhi's** Vijayawada speech into Telugu.
+- **Chronology:** **Dhar Commission (1948) → Visalandhra Mahasabha (1949) → Swami Sitaram's fast (1951) → SRC (1953)**.
+| Work / paper | Author / detail |
+|---|---|
+| *The Emergence of Andhra Pradesh* | K.V. Narayana Rao |
+| Pamphlets and a book | **Devulapalli Ramanuja Rao** (a supporter, not an opponent); also Kodati Rajalingam, Hayagrivachari, Paga Pulla Reddy |
+| "Enni Naalla Swapnamidi" / "Emaanandam ... Eenadu" | **Dasarathi** / **Kaloji** |
+| Nilgiri magazine | Published from **Nalgonda** |
+| **Rayyat** (Urdu daily) / Imroz | **Mandumula Narsing Rao** / Shoebullah Khan |
+- Telangana people were divided – not all in favour, and the capital demanded was **Hyderabad**, not Secunderabad.
+> Founded Vijayawada Nov 1949 (Kaleswara Rao); 1st session Warangal 1950; 2nd Hyderabad 1954 (Ramananda Tirtha for); started by the Communists.
+~~ Sources: NextGen Modern India L2 Part 12 (src/ap-history/nextgen-modern-l2-12.txt) p.1; NextGen AP History Part 23 (src/ap-history/ap-history-appsc-23.txt) p.17-20; NextGen Previous Papers p.12; NextGen AP History Part 7 p.10, 12; NextGen Rocket AP History p.20, 43; Carpe Diem AP History G2 PYQs, G2 Mains 2025 Q30, Q41; old app notes row 262
+
+=== Gentlemen's Agreement, 20 February 1956
+- **Signed 20 February 1956** at **Hyderabad House, New Delhi** by **8 leaders – 4 from Andhra, 4 from Telangana**; the basis for the formation (accession) of united AP – **the united state took birth only after this agreement** (G2 2019); a moral and political understanding on the **Sribagh Pact (1937)** model.
+| Andhra | Post | Telangana | Post |
+|---|---|---|---|
+| **Bezawada Gopala Reddy** | **CM, Andhra State** | **Burgula Ramakrishna Rao** | CM, Hyderabad |
+| Neelam Sanjiva Reddy | Deputy CM | K.V. Ranga Reddy | Deputy CM |
+| Gouthu Latchanna | Minister | Marri Chenna Reddy | Minister |
+| Alluri Satyanarayana Raju | APCC President | J.V. Narsing Rao | Hyderabad PCC President |
+- **Not signatories:** **Tanguturi Prakasam**, **Komarraju Lakshmana Rao** (d. 1923), Ayyadevara Kaleswara Rao.
+| Subject | Safeguard |
+|---|---|
+| Finance | Common costs shared proportionately; **Telangana's surplus spent only on Telangana**; review after **5 years** |
+| Education | Telangana students – priority or at least **one-third** of technical seats |
+| Services | Proportionate retrenchment; recruitment by population ratio |
+| Domicile | **12 years'** residence for recruitment in Telangana |
+| Land; Urdu; Prohibition | Sale of agricultural land controlled by the **Regional Council**; Urdu kept **5 years**; prohibition left to Telangana legislators |
+| **Cabinet** | **60:40 (Andhra : Telangana)**; at least **one Muslim** minister from Telangana |
+| Portfolios | **At least two of** Home, Finance, Revenue, Planning & Development, Commerce & Industry – not "Home and Finance reserved" |
+| CM / Deputy CM | From **different regions** |
+| **Regional Council** | Statutory **Regional Council for Telangana's all-round development** (20 members); reviewed after **10 years**; disputes to the Centre |
+- **Cabinet ratio = 60:40**, not 3:1 (one NextGen page prints 3:1; the other NextGen page and the G2 2025 key say 60:40).
+# Regional Committee and Later Law
+- **Telangana Regional Committee**: **Art 371(1)** (7th Amendment, 1956) + **AP Regional Committee Order, 1958**; members = Telangana MLAs and ministers, **the CM was not a member**; first Chairman **K. Achyuta Reddy** (MLA, **Kodangal**); **extended five years in 1968**; wound up after the **32nd Amendment (1973)**.
+- Violations (jobs, domicile, surplus funds) → **Jai Telangana agitation, 1969**. **Art 371D** (**32nd Amendment, 1973**, Six-Point Formula) → **Presidential Order 1975** on local cadres and direct recruitment → **APRA 2014, Sec 97** extended 371D to AP or Telangana.
+> 20 Feb 1956, Hyderabad House, 8 signatories, 60:40, 12-year domicile, Regional Council; Prakasam not a signatory.
+~~ Sources: NextGen Modern India L2 Part 12 (src/ap-history/nextgen-modern-l2-12.txt) p.3-4; NextGen AP History Part 23 (src/ap-history/ap-history-appsc-23.txt) p.22-24; NextGen AP History Part 7 p.8, 28; Carpe Diem AP History G2 PYQs, G2 Mains 2025 Q44 and G2 Prelims 2019 Q26; old app notes row 262
+
+=== Hyderabad State Background – Mahasabha, Congress, Burgula
+- **Chanda Railway Scheme agitation (1883)** = the **beginning of public (political) consciousness** in Hyderabad State.
+- **Andhra Jana Sangham** (1921) – its **first meeting, Hyderabad, 14 Feb 1922, presided by K.V. Ranga Reddy**; it grew into the **Nizam Andhra Mahasabha** – first session **Jogipet, 1930**, **Suravaram Pratapa Reddy**.
+- **Hyderabad State Congress** (1938) – led and founded by **Swami Ramananda Tirtha**, who also led the **"Join Indian Union" movement (7 Aug 1947)** against the Nizam's claim to independence; integration by **Operation Polo, 17 Sep 1948**.
+- **Mulki rules** from **1888**, tightened by the **1919 farman** (about 15 years' residence); **Mulki agitation 1952** under Burgula – **firing near City College, Hyderabad**; inquiry under **Justice Pingali Jaganmohan Reddy**.
+- Hyderabad = **Part B State, 1950 – 31 Oct 1956**; Speaker at the merger **Kashinatha Rao**.
+- **Burgula Ramakrishna Rao** = **first elected (1952) and last CM of Hyderabad State** – Chief Minister of **Hyderabad State**, not Andhra State or AP.
+> Chanda Railway 1883 = public consciousness; Jana Sangham 1922 – K.V. Ranga Reddy; Join Indian Union – Ramananda Tirtha; Burgula = first elected CM of Hyderabad.
+~~ Sources: NextGen Previous Papers (src/ap-history/nextgen-previous-papers.txt) p.19, 24; NextGen AP History Part 7 p.7, 12; NextGen Rocket AP History p.23, 35; kpiasacademy.com/hyderabad-feudalism-andhra-jana-sangham (Jana Sangham 1922); old app notes row 262
+
+=== SRC, Merger Debate and the Leaders' Stands
+- **SRC** (announced 22 Dec 1953; Fazl Ali, H.N. Kunzru, K.M. Panikkar – not Harishchandra Heda) **heard opinions in Hyderabad in June 1954**; report **30 September 1955**. On **8 July 1954** a Hyderabad PCC delegation asked it for a **self-sufficient Telangana of 9 districts with Bastar and parts of Chanda**.
+- SRC **acknowledged Telangana's special claims** (finance, education) – **para 386**: Telangana to stay a separate Hyderabad State, merging after the **1961** elections if **two-thirds** of its legislature agreed; Raichur, Gulbarga → Mysore, Marathwada detached.
+- SRC's case for Visalandhra: **unified control of Krishna–Godavari waters**, minerals and power, **Hyderabad as a ready capital**, lower administrative cost.
+- **Hyderabad Assembly**: **103 for, 29 against, 15 neutral**; **Andhra Assembly (1955)**: Bezawada Gopala Reddy's **unanimous** resolution.
+- **Burgula Ramakrishna Rao**, earlier for a separate Telangana, **changed his stand in 1955** and urged **immediate merger** with Andhra.
+- 1956: to settle differences the **Congress leadership called the leaders to Delhi** → Gentlemen's Agreement.
+| Leader | Stand |
+|---|---|
+| **K.V. Ranga Reddy** | Backed Visalandhra, then – as Telangana Congress president – wanted **Telangana to remain a separate state** |
+| **Marri Chenna Reddy** | Against throughout |
+| **Swami Ramananda Tirtha** | For – a separate Telangana would be weak and democratic forces suppressed |
+| Burgula, Mandumula Narsing Rao, Pandit Narendraji, Makhdoom Mohiuddin, Mehdi Nawaz Jung | For |
+| **Tanguturi Prakasam** | For – "Visalandhra nirmanam is the mother's right of all Andhras" |
+| Kaloji | Supported, later opposed |
+| Hyderabad PSP (**Mahadev Singh**); Harishchandra Heda (Nov 1955) | For a separate Telangana |
+| **Nehru** (Oct 1953) | Called it "**Andhra imperialism**"; Rajagopalachari (1949) wanted multilingual Hyderabad |
+# Arguments For and Against
+| For Visalandhra | Telangana apprehensions |
+|---|---|
+| Integrated Krishna–Godavari planning | Weakening of the **Mulki rules** |
+| Andhra's agriculture + Telangana's minerals | Advanced coastal Andhra would dominate jobs and education |
+| Communists: land reform, weaken feudalism | **Telangana's revenue surplus spent elsewhere**; higher **per capita income and revenue** made it viable alone |
+- Not a pro-Visalandhra argument: permanent protection of separate Telangana political institutions.
+> SRC in Hyderabad 1954, report 30 Sep 1955; Burgula turned 1955; K.V. Ranga Reddy and Chenna Reddy for separate Telangana.
+~~ Sources: NextGen AP History Part 23 (src/ap-history/ap-history-appsc-23.txt) p.20-22; NextGen Modern India L2 Part 12 p.1; NextGen Previous Papers p.12; old app notes row 262

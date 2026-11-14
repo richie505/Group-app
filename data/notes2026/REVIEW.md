@@ -1481,3 +1481,13 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b2-w102 (rows 102–106)
 - own 365 → 46 kept + 83 new (129, 35%); new 55 statements / 18 match / 10 A–R; 1 of 197 lines lost. No wrong notes/keys.
+
+## rewrite b5-w103 (rows 103–105)
+- own 324 → 34 kept + 85 new (119, 37%); new 54 statements / 20 match / 10 A–R / 1 sequence; no lines lost.
+- nb73c6b84ca3 (Operation Clean Sweep "Tier-1 and Tier-2 corporations"; notes all 123 ULBs) removed, fact in new MCQ.
+- PYQ y247430527ed keyed "17 lakh t" biomedical waste; notes 0.17 MT = 1.7 lakh t — check (possibly per-year vs cumulative or option typo).
+
+## rewrite b1-w257 (rows 257–261)
+- own 285 → 45 kept + 56 new (101, 35%); new 31 statements / 14 match / 9 A–R / 2 sequence; 3 of 161 lines lost.
+- Removed: n96ae2fc39be (Gadicherla "first editor" of Andhra Patrika; notes Kasinathuni founder + first editor); g6c71a455308d, fec5c72dc59a8 (no key, a=-1). f8a99f39029eb ("Central Legislative Assembly" in 1918 → Imperial Legislative Council) merged with fix.
+- Kept na79b380ec04 explanation cites training camps 1920/1934 not in notes — check.
