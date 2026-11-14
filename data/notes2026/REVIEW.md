@@ -1508,3 +1508,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Removed as not in notes: f512c5847d9bd (CCRC "2 Oct 2019"), g62f9f2917982 (Google "US$15 bn").
 - Doubtful notes: 120:1:5 NITI Aayog-keyed 37% fits net sown area; 120:3:19 Gokul Gram at Chadalawada vs 2025 APPSC key Nellore — check.
 - Mislinked kept own: f7fcb4fd50eee (1:34 → 2:10), f5affadf68686 (3:18 → 4:2), n79664bf8a7f (5:1 → 5:12).
+
+## rewrite b6-w101 (rows 101–104)
+- own 436 → 91 kept + 112 new (203, 47%); new 69 statements / 32 match / 10 A–R / 1 sequence; 5 of 316 lines lost.
+- Notes conflicts: Blind Cricket WC 2018 final Dubai (103:0:1.8) vs Sharjah (102:7:1.3) — final was at Sharjah; fix. Lead Poisoning Week "first 2012" vs "14th edition 2026" (104:9:7) — reconcile; own fba6f1c97a76a removed.
+- gacbfab252b2f (Ankur Mittal gold; notes silver) recast as a false statement.
+- PYQ yc9f12b441db keyed Suzie Bates; notes Charlotte Edwards — check.

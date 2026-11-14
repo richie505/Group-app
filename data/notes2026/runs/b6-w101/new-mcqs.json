@@ -40,7 +40,7 @@
    "a-ii, b-i, c-iii, d-iv"
   ],
   "a": 2,
-  "x": "Correct matching: Ragala Venkat Rahul – Gold, 85 kg, Commonwealth Games 2018; Santoshi Matsa – Silver, Commonwealth Games 2014; Gurunaidu Sanapathi – First Indian gold at the IWF Youth World Championships (2022); Karnam Malleswari – Bronze, 69 kg, Sydney Olympics 2000.",
+  "x": "Correct matching: Ragala Venkat Rahul – Gold, 85 kg, Commonwealth Games 2018; Santoshi Matsa – Silver, Commonwealth Games 2014; Gurunaidu Sanapathi – First Indian gold at the IWF Youth World Championships (2022); Karnam Malleswari – Bronze, 69 kg, Sydney Olympics 2000 – i.e. a-ii, b-iv, c-iii, d-i; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -75,17 +75,17 @@
   "tq": "statements"
  },
  {
-  "id": "cpb8ef631b6738",
+  "id": "cp1ea60c5a1091",
   "row": 101,
-  "s": "Consider the following:\nAssertion (A): Nagavasu Naidu Sunkara competed in the organ recipient category at the World Transplant Games 2025.\nReason (R): He had undergone a liver transplant in 2020, with his mother as the donor.\nChoose the correct answer:",
+  "s": "Consider the following:\nAssertion (A): Nagavasu Naidu Sunkara won a gold medal in cycling at the World Transplant Games 2025.\nReason (R): He had undergone a liver transplant in 2020, with his mother as the donor.\nChoose the correct answer:",
   "o": [
    "Both A and R are true and R is the correct explanation of A",
    "Both A and R are true but R is not the correct explanation of A",
    "A is true but R is false",
    "A is false but R is true"
   ],
-  "a": 0,
-  "x": "Both are true and R explains A: the World Transplant Games are for transplant recipients; Sunkara, who had liver disease in 2015, received a liver from his mother in 2020 and won silver in 5 km racewalking (organ recipient category).",
+  "a": 3,
+  "x": "A is false: Sunkara won SILVER in 5 km RACEWALKING (organ recipient category) at Dresden – he had switched from cycling to racewalking. R is true: after liver disease in 2015 he received a liver from his mother in 2020.",
   "src": "app",
   "tq": "assertion"
  },
@@ -190,7 +190,7 @@
    "a-iii, b-i, c-iv, d-ii"
   ],
   "a": 3,
-  "x": "Correct matching: Rajat Patidar – Captain of IPL 2025 champions RCB; Tilak Varma – Player of the Match, Asia Cup 2025 final; Abhishek Sharma – Player of the Tournament, Asia Cup 2025; Laura Wolvaardt – Scored a century in the Women's ODI World Cup 2025 final.",
+  "x": "Correct matching: Rajat Patidar – Captain of IPL 2025 champions RCB; Tilak Varma – Player of the Match, Asia Cup 2025 final; Abhishek Sharma – Player of the Tournament, Asia Cup 2025; Laura Wolvaardt – Scored a century in the Women's ODI World Cup 2025 final – i.e. a-iii, b-i, c-iv, d-ii; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -220,7 +220,7 @@
    "a-iv, b-ii, c-i, d-iii"
   ],
   "a": 2,
-  "x": "Correct matching: Jaismine Lamboria – Gold, 57 kg; Minakshi Hooda – Gold, 48 kg; Nupur Sheoran – Silver, +80 kg; Pooja Rani – Bronze.",
+  "x": "Correct matching: Jaismine Lamboria – Gold, 57 kg; Minakshi Hooda – Gold, 48 kg; Nupur Sheoran – Silver, +80 kg; Pooja Rani – Bronze – i.e. a-iv, b-iii, c-i, d-ii; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -325,7 +325,7 @@
    "a-iv, b-ii, c-iii, d-i"
   ],
   "a": 1,
-  "x": "Correct matching: 2007 – India (beat Pakistan); 2009 – Pakistan (beat Sri Lanka); 2010 – England (beat Australia); 2016 – West Indies (beat England).",
+  "x": "Correct matching: 2007 – India (beat Pakistan); 2009 – Pakistan (beat Sri Lanka); 2010 – England (beat Australia); 2016 – West Indies (beat England) – i.e. a-iv, b-i, c-iii, d-ii; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -340,7 +340,7 @@
    "a-iii, b-i, c-ii, d-iv"
   ],
   "a": 1,
-  "x": "Correct matching: 2007 – South Africa; 2016 – India; 2021 – UAE and Oman; 2026 – India and Sri Lanka.",
+  "x": "Correct matching: 2007 – South Africa; 2016 – India; 2021 – UAE and Oman; 2026 – India and Sri Lanka – i.e. a-iii, b-iv, c-ii, d-i; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -370,7 +370,7 @@
    "a-ii, b-iii, c-i, d-iv"
   ],
   "a": 3,
-  "x": "Correct matching: Virat Kohli – Player of the Match in the final (75* off 42 balls); Vaibhav Suryavanshi – Orange Cap (776 runs); Kagiso Rabada – Purple Cap (29 wickets); Rasikh Salam Dar – Best bowler in the final (3/27).",
+  "x": "Correct matching: Virat Kohli – Player of the Match in the final (75* off 42 balls); Vaibhav Suryavanshi – Orange Cap (776 runs); Kagiso Rabada – Purple Cap (29 wickets); Rasikh Salam Dar – Best bowler in the final (3/27) – i.e. a-ii, b-iii, c-i, d-iv; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -415,7 +415,7 @@
    "a-iii, b-i, c-iv, d-ii"
   ],
   "a": 2,
-  "x": "Correct matching: Most runs in a single IPL season (973, 2016) – Virat Kohli; Most Orange Caps (3) – David Warner; Youngest-ever Orange Cap winner (2026) – Vaibhav Suryavanshi; 93* off 33 balls in IPL 2026 Qualifier 1 – Rajat Patidar.",
+  "x": "Correct matching: Most runs in a single IPL season (973, 2016) – Virat Kohli; Most Orange Caps (3) – David Warner; Youngest-ever Orange Cap winner (2026) – Vaibhav Suryavanshi; 93* off 33 balls in IPL 2026 Qualifier 1 – Rajat Patidar – i.e. a-iii, b-ii, c-iv, d-i; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -460,7 +460,7 @@
    "a-iv, b-iii, c-ii, d-i"
   ],
   "a": 1,
-  "x": "Correct matching: Charlotte Edwards – First woman to 2,000 WT20I runs (2014); Suzie Bates – First woman to 3,000 WT20I runs (2018); Mithali Raj – First Indian past 2,000 T20I runs (2018); Ellyse Perry – ICC Women's ODI Player of the Year 2019.",
+  "x": "Correct matching: Charlotte Edwards – First woman to 2,000 WT20I runs (2014); Suzie Bates – First woman to 3,000 WT20I runs (2018); Mithali Raj – First Indian past 2,000 T20I runs (2018); Ellyse Perry – ICC Women's ODI Player of the Year 2019 – i.e. a-iv, b-i, c-ii, d-iii; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -535,7 +535,7 @@
    "a-ii, b-iii, c-iv, d-i"
   ],
   "a": 0,
-  "x": "Correct matching: Sumit Antil – F64 javelin, World Para Athletics Championships 2025; Sandip Singh Sargar – F44 javelin, World Para Athletics Championships 2025; Devendra Jhajharia – F46 javelin gold with a world record, Rio 2016 Paralympics; Sudhir – Heavyweight para powerlifting gold, CWG 2022.",
+  "x": "Correct matching: Sumit Antil – F64 javelin, World Para Athletics Championships 2025; Sandip Singh Sargar – F44 javelin, World Para Athletics Championships 2025; Devendra Jhajharia – F46 javelin gold with a world record, Rio 2016 Paralympics; Sudhir – Heavyweight para powerlifting gold, CWG 2022 – i.e. a-ii, b-i, c-iv, d-iii; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -580,7 +580,7 @@
    "a-iii, b-ii, c-i, d-iv"
   ],
   "a": 2,
-  "x": "Correct matching: 20th Asian Games 2026 – Aichi-Nagoya, Japan; 1st South Asian Winter Games 2011 – Dehradun and Auli; 1st World Yogasana Championship – Ahmedabad; South Asian Games 2019 – Nepal.",
+  "x": "Correct matching: 20th Asian Games 2026 – Aichi-Nagoya, Japan; 1st South Asian Winter Games 2011 – Dehradun and Auli; 1st World Yogasana Championship – Ahmedabad; South Asian Games 2019 – Nepal – i.e. a-iii, b-iv, c-i, d-ii; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -610,7 +610,7 @@
    "a-iii, b-ii, c-iv, d-i"
   ],
   "a": 3,
-  "x": "Correct matching: 6th Khelo India Winter Games 2026 (ice events) – Leh; 1st Khelo India Tribal Games (2026) – Chhattisgarh; 38th National Games (2025) – Uttarakhand; 1st Khelo India University Games (2020) – Bhubaneswar.",
+  "x": "Correct matching: 6th Khelo India Winter Games 2026 (ice events) – Leh; 1st Khelo India Tribal Games (2026) – Chhattisgarh; 38th National Games (2025) – Uttarakhand; 1st Khelo India University Games (2020) – Bhubaneswar – i.e. a-iii, b-ii, c-iv, d-i; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -640,7 +640,7 @@
    "a-i, b-ii, c-iv, d-iii"
   ],
   "a": 1,
-  "x": "Correct matching: Man Singh – Asian Marathon Championship 2023 gold – second Indian man; Sawan Barwal – Marathon national record 2:11:58 at Rotterdam (broke Shivnath Singh's 1978 mark); Jyothi Yarraji – 100 m hurdles – 2025 Asian champion; Hima Das – 400 m gold, World U-20 Championships, Tampere 2018.",
+  "x": "Correct matching: Man Singh – Asian Marathon Championship 2023 gold – second Indian man; Sawan Barwal – Marathon national record 2:11:58 at Rotterdam (broke Shivnath Singh's 1978 mark); Jyothi Yarraji – 100 m hurdles – 2025 Asian champion; Hima Das – 400 m gold, World U-20 Championships, Tampere 2018 – i.e. a-i, b-iii, c-iv, d-ii; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -655,7 +655,7 @@
    "a-iv, b-iii, c-ii, d-i"
   ],
   "a": 1,
-  "x": "Correct matching: Candidates 2026 (Open) – Pegeia, Cyprus; World Championship match 2026 – Geneva; Chess Olympiad 2026 – Samarkand; FIDE World Rapid 2025 – Doha.",
+  "x": "Correct matching: Candidates 2026 (Open) – Pegeia, Cyprus; World Championship match 2026 – Geneva; Chess Olympiad 2026 – Samarkand; FIDE World Rapid 2025 – Doha – i.e. a-iv, b-i, c-ii, d-iii; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -730,7 +730,7 @@
    "a-iv, b-ii, c-i, d-iii"
   ],
   "a": 3,
-  "x": "Correct matching: Jaismine Lamboria and Minakshi Hooda – World Boxing Championships 2025; Chandrika Pujari – World Boxing Futures Cup 2026, Bangkok; Mary Kom – Asian Women's Championships 2017, Ho Chi Minh City; Neeraj (51 kg) – 6th Nations Cup, Serbia (2017).",
+  "x": "Correct matching: Jaismine Lamboria and Minakshi Hooda – World Boxing Championships 2025; Chandrika Pujari – World Boxing Futures Cup 2026, Bangkok; Mary Kom – Asian Women's Championships 2017, Ho Chi Minh City; Neeraj (51 kg) – 6th Nations Cup, Serbia (2017) – i.e. a-iv, b-ii, c-i, d-iii; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
  },
@@ -760,8 +760,923 @@
    "a-iv, b-i, c-ii, d-iii"
   ],
   "a": 2,
-  "x": "Correct matching: Rajamahendravaram – International Dragon Boat League 2026 on the Godavari; Visakhapatnam – 27-acre Komadi integrated sports complex; Kakinada, Kadapa, Pulivendula – Andhra Pradesh's only hockey turfs; ANU, Guntur – Closed SAAP centre that trained Jyothi Yarraji.",
+  "x": "Correct matching: Rajamahendravaram – International Dragon Boat League 2026 on the Godavari; Visakhapatnam – 27-acre Komadi integrated sports complex; Kakinada, Kadapa, Pulivendula – Andhra Pradesh's only hockey turfs; ANU, Guntur – Closed SAAP centre that trained Jyothi Yarraji – i.e. a-iv, b-iii, c-ii, d-i; the other codes swap at least two pairs.",
   "src": "app",
   "tq": "match"
+ },
+ {
+  "id": "cp3505594c72ec",
+  "row": 104,
+  "s": "Match the following September days with their 2026 themes:\nList I (Day):\na. World Ozone Day (16 Sept)\nb. World Patient Safety Day (17 Sept)\nc. International Day of Peace (21 Sept)\nd. International Literacy Day (8 Sept)\nList II (2026 theme):\ni. Invest in Peace: For Everyone, Everywhere, Every Day\nii. Global Action for a Cooler Planet\niii. Literacy for people, the planet and prosperity\niv. Safe care for noncommunicable diseases\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 2,
+  "x": "Correct matching: World Ozone Day (16 Sept) – Global Action for a Cooler Planet; World Patient Safety Day (17 Sept) – Safe care for noncommunicable diseases; International Day of Peace (21 Sept) – Invest in Peace: For Everyone, Everywhere, Every Day; International Literacy Day (8 Sept) – Literacy for people, the planet and prosperity – i.e. a-ii, b-iv, c-i, d-iii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7ea49867f95a",
+  "row": 104,
+  "s": "Match the following days with the persons whose birth anniversaries they mark:\nList I (Day):\na. Teachers' Day (5 Sept)\nb. Engineer's Day (15 Sept)\nc. Antyodaya Diwas (25 Sept)\nd. National Education Day (11 Nov)\nList II (Person):\ni. Maulana Abul Kalam Azad\nii. Pandit Deendayal Upadhyaya\niii. Dr. Sarvepalli Radhakrishnan\niv. Sir M. Visvesvaraya\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Correct matching: Teachers' Day (5 Sept) – Dr. Sarvepalli Radhakrishnan; Engineer's Day (15 Sept) – Sir M. Visvesvaraya; Antyodaya Diwas (25 Sept) – Pandit Deendayal Upadhyaya; National Education Day (11 Nov) – Maulana Abul Kalam Azad – i.e. a-iii, b-iv, c-ii, d-i; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1154e7ae9247",
+  "row": 104,
+  "s": "Consider the following statements about Hindi Diwas (14 September):\n1. It marks the adoption of Hindi in Devanagari script as the Union's official language by the Constituent Assembly in 1949.\n2. The decision was taken under the Munshi-Ayyangar formula.\n3. It has been observed every year since 1949.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: the 1949 decision of the Constituent Assembly. Statement 2 is correct: Munshi-Ayyangar formula. Statement 3 is wrong: it marks the 1949 decision but has been observed only since 1953.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf120a28ec618",
+  "row": 104,
+  "s": "Consider the following statements about the International Day of Clean Air for Blue Skies (7 September):\n1. It was set by the UNGA in 2019 and first observed the same year.\n2. India marks the day as Swachh Vayu Diwas, when Swachh Vayu Sarvekshan awards are given.\n3. Its 2026 theme is 'Clean Air for Climate Action'.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 and 3 only",
+   "2 only",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: set by the UNGA in 2019, it was first observed in 2020. Statement 2 is correct: India marks it as Swachh Vayu Diwas. Statement 3 is correct: 2026 theme 'Clean Air for Climate Action' (UNEP/UNGA).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp524d33d31387",
+  "row": 104,
+  "s": "Consider the following statements about Ayurveda Day:\n1. Before 2025 it was observed on Dhanvantari Jayanti (Dhanteras).\n2. From 2025 the Ministry of Ayush fixed it on the date of the autumnal equinox.\n3. Its 2025 theme was 'Ayurveda for a Healthier Tomorrow'.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: it was earlier held on Dhanteras. Statement 2 is correct: fixed on 23 September (autumnal equinox) from 2025 by the Ministry of Ayush. Statement 3 is wrong: the 2025 theme was 'Ayurveda for People and Planet'; 'Ayurveda for a Healthier Tomorrow' is the 2026 theme.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp681c6f32f7c3",
+  "row": 104,
+  "s": "Consider the following statements:\n1. National Nutrition Week (1–7 September) is observed by the Ministry of Women and Child Development.\n2. Hispanic Heritage Month (15 September – 15 October) is observed in the United Kingdom.\n3. The International Day of Charity falls on the same day as Teachers' Day in India.\n4. World Digestive Health Day is observed on 29 May.\nWhich of the statements given above are correct?",
+  "o": [
+   "All of the above",
+   "1, 3 and 4 only",
+   "1 and 3 only",
+   "1 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: the body is MWCD. Statement 2 is wrong: it is a US observance (since 1988); National Inclusion Week is the UK one. Statement 3 is correct: both are on 5 September. Statement 4 is correct: 29 May.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9c5e4c16447a",
+  "row": 104,
+  "s": "Match the following October observances with their 2026 themes:\nList I (Observance):\na. National Wildlife Week\nb. World Space Week\nc. International Day of the Girl Child\nd. World Food Day\nList II (2026 theme):\ni. The Rocket Revolution\nii. Innovate today. Nourish tomorrow.\niii. Connecting Habitats, Thriving Wildlife\niv. End child marriage and invest in girls' rights!\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Correct matching: National Wildlife Week – Connecting Habitats, Thriving Wildlife; World Space Week – The Rocket Revolution; International Day of the Girl Child – End child marriage and invest in girls' rights!; World Food Day – Innovate today. Nourish tomorrow. – i.e. a-iii, b-i, c-iv, d-ii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2386cf241a08",
+  "row": 104,
+  "s": "Consider the following statements about World Space Week:\n1. It is observed from 4 to 10 October every year.\n2. It was declared by the UN General Assembly in 1999.\n3. Its closing date marks the day the Outer Space Treaty was adopted in 1967.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: 4–10 October. Statement 2 is correct: declared by the UNGA in 1999. Statement 3 is wrong: 10 October 1967 is when the Outer Space Treaty entered into force; it was adopted in 1966 (opened for signature 27 January 1967).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfee277d37914",
+  "row": 104,
+  "s": "Consider the following statements about World Post Day and the Universal Postal Union (UPU):\n1. World Post Day marks the founding of the UPU on 9 October 1874 by the Treaty of Bern.\n2. 'UPU Day' was renamed World Post Day at the Tokyo Congress of 1969.\n3. India joined the UPU on 1 July 1876.\n4. The UPU is headquartered at Geneva.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "1, 2 and 3 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: UPU founded 9 October 1874, Treaty of Bern. Statement 2 is wrong: 'UPU Day' was declared at Tokyo (1969); it was renamed World Post Day in 1984 at Hamburg. Statement 3 is correct: India joined on 1 July 1876. Statement 4 is wrong: UPU HQ is Bern.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8aec6f09f61b",
+  "row": 104,
+  "s": "Consider the following statements:\n1. The International Day of the Girl Child was first observed on 11 October 2012.\n2. Beti Bachao Beti Padhao was launched at Panipat on 22 January 2015.\n3. India observes National Girl Child Day on 11 October.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: declared by UNGA Resolution 66/170 (2011); first observed 11 October 2012. Statement 2 is correct: launched at Panipat, 22 January 2015. Statement 3 is wrong: National Girl Child Day is 24 January.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2ca75ac5283f",
+  "row": 104,
+  "s": "Consider the following statements about Gandhi Jayanti 2026:\n1. It marked Mahatma Gandhi's 157th birth anniversary.\n2. The UN observes the day as the International Day of Non-Violence, by a UNGA resolution of 2007.\n3. It is one of India's three national holidays.\n4. The Swachh Bharat Mission was launched on Gandhi Jayanti in 2015.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: 2 October 2026 – 157th birth anniversary. Statement 2 is correct: UNGA 2007. Statement 3 is correct: with Republic Day and Independence Day. Statement 4 is wrong: it was launched on 2 October 2014.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp960705b54852",
+  "row": 104,
+  "s": "Match the following movements led by Gandhi with what they were about:\nList I (Movement):\na. Champaran (1917)\nb. Ahmedabad Mill Strike (1918)\nc. Kheda (1918)\nd. Non-Cooperation (1920–22)\nList II (Concern / note):\ni. Land-revenue relief\nii. Withdrawn after Chauri Chaura\niii. Textile mill workers\niv. Indigo cultivators\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 2,
+  "x": "Correct matching: Champaran (1917) – Indigo cultivators; Ahmedabad Mill Strike (1918) – Textile mill workers; Kheda (1918) – Land-revenue relief; Non-Cooperation (1920–22) – Withdrawn after Chauri Chaura – i.e. a-iv, b-iii, c-i, d-ii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb144bf471e2e",
+  "row": 104,
+  "s": "Arrange the following events in Gandhi's life in chronological order:\n1. Quit India Movement\n2. Belgaum Congress session presided over by Gandhi\n3. Dandi March from Sabarmati\n4. Return to India from South Africa",
+  "o": [
+   "4-2-3-1",
+   "2-4-3-1",
+   "4-3-2-1",
+   "4-2-1-3"
+  ],
+  "a": 0,
+  "x": "Return to India 1915 → Belgaum session 1924 → Dandi March 12 March 1930 → Quit India August 1942: order 4-2-3-1.",
+  "src": "app",
+  "tq": "sequence"
+ },
+ {
+  "id": "cp1edb95ec7ef4",
+  "row": 104,
+  "s": "Consider the following:\nAssertion (A): Belgaum (1924) is the only Indian National Congress session presided over by Gandhi.\nReason (R): Gandhi attended only the Second Round Table Conference (1931), as the sole INC representative.\nChoose the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both statements are true (notes: Gandhi presided only over Belgaum 1924 and attended only the 2nd RTC), but the RTC fact has nothing to do with his presiding over Belgaum, so R does not explain A.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe6f34e0adb02",
+  "row": 104,
+  "s": "Consider the following statements about the Ancient Buddhist Site of Sarnath:\n1. It was inscribed at the 48th World Heritage Committee session at Busan in July 2026.\n2. It is India's 45th World Heritage Site and Uttar Pradesh's 4th.\n3. It was inscribed under criteria (ii) and (iv).\n4. It had been on India's Tentative List since 1998.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 2 only",
+   "All of the above",
+   "1 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: 48th session, Busan (South Korea), July 2026. Statement 2 is correct: India's 45th; UP's 4th after Taj Mahal, Agra Fort, Fatehpur Sikri. Statement 3 is wrong: the criteria are (iii) and (vi); components are the Chaukhandi Stupa and archaeological remains. Statement 4 is correct: on the list since 3 July 1998 (28 years).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp385c2b72651c",
+  "row": 104,
+  "s": "Match the following sites added to India's UNESCO Tentative List in 2026 with their features:\nList I (Site):\na. Bagh Cave Paintings\nb. Udaigiri (Udayagiri) Caves\nc. Group of Temples of Chambal Valley\nd. Ginnorgarh Fort\nList II (Feature):\ni. Gupta patronage; 20 caves\nii. Nagara style; Gurjara-Pratihara and Kachchhapaghata\niii. Gond kingdom; ~65 stepwells\niv. 9 Buddhist rock-cut caves with murals\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 3,
+  "x": "Correct matching: Bagh Cave Paintings – 9 Buddhist rock-cut caves with murals; Udaigiri (Udayagiri) Caves – Gupta patronage; 20 caves; Group of Temples of Chambal Valley – Nagara style; Gurjara-Pratihara and Kachchhapaghata; Ginnorgarh Fort – Gond kingdom; ~65 stepwells – i.e. a-iv, b-i, c-ii, d-iii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe82ef1da14bd",
+  "row": 104,
+  "s": "Consider the following statements about the 2026 additions to India's UNESCO Tentative List:\n1. The Rangpur–Sivasagar Historic Ensemble of Assam is associated with the Ahom dynasty.\n2. After the September 2026 additions the list has 78 sites.\n3. The 'Sites of Satyagraha' is a serial transnational nomination shared with Kenya.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: Ahom: Rang Ghar, Talatal Ghar, water tanks. Statement 2 is correct: four added on 4 September (73), then five more – 78. Statement 3 is wrong: it is shared with South Africa (Pietermaritzburg Railway Station, Phoenix Settlement).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa24608db8a60",
+  "row": 104,
+  "s": "Consider the following statements about the World Heritage system:\n1. The World Heritage Convention was adopted in 1972 and India ratified it in 1977.\n2. The World Heritage Committee has 21 members.\n3. IUCN evaluates sites nominated under the cultural criteria.\n4. Being placed on the Tentative List gives a site World Heritage status.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: adopted 1972; India ratified 1977 (not 1972). Statement 2 is correct: 21-member committee. Statement 3 is wrong: ICOMOS evaluates cultural sites; IUCN evaluates natural sites. Statement 4 is wrong: a site must first be on the Tentative List before nomination, but tentative listing does not give WHS status.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp93cbd88f6f06",
+  "row": 104,
+  "s": "Match the following classical languages with their Centres of Excellence approved by the Ministry of Education:\nList I (Language):\na. Assamese\nb. Bengali\nc. Marathi\nd. Prakrit\nList II (Centre of Excellence):\ni. Central University of Gujarat\nii. Tezpur University\niii. Visva-Bharati University\niv. Deccan College PG & Research Institute, Pune\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 1,
+  "x": "Correct matching: Assamese – Tezpur University; Bengali – Visva-Bharati University; Marathi – Deccan College PG & Research Institute, Pune; Prakrit – Central University of Gujarat – i.e. a-ii, b-iii, c-iv, d-i; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp65e693ab89c6",
+  "row": 104,
+  "s": "Consider the following statements about India's classical languages:\n1. After five languages were added on 3 October 2024, India has 11 classical languages.\n2. Telugu was declared a classical language in 2013.\n3. The Centre of Excellence for Pali is at the Central University of Odisha, Koraput.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: total now 11. Statement 2 is wrong: Telugu (with Kannada) was declared in 2008; Malayalam was 2013. Statement 3 is correct: Pali – Central University of Odisha, Koraput.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpca98c2d9a02c",
+  "row": 104,
+  "s": "Consider the following statements:\n1. The Gollalagudi Temple near the Ramappa Temple at Palampet was notified as a Monument of National Importance in September 2026.\n2. The Ramappa (Kakatiya Rudreshwara) Temple is in Warangal district of Telangana.\n3. Under the AMASR Act 1958, the area up to 100 m around a protected monument is prohibited.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: final notification by the Ministry of Culture, September 2026. Statement 2 is wrong: Palampet is in Mulugu district. Statement 3 is correct: 100 m prohibited, next 200 m regulated.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp947cf5e15589",
+  "row": 104,
+  "s": "Consider the following statements:\n1. The wooden pagoda-style Hidimba Devi Temple at Manali was built in 1653 by Kullu ruler Bahadur Singh.\n2. Kullu Dussehra is held at Dhalpur Maidan.\n3. Shimla is the capital of Himachal Pradesh, which became a State on 25 January 1971.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: it was built in 1553. Statement 2 is correct: Dhalpur Maidan. Statement 3 is correct: capital Shimla (winter capital Dharamshala); statehood 25 January 1971.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0547c8416779",
+  "row": 104,
+  "s": "Consider the following statements about the Musi river:\n1. It rises in the Ananthagiri Hills of Vikarabad.\n2. It joins the Godavari near Wadapally in Nalgonda district.\n3. Osman Sagar and Himayat Sagar were built on it after the 1908 floods.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "3 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: source Ananthagiri Hills (Vikarabad). Statement 2 is wrong: the Musi is a tributary of the Krishna, which it joins near Wadapally. Statement 3 is correct: built after the 1908 floods.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa52edf2cb163",
+  "row": 104,
+  "s": "Consider the following statements:\n1. Kumik in Zanskar was declared Ladakh's first Heritage Village on 15 September 2026.\n2. Kumik preserves Kanjur manuscripts, the canonical Buddhist scriptures.\n3. Bhedaghat, known for its Marble Rocks and Dhuandhar Falls, lies on the Tapti.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: declared at the opening of the Zanskar Festival 2026. Statement 2 is correct: Kanjur manuscripts. Statement 3 is wrong: Bhedaghat is on the Narmada.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp84fc96a73903",
+  "row": 104,
+  "s": "Match the following events of September 2026 with their venues:\nList I (Event):\na. APNIC-62\nb. First International Film Festival of J&K\nc. 10th World Circular Economy Forum\nd. WWF Global Conservation Conference\nList II (Venue):\ni. SKICC, Srinagar\nii. Jaipur\niii. Mahatma Mandir, Gandhinagar\niv. Mumbai\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 2,
+  "x": "Correct matching: APNIC-62 – Mumbai; First International Film Festival of J&K – SKICC, Srinagar; 10th World Circular Economy Forum – Mahatma Mandir, Gandhinagar; WWF Global Conservation Conference – Jaipur – i.e. a-iv, b-i, c-iii, d-ii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4509db5f74a4",
+  "row": 104,
+  "s": "Match the following events with their themes/titles:\nList I (Event):\na. 17th Kathakali Festival, Chennai\nb. 10th World Circular Economy Forum\nc. 27th World Knowledge Forum, Seoul\nd. NGT conference, New Delhi\nList II (Theme):\ni. The Future of Environment and Climate Dynamics\nii. Circular Economy: Transition for People and Prosperity\niii. Kadha Rasa Sangama\niv. The Promethean Moment: Architecting the Co-Intelligence Order\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "Correct matching: 17th Kathakali Festival, Chennai – Kadha Rasa Sangama; 10th World Circular Economy Forum – Circular Economy: Transition for People and Prosperity; 27th World Knowledge Forum, Seoul – The Promethean Moment: Architecting the Co-Intelligence Order; NGT conference, New Delhi – The Future of Environment and Climate Dynamics – i.e. a-iii, b-ii, c-iv, d-i; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp88457f7050bf",
+  "row": 104,
+  "s": "Match the following 2026 events with the bodies that hosted/coordinated them:\nList I (Event):\na. APNIC-62, Mumbai\nb. Brihattar Bharat International Conference\nc. 2nd ESTIC 2026\nd. Global Dryland Congress 2026\nList II (Body):\ni. NIXI\nii. ICAR and ICRISAT\niii. IGNCA\niv. CSIR\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Correct matching: APNIC-62, Mumbai – NIXI; Brihattar Bharat International Conference – IGNCA; 2nd ESTIC 2026 – CSIR; Global Dryland Congress 2026 – ICAR and ICRISAT – i.e. a-i, b-iii, c-iv, d-ii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpac9dce56867a",
+  "row": 104,
+  "s": "Consider the following statements about the World Circular Economy Forum (WCEF):\n1. It was launched in 2017 by Sitra, the Finnish Innovation Fund.\n2. It began during the centenary of Norway's independence.\n3. Its 10th edition at Gandhinagar was the first WCEF held in South Asia.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: launched 2017 by Sitra (HQ Helsinki). Statement 2 is wrong: it began during the centenary of Finland's independence. Statement 3 is correct: first WCEF in South Asia.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp023236bba51b",
+  "row": 104,
+  "s": "Consider the following statements:\n1. The National Green Tribunal was established on 18 October 2010.\n2. Justice Prakash Shrivastava is the Chairperson of the NGT.\n3. WWF was founded in 1971 and is headquartered at Gland.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: 18 October 2010. Statement 2 is correct: Chairperson Justice Prakash Shrivastava. Statement 3 is wrong: WWF was founded in 1961 (HQ Gland, symbol Giant Panda).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfffa19cce9d3",
+  "row": 104,
+  "s": "Consider the following statements about Aero India and defence production:\n1. Aero India 2027, the 16th edition, will be held at AFS Yelahanka, Bengaluru.\n2. Aero India was first held in 1996 and is biennial.\n3. iDEX was set up in 2018.\n4. India's defence industrial corridors are in Uttar Pradesh and Gujarat.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: 16th edition, AFS Yelahanka, 8–12 February 2027. Statement 2 is correct: first held 1996; biennial. Statement 3 is correct: iDEX – 2018. Statement 4 is wrong: the corridors are in Uttar Pradesh and Tamil Nadu.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp92edaf9b50d8",
+  "row": 104,
+  "s": "Consider the following:\nAssertion (A): The Brihattar Bharat International Conference of October 2026 marked a centenary.\nReason (R): The Greater India Society was founded in Calcutta in 1926.\nChoose the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the conference marked the centenary of the Greater India Society (Calcutta, 1926).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4739d6fa6772",
+  "row": 104,
+  "s": "Consider the following statements:\n1. The International Film Festival of India (IFFI) was first held in 1952.\n2. The Kalakshetra Foundation was established in 1936 by Rukmini Devi Arundale.\n3. The National School of Drama was set up in 1975.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: IFFI first held 1952. Statement 2 is correct: Kalakshetra – 1936, Rukmini Devi Arundale. Statement 3 is wrong: NSD was set up in 1958; it became autonomous in 1975.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7ff6874c82a3",
+  "row": 104,
+  "s": "Consider the following statements about World Tourism Day 2026:\n1. El Salvador was the global host.\n2. The day marks the adoption of the UNWTO statutes in 1970 and was first celebrated in 1980.\n3. India's central celebration was held at Vigyan Bhawan, New Delhi.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: global host El Salvador. Statement 2 is correct: statutes 1970; first celebrated 1980. Statement 3 is wrong: it was held at Bharat Mandapam.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp765b96475e77",
+  "row": 104,
+  "s": "Match the following States with the 'firsts' reported in September 2026:\nList I (State):\na. Kerala\nb. Madhya Pradesh\nc. Punjab\nd. Telangana\nList II (First):\ni. 'Pehchaan' portal to identify unclaimed bodies\nii. Mandatory computer-based Hazard Perception Test for driving licences\niii. First government Eye Trauma Centre\niv. Free registration of rural residential properties\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 2,
+  "x": "Correct matching: Kerala – Mandatory computer-based Hazard Perception Test for driving licences; Madhya Pradesh – Free registration of rural residential properties; Punjab – 'Pehchaan' portal to identify unclaimed bodies; Telangana – First government Eye Trauma Centre – i.e. a-ii, b-iv, c-i, d-iii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp88514e71c701",
+  "row": 104,
+  "s": "Match the following 'firsts' with their locations:\nList I (First):\na. First hospital with CISF security\nb. Asia's first Telecom Manufacturing Zone\nc. India's first Agentic AI campus\nd. First port-based e-Methanol plant\nList II (Location):\ni. Gwalior\nii. KL University, Vaddeswaram\niii. AIIMS Jammu\niv. Deendayal Port, Kandla\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 2,
+  "x": "Correct matching: First hospital with CISF security – AIIMS Jammu; Asia's first Telecom Manufacturing Zone – Gwalior; India's first Agentic AI campus – KL University, Vaddeswaram; First port-based e-Methanol plant – Deendayal Port, Kandla – i.e. a-iii, b-i, c-ii, d-iv; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3ddaa6d132cf",
+  "row": 104,
+  "s": "Consider the following statements about firsts reported in September 2026:\n1. India's first LNG-powered train was launched by Amit Shah at Sabarmati.\n2. Dhamra Port in Odisha became the first major private multi-cargo port fully on renewable power.\n3. The world's highest flower fields at Leh were opened by the Prime Minister on Seva Diwas.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: launched at Sabarmati; ~2,000 km per tank. Statement 2 is correct: Dhamra Port (APSEZ). Statement 3 is wrong: they were opened by LG Vinai Kumar Saxena on Seva Diwas (Choglamsar and Stakna).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp79c33a3d209e",
+  "row": 104,
+  "s": "Consider the following statements:\n1. The foundation of a 3,200 MW ultra-supercritical plant, the largest power project in the Northeast, was laid at Chapar, Dhubri.\n2. The SVAMITVA scheme, launched in 2020, is run by the Ministry of Rural Development.\n3. India's first single-window Victims Rights Centre was inaugurated in Patna by CJI Surya Kant.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: Chapar, Dhubri (Assam), 20 September 2026. Statement 2 is wrong: SVAMITVA (2020) is a Ministry of Panchayati Raj scheme. Statement 3 is correct: at BSLSA, Patna, 26 September 2026.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd154a36f8001",
+  "row": 104,
+  "s": "Consider the following:\nAssertion (A): Injecting Coke Oven Gas into Blast Furnace-1 at Tata Steel's Meramandali plant supports its net-zero goal.\nReason (R): Coke Oven Gas contains more than 55% hydrogen.\nChoose the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: COG is over 55% hydrogen, so injecting it replaces carbon-based fuel – the notes link this first (Meramandali, Odisha) to Tata Steel's net-zero-by-2045 goal.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp7b0bb646d0fb",
+  "row": 104,
+  "s": "Consider the following statements about the International Day of Rural Women (15 October):\n1. It was proclaimed by the UNGA in 2007 by Resolution 62/136.\n2. It was first observed on 15 October 2008.\n3. UN Women, set up in 2010, is headquartered at Geneva.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: UNGA Resolution 62/136 (2007). Statement 2 is correct: first observed 2008. Statement 3 is wrong: UN Women (est. 2010, operations 2011) is headquartered in New York.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb32a4a320772",
+  "row": 104,
+  "s": "Consider the following statements about World Food Day and the FAO:\n1. World Food Day was first observed in 1981, after the FAO Conference decided on it in 1979.\n2. The FAO was founded at Quebec City and is headquartered in Rome.\n3. The World Food Programme, winner of the Nobel Peace Prize 2020, was set up in 1977.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: decision 1979; first observed 1981. Statement 2 is correct: founded 16 October 1945, Quebec City; HQ Rome. Statement 3 is wrong: WFP was set up in 1961; IFAD is the one set up in 1977.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp90e2fcaf9a5e",
+  "row": 104,
+  "s": "Consider the following statements about the International Day of the Intangible Cultural Heritage (17 October):\n1. It was proclaimed at the 42nd UNESCO General Conference in November 2023.\n2. The 2026 observance was its third edition.\n3. The UNESCO 2003 Convention for the Safeguarding of the ICH came into force on 20 April 2006.\n4. India ratified the 2003 Convention in 2006.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: 42nd General Conference, November 2023. Statement 2 is correct: first observed 17 October 2024, so 2026 is the third. Statement 3 is correct: adopted 17 October 2003, in force 20 April 2006. Statement 4 is wrong: India ratified it in 2005.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp885a3eccd53d",
+  "row": 104,
+  "s": "Consider the following statements about the International Day for the Eradication of Poverty (17 October):\n1. Its origin is the gathering of 17 October 1987 at Trocadero Square, Paris, initiated by Joseph Wresinski.\n2. The day was proclaimed by the UN General Assembly in 1987.\n3. Its theme for 2026–2028 is 'United for Peace and Human Rights'.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: Trocadero Square, Paris; Joseph Wresinski (ATD Fourth World). Statement 2 is wrong: it was proclaimed by the UNGA in 1992 (Resolution 47/196). Statement 3 is correct: 2026–2028 theme; 2026 focus 'Safe Homes for All'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8a6d2b29626e",
+  "row": 104,
+  "s": "Consider the following statements about Global Media and Information Literacy Week (24–31 October):\n1. It was launched in 2012 by UNESCO with its partners.\n2. It was proclaimed by the UN General Assembly in 2021.\n3. Its 2026 theme is 'Probity for Prosperity'.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: launched 2012 (UNESCO, MIL Alliance, UNAOC, MILID). Statement 2 is correct: proclaimed by the UNGA in 2021. Statement 3 is wrong: its theme is 'We All Play a Part – Media and Information Literacy for the People'; 'Probity for Prosperity' is the Vigilance Awareness Week theme.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp436fcb40a96f",
+  "row": 104,
+  "s": "Consider the following statements about Breast Cancer Awareness Month:\n1. It was first launched in October 1985 by the American Cancer Society and the pharmaceutical division of Imperial Chemical Industries.\n2. It is also known as Pink October, with the pink ribbon as its symbol.\n3. The commemorative stamps released for it in November 2026 were unveiled by Communications Minister Jyotiraditya Scindia.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: launched October 1985. Statement 2 is correct: Pink October; pink ribbon since the early 1990s. Statement 3 is wrong: the ₹25 and ₹50 stamps were unveiled by DG Postal Services Manisha Sinha and Health Secretary Punya Salila Srivastava at Dak Bhawan.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp774e0c3625b5",
+  "row": 104,
+  "s": "Match the following observances with the bodies that organise/lead them:\nList I (Observance):\na. International Infection Prevention Week\nb. Vigilance Awareness Week\nc. Global Media and Information Literacy Week\nd. UN Disarmament Week\nList II (Body):\ni. UNODA\nii. APIC\niii. UNESCO\niv. Central Vigilance Commission\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 2,
+  "x": "Correct matching: International Infection Prevention Week – APIC; Vigilance Awareness Week – Central Vigilance Commission; Global Media and Information Literacy Week – UNESCO; UN Disarmament Week – UNODA – i.e. a-ii, b-iv, c-iii, d-i; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpcb72d0060cf7",
+  "row": 104,
+  "s": "Match the following observances with their 2026 themes:\nList I (Observance):\na. International Infection Prevention Week\nb. International Lead Poisoning Prevention Week\nc. Vigilance Awareness Week\nd. World Cities Day\nList II (Theme):\ni. Probity for Prosperity\nii. Regenerating the City: Adequate Housing for All\niii. Generations of Infection Prevention\niv. From Detection to Prevention\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-ii, c-i, d-iv"
+  ],
+  "a": 2,
+  "x": "Correct matching: International Infection Prevention Week – Generations of Infection Prevention; International Lead Poisoning Prevention Week – From Detection to Prevention; Vigilance Awareness Week – Probity for Prosperity; World Cities Day – Regenerating the City: Adequate Housing for All – i.e. a-iii, b-iv, c-i, d-ii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp238550796546",
+  "row": 104,
+  "s": "Consider the following statements:\n1. The Global Alliance to Eliminate Lead Paint was set up by UNEP and WHO in 2011.\n2. UNEP is headquartered at Geneva.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: UNEP and WHO, 2011. Statement 2 is wrong: UNEP (est. 1972) is headquartered at Nairobi; WHO is at Geneva.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp903741f11075",
+  "row": 104,
+  "s": "Consider the following:\nAssertion (A): Vigilance Awareness Week is held in the week that includes Gandhi Jayanti (2 October).\nReason (R): The Central Vigilance Commission became a statutory body through the CVC Act, 2003.\nChoose the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the week (26 October – 1 November 2026) is held around 31 October, Sardar Patel's birth anniversary (National Unity Day), not Gandhi Jayanti. R is true: the CVC, set up in 1964 on the Santhanam Committee's recommendation, became statutory under the CVC Act, 2003.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cped7974f44eac",
+  "row": 104,
+  "s": "Consider the following statements about UN Disarmament Week (24–30 October):\n1. It was called for at the UNGA's first Special Session on Disarmament in 1978.\n2. It is coordinated by UNODA, headquartered in New York.\n3. India is a signatory to the NPT, which came into force in 1970.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: first Special Session, 1978. Statement 2 is correct: UNODA, est. 1998, New York. Statement 3 is wrong: the NPT came into force in 1970, but India is not a signatory.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp25e385e1d668",
+  "row": 104,
+  "s": "Consider the following statements about World Cities Day (31 October):\n1. It is organised by UN-Habitat and was first observed in 2014.\n2. Fuzhou, China, was the global host in 2026.\n3. UN-Habitat's World Cities Report 2026 is themed 'The Global Housing Crisis: Pathways to Action'.\n4. It was proclaimed by UNGA Resolution 70/203.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1 and 2 only",
+   "All of the above",
+   "1 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: UN-Habitat; first 2014. Statement 2 is correct: Fuzhou, 31 October – 2 November 2026. Statement 3 is correct: that is the report's theme. Statement 4 is wrong: it was proclaimed by Resolution 68/239; A/RES/70/203 designated World Tsunami Awareness Day.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6f98189b63e9",
+  "row": 104,
+  "s": "Consider the following statements:\n1. The first BRIC Summit was held at Yekaterinburg in 2009.\n2. Mission LiFE was launched by PM Narendra Modi on 20 October 2022.\n3. India held the BRICS Chairship in 2025, before Brazil.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: Yekaterinburg, 2009; South Africa joined 2010. Statement 2 is correct: 20 October 2022. Statement 3 is wrong: Brazil chaired in 2025; India holds the Chairship in 2026.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp04cc5af7ce1b",
+  "row": 104,
+  "s": "Match the following books with their authors:\nList I (Book):\na. The Evolution of TV News in India\nb. Advantage India: Reshaping the Future for an Equitable World\nc. The Story of Vande Mataram\nd. Belonging: A Journey of Love\nList II (Author):\ni. Anil K. Antony\nii. Sonia Gandhi\niii. Harsaran Bir Kaur Pandey\niv. Ranga Hari\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 1,
+  "x": "Correct matching: The Evolution of TV News in India – Harsaran Bir Kaur Pandey; Advantage India: Reshaping the Future for an Equitable World – Anil K. Antony; The Story of Vande Mataram – Ranga Hari; Belonging: A Journey of Love – Sonia Gandhi – i.e. a-iii, b-i, c-iv, d-ii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbc9653259cf0",
+  "row": 104,
+  "s": "Match the following books/awards of 2026 with the persons who released/presented them:\nList I (Book / award):\na. The Evolution of TV News in India\nb. Advantage India\nc. The Story of Vande Mataram (English)\nd. Sharjah Award to 'The Tamils'\nList II (Released / presented by):\ni. Arif Mohammed Khan\nii. Suryaprakash (former Prasar Bharati Chairman)\niii. Sheikha Bodour bint Sultan Al Qasimi\niv. Vice President C.P. Radhakrishnan\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 1,
+  "x": "Correct matching: The Evolution of TV News in India – Suryaprakash (former Prasar Bharati Chairman); Advantage India – Vice President C.P. Radhakrishnan; The Story of Vande Mataram (English) – Arif Mohammed Khan; Sharjah Award to 'The Tamils' – Sheikha Bodour bint Sultan Al Qasimi – i.e. a-ii, b-iv, c-i, d-iii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6d2fa76983c6",
+  "row": 104,
+  "s": "Consider the following statements:\n1. 'The Evolution of TV News in India' was published by Om Books International.\n2. 'The Story of Vande Mataram' by Ranga Hari was originally written in Tamil.\n3. Doordarshan began on 15 September 1959.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: publisher Om Books International. Statement 2 is wrong: it was originally in Malayalam, translated into English by Dr. Mercy Jill. Statement 3 is correct: 15 September 1959; Prasar Bharati 1997.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp70d12c035d03",
+  "row": 104,
+  "s": "Consider the following statements about Vande Mataram:\n1. It was composed by Bankim Chandra Chattopadhyay and included in Anandamath (1882).\n2. It was first sung by Rabindranath Tagore at the 1896 INC session.\n3. It was adopted as the National Song on 26 January 1950.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: Bankim; Anandamath 1882. Statement 2 is correct: Tagore, 1896 session. Statement 3 is wrong: it was adopted on 24 January 1950.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1b46de7a437b",
+  "row": 104,
+  "s": "Consider the following statements about Muthuswami Dikshitar:\n1. A commemorative coin on his 250th birth anniversary was released by FM Nirmala Sitharaman in Varanasi.\n2. He was born at Thanjavur.\n3. He is one of the Carnatic Trinity, along with Tyagaraja and Syama Sastri.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "3 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: released in Varanasi; 250th birth anniversary. Statement 2 is wrong: Dikshitar (1775–1835) was born at Tiruvarur. Statement 3 is correct: Carnatic Trinity.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp27a35f2452ed",
+  "row": 104,
+  "s": "Match the following days with their 2026 themes:\nList I (Day):\na. World Tsunami Awareness Day (5 Nov)\nb. World Science Day for Peace and Development (10 Nov)\nc. World Diabetes Day (14 Nov)\nd. World Rabies Day (28 Sept)\nList II (Theme):\ni. Stronger Together\nii. Common ground through science diplomacy\niii. Be Tsunami Ready: Resilience Starts With You\niv. Early action on diabetes\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "Correct matching: World Tsunami Awareness Day (5 Nov) – Be Tsunami Ready: Resilience Starts With You; World Science Day for Peace and Development (10 Nov) – Common ground through science diplomacy; World Diabetes Day (14 Nov) – Early action on diabetes; World Rabies Day (28 Sept) – Stronger Together – i.e. a-iii, b-ii, c-iv, d-i; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3f409cdc00e9",
+  "row": 104,
+  "s": "Match the following days with what they commemorate:\nList I (Day):\na. National Legal Services Day (9 Nov)\nb. National Entrepreneurship Day (9 Nov)\nc. Children's Day (14 Nov)\nd. World Diabetes Day (14 Nov)\nList II (Commemorates):\ni. Setting up of the Ministry of Skill Development and Entrepreneurship (2014)\nii. Birth anniversary of Jawaharlal Nehru\niii. Birth anniversary of Frederick Banting\niv. Legal Services Authorities Act, 1987 in force (1995)\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "Correct matching: National Legal Services Day (9 Nov) – Legal Services Authorities Act, 1987 in force (1995); National Entrepreneurship Day (9 Nov) – Setting up of the Ministry of Skill Development and Entrepreneurship (2014); Children's Day (14 Nov) – Birth anniversary of Jawaharlal Nehru; World Diabetes Day (14 Nov) – Birth anniversary of Frederick Banting – i.e. a-iv, b-i, c-ii, d-iii; the other codes swap at least two pairs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa3d5c1c63036",
+  "row": 104,
+  "s": "Consider the following:\nAssertion (A): The 150th anniversary of Vande Mataram was marked on 7 November 2026.\nReason (R): Vande Mataram was first published in the novel Anandamath on 7 November 1875.\nChoose the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: Vande Mataram was first published in the journal Bangadarshan on 7 November 1875 – the date the 150 years count from; it appeared in Anandamath only in 1882.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp61a331feabb1",
+  "row": 104,
+  "s": "Consider the following statements about books and literary awards of 2026:\n1. 'Belonging: A Journey of Love', Sonia Gandhi's memoir, was published by HarperCollins India.\n2. Nirmala Lakshman won the Sharjah Award for Best International Non-Fiction Book for 'The Tamils: A Portrait of a Community'.\n3. The International Booker Prize 2026 went to 'Flesh' by David Szalay.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: HarperCollins India. Statement 2 is correct: Sharjah International Book Fair award. Statement 3 is wrong: 'Flesh' won the 2025 Booker Prize; the International Booker 2026 went to 'Taiwan Travelogue' by Yáng Shuāng-zǐ (tr. Lin King).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0a7d9de31f52",
+  "row": 104,
+  "s": "Consider the following statements:\n1. The 19th Pravasi Bharatiya Divas Convention will be held in Kolkata in January 2027.\n2. Pravasi Bharatiya Divas (9 January) marks Gandhi's return from South Africa in 1915.\n3. The Bihar Museum, Patna, ranked 1st in Asia in the 'World's 100 Best Museums 2026', was designed by Charles Correa.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: Kolkata, 7–9 January 2027. Statement 2 is correct: 9 January 1915. Statement 3 is wrong: it was designed by Fumihiko Maki (Pritzker winner) with Opolis Architects.",
+  "src": "app",
+  "tq": "statements"
  }
 ]

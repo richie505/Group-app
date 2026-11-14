@@ -1,0 +1,396 @@
+=== Festivals, Fairs and Dances in News
+# Telangana festivals
+- **Numaish (85th All India Industrial Exhibition)**: inaugurated **1 January 2026**, **Nampally Exhibition Grounds**, by Deputy CM Bhatti Vikramarka; 1,050 stalls; **first held 1938** by **7th Nizam Mir Osman Ali Khan**; ~45 days; revenue runs 19 educational institutions.
+- **Sammakka–Saralamma Jatara**: **biennial**, **Medaram (Mulugu)**, in Eturunagaram WLS; **Koya** tribal deities; **Asia's largest tribal congregation** – 1 crore+ devotees, **India's largest after the Kumbh**; Magha full moon; **resistance against Kakatiya taxation**; jaggery offered as "gold".
+- **Nagoba Jatara 2026**: from **18 January** at **Keslapur, Indravelli mandal, Adilabad**; **Mesram** clan carried Ganga water 70 km from Hasthinamadugu (Godavari); 1,400-year-old brass vessel; Gusadi dance; public durbar; 2nd largest tribal fair in Telangana; State festival.
+# Other festivals and dances
+| Festival / dance | Detail |
+|---|---|
+| Bagurumba | Bodo community, Assam – PM watched 10,000+ artists; linked to Bwisagu (Bodo New Year) and Domasi; butterfly-like movements; instruments Kham, Sifung; attire Dokhna, Aronai |
+| Spituk Gustor | Began 16 January 2026; Spituk Monastery (Gelug) near Leh on the Indus; Cham masked dances |
+| Boda Tyohar | Largest festival of the Hatti tribe – Sirmaur (HP); Hattis in Trans-Giri (HP) and Jaunsar Bawar (Uttarakhand) |
+| 39th Surajkund International Crafts Mela | Faridabad, Haryana – "Vocal to Global"; partner country Egypt; since 1987 |
+| Jain Chadar Mahotsav | Jaisalmer, 6–8 March 2026 – 872-year-old chadar of Dada Shri Jindat Suri |
+| Rusoma Orange Festival (5th) | Rusoma, Nagaland, 31 January 2026 – "Abundance of Rusoma" |
+| Kathputli | Rajasthan string puppets – legless; 2–5 strings; dholak, harmonium |
+- **Jagar** (static, PYQ): night ritual of **Uttarakhand** (**Garhwal and Kumaon**) – local deities and ancestral spirits are invoked through sung ballads and drums (e.g. **Golu / Goril Devta**).
+~~ Sources: Wikipedia 'Jagar (ritual)' (web, fetched; cites E-Uttarakhand 'Folk Songs and Dances of Uttarakhand'); app notes 6:107 sub 6
+
+=== Heritage, Archaeology and Repatriation
+# UNESCO nominations
+- **India had 44 World Heritage Sites (January 2026)**; WH Convention **1972**.
+- **Buddhist Diamond Triangle** – **Lalitgiri** (earliest), **Udayagiri** (largest), **Ratnagiri** (Vajrayana sculptures) – Jajpur/Cuttack, Odisha – added to the Tentative List.
+- **Meghalaya living root bridges** – "Jingkieng Jri or Living Root Bridge Cultural Landscape" – Khasi and Jaintia Hills; roots of the **rubber fig**.
+# Finds and monuments
+| Item | Fact |
+|---|---|
+| Konark Sun Temple | Sanctum (Jagamohan) reopens after 122 years – British filled it with sand 1903–04; ASI + IIT Madras; built ~1250 CE by Narasimhadeva I; UNESCO 1984 |
+| Seva Teerth | New PMO complex inspired by Chennakeshava Temple, Belur (1117 CE, Vishnuvardhana, on Yagachi river) |
+| Bhirrana (Fatehabad, Haryana) | IVC settlement may date ~8,000 years; mature phase 2600–1900 BCE |
+| Valley of the Kings (Egypt) | ~30 Indian inscriptions (Tamil-Brahmi, Prakrit, Sanskrit), 1st–3rd c. CE; name "Cikai Korran" 8 times |
+| Devnimori relics in Sri Lanka | From 4 February; Aravalli district, Gujarat; casket inscription "Dashabala Sharira Nilaya" |
+| Tyonda, Jhunjhunu | 11th–12th c. temple remains – Lakshmi, Ganesha |
+| Falcon Living Museum | Mizo heritage village near Aizawl – INTACH documentary |
+| Lakkundi (Gadag, Karnataka) | Neolithic remains at Kote Veerabhadreshwara complex; old name Lokkigundi; "village of a hundred wells and temples"; Jain donor Queen Attimabbe; for UNESCO nomination |
+| Bhupatipur (Kannayigudem, Mulugu, Telangana) | 12 Palaeolithic tools, ~100,000–40,000 years old – New Telangana History team |
+| Jehanpora (Baramulla, J&K) | ~2,000-year-old Kushan stupa and monastery (~10 acres); Silk Route link to Gandhara |
+| Piprahwa relics | Exhibition "The Light and the Lotus", New Delhi (opened by PM); relics back after 127 years; found 1898, Siddharthnagar (UP), linked to Kapilavastu |
+| Oldest cave art | Hand stencil, at least 67,800 years, Muna, Sulawesi (Indonesia) |
+| Serengsia battle | 1837, Ho tribal resistance, West Singhbhum (Jharkhand) |
+| Chola Shiva temple | ~900 years (Kulottunga Chola I) under mango tree roots at Begili, near Hosur (Krishnagiri) |
+| Bhairava sculpture | 9 ft, Raichakonda Fort, Yadadri Bhuvanagiri (Telangana) |
+- **Smithsonian** National Museum of Asian Art returning: **10th-c. Chola Shiva Nataraja**, **12th-c. Somaskanda**, **16th-c. Vijayanagara Sundarar and Paravai**.
+- **ASI** est. **1861** (DG Yadubir Singh Rawat); **INTACH** est. **1984**.
+# Hoysalas
+- 11th–14th century CE; feudatories of Western Chalukyas of Kalyana; founder **Nripa Kama II**; capitals **Belur (Velapuri) → Dwarasamudra (Halebidu)**.
+- Rulers: **Vishnuvardhana** (Bittideva – Jain, turned Vaishnava under Ramanuja); **Veera Ballala II** (peak); Veera Ballala III; Vira Someshwara.
+| Monument | Fact |
+|---|---|
+| Bucheshwara, Koravangala | 1173 CE – honours Veera Ballala II |
+| Hulikere Kalyani | 12th-century stepwell |
+| Chennakeshava, Belur | Vishnu – by Vishnuvardhana |
+| Keshava, Somanathapura | 13th-c. trikuta Vaishnava |
+- **UNESCO 2023 "Sacred Ensembles of the Hoysalas"**: Chennakeshava (Belur), Hoysaleswara (Halebidu), Keshava (Somanathapura).
+# Somnath – Bhadrakali inscription
+- At **Prabhas Patan**; **1169 CE** (Valabhi Samvat 850); on Somnath's legacy and the **fifth reconstruction by Kumarapala** (Solanki); eulogy of Bhavabrihaspati.
+| Yuga | Somnath built of / by |
+|---|---|
+| Satya | Gold – Chandra (Soma) |
+| Treta | Silver – Ravana |
+| Dvapara | Wood – Shri Krishna |
+| Kali | Stone – Bhimdev Solanki |
+# Other culture news
+- **Batadrava Than** (Nagaon, Assam) – ₹227 crore; inaugurated by **Amit Shah**, not Himanta Biswa Sarma; official name Mahapurush Srimanta Sankardeva Abhirbhav Kshetra.
+- **Srimanta Sankardeva (1449–1568)**: Siromani Bhuyans family; Eka-Sarana-Nama-Dharma; **Namghars** – prayer halls; **Satras** – monasteries; **Ankiya Naat, Bhaona, Sattriya dance**; associate Madhavdeva. Sattriya is not based on songs of Tulsidas, Kabir or Mirabai.
+- **INSV Kaundinya**: stitched sailing ship – maiden voyage **Porbandar → Muscat**; inspired by a ship in **Ajanta** paintings (5th c. CE); **Tankai method** (hull stitched first); coir rope, no metal or engine; sails – **Gandabherunda and Sun**; bow – **Simha Yali**; Harappan-style stone anchor; master shipwright Babu Sankaran.
+- **Na Ooru – Na Vaarasatvam (Mera Gaon – Meri Dharohar)**: **National Mission on Cultural Mapping** (Ministry of Culture) – ~6.5 lakh villages.
+- **Bandhgala** dropped by Railways (called "colonial relic") – actually began in **Jodhpur (Rathores)**, came from the **Achkan**; indigenous, not colonial.
+~~ Sources: app notes 6:107 sub 7
+
+=== January 2026 – Important Days and Themes
+# January days in calendar order
+| Date | Day | Theme / fact |
+|---|---|---|
+| 1 January | World Family Day | UN book "One Day in Peace" (1 Jan 2000); "family" from Latin *famulus* |
+| 1–31 January | Road Safety Month | – |
+| 4 January | World Braille Day | Louis Braille born 4 Jan 1809; UNGA approved 2018, observed from 2019 |
+| 6 January | 9th National Siddha Day | "Siddha for Global Health"; birth anniversary of Sage Agastya; approved 2017, first 4 Jan 2018; VP inaugurated at Kalaivanar Arangam, Chennai (3 Jan) |
+| 8 January | Earth's Rotation Day | Léon Foucault's pendulum, 1851, Panthéon, Paris; rotation 23 h 56 min 4.09 s; ~1,610 km/h |
+| 9 January | Pravasi Bharatiya Divas | Gandhi returned from South Africa, 9 Jan 1915; OCI under Sec 7A, Citizenship Act 1955 |
+| 11–17 January | 37th National Road Safety Week | "Sadak Suraksha, Jeevan Raksha"; 4E model |
+| 12 January | National Youth Day | Swami Vivekananda's birth anniversary (163rd in 2026) |
+| 15 January | Army Day | K.M. Cariappa first Indian C-in-C, 15 Jan 1949 (replaced Gen Roy Bucher); theme "Year of Networking and Data Centricity" |
+| 16 January | National Startup Day | 10 years of Startup India |
+| 19 January | NDRF Raising Day | NDRF est. 19 Jan 2006; observed since 2007; under DM Act 2005 |
+| 23 January | Parakram Diwas | Netaji's birth anniversary (129th) |
+| 24 January | International Day of Education | "The Power of Youth in Co-Creating Education"; UNGA 3 Dec 2018 |
+| 24 January | National Girl Child Day | Launched 2008; girls' rights; linked to Beti Bachao Beti Padhao |
+| 25 January | 16th National Voters' Day | "My India, My Vote"; tagline "Citizen at the Heart of Indian Democracy"; ECI est. 25 Jan 1950; first NVD 2011; chief guest President Droupadi Murmu |
+| 26 January | 77th Republic Day | "150 Years of Vande Mataram" |
+| 28 January | International Data Privacy Day | "Privacy by Design"; marks Convention 108 |
+> 24 January has two days (Girl Child Day + International Day of Education); 25 January = Voters' Day; 26 January = Republic Day.
+> International Day of Education 2024 theme: "Learning for lasting peace" (APPSC 2024 and 2025).
+# Parakram Diwas 2026 – Netaji's 129th birth anniversary
+- Ministry of Culture held Parakram Diwas–2026 mainly in the **Andaman and Nicobar Islands** (till 25 January) + 13 other locations.
+- **Netaji**: born **23 January 1897**; **Forward Bloc (1939)**; escaped house arrest **1941**; **1943** – Provisional Government of Azad Hind, flag hoisted at **Port Blair**, Rani Jhansi Regiment; 125th anniversary – 23 January 2022.
+# International Data Privacy Day – 28 January
+- Also called **Data Protection Day**; instituted in **2006** by the **Council of Europe**; marks **Convention 108** (opened for signature 28 January 1981) – world's first legally binding international data protection treaty.
+- India: **3rd-largest digitalised economy**; ₹782 crore for cybersecurity in Budget 2025–26; broadband subscribers 101.7 crore (Sept 2025); mobile data $0.10/GB.
+| Law / body | Fact |
+|---|---|
+| IT Act 2000 | Sec 69A (blocking), 70B (CERT-In) |
+| IT Rules | 2021 (Intermediary Guidelines) |
+| DPDP Act | Enacted 11 August 2023; SARAL approach; Data Protection Board of India; response within 90 days; verifiable parental consent for children |
+| DPDP Rules | Notified 13 November 2025 |
+| I4C | 2018, MHA; National Cyber Crime Reporting Portal (2020); helpline 1930 |
+| Cyber Fraud Mitigation Centre | September 2024; Samanvaya platform; Sahyog (takedowns); Suspect Registry (mule accounts) |
+| Training | CyTrain (2019), Cyber Commando Programme (2024), CSPAI (CERT-In, 2024) |
+| Cyber Swachhta Kendra | Botnet cleaning and malware analysis (CERT-In) |
+~~ Sources: app notes 6:107 sub 1
+
+=== 77th Republic Day and Vande Mataram @150
+# Republic Day 2026
+- 77th anniversary of the Constitution coming into force (**26 January 1950**); theme "**150 Years of Vande Mataram**"; tableau with all six original stanzas; Beating Retreat 2026 and Har Ghar Tiranga 2026 also dedicated to it.
+- **Chief Guests**: European Commission President **Ursula von der Leyen** and European Council President **António Costa** (4-day visit).
+- Parade on Kartavya Path: 30 tableaux – "Swatantrata ka Mantra – Vande Mataram", "Samriddhi ka Mantra – Atmanirbhar Bharat"; 2,500 artists; ~10,000 special guests.
+- **Firsts**: **EU military contingent** – EU's first such participation outside Europe; debut of **Bhairav Light Commando Battalion** (assault infantry); **first animal contingent** – **Remount and Veterinary Corps** (est. 1889): 2 Bactrian camels (**Galwan, Nubra**), 4 horses, 4 eagles, 10 indigenous Army dogs, 6 service dogs.
+- IAF fly-past: Rafale, Su-30, MiG-29, P-8I, Apache, LCH, C-130J, C-295.
+| Tableau | Theme |
+|---|---|
+| Gujarat | Madam Bhikaji Cama; National Flag evolution (1906–1947) |
+| Maharashtra | Ganeshotsav as social movement (Tilak) |
+| West Bengal | Origins of Vande Mataram; Bose, Matangini Hazra, Khudiram Bose |
+| Punjab | Guru Tegh Bahadur – 350th martyrdom year |
+| Kerala | Kochi Water Metro; 100% digital literacy |
+| Tri-Services | Operation Sindoor – Victory Through Jointness |
+# Parade results
+| Category | Winner |
+|---|---|
+| Best marching contingent (Services) | Indian Navy |
+| CAPF / auxiliary | Delhi Police |
+| State/UT tableaux | 1. Maharashtra, 2. Jammu & Kashmir, 3. Kerala |
+| Ministries | Ministry of Culture; special prize CPWD |
+| People's Choice (contingents) | Assam Regiment, CRPF |
+| People's Choice (tableaux) | 1. Gujarat, 2. Uttar Pradesh, 3. Rajasthan |
+- Special prize: dance "Vande Mataram: India's Eternal Resonance"; RD 2023 best tableau – Uttarakhand ("Manaskhand").
+- Founded: MyGov 2014; Indian Navy 1934; CRPF 1939; Ministry of Culture 1985.
+- **Padma Awards 2026: 131** – **5 Padma Vibhushan, 13 Padma Bhushan, 113 Padma Shri**.
+- **Bharat Parv 2026** at Red Fort till 31 January – Ministry of Tourism (since 2016); Red Fort built 1648 by Shah Jahan, WHS 2007.
+# Constitution background
+- **Lahore Session 1929** (president **Jawaharlal Nehru**) – Purna Swaraj; **26 January 1930** – Purna Swaraj Day.
+- Constituent Assembly: idea by **M.N. Roy**; first met **9 December 1946**; temporary President **Dr. Sachchidananda Sinha**, permanent **Dr. Rajendra Prasad**; took **2 years, 11 months, 18 days**; **11 sessions, 165 days** (114 on the draft); National Flag adopted **22 July 1947**; Drafting Committee **29 August 1947** (Dr. B.R. Ambedkar).
+- **Adopted 26 November 1949**; **in force 26 January 1950**; replaced GoI Act 1935.
+- **42nd Amendment (1976)** added "**Socialist**" and "**Secular**" to the Preamble.
+# Vande Mataram
+- Author **Bankim Chandra Chattopadhyay**; written in **Sanskrit** (not Bengali); first published **7 November 1875**; later in novel ***Anandamath* (1882)**.
+- Popularised in the **Swadeshi agitation (1905)**; **1937 CWC**: only the first two stanzas at national gatherings.
+- **National song**: designated by **Dr Rajendra Prasad** in the Constituent Assembly on **24 January 1950** – equal status with Jana Gana Mana.
+- Views: **Tagore** – sing first two stanzas; **Gandhi (Harijan, July 1939)** – drop it if anyone objects in a mixed gathering.
+- **Rajya Sabha debate** on 150 years: **J.P. Nadda** (Leader of House) demanded status equal to the national anthem; Opposition (Mallikarjun Kharge) accused him of distorting history; Union Cabinet approved nationwide celebration.
+- **MHA guidelines (6 February 2026)**: all **six stanzas** at official functions and educational institutions; **3 min 10 s**; stand attentively; **standing in cinema halls not mandatory**; played before/after President's speeches on AIR and Doordarshan and when Governors/LGs arrive or leave; if both are played – **Vande Mataram first, then the National Anthem**.
+- Legal position: **Article 51A(a)** and the **Prevention of Insults to National Honour Act, 1971** cover **Flag and Anthem only**, not the national song; Supreme Court – no concept of "National Song" in law.
+- Saka calendar: 1 Chaitra = 22 March (21 March in a leap year).
+> Vande Mataram was written in Sanskrit; it became National Song on 24 January 1950, not 26 January.
+~~ Sources: Rocket CA 2026 Part 01 p.52 (77th Republic Day, theme '150 Years of Vande Mataram', 30 tableaux, chief guests Costa and von der Leyen, top tableaux Maharashtra, J&K, Kerala; Ministry of Culture best ministry tableau; CPWD special prize); app notes 6:107 sub 2
+
+=== December 2025 – Days and Anniversaries
+# World AIDS Day – 1 December
+- **2025 theme**: "**Overcoming disruption, transforming the AIDS response**".
+- **HIV identified 1983** by **Françoise Barré-Sinoussi and Luc Montagnier** (Institut Pasteur); attacks **CD4+ T-cells**; AIDS = advanced stage of untreated HIV.
+- India prevalence: **0.33% (2010) → 0.20% (2024)**; India supplies **70% of global ART medicines**.
+- **Advanced HIV Disease** (WHO): CD4 < 200 cells/mm³ or WHO Stage 3/4; all children under 5 with HIV are AHD.
+- Window period: antibodies in about **28 days**; infants need virological testing at birth or 6 weeks.
+- **PEP** within **72 hours** of exposure.
+- WHO PrEP options: oral TDF-based PrEP, Dapivirine vaginal ring, long-acting injectable cabotegravir, **long-acting injectable lenacapavir**.
+- WHO strategy: Global Health Sector Strategies 2022–2030; **"End AIDS by 2030"** (SDG 3.3).
+- Why incurable: retrovirus joins host DNA through **reverse transcription**; **latent reservoirs**; high mutation rate; destroys immune cells.
+# National AIDS Control Programme
+| Phase | Years | Key point |
+|---|---|---|
+| NACP I | 1992–1999 | India's first comprehensive HIV/AIDS programme |
+| NACP II | 1999–2006 | Reduce spread; build national capacity |
+| NACP III | 2007–2012 | "Halt and reverse by 2012"; created DAPCUs |
+| NACP IV | 2012–2017 (extended to 2021) | 50% cut in new infections vs 2007; HIV/AIDS Act 2017, Mission Sampark, Test and Treat |
+| NACP V | 2021–2026 | Central Sector Scheme, ₹15,471.94 crore |
+- **Mission Sampark**: bring back PLHIV lost to follow-up on ART.
+- Ombudsmen in **34 States/UTs** under the **HIV and AIDS (Prevention and Control) Act, 2017**.
+# CPI centenary – 26 December 2025
+- Origin: **Kanpur (Cawnpore) Conference, 1925** (CPI view); **CPI(M) traces origin to Tashkent, 1920**.
+| Event | Year | Point |
+|---|---|---|
+| Russian (Bolshevik) Revolution | 1917 | Led by Lenin |
+| Tashkent CPI | 1920 | Émigrés, Comintern approval; no mass base |
+| AITUC | 1920 | Presided by Lala Lajpat Rai |
+| Kanpur Bolshevik Conspiracy Case | 1923 | Dange, Muzaffar Ahmad, S.V. Ghate convicted |
+| Meerut Conspiracy Case | 1929 | Railway strike organisers |
+| CPI–CPI(M) split | 1964 | Sino-Soviet split |
+- Groups: **Bombay – S.A. Dange**; **Calcutta – Muzaffar Ahmad**; Lahore – Ghulam Hussain; Madras – Singaravelu Chettiar.
+- **1942–45**: CPI backed the **anti-Fascist war over Quit India**; movements – **Tebhaga (Bengal)**, Telangana Peasant Armed Struggle.
+# Diwali on UNESCO's ICH list (2025)
+- Diwali (Deepavali) inscribed on the Representative List of the Intangible Cultural Heritage of Humanity – **India's 16th element**; list has about 700 elements from 140 countries.
+- Inscribed at the **20th session** of the Intergovernmental Committee at the **Red Fort, New Delhi**.
+- **Next nomination: Chhath Puja (Bihar)**.
+- **2003 Convention** for the Safeguarding of ICH – **five domains**: oral traditions, performing arts, social practices/rituals/festive events, knowledge of nature, traditional craftsmanship.
+| India's ICH element | Year |
+|---|---|
+| Vedic Chanting, Ramlila, Kutiyattam | 2008 |
+| Kalbelia (Rajasthan), Chhau, Mudiyettu (Kerala) | 2010 |
+| Yoga | 2016 |
+| Kumbh Mela | 2017 |
+| Durga Puja in Kolkata | 2021 |
+| Garba of Gujarat (dance of Navaratri) | 2023 |
+| Diwali | 2025 (16th) |
+- Urgent Safeguarding List 2022: Vietnam's Chăm pottery, Chile's Santa Cruz de Cuca pottery, Albania's Xhubleta, Türkiye's Ahlat stonework.
+~~ Sources: app notes 6:107 sub 0
+
+=== India's Firsts and World Firsts
+# January 2026
+| First | Where / by |
+|---|---|
+| Slum-free city | Surat – in-situ redevelopment by Surat Municipal Corporation |
+| 3D-printed solar automatic weather stations | Delhi – IITM Pune, Mission Mausam |
+| Urban night safari | Kukrail forest, Lucknow |
+| Solar mobile ATM van | Tripura Gramin Bank – "TGB on Wheels" |
+| Sovereign AI park | Chennai – TN MoU with Sarvam AI (13 Jan 2026) |
+| Private satellite manufacturing facility | Azista Space, Sanand |
+| Government menopause clinics | Maharashtra |
+| 8th State Pay Commission | Assam |
+| Open-sea marine aquaculture | Near North Bay, Sri Vijaya Puram |
+| National AI research institution under PPP | IAIRO, GIFT City |
+| LNG–diesel dual-fuel DEMU | Ahmedabad region |
+| Robot cop in Railways – "ASC Arjun" | Visakhapatnam station |
+| Hepatitis E vaccine – Hepavax | Dr. Reddy's; DCGI approved; 18–65 years |
+| Legal rights for stingless bees (world) | Peru |
+| Oral pill for thalassemia (world) | Mitapivat ("Aquesmy") – alpha and beta thalassemia |
+| LC-Max residue upgradation unit (world's first and largest) | HPCL Visakhapatnam Refinery, 5 Jan 2026 |
+# February 2026
+| First | Detail |
+|---|---|
+| 100% insurance district | Alwar (3 Feb 2026; United India Insurance) |
+| Bee Corridors | NHAI |
+| Musical Road | Mumbai Coastal Road (Nariman Point–Worli); 'Jai Ho' at 70–80 km/h |
+| Caste-Free Village | Soundala (Nevasa, Ahilyanagar) |
+| Grain storage plan pilot | Balaghat (MP) |
+| National Cow Culture Museum | Mathura |
+| Comprehensive Urban Policy | Kerala (13 Feb 2026) |
+| Graphene Policy | Kerala – centre at Kalamassery |
+| Underwater road-cum-rail tunnel | Gohpur–Numaligarh, under the Brahmaputra |
+| Fastest metro | Meerut Metro – 120 km/h |
+| First RRTS | Namo Bharat (Delhi–Meerut) – design speed 180 km/h |
+| Hydrogen agri drone | Ankur (Haryana) |
+| Face transplant programme | AIIMS New Delhi |
+| Lysosomal disorders biobank | Ahmedabad (FRIGE) |
+| AI smart glasses | Sarvam Cage |
+| Doctor-led AI home healthcare (world) | iLive Connect |
+| Tele-robotic ultrasound in Antarctica | AIIMS at Maitri |
+| Denmark | First EU country to end mother-to-child HIV and syphilis transmission (WHO) |
+| Kashiwazaki–Kariwa | World's largest nuclear plant (Japan) restarted |
+| Heaven-1 | First fully private space station – Vast Space |
+| First 'Gold Road' | Dubai Gold Souk |
+| Longest snake | "Ibu Baron", 7.22 m, Sulawesi |
+- **Indian Railways**: over **99% of ~70,000 BG route-km electrified** by November 2025 – world's largest electrified network.
+~~ Sources: app notes 6:107 sub 9
+
+=== February 2026 – Important Days and Themes
+# February days in calendar order
+| Date | Day | Theme / note |
+|---|---|---|
+| 1 February | Indian Coast Guard 50th Raising Day | Est. 1977 with 7 vessels; now ~155 ships, 80 aircraft; target 200 vessels and 100 aircraft by 2030; Coast Guard Act 1978; DG Paramesh Sivamani; India to host 5th Coast Guard Global Summit, Chennai |
+| 2 February | World Wetlands Day | "Wetlands and traditional knowledge: Celebrating cultural heritage"; Ramsar Convention adopted 2 February 1971; day observed since 1997 |
+| 4 February | World Cancer Day | From Paris Charter Against Cancer (World Cancer Summit, 4 February 2000); UICC (1933, Geneva) |
+| 10 February | World Pulses Day | "Pulses of the World: From Modesty to Excellence"; UNGA December 2018, observed since 2019; 2016 – International Year of Pulses |
+| 13 February | World Radio Day | "Radio and Artificial Intelligence"; AIR conclave in Raipur with UNESCO; "AI is a tool, not a voice" |
+| 13 February | National Women's Day | Birth anniversary of Sarojini Naidu (b. 13 Feb 1879) – "Nightingale of India"; first Indian woman INC President (1925); first woman Governor (UP, 1947); observed since 2014 |
+| 17 February | Global Tourism Resilience Day | UN Tourism (Madrid, est. 1975) |
+| 21 February | International Mother Language Day | "Youth voices on multilingual education"; UNESCO declared 1999, observed since 2000; marks 1952 Bangladesh language movement |
+| 28 February | National Science Day | "Women in Science: Catalysing Viksit Bharat"; Raman Effect (1928); Nobel 1930; declared 1986, first observed 1987 |
+- **C.V. Raman**: born 7 November 1888, died 21 November 1970 – **first Asian Nobel laureate in science** (Physics, 1930).
+~~ Sources: app notes 6:107 sub 3
+
+=== Books, Authors and Book Fairs
+# Books in news
+| Book | Author | Released by / note |
+|---|---|---|
+| *The Sage Who Reimagined Hinduism* (on Sree Narayana Guru) | Shashi Tharoor | VP C.P. Radhakrishnan |
+| *Atal Bihari Vajpayee: The Eternal Statesman* (coffee table book) | Vijay Goel | VP C.P. Radhakrishnan, 21 February 2026; published by GSDS |
+| *Ae Mati Katha Kahe* (Odia) and *Buxi Jagabandhu: The Great Commander* | Biswabhusan Harichandan (ex-Governor of AP) | Odisha Governor Hari Babu Kambhampati |
+| *Vishwaguru Srila Prabhupada* (Gujarati) | Dr. Usha Upadhyay | CM Bhupendra Patel, 23 February 2026 |
+- **Sree Narayana Guru**: born **20 August 1856, Chempazhanthy**; "**One Caste, One Religion, One God**"; supported **Vaikom Satyagraha (1924–25)**; died **1928**.
+- **Buxi Jagabandhu**: leader of the **Paika Rebellion (1817)**; **Prabhupada** founded **ISKCON in 1966**.
+- Other works in news: UN book "**One Day in Peace**" (1 Jan 2000) – World Family Day; Gandhi's **Harijan** (1939) on Vande Mataram; **Anandamath** (1882).
+# Srimanta Sankardeva – works (Batadrava Than)
+| Work | Note |
+|---|---|
+| Kirtana-Ghosha | Magnum opus |
+| Gunamala | Condensed (short) Bhagavata, composed in one night |
+| Bhakti Pradipa | Against worship of other deities |
+| Rukmini Harana Kavya, HariScandra-Upakhyana | Early works |
+- **Translated 8 of 12 books of the Bhagavata Purana into Brajavali**; about **240 Borgeets**; first Borgeet at **Badarikashrama** (Badrinath).
+# New Delhi World Book Fair 2026
+- **53rd edition**, **10–18 January 2026**, **Bharat Mandapam**; theme "**Indian Military History: Valour and Wisdom @75**"; **Guest of Honour country – Qatar**; **Focus country – Spain**; **entry free for the first time**.
+~~ Sources: Rocket CA 2026 Part 01 p.168 (Atal Bihari Vajpayee: The Eternal Statesman – Vijay Goel; Vishwaguru Srila Prabhupada – Dr. Usha Upadhyay); app notes 6:107 sub 5
+
+=== Summits and Conferences
+# January 2026
+| Event | Date & venue | Key facts |
+|---|---|---|
+| National Textiles Ministers' Conference | 8–9 Jan, Guwahati | "India's Textiles: Weaving Growth, Heritage & Innovation" |
+| Bharat Lighthouse Festival 3.0 | 9–10 Jan, MGM Park, Visakhapatnam | Inaugurated by M. Venkaiah Naidu |
+| 16th ADMM-Plus EWG on Counter-Terrorism | From 14 Jan, New Delhi | India and Malaysia co-chairs |
+| 28th CSPOC | 15 Jan, New Delhi | PM inaugurated; Om Birla chaired; 61 Speakers from 42 Commonwealth countries + 4 semi-autonomous parliaments; est. 1969 |
+| 86th AIPOC | 19–21 Jan, Lucknow | Om Birla; UP Speaker Satish Mahana |
+| Second Global Buddhist Summit | 24–25 Jan, Bharat Mandapam | IBC (2011) + Ministry of Culture; "Collective Wisdom, United Voice, and Mutual Coexistence" |
+| Wings India 2026 | 28–31 Jan, Begumpet Airport, Hyderabad | Asia's largest civil aviation event; biennial; began 2008 as "India Aviation" |
+| 16th IRENA Assembly | Abu Dhabi | IRENA est. 26 Jan 2009, Bonn; HQ Masdar City; India founding member |
+| 6th ASEAN–India Digital Ministers' Meeting | Virtual | "Adaptive ASEAN: From Connectivity to Connected Intelligence" |
+| BIMSTEC Cancer Care Phase II | Homi Bhabha Cancer Hospital, Visakhapatnam | 35 specialists; BIMSTEC est. 6 June 1997, 7 members |
+# February–March 2026
+| Event | Venue / dates | Theme / fact |
+|---|---|---|
+| World Government Summit | Madinat Jumeirah, Dubai, 3–5 Feb | "Shaping Future Governments"; since 2013 |
+| Plastindia 2026 (12th) | Bharat Mandapam, 5–10 Feb | "Bharat Next"; first Zero-Waste Exhibition |
+| 6th National Crop Nutrition Summit | NSE, Mumbai, 5–6 Feb | "Converge, Collaborate and Co-create" |
+| World Seafood Congress | Chennai Trade Centre, 9–11 Feb | India host for the first time; "Sustainable Solutions for Inclusive Growth" |
+| 39th African Union Summit | Addis Ababa, 14–15 Feb | Water and sanitation for Agenda 2063; AU Chair Évariste Ndayishimiye |
+| 3rd International AYUSH Conference | Dubai, 15–17 Feb | "Evidence-Based AYUSH Interventions in Mind-Body Health" |
+| BioAsia 2026 (23rd) | Hyderabad, 17–18 Feb | "TechBio Unleashed: AI, Automation and Biology Revolution"; Telangana $3 trillion by 2047 |
+| India–AI Impact Summit | 19–20 Feb, New Delhi | First international AI summit in the Global South; announced at AI Action Summit, France |
+| Him-CONNECT at WSDS | New Delhi, 25–27 Feb | NMHS (2015) |
+| ANVESH 2026 | NIFTEM-Kundli, 26–28 Feb | Healthy foods |
+| 64th UN Commission for Social Development | ECOSOC | Monitors Copenhagen (1995) declaration |
+| Human Capability Initiative (3rd) | Riyadh, 3–4 May 2026 | "The Human Code"; Country of Honour UK |
+| Bharat Electricity Summit | 19–22 March, Yashobhoomi | "Electrifying Growth. Empowering Sustainability. Connecting Globally." |
+- Seafood: India 2nd largest aquaculture producer; exports 2023–24 – 1.78 million t, $7.38 billion.
+- **BRICS 2026**: India's **4th chairship** (2012, 2016, 2021); theme "Building for Resilience, Innovation, Cooperation and Sustainability"; partner countries incl. **Vietnam**, Belarus, Bolivia, Kazakhstan, Cuba, Malaysia, Nigeria, Thailand, Uganda, Uzbekistan; NDB est. 2014, Shanghai (President Dilma Rousseff).
+~~ Sources: app notes 6:107 sub 8
+
+=== New Days, International Years, Weeks and Anniversaries
+# UN International Years 2026
+| International Year 2026 | Lead / resolution |
+|---|---|
+| International Year of Rangelands and Pastoralists | FAO; A/RES/76/253 |
+| International Year of the Woman Farmer | FAO; A/RES/78/279 |
+| International Year of Volunteers for Sustainable Development | A/RES/78/127 |
+- Earlier: **2016 – International Year of Pulses**.
+# Weeks and months
+| Week / month | Dates | Note |
+|---|---|---|
+| 37th National Road Safety Week | 11–17 January | "Sadak Suraksha, Jeevan Raksha"; 4E model |
+| Road Safety Month | 1–31 January | – |
+| Bharat Parv | Till 31 January | Ministry of Tourism, Red Fort |
+# Anniversaries and centenaries
+- **Vande Mataram – 150 years** (first published 7 November 1875).
+- **CPI – 100 years** (26 December 2025).
+- **Ol Chiki centenary**: **16 February 2026**, New Delhi – coin and stamp; script by **Pandit Raghunath Murmu** (1925, "Guru Gomke") for **Santali**; 30 characters; Santali in 8th Schedule **2003**.
+- **Somnath – 1,000 years** since the first attack (**1026**): PM's article.
+- **Startup India – 10 years** (National Startup Day); **Guru Tegh Bahadur – 350th martyrdom year**.
+- **Indian Coast Guard – 50th Raising Day**.
+- **Kerala Kumbhamela** (Maha Magha Mahotsavam) – **after 271 years** (last **1755**) at **Tirunavaya** on the **Nila (Bharathapuzha)** river; ghats restored 2016.
+- **National Road Safety Week / Month:** organised by the **Ministry of Road Transport and Highways (MoRTH)**; **National Road Safety Month 1–31 January 2026**, with the 37th Road Safety Week on 11–17 January.
+~~ Sources: app notes 6:107 sub 4
+
+=== Telangana and AP News
+- **Municipal elections 2026**: polling 11 Feb, counting 13 Feb; 123 ULBs; Congress 1,537, BRS 781, BJP 336, AIMIM 70, **Independents 183** wards; SEC **I. Rani Kumudini (Article 243K)**.
+- 15th FC instalment ₹259.36 crore to panchayats (5 Feb 2026); ration cards 1,04,35,848 (23 Jan 2026).
+- **Cyber Sarathi** – first AI voice agent for cybercrime complaints (1930); **TGCSB Operation Crackdown** – freezing **mule accounts**; Operation Smile – 5,582 children rescued.
+- **GI Tag on Wheels** – first such initiative: TSRTC buses with **six GI crafts** (**Pochampally Ikat**, Warangal Tivachee, Karimnagar Silver Filigree, Narayanpet sarees, Nirmal painting, **Cheriyal painting**).
+- **WhatsApp Mee Seva** – **581 services; 4.5 lakh** users.
+- Farmer registry: **Telangana topped – 110% of target**.
+- T-Hub with Hauts-de-France (Lille); 'Rahaveer' award (MV Act Sec 134A); Mallari – first female Oggu Kathakaarini.
+- **AP angle**: Visakhapatnam – Bharat Lighthouse Festival 3.0, BIMSTEC cancer care, ASC Arjun robot cop, HPCL LC-Max unit; Biswabhusan Harichandan (ex-AP Governor) books.
+~~ Sources: app notes 6:107 sub 10
+
+=== Quick Revision and Traps
+| Item | Correct Fact |
+|---|---|
+| Republic Day 2026 | 77th |
+| Padma Awards 2026 | 131 (5 / 13 / 113) |
+| National Voters' Day 2026 | 16th |
+| Swami Vivekananda anniversary 2026 | 163rd |
+| Netaji anniversary 2026 | 129th |
+| National Siddha Day 2026 | 9th |
+| Road Safety Week 2026 | 37th |
+| Diwali in ICH list | India's 16th element |
+| India's WHS (Jan 2026) | 44 |
+| Vande Mataram duration | 3 min 10 s, six stanzas |
+| Constitution making | 2 years, 11 months, 18 days; 11 sessions; 165 days |
+| Kerala Kumbhamela gap | 271 years |
+| Konark sanctum reopened after | 122 years |
+| World Book Fair 2026 | 53rd |
+# FIRST / LAST / SPECIAL FACTS
+- **First** EU military contingent and first animal contingent at Republic Day.
+- **First Asian Nobel in science**: C.V. Raman (1930).
+- **First** woman INC President (Indian) and first woman Governor: Sarojini Naidu.
+- **First** time free entry at the New Delhi World Book Fair; India first time host of World Seafood Congress.
+- **Last** Kerala Kumbhamela before 2026: 1755.
+- **24 Jan** = Girl Child Day + Day of Education; **25 Jan** = Voters' Day; **26 Jan** = Republic Day.
+- **Vande Mataram** was written in **Sanskrit**; first published **1875**; National Song **24 January 1950**.
+- **Article 51A(a)** and the 1971 Act cover **Flag and Anthem**, not the National Song.
+- With the anthem, **Vande Mataram is played first**; standing in cinema halls is **not** mandatory.
+- Constitution **adopted 26 Nov 1949**, **in force 26 Jan 1950**.
+- **CPI** counts **Kanpur 1925**; **CPI(M)** traces origin to **Tashkent 1920**.
+- **Batadrava Than** inaugurated by **Amit Shah**, not Himanta Biswa Sarma.
+- **Bandhgala** is indigenous (Jodhpur, from the Achkan), not colonial.
+- **Diwali** = India's **16th** ICH element (2025); **Garba** 2023; next nomination **Chhath Puja**.
+- **NACP III (2007–12)** = "halt and reverse"; **End AIDS by 2030** = WHO/SDG goal.
+~~ Sources: app notes 6:107 subs 11, 13
