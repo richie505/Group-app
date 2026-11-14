@@ -48,7 +48,7 @@
 ~~ Sources: PMF Human & Economic Geography Part 3 p.15, p.18, p.24; app notes 5:57 sub 4
 
 === Production and Coal Companies
-- **2024-25: 1,047.52 MT** – first year above **1 billion tonnes**; 2025-26 target 1,157 MT.
+- **2024-25: about 1,047.5 MT** (1,047.52 MT, Ministry of Coal) – first year above **1 billion tonnes**; 2025-26 target 1,157 MT.
 - Coal meets about **55%** of commercial energy needs and about 70% of power generation.
 - **Coal India Ltd** (1975, HQ **Kolkata**, not Ranchi): **Maharatna**, world's **largest coal producer**; **7** subsidiaries; **CMPDI** = planning arm.
 - **SCCL:** **51% Telangana, 49% Government of India** (AP Reorganisation Act 2014) – not a CIL subsidiary.
