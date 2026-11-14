@@ -967,3 +967,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b6-w029 rewrite (rows 29-31): own 392 → 145 (37%), 0 lost. Check: Nauru renamed 'Republic of Naoero' Aug 2026 (31:5:5.0).
 - b1-w069 rewrite (rows 69-77): own 383 → 156 (41%).
 - b2-w027 rewrite (rows 27-30): own 379 → 133 (35%), 0 lost.
+- b1-w078 rewrite (rows 78-84): own 391 → 163 (42%), 0 lost. Notes 78 4:10.11 Vijayaditya VII vs Rajendra Chalukya 1070 (direction?).
