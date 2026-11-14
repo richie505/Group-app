@@ -649,3 +649,10 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Sep–Oct 2026 AP items only in old Carpediem notes (Burripalem 3D houses, Omnibus Act, Swarna Gramam, AP One, Swachh Andhra Awards, SNA-SPARSH).
 - Own MCQ ca72e70293de93 "SERP HQ Gollapudi" distractor weak (Gollapudi is in Vijayawada).
 - Rocket CA 2026 has almost no AP state news.
+
+## b5-r115 (Health rows 115-118)
+- ye379e0bf14a 2022 intranasal vaccine company: Shantha → Sapigen Biologix (TDB 2022; web results only). y5e895f1b3f8 IMR: "both" → "A alone" (B says per 100).
+- Disputes: "What is COVID-19"; UPSC 2023 curative care (b vs a); calcium content yc172862bc8b raw cow milk.
+- Outdated: IMR 2013-16 (now 25), AP IMR NFHS-4 (now 24), IFA dose (now 60 mg/180 days), DG Border Roads (current holder unconfirmed: Harpal Singh vs Raghu Srinivasan).
+- Unverified: y32639475589 Chandranna Bima, y5c63df012bc AP PHC villages, yc291752f13b II and IV.
+- 13 items to row 1 and 2 to row 106 need a place job.
