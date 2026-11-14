@@ -1123,3 +1123,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b3-w063 (rows 63–67)
 - own 392 → 55 kept + 93 new (148, 38%); new 60 statements / 19 match / 13 A–R / 1 sequence; 6 of 247 lines lost. No wrong notes/keys.
+
+## rewrite b4-w042 (rows 42–45)
+- own 403 → 64 kept + 110 new (174, 43%); new 66 statements / 23 match / 20 A–R / 1 sequence; no lines lost.
+- n2266414ff90 ("most cyclone-prone State": AP and Odisha both options, both supported) removed.
+- PYQ linked 45:3:2.3 keyed "Zone III" for majority of India's area; notes 45:3:2 say Zone II largest (~41%) — under BIS 2016 map Zone II ≈ 41%, Zone III ≈ 30%; check id + Disputed/Outdated chip.
