@@ -61,6 +61,7 @@
 - **India has the largest livestock population in the world** (not China, Brazil or USA).
 - **20th Livestock Census (2019)**: **535.78 million** (+4.6%); cattle 192.49 million; buffalo 109.85 million.
 - **21st Livestock Census**: Oct 2024 – Feb 2025; **16 species**, **219** indigenous breeds.
+- **Output ranks:** eggs – India **2nd** (149.11 billion, 106 per head; **AP** top with 18.37%, then **Tamil Nadu**); meat – India **4th** (10.50 MT; **West Bengal** leads, 12.46%).
 | Scheme | Year | Aim |
 |---|---|---|
 | **Rashtriya Gokul Mission** | 2014 | **Conserve and develop indigenous bovine breeds** (not high-yield exotic breeds, not slaughter ban) |
@@ -84,11 +85,11 @@
 ~~ Sources: NextGen Indian Economy - APPSC 21 p.1-2 (Operation Flood, Anand pattern; its "launched in 1966" is a slip for 1970); PMF Human & Economic Geography 06 p.31 (Gujarat pioneer of cooperative dairy); app notes 3:60 sub 4-5; general knowledge (milk density, HTST, Denmark yield)
 
 === Fisheries – Blue Revolution, Production and PMMSY
-- **Blue Revolution = fish production** (pisciculture); NFDB (2006, Hyderabad) promotes it.
-- **China is the largest fish producer** (capture and aquaculture); **India 2nd** (about 8-9% of world); India **leads the world in inland capture** (2.2 MT, SOFIA 2026).
+- **Blue Revolution = fish production** (pisciculture); **NFDB** (autonomous, 2006, **HQ Hyderabad**) promotes it and handles **training and capacity building under PMMSY** (not MPEDA).
+- **China is the largest fish producer** (capture and aquaculture); (**36%** of world output in 2022, SOFIA 2024); **India 2nd** (about 8-9% of world); India **leads the world in inland capture** (2.2 MT, SOFIA 2026).
 - Output: 95.79 lakh t (2013-14) → **197.75 lakh t (2024-25)**; fisheries = about 7.43% of agri GVA.
 - **Inland fisheries** = raising and capturing fish in **fresh water**; inland = **about 77%** of output (15.16 MT of 19.78 MT, 2024-25), and most of it is **inland aquaculture (culture fisheries)** – capture is only about 2.2 MT. So the most important fish industry today is **culture inland**, not natural inland or deep-sea.
-- **PMMSY**: 2020, **₹20,050 crore**, FY 2020-21 to 2024-25, extended to 2025-26; Central Sector 100%; Centrally Sponsored 60:40, 90:10 NE/Himalayan, 100% UTs.
+- **PMMSY**: 2020, **₹20,050 crore**, FY 2020-21 to 2024-25, extended to 2025-26; Central Sector 100% (training, quarantine, harbour modernisation, data systems); Centrally Sponsored 60:40, 90:10 NE/Himalayan, 100% UTs.
 - **PM-MKSSY**: **Central Sector** sub-scheme under PMMSY (formalisation, micro-enterprises).
 - **FIDF**: fishing harbours and landing centres; credit guarantee up to ₹12.5 crore; KCC limit for fisheries raised to ₹5 lakh.
 - **MPEDA**: Act of Parliament **1972**; **HQ Kochi** (not Kolkata); **Ministry of Commerce and Industry**; seafood exports ₹62,408 crore (2024-25).
