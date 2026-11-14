@@ -1397,3 +1397,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - n1f8ba478a54 (PM-KISAN extension Aug 2026; notes 31 July 2026) replaced with fix. ffe2a77f818af (5 options) removed.
 - Notes conflicts: Challapalli temple land 6,000 vs 600 acres (218:5:0.1); Poona Pact seats 147/148 (standard 148); Comrades Association 1939/1940 — reconcile.
 - Removed as not in notes: n6061c3c1c7d (Muddiman Committee), nap-history-40-6 (Osmania).
+
+## rewrite b4-w085 (rows 85–90)
+- own 423 → 73 kept + 94 new (167, 39%); new 55 statements / 27 match / 12 A–R; 2 of 270 lines lost.
+- Nagoya: cotton textile (88:2:2) vs automobiles (85:2:0.1) — both true (Nagoya = textiles + automobiles); Jamnagar–woollen (88:6:0.0) is a standard pairing. Add cross-note.
+- Row 87: unlinked own MCQs removed (Dalli Rajhara, Bailadila, VISL 1989, IISCO 1976) — possible notes gaps.
