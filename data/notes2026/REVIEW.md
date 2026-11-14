@@ -853,3 +853,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Disputes: Blind WC 2018; Wisden 2019 Stokes vs Kohli; Sania Brisbane partner.
 - 9 outdated (stadium, Rio order, AO, WTA doubles, Ranji 42, National Games 2022, Deodhar, hockey coach, Khel Ratna name).
 - 257 general-knowledge keys (2016–2023 sports GK) — spot-check candidate. Own MCQ gacbfab252b2f stem false premise (Mittal gold) — reword.
+
+## b6-r099 (CA rows 99-102 sports)
+- No key changes. Dispute yc9f12b441db first to 2,000 women's T20I runs: official Suzie Bates (strictly Charlotte Edwards).
+- Outdated: latest Olympics ×2 (Paris 2024); Bhutia captain; Delhi Daredevils → Capitals.
+- y6e6c2dbbbf5 APRA petition (Vundavalli Arun Kumar) moved to b3 r133. Unverified y730f218ac55 Tilak Varma record.
