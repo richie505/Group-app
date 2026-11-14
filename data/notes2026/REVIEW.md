@@ -838,3 +838,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Dispute y0b77718aea8 World Humanitarian Day 2025 theme (UN campaign #ActForHumanity).
 - Outdated yb90773f7a18 Governors Mar 2025 (Goa Ashok Gajapathi Raju; Bihar Syed Ata Hasnain).
 - y1ad89e6c449 PSB Day explanation fixed (Delhi, not Bombay). General knowledge: Ramen Deka, Space Week 2020/21 themes.
+
+## b6-r106 (CA rows 106-107 days, books)
+- No PYQ key changes. Own MCQ gf0981b48264f coastline add_option 11,098.81 km (outdated).
+- Own MCQ ca7cab4c694bab explanation still says 7,516 km; fc259e1a9937a Vande Mataram "Sanskrit" (Sanskritised Bengali?) unverified. Naravane "The Curious and the Classified" unconfirmed.

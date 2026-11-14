@@ -1,0 +1,395 @@
+=== Cricket – World Cups, Records and Domestic Trophies
+# World Cups and ICC events
+| Event | Winner / host | Fact |
+|---|---|---|
+| 1983 World Cup (60 overs) | **India** (captain **Kapil Dev**) | India's first World Cup |
+| 1987 World Cup | India–Pakistan hosts | Called the **Reliance Cup** |
+| 2007 World Cup | **Australia** | Beat Sri Lanka in the final |
+| ICC Champions Trophy 2017 | **Pakistan** | Beat India at The Oval |
+| Women's World Cup 2017 | England | Beat India by **9 runs** at Lord's |
+| U-19 World Cup 2020 | **Bangladesh** | Beat India in the final (South Africa) |
+| Women's T20 World Cup 2020 | Held in **Australia** | Australia won |
+| Blind T20 World Cup 2017 | **India** | Beat Pakistan at Bengaluru |
+| Blind (ODI) World Cup 2018 | **India** | Beat Pakistan in the final (Dubai) |
+- **Only team to win the 60-over, 50-over and 20-over World Cups:** **India** (1983, 2011; T20 2007 and 2024).
+- **Cricket and the Asian Games:** dropped after 2014, re-included by the OCA for **Hangzhou 2022**.
+- **ICC Full Members (22 June 2017):** **Ireland** and Afghanistan.
+# Batting, bowling and keeping records
+| Player | Record |
+|---|---|
+| **Sachin Tendulkar** | Most Test centuries (51); inducted into the **ICC Hall of Fame (2019)** |
+| **Virat Kohli** | Double hundreds in **four consecutive Test series**; 29th Test hundred (July 2023) equalled **Don Bradman (29)** |
+| **Karun Nair** | Only Indian besides Sehwag with a Test **triple century** (303*, 2016) |
+| **Kuldeep Yadav** | First Indian **spinner** with an ODI hat-trick (2017); first Indian with **two** international hat-tricks |
+| **Rohit Sharma** | First Indian to hit **400 international sixes** (2019) |
+| **M.S. Dhoni** | First keeper to **100 ODI stumpings**; Man of the Series, Australia v India ODIs, Jan 2019 |
+| **Mithali Raj** | First woman to **6,000 ODI runs** (2017) |
+| **Deepti Sharma** | First Indian to bowl **3 maidens in a T20I** (Sept 2019) |
+| **Jasprit Bumrah** | 29 runs off one over (July 2022) beat **Brian Lara's** Test-over record (28); top international wicket-taker of 2018 (**78**) |
+| **Stuart Broad** | 2nd fast bowler to **600 Test wickets** (July 2023) after James Anderson |
+| **Aleem (Alim) Dar** | Most international matches umpired |
+| **Subhash Gupte** | Leg spinner; died in Trinidad, 2002 |
+- **Other cricketers in PYQs:** **Vijay Hazare** (Indian Test captain), **Joe Root** (England), **Amitabh Vijayvargiya** (Madhya Pradesh cricketer).
+- **R. Rithika Sri (Tamil Nadu):** India's first **transgender cricket umpire**.
+- **Shreyanka Patil:** first Indian in the Women's CPL – **Guyana Amazon Warriors** (2023).
+# Domestic cricket and BCCI
+| Trophy | Fact |
+|---|---|
+| **Ranji Trophy** | **Mumbai** – 41 titles by 2015-16, **42** after 2023-24; **Madhya Pradesh** won 2021-22 (first title) |
+| **Irani Trophy** | Ranji champions v Rest of India |
+| **Duleep Trophy** 2022 | **West Zone** |
+| **Deodhar Trophy** | **Tamil Nadu** won 2016-17; South Zone won the 2023 edition |
+| IPL 2022 | **Gujarat Titans** champions; Rajasthan Royals runners-up; **Jos Buttler** Orange Cap, Chahal Purple Cap |
+- **Delhi Daredevils** renamed **Delhi Capitals** (Dec 2018).
+- **BCCI pay parity** (27 Oct 2022, equal match fee for women): President **Roger Binny** (secretary Jay Shah).
+- **Committee of Administrators (SC, Jan 2017):** Vinod Rai, Ramachandra Guha, Vikram Limaye and **Diana Edulji** – the only cricketer.
+- **First cricket club in India:** **Calcutta Cricket Club** (1792).
+- **World's biggest cricket stadium:** **Narendra Modi Stadium, Ahmedabad** (since 2020); before it the **Melbourne Cricket Ground**.
+~~ Sources: app notes 6:103; Praveen CA-360 Mar 2026 magazine (Ranji); general knowledge for older records (see keys.jsonl)
+
+=== Tennis – Grand Slams, Records and Team Cups
+# Grand Slam winners asked
+| Event | Winner | Beat / note |
+|---|---|---|
+| First Wimbledon | **1877** | All England Club |
+| Wimbledon 2014 men | **Novak Djokovic (Serbia)** | – |
+| Wimbledon 2016 women | **Serena Williams** | **Angelique Kerber** |
+| Australian Open 2017 women | **Serena Williams** | Venus Williams |
+| French Open 2017 mixed | **Gabriela Dabrowski & Rohan Bopanna** | Bopanna's first Slam |
+| US Open 2017 men | **Rafael Nadal** | Kevin Anderson |
+| French Open 2018 men | **Rafael Nadal** (11th) | Dominic Thiem |
+| Wimbledon 2018 men | **Novak Djokovic** | Kevin Anderson |
+| Australian Open 2022 men | **Rafael Nadal** – **21st** Slam | (Djokovic won 2021) |
+| French Open 2023 men | **Novak Djokovic** (23rd) | Casper Ruud |
+| Australian Open 2026 | **Carlos Alcaraz**; women **Elena Rybakina** | Djokovic; Sabalenka |
+# Records and players
+- **Most Grand Slam singles (women):** **Margaret Court – 24**; Serena Williams 23 (most in the Open era, most Slam match wins).
+- **Youngest Wimbledon champions:** **Lottie Dod** (1887, 15) and **Martina Hingis** (1997); Sharapova 2004 third youngest.
+- **Maria Sharapova** retired in **Feb 2020**; **Arantxa Sánchez Vicario** played **five Olympics**.
+- **Roger Federer:** Swiss coin minted in his honour (2019).
+- **Sania Mirza:** WTA doubles **No. 1** (2015-16); Brisbane doubles **2016 with Hingis**, **2017 with Bethanie Mattek-Sands**; retired 2023.
+- **Daniil Medvedev:** Miami Open 2023 – 4th title of the year, **19th** overall.
+- **Qatar Open (Doha) 2016 and 2017:** **Djokovic**.
+# Team cups
+- **Davis Cup 2019:** **Spain** (Rafael Nadal); **Fed Cup 2019:** **France** (beat Australia).
+~~ Sources: Praveen CA-360 Feb 2026 magazine p.92 (Australian Open 2026); general knowledge for older results (see keys.jsonl)
+
+=== Football – World Cups, Clubs and Awards
+# FIFA World Cups
+| Edition | Host / fact |
+|---|---|
+| 2010 | South Africa; opening match **South Africa v Mexico** |
+| 2014 | **Brazil** |
+| 2017 Confederations Cup | **Germany** (beat Chile) |
+| 2017 U-17 World Cup | **India**; India's first match v **USA**; outreach **'Mission XI Million'** |
+| 2018 | Russia; mascot **Zabivaka** (wolf); Croatian President **Kolinda Grabar-Kitarović** at the final |
+| 2022 | **Qatar** – first in the Arab world (Argentina won) |
+| 2022 U-17 Women's | India; **Spain** beat first-time finalists Colombia |
+| 2026 | Canada, Mexico, USA – first with 48 teams, first with three hosts |
+- **2018 FIFA men's ranking (year-end No. 1):** **Belgium**.
+- **UEFA Women's Euro 2022:** **England** beat Germany – first major women's title.
+- **AFC Women's Asian Cup 2022:** hosted by **India**.
+- **SAFF Women's Championship 2016 (Siliguri):** **India**.
+# FIFA awards
+| Award | Winner |
+|---|---|
+| Best Men's Player 2016 | **Cristiano Ronaldo** |
+| Best Men's Coach 2016 | **Claudio Ranieri** (Leicester City) |
+| Best Women's Player 2016 | **Carli Lloyd** (USA) |
+| Fair Play Award 2016 | **Atlético Nacional** (Colombia) |
+| Best Men's Player 2019 | **Lionel Messi** |
+# Clubs and Indian football
+- **Mohun Bagan:** founded **1889**; most **Federation Cup** titles; first Indian club on **NASDAQ billboards**, Times Square (29 July 2020); Mohun Bagan Super Giant won the **132nd Durand Cup (2023)**.
+- **132nd Durand Cup** (3 Aug–3 Sep 2023): **Kolkata, Guwahati, Kokrajhar** – Shillong was announced but dropped. **Durand Cup 2022:** Bengaluru FC. **Santosh Trophy 2022:** Kerala.
+- **Gurpreet Singh Sandhu:** first Indian in the **UEFA Europa League** (2016).
+- **AIFF Grassroots Day:** **23 June** (P.K. Banerjee's birthday).
+- **La Liga 2017-18:** **FC Barcelona**. **Not a football club:** Monte Carlo (Arsenal, Aston Villa, Chelsea are).
+~~ Sources: Rocket CA 2026 Part 01 p.9 (World Cup 2026 – 48 teams, three hosts); khelnow.com / Wikipedia 2023 Durand Cup (via web search); app notes 6:103 sub 6; general knowledge for older results
+
+=== Badminton – Titles and Indian Players
+| Event | Winner | Fact |
+|---|---|---|
+| Syed Modi International 2016 men | **Kidambi Srikanth** | Lucknow |
+| Syed Modi International 2017 women | **P.V. Sindhu** | – |
+| Syed Modi International 2018 women | Han Yue | **Saina Nehwal – silver** (lost final 21-18, 21-8) |
+| India Open 2017 | **P.V. Sindhu** | Beat **Carolina Marin** |
+| Malaysia Masters 2017 | **Saina Nehwal** | – |
+| Australian Open 2017 | **Kidambi Srikanth** | Beat **Chen Long** |
+| Indonesia Open 2017 | **Kidambi Srikanth** | Beat Kazumasa Sakai |
+| World Championships 2017 women | **Nozomi Okuhara** | Beat Sindhu |
+| 81st Nationals (Patna) women | **Rituparna Das** | – |
+| 82nd Nationals 2017 (Nagpur) | **H.S. Prannoy** (men), **Saina Nehwal** (women) | Beat Srikanth / Sindhu |
+| Asian Games 2018 women | **Tai Tzu-ying** | Sindhu silver |
+| Canada Open 2023 | **Lakshya Sen** | Beat Li Shifeng |
+| World Championships 2023 | **H.S. Prannoy – bronze** | Copenhagen |
+| Thomas Cup 2022 | **India** – first title | Held in **Bangkok** (beat Indonesia 3-0) |
+| Uber Cup 2016 | **China** | – |
+- **Thomas Cup** = men's world team badminton; **triples** = a new badminton format.
+- **Saina Nehwal** – first Indian woman with an Olympic badminton medal (bronze, London 2012).
+- **P.V. Sindhu** – record endorsement with **Li-Ning** (2019).
+- **Pullela Gopichand** – National champion **five times in a row** (1996–2000).
+- **Prakash Padukone** – first **BAI Lifetime Achievement Award** (2018).
+- **Saurabh Verma** – badminton player.
+~~ Sources: thequint.com / outlookindia.com (Syed Modi 2018 final, via web search); general knowledge for other results
+
+=== Hockey, Kabaddi and Kho-Kho
+# Hockey
+- **Most Olympic hockey golds:** **India – 8**.
+- **Women's World Cup 2014:** **Netherlands**; **Men's World Cup 2023:** **India** (Bhubaneswar, Rourkela) – **Pool B:** Belgium, **Germany**, Korea, Japan.
+- **Hero Asia Cup 2017 (men):** **India**; **inaugural Hockey 5s Asia Cup 2023 (Salalah, Oman):** **India**.
+- **Men's coach:** **Sjoerd Marijne** appointed 2017; now **Craig Fulton** (since 2023, still coach in Nov 2026).
+- **Rani Rampal** – first hockey player to be **World Games Athlete of the Year (2019)**; **Lalremsiami** (FIH Rising Star 2019) – **Mizoram**; **Sunita Lakra** retired 2020; **Naomi van As** – FIH female player of 2016.
+- **Rangaswami Cup** – hockey.
+# Kabaddi
+- **Kabaddi World Cup 2016 (Ahmedabad):** **India** beat **Iran**.
+- **64th Senior National Kabaddi (Nov 2016):** **Services**.
+- **PKL Season 9 (2022) MVP:** **Arjun Deshwal** (Jaipur Pink Panthers).
+- **PKL Season 12 (final 31 Oct 2025, Thyagaraj Stadium, New Delhi):** **Dabang Delhi K.C.** beat **Puneri Paltan 31–28** – 2nd title (first in **Season 8**); **third team** with multiple PKL titles.
+# Kho-Kho World Cup 2025 (1st edition)
+| Item | Fact |
+|---|---|
+| Venue, dates | Indira Gandhi Indoor Stadium, **New Delhi**, 13–19 January 2025 |
+| Teams | **23 countries** (20 men's, 19 women's teams) |
+| Men's final | India beat Nepal **54–36** |
+| Women's final | India beat Nepal **78–40**; India unbeaten, inaugural champions |
+| Nepal women | First Nepali team to play a World Cup final in any sport |
+> Statement trap (UPSC 2025): scores swapped between men and women → only "held in Delhi" is correct.
+~~ Sources: app notes 6:103 sub 5-6 (Kabaddi WC 2016, PKL 12, Kho Kho WC); deccanherald.com / theprint.in (Fulton, via web search); general knowledge for older results
+
+=== Olympics and Paralympics
+# Hosts and history
+- **First modern Olympics:** **Athens, 1896**; **Europe** has hosted the most Games (not North America).
+- **India's first Olympics:** **1900** (Paris; Norman Pritchard).
+- **Hosts:** Tokyo 2020, Paris 2024, **Los Angeles 2028**; India bids for **2036**.
+- **Rio 2016 medals (total):** **USA 121, China 70, Great Britain 67, Russia 56**.
+# Indian firsts and medallists
+| Athlete | Fact |
+|---|---|
+| **Karnam Malleswari** (Srikakulam, AP) | First Indian woman Olympic medallist – weightlifting bronze, **Sydney 2000** |
+| **Saina Nehwal** | First Indian woman Olympic badminton medal (2012) |
+| **Yogeshwar Dutt** | London 2012 bronze upgraded to silver after **Besik Kudukhov** failed a dope test |
+| **Deepa Karmakar** | **Produnova vault**, Rio 2016 (4th) |
+| **Manu Bhaker** | Golds in the **10 m air pistol** |
+| **Divyansh Singh Panwar** | Shooting – **10 m air rifle** Tokyo quota |
+- **Simone Biles (USA):** gymnastics; **four golds at Rio 2016**, most by an American woman gymnast at one Games.
+- **Val Barker Cup:** best **boxer** of the Olympic boxing tournament.
+# Paralympics and para sport
+- **Rio 2016:** **Devendra Jhajharia** javelin F46 gold with a **world record**; India **43rd**.
+- **Commonwealth Games 2022:** **Sudhir** – heavyweight para powerlifting gold.
+- **World Para Athletics Championships 2025:** **New Delhi** (India's first hosting); **Brazil** topped (15 gold); India's best-ever **22 medals** (6-9-7), **10th** – previous best **17 (Kobe 2024)**; **Sumit Antil** – F64 javelin, **Sandip Singh Sargar** – F44 javelin.
+- **Special Olympics World Summer Games 2015:** Los Angeles, **USA**.
+- **2036 bid support:** **Ahmedabad** (Commonwealth Games 2030), **New Delhi** (BWF World Championships 2026).
+~~ Sources: app notes 6:103 sub 6 (World Para Athletics 2025, 2036 bid); general knowledge for Olympic history (see keys.jsonl)
+
+=== Asian, Commonwealth and Other Multi-sport Games
+# Asian Games
+| Edition | Fact |
+|---|---|
+| 1st, **1951** | **New Delhi** (India hosted again in **1982**) |
+| 2018 Jakarta-Palembang | India **69 medals** – 15 gold, 24 silver, 30 bronze; **Vinesh Phogat** wrestling gold |
+| 2023 Hangzhou | **13-member boxing team** led by Nikhat Zareen and Lovlina Borgohain |
+| 2026 (20th) Aichi-Nagoya, Japan | India 4th, **85 medals** (21-27-37); mascot Honohon |
+- **Kamaljeet Sandhu** – first Indian woman Asian Games gold in the **400 m** (1970).
+- **9th Asian Winter Games 2025:** **Harbin** (not Beijing); slogan **'Dream of Winter, Love among Asia'**; mascots **Binbin and Nini**; emblem **'Breakthrough'** unveiled **11 Jan 2024**.
+- **3rd Asian Youth Games 2025:** **Manama, Bahrain** – **45 nations, 26 sports**; **Veer Bhadu** – India's first **MMA** medal (bronze).
+# Commonwealth Games
+- **First:** **1930, Hamilton (Canada)** (British Empire Games).
+- **2022 Birmingham:** **shooting dropped**; India **4th** with **61 medals**; **Saurav Ghosal** – first CWG singles squash medal; men's **table tennis** team retained gold; closing flag-bearers **Nikhat Zareen** and Sharath Kamal.
+- **2030:** **Ahmedabad**.
+# Other Games
+- **South Asian Games 2019:** **Nepal**; **31st SEA Games 2022 (Hanoi):** **11** countries.
+- **1st South Asian Winter Games (2011):** **Dehradun and Auli**.
+- **1st World Yogasana Championship:** **Ahmedabad** (India topped).
+- **Commonwealth weightlifting championships 2017 (Gold Coast):** India **37** medals (printed key).
+~~ Sources: Rocket CA 2026 Part 02 p.29-30 (Asian Games 2026); oca.asia / chinadaily.com.cn (Harbin 2025 symbols, via web search); app notes 6:103 sub 3, 6; general knowledge for older Games
+
+=== Khelo India and National Games
+# Khelo India Games – hosts and toppers
+| Games | Host | Topper |
+|---|---|---|
+| KIYG 2019 | Pune | **Maharashtra** |
+| 3rd KIYG 2020 | **Assam** (Guwahati) | **Maharashtra** |
+| 4th KIYG 2021 | **Haryana** (Panchkula) | – |
+| KIYG 2025 | **Bihar** (five cities, 4–15 May 2025; mascot **Gajasimha**) | **Maharashtra** (158 medals, 58 gold) |
+| 1st KIUG 2020 | Bhubaneswar | **Panjab University** |
+| 5th KIUG 2025 | **Rajasthan** | **Chandigarh University** (67 medals, 42 gold; first to win two in a row) – LPU 2nd |
+| 3rd KIWG 2023 | **Gulmarg** (opened **10 Feb 2023**) | – |
+| 6th KIWG 2026 | **Leh** (ice) + **Gulmarg** (snow) | **Army**; Himachal 2nd; Haryana topped the Leh leg |
+| 1st Khelo India Para Games (10–17 Dec 2023) | **New Delhi** | **Haryana** |
+| 1st Khelo India Tribal Games (2026) | **Chhattisgarh** | **Karnataka** (23 gold) |
+- **3rd KIWG 2023** was opened by Union Sports Minister **Anurag Thakur** with LG Manoj Sinha – **not** by the PM.
+- **5th KIUG:** beach volleyball, canoeing-kayaking and cycling added; **Srihari Nataraj** (swimming) – 9 gold, 2 silver.
+# Khelo India scheme
+- Components include State/national **Khelo India centres**, **school fitness**, support to **sports academies** and **annual** competitions – **no 'monthly' competition**.
+- **Outlay 2021-22 to 2025-26:** **₹3,790.50 crore** (first approved at ₹3,165.50 crore).
+- **Rajiv Gandhi Khel Abhiyan** (merged into Khelo India) – **cricket** not among its disciplines.
+- **1st Janjatiya Khel Mahotsav (KIIT, June 2023):** men's kabaddi **Odisha**, women's kabaddi **Karnataka**, women's football **Chhattisgarh**.
+# National Games
+| Edition | Host | Fact |
+|---|---|---|
+| 36th (2022) | **Gujarat** | Mascot **Savaj** (lion) |
+| 38th (2025) | **Uttarakhand** (28 Jan–14 Feb) | **Services** topped (68 gold, 121 medals) |
+| 39th | **Meghalaya** | Allotted for **2022**, now **Feb–Mar 2027** |
+~~ Sources: app notes 6:103 sub 4; static.pib.gov.in doc 2026-02 (Khelo India outlay, via web search); nenow.in / ianslive.in (Meghalaya 39th Games, via web search); general knowledge for older Games
+
+=== Athletics, Marathon and Race Walking
+| Athlete | Event / feat |
+|---|---|
+| **Milkha Singh** | **'The Flying Sikh'** – named by Ayub Khan after beating **Abdul Khaliq at Lahore (1960)**; first beat Khaliq at the **1958 Tokyo Asian Games** |
+| **Neeraj Chopra** | **Javelin**; first Indian **World Championships gold** (Budapest 2023); first Indian **Diamond League** winner (Zurich 2022, **88.44 m**, beat **Jakub Vadlejch**) |
+| **Hima Das** | **'Dhing Express'**; 400 m gold, World U-20 Championships, Tampere (Finland) 2018 |
+| **Parul Chaudhary** | First Indian woman under **9 minutes** in the **3000 m** (2022) |
+| **Tajinder Pal Singh Toor** | Shot put Asian record **21.77 m** (June 2023) |
+| **Sunil Kumar** | Decathlon gold, Asian U20 2023 – **7003 points** |
+| **Selva Prabhu Thirumaran** | Triple jump gold, Venizelia-Chania 2023 (Greece) |
+| **Avinash Sable** | **Steeplechase** |
+| **Khushbir Kaur**, **Gurmeet Singh** | Race walking (Gurmeet – Asian 20 km race walk gold) |
+| **Jyothi Yarraji** (Visakhapatnam) | **100 m hurdles** – 2025 Asian champion |
+| **Man Singh** | Asian Marathon Championship 2023 gold – **2nd Indian man** |
+| **Sawan Barwal** | Marathon national record **2:11:58 (Rotterdam)**, broke **Shivnath Singh's 1978** mark |
+| **Kelvin Kiptum** | **Kenya**; London Marathon 2023 |
+| **Sifan Hassan** | 10,000 m world record **29:06.82** (2021) |
+| **Oscar Pistorius** | **'Blade Runner'** (South Africa) |
+- **Marathon:** **42.195 km = 26 miles 385 yards**.
+- **Bula Chaudhury:** first woman to swim across the **seven seas**.
+~~ Sources: app notes 6:103 sub 2; general knowledge for athletes' records (see keys.jsonl)
+
+=== Chess – Titles, Venues and Indian Players
+# World title cycle 2024-26
+| Event | Venue | Winner / players |
+|---|---|---|
+| World Championship 2024 | **Singapore** | **D. Gukesh** beat **Ding Liren** |
+| Tata Steel Masters 2025 | Wijk aan Zee | **R. Praggnanandhaa** |
+| FIDE World Cup 2025 | **Goa, India** (first in India since **Hyderabad 2002**) | **Javokhir Sindarov** (Uzbekistan) |
+| FIDE World Rapid 2025 | Doha | **Carlsen** (6th Rapid title); **Koneru Humpy** and **Arjun Erigaisi** bronze |
+| Tata Steel Masters 2026 | – | **Nodirbek Abdusattorov** (first title) |
+| Candidates 2026 (Open) | **Pegeia, Cyprus** | Javokhir Sindarov |
+| World Championship 2026 | **Geneva** | Gukesh v Sindarov – both **20**, youngest title match |
+| Chess Olympiad 2026 | **Samarkand** | – |
+- **Reigning World Rapid champion (June 2026):** **Volodar Murzin**.
+- **Arjun Erigaisi** – only the **2nd Indian man** on the World Rapid podium after Anand.
+# Indian and world players
+- **Koneru Humpy (AP):** two-time **Women's World Rapid** champion (2019, 2024); not a squash player.
+- **Divya Deshmukh:** Women's World Cup 2025 – beat **Humpy** in an all-Indian final; India's **4th woman GM** (88th GM).
+- **R. Vaishali:** first Indian woman to win the Candidates.
+- **Harika Dronavalli:** **three** Women's World Championship bronzes (2012, 2015, 2017 Tehran); **Tan Zhongyi** won the 2017 title.
+- **D. Gukesh** won the **34th Cannes Open (France)** at 13; **Bharath Subramaniyam** – chess GM.
+- **Champions:** **Bobby Fischer** beat **Boris Spassky** (1972); **Magnus Carlsen** (**Norway**, 2013–2023) beat Anand at **Chennai, 2013**.
+- **Terms:** **castling**, **en passant** – chess.
+~~ Sources: app notes 6:103 sub 0 (title cycle, venues, players); general knowledge (Tata Steel 2025, Harika, Cannes)
+
+=== Shooting, Boxing, Wrestling and Other Sports
+# Shooting
+- **ISSF World Cup, New Delhi (Feb 2017):** **Jitu Rai and Heena Sidhu** – 10 m air pistol **mixed team gold**; **Ankur Mittal** – **double trap silver** (Australia's James Willett gold).
+- **Saurabh Chaudhary** – pistol shooter; **Abhinav Bindra** – first Indian to receive the **ISSF Blue Cross**.
+# Boxing
+| Boxer | Feat |
+|---|---|
+| **Jaismine Lamboria**, **Minakshi Hooda** | Gold, **World Boxing Championships 2025** |
+| **Nikhat Zareen** | World champion; CWG 2022 flag-bearer |
+| **Chandrika Pujari** | Gold, World Boxing **Futures Cup 2026, Bangkok** |
+| **Mary Kom** | Gold, Asian Women's Championships 2017 (**Ho Chi Minh City**) |
+| **Neeraj** (51 kg) | Gold, 6th Nations Cup, Serbia (2017) |
+- **IBA Women's World Boxing Championships 2025:** **Niš, Serbia**.
+# Wrestling and weightlifting
+- **Antim Panghal:** U-20 world champion (Aug 2022); UWW **Rising Star 2023** (53 kg).
+- **Mohit Kumar:** U-20 world champion, 61 kg freestyle (Aug 2023).
+- **Asian Wrestling Championships 2020:** **New Delhi**.
+- **The Great Khali** = **Dalip Singh Rana** (WWE).
+# Other sports and adventure
+| Person | Sport / feat |
+|---|---|
+| **Bhavani Devi** | **Fencer** – India's first Asian Championship medal (bronze, Wuxi, June 2023) |
+| **Manika Batra** | **Table tennis** – first Indian woman medal at the Asian Cup 2022 |
+| **Pankaj Advani** | World **Billiards** title, Dec 2016 |
+| **Mark Selby** | World **Snooker** Championship 2017 |
+| **Aishwarya Pissay** | **Motorsports** |
+| **Muskan Kirar** | **Archery**; **2019 Asian Archery Championships – Bangkok** |
+| **Abhilash Tomy** | Navy sailor rescued in the **Golden Globe Race** (2018) |
+| **Anshu Jamsenpa** | Woman who scaled **Everest five times** |
+| **Mandela Vineela** | 9-year-old who scaled **Kilimanjaro** (Jan 2017) |
+| **Wasifa Nazreen** | First Bangladeshi on **K2** (2022) |
+| **Brad Gobright** | US climber who died rappelling in Mexico (Nov 2019) |
+| **B. Sai Deepak** | Guinness record – **59 side lunges** in 60 seconds (Jan 2020) |
+- **India's first night street racing circuit:** **Chennai** (Aug 2023).
+- **Tour de France 2023:** **Jonas Vingegaard** (second in a row); **Max Verstappen** – record **10th straight** F1 win (Italian GP 2023); **Iga Swiatek** – fourth WTA title of 2023.
+~~ Sources: asianage.com / zeenews.india.com (ISSF New Delhi 2017, via web search); business-standard.com (Sai Deepak, via web search); app notes 6:103 sub 1; general knowledge for the rest
+
+=== Sports Awards – National and International
+# National sports awards (year started)
+| Award | Started | Note |
+|---|---|---|
+| **Arjuna Award** | **1961** | – |
+| **Dronacharya Award** | **1985** | Coaches |
+| **Khel Ratna** | **1991-92** | India's **highest sporting honour**; renamed **Major Dhyan Chand Khel Ratna** (Aug 2021) |
+| **Dhyan Chand Award** | **2002** | Lifetime achievement |
+> Order of start: Arjuna → Dronacharya → Khel Ratna → Dhyan Chand (III, IV, I, II).
+# International awards
+| Award | Winner |
+|---|---|
+| Laureus Sportsman 2016 | **Novak Djokovic** |
+| Laureus 2023 | Action – **Eileen Gu**; Breakthrough – **Carlos Alcaraz**; Disability – **Catherine Debrunner**; Comeback – **Christian Eriksen** |
+| Laureus Sportsman 2026 | Carlos Alcaraz |
+| ICC 2016 – Sobers Trophy + Test Cricketer | **R. Ashwin** |
+| ICC 2018 – Sobers + Test + ODI (first to win all three) | **Virat Kohli** |
+| Wisden Leading Cricketer (for 2019) | **Ben Stokes** (Kohli for 2016-18) |
+~~ Sources: Praveen CA-360 Mar 2026 magazine p.12 (Khel Ratna highest honour); Rocket CA 2026 Part 02 p.32 (Laureus 2026); general knowledge for older awards
+
+=== Sports Terms, Team Sizes, Trophies and Traditional Games
+# Terms
+| Term | Sport |
+|---|---|
+| **Mashie**, caddie | **Golf** |
+| **Raider** | **Kabaddi** |
+| **Home run** | **Baseball** |
+| **Libero** | **Volleyball** |
+| **Free throw**, **flagrant foul**, slam dunk | **Basketball** |
+| **Butterfly stroke** | **Swimming** |
+| **Velodrome** | **Cycling** |
+| Uppercut / penalty corner / bicycle kick | Boxing / hockey / football |
+# Team sizes and duration
+| Game | Players on field per team |
+|---|---|
+| Kho-kho | **9** |
+| Kabaddi | **7** (40 minutes – shortest of kabaddi, hockey, football, cricket) |
+| Netball, water polo | **7** |
+| Volleyball | **6** |
+| Basketball | **5** |
+# Trophies and cups
+| Trophy | Sport |
+|---|---|
+| **Ryder Cup**, **Prince of Wales Cup** | **Golf** |
+| **Ezra Cup** | **Polo** |
+| **Wellington Trophy** | **Rowing** |
+| **Rangaswami Cup** | Hockey |
+| **Thomas Cup**, Uber Cup | Badminton |
+| **Irani Trophy**, Vijay Hazare Trophy | Cricket |
+# Traditional and national games
+- **Jallikattu** – bull-taming, **Tamil Nadu**; **Kambala** – **buffalo race**, coastal Karnataka.
+- **Polo** originated in **Manipur**; world's highest polo ground – **Shandur (Pakistan)**.
+- **Mallakhamb** – state game of **Madhya Pradesh**; **baseball** – national game of the USA.
+- **Tiger Woods** – golf.
+~~ Sources: app notes 6:103 sub 2 (raider, home run, castling, caddie, slam dunk, Mashie); general knowledge for other terms
+
+=== Stadiums, Institutes and Sports Infrastructure
+# Stadiums and institutes
+| Place | Facility |
+|---|---|
+| **Gwalior** | **LNIPE**; **Captain Roop Singh Stadium** (cricket); **Atal Bihari Vajpayee Centre for Disability Sports** (2023) – India's first high-tech centre for Divyangjan |
+| **Bhopal** | **Aishbagh Stadium** (hockey) |
+| **Kanpur** | **Green Park Stadium** |
+| **Patiala** | **Netaji Subhas National Institute of Sports** |
+| **Imphal, Manipur** | **National Sports University** (2018 ordinance) |
+# Para-sports centres
+- **SAI NCoE Gandhinagar** – **Nodal Centre for Para Sports** (facilities opened 24 May 2026); six sports: para athletics, badminton, table tennis, powerlifting, swimming, fencing (**not archery**).
+- Gujarat's **₹316 crore Para High Performance Centre** – **Gandhinagar** (Sept 2026).
+# Andhra Pradesh angle
+| Place | Facility / event |
+|---|---|
+| **Rajamahendravaram** | International Dragon Boat League 2026 on the Godavari (from 30 May) |
+| **Vijayawada** | IGMC Stadium – ₹280 crore phased renovation |
+| **Visakhapatnam** | 27-acre **Komadi** integrated sports complex |
+| **Kakinada, Kadapa, Pulivendula** | AP's only hockey turfs |
+| **ANU, Guntur** | SAAP excellence centre that trained Jyothi Yarraji – closed |
+- AP sportspersons: **Koneru Humpy** (chess), **Jyothi Yarraji** (hurdles), **Karnam Malleswari** (weightlifting).
+~~ Sources: app notes 6:103 sub 7; general knowledge for older stadiums and institutes
