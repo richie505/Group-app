@@ -842,3 +842,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r106 (CA rows 106-107 days, books)
 - No PYQ key changes. Own MCQ gf0981b48264f coastline add_option 11,098.81 km (outdated).
 - Own MCQ ca7cab4c694bab explanation still says 7,516 km; fc259e1a9937a Vande Mataram "Sanskrit" (Sanskritised Bengali?) unverified. Naravane "The Curious and the Classified" unconfirmed.
+
+## b6-r110 (CA rows 110-114 persons in news)
+- yefea69feee6 Solomon Islands -1 → Jeremiah Manele (stem says "Chief Minister"), outdated (Matthew Wale PM since 15 May 2026).
+- Outdated y25714f2b568 Air Chief (now ACM Ashutosh Dixit from 31 Oct 2026, Rocket p.40 — confirms b5-r100 item).
+- Own MCQ caa80f08cf9a80 Mongolia PM stem wrong (Uchral Nyam-Osor; Khurelsukh is President) — reword. ca0fb7632554b0 Preeti Saran CESCR 4-year term.
