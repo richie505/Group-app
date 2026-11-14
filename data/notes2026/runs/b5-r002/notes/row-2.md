@@ -1,3 +1,18 @@
+=== Science Days, Themes and Scientific Social Responsibility
+# National Science Day – 28 February
+- Marks C.V. Raman's discovery of the **Raman Effect** (28 Feb 1928); declared in 1986.
+| Year | Theme |
+|---|---|
+| 2021 | Future of STI: Impact on Education, Skills and Work |
+| **2022** | **Integrated Approach in S&T for Sustainable Future** (not "Women in Science") |
+| **2023** | **Global Science for Global Wellbeing** |
+| 2026 | **Women in Science: Catalysing Viksit Bharat** |
+- **⚠ Trap:** NSD 2022 was held on **28 Feb 2022** but its theme was **not** "Women in Science" → only statement A true (TSPSC AEE 2023). "Radiation and Radioisotopes in Healthcare" is a distractor.
+# National Technology Day – 11 May
+- Marks **Pokhran-II** (11 May 1998); declared 1999.
+- **Scientific Social Responsibility (SSR) Guidelines 2022:** released by **DST, Ministry of Science and Technology**, on National Technology Day, **11 May 2022** (with the SRIMAN guidelines); scientists' voluntary engagement with society through anchor institutions.
+~~ Sources: Praveen CA360 Feb 2026 one-liners item 201; Praveen CA360 Feb 2026 magazine p.13; DST SSR Guidelines 2022 (dst.gov.in, search result); app notes 5:2 (sub 6)
+
 === India's S&T Policies – 1958 to STIP 2020
 # The five policies
 | Policy | Year | PM | Core thrust |
@@ -27,6 +42,32 @@
 - **ONOS** approved Nov 2024, about **Rs 6,000 crore** (not Rs 60,000 crore).
 ~~ Sources: NextGen S&T Group 2 Part 1 p.3-6; PMF S&T Part 1 p.42-43; app notes 5:2 (sub 1)
 
+=== Innovation and Research Concepts
+- **Adopters of an innovation (Rogers' diffusion of innovations):** **Innovators → Early Adopters → Early Majority → Late Majority → Laggards** (APPSC G2).
+- **Validity of a study:** it measures what it claims to measure; **external validity** = the results can be **generalised** beyond the sample (APPSC G2 answer: "results can be generalised").
+- **Decade of Innovation: 2010-2020**; vehicle = **National Innovation Council** under **Sam Pitroda**; inclusive innovation.
+~~ Sources: general knowledge, not checked (Rogers, validity); app notes 5:2 (sub 4)
+
+=== DST Schemes – Women and Young Talent
+| Scheme | Purpose / target |
+|---|---|
+| **Vigyan Jyoti** | Meritorious **girls of Classes 9-12** into STEM – addresses **women's under-representation** (APPSC Lecturers 2023) |
+| WISE-KIRAN | Women in S&T R&D; **Women Scientists Scheme** for career-break women |
+| GATI | **Gender Advancement for Transforming Institutions** |
+| INSPIRE | **Innovation in Science Pursuit for Inspired Research** – school awards to PhD fellowships and faculty posts |
+| SATHI | **Sophisticated Analytical and Technical Help Institutes** – shared high-end analytical instruments (2020) |
+| SAIF | Regional sophisticated instrument facilities |
+| FIST | Upgrades S&T infrastructure in universities |
+| PURSE | **Promotion of University Research and Scientific Excellence** – grants based on publications |
+~~ Sources: PMF S&T Part 1 p.40 (DST, INSPIRE); app notes 5:2 (sub 5)
+
+=== Andhra Pradesh – S&T Administration
+- **APCOST** = AP Council of Science and Technology, under AP's **Environment, Forests, Science and Technology (EFS&T) Department**.
+- **State symbols (2018):** notified by the **EFS&T Department**, four years after bifurcation – not General Administration.
+- **State Councils of S&T** (such as APCOST): frame state S&T policy, give research grants and popularise science.
+- **Jul 2026:** DST-STI Hub at **SPMVV, Tirupati** – sericulture, agriculture, livelihoods for SC/ST women (3 years).
+~~ Sources: app notes 5:2 (sub 7)
+
 === GERD Targets and Advisory Bodies
 | Policy | GERD target |
 |---|---|
@@ -47,44 +88,3 @@
 - **NITI Aayog:** nodal for the GII rank; publishes the **India Innovation Index**; hosts AIM.
 - **DRDO** (1958) was formed by merging the **TDE, DTDP and the Defence Science Organisation**.
 ~~ Sources: PMF S&T Part 1 p.40-41; PMF Lens Aug 2026 (pmf-lens-2026-08-02) p.88; app notes 5:2 (sub 2, 3)
-
-=== DST Schemes – Women and Young Talent
-| Scheme | Purpose / target |
-|---|---|
-| **Vigyan Jyoti** | Meritorious **girls of Classes 9-12** into STEM – addresses **women's under-representation** (APPSC Lecturers 2023) |
-| WISE-KIRAN | Women in S&T R&D; **Women Scientists Scheme** for career-break women |
-| GATI | **Gender Advancement for Transforming Institutions** |
-| INSPIRE | **Innovation in Science Pursuit for Inspired Research** – school awards to PhD fellowships and faculty posts |
-| SATHI | **Sophisticated Analytical and Technical Help Institutes** – shared high-end analytical instruments (2020) |
-| SAIF | Regional sophisticated instrument facilities |
-| FIST | Upgrades S&T infrastructure in universities |
-| PURSE | **Promotion of University Research and Scientific Excellence** – grants based on publications |
-~~ Sources: PMF S&T Part 1 p.40 (DST, INSPIRE); app notes 5:2 (sub 5)
-
-=== Science Days, Themes and Scientific Social Responsibility
-# National Science Day – 28 February
-- Marks C.V. Raman's discovery of the **Raman Effect** (28 Feb 1928); declared in 1986.
-| Year | Theme |
-|---|---|
-| 2021 | Future of STI: Impact on Education, Skills and Work |
-| **2022** | **Integrated Approach in S&T for Sustainable Future** (not "Women in Science") |
-| **2023** | **Global Science for Global Wellbeing** |
-| 2026 | **Women in Science: Catalysing Viksit Bharat** |
-- **⚠ Trap:** NSD 2022 was held on **28 Feb 2022** but its theme was **not** "Women in Science" → only statement A true (TSPSC AEE 2023). "Radiation and Radioisotopes in Healthcare" is a distractor.
-# National Technology Day – 11 May
-- Marks **Pokhran-II** (11 May 1998); declared 1999.
-- **Scientific Social Responsibility (SSR) Guidelines 2022:** released by **DST, Ministry of Science and Technology**, on National Technology Day, **11 May 2022** (with the SRIMAN guidelines); scientists' voluntary engagement with society through anchor institutions.
-~~ Sources: Praveen CA360 Feb 2026 one-liners item 201; Praveen CA360 Feb 2026 magazine p.13; DST SSR Guidelines 2022 (dst.gov.in, search result); app notes 5:2 (sub 6)
-
-=== Innovation and Research Concepts
-- **Adopters of an innovation (Rogers' diffusion of innovations):** **Innovators → Early Adopters → Early Majority → Late Majority → Laggards** (APPSC G2).
-- **Validity of a study:** it measures what it claims to measure; **external validity** = the results can be **generalised** beyond the sample (APPSC G2 answer: "results can be generalised").
-- **Decade of Innovation: 2010-2020**; vehicle = **National Innovation Council** under **Sam Pitroda**; inclusive innovation.
-~~ Sources: general knowledge, not checked (Rogers, validity); app notes 5:2 (sub 4)
-
-=== Andhra Pradesh – S&T Administration
-- **APCOST** = AP Council of Science and Technology, under AP's **Environment, Forests, Science and Technology (EFS&T) Department**.
-- **State symbols (2018):** notified by the **EFS&T Department**, four years after bifurcation – not General Administration.
-- **State Councils of S&T** (such as APCOST): frame state S&T policy, give research grants and popularise science.
-- **Jul 2026:** DST-STI Hub at **SPMVV, Tirupati** – sericulture, agriculture, livelihoods for SC/ST women (3 years).
-~~ Sources: app notes 5:2 (sub 7)

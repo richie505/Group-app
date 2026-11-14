@@ -43,6 +43,19 @@
 - **Resident vs non-resident filings:** in **January-March 2022**, Indian applicants filed **10,706** applications against **9,090** by foreign applicants – first time in 11 years.
 ~~ Sources: PMF S&T Part 8 (pmf-science-tech-08) p.69-74 (patents, copyright, what cannot be patented); NextGen Indian Economy Part 1 p.40 (IPAB set-up); IPAB abolition 2021: general knowledge, not checked; app notes 5:3 (sub 5)
 
+=== Researchers, Publications and Research Institutions
+| Indicator | India |
+|---|---|
+| Researchers | **262 FTE per million** |
+| Scientific publications | **3rd** globally (nanoscience also 3rd, after China, USA) |
+| Patent filing | **6th** (WIPO 2023) |
+| PhDs awarded (2021-22) | **32,588** (most in Science 7,408, then Engineering 6,270) |
+| PhD enrolment (2021-22) | 2.12 lakh (+81.2% from 1.17 lakh in 2014-15) |
+- **SCImago Institutions Ranking 2017:** **CSIR 9th** among 1,207 government (public research) institutions of the world; 75th overall (12th in 2016).
+- **ISSN** = **International Standard Serial Number** – an **8-digit** code for serial publications (journals, magazines); books carry the ISBN.
+- **AP:** **IISER Tirupati** 20th among Indian institutions in Nature Index 2026; **IIITDM Kurnool** = Institute of National Importance.
+~~ Sources: AffairsCloud, "CSIR ranked 9th Public Research Institution of the World" (2 Sept 2017); general knowledge, not checked (ISSN); app notes 5:3 (sub 2)
+
 === GERD and Who Spends on R&D
 | Country | GERD (% of GDP) |
 |---|---|
@@ -57,19 +70,6 @@
 - **Agency shares of central R&D (2020-21):** **DOS 18.4%**, ICAR 12.4%, DAE 11.4%, CSIR 8.2%, DST 6.8%; **DRDO** long the largest (31.6% in 2017-18).
 - **Why private R&D lags:** risk aversion, weak lab-industry links, **shortage of deep-tech capital**.
 ~~ Sources: PMF Lens Aug 2026 (pmf-lens-2026-08-02) p.88; PMF S&T Part 1 p.43-44; app notes 5:3 (sub 0, 1)
-
-=== Researchers, Publications and Research Institutions
-| Indicator | India |
-|---|---|
-| Researchers | **262 FTE per million** |
-| Scientific publications | **3rd** globally (nanoscience also 3rd, after China, USA) |
-| Patent filing | **6th** (WIPO 2023) |
-| PhDs awarded (2021-22) | **32,588** (most in Science 7,408, then Engineering 6,270) |
-| PhD enrolment (2021-22) | 2.12 lakh (+81.2% from 1.17 lakh in 2014-15) |
-- **SCImago Institutions Ranking 2017:** **CSIR 9th** among 1,207 government (public research) institutions of the world; 75th overall (12th in 2016).
-- **ISSN** = **International Standard Serial Number** – an **8-digit** code for serial publications (journals, magazines); books carry the ISBN.
-- **AP:** **IISER Tirupati** 20th among Indian institutions in Nature Index 2026; **IIITDM Kurnool** = Institute of National Importance.
-~~ Sources: AffairsCloud, "CSIR ranked 9th Public Research Institution of the World" (2 Sept 2017); general knowledge, not checked (ISSN); app notes 5:3 (sub 2)
 
 === Start-ups and R&D Funding Reforms
 - **Startup India – 16 January 2016:** Fund of Funds Rs 10,000 crore, **3-year tax exemption**, exit in **90 days** (not 30), self-certification.

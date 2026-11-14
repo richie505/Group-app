@@ -61,6 +61,14 @@
 - **Institutes of National Importance by Act of Parliament:** **Dakshina Bharat Hindi Prachar Sabha (Chennai)**, **NIPER (Mohali)**, **SCTIMST (Thiruvananthapuram)**; **LNIPE Gwalior is a deemed university**, not an INI by Act (UPSC 2004).
 ~~ Sources: app notes 5:4 (sub 5, 8); other locations: general knowledge, not checked
 
+=== Polar and Earth-Science Research
+- **Antarctica:** **Dakshin Gangotri** (1983-84, first station, now a supply base) → **Maitri** (1989, second) → **Bharati** (2012, **third**).
+- **Arctic:** India's first expedition **Aug 2007** led by **Dr. Rasik Ravindra** (NCAOR, Goa); station **Himadri** (2008), **Ny-Alesund, Svalbard**.
+- **INCOIS, Hyderabad** (1999, MoES) houses the **Indian Tsunami Early Warning Centre** (2007).
+- **NCESS** (National Centre for Earth Science Studies): **Thiruvananthapuram**; began as Kerala's Centre for Earth Science Studies (**1978**); under **MoES** since **2014**.
+- **Soil piping study:** **Kerala**, through CESS with **NDMA** funding.
+~~ Sources: app notes 5:4 (sub 8); Antarctic station years: general knowledge, not checked
+
 === Departments and Councils – CSIR, DST, DBT, DSIR, SERB
 | Body | Year | Status / fact |
 |---|---|---|
@@ -102,11 +110,3 @@
 - **ANRF Act 2023** repealed the SERB Act; SERB subsumed into **ANRF**; its schemes continue.
 - 2026: CSIR, DAE, DoS, ICMR, ICAR allowed to bypass GeM for scientific equipment.
 ~~ Sources: PMF S&T Part 1 (pmf-science-tech-01) p.40-41; app notes 5:4 (sub 0, 1, 4, 5, 6, 7)
-
-=== Polar and Earth-Science Research
-- **Antarctica:** **Dakshin Gangotri** (1983-84, first station, now a supply base) → **Maitri** (1989, second) → **Bharati** (2012, **third**).
-- **Arctic:** India's first expedition **Aug 2007** led by **Dr. Rasik Ravindra** (NCAOR, Goa); station **Himadri** (2008), **Ny-Alesund, Svalbard**.
-- **INCOIS, Hyderabad** (1999, MoES) houses the **Indian Tsunami Early Warning Centre** (2007).
-- **NCESS** (National Centre for Earth Science Studies): **Thiruvananthapuram**; began as Kerala's Centre for Earth Science Studies (**1978**); under **MoES** since **2014**.
-- **Soil piping study:** **Kerala**, through CESS with **NDMA** funding.
-~~ Sources: app notes 5:4 (sub 8); Antarctic station years: general knowledge, not checked

@@ -1,0 +1,230 @@
+=== NEW NOTES row 12
+## SUB 0 | Memory and Storage – Units, Primary and Secondary Memory
+[0:0] # Units in order
+[0:1] - **Bit** (binary digit) = the **smallest unit** of data/information; **nibble = 4 bits**; **byte = 8 bits** (APPSC 2025; asked 6 times).
+[0:2] - **Order:** bit < nibble < byte < **KB** < MB < GB < TB < PB < EB < ZB < YB.
+[0:3] TABLE head: Unit | Equals
+  [0:3.0] 1 byte | 8 bits
+  [0:3.1] 1 KB | 1024 bytes = 8192 bits
+  [0:3.2] 1 MB | 1024 KB (about a million characters)
+  [0:3.3] 1 GB | 1024 MB (about one billion characters)
+  [0:3.4] 1 TB | 1024 GB
+[0:4] - **Smallest time unit** among those asked: **picosecond** (10⁻¹²) < nanosecond (10⁻⁹) < microsecond (10⁻⁶) < second (APPSC G1 2004).
+[0:5] # Primary memory
+[0:6] TABLE head: Memory | Nature
+  [0:6.0] RAM (Random Access Memory) | Primary, volatile, temporary working store – lost when power goes off; not like hard-disc storage; SRAM = cache (faster), DRAM = main memory; RAM sticks use DDR (Double Data Rate)
+  [0:6.1] ROM (Read-Only Memory) | Non-volatile, permanent memory built into the computer; holds firmware/BIOS (Basic Input-Output System); PROM, EPROM, EEPROM
+  [0:6.2] Cache | Small, extremely fast memory between CPU and main memory; a portion the processor reaches faster than regular RAM; shortest access time; speeds up processing; made of SRAM
+  [0:6.3] Registers | Fastest memory, embedded on the CPU chip (electronic memory)
+  [0:6.4] Memory | Erased by
+  [0:6.5] EPROM | Ultraviolet light
+  [0:6.6] EEPROM | Electrically
+[0:7] - **Speed order:** registers > cache > RAM > SSD > HDD > optical disc > magnetic tape.
+[0:8] - **Static RAM is faster than dynamic RAM**; **primary storage is faster than secondary** (a statement saying the reverse is wrong).
+[0:9] - **Memory types:** **semiconductor** (primary), **magnetic** and **optical** (secondary) – "server" is not a memory type.
+[0:10] - **Virtual memory:** its size (virtual address space) depends on the CPU's **address lines** (32 lines → 2³² bytes).
+[0:11] - **ROM is a memory, not a computer language.** **DIMM = Dual In-line Memory Module** (RAM stick; older SIMM; laptops SO-DIMM).
+[0:12] # Secondary storage
+[0:13] TABLE head: Storage | Fact
+  [0:13.0] HDD | Magnetic disk, non-volatile; first commercial hard disk drive by IBM (RAMAC 350, 1956); SATA hard disk = magnetic, not capacitive memory
+  [0:13.1] SSD | Flash memory, no moving parts, faster
+  [0:13.2] Magnetic tape | Sequential access, slowest; backup and archival
+  [0:13.3] Flash drive / pen drive | EEPROM-based flash; keeps data without power; low power; costlier, not cheaper, than mechanical disk drives
+  [0:13.4] CD-ROM (Compact Disc Read Only Memory) | about 700 MB
+  [0:13.5] DVD (Digital Versatile Disc) | 4.7 GB single layer; 8.5 GB dual layer
+  [0:13.6] Blu-ray | 25 GB single layer; 50 GB dual layer – stores more than a DVD
+[0:14] - **Capacity order (decreasing):** Blu-ray > **DVD > CD-ROM > floppy disk**.
+[0:15] - **RAM is NOT secondary memory**; SSD, hard disk, optical disk, flash drive, floppy and USB pen drive are.
+[0:16] > Statement angle: "RAM is non-volatile" ✗; "primary is slower than secondary" ✗; "SRAM faster than DRAM" ✓; "Von Neumann = stored-program digital computer" ✓ → answer C and D.
+[0:17] ~~ Sources: app notes 5:12 sub 5 (old-notes.txt); PMF S&T 05 (src/science-tech/pmf-science-tech-05.txt) p.27-28 (hardware, storage); unit values and memory hierarchy: general knowledge, not checked
+## SUB 1 | CPU and Hardware Components
+[1:0] # CPU – the brain
+[1:1] - **CPU = Central Processing Unit** (NOT "Control Processing Unit") – the **brain**, the **controlling unit** and the **most important part** of the computer; most processing happens here (asked 9 times).
+[1:2] - **CPU is hardware**, not software – a statement "the CPU is the software that carries out instructions" is false.
+[1:3] - **Processor parts:** **Control Unit + ALU** (with registers); main memory and storage are **not** parts of the processor.
+[1:4] TABLE head: Component | Function
+  [1:4.0] ALU (Arithmetic Logic Unit) | Arithmetic and logical operations – performs calculations and makes decisions
+  [1:4.1] CU (Control Unit) | Fetches and decodes program instructions, makes control signals, directs the other units
+  [1:4.2] Registers | Fastest storage inside the CPU (address, data, instruction registers)
+  [1:4.3] PSU | Only supplies power
+[1:5] - **Main components of a computer:** input unit, output unit, processing unit, memory unit, secondary storage – **"basic unit" is not a component**.
+[1:6] - **After a double-click** of the mouse, information goes to the **CPU**.
+[1:7] # Buses, chips and processors
+[1:8] - **Buses:** the wire pathways that **connect the different parts** of a computer (data, address and control buses).
+[1:9] - **IC chips are made of silicon** (a semiconductor) – not silica (SiO₂), gold, chromium or iron oxide.
+[1:10] - **Celeron, Pentium, Core** = series of Intel **processors**; **Intel Core i9** = high-end processor with **8 to 24 cores**.
+[1:11] - **Clock speed** of a processor is measured in **hertz – gigahertz (GHz)**.
+[1:12] - **IBM = International Business Machine(s)**.
+[1:13] - **Modem = modulator-demodulator**: converts digital data into analog signals and back – "all of the above".
+[1:14] - **UPS = Uninterrupted Power Supply** (keeps the computer running briefly when power fails); **SMPS = Switched Mode Power Supply** (rectified AC to low-voltage DC).
+[1:15] - **Peripheral device:** equipment added to a computer to enhance its functionality (printer, scanner, webcam).
+[1:16] ~~ Sources: app notes 5:12 sub 3 (old-notes.txt); PMF S&T 05 (src/science-tech/pmf-science-tech-05.txt) p.27-28 (hardware incl. peripheral devices, modems); CPU parts and processor series: general knowledge, not checked
+## SUB 2 | Input, Output Devices and Printers
+[2:0] # Input vs output
+[2:1] TABLE head: Input | Output
+  [2:1.0] Keyboard (most common; QWERTY layout) | Monitor (CRT, LCD, OLED)
+  [2:1.1] Mouse (standard pointing device in a GUI) | Printer
+  [2:1.2] Microphone | Speaker, earphones, headphones
+  [2:1.3] Scanner | Projector
+  [2:1.4] Joystick (lever moving in several directions) | Plotter (drum pen plotter)
+  [2:1.5] Trackball, light pen, touchpad | Visual Display Unit
+  [2:1.6] Webcam (compulsory for video conferencing) | –
+  [2:1.7] Digital camera (input, NOT output) | –
+  [2:1.8] Barcode reader, OCR, MICR (cheques), OMR (answer sheets), badge reader | –
+[2:2] - **Touch screen** = both input and output, so it is "not an output device" in exam keys.
+[2:3] - **Only input:** mouse, keyboard, scanner. **Only output:** plotter, printer, monitor.
+[2:4] - **Scanner:** light-sensitive device that turns drawings, printed data and images into digital form.
+[2:5] - **Digitizer:** converts analogue information (drawings, maps) into digital form.
+[2:6] - **Badge reader:** reads data encoded in a small plastic card.
+[2:7] - **Barcode:** machine-readable code of **vertical bars of varying widths** (APPSC 2019). **OCR = Optical Character Recognition**.
+[2:8] - **Caps Lock is a toggle key:** its function goes back and forth each time it is pressed.
+[2:9] - **Telefax (fax):** sends text and pictures over telephone lines (exam answer for "dialled on the telephone and read on a screen").
+[2:10] # Printers and displays
+[2:11] TABLE head: Impact | Non-impact
+  [2:11.0] Dot-matrix, daisy-wheel, line, drum, serial | Inkjet, laser, thermal
+[2:12] - **Laser printer:** the fastest of the common printers, the standard **non-impact** printer and the one used for **desktop printing (DTP)**; it uses a **semiconductor laser** (also in CD/DVD players). **Excimer (exciplex) laser**: ultraviolet; used to make microelectronic devices.
+[2:13] - **OLED advantages over LCD:** can be made on **flexible plastic substrates**, allow **roll-up displays in clothing** and **transparent displays** – all three (UPSC 2017).
+[2:14] ~~ Sources: app notes 5:12 sub 4 (old-notes.txt); PMF S&T 05 (src/science-tech/pmf-science-tech-05.txt) p.27 (peripherals: printers, scanners, webcams); device roles: general knowledge, not checked
+## SUB 3 | History, Generations and Inventors
+[3:0] # Generations → core technology
+[3:1] TABLE head: Generation | Basis | Example
+  [3:1.0] First (1940s-56) | Vacuum tubes | ENIAC, UNIVAC
+  [3:1.1] Second (1956-63) | Transistors | –
+  [3:1.2] Third (1964-71) | Integrated circuits | –
+  [3:1.3] Fourth | VLSI and microprocessors | Intel 4004 era
+  [3:1.4] Fifth | Artificial intelligence, ULSI, parallel processing | –
+[3:2] - **Miniaturisation** of computers came from **IC chips** (invented **1958**, replaced transistors).
+[3:3] - **ICs are classified by the number of transistors per chip:** **SSI 3–30, MSI 30–300, LSI 300–3,000**, then VLSI, ULSI.
+[3:4] # Firsts
+[3:5] TABLE head: First | Fact
+  [3:5.0] Word "computer" | From Latin computare (to calculate)
+  [3:5.1] Pascaline (1642) | First mechanical calculating machine – Blaise Pascal
+  [3:5.2] Punched cards (1890 US census) | Herman Hollerith – father of punched-card processing
+  [3:5.3] ENIAC (1946) | Electronic Numerical Integrator And Computer – first general-purpose electronic computer, Eckert and Mauchly
+  [3:5.4] BESK (1953) | Binary Electronic Sequence Calculator – Sweden's first electronic computer
+  [3:5.5] Osborne 1 (1981) | First commercial portable computer – Adam Osborne (died at Kodaikanal, 18 March 2003)
+  [3:5.6] Intel 4004 (1971) | First commercial microprocessor
+  [3:5.7] TIFRAC | India's first indigenous computer
+  [3:5.8] PARAM 8000 (1991) | India's first supercomputer
+  [3:5.9] Mobilis (2005) | Bangalore's Encore Software "anytime, anywhere" low-cost mobile computer (Encore also made the Simputer)
+[3:6] # Persons → contribution
+[3:7] TABLE head: Person | Contribution
+  [3:7.0] Charles Babbage | Father of Computers (inventor of the computer in exam keys); Analytical Engine; conceptual foundations 1833-1871
+  [3:7.1] Alan Turing | Exam answer for "invented the electronic computer" (Turing machine; wartime code-breaking computers)
+  [3:7.2] George Stibitz | Recognised as a father of the modern digital computer (relay binary calculator, Bell Labs 1937)
+  [3:7.3] Ada Lovelace | First programmer
+  [3:7.4] George Boole | Boolean algebra – devised the logical operators AND, OR, NOT
+  [3:7.5] Douglas Engelbart | Mouse
+  [3:7.6] Larry Tesler | Cut, copy and paste
+  [3:7.7] Tim Berners-Lee | WWW (1989-91)
+  [3:7.8] Richard Stallman | GNU project (1983), GPL licence
+  [3:7.9] Linus Torvalds | Linux kernel (1991)
+  [3:7.10] Dennis Ritchie / James Gosling / Guido van Rossum / Bjarne Stroustrup | C / Java (1991-95) / Python / C++
+  [3:7.11] Tim Paterson | MS-DOS (from 86-DOS)
+  [3:7.12] David S. Lee | Daisy-wheel printer (1969, Diablo Data Systems)
+  [3:7.13] Alexander Bain (Scottish) | Fax (1842)
+  [3:7.14] Peter Shor | Shor's algorithm (1994)
+[3:8] > Trap: "Father of the Computer" = **Babbage** (not Hollerith, Pascal or von Neumann); **Berners-Lee** = WWW, not computers.
+[3:9] ~~ Sources: PMF S&T 05 (src/science-tech/pmf-science-tech-05.txt) p.29 (ENIAC, UNIVAC; Babbage 1833-1871; Berners-Lee WWW 1991); app notes 5:12 sub 1 (old-notes.txt); Encore Mobilis: engadget.com/2005/05/11/the-mobilis-encores-inexpensive-mobile-pc/ (via web search); other firsts: general knowledge, not checked
+## SUB 4 | Computer Types and Supercomputers
+[4:0] TABLE head: Type | Feature / example
+  [4:0.0] Analog | Continuous quantities – car speedometer, thermometer
+  [4:0.1] Digital | Discrete (binary) data – PCs; works on the logical principle (Boolean 0/1)
+  [4:0.2] Hybrid | Analog + digital features; converts analog output into digital form – ICU monitors, ECG
+  [4:0.3] Micro / personal | Most widely used – desktop, laptop, tablet, smartphone, wearables
+  [4:0.4] Embedded | Dedicated function inside a larger system – digital watch
+  [4:0.5] Supercomputer | Largest, fastest and costliest; speed in FLOPS
+  [4:0.6] Quantum computer | Uses qubits (superposition, entanglement); exam answer for the "smallest and fastest computer imitating brain working"
+[4:1] - **Teacube:** a **2-inch cube-shaped computer** (APPSC G1 2004).
+[4:2] - **Q-Day:** when quantum computers may break **RSA-2048** encryption with **Shor's algorithm (1994)**. Oxford researchers made **10 billion quantum entanglements** in silicon.
+[4:3] # Supercomputers – dated
+[4:4] - **PARAM Padma** (C-DAC, 2002-03): an Indian **supercomputer** (UPSC 2004).
+[4:5] - **Tianhe** (Tianhe-1A 2010, Tianhe-2 fastest in TOP500 June 2014): developed by **China** (NUDT) ⚠ an APPSC key gave Japan.
+[4:6] - **2007:** **IBM Blue Gene/L** fastest; India's **Eka** (CRL, Tata) ranked **4th** (Nov 2007).
+[4:7] - **ISC 2026:** **LineShine** (China) fastest, replacing El Capitan.
+[4:8] - **Jan 2026:** **Param Shakti** – 3.1 petaflops, launched by **MeitY** at **IIT Madras** on RUDRA servers, under the **National Supercomputing Mission**.
+[4:9] TABLE head: Term | Meaning / unit
+  [4:9.0] Word length | Bits the CPU handles at once (32-bit, 64-bit)
+  [4:9.1] Clock speed | Hertz (GHz)
+  [4:9.2] Bandwidth | Data-transfer rate in bits per second (bps)
+  [4:9.3] MIPS | Million Instructions Per Second
+  [4:9.4] FLOPS | Floating-point Operations Per Second – supercomputer speed
+  [4:9.5] Linpack (HPL) | Floating-point benchmark on large dense linear systems – basis of world rankings
+[4:10] ~~ Sources: app notes 5:12 sub 2 and sub 10 (old-notes.txt); PMF S&T 05 (src/science-tech/pmf-science-tech-05.txt) p.29 (quantum computing); Param Padma, Tianhe, Teacube: general knowledge, not checked
+## SUB 5 | Software, Office Tools and Operating Systems
+[5:0] # Software types
+[5:1] - **Software** = programs that let the user and the **hardware communicate**/work; two major types: **system** and **application**.
+[5:2] TABLE head: Type | Examples
+  [5:2.0] System software | OS (Windows, Linux, macOS, Android, iOS), device drivers, utilities, firmware, translators
+  [5:2.1] Utility software | Antivirus, disk cleanup, backup, compression
+  [5:2.2] Application software | Word processors (MS Word, WordStar by MicroPro), spreadsheets ("what if" analysis), presentation, DTP, browsers; graphics (Photoshop, CorelDRAW); multimedia (players, editors, Final Cut Pro – video production); database (Oracle, MySQL, MS Access); MS Outlook (e-mail)
+  [5:2.3] Security software | Firewalls, antivirus, encryption, IDS
+[5:3] - **Device driver** = system software. **Compiler** and **assembler** are programs, not hardware.
+[5:4] - **MS Office** = office suite (Word, Excel, PowerPoint, Outlook, Access) – **not an OS**; **Media Player is not an Office component**.
+[5:5] - **Open source:** source code free to view, modify and share; **GNU = "GNU's Not Unix"**; **Internet Explorer** = closed source.
+[5:6] - A Word document, video or MP3 is a **file**; the **extension** shows its type (.doc = Word).
+[5:7] # Office shortcuts asked
+[5:8] TABLE head: Task | Answer
+  [5:8.0] MS Word: break column, start new one | Ctrl + Shift + Enter
+  [5:8.1] Windows logo key + D | Display and hide the desktop
+  [5:8.2] Excel: Format as Table | Home tab
+  [5:8.3] Excel: pop-up comment on a selected cell | Cell Tip
+  [5:8.4] PowerPoint chart for a timeline | Line chart (printed key)
+[5:9] # Operating systems
+[5:10] - **Functions:** manages hardware, memory, processes, files, devices, security and I/O; gives the user interface (not line-by-line translation).
+[5:11] TABLE head: OS type | Feature / example
+  [5:11.0] Time-sharing / multi-user | Many users share CPU time – UNIX (AT&T, 1969; kernel = main part)
+  [5:11.1] Real-time | Fixed response deadlines – missile guidance, air-traffic control
+  [5:11.2] Batch | Groups jobs and runs them without user interaction
+  [5:11.3] Mobile | Android (Linux-based, Google), iOS, BharOS (IIT Madras)
+  [5:11.4] Interface | Example
+  [5:11.5] CLI (command-line) | MS-DOS (Microsoft, Aug 1981, Tim Paterson), UNIX shell
+  [5:11.6] GUI (icons, windows, mouse) | Windows (Windows 3 – 1990; Windows 11 – Oct 2021), macOS
+[5:12] - **Linux, Windows, UNIX, Android, MS-DOS** = OSs; **Java, COBOL, MS Office** are not.
+[5:13] - **Android 6.0 = Marshmallow** (2015).
+[5:14] ~~ Sources: PMF S&T 05 (src/science-tech/pmf-science-tech-05.txt) p.28 (system, application, enterprise, security software); app notes 5:12 sub 6-7 (old-notes.txt); shortcuts and FCP: general knowledge, not checked
+## SUB 6 | Programming Languages, Number Systems and Logic
+[6:0] # Language levels
+[6:1] TABLE head: Level | Fact
+  [6:1.0] 1GL machine language | Only 0 and 1; the only language run directly
+  [6:1.1] 2GL assembly | Mnemonics; converted by an assembler (not a compiler)
+  [6:1.2] 3GL high-level | FORTRAN (Formula Translation, IBM 1957, first HLL, scientific), COBOL (business), BASIC (Beginner's All Purpose Symbolic Instruction Code), PASCAL, C, C++, Java, Python
+  [6:1.3] AI languages | PROLOG and LISP
+[6:2] - **Cobra, Python, Squirrel, Java** are computer languages; **Linux** and **Paint brush** are not.
+[6:3] TABLE head: Term | Meaning
+  [6:3.0] Compiler | Translates the whole program at once
+  [6:3.1] Interpreter | Translates and runs line by line
+  [6:3.2] Algorithm / Flowchart / Pseudocode | Step-by-step procedure / its pictorial form / English-like outline
+[6:4] - **Flowchart symbols:** oval = start/end, **parallelogram = input/output**, rectangle = process, **diamond = decision**.
+[6:5] # Number systems and logic
+[6:6] - Binary (2), octal (8), decimal (10), **hexadecimal (16; 0–9 and A–F)**; (1010)₂ = 10; **(FF)₁₆ = 255**.
+[6:7] - **Universal gates: NAND and NOR**; **XOR** = 1 when inputs differ.
+[6:8] - **Boolean:** A + A = A; A·A′ = 0; **De Morgan: (A + B)′ = A′·B′**.
+[6:9] ~~ Sources: app notes 5:12 sub 8 (old-notes.txt); PROLOG for AI: general knowledge, not checked
+## SUB 7 | ICT – Nature, Scope and Terms
+[7:0] - **ICT = Information and Communication Technology**: devices and applications used to **access, store, transmit and manipulate digital information** – hardware, software, networks, data, people, services and infrastructure.
+[7:1] - **Aim:** smooth **human-human, human-machine and machine-machine (M2M)** communication.
+[7:2] - **Information Technology** = **connectivity + hardware** in the printed key (JPSC 2016); also taught as computers + communication.
+[7:3] - **Concerns:** privacy, **digital divide**, job insecurity, over-reliance. **Positive impact of the internet:** best source of knowledge at a click.
+[7:4] - **Cybernetics:** study of **automation and communication between human and machine** – term by **Norbert Wiener**.
+[7:5] - **Artificial Intelligence** makes machines intelligent and mimics human actions.
+[7:6] - **Technology preservation** = **computer museum** (APPSC 2019).
+[7:7] - **IT terms:** cyberspace, upload, modem ✓ – **"light storage" is not an IT term**.
+[7:8] - **Smart card:** plastic card with an **embedded microchip**; **digital technology** works with satellite and fibre-optic transmission; a **digital library is NOT only on the internet** (UPSC 2002 → I and II).
+[7:9] - **Aarogya Setu, CoWIN, DigiLocker, DIKSHA** – all on **open-source digital platforms**.
+[7:10] ~~ Sources: PMF S&T 05 (src/science-tech/pmf-science-tech-05.txt) p.27-28 (ICT features and components); app notes 5:12 sub 0 (old-notes.txt); IT definition: testbook.com question 60475258aabf2ed433e87984 (via web search)
+## SUB 8 | File Formats, Acronyms and Transmission Modes
+[8:0] TABLE head: Acronym | Expansion | Type
+  [8:0.0] PDF | Portable Document Format (Adobe) | Document
+  [8:0.1] MP3 | MPEG-1 Audio Layer 3 | Audio (not video)
+  [8:0.2] MP4 / MOV / AVI | MPEG-4 Part 14 / QuickTime Movie (Apple) / Audio Video Interleave (Microsoft) | Video
+  [8:0.3] JPEG | Joint Photographic Experts Group | Image
+  [8:0.4] GIF / PNG | Graphics Interchange Format / Portable Network Graphics | Image
+  [8:0.5] ASCII | American Standard Code for Information Interchange | 7-bit, 128 characters; Unicode extends it
+[8:1] - **LED = Light Emitting Diode** – light by **electroluminescence**.
+[8:2] TABLE head: Mode | Example
+  [8:2.0] Simplex (one-way) | Television; mouse to computer (APPSC 2019)
+  [8:2.1] Half duplex | Walkie-talkie
+  [8:2.2] Full duplex | Telephone
+[8:3] - **Multiplexing** joins several signals on one channel.
+[8:4] ~~ Sources: app notes 5:12 sub 9 (old-notes.txt)

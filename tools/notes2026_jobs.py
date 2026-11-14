@@ -338,15 +338,21 @@ def apply():
             mapping.update(read_mapping(run_dir(j)))
             keys.update(read_keys(run_dir(j)))
         # notes additions: appended to their sub-section, in id order, then linked
-        adds = {}
+        adds, seen_add = {}, {}
         for i, e in sorted(mapping.items()):
             if e.get("add") and "move_row" not in e and int(e.get("row", -1)) in new:
                 r, s = int(e["row"]), int(e["sub"])
                 if 0 <= s < len(new[r]):
+                    key = (r, s, " ".join(e["add"].split()).lower())
+                    if key in seen_add:  # same bullet already appended: link to it, do not repeat it
+                        e = dict(e, lines=list(e.get("lines", [])) + [seen_add[key]])
+                        adds[i] = e
+                        continue
                     blks = to_blocks(e["add"].strip(), [])
                     if blks:
                         new[r][s]["b"].append(blks[0])
-                        e = dict(e, lines=list(e.get("lines", [])) + [f"{s}:{len(new[r][s]['b']) - 1}"])
+                        seen_add[key] = f"{s}:{len(new[r][s]['b']) - 1}"
+                        e = dict(e, lines=list(e.get("lines", [])) + [seen_add[key]])
                         adds[i] = e
         mapping.update(adds)
         for r, secs in new.items():
