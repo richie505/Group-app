@@ -6,8 +6,8 @@ Data: 133 PYQs (filed: row 27: 25, row 28: 15, row 29: 77, row 30: 16; 5 flashca
 | Item | Count |
 |---|---|
 | PYQs kept in rows 27-30 | 113 (several refiled across the four rows: e-Office → 27, WhatsApp campaign → 28, cyber-crime definition → 29) |
-| Moved within book 5 | 15: LAN → r13; USB, PowerPoint transitions, CAD electronic files, Ctrl+End, ECIL Siddhartha → r12; lifestyle channels, user studies → r14; Nakshe portal, Amantran portal, e-Gov award COSMOS → r24; first-aid rule → r106; vermiculture → r109; plastic-eating fungus → r103 |
-| Moved to another book | 5: Thakkar Bapa → b1 r219; transgender problems → b2 r143; communication 'filtering' → b2 r89; US-EU TTC → b6 r63; HCL Microsoft award → b6 r96; tsunami speed → b4 r27 |
+| Moved within book 5 | 14: LAN → r13; USB, PowerPoint transitions, CAD electronic files, Ctrl+End, ECIL Siddhartha → r12; lifestyle channels, user studies → r14; Nakshe portal, Amantran portal, e-Gov award COSMOS → r24; first-aid rule → r106; vermiculture → r109; plastic-eating fungus → r103 |
+| Moved to another book | 6: Thakkar Bapa → b1 r219; transgender problems → b2 r143; communication 'filtering' → b2 r89; US-EU TTC → b6 r63; HCL Microsoft award → b6 r96; tsunami speed → b4 r27 |
 | Keys from notes / generated | 86 / 47 (generated mostly "not in notes": stray GK items and AP portals settled by web) |
 | Keys changed | 4: USB (-1 → Universal Serial Bus), transgender (-1 → A, B, D, E), Ctrl+End (End key → Ctrl+End), filtering (-1 → Filtering) |
 | Disputes | 1: DOST launch date in the MeeSeva/Telangana pairs (key "all three"; DOST itself began 2016) |
