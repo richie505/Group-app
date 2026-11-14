@@ -215,7 +215,7 @@
 | Line of sight | Not needed | Not needed |
 - **UPSC 2011:** difference = Bluetooth uses 2.4 GHz, Wi-Fi 2.4 or 5 GHz (Bluetooth is PAN, not WLAN; neither needs line of sight).
 - **2.4-2.5 GHz ISM band (UPSC 2010):** **Bluetooth, cordless phones, microwave ovens (2.45 GHz) and Wi-Fi – all four**.
-- **Bluetooth versions:** APPSC key "latest" = **5.1** (2019); then 6.0 (Sept 2024, **Channel Sounding**), 6.1 (May 2025), 6.2 (Nov 2025), 6.3 (May 2026), **Core 7.0 (Nov 2026, High Data Throughput)** – the latest as of Nov 2026.
+- **Bluetooth versions:** APPSC key "latest" = **5.1** (2019); then 6.0 (2024, **Channel Sounding**), 6.1 (May 2025), 6.2 (Nov 2025), 6.3 (May 2026), **Core 7.0 (Nov 2026, High Data Throughput)** – the latest as of Nov 2026.
 - **Wi-Fi 7** = **IEEE 802.11be** (2.4, 5 and 6 GHz); **Wi-Fi Direct** links devices with no LAN; **Li-Fi** carries data on **LED light**.
 ~~ Sources: PMF S&T Part 5 p.45 (dial-up 56 Kbps), p.47 (DSL, cable, fibre), p.48 (satellite), p.55-57 (Wi-Fi, Bluetooth, UPSC 2011); bluetooth.com blog "Just released: Bluetooth Core 6.3" (6 May 2026); audioxpress.com (Bluetooth HDT in Core 7.0, 4 Nov 2026); app notes 5:13 sub 5-6
 
@@ -227,7 +227,7 @@
 | BhashaNet | 2022 | MeitY and NIXI (not ICANN) – Universal Acceptance for Indian languages; .Bharat in Devanagari |
 | IT Act, 2000 | 2000 | Sections 69A and 79 – government can order ISPs and intermediaries to block content |
 | Telecommunications Act, 2023 | 2023 | Replaced the Indian Telegraph Act, 1885; holds the power to suspend internet services |
-| **Orbicom** | 1994 | **International network of UNESCO Chairs in Communication** |
+| **Orbicom** | – | **International network of UNESCO Chairs in Communication** |
 - **Universal Acceptance:** every app and e-mail system accepts all domain names and e-mail IDs, including those in Indian scripts.
 - **7 Apr 2026:** a site opening on one ISP but not another = ISP-level **DNS poisoning, HTTP interception or SNI filtering**.
 - **Economic Survey 2025-26:** internet connections **25.15 crore (2014) → 96.96 crore (2024)**; **BharatNet** fibre reaches **2.18 lakh gram panchayats**.
