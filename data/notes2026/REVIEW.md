@@ -610,3 +610,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - ye3e5164a38f secondary groups: 3 → 0 "physical proximity". yc1be33ef4bb Khorana: add_option "Deciphering the genetic code".
 - Disputes: genetic code nearly universal; DNA fingerprinting 1983/1987; milk spoilage Lactobacillus vs Pseudomonas; cow lung lobes; amylase sources.
 - Review: yd1bcf5f5bf2 all statements true? y8488c1f501d / y1ae53538934 duplicate options; y9d28c939bc2 xylitol date 2022 not 2023.
+
+## b5-r113 (Nanotechnology)
+- y621c65ebd7e UPSC 2020 CNT: d → c (official per upscsociology; twin y3922090ab8f already c), dispute (PMF a). Owner: confirm against UPSC PDF.
+- ya475c2e498b hardest natural substance diamond (dispute wurtzite BN). Outdated y3bf63c11ac1 ASEAN 10 → 11 (Timor-Leste Oct 2025).
+- Unverified: y75e0af7e616 nanogold "blue gold"; y62586093165 RAS 2013 friction.
