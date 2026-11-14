@@ -1,0 +1,602 @@
+[
+ {
+  "id": "cp5b785d4a02aa",
+  "row": 93,
+  "s": "Consider the following statements about the new Consumer Price Index (base 2024):\n1. CPI (Rural / Urban / Combined) is compiled by the National Statistical Office (NSO), MoSPI.\n2. Its first release, on 12 February 2026, was for January 2026.\n3. It has 12 divisions under COICOP 2018 and covers 358 items.\n4. Food and beverages carry a weight of about 46% in it.\nHow many of the above statements are correct?",
+  "o": [
+   "Only two",
+   "Only three",
+   "All four",
+   "Only one"
+  ],
+  "a": 3,
+  "x": "Statements 1, 2 and 3 are correct (NSO, MoSPI; first release 12 Feb 2026 for Jan 2026; 12 COICOP-2018 divisions, 358 items, 12 online platforms added). Statement 4 is wrong: food and beverages weigh 36.75% in the 2024 series; about 46% was the weight in the 2012 series.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0c0498e2fbb0",
+  "row": 93,
+  "s": "Match List-I (Index) with List-II (Compiled by):\nList-I | List-II\na. CPI-IW | i. Office of the Economic Adviser, DPIIT\nb. CPI-UNME | ii. Central Statistical Office (CSO)\nc. WPI | iii. Labour Bureau\nd. Consumer Food Price Index | iv. National Statistical Office (NSO)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "CPI-IW – Labour Bureau (Ministry of Labour and Employment); CPI-UNME – CSO, the only one of the CPI-IW/AL/RL/UNME family not compiled by the Labour Bureau (discontinued 2011); WPI – Office of the Economic Adviser, DPIIT, Ministry of Commerce and Industry; CFPI (food inflation) – NSO.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb815fce6994d",
+  "row": 93,
+  "s": "Match List-I (Index) with List-II (Current base year, as of 2026):\nList-I | List-II\na. CPI-Combined | i. 2024\nb. CPI-IW | ii. 2022-23\nc. CPI-AL / CPI-RL | iii. 2016\nd. WPI | iv. 2019\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "CPI-Combined – 2024 (replaced 2012); CPI-IW – 2016 (from Sep 2020; earlier 1982, 2001); CPI-AL/RL – 2019 (from June 2025; earlier 1986-87); WPI – 2022-23 (revised 2026; earlier 2011-12).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp78e8bb0ad678",
+  "row": 93,
+  "s": "Consider the following statements about the Labour Bureau and CPI-IW:\n1. The Labour Bureau was set up in 1920.\n2. It is located at Shimla under the Ministry of Statistics and Programme Implementation.\n3. The base year of CPI-IW was revised from 2001 to 2016 with effect from September 2020.\n4. CPI-IW is used to fix the dearness allowance of industrial workers and Central Government employees.\nHow many of the above statements are correct?",
+  "o": [
+   "Only two",
+   "Only three",
+   "All four",
+   "Only one"
+  ],
+  "a": 3,
+  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the Labour Bureau (1920) is at Chandigarh under the Ministry of Labour and Employment, not MoSPI. CPI-IW base: 1982 → 2001 → 2016 (Sep 2020); it is the DA index.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4fb83b1b48a0",
+  "row": 93,
+  "s": "Consider the following statements about the Wholesale Price Index (WPI):\n1. Like the CPI, the WPI covers both goods and services.\n2. The WPI series with base 2011-12 covered 697 items.\n3. In the new WPI (base 2022-23), weights are based on Gross Value Added.\n4. The new WPI will run alongside a Producer Price Index for five years, after which the WPI is to be phased out.\nHow many of the above statements are correct?",
+  "o": [
+   "Only two",
+   "Only three",
+   "All four",
+   "Only one"
+  ],
+  "a": 0,
+  "x": "Statements 2 and 4 are correct. Statement 1 is wrong: WPI covers goods traded in bulk only – no services (CPI covers goods and services). Statement 3 is wrong: the new WPI (957 items) is weighted on Gross Value of Output, not GVA.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfa17df9ccd53",
+  "row": 93,
+  "s": "Match List-I (Committee) with List-II (Subject):\nList-I | List-II\na. Abhijit Sen | i. WPI base 2004-05\nb. Saumitra Chaudhuri | ii. WPI base 2011-12\nc. Ramesh Chand | iii. CPI as nominal anchor\nd. Urjit Patel | iv. WPI base 2022-23\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "Abhijit Sen (2007) – WPI base 2004-05; Saumitra Chaudhuri (2012) – WPI base 2011-12; Ramesh Chand (NITI Aayog, 2025) – WPI base 2022-23; Urjit Patel (2014) – CPI as nominal anchor, flexible inflation targeting.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa843937ecea4",
+  "row": 93,
+  "s": "Consider the following statements:\nAssertion (A): The GDP deflator is regarded as the broadest measure of inflation.\nReason (R): The GDP deflator covers the prices of all goods and services produced in the economy.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: GDP deflator = (Nominal GDP / Real GDP) × 100 covers all goods and services produced, unlike CPI or WPI baskets, so it is the widest measure.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp777dd297347d",
+  "row": 93,
+  "s": "Match List-I (Type of inflation) with List-II (Cause):\nList-I | List-II\na. Demand-pull | i. Strong export demand drains domestic supply\nb. Cost-push | ii. Poor farm productivity and supply bottlenecks\nc. Structural / bottleneck | iii. Rise in wages, raw-material and fuel prices\nd. Export-led | iv. Aggregate demand exceeds aggregate supply\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Demand-pull – 'too much money chasing too few goods' (AD > AS); cost-push – rise in factor prices; structural/bottleneck – deficiencies such as poor farm productivity and inefficient storage; export-led – export demand drains domestic supply.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa057ed7df358",
+  "row": 93,
+  "s": "Consider the following statements:\nAssertion (A): Rising interest rates are a cause of demand-pull inflation.\nReason (R): Rising interest rates reduce aggregate demand.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: rising interest rates cut demand, so they do not cause demand-pull inflation (UPSC 2021 key: 1, 2 and 4 only). R is true.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp03de9a5aa131",
+  "row": 93,
+  "s": "Match List-I (Term) with List-II (Meaning):\nList-I | List-II\na. Deflation | i. Inflation returning after deflation\nb. Disinflation | ii. Fall in the rate of inflation, which stays positive\nc. Reflation | iii. Inflation in some items while others are stable\nd. Skewflation | iv. Persistent fall in the general price level\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Deflation – negative inflation; disinflation – e.g. 3% → 2%; reflation – return of inflation after deflation, a sign of recovery; skewflation – inflation in a few items such as food.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf9eee9da1b16",
+  "row": 93,
+  "s": "Consider the following statements:\nAssertion (A): Stagflation is a situation of high inflation together with slow growth and high unemployment.\nReason (R): Currency appreciation creates the inflationary half of stagflation.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (stagflation = high inflation + stagnant output + high unemployment). R is false: a fall in aggregate demand and currency appreciation pull prices down; they do not create inflation.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp1c7f508c2afc",
+  "row": 93,
+  "s": "Consider the following statements about kinds of inflation by speed:\n1. Galloping inflation refers to single-digit inflation of 5–9% a year.\n2. Creeping inflation is gradual inflation below about 3% a year.\n3. Walking or trotting inflation is in the range of 3–10% a year.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: galloping inflation is double or triple digit (20%, 100%, 200% a year); 3–10% is walking inflation.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0c502cbf79ac",
+  "row": 93,
+  "s": "Consider the following statements about supply-side measures against food inflation:\n1. The Price Stabilisation Fund, a Central Sector Scheme launched in March 2015, began with onion and potato.\n2. Bharat Dal, launched with chana dal in July 2023, was later extended to urad dal.\n3. Under OMSS (Domestic), the FCI sells wheat and rice.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 3 are correct (PSF 2014-15, pulses added later; FCI sells wheat and rice under OMSS). Statement 2 is wrong: Bharat Dal was extended to moong dal, not urad dal; it is sold via NAFED, NCCF and Kendriya Bhandar.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp791e08220d37",
+  "row": 93,
+  "s": "Consider the following statements about Inflation-Indexed Bonds (IIBs):\n1. Their principal and/or interest is linked to an inflation index.\n2. They let the government reduce the coupon rate on its borrowing.\n3. Interest and capital gains on them are exempt from tax.\n4. The RBI issued them in 2013.\nHow many of the above statements are correct?",
+  "o": [
+   "Only two",
+   "Only three",
+   "All four",
+   "Only one"
+  ],
+  "a": 1,
+  "x": "Statements 1, 2 and 4 are correct (they protect investors from inflation uncertainty; no inflation-risk premium lowers the coupon; RBI issued IIBs in 2013). Statement 3 is wrong: interest and capital gains on IIBs are taxable (UPSC 2022: A and B only).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1015cfbd5bc9",
+  "row": 93,
+  "s": "Consider the following statements about price monitoring in Andhra Pradesh:\n1. The State-level Price Monitoring Committee is headed by the Chief Minister.\n2. The Directorate of Economics and Statistics monitors 8 essential commodities daily.\n3. Groundnut oil and palm oil were added to the monitored list in February 2025.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the State-level Price Monitoring Committee is headed by the Chief Secretary.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp68a6a69304da",
+  "row": 93,
+  "s": "Consider the following statements:\nAssertion (A): Food inflation is regarded as regressive.\nReason (R): Firms incur menu costs when they repeatedly re-price goods during inflation.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: food inflation is regressive because the poor spend a larger share of income on food; menu costs are a separate cost of inflation borne by firms.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpa43b2a8d2201",
+  "row": 93,
+  "s": "Consider the following statements:\n1. Core inflation excludes volatile food and fuel prices and shows the underlying trend.\n2. Headline inflation is more stable than core inflation.\n3. Food inflation is measured by the Consumer Food Price Index, which has 10 sub-groups.\n4. Cereals carry the highest weight in the Consumer Food Price Index.\nHow many of the above statements are correct?",
+  "o": [
+   "Only two",
+   "Only three",
+   "All four",
+   "Only one"
+  ],
+  "a": 3,
+  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: headline inflation includes food and energy and is more volatile; core is more stable.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2b17c2c48df3",
+  "row": 93,
+  "s": "Match List-I (Inflation fact) with List-II (Period):\nList-I | List-II\na. Food > Headline > Core, with AP at 4.9% against India's 3.9% | i. June 2026\nb. First breach of the 4% target in the new CPI series (4.38%) | ii. December 2023 – January 2024\nc. CPI inflation at a 20-month high of 4.8% | iii. May 2026\nd. Retail inflation eased from 5.7% to about 5.1% | iv. August 2026\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 1,
+  "x": "May 2026 – headline 3.93%, food 4.85%, core 3.73%; June 2026 – 4.38%, first breach of 4%; August 2026 – 4.8%, 20-month high; Dec 2023 (5.7%) → Jan 2024 (about 5.1%).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa3c9d715b797",
+  "row": 93,
+  "s": "Consider the following statements about flexible inflation targeting in India:\n1. The Monetary Policy Framework Agreement between the Government and the RBI was signed in February 2015.\n2. The RBI Act, 1934 was amended in 2016 to give inflation targeting a statutory basis.\n3. Section 45ZB of the RBI Act provides for the inflation target to be set every five years.\n4. Section 45ZN, on reporting after three consecutive quarters of breach, was first invoked in 2022.\nHow many of the above statements are correct?",
+  "o": [
+   "Only two",
+   "Only three",
+   "All four",
+   "Only one"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: the target is set by the Centre with the RBI every five years under Section 45ZA; Section 45ZB provides for the six-member MPC.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6a0bb27452b6",
+  "row": 93,
+  "s": "Consider the following statements about the Phillips curve:\n1. A.W. Phillips (1958) showed an inverse relation between unemployment and wage inflation.\n2. Milton Friedman argued that the long-run Phillips curve is horizontal.\n3. India's Phillips curve is relatively flat, as about 92% of workers are informal.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: Friedman held that the long-run Phillips curve is vertical (no lasting trade-off).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb5909603b484",
+  "row": 94,
+  "s": "Consider the following statements about direct and indirect taxes:\n1. Direct taxes are generally progressive in nature.\n2. Indirect taxes are generally non-inflationary.\n3. Indirect taxes are administered by the CBIC, while direct taxes are administered by the CBDT.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: indirect taxes raise prices and are inflationary; it is direct taxes that are non-inflationary.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcb1a649c7826",
+  "row": 94,
+  "s": "Consider the following statements:\n1. Service tax was an indirect tax levied by the Central Government from 1994-95 and was subsumed in GST.\n2. The securities transaction tax is an indirect tax because it is collected by the stock exchange.\n3. Wealth tax, gift tax and estate duty were called 'paper taxes' because they never yielded much revenue.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: STT (from 1 October 2004) is a direct tax on stock-market transactions, though the exchange collects it.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbd097a64a855",
+  "row": 94,
+  "s": "Consider the following statements about the burden of a tax:\n1. The impact of a tax is on the person who finally bears it.\n2. Moving the burden of a tax forward to consumers or backward to suppliers is called tax shifting.\n3. The burden of property tax cannot be shifted through prices.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: impact is on whom the tax is first imposed; the person who finally bears it bears the incidence.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0c0b867fc009",
+  "row": 94,
+  "s": "Consider the following statements:\nAssertion (A): If the demand for a commodity is perfectly inelastic, the consumer bears the full burden of an indirect tax on it.\nReason (R): When demand elasticity is zero, the price rises by the full amount of the tax.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: with zero elasticity the price rises by the whole tax, so the consumer bears it all; with infinite elasticity the price cannot rise.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe393e9749cad",
+  "row": 94,
+  "s": "Match List-I (Tax) with List-II (Taxable event / base):\nList-I | List-II\na. Sales tax / VAT | i. Provision of service\nb. Service tax | ii. Supply of goods or services\nc. GST | iii. Sale of goods\nd. Corporation tax | iv. Net profit of companies\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "Sales tax/VAT – sale of goods; service tax – provision of service; GST – supply of goods or services (from 1 July 2017); corporation tax – income/net profit of companies (not production or sales). Central excise is on manufacture, customs on import/export.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa4e1951348b8",
+  "row": 94,
+  "s": "Consider the following statements about taxing powers under the Constitution:\n1. Article 265 provides that no tax shall be levied or collected except by authority of law.\n2. The Union List contains 20 taxing entries and the State List 15.\n3. The residuary power of taxation rests with Parliament.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 3 are correct (gift, wealth and expenditure taxes were levied under the residuary power). Statement 2 reverses the numbers: Union List 15, State List 20, Concurrent List 3 taxing entries.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4aae5284f31d",
+  "row": 94,
+  "s": "Match List-I (Provision) with List-II (Subject):\nList-I | List-II\na. Article 276 | i. Surcharges retained by the Union\nb. State List Entry 46 | ii. Profession tax, ceiling ₹2,500 a year\nc. Article 271 | iii. Agricultural income tax\nd. 80th Amendment, 2000 | iv. Sharing of net proceeds of all Union taxes, effective 1 April 1996\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "Art. 276 – profession tax (State levy, ceiling ₹2,500 per person per year); State List Entry 46 – agricultural income tax (States only); Art. 271 – surcharges retained by the Union, not shared; 80th Amendment – all Union taxes (minus cess, surcharge) shareable, effective 1 April 1996.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp89a6718e52db",
+  "row": 94,
+  "s": "Consider the following statements:\n1. Own tax revenue is the largest component of the revenue receipts of the States.\n2. State Excise is the largest source of Andhra Pradesh's own-tax revenue in 2024-25 (RE).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "Neither 1 nor 2",
+   "2 only",
+   "Both 1 and 2",
+   "1 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct (own tax about 50% in FY25; tax share about 32%). Statement 2 is wrong: SGST is AP's largest own-tax source (₹36,296 crore, 38%); State Excise is second (22%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp02142d1f478d",
+  "row": 94,
+  "s": "Consider the following statements:\nAssertion (A): VAT is described as a self-enforcing tax.\nReason (R): As a harmonised commodity tax, VAT improves revenue buoyancy.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: VAT is self-enforcing because its invoice-credit trail makes each buyer check the seller's tax; improved buoyancy is a separate merit.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp9e672f440882",
+  "row": 94,
+  "s": "Match List-I (Committee) with List-II (Focus):\nList-I | List-II\na. K.N. Raj (1972) | i. Task Forces on direct and indirect taxes\nb. L.K. Jha (1976) | ii. Agricultural holding tax\nc. Vijay Kelkar (2002) | iii. GAAR and scrapping retrospective tax\nd. Parthasarathi Shome (2012) | iv. VAT at the manufacturing stage\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "K.N. Raj – agricultural holding tax; L.K. Jha Indirect Taxation Enquiry Committee (1976) – VAT at manufacturing stage → MODVAT; Vijay Kelkar Task Forces (2002) – both direct and indirect taxes; Parthasarathi Shome (2012) – GAAR, scrap retrospective tax.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9b3d492ed9c3",
+  "row": 94,
+  "s": "Match List-I (Reform) with List-II (Date of introduction):\nList-I | List-II\na. MODVAT | i. 1 April 2005\nb. CENVAT | ii. 1 March 1986\nc. First State VAT (Haryana) | iii. 1 April 2003\nd. State VAT nationwide | iv. 1 April 2000\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "MODVAT – 1 March 1986 (Budget 1986-87); CENVAT replaced it on 1 April 2000; Haryana was first with VAT on 1 April 2003; VAT became nationwide (20 States/UTs) on 1 April 2005.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7fd6e97b66ba",
+  "row": 94,
+  "s": "Consider the following statements about service tax:\n1. It was introduced in 1994-95 on the advice of the Raja Chelliah Committee.\n2. Budget 2015-16 raised its rate from 12% to 14%.\n3. From 2012-13 it applied to all services except those in a positive list.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: from 2012-13 service tax applied to all services except those in the negative list.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp07074a33587b",
+  "row": 94,
+  "s": "Consider the following statements about the Union Budget 2026-27 (BE):\n1. Direct taxes are about 6.9% of GDP and indirect taxes about 4.3%.\n2. Direct taxes make up about 61.2% of gross tax revenue.\n3. Income tax is the largest single source of the Centre's receipts in the rupee.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: borrowings and other liabilities (24 paise) are the largest receipt; income tax (21 paise) is the largest tax.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa749bb4ca614",
+  "row": 94,
+  "s": "Match List-I (Source of the Centre's rupee, Budget 2026-27) with List-II (Share in paise):\nList-I | List-II\na. Borrowings and other liabilities | i. 24\nb. Income tax | ii. 15\nc. Corporation tax | iii. 21\nd. GST and other taxes | iv. 18\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 1,
+  "x": "Borrowings and other liabilities – 24; income tax – 21; corporation tax – 18; GST and other taxes – 15 (non-tax revenue 10, Union excise 6, customs 4).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbba2e4ebeb61",
+  "row": 94,
+  "s": "Match List-I (Type of tax) with List-II (Feature):\nList-I | List-II\na. Progressive | i. Takes a higher proportion of income from low incomes\nb. Regressive | ii. One rate for all incomes\nc. Proportional | iii. Rate rises at first and then becomes flat\nd. Degressive | iv. Rate rises as income rises\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Progressive – rate rises with income (income tax); regressive – higher proportion from low incomes (indirect taxes); proportional – flat rate; degressive – progressive slabs up to a flat top rate.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7f92c22b845e",
+  "row": 94,
+  "s": "Consider the following statements about the Laffer curve:\n1. It is an inverted-U curve, with zero tax revenue at both 0% and 100% tax rates.\n2. The term 'Laffer curve' was coined by Arthur Laffer himself in 1974.\n3. It suggests that beyond a certain point higher tax rates may reduce tax revenue.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the curve is associated with Arthur Laffer (1974), but the term was coined by Jude Wanniski.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpca84bd577c01",
+  "row": 94,
+  "s": "Match List-I (Levy) with List-II (Key feature):\nList-I | List-II\na. Tax | i. Levy for a specific purpose that ends when the purpose is met\nb. Fee | ii. Payment for a specific service\nc. Cess | iii. Compulsory payment with no quid pro quo\nd. Surcharge | iv. Additional charge on the tax payable\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Tax – compulsory, no quid pro quo; fee – quid pro quo for a specific service; cess – 'tax on tax' for a specific purpose; surcharge – additional charge on tax payable, retained by the Union (Art. 271).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp504e70f5dd73",
+  "row": 94,
+  "s": "Consider the following statements about India's tax-GDP ratio:\n1. The Centre's gross tax revenue was 9.9% of GDP in 2019-20.\n2. The combined Centre and States tax-GDP ratio is about 19.6%.\n3. India's average tax-GDP ratio of 16.36% (2001-22) was the lowest among emerging economies.\n4. The World Bank regards a tax-GDP ratio of 20% as the tipping point for sustainable growth.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 1, 2 and 3 are correct (ES 2021-22; States' own tax ≈ 7% of GSDP; below the OECD too). Statement 4 is wrong: the World Bank tipping point is 15%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6e45fae271c1",
+  "row": 94,
+  "s": "Consider the following statements:\nAssertion (A): Tax buoyancy, unlike tax elasticity, captures the effect of discretionary changes in tax rates and base.\nReason (R): Tax elasticity includes discretionary changes, whereas tax buoyancy excludes them.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false and reverses the two: buoyancy (% change in revenue / % change in GDP) includes discretionary changes; elasticity excludes them.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpdfc074d37785",
+  "row": 94,
+  "s": "Consider the following statements about tax buoyancy:\n1. In the 2026-27 BE, gross tax buoyancy is 0.8.\n2. In the 2026-27 BE, the buoyancy of indirect taxes (1.1) exceeds that of direct taxes (0.3).\n3. According to the Economic Survey 2025-26, buoyant revenues helped bring the fiscal deficit to 4.4% of GDP in FY26.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 3 are correct. Statement 2 reverses the figures: direct-tax buoyancy is 1.1 and indirect-tax buoyancy 0.3.",
+  "src": "app",
+  "tq": "statements"
+ }
+]

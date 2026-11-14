@@ -1322,3 +1322,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 399 → 74 kept + 84 new (158, 40%); new 49 statements / 22 match / 11 A–R / 2 sequence; 4 of 244 lines lost (3 covered by PYQs).
 - Notes conflicts: Hitakarini Samajam 1905 (197:5:2) vs 1906 (195:1:1.8); Kanyasulkam first staging 1893 (196:1:0.7) vs 1892 (row 195) — reconcile (Kanyasulkam staged 1892).
 - Removed as not in notes: fdb98b43da943 (Lord Lyveden), f291a4414949c (Chandra Mohan Chatterjee), f58b22af37b11 (Kesari), n7bad03ee6b8 (Gurajada with Veeresalingam).
+
+## rewrite b1-w199 (rows 199–204)
+- own 441 → 59 kept + 96 new (155, 35%); new 55 statements / 24 match / 15 A–R / 2 sequence; 2 of 274 lines lost.
+- PYQ y89e5ea11b2a keyed "Karachi, 1930"; Karachi session was March 1931 — check.
+- Uncertain notes (not used): 200:0:2 Naoroji professor 1854 vs 1855; 203:4:0.0 Kakinada riot July vs 31 May 1907.
+- Removed as not in notes: nd4a41980658 (Regulation III of 1818), n4b1efa16b9d (6 April 1909).
