@@ -7,7 +7,7 @@
 | **Parry Infrastructure** | **Kakinada** | **Food processing** |
 | **White Field Paper Mills** | **Kovvur** | Writing and printing paper |
 | **IFFCO Kisan SEZ** | **Nellore** | Multi-product |
-| **Apache** (Taiwanese footwear maker) | **Nellore** district (Mambattu, near Tada) | **Shoes** |
+| **Apache** (Adidas contract footwear maker of a **Taiwanese** group; 2006 reports called it China-based or Singapore-based, so some keys say "Chinese") | **Nellore** district (Mambattu, near Tada) | **Shoes** |
 | APSEZ | Atchutapuram-Rambilli, **Anakapalli** | Multi-product; notified 12 Apr 2007 |
 | **Sri City** | **Tirupati** | SEZ + DTZ + FTWZ + Electronics Manufacturing Cluster; **Foxconn**, **Isuzu** |
 | **JN Pharma City** | **Parawada, Anakapalli** | Pharma (Divi's, Dr. Reddy's, Aurobindo, Laurus) |
@@ -15,7 +15,7 @@
 | **Brandix Apparel City** | Atchutapuram | **Apparel** |
 | **Kakinada SEZ** | **Kakinada** (not Srikakulam) | Port-based, with Kakinada Gateway Port |
 > Asked: SEZ unit–location match (APPSC G2 Mains), pharma SEZs out of 19, Apache shoes in Nellore (APPSC G2 2011), notified / operational counts.
-~~ Sources: app notes 4:97 sub 8 (32 notified, 19 operational, APIIC, units table); general knowledge, not checked (Parry–Kakinada, White Field–Kovvur, IFFCO–Nellore, Apache–Nellore); printed APPSC keys, not verified (4 pharma SEZs)
+~~ Sources: app notes 4:97 sub 8 (32 notified, 19 operational, APIIC, units table); general knowledge, not checked (Parry–Kakinada, White Field–Kovvur, IFFCO–Nellore, Apache–Nellore); printed APPSC keys, not verified (4 pharma SEZs); domain-b.com 2006 (Apache "based in Southern China", Nellore plant); leathermag.com (Apache "Singapore-based"); roc-taiwan.org/inmaa_en (Taiwanese Apache group, ops HQ Taichung – search summary only, page did not load)
 
 === AP's Exports – Rank, Share and Items
 - After bifurcation AP **lost Hyderabad's industrial clusters** and turned to **port-led development**.

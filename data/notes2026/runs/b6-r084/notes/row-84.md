@@ -418,7 +418,7 @@
 | Henley Passport Index (July 2026) | 81st (with Mauritania, Algeria; was 75th in Feb 2026); 55 destinations | Singapore (192); Japan, South Korea, UAE (188); Sweden (187); bottom Afghanistan (104th, 22) |
 - Global Passport Index criteria: **travel freedom, investment opportunities, quality of life**; weights **Mobility 50% + Investment 25% + Quality of Living 25%**.
 > Henley = Henley & Partners (India 81st); Global Passport Index = Global Citizen Solutions (India 125th). Do not swap.
-- **SDR 2026 – India's strengths:** India did best on **SDG 7** (clean energy) and **SDG 9** (industry and infrastructure); **SDG 2** (Zero Hunger) is still its biggest challenge.
+- **SDR 2026 – India's strengths:** India **94th** (best ever; 99th in 2025, **112th in 2015**); India did best on **SDG 7** (clean energy) and **SDG 9** (industry and infrastructure); **SDG 2** (Zero Hunger) is still its biggest challenge.
 ~~ Sources: Rocket CA 2026 Part 01 p.19-20 and p.26 (GPI 127th; Gender Gap 131st of 145, Iceland; SDR 2026 94th of 169; Henley & Partners lists India 84th, 55 destinations – undated, see the July 2026 figure); Praveen CA-360 Jul 2026 magazine p.75 (SDR 2026: 94th, best ever, from 99th; 112th in 2015; Finland 87.4; strong on SDG 7 and SDG 9, weak on SDG 2), p.76 (Global Passport Index 2026: 125th of 197, Sweden; Henley July 2026: 81st with Mauritania and Algeria, from 75th in Feb 2026, 55 destinations; Singapore 192); app notes 6:84 (sub 0)
 
 === India's Firsts and Seconds – World Rankings
@@ -428,14 +428,14 @@
 | Solar market (2025) | 2nd largest, overtook USA (annual capacity additions); 2.8 GW (2014) → 155 GW+ (2026), ~5,370% growth |
 | Seafarers (BIMCO–ICS Workforce Report 2026) | 2nd-largest supplier – 3,11,000+, 12.16%; Philippines 1st; India was 5th in 2015 (5.2%) |
 | Railway electrification (22 July 2026) | 99.6% of BG network – 2nd after Switzerland (100%); 48,072 route km in 2014–2026 vs 21,801 in the previous six decades; diesel 293 crore litres (2015–16) → 108 crore (2024–25) |
-| Athletics doping (Athletics Integrity Unit) | India 1st – 162 athletes/staff; Kenya 2nd (148), Russia 3rd (~60); top since April 2026 |
+| Athletics doping (Athletics Integrity Unit) | India 1st – 162 athletes/staff (July 2026; 148 as of 1 April 2026); Kenya 2nd (148; 146 in April), Russia 3rd (~60; 66 in April); top since April 2026 |
 | WDMMA Air Power 2026 | IAF 6th among air services, 3rd in national air power; 1,716 aircraft (542 fighters, 498 helicopters); top – US Air Force, US Navy, Russian Air Force |
 | Inland capture fisheries (FAO) | 1st |
 | Milk | 1st (one-fourth of world) |
 - Ship recycling background: **Recycling of Ships Act, 2019**; India ratified the **Hong Kong Convention (2019)**; Minister **Sarbananda Sonowal**.
 - Solar background: **National Solar Mission 2010** (under **NAPCC**); **ISA** – 2015, HQ **Gurugram**, India + France; MNRE Minister **Pralhad Joshi**.
 - Rail emits about **89% less CO2** per tonne-km than road.
-~~ Sources: Praveen CA-360 Jul 2026 magazine p.76 (BIMCO–ICS 2026: India 2nd-largest seafarer supplier, 3,11,000+, 12.16%; Philippines 1st), p.77 (rail electrification 99.6% on 22 July 2026, 2nd after Switzerland; 48,072 route km 2014–2026; rail 89% less CO2); app notes 6:84 (sub 8)
+~~ Sources: Praveen CA-360 Jul 2026 magazine p.76 (BIMCO–ICS 2026: India 2nd-largest seafarer supplier, 3,11,000+, 12.16%; Philippines 1st), p.77 (rail electrification 99.6% on 22 July 2026, 2nd after Switzerland; 48,072 route km 2014–2026; rail 89% less CO2), p.79 (AIU doping: India 162, Kenya 148, Russia ~60); Praveen CA-360 Apr 2026 magazine p.81 (as of 1 April 2026: India 148, Kenya 146, Russia 66); app notes 6:84 (sub 8)
 
 === Crime and Cyber-fraud Data
 | Report | Key findings |

@@ -91,7 +91,7 @@
 | Renewable Consumption Obligation | Formerly RPO; under Energy Conservation (Amendment) Act, 2022; 29.91% (FY25) → 43.33% (FY30) |
 | PLI | 14 sectors; incentives for 4–6 years |
 # President's Police Colour – Sikkim
-- MHA conferred the **President's Police Colour** on **Sikkim Police** – **15th state**, **3rd in the Northeast**.
+- MHA conferred the **President's Police Colour** on **Sikkim Police** (Gangtok, **28 May 2026**) – **15th state**, **3rd in the Northeast**.
 # Telangana Governor Awards for Excellence 2025
 - Presented **26 January** at **Lok Bhavan** by Governor **Jishnu Dev Varma**; instituted **2024**; **₹2 lakh** each.
 | Category | Individual | Institution |

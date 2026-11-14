@@ -61,5 +61,5 @@
 - **PRS Review of State Laws 2025:** Assemblies met on average **24 days** (**Odisha 43** highest, **Nagaland 7** lowest); many met only to satisfy **Art. 174**.
 - **AP Budget Session 2026 (app notes):** **11 Feb – 7 Mar 2026**; agenda by the **Business Advisory Committee** chaired by Speaker **Chintakayala Ayyanna Patrudu**.
 - **86th AIPOC**, **Lucknow** (app notes): theme "**Strong Legislature - Prosperous Nation**"; AIPOC held since **1921**.
-- **131st Amendment Bill (app notes):** Lok Sabha **550 → 850**.
-~~ Sources: NCRWC Report 2002 (legalaffairs.gov.in); PRS Review of State Laws (prsindia.org); app notes 2:37 (sub 5, 6)
+- **Constitution (131st Amendment) Bill, 2026:** Lok Sabha ceiling **550 → 850** (815 from States + 35 from UTs; amends Arts 81, 82, 334A for early delimitation on the 2011 Census and women's reservation); **defeated in the Lok Sabha, April 2026** (298 for, 230 against – short of the special majority).
+~~ Sources: NCRWC Report 2002 (legalaffairs.gov.in); PRS Review of State Laws (prsindia.org); app notes 2:37 (sub 5, 6); PMF Lens Apr 2026 part 1 p.5 (src/current-affairs/pmf-lens-2026-04-01.txt); Praveen CA-360 Apr 2026 p.10 (src/current-affairs/praveen-ca360-2026-04-magazine.txt)

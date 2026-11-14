@@ -107,9 +107,9 @@
 | Rules 180A–E (RS) | **Special Mentions** in the Rajya Sabha |
 | **Rule 198** (LS) | No-confidence motion |
 | Rule 222 (LS) / Rule 187 (RS) | Privilege motion |
-- **Rule 377 – matters a day**: **20** in most books and keys (RAS 2018 key); NextGen Rocket says it was raised to **30** a day in 2015.
+- **Rule 377 – matters a day**: **20** in most books and keys (RAS 2018 key; PRS primer: "presently **20 MPs** are allowed to raise matters under Rule 377 per day", one matter per member per week); NextGen Rocket says it was raised to **30** a day in 2015 (not found in Lok Sabha / PRS sources) – answer **20** unless 30 alone is offered.
 - **Half-an-hour discussion**: a matter already sufficiently debated whose answer needs **factual elucidation**; Speaker can allot 3 days a week; no formal motion or vote.
-~~ Sources: Rocket Polity Sheet #29 p.72 (src/polity/rocket-polity-01.txt); Laxmikanth, Indian Polity p.353-354 (src/polity/laxmikanth-indian-polity-01.txt); PRS primer "Engaging as a Parliamentarian" (prsindia.org)
+~~ Sources: Rocket Polity Sheet #29 p.72 (src/polity/rocket-polity-01.txt); Laxmikanth, Indian Polity p.353-354 (src/polity/laxmikanth-indian-polity-01.txt); PRS primer "Engaging as a Parliamentarian" (prsindia.org); PRS primer Engaging as a Parliamentarian p.10 (Rule 377: 20 MPs a day, one matter a week); Rocket Polity Part 2 p.29 (src/polity/rocket-polity-02.txt; 30 post-2015)
 
 === Motions, Privilege Motion, Resolutions and the Whip
 - **Motion** = a **formal proposal by a member** for the decision of the House (to do something permissible); no discussion on a matter of public importance except on a motion with the Presiding Officer's consent.

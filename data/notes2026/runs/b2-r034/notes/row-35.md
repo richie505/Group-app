@@ -53,11 +53,11 @@
 | **Joint Committee on Offices of Profit** | Which offices should disqualify MPs | **15 = 10 LS + 5 RS** |
 | Privileges | Breach of privilege | LS 15, RS 10 |
 | Ethics | Members' conduct | **RS 4 Mar 1997**, LS 16 May 2000 |
-| Business Advisory | Allots time for Government and other business | LS 15, **Speaker chairs** |
+| Business Advisory | Allots time for Government and other business | LS 15, **Speaker chairs** (the Speaker also chairs the **Rules** and **General Purposes** Committees) |
 - **Delegated legislation** = rule-making power **delegated by the legislature to the executive**; watched by the Committee on Subordinate Legislation.
 - **Lok Sabha-only:** Committee on Private Members' Bills and Resolutions; Committee on Absence of Members.
 - **Watchdog group** (NextGen): Subordinate Legislation, Government Assurances, Estimates, PAC, COPU, DRSCs – **not** the Business Advisory Committee.
-~~ Sources: Laxmikanth, Indian Polity 8th ed. p.394-395, 405-407 (src/polity/laxmikanth-indian-polity-01.txt); NextGen Polity - APPSC Exams p.365-366 (src/polity/nextgen-polity-full.txt); Lok Sabha – Committee on Petitions (loksabha.nic.in)
+~~ Sources: Laxmikanth, Indian Polity 8th ed. p.394-395, 405-407 (src/polity/laxmikanth-indian-polity-01.txt); NextGen Polity - APPSC Exams p.365-366 (src/polity/nextgen-polity-full.txt); Lok Sabha – Committee on Petitions (loksabha.nic.in); Laxmikanth 8th ed. p.337 (Speaker chairs Business Advisory, Rules and General Purposes Committees)
 
 === Departmentally Related Standing Committees (DRSCs)
 - **Set up 1993** (17) on the recommendation of the **Rules Committee** of the Lok Sabha; **24 since 2004** = **16 under the Lok Sabha + 8 under the Rajya Sabha**.

@@ -5,3 +5,8 @@
 - f3f37367954a6: keyed Plan Holiday but "Third Five Year Plan" also offered/defensible — add dispute or fix options.
 - cpbe07dc9d4070: explanation cites "USSR agreement 1979" (removed from notes as unverified) — fix x.
 - y476e4314539 vs y9adefa21c3e: same PYQ keyed 1.6% vs 7.0% — check duplicates.
+# book 5 (from notes review)
+- cp7817231a040d: statement 2 "Vikram-1 290 kg to 500 km SSO" keyed true — sources only ~350 kg LEO; reword/false.
+- y415bd5dfd27 (PYQ): mercury question keyed "all three"; UPSC official (per GKToday) "only two"; twin y694adb32d4d keyed "only two" — align (dispute or re-key).
+- y2fc88e128db (PYQ): Delhi 2021 avg AQI keyed 144; CAQM 209, no option matches — add_option or dispute.
+- Notes: row 48 (app notes 5:48 sub 2) "⚠ APPSC key (2010) gave 3,700 km" Agni-III — reword to "(official key: 3,700 km; actual 3,500 km)".

@@ -56,7 +56,7 @@
 - **m-FMS pilot** (Government of India) in AP – **East Godavari** district.
 # Devolution and State Finance Commissions
 - **SFC** (243I/243Y) – formed by the **Governor** (not the SEC) every five years; Part VI of the 1994 Act. **4th SFC** report Oct 2019; **5th SFC** constituted 20 March 2023 for **2025-30**.
-- **3rd SFC** per-capita grant **ZP : MP : GP = Rs 8 : 16 : 8**.
+- **3rd SFC** per-capita grant **ZP : MP : GP = Rs 8 : 16 : 8**; the **4th SFC** (Gummadi Nancharaiah, report Oct 2019) recommended raising these grants to **Rs 25 : 50 : 25** (GP Rs 8 → 25, MP Rs 16 → 50, ZP Rs 8 → 25).
 - **14th and 15th FC** grants favoured **drinking water and sanitation**. **16th FC (2026-31):** AP rural local bodies **Rs 16,627 crore** (AP Budget 2026-27); only **duly constituted** (elected) bodies get grants.
 - **Main own revenue of a GP – property (house) tax**; intermediate and district tiers rely on grants.
 - **Atmanirbhar Panchayat Program:** GP own revenue **≥ Rs 50 lakh** (Block ≥ Rs 1 crore).
@@ -67,7 +67,7 @@
 | Transfer of Functionaries | 15 |
 | **Autonomy of PRIs** | **15** |
 | Transfer of Functions | 10 |
-~~ Sources: AP Panchayat Raj Act 1994 (simpliance.in text) s.60, s.61; MoPR-TISS Devolution Report 2015-16 p.71 (Table 2.2), p.99; app notes 2:84; APPSC Panchayat Secretary keys
+~~ Sources: AP Panchayat Raj Act 1994 (simpliance.in text) s.60, s.61; MoPR-TISS Devolution Report 2015-16 p.71 (Table 2.2), p.99; app notes 2:84; APPSC Panchayat Secretary keys; AP 5th SFC Report ch.3 p.19-20 (src/ap-economy/vsfc.txt: per-capita grants GP Rs 8, MP Rs 16, ZP Rs 8 → 25/50/25)
 
 === Evolution of Panchayati Raj in AP – Acts and Committees
 # Order among States

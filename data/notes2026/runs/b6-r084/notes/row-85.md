@@ -139,9 +139,9 @@
 | Family health insurance | 41% → 60.2% (Ayushman Bharat–PMJAY, 2018) |
 | Women using internet | 33.3% → 64.3% |
 | First-trimester registration | 70% → 76.2% |
-- TFR **2.0**; pregnancy registration 95.9%; 4+ ANC visits 65.2%; 95.6%+ child vaccinations at government facilities.
+- TFR **2.0** (NFHS-6; ⚠ SRS 2024 gives **1.9**); pregnancy registration 95.9%; 4+ ANC visits 65.2%; 95.6%+ child vaccinations at government facilities.
 # SRS 2024 – Fertility and Mortality
-- **16 major States** below replacement TFR **2.1**.
+- **16 major States** below replacement TFR **2.1**; **India TFR 1.9** (SRS 2024; NFHS-6 survey: 2.0).
 | Group | States |
 |---|---|
 | Lowest TFR | Delhi 1.2; Kerala, Tamil Nadu, West Bengal 1.3; Andhra Pradesh, J&K, Punjab 1.4; Telangana, Karnataka, Himachal 1.5 |
@@ -175,7 +175,7 @@
 | Breast cancer study (Lancet Regional Health – SE Asia + ICMR) | 13% diagnosed after metastasis (76,000 women) |
 | ILO work-related stress | ~840,000 deaths/year; loss 1.37% of global GDP; ILO 1919, DG Gilbert Houngbo |
 | National Nutrition Week awareness | Ahilyanagar (Maharashtra) 1st, Pune 2nd |
-~~ Sources: Rocket CA 2026 Part 01 p.24 (NFHS-6 – MoHFW and IIPS; CRS 2024 sex ratio at birth 917; SRS Bulletin 2024 CBR 18.3, TFR 1.9 – the notes' 2.0 is NFHS-6); app notes 6:85 (sub 6)
+~~ Sources: Rocket CA 2026 Part 01 p.24 (NFHS-6 – MoHFW and IIPS; CRS 2024 sex ratio at birth 917; SRS Bulletin 2024 CBR 18.3, TFR 1.9 – the notes' 2.0 is NFHS-6); Praveen CA-360 May 2026 magazine p.112 (NFHS-6 TFR stable at 2.0) and Sep 2026 magazine p.88 (SRS: TFR 1.9); app notes 6:85 (sub 6)
 
 === Air Quality, Climate and Environment Reports
 # IQAir World Air Quality Report 2025
@@ -271,8 +271,8 @@
 - **Rajiv Gandhi International Airport (Shamshabad, Hyderabad)**: **Best Airport Staff in India and South Asia – fifth time**; 2nd in regional category; 3rd best in South Asia; operated by **GMR since 2008**.
 - Awards given at **Passenger Terminal Expo 2026, London**; **Skytrax** is a **UK-based** rating organisation.
 # Doping Violations (Athletics Integrity Unit)
-- **India 1st** – **148** athletes suspended; Kenya 146; Russia 66.
-~~ Sources: Rocket CA 2026 Part 01 p.20 (THE Asia University Rankings 2026: IISc joint 43rd; Tsinghua, Peking, NUS top three); app notes 6:85 (sub 9)
+- **India 1st** – **148** athletes suspended (as of 1 April 2026); Kenya 146; Russia 66 – by July 2026: **India 162** (athletes + support staff), Kenya 148, Russia ~60.
+~~ Sources: Rocket CA 2026 Part 01 p.20 (THE Asia University Rankings 2026: IISc joint 43rd; Tsinghua, Peking, NUS top three); Praveen CA-360 Apr 2026 magazine p.81 (AIU, 1 April 2026: India 148, Kenya 146, Russia 66) and Jul 2026 magazine p.79 (India 162, Kenya 148, Russia ~60); app notes 6:85 (sub 9)
 
 === Crime and Security Reports
 # NCRB Crime in India 2024
@@ -353,7 +353,7 @@
 # Exam Corner
 - **Female GER > male GER** in higher education (Women and Men in India 2025, **27th edition**).
 - **Pakistan**: both **most terror-affected** (GTI) and **most polluted country** (IQAir).
-- India **1st** in **Nagoya Protocol IRCCs (3,561)** and in **doping violations (148)**.
+- India **1st** in **Nagoya Protocol IRCCs (3,561)** and in **doping violations (148 in Apr 2026; 162 by Jul 2026)**.
 - **Special 301**: India on the **Priority Watch List**; **Vietnam** at the top of the concern list.
 - Background: **World Happiness Report 2015** – **Switzerland** happiest.
 - **World Happiness Report 2017**: India **122nd**; **Norway** happiest.

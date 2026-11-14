@@ -366,7 +366,7 @@
 # THE World University Rankings 2027
 - **IISc Bengaluru** India's best at **254th**; no Indian university in the top 200; India **143 institutions**.
 - **Oxford 1st** for the **11th straight year**; MIT 2nd.
-~~ Sources: daily CA 20 Oct 2026 p.6 (GHI 2026, Henley Passport Index); welthungerhilfe.org "Launch of the 2026 Global Hunger Index" (fetched: WHH, IFHV, Helvetas; 14 Oct 2026); Rocket CA 2026 Part 01 p.19-20 (GHI 100th/122, WJP 88th/143 Denmark 1st, Henley 84th); daily CA 30 Oct 2026 p.1 (WJP), p.3 (Bihar Museum); daily CA 29 Oct 2026 p.3 (ASI Golconda); daily CA 23 Oct 2026 p.1 (Jaipur, National Geographic); app notes 6:83 (sub 9: THE WUR 2027; GHI weights – general knowledge, not checked)
+~~ Sources: daily CA 20 Oct 2026 p.6 (GHI 2026, Henley Passport Index); welthungerhilfe.org "Launch of the 2026 Global Hunger Index" (fetched: WHH, IFHV, Helvetas; 14 Oct 2026); Rocket CA 2026 Part 01 p.19-20 (GHI 100th/122, WJP 88th/143 Denmark 1st, Henley 84th); daily CA 30 Oct 2026 p.1 (WJP), p.3 (Bihar Museum); daily CA 29 Oct 2026 p.3 (ASI Golconda); daily CA 23 Oct 2026 p.1 (Jaipur, National Geographic); app notes 6:83 (sub 9: THE WUR 2027; GHI weights from globalhungerindex.org/about.html, fetched: undernourishment 1/3, stunting 1/6, wasting 1/6, child mortality 1/3)
 
 === Number Game and Quick Revision
 | Item | Correct fact |

@@ -86,7 +86,7 @@
 | Drafted by the department with the **Law Department** | Drafted by the **member** |
 | Rejection = loss of confidence in government | Rejection has no such implication |
 - Both are governed by the **same general procedure** and pass through the **same stages**.
-- Only **14** Private Members' Bills have become law, the last in **1970** – none "recently for the first time".
+- Only **14** Private Members' Bills have become law, the last in **1970** – none "recently for the first time"; also: in the Lok Sabha the **Committee on Private Members' Bills and Resolutions** (15 members, **Deputy Speaker** chairs) classifies such Bills and **allots time** (it also examines a private member's Constitution amendment Bill before introduction); the **Rajya Sabha has no such committee** – its **Business Advisory Committee** does this.
 - **9 Dec 2022:** CPI(M) MP **Bikash Ranjan Bhattacharyya** introduced the private member's **National Judicial Commission Bill, 2022** in the Rajya Sabha.
 # Stages – three readings in each House
 | Stage | What happens |
@@ -95,7 +95,7 @@
 | **Second reading** | **General discussion**, committee stage, **clause-by-clause** consideration with amendments |
 | **Third reading** | Bill accepted or rejected as a whole – the **formal vote/division** |
 | Second House | Same three readings; may pass, amend, reject, or keep pending (6 months → deadlock) |
-| Assent | President: assent, withhold, or **return once** for reconsideration (suspensive veto) |
+| Assent | President: assent, withhold, or **return once** for reconsideration (suspensive veto); no time limit is fixed for his decision → **pocket veto** possible (Zail Singh, Indian Post Office (Amendment) Bill, 1986) |
 - An ordinary ("legislative") Bill can be introduced in **either House**.
 - **Defamation Bill, 1988**: passed by the Lok Sabha but **withdrawn** before the Rajya Sabha took it up, after press protests.
 # President's options on Bills (Art. 111)
@@ -105,7 +105,7 @@
 | **Money Bill** | Yes | Yes | **No** |
 | **Constitution Amendment Bill** | **Must assent** (24th Amendment, 1971) | No | No |
 - President's powers also include summoning a joint sitting and **proroguing** the Houses and **dissolving the Lok Sabha** – he **cannot dissolve "Parliament"** (the Rajya Sabha is permanent).
-~~ Sources: NextGen Polity - APPSC Exams (src/polity/nextgen-polity-full.txt) p.50-52, p.356-358, p.360; Laxmikanth, Indian Polity 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.355-358; Deccan Chronicle / LiveLaw 9 Dec 2022 (NJC Bill); ThePrint (Defamation Bill 1988)
+~~ Sources: NextGen Polity - APPSC Exams (src/polity/nextgen-polity-full.txt) p.50-52, p.356-358, p.360; Laxmikanth, Indian Polity 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.355-358; Deccan Chronicle / LiveLaw 9 Dec 2022 (NJC Bill); ThePrint (Defamation Bill 1988); Laxmikanth 8th ed. p.407 (Committee on Private Members' Bills and Resolutions; RS – Business Advisory Committee); Laxmikanth p.288 (pocket veto)
 
 === Lapsing of Bills – Dissolution, Prorogation, Adjournment
 | On dissolution of the Lok Sabha – lapses | Does not lapse |

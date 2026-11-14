@@ -20,8 +20,8 @@
 - UPSC 2008: "not more than 450 members" ✗ (500); "not qualified if less than 25" ✓ → **B only**.
 # Quorum – Article 189(3)
 - **Ten members or one-tenth** of the total membership, **whichever is greater** (not 30, one-half or one-fourth).
-- **Reservation:** SC/ST seats in proportion to population (Art. 332); Anglo-Indian nomination ended (104th Amendment, 2020); one-third for women after delimitation (106th Amendment, 2023).
-~~ Sources: NextGen Polity - APPSC Exams p.300-301; Laxmikanth Indian Polity 8th ed. ch.33 (src/polity/laxmikanth-indian-polity-02.txt p.28-35); app notes 2:41 (sub 1)
+- **Reservation:** SC/ST seats in proportion to population (Art. 332); Anglo-Indian nomination ended (**104th Amendment Act, 2019**, in force **25 January 2020**); one-third for women after delimitation (106th Amendment, 2023).
+~~ Sources: NextGen Polity - APPSC Exams p.300-301; Laxmikanth Indian Polity 8th ed. ch.33 (src/polity/laxmikanth-indian-polity-02.txt p.28-35); app notes 2:41 (sub 1); Laxmikanth 8th ed. (src/polity/laxmikanth-indian-polity-02.txt) 104th Amendment Act, 2019; Rocket Polity Part 1 (src/polity/rocket-polity-01.txt) p.33 (Anglo-Indian nomination ended after 25 Jan 2020)
 
 === Legislative Procedure – Money Bills, Ordinary Bills and Deadlock
 # Money Bills – Articles 198, 199, 207

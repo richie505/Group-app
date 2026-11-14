@@ -26,7 +26,7 @@
 === Port Types and Records – Natural, Artificial, Tidal, Riverine, Deepest, Biggest
 | Type / record | Ports | Trap |
 |---|---|---|
-| **Natural harbours** | **Mumbai** (largest natural), **Visakhapatnam** (landlocked), **Kochi**, **Mormugao**; PMF also lists Kandla and Paradip as natural ports | **Chennai is not natural** |
+| **Natural harbours** | **Mumbai** (largest natural), **Visakhapatnam** (landlocked), **Kochi**, **Mormugao**; PMF also lists Kandla and Paradip as natural ports (for Paradip: a natural deep-water **site** at the Mahanadi mouth, but its **harbour is artificial** – a dredged lagoon with two breakwaters; exam key: artificial) | **Chennai is not natural** |
 | **Artificial harbours** | **Chennai** (oldest and best-known), **Tuticorin**, **Ennore (Kamarajar)**, **Paradip** (lagoon harbour); New Mangalore is an artificial lagoon port in NextGen | Ennore is **not** a natural harbour |
 | **Tidal port** | **Kandla (Deendayal)**; Kolkata is also tidal on the Hooghly | Mumbai is not the tidal port of the books |
 | **Riverine / inland port** | **Kolkata** (only riverine major port) | Mumbai, Chennai, Vizag are sea ports |
@@ -40,7 +40,7 @@
 - **Ennore** = artificial; **Mumbai** = natural; **Mormugao** = natural (not "deepest"); **Paradip** = artificial harbour.
 - **Kolkata** handled iron ore, leather, textiles; **Visakhapatnam** – manganese ore, iron ore, coking coal.
 > Most-asked: Chennai artificial / not natural (×4), Mumbai biggest (×3), deepest (×2), natural harbour (Vizag), not a harbour (Bengaluru ×2), out-port Haldia, port-type matches (×2).
-~~ Sources: NextGen Indian Geography – APPSC 11 p.6-7 (Chennai oldest artificial, Vizag deepest landlocked, Kolkata riverine, New Mangalore artificial lagoon, Tuticorin artificial); OnlyIAS NCERT Human Geography 08 p.22-23 (Mumbai biggest natural, Paradip deepest harbour, Kolkata tidal riverine, out ports Piraeus); PMF Human & Economic Geography 01 p.105-107 (natural/tidal/riverine terms, records list, Paradip 145.38 MMT, Kandla natural, Vizag natural landlocked); web: testbook.com NDA 2015 Q (Diamond Harbour not a sea port), en.wikipedia.org/wiki/Paradip_Port; app notes 4:96 sub 7-8
+~~ Sources: NextGen Indian Geography – APPSC 11 p.6-7 (Chennai oldest artificial, Vizag deepest landlocked, Kolkata riverine, New Mangalore artificial lagoon, Tuticorin artificial); OnlyIAS NCERT Human Geography 08 p.22-23 (Mumbai biggest natural, Paradip deepest harbour, Kolkata tidal riverine, out ports Piraeus); PMF Human & Economic Geography 01 p.105-107 (natural/tidal/riverine terms, records list, Paradip 145.38 MMT, Kandla natural, Vizag natural landlocked); web: testbook.com NDA 2015 Q (Diamond Harbour not a sea port), en.wikipedia.org/wiki/Paradip_Port; app notes 4:96 sub 7-8; PMF Human  Economic Geography 01 p.108 (Paradip "natural port"); en.wikipedia.org/wiki/Paradip_Port (artificial lagoon-type harbour, two rubble-mound breakwaters 538 m and 1,217 m)
 
 === Coastline, Major and Non-major Ports, LNG Terminals, Sagarmala
 - **Coastline (official, revised):** **11,098.81 km** incl. islands (PIB 4 Dec 2025; Ports Ministry circular 29 Apr 2025) – old figure **7,516.6 / 7,517 km**. **Gujarat 2,340.62 km (longest)**, Tamil Nadu 1,068.69 km (2nd), **Andhra Pradesh 1,053.07 km (3rd)**.

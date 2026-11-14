@@ -84,5 +84,5 @@
 | Solicitor General | **C.K. Daphtary** | **Tushar Mehta** (from 2018; reappointed for 3 years from 1 July 2026) |
 - **K.K. Venugopal** = AG of the **2017-2022** period (APPSC FRO 2022 key); "the current AG is Mukul Rohatgi" was wrong in 2018 (AG then: Venugopal).
 - **Soli Sorabjee** = AG when Uttarakhand PCS (Mains) 2002 asked (also AG 1989-90).
-> Asked as: SG is "a legal adviser" (UPPSC 1991, 1994); current AG at the time of the exam (Sorabjee 2002; Venugopal 2018-2023 papers; not Rohatgi) – check the year, these keys age.
-~~ Sources: Laxmikanth 8th ed. Ch53 (src/polity/laxmikanth-indian-polity-02.txt) p.189; app notes 2:72 sub 4, 7-8; lawmin.gov.in / PIB (law officers' appointments, 2022, 2025, 2026)
+> Asked as: SG is "a legal adviser" (UPPSC 1991, 1994); current AG at the time of the exam (Sorabjee 2002; Venugopal for papers of 2018 – Sep 2022; not Rohatgi; from **1 Oct 2022** the AG is **R. Venkataramani** – a "July 2023" stem naming Venugopal as AG is factually wrong) – check the year, these keys age.
+~~ Sources: Laxmikanth 8th ed. Ch53 (src/polity/laxmikanth-indian-polity-02.txt) p.189; app notes 2:72 sub 4, 7-8; lawmin.gov.in / PIB (law officers' appointments, 2022, 2025, 2026); Praveen CA-360 Jul 2026 (src/current-affairs/praveen-ca360-2026-07-magazine.txt) – AG R. Venkataramani

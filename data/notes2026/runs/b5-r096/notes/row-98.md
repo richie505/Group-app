@@ -81,8 +81,8 @@
 | Brominated flame retardants | Electronics, plastics, foam; persistent, endocrine-disrupting; released from **e-waste** |
 | Ammonia (NCR) | 77-80% from **fertilisers + livestock** |
 | Open burning (Bhogi bonfires) | Tyres, plastics, flex, e-waste → dioxins, furans, CO, SO2, NOx, lead, cadmium, mercury (APPCB advisory, 11 Jan 2026) |
-- UPSC 2023 mercury statements: gold mining and coal plants are mercury sources; "no known safe level of exposure" is disputed between answer keys (PMF: true → **all three**; Vajiram and others: false → **only two**).
-~~ Sources: NextGen Environment APPSC 09 p.10; PMF Environment Part 05 p.13-14; Rocket Environment p.21; app notes 5:98 sub 4; vajiramandravi.com UPSC 2023 mercury question (only two)
+- UPSC 2023 mercury statements: gold mining and coal plants are mercury sources; "no known safe level of exposure" is rejected as absolute – **UPSC official key: only two** (GKToday, Vajiram); ⚠ PMF Environment notes print "all three".
+~~ Sources: NextGen Environment APPSC 09 p.10; PMF Environment Part 05 p.13-14; Rocket Environment p.21; app notes 5:98 sub 4; vajiramandravi.com and gktoday.in/question/...-272317 (UPSC 2023 mercury: official only two)
 
 === Pollutant → Effect Pairs and Biomagnification
 | Pollutant | Effect |

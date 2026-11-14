@@ -40,7 +40,7 @@
 # Bills
 - **First Lokpal Bill: May 1968** (introduced **9 May 1968**, 4th Lok Sabha, Indira Gandhi govt); **passed by the Lok Sabha in 1969**, **lapsed** when the Lok Sabha was dissolved before the Rajya Sabha passed it.
 - **⚠ Trap: 1968 = introduced; 1969 = passed by the Lok Sabha.** "First introduced" = **1968**.
-- Re-introduced in **1971, 1977, 1985, 1989, 1996, 1998, 2001, Aug 2011, Dec 2011** (ten attempts in all); the tenth (Lokpal and Lokayuktas Bill, 2011) became the 2013 Act.
+- Re-introduced in **1971, 1977, 1985, 1989, 1996, 1998, 2001, Aug 2011, Dec 2011** (ten attempts in all – Laxmikanth); many books also list **2005 and 2008** ("1968 … 2001, 2005, 2008" – Indian Express via Wikipedia); the tenth (Lokpal and Lokayuktas Bill, 2011) became the 2013 Act.
 | Stage (Lokpal Bill / Lokpal and Lokayuktas Bill, 2011) | Date |
 |---|---|
 | Lokpal Bill introduced in the Lok Sabha by **V. Narayanasamy**, Minister of State for Parliamentary Affairs (not P. Chidambaram) | **4 August 2011** |
@@ -59,7 +59,7 @@
 - The Act also amended the **DSPE Act, 1946**: PM-led committee for the **CBI Director**; **Directorate of Prosecution** for the CBI.
 - Original Act: public servant declares assets and liabilities within **30 days** of entering office; **2016 amendment**: form and manner prescribed by the **Central Government**.
 > Angles: year/date items dominate (first Bill 1968 ×4, LS passage Dec 2011 ×3, in force 16 Jan 2014 ×3); statement item on the 2011 Bill (introduced 4 Aug 2011, Standing Committee, "weak" → 1, 3, 4).
-~~ Sources: Laxmikanth 8th ed. ch.66 p.724-726 (laxmikanth-indian-polity-02 p.272-274); Rocket Polity Part 1 p.5, p.6; PMF Polity Part 4 ch.63 p.29; app notes 2:75 sub 1
+~~ Sources: Laxmikanth 8th ed. ch.66 p.724-726 (laxmikanth-indian-polity-02 p.272-274); Rocket Polity Part 1 p.5, p.6; PMF Polity Part 4 ch.63 p.29; app notes 2:75 sub 1; Laxmikanth 8th ed. ch.66 p.724-725 (ten Bills; no 2005/2008); en.wikipedia.org/wiki/Lokpal (2005, 2008, citing Indian Express 30 Jan 2019)
 
 === Ombudsman Idea and Recommending Bodies
 # Origin
