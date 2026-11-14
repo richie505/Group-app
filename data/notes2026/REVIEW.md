@@ -807,3 +807,12 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## b6-r090 (CA rows 90-92 awards/persons)
 - No key changes. Spelling variants shown: Miss World 2026 Zohery Mola / Joheirry Mola Dominguez; Theja/Teja Rio; Goldman names.
+
+## b6-r083 (CA row 83 reports Sep–Nov 2026)
+- No key changes. 25 own MCQs on earlier report editions moved to rows 84–89 (84 already rebuilt) — need place pass.
+- GHI 2026 publishers: Welthungerhilfe, IFHV, Helvetas (Rocket wrong). Unverified: Guntur SVS 2026 joint 2nd (f5fedf6807fdc).
+
+## b6-r081 (CA rows 81-82 Ramsar, environment places)
+- Own MCQ n9bc5e179f76 Gaja Mitra: add_option "Assam" (old notes said Karnataka). Dispute y130e2c1b0f4 national fish (as b4-r083).
+- y1816b2597cb stem "March 2024" — Ramsar award was March 2025. Ramsar 103 (Glaw 101, Sukhna 102, Sauj 103).
+- PMF vs app Ramsar years differ for Sakkarakottai/Therthangal, Nagi/Nakti.
