@@ -20,15 +20,15 @@ Data: 133 PYQs (keys.jsonl), 134 app MCQs, 267 in all (all-mcqs.json). Counts fr
 | APPSC and other AP recruitments (G1, G2, FRO, ASO, AEE, JL, Sachivalayam, AP HC) | 50 |
 | UPPSC / UPPCS (Pre, Mains, Lower, RO/ARO, UDA/LDA) | 27 |
 | "State PSC" (undated mixes) | 20 |
-| UPSC CSE / IAS Pre (1990–2019) | 11 |
-| Others (MPPSC, RAS, BPSC, UKPSC, Jharkhand, CGPSC, WBCS, SSC, CDS, RRB) | 25 |
+| UPSC CSE / IAS Pre (1990–2019) | 7 |
+| Others (MPPSC, RAS, BPSC, UKPSC, Jharkhand, CGPSC, WBCS, SSC, CDS, RRB, some IAS labels) | 29 |
 
 - **Years:** 1990s 14, 2000s 25, 2010s 41, 2020s 9 (UKPSC 2024, APPSC G1 2023 latest); 44 undated.
 
-### Angles (125 on-topic PYQs)
+### Angles (125 on-topic PYQs, by dominant angle)
 | Angle | PYQs |
 |---|---|
-| Factual recall (book–author, title–person, founder, year) | 104 |
+| Factual recall (book–author, title–person, founder, year) | 88 |
 | Pairs / match (correct or NOT matched) | 11 (APPSC pairs ×3, State PSC ×2, IAS 1995, UPPCS 2006, UPSC 2019, APPSC ASO match, Khaksars match, flag pairs) |
 | Statements | 3 (UPSC 2019 Gandhi, APPSC G1 2023 Velu Nachiyar, Statue of Unity) |
 | Chronology | 2 (APPSC G1 2017 rebels; UPPCS 2004 Congress presidents) |
