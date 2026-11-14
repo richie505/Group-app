@@ -1360,3 +1360,16 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 398 → 81 kept + 81 new (162, 41%); new 48 statements / 18 match / 14 A–R / 1 sequence; no lines lost.
 - Row 210 conflict: Vijayawada AICC 30–31 Mar 1921 (0:7.2) vs 31 Mar–1 Apr 1921 (3:10) — reconcile.
 - Removed as not in notes: Delhi Durbar 1911, Vanchi Aiyar, Pacific Coast Hindustan Association, Hasan Imam, Hindutva 1923, In Search of Freedom — possible notes gaps. gd9a7792e0643 (Sarfaroshi ki Tamanna → Bismil Azimabadi) removed; PYQ keyed Ram Prasad Bismil, notes explain both.
+
+## rewrite b2-w083 (rows 83–87)
+- own 382 → 62 kept + 87 new (149, 39%); new 49 statements / 20 match / 17 A–R / 1 sequence; no lines lost.
+- 9 own MCQs removed as not in notes (5th SFC chair, ordinance term, Principal Secretary rank, 660 mandals, MPI 12 indicators, "electoral autocracy", …) — possible notes gaps.
+- 83:3:8 five-district list "not checked"; 84:1:21 ratio "8 : 16 : 8" looks odd — verify.
+
+## rewrite b1-w211 (rows 211–217)
+- own 421 → 74 kept + 82 new (156, 37%); new 46 statements / 21 match / 15 A–R; 2 of 246 lines lost.
+- Wrong own keys removed: n10b42703ee0 ("Abhinava Nannaya" = Viswanatha; notes Rayaprolu), nd2c468b4dc5 (1860 Indigo Commission outlawed Tinkathia — Tinkathia is Champaran 1917–18), f4269d1221c33 (Konda APCC President 1918–23; notes: Secretary 1918), g57671b8efe95 ("Poet of the Millennium" = Sri Sri; notes Jashuva).
+
+## rewrite b4-w081 (rows 81–84)
+- own 402 → 71 kept + 89 new (160, 40%); new 51 statements / 28 match / 10 A–R; no lines lost.
+- f2f22ff63c2dd (AP milk rank "7th in 2025-26"; notes 7th in 2023-24) merged with fix; n2d7d035b37e (Rayalaseema sugarcane irrigation, not in notes) removed.

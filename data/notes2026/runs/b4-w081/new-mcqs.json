@@ -5,11 +5,11 @@
   "s": "Consider the following statements:\n1. Uttar Pradesh was the largest producer of rice in India in 2024-25.\n2. Telangana ranked second in rice production in 2024-25, ahead of West Bengal.\n3. In 2024-25 Punjab was the second largest producer of wheat after Uttar Pradesh.\n4. Madhya Pradesh, Karnataka and Bihar are now the leading maize-producing States.\nWhich of the statements given above are correct?",
   "o": [
    "1 and 2 only",
-   "1, 2 and 4 only",
+   "1, 2, 3 and 4",
    "2, 3 and 4 only",
-   "1, 2, 3 and 4"
+   "1, 2 and 4 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statement 3 is wrong: in 2024-25 wheat ran UP 35.65 > Madhya Pradesh 24.51 > Punjab 17.99 MT, so MP, not Punjab, was second. Rice 2024-25: UP 20.76 > Telangana 17.45 > West Bengal 16.02 MT; maize now MP, Karnataka, Bihar.",
   "src": "app",
   "tq": "statements"
@@ -34,12 +34,12 @@
   "row": 81,
   "s": "Consider the following statements:\n1. Andhra Pradesh produced 161.86 lakh MT of foodgrains in 2024-25.\n2. Maize is the principal foodgrain crop of Andhra Pradesh by production.\n3. The cropping intensity of Andhra Pradesh rose from 1.21 in 2023-24 to 1.88 in 2024-25.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "2 and 3 only",
    "1 and 3 only",
+   "2 and 3 only",
+   "1 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Statement 2 is wrong: paddy (127.15 lakh MT) is AP's principal foodgrain, not maize. AP foodgrains were 161.86 lakh MT on 37.51 lakh ha, and cropping intensity rose 1.21 → 1.88.",
   "src": "app",
   "tq": "statements"
@@ -49,12 +49,12 @@
   "row": 81,
   "s": "Match List I with List II:\nList I (Crop)\na. Maize\nb. Gram\nc. Bitter gourd\nd. Soybean\nList II (Season)\ni. Kharif\nii. Rabi\niii. Grown throughout the year\niv. Zaid\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-iv, c-i, d-ii",
    "a-ii, b-iv, c-iii, d-i",
    "a-i, b-iii, c-iv, d-ii",
-   "a-iii, b-iv, c-i, d-ii"
+   "a-iii, b-ii, c-iv, d-i"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Maize grows throughout the year (mainly kharif, also rabi in Bihar); gram is a rabi pulse; bitter gourd is a zaid crop; soybean is kharif.",
   "src": "app",
   "tq": "match"
@@ -64,12 +64,12 @@
   "row": 81,
   "s": "Consider the following statements:\n1. Moong is a rabi pulse of north India.\n2. Aus, aman and boro, the three rice crops of West Bengal, are all paddy crops.\n3. Aman rice is sown in June-July and harvested in November-December.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "2 and 3 only",
+   "1 and 2 only",
    "3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Statement 1 is wrong: moong is a kharif pulse (with tur and urad) and is listed as NOT rabi; gram, masoor and pea are the rabi pulses. Aus, aman and boro are all paddy; aman is sown June-July and harvested Nov-Dec.",
   "src": "app",
   "tq": "statements"
@@ -111,10 +111,10 @@
   "o": [
    "1 and 3 only",
    "2, 3 and 4 only",
-   "1, 2 and 4 only",
-   "1, 2, 3 and 4"
+   "1, 2, 3 and 4",
+   "1, 2 and 4 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statement 3 is wrong: 56.4% of net sown area is irrigated, not 60%. Net sown area 141 MH, cropping intensity 155.4%, drip/sprinkler ~12% (wells and tube wells over 63%).",
   "src": "app",
   "tq": "statements"
@@ -124,12 +124,12 @@
   "row": 81,
   "s": "Consider the following statements:\n1. The USA is the world's leading producer of maize, followed by China and Brazil.\n2. Brazil is among the world's four leading producers of potato.\n3. India has the second largest arable land in the world, after the USA.\nWhich of the statements given above is/are NOT correct?",
   "o": [
-   "1 only",
    "2 only",
+   "1 only",
    "1 and 3 only",
    "2 and 3 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Only statement 2 is wrong: the potato leaders are China > India, Russia, Ukraine – not Brazil. Maize is led by USA > China > Brazil (US Corn Belt), and India's arable land is second after the USA.",
   "src": "app",
   "tq": "statements"
@@ -171,10 +171,10 @@
   "o": [
    "a-i, b-ii, c-iv, d-iii",
    "a-iii, b-ii, c-i, d-iv",
-   "a-iii, b-i, c-iv, d-ii",
-   "a-ii, b-i, c-iii, d-iv"
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iii, b-i, c-iv, d-ii"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Bajra – hot, dry, sandy (driest); ragi – red soils, low rain; jowar – peninsular semi-arid, drought tolerant; pulses – rainfed, fix nitrogen.",
   "src": "app",
   "tq": "match"
@@ -184,12 +184,12 @@
   "row": 81,
   "s": "Match List I with List II:\nList I (Person)\na. Norman Borlaug\nb. M.S. Swaminathan\nc. William Gaud\nd. B.P. Pal\nList II (Role in the Green Revolution)\ni. Coined the term in 1968\nii. Nobel Peace Prize, 1970\niii. First Director-General of ICAR\niv. Evergreen Revolution\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iv, b-iii, c-i, d-ii",
    "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-iii, c-i, d-ii",
    "a-iii, b-iv, c-ii, d-i",
    "a-iii, b-ii, c-i, d-iv"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Borlaug (Mexican dwarf wheat) – Nobel Peace 1970; Swaminathan – Father of the Green Revolution in India, Evergreen Revolution; William Gaud coined the term (1968); B.P. Pal – first DG of ICAR.",
   "src": "app",
   "tq": "match"
@@ -200,11 +200,11 @@
   "s": "Consider the following statements:\n1. The New Agricultural Strategy was adopted in the mid-1960s after the droughts of 1965-67.\n2. Before the Green Revolution India imported wheat under the Marshall Plan.\n3. The High Yielding Varieties Programme began from Kharif 1966.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 3 only",
+   "1, 2 and 3",
    "2 and 3 only",
-   "1, 2 and 3"
+   "1 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statement 2 is wrong: the imports were under PL-480, not the Marshall Plan. The New Agricultural Strategy followed the 1965-67 droughts and the HYV Programme began from Kharif 1966.",
   "src": "app",
   "tq": "statements"
@@ -244,12 +244,12 @@
   "row": 81,
   "s": "Match List I with List II:\nList I (Cropping practice)\na. Relay cropping\nb. Ratoon cropping\nc. Parallel cropping\nd. Intercropping\nList II (Meaning)\ni. Crops together in definite rows, e.g. tur + jowar\nii. Next crop sown into the standing crop\niii. Crops of different habit without competition, e.g. maize + green gram\niv. Regrowth from the stubble\nSelect the correct answer using the code given below:",
   "o": [
-   "a-ii, b-iv, c-iii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
    "a-i, b-ii, c-iii, d-iv",
    "a-iii, b-ii, c-iv, d-i",
-   "a-iii, b-iv, c-i, d-ii"
+   "a-ii, b-iv, c-iii, d-i"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Relay – next crop sown into the standing crop; ratoon – regrowth from stubble; parallel – different habit, no competition (maize + green gram, wheat + mustard); intercropping – definite rows (tur + jowar).",
   "src": "app",
   "tq": "match"
@@ -259,12 +259,12 @@
   "row": 81,
   "s": "Consider the following statements:\n1. Bajra accounts for about 60 per cent of India's millet output.\n2. Kodo is one of the major millets of India.\n3. Proso millet is called chena and little millet kutki.\n4. Millets are promoted in India under the brand 'Shree Anna'.\nWhich of the statements given above are correct?",
   "o": [
-   "1 and 2 only",
-   "2, 3 and 4 only",
    "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1 and 2 only",
    "1, 2, 3 and 4"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Statement 2 is wrong: kodo is a minor millet (with foxtail/kangni, little/kutki, proso/chena); the major millets are bajra (~60% of output), jowar and ragi. Millets are branded Shree Anna (2023, UN International Year of Millets).",
   "src": "app",
   "tq": "statements"
@@ -305,11 +305,11 @@
   "s": "Consider the following statements:\n1. Bringing Green Revolution to Eastern India (BGREI) covers Punjab.\n2. BGREI was launched in 2010-11 under the Rashtriya Krishi Vikas Yojana.\n3. BGREI targets the rice-based cropping system.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
-   "2 only",
    "2 and 3 only",
+   "2 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Statement 1 is wrong: BGREI covers Assam, Bihar, Chhattisgarh, Jharkhand, Odisha, eastern UP and West Bengal – not Punjab. It began in 2010-11 under RKVY for the rice-based system.",
   "src": "app",
   "tq": "statements"
@@ -334,12 +334,12 @@
   "row": 81,
   "s": "Consider the following statements:\n1. The Planning Commission divided India into 15 agro-climatic zones.\n2. These zones are divided into 72 sub-zones.\n3. The 20 agro-ecological zones of India were identified by the India Meteorological Department.\nWhich of the statements given above is/are NOT correct?",
   "o": [
-   "1 only",
-   "2 only",
    "3 only",
+   "2 only",
+   "1 only",
    "1 and 3 only"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Only statement 3 is wrong: the 20 agro-ecological zones are by the National Bureau of Soil Survey and Land Use Planning (NBSS&LUP), not IMD. The Planning Commission's 15 agro-climatic zones have 72 sub-zones.",
   "src": "app",
   "tq": "statements"
@@ -366,10 +366,10 @@
   "o": [
    "a-i, b-iii, c-iv, d-ii",
    "a-iv, b-iii, c-ii, d-i",
-   "a-iv, b-i, c-iii, d-ii",
-   "a-ii, b-iv, c-iii, d-i"
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iv, b-i, c-iii, d-ii"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Black rust – Puccinia (fungus); tungro – virus; white bud of maize – zinc deficiency; ear cockle – nematode Anguina tritici.",
   "src": "app",
   "tq": "match"
@@ -484,12 +484,12 @@
   "row": 82,
   "s": "Consider the following statements:\n1. Plantation crops such as tea, coffee, rubber and coconut are labour-intensive and capital-intensive.\n2. Colonial plantations of tea, coffee, rubber and indigo were peasant-run and subsistence-oriented.\n3. Wheat, rice and jowar are all food crops.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
    "1 and 3 only",
+   "1 only",
    "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Statement 2 is wrong: colonial plantations were European-dominated and export-oriented. Plantation crops are labour- and capital-intensive, and wheat, rice and jowar are food crops.",
   "src": "app",
   "tq": "statements"
@@ -501,10 +501,10 @@
   "o": [
    "1, 2 and 3 only",
    "2 and 4 only",
-   "1, 3 and 4 only",
-   "1, 2, 3 and 4"
+   "1, 2, 3 and 4",
+   "1, 3 and 4 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statement 2 is wrong: tea in Africa was first grown at the Durban Botanical Garden (1850). Assam's Brahmaputra valley had the first plantations (1830s), Darjeeling Tea was the first GI, and Araku Arabica coffee got its GI in 2019.",
   "src": "app",
   "tq": "statements"
@@ -514,12 +514,12 @@
   "row": 82,
   "s": "Match List I with List II:\nList I (Plantation area)\na. Dooars\nb. Baba Budan hills\nc. Araku valley\nd. Kangra\nList II (State)\ni. Himachal Pradesh\nii. West Bengal\niii. Karnataka\niv. Andhra Pradesh\nSelect the correct answer using the code given below:",
   "o": [
-   "a-ii, b-iv, c-i, d-iii",
-   "a-iv, b-iii, c-i, d-ii",
    "a-ii, b-iii, c-iv, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iv, c-i, d-iii",
    "a-iv, b-ii, c-iii, d-i"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Dooars (tea) – West Bengal; Baba Budan hills (first coffee, Arabica) – Karnataka; Araku valley (Arabica coffee) – Andhra Pradesh; Kangra (tea) – Himachal Pradesh.",
   "src": "app",
   "tq": "match"
@@ -574,12 +574,12 @@
   "row": 82,
   "s": "Consider the following statements:\n1. Minimum Support Prices are announced for 23 agricultural commodities.\n2. Seven oilseeds are covered under the MSP system.\n3. Coffee is one of the commodities covered under MSP.\nWhich of the statements given above are correct?",
   "o": [
-   "1 and 2 only",
+   "1, 2 and 3",
    "2 and 3 only",
    "1 and 3 only",
-   "1, 2 and 3"
+   "1 and 2 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Statement 3 is wrong: coffee, areca nut and turmeric are not MSP crops. MSP covers 23 commodities – 7 cereals, 5 pulses, 7 oilseeds (groundnut, rapeseed-mustard, soybean, sesamum, sunflower, safflower, nigerseed) and commercial crops.",
   "src": "app",
   "tq": "statements"
@@ -650,11 +650,11 @@
   "s": "Match List I with List II:\nList I (Revolution)\na. Brown Revolution\nb. Round Revolution\nc. Silver Fibre Revolution\nd. Golden Revolution\nList II (Related to)\ni. Horticulture and honey\nii. Cotton\niii. Potato\niv. Leather\nSelect the correct answer using the code given below:",
   "o": [
    "a-i, b-iii, c-iv, d-ii",
-   "a-i, b-iv, c-ii, d-iii",
    "a-iv, b-iii, c-ii, d-i",
+   "a-i, b-iv, c-ii, d-iii",
    "a-iii, b-ii, c-iv, d-i"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Brown – leather (and non-conventional energy); Round – potato; Silver Fibre – cotton (Technology Mission on Cotton); Golden – horticulture and honey.",
   "src": "app",
   "tq": "match"
@@ -688,5 +688,650 @@
   "x": "Statements 3 and 4 are wrong: MIDH is 60:40 in general but 90:10 for NE and Himalayan States, and Arunachal Pradesh produces over 50% of kiwi (Bihar leads litchi). India is 2nd in fruits and vegetables and horticulture gives ~30.4% of agricultural GDP.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp8d34124059c5",
+  "row": 83,
+  "s": "Match List I with List II:\nList I (Silk)\na. Eri\nb. Muga\nc. Tropical tasar\nd. Oak tasar\nList II (Food plant of the silkworm)\ni. Terminalia (Arjun) and Sal\nii. Castor and tapioca\niii. Oak\niv. Som and Soalu\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "Eri ('peace silk') – castor and tapioca; muga (Antheraea assamensis) – som and soalu; tropical tasar – Terminalia (Arjun, Nallamaddi) and sal; oak (temperate) tasar – oak.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbdd5505066d6",
+  "row": 83,
+  "s": "Consider the following statements:\n1. Andhra Pradesh is the second largest producer of mulberry silk in India.\n2. Oak (temperate) tasar silk is mainly produced in Manipur.\n3. Muga silk, produced by Antheraea assamensis, is unique to Assam.\n4. The Central Silk Board is headquartered at Hyderabad.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "2 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "Statement 4 is wrong: the Central Silk Board is at Bengaluru. AP is 2nd in mulberry (Karnataka 1st), oak tasar is mainly Manipur, and muga is Assam's own silk.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp893cfb3f276b",
+  "row": 83,
+  "s": "Match List I with List II:\nList I (Activity)\na. Apiculture\nb. Sericulture\nc. Lac culture\nd. Pisciculture\nList II (Product)\ni. Fish\nii. Resin secreted by an insect, used for shellac\niii. Honey and bee-wax\niv. Silk\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 1,
+  "x": "Apiculture – honey and bee-wax; sericulture – silk; lac culture – the resin of the lac insect (shellac, sealing wax); pisciculture – fish.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2db0fe9bd629",
+  "row": 83,
+  "s": "Consider the following statements:\nAssertion (A): Older books and keys name Bihar as India's largest producer of lac.\nReason (R): Jharkhand, now the largest lac producer, was part of Bihar till 2000.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: Jharkhand (largest today, Chhattisgarh next) was carved out of Bihar in 2000, so older keys – e.g. 'largest sealing wax State' – say Bihar.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp082d51dd68ab",
+  "row": 83,
+  "s": "Match List I with List II:\nList I (Breed)\na. Gir\nb. Hallikar\nc. Kadaknath\nd. Jamunapari\nList II (Native State)\ni. Karnataka\nii. Uttar Pradesh\niii. Gujarat\niv. Madhya Pradesh\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 2,
+  "x": "Gir (and Kankrej) – Gujarat; Hallikar (draught) – Karnataka; Kadaknath (black-meat poultry) – Madhya Pradesh; Jamunapari goat – Uttar Pradesh.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp09b4ea3599ee",
+  "row": 83,
+  "s": "Match List I with List II:\nList I (Breed)\na. Murrah\nb. Barbari\nc. Ghungroo\nd. Asil\nList II (Animal)\ni. Poultry\nii. Buffalo\niii. Pig\niv. Goat\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 2,
+  "x": "Murrah (and Bhadawari) – buffalo; Barbari (and Jamunapari) – goat; Ghungroo – pig (West Bengal); Asil (Aseel) – poultry. Gir is cattle, not buffalo.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp58f5748c44ba",
+  "row": 83,
+  "s": "Consider the following statements:\n1. Ongole is a draught cattle breed of Prakasam district.\n2. Punganur is a dwarf cattle breed of Chittoor district.\n3. Frieswal is a buffalo breed of Haryana.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Frieswal is a synthetic cattle breed (Holstein-Friesian × Sahiwal, about 7,000 kg milk per lactation). Ongole (Prakasam) and Punganur (dwarf, Chittoor) are AP cattle breeds.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7f88602b09a6",
+  "row": 83,
+  "s": "Consider the following statements:\n1. India produced 247.87 million tonnes of milk in 2024-25.\n2. India's per capita milk availability in 2024-25 was 485 g/day.\n3. Operation Flood was launched in 1970 by the National Dairy Research Institute.\n4. Verghese Kurien is called the Father of the White Revolution.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: Operation Flood (1970) was launched by the NDDB (Anand); NDRI is at Karnal. Milk 247.87 MT, 485 g/day and Kurien are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb86d8551c17e",
+  "row": 83,
+  "s": "Consider the following statements:\nAssertion (A): India is the world's largest producer of milk.\nReason (R): Holstein-Friesian has the highest milk yield of all cattle breeds in the world.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true but R does not explain A: India leads with 247.87 MT (2024-25) through its huge bovine population and cooperatives (Operation Flood); Holstein-Friesian, a Netherlands breed, is simply the highest-yielding breed.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd27e3aa85da8",
+  "row": 83,
+  "s": "Match List I with List II:\nList I (Scheme)\na. Rashtriya Gokul Mission\nb. Animal Husbandry Infrastructure Development Fund\nc. PMFME\nd. PMMSY\nList II (Aim)\ni. One District One Product\nii. Fisheries development (2020)\niii. Milk- and meat-processing capacity\niv. Conserve and develop indigenous bovine breeds\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Rashtriya Gokul Mission (2014) – indigenous bovine breeds; AHIDF – milk- and meat-processing capacity; PMFME (2020) – One District One Product; PMMSY – fisheries, 2020.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpdae4ad7c65bb",
+  "row": 83,
+  "s": "Consider the following statements:\n1. The 20th Livestock Census was conducted in 2019.\n2. It recorded about 535.78 million livestock.\n3. The 21st Livestock Census (2024-25) was fully digital.\n4. During FY15-FY24 livestock grew faster than fisheries.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "4 only",
+   "3 only",
+   "1 only",
+   "2 and 4 only"
+  ],
+  "a": 0,
+  "x": "Only statement 4 is wrong: fisheries grew faster (about 8.8% a year) than livestock (about 7.1%). The 20th Census (2019) counted 535.78 million livestock and 851.81 million poultry; the 21st (2024-25) was fully digital.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0ba1baf7ce93",
+  "row": 83,
+  "s": "Match List I with List II:\nList I (Produce)\na. Mango\nb. Litchi\nc. Kiwi\nd. Loose flowers\nList II (Leading State)\ni. Tamil Nadu\nii. Bihar\niii. Uttar Pradesh\niv. Arunachal Pradesh\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "Mango – Uttar Pradesh (AP 2nd); litchi – Bihar; kiwi – Arunachal Pradesh (over 50%); loose flowers – Tamil Nadu now (Karnataka in older keys).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp178f4fbe2351",
+  "row": 83,
+  "s": "Consider the following statements:\n1. India's horticulture output in 2024-25 was 362.08 million tonnes.\n2. Horticulture contributes about 33 per cent of India's agricultural GVA.\n3. Andhra Pradesh is India's largest fruit-producing State, with about 15.6 per cent of output.\n4. Andhra Pradesh ranks first in India in cashew productivity.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: AP ranks first in cocoa productivity, not cashew. Horticulture 362.08 MT (above foodgrains), about 33% of agricultural GVA, and AP is the largest fruit State (~15.6%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf76e930f636f",
+  "row": 83,
+  "s": "Consider the following statements:\n1. In 2024-25 India overtook China to become the largest producer of rice.\n2. India is the largest producer of vegetables in the world.\n3. India is the second largest egg producer, with 149.11 billion eggs in 2024-25.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 0,
+  "x": "Only statement 2 is wrong: India is 2nd in vegetables and fruits (China 1st). India is now 1st in rice (overtook China in 2024-25) and 2nd in eggs (149.11 billion).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp39731484bcd7",
+  "row": 83,
+  "s": "Consider the following statements:\n1. Capture fishery is the harvest of wild fish stock.\n2. Cold-water fisheries such as trout are found above 1,500 m.\n3. India is the largest fish producer in the world.\n4. Inland fisheries give more than 75 per cent of India's fish.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: India is 2nd in fish and aquaculture (China 1st). Capture = wild stock (culture = controlled farming), trout above 1,500 m, and inland gives over 75%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2ca404515477",
+  "row": 83,
+  "s": "Match List I with List II:\nList I (Institute)\na. Central Institute of Freshwater Aquaculture\nb. Central Marine Fisheries Research Institute\nc. Central Sheep and Wool Research Institute\nd. High Security Animal Disease Laboratory\nList II (Location)\ni. Kochi\nii. Bhopal\niii. Bhubaneswar\niv. Avikanagar\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "CIFA – Bhubaneswar; CMFRI (and CIFT) – Kochi; CSWRI – Avikanagar (Rajasthan); HSADL – Bhopal.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1c2d5da841bd",
+  "row": 83,
+  "s": "Consider the following statements:\nAssertion (A): The Blue Revolution is related to poultry.\nReason (R): The Silver Revolution is related to eggs and poultry.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: Blue Revolution = fish ('Blue – Poultry' is the classic wrong pair). R is true: Silver Revolution = eggs/poultry.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp1cf77a81a957",
+  "row": 83,
+  "s": "Consider the following statements:\n1. Tea is a plantation crop under the Ministry of Commerce.\n2. Arecanut is a plantation crop of the tropical humid climate.\n3. Coconut and cashew are plantation crops under the Ministry of Commerce.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: coconut, arecanut, oil palm, cocoa and cashew are under the Ministry of Agriculture; Commerce handles tea, coffee, rubber (and spices). Arecanut is a tropical humid plantation crop (Karnataka, Kerala).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3d3cec95ec5b",
+  "row": 83,
+  "s": "Consider the following statements:\n1. Processed food formed about 23 per cent of India's agri-food exports in 2024-25.\n2. The APEDA Act was passed in 1987.\n3. PM Kisan SAMPADA Yojana (2017) is a Central Sector scheme with an integrated cold-chain component.\n4. Two Mega Food Parks are operational in Andhra Pradesh, including Srini in Chittoor.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: the APEDA Act is of 1985. Processed food ~23% of agri-food exports, PM Kisan SAMPADA (2017, cold chain) and AP's two Mega Food Parks (Srini – Chittoor; Godavari Mega Aqua – West Godavari) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp23427320082e",
+  "row": 84,
+  "s": "Consider the following statements:\n1. East Godavari is known as the 'Rice Bowl of Andhra Pradesh'.\n2. Cotton in Andhra Pradesh is associated with the black soils of Rayalaseema and the districts of Guntur and Kurnool.\n3. Tobacco in Andhra Pradesh is grown mainly in Alluri Sitharama Raju district.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: AP's tobacco (FCV) is grown mainly in Prakasam and Guntur; ASR district (Araku) is known for coffee. East Godavari is the Rice Bowl, and cotton is on Rayalaseema black soils, Guntur and Kurnool.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb9033b878d42",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Paddy gives about 79 per cent of Andhra Pradesh's foodgrain output from about 56 per cent of the foodgrain area.\n2. The cropping pattern of AP is shifting towards oilseeds, millets, horticulture and oil palm.\n3. Coarse cereals are shrinking in AP for lack of MSP procurement.\n4. Coffee is one of the 11 crops whose productivity is targeted under AP's 17 growth engines.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the 11 crops are paddy, maize, jowar, bajra, ragi, redgram, blackgram, bengalgram, groundnut, sunflower and sesamum – not coffee; the 17 growth engines aim at 30% agricultural growth in five years. The other three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1879c8e112df",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Kharif is the main crop season of Andhra Pradesh, with a normal area of about 31.16 lakh ha.\n2. The normal Rabi area of AP in 2024-25 was 21.52 lakh ha.\n3. AP's cropping intensity of 1.88 relates to 2023-24.\n4. The 51 per cent rainfall shortfall of Kharif 2026 led to a shift towards paddy.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 3 and 4 are wrong: the cropping intensity of 1.88 is for 2024-25 (1.21 in 2023-24), and the Kharif 2026 shortfall (51%, 1 June–25 August) led to a water-budgeted shift to pulses, not paddy. The Kharif (31.16 lakh ha) and Rabi (21.52 lakh ha) normals are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcec2e0b70e60",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Andhra Pradesh ranks first in India in fish and shrimp production.\n2. AP produced about 30 per cent of India's fish in 2024-25.\n3. AP's fish production in 2024-25 was 55.39 LMT.\n4. AP recorded the highest inland fish landings in India in 2016-17.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: AP's highest inland fish landings were in 2019-20. AP is 1st in fish and shrimp, with about 30% of India's fish (2024-25; ~29% in 2025-26) and 55.39 LMT.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5d0eb1f60512",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Shrimp makes up about 70 per cent of Andhra Pradesh's seafood export basket.\n2. AP accounts for about 32 per cent of India's seafood exports.\n3. Black tiger shrimp is AP's main export item.\n4. IQF stands for Individually Quick Frozen.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "3 and 4 only",
+   "1 and 3 only",
+   "3 only"
+  ],
+  "a": 3,
+  "x": "Only statement 3 is wrong: the main export is Vannamei (white-leg) shrimp. Shrimp ~70% of AP's exports, AP ~32% of India's seafood exports, and IQF = Individually Quick Frozen.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8ae047c9067a",
+  "row": 84,
+  "s": "Consider the following statements:\nAssertion (A): Andhra Pradesh leads India in fish and shrimp production.\nReason (R): Andhra Pradesh has the longest coastline in India.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: AP is 1st in fish and shrimp (about 30% of India's fish). R is false: AP's coastline of 1,053.07 km is the 3rd longest after the 2025 revision (974 km and 2nd on the old measure).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp290b6933d6d7",
+  "row": 84,
+  "s": "Match List I with List II:\nList I (Fishermen welfare measure (AP))\na. Ban-period relief per family from 2024-25\nb. Diesel (HSD) subsidy for boats\nc. Ex-gratia for a fisherman dying while fishing\nd. East Coast fishing ban\nList II (Provision)\ni. ₹10 lakh\nii. ₹20,000\niii. 15 April – 14 June\niv. ₹9 per litre\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "Ban relief ₹4,000 → ₹10,000 (2019-20) → ₹20,000 (2024-25); diesel subsidy ₹9 per litre; ex-gratia ₹5 lakh → ₹10 lakh; the 61-day East Coast ban runs 15 April–14 June.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf76c372145ab",
+  "row": 84,
+  "s": "Match List I with List II:\nList I (Place)\na. Chadalawada (Prakasam)\nb. Chintaladeevi (Nellore)\nc. Lam (Guntur)\nd. Juvvaladinne (SPSR Nellore)\nList II (Known for)\ni. Fishing harbour\nii. National Kamdhenu Breeding Centre\niii. ANGRAU headquarters\niv. Gokul Gram cattle-breeding farm\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "Chadalawada, Prakasam – Gokul Gram (Rashtriya Gokul Mission); Chintaladeevi, Nellore – National Kamdhenu Breeding Centre (the other at Itarsi); Lam, Guntur – ANGRAU; Juvvaladinne, SPSR Nellore – Phase I fishing harbour.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp751165908792",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Andhra Pradesh ranks first in India in egg production.\n2. Prakasam is AP's leading milk-producing district.\n3. AP ranked 7th in milk production in 2023-24.\n4. AP ranked 4th in meat production in 2025-26.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: Chittoor is AP's leading milk district. AP is 1st in eggs, 7th in milk in 2023-24 (139.94 lakh MT; 4th in 2018-19), and 4th in meat in 2025-26 (5th in 2023-24).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2ef3160f0343",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Small and marginal farmers (up to 2 ha) form about 86.2 per cent of India's farmers.\n2. The average land holding in AP (2015-16) was 0.94 ha, below the all-India 1.08 ha.\n3. Semi-medium holdings in the Agriculture Census are of 4-10 ha.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: semi-medium holdings are 2-4 ha; 4-10 ha is medium. The 86.2% share and AP's 0.94 ha average (India 1.08 ha) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf602d72f7dfe",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Kolleru Lake lies between the Krishna and Godavari deltas.\n2. It covers about 305 sq km and is the largest freshwater lake of Andhra Pradesh.\n3. It has been a Ramsar site since 2002.\n4. It is a breeding ground of the Great Indian bustard.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: Kolleru is a breeding ground of the spot-billed pelican. It lies between the Krishna and Godavari deltas, covers about 305 sq km and is a Ramsar site since 2002.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf86307a8b178",
+  "row": 84,
+  "s": "Consider the following statements:\nAssertion (A): Kolleru Lake has been shrinking and turning eutrophic.\nReason (R): Encroachment has turned much of its lake bed into aquaculture ponds.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: aquaculture encroachment of the lake bed is the cause of Kolleru's shrinkage and eutrophication.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpf2985cfb57eb",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Departmental tanks in Andhra Pradesh are leased to fishermen cooperative societies.\n2. West Godavari produced 9.64 LMT of fish and shrimp worth ₹24,345 crore in 2025-26.\n3. Cobia is promoted in AP as a freshwater alternative species.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: cobia (with lobster and mussel) is a brackish-water species; the freshwater alternatives are GIFT tilapia, amur carp, Jayanti rohu, GI scampi and murrels. Tanks go to fishermen cooperatives, and the West Godavari figure is correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7351b922823e",
+  "row": 84,
+  "s": "Match List I with List II:\nList I (Fishing harbour (Phase I))\na. Juvvaladinne\nb. Uppada\nc. Nizampatnam\nd. Machilipatnam\nList II (District)\ni. Kakinada\nii. Krishna\niii. SPSR Nellore\niv. Bapatla\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Phase I harbours: Juvvaladinne – SPSR Nellore; Uppada – Kakinada; Nizampatnam – Bapatla; Machilipatnam – Krishna. Biyyaputhippa, Kothapatnam, Pudimadaka, Budagatlapalem and Vodarevu are Phase II.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp39334d74ecb6",
+  "row": 84,
+  "s": "Consider the following statements:\n1. MPEDA is a statutory body under the Ministry of Commerce with its headquarters at Kochi.\n2. The ICAR-CMFRI Regional Centre at Visakhapatnam is known for open-sea cage farming.\n3. Under the APSADA Act, 2020, aquaculture zones cover 12 coastal districts.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: APSADA (Act 2020) licenses aquaculture with zones in 9 coastal districts. MPEDA (Commerce, Kochi) and the CMFRI Visakhapatnam centre are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcb067116e49b",
+  "row": 84,
+  "s": "Consider the following statements:\n1. The WTO Agreement on Fisheries Subsidies was adopted at MC12 (2022).\n2. India was the 113th member to accept the Agreement.\n3. The PM-MKSSY sub-scheme (2023-24 to 2026-27) has an allocation of ₹6,000 crore.\n4. According to SOFIA 2026, aquaculture makes up about 53 per cent of world aquatic animal output.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: India was the 123rd member to accept the Agreement. MC12 (2022), PM-MKSSY ₹6,000 crore and SOFIA 2026's 53% are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp81ac6112e9a9",
+  "row": 84,
+  "s": "Match List I with List II:\nList I (Horticulture crop)\na. Mango\nb. Banana\nc. Coconut\nd. Cashew\nList II (Hub district of AP)\ni. Konaseema\nii. Chittoor\niii. Srikakulam\niv. Anantapur\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 0,
+  "x": "Mango – Chittoor (also Krishna, Annamayya); banana – Anantapur cluster; coconut – Konaseema/East Godavari; cashew – Srikakulam, ASR.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp098f62a877be",
+  "row": 84,
+  "s": "Consider the following statements:\n1. In 2021-22 Andhra Pradesh ranked first in India in papaya.\n2. It ranked first in oil palm.\n3. It ranked first in mango.\n4. It ranked second in cashew.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "3 only",
+   "3 and 4 only",
+   "1 and 3 only"
+  ],
+  "a": 1,
+  "x": "Only statement 3 is wrong: AP is 2nd in mango (UP 1st), along with cashew and sweet orange. It is 1st in oil palm, papaya, lime, coconut, cocoa, tomato and chillies (2021-22).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe27bfdb8334a",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Canals are the main source of irrigation in Andhra Pradesh.\n2. Tube wells are the largest source of irrigation in India as a whole.\n3. Groundwater accounts for about 57 per cent of AP's gross irrigated area.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: groundwater is about 41% of AP's gross irrigated area. Canals lead in AP and tube wells in India.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3725ac8afd42",
+  "row": 84,
+  "s": "Match List I with List II:\nList I (Irrigation project class)\na. Major (CCA)\nb. Medium (CCA)\nc. Minor (CCA)\nd. Minor in AP (ayacut)\nList II (Command area)\ni. Up to 5,000 acres\nii. 2,000 – 10,000 ha\niii. Above 10,000 ha\niv. Up to 2,000 ha\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "By culturable command area: major above 10,000 ha, medium 2,000-10,000 ha, minor up to 2,000 ha; AP's own minor class is an ayacut up to 5,000 acres.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp841ffff35495",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Andhra Pradesh has about 38,862 minor irrigation tanks.\n2. Irrigation potential of 106.15 lakh acres had been created in AP by December 2024.\n3. The AP Micro Irrigation Project has been working since 2010.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: APMIP has worked since 2003. The 38,862 minor tanks and 106.15 lakh acres of potential (Dec 2024) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp71fb3df8c094",
+  "row": 84,
+  "s": "Match List I with List II:\nList I (Project)\na. Polavaram\nb. Pattiseema\nc. Veligonda\nd. Galeru-Nagari\nList II (Key fact)\ni. Lifts Godavari water into the Krishna\nii. Nallamala Sagar in Prakasam\niii. National project under Section 90 of the AP Reorganisation Act\niv. 38 TMC of Krishna floodwater\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 0,
+  "x": "Polavaram – national project (Section 90, AP Reorganisation Act 2014); Pattiseema – lifts Godavari into the Krishna (released at Prakasam barrage); Veligonda – Nallamala Sagar, Prakasam; Galeru-Nagari – 38 TMC of Krishna floodwater.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4403d36067b2",
+  "row": 84,
+  "s": "Consider the following statements:\n1. Andhra Pradesh has six agro-climatic zones.\n2. Annadatha Sukhibhava is a State top-up to PM-KISAN.\n3. The Rythu Seva Kendralu were earlier called Rythu Bazaars.\n4. There are 10,606 Rythu Seva Kendralu in AP.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: Rythu Seva Kendralu were formerly Rythu Bharosa Kendralu. Six agro-climatic zones, Annadatha Sukhibhava (PM-KISAN top-up) and 10,606 RSKs are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp02920e408295",
+  "row": 84,
+  "s": "Consider the following statements:\nAssertion (A): The Andhra Pradesh Drought Mitigation Project (APDMP) is funded by IFAD.\nReason (R): The AP Integrated Irrigation and Agriculture Transformation Project (APIIATP) is funded by the World Bank.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true but unrelated: APDMP is an IFAD project and APIIATP a World Bank project; one funding source does not explain the other.",
+  "src": "app",
+  "tq": "assertion"
  }
 ]
