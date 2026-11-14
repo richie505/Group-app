@@ -21,6 +21,14 @@
 - Rubber: **Malaysia** was the traditional leader in producing and exporting natural rubber (older books and the APPSC key); **Thailand** leads now, Indonesia 2nd.
 - **Maize** is a staple food in **Middle Africa**; USA is the largest maize producer.
 - **Rice** is the principal crop of **Taiwan**.
+- Other leaders: **copper – Chile**; **diamonds – Botswana by value, Russia by volume**; largest fishing ground – **North-West Pacific**.
+# India's position
+| Crop | India / AP |
+|---|---|
+| Rubber | India about 6th producer, 2nd consumer; **Kerala 70-75%** |
+| Coffee | India about 7th; **Karnataka about 71%**; AP 4th (Araku) |
+| Tea exports | India 4th |
+- AP: India's largest **fruit** producer; 1st in **oil palm**, papaya, cocoa, chillies (NOT rubber, tea, jute).
 ~~ Sources: Rocket World Geography p.4 (rubber Thailand, coffee Brazil, tea China), p.6 and p.35 (tobacco China > India, Brazil); PMF Human & Economic Geography 05 p.70 (China largest tea producer), p.79 (rubber producers); OnlyIAS NCERT Human Geography 05 p.8 (China largest groundnut producer, India 2nd), p.9 (India 2nd in cotton), p.10 (India 2nd in sugarcane after Brazil); OIV 2024 World Wine Production (web search summary of oiv.int); UNODC Southeast Asia Opium Survey 2023 (web search summary, Dec 2023); 20th Livestock Census, PIB PRID 1588304 (web search summary); USDA cotton 2024-25 (web search summary); app notes 4:80 (sub 5)
 
 === Plantation Crops – Rubber, Coffee, Cocoa, Tea, Spices
@@ -48,7 +56,8 @@
 ~~ Sources: PMF Human & Economic Geography 05 p.73 (coffee fazendas of Brazil), p.75-76 (Hevea brasiliensis, latex, tapping, vulcanisation, Brazil blight); PMF Physical Geography 07 p.11-12 (rubber Malaysia, Indonesia; cocoa Ghana), p.18 (coffee Ethiopia/Arabia, Brazil); Rocket World Geography p.23 (plantation: tea India/Sri Lanka, coffee Brazil, rubber Malaysia, cocoa West Africa); app notes 4:80 (sub 5)
 
 === Shifting Cultivation – Indian and World Names
-- Also called **slash-and-burn**; a **primitive subsistence** type in high-rainfall forests; plot used for 3-5 years, then left.
+- Also called **slash-and-burn**; a **primitive subsistence** type in high-rainfall forests; plot used for 3-5 years, then left – not capital-intensive or export-oriented.
+# Indian names
 | Local name | India – region |
 |---|---|
 | **Jhum (Jhumming / Jhoom)** | **North-East** – Assam, Arunachal, Meghalaya, Mizoram, Nagaland, Tripura |
@@ -61,6 +70,7 @@
 | Valre / Waltre | South-east Rajasthan |
 | **Khil** | **Himalayan belt** (no "Mashan" in Himachal) |
 | Kuruwa | Jharkhand |
+# World names
 | Local name | World – region |
 |---|---|
 | **Milpa** | **Mexico and Central America** |
@@ -106,6 +116,9 @@
 | **Livestock ranching** | Commercial grazing on large ranches / open public land | Western USA, Pampas, Australia, NZ |
 - Plantations are in the **humid tropics**, but humid tropical soils are **leached and poor**, not highly fertile (NDA 2016).
 - **Intensive subsistence** farming is **not commercial**; dairy, grain farming and ranching are.
+- **Intensive farming** = high labour and capital per unit of land; **extensive farming** = large areas with low input per unit of land.
+- Commercial grain has a **high commodity (marketed) rate** because of **large mechanised farms and low local demand** (wheat dominance is true but not the reason).
+- Commercial grain regions do NOT include the Mediterranean Basin; mixed farming is NOT in Monsoon Asia; cocoa is West Africa, not South Asia.
 - Mixed farming ≠ mixed cropping (two crops in one field) ≠ cash + food crops.
 - **Viticulture** is a Mediterranean speciality: the region gives about three-quarters of the world's wine and **about 85% of its grapes go into winemaking**. Wet paddy is Monsoon Asia, not Mediterranean.
 - Cooperative farming pools resources (Denmark, Netherlands); **collective farming = Kolkhoz** (USSR).

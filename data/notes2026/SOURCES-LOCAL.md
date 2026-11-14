@@ -644,3 +644,4 @@ Total: 572 files, 22879 pages.
 ## AP finances
 - AP Fifth State Finance Commission report (src/ap-economy/, added by job b3-r099)
 - NextGen "AP bifurcation act 2014" notes Parts 1-2: ap-reorganisation/ap-bifurcation-act-notes-01/02 .pdf/.txt (added by job b3-r135)
+- NITI first delta ranking of aspirational districts (June 2018): geography/niti-first-delta-ranking-aspirational-2018.pdf/.txt (added by job b4-r078)
