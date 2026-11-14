@@ -888,3 +888,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b6-p005: 13 adds. y2db1275c15d NCRB NE match unverified.
 - b4-p083: 34 adds; row 83 new sub 'Veterinary practice'. Fixed row 83 pineapple table (WB largest producer, Assam largest area).
 - b6-s01 (73 weak CA keys): 73 confirmed, 0 corrected. Explanation fixes: Triples (3-a-side), UGC (Deepti Gaur Mukherjee addl charge 12 Aug 2026), FBI now Kash Patel. y10b17aae2e5 McCabe depends on exam date (Jun 2017).
+- b1-p170: 42 adds; new subs row 176 (Industrial Revolution background), row 178 (educational thinkers). Doubtful: f79415d5d5667 Bipin Chandra Pal host (Ramadasu Naidu?); y54fcff2a884, y5dccb2e79d5 unkeyed but clear.
