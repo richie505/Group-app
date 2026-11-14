@@ -97,6 +97,9 @@
 - **Causes of low productivity:** small holdings, monsoon dependence and inadequate irrigation (rice ~67% irrigated vs pulses ~26%), skewed NPK, low seed replacement, ~30% cold-chain losses, climate (~8% yield fall per 1°C).
 - **Pathways:** irrigation, quality seed (SRR/VRR, genome editing), balanced fertiliser (Soil Health Card), plant protection, mechanisation (Custom Hiring Centres).
 - Growth has come **more from area than yield**; now led by livestock and fisheries.
+- **TFP drivers:** agricultural research and new varieties, irrigation, rural roads and markets, extension, education.
+- **El Niño and pulses:** acreage −2 to −9%, yield −5 to −25%, output −6 to −30%. Universal cold-chain access is NOT a cause of the yield gap – its lack is.
+- **Area trends:** cotton area down 18 lakh ha, output **290.91 lakh bales (2025-26)** from about 350 – India became a **net importer of raw cotton**; soybean area in MP fell about **10%** (2023 to 2024); Telangana's cultivated area 1.31 crore acres (2014) → **2.2 crore acres** (FY23).
 > A "which one is the pathway" stem with irrigation, seed, pesticides and fertilisers as options has no single answer – all four raise productivity.
 ~~ Sources: app notes 3:50 sub 5-7; RBI Handbook of Statistics on Indian States, state-wise cotton yield table (via web search)
 

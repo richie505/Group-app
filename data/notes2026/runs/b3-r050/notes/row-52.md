@@ -31,7 +31,7 @@
 === Small Holdings and Agricultural Households
 | Agriculture Census | Small + marginal holdings | Their area |
 |---|---|---|
-| **2010-11** | about **85%** (marginal 67.10 + small 17.91) | **44.58%** (22.50 + 22.08) |
+| **2010-11** | about **85%** (84.97%) | about **44%** – **44.58%** in the APPSC key; 44.31% in the census figures quoted by Ramesh Singh |
 | **2015-16** | **86.2%** | **47.3%** |
 - **2015-16 States:** by number of holdings **UP 1st, Bihar 2nd, Maharashtra 3rd**; by operated area **Rajasthan 1st**. Semi-medium + medium: 13.2% of holdings, 43.6% of area.
 - **NSSO 70th Round (2013) SAS:** **Rajasthan** – highest share of agricultural households among rural households (about 78%); **Kerala** – over 60% earned most income from non-farm sources; OBCs are about **45%** of agricultural households (not "over 60%").
