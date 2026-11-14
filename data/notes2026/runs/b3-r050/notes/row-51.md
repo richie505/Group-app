@@ -14,7 +14,7 @@
 - **"Started in 2011-12 to enhance food security and make agriculture resilient to climate change"** – APPSC keys: **NMSA** (strictly, NMSA became operational in 2014-15; the 2011 climate programme is ICAR's NICRA).
 - **NMSA components:** Soil Health Cards free every **two years**; micro-irrigation subsidy up to **55%**; e-NAM is NOT an NMSA component.
 - **Scheme-feature match:** **KCC** – credit for crops and animal husbandry; **PMKSY** – water-use efficiency; **RKVY** – diversification, value addition, marketing support; **AIF** – infrastructure such as cold storage.
-- **Price-realisation schemes:** PM-AASHA (2018: PSS via NAFED/NCCF, PDPS 40%, MIS 25%); e-NAM (April 2016, SFAC; 1,656 mandis); Operation Greens (Budget 2018-19, TOP → 22 perishables); Krishi UDAN (air transport of perishables).
+- **Price-realisation schemes:** PM-AASHA (2018: PSS via NAFED/NCCF, PDPS 40%, MIS 25%); e-NAM (April 2016, **SFAC – Small Farmers' Agribusiness Consortium**; 1,656 mandis); Operation Greens (Budget 2018-19, TOP → 22 perishables); Krishi UDAN (air transport of perishables).
 - **AgriStack pilot:** on **13 April 2021** the Department of Agriculture signed an MoU with **Microsoft** for a pilot in **100 villages** of UP, MP, Gujarat, Haryana, Rajasthan and AP.
 > Mission-year PYQs (APPSC G1 2019, G2): NMSA 2014-15 vs RADP 2011-12; NMSA RAD funding 60:40.
 ~~ Sources: app notes 3:51 sub 5-7; app notes 3:50 sub 9
@@ -34,6 +34,7 @@
 - **ICAR Drishti (Vision) 2025:** increase in **food production**.
 - **National Commission on Agriculture (NCA):** 1970-76, **Nathu Ram Mirdha**; coined "social forestry".
 - **National Commission on Farmers (NCF):** constituted **18 Nov 2004**, **M.S. Swaminathan**; MSP at **C2 + 50%** (government pays **1.5 × A2+FL**, 22 mandated crops); Agricultural Renewal Action Plan – 2006-07 the Year of Agricultural Renewal.
+- **Agricultural Renewal Action Plan packages:** soil health enhancement, water harvesting and efficient use, credit and insurance reform, technology dissemination, market reform – phasing out MSP is not one of them.
 ~~ Sources: app notes 3:51 sub 1-2; NextGen Indian Economy Part 1 - APPSC 01 p.59 (NCF, 18 Nov 2004)
 
 === Policy Since 1991 and the WTO Boxes

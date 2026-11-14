@@ -634,3 +634,6 @@ Total: 572 files, 22879 pages.
 
 ## AP History PYQ books
 - Carpediem AP History G2 PYQs 2000-2025 (with keys): ap-history/cdi-ap-history-g2-pyqs-2000-2025.txt (added by job b1-r237)
+
+## AP Reorganisation Act 2014
+- Gazette text (prsindia.org): ap-reorganisation/apra.pdf / .txt (added by job b1-r263)

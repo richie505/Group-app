@@ -10,6 +10,7 @@
 | **RWBCIS** | 2016 | protects **insured** farmers (all categories) against loss from adverse weather; pays when weather deviates from triggers |
 - **Not a claim ground:** low yield from **poor-quality seed**. Cover is for natural calamities (drought, flood), pests and diseases.
 - **AP:** PMFBY, WBCIS/RWBCIS and the Unified Package Insurance Scheme have run in AP; there is **no** special scheme for GM crops. **Dr YSR Free Crop Insurance (2019-24):** State paid the whole premium; covered **22 notified crops** (2022); voluntary from **Rabi 2024-25** (farmer pays a small fixed share, State and Centre share the rest); Kharif 2026 – every crop insured, Collectors accountable.
+- **PMFBY slogans:** "One Nation – One Scheme"; "One Nation, One Crop, One Premium".
 > Most-asked angle (13 PYQs): scheme years – CCIS 1985, NAIS 1999, Varsha Bima 2004, WBCIS 2007 Karnataka; PMFBY premium statements (UPSC 2016).
 ~~ Sources: app notes 3:52 sub 6; NextGen Indian Economy Part 1 - APPSC 04 p.54 (NAIS 1999 replacing CCIS); Ramesh Singh Indian Economy 04 p.181 (PMFBY replaced NAIS of 1999 and MNAIS 2010-11)
 
