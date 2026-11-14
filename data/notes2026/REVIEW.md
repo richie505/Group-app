@@ -505,3 +505,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Disputes: UPSC 2012 pollination (official c kept; MEA says regulating); Water Act printed 1972 (is 1974).
 - Printed-key-only: Madras Education Cess Act 1863; one death per day elephant/tiger. yfcdd04a5c7d EPTRI ambiguous (SPCB labs too).
 - Water Cess rebate 25% (NextGen) vs 70% (PMF) left out. 13 PYQs moved to row 1 need a place job.
+
+## b5-r080 (Sustainable development)
+- Outdated ybc27f2a6caa Agenda 21 review: CSD (abolished 2013, now HLPF).
+- Dispute y12561b05848 term "sustainable development": printed 1980 kept (many books 1987).
+- Printed-key-only: "transformative learning", poverty alleviation not related (UP 2013), AP 212 SDG indicators.
+- SDR 2026: India 94/169.
