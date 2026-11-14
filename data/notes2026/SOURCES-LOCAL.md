@@ -640,3 +640,6 @@ Total: 572 files, 22879 pages.
 
 ## Economy: official docs
 - DPIIT Press Note 3 (2019): industries under compulsory licensing = 4 (economy/dpiit-press-note-3-2019-industrial-licensing.pdf/.txt; added by job b3-r063)
+
+## AP finances
+- AP Fifth State Finance Commission report (src/ap-economy/, added by job b3-r099)
