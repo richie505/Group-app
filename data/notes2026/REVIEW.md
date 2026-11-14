@@ -1306,3 +1306,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b4-w067 (rows 67–72)
 - own 445 → 76 kept + 86 new (162, 36%); new 54 statements / 20 match / 12 A–R; no lines lost.
 - Doubtful notes (not used): 71:3:0.1 "Kolkata 10th (APPSC 2018 key)"; 68:3:2 "Hindi 2nd/3rd" worldwide; 72:0:1.7 HDI "0.676 in 2022" vs 0.644 (HDR 2023-24 row) — harmonise.
+
+## rewrite b6-w077 (row 77)
+- own 236 → 25 kept + 62 new (87, 37%); new 43 statements / 12 match / 7 A–R; no lines lost. No wrong notes/keys.
