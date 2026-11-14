@@ -1335,3 +1335,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b4-w073 (rows 73–80)
 - own 424 → 57 kept + 122 new (179, 42%); new 74 statements / 31 match / 16 A–R / 1 sequence; no lines lost.
 - ncee262f33b3 (cities above one lakh "32"; notes + PYQ 31) removed.
+
+## rewrite b6-w080 (rows 80–82)
+- own 337 → 61 kept + 89 new (150, 45%); new 61 statements / 20 match / 8 A–R; 1 of 238 lines lost (pair still in match).
+- Notes conflict: SEEI 2024 topper / AP category — Maharashtra top (80:5:15), AP "Achiever" (80:5:8), AP top (82:4:1.1, 82:10:6) — reconcile.
+- PYQ y1816b2597cb dates Jayshree Vencatesan's Ramsar award Mar 2024; notes 82:7:1 Mar 2025 — check.

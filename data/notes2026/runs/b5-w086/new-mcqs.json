@@ -105,17 +105,17 @@
   "tq": "match"
  },
  {
-  "id": "cp9c72d1885f39",
+  "id": "cp36e39f9cccf0",
   "row": 86,
-  "s": "Consider the following statements about the IUCN status of Indian species:\n1. The tiger is listed as Critically Endangered.\n2. The Siberian crane is Critically Endangered.\n3. The dhole (Asiatic wild dog) is Endangered.\n4. The leatherback turtle is Critically Endangered.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the IUCN status of Indian species:\n1. The dhole (Asiatic wild dog) is Endangered.\n2. The leatherback turtle is Critically Endangered.\n3. The tiger is listed as Critically Endangered.\n4. The Siberian crane is Critically Endangered.\nWhich of the statements given above is/are correct?",
   "o": [
-   "3 only",
-   "1, 2 and 3 only",
-   "2 and 3 only",
-   "2, 3 and 4 only"
+   "1 only",
+   "1, 3 and 4 only",
+   "1 and 4 only",
+   "4 only"
   ],
   "a": 2,
-  "x": "Statement 1 is wrong: the tiger is Endangered (EN), not CR. Statement 2 is correct: the Siberian crane (and sociable lapwing) are CR – not EN. Statement 3 is correct: the dhole is EN, with the red panda, musk deer and golden langur. Statement 4 is wrong: the leatherback turtle is Vulnerable (VU), like the swamp deer and mugger.",
+  "x": "Statement 1 is correct: the dhole is EN, with the red panda, musk deer and golden langur. Statement 2 is wrong: the leatherback turtle is Vulnerable (VU), like the swamp deer and mugger. Statement 3 is wrong: the tiger is Endangered (EN), not CR. Statement 4 is correct: the Siberian crane (and sociable lapwing) are CR – not EN.",
   "src": "app",
   "tq": "statements"
  },
@@ -135,47 +135,47 @@
   "tq": "match"
  },
  {
-  "id": "cp3ad746ff7e7b",
+  "id": "cpdf0f7f42b348",
   "row": 86,
-  "s": "Consider the following statements:\n1. The Irrawaddy dolphin is found in Chilika Lake and in the Godavari estuary of Andhra Pradesh.\n2. The Great Indian Hornbill lives in the Western Ghats and the hill forests of the North-East.\n3. The pygmy hog, the world's smallest wild suid, lives in the alluvial grasslands of Manipur.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. The pygmy hog, the world's smallest wild suid, lives in the alluvial grasslands of Manipur.\n2. The Irrawaddy dolphin is found in Chilika Lake and in the Godavari estuary of Andhra Pradesh.\n3. The Great Indian Hornbill lives in the Western Ghats and the hill forests of the North-East.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "2 only",
-   "1 only",
-   "1, 2 and 3"
-  ],
-  "a": 0,
-  "x": "Statement 1 is correct: it lives in east-coast lagoons and estuaries – Chilika and the Godavari estuary, not the Chambal. Statement 2 is correct: these are its natural habitats. Statement 3 is wrong: the pygmy hog lives in the alluvial grasslands of Assam.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cpc35869d4aa70",
-  "row": 86,
-  "s": "Consider the following statements about recent additions to India's biodiversity records:\n1. In 2025, 709 animal species were added to India's fauna, of which 483 were new to science.\n2. In 2025, 353 plant taxa were added.\n3. In May 2026, three new Critically Endangered plants were reported from the Western Ghats of Kerala.\nWhich of the statements given above is/are NOT correct?",
-  "o": [
-   "1 and 3 only",
    "2 and 3 only",
    "1, 2 and 3",
-   "3 only"
+   "3 only",
+   "2 only"
   ],
-  "a": 3,
-  "x": "Statement 1 is correct: 709 added, 483 new to science. Statement 2 is correct: 353 plant taxa were added in 2025. Statement 3 is wrong: the three new CR plants came from Andhra Pradesh's Eastern Ghats.",
+  "a": 0,
+  "x": "Statement 1 is wrong: the pygmy hog lives in the alluvial grasslands of Assam. Statement 2 is correct: it lives in east-coast lagoons and estuaries – Chilika and the Godavari estuary, not the Chambal. Statement 3 is correct: these are its natural habitats.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cpf3e7b880867e",
+  "id": "cp7a271853ea88",
   "row": 86,
-  "s": "Consider the following statements about the Red List / Red Data Book:\n1. The IUCN Red List was started in 1964.\n2. Green pages in the Red Data Book denote species that were formerly threatened but have now recovered.\n3. The IUCN Green Status (2021) measures the extinction risk of a species.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about recent additions to India's biodiversity records:\n1. In May 2026, three new Critically Endangered plants were reported from the Western Ghats of Kerala.\n2. In 2025, 709 animal species were added to India's fauna, of which 483 were new to science.\n3. In 2025, 353 plant taxa were added.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "1 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: the three new CR plants came from Andhra Pradesh's Eastern Ghats. Statement 2 is correct: 709 added, 483 new to science. Statement 3 is correct: 353 plant taxa were added in 2025.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf9c0dd9c0d32",
+  "row": 86,
+  "s": "Consider the following statements about the Red List / Red Data Book:\n1. Green pages in the Red Data Book denote species that were formerly threatened but have now recovered.\n2. The IUCN Green Status (2021) measures the extinction risk of a species.\n3. The IUCN Red List was started in 1964.\nWhich of the statements given above is/are correct?",
   "o": [
    "1, 2 and 3",
-   "1 and 2 only",
-   "1 only",
-   "2 only"
+   "1 and 3 only",
+   "3 only",
+   "1 only"
   ],
   "a": 1,
-  "x": "Statement 1 is correct: Red List started 1964; first Red Data Book volumes came in 1966 (SSC). Statement 2 is correct: red/pink pages = endangered/critically endangered; green = recovered. Statement 3 is wrong: the Green Status measures species RECOVERY; extinction risk is what the Red List measures.",
+  "x": "Statement 1 is correct: red/pink pages = endangered/critically endangered; green = recovered. Statement 2 is wrong: the Green Status measures species RECOVERY; extinction risk is what the Red List measures. Statement 3 is correct: Red List started 1964; first Red Data Book volumes came in 1966 (SSC).",
   "src": "app",
   "tq": "statements"
  },
@@ -225,17 +225,17 @@
   "tq": "match"
  },
  {
-  "id": "cp645fb522a0e7",
+  "id": "cp8bf970cb2b7a",
   "row": 86,
-  "s": "Consider the following statements:\n1. The Living Planet Index tracks vertebrate populations since 1970.\n2. The IPBES Global Assessment (2019) found about 25% of species threatened, with up to 1 million facing extinction.\n3. The Living Planet Report is published every year since 1998.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. The Living Planet Report is published every year since 1998.\n2. The Living Planet Index tracks vertebrate populations since 1970.\n3. The IPBES Global Assessment (2019) found about 25% of species threatened, with up to 1 million facing extinction.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
    "2 only",
-   "1 and 2 only",
+   "3 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
   "a": 2,
-  "x": "Statement 1 is correct: LPI = vertebrate populations since 1970 (WWF–ZSL). Statement 2 is correct: ~25% threatened, up to 1 million species face extinction. Statement 3 is wrong: the Living Planet Report is biennial (every two years) since 1998.",
+  "x": "Statement 1 is wrong: the Living Planet Report is biennial (every two years) since 1998. Statement 2 is correct: LPI = vertebrate populations since 1970 (WWF–ZSL). Statement 3 is correct: ~25% threatened, up to 1 million species face extinction.",
   "src": "app",
   "tq": "statements"
  },
@@ -255,17 +255,17 @@
   "tq": "assertion"
  },
  {
-  "id": "cpaacd77de8788",
+  "id": "cp5524287a24aa",
   "row": 86,
-  "s": "Consider the following statements about invasive species in India:\n1. Lantana camara belongs to the family Asteraceae.\n2. Prosopis juliflora lowers the groundwater table and raises soil salinity in Rayalaseema.\n3. Prosopis juliflora has degraded the Banni grasslands of Gujarat.\n4. Senna spectabilis, invading the Nilgiri-Bandipur-Wayanad landscape, is native to North America.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about invasive species in India:\n1. Prosopis juliflora lowers the groundwater table and raises soil salinity in Rayalaseema.\n2. Prosopis juliflora has degraded the Banni grasslands of Gujarat.\n3. Senna spectabilis, invading the Nilgiri-Bandipur-Wayanad landscape, is native to North America.\n4. Lantana camara belongs to the family Asteraceae.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
+   "1 and 2 only",
    "1, 2 and 3 only",
-   "2 and 3 only",
-   "3 only",
    "2 only"
   ],
   "a": 1,
-  "x": "Statement 1 is wrong: Lantana belongs to Verbenaceae (not Asteraceae); it was brought as an ornamental. Statement 2 is correct: its deep roots lower groundwater and raise soil salinity. Statement 3 is correct: the notes record the degradation of Banni. Statement 4 is wrong: Senna spectabilis is native to South America, not North America.",
+  "x": "Statement 1 is correct: its deep roots lower groundwater and raise soil salinity. Statement 2 is correct: the notes record the degradation of Banni. Statement 3 is wrong: Senna spectabilis is native to South America, not North America. Statement 4 is wrong: Lantana belongs to Verbenaceae (not Asteraceae); it was brought as an ornamental.",
   "src": "app",
   "tq": "statements"
  },
@@ -285,17 +285,17 @@
   "tq": "match"
  },
  {
-  "id": "cpa7ba9caa480d",
+  "id": "cpd93e0817bc6f",
   "row": 86,
-  "s": "Consider the following statements about invasive fish in India:\n1. The African catfish (Clarias gariepinus) is banned and preys on waterfowl in Keoladeo.\n2. The alligator gar and the red-bellied piranha are among the invasive fish of concern.\n3. BNHS began India's first community-driven removal of invasive fish and native restocking at Ujani reservoir, Maharashtra.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about invasive fish in India:\n1. The alligator gar and the red-bellied piranha are among the invasive fish of concern.\n2. BNHS began India's first community-driven removal of invasive fish and native restocking at Ujani reservoir, Maharashtra.\n3. The African catfish (Clarias gariepinus) is banned and preys on waterfowl in Keoladeo.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "2 and 3 only",
    "1 and 3 only",
+   "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
   "a": 3,
-  "x": "Statement 1 is correct: it is a predatory, banned species. Statement 2 is correct: with the African catfish and Nile tilapia. Statement 3 is correct: against suckermouth catfish, tilapia and African catfish (Aug 2026).",
+  "x": "Statement 1 is correct: with the African catfish and Nile tilapia. Statement 2 is correct: against suckermouth catfish, tilapia and African catfish (Aug 2026). Statement 3 is correct: it is a predatory, banned species.",
   "src": "app",
   "tq": "statements"
  },
@@ -375,32 +375,32 @@
   "tq": "statements"
  },
  {
-  "id": "cpbdbe2694ab6b",
+  "id": "cpf8e71c5f306e",
   "row": 86,
-  "s": "Consider the following statements:\n1. The Hawaiian crow and Père David's deer are classed as Extinct in the Wild.\n2. The cheetah was declared extinct in India in 1952.\n3. The Zoological Survey of India lists the passenger pigeon among species extinct from India.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. The cheetah was declared extinct in India in 1952.\n2. The Zoological Survey of India lists the passenger pigeon among species extinct from India.\n3. The Hawaiian crow and Père David's deer are classed as Extinct in the Wild.\nWhich of the statements given above is/are correct?",
   "o": [
    "1, 2 and 3",
-   "2 only",
    "1 only",
-   "1 and 2 only"
+   "3 only",
+   "1 and 3 only"
   ],
   "a": 3,
-  "x": "Statement 1 is correct: both survive only in captivity. Statement 2 is correct: it is the only large mammal lost since Independence. Statement 3 is wrong: ZSI lists the cheetah, pink-headed duck and mountain quail – not the passenger pigeon.",
+  "x": "Statement 1 is correct: it is the only large mammal lost since Independence. Statement 2 is wrong: ZSI lists the cheetah, pink-headed duck and mountain quail – not the passenger pigeon. Statement 3 is correct: both survive only in captivity.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp524077147bcd",
+  "id": "cpc1b76baa8fb0",
   "row": 86,
-  "s": "Consider the following statements about species of Andhra Pradesh:\n1. The Gooty (peacock) tarantula is listed in Schedule II of the WPA and Appendix II of CITES.\n2. Jerdon's courser is a flightless bird found in the Sri Lankamalleswara WLS.\n3. The golden gecko is found only in the Western Ghats.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about species of Andhra Pradesh:\n1. The golden gecko is found only in the Western Ghats.\n2. The Gooty (peacock) tarantula is listed in Schedule II of the WPA and Appendix II of CITES.\n3. Jerdon's courser is a flightless bird found in the Sri Lankamalleswara WLS.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
-   "1 only",
+   "2 and 3 only",
+   "2 only",
    "1 and 2 only",
-   "2 only"
+   "1 only"
   ],
   "a": 1,
-  "x": "Statement 1 is correct: it is a CR spider of the Nandyal/Gooty Nallamala forests. Statement 2 is wrong: Jerdon's courser is nocturnal but NOT flightless (rediscovered 1986). Statement 3 is wrong: the golden gecko is endemic to the Seshachalam / Tirumala micro-habitats of AP.",
+  "x": "Statement 1 is wrong: the golden gecko is endemic to the Seshachalam / Tirumala micro-habitats of AP. Statement 2 is correct: it is a CR spider of the Nandyal/Gooty Nallamala forests. Statement 3 is wrong: Jerdon's courser is nocturnal but NOT flightless (rediscovered 1986).",
   "src": "app",
   "tq": "statements"
  },
@@ -420,17 +420,17 @@
   "tq": "match"
  },
  {
-  "id": "cpdc1646024924",
+  "id": "cp6f652cbb6600",
   "row": 86,
-  "s": "Consider the following statements:\n1. Red sanders smuggling from Seshachalam is driven by demand from China and Japan.\n2. Shrimp farms are a biodiversity pressure in AP because they replace mangroves.\n3. Lantana is being converted into biochar called 'Black Gold' in Papikonda National Park.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. Lantana is being converted into biochar called 'Black Gold' in Papikonda National Park.\n2. Red sanders smuggling from Seshachalam is driven by demand from China and Japan.\n3. Shrimp farms are a biodiversity pressure in AP because they replace mangroves.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
    "2 only",
-   "1 only",
    "1, 2 and 3"
   ],
   "a": 0,
-  "x": "Statement 1 is correct: the notes name China and Japan. Statement 2 is correct: shrimp farms replace mangroves. Statement 3 is wrong: the 'Black Gold' biochar work with Joint Forest Management Committees is in Amrabad Tiger Reserve (Nallamala).",
+  "x": "Statement 1 is wrong: the 'Black Gold' biochar work with Joint Forest Management Committees is in Amrabad Tiger Reserve (Nallamala). Statement 2 is correct: the notes name China and Japan. Statement 3 is correct: shrimp farms replace mangroves.",
   "src": "app",
   "tq": "statements"
  },
@@ -465,17 +465,17 @@
   "tq": "assertion"
  },
  {
-  "id": "cpbc6e434cbb08",
+  "id": "cpcfc56f661a50",
   "row": 86,
-  "s": "Consider the following statements about the consequences of biodiversity loss:\n1. It lowers food security by disrupting pollination, nutrient cycling and water and soil services.\n2. Once lost, biodiversity can be recreated through captive breeding.\n3. The One Health approach addresses zoonotic spillover arising from habitat disruption and wildlife trade.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the consequences of biodiversity loss:\n1. Once lost, biodiversity can be recreated through captive breeding.\n2. The One Health approach addresses zoonotic spillover arising from habitat disruption and wildlife trade.\n3. It lowers food security by disrupting pollination, nutrient cycling and water and soil services.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
+   "2 only",
    "3 only",
-   "1 and 3 only",
-   "1 only"
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
   "a": 2,
-  "x": "Statement 1 is correct: resource-dependent communities are hit hardest. Statement 2 is wrong: the notes stress that once lost, biodiversity cannot be recreated. Statement 3 is correct: One Health links humans, animals and ecosystems.",
+  "x": "Statement 1 is wrong: the notes stress that once lost, biodiversity cannot be recreated. Statement 2 is correct: One Health links humans, animals and ecosystems. Statement 3 is correct: resource-dependent communities are hit hardest.",
   "src": "app",
   "tq": "statements"
  },
@@ -495,17 +495,17 @@
   "tq": "statements"
  },
  {
-  "id": "cpf5277502d1b8",
+  "id": "cp75f835279c05",
   "row": 87,
-  "s": "Consider the following statements about the zones of a Biosphere Reserve:\n1. The core zone is strictly protected and has no human activity.\n2. Settlements, farming and tourism are concentrated in the buffer zone.\n3. Settlements are allowed in the transition zone.\nWhich of the statements given above is/are NOT correct?",
+  "s": "Consider the following statements about the zones of a Biosphere Reserve:\n1. Settlements are allowed in the transition zone.\n2. The core zone is strictly protected and has no human activity.\n3. Settlements, farming and tourism are concentrated in the buffer zone.\nWhich of the statements given above is/are NOT correct?",
   "o": [
    "2 and 3 only",
-   "2 only",
-   "1 and 2 only",
-   "1 only"
+   "3 only",
+   "1 and 3 only",
+   "2 only"
   ],
   "a": 1,
-  "x": "Statement 1 is correct: the core is usually an NP/WLS. Statement 2 is wrong: the buffer allows only limited activity (research, education, training, limited recreation); settlements, farming and tourism belong to the transition zone. Statement 3 is correct: the transition zone has settlements, farming, forestry and tourism.",
+  "x": "Statement 1 is correct: the transition zone has settlements, farming, forestry and tourism. Statement 2 is correct: the core is usually an NP/WLS. Statement 3 is wrong: the buffer allows only limited activity (research, education, training, limited recreation); settlements, farming and tourism belong to the transition zone.",
   "src": "app",
   "tq": "statements"
  },
@@ -525,17 +525,17 @@
   "tq": "statements"
  },
  {
-  "id": "cpccfbbd0041c2",
+  "id": "cpd004d605c1a7",
   "row": 87,
-  "s": "Consider the following statements about India's Biosphere Reserves:\n1. Nilgiri (1986), India's first BR, is the only BR spread over three States.\n2. Gulf of Mannar is India's first marine BR and its largest UNESCO-approved BR.\n3. Great Rann of Kutch (2008) is India's largest BR by area.\n4. The Cold Desert BR of Himachal Pradesh was notified in 2016.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about India's Biosphere Reserves:\n1. The Cold Desert BR of Himachal Pradesh was notified in 2016.\n2. Nilgiri (1986), India's first BR, is the only BR spread over three States.\n3. Gulf of Mannar is India's first marine BR and its largest UNESCO-approved BR.\n4. Great Rann of Kutch (2008) is India's largest BR by area.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
+   "2 and 4 only",
+   "1, 2, 3 and 4",
    "2 and 3 only",
-   "1 and 3 only",
-   "1, 2 and 3 only"
+   "2, 3 and 4 only"
   ],
   "a": 3,
-  "x": "Statement 1 is correct: Tamil Nadu–Kerala–Karnataka. Statement 2 is correct: ~10,500 km². Statement 3 is correct: ~12,454 km². Statement 4 is wrong: Cold Desert, the 16th BR, was notified in 2009 (it joined UNESCO's WNBR in 2025).",
+  "x": "Statement 1 is wrong: Cold Desert, the 16th BR, was notified in 2009 (it joined UNESCO's WNBR in 2025). Statement 2 is correct: Tamil Nadu–Kerala–Karnataka. Statement 3 is correct: ~10,500 km². Statement 4 is correct: ~12,454 km².",
   "src": "app",
   "tq": "statements"
  },
@@ -615,17 +615,17 @@
   "tq": "statements"
  },
  {
-  "id": "cpd1962953ade7",
+  "id": "cp43107306d42e",
   "row": 87,
-  "s": "Consider the following statements:\n1. Sacred groves are an example of ex-situ conservation.\n2. Breeding Gangetic gharials in captivity and releasing them is an example of captive breeding.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. Breeding Gangetic gharials in captivity and releasing them is an example of captive breeding.\n2. Sacred groves are an example of ex-situ conservation.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
    "2 only",
    "Both 1 and 2",
    "Neither 1 nor 2"
   ],
-  "a": 1,
-  "x": "Statement 1 is wrong: sacred groves are in-situ – protected in the natural habitat. Statement 2 is correct: captive breeding is for species whose habitat is lost, e.g. gharials; also Asian Giant Tortoises released in Ntangki NP.",
+  "a": 0,
+  "x": "Statement 1 is correct: captive breeding is for species whose habitat is lost, e.g. gharials; also Asian Giant Tortoises released in Ntangki NP. Statement 2 is wrong: sacred groves are in-situ – protected in the natural habitat.",
   "src": "app",
   "tq": "statements"
  },
@@ -645,17 +645,17 @@
   "tq": "match"
  },
  {
-  "id": "cpa4e956ecb8ec",
+  "id": "cp1523e6e51015",
   "row": 87,
-  "s": "Consider the following statements about India's protected areas:\n1. The boundary of a National Park can be altered only on the recommendation of the National Board for Wildlife.\n2. In 2026 India had 1,134 protected areas covering about 5.32% of its area.\n3. India's first community reserve, Keshopur-Chhamb, is in Haryana.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about India's protected areas:\n1. In 2026 India had 1,134 protected areas covering about 5.32% of its area.\n2. India's first community reserve, Keshopur-Chhamb, is in Haryana.\n3. The boundary of a National Park can be altered only on the recommendation of the National Board for Wildlife.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
    "1, 2 and 3",
-   "2 only",
-   "1 and 2 only"
+   "3 only",
+   "1 and 3 only"
   ],
   "a": 3,
-  "x": "Statement 1 is correct: NBWL recommendation is required. Statement 2 is correct: 109 NPs, 573 WLS, 127 conservation and 75 community reserves. Statement 3 is wrong: Keshopur-Chhamb is in Punjab.",
+  "x": "Statement 1 is correct: 109 NPs, 573 WLS, 127 conservation and 75 community reserves. Statement 2 is wrong: Keshopur-Chhamb is in Punjab. Statement 3 is correct: NBWL recommendation is required.",
   "src": "app",
   "tq": "statements"
  },
@@ -675,17 +675,17 @@
   "tq": "assertion"
  },
  {
-  "id": "cp6e909a35179e",
+  "id": "cp35af7beda801",
   "row": 87,
-  "s": "With reference to activities in Eco-sensitive Zones (ESZs), consider the following statements:\n1. Commercial mining is prohibited.\n2. Tree felling and hotels and resorts are regulated, not prohibited.\n3. Agriculture is prohibited inside an ESZ.\nWhich of the statements given above is/are correct?",
+  "s": "With reference to activities in Eco-sensitive Zones (ESZs), consider the following statements:\n1. Agriculture is prohibited inside an ESZ.\n2. Commercial mining is prohibited.\n3. Tree felling and hotels and resorts are regulated, not prohibited.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "1 and 2 only",
    "2 only",
+   "2 and 3 only",
+   "3 only",
    "1, 2 and 3"
   ],
   "a": 1,
-  "x": "Statement 1 is correct: mining, polluting industry and major hydro projects are prohibited. Statement 2 is correct: they are regulated activities. Statement 3 is wrong: agriculture and organic farming are permitted – ESZs do not ban all activity.",
+  "x": "Statement 1 is wrong: agriculture and organic farming are permitted – ESZs do not ban all activity. Statement 2 is correct: mining, polluting industry and major hydro projects are prohibited. Statement 3 is correct: they are regulated activities.",
   "src": "app",
   "tq": "statements"
  },
@@ -735,32 +735,32 @@
   "tq": "match"
  },
  {
-  "id": "cpfd0ca728970f",
+  "id": "cp0fda2412ddbb",
   "row": 87,
-  "s": "Consider the following statements:\n1. The Valley of Flowers National Park lies completely in the temperate alpine zone.\n2. Nanda Devi and Valley of Flowers National Parks together form a UNESCO World Heritage Site.\n3. Silent Valley National Park is a tropical deciduous forest in Tamil Nadu.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. Silent Valley National Park is a tropical deciduous forest in Tamil Nadu.\n2. The Valley of Flowers National Park lies completely in the temperate alpine zone.\n3. Nanda Devi and Valley of Flowers National Parks together form a UNESCO World Heritage Site.\nWhich of the statements given above is/are correct?",
   "o": [
+   "3 only",
    "1, 2 and 3",
-   "2 only",
-   "1 and 2 only",
-   "1 only"
+   "2 and 3 only",
+   "2 only"
   ],
   "a": 2,
-  "x": "Statement 1 is correct: it is in Chamoli, Uttarakhand. Statement 2 is correct: they also form the core of the Nanda Devi BR. Statement 3 is wrong: Silent Valley is a tropical EVERGREEN forest in Palakkad, Kerala.",
+  "x": "Statement 1 is wrong: Silent Valley is a tropical EVERGREEN forest in Palakkad, Kerala. Statement 2 is correct: it is in Chamoli, Uttarakhand. Statement 3 is correct: they also form the core of the Nanda Devi BR.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cpa0cb6928e483",
+  "id": "cpcbf74f693560",
   "row": 87,
-  "s": "Consider the following statements about marine conservation in India:\n1. Bhitarkanika in Odisha is a Marine National Park.\n2. Andaman and Nicobar and Lakshadweep were named India's first Hope Spots in 2013 by Mission Blue.\n3. The ICMAM Project Directorate of the MoES is located at Chennai.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about marine conservation in India:\n1. The ICMAM Project Directorate of the MoES is located at Chennai.\n2. Bhitarkanika in Odisha is a Marine National Park.\n3. Andaman and Nicobar and Lakshadweep were named India's first Hope Spots in 2013 by Mission Blue.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
+   "1 and 3 only",
    "3 only",
-   "2 and 3 only",
-   "2 only",
    "1, 2 and 3"
   ],
   "a": 1,
-  "x": "Statement 1 is wrong: Bhitarkanika, Gahirmatha and Sundarbans are mangrove/turtle areas, not marine NPs; Gulf of Mannar and Gulf of Kachchh are. Statement 2 is correct: Hope Spots (2013, Mission Blue). Statement 3 is correct: ICMAM, launched 1998, is at Chennai.",
+  "x": "Statement 1 is correct: ICMAM, launched 1998, is at Chennai. Statement 2 is wrong: Bhitarkanika, Gahirmatha and Sundarbans are mangrove/turtle areas, not marine NPs; Gulf of Mannar and Gulf of Kachchh are. Statement 3 is correct: Hope Spots (2013, Mission Blue).",
   "src": "app",
   "tq": "statements"
  },
@@ -795,17 +795,17 @@
   "tq": "match"
  },
  {
-  "id": "cp4c8024dda650",
+  "id": "cp7659195474a1",
   "row": 87,
-  "s": "Consider the following statements:\n1. Cryopreservation can store gametes, embryos, seeds, pollen, tissues and DNA.\n2. The Svalbard Global Seed Vault keeps seeds in permafrost at about −18 °C.\n3. LaCONES of CCMB, Hyderabad, is India's frozen zoo.\n4. The second National Gene Bank announced in Budget 2025-26 will hold 1 lakh germplasm lines.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. LaCONES of CCMB, Hyderabad, is India's frozen zoo.\n2. The second National Gene Bank announced in Budget 2025-26 will hold 1 lakh germplasm lines.\n3. Cryopreservation can store gametes, embryos, seeds, pollen, tissues and DNA.\n4. The Svalbard Global Seed Vault keeps seeds in permafrost at about −18 °C.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "2 and 3 only",
    "1 and 3 only",
-   "1, 2 and 3 only"
+   "1, 2, 3 and 4",
+   "3 and 4 only",
+   "1, 3 and 4 only"
   ],
   "a": 3,
-  "x": "Statement 1 is correct: in liquid nitrogen at −196 °C. Statement 2 is correct: it is the world's largest secure seed vault. Statement 3 is correct: LaCONES = India's frozen zoo. Statement 4 is wrong: it will hold 10 lakh lines.",
+  "x": "Statement 1 is correct: LaCONES = India's frozen zoo. Statement 2 is wrong: it will hold 10 lakh lines. Statement 3 is correct: in liquid nitrogen at −196 °C. Statement 4 is correct: it is the world's largest secure seed vault.",
   "src": "app",
   "tq": "statements"
  },
@@ -825,17 +825,17 @@
   "tq": "match"
  },
  {
-  "id": "cp74487b17bc8a",
+  "id": "cpb353e2cca74b",
   "row": 87,
-  "s": "Consider the following statements about conservation breeding in India:\n1. The Jatayu Conservation Breeding Centre at Pinjore breeds vultures.\n2. The Great Indian Bustard is bred at Sam and Ramdevra in Jaisalmer.\n3. Red panda conservation breeding is carried out at Nehru Zoological Park, Hyderabad.\nWhich of the statements given above is/are NOT correct?",
+  "s": "Consider the following statements about conservation breeding in India:\n1. The Great Indian Bustard is bred at Sam and Ramdevra in Jaisalmer.\n2. Red panda conservation breeding is carried out at Nehru Zoological Park, Hyderabad.\n3. The Jatayu Conservation Breeding Centre at Pinjore breeds vultures.\nWhich of the statements given above is/are NOT correct?",
   "o": [
    "2 and 3 only",
-   "1 and 3 only",
-   "3 only",
-   "1 only"
+   "1 and 2 only",
+   "2 only",
+   "3 only"
   ],
   "a": 2,
-  "x": "Statement 1 is correct: Jatayu Centre, Pinjore. Statement 2 is correct: GIB breeding at Sam and Ramdevra. Statement 3 is wrong: red panda breeding is at Padmaja Naidu Zoo, Darjeeling.",
+  "x": "Statement 1 is correct: GIB breeding at Sam and Ramdevra. Statement 2 is wrong: red panda breeding is at Padmaja Naidu Zoo, Darjeeling. Statement 3 is correct: Jatayu Centre, Pinjore.",
   "src": "app",
   "tq": "statements"
  },
@@ -885,9 +885,9 @@
   "tq": "statements"
  },
  {
-  "id": "cp74849daa0434",
+  "id": "cp0ee8e329795d",
   "row": 88,
-  "s": "Consider the following statements about the protected-area network of Andhra Pradesh:\n1. Andhra Pradesh has one tiger reserve, Nagarjunasagar-Srisailam.\n2. Rayala is the State's only elephant reserve.\n3. Seshachalam is the State's only biosphere reserve.\n4. The State has 13 wildlife sanctuaries and five national parks.\nHow many of the statements given above are correct?",
+  "s": "Consider the following statements about the protected-area network of Andhra Pradesh:\n1. Seshachalam is the State's only biosphere reserve.\n2. The State has 13 wildlife sanctuaries and five national parks.\n3. Andhra Pradesh has one tiger reserve, Nagarjunasagar-Srisailam.\n4. Rayala is the State's only elephant reserve.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -895,7 +895,7 @@
    "All four"
   ],
   "a": 2,
-  "x": "Statement 1 is correct: NSTR is AP's only TR. Statement 2 is correct: Rayala ER includes Koundinya WLS. Statement 3 is correct: Seshachalam (2010). Statement 4 is wrong: AP has 13 sanctuaries but only THREE national parks – Sri Venkateswara, Papikonda and Rajiv Gandhi (Rameswaram); there is no Papikondalu tiger reserve.",
+  "x": "Statement 1 is correct: Seshachalam (2010). Statement 2 is wrong: AP has 13 sanctuaries but only THREE national parks – Sri Venkateswara, Papikonda and Rajiv Gandhi (Rameswaram); there is no Papikondalu tiger reserve. Statement 3 is correct: NSTR is AP's only TR. Statement 4 is correct: Rayala ER includes Koundinya WLS.",
   "src": "app",
   "tq": "statements"
  },
@@ -945,17 +945,17 @@
   "tq": "match"
  },
  {
-  "id": "cpd3a732f923e0",
+  "id": "cp485dd662a429",
   "row": 88,
-  "s": "Consider the following statements about Koundinya Wildlife Sanctuary:\n1. It was set up in 1990 in Chittoor district for elephants.\n2. It borders Karnataka.\n3. It is part of the Rayala Elephant Reserve.\nWhich of the statements given above is/are NOT correct?",
+  "s": "Consider the following statements about Koundinya Wildlife Sanctuary:\n1. It is part of the Rayala Elephant Reserve.\n2. It was set up in 1990 in Chittoor district for elephants.\n3. It borders Karnataka.\nWhich of the statements given above is/are NOT correct?",
   "o": [
-   "1 and 2 only",
-   "2 only",
    "2 and 3 only",
+   "3 only",
+   "1 and 3 only",
    "1 only"
   ],
   "a": 1,
-  "x": "Statement 1 is correct: Koundinya (1990), Chittoor. Statement 2 is wrong: it borders Tamil Nadu. Statement 3 is correct: Koundinya Sanctuary and Rayala ER are AP's pair.",
+  "x": "Statement 1 is correct: Koundinya Sanctuary and Rayala ER are AP's pair. Statement 2 is correct: Koundinya (1990), Chittoor. Statement 3 is wrong: it borders Tamil Nadu.",
   "src": "app",
   "tq": "statements"
  },
@@ -990,33 +990,453 @@
   "tq": "assertion"
  },
  {
-  "id": "cpe59f3fab8d2c",
+  "id": "cp1864bfd6abd6",
   "row": 88,
-  "s": "Consider the following statements:\n1. Kolleru Lake became a Ramsar site in 2002.\n2. Kolleru is a brackish-water lagoon.\n3. Operation Kolleru (2006) removed illegal fish tanks up to the +5 ft contour.\n4. India had 103 Ramsar sites by October 2026; the first were Chilika and Keoladeo (1981).\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. India had 103 Ramsar sites by October 2026; the first were Chilika and Keoladeo (1981).\n2. Kolleru Lake became a Ramsar site in 2002.\n3. Kolleru is a brackish-water lagoon.\n4. Operation Kolleru (2006) removed illegal fish tanks up to the +5 ft contour.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 and 2 only",
    "1, 2, 3 and 4",
-   "1 and 4 only",
-   "1, 3 and 4 only",
-   "3 and 4 only"
+   "1, 2 and 4 only",
+   "1 and 4 only"
   ],
   "a": 2,
-  "x": "Statement 1 is correct: Kolleru, Ramsar 2002. Statement 2 is wrong: Kolleru is a large FRESHWATER lake between the Godavari and Krishna deltas; Pulicat is the brackish lagoon. Statement 3 is correct: Operation Kolleru, 2006. Statement 4 is correct: 103 after Sukhna Wetland and Sauj Jheel.",
+  "x": "Statement 1 is correct: 103 after Sukhna Wetland and Sauj Jheel. Statement 2 is correct: Kolleru, Ramsar 2002. Statement 3 is wrong: Kolleru is a large FRESHWATER lake between the Godavari and Krishna deltas; Pulicat is the brackish lagoon. Statement 4 is correct: Operation Kolleru, 2006.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp7eae0d309a1f",
+  "id": "cpe7d3b73bdab6",
   "row": 88,
-  "s": "Consider the following statements:\n1. Seshachalam Hills BR was notified in 2010 and covers about 4,756 km².\n2. Sri Venkateswara National Park was declared in 1956.\n3. Sri Venkateswara WLS and NP together cover about 525.97 km² and include the Talakona waterfall.\nWhich of the statements given above is/are NOT correct?",
+  "s": "Consider the following statements:\n1. Sri Venkateswara National Park was declared in 1956.\n2. Sri Venkateswara WLS and NP together cover about 525.97 km² and include the Talakona waterfall.\n3. Seshachalam Hills BR was notified in 2010 and covers about 4,756 km².\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: SV NP was declared in 1989 (the WLS in 1985), not 1956. Statement 2 is correct: they are the abode of species endemic to the Seshachalam hills. Statement 3 is correct: notified 20 Sep 2010.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4fc5d8faae9e",
+  "row": 89,
+  "s": "Consider the following statements about Project Tiger:\n1. Project Snow Leopard is one of the five new national projects announced by the MoEFCC in 2026.\n2. It began in 1973 with nine reserves, including Palamau and Similipal.\n3. Ranthambhore became a tiger reserve in 1973, although Ranthambhore National Park itself dates from 1980.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "3 only",
+   "1, 2 and 3",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: the five new projects are for the dolphin, Asian elephant, gharial, GIB and Olive Ridley – not the snow leopard. Statement 2 is correct: the first nine were Corbett, Kanha, Manas, Palamau, Similipal, Melghat, Bandipur, Ranthambhore and Sundarbans. Statement 3 is correct: Ranthambhore was among the first nine (1973); the NP dates from 1980.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8af1b9242958",
+  "row": 89,
+  "s": "Match List-I (Tiger reserve) with List-II (Distinction):\nList-I | List-II\na. Kamlang (Arunachal Pradesh) | i. 50th tiger reserve (2017)\nb. Ratapani (MP) | ii. Hornbill Nest Adoption Programme\nc. Madhav (MP) | iii. 57th tiger reserve (Dec 2024)\nd. Pakke (Arunachal Pradesh) | iv. 58th tiger reserve (March 2025)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Correct pairs: Kamlang (Arunachal Pradesh) – 50th tiger reserve (2017); Ratapani (MP) – 57th tiger reserve (Dec 2024); Madhav (MP) – 58th tiger reserve (March 2025); Pakke (Arunachal Pradesh) – Hornbill Nest Adoption Programme (a-i, b-iii, c-iv, d-ii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp18763812766a",
+  "row": 89,
+  "s": "Consider the following statements:\n1. Corbett National Park was officially renamed Ramganga National Park in 2021.\n2. Projects in tiger corridors need clearance from the Standing Committee of the National Board for Wildlife.\n3. A third railway line is reported to threaten the Satpura-Melghat tiger corridor.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: a minister said so in Oct 2021, but no renaming was notified – the park keeps Corbett's name. Statement 2 is correct: NBWL Standing Committee clearance. Statement 3 is correct: Satpura-Melghat corridor.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp832f76da5f8e",
+  "row": 89,
+  "s": "Consider the following statements about tiger estimation in India:\n1. Camera trapping with ExtractCompare software and DNA from scats has replaced the pugmark method.\n2. M-STrIPES was launched in tiger reserves by the NTCA and WII in 2010.\n3. M-STrIPES stands for 'Monitoring System for Tigers – Intensive Patrolling and Ecological Survey'.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
    "2 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: pugmarks are now only an index of occurrence. Statement 2 is correct: software-based patrolling and monitoring. Statement 3 is wrong: it is 'Monitoring System for Tigers – Intensive Protection and Ecological Status'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp89c7cd039f6f",
+  "row": 89,
+  "s": "Match List-I (State) with List-II (Tigers (2022 estimation)):\nList-I | List-II\na. Madhya Pradesh | i. 785\nb. Karnataka | ii. 560\nc. Uttarakhand | iii. 444\nd. Maharashtra | iv. 563\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 2,
+  "x": "Correct pairs: Madhya Pradesh – 785; Karnataka – 563; Uttarakhand – 560; Maharashtra – 444 (a-i, b-iv, c-ii, d-iii). Madhya Pradesh has the most tigers.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp95172d02b213",
+  "row": 89,
+  "s": "Consider the following statements about the All India Tiger Estimation:\n1. It is carried out every four years by the NTCA with the Wildlife Institute of India.\n2. The 2022 (fifth) cycle counted 3,682 tigers, with an upper limit of 3,925.\n3. India has about 40% of the world's wild tigers.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: every 4 years, NTCA with WII. Statement 2 is correct: 3,682 (upper limit 3,925). Statement 3 is wrong: India has about 70-75% of the world's wild tigers.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp10b86394509e",
+  "row": 89,
+  "s": "Consider the following statements about the National Tiger Conservation Authority (NTCA):\n1. In the MEE 2022, 12 of the 51 tiger reserves assessed were rated 'Excellent'.\n2. Preparing a Tiger Conservation Plan is optional for a tiger reserve.\n3. It is a statutory body set up under the 2006 amendment of the Wildlife (Protection) Act.\n4. It is chaired by the Prime Minister.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: MEE 2022: 12 Excellent. Statement 2 is wrong: Sec 38V(3) requires a Tiger Conservation Plan for every reserve. Statement 3 is correct: on the Tiger Task Force's advice. Statement 4 is wrong: the NTCA is chaired by the Union Environment Minister.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpda0c7b13d80d",
+  "row": 89,
+  "s": "Consider the following statements about global tiger conservation:\n1. The 2010 Tiger Summit at St Petersburg adopted TX2 – doubling wild tigers by 2022.\n2. International Tiger Day, begun by the 2010 summit, is observed on 29 July.\n3. CA|TS stands for Conservation Assured | Tiger Standards; 14 Indian reserves were accredited on Tiger Day 2021.\n4. The Global Tiger Forum has its headquarters in New Delhi.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: India achieved it in 2018. Statement 2 is correct: 29 July. Statement 3 is correct: 14 in 2021 (23 now). Statement 4 is correct: set up 1993-94.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3fb41e4a48ce",
+  "row": 89,
+  "s": "Read the following statements and choose the correct option:\nAssertion (A): Vulture populations in India have crashed since the 1990s.\nReason (R): Diclofenac in the carcasses of treated cattle causes kidney failure (visceral gout) in vultures.",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: vultures eating carcasses of cattle given the painkiller diclofenac die of kidney failure – confirmed by Peregrine Fund research (2003); the decline was first noticed at Keoladeo (1998).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpc4c0651be2ef",
+  "row": 89,
+  "s": "Consider the following statements about vultures in India:\n1. Their decline was first noticed at Keoladeo National Park, Bharatpur, in 1998.\n2. Of India's nine vulture species, the four resident ones are Critically Endangered.\n3. The Action Plan for Vulture Conservation 2020-25 calls for State-level vulture committees.\n4. The world's first release of captive-bred slender-billed vultures took place in Haryana.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4",
+   "1 and 2 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: Keoladeo, 1998. Statement 2 is correct: white-rumped, slender-billed, long-billed and red-headed. Statement 3 is correct: plus more breeding centres and Vulture Safe Zones. Statement 4 is wrong: it took place in Assam (BNHS centre, Aug 2026).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6eff79acef00",
+  "row": 89,
+  "s": "Consider the following statements:\n1. Veterinary use of diclofenac was banned in 2016.\n2. The Jatayu Conservation Breeding Centre at Pinjore, Haryana (2001) was India's first vulture breeding centre.\n3. SAVE stands for 'Saving Asia's Vultures from Extinction'.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 2 and 3",
+   "3 only",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: veterinary diclofenac was banned in May 2006 (aceclofenac and ketoprofen in 2023). Statement 2 is correct: Pinjore, 2001. Statement 3 is correct: a consortium.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf379fc3f93c4",
+  "row": 89,
+  "s": "Consider the following statements about the Ganges River Dolphin:\n1. Project Dolphin (2020) covers only riverine dolphins.\n2. It is listed in Schedule I of the WPA and Appendix I of CITES.\n3. It is found in India, Nepal and Bangladesh.\n4. National Dolphin Day is observed on 5 October.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 4 only",
+   "1 only",
+   "1 and 2 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: Project Dolphin covers riverine AND marine dolphins and other cetaceans. Statement 2 is correct: Schedule I; CITES App. I; IUCN Endangered. Statement 3 is correct: Ganga-Brahmaputra-Meghna and Karnaphuli-Sangu systems. Statement 4 is correct: the date it was declared National Aquatic Animal (2009).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp29b0c15fa1fa",
+  "row": 89,
+  "s": "Match List-I (Place / designation) with List-II (Dolphin link):\nList-I | List-II\na. Bhagalpur, Bihar | i. Vikramshila Gangetic Dolphin Sanctuary\nb. Patna | ii. Gangetic dolphin declared city animal\nc. MP–Rajasthan–UP | iii. National Dolphin Research Centre\nd. Guwahati | iv. National Chambal Sanctuary\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 0,
+  "x": "Correct pairs: Bhagalpur, Bihar – Vikramshila Gangetic Dolphin Sanctuary; Patna – National Dolphin Research Centre; MP–Rajasthan–UP – National Chambal Sanctuary; Guwahati – Gangetic dolphin declared city animal (a-i, b-iii, c-iv, d-ii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp525bcad66ade",
+  "row": 89,
+  "s": "Consider the following statements about Project Elephant:\n1. Tuskless male elephants are called makhnas.\n2. It was launched in February 1990 as a Centrally Sponsored Scheme.\n3. India has 33 Elephant Reserves in 14 States, and the project was merged with Project Tiger in 2023.\n4. MIKE (Monitoring the Illegal Killing of Elephants) is a CITES programme.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 4 only",
+   "1, 3 and 4 only",
+   "1 and 3 only",
+   "3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: makhnas. Statement 2 is wrong: it was launched in February 1992 (not 1990). Statement 3 is correct: 'Project Tiger and Elephant Division'. Statement 4 is correct: in South Asia since 2003.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8a5523811a22",
+  "row": 89,
+  "s": "Consider the following statements about elephants in India:\n1. India's elephant population is estimated at 22,446.\n2. Elephants and tigers together kill about one person a day in India.\n3. India has about 60% of the world's Asian elephants.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: 22,446 (Apr 2026). Statement 2 is correct: MoEF data. Statement 3 is correct: ~60%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc397b3e90123",
+  "row": 89,
+  "s": "Read the following statements and choose the correct option:\nAssertion (A): The elephant was declared India's National Heritage Animal in 2010.\nReason (R): The Asian elephant is listed as Endangered.",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 1,
+  "x": "Both are true – National Heritage Animal (2010); IUCN Endangered – but the IUCN status is not the reason given for the national declaration.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb7d2a180ae15",
+  "row": 89,
+  "s": "Read the following statements and choose the correct option:\nAssertion (A): Project Elephant aims to protect elephants, their habitats and corridors.\nReason (R): Project Elephant is concerned only with the welfare of wild elephants.",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: Project Elephant also covers the welfare of captive (domesticated) elephants and man–animal conflict.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4678213d839e",
+  "row": 89,
+  "s": "Consider the following statements about Project Cheetah:\n1. Two female cheetahs came from Botswana in May 2026.\n2. Gandhi Sagar WLS in Madhya Pradesh is its second site.\n3. The Asiatic cheetah now survives only in Afghanistan.\n4. It is the world's first intercontinental translocation of a large carnivore.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 4 only",
+   "1 and 2 only",
+   "1, 2, 3 and 4",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: after 8 from Namibia (2022) and 12 from South Africa (2023). Statement 2 is correct: two males were moved there from Kuno in April 2025. Statement 3 is wrong: the Asiatic cheetah survives only in Iran; India brought African cheetahs. Statement 4 is correct: site: Kuno NP, Sheopur (MP).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2bb887cbab5b",
+  "row": 89,
+  "s": "Consider the following statements about the International Big Cat Alliance (IBCA):\n1. It is open to 96 range countries as well as non-range countries.\n2. The clouded leopard is one of the seven big cats it covers.\n3. It was launched in April 2023 to mark 50 years of Project Tiger.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: 96 range countries. Statement 2 is wrong: the seven are tiger, lion, leopard, snow leopard, cheetah, jaguar and puma. Statement 3 is correct: at Mysuru.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9c7dbeca199b",
+  "row": 89,
+  "s": "Consider the following statements about Asiatic lions:\n1. The 2018 Gir lion deaths were caused by anthrax.\n2. Project Lion was launched in 2020; Gir had 891 lions in 2025.\n3. Barda WLS in Gujarat, proposed as a second home, is criticised as being too close to Gir.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: they were caused by Canine Distemper Virus. Statement 2 is correct: 891 (2025). Statement 3 is correct: too close to work as a safeguard.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp27229bb4f57e",
+  "row": 89,
+  "s": "Consider the following statements about the Great Indian Bustard (GIB):\n1. The same judgment recognised a right against the adverse effects of climate change under Articles 14 and 21.\n2. Its zoological name is Ardeotis nigriceps and its main range is the Thar.\n3. Its main threat in solar and wind zones is collision with overhead power lines.\n4. In M.K. Ranjitsinh v. Union of India (March 2024), the Supreme Court upheld the 2021 blanket undergrounding order unchanged.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "4 only",
+   "1 and 4 only",
+   "2 and 4 only",
+   "3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: Arts 14 and 21. Statement 2 is correct: Rajasthan's state bird; in AP at Rollapadu. Statement 3 is correct: power-line collisions. Statement 4 is wrong: the Court MODIFIED the 2021 blanket order.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcadb4274dfbf",
+  "row": 89,
+  "s": "Consider the following statements about migratory species:\n1. CMS COP14 was held at Gandhinagar.\n2. Amur falcons make their stopover at the Doyang reservoir.\n3. Pangti in Nagaland is called the 'Falcon Capital of the World'.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1, 2 and 3",
+   "2 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: COP13 was at Gandhinagar (Feb 2020); COP14 was at Samarkand (Feb 2024). Statement 2 is correct: Doyang reservoir, Nagaland. Statement 3 is correct: Pangti.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd9e388b8d1fb",
+  "row": 89,
+  "s": "Match List-I (Conservation programme) with List-II (Year launched):\nList-I | List-II\na. Crocodile Breeding and Management Project | i. 2009\nb. Project Snow Leopard | ii. 2004\nc. Indian Rhino Vision 2020 | iii. 1975\nd. Gujarat whale shark protection programme | iv. 2005\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Correct pairs: Crocodile Breeding and Management Project – 1975; Project Snow Leopard – 2009; Indian Rhino Vision 2020 – 2005; Gujarat whale shark protection programme – 2004 (a-iii, b-i, c-iv, d-ii). The whale shark programme began in 2004, not 2006.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd926bdcdde1d",
+  "row": 89,
+  "s": "Consider the following statements about marine turtles:\n1. Rushikulya (Odisha) and the beaches of Srikakulam and Vizianagaram (AP) see Olive Ridley mass nesting.\n2. India released its National Marine Turtle Action Plan in 2021.\n3. The Olive Ridley nesting season off Odisha is mainly in August.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "3 only",
    "2 and 3 only",
    "1, 2 and 3"
   ],
   "a": 1,
-  "x": "Statement 1 is correct: notified 20 Sep 2010. Statement 2 is wrong: SV NP was declared in 1989 (the WLS in 1985), not 1956. Statement 3 is correct: they are the abode of species endemic to the Seshachalam hills.",
+  "x": "Statement 1 is correct: arribada sites. Statement 2 is correct: 2021. Statement 3 is wrong: the nesting season is roughly November-May, not August.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp2b913d9aaf4e",
+  "row": 89,
+  "s": "Match List-I (Protected area) with List-II (Main focus):\nList-I | List-II\na. Gulf of Mannar (TN) | i. Saltwater crocodile\nb. Malvan Marine Sanctuary (Maharashtra) | ii. Corals\nc. Coringa WLS (AP) | iii. Mangroves of the Godavari estuary\nd. Bhitarkanika (Odisha) | iv. Coral reefs, dugong\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-i, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "Correct pairs: Gulf of Mannar (TN) – Coral reefs, dugong; Malvan Marine Sanctuary (Maharashtra) – Corals; Coringa WLS (AP) – Mangroves of the Godavari estuary; Bhitarkanika (Odisha) – Saltwater crocodile (a-iv, b-ii, c-iii, d-i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7c10ebf72285",
+  "row": 89,
+  "s": "Read the following statements and choose the correct option:\nAssertion (A): Coringa Wildlife Sanctuary is known mainly for its coral reefs and dugongs.\nReason (R): Coringa protects the mangroves of the Godavari estuary.",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 3,
+  "x": "A is false: Coringa (Kakinada) is a mangrove sanctuary, not a coral or dugong site (those are Gulf of Mannar, Palk Bay). R is true.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp549ea606376d",
+  "row": 89,
+  "s": "Match List-I (Organisation) with List-II (Headquarters):\nList-I | List-II\na. IUCN | i. Noida\nb. BNHS | ii. Gland, Switzerland\nc. Wildlife Trust of India | iii. Dehradun\nd. Wildlife Institute of India | iv. Mumbai\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 0,
+  "x": "Correct pairs: IUCN – Gland, Switzerland; BNHS – Mumbai; Wildlife Trust of India – Noida; Wildlife Institute of India – Dehradun (a-ii, b-iv, c-i, d-iii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd0104734d01c",
+  "row": 89,
+  "s": "Match List-I (Organisation) with List-II (Year founded):\nList-I | List-II\na. BNHS | i. 1948\nb. IUCN | ii. 1883\nc. WWF | iii. 1982\nd. Wildlife Institute of India | iv. 1961\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "Correct pairs: BNHS – 1883; IUCN – 1948; WWF – 1961; Wildlife Institute of India – 1982 (a-ii, b-i, c-iv, d-iii).",
+  "src": "app",
+  "tq": "match"
  }
 ]
