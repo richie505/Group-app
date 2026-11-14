@@ -706,3 +706,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r034 (CA rows 34, 36 economy)
 - No PYQ key changes. Own MCQ g17a23f046f90 PM E-DRIVE outlay: add_option ₹10,900 crore (₹10,000 cr was FAME-II).
 - e-2W subsidy end date 31 Jul 2026 (Praveen) vs 31 Mar 2028 (PMF Aug 2026). APEDA as NPOP secretariat (certifies via accredited agencies).
+
+## b6-r037 (CA rows 37-38 Budget, Survey, RBI)
+- No key changes. Dispute y877b9bce27e chronology (works only if D = 1985-86 Budget) — check official key.
+- UIDF PYQ from explainer + Survey summary. FY26 GDP 7.7% (prov.) vs revised 7.8% (Praveen Sep 2026); own MCQ ga102aad56f3d keyed 7.7%.
