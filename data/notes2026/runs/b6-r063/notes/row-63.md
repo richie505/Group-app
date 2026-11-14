@@ -48,12 +48,12 @@
 # Key facts of agencies
 | Agency | Key fact |
 |---|---|
-| ITU (1865) | Oldest UN agency; 193 member states; India joined 1869; holds the World Telecommunication Development Conference every four years |
+| ITU (1865) | Oldest UN agency; **194 Member States** (ITU website; 193 UN members + Vatican City – some books: 193); India joined 1869; holds the World Telecommunication Development Conference every four years |
 | UNESCO (1945) | 194 members + 12 associate members; **58-member** Executive Board |
 | ICAO (1944) | Created by the Chicago Convention; 193 members; **36-member Council**; HQ Montreal |
 | IMF | Bretton Woods, 1944; formal existence **27 Dec 1945** (29 members); operations from 1 Mar 1947 |
 - **Bretton Woods Conference (1944):** based on the ideas of **Harry Dexter White** and **John Maynard Keynes**.
-~~ Sources: Rocket CA 2026 Part 02 (src/current-affairs/rocket-ca-2026-02.txt) p.73, 80-82, 86-89; Praveen CA-360 Sep 2026 p.61 (World Athletics, Monaco); greenpeace.org (structure); ifad.org (43rd Governing Council); app notes 6:63 sub 0
+~~ Sources: Rocket CA 2026 Part 02 (src/current-affairs/rocket-ca-2026-02.txt) p.73, 80-82, 86-89; Praveen CA-360 Sep 2026 p.61 (World Athletics, Monaco); greenpeace.org (structure); ifad.org (43rd Governing Council); app notes 6:63 sub 0; itu.int About ITU ("a membership of 194 Member States"); PMF LENS May 2026-04 (ITU PP open to 194 Member States)
 
 === Groupings and Organisations – Membership Changes and "Not a Member"
 # Groupings and newest members
