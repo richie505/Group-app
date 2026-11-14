@@ -682,3 +682,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Dispute y61b693304ca 61,500 schools (U-DISE 58,572).
 - Outdated: DGP, Deputy CM, Chief Secretary (G. Sai Prasad; one daily CA says Special CS Revenue), Home Minister.
 - Unverified: Prana Raksha (yd277f330ed1, yd83a5fad484), West Godavari ODF 2017, AP first algorithms state.
+
+## b6-r027 (CA row 27 Mar–May 2026 polity)
+- No key changes. Outdated y931684530e8 Governors (Haryana now Ashim Kumar Ghosh; Shukla to Telangana).
+- Delhi LG = Taranjit Singh Sandhu (Praveen/old notes garbled "Tajit Singh Nindhu"). Lok Sabha max kept 550 (Praveen says 552).

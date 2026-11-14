@@ -1,3 +1,23 @@
+=== Earlier Governance Events Asked in APPSC (2017–2023)
+# Motor Vehicles law
+- **MV (Amendment) Bill, 2016** (passed by Lok Sabha 10 April 2017): a scheme for **cashless treatment of road-accident victims during the "golden hour"** (the first hour after an injury).
+- **Drunken driving:** punishable under the **Motor Vehicles Act, 1988 (Section 185)** – not the CrPC or Evidence Act; there is no "Road Safety Act".
+# State decisions
+- **J&K Guest Control Order:** in force from **1 April 2017** – capped wedding guests (500 for a daughter's wedding, 400 for a son's, 100 for engagements).
+- **Bihar human chain (21 January 2017):** crores of people joined it in support of **prohibition of liquor**.
+- **Prayagraj:** the MHA cleared UP's proposal to rename **Allahabad as Prayagraj** ahead of Kumbh Mela 2019.
+# Elections
+- **2017 (and 2022) polls in five States:** UP 403 + Punjab 117 + Uttarakhand 70 + Manipur 60 + Goa 40 = **690 Assembly seats**.
+# Security and publications
+- **54th DGsP/IGsP Conference (December 2019):** held at **IISER, Pune**; inaugurated by Home Minister Amit Shah.
+- **The Gazette of India:** published by the Department of Publication under the **Ministry of Housing and Urban Affairs** (printed by the Directorate of Printing; e-Gazette at egazette.gov.in).
+- **Employment News (Rozgar Samachar):** weekly job newspaper (English) of the **Publications Division, Ministry of Information and Broadcasting**.
+# National War Memorial (APPSC Group-I 2023 PYQ)
+- **Dedicated 25 February 2019** (not 2021); honours soldiers who died in wars and operations **after Independence**.
+- **Four concentric circles:** Amar, Veerta, Tyag and Rakshak Chakra.
+- **January 2022:** the **Amar Jawan Jyoti** flame at India Gate was merged with the flame at the National War Memorial.
+~~ Sources: Praveen CA-360 Jun 2026 magazine p.66 (National War Memorial dedicated 25 Feb 2019; four concentric circles); Praveen CA-360 Jan 2026 magazine p.38 (golden hour = first hour after injury); egazette.gov.in (via web search: Department of Publication, MoHUA); Business Standard / Scroll Feb 2017 (via web search: J&K Guest Control Order from 1 Apr 2017); PIB release 7 Dec 2019 (via web search: 54th DGsP/IGsP Conference at IISER Pune)
+
 === Landmark Judgments and Pending Matters
 # SIR verdict (27 May 2026)
 - **Upheld:** the ECI's **Special Intensive Revision (SIR)** of electoral rolls; Bench led by **CJI Surya Kant**.
@@ -56,26 +76,6 @@
 | SC (Number of Judges) Amendment Ordinance, 2026 | **Article 123** (President) | May 2026 |
 | AP Human Organ Transplantation Ordinance | **Article 213** (Governor) | **June 2026** |
 ~~ Sources: Rocket CA 2026 Part 02 p.17-19 (MMDR Amendment Act 2026; table of 2026 Amendment Acts); app notes 6:31 (sub 1-4)
-
-=== Earlier Governance Events Asked in APPSC (2017–2023)
-# Motor Vehicles law
-- **MV (Amendment) Bill, 2016** (passed by Lok Sabha 10 April 2017): a scheme for **cashless treatment of road-accident victims during the "golden hour"** (the first hour after an injury).
-- **Drunken driving:** punishable under the **Motor Vehicles Act, 1988 (Section 185)** – not the CrPC or Evidence Act; there is no "Road Safety Act".
-# State decisions
-- **J&K Guest Control Order:** in force from **1 April 2017** – capped wedding guests (500 for a daughter's wedding, 400 for a son's, 100 for engagements).
-- **Bihar human chain (21 January 2017):** crores of people joined it in support of **prohibition of liquor**.
-- **Prayagraj:** the MHA cleared UP's proposal to rename **Allahabad as Prayagraj** ahead of Kumbh Mela 2019.
-# Elections
-- **2017 (and 2022) polls in five States:** UP 403 + Punjab 117 + Uttarakhand 70 + Manipur 60 + Goa 40 = **690 Assembly seats**.
-# Security and publications
-- **54th DGsP/IGsP Conference (December 2019):** held at **IISER, Pune**; inaugurated by Home Minister Amit Shah.
-- **The Gazette of India:** published by the Department of Publication under the **Ministry of Housing and Urban Affairs** (printed by the Directorate of Printing; e-Gazette at egazette.gov.in).
-- **Employment News (Rozgar Samachar):** weekly job newspaper (English) of the **Publications Division, Ministry of Information and Broadcasting**.
-# National War Memorial (APPSC Group-I 2023 PYQ)
-- **Dedicated 25 February 2019** (not 2021); honours soldiers who died in wars and operations **after Independence**.
-- **Four concentric circles:** Amar, Veerta, Tyag and Rakshak Chakra.
-- **January 2022:** the **Amar Jawan Jyoti** flame at India Gate was merged with the flame at the National War Memorial.
-~~ Sources: Praveen CA-360 Jun 2026 magazine p.66 (National War Memorial dedicated 25 Feb 2019; four concentric circles); Praveen CA-360 Jan 2026 magazine p.38 (golden hour = first hour after injury); egazette.gov.in (via web search: Department of Publication, MoHUA); Business Standard / Scroll Feb 2017 (via web search: J&K Guest Control Order from 1 Apr 2017); PIB release 7 Dec 2019 (via web search: 54th DGsP/IGsP Conference at IISER Pune)
 
 === Elections, e-Voting and the ECI
 # E-voting

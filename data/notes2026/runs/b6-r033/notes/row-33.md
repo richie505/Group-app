@@ -117,7 +117,7 @@
 | ADB | 6.6% | **7.3%** |
 | RBI MPC (Aug) | 6.7% | – |
 | RBI SPF (101st) | 6.6% | 7% |
-~~ Sources: Praveen CA-360 Jun 2026 p.80 and Jul 2026 p.72 (WPI); app notes 6:33 (sub 1); Rocket Indian Economy (src/economy/rocket-indian-economy.txt) p.ROCKP (FRBM effective 5 July 2004); Ramesh Singh Indian Economy Part 6 p.RSP
+~~ Sources: Praveen CA-360 Jun 2026 p.80 and Jul 2026 p.72 (WPI); app notes 6:33 (sub 1); Rocket Indian Economy (src/economy/rocket-indian-economy.txt) p.30 (FRBM effective 5 July 2004); Ramesh Singh Indian Economy Part 6 p.19
 
 === Union Budget 2026–27 and Economic Survey 2026 – Items in News
 - **Rare earth corridors:** Odisha, Kerala, **Andhra Pradesh**, Tamil Nadu (not Karnataka).
