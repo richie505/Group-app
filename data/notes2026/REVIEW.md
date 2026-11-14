@@ -1228,3 +1228,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b2-w062 (rows 62–65)
 - own 422 → 85 kept + 76 new (161, 38%); new 45 statements / 19 match / 10 A–R / 2 sequence; 1 of 254 lines lost. No wrong notes/keys (notes already flag disputed keys at 64:7:4 and 65:3:2).
+
+## rewrite b4-w055 (rows 55–60)
+- own 380 → 41 kept + 87 new (128, 34%); new 54 statements / 22 match / 11 A–R; no lines lost.
+- Row 59 notes conflict: median age 2020 India 29 / Japan 48 (0:7) vs India 28 / Japan 45 (1:1); kept own f1306036f422d uses Japan 45 — reconcile.
+- nfe8589ae578 (Nellore most populous on 28-district map) fixed to 26-district map per notes 58:4:4; ge6d746ade890 (Polavaram/Markapuram) removed as not in row 58 notes.
