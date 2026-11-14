@@ -724,3 +724,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. y1289c8b26d4 emblem question image missing: printed UGC kept, not verified; garbled explanation replaced.
 - yc9fd42ed8f1 AP five campaigns: source only a 2015 blog. ONOE 129th Bill from Praveen + Rocket Polity.
 - Notes fixed: NCM chair Grewal (16/21 Jul 2026), NITI CEO Anurag Jain (17 Aug 2026), 16th FC report 17 Nov 2025.
+
+## b6-r049 (CA rows 49-51 committees and commissions)
+- No key changes. Outdated yd2d3daf4cf7 PMEAC 5 members (now EAC-PM, S. Mahendra Dev, ~11).
+- Own MCQ f0b0ea3f9b705 Kishor Makwana NCSC explanation fixed (vs Bhagwat Prasad Makwana NCSK).
+- General-knowledge only: y167c556a488 Birla/Irani pairs; FRO quadrat and parameter keys.

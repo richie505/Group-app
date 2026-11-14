@@ -7,7 +7,7 @@ Rows: 42 = Dec 2025–Feb 2026; 44 = Overview and data. Data: 32 exam PYQs (keys
 |---|---|
 | PYQs | 32 (filed: row 42 – 2, row 44 – 30) |
 | After mapping | row 42 – 1 (IS 19445), row 44 – 29, moved out – 2 |
-| Keys from the notes / generated | 9 / 23 (most old one-liners are not in any local source → web-checked) |
+| Keys from the notes / generated | 10 / 22 (most old one-liners are not in any local source → web-checked) |
 | PYQ keys changed | 0 – every printed key was confirmed (Kashi Tamil Sangamam already carries the added option "A, B, C & D") |
 | Own MCQ keys changed | 1 – ULLAS "not fully literate" (Sikkim declared fully literate on 27 May 2026) |
 | Left at -1 / outdated / disputed | 0 / 1 (own MCQ) / 0 |
@@ -34,12 +34,12 @@ Rows: 42 = Dec 2025–Feb 2026; 44 = Overview and data. Data: 32 exam PYQs (keys
 | 42 | BIS – IS 19445 and SHINE | 8 | 1 |
 | 42 | VB-G RAM G Act, 2025 | 12 | – |
 | 42 | DAY-NRLM | 11 | – |
-| 42 | HPV vaccination and NAP-AMR 2.0 | 21 | – |
+| 42 | HPV vaccination and NAP-AMR 2.0 | 20 | – |
 | 42 | Diseases and adolescent mental health | 11 | – |
 | 42 | AYUSH | 9 | – |
 | 42 | Welfare schemes | 8 | – |
 | 42 | Skilling, education and literacy | 19 | – |
-| 42 | Women, children and pension schemes | 22 | – |
+| 42 | Women, children and pension schemes | 21 | – |
 | 42 | Vande Bharat Sleeper, foreign campuses | 4 | – |
 | 44 | Union initiatives – education, youth, culture | 9 | 9 |
 | 44 | Railways, sanitation, justice, projects | 15 | 8 |
@@ -49,7 +49,7 @@ Rows: 42 = Dec 2025–Feb 2026; 44 = Overview and data. Data: 32 exam PYQs (keys
 | 44 | PURVODAYA and Rurban | 8 | 1 |
 | 44 | Flagship schemes – ministry and objective | 13 | – |
 | 44 | New launches 2025-26 | 10 | – |
-| 44 | Education, skill and sports | 10 | – |
+| 44 | Education, skill and sports | 9 | – |
 | 44 | Campaigns, renamed schemes, portals and boards | 17 | – |
 
 ## 3. Notes heavy but never asked
