@@ -283,5 +283,800 @@
   "x": "Eratosthenes (Father of Geography) first estimated the Earth's circumference correctly; Hipparchus first divided the circle into 360°; Anaximander made the first Greek world map; Ptolemy first used latitude and longitude in his Geographia.",
   "src": "app",
   "tq": "match"
+ },
+ {
+  "id": "cpd2835ab3b45b",
+  "row": 2,
+  "s": "Consider the following statements:\n1. The Earth rotates from west to east, i.e. counter-clockwise when seen from above the North Pole.\n2. Venus and Mars are the only planets that rotate in the opposite direction.\n3. The Earth's axis is tilted 23½° from the perpendicular to its orbital plane.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the planets that spin the other way are Venus and Uranus, not Mars. The Earth spins west to east (counter-clockwise from above the North Pole) on an axis tilted 23½° from the perpendicular (66½° with the orbital plane).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp50b27a44d4cf",
+  "row": 2,
+  "s": "Consider the following statements about the Earth's rotation:\n1. Its angular speed is 15° per hour.\n2. Its linear speed is about 1,670 km/h at the Equator.\n3. Its linear speed is the same at all latitudes.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: linear speed is greatest at the Equator (~1,670 km/h, the maximum velocity of rotation) and falls to zero at the poles; only the angular speed (15° per hour, 1° in 4 minutes) is the same everywhere.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2b3566a2d05f",
+  "row": 2,
+  "s": "Assertion (A): The solar day is about 4 minutes longer than the sidereal day.\nReason (R): While rotating, the Earth also moves along its orbit, so it must turn a little more to face the Sun again.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: a sidereal day (one true rotation against a distant star) is 23 h 56 min 4.09 s, while the solar day is 24 h because of the extra turn needed as the Earth moves along its orbit.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4f6fa6c77b76",
+  "row": 2,
+  "s": "Match List-I with List-II:\nList-I\na. Aryabhata\nb. Foucault\nc. Ferrel\nd. Pole Star\nList-II\ni. Deflection of moving air to the right in the Northern Hemisphere\nii. Lies almost in line with the Earth's axis of rotation\niii. Rotation of the Earth causes the daily rising and setting of the Sun\niv. Pendulum experiment in Paris, 1851",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "Aryabhata (5th century) explained the daily rising and setting of the Sun by the Earth's rotation; Foucault's pendulum (Paris, 1851) proved rotation; Ferrel's law gives deflection to the right in the NH; the Pole Star seems fixed as it lies almost in line with the Earth's axis.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf7b5f286ebe7",
+  "row": 2,
+  "s": "With reference to recent studies on the shifting of the Earth's rotation axis, consider the following statements:\n1. Mass redistribution, as melting polar ice moves water towards the Equator, is a main cause.\n2. Climate-driven melting has lengthened the day by about 1.33 milliseconds per century.\n3. Solar flares and coronal mass ejections shift the Earth's axis.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: solar flares and CMEs bombard the upper atmosphere with energy but do not shift the axis. The drift and the longer day (~1.33 ms per century, 2000–2020) come from mass redistribution – melting polar ice and groundwater loss.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2a9fc46dda9f",
+  "row": 2,
+  "s": "Consider the following statements about the Coriolis force:\n1. It is an apparent force caused by the Earth's revolution around the Sun.\n2. It deflects moving air and water to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n3. It is zero at the Equator and maximum at the poles.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: the Coriolis force is caused by the Earth's rotation, not revolution. It follows Ferrel's law (right in the NH, left in the SH) and, being 2Ωv sin(latitude), is zero at the Equator and maximum at the poles.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp644c851f0e76",
+  "row": 2,
+  "s": "Assertion (A): Tropical cyclones rarely form within 5° of the Equator.\nReason (R): The Coriolis force is zero at the Equator.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: a cyclone needs Coriolis deflection to spin up, and the Coriolis force (2Ωv sin latitude) vanishes at the Equator, so cyclones rarely form within about 5° of it.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp259be225cd00",
+  "row": 2,
+  "s": "Consider the following statements:\n1. Tropical cyclones in the Northern Hemisphere spin clockwise.\n2. Cyclone Montha (October 2025) was steered north-northwest to the Kakinada coast.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: Northern Hemisphere cyclones spin anticlockwise (Southern Hemisphere ones clockwise). Cyclone Montha (Oct 2025) was steered north-northwest to the Kakinada coast.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp286c229390af",
+  "row": 2,
+  "s": "Consider the following statements about tides:\n1. A coastal place generally has two high tides and one low tide a day.\n2. Successive high tides occur about 12 hours 25 minutes apart.\n3. Because the lunar day is about 24 hours 52 minutes, high tide comes about 52 minutes later each day.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: a semi-diurnal tide gives two high and two low tides a day as a place passes through both tidal bulges. High tides are ~12 h 25 min apart and come ~52 min later each day because the lunar day is ~24 h 52 min.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0896cba8039d",
+  "row": 2,
+  "s": "Match List-I (Tide) with List-II (Description):\nList-I\na. Spring tide\nb. Neap tide\nc. Ebb\nd. Flood\nList-II\ni. Falling tide\nii. Sun, Earth and Moon in a straight line\niii. Rising tide\niv. Sun and Moon at right angles to the Earth",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 2,
+  "x": "Spring tides (twice a month, new and full moon) come when the Sun, Earth and Moon are in a straight line; neap tides when the Sun and Moon are at right angles (first and third quarter). Ebb is the falling tide; flow or flood the rising tide.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9b71dd96abae",
+  "row": 2,
+  "s": "Consider the following statements:\n1. The circle of illumination is also known as the 'grey line'.\n2. The circle of illumination passes through both poles only at the solstices.\n3. The difference between the lengths of day and night is least near the Equator.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the circle of illumination (terminator, grey line) passes through both poles only at the equinoxes. Near the Equator day stays about 12 hours all year, and the day–night difference grows towards the poles.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfea6ef319ed1",
+  "row": 2,
+  "s": "Consider the following statements:\n1. The midnight sun is seen beyond the Arctic and Antarctic Circles near the summer solstice.\n2. Norway is known as the 'Land of the Midnight Sun'.\n3. The six-month day and six-month night at the poles are caused by rotation alone.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the six-month polar day and night result from revolution combined with the axial tilt, not rotation alone. The midnight sun occurs beyond the polar circles, and Norway is the 'Land of the Midnight Sun'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4394e1eec811",
+  "row": 2,
+  "s": "Assertion (A): Twilight lasts longest at high latitudes.\nReason (R): At the Equator the Sun rises and sets almost vertically.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: R is the reason twilight is shortest at the Equator. Twilight is long at high latitudes because there the Sun rises and sets along an oblique (slanting) path.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpeebbe2ece3ec",
+  "row": 2,
+  "s": "Consider the following statements about the Earth's revolution:\n1. One revolution takes about 365¼ days.\n2. The mean orbital speed is about 29.78 km/s.\n3. The Sun's gravity provides the centripetal force that keeps the Earth in orbit.\n4. The Earth–Sun distance remains constant throughout the year.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the orbit is slightly elliptical, with perihelion (~147 million km) in early January and aphelion (~152 million km) in early July. The period (~365¼ days), mean speed (29.78 km/s) and the Sun's gravity as centripetal force are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe7e5b5b207a4",
+  "row": 2,
+  "s": "Match List-I (Event in 2026 / every year) with List-II (Date):\nList-I\na. Perihelion (2026)\nb. Aphelion (2026)\nc. Sun overhead at the Tropic of Cancer\nd. Sun overhead at the Tropic of Capricorn\nList-II\ni. 22 December\nii. 3 January\niii. 21 June\niv. 6 July",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "In 2026 perihelion fell on 3 January and aphelion on 6 July; the Sun is overhead at the Tropic of Cancer on 21 June and at the Tropic of Capricorn on 22 December.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp758fcc546ce5",
+  "row": 2,
+  "s": "Consider the following statements about the leap year:\n1. It arises because each year is about one-quarter of a day longer than 365 days.\n2. The year 1900 was a leap year.\n3. A century year is a leap year only if it is divisible by 400.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: 1900 is not divisible by 400, so it was not a leap year (2000 was). The extra ¼ day a year adds up to the 29 February of a 366-day leap year.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb295009f90cd",
+  "row": 2,
+  "s": "Match List-I (Phenomenon) with List-II (Cause):\nList-I\na. Day and night\nb. Seasons\nc. Equatorial bulge\nd. Spring tide\nList-II\ni. Centrifugal force of rotation\nii. Sun, Earth and Moon in a straight line\niii. Rotation of the Earth\niv. Revolution with the tilt of the axis",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "Day and night come from rotation; seasons from revolution with the 23½° tilt (not rotation); the equatorial bulge from the centrifugal force of rotation; spring tides from the Sun, Earth and Moon lying in a straight line.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9c26bc737649",
+  "row": 3,
+  "s": "Consider the following statements:\n1. One minute of arc of longitude corresponds to 4 seconds of time.\n2. Fifteen degrees of longitude correspond to one hour of time.\n3. A place 30° west of Greenwich is 2 hours ahead of GMT.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: west is behind, so a place 30° west (30 × 4 = 120 min) is 2 hours behind GMT. 1' of arc = 4 seconds and 15° = 1 hour follow from 360° in 24 hours.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp89ea3d1a3344",
+  "row": 3,
+  "s": "Consider the following statements:\n1. The local time of places to the east of a given place is ahead of its local time.\n2. Moving westward, local time falls behind.\n3. Two places at 25°E and 35°W have a local-time difference of 40 minutes.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: places on opposite sides of Greenwich are added – 25° + 35° = 60° × 4 min = 240 min = 4 hours. East is ahead and west behind.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb7c3f2bebd2f",
+  "row": 3,
+  "s": "Match List-I (Given) with List-II (Longitude of the place):\nList-I\na. Local time 6 a.m. when it is noon at Greenwich\nb. Local time 5 p.m. when it is noon at Greenwich\nc. Local time 2 hours ahead of Greenwich\nd. Local time 6 a.m. when GMT is 3 a.m.\nList-II\ni. 30°E\nii. 45°E\niii. 90°W\niv. 75°E",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "6 h behind = 90°W; 5 h ahead = 75°E; 2 h ahead = 30°E (Cairo); 3 h ahead = 45°E – each hour is 15° of longitude, east ahead and west behind.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9f32ac801e42",
+  "row": 3,
+  "s": "Consider the following statements about Indian Standard Time:\n1. Its standard meridian is 82°30'E.\n2. It is 5 hours 30 minutes ahead of GMT, so 0000 UTC is 5:30 a.m. IST.\n3. Its reference town is Mirzapur in Uttar Pradesh.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three are correct: the standard meridian is 82°30'E; 82.5 × 4 = 330 min = 5 h 30 min ahead of GMT; the reference town is Mirzapur (clock tower), with the line just east of Prayagraj (Naini).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfee4f08b52d2",
+  "row": 3,
+  "s": "Consider the following statements about the 82°30'E meridian:\n1. It passes through five Indian States.\n2. West Bengal is one of the States it crosses.\n3. Going from west to east, the last State it crosses is Andhra Pradesh.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the IST meridian crosses Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh (Kakinada district) – five States – and misses West Bengal.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8450def16c89",
+  "row": 3,
+  "s": "Match List-I with List-II:\nList-I\na. Bombay Time\nb. Calcutta Time\nc. Keeper of Indian Standard Time\nd. Origin of the White Rabbit timing protocol\nList-II\ni. CSIR-National Physical Laboratory, New Delhi\nii. CERN\niii. GMT + 5 h 53 min 20 s\niv. GMT + 4 h 51 min",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "The 1884 zones were Bombay Time (GMT + 4 h 51 min) and Calcutta Time (GMT + 5 h 53 min 20 s) – swapping them is the trap. IST is kept by CSIR-NPL, New Delhi; the White Rabbit protocol was developed at CERN, not ISRO.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp01599b6e541a",
+  "row": 3,
+  "s": "Consider the following statements:\n1. The local-time difference between the western and eastern extremities of India is about 2½ hours.\n2. India's westernmost longitude is 68°7'E, at Guhar Moti in Kutch.\n3. India's easternmost extent lies between 97°25'E and 97°30'E.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: 68°7'E to 97°25'E is about 29° ≈ 116 minutes, i.e. about 2 hours, not 2½. Guhar Moti (68°7'E) and the 97°25'–97°30'E eastern limit are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb6843d7ae9b1",
+  "row": 3,
+  "s": "With reference to the two-time-zone debate in India, consider the following statements:\n1. The single time zone costs the North-Eastern region daylight hours.\n2. One proposal is to advance IST by 30 minutes.\n3. 'Bagan time', followed in Assam's tea gardens, is an official time zone one hour ahead of IST.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: 'Bagan time' (Chaibagaan time), 1 hour ahead of IST, is informal, not official. The North-East loses daylight, and proposals include advancing IST by 30 minutes or a second zone ~1 hour ahead.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp51b1a1239d73",
+  "row": 3,
+  "s": "Consider the following statements:\n1. The White Rabbit IST distribution network at Jakkur (Bengaluru) gives sub-nanosecond synchronisation over fibre, independent of GPS.\n2. The White Rabbit protocol was developed by ISRO.\n3. The Legal Metrology (Indian Standard Time) Rules, 2026 come into force 180 days after their publication in the Gazette.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the White Rabbit protocol was developed at CERN. The Jakkur network (July 2026) gives GPS-independent sub-nanosecond IST time-stamps for banking, railways, power grids and telecom; the IST Rules notified on 27 August 2026 take effect 180 days after Gazette publication, not immediately.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa2551f66caa3",
+  "row": 3,
+  "s": "Consider the following statements about the Tropic of Cancer in India:\n1. It lies at about 23°26'N.\n2. It divides India into almost two equal halves.\n3. Of the eight States it crosses, Gujarat is the first and West Bengal the last from west to east.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: from west to east the Tropic crosses Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram – Mizoram is the last. It lies at 23°26'N (written 23½°N) and divides India almost in half.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc9b4c0629ee3",
+  "row": 3,
+  "s": "Consider the following statements:\n1. Andhra Pradesh lies wholly south of the Tropic of Cancer.\n2. The Tropic of Cancer passes through Manipur.\n3. The Tropic of Cancer does not pass through Odisha.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: Manipur lies wholly north of the Tropic (the line passes through neighbouring Mizoram). Odisha is a classic State the Tropic misses, and Andhra Pradesh lies wholly south of it.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3647e5fe5adb",
+  "row": 3,
+  "s": "Match List-I (City near the Tropic of Cancer) with List-II (State):\nList-I\na. Ranchi\nb. Agartala\nc. Aizawl\nd. Ujjain\nList-II\ni. Mizoram\nii. Madhya Pradesh\niii. Jharkhand\niv. Tripura",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "Cities near the Tropic of Cancer: Ranchi (Jharkhand), Agartala (Tripura), Aizawl (Mizoram), and Ujjain and Bhopal (Madhya Pradesh).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8c50e025369c",
+  "row": 3,
+  "s": "Consider the following statements:\n1. The Tropic of Cancer crosses 17 countries.\n2. The Tropic of Cancer passes through Iran.\n3. The Equator passes through Indonesia.\n4. At 1° interval, 179 parallels and 360 meridians are drawn on the globe.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: the Tropic of Cancer crosses 17 countries (Mexico, Egypt, Saudi Arabia, UAE, Oman, India, Bangladesh, Myanmar, China …) but not Iran. The Equator passes Kenya, Colombia and Indonesia; the globe has 179 parallels and 360 meridians at 1°.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe106566f3c8b",
+  "row": 3,
+  "s": "Consider the following statements:\n1. Coordinated Universal Time (UTC) is kept by caesium atomic clocks.\n2. NavIC, a constellation of 7 satellites, times its signals with caesium atomic clocks.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: NavIC (7 satellites – 3 GEO + 4 GSO) times its signals with rubidium atomic clocks. UTC is kept by caesium atomic clocks.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp975c9324379a",
+  "row": 3,
+  "s": "Assertion (A): Leap seconds are added to UTC from time to time, as on 31 December 2016.\nReason (R): The Earth's rotation is slowing down.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: atomic-clock UTC would drift ahead of the slowing Earth, so leap seconds keep it in step.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3bbb5c4afbb1",
+  "row": 3,
+  "s": "Match List-I (Country) with List-II (Time zones / standard time):\nList-I\na. France (with overseas territories)\nb. Russia\nc. Brazil\nd. Nepal\nList-II\ni. 11 zones\nii. Exactly 4 zones\niii. UTC+5:45\niv. 12 zones",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-i, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "France, with its overseas territories, has the most zones (12); Russia has 11; Brazil exactly 4; Nepal keeps UTC+5:45.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6494bfccb5fb",
+  "row": 3,
+  "s": "Assertion (A): The International Date Line is 12 hours from Greenwich.\nReason (R): The International Date Line roughly follows the 180° meridian.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: 180° × 4 min = 720 min = 12 hours. The line runs pole to pole through the middle of the Pacific Ocean.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp90c25ce21d51",
+  "row": 3,
+  "s": "Consider the following statements about the International Date Line:\n1. It passes through the Bering Strait, between the Chukchi and Seward peninsulas.\n2. It zigzags where land is in the way.\n3. A traveller crossing it eastward, from Asia to America, adds a day.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: crossing eastward (Asia → America) one subtracts a day; crossing westward one adds a day. The line passes the Bering Strait between Chukchi (Russia) and Seward (Alaska) and zigzags around Chukotka, the Aleutians, Kiribati, Fiji, Tonga and Samoa.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1c0613018295",
+  "row": 3,
+  "s": "Consider the following statements:\n1. Big Diomede (Russia) and Little Diomede (USA) lie on opposite sides of the International Date Line, a day apart.\n2. Samoa moved to the American side of the Date Line in 2011.\n3. Kiribati's Line Islands (UTC+14) are among the first places to see a new day.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: in 2011 Samoa moved to the Asian side of the Date Line. The Diomedes are neighbours a day apart, and Kiribati's Line Islands (UTC+14) see each new day first.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7af9c9c5628e",
+  "row": 4,
+  "s": "Match List-I (Date) with List-II (What happens):\nList-I\na. 21 March\nb. 21 June\nc. 23 September\nd. 22 December\nList-II\ni. Spring begins in the Southern Hemisphere\nii. Sun overhead at the Tropic of Capricorn; longest day in the Southern Hemisphere\niii. Autumn begins in the Southern Hemisphere\niv. Shortest day in the Southern Hemisphere",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 1,
+  "x": "21 March (vernal equinox, Sun over the Equator) starts autumn in the SH; 21 June (Sun over Cancer) is the SH's shortest day; 23 September (autumnal equinox) starts spring in the SH; on 22 December the Sun is over the Tropic of Capricorn and the SH has its longest day.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5664a532f2d1",
+  "row": 4,
+  "s": "Consider the following statements about the equinoxes:\n1. Day and night are equal everywhere on the Earth.\n2. The Sun is vertically overhead at the Equator on 21 March and 23 September.\n3. The length of day changes through the year because the tilt of the Earth's axis changes.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the tilt itself does not change; day length changes as the tilted Earth revolves. At an equinox ('equal night') the Sun is overhead at the Equator and day equals night everywhere.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7653f2d92385",
+  "row": 4,
+  "s": "Consider the following statements:\n1. The Southern Hemisphere has its shortest day on 21 June.\n2. On 22 December, the shortest day in India, Australia has its longest day.\n3. Uttarayana is the Sun's apparent southward movement from 21 June to 22 December.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: Uttarayana is the Sun's apparent northward movement from 22/23 December to 21 June; the southward movement is Dakshinayana. The SH's shortest day is 21 June, and on India's shortest day (22 Dec) Australia has its longest.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp25a93cb8fb01",
+  "row": 4,
+  "s": "With reference to the International Day of Yoga, consider the following statements:\n1. It is observed on 21 June, the summer solstice in the Northern Hemisphere, since 2015.\n2. The theme for 2026 was 'Yoga for One Earth, One Health'.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: the 2026 theme was 'Yoga for Healthy Ageing'. The UN day falls on 21 June, the NH summer solstice, and has been observed since 2015.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7d5dd370a1fc",
+  "row": 4,
+  "s": "Match List-I (Place and date) with List-II (Length of day):\nList-I\na. Tropic of Cancer on 21 June\nb. Tropic of Cancer on 22 December\nc. Arctic Circle on 22 December\nd. Equator on 22 December\nList-II\ni. 12 hours\nii. About 10½ hours\niii. About 13½ hours\niv. No daylight (24 hours of night)",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "The Tropic of Cancer has ~13½ h of day on 21 June and ~10½ h on 22 December; the Arctic Circle has 24 hours of night on 22 December; the Equator has 12 hours on every date.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp83f890c2b86d",
+  "row": 4,
+  "s": "Consider the following statements:\n1. The North Pole has continuous night on 22 December.\n2. The North Pole is lit from 21 March to 23 September, about six months.\n3. When the North Pole has continuous daylight, the South Pole also has continuous daylight.\n4. From 23 September to 21 December, days in the Northern Hemisphere become progressively shorter.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: when the North Pole has continuous daylight the South Pole has continuous darkness. The North Pole is lit from 21 March to 23 September and dark at the December solstice, and NH days shorten from 23 September to 21 December.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp866f3df8f2e6",
+  "row": 4,
+  "s": "Assertion (A): The Earth is nearest the Sun (perihelion, about 3 January) during the northern winter.\nReason (R): Seasons are caused by the revolution of the Earth on its inclined axis, not by its distance from the Sun.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: perihelion (~147 million km) falls in the NH winter and aphelion (~152 million km) in its summer, which is possible only because seasons come from revolution on a tilted axis – the NDA 2014 trap.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp710a63563d23",
+  "row": 4,
+  "s": "Consider the following statements:\n1. Seasons result from the revolution of the Earth combined with the tilt of its axis.\n2. The Earth's axis is inclined at 66½° to the plane of its orbit.\n3. The rotation of the Earth is a cause of the seasons.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: rotation gives day and night, not seasons. Seasons come from revolution on an axis tilted 23½° from the perpendicular, i.e. 66½° to the orbital plane.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp620b1ead7cce",
+  "row": 4,
+  "s": "Consider the following statements about the parallelism of the Earth's axis:\n1. Through the year the axis keeps pointing towards the Pole Star.\n2. It is maintained by the gravitational pull of the Sun.\n3. It makes the hemispheres tilt alternately towards and away from the Sun, giving opposite seasons.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the axis keeps its orientation because of angular momentum. It keeps pointing to the Pole Star, so the hemispheres lean alternately towards (summer) and away from (winter) the Sun.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp32633c878fd1",
+  "row": 4,
+  "s": "Consider the following statements:\n1. Day and night are a consequence of the tilt of the Earth's axis.\n2. The circle of illumination divides day from night.\n3. Because of the Earth's rotation, the Coriolis force deflects winds to the right in the Northern Hemisphere.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: day and night come from rotation, not the tilt (the tilt gives seasons, unequal days, the tropics and polar circles). The circle of illumination divides day from night, and rotation's Coriolis deflection is to the right in the NH.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0bde0c60c443",
+  "row": 4,
+  "s": "Consider the following statements:\n1. Vega was the pole star about 14,000 years ago because of the precession (wobble) of the Earth's axis.\n2. Milankovitch cycles drive long-term climate change.\n3. Melting ice that shifts mass away from the Earth's axis speeds up its rotation.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: moving mass away from the axis slows the rotation (lengthening the day). Precession made Vega the pole star ~14,000 years ago (and again in ~12,000 years), and Milankovitch cycles drive long-term climate change.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp84de86bdddb4",
+  "row": 4,
+  "s": "Consider the following statements:\n1. Places between the Tropics have two zero-shadow days a year, when the noon Sun is overhead.\n2. Srinagar gets the overhead noon Sun once a year.\n3. Andhra Pradesh receives the overhead noon Sun twice a year.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: places north of 23½°N, such as Srinagar and Delhi, never get vertical rays. Andhra Pradesh (12°41'N–19°07'N), lying between the Equator and the Tropic, gets the overhead Sun twice a year.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp958cd82fa374",
+  "row": 4,
+  "s": "Assertion (A): In north India the noon shadow is smallest on 21 June.\nReason (R): On 21 June the Sun is vertically overhead at the Tropic of Cancer.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: on 21 June the Sun is overhead at the Tropic of Cancer (no noon shadow there), so the noon Sun stands highest over north India and shadows are shortest; they are longest in December.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb3a5723a4968",
+  "row": 4,
+  "s": "Consider the following statements:\n1. The summer hemisphere is the one tilted towards the Sun.\n2. Oblique rays heat less because the same energy is spread over a larger area.\n3. In summer the Sun's altitude is lower and noon shadows are longer.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: in summer the Sun stands higher and shadows are shorter; the low Sun and long shadows belong to winter. The summer hemisphere is tilted towards the Sun, with more direct rays and longer days.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc88f36dbcaba",
+  "row": 4,
+  "s": "Match List-I with List-II:\nList-I\na. Low latitudes\nb. Mid-latitudes\nc. High latitudes\nd. Cloudless subtropical deserts\nList-II\ni. Maximum insolation\nii. Greatest seasonal differences in day length and insolation\niii. Four distinct seasons\niv. Wet and dry seasons",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "Low latitudes have small temperature contrast with wet and dry seasons; mid-latitudes four distinct seasons; high latitudes the greatest seasonal differences; maximum insolation falls over cloudless subtropical deserts, not the Equator.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc0fe17e5077f",
+  "row": 4,
+  "s": "Consider the following statements:\n1. January is the hottest summer month in the Southern Hemisphere.\n2. Christmas falls in summer in Australia.\n3. During the Southern Hemisphere's summer, the North Pole is tilted towards the Sun.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: in the SH summer the South Pole is tilted towards the Sun. So January is the hottest SH month and Christmas falls in summer in Australia.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp57e41322fbe6",
+  "row": 4,
+  "s": "Match List-I with List-II:\nList-I\na. Ganganagar\nb. Lambasingi\nc. Traditional Indian calendar\nd. South-West monsoon in Andhra Pradesh\nList-II\ni. About two-thirds of the State's rainfall\nii. About 50°C recorded in 1935\niii. Six ritus\niv. Coldest place in Andhra Pradesh (~2°C)",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "Ganganagar recorded about 50°C in 1935; Lambasingi is AP's coldest place (~2°C); the traditional calendar has six ritus; the SW monsoon (June–September) brings about two-thirds of AP's rain.",
+  "src": "app",
+  "tq": "match"
  }
 ]
