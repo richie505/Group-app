@@ -956,3 +956,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b5-w022 rewrite (rows 22-27): own 410 → 157 (38%), 0 lost. PYQ stem typos: y883e39e40ab GI Cloud '2024' (2014); y0e4bc2b95e9 Meri Pehchaan 'July 2002' (2022).
 - b3-w027 rewrite (rows 27-34): own 431 → 157 (36%). Notes row 31 line 0:9 lowest-poverty State vs table conflict. Fixed: Dandekar-Rath first calorie-based line; PLFS 2023-24.
 - b6-w025 rewrite (rows 25-26): own 385 → 157 (41%). Notes: Saptadhara 'seven' lists 6; Sikkim in Eastern Zonal Council inconsistent (rows 25/26); split name line 25 [7:59/60].
+- b1-w055 rewrite (rows 55-62): own 427 → 181 (42%). Check PYQs: yab45409b1a1, yb7817a4a616 first Param Bhagavata Chandragupta II vs notes Samudragupta; y8da3a903fd4 'Vengi' (Vaigai?).
