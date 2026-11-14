@@ -858,3 +858,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Dispute yc9f12b441db first to 2,000 women's T20I runs: official Suzie Bates (strictly Charlotte Edwards).
 - Outdated: latest Olympics ×2 (Paris 2024); Bhutia captain; Delhi Daredevils → Capitals.
 - y6e6c2dbbbf5 APRA petition (Vundavalli Arun Kumar) moved to b3 r133. Unverified y730f218ac55 Tilak Varma record.
+
+## b6-r115 (CA row 115 persons in news, 148 PYQs)
+- No key changes; 51 outdated (office-holders). Navy chief now Krishna Swaminathan (from 31 May 2026).
+- Disputes: UNICEF ambassador; FBI Director 2017; SBI YONO; Gayoom terms; own MCQ gfe714e3ec715 Deshmukh 50 years (2012).
+- Unverified: y92fc5df2945 N. Ram Wolverhampton; y68b921c8298, y76d17c95987, ya58f4da64a4, ydb760c95940 (date-dependent).
