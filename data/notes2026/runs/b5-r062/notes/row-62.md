@@ -128,7 +128,7 @@
 - **Defence in Depth** (multiple layers); **ALARA** = As Low As Reasonably Achievable.
 - Dose limits: **20 mSv/year** (5-year average); max 30 mSv in a year.
 - **Convention on Nuclear Safety:** adopted 1994, in force **1996**; India a party.
-~~ Sources: PMF S&T Part 5 p.10 (AERB 1983 executive order, functions); OECD-NEA news 2012-01 / WNN "India joins multinational design group" (11th member); DAE Saga vol.2 ch.7 and AERB siting monograph via search (exclusion 1.5 km, sterilised 5 km); Rocket Disaster Management p.20; app notes 5:62 sub 9
+~~ Sources: PMF S&T Part 5 p.10 (AERB 1983 executive order, functions); Australia safety rank: general knowledge, not checked; OECD-NEA news 2012-01 / WNN "India joins multinational design group" (11th member); DAE Saga vol.2 ch.7 and AERB siting monograph via search (exclusion 1.5 km, sterilised 5 km); Rocket Disaster Management p.20; app notes 5:62 sub 9
 
 === Liability Law – CLNDA 2010 to SHANTI Act 2025
 - **CLNDA 2010:** operator liability **no-fault**, capped at **₹1,500 crore**; **Section 17(b)**: operator's recourse against suppliers; Indian Nuclear Insurance Pool.
