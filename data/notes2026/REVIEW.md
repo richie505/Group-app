@@ -1108,3 +1108,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b5-w056 (rows 56–60)
 - own 377 → 61 kept + 84 new (145, 38%); new 48 statements / 24 match / 12 A–R; 1 of 247 lines lost.
 - n0e36502a860 (lignite 47.295 bn t vs notes 47.37 bn t) removed.
+
+## rewrite b6-w048 (rows 48–51)
+- own 424 → 50 kept + 114 new (164, 39%); new 77 statements / 26 match / 11 A–R; 2 of 338 lines lost (facts still in new MCQs, >3 lines).
+- gdd64478a5d33 (16th FC criterion) mislinked to 14th FC line 50:0:5 — removed.
+- Row 51: Birla and Irani committee pairs marked "general knowledge, not checked"; PYQ y167c556a488's key relies on them — verify.
