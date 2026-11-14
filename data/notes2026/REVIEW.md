@@ -1548,3 +1548,12 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b5-w110 (rows 110–113)
 - own 282 → 28 kept + 72 new (100, 35%); new 38 statements / 21 match / 11 A–R / 1 sequence / 1 one-liner; 1 of 186 lines lost. No wrong keys.
 - Removed as not in notes: ncee54429b4c (PMKSY centrally sponsored), n4a2928313ed (MIF ₹5,000 + ₹5,000 cr) — possible notes gaps.
+
+## rewrite b6-w107 (rows 107–109)
+- own 392 → 74 kept + 98 new (172, 44%); new 60 statements / 27 match / 11 A–R; 5 of 290 lines lost.
+- Vande Mataram language: row 107 "Sanskrit (not Bengali)" (GoI wording: composed in Sanskrit) vs row 108 "Sanskritised Bengali". Kept fc259e1a9937a (key Sanskrit) and caa0f7b9a90d21 (Hindi false) are not contradictory; harmonise notes wording (Sanskrit per GoI; also described as Sanskritised Bengali).
+- ca8837690dbbd6 (Piprahwa relics back after "about 125 years"; notes 127) merged with fix.
+
+## rewrite b2-w120 (rows 120–126)
+- own 400 → 23 kept + 118 new (141, 35%); new 73 statements / 27 match / 18 A–R; 2 of 282 lines lost. No wrong keys.
+- ff12dfdf3ba0c (GANHRI deferral reason, not in notes) removed.

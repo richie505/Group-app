@@ -5,11 +5,11 @@
   "s": "Consider the following statements about women in the Indian National Congress and in office:\n1. Annie Besant was the first woman President of the INC, at the Calcutta session of 1917.\n2. Sarojini Naidu was the first Indian woman President of the INC, at the Kanpur session of 1925.\n3. Sucheta Kripalani was the first woman Governor of a State in free India.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 2 are correct. 3 is wrong: Sarojini Naidu (UP, 1947) was the first woman Governor; Sucheta Kripalani was the first woman Chief Minister (UP, 1963).",
   "src": "app",
   "tq": "statements"
@@ -20,11 +20,11 @@
   "s": "Consider the following statements:\n1. M. Fathima Beevi became the first woman judge of the Supreme Court in 1989.\n2. Leila Seth was the first woman judge of the Delhi High Court.\n3. Kiran Bedi was the first Chairperson of the National Commission for Women.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "2 and 3 only",
    "1 and 2 only",
+   "2 and 3 only",
    "1 and 3 only"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1 and 2 are correct (Fathima Beevi – SC, 1989; Leila Seth – Delhi HC, 1978, later the first woman HC Chief Justice). 3 is wrong: Jayanti Patnaik was the first NCW Chairperson; Kiran Bedi was the first woman IPS officer.",
   "src": "app",
   "tq": "statements"
@@ -34,12 +34,12 @@
   "row": 131,
   "s": "Match List-I (First woman) with List-II (Name):\nList-I | List-II\na. Speaker of the Lok Sabha | i. Pratibha Bharati\nb. Speaker of the (undivided) AP Assembly | ii. Meira Kumar\nc. Chief Minister of a State | iii. Sucheta Kripalani\nd. Governor of a State | iv. Sarojini Naidu\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-iii, d-ii",
-   "a-i, b-ii, c-iii, d-iv",
    "a-ii, b-iv, c-iii, d-i",
-   "a-ii, b-i, c-iii, d-iv"
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Lok Sabha Speaker – Meira Kumar (2009); AP Assembly Speaker – Pratibha Bharati (2004); Chief Minister – Sucheta Kripalani (UP, 1963); Governor – Sarojini Naidu (UP, 1947).",
   "src": "app",
   "tq": "match"
@@ -64,12 +64,12 @@
   "row": 131,
   "s": "Consider the following statements about the 73rd and 74th Amendments:\n1. Reservation of seats for STs in Municipalities is provided by Article 243T(1).\n2. Reservation for Backward Classes in local bodies is compulsory in every State.\n3. The minimum age to contest Panchayat and Municipal elections is 21 years.\n4. The 73rd Amendment came into force on 24 April 1994.\nHow many of the above statements are correct?",
   "o": [
-   "Only one",
    "Only two",
+   "Only one",
    "Only three",
    "All four"
   ],
-  "a": 1,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: BC reservation is left to the States (optional). 4 is wrong: the 73rd Amendment came into force on 24 April 1993.",
   "src": "app",
   "tq": "statements"
@@ -225,17 +225,17 @@
   "tq": "statements"
  },
  {
-  "id": "cp47836344e39d",
+  "id": "cpf5d09180156b",
   "row": 131,
-  "s": "Consider the following statements:\nAssertion (A): The Constitution (131st Amendment) Bill, 2026 was defeated in the Lok Sabha on 17 April 2026.\nReason (R): It received 298 votes for and 230 against, short of the 352 needed for the special majority under Article 368.\nSelect the correct answer using the codes given below:",
+  "s": "Consider the following statements:\nAssertion (A): The Constitution (131st Amendment) Bill, 2026 was defeated in the Lok Sabha on 17 April 2026.\nReason (R): The Bill sought to raise the strength of the Lok Sabha from 550 to 850 seats.\nSelect the correct answer using the codes given below:",
   "o": [
    "Both A and R are true, and R is the correct explanation of A",
    "Both A and R are true, but R is not the correct explanation of A",
    "A is true, but R is false",
    "A is false, but R is true"
   ],
-  "a": 0,
-  "x": "Both are true and R explains A: a constitutional amendment needs the Art. 368 special majority; 298 votes fell short of the 352 required.",
+  "a": 1,
+  "x": "Both are true, but R does not explain A: the Bill (550 → 850 seats, delimitation on the 2011 Census) failed because its 298-230 vote fell short of the 352 needed for the Art. 368 special majority.",
   "src": "app",
   "tq": "assertion"
  },
@@ -276,10 +276,10 @@
   "o": [
    "1 only",
    "1 and 2 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "2 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "2 and 3 are correct. 1 is wrong: women's turnout first exceeded men's in 2019.",
   "src": "app",
   "tq": "statements"
@@ -326,6 +326,291 @@
   ],
   "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: proxy representation is informal and does not legally replace the elected woman.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb7cabbda8e4f",
+  "row": 132,
+  "s": "Consider the following statements about Pradhan Mantri Ujjwala Yojana:\n1. It is implemented by the Ministry of Petroleum and Natural Gas.\n2. Ujjwala 2.0, launched in August 2021 at Mahoba, gives a free first refill and a hotplate.\n3. Under Ujjwala 2.0 migrant families must produce proof of a permanent address.\n4. By 2026 the scheme had reached over 10.5 crore households.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Ujjwala 2.0 lets migrants self-declare their address.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcee1304ea00d",
+  "row": 132,
+  "s": "Consider the following statements:\nAssertion (A): Pradhan Mantri Ujjwala Yojana (2016) is an anti-trafficking scheme.\nReason (R): Ujjawala (2007) dealt with prevention of trafficking and the rescue and rehabilitation of victims, and is now part of Shakti Sadan.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: Ujjwala (2016) gives LPG connections to BPL women. R is true: the similarly named Ujjawala (2007) was the anti-trafficking scheme, now merged into Shakti Sadan.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp69345ebcea8f",
+  "row": 132,
+  "s": "Consider the following statements:\n1. Ghana signed an MoU with Indian Oil in January 2020 to replicate the Ujjwala model.\n2. Andhra Pradesh's Deepam scheme (1999) gave LPG connections to women of BPL/DWCRA families.\n3. Deepam-2 (2024) gives one free LPG cylinder a year.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: Deepam-2 (2024) gives three free cylinders a year.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp16d15bd3c063",
+  "row": 132,
+  "s": "Consider the following statements about Beti Bachao Beti Padhao (BBBP):\n1. It was launched on 22 January 2015 at Panipat, Haryana.\n2. The Ministry of Women and Child Development is the nodal Ministry, with Health & Family Welfare and Education.\n3. It is funded by the Centre and the States in the ratio 60:40.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: BBBP is 100% centrally funded.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp10358ca17645",
+  "row": 132,
+  "s": "Consider the following statements about Beti Bachao Beti Padhao:\n1. It began in 100 gender-critical districts with a low child sex ratio and now covers all districts.\n2. It falls under the Samarthya vertical of Mission Shakti.\n3. It is a flagship programme of the Prime Minister along with Make in India and Digital India.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: BBBP is under Sambal (safety), not Samarthya.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7f4c1824c3c5",
+  "row": 132,
+  "s": "Consider the following statements about gender budgeting in India:\n1. Gender budgeting means allocating resources to gender-sensitive programmes.\n2. The Ministry of Finance mandated Gender Budgeting Cells in all Ministries in 2004-05.\n3. The Gender Budget Statement has been part of the Union Budget since 1995-96.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct (GBCs mandated December 2004; GBC Charter 2007). 3 is wrong: the Gender Budget Statement dates from 2005-06.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8f251fabf766",
+  "row": 132,
+  "s": "Which one of the following is NOT among the five components of women's empowerment given by the United Nations?",
+  "o": [
+   "Restrictions on access to opportunities and resources",
+   "Their right to have and determine choices",
+   "Women's sense of self-worth",
+   "Their ability to influence social change"
+  ],
+  "a": 0,
+  "x": "The UN components are self-worth; the right to have and determine choices; the right to ACCESS opportunities and resources; the right to control their own lives; and the ability to influence social change. 'Restrictions on access' is not one.",
+  "src": "app",
+  "tq": "NOT"
+ },
+ {
+  "id": "cpf7b29030273f",
+  "row": 132,
+  "s": "Match List-I (Scheme) with List-II (Feature):\nList-I | List-II\na. Rashtriya Mahila Kosh | i. Thrift among rural women through rural post offices\nb. Mahila e-Haat | ii. Lends to NGOs/MFIs that on-lend micro-credit to poor women\nc. Mahila Samriddhi Yojana | iii. Loans for greenfield enterprises of SC/ST and women borrowers\nd. Stand-Up India | iv. Web-based marketing platform for women entrepreneurs\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "RMK (1993, MWCD) – credit through NGOs/MFIs; Mahila e-Haat (2016, run by RMK) – online marketing platform; Mahila Samriddhi Yojana (1993) – savings through rural post offices; Stand-Up India (Finance, 2016) – greenfield enterprises.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp67244a4de680",
+  "row": 132,
+  "s": "Consider the following statements about Stand-Up India:\n1. It is a 2016 scheme of the Ministry of Finance giving loans of ₹10 lakh to ₹1 crore.\n2. It funds the expansion of existing enterprises.\n3. Every bank branch must lend to at least one SC/ST and one woman borrower, who must hold at least 51% in a non-individual enterprise.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: Stand-Up India funds new (greenfield) enterprises, not existing ones.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4dd8f0ace2bd",
+  "row": 132,
+  "s": "Consider the following statements:\n1. DAY-NRLM, under the Ministry of Rural Development, was launched in 2011 as Aajeevika.\n2. Mahila Kisan Sashaktikaran Pariyojana is implemented by the Ministry of Women and Child Development.\n3. The Mahila Samman Savings Certificate has a tenure of 2 years at 7.5% interest.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: MKSP, for women farmers, is a Ministry of Rural Development programme under DAY-NRLM.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4a28c8272ffb",
+  "row": 132,
+  "s": "Consider the following statements about the umbrella missions of the Ministry of Women and Child Development (from 1 April 2022):\n1. Mission Vatsalya subsumed the Integrated Child Protection Scheme and is aligned to the Juvenile Justice Act, 2015.\n2. Under Mission Vatsalya, Childline 1098 has been integrated with 112.\n3. The Scheme for Adolescent Girls is a part of Mission Shakti.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the Scheme for Adolescent Girls (SABLA) is part of Saksham Anganwadi & Poshan 2.0, with Anganwadi Services and Poshan Abhiyaan.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb36efe36fa4a",
+  "row": 132,
+  "s": "Match List-I (Mission Shakti component) with List-II (Purpose):\nList-I | List-II\na. One Stop Centre (Sakhi) | i. Working-women hostels\nb. Nari Adalat | ii. Police, medical, legal, counselling and shelter help under one roof\nc. Sakhi Niwas | iii. Crèches\nd. Palna | iv. Alternative redressal of petty cases\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "One Stop Centre (Sakhi) – integrated help under one roof (Nirbhaya Fund); Nari Adalat – alternative redressal of petty cases; Sakhi Niwas – working-women hostels; Palna – crèches.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp91fc03d9bacf",
+  "row": 132,
+  "s": "Consider the following statements about Mission Shakti:\n1. The Sambal sub-scheme deals with women's safety and includes the 24x7 Women Helpline 181.\n2. Shakti Sadan, formed by merging Swadhar Greh and Ujjawala, is under the Samarthya sub-scheme.\n3. PMMVY falls under the Sambal sub-scheme.\n4. SANKALP-HEW is a hub for the empowerment of women.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: PMMVY (with SANKALP-HEW) falls under Samarthya (empowerment), not Sambal.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp427bca4c797a",
+  "row": 132,
+  "s": "Match List-I (Scheme) with List-II (Objective):\nList-I | List-II\na. Sukanya Samriddhi Yojana | i. ICDS-based nutrition, health and life-skills\nb. Balika Samriddhi Yojana | ii. Post-birth grant and annual scholarship for BPL girls\nc. Dhanalakshmi | iii. Small-savings account for a girl below 10\nd. Kishori Shakti Yojana | iv. Conditional cash transfer for the girl child\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "Sukanya Samriddhi (2015, under BBBP) – savings account for a girl below 10; Balika Samriddhi (1997) – post-birth grant + scholarship up to Class X; Dhanalakshmi (2008) – conditional cash; Kishori Shakti (2000) – ICDS-based nutrition, health, life-skills.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpdae90fa2b7a6",
+  "row": 132,
+  "s": "Consider the following statements:\n1. NAVYA (2025-26), a joint MSDE–MWCD initiative, trains girls aged 16-18 under PMKVY 4.0.\n2. SAARC observed 1990 as the Year of the Girl Child.\n3. CBSE Udaan aims to increase the enrolment of girls in premier medical colleges.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: CBSE Udaan is for girls in premier engineering institutions, not medical colleges.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb0dbe23d2017",
+  "row": 132,
+  "s": "Match List-I (Scheme) with List-II (Benefit):\nList-I | List-II\na. Janani Suraksha Yojana | i. Free antenatal check-up on the 9th of every month\nb. Indira Gandhi Matritva Sahyog Yojana | ii. Partial wage-loss compensation for the first living child\nc. Pradhan Mantri Surakshit Matritva Abhiyan | iii. 2010 pilot maternity benefit\nd. Pradhan Mantri Matru Vandana Yojana | iv. Cash for institutional delivery\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "JSY (2005) – institutional delivery; IGMSY (2010) – pilot, forerunner of PMMVY; PMSMA (2016) – antenatal check-up on the 9th; PMMVY (2017) – partial wage-loss compensation.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9efb4d845205",
+  "row": 132,
+  "s": "Consider the following statements about the Pradhan Mantri Matru Vandana Yojana (PMMVY):\n1. It has been implemented from 1 January 2017, in sync with the National Food Security Act, 2013.\n2. Before PMMVY 2.0, its ₹5,000 benefit was paid in two instalments.\n3. PMMVY 2.0 gives ₹6,000 for a second child if the child is a girl.\n4. Regular government employees are excluded from PMMVY 2.0.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 3 and 4 are correct. 2 is wrong: the ₹5,000 was earlier paid in three instalments.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpce6e7c4e1999",
+  "row": 132,
+  "s": "Match List-I (Andhra Pradesh scheme) with List-II (Benefit):\nList-I | List-II\na. Raksha | i. ₹15,000 a year to mothers of school pupils\nb. Stree Shakti | ii. ₹18,750 a year to BC/SC/ST/minority women aged 45-60\nc. Talliki Vandanam | iii. Free APSRTC bus travel for women\nd. YSR Cheyutha | iv. Sanitary napkins at 50% subsidy, free to schoolgirls\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Raksha – sanitary napkins; Stree Shakti (15 Aug 2025) – free APSRTC bus travel; Talliki Vandanam (restructured Amma Vodi) – ₹15,000 a year; YSR Cheyutha (2020) – ₹18,750 a year to women aged 45-60.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp73863f1544eb",
+  "row": 132,
+  "s": "Consider the following statements about Andhra Pradesh schemes for women:\n1. YSR Aasara covers SHG loans outstanding on 11 April 2019.\n2. YSR Kalyanamasthu gives marriage aid to poor brides.\n3. The Disha Bill, 2019 became law after receiving Presidential assent.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the Disha Bill (2019) never received Presidential assent.",
   "src": "app",
   "tq": "statements"
  }
