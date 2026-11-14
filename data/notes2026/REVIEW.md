@@ -753,3 +753,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r064 (CA rows 64-66 India bilateral)
 - y6c4b4fc43cd India–UK JETCO: 13 Jan 2011 → 13 Jan 2005 (garbled stem); own MCQ g7002d9c0050d add_option "2005".
 - y130e2c1b0f4 national fish Indian Mackerel kept, dispute (never notified).
+
+## b6-r072 (CA row 72 S&T Mar–May 2026)
+- No PYQ key changes (both moved to b5 r1). Own MCQ ca0fca65f6cc50 coastline add_option "About 11,099 km" (outdated 7,516).
+- Notes fixed: Pathfinder 4 May 2026, Vikram-1 18 Jul 2026, PFBR criticality 6 Apr 2026, Artemis II 1 Apr 2026, INS Mahendragiri 11 Jul 2026.

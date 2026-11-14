@@ -1,0 +1,271 @@
+=== India–US Trade Deal (February 2026)
+# Tariff Cut
+- **Reciprocal tariff 25% → 18%**; the **additional 25% punitive duty** (imposed **August 2025** over **Russian oil** purchases) **removed**.
+- Effective burden **~50% → 18%** – lower than **Vietnam/Bangladesh (~20%)** and **China (30–35%)**.
+- India's expected commitments: cut Russian crude, buy from the US (and possibly **Venezuela**); lower tariffs / NTBs; purchases **up to USD 500 billion** of US energy, agriculture, coal, technology.
+- **Donald Trump** claimed India "agreed to **stop buying Russian oil**".
+- India has **not regained GSP** (withdrawn in **2019**).
+> The deal did **not** restore GSP; US tariff is now **18%**, not zero.
+# Sector-wise Tariffs
+| Sector | Tariff | US market |
+|---|---|---|
+| Textiles & apparel | 50% → 18%; silk 0% | USD 113 bn |
+| Leather & footwear | 50% → 18% | USD 42 bn |
+| Gems & jewellery | 18%; 0% diamonds, platinum, coins | USD 29 bn (0% segment) |
+| Home décor | 18%; 0% seats, chandeliers | USD 52 bn |
+| Toys | 18% | USD 18 bn |
+| Machinery | 18% | USD 477 bn (India exports USD 2.35 bn) |
+# Bilateral Trade Agreement – Numbers
+- What India gets: **18%** rate on **USD 900 bn** of US imports; **zero duty on USD 150 bn**; no additional duty on **USD 720 bn**; continued exemption on **USD 350 bn**; preferential treatment on **Section 232** tariffs.
+- Reciprocal relief: exports of **USD 40.96 bn** faced 50% – **USD 30.94 bn cut to 18%**, **USD 10.03 bn cut to zero**.
+- **Section 232** (national-security tariffs): zero reciprocal duty for **USD 28.30 bn** of exports.
+- **Zero-duty industrial exports: USD 38 bn** – aircraft parts, generic drugs, elementary auto parts, diamonds, platinum.
+# Agriculture
+- India's agri surplus with the US **USD 1.3 bn** (exports 3.4 bn, imports 2.1 bn).
+- **USD 1.36 bn** agri exports face **zero additional duty** – **spices, tea, coffee, cashew, mango, fruit pulp**; **USD 1.035 bn** assured zero reciprocal tariff.
+- **Fully protected**: **dairy, poultry, meat, GM foods, millets, maize, cereals, pulses, oilseeds, honey, ethanol, tobacco**.
+- Tools: phased elimination up to **10 years**; **Tariff Rate Quotas** (quantity-limited, not unlimited).
+# Background
+- Pre-deal steps: duty cuts on **heavy motorcycles, bourbon whisky**; **SHANTI Act, 2025** (Sustainable Harnessing and Advancement of Nuclear Energy for Transforming India) – **opened the nuclear sector to private players**.
+- Bilateral trade **FY25: USD 132 bn** (FY24 USD 119.71 bn); India's surplus **USD 40.82 bn**; the US is **India's largest trading partner** (~USD 128–132 bn).
+- India's exports to the US fell **12% (September 2025)** and **8.5% (October 2025)** under 50% tariffs.
+- US = **3rd largest investor** in India – **USD 70.65 bn (2000–2025)**.
+- **US–India COMPACT (2025)**: Catalyzing Opportunities for Military Partnership, Accelerated Commerce & Technology; technology cooperation under **iCET**.
+- **Mission 500**: bilateral trade **USD 500 bn by 2030**; **BTA** under negotiation.
+- India's energy import dependence **88.2% (FY25)**.
+- Digital trade: global digitally delivered services **USD 4.78 trillion (2024)**; India's digital exports **USD 0.28 trillion (+10.3%)**; India **5th in exports, 11th in imports**.
+~~ Sources: app notes 6:67 (sub 0)
+
+=== India–Russia – 23rd Annual Summit
+# Putin's Visit
+- President **Vladimir Putin**, state visit **4–5 December 2025**, **New Delhi** – **23rd Annual India–Russia Summit**; **first visit since 2021**.
+- Outcomes: trade target **USD 100 bn by 2030**; **RELOS** finalised; **24th summit in Russia** accepted.
+# Milestones
+| Year | Milestone |
+|---|---|
+| 1971 | Treaty of Peace, Friendship and Cooperation with the USSR |
+| 2000 | Declaration on Strategic Partnership – annual summits begin |
+| 2010 | Special and Privileged Strategic Partnership |
+| 2021–2031 | Military-technical cooperation agreement |
+| Post-2022 | Russia = India's largest crude supplier |
+| Feb 2025 / Jun 2026 | RELOS (logistics pact) signed / operationalised |
+- Cold War: USSR supplied **~70%** of India's defence equipment; **rupee–rouble** trade.
+# Trade FY 2024–25
+| Item | Value |
+|---|---|
+| Total trade | USD 68.72 bn |
+| India's exports | USD 4.88 bn |
+| Imports | USD 63.84 bn (mostly crude) |
+| Targets | USD 100 bn trade by 2030; USD 50 bn mutual investment by 2025 |
+# Defence, Nuclear, Connectivity
+| Platform / Item | Nature |
+|---|---|
+| S-400 Triumf | Purchase – 5 regiments, 3 delivered |
+| INS Vikramaditya | Purchase |
+| BrahMos | Joint – DRDO + NPO Mashinostroyeniya; named after Brahmaputra + Moskva rivers |
+| Su-30MKI | Licence-built by HAL |
+| AK-203 | Made by Indo-Russia Rifles Pvt Ltd |
+- **~60%** of India's military platforms are Russian-origin (**Su-30 MKI, T-90, S-400**); exercises **INDRA**, **Zapad-2025**; Indian refineries optimised for medium-sour **Urals** crude.
+- **Kudankulam NPP** – flagship nuclear cooperation; Units 1–6: **Unit 6 reactor vessel delivered (2025)**; talks on **SMRs and Units 7–8**; "**Action Plan for Prioritization and Implementation of Cooperation Areas in the Nuclear Field**" signed with **Rosatom**; **Sakhalin** energy investment.
+- Corridors: **INSTC** (India–Iran–Russia), **Chennai–Vladivostok maritime corridor**, proposed **India–EAEU FTA**.
+- Culture: Russian Culture Minister **Olga Lyubimova** at **WAVES 2025, Mumbai (May 2025)**; space: **ISRO–Roscosmos**, **Gaganyaan astronauts trained in Russia**.
+> **S-400 and INS Vikramaditya are purchases**, not joint development; BrahMos is the joint one.
+~~ Sources: app notes 6:67 (sub 1)
+
+=== India–New Zealand FTA and Trade Agreement Types
+# The FTA
+- Concluded **December 2025** in a **record nine months**; negotiated by a **women-led team**; **India's first FTA with New Zealand**.
+| Side | Commitment |
+|---|---|
+| New Zealand | Zero duty on 100% of Indian exports |
+| India | Tariff relief on 95% of NZ imports; 57% duty-free from day one |
+| Investment | NZ commits $20 billion over 15 years, with a clawback provision |
+- **Excluded by India**: **dairy** (milk, cheese, butter, yogurt), **onions, sugar, edible oils, spices, rubber**.
+- Agri cooperation (not excluded): **kiwifruit, apples, honey**.
+- Context: bilateral trade **$1.3 bn**, to double in five years; NZ per capita income ~**$49,380**; Indian diaspora ~**5%** of NZ population (~3 lakh); a coalition partner called it "**neither free nor fair**" – its Foreign Minister to vote against it in 2026.
+# Types of Trade Agreements (ascending integration)
+| Type | Feature |
+|---|---|
+| Partial Scope Agreement | Limited goods |
+| FTA | Tariffs cut among members; own tariffs for others |
+| Customs Union | + common external tariff |
+| Common Market | + free movement of capital and labour |
+| Economic Union | + macroeconomic coordination |
+- ASEAN FTA partners include **Australia, China, India, Japan**.
+~~ Sources: app notes 6:67 (sub 2)
+
+=== West Asia – Israel, UAE, Iran
+# Israel
+- PM Modi's historic visit – ties expanded into a **Special Strategic Partnership** (peace, innovation, prosperity).
+- Agriculture: **1 million+ Indian farmers** trained via **35 Indo-Israel Centres of Excellence**; **I4F** industry R&D fund.
+- Labour: **50,000 more Indian workers** (construction, nursing) in **five years**; **2025 bilateral investment agreement**; FTA talks to speed up.
+- India **recognised Israel in 1950**; **full diplomatic ties 1992**.
+- **'Shadbhujii Coalition'** – announced by PM **Benjamin Netanyahu**: India + West Asian, Arab, African, Asian nations, plus **Greece and Cyprus**; linked to **IMEC** (announced at the **2023 G20**).
+- **I2U2 = India, Israel, UAE, USA**. Israel: President **Isaac Herzog**; currency **New Shekel**.
+# UAE
+- President **Sheikh Mohamed bin Zayed Al Nahyan** – whirlwind visit; agreements on **nuclear energy, energy, railways, space, AI**.
+- Target: bilateral trade **USD 200 bn by 2032**; **Comprehensive Strategic Partnership 2017**; **CEPA in force 2022**.
+- UAE = **first Arab state with a nuclear power plant** – **Barakah NPP**, operating since **2020**; up to **25%** of UAE's electricity.
+# Iran – Operation Swadesh
+- **Operation Swadesh**: evacuation from **Iran** amid anti-government protests; first flight reached Delhi on **16 January 2026**.
+- **~10,000 Indians** in Iran, incl. **2,500–3,000 medical students**.
+- Earlier evacuations: **Operation Ganga, Devi Shakti, Ajay, Kaveri**.
+- Iran: capital **Tehran**; currency **rial**; Supreme Leader **Ayatollah Ali Khamenei**; President **Masoud Pezeshkian** (as of this period).
+~~ Sources: PYQ: UAE Barakah – first Arab nuclear power plant; app notes 6:67 (sub 3)
+
+=== Venezuela – Capture of Nicolás Maduro
+# Events
+- **3 January 2026**: US strikes on **Caracas**; special forces seized President **Nicolás Maduro** and wife **Cilia Flores**.
+- **Delcy Rodríguez** (ex-Vice President) sworn in as **Interim President** – named by the **Venezuelan Supreme Court**.
+- Venezuela called it a "**kidnapping**"; declared a **state of external disturbance**; Maduro had rejected a safe-passage ultimatum as "**peace of slavery**"; President since **2013**.
+- **UN Secretary-General**: "**dangerous precedent**" – **no UNSC mandate**; US domestic issue – **War Powers Resolution**.
+- Condemned by **Russia, China, Iran, Cuba**; **EU urged restraint**; China and Russia had backed Maduro against US pressure.
+- US began **seizing Venezuelan oil tankers**.
+- Venezuela: **largest proven crude reserves (~300 billion barrels)**; currency **bolívar**; **OPEC member**; disputed **2024 elections**; ties soured after the **Bolivarian Revolution (Hugo Chávez)**.
+# US Doctrines
+| Doctrine | Feature |
+|---|---|
+| Monroe Doctrine | 2 December 1823, 5th US President James Monroe (State of the Union) – opposes European interference in the Americas; no formal status in international law |
+| Roosevelt Corollary | 1904 – expanded the Monroe Doctrine |
+| Truman Doctrine | Cold War containment |
+| "Don-roe Doctrine" | Revival of the Monroe Doctrine (2026) |
+> Cold War containment = **Truman** Doctrine, not Monroe.
+- **After the capture:** Maduro was first taken to the **USS Iwo Jima** and then flown to **New York**, where he was held on **narco-terrorism** charges.
+~~ Sources: PYQ: China and Russia backed Maduro; app notes 6:67 (sub 4)
+
+=== Neighbourhood and Indian Ocean
+# Sri Lanka – Cyclone Ditwah
+- **Cyclone Ditwah** (late November 2025) – **Operation Sagar Bandhu**: **1,100+ tonnes** of relief on the day of the cyclone.
+- **USD 450 million** package = **USD 350 million concessional credit + USD 100 million grants** – announced **December 2025** during EAM's visit; High Commissioner **Santosh Jha**.
+- India = **20%+ of Sri Lanka's tourists (2025)**; **40–50% of its FDI**.
+# Seychelles
+- **$175 million** package announced by PM Modi after talks with President **Dr Patrick Herminie** (three-day state visit – **Chennai, Mumbai, New Delhi**).
+- Sectors: social housing, e-mobility, vocational training, health, defence, maritime security; capital **Victoria**.
+| Doctrine | Year | Meaning |
+|---|---|---|
+| SAGAR | 2015 | Security and Growth for All in the Region; India as net security provider in the IOR |
+| MAHASAGAR | 2025 | Extends SAGAR to the Global South and the Indo-Pacific |
+# Bangladesh
+- **BNP** decisive win (February 2026); **Tarique Rahman** sworn in as **PM on 17 Feb 2026**; BNP founded **1978** by **Ziaur Rahman**; India–Bangladesh border **~4,096 km**.
+- **Sheikh Hasina** – **10 years** (two 5-year terms) in the **RAJUK Purbachal plot cases**.
+- **Ganga Water Sharing Treaty**: signed **12 December 1996** for **30 years** – **expires December 2026**; governs **dry-season flows at Farakka (West Bengal)**; renewable by **mutual consent**; earlier temporary arrangements **1977, 1982, 1985**; Jal Shakti officials visited Farakka Barrage.
+# Bhutan – Wangchhu Project
+- **Adani Group** began work on the **570 MW Wangchhu** project.
+- River **Wangchu** (= **Raidak** in India), tributary of the **Brahmaputra**; **Chukha District**.
+- JV: **Adani Power (49%) + Druk Green Power (51%)**; ~₹6,000 crore; **BOOT**; **4 × 142.5 MW**; ~2,478.93 GWh/yr; shareholders' agreement **September 2025**.
+- **Peaking run-of-the-river** plant – **winter power for Bhutan, summer surplus to India**.
+# Nepal
+- **Environment MoU** – **25 February 2026, New Delhi** – MoEFCC and Nepal's Ministry of Forests and Environment; signed by **Bhupender Yadav** and **Madhav Prasad Choulagain**; forestry, wildlife, biodiversity, climate change; **Himalayan and Terai** conservation.
+- **Mutual Legal Assistance Treaty** on criminal matters – **18 February 2026, Kathmandu**.
+- Ties based on the **1950 Peace and Friendship Treaty**; Nepal PM **Sushila Karki** (interim, Sep 2025 – Mar 2026; now **Balendra Shah**, from 27 Mar 2026), President **Ram Chandra Poudel**.
+# Pakistan – Annual Exchange of Lists
+- Lists of **nuclear installations** and **civilian prisoners/fishermen** exchanged **every 1 January**.
+- **Agreement on Prohibition of Attacks against Nuclear Installations**: signed **31 December 1988**, in force **1991**, first exchange **1 January 1992**.
+- **Vision link:** the **$175 million** Seychelles package is in line with India's **Vision MAHASAGAR** for the Indian Ocean Region.
+~~ Sources: app notes 6:67 (sub 5)
+
+=== Canada, Europe and Other Partners
+# India–Canada Reset
+- PM **Mark Carney** visited India (**February–March 2026**) – met Modi in **Mumbai and New Delhi**; new **NSA-level security dialogue framework**.
+- **2023 crisis**: **Justin Trudeau** alleged an Indian role in the killing of **Hardeep Nijjar** (**British Columbia**, June 2023) – diplomats expelled, High Commissioners withdrawn.
+- Trudeau stepped down **January 2025**; Carney PM from **March 2025**; Modi invited to **G7 outreach (June 2025)** in Canada.
+- Trade 2024: **$30.8 bn**; India = Canada's **7th-largest** trading partner; **CEPA target $70 bn by 2030**.
+- Canada = **17th largest investor** – **$4.18 bn (2000–2025)**; Indian students **3.92 lakh (Dec 2024)** – **largest international student group**; diaspora **1.8 million+**, ~1 million NRIs.
+- Security: **JWG on Counter-Terrorism (1997)**; **Countering Terrorism and Violent Extremism Framework (2018)**; **India–Canada–Australia trilateral technology partnership**.
+- **G7**: **Canada, France, Germany, Italy, Japan, UK, US**; EU in sessions since **1981 Ottawa**; **G8 with Russia in 1998**.
+> The Nijjar case is linked to **British Columbia**, not Ontario.
+# Europe
+- **Weimar Triangle**: **France, Germany, Poland**; est. **29 August 1991** at **Weimar**; aided Poland's entry to **NATO (1999)** and **EU (2004)**; **no formal institutional structure**; EAM **S. Jaishankar** – **India's first-ever engagement**.
+- **EU 'Legal Gateway' office** – **first** set up by the EU **outside its member states**, in **New Delhi**; guides students, researchers, skilled professionals on legal migration to the **27 EU states**; EU est. **1993**, **Brussels**; Commission President **Ursula von der Leyen**.
+- **German Chancellor's visit (12–13 January 2026)** – gifts: **Patola silk wall hanging (Gujarat)**, **leather pilot logbook**, **aircraft model from Moradabad (UP)**.
+- **NATO 'Arctic Sentry'** – security in the **Arctic / High North**; **not a military operation, no permanent troops**; coordinates with **Denmark's 'Arctic Endurance' (Greenland)** and **Norway's 'Cold Response'**; command at **Joint Force Command Norfolk, USA**. NATO: est. **1949**, **Brussels**; SG **Mark Rutte** (from **1 October 2024**).
+# Technology Groupings and DPI
+- **PAX SILICA** – **US-led (State Department)** initiative to secure supply chains in **silicon, semiconductors, AI, critical minerals**; first summit **December 2025**; **35 signatories**; **India joined February 2026**.
+| PAX SILICA role | Countries |
+|---|---|
+| Partners | Japan, South Korea, Singapore, Netherlands, UK, Israel, UAE, Australia |
+| Guests | Taiwan, EU, Canada, OECD |
+- **DPI / India Stack MoUs with 23 countries** – announced by MoS MeitY **Jitin Prasada**: incl. Sri Lanka, Maldives, Brazil, Kenya, Cuba, **Mongolia**.
+- **UPI available in 8 countries**: **UAE, Singapore, Bhutan, Nepal, Sri Lanka, France, Mauritius, Qatar**.
+- **DigiLocker** pacts with **Cuba, Kenya, UAE, Lao PDR**; **India Stack Global Portal** offers **18 platforms**.
+# Fiji
+- **9 January 2026, Krishi Bhavan**: **Shivraj Singh Chouhan** and Fiji's **Tomasi Tunabuna** – **Agriculture MoU extended by five years**; **Joint Working Group** to be set up.
+~~ Sources: app notes 6:67 (sub 6)
+
+=== World Elections and Leaders
+# Elections (February 2026)
+| Country | Result |
+|---|---|
+| Japan | LDP (PM Sanae Takaichi) won 271 of 465 seats (majority 261) |
+| Thailand | Bhumjaithai (caretaker PM Anutin Charnvirakul) largest – 194 of 500; People's Party 116, Pheu Thai 76 |
+| Bangladesh | BNP decisive win – Tarique Rahman PM (17 Feb 2026) |
+| Barbados | Mia Amor Mottley (Barbados Labour Party) – third term, won all 30 seats |
+| Peru | José María Balkazar (Peru Libre) – 8th president in 10 years, elected by the 130-member Congress; general election 12 April 2026 |
+# Leaders in News
+- **Netherlands**: **Rob Jetten** (**38**, **D66**) – **youngest PM in Dutch history**; openly gay; sworn in by **King Willem-Alexander** (February 2026).
+- **Bulgaria**: **Andrey Gurov** – **interim PM** (Deputy Governor of the Bulgarian National Bank); appointed by President **Iliana Lotova**.
+- **South Korea**: ex-President **Yoon Suk Yeol** – **life imprisonment** over the **3 December 2024 martial law**.
+- **North Korea** missile launches (January 2026) – missiles travelled **~560 miles**, launched hours before the South Korean President left for China; Japan PM **Sanae Takaichi** issued an alert; North Korea leader **Kim Jong Un** (capital **Pyongyang**).
+- **WEF**: President **Børge Brende** resigned over **Jeffrey Epstein** links; WEF est. **1971**, **Cologny (Geneva)**.
+~~ Sources: app notes 6:67 (sub 7)
+
+=== Defence Exercises and Deals
+# Exercises in the Period
+| Exercise | Partner(s) | Edition / Venue / Date |
+|---|---|---|
+| MILAN 2026 | Multilateral naval exercise hosted by the Indian Navy | 13th edition; Visakhapatnam; 15–25 February 2026, with the International Fleet Review (18 February) and a Conclave of Chiefs |
+| Dharma Guardian 2026 | India–Japan (Army) | Chaubattia, Uttarakhand; from 24 February 2026 |
+| INDRA | India–Russia | Regular bilateral series |
+| Zapad-2025 | Russia-hosted | India took part |
+# Defence Deals and Frameworks
+| Deal / Framework | Country | Note |
+|---|---|---|
+| S-400 Triumf | Russia | Purchase; 5 regiments, 3 delivered |
+| RELOS | Russia | Logistics pact – signed Feb 2025, working June 2026 |
+| COMPACT (2025) | USA | Military partnership, commerce, technology |
+| Military-technical cooperation | Russia | 2021–2031 |
+| Seychelles package | Seychelles | Includes defence and maritime security |
+~~ Sources: app notes 6:67 (sub 8)
+
+=== Number Game and Quick Revision
+| Item | Correct Fact |
+|---|---|
+| US tariff on India | ~50% → 18% (reciprocal 25% → 18%) |
+| Mission 500 | USD 500 bn trade by 2030 |
+| India–US trade FY25 | USD 132 bn; surplus USD 40.82 bn |
+| India–Russia trade 2024–25 | USD 68.72 bn; target USD 100 bn by 2030 |
+| India–UAE target | USD 200 bn by 2032 |
+| India–Canada CEPA target | USD 70 bn by 2030 |
+| India–NZ FTA | NZ 100% zero duty; India 95% relief, 57% day one; $20 bn over 15 years |
+| Sri Lanka package | USD 450 mn (350 credit + 100 grant) |
+| Seychelles package | $175 mn |
+| DPI MoUs / UPI countries | 23 / 8 |
+| PAX SILICA signatories | 35 |
+| Wangchhu | 570 MW (4 × 142.5 MW); Adani 49%, Druk 51% |
+| Israel workers | 50,000 more in five years |
+| Operation Swadesh | ~10,000 Indians; 2,500–3,000 medical students |
+| Japan election | LDP 271 of 465 |
+| Venezuela reserves | ~300 billion barrels |
+# FIRST / LAST / SPECIAL FACTS
+- **First** EU Legal Gateway office outside the EU: **New Delhi**.
+- **First** India–New Zealand FTA (record nine months, women-led team).
+- **First-ever** Indian engagement with the **Weimar Triangle**.
+- **First** Putin visit to India since **2021** (23rd Summit).
+- **First** Arab state with a nuclear plant: **UAE (Barakah)**.
+- **Youngest** Dutch PM: **Rob Jetten (38)**.
+- Peru: **8th president in 10 years**.
+- **Largest** proven crude reserves: **Venezuela**; **largest** international student group in Canada: **Indians**.
+~~ Sources: app notes 6:67 (sub 9)
+
+=== High-probability MCQ Traps
+- 1. **S-400, INS Vikramaditya = purchases**; **BrahMos = joint** (Brahmaputra + Moskva); Su-30MKI = HAL licence.
+- 2. **Monroe 1823** (vs Europe in the Americas); **Roosevelt Corollary 1904**; **Truman** = Cold War containment.
+- 3. US tariff **18%**; **GSP not regained** (withdrawn 2019); dairy, poultry, GM foods fully protected.
+- 4. **Arctic Sentry** is **not a military operation** – no permanent troops.
+- 5. **Weimar Triangle** = France, Germany, Poland (1991) – no formal structure.
+- 6. India–Pakistan lists every **1 January**; pact signed **31 Dec 1988**, first exchange **1 Jan 1992**.
+- 7. **2000** = Strategic Partnership; **2010** = Special and Privileged; **1971** = Treaty with USSR.
+- 8. India–NZ FTA: **kiwifruit** is under cooperation, **not excluded**; dairy, onions, edible oils excluded.
+- 9. **Wangchu = Raidak** in India; Wangchhu is a **peaking run-of-the-river** plant.
+- 10. **SAGAR = 2015**; **MAHASAGAR = 2025** (Global South and Indo-Pacific).
+~~ Sources: app notes 6:67 (sub 11)

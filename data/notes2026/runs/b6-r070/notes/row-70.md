@@ -1,4 +1,5 @@
 === Defence Exercises – Sep–Oct 2026 and Varuna
+# Exercises table (Sep–Oct 2026)
 | Exercise | Partners | Venue / detail |
 |---|---|---|
 | AIME-2026 (2nd ASEAN–India Maritime) | ASEAN–India | Subic Bay, Philippines, from 28 Sep; INS Sahyadri and INS Kulish; theme "Anchored in Trust, United at Sea"; Harbour then Sea phase |
@@ -11,7 +12,7 @@
 | Nomadic Elephant (18th) | India–Mongolia | Pithoragarh, 21 Sep–3 Oct; 45 each; counter-insurgency |
 | Veer Guardian-2026 (2nd) | India–Japan (air) | AFS Jodhpur, 9–22 Sep; two JASDF C-2 transport aircraft; 1st edition Japan, Jan 2023 |
 | Yudh Abhyas-2026 (22nd) | India–USA (army) | Bikaner (Mahajan FFR) and Auli, 9–28 Sep; since 2004 (Rocket CA table: '23rd', 15–28 Sep) |
-| Varuna-2026 (24th) | India–France (navy) | Toulon, from 22 Sep; INS Trishul (F43); since 1983, named Varuna 2001 |
+| Varuna-2026 (24th) | India–France (navy) | Toulon, from 22 Sep (concluded 28 Sep); INS Trishul (F43); since 1993, named Varuna 2001 |
 | Tarang Shakti-2026 (2nd) | Multinational (air) | AFS Jodhpur, 26 Sep–12 Oct; F-35; 8 countries with aircraft + 32 observers; 1st edition 2024 |
 | Samudra Laksamana (4th) | India–Malaysia | INS Mysore at Lumut |
 | Rudra Raptors | Indian Army (Konark Corps) | Jaisalmer; Black Mace Brigade; Apache |
@@ -24,9 +25,9 @@
 - **MAHASAGAR** – Mutual and Holistic Advancement for Security and Growth Across Regions (2025); Colombo Security Conclave – 2020, Colombo.
 # Varuna – PYQ (APPSC Group 1)
 - **Varuna-2004** (April 2004): the French nuclear-powered carrier **Charles De Gaulle** took part; its total crew was about **1,950** = ship's company **1,350** + air wing **600** (not 2,000).
-- Varuna: India–France naval exercise since **1983**, named **Varuna in 2001**; **24th edition 2026 at Toulon** (INS Trishul).
+- Varuna: India–France naval exercise **initiated in 1993**, named **Varuna in 2001** (Praveen CA-360 Sep 2026 wrongly says 1983); **24th edition 2026 at Toulon**, concluded 28 Sep (INS Trishul).
 > Exam angle: APPSC Group 1 asked the Charles De Gaulle crew in Varuna-2004 – **1,950**.
-~~ Sources: Rocket CA 2026 Part 01 p.149 and Part 02 p.123 (exercise tables: Varuna-2026 Toulon 24th; SLINEX-26 13th; KAZIND 9th; Mountain Guardian 5–18 Oct; Yudh Abhyas listed as '23rd in table', 15–28 Sep, Auli + Mahajan FFR); en.wikipedia.org/wiki/French_aircraft_carrier_Charles_de_Gaulle (complement: ship's company 1,350, air wing 600); app notes 6:70 (sub 5)
+~~ Sources: Rocket CA 2026 Part 01 p.149 and Part 02 p.123 (exercise tables: Varuna-2026 Toulon 24th; SLINEX-26 13th; KAZIND 9th; Mountain Guardian 5–18 Oct; Yudh Abhyas listed as '23rd in table', 15–28 Sep, Auli + Mahajan FFR); en.wikipedia.org/wiki/French_aircraft_carrier_Charles_de_Gaulle (complement: ship's company 1,350, air wing 600); manoramayearbook.in/current-affairs/india/2026/10/03/india-france-varuna-naval-exercise.html ('Initiated in 1993, the exercise was renamed Varuna in 2001'; 24th edition concluded at Toulon on 28 Sep, INS Trishul); app notes 6:70 (sub 5)
 
 === ISRO Missions, Launches and Engines
 # EOS-05 (GISAT-1A) on GSLV-F17
@@ -170,7 +171,6 @@
 - **IIT Ropar + Army Air Defence College, Gopalpur** – **M.Tech in Defence Technology** (10 Sep 2026); linked to the Long Air Defence Course.
 - **FWDA–Keydef** (Portugal) AI-drone partnership, initial €6 million, signed at **Braga** (not Lisbon); aim NATO certification. Portugal capital Lisbon.
 - DRDO: est. **1 January 1958**; motto **"Balasya Mulam Vigyanam"**; under Dept of Defence R&D, MoD. HAL 1940 Bengaluru (Maharatna); BDL 1970 Hyderabad (Miniratna); IAF 8 Oct 1932.
-- PYQ topics: Indian Naval Commanders' Conference (2024) and the **ADITI** scheme (defence technology innovation).
 # Latest defence news (Oct–Nov 2026)
 - **Pralay** test – from Launch Complex-3, **ITR Chandipur (Balasore), Odisha**; hit two targets ~500 km; **short-range surface-to-surface quasi-ballistic**, solid-fuelled, range up to 500 km; DRDO Chairman (additional charge) **Rajesh Kumar Singh**, Defence Secretary (Samir V. Kamat retired 31 May 2026). *(news 04 Nov 2026)*
 - **Jwala-MK1** – **India's first private-sector micro missile**, by **IG Defence**; counter-drone short-range SAM with **hard-kill**; solid rocket motor tests done Oct 2026 (hard-kill destroys; soft-kill jams/spoofs). *(news 20 Oct 2026)*
@@ -180,7 +180,7 @@
 - **Defence Drone Hub at IIT Kanpur** – Rajnath Singh launched the **"Greater Than Us"** campaign to raise **USD 1 billion by March 2029**; hub with MoD for indigenous drone components; IIT Kanpur 1959, with nine US universities (**KIAP**). *(news 20 Oct 2026)*
 - **Raksha Expo-2026** – **Bharat Future City, Hyderabad**, **7–9 Dec 2026**, part of Invest Telangana Global Summit; **India's first defence-aerospace expo by a State Government**; air show 9 Dec; Airbus, Boeing, Tata Lockheed Martin, Safran, Rolls-Royce, GE, HAL, BEL (1954, Bengaluru), BDL. *(news 24 Oct 2026)*
 - **2.2 kg fire protection suit** – **IIT Delhi + DRDO**; up to **1,300°C**; conventional ~10 kg; costs ₹30,000–40,000 vs imported ₹1–3 lakh. *(news 04 Nov 2026)*
-~~ Sources: Rocket CA 2026 Part 01 p.57 (Agri-3/EOS-05 table); RUNBOOK settled fact (DRDO: Samir V. Kamat retired 31 May 2026, Defence Secretary Rajesh Kumar Singh holds additional charge); app notes 6:70 (subs 3, 10)
+~~ Sources: Rocket CA 2026 Part 01 p.57 (EOS-05 / Agni-3 table); RUNBOOK settled fact (DRDO: Samir V. Kamat retired 31 May 2026, Defence Secretary Rajesh Kumar Singh holds additional charge); app notes 6:70 (subs 3, 10)
 
 === Navy, Coast Guard and Air Force Platforms
 # Ships and Vehicles

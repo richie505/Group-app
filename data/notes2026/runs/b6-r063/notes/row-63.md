@@ -145,7 +145,7 @@
 | ICAO Council | Re-elected | 2025-28 |
 | UNHRC | Seventh term, elected unopposed | 2026-28 |
 | ITU | ITU Council 2026 accepted India's bid to host Plenipotentiary Conference 2030 (PP-30) | 2030 |
-| Kimberley Process | Chair from 1 Jan 2026, **third time**; 60 participants (59 countries + EU) | 2026 |
+| Kimberley Process | Conflict-diamond certification (no headquarters); chair from 1 Jan 2026, **third time**; 60 participants (59 countries + EU) | 2026 |
 - **U.S. exits (Jan 2026):** **ISA, UNFPA, UN Women, UNHRC, UNCTAD**, also **UNFCCC, IPCC and IRENA** – first country to try to formally leave the UNFCCC.
 # UN peacekeeping missions – acronym and host
 | Mission | Host / area |
@@ -182,7 +182,7 @@
 | Pax Silica | U.S.-led | Critical minerals, semiconductor and AI supply chains; India joined Feb 2026 |
 | Trade and Technology Council | **U.S. + EU** | Launched **June 2021** (first met Pittsburgh, Sep 2021) to **coordinate trade and technology policy** – not to "control" technological progress |
 > **Colombo Process** = labour migration; **Colombo Security Conclave (2020)** = India, Sri Lanka, Maldives, Mauritius, Bangladesh + **Seychelles (6th)**.
-- India's leadership roles: **Kimberley Process chair 2026**, host of **ITU PP-30**, founder of **ISA, CDRI, GBA**.
+- India's leadership roles: **Kimberley Process chair 2026**, host of **ITU PP-30**, founder of **ISA, CDRI** and the **Global Biofuels Alliance** (launched under India's G20, 2023).
 ~~ Sources: interpol.int (About Notices); Rocket CA 2026 Part 02 p.82; policy.trade.ec.europa.eu (TTC, 2021); app notes 6:63 sub 4
 
 === WHO – Treaties, Action Plans and Disease-free Certifications
@@ -195,6 +195,7 @@
 | Niger | 1st in Africa to end onchocerciasis (river blindness) | late 2025 |
 | Fiji | 26th country to eliminate trachoma | Oct 2025 |
 | Chile | First in the Americas to eliminate leprosy | - |
+| Sri Lanka | Malaria-free | 2016 |
 | India | Polio-free (not malaria-free) | 2014 |
 - **Wild poliovirus** is endemic only in **Pakistan and Afghanistan**.
 # Treaties and action plans
@@ -216,7 +217,7 @@
 | Stockholm | 2001 | Persistent organic pollutants (POPs) | 34 chemicals |
 | Minamata | 2013 | Mercury | Dental amalgam phased out by 2034 |
 | Windsor Framework | 2023 | UK-EU post-Brexit trade rules for Northern Ireland | - |
-| UN Convention against Cybercrime | Dec 2024 | Cybercrime | Secretariat UNODC; India has not joined |
+| UN Convention against Cybercrime | Dec 2024 | Cybercrime | First global cybercrime treaty; opened for signature at Hanoi (Oct 2025); in force 90 days after the 40th ratification; secretariat **UNODC** (not UNCTAD); India has not joined |
 - **Kigali Amendment:** India to stop clearances for **new HFC production beyond 31 Dec 2027**.
 - **Alaska:** bought by the **USA from Russia in 1867** (Treaty of Cession, Seward); 49th U.S. state 1959.
 - **EU Constitution:** drafted under **Valery Giscard d'Estaing**; failed in **2005** referendums; replaced by the Lisbon Treaty (2009).
@@ -246,7 +247,7 @@
 | Term | Fact |
 |---|---|
 | GATT | Signed 1947; in force 1948 |
-| Uruguay Round | 8th GATT round, from 1986; Marrakesh Agreement 15 Apr 1994; WTO from **1 Jan 1995** |
+| Uruguay Round | 8th GATT round, from 1986; concluded **15 Dec 1993**; Marrakesh Agreement **15 Apr 1994**; WTO from **1 Jan 1995** |
 | Dunkel Draft (1991) | Proposals of GATT DG Arthur Dunkel during the Uruguay Round |
 | TRIMs | Trade-Related Investment Measures |
 # Subsidy boxes and Peace Clause
@@ -273,7 +274,7 @@
 |---|---|
 | IFC | Private-sector arm of the World Bank Group |
 | IDA (1960) | Zero- or low-interest loans and grants to the poorest countries |
-| New Development Bank | 2014, Fortaleza Declaration; HQ Shanghai |
+| New Development Bank | 2014, Fortaleza Declaration; HQ Shanghai; founders' vote cannot fall below 55%; **no veto** for any country |
 | AIIB | Est. 2016; 111 approved members; HQ Beijing |
 | BRICS Contingency Reserve Arrangement | IMF-type liquidity support for BRICS members |
 # Multilateral lending → project
@@ -304,7 +305,9 @@
 | Logistics Performance Index 2023 | World Bank | India 38th of 139 |
 | World Development Report 2025 | World Bank | "Standards for Development" |
 | World Investment Report (since 1991) | UNCTAD | - |
-| Global Gender Gap | WEF | - |
+| Human Capital Index | World Bank | - |
+| Corruption Perceptions Index | Transparency International | - |
+| Global Gender Gap; Travel and Tourism Development | WEF | - |
 - **OECD:** Paris, **38** members.
 - **RBI (Jun 2026):** **6.6%** growth for 2026-27; **S&P** upgraded India from **BBB- to BBB (2025)**.
 - Growth drivers: strong **private consumption** + **public investment**.
