@@ -78,8 +78,8 @@ android {
     sourceSets["oneliner"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/onelinerAssets")))
     sourceSets["reader"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/readerAssets")))
     sourceSets["complete2"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/complete2Assets")))
-    // APPSC Complete: its full notes, plus Complete 2.0's notes written from the MCQs as "MCQ notes" (mbook*.json)
-    sourceSets["complete"].assets.srcDir(layout.buildDirectory.dir("generated/completeMcqNotes"))
+    // APPSC Complete: ONE set of notes (book*.json, rebuilt 2026 from the PYQ blueprints, every MCQ linked to them).
+    // The old "MCQ notes" (mbook*.json) are no longer shipped, so the MCQ/Full notes switch disappears.
 
     buildTypes {
         debug {
@@ -189,4 +189,4 @@ val completeMcqNotes = tasks.register<Sync>("completeMcqNotes") {
     }
     into(layout.buildDirectory.dir("generated/completeMcqNotes"))
 }
-tasks.matching { it.name.contains("Complete") && !it.name.contains("Complete2") }.configureEach { dependsOn(completeMcqNotes) }
+// (completeMcqNotes is no longer a dependency of the Complete build: single notes)
