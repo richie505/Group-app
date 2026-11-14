@@ -53,7 +53,7 @@
 | Stamps and registration | ₹18,701 crore |
 - **Revenue-deficit grants ended under the 16th Finance Commission** (it dropped revenue-deficit, sector-specific and State-specific grants of the 15th FC).
 - 2025-26 RE: own tax ₹98,025 crore vs central transfers ₹1,04,493 crore (transfers larger).
-~~ Sources: AP Budget 2026-27 Explanatory Memorandum p.3-6 (SGST ₹45,078.22 crore, excise ₹30,066.66 crore, VAT ₹24,125.67 crore, stamps ₹18,701.35 crore, revenue receipts ₹2,34,140.14 crore); PRS AP Budget Analysis 2026-27 Table 5 (59:41); Rocket CA 2026 Part 01 p.12 (16th FC grants); app notes 6:12 (sub 4) for the 2025-26 RE split
+~~ Sources: AP Budget 2026-27 Explanatory Memorandum p.3-8 (SGST ₹45,078.22 crore, excise ₹30,066.66 crore, VAT ₹24,125.67 crore, stamps ₹18,701.35 crore, revenue receipts ₹2,34,140.14 crore); PRS AP Budget Analysis 2026-27 Table 5 (59:41); Rocket CA 2026 Part 01 p.12 (16th FC grants); app notes 6:12 (sub 4) for the 2025-26 RE split
 
 === Externally Aided Projects
 | Project | Funding agency | Objective / status |
@@ -68,7 +68,7 @@
 | **AP Economic Restructuring Project** (signed 1999) | **World Bank** | **Fiscal reform plus primary health, nutrition, primary education** and rural assets |
 - Wrong pair to spot: **APILIP-II is JICA**, not World Bank.
 > PYQ angle: "project → funding agency" (book 3 row 138: 15 PYQs; Group-I 2023 – APIIATP World Bank, APILIP JICA).
-~~ Sources: book 3 row 138 notes (job b3-r135, sub 0-2); AP Socio-Economic Survey 2024-25 p.68-69 (APILIP-II, APIIATP); app notes 6:12 (sub 6) for loan amounts and status, not re-checked
+~~ Sources: book 3 row 138 notes (job b3-r135, sub 0-2); AP Socio-Economic Survey 2024-25 p.61 (APILIP-II, APIIATP); app notes 6:12 (sub 6) for loan amounts and status, not re-checked
 
 === Swarna Andhra @2047 Vision
 - Vision document unveiled by CM **N. Chandrababu Naidu** on **13 December 2024** at Vijayawada; theme **"10 Principles – One Vision"** (not "One State – One Vision").
@@ -106,7 +106,7 @@
 | TFR | **1.4** (SRS 2024; 1.5 earlier) | below 2.1 |
 - **Akshara Andhra:** literacy drive to raise literacy from **73% to 83%** (Apr 2026).
 - AP is better than India on MMR, IMR, TFR and poverty, but **below** India on Census 2011 literacy.
-~~ Sources: AP Socio-Economic Survey 2024-25 p.8/13 (poverty, PLFS), p.182 (literacy), p.295 (Table 9.10); Praveen CA-360 May 2026 p.113 (SRS 2024: IMR 18, TFR 1.4); RBI Handbook via web search (SRS 2021-23 MMR 30, India 88); app notes 6:12 (sub 8) for sex ratio and Akshara Andhra
+~~ Sources: AP Socio-Economic Survey 2024-25 p.13 (poverty, PLFS), p.182 (literacy), p.295 (Table 9.10); Praveen CA-360 May 2026 p.113 (SRS 2024: IMR 18, TFR 1.4); RBI Handbook via web search (SRS 2021-23 MMR 30, India 88); app notes 6:12 (sub 8) for sex ratio and Akshara Andhra
 
 === Prices, Inflation and the Socio-Economic Survey
 - **SES 2025-26 was skipped in the 2026 Budget session**; the Planning Department said it would come later (12 Apr 2026, app CA – not confirmed elsewhere).
