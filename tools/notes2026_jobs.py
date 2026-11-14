@@ -100,6 +100,7 @@ def plan():
                 if k in old[j["id"]]:
                     j[k] = old[j["id"]][k]
         j.setdefault("status", "todo")
+    jobs += [j for j in old.values() if j["type"] in ("place", "spot")]
     save_jobs(jobs)
     from collections import Counter
     print(len(jobs), "jobs", Counter(j["type"] for j in jobs), Counter(j["status"] for j in jobs))
@@ -123,7 +124,7 @@ def prep(jid):
     os.makedirs(f"{d}/notes", exist_ok=True)
     m = json.load(open(f"{A}/mcq{j['book']}.json"))
     pyqs, allm = [], []
-    want = None if j["pyqs"] == "all" else set(j["pyqs"])
+    want = None if j.get("pyqs", "all") == "all" else set(j["pyqs"])
     for r in j["rows"]:
         for q in m["rows"].get(str(r), []):
             if not isinstance(q, dict):
@@ -134,14 +135,24 @@ def prep(jid):
                     allm.append(slim(q, r))
             elif j["type"] == "topic":
                 allm.append(slim(q, r))
-    if j["type"] == "place":
-        pyqs = j["items"]
-        allm = list(pyqs)
+    if j["type"] == "place":                    # already keyed elsewhere: only mapping
+        pyqs, allm = [], list(j["items"])
+    if j["type"] == "spot":                     # re-verify weak keys: no mapping
+        pyqs, allm = list(j["items"]), []
+        cur = {}
+        for jj in load_jobs():
+            if jj["status"] == "done" and jj["type"] != "spot":
+                for i, k in read_keys(run_dir(jj)).items():
+                    cur[i] = k
+        with open(f"{d}/current-keys.jsonl", "w") as fh:
+            for q in pyqs:
+                if q["id"] in cur:
+                    fh.write(json.dumps(cur[q["id"]], ensure_ascii=False) + "\n")
     json.dump(j, open(f"{d}/meta.json", "w"), ensure_ascii=False, indent=1)
     json.dump(pyqs, open(f"{d}/pyqs.json", "w"), ensure_ascii=False, indent=0)
     json.dump(allm, open(f"{d}/all-mcqs.json", "w"), ensure_ascii=False, indent=0)
     with open(f"{d}/old-notes.txt", "w") as fh:
-        for r in j["rows"]:
+        for r in ([] if j["type"] == "spot" else j["rows"]):
             fh.write(subprocess.run([sys.executable, "tools/notelink.py", "show", str(j["book"]), str(r)],
                                     capture_output=True, text=True).stdout.split("\n=== OWN MCQS")[0] + "\n")
     if j["type"] in ("keys", "place"):          # the rebuilt notes they map onto
@@ -190,10 +201,21 @@ def number(jid):
     d = run_dir(get(jid))
     os.makedirs(f"{d}/numbered", exist_ok=True)
     for f in sorted(glob.glob(f"{d}/notes/row-*.md")):
+        if f.endswith(".extra.md"):
+            continue
         r = int(re.findall(r"\d+", os.path.basename(f))[-1])
-        secs = parse(open(f).read())
+        secs = row_secs(d, r)
         open(f"{d}/numbered/row-{r}.txt", "w").write("\n".join([f"=== NEW NOTES row {r}"] + numbered(secs)) + "\n")
         print(f"row {r}: {len(secs)} sub-sections, {sum(len(s['b']) for s in secs)} blocks")
+
+
+def row_secs(d, r):
+    """notes/row-N.md plus, for place jobs, the new sub-sections they append (notes/row-N.extra.md)."""
+    secs = parse(open(f"{d}/notes/row-{r}.md").read())
+    x = f"{d}/notes/row-{r}.extra.md"
+    if os.path.exists(x):
+        secs += parse(open(x).read())
+    return secs
 
 
 def line_ok(secs, ref):
@@ -251,7 +273,7 @@ def check(jid, quiet=False):
     for r in j["rows"]:
         f = f"{d}/notes/row-{r}.md"
         if os.path.exists(f):
-            secs[r] = parse(open(f).read())
+            secs[r] = row_secs(d, r)
         elif j["type"] == "topic":
             probs.append(f"row {r}: no notes/row-{r}.md")
     for q in allm:
@@ -332,8 +354,14 @@ def apply():
                 f = f"{run_dir(j)}/notes/row-{r}.md"
                 if os.path.exists(f):
                     new[r] = parse(open(f).read())
+        for j in bj:                                 # place jobs may append new sub-sections to a rebuilt row
+            if j["type"] == "place":
+                for r in j["rows"]:
+                    x = f"{run_dir(j)}/notes/row-{r}.extra.md"
+                    if r in new and os.path.exists(x):
+                        new[r] += parse(open(x).read())
         mapping, keys = {}, {}
-        order = {"topic": 0, "keys": 1, "place": 2}
+        order = {"topic": 0, "keys": 1, "place": 2, "spot": 3}
         for j in sorted(bj, key=lambda j: order[j["type"]]):
             mapping.update(read_mapping(run_dir(j)))
             keys.update(read_keys(run_dir(j)))
@@ -573,10 +601,99 @@ def print_prompt(jid):
     j = get(jid)
     titles = dict(l.rstrip("\n").split("\t", 1) for l in open(f"{D}/rows-book{j['book']}.txt"))
     topic = f"book {j['book']} rows {j['rows']}: " + "; ".join(titles[str(r)] for r in j["rows"])
-    txt = (open(f"{D}/HELPER-PROMPT{'-KEYS' if j['type'] == 'keys' else ''}.txt").read()
+    suf = {"keys": "-KEYS", "place": "-PLACE", "spot": "-SPOT"}.get(j["type"], "")
+    txt = (open(f"{D}/HELPER-PROMPT{suf}.txt").read()
            .replace("{JOB}", jid).replace("{TOPIC}", topic))
     open(f"{run_dir(j)}/PROMPT.txt", "w").write(txt)
     print(f"next: {jid} ({j['type']}, book {j['book']}, rows {j['rows']}) -> {run_dir(j)}/PROMPT.txt")
+
+
+def unplaced():
+    """MCQs sitting in a rebuilt row with no notes link into that row (moved in by other jobs, or never mapped)."""
+    links = json.load(open(f"{A}/notelinks.json"))
+    jobs = load_jobs()
+    out = {}
+    for b in range(1, 7):
+        rebuilt = {r for j in jobs if j["book"] == b and j["type"] == "topic" and j["status"] == "done"
+                   for r in j["rows"]}
+        m = json.load(open(f"{A}/mcq{b}.json"))
+        for r, lst in m["rows"].items():
+            if int(r) not in rebuilt:
+                continue
+            for q in lst:
+                if not isinstance(q, dict):
+                    continue
+                lk = links.get(q["id"])
+                if not lk or lk[0].split(":")[:2] != [str(b), r]:
+                    out.setdefault((b, int(r)), []).append(slim(q, int(r)))
+    return out
+
+
+def placeplan(cap=300):
+    jobs = [j for j in load_jobs() if not (j["type"] == "place" and j["status"] != "done")]
+    have = {j["id"] for j in jobs}
+    up = unplaced()
+    n = 0
+    for b in range(1, 7):
+        cur, items = [], []
+
+        def flush():
+            nonlocal cur, items, n
+            if cur:
+                jid = f"b{b}-p{cur[0]:03d}"
+                while jid in have:
+                    jid += "x"
+                jobs.append({"id": jid, "type": "place", "book": b, "rows": cur, "items": items, "status": "todo"})
+                have.add(jid)
+                n += 1
+            cur, items = [], []
+
+        for (bb, r), lst in sorted(up.items()):
+            if bb != b:
+                continue
+            if cur and len(items) + len(lst) > cap:
+                flush()
+            cur.append(r)
+            items += lst
+        flush()
+    save_jobs(jobs)
+    print(n, "place jobs,", sum(len(v) for v in up.values()), "MCQs")
+
+
+def spotplan(per_job=150, sample=0.08, seed=7):
+    """Weak keys (source 'general knowledge, not checked' / 'printed key, not verified'): every changed one +
+    a sample of the unchanged ones, re-verified by 'spot' jobs (one book per job)."""
+    import random
+    rnd = random.Random(seed)
+    jobs = load_jobs()
+    cur = {}
+    for j in jobs:
+        if j["status"] == "done" and j["type"] in ("topic", "keys"):
+            for i, k in read_keys(run_dir(j)).items():
+                cur[i] = k
+    qs = {}
+    for b in range(1, 7):
+        m = json.load(open(f"{A}/mcq{b}.json"))
+        for r, lst in m["rows"].items():
+            for q in lst:
+                if isinstance(q, dict) and q["id"] in cur:
+                    qs[q["id"]] = (b, slim(q, int(r)))
+    pick = {}
+    for i, k in sorted(cur.items()):
+        s = (k.get("source") or "").lower()
+        if i not in qs or not ("general knowledge" in s or "not verified" in s):
+            continue
+        if k.get("changed") or rnd.random() < sample:
+            b, q = qs[i]
+            pick.setdefault(b, []).append(q)
+    n = 0
+    for b, lst in sorted(pick.items()):
+        for c in range(0, len(lst), per_job):
+            jobs.append({"id": f"b{b}-s{c // per_job + 1:02d}", "type": "spot", "book": b, "rows": [],
+                         "items": lst[c:c + per_job], "status": "todo"})
+            n += 1
+    save_jobs(jobs)
+    print(n, "spot jobs,", sum(len(v) for v in pick.values()), "keys")
 
 
 if __name__ == "__main__":
@@ -587,7 +704,7 @@ if __name__ == "__main__":
         print_prompt(sys.argv[2])
     elif cmd == "done_next":
         done_next(*sys.argv[2:])
-    elif cmd in ("plan", "apply", "status"):
+    elif cmd in ("plan", "apply", "status", "placeplan", "spotplan"):
         globals()[cmd]()
     else:
         globals()[cmd](sys.argv[2])
