@@ -1345,3 +1345,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 393 → 39 kept + 96 new (135, 34%); new 61 statements / 26 match / 8 A–R / 1 sequence; 2 of 249 lines lost.
 - nc365d4c78ee (2024 SC GIB order "mandated underground lines"; notes 89:6:3 say the court modified that order) removed.
 - Sri Venkateswara NP area 353.63 km² (88:0:0.3) vs 353.62 (88:5:1) — harmonise.
+
+## rewrite b6-w078 (rows 78–79)
+- own 435 → 56 kept + 117 new (173, 40%); new 80 statements / 27 match / 9 A–R / 1 sequence; no lines lost.
+- 78:5:9 "forest cover about 24%": ISFR 2023 forest cover 21.76%, forest + tree 25.17% — fix; kept own cac521e89e930c relies on it — check.
