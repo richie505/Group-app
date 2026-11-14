@@ -16,7 +16,7 @@
 - **Public debt 2026-27:** about **₹7.11 lakh crore** (~36% of GSDP); own tax revenue **₹1,25,845.78 crore**; share in central taxes **₹64,362.16 crore**.
 # State economy 2025-26 (Socio-Economic Survey)
 - **Growth 2025-26:** **10.75%** (above the national average); GSDP **₹17.62 lakh crore**.
-- **Target 2026-27:** GSDP **₹20.36 lakh crore**, growth **15.53%** (Survey target; the 17.1% figure of Sept 2025 is an older target – see Apr–Nov 2025 notes).
+- **Target 2026-27:** GSDP **₹20.36 lakh crore**, growth **15.53%**, framed under **Swarnandhra Vision-2047** (Survey target; the 17.1% figure of Sept 2025 is an older target – see Apr–Nov 2025 notes).
 - **Inflation 2025-26 (Apr–Dec):** AP **1.39%** (India 1.72%).
 # Swarnandhra Vision-2047 (in brief)
 - Released **December 2024** with NITI Aayog inputs: **USD 2.4 trillion** economy and per capita income **USD 42,000** by 2047; **10 guiding principles (Padi Sutralu)**.

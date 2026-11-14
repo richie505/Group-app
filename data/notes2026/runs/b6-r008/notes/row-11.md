@@ -65,9 +65,9 @@
 - Inflation **1.39%** (Economic Survey 2025-26).
 | Indicator | Andhra Pradesh | India |
 |---|---|---|
-| Literacy (Census 2011) | **67.35%** – **below** the national average | 72.98% |
-| IMR (SRS) | 18 | 24 |
-| MMR (SRS 2021-23) | 30 | 88 |
+| Literacy (Census 2011, residual AP) | **67.35%** – **below** the national average (male 74.77%, **female 59.96%**) | 72.98% |
+| IMR (SRS 2024) | **18** | 24 |
+| MMR (SRS 2021-23) | **30** – lowest in India, with Kerala (app notes, not re-checked) | 88 |
 | Multidimensional poverty (NITI Aayog, 2019-21) | **6.06%** | 14.96% |
 - **Swarna Andhra @2047:** **$2.4 trillion** economy by 2047; **P4 = Public–Private–People Partnership** for zero poverty.
 - **APRIGP:** World Bank (IDA) **$75 million**; **AP Economic Restructuring Project:** primary health, nutrition, primary education and rural assets.

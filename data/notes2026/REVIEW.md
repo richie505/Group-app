@@ -656,3 +656,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Outdated: IMR 2013-16 (now 25), AP IMR NFHS-4 (now 24), IFA dose (now 60 mg/180 days), DG Border Roads (current holder unconfirmed: Harpal Singh vs Raghu Srinivasan).
 - Unverified: y32639475589 Chandranna Bima, y5c63df012bc AP PHC villages, yc291752f13b II and IV.
 - 13 items to row 1 and 2 to row 106 need a place job.
+
+## b6-r008 (CA rows 8, 10, 11 AP economy/budget)
+- No key changes. Dispute FRBM 2003 (Bill 2000, in force 2004; AP Act 2005).
+- AP 2026-27 GSDP target 17.1% (Sept 2025) vs 15.53% (SES 2025-26), both kept dated.
+- Unverified own-MCQ facts: "6th Digital Budget", AP MMR 30 lowest with Kerala, row-10 figures from old notes only.
