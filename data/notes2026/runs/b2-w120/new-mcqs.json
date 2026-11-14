@@ -1,15 +1,930 @@
 [
  {
-  "id": "cp0ef7f02b747b",
-  "row": 124,
-  "s": "Consider the following statements about human rights:\n1. Human rights are inherent and inalienable to every human being.\n2. In India every human right is also a Fundamental Right.\n3. The Vienna Declaration (1993) affirmed that human rights are indivisible and interdependent.\nWhich of the statements given above is/are correct?",
+  "id": "cpee584d614224",
+  "row": 120,
+  "s": "Consider the following statements about the three-capitals plan of Andhra Pradesh:\n1. Visakhapatnam was proposed as the executive capital.\n2. The framework consisted of the AP Decentralisation and Inclusive Development of All Regions Act, 2020 and the APCRDA (Repeal) Act, 2020.\n3. Both Acts were withdrawn in 2023 after the Chief Minister declared Visakhapatnam the capital.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
    "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the Repeal Bill was introduced in November 2021 and both Acts were withdrawn in 2021; the declaration of Visakhapatnam as capital came later, on 31 Jan 2023.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7381731921ce",
+  "row": 120,
+  "s": "Consider the following statements:\n1. In 2026 the Lok Sabha passed the AP Reorganisation (Amendment) Bill, 2026, declaring Amaravati the sole capital of Andhra Pradesh.\n2. Kalyana Karnataka has a special provision under Article 371J since 2013.\n3. In January 2026 the coalition government committed to finishing Amaravati in five years.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: the commitment (Jan 2026) was to finish Amaravati in three years, not five.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp26eca012acfe",
+  "row": 120,
+  "s": "Match List-I (Committee) with List-II (Mandate):\nList-I | List-II\na. Bhargava Committee (1969) | i. Ways to keep the Mulki (employment) safeguards\nb. Wanchoo Committee (1969) | ii. Telangana / united Andhra Pradesh question\nc. Srikrishna Committee (2010) | iii. Site of the new capital under the AP Reorganisation Act\nd. Sivaramakrishnan Committee (2014) | iv. Telangana surplus funds diverted to other regions\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Bhargava – diversion of Telangana surplus funds; Wanchoo – Mulki safeguards; Srikrishna – Telangana/united AP question (six options); Sivaramakrishnan – location of the new capital under the 2014 Act.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6c9af9b50d4e",
+  "row": 120,
+  "s": "Consider the following statements:\nAssertion (A): The Srikrishna Committee found Telangana (excluding Hyderabad) far behind Coastal Andhra on almost every development indicator.\nReason (R): As per the Srikrishna Committee, Telangana excluding Hyderabad recorded the highest growth in per capita income between 2000-01 and 2007-08.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the Committee found Telangana excluding Hyderabad on par with or only a shade lower than Coastal Andhra on most indicators. R is true: its per capita income growth (60.3%) was the highest, ahead of Rayalaseema (58%) and Coastal Andhra (54.1%).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd27f273c6f06",
+  "row": 120,
+  "s": "Consider the following statements about the AP Reorganisation Act, 2014:\n1. Hyderabad was made the common capital of the two States for up to 10 years.\n2. Section 94 of the Act provides the backward-areas package.\n3. The backward-areas package covers 7 districts – 4 of Rayalaseema and 3 of North Andhra – with ₹50 crore per district per year.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: the backward-areas package is under Sec. 46(2)-(3); Sec. 94 provides tax incentives.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp22ed41042aa2",
+  "row": 120,
+  "s": "Consider the following statements:\nAssertion (A): Instead of Special Category Status, Andhra Pradesh was offered a 'special assistance measure'.\nReason (R): The 14th Finance Commission ended the distinction between general and special category States.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: after the 14th Finance Commission ended the general/special category distinction, the Centre offered a 'special assistance measure' in place of the SCS promised by the PM in the Rajya Sabha (Feb 2014).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe74194694bfc",
+  "row": 120,
+  "s": "Consider the following statements:\n1. The Jai Andhra movement (1972) was a reaction to the Supreme Court upholding the Mulki rules.\n2. The Jai Andhra movement started in Coastal Andhra and Rayalaseema.\n3. The Six Point Formula (1973) was implemented through the 32nd Amendment, which inserted Articles 371D and 371E and created the Regional Committee under Article 371(1).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: the 32nd Amendment (after the Six Point Formula of 21 Sept 1973) inserted Articles 371D and 371E but ended the Regional Committee under Art. 371(1); it did not create it.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp95830d00368c",
+  "row": 120,
+  "s": "Consider the following statements:\n1. The 8-Point Formula (1969) set up a special committee on Telangana surpluses.\n2. The expert committee on the location of Andhra Pradesh's new capital was set up under the 8-Point Formula.\n3. The 2009-14 phase of the Telangana movement led to the formation of Telangana State in 2014.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: the capital-location committee (Sivaramakrishnan) came under the AP Reorganisation Act, 2014, not the 8-Point Formula.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp626ce4d549ee",
+  "row": 120,
+  "s": "Match List-I (Employment zone, pre-2022) with List-II (Districts):\nList-I | List-II\na. Zone I | i. Guntur, Prakasam, Nellore\nb. Zone II | ii. East Godavari, West Godavari, Krishna\nc. Zone III | iii. Srikakulam, Vizianagaram, Visakhapatnam\nd. Zone IV | iv. Kurnool, Anantapur, Kadapa, Chittoor\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "Zone I – North Andhra (Srikakulam, Vizianagaram, Visakhapatnam); Zone II – East & West Godavari, Krishna; Zone III – Guntur, Prakasam, Nellore (Coastal Andhra, not North Andhra); Zone IV – Rayalaseema (Kurnool, Anantapur, Kadapa, Chittoor).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7bd2928b2896",
+  "row": 120,
+  "s": "Consider the following statements about regional disparity in Andhra Pradesh:\n1. Visakhapatnam has the highest per capita income among districts (2025-26 AE).\n2. No Rayalaseema district reaches the State average per capita income, and Kurnool is the lowest.\n3. Anantapur receives about 544 mm of rainfall against up to 1,250 mm in Srikakulam-Vizianagaram.\n4. The literacy rate of Andhra Pradesh as per Census 2011 was 72.35%.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 2 and 3 are correct. 4 is wrong: AP's literacy (2011) was 67.35%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf386e942ab7e",
+  "row": 120,
+  "s": "Consider the following statements:\n1. NITI Aayog monitors 112 Aspirational Districts.\n2. Under the Rayalaseema industrial hub plan, the JSW steel plant is in Kadapa.\n3. Under the same plan, Royal Enfield is linked with Kurnool.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: Royal Enfield is linked with Tirupati, not Kurnool.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp369d48468176",
+  "row": 120,
+  "s": "Consider the following statements:\n1. The Sri Bagh Pact (16 Nov 1937) was drafted by Pattabhi Sitaramayya.\n2. Under the Sri Bagh Pact, Rayalaseema could choose either the capital or the High Court.\n3. The Gentlemen's Agreement of 1969 reused the Sri Bagh template for Telangana safeguards.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: the Gentlemen's Agreement was concluded in 1956, not 1969.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp223185b20bc2",
+  "row": 121,
+  "s": "Consider the following statements about National Youth Policies:\n1. India's first National Youth Policy was adopted in 1988.\n2. The National Youth Policy 2014 defines youth as persons aged 15-29 years.\n3. The National Youth Policy 2003 covered persons aged 13-35 years.\n4. The National Youth Policy 2014 sets out 11 objectives and 5 priority areas.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 3 are correct. 4 is wrong: NYP 2014 has 5 objectives and 11 priority areas (the numbers are reversed).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp008d60a2db34",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The last National Commission for Youth (2002-04) was a statutory body.\n2. The Department of Youth Affairs and Sports was set up in 1985.\n3. Youth Affairs and Sports became a separate Ministry in 2000.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the last National Commission for Youth (2002-04) was non-statutory; a Bill (Aug 2026) seeks to make it a constitutional body.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp46589331c95b",
+  "row": 121,
+  "s": "Match List-I (Programme) with List-II (Key point):\nList-I | List-II\na. National Service Scheme (1969) | i. Neighbourhood Youth Parliament\nb. MY Bharat (2023) | ii. Motto 'Not Me But You'\nc. National Young Leaders Programme (2014) | iii. Replaced the NYKS\nd. PMKVY (2015) | iv. Skilling for new job seekers\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "NSS – 'Education through Service', motto 'Not Me But You'; MY Bharat (31 Oct 2023) – replaced NYKS; National Young Leaders Programme (Dec 2014) – Neighbourhood Youth Parliament and National Youth Advisory Council; PMKVY (Skill India, 2015) – skilling for new job seekers.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp80dd275c2eed",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The National Service Scheme was started in 1969 with the idea of 'Education through Service'.\n2. The PM-Vidyalaxmi scheme provides collateral-free education loans.\n3. The APSSDC trained about 25.7 lakh youth in 2024-25.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: the APSSDC trained 2,57,575 (about 2.6 lakh) in 2024-25, not 25.7 lakh.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe5cc254b76f5",
+  "row": 121,
+  "s": "Match List-I (Student movement) with List-II (State / centre):\nList-I | List-II\na. Nav Nirman (1974) | i. Assam\nb. JP movement (1974) | ii. Bihar\nc. AASU movement (1979-85) | iii. Gujarat\nd. Telangana student movements (1969; 2009-14) | iv. Osmania University\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 0,
+  "x": "Nav Nirman – Gujarat; JP movement – Bihar (both 1974, a common trap); AASU – Assam; Telangana student movements – Osmania University.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5130fd552c79",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The JP movement (1974) was the first student-led national movement in India.\n2. Young Bengal, India's first youth organisation, was founded by Henry Vivian Derozio.\n3. India Against Corruption (2011) is regarded as the first major anti-corruption youth movement.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the first student-led national movement was the Swadeshi movement (1905); the JP movement was the first nationwide post-Independence student mobilisation.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd2f3971a1f11",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The AASU movement (1979-85) against illegal migrants ended with the Assam Accord of 15 August 1985.\n2. The Anti-Mandal movement (1990) opposed 27% reservation for OBCs.\n3. Chief Minister Chimanbhai Patel resigned in February 1974 following the Nav Nirman movement.\n4. The JP movement fed into the Emergency declared in June 1977.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: the Emergency was declared in June 1975, not 1977.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp249e9dd1274c",
+  "row": 121,
+  "s": "Consider the following statements:\nAssertion (A): The Jai Andhra agitation (1972-73) was ended by the Six-Point Formula of 1973.\nReason (R): The Jai Andhra agitation followed the Supreme Court's decision upholding the Mulki Rules.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: the agitation began after the SC upheld the Mulki Rules and was ended by the Six-Point Formula (1973). But R gives the cause of the agitation, not why it ended, so R does not explain A.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp57285688fa67",
+  "row": 121,
+  "s": "Consider the following statements about agitations in Andhra Pradesh:\n1. The Sara Nishedha Udyamam (1991-92) was started by rural women of Dubagunta in Kurnool district.\n2. The 'Visakha Ukku – Andhrula Hakku' agitation (1966) is associated with the fast of T. Amrutha Rao.\n3. The Srikakulam girijan peasant movement (1967) against landlords and moneylenders turned Naxalite.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: Dubagunta is in Nellore district, not Kurnool; the anti-arrack movement led to prohibition.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1d6308384d09",
+  "row": 121,
+  "s": "Consider the following statements about forms of youth unrest:\n1. Secessionist movements such as the Naga, Assam and Khalistan movements are a form of youth unrest.\n2. The Dalit Panthers, a militant Dalit youth organisation, were formed in Maharashtra in 1982.\n3. Drug abuse is classed as deviance among the forms of youth unrest.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: the Dalit Panthers were formed in 1972, not 1982.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3b485cd08bec",
+  "row": 121,
+  "s": "Consider the following statements:\nAssertion (A): Youth protests such as Bangladesh 2024 and Nepal Gen Z 2025 had no formal central committee.\nReason (R): They were organised as leaderless, digital protests on encrypted apps.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the new pattern is leaderless, digital protest coordinated on encrypted apps, so there is no formal central committee.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp8819ac45fac8",
+  "row": 121,
+  "s": "Match List-I (Concept) with List-II (Description):\nList-I | List-II\na. Relative deprivation | i. Behaviour that violates the norms of a group or society\nb. Resource mobilisation | ii. Associated with Stouffer\nc. Deviance | iii. Collective frustration when norms seem ineffective or harmful\nd. Youth unrest | iv. Tactics and leadership matter more than grievances\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "Relative deprivation – Stouffer; resource mobilisation – tactics and leadership matter more than grievances; deviance – violation of group/social norms; youth unrest – collective frustration of the young when norms seem ineffective or harmful.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6d1d411ac5fe",
+  "row": 121,
+  "s": "Consider the following statements about youth agitations:\n1. A protest demanding the postponement of an examination is a persuasive agitation.\n2. A protest against attendance rules is a revolutionary agitation.\n3. The life cycle of an agitation begins with discontent, followed by initiation.\n4. A revolutionary agitation aims to overthrow the system, e.g. AASU and Bodo.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 3 and 4 are correct. 2 is wrong: a protest against attendance rules is a resistance agitation; revolutionary agitations seek to overthrow the system.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpeaf330ab4afb",
+  "row": 121,
+  "s": "Consider the following statements:\n1. As per Census 2011, youth (15-24 years) numbered about 231 million, about 19.1% of the population.\n2. As per Census 2011, adolescents (10-19 years) numbered about 353 million.\n3. As per the PLFS 2025 annual report, India's youth (15-29) unemployment rate was 9.9%, higher in urban than in rural areas.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
    "1 and 3 only",
    "1, 2 and 3"
   ],
   "a": 2,
+  "x": "1 and 3 are correct (PLFS 2025: 9.9%, urban 13.6%, rural 8.3%). 2 is wrong: adolescents were about 253 million (20.9%), not 353 million.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7502fc459401",
+  "row": 121,
+  "s": "Consider the following statements about youth unemployment:\n1. In Andhra Pradesh (PLFS 2023-24), youth unemployment was 17.5%, above the national rate.\n2. In Andhra Pradesh, rural youth unemployment was higher than urban youth unemployment.\n3. As per the ILO (2026), global youth unemployment is 12.4%.\n4. As per MoSPI 2022, youth unemployment was 13.0% for males and 12.5% for females.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 3 and 4 are correct. 2 is wrong: in AP urban youth unemployment (22.7%; urban females 29.1%) was higher than rural (15.5%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp55ae7897d0d7",
+  "row": 122,
+  "s": "Match List-I (Durkheim's type of suicide) with List-II (Cause):\nList-I | List-II\na. Egoistic | i. Too much regulation\nb. Altruistic | ii. Too much integration\nc. Anomic | iii. Too little integration\nd. Fatalistic | iv. Too little regulation\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "Egoistic – too little integration (isolated individual); altruistic – too much integration (sati, hara-kiri); anomic – too little regulation (economic crash, normlessness); fatalistic – too much regulation (slaves).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpee40d6b71c12",
+  "row": 122,
+  "s": "Consider the following statements:\n1. Durkheim's Le Suicide was published in 1897.\n2. As per NCRB's ADSI 2015, farming-related issues were the leading cause of farmer suicides, followed by bankruptcy or indebtedness.\n3. As per ADSI 2024, Maharashtra recorded the highest number of suicides, followed by Tamil Nadu.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: bankruptcy/indebtedness was first (38.7%) and farming-related issues second (19.5%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf1b58fc9f4ca",
+  "row": 122,
+  "s": "Consider the following statements about attempted suicide in law:\n1. In P. Rathinam (1994) the Supreme Court held Section 309 IPC invalid, a view later overruled in Gian Kaur (1996).\n2. Section 309 IPC punished an attempt to commit suicide with simple imprisonment up to one year and/or fine.\n3. The Law Commission in its 210th Report recommended retaining Section 309 IPC.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the 210th Report recommended deleting Section 309.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa6be8ad8473b",
+  "row": 122,
+  "s": "Consider the following statements:\nAssertion (A): Under the Bharatiya Nyaya Sanhita, 2023, attempt to suicide remains a general offence.\nReason (R): Section 115 of the Mental Healthcare Act, 2017 presumes severe stress in a person who attempts suicide and bars trial and punishment.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the BNS (in force 1 July 2024) has no general attempted-suicide offence; Sec. 226 covers only an attempt to suicide to coerce a public servant. R is true: MHCA 2017 Sec. 115 presumes severe stress and the State must provide care.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6c46230c7098",
+  "row": 122,
+  "s": "Consider the following statements about human trafficking:\n1. The UNODC regards India only as a high-origin country, not a destination country.\n2. The Immoral Traffic (Prevention) Act was enacted in 1956 as SITA and renamed in 1986.\n3. As per NCRB's Crime in India 2020, there were 696 Anti Human Trafficking Units across States/UTs.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: the UNODC regards India as both a high-origin and a high-destination country.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp04c55e1531ef",
+  "row": 122,
+  "s": "Match List-I (Law / decision) with List-II (Position on begging):\nList-I | List-II\na. Bombay Prevention of Begging Act, 1959 | i. Decriminalised begging in Delhi\nb. Delhi High Court (2018, Harsh Mander) | ii. Refused to ban begging; a socio-economic problem\nc. Supreme Court (2021) | iii. Punitive model copied by many States\nd. SMILE (MoSJE, 2022) | iv. Comprehensive rehabilitation of persons engaged in begging\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Bombay Act 1959 – punitive model; Delhi HC 2018 – decriminalised begging; SC 2021 – refused a ban, calling begging a socio-economic problem; SMILE 2022 – rights-based rehabilitation ('Bhiksha Vritti Mukt Bharat').",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7300962dc6f2",
+  "row": 122,
+  "s": "Consider the following statements:\n1. Indore became the first officially beggar-free city in 2025.\n2. SMILE of the Ministry of Social Justice and Empowerment has a sub-scheme for comprehensive rehabilitation of persons engaged in begging.\n3. In the Census 2011 list of beggars and vagrants, Andhra Pradesh ranks second after West Bengal.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: Uttar Pradesh (65,835) is second after West Bengal (81,224); Andhra Pradesh (30,218) is third.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf209d86cca54",
+  "row": 122,
+  "s": "Consider the following statements:\n1. The Anti-Arrack Movement began in 1992 in Dubagunta village of Nellore district.\n2. It was led by Dubagunta Rosamma and neo-literate women of the literacy campaign.\n3. The Social Purity Association (1891), a temperance campaign, was founded by Kandukuri Veeresalingam.\n4. Article 47 directs the State to prohibit intoxicating drinks and drugs injurious to health except for medicinal purposes.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the Social Purity Association (1891) was founded by R. Venkataratnam Naidu.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3ecaf7f05f98",
+  "row": 122,
+  "s": "Consider the following statements:\n1. India lies between the Golden Crescent and the Golden Triangle.\n2. The National Survey on Extent and Pattern of Substance Use (2019) was conducted by MoSJE with AIIMS-NDDTC.\n3. According to that survey, after alcohol the most-used substance was opioids, followed by cannabis.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: the order was alcohol (14.6%), cannabis (2.8%), then opioids (2.1%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpce0cd0af0cfc",
+  "row": 122,
+  "s": "Consider the following statements:\n1. Nasha Mukt Bharat Abhiyaan was launched by MoSJE on 15 August 2020, first in 272 districts.\n2. It is implemented by the National Institute of Social Defence, which functions under MoSJE.\n3. Nasha Mukt Yuva for Viksit Bharat is run by MoSJE through the NISD.\n4. The Kashi Declaration (July 2025) is associated with Nasha Mukt Yuva for Viksit Bharat.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 2 only",
+   "3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Nasha Mukt Yuva for Viksit Bharat (2026) is run by the Ministry of Youth Affairs and Sports via MY Bharat.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb7ba2dfe4a96",
+  "row": 122,
+  "s": "Consider the following statements:\nAssertion (A): Andhra Pradesh rehabilitates Jogin women through APSCCFC economic-support schemes.\nReason (R): The AP Devadasis (Prohibition of Dedication) Act was enacted in 2006.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: the AP Devadasis (Prohibition of Dedication) Act dates from 1988/89, not 2006.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe8004b187a40",
+  "row": 122,
+  "s": "Consider the following statements:\nAssertion (A): The approach to suicide, beggary and drug abuse has shifted from punishment towards health and rehabilitation.\nReason (R): The Mental Healthcare Act 2017, SMILE and Nasha Mukt Bharat Abhiyaan have taken the place of punitive tools like Sec. 309 IPC and begging laws.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: MHCA 2017, SMILE and NMBA embody the shift away from punishment (Sec. 309, begging laws) to health and rehabilitation.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp0df2d65daf52",
+  "row": 122,
+  "s": "Consider the following statements about Andhra Pradesh:\n1. Under GO 43, the ex gratia for the family of a farmer who dies by suicide is ₹5 lakh.\n2. Under the liquor policy 2024, retail sale went to private licensees chosen by lottery, with ₹99 for a 180 ml quarter.\n3. 'Dharya Sparsa – Operation Flush-Out' against drugs and illegal liquor was launched by the Chittoor Police.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the ex gratia under GO 43 is ₹7 lakh.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc838160ceb38",
+  "row": 123,
+  "s": "Consider the following statements:\n1. NREGA was renamed the Mahatma Gandhi NREGA on 2 October 2008.\n2. NREGA was passed by Parliament in August 2005.\n3. NREGA came into force on 2 February 2006, starting in Anantapur district.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "2 and 3 are correct. 1 is wrong: NREGA was renamed MGNREGA on 2 October 2009.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp20fa2c4dce6b",
+  "row": 123,
+  "s": "Consider the following statements about MGNREGA:\n1. It guarantees at least 100 days of wage work in a financial year to every rural household.\n2. If work is not provided within 15 days of demand, an unemployment allowance is due.\n3. At least half of the workers must be women.\n4. The Gram Sabha holds social audits, while the Gram Panchayat receives work applications and issues dated receipts.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All four",
+   "Only two",
+   "Only three"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: at least one-third (not half) of the workers must be women. Note also that the right to work is not a Fundamental Right in Part III; the Act follows Art. 41 (DPSP).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7466e9496e6b",
+  "row": 123,
+  "s": "Consider the following statements:\nAssertion (A): The VB-G RAM G Act, 2025 replaced MGNREGA from 1 July 2026.\nReason (R): The VB-G RAM G Act guarantees 125 days of work per rural household per year.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true (passed 18 Dec 2025, in force 1 July 2026; 125 days, wage floor ₹300/day), but the 125-day guarantee is a feature of the new Act, not the reason it replaced MGNREGA.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3640d48a7722",
+  "row": 123,
+  "s": "Match List-I (Programme) with List-II (Feature):\nList-I | List-II\na. TRYSEM (1979) | i. Merged PMRY and REGP\nb. DWCRA (1982-83) | ii. Sub-scheme of IRDP for rural women\nc. JRY (1989) | iii. Merged NREP and RLEGP\nd. PMEGP (2008) | iv. Training rural youth for self-employment\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "TRYSEM – training rural youth for self-employment (IRDP component); DWCRA – IRDP sub-scheme so benefits reach rural women; JRY – merged NREP and RLEGP; PMEGP – merged PMRY and REGP (credit-linked subsidy through KVIC).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp629fe24fb134",
+  "row": 123,
+  "s": "Consider the following statements:\n1. The SGSY (1 April 1999) merged IRDP, TRYSEM and DWCRA.\n2. The credit-linked subsidy under PMEGP is routed through NABARD.\n3. DAY-NRLM ('Aajeevika', 2011) was a restructuring of the Jawahar Rozgar Yojana.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All three",
+   "None",
+   "Only two"
+  ],
+  "a": 0,
+  "x": "Only 1 is correct. 2 is wrong: the PMEGP subsidy is routed through KVIC. 3 is wrong: NRLM restructured SGSY, not JRY.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9aab88ccd639",
+  "row": 123,
+  "s": "Consider the following statements about social exclusion:\n1. Denial of property, work and mobility to women is exclusion based on caste.\n2. Social exclusion is a process that is involuntary and systematic.\n3. The term was coined by René Lenoir in France in 1974.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "2 and 3 are correct. 1 is wrong: denial of property, work and mobility to women is gender-based exclusion; caste-based exclusion is exemplified by untouchability.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp23bd0c2952f4",
+  "row": 123,
+  "s": "Consider the following statements:\nAssertion (A): In August 2026 the Union opposed a creamy layer for SCs and STs.\nReason (R): Income alone is enough to end caste-based exclusion.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (10 Aug 2026). R is false: the Union's ground was the opposite – income alone does not end caste-based exclusion.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6c30fb8dc3b7",
+  "row": 123,
+  "s": "Consider the following statements:\n1. India's official poverty line is based on income.\n2. Size of the house is not one of the social indicators of poverty.\n3. The concept of the 'culture of poverty' was propounded by Oscar Lewis in 1959.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All three",
+   "None",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: the official poverty line is consumption-based (MPCE), not income-based.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp00126a1d1b3b",
+  "row": 123,
+  "s": "Match List-I (Poverty estimation group) with List-II (Method):\nList-I | List-II\na. Y.K. Alagh Task Force | i. Calories only: 2,400 rural, 2,100 urban\nb. Lakdawala Expert Group | ii. Dropped the calorie anchor; Mixed Reference Period\nc. Tendulkar Expert Group | iii. Food plus non-food needs such as housing and transport\nd. Rangarajan Expert Group | iv. State-specific lines using CPI-AL and CPI-IW\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "Alagh (1979) – calorie norms 2,400/2,100; Lakdawala (1993) – State-specific lines, CPI-AL rural and CPI-IW urban; Tendulkar (2009) – dropped calorie anchor, MRP, urban basket for both, health and education; Rangarajan (2014) – food + non-food.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5a87bacfd1d0",
+  "row": 123,
+  "s": "Match List-I (Committee) with List-II (Task):\nList-I | List-II\na. Dandekar and Rath (1971) | i. Method of the rural BPL census\nb. Y.K. Alagh Task Force (1979) | ii. Identifying urban BPL households\nc. S.R. Hashim Expert Group (2009) | iii. Calorie-based spending norm\nd. N.C. Saxena Expert Group (2009) | iv. First poverty-line study, 2,250 calories\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 1,
+  "x": "Dandekar & Rath (1971) – first poverty-line study (2,250 calories); Alagh Task Force (1979) – spending needed to buy 2,400/2,100 calories; S.R. Hashim (2009) – urban BPL identification; N.C. Saxena (2009) – rural BPL census method.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp42ef1f497d71",
+  "row": 123,
+  "s": "Consider the following statements:\n1. The Tendulkar Expert Group was set up in 2005.\n2. By the Tendulkar method, poverty was 37.2% in 2004-05 and 21.9% in 2011-12.\n3. The Tendulkar Expert Group fixed calorie norms of 2,400 for rural and 2,100 for urban areas.\n4. The Lakdawala method gave a poverty estimate of 27.5% for 2004-05.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the 2,400/2,100 calorie norms belong to the Alagh Task Force; the Tendulkar group dropped the calorie anchor.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfefbfcd35bac",
+  "row": 123,
+  "s": "Consider the following statements about the Rangarajan Expert Group:\n1. It was set up in 2012 and reported in 2014.\n2. Its poverty lines for 2011-12 were ₹32 per day in rural and ₹47 per day in urban areas.\n3. Its monthly per capita lines for 2011-12 were ₹972 urban and ₹1,407 rural.\n4. In October 2025 NITI Aayog updated the Rangarajan line using HCES 2022-23.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All four",
+   "Only two",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: the lines were ₹972 rural and ₹1,407 urban (reversed). 4 is wrong: the update (Oct 2025) was by the RBI, not NITI Aayog.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp077442731d4a",
+  "row": 123,
+  "s": "Match List-I (Body / survey) with List-II (Role):\nList-I | List-II\na. NITI Aayog | i. Built with UNDP and OPHI\nb. NSO's HCES | ii. Consumption survey about every 5 years\nc. PLFS | iii. Nodal agency for poverty estimation\nd. National MPI | iv. Standard for unemployment data\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "NITI Aayog – nodal agency for poverty estimation (uses NSSO data); HCES – about every 5 years, its MPCE sets the line; PLFS – standard for unemployment data; National MPI – NITI Aayog with UNDP and OPHI.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpfa4cb9a90408",
+  "row": 123,
+  "s": "Consider the following statements about the PLFS:\n1. Usual status measures activity over a reference year.\n2. Current Weekly Status uses a reference period of 30 days.\n3. Current Daily Status records activity for each day of the reference week.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: CWS uses a reference period of 7 days.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp61d749b52deb",
+  "row": 123,
+  "s": "Consider the following statements about the National Multidimensional Poverty Index:\n1. It has three equally weighted dimensions and 12 indicators.\n2. Nutrition is an indicator of the standard-of-living dimension.\n3. Bank accounts is an indicator of the standard-of-living dimension.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All three",
+   "None",
+   "Only two"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: nutrition is a health indicator; standard of living covers cooking fuel, sanitation, drinking water, housing, electricity, assets and bank accounts.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpeacbf5d7e917",
+  "row": 123,
+  "s": "Consider the following statements about NITI Aayog's National MPI 2023 (2019-21 data):\n1. India's multidimensional poverty headcount was 14.96%.\n2. Bihar recorded the highest level (33.76%).\n3. Andhra Pradesh (6.06%) was ranked 5th.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: Andhra Pradesh, with 6.06%, was ranked 9th.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp45a98ef24691",
+  "row": 123,
+  "s": "Match List-I (Type of unemployment) with List-II (Meaning):\nList-I | List-II\na. Disguised | i. Extra workers add near-zero output\nb. Structural | ii. Temporary, while changing or searching for jobs\nc. Cyclical | iii. Fall in labour demand in a slowdown\nd. Frictional | iv. Mismatch between skills and jobs\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Disguised – more workers than needed (agriculture); structural – skills–jobs mismatch; cyclical – slowdown cuts labour demand; frictional – temporary, while switching or searching.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1091646f1a82",
+  "row": 123,
+  "s": "Consider the following statements:\n1. Disguised unemployment is mainly found in the urban labour market.\n2. Seasonal unemployment is mainly found in agriculture.\n3. Educated unemployment is predominantly an urban phenomenon.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: disguised unemployment is found mainly in agriculture (family farms); frictional and educated unemployment are urban.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb55f4561fcdd",
+  "row": 123,
+  "s": "Consider the following statements (PLFS):\n1. India's unemployment rate fell from 6.1% in 2017-18 to 3.2% in 2023-24.\n2. Andhra Pradesh's unemployment rate in 2023-24 was 4.1%.\n3. Andhra Pradesh's labour force participation rate in 2023-24 was 57.5%.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: AP's LFPR (PLFS 2023-24) was 47.5%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe46d0c3d7f13",
+  "row": 123,
+  "s": "Consider the following statements:\nAssertion (A): In India, Scheduled Tribes have the highest incidence of poverty, followed by Scheduled Castes.\nReason (R): Discrimination and social exclusion, landlessness and remoteness keep these groups poor.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the notes give discrimination, social exclusion, landlessness and remoteness as the cause of the ST > SC > others order.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd1e57d07625c",
+  "row": 123,
+  "s": "Consider the following statements (2025-26 data):\n1. Informal employment in rural Andhra Pradesh is 62.3%.\n2. Gig workers form about 12% of India's workforce.\n3. India's social protection coverage rose from 22% in 2016 to 64.3% in 2025.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: gig workers form a little over 2% of the workforce.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0ef7f02b747b",
+  "row": 124,
+  "s": "Consider the following statements about human rights:\n1. Human rights are inherent and inalienable to every human being.\n2. In India every human right is also a Fundamental Right.\n3. The Vienna Declaration (1993) affirmed that human rights are indivisible and interdependent.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: every Fundamental Right is a human right, but not every human right is a Fundamental Right.",
   "src": "app",
   "tq": "statements"
@@ -36,10 +951,10 @@
   "o": [
    "a-i, b-ii, c-iii, d-iv",
    "a-ii, b-iv, c-iii, d-i",
-   "a-ii, b-i, c-iii, d-iv",
-   "a-i, b-iv, c-iii, d-ii"
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-i, c-iii, d-iv"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Magna Carta – 1215 (King John); Glorious Revolution – 1688 (Bill of Rights 1689); US Declaration of Independence – 1776; French Declaration of the Rights of Man – 1789.",
   "src": "app",
   "tq": "match"
@@ -51,10 +966,10 @@
   "o": [
    "Only one",
    "All four",
-   "Only two",
-   "Only three"
+   "Only three",
+   "Only two"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1, 2 and 4 are correct. 3 is wrong: resolution 423(V) fixing Human Rights Day was passed in 1950, not 1948.",
   "src": "app",
   "tq": "statements"
@@ -80,11 +995,11 @@
   "s": "Match List-I (UDHR Article) with List-II (Right):\nList-I | List-II\na. Article 3 | i. Work\nb. Article 12 | ii. Life, liberty and security\nc. Article 23 | iii. Education\nd. Article 26 | iv. Privacy\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
    "a-ii, b-iv, c-i, d-iii",
-   "a-i, b-iv, c-iii, d-ii",
-   "a-ii, b-iv, c-iii, d-i"
+   "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Art. 3 – life, liberty, security; Art. 12 – privacy (also ICCPR Art. 17); Art. 23 – work; Art. 26 – education.",
   "src": "app",
   "tq": "match"
@@ -94,12 +1009,12 @@
   "row": 124,
   "s": "Consider the following statements:\n1. The theme of Human Rights Day 2016 was 'Our Rights, Our Future, Right Now'.\n2. The theme of Human Rights Day 2025 was 'Human Rights, Our Everyday Essentials'.\n3. Universal Children's Day on 20 November marks the adoption of the UNCRC in 1989.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
-   "1 and 2 only",
    "1 only",
-   "1, 2 and 3"
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "2 and 3 are correct. 1 is wrong: 'Our Rights, Our Future, Right Now' was the 2024 theme; the 2016 theme was 'Stand up for someone's rights today'.",
   "src": "app",
   "tq": "statements"
@@ -109,12 +1024,12 @@
   "row": 124,
   "s": "Consider the following statements about the generations of human rights:\n1. Karel Vasak proposed the three-generation classification in 1977.\n2. Third-generation rights are linked with the ideal of fraternity.\n3. Eradication of social discrimination is a first-generation right.\n4. Social security is a second-generation right.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1, 2 and 4 only",
    "1 and 2 only",
-   "1, 2, 3 and 4",
    "2, 3 and 4 only",
-   "1, 2 and 4 only"
+   "1, 2, 3 and 4"
   ],
-  "a": 3,
+  "a": 0,
   "x": "1, 2 and 4 are correct. 3 is wrong: eradication of social discrimination is a second-generation (equality) right; first-generation rights are civil and political.",
   "src": "app",
   "tq": "statements"
@@ -124,12 +1039,12 @@
   "row": 124,
   "s": "Consider the following statements:\n1. The International Bill of Human Rights comprises the UDHR, the ICCPR, the ICESCR and the optional protocols.\n2. The ICCPR entered into force before the ICESCR.\n3. India acceded to both Covenants in 1979 but has not signed the ICCPR First Optional Protocol.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
    "1 only",
+   "2 and 3 only",
    "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: the ICESCR entered into force first (3 Jan 1976), the ICCPR on 23 Mar 1976.",
   "src": "app",
   "tq": "statements"
@@ -139,12 +1054,12 @@
   "row": 124,
   "s": "Match List-I (ICCPR Article) with List-II (Right):\nList-I | List-II\na. Article 6 | i. Fair trial\nb. Article 7 | ii. Life\nc. Article 14 | iii. Freedom from torture\nd. Article 19 | iv. Expression\nSelect the correct answer using the codes given below:",
   "o": [
+   "a-ii, b-iv, c-i, d-iii",
    "a-i, b-iii, c-ii, d-iv",
    "a-ii, b-iii, c-i, d-iv",
-   "a-ii, b-iv, c-i, d-iii",
    "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 1,
+  "a": 2,
   "x": "ICCPR: Art. 6 – life; Art. 7 – no torture; Art. 14 – fair trial; Art. 19 – expression (privacy is Art. 17, child rights Art. 24).",
   "src": "app",
   "tq": "match"
@@ -155,11 +1070,11 @@
   "s": "Match List-I (Convention) with List-II (Subject):\nList-I | List-II\na. CERD | i. Persons with disabilities\nb. CMW | ii. Enforced disappearance\nc. CPED | iii. Migrant workers\nd. CRPD | iv. Racial discrimination\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
    "a-iv, b-i, c-ii, d-iii",
-   "a-iv, b-iii, c-ii, d-i",
-   "a-i, b-iv, c-ii, d-iii"
+   "a-iv, b-iii, c-ii, d-i"
   ],
-  "a": 2,
+  "a": 3,
   "x": "CERD (1965) – racial discrimination, ratified by India 1968; CMW (1990) – migrant workers, not signed; CPED (2006) – enforced disappearance, signed 2007; CRPD (2006) – disabilities, ratified 2007.",
   "src": "app",
   "tq": "match"
@@ -169,12 +1084,12 @@
   "row": 124,
   "s": "Consider the following statements about India and UN human rights treaties:\n1. CEDAW was adopted in 1979 and ratified by India in 1993.\n2. India ratified the Convention against Torture in 1997.\n3. India acceded to the CRC on 11 December 1992.\nHow many of the above statements are correct?",
   "o": [
+   "Only two",
    "Only one",
-   "None",
    "All three",
-   "Only two"
+   "None"
   ],
-  "a": 3,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: India signed the CAT in 1997 but has not ratified it.",
   "src": "app",
   "tq": "statements"
@@ -184,12 +1099,12 @@
   "row": 124,
   "s": "Consider the following statements about the UN Human Rights Council:\n1. It was set up in 2006 in place of the UN Commission on Human Rights and is based in Geneva.\n2. Its 47 members are elected by the UNGA for four-year terms.\n3. A member can serve at most two consecutive terms.\n4. A member can be suspended by a two-thirds vote of the UNGA.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 3 and 4 only",
    "1 and 2 only",
+   "1, 3 and 4 only",
    "2, 3 and 4 only",
    "1, 2, 3 and 4"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1, 3 and 4 are correct. 2 is wrong: HRC members serve three-year terms.",
   "src": "app",
   "tq": "statements"
@@ -199,12 +1114,12 @@
   "row": 124,
   "s": "Consider the following statements:\n1. The Universal Periodic Review, a peer review of every UN member's record, began in 2008 in cycles of about 4.5 years.\n2. Special rapporteurs under the special procedures are paid UN staff.\n3. The OHCHR was set up in 1993 after the Vienna Conference.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
    "1 only",
+   "2 and 3 only",
    "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: special rapporteurs are unpaid independent experts.",
   "src": "app",
   "tq": "statements"
@@ -216,10 +1131,10 @@
   "o": [
    "Only one",
    "All four",
-   "Only two",
-   "Only three"
+   "Only three",
+   "Only two"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the Principles require independence, autonomy and powers to investigate. 4 is wrong: the NHRC (1993) is a statutory body under the PHRA 1993.",
   "src": "app",
   "tq": "statements"
@@ -244,13 +1159,508 @@
   "row": 124,
   "s": "Consider the following statements:\n1. Amnesty International was founded in London in 1961 by Peter Benenson.\n2. Amnesty International received the Nobel Peace Prize in 1987.\n3. Human Rights Watch is a New York-based NGO.\n4. The UN Human Rights Prize is given by the UNGA, usually every five years, since 1968.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 3 and 4 only",
    "1 and 3 only",
+   "1, 3 and 4 only",
    "2 and 4 only",
    "1, 2, 3 and 4"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1, 3 and 4 are correct. 2 is wrong: Amnesty received the Nobel Peace Prize in 1977.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2ffa5c807bf8",
+  "row": 125,
+  "s": "Match List-I (Article of the Constitution) with List-II (Parallel UDHR Article):\nList-I | List-II\na. Article 14 | i. Article 8\nb. Article 21 | ii. Article 26\nc. Article 32 | iii. Article 7\nd. Article 21A | iv. Article 3\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "Art. 14 (equality before law) – UDHR Art. 7; Art. 21 (life, liberty) – UDHR Art. 3; Art. 32 (remedies) – UDHR Art. 8; Art. 21A (education) – UDHR Art. 26.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7f2104336129",
+  "row": 125,
+  "s": "Consider the following statements:\n1. The freedoms under Article 19 are available only to citizens.\n2. Article 21 is available to both citizens and foreigners.\n3. Article 21A was inserted by the 86th Amendment, 2002.\n4. Article 24 prohibits the employment of children below 16 years in factories, mines and hazardous work.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2, 3 and 4",
+   "3 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "a": 3,
+  "x": "1, 2 and 3 are correct. 4 is wrong: Article 24 bars children below 14 years, not 16.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf3c7c6164dfc",
+  "row": 125,
+  "s": "Match List-I (Article) with List-II (Provision):\nList-I | List-II\na. Article 12 | i. Organisation of village panchayats (DPSP)\nb. Article 13 | ii. Defines 'State' for the Fundamental Rights\nc. Article 40 | iii. Laws inconsistent with Fundamental Rights are void\nd. Article 15(4) | iv. Special provisions for backward classes, SCs and STs\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Art. 12 – definition of 'State'; Art. 13 – laws inconsistent with FRs void (judicial review); Art. 40 – village panchayats, a DPSP; Art. 15(4) – special provisions, added by the First Amendment.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7d01cbab590e",
+  "row": 125,
+  "s": "Consider the following statements:\nAssertion (A): The Right to Information is expressly listed as a Fundamental Right in Part III.\nReason (R): The Right to Information is a statutory right under the RTI Act, 2005, also read into Article 19(1)(a).\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: RTI is not an express Fundamental Right. R is true: it is statutory (RTI Act 2005) and has been read into Art. 19(1)(a).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp990ed16c888f",
+  "row": 125,
+  "s": "Match List-I (Right read into Article 21) with List-II (Case):\nList-I | List-II\na. Free legal aid | i. M.H. Hoskot (1978)\nb. Speedy trial | ii. K.S. Puttaswamy (2017)\nc. Livelihood | iii. Olga Tellis (1985)\nd. Privacy | iv. Hussainara Khatoon (1979)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Legal aid – M.H. Hoskot (1978); speedy trial – Hussainara Khatoon (1979); livelihood – Olga Tellis (1985); privacy – K.S. Puttaswamy (2017).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf1983ef9bcda",
+  "row": 125,
+  "s": "Consider the following statements:\n1. The safeguards in D.K. Basu (1997) relate mainly to bail for under-trial prisoners.\n2. In Francis Coralie (1981) the Supreme Court held that the right to life includes the right to live with human dignity.\n3. The right to a clean environment was read into Article 21 in Subhash Kumar (1991).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: D.K. Basu laid down safeguards for persons during arrest and custodial detention.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd199a9f3da7c",
+  "row": 125,
+  "s": "Consider the following statements:\nAssertion (A): In Maneka Gandhi (1978) the protection of Article 21 was extended against arbitrary legislative action as well as executive action.\nReason (R): The Court held that the procedure depriving a person of life or liberty must be fair, just and reasonable.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: by requiring the law's procedure itself to be fair, just and reasonable, Maneka Gandhi reversed the narrow A.K. Gopalan (1950) view that Art. 21 protected only against executive action.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6bfb00508d85",
+  "row": 125,
+  "s": "Match List-I (Article) with List-II (Provision):\nList-I | List-II\na. Article 42 | i. Living wage for workers\nb. Article 43 | ii. Respect for international law and treaty obligations\nc. Article 51(c) | iii. Renounce practices derogatory to the dignity of women\nd. Article 51A(e) | iv. Humane conditions of work and maternity relief\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "Art. 42 – humane conditions and maternity relief; Art. 43 – living wage, decent standard of life; Art. 51(c) – respect for international law (DPSP); Art. 51A(e) – Fundamental Duty on the dignity of women.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpeb26d723484f",
+  "row": 125,
+  "s": "Consider the following statements:\n1. Article 253 empowers Parliament to make laws to implement international treaties.\n2. The Vishaka guidelines (1997) relied substantially on the UNCRC.\n3. In Guruvayur Devaswom (2003) it was held that courts may use international conventions.\n4. The NCPCR was set up in 2007, after India acceded to the UNCRC in 1992.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 3 and 4 are correct. 2 is wrong: Vishaka relied on CEDAW, not the UNCRC.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2edac0761dbe",
+  "row": 125,
+  "s": "Consider the following statements about the Protection of Human Rights Act, 1993:\n1. The NHRC was constituted on 12 October 1993.\n2. The Act is deemed to have come into force on 28 September 1993, though it received assent in January 1994.\n3. Under its three-tier set-up, Human Rights Courts function at the State level.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: the tiers are NHRC (national), SHRC (State) and Human Rights Courts (district).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf456b14e68d4",
+  "row": 125,
+  "s": "Match List-I (Section of the PHRA, 1993) with List-II (Defines):\nList-I | List-II\na. Section 2(1)(a) | i. Human rights\nb. Section 2(1)(d) | ii. International Covenants\nc. Section 2(1)(f) | iii. Armed forces\nd. Section 2(1)(m) | iv. Public servant\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "2(1)(a) – armed forces (Union forces; State armed police not included); 2(1)(d) – human rights; 2(1)(f) – International Covenants (ICCPR + ICESCR); 2(1)(m) – public servant.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe5fbfcb9b0e4",
+  "row": 125,
+  "s": "Consider the following statements about the PHRA, 1993:\n1. A Human Rights Court is a Court of Session notified by the State Government with the concurrence of the High Court Chief Justice.\n2. A Special Public Prosecutor must be an advocate with at least 10 years' practice.\n3. 'Public servant' has the meaning in Sec. 21 IPC, now Sec. 2(28) of the BNS.\n4. Commission proceedings are judicial proceedings for IPC Sections 193 and 228.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 3 and 4 are correct. 2 is wrong: Sec. 31 requires an advocate of at least 7 years' practice.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4e06b28fd4a5",
+  "row": 125,
+  "s": "Match List-I (Act) with List-II (Year in force / enacted):\nList-I | List-II\na. Bonded Labour System (Abolition) Act | i. 1990\nb. SC/ST (Prevention of Atrocities) Act | ii. 1976\nc. Right to Information Act | iii. 2010\nd. National Green Tribunal Act | iv. 2005\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Bonded Labour Act – 1976 (Ordinance 1975); SC/ST Atrocities Act – 1989, in force 30 Jan 1990; RTI – in force 12 Oct 2005; NGT Act – 2010.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc30b178274b2",
+  "row": 125,
+  "s": "Consider the following statements:\n1. MISA was enacted in 1971 and repealed in 1977.\n2. Under the Transgender Persons Amendment Act, 2026, the identity certificate is issued by the National Council for Transgender Persons.\n3. The Manual Scavengers Act, 2013 bans sewer cleaning without protective gear and requires a latrine survey within three years.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: under the 2026 amendment the District Magistrate certifies, on medical-board advice.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp618391a6222c",
+  "row": 126,
+  "s": "Consider the following statements about the NHRC:\n1. The NHRC was constituted on 12 October 1994.\n2. It is a statutory body set up under the Protection of Human Rights Act, 1993 passed by Parliament.\n3. The Protection of Human Rights Ordinance was issued on 28 September 1993, and the Act received assent in January 1994.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: the NHRC was constituted on 12 October 1993; the Act is deemed in force from 28 Sept 1993.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp31dec79a374e",
+  "row": 126,
+  "s": "Consider the following statements:\n1. The National Commission for Backward Classes got constitutional status through the 102nd Amendment, 2018.\n2. The PHRA defines human rights as rights relating to life, liberty, equality and dignity.\n3. The NHRC was framed in the light of the Paris Principles of independence, pluralism and a broad mandate.\n4. The headquarters of the NHRC is in Mumbai.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only one",
+   "All four",
+   "Only two"
+  ],
+  "a": 1,
+  "x": "1, 2 and 3 are correct. 4 is wrong: the NHRC is headquartered in New Delhi.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp946ff7f70256",
+  "row": 126,
+  "s": "Consider the following statements:\n1. Justice Ranganath Misra, the first NHRC Chairperson, held office until 2001.\n2. Justice V. Ramasubramanian is the NHRC Chairperson (as of February 2026).\n3. The Kurnool office of the AP SHRC was inaugurated in September 2021, when Justice M. Seetharama Murti was its chair.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All three",
+   "Only two",
+   "None"
+  ],
+  "a": 2,
+  "x": "2 and 3 are correct. 1 is wrong: Justice Ranganath Misra was Chairperson from 12 Oct 1993 to 24 Nov 1996.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd56a4c40d413",
+  "row": 126,
+  "s": "Consider the following statements about the NHRC's composition:\n1. Since 2019 the NHRC has a Chairperson and five full-time members.\n2. Its members include a serving or retired Supreme Court Judge and a serving or retired High Court Chief Justice.\n3. It has three members with knowledge of human rights, at least one of them a woman.\n4. Its Secretary-General exercises judicial powers under the Chairperson's control.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2, 3 and 4",
+   "3 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "a": 3,
+  "x": "1, 2 and 3 are correct (experts raised from two to three in 2019). 4 is wrong: the Secretary-General exercises administrative and financial powers, not judicial.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp14eaa1bd5625",
+  "row": 126,
+  "s": "Consider the following statements about the deemed members of the NHRC:\n1. The Chairpersons of the NCSC and the NCST became deemed members in 2006.\n2. The 2019 amendment added the Chairpersons of the NCBC and the NCPCR and the Chief Commissioner for Persons with Disabilities.\n3. The NCPCR Chairperson was a deemed member even before 2019.\n4. Deemed members are equal in status to the full-time members.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only one",
+   "All four",
+   "Only two"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the NCPCR chair was added only in 2019. 4 is wrong: deemed members are not equal in status to full-time members; the CCPD is the only one who is not a commission chair.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpef37f0186c58",
+  "row": 126,
+  "s": "Consider the following statements about the NHRC selection committee:\n1. It has six members and is headed by the Prime Minister.\n2. It includes the Deputy Chairman of the Rajya Sabha and the Leaders of Opposition in both Houses.\n3. It includes the Chief Justice of India.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: neither the CJI nor the Chairman of the Rajya Sabha is a member; the committee is PM, Speaker, Home Minister, two LoPs and the RS Deputy Chairman.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd490b49daba8",
+  "row": 126,
+  "s": "Consider the following statements:\nAssertion (A): A sitting Supreme Court Judge can be appointed to the NHRC only after consultation with the Chief Justice of India.\nReason (R): The Chief Justice of India is a member of the NHRC selection committee.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (Sec. 4 proviso: sitting SC Judge or HC Chief Justice only after consulting the CJI). R is false: the CJI is not on the selection committee, which is why consultation is provided separately.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp924638dd5754",
+  "row": 126,
+  "s": "Consider the following statements about NHRC members:\n1. Since 2019 they hold office for 3 years or until age 70, whichever is earlier, and are eligible for reappointment.\n2. After demitting office they are eligible for employment under a State Government but not under the Central Government.\n3. They resign in writing addressed to the President.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: after office they are ineligible for further employment under the Central or any State Government.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe0393c37118c",
+  "row": 126,
+  "s": "Consider the following statements about the NHRC's functions:\n1. It may inquire into a violation suo motu, on a petition, or on a court's order.\n2. It may intervene in court proceedings involving human-rights allegations only with the court's approval.\n3. Since 2006 it may visit jails without intimating the State Government.\n4. It may inquire into a complaint solely against a private individual with no public servant involved.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 2 and 3 are correct. 4 is wrong: the NHRC's purview is violations (or negligence) by public servants, not purely private disputes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0c8a8098d802",
+  "row": 126,
+  "s": "Consider the following statements about the NHRC:\n1. In an inquiry it has the powers of a civil court under the CPC, 1908, such as summoning persons and requiring documents.\n2. It may recommend compensation and interim relief.\n3. The Government must inform it of action taken on its report within three months.\n4. Under Section 12 it reviews factors, including terrorism, that inhibit the enjoyment of human rights.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: on an inquiry report the Government informs the NHRC within one month (three months is the period in armed-forces cases).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa8b341ce144c",
+  "row": 126,
+  "s": "Match List-I (NHRC mandate) with List-II (Detail):\nList-I | List-II\na. Bonded labour | i. Report to the NHRC within 24 hours\nb. Encounter deaths | ii. PUCL v State of Maharashtra (2014)\nc. Transgender welfare | iii. Monitoring entrusted by the Supreme Court (1997)\nd. Custodial deaths | iv. Advisory 2.0 (May 2026)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "Bonded labour – SC entrusted monitoring of the 1976 Act (1997); encounter deaths – PUCL v Maharashtra (2014) guidelines; transgender welfare – Advisory 2.0 (May 2026); custodial deaths – report within 24 hours, post-mortem videography.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpff713ce42717",
+  "row": 126,
+  "s": "Consider the following statements:\nAssertion (A): The NHRC is often called a 'toothless tiger'.\nReason (R): Its recommendations are advisory and not binding, and it cannot punish violators.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the NHRC can only recommend; it cannot punish or award relief itself, hence the 'toothless tiger' criticism.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp34b7398375e6",
+  "row": 126,
+  "s": "Consider the following statements about the limitations of the NHRC:\n1. It cannot inquire into a matter after two years from the date of the alleged act.\n2. In cases against the armed forces it only seeks a report from the Central Government, which informs it of action taken within three months.\n3. It cannot take up a matter already pending before an SHRC or another statutory commission.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: the time bar is one year, not two.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8c95e48eef99",
+  "row": 126,
+  "s": "Consider the following statements about State Human Rights Commissions:\n1. Constituting an SHRC is optional for a State Government.\n2. The 2019 amendment cut the SHRC's strength from five to three.\n3. Since 2019 a High Court Judge, besides a retired HC Chief Justice, can chair an SHRC.\n4. In a bicameral State, the Chairman and the Leader of Opposition of the Legislative Council join the selection committee.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 3 and 4 are correct. 2 is wrong: the SHRC was cut from five to three members by the 2006 amendment, not 2019.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1546662ddbb1",
+  "row": 126,
+  "s": "Consider the following statements about an SHRC:\n1. Its Chairperson resigns to the Governor.\n2. Its annual report goes to the State Government and is laid before the State Legislature with a memorandum of action taken.\n3. It inquires only into subjects in the State List.\n4. It does not inquire into a matter already being inquired into by the NHRC.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only one",
+   "All four",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "1, 2 and 4 are correct. 3 is wrong: an SHRC covers subjects in both the State List and the Concurrent List.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6be36763b5e0",
+  "row": 126,
+  "s": "Consider the following statements:\nAssertion (A): A State Human Rights Commission can punish those who violate human rights.\nReason (R): An SHRC can only recommend compensation or damages to the Government.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: an SHRC, like the NHRC, cannot punish; its recommendations are not executable as decrees. R is true: on inquiry it may only recommend compensation or damages to the Government or authority.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3bd3c49c8f1a",
+  "row": 126,
+  "s": "Consider the following statements about the Andhra Pradesh SHRC:\n1. It was constituted by the AP Government under the PHRA, 1993.\n2. Its headquarters is at Kurnool.\n3. It has had a full-time Chairperson continuously since 2021.\n4. In the Gade Sai Krishna custodial death (June 2026), the NHRC sought reports from the AP SHRC, the DGP and the Chief Secretary.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 2 only",
+   "3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the AP SHRC was reported to be without a Chairperson since March 2024.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp59d63b65e316",
+  "row": 126,
+  "s": "Consider the following statements about amendments to the PHRA:\n1. The 2006 amendment enabled the NHRC to transfer complaints to the SHRC concerned.\n2. The 2006 amendment reduced the term of NHRC members to three years.\n3. The 2019 amendment raised the human-rights expert members from two to three, one of them a woman.\n4. The 2019 amendment raised the deemed members from four to seven.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 3 and 4 only",
+   "2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 3 and 4 are correct. 2 is wrong: the term was cut from 5 to 3 years by the 2019 amendment, not 2006.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp093413ffa7be",
+  "row": 126,
+  "s": "Consider the following statements:\n1. Human Rights Courts (Sec. 30) are notified by the State Government with the concurrence of the High Court Chief Justice.\n2. A Special Public Prosecutor (Sec. 31) must have practised as an advocate for at least 7 years.\n3. The NHRC's annual report is laid before each House of Parliament with a memorandum of action taken.\n4. 'A' status under GANHRI accreditation means partly compliant with the Paris Principles.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "Only three",
+   "Only one",
+   "All four",
+   "Only two"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: 'A' means fully compliant; 'B' is partly compliant. (In May 2024 GANHRI deferred NHRC-India's re-accreditation for the second year running.)",
   "src": "app",
   "tq": "statements"
  }

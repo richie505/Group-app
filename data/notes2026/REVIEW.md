@@ -1544,3 +1544,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b3-w123 (rows 123–127)
 - own 410 → 84 kept + 88 new (172, 42%); new 49 statements / 28 match / 11 A–R; no lines lost.
 - Removed: n0c24e771109 (coastline 974 km 2nd — outdated; now 1,053 km 3rd), n5792f432db5 (5 options), 8 not in notes (SIDBI, ARDBs, Rythu Bazar dept, ABHA count/rank, …). f448aa15d7573 mislinked sub — link cleanup.
+
+## rewrite b5-w110 (rows 110–113)
+- own 282 → 28 kept + 72 new (100, 35%); new 38 statements / 21 match / 11 A–R / 1 sequence / 1 one-liner; 1 of 186 lines lost. No wrong keys.
+- Removed as not in notes: ncee54429b4c (PMKSY centrally sponsored), n4a2928313ed (MIF ₹5,000 + ₹5,000 cr) — possible notes gaps.
