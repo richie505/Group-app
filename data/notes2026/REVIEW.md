@@ -598,3 +598,10 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Disputes: y247430527ed BMW 17 lakh t (vs 1.7); y8cd693913da EPR date; y6bd6b09a59c SS 2024-25 Indore vs Ahmedabad.
 - Outdated ×3 SWM Rules 2016 → SWM Rules 2026.
 - EPR first: e-waste rules 2011 (Rocket says plastic rules 2011). Unverified: Gonda, SS 2023 theme, Puducherry 51 microns, CDS 2019 thermosetting bottle.
+
+## b5-r106 (Disaster management, rows 106-107)
+- yc9214f5d0b9 APPSC AE 2017 NDRF battalions: 8 → 12 (12 by 2017; 8 was 2006), outdated (now 16).
+- ydb1fd690f41 biological disasters nodal ministry: MHA → MoHFW (flat error).
+- y8acf79d61eb coastline flashcard → 11,098.81 km (settled), outdated.
+- Disputes: CFLOWS-Chennai, NDMP May/June 2016, NDMA 2005/2006 ×2, IDNDR 1991–2000, EDRI 56% vs 59%, mitigation vs preparedness.
+- Unverified printed: SKOCH 2018 Odisha, cold-wave numbers, 18 response activities, Quake Safe, AP cyclone districts, UNISDR 15%, CRED 85%.
