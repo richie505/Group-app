@@ -114,6 +114,7 @@
 | 2010 | **IMPS** and **AePS** |
 | 2012 | **RuPay**; NACH |
 | 2016 | **UPI** (April, 21 banks); **BHIM**; NETC FASTag |
+# Products → purpose
 | Product | Purpose |
 |---|---|
 | **NFS – National Financial Switch** | **Largest interoperable ATM network**; **links all ATMs** in India (not IBA, NSDL or RBI) |
