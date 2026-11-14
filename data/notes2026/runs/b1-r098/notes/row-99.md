@@ -24,7 +24,7 @@
 |---|---|
 | **Andhra Suratrana** | **Kapaya Nayaka** – first holder (APPSC PYQ; G2 2011 ×2; Welfare Officers) |
 | **Andhradesadhisvara** | Kapaya (earlier Kakatiya **Ganapatideva**) |
-| **Katakachurakara** | Kapaya |
+| **Katakachurakara** | Kapaya (NextGen p.4); ⚠ also a title of Reddi **Kataya Vema** (NextGen p.14) – used by both |
 - **⚠ Andhra Suratrana:** NextGen and Rocket give it **only to Kapaya**; one G2 2011 key gave **Anavema Reddi**, who is said to have used it later. **Kavirajamarga** is NOT Kapaya's title.
 # Kapaya and the Bahmanis
 | Year | Event |

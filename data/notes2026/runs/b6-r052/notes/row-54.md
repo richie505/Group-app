@@ -20,11 +20,11 @@
 - **ISA target**: mobilise **USD 1 trillion** of solar investment by 2030.
 # FATF grey list
 - **Kuwait and Papua New Guinea** added to the **grey list** ("Increased Monitoring"), total **22**; decided at the **5th FATF Plenary in Mexico**, chaired by **Elisa de Anda Madrazo**.
-- **FATF**: 1989 (G7), HQ **Paris**; members commonly given as **39** (Praveen CA-360 Mar 2026); **40 with Indonesia (Oct 2023)**, Russia's membership suspended.
+- **FATF**: 1989 (G7), HQ **Paris**; **40 members** (38 jurisdictions + **European Commission** + **GCC**; **Indonesia = 40th, Oct 2023**; some books still give 39); Russia's membership suspended.
 # GCC and Pacific
 - **GCC**: **1981**; **six** – UAE, Bahrain, Saudi Arabia, Oman, Qatar, Kuwait (**not Iraq**).
 - **Papua New Guinea**: PM **James Marape** – **first Pacific leader to address Australia's Parliament (8 February 2024)**.
-~~ Sources: PMF International Relations p.130 (NATO 1949, Article 5, 32 members, Finland and Sweden newest); nato.int 'Member countries' (fetched: joining years); Praveen CA-360 Mar 2026 magazine p.3 (FATF grey list, 39 members) and Jun 2026 magazine p.49 (FATF 40); antaranews.com (Indonesia 40th FATF member, fetched); pina.com.fj (Marape, 8 Feb 2024, fetched); app notes 6:54 (sub 7)
+~~ Sources: PMF International Relations p.130 (NATO 1949, Article 5, 32 members, Finland and Sweden newest); nato.int 'Member countries' (fetched: joining years); Praveen CA-360 Mar 2026 magazine p.3 (FATF grey list, 39 members) and Jun 2026 magazine p.49 (FATF 40); PMF Internal Security & DM 01 p.78 (FATF 40 members, Russia suspended); antaranews.com (Indonesia 40th FATF member, fetched); pina.com.fj (Marape, 8 Feb 2024, fetched); app notes 6:54 (sub 7)
 
 === Finland State Visit and Raisina Dialogue 2026
 # President Alexander Stubb's State Visit (4–7 March 2026)

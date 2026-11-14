@@ -9,7 +9,7 @@
 - **Channels:** labour supply, savings and investment, lower dependency ratio, human capital – a rising share of **dependants hurts** it.
 # India's numbers
 - Over **62%** aged 15–59 and more than 54% below 25; about **65% below 35** (2011).
-- In **2020** the average Indian was to be only **29 years** old (China and USA 37, West Europe 45, Japan 48) – the youngest major population. Median age **28** (SRS 2024), **40 by 2051**.
+- In **2020** the average Indian was to be only **29 years** old (China and USA 37, West Europe 45, Japan 48; parliamentary panel via PRS: median India 28.1, China 38.1, USA 37.3, Japan 48.2) – the youngest major population. Median age **28** (SRS 2024), **40 by 2051**.
 | Estimate | Window / peak |
 |---|---|
 | UNFPA | Longest in the world: **2005-06 to 2055-56**; opens at different times in different States |
@@ -31,7 +31,7 @@
 
 === Ageing and the Elderly
 - Elderly 60+: **8.6% (2011)** → **16% by 2041** → over 20% by 2050; median age 24 (2011) → 36 (2036) → **40 (2051)**.
-- Around 2020: India 28, China/US 37, **Japan 45**.
+- Around 2020 (median age): India **~28** (28.1; the popular quote rounds to 29), China/US 37–38, **Japan ~48** (48.2) – 45 is **Western Europe**, not Japan.
 - **NITI Aayog:** 70% of elderly depend on others; **78% have no pension** cover.
 - **Kerala** ageing fastest; youthful States **Bihar, UP, Jharkhand**.
 | Survey / index | By | Finding |

@@ -27,7 +27,7 @@
 | BRICS CONNECT | Capacity building, employability, skills |
 | Others | MSME Cooperation Portal, Incubator Network, GVC Action Plan 2026–2030 |
 # Side meetings in India (2026)
-- **14th BRICS STI Ministers' Meeting, Chennai** – "**Chennai Consensus**".
+- **14th BRICS STI Ministers' Meeting, Chennai** – "**Chennai Declaration**" (also called the "**Chennai Consensus**").
 - **BRICS Chief Justices Forum**: hosted by the **Supreme Court of India**, New Delhi, 4–6 Sep 2026.
 - **12th BRICS Parliamentary Forum**: **Central Hall of Samvidhan Sadan**, New Delhi, **26–27 Oct 2026**, inaugurated by Om Birla; Forum launched **2015**; old Parliament renamed **Samvidhan Sadan** on **19 September 2023**.
 # BRICS evolution
@@ -43,7 +43,7 @@
 | 2021 | 13th (virtual) under India |
 | 2026 | 18th, New Delhi – India's 4th chair |
 > Exam angle: edition/venue/chair recall; India's chair count (4th, not 5th); the 2016 Goa theme is a distractor for the 2026 theme.
-~~ Sources: Rocket CA 2026 Part 01 p.216, 218-220 (18th Summit, theme, 11 members/10 partners, 49.5%, declaration, Continuity mechanism), p.227; Rocket CA 2026 Part 02 p.1, 3, 74 (NDB Shanghai, Rousseff); Daily EM CA 23 Oct 2026 (BRICS Parliamentary Forum); app notes 6:52 (sub 1, 9)
+~~ Sources: Rocket CA 2026 Part 01 p.216, 218-220 (18th Summit, theme, 11 members/10 partners, 49.5%, declaration, Continuity mechanism), p.227; Rocket CA 2026 Part 02 p.1, 3, 74 (NDB Shanghai, Rousseff); Daily EM CA 23 Oct 2026 (BRICS Parliamentary Forum); Praveen CA-360 Sep 2026 magazine p.28 (Chennai Declaration, also called Chennai Consensus); app notes 6:52 (sub 1, 9)
 
 === SCO 2026 – Bishkek Summit and Dushanbe Heads of Government
 # 26th SCO Council of Heads of State

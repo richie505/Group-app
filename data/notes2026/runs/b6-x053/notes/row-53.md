@@ -42,7 +42,7 @@
 | **12th Labour and Employment Ministers** | **Hyderabad**, 15–16 Jul 2026 | ministerial declaration; **BRICS CONNECT** programme |
 | **Women Ministers** | **Kochi**, 8–9 Jul 2026 | – |
 | **3rd DRR Ministers** | **New Delhi**, Jul 2026 (NDMA, MHA) | Joint Statement; builds on **Udaipur (2016)** and **Kazan (2024)** declarations |
-| **14th STI Ministers** | **Chennai** | Chennai Declaration |
+| **14th STI Ministers** | **Chennai** | Chennai Declaration (also called Chennai Consensus) |
 # Working groups and other meetings
 | Meeting | City / date | Note |
 |---|---|---|
@@ -64,7 +64,7 @@
 | **Maitri** | **1989** |
 | **NCPOR**, **Vasco da Gama, Goa** | 1998 |
 | **Bharati** | **2012** |
-~~ Sources: Praveen CA-360 Aug 2026 magazine p.25-28 (Trade, Tourism, Culture, Environment, Education, Youth and Sports, Ocean and Polar, NSO, ICT, Anti-Corruption, STI Chennai; polar stations) and Jul 2026 magazine p.27-29 (Science Academies, Women, Transport, Labour, Prosecution, Geospatial, DRR ministers, Health); Praveen CA-360 Sep 2026 magazine p.28 (14th STI, Chennai Declaration); Praveen CA-360 Jun 2026 magazine p.30-31 (Puri DRR conference, Bengaluru space agencies); PMF LENS Aug 2026-01 p.37 (10th Industry Ministers, Jaipur) and p.46 (3rd DRR ministerial Joint Statement); PMF LENS Sep 2026-01 p.57 (PV Action Plan); Rocket CA 2026 Part 01 p.84 (Guwahati Declaration, 7 Jul 2026) and p.16 (NSO Lucknow); NCPOR year: general knowledge, not checked
+~~ Sources: Praveen CA-360 Aug 2026 magazine p.25-28 (Trade, Tourism, Culture, Environment, Education, Youth and Sports, Ocean and Polar, NSO, ICT, Anti-Corruption, STI Chennai; polar stations) and Jul 2026 magazine p.27-29 (Science Academies, Women, Transport, Labour, Prosecution, Geospatial, DRR ministers, Health); Praveen CA-360 Sep 2026 magazine p.28 (14th STI, Chennai Declaration, also called Chennai Consensus); Praveen CA-360 Jun 2026 magazine p.30-31 (Puri DRR conference, Bengaluru space agencies); PMF LENS Aug 2026-01 p.37 (10th Industry Ministers, Jaipur) and p.46 (3rd DRR ministerial Joint Statement); PMF LENS Sep 2026-01 p.57 (PV Action Plan); Rocket CA 2026 Part 01 p.84 (Guwahati Declaration, 7 Jul 2026) and p.16 (NSO Lucknow); NCPOR year: general knowledge, not checked
 
 === 52nd G7 Summit – Évian-les-Bains, June 2026
 # The Summit

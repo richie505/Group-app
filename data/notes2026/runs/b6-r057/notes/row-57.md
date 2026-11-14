@@ -174,7 +174,7 @@
 === G7, NATO, Quad and Bilateral Summits
 # G7 and NATO
 - **G7 members:** USA, UK, France, Germany, Italy, Japan, **Canada** (EU attends); **Netherlands** and **New Zealand** are **not** members.
-- **Russia** joined in **1997** (creating the **G8**); suspended in **2014** after Crimea.
+- **Russia** joined in **1997** (Denver "Summit of the Eight", creating the **G8**; formally a full member **1998**, Birmingham – many books: 1998); suspended in **2014** after Crimea.
 - **36th NATO Summit**: **Ankara, Türkiye, 7–8 July 2026**; defence spending **5% of GDP by 2035** = **3.5% core defence** + related spending.
 - NATO founded 1949; newest members **Finland (2023)** and **Sweden (2024)**.
 # Quad

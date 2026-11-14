@@ -14,7 +14,7 @@
 # G7 – 52nd Summit and background
 - **Macron invited Modi** to Évian during his visit to **Mumbai** on **17 February 2026**.
 - First **G6** summit: **Rambouillet (1975)**; **Canada** joined **1976** (G7).
-- **Russia** admitted **1998** (G8); **suspended 2014** after **Crimea**.
+- **Russia** admitted **1998** (full member, Birmingham; first joined the summit at Denver **1997**, when the **G8** name began – some books: 1997); **suspended 2014** after **Crimea**.
 - **51st G7**: **Kananaskis, Canada**, June 2025; the **US hosts the 53rd G7 (2027)**.
 # NATO Ankara Summit
 - The 2026 summit reaffirmed the **Hague commitment (2025)**: defence spending **5% of GDP by 2035** (3.5% core defence + 1.5% related).

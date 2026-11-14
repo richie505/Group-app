@@ -147,7 +147,7 @@
 | **Rajashri Ramani**, Vasantaraya | **Anavema** |
 | **Karpura Vasantaraya** | **Kumaragiri** |
 | **Sarvajna Chakravarti** | **Pedakomati Vema** |
-| Kataka Churakara | Kataya Vema |
+| Kataka Churakara | **Kataya Vema** (NextGen Reddis p.14); ⚠ NextGen p.4 also gives Katakachurakara to **Kapaya Nayaka** – title used by both |
 | **Andhra Suratrana** | **Kapaya Nayaka** (Musunuri) – first holder |
 | Kavisarvabhauma | Srinatha |
 | Kakatiya Rajya Sthapanacharya | Prasaditya (Recherla) |
