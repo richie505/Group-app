@@ -1,0 +1,137 @@
+=== National Emergency (Article 352) – Grounds, Proclamation, Approval
+# Grounds
+- Proclaimed by the **President** when the security of India or any part is threatened by **war, external aggression or armed rebellion** – also on **imminent danger**; for the whole of India or a part.
+- **44th Amendment, 1978** substituted "**armed rebellion**" for "**internal disturbance**" – internal disturbance / threat to internal peace is **no longer a ground**.
+- War / external aggression = "**External Emergency**"; armed rebellion = "**Internal Emergency**".
+# Proclamation
+- Only when the **Union Cabinet's decision is communicated in writing** – **Art. 352(3)**, inserted by the **44th Amendment** – not on the PM's or the Home Minister's advice alone, not suo motu, not on the CJI's advice.
+- The word "**Cabinet**" (mantrimandal) appears **only once** in the Constitution – in **Art. 352(3)**.
+- **Judicial review:** the 38th Amendment (1975) made the President's satisfaction **non-justiciable**; the **44th** removed that bar and **Minerva Mills (1980)** held a proclamation **reviewable** (mala fide / irrelevant grounds) – so "it cannot be challenged in any court" is **wrong**.
+# Approval, duration, revocation
+| Point | Rule |
+|---|---|
+| Approval | Both Houses within **one month** (two months till 1978) |
+| Majority | **Special majority** – 2/3 present and voting + majority of total membership, in each House separately (no joint sitting) |
+| Duration | **6 months** at a time, extendable **indefinitely** |
+| Lok Sabha dissolved | Survives **30 days** from the first sitting of the new Lok Sabha if Rajya Sabha has approved |
+| Revocation | President any time; **must** revoke if Lok Sabha disapproves by **simple majority** |
+| Special sitting | **1/10 of total Lok Sabha members** give written notice to the **Speaker** (President if not in session) → sitting within **14 days** |
+> Asked as: Article (352 – 9 PYQs); grounds / not a ground (internal disturbance – 9 PYQs); whose advice (written Cabinet decision – 6 PYQs); approval period (1 month – 4 PYQs); 44th Amendment changes; statements on approval/revocation.
+~~ Sources: NextGen Polity APPSC Part 23 (src/polity/nextgen-polity-appsc-23.txt) p.9-10; Laxmikanth 8th ed. Ch17 (src/polity/laxmikanth-indian-polity-01.txt) p.259-261, p.274; Rocket Polity (src/polity/rocket-polity-01.txt) p.10, p.117-119; app notes 2:52 sub 1
+
+=== President's Rule (Article 356) – State or Constitutional Emergency
+# Grounds and approval
+- Imposed when the President is satisfied, **on the Governor's report or otherwise**, that the government of a State **cannot be carried on in accordance with the Constitution** (Art. 356) or the State **fails to comply with Union directions** (Art. **365**).
+- Called "**State Emergency**" or "**Constitutional Emergency**" – it leads to **President's Rule / Governor's Rule**, not suspension of freedoms, salary cuts or mid-term polls.
+- **No consent** of the State Legislature; the Governor reports when **he is convinced** the government cannot run per the Constitution.
+| Point | Rule |
+|---|---|
+| Approval | Both Houses within **two months**, **simple majority** |
+| Each approval | **6 months** |
+| Maximum | **3 years** |
+| Beyond 1 year | Only if a **National Emergency is in operation AND the Election Commission certifies** elections cannot be held (Art. 356(5)) |
+| Revocation | President any time – **no parliamentary approval** |
+# Consequences
+| Organ | Effect |
+|---|---|
+| Executive | President assumes State functions; **Council of Ministers dismissed** (necessarily); **Governor** administers with advisers |
+| Legislature | Assembly **suspended or dissolved** (not necessarily dissolved); **Parliament** makes laws on State List matters for the State, or delegates to the President (**President's Acts**) |
+| Laws | Laws made during PR **continue** after it ends until altered by the State Legislature |
+| High Court | **Unaffected** |
+| Local bodies | **Not dissolved** |
+# Proper and improper use (Sarkaria → Bommai)
+- **Proper:** hung assembly; no party able to form a ministry; **constitutional direction of the Centre disregarded**; internal subversion; physical breakdown.
+- **Improper:** loss of majority without probing an alternative; no floor test; Lok Sabha defeat of the ruling party; **maladministration or corruption** of the ministry; intra-party problems.
+# Misuse debate
+- Used **more than 125 times**, often arbitrarily for political reasons – hence among the **most controversial** provisions.
+- **Dr. B.R. Ambedkar** hoped it would remain a "**dead letter**", used only as a **measure of last resort**.
+- **AP High Court (Dec 2020)** asked whether it could record a "breakdown of constitutional machinery" – **Art. 356**.
+> Asked as: Article (356 – 6 PYQs); maximum period (3 years); approval period (2 months); extension beyond 1 year (EC certificate + Emergency); consequences (statements); who reports (Governor); Ambedkar's "dead letter".
+~~ Sources: NextGen Polity APPSC Part 23 (src/polity/nextgen-polity-appsc-23.txt) p.10; Laxmikanth 8th ed. Ch17 (src/polity/laxmikanth-indian-polity-01.txt) p.265-270; Rocket Polity (src/polity/rocket-polity-01.txt) p.23, p.119; app notes 2:52 sub 3
+
+=== Scheme of Emergency Provisions – Three Emergencies Compared
+- **Part XVIII**, Arts **352-360**; source: **Government of India Act, 1935** (also the ordinance power, Arts 123/213); suspension of FRs from the **Weimar Constitution** (Germany).
+- The Constitution provides **three** emergencies; it has **no "President's Rule at Union level"**, though it does provide martial law (Art. 34) and special provisions for States (Art. 371 series).
+| Feature | National (352) | President's Rule (356) | Financial (360) |
+|---|---|---|---|
+| Ground | War, external aggression, armed rebellion | Failure of constitutional machinery in a State | Threat to financial stability or credit |
+| Approval within | **1 month** | **2 months** | **2 months** |
+| Majority | Special | Simple | Simple |
+| Duration | 6 months, indefinite | 6 months, max **3 years** | **No maximum** |
+| Effect on FRs | Yes (358/359) | None | None |
+| Used | **3 times** (1962, 1971, 1975) | 125+ times; first **Punjab 1951** | **Never** |
+- Federal statement + reason "Art. 352 deals with failure of constitutional machinery" → the reason is **false** (that is Art. 356).
+> Asked as: Articles 352-360; how many types (three); which emergency for which ground (SSC); what the Constitution does not provide.
+~~ Sources: Laxmikanth 8th ed. Ch17 (src/polity/laxmikanth-indian-polity-01.txt) p.259, p.267-268; Rocket Polity (src/polity/rocket-polity-01.txt) p.10, p.23; app notes 2:52 sub 0
+
+=== Effects of National Emergency – Fundamental Rights, Terms, State List
+# Article 358 vs Article 359
+| Basis | Article 358 | Article 359 |
+|---|---|---|
+| What | Suspends the **six freedoms of Art. 19** | Suspends the **right to move courts** for FRs named in the order |
+| How | **Automatic** | Needs a **Presidential Order** |
+| Ground | Only **war or external aggression** | Any National Emergency |
+| Limit | Only Emergency-related laws protected | **Arts 20 and 21 can never be suspended** (44th Amendment) |
+- FRs can be suspended **only during a National Emergency**, by the **President** – not by Parliament's law, a government notification, the PM or the Supreme Court.
+# Centre-State and terms
+- **Art. 250:** **Parliament** (not a minister) makes laws on **State List** subjects for any part of India; they lapse **6 months** after the Emergency.
+- **Lok Sabha term (Art. 83(2)):** Parliament **by law** may extend it **one year at a time**, not beyond **6 months** after the Emergency ends; same for State Assemblies.
+- **Art. 353** executive directions; **Art. 354** revenue distribution modified.
+> Asked as: who can suspend FRs (5 PYQs); Art. 359; Lok Sabha extension (2 PYQs); who legislates on the State List.
+~~ Sources: NextGen Polity APPSC Part 23 (src/polity/nextgen-polity-appsc-23.txt) p.9; Laxmikanth 8th ed. Ch17 (src/polity/laxmikanth-indian-polity-01.txt) p.261-264; app notes 2:52 sub 2
+
+=== Financial Emergency (Article 360)
+- Ground: threat to the **financial stability or credit of India** or any part; proclaimed by the **President**.
+- Approval within **two months**, **simple majority**; once approved it continues **indefinitely – no maximum period** – till revoked.
+- **Effects:** directions to States on **canons of financial propriety**; **reduction of salaries and allowances** of State employees and of all persons serving the Union **including Supreme Court and High Court judges**; State **Money and Financial Bills reserved** for the President – the Centre gains full control over States' finances.
+- **Never declared** so far (nearest: the 1991 crisis) – Art. 360 is the emergency "never implemented".
+> Asked as: statements (2-month approval true; "excluding judges" false – 3 PYQs); effects (all four); never declared; no maximum period.
+~~ Sources: NextGen Polity APPSC Part 23 (src/polity/nextgen-polity-appsc-23.txt) p.11; Laxmikanth 8th ed. Ch17 (src/polity/laxmikanth-indian-polity-01.txt) p.271-273; app notes 2:52 sub 6
+
+=== Instances of National Emergency and the 1975 Emergency
+| Instance | Date | Ground | President |
+|---|---|---|---|
+| 1st | **26 Oct 1962** | Chinese aggression (war) | S. Radhakrishnan |
+| 2nd | **3 Dec 1971** | Indo-Pak war (external aggression) | V.V. Giri |
+| 3rd | **25 June 1975** | "**Internal disturbance**" (while the 1971 one was still on) | **Fakhruddin Ali Ahmed** |
+- **Trigger of 1975:** the **Allahabad High Court** (12 June 1975, *Indira Nehru Gandhi v Raj Narain*) voided Indira Gandhi's 1971 election – not the railway strike, Nav Nirman or inflation, which were background.
+- **Twenty Point Programme:** launched by Indira Gandhi in **1975** during the Emergency; restructured 1982, 1986, 2006; monitored by **MoSPI**.
+- **25 June** – "**Samvidhan Hatya Diwas**" since 2025.
+> Asked as: how many times (3); date of the internal-disturbance proclamation (25 June 1975); trigger; 20-point programme year.
+~~ Sources: NextGen Polity APPSC Part 23 (src/polity/nextgen-polity-appsc-23.txt) p.9; Laxmikanth 8th ed. Ch17 (src/polity/laxmikanth-indian-polity-01.txt) p.264; app notes 2:52 sub 1
+
+=== President's Rule in Andhra Pradesh and Other States
+| Spell | Period | Context |
+|---|---|---|
+| Andhra State | Nov 1954 – Mar 1955 | Fall of the Prakasam ministry |
+| AP 1st (longest) | **18 Jan 1973 – 10 Dec 1973** | **Jai Andhra** agitation; CM **P.V. Narasimha Rao** resigned; ended when **Jalagam Vengala Rao** became CM; Six-Point Formula → **32nd Amendment** (Art. 371D) |
+| AP 2nd | 1 Mar 2014 – 8 Jun 2014 | CM **Kiran Kumar Reddy** resigned over bifurcation |
+- **First PR in India:** Punjab, **1951**; **never under PR:** Chhattisgarh and Telangana.
+- **Most times:** **Manipur – 11** (latest Feb 2025), then **Uttar Pradesh – 10**.
+- **Longest total period:** **Jammu & Kashmir** (~12¾ years); among States, **Punjab** (~10½ years, incl. the continuous 1987-92 spell).
+- **Manipur:** PR from **13 Feb 2025** after **N. Biren Singh** resigned; revoked **4 Feb 2026** – **Yumnam Khemchand Singh** sworn in as CM.
+- **J&K:** under the former State Constitution (s.92) the **Governor** imposed Governor's Rule for 6 months, followed by President's Rule under Art. 356; since the **J&K Reorganisation Act, 2019** the UT comes under President's Rule by the **President (s.73)**.
+> Asked as: AP CM at the 1973 PR; State longest under PR; Manipur CM; J&K.
+~~ Sources: NextGen Polity APPSC Part 23 (src/polity/nextgen-polity-appsc-23.txt) p.10; newsonair.gov.in "President's Rule revoked in Manipur" (4 Feb 2026); en.wikipedia.org/wiki/Yumnam_Khemchand_Singh; Indpaedia "President's rule: India" (J&K 4,668 days, Punjab 3,878 days); J&K Reorganisation Act, 2019 s.73 (indiacode.nic.in); app notes 2:52 sub 4
+
+=== S.R. Bommai v Union of India (1994) and Other Cases
+- **9-judge bench**; the landmark case on **Art. 356** and **Centre-State relations**.
+- Proclamation is subject to **judicial review**; majority to be tested on the **floor of the Assembly**; Assembly only **suspended** until Parliament approves; court may **restore** a dismissed government.
+- **Secularism and federalism** are **basic features**.
+| Case | Year | Ruling |
+|---|---|---|
+| ADM Jabalpur | 1976 | Right to life unenforceable in Emergency – overruled by **K.S. Puttaswamy (2017)** |
+| Minerva Mills | 1980 | Art. 352 proclamation reviewable |
+| **S.R. Bommai** | **1994** | Art. 356 – review, floor test, secularism + federalism |
+| Rameshwar Prasad | 2006 | Bihar Assembly dissolution struck down |
+| Kesavananda Bharati | 1973 | Basic structure |
+~~ Sources: Laxmikanth 8th ed. Ch17 (src/polity/laxmikanth-indian-polity-01.txt) p.268-270; Rocket Polity (src/polity/rocket-polity-01.txt) p.59, p.110; app notes 2:52 sub 5
+
+=== Amendments on Emergency
+| Amendment | Change |
+|---|---|
+| 38th (1975) | President's satisfaction made non-justiciable |
+| 39th (1975) | Election disputes of PM and Speaker beyond courts |
+| 42nd (1976) | "Mini-Constitution"; Lok Sabha/Assembly terms 6 years |
+| **44th (1978)** | "Internal disturbance" → "**armed rebellion**"; **written Cabinet decision**; approval **1 month**; special majority; Lok Sabha disapproval; Art. 358 only for war/external aggression; Arts 20, 21 beyond Art. 359 |
+~~ Sources: Laxmikanth 8th ed. Ch17 (src/polity/laxmikanth-indian-polity-01.txt) p.274; app notes 2:52 sub 7

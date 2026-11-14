@@ -1,0 +1,134 @@
+=== Jahangir (1605-27) – Events of the Reign and Nur Jahan's Junta
+# Jahangir – key events
+- **Accession:** Prince **Salim** (named after **Sheikh Salim Chishti** of Sikri; mother Jodha Bai/Harkha Bai), revolted against Akbar c. 1599-1604; crowned **1605** as **Nur-ud-din Muhammad Jahangir**.
+| Event | Fact |
+|---|---|
+| **Khusrau's revolt** | Eldest son (mother **Man Bai = Shah Begum**) rebelled **1606**; defeated near Lahore, imprisoned, blinded |
+| **Guru Arjan Dev** (5th Guru) | Executed **1606** for backing Khusrau |
+| **Mewar – Treaty of Chittor** | **1615**: Rana **Amar Singh** submitted; Mewar and Chittor returned; son **Karan Singh** made a mansabdar |
+| Deccan | 1616: Khan-i-Khanan beat Ahmadnagar, Bijapur, Golconda with Maratha sardars; Malik Ambar rose |
+| Kangra | Annexed **1620** |
+| **Kandahar** | Lost to Persia (**Shah Abbas I**) in **1622** – NOT annexed by Jahangir |
+| **Khurram's revolt** | **1622-26**; ordered to Kandahar, refused; Nur Jahan backed **Shahryar** |
+| **Mahabat Khan's coup** | **1626**: seized Jahangir on the **Jhelum** |
+| English | **Hawkins 1608-09**, factory at **Surat 1613**, **Roe 1615-19** |
+- **Rebels against Jahangir:** **Khusrau, Khurram, Mahabat Khan** – NOT **Asaf Khan** (UPPSC 2013).
+- **Events of Jahangir's reign (APPSC G1):** Arjan Dev's execution, Mewar's submission, the English arrival – **"annexation of Kabul and Kandahar" is the trap**.
+- **Shah Begum (Man Bai, Manbhawati Bai)** – Jahangir's Rajput wife, mother of Khusrau – **committed suicide (opium), 1605** over the father-son quarrel (UPPSC 2008).
+- **Orchha:** Bundela **Bir Singh Deo** of Orchha was Salim's ally (killed Abul Fazl, 1602, for him); the **Jahangir Mahal** at Orchha was built for him – the printed key for "fort where Jahangir took shelter".
+- Chain of justice; **Tuzuk-i-Jahangiri**; lived mostly at Lahore; painting at its zenith; pietra dura began.
+# Kandahar not recaptured under Jahangir (CDS 2000)
+- Khurram **refused to go**, an expedition was **hard to organise**, the **cold** of Afghanistan – (printed key II, III, IV).
+# Nur Jahan and the junta
+- **Mehr-un-Nisa** (Mehrunnisa), born **1577** at Kandahar; daughter of **Mirza Ghiyas Beg**; widow of **Sher Afghan**; married Jahangir **1611**; titles **Nur Mahal → Nur Jahan** ("Light of the World"), **Padshah Begum**; pen name **"Makhfi"**.
+- **Childhood name = Mehr-un-Nisa** ("Maharul Nisa" in APPSC's option) – the APPSC key's **"Bahu Begam" is wrong**.
+- **Name on coins and farmans** – the only Mughal consort with this privilege; built the **Tomb of Itimad-ud-Daulah, Agra** for her father.
+| Junta member (five) | Relation |
+|---|---|
+| Nur Jahan | Empress |
+| Asmat Begum | Mother |
+| **Ghiyas Beg – Itimad-ud-Daulah** | Father; Jahangir's diwan |
+| **Asaf Khan** | Brother; Shah Jahan's father-in-law |
+| **Prince Khurram** | Married her niece **Arjumand Banu Begum (1612)** |
+- **NOT junta members: Jahangir himself and Mahabat Khan.**
+| Emperor | Diwan |
+|---|---|
+| Akbar | Muzaffar Khan (Turbati) |
+| Jahangir | Itimad-ud-Daulah (Ghiyas Beg) |
+| Shah Jahan | Sa'adullah Khan |
+| Aurangzeb | Asad Khan |
+> Ask types: junta "NOT a member" (×4), events of the reign (statements), rebels, Nur Jahan's name.
+~~ Sources: NextGen Indian History APPSC 04 p.28-29; PMF Ancient & Medieval 04 p.107; old app notes 1:131 (sub 0-1); Mehr-un-Nisa – Britannica "Nur Jahan"
+
+=== Shah Jahan's Family, Titles and Court
+| Person | Relation / title / fate |
+|---|---|
+| **Jagat Gosain** | Jahangir's Rathor wife; **mother of Shah Jahan** |
+| **Mumtaz Mahal** | **Arjumand Banu Begum**, Asaf Khan's daughter; died 1631; buried in the **Taj Mahal** |
+| **Jahanara** | Eldest daughter; backed Dara; nursed captive Shah Jahan; **"Sahibat-uz-Zamani"** (from Aurangzeb) |
+| **Roshanara** | Backed Aurangzeb; **Padshah Begum** |
+| **Dara Shikoh** | Eldest son, heir; titles **"Shah-i-Iqbal" / "Shah Buland Iqbal"** (Shahzada-e-Buland Iqbal); Persian translations (Upanishads – **Sirr-i-Akbar**; Yogvashishta, Gita) |
+| **Sulaiman Shikoh** | Dara's son; refuge with **Prithvi Shah of Srinagar Garhwal**; handed over by Medini Shah; jailed at Gwalior |
+| Aurangzeb's daughters | **Zeb-un-Nisa, Zinat-un-Nisa, Mehr-un-Nisa**, Badr-un-Nisa, Zubdat-un-Nisa – Jahan Ara, Roshan Ara, Gauhar Ara were **Shah Jahan's** daughters |
+- Father-son pairs: Babur – Kamran; Akbar – Salim; **Jahangir – Khusrau**; **Shah Jahan – Murad**.
+# Shah Jahan (1628-58)
+- Crowned at **Agra, 1628**; early revolts: Bundela **Jujhar Singh**, **Khan Jahan Lodi**; Portuguese beaten at **Hughli (1632)** for trading abuses.
+- **Capital shifted from Agra to Shahjahanabad (Delhi), 1638-48**; Red Fort, Jama Masjid, **Taj Mahal** (for Mumtaz – not Jodha Bai or Nur Jahan); **Peacock Throne** (taken by **Nadir Shah, 1739**); reign = "golden age" of architecture.
+- **Poet laureate: Abu Talib Kalim (Kaleem)**; official historian **Abdul Hamid Lahori – Padshahnama**; **Inayat Khan – Shahjahannama**.
+- **Captivity:** deposed 1658 and kept in **Agra Fort** (nursed by Jahanara) till death in **1666** – Aurangzeb imprisoned his father for life.
+| Work | Author / reign |
+|---|---|
+| Padshahnama | Abdul Hamid Lahori (Shah Jahan) |
+| Adab-i-Alamgiri | Aurangzeb's letters – incl. the father-son money dispute |
+| Fatawa-i-Alamgiri | Compiled under **Aurangzeb**, not Shah Jahan |
+~~ Sources: NextGen Indian History APPSC 04 p.29-30; NextGen Indian History APPSC 05 p.14; PMF Ancient & Medieval 04 p.110-112; old app notes 1:131 (sub 3-4)
+
+=== War of Succession (1657-59)
+| Prince | Post in 1657 | Fate |
+|---|---|---|
+| **Dara Shikoh** | Heir, at court (backed by Jahanara) | Lost Samugarh, Deorai; betrayed by **Malik Jiwan of Dadar**; executed 1659; **buried in Humayun's Tomb, Delhi** |
+| Shah Shuja | Bengal | Fled to **Arakan** |
+| **Aurangzeb** | Deccan (backed by Roshanara) | Won; crowned 1658 and 1659 |
+| Murad Bakhsh | Gujarat-Malwa | Jailed in **Gwalior**, executed **1661** |
+
+| Battle | Place | Result |
+|---|---|---|
+| **Bahadurgarh** (Feb 1658) | Near **Banaras** | Sulaiman Shikoh beat **Shuja** |
+| **Dharmat** (15 Apr 1658) | Near **Ujjain (MP)** | Aurangzeb + Murad beat **Jaswant Singh** (Dara's general) |
+| **Samugarh** (29 May 1658) | Near Agra | **Dara** beaten – decisive |
+| Khajwa (Jan 1659) | Near Fatehpur (UP) | Shuja beaten |
+| **Deorai** (Mar 1659) | Near **Ajmer** | Dara's final defeat |
+- **Order:** Banaras (Shuja) → Dharmat → Samugarh → Deorai (UPPSC 2022: 2, 4, 3, 1).
+- **Dharmat** = Aurangzeb vs Dara's forces (not Ghori–Jai Chand, Babur–Afghans, Abdali–Marathas).
+- Aurangzeb took the throne by force – **no rule of primogeniture** (Timurid coparcenary custom).
+- **Francois Bernier** witnessed Dara's humiliation in Delhi (1659); Manucci was Dara's artilleryman.
+~~ Sources: NextGen Indian History APPSC 04 p.29-30; PMF Ancient & Medieval 04 p.110; old app notes 1:131 (sub 7)
+
+=== Europeans at the Mughal Court
+| Visitor | Facts |
+|---|---|
+| **William Hawkins** | English (EIC); reached Surat **1608** on the **Hector**; Agra 1609; mansab and title "English Khan"; no farman |
+| Captain **Best** | Beat the Portuguese off Surat (Swally) 1612 → English factory at **Surat 1613** |
+| **Sir Thomas Roe** | Ambassador of **James I** to **Jahangir** (not Akbar); came **1615** (Surat, Sept 1615), stayed till 1619; received at **Ajmer (Jan 1616)**; followed Jahangir **from Ajmer to Mandu**; won factory rights |
+| **Pelsaert** (Dutch) | Came 1620 under Jahangir |
+| **Peter Mundy** (English) | Shah Jahan's reign |
+| **Tavernier** (French) | Shah Jahan and Aurangzeb; described the Peacock Throne |
+| **Bernier** (French physician) | 1656-68; physician to Dara, then Danishmand Khan |
+| **Manucci** (Venetian) | Came 1656; artilleryman of Dara; later practised as a **physician** in Mughal service (Shah Alam); **Storia do Mogor** |
+| **Thevenot** (French) | Reached Surat **1666** – Aurangzeb's reign |
+- **Wrong pair (UPSC 1999):** "Akbar – Thomas Roe"; right: Jahangir – Hawkins, Shah Jahan – Tavernier, Aurangzeb – Manucci.
+- **Came under Aurangzeb:** **Thevenot (1666)**, Fryer, Careri – not Hawkins/Roe (Jahangir), Monserrate (Akbar), Mundy (Shah Jahan).
+- **Match (UPPSC 1997):** Firuz Tughlaq – canals; Balban – Nauroz; Alauddin – Diwan-i-Riyasat; **Jahangir – Thomas Roe**.
+- First Mughal–English clash: **1686** (Aurangzeb) – **Shaista Khan** drove **Job Charnock** out of **Hooghly** (Child's War).
+| Visitor | Ruler |
+|---|---|
+| Fa-Hien | Chandragupta II |
+| Hiuen-Tsang | Harsha |
+| Ibn Battuta | Muhammad bin Tughluq |
+| Portuguese (Paes, Barbosa) | Krishnadeva Raya |
+~~ Sources: NextGen Indian History APPSC 05 p.15; NextGen Indian History APPSC 06 p.9-10; PMF Ancient & Medieval 04 p.110-111; old app notes 1:131 (sub 2)
+
+=== Central Asian Policy – Kandahar and Balkh
+| Campaign | Commander | Result |
+|---|---|---|
+| Kandahar recovered, **1638** | Persian governor **Ali Mardan Khan** surrendered it | Mughal gain (lost 1622 → regained 1638) |
+| **Balkh-Badakhshan, 1646-47** | **Murad Bakhsh, then Aurangzeb** (not Dara) | Failed, heavy losses |
+| Kandahar lost, **1649** | – | To Persia (Shah Abbas II) |
+| Sieges 1649, 1652 | Aurangzeb | Failed |
+| Siege **1653** | **Dara Shikoh** | Failed – Kandahar lost for good |
+- **Aim of the Balkh campaign:** to set up a **friendly ruler in Balkh and Badakhshan, which bordered Kabul** – not to conquer Samarqand/Farghana or fix the Amu Darya "scientific line" (UPSC 2002).
+- **Kandahar:** frontier fortress on the routes India–Persia–Central Asia – its loss was a blow as a **strategic stronghold** (UPSC 1998).
+- **UPSC 1998 A-R:** Dara led only the **Qandahar** siege (1653); Balkh-Badakhshan were Murad and Aurangzeb; the expeditions **failed** – so R is false.
+~~ Sources: NextGen Indian History APPSC 04 p.29; PMF Ancient & Medieval 04 p.110; Satish Chandra, Medieval India II (Balkh aim); old app notes 1:131 (sub 5)
+
+=== Deccan Policy of Shah Jahan
+- **1633:** **Daulatabad** fell to Mahabat Khan when **Fath Khan** (son of **Malik Ambar**) surrendered it – Malik Ambar had **died in 1626**; **1636:** Nizam Shahi **Ahmadnagar** extinguished.
+- **1636 ahdnamas** with **Bijapur and Golconda**: Mughal suzerainty, tribute, Mughal arbitration; Golconda's **Inqiyad Nama** (Abdullah Qutb Shah) put Shah Jahan's name in **khutba and coins**.
+- Four Deccan subas: **Khandesh, Berar, Telangana, Daulatabad**.
+- **Aurangzeb – viceroy of the Deccan** for most of the reign: **1636-44** and **1652/53-58**; attacked Golconda in **1656**, urged by **Mir Jumla**.
+| Kingdom | Annexed | Last ruler |
+|---|---|---|
+| Bijapur | 1686 | Sikandar Adil Shah |
+| Golconda | 1687 | Abul Hasan Tana Shah – exiled to Daulatabad |
+- AP angle: Jahangir's envoy to Golconda **Mir Makki**; Tana Shah employed **Madanna and Akkanna** and helped Shivaji.
+~~ Sources: NextGen Indian History APPSC 04 p.29; PMF Ancient & Medieval 04 p.110; old app notes 1:131 (sub 6)

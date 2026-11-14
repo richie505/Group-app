@@ -1,0 +1,47 @@
+=== Machilipatnam – the Great Port of the Qutb Shahis
+- **Machilipatnam (Masulipatnam)** = the **most famous port town for (handloom) textile trade in the 16th-17th centuries** and the **chief trading centre of Andhra with the world before the 19th century** – not Motupalli, Visakhapatnam, Narsapur, Korangi or Bheemunipatnam.
+- Under **Golconda** in the 1600s it was famous for **textiles and diamonds** (also rubies) – not silver, gold or platinum.
+- Principal maritime gateway of the **Qutb Shahis**; passed to the Mughals when **Aurangzeb annexed Golconda (1687)**; **Komatis** were the key merchant community.
+- Ptolemy's **Maisolia (Mysolia)**, the "great market" = Machilipatnam (Kantakossyla = Ghantasala).
+- **First English factory in South India = Masulipatam, 1611** (Vizagapatam came in 1682).
+| Export | Centre |
+|---|---|
+| **Chintz** (glazed, brighter after washing), palampores, kalamkari | Machilipatnam |
+| **Saltpetre** | Machilipatnam, Narsapur, Pulicat |
+| Diamonds, rubies | **Golconda** mines; Koh-i-Noor from **Kollur** (Guntur) |
+| Silk and cotton piece-goods | **Bengal** |
+| Indigo | **Nagulavancha**, Nalgonda |
+| Salt | **Pedaganjam, Chinaganjam** |
+| Cheap calico | **Narasapuram** |
+| Taanis | **Injaram** |
+| Rumaals (kerchiefs) | **Nellore** |
+- Textiles = dominant industry, second only to diamonds in the Qutb Shahi economy; **pintado** = printed textile; English purchases were financed with **bullion**.
+- Imports: **horses** from Ormuz/Persia, **elephants** from Ceylon, **camphor** from Punjab – credited to the Reddi-period merchant **Avachi Tippaya Setti**.
+~~ Sources: NextGen Modern India L3 Part 1 p.13, 19; NextGen Qutb Shahis p.8; NextGen AP History - APPSC Part 15 (src/ap-history/ap-history-appsc-15.txt) p.22 (Machilipatnam, Narsapur trade lists); old app notes row 158
+
+=== Ports Before the Europeans – Motupalli and Ghantasala
+- **Motupalli (Desiyakondapattanam)**, now in Bapatla district = the **most important seaport of the Kakatiya kingdom** – not Machilipatnam (Qutb Shahi port), Kakinada, Nellore or Dharanikota.
+- **Marco Polo** visited it in **1287** under **Rudrama Devi**; **Ganapatideva's Abhaya Sasanam** protected foreign traders; Reddi minister **Somaya** issued another; **Anavota Reddi** lifted customs duties.
+- **Haravilasam** of **Srinatha**, dedicated to **Avachi Tippaya Setti**, describes the **sea trade of the Reddi period** – not Kashikhandam, Harivamsa or Bhimeswara Purana.
+- **Roman coins** in Andhra: **Bhattiprolu** (NextGen previous-paper key), Nagarjunakonda, Vinukonda, Vijayawada, Attirala, Salihundam; **Ghantasala** (Ptolemy's **Kantakossyla**) and **Koddura** were the Satavahana ports of Indo-Roman trade.
+- **Penugonda** = central trade centre of medieval Andhra.
+~~ Sources: NextGen Previous Papers (src/ap-history/nextgen-previous-papers.txt) p.39 (Roman coins – Bhattiprolu; Motupalli Abhaya inscription); Rocket AP History (Roman coins at Bhattiprolu and Nagarjunakonda); NextGen AP History - APPSC Part 2 p.10 (Roman coin sites); NextGen Satavahanas p.20 (Kantakasela = Ghantasala); NextGen Post-Kakatiyas (src/ap-history/nextgen-09-post-kakatiyas.txt) p.10 (Haravilasam – trade); old app notes row 158
+
+=== Shipbuilding – Narasapuram
+- **Narasapuram / Narsapur** (West Godavari, Godavari delta) = the **chief shipbuilding centre of coastal Andhra in the 16th-17th centuries** – not Machilipatnam, Kakinada (Cocanada), Nagapattinam, Quilon or Madras.
+- **Methold** described large, strongly built ships there under the Qutb Shahis; good timber and a sheltered river mouth.
+- **Corangi** = a Company-era shipbuilding site; **odaberam** = sea-going ships (Shuka Saptati).
+~~ Sources: NextGen AP History - APPSC Part 15 p.22 (ships and boats: Narasapuram, Machilipatnam); old app notes row 158
+
+=== Other European Trade Centres – Madapollam, Bheemunipatnam, Yanam
+| Centre | Power | Note |
+|---|---|---|
+| **Madhavayapalem (Madapollam)**, near Narsapur | **English** (not French) | Cloth factory; gave "madapollam" cloth its name – a leading textile centre of the 17th-18th centuries |
+| Nizampatnam (Petapoli) | Dutch and English | Early 17th century |
+| **Bheemunipatnam (Bhimili)** | Dutch → English | Dutch cemetery tombs from **1661**; Dutch fort allowed after Maratha plunder (1754); **first municipality in Andhra (1861)** |
+| Vizagapatnam | English | **1682** |
+| Pulicat | Dutch (1610) | Fort Geldria; **Nagapattinam** = Dutch HQ from 1690 |
+| **Yanam** | French | 1723; joined India **1954**, de jure **1962**; now part of the **UT of Puducherry** |
+- Other textile centres: Injaram, Maddepalem, Bandamurlanka, Tuni, Kakinada, Coringa, Gollapalem; Berhampur silks, Srikakulam muslins (**Pochampally** ikat is a later, Telangana centre).
+- Today: new ports at **Machilipatnam, Mulapeta, Ramayapatnam, Kakinada SEZ**; proposed **Nizampatnam and Vodarevu** under the **PPP-BOOT** model.
+~~ Sources: NextGen Modern India L3 Part 1 p.19; https://en.wikipedia.org/wiki/Madapollam; NextGen Modern India L2 Part 1 p.7, 9; old app notes row 158

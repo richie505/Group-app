@@ -869,3 +869,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Outdated y53b36635d47 Sierra Leone cleaning day (first Saturday since May 2018).
 - ~135 general-knowledge keys (book-author, UN days). Unverified: ye451ff097bb, yb8e204f886b, y069e0d2717c, yd1ca5f6505d.
 - Idiom/soliloquy/Spanish alphabet PYQs parked in row 109 (no language row).
+
+## Cleanup pass — place jobs
+- b2-p000: row 12 new sub "AP Endowments Act 1987" (officer roles from printed keys only). Unverified y549c5c5d5f3, ya5eff74bb24 arguable; y0744c1a550c unkeyed.
+- b1-p000: row 21 new subs (Mahabharata, Ramayana, Bhagavata). Doubtful keys: fe7f8627e8bea Ajivika founder "Nanda Vachcha" (exam answer Makkhali Gosala); ya057ea9603d Hastinapura "Delhi" (Meerut); ya1726593503 Bhairavakona "Prakasam" (Nellore border).
+- b5-p001: row 1 split into 9 new subs (11–19). Sub 16 "off-syllabus" ~36 items (drop?). Doubtful keys: y031076e6a98 Aschelminthes, y41af186e3ac holography, y27cd464def4 arsenic, y7e637ce6564 one eye 2D; y24eb1a53178 unkeyed; butter gel vs emulsion.
