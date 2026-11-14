@@ -35,6 +35,8 @@
 | IRDAI | Insurance |
 | PFRDA | Pensions |
 | IFSCA | Exchanges in GIFT City IFSC |
+- **Entities SEBI regulates:**
+
 | Regulated by SEBI | Notes |
 |---|---|
 | Market Infrastructure Institutions (MIIs) – stock exchanges, clearing corporations, depositories | NSE, BSE; NSDL, CDSL |
@@ -85,6 +87,8 @@
 | Ketan Parekh (2001) | Badla ended; rolling settlement |
 | Satyam (2009) – "India's Enron" | Audit and board reforms in the Companies Act 2013; NFRA |
 | Sahara OFCDs | Private placement capped at **50 investors** |
+- **SEBI-appointed and related committees:**
+
 | Committee | Subject |
 |---|---|
 | K.M. Birla (1999) | Corporate governance; **Clause 49** of the listing agreement |
