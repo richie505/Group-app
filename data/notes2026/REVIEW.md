@@ -782,3 +782,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y42c8335efb2 APPSC G1 INS Anjadip last CO: O.P. Bansal → Cdr Siddhartha Panda (Bansal was ENC C-in-C; web excerpts only) — owner confirm.
 - Own MCQ ca85854da4adab AI Impact Summit 16–20 kept, dispute (16–21). AdFalciVax MCQs say "vaccine" — is a candidate (TRL 4).
 - MANAV expansion doubtful. ye01442028c1 semiconductor PYQ options lost location column — needs repair.
+
+## b6-r075 (CA row 75 S&T overview)
+- No key changes. Dispute y3566e59999d AAYU "medication" misprint (meditation).
+- Unverified: y4c834168615 RateMyStay CHRIST, yb543b61bc27 e-cinema hub 2004, y083e46316ce RAKSHAK.
+- Agni-IV MRBM (PMF) vs IRBM (Praveen); own MCQ ncb5fa648bf9 keyed MRBM.
