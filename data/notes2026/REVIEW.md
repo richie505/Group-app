@@ -1158,3 +1158,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w047 (rows 47–53)
 - own 415 → 77 kept + 82 new (159, 38%); new 53 statements / 19 match / 10 A–R; 5 of 299 lines lost. No wrong notes/keys.
 - nindian-polity-44-19 (6-month gap between sessions) not in notes — removed; notes gap (Art. 85).
+
+## rewrite b3-w068 (rows 68–73)
+- own 413 → 41 kept + 107 new (148, 36%); new 73 statements / 23 match / 11 A–R; no lines lost. No wrong notes/keys.
