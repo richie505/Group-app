@@ -1391,3 +1391,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b3-w099 (rows 99–105)
 - own 399 → 69 kept + 103 new (172, 43%); new 61 statements / 22 match / 20 A–R; no lines lost.
 - PYQ y9adefa21c3e (subsidies % of GDP 2002-03) keyed "7.0"; notes 102:4:2 and PYQ y476e4314539 say 1.6% (Centre's major subsidies) — check; 7.0 may be combined Centre+States explicit+implicit.
+
+## rewrite b1-w218 (rows 218–224)
+- own 381 → 68 kept + 75 new (143, 38%); new 43 statements / 20 match / 11 A–R / 1 sequence; 3 of 243 lines lost.
+- n1f8ba478a54 (PM-KISAN extension Aug 2026; notes 31 July 2026) replaced with fix. ffe2a77f818af (5 options) removed.
+- Notes conflicts: Challapalli temple land 6,000 vs 600 acres (218:5:0.1); Poona Pact seats 147/148 (standard 148); Comrades Association 1939/1940 — reconcile.
+- Removed as not in notes: n6061c3c1c7d (Muddiman Committee), nap-history-40-6 (Osmania).

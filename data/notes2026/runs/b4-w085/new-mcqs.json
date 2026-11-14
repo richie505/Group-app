@@ -244,12 +244,12 @@
   "row": 85,
   "s": "Consider the following statements:\n1. China produces over half of the world's steel and India ranks second.\n2. India's steel capacity target is 300 MT by 2030.\n3. The revised Index of Core Industries with base 2022-23 has eight industries.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
    "Only one",
+   "Only two",
    "All three",
    "None"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1 and 2 are correct. 3 is wrong: iron ore was added to the revised Index (base 2022-23), making nine core industries.",
   "src": "app",
   "tq": "statements"
@@ -260,11 +260,11 @@
   "s": "Consider the following statements about the location of Indian industry:\n1. Access to water is one of the factors of industrial location.\n2. The aluminium industry is primarily oriented towards power.\n3. Market-based industries locate near consumers because their products are weight-losing and perishable.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 2 are correct: water is listed with raw material, power, market, labour and policy; aluminium (14,000–15,000 kWh per tonne) is power-oriented. 3 is wrong: market-based industries (bakery, soft drinks, refineries) make weight-gaining or fragile products.",
   "src": "app",
   "tq": "statements"
@@ -290,11 +290,11 @@
   "s": "Consider the following statements:\n1. Footloose industries such as diamond polishing, electronics assembly and software use light inputs and have negligible transport costs.\n2. Bengaluru and Hyderabad are clusters of footloose industries.\n3. Cotton loses weight in processing, so cotton textile mills are tied to cotton-growing areas.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
+   "None",
    "All three",
-   "Only two",
-   "None"
+   "Only two"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1 and 2 are correct. 3 is wrong: cotton is a pure material that loses no weight, so cotton mills can be anywhere between source and market and cotton textiles are spread all over India.",
   "src": "app",
   "tq": "statements"
@@ -529,12 +529,12 @@
   "row": 87,
   "s": "Match List-I (Steel plant) with List-II (River):\nList-I | List-II\na. Rourkela | i. Subarnarekha–Kharkai confluence\nb. Bokaro | ii. Barakar\nc. TISCO, Jamshedpur | iii. Koel and Sankh\nd. IISCO, Burnpur | iv. Damodar–Bokaro confluence\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-ii, d-iii",
    "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
    "a-iii, b-ii, c-i, d-iv",
-   "a-iii, b-iv, c-i, d-ii"
+   "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Rourkela – Koel and Sankh (Odisha); Bokaro – Damodar–Bokaro confluence (Jharkhand); TISCO – Subarnarekha–Kharkai confluence at Sakchi; IISCO Kulti-Burnpur – Barakar (West Bengal).",
   "src": "app",
   "tq": "match"
@@ -619,12 +619,12 @@
   "row": 87,
   "s": "Match List-I (Scheme) with List-II (Fact):\nList-I | List-II\na. PLI for Specialty Steel | i. ₹455 crore till 2029-30\nb. National Green Hydrogen Mission (steel pilots) | ii. ₹33,660 crore\nc. BHAVYA | iii. ₹25,938 crore\nd. PLI-Auto | iv. Approved in 2021\nSelect the correct answer using the codes given below:",
   "o": [
+   "a-i, b-iii, c-ii, d-iv",
    "a-i, b-iv, c-ii, d-iii",
-   "a-iv, b-i, c-ii, d-iii",
    "a-iv, b-i, c-iii, d-ii",
-   "a-i, b-iii, c-ii, d-iv"
+   "a-iv, b-i, c-ii, d-iii"
   ],
-  "a": 1,
+  "a": 3,
   "x": "PLI for Specialty Steel – approved 2021; Green Hydrogen Mission – ₹455 crore for steel pilots till 2029-30; BHAVYA – ₹33,660 crore; PLI-Auto – ₹25,938 crore.",
   "src": "app",
   "tq": "match"
@@ -635,11 +635,11 @@
   "s": "Consider the following statements about the Indian steel industry and emissions:\n1. Indian steel emits about 2.54 tonnes of CO2 per tonne, against a world average of about 1.9.\n2. Steel accounts for about a quarter of India's CO2 emissions.\n3. A draft notification brings the iron and steel sector under the Carbon Credit Trading Scheme.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1, 2 and 3",
    "2 and 3 only",
-   "1 and 3 only"
+   "1 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: steel is about 10–12% of India's CO2 emissions; the EU CBAM is the export exposure.",
   "src": "app",
   "tq": "statements"
@@ -695,11 +695,11 @@
   "s": "Consider the following statements about the aluminium industry:\n1. BALCO at Korba gets its bauxite from Lohardaga.\n2. HINDALCO at Renukoot gets its bauxite from Lohardaga.\n3. NALCO's refinery is at Damanjodi (Koraput) and its smelter at Angul.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
-   "3 only",
    "2 and 3 only",
+   "3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "2 and 3 are correct. 1 is wrong: BALCO (Korba, Chhattisgarh – not Raipur) gets bauxite from Amarkantak.",
   "src": "app",
   "tq": "statements"
@@ -709,12 +709,12 @@
   "row": 87,
   "s": "Match List-I (Aluminium company) with List-II (Location):\nList-I | List-II\na. Vedanta | i. Alupuram\nb. MALCO | ii. Mettur\nc. INDAL | iii. Korba\nd. BALCO | iv. Jharsuguda\nSelect the correct answer using the codes given below:",
   "o": [
+   "a-i, b-iv, c-ii, d-iii",
    "a-i, b-ii, c-iv, d-iii",
-   "a-iv, b-ii, c-i, d-iii",
    "a-iv, b-i, c-ii, d-iii",
-   "a-i, b-iv, c-ii, d-iii"
+   "a-iv, b-ii, c-i, d-iii"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Vedanta – Jharsuguda, Odisha (largest smelter); MALCO – Mettur, TN; INDAL – Alupuram, Kerala (also Muri, Hirakud, Belur); BALCO – Korba, Chhattisgarh.",
   "src": "app",
   "tq": "match"
@@ -746,6 +746,291 @@
   ],
   "a": 1,
   "x": "2 and 3 are correct. 1 is wrong: Malanjkhand is in Madhya Pradesh; Khetri and Zawar are the Rajasthan centres.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe9799ff676e2",
+  "row": 88,
+  "s": "Match List-I (Nickname) with List-II (City):\nList-I | List-II\na. Cottonopolis | i. Coimbatore\nb. Manchester of South India | ii. Kanpur\nc. Manchester of the North | iii. Jamshedpur\nd. Pittsburgh of India | iv. Mumbai\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Cottonopolis – Mumbai (largest centre); Manchester of South India – Coimbatore; Manchester of the North – Kanpur; Pittsburgh of India – Jamshedpur. (Manchester of India is Ahmedabad.)",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8bf714ea1a19",
+  "row": 88,
+  "s": "Consider the following statements about the cotton textile industry:\n1. The first successful cotton mill of India was set up in Mumbai in 1854 by C.N. Davar.\n2. Kota is India's main hosiery centre.\n3. Tamil Nadu's mill-made yarn rests on hydel power, a pool of cheap skilled labour and local cotton.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: Kota is known for synthetic silk; the hosiery centre is Ludhiana.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3f61fc12d197",
+  "row": 88,
+  "s": "Consider the following statements about sugar:\n1. Brazil is the world's largest producer and exporter of sugar.\n2. India is the largest consumer of sugar.\n3. India first overtook Brazil in sugar production in 2015-16.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: India overtook Brazil only in 2021-22, the first time in 16 years; India is otherwise 2nd (~19%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe5f3d9fb21df",
+  "row": 88,
+  "s": "Consider the following statements:\nAssertion (A): Sugar mills in India are generally located close to the cane fields.\nReason (R): Sugarcane is bulky and perishable and loses weight, yielding only about a tenth of its weight as sugar.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: cane is a bulky, perishable, weight-losing raw material, so mills sit near the fields.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd806beeb6d53",
+  "row": 88,
+  "s": "Consider the following statements:\n1. Nasik, Pune, Satara, Sangli, Kolhapur and Sholapur are cooperative sugar centres of Karnataka.\n2. Maharashtra led India's sugar output in the latest seasons.\n3. Uttar Pradesh has the largest long-run share of India's sugar output, about 35 per cent.\n4. The Meerut–Saharanpur–Muzaffarnagar sugar belt lies in western Uttar Pradesh.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "2, 3 and 4 are correct. 1 is wrong: Nasik, Pune, Satara, Sangli, Kolhapur and Sholapur are the cooperative sugar centres of Maharashtra.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp80dc4e161bb1",
+  "row": 88,
+  "s": "Match List-I (Sugar industry term) with List-II (Use or meaning):\nList-I | List-II\na. Bagasse | i. Alcohol and ethanol\nb. Molasses | ii. Manure\nc. Press mud | iii. Boiler fuel and paper pulp\nd. FRP | iv. Cane price fixed by the Centre\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 1,
+  "x": "Bagasse – boiler fuel and paper pulp; molasses – alcohol/ethanol; press mud – manure; FRP (Fair and Remunerative Price) – fixed by the Centre (SAP by States).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5376f8d66968",
+  "row": 88,
+  "s": "Consider the following statements:\n1. The Rangarajan Committee recommended a 70:30 revenue-sharing formula for cane price.\n2. The State Advised Price (SAP) of sugarcane is fixed by the Centre.\n3. About three-fourths of India's ethanol now comes from molasses.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 0,
+  "x": "Only 1 is correct. 2 is wrong: SAP is fixed by State Governments; the Centre fixes the FRP. 3 is wrong: about 3/4 of ethanol now comes from grain.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbdafc6fcf559",
+  "row": 88,
+  "s": "Consider the following statements about the cement industry:\n1. The first successful cement factory, at Porbandar, was set up by the Madras Cement Company in 1906.\n2. India's first cement plant was set up at Madras in 1904, using sea shells as lime.\n3. Limestone, clay (silica and alumina) and gypsum are its principal raw materials.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the first successful factory at Porbandar was set up by the Indian Cement Company in 1912-13 (production 1914).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp99e863fa5110",
+  "row": 88,
+  "s": "Consider the following statements:\n1. India, the second-largest cement producer, makes more than 8 per cent of world cement.\n2. India's per capita cement consumption is about 290 kg, against a world average of about 540 kg.\n3. Andhra Pradesh was the largest cement-producing State in 2026.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All three",
+   "Only two",
+   "None"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: in 2026 Rajasthan was first and Andhra Pradesh second (older books put AP first).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe0c29f9b0422",
+  "row": 88,
+  "s": "Match List-I (Cement centre) with List-II (State or district):\nList-I | List-II\na. Satna and Katni | i. Telangana\nb. Nalgonda | ii. Madhya Pradesh\nc. Yerraguntla | iii. YSR Kadapa, Andhra Pradesh\nd. Lakheri | iv. Rajasthan\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 3,
+  "x": "Satna, Katni – Madhya Pradesh; Nalgonda – Telangana; Yerraguntla – YSR Kadapa (AP, Kadapa–Kurnool limestone); Lakheri – Rajasthan.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5c7ae5cbb980",
+  "row": 88,
+  "s": "Consider the following statements about the fertiliser industry:\n1. Naphtha, natural gas, coal, rock phosphate, sulphur and gypsum are its inputs.\n2. Urea is made from ammonia and carbon dioxide, the ammonia being produced by the Contact process.\n3. The sulphur used for phosphatic fertilisers comes mainly from oil refineries.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the ammonia for urea comes from the Haber process; the Contact process makes sulphuric acid.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp387d8cea386a",
+  "row": 88,
+  "s": "Match List-I (Fertiliser region or group) with List-II (Centres):\nList-I | List-II\na. Gujarat–Maharashtra | i. Nangal, Bhatinda, Panipat\nb. North-West | ii. Vadodara, Kalol, Kandla, Trombay\nc. Coal-based FCI units | iii. Talcher, Ramagundam, Korba\nd. Tamil Nadu–Kerala | iv. Neyveli, Tuticorin, Ennore\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "Gujarat–Maharashtra (largest) – Vadodara, Kalol, Kandla, Trombay; North-West – Nangal, Bhatinda, Panipat; coal-based FCI – Talcher, Ramagundam, Korba; TN–Kerala – Neyveli, Tuticorin, Ennore, Alwaye, Kochi.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpda9ae0fad99f",
+  "row": 88,
+  "s": "Consider the following statements:\n1. Gujarat is the largest producer of urea in India.\n2. The Nagarjuna and Coromandel fertiliser plants of Andhra Pradesh are at Kakinada.\n3. Jamnagar has the world's largest refining complex, run by Reliance.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "2 and 3 are correct. 1 is wrong: Gujarat has the largest fertiliser capacity, but Uttar Pradesh is the largest urea producer.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2f06a61099d4",
+  "row": 88,
+  "s": "Match List-I (Refinery) with List-II (Operator):\nList-I | List-II\na. Numaligarh | i. NRL\nb. Visakhapatnam | ii. Reliance\nc. Barauni | iii. HPCL\nd. Jamnagar | iv. IOCL\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Numaligarh (Assam) – NRL; Visakhapatnam – HPCL; Barauni (Bihar, 1964) – IOCL; Jamnagar (1999) – Reliance.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf024539d8eea",
+  "row": 88,
+  "s": "Consider the following statements about the jute industry:\n1. About 90 per cent of jute mill capacity lies in a narrow belt along the Hooghly.\n2. Kolkata port and Raniganj coal favour the Hooghly jute mills.\n3. Of India's 97 jute mills (2026), 51 are in West Bengal.\n4. Andhra Pradesh has the second-largest number of jute mills.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: West Bengal has 71 of the 97 mills; AP (Chittivalasa, Nellimarla) is second.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp11a8d8e9502d",
+  "row": 88,
+  "s": "Consider the following statements:\n1. The National Jute Policy was announced in 2005.\n2. JUTE-ICARE promotes certified seed and microbial retting using SONA.\n3. The Jute Packaging Materials Act, 1987 makes it compulsory to pack 100% of sugar and 20% of foodgrains in jute bags.\n4. India is the largest exporter of jute.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1 and 2 only",
+   "2 and 4 only",
+   "1 and 4 only"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the Act covers 100% of foodgrains and 20% of sugar (reversed here). 4 is wrong: Bangladesh is the largest exporter.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp594948187793",
+  "row": 88,
+  "s": "Match List-I (Paper mill) with List-II (State):\nList-I | List-II\na. Jagiroad | i. Maharashtra\nb. Sirpur-Kagaznagar | ii. Assam\nc. Rajahmundry | iii. Andhra Pradesh\nd. Ballarpur | iv. Telangana\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Jagiroad – Assam (Hindustan Paper Corporation, shut 2017); Sirpur-Kagaznagar – Telangana; Rajahmundry – Andhra Pradesh; Ballarpur – Maharashtra.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpaa45f3fae45c",
+  "row": 88,
+  "s": "Match List-I (First unit) with List-II (Place):\nList-I | List-II\na. Paper mill (1812) | i. Kanpur\nb. Woollen mill (1876) | ii. Pratappur (Deoria)\nc. Super-phosphate factory (1906) | iii. Serampore\nd. Sugar mill (1903) | iv. Ranipet\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Paper mill – Serampore (WB), 1812; woollen mill – Kanpur (army depot), 1876; super-phosphate – Ranipet (TN), 1906; sugar mill – Pratappur, Deoria (UP), 1903.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp26ee39017b0e",
+  "row": 88,
+  "s": "Consider the following statements:\n1. India's first fertiliser public sector undertaking was set up at Nangal.\n2. The Bengal Iron Works Company set up a steel plant in 1870.\n3. An iron unit on modern lines was set up at Porto Novo in 1830.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: the first fertiliser PSU was Sindri (Jharkhand), 1951.",
   "src": "app",
   "tq": "statements"
  }
