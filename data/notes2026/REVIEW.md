@@ -791,3 +791,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r076 (CA row 76 environment overview)
 - No key changes. Cicada, SEEI 2024 (Maharashtra), prismatic compass keys from web snippets/general knowledge.
 - Old-notes figures unchecked (Nepal toll 1,357/5,326, Pichavaram valuation).
+
+## b6-r078 (CA rows 78-79 environment Dec 2025–May 2026)
+- No key changes. Notes fixed: RDF co-processing 5%→15%; CRI 2026 label; NDC 24 Apr 2026; Cheetah 59 (12 Oct 2026).
+- Own MCQs n666e8434681, f08b345725b25 stems say "CRI 2025" — should be CRI 2026.

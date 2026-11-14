@@ -24,7 +24,7 @@
 | III (28 Feb 2026) | Botswana | 9 (3 males, 6 females) |
 - Botswana cheetahs flown by IAF aircraft to **Gwalior**, then to Kuno; India's count became **48** (some at **Gandhi Sagar**); five cubs born to Jwala at Kuno on 9 March 2026 took it to **53**. Earlier: 39 cubs born since 2023, 27 surviving.
 - **Third site**: **Veerangana Durgavati Tiger Reserve (MP)** – merger of **Nauradehi and Durgavati** sanctuaries; Sagar, Damoh, Narsinghpur (**Bundelkhand**); soft-release boma.
-> Cheetah order: Namibia → South Africa → Botswana = 8 → 12 → 9.
+> Cheetah order: **Namibia → South Africa → Botswana** = 8 → 12 → 9 (29 imported); population **59** on 12 October 2026 (Rocket CA).
 # Asiatic Lion
 - MoEFCC **"Lion Species Spotlight Programme"**.
 - **16th Lion Census (May 2025): 891 lions** (+32% over 2020); only in Gujarat.
@@ -40,7 +40,6 @@
 - Near **Pasighat, East Siang, Arunachal Pradesh**; ~190 sq km; river islands and alluvial grasslands; est. **1978**; named after **Daying Ering**.
 - **Palamu TR** – AI-based human-elephant conflict research centre.
 - **Palamu Tiger Reserve** is in **Jharkhand**; it was one of the first nine tiger reserves under Project Tiger (1973).
-> Project Cheetah sources in order: **Namibia → South Africa → Botswana** (8 → 12 → 9 = 29 imported); cheetah population **59** (12 Oct 2026).
 ~~ Sources: Rocket CA 2026 Part 02 p.137 (58 tiger reserves, Sep 2026), p.142-143 (Project Cheetah: Namibia, South Africa, Botswana – 9 cheetahs on 28 Feb 2026, 6 F + 3 M; population 59); Praveen CA-360 May 2026 magazine p.26 (16th Lion Census 891, Barda, Gir 1965); CARE APPSC April 2026 p.66-67 (Papikonda, IBCA); app notes 6:78 (sub 5)
 
 === Biodiversity Reports and Conventions
@@ -145,7 +144,6 @@
 - Cost: household ICS below ₹2,000; commercial up to ₹20,000; eligible for **carbon credits**; reduce **black carbon**.
 - ICS **reduce but do not eliminate** indoor pollution.
 - **Photochemical smog**: **NOx + VOCs** in sunlight → **ozone, PAN**.
-| Secondary pollutants | Ozone, PAN | formed in air |
 # Rare Earth Mining Pollutes the Mekong
 - Unregulated rare earth mining in **Myanmar and Laos** – arsenic, mercury, lead, cadmium in tributaries **Sai and Ruak** → Mekong ("world's kitchen").
 - Mekong: longest river of **Southeast Asia**; rises in the Tibetan Plateau as the **Lancang**; flows through China, Myanmar, Laos, Thailand, Cambodia, Vietnam → South China Sea.
