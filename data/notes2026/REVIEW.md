@@ -898,3 +898,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b2-p159: 25 adds. Fixed row 164 Coast Guard 1978 (Act; interim 1 Feb 1977). Unverified: laminated ration cards 2005, NTR Grameena Gruha Rs 2 lakh, Chandranna Bima 1,93,819, 7 ESI hospitals.
 - b1-s01 (73 weak history keys): 54 confirmed, 2 corrected (y1c3df5bb5da -1 → Theodore Beck; y73532354573 -1 → 1892), 17 unverifiable. yc28bf71f500 Cabinet Mission keys split (dispute).
 - b3-s02 (22): 17 confirmed, 0 corrected, 5 unverifiable; yf3d3fa13224 printed key 18.7 restored (was -1). ye67bb6889d5 outdated (AP agri labour now 45.6%).
+- b5-s02 (57 weak S&T keys): 53 confirmed, 0 corrected, 4 unverifiable (ydffc517fb99 TSPSC GIS pair — check official key). Outdated: ANC under CDS; DRDO laser lab wound up. Dispute: UK first climate emergency (Scotland/Wales earlier).
