@@ -1,0 +1,102 @@
+=== Deficits, Debt and the FRBM Act
+# FRBM Act – PYQ
+- **Fiscal Responsibility and Budget Management Act, 2003** (Union): enacted **26 August 2003**, in force **5 July 2004**; caps fiscal deficit (3% of GDP goal) and debt.
+- The FRBM **Bill** was introduced in Parliament in **2000**; **AP's own FRBM Act is of 2005** – both are traps for "the FRBM Act year" (answer **2003**).
+# Definitions
+- **Revenue deficit** = revenue expenditure − revenue receipts.
+- **Fiscal deficit** = total expenditure − total receipts excluding borrowings.
+# AP deficit ratios
+| Deficit | 2026-27 BE | 2025-26 RE |
+|---|---|---|
+| Revenue deficit | **₹22,002 crore = 1.11%** of GSDP | ₹41,118 crore = 2.33% |
+| Fiscal deficit | **₹75,868 crore = 3.84%** of GSDP | ₹80,567 crore = 4.57% |
+- FD **3.84%** is still **above the 3% norm**.
+- Outstanding debt about **36% of GSDP** (about ₹7.11 lakh crore) in 2026-27.
+~~ Sources: NextGen Indian Economy Part 1 APPSC 02 p.22; Rocket Indian Economy p.30; Ramesh Singh Indian Economy 10th ed. Part 6 p.19; AP Budget 2026-27 Budget Speech p.26; AP Budget 2026-27 Explanatory Memorandum p.45-46
+
+=== AP Budget 2026-27 – Profile and Key Figures
+- Presented by Finance Minister **Payyavula Keshav** on **14 February 2026** (his **third** consecutive Budget).
+- **Economic Survey = diagnosis; Budget = remedy.**
+| Item | Amount |
+|---|---|
+| Total outlay | **₹3,32,205 crore** (about **₹3.32 lakh crore**) |
+| Revenue expenditure | ₹2,56,143 crore |
+| Capital expenditure (incl. loans) | **₹53,915 crore** (2025-26 RE ₹39,498 crore) |
+| Capital outlay | **₹48,698 crore**, **+47%** over 2025-26 RE |
+| Interest payments | **₹37,281 crore** |
+~~ Sources: AP Budget 2026-27 Budget Speech p.1, p.26; Explanatory Memorandum p.17 (interest ₹37,280.55 crore), p.48 (capital outlay); app notes 6:11 (sub 0)
+
+=== Rupee Comes From / Rupee Goes To (AP 2026-27)
+| Comes from | Share | Goes to | Share |
+|---|---|---|---|
+| **State taxes** | **38%** (largest) | **Interest + debt repayment** | **18%** |
+| **Open market borrowings** | **30%** | Welfare | 17% |
+| Share in central taxes | 19% | Other departments | 15% |
+| Grants-in-aid | 10% | Education | 11% |
+| Non-tax revenue | 3% | Water Resources / Health | 6% each |
+- Central taxes share (19%) + grants (10%) = **29%** central transfers.
+> Interest + debt (18%) exceeding welfare (17%) signals fiscal stress.
+~~ Sources: app notes 6:11 (sub 2)
+
+=== Sector and Scheme Allocations 2026-27
+| Sector | ₹ crore |
+|---|---|
+| **School Education** | **32,308** (largest department) |
+| SC component | 20,644 |
+| **Health** | **19,306** (5.81% of Budget; **4th** largest) |
+| **Water Resources** | **18,224** |
+| **Polavaram Project** | **6,105** |
+| **Amaravati** development | **6,000** |
+# Scheme allocations
+| Scheme | ₹ crore | Note |
+|---|---|---|
+| **NTR Bharosa** (pensions) | 27,719 | **Largest welfare expenditure** |
+| Jal Jeevan Mission | 4,000 | **Ministry of Jal Shakti** |
+| **Deepam 2.0** | 2,601 | **3 free LPG cylinders** a year |
+| **Stree Shakti** | 1,420 | **Free bus travel for women** (from 15 Aug 2025) |
+- Women safety: **Shakti App** for emergency response.
+# Agriculture Budget 2026-27
+- Presented by **K. Atchannaidu**: about **₹53,752 crore**; Annadata Sukhibhava–PM Kisan ₹6,600 crore.
+~~ Sources: AP Budget 2026-27 Budget Speech p.7 (Water Resources), p.10 (School Education), p.11 (Jal Jeevan), p.13 (Shakti App), p.18 (Deepam 2.0), p.21 (SC component), p.22 (Health), p.24 (Stree Shakti); app notes 6:11 (sub 3-4)
+
+=== GSDP 2025-26, Human Development and External Aid
+- GSDP **₹17.62 lakh crore**, nominal growth **10.75%** (Advance Estimates).
+- Per capita income **₹2,94,507** (growth **10.43%**); highest **Visakhapatnam**, lowest **Parvathipuram Manyam**.
+- Inflation **1.39%** (Economic Survey 2025-26).
+| Indicator | Andhra Pradesh | India |
+|---|---|---|
+| Literacy (Census 2011) | **67.35%** – **below** the national average | 72.98% |
+| IMR (SRS) | 18 | 24 |
+| MMR (SRS 2021-23) | 30 | 88 |
+| Multidimensional poverty (NITI Aayog, 2019-21) | **6.06%** | 14.96% |
+- **Swarna Andhra @2047:** **$2.4 trillion** economy by 2047; **P4 = Public–Private–People Partnership** for zero poverty.
+- **APRIGP:** World Bank (IDA) **$75 million**; **AP Economic Restructuring Project:** primary health, nutrition, primary education and rural assets.
+~~ Sources: CARE APPSC CA August 2026 p.9 (per capita income ₹2,94,507); AP Socio-Economic Survey 2024-25 p.98; app notes 6:11 (sub 5)
+
+=== NITI Aayog Fiscal Health Index 2023-24 and Telangana
+- Released by **NITI Aayog** on 11 March 2026 (second edition; data 2023-24; 18 major States).
+- **5 sub-indices:** Revenue Mobilisation, Quality of Expenditure, Fiscal Prudence, Debt Index, **Debt Sustainability** (no "Tax Sustainability").
+| Rank | State |
+|---|---|
+| 1 | **Odisha** |
+| 7 | **Telangana** |
+| 17 | **Andhra Pradesh** (score 23.1) |
+- AP best sub-index **Quality of Expenditure (43.1)**; worst **Debt Sustainability (4.2)**.
+- NITI Aayog: set up **2015**; Vice-Chairman **Suman Bery**.
+# Telangana comparison
+- Budget 2026-27: **Telangana ₹3.24 lakh crore vs AP ₹3.32 lakh crore**.
+- Telangana 2023-24: own tax revenue **80%** of total revenue; debt **34.47% of GSDP**.
+~~ Sources: app notes 6:11 (sub 6-7)
+
+=== Union Budget 2026-27
+- Presented on **1 February 2026** by **Nirmala Sitharaman** – her **9th** Budget; India's **6th** Digital Budget (app notes); **first** Budget prepared at **Kartavya Bhavan**.
+- **Article 112** = Annual Financial Statement.
+| Item | BE 2026-27 | RE 2025-26 |
+|---|---|---|
+| Non-debt receipts | **₹36.5 lakh crore** | ₹34 lakh crore |
+| Total expenditure | ₹53.5 lakh crore | ₹49.6 lakh crore |
+| Net tax receipts (Centre) | **₹28.7 lakh crore** | ₹26.7 lakh crore |
+| Capital expenditure | **₹12.2 lakh crore** | about ₹11 lakh crore |
+| Fiscal deficit | **4.3% of GDP** | 4.4% of GDP |
+| Debt (outstanding liabilities) | 55.6% of GDP | 56.1% |
+~~ Sources: Rocket CA 2026 Part 01 p.91 (FD 4.3% vs 4.4% RE; liabilities 55.6%), p.99; Union Budget 2026-27 Highlights p.13, p.20; app notes 6:11 (sub 8)
