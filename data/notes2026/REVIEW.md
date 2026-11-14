@@ -828,3 +828,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Disputes: UN HR Prize 2018 "all three"; Devi Ahilya Bai award; Miss Earth 2019 USA (Puerto Rico).
 - Outdated: "recent" Jnanpith (now R. Vairamuthu, 60th); Best Actor Oscar (Michael B. Jordan, 2026).
 - 190 keys from general knowledge (older winners) — spot-check candidate. 8 unverified printed keys (FAO Ceres, Tejaswini, Lok Nayak 13th, Nishank–Uganda, ICFAI, IASLIC, Save Water Hero, Oscar office Mumbai).
+
+## b6-r097 (CA rows 97-98 sports 2026)
+- No key changes. Dispute y7be7fcab0aa UPSC 2026 Grand Slam: official provisional "1 and 2 only" (strictly "1 only").
+- Own MCQs ca995a58b16b95, f47cbc4b32b24 Pranavi Urs "first golf gold" — first Indian woman individual gold (dispute).
+- Old notes fix: India (not SA) lost 2005 and 2017 Women's WC finals.
