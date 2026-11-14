@@ -1,0 +1,2033 @@
+=== NOTES 5:40 | Recent Indian Satellite Launches and Their Applications
+## SUB 0 | Foreign Customer Satellites
+[40:0:0] TABLE head: Satellite | Country / agency | Vehicle
+  [40:0:0.0] KITSAT-3 | South Korea | PSLV-C2, 26 May 1999
+  [40:0:0.1] DLR-TUBSAT | Germany (not Italy) | PSLV-C2, 26 May 1999
+  [40:0:0.2] BIRD | Germany | PSLV-C3, 22 Oct 2001 (with India's TES)
+  [40:0:0.3] PROBA | Belgium (ESA mission) | PSLV-C3, 22 Oct 2001
+  [40:0:0.4] AGILE | Italy – gamma-ray astronomy | PSLV-C8, Apr 2007
+  [40:0:0.5] NovaSAR + S1-4 | UK | PSLV-C42, 16 Sep 2018
+  [40:0:0.6] Duchifat-3 | Israel (Herzliya high-school students) | PSLV-C48, Dec 2019
+  [40:0:0.7] OneWeb (72 satellites) | UK | LVM3 (2 missions)
+  [40:0:0.8] Proba-3 | ESA | PSLV-C59, Dec 2024
+[40:0:1] - PSLV-C3 carried TES, BIRD and PROBA – **no "Satellite Information Taxi"**.
+[40:0:2] - ISRO has launched **433 foreign satellites** of 34+ countries, over half from the **US**; NSIL: 141 satellites incl. 138 international (2026).
+[40:0:3] > ⚠ Wrong-pair item: **TUBSAT – Italy** is the wrong pair; ISRO's own list gives **PROBA – Belgium**.
+[40:0:4] ~~ Sources: ISRO "Foreign satellites launched by ISRO" (isro.gov.in/ForeignSatellites.html); app notes 5:40 sub 3
+[40:0:5] - **PSLV-C53** (30 Jun 2022, **second launch pad**): **NSIL's** (not Antrix's) second dedicated commercial mission, carrying Singapore's **DS-EO, NeuSAR and SCOOB-I**; its spent PS4 stage = POEM.
+## SUB 1 | Recent Launches – Vehicle, Date, Purpose
+[40:1:0] TABLE head: Satellite | Vehicle, date | Purpose
+  [40:1:0.0] RISAT-1 | PSLV-C19, 2012 | C-band SAR; day-night, all-weather imaging
+  [40:1:0.1] RISAT-2BR1 | PSLV-C48, 11 Dec 2019 | X-band radar imaging; disasters, surveillance
+  [40:1:0.2] EOS-07 + Janus-1 + AzaadiSAT-2 | SSLV-D2, 10 Feb 2023 | Separated in the order EOS-07 (785 s), Janus-1 (880 s), AzaadiSAT-2 (900 s) at 450 km
+  [40:1:0.3] DS-SAR | PSLV-C56, July 2023 | Singapore radar satellite
+  [40:1:0.4] Aditya-L1 | PSLV-C57, Sep 2023 | Solar science
+  [40:1:0.5] XPoSat | PSLV-C58, 1 Jan 2024 | X-ray polarimetry; POLIX and XSPECT; eastward low-inclination orbit
+  [40:1:0.6] INSAT-3DS | GSLV-F14, 17 Feb 2024 (not 2022) | Meteorology; funded by MoES
+  [40:1:0.7] EOS-08 | SSLV-D3, 16 Aug 2024 | Microsatellite; last SSLV development flight
+  [40:1:0.8] NVS-02 | GSLV-F15, Jan 2025 | NavIC; missed intended orbit
+  [40:1:0.9] NISAR | GSLV-F16, 30 Jul 2025 | Earth observation with NASA
+  [40:1:0.10] EOS-05 | GSLV-F17, 4 Sep 2026 | Geosynchronous land imaging
+[40:1:1] - **PSLV-C54** (26 Nov 2022, Oceansat-3/EOS-06) was the **last PSLV mission of 2022**.
+[40:1:2] - **CMS-03** (GSAT-7R) on LVM3-M5, Nov 2025 – naval communication; GSLV-F17/EOS-05 ended an eight-month launch pause.
+[40:1:3] > Exam angle: pair vehicle–satellite–year; F14 = INSAT-3DS (2024), C56 = DS-SAR, C57 = Aditya-L1, C58 = XPoSat.
+[40:1:4] ~~ Sources: ISRO SSLV-D2 mission page (separation timeline, via search); PMF S&T Part 1 p.111-112; app notes 5:40 sub 0
+## SUB 2 | Foreign Space Missions in News
+[40:2:0] TABLE head: Mission | Agency | Fact
+  [40:2:0.0] PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) | NASA | Falcon 9, 8 Feb 2024; ocean health, air quality, climate – both statements true
+  [40:2:0.1] SunRISE (Sun Radio Interferometer Space Experiment) | NASA (announced Mar 2020) | Six CubeSats to study how the Sun makes solar particle storms
+  [40:2:0.2] SuperView-1 pair | China (commercial) | Remote sensing, launched Dec 2016
+  [40:2:0.3] Kirameki-2 (DSN-2) | Japan | Japan's first military communications satellite (Jan 2017)
+  [40:2:0.4] Europa Clipper | NASA | Falcon Heavy (not Falcon 9), 14 Oct 2024; Jupiter's moon Europa; NASA's first mission to an ocean world; arrives Apr 2030
+  [40:2:0.5] JWST | NASA-ESA-CSA | 25 Dec 2021; infrared
+  [40:2:0.6] IXPE | NASA | Dec 2021; X-ray polarimetry (XPoSat made India second)
+[40:2:1] ~~ Sources: APPSC G1 2024 explanation (PACE); general knowledge, not checked (SunRISE, SuperView-1, Kirameki-2); app notes 5:40 sub 9
+## SUB 3 | Mission Firsts and Records
+[40:3:0] # SpaDeX
+[40:3:1] - **Space Docking Experiment**: two small spacecraft on **PSLV-C60, 30 Dec 2024**; **docked 16 Jan 2025** → India the **4th** country to dock in space, after the **US, Russia, China**.
+[40:3:2] - Docking is needed for **Bharatiya Antariksh Station** and Chandrayaan-4.
+[40:3:3] - **Axiom-4, SpaDeX and Gaganyaan** all support **microgravity research** (UPSC 2025: all three).
+[40:3:4] # Records
+[40:3:5] TABLE head: Record | Mission
+  [40:3:5.0] Most satellites in one launch | PSLV-C37, 104 satellites (15 Feb 2017)
+  [40:3:5.1] PSLV-C40, 12 Jan 2018 | 31 satellites (Cartosat-2 series + 30)
+  [40:3:5.2] Heaviest payload by an Indian rocket | BlueBird Block-2, 6,100 kg, LVM3-M6, 24 Dec 2025 – direct-to-smartphone broadband
+  [40:3:5.3] First dedicated commercial LVM3 flight | OneWeb, 36 satellites (2022)
+  [40:3:5.4] First exclusive weather satellite | Kalpana-1, PSLV, 2002
+[40:3:6] ~~ Sources: PMF S&T Part 2 p.60 (UPSC 2025 explanation); app notes 5:40 sub 1
+## SUB 4 | Student, University and Women-built Satellites
+[40:4:0] TABLE head: Satellite | Builder | Launch
+  [40:4:0.0] ANUSAT (2009) | Anna University | First student satellite launched by ISRO
+  [40:4:0.1] Jugnu | IIT Kanpur | PSLV-C18, 2011; 3 kg
+  [40:4:0.2] STUDSAT-2 | NMIT Bengaluru | Student satellite
+  [40:4:0.3] Kalamsat-V2 | Space Kidz India (students) | PSLV-C44, Jan 2019; world's lightest, about 1.26 kg (not 2.6 kg); first use of PS4 as orbital platform
+  [40:4:0.4] AzaadiSAT | 750 girl students of 75 rural schools (Space Kidz India) | SSLV-D1, Aug 2022 – lost
+[40:4:1] - **WeSAT:** LBS Institute of Technology for Women; POEM-3 (PSLV-C58); solar irradiance and UV index.
+[40:4:2] ~~ Sources: app notes 5:40 sub 2
+## SUB 5 | Private and Startup Satellites; Launch Failures
+[40:5:0] TABLE head: Satellite | Company | Note
+  [40:5:0.0] TSAT-1A | Tata Advanced Systems with Satellogic | Sub-metre optical; built at Vemagal (Karnataka); Falcon 9, Apr 2024
+  [40:5:0.1] Shakuntala (TD-2) | Pixxel | Hyperspectral; Falcon 9, Apr 2022; first private commercial imaging satellite
+  [40:5:0.2] AayulSAT | – | First on-orbit refuelling demonstrator; lost on PSLV-C62
+[40:5:1] - **Starlink:** GMPCS licence from **DoT** (2025).
+[40:5:2] TABLE head: Mission | Lost payload | Cause
+  [40:5:2.0] GSLV-F02 (2006) | INSAT-4C | –
+  [40:5:2.1] GSLV-F10 (2021) | EOS-03 | Cryogenic stage
+  [40:5:2.2] SSLV-D1 (2022) | EOS-02 and AzaadiSAT | Wrong orbit
+  [40:5:2.3] PSLV-C61 (18 May 2025) | EOS-09 | Third stage
+  [40:5:2.4] PSLV-C62 (12 Jan 2026) | EOS-N1 "Anvesha" + 15 co-passengers | Roll-rate disturbance at end of third stage (not first-stage non-ignition)
+[40:5:3] ~~ Sources: app notes 5:40 sub 4-5
+## SUB 6 | Re-entry Experiments, POEM and Joint Missions
+[40:6:0] TABLE head: Experiment | Vehicle, year
+  [40:6:0.0] SRE-1 (Space Capsule Recovery) | PSLV-C7, 2007
+  [40:6:0.1] CARE (crew module re-entry) | LVM3, 2014
+  [40:6:0.2] POEM / POEM-2 / POEM-3 | PSLV-C53 (2022) / C55 (2023) / C58 (2024)
+[40:6:1] - **POEM** = PSLV Orbital Experimental Module: the **spent PS4 stage** used as an orbital laboratory.
+[40:6:2] TABLE head: Mission | Partner | Objective
+  [40:6:2.0] NISAR | NASA | Dual-band radar (L + S)
+  [40:6:2.1] TRISHNA | CNES (France) | Thermal infrared: land surface temperature, water stress
+  [40:6:2.2] Proba-3 | ESA | Formation flying of two craft → artificial solar eclipse to study the corona
+[40:6:3] ~~ Sources: PMF S&T Part 2 p.55; app notes 5:40 sub 6-7
+## SUB 7 | Satellites by Application Domain
+[40:7:0] TABLE head: Domain | Satellites
+  [40:7:0.0] Weather | INSAT-3DS, Kalpana-1
+  [40:7:0.1] Ocean | Oceansat series
+  [40:7:0.2] Strategic | RISAT, Cartosat, EMISAT (electronic intelligence)
+  [40:7:0.3] Military communication | GSAT-7 (Navy), GSAT-7A "Angry Bird" (Air Force; PMF adds Army links), GSAT-7B proposed (Army)
+  [40:7:0.4] Navigation | NVS / NavIC
+  [40:7:0.5] Science | XPoSat, Aditya-L1
+[40:7:1] - **ISSAR 2025:** 86 Indian satellites in orbit, **27 operational**.
+[40:7:2] ~~ Sources: PMF S&T Part 1 p.104-105; app notes 5:40 sub 8
+
+=== OWN MCQs of 5:40 (67)
+[n8479146edc4] sub0
+  Proba-3 was launched by PSLV-C59 in December 2024 for which agency?
+  NASA | CNES | *ESA | JAXA
+  x: Proba-3 was an ESA satellite mission launched by PSLV-C59 in December 2024.
+[ne6b2571c02c] sub0
+  ISRO has launched how many foreign satellites from more than 34 countries?
+  104 | 138 | 141 | *433
+  x: ISRO has launched 433 foreign satellites from over 34 countries, more than half from the US.
+[fb4a71280d577] sub0
+  To which country does Duchifat-3, launched on PSLV-C48 in December 2019, belong?
+  the UK | *Israel | Belgium | Italy
+  x: Duchifat-3 is a 3U CubeSat of Israel's Herzliya Science Center.
+[f2366791d9cbf] sub0
+  On which launch vehicle did ISRO launch OneWeb's 72 satellites?
+  *LVM3 | SSLV | PSLV | GSLV Mk II
+  x: OneWeb's 72 satellites flew on two LVM3 missions.
+[g0d5035fe7704] sub0
+  AGILE, the Italian satellite launched by PSLV-C8 in April 2007, was meant for which field?
+  Ocean colour | *Gamma-ray astronomy | Navigation | Weather forecasting
+  x: AGILE was an Italian gamma-ray astronomy satellite launched commercially on PSLV-C8 in 2007.
+[gc839b4baad52] sub0
+  Over half of the foreign satellites launched by ISRO belong to which country?
+  United Kingdom | *United States | Israel | Singapore
+  x: Of the 433 foreign satellites ISRO has launched, over half are from the US.
+[fa5aaab234102] sub1
+  Which launch vehicle launched the EOS-08 microsatellite in 2024?
+  GSLV-F17 | SSLV-D2 | *SSLV-D3 | PSLV-C61
+  x: EOS-08 is a microsatellite launched by SSLV-D3 in 2024.
+[n811b59e0c55] sub1
+  Which satellite was fully funded by the Ministry of Earth Sciences and launched by GSLV-F14 on 17 February 2024?
+  GSAT-10 | *INSAT-3DS | Cartosat-3 | EOS-03
+  x: INSAT-3DS is a weather satellite fully funded by the Ministry of Earth Sciences and was launched by GSLV-F14 on 17 February 2024.
+[n846d7370a30] sub1
+  In which band does the Synthetic Aperture Radar on RISAT-1 operate?
+  *C-band | L-band | S-band | X-band
+  x: RISAT-1 (PSLV-C19) carries a C-band (5.35 GHz) SAR for day-night, all-weather imaging.
+[neb5ea271dc3] sub1
+  Which of the following pairs is INCORRECTLY matched?
+  *GSLV-F17 – NISAR | GSLV-F14 – INSAT-3DS | GSLV-F15 – NVS-02 | GSLV-F16 – NISAR
+  x: GSLV-F17 launched EOS-05 (Sep 2026); NISAR flew on GSLV-F16 (30 Jul 2025).
+[n53277bfe671] sub1
+  Which launch vehicle launched INSAT-3DS in 2024?
+  GSLV-F15 | GSLV-F16 | *GSLV-F14 | PSLV-C57
+  x: INSAT-3DS flew on GSLV-F14 in 2024; GSLV-F16 carried NISAR and PSLV-C57 carried Aditya-L1.
+[fae566b53ff9f] sub1
+  Which launch vehicle launched RISAT-2BR1, a radar imaging satellite, in December 2019?
+  *PSLV-C48 | PSLV-C19 | PSLV-C56 | PSLV-C47
+  x: RISAT-2BR1 flew on PSLV-C48 in December 2019.
+[fdeb6ad54bcdf] sub1
+  For what is CMS-03 (GSAT-7R), launched on LVM3-M5 in November 2025, meant?
+  Radar imaging | Weather monitoring | Navigation | *Naval communication
+  x: CMS-03 (GSAT-7R) is a naval communication satellite.
+[ff0b83f672ae0] sub1
+  Which launch vehicle launched EOS-07 on 10 February 2023?
+  SSLV-D1 | *SSLV-D2 | GSLV-F14 | PSLV-C48
+  x: EOS-07 flew on SSLV-D2; SSLV-D1 (2022) failed.
+[g29f5dc8f7354] sub1
+  Which launch vehicle launched DS-SAR, a radar satellite, in July 2023?
+  PSLV-C57 | *PSLV-C56 | PSLV-C58 | PSLV-C48
+  x: DS-SAR flew on PSLV-C56; PSLV-C57 carried Aditya-L1 and PSLV-C58 carried XPoSat.
+[gd454ada2dc46] sub1
+  Which launch vehicle launched XPoSat on 1 January 2024?
+  PSLV-C56 | PSLV-C57 | *PSLV-C58 | GSLV-F14
+  x: XPoSat flew on PSLV-C58; the same flight's PS4 stage became POEM-3.
+[g6c3a3ed50ebc] sub1
+  What are the two payloads of XPoSat?
+  *POLIX and XSPECT | VELC and SUIT | APXS and LIBS | UVIT and LAXPC
+  x: XPoSat carries POLIX and XSPECT for X-ray polarimetry.
+[gdae3448fad50] sub1
+  Which launch vehicle launched Aditya-L1 in 2023?
+  PSLV-C56 | *PSLV-C57 | PSLV-C58 | GSLV-F14
+  x: Aditya-L1 was launched on PSLV-C57; DS-SAR flew on C56 and XPoSat on C58.
+[gd739e1680600] sub1
+  Match the following:
+List-I (Satellite)
+A. DS-SAR
+B. Aditya-L1
+C. XPoSat
+D. INSAT-3DS
+List-II (Launch vehicle)
+1. PSLV-C57
+2. GSLV-F14
+3. PSLV-C56
+4. PSLV-C58
+Select the correct answer using the code given below:
+  *A-3, B-1, C-4, D-2 | A-1, B-3, C-4, D-2 | A-3, B-4, C-1, D-2 | A-4, B-1, C-3, D-2
+  x: DS-SAR went on PSLV-C56, Aditya-L1 on PSLV-C57, XPoSat on PSLV-C58 and INSAT-3DS on GSLV-F14.
+[f3c5fb23c2956] sub2
+  Which rocket launched NASA's PACE mission on 8 February 2024?
+  Falcon Heavy | *Falcon 9 | LVM3 | Ariane-5
+  x: PACE flew on Falcon 9 from Cape Canaveral; Europa Clipper used Falcon Heavy.
+[f8fb7a62d56ae] sub2
+  Which of the following is NOT correct about NASA's Europa Clipper?
+  It is NASA's first mission to an ocean world | *It was launched on Falcon 9 | It was launched on 14 October 2024 | It is due to arrive in April 2030
+  x: Europa Clipper, bound for Jupiter's moon Europa, flew on Falcon Heavy; Falcon 9 carried PACE.
+[fbe7e13de2260] sub2
+  The James Webb Space Telescope (2021) is a joint mission of which agencies?
+  *NASA, ESA and CSA | NASA, JAXA and ESA | NASA, CNES and CSA | NASA, ISRO and ESA
+  x: JWST is a NASA-ESA-CSA infrared space telescope launched on 25 December 2021.
+[gced97d1e9416] sub2
+  With XPoSat, India became which country to launch a dedicated X-ray polarimetry satellite, after NASA's IXPE?
+  First | *Second | Third | Fourth
+  x: NASA's IXPE (December 2021) was the first; XPoSat made India the second.
+[g57a075db8604] sub2
+  NASA's Europa Clipper, launched in October 2024, is meant to study a moon of which planet?
+  Saturn | *Jupiter | Uranus | Neptune
+  x: Europa is an icy moon of Jupiter; Europa Clipper is NASA's first mission to an ocean world.
+[gf2c9c9502d92] sub2
+  What is the full form of PACE, NASA's mission launched on 8 February 2024?
+  *Plankton, Aerosol, Cloud, ocean Ecosystem | Polar Atmosphere and Climate Explorer | Planetary Atmosphere Composition Experiment | Pacific Aerosol and Cloud Explorer
+  x: PACE stands for Plankton, Aerosol, Cloud, ocean Ecosystem; it studies ocean colour, aerosols and clouds.
+[g7106a5d9a3d4] sub2
+  The James Webb Space Telescope, launched on 25 December 2021, observes mainly in which part of the spectrum?
+  *Infrared | X-ray | Gamma-ray | Radio
+  x: JWST is an infrared space telescope of NASA, ESA and CSA.
+[n2cca9f61153] sub3
+  Which of the following is NOT correct about SpaDeX?
+  *It made India the fourth country to dock in space, after the US, Russia and Japan. | It was launched by PSLV-C60 on 30 December 2024. | Its docking capability is needed for the Bharatiya Antariksh Station. | It did not set India's record for most satellites in one mission, which is PSLV-C37's 104.
+  x: The three earlier docking nations were the US, Russia and China, not Japan.
+[ne2af38f4913] sub3
+  Which launch vehicle launched BlueBird Block-2 (6,100 kg), the heaviest payload launched by an Indian rocket, on 24 December 2025?
+  PSLV-C60 | GSLV-F17 | *LVM3-M6 | SSLV-D3
+  x: LVM3-M6 launched the 6,100 kg BlueBird Block-2 (223 sq m phased array, direct-to-smartphone broadband) on 24 Dec 2025. PSLV-C60 launched SpaDeX, GSLV-F17 launched EOS-05, and SSLV is a small-satellite launcher.
+[n4a9706e961f] sub3
+  Which launch vehicle launched Kalpana-1, India's first exclusive meteorological satellite, in 2002?
+  GSLV | ASLV | Ariane-5 | *PSLV
+  x: Kalpana-1 was India's first exclusive meteorological satellite, launched by PSLV in 2002.
+[ff84a713af79a] sub3
+  Whose satellites were carried on the first dedicated commercial LVM3 flight (2022)?
+  Satellogic | *OneWeb | AST SpaceMobile | ESA
+  x: The first dedicated commercial LVM3 flight carried 36 OneWeb satellites.
+[fa2c1cedf9583] sub3
+  SpaDeX made India the fourth country to dock in space, after the US, Russia and which other country?
+  *China | Japan | the UK | France
+  x: India docked on 16 January 2025 after the US, Russia and China, not Japan.
+[g945857b2df2a] sub3
+  What service is BlueBird Block-2, launched by LVM3-M6 in December 2025, meant to provide?
+  Navigation for aviation | Weather forecasting | X-ray astronomy | *Direct-to-smartphone broadband
+  x: BlueBird Block-2 of AST SpaceMobile (USA), with a 223 sq m antenna, gives direct-to-smartphone broadband.
+[g30bb88f33563] sub3
+  What is the full form of SpaDeX?
+  Space Defence Experiment | *Space Docking Experiment | Spacecraft Deployment Exercise | Space Debris Explorer
+  x: SpaDeX is the Space Docking Experiment, launched on PSLV-C60 on 30 December 2024.
+[f027c16df98c9] sub4
+  Who built Jugnu, a 3 kg nanosatellite launched on PSLV-C18 in 2011?
+  Sathyabama University | NMIT Bengaluru | Anna University | *IIT Kanpur
+  x: Jugnu was built by IIT Kanpur and launched with Megha-Tropiques.
+[f9e47b9511b0d] sub4
+  Which satellite – builder pair is correctly matched?
+  *ANUSAT – Anna University | STUDSAT-2 – Space Kidz India | Jugnu – Sathyabama University | Kalamsat-V2 – IIT Kanpur
+  x: ANUSAT, the first student satellite launched by ISRO, was built by Anna University; Jugnu is IIT Kanpur's, Kalamsat-V2 Space Kidz India's and STUDSAT-2 NMIT's.
+[f0189b1382059] sub4
+  Who built Kalamsat-V2, the world's lightest satellite?
+  IIT Kanpur | Sathyabama University | *Space Kidz India | Pixxel
+  x: Kalamsat-V2 (~1.26 kg, 3D-printed) was built by Space Kidz India.
+[fb3fbec293e76] sub4
+  AzaadiSAT was built by 750 girl students from how many rural government schools?
+  100 | 50 | 150 | *75
+  x: AzaadiSAT was built by 750 girl students of 75 rural government schools, via Space Kidz India.
+[f6a5f7c009876] sub4
+  Consider the following statements about Kalamsat-V2:
+1. It was launched by PSLV-C44 in January 2019.
+2. It was the first to use the PS4 stage as an orbital platform.
+3. It was lost on SSLV-D1.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Kalamsat-V2 flew on PSLV-C44 and first used PS4 as an orbital platform; SSLV-D1 lost AzaadiSAT and EOS-02.
+[g6acbb4d8d498] sub4
+  Which was the first student satellite launched by ISRO?
+  *ANUSAT | Jugnu | STUDSAT-2 | Kalamsat-V2
+  x: ANUSAT (2009), built by Anna University, was the first student satellite launched by ISRO.
+[gc70f4682c47c] sub4
+  Which institution built STUDSAT-2, a student satellite?
+  Anna University | IIT Kanpur | *NMIT Bengaluru | Sathyabama University
+  x: STUDSAT-2 was built by students of NMIT Bengaluru.
+[gdb3e4e6cb695] sub4
+  Which institution built WeSAT, a satellite payload that studied solar irradiance and the UV index on POEM-3 (PSLV-C58)?
+  Anna University | *LBS Institute of Technology for Women | Sathyabama University | IIT Kanpur
+  x: WeSAT, a women-built payload, came from LBS Institute of Technology for Women and flew on POEM-3 in 2024.
+[gd7bd9fc7bf98] sub4
+  On which platform did WeSAT, built by LBS Institute of Technology for Women, fly in January 2024?
+  *POEM-3 on PSLV-C58 | SSLV-D1 | POEM on PSLV-C53 | PSLV-C44
+  x: WeSAT was one of the payloads on POEM-3, the spent PS4 stage of PSLV-C58 (1 Jan 2024).
+[n50d80b386ad] sub5
+  From which body did Starlink receive a GMPCS licence in India in 2025?
+  *Department of Telecommunications | ISRO | MeitY | TRAI
+  x: DoT granted the GMPCS licence, subject to geofencing and local terminal manufacturing within five years.
+[f6d61e3f40be9] sub5
+  Along with which company did Tata Advanced Systems build TSAT-1A, a sub-metre optical surveillance satellite?
+  Pixxel | Space Kidz India | *Satellogic | AST SpaceMobile
+  x: TSAT-1A was built by Tata Advanced Systems with Satellogic at Vemagal, Karnataka.
+[f2d292375b332] sub5
+  To which company does Shakuntala (TD-2), a hyperspectral satellite launched in April 2022, belong?
+  Satellogic | *Pixxel | DRDO | Tata Advanced Systems
+  x: Shakuntala is Pixxel's hyperspectral satellite, the first private commercial imaging satellite.
+[f6bfc437bb60f] sub5
+  On which launch vehicle were TSAT-1A and Pixxel's Shakuntala launched?
+  *SpaceX Falcon 9 | LVM3 | PSLV | SSLV
+  x: Both flew on SpaceX Falcon 9, not on PSLV.
+[f402c33a731e5] sub5
+  AayulSAT, lost on PSLV-C62, was meant to be the first demonstrator of which technology?
+  Space docking | Re-entry capsule recovery | Hyperspectral imaging | *On-orbit refuelling
+  x: AayulSAT was the first on-orbit refuelling demonstrator; it was lost on PSLV-C62.
+[gc0d335d72483] sub5
+  Which was India's first private commercial imaging satellite?
+  TSAT-1A | *Shakuntala (TD-2) | AayulSAT | EOS-N1 'Anvesha'
+  x: Pixxel's hyperspectral Shakuntala (TD-2), launched in April 2022, was the first private commercial imaging satellite.
+[g50c4ab9429e2] sub5
+  Where was TSAT-1A, the sub-metre surveillance satellite of Tata Advanced Systems, built?
+  *Vemagal, Karnataka | Sriharikota, Andhra Pradesh | Hosur, Tamil Nadu | Hyderabad, Telangana
+  x: TSAT-1A was built at Vemagal in Karnataka and launched on Falcon 9 in April 2024.
+[n7ca89d84c12] sub5
+  Which mission and lost payload are correctly matched?
+  GSLV-F10 — INSAT-3DS | SSLV-D1 — EOS-03 only | *GSLV-F02 — INSAT-4C | PSLV-C61 — EOS-02 and AzaadiSAT
+  x: GSLV-F02 lost INSAT-4C in 2006. GSLV-F10 lost EOS-03, SSLV-D1 lost EOS-02 and AzaadiSAT, and PSLV-C61 lost EOS-09.
+[nc926817e7f1] sub5
+  Which of the following is NOT correct about PSLV-C62?
+  It lost 15 co-passengers | *Its first stage did not ignite | It was launched on 12 January 2026 | It lost EOS-N1 'Anvesha'
+  x: PSLV-C62 failed because of a roll-rate disturbance at the end of its third stage, not first-stage non-ignition.
+[f331b3fc58086] sub5
+  SSLV-D1 (2022) lost which satellites?
+  *EOS-02 and AzaadiSAT | EOS-07 and Jugnu | EOS-09 and AzaadiSAT | EOS-03 and Kalamsat-V2
+  x: SSLV-D1 put EOS-02 and AzaadiSAT in a wrong orbit.
+[f5371c0a7ac23] sub5
+  Consider the following statements about launch failures:
+1. GSLV-F02 lost INSAT-4C in 2006.
+2. PSLV-C61 lost EOS-09 in May 2025.
+3. GSLV-F10 lost EOS-02 in 2021.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: GSLV-F02 lost INSAT-4C and PSLV-C61 lost EOS-09; GSLV-F10 lost EOS-03, while EOS-02 was lost on SSLV-D1.
+[g78d62875b502] sub5
+  In which stage did the PSLV-C61 mission, carrying EOS-09, fail on 18 May 2025?
+  First stage | Second stage | *Third stage | Fourth stage
+  x: PSLV-C61 failed in its third stage and EOS-09 (RISAT-1B) was lost.
+[ne0ed842494a] sub6
+  What are POEM platforms?
+  Ground-based radar imaging stations | *Spent PS4 stages used as orbital laboratories | Reusable crew capsules for ISS missions | Foreign customer satellites launched by PSLV
+  x: POEM platforms use the spent PS4 stage as an orbital laboratory.
+[n3a158fcdd33] sub6
+  Which one of the following pairs is correctly matched with a re-entry experiment?
+  *SRE-1 — PSLV-C7, 2007 | CARE — PSLV-C7, 2007 | SRE-1 — LVM3, 2014 | POEM-3 — PSLV-C53, 2022
+  x: SRE-1 was associated with PSLV-C7 in 2007. CARE was associated with LVM3 in 2014, and POEM-3 with PSLV-C58 in 2024.
+[fa064446fe2dc] sub6
+  On which mission did POEM, which uses the spent PS4 stage as an orbital laboratory, first fly?
+  *PSLV-C53 (2022) | PSLV-C58 (2024) | PSLV-C55 (2023) | PSLV-C7 (2007)
+  x: POEM flew on PSLV-C53 in 2022; POEM-2 on C55 and POEM-3 on C58.
+[f39e707817533] sub6
+  On which launch vehicle did the Space Capsule Recovery Experiment SRE-1 fly?
+  LVM3 in 2014 | *PSLV-C7 in 2007 | PSLV-C53 in 2022 | PSLV-C58 in 2024
+  x: SRE-1 flew on PSLV-C7 in 2007; CARE flew on LVM3 in 2014.
+[fc5b90fc3f0f1] sub6
+  Which joint mission – partner pair is correctly matched?
+  TRISHNA – JAXA | *TRISHNA – CNES | Proba-3 – NASA | NISAR – ESA
+  x: TRISHNA is an ISRO-CNES mission; NISAR is with NASA and Proba-3 is an ESA mission.
+[ff3f9c32a0a72] sub6
+  What does TRISHNA, a thermal infrared mission, mainly measure?
+  Ocean wind vectors | Ground deformation | *Land surface temperature and water stress | The solar corona
+  x: TRISHNA's thermal infrared payload measures land surface temperature, water stress and water quality.
+[f8337173e6ef5] sub6
+  How does Proba-3 create an artificial solar eclipse to study the corona?
+  *Formation flying of two spacecraft | Hovering at Sun-Earth L1 | Docking two spacecraft | A re-entry capsule
+  x: Proba-3's Occulter flies 150 m from the Coronagraph and shadows the Sun.
+[nb3f5051ce0a] sub7
+  Consider the following statements about Indian satellites:
+1. INSAT-3DS and Kalpana-1 are used for weather monitoring.
+2. The Oceansat series serves ocean studies.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: INSAT-3DS and Kalpana-1 are weather satellites and Oceansat serves ocean studies.
+[nccdc5d2809f] sub7
+  For which of the following has GSAT-7B been proposed?
+  Indian Navy | *Indian Army | Indian Air Force | Indian Coast Guard
+  x: GSAT-7B is proposed for the Army; GSAT-7 serves the Navy and GSAT-7A the IAF.
+[n6b23b2cd667] sub7
+  XPoSat and Aditya-L1 belong to which application domain?
+  Navigation | *Scientific studies | Ocean studies | Military communication
+  x: XPoSat and Aditya-L1 are science missions; NVS/NavIC are navigation and Oceansat is ocean study.
+[f096f4892afdc] sub7
+  For what is EMISAT used?
+  Ocean studies | Navigation | Weather | *Electronic intelligence
+  x: EMISAT is an electronic intelligence (strategic surveillance) satellite.
+[f7fe9948fb57f] sub7
+  Consider the following statements about military communication satellites:
+1. GSAT-7 serves the Indian Navy.
+2. GSAT-7A 'Angry Bird' serves the Indian Army.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Most books: GSAT-7A = Indian Air Force. Strictly: PMF lists it for Air Force and Army communication (PMF S&T Part 1 p.104).
+GSAT-7 'Rukmini' serves the Navy (1 correct); GSAT-7A 'Angry Bird' is taught as the Air Force satellite, and the Army's own satellite is the proposed GSAT-7B, so 2 is taken as wrong.
+[ff5000a0c7cc8] sub7
+  According to ISSAR 2025, how many Indian satellites were operational?
+  86 | 19 | *27 | 8
+  x: ISSAR 2025 counted 86 Indian satellites in orbit, of which 27 were operational.
+
+=== NOTES 5:41 | Space Science Missions – Chandrayaan, Mangalyaan, Astrosat, ADITYA-L1, Xposat
+## SUB 0 | Foreign Planetary Missions, Rockets and Observatories
+[41:0:0] TABLE head: Mission / object | Agency, year | Fact asked
+  [41:0:0.0] Voyager 1 and 2 | NASA, 1977 | Explore the outer solar system; Voyager 2 the only craft to visit Uranus and Neptune
+  [41:0:0.1] MESSENGER | NASA, 2004 | First to orbit Mercury (2011); mapped and investigated Mercury
+  [41:0:0.2] Cassini-Huygens | NASA-ESA-ASI, 1997 | Saturn and Titan – not Venus
+  [41:0:0.3] New Horizons | NASA, 2006 | Flew past Pluto (July 2015), then Kuiper Belt object Arrokoth (2019)
+  [41:0:0.4] Psyche | NASA; selected Jan 2017, launched Oct 2023 | Metal-rich asteroid 16 Psyche (Lucy = Trojan asteroids)
+  [41:0:0.5] DAVINCI+ / VERITAS | NASA, selected 2021 | Venus – first NASA Venus missions since the 1990s
+  [41:0:0.6] Deep Impact | NASA, Delta-II, 12 Jan 2005 | Impactor hit comet Tempel-1 on 4 Jul 2005
+  [41:0:0.7] TESS | NASA | Found its first Earth-size planet in a star's habitable zone (TOI 700 d, Jan 2020)
+  [41:0:0.8] Europa Clipper | NASA, Oct 2024 | Jupiter's moon Europa
+  [41:0:0.9] ExoMars | ESA (with Roscosmos till 2022) | Mars, signs of life; rover Rosalind Franklin to move on the surface and drill to 2 m
+  [41:0:0.10] SuperView | China | Commercial high-resolution Earth observation
+  [41:0:0.11] VENµS | Israel-France, Aug 2017 | Vegetation and environment research satellite
+[41:0:1] - **Rockets:** **H3** = **JAXA's** (Japan) next-generation rocket replacing H-IIA, first success **17 Feb 2024**; **Nuri (KSLV-II)** = **South Korea's** first indigenous three-stage launcher, first successful satellite launch **June 2022**; **SS-520-5** (JAXA, Feb 2018) = world's smallest satellite-carrying rocket.
+[41:0:2] - **EQUULEUS:** **JAXA** water-powered CubeSat; **steam** propulsion beyond low Earth orbit (Nov 2022).
+[41:0:3] - **Mars rovers:** **Spirit (MER-A)** – first of NASA's twin rovers, landed **4 Jan 2004** (twin Opportunity); **Perseverance** – **Jezero crater**, Feb 2021, with the **Ingenuity** helicopter; seeks past life. **BILI** (Bio-Indicator Lidar Instrument) – NASA Goddard's new **instrument** (not a rover) to "sniff" organics as signs of life on Mars.
+[41:0:4] - **Beagle-2:** **British**-built Mars lander carried on ESA's **Mars Express** (launched 2003); lost on landing, found on the surface in 2015.
+[41:0:5] - **IceCube** (South Pole): world's largest **neutrino detector**, a **cubic kilometre of ice**, sensors **buried 1.45–2.45 km deep**; also searches for **dark matter** – UPSC 2015 key: **all three** statements correct.
+[41:0:6] - **Jupiter:** atmosphere mainly **hydrogen and helium**, with traces of methane, ammonia and water.
+[41:0:7] > Angle: agency → mission → target pairs; "not Venus" for Cassini; New Horizons passed Pluto in 2015 (PYQ wrongly says 2016).
+[41:0:8] ~~ Sources: PMF S&T Part 2 p.38-44 (Voyager, MESSENGER, Cassini, New Horizons, ExoMars, Perseverance); app notes 5:41 sub 8; web: astrobiology.nasa.gov (BILI), pmfias.com IceCube PYQ 2015, cnes.fr ExoMars
+[41:0:9] - **Dark matter:** mostly non-baryonic; the leading candidate = **WIMPs (weakly interacting massive particles)**; neutrinos are too light and it emits no electromagnetic radiation.
+[41:0:10] - **MOXIE = Mars Oxygen In-Situ Resource Utilization Experiment** on NASA's Perseverance (2020) – made **oxygen from Martian CO₂**.
+## SUB 1 | Chandrayaan-3 (2023)
+[41:1:0] - **Launch:** **14 July 2023**, **LVM3-M4** from SDSC SHAR, Sriharikota; follow-on to Ch-2 to show end-to-end **safe landing and roving**.
+[41:1:1] - **Modules:** **Propulsion Module** + lander **Vikram** + rover **Pragyan** (names kept from Ch-2) – **no orbiter** (the Ch-2 orbiter relays).
+[41:1:2] - **Mass:** **3,900 kg** (lander 1,752 kg incl. **26 kg** rover); life **one lunar day (~14 Earth days)**.
+[41:1:3] - **Landing:** **23 Aug 2023** at **Shiv Shakti Point**, near the **south pole** (~69°S) → **National Space Day, 23 August**.
+[41:1:4] - **Rank:** India the **4th** to soft-land (after **USA, USSR/Russia, China**) and the **1st near the lunar south pole**; Japan's SLIM later 5th.
+[41:1:5] TABLE head: Payload | On | Function
+  [41:1:5.0] ChaSTE | Lander | Surface thermal profile
+  [41:1:5.1] ILSA | Lander | Moonquakes (seismic activity)
+  [41:1:5.2] RAMBHA-LP (Langmuir probe) | Lander | Plasma density
+  [41:1:5.3] LRA (NASA) | Lander | Passive laser retroreflector
+  [41:1:5.4] APXS | Rover | Elemental composition (Mg, Al, Si, K, Ca, Ti, Fe) of soil and rocks
+  [41:1:5.5] LIBS | Rover | Confirmed sulphur (in-situ, Aug 2023); also Al, Ca, Fe, Cr, Ti, Mn, Si, O
+  [41:1:5.6] SHAPE | Propulsion Module | Studies Earth from lunar orbit
+[41:1:6] - APXS found the soil rich in **iron and magnesium**, poor in aluminium.
+[41:1:7] > Asked 12 times: sulphur (×3), launch date, south pole, names, payload → function, "4th country".
+[41:1:8] ~~ Sources: NextGen S&T Group 2 Part 2 p.47-48 (OCR of PDF); PMF S&T Part 2 p.15-17; Praveen CA360 June 2026 p.76; app notes 5:41 sub 3
+## SUB 2 | Foreign Lunar Missions and Moon Firsts
+[41:2:0] TABLE head: Mission | Country, year | FIRST / fact
+  [41:2:0.0] Luna 2 | USSR, Sep 1959 | First man-made object to reach (hit) the Moon
+  [41:2:0.1] Luna 9 | USSR, 1966 | First soft landing
+  [41:2:0.2] Apollo 11 | USA, 20 Jul 1969 | First humans on the Moon: Neil Armstrong (first foot), Buzz Aldrin; lunar module Eagle
+  [41:2:0.3] SELENE (Kaguya) | Japan (JAXA), Sep 2007 | Japan's lunar orbiter
+  [41:2:0.4] LCROSS | NASA, 2009 | Hit a polar crater to look for water
+  [41:2:0.5] SOFIA | NASA, Oct 2020 | Confirmed water on the Moon's sunlit surface (airborne observatory)
+  [41:2:0.6] Chang'e-3 | China, 2013 | China's first soft landing; first since 1976
+  [41:2:0.7] Chang'e-4 | China, 2019 | First far-side soft landing; rover Yutu-2
+  [41:2:0.8] Chang'e-5 | China, 2020 | China's first sample return; first since Soviet Luna 24 (1976)
+  [41:2:0.9] Chang'e-6 | China, 2024 | First soil from the far ("dark") side: landed 1 Jun, returned 25 Jun 2024
+  [41:2:0.10] Luna-25 | Russia, Aug 2023 | Crashed near the south pole; first step of Russia-China ILRS
+  [41:2:0.11] SLIM | Japan, Jan 2024 | "Moon sniper"; Japan the 5th soft-lander
+[41:2:1] - **Chang'e** = Chinese Moon goddess.
+[41:2:2] - **Artemis (NASA):** Artemis I (2022) uncrewed; **Artemis II** crewed lunar flyby, launched **1 Apr 2026**; **Artemis III** now a **2027 low-Earth-orbit** lander test; **Artemis IV (2028)** = first crewed landing, near the **south pole**. India signed the **Artemis Accords** in **2023**.
+[41:2:3] - **ILRS:** International Lunar Research Station, led by **Russia and China** – rival to the US-led Artemis Accords; Roscosmos said Luna-25 would ensure Russia's **guaranteed access to the Moon**.
+[41:2:4] - **Moon Express:** first **private** company cleared (FAA, 3 Aug 2016) for a Moon flight plan.
+[41:2:5] > Angle: "first" questions – Luna 2 (first to reach), Apollo 11 (first humans, 1969, USA), Chang'e-6 (far-side soil).
+[41:2:6] ~~ Sources: PMF S&T Part 2 p.33-37; Rocket CA 2026 Part 2 p.93-94 (Artemis II, III); app notes 5:41 sub 8; web: discovermagazine.com Artemis III/IV changes (Feb 2026)
+## SUB 3 | Mangalyaan (MOM) and Mars
+[41:3:0] - **Mars Orbiter Mission (MOM) = Mangalyaan**: India's **first interplanetary mission**; **PSLV-C25**, **5 Nov 2013**; Mars orbit **24 Sep 2014** (highly elliptical).
+[41:3:1] - **Firsts:** **first country to reach Mars orbit on its maiden attempt**; **first Asian nation**; ISRO the **4th** to reach Mars after **NASA, USSR/Roscosmos, ESA** (not "second after USA"); lowest-cost Mars mission (~Rs 450 crore).
+[41:3:2] - **5 payloads** incl. **Methane Sensor for Mars**, **Lyman Alpha Photometer**, Mars Colour Camera, MENCA, TIS; designed for **6 months**, worked ~**8 years** (contact lost **2022**).
+[41:3:3] - Route: Earth orbit-raising, then Trans-Mars Injection – a **Hohmann transfer** (elliptical transfer orbit, two burns).
+[41:3:4] - Film **Mission Mangal** (2019) on the MOM women scientists: **Vidya Balan** the leading lady (with Akshay Kumar).
+[41:3:5] - **Methane on Mars:** first measured by **ESA's Mars Express**, also by NASA's **Curiosity**; with **water and gypsum** cited as evidence for possible life – Mars the planet that **may suit life**. (Jupiter's air also has trace methane – UPPCS 2016 accepted both.)
+[41:3:6] - **Next:** Mangalyaan-2 (Mars landing, targeted ~2030); TSPSC 2023 key names **Japan** as ISRO's partner for a new Mars effort (not confirmed: ISRO-JAXA's joint mission is the lunar LUPEX).
+[41:3:7] > Angle: launch vehicle and year, "first attempt" statements (UPSC 2016: I and III only).
+[41:3:8] ~~ Sources: PMF S&T Part 2 p.18-21, p.38-39; NextGen S&T Group 2 Part 2 p.40 (OCR); daily CA 21 Oct 2026 p.4; app notes 5:41 sub 4
+## SUB 4 | Space Shuttles and Spaceflight Firsts
+[41:4:0] - **Sputnik-1** (USSR, **1957**): first artificial satellite. **Valentina Tereshkova** (USSR, Vostok 6, 1963): **first woman in space** (Savitskaya 2nd woman, first woman spacewalk; Sally Ride first US woman).
+[41:4:1] TABLE head: Shuttle | Fact
+  [41:4:1.0] Columbia | First flight STS-1 (Apr 1981); broke up 1 Feb 2003, killing all seven incl. Kalpana Chawla (Mission Specialist)
+  [41:4:1.1] Challenger | Crew repaired the Solar Maximum Mission – first satellite repaired in orbit (STS-41C, Apr 1984)
+  [41:4:1.2] Discovery | Deployed Hubble (1990); Dec 1999 (STS-103): Hubble servicing – installed six new gyroscopes
+  [41:4:1.3] Atlantis | STS-129 (Nov 2009) to the ISS; flew the last shuttle mission STS-135 (Jul 2011), ending NASA's 30-year shuttle era
+  [41:4:1.4] Endeavour | Last-built orbiter
+[41:4:2] - **Atlantis, Discovery = space shuttles, not space stations**; **COBE** (Cosmic Background Explorer) = NASA satellite; **FALCON** (FLAG) = undersea cable system.
+[41:4:3] > Angle: "not correctly matched" pairs; last shuttle = Atlantis.
+[41:4:4] ~~ Sources: PMF S&T Part 2 p.47-48 (space stations, Vostok, Shuttle programme); app notes 5:41 sub 9; web: asd.gsfc.nasa.gov (Hubble SM3A, STS-103)
+## SUB 5 | Chandrayaan-2 (2019)
+[41:5:0] - **Launch:** **22 Jul 2019**, **GSLV Mk III-M1** (LVM3) from **Sriharikota, Andhra Pradesh**; Cabinet approval **2008** (PM Manmohan Singh).
+[41:5:1] - **Orbiter + lander Vikram** (after Vikram Sarabhai) **+ rover Pragyan**; target the **lunar south polar region** – **not the North Pole**. No Moon Impact Probe (that was Ch-1).
+[41:5:2] - **Originally with Russia:** Roscosmos was to supply the lander; it withdrew, so ISRO built Vikram.
+[41:5:3] - **Result:** partial success – Vikram **hard-landed** (Sep 2019, **Tiranga Point**); the **orbiter still works**, highest-resolution lunar images (~0.25 m).
+[41:5:4] - **Orbiter's CLASS** X-ray spectrometer mapped **sodium** abundance on the Moon for the first time (Oct 2022); also mapped chromium and water/hydroxyl.
+[41:5:5] - **People:** M. Annadurai – Chandrayaan-1 project director and programme director in early Ch-2 (book key); at launch **M. Vanitha** was Project Director and **Ritu Karidhal** Mission Director.
+[41:5:6] ~~ Sources: PMF S&T Part 2 p.14-15; PMF S&T Part 1 p.39 (Ritu Karidhal); app notes 5:41 sub 2; web: theweek.in Chandrayaan-2 sodium (8 Oct 2022)
+## SUB 6 | Aditya-L1 and Solar Missions
+[41:6:0] - **Aditya-L1:** India's **first solar mission / space-based solar observatory**; launched **2 Sep 2023**, **PSLV-C57**, from the **Second Launch Pad**, SDSC SHAR (NextGen's "25 Jan 2024" is the magnetometer-boom date, not the launch).
+[41:6:1] - **Halo orbit** around **Sun-Earth L1**, ~**1.5 million km** from Earth; inserted **6 Jan 2024**; continuous view, no eclipse; life 5 years.
+[41:6:2] TABLE head: Type | Payload | Studies
+  [41:6:2.0] Remote | VELC (Visible Emission Line Coronagraph, IIA) | Corona
+  [41:6:2.1] Remote | SUIT (Solar Ultraviolet Imaging Telescope, IUCAA) | Photosphere, chromosphere (near-UV)
+  [41:6:2.2] Remote | SoLEXS | Soft X-ray
+  [41:6:2.3] Remote | HEL1OS | Hard X-ray
+  [41:6:2.4] In-situ | ASPEX | Solar-wind protons, ions
+  [41:6:2.5] In-situ | PAPA (Plasma Analyser Package for Aditya) | Solar-wind electrons, ions
+  [41:6:2.6] In-situ | Magnetometer | Magnetic field
+[41:6:3] - **7 payloads** = 4 remote sensing + 3 in-situ.
+[41:6:4] - **Earth's magnetic field** diverts charged solar particles towards the **poles** → aurora.
+[41:6:5] - **Parker Solar Probe** (NASA, **12 Aug 2018**, on a **Delta IV Heavy** – not "Delta VI"): first craft through the Sun's outer corona; traces energy flow heating the corona and accelerating the solar wind. Solar Orbiter (NASA-ESA, 2020), SOHO (L1, 1995).
+[41:6:6] ~~ Sources: NextGen S&T Group 2 Part 2 p.46 (OCR); PMF S&T Part 2 p.22-23, p.39-40; Praveen CA360 June 2026 p.76; web: ulalaunch.com Parker Solar Probe launch (12 Aug 2018)
+[41:6:7] - **LIBS** is a Chandrayaan-3 rover payload, not an Aditya-L1 one.
+## SUB 7 | AstroSat and XPoSat
+[41:7:0] TABLE head: Feature | AstroSat (2015) | XPoSat (2024)
+  [41:7:0.0] FIRST | India's first dedicated multi-wavelength space observatory ("mini Hubble") | India's first (dedicated X-ray) polarimetry mission; world's second after NASA's IXPE
+  [41:7:0.1] Launch | 28 Sep 2015, PSLV-C30 | 1 Jan 2024, PSLV-C58
+  [41:7:0.2] Bands / target | X-ray, optical (visible) and UV simultaneously | Polarisation of cosmic X-rays from bright sources (black holes, neutron stars, pulsars)
+  [41:7:0.3] Payloads | UVIT, LAXPC, SXT, CZTI, SSM | Two: POLIX (RRI, Bengaluru) and XSPECT, in low Earth orbit (~650 km)
+  [41:7:0.4] Builder | ISRO with TIFR, IUCAA, IIA, RRI | ISRO with Raman Research Institute
+[41:7:1] - XPoSat is a **space observatory**, not an Earth observatory or a life-search mission; one PYQ dates it "May 2023" – it flew **1 Jan 2024**.
+[41:7:2] ~~ Sources: PMF S&T Part 2 p.13, p.24-25; app notes 5:41 sub 6
+[41:7:3] - **AstroSat facts:** **1,513 kg**, orbit **~650 km** (not 2,000 kg at 1,650 km); Japan, ESA and others had flown space observatories before, so India is not the only one besides the USA and Russia.
+## SUB 8 | Chandrayaan-1 (2008)
+[41:8:0] - India's **first Moon mission** – a **lunar probe** (orbiter + **Moon Impact Probe**), not manned; launched **22 Oct 2008** on **PSLV-C11** from **SDSC SHAR, Sriharikota (Andhra Pradesh)**; 1,380 kg; 100 km polar orbit.
+[41:8:1] - **11 instruments** (5 Indian, 6 from USA, UK, Germany, Sweden, Bulgaria): TMC, HySI, LLRI, HEX, MIP, **CIXS**, SIR-2, SARA, **Mini-SAR**, **M3**, RADOM. (Lyman Alpha Photometer was on Mangalyaan.)
+[41:8:2] - NASA's **M3** detected **water molecules** on the surface.
+[41:8:3] - **MIP** hit the south polar region on **14 Nov 2008** → **Jawahar Point**; India the **4th** to reach the Moon's surface by impact probe, after **USSR, USA and Japan** (Japan's Hiten, 1993, before India).
+[41:8:4] - 3,400+ orbits; contact lost **29 Aug 2009** (~10 months of 2 planned years).
+[41:8:5] ~~ Sources: NextGen S&T Group 2 Part 2 p.19-20 (OCR); PMF S&T Part 2 p.12; PMF S&T Part 1 p.100; app notes 5:41 sub 1
+[41:8:6] - **IDSN 32-m antenna, Byalalu** (built for Chandrayaan-1) weighs about **300 tonnes**.
+## SUB 9 | Missions at a Glance – Launch Dates and Vehicles
+[41:9:0] TABLE head: Mission | Launch | Vehicle | Result
+  [41:9:0.0] Chandrayaan-1 | 22 Oct 2008 | PSLV-C11 | Orbiter + impactor; water
+  [41:9:0.1] Mangalyaan (MOM) | 5 Nov 2013 | PSLV-C25 | Mars orbit 24 Sep 2014
+  [41:9:0.2] AstroSat | 28 Sep 2015 | PSLV-C30 | Space observatory
+  [41:9:0.3] South Asia Satellite (GSAT-9) | May 2017 | GSLV-F09 | SAARC communication satellite
+  [41:9:0.4] Chandrayaan-2 | Jul 2019 | GSLV Mk III-M1 | Orbiter works; lander lost
+  [41:9:0.5] Chandrayaan-3 | 14 Jul 2023 | LVM3-M4 | Soft landing 23 Aug 2023
+  [41:9:0.6] Aditya-L1 | 2 Sep 2023 | PSLV-C57 | Sun from L1
+  [41:9:0.7] XPoSat | 1 Jan 2024 | PSLV-C58 | X-ray polarimetry
+  [41:9:0.8] SpaDeX | 30 Dec 2024 | PSLV-C60 | Docking 16 Jan 2025 – India 4th to dock; satellites re-entered Oct 2026
+[41:9:1] - Other 2023 pairs: **GSLV-F12/NVS-01** – Monday **29 May 2023**; **PSLV-C56/DS-SAR** – **30 Jul 2023, 06:30 IST, First Launch Pad**. GSLV-F14/INSAT-3DS – Feb **2024**.
+[41:9:2] - All launched from **SDSC SHAR, Sriharikota (Tirupati district, AP)**.
+[41:9:3] - **Mission → aim:** **Shukrayaan = Venus**; XPoSat = X-ray astronomy (black holes), not life; Aditya-L1 = Sun, not Earth; **NETRA** = ISRO's space-situational-awareness project, not a spy satellite; **Gaganyaan** = first human spaceflight; **GEMINI** = INCOIS-GAGAN messaging device for fishermen, **not a DTH satellite**.
+[41:9:4] > APPSC order: Ch-2 (Jul 2019) → Ch-3 (Jul 2023) → Aditya-L1 (Sep 2023) → SpaDeX (Dec 2024).
+[41:9:5] ~~ Sources: PMF S&T Part 2 p.13, p.24-25; Praveen CA360 June 2026 p.76; daily CA 24 Oct 2026 p.3 (SpaDeX); app notes 5:41 sub 0
+[41:9:6] - **Exam key quirk:** TSPSC 2018 pairs AstroSat with **PSLV-C34** by elimination; AstroSat actually flew on **PSLV-C30**.
+## SUB 10 | Space Physics – Escape Velocity, Re-entry, Lagrange Points
+[41:10:0] TABLE head: Term | Meaning
+  [41:10:0.0] Escape velocity | Minimum speed to escape a body's gravity; Earth 11.2 km/s
+  [41:10:0.1] Orbital velocity | ~7.8-7.9 km/s in low Earth orbit
+  [41:10:0.2] Lagrange points | Five points (L1-L5) where a small object stays balanced; Sun-Earth L1 ~1.5 million km
+  [41:10:0.3] Soft landing | Controlled low-speed touchdown
+  [41:10:0.4] Hohmann transfer | Fuel-saving elliptical transfer with two burns (used by MOM)
+[41:10:1] - An object thrown at **8 km/s** (below 11.2 km/s) **returns to Earth** (book key; strictly a horizontal 8 km/s above the air would orbit).
+[41:10:2] - **No atmosphere on the Moon:** low gravity, so its escape velocity is **less than the RMS speed** of gas molecules, which escape.
+[41:10:3] - **Re-entry blackout:** a returning shuttle heats up and **ionises the surrounding air**, so radio contact is lost for a while – A and R both true, R explains A.
+[41:10:4] ~~ Sources: PMF S&T Part 1 p.49-50; app notes 5:41 sub 10
+## SUB 11 | Upcoming Indian Missions
+[41:11:0] TABLE head: Mission | Target | Partner / status (as of Nov 2026)
+  [41:11:0.0] Shukrayaan-1 (Venus Orbiter Mission) | Venus (not Saturn) – atmosphere, surface | Cabinet 18 Sep 2024, Rs 1,236 crore; launch window March 2028, on LVM3 (GSLV Mk III); earlier target Dec 2024
+  [41:11:0.1] Chandrayaan-4 | Lunar sample return, south polar region | Landing site finalised; launch 2028
+  [41:11:0.2] Chandrayaan-5 / LUPEX | Lunar south pole water ice (not Mars) | ISRO-JAXA (not Russia): ISRO lander, JAXA rover and H3 launcher
+  [41:11:0.3] Mangalyaan-2 | Mars landing | Targeted ~2030
+  [41:11:0.4] NISAR | Earth – hazards, climate | NASA-ISRO; launched 2025 (GSLV-F16)
+[41:11:1] - **Space Vision 2047:** **Bharatiya Antariksh Station by 2035**; **Indian on the Moon by 2040**.
+[41:11:2] - Shukrayaan: no life-detection instrument; the 2020 **phosphine** (a gas, not an element) report only raised interest in Venus.
+[41:11:3] ~~ Sources: PMF S&T Part 2 p.21, p.28, p.55-57; daily CA 2 Nov 2026 p.2 (Chandrayaan-4 2028); Praveen CA360 Feb 2026 p.110; PMF LENS Sep 2026 Part 2 p.11 (2035/2040); web: pmindia.gov.in / globalsecurity.org PIB release 18 Sep 2024 (VOM)
+
+=== OWN MCQs of 5:41 (96)
+[nc39c7fa09de] sub0
+  Which of the following pairs is INCORRECTLY matched?
+  *SuperView – South Korea's indigenous launch vehicle | Psyche – Metal-rich asteroid 16 Psyche | Europa Clipper – Jupiter's moon Europa | Nuri – South Korea's indigenous launch vehicle
+  x: SuperView provides commercial high-resolution Earth observation; Nuri is South Korea's launch vehicle.
+[f9647a4fe0503] sub0
+  Towards which target is NASA's Psyche mission (October 2023) headed?
+  Venus | *A metal asteroid | Comet Tempel-1 | Jupiter's moon Europa
+  x: Psyche goes to the metal asteroid 16 Psyche.
+[f2edd9ef63594] sub0
+  Nuri (KSLV-II), which reached orbit in 2022, is the first indigenous launcher of which country?
+  Russia | *South Korea | China | Japan
+  x: Nuri is South Korea's first indigenous launcher.
+[fb99ac10f4305] sub0
+  What is the name of the rover of ESA's ExoMars mission?
+  *Rosalind Franklin | Pragyan | Yutu-2 | Spirit
+  x: ExoMars's rover is Rosalind Franklin; Yutu-2 is China's Chang'e-4 rover.
+[ffeec41728282] sub0
+  Which mission – country pair is correctly matched?
+  Nuri – Japan | EQUULEUS – South Korea | SLIM – China | *SuperView – China
+  x: SuperView is Chinese; Nuri is South Korean, SLIM and EQUULEUS are Japanese.
+[gacbc92844aeb] sub0
+  What is the name of JAXA's next-generation rocket that replaced the H-IIA and had its first success on 17 February 2024?
+  H-IIB | Epsilon | Nuri | *H3
+  x: Japan's JAXA developed the H3 rocket to replace the H-IIA; its first successful flight was on 17 February 2024. Nuri is South Korean.
+[g80ff15e25b62] sub0
+  Beagle-2, a Mars lander carried on ESA's Mars Express in 2003, belonged to which country?
+  France | Germany | *United Kingdom | Italy
+  x: Beagle-2 was a British lander; it was lost on landing and found on the surface in 2015.
+[g8b4c2726d3cc] sub0
+  In which crater did NASA's Perseverance rover land on Mars in 2021?
+  Gale crater | *Jezero crater | Gusev crater | Shackleton crater
+  x: Perseverance landed in Jezero crater with the Ingenuity helicopter to seek signs of past life.
+[gdb1805953550] sub0
+  Of which gases is the atmosphere of Jupiter mainly made?
+  Nitrogen and oxygen | *Hydrogen and helium | Carbon dioxide and nitrogen | Methane and ammonia
+  x: Jupiter's atmosphere is mainly hydrogen and helium.
+[n4397999f29a] sub1
+  Consider the following statements about Chandrayaan-3 payloads:
+1. APXS performs passive laser ranging.
+2. Passive laser ranging is performed by NASA's laser retroreflector.
+Which of the statements given above is/are correct?
+  1 only | *2 only | Both 1 and 2 | Neither 1 nor 2
+  x: APXS determines elemental composition, so 1 is wrong; passive laser ranging is done by NASA's laser retroreflector.
+[n1ae96a53876] sub1
+  Which part of Chandrayaan-3 carried the SHAPE payload?
+  Pragyan rover | Moon Impact Probe | Vikram lander | *Propulsion Module
+  x: The Propulsion Module carried the SHAPE payload, which studies Earth from lunar orbit.
+[n25246a990b4] sub1
+  On which day does India observe National Space Day?
+  14 July | 2 September | *23 August | 15 August
+  x: National Space Day (23 August) marks Chandrayaan-3's soft landing on 23 Aug 2023.
+[fcb3735486329] sub1
+  Which Chandrayaan-3 lander payload studies moonquakes?
+  ChaSTE | LRA | APXS | *ILSA
+  x: ILSA records moonquakes; ChaSTE measures surface thermal profile.
+[fd1ca8272ba47] sub1
+  Which Chandrayaan-3 payload – function pair is correctly matched?
+  *ChaSTE – Surface thermal profile | SHAPE – Lunar soil chemistry | APXS – Moonquakes | ILSA – Elemental composition
+  x: ChaSTE measures the surface thermal profile; ILSA records moonquakes, APXS finds elements and SHAPE studies Earth.
+[f49db23fd6704] sub1
+  What was the mission life of Chandrayaan-3?
+  312 days | One Earth year | *One lunar day (about 14 Earth days) | Six months
+  x: Chandrayaan-3's lander and rover were built for one lunar day, about 14 Earth days.
+[fe4b820b9d4b8] sub1
+  About how much did Chandrayaan-3's Pragyan rover weigh?
+  3,900 kg | 1,752 kg | 260 kg | *26 kg
+  x: The rover weighed 26 kg; the lander 1,752 kg and the whole craft 3,900 kg.
+[fae2975581049] sub1
+  Consider the following statements about Chandrayaan-3 findings:
+1. Pragyan confirmed sulphur on the lunar surface.
+2. APXS found the soil rich in aluminium.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Pragyan confirmed sulphur; APXS found the soil rich in iron and magnesium but poor in aluminium.
+[g12dfd06582c6] sub1
+  Along with the Vikram lander and the Pragyan rover, which was the third part of Chandrayaan-3?
+  Orbiter | Moon Impact Probe | *Propulsion Module | Service Module
+  x: Chandrayaan-3 had a Propulsion Module, the Vikram lander and the Pragyan rover; it had no orbiter of its own.
+[g462815f623e7] sub1
+  Which countries soft-landed on the Moon before India's Chandrayaan-3?
+  *US, Russia and China | US, Russia and Japan | US, China and Japan | Russia, China and Israel
+  x: Chandrayaan-3 made India the 4th country to soft-land, after the US, Russia and China; Japan's SLIM came later as 5th.
+[g39ae07f4866f] sub1
+  What is the name of the landing site of Chandrayaan-3's Vikram lander?
+  Tiranga Point | Jawahar Point | Mons Mouton | *Shiv Shakti Point
+  x: Vikram landed on 23 August 2023 at Shiv Shakti Point; Tiranga Point is Chandrayaan-2's crash site and Jawahar Point is Chandrayaan-1's impact site.
+[g7118df2723d0] sub1
+  Chandrayaan-3 made India the first country to soft-land near which part of the Moon?
+  North pole | *South pole | Far side equator | Sea of Tranquillity
+  x: Chandrayaan-3 landed at Shiv Shakti Point, about 600 km from the lunar South Pole, the first landing near the south pole.
+[g654e9bf6a568] sub1
+  Consider the following statements about Chandrayaan-3:
+1. India became the fourth country to soft-land on the Moon.
+2. India became the first country to land near the lunar south pole.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: India was 4th to soft-land (after US, Russia, China) and 1st near the south pole.
+[ff34bc9570aec] sub2
+  Which was the first probe to hit the Moon (1959)?
+  LCROSS | *Luna 2 | SOFIA | Moon Impact Probe
+  x: USSR's Luna 2 (1959) was the first to hit the Moon.
+[gddeeec0df5b6] sub2
+  Which NASA probe hit a polar crater of the Moon in 2009 to search for water?
+  Luna 2 | *LCROSS | SOFIA | Ranger 7
+  x: LCROSS (NASA, 2009) struck a polar crater to look for water.
+[f4575b968b38b] sub2
+  Which mission made Japan the fifth country to soft-land on the Moon?
+  Chang'e-3 | Luna-25 | EQUULEUS | *SLIM
+  x: Japan's SLIM, the 'Moon sniper' (2024), made Japan the fifth soft-lander.
+[n46b154cfa07] sub2
+  Which mission made the first soft landing on the far side of the Moon (2019)?
+  Chang'e-3 | Chang'e-6 | Chang'e-5 | *Chang'e-4
+  x: Chang'e-4 made the first far-side soft landing with rover Yutu-2; Chang'e-3 (2013) was the first soft landing since 1976 and Chang'e-6 a far-side sample return.
+[nfc03c929bc9] sub2
+  In which year did India sign the Artemis Accords?
+  2019 | 2021 | *2023 | 2025
+  x: India signed the Artemis Accords in 2023; Artemis I (2022) was an uncrewed SLS-Orion test.
+[n1abe731aaa9] sub2
+  Which one of the following is correctly matched?
+  Moon Impact Probe — NASA’s 2009 polar-crater impactor | *SLIM — Japan’s fifth-nation soft landing on the Moon | Luna-25 — Successful first Russian soft landing on the Moon in 2023 | LCROSS — First spacecraft to hit the Moon in 1959
+  x: SLIM (2024) made Japan the 5th country to soft-land on the Moon with its 'Moon sniper' precision landing. The others are mismatched: India's MIP was the 2008 impact probe (NASA's LCROSS was the 2009 polar-crater impactor), Luna-25 (2023) crashed before landing, and Luna 2 (USSR, 1959) was the first to hit the Moon.
+[f531766332a5c] sub2
+  Under NASA's Artemis programme, which mission is planned to make the first crewed lunar landing?
+  Artemis III | *Artemis IV | Artemis I | Artemis II
+  x: Artemis IV (2028) is the first landing; II is a crewed flyby and III an Earth-orbit test.
+[gdf6cc6f36b5d] sub2
+  Which was China's first lunar sample-return mission (2020)?
+  Chang'e-4 | *Chang'e-5 | Chang'e-6 | Chang'e-3
+  x: Chang'e-5 (2020) was China's first lunar sample return, the first since Soviet Luna 24 (1976).
+[g44253ccfc9bd] sub2
+  Which Chinese mission of 2013 made the first soft landing on the Moon since 1976?
+  Chang'e-1 | *Chang'e-3 | Chang'e-4 | Chang'e-5
+  x: Chang'e-3 (2013) made the first lunar soft landing since 1976.
+[g16acf5591b30] sub2
+  What was the name of the lunar module of Apollo-11 that landed on the Moon on 20 July 1969?
+  Columbia | *Eagle | Falcon | Discovery
+  x: Apollo-11's lunar module Eagle carried Neil Armstrong and Buzz Aldrin to the Moon.
+[n19ff21b468f] sub3
+  India’s first interplanetary mission, launched on PSLV-C25, was designated as which of the following?
+  AstroSat | Chandrayaan-1 | *Mars Orbiter Mission | Aditya-L1
+  x: Mangalyaan was India’s first interplanetary mission and was also known as the Mars Orbiter Mission. It was launched on PSLV-C25.
+[ne3728b8984e] sub3
+  What distinction did India achieve in placing a spacecraft in Mars orbit through the Mars Orbiter Mission?
+  The second Asian nation | The third Asian nation | The first country in the world | *The first Asian nation
+  x: Through Mangalyaan (the Mars Orbiter Mission), India became the first Asian nation to place a spacecraft in Mars orbit.
+[n3343073b144] sub3
+  In which year was contact lost with Mangalyaan, which was designed for six months?
+  2016 | 2019 | *2022 | 2024
+  x: Mangalyaan entered Mars orbit on 24 Sep 2014 and worked about eight years until contact was lost in 2022.
+[nee34d0d416b] sub3
+  Consider the following statements about Mangalyaan:
+1. India became the first country to reach Mars orbit on its maiden attempt.
+2. ISRO became the fourth space agency to orbit Mars, after NASA, Roscosmos and CNSA.
+Which of the statements given above is/are correct?
+  Neither 1 nor 2 | 2 only | Both 1 and 2 | *1 only
+  x: Statement 1 is correct: MOM reached Mars orbit at the first attempt (24 Sep 2014), also making India the first Asian nation there. Statement 2 is wrong: the three earlier agencies were NASA, Roscosmos and ESA, not CNSA. So '1 only'.
+[f6bfe0c281d44] sub3
+  When did Mangalyaan enter Mars orbit?
+  24 September 2013 | 5 November 2013 | *24 September 2014 | 5 November 2014
+  x: Launched on 5 November 2013, Mangalyaan entered Mars orbit on 24 September 2014.
+[faa2c4341084c] sub3
+  How many payloads did Mangalyaan carry?
+  *5 | 7 | 3 | 11
+  x: Mangalyaan carried 5 payloads, including the Methane Sensor for Mars and the Mars Colour Camera.
+[f1399f1fa64fc] sub3
+  ISRO became the fourth agency to reach Mars, after NASA, Roscosmos and which other agency?
+  CNES | CNSA | *ESA | JAXA
+  x: ISRO came after NASA, Roscosmos and ESA, not CNSA.
+[gd6a9bba67af0] sub3
+  Which of the following was a payload of Mangalyaan?
+  Moon Mineralogy Mapper | *Methane Sensor for Mars | VELC | APXS
+  x: Mangalyaan carried 5 payloads, including the Methane Sensor for Mars; M3 was on Chandrayaan-1, VELC on Aditya-L1 and APXS on Chandrayaan-3.
+[g2212a49193f2] sub3
+  Which mission first measured methane in the atmosphere of Mars?
+  Mangalyaan | *ESA's Mars Express | NASA's Spirit | China's Tianwen-1
+  x: Methane in Mars' air was first measured by ESA's Mars Express; NASA's Curiosity also detected it.
+[n56372d73003] sub4
+  The first satellite repaired in orbit was which of the following?
+  *Solar Maximum Mission | Rohini | Aryabhata | INSAT-3B
+  x: NASA’s Solar Maximum Mission satellite was repaired by the crew of Space Shuttle Challenger in April 1984 during mission STS-41C.
+[fffe78fcf971a] sub4
+  Which space shuttle made the first Space Shuttle flight (STS-1, April 1981)?
+  Discovery | *Columbia | Challenger | Atlantis
+  x: Columbia flew the first Space Shuttle mission, STS-1, in April 1981.
+[f4b78727c8cd8] sub4
+  The crew of which space shuttle repaired NASA's Solar Maximum Mission in orbit in April 1984?
+  Discovery | Atlantis | Columbia | *Challenger
+  x: The Challenger crew (STS-41C) repaired it, the first satellite repaired in orbit.
+[g4178a804629b] sub4
+  Kalpana Chawla died when which space shuttle broke up on 1 February 2003?
+  Challenger | Atlantis | *Columbia | Discovery
+  x: Space shuttle Columbia broke up over Texas on 1 February 2003, killing all its crew including Kalpana Chawla.
+[n742b2757c61] sub5
+  Which of the following is NOT correct about Chandrayaan-2?
+  *Its Vikram lander soft-landed in September 2019 | It aimed to study lunar surface, minerals and water ice | Its orbiter kept operating | It aimed to study the lunar south polar region
+  x: Vikram's soft landing failed in September 2019, though the orbiter kept operating.
+[fa0eb1f976a82] sub5
+  What is the name of the crash site of Chandrayaan-2's Vikram lander?
+  Mons Mouton | Shiv Shakti Point | Jawahar Point | *Tiranga Point
+  x: Tiranga Point is Vikram's crash site; Jawahar Point is the Ch-1 MIP impact and Shiv Shakti the Ch-3 landing.
+[fdfedfe6fa9c5] sub5
+  In which year did the Union Cabinet approve Chandrayaan-2?
+  2019 | 2003 | *2008 | 2013
+  x: The Union Cabinet under PM Manmohan Singh approved Chandrayaan-2 in 2008.
+[g237e81f8d5e4] sub5
+  What were the names of the lander and the rover of Chandrayaan-2?
+  Lander Pragyan, rover Vikram | *Lander Vikram, rover Pragyan | Lander Vikram, rover Yutu | Lander Shiv Shakti, rover Tiranga
+  x: Chandrayaan-2 carried the lander Vikram and the rover Pragyan; Chandrayaan-3 kept the same names.
+[g12f9d9a950ec] sub5
+  Which country was originally to supply the lander for Chandrayaan-2?
+  USA | Japan | France | *Russia
+  x: Russia's Roscosmos was to supply the lander but withdrew after 2013, so ISRO built Vikram itself.
+[n1680612e274] sub5
+  Which mission's lander crash-landed on the Moon in September 2019?
+  Chandrayaan-1 | Chandrayaan-3 | Mangalyaan | *Chandrayaan-2
+  x: Chandrayaan-2's Vikram lander crash-landed in September 2019; it did not soft-land.
+[g690ad59c036c] sub6
+  From which launch pad at Sriharikota was Aditya-L1 launched?
+  First Launch Pad | *Second Launch Pad | Third Launch Pad | Dhanush
+  x: Aditya-L1 was launched from the Second Launch Pad of SDSC SHAR.
+[n515673b8d68] sub6
+  The Sun-Earth L1 point, where Aditya-L1 is in a halo orbit, is about how far from Earth?
+  15 million km | 0.38 million km | 3.5 million km | *1.5 million km
+  x: L1 is about 1.5 million km from Earth; Aditya-L1 launched on 2 Sep 2023 (PSLV-C57).
+[ne2f70082451] sub6
+  Which Aditya-L1 payload images the solar corona?
+  PAPA | ASPEX | *VELC | Magnetometer
+  x: VELC images the corona; ASPEX and PAPA are in-situ payloads studying solar-wind particles. Aditya-L1 has 7 payloads (4 remote sensing, 3 in-situ).
+[n40a1ef7bd7e] sub6
+  Which Aditya-L1 payload is correctly matched with its function?
+  SUIT – Soft X-ray spectroscopy | SoLEXS – Near-ultraviolet imaging of the solar disc | Magnetometer – Hard X-ray spectroscopy | *HEL1OS – Hard X-ray spectroscopy
+  x: HEL1OS performs hard X-ray spectroscopy. SUIT does near-ultraviolet imaging, SoLEXS soft X-ray spectroscopy, and the Magnetometer measures the magnetic field.
+[n61f1f7a810c] sub6
+  Which of the following Aditya-L1 payloads was built by the Indian Institute of Astrophysics?
+  ASPEX | SUIT | *VELC | PAPA
+  x: The Visible Emission Line Coronagraph (VELC) was built by the Indian Institute of Astrophysics.
+[f26356361989d] sub6
+  How many payloads does Aditya-L1 carry?
+  11 | *7 | 5 | 4
+  x: Aditya-L1 carries 7 payloads: 4 remote sensing and 3 in-situ.
+[ffa30ce747aa9] sub6
+  Which part of the Sun does Aditya-L1's SUIT payload study?
+  Magnetic field | Corona | Solar-wind electrons | *Photosphere and chromosphere
+  x: SUIT images the photosphere and chromosphere in near-UV; VELC studies the corona.
+[f88116a963f56] sub6
+  When was Aditya-L1 inserted into its halo orbit around L1?
+  *6 January 2024 | 2 September 2023 | 25 January 2024 | 1 January 2024
+  x: Launched on 2 September 2023, Aditya-L1 entered its halo orbit on 6 January 2024.
+[f178799e299cd] sub6
+  Which of the following is NOT a payload of Aditya-L1?
+  VELC | ASPEX | PAPA | *LIBS
+  x: LIBS is a Chandrayaan-3 rover payload; VELC, ASPEX and PAPA are on Aditya-L1.
+[g81c29d3da2e8] sub6
+  Which institute built the SUIT payload of Aditya-L1?
+  Indian Institute of Astrophysics | *IUCAA | Raman Research Institute | Physical Research Laboratory
+  x: SUIT (Solar Ultraviolet Imaging Telescope) was built by IUCAA; VELC was built by IIA.
+[ncb3cdcd41fd] sub7
+  Which is India's first dedicated multi-wavelength space observatory (2015, PSLV-C30)?
+  XPoSat | Aditya-L1 | *AstroSat | Chandrayaan-1
+  x: AstroSat observes in visible, ultraviolet and X-ray bands; XPoSat flew on PSLV-C58 on 1 Jan 2024.
+[n2007ceb5fdd] sub7
+  XPoSat is the world's second X-ray polarimetry mission. Which was the first?
+  NASA's Chandra | *NASA's IXPE | ESA's XMM-Newton | NASA's Swift
+  x: XPoSat is India's first and the world's second X-ray polarimetry mission after NASA's IXPE.
+[n739bd645d3a] sub7
+  Which institute developed the POLIX payload of XPoSat?
+  U. R. Rao Space Centre | Inter-University Centre for Astronomy and Astrophysics | *Raman Research Institute, Bengaluru | Indian Institute of Astrophysics
+  x: POLIX was developed by the Raman Research Institute (RRI), Bengaluru.
+[f3c4386ea8f99] sub7
+  AstroSat observes in which bands?
+  Radio and microwave | *Visible, UV and X-ray | Visible, infrared and microwave | Gamma-ray only
+  x: AstroSat, India's first multi-wavelength observatory, observes in visible, UV and X-ray.
+[fa7e7a926be2d] sub7
+  Which of the following is a payload of AstroSat?
+  *UVIT | VELC | ChaSTE | POLIX
+  x: UVIT is an AstroSat payload; POLIX is on XPoSat, VELC on Aditya-L1 and ChaSTE on Chandrayaan-3.
+[f643c716f172c] sub7
+  Consider the following statements about XPoSat:
+1. Its payloads are POLIX and XSPECT.
+2. It studies X-ray polarisation of black holes and neutron stars.
+3. It is the world's first X-ray polarimetry mission.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: POLIX and XSPECT study X-ray polarisation of black holes and neutron stars; XPoSat is the world's second such mission, after NASA's IXPE.
+[n906b85a06be] sub7
+  Which is India's first polarimetry mission?
+  Chandrayaan-3 | *XPoSat | Aditya-L1 | AstroSat
+  x: XPoSat is India's first polarimetry mission; Aditya-L1 is India's first solar observatory.
+[n033f9bb2cfc] sub8
+  Which one of the following is NOT a payload of Chandrayaan-1?
+  Mini-SAR | CIXS | *Lyman Alpha Photometer | TMC
+  x: TMC, Mini-SAR and CIXS were among the Chandrayaan-1 payloads. Lyman Alpha Photometer was one of Mangalyaan’s five payloads.
+[n1f0c1757fe1] sub8
+  Chandrayaan-1 carried how many scientific instruments, including NASA's Moon Mineralogy Mapper?
+  7 | 9 | *11 | 13
+  x: Chandrayaan-1 (orbiter + Moon Impact Probe) carried 11 instruments and confirmed water molecules on the lunar surface.
+[na83558cb08e] sub8
+  India became the fourth nation to place its flag on the Moon through an impact probe. Which sequence lists the nations preceding India in this achievement?
+  *USSR, USA and Japan | USA, China and Russia | USSR, China and Japan | USA, Japan and France
+  x: India was the fourth nation to place its flag on the Moon through an impact probe, after the USSR, the USA and Japan.
+[f6e77115c463f] sub8
+  When did Chandrayaan-1's Moon Impact Probe hit the Moon?
+  22 October 2008 | 23 August 2023 | *14 November 2008 | 29 August 2009
+  x: The MIP hit the south polar region on 14 November 2008, at Jawahar Point.
+[fb217970422eb] sub8
+  Through which NASA instrument did Chandrayaan-1 confirm water molecules on the lunar surface?
+  *Moon Mineralogy Mapper (M3) | Mini-SAR | SOFIA | LCROSS
+  x: NASA's M3 on Chandrayaan-1 detected water/hydroxyl and confirmed water molecules.
+[fde98cfc53501] sub8
+  Which of the following is NOT correct about Chandrayaan-1?
+  Its Moon Impact Probe hit Jawahar Point | Contact with it was lost on 29 August 2009 | *It carried the Lyman Alpha Photometer | It carried 11 instruments
+  x: The Lyman Alpha Photometer was a Mangalyaan payload, not a Chandrayaan-1 one.
+[n80335193f34] sub8
+  What is the name of the impact site of Chandrayaan-1's Moon Impact Probe?
+  Shiv Shakti Point | Tiranga Point | *Jawahar Point | Vikram Point
+  x: Jawahar Point is the MIP impact site; Tiranga Point is where Chandrayaan-2's Vikram crashed and Shiv Shakti Point Chandrayaan-3's landing site.
+[n0ba64feeecf] sub9
+  Which launch vehicle launched Mangalyaan?
+  PSLV-C11 | PSLV-C30 | *PSLV-C25 | GSLV Mk III-M1
+  x: Mangalyaan flew on PSLV-C25; Chandrayaan-1 used PSLV-C11, AstroSat PSLV-C30 and Chandrayaan-2 GSLV Mk III-M1.
+[n52a9f9fb8f0] sub9
+  When was Chandrayaan-3 launched?
+  1 January 2024 | 23 August 2023 | 2 September 2023 | *14 July 2023
+  x: Chandrayaan-3 was launched on 14 July 2023 on LVM3-M4 and soft-landed on 23 August 2023.
+[n9f86adf17bc] sub9
+  The pair GSLV-F14 and INSAT-3DS is associated with which year?
+  2022 | 2023 | *2024 | 2025
+  x: GSLV-F14 launched INSAT-3DS in February 2024. Therefore, the pairing with 2022 is incorrect.
+[n0218622aab5] sub9
+  Chandrayaan-1, 2 and 3, Mangalyaan, AstroSat, Aditya-L1 and XPoSat were all launched from which facility?
+  *Satish Dhawan Space Centre SHAR, Sriharikota | Vikram Sarabhai Space Centre, Thiruvananthapuram | Dr. Abdul Kalam Island, Odisha | U.R. Rao Satellite Centre, Bengaluru
+  x: The missions were launched from the Satish Dhawan Space Centre SHAR at Sriharikota, located in Tirupati district of Andhra Pradesh.
+[nc5e49d7b070] sub9
+  Which launch vehicle launched Chandrayaan-3?
+  PSLV-C57 | LVM3-M5 | GSLV Mk III-M1 | *LVM3-M4
+  x: Chandrayaan-3 flew on LVM3-M4 and soft-landed on 23 Aug 2023; PSLV-C57 launched Aditya-L1.
+[n38927c2dd11] sub9
+  India’s achievement of becoming the fourth country to dock in space was associated with which mission?
+  *SpaDeX | Aditya-L1 | Mangalyaan | Chandrayaan-3
+  x: The SpaDeX mission made India the fourth country to achieve docking in space on 16 January 2025.
+[f2d996942dc5f] sub9
+  Which launch vehicle launched AstroSat in 2015?
+  PSLV-C11 | PSLV-C57 | *PSLV-C30 | PSLV-C25
+  x: AstroSat flew on PSLV-C30 on 28 September 2015.
+[fd88907fd69ea] sub9
+  Which launch vehicle launched Chandrayaan-2 on 22 July 2019?
+  *GSLV Mk III-M1 | PSLV-C11 | LVM3-M4 | PSLV-C25
+  x: Chandrayaan-2 flew on GSLV Mk III-M1; Chandrayaan-3 used LVM3-M4.
+[fb02069ce1a89] sub9
+  Which launch vehicle launched XPoSat on 1 January 2024?
+  PSLV-C60 | PSLV-C57 | *PSLV-C58 | PSLV-C56
+  x: XPoSat flew on PSLV-C58; PSLV-C57 carried Aditya-L1.
+[f080ed22832c7] sub9
+  Arrange in chronological order:
+1. SpaDeX
+2. Chandrayaan-3
+3. Chandrayaan-2
+4. Aditya-L1
+  3-2-1-4 | 3-4-2-1 | *3-2-4-1 | 2-3-4-1
+  x: Chandrayaan-2 (Jul 2019), Chandrayaan-3 (Jul 2023), Aditya-L1 (Sep 2023), SpaDeX (Dec 2024).
+[g738303578295] sub9
+  Which launch vehicle launched Chandrayaan-1 on 22 October 2008?
+  *PSLV-C11 | PSLV-C25 | PSLV-C30 | GSLV Mk III-M1
+  x: Chandrayaan-1 flew on PSLV-C11; PSLV-C25 carried Mangalyaan and PSLV-C30 carried AstroSat.
+[n6245be4affa] sub10
+  What is a Hohmann transfer?
+  A controlled low-speed touchdown on a planetary surface | A point of gravitational balance in a two-body system | A direct vertical launch requiring continuous engine thrust | *A fuel-efficient transfer between two orbits using an elliptical orbit and two engine burns
+  x: A Hohmann transfer uses an elliptical transfer orbit and two engine burns to move between two orbits efficiently. Mangalyaan used this method to reach Mars.
+[n55224f4306d] sub10
+  In a two-body system, what are the points at which a small object can remain in balance called?
+  Hubble points | *Lagrange points | Kepler points | Hohmann points
+  x: Lagrange points are five points, L1 to L5, in a two-body system where a small object can remain in balance. The Sun–Earth L1 point is about 1.5 million km sunward of Earth.
+[f17fb5c2d43b9] sub10
+  How many Lagrange points exist in a two-body system?
+  Three | Four | *Five | Seven
+  x: There are five Lagrange points, L1 to L5.
+[n8f7136287df] sub11
+  Around which planet is the Venus Orbiter Mission, also known as Shukrayaan, intended to orbit?
+  *Venus | Jupiter | Saturn | Mars
+  x: Shukrayaan, or the Venus Orbiter Mission, targets Venus. It is not a mission to Saturn.
+[n92e06408af9] sub11
+  What type of mission is Chandrayaan-4, with a landing site near Mons Mouton, planned to be?
+  Joint lunar polar mission with JAXA | *Lunar sample-return mission | Crewed lunar landing | Lunar orbiter only
+  x: Chandrayaan-4 is a sample-return mission (regolith and ice); the JAXA partnership is Chandrayaan-5/LUPEX.
+[n3ff657e30ba] sub11
+  Under India's Space Vision 2047, by which year is an Indian to be placed on the Moon?
+  2035 | *2040 | 2045 | 2047
+  x: The vision envisages the Bharatiya Antariksh Station by 2035 and an Indian on the Moon by 2040.
+[f4d6ebef011b3] sub11
+  What type of mission is Mangalyaan-2, targeted for 2030, planned to be?
+  Venus orbiter | *Mars landing mission | Lunar sample return mission | Mars orbiter
+  x: Mangalyaan-2 aims at a Mars landing.
+[f94d06312af3a] sub11
+  What is the Cabinet-approved cost of Shukrayaan?
+  Rs 1,632 crore | Rs 2,136 crore | *Rs 1,236 crore | Rs 1,326 crore
+  x: The Venus Orbiter Mission is approved at Rs 1,236 crore.
+[f7ba8beecaa06] sub11
+  Under Space Vision 2047, by which year is the Bharatiya Antariksh Station to be set up?
+  2040 | 2047 | 2030 | *2035
+  x: The station is targeted for 2035 and an Indian on the Moon for 2040.
+[ge67857634a02] sub11
+  With which space agency is India planning the LUPEX (Chandrayaan-5) mission?
+  ESA | NASA | *JAXA | Roscosmos
+  x: LUPEX (Chandrayaan-5) is a joint lunar south pole water-ice mission of ISRO and Japan's JAXA.
+
+=== NOTES 5:42 | Human Spaceflight – Gaganyaan and Bharatiya Antariksh Station
+## SUB 0 | Human Spaceflight Firsts and Records
+[42:0:0] # World firsts
+[42:0:1] TABLE head: First | Who / what | When
+  [42:0:1.0] Artificial satellite | Sputnik-1, USSR (NASA was set up in 1958 in response) | 4 Oct 1957
+  [42:0:1.1] Human in space | Yuri Gagarin, Vostok 1 (~108 min orbit) – first successful human spaceflight | 12 Apr 1961
+  [42:0:1.2] American in space | Alan Shepard (Mercury, suborbital); John Glenn first American to orbit | 1961 / 1962
+  [42:0:1.3] Woman in space | Valentina Tereshkova, Vostok-6 (USSR) | 16 Jun 1963
+  [42:0:1.4] Dog in orbit | Laika (Sputnik-2) | 1957
+  [42:0:1.5] Human on the Moon | Neil Armstrong (with Buzz Aldrin), Apollo 11 – USA; the USSR never landed a human | 1969
+  [42:0:1.6] China's first crewed flight | Yang Liwei, Shenzhou-5, launcher Chang Zheng-2F; project code 921; China the 3rd nation (not 5th) | 15 Oct 2003
+[42:0:2] - **Own crewed launch so far:** **USSR/Russia, USA, China** only – India (Gaganyaan) would be the **4th**.
+[42:0:3] - Distractors: Bachendri Pal and Junko Tabei are Everest climbers; Sally Ride = first American woman in space; Magellan = navigator.
+[42:0:4] # Records
+[42:0:5] TABLE head: Person | Record
+  [42:0:5.0] Oleg Kononenko (Russia) | Most cumulative days in space – 1,110.6 days; record broken 4 Feb 2024 (from Gennady Padalka)
+  [42:0:5.1] Mark Vande Hei | Longest single NASA flight, 355 days on the ISS (2021-22); now Frank Rubio, 371 days (2023)
+  [42:0:5.2] Peggy Whitson | Most spacewalks by a woman (10); US record for cumulative days; commanded Axiom-4
+  [42:0:5.3] Christina Koch | Longest single flight by a woman, 328 days (2019-20); named to Artemis II in April 2023; flew around the Moon in Orion, April 2026 – first woman to do so
+  [42:0:5.4] Sunita Williams | Then-record 195 days for a woman (from Dec 2006); 286-day stay ended Mar 2025
+  [42:0:5.5] Tim Peake | British ESA astronaut, ISS crew
+[42:0:6] # Indians and Indian-origin astronauts
+[42:0:7] TABLE head: Person | Fact
+  [42:0:7.0] Rakesh Sharma | First Indian in space, Apr 1984, Soyuz T-11 (USSR); he and Ravish Malhotra (back-up) were IAF test pilots trained in the USSR
+  [42:0:7.1] Kalpana Chawla | First Indian-origin woman in space (NASA, 1997); died in Columbia (2003)
+  [42:0:7.2] Sunita Williams | Second Indian-origin woman flown by NASA; daughter of Deepak Pandya and Ursuline Bonnie; an experienced US Navy test pilot (so "no flying experience" is false)
+  [42:0:7.3] Shubhanshu Shukla | First Indian on the ISS; second Indian in space
+  [42:0:7.4] Anil Menon | Indian-origin NASA astronaut; Soyuz MS-29 (Jul 2026), 8 months
+[42:0:8] # Axiom-4
+[42:0:9] - **Axiom-4:** **25 Jun 2025**, **SpaceX Dragon on Falcon 9**; NASA, Axiom Space, ESA; **18 days** on the ISS; returned 15 Jul 2025.
+[42:0:10] - Crew: **Peggy Whitson** (commander), Shukla (pilot), Uznanski (**Poland**), Kapu (**Hungary**).
+[42:0:11] - **7 Indian microgravity experiments** (under HSFC): muscle regeneration, algae, **moong and methi**, microbes, **tardigrades**, cognition, cyanobacteria (not lunar soil mining).
+[42:0:12] > Most-asked angle: "first" questions – Gagarin/Vostok 1, Tereshkova, Armstrong, Sputnik/USSR, Rakesh Sharma (Soyuz T-11).
+[42:0:13] ~~ Sources: PMF S&T Part 2 p.33, p.48-49; Praveen CA360 Apr 2026 p.69; app notes 5:42 sub 3, 8
+[42:0:14] - **Dezik and Tsygan:** Soviet dogs flown on an **R-1V suborbital rocket, 22 July 1951** – the first animals recovered alive from a suborbital flight.
+[42:0:15] - **Names for space travellers:** **cosmonaut** – Russia; **astronaut** – USA; **taikonaut** – China; **spationaut** – France (keys pair it with Germany); **vyomanaut / gaganyatri** – India.
+## SUB 1 | Space Stations – ISS, Tiangong and BAS
+[42:1:0] TABLE head: Feature | ISS | Tiangong
+  [42:1:0.0] Owner | NASA, Roscosmos, ESA, JAXA, CSA (not ISRO); intergovernmental treaties | China alone
+  [42:1:0.1] Modules | Zarya (Russian, first, 1998), Unity (US), Zvezda, Destiny (US lab), Kibo (Japan), Columbus | Tianhe core (2021) + Wentian (Jul 2022) + Mengtian (final, Oct 2022)
+  [42:1:0.2] Status | ~400 km; crewed since Nov 2000; retire ~2030 | Completed 2022
+[42:1:1] - Strictly, the ISS is no longer the only active modular station in LEO – Tiangong is one too.
+[42:1:2] - **BAS (Bharatiya Antariksh Station):** approved **Sep 2024**; **five modules**; base module **BAS-1 by 2028** on LVM3; full station **2035**; Indian on the Moon by **2040**.
+[42:1:3] - Precursors: **SpaDeX** (PSLV-C60, docked 16 Jan 2025; India 4th) – a docking demonstrator; Axiom-4, Gaganyaan.
+[42:1:4] # Microgravity research (UPSC 2025)
+[42:1:5] - **Axiom-4** (ISS experiments) and **Gaganyaan** (crew microgravity experiments) support microgravity research; **SpaDeX** = docking technology → UPSC key "**only two**" (some books say all three, as SpaDeX's POEM-4 flew experiments).
+[42:1:6] ~~ Sources: PMF S&T Part 2 p.27-28, p.44-47; web: anantamias.com UPSC Prelims 2025 Q93; app notes 5:42 sub 7
+## SUB 2 | Test Missions, Vyommitra and Gaganyatris
+[42:2:0] TABLE head: Test | Date | What it proved
+  [42:2:0.0] CARE | 18 Dec 2014 (LVM3-X) | Crew-module re-entry
+  [42:2:0.1] TV-D1 | 18 Oct 2023, Sriharikota | Crew Escape System abort at Mach 1.2; sea recovery
+  [42:2:0.2] IADT-01 | 24 Aug 2025 | 4.8 t module dropped from 3 km by IAF Chinook, at SDSC-SHAR
+  [42:2:0.3] IADT-02 | 10 Apr 2026 | 5.7 t module; 10 parachutes of 4 types; Navy recovery
+  [42:2:0.4] SOLVE | 3 Jul 2026 | Solid-motor ground test
+[42:2:1] - **Vyommitra:** AI-enabled **female** half-humanoid robot; flies on the **uncrewed G1 and G2**; monitors cabin pressure, temperature, oxygen and life support – calling it a "male robot" is false.
+[42:2:2] # Gaganyatris (named Feb 2024)
+[42:2:3] TABLE head: Astronaut | Rank
+  [42:2:3.0] Prasanth Balakrishnan Nair | Group Captain
+  [42:2:3.1] Ajit Krishnan | Group Captain
+  [42:2:3.2] Angad Pratap | Group Captain
+  [42:2:3.3] Shubhanshu Shukla | Wing Commander (later Group Captain)
+[42:2:4] - All **IAF test pilots**; **Pankaj M. Sinha is NOT** a Gaganyatri.
+[42:2:5] - Selection: IAF's **Institute of Aerospace Medicine (IAM), Bengaluru**.
+[42:2:6] - Training: **Yuri Gagarin Cosmonaut Training Centre, Russia** (via Glavkosmos, Roscosmos' arm) → ISRO **Astronaut Training Facility, Bengaluru**; Shukla and Nair trained in the US for Axiom-4; zero-g via aircraft **parabolic flights**.
+[42:2:7] ~~ Sources: PMF S&T Part 2 p.27; app notes 5:42 sub 1-2
+[42:2:8] - **Gaganyaan statements (APPSC):** first crewed orbital spacecraft of the programme ✓; DRDO supports human-centric systems ✓; Vyommitra "male" ✗; GSLV Mk II ✗ (HLVM3).
+[42:2:9] - **HSFC (Human Space Flight Centre):** created within ISRO/DoS to oversee Gaganyaan; Russia's Glavkosmos trained the crew.
+## SUB 3 | Microgravity and the Human Body
+[42:3:0] - **Weightlessness** = free fall: craft and astronaut fall with the same **g**, so the **normal force is zero** – books call it "**zero gravity**".
+[42:3:1] - No gravity → **weight becomes zero but mass stays the same**; an astronaut's mass never becomes zero.
+[42:3:2] - No candle flame in space; astronauts cannot stand erect; an apple released moves along with the ship.
+[42:3:3] - Moon weight = **1/6** of Earth's; at **Earth's centre**, true g is zero.
+[42:3:4] TABLE head: Condition | Effect
+  [42:3:4.0] Bone loss | 1–1.5% bone mass a month
+  [42:3:4.1] Muscle atrophy | Postural muscles weaken
+  [42:3:4.2] Fluid shift | "Puffy face, bird legs"
+  [42:3:4.3] Space Adaptation Syndrome | Space motion sickness
+  [42:3:4.4] SANS | Optic disc swelling, vision changes
+[42:3:5] - **Charlie Brown effect:** fluid-shift **puffy face and thin legs** in microgravity (not Snoopy or Peanuts effect).
+[42:3:6] - Space medicine is also studied through ground **analogues**, not only spaceflight.
+[42:3:7] ~~ Sources: app notes 5:42 sub 6
+## SUB 4 | Infrastructure, Institutions and Analogue Missions
+[42:4:0] TABLE head: Body / facility | Role
+  [42:4:0.0] Human Space Flight Centre (HSFC), Bengaluru | New ISRO vertical leading Gaganyaan
+  [42:4:0.1] IAM, Bengaluru | Selection, aeromedical tests, MITRA
+  [42:4:0.2] ISTRAC, Bengaluru | Tracking network; ESA adds ground stations (Sep 2026)
+  [42:4:0.3] Third Launch Pad, Sriharikota | Preparations from Dec 2019; approved Jan 2025, ₹4,000 crore; for NGLV and human spaceflight
+  [42:4:0.4] Dhanush, Sriharikota | India's first private launch pad, Agnikul Cosmos
+  [42:4:0.5] Kulasekarapattinam (TN) | SSLV complex; foundation 27 Aug 2025
+[42:4:1] - **ISRO Human Spaceflight Expo**: **Jawaharlal Nehru Planetarium, Bengaluru**, **22-24 Jul 2022**.
+[42:4:2] # Analogue missions
+[42:4:3] - **India's first analogue space mission**: **Leh, Ladakh**, **Nov 2024** (with **AAKA**, **IIT Bombay**) – simulates life in an interplanetary habitat; data for selection, **ECLSS**, work-rest schedules.
+[42:4:4] - **HOPE** (Himalayan Outpost for Planetary Exploration): **Tso Kar**, Ladakh; early-Mars-like – high UV, low pressure, cold, saline permafrost.
+[42:4:5] - **MITRA**: crew **behavioural** study at Leh with **IAM**; hypoxia, cold, isolation.
+[42:4:6] ~~ Sources: PMF S&T Part 2 p.29-30; app notes 5:42 sub 4-5
+## SUB 5 | Gaganyaan – Programme, Spacecraft and Flights
+[42:5:0] - India's **first human spaceflight programme**; approved **2018**; **crew of 3** to a **~400 km LEO** for **3 days**; splashdown in Indian waters, recovery by the **Indian Navy**.
+[42:5:1] - Vehicle: **HLVM3** (human-rated LVM3) from **Sriharikota** – not GSLV Mk II; GSLV Mk-III structures redesigned; **Vikas** engine for the L110 stage qualified in **3 tests**.
+[42:5:2] - Partners: **Russia and France** cooperate; **DRDO** gives human-centric systems (parachutes, life support, crew recovery).
+[42:5:3] # Spacecraft
+[42:5:4] TABLE head: Part | Role
+  [42:5:4.0] Orbital Module | Crew Module + Service Module; put into orbit by HLVM3
+  [42:5:4.1] Crew Module | Pressurised habitat for 3; survives re-entry; parachutes, sea splashdown
+  [42:5:4.2] Service Module | Propulsion, power on orbit; fires thrusters to de-orbit, then burns up
+  [42:5:4.3] Crew Escape System | Solid motors pull the Crew Module away if the rocket fails
+[42:5:5] - Gaganyaan = **two** parts; Russia's **Soyuz** and China's **Shenzhou** = **three** modules (orbital, descent, service).
+[42:5:6] # Flights and timeline
+[42:5:7] - Sequence: uncrewed **G1 → G2 → G3 → crewed H1**; programme revised to 8 missions (6 uncrewed, 2 crewed); H1 now targeted **Q1 2027**.
+[42:5:8] - Original target: **December 2021** (stated in 2018) → repeatedly revised; quote with the statement date.
+[42:5:9] ~~ Sources: PMF S&T Part 2 p.3-5, p.25-28; app notes 5:42 sub 0
+
+=== OWN MCQs of 5:42 (70)
+[na1f50a4870b] sub0
+  Which of the following countries already had its own crewed space-launch capability before Gaganyaan?
+  *China | Canada | Japan | France
+  x: Only the USSR/Russia, the USA and China have their own crewed launch capability; Gaganyaan would make India the fourth.
+[g8482f64313fa] sub0
+  If Gaganyaan's crewed flight succeeds, India will become which country to send humans into space on its own?
+  Second | Third | *Fourth | Fifth
+  x: Only the USSR, the USA and China have launched humans on their own, so India would be the fourth.
+[n1bf963f03f9] sub0
+  About how long did Shubhanshu Shukla stay aboard the ISS during Axiom-4 (2025)?
+  14 days | *18 days | 21 days | 28 days
+  x: Shukla's ISS stay was 18 days; Axiom-4 launched on 25 June 2025 on a SpaceX Dragon/Falcon 9.
+[n6380f0c335d] sub0
+  Who commanded the Axiom-4 crew in which Shubhanshu Shukla flew as pilot?
+  Sunita Williams | *Peggy Whitson | Michael López-Alegría | Christina Koch
+  x: Peggy Whitson commanded Axiom-4; Shukla became the first Indian aboard the ISS and the second Indian in space.
+[nef5d4c53cc3] sub0
+  Aboard which spacecraft and in which year did Rakesh Sharma become the first Indian in space?
+  *Soyuz T-11 in April 1984 | Soyuz T-10 in April 1984 | Ariane-1 in April 1984 | Soyuz T-11 in April 1975
+  x: Rakesh Sharma was the first Indian in space and flew aboard Soyuz T-11 in April 1984, under the USSR programme.
+[n610901cbb8b] sub0
+  Which one of the following was NOT among the areas of the seven Indian microgravity experiments conducted during Axiom-4?
+  Cognitive performance | Crop viability | Muscle regeneration | *Lunar soil mining
+  x: The experiments included muscle regeneration, crop viability and cognitive performance, among other biological and life-science themes. Lunar soil mining was not listed as an experiment area.
+[fc339a300cafb] sub0
+  On which spacecraft and rocket was Axiom-4, which carried Shubhanshu Shukla to the ISS in June 2025, launched?
+  Soyuz MS spacecraft on a Soyuz rocket | Boeing Starliner on Atlas V | *SpaceX Dragon on Falcon 9 | Crew module on HLVM3
+  x: Axiom-4 (25 Jun 2025) flew on a SpaceX Dragon atop a Falcon 9.
+[f12d4bc026f16] sub0
+  For which distinction is Shubhanshu Shukla known?
+  First Indian in space | First Indian-origin woman in space | First Indian on Tiangong | *First Indian on the ISS
+  x: Shukla is the first Indian on the ISS and the second Indian in space; Rakesh Sharma was the first Indian in space (1984).
+[f756b5dc56278] sub0
+  Which Indian-origin NASA astronaut flew on Soyuz MS-29 in July 2026 for an eight-month mission?
+  *Anil Menon | Sunita Williams | Raja Chari | Shubhanshu Shukla
+  x: Anil Menon, an Indian-origin NASA astronaut, flew on Soyuz MS-29 in July 2026 for 8 months.
+[gea7a0f85d935] sub0
+  Besides India, astronauts from which two countries flew with Shubhanshu Shukla on the Axiom-4 mission?
+  *Poland and Hungary | Japan and Canada | Germany and France | Israel and UAE
+  x: The Axiom-4 crew had Peggy Whitson (US), Shukla (India), Uznanski (Poland) and Kapu (Hungary).
+[g8d20e2d5f18d] sub0
+  Peggy Whitson, commander of the Axiom-4 mission, holds which record?
+  *Most spacewalks by a woman | First woman in space | Longest single flight by a NASA astronaut | First woman to walk on the Moon
+  x: Peggy Whitson holds the record for most spacewalks by a woman and the US record for cumulative days in space.
+[g61ba2deea41e] sub0
+  Who was China's first astronaut, flown on Shenzhou-5 in October 2003?
+  Zhai Zhigang | Liu Yang | Wang Yaping | *Yang Liwei
+  x: Yang Liwei flew on Shenzhou-5 on 15 October 2003, making China the 3rd country to launch a human, after the USSR and USA.
+[g7f17a3f773e6] sub0
+  Who was the first American in space?
+  John Glenn | *Alan Shepard | Neil Armstrong | Gus Grissom
+  x: Alan Shepard was the first American in space, after Yuri Gagarin.
+[nefcc1afb99d] sub1
+  Which ISS module is correctly matched?
+  *Kibo – Japan | Zarya – United States | Destiny – Russia | Zvezda – First ISS module
+  x: Kibo is the Japanese module. Zarya was the first ISS module, Zvezda is Russian and Destiny is the US module.
+[nf601fa938ba] sub1
+  Consider the following statements about China's Tiangong space station:
+1. It was completed in 2022.
+2. It is owned by China alone.
+3. It consists of the Tianhe core module along with Wentian and Mengtian.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | 1 and 3 only | *1, 2 and 3
+  x: All three are correct: Tiangong, completed in 2022, is China's alone and has the Tianhe core with the Wentian and Mengtian modules.
+[naec76c197b9] sub1
+  Which of the following agencies jointly operate the International Space Station?
+  *NASA, Roscosmos, JAXA, ESA and CSA | NASA, ISRO, CNSA, ESA and Roscosmos | Roscosmos, CNSA, JAXA, ISRO and NASA | NASA, ESA, ISRO, CNSA and CSA
+  x: The ISS is operated by NASA, Roscosmos, JAXA, the European Space Agency (ESA) and the Canadian Space Agency (CSA).
+[n541af7ef612] sub1
+  Which was the first module of the International Space Station (1998)?
+  Zvezda | Destiny | *Zarya | Kibo
+  x: Zarya was the first module; the ISS, at about 400 km, has been inhabited since November 2000 and is to retire around 2030.
+[n948c077b6fc] sub1
+  By which year is the full Bharatiya Antariksh Station targeted for completion?
+  2028 | 2030 | *2035 | 2040
+  x: The full station is targeted by 2035 (BAS-1 by 2028); 2040 is the target for an Indian on the Moon.
+[fb4c590d678f3] sub1
+  Around which year is the International Space Station expected to retire?
+  2025 | 2035 | 2040 | *2030
+  x: The ISS, inhabited since November 2000, is to retire around 2030.
+[f131c1e92a144] sub1
+  By which year is BAS-1, the base module of the Bharatiya Antariksh Station, targeted for launch?
+  *2028 | 2027 | 2035 | 2040
+  x: BAS-1 is targeted by 2028 on LVM3; the full five-module station by 2035.
+[f4a2847bb1dc5] sub1
+  Consider the following statements about the Bharatiya Antariksh Station:
+1. It was approved in September 2024.
+2. It will have five modules.
+3. Its base module will be launched on PSLV.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: BAS was approved in Sep 2024 and will have five modules; BAS-1 goes up on LVM3, not PSLV.
+[f62da91adb638] sub1
+  On which launch vehicle was SpaDeX, a precursor mission for the Bharatiya Antariksh Station that docked on 16 January 2025, launched?
+  PSLV-C58 | GSLV-F15 | *PSLV-C60 | LVM3-M5
+  x: SpaDeX flew on PSLV-C60 and docked on 16 Jan 2025, making India the 4th country to dock.
+[fc43d48e4d36d] sub1
+  Which country contributed Kibo, a module of the International Space Station?
+  Russia | Europe | Canada | *Japan
+  x: Kibo is Japan's ISS module; Zarya (1998) was the first module.
+[g96d22b29e15b] sub1
+  Since when has the International Space Station been continuously inhabited?
+  November 1998 | *November 2000 | June 2005 | December 2011
+  x: The ISS, whose first module Zarya went up in 1998, has been inhabited since November 2000.
+[nd9d6b23fc36] sub2
+  What did the TV-D1 mission demonstrate?
+  Only the docking of two spacecraft in orbit | Deployment of the Bharatiya Antariksh Station | *In-flight crew escape at Mach 1.2, crew-module separation and sea recovery | A crewed lunar landing
+  x: TV-D1 demonstrated an in-flight abort of the Crew Escape System at Mach 1.2, followed by crew-module separation and sea recovery.
+[nb067ff9cbf2] sub2
+  Which Gaganyaan-related test was for crew-module re-entry?
+  SOLVE | IADT-01 | *CARE | IADT-02
+  x: CARE tested re-entry; IADT-01 and IADT-02 were air-drop tests and SOLVE a solid-motor test.
+[n95c8c8d0949] sub2
+  Where was IADT-01, the first Integrated Air Drop Test, conducted?
+  Leh | Thiruvananthapuram | Kulasekarapattinam | *SDSC-SHAR
+  x: IADT-01 was conducted at SDSC-SHAR; IADT-02 was associated with April 2026.
+[n38a1b6d630d] sub2
+  What is Vyommitra, planned to fly on the uncrewed G1 and G2 missions?
+  A male humanoid robot for the crewed flight | The parachute recovery system of the Crew Escape System | *An AI-enabled female-form half-humanoid robot | An unmanned space station module
+  x: Vyommitra is an AI-enabled, female-form semi-humanoid robot meant to fly on the uncrewed G1 and G2 missions before the crewed flight.
+[fe00a9eeefe2c] sub2
+  In IADT-02 (10 April 2026), how heavy was the module dropped to test Gaganyaan parachutes?
+  4.8 t | *5.7 t | 3.0 t | 7.5 t
+  x: IADT-02 used a 5.7 t module with 10 parachutes of 4 types; IADT-01 used a 4.8 t module.
+[ffbcd46044720] sub2
+  Which IAF aircraft dropped the 4.8 t crew module in the IADT-01 air-drop test?
+  C-17 Globemaster | Mi-17 | C-130J Hercules | *Chinook
+  x: IADT-01 (24 Aug 2025) dropped a 4.8 t module from 3 km using an IAF Chinook at SDSC-SHAR.
+[f47c9738ef1d1] sub2
+  At what speed did the TV-D1 test (18 October 2023) demonstrate a Crew Escape System abort?
+  *Mach 1.2 | Mach 0.8 | Mach 2.0 | Mach 3.5
+  x: TV-D1 tested a Crew Escape System abort at Mach 1.2, followed by sea recovery.
+[f820127599630] sub2
+  Which of the following is NOT correct about Vyommitra?
+  It is an AI-enabled half-humanoid robot | It is to fly on the uncrewed G1 flight | *It is a male robot | It is to fly on the G2 flight
+  x: Vyommitra is an AI-enabled female half-humanoid robot that flies on G1 and G2; calling it male is false.
+[ne9d85fa42f0] sub2
+  Which one of the following groups consists entirely of the four Gaganyatris named in February 2024?
+  Prasanth Balakrishnan Nair, Pankaj M. Sinha, Angad Pratap and Shubhanshu Shukla | Ajit Krishnan, Pankaj M. Sinha, Angad Pratap and Shubhanshu Shukla | Prasanth Balakrishnan Nair, Ajit Krishnan, Pankaj M. Sinha and Angad Pratap | *Prasanth Balakrishnan Nair, Ajit Krishnan, Angad Pratap and Shubhanshu Shukla
+  x: The four Gaganyatris named in February 2024 were Prasanth Balakrishnan Nair, Ajit Krishnan, Angad Pratap and Shubhanshu Shukla. Pankaj M. Sinha is not one of them.
+[n8a6c185e4c4] sub2
+  Which IAF institution carried out the Gaganyatri selection and aeromedical testing?
+  *Institute of Aerospace Medicine, Bengaluru | Armed Forces Medical College, Pune | Command Hospital, Bengaluru | Air Force Academy, Dundigal
+  x: IAM Bengaluru did selection and testing; basic training was at the Yuri Gagarin Centre, Russia, then ISRO's facility in Bengaluru.
+[f1a17f5f73597] sub2
+  The four Gaganyatris named in February 2024 all have which service background?
+  *IAF test pilots | Indian Navy pilots | Army aviators | ISRO scientists
+  x: All four Gaganyatris are IAF test pilots.
+[f864bb85137cd] sub2
+  Where did the Gaganyatris receive basic training abroad?
+  Johnson Space Center, USA | *Yuri Gagarin Cosmonaut Training Centre, Russia | European Astronaut Centre, Germany | Tsukuba Space Center, Japan
+  x: Basic training was at the Yuri Gagarin Cosmonaut Training Centre, Russia, followed by ISRO's Astronaut Training Facility, Bengaluru.
+[g27e9e277a7bf] sub2
+  How is zero-gravity training given to the Gaganyatris?
+  In a centrifuge | *Through aircraft parabolic flights | In a hyperbaric chamber | On the Moon-gravity rail at Leh
+  x: Zero-g training is given through parabolic flights of aircraft.
+[n17ea186d6e9] sub2
+  Where was the Gaganyaan test flight TV-D1 conducted?
+  Kulasekarapattinam | Thumba | *Sriharikota | Chandipur
+  x: TV-D1, both air-drop tests, all Gaganyaan launches and the proposed Third Launch Pad are at Sriharikota.
+[n2a84f6958c6] sub3
+  Which of the following is NOT correct about microgravity and space medicine?
+  *Space medicine is studied only through actual spaceflight, not ground analogues. | Radiation exposure increases the risk of cancer and cataracts. | Daily resistance and treadmill exercise are used as countermeasures. | Diet and medication are part of the countermeasure strategy.
+  x: Space medicine is also studied through ground analogues such as Leh and HOPE.
+[n2b700f405c8] sub3
+  What does Spaceflight-Associated Neuro-ocular Syndrome (SANS) mainly cause?
+  Space motion sickness in the first days | Loss of hearing | Weakening of postural muscles | *Optic disc swelling and vision changes
+  x: SANS causes optic disc swelling and vision changes; space motion sickness is Space Adaptation Syndrome.
+[nphysics-23-15] sub3
+  Which of the following weightlessness situations is INCORRECTLY explained?
+  *Centre of Earth – Gravitational pull becomes negligible with distance | Freely falling lift – The floor no longer pushes up, so normal force is zero | Orbiting satellite – Satellite and astronaut accelerate towards Earth with the same g | Deep space far from all masses – Gravitational pull becomes negligible with distance
+  x: At the Earth's centre true g is zero because the pulls of the surrounding mass cancel; negligible pull with distance is the deep-space case.
+[n961a50aef03] sub3
+  To what does the expression "puffy face, bird legs" in relation to astronauts refer?
+  Radiation-induced swelling of the limbs | Muscle regeneration after treadmill exercise | *Fluid shifting towards the head in microgravity | Loss of bone mass in the legs
+  x: Microgravity causes body fluids to shift towards the head, producing a puffy face and comparatively thinner-looking legs.
+[nphysics-23-14] sub3
+  Which of the following is NOT correct about astronauts in an orbiting satellite?
+  They experience apparent weightlessness | The satellite and the astronaut accelerate towards Earth with the same g | *The mass of the astronaut becomes zero | There is no normal force on the astronaut
+  x: The satellite and astronaut fall together with the same g, so the normal force is zero and the astronaut feels weightless; the astronaut's mass stays the same.
+[ff05c62915d32] sub3
+  What is the space motion sickness experienced by astronauts called?
+  Spaceflight-Associated Neuro-ocular Syndrome | *Space Adaptation Syndrome | Fluid shift | Muscle atrophy
+  x: Space Adaptation Syndrome is space motion sickness; SANS causes optic disc swelling.
+[fea4d1b8df6da] sub3
+  In microgravity, astronauts lose about how much bone mass a month?
+  0.1–0.2% | 5–6% | *1–1.5% | 10%
+  x: Bone loss in space is about 1–1.5% of bone mass a month.
+[gb3af88ac551b] sub3
+  What is the weight of a body on the Moon compared with its weight on Earth?
+  One-half | One-fourth | *One-sixth | One-tenth
+  x: Weight on the Moon is about 1/6 of the weight on Earth.
+[nd41761e3b55] sub4
+  When did the Union Cabinet approve the Third Launch Pad at Sriharikota?
+  *January 2025 | January 2024 | September 2024 | August 2025
+  x: It was approved in January 2025 at about Rs 4,000 crore to serve the NGLV and future human spaceflight.
+[nb831ad437e7] sub4
+  Who built Dhanush, India's first private launch pad at Sriharikota?
+  Skyroot Aerospace | Pixxel | *Agnikul Cosmos | Bellatrix Aerospace
+  x: Agnikul Cosmos built Dhanush with its own mission control centre.
+[n7281300ebcf] sub4
+  Where is the Human Space Flight Centre (HSFC), a new ISRO vertical supporting Gaganyaan, based?
+  Sriharikota | *Bengaluru | Thiruvananthapuram | Ahmedabad
+  x: HSFC is in Bengaluru, as is the IAF's Institute of Aerospace Medicine; DRDO contributes parachutes, life support and crew recovery.
+[n81df7e244e1] sub4
+  India’s first analogue space mission was launched by ISRO at which location and in which month and year?
+  Bengaluru, Karnataka, in January 2025 | Tso Kar, Ladakh, in July 2022 | *Leh, Ladakh, in November 2024 | Kulasekarapattinam, Tamil Nadu, in August 2025
+  x: India’s first analogue space mission was launched by ISRO at Leh in Ladakh in November 2024.
+[nd97689cb220] sub4
+  Where was the ISRO Human Spaceflight Expo held on 22-24 July 2022?
+  Nehru Science Centre, Mumbai | Satish Dhawan Space Centre, Sriharikota | Vikram Sarabhai Space Centre, Thiruvananthapuram | *Jawaharlal Nehru Planetarium, Bengaluru
+  x: The ISRO Human Spaceflight Expo was held at the Jawaharlal Nehru Planetarium, Bengaluru, on 22-24 July 2022 (PYQ). The other venues are ISRO or science centres not named for this expo.
+[f6748328aef39] sub4
+  About how much will the Third Launch Pad at Sriharikota, approved in January 2025, cost?
+  Rs 1,000 crore | *Rs 4,000 crore | Rs 10,000 crore | Rs 25,000 crore
+  x: The Third Launch Pad was approved in January 2025 at about Rs 4,000 crore for NGLV and human spaceflight.
+[f3dfdaa22f9b7] sub4
+  Which of the following pairs is correctly matched?
+  IAM, Bengaluru – New ISRO vertical leading Gaganyaan | HSFC, Bengaluru – Astronaut selection and aeromedical tests | *ISTRAC, Bengaluru – Tracking network | Dhanush – ISRO's Third Launch Pad
+  x: ISTRAC runs the tracking network; HSFC leads Gaganyaan, IAM does selection and aeromedical tests, and Dhanush is Agnikul's private pad.
+[g2fae94783257] sub4
+  Where is ISRO's new SSLV launch complex, whose foundation was laid on 27 August 2025, located?
+  Sriharikota, Andhra Pradesh | *Kulasekarapattinam, Tamil Nadu | Thumba, Kerala | Chandipur, Odisha
+  x: The SSLV launch complex is coming up at Kulasekarapattinam in Tamil Nadu; its foundation was laid on 27 August 2025.
+[g3580ee2f24ce] sub4
+  The Third Launch Pad at Sriharikota, approved in January 2025, is meant for human spaceflight and which launch vehicle?
+  SSLV | PSLV | *Next Generation Launch Vehicle (NGLV) | GSLV Mk II
+  x: The Third Launch Pad (Rs 4,000 crore) is for NGLV and human spaceflight.
+[ndaec8f59d17] sub4
+  What is the main purpose of India's analogue space mission?
+  Train only ground-based launch-pad engineers | *Simulate life in an interplanetary habitat | Develop a replacement for the SSLV | Test satellite communication with the ISS
+  x: The mission simulates life in an interplanetary habitat and generates data for astronaut selection and training, ECLSS design, work-rest schedules and ground-crew protocols.
+[n1027a7e781b] sub4
+  Why was Ladakh selected for the HOPE analogue station?
+  It has the same atmospheric composition as the International Space Station. | It provides zero gravity because of its high altitude. | *It has conditions resembling early Mars, including high UV flux and low air pressure. | It contains India’s only active equatorial launch site.
+  x: HOPE, or Himalayan Outpost for Planetary Exploration, was located in Ladakh because of early-Mars-like conditions such as high UV flux, low air pressure, cold extremes and saline permafrost.
+[na3fe74384fe] sub4
+  Mission MITRA is primarily associated with which activity?
+  A seven-experiment microgravity package on Axiom-4 | A launch-pad construction project at Sriharikota | *A behavioural study at Leh involving the IAF’s IAM under hypoxia, cold and isolation | A human-rating test of LVM3-M6
+  x: Mission MITRA is a behavioural study at Leh conducted with the IAF’s Institute of Aerospace Medicine, testing crew under hypoxia, cold and isolation.
+[f9cd563777c53] sub4
+  India's first analogue space mission at Leh (November 2024) was conducted by ISRO with AAKA and which institute?
+  IIT Madras | IISc Bengaluru | IIT Kanpur | *IIT Bombay
+  x: The Leh analogue mission was run with AAKA and IIT Bombay.
+[f8a5ee5b309fc] sub4
+  Where is the HOPE analogue habitat (Himalayan Outpost for Planetary Exploration) located?
+  *Tso Kar, Ladakh | Leh town, Ladakh | Spiti, Himachal Pradesh | Sriharikota, Andhra Pradesh
+  x: HOPE is at Tso Kar, Ladakh, chosen for its early-Mars-like conditions.
+[nea73e51aec2] sub5
+  In which year was Gaganyaan, India's first human spaceflight programme, approved?
+  2016 | 2017 | *2018 | 2019
+  x: Gaganyaan was approved in 2018; its Crew Module is to splash down in Indian sea waters.
+[n08c07c7dc77] sub5
+  Russia's Soyuz and China's Shenzhou spacecraft both use three modules. What are they?
+  *Orbital, descent and service modules | Orbital, laboratory and recovery modules | Crew, service and propulsion modules | Descent, laboratory and service modules
+  x: Both Soyuz and Shenzhou use a three-module configuration: orbital, descent and service modules.
+[n99f9fb2fb30] sub5
+  Which one of the following is the human-rated launch vehicle for the Gaganyaan mission?
+  *Human-rated LVM3 (HLVM3) | SSLV-D3 | GSLV Mk-II | PSLV-XL
+  x: Gaganyaan will use the human-rated LVM3, also referred to as HLVM3 or HRLV. The earlier GSLV Mk-III structures were redesigned for human rating.
+[n44a20b6ea46] sub5
+  Consider the following statements about the Gaganyaan spacecraft:
+1. The Orbital Module is the Crew Module and the Service Module joined together.
+2. The Crew Module is the crew habitat that survives re-entry and splashdown.
+3. The Service Module injects the Orbital Module into orbit.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: The Orbital Module is Crew Module plus Service Module, and the Crew Module survives re-entry. Statement 3 is wrong: the human-rated LVM3 injects the Orbital Module into orbit; the Service Module gives on-orbit support and de-orbits.
+[n91c391f7724] sub5
+  In the Gaganyaan flight sequence, what is the first crewed flight designated?
+  G1 | G2 | G3 | *H1
+  x: Uncrewed G1, G2 and G3 come first, then crewed H1, now targeted for Q1 2027.
+[f220cc4e5c676] sub5
+  At about what altitude is the low Earth orbit to which the Gaganyaan mission aims to take a crew of three?
+  *400 km | 300 km | 500 km | 36,000 km
+  x: Gaganyaan plans to take a crew of 3 to a 400 km low Earth orbit.
+[f96a693ed160f] sub5
+  What is the planned duration of the Gaganyaan crewed mission?
+  1 day | *3 days | 7 days | 18 days
+  x: Gaganyaan's goal is a 3-day mission for a crew of 3 in a 400 km orbit; 18 days was Shukla's Axiom-4 stay.
+[f43c91c93443f] sub5
+  When is Gaganyaan's first crewed flight H1 now targeted?
+  December 2021 | 2028 | *Q1 2027 | 2035
+  x: The original target (stated 2018) was December 2021; after repeated revisions H1 is now targeted for Q1 2027.
+[fd5c6aa7486aa] sub5
+  Which engine, for the L110 stage of the human-rated LVM3, was qualified in three tests?
+  CE-20 | Vulcain | S200 | *Vikas
+  x: The Vikas engine for the L110 stage was qualified in 3 tests (730 s) for HLVM3.
+[f940679b27e7c] sub5
+  Which of the following is NOT correct about the Gaganyaan Orbital Module?
+  *It has three modules like Soyuz and Shenzhou | It consists of the Crew Module and the Service Module | It is put into orbit by HLVM3 | Its Service Module burns up after the de-orbit burn
+  x: Gaganyaan has two parts (Crew Module + Service Module); Russia's Soyuz and China's Shenzhou have three modules.
+
+=== NOTES 5:43 | Satellites for Defence and Academic Purposes – GSAT-7 Series, Edusat, Risat
+## SUB 0 | Student and Academic Satellites; ISRO Student Programmes
+[43:0:0] TABLE head: Satellite | Built by | Launch / FIRST
+  [43:0:0.0] ANUSAT | Anna University, Chennai | 2009, PSLV-C12 (with RISAT-2); experimental communication; first Indian university satellite
+  [43:0:0.1] StudSat | 7 engineering colleges of Karnataka and (undivided) Andhra Pradesh | 2010, PSLV-C15; India's first pico-satellite
+  [43:0:0.2] Jugnu | IIT Kanpur | 2011, PSLV-C18; nano-satellite
+  [43:0:0.3] SRMSAT | SRM University, Chennai | 2011, PSLV-C18
+  [43:0:0.4] SATYABAMASAT | Sathyabama University, Chennai | 22 Jun 2016, PSLV-C34 with Cartosat-2C; greenhouse-gas data
+  [43:0:0.5] Kalamsat-V2 | Space Kidz India | Jan 2019, PSLV-C44; first to use the PS4 stage as orbital platform
+  [43:0:0.6] AzaadiSAT | Space Kidz India, 750 girl students | Aug 2022, SSLV-D1 – failed to reach orbit
+  [43:0:0.7] WESAT | LBS Institute of Technology for Women, Thiruvananthapuram (Kerala) | First satellite fully built by women students; PSLV-C58 POEM-3, 1 Jan 2024; measures solar UV (not groundwater)
+[43:0:1] - **GSAT-1** is NOT a student satellite – a full-scale ISRO communication satellite, **first GSLV payload (2001)**. EMISAT, Cartosat, Kalpana-1, INSAT are ISRO/DRDO satellites.
+[43:0:2] # ISRO student programmes
+[43:0:3] TABLE head: Programme | Feature
+  [43:0:3.0] UNNATI | UNispace Nanosatellite Assembly and Training by ISRO – nanosatellite training for developing-country engineers; 2019, 50 years of UNISPACE-I
+  [43:0:3.1] YUVIKA | Yuva Vigyani Karyakram – Indian school students of Class 9
+  [43:0:3.2] ATL Space Challenge | Atal Innovation Mission + ISRO + CBSE
+  [43:0:3.3] Space Labs | 75 Eklavya Model Residential Schools (Apr 2026)
+[43:0:4] ~~ Sources: PMF S&T Part 1 p.104; app notes 5:43 sub 5, 7
+## SUB 1 | RISAT Series – Radar Imaging Satellites
+[43:1:0] - **RISAT = Radar Imaging Satellite**; carries **Synthetic Aperture Radar (SAR)** – active microwave sensing.
+[43:1:1] - Images **day and night** and **through clouds** (all-weather) – used for border surveillance, agriculture, forestry, disaster management.
+[43:1:2] TABLE head: Satellite | Year | Launcher | Key fact
+  [43:1:2.0] RISAT-2 | 20 Apr 2009 | PSLV-C12 | X-band, Israeli-built radar reconnaissance; border monitoring; co-passenger ANUSAT
+  [43:1:2.1] RISAT-1 | 2012 | PSLV-C19 | C-band (5.35 GHz) SAR; India's first fully indigenous radar imaging satellite
+  [43:1:2.2] RISAT-2B | May 2019 | PSLV-C46 | X-band; 2019 collision-avoidance manoeuvre against a defunct US satellite using NETRA data
+  [43:1:2.3] RISAT-2BR1 | 11 Dec 2019 | PSLV-C48 | Earth-observation (spy) satellite; 50th PSLV flight (not 60th); with 9 foreign commercial satellites (4 countries); for agriculture, forestry and disaster management
+  [43:1:2.4] EOS-01 (RISAT-2BR2) | Nov 2020 | PSLV-C49 | Renamed under the new EOS naming
+  [43:1:2.5] RISAT-1A (EOS-04) | 2022 | PSLV-C52 | Continuity of RISAT-1
+  [43:1:2.6] EOS-09 (RISAT-1B) | 2025 | PSLV-C61 – failed | C-band SAR; lost after a pressure drop in the third-stage solid motor
+[43:1:3] - RISAT-2 (2009) flew **before** RISAT-1 (2012). PSLV-C18 = Megha-Tropiques, Jugnu, SRMSAT (not RISAT-1).
+[43:1:4] # Latest
+[43:1:5] - **12 Jan 2026:** **PSLV-C62/EOS-N1** failed after a **roll-rate disturbance at the end of the third stage**.
+[43:1:6] - **7 Sep 2026:** **EOS-05** – India's first earth-imaging satellite for **geosynchronous orbit (~36,000 km)**.
+[43:1:7] ~~ Sources: PMF S&T Part 1 p.111-112; app notes 5:43 sub 1
+## SUB 2 | PSLV-C37 Record and Foreign Co-passengers
+[43:2:0] - **PSLV-C37 (15 Feb 2017, PSLV's 39th flight):** **104 satellites** in one launch – **714 kg Cartosat-2 series** + **2 ISRO nanosats** + **101 foreign** (international customer) nanosats from **6 countries** (103 co-passengers); 506 km SSO.
+[43:2:1] - World record then; **now SpaceX Transporter-1, 143 satellites (Jan 2021)**; 104 is still ISRO's record.
+[43:2:2] - **Over 400 foreign satellites** launched on Indian rockets (1 Jan 2026); NSIL: 141 satellites, incl. 138 customer (July 2026).
+[43:2:3] - **PSLV-C62** (Jan 2026) carried **15 co-passengers** from start-ups and academic institutions.
+[43:2:4] ~~ Sources: app notes 5:43 sub 6
+## SUB 3 | EDUSAT (GSAT-3) – Education Satellite
+[43:3:0] - **GSAT-3 = EDUSAT**: **India's first satellite exclusively for education** (world's first dedicated educational satellite).
+[43:3:1] - Launched **20 September 2004** on **GSLV-F01** (not PSLV) from **Sriharikota**.
+[43:3:2] - **Two-way satellite communication** to classrooms – distance education, teacher training, virtual classrooms.
+[43:3:3] ~~ Sources: PMF S&T Part 1 p.104; app notes 5:43 sub 4
+## SUB 4 | GSAT-7 Series and Defence Space
+[43:4:0] TABLE head: Satellite | User | Key fact
+  [43:4:0.0] GSAT-7 (2013) | Indian Navy | "Rukmini"; launched by Ariane-5 (not GSLV)
+  [43:4:0.1] GSAT-7A (2018) | Indian Air Force | "Angry Bird"; network-centric warfare
+  [43:4:0.2] GSAT-7B | Indian Army | Planned
+  [43:4:0.3] GSAT-7R (CMS-03) | Indian Navy (replaces GSAT-7) | 2 Nov 2025, LVM3-M5; heaviest Indian communication satellite
+  [43:4:0.4] EMISAT (2019) | DRDO | Electronic intelligence (ELINT); PSLV-C45
+  [43:4:0.5] Item | Fact | 
+  [43:4:0.6] SBS-3 | 52 satellites: 21 ISRO, 31 private; ₹25,221.75 crore; Cabinet Committee on Security, Nov 2024 | 
+  [43:4:0.7] Defence Space Agency | Tri-service, 2019, Bengaluru; ran Antariksha Abhyas-2024 | 
+  [43:4:0.8] DSRO | R&D arm of the DSA | 
+[43:4:1] - **TSAT-1A:** **Tata Advanced Systems** with **Satellogic**, assembled at **Vemagal (Karnataka)**; first private sub-metre optical satellite; **SpaceX Falcon 9**, 7 Apr 2024.
+[43:4:2] ~~ Sources: PMF S&T Part 1 p.104-105; app notes 5:43 sub 0, 2, 3
+
+=== OWN MCQs of 5:43 (53)
+[nedbded2d2c3] sub0
+  The StudSat consortium included colleges from which State, when it was undivided?
+  Bihar | *Andhra Pradesh | Madhya Pradesh | Uttar Pradesh
+  x: The StudSat consortium included colleges from Andhra Pradesh, when the State was undivided.
+[n0030763c430] sub0
+  Which of the following is NOT correct about student-built satellites?
+  ANUSAT (2009), by Anna University, was the first satellite built by an Indian university. | *StudSat, India's first pico-satellite, was built by IIT Kanpur. | Kalamsat-V2 was the first to use the PS4 stage as an orbital platform. | Jugnu was built by IIT Kanpur.
+  x: StudSat (2010) was built by a consortium of 7 engineering colleges of Karnataka and Andhra Pradesh; IIT Kanpur built Jugnu.
+[nac63e5e1fce] sub0
+  Which institution built the satellite Jugnu?
+  IIT Bombay | IIT Madras | *IIT Kanpur | Anna University
+  x: Jugnu was built by IIT Kanpur; SRMSAT by SRM University, SATYABAMASAT by Sathyabama University and Kalamsat-V2 by Space Kidz India.
+[ndc067ac9067] sub0
+  On which vehicle was AzaadiSAT, built by 750 girl students of government schools with Space Kidz India, launched in August 2022?
+  *SSLV-D1 | GSLV-F12 | PSLV-C54 | PSLV-C53
+  x: AzaadiSAT was launched on SSLV-D1 in August 2022 but failed to reach orbit.
+[nb21a36272dc] sub0
+  Which of the following satellites is INCORRECTLY matched with its distinction?
+  RISAT-1 – First indigenous radar satellite | *ANUSAT – First all-women-student satellite | EDUSAT – First education satellite | WESAT – First all-women-student satellite
+  x: ANUSAT was the first university satellite; WESAT was the first all-women-student satellite.
+[nf65ba8224b9] sub0
+  Which satellite was the first payload of GSLV (2001)?
+  *GSAT-1 | EDUSAT | INSAT-3A | GSAT-2
+  x: GSAT-1 was the first GSLV payload in 2001; it was not a student satellite.
+[f60e985097892] sub0
+  ANUSAT (2009) is known as India's first:
+  *University satellite | Pico-satellite | All-women-student satellite | Satellite to use the PS4 stage as an orbital platform
+  x: ANUSAT of Anna University was India's first university satellite; StudSat was the first pico-satellite.
+[f06427bc17309] sub0
+  Kalamsat-V2 (January 2019) was the first satellite to use which as an orbital platform?
+  The ISS | *The PS4 stage of PSLV | The SSLV upper stage | A high-altitude balloon
+  x: Kalamsat-V2 by Space Kidz India was the first to use the PS4 stage as an orbital platform.
+[f5858114ad5cc] sub0
+  Which institution built WESAT, the first satellite fully built by women students?
+  Space Kidz India | Sathyabama University, Chennai | *LBS Institute of Technology for Women, Thiruvananthapuram | Anna University, Chennai
+  x: WESAT was built by LBS Institute of Technology for Women and flew on PSLV-C58 POEM-3.
+[f6aa146ea8c8b] sub0
+  On what did SATYABAMASAT, launched on PSLV-C34 in June 2016, collect data?
+  Solar ultraviolet | Ocean winds | Lightning | *Greenhouse gases
+  x: SATYABAMASAT was a micro experimental satellite for greenhouse-gas data; solar UV was WESAT's study.
+[g8c0386991b89] sub0
+  Which of the following is not a student-built satellite?
+  SRMSAT | Kalamsat-V2 | *EMISAT | StudSat
+  x: EMISAT is a DRDO electronic-intelligence satellite; SRMSAT, Kalamsat-V2 and StudSat were built by students.
+[gedb4607ae516] sub0
+  Which was India's first pico-satellite?
+  ANUSAT | Jugnu | *StudSat | SRMSAT
+  x: StudSat (2010, PSLV-C15), built by 7 engineering colleges of Karnataka and Andhra Pradesh, was India's first pico-satellite.
+[g121eeac7851e] sub0
+  Which university built SRMSAT, launched on PSLV-C18 in 2011?
+  Anna University, Chennai | *SRM University, Chennai | Sathyabama University, Chennai | IIT Kanpur
+  x: SRMSAT was built by SRM University, Chennai and flew on PSLV-C18 with Jugnu.
+[g2ad17671993d] sub0
+  Who built Kalamsat-V2, launched on PSLV-C44 in January 2019?
+  IIT Kanpur | Anna University | *Space Kidz India | SRM University
+  x: Kalamsat-V2 was built by Space Kidz India and was the first to use the PS4 stage as an orbital platform.
+[g1fa0fc6a5d3c] sub0
+  What does WESAT, the first satellite fully built by women students, study?
+  Greenhouse gases | *Solar ultraviolet radiation | Groundwater recharge by rainfall | Ocean winds
+  x: WESAT, built by LBS Institute of Technology for Women and flown on POEM-3 (PSLV-C58), studies solar ultraviolet radiation.
+[n70e5db30062] sub0
+  The ATL Space Challenge is associated with which institutional combination?
+  DRDO, DSA and AICTE | *Atal Innovation Mission, ISRO and CBSE | UNESCO, ISRO and the Ministry of Defence | Department of Space, UGC and NCERT
+  x: The ATL Space Challenge is an initiative involving the Atal Innovation Mission, ISRO and CBSE for school students.
+[ne17adef5872] sub0
+  Which of the following is NOT correct about ISRO's UNNATI programme?
+  It is a nanosatellite assembly and training programme | It is meant for engineers from developing countries | It was launched in 2019 to mark 50 years of UNISPACE-I | *It is a summer space-science programme for Class 9 school students
+  x: UNNATI trains developing-country engineers in nanosatellite assembly (2019, 50 years of UNISPACE-I); the Class 9 school programme is YUVIKA.
+[faf70ca7fd50f] sub0
+  For whom is ISRO's YUVIKA programme meant?
+  Developing-country engineers | University faculty | *Indian school students of Class 9 | Private start-ups
+  x: YUVIKA (Yuva Vigyani Karyakram) is for Indian Class 9 students; UNNATI is for developing-country engineers.
+[g73171e130b4a] sub0
+  What is the full form of UNNATI, ISRO's programme for engineers of developing countries?
+  *UNispace Nanosatellite Assembly and Training by ISRO | United Nations Network for Advanced Technology in India | Universal Nanosatellite Application and Testing Initiative | UN National Aerospace Training Institute
+  x: UNNATI = UNispace Nanosatellite Assembly and Training by ISRO, started in 2019 to mark 50 years of UNISPACE-I.
+[g4d2d86ff0a1a] sub0
+  What is the full form of YUVIKA, ISRO's programme for school students?
+  Yuva Vikas Abhiyan | *Yuva Vigyani Karyakram | Yuva Vigyan Kendra | Yuva Vaigyanik Abhiyan
+  x: YUVIKA = Yuva Vigyani Karyakram, ISRO's programme for Indian school students of Class 9.
+[n8e62c068576] sub1
+  What is the full form of RISAT?
+  Radio Imaging and Sensing Satellite | Remote Imaging Satellite | *Radar Imaging Satellite | Regional Imaging Satellite
+  x: RISAT is the Radar Imaging Satellite, carrying a SAR that images day and night and through clouds.
+[n67966485c2c] sub1
+  Which was India's first fully indigenous radar imaging satellite (2012, C-band SAR)?
+  RISAT-2 | RISAT-2BR1 | *RISAT-1 | EOS-04
+  x: RISAT-1 (PSLV-C19, 2012) was the first fully indigenous one; RISAT-2 (2009), launched earlier, was Israeli-built with an X-band radar.
+[n46f21fc44c0] sub1
+  What was the earlier designation of EOS-09, a C-band SAR satellite lost on PSLV-C61?
+  *RISAT-1B | RISAT-1A | RISAT-2B | GISAT-1A
+  x: EOS-09 (1,696 kg) was formerly RISAT-1B; PSLV-C61 failed after a pressure drop in the third-stage motor.
+[nbd7e83f2f28] sub1
+  Which of the following pairs is correctly matched?
+  RISAT-2 — PSLV-C19 | RISAT-1 — PSLV-C12 | *RISAT-2BR1 — PSLV-C48 | RISAT-2B — PSLV-C61
+  x: RISAT-2BR1 was launched by PSLV-C48 in December 2019. RISAT-2, RISAT-1 and RISAT-2B were associated with PSLV-C12, PSLV-C19 and PSLV-C46 respectively.
+[n803ad107420] sub1
+  In 2019, RISAT-2B performed a collision avoidance manoeuvre against a defunct US satellite using data from which system?
+  SAGAR VANI | NavIC | GAGAN | *NETRA
+  x: RISAT-2B performed a collision avoidance manoeuvre against a defunct US satellite using NETRA data.
+[n78cdb5e7d26] sub1
+  Why did the PSLV-C62/EOS-N1 mission fail?
+  *A roll-rate disturbance at the end of the third stage | A pressure drop in the third-stage solid motor | Failure of the heat-shield separation | Premature shutdown of the fourth-stage engine
+  x: PSLV-C62/EOS-N1 failed after a roll-rate disturbance at the end of the third stage; the pressure-drop failure was associated with EOS-09 on PSLV-C61.
+[nd064800d74f] sub1
+  At about what altitude will EOS-05, India's first earth-imaging satellite meant for geosynchronous orbit, operate?
+  800 km | 2,000 km | 20,000 km | *36,000 km
+  x: EOS-05 is intended for geosynchronous orbit at about 36,000 km, supporting observation of floods, cyclones, fires and security events.
+[fb94bca00df1f] sub1
+  RISAT-2, launched in April 2009 on PSLV-C12, carried which type of radar?
+  *X-band, Israeli-built | C-band, indigenous | S-band, indigenous | L-band, Israeli-built
+  x: RISAT-2 is an X-band Israeli-built radar satellite; RISAT-1 (2012) is C-band and indigenous.
+[ff4ee6ba5170a] sub1
+  Which milestone did RISAT-2BR1, launched in December 2019 on PSLV-C48, mark?
+  25th PSLV flight | *50th PSLV flight | 60th PSLV flight | 100th Sriharikota launch
+  x: RISAT-2BR1 flew on PSLV-C48, the 50th PSLV flight.
+[f4bb40b22a93a] sub1
+  Which radar satellite was the co-passenger of ANUSAT on PSLV-C12 (2009)?
+  RISAT-1 | RISAT-2B | *RISAT-2 | EOS-01
+  x: ANUSAT shared PSLV-C12 with RISAT-2 in 2009.
+[g1100e911d462] sub1
+  Why was EOS-09 (RISAT-1B), launched on PSLV-C61 in 2025, lost?
+  A roll-rate disturbance at the end of the third stage | *A pressure drop in the third-stage solid motor | Failure of the heat-shield separation | Premature shutdown of the fourth-stage engine
+  x: PSLV-C61 failed after a pressure drop in the third-stage solid motor, so the C-band SAR satellite EOS-09 was lost.
+[fd45661d88846] sub2
+  As of 1 January 2026, Indian rockets had launched over how many foreign satellites?
+  100 | *400 | 200 | 1,000
+  x: Over 400 foreign satellites had been launched on Indian rockets by 1 January 2026.
+[f046cb898e946] sub2
+  PSLV-C62 (January 2026) carried how many start-up and academic co-passengers?
+  *15 | 9 | 101 | 104
+  x: PSLV-C62 carried 15 co-passengers from Indian and foreign start-ups and academic institutions.
+[gd7fbb38df150] sub2
+  How many satellites did PSLV-C37 place in orbit in a single launch on 15 February 2017?
+  101 | *104 | 103 | 141
+  x: PSLV-C37 set a record of 104 satellites in one launch: a Cartosat-2 series satellite, 2 ISRO nanosats and 101 foreign nanosats.
+[g0fc7a874ca5a] sub2
+  From how many countries did the 101 foreign nanosatellites launched on PSLV-C37 come?
+  4 | *6 | 10 | 12
+  x: PSLV-C37 (2017) carried 101 foreign nanosatellites from 6 countries.
+[g5340747d46c1] sub2
+  Which was the main satellite launched by PSLV-C37, which placed a record 104 satellites in orbit in 2017?
+  RISAT-2B | Resourcesat-2A | *Cartosat-2 series satellite | Oceansat-3
+  x: PSLV-C37 carried a 714 kg Cartosat-2 series satellite along with 103 co-passenger nanosatellites.
+[n58cff0e53b6] sub3
+  By what name is GSAT-3, India's first satellite dedicated to education, popularly known?
+  KALPANA-1 | HAMSAT | *EDUSAT | CARTOSAT-1
+  x: GSAT-3, popularly known as EDUSAT, was India's first satellite dedicated to education and provided two-way satellite communication to classrooms.
+[naf6e0bdd5cd] sub3
+  Which vehicle launched EDUSAT on 20 September 2004?
+  PSLV-C6 | GSLV-D1 | *GSLV-F01 | PSLV-C5
+  x: EDUSAT was launched on 20 September 2004 by GSLV-F01 from Sriharikota.
+[f95e4af716f52] sub3
+  Consider the following statements about EDUSAT:
+1. It is India's first satellite dedicated to education.
+2. It was launched on 20 September 2004 on PSLV.
+3. It provides two-way satellite communication to classrooms.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: EDUSAT (GSAT-3) is India's first education satellite giving two-way links to virtual classrooms; it was launched on GSLV-F01, not PSLV.
+[n34d3d513894] sub4
+  GSAT-7A, nicknamed 'Angry Bird', mainly serves which service?
+  Indian Navy | Indian Army | Coast Guard | *Indian Air Force
+  x: GSAT-7A serves the Indian Air Force and supports network-centric warfare and drone operations.
+[nf0aa0ccd44b] sub4
+  Which of the following is NOT correct about the GSAT-7 series?
+  GSAT-7 provides secure naval communication and maritime surveillance. | GSAT-7R, also designated CMS-03, is intended for the Indian Navy. | *GSAT-7 was launched by GSLV from Sriharikota. | GSAT-7B is associated with the Indian Army.
+  x: GSAT-7 was launched by Ariane-5, not GSLV.
+[nd77f88f8778] sub4
+  For what purpose is EMISAT, a DRDO satellite launched by PSLV-C45 in 2019, used?
+  *Electronic intelligence (ELINT) | Maritime communication | Radar imaging of borders | Regional navigation
+  x: EMISAT is a DRDO satellite that performs electronic intelligence (ELINT); it was launched by PSLV-C45 in 2019.
+[fed5151f6360f] sub4
+  Which vehicle launched GSAT-7, the Indian Navy's 'Rukmini' satellite (2013)?
+  GSLV-F08 | *Ariane-5 | PSLV-C25 | LVM3-M1
+  x: GSAT-7 (Rukmini) was launched by Ariane-5, not GSLV.
+[fe26c4f89133f] sub4
+  Which of the following does GSAT-7R (CMS-03), launched on 2 November 2025 on LVM3-M5, serve?
+  Indian Air Force | Indian Army | *Indian Navy | DRDO
+  x: GSAT-7R (CMS-03) is the Indian Navy's satellite that replaces GSAT-7.
+[fb1a6333b2f48] sub4
+  Which of the following pairs is INCORRECTLY matched?
+  GSAT-7 – Indian Navy | GSAT-7A – Indian Air Force | EMISAT – DRDO | *GSAT-7B – Indian Navy
+  x: GSAT-7B is the proposed Indian Army satellite; GSAT-7 serves the Navy, GSAT-7A the Air Force and EMISAT the DRDO.
+[g3a1a84646083] sub4
+  Which Indian satellite is nicknamed 'Rukmini'?
+  GSAT-7A | *GSAT-7 | EMISAT | RISAT-2B
+  x: GSAT-7 (2013), the Indian Navy's communication satellite, is called 'Rukmini'; GSAT-7A is 'Angry Bird'.
+[n088341571a4] sub4
+  The SBS-3 programme, approved by the Cabinet Committee on Security in November 2024, envisages how many satellites?
+  21 | 31 | *52 | 62
+  x: SBS-3 has 52 satellites: 21 to be built by ISRO and 31 by private industry.
+[nf4d31195584] sub4
+  Who conducted 'Antariksha Abhyas-2024', India's first tri-services space exercise?
+  DSRO | IN-SPACe | ISRO | *Defence Space Agency
+  x: The tri-service DSA (2019, Bengaluru) ran it; DSRO is the DSA's R&D arm and IN-SPACe authorises private space activity.
+[fe8423f0fc8a1] sub4
+  What is the Defence Space Research Organisation (DSRO)?
+  Regulator of private space activity | Commercial arm of ISRO | Tri-services space command at Bengaluru | *R&D arm of the Defence Space Agency
+  x: DSRO is the R&D arm of the Defence Space Agency; IN-SPACe authorises private space activity.
+[fdfdb5a536065] sub4
+  Where was India's tri-service Defence Space Agency set up in 2019?
+  *Bengaluru | New Delhi | Hyderabad | Ahmedabad
+  x: The Defence Space Agency was set up in 2019 at Bengaluru.
+[g9f22e412a38b] sub4
+  Under the SBS-3 programme, how many of the 52 satellites are to be built by private industry?
+  21 | 26 | *31 | 52
+  x: Of the 52 SBS-3 satellites, 21 are to be built by ISRO and 31 by private industry.
+[f21f6cb0feb33] sub4
+  On which rocket was TSAT-1A, India's first private-sector-built sub-metre optical satellite, launched in April 2024?
+  PSLV-C58 | *SpaceX Falcon 9 | SSLV-D3 | Ariane-6
+  x: TSAT-1A was launched on 7 Apr 2024 on a SpaceX Falcon 9 (Bandwagon-1), not on PSLV.
+[f615d96259b5e] sub4
+  Where is the TASL facility at which TSAT-1A, built by Tata Advanced Systems with Satellogic, was assembled?
+  Hosur, Tamil Nadu | Sriharikota, Andhra Pradesh | *Vemagal, Karnataka | Nagpur, Maharashtra
+  x: TSAT-1A was assembled at TASL's Vemagal (Karnataka) facility.
+
+=== NOTES 5:44 | Space Policy and Commercialisation – Indian Space Policy 2023, In-space, Nsil, Private Launch Sector
+## SUB 0 | Private Launch, Propulsion and Satellite Firms
+[44:0:0] TABLE head: Firm (base) | Product | FIRST / date
+  [44:0:0.0] Skyroot Aerospace (Hyderabad) | Vikram-S – single-stage suborbital | Mission Prarambh ("beginning"), 18 Nov 2022 – India's first private rocket; 89.5 km
+  [44:0:0.1] Skyroot Aerospace | Vikram-1 – 4-stage, 350 kg to LEO | Mission Aagaman, 18 Jul 2026 – first private orbital rocket
+  [44:0:0.2] Skyroot Aerospace | Kalam series | Solid motors named after A.P.J. Abdul Kalam
+  [44:0:0.3] Agnikul Cosmos (Chennai, IIT Madras) | Agnibaan; Agnilet | World's (and India's) first single-piece 3D-printed semi-cryogenic engine; launch pad Dhanush, Sriharikota
+  [44:0:0.4] Bellatrix Aerospace (Bengaluru) | 1N green propulsion system; electric thrusters | Demonstrated on PSLV-C58 (POEM-3, Jan 2024); developed under DRDO's Technology Development Fund
+[44:0:1] - **Green propulsion (MoD, Feb 2024):** non-toxic, **environment-friendly** propulsion for **low orbit**; "**ideal for missions with high thrust requirement**" → all three PYQ statements correct.
+[44:0:2] - With Vikram-1 India became the **3rd country (after US and China)** with private orbital launch; it carried **VIT-AP University's VISWA-M** payload on SOLARAS (Grahaa Space).
+[44:0:3] - **POEM = PSLV Orbital Experimental Module:** spent **PS4** stage as orbital platform; by **VSSC**.
+[44:0:4] # Private satellite firms
+[44:0:5] TABLE head: Company (base) | Product / FIRST
+  [44:0:5.0] Tata Advanced Systems (TASL) | TSAT-1A – India's first privately built sub-metre (spy) satellite, with Satellogic; SpaceX Falcon 9, 2024
+  [44:0:5.1] Ananth Technologies | First private satellite integration facility; spacecraft unit at KIADB Aerospace Park, Bengaluru, inaugurated by S. Somanath, June 2022
+  [44:0:5.2] Pixxel (Bengaluru) | Hyperspectral; "Firefly" – first Indian private commercial constellation (Jan 2025); leads PPP EOS constellation
+  [44:0:5.3] Dhruva Space (Hyderabad) | Nanosatellite platforms; Thybolt
+  [44:0:5.4] GalaxEye (Bengaluru) | Drishti – SAR + optical
+  [44:0:5.5] Digantara (Bengaluru) | Space situational awareness
+[44:0:6] - **SpaceX:** US **aerospace manufacturer and space-transport company** (Elon Musk); launched GSAT-N2 and TSAT-1A.
+[44:0:7] - **Sriharikota (AP)** – **India's only operational spaceport**; Agnikul's pad and mission control are there.
+[44:0:8] - **PSLV-C62 (12 Jan 2026)** lost with EOS-N1 and **15** start-up and academic co-passengers.
+[44:0:9] ~~ Sources: PMF S&T Part 2 p.32; web: PIB/MoD release 1 Feb 2024 (green propulsion); app notes 5:44 sub 4-6
+## SUB 1 | NSIL and Demand-driven Missions
+[44:1:0] - **Demand-driven model:** NSIL **builds, owns and operates** satellites against **assured customer demand** (Antrix was supply-driven).
+[44:1:1] TABLE head: Mission | Fact
+  [44:1:1.0] GSAT-24 (June 2022) | First demand-driven satellite after the reforms; 24 Ku-band satellite built by ISRO; launched by Ariane-5 from Kourou, French Guiana (not Balasore); entire capacity leased to Tata Play (DTH); inaugurated at Tata Play's broadcast centre, New Delhi (Aug 2023)
+  [44:1:1.1] GSAT-N2 (GSAT-20) | First demand-driven satellite fully funded and owned by NSIL; Ka-band broadband, in-flight connectivity; SpaceX Falcon 9, 19 Nov 2024 (not Q2 2025) – Indian rockets lacked capacity for it
+  [44:1:1.2] LVM3 (2022) | First dedicated commercial mission – 36 OneWeb satellites
+[44:1:2] - 10 in-orbit satellites transferred to NSIL in 2022; NSIL launches: **141 satellites (138 customer)** as of July 2026.
+[44:1:3] ~~ Sources: PMF S&T Part 2 p.2, p.32; app notes 5:44 sub 3
+## SUB 2 | Indian Space Policy 2023 and Space Legislation
+[44:2:0] - **Indian Space Policy 2023:** **approved by the Union Cabinet 6 April 2023**, **released by DoS 20 April 2023**; boosts the role of the Department of Space and private sector.
+[44:2:1] TABLE head: Entity | Role under the policy
+  [44:2:1.0] ISRO | Advanced R&D, deep space, human spaceflight; moves out of operational and commercial production
+  [44:2:1.1] IN-SPACe | Independent regulator – promotes, authorises, supervises NGEs
+  [44:2:1.2] NSIL | Commercialises mature ISRO technology
+  [44:2:1.3] DoS | Policy, space diplomacy, treaty compliance
+  [44:2:1.4] NGEs | End-to-end space activity
+[44:2:2] - Sept 2026: ISRO "**will not be privatised or reduced**" to a regulatory body.
+[44:2:3] TABLE head: Instrument | Year | Status
+  [44:2:3.0] Draft Space Activities Bill | 2017 | Licensing of private space activity
+  [44:2:3.1] Space Activities Bill | Finalised May 2025 | Private participation; statutory powers to IN-SPACe
+  [44:2:3.2] Liability Convention | 1972 | Liability on the launching State
+[44:2:4] - India still has **no Space Activities Act**; no statutory liability framework yet.
+[44:2:5] ~~ Sources: app notes 5:44 sub 1, 7
+## SUB 3 | Organisations – Antrix, NSIL, IN-SPACe
+[44:3:0] TABLE head: Body | Set up | Status / model | HQ
+  [44:3:0.0] Antrix Corporation | Sept 1992 | Miniratna (2008); supply-driven | Bengaluru
+  [44:3:0.1] NSIL | 2019 | CPSE under DoS; commercial arm of ISRO; demand-driven | Bengaluru
+  [44:3:0.2] IN-SPACe | 2020 | Autonomous single-window agency under DoS | Ahmedabad
+[44:3:1] - **IN-SPACe = Indian National Space Promotion and Authorisation Centre**; **Chairman Dr Pawan Kumar Goenka**; authorised Vikram-S (2022); approved the **Pixxel**-led PPP EOS constellation; enabled **SSLV** technology transfer; runs the **Technology Adoption Fund**.
+[44:3:2] - Bengaluru = "**Space City**" (ISRO HQ, URSC).
+[44:3:3] ~~ Sources: PMF S&T Part 2 p.31-32; app notes 5:44 sub 2
+## SUB 4 | Space Reforms 2020, FDI and Space Economy
+[44:4:0] - **June 2020 reforms** opened the sector to **Non-Governmental Entities (NGEs)**.
+[44:4:1] TABLE head: Segment | Automatic-route FDI
+  [44:4:1.0] Satellite components and subsystems | 100%
+  [44:4:1.1] Satellite manufacturing/operation, data | 74%
+  [44:4:1.2] Launch vehicles and spaceports | 49%
+[44:4:2] - Overall FDI up to **100%** in non-sensitive segments; beyond limits = Government route.
+[44:4:3] TABLE head: Item | Figure
+  [44:4:3.0] Current size | About US$8.4 billion (~2% global)
+  [44:4:3.1] Target 2033 | US$44 billion (~8% global)
+  [44:4:3.2] Other goals | 50 launches a year; 2 lakh jobs
+  [44:4:3.3] Venture Capital Fund | ₹1,000 crore via SIDBI
+  [44:4:3.4] Space start-ups | 440+ (Aug 2026)
+[44:4:4] ~~ Sources: app notes 5:44 sub 0, 8
+## SUB 5 | Andhra Pradesh – Space Policy 4.0 and Space Cities
+[44:5:0] - **AP Space Policy 4.0** with **space cities**; targets **₹25,000 crore** (2025-35) and 5,000 direct + 30,000 indirect jobs.
+[44:5:1] - **Tirupati Space City:** about **3,000 acres near Sriharikota** – launch-vehicle and satellite manufacturing.
+[44:5:2] - **Lepakshi Space City:** **R&D**.
+[44:5:3] - **AP Space Tech Summit-2026:** **Vignan's University, Vadlamudi (Guntur)**, 23 Jan 2026.
+[44:5:4] ~~ Sources: app notes 5:44 sub 9
+
+=== OWN MCQs of 5:44 (74)
+[nefb83ea6cf3] sub0
+  How much payload can Skyroot's four-stage Vikram-1, India's first private orbital rocket, carry to LEO?
+  150 kg | 800 kg | 500 kg | *350 kg
+  x: Vikram-1 is a four-stage rocket with up to 350 kg to LEO.
+[n016405da60e] sub0
+  With the launch of Vikram-1, India became the third country after which two countries to possess private orbital launch capability?
+  Russia and Japan | United Kingdom and Australia | *United States and China | France and Germany
+  x: India was described as the third country, after the United States and China, with private orbital launch capability following Vikram-1.
+[n9711bf1c723] sub0
+  What was the mission name of India's first private rocket launch, the suborbital Vikram-S (18 Nov 2022)?
+  Aagaman | Vijay | Shakti | *Prarambh
+  x: Mission Prarambh launched Vikram-S; Mission Aagaman (18 Jul 2026) launched Vikram-1, the first private orbital rocket.
+[n4ff60a04abf] sub0
+  Whose VISWA-M payload was carried by the SOLARAS nanosatellite, built with Grahaa Space, on Vikram-1?
+  IIT Madras | Andhra University | SRM University-AP | *VIT-AP University
+  x: Vikram-1 carried the SOLARAS nanosatellite with VIT-AP University's VISWA-M solar-spectrum payload, built with Grahaa Space.
+[nfc170bc34e4] sub0
+  Where is Agnikul Cosmos, which uses a single-piece 3D-printed semi-cryogenic engine, based?
+  Hyderabad | Bengaluru | Thiruvananthapuram | *Chennai
+  x: Agnikul is based in Chennai (IIT Madras) and launched from its own pad, Dhanush, at Sriharikota in 2024.
+[n0b94617fdab] sub0
+  Which of the following is NOT correct about Bellatrix Aerospace?
+  It develops green propulsion and electric thrusters. | Its green propulsion system was demonstrated on PSLV-C58's POEM-3. | *It is based in Hyderabad. | The system was developed under the Technology Development Fund.
+  x: Bellatrix Aerospace is based in Bengaluru, not Hyderabad.
+[fb16565da5433] sub0
+  Which company developed Vikram-S (2022), India's first private rocket launch?
+  *Skyroot Aerospace | Agnikul Cosmos | Bellatrix Aerospace | Dhruva Space
+  x: Skyroot Aerospace (Hyderabad) launched Vikram-S in Mission Prarambh on 18 Nov 2022.
+[f2036f89eb4bd] sub0
+  Under which scheme of DRDO was Bellatrix Aerospace's green propulsion system, demonstrated on PSLV-C58, developed?
+  Technology Adoption Fund | *Technology Development Fund | Seed Fund Scheme | Venture Capital Fund
+  x: It was developed under the Technology Development Fund (TDF) of DRDO; the Technology Adoption Fund is IN-SPACe's.
+[f102645550aaa] sub0
+  Under which mission was Vikram-1, India's first private orbital rocket, launched on 18 July 2026?
+  Prarambh | Shakti | *Aagaman | Abhyas
+  x: Aagaman = Vikram-1, orbital (2026); Prarambh = Vikram-S, suborbital (2022).
+[f98a6b9b3a19e] sub0
+  Where is Bellatrix Aerospace, maker of electric thrusters and green propulsion, based?
+  Hyderabad | Chennai | Ahmedabad | *Bengaluru
+  x: Bellatrix is based in Bengaluru, not Hyderabad.
+[gcf11bc64f83a] sub0
+  In which city is Skyroot Aerospace, the developer of Vikram-S, based?
+  Bengaluru | Chennai | *Hyderabad | Ahmedabad
+  x: Skyroot Aerospace, maker of Vikram-S and Vikram-1, is based in Hyderabad.
+[g5e647387745d] sub0
+  What is the name of India's first private launch pad, set up by Agnikul Cosmos at Sriharikota?
+  *Dhanush | Prarambh | Agnibaan | Vikram
+  x: Agnikul's private launch pad at Sriharikota is named Dhanush; it was India's first private launch pad.
+[gf4df6c7a4309] sub0
+  Which company developed Agnilet, the world's first single-piece 3D-printed semi-cryogenic rocket engine?
+  Skyroot Aerospace | Bellatrix Aerospace | *Agnikul Cosmos | Dhruva Space
+  x: Agnilet was made by Agnikul Cosmos of Chennai (IIT Madras incubated).
+[gd3865ba0b425] sub0
+  What is the name of the world's first single-piece 3D-printed semi-cryogenic rocket engine, built in India?
+  Vikas | *Agnilet | Kalam-100 | CE-20
+  x: Agnikul Cosmos built Agnilet, the world's first single-piece 3D-printed semi-cryogenic engine.
+[ga35449f70c21] sub0
+  What altitude did Vikram-S reach in Mission Prarambh, India's first private rocket launch, in 2022?
+  50.5 km | *89.5 km | 155 km | 450 km
+  x: Vikram-S reached 89.5 km in a 155-second suborbital flight with 3 payloads on 18 November 2022.
+[gbe90c93d8e5a] sub0
+  Which company makes the Kalam series of solid rocket motors, named after A.P.J. Abdul Kalam?
+  Agnikul Cosmos | *Skyroot Aerospace | Bellatrix Aerospace | Ananth Technologies
+  x: Skyroot Aerospace of Hyderabad names its solid motors the Kalam series after A.P.J. Abdul Kalam.
+[gb1319f2e1cbe] sub0
+  What is the full form of POEM, used in ISRO missions such as POEM-3 on PSLV-C58?
+  *PSLV Orbital Experimental Module | Payload for Orbital Earth Monitoring | PSLV Optical Experiment Mission | Polar Orbit Experimental Module
+  x: POEM = PSLV Orbital Experimental Module; it uses PSLV's spent fourth stage (PS4) as an orbital platform.
+[gda51773675b9] sub0
+  Which ISRO centre conceived and realised the POEM platform built on PSLV's fourth stage?
+  URSC, Bengaluru | SAC, Ahmedabad | *VSSC, Thiruvananthapuram | LPSC, Valiamala
+  x: ISRO says the Vikram Sarabhai Space Centre (VSSC) took the lead in conceptualising and realising POEM.
+[n01339069ec7] sub0
+  With which company did Tata Advanced Systems build TSAT-1A, a sub-metre optical surveillance satellite launched on a SpaceX Falcon 9 in 2024?
+  Pixxel | Dhruva Space | Digantara | *Satellogic
+  x: TSAT-1A was built by Tata Advanced Systems with Satellogic and launched on a SpaceX Falcon 9 in 2024.
+[n2e1a0453ec0] sub0
+  Which of the following pairs is correctly matched?
+  Azista Space Industries – Drishti multi-sensor Earth-imaging satellite | GalaxEye – Space-surveillance satellites tracking debris | *Ananth Technologies – First private satellite integration facility in India | Digantara – First commercial small-satellite launch from Indian soil
+  x: Ananth Technologies set up the first private satellite integration facility; Azista executed the first commercial small-satellite launch from Indian soil, GalaxEye built Drishti and Digantara does space surveillance.
+[f329a398a7a4f] sub0
+  Which of the following pairs is INCORRECTLY matched?
+  *Dhruva Space – First private launch pad Dhanush | Pixxel – Hyperspectral earth-observation satellites | Digantara – Space surveillance and debris tracking | GalaxEye – Drishti SAR and optical satellite
+  x: Dhanush is Agnikul Cosmos's pad; Dhruva Space (Hyderabad) makes nanosatellite platforms.
+[nc22c6cecb46] sub0
+  PSLV-C62, lost in a launch failure in January 2026, carried how many start-up and academic co-passengers?
+  9 | *15 | 20 | 36
+  x: PSLV-C62 carried 15 start-up and academic co-passengers, but the mission was lost in a launch failure in January 2026.
+[f07c218f7cbd2] sub0
+  Which company set up India's first private satellite integration facility?
+  Azista Space Industries | *Ananth Technologies | Pixxel | Digantara
+  x: Ananth Technologies (Hyderabad) set up India's first private satellite integration facility.
+[g881484f02bd6] sub0
+  In which city is Dhruva Space, a maker of nanosatellite platforms, based?
+  *Hyderabad | Bengaluru | Chennai | Pune
+  x: Dhruva Space, which builds nanosatellite platforms such as Thybolt, is based in Hyderabad.
+[g248e96ba779c] sub0
+  Which company launched 'Firefly', India's first private commercial satellite constellation, in January 2025?
+  Dhruva Space | *Pixxel | GalaxEye | Digantara
+  x: Bengaluru-based Pixxel, which makes hyperspectral satellites, launched the Firefly constellation in January 2025.
+[ga26ede38bd26] sub0
+  Which company is building 'Drishti', a SAR and optical multi-sensor satellite?
+  Pixxel | Digantara | *GalaxEye | Dhruva Space
+  x: Bengaluru-based GalaxEye is building Drishti, which combines SAR and optical sensors.
+[n94a56ea8f51] sub0
+  Which one of the following is correctly described as India's only operational spaceport?
+  Vikram-1 launch complex | *Sriharikota | Tirupati Space City | Hyderabad private launch pad
+  x: Sriharikota is India's only operational spaceport. Tirupati Space City is a future-oriented development that builds on the existing Sriharikota base.
+[f423491996ba6] sub0
+  Where are Agnikul Cosmos's private launch pad and its own mission control located?
+  Kulasekarapattinam | Thumba | *Sriharikota | Chandipur
+  x: Agnikul's pad Dhanush and its mission control are at Sriharikota, India's only operational spaceport.
+[nb2dfe177b15] sub1
+  What does NewSpace India Limited do under its demand-driven model?
+  only markets satellites built by private companies | *builds, owns and operates satellites against assured customer demand | builds satellites first and searches for customers later | transfers all satellite operations to Antrix Corporation
+  x: Under the demand-driven model, NSIL builds, owns and operates satellites against assured or committed customer demand, unlike the earlier supply-driven approach.
+[na4a67cca72c] sub1
+  LVM3's first dedicated commercial mission in 2022 carried how many OneWeb satellites?
+  24 | *36 | 48 | 104
+  x: LVM3's first dedicated commercial mission, in 2022, carried 36 OneWeb satellites.
+[nc23ed25bfb3] sub1
+  Which satellite is recognised as India’s first demand-driven satellite?
+  NVS-02 | GSAT-1 | *GSAT-24 | CMS-03
+  x: GSAT-24, associated with NSIL and launched in 2022, is identified as the first demand-driven satellite.
+[na787620b137] sub1
+  To which company was the DTH capacity of GSAT-24, NSIL's first demand-driven mission, leased?
+  *Tata Play | Dish TV | Airtel Digital TV | DD Free Dish
+  x: GSAT-24 (2022) capacity was leased to Tata Play; GSAT-N2 was fully NSIL-funded and flew on a SpaceX Falcon 9.
+[f632b39fe0e0a] sub1
+  On which rocket was GSAT-N2 (GSAT-20), fully funded and owned by NSIL, launched in November 2024?
+  LVM3 | Ariane-5 | *SpaceX Falcon 9 | PSLV
+  x: GSAT-N2, a Ka-band broadband satellite fully owned by NSIL, went up on a SpaceX Falcon 9.
+[f7f533a711edc] sub1
+  From where was GSAT-24 (2022), India's first demand-driven satellite, launched?
+  Sriharikota | Cape Canaveral | Baikonur | *Kourou, French Guiana
+  x: GSAT-24 was launched from Kourou, French Guiana; its DTH capacity went to Tata Play.
+[g62a537a12549] sub1
+  In which band does GSAT-N2 (GSAT-20) provide broadband and in-flight connectivity?
+  C-band | Ku-band | *Ka-band | S-band
+  x: GSAT-N2, fully funded and owned by NSIL, is a Ka-band satellite for broadband and in-flight connectivity.
+[n5483e0c9101] sub2
+  Under the Indian Space Policy 2023, to which body are advanced research, deep space missions and human spaceflight assigned?
+  NSIL | IN-SPACe | *ISRO | Non-Governmental Entities
+  x: The policy keeps advanced research, deep space and human spaceflight with ISRO; NGEs undertake end-to-end space activities such as satellites, launches and services.
+[n1ef7d3b77d3] sub2
+  Consider the following statements about ISRO under the Indian Space Policy 2023:
+1. ISRO is to move out of making operational and commercial satellites and rockets over time.
+2. The policy seeks to privatise ISRO and reduce it to a regulatory body.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: ISRO will move out of operational and commercial production to focus on advanced research, deep space and human spaceflight; it will not be privatised or reduced to a regulator.
+[nd08e9b833ef] sub2
+  Under India's space framework, which body commercialises mature ISRO technologies through industry?
+  IN-SPACe | Department of Space | ISRO | *NSIL
+  x: Commercialising mature ISRO technology is NSIL's role; IN-SPACe is the independent regulator that authorises and promotes non-governmental entities.
+[n2dd98561e4d] sub2
+  On which date did the Union Cabinet approve the Indian Space Policy 2023?
+  20 April 2023 | 6 June 2020 | *6 April 2023 | 20 June 2020
+  x: The Union Cabinet approved the policy on 6 April 2023; the Department of Space released it on 20 April 2023.
+[f53fb3d23f33f] sub2
+  On which date did the Department of Space release the Indian Space Policy 2023?
+  6 April 2023 | *20 April 2023 | 1 June 2020 | 20 July 2023
+  x: Approved by Cabinet on 6 April 2023 and released by DoS on 20 April 2023.
+[fe611190e66b7] sub2
+  Under the Indian Space Policy 2023, which body is responsible for space diplomacy and treaty compliance?
+  IN-SPACe | NSIL | *Department of Space | ISRO
+  x: DoS handles overall policy, international cooperation, space diplomacy and treaty compliance.
+[nf31d7a5e083] sub2
+  In which year was the draft Space Activities Bill, proposing licensing of private space activity, first put out?
+  2015 | *2017 | 2020 | 2022
+  x: The draft Bill was first put out in 2017; India still has no Space Activities Act.
+[n14c51e292b7] sub2
+  Under the Liability Convention of 1972, on whom is liability for damage caused by a space object placed?
+  *launching State | United Nations Secretariat | State where the satellite is operated | private manufacturer alone
+  x: The Liability Convention of 1972 makes the launching State liable for damage caused by a space object.
+[ne02521c606a] sub2
+  Which of the following is NOT correct about the absence of a Space Activities Act in India?
+  Private space entities lack a statutory framework on liability | Private space entities lack a statutory framework on dispute resolution | Private space entities lack sovereign-backed insurance arrangements | *Private space entities already have a statutory liability framework
+  x: Without an Act, private entities have no statutory framework on liability, dispute resolution or risk-sharing, and no sovereign-backed insurance.
+[f36df5b10f4d7] sub2
+  To which body does the Space Activities Bill finalised in May 2025 give statutory powers?
+  ISRO | NSIL | Antrix | *IN-SPACe
+  x: The Bill, finalised in May 2025, boosts private participation and gives statutory powers to IN-SPACe.
+[f89df5cafb530] sub2
+  Consider the following statements about space legislation in India:
+1. The draft Space Activities Bill was first put out in 2017.
+2. India has enacted a Space Activities Act.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: The draft Bill came in 2017, but India still has no Space Activities Act; the sector runs on policies and guidelines.
+[nd056aea2462] sub3
+  In what form was IN-SPACe established in 2020?
+  a private satellite manufacturing company | a statutory appellate tribunal for space disputes | *an autonomous single-window agency under the Department of Space | a financial institution for satellite insurance
+  x: IN-SPACe was established in 2020 as an autonomous single-window agency under the Department of Space to facilitate non-governmental space activities.
+[n2cca69c7411] sub3
+  Where is IN-SPACe, chaired by Dr Pawan Kumar Goenka, headquartered?
+  Bengaluru | *Ahmedabad | New Delhi | Sriharikota
+  x: IN-SPACe is headquartered at Ahmedabad, and Dr Pawan Kumar Goenka is its chairman.
+[nf8891401326] sub3
+  Where is NewSpace India Limited (NSIL) headquartered?
+  Ahmedabad | New Delhi | Hyderabad | *Bengaluru
+  x: NSIL (CPSE under DoS, 2019) is in Bengaluru; Ahmedabad is IN-SPACe's HQ.
+[nd1edbaed10f] sub3
+  Which one of the following pairs is NOT correctly matched?
+  NSIL — incorporated in 2019 | NSIL — demand-driven model | Antrix Corporation — supply-driven model | *Antrix Corporation — incorporated in 2008
+  x: Antrix Corporation was set up in September 1992; 2008 was the year it received Miniratna status. The other pairs are correctly matched.
+[n4178ba32b1e] sub3
+  Which company leads the public-private Earth-observation constellation approved by IN-SPACe?
+  Dhruva Space | *Pixxel | SatSure Analytics India | Digantara
+  x: IN-SPACe approved a PPP Earth-observation constellation led by Pixxel, with Dhruva Space, SatSure Analytics India and Piersight Space as partners.
+[n4e47713f6cd] sub3
+  IN-SPACe enabled the technology transfer of which launch vehicle to private consortia?
+  PSLV | *SSLV | GSLV | LVM3
+  x: IN-SPACe enabled the transfer of SSLV technology to private consortia; it was not kept restricted to ISRO.
+[f142224308d95] sub3
+  Antrix Corporation, set up in September 1992, followed which business model?
+  Demand-driven | Build-own-operate against assured demand | Regulatory | *Supply-driven
+  x: Antrix was supply-driven, marketing ISRO products; NSIL (2019) is demand-driven.
+[fc7dbcf9dfe1c] sub3
+  Under which of the following is NewSpace India Limited (NSIL), set up in 2019, a CPSE?
+  *Department of Space | Ministry of Defence | Ministry of Electronics and IT | DRDO
+  x: NSIL is a CPSE under the Department of Space, headquartered in Bengaluru.
+[fd221754b297a] sub3
+  Which of the following is NOT correct about IN-SPACe?
+  It is an autonomous single-window agency under DoS | *It is headquartered at Bengaluru | It authorised the first private launch Vikram-S | It approved the Pixxel-led PPP EOS constellation
+  x: IN-SPACe is headquartered at Ahmedabad; NSIL is at Bengaluru.
+[gaeaff0369eff] sub3
+  What is the full form of IN-SPACe?
+  *Indian National Space Promotion and Authorisation Centre | Indian National Space Programme and Applications Centre | Indian Network for Space Policy and Commerce | Indian National Satellite Promotion and Allocation Centre
+  x: IN-SPACe is the Indian National Space Promotion and Authorisation Centre, which authorises private space activity.
+[g8f7d76c43d30] sub3
+  Who is the chairman of IN-SPACe (September 2026)?
+  Dr S. Somanath | Dr V. Narayanan | *Dr Pawan Kumar Goenka | Dr Samir V. Kamat
+  x: Dr Pawan Kumar Goenka is the chairman of IN-SPACe, headquartered at Ahmedabad.
+[g3e9f6fedb188] sub3
+  In which year did Antrix Corporation get Miniratna status?
+  1992 | *2008 | 2019 | 2020
+  x: Antrix was set up in September 1992 and became a Miniratna in 2008.
+[fe070054d09a1] sub3
+  Which body runs the Technology Adoption Fund for the space sector?
+  SIDBI | NSIL | *IN-SPACe | DRDO
+  x: The Technology Adoption Fund is run by IN-SPACe; the Rs 1,000 crore VC fund is managed through SIDBI.
+[n6f26afa490f] sub4
+  Under India's revised space-sector FDI policy, what is the automatic-route limit for launch vehicles and spaceports?
+  26% | *49% | 74% | 100%
+  x: Launch vehicles and spaceports: 49%; satellite manufacturing/operation and data: 74%; components and subsystems: 100%.
+[n83b980253d0] sub4
+  Under India's revised FDI policy for the space sector, what is the overall ceiling for foreign direct investment in non-sensitive space segments?
+  49% | 74% | 51% | *100%
+  x: FDI up to 100% is allowed overall in non-sensitive space segments, with segment-wise automatic-route limits of 100%, 74% and 49% and the government route beyond those limits.
+[ffde8d56fe905] sub4
+  Under India's space FDI policy, what is the automatic-route limit for satellite components and subsystems manufacturing?
+  49% | 74% | 26% | *100%
+  x: Components and subsystems get 100% automatic route; satellites/data up to 74%; launch vehicles and spaceports up to 49%.
+[f2771b630ad95] sub4
+  Up to what limit is FDI allowed on the automatic route in satellite manufacturing, operation and data products?
+  *74% | 49% | 100% | 51%
+  x: Satellites, their operation and data products get up to 74% automatic; beyond the limit is the government route.
+[gd988624597f2] sub4
+  In which year were India's space-sector reforms that opened the sector to Non-Governmental Entities announced?
+  2017 | 2019 | *2020 | 2023
+  x: The June 2020 reforms opened the space sector to Non-Governmental Entities (NGEs).
+[n132b805450d] sub4
+  Which of the following quantitative combinations is correct for India’s space-sector objectives?
+  *50 launches a year and 2 lakh jobs | 20 launches a year and 50,000 jobs | 50 launches a year and 20,000 jobs | 100 launches a year and 2 lakh jobs
+  x: India’s stated objectives include 50 launches a year and the creation of approximately 2 lakh jobs.
+[n972669709e6] sub4
+  To about what size does India aim to expand its space economy by 2033?
+  US$8.4 billion | US$22 billion | *US$44 billion | US$100 billion
+  x: The target is US$44 billion by 2033 (IN-SPACe Decadal Vision), from about US$8.4 billion now, raising the global share from ~2% to ~8%.
+[n1f9a4b55fa9] sub4
+  Through which institution is the Rs 1,000 crore Venture Capital Fund for space start-ups managed?
+  *SIDBI | NABARD | EXIM Bank | NSIL
+  x: The VC Fund is managed through SIDBI; the Technology Adoption Fund is run by IN-SPACe.
+[nb0bb5afb0d7] sub4
+  According to Union Minister Dr Jitendra Singh (August 2026), the number of space start-ups in India, which was in single digits in 2014, has now grown to more than:
+  40 | 140 | *440 | 1,400
+  x: The Minister said India now has more than 440 space start-ups, up from single digits in 2014 (some older sources give 300+). 40 and 140 understate the growth, and 1,400 overstates it.
+[f83d19b891300] sub4
+  Consider the following statements about India's space economy:
+1. Its current size is about US$8.4 billion.
+2. The IN-SPACe Decadal Vision targets about 8% global share by 2033.
+3. The Rs 1,000 crore Venture Capital Fund is managed through NSIL.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: The economy is about US$8.4 billion with a target of US$44 billion (~8% share) by 2033; the VC fund is managed through SIDBI, not NSIL.
+[nce94a783c67] sub5
+  Where was the AP Space Tech Summit-2026 held?
+  Sriharikota Space Centre, Tirupati | Vignan’s University, Vijayawada | *Vignan’s University, Vadlamudi, Guntur | Andhra University, Visakhapatnam
+  x: The AP Space Tech Summit-2026 was held at Vignan’s University in Vadlamudi, Guntur.
+[n4b3bb311e09] sub5
+  Which Space Policy has Andhra Pradesh adopted along with dedicated space cities?
+  1.0 | 2.0 | 3.0 | *4.0
+  x: Andhra Pradesh has announced Space Policy 4.0 and is developing dedicated space cities to promote space manufacturing.
+[n05b7decc978] sub5
+  Over about how much land near Sriharikota is the Tirupati Space City planned?
+  1,000 acres | 2,000 acres | *3,000 acres | 5,000 acres
+  x: It is planned over about 3,000 acres and aims at about US$4 billion of investment.
+[f0801f291190d] sub5
+  For what purpose is Lepakshi Space City meant under Andhra Pradesh's space-city plan?
+  Launch-vehicle assembly | A second spaceport | Satellite ground stations only | *Research and development
+  x: Lepakshi is the second space city, for R&D; Tirupati Space City covers launch-vehicle assembly and satellite manufacturing.
+[f9f736c0b37c0] sub5
+  What investment does AP Space Policy 4.0 target during 2025-35?
+  *Rs 25,000 crore | Rs 1,000 crore | Rs 4,000 crore | Rs 44,000 crore
+  x: AP Space Policy 4.0 targets Rs 25,000 crore investment and 5,000 direct + 30,000 indirect jobs.
+

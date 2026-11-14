@@ -968,3 +968,12 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b1-w069 rewrite (rows 69-77): own 383 → 156 (41%).
 - b2-w027 rewrite (rows 27-30): own 379 → 133 (35%), 0 lost.
 - b1-w078 rewrite (rows 78-84): own 391 → 163 (42%), 0 lost. Notes 78 4:10.11 Vijayaditya VII vs Rajendra Chalukya 1070 (direction?).
+
+## rewrite b6-w032 (row 32)
+- own 197 → 30 kept + 56 new (86, 44%); new 39 statements / 10 match / 7 A–R; no lines lost.
+- Link fix: ca07232019ef83 was linked to 0:9 (October) but tests the September table (0:5); replaced by a new MCQ mapped to both.
+
+## rewrite b5-w034 (rows 34–39)
+- own 409 → 46 kept + 104 new (150, 37%); new 58 statements / 26 match / 20 A–R; 1 of 259 lines no longer tested.
+- Doubtful: PYQ y7fde8e87d42 (row 36) keyed liquid oxygen as "not a rocket propellant"; notes say it is one (it is the oxidiser). Added to doubtful.txt.
+- Unverifiable 2026 notes facts: Vikram-1 orbit (skipped), EOS-05 launch, IRNSS-1F clock loss.
