@@ -1589,3 +1589,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 147 → 17 kept + 42 new (59, 40%); new 27 statements / 9 match / 6 A–R; 3 of 105 lines lost.
 - IRCS Managing Body "18: 6 + Chairman nominated, 12 elected" (114:3:10.4, 10:0.9) sums to 19 — fix count; fb665139630e5 removed.
 - 115:3:7 Harivansh "first nominated member" elected Deputy Chairman (3rd term, 2026) — unverified; kept n3f9173afef1 depends on it — verify against RS bulletin.
+
+## rewrite b5-w114 (rows 114–118)
+- own 442 → 63 kept + 107 new (170, 38%); new 68 statements / 24 match / 15 A–R; no lines lost. No wrong keys.
+- Printed-key-only notes (not used): 117:0:3 "646 villages with PHCs"; 118:4:8 "raw cow milk" as calcium answer.

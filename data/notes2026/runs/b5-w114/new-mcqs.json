@@ -1,5 +1,620 @@
 [
  {
+  "s": "Match List-I with List-II:\nList-I (Mosquito)\nA. Female Anopheles\nB. Aedes aegypti\nC. Culex\nD. Haemagogus\nList-II (Disease)\n1. Lymphatic filariasis and Japanese encephalitis\n2. Forest (jungle) yellow fever\n3. Malaria\n4. Dengue and Zika\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-2, B-3, C-4, D-1",
+   "A-3, B-4, C-1, D-2",
+   "A-3, B-4, C-2, D-1",
+   "A-4, B-3, C-2, D-1"
+  ],
+  "a": 1,
+  "x": "Correct matching: A-3 (Female Anopheles – Malaria); B-4 (Aedes aegypti – Dengue and Zika); C-1 (Culex – Lymphatic filariasis and Japanese encephalitis); D-2 (Haemagogus – Forest (jungle) yellow fever). Anopheles carries Plasmodium (malaria); Aedes aegypti carries dengue, chikungunya, Zika and yellow fever; Culex carries filariasis and JE; Haemagogus carries forest yellow fever.",
+  "tq": "match",
+  "id": "cpe8933bb0658c",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. Chikungunya is caused by an alphavirus.\n2. Besides mosquito bites, Zika can spread through sexual contact and blood.\n3. Japanese encephalitis spreads mainly through contaminated water.\n4. Male mosquitoes feed on plant juices; only female mosquitoes suck blood.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: Japanese encephalitis is a mosquito-borne (Culex) viral disease of the brain and is not water-borne. Statements 1, 2 and 4 are correct, so three are correct.",
+  "tq": "statements",
+  "id": "cpe962210eb40d",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): Keeping pigs away from human settlements helps curb Japanese encephalitis.\nReason (R): Pigs amplify the Japanese encephalitis virus and, with wild birds, act as its reservoirs.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: because pigs amplify JEV (pigs and wild birds are reservoirs), keeping pigs away from settlements reduces JE transmission to people.",
+  "tq": "assertion",
+  "id": "cp4dba55900d46",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about lymphatic filariasis:\n1. It is caused by the nematode Wuchereria bancrofti.\n2. The Culex mosquito is the causative organism of filariasis.\n3. Its chronic stage, with swelling of the lower limbs, is called elephantiasis.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "2 only",
+   "1 and 2 only",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: Culex is only the vector; the cause is the thread-like roundworm Wuchereria bancrofti. Statements 1 and 3 are correct.",
+  "tq": "statements",
+  "id": "cpdad234a7d3f1",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about malaria:\n1. It is caused by the protozoan Plasmodium and carried by the female Anopheles mosquito.\n2. The parasites multiply first in the red blood cells and later in the liver.\n3. Plasmodium vivax causes relapsing malaria because it forms dormant liver stages (hypnozoites).\n4. Five species of Plasmodium infect humans.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: the parasites multiply first in the liver and then destroy red blood cells (the spleen enlarges). Statements 1, 3 and 4 are correct.",
+  "tq": "statements",
+  "id": "cp6534421274af",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): Plasmodium falciparum causes malignant (cerebral) malaria, the most severe form.\nReason (R): Plasmodium knowlesi is a zoonotic malaria parasite of macaques.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true (notes: falciparum = malignant/cerebral malaria; knowlesi = zoonotic, macaques), but the zoonotic nature of P. knowlesi does not explain why P. falciparum malaria is severe.",
+  "tq": "assertion",
+  "id": "cp82827904752d",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Vector)\nA. Sandfly\nB. Tsetse fly\nC. Chigger mite\nD. Cyclops (water flea)\nList-II (Disease / agent carried)\n1. Guinea-worm larvae\n2. Kala-azar\n3. Scrub typhus\n4. Sleeping sickness\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-2, B-4, C-3, D-1",
+   "A-4, B-2, C-1, D-3",
+   "A-1, B-4, C-3, D-2",
+   "A-1, B-2, C-3, D-4"
+  ],
+  "a": 0,
+  "x": "Correct matching: A-2 (Sandfly – Kala-azar); B-4 (Tsetse fly – Sleeping sickness); C-3 (Chigger mite – Scrub typhus); D-1 (Cyclops (water flea) – Guinea-worm larvae). Kala-azar (Leishmania donovani) is spread by the sandfly, sleeping sickness (Trypanosoma brucei) by the tsetse fly (not kala-azar), scrub typhus by the chigger mite; Cyclops carries Guinea-worm larvae.",
+  "tq": "match",
+  "id": "cp8d2efc4cf433",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. Kala-azar, caused by Leishmania donovani, attacks the liver, spleen and bone marrow.\n2. Rice tungro disease is spread by the leafhopper.\n3. Kyasanur Forest Disease ('monkey fever') of Shivamogga, Karnataka, spreads to humans through ticks.\n4. Chagas disease is spread by the tsetse fly.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "2 only",
+   "4 only"
+  ],
+  "a": 3,
+  "x": "Statement 4 is wrong: Chagas disease (Trypanosoma cruzi) is spread by the triatomine (kissing) bug; the tsetse fly spreads sleeping sickness. Statements 1-3 are correct.",
+  "tq": "statements",
+  "id": "cpedf82163e2ce",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about water-borne diseases:\n1. Typhoid is caused by Salmonella Typhi and diagnosed by the Widal test.\n2. Vibrio cholerae causes typhoid.\n3. Hepatitis A and E spread by the faecal-oral route through polluted water.\n4. Poliovirus enters through polluted food and water and attacks the spinal cord.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: Vibrio cholerae causes cholera, not typhoid (Salmonella Typhi). Statements 1, 3 and 4 are correct, so three are correct.",
+  "tq": "statements",
+  "id": "cpe10ff0fe63ea",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Water contaminant)\nA. Arsenic\nB. Cadmium\nC. Mercury\nD. Nitrate\nList-II (Disease)\n1. Blackfoot disease\n2. Blue-baby syndrome\n3. Itai-itai\n4. Minamata\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-1, B-2, C-4, D-3",
+   "A-3, B-1, C-4, D-2",
+   "A-1, B-3, C-4, D-2",
+   "A-2, B-3, C-1, D-4"
+  ],
+  "a": 2,
+  "x": "Correct matching: A-1 (Arsenic – Blackfoot disease); B-3 (Cadmium – Itai-itai); C-4 (Mercury – Minamata); D-2 (Nitrate – Blue-baby syndrome). Fluorosis is caused by fluoride, not nitrate; nitrate causes blue-baby syndrome.",
+  "tq": "match",
+  "id": "cp6f81f5d167c9",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. Hepatitis B spreads through blood, sex and from mother to child, much like HIV.\n2. Unlike Hepatitis C, Hepatitis B has no vaccine.\n3. Jaundice is a symptom of liver disease rather than a disease caused by one specific microbe.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: it is the reverse - Hepatitis B has a vaccine, Hepatitis C has none (UPSC 2019 angle). Statements 1 and 3 are correct.",
+  "tq": "statements",
+  "id": "cp990838e60730",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. Floods spread cholera, typhoid, hepatitis and leptospirosis.\n2. Water from shallow hand-pumps commonly causes fluorosis.\n3. About 5,000 children die daily worldwide from diseases linked to unsafe water and poor sanitation.\n4. Kwashiorkor is a water-borne disease.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 2 and 4 are wrong: shallow hand-pump water causes cholera, typhoid and jaundice, while fluorosis comes from fluoride in deep groundwater; kwashiorkor is a protein deficiency, not water-borne. Statements 1 and 3 are correct, so two are correct.",
+  "tq": "statements",
+  "id": "cpf0a12be7c395",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about worm diseases:\n1. Ascariasis is caused by a parasitic nematode, Ascaris lumbricoides.\n2. Taenia solium (pork tapeworm) causes taeniasis and neurocysticercosis, which affects the brain.\n3. The Guinea worm, Dracunculus medinensis, is an annelid.\n4. Humans get Guinea worm by drinking water containing infected Cyclops.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "4 only",
+   "1 only",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: Dracunculus medinensis is a nematode, not an annelid. Statements 1, 2 and 4 are correct.",
+  "tq": "statements",
+  "id": "cp975ed790c499",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): Fascioliasis causes obstructive jaundice in cattle.\nReason (R): Fasciola hepatica, the sheep liver fluke, is a nematode.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: the flukes block the bile ducts, causing obstructive jaundice in cattle. R is false: Fasciola hepatica belongs to Platyhelminthes (flatworms), not nematodes.",
+  "tq": "assertion",
+  "id": "cpca670a5c2b9a",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Disease / toxin)\nA. Ringworm\nB. Ergotism\nC. Aflatoxin poisoning\nD. Rust of wheat\nList-II (Causal fungus)\n1. Puccinia\n2. Claviceps purpurea\n3. Aspergillus flavus\n4. Dermatophytes\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-1, B-2, C-3, D-4",
+   "A-3, B-4, C-2, D-1",
+   "A-2, B-3, C-4, D-1",
+   "A-4, B-2, C-3, D-1"
+  ],
+  "a": 3,
+  "x": "Correct matching: A-4 (Ringworm – Dermatophytes); B-2 (Ergotism – Claviceps purpurea); C-3 (Aflatoxin poisoning – Aspergillus flavus); D-1 (Rust of wheat – Puccinia). Ergotism comes from Claviceps purpurea on rye; aflatoxin (liver damage) from Aspergillus flavus/parasiticus; ringworm from dermatophytes; wheat rust from Puccinia (smut is Ustilago).",
+  "tq": "match",
+  "id": "cp34da4a8fe9ec",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. Athlete's foot is a fungal infection spread through contaminated floors and towels.\n2. Epidemic dropsy results from mustard oil adulterated with Argemone mexicana.\n3. Spike disease of sandal is caused by the fungus Puccinia.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: spike disease of sandal is caused by a phytoplasma (mycoplasma-like organism, MLO); Puccinia causes rust of wheat. Statements 1 and 2 are correct.",
+  "tq": "statements",
+  "id": "cpe77c2c677cea",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about bacterial diseases:\n1. Tuberculosis, caused by Mycobacterium tuberculosis, is airborne and detected by the Mantoux test.\n2. Leprosy mainly affects the skin and peripheral nerves.\n3. Mycobacterium leprae causes diphtheria.\n4. Diphtheria forms a false membrane in the throat and spreads by respiratory droplets.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1, 3 and 4 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: Mycobacterium leprae causes leprosy; diphtheria is caused by Corynebacterium. Statements 1, 2 and 4 are correct.",
+  "tq": "statements",
+  "id": "cp7e45dbc051b2",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Disease)\nA. Syphilis\nB. Trachoma\nC. Atypical pneumonia\nD. Botulism\nList-II (Causative bacterium)\n1. Mycoplasma pneumoniae\n2. Clostridium botulinum\n3. Treponema pallidum\n4. Chlamydia\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-3, B-4, C-1, D-2",
+   "A-2, B-4, C-3, D-1",
+   "A-4, B-2, C-1, D-3",
+   "A-2, B-4, C-1, D-3"
+  ],
+  "a": 0,
+  "x": "Correct matching: A-3 (Syphilis – Treponema pallidum); B-4 (Trachoma – Chlamydia); C-1 (Atypical pneumonia – Mycoplasma pneumoniae); D-2 (Botulism – Clostridium botulinum). Trachoma (Chlamydia) scars the eyelid; botulism toxin of C. botulinum acts on nerves.",
+  "tq": "match",
+  "id": "cp9a39afde0920",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about viral diseases:\n1. HIV is a retrovirus that destroys helper T cells of the immune system.\n2. The common cold is caused by the rhinovirus.\n3. Mumps mainly affects the thyroid gland.\n4. COVID-19, caused by SARS-CoV-2, mainly affects the respiratory system.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: mumps affects the parotid (salivary) glands and spreads through saliva. Statements 1, 2 and 4 are correct, so three are correct.",
+  "tq": "statements",
+  "id": "cpd67733a57ba5",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Zoonotic disease)\nA. Nipah\nB. SARS\nC. Mpox\nD. Plague\nList-II (Animal source)\n1. Rope squirrel\n2. Civet cats\n3. Fruit bats (Pteropus)\n4. Rodents via rat fleas\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-1, B-2, C-4, D-3",
+   "A-3, B-2, C-1, D-4",
+   "A-2, B-1, C-3, D-4",
+   "A-2, B-3, C-1, D-4"
+  ],
+  "a": 1,
+  "x": "Correct matching: A-3 (Nipah – Fruit bats (Pteropus)); B-2 (SARS – Civet cats); C-1 (Mpox – Rope squirrel); D-4 (Plague – Rodents via rat fleas). Nipah's reservoir is the fruit bat; SARS came via civet cats; mpox was first isolated from a rope squirrel (DR Congo, 1985); plague spreads from rodents through rat fleas.",
+  "tq": "match",
+  "id": "cp9c98c3ee2d19",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. Rabies, Ebola and Nipah are zoonotic viral diseases.\n2. Malaria is a classic zoonotic disease.\n3. Pigs are the important host associated with rabies.\n4. The Ebola virus disease is named after a river.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 and 4 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statements 2 and 3 are wrong: malaria is vector-borne, not zoonotic; pigs host swine flu and JE, not rabies (rabies comes from dogs, cats, bats, foxes). Statements 1 and 4 are correct.",
+  "tq": "statements",
+  "id": "cpadde8b1efefe",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Livestock disease)\nA. Rinderpest\nB. Foot-and-mouth disease\nC. Ranikhet (Newcastle) disease\nD. Mastitis\nList-II (Fact)\n1. Inflammation of the udder in dairy animals\n2. Cattle and buffalo; eradicated in 2011\n3. Chickens and poultry\n4. Aphthovirus; cloven-hoofed animals\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-1, B-4, C-3, D-2",
+   "A-1, B-3, C-2, D-4",
+   "A-2, B-4, C-3, D-1",
+   "A-2, B-3, C-4, D-1"
+  ],
+  "a": 2,
+  "x": "Correct matching: A-2 (Rinderpest – Cattle and buffalo; eradicated in 2011); B-4 (Foot-and-mouth disease – Aphthovirus; cloven-hoofed animals); C-3 (Ranikhet (Newcastle) disease – Chickens and poultry); D-1 (Mastitis – Inflammation of the udder in dairy animals). Rinderpest (morbillivirus) was eradicated in 2011; FMD is an aphthovirus disease of cloven-hoofed animals; Ranikhet affects poultry; mastitis is bacterial inflammation of the udder.",
+  "tq": "match",
+  "id": "cpe1f71ecfca52",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. Pigs are an important host for swine flu (H1N1).\n2. H5N1 causes swine flu.\n3. The May 2018 Nipah outbreak in Kerala, which killed 17 people, was centred in Kozhikode.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: H5N1 is bird flu (poultry); swine flu is H1N1 (pigs). Statements 1 and 3 are correct, so two are correct.",
+  "tq": "statements",
+  "id": "cp524f0b25e606",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about biological vector control:\n1. Gambusia affinis (mosquito fish) controls mosquitoes by eating their larvae.\n2. Bti is a bacterial bio-larvicide.\n3. Wolbachia is naturally present in Aedes aegypti and Anopheles.\n4. Under Verily's 'Debug' project (June 2026), Wolbachia-carrying male Culex quinquefasciatus were released.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 3 and 4 only",
+   "1, 2 and 4 only",
+   "1, 2 and 3 only",
+   "2, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Wolbachia is found in 50-60% of insect species but is naturally ABSENT in Aedes aegypti and Anopheles. Statements 1, 2 and 4 are correct.",
+  "tq": "statements",
+  "id": "cp2876cd65d7ed",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about the National Center for Vector Borne Diseases Control (NCVBDC):\n1. It covers six diseases, including tuberculosis.\n2. Malaria, lymphatic filariasis and kala-azar are targeted for elimination.\n3. Dengue, chikungunya and Japanese encephalitis are targeted only for control.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: NCVBDC covers six diseases - malaria, JE, dengue, chikungunya, kala-azar and lymphatic filariasis - but NOT TB. Statements 2 and 3 are correct.",
+  "tq": "statements",
+  "id": "cp9f28875e05f2",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about malaria elimination:\n1. The National Framework for Malaria Elimination (2016-2030) aims at zero indigenous cases by 2027 and a malaria-free India by 2030.\n2. MERA India was launched by ICMR on 24 April 2019.\n3. WHO certified Maldives malaria-free in 2016 and Sri Lanka in 2015.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: the years are swapped - Maldives was certified in 2015 and Sri Lanka in 2016. Statements 1 and 2 are correct.",
+  "tq": "statements",
+  "id": "cp2386f7020b75",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): Mosquito populations become resistant to DDT over time.\nReason (R): Resistant individuals survive the spraying and breed, so resistance spreads by natural selection.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: DDT resistance is a case of natural selection (APPSC G2 Mains 2017 angle).",
+  "tq": "assertion",
+  "id": "cpa6bf4635ff61",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): Air pollution arises only from human activities.\nReason (R): Planting trees reduces air pollution.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: air pollution also comes from natural sources such as volcanoes, dust and forest fires. R is true: planting trees reduces air pollution.",
+  "tq": "assertion",
+  "id": "cp6aa5fcee51f4",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about air and noise pollution:\n1. WHO estimates 4.2 million premature deaths from ambient air pollution in 2019.\n2. IQAir 2025 ranked India the 6th most polluted country, with PM2.5 of 48.9 µg/m³.\n3. The WHO annual PM2.5 guideline is 15 µg/m³.\n4. Noise pollution causes hearing loss, hypertension, anxiety and sleep disorders.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the WHO annual PM2.5 guideline is 5 µg/m³ (only 13 countries met it). Statements 1, 2 and 4 are correct, so three are correct.",
+  "tq": "statements",
+  "id": "cpea3386011c70",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about climate-sensitive diseases:\n1. Floods are linked with cholera and hepatitis outbreaks.\n2. Warming expands the range of dengue and malaria vectors.\n3. Of WHO's projected 2.5 lakh extra climate-linked deaths a year (2030-2050), malaria accounts for the largest share.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: child undernutrition (95,000) accounts for the largest share, ahead of malaria (60,000), diarrhoea (48,000) and heat (38,000). Statements 1 and 2 are correct, so two are correct.",
+  "tq": "statements",
+  "id": "cp1f8b22f4e503",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. More than 3.6 billion people live in highly climate-vulnerable areas.\n2. In 2022, 58% (218 of 375) of human infectious diseases were found to be aggravated by climate hazards.\n3. Dasra's 'Under the Weather' report (April 2026) found about 60% of India's districts at high extreme-weather risk.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: Dasra's report put about 40% (not 60%) of districts at high extreme-weather risk. Statements 1 and 2 are correct.",
+  "tq": "statements",
+  "id": "cp4eeecb261dd2",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about antibiotics:\n1. Alexander Fleming discovered penicillin in 1928.\n2. Waksman discovered streptomycin, the first anti-TB drug.\n3. Most antibiotics are fully synthetic.\n4. Prontosil (Domagk, 1935) is converted in the body into sulfanilamide.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "2 only",
+   "1 only",
+   "4 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: most antibiotics are natural or semi-synthetic, mostly from bacteria (Streptomyces); only sulfa drugs are synthetic. Statements 1, 2 and 4 are correct.",
+  "tq": "statements",
+  "id": "cpc74d2d9ab4d3",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Drug / microbe)\nA. Griseofulvin\nB. Acetobacter\nC. Chloroquine\nD. Nafithromycin\nList-II (Use)\n1. Community-acquired pneumonia\n2. Production of vinegar\n3. Antimalarial\n4. Treatment of ringworm\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-4, B-1, C-3, D-2",
+   "A-3, B-2, C-1, D-4",
+   "A-1, B-3, C-4, D-2",
+   "A-4, B-2, C-3, D-1"
+  ],
+  "a": 3,
+  "x": "Correct matching: A-4 (Griseofulvin – Treatment of ringworm); B-2 (Acetobacter – Production of vinegar); C-3 (Chloroquine – Antimalarial); D-1 (Nafithromycin – Community-acquired pneumonia). Nafithromycin (Miqnaf) is India's first indigenous macrolide, for community-acquired pneumonia.",
+  "tq": "match",
+  "id": "cp0340156ce3d4",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about antimicrobial resistance (AMR):\n1. Not completing a course of antibiotics promotes AMR because resistant survivors are left to multiply.\n2. Self-medication and mutation can both promote antibiotic resistance.\n3. In increasing order of severity, drug resistance is graded XDR, MDR, TDR.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "3 only",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the order of increasing severity is MDR, XDR, TDR. Statements 1 and 2 are correct.",
+  "tq": "statements",
+  "id": "cpdcc06a3beb96",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about biofilms:\n1. The self-produced matrix that protects microbes in a biofilm is made of peptidoglycan.\n2. Biofilms can form on implants, catheters, tissues and food-processing surfaces.\n3. Biofilms block antibiotics and so cause chronic infection.\n4. In the food industry, biofilms cause spoilage and contamination.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: the biofilm matrix is EPS (extracellular polymeric substance), not peptidoglycan. Statements 2, 3 and 4 are correct, so three are correct.",
+  "tq": "statements",
+  "id": "cp467ce6e45154",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about India's response to AMR:\n1. Nafithromycin (Miqnaf), India's first indigenous macrolide, was developed by Wockhardt with BIRAC.\n2. The One Health based National Action Plan on AMR (NAP-AMR) was launched in 2017.\n3. Kerala's KARSAP (2018) was the first State action plan on AMR.\n4. The Red Line campaign puts a red line on the packs of all over-the-counter medicines.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 4 is wrong: the Red Line campaign (2016) marks only prescription-only antibiotics, not all OTC medicines. Statements 1, 2 and 3 are correct.",
+  "tq": "statements",
+  "id": "cp3a7ff62660e9",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about One Health:\n1. One Health looks at human, animal, plant and environmental health together; biodiversity loss raises zoonotic and pandemic risk.\n2. The Quadripartite on One Health comprises WHO, FAO, UNEP and WOAH.\n3. The National Institute of One Health is located in Pune.\n4. The National One Health Mission is associated with PM-STIAC.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the National Institute of One Health is in Nagpur. Statements 1, 2 and 4 are correct, so three are correct.",
+  "tq": "statements",
+  "id": "cpc09e8f44fe24",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. The Epidemic Diseases Act, 1897, a four-section law, was enacted against bubonic plague in Bombay.\n2. The Epidemic Diseases Act was amended in 2020 to protect health workers.\n3. The Integrated Disease Surveillance Programme (IDSP) was launched in 2014 under MoHFW/NCDC.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: IDSP was launched in 2004 (not 2014); it is run by MoHFW/NCDC and uses the IHIP digital platform. Statements 1 and 2 are correct.",
+  "tq": "statements",
+  "id": "cpf701a8987e41",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Programme)\nA. Universal Immunisation Programme\nB. Mission Indradhanush\nC. U-WIN\nD. Nikshay Poshan Yojana\nList-II (Feature)\n1. Nutrition support (DBT) for TB patients\n2. Registers every UIP vaccination\n3. 6 diseases at launch (1985), now 12\n4. Over 90% full immunisation\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-4, B-3, C-1, D-2",
+   "A-3, B-4, C-2, D-1",
+   "A-4, B-2, C-1, D-3",
+   "A-3, B-4, C-1, D-2"
+  ],
+  "a": 1,
+  "x": "Correct matching: A-3 (Universal Immunisation Programme – 6 diseases at launch (1985), now 12); B-4 (Mission Indradhanush – Over 90% full immunisation); C-2 (U-WIN – Registers every UIP vaccination); D-1 (Nikshay Poshan Yojana – Nutrition support (DBT) for TB patients). UIP (1985) covered 6 diseases at launch and now covers 12 (not malaria); Mission Indradhanush (Dec 2014) targets over 90% full immunisation.",
+  "tq": "match",
+  "id": "cp7e4ef5efc3ea",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about vector-borne diseases in Andhra Pradesh:\n1. Malaria cases in 2026 (to 30 August) rose by 27.9% to about 7,895.\n2. Dengue cases in 2026 (to 30 August) were higher than in the whole of 2025.\n3. The 2026 malaria hotspots were ASR, Polavaram and Vizianagaram, and scrub typhus cases reached 941.\n4. The adult BCG drive from 16 May 2024 placed Andhra Pradesh first in India.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1, 2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: AP had 1,475 dengue cases in 2026 (to 30 August) against 2,686 in 2025 - dengue fell while malaria rose. Statements 1, 3 and 4 are correct.",
+  "tq": "statements",
+  "id": "cpbe47c05c641d",
+  "row": 114,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): Andhra Pradesh's agency (tribal) districts carry most of the State's malaria and scrub typhus burden.\nReason (R): Andhra Pradesh's vector-control response includes indoor residual spraying, LLINs and source reduction.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both statements are true, but the response measures (IRS, LLINs, source reduction) do not explain why the agency districts carry most of the burden.",
+  "tq": "assertion",
+  "id": "cp800e41d87296",
+  "row": 114,
+  "src": "app"
+ },
+ {
   "s": "Consider the following statements about dietary fats:\n1. Trans fat raises LDL cholesterol and lowers HDL (good) cholesterol.\n2. FSSAI caps trans fat at 5% in fats and oils.\n3. WHO's REPLACE plan set 2023 as the target to eliminate industrially produced trans fats from the global food supply.\n4. Excess saturated fat raises blood lipids and cholesterol.\nWhich of the statements given above is/are correct?",
   "o": [
    "1, 2 and 4 only",
