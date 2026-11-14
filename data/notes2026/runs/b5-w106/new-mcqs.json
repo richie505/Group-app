@@ -1,15 +1,495 @@
 [
  {
-  "id": "cp6bca56837ce5",
-  "row": 107,
-  "s": "Consider the following statements about digital tools used in epidemics:\n1. Andhra Pradesh's Covid Pharma app (25 April 2020) tracked people buying over-the-counter antibiotics.\n2. The GIS network analysis tool finds locations and the fastest routes to hospitals and fire stations in disasters like earthquakes.\n3. The COVID-19 GIS war room was set up by the Bruhat Bengaluru Mahanagara Palike.\nWhich of the statements given above is/are correct?",
+  "id": "cpc27ae9051522",
+  "row": 106,
+  "s": "Consider the following statements:\n1. The International Decade for Natural Disaster Reduction (IDNDR), proclaimed by the UN General Assembly in 1989, covered 1990–1999.\n2. The Yokohama Strategy came out of the first World Conference on Natural Disaster Reduction held at Yokohama in May 1994.\n3. The Hyogo Framework for Action (2005–2015), adopted at Kobe, set out four priorities for action.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
    "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct (IDNDR was the first concerted UN effort and prompted India's DM Cell; Yokohama, 23–27 May 1994, gave the first global guidelines). Statement 3 is wrong: Hyogo had 5 priorities; it is Sendai that has 4.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp05d5a578d2b6",
+  "row": 106,
+  "s": "Consider the following statements about the Sendai Framework for Disaster Risk Reduction:\n1. It was adopted on 18 March 2015 at the third World Conference on Disaster Risk Reduction for the period 2015–2030.\n2. It is a legally binding global agreement.\n3. Its custodian is UNDRR, Geneva – the name UNISDR took on 1 May 2019.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
    "2 and 3 only",
    "1 and 3 only",
    "1, 2 and 3"
   ],
+  "a": 2,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: Sendai is voluntary and non-binding. UNISDR (1999) was renamed UNDRR on 1 May 2019 and is based in Geneva.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp59ce70fc4d2c",
+  "row": 106,
+  "s": "Consider the following statements:\n1. UNDRR convenes the Global Platform for Disaster Risk Reduction.\n2. All three World Conferences on Disaster Risk Reduction were hosted by Japan.\n3. The Global Platform for Disaster Risk Reduction of May 2017 was held at Geneva.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "None",
+   "All three",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "Only two are correct. Statements 1 and 2 are true (Yokohama, Kobe and Sendai are all in Japan). Statement 3 is wrong: the May 2017 Global Platform was held at Cancun, Mexico.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp54b9c81ba995",
+  "row": 106,
+  "s": "Match List-I (Sendai Framework priority) with List-II (Priority number):\nList-I | List-II\na. Understanding disaster risk | i. Priority 4\nb. Strengthening disaster risk governance | ii. Priority 3\nc. Investing in DRR for resilience | iii. Priority 2\nd. Enhancing preparedness for effective response and 'Build Back Better' | iv. Priority 1\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Sendai's four priorities in order: 1 understanding disaster risk; 2 strengthening disaster risk governance; 3 investing in DRR for resilience; 4 enhancing preparedness and 'Build Back Better' in recovery.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp79bdf4b7175a",
+  "row": 106,
+  "s": "Match List-I (Sendai target) with List-II (Aim by 2030):\nList-I | List-II\na. Target A | i. Reduce global disaster mortality\nb. Target D | ii. Reduce damage to critical infrastructure and disruption of basic services\nc. Target F | iii. Access to multi-hazard early warning systems and risk information\nd. Target G | iv. Enhance international cooperation to developing countries\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "A – mortality; D – critical infrastructure and basic services; F – international cooperation to developing countries; G – multi-hazard early warning and risk information. (B = affected people, C = economic loss, E = DRR strategies by 2020.)",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7026c571d0f8",
+  "row": 106,
+  "s": "Match List-I (Day) with List-II (Date):\nList-I | List-II\na. World Meteorological Day | i. 23 March\nb. World Environment Day | ii. 5 June\nc. World Humanitarian Day | iii. 19 August\nd. NDRF Raising Day | iv. 19 January\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
   "a": 1,
+  "x": "World Meteorological Day – 23 March; World Environment Day – 5 June (not 15 June); World Humanitarian Day – 19 August (2017 theme #NotATarget); NDRF Raising Day – 19 January.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa3ad3cb00c89",
+  "row": 106,
+  "s": "Consider the following statements:\n1. The Prime Minister's 10-Point Agenda on DRR was announced at the 7th AMCDRR in New Delhi in November 2016.\n2. Women's leadership in disaster risk reduction is part of the 10-Point Agenda.\n3. The Coalition for Disaster Resilient Infrastructure (CDRI), launched in 2019, has its secretariat in Geneva.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 2 are correct: the 10-Point Agenda (3–5 Nov 2016, New Delhi) is India's Sendai-aligned roadmap and includes women's leadership. Statement 3 is wrong: CDRI (2019) is India-led with its secretariat in New Delhi.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0b016ce6d616",
+  "row": 106,
+  "s": "Consider the following statements about the Disaster Management Act, 2005:\n1. It received Presidential assent on 23 December 2005.\n2. It has 11 chapters and 79 sections.\n3. Section 42 provides for the NDRF and Section 44 for the NIDM.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 2 are correct. Statement 3 swaps the sections: Section 42 is NIDM and Section 44 is the NDRF (Section 3 NDMA, Section 8 NEC).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb18dde718774",
+  "row": 106,
+  "s": "Consider the following statements:\n1. The National Policy on Disaster Management was approved on 22 October 2009.\n2. It shifted India's approach from relief-centric to prevention, mitigation and preparedness.\n3. The DM Act gives Panchayati Raj Institutions and Urban Local Bodies only an advisory role.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "None",
+   "All three",
+   "Only two"
+  ],
+  "a": 0,
+  "x": "Only two are correct. Statements 1 and 2 are true (NPDM 2009 – holistic, pro-active). Statement 3 is wrong: the Act gives PRIs and ULBs a legal role; the 2025 amendment also added Urban DM Authorities.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpef1e9c3d092c",
+  "row": 106,
+  "s": "Match List-I (Body) with List-II (Chair):\nList-I | List-II\na. National Executive Committee (NEC) | i. Union Home Secretary\nb. National Crisis Management Committee (NCMC) | ii. Chief Secretary\nc. National Platform for DRR (NPDRR) | iii. Cabinet Secretary\nd. State Crisis Management Committee | iv. Union Home Minister\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 1,
+  "x": "NEC – Union Home Secretary; NCMC – Cabinet Secretary (not the Home Minister); NPDRR and the High Level Committee – Union Home Minister; State Crisis Management Committee – Chief Secretary.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp69ff41f06c73",
+  "row": 106,
+  "s": "Consider the following statements:\nAssertion (A): The Ministry of Home Affairs only renders technical advice to the States on fire protection, prevention and legislation.\nReason (R): Fire services are a State subject.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: because fire is a State subject, MHA's DG Fire Services, Civil Defence & Home Guards only gives technical advice.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpcc4f9aafbf89",
+  "row": 106,
+  "s": "Consider the following statements about the National Disaster Response Force (NDRF):\n1. It was raised in 2006 under Section 44 of the DM Act with 12 battalions.\n2. Its Academy is at Nagpur.\n3. Its regional headquarters for Andhra Pradesh, Telangana and Karnataka is at Vijayawada.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: NDRF was raised in 2006 with 8 battalions (12 by 2017, 16 now). Statements 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3a6ac5f07024",
+  "row": 106,
+  "s": "Consider the following statements:\n1. Aapda Mitra trains community volunteers as first responders.\n2. SACHET is an NDMA alert system based on the Common Alerting Protocol, developed by C-DOT.\n3. Mock exercises of disaster management are conducted regularly by NDMA along with NIDM, NDRF and the States.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 0,
+  "x": "All three are correct as per the notes on NDMA's community and alert programmes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp57be6e01181a",
+  "row": 106,
+  "s": "Consider the following statements about disaster funds:\n1. The SDRF is the primary State fund for immediate relief, shared 75:25 by the Centre and general-category States.\n2. The National Calamity Contingency Fund was recommended by the Thirteenth Finance Commission.\n3. Mitigation funds (NDMF/SDMF) came after the Fifteenth Finance Commission.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the 11th Finance Commission gave the NCCF; the 13th gave the NDRF/SDRF funds. Statements 1 (90:10 for special-category States) and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa4fef8ad60a3",
+  "row": 106,
+  "s": "Consider the following statements:\nAssertion (A): Since August 2026, heatwave and lightning are among the notified disasters eligible for SDRF/NDRF assistance, taking the list from 12 to 14.\nReason (R): No man-made disaster is a notified disaster for SDRF/NDRF aid.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: heatwave and lightning were added on Finance Commission advice by MHA notification; the absence of man-made disasters from the list is a separate fact.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp48b39814d507",
+  "row": 106,
+  "s": "Consider the following statements:\n1. Vulnerability is susceptibility to harm – physical, social, economic or environmental.\n2. Disaster risk is expressed as Risk = Hazard × Capacity / Vulnerability.\n3. Hazard mapping is the mapping of areas at risk of various hazards.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 inverts the formula: Risk = Hazard × Vulnerability / Capacity, so infinite capacity gives zero risk. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6fb3cb5afeaa",
+  "row": 106,
+  "s": "Match List-I (Hazard) with List-II (Class):\nList-I | List-II\na. Volcanic eruption | i. Geophysical\nb. Hailstorm | ii. Climatological\nc. Heat wave | iii. Biological\nd. Pest attack | iv. Meteorological\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "Volcano – geophysical (with earthquake, tsunami, landslide); hailstorm – meteorological (not biological); heat wave – climatological (with drought, cold wave); pest attack – biological (with epidemics).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp50199095188d",
+  "row": 106,
+  "s": "Consider the following statements:\n1. Industrial, chemical and nuclear disasters are man-made hazards.\n2. Floods worsened by deforestation are socio-natural hazards.\n3. Cyber attacks and space weather are classed as meteorological hazards.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "None",
+   "All three",
+   "Only two"
+  ],
+  "a": 1,
+  "x": "Only two are correct. Statement 3 is wrong: cyber attacks and space weather are emerging hazards.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb30fa461cdf6",
+  "row": 106,
+  "s": "Consider the following statements:\nAssertion (A): The higher a country's level of development, the more lives it loses to disasters.\nReason (R): Rising vulnerability to disasters comes from population growth, climate change and pollution.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: development and disaster deaths are inversely related. R is true: population growth, climate change and pollution (not 'stagnation in S&T') raise vulnerability.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe13b60eebbcc",
+  "row": 106,
+  "s": "Match List-I (Hazard) with List-II (Mitigation measure):\nList-I | List-II\na. Earthquake | i. Regulating settlements and retaining walls\nb. Cyclone | ii. Shelter belts and mangroves along the coast\nc. Flood | iii. Desilting, check dams and diversion levees\nd. Landslide | iv. Reframing building codes and enforcing them\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "Earthquake – building codes (IS 1893, NBC); cyclone – planting trees/mangroves, shelters, IMD warnings; flood – desilting, afforestation, check dams, levees (not deindustrialisation); landslide – regulating settlements, retaining walls, hazard zonation.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp57ca15948271",
+  "row": 106,
+  "s": "Consider the following statements about earthquake safety:\n1. A simple rectangular (symmetric) plan is preferred over star, oval or circular plans.\n2. A pyramidal (hipped) roof reduces wind force on the roof.\n3. While searching collapsed buildings after a quake, candles are safer than battery torches.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: a battery torch is used because of possible gas leaks – no candles or flames.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpae6a5f11e13d",
+  "row": 106,
+  "s": "Consider the following statements about chemical disasters:\n1. The Bhopal gas tragedy of 2–3 December 1984 occurred at the Union Carbide pesticide plant.\n2. The LG Polymers accident at Visakhapatnam in May 2020 released chlorine gas.\n3. Chemical accidents are regulated under the MSIHC Rules, 1989 and the CAEPPR Rules, 1996, with MoEFCC as nodal ministry.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: LG Polymers (May 2020) released styrene vapour. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0fe2af6fcb38",
+  "row": 106,
+  "s": "Match List-I (Event) with List-II (Key fact):\nList-I | List-II\na. Seveso, Italy (1976) | i. School fire in which 94 children died\nb. Three Mile Island (1979) | ii. Nuclear reactor accident rated INES level 7\nc. Chernobyl (1986) | iii. Partial reactor meltdown in the USA\nd. Kumbakonam (2004) | iv. Dioxin release\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Seveso – dioxin; Three Mile Island – USA partial meltdown; Chernobyl (26 April 1986, Ukraine) – INES level 7; Kumbakonam (16 July 2004, Tamil Nadu) – school fire, 94 children.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp655767bd9991",
+  "row": 106,
+  "s": "Consider the following statements:\nAssertion (A): A nuclear explosion is not a natural disaster.\nReason (R): Nuclear, biological and chemical emergencies are handled by the National Crisis Management Committee chaired by the Union Home Minister.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (nuclear explosion is a man-made CBRN event). R is false: NBC emergencies go to the Cabinet Committee on Security chaired by the PM; the NCMC is chaired by the Cabinet Secretary.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp02baf62550ac",
+  "row": 106,
+  "s": "Consider the following statements about India's disaster profile:\n1. About 5,700 km of coastline, across 13 coastal States/UTs, is prone to cyclones and tsunamis.\n2. About 68% of cultivable land is vulnerable to drought.\n3. About 12% of India's area is earthquake prone.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "None",
+   "All three",
+   "Only two"
+  ],
+  "a": 0,
+  "x": "Only two are correct. Statement 3 is wrong: about 59% of the area is earthquake prone (Zones III-V); about 12% (40 Mha) is flood prone.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp273f73d0429a",
+  "row": 106,
+  "s": "Consider the following statements about disaster management in Andhra Pradesh:\n1. APSDMA's State Emergency Operations Centre is at Kunchanapalli in Guntur district.\n2. The most cyclone-vulnerable stretch of the AP coast is Machilipatnam–Kakinada.\n3. In the NDMA–IMD Cyclone Hazard Prone Districts report (2010), West Godavari is 'High' while Krishna is 'Very High'.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the most vulnerable stretch is Ongole–Machilipatnam. Statements 1 and 3 are correct (East Godavari and Guntur are also 'Very High').",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8f541e42c867",
+  "row": 106,
+  "s": "Match List-I (Operation) with List-II (Country assisted):\nList-I | List-II\na. Operation Maitri | i. Vietnam, Laos and Myanmar (Typhoon Yagi 2024)\nb. Operation Dost | ii. Turkey and Syria (earthquake 2023)\nc. Operation Karuna | iii. Myanmar (Cyclone Mocha 2023)\nd. Operation Sadbhav | iv. Nepal (earthquake 2015)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "Maitri – Nepal 2015; Dost – Turkey/Syria 2023 (NDRF); Karuna – Myanmar, Cyclone Mocha 2023; Sadbhav – Vietnam, Laos, Myanmar, Typhoon Yagi 2024.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp55976350f66d",
+  "row": 106,
+  "s": "Consider the following statements:\n1. Operation Vanilla (January 2020) was carried out by the Indian Navy's INS Airavat after Cyclone Diane.\n2. Operation Brahma (2025) was India's relief mission after an earthquake in Nepal.\n3. The Aarogya Maitri Cubes of Project BHISHM are portable disaster hospitals sourced through HLL Lifecare.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "2 only"
+  ],
+  "a": 3,
+  "x": "Only statement 2 is incorrect: Operation Brahma (2025) was for the earthquake in Myanmar. Statements 1 (Madagascar) and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc37fe350251e",
+  "row": 106,
+  "s": "Consider the following statements about heat-wave management:\n1. Heat Action Plans are prepared by States and cities.\n2. Cool roofs are a heat-wave management measure.\n3. NDMA's heat-wave action-plan guidelines were last updated in 2021.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the NDMA heat-wave guidelines were updated in 2019; 2021 is the year of the Cold Wave and Frost guidelines.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0316abbf2aeb",
+  "row": 106,
+  "s": "Consider the following statements about cold waves:\n1. Cold waves in India mainly occur from November to March.\n2. NDMA issued its Guidelines on Cold Wave and Frost in 2019.\n3. A 'cold day' is declared when the maximum temperature departs from normal by −4.5°C to −6.4°C.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the NDMA Guidelines on Cold Wave and Frost are of 2021. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcd28044ff31d",
+  "row": 106,
+  "s": "Consider the following statements about community-based DRR:\n1. NDMA issued Disability-inclusive DRR guidelines in 2019.\n2. The national project on community-based DRR in PRIs develops 20 Model Gram Panchayats.\n3. Social media is meant to replace official warning systems.\n4. In the 2004 tsunami, up to four times as many women as men died in some areas.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 3 is wrong: social media complements, but does not replace, official systems.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc8bc0acfef46",
+  "row": 106,
+  "s": "Consider the following statements about tsunami preparedness:\n1. India's Tsunami Early Warning Centre (ITEWC) is at INCOIS, Hyderabad.\n2. 24 villages in Odisha are recognised as Tsunami Ready by UNESCO-IOC.\n3. ISRO's DMS programme and NDEM support the management of cyclones only.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: ISRO's DMS programme and NDEM support all hazards.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6bca56837ce5",
+  "row": 107,
+  "s": "Consider the following statements about digital tools used in epidemics:\n1. Andhra Pradesh's Covid Pharma app (25 April 2020) tracked people buying over-the-counter antibiotics.\n2. The GIS network analysis tool finds locations and the fastest routes to hospitals and fire stations in disasters like earthquakes.\n3. The COVID-19 GIS war room was set up by the Bruhat Bengaluru Mahanagara Palike.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
   "x": "Statement 1 is wrong: the AP Covid Pharma app (Medical & Health Dept, 25 April 2020) tracked buyers of over-the-counter cough, cold and fever medicines, not antibiotics. Statements 2 (network analysis = fastest routes) and 3 (BBMP war room) are correct.",
   "src": "app",
   "tq": "statements"
@@ -20,11 +500,11 @@
   "s": "Consider the following statements about the 2020 amendment to the Epidemic Diseases Act, 1897:\n1. It made violence against health workers cognizable and non-bailable.\n2. Ordinary acts of violence against health workers carry a jail term of 6 months to 7 years.\n3. The fine for such violence ranges from Rs 50,000 to Rs 2 lakh.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "2 and 3 only",
    "1 and 3 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: ordinary violence carries 3 months to 5 years; 6 months to 7 years applies only to grievous hurt.",
   "src": "app",
   "tq": "statements"
@@ -36,10 +516,10 @@
   "o": [
    "2 only",
    "1 and 2 only",
-   "1, 2 and 3",
-   "2 and 3 only"
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Statement 1 reverses the dates: the ordinance came in April 2020 and the Act in September 2020. Statement 2 is correct (it is also criticised as colonial). Statement 3 is correct: the 2017 draft Public Health Bill was never enacted.",
   "src": "app",
   "tq": "statements"
