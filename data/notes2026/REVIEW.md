@@ -666,3 +666,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - ydfb829da71e IAS 1995 TB+leprosy drug: PAS → Rifampicin (flat error). ybf2f4d98080 sneezing: Immune → Respiratory system (owner: check official key).
 - Disputes: Hib meningitis; y841c9481975 algae "All of these" (not verified); BCG "within 15 days".
 - Outdated: NVBDCP → NCVBDC; WHO superbug list 2017 → 2024.
+
+## b6-r025 (CA rows 25-26 national polity news)
+- No key changes. Outdated y6960f49bb7b Om Prakash Mathur (now Governor of Kerala, Oct 2026).
+- Rocket CA wrong date: National Honour (Amdt) Act assent 6 Aug 2026 (Gazette), not 11 Aug. Removed unverified "Jana Gana Mana in Shankarabharanam".
+- Own-MCQ mappings partly keyword-based, not fully reviewed.

@@ -202,7 +202,7 @@
 - **Donations above ₹20,000 (2024–25):** BJP ₹6,074 crore; INC ~₹517 crore; **BSP – none above ₹20,000 for 19 years**.
 - **Rajya Sabha:** **73 of 229** members face criminal cases, **36** serious.
 - **MLATrack.com (Kerala Assembly):** India's first **platform tracking MLAs' legislative work**.
-~~ Sources: Praveen CA-360 Mar 2026 p.17, p.21 (Om Birla removal motion; MLATrack), Apr 2026 p.9-10 (Harivansh; Venugopal privilege notice; Samrat Choudhary); Rocket CA 2026 Part 01 p.104 (Samrat Choudhary oath 15 Apr 2026); Rocket Polity 01 p.17, p.59 (Tenth Schedule, 52nd Amendment; Kihoto Hollohan); app notes 6:27 (sub 3)
+~~ Sources: Praveen CA-360 Mar 2026 p.21 (MLATrack), Apr 2026 p.9-10 (Harivansh; Venugopal privilege notice; Samrat Choudhary); Rocket CA 2026 Part 01 p.104 (Samrat Choudhary oath 15 Apr 2026); Rocket Polity 01 p.17, p.59 (Tenth Schedule, 52nd Amendment; Kihoto Hollohan); app notes 6:27 (sub 3)
 
 === Judiciary – Strength, Appointments and Digitisation
 # Supreme Court strength 34 → 38
@@ -285,7 +285,7 @@
 | **D.K. Basu v WB (1997)** | Arrest safeguards – memo, inform relative, medical exam |
 | **Prakash Singh v UoI** | **Police Complaints Authorities** |
 | **Paramvir Singh Saini** | **CCTV** in police stations |
-~~ Sources: Praveen CA-360 May 2026 p.85 (Bhojshala); CARE Jun 2026 p.51-53 (Forest Rights Act); app notes 6:27 (sub 6)
+~~ Sources: Praveen CA-360 May 2026 p.85 (Bhojshala – Saraswati Temple, Dhar); app notes 6:27 (sub 6: FRA rulings, Sattankulam, custodial cases)
 
 === Women's Reservation and Panchayats
 # Women's Reservation Act (106th Amendment, 2023)

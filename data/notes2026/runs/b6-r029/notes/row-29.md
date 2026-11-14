@@ -29,7 +29,7 @@
 | Pramati (2014), 5 judges | Exempted **aided and unaided minority schools** |
 - **RTE Act, 2009:** Art 21A (6–14 years); **Section 12(1)(c)** – private unaided schools reserve **25% of entry-level seats** for disadvantaged groups, State reimburses; bans capitation fees and corporal punishment; TET.
 - **Article 30(1):** all minorities (religious and linguistic) may establish and administer educational institutions of their choice.
-~~ Sources: app notes 6:29 (sub 4); Laxmikanth Indian Polity 8th ed. (src/polity/laxmikanth-indian-polity-02.txt) for Arts 233–234
+~~ Sources: app notes 6:29 (sub 4)
 
 === Rights Rulings – DNA, Defamation, Speech, Personality, Internet, NDPS
 # DNA evidence – Kattavellai @ Devakar v State of Tamil Nadu
@@ -107,7 +107,7 @@
 # Draft Registration Bill, 2025
 - **Ministry of Rural Development**; replaces the **Registration Act, 1908**; land/property disputes = **over two-thirds** of civil cases.
 - **Section 29:** end-to-end digital and offline registration; 29(4) – **cannot be denied for lack of Aadhaar** (Aadhaar not mandatory); jail term cut 7 → 3 years.
-~~ Sources: app notes 6:29 (sub 2); Laxmikanth Indian Polity 8th ed. (laxmikanth-indian-polity-01.txt) for Art 75/164
+~~ Sources: app notes 6:29 (sub 2)
 
 === Elections – ECI, SIR, ECINET and the Vice-President
 # Election Commission – what it can and cannot do (APPSC PYQ)
