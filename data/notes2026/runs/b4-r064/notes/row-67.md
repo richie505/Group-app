@@ -74,4 +74,4 @@
 - Minorities mostly urban, large BPL segment.
 - Bodies: State Minorities Commission, **AP State Minorities Finance Corporation (APSMFC) – set up 1985** under the Companies Act, **Christian Minorities Finance Corporation** (Nov 2008; Jerusalem pilgrimage aid), **Waqf Board**.
 - Imams and Mouzams ₹180 crore a year; **Urdu second official language (17 Mar 2026)**; minority budget **₹6,090 crore** (2026-27).
-~~ Sources: web search: APSMFC "established in the year 1985" (AP district portals, page not opened); app notes 4:67 sub 7
+~~ Sources: indianjournalofcapitalmarkets.com/index.php/ijom/article/view/34135 (APSMFC survey, set up 1985); app notes 4:67 sub 7
