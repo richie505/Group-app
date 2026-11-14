@@ -1042,3 +1042,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b1-w098 (rows 98–101)
 - own 439 → 50 kept + 103 new (153, 35%); new 59 statements / 32 match / 11 A–R / 1 sequence; 2 of 282 lines lost.
 - Notes conflict: "Kataka Churakara" title given to Kataya Vema (98:6:1.5) vs Kapaya Nayaka (99:1:3.2) — reconcile. Kasikhandam: Veerabhadra Reddi's court (98:0:12.4) vs at Kataya Vema's request (101:9:1.2) — possibly compatible.
+
+## rewrite b2-w035 (rows 35–40)
+- own 448 → 102 kept + 85 new (187, 42%); new 54 statements / 20 match / 11 A–R; 2 of 290 lines lost.
+- Removed nee7cf8fcba1 (Speaker chairs Rules Committee) as not in notes — the fact is TRUE (Speaker chairs Rules, Business Advisory, General Purposes Committees); notes gap to add.
+- 37:4:5 (131st Amendment Bill, Lok Sabha 550 → 850) app-notes only, unverified.
