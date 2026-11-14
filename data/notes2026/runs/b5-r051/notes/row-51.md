@@ -96,7 +96,7 @@
 | Blasting gelatin | NG 91–93% + nitrocellulose |
 | **Amatol** | **TNT + ammonium nitrate** – **no nitroglycerine** |
 | C-4 | **RDX** (not HMX) in a plastic matrix |
-> 14 PYQs: other name of RDX (×2), nitroglycerine as explosive (×2), not-an-explosive (×2), Amatol, Nobel oil, dynamite, gun cotton.
+> 13 PYQs: other name of RDX (×2), nitroglycerine as explosive (×2), not-an-explosive (×2), Amatol, Nobel oil, dynamite, gun cotton.
 ~~ Sources: app notes 5:51 sub 10; general knowledge, not checked (chemistry of the names)
 
 === Radar, Doppler Effect and Stealth

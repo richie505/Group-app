@@ -1,0 +1,1184 @@
+=== NOTES 5:69 | Energy Storage – Battery Technologies, Pli for Acc, Grid Storage
+## SUB 0 | Cell Basics
+[69:0:0] - **Anode = oxidation** (loss of electrons); **cathode = reduction** (gain) during discharge.
+[69:0:1] - **Electrolyte** lets ions flow and keeps electrodes apart.
+[69:0:2] - Storage is the **bottleneck** for RE: balances variable output, supports **24x7 RE**.
+## SUB 1 | Battery Chemistries
+[69:1:0] TABLE head: Battery | Electrodes / feature | Uses
+  [69:1:0.0] Lead-acid | Lead + PbO2, sulphuric acid | Car starting, UPS
+  [69:1:0.1] Ni-Cd | Cathode nickel (oxide) hydroxide, anode cadmium, KOH electrolyte; rechargeable | Calculators, shavers, torchlights, power tools; declining (toxic cadmium)
+  [69:1:0.2] NiMH | Metal hydride replaces cadmium | Hybrid vehicles
+  [69:1:0.3] Zinc-carbon dry cell | Zinc pot, MnO2, carbon; NH4Cl + ZnCl2 paste, no free liquid; not rechargeable (reaction irreversible) | Torches, clocks
+  [69:1:0.4] Li-ion | Graphite anode; NMC (nickel-manganese-cobalt) or LFP (safe, long life) cathode | Phones, EVs, grid
+  [69:1:0.5] Sodium-ion | No cobalt/nickel; safer; density below LFP | Storage, low-cost EVs
+  [69:1:0.6] Solid-state | Solid electrolyte | Emerging EVs
+  [69:1:0.7] Flow (vanadium) | Liquid electrolytes in tanks; energy and power scaled separately | Grid-scale
+[69:1:1] Sodium-ion is a safer, mineral-light alternative, not a replacement for pumped storage.
+## SUB 2 | Battery Minerals
+[69:2:0] - EV **cathodes: lithium, nickel, cobalt**; **graphite = anode** (only three of four make cathodes).
+[69:2:1] - India **import dependent** for lithium, nickel, cobalt; **>70%** of lithium processing in a few countries.
+[69:2:2] - Lithium: **Salal-Haimana, Reasi (J&K)**, ~**5.9 million tonnes** inferred (GSI, Feb 2023); **Marlagalla, Mandya** (Karnataka).
+[69:2:3] - **KABIL**: lithium land in **Argentina**.
+[69:2:4] - **National Critical Mineral Mission (2025): ₹16,300 crore**; recycling scheme ₹1,500 crore.
+[69:2:5] - Budget 2026-27: **Rare Earth Corridors** in Odisha, Kerala, **Andhra Pradesh**, Tamil Nadu.
+## SUB 3 | Pli for Acc Batteries
+[69:3:0] - Approved **12 May 2021**; **50 GWh**, **₹18,100 crore**; **Ministry of Heavy Industries**.
+[69:3:1] - **Ola Electric 20 GWh** (gigafactory, **Krishnagiri, Tamil Nadu**); **Reliance 15 GWh** (Jamnagar, Gujarat).
+[69:3:2] - **July 2026:** remaining **10 GWh** put to global bids for grid storage.
+[69:3:3] - Hurdles: **visa delays**, local-content rules, missing technology.
+## SUB 4 | Grid Storage and Bess
+[69:4:0] - Need **336 GWh by 2029-30** (CEA) vs ~**500 MWh** BESS (Sept 2025).
+[69:4:1] - **Energy Storage Obligation** (Ministry of Power, 2022): **1% (2023-24) → 4% (2029-30)**.
+[69:4:2] - Framework: ESS a power-system element; **ISTS waiver** for co-located storage; consumers may own/lease.
+[69:4:3] - **Draft National Electricity Policy 2026** (BESS, smart grids, ToD tariffs) replaces NEP 2005. Related: Electricity Act 2003, UDAY 2015, Energy Conservation Amendment 2022.
+[69:4:4] - **Khavda, Gujarat** (Adani Green): world's largest single-location BESS outside China (May 2026).
+## SUB 5 | Mechanical and Thermal Storage
+[69:5:0] TABLE head: Method | Principle
+  [69:5:0.0] Pumped storage | Pump water uphill; release at peak
+  [69:5:0.1] CAES | Air compressed into caverns, expanded through turbines
+  [69:5:0.2] Flywheel | Rotational kinetic energy
+  [69:5:0.3] Molten salt | Thermal storage in CSP; power after sunset
+[69:5:1] - **Tehri PSP** (Uttarakhand): India's first **variable-speed** PSP, 4 x 250 MW.
+## SUB 6 | Ev Types and Schemes
+[69:6:0] TABLE head: Type | Power source
+  [69:6:0.0] BEV | Battery only
+  [69:6:0.1] HEV / PHEV | Engine + battery-motor; only PHEV plugs in
+  [69:6:0.2] FCEV | Hydrogen fuel cell; exhaust water vapour
+[69:6:1] - BEV, FCEV and fuel cell-electric hybrid are all **alternative powertrains**.
+[69:6:2] - **Battery swapping policy**: Budget 2022-23. **PM E-DRIVE** replaced **FAME-II** (2024).
+[69:6:3] - FY 2025-26: >25 lakh EVs, ~8.5% share; goal **30% by 2030**.
+## SUB 7 | Battery Waste Management Rules 2022
+[69:7:0] - **MoEFCC**; replaced Batteries (Management and Handling) Rules, **2001**.
+[69:7:1] - **EPR**: producers/importers collect and recycle; **landfill and incineration banned**.
+[69:7:2] - **90%** material recovery by **2026-27**.
+[69:7:3] - **BPAN** (Battery Pack Aadhaar): only EV and industrial batteries **>2 kWh**.
+## SUB 8 | Andhra Pradesh
+[69:8:0] - **World's first indigenous high-energy storage device: Amaravati, 6 August 2018** (APPSC 2018).
+[69:8:1] - **Pinnapuram** (Kurnool, Greenko): solar + wind + pumped storage.
+[69:8:2] - CEA plan for AP: 3,931 MW battery + 7,370 MW pumped storage (Aug 2026).
+## SUB 9 | Number Game and Quick Revision
+[69:9:0] TABLE head: Item | Fact
+  [69:9:0.0] ACC-PLI | 50 GWh, ₹18,100 cr
+  [69:9:0.1] ESO | 1% → 4%
+  [69:9:0.2] Storage need | 336 GWh
+[69:9:1] # FIRST / LAST / SPECIAL FACTS
+[69:9:2] - ACC-PLI = Heavy Industries; ESO = Power; battery rules = MoEFCC.
+## SUB 10 | Appsc Previous Year Questions
+[69:10:0] TABLE head: Examination | Question Area
+  [69:10:0.0] APPSC 2018 | Amaravati high-energy storage device
+## SUB 11 | High-probability Mcq Traps
+[69:11:0] VERY IMPORTANT
+[69:11:1] - 1. Graphite = anode, not cathode.
+[69:11:2] - 2. Dry cell is **not rechargeable**; Ni-Cd is.
+[69:11:3] - 3. Oxidation at **anode**.
+[69:11:4] - 4. BPAN not for every portable battery.
+[69:11:5] - 5. Rules ban **both** landfill and incineration.
+[69:11:6] - 6. Plain HEV does not plug in.
+[69:11:7] - 7. FCEV exhaust = water.
+[69:11:8] - 8. PLI hurdle is not lack of reservoirs.
+
+=== OWN MCQs of 5:69 (57)
+[nf19e8a6478b] sub0
+  During the discharge of an electrochemical cell, where does oxidation occur?
+  Cathode | *Anode | Both electrodes | Electrolyte
+  x: Oxidation (loss of electrons) occurs at the anode and reduction (gain of electrons) at the cathode.
+[n09fd131ac05] sub0
+  In a battery, what does the electrolyte allow to move between the electrodes?
+  *Ions | Neutrons | Photons | Electrons
+  x: An electrolyte lets ions flow and keeps the electrodes apart; it does not provide a direct electronic path.
+[g254ecc0a99ba] sub0
+  Which process takes place at the cathode of a cell during discharge?
+  Oxidation | *Reduction | Electrolysis | Ionisation of the electrolyte
+  x: During discharge the cathode gains electrons, which is reduction; oxidation (loss of electrons) occurs at the anode.
+[n72e53a2ebe3] sub1
+  In a lithium-ion battery, what is graphite generally used as?
+  Cathode | *Anode | Electrolyte | Separator
+  x: Graphite is the anode of a lithium-ion battery; lithium, nickel and cobalt are used in the cathode.
+[n3e3277f1d84] sub1
+  The use of nickel-cadmium batteries has declined partly because of the toxicity of which metal?
+  *Cadmium | Nickel | Lithium | Lead
+  x: Ni-Cd batteries are rechargeable but have become less common because cadmium is toxic.
+[ne3feb8aba9f] sub1
+  Which non-rechargeable cell is commonly used in torches and clocks?
+  *Zinc-carbon cell | Vanadium redox flow cell | Lithium-ion cell | Nickel-metal hydride cell
+  x: The zinc-carbon dry cell is generally non-rechargeable and common in torches and clocks.
+[n4d2c0598265] sub1
+  Which one of the following statements regarding sodium-ion batteries is NOT correct?
+  They can be used for low-cost energy storage. | They avoid cobalt, nickel and copper in the stated chemistry. | They are being considered for low-cost electric vehicles. | *Their volumetric energy density is higher than that of LFP batteries.
+  x: The volumetric energy density of sodium-ion batteries is still below that of LFP batteries. The other statements describe their stated advantages or applications.
+[n3d46aaaed43] sub1
+  Which battery chemistry–application pair is correctly matched?
+  Lead-acid – grid-scale storage with separately scalable energy and power | Li-ion LFP – nickel-manganese-cobalt cathode | Flow battery – automotive starting and UPS | *Lead-acid – automotive starting and UPS
+  x: Lead-acid serves automotive starting and UPS; flow batteries suit grid-scale storage and NMC (not LFP) has a nickel-manganese-cobalt cathode.
+[n245cfbe6625] sub1
+  Sodium-ion batteries are being promoted in the storage debate primarily as which of the following?
+  A system that cannot be used for stationary storage | *A safer and mineral-light alternative | A technology requiring more lithium than lithium-ion batteries | A replacement for all pumped storage projects
+  x: Sodium-ion technology is presented as a safer, mineral-light alternative. It is not described as a universal replacement for pumped storage or as dependent on more lithium.
+[f017a749d44e8] sub1
+  Which battery stores liquid electrolytes in tanks, so that energy and power can be scaled separately?
+  Sodium-ion battery | Solid-state battery | Lead-acid battery | *Vanadium flow battery
+  x: Flow (vanadium) batteries keep liquid electrolytes in tanks and are used for grid-scale storage.
+[fec27533c52c9] sub1
+  What is the electrolyte of a lead-acid battery?
+  *Sulphuric acid | Potassium hydroxide | Ammonium chloride paste | Solid electrolyte
+  x: Lead-acid batteries use lead and PbO2 with sulphuric acid; KOH is the Ni-Cd electrolyte.
+[f903320db3daa] sub1
+  Which lithium-ion cathode chemistry is noted for being safe and long-lived?
+  NMC | *LFP | NiMH | Ni-Cd
+  x: LFP is the safe, long-life Li-ion cathode chemistry; NMC uses nickel, manganese and cobalt.
+[f6be939be3b40] sub1
+  Which of the following pairs is correctly matched?
+  NiMH – Cadmium anode | Lead-acid – KOH electrolyte | *Solid-state – Solid electrolyte | Zinc-carbon – Rechargeable
+  x: Solid-state batteries use a solid electrolyte; NiMH replaces cadmium with metal hydride, lead-acid uses sulphuric acid and zinc-carbon is not rechargeable.
+[g6ab67b89a538] sub1
+  Which battery, in which a metal hydride replaces cadmium, is used in hybrid vehicles?
+  Lead-acid | *Nickel-metal hydride (NiMH) | Zinc-carbon | Vanadium flow
+  x: In NiMH batteries a metal hydride replaces cadmium; they are used in hybrid vehicles.
+[g53538147bfee] sub1
+  Which electrolyte is used in a nickel-cadmium (Ni-Cd) battery?
+  Sulphuric acid | *Potassium hydroxide | Ammonium chloride | Lithium salt in organic solvent
+  x: A Ni-Cd cell has a nickel oxide hydroxide cathode, a cadmium anode and potassium hydroxide (KOH) electrolyte.
+[n7e15cdc8afb] sub2
+  What share of global lithium processing is concentrated in a few countries?
+  Less than 10% | About 20% | About 40% | *More than 70%
+  x: More than 70% of lithium processing (and most cobalt refining) is concentrated in a few countries, a supply-chain risk for battery makers.
+[n6efbfb61164] sub2
+  What is the outlay of the National Critical Mineral Mission, approved in 2025?
+  Rs 1,500 crore | Rs 15,000 crore | *Rs 16,300 crore | Rs 18,100 crore
+  x: The Mission's outlay is Rs 16,300 crore; its recycling incentive scheme is Rs 1,500 crore.
+[n9722c5a8b27] sub2
+  Where was the lithium resource reported by the Geological Survey of India in February 2023 located?
+  Marlagalla in Mandya district, Karnataka | Kochi in Kerala | Amaravati in Andhra Pradesh | *Salal-Haimana in Reasi district, Jammu and Kashmir
+  x: The GSI reported about 5.9 million tonnes of inferred lithium resources at Salal-Haimana in Reasi district of Jammu and Kashmir in 2023. Marlagalla in Mandya, Karnataka, is another Indian lithium occurrence mentioned separately.
+[nde147df3525] sub2
+  Rare Earth Corridors were proposed for which group of States?
+  *Odisha, Kerala, Andhra Pradesh and Tamil Nadu | Odisha, Gujarat, Andhra Pradesh and Karnataka | Kerala, Telangana, Tamil Nadu and Maharashtra | West Bengal, Kerala, Andhra Pradesh and Tamil Nadu
+  x: The proposed Rare Earth Corridors cover Odisha, Kerala, Andhra Pradesh and Tamil Nadu.
+[f5319edaf4b02] sub2
+  KABIL has acquired lithium land in which country?
+  Chile | Bolivia | *Argentina | Australia
+  x: KABIL acquired lithium land in Argentina.
+[fbbb55b9061d3] sub2
+  Marlagalla, a lithium find in Karnataka, is in which district?
+  *Mandya | Reasi | Mysuru | Ballari
+  x: Lithium has been found at Marlagalla in Mandya (Karnataka), besides Salal-Haimana in Reasi (J&K).
+[geba6dd8880f5] sub2
+  About how much inferred lithium resource did the Geological Survey of India report at Salal-Haimana in Reasi, Jammu and Kashmir?
+  0.59 million tonnes | *5.9 million tonnes | 59 million tonnes | 1.6 million tonnes
+  x: In February 2023 GSI reported about 5.9 million tonnes of inferred lithium at Salal-Haimana, Reasi.
+[n4159df10b3c] sub3
+  For what was the remaining 10 GWh of ACC battery capacity, put to global bids in July 2026, meant?
+  Domestic rooftop solar systems | *Grid-scale storage | Electric two-wheelers only | Hydrogen production exclusively
+  x: The remaining 10 GWh was put to global bids for grid-scale storage.
+[n17a52af492c] sub3
+  Which of the following was NOT identified as a hurdle in implementing the ACC battery programme?
+  Missing technology | Visa hold-ups for Chinese technicians | *Shortage of pumped-storage reservoirs | Local-content mandates
+  x: Visa delays, local-content rules and missing technology were identified as hurdles. Shortage of pumped-storage reservoirs was not listed as an ACC programme hurdle.
+[n5e6f20abc58] sub3
+  Which Ministry runs the National Programme on Advanced Chemistry Cell (ACC) Battery Storage?
+  Ministry of Power | Ministry of New and Renewable Energy | *Ministry of Heavy Industries | Ministry of Electronics and IT
+  x: The ACC programme (approved 12 May 2021, 50 GWh, Rs 18,100 crore) is run by the Ministry of Heavy Industries.
+[f1218985f7fad] sub3
+  What capacity and outlay does the PLI scheme for Advanced Chemistry Cell batteries have?
+  50 GWh with ₹16,300 crore | *50 GWh with ₹18,100 crore | 20 GWh with ₹18,100 crore | 336 GWh with ₹18,100 crore
+  x: The ACC-PLI, approved on 12 May 2021, covers 50 GWh with an outlay of ₹18,100 crore.
+[f0917d5666aea] sub3
+  Consider the following statements about the PLI scheme for ACC batteries:
+1. It was approved on 12 May 2021.
+2. Ola Electric was allotted 20 GWh.
+3. Reliance was allotted 20 GWh.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: The scheme was approved on 12 May 2021 and Ola Electric got 20 GWh; Reliance got 15 GWh, not 20 GWh.
+[f4832ac35e1ef] sub3
+  Which of the following gigafactory pairs is correctly matched?
+  Ola Electric – Jamnagar, Gujarat | Reliance – Krishnagiri, Tamil Nadu | Reliance – Khavda, Gujarat | *Ola Electric – Krishnagiri, Tamil Nadu
+  x: Ola Electric's gigafactory is at Krishnagiri (Tamil Nadu); Reliance's is at Jamnagar (Gujarat).
+[n9f051eaed8e] sub4
+  Why is energy storage regarded as a major bottleneck in integrating renewable energy into the power system?
+  Renewable energy can never be connected to a grid without coal generation. | *Storage helps balance variable renewable generation and supports round-the-clock renewable electricity. | Storage eliminates the need for electricity transmission networks entirely. | Renewable energy is available only during peak electricity demand.
+  x: Storage addresses the variability of renewable generation and helps provide 24×7 renewable electricity. It does not eliminate the need for grids or imply that renewable energy is never grid-compatible.
+[n139c91d7b17] sub4
+  Under the Energy Storage Obligation, how was the share of energy that DISCOMs must meet through storage to rise?
+  1 percent in 2022-23 to 10 percent in 2029-30 | 2 percent in 2023-24 to 8 percent in 2029-30 | *1 percent in 2023-24 to 4 percent in 2029-30 | 4 percent in 2023-24 to 1 percent in 2029-30
+  x: The Energy Storage Obligation provided for a rise from 1 percent in 2023-24 to 4 percent in 2029-30.
+[n40d8ac728af] sub4
+  The Draft National Electricity Policy 2026, which emphasises BESS, hybrid renewable energy, smart grids and Time-of-Day tariffs, is meant to replace the National Electricity Policy of which year?
+  2003 | *2005 | 2015 | 2022
+  x: The Draft National Electricity Policy 2026 replaces the National Electricity Policy 2005. 2003 is the year of the Electricity Act, not the policy; 2015 is the year of UDAY; 2022 is the year of the Energy Storage Obligation and the Energy Conservation Amendment.
+[ne0a525ad94b] sub4
+  Which of the following are policy measures for battery energy storage systems (BESS) in India?
+  Waiver of ISTS charges for co-located storage only | Consumer ownership or leasing of storage only | Recognition of storage as a power-system element only | *All of the above
+  x: All three are stated measures: ISTS waiver for co-located storage, consumer ownership or leasing, and recognition of ESS as a power-system element.
+[n00773b63dab] sub4
+  Which place is associated with the world’s largest single-location BESS outside China?
+  Waaree, Maharashtra | Modhera, Gujarat | *Khavda, Gujarat | Rajesh Exports, Karnataka
+  x: Adani Green commissioned the world’s largest single-location BESS outside China at Khavda in Gujarat in May 2026.
+[n7c3ba733eb7] sub4
+  What is India's energy storage requirement by 2029–30 as estimated by the CEA?
+  50 GWh | *336 GWh | 500 MWh | 10 GWh
+  x: CEA estimated a need of 336 GWh by 2029–30, against only about 500 MWh of BESS in September 2025.
+[f58f416833dae] sub4
+  Which Ministry issued the Energy Storage Obligation of 2022?
+  Ministry of Heavy Industries | *Ministry of Power | MoEFCC | Ministry of Mines
+  x: The ESO was issued by the Ministry of Power in 2022; ACC-PLI is under Heavy Industries and battery rules under MoEFCC.
+[gab9e682c7971] sub4
+  About how much battery energy storage capacity had India installed by September 2025?
+  *About 500 MWh | About 5 GWh | About 50 GWh | About 336 GWh
+  x: India had only about 500 MWh of BESS by September 2025, against a CEA need of 336 GWh by 2029-30.
+[n0b9206df614] sub5
+  Molten-salt storage is associated with concentrated solar power because it does which of the following?
+  Produces hydrogen directly from atmospheric nitrogen | Stores electricity as rotational kinetic energy | *Allows generation after sunset by storing thermal energy | Uses underground caverns to store compressed air
+  x: Molten salt provides thermal storage in concentrated solar power plants, enabling electricity generation after sunset.
+[n33281637fea] sub5
+  Which one of the following pairs is correctly matched?
+  Pumped storage — energy stored as rotational kinetic energy in a flywheel | *Compressed air storage — air compressed into caverns and later expanded through turbines | Flywheel storage — surplus water pumped uphill | Molten salt storage — hydrogen converted into electricity on board
+  x: Compressed air storage does compress air into caverns and later expand it through turbines. The other pairs are swapped: rotational kinetic energy describes a flywheel, not pumped storage; pumping water uphill is pumped storage, not a flywheel; and converting hydrogen to electricity on board is a fuel-cell vehicle, not molten-salt storage, which stores heat in concentrated solar plants.
+[f13507d5e56a1] sub5
+  In which State is Tehri PSP, India's first variable-speed pumped storage project?
+  Andhra Pradesh | Gujarat | *Uttarakhand | Tamil Nadu
+  x: Tehri PSP (4 x 250 MW) in Uttarakhand is India's first variable-speed pumped storage project.
+[ff94ffa6325c4] sub5
+  How does Compressed Air Energy Storage (CAES) work?
+  *Compressing air into caverns and expanding it through turbines | Storing energy as rotational kinetic energy | Pumping water uphill for release at peak | Storing heat in molten salt
+  x: CAES compresses air into caverns and later expands it through turbines; a flywheel stores rotational kinetic energy.
+[n71fbb61fe47] sub6
+  What is a vehicle that combines an engine with a battery-motor system and can be plugged in for charging called?
+  HEV | *PHEV | BEV | FCEV
+  x: A PHEV is a hybrid that can be charged externally; a plain HEV combines engine and battery-motor but is not plugged in.
+[n8d8f62db187] sub6
+  In which Union Budget was India's battery swapping policy announced?
+  2021-22 | 2023-24 | *2022-23 | 2024-25
+  x: The battery swapping policy was announced in Budget 2022-23; PM E-DRIVE replaced FAME-II in 2024.
+[naa3dab64718] sub6
+  What is India's goal for EV penetration by 2030?
+  15 percent | *30 percent | 50 percent | 70 percent
+  x: The goal is 30 percent EV penetration by 2030, against about 8.5 percent with over 25 lakh registrations in FY 2025-26.
+[n5125522a509] sub6
+  What is the principal energy conversion in a fuel-cell electric vehicle (FCEV)?
+  *Hydrogen into electricity on board, with water as the exhaust | Compressed air into electricity, with carbon dioxide as the exhaust | Battery energy into hydrogen, producing water as a by-product | Petrol into electricity through an external generator
+  x: An FCEV converts hydrogen into electricity on board through a fuel cell, and water is its exhaust product.
+[n02f8372dd53] sub6
+  What is the full form of FCEV, an alternative powertrain vehicle?
+  Flex-fuel Combined Electric Vehicle | Full Charge Electric Vehicle | Fuel Combustion Electric Vehicle | *Fuel Cell Electric Vehicle
+  x: FCEV is a Fuel Cell Electric Vehicle; BEVs and fuel cell-electric hybrids are also alternative powertrain vehicles.
+[fd8d39298ac5d] sub6
+  PM E-DRIVE, introduced in 2024, replaced which scheme?
+  PLI for ACC batteries | *FAME-II | Battery swapping policy | National Critical Mineral Mission
+  x: PM E-DRIVE replaced FAME-II in 2024.
+[fc3766ccb06db] sub6
+  Which of the following is NOT correct about vehicle types?
+  A BEV runs on battery only | A PHEV combines an engine with a battery-motor | *A plain HEV can be plugged in for charging | An FCEV runs on a hydrogen fuel cell
+  x: Only the PHEV plugs in; a plain HEV does not.
+[g73b61b547b65] sub6
+  About what share of new vehicle sales in India were electric vehicles in FY 2025-26?
+  About 2.5% | *About 8.5% | About 18% | About 30%
+  x: India sold over 25 lakh EVs in FY 2025-26, about 8.5% of sales; the goal is 30% by 2030.
+[n3c4e6c0171a] sub7
+  Under the Battery Waste Management Rules, 2022, which of the following is prohibited for producers?
+  Collecting waste batteries | Refurbishing waste batteries | *Disposing of waste batteries in landfills | Using recycled material in new batteries
+  x: Producers must collect, recycle or refurbish waste batteries and use recycled material; landfill disposal is prohibited.
+[n202c091dd23] sub7
+  Which of the following is NOT correct about Battery Pack Aadhaar (BPAN)?
+  It is mandatory for industrial batteries exceeding 2 kWh | It is mandatory for electric vehicle batteries | *It is mandatory for portable batteries of every capacity | It does not cover all household electrical appliances
+  x: BPAN is mandatory only for EV batteries and industrial batteries above 2 kWh, not every portable battery.
+[n673f58e69e4] sub7
+  Which of the following is NOT correct about the Battery Waste Management Rules, 2022?
+  They were notified by MoEFCC | They replaced the Batteries (Management and Handling) Rules, 2001 | *They permit incineration of waste batteries | They ban landfill disposal of waste batteries
+  x: The Rules ban both landfill disposal and incineration of waste batteries, so permitting incineration is wrong.
+[f6ace386a17e6] sub7
+  By which year do the Battery Waste Management Rules, 2022 set a material recovery target of 90%?
+  2024-25 | *2026-27 | 2029-30 | 2030-31
+  x: The Rules target 90% material recovery by 2026-27.
+[gcbb8175c946b] sub7
+  Under the Battery Waste Management Rules, 2022, who must collect and recycle waste batteries under Extended Producer Responsibility?
+  Municipal bodies | *Producers and importers | State Pollution Control Boards | Consumers
+  x: Under EPR, producers and importers of batteries must collect and recycle waste batteries.
+[n2c6104edbd3] sub8
+  Which energy sources and storage mode are combined at the Pinnapuram project?
+  Hydrogen, biomass and battery storage only | Nuclear, tidal and compressed-air storage | *Solar, wind and pumped storage | Coal, gas and thermal storage
+  x: Greenko’s Pinnapuram project integrates solar and wind generation with pumped storage.
+[n80d60bc01d9] sub8
+  The world's first indigenously made high-energy storage device was unveiled in August 2018 at which place in Andhra Pradesh?
+  Pinnapuram | Visakhapatnam | *Amaravati | Tirupati
+  x: The device was unveiled at Amaravati on 6 August 2018 (APPSC 2018 key). Pinnapuram in Kurnool hosts Greenko's integrated solar-wind-pumped storage project; Visakhapatnam and Tirupati are not linked to this first.
+[f01a8fa2bfc84] sub8
+  The Pinnapuram integrated solar, wind and pumped storage project is in which district of Andhra Pradesh?
+  Anantapur | Kadapa | *Kurnool | Nellore
+  x: Pinnapuram (Greenko) is in Kurnool district.
+[f461e2ccb4b29] sub8
+  How much battery storage does the CEA storage plan for Andhra Pradesh (August 2026) envisage?
+  *3,931 MW | 7,370 MW | 500 MW | 10,000 MW
+  x: The plan has 3,931 MW of battery and 7,370 MW of pumped storage for AP.
+
+=== NOTES 5:70 | Energy Efficiency – Bee, Energy Conservation Act, Pat, Star Labelling, Ujala
+## SUB 0 | Energy Conservation Act
+[70:0:0] # Energy Conservation Act, 2001
+[70:0:1] - Set up the **Bureau of Energy Efficiency (BEE)**; BEE operational from **1 March 2002**.
+[70:0:2] - **Designated consumers**: mandatory **energy audits** and norms; **penalties** for non-compliance.
+[70:0:3] - EE norms for appliances, equipment and buildings with connected load **>100 kW** or contract demand **>120 kVA**.
+[70:0:4] # Energy Conservation (Amendment) Act, 2022
+[70:0:5] - **Lok Sabha August 2022 → Rajya Sabha December 2022** (APPSC 2021).
+[70:0:6] TABLE head: Provision | Detail
+  [70:0:6.0] Carbon Credit Trading Scheme | Legal basis for a carbon market – Section 14AA
+  [70:0:6.1] Non-fossil obligation | Designated consumers to use a minimum share of non-fossil energy
+  [70:0:6.2] Building codes | Extended to large residential buildings (ECSBC)
+  [70:0:6.3] Vehicles and vessels | Efficiency norms can be set
+## SUB 1 | Organisations
+[70:1:0] TABLE head: Body | Status / Role
+  [70:1:0.0] BEE | Statutory (EC Act 2001), Ministry of Power; cuts energy intensity; runs PAT, S&L, ECBC, SEEI, CAFE, NECA
+  [70:1:0.1] EESL | JV of Ministry of Power PSUs; runs UJALA, SLNP, National Efficient Cooking Programme
+  [70:1:0.2] PCRA | Petroleum Conservation Research Association; driving advice; runs SAKSHAM (not BEE)
+  [70:1:0.3] NITI Aayog + BEE | State Energy Efficiency Preparedness Index (2018)
+  [70:1:0.4] BEE + AEEE | State Energy Efficiency Index (SEEI)
+[70:1:1] - **NMEEE** = one of the **8 missions of NAPCC (2008)**.
+[70:1:2] - India imports ~**80%** of its oil, so efficiency raises energy security.
+## SUB 2 | Pat Scheme
+[70:2:0] # Mechanism
+[70:2:1] - 1. **Market mechanism under NMEEE**: energy-reduction targets for **Designated Consumers**.
+[70:2:2] - 2. Over-achievers earn **ESCerts**.
+[70:2:3] - 3. Under-achievers buy them.
+[70:2:4] - 4. Traded on **power exchanges (IEX)**.
+[70:2:5] - **PAT Cycle I (2012-15): 478 units in 8 sectors** – thermal power, iron & steel, cement, aluminium, fertilisers, **chlor-alkali**, pulp & paper, **textiles**.
+[70:2:6] - Added later: **railways**, DISCOMs, refineries, petrochemicals, commercial buildings.
+[70:2:7] - After CCTS, PAT keeps 4 sectors: **thermal power, railways, DISCOMs, commercial buildings** (Jun 2026).
+[70:2:8] # PAT vs CCTS
+[70:2:9] TABLE head: Feature | PAT | CCTS
+  [70:2:9.0] Certificate | ESCerts (energy intensity) | CCCs (emission intensity)
+  [70:2:9.1] Start | 2012 | Notified 2023 – India's first mandatory compliance carbon market
+  [70:2:9.2] Coverage | 478 units, 8 sectors (Cycle I) | 9 heavy industries, 208 units
+  [70:2:9.3] Administrator / Regulator | BEE | BEE / CERC
+[70:2:10] - CCTS: compliance + voluntary offset; supports **45% cut in GDP emission intensity by 2030** (vs 2005).
+[70:2:11] - **Sep 2026:** UK recognised CCTS under its **CBAM** (from **1 January 2027**; aluminium, cement, fertiliser, hydrogen, iron and steel).
+## SUB 3 | Standards and Labelling
+[70:3:0] - Launched **2006**; BEE under Ministry of Power; **40+ equipment**; **1–5 star**; each extra star saves **~10–15%**.
+[70:3:1] TABLE head: Mandatory | Voluntary
+  [70:3:1.0] Refrigerators, deep freezers, ACs, ceiling fans, TVs, washing machines, geysers (storage water heaters), LED lamps, tubular fluorescent lamps, induction hob, solar inverter, LPG stove, distribution transformers, chillers | Industrial motors, computers, microwave ovens
+[70:3:2] - **From 1 January 2026:** labels mandatory for fridges, TVs, LPG stoves; makers **penalised if actual use deviates** from the label.
+## SUB 4 | Ujala, Slnp and Other Schemes
+[70:4:0] TABLE head: Scheme | Year / Body | Feature
+  [70:4:0.0] UJALA (Unnat Jyoti by Affordable LEDs for All) | January 2015, EESL | 36.86 crore LED bulbs, 72.18 lakh tube lights, 23.59 lakh fans
+  [70:4:0.1] SLNP | January 2015, EESL | LED street lights replace sodium vapour
+  [70:4:0.2] ADEETIE | July 2025, ₹1,000 crore | MSME efficiency; interest subvention 5% micro/small, 3% medium; 60 clusters, 14 sectors
+  [70:4:0.3] CAFE norms | 2017, BEE | Fuel efficiency for cars
+  [70:4:0.4] National Efficient Cooking Programme | EESL | 20 lakh induction stoves
+  [70:4:0.5] SAKSHAM 2026 | PCRA, Chandigarh | Fuel conservation
+[70:4:1] - 9.5 crore = PMUY LPG connections (do not confuse with UJALA).
+## SUB 5 | Building Codes
+[70:5:0] TABLE head: Code | Year | Covers
+  [70:5:0.0] ECBC | 2007 | New commercial buildings; 25–40% less energy
+  [70:5:0.1] ECO Niwas Samhita | 2018 | Residential buildings
+  [70:5:0.2] ECSBC | 2024 | Adds sustainability after the 2022 amendment
+## SUB 6 | Lighting
+[70:6:0] TABLE head: Lamp | Features
+  [70:6:0.0] LED | Highest efficacy, longest life, no mercury; gallium arsenide main emitter
+  [70:6:0.1] CFL (Compact Fluorescent Lamp) | ~75% less energy than bulbs; contains mercury; shorter life than LED
+  [70:6:0.2] Incandescent | Energy lost mainly as heat
+  [70:6:0.3] Sodium vapour | Monochromatic yellow (does not split through water droplets); poor colour rendering
+  [70:6:0.4] Mercury vapour | White light
+[70:6:1] - **Fluorescent tube:** low-pressure **mercury vapour + argon** (sometimes xenon, neon, krypton); mercury gives **UV**, which hits the **phosphor** coating → visible light.
+[70:6:2] - LED lasts longer than CFL because it is more energy efficient.
+[70:6:3] - A-R (APPSC 2021): replace bright and CFL bulbs with LEDs because LEDs use less energy – A and R true, R explains A.
+## SUB 7 | Everyday Conservation
+[70:7:0] - Efficiency **reduces the need for new energy sources** (lowers demand) – sustainable development link (APPSC 2025).
+[70:7:1] - Practices: LEDs, star-rated appliances, switch off idle loads, avoid AC overuse; induction stoves, lids, pressure cookers; PCRA driving tips.
+## SUB 8 | Indices and Ap Rankings
+[70:8:0] TABLE head: Index | Agency | AP / Top
+  [70:8:0.0] EE Implementation Readiness (Nov 2016) | World Bank (with EESL) | AP first (42.01), Rajasthan second
+  [70:8:0.1] SEEPI 2018 (first) | NITI Aayog + BEE | AP = Front Runner (APPSC 2018)
+  [70:8:0.2] SEEI 2024 (Aug 2025; 36 States/UTs) | BEE + AEEE | Group leaders: Maharashtra (>15 Mtoe), Andhra Pradesh (5–15), Assam (1–5), Tripura (<1)
+[70:8:1] - SEEI categories: **Front Runner (>60%), Achiever, Contender, Aspirant**; basis for NECA.
+## SUB 9 | Days, Awards and Andhra Pradesh
+[70:9:0] - **National Energy Conservation Day: 14 December**; Week **14–20 December**.
+[70:9:1] - **NECA** (instituted **1991**): given by **BEE / Ministry of Power, not MNRE**; NECA 2025: **Chandigarh** first.
+[70:9:2] - **APSECM** (2012): India's **first standalone State Designated Agency** of BEE; enforces EC Act in AP; won **First Prize** in NECA.
+[70:9:3] - NEC Week 2024 in AP: with **School Education Department** (all three statements correct, APPSC 2024).
+[70:9:4] - AP: **ECBC in 123 ULBs** (1,300 buildings); **PAT – 59 industries, ~1.16 Mtoe** saved; India's **first IoT energy pilot at an MSME, East Godavari**; **Super ECBC building, Sagar Nagar, Visakhapatnam**; efficient appliances in 112 Anganwadis, Mangalagiri; LED street lights via EESL MoUs.
+## SUB 10 | Number Game and Quick Revision
+[70:10:0] TABLE head: Item | Fact
+  [70:10:0.0] EC Act / BEE | 2001 / 1 March 2002
+  [70:10:0.1] PAT-I | 478 units, 8 sectors
+  [70:10:0.2] CCTS | 9 industries, 208 units
+  [70:10:0.3] Star saving | 10–15% per star
+  [70:10:0.4] UJALA LEDs | 36.86 crore
+[70:10:1] # FIRST / LAST / SPECIAL FACTS
+[70:10:2] - First standalone SDA: APSECM.
+[70:10:3] - First mandatory carbon market: CCTS (2023).
+[70:10:4] - First SEEPI (2018): AP Front Runner.
+## SUB 11 | Appsc Previous Year Questions
+[70:11:0] TABLE head: Examination | Question Area
+  [70:11:0.0] APPSC 2025 | LEDs save energy; efficiency reduces need for new sources
+  [70:11:0.1] APPSC 2024 | NEC Week 2024 in AP
+  [70:11:0.2] APPSC 2021 | EC Amendment Bill passage; LED A-R
+  [70:11:0.3] APPSC 2018 | AP Front Runner in SEEPI
+## SUB 12 | High-probability Mcq Traps
+[70:12:0] VERY IMPORTANT
+[70:12:1] - 1. **NECA by BEE / Ministry of Power**, not MNRE.
+[70:12:2] - 2. **ECBC = commercial**; ECO Niwas = residential.
+[70:12:3] - 3. ESCerts = PAT; CCCs = CCTS.
+[70:12:4] - 4. CCTS regulator **CERC**, administrator **BEE**.
+[70:12:5] - 5. SAKSHAM = **PCRA**, not BEE.
+[70:12:6] - 6. Yellow street lamps = **sodium**; white = mercury.
+[70:12:7] - 7. UJALA and SLNP both **January 2015**.
+[70:12:8] - 8. 478 units/8 sectors = PAT-I; 60 clusters/14 sectors = ADEETIE.
+
+=== OWN MCQs of 5:70 (62)
+[n2e9ac5ca5d4] sub0
+  Which of the following pairs is correctly matched?
+  *Energy Conservation Act, 2001 – Energy audits of designated consumers | Bureau of Energy Efficiency – Ministry of New and Renewable Energy | ECO Niwas Samhita – Commercial buildings | Carbon Credit Trading Scheme – Original Energy Conservation Act, 2001
+  x: The 2001 Act provides for energy audits of designated consumers (and penalties); BEE is under the Ministry of Power, ECO Niwas covers residential buildings and the CCTS basis came with the 2022 amendment.
+[nbc980d4ac26] sub0
+  When did the Bureau of Energy Efficiency become operational?
+  1 January 2001 | 1 April 2008 | *1 March 2002 | 1 January 2006
+  x: BEE became operational on 1 March 2002.
+[nc31ee53a815] sub0
+  Under the Energy Conservation (Amendment) Act, 2022, designated consumers must use a minimum share of which energy?
+  Imported coal | *Non-fossil energy | Natural gas | Diesel
+  x: The 2022 amendment requires designated consumers to use a minimum share of non-fossil energy.
+[n3f07b5ff12d] sub0
+  When did the Rajya Sabha pass the Energy Conservation (Amendment) Bill, 2022, completing its passage?
+  August 2022 | December 2021 | March 2023 | *December 2022
+  x: The Lok Sabha passed the Bill in August 2022 and the Rajya Sabha in December 2022, completing its passage.
+[ne6477e625d6] sub0
+  The Energy Conservation (Amendment) Act, 2022 provides a legal basis for which of the following?
+  A national electricity subsidy market | A mandatory market for petroleum imports | A separate market for nuclear fuel | *A national carbon market
+  x: The 2022 amendment gave legal basis to a carbon market through the Carbon Credit Trading Scheme.
+[n7280eb7d3d7] sub0
+  Which body is the regulator of India's Carbon Credit Trading Scheme?
+  Bureau of Energy Efficiency | SEBI | MoEFCC | *Central Electricity Regulatory Commission
+  x: CERC is the regulator, while BEE is the administrator of the scheme.
+[f452d17c84b1c] sub0
+  Under the Energy Conservation Act, 2001, energy-efficiency norms apply to buildings with a connected load above what limit?
+  50 kW | *100 kW | 120 kW | 500 kW
+  x: Norms apply to buildings with connected load over 100 kW or contract demand over 120 kVA.
+[gb49683e13dae] sub0
+  Consider the following statements about the Energy Conservation (Amendment) Act, 2022:
+1. It extended energy codes to large residential buildings.
+2. It allows efficiency norms to be set for vehicles and vessels.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: The 2022 amendment extended building codes to large residential buildings and enabled efficiency norms for vehicles and vessels.
+[nc0f25fc1634] sub1
+  Under which of the following does the Bureau of Energy Efficiency, a statutory body created by the Energy Conservation Act, 2001, function?
+  *Ministry of Power | Ministry of New and Renewable Energy | NITI Aayog | MoEFCC
+  x: BEE functions under the Ministry of Power; the JV of power PSUs that distributes LEDs is EESL.
+[n46ae927a458] sub1
+  The Standards and Labelling programme for energy-consuming equipment in India is administered by which organisation under which Ministry?
+  National Productivity Council under the Ministry of Heavy Industries | Energy Efficiency Services Limited under the Ministry of New and Renewable Energy | *Bureau of Energy Efficiency under the Ministry of Power | Central Electricity Authority under the Ministry of Environment, Forest and Climate Change
+  x: The Standards and Labelling programme is administered by the Bureau of Energy Efficiency under the Ministry of Power.
+[n4b2cf2ba999] sub1
+  Which organisation implements both UJALA and the Street Lighting National Programme?
+  *Energy Efficiency Services Limited | Bureau of Energy Efficiency | Indian Oil Corporation Limited | Petroleum Conservation Research Association
+  x: Both programmes are implemented by Energy Efficiency Services Limited (EESL), a joint venture of public-sector undertakings under the Ministry of Power.
+[ne9807fd1213] sub1
+  The inaugural State Energy Efficiency Preparedness Index was prepared by which of the following combinations?
+  *NITI Aayog with the Bureau of Energy Efficiency | Bureau of Energy Efficiency with the Energy Efficiency Services Limited | Ministry of Environment, Forest and Climate Change with NITI Aayog | Bureau of Energy Efficiency with the Alliance for an Energy Efficient Economy
+  x: The inaugural State Energy Efficiency Preparedness Index, introduced in 2018, was prepared by NITI Aayog in association with the Bureau of Energy Efficiency.
+[nd217f6b6444] sub1
+  About what share of its oil does India import?
+  50% | 65% | *80% | 95%
+  x: India imports about 80% of its oil, so cheap demand reduction through efficiency improves energy security.
+[ne2b7bf35732] sub1
+  The National Mission for Enhanced Energy Efficiency is one of how many missions under NAPCC (2008)?
+  5 | 6 | *8 | 10
+  x: NMEEE is one of the eight missions of the National Action Plan on Climate Change (2008).
+[nb24d707def1] sub1
+  Which of the following is NOT correct about fuel-efficiency and conservation initiatives?
+  *SAKSHAM is a fuel-conservation drive of the Bureau of Energy Efficiency | The first CAFE norms were notified in 2017 | CAFE norms set average fuel-efficiency targets for M1 cars | The Bureau of Energy Efficiency enforces the CAFE norms
+  x: SAKSHAM is conducted by the Petroleum Conservation Research Association (PCRA), not BEE.
+[ff9a85fe43472] sub1
+  Which organisation runs the SAKSHAM fuel-conservation campaign?
+  BEE | EESL | *PCRA | AEEE
+  x: SAKSHAM is run by the Petroleum Conservation Research Association (PCRA), not BEE.
+[gaa6c2b899a4d] sub1
+  Which organisation runs the National Efficient Cooking Programme, which distributes induction stoves?
+  Bureau of Energy Efficiency | *Energy Efficiency Services Limited | Petroleum Conservation Research Association | Indian Oil Corporation Limited
+  x: EESL, a joint venture of Ministry of Power PSUs, runs the National Efficient Cooking Programme along with UJALA and SLNP.
+[n50557cc04f4] sub2
+  What is the Perform, Achieve and Trade (PAT) scheme?
+  *A market mechanism setting energy-reduction targets for designated consumers | A labelling programme for household appliances | A loan scheme for solarising farm pumps | A scheme for distributing LED bulbs to households
+  x: PAT is a market mechanism under NMEEE that assigns energy-reduction targets to designated consumers.
+[n1bad6874f7e] sub2
+  Where are Energy Saving Certificates (ESCerts) under the PAT scheme traded?
+  *Power exchanges | Commodity exchanges | Stock exchanges | Foreign carbon exchanges
+  x: Over-achievers earn ESCerts and under-achievers buy them on power exchanges, including the Indian Energy Exchange.
+[n8c3b8a3452e] sub2
+  After the expansion of the Carbon Credit Trading Scheme (CCTS), PAT is proposed to retain which four residual sectors?
+  Chlor-alkali, cement, railways and domestic buildings | Cement, aluminium, fertilisers and textiles | Iron and steel, petrochemicals, refineries and pulp and paper | *Thermal power, railways, DISCOMs and commercial buildings
+  x: The proposed four residual PAT sectors are thermal power, railways, DISCOMs and commercial buildings.
+[n02e8c68780a] sub2
+  Which certificates are issued under PAT and CCTS, respectively?
+  *Energy-intensity certificates (ESCerts) and emission-intensity certificates (CCCs) | Emission-intensity certificates (CCCs) and energy-intensity certificates (ESCerts) | Renewable-energy certificates and energy-intensity certificates (ESCerts) | Energy-intensity certificates (ESCerts) and renewable-energy certificates
+  x: PAT is associated with energy-intensity certificates (ESCerts), while CCTS issues emission-intensity certificates called CCCs.
+[n63bbd07e2dc] sub2
+  By how much does India aim to cut the emission intensity of its GDP by 2030 over 2005 levels, a target the Carbon Credit Trading Scheme supports?
+  33% | 40% | *45% | 50%
+  x: The stated goal is a 45% cut in GDP emission intensity by 2030 relative to the 2005 level.
+[n142d80d4c3a] sub2
+  What does the compliance mechanism of India's Carbon Credit Trading Scheme cover?
+  8 sectors with 478 units | *9 heavy industries with GHG intensity targets for 208 units | 4 sectors: thermal power, railways, DISCOMs and commercial buildings | 60 MSME clusters in 14 sectors
+  x: CCTS covers 9 heavy industries, with GHG emission-intensity targets for 208 units. 478 units in 8 sectors was PAT Cycle I; the four sectors are those PAT will retain; 60 clusters in 14 sectors is ADEETIE.
+[n6bec2e94175] sub2
+  Which one of the following was NOT included among the original PAT sectors?
+  Chlor-alkali | *Railways | Textiles | Thermal power
+  x: The original PAT sectors included thermal power, chlor-alkali and textiles. Railways was added later and is part of the proposed residual-sector arrangement.
+[n947c4848f62] sub2
+  Under which Section of the Energy Conservation Act is India's Carbon Credit Trading Scheme, notified in 2023, provided for?
+  Section 14 | *Section 14AA | Section 18 | Section 14A
+  x: Section 14AA provides for the CCTS, India's first mandatory compliance carbon market.
+[n677a4c29d88] sub2
+  From which date does the UK Carbon Border Adjustment Mechanism, which recognised India's CCTS, apply?
+  1 January 2026 | 1 April 2026 | *1 January 2027 | 1 April 2028
+  x: The UK CBAM applies from 1 January 2027; in September 2026 the UK recognised India's CCTS as a qualifying carbon price.
+[f05fb2d131b12] sub2
+  How many units and sectors did PAT Cycle I (2012-15) cover?
+  208 units in 9 sectors | *478 units in 8 sectors | 60 clusters in 14 sectors | 478 units in 9 sectors
+  x: PAT-I covered 478 units in 8 sectors; 208 units/9 industries is CCTS and 60 clusters/14 sectors is ADEETIE.
+[n7588e8f34b9] sub3
+  Under the star-labelling changes effective from 1 January 2026, when may manufacturers be penalised?
+  the product receives fewer than three stars irrespective of its actual consumption | *actual energy consumption deviates from the declared label rating | a product is sold without an international energy certificate | the product is manufactured outside a designated consumer sector
+  x: Manufacturers may be penalised if the actual energy consumption of a product deviates from the consumption declared through its label.
+[n8975b1fe2ba] sub3
+  Under BEE's Standards and Labelling programme, about how much energy does each additional star save?
+  25–30 per cent energy | 5 per cent energy | *10–15 per cent energy | 40 per cent energy
+  x: The one-to-five-star programme (over 40 equipment types) saves about 10–15 per cent energy per additional star.
+[f923fb07c57a9] sub3
+  Which of the following is under the voluntary star-labelling list?
+  Ceiling fans | Refrigerators | *Industrial motors | Tubular fluorescent lamps
+  x: Industrial motors, computers and microwave ovens are voluntary; ceiling fans, refrigerators and tubular fluorescent lamps are mandatory.
+[f88ee67bca159] sub3
+  In which year was BEE's Standards and Labelling programme launched?
+  2001 | 2002 | *2006 | 2007
+  x: The S&L programme was launched in 2006 and rates over 40 equipment on a 1–5 star scale.
+[nce36319e23d] sub4
+  In which year were UJALA and the Street Lighting National Programme both launched?
+  2012 | 2014 | *2015 | 2018
+  x: Both UJALA and the Street Lighting National Programme were launched in January 2015.
+[nbca1eb83f63] sub4
+  The Street Lighting National Programme primarily replaced older street lighting based on which technology with LEDs?
+  Incandescent lamps | Halogen lamps | Solar thermal lamps | *Sodium vapour lamps
+  x: Under the Street Lighting National Programme, older sodium vapour street lights were replaced by LED lights.
+[nedb37170c99] sub4
+  Under UJALA, approximately how many LED bulbs have been distributed?
+  72.18 lakh | 23.59 lakh | *36.86 crore | 9.5 crore
+  x: UJALA distributed about 36.86 crore LED bulbs, along with 72.18 lakh LED tube lights and 23.59 lakh energy-efficient fans. 9.5 crore is the number of PMUY LPG connections.
+[n070ed2abe79] sub4
+  ADEETIE, launched in July 2025 with an outlay of ₹1,000 crore, promotes energy efficiency in which sector?
+  *Micro, small and medium enterprises | Large designated consumers | Electricity distribution companies | Commercial buildings
+  x: ADEETIE focuses on energy efficiency among MSMEs through audits and financial support.
+[fc543613b6e28] sub4
+  How many clusters and sectors does ADEETIE, the MSME energy-efficiency scheme, cover?
+  478 units in 8 sectors | 208 units in 9 industries | *60 clusters in 14 sectors | 123 ULBs
+  x: ADEETIE covers 60 clusters in 14 sectors; 478 units in 8 sectors is PAT Cycle I.
+[g7855e9dcbeb9] sub4
+  What is the full form of UJALA?
+  *Unnat Jyoti by Affordable LEDs for All | Ujjwal Jyoti for All Lighting Access | Universal Jyoti through Affordable LED Appliances | Unnat Jeevan by Affordable Lighting for All
+  x: UJALA stands for Unnat Jyoti by Affordable LEDs for All, launched by EESL in January 2015.
+[gdd988a41efdd] sub4
+  What interest subvention does the ADEETIE scheme give to micro and small enterprises for energy-efficiency loans?
+  2% | 3% | *5% | 7%
+  x: ADEETIE (July 2025, ₹1,000 crore) gives 5% interest subvention to micro and small units and 3% to medium units.
+[n439726be949] sub5
+  ECO Niwas Samhita, introduced in 2018, is an energy code for which of the following?
+  *Residential buildings | New commercial buildings | Industrial units | Vehicles
+  x: ECO Niwas Samhita (2018) covers residential buildings; ECBC (2007) covers new commercial buildings.
+[fa1f088dd75ad] sub5
+  Consider the following statements about building codes:
+1. ECBC (2007) covers new commercial buildings.
+2. ECO Niwas Samhita covers commercial buildings.
+3. ECSBC (2024) adds sustainability to the code.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: ECBC covers commercial buildings and ECSBC adds sustainability; ECO Niwas Samhita is for residential buildings.
+[nc421af3d018] sub5
+  Which of the following pairs is correctly matched?
+  *ECBC – New commercial buildings | ECO Niwas Samhita – New commercial buildings | ECSBC – Residential buildings | ECBC – Residential buildings
+  x: ECBC applies to new commercial buildings; ECO Niwas Samhita applies to residential buildings, and ECSBC adds sustainability to the framework.
+[n58f492e2fbb] sub6
+  Which one of the following is correctly matched?
+  Sodium vapour lamp — white light and excellent colour rendering | Incandescent lamp — most energy lost as sound | *CFL — contains mercury and has a shorter life than LED | LED — high mercury content and substantial heat production
+  x: CFLs are more efficient than incandescent lamps but contain mercury and have a shorter life than LEDs. Incandescent lamps mainly lose energy as heat, while sodium vapour lamps produce yellow light with poor colour rendering.
+[ne7497afb754] sub6
+  Which one of the following lamps has the highest efficacy, longest life and no mercury?
+  Sodium vapour lamp | Incandescent lamp | *Light-emitting diode lamp | Compact fluorescent lamp
+  x: LED lamps have the highest efficacy and longest life among the listed lamps and do not contain mercury.
+[fec2fb536e79f] sub6
+  What is the main emitter material of an LED?
+  Mercury vapour | *Gallium arsenide | Sodium vapour | Argon
+  x: Gallium arsenide is the main LED emitter; LEDs contain no mercury.
+[geee0b2693414] sub6
+  Which lamp gives white light, unlike the yellow light of a sodium vapour lamp?
+  *Mercury vapour lamp | Neon lamp | Low-pressure sodium lamp | High-pressure sodium lamp
+  x: Mercury vapour lamps give white light, while sodium vapour lamps give monochromatic yellow light.
+[n37f4a1bca99] sub7
+  Energy efficiency is linked to sustainable development mainly because it does which of the following?
+  increases the energy intensity of the economy | *reduces the need for new energy sources | requires replacing all renewable energy with fossil fuels | has no effect on energy demand
+  x: Using energy efficiently lowers demand, so fewer new energy sources need to be built (APPSC 2025). It lowers energy intensity rather than raising it, does not require fossil fuels, and directly cuts demand.
+[fbc1c6cdca7a3] sub7
+  Which of the following is NOT an energy-conservation practice?
+  Using pressure cookers and lids while cooking | Switching off idle loads | Using star-rated appliances | *Replacing LEDs with incandescent bulbs
+  x: Incandescent bulbs lose most energy as heat; LEDs, star-rated appliances and switching off idle loads save energy.
+[n01c98df3ba5] sub8
+  Which of the following is NOT correct about the State Energy Efficiency Index (SEEI)?
+  It was developed by BEE with the Alliance for an Energy Efficient Economy | *It classifies States into only three categories | Front Runner is one of its categories | It forms the basis for the National Energy Conservation Awards
+  x: SEEI uses four categories: Front Runner, Achiever, Contender and Aspirant.
+[n81b7a2a5c07] sub8
+  In the inaugural State Energy Efficiency Preparedness Index (2018), Andhra Pradesh was placed in which category?
+  Aspirant | Contender | Achiever | *Front Runner
+  x: Andhra Pradesh was rated a Front Runner, the top category, in the inaugural 2018 index prepared by NITI Aayog with BEE (APPSC 2018). Achiever, Contender and Aspirant are the lower categories.
+[f43b082dd266d] sub8
+  Which organisation prepared the Energy Efficiency Implementation Readiness ranking (November 2016), in which Andhra Pradesh came first?
+  NITI Aayog | *World Bank | AEEE | Central Electricity Authority
+  x: The World Bank (with EESL) prepared it; AP was first (42.01) and Rajasthan second.
+[fcc51fecf8f9b] sub8
+  In SEEI 2024, which State led the 5–15 Mtoe group?
+  Maharashtra | Assam | Tripura | *Andhra Pradesh
+  x: AP led the 5–15 Mtoe group; Maharashtra (>15), Assam (1–5) and Tripura (<1) led the others.
+[f739b41d0a251] sub8
+  Under the State Energy Efficiency Index, what score must a 'Front Runner' State exceed?
+  50% | *60% | 70% | 75%
+  x: SEEI categories are Front Runner (>60%), Achiever, Contender and Aspirant.
+[g1653679bd5cb] sub8
+  In the State Energy Efficiency Index 2024, which State led the group of States with energy demand above 15 Mtoe?
+  Gujarat | Tamil Nadu | *Maharashtra | Uttar Pradesh
+  x: In SEEI 2024 (BEE with AEEE), Maharashtra led the >15 Mtoe group, AP the 5–15 group, Assam the 1–5 group and Tripura the <1 group.
+[n110ef057cb9] sub9
+  Which of the following is NOT correct about energy conservation observances and awards?
+  National Energy Conservation Day is observed on 14 December | National Energy Conservation Week is 14–20 December | *The National Energy Conservation Awards are given by MNRE | The National Energy Conservation Awards were instituted in 1991
+  x: NECA is given by BEE under the Ministry of Power, not by MNRE.
+[n3c4b6b89a0e] sub9
+  Where is Andhra Pradesh's model Super ECBC building located?
+  *Sagar Nagar, Visakhapatnam | Tirupati | Vijayawada | Kurnool
+  x: The AP model Super ECBC building is located at Sagar Nagar in Visakhapatnam.
+[ncdeab7f4897] sub9
+  During National Energy Conservation Week in Andhra Pradesh in 2024, which department collaborated in the awareness activities?
+  Transport Department | Revenue Department | *School Education Department | Agriculture Department
+  x: The School Education Department collaborated in Andhra Pradesh’s National Energy Conservation Week awareness activities in 2024.
+[nca8ae16b7fa] sub9
+  In which year was the Andhra Pradesh State Energy Conservation Mission (APSECM) constituted?
+  2001 | 2005 | *2012 | 2018
+  x: APSECM was constituted in 2012.
+[n950cbf3a822] sub9
+  Which is India's first standalone State Designated Agency of the Bureau of Energy Efficiency?
+  NREDCAP | APTRANSCO | *APSECM | APGENCO
+  x: APSECM is India's first standalone State Designated Agency of BEE and enforces the Energy Conservation Act, 2001, in Andhra Pradesh.
+[n04614a429ee] sub9
+  Where was the first IoT energy pilot of APSECM at an MSME unit undertaken?
+  Mangalagiri | Visakhapatnam | *East Godavari | Kurnool
+  x: The IoT energy pilot was first undertaken at an MSME unit in East Godavari and was later extended to all districts with BEE.
+[f1c43cf422828] sub9
+  In which year were the National Energy Conservation Awards instituted?
+  *1991 | 2001 | 2002 | 2012
+  x: NECA was instituted in 1991 and is given by BEE under the Ministry of Power.
+[ga0b28cbc0b6d] sub9
+  Which State/UT stood first in the National Energy Conservation Awards 2025?
+  Andhra Pradesh | Kerala | *Chandigarh | Maharashtra
+  x: Chandigarh came first in the National Energy Conservation Awards 2025, given by BEE under the Ministry of Power.
+[g852796b360ee] sub9
+  How many industries in Andhra Pradesh are covered under the PAT scheme?
+  23 | *59 | 112 | 123
+  x: In AP, 59 industries are under PAT, saving about 1.16 Mtoe; ECBC is applied in 123 ULBs.
+
+=== NOTES 5:71 | Energy Access and Distribution Programmes – Saubhagya, Ddugjy, Uday, Pm-kusum, Pm Surya Ghar
+## SUB 0 | Schemes at A Glance
+[71:0:0] TABLE head: Scheme | Year | Ministry / Aim
+  [71:0:0.0] Grameen Vitrak Yojana | 2009 | Rural share of LPG distributors 18% → 60%
+  [71:0:0.1] DDUGJY | Dec 2014 | Ministry of Power; rural distribution
+  [71:0:0.2] IPDS | Dec 2014 | Urban sub-transmission and distribution, metering, IT; subsumed R-APDRP
+  [71:0:0.3] UDAY | Nov 2015 | Ministry of Power; discom financial turnaround
+  [71:0:0.4] PMUY | 2016 | MoPNG; deposit-free LPG to poor women
+  [71:0:0.5] Saubhagya | 2017 | Universal household electrification
+  [71:0:0.6] PM-KUSUM | 2019 | MNRE (not Power); farm solar
+  [71:0:0.7] RDSS | 2021 | Smart prepaid meters, loss reduction
+  [71:0:0.8] Surya Nutan | 2022 | Indoor solar stove by IOCL (not EESL)
+  [71:0:0.9] PM Surya Ghar | Feb 2024 | MNRE; Central Sector rooftop solar
+[71:0:1] - Access moved from connections → discom viability (UDAY, RDSS) → prosumers (PM Surya Ghar).
+## SUB 1 | Rural Electrification – Ddugjy and Saubhagya
+[71:1:0] - **DDUGJY:** **feeder separation** (agricultural vs non-agricultural feeders), rural network strengthening; subsumed **RGGVY**.
+[71:1:1] - Last village electrified: **Leisang (Manipur), 28 April 2018**.
+[71:1:2] - **Saubhagya** (Pradhan Mantri Sahaj Bijli Har Ghar Yojana): **2.86 crore** willing households (2.82 crore = older, Mar 2021); 100% claimed.
+[71:1:3] - Leftovers under RDSS: ₹6,521 crore for 13.65 lakh households.
+## SUB 2 | Uday vs Rdss
+[71:2:0] TABLE head: Feature | UDAY | RDSS
+  [71:2:0.0] Aim | Discom debt takeover | Smart metering, loss cut
+  [71:2:0.1] Key fact | States took 75% of discom debt (50% in 2015-16 + 25% in 2016-17) via bonds | Outlay ₹3,03,758 crore
+  [71:2:0.2] AT&C target | 15% by 2018-19 | 12–15%
+  [71:2:0.3] ACS-ARR gap | Zero | Zero
+[71:2:1] - UDAY: participating states covered **97%** of discom debt (APPSC 2017).
+## SUB 3 | Pm-kusum
+[71:3:0] TABLE head: Component | Covers | Progress
+  [71:3:0.0] A | Grid-connected solar/RE plants on farm/barren land | 667.31 MW
+  [71:3:0.1] B | Standalone solar pumps | 9.42 lakh
+  [71:3:0.2] C | Solarisation of grid-connected pumps | 10.99 lakh
+[71:3:1] - B and C subsidy: **30% Centre, 30% State, 40% farmer** (bank loan possible); 21.77 lakh+ farmers benefit.
+[71:3:2] Urban household rooftop solar = PM Surya Ghar, not PM-KUSUM.
+## SUB 4 | Pm Surya Ghar Muft Bijli Yojana
+[71:4:0] - Outlay **₹75,021 crore**; **1 crore households by March 2027** (FY 2026-27).
+[71:4:1] - **Up to 300 units/month free**; households become **prosumers**.
+[71:4:2] - **CFA: 60% for first 2 kW; 40% for extra up to 3 kW**.
+[71:4:3] - 30 GW rooftop; **one Model Solar Village per district**; **world's largest domestic rooftop solar scheme**; subsumed Rooftop Solar Phase II.
+[71:4:4] - Progress (2025): 14.43 lakh systems, 18.14 lakh households.
+[71:4:5] - **Net metering:** surplus sent to grid; household pays only the difference.
+## SUB 5 | Clean Cooking – Pmuy
+[71:5:0] - Phase I: **8 crore** connections by **2019**; now **9.5 crore+**.
+[71:5:1] - **Ujjwala 2.0:** free first refill and stove; migrants by **self-declaration**; **₹1,600** per 14.2 kg connection.
+[71:5:2] - Refill subsidy since **Oct 2023: ₹300 × 9 refills/year** (older ₹200 × 12).
+[71:5:3] - Refill issue: cost and habit barriers.
+## SUB 6 | Andhra Pradesh
+[71:6:0] - **Free power up to 200 units/month** for **20.26 lakh BPL SC/ST** households; subsidy ₹10,449.92 crore (FY 2024-25).
+[71:6:1] - **SC/ST: free rooftop solar via Virtual Net Metering**.
+[71:6:2] - PM Surya Ghar: target **6 lakh** (6,000 per constituency); SPDCL 47%, CPDCL 35%, EPDCL 32% (Aug 2026).
+[71:6:3] - PM-KUSUM: **2.93 lakh** pumps solarised; RDSS ₹15,083.14 crore.
+## SUB 7 | Number Game and Quick Revision
+[71:7:0] TABLE head: Item | Fact
+  [71:7:0.0] UDAY debt | 75% (50 + 25)
+  [71:7:0.1] KUSUM B/C | 30:30:40
+  [71:7:0.2] Surya Ghar | 300 units, 1 crore homes
+[71:7:1] # FIRST / LAST / SPECIAL FACTS
+[71:7:2] - Last village: Leisang, Manipur.
+## SUB 8 | Appsc Previous Year Questions
+[71:8:0] TABLE head: Examination | Question Area
+  [71:8:0.0] APPSC 2017 | UDAY – share of discom debt covered
+## SUB 9 | High-probability Mcq Traps
+[71:9:0] VERY IMPORTANT
+[71:9:1] - 1. PMUY = MoPNG; UDAY = Power; KUSUM, Surya Ghar = MNRE.
+[71:9:2] - 2. IPDS = urban; UDAY = debt.
+[71:9:3] - 3. AT&C: UDAY 15%, RDSS 12–15%.
+[71:9:4] - 4. Surya Nutan = IOCL.
+[71:9:5] - 5. Refill: ₹300 × 9 now.
+[71:9:6] - 6. Saubhagya 2.86 crore, not 2.82.
+[71:9:7] - 7. Component B = standalone pumps.
+[71:9:8] - 8. CFA 60% only for first 2 kW.
+
+=== OWN MCQs of 5:71 (34)
+[n5a1b0e2a2b0] sub0
+  Pradhan Mantri Sahaj Bijli Har Ghar Yojana (Saubhagya) was launched in which year, and for what purpose?
+  2014, for urban distribution strengthening | 2015, for financial turnaround of DISCOMs | *2017, for universal household electrification | 2019, for solarisation of farm pumps
+  x: Saubhagya was launched in 2017 for universal household electrification. Urban distribution strengthening is IPDS (2014), DISCOM turnaround is UDAY (2015) and farm-pump solarisation is PM-KUSUM (2019).
+[n0376e4796f6] sub0
+  What is the aim of UDAY, introduced in November 2015?
+  *Financial turnaround of state electricity distribution companies | Universal household electrification | Solarisation of farm pumps | Strengthening urban distribution networks
+  x: UDAY (Ujwal DISCOM Assurance Yojana) was introduced by the Ministry of Power in November 2015 for the financial turnaround of state discoms.
+[n9bfe9746189] sub0
+  What does the Integrated Power Development Scheme (IPDS), launched in December 2014, mainly aim to strengthen?
+  Rural agricultural feeder separation and village electrification | LPG distribution and refill affordability | *Urban sub-transmission and distribution, metering and IT enablement | Standalone solar pumps for farmers
+  x: IPDS strengthens urban sub-transmission and distribution, metering and IT enablement.
+[n4aeca84f6d6] sub0
+  Which of the following scheme–ministry pairs is wrongly matched?
+  Pradhan Mantri Ujjwala Yojana (2016) – Ministry of Petroleum and Natural Gas | *PM-KUSUM (2019) – Ministry of Power | PM Surya Ghar: Muft Bijli Yojana (2024) – MNRE | UDAY – Ministry of Power
+  x: PM-KUSUM was launched by MNRE, not the Ministry of Power (which runs UDAY).
+[nb9a28eda080] sub0
+  Which of the following is NOT correct?
+  The Grameen Vitrak Yojana was launched in 2009 | The Grameen Vitrak Yojana raised the rural share of LPG distributors from 18% to 60% | Surya Nutan is an indoor solar stove launched in 2022 | *Surya Nutan was developed by EESL
+  x: Surya Nutan was developed by IOCL, not EESL.
+[n3f555344f62] sub0
+  IPDS subsumed which earlier programme?
+  RGGVY | PM-KUSUM | *R-APDRP | Saubhagya
+  x: The Integrated Power Development Scheme subsumed the Restructured Accelerated Power Development and Reforms Programme (R-APDRP).
+[gaf4156bdce16] sub0
+  In which year was the Deendayal Upadhyaya Gram Jyoti Yojana (DDUGJY) launched?
+  2005 | *2014 | 2017 | 2019
+  x: DDUGJY was launched in December 2014 by the Ministry of Power for rural distribution and feeder separation.
+[n5372decc0e0] sub1
+  As per the latest figure, how many willing households were electrified under Saubhagya?
+  1.86 crore | 2.82 crore | *2.86 crore | 3.65 crore
+  x: Saubhagya electrified 2.86 crore willing households; 2.82 crore was an older figure (March 2021).
+[nee01281f6da] sub1
+  Which village in Manipur was identified as the last village to be electrified?
+  *Leisang | Imphal | Thoubal | Churachandpur
+  x: Leisang in Manipur was identified as the last village to be electrified.
+[f67742d77cf20] sub1
+  Separation of agricultural and non-agricultural feeders is a feature of which scheme?
+  IPDS | *DDUGJY | UDAY | RDSS
+  x: DDUGJY separates agricultural and non-agricultural feeders and strengthens rural networks; IPDS is urban.
+[g1300bcb0cb3b] sub1
+  Which earlier rural electrification scheme was subsumed in DDUGJY?
+  R-APDRP | *RGGVY | IPDS | Saubhagya
+  x: DDUGJY (December 2014) subsumed the Rajiv Gandhi Grameen Vidyutikaran Yojana (RGGVY); IPDS subsumed R-APDRP.
+[nb0984ff3bc5] sub2
+  To what level did UDAY aim to reduce AT&C losses by 2018-19?
+  10% | *15% | 20% | 22%
+  x: UDAY targeted AT&C losses of 15% and a zero ACS-ARR gap by 2018-19.
+[ndf480b16e6a] sub2
+  What are the national targets of the Revamped Distribution Sector Scheme (RDSS)?
+  *AT&C losses of 12–15% and an ACS-ARR gap of zero | AT&C losses of zero and an ACS-ARR gap of 12–15% | AT&C losses of 30% and an ACS-ARR gap of 15% | Only reduction of transmission losses, without an ACS-ARR target
+  x: RDSS aims at pan-India AT&C losses of 12–15% and an ACS-ARR gap of zero.
+[nf731b69b7d2] sub2
+  Which of the following is NOT correct about UDAY?
+  States took over 75% of DISCOM debt outstanding as on 30 September 2015 | *The arrangement covered only half of total outstanding DISCOM debt | 50% of the debt was taken over in 2015-16 | 25% of the debt was taken over in 2016-17
+  x: The arrangement covered 97% of total outstanding DISCOM debt.
+[fdcac21c9dbc0] sub2
+  What is the outlay of the Revamped Distribution Sector Scheme (RDSS)?
+  ₹75,021 crore | ₹6,521 crore | *₹3,03,758 crore | ₹15,083.14 crore
+  x: RDSS has an outlay of ₹3,03,758 crore; ₹75,021 crore is PM Surya Ghar.
+[f0d4057cf50f6] sub2
+  Under UDAY, States took over what share of discom debt?
+  25% | 50% | *75% | 97%
+  x: States took over 75% of discom debt: 50% in 2015-16 and 25% in 2016-17.
+[g710553106d69] sub2
+  The States that joined UDAY together accounted for about what share of total DISCOM debt?
+  50% | 60% | 80% | *97%
+  x: The States participating in UDAY covered about 97% of total DISCOM debt.
+[n05561d6820a] sub3
+  What does Component C of PM-KUSUM relate to?
+  Decentralised grid-connected solar plants on barren land | Installation of standalone solar pumps | *Solarisation of existing grid-connected agricultural pumps | Rooftop solar for urban households
+  x: Component C solarises grid-connected agricultural pumps. Component A covers decentralised grid-connected solar/RE plants on farm or barren land, and Component B covers standalone solar pumps. Urban household rooftop solar comes under PM Surya Ghar, not PM-KUSUM.
+[na661bbbdf47] sub3
+  What is the subsidy-sharing pattern for Components B and C of PM-KUSUM?
+  60% Centre, 30% State and 10% farmer | 50% Centre, 25% State and 25% farmer | *30% Centre, 30% State and 40% farmer | 40% Centre, 30% State and 30% farmer
+  x: For Components B and C, the Centre contributes 30%, the State 30% and the farmer 40%; a bank loan may also be used by the farmer.
+[fbd1fc6d61a6c] sub3
+  What does Component B of PM-KUSUM cover?
+  *Standalone solar pumps | Grid-connected solar plants on farm land | Solarisation of grid-connected pumps | Urban rooftop solar
+  x: Component B is standalone solar pumps; A is grid-connected plants and C is solarisation of grid-connected pumps.
+[f1f1fc6ccc5d2] sub3
+  Which of the following is NOT correct about PM-KUSUM?
+  It was launched in 2019 under MNRE | Component A covers grid-connected solar plants on farm or barren land | *It covers urban household rooftop solar | Component C covers solarisation of grid-connected pumps
+  x: Urban household rooftop solar is under PM Surya Ghar, not PM-KUSUM.
+[n01488af2c5c] sub4
+  Up to how much free electricity can households receive under PM Surya Ghar Muft Bijli Yojana?
+  500 units per month | *300 units per month | 100 units per month | 200 units per month
+  x: The scheme provides for free power of up to 300 units per month, with beneficiary households becoming prosumers.
+[nd690bb69e0e] sub4
+  Under PM Surya Ghar, what share of the cost for the first 2 kW does Central Financial Assistance cover?
+  30% | 40% | *60% | 100%
+  x: CFA covers 60% of the cost for 2 kW and 40% for additional capacity up to 3 kW.
+[n8c7a9e9c2df] sub4
+  What is the household target of PM Surya Ghar Muft Bijli Yojana by March 2027?
+  2 crore households | *1 crore households | 50 lakh households | 10 lakh households
+  x: The scheme targets rooftop solar installations in 1 crore households by FY 2026-27, that is, March 2027.
+[fbfdbe2deff70] sub4
+  What is the outlay of PM Surya Ghar Muft Bijli Yojana?
+  ₹3,03,758 crore | *₹75,021 crore | ₹18,100 crore | ₹10,449.92 crore
+  x: PM Surya Ghar has an outlay of ₹75,021 crore.
+[g642afb658861] sub4
+  Which scheme provides for one Model Solar Village in every district and is called the world's largest domestic rooftop solar scheme?
+  PM-KUSUM | *PM Surya Ghar Muft Bijli Yojana | Saubhagya | Surya Nutan
+  x: PM Surya Ghar Muft Bijli Yojana (February 2024) has one Model Solar Village per district and is the world's largest domestic rooftop solar scheme.
+[g2a896b8a96be] sub4
+  How much rooftop solar capacity is PM Surya Ghar Muft Bijli Yojana expected to add?
+  10 GW | 20 GW | *30 GW | 100 GW
+  x: PM Surya Ghar aims at about 30 GW of rooftop solar in 1 crore households.
+[n02786cbd72d] sub5
+  Which of the following is correctly associated with Ujjwala 2.0?
+  30% Centre, 30% State and 40% farmer contribution | *Free first refill and stove, self-declaration facility for migrants, and ₹1,600 assistance per 14.2 kg connection | Free electricity up to 300 units and 60% rooftop-solar subsidy | A ₹6,521 crore package for border villages only
+  x: Ujjwala 2.0 provides a free first refill and stove, permits migrants to use self-declaration, and provides cash assistance of ₹1,600 per 14.2 kg connection.
+[nddcaaa05e4a] sub5
+  What was the Phase I target of PMUY by 2019?
+  12 crore connections | *8 crore connections | 5 crore connections | 9.5 crore connections
+  x: Phase I of PMUY targeted 8 crore deposit-free LPG connections by 2019; the reported number of connections later exceeded 9.5 crore.
+[n4bf9fbbf641] sub5
+  What has been the targeted subsidy for PMUY beneficiaries since October 2023?
+  ₹200 per 14.2 kg refill for up to 12 refills a year | ₹300 per 5 kg refill without an annual limit | ₹1,600 per 14.2 kg refill for up to 5 refills a year | *₹300 per 14.2 kg refill for up to 9 refills a year
+  x: Since October 2023, the targeted subsidy has been ₹300 per 14.2 kg refill for up to nine refills a year. Older provisions cited ₹200 and up to 12 refills.
+[n74f4541667b] sub6
+  Andhra Pradesh provides free power to BPL SC/ST households up to how many units per month?
+  100 units | 150 units | *200 units | 300 units
+  x: AP gives free power up to 200 units a month to eligible BPL SC/ST households; 300 units is the PM Surya Ghar limit.
+[n142e754ad3e] sub6
+  Through which arrangement is free rooftop solar power for SC/ST households in Andhra Pradesh proposed?
+  Time-of-Day Metering | *Virtual Net Metering | Prepaid Metering | Gross Metering
+  x: The provision of free rooftop solar for SC/ST households is associated with Virtual Net Metering.
+[fec10211197cf] sub6
+  What is the PM Surya Ghar household target for Andhra Pradesh?
+  1 crore households | *6 lakh households | 20.26 lakh households | 2.93 lakh households
+  x: AP's target is 6 lakh households (6,000 per constituency).
+[ffd9189f63eba] sub6
+  About how many pumps have been solarised in Andhra Pradesh under PM-KUSUM?
+  *2.93 lakh | 9.42 lakh | 10.99 lakh | 6 lakh
+  x: AP has solarised 2.93 lakh pumps under PM-KUSUM.
+
+=== NOTES 5:72 | Renewable Energy in Andhra Pradesh – Potential, Installed Capacity and State Policy
+## SUB 0 | Solar Park Concepts
+[72:0:0] - **Solar Park Scheme** (MNRE, **12 December 2014**): CFA **₹25 lakh per park** for DPR + up to **₹20 lakh/MW or 30%** of cost.
+[72:0:1] - **Ultra Mega Solar Park = 500 MW or more** at one location (APPSC 2019).
+[72:0:2] - **Floating solar:** India ~0.7 GW installed vs **102 GW** potential; largest = **Omkareshwar** (278 MW, Narmada, **Madhya Pradesh**).
+[72:0:3] - **Largest solar park of India (2023): Bhadla** Solar Park; **Shakti Sthala** = expected largest solar park in Karnataka.
+[72:0:4] Ultra Mega threshold is 500 MW, not 1,000 MW.
+## SUB 1 | Ap Solar and Hybrid Projects
+[72:1:0] TABLE head: Project | Village / District
+  [72:1:0.0] Kurnool Ultra Mega Solar Park (1,000 MW) | Gani-Sakunala, Panyam mandal, Kurnool – once world's largest single-location park (APPSC 2019)
+  [72:1:0.1] Ananthapuram-I Solar Park (1,500 MW) | NP Kunta, Ananthapuramu
+  [72:1:0.2] Ultra Mega Solar Park-II | Talaricheruvu, Ananthapuramu (APPSC 2018)
+  [72:1:0.3] Kadapa Ultra Mega Solar Park (1,000 MW) | Galiveedu, YSR Kadapa
+  [72:1:0.4] Hybrid Solar-Wind Park | Ramagiri, Ananthapuramu (APPSC 2023)
+  [72:1:0.5] NTPC 25 MW floating solar | Simhadri, Visakhapatnam – operational 1 July 2022 (APPSC 2021)
+[72:1:1] Talaricheruvu = Ultra Mega Park-II; Ramagiri = hybrid; Simhadri = floating solar.
+## SUB 2 | New Investments and Wind
+[72:2:0] - **SAEL 600 MW** AC solar, **Kadapa** (₹3,000 crore; 2,400 acres): **first project commissioned under ICEP-2024**, in 11 months (May 2026).
+[72:2:1] - **Tata Renewable 800 MW hybrid** (₹5,750 crore): **400 MW solar at Pathikonda (Kurnool) + 400 MW wind at Kanekallu (Anantapur)** (Jul 2026).
+[72:2:2] - Wind: major **2025 wind partnership in Anantapur** (APPSC 2025).
+[72:2:3] - **Tata Power + Suzlon (August 2025):** **700 MW wind project in Anantapur**, about **₹6,000 crore**; AP's **first wind project since 2019**.
+## SUB 3 | State Energy Policies
+[72:3:0] TABLE head: Policy | Key Facts
+  [72:3:0.0] AP Green Hydrogen and Green Ammonia Policy (2023) | Green fuels from RE; nodal NREDCAP
+  [72:3:0.1] Integrated Clean Energy Policy (ICEP) 2024 | 160 GW new RE by 2029 (78.5 GW solar, 35 GW wind); 22 GW pumped storage, 25 GWh BESS; 1.5 MTPA green hydrogen, 3 GW electrolysers; ~₹10 lakh crore investment; supports biofuels and green hydrogen export; net zero by 2047
+[72:3:1] - **Land policy (Apr 2026):** **50,000 acres of barren land** opened for solar leases to avoid diversion of farmland.
+## SUB 4 | Installed Capacity and Mix
+[72:4:0] - AP RE capacity **10,639.75 MW** = **solar 5,614.52 MW (~53%) + wind 4,397.67 MW (~41%)**.
+[72:4:1] - AP added **3,865.63 MW** RE in 2025-26, nearly four times 2024-25 (1,085.15 MW).
+[72:4:2] - India solar **162.15 GW** vs AP **5.6 GW**.
+[72:4:3] - **State ranking (31 Mar 2026):** AP total RE incl. large hydro **15,980 MW** (~5.8% of India's 274.7 GW) = **6th** after Gujarat, Rajasthan, Maharashtra, Tamil Nadu, Karnataka.
+[72:4:4] - AP is also **6th in solar (7,494.8 MW)** and **6th in wind (4,415.8 MW)**; large hydro 3,290 MW.
+[72:4:5] AP is 6th, not in the top five; Gujarat leads total RE and wind, Rajasthan leads solar.
+[72:4:6] - After **bifurcation AP lost its coal mines** → long coal haulage, poor coal quality.
+[72:4:7] - **AP RE potential:** solar about **38.44 GWp** (**NISE**); wind about **74.9 GW at 120 m** and **123.33 GW at 150 m** (**NIWE**).
+## SUB 5 | Power Plants and Operators
+[72:5:0] TABLE head: Plant | Operator / Capacity
+  [72:5:0.0] Simhadri STPS, Visakhapatnam | NTPC, 2,000 MW (not APGENCO)
+  [72:5:0.1] Dr NTTPS, Vijayawada (Ibrahimpatnam) | APGENCO
+  [72:5:0.2] Rayalaseema TPP, Muddanur (Kadapa) | APGENCO
+  [72:5:0.3] Krishnapatnam SDSTPS, Nellore | APPDCL, 2,400 MW
+  [72:5:0.4] Srisailam Right Bank hydel | APGENCO
+[72:5:1] - APGENCO thermal: NTTPS + RTPP = **4,210 MW**.
+## SUB 6 | Pumped Storage
+[72:6:0] - National PSP potential **~267 GW** = **58 GW on-stream + 209 GW off-stream**; installed **~7 GW**.
+[72:6:1] - AP PSP potential ~**42,020 MW** – among the leading states.
+[72:6:2] TABLE head: Project | District / Developer
+  [72:6:2.0] Pinnapuram IRESP | Kurnool; Greenko; solar + wind + pumped storage
+  [72:6:2.1] Gandikota PSP | YSR Kadapa; Adani Green
+## SUB 7 | Energy Agencies
+[72:7:0] TABLE head: Agency | Role
+  [72:7:0.0] NREDCAP | State nodal agency for RE; land, clearances, single window
+  [72:7:0.1] APGENCO / APPDCL | State generation (thermal, hydel, solar)
+  [72:7:0.2] APSECM | Energy conservation
+## SUB 8 | Rooftop and Farm Solar
+[72:8:0] - **PM Surya Ghar in AP:** 1,198.21 MWp awarded; **20.5 lakh SC/ST households** (~2 kW); **Virtual Net Metering** for ~16 lakh SC/ST (~₹200/month lease); earlier target 10 lakh households by 2026-27.
+[72:8:1] - **PM-KUSUM in AP:** target **2.93 lakh farm pumps**; 32,000 solar pumps and 123 MW rooftop installed earlier.
+## SUB 9 | Number Game and Quick Revision
+[72:9:0] TABLE head: Item | Fact
+  [72:9:0.0] Ultra Mega park | ≥500 MW
+  [72:9:0.1] AP RE capacity | 10,639.75 MW
+  [72:9:0.2] Solar / wind share | ~53% / ~41%
+  [72:9:0.3] AP rank in RE, solar, wind (Mar 2026) | 6th each
+  [72:9:0.4] ICEP-2024 target | 160 GW
+  [72:9:0.5] Krishnapatnam | 2,400 MW, APPDCL
+  [72:9:0.6] Simhadri STPS | 2,000 MW, NTPC
+  [72:9:0.7] PSP potential (India) | 58 + 209 GW
+[72:9:1] # FIRST / LAST / SPECIAL FACTS
+[72:9:2] - First ICEP-2024 project: SAEL 600 MW, Kadapa.
+[72:9:3] - Kurnool park: once the world's largest single-location solar park.
+[72:9:4] - Largest floating solar: Omkareshwar (MP), not AP.
+## SUB 10 | Appsc Previous Year Questions
+[72:10:0] TABLE head: Examination | Question Area
+  [72:10:0.0] APPSC 2025 | Wind partnership in Anantapur
+  [72:10:0.1] APPSC 2023 | Ramagiri hybrid solar-wind park
+  [72:10:0.2] APPSC 2021 | Simhadri floating solar
+  [72:10:0.3] APPSC 2019 | Ultra Mega threshold; Kurnool park at Gani-Sakunala
+  [72:10:0.4] APPSC 2018 | Talaricheruvu Ultra Mega Solar Park-II
+## SUB 11 | High-probability Mcq Traps
+[72:11:0] VERY IMPORTANT
+[72:11:1] - 1. **Ultra Mega = 500 MW**, not 1,000 MW.
+[72:11:2] - 2. **Simhadri STPS = NTPC**, not APGENCO.
+[72:11:3] - 3. **Krishnapatnam = APPDCL**.
+[72:11:4] - 4. Kurnool park at **Gani-Sakunala**, not NP Kunta.
+[72:11:5] - 5. NP Kunta = Ananthapuram-I; Galiveedu = Kadapa.
+[72:11:6] - 6. Omkareshwar floating solar is in **MP**.
+[72:11:7] - 7. Bhadla = largest solar park of India (2023), not Kurnool.
+[72:11:8] - 8. NREDCAP = RE nodal; APSECM = conservation.
+
+=== OWN MCQs of 5:72 (49)
+[n17c326ea3ef] sub0
+  What is the minimum capacity for a solar park to be called an Ultra Mega Solar Park?
+  100 MW at one location | 1,000 MW at one location | *500 MW at one location | 250 MW at one location
+  x: An Ultra Mega Solar Park has a capacity of 500 MW or more at one location.
+[na825432cdad] sub0
+  Which of the following is NOT correct about floating solar power in India?
+  India's estimated floating-solar potential is about 102 GW | Omkareshwar is the largest identified floating solar project | Existing floating-solar capacity is about 0.7 GW | *The 278 MW Omkareshwar project is in Andhra Pradesh
+  x: The 278 MW Omkareshwar project is in Madhya Pradesh.
+[f3094c873bc71] sub0
+  Consider the following statements about MNRE's Solar Park Scheme:
+1. It was launched on 12 December 2014.
+2. It gives CFA of ₹25 lakh per park for preparing the DPR.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: the scheme dates from 12 December 2014 and gives ₹25 lakh per park for the DPR plus up to ₹20 lakh/MW or 30% of cost.
+[f11569980d038] sub0
+  The largest floating solar plant in India, Omkareshwar (278 MW), is in which state?
+  Andhra Pradesh | *Madhya Pradesh | Gujarat | Telangana
+  x: Omkareshwar on the Narmada in Madhya Pradesh is India's largest floating solar plant, not one in AP.
+[n7b1bb161c63] sub1
+  The 1,000 MW Ultra Mega Solar Park at Gani-Sakunala, Panyam mandal, is in which district?
+  Ananthapuramu | YSR Kadapa | *Kurnool | Nellore
+  x: The Kurnool Ultra Mega Solar Park (1,000 MW) is at Gani-Sakunala, Panyam mandal, Kurnool district (APPSC 2019).
+[n4fbeeb9fb03] sub1
+  Which one of the following pairs is NOT correctly matched?
+  Hybrid Solar-Wind Park — Ramagiri | Kadapa Ultra Mega Solar Park — Galiveedu | Ultra Mega Solar Park-II — Talaricheruvu | *Ananthapuram-I Solar Park — Galiveedu
+  x: Ananthapuram-I Solar Park is located at NP Kunta, not Galiveedu. Galiveedu is the location of Kadapa Ultra Mega Solar Park.
+[f50e67ee36933] sub1
+  The Hybrid Solar-Wind Park at Ramagiri is in which district of Andhra Pradesh?
+  Kurnool | YSR Kadapa | *Ananthapuramu | Prakasam
+  x: Ramagiri hybrid solar-wind park is in Ananthapuramu (APPSC 2023).
+[f179263f99fca] sub1
+  Galiveedu is the site of which solar park?
+  *Kadapa Ultra Mega Solar Park | Ananthapuram-I Solar Park | Kurnool Ultra Mega Solar Park | Ultra Mega Solar Park-II
+  x: Galiveedu in YSR Kadapa hosts the 1,000 MW Kadapa Ultra Mega Solar Park; NP Kunta is Ananthapuram-I.
+[g71f4ef2f7f99] sub1
+  Where is NTPC's 25 MW floating solar plant in Andhra Pradesh, operational from 1 July 2022?
+  *Simhadri, Visakhapatnam | Ramagiri, Ananthapuramu | Galiveedu, YSR Kadapa | Krishnapatnam, Nellore
+  x: NTPC's 25 MW floating solar plant at Simhadri, Visakhapatnam, began operation on 1 July 2022.
+[g87357964f649] sub1
+  In which village is the Ultra Mega Solar Park-II of Ananthapuramu district located?
+  NP Kunta | *Talaricheruvu | Ramagiri | Gani-Sakunala
+  x: Ultra Mega Solar Park-II is at Talaricheruvu in Ananthapuramu; NP Kunta has Ananthapuram-I.
+[g52ed4977f457] sub1
+  Where is the 1,500 MW Ananthapuram-I Solar Park located?
+  *NP Kunta | Galiveedu | Talaricheruvu | Panyam
+  x: The 1,500 MW Ananthapuram-I Solar Park is at NP Kunta in Ananthapuramu district.
+[gf776ddfc0001] sub1
+  Which solar park of Andhra Pradesh was once the world's largest single-location solar park?
+  Kadapa Ultra Mega Solar Park | Ananthapuram-I Solar Park | *Kurnool Ultra Mega Solar Park | Ramagiri Hybrid Solar-Wind Park
+  x: The 1,000 MW Kurnool Ultra Mega Solar Park at Gani-Sakunala was once the world's largest single-location solar park.
+[f6e2056d480bc] sub2
+  Where is the 400 MW wind component of the Tata Renewable 800 MW hybrid project in Andhra Pradesh?
+  Pathikonda | *Kanekallu | Ramagiri | Galiveedu
+  x: The project combines 400 MW solar at Pathikonda (Kurnool) with 400 MW wind at Kanekallu (Anantapur).
+[fa7fb7a600e82] sub2
+  The 400 MW solar component of the Tata Renewable hybrid project in AP is located in which district?
+  Anantapur | YSR Kadapa | *Kurnool | Nellore
+  x: Its 400 MW solar part is at Pathikonda in Kurnool; the wind part is at Kanekallu in Anantapur.
+[n4882cb40a26] sub2
+  Which of the following is NOT correct about the Tata Renewable hybrid project in Andhra Pradesh?
+  It has 400 MW of solar at Pathikonda | *It has no wind component | Kanekallu is in Anantapur | It has 400 MW of wind at Kanekallu
+  x: The project has 400 MW solar at Pathikonda (Kurnool) and 400 MW wind at Kanekallu (Anantapur).
+[g918503aa61fd] sub2
+  Which companies agreed in August 2025 to build a 700 MW wind project in Anantapur, Andhra Pradesh's first wind project since 2019?
+  Adani Green and Siemens Gamesa | *Tata Power and Suzlon Energy | ReNew and Inox Wind | NTPC and Vestas
+  x: Tata Power and Suzlon agreed on a ₹6,000 crore, 700 MW wind project in Anantapur, the first in AP since 2019.
+[g86824416a77e] sub2
+  The ₹6,000 crore wind project announced by Tata Power and Suzlon in August 2025 is in which district of Andhra Pradesh?
+  Kurnool | YSR Kadapa | *Anantapur | Prakasam
+  x: The 700 MW Tata Power–Suzlon wind project is in Anantapur, a major wind district of AP.
+[n4e0fc1b00b4] sub3
+  The 600 MW SAEL solar project in Kadapa was the first project commissioned under which Andhra Pradesh policy?
+  National Solar Mission, 2010 | Andhra Pradesh Green Hydrogen and Green Ammonia Policy, 2023 | Andhra Pradesh Solar Power Policy, 2018 | *Integrated Clean Energy Policy, 2024
+  x: The 600 MW SAEL project in Kadapa is identified as a development under the Integrated Clean Energy Policy, 2024 (ICEP-2024).
+[nbfa9b34bc68] sub3
+  For what purpose did Andhra Pradesh open 50,000 acres of barren land for solar leases?
+  Develop industrial townships | Expand forest cover | *Avoid diversion of agricultural land | Attract nuclear power projects
+  x: The barren land was opened for solar leases to avoid diversion of farmland for renewable-energy projects.
+[f1d673c379b38] sub3
+  Which agency is the nodal agency for the AP Green Hydrogen and Green Ammonia Policy, 2023?
+  APGENCO | APSECM | APPDCL | *NREDCAP
+  x: NREDCAP, the State nodal agency for renewable energy, is the nodal agency of the 2023 Green Hydrogen and Green Ammonia Policy.
+[f69a7549fe7e3] sub3
+  Andhra Pradesh's Integrated Clean Energy Policy 2024 targets how much new renewable energy capacity by 2029?
+  *160 GW | 78.5 GW | 100 GW | 35 GW
+  x: ICEP-2024 targets 160 GW of new RE by 2029, including 78.5 GW solar and 35 GW wind.
+[fe4501994c827] sub3
+  Consider the following statements about the Integrated Clean Energy Policy (ICEP) 2024 of Andhra Pradesh:
+1. It targets 22 GW of pumped storage.
+2. It targets 1.5 MTPA of green hydrogen.
+3. It aims at net zero by 2047.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | 1 and 3 only | *1, 2 and 3
+  x: All three are ICEP-2024 targets: 22 GW pumped storage, 25 GWh BESS, 1.5 MTPA green hydrogen and net zero by 2047.
+[n27e639e5aae] sub4
+  What are the approximate shares of solar and wind, respectively, in Andhra Pradesh's renewable capacity of 10,639.75 MW?
+  53% and 6% | *53% and 41% | 6% and 41% | 41% and 53%
+  x: Solar energy accounts for approximately 53% and wind energy for approximately 41% of Andhra Pradesh’s renewable-energy mix of 10,639.75 MW.
+[ndcc7a42a3be] sub4
+  Why did Andhra Pradesh's coal-based power generation face difficulty after bifurcation?
+  A ban on new thermal power plants | Closure of its ports to imported coal | Transfer of its thermal plants to the Centre | *Loss of coal mines, leading to long coal haulage and poor coal quality
+  x: Andhra Pradesh lost its coal mines after bifurcation, causing long coal haulage and exposure to poor coal quality.
+[fd9ea7b2e35b7] sub4
+  As on 31 March 2026, what was Andhra Pradesh's rank among States in total renewable energy capacity including large hydro?
+  4th | 5th | *6th | 7th
+  x: AP's 15,980 MW put it 6th, after Gujarat, Rajasthan, Maharashtra, Tamil Nadu and Karnataka.
+[fc733c86573a1] sub4
+  Which state leads India in installed solar capacity (31 March 2026)?
+  Gujarat | *Rajasthan | Karnataka | Andhra Pradesh
+  x: Rajasthan leads in solar, while Gujarat leads in total RE and wind; AP is 6th in each.
+[fe9f6936b7ad5] sub4
+  Which state leads India in total renewable energy capacity and in wind capacity (31 March 2026)?
+  *Gujarat | Tamil Nadu | Rajasthan | Maharashtra
+  x: Gujarat leads total RE and wind; Rajasthan leads solar.
+[fd50adae52e91] sub4
+  In 2025-26 Andhra Pradesh added about how much renewable energy capacity?
+  1,085.15 MW | 5,614.52 MW | 4,397.67 MW | *3,865.63 MW
+  x: AP added 3,865.63 MW of RE in 2025-26, nearly four times the 1,085.15 MW of 2024-25.
+[g7b8da446089c] sub4
+  As on 31 March 2026, what was Andhra Pradesh's approximate share in India's total renewable energy capacity including large hydro?
+  About 2.8% | *About 5.8% | About 10.8% | About 15.8%
+  x: AP had about 15,980 MW of RE including large hydro, about 5.8% of India's 274.7 GW, ranking 6th.
+[g1b92fae7194d] sub4
+  What is the estimated wind power potential of Andhra Pradesh at 150 metres above ground level?
+  About 44 GW | About 74.9 GW | *About 123 GW | About 160 GW
+  x: NIWE estimates AP's wind potential at about 74.9 GW at 120 m and about 123.33 GW at 150 m.
+[g910c5b67bc79] sub4
+  What is the solar power potential of Andhra Pradesh as estimated by the National Institute of Solar Energy?
+  About 18.4 GWp | *About 38.44 GWp | About 78.5 GWp | About 142 GWp
+  x: NISE estimated AP's solar potential at about 38.44 GWp (Census 2011 based; India total about 749 GWp).
+[n264aaa9024c] sub5
+  Which of the following pairs is correctly matched?
+  *Simhadri STPS — NTPC — 2,000 MW | Krishnapatnam SDSTPS — APGENCO — 2,400 MW | Dr NTTPS — NTPC — Vijayawada | Srisailam Right Bank hydel — APPDCL — Kurnool
+  x: Simhadri STPS at Visakhapatnam is operated by NTPC and has a capacity of 2,000 MW. Krishnapatnam is operated by APPDCL, while Dr NTTPS and Srisailam Right Bank hydel are associated with APGENCO.
+[fda869972e6df] sub5
+  Which company operates the 2,400 MW Krishnapatnam SDSTPS in Nellore district?
+  *APPDCL | NTPC | APGENCO | APTRANSCO
+  x: Krishnapatnam SDSTPS (2,400 MW) is run by APPDCL.
+[f5ea89685256b] sub5
+  Which of the following pairs is INCORRECTLY matched?
+  Dr NTTPS, Vijayawada – APGENCO | Rayalaseema TPP, Muddanur – APGENCO | Srisailam Right Bank hydel – APGENCO | *Simhadri STPS, Visakhapatnam – APGENCO
+  x: Simhadri STPS is operated by NTPC; the other three are APGENCO plants.
+[fa5a9a0534d97] sub5
+  Which company operates the Simhadri Super Thermal Power Station near Visakhapatnam?
+  APGENCO | APPDCL | *NTPC | NREDCAP
+  x: Simhadri STPS (2,000 MW) is an NTPC plant, not APGENCO.
+[gcc3314c73053] sub5
+  Where is the Rayalaseema Thermal Power Plant of APGENCO located?
+  Ibrahimpatnam | *Muddanur | Krishnapatnam | Paravada
+  x: The Rayalaseema TPP of APGENCO is at Muddanur in Kadapa district; Dr NTTPS is at Ibrahimpatnam near Vijayawada.
+[g278d27b16ec5] sub5
+  What is the combined thermal capacity of APGENCO's Dr NTTPS and Rayalaseema TPP?
+  2,000 MW | 2,400 MW | *4,210 MW | 6,610 MW
+  x: APGENCO's two thermal plants, Dr NTTPS (Vijayawada) and RTPP (Muddanur), together have 4,210 MW.
+[ge3fad4e0af4e] sub5
+  Where is the Dr Narla Tatarao Thermal Power Station (Dr NTTPS) of APGENCO located?
+  Muddanur | *Ibrahimpatnam, near Vijayawada | Paravada, near Visakhapatnam | Krishnapatnam
+  x: Dr NTTPS is at Ibrahimpatnam near Vijayawada and is run by APGENCO.
+[n638ffd4cab6] sub6
+  Which of the following pairs is correctly matched?
+  On-stream pumped-storage potential of India – about 209 GW | Off-stream pumped-storage potential of India – about 58 GW | *Installed pumped-storage capacity of India – about 7 GW | Installed pumped-storage capacity of India – about 58 GW
+  x: India's installed pumped-storage capacity is about 7 GW; its potential is about 58 GW on-stream and 209 GW off-stream.
+[fb6d18e113a96] sub6
+  The Pinnapuram Integrated Renewable Energy Storage Project, developed by Greenko, is in which district?
+  YSR Kadapa | *Kurnool | Anantapur | Nellore
+  x: Pinnapuram IRESP, combining solar, wind and pumped storage, is in Kurnool and developed by Greenko.
+[f007b0bd41a1b] sub6
+  The Gandikota pumped storage project, developed by Adani Green, is in which district?
+  Kurnool | Anantapur | *YSR Kadapa | Chittoor
+  x: Gandikota PSP is in YSR Kadapa district, developed by Adani Green.
+[f4b07b2e7c994] sub6
+  What is Andhra Pradesh's estimated pumped-storage potential?
+  7,000 MW | 22,000 MW | 58,000 MW | *42,020 MW
+  x: AP's PSP potential is about 42,020 MW, among the leading states.
+[f41c90ebf49d5] sub6
+  What is India's total pumped-storage potential?
+  *267 GW | 209 GW | 102 GW | 58 GW
+  x: National PSP potential is about 267 GW: 58 GW on-stream plus 209 GW off-stream.
+[nef963677f73] sub7
+  Which agency functions as the State nodal agency for renewable energy in Andhra Pradesh and handles land, clearances and single-window facilitation?
+  *NREDCAP | APPDCL | APSECM | APTRANSCO
+  x: NREDCAP is the State nodal agency for renewable energy and facilitates land, clearances and single-window services.
+[n0cf0334c5f8] sub7
+  Which agency is mainly associated with energy conservation in Andhra Pradesh?
+  *APSECM | APGENCO | NREDCAP | APTRANSCO
+  x: APSECM is the agency associated with energy conservation.
+[f35417016d404] sub7
+  For what are APGENCO and APPDCL mainly responsible in Andhra Pradesh?
+  Energy conservation | *State power generation | RE land and single-window clearances | Rooftop solar subsidies
+  x: APGENCO/APPDCL handle state generation (thermal, hydel, solar); NREDCAP is RE nodal and APSECM handles conservation.
+[n9fddb649daf] sub8
+  What is the target number of farm pumps under PM-KUSUM in Andhra Pradesh?
+  1.23 lakh | *2.93 lakh | 5.6 lakh | 32,000
+  x: PM-KUSUM in Andhra Pradesh targets 2.93 lakh farm pumps. The figure of 32,000 refers to solar pumps installed earlier.
+[f034c234ceaf9] sub8
+  Under PM Surya Ghar in Andhra Pradesh, rooftop solar for about 20.5 lakh households is aimed at which group?
+  BPL farmers | *SC/ST households | Urban middle-class households | Fishermen households
+  x: About 20.5 lakh SC/ST households (~2 kW each) are covered, with Virtual Net Metering for about 16 lakh.
+[f188c14a770f1] sub8
+  Which arrangement lets about 16 lakh SC/ST households in AP benefit from solar under PM Surya Ghar without own rooftop panels?
+  Gross metering | Feed-in tariff | *Virtual Net Metering | Open access
+  x: Virtual Net Metering is planned for about 16 lakh SC/ST households at a lease of about ₹200 a month.
+
