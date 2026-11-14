@@ -1437,3 +1437,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b4-w091 (rows 91–95)
 - own 448 → 64 kept + 102 new (166, 37%); new 61 statements / 30 match / 11 A–R; 2 of 312 lines lost.
 - Row 95: Gangavaram "largest private-sector port" (0:3.1, UPSC 2009 key) vs Krishnapatnam "largest private port in AP" (0:3.2) — add dates/context to reconcile.
+
+## rewrite b6-w093 (rows 93–95)
+- own 397 → 94 kept + 93 new (187, 47%); new 52 statements / 29 match / 12 A–R; 1 of 328 lines lost. No wrong keys.
+- Row 93 sub 2: Sikkim President's Police Colour source dated 28 May 2026, outside the sub's Dec 2025–Feb 2026 range — check placement.

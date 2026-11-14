@@ -1,0 +1,250 @@
+=== Cricket
+# ICC Men's T20 World Cup 2026
+| Particular | Fact |
+|---|---|
+| Edition | 10th |
+| Hosts | India and Sri Lanka (co-hosts) |
+| Dates | 7 February – 8 March 2026 |
+| Teams | 20 |
+| Final venue | Narendra Modi Stadium, Ahmedabad |
+| Result | India beat New Zealand by 96 runs |
+| Significance | India's 2nd successive T20 World Cup (defended the 2024 crown) |
+| Captain | Suryakumar Yadav |
+| Player of the Series/Tournament | Sanju Samson (321 runs) |
+| Player of the Match (Final) | Jasprit Bumrah |
+- **Italy** qualified for the T20 World Cup for the **first time**.
+- Venues: Ahmedabad, Mumbai, Chennai, Delhi, Kolkata, Colombo, Kandy.
+> Player of the Series = Sanju Samson; Player of the Final = Jasprit Bumrah. Do not swap them.
+# Ranji Trophy 2025–26 – Jammu & Kashmir's first title
+- **Jammu & Kashmir** won their **first-ever Ranji Trophy** on **28 February 2026**, beating **Karnataka** at **KESA Stadium, Hubballi**.
+- It was J&K's **maiden final** – their first final in about **70 years** of playing.
+- Captain **Paras Dogra** (41): 153 first-class matches, 10,000+ Ranji runs; retired from red-ball cricket.
+- Ranji Trophy established **1934**.
+# BCCI Annual (Naman) Awards 2026
+| Award | Winner |
+|---|---|
+| Lifetime Achievement | Mithali Raj |
+| Col. C.K. Nayudu Lifetime Achievement | Roger Binny and Rahul Dravid (joint) |
+| Polly Umrigar Award (Best International Cricketer) | Shubman Gill |
+| Best Women's Cricketer | Smriti Mandhana – for the fifth time |
+| Best Cricketer (domestic) | Ira Jadhav |
+| Best ODI Player | Shafali Verma |
+| Best All-rounder | Ayush Mhatre |
+| Ranji Trophy Best All-rounder | Harsh Dubey |
+- Five ICC title-winning teams felicitated: **2026 T20 World Cup men's team, Women's ODI World Cup team, Champions Trophy team, U-19 teams** – **not** the Asia Cup team.
+- **BCCI:** est. **1928**; HQ **Mumbai** (not New Delhi); President **Mithun Manhas**.
+# Wisden Awards 2026 – Indians win seven of nine
+| Award | Winner |
+|---|---|
+| T20 Cricketer of the Year | Abhishek Sharma |
+| Women's Cricketer of the Year | Deepti Sharma |
+| Leading Men's Cricketer in the World | Mitchell Starc |
+| Wisden Five Cricketers of the Year | Shubman Gill, Mohammed Siraj, Rishabh Pant, Ravindra Jadeja, Haseeb Hameed |
+- Wisden Almanack: first published **1864**, UK – "**Bible of Cricket**". ICC: est. **1909**, HQ **Dubai**.
+# Other cricket news
+- **Inaugural ICC Women's T20I Challenge Trophy 2026:** 18 April – 1 May 2026, **Gahanga Stadium, Kigali (Rwanda)**; teams Rwanda, Italy, Nepal, USA, Vanuatu; double round-robin.
+- **Mumbai Cricket Association:** first **annual contracts** for domestic players – Grade A ₹12–20 lakh, B ₹8–12 lakh, C ₹8 lakh.
+~~ Sources: Praveen CA-360 2026 Mar magazine p.11, p.56; Apr magazine p.7, p.49; Rocket CA 2026 Part 02 p.28 (IPL context); app notes 6:99 sub 0
+=== Badminton
+# Thomas Cup and Uber Cup 2026
+- Venue: **Forum Horsens, Denmark**, 24 April – 3 May 2026 (organised by **BWF**).
+| Event | Winner | Runner-up | Bronze |
+|---|---|---|---|
+| Thomas Cup (men) | China (12th title) | France (lost 3–1) | India, Denmark |
+| Uber Cup (women, 31st edition) | South Korea (3rd title) | China (lost 3–1) | Japan, Indonesia |
+- Most Thomas Cup titles: **Indonesia 14**, China 12, Malaysia 5; India, Denmark, Japan one each.
+- Thomas Cup est. **1949**; Uber Cup est. **1956–57**; both **biennial**.
+> Most Thomas Cup titles = Indonesia (14), not China (12).
+# Badminton Asia Championships 2026 – Ningbo
+- **43rd edition**, 7–12 April 2026, **Ningbo, China**. Medal table: **South Korea** topped (3 G, 1 S, 1 B); China 2nd; **India 4th**.
+- **Ayush Shetty** (20, world rank 25) – men's singles **silver**: **first Indian men's singles finalist in 61 years**, the **second** after **Dinesh Khanna**.
+- Badminton Asia: est. 1959, HQ Kuala Lumpur.
+# All England Open 2026
+- **116th edition**, 3–8 March 2026, **Utilita Arena, Birmingham**; BWF **Super 1000**; prize USD 1.45 million; winners get **12,000** ranking points; tournament est. **1899**.
+| Event | Winner |
+|---|---|
+| Men's singles | Lin Chun-yi (Chinese Taipei); runner-up Lakshya Sen (India) |
+| Women's doubles | Liu Shengshu / Tan Ning (China) |
+| Mixed doubles | Ye Hong-wei / Nicole Gonzales Chan (Chinese Taipei) |
+- **P.V. Sindhu withdrew**. Lakshya Sen earlier won the Australian Open Super 500 (2025).
+- **All England Open 2026 – women's singles:** **Wang Zhiyi** (China) beat world No. 1 **An Se-young** (South Korea) **21–15, 21–19** in the final (8 March 2026) – her first All England title; the first Chinese women's singles champion there since **Chen Yufei (2019)**.
+~~ Sources: Praveen CA-360 2026 Mar magazine p.56; Apr magazine p.49; May magazine p.76; app notes 6:99 sub 1
+=== Chess
+# R. Vaishali – FIDE Women's Candidates 2026
+- **R. Vaishali** won the **FIDE Women's Candidates 2026** – the **first Indian woman** to do so; she becomes **challenger to Women's World Champion Ju Wenjun (China)**.
+- Final-round win over **Kateryna Lagno**. In 2024 she was joint second (7.5 points).
+# New Indian Grandmasters
+| GM no. | Player | Fact |
+|---|---|---|
+| 94th | Mayank Chakraborty (Guwahati) | First GM from Northeast India; final norm in Sweden ("Hotel Stockholm North … Young Talents") |
+| 95th | Aronyak Ghosh (Kolkata) | Final norm at 23rd Bangkok Chess Club Open |
+# Youngest Grandmasters
+| Player | Age at GM title | Note |
+|---|---|---|
+| Abhimanyu Mishra (USA) | 12 y 4 m 25 d | Youngest GM ever (record stands) |
+| Faustino Oro (Argentina, "Messi of Chess") | 12 y 6 m 26 d | Second-youngest GM; title on 10 May 2026; final norm at Sardinia World Chess Festival, Italy |
+# Chess bodies
+- **FIDE:** est. **1924**, Lausanne; President **Arkady Dvorkovich**. FIDE joined **IWGA** (International World Games Association, est. 1981) as its **40th member**.
+- **Bharat Singh Chauhan** re-elected **Chair, Commonwealth Chess Association** (2026–2030); AGM at **Wadduwa, Sri Lanka** (May 2026).
+~~ Sources: Praveen CA-360 2026 Mar magazine p.57; Apr magazine p.52-53; May magazine p.77, p.80; Rocket CA 2026 Part 01 p.9-10 (Mayank first GM of the Northeast); PMF LENS 2026-05 part 4 p.2
+=== Multi-sport and National Games
+# Inaugural Khelo India Tribal Games 2026 (Chhattisgarh)
+- Dates: **25 March – 3 April 2026**; venues **Raipur, Jagdalpur, Surguja** (Chhattisgarh); inaugurated by **Mansukh Mandaviya**; mascot **"Morveer"**.
+- Run by MYAS + SAI + IOA. Total 338 medals; demonstration sports **mallakhamb, kabaddi**.
+| Rank | State | Medals |
+|---|---|---|
+| 1 | Karnataka | 38 (23 gold, 8 silver, 7 bronze) |
+| 2 | Odisha | 57 (21 gold) – most medals |
+| 3 | Jharkhand | 35 (16 gold) |
+| 9 | Chhattisgarh (host) | – |
+| 16 | Andhra Pradesh | 5 |
+| 17 | Telangana | 5 |
+- Closing ceremony at Pandit Deendayal Upadhyay Auditorium, Raipur; chief guest CM **Vishnu Deo Sai**.
+- Khelo India launched **2018**; SAI est. **1984**; IOA est. **1927**, President **P.T. Usha**.
+> Karnataka topped on golds (23) though Odisha won more medals (57).
+# Commonwealth Games 2026 – Glasgow
+- **Glasgow**, 23 July – 2 August 2026.
+- India's **Chef de Mission: Rohit Rajpal** (Davis Cup captain; AITA Vice-President); Deputy **Ravi Bengani**.
+- IOA: President **P.T. Usha**, CEO **Raghuram Iyer**.
+- **First CWG: Hamilton, Canada, 1930** (not 1934); held every **4 years**; Commonwealth has **56** members.
+# Asian Games hosting
+| Edition | Host |
+|---|---|
+| 2030 | Doha |
+| 2034 | Riyadh |
+| 2038 | India submitted Expression of Interest; OCA decision due 2028 |
+- India hosted the Asian Games in **1951** and **1982**. OCA: est. **1982**, HQ **Kuwait City**.
+~~ Sources: Rocket CA 2026 Part 02 p.190 (Khelo India Tribal Games: Karnataka 23 gold, Odisha 57 medals, mascot Morveer); Praveen CA-360 2026 Apr magazine p.50-51; May magazine p.77-78; app notes 6:99 sub 3
+=== Athletics, Records and Firsts
+# Gurindervir Singh – 100 m national record
+- **10.09 s** on **23 May 2026** at the **29th National Senior Athletics Federation Cup, Ranchi** (Birsa Munda Athletics Stadium).
+- **First Indian under 10.10 s**.
+- Record broken **three times in 48 hours**: Gurindervir 10.17 (semis) → **Animesh Kujur** 10.15 → Gurindervir 10.09 (final).
+- AFI (est. 1946, New Delhi) – national governing body for athletics.
+# London Marathon 2026 – first sub-two-hour marathon
+- **26 April 2026**: **Sebastian Sawe (Kenya)** – **1:59:30**, the **first official sub-two-hour marathon**.
+- 2nd **Yomif Kejelcha** (Ethiopia); 3rd **Jacob Kiplimo** (Uganda) 2:00:28.
+- Previous world record **2:00:35** – **Kelvin Kiptum** (2023). Marathon distance **42.195 km**.
+# Everest records
+| Climber | Summits | Record |
+|---|---|---|
+| Kami Rita Sherpa | 32nd | Men's record; first climbed 1994 |
+| Lhakpa Sherpa | 11th | Women's record |
+- Everest: **8,849 m**, Nepal–China border; K2 second-highest (Pakistan–China).
+# Para athletics
+- **World Para Athletics Grand Prix 2026, New Delhi** (Jawaharlal Nehru Stadium): **India topped with 208 medals** (75 G, 69 S, 64 B); Russia 35; Bosnia & Herzegovina 3.
+- **24th National Para Athletics Championships**, Kalinga Stadium, Bhubaneswar: **Haryana** first (95 medals, 39 G); Tamil Nadu 51; Gujarat 30. PCI est. 1994.
+# Other records
+- **Sourabh Kothari** retained the **IBSF World Billiards** title, beating **Pankaj Advani 1133–477**; defended his 2025 title; father Manoj Kothari was also world champion. IBSF: est. 1971, HQ Doha; cue sports = English Billiards, Snooker, Pool.
+~~ Sources: Praveen CA-360 2026 Mar magazine p.57; Apr magazine p.53; May magazine p.76, p.79-80; app notes 6:99 sub 4
+=== Weightlifting, Boxing and Wrestling
+# Asian Weightlifting Championships 2026 – Gandhinagar
+- **Mahatma Mandir Convention Centre, Gandhinagar**, 11–17 May 2026; **54th** edition (men), **35th** (women).
+- **India: 10 medals** – 1 silver, 9 bronze. **Gyaneshwari Yadav** – **silver** (women's 53 kg snatch) and bronze in the total.
+- **China topped – 41 medals** (21 G, 12 S, 8 B); then North Korea, Chinese Taipei.
+- IWF: est. 1905, HQ Lausanne.
+# Boxing
+| Event | Result |
+|---|---|
+| Asian U15 Boxing Championships, Tashkent | India record 27 medals (9 G, 6 S, 12 B); girls topped with 7 gold (7-2-5); boys 13 medals (2-4-7) |
+| Asian Boxing Championships, Ulaanbaatar (Mongolia) | India 16 medals (5 G, 3 S, 8 B) – second; Kazakhstan topped |
+- U15 event organised by **Asian Boxing Confederation (ASBC, HQ Dubai)**; U15 = below 15 years.
+- **Vishwanath Suresh** (50 kg) beat Daichi Iwai 5–0 – India's first men's Asian title in 5 years.
+# Asian Wrestling Championships 2026 – Bishkek
+- **22nd edition**, Bishkek, 6–12 April 2026. **India 5th – 17 medals** (2 G, 6 S, 9 B); **Iran** topped (6 gold).
+- Gold: **Sujeet Kalkal** (65 kg freestyle), **Abhimanyu Mandwal** (70 kg freestyle). UWW: est. 1912, Switzerland.
+~~ Sources: Praveen CA-360 2026 May magazine p.79; Apr magazine p.50-51; app notes 6:99 sub 5
+=== Shooting, Archery and Squash
+# Shooting
+- **ISSF Junior World Cup, Cairo:** India topped – 16 medals (5 G, 6 S, 5 B).
+- **ISSF World Cup, Granada (Spain):** **Palak & Mukesh Nelavalli** – gold, **10 m air pistol mixed team**, **487.7** (world & junior world record).
+- **Para shooting to move from IPC to ISSF:** ISSF–IPC agreement (April 2026); Para Shooting (now World Shooting Para Sport under IPC) to shift to ISSF; needs approval at 2026 General Assembly; new system from **2027**, transition 2027–28, before **LA Paralympics 2028**.
+# Archery
+- **Payal Nag** (18, Balangir, Odisha) – **world's first quadruple amputee to win an international archery gold**, at the **World Archery Para Series, Bangkok** (April 2026); she beat **Sheetal Devi 139–136** in the women's compound final. India topped the Bangkok event with **7 gold**.
+- **Sheetal Devi** – **World Archery Para Archer of the Year 2025**; at the 2025 World Para Archery Championships, **Gwangju** (South Korea): gold individual compound, silver women's team, bronze mixed team.
+- World Archery: est. **1931** (formerly FITA, renamed 2011), HQ Lausanne, President Greg Easton; annual awards since 2011.
+- **Asia Cup Archery 2027:** second leg in **New Delhi** – first international archery event in India in **22 years** (since 2005); AAI President **Arjun Munda**. Other 2026 events: Asian Para Archery – **Ahmedabad**; South Asian Archery – **Kolkata**.
+# Squash – Asia Squash Federation Awards (31 March 2026)
+- **Abhay Singh** – Asia's Best Male Player 2025; **Anahat Singh** – Best Female (Junior); India boys' team – Best Team.
+- ASF est. 1975, Hong Kong; WSF 1967; SRFI 1977, Chennai.
+~~ Sources: Praveen CA-360 2026 Mar magazine p.11; Apr magazine p.51-52; app notes 6:99 sub 6
+=== Hockey, Football and Other Sports
+# Hockey India Annual Awards 2025 (27 March 2026, New Delhi)
+| Award | Winner | Prize |
+|---|---|---|
+| Balbir Singh Sr. Player of the Year | Hardik Singh (men), Navneet Kaur (women) | ₹20 lakh each |
+| Major Dhyan Chand Lifetime Achievement | Zafar Iqbal | ₹25 lakh |
+| Jugraj Singh Award (Men U-21) | Prince Deep Singh | ₹10 lakh |
+| Asunta Lakra Award (Women U-21) | Sakshi Rana | ₹10 lakh |
+| Goalkeeper of the Year | Bichu Devi Kharibam | – |
+| Best Member Unit | Jharkhand Hockey Unit | ₹2.5 lakh |
+- Hockey India: est. 2009, New Delhi; President **Dilip Tirkey**.
+# Hockey history and retirements
+- Book **"India's Olympic Gold: Hockey Triumph at Amsterdam"** by **K. Arumugam** (his 16th book); published by **Stick to Hockey**; unveiled by **P.T. Usha** and **Dilip Tirkey**, New Delhi. Marks **98 years** of India's first Olympic hockey gold – **1928 Amsterdam**, beat the Netherlands in the final.
+- **Major Dhyan Chand** – "Wizard of Hockey"; birth anniversary **29 August = National Sports Day**.
+- **Gurjant Singh** retired 27 March 2026 – 130 matches, 33 goals; bronze Tokyo 2020 and Paris 2024; gold Hangzhou 2022.
+- **India–New Zealand sports centenary:** ties began **1926** with an **Indian Army hockey tour** (not football).
+# Football
+- **SAFF U-20 Championship, Male (3 April 2026):** **Bangladesh beat India 4–3 on penalties** (0–0) – their **second** title.
+- **FIFA Women's Football Development:** India among **12** countries selected. FIFA President Gianni Infantino.
+# Motorsport, cycling, volleyball, table tennis
+- **F1 Sim Racing India Open 2026** – **India's first official Formula 1 Sim Racing Championship**, the first F1-approved national sim racing competition; launched by Formula 1 and **Mumbai Falcons Racing Limited** (holds organising rights). F1 est. 1950, governed by **FIA** (est. **1904**, HQ **Paris**). **Indian Grand Prix** held at **Buddh International Circuit** 2011–2013.
+- **Cycling League of India** – **first franchise road-cycling league**; unveiled in **Ahmedabad** by Mansukh Mandaviya; **8 teams**; to be held November 2026.
+- **Volleyball Federation of India:** **FIVB** revoked its recognition; FIVB–IOA steering committee set up.
+- **Commonwealth Table Tennis Championships 2026:** **22nd edition**, 27 July – 2 August 2026, **Thyagaraj Stadium, New Delhi**; 35+ countries. **TTFI est. 1926** (not 1971); ITTF HQ Lausanne.
+~~ Sources: Praveen CA-360 2026 Mar magazine p.12, p.58; Apr magazine p.50, p.52; May magazine p.77, p.81, p.88; Rocket CA 2026 Part 02 p.33 (Hockey India awards: Hardik Singh, Navneet Kaur, Bichu Devi Kharibam)
+=== Sports Governance, Bodies and Anti-doping
+# National Sports Board and Tribunal Rules, 2026
+- Notified under the **National Sports Governance Act, 2025**; Sports Minister **Mansukh Mandaviya**.
+- The Act set up the **National Sports Board** and **National Sports Tribunal** (appeals from the Tribunal go to the **Supreme Court**).
+| Body | Composition / term |
+|---|---|
+| National Sports Board | Recognises NSFs; Chairperson + 2 members; 3-year term, max age 65 |
+| National Sports Tribunal | Chair 4 years / age 70; members 4 years / age 67; online filing, virtual hearings |
+- **Sport = Entry 33, State List**.
+# Anti-doping and IOC policy
+- **NADA** imposed a **seven-year ban** on discus thrower **Banveer Singh** (earlier 5-year suspension extended by 2 years); he was second at the Indian Grand Prix, Bhubaneswar (2022).
+- Long-distance runner **Harendra Kumar** – **additional four-year ban**.
+- NADA: est. 2005, New Delhi, under Ministry of Youth Affairs and Sports. WADA: est. 1999, HQ **Montreal**.
+- **IOC policy:** bars transgender women from women's events. IOC est. **1894**, Lausanne.
+# Sports bodies – founding year and HQ
+| Body | Founded | HQ / head |
+|---|---|---|
+| IOC | 1894 | Lausanne |
+| FIA (Formula 1) | 1904 | Paris |
+| IWF | 1905 | Lausanne |
+| ISSF | 1907 | Munich; President Luciano Rossi |
+| ICC | 1909 | Dubai |
+| UWW | 1912 | Switzerland |
+| FIDE | 1924 | Lausanne; Arkady Dvorkovich |
+| TTFI | 1926 | – |
+| IOA | 1927 | President P.T. Usha |
+| BCCI | 1928 | Mumbai; Mithun Manhas |
+| World Archery | 1931 | Lausanne |
+| AFI | 1946 | New Delhi |
+| IBSF | 1971 | Doha |
+| Asian Athletics Association | 1973 | Doha; Dahlan Al Hamad |
+| OCA | 1982 | Kuwait City |
+| SAI | 1984 | New Delhi |
+| IPC | 1989 | Bonn; Andrew Parsons |
+| PCI | 1994 | – |
+| WADA | 1999 | Montreal |
+| NADA | 2005 | New Delhi |
+| Hockey India | 2009 | New Delhi; Dilip Tirkey |
+- **Arjuna Award** instituted **1961**.
+- **Lodha Committee (BCCI):** proposed **legalising betting**, one state one vote, age and tenure limits.
+~~ Sources: Praveen CA-360 2026 Mar magazine p.57; May magazine p.78, p.81; app notes 6:99 sub 8
+=== Hosting Rights and Venues
+| Event | Host / venue |
+|---|---|
+| 2027 Asian Relays (3rd edition) | Sector-7 Sports Complex, Chandigarh – men's, women's and mixed 4×100 m and 4×400 m |
+| 2028 Asian Indoor Athletics Championships | Kalinga Stadium Indoor Athletics Centre, Bhubaneswar – India hosts it for the first time since 2004 |
+| 2027 World Para Athletics Championships (13th, June 2027) | Tashkent – first in Central Asia |
+| Commonwealth Games 2026 | Glasgow |
+| Commonwealth TT Championships 2026 | Thyagaraj Stadium, New Delhi |
+| Asian Weightlifting Championships 2026 | Gandhinagar |
+| World Para Athletics Grand Prix 2026 | New Delhi |
+| Asia Cup Archery 2027 (2nd leg) | New Delhi |
+| 2030 / 2034 Asian Games | Doha / Riyadh |
+- The 2027–28 athletics awards were decided at the **Asian Athletics Association Council** meeting, Hong Kong; AFI bid in 2025.
+~~ Sources: Praveen CA-360 2026 May magazine p.77-78; Apr magazine p.51; app notes 6:99 sub 9
