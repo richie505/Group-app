@@ -183,8 +183,8 @@
 - **16th India-Japan Annual Summit (1–3 July 2026)**: **New Delhi**, with PM **Sanae Takaichi**; **Joint Declaration on Economic Security** (five sectors).
 - **4th India-Africa Forum Summit** postponed (May 2026) due to an **Ebola outbreak in DR Congo and Uganda** (WHO PHEIC).
 - **India-Central Asia Summit**: first held **virtually on 27 January 2022**; adopted the **Delhi Declaration**.
-- **India-Vietnam (1 Aug 2024)**: India announced **US$300 million** credit lines for **Vietnam's maritime security** (PM Pham Minh Chinh's visit).
-~~ Sources: Rocket CA 2026 Part 01 p.223 (NATO Summit Ankara, 7–8 July 2026), p.56 (16th India-Japan summit, Takaichi, 1–3 July); web: abcnews.go.com AP wire (India-Vietnam US$300 million, Aug 2024); app notes 6:57 sub 3
+- **India-Vietnam (1 Aug 2024)**: India announced **US$300 million** credit lines for **Vietnam's maritime security** (PM Pham Minh Chinh's visit) – ⚠ Trap: million, not billion.
+~~ Sources: Rocket CA 2026 Part 01 p.223 (NATO Summit Ankara, 7–8 July 2026), p.56 (16th India-Japan summit, Takaichi, 1–3 July); web: abcnews.go.com AP wire (India-Vietnam US$300 million, Aug 2024); web: en.wikipedia.org/wiki/Group_of_Eight (Russia from 1997, formally 1998); app notes 6:57 sub 3
 === Regional Forums – SAARC, Mekong Ganga, IBSA, NAM, CICA
 | Forum | Key facts |
 |---|---|
