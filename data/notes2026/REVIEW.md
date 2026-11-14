@@ -702,3 +702,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y62bd619ebdc TTD Asthana Vidwan 2010 left -1 (no source).
 - Check first: yd54082614cd Lata Mangeshkar TTD Asthana Vidwan; y6f599638962 Kadapa banana ODOP (2025 list says barytes). 13 printed-unverified in all.
 - Nori Dattatreyudu Padma Bhushan 2026 listed under USA in Rocket; app MCQ f21368003e9ff keeps AP. Removed wrong Taneti Vanita "Home Minister" claim.
+
+## b6-r034 (CA rows 34, 36 economy)
+- No PYQ key changes. Own MCQ g17a23f046f90 PM E-DRIVE outlay: add_option ₹10,900 crore (₹10,000 cr was FAME-II).
+- e-2W subsidy end date 31 Jul 2026 (Praveen) vs 31 Mar 2028 (PMF Aug 2026). APEDA as NPOP secretariat (certifies via accredited agencies).

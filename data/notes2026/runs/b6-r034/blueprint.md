@@ -37,7 +37,6 @@ Data: 2 PYQs (keys.jsonl), 434 app MCQs, 436 in all (all-mcqs.json). Counts from
 | 34 | 8 | Banking, Credit, Insurance and Savings | 38 |
 | 34 | 9 | External Sector – Trade, Remittances, CBAM | 18 |
 | 34 | 10 | Sectors and Schemes – Agriculture, Industry, Transport | 47 (1) |
-| 34 | 11 | Quick Revision – Numbers and Firsts | 0 |
 | 36 | 0 | GST 2.0 – 56th GST Council (September 2025) | 24 |
 | 36 | 1 | RBI Monetary Policy and Prices | 12 |
 | 36 | 2 | Key Data Releases, Surveys and Growth Projections | 14 |
@@ -49,10 +48,9 @@ Data: 2 PYQs (keys.jsonl), 434 app MCQs, 436 in all (all-mcqs.json). Counts from
 | 36 | 8 | Energy and Power Sector | 33 |
 | 36 | 9 | Agriculture, Dairy, Green Economy and AP Angle | 30 (1) |
 | 36 | 10 | Union Budget 2025-26 and Economic Survey 2024-25 (in Force During This Period) | 7 |
-| 36 | 11 | Quick Revision – Numbers and Firsts | 0 |
 
 ## 3. What changed from the old notes
-- Dropped the "APPSC Previous Year Questions" meta-table and the "High-probability MCQ Traps" lists (facts kept in their topic sub-sections).
+- Dropped the "APPSC Previous Year Questions" meta-table, the "Number Game" tables (no MCQ mapped to them) and the "High-probability MCQ Traps" lists (facts kept in their topic sub-sections).
 - PM E-DRIVE: outlay corrected **₹10,000 → ₹10,900 crore**; components and what the scheme does NOT fund added (PYQ); e-2W subsidy later extended to 31 Mar 2028 (PMF LENS Aug 2026).
 - Organic certification bullet (NPOP – APEDA secretariat; PGS-India; LAC) added (PYQ).
 - Chokepoint line turned into a proper table; April 2026 repo line carries "now 5.50% (Oct 2026)".
