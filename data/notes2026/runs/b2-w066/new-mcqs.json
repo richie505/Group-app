@@ -20,11 +20,11 @@
   "s": "Consider the following statements:\n1. In the 9th Lok Sabha (1989) the Congress, with 197 seats, was the largest party but sat in opposition.\n2. In the 2004 Lok Sabha election the Congress won no seat in Kerala for the first time as the UDF swept the State.\n3. In 2004 the Congress won 145 seats and the CPI(M) 43.\n4. Within the UPA of 2004 the RJD, with 24 seats, was the largest party after the Congress.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
-   "Only two",
    "Only three",
+   "Only two",
    "All four"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Three are correct. 2 is wrong: in 2004 it was the CPI(M)-led LDF that swept Kerala, leaving the Congress (which leads the UDF) without a seat there for the first time. 1989: Congress 197, Janata Dal 143, BJP 85; 2004: Congress 145, BJP 138, CPI(M) 43; RJD 24 was the second largest UPA party, DMK 16.",
   "src": "app",
   "tq": "statements"
@@ -95,11 +95,11 @@
   "s": "Consider the following statements:\n1. The Janata Party of 1977, a merger of the Congress (O), Jana Sangh, BLD and Socialists, formed the first non-Congress government at the Centre under Morarji Desai.\n2. Strictly, the first formal multi-party coalition at the Centre was the United Front of 1996.\n3. Though the CPI ministry of E.M.S. Namboodiripad in Kerala (1957) is the usual answer for the first non-Congress State government, PEPSU's United Front ministry of 1952 came earlier.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only",
-   "1 and 2 only"
+   "2 and 3 only"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: Janata (1977-79) was one merged party with its own majority (295); strictly, the first formal multi-party coalition was the National Front (1989). PEPSU's United Front ministry was headed by Gian Singh Rarewala (April 1952).",
   "src": "app",
   "tq": "statements"
@@ -124,12 +124,12 @@
   "row": 66,
   "s": "Consider the following statements about coalition governments at the Centre:\n1. The UPA governed on a National Common Minimum Programme, with the CPI and CPI(M) supporting it from outside in 2004-08.\n2. The common policy document of the BJP-led NDA was the 'National Agenda for Governance'.\n3. Coalition partners at the Centre coordinated through the Inter-State Council, criticised as a 'super-cabinet'.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1 and 2 are correct. 3 is wrong: besides the common programme, partners coordinated through a coordination committee – it is this body that critics called a 'super-cabinet', not the Inter-State Council.",
   "src": "app",
   "tq": "statements"
@@ -171,11 +171,176 @@
   "o": [
    "Only one",
    "Only two",
+   "All four",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "Three are correct. 3 is wrong: the lowest tally was 26 seats in 1994 against NTR's TDP (1983 – 60, 1985 – 50, 1999 – 91).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbbaca1311c00",
+  "row": 67,
+  "s": "Match List-I (Party) with List-II (Founder):\nList-I | List-II\na. Telangana Rashtra Samithi (2001) | i. K. Chandrashekar Rao\nb. Lok Satta Party (2006) | ii. Manda Krishna Madiga\nc. Mahajana Socialist Party (2014) | iii. Y.S. Sharmila\nd. YSR Telangana Party (2021) | iv. Jayaprakash Narayan\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "TRS (now BRS) – K. Chandrashekar Rao, 2001; Lok Satta – Jayaprakash Narayan (ex-IAS), 2006; Mahajana Socialist Party – Manda Krishna Madiga, founder of the MRPS, 2014; YSR Telangana Party – Y.S. Sharmila, 8 July 2021.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp22bf61e343b4",
+  "row": 67,
+  "s": "Consider the following statements:\n1. The Praja Rajyam Party, founded by Chiranjeevi at Tirupati in August 2008, won 18 seats in the 2009 Andhra Pradesh election.\n2. The Praja Rajyam Party merged with the Telugu Desam Party in 2011.\n3. The YSR Telangana Party, launched in Hyderabad on 8 July 2021, merged with the Congress in January 2024.\n4. The YSR Congress Party had 9 members in the Rajya Sabha in July 2023.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
    "Only three",
    "All four"
   ],
   "a": 2,
-  "x": "Three are correct. 3 is wrong: the lowest tally was 26 seats in 1994 against NTR's TDP (1983 – 60, 1985 – 50, 1999 – 91).",
+  "x": "Three are correct. 2 is wrong: the Praja Rajyam Party (18 seats, over 16% votes in 2009) merged with the Congress in 2011, not the TDP. The YSR Telangana Party also merged with the Congress (not the BJP) in January 2024.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp50e577375706",
+  "row": 67,
+  "s": "Consider the following statements about the Telugu Desam Party:\n1. N.T. Rama Rao founded it on 29 March 1982 on the plank of Telugu atma gauravam (Telugu self-respect).\n2. It won power within nine months, in January 1983, ending the Congress's unbroken rule in the State since 1962.\n3. In 1988 N.T. Rama Rao became chairman of the National Front, which formed the V.P. Singh government in 1989.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: the January 1983 victory ended the Congress's unbroken rule since 1956, not 1962.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2d8d2f7cbb70",
+  "row": 67,
+  "s": "Consider the following statements:\nAssertion (A): The opposition's censure motion on Gujarat, voted on 1 May 2002, was defeated in the Lok Sabha.\nReason (R): The BSP voted in favour of the censure motion.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: the motion was defeated 276-182. R is false: the BSP voted against the motion; the TDP (backing the NDA from outside) walked out before the vote, and the AIADMK and National Conference abstained.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp2ca332bee2c8",
+  "row": 67,
+  "s": "Consider the following statements:\nAssertion (A): The Telugu Desam Party left the NDA in 2018.\nReason (R): Special Category Status was not granted to the residuary State of Andhra Pradesh.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the TDP quit the NDA in 2018 over Special Category Status for residuary AP; it returned to the NDA in 2024 and leads AP's ruling coalition with BJP and Jana Sena support.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3a694e8c8e63",
+  "row": 67,
+  "s": "Match List-I (Party) with List-II (Founder):\nList-I | List-II\na. DMK (1949) | i. C.N. Annadurai\nb. AIADMK (1972) | ii. Mamata Banerjee\nc. Samajwadi Party (1992) | iii. M.G. Ramachandran\nd. All India Trinamool Congress (1998) | iv. Mulayam Singh Yadav\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 1,
+  "x": "DMK – C.N. Annadurai, 1949; AIADMK – M.G. Ramachandran, 1972; Samajwadi Party – Mulayam Singh Yadav, 1992; AITC – Mamata Banerjee, 1998.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb0f52fd57141",
+  "row": 67,
+  "s": "Consider the following statements:\n1. The Shiromani Akali Dal was formed at Amritsar in December 1920 with Master Tara Singh as its first president.\n2. The Asom Gana Parishad was launched at Golaghat on 14 October 1985 with Prafulla Kumar Mahanta at its head.\n3. The DMK, founded in 1949, originally demanded Dravidanadu and formed the Tamil Nadu government in 1967 under C.N. Annadurai.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: the first president of the Shiromani Akali Dal (Amritsar, 14 December 1920) was Sarmukh Singh Jhabal. The AGP won the 1985 Assam election after the Assam Accord.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp89c2f4f4690e",
+  "row": 67,
+  "s": "Consider the following statements:\n1. The first general elections in India were held in 1951-52.\n2. Lok Sabha and Assembly elections were held simultaneously in the first four general elections, the last of them in 1971.\n3. Critics fear that 'One Nation, One Election' would weaken regional parties.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only two",
+   "Only one",
+   "All three",
+   "None"
+  ],
+  "a": 0,
+  "x": "Two are correct (1 and 3). 2 is wrong: the four simultaneous elections were 1951-52, 1957, 1962 and 1967; the cycle broke after 1967.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpca6c09c3aa37",
+  "row": 67,
+  "s": "Consider the following statements about regional parties (Laxmikanth's classification):\n1. The Akali Dal, DMK, Telugu Desam and Asom Gana Parishad are parties based on regional culture or ethnicity.\n2. The BJD, RJD, Trinamool Congress and YSR Congress arose as splits from national parties.\n3. Regional economic neglect and the failure of national parties to meet regional aspirations are among the causes of their rise.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 0,
+  "x": "All three are correct. The classification also has parties with an all-India outlook but no national base (Samajwadi Party, NCP) and short-lived personalised parties; causes of rise include economic disparities and regional imbalance, linguistic reorganisation and Congress centralisation.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpba38ba6d0e62",
+  "row": 67,
+  "s": "Match List-I (Autonomy document / body) with List-II (Year):\nList-I | List-II\na. Rajamannar Committee set up by the DMK government | i. 2025\nb. Report of the Rajamannar Committee | ii. 1971\nc. Anandpur Sahib Resolution of the Akali Dal | iii. October 1973\nd. Justice Kurian Joseph High-Level Committee of Tamil Nadu | iv. 1969\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "Rajamannar Committee – set up 1969 by the DMK government of Tamil Nadu (CM M. Karunanidhi), report 1971; Anandpur Sahib Resolution – Shiromani Akali Dal, October 1973; Justice Kurian Joseph Committee – Tamil Nadu under M.K. Stalin, 2025.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7af7b7381f46",
+  "row": 67,
+  "s": "Consider the following statements about regional parties:\n1. In coalition politics they have acted as kingmakers, supplying Speakers, Union Ministers and survival votes.\n2. The BJP defeated the Biju Janata Dal in Odisha in 2024 and the AAP in Delhi in 2025.\n3. The BJP defeated the Trinamool Congress in West Bengal in 2021.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: the BJP defeated the Trinamool in West Bengal in 2026, not 2021.",
   "src": "app",
   "tq": "statements"
  }

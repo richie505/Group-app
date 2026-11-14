@@ -1233,3 +1233,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 380 → 41 kept + 87 new (128, 34%); new 54 statements / 22 match / 11 A–R; no lines lost.
 - Row 59 notes conflict: median age 2020 India 29 / Japan 48 (0:7) vs India 28 / Japan 45 (1:1); kept own f1306036f422d uses Japan 45 — reconcile.
 - nfe8589ae578 (Nellore most populous on 28-district map) fixed to 26-district map per notes 58:4:4; ge6d746ade890 (Polavaram/Markapuram) removed as not in row 58 notes.
+
+## rewrite b3-w079 (rows 79–82)
+- own 417 → 89 kept + 74 new (163, 39%); new 45 statements / 21 match / 8 A–R; 1 of 284 lines lost.
+- Notes conflict: ₹500 note printing cost ~₹4 (81:0:6.0) vs ₹2.87–3.09 (80:4:13) — reconcile.
+- 81:7:2 CRR cut to 3% dated "Dec 2025": announced 6 June 2025, phased Sep–Nov 2025 — fix wording.

@@ -5,11 +5,11 @@
   "s": "Consider the following statements about Lord Mayo (1869-72):\n1. The first census of 1872, held under him, was a synchronous census covering all areas at once.\n2. His Resolution of 1870 began financial decentralisation in British India.\n3. Rajkot College in Kathiawar and Mayo College at Ajmer were set up for the princes in his time.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
-   "2 and 3 only",
+   "1, 2 and 3",
    "1 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "2 and 3 are correct. 1 is wrong: the 1872 census under Mayo was the first but non-synchronous; the regular synchronous decennial census began in 1881 under Ripon.",
   "src": "app",
   "tq": "statements"
@@ -20,11 +20,11 @@
   "s": "Consider the following statements about Sir John Lawrence (1864-69):\n1. He followed the policy of 'Masterly Inactivity', i.e. non-interference in Afghanistan.\n2. The High Courts at Calcutta, Bombay and Madras were set up in 1866 during his tenure.\n3. The Bhutan (Duar) War was fought during his viceroyalty.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1, 2 and 3",
+   "1 and 3 only",
    "2 and 3 only",
-   "1 and 3 only"
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: the High Courts at Calcutta, Bombay and Madras came in 1865; 1866 is the year of the Allahabad High Court.",
   "src": "app",
   "tq": "statements"
@@ -34,12 +34,12 @@
   "row": 172,
   "s": "Match List-I (Viceroy) with List-II (Event / measure):\nList-I | List-II\na. Sir John Lawrence | i. Shimla declared the summer capital (1864)\nb. Elgin I | ii. Third Anglo-Burmese War (1885)\nc. Northbrook | iii. Wahabi movement\nd. Dufferin | iv. Income tax abolished\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii",
    "a-i, b-ii, c-iv, d-iii",
-   "a-i, b-iii, c-iv, d-ii",
-   "a-i, b-iv, c-ii, d-iii"
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Lawrence declared Shimla the summer capital in 1864; the Wahabi movement belongs to Elgin I (1862-63); Northbrook (1872-76) abolished income tax; the Third Anglo-Burmese War and annexation of Upper Burma came under Dufferin.",
   "src": "app",
   "tq": "match"
@@ -49,12 +49,12 @@
   "row": 172,
   "s": "Consider the following statements about Lord Canning (1856-62):\n1. He was the last Governor-General under the Company and the first Viceroy.\n2. Universities were established at Calcutta, Bombay and Madras in 1857 during his tenure.\n3. The Allahabad High Court was set up during his tenure.\n4. Under the Indian Councils Act, 1861 the Raja of Benaras, the Maharaja of Patiala and Sir Dinkar Rao were nominated to the Legislative Council.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only three",
+   "Only one",
    "Only two",
-   "Only one"
+   "Only three",
+   "All four"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Three are correct. Statement 3 is wrong: the Allahabad High Court came in 1866, after Canning's term (1856-62).",
   "src": "app",
   "tq": "statements"
@@ -64,28 +64,28 @@
   "row": 172,
   "s": "Consider the following statements about Lord Lytton (1876-80):\n1. The Royal Titles Act, 1876 gave Queen Victoria the title 'Kaiser-i-Hind'.\n2. He reduced the maximum age for the ICS examination from 21 to 19.\n3. The Treaty of Gandamak (1879) was concluded during the Second Afghan War in his time.\n4. The Arms Act of 1878 was passed during the viceroyalty of Ripon.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "1, 2 and 3 only",
+   "1 and 2 only",
    "2, 3 and 4 only",
    "1, 2, 3 and 4"
   ],
-  "a": 1,
+  "a": 0,
   "x": "1, 2 and 3 are correct. 4 is wrong: the Arms Act and the Vernacular Press Act (both 1878) were Lytton's; Ripon repealed the VPA in 1882.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp46f7c2629232",
+  "id": "cp9651fd421fd8",
   "row": 172,
-  "s": "Consider the following statements:\nAssertion (A): The Ilbert Bill (1883) provoked an agitation by Europeans in India known as the 'White Mutiny'.\nReason (R): The Ilbert Bill sought to allow Indian judges to try Europeans.\nSelect the correct answer using the codes given below:",
+  "s": "Consider the following statements:\nAssertion (A): The Ilbert Bill (1883), which let Indian judges try Europeans, provoked a European agitation known as the 'White Mutiny'.\nReason (R): Lord Ripon repealed the Vernacular Press Act of 1878 in 1882.\nSelect the correct answer using the codes given below:",
   "o": [
    "Both A and R are true, and R is the correct explanation of A",
    "Both A and R are true, but R is not the correct explanation of A",
    "A is true, but R is false",
    "A is false, but R is true"
   ],
-  "a": 0,
-  "x": "Both are true and R explains A: because the Bill let Indian judges try Europeans, the Europeans agitated against it (the 'White Mutiny'), exposing racial discrimination in the courts.",
+  "a": 1,
+  "x": "Both are true but R does not explain A: the 'White Mutiny' was the Europeans' reaction to Indian judges trying Europeans, exposing racial discrimination in the courts; the repeal of Lytton's VPA (1882) is a separate liberal measure of Ripon.",
   "src": "app",
   "tq": "assertion"
  },
@@ -95,11 +95,11 @@
   "s": "Consider the following statements about the Factory Acts:\n1. The First Factory Act (1881), under Ripon, barred children below 7 years from factory work.\n2. The early nationalists (Moderates) strongly supported the Factory Acts of 1881 and 1891.\n3. The Second Factory Act (1891), under Lansdowne, limited women to 11 hours a day with a 1½-hour break.\nWhich of the statements given above is/are NOT correct?",
   "o": [
    "1 only",
+   "2 and 3 only",
    "3 only",
-   "2 only",
-   "2 and 3 only"
+   "2 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Only 2 is NOT correct: the demand came from the Lancashire lobby and the early nationalists did not support the Acts of 1881 and 1891, fearing loss of Indian industry's edge. 1 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -109,12 +109,12 @@
   "row": 172,
   "s": "Consider the following statements about Lord Ripon (1880-84):\n1. He was sent to India by Gladstone's Liberal government.\n2. The Hunter Commission (1882) appointed by him examined irrigation.\n3. In 1882 the revenue heads were divided into imperial, provincial and divided heads.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
+   "1 and 3 only",
    "1 and 2 only",
-   "2 and 3 only",
-   "1 and 3 only"
+   "1 only",
+   "2 and 3 only"
   ],
-  "a": 3,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: the Hunter Commission (1882) dealt with education; irrigation was the Scott-Moncrieff Commission (1901) under Curzon.",
   "src": "app",
   "tq": "statements"
@@ -139,12 +139,12 @@
   "row": 172,
   "s": "Consider the following statements about Lord Curzon's viceroyalty:\n1. The Partition of Bengal came into force on 16 October 1905.\n2. The Partition was annulled in 1911 after the Swadeshi / Vande Mataram agitation.\n3. The North-West Frontier Province was created in 1905.\n4. The Indian Universities Act was passed in 1904.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only three",
+   "Only one",
    "Only two",
-   "Only one"
+   "Only three",
+   "All four"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Three are correct. Statement 3 is wrong: Curzon created the NWFP in 1901, not 1905.",
   "src": "app",
   "tq": "statements"
@@ -155,11 +155,11 @@
   "s": "Consider the following statements about the Archaeological Survey of India (ASI) today:\n1. It is an attached office of the Ministry of Culture.\n2. Its motto is 'Pratnakirti Apavarini'.\n3. The AMASR Act, 1958 protects monuments more than 50 years old.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1, 2 and 3",
    "2 and 3 only",
-   "1 and 2 only",
-   "1, 2 and 3"
+   "1 and 2 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1 and 2 are correct. 3 is wrong: the AMASR Act, 1958 protects monuments over 100 years old.",
   "src": "app",
   "tq": "statements"
@@ -169,12 +169,12 @@
   "row": 172,
   "s": "Match List-I (Event) with List-II (Year):\nList-I | List-II\na. Delhi Durbar proclaiming Queen Victoria | i. 1903\nb. Delhi Durbar for the coronation of Edward VII | ii. 1912\nc. Bihar and Orissa made a separate province | iii. 1877\nd. New Delhi inaugurated | iv. 1931\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-i, c-ii, d-iv",
    "a-iii, b-ii, c-i, d-iv",
-   "a-i, b-iv, c-ii, d-iii",
-   "a-iii, b-i, c-ii, d-iv"
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 3,
+  "a": 0,
   "x": "1877 Durbar – Victoria (Lytton); 1903 Durbar – Edward VII (Curzon); Bihar and Orissa a separate province in 1912; New Delhi (Lutyens and Baker) inaugurated in 1931.",
   "src": "app",
   "tq": "match"
@@ -184,12 +184,12 @@
   "row": 172,
   "s": "Consider the following statements:\n1. The Delhi Durbar of 1911, for George V, was the only Durbar attended by the monarch.\n2. The annulment of the Partition of Bengal and the transfer of the capital to Delhi were announced on 12 December 1911.\n3. The bomb thrown at Lord Hardinge II during his state entry into Delhi (1912) was thrown by the Chapekar brothers.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1 and 2 are correct. 3 is wrong: the bomb at Hardinge (23 Dec 1912) was thrown by Rash Behari Bose and Sachin Sanyal; the Chapekar brothers killed Rand and Ayerst in 1897.",
   "src": "app",
   "tq": "statements"
@@ -215,11 +215,11 @@
   "s": "Consider the following statements:\n1. The August Offer (1940) was made during Linlithgow's viceroyalty.\n2. The Cabinet Mission of 1946 consisted of Pethick-Lawrence, Cripps and A.V. Alexander.\n3. The Indian Independence Act was passed on 18 July 1947.\n4. 'The Viceroy's Journal' is the memoir of Lord Mountbatten.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
+   "1, 2, 3 and 4",
    "2, 3 and 4 only",
-   "1, 2 and 3 only",
-   "1, 2, 3 and 4"
+   "1, 2 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1, 2 and 3 are correct. 4 is wrong: 'The Viceroy's Journal' is Wavell's (1943-47).",
   "src": "app",
   "tq": "statements"
@@ -229,12 +229,12 @@
   "row": 172,
   "s": "Match List-I (Commission) with List-II (Subject):\nList-I | List-II\na. Scott-Moncrieff (1901) | i. Universities\nb. Andrew Frazer (1902) | ii. Irrigation\nc. Raleigh (1902) | iii. Police\nd. Durand (1893) | iv. Afghan boundary\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iii, c-i, d-iv",
    "a-i, b-iii, c-ii, d-iv",
    "a-ii, b-iv, c-i, d-iii",
-   "a-ii, b-iii, c-i, d-iv"
+   "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Scott-Moncrieff – irrigation, Frazer – police, Raleigh – universities (all under Curzon); Durand (1893, Lansdowne) – the Afghan boundary.",
   "src": "app",
   "tq": "match"
@@ -255,16 +255,46 @@
   "tq": "assertion"
  },
  {
+  "id": "cp5020fe8eb74d",
+  "row": 172,
+  "s": "Consider the following statements about the Indian Councils Acts:\n1. The Act of 1861, passed under Canning, allowed the Governor-General to issue Ordinances lasting at most six months.\n2. The portfolio system was introduced in Canning's time.\n3. The Indian Councils Act of 1892 was passed during the viceroyalty of Lord Elgin II.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the Indian Councils Act, 1892 was passed under Lord Lansdowne; Elgin II came after him (1894-99).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp80ec281511c2",
+  "row": 172,
+  "s": "Consider the following statements:\n1. The Wavell Plan and the Simla Conference failed in 1945.\n2. Mountbatten replaced Wavell after Attlee's statement of 20 February 1947.\n3. Lord Minto II was immediately followed as Viceroy by Lord Chelmsford.\n4. C. Rajagopalachari was the first and last Indian Governor-General.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Minto II (1905-10) was followed by Hardinge II (1910-16), and only then by Chelmsford (1916-21).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
   "id": "cp38fd29bb66bb",
   "row": 173,
   "s": "Consider the following statements about the Company's affairs before the Regulating Act:\n1. The Diwani of Bengal, Bihar and Orissa was granted in 1765 by Shah Alam II.\n2. The Act of 1767 obliged the Company to pay the British treasury £400,000 a year.\n3. In 1767 the Company's dividend was capped at 12 per cent.\n4. The Select Committee of 1772 that inquired into Company affairs was headed by Burgoyne.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only three",
+   "Only one",
    "Only two",
-   "Only one"
+   "Only three",
+   "All four"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Three are correct. Statement 3 is wrong: the 1767 Act raised / capped the dividend at 10 per cent, not 12.",
   "src": "app",
   "tq": "statements"
@@ -274,12 +304,12 @@
   "row": 173,
   "s": "With reference to the Regulating Act, 1773, consider the following statements:\n1. It made the Governor of Bengal the Governor-General of Bengal, the first being Warren Hastings.\n2. It subordinated the presidencies of Bombay and Madras to Bengal.\n3. The Supreme Court at Calcutta (1774) consisted of a Chief Justice and four other judges.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 and 2 only",
    "1 only",
    "2 and 3 only",
-   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "1 and 2 are correct. 3 is wrong: the Supreme Court at Calcutta had 1 Chief Justice (Sir Elijah Impey) and 3 other judges.",
   "src": "app",
   "tq": "statements"
@@ -304,12 +334,12 @@
   "row": 173,
   "s": "Match List-I (Act) with List-II (Provision):\nList-I | List-II\na. Regulating Act, 1773 | i. Supreme Court at Calcutta\nb. Act of Settlement, 1781 | ii. Board of Control\nc. Pitt's India Act, 1784 | iii. Governor-General empowered to override his Council\nd. Act of 1786 | iv. Governor-General and Council exempted from the Supreme Court for official acts\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
    "a-ii, b-iv, c-i, d-iii",
    "a-i, b-iii, c-iv, d-ii",
-   "a-i, b-ii, c-iv, d-iii"
+   "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1773 – Supreme Court at Calcutta; 1781 (Act of Settlement) – GG, Council and servants exempted from the Supreme Court for official acts; 1784 – Board of Control; 1786 – GG could override his Council (to meet Cornwallis's conditions).",
   "src": "app",
   "tq": "match"
@@ -319,12 +349,12 @@
   "row": 173,
   "s": "Consider the following statements about Pitt's India Act, 1784:\n1. It left political affairs with the Court of Directors and gave commercial affairs to the Board of Control.\n2. The Board of Control had six commissioners including the Chancellor of the Exchequer.\n3. The 'double government' it set up was ended by the Government of India Act, 1858.\n4. It reduced the Governor-General's council to three members.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "2, 3 and 4 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1, 3 and 4 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "2, 3 and 4 are correct. 1 is wrong: it was the reverse – the Board of Control handled political affairs and the Court of Directors kept commercial affairs.",
   "src": "app",
   "tq": "statements"
@@ -349,12 +379,12 @@
   "row": 174,
   "s": "Consider the following statements about the Charter Act of 1813:\n1. It ended the Company's monopoly of Indian trade, except in tea, opium and the China trade.\n2. It renewed the Company's charter for 40 years.\n3. It allowed missionaries to come to India, a cause pressed by Wilberforce and Charles Grant.\n4. It asserted the sovereignty of the British Crown over the Company's Indian territories.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only three",
+   "Only one",
    "Only two",
-   "Only one"
+   "Only three",
+   "All four"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Three are correct. Statement 2 is wrong: the 1813 Act renewed the charter for 20 years.",
   "src": "app",
   "tq": "statements"
@@ -364,12 +394,12 @@
   "row": 174,
   "s": "Consider the following statements about the Charter Act of 1833:\n1. It made the Governor-General of Bengal the Governor-General of India, the first being Lord William Bentinck.\n2. Laws made by the Governor-General-in-Council under it continued to be called Regulations.\n3. It ended the Company's remaining monopoly in tea and the China trade, making it a purely administrative body.\n4. Its Section 87 said no Indian was to be barred from office by religion, birth, descent or colour.\nWhich of the statements given above is/are NOT correct?",
   "o": [
-   "2 only",
    "1 only",
+   "2 only",
    "2 and 4 only",
    "3 and 4 only"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Only 2 is NOT correct: from 1833 the laws were called Acts (earlier they were Regulations). 1, 3 and 4 are correct.",
   "src": "app",
   "tq": "statements"
@@ -380,11 +410,11 @@
   "s": "Consider the following statements about the Law Member under the Charter Act of 1833:\n1. T.B. Macaulay was added to the Governor-General's Council as its fourth member, the Law Member.\n2. The Law Member's post is the origin of the Ministry of Law and Justice.\n3. The First Law Commission under Macaulay to codify Indian laws was set up in 1844.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
+   "1, 2 and 3",
    "2 and 3 only",
-   "1, 2 and 3"
+   "1 and 2 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "1 and 2 are correct. 3 is wrong: the First Law Commission under Macaulay was set up in 1834 (functioning 1834-38).",
   "src": "app",
   "tq": "statements"
@@ -410,11 +440,11 @@
   "s": "Consider the following statements about the Charter Act of 1853:\n1. It was the last Charter Act and renewed the Company's rule with no fixed term.\n2. It added six new legislative members, including the Chief Justice and members from Madras, Bombay, Bengal and Agra.\n3. It ended the Directors' patronage and introduced open competition for the civil services.\n4. The Macaulay Committee on the civil service that followed it was set up in 1858.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
-   "1, 3 and 4 only",
+   "1, 2 and 3 only",
    "2, 3 and 4 only",
-   "1, 2 and 3 only"
+   "1, 3 and 4 only"
   ],
-  "a": 3,
+  "a": 1,
   "x": "1, 2 and 3 are correct. 4 is wrong: the Macaulay Committee was appointed in 1854.",
   "src": "app",
   "tq": "statements"
@@ -424,12 +454,12 @@
   "row": 174,
   "s": "Match List-I (Act) with List-II (Step in constitutional development):\nList-I | List-II\na. Regulating Act, 1773 | i. Bombay and Madras subordinated to Bengal\nb. Pitt's India Act, 1784 | ii. Legislative power restored to Bombay and Madras\nc. Charter Act, 1853 | iii. Legislative Council with provincial members\nd. Indian Councils Act, 1861 | iv. Board of Control\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-iii, d-i",
-   "a-i, b-ii, c-iii, d-iv",
    "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
    "a-i, b-iii, c-ii, d-iv"
   ],
-  "a": 2,
+  "a": 0,
   "x": "1773 subordinated the presidencies; 1784 created the Board of Control; 1853 set up a Legislative Council with provincial members; 1861 reversed centralisation by restoring legislative power to Bombay and Madras.",
   "src": "app",
   "tq": "match"
@@ -440,11 +470,11 @@
   "s": "Match List-I (Development) with List-II (Year):\nList-I | List-II\na. Fort William College set up by Wellesley | i. 1800\nb. Haileybury replaced Fort William College | ii. 1806\nc. Raja Ram Mohan Roy's demand for Indians in the services | iii. 1835\nd. Macaulay's Minute on Education | iv. 1832\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-ii, c-iii, d-iv",
-   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
    "a-i, b-iv, c-iii, d-ii",
-   "a-ii, b-i, c-iv, d-iii"
+   "a-i, b-ii, c-iv, d-iii"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Fort William College – 1800; Haileybury – 1806; Raja Ram Mohan Roy's first demand for Indians in the services – 1832; Macaulay's Minute – 1835.",
   "src": "app",
   "tq": "match"
@@ -454,12 +484,12 @@
   "row": 175,
   "s": "Consider the following statements about the spread of the Ryotwari system:\n1. Its first experiment was made in the Baramahal in 1792 by Alexander Read, with Thomas Munro as his assistant.\n2. The Baramahal corresponds to the present Anantapur district.\n3. It was extended to the Bombay Presidency by Mountstuart Elphinstone after 1818.\n4. It was officially enforced in the whole Madras Presidency in 1820 by Munro as Governor.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1, 3 and 4 only",
    "1 and 3 only",
    "2, 3 and 4 only",
-   "1, 3 and 4 only",
    "1, 2, 3 and 4"
   ],
-  "a": 2,
+  "a": 0,
   "x": "1, 3 and 4 are correct. 2 is wrong: the Baramahal is present Salem and its environs (Krishnagiri, Dharmapuri, Tiruvannamalai), not Anantapur.",
   "src": "app",
   "tq": "statements"
@@ -469,12 +499,12 @@
   "row": 175,
   "s": "Consider the following statements about the Ryotwari system:\n1. The ryot could sell, mortgage, lease or sublet his land and was not evicted while the assessment was paid.\n2. The assessment was revised periodically, about every 30 years.\n3. The first revenue demand was fixed at 50 per cent of the estimated produce.\n4. Revenue was automatically remitted after a bad harvest.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only three",
+   "Only one",
    "Only two",
-   "Only one"
+   "Only three",
+   "All four"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Three are correct. Statement 4 is wrong: there was no automatic remission after a bad harvest – only an occasional reduction.",
   "src": "app",
   "tq": "statements"
@@ -499,12 +529,12 @@
   "row": 175,
   "s": "Match List-I (Period) with List-II (Post held by Thomas Munro):\nList-I | List-II\na. 1792-99 | i. Governor of Madras\nb. 1800-07 | ii. President of the Judicial Commission\nc. 1814-18 | iii. Assistant to Read in the Baramahal\nd. 1820-27 | iv. First Principal Collector of the Ceded Districts\nSelect the correct answer using the codes given below:",
   "o": [
+   "a-i, b-iv, c-ii, d-iii",
    "a-iii, b-iv, c-ii, d-i",
    "a-iii, b-ii, c-iv, d-i",
-   "a-i, b-iv, c-ii, d-iii",
    "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1792-99 – assistant to Read in the Baramahal; 1800-07 – first Principal Collector of the Ceded Districts (HQ Anantapur); 1814-18 – President of the Judicial Commission; 1820-27 – Governor of Madras.",
   "src": "app",
   "tq": "match"
@@ -544,12 +574,12 @@
   "row": 175,
   "s": "Consider the following statements about the Permanent Settlement:\n1. It began as Cornwallis' decennial (10-year) settlement of 1789, declared permanent in 1793.\n2. It was planned with the help of John Shore.\n3. It covered about 30 per cent of British India.\n4. The zamindar paid 10/11 of the rental and kept 1/11.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 4 only",
    "1 and 2 only",
    "2, 3 and 4 only",
+   "1, 2 and 4 only",
    "1, 2, 3 and 4"
   ],
-  "a": 0,
+  "a": 2,
   "x": "1, 2 and 4 are correct. 3 is wrong: the Permanent Settlement covered about 19 per cent of British India (30 per cent is the Mahalwari share, 51 per cent the Ryotwari).",
   "src": "app",
   "tq": "statements"
@@ -559,12 +589,12 @@
   "row": 175,
   "s": "Consider the following statements regarding the Permanent Settlement:\n1. Under the Sunset Law an estate was sold if its revenue was not paid by sunset of the due date.\n2. The Haftam (1799) and Panjam (1812) Regulations let zamindars seize tenants' property without a court.\n3. The rise in litigation after 1793 was mainly due to its land provisions.\n4. The Bengal Tenancy Act, 1885 gave occupancy rights to tenants in Bengal and Bihar.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only three",
+   "Only one",
    "Only two",
-   "Only one"
+   "Only three",
+   "All four"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Three are correct. Statement 3 is wrong: litigation rose after 1793 because of Cornwallis' judicial reforms (abolition of court fees, separate civil courts), not the land provisions.",
   "src": "app",
   "tq": "statements"
@@ -590,11 +620,11 @@
   "s": "Match List-I (Officer) with List-II (Contribution):\nList-I | List-II\na. Holt Mackenzie | i. Carried on Bird's settlement in the North-Western Provinces\nb. R.M. Bird | ii. Revised it under Regulation IX of 1833\nc. James Thomason | iii. Helped Cornwallis plan the Permanent Settlement\nd. John Shore | iv. Devised the Mahalwari system (Regulation VII of 1822)\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-ii, c-iv, d-iii",
-   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
    "a-i, b-iv, c-ii, d-iii",
-   "a-iv, b-ii, c-i, d-iii"
+   "a-iv, b-i, c-ii, d-iii"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Holt Mackenzie devised Mahalwari (1822); R.M. Bird revised it in 1833 ('father of land settlement in north India'); James Thomason carried on Bird's work; John Shore planned the Permanent Settlement with Cornwallis.",
   "src": "app",
   "tq": "match"
@@ -604,12 +634,12 @@
   "row": 175,
   "s": "Consider the following statements about the Mahalwari and Taluqdari systems:\n1. Under Mahalwari the unit of assessment was the mahal – a village or group of villages.\n2. Under Mahalwari the agricultural land belonged to the government.\n3. The Mahalwari revenue was collected by the village headman (lambardar), and the village was collectively liable.\n4. The Taluqdari system is associated with Awadh.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 3 and 4 only",
    "1 and 3 only",
+   "1, 2, 3 and 4",
    "2, 3 and 4 only",
-   "1, 2, 3 and 4"
+   "1, 3 and 4 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1, 3 and 4 are correct. 2 is wrong: under Mahalwari the land was owned jointly by the village community, not the government.",
   "src": "app",
   "tq": "statements"
@@ -619,12 +649,12 @@
   "row": 175,
   "s": "Match List-I (Revenue term in Andhra) with List-II (Meaning):\nList-I | List-II\na. Haveli | i. Rent-free title\nb. Moturpha | ii. Tax on professions, trades and looms\nc. Inam | iii. Land under direct Company control\nd. Peshcush | iv. Paid to the Company by the zamindars of the coastal Circars\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-ii, c-iii, d-iv",
    "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
    "a-iii, b-ii, c-iv, d-i",
    "a-i, b-iii, c-ii, d-iv"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Haveli – land under direct Company control (grouped into mootahs, 1802); Moturpha – tax on professions, trades and looms; Inam – rent-free title; Peshcush – paid by the Circar zamindars.",
   "src": "app",
   "tq": "match"
@@ -634,12 +664,12 @@
   "row": 175,
   "s": "Consider the following statements about the effects of the British land systems:\n1. The need to pay revenue in cash pushed commercial crops such as indigo, cotton, opium and jute.\n2. The cotton slump that led to defaults and loss of land to moneylenders followed the Crimean War.\n3. Merchant-landlords rose in the Zamindari areas and moneylender-landlords in the Ryotwari and Mahalwari areas.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 and 3 only",
    "1 only",
    "2 and 3 only",
-   "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: the cotton slump (1866) followed the American Civil War.",
   "src": "app",
   "tq": "statements"
@@ -649,27 +679,42 @@
   "row": 175,
   "s": "Match List-I (Event in Andhra) with List-II (Year):\nList-I | List-II\na. Guntur acquired by the Company | i. 1788\nb. Battle of Padmanabham | ii. 1794\nc. Madras Inam Commission | iii. 1948\nd. Madras Estates (Abolition and Conversion into Ryotwari) Act | iv. 1858\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-iii, d-ii",
    "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
    "a-ii, b-i, c-iv, d-iii",
-   "a-i, b-ii, c-iv, d-iii"
+   "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Guntur – 1788; Padmanabham (Vijayarama Gajapati Raju killed) – 1794; Madras Inam Commission – 1858; Madras Estates Abolition Act – 1948.",
   "src": "app",
   "tq": "match"
+ },
+ {
+  "id": "cp38dabf62f99e",
+  "row": 175,
+  "s": "Consider the following statements about land revenue in Andhra:\n1. The Company obtained the Northern Circars in 1765-66 by a Mughal farman and a treaty with the Nizam.\n2. In 1802 the Permanent Settlement was applied in the Circars, while Munro introduced Ryotwari in Rayalaseema.\n3. Uyyalawada Narasimha Reddy's revolt of 1846 attacked the treasury at Koilkuntla (Kovela Kuntla).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 and 3 only"
+  ],
+  "a": 2,
+  "x": "All three are correct: the Circars came in 1765-66; 1802 saw the Permanent Settlement in the Circars (Vizianagaram peshcush Rs 6 lakh) and Ryotwari in Rayalaseema; Uyyalawada's 1846 revolt hit the Koilkuntla treasury.",
+  "src": "app",
+  "tq": "statements"
  },
  {
   "id": "cpdbf9f2ad7361",
   "row": 176,
   "s": "Consider the following statements about the Drain of Wealth:\n1. It began with the Diwani of Bengal (1765), whose revenue bought the Company's export 'investments'.\n2. It took the form of an excess of imports over exports.\n3. One of its components was interest on the public debt raised in Britain.\n4. British investors in Indian railways were guaranteed a 5 per cent return from Indian revenue.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only three",
+   "Only one",
    "Only two",
-   "Only one"
+   "Only three",
+   "All four"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Three are correct. Statement 2 is wrong: India usually had a favourable balance of trade; the drain took the form of unrequited exports (the export surplus paid for Home Charges), not an excess of imports.",
   "src": "app",
   "tq": "statements"
@@ -680,11 +725,11 @@
   "s": "Consider the following statements about Dadabhai Naoroji:\n1. Known as the 'Grand Old Man of India', he coined the term 'moral drain'.\n2. He first stated the drain argument in 'England's Debt to India' (1867).\n3. He was the first Indian elected to the House of Commons, from Finsbury Central in 1892.\n4. He first made Swaraj the national demand at the Lahore Congress of 1906.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
-   "1, 2 and 3 only",
+   "1, 2, 3 and 4",
    "2, 3 and 4 only",
-   "1, 2, 3 and 4"
+   "1, 2 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "1, 2 and 3 are correct. 4 is wrong: Naoroji made Swaraj the national demand at the Calcutta Congress of 1906.",
   "src": "app",
   "tq": "statements"
@@ -695,11 +740,11 @@
   "s": "Match List-I (Writer) with List-II (Work):\nList-I | List-II\na. G. Subramania Iyer | i. India Today\nb. William Digby | ii. 'Prosperous' British India\nc. M.G. Ranade | iii. Essays on Indian Economics\nd. R.P. Dutt | iv. Some Economic Aspects of British Rule in India\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-ii, c-iii, d-iv",
-   "a-iv, b-i, c-iii, d-ii",
    "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-i, c-iii, d-ii",
    "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 2,
+  "a": 1,
   "x": "G. Subramania Iyer – Some Economic Aspects of British Rule in India (1903); William Digby – 'Prosperous' British India (1901); M.G. Ranade – Essays on Indian Economics; R.P. (Rajani Palme) Dutt – India Today.",
   "src": "app",
   "tq": "match"
@@ -739,12 +784,12 @@
   "row": 176,
   "s": "Consider the following statements about deindustrialisation:\n1. Lancashire cloth first reached Bengal in 1786.\n2. By 1850 India took one-fourth of all British cotton exports.\n3. According to Paul Bairoch, India's share of world manufactures fell from about 24.5% in 1750 to under 2% in 1900.\n4. The cotton excise of 1894-96 was levied on British cloth imported into India.\nWhich of the statements given above is/are NOT correct?",
   "o": [
-   "3 and 4 only",
    "4 only",
+   "3 and 4 only",
    "1 only",
    "2 and 4 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Only 4 is NOT correct: the cotton excise (1894-96) was imposed on Indian mill cloth to offset the import duty on British goods. 1, 2 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -784,12 +829,12 @@
   "row": 176,
   "s": "Match List-I (Commercial crop) with List-II (Associated feature):\nList-I | List-II\na. Indigo | i. Tinkathiya – grown on 3/20 of each holding\nb. Opium | ii. Assam\nc. Tea | iii. Deccan, Gujarat and Berar\nd. Cotton | iv. Basis of the India–China–England triangular trade\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
    "a-i, b-ii, c-iv, d-iii",
    "a-ii, b-iv, c-i, d-iii",
-   "a-i, b-iii, c-iv, d-ii"
+   "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Indigo – Tinkathiya (3/20 of the holding), Bengal-Bihar; opium – sent to China in the triangular trade; tea – Assam; cotton – Deccan, Gujarat, Berar.",
   "src": "app",
   "tq": "match"
@@ -799,12 +844,12 @@
   "row": 176,
   "s": "Consider the following statements:\n1. The Deccan Agriculturists' Relief Act (1879) followed the Deccan riots of 1875.\n2. That Act protected peasants against moneylenders.\n3. The Punjab Land Alienation Act (1900) checked the transfer of land to non-agriculturists.\n4. Famines became frequent where commercial farming spread because food crops replaced cash crops.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1, 2 and 3 only",
    "1 and 2 only",
-   "1, 2, 3 and 4",
    "2, 3 and 4 only",
-   "1, 2 and 3 only"
+   "1, 2, 3 and 4"
   ],
-  "a": 3,
+  "a": 0,
   "x": "1, 2 and 3 are correct. 4 reverses the fact: cash crops replaced food crops, reducing food security and leading to famines.",
   "src": "app",
   "tq": "statements"
@@ -815,11 +860,11 @@
   "s": "Match List-I (Place in Andhra) with List-II (Product):\nList-I | List-II\na. Srikakulam | i. Fine hand-spun khadi\nb. Nellore | ii. Muslin\nc. Uppada | iii. Jamdani silk\nd. Ponduru | iv. Towels\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-iv, c-iii, d-ii",
-   "a-ii, b-iv, c-i, d-iii",
    "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Srikakulam – muslin; Nellore – towels; Uppada – Jamdani silk; Ponduru (Srikakulam) – fine hand-spun khadi.",
   "src": "app",
   "tq": "match"
@@ -829,12 +874,12 @@
   "row": 176,
   "s": "Consider the following statements about colonial Andhra:\n1. Nellore was known for mica.\n2. The first railway line in Andhra, Puttur–Renigunta, was opened in 1872.\n3. The Dutch set up their first factory in Andhra at Bhimunipatnam.\n4. Jute mills came up at Chittivalasa and Nellimarla.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only three",
+   "Only one",
    "Only two",
-   "Only one"
+   "Only three",
+   "All four"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Two are correct (1 and 4). 2 is wrong: the Puttur–Renigunta line opened in 1862. 3 is wrong: the first Dutch factory in Andhra was at Machilipatnam.",
   "src": "app",
   "tq": "statements"
@@ -844,12 +889,12 @@
   "row": 176,
   "s": "Match List-I (Enterprise) with List-II (Fact):\nList-I | List-II\na. Fort Gloster | i. First, failed cotton mill attempt (1818)\nb. Rishra | ii. First tea company (1839)\nc. Assam Company | iii. Iron and steel (1907)\nd. TISCO | iv. First jute mill (1855)\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-ii, d-iii",
-   "a-ii, b-iv, c-i, d-iii",
    "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
    "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Fort Gloster (Calcutta) – failed cotton mill, 1818; Rishra – first jute mill, 1855; Assam Company – first tea company, 1839; TISCO – 1907.",
   "src": "app",
   "tq": "match"
@@ -859,12 +904,12 @@
   "row": 176,
   "s": "With reference to the Hilton Young Commission (1926), consider the following statements:\n1. It fixed the rupee at 1 shilling 6 pence.\n2. Indian business led by Purshottamdas Thakurdas wanted the rupee at 1s 4d.\n3. The higher ratio made Indian goods cheaper abroad.\n4. It recommended a central bank, leading to the RBI in 1935.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "1, 2 and 4 only",
+   "1 and 2 only",
    "2, 3 and 4 only",
    "1, 2, 3 and 4"
   ],
-  "a": 1,
+  "a": 0,
   "x": "1, 2 and 4 are correct. 3 is wrong: the 1s 6d ratio made Indian goods dearer abroad, hurting exporters.",
   "src": "app",
   "tq": "statements"
@@ -875,12 +920,27 @@
   "s": "Consider the following statements about India on the eve of independence:\n1. Per capita income was about Rs 265.\n2. Life expectancy was about 32 years.\n3. Literacy was under 16 per cent.\n4. Agriculture employed over 75 per cent of workers but gave only about 30 per cent of GDP.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 3 only",
-   "2, 3 and 4 only",
    "1, 2 and 3 only",
+   "2, 3 and 4 only",
    "1, 2, 3 and 4"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1, 2 and 3 are correct. 4 is wrong: agriculture gave about 50 per cent of GDP.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb4dfc27b79f7",
+  "row": 176,
+  "s": "Consider the following statements about modern industry in colonial India:\n1. The Bombay Spinning and Weaving Company of 1854 is associated with Cowasji Nanabhai Davar.\n2. The cotton mills were mostly foreign-owned, while the jute mills of Bengal were Indian-owned.\n3. On the eve of independence basic and capital goods formed only about one-fourth of industrial output.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 reverses the fact: cotton mills were Indian-owned, while the jute mills (concentrated in Bengal) were foreign-owned.",
   "src": "app",
   "tq": "statements"
  },
@@ -964,12 +1024,12 @@
   "row": 177,
   "s": "Consider the following statements:\n1. The MacDonnell Commission (1901) emphasised early relief and more irrigation.\n2. The Indian Famine Code (1883) provided relief works for the able-bodied and gratuitous relief for the old and infirm.\n3. The Temple wage of the 1877 Madras famine gave about 1 lb of grain a day on relief works.\n4. The Hunter Commission (1882) was appointed to inquire into famines.\nWhich of the statements given above is/are NOT correct?",
   "o": [
-   "4 only",
-   "3 and 4 only",
    "1 and 4 only",
+   "3 and 4 only",
+   "4 only",
    "2 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Only 4 is NOT correct: the Hunter Commission (1882) dealt with education, not famine. 1, 2 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -994,14 +1054,44 @@
   "row": 177,
   "s": "Consider the following statements about Sir Arthur Cotton and the anicuts:\n1. The Guntur famine of 1833 convinced the Company of the need for irrigation.\n2. The Godavari anicut at Dowleswaram was sanctioned in 1846 and completed in 1852.\n3. Veenam Veeranna, who helped build it, was made Rao Bahadur.\n4. The Krishna anicut at Bezwada was proposed by Arthur Cotton himself.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only three",
+   "Only one",
    "Only two",
-   "Only one"
+   "Only three",
+   "All four"
   ],
   "a": 2,
   "x": "Three are correct. Statement 4 is wrong: the Krishna anicut at Bezwada (1853-54) was proposed by Col. Henry Atlock Lake and built under Charles Orr.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp33820989fe97",
+  "row": 177,
+  "s": "Consider the following statements:\n1. The Woodhead Commission (1944) was the last famine commission of the colonial period.\n2. The idea of public works as famine relief goes back to Kautilya.\n3. K.S. Gupta formed a relief committee during the 1945 famine in Andhra.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three are correct: Woodhead (1944, Wavell) was the last commission, after the Bengal Famine of 1943; public works as relief go back to Kautilya (the Mauryan state cared for irrigation and roads); K.S. Gupta led a relief committee in Andhra in 1945.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp58c58f038352",
+  "row": 177,
+  "s": "Consider the following statements:\nAssertion (A): The Indian Famine Code of 1883 was prepared from the report of the Lyall Commission.\nReason (R): The Strachey Commission was appointed in 1878 after the Great Famine of 1876-78.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the Famine Code of 1883 was prepared from the Strachey Commission's report (1880); the Lyall Commission came in 1898. R is true.",
+  "src": "app",
+  "tq": "assertion"
  }
 ]
