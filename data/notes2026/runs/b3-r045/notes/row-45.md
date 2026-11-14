@@ -133,7 +133,7 @@
 | Sorghum (jowar) | **Kurnool** |
 | Groundnut | **Anantapuramu** |
 - **Cotton = "white gold"** of AP, expanding; groundnut shrinking (11.36 → 3.46 lakh ha, 2011-12 → 2024-25); oilseeds 15.46 → 5.35 lakh ha.
-- Expanding: maize (poultry feed), horticulture, oil palm, aquaculture; shrinking: ragi, jowar.
+- Expanding: maize (poultry feed), horticulture, **oil palm (East Godavari, Eluru, West Godavari)**, aquaculture; shrinking: ragi, jowar.
 | AP foodgrains area (lakh ha) | 2021-22 | 2023-24 | 2024-25 | 2025-26 (2nd AE) |
 |---|---|---|---|---|
 | Area | 41.44 | 33.24 | 37.51 | 42.74 |
@@ -174,4 +174,5 @@
 | Planning Commission (1989) | **15** regions, 72 sub-zones |
 | ICAR – NARP | **127** zones |
 - AP coastal districts → East Coast Plains and Hills; Rayalaseema → Southern Plateau and Hills.
+- AP has **22 soil categories**; **10** of them cover over **88%** of the State.
 ~~ Sources: app notes 3:45 sub 9 (APSES 2024-25)
