@@ -1116,3 +1116,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b1-w125 (rows 125–130)
 - own 394 → 77 kept + 74 new (151, 38%); new 40 statements / 23 match / 11 A–R; 6 of 257 lines lost. No wrong notes/keys (avoided flagged lines 125:2:5, 128:4:10, 129:2:10).
+
+## rewrite b2-w044 (rows 44–46)
+- own 408 → 50 kept + 98 new (148, 36%); new 63 statements / 19 match / 13 A–R / 2 NOT / 1 sequence; 1 of 268 lines lost.
+- Doubtful PYQs: y4c0a407864d keys Mumbai Kamgar Sabha (1976) as first PIL (notes: Hussainara Khatoon 1979; both views exist — Disputed chip); y789dba64682 has impossible date "April 31, 2004" (notes 30 April) — fix typo in stem/option.
