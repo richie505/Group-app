@@ -1296,3 +1296,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b5-w080 (rows 80–85)
 - own 450 → 69 kept + 107 new (176, 39%); new 74 statements / 20 match / 13 A–R; 5 of 297 lines lost.
 - PYQ y343e62eadd9: India (Kigali, Group 2 country) 85% HFC cut "by 2045" — India's target is 2047 (2045 is Group 1) — check key.
+
+## rewrite b2-w073 (rows 73–79)
+- own 425 → 62 kept + 94 new (156, 37%); new 56 statements / 21 match / 16 A–R / 1 sequence; no lines lost.
+- Row 75 1:3: Lokpal Bill re-introduction list omits 2005 and 2008 (Laxmikanth has both) — complete the list; own f314e353c321c ("nine") removed.
+- PYQ y281c7b2f2b8 (Arun Kumar Mishra) linked to 74:1:10.2 (Dattu) instead of 1:10.3 — link cleanup.
+- nd4cdafa2a3c cited Art. 338A(10); notes 338A(9) (correct) — removed.

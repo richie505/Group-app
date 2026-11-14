@@ -4,12 +4,12 @@
   "row": 88,
   "s": "Consider the following statements about the objectives of financial inclusion in India:\n1. It seeks to expand banking infrastructure particularly in underserved and rural areas.\n2. Promoting financial literacy – awareness and informed use of financial services – is one of its objectives.\n3. Reducing the financial security of households by shifting them away from informal savings is one of its outcomes.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "1 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 2,
   "x": "1 and 2 are correct: the objectives include expanding banking infrastructure in underserved and rural areas (not metros) and financial literacy. 3 is wrong: inclusion raises financial security; 'reducing financial security' is not an outcome.",
   "src": "app",
   "tq": "statements"
@@ -19,12 +19,12 @@
   "row": 88,
   "s": "Match List-I (Committee chair) with List-II (Subject):\nList-I | List-II\na. Nachiket Mor (2013) | i. Comprehensive Financial Services for Small Businesses and Low-Income Households\nb. Ratan Watal (2016) | ii. Chief Ministers' Committee on Digital Payments\nc. Deepak Mohanty (2015) | iii. Medium-term path on financial inclusion (RBI)\nd. N. Chandrababu Naidu (2016-17) | iv. Digital payments (Ministry of Finance)\nSelect the correct answer using the codes given below:",
   "o": [
+   "a-i, b-iii, c-ii, d-iv",
    "a-i, b-ii, c-iii, d-iv",
-   "a-i, b-iv, c-iii, d-ii",
    "a-ii, b-iv, c-iii, d-i",
-   "a-i, b-iii, c-ii, d-iv"
+   "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Nachiket Mor (RBI, Sept 2013) – comprehensive financial services, payments and small finance banks, groundwork for PMJDY; Ratan Watal (2016) – digital payments for the Ministry of Finance; Deepak Mohanty (2015) – medium-term path on financial inclusion; N. Chandrababu Naidu (2016-17) – Chief Ministers' Committee on Digital Payments. Microfinance after the AP crisis was Y.H. Malegam, not Watal.",
   "src": "app",
   "tq": "match"
@@ -189,7 +189,7 @@
    "1 only",
    "1 and 2 only"
   ],
-  "a": 3,
+  "a": 0,
   "x": "1 and 2 are correct. 3 is wrong: NFS was designed and launched in 2004 by the RBI's IDRBT; NPCI (incorporated December 2008) took it over in 2009.",
   "src": "app",
   "tq": "statements"
@@ -214,12 +214,12 @@
   "row": 88,
   "s": "Match List-I (NPCI product) with List-II (Purpose):\nList-I | List-II\na. AePS | i. Bulk recurring payments – salaries, dividends\nb. NACH | ii. Basic banking at micro-ATMs through Aadhaar authentication\nc. NETC | iii. NPCI's UPI app\nd. BHIM | iv. FASTag electronic toll collection\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
    "a-i, b-ii, c-iv, d-iii",
-   "a-ii, b-i, c-iv, d-iii",
-   "a-i, b-iv, c-ii, d-iii"
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-i, c-iv, d-iii"
   ],
-  "a": 2,
+  "a": 3,
   "x": "AePS – Aadhaar-authenticated banking at micro-ATMs; NACH – bulk recurring payments (salaries, dividends, bills); NETC – FASTag toll collection; BHIM – NPCI's own UPI app.",
   "src": "app",
   "tq": "match"
@@ -319,12 +319,12 @@
   "row": 88,
   "s": "Consider the following statements about the RBI Financial Inclusion Index (FI-Index):\n1. It is published annually and measured on a scale of 0-100.\n2. It comprises 97 indicators.\n3. Its sub-indices are weighted Access 35%, Usage 20% and Quality 45%.\n4. Its value rose from 53.9 in March 2021 to 67.0 in 2025.\nWhich of the statements given above is/are correct?",
   "o": [
+   "Only one",
    "Only three",
    "Only two",
-   "Only one",
    "All four"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Only three are correct. 3 is wrong: the weights are Access 35%, Usage 45%, Quality 20%.",
   "src": "app",
   "tq": "statements"
@@ -354,7 +354,7 @@
    "1 only",
    "1 and 2 only"
   ],
-  "a": 3,
+  "a": 0,
   "x": "1 and 2 are correct. 3 is wrong: APY is administered by PFRDA, not IRDAI (its entry age 18-40 and ₹1,000-5,000 pension are correct).",
   "src": "app",
   "tq": "statements"
@@ -424,12 +424,12 @@
   "row": 88,
   "s": "Consider the following statements about cryptocurrency in India:\n1. In 2020 the Supreme Court struck down the RBI's 2018 circular barring banks from dealing with crypto businesses.\n2. The Finance Act, 2022 made cryptocurrency legal tender in India.\n3. Gains from cryptocurrency are taxed at 30%, with 1% TDS.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "1 only",
    "2 and 3 only",
+   "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: the Finance Act, 2022 amended the RBI Act to provide for the Digital Rupee; it did not make crypto legal tender.",
   "src": "app",
   "tq": "statements"
@@ -448,5 +448,215 @@
   "x": "Both true, and R explains A: Bitcoin (2009, Satoshi Nakamoto) is private and decentralised, so no central bank issues or tracks it.",
   "src": "app",
   "tq": "assertion"
+ },
+ {
+  "id": "cp4a8d8d6ef86d",
+  "row": 89,
+  "s": "Consider the following statements about the Indian money market:\n1. Indigenous bankers, chit funds and nidhis form part of the unorganised money market.\n2. Moneylenders form part of the organised money market, which the RBI controls.\n3. Co-operative credit institutions are placed between the organised and unorganised money markets.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: moneylenders (like indigenous bankers, hundis and unregulated finance companies) belong to the unorganised market, which the RBI does not control.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpde62779a8b1e",
+  "row": 89,
+  "s": "Match List-I (Money market instrument) with List-II (Maturity):\nList-I | List-II\na. Commercial Paper | i. Usually 90 days\nb. Certificate of Deposit issued by financial institutions | ii. 1 to 3 years\nc. Commercial bills | iii. Under 91 days\nd. Cash Management Bills | iv. 7 days to 1 year\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "CP – 7 days to 1 year (older rule 14 days-1 year); CDs of FIs – 1-3 years (banks: up to 1 year); commercial bills – usually 90 days; Cash Management Bills – under 91 days, for the Centre's temporary cash mismatches.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe6e4db990f6b",
+  "row": 89,
+  "s": "Consider the following statements:\n1. CBLO, introduced in January 2003, was a money market instrument operated by CCIL.\n2. CBLO has been replaced by TREPS (tri-party repo).\n3. On the Vaghul Committee's recommendation, Commercial Paper was introduced in 1989 and Certificates of Deposit in 1990.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the dates are reversed – CDs came in 1989 and CP in 1990, following the Vaghul Committee (1987).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpae0205de73b2",
+  "row": 89,
+  "s": "Match List-I (Government security) with List-II (Feature):\nList-I | List-II\na. Treasury Bills | i. Central Government only; 91, 182 and 364 days\nb. Dated G-Secs | ii. Under 91 days, for temporary cash mismatches\nc. State Development Loans | iii. Dated securities of State Governments\nd. Cash Management Bills | iv. One year or more; pay a coupon\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "T-bills – only the Centre, 91/182/364 days; dated G-Secs – one year or more, with coupon; SDLs – dated securities of State Governments; CMBs – under 91 days for the Centre's temporary cash mismatches.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2986f3622329",
+  "row": 89,
+  "s": "Consider the following statements:\n1. Under the Government Securities Act, 2006, a G-Sec is a tradeable instrument acknowledging the debt of the Central or a State Government.\n2. Government securities are called 'gilt-edged' because their default risk is almost zero.\n3. Treasury Bills were first issued in India in 1917.\n4. Treasury Bills pay a fixed half-yearly coupon.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. 4 is wrong: Treasury Bills are zero-coupon – issued at a discount and redeemed at face value; they pay no coupon.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcc17e8acc152",
+  "row": 89,
+  "s": "Consider the following statements:\n1. ICICI Securities Primary Dealership is the largest primary dealer in Government securities in India.\n2. Under RBI Retail Direct, individuals buy G-Secs through a Retail Direct Gilt (RDG) account.\n3. In June 2026 the Fully Accessible Route (FAR) was extended to sovereign green bonds.\n4. Andhra Pradesh plans State Development Loan borrowings of ₹73,383 crore in 2026-27.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4",
+   "1 and 4 only",
+   "2, 3 and 4 only"
+  ],
+  "a": 3,
+  "x": "2, 3 and 4 are correct. 1 is wrong: SBI DFHI is the largest primary dealer.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2960d43a67ec",
+  "row": 89,
+  "s": "Consider the following statements:\nAssertion (A): To absorb liquidity from the banking system, the RBI sells Government securities through open market operations.\nReason (R): Bond prices and yields move inversely.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true. But R does not explain A: an OMO sale absorbs liquidity because buyers pay the RBI for the securities, draining reserves; the price-yield relation is a separate fact.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp073ea96dd0ee",
+  "row": 89,
+  "s": "Match List-I (Fund) with List-II (Classification):\nList-I | List-II\na. Venture capital / angel fund | i. Category III AIF\nb. Private equity / debt fund | ii. Pools infrastructure assets\nc. Hedge fund using leveraged trading | iii. Category II AIF\nd. InvIT | iv. Category I AIF\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "Category I – venture capital, angel, SME, social venture and infrastructure funds; Category II – private equity and debt funds; Category III – hedge funds with leveraged trading; InvITs pool infrastructure (REITs pool real estate).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp38737302dd47",
+  "row": 89,
+  "s": "Consider the following statements:\n1. Alternative Investment Funds are defined in the SEBI (AIF) Regulations, 2015.\n2. In September 2025 SEBI added an AIF category specifically for accredited investors.\n3. Venture capital is a form of private equity.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: AIFs are privately pooled funds under the SEBI (AIF) Regulations, 2012.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp67f05b81acde",
+  "row": 89,
+  "s": "Consider the following statements:\n1. India's corporate bond market is about 16% of GDP.\n2. The Budget 2026-27 proposed derivatives on corporate bond indices.\n3. ETFs such as the CPSE ETF and Bharat-22 trade on exchanges at prices close to NAV.\n4. Investment in unlisted firms is classified as a hybrid instrument.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All four",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "Only three are correct. 4 is wrong: investment in unlisted firms is private equity; hybrids are instruments such as convertible preference shares and partly / optionally convertible debentures.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb0fc438d3f3c",
+  "row": 89,
+  "s": "Match List-I (Bond) with List-II (Feature):\nList-I | List-II\na. Social bond | i. Rupee-denominated, issued overseas\nb. Masala bond | ii. Proceeds finance only social projects\nc. Inflation-indexed bond | iii. Principal or coupon adjusted to inflation\nd. Green bond | iv. Proceeds finance only environmental / climate projects\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "Social bond – only social projects; Masala bond – rupee-denominated, issued overseas; inflation-indexed – principal/coupon linked to inflation; green bond – only environmental/climate projects (both kinds together = sustainability bond).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa89fcad01941",
+  "row": 89,
+  "s": "Consider the following statements:\nAssertion (A): In a Masala bond the investor, not the Indian issuer, bears the currency risk.\nReason (R): A Masala bond is a rupee-denominated bond issued overseas.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: since the bond is denominated in rupees, the issuer repays in rupees and the foreign investor carries the exchange-rate risk.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd6214129577b",
+  "row": 89,
+  "s": "Match List-I (Bond term) with List-II (Meaning):\nList-I | List-II\na. Bondholder | i. Return at the market price\nb. Maturity | ii. Creditor of the issuer\nc. Coupon | iii. Interest paid on the bond\nd. Yield | iv. Date the principal becomes repayable\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "A bondholder is a creditor; maturity is the repayment date; coupon is the interest; yield is the return at market price. Face value (not coupon or yield) is the nominal value.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0bd5501049bd",
+  "row": 89,
+  "s": "Consider the following statements about government bond yields:\n1. Bond prices and yields move inversely.\n2. Higher government borrowing tends to lower bond yields.\n3. RBI purchases of G-Secs through OMOs tend to lower bond yields.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: higher government borrowing (like higher policy rates and inflation) raises yields.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
