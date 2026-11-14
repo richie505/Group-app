@@ -1428,3 +1428,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w090 (rows 90–92)
 - own 420 → 83 kept + 121 new (204, 49%); new 75 statements / 36 match / 10 A–R; 3 of 317 lines lost.
 - Mislinked kept own: caea7dfe56f104 (UNICEF) 90:9:14 → 4:14; fd9f117f70900 (Booker £50,000) 3:5.3 → 3:3. ca5a4875f631fa options have stray quote marks — cleanup.
+
+## rewrite b3-w106 (rows 106–110)
+- own 440 → 64 kept + 102 new (166, 38%); new 60 statements / 28 match / 14 A–R; no lines lost.
+- Removed own: nc0f2091373a, f5eae72b04ab6 (most post offices Mar 2016 = Chittoor; notes' APPSC key Anantapuramu); g72c3efdb00be (AP 5th per-capita 2017-18, unverified).
+- PYQ y2a173d70bb8 (2015-16 per-capita AP ₹8,979 vs TS ₹15,454) disagrees with notes (AP ₹1,08,002) — likely monthly vs annual or garbled; check.
