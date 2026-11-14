@@ -5,11 +5,11 @@
   "s": "Consider the following statements about the three-capitals plan of Andhra Pradesh:\n1. Visakhapatnam was proposed as the executive capital.\n2. The framework consisted of the AP Decentralisation and Inclusive Development of All Regions Act, 2020 and the APCRDA (Repeal) Act, 2020.\n3. Both Acts were withdrawn in 2023 after the Chief Minister declared Visakhapatnam the capital.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 2 are correct. 3 is wrong: the Repeal Bill was introduced in November 2021 and both Acts were withdrawn in 2021; the declaration of Visakhapatnam as capital came later, on 31 Jan 2023.",
   "src": "app",
   "tq": "statements"
@@ -20,11 +20,11 @@
   "s": "Consider the following statements:\n1. In 2026 the Lok Sabha passed the AP Reorganisation (Amendment) Bill, 2026, declaring Amaravati the sole capital of Andhra Pradesh.\n2. Kalyana Karnataka has a special provision under Article 371J since 2013.\n3. In January 2026 the coalition government committed to finishing Amaravati in five years.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "2 and 3 only",
    "1 and 2 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1 and 2 are correct. 3 is wrong: the commitment (Jan 2026) was to finish Amaravati in three years, not five.",
   "src": "app",
   "tq": "statements"
@@ -64,12 +64,12 @@
   "row": 120,
   "s": "Consider the following statements about the AP Reorganisation Act, 2014:\n1. Hyderabad was made the common capital of the two States for up to 10 years.\n2. Section 94 of the Act provides the backward-areas package.\n3. The backward-areas package covers 7 districts – 4 of Rayalaseema and 3 of North Andhra – with ₹50 crore per district per year.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
    "Only one",
+   "None",
    "All three",
-   "None"
+   "Only two"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the backward-areas package is under Sec. 46(2)-(3); Sec. 94 provides tax incentives.",
   "src": "app",
   "tq": "statements"
@@ -95,11 +95,11 @@
   "s": "Consider the following statements:\n1. The Jai Andhra movement (1972) was a reaction to the Supreme Court upholding the Mulki rules.\n2. The Jai Andhra movement started in Coastal Andhra and Rayalaseema.\n3. The Six Point Formula (1973) was implemented through the 32nd Amendment, which inserted Articles 371D and 371E and created the Regional Committee under Article 371(1).\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1, 2 and 3",
    "2 and 3 only",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1 and 2 are correct. 3 is wrong: the 32nd Amendment (after the Six Point Formula of 21 Sept 1973) inserted Articles 371D and 371E but ended the Regional Committee under Art. 371(1); it did not create it.",
   "src": "app",
   "tq": "statements"
@@ -110,11 +110,11 @@
   "s": "Consider the following statements:\n1. The 8-Point Formula (1969) set up a special committee on Telangana surpluses.\n2. The expert committee on the location of Andhra Pradesh's new capital was set up under the 8-Point Formula.\n3. The 2009-14 phase of the Telangana movement led to the formation of Telangana State in 2014.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 3 only",
    "2 only",
-   "2 and 3 only"
+   "2 and 3 only",
+   "1 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the capital-location committee (Sivaramakrishnan) came under the AP Reorganisation Act, 2014, not the 8-Point Formula.",
   "src": "app",
   "tq": "statements"
@@ -176,6 +176,231 @@
   ],
   "a": 3,
   "x": "1 and 2 are correct. 3 is wrong: the Gentlemen's Agreement was concluded in 1956, not 1969.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp223185b20bc2",
+  "row": 121,
+  "s": "Consider the following statements about National Youth Policies:\n1. India's first National Youth Policy was adopted in 1988.\n2. The National Youth Policy 2014 defines youth as persons aged 15-29 years.\n3. The National Youth Policy 2003 covered persons aged 13-35 years.\n4. The National Youth Policy 2014 sets out 11 objectives and 5 priority areas.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 3 are correct. 4 is wrong: NYP 2014 has 5 objectives and 11 priority areas (the numbers are reversed).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp008d60a2db34",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The last National Commission for Youth (2002-04) was a statutory body.\n2. The Department of Youth Affairs and Sports was set up in 1985.\n3. Youth Affairs and Sports became a separate Ministry in 2000.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the last National Commission for Youth (2002-04) was non-statutory; a Bill (Aug 2026) seeks to make it a constitutional body.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp46589331c95b",
+  "row": 121,
+  "s": "Match List-I (Programme) with List-II (Key point):\nList-I | List-II\na. National Service Scheme (1969) | i. Neighbourhood Youth Parliament\nb. MY Bharat (2023) | ii. Motto 'Not Me But You'\nc. National Young Leaders Programme (2014) | iii. Replaced the NYKS\nd. PMKVY (2015) | iv. Skilling for new job seekers\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "NSS – 'Education through Service', motto 'Not Me But You'; MY Bharat (31 Oct 2023) – replaced NYKS; National Young Leaders Programme (Dec 2014) – Neighbourhood Youth Parliament and National Youth Advisory Council; PMKVY (Skill India, 2015) – skilling for new job seekers.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp80dd275c2eed",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The National Service Scheme was started in 1969 with the idea of 'Education through Service'.\n2. The PM-Vidyalaxmi scheme provides collateral-free education loans.\n3. The APSSDC trained about 25.7 lakh youth in 2024-25.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: the APSSDC trained 2,57,575 (about 2.6 lakh) in 2024-25, not 25.7 lakh.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe5cc254b76f5",
+  "row": 121,
+  "s": "Match List-I (Student movement) with List-II (State / centre):\nList-I | List-II\na. Nav Nirman (1974) | i. Assam\nb. JP movement (1974) | ii. Bihar\nc. AASU movement (1979-85) | iii. Gujarat\nd. Telangana student movements (1969; 2009-14) | iv. Osmania University\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 0,
+  "x": "Nav Nirman – Gujarat; JP movement – Bihar (both 1974, a common trap); AASU – Assam; Telangana student movements – Osmania University.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5130fd552c79",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The JP movement (1974) was the first student-led national movement in India.\n2. Young Bengal, India's first youth organisation, was founded by Henry Vivian Derozio.\n3. India Against Corruption (2011) is regarded as the first major anti-corruption youth movement.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the first student-led national movement was the Swadeshi movement (1905); the JP movement was the first nationwide post-Independence student mobilisation.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd2f3971a1f11",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The AASU movement (1979-85) against illegal migrants ended with the Assam Accord of 15 August 1985.\n2. The Anti-Mandal movement (1990) opposed 27% reservation for OBCs.\n3. Chief Minister Chimanbhai Patel resigned in February 1974 following the Nav Nirman movement.\n4. The JP movement fed into the Emergency declared in June 1977.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: the Emergency was declared in June 1975, not 1977.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp249e9dd1274c",
+  "row": 121,
+  "s": "Consider the following statements:\nAssertion (A): The Jai Andhra agitation (1972-73) was ended by the Six-Point Formula of 1973.\nReason (R): The Jai Andhra agitation followed the Supreme Court's decision upholding the Mulki Rules.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: the agitation began after the SC upheld the Mulki Rules and was ended by the Six-Point Formula (1973). But R gives the cause of the agitation, not why it ended, so R does not explain A.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp57285688fa67",
+  "row": 121,
+  "s": "Consider the following statements about agitations in Andhra Pradesh:\n1. The Sara Nishedha Udyamam (1991-92) was started by rural women of Dubagunta in Kurnool district.\n2. The 'Visakha Ukku – Andhrula Hakku' agitation (1966) is associated with the fast of T. Amrutha Rao.\n3. The Srikakulam girijan peasant movement (1967) against landlords and moneylenders turned Naxalite.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: Dubagunta is in Nellore district, not Kurnool; the anti-arrack movement led to prohibition.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1d6308384d09",
+  "row": 121,
+  "s": "Consider the following statements about forms of youth unrest:\n1. Secessionist movements such as the Naga, Assam and Khalistan movements are a form of youth unrest.\n2. The Dalit Panthers, a militant Dalit youth organisation, were formed in Maharashtra in 1982.\n3. Drug abuse is classed as deviance among the forms of youth unrest.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: the Dalit Panthers were formed in 1972, not 1982.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3b485cd08bec",
+  "row": 121,
+  "s": "Consider the following statements:\nAssertion (A): Youth protests such as Bangladesh 2024 and Nepal Gen Z 2025 had no formal central committee.\nReason (R): They were organised as leaderless, digital protests on encrypted apps.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the new pattern is leaderless, digital protest coordinated on encrypted apps, so there is no formal central committee.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp8819ac45fac8",
+  "row": 121,
+  "s": "Match List-I (Concept) with List-II (Description):\nList-I | List-II\na. Relative deprivation | i. Behaviour that violates the norms of a group or society\nb. Resource mobilisation | ii. Associated with Stouffer\nc. Deviance | iii. Collective frustration when norms seem ineffective or harmful\nd. Youth unrest | iv. Tactics and leadership matter more than grievances\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "Relative deprivation – Stouffer; resource mobilisation – tactics and leadership matter more than grievances; deviance – violation of group/social norms; youth unrest – collective frustration of the young when norms seem ineffective or harmful.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6d1d411ac5fe",
+  "row": 121,
+  "s": "Consider the following statements about youth agitations:\n1. A protest demanding the postponement of an examination is a persuasive agitation.\n2. A protest against attendance rules is a revolutionary agitation.\n3. The life cycle of an agitation begins with discontent, followed by initiation.\n4. A revolutionary agitation aims to overthrow the system, e.g. AASU and Bodo.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 3 and 4 are correct. 2 is wrong: a protest against attendance rules is a resistance agitation; revolutionary agitations seek to overthrow the system.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpeaf330ab4afb",
+  "row": 121,
+  "s": "Consider the following statements:\n1. As per Census 2011, youth (15-24 years) numbered about 231 million, about 19.1% of the population.\n2. As per Census 2011, adolescents (10-19 years) numbered about 353 million.\n3. As per the PLFS 2025 annual report, India's youth (15-29) unemployment rate was 9.9%, higher in urban than in rural areas.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct (PLFS 2025: 9.9%, urban 13.6%, rural 8.3%). 2 is wrong: adolescents were about 253 million (20.9%), not 353 million.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7502fc459401",
+  "row": 121,
+  "s": "Consider the following statements about youth unemployment:\n1. In Andhra Pradesh (PLFS 2023-24), youth unemployment was 17.5%, above the national rate.\n2. In Andhra Pradesh, rural youth unemployment was higher than urban youth unemployment.\n3. As per the ILO (2026), global youth unemployment is 12.4%.\n4. As per MoSPI 2022, youth unemployment was 13.0% for males and 12.5% for females.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 3 and 4 are correct. 2 is wrong: in AP urban youth unemployment (22.7%; urban females 29.1%) was higher than rural (15.5%).",
   "src": "app",
   "tq": "statements"
  }

@@ -1528,3 +1528,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b5-w106 (rows 106–109)
 - own 418 → 49 kept + 101 new (150, 36%); new 59 statements / 30 match / 12 A–R; 2 of 262 lines lost.
 - Removed: fa4e4e32b67f2 ("over 7 lakh" APCNF farmers; notes 9.53 lakh Dec 2024), g00383be7d3e4 ("Sixteenth" FC, not in notes).
+
+## rewrite b2-w107 (rows 107–112)
+- own 383 → 53 kept + 81 new (134, 35%); new 49 statements / 24 match / 8 A–R; 3 of 255 lines lost. No wrong keys.
+- Doubtful notes (not used): 109:1:2 Nesfield first to use "untouchable"; 110:0:1 Justice Party as first caste association — verify.
