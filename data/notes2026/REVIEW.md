@@ -977,3 +977,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 409 → 46 kept + 104 new (150, 37%); new 58 statements / 26 match / 20 A–R; 1 of 259 lines no longer tested.
 - Doubtful: PYQ y7fde8e87d42 (row 36) keyed liquid oxygen as "not a rocket propellant"; notes say it is one (it is the oxidiser). Added to doubtful.txt.
 - Unverifiable 2026 notes facts: Vikram-1 orbit (skipped), EOS-05 launch, IRNSS-1F clock loss.
+
+## rewrite b6-w033 (row 33)
+- own 276 → 34 kept + 76 new (110, 40%); new 54 statements / 14 match / 7 A–R / 1 sequence; no lines lost.
+- Wrong own key fixed by merge: 2016aa had FRBM Act "came into effect 2003"; notes 3:10 = enacted 2003, in force 5 July 2004.
