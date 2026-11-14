@@ -492,3 +492,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Newly keyed with dispute: y1c6e223631a lake; y4dc4faaab9c satellites neither; y5ecda9048bf ecology pairs I, II.
 - Printed-key-only: Bionomics, ecological transition (Bennett), Craib's thinning, water-balance A-R, husband–wife statuses.
 - Skinner operant conditioning moved to b2 r105 (no psychology row).
+
+## b5-r077 (EIA, NGT, environmental institutions)
+- y55eebe297aa CPCB chair: add_option "A full-time Chairman nominated by the Central Government" kept (printed Vice-President wrong).
+- Outdated yf662c3d8ef4 NGT Chairperson Swatanter Kumar → now Justice Prakash Shrivastava.
+- y2fc88e128db Delhi AQI 2021 printed 144 kept, not verified (web suggests ~209).
+- Printed-key-only: APSWREIS ANNAPURNA app, APPCB lab instruments, "6 components" solid waste, APPCB river class C.

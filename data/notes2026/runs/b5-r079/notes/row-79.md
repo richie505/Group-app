@@ -145,7 +145,7 @@
 - **Wildlife Crime Control Bureau** (statutory, **2007**, under **MoEFCC**) helps Customs enforce CITES. **ZSI** hosts a CITES Cell. **CITES Trade Database** = **UNEP-WCMC**; **MIKE** monitors elephant poaching.
 - **Red sanders** (Pterocarpus santalinus): endemic to **Seshachalam** / southern Eastern Ghats (AP); IUCN **Endangered**; CITES **App II**; India removed from the CITES **Review of Significant Trade** in **November 2023**.
 > CITES 1973, in force 1975 (not 1963/1985); Washington = CITES, Bonn = CMS. CITES is binding – a statement "not legally binding" is the incorrect one.
-~~ Sources: NextGen Environment - APPSC Part 1.2 p.10, Part 4.2 p.12 (UPSC 2015 PYQ), Part 8.1 p.11; Shankar Environment ch.28 p.456; CRS report RL32751 (Jan 2026) for species counts; old app notes 5:79 (sub 4-5)
+~~ Sources: NextGen Environment - APPSC Part 1.2 p.10, Part 2.2 p.12 (UPSC 2015 PYQ), Part 8.1 p.11; Shankar Environment ch.28 p.456; CRS report RL32751 (Jan 2026) for species counts; old app notes 5:79 (sub 4-5)
 
 === IUCN, TRAFFIC and the Bonn Convention (CMS)
 | Body | Year / HQ | Mandate | Status |
@@ -158,7 +158,7 @@
 - **CMS COP13, Gandhinagar, Feb 2020** (India host): **Great Indian Bustard, Asian elephant, Bengal florican** added to Appendix I.
 - **CMS COP14:** **Samarkand, Uzbekistan, 12–17 Feb 2024**; theme **"Nature knows no borders"** (not "Migratory species connect the planet…"); the **first global biodiversity COP after the Kunming-Montreal GBF**. **COP15: Campo Grande, Brazil**.
 > Migratory species treaty = Bonn 1979 (not Ramsar 1971, Stockholm POPs 2001, MARPOL 1973). UPSC 2015: IUCN not a UN organ → "2 and 3 only".
-~~ Sources: Shankar Environment ch.28 p.457-459; NextGen Environment - APPSC Part 4.2 p.2, Part 4.2 p.12; Rocket Environment p.41; Rocket Current Affairs 2026 Part 02 p.84; old app notes 5:79 (sub 6)
+~~ Sources: Shankar Environment ch.28 p.457-459; NextGen Environment - APPSC Part 4.2 p.2, Part 2.2 p.12; Rocket Environment p.41; Rocket Current Affairs 2026 Part 02 p.84; old app notes 5:79 (sub 6)
 
 === Rio Earth Summit 1992 and Follow-ups
 - **UN Conference on Environment and Development (UNCED)** = "**Earth Summit**", **Rio de Janeiro, Brazil, June 1992** – the **first international Earth Summit**.
