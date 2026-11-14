@@ -1086,3 +1086,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 380 → 50 kept + 86 new (136, 36%); new 53 statements / 21 match / 11 A–R / 1 sequence; 3 of 248 lines lost.
 - Notes conflict 118:0:14: Bangaru Farmana 1632 (old notes) vs 1636 (NextGen); kept own n632d7daf13a says 1632 — reconcile.
 - Kuchipudi own MCQs n2959e8d2e14, n6bbc94b2f4d unlinked, removed as not in notes.
+
+## rewrite b4-w037 (rows 37–41)
+- own 440 → 98 kept + 94 new (192, 44%); new 52 statements / 30 match / 12 A–R; no lines lost.
+- Row 40 notes conflict: deodar altitude 1,800–2,600 m (5:1) vs 1,500–3,000 m (5:0.2 table, own fbb175a35c800) — reconcile.
