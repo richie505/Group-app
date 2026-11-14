@@ -879,3 +879,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b5-p000: row 0 new sub "Pedagogy" (HWO teacher-education items; no pedagogy row anywhere). Doubtful: yc77581aa9e1 Whitehead vs Dewey; y8ec4ea6233e Carroll 1,1,4.
 - b1-p079: 88 adds. Doubtful: y9cd5c87c5a0 Mulki agitation keyed Mir Mahbub Ali Khan; y3e86f26a319 Andhra Mahasabha "against British". Unverified y6cc21acf1bf, y77a1f21f4b6, y2af935c3f31; ydb266d839d7 unkeyed.
 - b2-p034: 75 adds; row 44 new "Misfiled Items" sub (psychology y8f768970f3a, y626549fe9d7 — no psychology row). Fixed row 61 note: 2013 committee = Mani Shankar Aiyar (not V. Ramachandran). Unverified: Khader Mohiuddin, G. Satya Prabhakar Rao, AP 3rd SFC 2008, 12th FC "14 best practices"; y0af8d4bc65d unkeyed.
+
+## Spot-check
+- b6-s02 (135 GK keys, CA rows 96/103/108/109): 135 confirmed, 0 corrected. Outdated added: CWG 2022 Sudhir DQ (gold to Obichukwu), India tally 60. Gukesh Cannes Feb 2020.
