@@ -1518,3 +1518,13 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b1-w266 (rows 266–272)
 - own 340 → 87 kept + 83 new (170, 50%); new 47 statements / 23 match / 13 A–R; 3 of 239 lines lost (facts in match/PYQ). No wrong keys.
 - Table header rows read as data: 270:0:0.6 ("Pen name | Birth name"), 271:6:0.6 ("Institution | Year") — notes cleanup.
+
+## rewrite b6-w105 (rows 105–106)
+- own 422 → 102 kept + 104 new (206, 49%); new 63 statements / 30 match / 11 A–R; 1 of 321 lines lost.
+- FIXED: "Pesticides Act, 1968" → "Insecticides Act, 1968" in row-105 notes (10:2) and own MCQ ca43c40b19747b (b6-r104 all-mcqs).
+- Notes conflict: "India 91 Ramsar sites" (105:9:1.5) vs "100th Ramsar site" (105:0:1.5) — update to current count.
+- Stale cross-refs 105:8:14.4 "See 5.3", 106:10:2–4 "(5.1)/(4.2)/(8.3)"; table header as data row 106:6:5.7 — cleanup. ca54857b282b95 (Kaleshwaram, not in notes) removed.
+
+## rewrite b5-w106 (rows 106–109)
+- own 418 → 49 kept + 101 new (150, 36%); new 59 statements / 30 match / 12 A–R; 2 of 262 lines lost.
+- Removed: fa4e4e32b67f2 ("over 7 lakh" APCNF farmers; notes 9.53 lakh Dec 2024), g00383be7d3e4 ("Sixteenth" FC, not in notes).
