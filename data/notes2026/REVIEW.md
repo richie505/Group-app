@@ -1502,3 +1502,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 247 → 44 kept + 52 new (96, 39%); new 33 statements / 12 match / 7 A–R; 1 of 169 lines lost.
 - Doubtful PYQs: ye2935e267e7 Ramagundam = AP (now Telangana — ⚠ Outdated); y4fcd30814d9 Iran largest oil reserves (notes Venezuela — Outdated/Disputed); y961be7d29fb Shivasamudram first hydro (Sidrapong 1897 first; Shivasamudram 1902 first major — Disputed).
 - 100:0:6 Kazan on Trans-Siberian route — doubtful (main line via Yekaterinburg); check.
+
+## rewrite b3-w119 (rows 119–122)
+- own 404 → 88 kept + 81 new (169, 42%); new 46 statements / 26 match / 9 A–R; no lines lost.
+- Removed as not in notes: f512c5847d9bd (CCRC "2 Oct 2019"), g62f9f2917982 (Google "US$15 bn").
+- Doubtful notes: 120:1:5 NITI Aayog-keyed 37% fits net sown area; 120:3:19 Gokul Gram at Chadalawada vs 2025 APPSC key Nellore — check.
+- Mislinked kept own: f7fcb4fd50eee (1:34 → 2:10), f5affadf68686 (3:18 → 4:2), n79664bf8a7f (5:1 → 5:12).
