@@ -963,3 +963,5 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b6-w027 rewrite (rows 27-28): own 400 → 164 (41%). Notes: 27:4:5 Harivansh 'first nominated member Deputy Chairman' (wrong, elected); 27:1:16 '326 votes needed' inconsistent.
 - b5-w028 rewrite (rows 28-33): own 388 → 138 (36%), 0 lost. Notes: deepfake penalties 'under DPDP Act' doubtful (own f8833039316bb); '3-hour takedown 27 Mar 2026' unverified.
 - b3-w035 rewrite (rows 35-40): own 409 → 156 (38%). PYQ yd18f961c539 Swayamsiddha 2002 vs notes 2001.
+- b4-w027 rewrite (rows 27-29): own 397 → 146 (37%), 0 lost. Notes fixed: NIOT is in Chennai (not Nellore); AP coastline 974 km (old) / 1,053.07 km (2024).
+- b6-w029 rewrite (rows 29-31): own 392 → 145 (37%), 0 lost. Check: Nauru renamed 'Republic of Naoero' Aug 2026 (31:5:5.0).

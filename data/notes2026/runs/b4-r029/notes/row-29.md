@@ -65,7 +65,7 @@
 
 === Marine Resources of Andhra Pradesh
 # Why the coast matters (asked 1 time)
-- Residuary AP (2014) has little coal and leans on its **974 km coastline (2nd longest)** – **offshore resources** (fish, aquaculture, oil and gas, ports, beach minerals) (APPSC Panchayat Secretary).
+- Residuary AP (2014) has little coal and leans on its **coastline – 974 km (2nd longest) in older books; 1,053.07 km (3rd longest) after the 2024 remeasurement** – **offshore resources** (fish, aquaculture, oil and gas, ports, beach minerals) (APPSC Panchayat Secretary).
 - ~**30%** of India's fish, **31%** of shrimp exports (**Vannamei**); aquaculture districts: **West Godavari**, Eluru, Krishna, Bapatla, Nellore, Konaseema, Kakinada.
 - **10 fishing harbours** (₹3,699.09 crore) under **PMMSY, not Sagarmala**.
 - Oil and gas: **Krishna-Godavari (KG) basin**; beach sand minerals: **Srikakulam–Bhimunipatnam** coast.

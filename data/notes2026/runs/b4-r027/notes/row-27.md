@@ -69,7 +69,7 @@
 | High | Tamil Nadu, Andhra Pradesh, Puducherry, Odisha |
 | Moderate | Kerala, Karnataka, Goa, Maharashtra, Gujarat |
 - Sources for India: **Sunda-Andaman** subduction zone (east) and the **Makran** zone (west coast).
-- **Indian Tsunami Early Warning Centre (ITEWC)** at **INCOIS, Hyderabad** (MoES): detects tsunamigenic quakes within **10 minutes** and can warn **25 Indian Ocean countries**; **NIOT (Nellore)** OMNI buoys feed it. International Tsunami Information Centre: **Honolulu**. World Tsunami Awareness Day: **5 November**.
+- **Indian Tsunami Early Warning Centre (ITEWC)** at **INCOIS, Hyderabad** (MoES): detects tsunamigenic quakes within **10 minutes** and can warn **25 Indian Ocean countries**; **NIOT (Chennai)** OMNI buoys feed it. International Tsunami Information Centre: **Honolulu**. World Tsunami Awareness Day: **5 November**.
 > Traps: Japanese (not Latin); tides play no role; hurricanes do not cause tsunamis; the wave slows near the shore; the first wave may not be the largest.
 ~~ Sources: Rocket Disaster Management p.10-13; PMF Internal Security & DM 02 p.53-54 (book p.127-128); PMF Physical Geography 02 p.101-103 (book p.192-194); NCERT summary (OnlyIAS Indian Geography 05) p.20-21; app notes 4:27 sub 7
 === Disasters – Meaning, Classification and Onset

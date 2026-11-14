@@ -238,5 +238,305 @@
   "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the ESA ground-tracking support is for Gaganyaan. Hence the answer is '1 and 2 only'.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp123d176a3a0b",
+  "row": 35,
+  "s": "Match List-I (Mission) with List-II (Launch vehicle):\nList-I\na. Chandrayaan-1\nb. SpaDeX\nc. RISAT-2BR1\nd. GSAT-6A\nList-II\ni. GSLV-F08\nii. PSLV-C48\niii. PSLV-C11\niv. PSLV-C60\nSelect the correct answer:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 1,
+  "x": "Chandrayaan-1 – PSLV-C11; SpaDeX – PSLV-C60; RISAT-2BR1 – PSLV-C48; GSAT-6A – GSLV-F08. So a-iii, b-iv, c-ii, d-i.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc7f2d567278c",
+  "row": 35,
+  "s": "Match List-I (Satellite) with List-II (Launch vehicle):\nList-I\na. NISAR\nb. BlueBird Block-2\nc. EOS-05\nd. NVS-02\nList-II\ni. LVM3-M6\nii. GSLV-F17\niii. GSLV-F15\niv. GSLV-F16\nSelect the correct answer:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 3,
+  "x": "NISAR – GSLV-F16; BlueBird Block-2 – LVM3-M6; EOS-05 – GSLV-F17; NVS-02 – GSLV-F15. So a-iv, b-i, c-ii, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc4f98889bfa3",
+  "row": 35,
+  "s": "Consider the following statements about recent Indian launches:\n1. PSLV-C61/EOS-09 (May 2025) and PSLV-C62 (January 2026) both failed at the third stage.\n2. GSLV-F15, the 17th GSLV flight, placed NVS-02 in its intended orbit.\n3. LVM3-M2 and LVM3-M3 together launched 72 OneWeb satellites.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "2 only",
+   "1 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: a valve fault left NVS-02 short of its intended orbit. Statement 3 is correct. Hence the answer is '2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc71c60104404",
+  "row": 35,
+  "s": "Consider the following statements about the LVM3-M2 / OneWeb India-1 mission (23 October 2022):\n1. Its 36 satellites together weighed about 5,796 kg.\n2. It was the first LVM3 launch to a geosynchronous transfer orbit.\n3. The customer was Network Access Associates Ltd (OneWeb).\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: it was the first LVM3 launch to LEO. Statement 3 is correct. Hence the answer is 'Only two'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9346ccc71670",
+  "row": 35,
+  "s": "Consider the following:\nAssertion (A): Polar and sun-synchronous launches from Sriharikota fly southward and need a dog-leg around Sri Lanka.\nReason (R): Satellites are always launched eastward to use the Earth's west-to-east rotation.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: polar/SSO launches go south and must bend round Sri Lanka. R is false: launches are mostly, not always, eastward – polar/SSO launches are the exception.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp800a18970285",
+  "row": 35,
+  "s": "Consider the following:\nAssertion (A): TERLS at Thumba, near Thiruvananthapuram, was chosen as India's first rocket launching station for sounding rockets.\nReason (R): The geomagnetic (magnetic) equator passes through Thumba.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: Thumba lies on the magnetic equator, ideal for upper-atmosphere studies with sounding rockets.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3d791a9baea6",
+  "row": 35,
+  "s": "Consider the following:\nAssertion (A): SLV-3 is no longer in operational use by ISRO.\nReason (R): SLV-3 was a four-stage, all-solid launch vehicle.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: SLV-3 (and ASLV) were retired as larger vehicles came; being all-solid is not the reason it is out of use.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb51feb19d46e",
+  "row": 35,
+  "s": "Consider the following statements about the PSLV:\n1. Its four stages are solid–liquid–solid–liquid, and it has no cryogenic stage.\n2. The PSLV-XL variant uses four strap-on motors.\n3. It can place about 1,750 kg into a sun-synchronous orbit.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "3 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: XL uses six strap-ons; QL uses four. Statement 3 is correct. Hence the answer is '1 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2f33ef4396dd",
+  "row": 35,
+  "s": "Consider the following statements:\n1. The first GSLV flight, GSLV-D1 (18 April 2001), carried GSAT-1.\n2. The GSLV is a third-generation Indian launch vehicle.\n3. The LVM3-X / CARE suborbital test was flown on 18 December 2014.\n4. The LVM3 can lift about 4 tonnes to GTO and about 8 tonnes to LEO.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: GSLV is the fourth-generation vehicle; PSLV is the third. Statement 3 is correct. Statement 4 is correct. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp063cea4ad239",
+  "row": 35,
+  "s": "Consider the following statements about the Small Satellite Launch Vehicle (SSLV):\n1. It can be assembled both vertically and horizontally.\n2. With a lift-off mass of about 120 t, it is taller than the PSLV.\n3. SSLV-D2 (10 February 2023) was its first successful launch.\n4. HAL won the Rs 511 crore Transfer of Technology to build it.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "2 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: at 34 m the SSLV is shorter than the PSLV and GSLV. Statement 3 is correct. Statement 4 is correct. Hence the answer is '2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8e405b006332",
+  "row": 35,
+  "s": "Match List-I (Launch vehicle) with List-II (Stages):\nList-I\na. SLV-3\nb. ASLV\nc. PSLV\nd. SSLV\nList-II\ni. Five, all-solid\nii. Four, all-solid\niii. Three solid stages and a liquid Velocity Trimming Module\niv. Solid–liquid–solid–liquid\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "SLV-3 – Four, all-solid; ASLV – Five, all-solid; PSLV – Solid–liquid–solid–liquid; SSLV – Three solid stages and a liquid Velocity Trimming Module. So a-ii, b-i, c-iv, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp10e0e17bf3f0",
+  "row": 35,
+  "s": "Match List-I (Launch vehicle) with List-II (First successful payload):\nList-I\na. SLV-3\nb. ASLV\nc. PSLV\nd. GSLV\nList-II\ni. SROSS-C\nii. GSAT-1\niii. Rohini RS-1\niv. IRS-P2\nSelect the correct answer:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "SLV-3 – Rohini RS-1; ASLV – SROSS-C; PSLV – IRS-P2; GSLV – GSAT-1. So a-iii, b-i, c-iv, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpff8fe1d28f9d",
+  "row": 35,
+  "s": "Consider the following statements:\n1. The first ASLV flight (D1, March 1987) failed.\n2. The first SSLV flight (D1, August 2022) failed.\n3. The SLV-3 project was led by Vikram Sarabhai.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the SLV-3 project was led by A.P.J. Abdul Kalam. Hence the answer is '1 and 2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa198078d2317",
+  "row": 35,
+  "s": "Consider the following statements about sounding rockets:\n1. The first rocket launched from Thumba was the American Nike-Apache, on 21 November 1963.\n2. Centaure, one of the early imported sounding rockets, came from France.\n3. The number in names such as RH-200 and RH-560 gives the maximum altitude in km.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the number is the rocket's diameter in mm. Hence the answer is 'Only two'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp30197d711589",
+  "row": 35,
+  "s": "Consider the following statements about the Rohini sounding rockets:\n1. RH-300 Mk-II is a single-stage rocket.\n2. RH-560 Mk-III is a two-stage rocket that reaches about 470–550 km to study the ionosphere.\n3. SLV-3, ASLV and PSLV belong to the Rohini sounding-rocket series.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: they are orbital launch vehicles, not sounding rockets. Hence the answer is '1 and 2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpefd9506d1334",
+  "row": 35,
+  "s": "Consider the following statements about orbits:\n1. A sun-synchronous satellite passes over a given place at the same local solar time.\n2. A geostationary satellite orbits over the equator and appears fixed in the sky.\n3. The apogee is the point of an orbit nearest to the Earth.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 only",
+   "3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: apogee is the farthest point; perigee is the nearest. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe302071b1c33",
+  "row": 35,
+  "s": "Consider the following statements about private launch activity in India:\n1. Agnikul's Agnibaan SOrTeD (30 May 2024) used the 3D-printed Agnilet semi-cryogenic engine.\n2. Skyroot's Vikram-S ('Prarambh') reached about 89.5 km on a suborbital flight.\n3. Up to 74% FDI is allowed through the automatic route in launch vehicles and spaceports.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: automatic-route FDI in launch vehicles and spaceports is 49%. Hence the answer is '1 and 2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp68caa76336a8",
+  "row": 35,
+  "s": "Consider the following statements:\n1. The NGLV is planned as a heavy launcher with a reusable first stage, able to put 30 t into LEO.\n2. The HLVM3 is the human-rated LVM3 meant to carry the Gaganyaan crew to about 400 km.\n3. New Shepard, the suborbital reusable rocket that landed in November 2015, was developed by SpaceX.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: New Shepard is Blue Origin's; SpaceX's Falcon 9 made the first orbital-class booster landing (Dec 2015). Hence the answer is 'Only two'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3ab98126eba7",
+  "row": 35,
+  "s": "Match List-I (Engine) with List-II (Feature):\nList-I\na. CE-7.5\nb. CE-20\nc. SCE-200\nd. Vikas\nList-II\ni. Powers the C25 stage of LVM3\nii. Cryogenic upper stage of GSLV Mk II\niii. UH25 and N2O4\niv. Refined kerosene and liquid oxygen\nSelect the correct answer:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iv, b-i, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "CE-7.5 – Cryogenic upper stage of GSLV Mk II; CE-20 – Powers the C25 stage of LVM3; SCE-200 – Refined kerosene and liquid oxygen; Vikas – UH25 and N2O4. So a-ii, b-i, c-iv, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp36abee8e375b",
+  "row": 35,
+  "s": "Consider the following statements about India's cryogenic stages:\n1. Early GSLVs flew Russian KVD-1 cryogenic stages.\n2. The first success of India's own cryogenic stage came on GSLV-D5 in January 2014.\n3. Indian cryogenic engines are tested at IPRC Mahendragiri in Kerala.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "3 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: Mahendragiri is in Tamil Nadu. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
