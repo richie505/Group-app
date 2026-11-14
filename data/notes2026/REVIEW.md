@@ -734,3 +734,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No PYQ key changes. y517ba010dc6 Kashi Tamil Sangamam: official "B & C only" is flat error; stays on added option "A, B, C & D".
 - Own MCQ ca2903cee151d0 ULLAS: add_option "None of these" (Sikkim fully literate 27 May 2026), outdated.
 - General knowledge: Sampada MP, NRT, Siddaganga Tumakuru, Buxar–Bhagalpur PURVODAYA, first Vande Bharat route. Nyaya Mitra status uncertain.
+
+## b6-r057 (CA row 57 international summits overview)
+- ye29804af727 5th India-Arab Partnership Conference: Dubai → Muscat (Dec 2016). y59654082c9a -1 → Vietnam (stem says billion; actual $300 million).
+- Dispute y9a3375cbdcd IJC 2020. Unverified y3fbf046a770 Earth Science summit 2020 Czech Republic; yc1047757686 WES 2023 UP.
+- India-AI Impact Summit 16–21 Feb 2026 (Rocket); next SCO summit Pakistan 2027.
