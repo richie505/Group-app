@@ -1,0 +1,46 @@
+=== Conversion to Buddhism and Navayana
+| Event | Date | Place / fact |
+|---|---|---|
+| Yeola declaration ("born a Hindu… will not die a Hindu") | 13 Oct 1935 | Depressed Classes Conference, Yeola (Nashik) |
+| Bharatiya Buddha Mahasabha | 1955 | – |
+| **Conversion** | **14 Oct 1956** | **Deekshabhoomi, Nagpur**; with wife and about 5 lakh followers (mostly Mahars); **22 vows** |
+| Death | 6 Dec 1956 | Delhi |
+- **Navayana** ("new vehicle") = **Neo-Buddhism** / Ambedkarite Buddhism → **Dalit Buddhist Movement**, advocated by **Ambedkar**; rejects karma, rebirth, monasticism.
+- **Sikhism** was considered first – backed by **B.S. Moonje**; opposed by Gandhi, Rajagopalachari, Malaviya.
+- **Constitution (Scheduled Castes) Order, 1950:** only Hindus at first; **Sikhs added 1956**; **Buddhists added 1990** (SC Orders (Amendment) Act, 1990).
+- Supreme Court, 24 March 2026 (old app notes): conversion out of Hinduism, Sikhism or Buddhism = loss of SC status.
+~~ Sources: PMF Modern History Part 5 p.128-129; PMF Art & Culture Part 5 p.81; Rocket Indian History Part 2 p.51; old app notes row 252
+
+=== Annihilation of Caste and the Case for Political Power
+- **1936**, an **undelivered** address for the **Jat-Pat Todak Mandal, Lahore**; the invitation was withdrawn, so Ambedkar **self-published** it.
+- Caste has **religious sanction in the Shastras**, so the **whole caste system**, not just untouchability, must go; **inter-caste marriage** = the real remedy; **Gandhi replied in Harijan**.
+- Caste is "not just a division of labour, but a **division of labourers**".
+- He backed **separate electorates** for the depressed classes because **some political power was necessary for them to protect themselves**; under the Poona Pact he settled for **148 reserved seats** in joint electorates; later felt the Poona Pact made Dalits **dependent on caste Hindus**; criticised Congress for refusing to treat caste as a political issue.
+~~ Sources: PMF Modern History Part 5 p.202; Spectrum Modern India p.422-425; old app notes row 252
+
+=== Books and Themes
+| Work | Year | Theme |
+|---|---|---|
+| Who Were the Shudras? | 1946 | Shudras originally Kshatriyas, degraded after conflict with Brahmins |
+| States and Minorities | 1947 | Memorandum for the Scheduled Castes Federation; **State socialism** |
+| The Untouchables | 1948 | **"Broken men"** theory of untouchability |
+| Thoughts on Linguistic States | 1955 | Smaller states |
+| The Buddha and His Dhamma | 1957 (posthumous) | Basis of Navayana |
+~~ Sources: PMF Modern History Part 5 p.202; old app notes row 252
+
+=== State Socialism, Village and Gandhi
+- **States and Minorities (1947):** State ownership of key industries and **agricultural land**, **collective farming**, **nationalised insurance** – to be written into the **Constitution** so a legislative majority could not undo it.
+- **Individual**, not the village, the basic unit; rejected **Gram Swaraj** and **trusteeship**; wanted a **strong, centralised** democracy; in the Constituent Assembly (**4 November 1948**) he called the village "a **sink of localism**, a den of ignorance, narrow-mindedness and communalism".
+| Issue | Gandhi | Ambedkar |
+|---|---|---|
+| Caste | Varna = division of labour | Annihilate it |
+| Term | "Harijan" | Rejected |
+| Electorate (1932) | Opposed separate electorates; fasted | Demanded them |
+| Religion | Reform from within | Buddhism (1956) |
+~~ Sources: Spectrum Modern India p.427-431; old app notes row 252
+
+=== Linguistic States, Women, Labour and Education
+- **Thoughts on Linguistic States (1955):** "**one state, one language**", not "one language, one state"; divide UP, Bihar, MP; **Hyderabad as second capital**.
+- **Labour Member (1942–46):** backed the **8-hour working day**; Independent Labour Party (1936); resigned as Law Minister in **1951** over the stalled **Hindu Code Bill**.
+- **Education:** People's Education Society (1945); Siddharth College (1946).
+~~ Sources: old app notes row 252

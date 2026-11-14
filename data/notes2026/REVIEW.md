@@ -1418,3 +1418,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 393 → 79 kept + 86 new (165, 42%); new 52 statements / 22 match / 12 A–R; no lines lost.
 - Minamata disease: notes 1956 (official identification) vs PYQ y7b2006cb1e9 1953 (first cases) — add both to notes.
 - 98:4:1 mercury "no known safe level" key disputed (notes flag) — not used.
+
+## rewrite b1-w233 (rows 233–238)
+- own 395 → 79 kept + 70 new (149, 38%); new 39 statements / 20 match / 11 A–R; 1 of 223 lines lost.
+- Doubtful PYQs: yb35fb6dc578 "Belgaum 1925" (session Dec 1924); y30833dbfc94 Dandi march "completed 6 April" (reached 5 April, salt law broken 6 April — defensible, Disputed chip).
+- Notes conflicts: Kakinada bomb case 1930 vs 1933 (238:3:0); Bulusu at Chollangi (238:1:0.1) vs Vadarevu (238:1:1) — reconcile.
+- Removed as not in notes: n6378b5b9c21, n159b605ebd2, g87d478e29d31, nb328c725c61.

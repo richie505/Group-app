@@ -1,23 +1,83 @@
 [
  {
-  "id": "cpb3d40fa26c63",
-  "row": 108,
-  "s": "Match List-I with List-II:\nList-I (Economic Survey)\na. 2014-15\nb. 2015-16\nc. 2017-18\nd. 2020-21\nList-II (Signature idea)\ni. Pink cover on gender\nii. JAM trinity – Jan Dhan, Aadhaar, Mobile\niii. Bare Necessities Index\niv. Chakravyuha challenge – easy entry, blocked exit of firms\nSelect the correct answer using the code given below:",
+  "id": "cpcca7aea6c763",
+  "row": 109,
+  "s": "Consider the following statements about the sectoral shares in Andhra Pradesh's GVA (current prices):\n1. At bifurcation (2014-15) the agriculture : industry : services shares were about 30 : 26 : 44.\n2. In the triennium ending 2016-17 the tertiary sector had the largest average share, about 42%.\n3. In 2025-26 (FAE) agriculture and allied sectors accounted for about 43% of GSDP.\nWhich of the statements given above is/are correct?",
   "o": [
-   "a-ii, b-i, c-iv, d-iii",
-   "a-ii, b-iii, c-iv, d-i",
-   "a-i, b-iv, c-ii, d-iii",
-   "a-ii, b-iv, c-i, d-iii"
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only"
   ],
   "a": 3,
-  "x": "ES 2014-15 – JAM trinity (Jan Dhan, Aadhaar, Mobile) for targeted DBT; ES 2015-16 – Chakravyuha challenge (easy entry, blocked exit); ES 2017-18 – pink cover on gender; ES 2020-21 – 'Saving Lives and Livelihoods' and the Bare Necessities Index.",
+  "x": "Statement 3 is wrong: in 2025-26 (FAE) agriculture and allied gave 33.20% of GSDP (₹5,39,454 of ₹17,62,357 crore); about 43% is the services share (33 : 24 : 43). Shares were 30 : 26 : 44 in 2014-15, and the tertiary sector averaged 42% in TE 2016-17 – services stay the largest sector every year.",
   "src": "app",
-  "tq": "match"
+  "tq": "statements"
  },
  {
-  "id": "cp60c0d052082f",
-  "row": 108,
-  "s": "Consider the following pairs of an Economic Survey and its idea:\n1. 2018-19 – Behavioural economics – 'nudge'\n2. 2019-20 – Thalinomics and wealth creation\n3. 2021-22 – 'Agile approach' with 80 high-frequency indicators\n4. 2023-24 – 'Building Strategic Indispensability'\nHow many of the above pairs are correctly matched?",
+  "id": "cp74d25e9c5f65",
+  "row": 109,
+  "s": "Consider the following statements about Andhra Pradesh's economic structure:\n1. The share of agriculture in AP's GSDP is about twice India's share.\n2. At constant prices in 2024-25 the agriculture : industry : services split was about 30 : 28 : 42.\n3. Agriculture employs about 45.6% of AP's workers (SES 2024-25).\n4. Services form a larger share of AP's economy than of India's.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 4 is wrong: services are about 53% of India's GVA but about 42% of AP's. NITI Aayog notes that agriculture gives more than one-third of AP's GSDP, about twice India's ~18%; at constant 2024-25 prices the split is about 30 : 28 : 42; agriculture employs 45.6% of workers (manufacturing 22.8%, services 31.6%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp99b5cd1dbe82",
+  "row": 109,
+  "s": "Consider the following statements:\nAssertion (A): Manufacturing is described as the 'missing middle' of Andhra Pradesh's economy.\nReason (R): Manufacturing contributes only about 11% of Andhra Pradesh's GSDP.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: manufacturing gives only about 11% of GSDP, so AP has jumped from agriculture to services with a 'missing middle'; Industrial Development Policy 4.0 (2024-29) puts manufacturing at the centre.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp17f50060a492",
+  "row": 109,
+  "s": "Consider the following statements about the sub-sectors of Andhra Pradesh's GVA:\n1. At current prices in 2024-25, livestock was the largest sub-sector.\n2. In 2025-26, manufacturing and livestock had equal shares (10.84% each), followed by fishing and aquaculture (9.42%).\n3. At constant prices, livestock is the largest sub-sector of agriculture and allied.\n4. Livestock formed about 30.87% of agriculture GVA in 2023-24.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "1 and 3 only",
+   "3 and 4 only",
+   "2 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is NOT correct: at constant prices the largest agricultural sub-sector is fishing and aquaculture (₹77,085 crore in 2024-25, ₹90,673 crore in 2025-26); livestock leads only at current prices (12% of GVA in 2024-25; about ₹1.5 lakh crore = 30.87% of agri GVA in 2023-24). In 2025-26 manufacturing = livestock (10.84%), then fishing 9.42%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2e09574f5771",
+  "row": 109,
+  "s": "Consider the following statements about the GSDP of Andhra Pradesh:\n1. GSDP is obtained by adding product taxes to GVA and subtracting product subsidies.\n2. It is compiled by the National Statistical Office (NSO).\n3. It is classified into 3 sectors and 17 sub-sectors, with construction under industry and 8 sub-sectors under services.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: AP's GSDP is compiled by the State's Directorate of Economics & Statistics (DES), not the NSO, at current and constant 2011-12 prices. GSDP = GVA + product taxes – product subsidies; 3 sectors and 17 sub-sectors (agriculture 5, industry 4 including construction, services 8).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd72be0a063a3",
+  "row": 109,
+  "s": "Consider the following statements:\n1. GSDP estimates move through the stages AE/FAE → FRE → SRE → TRE.\n2. AP's real growth for 2024-25 was revised from 9.24% (FAE) to 8.27% (FRE).\n3. India's new GDP series released by MoSPI in February 2026 has base year 2022-23.\n4. AP's Socio-Economic Survey tables now compute constant-price GSDP at 2004-05 prices.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -25,187 +85,367 @@
    "All four"
   ],
   "a": 2,
-  "x": "Pair 4 is wrong: 'Building Strategic Indispensability' is the theme of ES 2025-26; ES 2023-24 spoke of the State 'letting go'. ES 2018-19 (4 July 2019) – nudge and 'pious obligation'; ES 2019-20 – wealth creation, Thalinomics; ES 2021-22 – agile approach with 80 high-frequency indicators.",
-  "src": "app",
-  "tq": "match"
- },
- {
-  "id": "cpb9ec5be6b2df",
-  "row": 108,
-  "s": "Consider the following statements:\n1. The Economic Survey 2016-17 put forward Universal Basic Income as a radical idea.\n2. The hidden NPAs behind the Twin Balance Sheet problem were exposed by the RBI's Asset Quality Review of 2015.\n3. The Centre's gross tax revenue recorded its highest growth (17.9%) in 2014-15.\nWhich of the statements given above is/are correct?",
-  "o": [
-   "1 only",
-   "1 and 2 only",
-   "2 and 3 only",
-   "1, 2 and 3"
-  ],
-  "a": 1,
-  "x": "Statement 3 is wrong: the highest growth of the Centre's gross tax revenue (17.9%) was in 2016-17. ES 2016-17 proposed UBI against poor targeting and misallocation of welfare schemes and discussed the Twin Balance Sheet, whose hidden NPAs were exposed by the RBI Asset Quality Review (2015).",
+  "x": "Statement 4 is wrong: AP tables still use the 2011-12 base, even though India's new GDP series (MoSPI, 27 Feb 2026) uses 2022-23. Estimates are revised through AE/FAE → FRE → SRE → TRE, e.g. 2024-25 real growth 9.24% FAE → 8.27% FRE.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cpdc3cded70cb3",
-  "row": 108,
-  "s": "Consider the following statements:\n1. The Economic Survey 2022-23 projected real GDP growth of 6.5% for 2023-24.\n2. The Economic Survey 2023-24 called for the State 'letting go'.\n3. Deregulation was the central theme of the Economic Survey 2024-25.\n4. According to the Economic Survey 2023-24, real GDP grew 7.2% in FY24.\nWhich of the statements given above is/are correct?",
+  "id": "cp4baa913a718b",
+  "row": 109,
+  "s": "Match List-I with List-II:\nList-I (Year)\na. 2015-16\nb. 2017-18\nc. 2020-21\nd. 2021-22\nList-II (AP's GSDP growth)\ni. 1.52% constant (series low)\nii. First among States, about 11.2%\niii. 'Record' 11.43% first reported, later revised to 7.14%\niv. Only State with double-digit growth; 12.16% constant (series peak)\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "2015-16 – AP was the only State with double-digit growth (12.16% in today's series, the peak); 2017-18 – first among States at about 11.2%; 2020-21 – 1.58% AE, 1.52% revised (the series low) while India contracted; 2021-22 – 'record' 11.43%, cut to 7.14% in the TRE.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb138d1728720",
+  "row": 109,
+  "s": "Consider the following statements about Andhra Pradesh's growth compared with India's:\n1. In 2023-24, AP's real growth (6.18%) was lower than India's (8.2%).\n2. From 2024-25 AP has grown faster than India.\n3. In 2025-26 (FAE) AP grew faster than India only at current prices.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: in 2025-26 AP grew faster than India on both current (10.75%) and constant (9.88% vs 7.4%) prices. AP was slower in 2023-24 (6.18% vs 8.2%) and faster from 2024-25 (9.24% vs 6.4%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp473a579284f2",
+  "row": 109,
+  "s": "Consider the following statements:\n1. According to the EAC-PM, AP's share of India's GDP was 4.7% in 2023-24.\n2. Maharashtra is the largest State economy; AP ranks 8th in recent lists.\n3. AP's Socio-Economic Survey 2025-26 was tabled in the Budget session and released on 12 April 2026.\n4. AP's GSDP of ₹17.62 lakh crore in 2025-26 is about 4.9% of India's GDP.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
+   "1, 2 and 4 only",
    "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: SES 2025-26 was NOT tabled in the Budget session; it was released on 12 April 2026. AP's share was 4.7% of India's GDP in 2023-24 (EAC-PM) and about 4.9% in 2025-26; Maharashtra is the largest State economy and AP is about 8th (7th in 2018).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8caf311cc251",
+  "row": 109,
+  "s": "Consider the following statements about Andhra Pradesh's growth (constant prices):\n1. Agriculture and allied grew 10.70% in 2024-25 (FAE).\n2. In 2025-26 (FAE) GSDP grew 9.88%, with services the fastest-growing sector (10.67%).\n3. In Q2 2025-26 industry was the best-performing sector.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: in Q2 2025-26 agriculture was the best performer (13.5%), with industry 10.6% and services 9.9%. Agriculture grew 10.70% in 2024-25 (FAE); in 2025-26 (FAE) GSDP grew 9.88% and services 10.67%, the highest.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe0f74dde30bc",
+  "row": 109,
+  "s": "Consider the following statements:\nAssertion (A): The average growth of Andhra Pradesh's agriculture and allied sector since bifurcation (to 2018) was about 18%.\nReason (R): Agriculture and allied grew 18.23% in 2017-18, its single-year peak.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 3,
+  "x": "A is false: the average agricultural growth since bifurcation (to 2018) was about 11% (2014-15 to 2017-18 average 11.3%). R is true: 18.23% in 2017-18 is the single-year peak, not the average.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp286288953b5f",
+  "row": 109,
+  "s": "Match List-I with List-II:\nList-I (Sub-sector)\na. Construction\nb. Banking & Insurance\nc. Communications\nd. Fishing & aquaculture\nList-II (Growth record)\ni. Fastest agricultural sub-sector in 2025-26 (17.69%)\nii. Fastest services sub-sector in 2025-26 (15.13%)\niii. Fastest industrial sub-sector in 2024-25 and 2025-26\niv. Highest services growth in 2024-25 (14.25%)\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-i, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Construction was the fastest industrial sub-sector (9.55% in 2024-25, 14.18% in 2025-26); Banking & Insurance had the highest services growth in 2024-25 (14.25%); Communications was fastest in 2025-26 (15.13%); fishing & aquaculture led agriculture in 2025-26 (17.69%).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4cb59b5673de",
+  "row": 109,
+  "s": "Consider the following statements about Andhra Pradesh's sub-sectors:\n1. Manufacturing is about half of industry GVA (2024-25).\n2. Mining recorded its lowest growth, -26.5%, in 2020-21.\n3. Crops were the fastest-growing agricultural sub-sector in 2024-25 (14.99%).\n4. Fishing and aquaculture grew 11.29% in 2024-25.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "All four are correct: manufacturing is about half of industry GVA (₹1,06,281 of ₹2,22,741 crore); mining fell -26.5% in 2020-21; in 2024-25 crops grew fastest in agriculture (14.99%), with fishing 11.29% and livestock 9.53%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7269eb11b320",
+  "row": 109,
+  "s": "Consider the following statements about agriculture in Andhra Pradesh:\n1. Foodgrain production peaked at 123.57 lakh tonnes in 2019-20.\n2. Foodgrain output dipped to 108.39 lakh tonnes in the drought year 2018-19.\n3. SES 2024-25 targets 30% agricultural growth over five years through 17 growth engines.\n4. AP gives about a quarter of India's farm output.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
    "1, 2 and 3 only",
    "1, 3 and 4 only"
   ],
   "a": 2,
-  "x": "Statement 4 is wrong: FY24 real GDP growth was 8.2%. ES 2022-23 projected 6.5% for 2023-24, ES 2023-24 spoke of 'letting go', and deregulation was the central theme of ES 2024-25.",
+  "x": "Statement 4 is wrong: AP gives about 10% of India's farm output. Foodgrains peaked at 123.57 lakh t (2019-20) and dipped to 108.39 lakh t in the 2018-19 drought; SES 2024-25 targets 30% agricultural growth over five years via 17 growth engines.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp811c764d3314",
-  "row": 108,
-  "s": "Consider the following statements about the Economic Survey of India:\n1. It is prepared by the Economic Division of the Department of Economic Affairs under the Chief Economic Adviser.\n2. Presenting it before the Budget is a constitutional duty under Article 112.\n3. The first Survey was for 1950-51, and it has been presented separately from the Budget since 1964.\n4. Since 2021-22 it is a single volume with a statistical appendix.\nWhich of the statements given above is/are correct?",
+  "id": "cp6262682213a3",
+  "row": 109,
+  "s": "Match List-I with List-II:\nList-I (Item)\na. Eggs\nb. Raw silk\nc. MGNREGS employment\nd. Meat\nList-II (AP's national rank (SES 2025-26))\ni. 3rd\nii. 2nd\niii. 4th\niv. 1st\nSelect the correct answer using the code given below:",
   "o": [
-   "1 and 2 only",
-   "1 and 3 only",
-   "2, 3 and 4 only",
-   "1, 3 and 4 only"
-  ],
-  "a": 3,
-  "x": "Statement 2 is wrong: presenting the Survey before the Budget is only a convention – Article 112 concerns the Budget (Annual Financial Statement). The Survey is prepared by the Economic Division of DEA under the CEA; first Survey 1950-51; separate from the Budget since 1964; single volume plus statistical appendix since 2021-22.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cpd4b9a6a26579",
-  "row": 108,
-  "s": "Match List-I with List-II:\nList-I (Adviser)\na. Arvind Subramanian\nb. K.V. Subramanian\nc. Sanjeev Sanyal (Principal Economic Adviser)\nd. V. Anantha Nageswaran\nList-II (Economic Surveys)\ni. 2018-19 to 2020-21\nii. 2021-22\niii. 2014-15 to 2017-18\niv. 2022-23 to 2025-26\nSelect the correct answer using the code given below:",
-  "o": [
-   "a-iv, b-iii, c-ii, d-i",
-   "a-iii, b-i, c-ii, d-iv",
-   "a-ii, b-i, c-iii, d-iv",
-   "a-iii, b-iv, c-i, d-ii"
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-iii, c-i, d-ii"
   ],
   "a": 1,
-  "x": "Arvind Subramanian – 2014-15 to 2017-18; K.V. Subramanian – 2018-19 to 2020-21; Sanjeev Sanyal (as Principal Economic Adviser) – 2021-22; V. Anantha Nageswaran – 2022-23 to 2025-26 (term to 31 March 2027).",
+  "x": "SES 2025-26: AP is 1st in eggs (and fruits, fish, marine and tobacco exports, SHG-bank linkage), 2nd in raw silk, 3rd in MGNREGS employment, 4th in meat and 7th in milk.",
   "src": "app",
   "tq": "match"
  },
  {
-  "id": "cp540face54d1b",
-  "row": 108,
-  "s": "Consider the following statements about the Economic Survey 2025-26:\n1. Its theme is 'Building Strategic Indispensability'.\n2. Its Chapter 1 is titled 'Saving Lives and Livelihoods'.\n3. It has 17 chapters, with new chapters on Artificial Intelligence and urbanisation.\nWhich of the statements given above is/are correct?",
+  "id": "cp349100231986",
+  "row": 109,
+  "s": "Consider the following statements about Andhra Pradesh's share in India (SES 2025-26):\n1. AP produces about 15.6% of India's fruits.\n2. AP accounts for about 43% of India's marine exports and about 75% of its cultured shrimp.\n3. AP accounts for about 47% of India's tobacco exports.\n4. AP produced about 51 lakh tonnes of fish in 2024-25.\nHow many of the above statements are correct?",
   "o": [
-   "1 only",
-   "2 and 3 only",
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: AP's share of India's tobacco exports is 67%. AP is first in fruits (15.6%), fish (51 lakh t in 2024-25), marine exports (43%; ~75% of cultured shrimp) and tobacco exports.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdc0fef2402d2",
+  "row": 109,
+  "s": "Consider the following statements about the Sunrise Andhra Pradesh Vision 2029:\n1. It was launched in 2016 with a target of 12% annual growth till 2029.\n2. Its objective is to double per capita income every ten years.\n3. It targets an HDI of 0.9 by 2029 through the saturation approach.\n4. Its 2029 targets include a 30% renewable energy share and 100% drought proofing.\nWhich of the statements given above is/are correct?",
+  "o": [
    "1 and 3 only",
+   "2 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: the objective is to double per capita income every FIVE years (PCI target about ₹9.61 lakh by 2029). Vision 2029 (2016) targets 12% CAGR, HDI 0.9 by 2029 via the saturation approach, 30% renewable energy, 100% drought proofing and 100% solid and liquid waste management.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp78f049713bf1",
+  "row": 109,
+  "s": "Consider the following statements:\n1. Vision 2020 (1999), under N. Chandrababu Naidu, was the first long-term vision of undivided Andhra Pradesh.\n2. Swarna Andhra @2047 was launched on 13 December 2024.\n3. Universal Basic Income is one of the 10 Padi Sutralu of Swarna Andhra.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
   "a": 2,
-  "x": "Statement 2 is wrong: Chapter 1 is 'State of the Economy: Pushing the Growth Frontier'; 'Saving Lives and Livelihoods' was the theme of ES 2020-21. ES 2025-26's theme is 'Building Strategic Indispensability', and its 17 chapters include new ones on AI and urbanisation.",
+  "x": "Statement 3 is wrong: UBI is NOT one of the 10 Padi Sutralu (Zero Poverty; Population Management & HRD; Skilling & Employment; Water Security; Farmer-Agri Tech; Global Best Logistics; Energy & Fuel cost optimisation; Product Perfection; Swachh Andhra; Deep Tech). Vision 2020 (1999, Naidu) was the first long-term vision; Swarna Andhra @2047 was launched on 13 December 2024.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp4a5202d28c63",
-  "row": 108,
-  "s": "Match List-I with List-II:\nList-I (Indicator (Economic Survey 2025-26))\na. Real GDP growth FY26 (First Advance Estimates)\nb. Projection for FY27\nc. Potential growth\nd. Services growth FY26\nList-II (Value)\ni. 7.0%\nii. 6.8% – 7.2%\niii. 9.1%\niv. 7.4%\nSelect the correct answer using the code given below:",
+  "id": "cpb87da0083f07",
+  "row": 109,
+  "s": "Match List-I with List-II:\nList-I (Swarna Andhra @2047 target)\na. GSDP\nb. Annual growth\nc. Unemployment\nd. Women's workforce participation\nList-II (Value for 2047)\ni. 15%\nii. More than $2.4 trillion\niii. Less than 2%\niv. More than 80%\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iv, b-ii, c-iii, d-i",
-   "a-iv, b-ii, c-i, d-iii",
-   "a-i, b-iii, c-iv, d-ii"
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iii, b-iv, c-ii, d-i"
   ],
   "a": 2,
-  "x": "ES 2025-26: real GDP FY26 (FAE) 7.4%; FY27 projection 6.8-7.2%; potential growth 7.0%; services – the 'stabilising anchor' – 9.1% in FY26 (agriculture 3.1%, manufacturing 7.0%).",
+  "x": "Swarna Andhra @2047: GSDP over $2.4 trillion (from ₹15.91 lakh crore in 2024-25), 15% annual growth, unemployment below 2% (from 5.8%), women's workforce participation above 80% (from ~45.8%); PCI above $42,000; skilled workforce above 95%.",
   "src": "app",
   "tq": "match"
  },
  {
-  "id": "cpb118049efd4d",
-  "row": 108,
-  "s": "Consider the following statements about the Economic Survey 2025-26:\n1. CPI inflation was 1.7% in April-December FY26.\n2. The gross NPA ratio of banks fell to a multi-decade low of 2.2%.\n3. The repo rate had been cut by 225 basis points since February 2025.\nWhich of the statements given above is/are NOT correct?",
+  "id": "cp202dd3a1bb49",
+  "row": 109,
+  "s": "Consider the following statements about Andhra Pradesh's Zero Poverty-P4 initiative:\n1. It was launched on Ugadi, 30 March 2025.\n2. The Swarna Andhra P4 Foundation, its nodal body, is under the Planning Department.\n3. Its models are Adopt a Family, Adopt a Community and Adopt a District.\nWhich of the statements given above is/are NOT correct?",
   "o": [
    "1 only",
    "2 only",
    "3 only",
-   "2 and 3 only"
+   "1 and 3 only"
   ],
   "a": 2,
-  "x": "Statement 3 is NOT correct: the repo rate was cut by 125 bps since February 2025. CPI inflation was 1.7% (Apr-Dec FY26) and bank GNPA 2.2%, a multi-decade low.",
+  "x": "Statement 3 is NOT correct: the P4 models are Adopt a Family, Adopt a Community and Fund a Need – there is no 'Adopt a District'. P4 was launched on Ugadi, 30 March 2025, and the Swarna Andhra P4 Foundation is under the Planning Department.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp146bbafc69b9",
-  "row": 108,
-  "s": "Consider the following statements about the fiscal data in the Economic Survey 2025-26:\n1. The fiscal deficit in FY25 was 4.8% of GDP against 4.9% budgeted.\n2. S&P upgraded India's sovereign rating from BBB- to BBB.\n3. It flagged State revenue deficits and unconditional cash transfers as fiscal concerns.\nHow many of the above statements are correct?",
+  "id": "cp4a10a6ab6289",
+  "row": 109,
+  "s": "Consider the following statements about the economic regions of Andhra Pradesh:\n1. The three economic regions are Visakhapatnam, Amaravati and Tirupati.\n2. The Visakhapatnam Economic Region, a NITI Aayog growth-hub pilot, covers 10 districts.\n3. The Amaravati Economic Region covers 10 districts.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the Amaravati region covers 9 districts. The three regions are Visakhapatnam (10 districts, NITI Aayog growth-hub pilot), Amaravati (9) and Tirupati (10).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp128dadf95146",
+  "row": 109,
+  "s": "Consider the following statements about the bifurcation of Andhra Pradesh:\n1. AP was bifurcated on 2 June 2014, and residual AP had 13 districts.\n2. Hyderabad alone accounted for about 48% of undivided AP's total revenue of ₹70,548 crore in 2012-13.\n3. The AP Reorganisation Act, 2014 gives residual AP a share of Hyderabad's tax revenue for ten years.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: APRA 2014 gives AP no share of Hyderabad's tax revenue – taxes go to the State where the property is or the tax is assessed (Sec. 50). AP was bifurcated on 2 June 2014 with 13 districts; Hyderabad gave about 48% of undivided AP's ₹70,548 crore revenue (2012-13).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7dfc1f92e801",
+  "row": 109,
+  "s": "Consider the following statements:\nAssertion (A): After bifurcation, residual Andhra Pradesh became a chronic revenue-deficit State.\nReason (R): Residual Andhra Pradesh lost Hyderabad's revenue base.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: Hyderabad gave about 48% of undivided AP's revenue, and APRA gives AP no share of its taxes, so losing that base made AP a chronic revenue-deficit State; the capital and major institutions also stayed with Telangana.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp9a6d24753c47",
+  "row": 109,
+  "s": "Match List-I with List-II:\nList-I (Indicator)\na. Area\nb. Population (Census 2011)\nc. Coastline\nd. Mines and minerals\nList-II (Andhra Pradesh)\ni. 4.09% of India, 10th\nii. 50% of own non-tax revenue\niii. 4.96% of India\niv. 1,053.07 km, 3rd\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 1,
+  "x": "AP has 4.96% of India's area and 4.09% of its population (10th, Census 2011); its 1,053.07 km coastline is 3rd (after Gujarat and Tamil Nadu); mines and minerals give 50% of its own non-tax revenue (2024-25 RE).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa0ece041fae0",
+  "row": 109,
+  "s": "Consider the following statements:\n1. Visakhapatnam is the largest port of Andhra Pradesh by cargo.\n2. In 2024-25 AP was the sixth largest exporting State, sending 824 commodities to 194 countries.\n3. In the Sixth Economic Census (2013-14), undivided AP had 7.25% of India's establishments and ranked 3rd.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: undivided AP had 7.25% of India's establishments and ranked 5th in the Sixth Economic Census. Visakhapatnam is the largest port by cargo, and AP was the 6th largest exporter in 2024-25 (824 commodities to 194 countries).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7abbafdb7386",
+  "row": 109,
+  "s": "Consider the following statements about the AP Economic Development Board (APEDB):\n1. It is a statutory body under the AP Economic Development Board Act, 2018.\n2. It is the single point of contact for all investments.\n3. Its Chairman is the Governor.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: the Chief Minister chairs the APEDB, not the Governor. It is a statutory body under the APEDB Act, 2018, the single point of contact for all investments, and publishes export reports.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5f856e5fc195",
+  "row": 109,
+  "s": "Match List-I with List-II:\nList-I (Stage)\na. Undivided AP, 1 November 1956\nb. Residual AP, 2014\nc. After 4 April 2022\nd. Now (2026)\nList-II (Number of districts)\ni. 26\nii. 13\niii. 20\niv. 28\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv"
+  ],
+  "a": 3,
+  "x": "Undivided AP had 20 districts in 1956; residual AP had 13 in 2014; they became 26 on 4 April 2022 and 28 now (Markapuram and Polavaram added).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7d442582aa8e",
+  "row": 109,
+  "s": "Consider the following pairs of an indicator and the leading district of Andhra Pradesh:\n1. Most post offices (31 December 2024) – Prakasam\n2. Fewest post offices (31 December 2024) – Visakhapatnam\n3. Landline connections – Krishna\n4. Highest credit-deposit ratio (SES 2024-25) – Guntur\nHow many of the above pairs are correctly matched?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Pair 4 is wrong: the highest CD ratio is in Palnadu (264%). Prakasam has the most post offices (668 of 10,672) and Visakhapatnam the fewest (though it leads in bank branches and mobile connections); Krishna leads in landline connections.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe8f6688dbd8a",
+  "row": 109,
+  "s": "Consider the following statements:\n1. The AP Reorganisation Act, 2014 package covers 7 backward districts – 4 in Rayalaseema and 3 in North Coastal Andhra.\n2. Nalgonda is one of the backward districts covered by the package.\n3. The Aspirational Districts Programme covers 112 districts.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: Nalgonda is in Telangana and not one of the 7 backward districts (4 Rayalaseema + 3 North Coastal) under the APRA package. The Aspirational Districts Programme covers 112 districts.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpea4c8a6c22e5",
+  "row": 109,
+  "s": "Consider the following statements about Andhra Pradesh:\n1. Its debt-GSDP ratio was 35.15% in 2024-25 (RE).\n2. Srikakulam has the highest MPI headcount among its districts.\n3. Its capital outlay rose from ₹16,141 crore in 2024-25 to ₹33,135 crore in 2025-26 (RE).\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
    "All three",
    "None"
   ],
-  "a": 2,
-  "x": "All three are correct: FD was 4.8% in FY25 against 4.9% budgeted, S&P upgraded India from BBB- to BBB, and the Survey flagged State revenue deficits and unconditional cash transfers as concerns.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cpaa34b71445b3",
-  "row": 108,
-  "s": "Consider the following statements:\nAssertion (A): The Economic Survey 2025-26 treats India's external position as a strength.\nReason (R): India's current account deficit is low and its foreign exchange reserves cover more than 11 months of imports.\nSelect the correct answer using the code given below:",
-  "o": [
-   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
-   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
-   "(A) is true, but (R) is false",
-   "(A) is false, but (R) is true"
-  ],
-  "a": 0,
-  "x": "Both are true and R explains A: the Survey counts the low CAD and forex cover of over 11 months of imports as an external strength.",
-  "src": "app",
-  "tq": "assertion"
- },
- {
-  "id": "cp93199b079f08",
-  "row": 108,
-  "s": "Consider the following statements about the Economic Survey 2025-26:\n1. Its climate chapter favours adaptation over mitigation.\n2. Its conclusion on 'Sreya' and 'Preya' draws on the Bhagavad Gita.\n3. National Accounts and the IIP were rebased to 2022-23.\n4. The reforms of 2025 it lists include 100% FDI in insurance and opening up nuclear power.\nWhich of the statements given above is/are correct?",
-  "o": [
-   "1, 2 and 3 only",
-   "1, 3 and 4 only",
-   "3 and 4 only",
-   "1, 2, 3 and 4"
-  ],
   "a": 1,
-  "x": "Statement 2 is wrong: the 'Sreya vs Preya' conclusion draws on the Katha Upanishad. The climate chapter prefers adaptation over mitigation, National Accounts and IIP were rebased to 2022-23, and the reforms of 2025 include the GST overhaul, 100% FDI in insurance, opening nuclear power and the Labour Codes.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cp4def3ece35c2",
-  "row": 108,
-  "s": "Consider the following statements:\nAssertion (A): The Economic Survey 2025-26 favours inspection-based enforcement to improve compliance.\nReason (R): The Economic Survey 2025-26 calls for a shift from 'regulation and control' to 'enabling'.\nSelect the correct answer using the code given below:",
-  "o": [
-   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
-   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
-   "(A) is true, but (R) is false",
-   "(A) is false, but (R) is true"
-  ],
-  "a": 3,
-  "x": "A is false: the Survey favours trust-based compliance IN PLACE OF inspection. R is true: continuing the deregulation line (ES 2023-24 'letting go', ES 2024-25 central theme), it calls for a shift from 'regulation and control' to 'enabling'.",
-  "src": "app",
-  "tq": "assertion"
- },
- {
-  "id": "cp0d5311379024",
-  "row": 108,
-  "s": "Consider the following statements about the Bare Necessities Index of the Economic Survey 2020-21:\n1. It measured access to bare necessities at the State level.\n2. It was built from the NSO's 69th and 76th rounds.\n3. Primary education is one of its components.\nWhich of the statements given above is/are correct?",
-  "o": [
-   "1 and 2 only",
-   "2 and 3 only",
-   "1 and 3 only",
-   "1, 2 and 3"
-  ],
-  "a": 0,
-  "x": "Statement 3 is wrong: the Bare Necessities Index excludes primary education. It was computed at State level from the NSO's 69th and 76th rounds.",
+  "x": "Statement 2 is wrong: Kurnool has the highest MPI headcount. Debt/GSDP was 35.15% (2024-25 RE), and capital outlay rose from ₹16,141 crore (2024-25) to ₹33,135 crore (2025-26 RE).",
   "src": "app",
   "tq": "statements"
  }
