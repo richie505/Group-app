@@ -6,6 +6,7 @@
 - The **biosphere** (narrow zone where **lithosphere, hydrosphere and atmosphere** meet) is treated in most books as an **open system** – energy enters as sunlight and leaves as heat (UPPSC RO/ARO 2017 key: A true, R false). Strictly, the Earth is open for energy but nearly **closed for matter**.
 - All components are **interdependent**: a change in one population affects the rest – so "components are not interdependent" is false, while "human activities affect the environment" is true.
 - **Functions:** energy flow (one-way), nutrient cycling, production, **self-regulation (homeostasis)**; the **food chain** is the **dynamic part** of an ecosystem (APPSC G1 2008), while producers, consumers and decomposers form its structure.
+- **Biogeochemical (nutrient) cycle:** movement of **chemical elements** (C, N, P) through **biotic and abiotic** components – energy does not cycle; **photosynthesis removes CO₂**; the **phosphorus cycle begins with rock weathering**.
 # Abiotic components
 | Type | Factors |
 |---|---|
@@ -244,6 +245,7 @@
 | Allen | Colder = shorter ears and limbs |
 | Jordan | Fish vertebrae – colder = more |
 | Gloger | Colouration – warm-humid = darker |
+- **Plant groups by water and substrate:**
 | Group | Habitat | Adaptation – example |
 |---|---|---|
 | **Xerophytes** | Dry | Thick cuticle, sunken stomata, spines, CAM, **green photosynthetic stem** – Opuntia (cactus) |
@@ -276,6 +278,7 @@
 | Freshwater | < 5 ppt | Lotic: rivers; **Lentic: ponds, lakes, swamps** |
 | Brackish | 5–35 ppt | Estuaries (≈35 ppt at the mouth), mangroves |
 | Marine | ≥ 35 ppt | Open ocean, coral reefs, hydrothermal vents (not rivers) |
+- **Zones of lakes and oceans:**
 | Zone | Feature |
 |---|---|
 | Littoral (lake) | Shallow; light reaches bottom; rooted plants |

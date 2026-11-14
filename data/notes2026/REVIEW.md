@@ -475,3 +475,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b5-r061-k1 (29 PYQs, 3 changed, 1 outdated): Tummalapalli uranium ×2; ITER statements "I, II and IV only" (Aditya not part of ITER; printed all four — owner confirm if official). BARC Director now Vivek Bhasin (outdated). MFI crisis moneylenders 60% unverified.
 ## b5-r062 Nuclear power plants & radioisotopes (125 PYQs, 5 changed from -1, 2 outdated, 5 disputed): Tarapur first; plant–State match; NPP least air pollution; Civil Defence College Nagpur; C++ "None of the above". Outdated: capacity ~8,780 MW / 24 reactors (WNA 7,935 MW net); Kaiga. Disputed: 2+2 USA/Japan; CDS 2019 123 Agreement (stem "not included" vs original "included"); exclusion zone 1.5 km (old notes "APPSC 2022 key 1 km"); Cobalt-62; leukaemia P-32/Co-60. SODAR Kaiga unverified.
 ## b5-r064 Renewables, solar, wind (105 PYQs, 5 changed + 1 own MCQ, 4 outdated, 2 disputed): natural gas not green; PV cells; New Silk Route China–Germany; face-recognition ATM China; own MCQ ff4c7585b5b1b solar leader → Rajasthan 41 GW (old notes Gujarat wrong). Outdated: AP solar 2017 → Rajasthan; IREDA Navratna 2024; wind TN → Gujarat ×2. Disputed: largest onshore wind farm Jaisalmer/Muppandal; most reactors TN/Rajasthan. Typo y48020f570f1 "non-organic". 4 printed unverified.
+
+## b5-r067 (Other renewables, Green hydrogen)
+- y0e98df556d8 AP Green Hydrogen Policy 2023: printed key a (II and III) kept with dispute; only II verified (I false: 0.5 MTPA; IV false). Owner: if flat error, add "II only".
+- y2f55a25fbb5 elements on Earth: 250 → about 100 (118 known, 94 natural).
+- Printed-key-only: Kakinada first biodiesel plant, Apollondine car, NIIST cotton-stalk ethanol.
