@@ -49,12 +49,12 @@
   "row": 150,
   "s": "Consider the following statements:\n1. India recognised the People's Republic of China on 30 December 1949, the first non-socialist-bloc country to do so.\n2. The Shaksgam Valley was ceded by Pakistan to China under the 1963 Sino-Pakistan Boundary Agreement.\n3. China calls most of Arunachal Pradesh 'South Tibet' and claims about 90,000 sq km in the north-east.\nHow many of the above statements are correct?",
   "o": [
-   "All three",
-   "Only two",
    "Only one",
-   "None"
+   "Only two",
+   "None",
+   "All three"
   ],
-  "a": 0,
+  "a": 3,
   "x": "All three are correct: recognition on 30 December 1949 (ties from 1 April 1950); Shaksgam (Trans-Karakoram Tract) ceded in 1963; China claims ~90,000 sq km, calling Arunachal 'South Tibet'.",
   "src": "app",
   "tq": "statements"
@@ -81,8 +81,8 @@
   "o": [
    "Only one",
    "Only three",
-   "All four",
-   "Only two"
+   "Only two",
+   "All four"
   ],
   "a": 1,
   "x": "1, 2 and 3 are correct. 4 is wrong on the year: the Dalai Lama was given asylum in 1959 (with the unsettled boundary and the Forward Policy, a cause of the war).",
@@ -171,10 +171,10 @@
   "o": [
    "Only one",
    "Only three",
-   "All four",
-   "Only two"
+   "Only two",
+   "All four"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1, 3 and 4 are correct. 2 is wrong: the AIIB is headquartered in Beijing (India is a founding member).",
   "src": "app",
   "tq": "statements"
@@ -184,12 +184,12 @@
   "row": 151,
   "s": "Consider the following statements about India-Myanmar relations:\n1. The Kaladan Multi-Modal Transit Transport Project links Kolkata with Mizoram through Chittagong port.\n2. The India-Myanmar-Thailand Trilateral Highway begins at Moreh in Manipur.\n3. The military coup of 1 February 2021 in Myanmar was led by Senior General Min Aung Hlaing.\nWhich of the statements given above is/are correct?",
   "o": [
+   "2 and 3 only",
    "1 only",
    "1 and 3 only",
-   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "2 and 3 are correct (Moreh–Bagan–Mae Sot highway, ~1,360 km; coup under Min Aung Hlaing). 1 is wrong: the Kaladan route is Kolkata → Sittwe port (Myanmar) → Kaladan river and road → Mizoram, not via Chittagong.",
   "src": "app",
   "tq": "statements"
@@ -244,9 +244,9 @@
   "row": 151,
   "s": "Consider the following statements:\n1. Operation Cactus (1988) was India's operation to foil a coup in Sri Lanka.\n2. Operation Pawan (1987–90) was the IPKF deployment in Sri Lanka.\n3. Jawaharlal Nehru visited Kabul in September 1959.\n4. India stationed a technical team in Kabul in 2022, after the Taliban takeover of August 2021.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
    "Only three",
    "Only one",
+   "Only two",
    "All four"
   ],
   "a": 0,
@@ -304,12 +304,12 @@
   "row": 151,
   "s": "Consider the following statements about the Indo-Sri Lanka Accord of 1987:\n1. It was signed by Rajiv Gandhi and J.R. Jayewardene.\n2. It provided for the merger of the Northern and Western provinces.\n3. It provided for provincial councils through the 13th Amendment of Sri Lanka's Constitution.\n4. The IPKF sent under it was withdrawn on the order of Rajiv Gandhi.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
    "Only three",
    "Only one",
+   "Only two",
    "All four"
   ],
-  "a": 0,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: the merger was of the Northern and Eastern provinces. 4 is wrong: the IPKF (Operation Pawan) was withdrawn on V.P. Singh's order; the last troops left on 24 March 1990.",
   "src": "app",
   "tq": "statements"
@@ -320,11 +320,11 @@
   "s": "Consider the following statements:\n1. Katchatheevu was ceded by India to Sri Lanka in 1976.\n2. India banned the LTTE in 1992, after the assassination of Rajiv Gandhi.\n3. In 2009 the Sri Lankan Army crushed the LTTE and its chief V. Prabhakaran was killed.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "2 and 3 are correct. 1 is wrong: Katchatheevu was ceded in 1974.",
   "src": "app",
   "tq": "statements"
@@ -455,11 +455,11 @@
   "s": "Consider the following statements:\n1. The I2U2, called the 'West Asia Quad', comprises India, Israel, the UAE and the USA.\n2. India's Think West doctrine has widened into the I2U2.\n3. The GCC, India's largest socio-economic partner in West Asia, hosts an Indian diaspora of about 1 million.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
-   "Only two",
    "All three",
+   "Only two",
    "None"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 2 are correct. 3 is wrong: the GCC hosts about 10 million Indians (trade over $160 billion).",
   "src": "app",
   "tq": "statements"
@@ -568,5 +568,155 @@
   "x": "Both are true: SAARC leaders were invited in May 2014 (BIMSTEC in 2019), and the Gujral Doctrine stressed non-reciprocity and non-interference. But R is a background principle, not the explanation of the 2014 invitation.",
   "src": "app",
   "tq": "assertion"
+ },
+ {
+  "id": "cpd0592c4554b7",
+  "row": 153,
+  "s": "Match List-I (India-US exercise) with List-II (Service):\nList-I | List-II\na. Vajra Prahar | i. Army\nb. Cope India | ii. Navy, with Japan and Australia\nc. Malabar | iii. Special Forces\nd. Yudh Abhyas | iv. Air Force\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "Vajra Prahar – Special Forces (2018 edition, Jaipur); Cope India – Air Force; Malabar – Navy, with Japan and Australia; Yudh Abhyas – Army (annual since 2004).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp70f01105f99e",
+  "row": 153,
+  "s": "Match List-I (India-US foundational agreement) with List-II (Year signed):\nList-I | List-II\na. GSOMIA | i. 2002\nb. LEMOA | ii. 2020\nc. COMCASA | iii. 2018\nd. BECA | iv. 2016\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 3,
+  "x": "GSOMIA – 2002 (the first, protection of military information); LEMOA – 2016 (refuelling and replenishment); COMCASA – 2018 (encrypted communications); BECA – 2020 (geospatial data).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4a24195066ab",
+  "row": 153,
+  "s": "Consider the following statements:\n1. The United States designated India a 'Major Defense Partner' in 2018.\n2. STA-1 status gives India licence-free access to US military and dual-use technology without NATO membership.\n3. COMCASA and STA-1 both date from 2018.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: India became a Major Defense Partner in 2016, the year of LEMOA; 2018 was COMCASA and STA-1.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp250e4b3bbb0d",
+  "row": 153,
+  "s": "Consider the following statements about India-US relations:\n1. India-US relations are officially described as a Comprehensive Global Strategic Partnership.\n2. The US 'Pivot to Asia' or 'Rebalance' was announced in the George W. Bush era in 2005.\n3. The 2008 civil nuclear deal is regarded as the turning point in India-US ties.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: the Pivot to Asia/Rebalance came in 2011, in the Obama era.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcf6c23bae938",
+  "row": 153,
+  "s": "Consider the following statements:\nAssertion (A): India sought a waiver from the USA under CAATSA.\nReason (R): CAATSA (2017) imposes sanctions on buyers of Russian arms, and India bought the Russian S-400 system.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: CAATSA targets buyers of Russian arms, so India's S-400 purchase made a waiver necessary.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp85edc79ff314",
+  "row": 153,
+  "s": "Consider the following statements about the Indian diaspora in the USA:\n1. Dalip Singh Saund, the first Indian American elected to the US Congress (1956), represented New York.\n2. The USA has the world's largest Persons of Indian Origin community.\n3. Telugu was the fastest-growing foreign language in the USA during 2010-17.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "2 and 3 are correct. 1 is wrong: Saund was elected to the House of Representatives from California in 1956.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcab65180eac7",
+  "row": 153,
+  "s": "Consider the following statements about India-US economic issues:\n1. Indians receive about 71 per cent of approved US H-1B visas.\n2. The USA withdrew India's GSP benefits in June 2017.\n3. A fee of $100,000 on new H-1B petitions applies from 21 September 2025.\n4. The total US duty on Indian goods rose to 50 per cent on 27 August 2025.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 3 and 4 only",
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 3 and 4 are correct (the extra 25% tariff was over Russian oil purchases). 2 is wrong: GSP benefits were withdrawn in June 2019.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5fb756419182",
+  "row": 153,
+  "s": "Consider the following statements about India-US civil nuclear cooperation:\n1. The Hyde Act, which made the deal possible under US law, was signed in December 2006.\n2. The India-US civil nuclear cooperation agreement of 2008 is the 123 Agreement.\n3. Kovvada, the proposed site for Westinghouse AP1000 reactors, is in Nellore district of Andhra Pradesh.\n4. The NSG granted India a clean waiver in September 2008.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Kovvada is in Srikakulam district.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp60b680d7cba9",
+  "row": 153,
+  "s": "Match List-I (Initiative) with List-II (Detail):\nList-I | List-II\na. iCET | i. India became the 27th signatory (June 2023)\nb. Artemis Accords | ii. Relaunched as TRUST in 2025\nc. India Semiconductor Mission | iii. Outlay of ₹76,000 crore\nd. GE F414 jet engines | iv. Co-production with HAL\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "iCET (2023) – relaunched as TRUST (2025); Artemis Accords – India 27th signatory, June 2023; India Semiconductor Mission (Dec 2021) – ₹76,000 crore; GE F414 – co-produced with HAL, not BEL.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9ac48d3e09a6",
+  "row": 153,
+  "s": "Match List-I (India-US event) with List-II (Year):\nList-I | List-II\na. Strategic and Commercial Dialogue began | i. 2021\nb. First 2+2 Ministerial Dialogue | ii. 2015\nc. First Quad leaders' summit | iii. 2018\nd. Vice President JD Vance visited India | iv. 2025\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 3,
+  "x": "Strategic and Commercial Dialogue – 2015; 2+2 – 2018; Quad leaders' summits – 2021; JD Vance's visit – April 2025.",
+  "src": "app",
+  "tq": "match"
  }
 ]

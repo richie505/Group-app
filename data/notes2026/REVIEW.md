@@ -1579,3 +1579,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w131 (rows 131–134)
 - own 379 → 53 kept + 88 new (141, 37%); new 57 statements / 21 match / 9 A–R / 1 NOT; no lines lost.
 - f2a01235e6da6, nc5766924921 (AP Devadasis Act 1989; notes Act 10 of 1988) merged with fix. Removed as not in notes: f81e343bd542b, STEP/DWCRA/Swayam Siddha items — possible notes gaps.
+
+## rewrite b2-w139 (rows 139–143)
+- own 373 → 47 kept + 94 new (141, 38%); new 62 statements / 20 match / 11 A–R / 1 sequence; no lines lost.
+- nd54458f5c4f (ICDS "6 months–6 years"; notes 0–6) removed. Table header rows as data: 140:3:0.6, 141:2:4.2, 142:1:1.2 — cleanup.
+- Doubtful PYQs: ydb1d9d2cee5 Hyderabad vs notes Secunderabad; y8b704d13f5f key "Economically" vs NALSA "educationally" backward — check.
