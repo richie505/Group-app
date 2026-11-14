@@ -1056,3 +1056,13 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - HPV own MCQs said "March 2026" / "girls under 14"; notes 28 Feb 2026 / 14-year-old girls — merged into notes-correct MCQ.
 - 41:2:9 LPG service match marked "general knowledge, not checked" in notes.
 - Leftover table fragments repeating lines: 40:1:23–24, 40:5:11–12, 41:2:6–7 — notes cleanup.
+
+## rewrite b4-w033 (rows 33–36)
+- own 435 → 80 kept + 107 new (187, 43%); new 68 statements / 25 match / 14 A–R; no lines lost. False statement is 2nd in 35/74 (slight bias).
+- Minor: Umling La 19,024 ft (notes) vs 19,300 ft (PYQ); first sunrise "Dang" (PYQ) vs "Dong" (notes).
+- 22 own MCQs removed as not in notes (Kutch district, Kakinada, Indus Waters Treaty award May 2026, …) — possible notes gaps.
+
+## rewrite b3-w053 (rows 53–58)
+- own 399 → 57 kept + 92 new (149, 37%); new 66 statements / 16 match / 10 A–R; no lines lost.
+- Row 57 notes conflict: 2:0 "14 kharif, 6 rabi, 2 commercial (jute, copra)" vs 2:1.3 table with 3 commercial (copra, cotton, raw jute) — reconcile.
+- Row 57: MIS MCQs linked to 5:1 (PM-AASHA outlay) instead of 5:2.3 — link cleanup.
