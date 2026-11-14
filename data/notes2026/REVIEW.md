@@ -1373,3 +1373,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b4-w081 (rows 81–84)
 - own 402 → 71 kept + 89 new (160, 40%); new 51 statements / 28 match / 10 A–R; no lines lost.
 - f2f22ff63c2dd (AP milk rank "7th in 2025-26"; notes 7th in 2023-24) merged with fix; n2d7d035b37e (Rayalaseema sugarcane irrigation, not in notes) removed.
+
+## rewrite b6-w083 (row 83)
+- own 242 → 19 kept + 77 new (96, 40%); new 56 statements / 13 match / 7 A–R / 1 sequence; 1 of 189 lines lost.
+- FIXED cz3a74799a0d2d stem "(October 2026)" → "(released 10 November 2026)" per notes.
+- f5fedf6807fdc (Guntur joint 2nd in Swachh Vayu Sarvekshan) removed as not in row 83 notes (it is in row 76 notes).
+- GHI weights (9:3) marked "not checked" in notes but used in a new A–R MCQ — verify weights (1/3 undernourishment, 1/6 stunting, 1/6 wasting, 1/3 child mortality).

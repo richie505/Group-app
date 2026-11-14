@@ -1,38 +1,8 @@
 [
  {
-  "id": "cpc04fed715de1",
-  "row": 92,
-  "s": "Consider the following statements:\n1. According to the WMO, carbon dioxide accounts for about 66% of the radiative forcing by long-lived greenhouse gases.\n2. Stratospheric ozone is a smog pollutant, while tropospheric ozone is the shield against ultraviolet rays.\n3. CFCs, HFCs, PFCs and SF6 are synthetic gases that do not occur naturally.\n4. Carbon monoxide is a direct greenhouse gas.\nWhich of the statements given above are correct?",
-  "o": [
-   "1 and 3 only",
-   "2 and 4 only",
-   "1, 2 and 3 only",
-   "1, 3 and 4 only"
-  ],
-  "a": 0,
-  "x": "Statement 2 reverses the two: stratospheric ozone is the UV shield and tropospheric ozone is the smog pollutant (and a GHG). Statement 4 is wrong: carbon monoxide is only an indirect GHG. CO2 gives ~66% of forcing by long-lived GHGs (WMO), and the fluorinated gases are entirely man-made.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cpd0b4d54c5a87",
-  "row": 92,
-  "s": "Match List-I (Gas) with List-II (Description):\nList-I\na. Methane\nb. Nitrous oxide\nc. Sulphur dioxide\nd. Carbon monoxide\nList-II\ni. Laughing gas; used in anaesthesia\nii. Causes acid rain; not a greenhouse gas\niii. Marsh gas; main component of natural gas and biogas\niv. Only an indirect greenhouse gas",
-  "o": [
-   "a-iii, b-i, c-ii, d-iv",
-   "a-i, b-iii, c-ii, d-iv",
-   "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-ii, c-i, d-iv"
-  ],
-  "a": 0,
-  "x": "Methane is marsh gas and the main component of natural gas and biogas; nitrous oxide is laughing gas, a weak anaesthetic; SO2 causes acid rain (cools as sulphate aerosol) and is not a GHG; carbon monoxide is only an indirect GHG.",
-  "src": "app",
-  "tq": "match"
- },
- {
-  "id": "cpb0e83b90ffd6",
-  "row": 92,
-  "s": "Consider the following statements:\n1. Without the greenhouse effect, the Earth's average temperature would be about −18°C instead of +15°C.\n2. The atmosphere is transparent to incoming short-wave radiation but relatively opaque to outgoing long-wave radiation.\n3. The Earth's surface absorbs about 35 units out of every 100 units of insolation.\n4. The concept of the greenhouse effect was first proposed by Joseph Fourier in the 1820s.\nHow many of the above statements are correct?",
+  "id": "cp9501155692d0",
+  "row": 93,
+  "s": "Consider the following statements about ocean acidification:\n1. It is called the 'evil twin of global warming' and 'the other CO2 problem'.\n2. The oceans absorb about one-third of the CO2 released by human activities.\n3. The extra hydrogen ions bind bicarbonate ions, so the carbonate ion concentration rises.\n4. Despite acidification, the surface ocean is still alkaline.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -40,14 +10,14 @@
    "All four"
   ],
   "a": 2,
-  "x": "Statement 3 is wrong: 35 units are reflected (albedo); the surface absorbs about 51 units and the atmosphere 14. Without the greenhouse effect the average would be about −18°C instead of +15°C; the atmosphere lets short-wave in and blocks long-wave out; Fourier proposed the idea in the 1820s.",
+  "x": "Statement 3 is wrong: the extra H+ binds carbonate ions, so carbonate concentration falls, leaving less for shells and skeletons. The other three are correct: the 'evil twin'/'other CO2 problem' labels, oceans taking about one-third of human CO2, and surface pH ~8.1 being still alkaline.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cpeb4a4e43e9b3",
-  "row": 92,
-  "s": "Assertion (A): The atmosphere is heated mainly by incoming solar radiation.\nReason (R): The atmosphere is transparent to incoming short-wave solar radiation.",
+  "id": "cp810eb4724fdf",
+  "row": 93,
+  "s": "Assertion (A): Ocean acidification is expected to be most severe in warm tropical waters.\nReason (R): Carbon dioxide is more soluble in cold water.",
   "o": [
    "Both A and R are true and R is the correct explanation of A",
    "Both A and R are true but R is not the correct explanation of A",
@@ -55,164 +25,74 @@
    "A is false but R is true"
   ],
   "a": 3,
-  "x": "A is false: the atmosphere is heated mainly by long-wave terrestrial radiation, from below. R is true: the atmosphere is transparent to incoming short-wave radiation – which is exactly why it is not heated directly by it.",
+  "x": "A is false: acidification is worse in cold, temperate and Arctic waters. R is true – CO2 dissolves more readily in cold water, which is precisely why cold waters acidify faster (melting Arctic ice also exposes more water).",
   "src": "app",
   "tq": "assertion"
  },
  {
-  "id": "cp8685910335de",
-  "row": 92,
-  "s": "Consider the following statements:\n1. Flooded low-land paddy fields release methane because organic matter decays there without oxygen.\n2. Wetlands are the largest natural source of methane.\n3. Nitrogen fertilisers applied to crops release methane through soil microbes.\n4. Methane is a major exhaust gas of automobiles.\nWhich of the statements given above are correct?",
+  "id": "cp14e8faa86245",
+  "row": 93,
+  "s": "Consider the following statements:\n1. Surface-ocean pH has fallen from about 8.2 in pre-industrial times to about 8.1.\n2. This fall of 0.1 means a rise in acidity of roughly 26-30%.\n3. The surface ocean has now turned acidic.\nWhich of the statements given above are correct?",
   "o": [
-   "2 and 4 only",
-   "1, 2 and 3 only",
-   "1 and 3 only",
-   "1 and 2 only"
-  ],
-  "a": 3,
-  "x": "Statement 3 is wrong: soil microbes acting on nitrogen fertilisers release nitrous oxide, not methane. Statement 4 is wrong: methane is not a fuel-exhaust gas of automobiles. Paddy methane comes from anaerobic decay, and wetlands are the largest natural methane source.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cpeabc34da8518",
-  "row": 92,
-  "s": "Match List-I (Greenhouse gas / pollutant) with List-II (Source):\nList-I\na. Carbon dioxide\nb. Nitrous oxide\nc. Sulphur dioxide\nd. Chlorofluorocarbons\nList-II\ni. Waterlogged paddy fields\nii. Thermal power stations\niii. Refrigerants, foams and aerosols\niv. Brick kilns",
-  "o": [
-   "a-i, b-ii, c-iv, d-iii",
-   "a-ii, b-i, c-iii, d-iv",
-   "a-ii, b-i, c-iv, d-iii",
-   "a-ii, b-iv, c-i, d-iii"
-  ],
-  "a": 2,
-  "x": "As in the UPPSC 2017 matching: CO2 – thermal power stations; N2O – waterlogged paddy; SO2 – brick kilns. CFCs come from refrigerants, foams and aerosols (CFC – automobile is the wrong pair).",
-  "src": "app",
-  "tq": "match"
- },
- {
-  "id": "cp811f06ae9119",
-  "row": 92,
-  "s": "Match List-I (Greenhouse gas) with List-II (Main anthropogenic source):\nList-I\na. Perfluoromethane (PFC)\nb. Sulphur hexafluoride\nc. Nitrous oxide\nd. HFCs\nList-II\ni. Aluminium production\nii. Fertilisers and biomass burning\niii. Dielectric fluid in switchgear\niv. Refrigerants (CFC substitutes)",
-  "o": [
-   "a-iii, b-i, c-ii, d-iv",
-   "a-i, b-iii, c-iv, d-ii",
-   "a-i, b-iii, c-ii, d-iv",
-   "a-i, b-ii, c-iii, d-iv"
-  ],
-  "a": 2,
-  "x": "PFCs come mainly from aluminium production; SF6 from dielectric fluid in switchgear; N2O from fertilisers and biomass burning; HFCs are refrigerants used as CFC substitutes.",
-  "src": "app",
-  "tq": "match"
- },
- {
-  "id": "cp61cd0077b3f0",
-  "row": 92,
-  "s": "Consider the following statements about Global Warming Potential (GWP):\n1. GWP is the heat a gas absorbs over a period, usually 100 years, relative to the same mass of carbon dioxide.\n2. Carbon dioxide is the reference gas, with a GWP of 1.\n3. Sulphur hexafluoride has the highest GWP, about 23,900.\n4. Methane, with a GWP of 28-36, has an atmospheric lifetime of about 114 years.\nHow many of the above statements are correct?",
-  "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
-  ],
-  "a": 2,
-  "x": "Statement 4 is wrong: methane's lifetime is about 12 years; 114-120 years is the lifetime of nitrous oxide. GWP is measured over usually 100 years against the same mass of CO2 (GWP 1), and SF6 has the highest GWP (23,900).",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cp10036657bf61",
-  "row": 92,
-  "s": "Consider the following statements:\n1. In the textbook share of enhanced (human) warming, methane accounts for about 20%.\n2. Nitrous oxide has an atmospheric lifetime of about 114-120 years.\n3. Chlorofluorocarbons contain carbon, fluorine and bromine.\nWhich of the statements given above is/are correct?",
-  "o": [
-   "1 only",
    "1 and 2 only",
    "2 and 3 only",
+   "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
-  "x": "Statement 3 is wrong: CFCs contain carbon, fluorine and chlorine (not bromine). The textbook share is CO2 60% > CH4 20% > CFCs 14-15% > N2O 5-6%, and N2O lasts about 114-120 years.",
+  "a": 0,
+  "x": "Statement 3 is wrong: at pH ~8.1 the ocean is still alkaline – it is becoming less alkaline. Because the pH scale is logarithmic, a fall of only 0.1 (8.2 → 8.1) means about a 26-30% rise in acidity.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp928c3bbc47c0",
-  "row": 92,
-  "s": "Consider the following statements about the WMO Greenhouse Gas Bulletin 2025 (data for 2024):\n1. The Greenhouse Gas Bulletin is published by the World Meteorological Organization.\n2. Atmospheric CO2 stood at 423.9 ppm in 2024.\n3. CO2 rose by 3.5 ppm in 2024, the largest rise since 1957.\n4. Atmospheric methane stood at 152% of its pre-industrial level.\nWhich of the statements given above are correct?",
+  "id": "cp79c46ae13616",
+  "row": 93,
+  "s": "Consider the following statements:\n1. Pteropods ('sea butterflies'), a key food for fish, have shells that dissolve under acidification.\n2. Corals and bivalve larvae use calcite, which is less soluble than aragonite, and so are less sensitive to acidification.\n3. The saturation horizon, below which calcium carbonate dissolves, is rising towards the surface.\nWhich of the statements given above are correct?",
   "o": [
    "1 and 2 only",
-   "1, 2 and 3 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: corals and bivalve larvae use aragonite, which is more soluble than calcite, so they are more sensitive. Pteropod shells dissolve (a key fish food), and the saturation horizon is rising towards the surface.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpaa0cb4dad41a",
+  "row": 93,
+  "s": "Match List-I (Reef area) with List-II (Feature):\nList-I\na. Gulf of Mannar\nb. Gulf of Kutch\nc. Lakshadweep\nd. Andaman & Nicobar\nList-II\ni. Entirely atoll reefs\nii. India's first marine biosphere reserve\niii. Most diverse reefs in India\niv. Among the world's most northerly reefs",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 0,
+  "x": "The Gulf of Mannar is India's first marine biosphere reserve; the Gulf of Kutch has some of the world's most northerly reefs; Lakshadweep has only atoll reefs; the Andaman & Nicobar reefs are India's most diverse.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9cf19af0e0f5",
+  "row": 93,
+  "s": "Consider the following statements:\n1. Reef-building corals secrete calcium carbonate skeletons, and symbiotic zooxanthellae give them food and colour.\n2. The Great Barrier Reef of Australia is the world's largest reef system.\n3. The Gulf of Mannar Marine National Park was set up in 1986.\n4. A giant Pavona clavus colony is found at Kadmat in Lakshadweep.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
    "2, 3 and 4 only",
    "1, 2, 3 and 4"
   ],
   "a": 1,
-  "x": "Statement 4 is wrong: 152% is the figure for CO2; methane stood at 266% (and N2O 125%) of pre-industrial. The WMO publishes the Bulletin; CO2 was 423.9 ppm in 2024 after a 3.5 ppm rise, the largest since 1957.",
+  "x": "Statement 3 is wrong: the Gulf of Mannar Marine National Park dates from 1980. Corals build CaCO3 skeletons with zooxanthellae, the Great Barrier Reef is the largest reef system ('rainforests of the sea'), and the giant Pavona clavus is at Kadmat.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp45b7dd003d50",
-  "row": 92,
-  "s": "Consider the following statements:\n1. The Keeling curve is the CO2 record kept at Mauna Loa, Hawaii, since 1958.\n2. 2023 was the first calendar year in which global warming exceeded 1.5°C.\n3. Long-term global warming is about 1.3°C above pre-industrial levels.\n4. The pre-industrial concentration of CO2 was about 350 ppm.\nHow many of the above statements are correct?",
-  "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
-  ],
-  "a": 1,
-  "x": "Statements 2 and 4 are wrong: 2024 (not 2023) was the first calendar year above 1.5°C, and pre-industrial CO2 was about 278-280 ppm. The Keeling curve (Mauna Loa, since 1958) and the ~1.3°C long-term warming (UNSG brief, Jun 2026) are correct.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cpf22499610de3",
-  "row": 92,
-  "s": "Consider the following statements about observed warming:\n1. During 1971-2010 the oceans absorbed over 90% of the extra energy.\n2. Arctic sea ice shrank by about 3.5-4.1% per year during 1979-2012.\nWhich of the statements given above is/are correct?",
-  "o": [
-   "1 only",
-   "2 only",
-   "Both 1 and 2",
-   "Neither 1 nor 2"
-  ],
-  "a": 0,
-  "x": "Statement 2 is wrong on the unit: Arctic sea ice shrank by 3.5-4.1% per decade (not per year) in 1979-2012. The oceans took over 90% of the extra energy in 1971-2010.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cp3f70ef3f2878",
-  "row": 92,
-  "s": "Match List-I (Term) with List-II (Meaning):\nList-I\na. Radiative forcing\nb. Climate sensitivity\nc. Methane hydrates\nd. Tipping points\nList-II\ni. Thresholds where small changes trigger self-perpetuating shifts\nii. Methane locked in ice lattices in permafrost and the seabed\niii. Change in Earth's energy balance, in W/m², caused by a factor such as a GHG\niv. Warming after a doubling of CO2 over the pre-industrial level",
-  "o": [
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iv, b-iii, c-ii, d-i",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iii, b-ii, c-iv, d-i"
-  ],
-  "a": 0,
-  "x": "Radiative forcing is the change in energy balance (W/m²); climate sensitivity the warming after CO2 doubles; methane hydrates are methane in ice lattices of permafrost and seabed; tipping points are thresholds beyond which small changes trigger self-perpetuating, irreversible shifts.",
-  "src": "app",
-  "tq": "match"
- },
- {
-  "id": "cpa59046c2213a",
-  "row": 92,
-  "s": "Assertion (A): Melting of ice tends to cause further melting.\nReason (R): Melting ice lowers the albedo, so more heat is absorbed.",
-  "o": [
-   "Both A and R are true and R is the correct explanation of A",
-   "Both A and R are true but R is not the correct explanation of A",
-   "A is true but R is false",
-   "A is false but R is true"
-  ],
-  "a": 0,
-  "x": "Both are true and R explains A: this is the albedo feedback – ice melts, albedo falls, more heat is absorbed, causing more melting (a positive feedback).",
-  "src": "app",
-  "tq": "assertion"
- },
- {
-  "id": "cpa0b85377c855",
-  "row": 92,
-  "s": "Consider the following statements:\n1. According to the WMO, methane accounts for about 16% of the radiative forcing by long-lived greenhouse gases.\n2. Methane drove about 81% of the 54% rise in the warming effect of long-lived greenhouse gases during 1990-2024.\n3. Beyond about 2°C of warming, parts of the Amazon could turn to savanna.\nHow many of the above statements are correct?",
+  "id": "cpcbdcdb1ab5fc",
+  "row": 93,
+  "s": "Consider the following statements about the fourth global coral bleaching event:\n1. It was declared by NOAA and ICRI in April 2024.\n2. Between January 2023 and March 2025 it hit about 84% of the world's reefs.\n3. The earlier global events were in 1998, 2010 and 2016-19.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -220,14 +100,29 @@
    "None"
   ],
   "a": 1,
-  "x": "Statement 2 is wrong: it was carbon dioxide (not methane) that drove about 81% of the 54% rise in warming effect, 1990-2024 (WMO, Oct 2025). Methane gives ~16% of the forcing, and beyond ~2°C parts of the Amazon could become savanna.",
+  "x": "Statement 3 is wrong: the earlier global bleaching events were in 1998, 2010 and 2014-17. The fourth event was declared by NOAA and ICRI (Apr 2024) and hit 84% of reefs (Jan 2023-Mar 2025).",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp6910ff9c7da9",
-  "row": 92,
-  "s": "Consider the following statements:\n1. The UNEP Emissions Gap Report 2025 says updated NDCs would lead to 2.3-2.5°C of warming.\n2. UNEP's Limiting Overshoot assessment projects 2.6°C on current policies.\n3. The remaining carbon budget for 1.5°C was about 130 Gt CO2 from the start of 2025.\n4. The Paris Agreement uses 1.5°C and 2°C as warming limits.\nHow many of the above statements are correct?",
+  "id": "cpda945a253654",
+  "row": 93,
+  "s": "Consider the following statements about coral restoration:\n1. Biorock passes a low-voltage current through steel frames so that limestone is deposited and coral fragments grow faster.\n2. Biorock was invented in 1976 by Wolf Hilbertz.\n3. Coral translocation is being used for the Gulf of Kutch project.\n4. 3D-printed reef modules have been placed off Ramanathapuram (Tamil Nadu) under PMMSY.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: coral translocation (moving colonies away from project sites) is for the Great Nicobar project; Biorock is used in the Gulf of Kutch (ZSI). Biorock (mineral accretion, Wolf Hilbertz, 1976) and the PMMSY 3D-printed modules off Ramanathapuram are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5e40b2e26fea",
+  "row": 93,
+  "s": "Consider the following statements about marine heatwaves (MHWs):\n1. A marine heatwave is sea-surface temperature 3-4°C above average for at least 5 days.\n2. The number of marine heatwaves has doubled since 1982.\n3. Cyclones passing over marine heatwaves can have up to 20% stronger winds.\n4. Marine heatwaves are the strongest global driver of coral-cover decline.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -235,98 +130,38 @@
    "All four"
   ],
   "a": 3,
-  "x": "All four are correct: updated NDCs → 2.3-2.5°C (EGR 2025); current policies → 2.6°C (Limiting Overshoot, Sep 2026); about 130 Gt CO2 left for 1.5°C from 2025; Paris uses 1.5°C and 2°C – though no level is proven 'safe'.",
+  "x": "All four are correct: an MHW is SST 3-4°C above average for ≥5 days; their number has doubled since 1982; cyclones over them get up to 20% stronger winds (12% more rain); GCRMN 2026 names MHWs the strongest driver of coral-cover decline.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cpc123b3aacccb",
-  "row": 92,
-  "s": "Match List-I (Term) with List-II (Meaning):\nList-I\na. Carbon credit\nb. Social cost of carbon\nc. CCUS\nd. Direct Air Capture\nList-II\ni. Money value of the long-term damage from one tonne of CO2\nii. Removes CO2 from ambient air\niii. Tradable permit to emit one tonne of CO2 or equivalent\niv. Captures CO2 from point sources such as factory flue gases",
-  "o": [
-   "a-i, b-iii, c-iv, d-ii",
-   "a-iii, b-i, c-ii, d-iv",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iii, b-i, c-iv, d-ii"
-  ],
-  "a": 3,
-  "x": "A carbon credit permits one tonne of CO2e; the social cost of carbon values the damage of one tonne; CCUS captures CO2 at point sources (flue gases); DAC removes CO2 from ambient air.",
-  "src": "app",
-  "tq": "match"
- },
- {
-  "id": "cpa425cdd9b239",
-  "row": 92,
-  "s": "Consider the following statements:\n1. A 'carbon bomb' is a fossil-fuel project able to emit more than 1 Gt of CO2.\n2. LINGO lists Gevra and Rajmahal in India among carbon bombs.\n3. India's country-level social cost of carbon is reported at $86 per tonne of CO2.\n4. The EU's Carbon Border Adjustment Mechanism was fully enforced from 1 January 2025.\nWhich of the statements given above are correct?",
-  "o": [
-   "1 and 2 only",
-   "2, 3 and 4 only",
-   "1, 2 and 3 only",
-   "1, 2, 3 and 4"
-  ],
-  "a": 2,
-  "x": "Statement 4 is wrong: the EU CBAM was fully enforced from 1 January 2026. A carbon bomb can emit over 1 Gt CO2 (LINGO lists 425, incl. Gevra and Rajmahal), and India's social cost of carbon is $86/t CO2.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cp2be58d5f7a7a",
-  "row": 92,
-  "s": "Consider the following statements:\n1. Black carbon, methane, HFCs and tropospheric ozone are short-lived climate pollutants.\n2. Nitrous oxide is a short-lived climate pollutant.\n3. Tropospheric ozone is a primary pollutant emitted directly by vehicles.\n4. Tropospheric ozone cuts crop yields, mostly in summer.\nWhich of the statements given above are correct?",
-  "o": [
-   "2 and 3 only",
-   "1, 2 and 4 only",
-   "1, 3 and 4 only",
-   "1 and 4 only"
-  ],
-  "a": 3,
-  "x": "Statement 2 is wrong: N2O (like water vapour and SF6) is not an SLCP. Statement 3 is wrong: tropospheric ozone is a secondary pollutant formed from NOx and VOCs in sunlight. The SLCPs are black carbon, methane, HFCs and tropospheric ozone, and ground-level ozone cuts crop yields, worst in summer.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cpbe2d7764dc71",
-  "row": 92,
-  "s": "Assertion (A): Sulphate droplets in the atmosphere have a warming effect, like black carbon.\nReason (R): Black carbon is a short-lived pollutant produced by incomplete combustion of biomass and diesel.",
+  "id": "cpae89ef4e955b",
+  "row": 93,
+  "s": "Assertion (A): Nutrient runoff into coastal waters can create hypoxic 'dead zones'.\nReason (R): Collapse of plankton blooms adds carbon dioxide to sea water through bacterial respiration.",
   "o": [
    "Both A and R are true and R is the correct explanation of A",
    "Both A and R are true but R is not the correct explanation of A",
    "A is true but R is false",
    "A is false but R is true"
   ],
-  "a": 3,
-  "x": "A is false: sulphate droplets cool, while black and brown carbon warm. R is true: black carbon comes from incomplete combustion of biomass and diesel and darkens snow and ice.",
+  "a": 1,
+  "x": "Both are true but R does not explain A: dead zones form because the decay of algal blooms fed by nutrient runoff uses up oxygen (deoxygenation). R – bacterial respiration after bloom collapse adds CO2 – is a separate point about acidification.",
   "src": "app",
   "tq": "assertion"
  },
  {
-  "id": "cp28041e6c17d3",
-  "row": 92,
-  "s": "Consider the following statements:\n1. The Global Methane Pledge was launched at COP26 in Glasgow.\n2. It aims to cut methane emissions by 30% from 2020 levels by 2030.\n3. The UN Secretary-General's Call to Action on Methane was launched at London Climate Action Week in June 2026.\n4. The Climate and Clean Air Coalition is a G20 initiative.\nHow many of the above statements are correct?",
+  "id": "cp0b41b4fa9e31",
+  "row": 93,
+  "s": "Match List-I with List-II:\nList-I\na. SDG 14.3\nb. INCOIS (SAMUDRA app)\nc. NCCR, Chennai\nd. Varaha\nList-II\ni. Coral bleaching alerts and marine heatwave advisories\nii. Reef health monitoring via D-COIN\niii. Indicator: average marine pH\niv. Deep-sea mining system tested at 5,270 m",
   "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-ii, c-i, d-iv"
   ],
-  "a": 2,
-  "x": "Statement 4 is wrong: the CCAC (2012), which tackles methane, black carbon and HFCs, was launched by a few countries with UNEP – it is not a G20 initiative. The Pledge (COP26, 2021) aims at a 30% cut from 2020 levels by 2030, and the UNSG Call to Action came at London Climate Action Week (24 Jun 2026).",
+  "a": 1,
+  "x": "SDG 14.3 (minimise ocean acidification) uses average marine pH; INCOIS issues bleaching alerts and MHW advisories through SAMUDRA; NCCR Chennai tracks reef health via D-COIN; Varaha is the deep-sea mining system tested at 5,270 m.",
   "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cp290e15e04211",
-  "row": 92,
-  "s": "Consider the following statements:\n1. Energy accounted for about 73% of global greenhouse-gas emissions in 2016.\n2. India was the third-largest CO2 emitter in 2024, at about 3.2 billion tonnes.\n3. India's per capita CO2 emissions in 2024 were about 4.9 tonnes.\nWhich of the statements given above are correct?",
-  "o": [
-   "1 and 2 only",
-   "2 and 3 only",
-   "1 and 3 only",
-   "1, 2 and 3"
-  ],
-  "a": 0,
-  "x": "Statement 3 is wrong: India's per capita CO2 was about 2.2 t in 2024 (4.9 billion t is the USA's total). Energy was ~73% of global GHG (2016), and India ranked third with 3.2 billion t (Global Carbon Budget 2025).",
-  "src": "app",
-  "tq": "statements"
+  "tq": "match"
  }
 ]
