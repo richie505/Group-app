@@ -947,3 +947,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b5-w016 rewrite (S&T rows 16-21): own 382 → 153 (40%), 0 lost. Check PYQ y5ed6fb9d522 tower radiation keyed 9.2 W/m² (India limit 0.92).
 - b6-w017 rewrite (rows 17-19): own 398 → 175 (44%).
 - b6-w020 rewrite (rows 20-22): own 350 → 154 (44%), 0 lost.
+- b3-w020 rewrite (rows 20-26): own 450 → 183 (41%).
