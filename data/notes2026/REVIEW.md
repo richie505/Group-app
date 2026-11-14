@@ -1250,3 +1250,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b6-w070 (row 70)
 - own 362 → 50 kept + 108 new (158, 44%); new 81 statements / 19 match / 8 A–R; no lines lost. No wrong keys (Yudh Abhyas edition conflict already logged).
+
+## rewrite b1-w178 (rows 178–182)
+- own 398 → 72 kept + 83 new (155, 39%); new 55 statements / 18 match / 10 A–R; no lines lost. Answers lean to (c) 29/83 ("Only three" in How-many items).
+- nbb6599b6f01 (banned regional-language instruction in Madras schools, unsupported) removed; "first Indian journalist jailed" own MCQ removed as not in notes.
