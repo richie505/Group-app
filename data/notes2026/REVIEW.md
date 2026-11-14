@@ -517,3 +517,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Outdated yba02b0b9baa CITES animals ~5,000 (now ~6,610).
 - Aichi = COP10 Nagoya 2010 (NextGen wrong). Ramsar Sukhna/Sauj date 15 vs 16 Oct 2026 (own MCQ gbe8ae1ce5c68 stem says 16).
 - ~25 general-knowledge keys (WED themes/hosts, COP22, G20, Loktak).
+
+## b5-r073-k1 (Ecology keys)
+- y8cca7094db9 brackish A-R: helper reversed to "both true, R explains"; restored printed "A true, R false" with dispute (Shankar/PMF give 5-35 ppt = R). Owner: confirm official APPSC key.
+- y29d1c7974eb add_option "Cryophytes" (printed "Cryptophytes"). y31521b94409 community → organization (sociology). yec2a3ae54ce oldest ecosystem coral reefs (web only, dispute).
+- Disputes: wasp sting, highest NPP, chameleon colour, aerial roots. Outdated: Wetlands Rules 2010 → 2017 (yb6cf5a97836, y08ad340fcf8).
