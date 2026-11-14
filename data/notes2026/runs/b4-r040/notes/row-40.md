@@ -1,40 +1,19 @@
-=== Forest Types – Classification, Rainfall and Area Ranking
-# Classification
-- **H.G. Champion (1935)**, refined with **S.K. Seth (1968)**: **5 major groups, 16 type groups** – Moist Tropical, Dry Tropical, Montane Sub-tropical, Montane Temperate, Alpine.
-| Type | Rainfall | Leaf habit |
-|---|---|---|
-| Tropical wet evergreen (rain forest) | **> 250 cm** (NCERT: > 200 cm), temp > 22–25 °C | Evergreen – no leaf-shedding season |
-| Tropical semi-evergreen | 200–250 cm | Mixed evergreen + deciduous |
-| Tropical moist deciduous | 100–200 cm | Shed leaves in the dry season |
-| Tropical dry deciduous | 70–100 cm | Leafless in the long dry season |
-| Tropical thorn | < 70 cm (NCERT < 50 cm) | Open, stunted, xerophytic |
-| Desert vegetation | < 25 cm | Xerophytes |
-- **Deciduous** = sheds leaves before winter or in the dry spell (adaptation to moisture shortage); evergreen = no common leaf fall.
-- Forests of **> 200 cm rain and > 22 °C** = tropical **evergreen and semi-evergreen** forests.
-# Which type is largest?
-| Measure | Answer |
+=== ISFR – State Rankings
+| Measure (ISFR 2021 → 2023) | Answer |
 |---|---|
-| Most widespread **group** | **Tropical deciduous (monsoon) forests – 65.6%** of forest area (NextGen) |
-| Largest single type (ISFR 2021) | **Tropical dry deciduous 2,80,547 sq km (39.30%)** |
-| Second (ISFR 2021) | Tropical moist deciduous 1,31,805 sq km (18.47%) |
-| Then | Plantation/TOF 10.54%, semi-evergreen 9.69%, sub-tropical broad-leaved hill 4.35% |
-| Wet evergreen / montane wet temperate | 2.74% / 2.83%; sub-tropical dry evergreen only 0.02% |
-- NextGen/NCERT (older figures): **moist deciduous ~37%** is "most widely distributed", dry deciduous 28.6% second. ISFR forest-type mapping now ranks **dry deciduous first** – key "dry deciduous" when both are offered; when dry deciduous is **not** an option (UPSC 2010), the answer is **moist deciduous**.
-- **World:** FAO FRA 2020 ranks climatic domains **Tropical > Boreal > Temperate > Subtropical**; most books and the UPSC 2003 key give **temperate coniferous (taiga)** as the largest forest type of the world.
-- **Highest deforestation** in the world: the **tropical** zone (FAO).
-> Forest-type angle (8 PYQs): "most widespread" = tropical deciduous; "largest single type" = dry deciduous; options without dry deciduous → moist deciduous.
-~~ Sources: NextGen Indian Geography 08 p.7-9 (book p.105-107); PMF Indian Physical Geography 03 p.40-41, p.64 (ISFR 2021 table, FRA 2020); OnlyIAS NCERT Indian Geography 06 p.11
-
-=== Tropical Evergreen (Rain) Forests and Biodiversity
-- Tall trees (**> 45 m**, 45–60 m), **multi-layered continuous canopy**, little undergrowth; **lianas, epiphytes**, orchids, canes, bamboo; **leaf litter decomposes fastest** – soil surface almost bare (UPSC 2021).
-- **Maximum plant diversity and biomass**: "greatest variety of animal and plant species" = **tropical moist (rain) forests** – not temperate deciduous, taiga, savanna, grassland, tundra, mangrove or desert.
-- In India, maximum tree diversity in the wet evergreen/semi-evergreen forests of the **Western Ghats**, then the **North-East** (ISFR).
-- Near the **equator** (about 10°N–10°S): no dry season, so the trees do not shed leaves together.
-- **Where in India:** western slopes of the **Western Ghats** (Kerala, Karnataka), **Assam**, Meghalaya, Manipur, Tripura, Nagaland, **Arunachal Pradesh, Mizoram**, **Andaman & Nicobar** – so "rain forest in India" = **Assam and Kerala**; **not Himachal Pradesh**, UP, MP, Chhattisgarh, Odisha.
-- **Species:** **rosewood, ebony**, mahogany, gurjan, ironwood, jamun, aini, champa, mesua, white cedar, canes; dominant species asked = **ebony** (not sandalwood, juniper, acacia).
-- **Cinchona** is an evergreen tropical (hill) plant – grown in WB (Darjeeling), Assam, Kerala/TN hills, **not Chhattisgarh**.
-- **Semi-evergreen:** 200–250 cm; buttressed trunks; laurel, rosewood, mesua, thorny bamboo.
-~~ Sources: NextGen Indian Geography 08 p.8 (book p.106); PMF Indian Physical Geography 03 p.41-44; OnlyIAS NCERT Indian Geography 06 p.10; app notes 4:40 (sub 1)
+| Largest forest cover (area) | **Madhya Pradesh** (77,493 → 77,073 sq km) > Arunachal > Chhattisgarh > Odisha > Maharashtra |
+| Highest % of area – State | **Mizoram** (85%; 88.93% in 2015; 85.34% in 2023) |
+| Highest % – incl. UTs | **Lakshadweep** (90%) > Mizoram > A&N (82%) > Arunachal (79%) > Meghalaya (76%) |
+| Largest very dense forest | **Arunachal Pradesh** (21,058 sq km) |
+| Least forest cover | **Haryana** (3.6%), Punjab |
+| Max increase in forest cover 2019–21 | **Andhra Pradesh** (+647 sq km) > Telangana > Odisha |
+- **Arunachal Pradesh** – same latitude as northern Rajasthan (~28°N), **~80% forest** (79.33% in 2021; 78.67% in 2023 – now just under 80%), over 12% in the PA network (UPSC 2012).
+- Percent order (2021): Kerala 55 > Odisha 34 > Karnataka 20 > AP 18; **Chhattisgarh 41 > Odisha 34 > MP 25 > Maharashtra 17** (ascending: Maharashtra–MP–Odisha–Chhattisgarh); **Manipur 74 > Odisha 34 > Maharashtra 17 > Haryana 4**.
+- **Nagaland is not** the most forested State (Mizoram is).
+- **Recorded forest area** (legal) differs from forest cover: Sikkim 82%, Manipur 78% RFA of their area; largest RFA – MP, then Maharashtra, Odisha, Chhattisgarh.
+- Teak: largest area in **Madhya Pradesh**; largest bamboo area: MP.
+- District facts: **West (Paschim) Champaran** has Bihar's largest dense deciduous forest (Valmiki); **Jodhpur** has the least very dense forest in Rajasthan.
+~~ Sources: PMF Indian Physical Geography 03 p.65-71 (ISFR 2021 State tables, UPSC 2012/2019 PYQs); Shankar Environment 11 p.9 (ISFR 2021); gktoday.in State of Forests Report 2015; app notes 4:40 (sub 7)
 
 === Deciduous, Thorn and Dry Evergreen Forests – Key Trees
 # Moist deciduous (100–200 cm)
@@ -67,24 +46,16 @@
 - Bamboo flowers gregariously after long cycles (about **40–50 years**; 48 years among the options).
 ~~ Sources: PMF Indian Physical Geography 03 p.44-50; NextGen Indian Geography 08 p.8-10 (book p.106-108); OnlyIAS NCERT Indian Geography 06 p.11; Rocket Indian Geography p.78, p.124-125; PMF Environment 03 p.83 (Udanti-Sitanadi TR); app notes 4:40 (sub 2)
 
-=== Himalayan, Montane and Temperate Forests; Sholas
-| Zone (bottom → top) | Altitude | Species |
-|---|---|---|
-| Tropical moist deciduous (foothills) | < 1,000 m | **Sal** |
-| Sub-tropical pine | 1,000–1,800 m | **Chir pine**, khair |
-| Montane wet / Himalayan moist temperate | 1,500–3,000 m (1,800–3,000 m wet temperate) | **Oak, deodar**, fir, chestnut, maple, **rhododendron** |
-| Himalayan dry temperate (Ladakh, Kinnaur, Lahul) | inner ranges | Chilgoza, deodar, oak, juniper |
-| Sub-alpine | 2,900–3,500 m | Fir, spruce, birch, rhododendron |
-| Moist alpine scrub / alpine meadows | 3,000 m to snowline (~4,750 m) | Rhododendron, birch; meadows (bugyals, margs) |
-| Dry alpine scrub | > 3,500–4,000 m | **Juniper**, honeysuckle, artemisia |
-- **Deodar** is the tree of the **highest elevation** among deodar, pine, sal, teak; abundant in the temperate **Western Himalaya**; covers **1,800–2,600 m** (not sal, chir).
-- Uttarakhand **oak–rhododendron** (banj oak, burans) = **temperate** forest. Oak and rhododendron grow naturally in the Himalaya; **sandalwood does not**.
-- **Mahogany** is a tropical (American) tree – **not** Himalayan; juniper, silver fir, spruce are.
-- **Himalayan Yew (Taxus wallachiana)** – source of **taxol**, the biggest-selling anti-cancer drug.
-- **Southern slopes** carry denser forest (more rain and sun); northern slopes are thinner (A false, R true).
-- **Coniferous forests** = **temperate/cold** regions (taiga 50°–60°N: Canada, Scandinavia, Finland, Siberia) – **not Amazonia**. Alpine forests are not on the Western Ghats.
-- **Sholas**: temperate (montane wet temperate) forests of the **Nilgiri, Anaimalai and Palani hills**.
-~~ Sources: NextGen Indian Geography 08 p.10-11 (book p.108-109); PMF Indian Physical Geography 03 p.50-53; OnlyIAS NCERT Indian Geography 06 p.13; OnlyIAS NCERT Human Geography 09 p.13 (Himalayan Yew); app notes 4:40 (sub 3)
+=== Tropical Evergreen (Rain) Forests and Biodiversity
+- Tall trees (**> 45 m**, 45–60 m), **multi-layered continuous canopy**, little undergrowth; **lianas, epiphytes**, orchids, canes, bamboo; **leaf litter decomposes fastest** – soil surface almost bare (UPSC 2021).
+- **Maximum plant diversity and biomass**: "greatest variety of animal and plant species" = **tropical moist (rain) forests** – not temperate deciduous, taiga, savanna, grassland, tundra, mangrove or desert.
+- In India, maximum tree diversity in the wet evergreen/semi-evergreen forests of the **Western Ghats**, then the **North-East** (ISFR).
+- Near the **equator** (about 10°N–10°S): no dry season, so the trees do not shed leaves together.
+- **Where in India:** western slopes of the **Western Ghats** (Kerala, Karnataka), **Assam**, Meghalaya, Manipur, Tripura, Nagaland, **Arunachal Pradesh, Mizoram**, **Andaman & Nicobar** – so "rain forest in India" = **Assam and Kerala**; **not Himachal Pradesh**, UP, MP, Chhattisgarh, Odisha.
+- **Species:** **rosewood, ebony**, mahogany, gurjan, ironwood, jamun, aini, champa, mesua, white cedar, canes; dominant species asked = **ebony** (not sandalwood, juniper, acacia).
+- **Cinchona** is an evergreen tropical (hill) plant – grown in WB (Darjeeling), Assam, Kerala/TN hills, **not Chhattisgarh**.
+- **Semi-evergreen:** 200–250 cm; buttressed trunks; laurel, rosewood, mesua, thorny bamboo.
+~~ Sources: NextGen Indian Geography 08 p.8 (book p.106); PMF Indian Physical Geography 03 p.41-44; OnlyIAS NCERT Indian Geography 06 p.10; app notes 4:40 (sub 1)
 
 === Mangrove, Littoral and Tidal Forests
 - Also called **tidal / littoral** forests: intertidal zone of sheltered coasts, mudflats, mix of salt and fresh water; **stilt and knee roots**; Rhizophora, Avicennia, Sonneratia, **Sundari**.
@@ -111,23 +82,6 @@
 - **MISHTI** (Mangrove Initiative for Shoreline Habitats & Tangible Incomes): launched **5 June 2023** (not 2019) to **restore mangroves** (54,000 ha by 2028); extended to 2029.
 ~~ Sources: NextGen Indian Geography 08 p.9-10 (book p.107-108); PMF Indian Physical Geography 03 p.45-46, p.71-72; Rocket Indian Geography p.123; gktoday.in State of Forests Report 2015 (3% of world mangroves); Rocket CA 2026-01 p.30 (MISHTI); app notes 4:40 (sub 4)
 
-=== ISFR – State Rankings
-| Measure (ISFR 2021 → 2023) | Answer |
-|---|---|
-| Largest forest cover (area) | **Madhya Pradesh** (77,493 → 77,073 sq km) > Arunachal > Chhattisgarh > Odisha > Maharashtra |
-| Highest % of area – State | **Mizoram** (85%; 88.93% in 2015; 85.34% in 2023) |
-| Highest % – incl. UTs | **Lakshadweep** (90%) > Mizoram > A&N (82%) > Arunachal (79%) > Meghalaya (76%) |
-| Largest very dense forest | **Arunachal Pradesh** (21,058 sq km) |
-| Least forest cover | **Haryana** (3.6%), Punjab |
-| Max increase in forest cover 2019–21 | **Andhra Pradesh** (+647 sq km) > Telangana > Odisha |
-- **Arunachal Pradesh** – same latitude as northern Rajasthan (~28°N), **~80% forest** (79.33% in 2021; 78.67% in 2023 – now just under 80%), over 12% in the PA network (UPSC 2012).
-- Percent order (2021): Kerala 55 > Odisha 34 > Karnataka 20 > AP 18; **Chhattisgarh 41 > Odisha 34 > MP 25 > Maharashtra 17** (ascending: Maharashtra–MP–Odisha–Chhattisgarh); **Manipur 74 > Odisha 34 > Maharashtra 17 > Haryana 4**.
-- **Nagaland is not** the most forested State (Mizoram is).
-- **Recorded forest area** (legal) differs from forest cover: Sikkim 82%, Manipur 78% RFA of their area; largest RFA – MP, then Maharashtra, Odisha, Chhattisgarh.
-- Teak: largest area in **Madhya Pradesh**; largest bamboo area: MP.
-- District facts: **West (Paschim) Champaran** has Bihar's largest dense deciduous forest (Valmiki); **Jodhpur** has the least very dense forest in Rajasthan.
-~~ Sources: PMF Indian Physical Geography 03 p.65-71 (ISFR 2021 State tables, UPSC 2012/2019 PYQs); Shankar Environment 11 p.9 (ISFR 2021); gktoday.in State of Forests Report 2015; app notes 4:40 (sub 7)
-
 === ISFR – National Figures, Canopy Classes and Global Ranking
 - **Forest Survey of India** (1981, **Dehradun**, MoEFCC) publishes the **biennial ISFR** (first 1987; satellite: IRS Resourcesat LISS III).
 | Class | Canopy density |
@@ -152,6 +106,52 @@
 - **FAO GFRA 2020:** India **3rd** in annual net forest gain 2010–20 (China, Australia, India); India ~2% of world forest. GFRA 2025: India 3rd in net gain, 9th in total area.
 - **Bhutan's constitution** mandates **60%** of its area under forest.
 ~~ Sources: PMF Indian Physical Geography 03 p.59-64; mongabay.com (ISFR 2017, Feb 2018); gktoday.in (SFR 2015); Praveen CA360 Jul 2026 p.18 (ISFR 2023); app notes 4:40 (sub 6, 7)
+
+=== Himalayan, Montane and Temperate Forests; Sholas
+| Zone (bottom → top) | Altitude | Species |
+|---|---|---|
+| Tropical moist deciduous (foothills) | < 1,000 m | **Sal** |
+| Sub-tropical pine | 1,000–1,800 m | **Chir pine**, khair |
+| Montane wet / Himalayan moist temperate | 1,500–3,000 m (1,800–3,000 m wet temperate) | **Oak, deodar**, fir, chestnut, maple, **rhododendron** |
+| Himalayan dry temperate (Ladakh, Kinnaur, Lahul) | inner ranges | Chilgoza, deodar, oak, juniper |
+| Sub-alpine | 2,900–3,500 m | Fir, spruce, birch, rhododendron |
+| Moist alpine scrub / alpine meadows | 3,000 m to snowline (~4,750 m) | Rhododendron, birch; meadows (bugyals, margs) |
+| Dry alpine scrub | > 3,500–4,000 m | **Juniper**, honeysuckle, artemisia |
+- **Deodar** is the tree of the **highest elevation** among deodar, pine, sal, teak; abundant in the temperate **Western Himalaya**; covers **1,800–2,600 m** (not sal, chir).
+- Uttarakhand **oak–rhododendron** (banj oak, burans) = **temperate** forest. Oak and rhododendron grow naturally in the Himalaya; **sandalwood does not**.
+- **Mahogany** is a tropical (American) tree – **not** Himalayan; juniper, silver fir, spruce are.
+- **Himalayan Yew (Taxus wallachiana)** – source of **taxol**, the biggest-selling anti-cancer drug.
+- **Southern slopes** carry denser forest (more rain and sun); northern slopes are thinner (A false, R true).
+- **Coniferous forests** = **temperate/cold** regions (taiga 50°–60°N: Canada, Scandinavia, Finland, Siberia) – **not Amazonia**. Alpine forests are not on the Western Ghats.
+- **Sholas**: temperate (montane wet temperate) forests of the **Nilgiri, Anaimalai and Palani hills**.
+~~ Sources: NextGen Indian Geography 08 p.10-11 (book p.108-109); PMF Indian Physical Geography 03 p.50-53; OnlyIAS NCERT Indian Geography 06 p.13; OnlyIAS NCERT Human Geography 09 p.13 (Himalayan Yew); app notes 4:40 (sub 3)
+
+=== Forest Types – Classification, Rainfall and Area Ranking
+# Classification
+- **H.G. Champion (1935)**, refined with **S.K. Seth (1968)**: **5 major groups, 16 type groups** – Moist Tropical, Dry Tropical, Montane Sub-tropical, Montane Temperate, Alpine.
+| Type | Rainfall | Leaf habit |
+|---|---|---|
+| Tropical wet evergreen (rain forest) | **> 250 cm** (NCERT: > 200 cm), temp > 22–25 °C | Evergreen – no leaf-shedding season |
+| Tropical semi-evergreen | 200–250 cm | Mixed evergreen + deciduous |
+| Tropical moist deciduous | 100–200 cm | Shed leaves in the dry season |
+| Tropical dry deciduous | 70–100 cm | Leafless in the long dry season |
+| Tropical thorn | < 70 cm (NCERT < 50 cm) | Open, stunted, xerophytic |
+| Desert vegetation | < 25 cm | Xerophytes |
+- **Deciduous** = sheds leaves before winter or in the dry spell (adaptation to moisture shortage); evergreen = no common leaf fall.
+- Forests of **> 200 cm rain and > 22 °C** = tropical **evergreen and semi-evergreen** forests.
+# Which type is largest?
+| Measure | Answer |
+|---|---|
+| Most widespread **group** | **Tropical deciduous (monsoon) forests – 65.6%** of forest area (NextGen) |
+| Largest single type (ISFR 2021) | **Tropical dry deciduous 2,80,547 sq km (39.30%)** |
+| Second (ISFR 2021) | Tropical moist deciduous 1,31,805 sq km (18.47%) |
+| Then | Plantation/TOF 10.54%, semi-evergreen 9.69%, sub-tropical broad-leaved hill 4.35% |
+| Wet evergreen / montane wet temperate | 2.74% / 2.83%; sub-tropical dry evergreen only 0.02% |
+- NextGen/NCERT (older figures): **moist deciduous ~37%** is "most widely distributed", dry deciduous 28.6% second, **wet evergreen ~8% third** (semi-evergreen 4.1%). ISFR forest-type mapping now ranks **dry deciduous first** – key "dry deciduous" when both are offered; when dry deciduous is **not** an option (UPSC 2010), the answer is **moist deciduous**.
+- **World:** FAO FRA 2020 ranks climatic domains **Tropical > Boreal > Temperate > Subtropical**; most books and the UPSC 2003 key give **temperate coniferous (taiga)** as the largest forest type of the world.
+- **Highest deforestation** in the world: the **tropical** zone (FAO).
+> Forest-type angle (8 PYQs): "most widespread" = tropical deciduous; "largest single type" = dry deciduous; options without dry deciduous → moist deciduous.
+~~ Sources: NextGen Indian Geography 08 p.7-9 (book p.105-107); PMF Indian Physical Geography 03 p.40-41, p.64 (ISFR 2021 table, FRA 2020); OnlyIAS NCERT Indian Geography 06 p.11
 
 === Forest Policy, Law, Silviculture, Social Forestry and Grasslands
 # National Forest Policy 1988
