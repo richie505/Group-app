@@ -9,7 +9,7 @@
 # Tiger reserves – famous ones
 | Reserve | Fact |
 |---|---|
-| Nagarjunasagar-Srisailam (AP) | **Largest TR** – core 2,596 sq km, total 3,296 sq km; AP's only TR; so "India's largest tiger habitat" = **Andhra Pradesh** |
+| Nagarjunasagar-Srisailam (AP) | **Largest TR** – core 2,596 sq km, total ~3,728 sq km (NTCA: core 2,595.72 + buffer 1,132.10); AP's only TR; so "India's largest tiger habitat" = **Andhra Pradesh** |
 | Manas (Assam) | One of the first nine (1973); known for **tigers** (also an elephant reserve, UNESCO site) |
 | Sariska, Ranthambhore (Rajasthan) | **Tiger** reserves (not lion, deer or bear) |
 | Kanha (MP) | Mascot **Bhoorsingh the Barasingha** (first TR with a mascot) |
