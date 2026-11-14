@@ -1,0 +1,1109 @@
+=== NOTES 5:35 | Launch Vehicles - SLV-3, Aslv, Pslv, Gslv Mk-ii, LVM3, Sslv
+## SUB 0 | Sounding Rockets and Terls Thumba
+[35:0:0] - **TERLS** (Thumba Equatorial Rocket Launching Station), near **Thiruvananthapuram, Kerala**; work began 1962.
+[35:0:1] - Chosen because the **geomagnetic (magnetic) equator** passes through it - suits sounding-rocket experiments.
+[35:0:2] - First launch: American **Nike-Apache**, **21 Nov 1963** - start of the Indian space programme.
+[35:0:3] - Early imported rockets: **M-100** (Russia), **Centaure** (France); indigenous rockets from **1965**.
+[35:0:4] - **Rohini Sounding Rocket (RSR)** programme consolidated in **1975**.
+[35:0:5] - RH rockets: atmospheric research + testing/qualifying subsystems for larger launch vehicles.
+[35:0:6] - Number = **diameter in mm** (**RH-200, RH-300, RH-560**); three operational versions: payload **8-100 kg**, apogee **80-475 km**.
+[35:0:7] - **RH-200**: **200th consecutive successful launch** from Thumba, **Nov 2022**.
+[35:0:8] Thumba = magnetic equator (sounding rockets); Sriharikota = east coast (orbital launches).
+## SUB 1 | Chronology and First Payloads
+[35:1:0] - Order: **SLV-3 → ASLV → PSLV → GSLV → LVM3 → SSLV**.
+[35:1:1] TABLE head: Vehicle | First flight | First (successful) payload
+  [35:1:1.0] SLV-3 | 10 Aug 1979 (E1, failed) | 18 Jul 1980 (E2): Rohini RS-1 - first indigenous launch success
+  [35:1:1.1] ASLV | 24 Mar 1987 (failed; again 1988) | First success 1992; SROSS series
+  [35:1:1.2] PSLV | 20 Sep 1993 (D1, failed) | 15 Oct 1994 (D2): IRS-P2
+  [35:1:1.3] GSLV | 18 Apr 2001 (D1) | GSAT-1 (1,536 kg)
+  [35:1:1.4] LVM3 | 18 Dec 2014 (suborbital) | CARE (suborbital experiment); 2017 D1: GSAT-19
+  [35:1:1.5] SSLV | Aug 2022 (D1, failed) | EOS-02 not placed in orbit; D2 (2023), D3 (2024) succeeded
+[35:1:2] - PSLV = third-generation vehicle; GSLV = fourth-generation.
+## SUB 2 | Full Forms, Stages and Propellants
+[35:2:0] TABLE head: Vehicle | Full form | Stages
+  [35:2:0.0] SLV-3 | Satellite Launch Vehicle-3 | 4, all-solid; 17 t, 22 m
+  [35:2:0.1] ASLV | Augmented SLV | 5, all-solid
+  [35:2:0.2] PSLV | Polar SLV | 4: solid-liquid-solid-liquid; 2nd stage Vikas; no cryogenic stage
+  [35:2:0.3] GSLV Mk-II | Geosynchronous SLV | 3: solid - liquid - cryogenic (CE-7.5) + 4 liquid strap-ons
+  [35:2:0.4] LVM3 (ex-GSLV Mk-III, "Bahubali") | Launch Vehicle Mark-3 | 2 S200 solid strap-ons + L110 liquid core + C25 cryogenic (fully indigenous)
+  [35:2:0.5] SSLV | Small SLV | 3 solid stages + liquid Velocity Trimming Module (VTM) for precise orbit insertion
+[35:2:1] - PSLV: **first Indian vehicle with liquid stages**; ISRO's "**workhorse**".
+[35:2:2] - GSLV: one solid motor stage + one **earth-storable liquid** stage + one **cryogenic** stage (APPSC G2 2025).
+[35:2:3] - GSLV Mk-II has **four liquid strap-ons**, not two solid.
+[35:2:4] PSLV = 4 stages (S-L-S-L); GSLV = 3 (solid-liquid-cryo); SSLV = 3 solid + VTM.
+## SUB 3 | Payload Capacity and Orbits Served
+[35:3:0] TABLE head: Vehicle | LEO / SSO | GTO | Orbits / class
+  [35:3:0.0] SLV-3 | 40 kg | - | LEO
+  [35:3:0.1] ASLV | 150 kg | - | LEO
+  [35:3:0.2] PSLV | ~1,750 kg to SSO | ~1,425 kg | SSO, LEO and GTO; launched Chandrayaan-1 and Mars Orbiter Mission
+  [35:3:0.3] GSLV Mk-II | - | 2-2.5 t | Communication and navigation satellites to GTO
+  [35:3:0.4] LVM3 | 8 t (600 km LEO) | 4 t | Heavy GTO / LEO
+  [35:3:0.5] SSLV | 500 kg to 500 km (10-500 kg) | - | Mini, micro, nano satellites to LEO
+[35:3:1] # PSLV variants
+[35:3:2] TABLE head: Variant | Strap-ons
+  [35:3:2.0] PSLV-CA (Core Alone) | 0
+  [35:3:2.1] PSLV-DL | 2
+  [35:3:2.2] PSLV-QL | 4
+  [35:3:2.3] PSLV-G | 6
+  [35:3:2.4] PSLV-XL | 6 extended
+[35:3:3] - **PSLV-C4**: first time PSLV carried over 1,000 kg (**1,060 kg**) to geosynchronous orbit - **METSAT** (12 Sep 2002), India's first full meteorological satellite, renamed **Kalpana-I**.
+## SUB 4 | Orbit Terms and Launch Physics
+[35:4:0] TABLE head: Term | Meaning
+  [35:4:0.0] LEO | Low Earth Orbit (up to ~2,000 km)
+  [35:4:0.1] SSO | Sun-synchronous, near-polar; passes a place at the same local solar time (same imaging conditions) - PSLV's speciality
+  [35:4:0.2] GTO | Geosynchronous Transfer Orbit: elliptical, apogee near 36,000 km - GSLV, LVM3
+  [35:4:0.3] GEO | GSO over the equator; fixed in the sky
+  [35:4:0.4] Apogee / perigee | Farthest / nearest point of an orbit
+  [35:4:0.5] Strap-on booster | Extra motors fixed to the core for lift-off thrust
+[35:4:1] - **Eastward** launches gain Earth's rotational speed and save fuel; sites **nearer the equator** gain most.
+[35:4:2] - Sriharikota on the **east coast**: rockets fly over the sea, away from people.
+[35:4:3] - Polar/SSO launches go **southward**; from Sriharikota a **dog-leg around Sri Lanka** is needed - hence **Kulasekarapattinam** (Tamil Nadu) for SSLV (foundation **27 Aug 2025**).
+[35:4:4] - All orbital launches, incl. private **Agnibaan**, are from **Sriharikota** (AP); Chandrayaan-1 was launched from AP.
+## SUB 5 | Cryogenic and Semi-cryogenic Engines
+[35:5:0] - Early GSLVs used **Russian** cryogenic engines; technology transfer refused in the **1990s**, so India built its own.
+[35:5:1] - First indigenous cryogenic success: **GSLV-D5 (2014)**.
+[35:5:2] TABLE head: Engine / type | Propellant | Used in
+  [35:5:2.0] CE-7.5 (cryogenic) | LH2 + LOX | GSLV Mk-II upper stage
+  [35:5:2.1] CE-20 (cryogenic, ~200 kN) | LH2 + LOX | C25 stage of LVM3
+  [35:5:2.2] SCE-200 (semi-cryogenic) | Refined kerosene + LOX | LVM3 upgrade, NGLV
+  [35:5:2.3] Vikas (earth-storable) | UH25 + N2O4 | PSLV 2nd, GSLV 2nd stage
+  [35:5:2.4] Solid | HTPB | GSLV 1st stage
+[35:5:3] - Engine testing: **IPRC Mahendragiri (Tamil Nadu)**; **LPSC Valiamala** does design, not testing.
+## SUB 6 | Satellite to Vehicle
+[35:6:0] TABLE head: Satellite | Vehicle | Date / note
+  [35:6:0.0] 104 satellites (Cartosat-2 + 101 foreign) | PSLV-C37 | 15 Feb 2017; multi-satellite record
+  [35:6:0.1] GSAT-6A | GSLV-F08 | Mar 2018; contact lost after launch
+  [35:6:0.2] Chandrayaan-2 | GSLV Mk III-M1 (LVM3-M1) | 2019
+  [35:6:0.3] Cartosat-3 + 13 US nanosatellites | PSLV-C47 | Nov 2019
+  [35:6:0.4] RISAT-2BR1 + 9 foreign | PSLV-C48 | 11 Dec 2019; 50th PSLV flight
+  [35:6:0.5] GISAT-1 | GSLV-F10 | Planned 5 Mar 2020, postponed; flown 12 Aug 2021, lost (cryogenic-stage anomaly)
+  [35:6:0.6] OneWeb | LVM3-M2, M3 | 72 satellites in total
+  [35:6:0.7] TeLEOS-2 + Lumelite-4 (Singapore) | PSLV-C55 | 22 Apr 2023; 57th PSLV mission
+  [35:6:0.8] NVS-01 | GSLV-F12 | May 2023
+  [35:6:0.9] Chandrayaan-3 | LVM3-M4 | Jul 2023
+  [35:6:0.10] Aditya-L1 | PSLV-C57 (XL) | 2 Sep 2023
+  [35:6:0.11] SpaDeX | PSLV-C60 | 30 Dec 2024; docked 16 Jan 2025 - India 4th
+  [35:6:0.12] NVS-02 | GSLV-F15 | 29 Jan 2025; 100th Sriharikota launch; valve malfunction, not in intended orbit
+  [35:6:0.13] NISAR | GSLV-F16 | 30 Jul 2025; first GSLV to sun-synchronous polar orbit
+  [35:6:0.14] BlueBird Block-2 (AST SpaceMobile, USA) | LVM3-M6 | 24 Dec 2025; 6,100 kg to LEO
+  [35:6:0.15] EOS-N1 "Anvesha" (DRDO) + 15 | PSLV-C62 (DL) | 12 Jan 2026; failed, third stage
+  [35:6:0.16] EOS-05 | GSLV-F17 | 4 Sep 2026; 2,367 kg to sub-GTO; India's first imaging satellite in geosynchronous orbit
+## SUB 7 | Records and Landmarks
+[35:7:0] - **100th SHAR launch**: GSLV-F15/NVS-02, **29 Jan 2025** (17th GSLV flight); **105th** PSLV-C62; **107th** GSLV-F17 (19th GSLV flight).
+[35:7:1] - **Heaviest payload from Indian soil**: BlueBird Block-2, 6,100 kg, LVM3-M6; also the largest commercial communication satellite in LEO (**223 m2** array). LVM3 has flown **6** missions.
+[35:7:2] - Older record: **INSAT-4CR**, 2,130 kg, GSLV-F04, 2007.
+[35:7:3] - PSLV setbacks: **PSLV-C61/EOS-09** (18 May 2025) and **PSLV-C62** (64th PSLV flight) both failed at the **third stage**; no ISRO launches in Q1 2026.
+[35:7:4] - Heavy-lift "**game changer**": LVM3 ended dependence on foreign launchers for **4-tonne** satellites to GTO.
+[35:7:5] - **49% automatic FDI** in launch vehicles and spaceports (Jul 2026). ISSAR 2025: 315 launches worldwide, 4,651 objects placed in orbit.
+## SUB 8 | Sslv
+[35:8:0] - Design goal: **500 kg to 500 km LEO**, low cost, **launch-on-demand** for small satellites.
+[35:8:1] - **SSLV-D1** (Aug 2022) failed to reach the intended orbit; **D2 (2023)** and **D3 (2024)** succeeded.
+[35:8:2] - **HAL** won the **Rs 511 crore** Transfer of Technology - **first full ToT** of an ISRO launch vehicle to industry.
+[35:8:3] "SSLV has two solid stages" is WRONG - it has three (APPSC G1 2022).
+## SUB 9 | Private Launch Vehicles
+[35:9:0] TABLE head: Vehicle | Company | Fact
+  [35:9:0.0] Vikram-S ("Prarambh") | Skyroot (Hyderabad) | 18 Nov 2022, Sriharikota; India's first private rocket (suborbital, 89.5 km); first IN-SPACe authorisation
+  [35:9:0.1] Agnibaan SOrTeD | Agnikul Cosmos | 30 May 2024; 3D-printed Agnilet semi-cryogenic engine; India's first private launchpad at Sriharikota
+  [35:9:0.2] Vikram-1 | Skyroot | 18 Jul 2026: first privately developed Indian rocket to reach orbit
+  [35:9:0.3] Kalam series | Skyroot | Solid stages of Vikram-1: Kalam-1200 (1st), Kalam-250 (2nd, test-fired 27 Mar 2024), Kalam-100 (3rd)
+## SUB 10 | Reusable and Future Vehicles
+[35:10:0] - **RLV-TD / Pushpak**: autonomous landing tests at **Chitradurga** - **RLV-LEX (2 Apr 2023)**, **LEX-02 (22 Mar 2024)**, **LEX-03 (23 Jun 2024)**; a **landing** experiment, not an engine test.
+[35:10:1] - **NGLV**: ~**90 m** tall, ~**1,000 t** lift-off mass; needs the **Third Launch Pad** (~4 years); for **Bharatiya Antariksh Station by 2035** and **crewed lunar landing by 2040** (not 2030).
+[35:10:2] - **HLVM3**: human-rated LVM3 for **Gaganyaan** - crew to **400 km** LEO for **3 days**; first Integrated Air Drop Test **24 Aug 2025**.
+[35:10:3] - **SOLVE**: sub-orbital test vehicle solid motor ground-tested at SHAR (Jul 2026).
+[35:10:4] - Foreign reusables: **SpaceX Falcon 9** - first orbital-class booster landing **21 Dec 2015**; **Blue Origin New Shepard** - **suborbital** reusable, landed Nov 2015.
+## SUB 11 | Number Game and Quick Revision
+[35:11:0] TABLE head: Item | Fact
+  [35:11:0.0] Stages SLV-3 / ASLV / PSLV / GSLV | 4 / 5 / 4 / 3
+  [35:11:0.1] PSLV strap-ons CA / DL / QL / G / XL | 0 / 2 / 4 / 6 / 6 extended
+  [35:11:0.2] LVM3 | 4 t GTO, 8 t LEO
+  [35:11:0.3] SSLV | 500 kg to 500 km
+  [35:11:0.4] Record | 104 satellites, PSLV-C37
+  [35:11:0.5] HAL ToT | Rs 511 crore
+[35:11:1] # FIRST / LAST / SPECIAL FACTS
+[35:11:2] - First indigenous orbital launch: Rohini RS-1 on SLV-3 (1980).
+[35:11:3] - First indigenous cryogenic success: GSLV-D5 (2014).
+[35:11:4] - First private rocket: Vikram-S (2022); first private orbital rocket: Vikram-1 (2026).
+## SUB 12 | Appsc Previous Year Questions
+[35:12:0] TABLE head: Examination | Question Area
+  [35:12:0.0] APPSC 2018 | Cartosat-3 on PSLV-C47
+  [35:12:0.1] APPSC (earlier) | GISAT-1 on GSLV-F10
+  [35:12:0.2] APPSC 2021 | RH-200 - 200th consecutive launch
+  [35:12:0.3] Group 1 Prelims 2022 | SSLV statements - 500 kg to 500 km, three solid stages
+  [35:12:0.4] APPSC 2023 | NVS-01 on GSLV-F12
+  [35:12:0.5] Group 2 Mains 2025, Paper 2 | GSLV stages (solid + earth-storable liquid + cryogenic); launch-vehicle terms
+## SUB 13 | High-probability Mcq Traps
+[35:13:0] - 1. PSLV has **no cryogenic** stage.
+[35:13:1] - 2. GSLV Mk-II strap-ons are **four liquid**, not two solid.
+[35:13:2] - 3. SSLV = **three** solid stages + VTM.
+[35:13:3] - 4. **Chandrayaan-1 = PSLV**; Chandrayaan-2 = GSLV Mk III-M1; Chandrayaan-3 = LVM3-M4.
+[35:13:4] - 5. RH number = **diameter in mm**.
+[35:13:5] - 6. Cryogenic engines are tested at **Mahendragiri (TN)**, not Kerala.
+[35:13:6] - 7. 100th Sriharikota launch = **GSLV-F15/NVS-02 (2025)**, not a PSLV.
+[35:13:7] - 8. Polar launches go **south**; eastward launches gain Earth's spin.
+[35:13:8] - 9. NGLV goal: crewed lunar landing by **2040**.
+[35:13:9] - 10. **Vikram-S** was suborbital; **Vikram-1** reached orbit.
+
+=== OWN MCQs of 5:35 (76)
+[n7b7acf0c933] sub0
+  Which was the first sounding rocket launched from Thumba?
+  Centaure in 1975 | *Nike-Apache on 21 November 1963 | RH-75 on 20 November 1967 | M-100 in 1965
+  x: The first sounding rocket launched from Thumba was the American Nike-Apache on 21 November 1963.
+[n9a4787eb7bb] sub0
+  Why was Thumba selected for the establishment of TERLS?
+  It lies close to the international date line | It is located near the Baikonur Cosmodrome | *The geomagnetic equator passes through it | It is India's highest-altitude site
+  x: Thumba was selected because the geomagnetic equator passes through the location, making it suitable for sounding-rocket experiments.
+[n1e83dfd20a2] sub0
+  For what are Rohini sounding rockets mainly used?
+  Geostationary communication and television broadcasting only | *Atmospheric research and qualification of launch-vehicle subsystems | Manned lunar landing missions | Intercontinental ballistic missile deployment
+  x: Rohini sounding rockets carry payloads for atmospheric research and are also used to test and qualify systems intended for larger launch vehicles.
+[n631dde8a6dd] sub0
+  In the Rohini sounding-rocket names RH-200, RH-300 and RH-560, what does the number indicate?
+  *Diameter in millimetres | Payload in kilograms | Year of development | Maximum altitude in kilometres
+  x: The number in an RH designation denotes the rocket diameter in millimetres.
+[n07fc57a2e79] sub0
+  When did RH-200 achieve the 200th consecutive successful launch from Thumba?
+  November 2023 | November 2020 | November 2021 | *November 2022
+  x: RH-200 completed its 200th consecutive successful launch from Thumba in November 2022.
+[g11cc7d15be86] sub0
+  Match the following early sounding rockets used at Thumba with their country of origin:
+List-I
+A. Nike-Apache
+B. M-100
+C. Centaure
+List-II
+1. France
+2. USA
+3. Russia
+Select the correct answer using the code given below:
+  *A-2, B-3, C-1 | A-3, B-2, C-1 | A-1, B-3, C-2 | A-2, B-1, C-3
+  x: Nike-Apache was American, M-100 Russian and Centaure French; indigenous rockets came from 1965.
+[nb8e16f62611] sub1
+  Which Indian launch vehicle made its first flight in 1987?
+  SLV-3 | PSLV | *ASLV | GSLV
+  x: First flights: SLV-3 (1979), ASLV (1987), PSLV (1994), GSLV (2001).
+[nd27d79b9161] sub1
+  Which of the following launch vehicle – first successful payload pairs is correctly matched?
+  PSLV – GSAT-1 | SLV-3 – IRS-P2 | *PSLV – IRS-P2 | GSLV – Rohini RS-1
+  x: PSLV's first successful payload was IRS-P2; SLV-3's was Rohini RS-1 and GSLV's first payload was GSAT-1.
+[n5a430982eb2] sub1
+  What was CARE, launched by LVM3 on 18 December 2014?
+  Geostationary communication satellite | Crewed orbital capsule | *Suborbital experimental payload | Polar remote-sensing satellite
+  x: CARE was a suborbital experimental payload launched by LVM3 on 18 December 2014.
+[f720abcbe1ec5] sub1
+  The first successful flight of PSLV (D2, 15 October 1994) placed which satellite in orbit?
+  Rohini RS-1 | GSAT-1 | *IRS-P2 | SROSS
+  x: PSLV-D2 carried IRS-P2; Rohini RS-1 flew on SLV-3 and GSAT-1 on GSLV-D1.
+[g295834b85a74] sub1
+  Which is the correct chronological order of the first flights of the following launch vehicles?
+1. LVM3
+2. ASLV
+3. SSLV
+4. GSLV
+Select the correct answer using the code given below:
+  *2, 4, 1, 3 | 4, 2, 1, 3 | 2, 1, 4, 3 | 2, 4, 3, 1
+  x: ASLV (1987), GSLV (2001), LVM3 (2014) and SSLV (2022).
+[g043742c690f4] sub1
+  Which satellite did GSLV carry on its first flight (GSLV-D1) on 18 April 2001?
+  *GSAT-1 | IRS-P2 | INSAT-4CR | GSAT-19
+  x: GSLV-D1 (18 April 2001) carried GSAT-1, weighing 1,536 kg.
+[g1e2ed6cb813e] sub1
+  In which year did ASLV have its first successful flight?
+  1987 | 1988 | *1992 | 1994
+  x: ASLV failed in 1987 and 1988 and first succeeded in 1992 with the SROSS series.
+[g06ff072f8959] sub1
+  Which generation of Indian launch vehicle is GSLV?
+  Second | Third | *Fourth | Fifth
+  x: PSLV is the third-generation vehicle and GSLV the fourth-generation.
+[n0db9a7039d9] sub2
+  ASLV was an all-solid launch vehicle with how many stages?
+  *Five | Four | Three | Six
+  x: ASLV had five solid stages; SLV-3 had four.
+[nd55ebd539dc] sub2
+  Which of the following is NOT correct about GSLV Mk II?
+  Its first stage uses HTPB solid propellant. | Its third stage is cryogenic, using LH2 and LOX. | Its second stage uses a Vikas engine with UH25 and N2O4. | *It has two solid strap-ons.
+  x: GSLV Mk II has four liquid strap-ons, not two solid ones.
+[na10b814d8db] sub2
+  Which of the following is the configuration of LVM3?
+  Four solid stages followed by a Vikas liquid stage | *Two S200 solid strap-ons, an L110 liquid core and a C25 cryogenic stage | Three solid stages and a liquid velocity-trimming module | HTPB first stage, UH25 second stage and CE-7.5 third stage
+  x: LVM3 uses two S200 solid strap-ons, an L110 liquid core and a fully indigenous C25 cryogenic stage.
+[nb0159d73f7a] sub2
+  What does SSLV consist of?
+  Four stages in a solid-liquid-solid-liquid sequence | One solid, one liquid and one cryogenic stage | *Three solid stages and a liquid Velocity Trimming Module | Five all-solid stages
+  x: SSLV has three solid stages and a liquid Velocity Trimming Module that provides precise orbit insertion.
+[nd868ae9c9f7] sub2
+  What is the order of PSLV's four stages?
+  *Solid-liquid-solid-liquid | Solid-liquid-cryogenic-liquid | Liquid-solid-liquid-solid | Solid-solid-liquid-cryogenic
+  x: PSLV is solid-liquid-solid-liquid with no cryogenic stage; it was the first Indian launch vehicle with liquid stages.
+[fdb18fec81cd0] sub2
+  What stages did SLV-3, India's first satellite launch vehicle, have?
+  *Four all-solid stages | Five all-solid stages | Three solid stages and a VTM | Four solid-liquid-solid-liquid stages
+  x: SLV-3 had 4 all-solid stages; ASLV had 5 and SSLV has 3 solid stages plus a VTM.
+[g8aae6499851d] sub2
+  What is the full form of PSLV?
+  *Polar Satellite Launch Vehicle | Primary Satellite Launch Vehicle | Polar Space Launch Vehicle | Payload Satellite Launch Vehicle
+  x: PSLV stands for Polar Satellite Launch Vehicle, ISRO's 'workhorse'.
+[g7fe2e0f75439] sub2
+  Which Indian launch vehicle is nicknamed 'Bahubali'?
+  PSLV-XL | GSLV Mk-II | *LVM3 | SSLV
+  x: LVM3, formerly GSLV Mk-III, is called 'Bahubali' as India's heaviest launcher.
+[ga89944bb34dc] sub2
+  Which was the first Indian launch vehicle to have liquid stages?
+  SLV-3 | ASLV | *PSLV | SSLV
+  x: PSLV was the first Indian vehicle with liquid stages; SLV-3 and ASLV were all-solid.
+[n0bbab47285c] sub3
+  Which launch vehicle serves SSO, LEO and GTO missions, including Chandrayaan-1 and the Mars Orbiter Mission?
+  SSLV | LVM3 | GSLV Mk II | *PSLV
+  x: PSLV serves SSO, LEO and GTO and launched Chandrayaan-1 and the Mars Orbiter Mission.
+[nabe91b2bfcd] sub3
+  Which launch vehicle is mainly used to place 2-2.5 tonne communication and navigation satellites into GTO?
+  ASLV | SSLV | PSLV | *GSLV Mk II
+  x: GSLV Mk II is designed to place 2–2.5 tonne communication and navigation satellites into Geosynchronous Transfer Orbit.
+[n7be003c4df0] sub3
+  About how much payload can LVM3 carry to GTO and LEO respectively?
+  8 tonnes to GTO and 4 tonnes to LEO | *4 tonnes to GTO and 8 tonnes to LEO | 2 tonnes to GTO and 4 tonnes to LEO | 500 kg to GTO and 1,750 kg to LEO
+  x: The stated LVM3 capacity is about 4 tonnes to GTO and 8 tonnes to LEO, although some descriptions cite approximately 10 tonnes to LEO.
+[f06e4961d40cb] sub3
+  PSLV can place about how much payload into Sun-synchronous orbit?
+  1,425 kg | *1,750 kg | 4,000 kg | 500 kg
+  x: PSLV carries about 1,750 kg to SSO and about 1,425 kg to GTO.
+[g4c4d72dde98a] sub3
+  Which satellite, launched by PSLV-C4 in 2002 as India's first full meteorological satellite, was later renamed Kalpana-I?
+  INSAT-3D | *METSAT | Oceansat-1 | IRS-P4
+  x: PSLV-C4 put METSAT (1,060 kg) into geosynchronous orbit in 2002; it was renamed Kalpana-I.
+[nf66a7bb6742] sub4
+  What is the full form of GTO in launch terminology?
+  Geostationary Low Orbit | Global Transit Orbit | Geocentric Tracking Orbit | *Geosynchronous Transfer Orbit
+  x: GTO is the Geosynchronous Transfer Orbit, served by GSLV and LVM3; SSO is PSLV's speciality.
+[ncc99c6ff84a] sub4
+  Which of the following is NOT correct about orbits?
+  A geostationary orbit is a geosynchronous orbit over the equator. | *Apogee is the point of an orbit nearest to the Earth. | GTO is an elliptical transfer orbit with its apogee near 36,000 km. | A geosynchronous orbit has a period of one day.
+  x: Apogee is the farthest point of an orbit; perigee is the nearest.
+[ne339d25aa57] sub4
+  Where is a second spaceport for SSLV launches being established?
+  *Kulasekarapattinam | Thumba | Chitradurga | Mahendragiri
+  x: Orbital launches, including private Agnibaan missions, take place from Sriharikota; a second SSLV spaceport is coming up at Kulasekarapattinam in Tamil Nadu.
+[na2db7fffc47] sub4
+  Why is a sun-synchronous satellite suitable for imaging?
+  always travels in an eastward equatorial orbit | *passes over a given place at the same local solar time | remains fixed over the equator | has an apogee near 36,000 km
+  x: A sun-synchronous orbit is generally near-polar and passes over a given location at approximately the same local solar time, which is useful for consistent imaging conditions.
+[n6ed20c1e93a] sub4
+  Launch sites in which location gain the most fuel saving from an eastward launch?
+  *Near the equator | At mid-latitudes | Near the poles | Near the Tropic of Cancer
+  x: Eastward launches gain Earth's rotational speed, and sites nearer the equator gain the most.
+[n859a7a722f0] sub4
+  In which direction do polar and Sun-synchronous orbit launches from Sriharikota proceed, needing a dog-leg trajectory around Sri Lanka?
+  Westward over the Indian mainland | *Southward | Northward | Eastward only
+  x: Polar and Sun-synchronous launches generally follow a southward trajectory from Sriharikota; a dog-leg is used to avoid Sri Lanka.
+[n2700cedab58] sub5
+  Which of the following is NOT correct about India's cryogenic engine development?
+  Early GSLVs used Russian cryogenic engines. | Cryogenic technology transfer was denied to India in the 1990s. | *India's own cryogenic engine first succeeded on GSLV-D1 in 2001. | GSLV-D5 (2014) was the first success of the indigenous cryogenic engine.
+  x: The first successful flight of India's own cryogenic engine was on GSLV-D5 in 2014, not GSLV-D1.
+[neba7a9584c1] sub5
+  Where are engine tests for Indian cryogenic and semi-cryogenic systems conducted?
+  Satish Dhawan Space Centre, Sriharikota | Kulasekarapattinam, Tamil Nadu | LPSC, Valiamala, Kerala | *IPRC, Mahendragiri, Tamil Nadu
+  x: The tests are conducted at the ISRO Propulsion Complex (IPRC), Mahendragiri, in Tamil Nadu. LPSC Valiamala is associated with design work and is not the testing facility identified here.
+[nfdc747b0e1a] sub5
+  ISRO's SCE-200 semi-cryogenic engine, meant for the LVM3 upgrade and the NGLV, uses which propellant combination?
+  Liquid hydrogen and liquid oxygen | UH25 and N2O4 | *Refined kerosene and liquid oxygen | HTPB solid propellant
+  x: A semi-cryogenic engine burns refined kerosene with liquid oxygen; SCE-200 is meant for the LVM3 upgrade and NGLV. LH2 + LOX is the fully cryogenic combination (CE-7.5, C25); UH25 + N2O4 is the earth-storable Vikas combination; HTPB is a solid propellant.
+[f2770c3f293c3] sub5
+  Which stage does the CE-20 cryogenic engine power?
+  *C25 stage of LVM3 | Upper stage of GSLV Mk-II | Second stage of PSLV | First stage of GSLV
+  x: CE-20 (LH2 + LOX) powers LVM3's C25 stage; CE-7.5 powers the GSLV Mk-II upper stage.
+[n06b7b62b381] sub6
+  Which launch vehicle launched EOS-05, India's first imaging satellite in geosynchronous orbit?
+  *GSLV-F17 | GSLV-F16 | GSLV-F15 | LVM3-M6
+  x: GSLV-F17 placed EOS-05 into a sub-GTO on 4 September 2026.
+[ncf91d57e144] sub6
+  Chandrayaan-3 was launched by which of the following?
+  GSLV-F10 | GSLV Mk III-M1 | PSLV-C57 | *LVM3-M4
+  x: Chandrayaan-3 was launched by LVM3-M4 in July 2023.
+[n00275333c3b] sub6
+  Which launch set the record for the largest number of satellites in a single Indian launch?
+  GSLV-F15 in January 2025 | *PSLV-C37 in February 2017 | LVM3-M6 in December 2025 | PSLV-C62 in January 2026
+  x: PSLV-C37 launched 104 satellites in February 2017, establishing the multi-satellite record stated here.
+[n3dc0716360a] sub6
+  Which of the following is NOT correct about GISAT-1?
+  It was flown on GSLV-F10. | It was flown in August 2021. | GSLV-F10 suffered a cryogenic-stage anomaly. | *It was successfully placed in its intended orbit.
+  x: GISAT-1 was lost because GSLV-F10 suffered a cryogenic-stage anomaly, so it never reached orbit.
+[nfccf5a3618a] sub6
+  Which launch vehicle launched SpaDeX on 30 December 2024?
+  PSLV-C58 | *PSLV-C60 | GSLV-F15 | SSLV-D3
+  x: SpaDeX flew on PSLV-C60 and docked on 16 January 2025, making India the fourth docking nation.
+[f3bbeb6d92346] sub6
+  Which launch vehicle launched Aditya-L1 on 2 September 2023?
+  LVM3-M4 | GSLV-F12 | *PSLV-C57 | PSLV-C60
+  x: Aditya-L1 flew on PSLV-C57 (XL); LVM3-M4 carried Chandrayaan-3.
+[f3602af96057d] sub6
+  Which satellite did PSLV-C48 (11 December 2019), the 50th PSLV flight, carry?
+  Cartosat-3 | TeLEOS-2 | EOS-N1 | *RISAT-2BR1
+  x: PSLV-C48 carried RISAT-2BR1 and 9 foreign satellites; Cartosat-3 flew on PSLV-C47.
+[fb35105013cb9] sub6
+  Which launch vehicle carried GSAT-6A (March 2018), with which contact was lost after launch?
+  GSLV-F10 | *GSLV-F08 | GSLV-F12 | GSLV-F15
+  x: GSAT-6A flew on GSLV-F08; GSLV-F10 carried GISAT-1.
+[n4f4fefe8dae] sub6
+  Which launch vehicle launched NVS-02 on the 100th launch from Sriharikota?
+  GSLV-F12 | GSLV-F16 | PSLV-C60 | *GSLV-F15
+  x: NVS-02 flew on GSLV-F15; a valve malfunction stopped it reaching its intended orbit.
+[g0091c9cc88d4] sub6
+  PSLV-C55, which launched TeLEOS-2 and Lumelite-4 on 22 April 2023, was which PSLV mission?
+  50th | *57th | 62nd | 64th
+  x: PSLV-C55 on 22 April 2023 was the 57th PSLV mission.
+[gef3a3755f307] sub6
+  Which launch vehicle launched NISAR on 30 July 2025, becoming the first GSLV to reach a sun-synchronous polar orbit?
+  GSLV-F12 | GSLV-F15 | *GSLV-F16 | GSLV-F17
+  x: GSLV-F16 launched NISAR, the first GSLV mission to a sun-synchronous polar orbit.
+[gac48a4b3a09b] sub6
+  Which launch vehicle launched Chandrayaan-2 in 2019?
+  PSLV-C57 | *GSLV Mk III-M1 | LVM3-M4 | GSLV-F10
+  x: Chandrayaan-2 flew on GSLV Mk III-M1 (LVM3-M1); Chandrayaan-3 flew on LVM3-M4.
+[g593c5813048d] sub6
+  Which Indian launch vehicle launched the OneWeb satellites?
+  PSLV-XL | GSLV Mk-II | *LVM3 | SSLV
+  x: LVM3-M2 and LVM3-M3 launched 72 OneWeb satellites in total.
+[gd7e148b4660d] sub6
+  How many OneWeb satellites in all did LVM3-M2 and LVM3-M3 launch?
+  36 | 52 | *72 | 104
+  x: The two LVM3 missions together launched 72 OneWeb satellites.
+[n9dc61d7543e] sub7
+  What level of automatic FDI do the current rules permit in launch vehicles and spaceports?
+  26% | *49% | 51% | 74%
+  x: The revised rules allow 49% automatic FDI in launch vehicles and spaceports.
+[f5014967f275d] sub7
+  Which launch vehicle launched BlueBird Block-2 (6,100 kg), the heaviest payload from Indian soil?
+  GSLV-F04 | PSLV-C62 | LVM3-M4 | *LVM3-M6
+  x: LVM3-M6 lifted BlueBird Block-2 on 24 December 2025; the older record was INSAT-4CR on GSLV-F04.
+[nb44807bb825] sub7
+  LVM3 ended India's dependence on foreign launchers for placing satellites of about what mass into GTO?
+  2 tonnes | 6 tonnes | *4 tonnes | 8 tonnes
+  x: LVM3 can place about 4 tonnes into GTO and ended India's dependence on foreign launchers for 4-tonne satellites.
+[g76e47d94c5e0] sub7
+  PSLV-C62 (12 January 2026), which failed at its third stage, was which PSLV flight?
+  50th | 57th | 60th | *64th
+  x: PSLV-C62/EOS-N1 was the 64th PSLV flight and failed at the third stage.
+[g21ca91433608] sub7
+  GSLV-F15, the 100th launch from Sriharikota, was which flight of the GSLV?
+  10th | 15th | *17th | 19th
+  x: GSLV-F15/NVS-02 (29 January 2025) was the 17th GSLV flight.
+[gc49fda1fb174] sub7
+  Which PSLV mission, launched on 18 May 2025, failed at its third stage?
+  PSLV-C59/Proba-3 | PSLV-C60/SpaDeX | *PSLV-C61/EOS-09 | PSLV-C57/Aditya-L1
+  x: PSLV-C61/EOS-09 (18 May 2025) and PSLV-C62 both failed at the third stage.
+[g5f49d27e98c7] sub7
+  BlueBird Block-2, the heaviest payload launched from Indian soil, belongs to which company?
+  OneWeb | *AST SpaceMobile | SpaceX | Planet Labs
+  x: BlueBird Block-2 (6,100 kg) of AST SpaceMobile, USA, was launched by LVM3-M6 on 24 December 2025.
+[ne88f3107b10] sub8
+  SSLV, with three solid stages, can place about 500 kg into a LEO of about what height?
+  300 km | *500 km | 700 km | 1,000 km
+  x: SSLV places about 500 kg into a 500 km LEO; SSLV-D1 failed, while D2 and D3 succeeded.
+[nb003a5a99e5] sub8
+  Which company won the ₹511 crore Transfer of Technology agreement to build and operate SSLV independently?
+  Bharat Electronics Limited | Skyroot Aerospace | *Hindustan Aeronautics Limited | Agnikul Cosmos
+  x: Hindustan Aeronautics Limited (HAL) won the ₹511 crore SSLV Transfer of Technology agreement. It was described as the first full Transfer of Technology of an ISRO launch vehicle to industry.
+[f99c2d9f80598] sub8
+  For what is SSLV mainly designed?
+  *Low-cost, launch-on-demand launches of small satellites | Heavy communication satellites to GTO | Crewed flights to LEO | Interplanetary missions
+  x: SSLV is a low-cost, launch-on-demand vehicle for satellites of up to 500 kg to 500 km LEO.
+[fab6cc7377147] sub8
+  What happened on the first SSLV flight, SSLV-D1 (August 2022)?
+  Placed EOS-02 in its intended orbit | Was a suborbital test without a satellite | *Failed to place EOS-02 in its intended orbit | Carried the record 104 satellites
+  x: SSLV-D1 failed to reach the intended orbit; SSLV-D2 (2023) and D3 (2024) succeeded.
+[f6c74c5f1260f] sub9
+  Which company built Vikram-S ('Prarambh'), India's first private rocket launched on 18 November 2022?
+  Agnikul Cosmos | HAL | *Skyroot | NSIL
+  x: Vikram-S was built by Skyroot of Hyderabad and was a suborbital flight.
+[fa6278691e567] sub9
+  Agnikul Cosmos' Agnibaan SOrTeD (30 May 2024) used which 3D-printed semi-cryogenic engine?
+  *Agnilet | Vikas | CE-20 | Kalam-250
+  x: Agnibaan used the 3D-printed Agnilet semi-cryogenic engine; Kalam-250 is a Skyroot stage.
+[fd46fdfafa2e6] sub9
+  Consider the following statements about Skyroot's rockets:
+1. Vikram-S reached orbit in 2022.
+2. Vikram-1 was the first privately developed Indian rocket to reach orbit.
+3. The Kalam series are the solid stages of Vikram-1.
+Which of the statements given above is/are correct?
+  1 and 2 only | *2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Vikram-1 reached orbit in 2026 and uses the Kalam solid stages; Vikram-S was only suborbital.
+[g85b2433edacf] sub9
+  How high did Skyroot's Vikram-S ('Prarambh') go on its suborbital flight of 18 November 2022?
+  49.5 km | *89.5 km | 120 km | 500 km
+  x: Vikram-S reached 89.5 km; it was suborbital and the first IN-SPACe authorised launch.
+[gf4a66833dd36] sub9
+  Which company set up India's first private launchpad at Sriharikota?
+  Skyroot Aerospace | *Agnikul Cosmos | HAL | Pixxel
+  x: Agnikul Cosmos launched Agnibaan SOrTeD (30 May 2024) from India's first private launchpad at Sriharikota.
+[n98150d90321] sub10
+  By which year is the Next Generation Launch Vehicle (NGLV) meant to support India's crewed lunar landing goal?
+  2030 | 2035 | 2047 | *2040
+  x: NGLV is linked to the crewed lunar landing by 2040, not 2030; 2035 is the target for the Bharatiya Antariksh Station.
+[n5334c8a5ae9] sub10
+  Which of the following is NOT correct about RLV-LEX?
+  It refers to autonomous landing tests of the Reusable Launch Vehicle Technology Demonstrator. | Its first test took place on 2 April 2023. | *It was a cryogenic engine test for GSLV Mk-II. | The later reusable-vehicle landings of 2024 are called the 'Pushpak' landings.
+  x: RLV-LEX is a landing experiment, not an engine test.
+[nb1c7c187701] sub10
+  Which launch vehicle is intended to carry Gaganyaan crew to approximately 400 km LEO for three days?
+  SSLV | ASLV | *HLVM3 | Vikram-S
+  x: The human-rated LVM3, designated HLVM3, is intended for the Gaganyaan crew mission to a 400 km LEO orbit for three days.
+[fb86bb3be46ed] sub10
+  Where were the autonomous landing tests of ISRO's RLV-TD 'Pushpak' (RLV-LEX) conducted?
+  Sriharikota | Mahendragiri | Thumba | *Chitradurga
+  x: RLV-LEX landing tests (2023-24) were held at Chitradurga; they were landing, not engine, tests.
+[f4d9c74cb575f] sub10
+  Which reusable rocket made the first orbital-class booster landing on 21 December 2015?
+  Blue Origin New Shepard | *SpaceX Falcon 9 | LVM3 | Ariane-5
+  x: Falcon 9 made the first orbital-class booster landing; New Shepard is a suborbital reusable rocket.
+[gd71a76953f35] sub10
+  Which company developed New Shepard, a suborbital reusable rocket that landed in November 2015?
+  SpaceX | *Blue Origin | LandSpace | Skyroot
+  x: New Shepard is Blue Origin's suborbital reusable rocket; SpaceX's Falcon 9 made the first orbital-class booster landing.
+[gc4efa5ed9b40] sub10
+  When was the first Integrated Air Drop Test for Gaganyaan's human-rated LVM3 programme held?
+  2 April 2023 | 22 March 2024 | *24 August 2025 | 18 July 2026
+  x: The first Integrated Air Drop Test was held on 24 August 2025.
+[n64cf06c526d] sub13
+  Which PSLV variant is correctly matched with its number of strap-on motors?
+  PSLV-CA – Two | PSLV-DL – Six | *PSLV-QL – Four | PSLV-G – Zero
+  x: PSLV-QL has four strap-ons; PSLV-CA has zero, PSLV-DL two and PSLV-G six.
+
+=== NOTES 5:36 | Propulsion and Future Vehicles - Cryogenic, Semi-cryogenic, Rlv, Scramjet
+## SUB 0 | Propellant Categories
+[36:0:0] TABLE head: Category | Example | Feature
+  [36:0:0.0] Solid | HTPB (S200, first stages) | High initial thrust; cannot be throttled or stopped
+  [36:0:0.1] Earth-storable liquid | UH25 + N2O4; hydrazine, MMH, UDMH | Throttleable, restartable
+  [36:0:0.2] Hypergolic | Hydrazine family + N2O4 | Ignite on contact; spacecraft manoeuvring; highly toxic
+  [36:0:0.3] Cryogenic | LH2 + LOX | Most efficient
+  [36:0:0.4] Semi-cryogenic | Refined kerosene + LOX | Dense, cheaper, non-toxic
+  [36:0:0.5] Hybrid | Solid fuel + liquid oxidiser | Can be stopped/restarted
+[36:0:1] - **Ammonium perchlorate:** **oxidiser** in solid rocket propellant, with **aluminium** powder (fuel) and HTPB binder.
+## SUB 1 | Cryogenic Technology
+[36:1:0] - **Cryogenics**: Greek **'Kryos'** (frost); below about **-150°C**; uses liquid nitrogen, hydrogen, oxygen.
+[36:1:1] - Fuel **LH2 (-253°C)**, oxidiser **LOX (-183°C)**; exhaust only **water vapour**; Isp ~**450 s** (highest).
+[36:1:2] - LH2 density **0.071 g/ml**: huge tanks, cannot be stored long, so **unfit for military missiles**.
+[36:1:3] - Used in **rocket upper stages** and the **space shuttle** (Discovery: LH2 + LOX tanks).
+[36:1:4] - **Glavkosmos deal (1991)** → US **MTCR** sanctions (**1992**) stopped technology transfer → Russia supplied **7 engines** only.
+[36:1:5] - **CUSP** (Cryogenic Upper Stage Project): **1994**, **Rs 300 crore**; full stage test **2006**; **GSLV-D5** flew the indigenous CE-7.5 on **5 Jan 2014**.
+[36:1:6] - India = **6th** country (after US, Russia, France, Japan, China).
+[36:1:7] India is NOT 4th in cryogenic technology - Europe and Japan came earlier.
+## SUB 2 | Engines and Propellants
+[36:2:0] TABLE head: Engine | Propellants | Used in
+  [36:2:0.0] Vikas | UH25 + N2O4 | PSLV/GSLV 2nd stage, GSLV strap-ons, LVM3 L110
+  [36:2:0.1] CE-7.5 | LOX + LH2, staged combustion, 75 kN (LPSC) | GSLV Mk II upper stage
+  [36:2:0.2] CE-20 | LOX + LH2, gas-generator, 200 kN | LVM3 C25 (Chandrayaan-2, 3)
+  [36:2:0.3] SE2000 | Refined kerosene + LOX (not LH2) | LVM3-SC (replacing L110), NGLV
+[36:2:1] - **CE-20** passed a **bootstrap-mode start** (own propellant flow, no outside gas) - in-space restart (Nov 2025).
+[36:2:2] - **SE2000**: 3rd hot test of the **Power Head Test Article** at **60%** power (2026).
+## SUB 3 | 3D-PRINTED and Private Engines
+[36:3:0] TABLE head: Engine | Developer | Feature
+  [36:3:0.0] Agnilet | Agnikul Cosmos (Chennai) | World's first single-piece 3D-printed semi-cryogenic engine; flown 2024 from Dhanush, India's first private launch pad
+  [36:3:0.1] Agnite | Agnikul | Largest single-piece 3D-printed booster engine (Inconel)
+  [36:3:0.2] EVEREST | Astrobase (Bengaluru) | First private 800 kN full-flow staged combustion LOX-methane engine (Aug 2026)
+  [36:3:0.3] KALAM 1200 | Skyroot | Solid motor, 11 m, 30 t, tested at SHAR
+[36:3:1] - **Vikram-1** (Skyroot): first private **orbital** rocket, **Mission Aagaman** (Jul 2026); 3 solid + 1 liquid stage; **290 kg to 500 km SSO**.
+[36:3:2] - **LOX-methane**: cleaner, cheaper; methane can be made from **Martian resources**.
+## SUB 4 | Electric Propulsion and Poem
+[36:4:0] - **300 mN Stationary Plasma Thruster**: **Hall-type, xenon**; **1,000-hour** life test; Isp ~**6x** chemical; for **communication satellites**, not boosters.
+[36:4:1] - **POEM** = PSLV Orbital Experimental Module: spent **PS4** stage as orbital platform for start-up and academic payloads.
+[36:4:2] - **Green propellant on POEM-3:** **RUDRA 0.3 HPGP**, a **green monopropellant** thruster of start-up **Bellatrix Aerospace** (Bengaluru), flew on **POEM-3** of **PSLV-C58** (**1 Jan 2024**).
+## SUB 5 | Ramjet, Scramjet, Hstdv
+[36:5:0] TABLE head: Engine | Combustion | Speed
+  [36:5:0.0] Ramjet | Subsonic airflow | Above Mach 2
+  [36:5:0.1] Scramjet | Supersonic airflow | Mach 5-6+
+[36:5:1] - Uses **atmospheric oxygen** → less oxidiser carried (still needs fuel).
+[36:5:2] - **ATV** (ISRO): scramjet flight test **Aug 2016**, Sriharikota; India **4th** (after US, Russia, China).
+[36:5:3] - **HSTDV** = **DRDO**; actively cooled full-scale combustor ran **20 minutes** on endothermic fuel (May 2026).
+## SUB 6 | Reusable and Next-generation Vehicles
+[36:6:0] - **RLV-TD "Pushpak"**: winged; completed **LEX-03**; aim **TSTO**; cost cut up to **80%**; needs a reusable **Thermal Protection System**.
+[36:6:1] - **NGLV "Soorya"**: **20,000 kg to LEO** (not 10,000; ~2.5x LVM3); semi-cryogenic; **Third Launch Pad**; for BAS (2035), lunar landing (2040).
+[36:6:2] TABLE head: Rocket | Company
+  [36:6:2.0] Falcon 9 (520+ recoveries), Starship (fully reusable, methane + LOX) | SpaceX
+  [36:6:2.1] New Glenn | Blue Origin
+  [36:6:2.2] Zhuque-3 | LandSpace (China)
+[36:6:3] - **NGLV reusability:** Soorya is planned as a partly reusable heavy-lift rocket, with a reusable first stage.
+## SUB 7 | Number Game and Quick Revision
+[36:7:0] TABLE head: Item | Fact
+  [36:7:0.0] LH2 / LOX | -253°C / -183°C
+  [36:7:0.1] Cryogenic Isp | ~450 s
+  [36:7:0.2] Russian engines | 7
+[36:7:1] # FIRST / LAST / SPECIAL FACTS
+[36:7:2] - First single-piece 3D-printed semi-cryogenic engine: Agnilet.
+## SUB 8 | Appsc Previous Year Questions
+[36:8:0] TABLE head: Examination | Question Area
+  [36:8:0.0] APPSC 2024 | Reusable rocket "Falcon" (SpaceX)
+## SUB 9 | High-probability Mcq Traps
+[36:9:0] - 1. Semi-cryogenic = **kerosene + LOX**.
+[36:9:1] - 2. CE-7.5 = GSLV Mk II; CE-20 = LVM3.
+[36:9:2] - 3. ATV = ISRO; HSTDV = DRDO.
+[36:9:3] - 4. Ramjet subsonic; scramjet supersonic.
+[36:9:4] - 5. Hall thruster is for **satellites**.
+[36:9:5] - 6. NGLV = **20,000 kg**.
+[36:9:6] - 7. New Glenn = **Blue Origin**.
+
+=== OWN MCQs of 5:36 (61)
+[nc8b8b8180f6] sub0
+  Which propellant category is correctly matched with its characteristic?
+  *Solid — high initial thrust but cannot normally be throttled or stopped | Hybrid — cannot be stopped or restarted | Hypergolic — requires an external ignition system at every start | Cryogenic — least efficient but simplest to handle
+  x: Solid propellants provide high initial thrust but generally cannot be throttled or stopped. Hypergolic propellants ignite on contact, hybrids can be stopped or restarted, and cryogenic systems are highly efficient but complex.
+[na6f3c9d3a54] sub0
+  Which of the following is an earth-storable liquid propellant combination?
+  Refined kerosene and LOX | LH2 and LOX | *UH25 and N2O4 | Solid fuel and liquid oxidiser
+  x: UH25 and N2O4 are listed as earth-storable liquid propellants. Refined kerosene and LOX are semi-cryogenic, while LH2 and LOX are cryogenic.
+[n8ddfab2c8f9] sub0
+  Why are hydrazine-family propellants combined with N2O4 called hypergolic?
+  Are non-toxic and suitable for large reusable boosters | Require cryogenic storage and have the highest specific impulse | Cannot be restarted after ignition | *Ignite on contact and are useful for spacecraft manoeuvring
+  x: Hypergolic propellants ignite on contact and are useful for spacecraft manoeuvring, although they are highly toxic.
+[n6e0072c783d] sub0
+  What is the approximate specific impulse of cryogenic propulsion, the most efficient propellant category?
+  *450 seconds | 300 seconds | 350 seconds | 260 seconds
+  x: Cryogenic propulsion has an approximate specific impulse of 450 seconds, the highest among the propellant categories.
+[f0039fd2bfde5] sub0
+  What does a hybrid rocket motor combine?
+  Liquid fuel and solid oxidiser | Liquid hydrogen and liquid oxygen | *Solid fuel and liquid oxidiser | Refined kerosene and liquid oxygen
+  x: A hybrid uses solid fuel with a liquid oxidiser, so it can be stopped and restarted.
+[f24e23be799dd] sub0
+  Which propellant category gives high initial thrust but cannot be throttled or stopped?
+  Earth-storable liquid | *Solid (HTPB) | Hybrid | Semi-cryogenic
+  x: Solid motors such as HTPB in S200 cannot be throttled or stopped; hybrids can be stopped and restarted.
+[g7cc04492feae] sub0
+  In solid rocket propellant, ammonium perchlorate acts as which of the following?
+  Fuel | *Oxidiser | Binder | Coolant
+  x: Ammonium perchlorate is the oxidiser; aluminium powder is the fuel and HTPB the binder.
+[g9a06ae73e1c2] sub0
+  Which substance is used as the fuel in solid rocket propellant along with ammonium perchlorate?
+  *Aluminium powder | Liquid hydrogen | Hydrazine | Refined kerosene
+  x: In solid propellant, aluminium powder is the fuel, ammonium perchlorate the oxidiser and HTPB the binder.
+[n0750e9d5600] sub1
+  Where are cryogenic engines (liquid hydrogen + liquid oxygen) mainly used?
+  *Rocket upper stages | Military missiles kept ready for long periods | Spacecraft attitude-control thrusters | Sounding rockets for atmospheric research
+  x: Cryogenic propulsion is used in rocket upper stages (and was used on the space shuttle) because of its very high specific impulse (~450 s). Its low-density LH2 needs huge tanks and cannot be stored long, so it is unsuited to military missiles; attitude-control thrusters use hypergolic propellants that ignite on contact; sounding rockets use solid motors.
+[n51ae2c03f51] sub1
+  At about what temperature is liquid hydrogen stored in a cryogenic engine?
+  -162°C | *-253°C | -196°C | -183°C
+  x: LH2 (the fuel) is stored at about -253°C and LOX (the oxidiser) at about -183°C; the exhaust is only water vapour.
+[ndef2ff2d664] sub1
+  What was the outcome of the 1991 Glavkosmos agreement concerning cryogenic technology?
+  Russia transferred all cryogenic technology without restriction. | The United States supplied seven cryogenic engines to India. | *US MTCR-based sanctions stopped technology transfer, although Russia supplied seven engines. | The agreement was cancelled by India before any engines were supplied.
+  x: Glavkosmos agreed to sell engines and technology in 1991, but US MTCR-based sanctions in 1992 stopped technology transfer; Russia supplied seven engines only.
+[n808d1577114] sub1
+  In which year did India's Cryogenic Upper Stage Project begin?
+  1991 | *1994 | 1998 | 2001
+  x: The project began in 1994 at a cost of ₹300 crore, and a full cryogenic stage was tested in 2006.
+[fe3d08260555e] sub1
+  What does the Greek word 'Kryos', from which the term 'cryogenics' comes, mean?
+  Fire | Pressure | Gas | *Frost
+  x: Kryos means frost; cryogenics deals with temperatures below about -150°C.
+[fcba263f389d4] sub1
+  With the indigenous CE-7.5 flying on GSLV-D5 in January 2014, India became which country to have cryogenic technology?
+  *6th | 4th | 5th | 7th
+  x: India is 6th, after the US, Russia, France, Japan and China - not 4th.
+[fca4ceab0e749] sub1
+  Cryogenic engines are unfit for military missiles mainly because liquid hydrogen:
+  Is hypergolic and highly toxic | Cannot be throttled once ignited | *Has very low density, needing huge tanks, and cannot be stored long | Produces dense smoke on burning
+  x: LH2 density is only 0.071 g/ml, so tanks are huge and storage is short - unsuited to missiles.
+[f57757b7b0a06] sub1
+  At about what temperature is liquid oxygen, the oxidiser of a cryogenic engine, kept?
+  -253°C | -150°C | -100°C | *-183°C
+  x: LOX is at about -183°C; -253°C is the temperature of liquid hydrogen.
+[f53f136fd4453] sub1
+  After the US MTCR sanctions of 1992, how many cryogenic engines did Russia supply to India?
+  5 | *7 | 10 | 12
+  x: The sanctions stopped technology transfer under the 1991 Glavkosmos deal, and Russia supplied only 7 engines.
+[g31ce5f9d958e] sub1
+  Cryogenics deals with temperatures below about which level?
+  -50°C | -100°C | *-150°C | -273°C
+  x: Cryogenics deals with temperatures below about -150°C, using liquid nitrogen, hydrogen and oxygen.
+[g5caebb5adf88] sub1
+  What is the only exhaust product of a cryogenic engine burning liquid hydrogen and liquid oxygen?
+  Carbon dioxide | *Water vapour | Nitrogen oxides | Hydrogen chloride
+  x: LH2 + LOX burn to give only water vapour.
+[naa945e0076e] sub2
+  What is the significance of the CE-20 bootstrap-mode start test?
+  It eliminates the need for liquid oxygen in the engine. | It proves that CE-20 can operate only with solid propellant. | *It demonstrates starting on the engine’s own propellant flow without external gas, supporting in-space restart. | It converts CE-20 into a hypergolic engine.
+  x: Bootstrap mode starts the engine using its own propellant flow without external gas and is important for in-space restart capability.
+[n9d8519312ab] sub2
+  SE2000 is planned for which applications?
+  Spacecraft manoeuvring thrusters only | Replacing the C25 in GSLV Mk II only | The PSLV first stage and S200 booster only | *Replacing the L110 in LVM3-SC and for the NGLV
+  x: SE2000 is planned for LVM3-SC, replacing the L110, and for the NGLV.
+[n17c1b12e0c0] sub2
+  Which of the following ISRO engines is INCORRECTLY matched with its feature?
+  Vikas – UH25 + N2O4, PSLV second stage | *SE2000 – LOX + LH2 | CE-7.5 – LOX + LH2 staged-combustion engine, GSLV Mk II upper stage | CE-20 – 200 kN-class LOX + LH2 engine, LVM3 C25 stage
+  x: SE2000 is semi-cryogenic, using refined kerosene + LOX, not LOX + LH2.
+[f57f24c81cae8] sub2
+  The CE-7.5 cryogenic engine powers the upper stage of which launch vehicle?
+  *GSLV Mk II | LVM3 | PSLV | NGLV
+  x: CE-7.5 is the GSLV Mk II upper stage; CE-20 powers the LVM3 C25 stage.
+[f8fad9b1af6e0] sub2
+  Which ISRO engine uses UH25 + N2O4 and powers the L110 stage of LVM3?
+  CE-20 | *Vikas | CE-7.5 | SE2000
+  x: Vikas burns UH25 + N2O4 and powers PSLV/GSLV second stages and the LVM3 L110.
+[fbcedbd55f9b0] sub2
+  Consider the following statements about ISRO cryogenic engines:
+1. CE-7.5 uses staged combustion and produces 75 kN.
+2. CE-20 uses a gas-generator cycle and powers the LVM3 C25 stage.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: CE-7.5 is a 75 kN staged-combustion engine; CE-20 is a 200 kN gas-generator engine on LVM3 C25.
+[f2d885a29aa50] sub2
+  Which propellants does the SE2000 semi-cryogenic engine use?
+  LH2 + LOX | UH25 + N2O4 | *Refined kerosene + LOX | HTPB
+  x: Semi-cryogenic means refined kerosene with liquid oxygen, not liquid hydrogen.
+[gc7607da01ff1] sub2
+  At what power level did the third hot test of the SE2000 semi-cryogenic engine's Power Head Test Article run in 2026?
+  40% | *60% | 80% | 100%
+  x: The 2026 third hot test of the SE2000 Power Head Test Article was at 60% power.
+[nd030d4d9c1b] sub3
+  On which mission did Skyroot's Vikram-1 reach orbit as India's first private orbital rocket?
+  Prarambh | Shakti | *Aagaman | Vijay
+  x: Vikram-1 (three solid stages + one liquid stage, 290 kg to 500 km SSO) reached orbit on Mission Aagaman.
+[n67d22df0d33] sub3
+  For which of the following is Agnilet, developed by Agnikul Cosmos, known as the world's first?
+  Full-flow staged combustion LOX-methane engine | *Single-piece 3D-printed semi-cryogenic engine | 3D-printed solid booster motor | Reusable cryogenic upper stage
+  x: Agnilet is described as the world’s first single-piece 3D-printed semi-cryogenic engine.
+[n6c786ff1c24] sub3
+  Agnilet was flown in 2024 from which launch pad?
+  Vikram Sarabhai Space Centre’s private pad | *Dhanush, India’s first private launch pad at Sriharikota | Satish Dhawan Space Centre’s second launch pad | A private launch pad at Bengaluru
+  x: Agnilet was flown in 2024 from Dhanush at Sriharikota, described as India’s first private launch pad.
+[n34502ccb4c5] sub3
+  EVEREST, unveiled by Astrobase in August 2026, is described as India’s first private:
+  *800 kN full-flow staged combustion LOX-methane engine | 300 mN Hall thruster | single-piece semi-cryogenic engine | solid motor for the Agnibaan booster
+  x: Astrobase’s EVEREST is described as India’s first private 800 kN full-flow staged combustion LOX-methane engine.
+[n8317ebbd25a] sub3
+  Why is LOX-methane considered important for Mars-return missions and in-situ resource utilisation?
+  It can be stored indefinitely without refrigeration. | *Methane can be produced from Martian resources, while the combination is cleaner and cheaper. | LOX-methane is a hypergolic combination that ignites on contact. | Methane has the highest density of all cryogenic fuels and needs no oxidiser.
+  x: LOX-methane is considered cleaner and cheaper, and methane can be produced from Martian resources.
+[f7002ad01ee0a] sub3
+  Which of the following pairs is correctly matched?
+  Agnilet – Skyroot | *EVEREST – Astrobase | KALAM 1200 – Agnikul | Vikram-1 – Agnikul
+  x: EVEREST is Astrobase's LOX-methane engine; Agnilet is Agnikul's, and KALAM 1200 and Vikram-1 are Skyroot's.
+[f95e3672795a7] sub3
+  What is Skyroot's KALAM 1200, tested at SHAR?
+  Semi-cryogenic engine | LOX-methane engine | *Solid motor | Hall thruster
+  x: KALAM 1200 is an 11 m, 30 t solid motor.
+[g840a53107e42] sub3
+  Agnite, the largest single-piece 3D-printed booster engine made of Inconel, was developed by which firm?
+  Skyroot Aerospace | *Agnikul Cosmos | Astrobase | HAL
+  x: Agnikul Cosmos developed Agnite as well as the Agnilet engine.
+[g8223293b4029] sub3
+  How much payload can Skyroot's Vikram-1 place in a 500 km sun-synchronous orbit?
+  100 kg | *290 kg | 500 kg | 1,000 kg
+  x: Vikram-1 has 3 solid and 1 liquid stage and can carry 290 kg to a 500 km SSO.
+[n09632ce4c44] sub4
+  Consider the following statements about ISRO's life-tested 300 mN Stationary Plasma Thruster:
+1. It is a Hall-type thruster using xenon.
+2. It is meant to replace chemical propulsion in the booster stages of future launch vehicles.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Statement 1 is correct. Statement 2 is wrong: the thruster will replace chemical propulsion on future communication satellites, not launch-vehicle boosters.
+[n61dc44eab56] sub4
+  What is the role of the spent PS4 stage in POEM?
+  It is used as a planetary landing engine. | It is converted into a reusable crew capsule. | *It is reused as an orbital platform for start-up and academic payloads. | It serves as a cryogenic upper stage for GSLV.
+  x: POEM reuses the spent PS4 stage as an orbital platform for start-up and academic payloads.
+[fd69b0d1dbff9] sub4
+  How long was the life test completed by ISRO's 300 mN Stationary Plasma Thruster?
+  100 hours | 500 hours | 10,000 hours | *1,000 hours
+  x: The Hall-type xenon thruster passed a 1,000-hour life test.
+[fb91473c97d55] sub4
+  What is the full form of POEM, which uses the spent PS4 stage as an orbital platform?
+  *PSLV Orbital Experimental Module | Polar Orbit Experimental Mission | PSLV Orbital Exploration Mission | Payload Orbital Experiment Module
+  x: POEM = PSLV Orbital Experimental Module, hosting start-up and academic payloads.
+[g6cf93c56f313] sub4
+  Which start-up's RUDRA 0.3 HPGP green monopropellant thruster flew on POEM-3 of PSLV-C58 in January 2024?
+  Skyroot Aerospace | Agnikul Cosmos | *Bellatrix Aerospace | Astrobase
+  x: RUDRA 0.3 HPGP, a green monopropellant thruster of Bellatrix Aerospace, flew on POEM-3 (PSLV-C58).
+[gfb21e74e77fb] sub4
+  What kind of thruster is RUDRA 0.3 HPGP, demonstrated on POEM-3 in 2024?
+  Cryogenic upper-stage engine | *Green monopropellant thruster | Solid booster motor | Scramjet engine
+  x: RUDRA 0.3 HPGP is a green (non-toxic) monopropellant thruster for satellites.
+[n6a970e54ec0] sub5
+  Who developed HSTDV, a scramjet vehicle?
+  ISRO | HAL | *DRDO | BrahMos Aerospace
+  x: HSTDV is DRDO's scramjet vehicle; DRDO has also tested an actively cooled full-scale scramjet combustor with an indigenous endothermic fuel.
+[n03ef7c28b8d] sub5
+  Which air-breathing engine has supersonic combustion and is designed for about Mach 5–6 and above?
+  *Scramjet | Ramjet | Cryogenic engine | Hall thruster
+  x: A scramjet burns fuel in supersonic airflow and is built for Mach 5–6+; a ramjet has subsonic combustion and works above Mach 2.
+[n741dedb3cb9] sub5
+  What is the main advantage of a scramjet over a conventional rocket during atmospheric flight?
+  It operates with subsonic airflow at speeds below Mach 2. | It eliminates the need for fuel during hypersonic flight. | *It uses oxygen from the atmosphere, thereby reducing the weight of onboard oxidiser. | It uses a compressor to compress atmospheric air before combustion.
+  x: A scramjet uses oxygen from the atmosphere, so it need not carry the entire oxidiser required by a rocket. It still requires fuel and works with supersonic airflow.
+[n6c077bb86e4] sub5
+  With ISRO's ATV scramjet flight test (August 2016), India became which country to demonstrate scramjet flight?
+  *fourth | third | second | fifth
+  x: India became the fourth country, after the US, Russia and China.
+[f80983b528e07] sub5
+  Which agency carried out the ATV scramjet flight test in August 2016?
+  DRDO | *ISRO | HAL | NAL
+  x: ATV was ISRO's test from Sriharikota; HSTDV is DRDO's vehicle.
+[f6b34e8d15da8] sub5
+  In May 2026, for how long did HSTDV's actively cooled full-scale scramjet combustor run on endothermic fuel?
+  20 seconds | 2 minutes | *20 minutes | 200 seconds
+  x: DRDO's actively cooled full-scale combustor ran for 20 minutes.
+[g2f5f56f39589] sub5
+  In a ramjet engine, at what speed does the air flow during combustion?
+  *Subsonic | Supersonic | Hypersonic | Zero, as no air is used
+  x: A ramjet burns fuel in subsonic airflow; a scramjet burns it in supersonic airflow.
+[n56cb369e8d4] sub6
+  Which of the following is NOT correct about the proposed NGLV 'Soorya'?
+  It is planned as a reusable heavy-lift rocket. | *It is designed to carry about 10,000 kg to low Earth orbit. | Its projected LEO payload is about 2.5 times that of LVM3. | It is planned to use semi-cryogenic propulsion.
+  x: Soorya is designed to carry about 20,000 kg to LEO, not 10,000 kg.
+[nde11de07d87] sub6
+  At what kind of system is ISRO's RLV-TD 'Pushpak', a reusable winged vehicle, aimed?
+  Three-stage expendable launcher | Single-Stage-To-Orbit (SSTO) system | *Two-Stage-To-Orbit (TSTO) system | Sub-orbital crew capsule
+  x: Pushpak is aimed at a TSTO system and has completed the LEX-03 autonomous landing experiment.
+[n59479e512bc] sub6
+  Which of the following is NOT a benefit of reusable launch systems?
+  Reduction in space debris | *Elimination of the need for thermal protection systems | Reduction in launch cost by up to 80 percent | Rapid turnaround
+  x: Reusable vehicles require a reusable Thermal Protection System; its elimination is not a benefit identified for such systems.
+[n9598facd243] sub6
+  Which of the following pairs is correctly matched?
+  Falcon 9 — Blue Origin | Starship — LandSpace | *New Glenn — Blue Origin | Zhuque-3 — SpaceX
+  x: New Glenn is associated with Blue Origin. Falcon 9 and Starship belong to SpaceX, while Zhuque-3 belongs to LandSpace.
+[fa8479398b75c] sub6
+  From which launch pad will NGLV 'Soorya' be launched?
+  *The Third Launch Pad | The Second Launch Pad | The First Launch Pad | Dhanush launch pad
+  x: Soorya is linked to the new Third Launch Pad; Dhanush is Agnikul's private pad.
+[fc26730285222] sub6
+  Which company developed Zhuque-3, a reusable rocket?
+  SpaceX | Blue Origin | *LandSpace (China) | Agnikul Cosmos
+  x: Zhuque-3 is the reusable rocket of China's LandSpace.
+[fe820acdffd5e] sub6
+  By up to how much are reusable launch vehicles such as RLV-TD expected to cut launch cost?
+  *80% | 30% | 50% | 95%
+  x: Reusability is expected to cut launch cost by up to 80%.
+[f6c07367afb03] sub6
+  NGLV 'Soorya' is designed to place how much payload in low Earth orbit?
+  10,000 kg | 15,000 kg | 25,000 kg | *20,000 kg
+  x: Soorya is planned for 20,000 kg to LEO (not 10,000), about 2.5 times LVM3.
+[fa7466fd92578] sub6
+  To which company does the reusable rocket New Glenn belong?
+  SpaceX | *Blue Origin | LandSpace | Skyroot
+  x: New Glenn is Blue Origin's; Falcon 9 and Starship are SpaceX's, Zhuque-3 is LandSpace's.
+[f6f542efa4d43] sub6
+  Which of the following is NOT correct about ISRO's RLV-TD 'Pushpak'?
+  It is a winged vehicle | It has completed LEX-03 | It aims at a TSTO vehicle | *It does not need a thermal protection system
+  x: Pushpak needs a reusable Thermal Protection System; the other statements are correct.
+[g8ee6174198df] sub6
+  To which company does the reusable rocket Falcon 9 belong?
+  Blue Origin | *SpaceX | LandSpace | Rocket Lab
+  x: Falcon 9, with over 520 booster recoveries, belongs to SpaceX.
+[gdb3e924e8bcf] sub6
+  Which propellants does SpaceX's fully reusable Starship use?
+  LH2 + LOX | Kerosene + LOX | *Methane + LOX | UH25 + N2O4
+  x: Starship is fully reusable and burns methane with liquid oxygen.
+
+=== NOTES 5:37 | Communication Satellites – Insat and Gsat Series
+## SUB 0 | Orbits and the Geostationary Orbit
+[37:0:0] TABLE head: Orbit | Fact
+  [37:0:0.0] Low Earth | 160–2,000 km; ISS ~400 km
+  [37:0:0.1] Geostationary (GEO) | About 36,000 km (precisely 35,786 km) over the equator; period 24 hours
+  [37:0:0.2] Polar | Passes over the poles
+  [37:0:0.3] Elliptical | Apogee and perigee differ
+  [37:0:0.4] Circular | Centripetal force equals gravitational force
+[37:0:1] - A geostationary satellite revolves at a **fixed height**; the height does **not depend on its mass**.
+[37:0:2] - The centripetal force keeping it in orbit is the **Earth's gravity**.
+[37:0:3] - Launcher → elliptical **GTO** → own motor raises it to GEO.
+## SUB 1 | Insat System
+[37:1:0] # Firsts
+[37:1:1] TABLE head: Year | Milestone
+  [37:1:1.0] 1981 | APPLE (Ariane Passenger PayLoad Experiment) – first experimental comsat, on Ariane
+  [37:1:1.1] 1982 | INSAT-1A – first INSAT (INSAT-1 series bought abroad)
+  [37:1:1.2] 1983 | INSAT system commissioned; INSAT-1B made it operational
+  [37:1:1.3] 10 Jul 1992 | INSAT-2A, Kourou – first of the fully indigenous INSAT-2 series (1992-99)
+  [37:1:1.4] Sep 2002 | KALPANA-1 (METSAT), PSLV – first exclusive weather satellite
+[37:1:2] # Design and management
+[37:1:3] - **Multipurpose**: telecom, TV, **meteorology**, disaster warning, search-and-rescue on one GEO platform; key: "**Meteorological Satellite**".
+[37:1:4] - Joint venture of **DoS, DoT, IMD, AIR, Doordarshan**; coordinated by **ICC**; **Master Control Facility, Hassan** (Karnataka).
+[37:1:5] - **NSIL** took 10 in-orbit comsats (2022); **19** operational comsats (2026).
+[37:1:6] - **INSAT-4C** (2,168 kg, Rs 350 crore) lost when **GSLV-F02** exploded 60 s after lift-off, **10 Jul 2006** → **INSAT-4CR** (Sep 2007, GSLV-F04).
+## SUB 2 | Key Satellites
+[37:2:0] TABLE head: Satellite | Launch | Note
+  [37:2:0.0] INSAT-3A / 3C / 3E | 2003 / 2002 / 2003 | Broadcasting, mobile, meteorology; 3C on Ariane-4, Kourou
+  [37:2:0.1] EDUSAT (GSAT-3) | 2004, GSLV-F01 | Education; 74°E
+  [37:2:0.2] GSAT-8 | 21 May 2011, Ariane-5, Kourou (⚠ APPSC key (2012) gave 21 April 2011) | GAGAN payload (also GSAT-10, -15)
+  [37:2:0.3] GSAT-10 | Sep 2012 | Heaviest Indian comsat at that time
+  [37:2:0.4] INSAT-3D / 3DR | 2013 / 2016 | Meteorology; cut cyclone deaths incl. AP
+  [37:2:0.5] GSAT-6 | 2015 | Large deployable antenna
+  [37:2:0.6] GSAT-11 | 2018 | Heaviest ISRO-built (~5.8 t), launched abroad
+  [37:2:0.7] GSAT-30 | 17 Jan 2020, Kourou | Telecom; not a Sun-synchronous orbit
+  [37:2:0.8] CMS-01 | PSLV-C50, Sriharikota | Communication
+  [37:2:0.9] GSAT-N2 (GSAT-20) | Nov 2024, Falcon 9 | Broadband
+  [37:2:0.10] CMS-03 (GSAT-7R) | 2 Nov 2025, LVM3-M5 | 4,410 kg – heaviest comsat from Indian soil; Navy
+[37:2:1] GSAT-11 = heaviest ISRO-built; CMS-03 = heaviest launched from Indian soil.
+## SUB 3 | Foreign Launches
+[37:3:0] - **Kourou (French Guiana), Ariane**: INSAT-3A, 3C, 4A (2005), 4B (2007), GSAT-7, GSAT-8, GSAT-11, GSAT-31 (6 Feb 2019), GSAT-30.
+[37:3:1] - **GSAT-N2**: SpaceX Falcon 9, **Cape Canaveral**.
+## SUB 4 | Strategic and Regional Satellites
+[37:4:0] TABLE head: Satellite | User
+  [37:4:0.0] GSAT-7 "Rukmini" (INSAT-4F), 30 Aug 2013, Ariane-5 | Navy (exclusively military); replaced by CMS-03
+  [37:4:0.1] GSAT-7A "Angry Bird" (2018) | Air Force
+  [37:4:0.2] GSAT-7B (proposed) | Army
+[37:4:1] - CMS-03: encrypted anti-jam naval links to **2,000 km** offshore.
+[37:4:2] - **South Asia Satellite = GSAT-9**, GSLV-F09, May 2017; serves **Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Sri Lanka**; **Pakistan opted out**.
+## SUB 5 | Transponder Bands
+[37:5:0] TABLE head: Band | Use
+  [37:5:0.0] C / extended C | Telecom, TV distribution
+  [37:5:0.1] Ku | DTH, VSAT
+  [37:5:0.2] Ka | High-throughput broadband (GSAT-11, GSAT-N2)
+  [37:5:0.3] S | Mobile satellite services, DWS downlink
+[37:5:1] - **MF band is NOT used**. High-throughput: GSAT-19, -29, -11, N2; support **BharatNet**.
+## SUB 6 | Applications and Disaster Management
+[37:6:0] - **DTH**, **VSAT**, **DSNG** (news gathering), **MSS** (mobile), GRAMSAT, telemedicine.
+[37:6:1] - **Swayam Prabha**: **GSAT-15**, 40 free DTH education channels.
+[37:6:2] - **DWS**: Cyclone Warning Centre **Chennai**; uplink **C**, downlink **S** to addressable coastal receivers.
+[37:6:3] - Search and rescue: **COSPAS-SARSAT**.
+[37:6:4] - **AP**: SDSC-SHAR gives APSDMA cyclone-track data; RTGS–SHAR MoU (**Jun 2025**); **satellite phones** in emergencies.
+## SUB 7 | Number Game and Quick Revision
+[37:7:0] TABLE head: Item | Fact
+  [37:7:0.0] GEO height / period | 35,786 km / 24 h
+  [37:7:0.1] CMS-03 mass | 4,410 kg
+[37:7:1] # FIRST / LAST / SPECIAL FACTS
+[37:7:2] - First experimental comsat: APPLE; first INSAT: 1A; first weather satellite: KALPANA-1.
+## SUB 8 | Appsc Previous Year Questions
+[37:8:0] TABLE head: Examination | Question Area
+  [37:8:0.0] APPSC 2018 | GSAT-30 – telecommunication
+## SUB 9 | High-probability Mcq Traps
+[37:9:0] - 1. GEO height is mass-independent.
+[37:9:1] - 2. Rukmini Navy, Angry Bird Air Force, 7B Army.
+[37:9:2] - 3. GAGAN on GSAT-8, not INSAT-3D.
+[37:9:3] - 4. DWS: uplink C, downlink S.
+[37:9:4] - 5. **MF** not used.
+[37:9:5] - 6. South Asia Satellite: Pakistan out.
+[37:9:6] - 7. GSAT-30 from Kourou.
+
+=== OWN MCQs of 5:37 (56)
+[nphysics-23-20] sub0
+  Consider the following statements about satellite orbits:
+1. A circular orbit is possible when centripetal force equals gravitational force.
+2. An elliptical orbit has different apogee and perigee distances.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: a circular orbit needs centripetal force equal to gravity, and an elliptical orbit has unequal apogee and perigee.
+[nphysics-23-23] sub0
+  At approximately what altitude is the International Space Station (ISS) located?
+  36000 km | *400 km | 2000 km | 160 km
+  x: The ISS orbits at about 400 km, inside Low Earth Orbit. 36,000 km is geostationary height.
+[n907a35a5697] sub0
+  At about what height above the equator does a geostationary satellite orbit?
+  20,200 km | 26,560 km | *35,786 km | 45,786 km
+  x: GEO is about 35,786 km above the equator with a 24-hour period; the height does not depend on the satellite's mass.
+[f4e95b8d1b3fe] sub0
+  In which orbit does a launcher first place a geostationary satellite?
+  Polar orbit | Sun-synchronous orbit | *Elliptical Geosynchronous Transfer Orbit | Circular orbit at 400 km
+  x: The launcher puts it in an elliptical GTO; the satellite's own motor then raises it to GEO.
+[nphysics-23-19] sub0
+  What is an orbit whose apogee and perigee distances differ called?
+  Polar orbit | *Elliptical orbit | Geostationary orbit | Circular orbit
+  x: An elliptical orbit has different apogee and perigee; a polar orbit is one that passes over the poles.
+[f7436e591709a] sub0
+  Which of the following is correct about the orbital height of a geostationary satellite?
+  Increases with the satellite's mass | *Does not depend on the satellite's mass | Decreases with the satellite's mass | Depends on the launch vehicle used
+  x: A geostationary satellite revolves at a fixed height that is independent of its mass.
+[n9e04e08c967] sub1
+  What is the full form of APPLE, India's first experimental communication satellite launched in 1981?
+  Asian Public Platform for Long-distance Education | Advanced Polar Payload Launch Experiment | *Ariane Passenger PayLoad Experiment | Aerial Payload and Propulsion Laboratory Experiment
+  x: APPLE stands for Ariane Passenger PayLoad Experiment, India's first experimental communication satellite (1981).
+[ncf0803650c7] sub1
+  Where is the Master Control Facility that controls INSAT satellites located?
+  *Hassan | Sriharikota | Bengaluru | Thiruvananthapuram
+  x: The MCF is at Hassan, Karnataka; INSAT is a joint venture of DoS, DoT, IMD, AIR and Doordarshan coordinated by the ICC.
+[nc6b9ba87c71] sub1
+  INSAT-4C was lost in 2006 when which launch vehicle failed?
+  GSLV-F01 | *GSLV-F02 | PSLV-C10 | GSLV-F04
+  x: INSAT-4C was lost on GSLV-F02 (2006); its replacement INSAT-4CR flew on GSLV-F04 in 2007.
+[n4c70554af92] sub1
+  In which year was the INSAT system commissioned?
+  1981 | *1983 | 1988 | 1992
+  x: The INSAT system was commissioned in 1983 with satellites procured abroad; the INSAT-2 series began in 1992.
+[ndf5357088b1] sub1
+  KALPANA-1 holds which distinction in the Indian satellite programme?
+  First fully indigenous communication satellite series | First satellite for encrypted naval links | First commercial communication satellite in low Earth orbit | *First exclusive weather satellite
+  x: KALPANA-1 was India's first exclusive weather satellite.
+[fa4059ac973e9] sub1
+  Which satellite made the INSAT system operational in 1983?
+  *INSAT-1B | INSAT-1A | APPLE | INSAT-2A
+  x: INSAT-1A (1982) was the first INSAT, but INSAT-1B made the system operational in 1983.
+[fe42bc279400a] sub1
+  Which body coordinates the INSAT system, a joint venture of DoS, DoT, IMD, AIR and Doordarshan?
+  NSIL | *ICC | DoT | IMD
+  x: The INSAT Coordination Committee (ICC) coordinates the system.
+[f622bd02c5dd0] sub1
+  Which organisation took over ten in-orbit ISRO communication satellites in 2022?
+  ICC | IMD | *NSIL | Doordarshan
+  x: NSIL took over 10 in-orbit communication satellites in 2022.
+[ff0eb07111669] sub1
+  Consider the following statements about KALPANA-1:
+1. It was launched in September 2002 by PSLV.
+2. It was also known as METSAT.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: KALPANA-1 (METSAT) went up on PSLV in September 2002 as the first exclusive weather satellite.
+[g2a5264444298] sub1
+  Which satellite replaced INSAT-4C, which was lost in the GSLV-F02 failure of 10 July 2006?
+  *INSAT-4CR | INSAT-4A | INSAT-4B | GSAT-10
+  x: After INSAT-4C was lost on GSLV-F02, ISRO launched INSAT-4CR in September 2007 on GSLV-F04.
+[g22cdc976336f] sub1
+  How many operational communication satellites did India have in 2026?
+  10 | 14 | *19 | 27
+  x: India had 19 operational communication satellites in 2026; 10 in-orbit comsats were moved to NSIL in 2022.
+[nc5c0363c38a] sub2
+  Which of the following describes the Indian National Satellite (INSAT) system?
+  Purely military communication system | *Combined communication and meteorological satellite system | Remote-sensing system in sun-synchronous orbit | Navigation system for regional positioning
+  x: INSAT serves both communication and meteorology from geostationary orbit (JPSC 2021 keyed it as a 'meteorological satellite'), and also carries broadcasting, disaster warning and search-and-rescue. It is not purely military, not a sun-synchronous remote-sensing system (that is IRS), and not a navigation system (that is NavIC).
+[n96bbbe1140d] sub2
+  Which of the following pairs is INCORRECTLY matched?
+  *INSAT-3D – Carries a GAGAN payload | INSAT-2 series – First fully indigenous INSAT series | EDUSAT (GSAT-3) – Two-way classroom links | GSAT-8 – Carries a GAGAN payload
+  x: INSAT-3D (2013) is an advanced meteorology satellite; the GAGAN payload is on GSAT-8.
+[n502e74d2c37] sub2
+  Which is the heaviest communication satellite launched from Indian soil?
+  GSAT-N2 | GSAT-11 | *CMS-03 (GSAT-7R) | GSAT-7A
+  x: CMS-03/GSAT-7R (4,410 kg, LVM3-M5, Nov 2025) is the heaviest launched from India; GSAT-11 (~5.8 t) is the heaviest ISRO-built, launched abroad.
+[nf46ddeef888] sub2
+  Which of the following sets contains only high-throughput or broadband satellites?
+  *GSAT-19, GSAT-29, GSAT-11 and GSAT-N2 | KALPANA-1, INSAT-3D, INSAT-3DR and EDUSAT | INSAT-1A, INSAT-1B, INSAT-2A and APPLE | GSAT-7, GSAT-7A, GSAT-7B and GSAT-6
+  x: GSAT-19, GSAT-29, GSAT-11 and GSAT-N2 are identified with high-throughput broadband services for underserved areas, in-flight links and defence, complementing BharatNet.
+[ne9e0cd17442] sub2
+  The early-warning capability of INSAT-3D and INSAT-3DR has had which of the following effects?
+  *It sharply reduced cyclone-related deaths on the east coast, including Andhra Pradesh. | It provided encrypted naval communication up to 2,000 km from the coast. | It made BlueBird Block-2 the largest satellite in low Earth orbit. | It enabled the South Asian countries to opt out of satellite services.
+  x: INSAT-3D and INSAT-3DR early warnings sharply reduced cyclone deaths along the east coast, including Andhra Pradesh.
+[n3bc614fe3dd] sub2
+  Which satellite is correctly matched with its principal use?
+  GSAT-7 — Dedicated Air Force satellite | GSAT-7A — Dedicated Navy satellite | *GSAT-6 — Large deployable antenna for mobile and strategic communication | GSAT-11 — First operational satellite of the INSAT system
+  x: GSAT-6, launched in 2015, has a large deployable antenna and supports mobile and strategic communication. GSAT-7 serves the Navy, GSAT-7A serves the Air Force, and INSAT-1B marked operationalisation of INSAT.
+[f1790633ac44c] sub2
+  Which is the heaviest ISRO-built satellite, weighing about 5.8 tonnes?
+  CMS-03 | GSAT-10 | GSAT-N2 | *GSAT-11
+  x: GSAT-11 is the heaviest ISRO-built satellite; CMS-03 is the heaviest launched from Indian soil.
+[f430fb2a06b00] sub2
+  Which payload is carried by GSAT-8, launched on Ariane-5 on 21 May 2011?
+  *GAGAN | NavIC | Swayam Prabha | EDUSAT
+  x: GSAT-8 carries the GAGAN payload (also on GSAT-10 and GSAT-15), not INSAT-3D.
+[f7ff2cc74ccf6] sub2
+  For which purpose is EDUSAT (GSAT-3), launched in 2004 on GSLV-F01, dedicated?
+  Meteorology | *Education | Naval communication | Broadband
+  x: EDUSAT is India's education satellite, located at 74°E.
+[nd3b74033e3c] sub2
+  What type of satellite is GSAT-30, launched on 17 January 2020 from Kourou, French Guiana?
+  *Telecommunication satellite | Navigation satellite | Earth-observation satellite | Exclusive meteorological satellite
+  x: GSAT-30 is a telecommunication satellite launched by Ariane from Kourou on 17 Jan 2020 (APPSC 2018 PYQ theme). Navigation is NavIC/NVS, earth observation is EOS/IRS, and the exclusive weather satellite was KALPANA-1.
+[f49e85e81c0c6] sub2
+  Which satellite, launched in 2015, carries a large deployable antenna?
+  GSAT-7 | GSAT-11 | *GSAT-6 | GSAT-30
+  x: GSAT-6 (2015) is known for its large deployable antenna.
+[g819935887fc3] sub2
+  When was GSAT-30 launched from Kourou, French Guiana?
+  21 May 2011 | 6 February 2019 | *17 January 2020 | 2 November 2025
+  x: GSAT-30, a telecom satellite, went up from Kourou on 17 January 2020. 21 May 2011 was GSAT-8 and 6 February 2019 was GSAT-31.
+[g0ce2201b473b] sub2
+  In which year was GSAT-11, the heaviest ISRO-built satellite, launched?
+  2016 | *2018 | 2020 | 2024
+  x: GSAT-11 (about 5.8 t), the heaviest satellite built by ISRO, was launched from abroad in 2018.
+[g8cf51b8b52ab] sub2
+  Which launch vehicle launched the communication satellite CMS-01 from Sriharikota?
+  GSLV-F09 | *PSLV-C50 | LVM3-M5 | PSLV-C37
+  x: CMS-01 was launched by PSLV-C50 from Sriharikota.
+[gd00e5e1491e1] sub2
+  What is the mass of CMS-03 (GSAT-7R), the heaviest communication satellite launched from Indian soil?
+  2,168 kg | *4,410 kg | 5,800 kg | 6,100 kg
+  x: CMS-03 weighs 4,410 kg; GSAT-11 (about 5.8 t) is heavier but was launched abroad.
+[g361b6a7cd46f] sub2
+  Besides GSAT-8, which satellites carry the GAGAN payload?
+  *GSAT-10 and GSAT-15 | GSAT-11 and GSAT-30 | INSAT-3D and INSAT-3DR | GSAT-7 and GSAT-7A
+  x: GAGAN payloads are on GSAT-8, GSAT-10 and GSAT-15.
+[f3b27bf586cf6] sub3
+  From where was GSAT-N2 (GSAT-20) launched by Falcon 9 in November 2024?
+  Kourou | Sriharikota | Baikonur | *Cape Canaveral
+  x: GSAT-N2 flew on SpaceX's Falcon 9 from Cape Canaveral.
+[f9388bfb29c8b] sub3
+  From where was GSAT-31 launched on 6 February 2019?
+  *Kourou, French Guiana | Cape Canaveral | Sriharikota | Baikonur
+  x: GSAT-31 was launched on Ariane from Kourou, French Guiana.
+[fd4567aace772] sub3
+  Which of the following satellites was NOT launched on Ariane from Kourou?
+  INSAT-4A | *GSAT-N2 | GSAT-7 | GSAT-11
+  x: GSAT-N2 was launched by Falcon 9 from Cape Canaveral; the others flew on Ariane from Kourou.
+[g44db72fa0598] sub3
+  On which rocket was GSAT-N2 (GSAT-20) launched in November 2024?
+  Ariane-5 | LVM3 | *SpaceX Falcon 9 | GSLV Mk II
+  x: GSAT-N2 was launched on a SpaceX Falcon 9 from Cape Canaveral.
+[n73faa683e72] sub4
+  Which launch vehicle launched CMS-03 (GSAT-7R), which gives encrypted anti-jam naval links up to 2,000 km from the coast?
+  *LVM3-M5 | GSLV-F09 | LVM3-M6 | LVM3-M4
+  x: CMS-03/GSAT-7R was launched by LVM3-M5.
+[n8cea058ea15] sub4
+  GSAT-7A 'Angry Bird' (2018) is the dedicated satellite of which of the following?
+  Indian Navy | Indian Army | *Indian Air Force | Indian Coast Guard
+  x: GSAT-7A serves the Air Force; GSAT-7 'Rukmini' serves the Navy and GSAT-7B is proposed for the Army.
+[n25f63de61fc] sub4
+  Which launch vehicle launched the South Asia Satellite (GSAT-9) in May 2017?
+  GSLV-F10 | GSLV-F08 | *GSLV-F09 | PSLV-C37
+  x: GSAT-9 flew on GSLV-F09 in May 2017; Pakistan opted out of it.
+[f0c64faec3af1] sub4
+  For which of the following is the proposed GSAT-7B meant?
+  Navy | Air Force | *Army | Coast Guard
+  x: GSAT-7 'Rukmini' serves the Navy, GSAT-7A the Air Force and GSAT-7B the Army.
+[f2f95991bfc49] sub4
+  Which country opted out of the South Asia Satellite (GSAT-9)?
+  Afghanistan | Maldives | Sri Lanka | *Pakistan
+  x: The South Asia Satellite serves seven countries including Afghanistan, Maldives and Sri Lanka; Pakistan opted out.
+[f62079daf4579] sub4
+  Which launch vehicle launched GSAT-7 'Rukmini', the Navy's satellite, on 30 August 2013?
+  *Ariane-5 | GSLV-F09 | LVM3-M5 | PSLV-C50
+  x: GSAT-7 flew on Ariane-5; CMS-03 (LVM3-M5) later replaced it.
+[g1b7de8ba79b1] sub4
+  Which satellite replaced GSAT-7 'Rukmini', the Indian Navy's communication satellite?
+  GSAT-7A | GSAT-7B | *CMS-03 (GSAT-7R) | GSAT-N2
+  x: CMS-03 (GSAT-7R), launched in November 2025, replaced GSAT-7 for the Navy.
+[n5dc0d154909] sub5
+  Which satellite frequency band is typically used for DTH and VSAT?
+  C-band | *Ku-band | Ka-band | S-band
+  x: Ku-band serves DTH and VSAT; C for telecom/TV distribution, Ka for high-throughput broadband and S for mobile satellite services.
+[n5ede4ff1f6c] sub5
+  Which one of the following frequency bands is NOT used for INSAT/GSAT satellite communication?
+  C-band | Ku-band | S-band | *MF (Medium Frequency)
+  x: MF is not used in INSAT/GSAT communication (RPSC 2021). C/extended C serves telecom and TV distribution, Ku serves DTH and VSAT, and S serves mobile satellite services and the DWS downlink.
+[f4b069b992682] sub5
+  For what is the Ka band on GSAT-11 and GSAT-N2 used?
+  DTH and VSAT | Mobile satellite services | *High-throughput broadband | TV distribution
+  x: Ka band carries high-throughput broadband; Ku serves DTH/VSAT and S serves mobile services.
+[f2196f6f9d9c6] sub5
+  In the Disaster Warning System, which are the uplink and downlink bands respectively?
+  S and C | *C and S | Ku and Ka | C and Ku
+  x: DWS warnings go up in C band and come down in S band to addressable coastal receivers.
+[g83a3ad425e3f] sub5
+  High-throughput satellites such as GSAT-19, GSAT-29 and GSAT-11 support which programme?
+  Swayam Prabha | GAGAN | *BharatNet | COSPAS-SARSAT
+  x: The high-throughput Ka-band satellites GSAT-19, -29, -11 and N2 provide broadband capacity that supports BharatNet.
+[n719b914d1a0] sub6
+  In satellite applications, what does MSS refer to?
+  Meteorological satellite service | Multi-spot satellite system | *Mobile satellite services | Maritime surveillance system
+  x: MSS means mobile satellite services; DTH is Direct-to-Home broadcasting, VSAT business networks and DSNG satellite news gathering.
+[nca956721812] sub6
+  Through which satellite are Swayam Prabha's 40 free DTH education channels beamed?
+  *GSAT-15 | KALPANA-1 | INSAT-4CR | GSAT-11
+  x: Swayam Prabha uses GSAT-15 to provide 40 free Direct-to-Home education channels.
+[n852de5fcc84] sub6
+  In the Disaster Warning System, cyclone warnings from the Cyclone Warning Centre at Chennai are
+  sent upward through S-band and received through C-band by all receivers without selection | sent upward through UHF and received through MF by television households | *sent upward through C-band and received through S-band by selectively addressable receivers | sent upward through Ku-band and received through Ka-band only by military stations
+  x: The warning signal goes up on C-band and comes down on S-band to selectively addressable DWS receivers along the coast.
+[n8db4e468e9a] sub6
+  Under which international programme do INSAT's search-and-rescue transponders operate?
+  Swayam Prabha | BharatNet | *COSPAS-SARSAT | GAGAN
+  x: INSAT carries search-and-rescue transponders under the international COSPAS-SARSAT programme.
+[fb8bd59847995] sub6
+  For what is DSNG, a satellite communication application, used?
+  Mobile telephony | Tele-education | Search and rescue | *News gathering
+  x: DSNG is digital satellite news gathering.
+[ff1b769590f72] sub6
+  With which of the following did Andhra Pradesh's RTGS sign an MoU in June 2025?
+  *SDSC-SHAR | Master Control Facility, Hassan | IMD | NSIL
+  x: The RTGS–SHAR MoU was signed in June 2025; SDSC-SHAR also gives APSDMA cyclone-track data.
+[f536f12f8eabb] sub6
+  Consider the following statements about satellite support for disaster management in Andhra Pradesh:
+1. SDSC-SHAR provides cyclone-track data to APSDMA.
+2. Satellite phones are used in emergencies.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: SHAR shares cyclone-track data with APSDMA and satellite phones are used in emergencies.
+
