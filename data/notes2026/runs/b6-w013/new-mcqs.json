@@ -49,12 +49,12 @@
   "row": 13,
   "s": "Consider the following statements about renewable-energy approvals and cancellations in Andhra Pradesh (Sep 2026):\n1. Approved projects must start within 10 months and generate within 24 months.\n2. M. Venkata Rao Infra Projects' 675 MW solar project is at Madakasira, Sri Sathya Sai district.\n3. The Cabinet cancelled Megha Engineering's 2,000 MW pumped hydro project at Avuku.\nWhich of the statements given above is/are correct?",
   "o": [
+   "2 only",
    "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: Megha Engineering's 2,000 MW project was at Kommuru, Annamayya district; the 800 MW Avuku PSP belonged to RVR Projects.",
   "src": "app",
   "tq": "statements"
@@ -64,12 +64,12 @@
   "row": 13,
   "s": "Match List I (Developer) with List II (Project):\nList I\na. Clean Renewable Energy Hybrid-6\nb. Sai Bioenergy AP\nc. Risalven Two Energy\nd. RVR Projects\nList II\ni. 100 MW wind-solar hybrid, Yemmiganur, Kurnool\nii. 118.80 MW solar, Kasanur/Balapanur, YSR Kadapa\niii. 24 TPD CBG, Midthur, Nandyal\niv. 800 MW Avuku PSP (cancelled)\nSelect the correct answer using the code given below:",
   "o": [
+   "a-ii, b-iii, c-i, d-iv",
    "a-ii, b-iv, c-i, d-iii",
    "a-iv, b-iii, c-i, d-ii",
-   "a-ii, b-iii, c-i, d-iv",
    "a-ii, b-i, c-iii, d-iv"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Correct pairs: Clean Renewable Energy Hybrid-6 – 118.80 MW solar, Kasanur/Balapanur, YSR Kadapa; Sai Bioenergy AP – 24 TPD CBG, Midthur, Nandyal; Risalven Two Energy – 100 MW wind-solar hybrid, Yemmiganur, Kurnool; RVR Projects – 800 MW Avuku PSP (cancelled).",
   "src": "app",
   "tq": "match"
@@ -81,10 +81,10 @@
   "o": [
    "1 only",
    "2 only",
-   "1 and 2 only",
-   "1, 2 and 3"
+   "3 only",
+   "1 and 2 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: they were processed through NREDCAP and APTRANSCO.",
   "src": "app",
   "tq": "statements"
@@ -124,12 +124,12 @@
   "row": 13,
   "s": "Consider the following statements about the Kakinada green ammonia project:\n1. ADB and Japan signed financing with AM Green Ammonia (India), set up by the founders of Greenko Group.\n2. Its capacity of about 1.1 million tonnes a year comes in two phases of 547,500 tonnes each.\n3. The Asian Development Bank is headquartered at Tokyo.\n4. Green ammonia is made from green hydrogen and nitrogen from air.\nWhich of the statements given above is/are correct?",
   "o": [
+   "3 and 4 only",
+   "1, 2 and 3 only",
    "1, 2 and 4 only",
-   "1, 3 and 4 only",
-   "2, 3 and 4 only",
-   "1, 2, 3 and 4"
+   "1, 3 and 4 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Correct: 1, 2 and 4 only. Statement 3 is wrong: ADB (est. 1966) is headquartered at Mandaluyong, Metro Manila; Tokyo is JICA's HQ.",
   "src": "app",
   "tq": "statements"
@@ -169,12 +169,12 @@
   "row": 13,
   "s": "Match List I (Global Horticulture Hub item) with List II (Figure):\nList I\na. Districts covered\nb. Horticulture clusters\nc. Farmers\nd. Government share\nList II\ni. ₹40,352 crore\nii. 201\niii. about 9.6 lakh\niv. 10\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iv, b-ii, c-iii, d-i",
    "a-i, b-ii, c-iii, d-iv",
+   "a-iv, b-ii, c-iii, d-i",
    "a-iv, b-ii, c-i, d-iii",
    "a-iv, b-iii, c-ii, d-i"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Correct pairs: Districts covered – 10; Horticulture clusters – 201; Farmers – about 9.6 lakh; Government share – ₹40,352 crore.",
   "src": "app",
   "tq": "match"
@@ -184,12 +184,12 @@
   "row": 13,
   "s": "Consider the following statements about the Rayalaseema horticulture hub:\n1. It creates new irrigation potential of 4.3 lakh acres and stabilises 9 lakh acres.\n2. The foundation stone of the Indian School of Agriculture, with Reliance and modelled on ISB, was laid the same day.\n3. Its crops include dragon fruit, avocado and berries.\nWhich of the statements given above is/are correct?",
   "o": [
+   "2 only",
    "3 only",
    "1 and 2 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Correct: 2 and 3 only. Statement 1 is wrong: it is the reverse: new potential 9 lakh acres, stabilisation 4.3 lakh acres.",
   "src": "app",
   "tq": "statements"
@@ -199,12 +199,12 @@
   "row": 13,
   "s": "Consider the following statements about Andhra Pradesh's exports in 2025-26:\n1. The export data are from DGCIS, headquartered at Kolkata.\n2. Among the erstwhile districts, East Godavari ranked first.\n3. Andhra Pradesh ranked 7th in India, with Gujarat first.\n4. All southern States, including Kerala, were in the top 10.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "1 and 3 only",
+   "1 and 4 only",
    "2 and 3 only",
-   "2 and 4 only"
+   "3 and 4 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Correct: 1 and 3 only. Statement 2 is wrong: Visakhapatnam ranked first, followed by East Godavari. Statement 4 is wrong: Kerala was 15th; all southern States except Kerala were in the top 10.",
   "src": "app",
   "tq": "statements"
@@ -225,14 +225,14 @@
   "tq": "statements"
  },
  {
-  "id": "cpeb02e28908db",
+  "id": "cpaa05e91a6bb4",
   "row": 13,
-  "s": "Match List I (ASUSE indicator (AP districts)) with List II (Top district):\nList I\na. Most enterprises\nb. Most workers\nc. Highest monthly wage\nd. Highest share of women-owned enterprises\nList II\ni. Nandyal\nii. Prakasam\niii. YSR Kadapa\niv. Kakinada\nSelect the correct answer using the code given below:",
+  "s": "Match List I (ASUSE indicator (AP districts)) with List II (Top district):\nList I\na. Most enterprises\nb. Most workers\nc. Highest monthly wage\nd. Highest share of women-owned enterprises\nList II\ni. YSR Kadapa\nii. Prakasam\niii. Nandyal\niv. Kakinada\nSelect the correct answer using the code given below:",
   "o": [
-   "a-ii, b-iv, c-iii, d-i",
-   "a-iii, b-ii, c-iv, d-i",
-   "a-ii, b-iii, c-iv, d-i",
-   "a-i, b-iii, c-iv, d-ii"
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iii, b-i, c-iv, d-ii"
   ],
   "a": 2,
   "x": "Correct pairs: Most enterprises – Prakasam; Most workers – YSR Kadapa; Highest monthly wage – Kakinada; Highest share of women-owned enterprises – Nandyal. Lowest wage: Kurnool.",
@@ -304,12 +304,12 @@
   "row": 13,
   "s": "Consider the following statements about the Dugarajapatnam shipbuilding cluster:\n1. NSHIP-AP is owned equally by the AP Maritime Board and the Visakhapatnam Port Authority.\n2. It is linked to Maritime Amrit Kaal Vision 2047, which aims to place India among the top 5 shipbuilders by 2047.\n3. The feasibility study puts the shipyard at ₹9,513 crore and the port at ₹29,254 crore.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "3 only",
    "1 and 2 only",
-   "2 and 3 only"
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: it is the reverse: shipyard ₹29,254 crore, port ₹9,513 crore.",
   "src": "app",
   "tq": "statements"
@@ -350,11 +350,11 @@
   "s": "Consider the following statements about health news from Andhra Pradesh:\n1. The 10 new PPP medical colleges from 2027-28 include Adoni and Ongole.\n2. After chloroquine tablets at a medical camp in Polavaram district, a 7-year-old girl died and 52 people fell ill.\n3. Plasmodium falciparum causes about 70-80% of AP's malaria; its vector is the female Anopheles.\nWhich of the statements given above is/are correct?",
   "o": [
    "2 only",
+   "3 only",
    "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Correct: 2 and 3 only. Statement 1 is wrong: Ongole is not in the list (Adoni, Madanapalle, Markapuram, Pulivendula, Penugonda, Palakollu, Amalapuram, Narsipatnam, Bapatla, Parvatipuram).",
   "src": "app",
   "tq": "statements"
@@ -364,12 +364,12 @@
   "row": 13,
   "s": "Consider the following statements about the Penukonda inscription:\n1. It is at the Sri Naga Lingeshwara Swamy Temple and is dated 16 July 1363 CE.\n2. It records that Anantharasu Chikka Odeyar, Prime Minister of Bukka Raya I, built the pond Nagula Bavi.\n3. Penukonda was the first capital of the Vijayanagara Empire.\nWhich of the statements given above is/are correct?",
   "o": [
+   "2 only",
+   "3 only",
    "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "1 and 3 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: Penukonda was the second capital.",
   "src": "app",
   "tq": "statements"
@@ -409,12 +409,12 @@
   "row": 13,
   "s": "Consider the following statements about Q-SHIVA:\n1. Q-SHIVA (Quantum System for Hardware Integration, Validation and Architecture) is a set of 5 systems by the startup Qubit Force.\n2. They are the first portable box-sized 4-Kelvin testing systems made in India.\n3. With them, universities can do up to 50% of testing in-house.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
    "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only"
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: the figure is up to 80%.",
   "src": "app",
   "tq": "statements"
@@ -440,11 +440,11 @@
   "s": "Match List I (Facility) with List II (Developer / partners):\nList I\na. The Anchorage, Space City (Tirupati)\nb. IBM Quantum Computing Centre, Amaravati\nc. Google AI hub, Visakhapatnam\nd. Q-SHIVA testing systems\nList II\ni. AdaniConneX and Airtel Nxtra\nii. Ethereal Exploration Guild\niii. Qubit Force\niv. IBM and TCS\nSelect the correct answer using the code given below:",
   "o": [
    "a-ii, b-iv, c-iii, d-i",
-   "a-ii, b-iv, c-i, d-iii",
    "a-i, b-iv, c-ii, d-iii",
-   "a-ii, b-i, c-iv, d-iii"
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Correct pairs: The Anchorage, Space City (Tirupati) – Ethereal Exploration Guild; IBM Quantum Computing Centre, Amaravati – IBM and TCS; Google AI hub, Visakhapatnam – AdaniConneX and Airtel Nxtra; Q-SHIVA testing systems – Qubit Force.",
   "src": "app",
   "tq": "match"
@@ -455,11 +455,11 @@
   "s": "Consider the following statements about space, quantum and data-centre facts:\n1. IN-SPACe is headquartered at Bengaluru.\n2. The National Quantum Mission was approved in April 2023 with ₹6,003.65 crore.\n3. Google's Visakhapatnam AI hub is a 1 GW campus worth about $15 billion over five years.\nWhich of the statements given above is/are correct?",
   "o": [
    "2 only",
-   "3 only",
    "1 and 2 only",
-   "2 and 3 only"
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Correct: 2 and 3 only. Statement 1 is wrong: IN-SPACe is at Ahmedabad; ISRO is at Bengaluru.",
   "src": "app",
   "tq": "statements"
@@ -544,12 +544,12 @@
   "row": 13,
   "s": "Consider the following statements about urban infrastructure and local bodies in Andhra Pradesh:\n1. Metro Phase-I: Vijayawada 38.40 km with 34 stations; Visakhapatnam 76.90 km in 4 corridors.\n2. Article 243ZA provides for the State Election Commission for municipalities.\n3. The 12th Schedule lists 29 functions.\n4. Among 106 municipalities, 18 chairperson posts are BC General.\nWhich of the statements given above is/are correct?",
   "o": [
+   "3 and 4 only",
    "1, 2 and 4 only",
-   "1, 3 and 4 only",
    "2, 3 and 4 only",
    "1, 2, 3 and 4"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Correct: 1, 2 and 4 only. Statement 3 is wrong: it lists 18 functions.",
   "src": "app",
   "tq": "statements"
@@ -559,12 +559,12 @@
   "row": 13,
   "s": "Match List I (Tourism project) with List II (Feature):\nList I\na. Akhanda Godavari\nb. Suryalanka Beach, Bapatla\nc. Simhachalam\nd. Ahobilam\nList II\ni. costliest, ₹97.52 crore\nii. Havelock Bridge restoration\niii. PRASHAD\niv. museum, Swadesh Darshan 2.0 (spiritual)\nSelect the correct answer using the code given below:",
   "o": [
+   "a-ii, b-i, c-iii, d-iv",
    "a-iv, b-i, c-iii, d-ii",
    "a-iii, b-i, c-ii, d-iv",
-   "a-ii, b-i, c-iii, d-iv",
    "a-ii, b-i, c-iv, d-iii"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Correct pairs: Akhanda Godavari – Havelock Bridge restoration; Suryalanka Beach, Bapatla – costliest, ₹97.52 crore; Simhachalam – PRASHAD; Ahobilam – museum, Swadesh Darshan 2.0 (spiritual).",
   "src": "app",
   "tq": "match"
@@ -574,12 +574,12 @@
   "row": 13,
   "s": "Consider the following statements about Centre-funded tourism projects in Andhra Pradesh:\n1. There are 8 projects worth about ₹428 crore.\n2. PRASHAD stands for Pilgrimage Rejuvenation and Spiritual Heritage Augmentation Drive.\n3. Ahobilam's project is under the beach theme of Swadesh Darshan 2.0.\n4. Andhra Pradesh's national tourism rank improved from 16th to 13th.\nWhich of the statements given above is/are correct?",
   "o": [
+   "2 and 3 only",
    "3 and 4 only",
    "1, 2 and 3 only",
-   "1, 2 and 4 only",
-   "1, 3 and 4 only"
+   "1, 2 and 4 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Correct: 1, 2 and 4 only. Statement 3 is wrong: it is under the spiritual theme.",
   "src": "app",
   "tq": "statements"
@@ -619,12 +619,12 @@
   "row": 13,
   "s": "Consider the following statements about investment news of November 2026:\n1. Hwasin Automotive India's ₹850 crore unit in Sri Sathya Sai district will make parts for Kia.\n2. INCOIS (est. 1999, Ministry of Earth Sciences, HQ Hyderabad) signed a tripartite MoU with Vignan's University and Ananth Technologies.\n3. Andhra Pradesh's first Japanese Industrial Township is at Kakinada SEZ.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
    "1 and 2 only",
+   "1 and 3 only",
    "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: it is Sri City.",
   "src": "app",
   "tq": "statements"
@@ -649,12 +649,12 @@
   "row": 14,
   "s": "Consider the following statements about the Alluri Sitarama Raju International Airport, Bhogapuram:\n1. It is in Vizianagaram district, about 45 km from Visakhapatnam.\n2. It was dedicated by PM Narendra Modi on 1 August 2026 and commercial flights began on 17 August 2026.\n3. It was developed by the Airports Authority of India on the EPC model.\nWhich of the statements given above is/are correct?",
   "o": [
+   "2 only",
    "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: it was developed by GMR through GVIAL on the PPP-DBFOT model, not by AAI.",
   "src": "app",
   "tq": "statements"
@@ -664,28 +664,28 @@
   "row": 14,
   "s": "Consider the following statements about features of Bhogapuram airport:\n1. It has a 3,800 m runway and an initial capacity of 6 million passengers a year.\n2. It has a 10 MW solar plant.\n3. It is the 39th airport in the Category-1 Immigration Check Post list.\n4. Its design is inspired by Chuttilu cottages and Araku Valley.\nWhich of the statements given above is/are correct?",
   "o": [
+   "2 and 4 only",
+   "3 and 4 only",
    "1, 2 and 3 only",
-   "1, 3 and 4 only",
-   "2, 3 and 4 only",
-   "1, 2, 3 and 4"
+   "1, 3 and 4 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Correct: 1, 3 and 4 only. Statement 2 is wrong: it has a 5 MW solar plant.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cpe60ba758e86e",
+  "id": "cpa25d3b99ccf5",
   "row": 14,
-  "s": "Assertion (A): A Guinness World Record was set at the Bhogapuram airport event with a Thimsa dance by about 13,000 women and girls.\nReason (R): Thimsa is a tribal folk dance of North Andhra and Odisha.\nSelect the correct answer using the code given below:",
+  "s": "Assertion (A): The Guinness World Record at the Bhogapuram airport event was set with a Kuchipudi performance by about 13,000 women and girls.\nReason (R): Thimsa is a tribal folk dance of North Andhra and Odisha.\nSelect the correct answer using the code given below:",
   "o": [
    "Both A and R are true, and R is the correct explanation of A",
    "Both A and R are true, but R is NOT the correct explanation of A",
    "A is true, but R is false",
    "A is false, but R is true"
   ],
-  "a": 1,
-  "x": "Both true; R only says what Thimsa is, it does not explain why the record was set.",
+  "a": 3,
+  "x": "A is false: the record (about 13,000 participants in 260 groups of 50) was set with the Thimsa (Dhimsa) dance, not Kuchipudi. R is true.",
   "src": "app",
   "tq": "assertion"
  },
@@ -694,12 +694,12 @@
   "row": 14,
   "s": "Match List I (Project of 1 Aug 2026) with List II (Detail):\nList I\na. Recharla-Guravayigudem expressway\nb. Tadipatri bypass\nc. Lingasamudram high-level bridge\nd. Kurnool-IV RE Zone transmission\nList II\ni. NH-565\nii. NH-365BG\niii. 4.5 GW, POWERGRID SPV\niv. NH-67\nSelect the correct answer using the code given below:",
   "o": [
+   "a-ii, b-iv, c-i, d-iii",
    "a-ii, b-iii, c-i, d-iv",
    "a-i, b-iv, c-ii, d-iii",
-   "a-ii, b-i, c-iv, d-iii",
-   "a-ii, b-iv, c-i, d-iii"
+   "a-ii, b-i, c-iv, d-iii"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Correct pairs: Recharla-Guravayigudem expressway – NH-365BG; Tadipatri bypass – NH-67; Lingasamudram high-level bridge – NH-565; Kurnool-IV RE Zone transmission – 4.5 GW, POWERGRID SPV.",
   "src": "app",
   "tq": "match"
@@ -754,12 +754,12 @@
   "row": 14,
   "s": "Consider the following statements about Kakinada SEZ, Gateway Port and ports administration:\n1. A rail line from Annavaram station to the Kakinada Gateway Port is proposed.\n2. Under the SEZ Act, 2005, an SEZ is a duty-free enclave treated as outside the customs territory.\n3. The AP Maritime Board manages the major ports of Andhra Pradesh.\nWhich of the statements given above is/are correct?",
   "o": [
+   "3 only",
    "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: APMB manages the non-major ports.",
   "src": "app",
   "tq": "statements"
@@ -769,12 +769,12 @@
   "row": 14,
   "s": "Match List I (Rayalaseema project) with List II (Location):\nList I\na. KIA Motors car plant\nb. DRDO AMCA integration and flight-testing centre\nc. Bharat Forge defence energetics\nd. Electronics mega cluster\nList II\ni. Puttaparthi\nii. Kopparthy\niii. Penukonda\niv. Madakasira\nSelect the correct answer using the code given below:",
   "o": [
+   "a-iii, b-i, c-iv, d-ii",
    "a-iii, b-iv, c-i, d-ii",
    "a-iii, b-i, c-ii, d-iv",
-   "a-iii, b-i, c-iv, d-ii",
    "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Correct pairs: KIA Motors car plant – Penukonda; DRDO AMCA integration and flight-testing centre – Puttaparthi; Bharat Forge defence energetics – Madakasira; Electronics mega cluster – Kopparthy.",
   "src": "app",
   "tq": "match"
@@ -786,10 +786,10 @@
   "o": [
    "1 only",
    "2 only",
-   "1 and 2 only",
-   "1, 2 and 3"
+   "3 only",
+   "1 and 2 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: Rajayyapeta is near Anakapalli, not in Rayalaseema.",
   "src": "app",
   "tq": "statements"
@@ -799,12 +799,12 @@
   "row": 14,
   "s": "Consider the following statements about Orvakal Drone City:\n1. It is a national drone hub developed with the Union Ministry of Civil Aviation.\n2. Drone City covers the whole 2,621-acre Orvakal HBIC node.\n3. A special committee is to act on industry demands within 3 months.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 only",
+   "1 only",
+   "3 only",
    "1 and 3 only",
-   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Correct: 1 and 3 only. Statement 2 is wrong: the node is 2,621 acres; Drone City is 600 acres of it.",
   "src": "app",
   "tq": "statements"
@@ -840,16 +840,16 @@
   "tq": "statements"
  },
  {
-  "id": "cpd4f6e75272ef",
+  "id": "cpc1113a809a4b",
   "row": 14,
-  "s": "Match List I (Project) with List II (Detail):\nList I\na. Swarnagiri Gold Mine\nb. Underground Coal Gasification complex\nc. Lithium-gallium exploration\nd. Tekulodu Aerospace & Defence park\nList II\ni. Sri Sathya Sai district\nii. Geomysore Services, Tuggali mandal, Kurnool\niii. Reliance, Eluru district\niv. CSIR-NGRI, Cuddapah Basin\nSelect the correct answer using the code given below:",
+  "s": "Match List I (Project) with List II (Detail):\nList I\na. Swarnagiri Gold Mine\nb. Underground Coal Gasification complex\nc. Lithium-gallium exploration\nd. Tekulodu Aerospace & Defence park\nList II\ni. CSIR-NGRI, Cuddapah Basin\nii. Reliance, Eluru district\niii. Geomysore Services, Tuggali mandal, Kurnool\niv. Sri Sathya Sai district\nSelect the correct answer using the code given below:",
   "o": [
-   "a-ii, b-iv, c-iii, d-i",
-   "a-ii, b-iii, c-iv, d-i",
-   "a-ii, b-i, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
    "a-iii, b-ii, c-iv, d-i"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Correct pairs: Swarnagiri Gold Mine – Geomysore Services, Tuggali mandal, Kurnool; Underground Coal Gasification complex – Reliance, Eluru district; Lithium-gallium exploration – CSIR-NGRI, Cuddapah Basin; Tekulodu Aerospace & Defence park – Sri Sathya Sai district.",
   "src": "app",
   "tq": "match"
@@ -874,7 +874,7 @@
   "row": 14,
   "s": "Consider the following statements about mining news from Andhra Pradesh:\n1. Swarnagiri (Jonnagiri) began commercial production on 24 June 2026 - the first major private gold mine to do so since Independence.\n2. The Tummalapalle surveys found lithium up to 250 ppm and gallium up to 1,000 ppm.\n3. The lithium-gallium work is 100% funded by the National Mineral Exploration Trust.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 only",
+   "3 only",
    "1 and 3 only",
    "2 and 3 only",
    "1, 2 and 3"
@@ -890,11 +890,11 @@
   "s": "Consider the following statements about the ASIP semiconductor unit:\n1. It is by ASIP Technologies with South Korea's APACT at Tarluvada, Visakhapatnam district.\n2. It is AP's first OSAT unit and South India's first OSAT centre under the India Semiconductor Mission (2021).\n3. It will make about 9.6 million chips a year at a cost of ₹2,387.81 crore.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only"
+   "2 only",
+   "3 only",
+   "1 and 2 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: capacity is about 96 million units a year.",
   "src": "app",
   "tq": "statements"
@@ -905,23 +905,23 @@
   "s": "Consider the following statements about quantum and AI institutions:\n1. India's first Quantum and AI University campus at Amaravati is being developed by NIELIT.\n2. It gets 100% Grant-in-Aid from the Department of Science and Technology.\n3. AP's first Quantum Incubator is by Chandigarh University at Medha Towers, Gannavaram.\n4. The nodal department for the National Quantum Mission is the Department of Science and Technology.\nWhich of the statements given above is/are correct?",
   "o": [
    "2 and 4 only",
-   "1, 2 and 3 only",
-   "1, 2 and 4 only",
-   "1, 3 and 4 only"
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Correct: 1, 3 and 4 only. Statement 2 is wrong: the grant is from MeitY (₹730.70 crore over 5 years).",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp63ac1590c0b6",
+  "id": "cp10823e81e2be",
   "row": 14,
-  "s": "Match List I (Item) with List II (Detail):\nList I\na. First Google AI Lab in AP\nb. AP Semiconductor and Display Fab Policy\nc. AP Science City Executive Committee\nd. Design Spark Challenge 2026\nList II\ni. chaired by the Special Chief Secretary, Infrastructure & Investments\nii. 2024-2029\niii. AP Innovation Society with Ratan Tata Innovation Hub\niv. Vignan's University, Vadlamudi\nSelect the correct answer using the code given below:",
+  "s": "Match List I (Item) with List II (Detail):\nList I\na. First Google AI Lab in AP\nb. AP Semiconductor and Display Fab Policy\nc. AP Science City Executive Committee\nd. Design Spark Challenge 2026\nList II\ni. AP Innovation Society with Ratan Tata Innovation Hub\nii. 2024-2029\niii. Vignan's University, Vadlamudi\niv. chaired by the Special Chief Secretary, Infrastructure & Investments\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iv, b-ii, c-iii, d-i",
-   "a-ii, b-iv, c-i, d-iii",
-   "a-iv, b-ii, c-i, d-iii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-ii, c-iv, d-i",
    "a-iii, b-ii, c-i, d-iv"
   ],
   "a": 2,
@@ -964,12 +964,12 @@
   "row": 14,
   "s": "Match List I (Korean entity (APEX Korea)) with List II (Proposal):\nList I\na. KOMEA\nb. Hwaseung Group\nc. Boo Young Group\nd. BNK Financial Group\nList II\ni. Exploring footwear manufacturing\nii. Financial services and infrastructure\niii. Dugarajapatnam Shipbuilding Cluster\niv. Non-leather footwear unit at Kuppam\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iii, b-iv, c-i, d-ii",
    "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
    "a-iii, b-iv, c-ii, d-i",
    "a-ii, b-iv, c-i, d-iii"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Correct pairs: KOMEA – Dugarajapatnam Shipbuilding Cluster; Hwaseung Group – Non-leather footwear unit at Kuppam; Boo Young Group – Exploring footwear manufacturing; BNK Financial Group – Financial services and infrastructure.",
   "src": "app",
   "tq": "match"
@@ -979,12 +979,12 @@
   "row": 14,
   "s": "Consider the following statements about AP's overseas investment outreach:\n1. APEX Korea at Busan, set up by APEDB, is AP's first permanent overseas investment centre.\n2. The first AP-UAE Food Cluster investment is Floor Masters' ₹100-crore unit at Gangadhara Nellore, Chittoor.\n3. The AP-UAE Food Cluster will use Visakhapatnam and Gangavaram ports.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 only",
-   "3 only",
    "1 and 2 only",
-   "2 and 3 only"
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: the ports are Krishnapatnam and Kakinada.",
   "src": "app",
   "tq": "statements"
@@ -994,12 +994,12 @@
   "row": 14,
   "s": "Consider the following statements about the CM's Singapore visit and AP-Australia MoUs:\n1. YCH Logistics Group was linked with logistics parks and a supply-chain city.\n2. NUS was invited to set up a satellite campus in Visakhapatnam.\n3. In the solar Centre of Excellence, UNSW Sydney gives training and IIT Tirupati gives academic infrastructure and faculty.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
    "2 only",
    "3 only",
-   "1 and 3 only",
-   "2 and 3 only"
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Correct: 1 and 3 only. Statement 2 is wrong: NUS was invited to Amaravati.",
   "src": "app",
   "tq": "statements"
@@ -1024,12 +1024,12 @@
   "row": 14,
   "s": "Match List I (AMTZ centre) with List II (Area):\nList I\na. MediValley Incubation Council\nb. Bio Valley Incubation Council\nc. Bharat Limb Centre\nd. CoE for Additive Manufacturing\nList II\ni. Biotech\nii. Rehabilitation and assistive technology\niii. MedTech innovation\niv. Prototyping\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iii, b-i, c-ii, d-iv",
    "a-ii, b-i, c-iii, d-iv",
    "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-ii, d-iv",
    "a-iii, b-ii, c-i, d-iv"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Correct pairs: MediValley Incubation Council – MedTech innovation; Bio Valley Incubation Council – Biotech; Bharat Limb Centre – Rehabilitation and assistive technology; CoE for Additive Manufacturing – Prototyping.",
   "src": "app",
   "tq": "match"
@@ -1054,12 +1054,12 @@
   "row": 14,
   "s": "Match List I (Climate plan measure) with List II (Target):\nList I\na. Renewable share\nb. RE projects\nc. Green hydrogen hubs\nd. EV charging\nList II\ni. 2 hubs, combined 60 MW\nii. 120 GW\niii. 1 lakh stations\niv. 40% of energy mix\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iv, b-i, c-ii, d-iii",
    "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
    "a-iv, b-ii, c-iii, d-i",
    "a-ii, b-iv, c-i, d-iii"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Correct pairs: Renewable share – 40% of energy mix; RE projects – 120 GW; Green hydrogen hubs – 2 hubs, combined 60 MW; EV charging – 1 lakh stations.",
   "src": "app",
   "tq": "match"
@@ -1129,12 +1129,12 @@
   "row": 14,
   "s": "Consider the following statements about the Tungabhadra dam and river:\n1. All 33 crest gates of the dam near Hosapete were replaced after Gate No. 19 washed out in 2024.\n2. The Tungabhadra (Tunga + Bhadra) joins the Krishna at Sangamaleshwaram in AP.\n3. The dam is managed by the Krishna River Management Board.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
    "2 only",
-   "1 and 2 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "3 only",
+   "1 and 2 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: it is managed by the Tungabhadra Board.",
   "src": "app",
   "tq": "statements"
@@ -1144,12 +1144,12 @@
   "row": 14,
   "s": "Consider the following statements about water issues in Andhra Pradesh:\n1. Andhra Pradesh moved the Supreme Court in 2023 against Karnataka's Upper Bhadra project.\n2. The Catch the Rain campaign in Nandyal ran from 4 July to 4 August 2026 in all 489 Gram Panchayats.\n3. The CPCB will assess Godavari pollution after the next Godavari Pushkarams.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "2 only",
-   "3 only",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: CPCB will assess it before the Pushkarams; 260 model panchayats are under Viksit Bharat-Gram Gaurav.",
   "src": "app",
   "tq": "statements"
@@ -1159,8 +1159,8 @@
   "row": 14,
   "s": "Consider the following statements about the human-elephant conflict action plan:\n1. Andhra Pradesh gets ₹169.98 crore (17%), while Karnataka has the largest share.\n2. It was released at Visakhapatnam on World Elephant Day, 12 August.\n3. Elephants returned to AP from the Hosur-Dharmapuri forests in the 1990s.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
    "2 only",
+   "3 only",
    "1 and 2 only",
    "2 and 3 only"
   ],
@@ -1174,7 +1174,7 @@
   "row": 14,
   "s": "Consider the following statements about elephants in Andhra Pradesh:\n1. They are concentrated in Chittoor, Tirupati and Annamayya; Koundinya Wildlife Sanctuary is a critical habitat.\n2. Kumki elephants are to come from Karnataka for Parvathipuram-Manyam.\n3. The State uses the Gaja Praja app.\n4. The Asian elephant (Elephas maximus) is India's National Heritage Animal.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 4 only",
+   "3 and 4 only",
    "1, 3 and 4 only",
    "2, 3 and 4 only",
    "1, 2, 3 and 4"
@@ -1185,14 +1185,14 @@
   "tq": "statements"
  },
  {
-  "id": "cpbaff6c97f959",
+  "id": "cpa9708d4a5e1d",
   "row": 14,
-  "s": "Match List I (District) with List II (Shoreline Management Plan finding):\nList I\na. Kakinada\nb. Vizianagaram\nc. Tirupati\nd. Srikakulam\nList II\ni. Kalingapatnam, Vamsadhara and Nagavali mouths\nii. Only 3.26% erosion, high accretion\niii. Pulicat Lake, Sriharikota stretch\niv. Worst erosion, 52.99%\nSelect the correct answer using the code given below:",
+  "s": "Match List I (District) with List II (Shoreline Management Plan finding):\nList I\na. Kakinada\nb. Vizianagaram\nc. Tirupati\nd. Srikakulam\nList II\ni. Kalingapatnam, Vamsadhara and Nagavali mouths\nii. Pulicat Lake, Sriharikota stretch\niii. Worst erosion, 52.99%\niv. Only 3.26% erosion, high accretion\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iv, b-iii, c-ii, d-i",
-   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-iv, c-i, d-ii",
    "a-ii, b-iv, c-iii, d-i",
-   "a-iv, b-ii, c-iii, d-i"
+   "a-iii, b-iv, c-ii, d-i"
   ],
   "a": 3,
   "x": "Correct pairs: Kakinada – Worst erosion, 52.99%; Vizianagaram – Only 3.26% erosion, high accretion; Tirupati – Pulicat Lake, Sriharikota stretch; Srikakulam – Kalingapatnam, Vamsadhara and Nagavali mouths.",
@@ -1219,12 +1219,12 @@
   "row": 14,
   "s": "Consider the following statements about news from Andhra Pradesh (mid-2026):\n1. The Union Cabinet approved a ₹1,299 crore General Pool Office Accommodation project of 23.2 lakh sq ft at Amaravati.\n2. Yogandhra-2026 aimed at 1 crore people, with the State launch at Lepakshi Temple.\n3. The RINL fire occurred in Blast Furnace-3.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "3 only",
    "1 and 2 only",
-   "2 and 3 only"
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: it was in the CCD section of Steel Melting Shop-2 (8 dead).",
   "src": "app",
   "tq": "statements"
@@ -1235,11 +1235,11 @@
   "s": "Consider the following statements about health and tourism plans:\n1. The 10 new PPP medical colleges from 2027-28 include Madanapalle and Markapuram.\n2. APTDC ruled out PPP for its solar-powered and electric boats.\n3. The APTDC board met aboard a caravan from Vijayawada to Suryalanka Beach, Bapatla.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "3 only",
    "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only"
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Correct: 1 and 3 only. Statement 2 is wrong: PPP was invited, not ruled out.",
   "src": "app",
   "tq": "statements"
@@ -1249,12 +1249,12 @@
   "row": 14,
   "s": "Consider the following statements about agriculture firsts in Andhra Pradesh:\n1. India's first non-GMO high-expansion popcorn maize hybrids were released by Vice-President C.P. Radhakrishnan at Musunuru, Eluru, with ICAR-IIMR.\n2. Maize is India's third food crop after rice and wheat.\n3. ANGRAU's Lam BG-II 2208 is a hybrid, so its seed cannot be reused.\nWhich of the statements given above is/are correct?",
   "o": [
+   "2 only",
+   "3 only",
    "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Correct: 1 and 2 only. Statement 3 is wrong: it is a straight variety, so its seed can be reused.",
   "src": "app",
   "tq": "statements"
