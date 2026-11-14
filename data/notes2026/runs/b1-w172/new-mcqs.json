@@ -34,12 +34,12 @@
   "row": 172,
   "s": "Match List-I (Viceroy) with List-II (Event / measure):\nList-I | List-II\na. Sir John Lawrence | i. Shimla declared the summer capital (1864)\nb. Elgin I | ii. Third Anglo-Burmese War (1885)\nc. Northbrook | iii. Wahabi movement\nd. Dufferin | iv. Income tax abolished\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii",
    "a-i, b-ii, c-iv, d-iii",
-   "a-i, b-iii, c-iv, d-ii",
-   "a-i, b-iv, c-ii, d-iii"
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Lawrence declared Shimla the summer capital in 1864; the Wahabi movement belongs to Elgin I (1862-63); Northbrook (1872-76) abolished income tax; the Third Anglo-Burmese War and annexation of Upper Burma came under Dufferin.",
   "src": "app",
   "tq": "match"
@@ -50,9 +50,9 @@
   "s": "Consider the following statements about Lord Canning (1856-62):\n1. He was the last Governor-General under the Company and the first Viceroy.\n2. Universities were established at Calcutta, Bombay and Madras in 1857 during his tenure.\n3. The Allahabad High Court was set up during his tenure.\n4. Under the Indian Councils Act, 1861 the Raja of Benaras, the Maharaja of Patiala and Sir Dinkar Rao were nominated to the Legislative Council.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
-   "All four",
    "Only two",
-   "Only three"
+   "Only three",
+   "All four"
   ],
   "a": 3,
   "x": "Three are correct. Statement 3 is wrong: the Allahabad High Court came in 1866, after Canning's term (1856-62).",
@@ -95,11 +95,11 @@
   "s": "Consider the following statements about the Factory Acts:\n1. The First Factory Act (1881), under Ripon, barred children below 7 years from factory work.\n2. The early nationalists (Moderates) strongly supported the Factory Acts of 1881 and 1891.\n3. The Second Factory Act (1891), under Lansdowne, limited women to 11 hours a day with a 1½-hour break.\nWhich of the statements given above is/are NOT correct?",
   "o": [
    "1 only",
-   "2 only",
    "3 only",
+   "2 only",
    "2 and 3 only"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Only 2 is NOT correct: the demand came from the Lancashire lobby and the early nationalists did not support the Acts of 1881 and 1891, fearing loss of Indian industry's edge. 1 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -110,11 +110,11 @@
   "s": "Consider the following statements about Lord Ripon (1880-84):\n1. He was sent to India by Gladstone's Liberal government.\n2. The Hunter Commission (1882) appointed by him examined irrigation.\n3. In 1882 the revenue heads were divided into imperial, provincial and divided heads.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1 and 3 only",
    "1 and 2 only",
-   "2 and 3 only",
-   "1 and 3 only"
+   "2 and 3 only"
   ],
-  "a": 3,
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: the Hunter Commission (1882) dealt with education; irrigation was the Scott-Moncrieff Commission (1901) under Curzon.",
   "src": "app",
   "tq": "statements"
@@ -140,9 +140,9 @@
   "s": "Consider the following statements about Lord Curzon's viceroyalty:\n1. The Partition of Bengal came into force on 16 October 1905.\n2. The Partition was annulled in 1911 after the Swadeshi / Vande Mataram agitation.\n3. The North-West Frontier Province was created in 1905.\n4. The Indian Universities Act was passed in 1904.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
-   "All four",
    "Only two",
-   "Only three"
+   "Only three",
+   "All four"
   ],
   "a": 1,
   "x": "Three are correct. Statement 3 is wrong: Curzon created the NWFP in 1901, not 1905.",
@@ -253,5 +253,200 @@
   "x": "A is false: Rand and Ayerst were killed in 1897 under Elgin II (1894-99). R is true: the Morley–Minto Reforms (1909) brought separate electorates.",
   "src": "app",
   "tq": "assertion"
+ },
+ {
+  "id": "cp38fd29bb66bb",
+  "row": 173,
+  "s": "Consider the following statements about the Company's affairs before the Regulating Act:\n1. The Diwani of Bengal, Bihar and Orissa was granted in 1765 by Shah Alam II.\n2. The Act of 1767 obliged the Company to pay the British treasury £400,000 a year.\n3. In 1767 the Company's dividend was capped at 12 per cent.\n4. The Select Committee of 1772 that inquired into Company affairs was headed by Burgoyne.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Three are correct. Statement 3 is wrong: the 1767 Act raised / capped the dividend at 10 per cent, not 12.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp62e0918fde62",
+  "row": 173,
+  "s": "With reference to the Regulating Act, 1773, consider the following statements:\n1. It made the Governor of Bengal the Governor-General of Bengal, the first being Warren Hastings.\n2. It subordinated the presidencies of Bombay and Madras to Bengal.\n3. The Supreme Court at Calcutta (1774) consisted of a Chief Justice and four other judges.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: the Supreme Court at Calcutta had 1 Chief Justice (Sir Elijah Impey) and 3 other judges.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp004b22860a87",
+  "row": 173,
+  "s": "Consider the following statements:\nAssertion (A): Warren Hastings was repeatedly outvoted in his Council under the Regulating Act, 1773.\nReason (R): The Act gave the Governor-General only a casting vote and no veto over the majority of his council of four.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: decisions were by majority of the council of four (Francis, Clavering, Monson, Barwell), the GG having only a casting vote, so Hastings was outvoted.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpc4a118e92cb9",
+  "row": 173,
+  "s": "Match List-I (Act) with List-II (Provision):\nList-I | List-II\na. Regulating Act, 1773 | i. Supreme Court at Calcutta\nb. Act of Settlement, 1781 | ii. Board of Control\nc. Pitt's India Act, 1784 | iii. Governor-General empowered to override his Council\nd. Act of 1786 | iv. Governor-General and Council exempted from the Supreme Court for official acts\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 0,
+  "x": "1773 – Supreme Court at Calcutta; 1781 (Act of Settlement) – GG, Council and servants exempted from the Supreme Court for official acts; 1784 – Board of Control; 1786 – GG could override his Council (to meet Cornwallis's conditions).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbe47a006c621",
+  "row": 173,
+  "s": "Consider the following statements about Pitt's India Act, 1784:\n1. It left political affairs with the Court of Directors and gave commercial affairs to the Board of Control.\n2. The Board of Control had six commissioners including the Chancellor of the Exchequer.\n3. The 'double government' it set up was ended by the Government of India Act, 1858.\n4. It reduced the Governor-General's council to three members.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only"
+  ],
+  "a": 3,
+  "x": "2, 3 and 4 are correct. 1 is wrong: it was the reverse – the Board of Control handled political affairs and the Court of Directors kept commercial affairs.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb85da811e253",
+  "row": 173,
+  "s": "Consider the following statements:\nAssertion (A): The Act of 1786 empowered the Governor-General to override his Council in special cases.\nReason (R): The Charter Act of 1793 extended the overriding power to all future Governors-General and the Governors of the presidencies.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true but R does not explain A: the 1786 Act was passed to meet Lord Cornwallis's conditions for taking office; the 1793 extension came later.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4131cf77e75e",
+  "row": 174,
+  "s": "Consider the following statements about the Charter Act of 1813:\n1. It ended the Company's monopoly of Indian trade, except in tea, opium and the China trade.\n2. It renewed the Company's charter for 40 years.\n3. It allowed missionaries to come to India, a cause pressed by Wilberforce and Charles Grant.\n4. It asserted the sovereignty of the British Crown over the Company's Indian territories.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "Three are correct. Statement 2 is wrong: the 1813 Act renewed the charter for 20 years.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpaafae24e3e66",
+  "row": 174,
+  "s": "Consider the following statements about the Charter Act of 1833:\n1. It made the Governor-General of Bengal the Governor-General of India, the first being Lord William Bentinck.\n2. Laws made by the Governor-General-in-Council under it continued to be called Regulations.\n3. It ended the Company's remaining monopoly in tea and the China trade, making it a purely administrative body.\n4. Its Section 87 said no Indian was to be barred from office by religion, birth, descent or colour.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "1 only",
+   "2 and 4 only",
+   "3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Only 2 is NOT correct: from 1833 the laws were called Acts (earlier they were Regulations). 1, 3 and 4 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp53aaa850bffc",
+  "row": 174,
+  "s": "Consider the following statements about the Law Member under the Charter Act of 1833:\n1. T.B. Macaulay was added to the Governor-General's Council as its fourth member, the Law Member.\n2. The Law Member's post is the origin of the Ministry of Law and Justice.\n3. The First Law Commission under Macaulay to codify Indian laws was set up in 1844.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the First Law Commission under Macaulay was set up in 1834 (functioning 1834-38).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp11bcb1dcaf44",
+  "row": 174,
+  "s": "Consider the following statements:\nAssertion (A): The Charter Act of 1833 is described as the final step towards centralisation in British India.\nReason (R): The Charter Act of 1833 created the first functioning Legislative Council with members from the provinces.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: it made the GG of India with exclusive law-making for all British India. R is false: the first functioning Legislative Council with provincial members came under the Charter Act of 1853.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4f71fb70e0bd",
+  "row": 174,
+  "s": "Consider the following statements about the Charter Act of 1853:\n1. It was the last Charter Act and renewed the Company's rule with no fixed term.\n2. It added six new legislative members, including the Chief Justice and members from Madras, Bombay, Bengal and Agra.\n3. It ended the Directors' patronage and introduced open competition for the civil services.\n4. The Macaulay Committee on the civil service that followed it was set up in 1858.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: the Macaulay Committee was appointed in 1854.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3b1bacdec722",
+  "row": 174,
+  "s": "Match List-I (Act) with List-II (Step in constitutional development):\nList-I | List-II\na. Regulating Act, 1773 | i. Bombay and Madras subordinated to Bengal\nb. Pitt's India Act, 1784 | ii. Legislative power restored to Bombay and Madras\nc. Charter Act, 1853 | iii. Legislative Council with provincial members\nd. Indian Councils Act, 1861 | iv. Board of Control\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "1773 subordinated the presidencies; 1784 created the Board of Control; 1853 set up a Legislative Council with provincial members; 1861 reversed centralisation by restoring legislative power to Bombay and Madras.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1d317e3b8392",
+  "row": 174,
+  "s": "Match List-I (Development) with List-II (Year):\nList-I | List-II\na. Fort William College set up by Wellesley | i. 1800\nb. Haileybury replaced Fort William College | ii. 1806\nc. Raja Ram Mohan Roy's demand for Indians in the services | iii. 1835\nd. Macaulay's Minute on Education | iv. 1832\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 1,
+  "x": "Fort William College – 1800; Haileybury – 1806; Raja Ram Mohan Roy's first demand for Indians in the services – 1832; Macaulay's Minute – 1835.",
+  "src": "app",
+  "tq": "match"
  }
 ]

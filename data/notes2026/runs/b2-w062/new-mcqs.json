@@ -20,11 +20,11 @@
   "s": "Consider the following statements:\n1. Gyanesh Kumar, CEC from February 2025, is the 25th Chief Election Commissioner of India.\n2. Gyanesh Kumar is the first CEC appointed under the 2023 Act and the first such CEC to face an Opposition removal motion.\n3. The Sukumar Sen Memorial Lecture of the ECI was first delivered by Pranab Mukherjee on 23 January 2020.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
-   "Only two",
+   "None",
    "All three",
-   "None"
+   "Only two"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Two are correct. 1 is wrong: Gyanesh Kumar is the 26th CEC (as of 2026). He is the first CEC appointed under the 2023 Act and the first such CEC to face an Opposition removal motion; the Sukumar Sen lecture, announced in the ECI's 70th year (2019), was first delivered by Pranab Mukherjee on 23 January 2020.",
   "src": "app",
   "tq": "statements"
@@ -36,26 +36,26 @@
   "o": [
    "Only one",
    "Only two",
-   "All four",
-   "Only three"
+   "Only three",
+   "All four"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Three are correct. 2 is wrong: the Selection Committee chaired by the PM may pick names outside the Search Committee's shortlist of five. The Search Committee is headed by the Law Minister with two Secretary-rank members, and Act 49 of 2023 replaced the 1991 Act.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp2d3ebc5669a8",
+  "id": "cpe0d8d1df132f",
   "row": 62,
-  "s": "Consider the following statements:\nAssertion (A): The Selection Committee under the 2023 Act has been criticised for giving the government a 2:1 majority.\nReason (R): The 2023 Act replaced the Chief Justice of India on the panel laid down in Anoop Baranwal (2023) with a Union Cabinet Minister nominated by the Prime Minister.\nSelect the correct answer using the codes given below:",
+  "s": "Consider the following statements:\nAssertion (A): Unlike the interim panel laid down in Anoop Baranwal (2023), the Selection Committee under the 2023 Act has no Chief Justice of India and is criticised for giving the government a 2:1 majority.\nReason (R): The 2023 Act replaced the earlier Act of 1991 on the CEC and ECs.\nSelect the correct answer using the codes given below:",
   "o": [
    "Both A and R are true, and R is the correct explanation of A",
    "Both A and R are true, but R is not the correct explanation of A",
    "A is true, but R is false",
    "A is false, but R is true"
   ],
-  "a": 0,
-  "x": "Both are true and R explains A. Anoop Baranwal's interim panel was PM + LoP + CJI; the 2023 Act put a Cabinet Minister nominated by the PM in place of the CJI, so two of the three members are from the government – hence the 2:1 criticism (challenged by ADR and in Jaya Thakur v. Union of India).",
+  "a": 1,
+  "x": "Both are true, but R does not explain A. Anoop Baranwal's interim panel was PM + LoP + CJI; the 2023 Act put a Union Cabinet Minister nominated by the PM in place of the CJI, giving the government two of three members – the reason for the 2:1 criticism (challenged by ADR and in Jaya Thakur v. Union of India). That the Act replaced the 1991 Act is true but irrelevant to the composition.",
   "src": "app",
   "tq": "assertion"
  },
@@ -64,12 +64,12 @@
   "row": 62,
   "s": "Consider the following statements:\n1. The CEC and Other ECs Act, 2023 has been challenged before the Supreme Court in Jaya Thakur v. Union of India.\n2. The Tarkunde Committee (1974-75) on electoral reforms was an official committee appointed by the Government of India.\n3. Under the 2023 Act, an Election Commissioner holds office for six years or till the age of 65, whichever is earlier, and cannot be reappointed.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
    "1 and 3 only",
+   "1 and 2 only",
    "2 and 3 only",
-   "1 and 2 only"
+   "1 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: the Tarkunde Committee was unofficial, set up by Jayaprakash Narayan. The term is 6 years or age 65, whichever is earlier, with no reappointment (2023 Act s.9).",
   "src": "app",
   "tq": "statements"
@@ -79,12 +79,12 @@
   "row": 62,
   "s": "Match List-I (Office) with List-II (Mode of removal):\nList-I | List-II\na. Chief Election Commissioner | i. In like manner as a High Court judge (Art. 243K(2))\nb. Election Commissioner | ii. In like manner and on like grounds as a Supreme Court judge\nc. State Election Commissioner | iii. By the President on the recommendation of the CEC\nd. Chief Electoral Officer of a State | iv. By the Election Commission of India\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-i, d-iii",
    "a-i, b-iii, c-ii, d-iv",
    "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
    "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 2,
+  "a": 1,
   "x": "CEC – like an SC judge (address of both Houses by special majority); Election Commissioner (and Regional Commissioner) – by the President on the CEC's recommendation; State Election Commissioner – like a High Court judge, Art. 243K(2); Chief Electoral Officer – removed by the ECI.",
   "src": "app",
   "tq": "match"
