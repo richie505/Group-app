@@ -135,7 +135,7 @@
 | E20 petrol mandatory (min RON 95) | 1 April 2026 |
 | BIS **IS 19850:2026** (E22–E30) | May 2026 |
 | Next goal **E30** | 2030 |
-- OMC ethanol prices: **maize > molasses > rice**; maize expansion pulled area from **pulses** and oilseeds.
+- EBP is run by **MoPNG**; OMC ethanol prices: **maize > molasses > rice**; maize expansion pulled area from **pulses** and oilseeds.
 ~~ Sources: NextGen S&T Group 2 Part 5 p.30-33; app notes 5:67 sub 4, sub 5
 
 === Bioenergy Schemes and the Andhra Pradesh Angle
