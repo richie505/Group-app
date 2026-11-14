@@ -480,3 +480,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y0e98df556d8 AP Green Hydrogen Policy 2023: printed key a (II and III) kept with dispute; only II verified (I false: 0.5 MTPA; IV false). Owner: if flat error, add "II only".
 - y2f55a25fbb5 elements on Earth: 250 → about 100 (118 known, 94 natural).
 - Printed-key-only: Kakinada first biodiesel plant, Apollondine car, NIIST cotton-stalk ethanol.
+
+## b5-r069 (Energy storage, efficiency, access, AP renewables)
+- y069607deebb flashcard -180°C → -18°C (printed slip).
+- Outdated y9dfb9ed15bd AP SC/ST free power 75 units (now 200).
+- Disputes: SEEPI 2018 top state (Kerala vs AP); RAS 2013 LED/CFL A-R; optical fibre source.
+- Printed-key-only: earth resistance 8 Ω, "70% on 30% land", milk share 18.5%, Aadarana-2, ANGAN NEERMAN, Chandrayaan antenna weight, AP rural LED firsts. UPSC 2025 Surya Ghar keyed from PYQ explanation only.
