@@ -4,12 +4,12 @@
   "row": 16,
   "s": "Match List-I (AI tool) with List-II (Developer):\nList-I | List-II\na. Krutrim | i. Consortium of IITs led by IIT Bombay\nb. OpenHathi | ii. Ola\nc. BharatGPT | iii. Sarvam AI\nd. Cortana | iv. Microsoft\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
    "a-i, b-iii, c-ii, d-iv",
-   "a-ii, b-iii, c-i, d-iv",
-   "a-i, b-iii, c-iv, d-ii"
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Krutrim – Ola (Bhavish Aggarwal); OpenHathi – Sarvam AI; BharatGPT – consortium of IITs led by IIT Bombay, backed by Reliance Jio; Cortana – Microsoft's virtual assistant.",
   "src": "app",
   "tq": "match"
@@ -20,11 +20,11 @@
   "s": "Consider the following statements about AI tools:\n1. ChatGPT was launched on 30 November 2022 by OpenAI, whose CEO is Sam Altman.\n2. Siri belongs to Apple and Alexa to Amazon.\n3. Maharaja, Air India's Generative-AI virtual agent, runs on Google Cloud's Vertex AI.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1, 2 and 3",
    "2 and 3 only",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1 and 2 are correct. 3 is wrong: Maharaja (2023) runs on Microsoft Azure OpenAI; Air India was the first airline to deploy such an agent.",
   "src": "app",
   "tq": "statements"
@@ -35,11 +35,11 @@
   "s": "Consider the following statements about Bhashini:\n1. It was launched by MeitY in July 2022 under the National Language Translation Mission.\n2. It supports all 22 scheduled languages.\n3. Language data contributions to it are crowd-sourced through 'Bhasha Sangam'.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1, 2 and 3",
    "2 and 3 only",
-   "1 and 2 only",
-   "1, 2 and 3"
+   "1 and 2 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1 and 2 are correct. 3 is wrong: crowd-sourcing of language data for Bhashini is done through Bhasha Daan, not Bhasha Sangam.",
   "src": "app",
   "tq": "statements"
@@ -49,12 +49,12 @@
   "row": 16,
   "s": "Consider the following statements:\n1. The term 'artificial intelligence' was coined for the Dartmouth workshop of 1956.\n2. Alan Turing proposed his test in the 1950 paper 'Computing Machinery and Intelligence'.\n3. The Turing test was first called 'the thinking machine game'.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
+   "1 and 2 only",
    "2 and 3 only",
    "1 only",
-   "1 and 2 only"
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 0,
   "x": "1 and 2 are correct (Dartmouth 1956, proposed in 1955 by McCarthy, Minsky, Rochester and Shannon; Turing 1950). 3 is wrong: the Turing test was first called 'the imitation game'.",
   "src": "app",
   "tq": "statements"
@@ -184,12 +184,12 @@
   "row": 16,
   "s": "Match List-I with List-II:\nList-I | List-II\na. AICTE | i. Beijing\nb. YUVAi | ii. Students of classes 8–12\nc. Central Sanskrit University | iii. Declared 2025 the 'Year of AI'\nd. 2nd International Olympiad in AI (2025) | iv. B.Tech in AI and data science from 2026-27\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iii, b-ii, c-iv, d-i",
-   "a-i, b-ii, c-iv, d-iii",
    "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
    "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "AICTE declared 2025 the Year of AI; YUVAi is for classes 8–12; Central Sanskrit University offers a B.Tech in AI and data science from 2026-27; the 2nd IOAI (Aug 2025) was in Beijing (the 1st was at Burgas, Bulgaria).",
   "src": "app",
   "tq": "match"
@@ -229,12 +229,12 @@
   "row": 16,
   "s": "Consider the following statements:\n1. India's gross expenditure on R&D is about 0.64–0.70% of GDP.\n2. The Economic Survey 2025-26 recommends that India build large general-purpose frontier models to compete globally.\n3. In August 2026 the Supreme Court sought the Centre's reply on the absence of a legal framework for high-risk AI in welfare delivery.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
+   "1, 2 and 3",
    "2 only",
-   "1 and 3 only",
-   "1, 2 and 3"
+   "1 and 2 only",
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the Survey prefers small, application-specific models and a state-built AI-OS modelled on UPI and Aadhaar.",
   "src": "app",
   "tq": "statements"
@@ -260,12 +260,222 @@
   "s": "Consider the following statements:\n1. The Global Partnership on AI (GPAI) was launched in June 2020 with India as a founding member.\n2. The EU AI Act, the world's first comprehensive AI law, entered into force in August 2024.\n3. The risk tiers of the EU AI Act include a 'moderate risk' tier.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "2 and 3 only",
    "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: the EU AI Act's tiers are unacceptable, high, limited and minimal – there is no 'moderate' tier.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp77933505ecf8",
+  "row": 17,
+  "s": "Consider the following statements about Indian AI initiatives:\n1. BharatGen is India's first multimodal LLM project in Indian languages.\n2. BharatGPT is a consortium of IITs led by IIT Madras and backed by Tata Group.\n3. The AI sowing app piloted in Kurnool in 2016 was developed by Microsoft with ICRISAT.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: BharatGPT is a consortium of IITs led by IIT Bombay and backed by Reliance Jio.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8db57df87493",
+  "row": 17,
+  "s": "Match List-I (Lab / platform) with List-II (Description):\nList-I | List-II\na. CAIR | i. DRDO laboratory for AI and robotics, Bengaluru\nb. DYSL-Smart Materials | ii. DRDO Young Scientist Lab in Hyderabad\nc. MATH | iii. AIIMS Delhi–C-DAC platform for early detection of breast and ovarian cancer\nd. iOncology.ai | iv. AI/ML hub of DST and the Telangana government with T-Hub\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 3,
+  "x": "CAIR – DRDO lab for AI and robotics, Bengaluru; DYSL-Smart Materials – DRDO, Hyderabad; MATH – DST + Telangana government with T-Hub; iOncology.ai – AIIMS Delhi with C-DAC (not CAIR).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2dfcd1c6651e",
+  "row": 17,
+  "s": "Match List-I (Quantum term) with List-II (Meaning):\nList-I | List-II\na. Entanglement | i. Can break public-key cryptography\nb. Decoherence | ii. Links qubits' states regardless of distance\nc. Shor's algorithm | iii. Loss of quantum state to the environment\nd. Superposition | iv. Being in multiple states at once until measured\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-i, d-iv",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "Entanglement links qubits' states regardless of distance; decoherence is loss of quantum state to the environment (the main barrier); Shor's algorithm can break public-key cryptography (Q-Day = when it becomes able to); superposition – multiple states at once until measured.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp31aff15345b9",
+  "row": 17,
+  "s": "Consider the following statements:\n1. Google's Sycamore demonstrated quantum supremacy in 2019 by doing a set task in about 200 seconds.\n2. Jiuzhang (2020) is Japan's photonic quantum supremacy machine.\n3. Pratyush at IITM Pune was India's fastest supercomputer as of March 2018.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: Jiuzhang is China's photonic supremacy machine; Japan's Fugaku was the world's fastest supercomputer in 2020-21.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdc44b801c1ff",
+  "row": 17,
+  "s": "Consider the following statements:\n1. The National Quantum Mission has an outlay of ₹6,003.65 crore for 2023-24 to 2030-31.\n2. Quantum biology is one of the four thematic hubs of the National Quantum Mission.\n3. The Raman Research Institute showed that a timed local 'quantum flip' can delay entanglement sudden death.\n4. Google's Majorana 2 raised qubit stability to 20–60 seconds in 2026.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: the four hubs are computing, communication, sensing & metrology, and materials & devices. 4 is wrong: Majorana 2 is Microsoft's.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp883d8e143a02",
+  "row": 17,
+  "s": "Consider the following statements:\nAssertion (A): The Turing test checks whether a machine's replies can be told apart from a human's.\nReason (R): The Turing test was proposed by John McCarthy at the Dartmouth workshop of 1956.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: Alan Turing proposed the test (originally 'the Imitation Game') in 1950 in 'Computing Machinery and Intelligence'; John McCarthy coined the term 'AI' for Dartmouth in 1956.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp5fdfdcddac87",
+  "row": 17,
+  "s": "Match List-I (Innovation) with List-II (Developer):\nList-I | List-II\na. Carbon-nanotube transistors | i. C-DAC\nb. Graphene flexible electronics | ii. IISc Bengaluru\nc. Perovskite nanocrystal displays | iii. IIT Delhi\nd. Biodegradable nanoparticles for colorectal cancer | iv. IIT Mandi\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "Carbon-nanotube transistors – IISc Bengaluru; graphene flexible electronics – C-DAC; perovskite nanocrystal displays and conductive nanofibres – IIT Delhi; biodegradable natural-polymer nanoparticles for colorectal cancer – IIT Mandi.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpacd3f97d4fa4",
+  "row": 17,
+  "s": "Consider the following statements:\n1. Graphene is a one-atom-thick sheet of carbon, linked to the 2010 Nobel Prize.\n2. Fullerene C60 is commonly called the buckyball.\n3. Titanium is called the 'metal of the future'.\n4. Bhabha Kavach, India's lightest bulletproof jacket, was developed with DRDO's Kevlar technology.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "1, 2 and 3 are correct. 4 is wrong: Bhabha Kavach (July 2019) uses BARC technology – hence the name.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2be15731bd4b",
+  "row": 17,
+  "s": "Consider the following statements:\nAssertion (A): 4D printing differs from 3D printing in that the printed object changes shape over time.\nReason (R): In 3D printing (additive manufacturing) an object is built layer by layer from a CAD model.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R only describes how 3D printing works; it does not explain why a 4D-printed object changes shape over time.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp0c5da1b81b0f",
+  "row": 17,
+  "s": "Match List-I (Robot / drone) with List-II (Purpose):\nList-I | List-II\na. Bandicoot | i. Half-humanoid for uncrewed Gaganyaan\nb. Vyommitra | ii. Defuses IEDs\nc. Daksh | iii. Drone creating a Wi-Fi zone in disaster areas\nd. Bhim | iv. Sewer and manhole cleaning\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 3,
+  "x": "Bandicoot (Genrobotics, Kerala) – sewer/manhole cleaning; Vyommitra (ISRO) – half-humanoid for uncrewed Gaganyaan; Daksh (DRDO) – defuses IEDs; Bhim (IIT Kharagpur, 2017) – drone with a ~1 km Wi-Fi zone for disaster areas.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpfda312f8a054",
+  "row": 17,
+  "s": "Consider the following statements:\n1. Defence manufacturing is not among the focus sectors of NITI Aayog's #AIforAll strategy.\n2. The IndiaAI Mission (MeitY, March 2024) has an outlay of ₹10,371.92 crore, and its Innovation Centre builds foundation models.\n3. AIRAWAT was ranked 57th in the Top500 list of 2023.\n4. The NIELIT Quantum and AI campus is coming up at Tirupati.\nHow many of the above statements are correct?",
+  "o": [
+   "Only two",
+   "Only one",
+   "Only three",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: AIRAWAT was 75th. 4 is wrong: the NIELIT campus (₹730.70 crore) is at Amaravati.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp17918ed3b72c",
+  "row": 17,
+  "s": "Consider the following statements about global AI summits:\n1. The REAIM summit of 2023 in the Netherlands dealt with responsible AI in the military domain.\n2. The AI Seoul Summit was held in 2023.\n3. The AI Action Summit (Paris, February 2025) was co-chaired by France and India.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
    "2 and 3 only",
    "1, 2 and 3"
   ],
   "a": 1,
-  "x": "1 and 2 are correct. 3 is wrong: the EU AI Act's tiers are unacceptable, high, limited and minimal – there is no 'moderate' tier.",
+  "x": "1 and 3 are correct. 2 is wrong: the AI Seoul Summit was in 2024; 2023 was the AI Safety Summit at Bletchley Park.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7f49cec697b9",
+  "row": 17,
+  "s": "Match List-I (AI term) with List-II (Feature):\nList-I | List-II\na. Deep learning | i. Creates new text, images and music\nb. FPGAs | ii. Used to make deepfakes\nc. Generative AI | iii. Chips reprogrammable for custom AI acceleration\nd. Generative adversarial networks | iv. Subset of ML using many-layered neural networks\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "Deep learning – many-layered neural networks; FPGAs – reprogrammable chips; generative AI – creates text, images and music; GANs – used to make deepfakes.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1b997102797d",
+  "row": 17,
+  "s": "Consider the following statements about indigenous processors:\n1. The VEGA processors (32/64-bit RISC-V) were developed by C-DAC.\n2. MeitY launched the Digital India RISC-V (DIR-V) programme in 2020.\n3. The main processor lines of DIR-V are SHAKTI and VEGA.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: DIR-V was launched by MeitY in 2022.",
   "src": "app",
   "tq": "statements"
  }

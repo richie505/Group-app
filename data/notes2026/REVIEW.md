@@ -942,3 +942,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b3-w013 rewrite (rows 13-19): own 423 → 152 (36%), 0 lost. Notes row 14 3:0.9 'welfare approach' credited to Pigou — doubtful.
 - b4-w011 rewrite (rows 11-15): own 395 → 138 (35%), 0 lost. Notes row 14 5:1.4 geostationary in exosphere (UKPSC key wording).
 - b1-w030 rewrite (rows 30-35): own 407 → 147 (36%). Notes row 30 1:3 Sanchi 'most ancient stupa' vs Piprahwa earlier.
+- b2-w009 rewrite (polity rows 9-13): own 393 → 134 (34%), 0 lost.
