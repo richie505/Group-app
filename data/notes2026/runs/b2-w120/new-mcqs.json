@@ -5,11 +5,11 @@
   "s": "Consider the following statements about the three-capitals plan of Andhra Pradesh:\n1. Visakhapatnam was proposed as the executive capital.\n2. The framework consisted of the AP Decentralisation and Inclusive Development of All Regions Act, 2020 and the APCRDA (Repeal) Act, 2020.\n3. Both Acts were withdrawn in 2023 after the Chief Minister declared Visakhapatnam the capital.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "2 and 3 only",
    "1 and 2 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1 and 2 are correct. 3 is wrong: the Repeal Bill was introduced in November 2021 and both Acts were withdrawn in 2021; the declaration of Visakhapatnam as capital came later, on 31 Jan 2023.",
   "src": "app",
   "tq": "statements"
@@ -20,11 +20,11 @@
   "s": "Consider the following statements:\n1. In 2026 the Lok Sabha passed the AP Reorganisation (Amendment) Bill, 2026, declaring Amaravati the sole capital of Andhra Pradesh.\n2. Kalyana Karnataka has a special provision under Article 371J since 2013.\n3. In January 2026 the coalition government committed to finishing Amaravati in five years.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 2 are correct. 3 is wrong: the commitment (Jan 2026) was to finish Amaravati in three years, not five.",
   "src": "app",
   "tq": "statements"
@@ -65,11 +65,11 @@
   "s": "Consider the following statements about the AP Reorganisation Act, 2014:\n1. Hyderabad was made the common capital of the two States for up to 10 years.\n2. Section 94 of the Act provides the backward-areas package.\n3. The backward-areas package covers 7 districts – 4 of Rayalaseema and 3 of North Andhra – with ₹50 crore per district per year.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
-   "None",
+   "Only two",
    "All three",
-   "Only two"
+   "None"
   ],
-  "a": 3,
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: the backward-areas package is under Sec. 46(2)-(3); Sec. 94 provides tax incentives.",
   "src": "app",
   "tq": "statements"
@@ -95,11 +95,11 @@
   "s": "Consider the following statements:\n1. The Jai Andhra movement (1972) was a reaction to the Supreme Court upholding the Mulki rules.\n2. The Jai Andhra movement started in Coastal Andhra and Rayalaseema.\n3. The Six Point Formula (1973) was implemented through the 32nd Amendment, which inserted Articles 371D and 371E and created the Regional Committee under Article 371(1).\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1, 2 and 3",
    "2 and 3 only",
-   "1 and 2 only",
-   "1, 2 and 3"
+   "1 and 2 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1 and 2 are correct. 3 is wrong: the 32nd Amendment (after the Six Point Formula of 21 Sept 1973) inserted Articles 371D and 371E but ended the Regional Committee under Art. 371(1); it did not create it.",
   "src": "app",
   "tq": "statements"
@@ -184,9 +184,9 @@
   "row": 121,
   "s": "Consider the following statements about National Youth Policies:\n1. India's first National Youth Policy was adopted in 1988.\n2. The National Youth Policy 2014 defines youth as persons aged 15-29 years.\n3. The National Youth Policy 2003 covered persons aged 13-35 years.\n4. The National Youth Policy 2014 sets out 11 objectives and 5 priority areas.\nHow many of the above statements are correct?",
   "o": [
-   "Only one",
-   "Only two",
    "Only three",
+   "Only two",
+   "Only one",
    "All four"
   ],
   "a": 0,
@@ -274,9 +274,9 @@
   "row": 121,
   "s": "Consider the following statements:\n1. The AASU movement (1979-85) against illegal migrants ended with the Assam Accord of 15 August 1985.\n2. The Anti-Mandal movement (1990) opposed 27% reservation for OBCs.\n3. Chief Minister Chimanbhai Patel resigned in February 1974 following the Nav Nirman movement.\n4. The JP movement fed into the Emergency declared in June 1977.\nHow many of the above statements are correct?",
   "o": [
-   "Only one",
-   "Only two",
    "Only three",
+   "Only two",
+   "Only one",
    "All four"
   ],
   "a": 2,
@@ -364,12 +364,12 @@
   "row": 121,
   "s": "Consider the following statements about youth agitations:\n1. A protest demanding the postponement of an examination is a persuasive agitation.\n2. A protest against attendance rules is a revolutionary agitation.\n3. The life cycle of an agitation begins with discontent, followed by initiation.\n4. A revolutionary agitation aims to overthrow the system, e.g. AASU and Bodo.\nHow many of the above statements are correct?",
   "o": [
-   "Only one",
-   "Only two",
    "Only three",
+   "Only two",
+   "Only one",
    "All four"
   ],
-  "a": 0,
+  "a": 2,
   "x": "1, 3 and 4 are correct. 2 is wrong: a protest against attendance rules is a resistance agitation; revolutionary agitations seek to overthrow the system.",
   "src": "app",
   "tq": "statements"
@@ -394,13 +394,208 @@
   "row": 121,
   "s": "Consider the following statements about youth unemployment:\n1. In Andhra Pradesh (PLFS 2023-24), youth unemployment was 17.5%, above the national rate.\n2. In Andhra Pradesh, rural youth unemployment was higher than urban youth unemployment.\n3. As per the ILO (2026), global youth unemployment is 12.4%.\n4. As per MoSPI 2022, youth unemployment was 13.0% for males and 12.5% for females.\nHow many of the above statements are correct?",
   "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 3 and 4 are correct. 2 is wrong: in AP urban youth unemployment (22.7%; urban females 29.1%) was higher than rural (15.5%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp55ae7897d0d7",
+  "row": 122,
+  "s": "Match List-I (Durkheim's type of suicide) with List-II (Cause):\nList-I | List-II\na. Egoistic | i. Too much regulation\nb. Altruistic | ii. Too much integration\nc. Anomic | iii. Too little integration\nd. Fatalistic | iv. Too little regulation\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "Egoistic – too little integration (isolated individual); altruistic – too much integration (sati, hara-kiri); anomic – too little regulation (economic crash, normlessness); fatalistic – too much regulation (slaves).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpee40d6b71c12",
+  "row": 122,
+  "s": "Consider the following statements:\n1. Durkheim's Le Suicide was published in 1897.\n2. As per NCRB's ADSI 2015, farming-related issues were the leading cause of farmer suicides, followed by bankruptcy or indebtedness.\n3. As per ADSI 2024, Maharashtra recorded the highest number of suicides, followed by Tamil Nadu.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: bankruptcy/indebtedness was first (38.7%) and farming-related issues second (19.5%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf1b58fc9f4ca",
+  "row": 122,
+  "s": "Consider the following statements about attempted suicide in law:\n1. In P. Rathinam (1994) the Supreme Court held Section 309 IPC invalid, a view later overruled in Gian Kaur (1996).\n2. Section 309 IPC punished an attempt to commit suicide with simple imprisonment up to one year and/or fine.\n3. The Law Commission in its 210th Report recommended retaining Section 309 IPC.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the 210th Report recommended deleting Section 309.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa6be8ad8473b",
+  "row": 122,
+  "s": "Consider the following statements:\nAssertion (A): Under the Bharatiya Nyaya Sanhita, 2023, attempt to suicide remains a general offence.\nReason (R): Section 115 of the Mental Healthcare Act, 2017 presumes severe stress in a person who attempts suicide and bars trial and punishment.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the BNS (in force 1 July 2024) has no general attempted-suicide offence; Sec. 226 covers only an attempt to suicide to coerce a public servant. R is true: MHCA 2017 Sec. 115 presumes severe stress and the State must provide care.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6c46230c7098",
+  "row": 122,
+  "s": "Consider the following statements about human trafficking:\n1. The UNODC regards India only as a high-origin country, not a destination country.\n2. The Immoral Traffic (Prevention) Act was enacted in 1956 as SITA and renamed in 1986.\n3. As per NCRB's Crime in India 2020, there were 696 Anti Human Trafficking Units across States/UTs.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: the UNODC regards India as both a high-origin and a high-destination country.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp04c55e1531ef",
+  "row": 122,
+  "s": "Match List-I (Law / decision) with List-II (Position on begging):\nList-I | List-II\na. Bombay Prevention of Begging Act, 1959 | i. Decriminalised begging in Delhi\nb. Delhi High Court (2018, Harsh Mander) | ii. Refused to ban begging; a socio-economic problem\nc. Supreme Court (2021) | iii. Punitive model copied by many States\nd. SMILE (MoSJE, 2022) | iv. Comprehensive rehabilitation of persons engaged in begging\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Bombay Act 1959 – punitive model; Delhi HC 2018 – decriminalised begging; SC 2021 – refused a ban, calling begging a socio-economic problem; SMILE 2022 – rights-based rehabilitation ('Bhiksha Vritti Mukt Bharat').",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7300962dc6f2",
+  "row": 122,
+  "s": "Consider the following statements:\n1. Indore became the first officially beggar-free city in 2025.\n2. SMILE of the Ministry of Social Justice and Empowerment has a sub-scheme for comprehensive rehabilitation of persons engaged in begging.\n3. In the Census 2011 list of beggars and vagrants, Andhra Pradesh ranks second after West Bengal.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: Uttar Pradesh (65,835) is second after West Bengal (81,224); Andhra Pradesh (30,218) is third.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf209d86cca54",
+  "row": 122,
+  "s": "Consider the following statements:\n1. The Anti-Arrack Movement began in 1992 in Dubagunta village of Nellore district.\n2. It was led by Dubagunta Rosamma and neo-literate women of the literacy campaign.\n3. The Social Purity Association (1891), a temperance campaign, was founded by Kandukuri Veeresalingam.\n4. Article 47 directs the State to prohibit intoxicating drinks and drugs injurious to health except for medicinal purposes.\nHow many of the above statements are correct?",
+  "o": [
    "Only one",
    "Only two",
    "Only three",
    "All four"
   ],
   "a": 2,
-  "x": "1, 3 and 4 are correct. 2 is wrong: in AP urban youth unemployment (22.7%; urban females 29.1%) was higher than rural (15.5%).",
+  "x": "1, 2 and 4 are correct. 3 is wrong: the Social Purity Association (1891) was founded by R. Venkataratnam Naidu.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3ecaf7f05f98",
+  "row": 122,
+  "s": "Consider the following statements:\n1. India lies between the Golden Crescent and the Golden Triangle.\n2. The National Survey on Extent and Pattern of Substance Use (2019) was conducted by MoSJE with AIIMS-NDDTC.\n3. According to that survey, after alcohol the most-used substance was opioids, followed by cannabis.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: the order was alcohol (14.6%), cannabis (2.8%), then opioids (2.1%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpce0cd0af0cfc",
+  "row": 122,
+  "s": "Consider the following statements:\n1. Nasha Mukt Bharat Abhiyaan was launched by MoSJE on 15 August 2020, first in 272 districts.\n2. It is implemented by the National Institute of Social Defence, which functions under MoSJE.\n3. Nasha Mukt Yuva for Viksit Bharat is run by MoSJE through the NISD.\n4. The Kashi Declaration (July 2025) is associated with Nasha Mukt Yuva for Viksit Bharat.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 2 only",
+   "3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Nasha Mukt Yuva for Viksit Bharat (2026) is run by the Ministry of Youth Affairs and Sports via MY Bharat.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb7ba2dfe4a96",
+  "row": 122,
+  "s": "Consider the following statements:\nAssertion (A): Andhra Pradesh rehabilitates Jogin women through APSCCFC economic-support schemes.\nReason (R): The AP Devadasis (Prohibition of Dedication) Act was enacted in 2006.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: the AP Devadasis (Prohibition of Dedication) Act dates from 1988/89, not 2006.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe8004b187a40",
+  "row": 122,
+  "s": "Consider the following statements:\nAssertion (A): The approach to suicide, beggary and drug abuse has shifted from punishment towards health and rehabilitation.\nReason (R): The Mental Healthcare Act 2017, SMILE and Nasha Mukt Bharat Abhiyaan have taken the place of punitive tools like Sec. 309 IPC and begging laws.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: MHCA 2017, SMILE and NMBA embody the shift away from punishment (Sec. 309, begging laws) to health and rehabilitation.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp0df2d65daf52",
+  "row": 122,
+  "s": "Consider the following statements about Andhra Pradesh:\n1. Under GO 43, the ex gratia for the family of a farmer who dies by suicide is ₹5 lakh.\n2. Under the liquor policy 2024, retail sale went to private licensees chosen by lottery, with ₹99 for a 180 ml quarter.\n3. 'Dharya Sparsa – Operation Flush-Out' against drugs and illegal liquor was launched by the Chittoor Police.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the ex gratia under GO 43 is ₹7 lakh.",
   "src": "app",
   "tq": "statements"
  }

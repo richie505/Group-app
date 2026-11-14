@@ -1532,3 +1532,11 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w107 (rows 107–112)
 - own 383 → 53 kept + 81 new (134, 35%); new 49 statements / 24 match / 8 A–R; 3 of 255 lines lost. No wrong keys.
 - Doubtful notes (not used): 109:1:2 Nesfield first to use "untouchable"; 110:0:1 Justice Party as first caste association — verify.
+
+## rewrite b1-w262 (rows 262–265)
+- own 440 → 77 kept + 87 new (164, 37%); new 57 statements / 21 match / 9 A–R; 2 of 257 lines lost (Virasam Khammam meeting, Jhamjha).
+- Doubtful PYQs: y84030f8689c Kishanji killed "2012" (fact: 24 Nov 2011); y2df44133c2f keyed "Iron and Mines" (notes "Steel and Mines") — check.
+
+## rewrite b2-w113 (rows 113–119)
+- own 414 → 45 kept + 111 new (156, 38%); new 65 statements / 24 match / 20 A–R / 2 sequence; 9 of 287 lines lost (4th pairs of match items).
+- 114:2:3 Bogardus "change on the same status level" keyed as social mobility (APPSC Hostel Welfare key) — that is horizontal mobility; Disputed chip check.

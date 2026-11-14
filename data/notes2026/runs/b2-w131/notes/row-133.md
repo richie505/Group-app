@@ -1,0 +1,174 @@
+=== Constitutional Safeguards – the Article Map
+| Article | Provision |
+|---|---|
+| **15(4)** | Special provisions for advancement of SEBCs, SCs, STs – reserved seats in education, **scholarships**; first reservation clause, **1st Amendment 1951** |
+| 15(5) | Admission quotas incl. private institutions; **excludes minority** institutions |
+| 16(4) / 16(4A) / 16(4B) | Posts (original) / promotion (77th, 1995) / carry-forward of unfilled vacancies (81st, 2000) |
+| **17** | Untouchability abolished |
+| **46** (DPSP) | Promote **educational and economic interests** of SCs, STs, weaker sections; protect from social injustice |
+| **164(1) proviso** | Tribal Welfare Minister (may also hold SC/BC welfare) in **Chhattisgarh, Jharkhand, MP, Odisha** |
+| 243D / 243T | SC/ST seats and chairpersons in Panchayats / Municipalities |
+| 244(1) / 244(2) / 244A | Fifth Schedule / Sixth Schedule (**Assam, Meghalaya, Tripura, Mizoram**) / Autonomous State within Assam (22nd, 1969) |
+| **275(1)** | **Grants-in-aid** from the Centre for ST welfare and Scheduled Areas |
+| **330 / 332** | SC/ST seats in **Lok Sabha / State Assemblies** (none in Rajya Sabha) |
+| 331 / 333 | **Anglo-Indian** representation – not an SC/ST provision |
+| 334 | Time limit on seat reservation – now **2030** |
+| **335** | SC/ST claims to services, consistent with **efficiency of administration** |
+| **338 / 338A** | **NCSC / NCST** |
+| 339 | Union control of Scheduled Areas; 339(1) Commission on Scheduled Areas and ST welfare |
+| **341 / 342 / 342A** | Lists of SCs / STs / SEBCs |
+| **366(24) / 366(25)** | Definitions of **SCs / STs** |
+- **Part XVI (Arts 330-342A):** special provisions for SCs, STs, BCs, Anglo-Indians (APPSC: "330-342"). Part XV = Elections; Part XVII = Official Language.
+- **Art. 164 proviso:** the **94th Amendment (2006)** replaced **Bihar** with Chhattisgarh and Jharkhand; Punjab and UP are not covered.
+- **Scheduled Areas** are declared under **para 6 of the Fifth Schedule**, not Art. 339.
+| Group of safeguards | Articles |
+|---|---|
+| Political | **330, 332**, 243D/243T, 164(1) |
+| Social / educational | **15(4), 15(5)**, 17, 46 |
+| Economic / employment | **16(4), 16(4A)**, 335, **275(1)** (grants-in-aid = the economic safeguard for STs) |
+| Special for STs | **244**, Fifth/Sixth Schedules, 339 |
+- **Broad heads:** provisions for SCs are usually grouped under **five** heads – social, economic, educational and cultural, political, service (some books use 4 or 6).
+- **Policy aimed at education + economy:** **free education and scholarships** (not seat reservation, Art. 17 or special courts).
+- **Art. 325** bars exclusion from electoral rolls on caste etc. – it gives **no reservation**.
+> Trap: an option with **331** (Anglo-Indians) contains a non-SC/ST provision; 46 (not 15(4) or 17) is "specifically" the welfare Article.
+~~ Sources: Laxmikanth Part 2 p.339-343 (Table 77.1), p.104 (243D); PMF Human Geography Part 1 p.6-7 (ST safeguards: 15(4), 46, 275, 164(1), 330/332, 338A, 339(1)); app notes 2:133 sub 0
+
+=== Reserved Seats – Articles 330, 332, 334
+- Seats **in proportion to population**; **no separate electorate** – all voters of the constituency elect. **No SC/ST seats in the Rajya Sabha.**
+- **Original limit:** **10 years** (till 1960), extended by 10 years each time.
+| Amendment | Effect |
+|---|---|
+| 8th (1959) | To 1970 |
+| 23rd, 45th, 62nd, 79th | Further 10-year extensions (to 1980, 1990, 2000, 2010) |
+| **95th (2009)** | To **2020** |
+| **104th (2019)** | To **2030**; ended Anglo-Indian nomination (25 Jan 2020) |
+| 51st (1984) | ST Lok Sabha seats for Meghalaya, Nagaland, Arunachal, Mizoram |
+| 84th / 87th | Seats refixed on 1991 / 2001 Census |
+- **Why extended:** adequate representation of SCs/STs not yet achieved.
+- **Lok Sabha:** 79 SC / 41 ST (1971 Census) → **84 SC / 47 ST** (2008 delimitation).
+- **AP:** Lok Sabha **4 SC + 1 ST (Araku)** of 25; Assembly **29 SC + 7 ST** of 175. **Telangana:** Lok Sabha **3 SC + 2 ST** of 17.
+- **Panchayats:** SC reservation **does not apply to Arunachal Pradesh** (no SCs; 83rd Amendment 2000).
+- **131st Amendment Bill (Apr 2026)**: sought to amend 330, 332, 334A and enlarge Lok Sabha to **850** – **not passed**. **106th** = 334A women's reservation.
+> Trap: the APPSC 2017 answer "extended up to 2020" (95th) is now **2030** (104th).
+~~ Sources: Laxmikanth Part 1 p.330; Part 2 p.340-343 (note 3: 8th-104th), p.104 (Arunachal); app notes 2:133 sub 5
+
+=== Article 17, Untouchability and Its Removal
+- **Article 17:** "Untouchability" is **abolished**; its practice **in any form** forbidden; enforcing any disability from it is an **offence punishable in accordance with law**.
+- In the **Right to Equality** group; adopted with cries of "Mahatma Gandhi ki Jai"; **Ambedkar** ensured it became a punishable offence.
+- **Not defined** in the Constitution or any Act; **Mysore HC:** the practice as historically developed (social disabilities by birth in certain castes); excludes social boycott of a few individuals.
+- **Art. 35(a)(ii):** **only Parliament** prescribes punishment for Art. 17 offences.
+- **Horizontal:** binds **private persons** too (**PUDR v Union of India, 1982**).
+- Forms: temple-entry denial, separate wells, two-tumbler system, segregation, forced "polluting" work. **Seat reservation is protective, not untouchability.**
+- **Structural violence (Johan Galtung):** harm built into social structures.
+- **Removal:** by **laws, education and public awareness** – not by providing jobs (UPPCS 1992). State steps: fundamental rights, Art. 17, PCR 1955, PoA 1989 – **conversion is not a State step**.
+- **PoA Act 1989** gives effect to equality before law (14), non-discrimination (15) and Art. 17 – not freedom of religion.
+- **Sabarimala reference (Apr 2026):** Justice **B.V. Nagarathna** – Art. 17 cannot apply "for three days a month".
+- "Scheduled Castes": first used by the **Simon Commission**; GoI Act 1935; first list **1936**; first post-1950 list: **Constitution (SC) Order, 1950**.
+> Untouchability Act/PCR = **first law** enforcing Art. 17; Art. 23 = forced labour, Art. 18 = titles.
+~~ Sources: Laxmikanth Part 1 p.140-141; NextGen Polity APPSC p.195-196; Indian_Polity Part 1 p.93; app notes 2:133 sub 1, 3
+
+=== Manual Scavenging and Sanitation Workers
+- "The **worst surviving symbol** of untouchability".
+| Law / scheme | Key point |
+|---|---|
+| 1993 Act | Employment of Manual Scavengers and Construction of Dry Latrines (Prohibition) |
+| **Rashtriya Garima Abhiyan (2001)** | National Campaign for Dignity – **eradicate manual scavenging and rehabilitate** manual scavengers |
+| **2013 Act** (Prohibition of Employment as Manual Scavengers and their Rehabilitation) | Passed **2013**, in force **6 Dec 2013**; **insanitary latrines banned**; hazardous sewer/septic cleaning banned for anyone incl. **private contractors**; mechanisation, rehabilitation; does **not** legalise dry latrines |
+| SRMS (2007) | Self-Employment Scheme; NSKFDC (1997) nodal; **subsumed in NAMASTE** |
+| **NAMASTE (2023)** | MoSJE + **MoHUA**; **zero sanitation fatalities** |
+- 2013 Act offences **cognizable and non-bailable**; penalties: first breach **1 year / ₹50,000**; hazardous sewer cleaning **2 years / ₹2 lakh**. **NCSK** monitors.
+- **Sewer deaths:** Safai Karamchari Andolan v UOI (2014) **₹10 lakh** since 1993 → **Balram Singh (2023) ₹30 lakh**.
+- **Bandicoot:** manhole-cleaning **robot** by Kerala start-up **Genrobotics** (not Vyommitra, ISRO's humanoid).
+- **Safai Karmachari Andolan:** co-founded by **Bezwada Wilson** (Magsaysay 2016). Not Kailash Satyarthi (**Bachpan Bachao Andolan**, child labour) or Bindeshwar Pathak (Sulabh).
+- Economic bodies: **NSFDC** (BPL SCs), **NSKFDC** (sanitation workers), **PM-DAKSH** (skills).
+- Status (Aug 2026): **90,915** sewer/septic workers profiled; about **58,000** manual scavengers identified.
+~~ Sources: Rocket Indian Society p.39; app notes 2:133 sub 3, 2:134 sub 6
+
+=== Scheduled Caste Lists, Definitions and Population
+- **Art. 341:** the **President** specifies SCs for a State/UT (after consulting the **Governor**) by public notification; **Art. 341(2):** inclusion/exclusion **only by Parliament** by law – not by a later notification.
+- **States have no power:** SC (July 2024) quashed **Bihar's 2015** notification moving **Tanti-Tantwa** from EBC to SC.
+- **Art. 342:** ST lists; **ST status is religion-neutral**. **Chinthada Anand v State of AP (2026):** a **Christian convert** cannot claim SC status on earlier caste identity.
+- Count: about **1,206** SC castes after the 2007 amendment; **1,241** caste groups (Census 2011).
+- Adding castes is **Art. 341**, not 344 (Official Language Commission).
+| Data (Census 2011) | Figure |
+|---|---|
+| SCs in India | **20.14 crore = 16.6%** (2001: 16.2%) |
+| STs in India | **8.6%** (2001: 8.2%) |
+| SC + ST | about **25%** (1991 about 24.6%; 1981 about 23.5%) |
+| Largest SC population | **Uttar Pradesh** |
+| Highest SC share | **Punjab** |
+| AP SCs | **84.69 lakh = 17.08%**; SC literacy **64.47%** |
+~~ Sources: Laxmikanth Part 2 p.339; app notes 2:133 sub 4, 10
+
+=== Sub-classification and the Andhra Pradesh Angle
+- **Madiga Dandora (MRPS):** **1994**, **Manda Krishna Madiga**, Eedumudi (Prakasam); protest against alleged **Mala** dominance of the **15%** SC quota – demand: **sub-classification (A-B-C-D) of SCs**.
+- **Justice P. Ramachandra Raju Commission (1996):** A – Relli, B – Madiga, **C – Mala**, D – Adi-Andhra.
+- **AP SC (Rationalisation of Reservations) Act 2000:** AP **first to sub-categorise by statute**; struck in Chinnaiah.
+- **Usha Mehra Commission (2007-08):** amend Art. 341 to let States sub-categorise. **Telangana:** first to implement after Davinder Singh (April 2025).
+| Commission | Subject |
+|---|---|
+| K.G. Balakrishnan (2022) | SC status for Dalit converts |
+| Bhikhu Ramji Idate (2017) | DNTs, NTs, SNTs → **SEED** scheme |
+| Rajiv Gauba panel (2024) | Most backward SC sub-castes (not Tribal Affairs/ST status) |
+- **AP SC Cooperative Finance Corporation:** implements **rehabilitation of bonded labour** in AP; e-career guidance portal **'Youthway'** for SC youth.
+~~ Sources: app notes 2:133 sub 7; general knowledge (bonded labour, Youthway)
+
+=== NCSC, NCST and the AP Commission
+- **Original Art. 338:** a **Special Officer** (Commissioner for SCs and STs).
+- **1978** non-statutory Commission → **1990** constitutional joint **National Commission for SCs and STs (Art. 338)** → **89th (2003)** split: **NCSC (338) + NCST (338A)**; NCST from **19 Feb 2004**.
+- Chairperson + Vice-Chairperson + **3 members**; NCST Chair **Cabinet rank**; report to the **President**; civil-court powers.
+- **Art. 338(9):** Union and States must **consult NCSC** on major policy.
+- **AP State Commission for SCs and STs:** **2016**, by amending **Act 9 of 2003**; chairman K.S. Jawahar.
+~~ Sources: Laxmikanth Part 2 p.340; app notes 2:133 sub 8
+
+=== Services, Promotion and Key Cases
+- **Art. 335:** SC/ST claims considered consistently with **efficiency of administration**; the **82nd Amendment (2000)** proviso allows **relaxed qualifying marks** in promotion.
+- SC (Indra Sawhney, M. Nagaraj): reservation under **16(4) is limited by Art. 335** – but Art. 335 **does not define** "efficiency of administration" (UPSC 2023: I true, II false).
+| Amendment / case | Effect |
+|---|---|
+| 77th (1995) | 16(4A) – promotion quota (answer to Indra Sawhney) |
+| 81st (2000) | 16(4B) – carry-forward |
+| 82nd (2000) | Proviso to 335 – relaxed marks |
+| 85th (2001) | Consequential seniority, w.e.f. 17 June 1995 |
+| Indra Sawhney (1992) | 16(4) only at initial appointment; **50% ceiling** |
+| E.V. Chinnaiah v AP (2004) | SCs a single class; struck the AP Act 2000 |
+| M. Nagaraj (2006) | Upheld 77th-85th; quantifiable data needed |
+| Jarnail Singh (2018) | No backwardness data for SC/ST promotion; creamy layer applies |
+| Punjab v Davinder Singh (2024) | 7 judges, **6:1** – sub-classification allowed; overruled Chinnaiah |
+- Aug 2026: Centre **opposed an income-based creamy layer** in SC/ST quotas (needs a holistic empirical review).
+~~ Sources: Laxmikanth Part 2 p.340; app notes 2:133 sub 6
+
+=== Caste Atrocities – Causes, Incidents and Data
+- **National Commission for SCs and STs (1990) causes:** land disputes and alienation, **bonded labour**, **indebtedness**, non-payment of minimum wages – **not religious causes**.
+- Other factors: caste hierarchy, dominance, rising Dalit activism, political interference.
+- **NCRB 2017:** new head – forced to leave residence / **social boycott**.
+| Incident | Year | State |
+|---|---|---|
+| Karamchedu | 1985 | AP – sparked the independent Dalit movement |
+| Tsundur | 1991 | AP (Guntur) |
+| Khairlanji | 2006 | Maharashtra |
+| Hathras | 2020 | UP – SC entrusted monitoring to **Allahabad HC** |
+- Chronology: Poona Pact (1932) → Yeola (1935) → Karamchedu (1985) → Tsundur (1991).
+- **Crimes against SCs 2023:** 57,789; top **UP**, Rajasthan, MP.
+~~ Sources: app notes 2:133 sub 10
+
+=== Dalit Movements, Leaders and Literature
+| Movement | Year / place | Fact |
+|---|---|---|
+| Vaikom Satyagraha | 1924-25, Travancore | Temple roads; T.K. Madhavan, Keshava Menon |
+| Mahad (Chavdar Tank) | 20 March 1927 | Ambedkar; right to draw water from a public tank |
+| Manusmriti Dahan | 25 Dec 1927 | Ambedkar |
+| Kalaram Temple Entry | 1930, Nashik | Ambedkar |
+| Harijan Sevak Sangh | 1932 | Gandhi; paper *Harijan* (1933) |
+| Siddhantam Temple Entry | 1933, Krishna district | Early Andhra temple entry |
+| Adi-Andhra movement | 1910s-30s | Dalits as original inhabitants |
+- **Bhagya Reddy Varma:** **Jagan Mitra Mandali (1906)**, first Dalit body in Hyderabad State; called the Harijan Sevak Sangh **paternalistic**.
+| Work / paper | Author |
+|---|---|
+| Gabbilam (1941) | Gurram Jashuva – a bat can enter the temple, an untouchable cannot |
+| Annihilation of Caste (1936) | Ambedkar |
+| Gulamgiri (1873) | Jyotiba Phule |
+| Jatimimamsa | Sree Narayana Guru |
+| *Adi Andhra* / *Nava Jeevan* | Didla Pullaiah / Undru Subbarao |
+- **Ambedkar:** "I was born a Hindu, but I will not die a Hindu" (**Yeola, 1935**); legal-constitutional rights, annihilation of caste (not reform from within). **Gandhi:** coined 'Harijan'. **Periyar:** political freedom meaningless without social equality.
+~~ Sources: app notes 2:133 sub 9

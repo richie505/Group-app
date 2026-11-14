@@ -1,0 +1,108 @@
+=== Protection of Civil Rights Act 1955
+- **Enacted 1955** as the **Untouchability (Offences) Act** (8 May 1955; **in force 1 June 1955**) – first law enforcing **Art. 17**; renamed **Protection of Civil Rights Act** by Act 106 of **1976** (w.e.f. 19 Nov 1976); **Rules 1977**.
+- **Extent – s.1(2): "the whole of India"** (J&K never excluded).
+- **Civil right** = any right accruing from the abolition of untouchability by Art. 17. **"Untouchability" is not defined** – neither in Art. 17 nor in the Act.
+- Punishes the **preaching and practice of untouchability**: religious and social disabilities.
+| Section | Provision |
+|---|---|
+| 3 | Religious disabilities – entry/worship in public places of worship (incl. a **private temple allowed for public worship**) |
+| 4 | Social disabilities – shops, hotels, water sources, roads, jewellery and finery |
+| **5** | **Refusing admission to hospital, dispensary, educational institution, hostel** |
+| **6** | **Refusing to sell goods or render services** |
+| 7 | Other offences – insulting an SC member (7(1)(d)); **preaching or justifying** untouchability |
+| **7A** | Compelling scavenging, **removing carcasses**, flaying – deemed untouchability |
+| 10 | Abetment – a public servant wilfully neglecting investigation |
+| **10A** | **Collective fine** imposed by the **State Government** on inhabitants of an area |
+| **12** | Court **presumes** the untouchability ground when the victim is a **Scheduled Caste** member (not ST) |
+| **14** | **Offences by companies** – person in charge, and any **director, manager, secretary** or officer consenting |
+| **15** | **Cognizable**; triable summarily (except where minimum term exceeds 3 months) |
+| 15A | State duties – legal aid, special courts, committees, surveys of prone areas, annual report |
+| 16A | No probation above 14 years |
+- **First offence:** **1-6 months** and fine **₹100-500**. Offences are **non-compoundable** (the Act allows no compounding).
+- Not an offence when accused and victim belong to the **same social group** (no "ground of untouchability").
+- Convict is **disqualified** from elections to Parliament/State Legislatures (**s.8, RPA 1951** – for a fixed period, then may contest).
+- **Implementation:** States/UTs; nodal Centre – **Social Justice and Empowerment** with MHA. (NHRC is under the Protection of Human Rights Act 1993, not PCR.)
+- **Sukanya Shantha (2024):** Art. 17 bars caste-based **purity stigma**.
+> Trap: PCR **s.12** = presumption, **s.14** = companies, **s.10A** = collective fine; PCR in force **1955**, not 30 Jan 1990.
+~~ Sources: PCR Act 1955 as modified to 2015 (Govt of Maharashtra print, web) s.1-16B; Rocket Indian Society p.102 (sheet #50); Laxmikanth Part 1 p.141; NextGen Polity APPSC p.195; app notes 2:134 sub 0-1
+
+=== PoA Act 1989 – Enactment, Scope and Offences
+- **Act 33 of 1989**, assent **11 Sept 1989**; **in force 30 January 1990**; **23 sections**; Rules **1995**; amended **2015** (in force 26 Jan 2016) and **2018** (20 Aug 2018). J&K excluded until **2019**.
+- **Why:** the PCR Act 1955 and the IPC proved **inadequate** to check atrocities against SCs/STs.
+- **Long title (preamble):** prevent atrocities, set up **Special Courts**, and provide **relief and rehabilitation of victims**.
+- **Who:** offences by persons **"not being a member of a SC or ST"** – incl. government employees; not crimes among SCs/STs.
+| Provision | Punishment |
+|---|---|
+| s.3(1) atrocities (e.g. **dumping excreta, waste, carcasses** in premises; begar; land grab; witchcraft accusation) | **Not less than 6 months, up to 5 years**, and fine |
+| s.3(2)(i) false evidence to convict an SC/ST of a **capital offence** | **Life imprisonment** and fine (death if an innocent is executed) |
+| s.3(2)(vii) offence by a **public servant** | **Not less than 1 year** |
+| s.4 wilful neglect of duty by public servant | 6 months to 1 year |
+| s.5 subsequent conviction | Not less than 1 year |
+- **2015 additions to s.3(1):** tonsuring, **garlanding with footwear**, carcass disposal, manual scavenging, abuse by caste name, devadasi dedication, **witchcraft (zb)**, **social/economic boycott (zc)**, preventing entry to **educational institutions**, hospitals, places of worship.
+- **s.6:** applies IPC **s.34, Chapters III, IV (general exceptions – private defence), V, V-A, s.149, XXIII**. So the accused **can** plead private defence or that he belongs to the victim's caste.
+- **s.8 presumptions:** financial help → **abetment**; group offence from a land dispute → **common intention / common object**.
+> Trap: enacted **1989**, in force **1990**; PoA covers offences by **non-SC/ST** persons only.
+~~ Sources: PoA Act 1989 text (hrw.org Appendix B) s.1-8; PoA Amendment Bill 2014 (prsindia.org) s.3; Rocket Indian Society p.102; Indian_Polity Part 1 p.93-94; app notes 2:134 sub 0, 2
+
+=== PoA Act – Special Courts, Powers and Procedure
+| Section | Provision |
+|---|---|
+| **2(1)(bc)** | Defines **economic boycott** (2015) |
+| 7 | **Special Court forfeits** property of convict |
+| 9 | **State Government** may confer police powers on its officers |
+| 10 / 12 | Special Court may **remove a likely offender** from Scheduled/Tribal areas (up to 2 years); **measurements and photographs** |
+| **14** | **Special Court** – a **Court of Session** specified by the **State Government** with concurrence of the **HC Chief Justice**, for each district, **for speedy trial**; Exclusive Special Courts (2015) |
+| **14A** | **Appeal to High Court on facts and law** within **90 days** (incl. bail orders) |
+| 15 | Special Public Prosecutors (7 years' practice) |
+| **16** | **State Government** imposes and realises **collective fine** (applies PCR s.10A) |
+| 17 | Preventive action; atrocity-prone areas |
+| **18** | **Anticipatory bail barred** (CrPC 438, now BNSS 482) |
+| 18A | No preliminary enquiry or approval before arrest (2018) |
+| 19 | **No probation** |
+| 21 | State Government's duties (legal aid, rehabilitation, committees) |
+| **23** | **Central Government** makes rules (Rules 1995) |
+- The Special Court **cannot impose a collective fine** and cannot authorise a non-police person for further investigation. No Central/Presidential approval is needed to set it up.
+- Arms licences of potential offenders in prone areas can be cancelled; SC/ST persons may get licences. **No power to dissolve local authorities.**
+> PCR **s.14** = companies; PoA **s.14** = Special Courts; PoA **s.16** = collective fine (State Govt).
+~~ Sources: PoA Act 1989 text (hrw.org) s.7-23; PoA Amendment Bill 2014 (prsindia.org) s.2(1)(bc), s.14A; app notes 2:134 sub 2
+
+=== PoA Rules 1995 – Investigation and Monitoring
+- **Rule 7(1):** investigation by a police officer **not below Deputy Superintendent of Police (DSP)** – not an Inspector.
+- **Rule 7(2):** investigation within **30 days** (original) → now investigation and **charge-sheet within 60 days** (2015 Act s.4(2)(e); Rules amended 14 Apr 2016).
+| Rule | Body / item | Head |
+|---|---|---|
+| 16 | **State** Vigilance and Monitoring Committee | **Chief Minister** |
+| **17** | **District** Vigilance and Monitoring Committee | **Collector / District Magistrate** |
+| **18** | **Material for Annual Report** | State reports to Centre before 1 July |
+- **Relief:** **₹85,000 to ₹8.25 lakh** (2016 Rules).
+- **National Helpline 14566** (toll-free, 24/7, DoSJE) for PoA and PCR grievances.
+- Centre's task force (July 2026): higher relief, counselling, State relief cells; FIRs sent to authorities within **24 hours**.
+~~ Sources: PoA Rules 1995 (scstwelfare.delhi.gov.in) rules 7, 16-18; PoA Amendment Bill 2014 (prsindia.org) s.4(2)(e); app notes 2:134 sub 3
+
+=== PoA Amendment Act 2015 (in force 26 January 2016)
+- Assent **31 Dec 2015** (Act 1 of 2016); **in force 26 January 2016**.
+- **Five broad areas** (Minister Thaawarchand Gehlot): offences of atrocities (Chapter II), institutional strengthening, **appeals (new s.14A)**, **rights of victims and witnesses (new Chapter IVA)**, preventive measures.
+- **New atrocities:** tonsuring, **garlanding with footwear**, carcass disposal, manual scavenging, devadasi dedication, **abusing by caste name**, witchcraft; **social and economic boycott** defined and made atrocities.
+- **Exclusive Special Courts + Exclusive Special PPs**; courts take **direct cognizance**; trial **within two months (60 days)** of charge-sheet.
+- Court presumes the accused knew the victim's caste if acquainted with the victim or family.
+~~ Sources: web: taxheal.com Gehlot statement; vikaspedia (PRS summary); PoA Amendment Bill 2014 (prsindia.org); app notes 2:134 sub 4
+
+=== Dilution and Restoration – the 2018 Episode
+| Step | Fact |
+|---|---|
+| **Subhash Kashinath Mahajan v State of Maharashtra** (20 March 2018) | Seen as **diluting** the Act: preliminary enquiry by **DSP**, anticipatory bail if no prima facie case, prior approval before arrest of public servants |
+| **PoA Amendment Act 2018** (20 Aug 2018) | Inserted **s.18A**: no enquiry, no approval; bail bar restored |
+| Review (Oct 2019) | SC recalled the Mahajan directions |
+| Prithvi Raj Chauhan v UOI (Feb **2020**) | Upheld the 2018 amendment; quashing only where **no prima facie case** |
+| Kiran v Rajkumar Jivaraj Jain (2025) | Cancelled HC anticipatory bail; no "mini-trial" at bail stage |
+> The 2018 insertion is **Section 18A**, not "Section 4A".
+~~ Sources: Indian_Polity Part 1 p.94; Rocket Indian Society p.87, p.102; app notes 2:134 sub 5
+
+=== Enforcement Data and Andhra Pradesh
+- **NCRB 2024:** **55,698** crimes against SCs (-3.6% from 57,789 in 2023); against STs **-23.1%**. Top (2023): **UP**, Rajasthan, MP.
+- PoA conviction rate about **32-33%** (2022); pendency about 97%.
+- **AP:** **14 Special Sessions Courts** + **1 Exclusive Court (Laxmipet, Srikakulam)**.
+- **Atrocity-prone villages (MHA, July 2022):** AP **53** – **East Godavari 47**, Kadapa 5, Srikakulam 1.
+- **AP Devadasis (Prohibition of Dedication) Act 1988** (Act 10 of 1988): against the **Jogini** system; rehabilitation of **Jogin women**.
+- **Laws protecting disadvantaged groups:** PCR 1955, PoA 1989 and the AP Devadasis Act – all of them.
+~~ Sources: Rocket Indian Society p.39; web search: indiacode.nic.in record of AP Act 10 of 1988 (search result); app notes 2:134 sub 7
