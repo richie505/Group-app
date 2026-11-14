@@ -1441,3 +1441,14 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w093 (rows 93–95)
 - own 397 → 94 kept + 93 new (187, 47%); new 52 statements / 29 match / 12 A–R; 1 of 328 lines lost. No wrong keys.
 - Row 93 sub 2: Sikkim President's Police Colour source dated 28 May 2026, outside the sub's Dec 2025–Feb 2026 range — check placement.
+
+## rewrite b1-w239 (rows 239–245)
+- own 440 → 49 kept + 103 new (152, 35%); new 62 statements / 25 match / 16 A–R; no lines lost.
+- Doubtful notes skipped: Poona Pact 24 vs 25 Sep (239:3:4; signed 24 Sep 1932); Tenali death toll (242:1:0.0); first INA flag Moirang vs Kohima (243:1:6–7; Moirang 14 Apr 1944); Mangal Bharat → Vinoba "not verified" (240:4:6). 245:7:2 Vishnu Chinchalkar (Indore painter) used — correct.
+- Removed as not in notes: fbe30af3fb148 (Harijan Sevak Sangh president G.D. Birla), g8c59716b40ae (secretary Thakkar Bapa) — notes gap.
+
+## rewrite b2-w095 (rows 95–101)
+- own 426 → 48 kept + 104 new (152, 36%); new 60 statements / 29 match / 15 A–R; 1 of 280 lines lost.
+- gdf52fc987aef ("within two months"; notes + PYQ one month) removed.
+- PYQ ye90e5cce165 keys J.S. Sharma as TRAI chairman — correct at exam time, now outdated — ⚠ Outdated chip.
+- PYQ y19340e929af (CDSCO) unlinked, not in notes — notes gap. Mislinked own e.g. nindian-polity-65-5 (AG question → 98:4:3).
