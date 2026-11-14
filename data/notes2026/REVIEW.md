@@ -605,3 +605,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y8acf79d61eb coastline flashcard → 11,098.81 km (settled), outdated.
 - Disputes: CFLOWS-Chennai, NDMP May/June 2016, NDMA 2005/2006 ×2, IDNDR 1991–2000, EDRI 56% vs 59%, mitigation vs preparedness.
 - Unverified printed: SKOCH 2018 Odisha, cold-wave numbers, 18 response activities, Quake Safe, AP cyclone districts, UNISDR 15%, CRED 85%.
+
+## b5-r108 (Biotechnology)
+- ye3e5164a38f secondary groups: 3 → 0 "physical proximity". yc1be33ef4bb Khorana: add_option "Deciphering the genetic code".
+- Disputes: genetic code nearly universal; DNA fingerprinting 1983/1987; milk spoilage Lactobacillus vs Pseudomonas; cow lung lobes; amylase sources.
+- Review: yd1bcf5f5bf2 all statements true? y8488c1f501d / y1ae53538934 duplicate options; y9d28c939bc2 xylitol date 2022 not 2023.
