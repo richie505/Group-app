@@ -1,0 +1,371 @@
+=== UPSC at 100 – Centenary of the Public Service Commission
+# Why in news
+- **UPSC completed 100 years on 1 October 2026**; India's first Public Service Commission was constituted on **1 October 1926**.
+- First PSC set up at **Metcalfe House, Delhi**; UPSC HQ now at **Dholpur House, New Delhi**.
+# Evolution
+| Year | Milestone |
+|---|---|
+| 1855 | ICS exam introduced in London (replacing the EIC nomination system) |
+| 1863 / 1864 | Satyendranath Tagore cleared the ICS (1863), joined 1864 - first Indian ICS member |
+| 1919 | Only 78 of 1,255 ICS officers Indian; GoI Act 1919 provided for a PSC |
+| 1922 | ICS exam held in India for the first time at Allahabad; moved to Delhi in 1928 |
+| 1924 | Lee Commission recommended a statutory PSC |
+| 1926 | PSC set up under PSC (Functions) Rules 1926; first Chairman Sir Ross Barker; 4 Members |
+| 1935 / 1937 | GoI Act 1935 - Federal and Provincial PSCs; renamed Federal PSC in 1937 |
+| 1947 | H.K. Kripalani - first Indian Chairman |
+| 22 Aug 1949 | PSC provisions moved in the Constituent Assembly by Dr B.R. Ambedkar |
+| 26 Jan 1950 | Became UPSC; R.N. Banerjee first Chairman under the Constitution |
+- **Lee Commission**: appointed **1923**, report **1924**; chairman **Lord Lee of Fareham** (Arthur Hamilton Lee).
+# Part XIV - Articles 315-323
+| Article | Provision |
+|---|---|
+| 315 | PSCs for Union and States; Joint PSC for two or more States |
+| 316 | Appointment and tenure - UPSC members appointed by the President |
+| 317 | Removal/suspension by the President; misbehaviour needs a Supreme Court inquiry |
+| 318 | President regulates conditions of service |
+| 319 | Bar on further employment - UPSC Chairman ineligible for further government employment |
+| 320 | Functions - exams, recruitment, promotions, disciplinary matters |
+| 321 | Parliament / State Legislature can extend functions |
+| 323 | Annual report to the President, laid before Parliament |
+> Article 323: the UPSC report goes to the **President**, NOT the CJI.
+# Reforms, inclusion and technology
+| Year | Reform |
+|---|---|
+| 1969 | Eighth Schedule languages allowed for Essay/GS |
+| 2022 | 4 Group A railway services unified as Indian Railway Management Service |
+| May 2025 | Universal Registration Number |
+| CMS 2025 | Randomised interview boards |
+| Feb 2026 | 30-channel helpdesk; QPRep portal for answer-key representations; training via NIELIT |
+- **Women**: 3.6% (3 of 83) in 1952 → **31.2% (299 of 958) in CSE 2025**; 11 of top 25 ranks.
+- **SC**: 9 (1955) → 158 (2025); **ST**: 2 (1956-57) → 73 (2025); **PwBD**: 3 (2002) → 42 (2025).
+- **AI facial authentication**: piloted at NDA/CDS Sept 2025; at scale in **CS Prelims 24 May 2026** - ~5.50 lakh candidates, **6-8 seconds** each.
+- **569 applicants rejected** for false claims (15 years of data).
+- Applications: 42,727 (1950-51) → peak **45,10,044 (2022-23)**; exam centres 8 (1950) → **86 (2026)**.
+~~ Sources: Rocket CA 2026 Part 01 (src/current-affairs/rocket-ca-2026-01.txt) p.55; Rocket CA 2026 Part 02 p.39; app notes 6:25 sub 0
+=== Governors and State Councils of Ministers
+# New Governors (12 Oct 2026)
+- Orders issued by **President Droupadi Murmu** on **12 October 2026**.
+| State | Governor |
+|---|---|
+| Tamil Nadu | Rajendra Vishwanath Arlekar (was Kerala Governor with additional charge of TN) |
+| Kerala | Om Prakash Mathur (transferred from Sikkim) |
+| Sikkim | Dushyant Gautam |
+- **Om Prakash Mathur:** BJP leader; **Rajya Sabha member from Rajasthan** (2008-14, 2016-22); **Governor of Sikkim** from **31 July 2024** → transferred to **Kerala/Keralam** (orders 12 Oct 2026; sworn in 23 Oct 2026). Sikkim now: **Dushyant Gautam** (sworn in 19 Oct 2026).
+> As of March 2025 Mathur was Sikkim Governor (both PYQ statements true); now he is Governor of Keralam.
+# Governor – key Articles
+| Article | Provision |
+|---|---|
+| 153 | Governor for each State; one person for 2+ States |
+| 155 | Appointed by the President |
+| 156 | Holds office during pleasure of the President; term 5 years |
+| 157 | Qualifications |
+| 159 | Oath before the Chief Justice of the HC |
+| 161 | Pardoning power |
+# Konda Surekha removed (Telangana)
+- CM **A. Revanth Reddy** removed Minister **Konda Surekha** on **3 Sep 2026**; she held **Environment, Forests and Endowments**.
+- **G. Chinna Reddy**'s appointment as State Planning Board Vice-Chairman withdrawn.
+- Art 163, 164(2), **164(4)** (non-member minister - **6 months**); **Art 167** - CM's duty to inform the Governor.
+- **91st Amendment, 2003** - State ministry max **15%** of Assembly strength, **minimum 12**.
+~~ Sources: Rocket CA 2026 Part 01 (src/current-affairs/rocket-ca-2026-01.txt) p.42; daily CA 15 Oct 2026 (src/current-affairs/octlatest-daily-em-ca-2026-10-15.txt) p.1; Praveen CA-360 May 2026 p.17 (Sikkim Governor Mathur); en.wikipedia.org/wiki/Om_Prakash_Mathur (cited: BJP Rajasthan, The Hindu 12 Oct 2026); app notes 6:25 sub 1
+=== Uniform Civil Code – Status and Cases
+# News
+- **President Droupadi Murmu** assented to the **Gujarat Uniform Civil Code Bill-2026** (passed by the Assembly March 2026).
+- Covers marriage, divorce, inheritance and **live-in relationships**; comes into force **after rules are notified**.
+- **Uttarakhand** = **first** State, UCC in force since **January 2025**; **Gujarat = second** State.
+- UCC Bills of **Assam, Gujarat, Madhya Pradesh** awaited Presidential assent (Sep 2026 debate).
+- HM **Amit Shah**: UCC in all **21 NDA-ruled States by 2029**.
+- State UCCs **exempt tribal populations**.
+# Constitution
+- **Article 44** (DPSP, **Part IV**): "State shall endeavour to secure ... UCC"; **non-justiciable**.
+- **Article 25** - freedom of religion; **Article 29** - culture.
+- **Law Commission 2018** consultation paper - reform discriminatory personal laws; **Ambedkar** suggested a **voluntary UCC**.
+# Cases
+| Case | Point |
+|---|---|
+| Shah Bano (1985) | Maintenance under Sec 125 CrPC |
+| Sarla Mudgal (1995) | Conversion for a second marriage invalid |
+| Daniel Latifi (2001) | Upheld the Muslim Women (Protection of Rights on Divorce) Act, 1986 |
+| John Vallamattom (2003) | Struck down Sec 118, Indian Succession Act 1925 |
+| Shayara Bano (2017) | Instant triple talaq invalid |
+| Jose Paulo Coutinho (2019) | Cited Goa as example of a common civil code |
+| Section 6A Citizenship Act case (2024) | Casteism / gender discrimination cannot claim Art 29 protection |
+~~ Sources: Rocket CA 2026 Part 01 p.11 (Gujarat UCC); app notes 6:25 sub 2
+=== New Acts, Rules and Policies
+# CAPF (General Administration) Act 2026
+- **In force 8 October 2026** (MHA gazette); common framework for appointment/service of **Group-A General Duty officers** in CAPFs.
+- Timeline: introduced in **Rajya Sabha 27 March 2026**; RS passed 1 April; LS 2 April; **assent 9 April 2026**.
+- Serving officers challenged it in the **Supreme Court**.
+| Force | Est. | Role |
+|---|---|---|
+| BSF | 1965 | Pakistan and Bangladesh borders |
+| CRPF | 1939 (Crown Representative's Police) | Internal security |
+| CISF | 1969 | Infrastructure, airports |
+| ITBP | 1962 | China border |
+| SSB | 1963 | Nepal and Bhutan borders |
+- **Assam Rifles**: administrative control **MHA**, operational control **Army**.
+- **Article 33** - Parliament may restrict Fundamental Rights of members of the forces.
+# Legal Metrology (Indian Standard Time) Rules, 2026
+- Notified **27 August 2026**; make IST the **single legal time reference** for legal, administrative, commercial and official purposes.
+- Come into force **180 days after Gazette publication**.
+- Organisations must only sync with **IST-traceable** time - no need for every organisation to own an atomic clock.
+- Enforcement: **Legal Metrology Department**; technical guidance: **CSIR-NPL**.
+- Other time zones may be displayed **only along with IST**.
+- IST = **UTC+5:30**, maintained by **CSIR-National Physical Laboratory** (India's National Metrology Institute); **IST® trademark** registered in **2024**; uncertainty **< 3 nanoseconds** vs UTC.
+- **5 Regional Reference Standard Laboratories (RRSLs)** keep secondary time scales; **White Rabbit**-based IST network commissioned **July 2026** at **RRSL Bengaluru**.
+| Technology | Accuracy |
+|---|---|
+| NTP | Milliseconds |
+| PTP | Microseconds |
+| Satellite links | Nanoseconds |
+| Optical links | Picoseconds |
+- **NavIC** (earlier IRNSS) - developed after GPS data was denied during the **Kargil War**; carries atomic clocks.
+# Registration of Births and Deaths (Amendment) Act 2026
+- **In force 1 October 2026**; Presidential assent **August 2026**; commencement by Gazette notification.
+- RGI and Census Commissioner: **Mrityunjay Kumar Narayan**; nodal **MHA**; original RBD Act **1969**.
+- Delay **1-2 years** - Judicial Magistrate permission + fee; delay **over 2 years** - special order of a **First-Class Magistrate**.
+# Prevention of Insults to National Honour (Amendment) Act, 2026
+- Assent **6 August 2026** (Act **No. 11 of 2026**, Gazette of India Extraordinary, 6 Aug 2026); extends **anthem-level protection to Vande Mataram**; obstructing the National Song - up to **3 years**.
+  - Rocket CA Part 02 p.71/133 prints "assent 11 August" – that is the date the assent was reported (AIR, 11 Aug); the Act itself is dated 6 Aug.
+# PRAHAAR - first national counter-terrorism policy
+- **PRAHAAR** = Policy for Response Against Hostile Activities and Radicalism; unveiled by **Amit Shah** on **23 February 2026**.
+- **India's first National Counter-Terrorism Policy and Strategy**; **10-year** framework; nodal **MHA**.
+- PRAHAAR - CT Policy and Strategy conference: **New Delhi, 28 September 2026**.
+- **Seven pillars**: Prevention; Response; Aggregation of Internal Capabilities; Human Rights; Alleviating Conditions Conducive to Terrorism; Harmonising International Efforts; Recovery and Resilience.
+> Border Management is NOT one of PRAHAAR's seven pillars.
+# Shehzad Bhatti Network - 46th banned group
+- MHA declared the **Pakistan-based Shehzad Bhatti Network** a terrorist organisation under **UAPA 1967** on **16 September 2026** - **46th** in the **First Schedule**, Section **35(1)(a)**.
+- **Section 35** - Centre can both **add and remove** organisations in the First Schedule.
+~~ Sources: Rocket CA 2026 Part 01 p.81 (IST Rules notified 27 Aug 2026); Rocket CA 2026 Part 02 p.19, 71 (RBD Amendment: assent 6 Aug, in force 1 Oct 2026), p.170 (PRAHAAR 23 Feb 2026); Gazette copy of Act 11 of 2026 (livelaw.in/pdf_upload/2026/08/07/prevention-of-insults-to-national-honour-act-692317.pdf); Praveen CA-360 Sep 2026 p.17; app notes 6:25 sub 3
+=== Court Rulings and Judicial Initiatives
+# SC: grounds of arrest in writing
+- Grounds of arrest must be given **in writing** and in a **language the accused understands** - under **Article 22(1)**, for **all offences incl. PMLA and UAPA**.
+- Written grounds at least **2 hours before production for remand**, else arrest illegal.
+- **Section 47, BNSS** - inform the arrested person of grounds and bail rights.
+- Exceptional cases: oral first, written within reasonable time; failure → arrest and remand illegal.
+- Re-arrest: written grounds + permission of a **Judicial Magistrate**; probe to another officer; disciplinary action on the erring officer.
+# Article 142 - NEET-UG protest FIRs quashed
+- SC used **Article 142** ("complete justice") to quash FIRs against students protesting the **NEET-UG paper leak**.
+- **142(1)**: decrees/orders for complete justice, enforceable across India as Parliament (or, till then, the President) prescribes; **142(2)**: attendance, documents, contempt.
+- Power is broad but **not unlimited** - cannot override fundamental constitutional limits.
+- Cases: **Prem Chand Garg (1963)**, Union Carbide, Delhi Judicial Service Association, Supreme Court Bar Association.
+| Article | Subject |
+|---|---|
+| 32 | Constitutional remedies - "heart and soul" (Ambedkar) |
+| 129 | SC - Court of Record, contempt |
+| 142 | Complete justice - only the Supreme Court |
+| 143 | President's advisory reference |
+| 226 | High Court writs |
+> Only the Supreme Court has Art 142 power - NOT High Courts (Art 226). "Heart and soul" is Article 32, not 142.
+# Vande Mataram stanzas case
+- Carnatic musician **T.M. Krishna** challenged MHA's **February 2026** direction to sing **all six stanzas** of Vande Mataram.
+- Bench: **CJI Surya Kant, Justice Joymalya Bagchi, Justice V. Mohan**; to examine under **Bijoe Emmanuel (1986)** principles (Arts **19(1)(a) and 25**); Centre to reply in **two weeks**.
+- SC observed criminal action should not be started against a person declining to sing all stanzas on genuine religious grounds.
+- Vande Mataram: **Bankim Chandra Chattopadhyay**, **Anandamath**; first sung by **Rabindranath Tagore** at the **1896 Calcutta INC session**.
+# Judicial Well-Being Committee
+- **Standing Committee on Judicial Well-Being** constituted **10 October 2026** (World Mental Health Day) by **CJI Surya Kant**.
+- Chair: **Justice K.V. Viswanathan**.
+- Based on research by the SC's **Centre for Research and Planning**.
+- Background: Article 124 (SC), Article 50 (separation of judiciary), Article 235; SC inaugurated **28 January 1950**; strength **34**.
+- **World Mental Health Day** 10 October - first observed **1992** (WFMH).
+# Jan Suchna Seva
+- SC launched **Jan Suchna Seva** on **14 September 2026 (Hindi Diwas)** - simplified judgments and **15-30 minute** audio-visual explainers.
+# Telangana HC disqualifies MLA Danam Nagender
+- Telangana HC disqualified **Khairatabad MLA Danam Nagender** (won on BRS ticket 2023, joined Congress, contested Secunderabad LS 2024) on **18 September 2026**.
+- Bench: **CJ Aparesh Kumar Singh** and **Justice G.M. Mohiuddin**; set aside **Speaker Gaddam Prasad Kumar**'s decision.
+- Disqualified from **23 April 2024** under **Para 2(1)(a), Tenth Schedule**; petitioners Padi Kaushik Reddy (BRS), Aleti Maheshwar Reddy (BJP).
+- Khairatabad seat declared vacant; judgment sent to the Speaker and the Election Commission.
+- **Tenth Schedule** - **52nd Amendment, 1985**; **Para 6** - Speaker decides (subject to judicial review); Art 191(2), 190(3)(a), 102(2).
+- **Art 192** - Governor decides other disqualifications; HCs review Speaker's Tenth Schedule decisions under **Art 226**.
+~~ Sources: app notes 6:25 sub 4 (Carpediem CA)
+=== Federalism, Constitutional Provisions and Governance Reforms
+# Inter-State Council (Amendment) Order 2026
+- President **Droupadi Murmu** amended the **Inter-State Council Order, 1990** under **Article 263**; notified **9 September 2026**.
+- **Governor** attends the ISC when **Art 356** is in force; **LG of Delhi** when **Art 239AB** applies.
+- ISC set up in **1990** on **Sarkaria Commission** advice; chaired by the **Prime Minister**.
+# Ladakh - proposed Article 371-K
+- MHA proposal: **directly elected governing body** for Ladakh UT, safeguards on land, culture, language (also forests, environment) - linked to **Article 240**; meeting in New Delhi, **9 Sep 2026**.
+- Proposal titled **"Chapter K"** under Article 371 = **Art 371-K**; Article 371 is in **Part XXI**.
+- **Leh Apex Body** and **Kargil Democratic Alliance** seek statehood and the **Sixth Schedule**; Ladakh UT since **31 October 2019**.
+| Article | State |
+|---|---|
+| 371A | Nagaland |
+| 371B | Assam |
+| 371C | Manipur |
+| 371D | Andhra Pradesh and Telangana |
+| 371F | Sikkim |
+| 371G | Mizoram |
+| 371H | Arunachal Pradesh |
+| 371I | Goa |
+| 371J | Karnataka |
+| 371-K (proposed) | Ladakh |
+- **Sixth Schedule** (Arts **244(2), 275(1)**) - **Assam, Meghalaya, Tripura, Mizoram**.
+# Zonal Councils - 28th Western Zonal Council
+- **28th Western Zonal Council** chaired by **Amit Shah** at **Panaji, Goa**, **7 September 2026** - Maharashtra, Gujarat, Goa, DNH and DD.
+- Zonal Councils - **statutory**, **States Reorganisation Act, 1956**; chair - **Union Home Minister**; CMs Vice-Chairmen by rotation; organised by the **Inter-State Council Secretariat**.
+| Council | HQ | Members |
+|---|---|---|
+| Northern | New Delhi | Haryana, HP, J&K, Ladakh, Punjab, Rajasthan, Delhi, Chandigarh |
+| Central | Allahabad | Chhattisgarh, Uttarakhand, UP, MP |
+| Eastern | Kolkata | Bihar, Jharkhand, Odisha, WB |
+| Western | Mumbai | Maharashtra, Gujarat, Goa, DNH and DD |
+| Southern | Chennai | AP, Telangana, Karnataka, Kerala, TN, Puducherry |
+| North Eastern Council (1972) | Shillong | 8 NE States incl. Sikkim |
+# Bihar-Jharkhand Son river agreement
+- To be signed **31 August 2026** - ends ~25-year dispute (since Jharkhand formed, **November 2000**).
+| State | Share |
+|---|---|
+| Bihar | 5.75 MAF |
+| Jharkhand | 2.0 MAF |
+| Total | 7.75 MAF - undivided Bihar's share under the 1973 Bansagar Agreement (MP, UP, undivided Bihar) |
+- **Son**: rises on the **Amarkantak Plateau** (MP); flows MP, UP, Jharkhand, Bihar; major **right-bank tributary of the Ganga**, joins **west of Patna**; **Bansagar Dam**.
+# Tulu - additional administrative language
+- Karnataka made **Tulu** the **second additional administrative language** in **Dakshina Kannada and Udupi** (Sep 2026).
+- Based on committee of educationist **M. Mohan Alva** (report 2023); **₹82 lakh** for translation and training.
+- Tulu: Dravidian; Tulu Nadu; **not in the Eighth Schedule**. Karnataka formed **1 November 1956**; official language Kannada.
+# Simultaneous elections (background)
+- The **Constitution (129th Amendment) Bill, 2024** (One Nation One Election) is with a **Joint Parliamentary Committee** chaired by **P.P. Chaudhary**.
+# By-elections - polled 6 Oct 2026, counted 9 Oct 2026
+| Seat (State/UT) | Winner | Party | Margin |
+|---|---|---|---|
+| Nagaon (Assam) - Lok Sabha | Debasish Sharma | BJP | ~1,40,257 over AIUDF chief Badruddin Ajmal |
+| Madurantakam (Tamil Nadu) | Maragatham Kumaravel | TVK | 19,312 |
+| Dharapuram (Tamil Nadu) | Sathyabama | TVK | 9,471 |
+| Nandigram (West Bengal) | Hasi Rani Rath | BJP | ~1,22,753 |
+| Rejinagar (West Bengal) | Sakharav Sarkar | BJP | ~75,816 |
+| Thattanchavady (Puducherry) | Ashok Anand | AINRC | 8,482 |
+- **Nagaon** fell vacant when Congress MP **Pradyut Bordoloi** resigned after winning the **Dispur** Assembly seat on a **BJP** ticket.
+- **Thattanchavady** fell vacant on the resignation of Puducherry CM **N. Rangasamy**.
+> **TVK** (ruling party) won **both** Tamil Nadu seats; **BJP** won **both** West Bengal seats; Nagaon is a **Lok Sabha** seat, not an Assembly seat.
+# Renaming of places
+- **Kerala → Keralam**: **Kerala (Alteration of Name) Act, 2026** - Union Cabinet approval **24 Feb 2026**; Kerala Assembly endorsed **1 June 2026** (Article 3 reference); Lok Sabha passed **11 Aug**, Rajya Sabha **12 Aug 2026**; in force **25 August 2026** (MHA notification).
+- **Article 3** - **Parliament** alters the name, area or boundaries of a State; the President refers the Bill to the State legislature for its views.
+- **Ladakh - 28 places standardised** (**2 October 2026**): **MHA**, with the UT administration, gave standard names to **28 places and geographical features** (peaks, passes, glaciers, valleys, rivers, lakes) on the **Survey of India** map - e.g. **Atisha Giri, Kanishka Peak, Martand Giri, Zorawar Peak**; includes sites near **Gogra and Hot Spring**. **China** called it "illegal and void"; MEA rejected the claim.
+~~ Sources: Rocket CA 2026 Part 02 p.65 (Kerala → Keralam, Cabinet 24 Feb 2026); app notes 6:25 sub 5
+=== Lottery Regulation in India
+- **Union List Entry 40**: lotteries by Union/State governments; **State List Entry 34**: betting and gambling; Entry 62 changed after the **101st Amendment** (GST).
+- **Lotteries (Regulation) Act, 1998**: Sec 3 prohibition; Sec 4 conditions; **Sec 5** - State may ban other States' lotteries; **Sec 6** - Union power; Rules 2010.
+- **GST 40%** on lottery, betting, casinos, online money gaming from **22 September 2025**; winnings taxed **30% (Sec 115BB)**, TDS **Sec 194B**.
+- **9 States run lotteries** (LS reply 14 March 2023): Arunachal, Goa, Kerala, Maharashtra, Mizoram, Nagaland, Punjab, Sikkim, West Bengal.
+| Case | Holding |
+|---|---|
+| R.M.D. Chamarbaugwala (1957) | Gambling is res extra commercium |
+| B.R. Enterprises (1999) | All-or-nothing rule - TN (2003), Karnataka (2007) went lottery-free |
+| Skill Lotto Solutions (2020) | Lotteries = actionable claims = goods under GST |
+> Section 115BB rate on winnings = 30%, not 20%.
+~~ Sources: app notes 6:25 sub 6
+=== Other Governance News, 15 Oct – 4 Nov 2026
+# Kerala Elderly Care Bill (16 Oct 2026)
+- Kerala Assembly introduced India's **first comprehensive Elderly Care Bill** - Kerala first State with a dedicated comprehensive bill for elderly welfare
+- Protects against abuse, neglect, exploitation and illegal occupation of property
+- **mandatory registration and regulation of old-age homes**
+- Imprisonment and fines
+- Central law - **Maintenance and Welfare of Parents and Senior Citizens Act 2007** (senior citizen **60+**; **Section 23** property transfer may be declared void)
+- **Article 41** public assistance in old age
+- International Day of Older Persons **1 October**
+- Kerala capital Thiruvananthapuram, formed 1 November 1956
+# Cancer medicines (18 Oct 2026)
+- Union Government approved a **30% cap on MRP-based trade margins** for **non-scheduled anti-cancer medicines**
+- **Ministry of Chemicals and Fertilizers** estimates prices could fall **up to 70%**, saving about **Rs 2,500 crore** a year
+- **NPPA** est. **1997** under the Department of Pharmaceuticals, HQ New Delhi, regulates prices under **DPCO 2013**
+- Scheduled medicines are in **Schedule I of DPCO**, linked to **NLEM**
+# CAFE-III norms (19 Oct 2026)
+- Corporate Average Fuel Economy-III announced by the **Ministry of Power** - **16.7%** improvement in car fuel efficiency by 2032
+- In force **1 April 2027 to 31 March 2032**
+- Under **Central Motor Vehicles Rules 1989** for **M1 category** (up to eight passengers plus driver)
+- Standard tightened from **3.996 to 3.3273 litres per 100 km**
+- Reference mass raised from **1,082 kg to 1,229 kg**
+- Incentive multipliers - **BEVs and REEVs 3x, PHEVs 2.5x, strong hybrids 1.6x**
+# FSSAI infant food sugar ban (draft) (20 Oct 2026)
+- Draft **Food Safety and Standards (Foods for Infant Nutrition) Amendment Regulations 2026** published in the Gazette on **16 October 2026**
+- Proposes prohibiting **sucrose and fructose** in foods for infants **under six months**
+- Still a draft - the **2020 Regulations** remain in force
+- FSSAI under the **Food Safety and Standards Act 2006**, HQ New Delhi, under the **Health Ministry**
+# ECI Special Summary Revision (21 Oct 2026)
+- SSR of electoral rolls in **17 States and UTs**, qualifying date **1 January 2027**
+- These reportedly skipped annual revision in 2026
+- Aims to enrol new voters, correct details and remove dead/duplicate entries
+- **Article 324** - ECI control over rolls
+- **Section 21(2), RP Act 1950**
+- ECI est. **25 January 1950**
+- **Article 326** adult suffrage
+- **61st Amendment 1988** lowered voting age **21 to 18**
+- Four qualifying dates **1 January, 1 April, 1 July, 1 October**
+- National Voters' Day **25 January**
+# National Conference on E-Governance Reforms-2026 (21 Oct 2026)
+- Organised by **DARPG** and the Himachal Pradesh government in **Dharamshala**, **16-17 October 2026**
+- Focus on digital transformation and citizen-centric services
+- DARPG under the Ministry of Personnel, Public Grievances and Pensions
+- **NeGP approved 2006**
+- **Digital India launched 1 July 2015**
+- **CPGRAMS** online grievance platform
+- Himachal capital Shimla, statehood **25 January 1971**
+# Uttarakhand SDRF (26 Oct 2026)
+- Became **India's first ISO-certified disaster response force** - ISO **Quality Management System (QMS)** certification
+- ISO est. **1947**, HQ **Geneva**
+- **ISO 9001** = QMS standard
+- **NDRF** est. **2006** under the **Disaster Management Act, 2005**
+- Uttarakhand winter capital **Dehradun**, summer capital **Gairsain**
+# Telangana El Niño committees (29 Oct 2026)
+- District Collectors directed to form **mandal-level coordination committees** chaired by **Mandal Parishad Development Officers (MPDOs)**
+- Focus on preventive measures, rural employment, fodder and drinking water
+- Members from Panchayati Raj, Irrigation, Rural Water Supply, Agriculture, Animal Husbandry, Horticulture
+- **meet weekly** and report to Collectors
+- **El Niño** = warm phase of ENSO with above-normal SST in the central and eastern equatorial Pacific, often linked to a weaker southwest monsoon
+# KG Basin gas dispute arbitrator (01 Nov 2026)
+- SC appointed **Justice Ranjana Prakash Desai** as **sole arbitrator** in the dispute between the Centre and **Reliance Industries, BP Exploration (Alpha) and Niko**
+- Bench of **CJI Surya Kant, Justice Joymalya Bagchi and Justice Vipul M
+- Pancholi**
+- Two party-nominated experts to assist
+- Alleged extraction of gas migrating from adjoining **ONGC fields** into the **KG-D6** block
+- Petroleum Ministry demand notice of **$1.47 billion** (about ₹14,000 crore) on **4 Nov 2016** for **338.332 million MMBtu** over seven years
+- Delhi HC Division Bench overturned the Single Judge ruling
+- On 20 May SC rejected a request to suspend proceedings
+- Stakes: **Reliance 60%, BP 30%, Niko 10%**
+- ONGC est. 1956, **Maharatna**
+- Petroleum Minister **Hardeep Singh Puri**
+- **Arbitration and Conciliation Act, 1996**
+- Article 142
+# Telangana judicial officers' retirement age - ordinance (02 Nov 2026)
+- Ordinance of **31 Oct 2026** raises the age from **61 to 62** for the district judiciary, **retrospective from 31 Mar 2026**
+- Covers Telangana State Higher Judicial Service and Judicial Service
+- Promulgated by **Governor Shiv Pratap Shukla** under **Article 213(1)**, amending **Section 3(1A)** of the Telangana Public Employment (Regulation of Age of Superannuation) Act, **1984**
+- Follows SC interim orders of **22 Jul 2026** and the Telangana HC Full Court recommendation of **19 Aug 2026**
+- Retired officers may be reappointed till 62
+- **Article 233** District Judges
+- **235** HC control over subordinate courts
+- **217** HC judges retire at **62**
+- **124** SC judges at **65**
+# Conference of PAC Chairpersons (03 Nov 2026)
+- Inaugurated in **Thiruvananthapuram** by Lok Sabha Speaker **Om Birla**
+- Themes **Audit, Accountability and Good Governance**
+- **PAC** first set up in **1921** after the Montagu-Chelmsford Reforms
+- **22 members (15 Lok Sabha, 7 Rajya Sabha)**, one-year term, **no Union Ministers**
+- Chairperson appointed by the **Speaker**, traditionally from the **opposition**
+- Examines **CAG reports (Article 148)**
+# Green crackers in Delhi-NCR (03 Nov 2026)
+- SC permitted **CSIR-NEERI-approved green crackers** on **7-8 Nov 2026**, **6-7 AM and 8-10 PM**
+- Banned within **300 m** of hospitals, nursing homes, old-age homes and silence zones
+- **series crackers and barium-based crackers prohibited**
+- CSIR-NEERI est. **1958**, HQ **Nagpur**
+- **Article 21** includes the right to a healthy environment
+# Bihar Silt Management Policy (04 Nov 2026)
+- Bihar = **first State with a dedicated Silt Management Policy**, announced by CM **Samrat Choudhary** on **3 Nov 2026**
+- **Bihar Water Source Restoration and Silt Management Policy-2026** approved **15 September**
+- Aims to restore river carrying capacity, reduce floods and use dredged silt
+- Covers **Ganga, Kosi, Bagmati, Kamala-Balan and Gandak**
+- **MoRTH (Nitin Gadkari)** to use river silt in highway construction
+- **Kosi = "Sorrow of Bihar"**
+- A Joint Committee monitors the **1996 India-Bangladesh Ganga Water Sharing Treaty**
+# Bharatiya Vayuyan Niyam-2026 (04 Nov 2026)
+- Notified by the Civil Aviation Ministry
+- Replaces the nearly 90-year-old **Aircraft Rules, 1937**
+- Framed under the **Bharatiya Vayuyan Adhiniyam, 2024**
+- In force from **1 Jan 2027**
+- Covers registration, airworthiness, design, maintenance, flight operations, licensing of pilots, engineers and ATCs, airfares and airport management
+- The Adhiniyam 2024 replaced the **Aircraft Act 1934**, in force **1 Jan 2025**
+- Civil Aviation Minister **Kinjarapu Rammohan Naidu**
+- **DGCA** regulator, **BCAS** security
+- **ICAO** est. **1944**, HQ **Montreal**
+> State firsts (Oct-Nov 2026): Kerala - Elderly Care Bill; Uttarakhand SDRF - ISO-certified force; Bihar - Silt Management Policy.
+- **cVIGIL (ECI app):** lets citizens report **Model Code of Conduct violations** with live, **geo-tagged** photos or videos; the ECI aims to act on a complaint **within 100 minutes**.
+~~ Sources: app notes 6:25 sub 7 (Carpediem daily CA 15 Oct – 4 Nov 2026)

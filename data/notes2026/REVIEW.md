@@ -661,3 +661,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Dispute FRBM 2003 (Bill 2000, in force 2004; AP Act 2005).
 - AP 2026-27 GSDP target 17.1% (Sept 2025) vs 15.53% (SES 2025-26), both kept dated.
 - Unverified own-MCQ facts: "6th Digital Budget", AP MMR 30 lowest with Kerala, row-10 figures from old notes only.
+
+## b5-r114-k1 (Diseases keys)
+- ydfb829da71e IAS 1995 TB+leprosy drug: PAS → Rifampicin (flat error). ybf2f4d98080 sneezing: Immune → Respiratory system (owner: check official key).
+- Disputes: Hib meningitis; y841c9481975 algae "All of these" (not verified); BCG "within 15 days".
+- Outdated: NVBDCP → NCVBDC; WHO superbug list 2017 → 2024.
