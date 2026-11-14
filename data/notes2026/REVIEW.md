@@ -1066,3 +1066,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 399 → 57 kept + 92 new (149, 37%); new 66 statements / 16 match / 10 A–R; no lines lost.
 - Row 57 notes conflict: 2:0 "14 kharif, 6 rabi, 2 commercial (jute, copra)" vs 2:1.3 table with 3 commercial (copra, cotton, raw jute) — reconcile.
 - Row 57: MIS MCQs linked to 5:1 (PM-AASHA outlay) instead of 5:2.3 — link cleanup.
+
+## rewrite b1-w109 (rows 109–115)
+- own 428 → 82 kept + 88 new (170, 40%); new 49 statements / 22 match / 16 A–R / 1 sequence; no lines lost. No wrong notes/keys.
