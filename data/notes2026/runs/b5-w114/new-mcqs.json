@@ -270,6 +270,306 @@
   "src": "app"
  },
  {
+  "s": "Match List-I with List-II:\nList-I (COVID-19 vaccine)\nA. Covishield\nB. Covaxin\nC. ZyCoV-D\nD. Corbevax\nList-II (Platform)\n1. Plasmid DNA\n2. Protein subunit (RBD)\n3. Adenovirus viral vector\n4. Inactivated whole virus\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-3, B-1, C-4, D-2",
+   "A-3, B-4, C-2, D-1",
+   "A-3, B-4, C-1, D-2",
+   "A-4, B-1, C-2, D-3"
+  ],
+  "a": 2,
+  "x": "Correct matching: A-3 (Covishield – Adenovirus viral vector); B-4 (Covaxin – Inactivated whole virus); C-1 (ZyCoV-D – Plasmid DNA); D-2 (Corbevax – Protein subunit (RBD)). Covishield is a viral-vector (not mRNA) vaccine; Covaxin (Bharat Biotech + ICMR-NIV) is inactivated; ZyCoV-D (Zydus) is the world's first plasmid DNA vaccine for humans; Corbevax (Biological E) is a protein subunit vaccine.",
+  "tq": "match",
+  "id": "cpc1060caadd69",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (COVID-19 vaccine)\nA. Covaxin\nB. Sputnik V\nC. Gemcovac-OM\nD. Corbevax\nList-II (Developer)\n1. Gennova Biopharmaceuticals, Pune\n2. Biological E, Hyderabad\n3. Gamaleya Institute, Russia\n4. Bharat Biotech with ICMR-NIV\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-4, B-3, C-1, D-2",
+   "A-1, B-4, C-2, D-3",
+   "A-2, B-3, C-4, D-1",
+   "A-1, B-3, C-4, D-2"
+  ],
+  "a": 0,
+  "x": "Correct matching: A-4 (Covaxin – Bharat Biotech with ICMR-NIV); B-3 (Sputnik V – Gamaleya Institute, Russia); C-1 (Gemcovac-OM – Gennova Biopharmaceuticals, Pune); D-2 (Corbevax – Biological E, Hyderabad). Gemcovac-OM (Gennova, Pune) is India's first indigenous mRNA vaccine; Sputnik V (Gam-COVID-Vac) is from Russia's Gamaleya Institute; Corbevax from Biological E, Hyderabad; Covaxin from Bharat Biotech with ICMR-NIV.",
+  "tq": "match",
+  "id": "cp03e0be9f9cc2",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about COVID-19 vaccines:\n1. iNCOVACC is the world's first intranasal COVID-19 vaccine for the primary two-dose schedule and heterologous booster.\n2. Moderna and Pfizer-BioNTech vaccines are based on the mRNA platform.\n3. Novavax is an mRNA vaccine.\n4. Covishield is an mRNA vaccine.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 and 4 only",
+   "2 and 4 only"
+  ],
+  "a": 2,
+  "x": "Statements 3 and 4 are wrong: Novavax is a recombinant protein nanoparticle vaccine, and Covishield is an adenovirus viral-vector vaccine - neither is mRNA. Statements 1 (iNCOVACC) and 2 (Moderna, Pfizer = mRNA) are correct.",
+  "tq": "statements",
+  "id": "cpd4cf37a86ff8",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Vaccine platform)\nA. Live attenuated\nB. Inactivated\nC. Viral vector\nD. Toxoid\nList-II (Uses)\n1. Inactivated bacterial toxin\n2. Weakened living pathogen\n3. Killed pathogen\n4. A modified, harmless different virus carrying the antigen instructions\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-1, B-4, C-2, D-3",
+   "A-2, B-1, C-3, D-4",
+   "A-2, B-4, C-3, D-1",
+   "A-2, B-3, C-4, D-1"
+  ],
+  "a": 3,
+  "x": "Correct matching: A-2 (Live attenuated – Weakened living pathogen); B-3 (Inactivated – Killed pathogen); C-4 (Viral vector – A modified, harmless different virus carrying the antigen instructions); D-1 (Toxoid – Inactivated bacterial toxin). A toxoid uses an inactivated bacterial toxin, not a weakened pathogen (that is a live attenuated vaccine); an inactivated vaccine uses a killed pathogen.",
+  "tq": "match",
+  "id": "cp149ccf733a60",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): Convalescent plasma therapy provides passive immunity to COVID-19 patients.\nReason (R): Convalescent plasma therapy uses neutralising antibodies from the blood of recovered COVID-19 patients.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: ready-made neutralising antibodies from recovered patients are transferred, which is what makes the immunity passive.",
+  "tq": "assertion",
+  "id": "cp1ca876e5124d",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about vaccine pioneers:\n1. Edward Jenner carried out the first vaccination, against smallpox, in 1796.\n2. Louis Pasteur developed the rabies vaccine.\n3. Robert Koch is known as the father of immunology.\n4. Elie Metchnikoff is associated with phagocytosis and cellular immunity.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: Robert Koch is associated with bacteriology and the TB bacterium; Edward Jenner is the father of immunology. Statements 1, 2 and 4 are correct, so three are correct.",
+  "tq": "statements",
+  "id": "cp144593831919",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. DPT is a combined vaccine against diphtheria, pertussis and tetanus.\n2. The BCG vaccine against tuberculosis is given just after birth.\n3. Smallpox is caused by the variola virus.\n4. Tetanus is caused by Mycobacterium tuberculosis.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 4 is wrong: tetanus is caused by Clostridium tetani (contaminated wounds); Mycobacterium tuberculosis causes TB. Statements 1, 2 and 3 are correct.",
+  "tq": "statements",
+  "id": "cp0abfde481617",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about Ebola:\n1. Ebola was first identified in 1976, with simultaneous outbreaks at Yambuku (Zaire/DR Congo) and Nzara (Sudan).\n2. The Ebola virus belongs to the family Coronaviridae.\n3. The 2014-16 West African outbreak hit Guinea, Sierra Leone and Liberia and was declared a PHEIC in August 2014.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "2 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: the Ebola virus (named after the Ebola River) belongs to the family Filoviridae, not Coronaviridae. Statements 1 and 3 are correct.",
+  "tq": "statements",
+  "id": "cp12b295801fcc",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Outbreak)\nA. SARS (2002-03)\nB. MERS (2012)\nC. H1N1 swine flu\nD. Nipah\nList-II (Fact)\n1. Named after Sungai Nipah, Malaysia (1998)\n2. Civet cats\n3. Dromedary camels\n4. WHO pandemic declared in June 2009\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-1, B-3, C-4, D-2",
+   "A-2, B-3, C-4, D-1",
+   "A-2, B-4, C-1, D-3",
+   "A-2, B-4, C-3, D-1"
+  ],
+  "a": 1,
+  "x": "Correct matching: A-2 (SARS (2002-03) – Civet cats); B-3 (MERS (2012) – Dromedary camels); C-4 (H1N1 swine flu – WHO pandemic declared in June 2009); D-1 (Nipah – Named after Sungai Nipah, Malaysia (1998)). SARS (SARS-CoV-1, Guangdong) is linked with civet cats and MERS with dromedary camels; H1N1 (influenza A) was declared a pandemic in June 2009; Nipah is named after Sungai Nipah in Malaysia.",
+  "tq": "match",
+  "id": "cp2cc48c08d0b8",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about Public Health Emergencies of International Concern (PHEIC):\n1. COVID-19 was declared a PHEIC on 30 January 2020.\n2. Mpox was declared a PHEIC in both 2022 and 2024.\n3. The Bundibugyo Ebola outbreak in DR Congo and Uganda (May 2026) was declared a 'pandemic emergency' rather than a PHEIC.\n4. H1N1 (2009) was the first PHEIC.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1, 2 and 3 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: the May 2026 Bundibugyo Ebola outbreak (DR Congo, Uganda) was declared a PHEIC, not a 'pandemic emergency'. Statements 1, 2 and 4 follow the notes' PHEIC list (H1N1 2009 first ... COVID-19 30 Jan 2020, mpox 2022 and 2024).",
+  "tq": "statements",
+  "id": "cpd6bf87b632d2",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about SARS-CoV-2:\n1. It was first identified in Wuhan, Hubei, China, in December 2019.\n2. It enters human cells through the ACE2 receptor, and the pangolin is its suspected intermediate host.\n3. The number 19 in 'COVID-19' refers to the 19 strains of the virus.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: COVID-19 means 'Coronavirus Disease 2019' - 19 is the year 2019. Statements 1 and 2 are correct, so two are correct.",
+  "tq": "statements",
+  "id": "cpd1a2536c0ad6",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (SARS-CoV-2 variant)\nA. Alpha\nB. Beta\nC. Delta\nD. Omicron\nList-II (Where first found)\n1. Southern Africa\n2. India\n3. United Kingdom\n4. South Africa\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-2, B-4, C-3, D-1",
+   "A-2, B-4, C-1, D-3",
+   "A-3, B-4, C-2, D-1",
+   "A-1, B-2, C-4, D-3"
+  ],
+  "a": 2,
+  "x": "Correct matching: A-3 (Alpha – United Kingdom); B-4 (Beta – South Africa); C-2 (Delta – India); D-1 (Omicron – Southern Africa). Delta was first found in India and drove the April-May 2021 second wave.",
+  "tq": "match",
+  "id": "cp932eef45ea02",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about COVID-19 in India:\n1. India's first COVID-19 case was reported in Kerala on 30 January 2020.\n2. India's COVID-19 vaccination drive, guided by NEGVAC, began on 16 January 2021.\n3. India crossed 200 crore COVID-19 vaccine doses on 17 July 2021.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: India crossed 200 crore doses on 17 July 2022, not 2021. Statements 1 and 2 are correct.",
+  "tq": "statements",
+  "id": "cpfe2458e0c9ef",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about COVID-19 relief measures:\n1. PM CARES for Children was launched on 29 May 2021.\n2. Under PM CARES for Children, a child gets a monthly stipend from age 18 and Rs 10 lakh at 23 years.\n3. The Lancet (24 February 2022) estimated that about 19 lakh Indian children lost a parent or caregiver to COVID-19.\n4. The Rs 50 lakh insurance cover for health workers under PMGKP was provided by LIC.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the PMGKP Rs 50 lakh cover for health workers was provided by New India Assurance, not LIC. Statements 1, 2 and 3 are correct, so three are correct.",
+  "tq": "statements",
+  "id": "cp07bf94bc44d4",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (COVID-19 response model)\nA. Mo Jeeban\nB. Break the Chain\nC. Dharavi model\nD. Door-to-door fever surveys by volunteers\nList-II (State)\n1. Odisha\n2. Andhra Pradesh\n3. Maharashtra\n4. Kerala\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-3, B-4, C-2, D-1",
+   "A-1, B-4, C-3, D-2",
+   "A-3, B-1, C-2, D-4",
+   "A-1, B-2, C-4, D-3"
+  ],
+  "a": 1,
+  "x": "Correct matching: A-1 (Mo Jeeban – Odisha); B-4 (Break the Chain – Kerala); C-3 (Dharavi model – Maharashtra); D-2 (Door-to-door fever surveys by volunteers – Andhra Pradesh). Kerala ran 'Break the Chain'; the Dharavi model ('chasing the virus') was Maharashtra's; AP used village and ward volunteers for fever surveys; Mo Jeeban was Odisha's.",
+  "tq": "match",
+  "id": "cpc272b3d237da",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. Andhra Pradesh's Covid Pharma app (25 April 2020) tracked over-the-counter sales of cough, cold and fever medicines.\n2. Andhra Pradesh added COVID-19 treatment to YSR Aarogyasri.\n3. Andhra Pradesh crossed 1 lakh COVID-19 tests per million by October 2020.\n4. The Aarogya Setu app was developed by C-DAC.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "3 only",
+   "1 only",
+   "4 only"
+  ],
+  "a": 3,
+  "x": "Statement 4 is wrong: Aarogya Setu (contact tracing) was developed by the National Informatics Centre (MeitY), not C-DAC. Statements 1, 2 and 3 about Andhra Pradesh are correct.",
+  "tq": "statements",
+  "id": "cpcd34afc030a9",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about outbreak terminology:\n1. An endemic disease is regularly present at a steady level in a place or group.\n2. An epidemic is a disease spread across a large region of the world or across continents.\n3. An epidemic among animals is called epizootic.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: spread across continents defines a pandemic (e.g. COVID-19); an epidemic is many cases in a population in a short time (e.g. Nipah in Kerala). Statements 1 and 3 are correct.",
+  "tq": "statements",
+  "id": "cp9b32d975df70",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about major outbreaks in India:\n1. The 1994 plague outbreak in Surat, Gujarat, was caused by Yersinia pestis.\n2. India's first avian influenza outbreak was reported at Navapur, Maharashtra, in 2006.\n3. The 2024 Chandipura virus outbreak occurred in Kerala and was spread by Aedes mosquitoes.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the 2024 Chandipura outbreak was in Gujarat and is spread by the sandfly. Statements 1 (Surat 1994, Yersinia pestis) and 2 (Navapur 2006) are correct.",
+  "tq": "statements",
+  "id": "cp4dd507b46cbb",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): Kala-azar is spread by the Anopheles mosquito.\nReason (R): The Anopheles mosquito is identified by its characteristic resting position.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: kala-azar is spread by the sandfly; Anopheles spreads malaria. R is true: Anopheles is identified by its resting position.",
+  "tq": "assertion",
+  "id": "cp1c6605efefe1",
+  "row": 116,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about COVID-19 lessons and tuberculosis:\n1. IIT Madras converted a nitrogen generator into an oxygen generator during the second wave.\n2. India's COVID-19 strategy of test-track-treat-vaccinate used a three-tier facility arrangement.\n3. About 1.25 million people died of tuberculosis worldwide in 2023.\n4. India's TB incidence fell from 237 (2015) to 187 per lakh (2024).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: it was IIT Bombay that converted a nitrogen generator into an oxygen generator. Statements 2, 3 and 4 are correct.",
+  "tq": "statements",
+  "id": "cp64ece27e22c1",
+  "row": 116,
+  "src": "app"
+ },
+ {
   "s": "Consider the following statements about population norms for rural health facilities in India (plain / hilly-tribal areas):\n1. A Sub Health Centre covers 5,000 people in plain areas and 3,000 in hilly and tribal areas.\n2. A Primary Health Centre covers 30,000 people in plain areas and 20,000 in hilly and tribal areas.\n3. A Community Health Centre covers 1,20,000 people in plain areas and 1,00,000 in hilly and tribal areas.\nWhich of the statements given above is/are correct?",
   "o": [
    "2 and 3 only",
