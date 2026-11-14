@@ -49,12 +49,12 @@
   "row": 16,
   "s": "Consider the following statements:\n1. The term 'artificial intelligence' was coined for the Dartmouth workshop of 1956.\n2. Alan Turing proposed his test in the 1950 paper 'Computing Machinery and Intelligence'.\n3. The Turing test was first called 'the thinking machine game'.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
+   "1, 2 and 3",
    "2 and 3 only",
    "1 only",
-   "1, 2 and 3"
+   "1 and 2 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1 and 2 are correct (Dartmouth 1956, proposed in 1955 by McCarthy, Minsky, Rochester and Shannon; Turing 1950). 3 is wrong: the Turing test was first called 'the imitation game'.",
   "src": "app",
   "tq": "statements"
@@ -64,12 +64,12 @@
   "row": 16,
   "s": "Consider the following statements about types of AI:\n1. All AI in use today is Narrow (Weak) AI, which performs one specific task and cannot transfer across domains.\n2. Siri and Alexa are examples of General (Strong) AI.\n3. Artificial Superintelligence is a hypothetical AI that surpasses humans in every way.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "1 only",
+   "1 and 3 only",
    "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: Siri and Alexa are Narrow AI; General AI (human-level reasoning across domains) has not been achieved.",
   "src": "app",
   "tq": "statements"
@@ -79,12 +79,12 @@
   "row": 16,
   "s": "Match List-I (AI term) with List-II (Meaning / use):\nList-I | List-II\na. Random forest | i. Chatbots and translation\nb. Natural Language Processing | ii. Integrated circuit reconfigurable after manufacture\nc. Computer vision | iii. Interprets images, e.g. facial recognition\nd. FPGA | iv. Group of decision trees that reduces overfitting\nSelect the correct answer using the codes given below:",
   "o": [
+   "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iv, c-iii, d-ii",
    "a-iv, b-i, c-iii, d-ii",
-   "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Random forest – group of decision trees, reduces overfitting; NLP – machines understand and generate human language (chatbots, translation); computer vision – interprets images, e.g. facial recognition; FPGA (Field Programmable Gate Array) – an IC reconfigurable after manufacture.",
   "src": "app",
   "tq": "match"
@@ -184,12 +184,12 @@
   "row": 16,
   "s": "Match List-I with List-II:\nList-I | List-II\na. AICTE | i. Beijing\nb. YUVAi | ii. Students of classes 8–12\nc. Central Sanskrit University | iii. Declared 2025 the 'Year of AI'\nd. 2nd International Olympiad in AI (2025) | iv. B.Tech in AI and data science from 2026-27\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iii, b-ii, c-i, d-iv",
-   "a-i, b-ii, c-iv, d-iii",
    "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
    "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 2,
+  "a": 0,
   "x": "AICTE declared 2025 the Year of AI; YUVAi is for classes 8–12; Central Sanskrit University offers a B.Tech in AI and data science from 2026-27; the 2nd IOAI (Aug 2025) was in Beijing (the 1st was at Burgas, Bulgaria).",
   "src": "app",
   "tq": "match"
@@ -229,12 +229,12 @@
   "row": 16,
   "s": "Consider the following statements:\n1. India's gross expenditure on R&D is about 0.64–0.70% of GDP.\n2. The Economic Survey 2025-26 recommends that India build large general-purpose frontier models to compete globally.\n3. In August 2026 the Supreme Court sought the Centre's reply on the absence of a legal framework for high-risk AI in welfare delivery.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
-   "2 only",
    "1 and 2 only",
-   "1 and 3 only"
+   "2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: the Survey prefers small, application-specific models and a state-built AI-OS modelled on UPI and Aadhaar.",
   "src": "app",
   "tq": "statements"
@@ -260,11 +260,11 @@
   "s": "Consider the following statements:\n1. The Global Partnership on AI (GPAI) was launched in June 2020 with India as a founding member.\n2. The EU AI Act, the world's first comprehensive AI law, entered into force in August 2024.\n3. The risk tiers of the EU AI Act include a 'moderate risk' tier.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "2 and 3 only",
    "1 and 2 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1 and 2 are correct. 3 is wrong: the EU AI Act's tiers are unacceptable, high, limited and minimal – there is no 'moderate' tier.",
   "src": "app",
   "tq": "statements"
@@ -364,12 +364,12 @@
   "row": 17,
   "s": "Match List-I (Innovation) with List-II (Developer):\nList-I | List-II\na. Carbon-nanotube transistors | i. C-DAC\nb. Graphene flexible electronics | ii. IISc Bengaluru\nc. Perovskite nanocrystal displays | iii. IIT Delhi\nd. Biodegradable nanoparticles for colorectal cancer | iv. IIT Mandi\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
    "a-i, b-ii, c-iii, d-iv",
    "a-ii, b-iv, c-iii, d-i",
-   "a-i, b-iv, c-iii, d-ii"
+   "a-ii, b-i, c-iii, d-iv"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Carbon-nanotube transistors – IISc Bengaluru; graphene flexible electronics – C-DAC; perovskite nanocrystal displays and conductive nanofibres – IIT Delhi; biodegradable natural-polymer nanoparticles for colorectal cancer – IIT Mandi.",
   "src": "app",
   "tq": "match"
@@ -440,11 +440,11 @@
   "s": "Consider the following statements about global AI summits:\n1. The REAIM summit of 2023 in the Netherlands dealt with responsible AI in the military domain.\n2. The AI Seoul Summit was held in 2023.\n3. The AI Action Summit (Paris, February 2025) was co-chaired by France and India.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 3 only",
    "2 and 3 only",
+   "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: the AI Seoul Summit was in 2024; 2023 was the AI Safety Summit at Bletchley Park.",
   "src": "app",
   "tq": "statements"
@@ -478,5 +478,155 @@
   "x": "1 and 3 are correct. 2 is wrong: DIR-V was launched by MeitY in 2022.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp80f19d5ddf3b",
+  "row": 18,
+  "s": "Consider the following statements about cloud computing:\n1. Elasticity lets resources grow or shrink according to demand.\n2. Under resource pooling, many users share a common set of resources.\n3. 'Platform cloud' is one of the deployment models of cloud computing.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the deployment models are public, private, hybrid and community – 'platform cloud' is not one.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp31b83766bb1e",
+  "row": 18,
+  "s": "Match List-I with List-II:\nList-I | List-II\na. IaaS | i. Google App Engine\nb. PaaS | ii. Government of India cloud on NIC infrastructure\nc. SaaS | iii. Gmail, Outlook\nd. MeghRaj (GI Cloud) | iv. Amazon EC2\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 1,
+  "x": "IaaS (servers, storage, network) – Amazon EC2; PaaS (platform to develop and run apps) – Google App Engine; SaaS (ready software over the web) – Gmail, Outlook; MeghRaj – GI Cloud for e-services on NIC infrastructure.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1987a98f047c",
+  "row": 18,
+  "s": "Consider the following statements:\n1. The classic three Vs of big data are Volume, Velocity and Variety.\n2. Veracity and Visualisation were the two Vs added later.\n3. Metadata means data about data.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: the two Vs added later are Veracity and Value.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1a4f04b7dea8",
+  "row": 18,
+  "s": "Match List-I (Term) with List-II (Meaning):\nList-I | List-II\na. Data mining | i. Finding patterns in large datasets\nb. Data warehouse | ii. Raw data stored in native format\nc. Data lake | iii. Language for statistical computing\nd. R | iv. Cleaned, structured data for analysis\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 3,
+  "x": "Data mining – finding patterns in large datasets; data warehouse – cleaned, structured data; data lake – raw data in native format; R – a language for statistical computing.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp95bc1f8c14e9",
+  "row": 18,
+  "s": "Consider the following statements:\n1. The National Data Governance Framework Policy (2022) was issued by MeitY.\n2. That policy set up the India Data Management Office and the India Datasets Programme.\n3. The Open Government Data Platform India was set up under the NDSAP of 2016.\n4. The IndiaAI Datasets Platform is called AI-Kosh.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the OGD Platform was set up under NDSAP 2012.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd6b6c365fff5",
+  "row": 18,
+  "s": "Consider the following statements about data centres in India:\n1. India's data-centre capacity grew from 375 MW in 2020 to about 1.57 GW in 2026.\n2. Chennai holds the largest share of India's data-centre capacity.\n3. Data centres use about 1% of global electricity.\n4. The draft Data Centre Policy (September 2025) proposes a 10-year tax holiday.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: Mumbai has the largest share (~52%). 4 is wrong: the draft policy proposes a 20-year tax holiday.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf7e6046b97b9",
+  "row": 18,
+  "s": "Consider the following statements:\nAssertion (A): A data centre with a Power Usage Effectiveness (PUE) of 1.1 is more efficient than one with a PUE of 1.8.\nReason (R): PUE is total facility energy divided by the energy used by IT equipment, so a value closer to 1 means less overhead.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: PUE = total facility energy ÷ IT energy; the closer to 1, the better (1.1 is best).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp5c2780884b19",
+  "row": 18,
+  "s": "Consider the following statements about Visakhapatnam as a data-centre hub:\n1. It is projected to become India's biggest data-centre hub, about 6 GW over ten years.\n2. The Vizag–Kapuluppada corridor lies in Seismic Zone III.\n3. Google announced a $15 billion, 1 GW AI hub there in October 2025.\n4. Nearness to the European Union is one of its advantages.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All four",
+   "Only three",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: the corridor is in Seismic Zone II. 4 is wrong: its advantage is nearness to Southeast Asia (plus submarine cables and sea-breeze cooling), not the EU.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0231f2ff6a97",
+  "row": 18,
+  "s": "Match List-I with List-II:\nList-I | List-II\na. Fog computing | i. Provider runs and scales servers and bills per use\nb. Containers (Docker) | ii. Share the host OS kernel\nc. Serverless computing | iii. One server runs many VMs, each with its own OS\nd. Virtualisation | iv. Local aggregation between edge and cloud\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "Fog – between edge and cloud, local aggregation; containers – lighter than VMs as they share the host OS kernel; serverless – provider runs and scales servers, bills per use (AWS Lambda); virtualisation – many VMs with their own OS on one server.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf99214302319",
+  "row": 18,
+  "s": "Consider the following statements:\nAssertion (A): Edge computing gives the lowest latency and saves bandwidth.\nReason (R): In edge computing, data are processed on or near the device instead of in distant central data centres.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: processing on or near the device avoids the round trip to distant cloud data centres, so latency is lowest and bandwidth is saved.",
+  "src": "app",
+  "tq": "assertion"
  }
 ]
