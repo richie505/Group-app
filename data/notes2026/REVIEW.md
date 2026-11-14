@@ -1072,3 +1072,12 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b6-w042 (rows 42–44)
 - own 342 → 78 kept + 89 new (167, 49%); new 60 statements / 18 match / 11 A–R; 4 of 260 lines lost. No wrong notes/keys.
+
+## rewrite b5-w051 (rows 51–55)
+- own 425 → 93 kept + 80 new (173, 41%); new 46 statements / 23 match / 11 A–R; 11 of 296 lines lost.
+- Soft: PYQ y53d611f03e5 keys 1941 for Scindia shipyard "founding" (company 1919) — explanation already notes it.
+
+## rewrite b2-w041 (rows 41–43)
+- own 289 → 40 kept + 63 new (103, 36%); new 34 statements / 18 match / 9 A–R / 2 sequence; 6 of 194 lines lost.
+- Notes conflict: 104th Amendment dated 2020 (row 41, 0:13) vs 2019 (row 42, 0:3). Fact: "Constitution (104th Amendment) Act, 2019", in force 25 Jan 2020 — harmonise wording.
+- gddfbf97d72ac ("Fathima Beevi first woman NHRC member") unsupported by notes — merged away.

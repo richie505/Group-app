@@ -1,0 +1,126 @@
+=== NEW NOTES row 59
+## SUB 0 | Electricity Basics – Units, Frequency, Transformers
+[0:0] - Discoms bill consumption in **kWh ("units")**; India's grid runs at **50 Hz** (not 60 Hz) – MPPSC 2008: A true, R false.
+[0:1] - **Step-up transformer** raises **voltage** (and lowers current) for long-distance transmission; it does **not** raise power.
+[0:2] - A **transformer works only on AC** (mutual induction); a **capacitor stores electric charge/energy**; a **generator/dynamo** converts mechanical to electrical energy.
+[0:3] TABLE head: Transformer / generator fact | Answer
+  [0:3.0] Protection not provided on small distribution transformers | Buchholz relay (used on oil-filled transformers of about 500 kVA and above)
+  [0:3.1] Power factor of a transformer | Depends on the power factor of the load
+  [0:3.2] Maximum efficiency of a distribution transformer | Designed for about 50% of full load (it runs lightly loaded most of the day)
+  [0:3.3] Low power factor of a DG set | Needs higher excitation current
+[0:4] - The **integrated national (all-India) power grid** evens out supply-demand mismatches between regions.
+[0:5] ~~ Sources: NextGen Rocket Sheets Physics p.31-32 (transformer, generator); app notes 5:59 sub 3; general knowledge, not checked (transformer protection and efficiency)
+## SUB 1 | Andhra Pradesh Power Scenario
+[1:0] - **AP Reorganisation Act 2014, Twelfth Schedule:** power of the **Central Generating Stations** is allotted to AP and Telangana in the ratio of the **actual energy consumption of the last 5 years** of their DISCOMs; APGENCO units divided by location.
+[1:1] - AP's installed capacity = thermal (coal), hydel, gas, solar, wind – **no nuclear** plant in AP.
+[1:2] TABLE head: Plant | Location / owner
+  [1:2.0] Simhadri STPP | Visakhapatnam; NTPC, 2,000 MW
+  [1:2.1] Hinduja National Power | Visakhapatnam; Hinduja group (private)
+  [1:2.2] Dr NTTPS | Ibrahimpatnam, Vijayawada; APGENCO, 2,560 MW (Stage V 800 MW, Dec 2023)
+  [1:2.3] Dr M.V.R. RTPP | Muddanur, Kadapa; 1,650 MW
+  [1:2.4] Sri Damodaram Sanjeevaiah TPS | Krishnapatnam, Nellore; 2 × 800 MW
+  [1:2.5] Vijjeswaram | Gas-based (Godavari)
+[1:3] - **No coal of its own** – coal from **Singareni and MCL**. Installed + contracted **21,297 MW**; T&D losses **9.25%**.
+[1:4] - DISCOMs: **APEPDCL Visakhapatnam**; **APSPDCL Tirupati** (not Hyderabad); **APCPDCL** re-formed **2020, Vijayawada**.
+[1:5] - **Free farm power:** **Y.S. Rajasekhara Reddy** (CM from 14 May 2004). **BPL SC/ST** households: free up to **200 units/month**; aqua farmers **₹1.50/unit**.
+[1:6] - **24,691** tribal households electrified under **PM JANMAN** (not RDSS).
+[1:7] - APGENCO plans two **3,200 MW** ultra-supercritical plants: **Srikakulam** and pithead **Talcher** (Odisha).
+[1:8] > Exam angle: Kothagudam is in Telangana; the Visakhapatnam-district plant is **Simhadri**.
+[1:9] ~~ Sources: AP Reorganisation Act 2014, Twelfth Schedule C(1), C(6) (Gazette p.69); app notes 5:59 sub 10, 5:60 sub 9
+## SUB 2 | Transmission – One Nation One Grid
+[2:0] - **One Nation-One Grid-One Frequency** = world's **largest synchronous grid**; over 5 lakh ckm.
+[2:1] - **Five regional grids** (N, E, W, NE, S); **Southern** synchronised last, **December 2013**.
+[2:2] - **POWERGRID (PGCIL)** = Central Transmission Utility.
+[2:3] - **Green Energy Corridor:** began with a **PGCIL study (2012)**; built from 2015.
+[2:4] - Record peak **270.82 GW** (21 May 2026); peak shortage **4.2% (2014) → 0.03% (2025)**.
+[2:5] - **BESS** helps meet the **evening peak** when solar fades.
+[2:6] ~~ Sources: app notes 5:59 sub 3
+## SUB 3 | Discom Finances – Why the SEBs Went Sick
+[3:0] - Causes: **below-cost sale** to farm and domestic users, **poor cost recovery**, high T&D losses, **rising commercial losses**, **delays** in commissioning new projects.
+[3:1] - **Not a cause:** the **autonomy of States** over generation and distribution (APPSC G2 Mains 2017).
+[3:2] TABLE head: Metric | Meaning | Trend
+  [3:2.0] AT&C loss | Technical + commercial loss | 22.62% (FY14) → 15.04% (FY25)
+  [3:2.1] ACS-ARR gap | Average cost of supply minus average revenue realised per unit | ₹0.78 → ₹0.06
+[3:3] - DISCOMs: loss ₹67,962 crore (2013-14) → **profit ₹2,701 crore** (FY25). States spend about **₹2.4 lakh crore/year** on power subsidies.
+[3:4] - **PFC Integrated Rating** grades DISCOMs every year.
+[3:5] ~~ Sources: app notes 5:59 sub 6; APPSC G2 Mains 2017 key
+## SUB 4 | UDAY, RDSS and Smart Meters
+[4:0] - **UDAY** (Ujwal DISCOM Assurance Yojana, Ministry of Power, **Nov 2015**): financial turnaround – States took over **75%** of DISCOM debt.
+[4:1] TABLE head: Operational / supply side | Demand side
+  [4:1.0] Feeder and DT metering, smart meters, transformer upgrades, coal swapping, cutting transmission loss, cheaper funds | Energy-efficient LED bulbs (UJALA), efficient pumps, fans, ACs
+[4:2] - **RDSS (2021):** **₹3.03 lakh crore**; results-linked; to FY 2027-28; nodal **REC and PFC**; smart meters on **TOTEX (PPP)**; **20.33 crore** smart meters sanctioned.
+[4:3] - **EESL** signed an MoU with **PNGRB** for smart PNG meters.
+[4:4] > Exam angle: the UDAY "demand-side intervention" is **LED bulbs**; coal swapping and lower transmission loss are supply-side.
+[4:5] ~~ Sources: app notes 5:59 sub 7; APPSC G1 key (UDAY)
+## SUB 5 | DDUGJY and Saubhagya – Rural Electrification
+[5:0] TABLE head: Scheme | Year | Focus
+  [5:0.0] DDUGJY (Deen Dayal Upadhyaya Gram Jyoti Yojana) | 3 Dec 2014 | Power supply in rural areas: agricultural feeder separation, strengthening of rural networks, metering; nodal REC
+  [5:0.1] Saubhagya | 2017 | Households (~2.86 crore); nodal REC
+[5:1] - **28 April 2018:** all **18,374** villages electrified; last **Leisang (Manipur)**.
+[5:2] - Farm feeders separated under RDSS are **solarised under PM-KUSUM**.
+[5:3] ~~ Sources: app notes 5:59 sub 8
+## SUB 6 | Installed Capacity Mix
+[6:0] TABLE head: Rank | Source | GW (2026) | Share
+  [6:0.0] 1 | Coal incl. lignite | 230.12 | 42.43%
+  [6:0.1] 2 | Solar | 157.05 | 28.96%
+  [6:0.2] 3 | Wind | 56.81 | 10.47%
+  [6:0.3] 4 | Large hydro | 51.96 | 9.58%
+  [6:0.4] 5 | Oil and gas | 20.71 | 3.82%
+  [6:0.5] 6 | Bio-power | 11.75 | 2.17%
+  [6:0.6] 7 | Nuclear | 8.78 | 1.62%
+  [6:0.7] 8 | Small hydro | 5.18 | 0.96%
+[6:1] - Order **coal > solar > wind > large hydro**; **solar** = largest RE component; **44.6 GW** solar added in 2025-26.
+[6:2] - Total (15 Aug 2026) about **552 GW**; non-fossil **over 54%**.
+[6:3] - **Gujarat** first among States; **Maharashtra** first in thermal capacity.
+[6:4] - **CEA National Generation Adequacy Plan** (to 2035-36): **1,121 GW**; peak **459 GW**.
+[6:5] ~~ Sources: app notes 5:59 sub 0
+## SUB 7 | Generation, PLF and Global Rank
+[7:0] - 2024-25: **1,824 TWh** – **thermal ~75%**, RE **~22%**, nuclear ~3%. Coal is ~42% of capacity but over 70% of output.
+[7:1] TABLE head: Source | PLF / capacity factor
+  [7:1.0] Coal | 60–85%
+  [7:1.1] Nuclear | over 84% (highest)
+  [7:1.2] Wind | 20–35%
+  [7:1.3] Solar | 20–25%
+[7:2] - **Southern Region** – highest thermal PLF.
+[7:3] - India = **3rd-largest producer and consumer** of electricity; **3rd in RE, 3rd in solar, 4th in wind** capacity.
+[7:4] - Per capita consumption **1,460 kWh** (2024-25), from 957 kWh (2013-14). NITI: coal's generation share ~74% → **6–10% by 2070**.
+[7:5] ~~ Sources: app notes 5:59 sub 1
+## SUB 8 | Non-fossil Share vs Commitments
+[8:0] - **50% non-fossil capacity**, the 2030 NDC goal, was reached about **five years early**; **51.55%** on 30 Nov 2025.
+[8:1] ~~ Sources: app notes 5:59 sub 2
+## SUB 9 | Thermal Power – Plants, UMPPs and Reforms
+[9:0] TABLE head: Plant | State | MW / owner
+  [9:0.0] Vindhyachal | MP | 4,760, NTPC – largest
+  [9:0.1] Mundra | Gujarat | 4,620, Adani
+  [9:0.2] Talcher (Kaniha) | Odisha | 3,000, NTPC
+[9:1] - **UMPP** = **4,000 MW supercritical coal** plant by tariff-based bidding: **Sasan**, **Krishnapatnam** (AP, stalled) – **Reliance Power**; **Mundra UMPP – Tata Power**.
+[9:2] - **FGD** scrubbers trap **SO₂**. Coal plants: largest CO₂ source, PM2.5, heavy water use.
+[9:3] - **SAMARTH** (2021): **5% biomass co-firing**. **Revised SHAKTI:** Window-I coal at notified price.
+[9:4] - **Flexible operation:** batteries, pumped storage, cyclical gas operation, hydro optimisation.
+[9:5] ~~ Sources: app notes 5:60 sub 9-10
+## SUB 10 | Electricity Act 2003 and Regulators
+[10:0] - Notified **10 June 2003**: **delicensed generation**, **SEBs unbundled**, **open access**.
+[10:1] TABLE head: Body | Role
+  [10:1.0] CEA | Installed-capacity reports, National Electricity Plan
+  [10:1.1] CERC | Central tariffs; power exchanges
+  [10:1.2] SERC | Retail tariffs in the State
+  [10:1.3] APTEL | Appeals; set up 24 Aug 2004
+[10:2] - **APERC** under the **AP Electricity Reform Act 1998**; 6 Aug 2026: 1,600 MW coal power under **Section 63**.
+[10:3] ~~ Sources: app notes 5:59 sub 4
+## SUB 11 | Rules and Power Markets
+[11:0] - **Rights of Consumers Rules 2020:** connection in **3 / 7 / 15 days** (metro / municipal / rural).
+[11:1] - **Late Payment Surcharge Rules 2022:** old dues in **instalments**.
+[11:2] - Exchanges: IEX, PXIL, **HPX (Hindustan Power Exchange)**; **Real-Time Market 2020**; **Green Day-Ahead Market 2021**.
+[11:3] ~~ Sources: app notes 5:59 sub 5
+## SUB 12 | Privatisation and Franchise
+[12:0] - Delhi DISCOMs privatised **2002**; Odisha DISCOMs to **Tata Power** (2020-21); Bhiwandi input franchise – **Torrent** (2007).
+[12:1] - **16th Finance Commission:** SPVs to **warehouse DISCOM debt**.
+[12:2] ~~ Sources: app notes 5:59 sub 9
+## SUB 13 | Energy Data Publications
+[13:0] TABLE head: Publication | Publisher
+  [13:0.0] Energy Statistics (India) | CSO, now NSO (MoSPI)
+  [13:0.1] National Electricity Plan, NGAP | CEA
+  [13:0.2] World Energy Outlook | IEA
+  [13:0.3] Statistical Review of World Energy | Energy Institute (formerly BP) – not IEA
+  [13:0.4] India Energy Security Scenarios 2047 | NITI Aayog
+[13:1] ~~ Sources: app notes 5:59 sub 11
