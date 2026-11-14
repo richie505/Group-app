@@ -932,3 +932,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b5-w005 rewrite (S&T rows 5-10): own 403 → 137 (34%). Check PYQ y4351c0b7ed7 first Indian supercomputer on TOP500 (notes PARAM Padma 2003).
 - b3-w007 rewrite: own 417 → 167 (40%). Check notes row 7 line 4:11 NITI State Support Mission year (2026?).
 - b4-w005 rewrite: own 416 → 100 (24%; floor of 30% added for later jobs). PYQ yad9a0dd3d9c coal→diamond (graphite). Removed own f270b8a859a81 (Fuji active), fixed Circum-Pacific 68–70%. Pangaea break-up 200 vs 225 Ma in notes.
+- b6-w007 rewrite (AP budget rows 7-12): own 410 → 150 (37%). Notes figures disagree across rows: interest ₹37,781 vs 37,281 cr; revenue deficit 22,003 vs 22,002 cr; Vizag GDDP/PCI.
