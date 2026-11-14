@@ -1272,3 +1272,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b1-w183 (rows 183–189)
 - own 431 → 61 kept + 86 new (147, 34%); new 51 statements / 21 match / 13 A–R / 1 sequence; no lines lost. No wrong notes/keys.
 - Removed as not in notes: n1a7c1fb0d7a (Debendranath renamed Brahmo Sabha), f21d5b75723f4 (Dnyanodaya) — possible notes gaps.
+
+## rewrite b3-w083 (rows 83–87)
+- own 421 → 55 kept + 94 new (149, 35%); new 58 statements / 24 match / 12 A–R; no lines lost.
+- nc13a69549c1 (One State-One RRB merged "15 RRBs"; notes 26) merged with fix.
+- PYQ y9445309fd91 "250-Dollar" banknote vs notes HK$150 — check.
+- Notes self-flagged doubts kept out: 84:0:1.3 RBI SBI stake 92% vs 60%; 84:3:9 slack season; 84:3:13 161 scheduled banks; 83:3:6 CBDC.

@@ -49,12 +49,12 @@
   "row": 80,
   "s": "Consider the following statements:\n1. 'Transforming our World: the 2030 Agenda' was adopted at Rio de Janeiro in September 2015.\n2. The Millennium Development Goals covered the period 2000–2015.\n3. The decision to frame the SDGs was taken at Rio+20 in 2012.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
-   "1 and 3 only",
    "1 only",
-   "1, 2 and 3"
+   "1 and 3 only",
+   "1, 2 and 3",
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "2 and 3 are correct: the Millennium Summit set the MDGs (2000–2015) and the SDGs were born at Rio+20 (2012). 1 is wrong: the 2030 Agenda was adopted at the UN Sustainable Development Summit in New York on 25 September 2015.",
   "src": "app",
   "tq": "statements"
@@ -171,10 +171,10 @@
   "o": [
    "1 only",
    "2 and 3 only",
-   "1, 2 and 3",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1 and 2 are correct. 3 is wrong: the NGT's headquarters (principal bench) is at New Delhi; Bhopal, Pune, Kolkata and Chennai have zonal benches.",
   "src": "app",
   "tq": "statements"
@@ -184,12 +184,12 @@
   "row": 80,
   "s": "Consider the following statements about the Swarna Andhra @2047 vision:\n1. It is aligned with Viksit Bharat @2047.\n2. It is organised around ten 'Sutras'.\n3. It aims at a 'Wealthy, Healthy and Happy' Andhra Pradesh by 2047.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
-   "1 and 2 only",
    "1, 2 and 3",
-   "3 only"
+   "1 and 2 only",
+   "3 only",
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 0,
   "x": "All three are correct: Swarna Andhra @2047 aims at a 'Wealthy, Healthy and Happy' AP, is built on Ten Sutras and is aligned with Viksit Bharat @2047.",
   "src": "app",
   "tq": "statements"
@@ -304,12 +304,12 @@
   "row": 81,
   "s": "Consider the following statements about the SDG India Index:\n1. Kerala ranked first in the 2019-20 edition.\n2. Kerala and Tamil Nadu jointly topped the 2023-24 edition.\n3. Bihar was ranked last in the 2023-24 edition.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "1 only",
+   "1 and 3 only",
    "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: Kerala and Uttarakhand jointly topped 2023-24 with 79; Bihar was last with 57. Kerala has topped every edition.",
   "src": "app",
   "tq": "statements"
@@ -440,11 +440,11 @@
   "s": "Consider the following statements about green chemistry:\n1. The 12 Principles of Green Chemistry were introduced in 1998 by Paul Anastas and Mario Molina.\n2. The core idea of the 12 Principles is waste prevention rather than cleanup.\n3. Green chemistry applied to the design, use and disposal of medicines is called Green Pharmacy.\nWhich of the statements given above is/are correct?",
   "o": [
    "2 only",
-   "2 and 3 only",
    "1 and 2 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "2 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "2 and 3 are correct. 1 is wrong: the 12 Principles (1998) were given by Paul Anastas and John Warner.",
   "src": "app",
   "tq": "statements"
@@ -455,11 +455,11 @@
   "s": "Consider the following statements about the Green Skill Development Programme:\n1. It was launched in 2017 by the Ministry of Environment, Forest and Climate Change.\n2. It is built on the network of the Partnership for Action on Green Economy (PAGE).\n3. It trains youth in biodiversity conservation, pollution monitoring, and forestry and wildlife.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1, 2 and 3",
    "2 and 3 only",
-   "1 and 3 only"
+   "1 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: the programme builds on the ENVIS network of MoEFCC.",
   "src": "app",
   "tq": "statements"
@@ -575,12 +575,372 @@
   "s": "Consider the following statements:\n1. The National Green Hydrogen Mission (outlay Rs 19,744 crore) targets 5 MMT of green hydrogen a year by 2030.\n2. The National Green Hydrogen Mission is linked to India's net zero target of 2050.\n3. Under AMRUT 2.0, treated used water is to meet 20% of city demand and 40% of industrial demand.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: India's net zero target year is 2070.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp03cdb60d3f5d",
+  "row": 83,
+  "s": "Consider the following statements:\nAssertion (A): Halons are more damaging to the ozone layer than CFCs.\nReason (R): Halons release bromine, which is about 100 times more potent than chlorine from CFCs in destroying ozone.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: halons (used in fire extinguishers) are the source of stratospheric bromine, about 100 times more potent than CFCs.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp005d0ed7cb32",
+  "row": 83,
+  "s": "Consider the following statements:\n1. Ozone is formed when ultraviolet radiation splits molecular oxygen.\n2. About 90 per cent of atmospheric ozone lies in the stratosphere, at about 10–50 km.\n3. An 'ozone hole' is conventionally identified when total column ozone falls below 300 Dobson Units.\n4. One Dobson Unit equals 0.01 mm of pure ozone at 0°C and 1 atmosphere.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: an ozone hole is total column ozone below 220 DU.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpebcb8d64bcf7",
+  "row": 83,
+  "s": "Consider the following statements about the Antarctic ozone hole:\n1. The seasonal thinning is most pronounced in the Southern Hemisphere autumn (March–May).\n2. Polar stratospheric clouds in extreme cold convert stable chlorine compounds into active chlorine.\n3. The hole was reported in 1985 by scientists of the British Antarctic Survey.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the thinning is most pronounced in the Southern Hemisphere spring, roughly August–November, when sunlight returns.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp483587e73059",
+  "row": 83,
+  "s": "Consider the following projections for the ozone layer returning to 1980 levels:\n1. Over most of the world – by about 2040\n2. Over the Arctic – by about 2066\n3. Over the Antarctic – by about 2066\nWhich of the projections given above is/are correct?",
+  "o": [
+   "1 only",
    "2 and 3 only",
    "1 and 3 only",
    "1, 2 and 3"
   ],
   "a": 2,
-  "x": "1 and 3 are correct. 2 is wrong: India's net zero target year is 2070.",
+  "x": "1 and 3 are correct. 2 is wrong: the Arctic is projected to recover by about 2045; 2066 is the Antarctic date.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpebf2e2c0b14b",
+  "row": 83,
+  "s": "Consider the following statements:\n1. The Vienna Convention of 1985 is the framework treaty for protection of the ozone layer.\n2. The Montreal Protocol, signed in Montreal in 1987, entered into force on 1 January 1991.\n3. The Ozone Secretariat of the Montreal Protocol is located in Nairobi.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: the Montreal Protocol, signed on 16 September 1987, entered into force on 1 January 1989.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp26c8b1ca3238",
+  "row": 83,
+  "s": "Consider the following statements:\nAssertion (A): The Montreal Protocol is widely called the most successful environmental treaty.\nReason (R): About 99 per cent of ozone-depleting substances had been phased out under it by 2024.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: with ~99% of ODS phased out (and 0.5–1°C of warming avoided by 2050), the Montreal Protocol is regarded as the most successful environmental treaty.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpf4b0f1a6aff2",
+  "row": 83,
+  "s": "Match List-I (Treaty) with List-II (Concern):\nList-I | List-II\na. Kyoto Protocol | i. Biosafety and LMOs\nb. Basel Convention | ii. Access and benefit sharing\nc. Cartagena Protocol | iii. Binding GHG cuts by developed countries\nd. Nagoya Protocol | iv. Hazardous waste\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 1,
+  "x": "Kyoto (1997, UNFCCC) – binding emission targets for developed countries; Basel (1989) – hazardous waste; Cartagena (2000, CBD) – biosafety; Nagoya (2010, CBD) – access and benefit sharing.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8b209d80efd6",
+  "row": 83,
+  "s": "Consider the following statements:\nAssertion (A): HFCs, which replaced ozone-depleting substances in air-conditioners and refrigerators, are being phased down under the Kigali Amendment.\nReason (R): HFCs deplete the stratospheric ozone layer.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false: HFCs are non-ODS. They are phased down because they are potent greenhouse gases with very high global warming potential.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb645f79d4439",
+  "row": 83,
+  "s": "Consider the following statements:\n1. Liquid ammonia is used as the refrigerant in large cold-storage plants.\n2. In a soda-acid fire extinguisher, sodium bicarbonate reacts with dilute sulphuric acid to produce carbon dioxide.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Neither 1 nor 2",
+   "Both 1 and 2"
+  ],
+  "a": 3,
+  "x": "Both are correct: ammonia is the cold-storage refrigerant (Freon/CFC in domestic refrigerators), and the soda-acid extinguisher releases CO2 from NaHCO3 + dilute H2SO4.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcb65ea1e21c0",
+  "row": 83,
+  "s": "Consider the following statements about World Ozone Day (16 September):\n1. It marks the signing of the Montreal Protocol.\n2. It was declared by the UN General Assembly in 1994.\n3. Its 2026 theme, 'Global Action for a Cooler Planet', marks 10 years of the Kigali Amendment.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "All three are correct: the UNGA declared 16 September as the International Day for the Preservation of the Ozone Layer on 19 December 1994, marking the signing of the Montreal Protocol on 16 September 1987.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2d1b76d65404",
+  "row": 83,
+  "s": "Consider the following statements about the Kigali Amendment:\n1. It was adopted in 2016 at Kigali, Rwanda, and came into force on 1 January 2019.\n2. It provides for the phase-down of HCFCs.\n3. It is expected to avoid up to 0.5°C of global warming by 2100.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: Kigali phases down HFCs, which are not ODS but potent greenhouse gases.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp17c2596a5ab7",
+  "row": 83,
+  "s": "Consider the following statements about India's HFC phase-down under the Kigali Amendment:\n1. India's baseline period is 2024–26.\n2. India must freeze HFC consumption in 2028.\n3. India must cut HFCs by 85% by 2045.\n4. Pakistan is in the same group (Group 2) as India.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: India (Group 2, with the Gulf states, Iran, Iraq and Pakistan) must cut HFCs by 85% by 2047; 80% by 2045 applies to Group 1 (including China).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp73981e8d2d46",
+  "row": 83,
+  "s": "Consider the following statements:\n1. India ratified the Kigali Amendment in 2016.\n2. MoEFCC has directed that no environmental clearance be granted for new or additional HFC production after 31 December 2027.\n3. The Ozone Cell of MoEFCC is India's National Ozone Unit.\n4. The Ozone Depleting Substances (Regulation and Control) Rules, 2000 were framed under the Environment (Protection) Act.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All four",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "2, 3 and 4 are correct. 1 is wrong: India ratified the Kigali Amendment in 2021.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp243ad536b973",
+  "row": 83,
+  "s": "Match List-I (Substance) with List-II (India's phase-out schedule):\nList-I | List-II\na. Halons (except essential use) | i. Allowed up to 1 January 2040\nb. CFCs in manufacturing (except MDIs) | ii. 1 January 2001\nc. Methyl bromide | iii. 1 January 2003\nd. HCFCs | iv. 1 January 2015\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Halons – 2001; CFCs in manufacturing – 2003 (CTC, methyl chloroform and CFCs in MDIs – 2010); methyl bromide – 2015; HCFCs allowed up to 2040.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp83664ed3e52a",
+  "row": 83,
+  "s": "Consider the following statements about the India Cooling Action Plan (2019):\n1. Its time horizon extends to 2037-38.\n2. It aims to cut cooling demand by 25–30% and refrigerant demand by 20–25%.\n3. Large-scale coal-based power generation is one of its six thematic areas.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 1,
+  "x": "Only 1 is correct. 2 is wrong: the targets are 20–25% for cooling demand and 25–30% for refrigerant demand. 3 is wrong: the six themes are space cooling in buildings, cold chain, servicing, domestic production, R&D and transport.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp40d4621441fb",
+  "row": 83,
+  "s": "Consider the following statements about increased UV-B radiation due to ozone loss:\n1. It increases the growth of phytoplankton.\n2. It can cause eye cataracts in humans.\n3. A 1% loss of ozone raises harmful UV radiation by about 2%.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "2 and 3 are correct. 1 is wrong: more UV-B damages phytoplankton and fish larvae; it also reduces crop photosynthesis and degrades plastics.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3897ba98f629",
+  "row": 83,
+  "s": "Match List-I (Convention) with List-II (Focus):\nList-I | List-II\na. Basel | i. Mercury\nb. Rotterdam | ii. Prior Informed Consent for hazardous chemicals and pesticides in trade\nc. Stockholm | iii. Transboundary movement of hazardous wastes\nd. Minamata | iv. Persistent Organic Pollutants\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "Basel (1989) – hazardous wastes; Rotterdam (1998) – PIC; Stockholm (2001) – POPs; Minamata (2013) – man-made emissions of mercury. 'Mercury – Rotterdam' is the usual wrong pair.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0a5f53b43985",
+  "row": 83,
+  "s": "Consider the following statements about the Minamata Convention:\n1. It was adopted in 2013 and came into force in 2017.\n2. It is named after a mercury-poisoning episode caused by factory wastewater in Minamata, Japan.\n3. It provides for the phase-out of dental amalgam by 2030.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: dental amalgam is to be phased out by 2034.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1f243fc2df80",
+  "row": 83,
+  "s": "Consider the following statements:\n1. The Basel Convention's Prior Informed Consent mechanism operates in India under the Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016.\n2. The Basel Ban Amendment, banning hazardous-waste exports from OECD/EU countries and Liechtenstein to other countries, came into force on 5 December 2019.\n3. India acceded to the Rotterdam Convention in 2010.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: India acceded to the Rotterdam Convention in 2005.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5aee1ae33156",
+  "row": 83,
+  "s": "Consider the following statements about the Rotterdam Convention:\n1. Under its Prior Informed Consent procedure, the importing country must agree before a listed chemical is exported to it.\n2. Its Annex III lists persistent organic pollutants to be eliminated.\n3. In India, the Ministry of Chemicals & Fertilisers and the Ministry of Agriculture are its Designated National Authorities.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: Annex III lists pesticides and industrial chemicals banned or severely restricted by Parties; POPs are the subject of the Stockholm Convention.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5e8aab91aca0",
+  "row": 83,
+  "s": "Consider the following statements:\nAssertion (A): In India, the Basel, Rotterdam and Stockholm conventions are coordinated by the Hazardous Substances Management Division of MoEFCC.\nReason (R): The Basel, Rotterdam and Stockholm conventions share one joint secretariat under UNEP.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: the joint BRS secretariat is an international arrangement under UNEP; the national nodal division is India's own administrative choice.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp090e5e780b78",
+  "row": 83,
+  "s": "Consider the following statements about the Stockholm Convention:\n1. India ratified it in 2006.\n2. Candidate chemicals are assessed by its POPs Review Committee.\n3. In 2020 India ratified five more POPs.\n4. 37 chemicals are now listed under it.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: India ratified seven more POPs in 2020. The initial 'dirty dozen' has grown to 37 listed chemicals.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5d56082e664b",
+  "row": 83,
+  "s": "Consider the following statements:\nAssertion (A): Persistent Organic Pollutants remain confined to the area where they are released.\nReason (R): POPs are toxic, persist for long and bioaccumulate in living organisms.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: POPs travel long distances (one of their defining properties). R is true: they are toxic, persistent and bioaccumulative.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp061a5b8f5ee1",
+  "row": 83,
+  "s": "Consider the following statements about the 2025 additions to Annex A of the Stockholm Convention:\n1. Chlorpyrifos, one of the additions, is a neurotoxic insecticide.\n2. Chlorpyrifos was one of the initial 'dirty dozen' POPs.\n3. Long-chain PFCAs, another addition, are known as 'forever chemicals'.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: chlorpyrifos is not in the dirty dozen (DDT, PCBs, dioxins, furans, aldrin…); it was added only in 2025.",
   "src": "app",
   "tq": "statements"
  }
