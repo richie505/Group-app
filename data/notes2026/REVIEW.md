@@ -1047,3 +1047,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 448 → 102 kept + 85 new (187, 42%); new 54 statements / 20 match / 11 A–R; 2 of 290 lines lost.
 - Removed nee7cf8fcba1 (Speaker chairs Rules Committee) as not in notes — the fact is TRUE (Speaker chairs Rules, Business Advisory, General Purposes Committees); notes gap to add.
 - 37:4:5 (131st Amendment Bill, Lok Sabha 550 → 850) app-notes only, unverified.
+
+## rewrite b6-w039 (row 39)
+- own 241 → 36 kept + 62 new (98, 41%); new 41 statements / 14 match / 7 A–R; no lines lost. No wrong notes/keys.
