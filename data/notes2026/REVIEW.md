@@ -1024,3 +1024,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w034 (rows 34–35)
 - own 442 → 103 kept + 117 new (220, 50%); new 79 statements / 25 match / 13 A–R; no lines lost.
 - Kept own ca447a6d (EBP ministry) and cab78d64 (SKO ministry) mislinked to 34:1:11.1 (LNG) — fix in link cleanup.
+
+## rewrite b3-w048 (rows 48–52)
+- own 423 → 63 kept + 93 new (156, 37%); new 62 statements / 18 match / 13 A–R; no lines lost.
+- Notes conflict: "Later Green Revolution" 1981–92 (row 49, 5:4.2) vs 1987–92 (row 51, 6:0.2) — reconcile.
+- PYQ y9307006b4ff keys "3rd Plan" for start of Green Revolution; notes say Plan Holiday (1966–69). Many books say end of 3rd Plan (1965–66 HYV) — official key stays, likely Disputed chip.
