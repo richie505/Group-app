@@ -75,6 +75,7 @@
 - **Disaster risk = Hazard x Vulnerability.**
 - Man-made disasters: war, hazardous-material exposure, transport accidents; **tsunami, cyclone, earthquake = natural**.
 - **DM Act 2005** shifted focus from post-disaster **relief → prevention, mitigation, preparedness**.
+- **APSDMA** is chaired by the **Chief Minister** (AP Disaster Management Rules, 2007). **NDMA–MoPR community DRR project:** Rs 507.37 crore, through **panchayats** in 81 districts of 20 States.
 - **Vulnerability Atlas of India** (housing and infrastructure): published by **BMTPC** (Building Materials and Technology Promotion Council).
 > The 5,700 km figure uses the old 7,516.6 km coastline (now 11,098.81 km after the 2025 re-measurement).
 ~~ Sources: PMF Internal Security & DM 02 p.45, p.55; PMF Physical Geography 02 p.100; Down To Earth "As told to Parliament (22 Dec 2022)" (59%); Rocket Disaster Mgmt p.27-28; app notes 4:45 (subs 0, 2, 9)

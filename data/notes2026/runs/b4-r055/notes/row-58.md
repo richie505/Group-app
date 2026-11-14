@@ -43,7 +43,7 @@
 - **ST 10.43 crore (8.6%)**, ST decadal growth 23.66%; **elderly 60+ 8.6%** (Kerala 12.6% highest, Jharkhand lowest).
 - SRS 2024: 0–14 **24%**, 15–59 **66.4%**, 60+ **9.7%**.
 - Census 2011 = **15th** census since 1872, **7th** after Independence; motto "**Our Census, Our Future**"; reference date **1 March 2011**.
-~~ Sources: NextGen Indian Geography 15 p.12 (17.64%, sharpest decline), p.17 (child population); OnlyIAS NCERT Human Geography 03 p.15; Ramesh Singh Indian Economy 04 p.86 (youth below 35); NextGen Indian Economy P1 04 p.23; app notes 4:58 (sub 4, 5)
+~~ Sources: NextGen Indian Geography 15 p.12 (17.64%, sharpest decline), p.17 (child population); OnlyIAS NCERT Human Geography 03 p.15; general knowledge, not checked (65% below 35); NextGen Indian Economy P1 04 p.23; app notes 4:58 (sub 4, 5)
 
 === India in the World
 | Measure | India |

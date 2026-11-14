@@ -76,6 +76,7 @@
 | **Rayalaseema (8)** – inland **south/south-west** | Kurnool, Nandyal, **Anantapur**, Sri Sathya Sai, YSR Kadapa, Annamayya, Tirupati, **Chittoor** |
 - Coastal Andhra: deltas, most farm output, highest population density. Rayalaseema: Deccan plateau, drought-prone, very low density; borders TN, Karnataka, Telangana. Palnadu, Bapatla and NTR are coastal.
 - **Physiographic divisions:** coastal plains (~950 km long, "Rice Bowl"), Eastern Ghats hill region, western (Rayalaseema) plateau.
+- Western (Rayalaseema) plateau lies mostly at **150–600 m**; Mahendragiri belongs to the Eastern Ghats hill region (Srikakulam), not this plateau.
 - **Rayalaseema plateau** is made of **gneissic** (granite-gneiss) Archaean rock; red soils.
 - **Oldest rocks:** Archaean **Dharwar** rocks (>2,500 million years) of Anantapur, Chittoor, Kadapa – e.g. the schist belt round **Kuppam**.
 | Landmark | Fact |

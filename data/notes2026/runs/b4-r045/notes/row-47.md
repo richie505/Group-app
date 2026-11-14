@@ -7,12 +7,13 @@
 |---|---|
 | North AP | **Eastern Ranges** |
 | South AP | **Kadapa Ranges** |
+- Geologically the old residual hills form the **Eastern Ghats Mobile Belt**.
 - Rocks: **khondalite and charnockite** (Archaean); **khondalite hills = highest bauxite-bearing mountains** → AP's **bauxite** lies in the **Eastern Ghats** (erstwhile Visakhapatnam and East Godavari: Ananthagiri, Araku, Galikonda, Chintapalli belt).
 - Rivers rising in the Eastern Ghats: **Vamsadhara** (biggest), **Nagavali**, Sabari, Machkund (UPSC 2021: Nagavali and Vamsadhara – not Brahmani or Subarnarekha).
 # Limits beyond AP
 - The Eastern Ghats run from the **Mahanadi valley** (Odisha) **to the Nilgiris**, where they **join the Western Ghats**; Mahendragiri is only the northern start in AP.
 - Eastern Ghats hills outside AP: **Garhjat** (Odisha), **Javadi** (Vellore–Tiruvannamalai, TN), **Shevaroy** (Yercaud, **Salem, Tamil Nadu**), **Kalvarayan** (TN), Kolli Malai (TN), Biligirirangan (Karnataka). **Tirumala** hills are also Eastern Ghats.
-- **North → south:** **Nallamalai – Javadi – Nilgiri – Anaimalai** (UPSC 2005).
+- **North → south:** **Nallamalai – Javadi – Nilgiri – Anaimalai** (UPSC 2005); Kaimur – Nallamalai – Seshachalam – Biligirirangan.
 - **Salher** (Maharashtra) is a **Western Ghats** peak, not Eastern Ghats.
 > Most asked: "discontinuous and eroded"; Eastern Ranges (north) / Kadapa Ranges (south); Mahanadi to Nilgiris.
 ~~ Sources: Rocket AP Geography p.19, p.21-22, p.24-25; NextGen AP Geography 02 p.1-2; NextGen Indian Geography 05 p.13-14; app notes 4:47 (sub 6)
@@ -35,7 +36,7 @@
 - **Horsley Hills** (Annamayya, Madanapalle; ~1,265 m) = locally **Enugu Mallamma Konda (Enugula Mallamma hills)**.
 - Velikonda, Nallamala, Seshachalam, Palakonda are AP ranges; **Javadi, Sirumalai, Karanthamalai** are in Tamil Nadu.
 # Wildlife and tribes
-- **NSTR** (Nallamala; est. 1983, ~3,728 sq km; Telangana part = Amrabad TR) – India's largest tiger reserve.
+- **NSTR** (Nallamala; est. 1983, ~3,728 sq km; Telangana part = Amrabad TR) – India's largest tiger reserve; **gaur** to be moved from Central India to NSTR/Nallamala from Sep 2026.
 | Tribe | Belt |
 |---|---|
 | Chenchu (PVTG) | Nallamala (ITDA Srisailam) |
@@ -46,7 +47,7 @@
 
 === Coastline – Length, Rank and End Points
 # Length and rank (revised)
-- **India's coastline revised: 7,516.6 km → 11,098.81 km** (PIB, 4 Dec 2025; GIS re-measurement, not physical change).
+- **India's coastline revised: 7,516.6 km → 11,098.81 km** (PIB, 4 Dec 2025; GIS retracing at 1:250,000 scale, not physical change).
 | State | Revised coastline |
 |---|---|
 | Gujarat | 2,340.62 km (1st) |
@@ -84,6 +85,7 @@
 | Birds | Greater flamingos | Painted storks, grey pelicans; Ramsar site 2002 |
 - **Sriharikota:** barrier island **near Pulicat Lake**, in **Andhra Pradesh** (Nellore district when asked, now Tirupati), partly in **Sullurpeta** and partly in **Tada** mandal; **separates Pulicat from the Bay**; SDSC-SHAR – chosen 1969, operational 1971.
 - Coastal bird sites: Nelapattu (Tirupati), Uppalapadu (Guntur), Coringa WLS (Kakinada, Godavari mangroves), Krishna WLS, Kondakarla Ava, Rollapadu (Nandyal, dry grassland).
+- Threats: aquaculture encroachment (Kolleru); ISRO launches, thermal plants, sand mining (Pulicat) – not Himalayan glacial erosion. **Uppalapadu** (Guntur): spot-billed storks/pelicans, black-headed ibises; **Rollapadu**: Great Indian Bustard, **lesser florican**; Kondakarla Ava: freshwater lake near Anakapalle.
 - Waddepally and Laknavaram are Telangana lakes; Sur Sagar is in Gujarat.
 ~~ Sources: NextGen Indian Geography 06 p.3-6; NextGen AP Geography 01 p.24, p.27; Rocket AP Geography p.3, p.27, p.30-31; Rocket Indian Geography p.98-99; Wikipedia "Sriharikota" (fetched: Tirupati district, Sullurpeta and Tada mandals); app notes 4:47 (sub 5)
 
@@ -96,7 +98,9 @@
 | **Coromandel** | **South of the Krishna** to Kanyakumari – mainly Tamil Nadu, but includes the southern AP coast |
 - **Deltas:** **Godavari** (Konaseema; central delta ~150 km wide) and **Krishna** form the fertile alluvial **"Rice Bowl"** (Krishna–Godavari delta), on the **Eastern Coastal Plains**; the **Penna** forms a small delta in Nellore.
 - Yarada hills / **Dolphin's Nose** (335 m): a rocky headland with **sea cliffs** on the Visakhapatnam coast, shielding Visakhapatnam Port.
-- Mangroves: Coringa (Godavari estuary), Krishna WLS.
+- **Krishna delta:** Krishna, Guntur, Bapatla; **Godavari delta (Konaseema):** Konaseema, East/West Godavari, Kakinada – **coconut and banana**. The **Penna** meets the sea at **Utukuru (Vutukuru)**, Nellore – not at Pulicat.
+- **Yanam** (Puducherry, ~30 sq km) is an enclave in the Godavari delta.
+- Mangroves: Coringa (Godavari estuary), **Krishna WLS (Krishna estuary)**; India's 2nd largest mangrove cover is **Gujarat** (ISFR 2023), not AP.
 ~~ Sources: NextGen AP Geography 01 p.23-27; Rocket AP Geography p.26-27; NextGen Indian Geography 06 p.2; PMF Indian Physical Geography 02 p.8; Rocket Indian Geography p.122 (Coromandel: Krishna delta–Kanyakumari); app notes 4:47 (subs 2-4)
 
 === Waterfalls, Caves and Hill Stations
@@ -104,9 +108,10 @@
 |---|---|---|
 | **Talakona** | Tirupati (Nerabailu village; Sri Venkateswara NP) | **Tallest in AP** (~270 ft); Seshachalam hills |
 | **Kailasakona** | Tirupati/Chittoor – **Nagari valley**, near Puttur | Kailasanatha Swamy temple |
-| Ubbalamadugu (Tada) | Tirupati | Trekking spot |
+| Ubbalamadugu (Tada) | Tirupati (Sri Kalahasti–Tada) | Trekking spot |
+| Rampa | Near Rampachodavaram | Eco-tourism |
 | Ethipothala | Palnadu, near Macherla | Chandravanka stream |
-| Katiki, Kothapalli, Chaparai | ASR (Araku/Paderu) | Hill streams |
+| Katiki, Kothapalli (Paderu), Chaparai (Araku) | ASR – not Palnadu | Hill streams |
 - Not in AP: Dudhsagar (Goa), Shivasamudram (Karnataka), Kuntala and Pochera (Telangana), Duduma (on the AP–Odisha border, Odisha side).
 | Cave | District | Type |
 |---|---|---|
