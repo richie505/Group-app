@@ -498,3 +498,10 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Outdated yf662c3d8ef4 NGT Chairperson Swatanter Kumar → now Justice Prakash Shrivastava.
 - y2fc88e128db Delhi AQI 2021 printed 144 kept, not verified (web suggests ~209).
 - Printed-key-only: APSWREIS ANNAPURNA app, APPCB lab instruments, "6 components" solid waste, APPCB river class C.
+
+## b5-r074 (rows 74-76)
+- ydced86eec51 Act chronology: add_option "C, A, B, D" (no printed option correct).
+- yea2abd6b017 Chipko protagonist duplicate: printed Bahuguna → Chandi Prasad Bhatt (matches twin yb0beb864698), dispute line.
+- Disputes: UPSC 2012 pollination (official c kept; MEA says regulating); Water Act printed 1972 (is 1974).
+- Printed-key-only: Madras Education Cess Act 1863; one death per day elephant/tiger. yfcdd04a5c7d EPTRI ambiguous (SPCB labs too).
+- Water Cess rebate 25% (NextGen) vs 70% (PMF) left out. 13 PYQs moved to row 1 need a place job.
