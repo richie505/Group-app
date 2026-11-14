@@ -816,3 +816,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Own MCQ n9bc5e179f76 Gaja Mitra: add_option "Assam" (old notes said Karnataka). Dispute y130e2c1b0f4 national fish (as b4-r083).
 - y1816b2597cb stem "March 2024" — Ramsar award was March 2025. Ramsar 103 (Glaw 101, Sukhna 102, Sauj 103).
 - PMF vs app Ramsar years differ for Sakkarakottai/Therthangal, Nagi/Nakti.
+
+## b6-r086 (CA rows 86-89 reports and indices)
+- y0f6004d3cc6 NCAER SIPI 2016 AP rank: Third → Fourth (NCAER top 3 Gujarat, Delhi, TN). Own MCQ g334232e9f280 HDR 2025 topper → Iceland.
+- Outdated: Doomsday Clock 2½ min ×2 (now 85 s, Jan 2026).
+- Global Firepower publisher (Rocket says IISS — wrong). Henley 2026 Jan 80th vs Rocket 84th.
+- Unverified: GPI 2026 Bhutan best in South Asia; WEF India top risk; y79fab56e9e6 Arton 2017 Germany; y7d3973734fa Henley Singapore (year-dependent). 23 general-knowledge keys.
