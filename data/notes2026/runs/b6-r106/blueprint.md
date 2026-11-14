@@ -15,7 +15,7 @@ Data: 6 exam PYQs and 411 app MCQs, 417 in all (all-mcqs.json). Counts come from
 ## 2. PYQs by sub-topic
 | Sub-topic | PYQs | Exams | Angle |
 |---|---|---|---|
-| Important days – date recall (International Women's Day 8 March; National Panchayati Raj Day 24 April) | 2 | APPSC Group-II; APPSC FSO Mains 2026 | Factual recall (date) |
+| Important days – date recall (International Women's Day 8 March; National Panchayati Raj Day 24 April) | 2 | APPSC Group-II; APPSC FSO Mains | Factual recall (date) |
 | Festivals – regional new year (Bohag Bihu = Assamese New Year) | 1 | AP High Court Common Test 2026 | Festival ↔ state/occasion; look-alike new years (Poila Boishakh, Baisakhi, Magh Bihu) |
 | Folk ritual – Jagar (Uttarakhand) | 1 | UKPSC 2006 | Ritual ↔ state |
 | Apps / schemes in news – INDRA (Navy weather app) | 1 | APPSC ZSWO | Purpose of an app (current linkage: World Meteorological Day) |
