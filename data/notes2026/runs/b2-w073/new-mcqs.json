@@ -718,5 +718,530 @@
   "x": "Only 1 is correct. 2 is wrong: Pranab Mukherjee chaired the committee, but the co-chairman was Shanti Bhushan; Prashant Bhushan was a member.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cpe9718dc6a9f8",
+  "row": 76,
+  "s": "Consider the following statements about the Central Bureau of Investigation (CBI):\n1. It was set up on 1 April 1963 by a resolution of the Ministry of Home Affairs on the recommendation of the Santhanam Committee.\n2. It is a statutory body created by the Delhi Special Police Establishment Act, 1946.\n3. It is an attached office under the Ministry of Personnel (DoPT).\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: the CBI is neither constitutional nor statutory – it was created by an MHA resolution and only draws its powers from the DSPE Act, 1946.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0cd36e3019b9",
+  "row": 76,
+  "s": "Consider the following statements:\n1. D.P. Kohli was the founder Director of the CBI, whose motto is 'Industry, Impartiality, Integrity'.\n2. The Supreme Court described the CBI as a 'caged parrot' in the coal allocation case of 2013.\n3. The First Administrative Reforms Commission recommended a new law to replace the DSPE Act for the CBI.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 2). 3 is wrong: it was the Second ARC (2007) that recommended a new law to replace the DSPE Act.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp296f306e841a",
+  "row": 76,
+  "s": "Consider the following statements about the CBI:\n1. Its Director is appointed by the Central Government on the recommendation of a committee of the Prime Minister, the Leader of the Opposition in the Lok Sabha and the CJI or a judge nominated by him.\n2. Its Director has a minimum tenure of two years, extendable one year at a time up to five years.\n3. Its Director of Prosecution is appointed on the recommendation of the CBI Director.\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct (committee brought by the Lokpal Act 2013; 2021 extension rule, same for the ED Director). 3 is wrong: the Director of Prosecution is appointed on the recommendation of the CVC, for two years.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp25f022b47ff4",
+  "row": 76,
+  "s": "Assertion (A): The CBI needs the consent of the State Government to investigate a case in that State.\nReason (R): 'Police' is a subject in Entry 2 of the State List.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: because police is a State subject (State List Entry 2), Section 6 of the DSPE Act requires State consent; AP withdrew its general consent in Nov 2018 and restored it in June 2019.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpef2ed3026371",
+  "row": 76,
+  "s": "With reference to Vineet Narain v. Union of India, consider the following statements:\n1. It was decided by the Supreme Court in 1997.\n2. It upheld the 'Single Directive' requiring prior permission to probe senior officers.\n3. It gave the CVC superintendence over the CBI.\n4. It held that the CBI alone decides whether a case is to be investigated.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 3 and 4). 2 is wrong: the judgment quashed the 'Single Directive'; it also fixed a two-year tenure for the CBI Director.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp49ecb53a7520",
+  "row": 76,
+  "s": "Match List-I with List-II:\nList-I\na. OCSAE Prevention/Investigation Unit\nb. BHARATPOL\nc. Interpol\nd. Praveen Sood\nList-II\ni. The CBI is India's National Central Bureau for it\nii. CBI Director from 25 May 2023\niii. Portal launched on 7 January 2025 for real-time international police requests\niv. Set up by the CBI in 2019 against online child sexual abuse",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "OCSAE unit – CBI, 2019 (iv); BHARATPOL – developed by the CBI, launched by Amit Shah on 7 Jan 2025 (iii); Interpol – CBI is the National Central Bureau (i); Praveen Sood – Director from 25 May 2023 (ii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp64ad52830bd9",
+  "row": 76,
+  "s": "Match List-I with List-II:\nList-I (Post)\na. Chief Information Commissioner\nb. State Chief Information Commissioner\nc. Central Vigilance Commissioner\nd. Director of the CBI\nList-II (Recommending committee)\ni. Prime Minister, Leader of the Opposition and the CJI or his nominee\nii. Chief Minister, Leader of the Opposition in the Assembly and a Cabinet Minister nominated by the CM\niii. Prime Minister, Union Home Minister and Leader of the Opposition in the Lok Sabha\niv. Prime Minister, Leader of the Opposition in the Lok Sabha and a Union Cabinet Minister nominated by the PM",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "CIC – PM, LoP, Cabinet Minister nominated by the PM (iv), appointed by the President; State CIC – CM, LoP, Cabinet Minister (ii), appointed by the Governor, no Chief Justice; CVC – PM, Home Minister, LoP (iii); CBI Director – PM, LoP, CJI/nominee (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0b49eedddfc8",
+  "row": 76,
+  "s": "Consider the following statements:\n1. Public Information Officers under the RTI Act are designated by the Supreme Court.\n2. The Central Vigilance Commission, set up in 1964 by executive resolution, became statutory under the CVC Act, 2003.\n3. Impeachment charges are preferred by either House of Parliament, not by the CBI, CVC or NIA.\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: under Section 5 each public authority designates its own PIOs.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp537921582714",
+  "row": 76,
+  "s": "Consider the following statements about Information Commissions:\n1. The Central Information Commission was constituted in 2005 under Section 12 of the RTI Act, with a Chief Information Commissioner and up to ten Information Commissioners.\n2. A State Information Commissioner can be removed by the Governor after an inquiry by the High Court.\n3. After the RTI (Amendment) Act, 2019, the Centre fixes the tenure and salaries of Information Commissioners; the 2019 Rules set the term at three years.\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: under Section 17 the Governor removes a State CIC/IC for proved misbehaviour or incapacity only after an inquiry by the Supreme Court, not the High Court.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc72d9a296cdd",
+  "row": 76,
+  "s": "Match List-I with List-II:\nList-I (Section of the RTI Act)\na. Section 7\nb. Section 18\nc. Section 19\nd. Section 20\nList-II (Content)\ni. Complaints\nii. Penalty on the PIO of ₹250 per day, up to ₹25,000\niii. Information within 30 days; within 48 hours where life or liberty is involved\niv. First appeal and second appeal within 90 days",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iii, b-i, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "Sec 7 – time limits, free for BPL (iii); Sec 18 – complaints (i); Sec 19 – first appeal and second appeal to CIC/SIC within 90 days (iv); Sec 20 – penalty ₹250/day, max ₹25,000 (ii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe7bd81221ec2",
+  "row": 76,
+  "s": "Assertion (A): The Economic Survey 2025-26 called for a 're-examination' of the RTI Act, including a possible 'ministerial veto'.\nReason (R): The RTI (Amendment) Act, 2019 allowed the Centre to fix the tenure and salaries of Information Commissioners.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both statements are true, but the 2019 amendment on tenure and salaries is not the reason for the Survey's call for re-examination – R does not explain A.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpcfc751efd9f1",
+  "row": 76,
+  "s": "Consider the following statements about the Andhra Pradesh Information Commission:\n1. C.D. (Charan Das) Arha was the first State Chief Information Commissioner.\n2. R. Mahaboob Basha became the State Chief Information Commissioner in 2025.\n3. P. Ramesh Kumar was the second State Chief Information Commissioner of united Andhra Pradesh.\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the second State CIC (from 2010, united AP) was Jannat Hussain; P. Ramesh Kumar came in 2020 for residuary AP.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8ffe38f33c10",
+  "row": 76,
+  "s": "Match List-I with List-II:\nList-I (Agency)\na. Enforcement Directorate\nb. Directorate of Revenue Intelligence\nc. Serious Fraud Investigation Office\nd. DGSDM\nList-II (Function)\ni. Big-data analytics for tax administration\nii. Complex corporate frauds\niii. Enforcement of PMLA 2002 and FEMA 1999\niv. Anti-smuggling and enforcement of the Customs Act, 1962",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "ED – PMLA, FEMA, Fugitive Economic Offenders Act (iii); DRI – anti-smuggling, Customs Act (iv); SFIO – complex corporate frauds, under Corporate Affairs (ii); DGSDM – big-data analytics, under CBIC (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp32bd2937159e",
+  "row": 76,
+  "s": "Consider the following statements:\n1. The Corruption Perceptions Index is published by Transparency International and scores the perceived level of public-sector corruption from 0 to 100.\n2. In the CPI 2025 India ranked 91st of 182 countries with a score of 39.\n3. The Vohra Committee (1993) examined the functioning of the CBI.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 2). 3 is wrong: the Vohra Committee studied the nexus of criminals, politicians and bureaucrats (criminalisation of politics), not the CBI.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp95b1f58ad6e7",
+  "row": 76,
+  "s": "Assertion (A): The Serious Fraud Investigation Office functions under the Ministry of Finance.\nReason (R): The Serious Fraud Investigation Office investigates complex corporate frauds.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false, R is true: the SFIO investigates complex corporate frauds but works under the Ministry of Corporate Affairs, not Finance (the ED, DRI and CEIB are under Finance; the CBI under DoPT).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpdf32cf29d393",
+  "row": 77,
+  "s": "Consider the following statements about the Planning Commission:\n1. It was set up on 15 March 1950 by a resolution of the Union Cabinet.\n2. Its first Deputy Chairman was Gulzarilal Nanda, and the Deputy Chairman held the rank of a Minister of State.\n3. The Union Cabinet repealed the 1950 resolution on 13 August 2014.\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong in part: Gulzarilal Nanda was the first Deputy Chairman, but the Deputy Chairman had Cabinet Minister rank, not MoS rank; Nehru (PM) was the first Chairman.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2b17c5e28f55",
+  "row": 77,
+  "s": "Consider the following statements about the National Development Council (NDC):\n1. It was set up on 6 August 1952 by an executive order.\n2. Its members included the Prime Minister, Union Cabinet Ministers, the Chief Ministers of all States and the Chief Justice of India.\n3. The Secretary of the Planning Commission acted as its Secretary.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 3). 2 is wrong: the CJI (and the Finance Commission Chairman) were not members; the NDC had the PM, Cabinet Ministers, all CMs, UT CMs/administrators and Planning Commission members.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp92504c65b7ea",
+  "row": 77,
+  "s": "Assertion (A): The National Development Council has been restructured into the Governing Council of NITI Aayog.\nReason (R): The National Development Council gave final approval to the Five-Year Plans.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true – the NDC approved Five-Year Plans and acted as coordinator between the Planning Commission and the States, and it has been restructured into NITI's Governing Council – but approving Plans is not why it was restructured, so R does not explain A.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp55fd869210bc",
+  "row": 77,
+  "s": "Consider the following statements about NITI Aayog:\n1. The Prime Minister is its ex officio Chairperson, and its Vice-Chairperson, appointed by the PM, has Cabinet rank.\n2. Its full-time members hold the rank of Minister of State.\n3. Ashok Kumar Lahiri was its first Vice-Chairman.\n4. It is the nodal agency for poverty estimation in India.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 2 and 4). 3 is wrong: the first Vice-Chairman was Arvind Panagariya; Ashok Kumar Lahiri took over from Suman K. Bery in April 2026.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cped7a94cef72c",
+  "row": 77,
+  "s": "Match List-I with List-II:\nList-I (NITI Aayog body)\na. Governing Council\nb. Regional Councils\nc. Team India Hub\nd. State Support Mission\nList-II (Feature)\ni. SETUs to help States prepare Vision@2047 plans\nii. Leads the engagement of States with the Centre\niii. Address regional issues; chaired by the PM or his nominee\niv. PM, all State CMs, CMs of UTs with legislatures and LGs of other UTs",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Governing Council – PM, CMs, LGs, no Governors (iv); Regional Councils – chaired by the PM or nominee (iii); Team India Hub – States' engagement with the Centre (ii); State Support Mission – SETUs for State Vision@2047 (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbfdf59d817a1",
+  "row": 77,
+  "s": "Assertion (A): NITI Aayog follows a bottom-up approach to planning based on cooperative federalism.\nReason (R): Under NITI Aayog, the States have only a limited role in planning.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true, R is false: the bottom-up, 'Team India' approach treats the States as equal partners; it was the Planning Commission's top-down model that gave the States a limited role.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpffc3713a533e",
+  "row": 77,
+  "s": "Consider the following statements:\n1. Like the Planning Commission, NITI Aayog allocates plan funds to the States.\n2. NITI Aayog came into force on 1 January 2015 by a Union Cabinet resolution and is neither constitutional nor statutory.\n3. NITI Aayog replaced the Five-Year Plans with a 15-year Vision, a 7-year Strategy and a 3-year Action Agenda.\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: NITI Aayog does not allocate funds – that lies with the Finance Ministry / Finance Commission; only the Planning Commission allocated funds to States.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1837f5e62081",
+  "row": 77,
+  "s": "Match List-I with List-II:\nList-I (NITI Aayog index / report)\na. National Multidimensional Poverty Index\nb. Export Preparedness Index\nc. GROW report\nd. India Electric Mobility Index\nList-II (Feature)\ni. Prepared with WRI India\nii. Greening and Restoration of Wasteland with Agroforestry\niii. 12 indicators, adding maternal health and bank account to the Global MPI\niv. Prepared with the Institute for Competitiveness",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "National MPI – 12 indicators (iii); EPI – with the Institute for Competitiveness (iv); GROW – wasteland agroforestry (ii); India Electric Mobility Index – with WRI India (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbd58e89fa7c6",
+  "row": 77,
+  "s": "Consider the following statements:\n1. The 4th edition (2023-24) of the SDG India Index used 113 indicators, and Andhra Pradesh scored 74 in the 'Front Runner' category.\n2. In the SDG India Index, Andhra Pradesh ranked first in SDG 6 (Clean Water and Sanitation).\n3. According to the National MPI, 14.96% of India's population was multidimensionally poor in 2019-21, against 6.06% in Andhra Pradesh.\nWhich of the above statements is/are NOT correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only"
+  ],
+  "a": 1,
+  "x": "Only 2 is incorrect: Andhra Pradesh ranked first in SDG 7 (Affordable and Clean Energy), not SDG 6. 1 and 3 are correct per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbe51946a26ae",
+  "row": 77,
+  "s": "Match List-I with List-II:\nList-I (NITI Aayog initiative)\na. Atal Innovation Mission\nb. Women Entrepreneurship Platform\nc. Aspirational Districts Programme\nd. Aspirational Blocks Programme\nList-II (Launch / coverage)\ni. January 2023; 513 blocks in 329 districts\nii. January 2018; 112 districts, 49 indicators\niii. 2016; innovation and entrepreneurship\niv. 2018; women entrepreneurs",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "AIM – 2016 (iii); WEP – 2018 (iv); ADP – Jan 2018, 112 districts, 49 indicators, 5 themes (ii); ABP – Jan 2023, 513 blocks in 329 districts across 27 States and 4 UTs (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0c08410e068a",
+  "row": 77,
+  "s": "Consider the following statements about the Aspirational Districts Programme:\n1. The Health and Nutrition and the Education themes each carry 30% weight.\n2. Urban Transport and Housing is one of its five themes.\n3. Its strategy rests on Convergence, Collaboration and Competition.\n4. Kurnool and Anantapur are among the present Aspirational Districts of Andhra Pradesh.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 3). 2 is wrong: the themes are Health and Nutrition, Education, Agriculture and Water Resources, Financial Inclusion and Skill Development, Basic Infrastructure. 4 is wrong: AP's districts are now Alluri Sitarama Raju, Parvathipuram Manyam and YSR Kadapa (originally Vizianagaram, Visakhapatnam, YSR Kadapa).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpaea8817fabf5",
+  "row": 78,
+  "s": "Match List-I with List-II:\nList-I (Form of decentralisation)\na. Deconcentration\nb. Delegation\nc. Devolution\nd. Fiscal decentralisation\nList-II (Description)\ni. Tasks given to semi-autonomous bodies; can be withdrawn at will\nii. Power to spend and to raise funds and taxes\niii. Work shifted to field offices of the same government, which keeps full control\niv. Powers to elected local governments that raise their own revenue; not withdrawable at will",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-i, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Deconcentration – field offices, weakest (iii); Delegation – semi-autonomous bodies, withdrawable (i); Devolution – elected local governments, strongest, given effect by the 73rd/74th Amendments (iv); Fiscal – power to spend and raise funds (ii), India's weakest dimension.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8d566d70ed03",
+  "row": 78,
+  "s": "Consider the following statements:\n1. Autonomy, people's participation and empowerment are features of democratic decentralisation.\n2. Public order and judicial review are typical functions of local governments.\n3. Political decentralisation transfers the power to decide to elected local bodies, while administrative decentralisation transfers the power to implement.\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: local functions are public health, sanitation and water supply; public order is not a local function and judicial review belongs to the higher courts.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcd39a9213590",
+  "row": 78,
+  "s": "Assertion (A): Delegation is a weaker form of decentralisation than devolution.\nReason (R): Authority delegated to semi-autonomous bodies can be withdrawn at will by the government.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the power to take back entrusted authority at will is what distinguishes delegation from devolution, under which powers given to elected local governments cannot be withdrawn at will.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4be8ecaa2072",
+  "row": 78,
+  "s": "Consider the following statements:\n1. The 12-Ayagar village system of the Kakatiyas and Vijayanagara reflects historical village autonomy in the Andhra region.\n2. On 4 November 1948 B.R. Ambedkar described the village as 'a sink of localism, a den of ignorance', holding that the unit of the Constitution should be the individual.\n3. The Gandhian Plan of 1944 was prepared by J.C. Kumarappa.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 2). 3 is wrong: the Gandhian Plan (1944) is associated with Sriman Narayan Agarwal. Gandhi himself advocated Gram Swaraj, a republic of self-sufficient villages.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd433f3cc1e32",
+  "row": 78,
+  "s": "Consider the following statements:\n1. Article 40, directing the State to organise village panchayats, is a non-justiciable Directive Principle.\n2. The 64th Amendment Bill (1989) on Panchayati Raj was defeated in the Lok Sabha.\n3. The 73rd Amendment gave practical shape to Article 40 through Articles 243A, 243B and 243G.\nWhich of the above statements is/are NOT correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Only 2 is incorrect: the 64th Amendment Bill passed the Lok Sabha but failed in the Rajya Sabha. Article 40 (Part IV) is non-justiciable, and the 73rd Amendment (Part IX) gave it shape.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp66d3f5d7c48a",
+  "row": 78,
+  "s": "Arrange the following in chronological order:\n1. Introduction of Panchayati Raj in Andhra Pradesh\n2. Launch of the Community Development Programme\n3. Inauguration of Panchayati Raj at Nagaur, Rajasthan\n4. Appointment of the Balwant Rai Mehta Committee\nSelect the correct answer using the code given below:",
+  "o": [
+   "2, 4, 1, 3",
+   "4, 2, 3, 1",
+   "2, 4, 3, 1",
+   "2, 3, 4, 1"
+  ],
+  "a": 2,
+  "x": "CDP – 1952 (2); Balwant Rai Mehta Committee – January 1957 (4); Nagaur – 2 October 1959 (3); Andhra Pradesh – 1 November 1959, the second State (1): 2, 4, 3, 1.",
+  "src": "app",
+  "tq": "sequence"
+ },
+ {
+  "id": "cp5c75a30f6fdc",
+  "row": 78,
+  "s": "Assertion (A): Jawaharlal Nehru inaugurated Panchayati Raj at Nagaur, Rajasthan on 2 October 1959.\nReason (R): Nehru's approach favoured a centralised planned state with heavy industry.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: Nehru inaugurated Panchayati Raj despite, not because of, his preference for a centralised planned state.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp74ae6caced2a",
+  "row": 78,
+  "s": "Consider the following statements:\n1. The risk of elite capture by locally dominant castes was cited as an argument for decentralisation.\n2. Nation-building after Partition, with its need for unity and security, was cited as an argument for centralisation.\n3. Under the principle of subsidiarity, invoked by the Second ARC, a function is performed at the lowest competent level.\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: elite capture by dominant castes was an argument for centralisation (along with nation-building, planned industry and weak local capacity).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf4c92964954d",
+  "row": 78,
+  "s": "Consider the following statements:\n1. The 'three Fs' of devolution to Panchayati Raj Institutions are Funds, Functions and Functionaries.\n2. Incomplete devolution of the three Fs makes PRIs planning units rather than implementing agencies.\n3. In India's experience, fiscal power is the one transferred least to local governments.\nWhich of the above statements is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 reverses the notes: incomplete devolution keeps PRIs implementing agencies, not planning units; without fiscal decentralisation elected bodies stay powerless.",
+  "src": "app",
+  "tq": "statements"
  }
 ]

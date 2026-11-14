@@ -1292,3 +1292,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 391 → 86 kept + 77 new (163, 42%); new 42 statements / 19 match / 11 A–R / 5 sequence; no lines lost.
 - Doubtful PYQs: y704e1f7e78b dates Kudi Arasu May 1924 (notes/fact: 2 May 1925); y298682adabf "Radhasoami born out of Sikkim in 1851" (fact: Agra 1861; "Sikkim" likely OCR of "Sikhism").
 - 194:3:10 chair of 1917 Vijayawada sabha disputed in notes. 8 own MCQs removed as not in notes (Society of Nobles, 1923 Shuddhi Sabha, …).
+
+## rewrite b5-w080 (rows 80–85)
+- own 450 → 69 kept + 107 new (176, 39%); new 74 statements / 20 match / 13 A–R; 5 of 297 lines lost.
+- PYQ y343e62eadd9: India (Kigali, Group 2 country) 85% HFC cut "by 2045" — India's target is 2047 (2045 is Group 1) — check key.
