@@ -748,5 +748,230 @@
   "x": "Both are true and R explains A: if blocks float in balance and density is uniform (Airy), a high mountain must be balanced by a deep root sinking into the denser layer, as a taller iceberg sinks deeper.",
   "src": "app",
   "tq": "assertion"
+ },
+ {
+  "id": "cpaea6d00443e2",
+  "row": 9,
+  "s": "Match List-I (Volcano) with List-II (Country):\nList-I\na. Tungurahua\nb. Whakaari (White Island)\nc. Volcan de Fuego\nd. Popocatepetl\nList-II\ni. New Zealand\nii. Ecuador\niii. Mexico\niv. Guatemala",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 3,
+  "x": "Tungurahua (UNESCO Global Geopark, 2025) is in Ecuador; Whakaari/White Island (erupted Dec 2019) in New Zealand; Volcan de Fuego (erupted again June 2026) in Guatemala; Popocatepetl, whose magma system was first imaged in 3D, in Mexico.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb296cc6ac46d",
+  "row": 9,
+  "s": "Consider the following statements:\n1. Kilimanjaro in Tanzania is a dormant stratovolcano of the East African Rift.\n2. Krakatoa is in the Philippines.\n3. Volcan de Fuego is linked to the subduction of the Cocos plate beneath the Caribbean plate.\n4. Hayli Gubbi, a shield volcano in Ethiopia, erupted in November 2025 after about 10,000–12,000 years.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: Krakatoa (Anak Krakatau) is in Indonesia. Kilimanjaro is a dormant stratovolcano in Tanzania; Fuego sits where the Cocos plate dives under the Caribbean plate; Hayli Gubbi (Ethiopia) erupted in Nov 2025 after ~10,000–12,000 years.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpac0bd67f6e02",
+  "row": 9,
+  "s": "Match List-I (Feature) with List-II (Status):\nList-I\na. Barren Island\nb. Narcondam\nc. Baratang\nd. Dhinodhar\nList-II\ni. Extinct volcanic hill in Kutch\nii. India's only active volcano\niii. Mud volcanoes\niv. Dormant volcano with no recorded eruption",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 0,
+  "x": "Barren Island (Andaman Sea) is India's only active volcano; Narcondam, ~150 km to its north-east, is dormant with no recorded eruption; Baratang (Middle Andaman) has mud volcanoes; Dhinodhar in Kutch, Gujarat, is an extinct volcanic hill.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc50f396b0c59",
+  "row": 9,
+  "s": "Consider the following statements:\n1. Mud volcanoes erupt mud, water and gases such as methane, not lava.\n2. The Andaman mud volcanoes are driven by tectonic pressure on the Andaman Arc subduction zone.\n3. The Deccan Traps are fissure flood basalts of the end of the Jurassic.\n4. The Rajahmundry traps of Andhra Pradesh lie along the Krishna.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 3 and 4 are wrong: the Deccan Traps erupted at the end of the Cretaceous (~65 million years ago, Réunion hotspot), and the Rajahmundry traps lie along the Godavari. Mud volcanoes such as Diglipur eject mud, water and methane, driven by pressure on the Andaman Arc subduction zone.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf6e408470077",
+  "row": 9,
+  "s": "Consider the following statements:\n1. Magma below the surface has a temperature of about 600–1,200°C.\n2. Acidic (felsic) lava is silica-rich and viscous, and does not flow far.\n3. Basic (mafic) lava builds steep stratovolcanoes.\n4. The more silica a magma has, the faster it solidifies.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: fluid, silica-poor basic lava flows far and builds shield volcanoes and lava plateaus; steep stratovolcanoes come from viscous acidic lava. Magma is ~600–1,200°C, and more silica means faster solidification.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp28951a72a701",
+  "row": 9,
+  "s": "Assertion (A): Acidic lava produces explosive eruptions and steep cones.\nReason (R): Acidic lava is silica-poor and very fluid.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true but R is false: acidic (felsic) lava is silica-rich and viscous, which makes it explosive and builds steep cones; silica-poor, fluid lava is basic and pours out quietly.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp180ef79ca93d",
+  "row": 9,
+  "s": "Consider the following statements about volcanic eruptions:\n1. Water vapour is the most abundant volcanic gas, followed by carbon dioxide.\n2. Lahars (volcanic mudflows) come mainly from shield volcanoes.\n3. Sulphur dioxide aerosols can cool the Earth for years, while ash falls back within weeks.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: pyroclastic flows and lahars come from stratovolcanoes. Volcanic gases are water vapour > CO₂ > SO₂, and SO₂ aerosols scatter sunlight and cool the Earth for years.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2c2378db6952",
+  "row": 9,
+  "s": "Match List-I (Instrument/scale) with List-II (What it measures):\nList-I\na. Tiltmeter\nb. Creepmeter\nc. Saffir–Simpson scale\nd. Anemometer\nList-II\ni. Ground tilt over faults and volcanoes\nii. Hurricane intensity\niii. Slip along a fault\niv. Wind speed",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 0,
+  "x": "A tiltmeter measures ground tilt over faults and volcanoes, a creepmeter fault slip, the Saffir–Simpson scale hurricane intensity, and an anemometer wind speed (a wind vane gives direction).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3c6b05dc45f1",
+  "row": 9,
+  "s": "Match List-I (Intrusive form) with List-II (Shape/position):\nList-I\na. Laccolith\nb. Lopolith\nc. Phacolith\nd. Sill\nList-II\ni. Saucer-shaped body sagging in the centre\nii. Near-horizontal sheet along rock layers\niii. Wavy mass at the base of synclines or the crest of anticlines\niv. Dome-shaped body fed by a pipe-like conduit from below",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "A laccolith is a dome fed by a pipe from below, a lopolith is saucer-shaped, a phacolith is a wavy mass in synclines or anticlines, and a sill lies near-horizontally along the layers (a dyke cuts across them vertically).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp316e5a4849cb",
+  "row": 9,
+  "s": "Match List-I (Hot spring) with List-II (State/UT):\nList-I\na. Manikaran\nb. Taptapani\nc. Vajreshwari\nd. Tattapani\nList-II\ni. Odisha\nii. Maharashtra\niii. Himachal Pradesh\niv. Chhattisgarh",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-i, d-iv"
+  ],
+  "a": 2,
+  "x": "Manikaran is in the Kullu valley of Himachal Pradesh, Taptapani in Odisha, Vajreshwari in Maharashtra and Tattapani in Chhattisgarh (Puga and Chumathang are in Ladakh).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb977215c9d6e",
+  "row": 9,
+  "s": "Consider the following statements:\n1. Yellowstone National Park in the USA has the largest number of geysers, including Old Faithful.\n2. ONGC drilled India's first and deepest geothermal wells at Puga Valley in Ladakh.\n3. The Geological Survey of India lists about 340 geothermal sites.\n4. Basaltic lava plateaus such as the Deccan weather into fertile red soil.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: basaltic lava plateaus weather into fertile black soil. Yellowstone (500+ geysers, Old Faithful) leads the world; Puga (Ladakh, not Himachal) has India's first and deepest geothermal wells; GSI lists 340 sites.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp09fc4e058b65",
+  "row": 9,
+  "s": "Match List-I (Form of volcano) with List-II (Example):\nList-I\na. Shield\nb. Composite (strato)\nc. Cinder cone\nd. Complex\nList-II\ni. Cerro Negro\nii. Fuji\niii. Taal\niv. Mauna Loa",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Mauna Loa is a shield of fluid basalt; Fuji (like Vesuvius and St. Helens) a steep composite cone of lava and ash; Cerro Negro (Nicaragua) a cinder cone; Taal (like Dukono) a complex volcano with several vents.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp24d35225fb5f",
+  "row": 9,
+  "s": "Consider the following statements:\n1. A dormant volcano has been quiet for long but can erupt again, e.g. Narcondam and Mauna Kea.\n2. Dhinodhar and Mount Kenya are extinct volcanoes.\n3. A crater is a cauldron-shaped hollow much larger than a caldera.\n4. Mauna Loa is a shield volcano with broad, gentle slopes of fluid basalt.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "Statement 3 reverses the terms: a crater is the funnel-shaped mouth on top of a cone, while a caldera is the much larger hollow left when the emptied chamber's summit collapses. The other statements match the notes' activity and form tables.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp409028655231",
+  "row": 9,
+  "s": "Assertion (A): Extrusive volcanoes are not found in the Himalayas.\nReason (R): A continent–continent collision does not generate magma.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the Himalayas come from continent–continent collision, which yields no magma, unlike the subduction margins of Alaska, the Rockies and the Andes.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpc1f2d02fb6fc",
+  "row": 9,
+  "s": "Consider the following statements about volcanic belts:\n1. Hekla in Iceland lies on the Mid-Atlantic belt.\n2. Mauna Loa in Hawaii is linked to an intraplate hotspot.\n3. Stromboli lies in the East African Rift belt.\n4. Kilimanjaro is associated with the East African Rift.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: Stromboli, with Vesuvius and Etna, belongs to the Mediterranean belt. Hekla is Mid-Atlantic, Mauna Loa an intraplate hotspot, and Kilimanjaro and the Afar triple junction are East African Rift.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
