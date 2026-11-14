@@ -10,7 +10,7 @@
    "3 only"
   ],
   "a": 2,
-  "x": "1 is wrong: scanning a QR code or clicking a link 'to receive money' is listed as NOT recommended. 2 is correct. 3 is correct. Hence the answer is '2 and 3 only'.",
+  "x": "Statement 1 is wrong: scanning a QR code or clicking a link 'to receive money' is listed as NOT recommended. Statement 2 is correct. Statement 3 is correct. Hence the answer is '2 and 3 only'.",
   "src": "app",
   "tq": "statements"
  },
@@ -25,7 +25,7 @@
    "None"
   ],
   "a": 1,
-  "x": "1 is correct. 2 is correct. 3 is wrong: ULLAS is run by the Ministry of Education (not MeitY) and covers adults aged 15+. Hence the answer is 'Only two'.",
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: ULLAS is run by the Ministry of Education (not MeitY) and covers adults aged 15+. Hence the answer is 'Only two'.",
   "src": "app",
   "tq": "statements"
  },
@@ -40,7 +40,7 @@
    "1 only"
   ],
   "a": 1,
-  "x": "1 is correct. 2 is wrong: the 5th State/UT with full functional literacy is Himachal Pradesh. 3 is correct. Hence the answer is '2 only'.",
+  "x": "Statement 1 is correct. Statement 2 is wrong: the 5th State/UT with full functional literacy is Himachal Pradesh. Statement 3 is correct. Hence the answer is '2 only'.",
   "src": "app",
   "tq": "statements"
  },
@@ -85,7 +85,7 @@
    "3 only"
   ],
   "a": 0,
-  "x": "1 is wrong: forwarding chain mails (and typing in ALL CAPS, which reads as shouting) are e-mail don'ts. 2 is correct. 3 is correct. Hence the answer is '2 and 3 only'.",
+  "x": "Statement 1 is wrong: forwarding chain mails (and typing in ALL CAPS, which reads as shouting) are e-mail don'ts. Statement 2 is correct. Statement 3 is correct. Hence the answer is '2 and 3 only'.",
   "src": "app",
   "tq": "statements"
  },
@@ -100,7 +100,7 @@
    "None of the pairs"
   ],
   "a": 1,
-  "x": "1 is correctly matched. 2 is wrongly matched: Section 67 deals with obscene material (cyber terrorism is 66F). 3 is correctly matched. Hence the answer is 'Only two pairs'.",
+  "x": "Pair 1 is correctly matched. Pair 2 is wrongly matched: Section 67 deals with obscene material (cyber terrorism is 66F). Pair 3 is correctly matched. Hence the answer is 'Only two pairs'.",
   "src": "app",
   "tq": "statements"
  },
@@ -130,7 +130,7 @@
    "1 and 3 only"
   ],
   "a": 3,
-  "x": "1 is correct. 2 is wrong: it was the Supreme Court that stayed the March 2024 notification. 3 is correct. Under the April 2023 amendment an intermediary would lose safe harbour if content on Central Government business was flagged 'fake' by the FCU. Hence the answer is '1 and 3 only'.",
+  "x": "Statement 1 is correct. Statement 2 is wrong: it was the Supreme Court that stayed the March 2024 notification. Statement 3 is correct. Under the April 2023 amendment an intermediary would lose safe harbour if content on Central Government business was flagged 'fake' by the FCU. Hence the answer is '1 and 3 only'.",
   "src": "app",
   "tq": "statements"
  },
@@ -175,7 +175,277 @@
    "1 only"
   ],
   "a": 2,
-  "x": "1 is correct. 2 is correct. 3 is wrong: Digital Detox is a Karnataka Government initiative (with the All India Game Developers Forum), not Kerala. Hence the answer is '3 only'.",
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: Digital Detox is a Karnataka Government initiative (with the All India Game Developers Forum), not Kerala. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9e4514fc7ebc",
+  "row": 29,
+  "s": "Match List-I (Malware) with List-II (Defining behaviour):\nList-I\na. Ransomware\nb. Spyware\nc. Keylogger\nd. Rootkit\nList-II\ni. Secret surveillance; steals passwords and banking data\nii. Records keystrokes such as passwords, PINs and OTPs\niii. Gains administrator-level access and modifies the host OS to hide malware\niv. Encrypts files and demands a ransom, often in cryptocurrency\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 1,
+  "x": "Ransomware – Encrypts files and demands a ransom, often in cryptocurrency; Spyware – Secret surveillance; steals passwords and banking data; Keylogger – Records keystrokes such as passwords, PINs and OTPs; Rootkit – Gains administrator-level access and modifies the host OS to hide malware. So a-iv, b-i, c-ii, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd86b36b655bc",
+  "row": 29,
+  "s": "Match the following types of malware with their examples:\nType\na. Trojan\nb. Adware\nc. Botnet\nd. Spyware\nExample\ni. Mirai\nii. Pegasus\niii. Fireball\niv. Zeus\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 2,
+  "x": "Trojan – Zeus; Adware – Fireball; Botnet – Mirai; Spyware – Pegasus. Adware is usually bundled with free or pirated software; Mirai hijacked IoT devices for DDoS. So a-iv, b-iii, c-i, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpdda2ffbea2eb",
+  "row": 29,
+  "s": "Consider the following statements about malware:\n1. A virus attaches to files, reproduces and spreads, but the user generally has to run the infected file.\n2. A worm must attach itself to an existing program before it can spread over a network.\n3. A trojan replicates itself across the network without any user action.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: a worm sends copies of itself over the network without user action and does not need to attach to a program. Statement 3 is wrong: a trojan looks like legitimate software and tricks the user into installing it; it does not self-replicate. Hence the answer is '1 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3f1fae379a64",
+  "row": 29,
+  "s": "Match the following early computer viruses with their origin:\nList-I\na. Creeper (1971)\nb. Elk Cloner (1982)\nc. Brain (1986)\nd. Michelangelo\nList-II\ni. First found in Australia (1991); made to infect MS-DOS on 6 March 1992\nii. Alvi brothers, Lahore, Pakistan\niii. Apple II, written by Rich Skrenta\niv. ARPANET, written by Bob Thomas (BBN)\nSelect the correct answer:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 0,
+  "x": "Creeper (1971) – ARPANET, written by Bob Thomas (BBN); Elk Cloner (1982) – Apple II, written by Rich Skrenta; Brain (1986) – Alvi brothers, Lahore, Pakistan; Michelangelo – First found in Australia (1991); made to infect MS-DOS on 6 March 1992. Creeper, the first self-copying program, was removed by Reaper; Elk Cloner was the first virus 'in the wild' and Brain the first IBM-PC boot-sector virus. So a-iv, b-iii, c-ii, d-i.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5c4f146ec1c0",
+  "row": 29,
+  "s": "Consider the following statements about the 2017 ransomware attacks:\n1. WannaCry (May 2017) was ransomware that spread as a worm and is attributed to the Lazarus group of North Korea.\n2. EternalBlue, the Windows SMB exploit used by WannaCry, was developed by Russia's GRU and leaked by the Shadow Brokers.\n3. Petya encrypts the master boot record, and NotPetya (June 2017) hit Ukraine.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: EternalBlue was developed by the US NSA (leaked by the Shadow Brokers in 2017). Statement 3 is correct. Hence the answer is '2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp477fbc5feb05",
+  "row": 29,
+  "s": "Consider the following statements:\n1. Stuxnet (2010), a worm with rootkit parts, sabotaged uranium centrifuges at Natanz in Iran.\n2. StrandHogg (2019) is an iOS vulnerability discovered by Kaspersky of Russia.\n3. Pegasus, a zero-click spyware, was developed by the NSO Group of Israel.\n4. Mirai is a botnet that hijacked IoT devices for DDoS attacks.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: StrandHogg is an Android vulnerability (malware poses as genuine apps), found by Promon of Norway. Statement 3 is correct. Statement 4 is correct. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7135673c137c",
+  "row": 29,
+  "s": "Match List-I (Threat) with List-II (Meaning):\nList-I\na. Vishing\nb. Man-in-the-middle\nc. SQL injection\nd. Zero-day\nList-II\ni. Exploits an unknown, unpatched flaw\nii. Malicious database code entered through website input fields\niii. Phishing by voice calls\niv. Secretly intercepts or alters communication between two parties\nSelect the correct answer:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Vishing – Phishing by voice calls; Man-in-the-middle – Secretly intercepts or alters communication between two parties; SQL injection – Malicious database code entered through website input fields; Zero-day – Exploits an unknown, unpatched flaw. So a-iii, b-iv, c-ii, d-i.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp95c50a87f8e4",
+  "row": 29,
+  "s": "Consider the following statements about cyber attack techniques:\n1. The SolarWinds incident (2020) is an example of a supply-chain attack, in which a trusted vendor is compromised.\n2. E-mail bombing means sending a deceptive e-mail that looks legitimate in order to obtain card details.\n3. A DDoS attack uses many machines, often a botnet, to flood a server with fake traffic so that genuine users cannot access it.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: that is phishing; e-mail bombing is sending an identical e-mail repeatedly to one address to overflow it. Statement 3 is correct. Hence the answer is '1 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd51b09d730f5",
+  "row": 29,
+  "s": "Consider the following statements about cyber crimes against persons:\n1. Cyber slavery means trafficking people and forcing them to run cyber fraud from scam centres, which MEA (2025) linked to Myanmar and Laos.\n2. Identity theft is punishable under Section 66C of the IT Act.\n3. Sextortion, blackmail with intimate images, is dealt with under Sections 43 and 43A of the IT Act.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 only",
+   "3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: sextortion falls under Sections 66E and 67A. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb63d582840db",
+  "row": 29,
+  "s": "Consider the following:\nAssertion (A): The Supreme Court directed the Centre, States, RBI and telecom authorities to frame SOPs against 'digital arrest' frauds.\nReason (R): 'Digital arrest' is a power of the police to arrest a person over a video call.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: the Supreme Court asked the Centre, States, RBI and telecom authorities to frame SOPs and use zero FIRs. R is false: 'digital arrest' is not a real police power – it is a term cyber criminals use while posing as police/CBI on video calls to extort money.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpab2041fdf7e2",
+  "row": 29,
+  "s": "Match the following financial cyber frauds with their modus operandi:\nList-I\na. SIM swap\nb. UPI / QR fraud\nc. Crime-as-a-service\nd. Crypto-jacking\nList-II\ni. Victim told to scan a QR code to 'receive' money, though a QR code is scanned only to pay\nii. Syndicates rent out ransomware and fraud tools\niii. Secretly using a victim's device to mine cryptocurrency\niv. Duplicate SIM obtained to intercept OTPs\nSelect the correct answer:",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "SIM swap – Duplicate SIM obtained to intercept OTPs; UPI / QR fraud – Victim told to scan a QR code to 'receive' money, though a QR code is scanned only to pay; Crime-as-a-service – Syndicates rent out ransomware and fraud tools; Crypto-jacking – Secretly using a victim's device to mine cryptocurrency. So a-iv, b-i, c-ii, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpfdc98746f48f",
+  "row": 29,
+  "s": "Match List-I (Security tool) with List-II (Function):\nList-I\na. Antivirus\nb. MFA / 2FA\nc. Honeypot\nd. Virtual keyboard\nList-II\ni. Defeats keyloggers\nii. Decoy system to trap attackers\niii. Password plus OTP or biometric\niv. Prevents and heals infections\nSelect the correct answer:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 1,
+  "x": "Antivirus – Prevents and heals infections; MFA / 2FA – Password plus OTP or biometric; Honeypot – Decoy system to trap attackers; Virtual keyboard – Defeats keyloggers. A firewall, by contrast, filters incoming/outgoing traffic by rules. So a-iv, b-iii, c-ii, d-i.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5c06a9d4552c",
+  "row": 29,
+  "s": "Consider the following statements about cryptography:\n1. RSA uses a public-private key pair and is the basis of PKI.\n2. A digital signature is created with the sender's public key and verified with the sender's private key.\n3. Hashing is a one-way process giving a fixed-length digest, e.g. SHA-256.\n4. Blowfish, designed by Bruce Schneier in 1993, is an asymmetric algorithm.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3 only",
+   "1 and 3 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: it is the reverse – signed with the sender's private key and verified with the public key. Statement 3 is correct. Statement 4 is wrong: Blowfish is symmetric (same key encrypts and decrypts), like AES – a faster alternative to DES. Hence the answer is '1 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpaced57ebdf92",
+  "row": 29,
+  "s": "Consider the following:\nAssertion (A): A ransomware attack that stops doctors from accessing a hospital's records compromises the 'availability' principle of the CIA triad.\nReason (R): Availability means that data remain accessible to authorised users.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: availability is access for authorised users, so denial of access to doctors (authorised users) is a loss of availability – not of confidentiality (protection against illicit access) or integrity (protection against alteration).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpea3d1c66ec93",
+  "row": 29,
+  "s": "Match the following cyber incidents with the target / place:\nIncident\na. AIIMS (2022)\nb. Kudankulam NPP (2019)\nc. Cosmos Bank (2018)\nd. e-Nagarpalika portal (Dec 2023)\nTarget / place\ni. ~Rs 94 crore ATM/SWIFT fraud, Pune\nii. Online civic tax portal, Madhya Pradesh\niii. Malware on the admin network, Tamil Nadu\niv. Ransomware on hospital servers, Delhi\nSelect the correct answer:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "AIIMS (2022) – Ransomware on hospital servers, Delhi; Kudankulam NPP (2019) – Malware on the admin network, Tamil Nadu; Cosmos Bank (2018) – ~Rs 94 crore ATM/SWIFT fraud, Pune; e-Nagarpalika portal (Dec 2023) – Online civic tax portal, Madhya Pradesh. So a-iv, b-iii, c-i, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd87a622491c4",
+  "row": 29,
+  "s": "Consider the following statements about cyber security in Andhra Pradesh:\n1. APTS watches the Critical Government Infrastructure of the State through APCSOC.\n2. APTS has audited 720 Government of Andhra Pradesh applications.\n3. AP Police signed an MoU with IIT Tirupati for a Cyber Crime Investigation and Training Academy.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is wrong: APTS audited 270 GoAP apps. Statement 3 is correct. Hence the answer is '1 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp86a2944a13bb",
+  "row": 29,
+  "s": "Consider the following statements about cyber warfare and emerging threats:\n1. Cyber espionage is often state-sponsored and carried out by APT groups.\n2. VPNs, proxies and botnets make the source of cyber terrorism hard to trace.\n3. Exercise Cyber Suraksha is a 12-day exercise for the armed forces led by CERT-In.\n4. MeitY's 2nd Digital Threat Report 2025-26 focuses on the BFSI sector.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: Exercise Cyber Suraksha is DRDO-led (12 days, armed forces). Statement 4 is correct. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp30522f58bc6f",
+  "row": 29,
+  "s": "Consider the following statements about cyber crime data:\n1. NCRB recorded 86,420 cyber crime cases in 2023, about 69% of them fraud.\n2. Telangana recorded the highest number of cyber crime cases in NCRB 2023.\n3. CERT-In handled 29.44 lakh incidents in 2025, the highest in five years.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: the top State in NCRB 2023 was Karnataka (21,889). Statement 3 is correct. Hence the answer is '2 only'.",
   "src": "app",
   "tq": "statements"
  }
