@@ -1029,3 +1029,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 423 → 63 kept + 93 new (156, 37%); new 62 statements / 18 match / 13 A–R; no lines lost.
 - Notes conflict: "Later Green Revolution" 1981–92 (row 49, 5:4.2) vs 1987–92 (row 51, 6:0.2) — reconcile.
 - PYQ y9307006b4ff keys "3rd Plan" for start of Green Revolution; notes say Plan Holiday (1966–69). Many books say end of 3rd Plan (1965–66 HYV) — official key stays, likely Disputed chip.
+
+## rewrite b1-w102 (rows 102–108)
+- own 430 → 68 kept + 105 new (173, 40%); new 59 statements / 31 match / 15 A–R; no lines lost.
+- Wrong own keys removed: nad28711d615, fceaca6db6885 (Alptigin as Ghaznavid founder; notes 102:2:1 Sabuktigin).

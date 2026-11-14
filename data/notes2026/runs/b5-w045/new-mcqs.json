@@ -1,15 +1,735 @@
 [
  {
+  "id": "cpf68c9ce8adbd",
+  "row": 45,
+  "s": "Consider the following statements about Geographic Information System (GIS):\n1. In a GIS each theme of data is stored as a layer, and overlay analysis combines such layers.\n2. A digitizer in a GIS work station converts digital data back into analog maps.\n3. QGIS is a proprietary GIS software available only on licence.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Only 1 is correct (layers; overlay combines layers). 2 is wrong: a digitizer (tablet/table) converts analog data to digital. 3 is wrong: QGIS is free, open-source, cross-platform desktop GIS.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfb453311d0a9",
+  "row": 45,
+  "s": "Consider the following statements:\nAssertion (A): The magnitude and epicentre of an earthquake are determined using GIS.\nReason (R): GIS is a computer system to store, manipulate, analyse and present spatial data.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: earthquake magnitude and epicentre come from seismographs, not GIS. R is true: GIS stores, manipulates, analyses and presents geographical (spatial) data.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp441b1369e6b9",
+  "row": 45,
+  "s": "Consider the following statements about forest-fire monitoring in India:\n1. Fire hotspots are detected by the thermal-infrared MODIS (Terra/Aqua) and VIIRS (Suomi-NPP) sensors.\n2. The hotspot data are received at the Shadnagar earth station of NRSC.\n3. The fire-alert system fed by these data is run by the India Meteorological Department.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: the hotspot data feed the Forest Survey of India alert system, not IMD.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp79dc10ae6810",
+  "row": 45,
+  "s": "Consider the following statements:\n1. NDEM stands for National Database for Emergency Management.\n2. The Decision Support Centre for satellite inputs during disasters functions at IIRS, Dehradun.\n3. ISRO took the lead role in the International Charter Space and Major Disasters from April 2025 for six months.\n4. NDMA uses GIS for planning, decision support and developing guidelines.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All four",
+   "Only two",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "Three are correct (1, 3, 4). 2 is wrong: the Decision Support Centre is part of NRSC, Hyderabad, not IIRS.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbc85ae54a414",
+  "row": 45,
+  "s": "Match List-I (Satellite) with List-II (Use):\nList-I | List-II\na. RISAT (SAR) | i. Damage mapping\nb. INSAT-3DS | ii. Flood mapping through clouds\nc. Cartosat | iii. Potential Fishing Zone advisories\nd. EOS-06 (Oceansat-3) | iv. Cyclone tracks\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "RISAT/SAR – flood mapping through clouds; INSAT-3DS – cyclone tracks; Cartosat – damage mapping; EOS-06 – PFZ advisories issued by INCOIS.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf29f9152c4ba",
+  "row": 45,
+  "s": "Consider the following statements about satellite support for disaster management in India:\n1. Under ISRO's Disaster Management Support Programme, INSAT and IRS satellites are used for imaging and communication.\n2. States can use satellite data during disasters without requesting it from NRSC.\n3. In the INSAT Disaster Warning System, warnings from the Cyclone Warning Centre, Chennai go by C-band uplink and S-band downlink.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: States must request the data from NRSC.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cped672a24e873",
+  "row": 45,
+  "s": "Consider the following statements about remote sensing:\n1. RISAT radar is an example of active remote sensing.\n2. Resourcesat and Oceansat are active sensors because they send their own signal.\n3. Soil moisture is best measured from space by microwave or SAR sensors.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: Resourcesat and Oceansat are passive – they use natural radiation (sunlight).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp183260991bda",
+  "row": 45,
+  "s": "Consider the following statements:\nAssertion (A): RISAT's SAR imagery is preferred for flood mapping during a cyclone.\nReason (R): SAR is a passive sensor that records reflected sunlight.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: RISAT/SAR maps floods through clouds. R is false: SAR is active – it sends its own microwave signal, so it sees through cloud and darkness.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpafc0d8ae8130",
+  "row": 45,
+  "s": "Consider the following statements:\n1. InSAR detects ground deformation by comparing the amplitude of radar images.\n2. NISAR is a radar mission using the L-band and S-band.\n3. NISAR can detect centimetre-scale ground movement.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: InSAR compares the phase of radar images from orbiting satellites.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7580df7c634d",
+  "row": 45,
+  "s": "Consider the following statements about vegetation indices:\n1. NDVI is computed as (NIR − Red)/(NIR + Red).\n2. Healthy vegetation reflects most strongly in the red band.\n3. The Vegetation Condition Index (VCI), used in drought declaration, is derived from NDVI.\n4. NDVI values range from 0 to 100.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All four",
+   "Only two",
+   "Only three"
+  ],
+  "a": 1,
+  "x": "Two are correct (1 and 3). 2 is wrong: healthy vegetation reflects near-infrared strongly. 4 is wrong: NDVI ranges from −1 to +1.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd234aedc81bd",
+  "row": 45,
+  "s": "Match List-I (Agency) with List-II (Role):\nList-I | List-II\na. NRSC, Hyderabad | i. MOSDAC and VEDAS portals\nb. IIRS, Dehradun | ii. Training and education in remote sensing and GIS\nc. SAC, Ahmedabad | iii. North-East applications\nd. NESAC, Umiam | iv. Runs Bhuvan; earth station at Shadnagar\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "NRSC – Bhuvan, Shadnagar; IIRS Dehradun – training; SAC Ahmedabad – sensors, MOSDAC, VEDAS, Nabhmitra; NESAC, Umiam (Meghalaya) – North-East.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc2b322e8727d",
+  "row": 45,
+  "s": "Consider the following statements:\n1. NRSC has five Regional Remote Sensing Centres, one of them at Hyderabad.\n2. Bhuvan, ISRO's geoportal, was developed by NRSC and launched in 2009.\n3. Bhoonidhi of NRSC archives Earth-observation data since 1988.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1, 2 and 3",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: there are 5 RRSCs (Bengaluru, Jodhpur, Kharagpur, Nagpur, Delhi) – not Hyderabad.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2eed6fcfcb02",
+  "row": 45,
+  "s": "Match List-I (Portal/Scheme) with List-II (Use):\nList-I | List-II\na. Bhuvan Panchayat | i. MGNREGA asset planning\nb. Yuktdhara | ii. Drone mapping with Survey of India\nc. SVAMITVA | iii. National Master Plan GIS by BISAG-N\nd. PM Gati Shakti | iv. Gram panchayat planning\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "Bhuvan Panchayat – gram panchayat planning (ISRO/NRSC); Yuktdhara – MGNREGA asset planning; SVAMITVA – drone mapping with Survey of India; PM Gati Shakti – National Master Plan GIS by BISAG-N.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0162bccb7f54",
+  "row": 45,
+  "s": "Consider the following statements:\n1. FASAL stands for Forecasting Agricultural output using Space, Agro-meteorology and Land-based observations.\n2. The Mahalanobis National Crop Forecast Centre, set up in 2012, runs FASAL.\n3. NRSC's CROP framework estimated rabi 2024-25 wheat production at 112.724 MT.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the CROP framework estimate was 122.724 MT.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1bdf15e282f4",
+  "row": 45,
+  "s": "Match List-I (Programme/Agency) with List-II (Purpose):\nList-I | List-II\na. YES-TECH | i. Mapping soils\nb. CHAMAN | ii. Rice yield estimation for PMFBY\nc. NADAMS | iii. Agricultural drought monitoring\nd. SLUSI | iv. Horticulture area and production\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "YES-TECH – yield estimation (rice) for PMFBY; CHAMAN – horticulture area and production; NADAMS – agricultural drought monitoring; SLUSI – maps soils.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp158c338dd6c3",
+  "row": 45,
+  "s": "Consider the following statements:\n1. Potential Fishing Zone advisories are prepared from chlorophyll and sea-surface temperature data.\n2. PFZ advisories are issued by INCOIS, Hyderabad, now using EOS-06 data.\n3. The Ocean State Forecast for India's seas is issued by IMD.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: INCOIS also issues the Ocean State Forecast.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9e1f1afe86d5",
+  "row": 45,
+  "s": "Match List-I (Device/App) with List-II (Developer):\nList-I | List-II\na. Nabhmitra | i. IMD\nb. GEMINI | ii. INCOIS with AAI\nc. Damini | iii. ISRO SAC, Ahmedabad\nd. Mausam | iv. IITM, Pune\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "Nabhmitra – ISRO SAC; GEMINI – INCOIS with AAI (GAGAN; PFZ, ocean-state, disaster alerts); Damini (lightning) – IITM Pune; Mausam – IMD.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp79a392d634dd",
+  "row": 45,
+  "s": "Consider the following statements about safety devices for fishermen:\n1. Nabhmitra was tested at Neendakara in Kerala in August 2023.\n2. GEMINI sends its alerts through the NavIC constellation.\n3. The DAT-SG distress transmitter sends an acknowledgement back to the fishermen.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: GEMINI uses GAGAN (INCOIS with AAI); DAT-SG is the NavIC distress transmitter.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp245b9f570c98",
+  "row": 45,
+  "s": "Consider the following statements about Andhra Pradesh:\n1. The City Flood Alert system was first implemented in Vijayawada.\n2. The City Flood Alert system was developed by RTGS and APSDMA with IIT Madras.\n3. Andhra Pradesh declared 103 drought mandals in 2024-25 using the Vegetation Condition Index.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All three",
+   "Only two",
+   "None"
+  ],
+  "a": 2,
+  "x": "Two are correct (1 and 3). 2 is wrong: the partner was IIT Gandhinagar.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp98bc7cde1cce",
+  "row": 45,
+  "s": "Match List-I with List-II (Andhra Pradesh geospatial initiatives):\nList-I | List-II\na. APSSDI | i. 271 GIS layers\nb. PM Gati Shakti AP | ii. Lightning deaths\nc. APSDMA–NRSC MoU (15 April 2026) | iii. Tracking of mineral vehicles (AIS-140)\nd. APMVTS | iv. 74 GIS layers\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 3,
+  "x": "APSSDI – 74 GIS layers; PM Gati Shakti AP – 271 layers; APSDMA–NRSC MoU – lightning deaths; APMVTS – real-time tracking of about 50,000 mineral vehicles with AIS-140.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp586186ce100e",
+  "row": 45,
+  "s": "Consider the following statements:\n1. Tele-education, telemedicine and Village Resource Centres in India are enabled by INSAT/GSAT satellites.\n2. ISRO's Village Resource Centres are run by IMD.\n3. Swayam Prabha is a group of 40 free educational DTH channels carried on GSAT-30.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Only 1 is correct. 2 is wrong: Village Resource Centres are ISRO's, not IMD's. 3 is wrong: the 40 Swayam Prabha channels are on GSAT-15.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3eab498d6667",
+  "row": 45,
+  "s": "Consider the following statements about satellite navigation in India:\n1. In March 2026 the clock of IRNSS-1F failed, leaving only three PNT-capable NavIC satellites.\n2. NVS-02 is stranded in an incorrect orbit.\n3. NavIC is now the reference for Indian Standard Time.\n4. GAGAN, of ISRO and AAI, has payloads on GSAT-8, 10 and 15.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All four",
+   "Only two",
+   "Only three"
+  ],
+  "a": 1,
+  "x": "Three are correct (1, 2, 4). 3 is wrong: GPS is still the IST reference.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9d2d7df65e72",
+  "row": 46,
+  "s": "Consider the following statements about India's space situational awareness systems:\n1. NETRA stands for Network for Space Object Tracking and Analysis and gives 24–72 hours' warning of close approaches.\n2. IS4OM was dedicated to the nation in 2019.\n3. IS4OM compiles the annual Indian Space Situational Assessment Report (ISSAR).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: IS4OM (ISRO System for Safe and Sustainable Space Operations Management) was dedicated to the nation in 2022; 2019 is when the SSA Control Centre's foundation stone was laid.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4a24e4998c85",
+  "row": 46,
+  "s": "Consider the following statements:\n1. Digantara is a private space situational awareness start-up based in Hyderabad.\n2. According to ISSAR 2025, Indian satellites carried out 18 collision avoidance manoeuvres in 2025.\n3. RISAT-2B avoided a defunct US satellite in 2019.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "None",
+   "All three",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "Two are correct (2 and 3). 1 is wrong: Digantara Research and Technologies is based in Bengaluru.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4bb3a71e6792",
+  "row": 46,
+  "s": "Consider the following statements about space debris:\n1. The main source of space debris is fragmentation from collisions and in-orbit explosions.\n2. Mission Shakti (DRDO, 27 March 2019) destroyed Microsat-R at about 300 km.\n3. According to ESA (2025), there are over 1.2 million objects larger than 1 cm in orbit.\n4. MMOD (micrometeoroids and orbital debris) is the top risk mainly in geostationary orbit.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "All four",
+   "Only one",
+   "Only two"
+  ],
+  "a": 0,
+  "x": "Three are correct (1, 2, 3). 4 is wrong: MMOD is the top risk in LEO, not GEO.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbf3bb7a29ba5",
+  "row": 46,
+  "s": "Consider the following statements:\nAssertion (A): The Kessler Syndrome can make some orbits unusable.\nReason (R): High debris density leads to collisions, which produce more fragments in a self-sustaining cascade.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: Kessler (NASA, 1978) described debris density → collisions → more fragments → a cascade that can make orbits unusable.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp0a06f5c4a7c5",
+  "row": 46,
+  "s": "Match List-I (Instrument) with List-II (Core rule):\nList-I | List-II\na. Rescue Agreement, 1968 | i. Return of astronauts\nb. Liability Convention, 1972 | ii. Absolute liability for damage on Earth\nc. Registration Convention, 1975 | iii. Registration of space objects with the UN\nd. Moon Agreement, 1979 | iv. Common heritage\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Rescue Agreement – return of astronauts; Liability Convention – absolute liability on Earth, fault liability in space; Registration Convention – register objects with the UN; Moon Agreement – common heritage.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe9ea8a0e6173",
+  "row": 46,
+  "s": "Consider the following statements:\n1. The Outer Space Treaty, 1967 rules out national sovereignty over outer space.\n2. Article VI of the Outer Space Treaty deals with liability for damage.\n3. India ratified the Outer Space Treaty in 1982.\n4. India has signed and ratified the Moon Agreement, 1979.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "All four",
+   "Only one",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "Two are correct (1 and 3). 2 is wrong: Article VI is national responsibility (incl. private actors); liability is Article VII. 4 is wrong: India signed but did not ratify the Moon Agreement.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4b90df2dcbc2",
+  "row": 46,
+  "s": "Consider the following statements:\n1. India pledged Debris Free Space Missions (DFSM) by 2030 at the 2024 IADC meeting.\n2. The servicer of ISRO's planned Active Debris Removal mission will capture a defunct rocket body with a robotic arm or net.\n3. India's 2026 re-entry rules require aircraft and ships to be warned at least 30 days before re-entry.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the warning must be given at least 45 days before re-entry.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp56ab99f78e4f",
+  "row": 46,
+  "s": "Consider the following statements:\nAssertion (A): At the end of their missions, geostationary satellites are moved to a graveyard orbit.\nReason (R): The 25-year rule requires LEO satellites to re-enter within 25 years of mission end.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R (about LEO satellites re-entering) does not explain A (GEO satellites going to a graveyard orbit).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp58bee30bdeed",
+  "row": 46,
+  "s": "Match List-I (Event) with List-II (Year):\nList-I | List-II\na. Establishment of UNCOPUOS | i. 2023\nb. Establishment of IADC | ii. 1959\nc. Launch of the Artemis Accords by the US | iii. 1993\nd. India signs the Artemis Accords | iv. 2020\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "UNCOPUOS – 1959 (India a founding member); IADC – 1993 (13 agencies, ISRO a member); Artemis Accords – US, 2020; India signed in 2023.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp04b0999333a1",
+  "row": 46,
+  "s": "Consider the following statements:\n1. PAROS is an agenda item of the UN Conference on Disarmament.\n2. Russia declared a moratorium on destructive direct-ascent ASAT tests in April 2022.\n3. The Artemis Accords are legally binding on their signatories.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 3,
+  "x": "Only 1 is correct. 2 is wrong: it was the US that declared the moratorium (April 2022). 3 is wrong: the Artemis Accords are non-binding.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf34e2469bb1e",
+  "row": 47,
+  "s": "Consider the following statements about the leadership of DRDO:\n1. Dr G. Satheesh Reddy, DRDO Chairman from 2018 to 2022, is a native of Kurnool district of Andhra Pradesh.\n2. Dr Samir V. Kamat was DRDO Chairman from August 2022 until he retired on 31 May 2026.\n3. From 1 June 2026, Defence Secretary Rajesh Kumar Singh holds additional charge as DRDO Chairman.\n4. Dr S. Christopher was DRDO's head when the Scientific Adviser post was separated in 2015.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 0,
+  "x": "Three are correct (2, 3, 4). 1 is wrong: Satheesh Reddy is a native of Nellore, not Kurnool.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb42790980ff9",
+  "row": 47,
+  "s": "Consider the following statements about DRDO's structure:\n1. The Secretary, Department of Defence R&D is also Chairman of DRDO.\n2. Level II of DRDO's leadership consists of the DG (Technology Clusters) and the DG (Corporate).\n3. DRDO lab directors report directly to the Defence Minister.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: lab directors (Level III) report to the cluster DGs.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb2452c2dd56c",
+  "row": 47,
+  "s": "Consider the following statements about DRDO:\n1. It was formed in 1958 by amalgamating the TDEs of the Army, the DTDP and AEET Trombay.\n2. Its headquarters, DRDO Bhawan, is in New Delhi.\n3. It started with 10 establishments and now has about 41 laboratories and 5 Young Scientist Laboratories.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "2 and 3 are correct. 1 is wrong: the third body merged was the Defence Science Organisation (DSO), not AEET Trombay. (Older books give about 52 labs, the pre-merger figure.)",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpce291d6db1b7",
+  "row": 47,
+  "s": "Consider the following statements about DRDO's vision and mission:\n1. Its vision is to empower the nation with state-of-the-art indigenous defence and security technologies.\n2. Its mission includes technological solutions to optimise combat effectiveness and the well-being of troops.\n3. Its mission explicitly includes promoting international collaboration in defence technologies.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: the three-point mission covers sensors/weapons/platforms, combat effectiveness and troop well-being, and infrastructure, manpower and an indigenous technology base – not international collaboration.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp08e24393ec2e",
+  "row": 47,
+  "s": "Match List-I (Hyderabad laboratory) with List-II (Field):\nList-I | List-II\na. RCI | i. Lead lab of IGMDP; MPATGM\nb. DRDL | ii. Electronic warfare\nc. ASL | iii. Agni series\nd. DLRL | iv. Missile guidance and seekers\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "RCI – guidance, seekers, navigation, avionics; DRDL – lead lab of IGMDP, MPATGM; ASL – Agni series; DLRL – electronic warfare (DMRL – metals and armour).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpceda66aa5c54",
+  "row": 47,
+  "s": "Match List-I (DRDO laboratory) with List-II (Location):\nList-I | List-II\na. CVRDE | i. Chennai (Avadi)\nb. DFRL | ii. Mysuru\nc. DRDE | iii. Gwalior\nd. DIPAS | iv. Delhi\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 1,
+  "x": "CVRDE – Chennai (Avadi); DFRL – Mysuru (food, MREs); DRDE – Gwalior (chemical and biological defence); DIPAS – Delhi (soldier physiology at altitude and cold).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp949dab683cad",
+  "row": 47,
+  "s": "Match List-I (Laboratory) with List-II (Work/Product):\nList-I | List-II\na. ADE, Bengaluru | i. Artificial intelligence and robotics\nb. CAIR, Bengaluru | ii. UAVs Rustom/TAPAS, Nishant, Lakshya\nc. DEBEL, Bengaluru | iii. Pinaka\nd. ARDE, Pune | iv. Medical oxygen plant\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "ADE – Rustom/TAPAS, Nishant, Lakshya; CAIR – AI and robotics; DEBEL – medical oxygen plant; ARDE – armaments, Pinaka.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp57532457c4b1",
+  "row": 47,
+  "s": "Consider the following statements about DRDO's naval laboratories:\n1. NSTL, the Naval Science and Technological Laboratory, is at Visakhapatnam.\n2. NPOL, which works on sonars, is at Visakhapatnam.\n3. NMRL, Ambernath works on fuel-cell Air Independent Propulsion.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: NPOL is at Kochi; NSTL (torpedoes) is at Visakhapatnam.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpce0309505a4b",
+  "row": 47,
+  "s": "Consider the following statements:\n1. The bike ambulance was developed by INMAS, Delhi.\n2. The CBRN Field Training Centre under INMAS trains MoD, MHA and NDMA personnel.\n3. The National Aerospace Laboratories (NAL), Bengaluru is a DRDO laboratory.\n4. The Aeronautical Development Agency (ADA), which designs the LCA Tejas, is an autonomous society under the MoD.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 0,
+  "x": "Three are correct (1, 2, 4). 3 is wrong: NAL, Bengaluru is a CSIR lab, not DRDO.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe8c5a19ca95d",
+  "row": 47,
+  "s": "Match List-I (DRDO technology cluster) with List-II (Laboratories):\nList-I | List-II\na. Aeronautics | i. DIPAS, DFRL, DEBEL, INMAS\nb. Naval Systems & Materials | ii. NSTL, NPOL, NMRL\nc. Combat Vehicles | iii. ADE, GTRE, CABS\nd. Life Sciences | iv. CVRDE, VRDE\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 1,
+  "x": "Aeronautics – ADE, GTRE, CABS; Naval Systems & Materials – NSTL, NPOL, NMRL; Combat Vehicles – CVRDE, VRDE; Life Sciences – DIPAS, DFRL, DEBEL, INMAS.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8818833660f8",
+  "row": 47,
+  "s": "Consider the following statements:\nAssertion (A): Muntra, DRDO's first unmanned tank, was developed by CVRDE.\nReason (R): CVRDE, Chennai (Avadi) is DRDO's laboratory for combat vehicles such as the Arjun tank.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: CVRDE is the combat-vehicles lab (Arjun), and it developed Muntra.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp8eed38359efa",
+  "row": 47,
+  "s": "Consider the following statements about DRDO products:\n1. The Netra mini-UAV, used by police and in disasters, was developed by DRDO's Pune laboratories with IdeaForge.\n2. The anti-COVID drug 2-DG was developed by INMAS with Dr Reddy's Laboratories.\n3. DRDO's bio-toilets were developed by DFRL, Mysuru.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: bio-toilets came from DRDE Gwalior and DRL Tezpur.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa8f66f413819",
+  "row": 47,
+  "s": "Consider the following statements:\n1. The Jagadish Chandra Bose Centre for Advanced Technology was set up with DRDO at Jadavpur University, Kolkata.\n2. There are 15 DRDO Young Scientist Laboratories, dedicated on 2 January 2020.\n3. DRDO has set up 15 Industry-Academia Centres of Excellence at IITs and IISc.\n4. DIAT Pune is a DRDO-backed deemed university.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 3 and 4 only",
+   "1 and 3 only",
+   "2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 3 and 4 are correct. 2 is wrong: there are 5 DYSLs (in AI, quantum, cognitive, asymmetric technologies, smart materials); 15 is the number of DIA-CoEs.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp53a067a5cdc9",
+  "row": 47,
+  "s": "Consider the following statements:\n1. The Technology Development Fund is a MoD programme executed by DRDO under Make in India.\n2. TDF grants to MSMEs and start-ups can go up to ₹10 crore.\n3. Since 2020 industry has royalty-free access to DRDO patents, and DRDO has given over 2,100 free ToTs.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Two are correct (1 and 3). 2 is wrong: TDF grants go up to ₹50 crore.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp907ab78dcd67",
+  "row": 47,
+  "s": "Consider the following statements:\nAssertion (A): In August 2026, transfer of technology of Astra, Rudram, Nag and VSHORADS to private industry was approved.\nReason (R): Under the same decision, Agni and K-series missiles were also opened to private production.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: Agni and the K-series stay in state production.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4af4e80d1897",
+  "row": 47,
+  "s": "Match List-I (Place in Andhra Pradesh) with List-II (DRDO/defence facility):\nList-I | List-II\na. NSTL, Visakhapatnam | i. Planned test range for tactical missiles\nb. Nagayalanka (Krishna) | ii. ADA flight-testing complex\nc. Kurnool | iii. ULPGM-V3 trials\nd. Sri Sathya Sai district | iv. Varunastra torpedo\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "NSTL – Varunastra, mines, SMART; Nagayalanka – planned tactical-missile test range; Kurnool – MPATGM (2019) and ULPGM-V3 trials; Sri Sathya Sai – ADA flight-testing complex (₹15,803 crore).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
   "id": "cp829fccdc3c7a",
   "row": 48,
   "s": "Match List-I (Missile) with List-II (Feature):\nList-I | List-II\na. Agni-I | i. Three-stage solid, canister-launched, 5,000+ km\nb. Agni-IV | ii. Single-stage solid, about 700 km\nc. Agni-V | iii. Rail-based launcher test, 24 September 2025\nd. Agni-P (Prime) | iv. Two-stage solid, road-mobile, about 4,000 km\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-iii, d-i",
-   "a-i, b-iv, c-ii, d-iii",
    "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
    "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Agni-I – single-stage solid, ~700 km; Agni-IV – two-stage, road-mobile, ~4,000 km; Agni-V – three-stage, canister, 5,000+ km; Agni-P – two-stage canister missile test-fired from a rail-based launcher on 24 Sep 2025.",
   "src": "app",
   "tq": "match"
@@ -64,12 +784,12 @@
   "row": 48,
   "s": "Consider the following statements about the IGMDP missiles:\n1. Prithvi is a liquid-fuelled surface-to-surface short-range ballistic missile of 150–350 km.\n2. Akash is a medium-range surface-to-air missile with a speed of about Mach 2.5 and a range of about 25–30 km.\n3. Trishul, with a range of about 9 km, was inducted into the Army.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "1 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 2,
   "x": "1 and 2 are correct. 3 is wrong: Trishul was never inducted – the programme was shut down on 27 Feb 2008.",
   "src": "app",
   "tq": "statements"
@@ -80,11 +800,11 @@
   "s": "Consider the following statements about the Integrated Guided Missile Development Programme (IGMDP):\n1. It was launched in 1983 under Dr APJ Abdul Kalam, with DRDL, Hyderabad as the lead laboratory.\n2. Nag and Akash were developed in its first phase (1984–89).\n3. It was closed in 2008.\n4. Ring laser gyros were among its spin-offs.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 3 only",
-   "2 and 4 only",
    "1, 3 and 4 only",
+   "2 and 4 only",
    "1, 2, 3 and 4"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1, 3 and 4 are correct. 2 is wrong: Prithvi and Trishul were the first phase (1984–89); Nag and Akash came in 1989–92. A satellite navigation constellation was not a spin-off.",
   "src": "app",
   "tq": "statements"
@@ -140,11 +860,11 @@
   "s": "Match List-I (Missile) with List-II (Operator):\nList-I | List-II\na. Prithvi-I | i. Navy\nb. Prithvi-II | ii. Army\nc. Dhanush | iii. Strategic Forces Command\nd. Agni | iv. Air Force\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
    "a-ii, b-iv, c-i, d-iii",
-   "a-i, b-iv, c-iii, d-ii",
-   "a-ii, b-iv, c-iii, d-i"
+   "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Prithvi-I – Army (150 km); Prithvi-II – Air Force (350 km); Dhanush (Prithvi-III) – Navy, ship-launched; Agni – Strategic Forces Command.",
   "src": "app",
   "tq": "match"
@@ -154,12 +874,12 @@
   "row": 48,
   "s": "Consider the following statements:\n1. Prithvi-II was first tested in 1996 and inducted in 2003.\n2. Prithvi-I and Prithvi-II use solid fuel.\n3. PAD (Pradyumna) is an exo-atmospheric interceptor.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 and 3 only",
    "1 only",
    "2 and 3 only",
-   "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: Prithvi uses liquid fuel (only Prithvi-III has a solid first stage).",
   "src": "app",
   "tq": "statements"
@@ -169,12 +889,12 @@
   "row": 48,
   "s": "Consider the following statements:\n1. Akash is used by both the Army and the Air Force.\n2. Akash Mk-I uses the Rajendra radar.\n3. Akash-NG is canister-launched with a range of about 70 km.\n4. Akashteer is a surface-to-air missile developed by DRDO.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3 only",
    "1 and 2 only",
+   "1, 2, 3 and 4",
    "3 and 4 only",
-   "1, 2, 3 and 4"
+   "1, 2 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1, 2 and 3 are correct. 4 is wrong: Akashteer (BEL with the Army) is an air-defence control system, not a missile.",
   "src": "app",
   "tq": "statements"
@@ -238,5 +958,455 @@
   "x": "1 and 2 are correct. 3 is wrong: it was ISRO that the USA put on hold in May 1992.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cpbbebf7c27012",
+  "row": 49,
+  "s": "Consider the following statements about BrahMos Aerospace:\n1. DRDO holds 50.5% and NPO Mashinostroyeniya of Russia 49.5% of the joint venture.\n2. The Inter-Governmental Agreement that created it was signed in New Delhi in 1998.\n3. Its first production unit is the BrahMos Integration Complex at Kanchanbagh, Hyderabad.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the IGA was signed in Moscow in 1998.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1936c3c67c72",
+  "row": 49,
+  "s": "Consider the following statements about the BrahMos missile:\n1. It flies at Mach 2.8–3.0.\n2. A solid booster is followed by a liquid ramjet.\n3. Its range was raised beyond 290 km after India joined the Nuclear Suppliers Group in 2016.\n4. It is in service with the Army, the Navy and the Air Force.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the range went to 400–450 km after India joined the MTCR (2016); India is not an NSG member.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp307b0b2ae4b2",
+  "row": 49,
+  "s": "Match List-I (Date) with List-II (BrahMos milestone):\nList-I | List-II\na. 12 June 2001 | i. Fired from the moving warship INS Ranvir\nb. 2005 | ii. First reported combat use – Operation Sindoor\nc. 21 March 2010 | iii. First version inducted into the Navy (INS Rajput)\nd. May 2025 | iv. First successful test, Chandipur\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "12 June 2001 – first successful test, Chandipur; 2005 – inducted into the Navy on INS Rajput; 21 Mar 2010 – fired from INS Ranvir in the Bay of Bengal; May 2025 – Operation Sindoor.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc83ca088b5aa",
+  "row": 49,
+  "s": "Consider the following statements:\n1. BrahMos-NG is a lighter (~1.5 t) version meant for Tejas, smaller warships and submarines.\n2. BrahMos-II is planned to reach Mach 3.5 with a liquid ramjet.\n3. The Philippines signed a US$375 million deal in January 2022 for three batteries of shore-based BrahMos.\n4. BrahMos and Akashteer have already been delivered to the UAE.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All four",
+   "Only three",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "Two are correct (1 and 3). 2 is wrong: BrahMos-II is a planned hypersonic (above Mach 5) scramjet missile; Mach 3.5 is BrahMos-NG. 4 is wrong: with the UAE there are only early-stage talks (June 2026).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe0b3974f8600",
+  "row": 49,
+  "s": "Consider the following statements about the Astra missile:\n1. Astra Mk-1 has a range of 80–110 km and is carried on the Su-30MKI and Tejas.\n2. Astra Mk-3 'Gandiva' is to be powered by a scramjet.\n3. On 23 August 2023, LCA Tejas test-fired Astra off Goa.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: Gandiva uses a Solid Fuel Ducted Ramjet (SFDR) engine, range 300–350+ km.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp90d71ea4bc97",
+  "row": 49,
+  "s": "Consider the following statements:\n1. Nirbhay is powered by a turbojet and flies at about Mach 0.8.\n2. Nirbhay has a range of about 1,000 km.\n3. The ITCM, Nirbhay's successor, uses the 'Manik' small turbofan engine made by HAL.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the Manik engine is by GTRE (DRDO), not HAL.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1b78be9f1440",
+  "row": 49,
+  "s": "Match List-I (Missile) with List-II (Type/role):\nList-I | List-II\na. Rudram-I | i. Helicopter-launched anti-ship missile\nb. Pralay | ii. Vertical-launch ship SAM derived from Astra\nc. VL-SRSAM | iii. Quasi-ballistic SSM, 150–500 km\nd. NASM-SR | iv. Anti-radiation, air-to-surface\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Rudram-I – first indigenous anti-radiation missile (Su-30MKI); Pralay – quasi-ballistic SSM, 150–500 km; VL-SRSAM – Navy ships, from Astra; NASM-SR – first indigenous helicopter-launched anti-ship missile.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbf50ed767859",
+  "row": 49,
+  "s": "Consider the following statements:\n1. Shaurya was developed by DRDO's Advanced Systems Laboratory, Hyderabad.\n2. Shaurya is a canister-launched, nuclear-capable surface-to-surface missile.\n3. LRGB 'Gaurav' is a 120 km guided rocket.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "None",
+   "All three",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "Two are correct (1 and 2). 3 is wrong: Gaurav is a 1,000 kg glide bomb (~100 km) from the Su-30MKI; the 120 km guided rocket is Pinaka LRGR-120.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpeba8b8f5956e",
+  "row": 49,
+  "s": "Match List-I (Missile system) with List-II (Country):\nList-I | List-II\na. Spyder | i. Israel\nb. Zircon | ii. Russia\nc. Minuteman III | iii. China\nd. Dongfeng-5C | iv. USA\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "Spyder – Israel (Rafael), used by the IAF; Zircon – Russia, ship-launched hypersonic; Minuteman III – USA, land leg of the triad; Dongfeng-5C – China, ICBM.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf426f2d1c7ea",
+  "row": 49,
+  "s": "Consider the following statements:\n1. Barak-1 was first deployed in the Indian Navy on INS Virat.\n2. 'Barak' means 'thunder' in Hebrew.\n3. Kinzhal is Russia's air-launched hypersonic missile.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: 'Barak' means lightning in Hebrew.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa6575494951f",
+  "row": 49,
+  "s": "Consider the following statements about Mission Shakti:\n1. The interceptor was DRDO's PDV Mk-II.\n2. The target, Microsat-R, was launched by PSLV-C44 in January 2019.\n3. The target was destroyed at about 283 km in Low Earth Orbit.\n4. It made India the third country, after the USA and Russia, to demonstrate an ASAT capability.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: India was the fourth ASAT nation, after the USA, Russia and China.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0084b80792cf",
+  "row": 49,
+  "s": "Consider the following statements:\nAssertion (A): Mission Shakti targeted a satellite in low LEO (about 283 km).\nReason (R): Debris at such a low altitude decays quickly.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the low orbit was chosen so the debris (there was debris) would decay quickly.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpa1ec5dcc32d1",
+  "row": 49,
+  "s": "Match List-I (Term) with List-II (Meaning):\nList-I | List-II\na. HGV | i. Ducted ramjet for long-range air-to-air missiles\nb. MIRV | ii. One missile, several warheads, different targets\nc. Scramjet | iii. Rocket-boosted, then glides at Mach 5+ and manoeuvres\nd. SFDR | iv. Supersonic combustion, no rotating parts\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "HGV – boosted, then glides at Mach 5+; MIRV – several independently targeted warheads (first Indian test on Agni-V, Mission Divyastra, not K-4); scramjet – supersonic combustion, no rotating parts; SFDR – uses atmospheric air, for long-range AAMs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4729230a82da",
+  "row": 49,
+  "s": "Consider the following statements about India's LR-AShM:\n1. It is a hypersonic glide anti-ship missile for Navy coastal batteries with a range of about 1,500 km.\n2. Its peak speed is about Mach 6.\n3. Ranges along the Andhra Pradesh coast were used for its validation rounds in January 2026.\n4. It was displayed at the 77th Republic Day Parade.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 3 and 4 only",
+   "2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 3 and 4 are correct. 2 is wrong: LR-AShM peaks at Mach 10 (average Mach 5 via skipping); 'above Mach 6' is the HSTDV.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5839269c65c7",
+  "row": 49,
+  "s": "Consider the following statements:\nAssertion (A): Nirbhay is a subsonic cruise missile.\nReason (R): Cruise missiles are powered throughout their flight by air-breathing engines.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: being powered throughout is true of all cruise missiles, including supersonic BrahMos; Nirbhay is subsonic because it flies below Mach 1 (about Mach 0.8).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpbb5fcfc26b82",
+  "row": 50,
+  "s": "Consider the following statements about India's nuclear tests:\n1. The Pokhran-I team was led by Raja Ramanna, when Indira Gandhi was Prime Minister.\n2. Pokhran-II consisted of five tests, conducted under Prime Minister A.B. Vajpayee.\n3. Pokhran-II was led by A.P.J. Abdul Kalam (DRDO) and Homi Sethna (DAE).\n4. The Pokhran Test Range is in Barmer district of Rajasthan.\nHow many of the above statements are correct?",
+  "o": [
+   "All four",
+   "Only one",
+   "Only two",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "Two are correct (1 and 2). 3 is wrong: Kalam's DAE counterpart was R. Chidambaram. 4 is wrong: the range is in Jaisalmer district.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcd081094bf22",
+  "row": 50,
+  "s": "Match List-I (Submarine) with List-II (Type/origin):\nList-I | List-II\na. INS Chakra (1988) | i. German Type 209 diesel-electric\nb. INS Chakra II | ii. Leased Soviet Charlie-class nuclear submarine\nc. INS Shishumar | iii. Russian Kilo-class diesel-electric\nd. INS Sindhughosh | iv. Leased Russian Akula-II nuclear attack submarine\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "INS Chakra (I) – Soviet Charlie class (1988–91); INS Chakra II – Akula-II SSN, commissioned 4 Apr 2012; Shishumar/Shalki – German Type 209; Sindhughosh/Sindhuvir – Russian Kilo class.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpab442030303c",
+  "row": 50,
+  "s": "Consider the following statements about India's SSBNs:\n1. The ATV project, with Russian help, built them at Visakhapatnam.\n2. The first K-4 launch from INS Arighaat took place on 27 November 2024.\n3. INS Arighaat has eight vertical launch tubes.\n4. INS Aridhaman was commissioned at Visakhapatnam on 3 April 2026.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Arighaat, like Arihant, has 4 tubes; it is Aridhaman (~7,000 t) that has 8 VLS.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp55e4e2c44db0",
+  "row": 50,
+  "s": "Match List-I (BMD element) with List-II (Feature):\nList-I | List-II\na. PAD / Pradyumna | i. Phase II, against ~5,000 km-class threats\nb. AAD / Ashwin | ii. Phase I, endo-atmospheric, 15–30 km\nc. AD-1 / AD-2 | iii. Phase I, exo-atmospheric, 50–80 km\nd. Swordfish | iv. Long-range tracking radar, 1,500+ km\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "PAD – Phase I exo-atmospheric (50–80 km); AAD – Phase I endo-atmospheric (15–30 km); AD-1/AD-2 – Phase II vs ICBMs/HGVs; Swordfish (from Israel's Green Pine) – tracks missiles and space objects at 1,500+ km.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa80c4e7eea2e",
+  "row": 50,
+  "s": "Consider the following statements:\n1. MRSAM (Barak-8) was developed jointly by DRDO and Israel Aerospace Industries.\n2. India's IADWS combines QRSAM, VSHORADS and a high-power laser directed-energy weapon.\n3. Akash Tarang is a hard-kill anti-drone missile.\n4. Akashteer is an automated air-defence control network built by BEL with the Army.\nHow many of the above statements are correct?",
+  "o": [
+   "All four",
+   "Only one",
+   "Only two",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "Three are correct (1, 2, 4). 3 is wrong: Akash Tarang is a soft-kill anti-drone electronic-warfare system.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp66d6b3f310f3",
+  "row": 50,
+  "s": "Consider the following statements:\nAssertion (A): Mission Sudarshan Chakra, announced on Independence Day 2025, aims at a networked national shield by 2035.\nReason (R): Project Kusha, at its core, is DRDO's short-range air-defence system.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (Vision 2035). R is false: Project Kusha is DRDO's long-range air defence, with M1/M2/M3 interceptors of about 150/250/350–400 km.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpa86ef10d5b3e",
+  "row": 50,
+  "s": "Consider the following statements about India's nuclear doctrine:\n1. The draft doctrine was prepared by the National Security Advisory Board in August 1999.\n2. No First Use was first declared by the Indira Gandhi government after Pokhran-I.\n3. The doctrine permits the use of nuclear weapons against non-nuclear-weapon states.\n4. The nuclear option is retained against a major biological or chemical attack.\nHow many of the above statements are correct?",
+  "o": [
+   "All four",
+   "Only one",
+   "Only two",
+   "Only three"
+  ],
+  "a": 0,
+  "x": "Two are correct (1 and 4). 2 is wrong: NFU came from the Vajpayee government after Pokhran-II. 3 is wrong: there is no use against non-nuclear-weapon states.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe50e7826a2fa",
+  "row": 50,
+  "s": "Match List-I (Body) with List-II (Role in India's nuclear command):\nList-I | List-II\na. Political Council | i. Chaired by the NSA; advises and carries out directions\nb. Executive Council | ii. Civilian political oversight; does not manage the forces\nc. Strategic Forces Command | iii. Tri-service command that operates the arsenal\nd. Cabinet Committee on Security | iv. Chaired by the PM; only body that can authorise use\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "Political Council (PM) – only body that can authorise use; Executive Council (NSA) – advises, carries out directions; SFC (tri-service, 2003) – manages and operates the arsenal; CCS – oversees civilian political control.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp531f253205aa",
+  "row": 50,
+  "s": "Consider the following statements:\nAssertion (A): Under No First Use, India will use nuclear weapons only in retaliation against a nuclear attack on Indian territory or Indian forces.\nReason (R): India has observed a unilateral moratorium on nuclear tests since 1998.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: the test moratorium is a separate tenet; NFU rests on credible minimum deterrence with assured second strike.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpacef9f234035",
+  "row": 50,
+  "s": "Match List-I (Regime) with List-II (India's status):\nList-I | List-II\na. Nuclear Suppliers Group | i. Member, January 2018\nb. MTCR | ii. Member, December 2017\nc. Wassenaar Arrangement | iii. Not a member – blocked by China\nd. Australia Group | iv. 35th member, June 2016\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "NSG – not a member (blocked by China; 2008 waiver); MTCR – 35th member, 27 June 2016; Wassenaar – Dec 2017; Australia Group – Jan 2018.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp29bf9cfe20ef",
+  "row": 50,
+  "s": "Consider the following statements:\n1. Under the NPT, only states that tested a nuclear device before 1967 are nuclear-weapon states.\n2. India became a member of the NSG through the 2008 waiver.\n3. India follows the export-control regimes' guidelines through the WMD Act and the SCOMET list.\n4. India has signed the CTBT.\nHow many of the above statements are correct?",
+  "o": [
+   "All four",
+   "Only one",
+   "Only two",
+   "Only three"
+  ],
+  "a": 1,
+  "x": "Two are correct (1 and 3). 2 is wrong: India is not an NSG member – it got a waiver and follows the guidelines. 4 is wrong: India has not signed the CTBT (voluntary moratorium since 1998).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0b9797497aa4",
+  "row": 50,
+  "s": "Match List-I (Triad leg) with List-II (Platform):\nList-I | List-II\na. India – air leg | i. Minuteman III ICBMs\nb. India – earlier ship-based sea leg | ii. Agni and Prithvi series\nc. India – land leg | iii. Dhanush from INS Subhadra\nd. USA – land leg | iv. Jaguar and Mirage 2000\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Air – Jaguar and Mirage 2000 (free-fall bombs); earlier sea leg – Dhanush from INS Subhadra/Rajput (now K-15/K-4 from Arihant-class); land – Prithvi and Agni; US land leg – Minuteman III.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpecdb7d378404",
+  "row": 50,
+  "s": "Consider the following statements:\nAssertion (A): Land-based missiles are regarded as the most survivable leg of India's nuclear triad.\nReason (R): The concealment of SSBNs gives a sure second-strike capability.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the SSBN is the most survivable leg. R is true: SSBN concealment gives sure second-strike capability, which backs NFU.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpc36e432c2f1b",
+  "row": 50,
+  "s": "Consider the following statements:\n1. India has a fully operational nuclear triad, along with the USA, Russia and China.\n2. SIPRI (June 2026) linked India's 12 'operationally deployed' warheads to SSBN patrols and canisterised Agni.\n3. The Agni-4 user trial of 6 August 2026 was of a three-stage missile with a range of 5,000 km.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: Agni-4 is a two-stage, solid, road-mobile missile of 4,000 km.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp623ab9ea28f2",
+  "row": 50,
+  "s": "Match List-I (Uranium grade) with List-II (Approximate U-235 share):\nList-I | List-II\na. Natural uranium | i. 20% and above\nb. Reactor-grade LEU | ii. ~0.7%\nc. HEU | iii. ~90%\nd. Weapons-grade | iv. 3–5%\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 1,
+  "x": "Natural uranium ~0.7%; reactor-grade LEU 3–5%; HEU 20%+; weapons-grade ~90%.",
+  "src": "app",
+  "tq": "match"
  }
 ]
