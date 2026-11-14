@@ -34,7 +34,7 @@
 |---|---|
 | Public | SAIL, BHEL, HAL, RINL, NALCO |
 | Private | TISCO, Reliance, JSW, Bajaj Auto |
-| Joint | **Maruti Udyog** (GoI + Suzuki); sugar industry in Maharashtra (NCERT) |
+| Joint | **Maruti Udyog** (GoI + Suzuki); APIIC joint ventures |
 | Cooperative | **Amul** (Anand), Sudha Dairy; Maharashtra sugar mills |
 - **Maruti Udyog:** incorporated **Feb 1981** as a Government company; JV with **Suzuki (26%)** in **1982**, so **GoI 74%** (the answer exams give); Suzuki 40% (1987), 50% (1992).
 - **Industrial Policy Resolution 1956:** **Schedule A** (arms, atomic energy, iron and steel) = public sector; **Schedule B** = both.
