@@ -511,3 +511,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Dispute y12561b05848 term "sustainable development": printed 1980 kept (many books 1987).
 - Printed-key-only: "transformative learning", poverty alleviation not related (UP 2013), AP 212 SDG indicators.
 - SDR 2026: India 94/169.
+
+## b5-r079 (International environmental treaties)
+- Disputes kept: y7eca736bd01 Stockholm "first introduced" SD; yfb6ff3fd752 MIDORI "annual" (biennial); y8b39e48c499 keyed I and IV though III also true — owner: add_option "I, III and IV"?
+- Outdated yba02b0b9baa CITES animals ~5,000 (now ~6,610).
+- Aichi = COP10 Nagoya 2010 (NextGen wrong). Ramsar Sukhna/Sauj date 15 vs 16 Oct 2026 (own MCQ gbe8ae1ce5c68 stem says 16).
+- ~25 general-knowledge keys (WED themes/hosts, COP22, G20, Loktak).

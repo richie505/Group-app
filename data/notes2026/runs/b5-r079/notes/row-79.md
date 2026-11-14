@@ -1,68 +1,3 @@
-=== CBD – Objectives, COPs, Aichi Targets and the Kunming-Montreal GBF
-# Convention on Biological Diversity (1992)
-- **Opened for signature at Rio 1992** (Earth Summit), not Stockholm 1972; text adopted **22 May 1992** (hence **International Day for Biological Diversity = 22 May**); **legally binding**; in force **29 December 1993**; secretariat **Montreal, Canada**; India ratified **1994**.
-- **Three objectives:** **conservation** of biodiversity, **sustainable use** of its components, **fair and equitable sharing of benefits** from genetic resources (not compulsory technology transfer).
-- One of the **three Rio Conventions** (UNFCCC, CBD, UNCCD); financial mechanism = **GEF**. In-situ = conservation in the natural habitat; **ex-situ = outside the natural habitat** (zoos, gene banks).
-- India implements it through the **Biological Diversity Act, 2002** (amended **2023**; criticised for diluting ABS and the role of local communities): three tiers – **National Biodiversity Authority (Chennai)**, **State Biodiversity Boards**, **Biodiversity Management Committees** (prepare **People's Biodiversity Registers**; may **levy collection fees**).
-- **AP State Biodiversity Board:** aims at **zero loss of biodiversity and ecosystem services by 2050**; portal **BIOMIS**.
-# CBD COPs (every two years)
-| COP | Year | Venue | Outcome |
-|---|---|---|---|
-| COP1 | 1994 | **Nassau, Bahamas** | First COP |
-| COP10 | 2010 | **Nagoya, Japan** | **Nagoya Protocol**; **Aichi Targets** (Strategic Plan 2011-2020) |
-| COP11 | 2012 | **Hyderabad, India** | Hosted by India |
-| COP12 | 2014 | Pyeongchang, Korea | Mid-term review of Aichi |
-| COP13 | **Dec 2016** | **Cancun, Mexico** | – |
-| COP14 | 2018 | **Sharm el-Sheikh, Egypt** | Began the post-2020 framework |
-| COP15 | 2021 (Kunming) + **Dec 2022 (Montreal)** | China + Canada | **Kunming-Montreal GBF**; **30x30**; GBF Fund |
-| COP16 | Oct 2024 | **Cali, Colombia** | **Cali Fund** on DSI; India's updated NBSAP |
-- Sequence: **Nagoya 2010 → Kunming 2021 → Montreal Dec 2022 → Cali Oct 2024**. COP15 also served as the 10th MOP of Cartagena and 4th MOP of Nagoya.
-# Aichi Biodiversity Targets
-- **20 targets** under **5 strategic goals**, Strategic Plan **2011-2020**, adopted at **COP10, Nagoya (Aichi Prefecture), 2010** (not COP12 2014 as one NextGen line says). Deadline 2020; **none fully met** (Global Biodiversity Outlook 5).
-# Kunming-Montreal Global Biodiversity Framework (Dec 2022)
-- Adopted at **COP15, Montreal, December 2022** – not Kunming 2021, not COP16 Cali. **4 goals for 2050, 23 targets for 2030**.
-| Item | Content |
-|---|---|
-| Goal A | Halt human-induced extinction; cut extinction rate **tenfold** |
-| Goal B / C / D | Sustainable use / **fair sharing of benefits from genetic resources** / finance and technology (close the US$700 bn gap) |
-| Target 1 | Loss of high-biodiversity areas close to zero |
-| Target 2 | **Restore 30%** of degraded land and water ecosystems |
-| **Target 3 (30x30)** | **Conserve 30% of land and 30% of oceans by 2030** |
-| Target 6 | Cut invasive alien species introduction by **at least 50%** |
-| Target 7 | **Halve excess nutrients** and pesticide risk |
-| Target 16 | **Halve food waste** |
-| Target 18 | Cut harmful subsidies by **US$500 bn a year** |
-| Target 19 | Mobilise **US$200 bn a year** by 2030 from all sources |
-| Target 22 | Full participation and rights of **indigenous peoples and local communities** |
-- **30x30 is a biodiversity (area-protection) target, NOT a renewable-energy target** (APPSC G1 2024). It is championed by the **High Ambition Coalition (HAC) for Nature and People**, co-chaired by **Costa Rica, France and the UK**; **India joined in Oct 2021 – the first BRICS country** to do so.
-- Money: **GBF Fund under the GEF**; **Cali Fund** – large DSI users pay **1% of profits or 0.1% of revenue**. National reports under **Article 26**.
-- **India's updated NBSAP 2024-2030:** **23 national targets**, released at **COP16 Cali**. India's **7th National Report** = first full review against the 23 KMGBF targets.
-> US$200 bn = mobilise (T19); US$500 bn = subsidy cut (T18); US$700 bn = finance gap (Goal D). 30% conserve = T3; 30% restore = T2.
-~~ Sources: NextGen Environment - APPSC Part 4.1 p.14, Part 4.2 p.2, Part 8.1 p.11; Rocket Environment p.7, p.16, p.29; Shankar Environment ch.28 p.448-452; old app notes 5:79 (sub 7, 9-11)
-
-=== Cartagena and Nagoya Protocols
-| Point | Cartagena Protocol | Nagoya Protocol |
-|---|---|---|
-| Subject | **Biosafety** – safe transfer, handling and use of **LMOs/GMOs** from modern biotechnology | **Access and Benefit Sharing (ABS)** of genetic resources |
-| Adopted → in force | **29 Jan 2000 → 11 Sep 2003** | **2010 (COP10) → 2014** |
-| Named after | **Cartagena, Colombia** | Nagoya, Japan |
-| Parent | **CBD** | **CBD** |
-| India | **MoEF(CC)** is the nodal ministry; **GEAC** approves GM organisms | Ratified **2012**; implemented through the **Biological Diversity Act, 2002** |
-- **Both protocols are under the CBD** – not UNFCCC, Ramsar, CITES or the Paris Agreement.
-# Cartagena
-- **Advance Informed Agreement (AIA):** the importing country must consent **before the first transboundary movement** of an LMO meant for release; LMO shipments carry documents identifying the LMO.
-- **Biosafety Clearing-House** = an **online information platform** on LMOs, **not a testing laboratory**.
-- First COP/MOP-1: **February 2004, Kuala Lumpur** (not the Philippines). **India is a Party; the USA is not** a Party to the CBD or its Biosafety Protocol.
-- **Nagoya–Kuala Lumpur Supplementary Protocol** on Liability and Redress (2010) – supplementary to **Cartagena**.
-# Nagoya
-- A **legally binding** supplementary agreement to the CBD – **not voluntary** (APPSC JL 2024 statement 2 false).
-- **Utilisation of genetic resources** = **research and development on the genetic and/or biochemical composition** of genetic resources (so "biochemical R&D", not cloning humans, space research or fossil trade).
-- Covers plant, animal and microbial genetic resources + associated **traditional knowledge**; **excludes human genetic material**.
-- Pillars: **access** with **prior informed consent**, **benefit-sharing** on **Mutually Agreed Terms** (monetary/non-monetary), **compliance**.
-- In India the **Biodiversity Management Committees** are key to Nagoya's objectives. India's **1st National Report**: **3,556 IRCCs**, over **60%** of the global total. **Red sanders** is India's single largest ABS earner.
-> Cartagena = biosafety/LMO; Nagoya = ABS. Nagoya: adopted 2010, India ratified 2012, in force 2014.
-~~ Sources: NextGen Environment - APPSC Part 4.1 p.13-14; Rocket Environment p.7-8, p.29-30, p.64; Shankar Environment ch.28 p.449-451; old app notes 5:79 (sub 8)
-
 === Stockholm 1972, UNEP and World Environment Day
 # Stockholm Conference
 - **UN Conference on the Human Environment (UNCHE)**, **Stockholm, Sweden, 5–16 June 1972** – the **first major world conference on the environment**.
@@ -118,6 +53,52 @@
 - **Not Ramsar sites:** the Godavari river, **Pulicat Lake** and **Nellapattu** bird sanctuary (APPSC DL 2020 → Kolleru).
 > Ramsar = wetlands (not ozone, tigers, wild trade, arid lands). Ramsar 1971 is older than Stockholm 1972.
 ~~ Sources: Rocket Environment p.7, p.38; Rocket Current Affairs 2026 Part 02 p.84, p.146-147; NextGen Environment - APPSC Part 1.2 p.10, Part 6 p.14, Part 8.1 p.11; Shankar Environment ch.28 p.454-456; ramsar.org/2018-awards; old app notes 5:79 (sub 3)
+
+=== Other Treaties, Days and Decades
+| Treaty | Year | Secretariat | India |
+|---|---|---|---|
+| UNCCD (desertification) | 1994 | **Bonn** | Party; hosted **COP14 (2019)**; COP17 **Mongolia** – "Restoring Land. Restoring Hope" |
+| World Heritage Convention (UNESCO) | 1972 | **Paris** | Ratified **1977** |
+| International Whaling Commission | 1946, signed **Washington** | **Cambridge, UK** | Member |
+| Basel (hazardous waste) | 1989 | Geneva | Ratified **1992** |
+| Montreal Protocol | 1987 | **Nairobi** (not Helsinki) | Party; Kigali: India freezes HFCs **2028** |
+| **ITPGRFA** (International Seed Treaty) | 2001 | FAO, Rome | In harmony with the CBD |
+| **BBNJ / High Seas Treaty** | in force **17 Jan 2026** | – | **Signed Sept 2024** |
+- **Bearing on biodiversity:** the **ITPGRFA, UNCCD and World Heritage Convention – all three** (UPSC 2014).
+- India is a party to **CITES (1976), the World Heritage Convention and the IWC**, but **not** to the ILO **Occupational Safety and Health Convention** (as of April 2025).
+- **UN Ocean Conference 2020** (co-hosted by Kenya and Portugal) was set for **Lisbon, Portugal** (held June 2022 after the pandemic).
+| Day / period | Date |
+|---|---|
+| World Wetlands Day | **2 February** (Ramsar) |
+| World Wildlife Day | **3 March** (CITES) |
+| **International Day for Biological Diversity** | **22 May** (CBD) – 2019 theme **"Our Biodiversity, Our Food, Our Health"** |
+| World Environment Day | **5 June** (Stockholm) |
+| Desertification Day / Ozone Day | 17 June / 16 September |
+| **UN Decade on Biodiversity** | **2011–2020** (UNGA Res 65/161, Dec 2010) – not 2015-2030 |
+~~ Sources: NextGen Environment - APPSC Part 4.1 p.14 (UPSC 2014 PYQ), Part 8.1 p.11; Rocket Environment p.29-30, p.65; Shankar Environment ch.28 p.466; old app notes 5:79 (sub 12); IDB 2019 theme, OSH convention: general knowledge, not checked
+
+=== Cartagena and Nagoya Protocols
+| Point | Cartagena Protocol | Nagoya Protocol |
+|---|---|---|
+| Subject | **Biosafety** – safe transfer, handling and use of **LMOs/GMOs** from modern biotechnology | **Access and Benefit Sharing (ABS)** of genetic resources |
+| Adopted → in force | **29 Jan 2000 → 11 Sep 2003** | **2010 (COP10) → 2014** |
+| Named after | **Cartagena, Colombia** | Nagoya, Japan |
+| Parent | **CBD** | **CBD** |
+| India | **MoEF(CC)** is the nodal ministry; **GEAC** approves GM organisms | Ratified **2012**; implemented through the **Biological Diversity Act, 2002** |
+- **Both protocols are under the CBD** – not UNFCCC, Ramsar, CITES or the Paris Agreement.
+# Cartagena
+- **Advance Informed Agreement (AIA):** the importing country must consent **before the first transboundary movement** of an LMO meant for release; LMO shipments carry documents identifying the LMO.
+- **Biosafety Clearing-House** = an **online information platform** on LMOs, **not a testing laboratory**.
+- First COP/MOP-1: **February 2004, Kuala Lumpur** (not the Philippines). **India is a Party; the USA is not** a Party to the CBD or its Biosafety Protocol.
+- **Nagoya–Kuala Lumpur Supplementary Protocol** on Liability and Redress (2010) – supplementary to **Cartagena**.
+# Nagoya
+- A **legally binding** supplementary agreement to the CBD – **not voluntary** (APPSC JL 2024 statement 2 false).
+- **Utilisation of genetic resources** = **research and development on the genetic and/or biochemical composition** of genetic resources (so "biochemical R&D", not cloning humans, space research or fossil trade).
+- Covers plant, animal and microbial genetic resources + associated **traditional knowledge**; **excludes human genetic material**.
+- Pillars: **access** with **prior informed consent**, **benefit-sharing** on **Mutually Agreed Terms** (monetary/non-monetary), **compliance**.
+- In India the **Biodiversity Management Committees** are key to Nagoya's objectives. India's **1st National Report**: **3,556 IRCCs**, over **60%** of the global total. **Red sanders** is India's single largest ABS earner.
+> Cartagena = biosafety/LMO; Nagoya = ABS. Nagoya: adopted 2010, India ratified 2012, in force 2014.
+~~ Sources: NextGen Environment - APPSC Part 4.1 p.13-14; Rocket Environment p.7-8, p.29-30, p.64; Shankar Environment ch.28 p.449-451; old app notes 5:79 (sub 8)
 
 === CITES – Basics, Appendices and India
 # Basics
@@ -175,25 +156,44 @@
 - **Financial mechanism** for the **CBD, UNFCCC**, UNCCD, Stockholm (POPs) and Minamata conventions (UPSC 2014 → option a); it is not an OECD agency and does not itself do research.
 ~~ Sources: Rocket Environment p.2, p.6, p.8, p.16, p.71; Shankar Environment ch.28 p.447-448; NextGen Environment - APPSC Part 8.1 p.11; old app notes 5:79 (sub 0, 2); CSD 1992: general knowledge, not checked
 
-=== Other Treaties, Days and Decades
-| Treaty | Year | Secretariat | India |
+=== CBD – Objectives, COPs, Aichi Targets and the Kunming-Montreal GBF
+# Convention on Biological Diversity (1992)
+- **Opened for signature at Rio 1992** (Earth Summit), not Stockholm 1972; text adopted **22 May 1992** (hence **International Day for Biological Diversity = 22 May**); **legally binding**; in force **29 December 1993**; secretariat **Montreal, Canada**; India ratified **1994**.
+- **Three objectives:** **conservation** of biodiversity, **sustainable use** of its components, **fair and equitable sharing of benefits** from genetic resources (not compulsory technology transfer).
+- One of the **three Rio Conventions** (UNFCCC, CBD, UNCCD); financial mechanism = **GEF**. In-situ = conservation in the natural habitat; **ex-situ = outside the natural habitat** (zoos, gene banks).
+- India implements it through the **Biological Diversity Act, 2002** (amended **2023**; criticised for diluting ABS and the role of local communities): three tiers – **National Biodiversity Authority (Chennai)**, **State Biodiversity Boards**, **Biodiversity Management Committees** (prepare **People's Biodiversity Registers**; may **levy collection fees**).
+- **AP State Biodiversity Board:** aims at **zero loss of biodiversity and ecosystem services by 2050**; portal **BIOMIS**.
+# CBD COPs (every two years)
+| COP | Year | Venue | Outcome |
 |---|---|---|---|
-| UNCCD (desertification) | 1994 | **Bonn** | Party; hosted **COP14 (2019)**; COP17 **Mongolia** – "Restoring Land. Restoring Hope" |
-| World Heritage Convention (UNESCO) | 1972 | **Paris** | Ratified **1977** |
-| International Whaling Commission | 1946, signed **Washington** | **Cambridge, UK** | Member |
-| Basel (hazardous waste) | 1989 | Geneva | Ratified **1992** |
-| Montreal Protocol | 1987 | **Nairobi** (not Helsinki) | Party; Kigali: India freezes HFCs **2028** |
-| **ITPGRFA** (International Seed Treaty) | 2001 | FAO, Rome | In harmony with the CBD |
-| **BBNJ / High Seas Treaty** | in force **17 Jan 2026** | – | **Signed Sept 2024** |
-- **Bearing on biodiversity:** the **ITPGRFA, UNCCD and World Heritage Convention – all three** (UPSC 2014).
-- India is a party to **CITES (1976), the World Heritage Convention and the IWC**, but **not** to the ILO **Occupational Safety and Health Convention** (as of April 2025).
-- **UN Ocean Conference 2020** (co-hosted by Kenya and Portugal) was set for **Lisbon, Portugal** (held June 2022 after the pandemic).
-| Day / period | Date |
+| COP1 | 1994 | **Nassau, Bahamas** | First COP |
+| COP10 | 2010 | **Nagoya, Japan** | **Nagoya Protocol**; **Aichi Targets** (Strategic Plan 2011-2020) |
+| COP11 | 2012 | **Hyderabad, India** | Hosted by India |
+| COP12 | 2014 | Pyeongchang, Korea | Mid-term review of Aichi |
+| COP13 | **Dec 2016** | **Cancun, Mexico** | – |
+| COP14 | 2018 | **Sharm el-Sheikh, Egypt** | Began the post-2020 framework |
+| COP15 | 2021 (Kunming) + **Dec 2022 (Montreal)** | China + Canada | **Kunming-Montreal GBF**; **30x30**; GBF Fund |
+| COP16 | Oct 2024 | **Cali, Colombia** | **Cali Fund** on DSI; India's updated NBSAP |
+- Sequence: **Nagoya 2010 → Kunming 2021 → Montreal Dec 2022 → Cali Oct 2024**. COP15 also served as the 10th MOP of Cartagena and 4th MOP of Nagoya.
+# Aichi Biodiversity Targets
+- **20 targets** under **5 strategic goals**, Strategic Plan **2011-2020**, adopted at **COP10, Nagoya (Aichi Prefecture), 2010** (not COP12 2014 as one NextGen line says). Deadline 2020; **none fully met** (Global Biodiversity Outlook 5).
+# Kunming-Montreal Global Biodiversity Framework (Dec 2022)
+- Adopted at **COP15, Montreal, December 2022** – not Kunming 2021, not COP16 Cali. **4 goals for 2050, 23 targets for 2030**.
+| Item | Content |
 |---|---|
-| World Wetlands Day | **2 February** (Ramsar) |
-| World Wildlife Day | **3 March** (CITES) |
-| **International Day for Biological Diversity** | **22 May** (CBD) – 2019 theme **"Our Biodiversity, Our Food, Our Health"** |
-| World Environment Day | **5 June** (Stockholm) |
-| Desertification Day / Ozone Day | 17 June / 16 September |
-| **UN Decade on Biodiversity** | **2011–2020** (UNGA Res 65/161, Dec 2010) – not 2015-2030 |
-~~ Sources: NextGen Environment - APPSC Part 4.1 p.14 (UPSC 2014 PYQ), Part 8.1 p.11; Rocket Environment p.29-30, p.65; Shankar Environment ch.28 p.466; old app notes 5:79 (sub 12); IDB 2019 theme, OSH convention: general knowledge, not checked
+| Goal A | Halt human-induced extinction; cut extinction rate **tenfold** |
+| Goal B / C / D | Sustainable use / **fair sharing of benefits from genetic resources** / finance and technology (close the US$700 bn gap) |
+| Target 1 | Loss of high-biodiversity areas close to zero |
+| Target 2 | **Restore 30%** of degraded land and water ecosystems |
+| **Target 3 (30x30)** | **Conserve 30% of land and 30% of oceans by 2030** |
+| Target 6 | Cut invasive alien species introduction by **at least 50%** |
+| Target 7 | **Halve excess nutrients** and pesticide risk |
+| Target 16 | **Halve food waste** |
+| Target 18 | Cut harmful subsidies by **US$500 bn a year** |
+| Target 19 | Mobilise **US$200 bn a year** by 2030 from all sources |
+| Target 22 | Full participation and rights of **indigenous peoples and local communities** |
+- **30x30 is a biodiversity (area-protection) target, NOT a renewable-energy target** (APPSC G1 2024). It is championed by the **High Ambition Coalition (HAC) for Nature and People**, co-chaired by **Costa Rica, France and the UK**; **India joined in Oct 2021 – the first BRICS country** to do so.
+- Money: **GBF Fund under the GEF**; **Cali Fund** – large DSI users pay **1% of profits or 0.1% of revenue**. National reports under **Article 26**.
+- **India's updated NBSAP 2024-2030:** **23 national targets**, released at **COP16 Cali**. India's **7th National Report** = first full review against the 23 KMGBF targets.
+> US$200 bn = mobilise (T19); US$500 bn = subsidy cut (T18); US$700 bn = finance gap (Goal D). 30% conserve = T3; 30% restore = T2.
+~~ Sources: NextGen Environment - APPSC Part 4.1 p.14, Part 4.2 p.2, Part 8.1 p.11; Rocket Environment p.7, p.16, p.29; Shankar Environment ch.28 p.448-452; old app notes 5:79 (sub 7, 9-11)
