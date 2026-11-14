@@ -538,5 +538,245 @@
   "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: Mahendragiri is in Tamil Nadu. Hence the answer is '3 only'.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cpbe0ab17b823c",
+  "row": 36,
+  "s": "Consider the following statements about cryogenics and cryogenic engines:\n1. Cryogenics deals with temperatures below about -150°C; the word comes from the Greek 'Kryos', meaning frost.\n2. Liquid hydrogen is kept at about -253°C and liquid oxygen at about -183°C.\n3. Cryogenic propulsion has a specific impulse of about 450 s, the highest among propellant categories.\n4. Liquid hydrogen is dense enough to be stored fuelled in compact tanks for long periods.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is correct. Statement 4 is wrong: LH2 density is only 0.071 g/ml, needing huge tanks, and it cannot be stored fuelled for long. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp12c573340d9d",
+  "row": 36,
+  "s": "Consider the following statements about India's cryogenic programme:\n1. US MTCR sanctions of 1992, after the 1991 Glavkosmos deal, stopped the transfer of cryogenic technology to India.\n2. Russia supplied seven KVD-1 cryogenic engines to India.\n3. The Cryogenic Upper Stage Project (CUSP) began in 1994.\n4. With GSLV-D5 (January 2014), India became the 4th country with cryogenic technology.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 4 only",
+   "2 and 4 only",
+   "4 only",
+   "3 and 4 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is correct. Statement 4 is wrong: India is the 6th, after the US, Russia, France, Japan and China. Hence the answer is '4 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbd4a0f54d5c7",
+  "row": 36,
+  "s": "Match List-I (ISRO engine) with List-II (Feature):\nList-I\na. Vikas\nb. CE-7.5\nc. CE-20\nd. SE2000\nList-II\ni. LOX + LH2, gas-generator cycle, 200 kN\nii. Refined kerosene + LOX\niii. UH25 + N2O4, earth-storable\niv. LOX + LH2, staged combustion, 75 kN\nSelect the correct answer:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 1,
+  "x": "Vikas – UH25 + N2O4, earth-storable; CE-7.5 – LOX + LH2, staged combustion, 75 kN; CE-20 – LOX + LH2, gas-generator cycle, 200 kN; SE2000 – Refined kerosene + LOX. So a-iii, b-iv, c-i, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpab5e1d69a002",
+  "row": 36,
+  "s": "Consider the following:\nAssertion (A): Cryogenic engines are used in the upper stages of launch vehicles but not in military missiles.\nReason (R): Liquid hydrogen has a very low density (about 0.071 g/ml), needing huge tanks, and cannot be stored fuelled for long.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: a missile must be compact and kept ready-fuelled, which low-density, hard-to-store LH2 does not allow.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpf8ecc3f664b1",
+  "row": 36,
+  "s": "Consider the following:\nAssertion (A): A rocket needs the surrounding air to push against in order to move forward.\nReason (R): A rocket works on Newton's third law of motion (action and reaction).\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: a rocket needs no air to push against and carries its own fuel and oxidiser, so it works in space. R is true: it works on Newton's third law.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp16da4a46e9bb",
+  "row": 36,
+  "s": "Consider the following:\nAssertion (A): A scramjet-powered vehicle carries less oxidiser than a conventional rocket.\nReason (R): In a scramjet, combustion takes place in a subsonic airflow.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: the scramjet burns hydrogen with oxygen taken from the atmosphere. R is false: a scramjet (supersonic combustion ramjet) burns in a supersonic airflow; subsonic combustion is the ramjet's.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4746aa232ae2",
+  "row": 36,
+  "s": "Consider the following statements:\n1. The CE-20 cryogenic engine passed a bootstrap-mode start, starting on its own propellant flow without outside gas.\n2. The SE2000 semi-cryogenic engine is meant to replace the S200 strap-on boosters of the LVM3.\n3. The third hot test of the SE2000 Power Head Test Article ran at 60% power.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: SE2000 is to replace the L110 liquid core stage (LVM3-SC) and to power the NGLV. Statement 3 is correct. Hence the answer is '1 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa4cccb26f1a3",
+  "row": 36,
+  "s": "Match List-I (Propellant category) with List-II (Feature):\nList-I\na. Earth-storable liquid\nb. Hypergolic\nc. Hybrid\nd. Semi-cryogenic\nList-II\ni. Ignite on contact; used for spacecraft manoeuvring\nii. UH25 + N2O4; throttleable and restartable\niii. Refined kerosene + LOX; dense and non-toxic\niv. Solid fuel with a liquid oxidiser\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 3,
+  "x": "Earth-storable liquid – UH25 + N2O4; throttleable and restartable; Hypergolic – Ignite on contact; used for spacecraft manoeuvring; Hybrid – Solid fuel with a liquid oxidiser; Semi-cryogenic – Refined kerosene + LOX; dense and non-toxic. So a-ii, b-i, c-iv, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpaa8e314f53ad",
+  "row": 36,
+  "s": "Consider the following statements about solid rocket propellants:\n1. Solid HTPB motors give high initial thrust but cannot be throttled or stopped.\n2. Ammonium perchlorate is the fuel in solid rocket propellant.\n3. Aluminium powder is the fuel, held together by an HTPB binder.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only",
+   "2 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is wrong: ammonium perchlorate is the oxidiser. Statement 3 is correct. Hence the answer is '2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8610aeb1f88a",
+  "row": 36,
+  "s": "Consider the following statements:\n1. In a ramjet, combustion takes place in subsonic airflow, and the engine works above about Mach 2.\n2. ISRO's ATV scramjet flight test of August 2016 made India the fourth country to fly a scramjet.\n3. The Hypersonic Technology Demonstrator Vehicle (HSTDV) is an ISRO project.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: HSTDV is a DRDO project. Hence the answer is '1 and 2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp452fe86ddce8",
+  "row": 36,
+  "s": "Consider the following statements about ISRO's RLV-TD 'Pushpak':\n1. It is a winged, reusable vehicle aimed at a Two-Stage-To-Orbit (TSTO) system.\n2. Reusable launch vehicles of this kind are expected to cut launch costs by up to 80%.\n3. Being reusable, it does not need a thermal protection system.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: it needs a reusable Thermal Protection System. Hence the answer is 'Only two'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3cbe5b9b60e1",
+  "row": 36,
+  "s": "Match List-I (Private engine) with List-II (Feature):\nList-I\na. Dhawan-I\nb. Agnite\nc. EVEREST\nd. KALAM 1200\nList-II\ni. 800 kN full-flow staged-combustion LOX-methane engine\nii. Solid motor tested at SHAR\niii. Largest single-piece 3D-printed booster engine (Inconel)\niv. First privately developed fully cryogenic engine (LNG + LOX)\nSelect the correct answer:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 0,
+  "x": "Dhawan-I – First privately developed fully cryogenic engine (LNG + LOX); Agnite – Largest single-piece 3D-printed booster engine (Inconel); EVEREST – 800 kN full-flow staged-combustion LOX-methane engine; KALAM 1200 – Solid motor tested at SHAR. So a-iv, b-iii, c-i, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7817231a040d",
+  "row": 36,
+  "s": "Consider the following statements:\n1. Agnikul's Agnilet is the world's first single-piece 3D-printed semi-cryogenic engine.\n2. Skyroot's Vikram-1 (Mission Aagaman) can place 290 kg in a 500 km sun-synchronous orbit.\n3. Methane for LOX-methane engines can be produced from Martian resources.\n4. Agnilet was developed by Skyroot Aerospace of Hyderabad.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is correct. Statement 4 is wrong: Agnilet is Agnikul Cosmos' (Chennai); Skyroot made Dhawan-I and Vikram-1. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp37616755af55",
+  "row": 36,
+  "s": "Match List-I (Reusable rocket) with List-II (Developer):\nList-I\na. Starship\nb. New Glenn\nc. Zhuque-3\nd. Soorya (NGLV)\nList-II\ni. Blue Origin\nii. SpaceX\niii. ISRO\niv. LandSpace (China)\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 2,
+  "x": "Starship – SpaceX; New Glenn – Blue Origin; Zhuque-3 – LandSpace (China); Soorya (NGLV) – ISRO. So a-ii, b-i, c-iv, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0724c29437d4",
+  "row": 36,
+  "s": "Consider the following statements about the Next Generation Launch Vehicle (NGLV) 'Soorya':\n1. It will have a reusable first stage and place about 30 t in LEO, about three times the LVM3.\n2. It will fly from the Second Launch Pad at Sriharikota.\n3. It is meant for the Bharatiya Antariksh Station and a crewed lunar landing by 2040.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: NGLV is to fly from the new Third Launch Pad. Statement 3 is correct. Hence the answer is '2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp84b56a6200e9",
+  "row": 36,
+  "s": "Consider the following statements:\n1. ISRO's 300 mN Stationary Plasma Thruster is a Hall-type, xenon thruster meant for communication satellites.\n2. POEM uses the spent PS4 stage of the PSLV as an orbital platform for payloads.\n3. The RUDRA 0.3 HPGP green monopropellant thruster, flown on POEM-3, was made by Skyroot Aerospace.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: RUDRA 0.3 HPGP is Bellatrix Aerospace's (PSLV-C58, Jan 2024). Hence the answer is '1 and 2 only'.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
