@@ -767,3 +767,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes (INS Sarvekshak; Charles de Gaulle 1,950 — web only). Own MCQ gfaa84b59e976 Varuna began 1993 (not 1983) explanation fixed.
 - Check: Yudh Abhyas-2026 22nd (9–28 Sep, notes) vs 23rd (15–28 Sep, Rocket). Samarthak delivered 27 Aug / inducted 16 Oct.
 - Late Oct/Nov items (NVS-03, Pralay, PRANIK) old notes only.
+
+## b6-r067 (CA rows 67-69 world news, bilateral)
+- No key changes. Disputes: y6da213847b9 Presidents pairs (only IV wrong); y13de31fb4fd 2+2 USA (Japan too).
+- Outdated: y9ddb2648f88, y62d59d08808 UK 2019 election (Andy Burnham PM since 20 Jul 2026, Rocket); own MCQ ca79d58bbe4067 Nepal PM now Balendra Shah.
+- Yudh Abhyas 2026: 22nd (ThePrint) vs 23rd (Rocket) — settle once.
+- ~10 unverified printed keys (Sarvada Vijay, Shangri-la train, US advisory Pakistan, India–Mexico MoU, India–China hotline).
