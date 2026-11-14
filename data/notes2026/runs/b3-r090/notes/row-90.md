@@ -13,7 +13,7 @@
 - **Depositories** (Depositories Act, 1996) hold shares in **electronic (demat)** form: **NSDL** (National Securities Depository Ltd, **first**, Mumbai, 1996) and **CDSL** (promoted by **BSE**, not NSE).
 - **NSE chair:** **Girish Chandra Chaturvedi** became chairman in **Dec 2019** (term ended July 2024); **now Srinivas Injeti**, chairperson of the NSE Governing Board from **9 Sep 2025** (as of 2026).
 > Most-asked: NSE/BSE location = **Mumbai** (6 PYQs); first international exchange = **Gandhinagar (GIFT City)**; BSE year = **1875**.
-~~ Sources: NextGen Indian Economy - APPSC Exams 11 p.3 (BSE 1875, Dalal Street, 1957, India INX, NSE); NextGen Rocket Sheets Indian Economy #55 p.81, #56 p.82, p.83; Ramesh Singh, Indian Economy 05 p.131 (NSE ~75%, sponsors), p.138 (depositories); NSE press release 9 Sep 2025 (nseindia.com); Business Standard 9 Sep 2025; app notes 3:90 sub 2
+~~ Sources: NextGen Indian Economy - APPSC Exams 11 p.3 (BSE 1875, Dalal Street, 1957, India INX, NSE); NextGen Rocket Sheets Indian Economy #55 p.81, #56 p.82, p.83; Ramesh Singh, Indian Economy 05 p.131 (NSE ~75%, sponsors), p.138 (depositories); Angel One news, 10 Sep 2025 (Injeti appointed NSE chair); web search listing of Business Standard, 9 Sep 2025 (Chaturvedi's term ended July 2024, page not opened); app notes 3:90 sub 2
 
 === Stock Indices – SENSEX, NIFTY, GREENEX and World Indices
 | Index | Exchange | Stocks | Method | Launch / base |
@@ -38,7 +38,7 @@
 | **FTSE 100** | **London** |
 - **Market cap vs GDP:** in the 2007-09 period the PYQ key named **China** as the economy whose market cap exceeded its GDP; India fell to **7th** in global market capitalisation (overtaken by South Korea).
 - **First Indian company at ₹10 lakh crore market value:** **Reliance Industries** (28 Nov 2019).
-~~ Sources: NextGen Indian Economy Part 1 - APPSC 02 p.36 (SENSEX, DOLLEX), p.21 (NIFTY base); NextGen Indian Economy Part 1 - APPSC 04 p.52 (S&P 500), p.54 (rise in Sensex); NextGen Rocket Sheets Indian Economy #56 p.82; NSE Indices press release 11 Apr 2023 (niftyindices.com); Business Standard 28 Nov 2019; app notes 3:90 sub 3
+~~ Sources: NextGen Indian Economy Part 1 - APPSC 02 p.36 (SENSEX, DOLLEX), p.21 (NIFTY base); NextGen Indian Economy Part 1 - APPSC 04 p.52 (S&P 500), p.54 (rise in Sensex); NextGen Rocket Sheets Indian Economy #56 p.82; Outlook Money, 11 Apr 2023 (Nifty REITs & InvITs Index); Scroll.in, 28 Nov 2019 (RIL ₹10 lakh crore); app notes 3:90 sub 3
 
 === Market Players and Terms – Bull, Bear, Stag, Blue Chip, Beta
 | Term | Meaning |

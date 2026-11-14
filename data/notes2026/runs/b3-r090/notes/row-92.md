@@ -12,7 +12,7 @@
 - **East Asian crisis (1997):** hit **Thailand, Indonesia, Malaysia, South Korea**; began with the **fall of the Thai baht** (devalued 2 July 1997). Cause (UPSC 1999 key): the **prolonged over-valuation of local currencies vis-à-vis the US dollar** (pegs), with heavy short-term foreign debt and weak banks – not a Western recession.
 - **India** suffered only limited harm – **capital controls and low short-term debt**.
 - **Taper tantrum (2013):** in **May 2013** the **US Fed** signalled it would **taper** its asset purchases; money left emerging markets and the **rupee fell about 17%** against the dollar by 3 Sep 2013.
-~~ Sources: Federal Reserve History, "Asian Financial Crisis" (federalreservehistory.org); RBA Research Discussion Paper 9805 (dollar pegs, overvaluation); app notes 3:92 sub 0
+~~ Sources: Federal Reserve History, "Asian Financial Crisis" (federalreservehistory.org); UPSC 1999 printed key (overvaluation); app notes 3:92 sub 0
 
 === Indian Bank Failures and Scams
 | Episode | Cause | Outcome |
@@ -23,7 +23,7 @@
 | PMC Bank (2019) | Hidden exposure to one realty group (HDIL); dual control (RBI + State Registrars) | **Banking Regulation (Amendment) Act, 2020** |
 | Yes Bank (2020) | Bad loans, governance failure | RBI moratorium; **SBI-led** reconstruction; CEO Prashant Kumar replaced by **Vinay Tonse** (Apr 2026) |
 - Metropolitan (cooperative) Bank was also used in the scam; National Housing Bank lost money but was not closed; Grindlays was not closed.
-~~ Sources: Rajya Sabha debate PQ 166, 23 Mar 1993 (rsdebate.nic.in) – Bank of Karad taken into liquidation; Ramesh Singh, Indian Economy 05 p.138 (badla, rolling settlement); app notes 3:92 sub 0
+~~ Sources: web search listing (Janakiraman Committee report on 'Bank of Karad Ltd. (in liquidation)'; Rajya Sabha PQ 166, 23 Mar 1993 – pages not opened); Ramesh Singh, Indian Economy 05 p.138 (badla, rolling settlement); app notes 3:92 sub 0
 
 === Shadow Banking, NBFCs and the 2018 Shadow-Lender Crisis
 - **Shadow banking** = credit creation by **financial institutions outside the regular banking regulatory framework** (hedge funds, NBFCs; also unregulated activities of regulated entities) – they escape CRR/SLR and capital rules.
