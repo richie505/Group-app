@@ -1349,3 +1349,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w078 (rows 78–79)
 - own 435 → 56 kept + 117 new (173, 40%); new 80 statements / 27 match / 9 A–R / 1 sequence; no lines lost.
 - 78:5:9 "forest cover about 24%": ISFR 2023 forest cover 21.76%, forest + tree 25.17% — fix; kept own cac521e89e930c relies on it — check.
+
+## rewrite b3-w093 (rows 93–98)
+- own 449 → 91 kept + 87 new (178, 40%); new 45 statements / 27 match / 15 A–R; no lines lost.
+- Old WPI base 2011-12 in own g5fa1027782bb, n93acdcfbaa6 (notes: new base 2022-23) — replaced by new match MCQ.
+- Notes conflict: Rastogi/Rustagi panel = service tax review (94:2:18) vs CBDT restructuring (95:0:0.8); kept g647fa5028260 — reconcile.
+- Doubtful 94:2:12 / 96:1:0.1 (IMF advising Maharashtra on VAT) — not used.
