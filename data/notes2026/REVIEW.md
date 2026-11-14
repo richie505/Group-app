@@ -1402,3 +1402,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 423 → 73 kept + 94 new (167, 39%); new 55 statements / 27 match / 12 A–R; 2 of 270 lines lost.
 - Nagoya: cotton textile (88:2:2) vs automobiles (85:2:0.1) — both true (Nagoya = textiles + automobiles); Jamnagar–woollen (88:6:0.0) is a standard pairing. Add cross-note.
 - Row 87: unlinked own MCQs removed (Dalli Rajhara, Bailadila, VISL 1989, IISCO 1976) — possible notes gaps.
+
+## rewrite b6-w086 (rows 86–89)
+- own 401 → 89 kept + 80 new (169, 42%); new 53 statements / 18 match / 9 A–R; 1 of 234 lines lost (covered by kept sequence MCQ). No wrong keys.
+- Removed as not in notes: f0935731bced4 (Climate Risk Index 2026), fe2be2fda505f (WIPO IP filings).
