@@ -5,7 +5,7 @@
 | **IFCI** | **1 July 1948** (IFC Act 1948) | **First DFI** – first all-India term-lending institution; its setting up began the **era of development financing**; public limited company 1993; now an NBFC-ND-SI |
 | **ICICI** | **January 1955** | **Second** all-India industrial FI; World Bank initiative, joint sector (not public sector); reverse-merged into ICICI Bank → universal bank (2002) |
 | **IDBI** | **July 1964** (RBI subsidiary; to the Government **1976**) | **Apex institution for industrial finance** – long-term finance to medium and large industry; IDBI Ltd 2004; reclassified a **private sector bank** after LIC took majority control (2019) |
-| **EXIM Bank** | **1 January 1982** (EXIM Bank Act 1981) | Finances, facilitates and promotes **exports and imports**; Lines of Credit abroad; wholly Government-owned; HQ **Mumbai** |
+| **EXIM Bank** | **January 1982** (EXIM Bank Act 1981) | Finances, facilitates and promotes **exports and imports**; Lines of Credit abroad; wholly Government-owned; HQ **Mumbai** |
 | **NABARD** | **12 July 1982** (Act 1981) | Apex agriculture and rural credit (see the NABARD page) |
 | **NHB** | **9 July 1988** (NHB Act 1987) | Apex **housing finance** institution; on the advice of a high-level group under **C. Rangarajan** |
 | **SIDBI** | **2 April 1990** (SIDBI Act 1989) | **Apex institution for financing, promoting and developing small-scale industries / MSMEs**; began as a **wholly owned subsidiary of IDBI**; HQ **Lucknow** |
