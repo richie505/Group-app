@@ -631,3 +631,6 @@ Total: 572 files, 22879 pages.
 
 ## International Relations
 - PMF IAS International Relations notes (203 pp): international-relations/pmf-international-relations.pdf / .txt (downloaded by job b2-r147)
+
+## AP History PYQ books
+- Carpediem AP History G2 PYQs 2000-2025 (with keys): ap-history/cdi-ap-history-g2-pyqs-2000-2025.txt (added by job b1-r237)
