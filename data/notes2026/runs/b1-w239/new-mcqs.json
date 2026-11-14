@@ -345,16 +345,46 @@
   "tq": "statements"
  },
  {
+  "id": "cpd6907c89db9d",
+  "row": 240,
+  "s": "Match the British Prime Ministers with the associated fact:\nList I (Prime Minister)\nA. Ramsay MacDonald\nB. Neville Chamberlain\nC. Clement Attlee\nD. Spencer Perceval\nList II (Fact)\n1. Only British PM to be assassinated (1812)\n2. PM from September 1939 to May 1940\n3. Cabinet Mission and independence\n4. Communal Award, 1932\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-4, B-2, C-3, D-1",
+   "A-4, B-1, C-3, D-2",
+   "A-1, B-2, C-3, D-4",
+   "A-3, B-2, C-4, D-1"
+  ],
+  "a": 0,
+  "x": "MacDonald (PM 1929-35) - Communal Award; Chamberlain - PM at the outbreak of WWII until May 1940; Attlee (1945-51) - Cabinet Mission and independence; Spencer Perceval - shot in the lobby of the House of Commons in 1812.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8cedeab0832a",
+  "row": 240,
+  "s": "Consider the following statements about the Second World War:\n1. The Axis powers were Germany, Italy and Japan, while China fought with the Allies.\n2. The war-crimes trials were held at Nuremberg in 1945-46.\n3. The first atom bomb was dropped on Nagasaki on 6 August 1945.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the first atom bomb fell on Hiroshima on 6 August 1945; Nagasaki was bombed on 9 August.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
   "id": "cp1d49a5bf50d2",
   "row": 241,
   "s": "Consider the following statements about the background of the Quit India Movement:\n1. Rangoon fell to the Japanese in March 1942, bringing Japanese troops close to India's eastern border.\n2. Lord Wavell was the Viceroy when the movement was launched.\n3. Rising prices and shortages of rice and salt added to popular discontent.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "3 only",
    "1 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "1 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the Viceroy in 1942 was Lord Linlithgow (British PM: Churchill); Wavell became Viceroy only in October 1943.",
   "src": "app",
   "tq": "statements"
@@ -379,12 +409,12 @@
   "row": 241,
   "s": "Which of the following were demanded in the Quit India Resolution of August 1942?\n1. Immediate end of British rule in India\n2. A provisional government after the British withdrawal\n3. Continuation of British rule until the end of the war\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
    "1 and 2 only",
+   "1, 2 and 3",
    "2 only",
    "1 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "1 and 2 were demanded, along with a mass civil disobedience struggle under Gandhi and a free India resisting fascism. 3 was NOT in the resolution.",
   "src": "app",
   "tq": "statements"
@@ -395,11 +425,11 @@
   "s": "Match Gandhi's Quit India instructions (Gowalia Tank, August 1942):\nList I (Group)\nA. Government servants\nB. Soldiers\nC. Princes\nD. Peasants\nList II (Instruction)\n1. Do not resign; declare allegiance to the Congress\n2. Pay agreed rent only to anti-government zamindars\n3. Do not leave the army, but do not fire on compatriots\n4. Accept the sovereignty of your own people\nSelect the correct answer using the codes given below:",
   "o": [
    "A-1, B-3, C-2, D-4",
+   "A-1, B-3, C-4, D-2",
    "A-2, B-3, C-4, D-1",
-   "A-4, B-3, C-1, D-2",
-   "A-1, B-3, C-4, D-2"
+   "A-4, B-3, C-1, D-2"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Government servants were told not to resign but to declare allegiance to the Congress; soldiers not to leave the army but not to fire on compatriots; princes to accept the sovereignty of their people; peasants to pay agreed rent to anti-government zamindars and none to pro-government ones.",
   "src": "app",
   "tq": "match"
@@ -409,12 +439,12 @@
   "row": 241,
   "s": "Match List I with List II:\nList I (Slogan / quote)\nA. Swaraj for the masses, not for the classes\nB. Back to the Vedas\nC. British rule is the 'political symptom of our social disease'\nD. Swaraj is my birthright, and I shall have it\nList II (Given by)\n1. C.R. Das\n2. B.G. Tilak\n3. Rabindranath Tagore\n4. Dayananda Saraswati\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-1, B-4, C-3, D-2",
    "A-1, B-4, C-2, D-3",
    "A-4, B-1, C-3, D-2",
-   "A-1, B-2, C-3, D-4"
+   "A-1, B-2, C-3, D-4",
+   "A-1, B-4, C-3, D-2"
   ],
-  "a": 0,
+  "a": 3,
   "x": "C.R. Das - 'Swaraj for the masses, not for the classes'; Dayananda Saraswati - 'Back to the Vedas' (not C.R. Das); Tagore - British rule as the 'political symptom of our social disease'; Tilak - 'Swaraj is my birthright' (Home Rule).",
   "src": "app",
   "tq": "match"
@@ -424,12 +454,12 @@
   "row": 241,
   "s": "Consider the following statements about the Quit India phase:\n1. The phrase 'Quit India' was coined by Yusuf Meherally.\n2. Gandhi's Quit India writings appeared in Young India.\n3. Gandhi said in 1942 that he was 'so sick of slavery' that he was prepared to take the risk of anarchy.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
    "1 and 3 only",
+   "1, 2 and 3",
    "3 only",
    "1 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: Gandhi wrote in Harijan; Young India had closed in 1932.",
   "src": "app",
   "tq": "statements"
@@ -440,11 +470,11 @@
   "s": "Consider the following statements about the arrests of August 1942:\n1. 'Operation Zero Hour' refers to the pre-dawn arrests of the top leaders on 9 August 1942.\n2. Nehru, Azad, Patel and other CWC members were held in the Aga Khan Palace, Poona.\n3. Gandhi was held in the Aga Khan Palace along with Kasturba, Mahadev Desai and Sarojini Naidu.\nWhich of the statements given above is/are NOT correct?",
   "o": [
    "1 and 2 only",
+   "2 only",
    "2 and 3 only",
-   "1, 2 and 3",
-   "2 only"
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 1,
   "x": "2 is NOT correct: the CWC members (Nehru, Azad, Patel and others) were held in Ahmednagar Fort; the Aga Khan Palace, Poona, held Gandhi with Kasturba, Mahadev Desai and Sarojini Naidu. 1 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -484,12 +514,12 @@
   "row": 241,
   "s": "Match the underground leaders of 1942 with their activity:\nList I (Leader)\nA. Jayaprakash Narayan\nB. Usha Mehta\nC. Aruna Asaf Ali\nD. Sucheta Kripalani\nList II (Activity)\n1. Formed the Azad Dasta in the Nepal Terai\n2. Led the Gandhian underground group\n3. Ran the secret Congress Radio from Bombay\n4. Hoisted the flag at Gowalia Tank on 9 August\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-1, B-3, C-4, D-2",
    "A-1, B-3, C-2, D-4",
    "A-4, B-3, C-1, D-2",
-   "A-1, B-2, C-4, D-3"
+   "A-1, B-2, C-4, D-3",
+   "A-1, B-3, C-4, D-2"
   ],
-  "a": 0,
+  "a": 3,
   "x": "JP escaped Hazaribagh Jail and formed the Azad Dasta (Bakri Ka Tapu, Nepal Terai); Usha Mehta ran the Congress Radio; Aruna Asaf Ali hoisted the flag at Gowalia Tank; Sucheta Kripalani led the Gandhian underground group while in hiding.",
   "src": "app",
   "tq": "match"
@@ -514,12 +544,12 @@
   "row": 241,
   "s": "Consider the following statements about women in 1942:\n1. Matangini Hazra, aged 73, was shot at Tamluk while leading a procession.\n2. Kanaklata Barua was shot dead at Gohpur, Assam, while trying to hoist the flag at the police station.\n3. Shanti Ghosh was a martyr of the Quit India Movement in Comilla.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
    "1 and 2 only",
+   "1 only",
    "2 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "1 and 2 are correct. 3 is wrong: Shanti Ghosh was a revolutionary of 1931 (Comilla) and is not linked to Quit India.",
   "src": "app",
   "tq": "statements"
@@ -530,11 +560,11 @@
   "s": "Match the parallel governments of the Quit India phase:\nList I (Place)\nA. Ballia\nB. Tamluk\nC. Satara\nD. Talcher\nList II (Name / leader)\n1. Prati Sarkar\n2. Chasi Mulia Raj\n3. Jatiya Sarkar\n4. Chittu Pandey\nSelect the correct answer using the codes given below:",
   "o": [
    "A-3, B-4, C-1, D-2",
+   "A-4, B-3, C-1, D-2",
    "A-2, B-3, C-1, D-4",
-   "A-4, B-1, C-3, D-2",
-   "A-4, B-3, C-1, D-2"
+   "A-4, B-1, C-3, D-2"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Ballia (eastern UP) - Chittu Pandey, August 1942; Tamluk (Midnapore) - Jatiya Sarkar; Satara - Prati Sarkar of Y.B. Chavan and Nana Patil; Talcher (Odisha) - Chasi Mulia Raj.",
   "src": "app",
   "tq": "match"
@@ -544,12 +574,12 @@
   "row": 241,
   "s": "Consider the following statements about the parallel governments of 1942-46:\n1. The parallel government at Ballia was the longest-lasting of them.\n2. The Satara government ran Nyayadan Mandals (people's courts) and village libraries.\n3. The Jatiya Sarkar of Tamluk organised Vidyut Vahinis and cyclone relief.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
    "1, 2 and 3",
    "2 only",
-   "3 only"
+   "3 only",
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "2 and 3 are correct. 1 is wrong: Ballia lasted only about a week (the shortest); Satara (mid-1943 to 1945/46) was the longest.",
   "src": "app",
   "tq": "statements"
@@ -589,12 +619,12 @@
   "row": 241,
   "s": "Consider the following statements about the Quit India Movement:\n1. F.G. Hutchins called it a 'Spontaneous Revolution'.\n2. The labour class stayed away from it altogether.\n3. Spectrum and PMF record no communal riots during the movement.\nWhich of the statements given above is/are NOT correct?",
   "o": [
-   "1 and 2 only",
    "2 only",
+   "1 and 2 only",
    "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "2 is NOT correct: labour did join - textile strikes in Ahmedabad for over three months, and in Bombay, Jamshedpur, Ahmednagar and Poona. 1 (Hutchins, 1971) and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -620,11 +650,11 @@
   "s": "Which of the following formed part of the programme of the Andhra (Kurnool) Circular of 1942?\n1. Travelling without tickets and pulling chains on trains\n2. Raids on British military camps\n3. Cutting toddy trees and picketing salt and foreign trade\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1 and 3 only",
    "3 only",
-   "1, 2 and 3",
-   "1 and 3 only"
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 1,
   "x": "1 and 3 were in the programme, whose aim was 'to paralyse all means of communications and machinery of administration'. 2 was NOT in it (APPSC Royalty Inspector key).",
   "src": "app",
   "tq": "statements"
@@ -634,12 +664,12 @@
   "row": 242,
   "s": "Match the Andhra places with their Quit India events of August 1942:\nList I (Place)\nA. Tenali\nB. Bhimavaram\nC. Tadepalligudem\nD. Chirala\nList II (Event)\n1. 500 students marched on the Sub-Magistrate's court\n2. Madras-Puri passenger train and railway station set on fire\n3. Post office burnt\n4. Collectorate attacked after police firing on 17 August\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-2, B-4, C-3, D-1",
    "A-3, B-4, C-2, D-1",
    "A-2, B-1, C-3, D-4",
-   "A-2, B-3, C-4, D-1"
+   "A-2, B-3, C-4, D-1",
+   "A-2, B-4, C-3, D-1"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Tenali (Guntur) - railway station and the Madras-Puri train burnt, 12 August; Bhimavaram (West Godavari) - firing on 17 August and the Collectorate attacked; Tadepalligudem - post office burnt; Chirala - 500 students marched on the Sub-Magistrate's court on 12 August.",
   "src": "app",
   "tq": "match"
@@ -649,12 +679,12 @@
   "row": 242,
   "s": "Consider the following statements about Andhra in August 1942:\n1. Bhimavaram, where police fired on 17 August, is in East Godavari district.\n2. Lawyers at Kakinada demanded Gandhi's release.\n3. The railway station at Bapatla was attacked and burnt.\nWhich of the statements given above is/are correct?",
   "o": [
-   "3 only",
    "2 and 3 only",
+   "3 only",
    "1, 2 and 3",
    "2 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "2 and 3 are correct. 1 is wrong: Bhimavaram is in West Godavari district.",
   "src": "app",
   "tq": "statements"
@@ -680,11 +710,11 @@
   "s": "Match the Andhra figures of 1942 with their role:\nList I (Person)\nA. Nivarthy Venkata Subbaiah\nB. Vanamamalai Varadacharyulu\nC. Mamidipudi Venkatarangayya\nD. Pattabhi Sitaramayya\nList II (Role)\n1. Andhra University resolution demanding Gandhi's release\n2. Wrote the song 'Paradesiyulu tolagandi...'\n3. Stayed underground throughout the movement\n4. Wrote the diary 'Feathers and Stones'\nSelect the correct answer using the codes given below:",
   "o": [
    "A-3, B-4, C-1, D-2",
-   "A-3, B-1, C-2, D-4",
    "A-3, B-2, C-1, D-4",
+   "A-3, B-1, C-2, D-4",
    "A-4, B-2, C-1, D-3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Nivarthy Venkata Subbaiah (Kurnool) stayed underground; Vanamamalai Varadacharyulu wrote 'Paradesiyulu tolagandi...'; Prof. Mamidipudi Venkatarangayya (History, Andhra University) was linked with the students' resolution for Gandhi's release; Pattabhi wrote 'Feathers and Stones' in Ahmednagar Fort.",
   "src": "app",
   "tq": "match"
@@ -711,10 +741,10 @@
   "o": [
    "2 and 3 only",
    "1 and 3 only",
-   "1 and 2 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "1 and 2 only"
   ],
-  "a": 3,
+  "a": 2,
   "x": "All three are correct; opposing Quit India cost the CPI public support and led to its heavy defeats in 1945-46.",
   "src": "app",
   "tq": "statements"
@@ -754,12 +784,12 @@
   "row": 243,
   "s": "Match the events of the second phase of the INA with their dates:\nList I (Event)\nA. Rash Behari Bose hands the IIL and INA to Subhas Bose\nB. Subhas Bose becomes Supreme Commander of the INA\nC. Provisional Government of Free India proclaimed\nD. INA headquarters shifted to Rangoon\nList II (Date)\n1. 21 October 1943\n2. January 1944\n3. 25 August 1943\n4. 4 July 1943\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-4, B-3, C-1, D-2",
    "A-4, B-1, C-3, D-2",
    "A-4, B-2, C-1, D-3",
-   "A-1, B-3, C-4, D-2"
+   "A-1, B-3, C-4, D-2",
+   "A-4, B-3, C-1, D-2"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Subhas reached Singapore on 2 July 1943; Rash Behari Bose handed over the IIL and INA on 4 July; Bose became Supreme Commander on 25 August; the Provisional Government came on 21 October 1943; INA headquarters moved to Rangoon in January 1944.",
   "src": "app",
   "tq": "match"
@@ -769,12 +799,12 @@
   "row": 243,
   "s": "Consider the following statements about Rash Behari Bose:\n1. He fled to Japan in 1915 after the Hardinge bomb case.\n2. He was one of the accused in the Red Fort INA trials.\n3. The call 'Avenge the blood of Indian Martyrs… Stand up against the entire Anglo-American enemy' is attributed to him.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
    "1 and 3 only",
+   "1 only",
    "1, 2 and 3",
    "3 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: Rash Behari Bose died in Japan on 21 January 1945, so he was never in the Red Fort dock.",
   "src": "app",
   "tq": "statements"
@@ -785,11 +815,11 @@
   "s": "Consider the following statements:\n1. The Rani Jhansi Regiment of the INA was an all-women combat unit led by Capt. Lakshmi Sahgal.\n2. Lakshmi Sahgal contested the 2002 presidential election against K.R. Narayanan.\n3. Lakshmi Sahgal's mother, Ammu Swaminathan, was a member of the Constituent Assembly.\nWhich of the statements given above is/are NOT correct?",
   "o": [
    "1 and 2 only",
-   "2 and 3 only",
    "2 only",
+   "2 and 3 only",
    "1 only"
   ],
-  "a": 2,
+  "a": 1,
   "x": "2 is NOT correct: Lakshmi Sahgal lost the 2002 presidential election to A.P.J. Abdul Kalam. 1 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -816,10 +846,10 @@
   "o": [
    "2 and 3 only",
    "1 and 3 only",
-   "1 and 2 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "1 and 2 only"
   ],
-  "a": 3,
+  "a": 2,
   "x": "All three are correct: the motto, the Hindustani 'Shubh Sukh Chain' anthem by Abid Hasan Safrani, and the Subhash, Gandhi, Azad and Nehru brigades.",
   "src": "app",
   "tq": "statements"
@@ -859,12 +889,12 @@
   "row": 243,
   "s": "Consider the following statements about the Forward Bloc in Andhra:\n1. Madduri Annapurnaiah was jailed for 18 months for 'Chicharapidugu'.\n2. Madduri Annapurnaiah led the Forward Bloc in Andhra with Peta Bapayya.\n3. Puchalapalli Sundarayya was a leading Forward Bloc member in Andhra.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "2 only",
    "1 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "1 and 2 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1 and 2 are correct. 3 is wrong: Puchalapalli Sundarayya was a Communist, not a Forward Bloc member.",
   "src": "app",
   "tq": "statements"
@@ -874,12 +904,12 @@
   "row": 243,
   "s": "Consider the following statements:\n1. The Tripuri session of 1939 was held near Jabalpur in present-day Madhya Pradesh.\n2. Subhas Bose was the chairman of the National Planning Committee set up in 1938.\n3. Bose advocated the Roman script for Hindustani.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
    "1 and 3 only",
+   "1, 2 and 3",
    "3 only",
    "1 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: Bose was the Congress President who set up the NPC; its chairman was Jawaharlal Nehru (secretary K.T. Shah).",
   "src": "app",
   "tq": "statements"
@@ -905,11 +935,11 @@
   "s": "Consider the following statements about the Azad Hind Government:\n1. It was proclaimed at Rangoon on 21 October 1943.\n2. It was recognised by nine countries, including Japan, Germany and Italy.\n3. Under it the Andaman and Nicobar Islands were renamed Shaheed Dweep and Swaraj Dweep.\n4. It declared war on Britain and the USA.\nWhich of the statements given above is/are correct?",
   "o": [
    "1, 2, 3 and 4",
-   "2 and 3 only",
    "2, 3 and 4 only",
+   "2 and 3 only",
    "3 and 4 only"
   ],
-  "a": 2,
+  "a": 1,
   "x": "2, 3 and 4 are correct. 1 is wrong: the Provisional Government of Free India was proclaimed at Singapore, not Rangoon.",
   "src": "app",
   "tq": "statements"
@@ -921,10 +951,10 @@
   "o": [
    "A-2, B-3, C-1, D-4",
    "A-1, B-2, C-3, D-4",
-   "A-4, B-2, C-1, D-3",
-   "A-3, B-2, C-1, D-4"
+   "A-3, B-2, C-1, D-4",
+   "A-4, B-2, C-1, D-3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "The title 'Netaji' was given by the people of Germany; Tagore called Bose 'Desh Nayak' (1939); Gandhi called him 'Prince among Patriots'; Bose was the first to call Gandhi 'Father of the Nation' (Azad Hind Radio, 6 July 1944).",
   "src": "app",
   "tq": "match"
@@ -934,12 +964,12 @@
   "row": 243,
   "s": "Match the events of Subhas Bose's early life with the years:\nList I (Event)\nA. Born at Cuttack\nB. Selected in the ICS\nC. Mayor of Calcutta\nD. 'The Indian Struggle' published in London\nList II (Year)\n1. 1897\n2. 1920\n3. 1935\n4. 1923\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-1, B-2, C-4, D-3",
    "A-2, B-1, C-4, D-3",
    "A-1, B-4, C-2, D-3",
-   "A-4, B-2, C-1, D-3"
+   "A-4, B-2, C-1, D-3",
+   "A-1, B-2, C-4, D-3"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Bose was born at Cuttack on 23 January 1897, selected in the ICS (4th rank) in 1920, became Mayor of Calcutta in 1923 and published 'The Indian Struggle' in London in 1935.",
   "src": "app",
   "tq": "match"
@@ -949,12 +979,12 @@
   "row": 243,
   "s": "Consider the following statements about Subhas Chandra Bose:\n1. He graduated from Scottish Church College, Calcutta, in 1919.\n2. He resigned from the ICS in 1921 to join the Congress.\n3. Part 1 of 'The Indian Struggle' was written in exile in Vienna and banned in India.\n4. His political guru was Gopal Krishna Gokhale.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "1, 2 and 3 only",
+   "1 and 2 only",
    "2 and 3 only",
    "1, 2, 3 and 4"
   ],
-  "a": 1,
+  "a": 0,
   "x": "1, 2 and 3 are correct. 4 is wrong: Bose's political guru was C.R. Das; Gokhale was Gandhi's.",
   "src": "app",
   "tq": "statements"
@@ -965,11 +995,11 @@
   "s": "Consider the following statements about Bose abroad:\n1. He escaped from Calcutta in January 1941 disguised as Maulavi Muhammad Ziauddin.\n2. The Free Indian Legion was raised from Indian prisoners captured by Japan in Malaya.\n3. Azad Hind Radio was started in Germany.\nWhich of the statements given above is/are NOT correct?",
   "o": [
    "2 and 3 only",
-   "1 and 2 only",
    "2 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "2 is NOT correct: the Free India(n) Legion was raised in Germany from Indian POWs captured by Germany and Italy (Rommel's North African campaign). 1 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -981,10 +1011,10 @@
   "o": [
    "1 only",
    "2 only",
-   "1, 2 and 3",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1 and 2 are correct. 3 is wrong: after Bose resigned in April 1939, Dr Rajendra Prasad became President.",
   "src": "app",
   "tq": "statements"
@@ -1009,12 +1039,12 @@
   "row": 243,
   "s": "Consider the following statements about the inquiries into Bose's death:\n1. The Shah Nawaz Committee (1956) concluded that he died in the air crash.\n2. The Khosla Commission (1970) concluded that he did not die in the crash.\n3. The Mukherjee Commission (1999) concluded that he did not die in the crash.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "1 only",
    "1, 2 and 3",
-   "3 only"
+   "3 only",
+   "1 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the Khosla Commission, like the Shah Nawaz Committee, found that he died in the crash; only the Mukherjee Commission disagreed (its report was rejected in 2006).",
   "src": "app",
   "tq": "statements"
@@ -1024,12 +1054,12 @@
   "row": 244,
   "s": "Consider the following statements about the first INA trial at the Red Fort:\n1. The sentence of transportation for life was remitted by Lord Wavell in January 1946.\n2. Shah Nawaz Khan later became a Union minister.\n3. Prem Kumar Sahgal later married Capt. Lakshmi.\nWhich of the statements given above is/are correct?",
   "o": [
-   "3 only",
    "2 and 3 only",
+   "3 only",
    "2 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "2 and 3 are correct. 1 is wrong: the sentences were remitted by the Commander-in-Chief, Claude Auchinleck, in January 1946, and all three accused were released.",
   "src": "app",
   "tq": "statements"
@@ -1040,11 +1070,11 @@
   "s": "Consider the following statements about the INA Defence Committee:\n1. It was set up by the Indian National Congress at the AICC session in Bombay, September 1945.\n2. Sardar Patel was one of the defence counsel at the Red Fort.\n3. Asaf Ali, K.N. Katju and Jawaharlal Nehru were part of the defence led by Bhulabhai Desai.\nWhich of the statements given above is/are NOT correct?",
   "o": [
    "1 and 2 only",
-   "2 and 3 only",
    "2 only",
+   "2 and 3 only",
    "3 only"
   ],
-  "a": 2,
+  "a": 1,
   "x": "2 is NOT correct: Patel, Jinnah and C. Rajagopalachari were not in the defence. 1 and 3 are correct; Tej Bahadur Sapru and Sarat Chandra Bose were also in the team.",
   "src": "app",
   "tq": "statements"
@@ -1056,10 +1086,10 @@
   "o": [
    "A-3, B-4, C-2, D-1",
    "A-3, B-1, C-4, D-2",
-   "A-3, B-2, C-1, D-4",
-   "A-3, B-2, C-4, D-1"
+   "A-3, B-2, C-4, D-1",
+   "A-3, B-2, C-1, D-4"
   ],
-  "a": 3,
+  "a": 2,
   "x": "The RIAF strike began at Drigh Road, Karachi (January 1946); the Army Signal Corps struck at Jabalpur; Calcutta rose on 11 February 1946 against Rashid Ali's sentence; the RIN strike began on HMIS Talwar, Bombay, on 18 February 1946.",
   "src": "app",
   "tq": "match"
@@ -1129,12 +1159,12 @@
   "row": 244,
   "s": "Consider the following statements:\n1. The Cabinet Mission was announced on 19 February 1946 and arrived on 24 March 1946.\n2. On 20 February 1947 Attlee declared that the British would leave India by June 1948.\n3. The Royal Indian Navy was set up in 1934.\n4. The RIN ratings were granted freedom-fighter pensions in 1983.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3 only",
    "1, 2, 3 and 4",
    "1 and 2 only",
-   "1 and 3 only"
+   "1 and 3 only",
+   "1, 2 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1, 2 and 3 are correct. 4 is wrong: the ratings got freedom-fighter pensions in 1973.",
   "src": "app",
   "tq": "statements"
@@ -1144,12 +1174,12 @@
   "row": 245,
   "s": "Match List I with List II:\nList I (Book)\nA. Annihilation of Caste (1936)\nB. A National Flag for India (1916)\nC. India Divided\nD. India Wins Freedom\nList II (Author)\n1. B.R. Ambedkar\n2. Maulana Abul Kalam Azad\n3. Rajendra Prasad\n4. Pingali Venkayya\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-1, B-4, C-2, D-3",
    "A-1, B-4, C-3, D-2",
+   "A-1, B-4, C-2, D-3",
    "A-2, B-4, C-3, D-1",
    "A-1, B-2, C-3, D-4"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Annihilation of Caste - Ambedkar (1936); A National Flag for India - Pingali Venkayya (1916); India Divided - Rajendra Prasad (not Azad); India Wins Freedom - Maulana Azad.",
   "src": "app",
   "tq": "match"
@@ -1160,11 +1190,11 @@
   "s": "Consider the following statements about Gandhi's writings:\n1. 'Songs from Prison' (Yerwada, 1932) is a translation of Sanskrit hymns.\n2. 'Gokhale: My Political Guru' was written by C.R. Das.\n3. 'The Story of My Experiments with Truth' is Gandhi's autobiography.\nWhich of the statements given above is/are correct?",
   "o": [
    "3 only",
-   "1, 2 and 3",
    "1 and 3 only",
+   "1, 2 and 3",
    "1 only"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: 'Gokhale: My Political Guru' is by M.K. Gandhi, not Jinnah, Shaukat Ali or C.R. Das.",
   "src": "app",
   "tq": "statements"
@@ -1191,10 +1221,10 @@
   "o": [
    "1 only",
    "3 only",
-   "1, 2 and 3",
-   "1 and 3 only"
+   "1 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: 'Feathers and Stones' is Pattabhi Sitaramayya's own prison diary (Ahmednagar Fort).",
   "src": "app",
   "tq": "statements"
@@ -1204,12 +1234,12 @@
   "row": 245,
   "s": "Match the titles with the Andhra leaders:\nList I (Title)\nA. Andhra Kesari\nB. Andhra Ratna\nC. Deshabhakta\nD. Jhanda Venkayya\nList II (Person)\n1. Tanguturi Prakasam\n2. Konda Venkatappayya\n3. Duggirala Gopalakrishnayya\n4. Pingali Venkayya\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-1, B-3, C-2, D-4",
    "A-2, B-3, C-1, D-4",
    "A-1, B-2, C-3, D-4",
-   "A-1, B-3, C-4, D-2"
+   "A-1, B-3, C-4, D-2",
+   "A-1, B-3, C-2, D-4"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Andhra Kesari - Tanguturi Prakasam; Andhra Ratna - Duggirala Gopalakrishnayya; Deshabhakta - Konda Venkatappayya; Jhanda (Flag) or Diamond Venkayya - Pingali Venkayya.",
   "src": "app",
   "tq": "match"
@@ -1219,12 +1249,12 @@
   "row": 245,
   "s": "Match the titles with the persons:\nList I (Title)\nA. Deshbandhu\nB. Deen Bandhu\nC. Bihar Kesari\nD. Punjab Kesari\nList II (Person)\n1. C.F. Andrews\n2. Lala Lajpat Rai\n3. Sri Krishna Sinha\n4. C.R. Das\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-3, B-1, C-4, D-2",
    "A-4, B-1, C-3, D-2",
+   "A-3, B-1, C-4, D-2",
    "A-4, B-2, C-3, D-1",
    "A-4, B-1, C-2, D-3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Deshbandhu - C.R. Das; Deen Bandhu - C.F. Andrews (title from Gandhi); Bihar Kesari - Sri Krishna Sinha; Punjab Kesari / Sher-e-Punjab - Lala Lajpat Rai.",
   "src": "app",
   "tq": "match"
@@ -1235,11 +1265,11 @@
   "s": "Consider the following statements:\n1. Mannathu Padmanabhan, called 'Bharatha Kesari', founded the Nair Service Society.\n2. K. Kelappan, the 'Kerala Gandhi', is associated with the Guruvayur satyagraha.\n3. The title 'Socrates of Maharashtra' belongs to Bal Gangadhar Tilak.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1, 2 and 3",
    "1 and 2 only",
+   "1, 2 and 3",
    "2 only"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1 and 2 are correct. 3 is wrong: 'Socrates of Maharashtra' is Gopal Krishna Gokhale, Gandhi's political guru - not Tilak.",
   "src": "app",
   "tq": "statements"
@@ -1251,10 +1281,10 @@
   "o": [
    "1 and 3 only",
    "2 and 3 only",
-   "1, 2 and 3",
-   "3 only"
+   "3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "3 is NOT correct: Rani Gaidinliu was called 'Rani' by Jawaharlal Nehru. 1 and 2 are correct (Shaukat Ali accompanied Gandhi in Chhattisgarh).",
   "src": "app",
   "tq": "statements"
@@ -1264,12 +1294,12 @@
   "row": 245,
   "s": "Match the organisations with their founders:\nList I (Organisation)\nA. Abhinav Bharat (1904)\nB. Social Service League (1911)\nC. Khaksars (1931)\nD. Ghadar Party (1913)\nList II (Founder)\n1. Lala Har Dayal\n2. V.D. Savarkar\n3. Inayatullah Mashriqui\n4. Narayan Malhar Joshi\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-2, B-4, C-3, D-1",
    "A-4, B-2, C-3, D-1",
    "A-2, B-4, C-1, D-3",
-   "A-3, B-4, C-2, D-1"
+   "A-3, B-4, C-2, D-1",
+   "A-2, B-4, C-3, D-1"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Abhinav Bharat - Savarkar (not Bose); Social Service League, Bombay - N.M. Joshi; Khaksars - Inayatullah Mashriqui; Ghadar Party - Lala Har Dayal with Sohan Singh Bhakna.",
   "src": "app",
   "tq": "match"
@@ -1279,12 +1309,12 @@
   "row": 245,
   "s": "Match the organisations with their founders:\nList I (Organisation)\nA. Nationalist Party (1934)\nB. Independent Labour Party (1936)\nC. Bal Charkha Sangh\nD. Independence for India League (1928)\nList II (Founder)\n1. B.R. Ambedkar\n2. Madan Mohan Malaviya\n3. Jawaharlal Nehru\n4. Indira Gandhi\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-4, B-1, C-2, D-3",
    "A-2, B-1, C-4, D-3",
+   "A-4, B-1, C-2, D-3",
    "A-3, B-1, C-4, D-2",
    "A-2, B-4, C-1, D-3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Nationalist Party - Malaviya (1934); Independent Labour Party - Ambedkar (1936); Bal Charkha Sangh - Indira Gandhi (also the Vanar Sena); Independence for India League - Nehru with Bose (1928).",
   "src": "app",
   "tq": "match"
@@ -1310,11 +1340,11 @@
   "s": "Consider the following statements about the Harijan Sevak Sangh:\n1. Gandhi took the word 'Harijan' from saint Kabir.\n2. Its Vijayawada branch was headed by Kasinathuni Nageswara Rao.\n3. It was founded by Gandhi in 1932, first as the All India Anti-Untouchability League.\nWhich of the statements given above is/are correct?",
   "o": [
    "3 only",
-   "2 only",
    "2 and 3 only",
+   "2 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "2 and 3 are correct. 1 is wrong: Gandhi took 'Harijan' from saint Narsi Mehta, not Kabir.",
   "src": "app",
   "tq": "statements"
@@ -1326,10 +1356,10 @@
   "o": [
    "A-1, B-3, C-2, D-4",
    "A-3, B-2, C-1, D-4",
-   "A-2, B-1, C-3, D-4",
-   "A-3, B-1, C-2, D-4"
+   "A-3, B-1, C-2, D-4",
+   "A-2, B-1, C-3, D-4"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Gandhi said 'Sedition has become my religion' at Dandi; Bose compared the Dandi March to Napoleon's return from Elba; Einstein paid the 'generations to come' tribute to Gandhi; Tilak - 'Swaraj is my birthright'.",
   "src": "app",
   "tq": "match"
@@ -1369,12 +1399,12 @@
   "row": 245,
   "s": "Match the Andhra leaders with their contribution:\nList I (Leader)\nA. Konda Venkatappayya\nB. Potti Sriramulu\nC. Durgabai Deshmukh\nD. Tanguturi Prakasam\nList II (Contribution)\n1. 'Dictator' of the Andhra Salt Satyagraha\n2. Fast of 58 days for Andhra State\n3. First Chief Minister of Andhra State (1953)\n4. Stopped Nehru without a pass at the Vijayawada AICC (1921)\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-1, B-2, C-4, D-3",
    "A-1, B-4, C-2, D-3",
    "A-1, B-2, C-3, D-4",
-   "A-3, B-2, C-4, D-1"
+   "A-3, B-2, C-4, D-1",
+   "A-1, B-2, C-4, D-3"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Konda Venkatappayya was the 'dictator' of the Andhra Salt Satyagraha; Potti Sriramulu fasted 58 days and died on 15 December 1952; Durgabai Deshmukh stopped Nehru without a pass at Vijayawada (1921); Prakasam became the first CM of Andhra State (1953).",
   "src": "app",
   "tq": "match"
@@ -1384,12 +1414,12 @@
   "row": 245,
   "s": "Match the leaders of the south with their contribution:\nList I (Leader)\nA. V.O. Chidambaram Pillai\nB. Subramania Siva\nC. C. Rajagopalachari\nD. Subramania Bharati\nList II (Contribution)\n1. Vedaranyam salt march (1930)\n2. Swadeshi Steam Navigation Company, Tuticorin\n3. First political prisoner of Madras Presidency\n4. Nationalist poet of Tamil Nadu\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-1, B-3, C-2, D-4",
    "A-2, B-3, C-1, D-4",
+   "A-1, B-3, C-2, D-4",
    "A-3, B-2, C-1, D-4",
    "A-2, B-1, C-3, D-4"
   ],
-  "a": 1,
+  "a": 0,
   "x": "V.O.C. - Swadeshi Steam Navigation Company, Tuticorin (and the 1908 Coral Mill strike); Subramania Siva - first political prisoner of Madras Presidency; Rajaji - Vedaranyam salt march, 1930; Subramania Bharati - nationalist poet.",
   "src": "app",
   "tq": "match"
@@ -1400,11 +1430,11 @@
   "s": "Match the tribal leaders with their movements:\nList I (Leader)\nA. Alluri Sitarama Raju\nB. Birsa Munda\nC. Komaram Bheem\nD. Haipou Jadonang\nList II (Movement)\n1. Gond movement\n2. Ulgulan\n3. Rampa rebellion (1922-24)\n4. Heraka movement\nSelect the correct answer using the codes given below:",
   "o": [
    "A-2, B-3, C-1, D-4",
-   "A-1, B-2, C-3, D-4",
    "A-3, B-2, C-1, D-4",
+   "A-1, B-2, C-3, D-4",
    "A-3, B-2, C-4, D-1"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Alluri Sitarama Raju - Rampa rebellion with Koya and Jatapu tribals; Birsa Munda - Ulgulan (Chotanagpur); Komaram Bheem - Gond movement (Telangana); Haipou Jadonang - Heraka movement (hanged 1931).",
   "src": "app",
   "tq": "match"
@@ -1431,26 +1461,26 @@
   "o": [
    "1 and 3 only",
    "2 and 3 only",
-   "1 and 2 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "1 and 2 only"
   ],
-  "a": 3,
+  "a": 2,
   "x": "All three are correct: Sarojini Naidu (President 1925; Dharasana raid 1930; Governor of UP), Bhikaiji Cama (Stuttgart, 1907) and Aruna Asaf Ali (Gowalia Tank, 1942).",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cpcf1559eb3ca8",
+  "id": "cp235033b5facb",
   "row": 245,
-  "s": "Match the Congress sessions with their presidents:\nList I (Session)\nA. Calcutta, 1917\nB. Belgaum, 1924\nC. Madras, 1927\nD. Lahore, 1929\nList II (President)\n1. Annie Besant\n2. M.A. Ansari\n3. Mahatma Gandhi\n4. Jawaharlal Nehru\nSelect the correct answer using the codes given below:",
+  "s": "Match the Congress sessions with their presidents:\nList I (Session)\nA. Calcutta, 1917\nB. Belgaum, 1924\nC. Madras, 1927\nD. Kanpur, 1925\nList II (President)\n1. M.A. Ansari\n2. Sarojini Naidu\n3. Mahatma Gandhi\n4. Annie Besant\nSelect the correct answer using the codes given below:",
   "o": [
-   "A-1, B-3, C-2, D-4",
-   "A-3, B-1, C-2, D-4",
+   "A-4, B-1, C-3, D-2",
+   "A-4, B-3, C-2, D-1",
    "A-2, B-3, C-1, D-4",
-   "A-4, B-3, C-2, D-1"
+   "A-4, B-3, C-1, D-2"
   ],
-  "a": 0,
-  "x": "Calcutta 1917 - Annie Besant; Belgaum 1924 - Gandhi (his only presidency); Madras 1927 - M.A. Ansari; Lahore 1929 - Jawaharlal Nehru (not Gandhi).",
+  "a": 3,
+  "x": "Calcutta 1917 - Annie Besant; Belgaum 1924 - Gandhi (his only presidency); Kanpur 1925 - Sarojini Naidu, the first Indian woman president; Madras 1927 - M.A. Ansari.",
   "src": "app",
   "tq": "match"
  },
@@ -1459,12 +1489,12 @@
   "row": 245,
   "s": "Consider the following statements:\n1. Dadabhai Naoroji propounded the Drain Theory.\n2. Gopal Krishna Gokhale belonged to the Extremist group along with Tilak.\n3. Bipin Chandra Pal was a Moderate leader.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "1 only",
+   "1 and 2 only",
    "1 and 3 only",
    "3 only"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Only 1 is correct. 2 is wrong: Gokhale was a Moderate (Servants of India Society, 1905), not an Extremist. 3 is wrong: Tilak, Lajpat Rai, B.C. Pal and Aurobindo were the Extremists.",
   "src": "app",
   "tq": "statements"
@@ -1475,12 +1505,42 @@
   "s": "Consider the following statements:\n1. Vithalbhai Patel was the first Indian President of the Central Legislative Assembly, elected on 24 August 1925.\n2. He succeeded Sir Frederick Whyte in that office.\n3. Pattabhi Sitaramayya lost the Congress presidential contest to Subhas Bose at Haripura in 1938.\nWhich of the statements given above is/are correct?",
   "o": [
    "2 only",
-   "1 only",
    "1 and 2 only",
+   "1 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1 and 2 are correct. 3 is wrong: Bose was elected unanimously at Haripura (1938); Pattabhi lost to him at Tripuri in 1939.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc0ab29de21b2",
+  "row": 245,
+  "s": "Match the popular titles with the persons:\nList I (Title)\nA. Quaid-e-Azam\nB. Grand Old Man of India\nC. Rashtraguru\nD. Gurudev\nList II (Person)\n1. Dadabhai Naoroji\n2. Muhammad Ali Jinnah\n3. Rabindranath Tagore\n4. Surendranath Banerjee\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-4, B-1, C-2, D-3",
+   "A-2, B-4, C-1, D-3",
+   "A-2, B-1, C-4, D-3",
+   "A-4, B-2, C-1, D-3"
+  ],
+  "a": 2,
+  "x": "Quaid-e-Azam - Jinnah; Grand Old Man of India - Dadabhai Naoroji; Rashtraguru ('Indian Burke') - Surendranath Banerjee; Gurudev - Rabindranath Tagore.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4438dbd264e8",
+  "row": 245,
+  "s": "Consider the following statements about capitalists and artists of the national movement:\n1. Jamnalal Bajaj, a cotton merchant and banker, was AICC treasurer for years and was called Gandhi's 'fifth son'.\n2. Jamini Roy, a pupil of Abanindranath Tagore, was known for his folk (Kalighat, patua) style of painting.\n3. Vishnu Chinchalkar was a sculptor from Calcutta.\n4. Rabindranath Tagore emerged as a painter with his 1930 exhibitions in Paris and London.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Vishnu Chinchalkar was a painter (chitrakar) of Indore, Madhya Pradesh.",
   "src": "app",
   "tq": "statements"
  }
