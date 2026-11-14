@@ -13,20 +13,6 @@
 - Primary objective under FIT: **price stability while keeping growth in mind**; MPC sets the policy rate to achieve **the inflation target**.
 ~~ Sources: NextGen Indian Economy - APPSC 07 p.3 (target 4% ±2%, set between Centre and RBI); Ramesh Singh Indian Economy 04 p.120 (2–6% range, Urjit Patel); ies.gov.in Arthapedia "Monetary Policy Framework Agreement"; app notes 3:83 sub 2, 3
 
-=== Monetary Policy Committee – Composition and Powers
-| Member | How |
-|---|---|
-| **RBI Governor** | **Chairperson**; **casting vote** on a tie (no veto) |
-| Deputy Governor (monetary policy) | Ex officio |
-| One RBI officer | Nominated by the **RBI Central Board** |
-| **Three external members** | Appointed by the **Central Government**; **4-year term, no reappointment** |
-- **6 members** (3 RBI + 3 external) – not 12, not reconstituted every year, **chaired by the RBI Governor, not the Finance Minister** (UPSC 2017: only I).
-- MPC **fixes the benchmark policy (repo) rate** (APPSC G2; APPSC GS 2019) to **control inflation** – it does not dictate fiscal policy, trade or industry (APPSC ASO).
-- Decisions by **majority**, **binding on the RBI**; **quorum 4**; meets **at least 4 times** a year by law (six in practice); first met **October 2016**; constituted under **Sec 45ZB**.
-- RBI publishes a **Monetary Policy Report every six months**.
-- **Governors:** Shaktikanta Das (Dec 2018 – Dec 2024; "present Governor" in the APPSC G4 2022 paper); **Sanjay Malhotra since 11 Dec 2024**.
-~~ Sources: NextGen Indian Economy - APPSC 07 p.3-4 (6 members, composition, 4-year term, casting vote, MPR); NextGen Indian Economy Part 1 - APPSC 01 p.31 (MPC fixes repo, 3 + 3, majority); app notes 3:83 sub 4; RBI MPC minutes 5-7 Oct 2026 (rbi.org.in prid=63839)
-
 === Committees and the Legal Framework
 | Committee | Year | Recommendation |
 |---|---|---|
@@ -41,6 +27,20 @@
 | **RBI (Amendment) Act, 2016** (May 2016) | Amended the **RBI Act, 1934** – inserted **Sections 45Z to 45ZO**; **statutory basis for FIT** and the MPC (SSC 2019; APPSC FRO 2022: **2016**) |
 - Section map: **45ZA** = target; **45ZB** = MPC; **45ZN** = failure. Not the BR Act, DICGC Act or IFCI Act.
 ~~ Sources: Ramesh Singh Indian Economy 04 p.132 (Chakravarty Committee 1985); Ramesh Singh Indian Economy 05 p.64 (Urjit Patel Committee); NextGen Indian Economy - APPSC 07 p.3 (RBI Act amended 2016 for MPC); NextGen Indian Economy - APPSC 11 p.4-5 (Vaghul: CP 1990, CD 1989); ies.gov.in Arthapedia (MPFA signed 20 Feb 2015); app notes 3:83 sub 1, 2
+
+=== Monetary Policy Committee – Composition and Powers
+| Member | How |
+|---|---|
+| **RBI Governor** | **Chairperson**; **casting vote** on a tie (no veto) |
+| Deputy Governor (monetary policy) | Ex officio |
+| One RBI officer | Nominated by the **RBI Central Board** |
+| **Three external members** | Appointed by the **Central Government**; **4-year term, no reappointment** |
+- **6 members** (3 RBI + 3 external) – not 12, not reconstituted every year, **chaired by the RBI Governor, not the Finance Minister** (UPSC 2017: only I).
+- MPC **fixes the benchmark policy (repo) rate** (APPSC G2; APPSC GS 2019) to **control inflation** – it does not dictate fiscal policy, trade or industry (APPSC ASO).
+- Decisions by **majority**, **binding on the RBI**; **quorum 4**; meets **at least 4 times** a year by law (six in practice); first met **October 2016**; constituted under **Sec 45ZB**.
+- RBI publishes a **Monetary Policy Report every six months**.
+- **Governors:** Shaktikanta Das (Dec 2018 – Dec 2024; "present Governor" in the APPSC G4 2022 paper); **Sanjay Malhotra since 11 Dec 2024**.
+~~ Sources: NextGen Indian Economy - APPSC 07 p.3-4 (6 members, composition, 4-year term, casting vote, MPR); NextGen Indian Economy Part 1 - APPSC 01 p.31 (MPC fixes repo, 3 + 3, majority); app notes 3:83 sub 4; RBI MPC minutes 5-7 Oct 2026 (rbi.org.in prid=63839)
 
 === Evolution, Stance Record and Global Tightening
 | Phase | Approach |
