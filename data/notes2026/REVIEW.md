@@ -1268,3 +1268,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b4-w061 (rows 61–66)
 - own 410 → 75 kept + 93 new (168, 41%); new 57 statements / 22 match / 14 A–R; no lines lost.
 - Doubtful notes lines (not used): 61:0:8 vague Jharkhand remark; 61:2:3 "Velland" → Vellanad; 63:0:8 Ranga Reddy unverified; 64:0:1.22 Tamaria as Bhumij sub-caste vs Munda synonym; 66:0:2 largest race Caucasoid vs Mongoloid conflict.
+
+## rewrite b1-w183 (rows 183–189)
+- own 431 → 61 kept + 86 new (147, 34%); new 51 statements / 21 match / 13 A–R / 1 sequence; no lines lost. No wrong notes/keys.
+- Removed as not in notes: n1a7c1fb0d7a (Debendranath renamed Brahmo Sabha), f21d5b75723f4 (Dnyanodaya) — possible notes gaps.
