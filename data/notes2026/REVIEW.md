@@ -1278,3 +1278,12 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - nc13a69549c1 (One State-One RRB merged "15 RRBs"; notes 26) merged with fix.
 - PYQ y9445309fd91 "250-Dollar" banknote vs notes HK$150 — check.
 - Notes self-flagged doubts kept out: 84:0:1.3 RBI SBI stake 92% vs 60%; 84:3:9 slack season; 84:3:13 161 scheduled banks; 83:3:6 CBDC.
+
+## rewrite b6-w074 (rows 74–75)
+- own 282 → 49 kept + 74 new (123, 44%); new 47 statements / 20 match / 7 A–R; 3 of 217 lines lost.
+- Row 74 block 9:3: malformed table (stray "Edit | Benefit |" rows) — notes cleanup.
+- 75:6:5.2: Agni-4 called both MRBM and IRBM — it is an IRBM (~4,000 km); harmonise.
+
+## rewrite b6-w072 (rows 72–73)
+- own 447 → 40 kept + 136 new (176, 39%); new 87 statements / 31 match / 18 A–R; 18 of 388 lines lost.
+- Notes conflict: summit dates 16–21 Feb 2026 (73:0:1.0) vs 16–20 Feb (73:11:0.0); own ca85854da4adab removed — reconcile.
