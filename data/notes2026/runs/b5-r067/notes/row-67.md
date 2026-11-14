@@ -160,6 +160,7 @@
 | Gasification | Partial oxidation (controlled oxygen) → syngas |
 | Biomethanation | **Microbes** convert wet waste → biogas |
 | **RDF** | Refuse-derived fuel = **dry combustible part of MSW** |
+# Small hydro
 | Small hydro class | Capacity |
 |---|---|
 | Micro | up to 100 kW |

@@ -15,7 +15,7 @@
 - **Fuel uses:** fuel-cell vehicles (buses, trucks, trains, ships), rocket fuel, **H-CNG** (hydrogen blended with CNG).
 - **Green ammonia** = nitrogen + green hydrogen; fertiliser, fuel, marine fuel.
 - **India's first green hydrogen blending project:** **NTPC + Gujarat Gas Ltd**, **Kawas, Surat** (Jan 2023), blending into the PNG network; PNGRB allowed 5% blending at start, scaling to 20%.
-~~ Sources: Shankar Environment 10th ed. p.355 (Ch22.10.1); PMF Environment Part 7 p.100-103; app notes 5:68 sub 7
+~~ Sources: Shankar Environment 10th ed. p.355 (Ch22.10.1); PMF Environment Part 7 p.101 (UPSC 2023 solved); web: pib.gov.in PRID=1888334 (NTPC–Gujarat Gas blending, 3 Jan 2023); app notes 5:68 sub 7
 
 === Colours of Hydrogen
 | Colour | Production route | CO2 |
@@ -82,6 +82,7 @@
 | Green Hydrogen Standard (MNRE, Aug 2023) | Well-to-gate **≤ 2 kg CO2-eq per kg H2** (12-month average) |
 | GHCI certification scheme | **April 2025** |
 | Certification nodal authority | **Bureau of Energy Efficiency** |
+# Storage and transport
 | Storage method | Fact |
 |---|---|
 | Compression | High-pressure composite cylinders |
