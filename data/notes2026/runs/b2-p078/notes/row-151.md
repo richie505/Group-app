@@ -1,0 +1,67 @@
+=== Myanmar, Bhutan, Maldives and Afghanistan
+# Myanmar
+- **Kaladan Multi-Modal Transit Transport Project** (conceived 2008): **Kolkata → Sittwe port (Myanmar) → Kaladan river and road → Mizoram** – with **Myanmar** (APPSC 2018).
+- **India–Myanmar–Thailand Trilateral Highway** (~1,360 km): **Moreh (Manipur)–Bagan–Mae Sot (Thailand)**.
+- **Military coup, 1 February 2021** – Senior General **Min Aung Hlaing**; India engages the junta for Act East and north-east security.
+- Burma joined the UN in 1948 and stayed neutral – refused to name China the aggressor in the Korean War (NDA 2019). **Kyaiktiyo (Golden Rock) pagoda** is in Myanmar.
+# Bhutan
+- **Treaty of Friendship 1949**, revised **2007** – removed the clause that Bhutan be "**guided**" by India in **foreign affairs**.
+- India **imports hydropower from Bhutan** (APPSC G2 2017): Chukha, Tala, **Mangdechhu (720 MW, inaugurated 2019)**, Punatsangchhu I and II.
+- **Doklam (2017)** – India-Bhutan-China tri-junction.
+# Maldives
+- Smallest neighbour (≈300 sq km). **Operation Cactus (1988)** – India foiled a coup.
+- **Sheikh Imran Abdulla** – Home Minister, visited India February 2020. "**India Out**" campaign → ties repaired; PM visited 2025; **Favara** linked with **UPI** (Aug 2026); **Greater Male Connectivity** = bridge-causeway (not a tunnel); India built the **Institute of Security and Law Enforcement Studies**.
+# Afghanistan
+- **Salma Dam** (Afghan-India Friendship Dam, 42 MW), **Hari Rud, Herat** – inaugurated by Modi and Ghani, **June 2016**.
+- **Zaranj–Delaram highway** (218 km, **BRO**); **Afghan Parliament building** (Modi, 2015); **Stor Palace** restored with the **Aga Khan Trust for Culture** (2016); India-funded **public library** (Kabul, in news Jan 2019).
+- Nehru visited Kabul (Sept 1959). After the **Taliban takeover (Aug 2021)**: wheat, medicines, vaccines; **technical team in Kabul (2022)**.
+# Operations → country
+| Operation / aid | Year | Country |
+|---|---|---|
+| Operation Cactus – foiled a coup | 1988 | Maldives |
+| Operation Pawan (IPKF) | 1987–90 | Sri Lanka |
+| Operation Maitri – earthquake relief | 2015 | Nepal |
+| Operation Cactus Lilly – 1971 war operation (Meghna crossing) | 1971 | against Pakistan |
+| COVID vaccines | 2021 | Nepal, Bangladesh, Sri Lanka, Bhutan |
+- **UPSC 2026 match**: Mangdechhu – **Bhutan**; Stor Palace – **Afghanistan**; Dickoya hospital – **Sri Lanka**; ISLES – **Maldives**.
+- **AP angle**: AP's **Buddhist International Tourism Circuit** targets pilgrims from **Sri Lanka, Myanmar and Thailand**.
+~~ Sources: PMF IAS International Relations p.34-35 (Salma Dam 42 MW, Zaranj-Delaram 218 km), p.42 (Kaladan), p.46 (Bhutan 1949, Mangdechhu); app notes 2:151 sub 0, 4, 5, 6, 8; Cactus Lilly, Maldives Home Minister: general knowledge, not checked
+=== Bangladesh
+# Land boundary
+- **Longest land border**: Bangladesh **4,096.7 km** (then China 3,488, Pakistan 3,323, Nepal 1,751, Myanmar 1,643, Bhutan 699, Afghanistan ~106 – shortest).
+- **Land Boundary Agreement**: signed **1974** (Indira–Mujib); ratified by the **100th Constitutional Amendment Act, 2015**: **111 Indian enclaves → Bangladesh**, **51 Bangladeshi enclaves → India** (162 in all); **6.1 km** undemarcated boundary settled; territory of **four States** (Assam, West Bengal, Meghalaya, Tripura) changed.
+- **Tin Bigha**: corridor **leased** to Bangladesh in **1992** for access to **Dahagram-Angarpota** enclaves (UPSC 1999: Kachchativu and Tin Bigha were handed to Sri Lanka and Bangladesh respectively).
+- **Dawki (Meghalaya)–Tamabil (Sylhet)** – India–**Bangladesh** border crossing (not China).
+- **Border haat** at **Bholaganj** (Companiganj, Sylhet) inaugurated **May 2023**.
+# Ties and connectivity
+- **Maitri Diwas – 6 December**: India **recognised Bangladesh on 6 December 1971**.
+- **Maitri Express** Kolkata–Dhaka: launched **April 2008**.
+- **July 2020**: first container ship **Kolkata → Agartala** via **Chattogram (Chittagong) port**.
+- Water: **Farakka Accord 1977**; **Ganga Water Treaty 1996** (Farakka, **30 years**, Gujral Doctrine); **Teesta** still unsettled.
+- **Akhaura–Agartala** rail link; **Friendship Pipeline** (diesel); **Rooppur** (nuclear, Russia-built) and **Maitree** (thermal, Rampal).
+- Politics: **two-party system** – Awami League vs BNP (UPSC 1996 key); after the 2024 upheaval, **Tarique Rahman (BNP)** government sworn in **February 2026** (Speaker Om Birla represented India). Rohingya refugee issue (from Myanmar).
+> Trap: under the LBA India **received** 51 enclaves and **transferred 111** – "India transferred 51 enclaves" is false.
+~~ Sources: PMF IAS International Relations p.13, p.30-33 (LBA 2015, 100th Amendment, 162 enclaves); app notes 2:151 sub 0, 1, 2, 4, 5, 9; Maitri Diwas, Maitri Express, Bholaganj, Chattogram: general knowledge, not checked
+
+=== Sri Lanka
+- **Indo-Sri Lanka Accord, 1987**: **Rajiv Gandhi–J.R. Jayewardene**; merger of **Northern and Eastern** provinces; **13th Amendment** (provincial councils); **IPKF (Operation Pawan)** – ended up fighting the LTTE; withdrawn on **V.P. Singh**'s order (last troops **24 March 1990**).
+- **LTTE** killed **Rajiv Gandhi (1991)** → India banned it **1992** (not part of the 1987 Accord). Banned also by **Sri Lanka and the USA** (UPPSC 1998: India, Sri Lanka, USA). **2009**: Sri Lankan Army crushed the LTTE; chief **V. Prabhakaran** killed.
+- **Katchatheevu** ceded to Sri Lanka in **1974**; fishermen issue.
+- Leaders: **Chandrika Kumaratunga** – first woman **President** (1994); Sirimavo Bandaranaike – world's first woman **PM** (1960). **Mahinda Rajapaksa** became PM in **November 2019** (brother Gotabaya – President).
+- In the news: banned **drones and unmanned aircraft** after the **Easter Sunday bombings (April 2019)**; waived tourist-visa fee for **48 countries** (2019); **Colombo** – largest city; Knuckles range is in Sri Lanka.
+- India's aid: economic crisis support **~$4 billion (2022)**; **KKS (Kankesanthurai)** port; **Dickoya district hospital**; DTAA protocol (2020). **Hambantota** = Chinese, not Pakistani, encirclement.
+~~ Sources: Spectrum p.765-768 (IPKF); PMF IAS International Relations p.50-52 (Sri Lanka); Sri Lanka drone ban: search result (business-standard.com PTI, 25 Apr 2019); app notes 2:151 sub 3, 7, 8
+
+=== Nepal
+- **Treaty of Peace and Friendship, 1950**: open border, security cooperation; Nepal seeks revision.
+- **First Constituent Assembly** abolished the monarchy – **28 May 2008**; new Constitution **20 September 2015**.
+- **Dr. Ram Baran Yadav** – **first (elected) President**, July 2008 (not G.P. Koirala or Paramananda Jha, the first Vice-President).
+- **Pushpa Kamal Dahal 'Prachanda'** (UCPN-Maoist) – **first PM** of the Federal Democratic Republic, August 2008.
+- **K.P. Sharma Oli** – PM for the **third time** in 2021 (APPSC Endowment 2022); fourth term July 2024 – September 2025 (fell in the Gen-Z protests; **Sushila Karki** interim PM).
+- **March 2026**: **Balen Shah** (Rastriya Swatantra Party) became Nepal's **youngest PM (35)**; youth-led government pushes to revise the 1950 Treaty.
+- Water: **Kosi (1954)**, **Gandak (1959)**, **Mahakali Treaty 1996** (Sarada, Tanakpur, **Pancheshwar**) – Nepal, not Bangladesh; Arun III; hydro potential **83,000 MW**.
+- Dispute: **Kalapani–Limpiyadhura–Lipulekh** (Sugauli Treaty 1816; Nepal's new map 2020).
+- **Operation Maitri** – India's **earthquake relief, 2015**.
+- **First trilateral power deal**: Nepal supplies Bangladesh through the **Indian grid**.
+~~ Sources: Spectrum p.684 (1950 Treaty); Praveen CA-360 March 2026 magazine 2.7 (src/current-affairs/praveen-ca360-2026-03-magazine.txt, Balen Shah); PMF IAS International Relations p.38-41 (Nepal); app notes 2:151 sub 1, 2, 7, 8
+

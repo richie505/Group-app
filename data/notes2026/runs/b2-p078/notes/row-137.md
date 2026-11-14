@@ -1,0 +1,101 @@
+=== Universalisation of Education – NPE, SSA, RMSA, Samagra Shiksha
+# National Policy on Education
+- First NPE: **1968** (Kothari Commission); second NPE: **1986** (revised 1992).
+- **NPE 1986 vs 1968:** to universalisation of elementary education it **added the goal of minimum levels of learning (MLL)** – quality, not just enrolment.
+- NPE priority areas: **universal elementary education, adult literacy, education for women's equality** – "**compulsory nutrition education to all**" is **NOT** a priority area (APPSC G2, 2018).
+# Sarva Shiksha Abhiyan (2001) → Samagra Shiksha (2018)
+- **Samagra Shiksha (2018)** merged **SSA, RMSA and Teacher Education**; funding **60:40**, **90:10** for North-Eastern and hill States; KGBVs up to **Class 12**.
+- **Component of SSA:** **NPEGEL** – National Programme for Education of Girls at Elementary Level; also **KGBV**.
+- **Wrong statements on SSA after RTE:** "GoI bears the **whole expense** of SSA" (it is shared); "it is **mandatory** on GoI to bring **early childhood care and education** under SSA" (ECCE below 6 is Art. 45, a DPSP, outside RTE).
+- **Interventions for universal elementary education:** mid-day meals, free books and uniforms, SSA, KGBV – **not free laptops** (code a, b, d, e).
+- **Tamil Nadu** pioneered the Mid-Day Meal; ICDS 1975.
+# RMSA (2009) and RUSA (2013)
+- **RMSA** = universal access to **secondary** education (Classes 9-10); **SEMIS** (Secondary Education Management Information System) = a **database system mapping schools** at national, State, district, block and village level.
+- **Not associated with RMSA:** "universal education for all children aged **6-16**" (6-14 is RTE); "access to quality secondary education is a **constitutional commitment**" (only 6-14 is, under Art. 21A).
+- **RUSA** (Rashtriya Uchchatar Shiksha Abhiyan) = funding of State **higher** education institutions; the wrong statement: "it is recommended by the National Education Commission".
+- Teacher education is regulated by the **NCTE** (National Council for Teacher Education).
+~~ Sources: app notes 2:137 sub 3; general knowledge, not checked (RMSA, RUSA, SEMIS, NPEGEL details)
+
+=== RTE Act, 2009 – Provisions
+- Full name: **Right of Children to Free and Compulsory Education Act, 2009**; gives effect to **Art. 21A**; free and compulsory **elementary** education for **6–14** years (Classes 1–8); in force **1 April 2010** – the Art. 51A(k) duty became a statutory right then.
+| Section | Provision |
+|---|---|
+| 3 | Age 6–14; neighbourhood school; children with disabilities: free education **6 to 18 years** |
+| 12(1)(c) | Unaided private schools (excluding minority) reserve **25%** entry-level seats for weaker and disadvantaged groups; State reimburses |
+| 21 | School Management Committees; **three-fourths** members parents/guardians |
+| 29(2)(f) | Medium of instruction, as far as practicable, the child's **mother tongue** |
+| 38 | Rules by the appropriate Government (e.g. **AP RTE Rules, 2010**, framed under the Act) |
+- **Pupil-teacher ratio**: **30:1** primary; **35:1** upper primary. **Teacher qualifications**: the **NCTE** (not a State council).
+- No **screening**, no **capitation fee**; out-of-school child admitted to an **age-appropriate class**.
+- Monitoring and grievance redressal: **NCPCR and SCPCRs**.
+- **No-detention:** original Act – none till Class 8; **RTE (Amendment) Act 2019** – regular exams in Classes 5 and 8, a child failing the re-exam can be held back.
+- **Not features of RTE:** early childhood care below 6 (Art. 45); pre-school and secondary education; **Centre bearing all funds** (shared); minority schools under the 25% quota.
+- **Education is in the Concurrent List** (42nd Amendment) → a State law **repugnant** to the RTE Act is **void to the extent of repugnancy** (Art. 254).
+| Case | Issue decided |
+|---|---|
+| Unni Krishnan v. State of AP (1993) | Children below 14 have a fundamental right to free education under Art. 21; arose from **Andhra Pradesh** |
+| Society for Unaided Private Schools of Rajasthan (2012) | Upheld the 25% quota; not for unaided minority schools |
+| Pramati Educational Trust (2014) | RTE Act not applicable to **minority** schools |
+| Bachpan Bachao Andolan v. UoI (2011) | Child trafficking, children in circuses |
+- **January 2026**: SC reaffirmed Sec. 12(1)(c); States to frame admission rules under **Sec. 38**. **4 Sep 2026**: SC called quality elementary teacher education vital to **Art. 21A**.
+~~ Sources: Laxmikanth 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.176; app notes 2:137 sub 1, 2
+
+=== Constitutional Provisions for Children
+| Article | Content | Origin / Amendment |
+|---|---|---|
+| 15(3) | Special provisions for women and children | Original |
+| **21A** | **Free and compulsory education, 6–14 years** (Fundamental Right) | **86th CAA, 2002** |
+| 23 | Ban on traffic in human beings and forced labour | Original |
+| **24** | **No child below 14** in factories, mines or hazardous employment (Part III) | Original |
+| 39(e) | Tender age of children not abused; not forced by economic necessity into unsuited avocations | Original |
+| 39(f) | Develop healthily in freedom and dignity | Reworded by **42nd CAA, 1976** |
+| 45 | Early childhood care and education till 6 | Substituted by 86th |
+| 51A(k) | **Parent/guardian's duty** to give opportunities for education to a child 6–14 | Added by **86th** |
+- **86th Amendment, 2002** – three changes: inserted **Art. 21A**, rewrote **Art. 45**, added **Art. 51A(k)**; the **first** amendment to make education a **Fundamental Right** (distractors: 82nd, 85th, 93rd, 103rd).
+- Other "education" Articles are distractors: 44 = Uniform Civil Code, 39A = legal aid, 12 = definition of State.
+~~ Sources: Laxmikanth 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.154 (Art. 24), p.176 (86th Amendment), p.191 (51A(k)); app notes 2:137 sub 0
+
+=== Child Rights – UNCRC, Days, NCPCR, Helplines
+| Fact | Detail |
+|---|---|
+| UNCRC adopted | UNGA, **20 November 1989**; **54** articles |
+| India | Acceded **11 December 1992** |
+| Optional Protocols 2000 | India ratified **2005**; not a party to the 2011 communications protocol |
+- **Four rights:** survival, development, protection, **participation**. **Core principles:** non-discrimination, best interests, life/survival/development, views of the child (not free secondary education).
+| Day | Date |
+|---|---|
+| **Universal Children's Day** | **20 November** |
+| India's **Children's Day** | **14 November** (Nehru's birthday) |
+- **Kailash Satyarthi**: founder of **Bachpan Bachao Andolan** (1980); **Nobel Peace Prize 2014** (with Malala). Shantha Sinha = first NCPCR chairperson.
+| Item | Fact |
+|---|---|
+| NCPCR | CPCR Act, **2005**; set up **2007**; Chairperson + **6** members (≥2 women); civil-court powers; monitors JJ, **POCSO**, RTE |
+| **e-Baal Nidan** | NCPCR portal (2015; updated Sept 2022) for **online complaints on child-rights violations** |
+| **CHILDLINE 1098** | 24×7 helpline for **all children in need of care and protection**; integrated with **ERSS-112** |
+| CARINGS / TrackChild / Khoya-Paya / Poshan Tracker | Adoption (CARA) / missing children (**Mission Vatsalya**) / citizens report missing children / Anganwadi tracking 0–6 |
+- **AP SCPCR**: directed admission of migrant and fisherfolk children (Kolleru); **Operation Muskaan** (Feb 2026) rescued over 1,200 children.
+~~ Sources: NextGen Society Group 2 Part 3 (src/society/nextgen-society-group2-03.txt) p.12; app notes 2:137 sub 4, 5, 8
+
+=== POCSO, Juvenile Justice and Adoption
+- **POCSO Act, 2012**: in force **14 November 2012**; child = **below 18**; **gender-neutral**. **Criminal Law (Amendment) Ordinance, April 2018**: death penalty possible for rape of a girl **below 12**. **POCSO (Amendment) Act 2019**: death penalty for aggravated penetrative sexual assault.
+- **JJ Act, 2015** (first JJ law **1986**): **16–18** accused of heinous offences → **Juvenile Justice Board** makes a preliminary assessment; **Child Welfare Committees** handle children in need of care and protection; **2021 amendment**: **District Magistrate** issues adoption orders.
+| Law / body | Fact |
+|---|---|
+| CARA | Statutory under the **JJ Act 2015** |
+| Adoption Regulations 2022 | Surrendered child: **2-month** reconsideration period |
+| HAMA 1956 | Hindus, Buddhists, Jains, Sikhs (not Muslims) |
+| JJ Act route | Open to all religions |
+- **DPDP Act 2023**: child = below 18; **verifiable parental consent**.
+~~ Sources: app notes 2:137 sub 6
+
+=== Child Policy, Child Labour and Indicators
+- **National Policy for Children**: first **1974**; **NPC 2013**, child = **below 18**; priority areas: survival, health and nutrition; education and development; protection; **participation**. **National Plan of Action for Children 2016** operationalises NPC 2013. **Bal Vivah Mukt Bharat**: 100-day campaign from Dec 2025.
+- **Children (Pledging of Labour) Act, 1933** = first child labour law; **Child Labour (P&R) Act, 1986** = key law (below 14 in hazardous work).
+- Age thresholds: **POCSO below 18 | child labour below 14 | RTE 6–14**.
+| Indicator | Figure |
+|---|---|
+| Child sex ratio (0–6), Census 2011 | **914** provisional (final 918); 2001: 927 |
+| Overall sex ratio | Census 2011 **943**; NFHS-5 1,020 |
+| NFHS-5 | IMR **35.2**; U5MR 41.9; TFR **2.0** |
+| Child labour (5–14), Census 2011 | **4.35 million** main workers |
+~~ Sources: NextGen Society Group 2 Part 3 (src/society/nextgen-society-group2-03.txt) p.36 (4.35 million, 1986 Act); app notes 2:137 sub 7, 9

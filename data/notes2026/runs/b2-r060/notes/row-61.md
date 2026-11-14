@@ -31,7 +31,7 @@
 | **SVAMITVA** | Drone survey by the **Survey of India**; "Record of Rights", property-tax baseline |
 - **Ombudsman for local bodies in AP:** the function is entrusted to the **Lokayukta** (not the CAG or a banking/insurance ombudsman).
 - **Second ARC, 6th Report "Local Governance" (2007):** recommended a **Local Body Ombudsman**; **Kerala:** **Ombudsman for Local Self Government Institutions** (2001 amendment of the Kerala Panchayat Raj Act).
-- **V. Ramachandran Expert Committee (MoPR, 2013):** Panchayats for **delivery of public services**.
+- **Mani Shankar Aiyar Expert Committee (MoPR, 2012–13):** leveraging Panchayats for efficient **delivery of public goods and services** (Laxmikanth ch. 39). (V. Ramachandran chaired the 2005 expert group on grassroots planning.)
 # RGSA
 - **RGSA** (**2018-19**) strengthens PRIs for the **SDGs**; **117 aspirational districts**; converges with **Mission Antyodaya**.
 - **Revamped RGSA: 1 April 2022 – 31 March 2026** (co-terminus with the 15th FC) – not 1 April 2021.

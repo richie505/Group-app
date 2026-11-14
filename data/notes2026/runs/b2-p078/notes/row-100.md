@@ -1,0 +1,66 @@
+=== Competition Commission of India
+- Statutory body under the **Competition Act, 2002**, as amended by the **Competition (Amendment) Act, 2007**; **Ministry of Corporate Affairs**.
+- The Act **replaced the MRTP Act, 1969** and its **MRTP Commission** – shift from curbing monopolies to **promoting competition**.
+- **Established:** notified **14 October 2003**, but legal challenges delayed it; **fully constituted / functional in March 2009** (MCA: "established in March 2009").
+- **Function:** to **ensure fair competition in markets**, prevent practices with adverse effect on competition, protect consumers – not registering competitors or monitoring capital markets.
+- **Composition:** **Chairperson + 2 to 6 other members** appointed by the **Central Government** (original 2002 Act: up to 10) – so "chairperson and five members" is wrong.
+| CCI area | What it does |
+|---|---|
+| Anti-competitive agreements | Cartels, bid-rigging |
+| Abuse of dominant position | e.g. **WhatsApp 2021 privacy policy** – Meta fined **₹213.14 crore** |
+| Combinations | Mergers and acquisitions; **₹2,000 crore deal-value threshold** for start-up "**killer acquisitions**" |
+- Appeals: **NCLAT from 26 May 2017** (earlier **COMPAT**) → Supreme Court. CCI's **Digital Markets Division**; proposed **Digital Competition Bill** for **Systemically Significant Digital Enterprises**.
+- Market forms: many sellers of differentiated brands (e.g. **toothpaste**) = **monopolistic competition**; identical product = perfect competition.
+~~ Sources: web search snippets – mca.gov.in CCI page and ies.gov.in Arthapedia (CCI established March 2009; set up 2003); NextGen Indian Economy P1 - APPSC 01 p.54, 04 p.29; app notes 2:100 (CCI)
+
+=== TRAI and TDSAT
+- **TRAI** = **Telecom Regulatory Authority of India**, set up **20 February 1997** under the **TRAI Act, 1997**; regulates **tariffs, interconnection, quality of service**.
+- **TDSAT** (May 2000), created by the **TRAI (Amendment) Act, 2000**, to **separate adjudication** from regulation; also hears appeals under the **IT Act, 2000** and the **DPDP Act**. No separate "TDSAT Act".
+- **TRAI MyCall** app revamped for call-quality rating (Aug 2026), after **DND** and **MySpeed**.
+~~ Sources: app notes 2:100 (TRAI, TDSAT)
+
+=== FSSAI – Food Regulator
+- **FSSAI**: under the **Food Safety and Standards Act, 2006**; set up **2008**; administered by the **Ministry of Health and Family Welfare** (not DGHS). It is the agency that enforces food safety laws (not FDA, WHO or FAO).
+- The Act consolidated **eight** laws and orders incl. the **Prevention of Food Adulteration Act, 1954**.
+- From **1 July 2019** (Packaging Regulations, 2018): **no recycled plastics or newspaper** to wrap food.
+- **Eat Right India** (2018). **2026 reforms**: perpetual validity of licences; registration up to **₹1.5 crore** turnover, State licence ₹1.5-50 crore, Central licence above **₹50 crore**.
+~~ Sources: app notes 2:100 (FSSAI)
+
+=== Regulators at a Glance; Appointment, Removal and Appeals
+| Regulator | Parent Act | Set up | Ministry |
+|---|---|---|---|
+| TRAI | TRAI Act, 1997 | 20 Feb 1997 | Telecom |
+| CCI | Competition Act, 2002 | 2003 / functional 2009 | Corporate Affairs |
+| FSSAI | FSS Act, 2006 | 2008 | Health |
+| PNGRB | PNGRB Act, 2006 | **1 Oct 2007** | Petroleum |
+| AERA | AERA Act, 2008 | 2009 | **Civil Aviation** |
+| CEA, CERC, APTEL | Electricity Act, 2003 | APTEL 2004 | **Power** |
+- Chairpersons are **appointed by the Central Government** on a search-cum-selection committee's recommendation (CCI's headed by the **CJI or nominee**); removed by the Centre only on grounds in the Act (insolvency, moral turpitude, incapacity, abuse of position) after a hearing – not by a Parliament resolution.
+| Order of | Appeal to |
+|---|---|
+| TRAI | TDSAT → SC |
+| CCI | NCLAT → SC |
+| CERC / SERC / PNGRB | APTEL → SC |
+| DPBI | TDSAT (60 days) → SC |
+~~ Sources: app notes 2:100 (regulators table, appointment, appeals)
+
+=== Energy and Airport Regulators – CERC, SERCs, PNGRB, AERA
+- **CERC** = inter-State electricity; regulator of carbon trading under the **Carbon Credit Trading Scheme**. **SERCs** = intra-State tariffs. **APTEL** hears appeals from CERC, SERCs and PNGRB.
+- **APERC** constituted **1999** under the **AP Electricity Reform Act, 1998**; under the AP Reorganisation Act, 2014 it stayed joint regulator for **not more than six months**.
+- **PNGRB** regulates **City Gas Distribution** and authorises pipelines; not electricity. **Jul 2026**: **10 Geographical Areas** in AP approved for CGD; **East Godavari** has the most connections.
+- **Kakinada–Srikakulam natural gas pipeline** (about 271 km): authorised by PNGRB (16 Jul 2014) to **AP Gas Distribution Corporation (APGDC)**; APGDC later surrendered it and PNGRB **terminated the authorisation on 1 Dec 2023**.
+- **AERA** regulates **aeronautical charges** at major airports.
+~~ Sources: web search snippets – Lok Sabha answer eparlib.nic.in AU647 (July 2024) and acuite.in rating report on APGDC / Kakinada-Srikakulam pipeline; app notes 2:100 (electricity, PNGRB, AERA)
+
+=== Data Protection Board of India
+- **DPDP Act, 2023** (Aug 2023): consent-based processing. **DPBI**: adjudicatory body, **4 members** (DPDP Rules 2025), appointed by the Centre on a Selection Committee's advice.
+- Penalty up to **₹250 crore**, **no imprisonment**; appeal to **TDSAT within 60 days** → Supreme Court.
+- DPDP Act amended **RTI Sec. 8(1)(j)** (wider personal-information exemption).
+~~ Sources: app notes 2:100 (Data Protection Board)
+
+=== Education, Film and Other Regulators
+- **Education** is in the **Concurrent List** (moved from the State List by the **42nd Amendment, 1976**) – regulated by both Union and States; UGC, AICTE, NCTE are central regulators.
+- **NCTE and NAAC** signed the MoU (2002) for **accreditation of teacher education institutions**.
+- **CBFC** (Central Board of Film Certification), under the **Ministry of I&B** (Cinematograph Act, 1952), regulates **public exhibition of films**.
+- **Viksit Bharat Shiksha Adhishthan (VBSA) Bill, 2025** (HECI idea): introduced in **Lok Sabha, Dec 2025** → **Joint Committee**; not passed. Would repeal **UGC Act 1956, AICTE Act 1987, NCTE Act 1993** (not the NMC Act 2019); three councils – **Regulatory, Accreditation, Standards** (no **Funding Council**).
+~~ Sources: PMF Lens 2026-01 part 2 p.50 (education in Concurrent List); app notes 2:100 (VBSA Bill); NCTE-NAAC MoU and CBFC – general knowledge (not checked)
