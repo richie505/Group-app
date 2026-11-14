@@ -20,11 +20,11 @@
   "s": "Consider the following statements about weathering:\n1. Oxidation is the rusting of iron-bearing minerals and gives red or yellow soils.\n2. The formation of clay from feldspar is an example of oxidation.\n3. Plant roots widening cracks and burrowing by earthworms and termites are forms of biological weathering.\nWhich of the statements given above are correct?",
   "o": [
    "1 and 2 only",
-   "1 and 3 only",
    "2 and 3 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "1 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statement 2 is wrong: feldspar → clay is hydrolysis (water reacting with silicates), not oxidation. Oxidation is oxygen in water reacting with iron minerals – rusting that gives red/yellow soils; roots, earthworms, termites and lichens cause biological weathering.",
   "src": "app",
   "tq": "statements"
@@ -79,12 +79,12 @@
   "row": 11,
   "s": "Consider the following statements about soil particles:\n1. Silt particles range from 0.002 mm to 0.05 mm in diameter.\n2. Clay holds the maximum water among soil particles.\n3. Clay holds more water because its pore spaces are large.\nWhich of the statements given above are correct?",
   "o": [
-   "1 and 2 only",
    "2 and 3 only",
    "1 and 3 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "1 and 2 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Statement 3 is wrong: clay has high total porosity but its pores are small, not large (the UPPSC A–R has R false). Silt is 0.002–0.05 mm (USDA) and water-holding capacity runs clay > silt > sand.",
   "src": "app",
   "tq": "statements"
@@ -471,10 +471,10 @@
   "o": [
    "1 and 3 only",
    "2 and 4 only",
-   "1, 3 and 4 only",
-   "1, 2, 3 and 4"
+   "1, 2, 3 and 4",
+   "1, 3 and 4 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statement 2 is wrong: a polje is a large enclosed karst depression; the small closed funnel depression, the commonest karst landform, is the sinkhole (doline). Uvalas are joined dolines, blind valleys end where the stream sinks, and lapiaz is grooved limestone.",
   "src": "app",
   "tq": "statements"
@@ -546,10 +546,10 @@
   "o": [
    "1 only",
    "2 and 3 only",
-   "1 and 3 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statement 2 is wrong: beach nourishment, like dunes and mangroves, is a soft defence; seawalls, groynes and breakwaters are hard defences. Groynes trap sand across the longshore drift, and dams, harbours and sand mining starve beaches of sediment.",
   "src": "app",
   "tq": "statements"
@@ -928,5 +928,275 @@
   "x": "The D layer (60–90 km) absorbs medium/long waves and fades at night; the E (Kennelly-Heaviside) layer reflects medium-frequency waves; the F (Appleton) layer is the main short-wave reflector; the heterosphere above ~90 km has gases layered by molecular weight (N₂ → O → He → H).",
   "src": "app",
   "tq": "match"
+ },
+ {
+  "id": "cp2d944a4a8b91",
+  "row": 15,
+  "s": "Consider the following statements about the heating of the atmosphere:\n1. Advection is the horizontal transfer of heat by wind, as in the Loo.\n2. The atmosphere is mainly heated by incoming short-wave solar radiation.\n3. Terrestrial radiation is emitted as long-wave infra-red radiation.\n4. Conduction heats the lower layers of air in contact with the warm ground.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: the main heater of the air is outgoing long-wave (infra-red) terrestrial radiation – the atmosphere is heated from below. Advection is horizontal transfer by wind (the Loo), and conduction heats the air in contact with the warm ground.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd7df37cbb040",
+  "row": 15,
+  "s": "Consider the following statements about insolation:\n1. The Earth is at perihelion, about 147 million km from the Sun, around 3 January.\n2. The Earth is at aphelion, about 152 million km from the Sun, around 4 July.\n3. Insolation increases from the Equator towards the poles.\n4. There is a heat surplus in the tropics and a heat deficit at the poles.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: the Equator gets direct rays and the poles oblique rays, so insolation decreases from the Equator to the poles. Perihelion (~3 Jan, ~147 million km) and aphelion (~4 Jul, ~152 million km) are right, and winds and currents carry the tropical surplus poleward.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpab0544e92dc3",
+  "row": 15,
+  "s": "Assertion (A): The highest temperatures on the Earth are recorded over the subtropical deserts rather than at the Equator.\nReason (R): The subtropical deserts have clear skies and dry air.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: clear skies and dry air let maximum insolation reach the subtropical deserts, while cloud and moisture cut it at the Equator.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3d015fba920c",
+  "row": 15,
+  "s": "Consider the following statements:\n1. Low, thick clouds reflect sunlight and produce cooling.\n2. High, thin clouds reflect most of the sunlight and cool the surface.\n3. Melting ice exposes a darker ocean surface that absorbs more heat.\n4. The Arctic is warming about 3–4 times faster than the global average.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: high, thin clouds trap heat and cause warming; it is low, thick clouds that reflect sunlight. The ice-albedo feedback (darker ocean absorbs more heat) helps the Arctic warm 3–4 times the global average (Apr 2025).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0f973a6a4835",
+  "row": 15,
+  "s": "Match List-I (Heat budget item, of 100 units of insolation) with List-II (Units):\nList-I\na. Reflected back to space\nb. Absorbed by the atmosphere\nc. Absorbed by the Earth's surface\nd. Radiated to space by the atmosphere\nList-II\ni. 51\nii. 35\niii. 14\niv. 48",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 1,
+  "x": "Of 100 units, 35 are reflected (planetary albedo), 14 absorbed by the atmosphere and 51 by the surface. The atmosphere radiates 48 units (14 + 34) to space and the surface 17 directly, so 35 + 17 + 48 = 100.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8d4b36fdc80a",
+  "row": 15,
+  "s": "Consider the following statements about the Earth's heat budget:\n1. The 35 units of insolation reflected to space form the planetary albedo.\n2. Of these 35 units, clouds reflect 27.\n3. Of the 51 units absorbed by the surface, 34 are radiated directly to space and 17 go to the atmosphere.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 reverses the figures: the surface sends 17 units directly to space and 34 to the atmosphere. The 35 reflected units (clouds 27, scattering 6, snow/ice 2) form the planetary albedo.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp64ce06fa54b9",
+  "row": 15,
+  "s": "Match List-I (Greenhouse gas) with List-II (Approximate share of the greenhouse effect):\nList-I\na. Carbon dioxide\nb. Methane\nc. CFCs\nd. Nitrous oxide\nList-II\ni. About 5%\nii. About 20%\niii. About 60%\niv. About 15%",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "In the notes' table CO₂ contributes ~60% of the greenhouse effect, methane ('marsh gas') ~20%, CFCs ~15% and nitrous oxide ~5%.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp806aef7785ac",
+  "row": 15,
+  "s": "Consider the following statements:\n1. Methane is known as 'marsh gas'.\n2. Water vapour is the most abundant greenhouse gas and acts as a feedback.\n3. Over 100 years, with CO₂ = 1, methane has a Global Warming Potential of 265–298 and nitrous oxide 28–36.\n4. The UNEP Emissions Gap Report 2025 puts the rise in global land temperature since pre-industrial times at 1.59°C.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 swaps the values: methane's GWP is 28–36 and nitrous oxide's 265–298. Methane is 'marsh gas', water vapour is the most abundant GHG (a feedback), and land temperature is up 1.59°C (UNEP EGR 2025).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp27511a06cf86",
+  "row": 15,
+  "s": "Consider the following statements about the range of temperature:\n1. The annual range is largest in high-latitude continental interiors such as Siberia.\n2. The annual range is minimum at the Equator.\n3. In Andhra Pradesh, coastal Visakhapatnam and Kakinada have a higher daily range than interior Rayalaseema.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: interior Rayalaseema has the high daily range; the coast (Visakhapatnam, Kakinada) has a small range because of sea breezes. The annual range is largest in interiors like Siberia, the seasonal range is greatest in high latitudes, and both are least at the Equator.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbbbc08d63fd9",
+  "row": 15,
+  "s": "Consider the following statements about isotherms:\n1. Isotherms join places of equal temperature reduced to sea level.\n2. Isotherms are more regular in the Northern Hemisphere because it has more land.\n3. In July, Northern Hemisphere isotherms bend poleward over land and equatorward over the oceans.\n4. In January, Northern Hemisphere isotherms bend poleward over land.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 4 only",
+   "1, 2 and 3 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: isotherms are more regular in the Southern Hemisphere, which is mostly ocean. Statement 4 is wrong: in January they bend equatorward over land and poleward over the warmer oceans; in July the bends reverse.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5320ac014d0c",
+  "row": 15,
+  "s": "Consider the following statements about the controls of temperature:\n1. The Himalayas are cool despite their low latitude because of altitude.\n2. Cold ocean currents raise coastal temperatures.\n3. Temperature falls with height because the ground heats the air from below and higher air is thinner, with less water vapour and dust.\n4. The normal lapse rate is about 6.5°C per km.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: cold ocean currents lower coastal temperatures. Altitude keeps the Himalayas cool, and temperature falls ~6.5°C per km because the air is heated from below and the upper air is thinner and holds less water vapour and dust.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2cfd1fd4417a",
+  "row": 15,
+  "s": "Match List-I (Type of temperature inversion) with List-II (Feature):\nList-I\na. Surface (radiation)\nb. Valley (air drainage)\nc. Frontal\nd. Permanent\nList-II\ni. Warm air rides over a wedge of cold air along a front\nii. The stratosphere\niii. Night cooling of the ground\niv. Cold air drains downslope and collects on the valley floor",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "A surface (radiation) inversion comes from night cooling of the ground; a valley inversion from cold air draining downslope; a frontal inversion from warm air over a cold-air wedge; the stratosphere is the permanent inversion layer.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9532c40210b7",
+  "row": 15,
+  "s": "Consider the following statements about temperature inversion:\n1. It is favoured by long winter nights, clear skies and calm, dry air.\n2. Cloudy skies favour a temperature inversion.\n3. It causes fog, frost and smog and traps pollutants in the planetary boundary layer.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: cloudy skies hinder night cooling and work against an inversion; long winter nights, clear skies, calm dry air and snow cover favour it. Inversions bring fog, frost and smog and trap pollutants (north Indian winter fog).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd5270bec3ec7",
+  "row": 15,
+  "s": "Assertion (A): In valleys with temperature inversion, orchards are usually planted on the upper slopes.\nReason (R): Cold air drains downslope and forms frost pockets on the valley floor.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: in a valley (air-drainage) inversion cold air drains downslope and settles on the floor, forming frost pockets, so orchards are kept on the warmer upper slopes.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4be25196e3fc",
+  "row": 15,
+  "s": "Consider the following statements about IMD criteria:\n1. A heat wave in the plains is considered only when the maximum temperature reaches at least 40°C.\n2. In coastal areas the threshold is 37°C.\n3. A cold wave in hilly regions needs a minimum temperature of 0°C or below.\n4. In the plains a severe heat wave is declared when the actual maximum reaches 45°C.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: an actual maximum of 45°C is a heat wave; a severe heat wave in the plains is 47°C. The thresholds are plains 40°C, coast 37°C, hills 30°C, and a hill cold wave needs 0°C or below.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp388ee5bcae73",
+  "row": 15,
+  "s": "Consider the following statements:\n1. NDMA first issued its heat-wave guidelines in 2016.\n2. Andhra Pradesh's 2026 peak temperature of 48.1°C was recorded at Piduguralla.\n3. Palnadu was listed as a severe-heatwave district in Andhra Pradesh's Heat Action Plan 2026.\n4. Rentachintala, the hottest place in Andhra Pradesh, is in Prakasam district.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4",
+   "1, 2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 4 is wrong: Rentachintala is in Palnadu district, like Piduguralla (48.1°C, 21 May 2026). NDMA's guidelines date from 2016 (revised 2017, 2019), and Palnadu is among the HAP 2026 severe-heatwave districts.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp88d996611bf9",
+  "row": 15,
+  "s": "Match List-I (Place) with List-II (Record temperature):\nList-I\na. Death Valley\nb. Vostok\nc. Dras\nd. Phalodi\nList-II\ni. −89.2°C – world's coldest\nii. 56.7°C – world's hottest\niii. About −45°C (1908) – India's coldest\niv. 51.0°C (2016) – India's highest",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 1,
+  "x": "Death Valley holds the world high of 56.7°C and Vostok the world low of −89.2°C; Dras (Ladakh) recorded about −45°C in 1908; Phalodi, Rajasthan recorded India's highest, 51.0°C, on 19 May 2016.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpfb05e724e7fa",
+  "row": 15,
+  "s": "Assertion (A): Cities are often warmer than the surrounding countryside.\nReason (R): A heat dome is a stalled high-pressure system under a slowed, winding jet stream.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true but R does not explain A: cities are warmer (the urban heat island) because concrete and asphalt store heat; a heat dome is a separate large-scale pattern of stalled high pressure under a slowed jet stream.",
+  "src": "app",
+  "tq": "assertion"
  }
 ]

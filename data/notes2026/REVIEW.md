@@ -938,3 +938,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b6-w013 rewrite (AP projects rows 13-14): own 317 → 107 (34%), 0 lines lost.
 - b1-w026 rewrite (rows 26-29): own 330 → 106 (32%), 0 lines lost.
 - b5-w011 rewrite (S&T rows 11-15): own 443 → 198 (45%), 0 lines lost.
+- b6-w015 rewrite (rows 15-16): own 276 → 122 (44%). Notes conflicts: Polavaram target (Mar/Jun–Jul 2027); SCoR divisions list (Visakhapatnam).
