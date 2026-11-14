@@ -1,0 +1,78 @@
+=== C.P. Brown and the Colonial Scholars of Telugu
+# Charles Philip Brown (1798-1884)
+- **Post:** British revenue officer; **Collector of Cuddapah (Kadapa)**; learnt Telugu from **Kodandarama Pantulu**.
+- **Vemana:** **C.P. Brown collected the poems of Vemana** (about 2,000) and published **Verses of Vemana (1829)**; named Vemana's metre **Ataveladi**.
+- **Dictionaries:** **C.P. Brown** compiled the **first Telugu-English and English-Telugu dictionaries (1852-53)** – not Munro, Campbell or Cotton; his Telugu Grammar came in **1840**.
+- **Classics:** edited **Nannaya, Tikkana and Pothana**; preserved Mackenzie's **Kaifiyats** in the Madras Library.
+- **"Italian of the East":** **C.P. Brown called Telugu the "Italian of the East"** (exam answer); the phrase is first traced to the 15th-century traveller **Nicolo de Conti**.
+- **C.P. Brown Memorial Trust Library = Kadapa (Cuddapah)**, built on the site of Brown's old bungalow ("Brown's College") – not Rajahmundry, Kakinada or Anantapur (APPSC G2 2001, 2005 and AP History ×2).
+# Other scholars
+| Scholar | Contribution |
+|---|---|
+| **Benjamin Schultze** | German Lutheran, **Danish-Halle Mission**; came 1719; began the first Telugu Bible translation (**1727**); Telugu Bible and books **printed at Halle, Germany (1746-47)** |
+| **Colin Mackenzie** (1754-1821) | Reached the **Amaravati Stupa in 1797**; **first Surveyor General (1815)**; collected the **Kaifiyats** with the **Kavali brothers** (Borraiah, Venkataramaiah, Lakshmaiah) |
+| **William Carey** | **Serampore** Mission; first printed Telugu Bible (NT **1812**, full 1818-19); Telugu typefaces |
+| **A.D. Campbell** | First **systematic Telugu grammar (1816)** |
+| **Thomas Munro** | Kept **Telugu as an administrative language** |
+# Gentoo
+- **Gentoo:** European name for the **Telugu** people and language (Madras Presidency), most likely from Portuguese **gentio** ("gentile, heathen") – so "a term of the Portuguese" (APPSC G2 2019 key). William Brown's **Grammar of the Gentoo Language (1817)** used the same word for Telugu.
+> Recall angle: library → Kadapa; Vemana and the dictionary → C.P. Brown; first systematic grammar → Campbell; Kaifiyats → Mackenzie.
+~~ Sources: NextGen Modern India L2 Part 1 p.19-20; NextGen previous papers p.21, p.34, p.42; Rocket AP History p.3, p.10; https://en.wikipedia.org/wiki/C._P._Brown; https://en.wikipedia.org/wiki/Gentoo_(term); app notes 1:196 (sub 1, 2)
+
+=== Telugu Literary Works and Their Authors
+| Work | Author | Note |
+|---|---|---|
+| **Rajasekhara Charitramu** (1878) | **Kandukuri Veeresalingam** | **First Telugu novel** (Rushi, Mohita are not his) |
+| **Hitasuchini** (1862) | **Swamineni Muddu Narasimham (Naidu)** | First collection of **essays** in modern Telugu prose; condemned caste discrimination – not Mamidi Venkayya or Atmuri Lakshminarasimham |
+| **Kasiyatra Charitra** | **Enugula Veeraswamy (Veeraswamayya)** | Translator in the Madras court; Hindu Literary Society; women's education |
+| **Ramachandra Vijayam** | **Chilakamarti Lakshmi Narasimham** | "Andhra Milton", blind bard; also **Ganapati**, play **Gayopakhyanam** |
+| **Asamardhuni Jeevayatra** | **Tripuraneni Gopichand** | **First psychological novel** in Telugu; middle-class life – not Sri Sri, N.G. Ranga or Rachakonda |
+| **Musalamma Maranamu** (printed 1900) | **Kattamanchi Ramalinga (C.R.) Reddy** | A woman gives her life to save the village from a reservoir breach |
+| **Kavitva Vicharamu** (1914) | **C.R. Reddy** | Start of modern Telugu literary criticism |
+| **Kanyasulkam** | **Gurajada Apparao** | Bride-price; first staged 1893 |
+| **Gabbilam** (1941) | **Gurram Jashuva** | A bat carries a Dalit's prayer to God |
+| **Veyi Padagalu** | **Viswanatha Satyanarayana** | "A Thousand Hoods" |
+| **Ramayana Kalpavrukshamu** | **Viswanatha Satyanarayana** | **First Telugu Jnanpith** |
+| **Sakshi** essays (from 1913) | **Panuganti Lakshminarasimha Rao** | Prose humour and social criticism |
+- **C.R. Reddy** was the **first Vice-Chancellor of Andhra University (1926)** (first at Vijayawada, later Visakhapatnam) – not Radhakrishnan or Venkataratnam Naidu; Lord Goschen was its first Chancellor.
+- **Veeresalingam** first rendered Kalidasa's **Abhijnana Shakuntalam** and **Malavikagnimitram** into Telugu.
+> Trap: Asamardhuni Jeevayatra (×3) = Gopichand; Musalamma Maranamu = C.R. Reddy, not Gopichand or Gurajada.
+~~ Sources: NextGen Modern India L2 Part 3 p.4-6, p.10; NextGen AP History Part 18 p.12; NextGen Modern India L2 Part 1 p.18; NextGen AP History Part 6 p.12; Rocket AP History p.9, p.21; app notes 1:196 (sub 4)
+
+=== Telugu Firsts – Printing, the Bible and Early Journals
+| First | Work / person | Year |
+|---|---|---|
+| Kavya in pure Telugu | **Yayati Charitra** – **Ponnekanti Telaganaryudu** | 1572 |
+| **First book printed in Telugu** | **The Bible** – **Benjamin Schultze**'s translation, printed at **Halle** | **1746-47** |
+| First printed Telugu Bible in India | **William Carey**, **Serampore** | NT 1812 |
+| First systematic grammar | **A.D. Campbell** | 1816 |
+| **First Telugu journal** | **Satyaduta (Satyadoota)** – **Christian Mission (Christian Society) of Bellary** | **1835** |
+| Second Telugu journal | **Vartamana Tarangini** – **Sayyad Rahamtulla** | 8 June 1842 |
+| Shakespeare in Telugu | **Seesari Charitra** (Julius Caesar) – **Vavilala Vasudeva Sastri** | 1875 |
+| First social drama | **Nandaka Rajyam** – **Vavilala Vasudeva Sastri** | – |
+| First translation from Arabic | Char Darvesh → **Nagu Pakirula Charitra** – **Erramalli Mallikarjunudu** | – |
+| First Andhra Mahamahopadhyaya | **Kokkonda Venkataratnam** – "Andhra Bhasha Johnson" | 1907 |
+- **First Telugu journal published from Bellary = Satyaduta** (NextGen PYQ book); the old key "Tatvabodhini" was wrong.
+- **Tatvabodhini (1864-70):** a Telugu journal of the 1858-85 period, praised for its impact – not the first, and not the Bellary mission paper. (Do not confuse with Debendranath Tagore's Bengali **Tattvabodhini Patrika**, 1839.)
+# Other early journals
+| Journal | Place | Fact |
+|---|---|---|
+| Vrittanti (Chennapuri Vrittanti) | Madras | 1837-38 |
+| **Hitavadi** | **Masulipatnam** | 1848, J. Edmund Sharky, Christian propaganda |
+| Ginnekasu | Madras | 1849, weekly |
+| **Dinavartamani** | **Madras** | 1855-72, weekly |
+| Vivekavardhini | Rajahmundry | 1874, Veeresalingam – answered Kokkonda's Andhra Bhasha Sanjivani |
+- **Place pairs:** **Bellary – Satyaduta**; Halle – Schultze's books; Serampore – Carey's Bible; Masulipatnam – Hitavadi.
+- **Press curbs:** Warren Hastings (1798), **Adams Regulation (1823)**, **Vernacular Press Act (1878)**, Press Acts (**1908, 1910**) – controls on the press, not self-government.
+- In the early missionary period **education in Andhra was mostly by Christian missionaries**.
+~~ Sources: NextGen Modern India L2 Part 11 p.1-2; NextGen previous papers p.23, p.31, p.45; NextGen Modern India L2 Part 1 p.17, p.20; Rocket AP History p.3, p.20; app notes 1:196 (sub 0, 3)
+
+=== Literary Associations and Cultural Bodies
+- **Andhra Sahitya Parishat:** founded **1911 at Madras**, later at **Kakinada**; sessions at **Rajahmundry** (1912, 1913) presided over by **Kokkonda Venkataratnam**; since **1973** the **Andhra Sahitya Parishat Government Museum and Research Institute, Kakinada**.
+- **Sri Krishnadevaraya Andhra Bhasha Nilayam** (Hyderabad, **1901**): Komarraju Lakshmana Rao, Ravichettu Ranga Rao, Nayani Venkata Ranga Rao.
+- **Vijnana Chandrika Mandali:** publishing body; first editor **Gadicherla Harisarvottama Rao**, later Komarraju Lakshmana Rao. **Komarraju Lakshmana Rao** also published the Telugu encyclopaedia **Andhra Vijnana Sarvasvam**.
+- **Young Men's Association, Rajahmundry:** active in **Bipin Chandra Pal's Rajahmundry visit** (1907). **Young Men's Literary Association** (Guntur): **Jonnavittula Gurunatham**.
+- **Rajahmundry** – Veeresalingam's base, a cultural capital since **Eastern Chalukya** times.
+- **Kokkonda Venkataratnam** – orthodox scholar, "Andhra Bhasha Johnson"; **Veeresalingam** – Gadya Tikkana, father of the Telugu renaissance.
+- **Telugu Language Day – 29 August**, birth anniversary of **Gidugu Ramamurthy**; Telugu a **classical language** since **2008**.
+~~ Sources: NextGen Modern India L2 Part 3 p.9-12; app notes 1:196 (sub 5, 6, 7)

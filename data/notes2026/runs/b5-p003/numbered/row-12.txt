@@ -228,3 +228,43 @@
   [8:2.2] Full duplex | Telephone
 [8:3] - **Multiplexing** joins several signals on one channel.
 [8:4] ~~ Sources: app notes 5:12 sub 9 (old-notes.txt)
+## SUB 9 | MS Office, Windows and Tally – Features Asked
+[9:0] # Word and PowerPoint
+[9:1] TABLE head: Feature | What it does
+  [9:1.0] Mail Merge (Word) | Produces bulk personalised letters from one main document + a data list (templates only give a layout; Envelopes prints single envelopes)
+  [9:1.1] Ctrl + End (Word) | Moves to the bottom (end) of the document; End alone = end of the current line; Ctrl + Home = top
+  [9:1.2] Motion path (PowerPoint) | An animation that moves an item such as a picture along a path on a slide
+  [9:1.3] Transitions (PowerPoint) | Effects that introduce slides – the visual effect as one slide gives way to the next (animations act on objects within a slide)
+  [9:1.4] Slide Sorter view (View tab) | Shows all slides as thumbnails on one screen; Slide Show runs them one by one; Master view edits the template
+[9:2] # Excel and Access
+[9:3] TABLE head: Feature | What it does
+  [9:3.0] Nested function | A function used inside another function, e.g. =ROUND(SUM(A1:A5),0)
+  [9:3.1] Goal Seek | What-If Analysis tool that finds the input needed for a target result (other What-If tools: Scenario Manager, Data Table)
+  [9:3.2] AutoComplete | When you start typing a value already in the column, Excel suggests the rest of the entry (AutoFill extends a series; AutoCorrect fixes typos)
+  [9:3.3] Lookup Wizard (Access) | Makes a field that selects its value from another table (or a value list)
+[9:4] # Windows and Tally
+[9:5] - **Title-bar buttons:** **minus (–) = minimise**, square = maximise/restore, × = close.
+[9:6] - **My Computer / This PC:** shows the drives and the **used and free space** on each.
+[9:7] - **Tally:** **Ctrl + Q** = quit from the **Gateway of Tally** (or the current screen). Tally ERP 9 voucher keys: **Alt + 2 = duplicate**, **Alt + A = add**, **Alt + I = insert**, **Alt + D = delete** (a voucher, a master, or a company in Company Alteration) – all four valid, so "which is incorrect" has no correct option.
+[9:8] - **Microsoft** headquarters: **Redmond, Washington** (USA) – not California.
+[9:9] ~~ Sources: general knowledge (Microsoft Office and Tally ERP 9 help; the local library has no office-software notes), not checked against a library file; app MCQ explanations (row 12)
+## SUB 10 | Data, Information and Knowledge
+[10:0] - **Datum** = singular of data – **a single piece of information** (a fact).
+[10:1] - **Information** = **processed (organised) data** that has meaning; **communicated information = a message**.
+[10:2] - **Information vs knowledge:** information is piecemeal, **fragmented** and particular; knowledge is **structured** and coherent.
+[10:3] - **Digitisation** = the process by which text, images, sound or video are made into **computer-readable (digital) form**.
+[10:4] - **Primary sources of information** = original records: **patents, standards, theses, journal articles** (secondary = indexes, reviews, textbooks).
+[10:5] - **Critical abstract:** describes the content of a work **and also evaluates** it and its presentation (informative / indicative abstracts only describe).
+[10:6] - **Encapsulation** (digital preservation): a digital object is packaged with its metadata and the information needed to render it later.
+[10:7] - **Inferential statistics:** the **sampling procedure** used decides how far sample results can be generalised to the population.
+[10:8] ~~ Sources: general knowledge (library and information science, research methodology), not checked against a library file; app MCQ explanations (row 12)
+## SUB 11 | Databases – DBMS, RDBMS and SQL
+[11:0] - **Database** = an **organised collection of data that can be stored, manipulated and retrieved** (not read-only, not only numbers, not merely a backup).
+[11:1] - **RDBMS** = a **collection of tables** (relations) made of records (rows) and fields (columns).
+[11:2] - **SQL = Structured Query Language** – manages relational databases.
+[11:3] TABLE head: SQL command | Type | Does
+  [11:3.0] ALTER | DDL | Modifies the structure of a table/database
+  [11:3.1] UPDATE | DML | Changes the data in rows
+  [11:3.2] REVOKE | DCL | Removes privileges
+[11:4] - **Cardinality** (ER model) = the **number of times an entity of an entity set participates in a relationship set** – one-to-one, one-to-many, many-to-many (not the number of entities or attributes).
+[11:5] ~~ Sources: general knowledge (DBMS basics), not checked against a library file; app MCQ explanations (row 12)
