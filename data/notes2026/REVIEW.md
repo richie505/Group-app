@@ -1011,3 +1011,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Row 32 notes 6:2: Rule 377 daily limit 20 (most books) vs 30 (NextGen) — reconcile. Removed nindian-polity-55-18 (30/day) and nindian-polity-55-22 (Zero Hour "max one hour", notes say unspecified).
 - Row 31: g472445cf5c2f "Harivansh Deputy Chairman till April 2026" contradicted notes (re-elected Apr 2026) — merged away.
 - Row 33: 5 unlinked own MCQs (Art. 312, Private Members' Bills committee, pocket veto) removed as not in notes — possible notes gap.
+
+## rewrite b4-w030 (rows 30–32)
+- own 413 → 42 kept + 104 new (146, 35%); new 64 statements / 28 match / 9 A–R / 3 sequence; 4 of 281 lines lost.
+- g48ae0dea85fe put Khorat plateau between Irrawaddy & Sittang (notes: Menam–Mekong) — removed.
+- Doubtful PYQs: y61bbd963c9b (largest country keyed USA), y4c3cc95cfec (largest plateau keyed Colorado), y96a887b5339 (Tibet avg height 5 km vs notes 4,500 m).
