@@ -1,0 +1,67 @@
+=== IT Act 2000 – Purpose, Sections and Shreya Singhal
+# Purpose
+- **Information Technology Act, 2000** = India's **first cyber law**: **legal recognition** to transactions by **electronic data interchange** ("**electronic commerce**") and electronic records; framework against computer crimes.
+- Concepts (Sec. 2): **electronic record, digital signature, certifying authority** (all three).
+- **Special law**: may override the **IPC** where an offence is fully covered; **Controller of Certifying Authorities (CCA)** licenses CAs, which issue Digital Signature Certificates.
+- **2008 amendment** (legal framework for cybercrime today): technology-neutral "**electronic signature**"; added sexually explicit material, **video voyeurism**, data leakage by intermediaries, e-commerce fraud; inserted 70A, 70B.
+# Sections
+| Sec. | Subject |
+|---|---|
+| 4 / 5 | Recognition of e-records / e-signatures |
+| 43 / 43A | Unauthorised access / compensation for failure to protect data |
+| 66 | Hacking-type offences |
+| **66A** | Offensive messages – **struck down (2015)** |
+| 66C / 66D | **Identity theft** / cheating by personation |
+| 66E / 66F | Privacy / **cyber terrorism (life)** |
+| 67 / 67A | Obscene / sexually explicit |
+| 69 / 69A | Interception / **blocking** |
+| 70 / 70A / 70B | Protected systems / **NCIIPC** / **CERT-In** |
+| 79 / 79A | **Safe harbour** / **Centre** notifies Examiners of Electronic Evidence |
+| 87 | Rule-making (IT Rules 2021) |
+# Shreya Singhal v. Union of India (24 March 2015)
+- **66A struck down** as violating **Art. 19(1)(a)** (not saved by 19(2)); **69A upheld**; **79 read down** – "actual knowledge" = court order or government notice.
+- **IT Rules 2021**: no due diligence = loss of **safe harbour**; takedown within **three hours** (27 Mar 2026).
+~~ Sources: NextGen S&T Group 2 Part 3 p.22 (2000 Act, 2008 amendment); app notes 5:30 sub 0-2
+
+=== Digital Signature and PKI
+- **Digital signature** = an **electronic method of signing** an electronic document that **ensures the original content is unchanged**; gives **authentication, integrity, non-repudiation** – **not secrecy**; asymmetric crypto + hash; **private key signs**, public key verifies.
+- A record that **identifies the issuing Certifying Authority** = **digital certificate**, not the signature; proof of identity to access a server = certificate/login, not the signature.
+- **Public Key Infrastructure (PKI)** = **digital security infrastructure**: creates, manages and revokes certificates.
+> UPSC 2019 key: **only statement 3**; UPSC 2020: PKI = digital security infrastructure.
+~~ Sources: app notes 5:30 sub 3
+
+=== CERT-In and Cyber Swachhta Kendra
+- **CERT-In**: operational since **January 2004**, under **MeitY**; national incident response centre; statutory via **70B** (2008); **CVE Numbering Authority**.
+- **Directions, 28 Apr 2022**: service providers, intermediaries, data centres, body corporates, **government** and **VASPs** report incidents within **6 hours**; logs **180 days**; VPN providers keep data **5 years**.
+- **Cyber Swachhta Kendra** = **Botnet Cleaning and Malware Analysis Centre** run by CERT-In – helps users **detect and remove malware and botnets**; free **USB Pratirodh, AppSamvid, M-Kavach**.
+- **NCCC** (National Cyber Coordination Centre): **situational awareness** of threats; **Cyber Surakshit Bharat** (2018, MeitY) trains **CISOs**.
+~~ Sources: NextGen S&T Group 2 Part 3 p.7 (CERT-In since Jan 2004, MeitY); app notes 5:30 sub 4
+
+=== NCIIPC, NCSC and I4C
+| Body | Parent / role |
+|---|---|
+| **NCIIPC** | **NTRO**; Sec. 70A; critical information infrastructure (power, BFSI, telecom, transport, government, strategic – **not tourism**) |
+| **NCSC** (National Cyber Security Coordinator) | **National Security Council Secretariat**; **coordinates national agencies** on cyber security; drafted National Cyber Security Strategy 2020 |
+| NTRO | Technical intelligence |
+| **I4C** | **Ministry of Home Affairs**; approved 2018, operational **2020**; **not statutory**; Attached Office 2024 |
+# I4C components
+| Component | Function |
+|---|---|
+| **cybercrime.gov.in** (NCRP) | Report all cyber crimes, esp. against women and children |
+| **1930** | Financial fraud; rapid freezing of funds |
+| **CFCFRMS** | Real-time freezing of defrauded funds |
+| NCAP / SAHYOG | AI analytics / takedowns |
+| **Samanvaya** | Data sharing, joint investigation |
+| **CyTrain** | Training police, prosecutors, judges |
+- **Cyber Commandos** (2024); SOP Jan 2026: refunds below **Rs 50,000** without court order; release in **90 days**; e-Zero FIR in 19 States.
+~~ Sources: app notes 5:30 sub 5-6
+
+=== Policy, Portals, AP and International
+- **NCSP 2013**: **14 objectives**; **5 lakh** professionals in five years; CISOs.
+- **MySecurity.in**: web portal of the **Ministry of Home Affairs** for innovation in security web applications – any individual, company, student or NGO can develop and deploy apps.
+- **Kunjappa**: **Kerala** mobile app (State Commission for Protection of Child Rights) to report crimes, incl. cyber crimes, against children.
+- Cyber exercise "**Scenario Building & Response**": **New Delhi**; awareness: **October** month; **Cyber Jagrookta Diwas** = 1st Wednesday of every month.
+- **AP:** APTS implements the **AP Cyber Security Policy 2017**; **APCSOC**; first CERT-In-empanelled body in AP; Coordination Centre at **Krishnalanka PS, Vijayawada**; **e-Office** of AP = digital workplace solution.
+- **Budapest Convention** (Council of Europe): India, Russia, China not signatories; **UN Cybercrime Convention** adopted **24 Dec 2024**, opened at **Hanoi** (Oct 2025); India signed **Sept 2026**.
+- **GCI 2024** (ITU): India **Tier-1**, 98.49.
+~~ Sources: app notes 5:30 sub 7-8; general knowledge (Kunjappa, not checked)
