@@ -1,0 +1,1772 @@
+[
+ {
+  "id": "cp3a7d82061f95",
+  "row": 66,
+  "s": "Consider the following statements about wind turbines:\n1. The power available to a wind turbine varies with the square of the wind speed.\n2. According to the Betz limit, a turbine can capture at most 16/27 (about 59.3%) of the wind's kinetic energy.\n3. IEC Class III turbines are designed for low-wind sites.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "2 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: wind power varies with the cube of wind speed, not its square. Statement 2 (Betz limit 16/27, ~59.3%) and statement 3 (Class I high-wind, Class III low-wind sites) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa87c72f0515b",
+  "row": 66,
+  "s": "Consider the following statements regarding horizontal-axis (HAWT) and vertical-axis (VAWT) wind turbines:\n1. In a HAWT the rotor axis is parallel to the wind.\n2. Darrieus and Savonius are designs of horizontal-axis turbines.\n3. A VAWT can take wind from any direction but is less efficient than a HAWT.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: Darrieus and Savonius are vertical-axis designs; the HAWT is the 3-blade, yaw-controlled standard utility turbine. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2822cffe8ade",
+  "row": 66,
+  "s": "Consider the following statements about offshore wind farms in comparison with onshore farms:\n1. Offshore winds are stronger and steadier, giving a higher capacity factor.\n2. Offshore farms are cheaper to build and maintain than onshore farms.\n3. Floating turbines are used for deep-water offshore sites.\n4. Offshore projects eliminate all environmental and navigation risks.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 3) are correct. Statement 2 is wrong: offshore wind is 2-3 times costlier (long blades, port needs). Statement 4 is wrong: offshore wind does not remove all environmental and navigation risks.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0cdf0dbdd428",
+  "row": 66,
+  "s": "Consider the following statements:\nAssertion (A): Wind power complements solar power in India's electricity mix.\nReason (R): Winds blow strongly in the evenings and during the south-west monsoon (June–October), when solar output is low.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: wind blows in the evenings and in the SW monsoon (June-Oct), filling the gaps in solar generation.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4be8648e2ec0",
+  "row": 66,
+  "s": "Consider the following statements about India's wind power potential (MNRE/NIWE):\n1. At 100 m hub height the assessed potential is about 695.5 GW.\n2. At 150 m hub height the assessed potential is about 1,163.9 GW.\n3. At 120 m above ground level, Gujarat has the highest potential.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: the potential at 100 m is 302 GW; 695.5 GW is the figure at 120 m. Statements 2 and 3 are correct (1,163.9 GW at 150 m; Gujarat 142.56 GW leads at 120 m).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp25248889a672",
+  "row": 66,
+  "s": "Consider the following statements:\n1. At 150 m hub height Rajasthan has the highest wind potential in India.\n2. Andhra Pradesh's wind potential at 120 m is about 74.90 GW.\n3. Kerala is one of the eight windy States that hold about two-thirds of India's wind capacity.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "1 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the eight windy States are Rajasthan, Gujarat, Maharashtra, Karnataka, AP, Tamil Nadu, MP and Telangana – not Kerala. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp39eb34fd9aa3",
+  "row": 66,
+  "s": "Consider the following statements about the National Institute of Wind Energy (NIWE):\n1. It is headquartered at Chennai.\n2. It is an autonomous body under the Ministry of Power.\n3. It prepares India's Wind Atlas and is the nodal agency for offshore wind.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "3 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: NIWE is an autonomous body of the MNRE, not the Ministry of Power. Statements 1 and 3 are correct (Chennai; Wind Atlas, resource assessment, testing; nodal agency under the Offshore Wind Policy 2015).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe720efda41ef",
+  "row": 66,
+  "s": "Match List-I (Date) with List-II (India's installed wind capacity):\nList-I | List-II\na. 31 March 2014 | ii. 58.14 GW\nb. 31 March 2021 | iv. 21.04 GW\nc. July 2023 | iii. 42 GW\nd. August 2026 | i. 39.25 GW\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 1,
+  "x": "31 March 2014 – 21.04 GW; 31 March 2021 – 39.25 GW; July 2023 – 42 GW; August 2026 – 58.14 GW. Capacity crossed 50 GW in March 2025 and was ~55 GW in January 2026.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp84e35f53271c",
+  "row": 66,
+  "s": "Consider the following statements about installed wind capacity in India:\n1. It crossed 50 GW in March 2025.\n2. In January 2026 it was about 55 GW, about 10.6% of India's installed capacity.\n3. Wind is India's largest renewable source, ahead of solar.\n4. A record 6.05 GW was added in FY 2025-26.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 2 and 4) are correct. Statement 3 is wrong: wind is the second renewable source after solar.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3ba84527c921",
+  "row": 66,
+  "s": "Match List-I (Wind target) with List-II (Capacity):\nList-I | List-II\na. Wind share of 175 GW RE by 2022 | iii. 100 GW\nb. Wind by 2030 | i. 155 GW\nc. Offshore wind by 2030 | iv. 60 GW\nd. Wind by 2035 | ii. 30 GW\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 2,
+  "x": "Wind share of 175 GW RE by 2022 – 60 GW; Wind by 2030 – 100 GW; Offshore wind by 2030 – 30 GW; Wind by 2035 – 155 GW. Only ~55% of the 100 GW 2030 wind target had been reached by January 2026; the earlier 5 GW offshore-by-2022 goal was missed.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd7daa2274d90",
+  "row": 66,
+  "s": "Consider the following statements about India's clean-energy targets:\n1. The 2015 NDC sought 40% non-fossil installed power capacity by 2030.\n2. The updated 50% non-fossil capacity goal was met, at 51.93% in December 2025.\n3. By January 2026 India had reached about 75% of its 100 GW wind target for 2030.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 only",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: only about 55% of the 100 GW wind-by-2030 target had been reached in January 2026. Statements 1 and 2 are correct (40% in the 2015 NDC, 50% in the updated NDC, met at 51.93%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8086d3ccd432",
+  "row": 66,
+  "s": "Consider the following statements about wind power rankings:\n1. India ranks third in the world in installed wind capacity, behind China and the USA.\n2. Tamil Nadu was India's largest wind State up to 2021-22.\n3. Since 2023 Gujarat has been the largest wind State, with Tamil Nadu second.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: India is 4th in the world, behind China, the USA and Germany. Statements 2 and 3 are correct (Tamil Nadu up to 2021-22; Gujarat ~27.3% from 2023, Tamil Nadu ~22% second).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7fc51e2b9b62",
+  "row": 66,
+  "s": "Match List-I (State) with List-II (Rank in installed wind capacity, 30 June 2026):\nList-I | List-II\na. Gujarat | iii. 7th\nb. Karnataka | iv. 6th\nc. Andhra Pradesh | ii. 1st\nd. Madhya Pradesh | i. 3rd\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Gujarat – 1st; Karnataka – 3rd; Andhra Pradesh – 6th; Madhya Pradesh – 7th. Gujarat 16,086 MW; Tamil Nadu 12,273 (2nd); Karnataka 8,896; Maharashtra 6,318; Rajasthan 5,516; AP 4,461; MP 3,686 – MP is not third.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb1ad256a2c63",
+  "row": 66,
+  "s": "Match List-I (Wind / hybrid project) with List-II (Location):\nList-I | List-II\na. Muppandal wind farm | ii. Rajasthan\nb. Jaisalmer Wind Park | i. Kanyakumari, Tamil Nadu\nc. Khavda hybrid park | iv. Ananthapuramu, Andhra Pradesh\nd. Ramagiri hybrid solar-wind park | iii. Kutch, Gujarat\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "Muppandal wind farm – Kanyakumari, Tamil Nadu; Jaisalmer Wind Park – Rajasthan; Khavda hybrid park – Kutch, Gujarat; Ramagiri hybrid solar-wind park – Ananthapuramu, Andhra Pradesh. Muppandal (1,500 MW) is the largest onshore farm per PMF; Khavda is a 30 GW solar-wind park.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5edf3bba45f5",
+  "row": 66,
+  "s": "Consider the following statements:\n1. The National Wind-Solar Hybrid Policy, 2018 places wind turbines and solar PV at the same grid-connection point.\n2. The first round-the-clock (RTC) renewable tender was issued by SECI in 2020.\n3. RTC tenders require at least 75% of energy to come from renewables.\n4. ISTS charges were waived for projects commissioned by 30 June 2025.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 3 is wrong: RTC tenders require at least 51% of energy from renewables, not 75%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3e6d3a69e455",
+  "row": 66,
+  "s": "Consider the following statements about offshore wind in India:\n1. The National Offshore Wind Energy Policy, 2015 provides for wind farms in India's Exclusive Economic Zone.\n2. About 35 GW of offshore potential lies off Tamil Nadu (Gulf of Mannar).\n3. The 2024 Viability Gap Funding scheme of ₹7,453 crore places the entire first 1 GW off Gujarat.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "1 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the VGF scheme's first 1 GW is split 500 MW each off Gujarat and Tamil Nadu. Statements 1 and 2 are correct (EEZ, MNRE/NIWE; ~36 GW off Gujarat, ~35 GW off Tamil Nadu).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp01c597697e57",
+  "row": 66,
+  "s": "Consider the following statements:\nAssertion (A): The National Repowering Policy, 2016 was replaced by the Repowering and Life Extension Policy, 2023.\nReason (R): Repowering means shifting wind turbines from old sites to new high-wind sites.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (Repowering Policy 2016 → Repowering and Life Extension Policy 2023). R is false: repowering means replacing ageing turbines with larger, modern turbines at the same site.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp88ff84f767f9",
+  "row": 66,
+  "s": "Consider the following statements about wind energy in Andhra Pradesh:\n1. AP's wind farms are clustered in north coastal Andhra – Srikakulam and Vizianagaram.\n2. Wind is AP's second renewable source after solar.\n3. Suzlon is the largest wind developer in AP, with more than 1,700 MW.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "3 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: AP's wind cluster is in Rayalaseema – Ananthapuramu, Kurnool and YSR Kadapa. Statements 2 and 3 are correct (~4.4 GW, second after solar; Suzlon >1,700 MW).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4634a67d4599",
+  "row": 67,
+  "s": "Consider the following statements about bioethanol:\n1. It is made by fermentation of sugar or starch by the yeast Saccharomyces cerevisiae.\n2. Power alcohol is fuel-grade ethanol made mainly from molasses.\n3. Brazil made ethanol blending with petrol mandatory only in 2007.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Brazil has had mandatory ethanol blending since 1976; ~25% blending has applied since 2007. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3d1623675ebb",
+  "row": 67,
+  "s": "Match List-I (Term) with List-II (Meaning):\nList-I | List-II\na. Gasohol | i. Petrol with about 10% ethanol\nb. Power alcohol | iv. About 95% ethanol, 5% water\nc. Rectified spirit | ii. About 100% ethanol\nd. Absolute alcohol | iii. Anhydrous fuel ethanol, mainly from molasses\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "Gasohol – Petrol with about 10% ethanol; Power alcohol – Anhydrous fuel ethanol, mainly from molasses; Rectified spirit – About 95% ethanol, 5% water; Absolute alcohol – About 100% ethanol.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4be2cd970fd6",
+  "row": 67,
+  "s": "Match List-I (Developer) with List-II (Bio-energy first):\nList-I | List-II\na. CSIR-NIIST, Thiruvananthapuram | i. Bioethanol from discarded cotton stalks\nb. IIT Kharagpur | iii. Jatropha bio-jet fuel for India's first biofuel flight\nc. TVS Motor | iv. 'Soil to Soil' enzyme-based biofuel process\nd. CSIR-IIP, Dehradun | ii. India's first ethanol-powered motorcycle\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 2,
+  "x": "CSIR-NIIST, Thiruvananthapuram – Bioethanol from discarded cotton stalks; IIT Kharagpur – 'Soil to Soil' enzyme-based biofuel process; TVS Motor – India's first ethanol-powered motorcycle; CSIR-IIP, Dehradun – Jatropha bio-jet fuel for India's first biofuel flight. NIIST 2017 (wild yeast strain); IIT-KGP May 2017; TVS Apache RTR 200 Fi E100 (2019); SpiceJet flight August 2018.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp80bfdab7364b",
+  "row": 67,
+  "s": "Consider the following statements:\nAssertion (A): The USA is the world's largest producer, consumer and exporter of fuel ethanol.\nReason (R): Maize (corn) is the principal ethanol feedstock in the USA.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: corn being the US feedstock (sugarcane in Brazil) does not by itself make the USA the largest producer; Brazil is second and together they make ~80% of world ethanol.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp21c9b6bc8248",
+  "row": 67,
+  "s": "Consider the following statements about biomass energy:\n1. It is solar energy stored by plants through photosynthesis.\n2. Human sewage and biogenic municipal solid waste are sources of biomass.\n3. Burning biomass is near carbon-neutral, as the CO2 released is largely balanced by the CO2 absorbed while growing.\n4. Like natural gas, biomass is a non-renewable resource.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 2, 3) are correct. Statement 4 is wrong: biomass is renewable, unlike coal, natural gas and petroleum.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp22191a665be2",
+  "row": 67,
+  "s": "Consider the following statements about biogas:\n1. Methane makes up about 85–95% of biogas.\n2. Methane in biogas is produced by methanogens, a group of archaebacteria.\n3. Composting, unlike biogas production, is an aerobic process.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: biogas is ~50–75% methane and ~25–50% CO2; 85–95% methane is piped natural gas. Statements 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp86aaa56e08a0",
+  "row": 67,
+  "s": "Consider the following statements:\nAssertion (A): Biogas is produced by anaerobic digestion of organic matter.\nReason (R): The slurry left after biogas production is a good organic manure.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: biogas forms by biomethanation in the absence of oxygen; the manure value of the slurry is a separate by-product benefit.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp32ac110c7712",
+  "row": 67,
+  "s": "Match List-I (Fuel / process) with List-II (Description):\nList-I | List-II\na. Compressed Biogas (CBG) | iii. Steam and power together in sugar mills\nb. Syngas from biomass gasification | ii. CO, H2 and CO2\nc. Producer gas | iv. Purified, compressed biogas chemically identical to CNG\nd. Bagasse cogeneration | i. CO, H2, CO2 and methane\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "Compressed Biogas (CBG) – Purified, compressed biogas chemically identical to CNG; Syngas from biomass gasification – CO, H2 and CO2; Producer gas – CO, H2, CO2 and methane; Bagasse cogeneration – Steam and power together in sugar mills. Gasification heats biomass with limited (controlled) oxygen.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp04e08d8fed02",
+  "row": 67,
+  "s": "Consider the following statements:\n1. A microbial fuel cell burns organic matter to raise steam for a turbine.\n2. The floating-drum 'Gramalakshmi' gobar gas plant of Jashbhai Patel was spread by KVIC.\n3. India's first Bio-CNG plant from agricultural residue was set up at Pirangut, Pune.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1, 2 and 3",
+   "2 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: in an MFC microbes act as catalysts, oxidise organic matter and pass electrons to an electrode – there is no burning. Statements 2 and 3 are correct (Gramalakshmi, 1950s; Pirangut, 2016).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp322e3aa87344",
+  "row": 67,
+  "s": "Consider the following statements about geothermal energy:\n1. Its heat comes mostly from the decay of radioactive elements in the Earth's interior.\n2. Like wind and biomass, it is ultimately stored solar energy.\n3. It can supply 24x7 baseload power.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: geothermal (like nuclear) is not derived from the Sun; biomass, wind and fossil fuels are stored solar energy. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpebfd8cef3b17",
+  "row": 67,
+  "s": "Match List-I (Geothermal field) with List-II (State / UT):\nList-I | List-II\na. Puga Valley | iv. Telangana\nb. Tattapani | iii. Uttarakhand\nc. Manuguru | i. Chhattisgarh\nd. Tapovan | ii. Ladakh\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 0,
+  "x": "Puga Valley – Ladakh; Tattapani – Chhattisgarh; Manuguru – Telangana; Tapovan – Uttarakhand. Puga–Chumathang is the most promising field (GSI); Manuguru (old Khammam district, Godavari valley) was earlier in Andhra Pradesh.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0fc3ee5498dd",
+  "row": 67,
+  "s": "Consider the following statements:\n1. India's geothermal potential is about 10,600 MW.\n2. India's first geothermal power project at Puga, Ladakh was taken up by NTPC.\n3. The world's first geothermal power was generated at Larderello, Italy in 1904.\n4. The first successful tapping of underground heat was at Boise, Idaho, USA in 1890.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 2 is wrong: the Puga project – described as the world's highest geothermal project – is ONGC's.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa34db53b4481",
+  "row": 67,
+  "s": "Consider the following statements:\n1. Enhanced Geothermal Systems are artificially stimulated geothermal reservoirs.\n2. India's geothermal provinces include Cambay, Son-Narmada-Tapi and the West Coast, but not the Indo-Gangetic Plain.\n3. India's first National Policy on Geothermal Energy was issued by the Ministry of Earth Sciences.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: the National Policy on Geothermal Energy was issued by MNRE in September 2025 (five pilot projects). Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4944b6e1eb4a",
+  "row": 67,
+  "s": "Consider the following statements about biodiesel crops:\n1. Jatropha curcas grows on wasteland with little water.\n2. Karanja, an alternative biodiesel plant, is botanically Azadirachta indica.\n3. Mahua, neem and simarouba are other non-edible biodiesel sources.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "3 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: Karanja is Pongamia pinnata (oil rich in oleic acid). Statements 1 and 3 are correct (Jatropha seeds ~40% oil).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe7978c0c2288",
+  "row": 67,
+  "s": "Consider the following statements about biodiesel in India:\n1. Biodiesel is produced by transesterification of vegetable oils or animal fats with methanol or ethanol.\n2. Jatropha is the feedstock of about 94% of India's biodiesel.\n3. Biodiesel blending is still below 0.5%, against a target of 5% (B5) by 2030.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 3) are correct. Statement 2 is wrong: about 94% of India's biodiesel comes from (mostly imported) palm stearin oil, not jatropha.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdaf29e5bd739",
+  "row": 67,
+  "s": "Match List-I (Place) with List-II (Bio-energy project):\nList-I | List-II\na. Kakinada | iv. First Bio-CNG plant from agricultural residue\nb. Ayodhya | iii. India's first waste-to-energy plant\nc. Pirangut, Pune | i. VITO biodiesel project (2023)\nd. Timarpur, Delhi | ii. India's first biodiesel plant\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iv, b-i, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "Kakinada – India's first biodiesel plant; Ayodhya – VITO biodiesel project (2023); Pirangut, Pune – First Bio-CNG plant from agricultural residue; Timarpur, Delhi – India's first waste-to-energy plant. Timarpur was set up in 1987; Okhla, Ghazipur and Narela-Bawana followed in Delhi.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp732ae4fdae8a",
+  "row": 67,
+  "s": "Consider the following statements:\nAssertion (A): The RUCO initiative aims at converting used cooking oil into biodiesel.\nReason (R): RUCO is an initiative of the Bureau of Energy Efficiency.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false: RUCO (Repurpose Used Cooking Oil) is an FSSAI initiative.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe308e13c812e",
+  "row": 67,
+  "s": "Consider the following statements about tidal energy in India:\n1. The Gulf of Mannar is a major tidal-energy site.\n2. The Gulf of Khambhat is the best tidal site, with about 7,000 MW potential.\n3. A 3 MW tidal pilot was planned at Durgaduani Creek in the Sundarbans.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1, 2 and 3",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: the Gulf of Mannar is an offshore wind zone, not a tidal site; tidal sites need a ~5 m range in a narrow gulf/estuary. Statements 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdf02c367a061",
+  "row": 67,
+  "s": "Match List-I with List-II:\nList-I | List-II\na. Vizhinjam, Kerala | ii. First LTTD desalination plant (2005)\nb. Sindhuja-I | iii. First wave-energy plant (1991)\nc. Kavaratti | i. Ocean wave energy converter of IIT Madras\nd. NIOT, Chennai | iv. Ocean-energy body under Ministry of Earth Sciences\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 2,
+  "x": "Vizhinjam, Kerala – First wave-energy plant (1991); Sindhuja-I – Ocean wave energy converter of IIT Madras; Kavaratti – First LTTD desalination plant (2005); NIOT, Chennai – Ocean-energy body under Ministry of Earth Sciences. The Kavaratti plant produces 1 lakh litres a day.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp48315d617ada",
+  "row": 67,
+  "s": "Consider the following statements about ocean energy:\n1. India's tidal energy potential is about 12,455 MW.\n2. India's wave energy potential is about 40,000 MW.\n3. OTEC needs a temperature gap of about 20°C between surface and deep water.\n4. Lakshadweep is one of India's OTEC sites.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "All four are correct: tidal ~12,455 MW (mainly Khambhat and Kutch), wave ~40,000 MW (MNRE); OTEC uses warm surface vs cold deep (~1,000 m) water, ~20°C gap, at sites such as Lakshadweep and A&N.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc18a39eca794",
+  "row": 67,
+  "s": "Consider the following statements:\n1. India's Sustainable Aviation Fuel target for international flights is 5% by 2027.\n2. SAF is a drop-in synthesised hydrocarbon that can be blended up to 50% with jet fuel.\n3. India's first biofuel flight was operated by SpiceJet between Dehradun and Delhi in August 2018.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 2 and 3",
+   "3 only",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: the SAF targets are 1% by 2027, 2% by 2028 and 5% by 2030. Statements 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8b308fc66c63",
+  "row": 67,
+  "s": "Consider the following statements:\n1. The Global Biofuels Alliance was launched at the G20 Summit in New Delhi on 9 September 2023.\n2. Its core founding members are India, the USA and Japan.\n3. Its Secretariat is in New Delhi.\n4. IOCL Panipat is India's first ISCC CORSIA-certified SAF producer.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 2 is wrong: the core founders are India, the USA and Brazil.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3ae60f0aa14a",
+  "row": 67,
+  "s": "Match List-I (Biofuel generation) with List-II (Feedstock):\nList-I | List-II\na. First generation | ii. Algal biomass\nb. Second generation | iii. Food crops – sugarcane, corn, vegetable oils\nc. Third generation | i. Lignocellulosic residue – rice straw, husk\nd. Fourth generation | iv. Genetically modified algae and cyanobacteria\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 3,
+  "x": "First generation – Food crops – sugarcane, corn, vegetable oils; Second generation – Lignocellulosic residue – rice straw, husk; Third generation – Algal biomass; Fourth generation – Genetically modified algae and cyanobacteria. 4G fuels aim to be carbon-negative.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8638e71ffb0a",
+  "row": 67,
+  "s": "Consider the following statements:\nAssertion (A): Algae-based biofuel can be produced only in the seas.\nReason (R): Algae can be grown on land in ponds, tanks and wastewater.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false and R is true: algal biofuel can be produced in seas and on land, so 'seas only' is wrong. The real limits are high expertise and large-scale facilities.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp289298324fc9",
+  "row": 67,
+  "s": "Consider the following statements about the National Policy on Biofuels (NPB):\n1. NPB 2018 targets E20 and B5 by 2030.\n2. Bio-CNG is classed as a 'basic' biofuel.\n3. The National Biofuel Coordination Committee is chaired by the Minister of Petroleum and Natural Gas.\n4. The 2022 amendment advanced E20 to Ethanol Supply Year 2025-26.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 2 is wrong: bio-CNG is an 'advanced' biofuel; 'basic' covers 1G bioethanol and biodiesel.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd7b94a07a997",
+  "row": 67,
+  "s": "Consider the following statements:\n1. Section 52 of the Motor Vehicles Act permits engine conversion to biofuels.\n2. 100% FDI is allowed under the automatic route for biofuel technology for domestic use.\n3. Ethanol prices paid by Oil Marketing Companies follow the order rice > molasses > maize.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: the OMC price order is maize > molasses > rice. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp500fb07549ac",
+  "row": 67,
+  "s": "Match List-I (Ethanol Blending Programme milestone) with List-II (Date):\nList-I | List-II\na. E5 in 9 States and 4 UTs | ii. June 2022\nb. E10 achieved | i. 1 January 2003\nc. E20 petrol mandatory (min RON 95) | iv. May 2026\nd. BIS IS 19850 for E22–E30 | iii. 1 April 2026\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 0,
+  "x": "E5 in 9 States and 4 UTs – 1 January 2003; E10 achieved – June 2022; E20 petrol mandatory (min RON 95) – 1 April 2026; BIS IS 19850 for E22–E30 – May 2026. The next goal is E30 by 2030; the programme is run by MoPNG.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4241caeb0f36",
+  "row": 67,
+  "s": "Match List-I (Scheme) with List-II (Feature):\nList-I | List-II\na. SATAT | iv. 2G / advanced biofuels\nb. GOBARdhan | iii. 5% biomass pellets in coal plants\nc. PM JI-VAN Yojana | i. Cattle dung and farm waste to compost, biogas, bio-CNG\nd. Biomass co-firing policy | ii. CBG from agri residue and MSW\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 1,
+  "x": "SATAT – CBG from agri residue and MSW; GOBARdhan – Cattle dung and farm waste to compost, biogas, bio-CNG; PM JI-VAN Yojana – 2G / advanced biofuels; Biomass co-firing policy – 5% biomass pellets in coal plants. SATAT and GOBARdhan date from 2018, PM JI-VAN from 2019 (extended to 2028-29); co-firing (2021) is a Ministry of Power policy under mission SAMARTH.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8145ecf086b3",
+  "row": 67,
+  "s": "Consider the following statements about second-generation (2G) ethanol plants:\n1. The Numaligarh plant in Assam uses bamboo.\n2. HPCL's 2G ethanol plant is at Bargarh, Odisha.\n3. IOCL Panipat was the first commercial 2G plant (2022).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: HPCL's plant is at Bathinda, Punjab; Bargarh (Odisha) is BPCL's. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa29b275f46d6",
+  "row": 67,
+  "s": "Consider the following statements about bio-energy in Andhra Pradesh:\n1. Bagasse cogeneration has the largest installed bio-energy capacity in AP.\n2. Jindal (JITF) runs waste-to-energy plants at Naidupalem (Guntur) and Kapuluppada (Visakhapatnam).\n3. Reliance's first CBG plant at Kanigiri, Prakasam uses Napier grass.\n4. The AP Integrated Clean Energy Policy 2024 excludes biofuels.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 4 is wrong: the AP Integrated Clean Energy Policy 2024 supports biofuels. Bagasse cogeneration 206.95 MW leads (APSES 2025-26).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp43cbe7edb612",
+  "row": 67,
+  "s": "Match List-I (Waste-to-energy route) with List-II (Principle):\nList-I | List-II\na. Incineration | iii. Dry combustible part of MSW\nb. Pyrolysis | ii. Heating without oxygen\nc. Gasification | iv. Direct burning of MSW in excess air\nd. Refuse-derived fuel | i. Partial oxidation with controlled oxygen\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 2,
+  "x": "Incineration – Direct burning of MSW in excess air; Pyrolysis – Heating without oxygen; Gasification – Partial oxidation with controlled oxygen; Refuse-derived fuel – Dry combustible part of MSW. Biomethanation uses microbes to turn wet waste into biogas.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp77131b33104b",
+  "row": 67,
+  "s": "Consider the following statements about small hydro in India:\n1. Micro hydro plants are up to 100 kW.\n2. Mini hydro plants range from 101 kW to 2 MW.\n3. The upper limit of a small hydro project is 50 MW.\n4. About half the small hydro potential lies in Arunachal Pradesh, Himachal Pradesh, J&K and Uttarakhand.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 4 only",
+   "1, 2, 3 and 4",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: small hydro is 2–25 MW, so the upper limit is 25 MW. Statements 1, 2 and 4 are correct; about 25% of the potential is installed.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp880557819033",
+  "row": 67,
+  "s": "Consider the following statements about India's classification of energy sources:\n1. Large hydro has been counted as renewable by MNRE since 2019.\n2. Nuclear power is non-fossil and is classified as renewable.\n3. Nuclear and geothermal energy are not derived from the Sun.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 2 and 3",
+   "1 only",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: nuclear is non-fossil but not renewable, as uranium is exhaustible. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdf88c8c4cf3f",
+  "row": 67,
+  "s": "Consider the following statements:\nAssertion (A): Nuclear power is not counted as renewable energy in India.\nReason (R): Uranium, the fuel of nuclear power, is an exhaustible resource.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: nuclear is non-fossil but not renewable because uranium is exhaustible.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3db55a28fbcc",
+  "row": 68,
+  "s": "Consider the following statements about hydrogen as a fuel:\n1. Hydrogen is the second most abundant element in the Universe, after helium.\n2. Hydrogen burns in air over a range of about 4% to 75% by volume.\n3. Its calorific value of about 150,000 kJ/kg is higher than that of natural gas and gasoline.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: hydrogen is the most abundant element in the Universe (~3/4 of matter) and the fuel of the Sun's fusion. Statements 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd218140619b2",
+  "row": 68,
+  "s": "Consider the following statements about uses of hydrogen:\n1. In oil refineries hydrogen is used for desulphurisation.\n2. In DRI steelmaking hydrogen replaces coking coal.\n3. H-CNG is hydrogen blended with CNG.\n4. Green ammonia is made by combining nitrogen with grey hydrogen.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 4 is wrong: green ammonia combines nitrogen with green hydrogen.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp40ce31f6afd6",
+  "row": 68,
+  "s": "Consider the following statements:\nAssertion (A): Green hydrogen is seen as a key option for decarbonising steel and fertiliser plants.\nReason (R): Direct electrification is difficult in such hard-to-abate sectors.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: fertiliser (ammonia), refinery and steel plants are hard-to-abate sectors where direct electrification is difficult, so green hydrogen is used.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpcd948f6f735e",
+  "row": 68,
+  "s": "Consider the following statements about India's first green hydrogen blending project:\n1. It is a joint effort of NTPC and Gujarat Gas Ltd at Kawas, Surat.\n2. It blends green hydrogen into the PNG network.\n3. PNGRB allowed 20% blending from the start.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 only",
+   "1 and 2 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: PNGRB allowed 5% blending at the start, scaling to 20%. Statements 1 and 2 are correct (January 2023).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp296e840f822b",
+  "row": 68,
+  "s": "Match List-I (Colour of hydrogen) with List-II (Production route):\nList-I | List-II\na. Blue | iv. Electrolysis using nuclear power\nb. Pink | i. Coal gasification without CCS\nc. Turquoise | iii. Methane pyrolysis giving solid carbon\nd. Brown / black | ii. Steam methane reforming with carbon capture and storage\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii"
+  ],
+  "a": 3,
+  "x": "Blue – Steam methane reforming with carbon capture and storage; Pink – Electrolysis using nuclear power; Turquoise – Methane pyrolysis giving solid carbon; Brown / black – Coal gasification without CCS. Green hydrogen (electrolysis with renewable power) is the only zero-carbon colour.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1318f33927d7",
+  "row": 68,
+  "s": "Consider the following statements:\n1. Grey hydrogen, made by steam methane reforming, is the cheapest and accounts for about 95% of production.\n2. Steam methane reforming uses a platinum catalyst at about 200–300°C.\n3. Green hydrogen costs about $4/kg against $1.5–2/kg for grey hydrogen.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: SMR reacts methane with steam at 700–1000°C over a nickel catalyst. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2480e541e066",
+  "row": 68,
+  "s": "Consider the following statements:\nAssertion (A): Green hydrogen is the only zero-carbon colour of hydrogen.\nReason (R): Green hydrogen is so called because the gas is green in colour.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false: 'green' refers to the production route – electrolysis of water with renewable power – not to the colour of the gas, sea water or coal.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3263c3d28726",
+  "row": 68,
+  "s": "Consider the following statements about fuel cells:\n1. A fuel cell generates electricity by burning hydrogen.\n2. A fuel cell combines hydrogen with oxygen, giving electricity, water and heat.\n3. Fuel-cell efficiency can reach about 55%.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "2 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: a fuel cell is an electrochemical device with no combustion. Statements 2 and 3 are correct (H2 + O2 → DC electricity + water + heat; it does not use CO2).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbeb08ab8dd40",
+  "row": 68,
+  "s": "Consider the following statements about a PEM fuel cell:\n1. Hydrogen is split into protons and electrons at the cathode.\n2. Protons cross the membrane to the cathode.\n3. Water is formed at the cathode.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (2 and 3) are correct. Statement 1 is wrong: H2 → 2H+ + 2e- happens at the anode; electrons flow through the external circuit and at the cathode 1/2 O2 + 2H+ + 2e- → H2O + heat.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpce8d342edfea",
+  "row": 68,
+  "s": "Match List-I (Hydrogen mobility first) with List-II (Builder / site):\nList-I | List-II\na. Hydrogen train coach tested (2025) | iii. Cochin Shipyard Ltd\nb. Hydrogen train in service | iv. IOCL\nc. Indigenous fuel-cell ferry | i. ICF, Chennai\nd. H-CNG buses in Delhi (2020) | ii. Jind–Sonipat, Haryana\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-i, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Hydrogen train coach tested (2025) – ICF, Chennai; Hydrogen train in service – Jind–Sonipat, Haryana; Indigenous fuel-cell ferry – Cochin Shipyard Ltd; H-CNG buses in Delhi (2020) – IOCL. India's first indigenous fuel-cell bus (2022) was by KPIT with CSIR-NCL, Pune.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp59e90bbb12cc",
+  "row": 68,
+  "s": "Consider the following statements about the National Green Hydrogen Mission:\n1. Its outlay is ₹19,744 crore up to 2029-30.\n2. Its nodal ministry is the Ministry of Power.\n3. SIGHT, with ₹17,490 crore, gives incentives for electrolyser manufacturing and green hydrogen production.\n4. SHIP stands for Strategic Hydrogen Innovation Partnership.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 2 is wrong: the nodal ministry is MNRE (Cabinet approval 4 January 2023).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8bfade6eac81",
+  "row": 68,
+  "s": "Consider the following statements about the targets of the National Green Hydrogen Mission:\n1. Green hydrogen production of 5 MMT a year by 2030.\n2. 200 GW of electrolyser capacity by 2030.\n3. About 6 lakh jobs by 2030.\n4. It supports India's goal of net zero by 2070.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4",
+   "3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the electrolyser target is 60–100 GW. Statements 1, 3 and 4 are correct (also 125 GW added RE, 50 MMT/yr GHG cut, energy independence by 2047).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp70e143159347",
+  "row": 68,
+  "s": "Match List-I (NGHM component) with List-II (Role):\nList-I | List-II\na. SIGHT | ii. Production-use-export clusters\nb. Pilot projects | iii. Incentives for electrolysers and green H2 production\nc. SHIP | iv. Steel, mobility, shipping, storage\nd. Green Hydrogen Hubs | i. Public-private partnership for R&D\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 1,
+  "x": "SIGHT – Incentives for electrolysers and green H2 production; Pilot projects – Steel, mobility, shipping, storage; SHIP – Public-private partnership for R&D; Green Hydrogen Hubs – Production-use-export clusters. Outlays: SIGHT ₹17,490 cr, pilots ₹1,466 cr, SHIP ₹400 cr; 4 Hydrogen Valley Innovation Clusters.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc214d205e8b1",
+  "row": 68,
+  "s": "Consider the following statements:\n1. Deendayal (Kandla) port in Gujarat is a green hydrogen hub port.\n2. V.O. Chidambaranar (Tuticorin) port, with a green hydrogen bunkering pilot, is in Andhra Pradesh.\n3. SECI discovered a green ammonia price of ₹53.27/kg.\n4. Korean firms signed green ammonia and methanol export deals with India in July 2026.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 3) are correct. Statement 2 is wrong: V.O. Chidambaranar is in Tamil Nadu. Statement 4 is wrong: it was Japanese firms that signed the export deals.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8c73d94e3c36",
+  "row": 68,
+  "s": "Match List-I (Electrolyser) with List-II (Feature):\nList-I | List-II\na. Alkaline | ii. Non-platinum catalysts such as nickel\nb. PEM | iv. Liquid KOH/NaOH electrolyte; oldest\nc. Solid oxide | iii. High-temperature steam; most efficient\nd. AEM | i. Solid polymer membrane; quick response\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 2,
+  "x": "Alkaline – Liquid KOH/NaOH electrolyte; oldest; PEM – Solid polymer membrane; quick response; Solid oxide – High-temperature steam; most efficient; AEM – Non-platinum catalysts such as nickel. PEM's quick response suits variable renewable power.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp72f8fe0c7f5d",
+  "row": 68,
+  "s": "Consider the following statements:\n1. India's Green Hydrogen Standard (August 2023) sets well-to-gate emissions of at most 2 kg CO2-eq per kg of hydrogen.\n2. The Green Hydrogen Certification Scheme of India (GHCI) was launched in April 2025.\n3. The Central Electricity Authority is the nodal authority for green hydrogen certification.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the Bureau of Energy Efficiency is the certification nodal authority. Statements 1 and 2 are correct (12-month average).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp09632d837d28",
+  "row": 68,
+  "s": "Match List-I (Hydrogen storage method) with List-II (Fact):\nList-I | List-II\na. Compression | i. High-pressure composite cylinders\nb. Liquefaction | iv. Solid-state storage in alloys\nc. Metal hydrides | ii. Ammonia, methanol, LOHC\nd. Chemical carriers | iii. Cryogenic, at −253°C\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 3,
+  "x": "Compression – High-pressure composite cylinders; Liquefaction – Cryogenic, at −253°C; Metal hydrides – Solid-state storage in alloys; Chemical carriers – Ammonia, methanol, LOHC. CO2 is not a hydrogen carrier.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpaf1ee34d5719",
+  "row": 68,
+  "s": "Consider the following statements:\nAssertion (A): Dependence on imported electrolysers is a challenge for green hydrogen in India.\nReason (R): An electrolyser uses electricity to split water into hydrogen and oxygen.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: the import problem arises from Chinese dominance of electrolyser supply, not from what an electrolyser does.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb8a4fed4bf19",
+  "row": 68,
+  "s": "Consider the following statements about green hydrogen in Andhra Pradesh:\n1. The AP Green Hydrogen and Green Ammonia Policy (2023) targets 0.5 MTPA green hydrogen or 2.0 MTPA green ammonia in five years.\n2. NREDCAP is the nodal agency of the 2023 policy.\n3. The Green Hydrogen Valley Declaration (Amaravati, 19 July 2025) sets a goal of 1.5 MMTPA by 2030.\n4. IIT Tirupati is the state nodal agency for the Green Hydrogen Valley.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2, 3 and 4",
+   "1, 2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 4 is wrong: SRM University-AP is the nodal agency for the Valley. Statements 1, 2 and 3 are correct (0.5 MTPA, not 1 MTPA; third-party sale and power exchange allowed).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpadb378c5089c",
+  "row": 68,
+  "s": "Match List-I (Place in Andhra Pradesh) with List-II (Green hydrogen project):\nList-I | List-II\na. Pudimadaka | iv. Seawater-to-hydrogen blending trials\nb. Kakinada | ii. AM Green green ammonia\nc. NTPC Simhadri | i. Green Hydrogen Valley Declaration\nd. Amaravati | iii. NTPC Green Energy hub\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 0,
+  "x": "Pudimadaka – NTPC Green Energy hub; Kakinada – AM Green green ammonia; NTPC Simhadri – Seawater-to-hydrogen blending trials; Amaravati – Green Hydrogen Valley Declaration. Amaravati is not a Paradip-type green ammonia export terminal.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp429926222736",
+  "row": 69,
+  "s": "Consider the following statements about an electrochemical cell during discharge:\n1. Oxidation takes place at the anode.\n2. Reduction, which takes place at the cathode, means loss of electrons.\n3. The electrolyte lets ions flow between the electrodes and keeps them apart.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 3) are correct. Statement 2 is wrong: reduction is gain of electrons; oxidation is loss of electrons.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp173fde5ce4d9",
+  "row": 69,
+  "s": "Consider the following statements:\nAssertion (A): Alternating current is not preferable for charging a storage battery.\nReason (R): Charging a battery needs direct current, so AC must first be converted by a rectifier.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: charging needs DC, so AC is not preferable (a rectifier converts AC → DC); AC is fine for motors, toasters and transmission.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp44c600abc1a2",
+  "row": 69,
+  "s": "Match List-I (Battery) with List-II (Feature):\nList-I | List-II\na. Dry (Leclanché) cell | iv. Metal hydride replaces cadmium\nb. Lead-acid battery | iii. KOH electrolyte\nc. Nickel-cadmium battery | ii. Sulphuric acid electrolyte\nd. NiMH battery | i. Paste of NH4Cl + ZnCl2\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 1,
+  "x": "Dry (Leclanché) cell – Paste of NH4Cl + ZnCl2; Lead-acid battery – Sulphuric acid electrolyte; Nickel-cadmium battery – KOH electrolyte; NiMH battery – Metal hydride replaces cadmium. NiMH batteries are used in hybrid vehicles; lead-acid in car starting and UPS.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpccbc4befddd2",
+  "row": 69,
+  "s": "Consider the following statements:\n1. The zinc-carbon dry cell used in torches is rechargeable.\n2. Use of Ni-Cd batteries is declining because cadmium is toxic.\n3. Lead-acid batteries are used for car starting and UPS.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 2 and 3",
+   "2 only",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: the dry cell's reaction is irreversible, so it cannot be recharged. Statements 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3fe2b79bfe51",
+  "row": 69,
+  "s": "Consider the following statements about lithium-ion batteries:\n1. Graphite is generally used as the anode.\n2. During discharge Li+ ions move from the cathode to the anode.\n3. LiFePO4 (LFP) and NMC are cathode materials.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1 and 3 only",
+   "1, 2 and 3",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: on discharge Li+ ions move from the anode to the cathode. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbfc91c80e812",
+  "row": 69,
+  "s": "Match List-I (Battery chemistry) with List-II (Key point):\nList-I | List-II\na. LFP | iv. Solid electrolyte\nb. Sodium-ion | ii. No cobalt or nickel; cheaper\nc. Solid-state | i. Liquid electrolytes in external tanks\nd. Vanadium redox flow | iii. Safe, long life\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 2,
+  "x": "LFP – Safe, long life; Sodium-ion – No cobalt or nickel; cheaper; Solid-state – Solid electrolyte; Vanadium redox flow – Liquid electrolytes in external tanks. Flow batteries let energy and power scale separately (grid-scale, long duration).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp07d542383cdb",
+  "row": 69,
+  "s": "Consider the following statements about sodium-ion batteries:\n1. They use abundant materials, are cheaper and safer, and need no cobalt or nickel.\n2. Their energy density is higher than that of Li-ion/LFP batteries.\n3. They are being promoted as a replacement for pumped storage.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 0,
+  "x": "Only one (statement 1) is correct. Statement 2 is wrong: their energy density is lower than Li-ion/LFP. Statement 3 is wrong: sodium-ion is a safer, mineral-light alternative, not a replacement for pumped storage.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp338f0b9d7900",
+  "row": 69,
+  "s": "Consider the following statements about lithium:\n1. GSI reported 5.9 million tonnes of inferred lithium at Salal-Haimana, Reasi district, J&K, in February 2023.\n2. Marlagalla, another lithium find, is in Mandya district of Karnataka.\n3. KABIL has acquired lithium land in Chile.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only",
+   "1 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: KABIL bought lithium land in Argentina. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf3f8685188d7",
+  "row": 69,
+  "s": "Consider the following statements:\n1. The National Critical Mineral Mission (2025) has an outlay of ₹16,300 crore.\n2. The Rare Earth Corridors of Budget 2026-27 cover Odisha, Kerala, Andhra Pradesh and Tamil Nadu.\n3. More than 70% of global lithium processing is concentrated in a few countries.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three are correct, as in the notes: NCMM ₹16,300 crore (recycling scheme ₹1,500 crore); four Rare Earth Corridor States including AP; >70% of lithium processing in a few countries.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa20d80660c2b",
+  "row": 69,
+  "s": "Consider the following statements:\n1. Both HEVs and PHEVs can be plugged in for charging.\n2. PM E-DRIVE (2024) replaced FAME-II.\n3. India's battery swapping policy was announced in the Union Budget 2022-23.\n4. EVs made up about 8.5% of sales in FY 2025-26, against a goal of 30% by 2030.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2, 3 and 4 only",
+   "2 and 4 only",
+   "2 and 3 only",
+   "3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: only the PHEV plugs in; a plain HEV has an engine plus battery-motor but is not plugged in. Statements 2, 3 and 4 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa3111466acc5",
+  "row": 69,
+  "s": "Consider the following statements about energy storage in Andhra Pradesh:\n1. The world's first indigenously made high-energy storage device was unveiled at Amaravati in 2018.\n2. The Pinnapuram project in Kurnool combines solar, wind and pumped storage.\n3. The CEA plan for AP (August 2026) envisages 7,370 MW of battery storage and 3,931 MW of pumped storage.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 2) are correct. Statement 3 swaps the figures: the plan is 3,931 MW battery + 7,370 MW pumped storage.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2c135254c082",
+  "row": 69,
+  "s": "Consider the following statements about the PLI scheme for Advanced Chemistry Cell (ACC) batteries:\n1. It was approved on 12 May 2021 for 50 GWh with ₹18,100 crore.\n2. It is run by MNRE.\n3. Ola Electric's 20 GWh gigafactory is at Krishnagiri, Tamil Nadu.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the ACC programme is run by the Ministry of Heavy Industries. Statements 1 and 3 are correct (Reliance 15 GWh at Jamnagar).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp09ddbddc50ed",
+  "row": 69,
+  "s": "Consider the following statements:\nAssertion (A): The remaining 10 GWh of ACC capacity was put to global bids in July 2026 for grid storage.\nReason (R): Shortage of pumped-storage reservoirs has been the main hurdle of the ACC programme.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false: the ACC hurdles are visa delays, local-content rules and missing technology, not lack of reservoirs.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp1f64f0309462",
+  "row": 69,
+  "s": "Consider the following statements:\n1. CEA estimates India's storage need at 336 GWh by 2029-30.\n2. The Energy Storage Obligation (Ministry of Power, 2022) rises from 1% in 2023-24 to 4% in 2029-30.\n3. The Draft National Electricity Policy 2026 replaces the National Electricity Policy of 2015.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 only",
+   "1 and 2 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the draft NEP 2026 replaces the NEP of 2005. Statements 1 and 2 are correct (only ~500 MWh BESS installed by Sept 2025).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpacf5d9abf7eb",
+  "row": 69,
+  "s": "Match List-I (Storage method) with List-II (Principle):\nList-I | List-II\na. Pumped storage | ii. Thermal storage in CSP\nb. CAES | iv. Pump water uphill at low demand\nc. Flywheel | iii. Rotational kinetic energy\nd. Molten salt | i. Air compressed into caverns\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "Pumped storage – Pump water uphill at low demand; CAES – Air compressed into caverns; Flywheel – Rotational kinetic energy; Molten salt – Thermal storage in CSP. Pumped storage is 70–80% efficient; molten salt lets CSP plants generate after sunset.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp42aceb4b46df",
+  "row": 69,
+  "s": "Consider the following statements:\nAssertion (A): Battery Pack Aadhaar (BPAN) is mandatory for portable batteries of every capacity.\nReason (R): Under the Battery Waste Management Rules, 2022, producers and importers must collect and recycle waste batteries.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: BPAN applies only to EV and industrial batteries above 2 kWh. R is true: EPR makes producers/importers collect and recycle.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd775deaa35e2",
+  "row": 69,
+  "s": "Consider the following statements about the Battery Waste Management Rules, 2022:\n1. They were notified by MoEFCC, replacing the Batteries (Management and Handling) Rules, 2001.\n2. They ban incineration but allow landfilling of waste batteries.\n3. They set a 90% material recovery target by 2026-27.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: both landfill and incineration are banned. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp730169310ceb",
+  "row": 70,
+  "s": "Consider the following statements about lamps:\n1. An LED uses a semiconductor emitter of the gallium arsenide family and contains no mercury.\n2. A CFL uses about 75% less energy than an ordinary bulb.\n3. A mercury vapour lamp gives a yellow monochromatic light.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: the mercury vapour lamp gives white light; yellow monochromatic light is from the sodium vapour lamp. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb6c1a37c2bf1",
+  "row": 70,
+  "s": "Match List-I (Lamp) with List-II (Feature):\nList-I | List-II\na. Incandescent filament lamp | iv. Low-pressure mercury vapour and argon\nb. Sodium vapour lamp | iii. White light\nc. Mercury vapour lamp | ii. Yellow light that does not split in fog\nd. Fluorescent tube | i. Only ~10–15% of input radiated as light\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "Incandescent filament lamp – Only ~10–15% of input radiated as light; Sodium vapour lamp – Yellow light that does not split in fog; Mercury vapour lamp – White light; Fluorescent tube – Low-pressure mercury vapour and argon. The filament lamp works at unity power factor and is the cheapest for the same wattage.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4cdf32159381",
+  "row": 70,
+  "s": "Consider the following statements:\nAssertion (A): In a fluorescent lamp, the mercury converts ultraviolet radiation into visible light.\nReason (R): When the lamp is switched on, the mercury vapour emits ultraviolet radiation.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: it is the phosphor coating that converts UV into visible light, not the mercury. R is true: mercury vapour emits UV when the lamp is switched on.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6b9f4b950388",
+  "row": 70,
+  "s": "Consider the following statements about the Energy Conservation Act, 2001:\n1. The Bureau of Energy Efficiency, set up under it, became operational on 1 March 2002.\n2. BEE is a statutory body under MNRE.\n3. Designated consumers must carry out mandatory energy audits.\n4. Energy-efficiency norms apply to buildings with a connected load above 100 kW or contract demand above 120 kVA.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 2 is wrong: BEE is a statutory body under the Ministry of Power.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0b6353f87849",
+  "row": 70,
+  "s": "Consider the following statements about the Energy Conservation (Amendment) Act, 2022:\n1. It gives a legal basis to a national carbon market (Carbon Credit Trading Scheme, Section 14AA).\n2. It requires designated consumers to use a minimum share of non-fossil energy.\n3. It allows efficiency norms to be set for vehicles and vessels.\n4. It limits building codes to commercial buildings only.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1, 2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 4 is wrong: the amendment extended building codes to large residential buildings (ECSBC). Statements 1, 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdab64b380d90",
+  "row": 70,
+  "s": "Match List-I (Body) with List-II (Scheme it runs):\nList-I | List-II\na. Bureau of Energy Efficiency | ii. State Energy Efficiency Preparedness Index, 2018\nb. EESL | iv. Perform, Achieve and Trade (PAT)\nc. PCRA | iii. SAKSHAM\nd. NITI Aayog with BEE | i. UJALA\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "Bureau of Energy Efficiency – Perform, Achieve and Trade (PAT); EESL – UJALA; PCRA – SAKSHAM; NITI Aayog with BEE – State Energy Efficiency Preparedness Index, 2018. BEE is statutory (EC Act 2001); EESL is a JV of Ministry of Power PSUs; PCRA is under MoPNG.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc9eea6a0a338",
+  "row": 70,
+  "s": "Consider the following statements:\nAssertion (A): India imports about 80% of its oil, which makes energy efficiency important for energy security.\nReason (R): The National Mission for Enhanced Energy Efficiency is one of the eight missions of the NAPCC (2008).\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: the ~80% oil import dependence is why efficiency means energy security; NMEEE being an NAPCC mission is a separate fact.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpc9b3635822eb",
+  "row": 70,
+  "s": "Consider the following statements about BEE's Standards and Labelling programme:\n1. It was launched in 2006.\n2. Each additional star saves about 10–15% energy.\n3. Star labelling is mandatory for industrial motors.\n4. From 1 January 2026 manufacturers are penalised if actual energy use deviates from the label.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 4 only",
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "2 and 4 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: industrial motors, computers and microwave ovens are on the voluntary list. Statements 1, 2 and 4 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp84a403dc6d7d",
+  "row": 70,
+  "s": "Match List-I (Programme / code) with List-II (Year):\nList-I | List-II\na. Standards and Labelling programme | iii. 2007\nb. Energy Conservation Building Code (ECBC) | i. 2024\nc. ECO Niwas Samhita | iv. 2006\nd. ECSBC | ii. 2018\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Standards and Labelling programme – 2006; Energy Conservation Building Code (ECBC) – 2007; ECO Niwas Samhita – 2018; ECSBC – 2024. ECBC covers new commercial buildings, ECO Niwas Samhita residential buildings, and ECSBC adds sustainability after the 2022 amendment.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp61d52e6d50a2",
+  "row": 70,
+  "s": "Consider the following statements:\n1. The World Bank's Energy Efficiency Implementation Readiness ranking (Nov 2016) placed Andhra Pradesh first.\n2. In the first State Energy Efficiency Preparedness Index (2018) Andhra Pradesh was a Front Runner.\n3. In SEEI 2024 Andhra Pradesh led the group of States with demand above 15 Mtoe.\n4. SEEI classifies States into four categories.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 3 is wrong: Maharashtra led the >15 Mtoe group; AP led the 5–15 Mtoe group. SEEI categories are Front Runner (>60%), Achiever, Contender, Aspirant.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3057bab85834",
+  "row": 70,
+  "s": "Consider the following statements:\n1. National Energy Conservation Day is observed on 14 December.\n2. The National Energy Conservation Awards are given by MNRE.\n3. APSECM (2012) is India's first standalone State Designated Agency of BEE.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1, 2 and 3",
+   "1 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: NECA (instituted 1991) is given by BEE / Ministry of Power, not MNRE. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfea2a7faed08",
+  "row": 70,
+  "s": "Match List-I with List-II (energy efficiency in Andhra Pradesh):\nList-I | List-II\na. Sagar Nagar, Visakhapatnam | iii. First IoT energy pilot at an MSME\nb. East Godavari | i. ULBs with ECBC\nc. 59 | iv. Super ECBC building\nd. 123 | ii. Industries under PAT\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Sagar Nagar, Visakhapatnam – Super ECBC building; East Godavari – First IoT energy pilot at an MSME; 59 – Industries under PAT; 123 – ULBs with ECBC. PAT industries in AP saved about 1.16 Mtoe.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2b23fb577fba",
+  "row": 70,
+  "s": "Consider the following statements:\nAssertion (A): The Street Lighting National Programme replaces LED street lights with sodium vapour lamps.\nReason (R): The LED is the most energy-saving lamp.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: SLNP (EESL, January 2015) replaces sodium vapour street lights with LEDs. R is true: the LED has the highest efficacy and longest life.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb0bca63093c7",
+  "row": 70,
+  "s": "Consider the following statements about UJALA:\n1. It was launched in January 2015 and is run by EESL.\n2. About 36.86 crore LED bulbs have been distributed under it.\n3. The figure of 9.5 crore refers to LED tube lights distributed under it.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: 9.5 crore is the number of PMUY LPG connections; UJALA distributed 72.18 lakh tube lights. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3c02a4773af2",
+  "row": 70,
+  "s": "Consider the following statements:\n1. ADEETIE (July 2025, ₹1,000 crore) promotes energy efficiency in MSMEs.\n2. ADEETIE gives 3% interest subvention to micro and small units and 5% to medium units.\n3. CAFE norms (2017, BEE) set fuel efficiency for cars.\n4. The National Efficient Cooking Programme of EESL distributes 20 lakh induction stoves.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 and 4 only",
+   "1, 3 and 4 only",
+   "1 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the subvention is 5% for micro/small and 3% for medium units. Statements 1, 3 and 4 are correct (ADEETIE: 60 clusters, 14 sectors).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0a8c439911e0",
+  "row": 70,
+  "s": "Consider the following statements about the Perform, Achieve and Trade (PAT) scheme:\n1. It is a market mechanism under NMEEE; ESCerts are traded on power exchanges.\n2. PAT Cycle I (2012-15) covered 478 units in 8 sectors, including railways.\n3. After CCTS, PAT keeps thermal power, railways, DISCOMs and commercial buildings.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 only",
+   "1 and 3 only",
+   "3 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: railways was added later; Cycle I's 8 sectors were thermal power, iron & steel, cement, aluminium, fertilisers, chlor-alkali, pulp & paper and textiles. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa4d072e21bc0",
+  "row": 70,
+  "s": "Consider the following statements about the Carbon Credit Trading Scheme (CCTS):\n1. It issues Carbon Credit Certificates based on emission intensity.\n2. It covers 9 heavy industries with 208 units.\n3. SEBI is its regulator.\n4. The UK CBAM has recognised it from 1 January 2027.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 3 is wrong: CCTS is administered by BEE and regulated by CERC.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp05ee55c6a888",
+  "row": 70,
+  "s": "Consider the following statements:\nAssertion (A): The Carbon Credit Trading Scheme, notified in 2023, is India's first mandatory carbon market.\nReason (R): Under PAT, units that miss their targets must buy ESCerts.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: PAT trades energy-intensity ESCerts (from 2012), whereas CCTS is a separate emission-intensity market.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp76cf718bf9ea",
+  "row": 71,
+  "s": "Consider the following statements about PM Surya Ghar Muft Bijli Yojana:\n1. It has an outlay of ₹75,021 crore and is run by MNRE.\n2. Households can get up to 300 units of free electricity a month.\n3. Central Financial Assistance is a flat 30% of the system cost.\n4. Collateral-free loans are available at about 7%.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 4 only",
+   "1, 2, 3 and 4",
+   "1 and 4 only",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: CFA is 60% for the first 2 kW and 40% for extra capacity up to 3 kW. Statements 1, 2 and 4 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpefdd6c1fc1a8",
+  "row": 71,
+  "s": "Consider the following statements about PM Surya Ghar Muft Bijli Yojana:\n1. It is expected to add 30 GW of rooftop solar.\n2. It provides for one Model Solar Village in every State.\n3. It subsumed Rooftop Solar Phase II.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "3 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: it provides one Model Solar Village per district. Statements 1 and 3 are correct; it is called the world's largest domestic rooftop solar scheme.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcd85c160d4d7",
+  "row": 71,
+  "s": "Consider the following statements:\nAssertion (A): Net metering promotes the production and use of solar energy by households.\nReason (R): Under net metering, surplus solar power is fed to the grid and the household pays only for the difference.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: crediting surplus exports against consumption is what makes rooftop solar attractive to households.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3176deea6e33",
+  "row": 71,
+  "s": "Consider the following statements about UDAY:\n1. States took over 75% of DISCOM debt – 50% in 2015-16 and 25% in 2016-17.\n2. States that joined UDAY account for about 97% of total outstanding DISCOM debt.\n3. Gujarat had the largest DISCOM debt exposure under UDAY.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Rajasthan had the largest debt exposure (~₹70,000+ crore bonded). Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2983996547bc",
+  "row": 71,
+  "s": "Consider the following statements:\n1. The Revamped Distribution Sector Scheme (RDSS) has an outlay of ₹3,03,758 crore.\n2. UDAY aimed to cut AT&C losses to 15% by 2018-19.\n3. RDSS aims at a zero ACS-ARR gap.\n4. UDAY was launched in 2017 by MNRE.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1 and 3 only",
+   "1, 2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: UDAY was launched in November 2015 by the Ministry of Power. Statements 1, 2 and 3 are correct (RDSS: AT&C 12–15%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd74fb148a257",
+  "row": 71,
+  "s": "Match List-I (Scheme) with List-II (Ministry / body):\nList-I | List-II\na. UDAY (2015) | iii. IOCL\nb. PMUY (2016) | iv. MNRE\nc. PM-KUSUM (2019) | ii. Ministry of Power\nd. Surya Nutan (2022) | i. MoPNG\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 0,
+  "x": "UDAY (2015) – Ministry of Power; PMUY (2016) – MoPNG; PM-KUSUM (2019) – MNRE; Surya Nutan (2022) – IOCL. PM-KUSUM is not a Ministry of Power scheme, and Surya Nutan is not EESL's.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe8b6c409a2d4",
+  "row": 71,
+  "s": "Consider the following statements:\n1. Under Saubhagya 2.86 crore willing households were electrified.\n2. DDUGJY subsumed R-APDRP.\n3. Separation of agricultural and non-agricultural feeders is a feature of DDUGJY.\n4. Leisang in Manipur was the last village to be electrified, on 28 April 2018.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 and 4 only",
+   "1 and 4 only",
+   "1, 2, 3 and 4",
+   "1, 3 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: DDUGJY subsumed RGGVY; R-APDRP was subsumed in IPDS (urban). Statements 1, 3 and 4 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf2e27158fe16",
+  "row": 71,
+  "s": "Match List-I (Component) with List-II (Coverage):\nList-I | List-II\na. PM-KUSUM Component A | ii. Standalone solar pumps\nb. PM-KUSUM Component B | i. Grid-connected solar plants on farm/barren land\nc. PM-KUSUM Component C | iv. Household rooftop solar\nd. PM Surya Ghar | iii. Solarisation of grid-connected pumps\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iii, b-i, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "PM-KUSUM Component A – Grid-connected solar plants on farm/barren land; PM-KUSUM Component B – Standalone solar pumps; PM-KUSUM Component C – Solarisation of grid-connected pumps; PM Surya Ghar – Household rooftop solar. Household rooftop solar belongs to PM Surya Ghar, not PM-KUSUM.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp539a2e31b892",
+  "row": 71,
+  "s": "Consider the following statements:\nAssertion (A): PM-KUSUM's primary aim is to give subsidies for solar irrigation pumps.\nReason (R): Under Components B and C the Centre bears 60% and the farmer 40% of the cost.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true; R is false: the B and C subsidy is shared 30% Centre, 30% State and 40% farmer.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6695bd49e42b",
+  "row": 71,
+  "s": "Consider the following statements about Andhra Pradesh:\n1. BPL SC/ST households get up to 200 units of free power a month since 2019.\n2. Free rooftop solar for SC/ST households is through Virtual Net Metering.\n3. The PM Surya Ghar target for AP is 6 lakh households.\n4. About 29.3 lakh pumps have been solarised in AP under PM-KUSUM.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 4 is wrong: 2.93 lakh pumps have been solarised.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5cf3f753d6fd",
+  "row": 71,
+  "s": "Consider the following statements about PMUY:\n1. Since October 2023 beneficiaries get a subsidy of ₹200 per refill for 12 refills a year.\n2. Phase I aimed at 8 crore connections by 2019.\n3. Ujjwala 2.0 gives a free first refill and stove.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: the targeted subsidy is ₹300 per refill for 9 refills a year. Statements 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ }
+]
