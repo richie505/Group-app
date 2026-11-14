@@ -537,3 +537,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Disputes kept: natural ozone regulator NO2; UPPCS N2O "not responsible"; butterflies A-R; "tailless" Himalayan Forest Thrush.
 - Outdated: Vanam-Manam 2017 target 1 crore; Arma Konda now ASR district.
 - Printed-key-only: Mafron, S-400 "China", NBC 2017 theme, Sikkim pika, AVGAS to PNG. Row 84 "Classic species facts" sub-section of general-zoology PYQs — confirm placement.
+
+## b5-r086 (Loss of biodiversity, IAS, Red List)
+- Disputes kept: gharial/leatherback/swamp deer "all three" ×3 (strictly gharial CR only); crocodile & elephant "both"; IUCN "50 years".
+- Outdated ×3 UPSC 2012 endangered group (GIB now CR, wild ass NT).
+- Unverified: y9368f3ebe0a UPPSC 2020 "population growth"; y356bfe0dfe8 sparrow/cell towers; y888bbe44168 Cremanthodium institutions.

@@ -14,7 +14,7 @@
 | **Invasion of alien species** (Nile perch → 200+ cichlids lost in Lake Victoria) | Pollution |
 | **Co-extinctions** | human Population |
 | — | Over-harvesting |
-- **Co-extinction** is only in the Evil Quartet; **pollution** and **population** only in HIPPO. Newer lists add **climate change** and **disease**.
+- **HIPPO** was popularised by **E. O. Wilson**. **Co-extinction** is only in the Evil Quartet; **pollution** and **population** only in HIPPO. Newer lists add **climate change** and **disease**.
 # Fragmentation and edge effect
 | Term | Meaning |
 |---|---|
