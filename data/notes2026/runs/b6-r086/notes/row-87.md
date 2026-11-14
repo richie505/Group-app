@@ -55,7 +55,14 @@
 | Wayanad (Kerala) | Over 500 mm in 48 h, 350+ deaths |
 | Cyclone Remal | Bay of Bengal, May 2024 (Bangladesh/West Bengal) |
 | Cyclone Asna | Arabian Sea, August 2024 – hit Oman |
-~~ Sources: app notes 6:87 (sub 2); CCPI 2024 statements: general knowledge, not checked (CCPI 2024 report wording as quoted in the PYQ)
+# IUCN World Heritage Outlook 4 (2025)
+| Category | Indian natural sites |
+|---|---|
+| Good | Khangchendzonga NP (Sikkim) – only Indian site |
+| Good with some concerns | Great Himalayan NP, Kaziranga, Keoladeo, Nanda Devi and Valley of Flowers |
+| Significant concern | Western Ghats, Manas NP, Sundarbans NP |
+- India has **seven** natural World Heritage sites; only **"Critical"** site in Asia: **Tropical Rainforest Heritage of Sumatra**; top threat **climate change**.
+~~ Sources: app notes 6:87 (subs 2, 4); CCPI 2024 statements: general knowledge, not checked (CCPI 2024 report wording as quoted in the PYQ)
 
 === Air Pollution, Heat and Health Reports
 | Report | Prepared by | Key India fact |

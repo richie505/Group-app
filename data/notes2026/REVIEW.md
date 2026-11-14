@@ -800,3 +800,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Outdated yad7b20d357a refineries 23 (now 24).
 - IP Index 2026: USA 1st (US Chamber) vs France (Rocket). Henley July 2026 India 81st (Rocket 84th undated).
 - Unverified: y2db1275c15d NCRB NE match; y8ef49cc5e15 Maharashtra floods 21 deaths.
+
+## b6-r093 (CA rows 93-95 awards)
+- No key changes. Disputes: yfb6ff3fd752 MIDORI biennial; y248f116506c Padma eligibility.
+- Unverified: y37b5e68e0f7 O.P. Bhardwaj part; yf0ca4e20387 Meena Charanda (prep sites only); ~14 general-knowledge award keys.
