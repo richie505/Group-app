@@ -127,6 +127,6 @@
 - **Slums: 6.54 crore** (2011); cities **~3% of land, ~60% of GDP** – ES 2025-26: "**critical economic infrastructure**"; urban population **~60 crore by 2031**.
 - **Peri-urban areas**: **recharge zones** for cities. **Right to the City** – **Henri Lefebvre** (1968).
 - **UN-Habitat** (1978, **Nairobi**): **World Cities Report 2026** at WUF **Baku** – 3.4 billion face housing shortage, **1.1 billion** in slums; MoU for a Centre of Excellence for Urban Affairs, **Amaravati** (Jul 2026).
-- **APMCHUD**: set up **2006**, first meeting **New Delhi**, secretariat hosted by **India**.
+- **APMCHUD**: set up **2006**, first meeting **New Delhi**, secretariat hosted by **India**; 6th edition **New Delhi, 2016**.
 - **World Urbanization Prospects 2025 (UN DESA)**: **33 megacities** in 2025, 37 by 2050.
 ~~ Sources: app notes 4:70 (sub 8, 9, 10)
