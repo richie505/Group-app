@@ -186,11 +186,11 @@
 | Partners | Japan, South Korea, Singapore, Netherlands, UK, Israel, UAE, Australia |
 | Guests | Taiwan, EU, Canada, OECD |
 - **DPI / India Stack MoUs with 23 countries** – announced by MoS MeitY **Jitin Prasada**: incl. Sri Lanka, Maldives, Brazil, Kenya, Cuba, **Mongolia**.
-- **UPI available in 8 countries**: **UAE, Singapore, Bhutan, Nepal, Sri Lanka, France, Mauritius, Qatar** (till May 2026); since then **Cambodia (June 2026)** and **Maldives (Aug 2026)** = **10 countries**.
+- **UPI available in 8 countries**: **UAE, Singapore, Bhutan, Nepal, Sri Lanka, France, Mauritius, Qatar** (till May 2026); since then **Cambodia (June 2026)**, **Maldives (30 July 2026)** – 10–11 by Aug 2026 (11 where Greece is counted) – and **Uzbekistan (1 Sep 2026)**.
 - **DigiLocker** pacts with **Cuba, Kenya, UAE, Lao PDR**; **India Stack Global Portal** offers **18 platforms**.
 # Fiji
 - **9 January 2026, Krishi Bhavan**: **Shivraj Singh Chouhan** and Fiji's **Tomasi Tunabuna** – **Agriculture MoU extended by five years**; **Joint Working Group** to be set up.
-~~ Sources: app notes 6:67 (sub 6); Praveen CA-360 Jun 2026 magazine p.78 (UPI in Cambodia); PMF LENS Aug 2026-01 p.45 (UPI in 10 countries incl. Maldives)
+~~ Sources: app notes 6:67 (sub 6); Praveen CA-360 Jun 2026 magazine p.78 (UPI in Cambodia); PMF LENS Aug 2026-01 p.45 (UPI in 10 countries incl. Maldives) and Sep 2026-01 p.79 (Uzbekistan); row-33 notes (11 countries with Greece)
 
 === World Elections and Leaders
 # Elections (February 2026)
@@ -239,7 +239,7 @@
 | India–NZ FTA | NZ 100% zero duty; India 95% relief, 57% day one; $20 bn over 15 years |
 | Sri Lanka package | USD 450 mn (350 credit + 100 grant) |
 | Seychelles package | $175 mn |
-| DPI MoUs / UPI countries | 23 / 8 (10 by Aug 2026) |
+| DPI MoUs / UPI countries | 23 / 8 (10–11 by Aug 2026) |
 | PAX SILICA signatories | 35 |
 | Wangchhu | 570 MW (4 × 142.5 MW); Adani 49%, Druk 51% |
 | Israel workers | 50,000 more in five years |

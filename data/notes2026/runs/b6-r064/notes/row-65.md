@@ -24,7 +24,7 @@
 - Nepal plans **10,000 MW** hydropower export to India in a decade.
 - **Nepal banned Indian mango imports** over pesticide residues: **2nd country after Japan**; varieties hit: **Alphonso, Dasheri, Chausa, Kesar, Langra, Banganapalli**; India = world's largest mango producer, about **40%** of output (about **24 million t**); **APEDA est. 1986**.
 - Background: **open border 1,751 km**; **1950 Treaty of Peace and Friendship**; **Pancheshwar project 5,040 MW** (delayed); **Arun-III**; exercise **Surya Kiran**.
-- **UPI accepted in 9 countries**: Singapore, UAE, France, Mauritius, Nepal, Bhutan, **Qatar**, Sri Lanka, **Cambodia** (June 2026); since Aug 2026: **10** – **Maldives** linked its **Favara** system to UPI (PMF LENS Aug 2026-01 p.45).
+- **UPI accepted in 9 countries**: Singapore, UAE, France, Mauritius, Nepal, Bhutan, **Qatar**, Sri Lanka, **Cambodia** (June 2026); later **Maldives** (Favara link, 30 July 2026) – **10 by PMF LENS Aug 2026-01 p.45, 11 in lists that add Greece**; **Uzbekistan** from 1 Sep 2026 (called "11th" by PMF LENS Sep 2026).
 | Bridge (asked before) | Link |
 |---|---|
 | Maitri Setu over Feni | Sabroom (India) – Ramgarh (Bangladesh) |
@@ -323,7 +323,7 @@
 | Green methanol deal | 1,00,000 t/yr |
 | Maritime Development Fund | ₹25,000 crore |
 | Zambia's Hichilema | 61.4% |
-| UPI countries | 9 (June 2026); 10 with Maldives (Aug 2026) |
+| UPI countries | 9 (June 2026); 10–11 by Aug 2026 (Maldives; Greece in some lists); Uzbekistan Sep 2026 |
 # FIRST / LAST / SPECIAL FACTS
 - **First woman PM**: Sanae Takaichi (Japan); Giorgia Meloni (Italy).
 - **First India–Japan defence co-development**: UNICORN stealth mast.
