@@ -1,0 +1,287 @@
+[
+ {
+  "id": "cp5b87189bb931",
+  "row": 1,
+  "s": "Consider the following statements:\n1. The Equator passes through Rwanda.\n2. The Tropic of Cancer passes through Niger.\n3. The Tropic of Capricorn passes through Australia.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: Rwanda is a classic trap – the Equator crosses its neighbours Uganda, Kenya and DR Congo but not Rwanda. The Tropic of Cancer crosses Niger, and the Tropic of Capricorn crosses Australia.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp55ee0f8fe466",
+  "row": 1,
+  "s": "Consider the following statements:\n1. The Arctic Circle lies at 66½°N and crosses Norway, Sweden and Finland.\n2. The Prime Meridian passes through Niger.\n3. Africa is the only continent crossed by the Equator and both the Tropics.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: the Prime Meridian crosses the UK, France, Spain, Algeria, Mali, Burkina Faso, Togo and Ghana – not Niger, which lies on the Tropic of Cancer instead. The Arctic Circle (66½°N) crosses Norway, Sweden and Finland, and Africa alone has the Equator and both Tropics.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpef67ae8ccb6a",
+  "row": 1,
+  "s": "Match List-I (Line) with List-II (Country it does NOT pass through):\nList-I\na. Equator\nb. Tropic of Cancer\nc. Tropic of Capricorn\nd. Arctic Circle (mainland)\nList-II\ni. Iran\nii. Iceland\niii. Rwanda\niv. Bolivia",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-i, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "Rwanda is not on the Equator, Iran is not on the Tropic of Cancer, Bolivia is not on the Tropic of Capricorn, and Iceland's mainland lies just south of the Arctic Circle (only tiny Grímsey is touched).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp888714b10165",
+  "row": 1,
+  "s": "Consider the following statements:\n1. The Tropic of Cancer and the Tropic of Capricorn are 47° apart.\n2. On the December solstice, the noon Sun at the Tropic of Cancer stands at an altitude of 47°.\n3. The torrid zone lies between the two Tropics.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: on the December solstice the Sun is overhead at the Tropic of Capricorn, 47° away, so the noon altitude at the Tropic of Cancer is 90° − 47° = 43°. The Tropics are 47° apart and the torrid zone lies between them.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9d34218537e0",
+  "row": 1,
+  "s": "Consider the following statements about the shape of the Earth:\n1. The term 'geoid' means 'earth-shaped'.\n2. The Earth is an oblate spheroid, flattened at the Equator and bulging at the poles.\n3. The equatorial radius exceeds the polar radius by about 21 km.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 reverses the facts: the Earth is flattened at the poles and bulges at the Equator. Geoid means earth-shaped, and the equatorial radius is about 21 km more than the polar radius (diameters differ by about 43 km).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp127815ea7d51",
+  "row": 1,
+  "s": "Assertion (A): The Earth bulges at the Equator.\nReason (R): The centrifugal force of the Earth's rotation is maximum at the Equator.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the fast-moving equatorial belt has the greatest centrifugal force, which produces the equatorial bulge – not the Sun's pull or stronger sunlight.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb5d960e6436a",
+  "row": 1,
+  "s": "Assertion (A): The weight of an object is least at the poles.\nReason (R): The poles are the points on the Earth's surface nearest to its centre.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: weight is greatest at the poles and least at the Equator. R is true – the poles are about 21 km nearer the centre and have no centrifugal force, which is why g and weight are greater there.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpac6657333b5a",
+  "row": 1,
+  "s": "Match List-I (Measure of the Earth) with List-II (Approximate value):\nList-I\na. Equatorial diameter\nb. Polar diameter\nc. Mean radius\nd. Equatorial circumference\nList-II\ni. 6,371 km\nii. 40,075 km\niii. 12,714 km\niv. 12,756 km",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Equatorial diameter 12,756 km; polar diameter 12,714 km (about 43 km less); mean radius 6,371 km; length of the Equator about 40,075 km.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp896e34a9a4d2",
+  "row": 1,
+  "s": "Consider the following statements:\n1. Latitude is the angular distance of a point north or south of the Equator, measured from the centre of the Earth.\n2. At 1° interval, 181 parallels of latitude are drawn on the globe.\n3. At 1° interval, 360 meridians of longitude are drawn on the globe.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: there are 179 parallels (89 N + 89 S + the Equator), because the poles are points, not circles. Latitude is measured from the Earth's centre, and there are 360 meridians.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf56867b368a6",
+  "row": 1,
+  "s": "Consider the following statements:\n1. One degree of latitude represents about 111 km everywhere.\n2. One degree of longitude represents about 55.5 km at 60° latitude.\n3. One degree of longitude represents about 111 km at the poles.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: meridians converge, so a degree of longitude shrinks from 111 km at the Equator to 55.5 km at 60° and to zero at the poles. A degree of latitude stays about 111 km.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp46249b202620",
+  "row": 1,
+  "s": "Consider the following statements:\n1. The Equator is the only parallel of latitude that is a great circle.\n2. The 60°N parallel is a great circle.\n3. The 0° and 180° meridians together form a great circle.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: every parallel except the Equator is a small circle. A great circle divides the globe into two equal halves – the Equator, and any meridian with its opposite (0° + 180°).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc19ade0635f2",
+  "row": 1,
+  "s": "Match List-I (Extreme of India) with List-II (Point):\nList-I\na. Northernmost\nb. Southernmost (overall)\nc. Easternmost\nd. Westernmost\nList-II\ni. Kibithu\nii. Guhar Moti\niii. Indira Col\niv. Indira Point",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "North – Indira Col (Karakoram, Ladakh); south overall – Indira Point (6°45'N, Great Nicobar, nearest the Equator); east – Kibithu (Arunachal Pradesh, 97°25'E); west – Guhar Moti (Kutch, 68°7'E).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7ba4d0e6399b",
+  "row": 1,
+  "s": "Consider the following statements about India:\n1. It extends from 8°4'N to 37°6'N.\n2. Its north–south extent is about 2,933 km and its east–west extent about 3,214 km.\n3. Its area is 32,87,263 sq km.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 swaps the figures: India is about 3,214 km north–south and 2,933 km east–west. The latitudinal extent 8°4'N–37°6'N and the area 32,87,263 sq km are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp23c1d2039ec3",
+  "row": 1,
+  "s": "Consider the following statements:\n1. The Tropic of Cancer passes through eight Indian States.\n2. Odisha is one of the States crossed by the Tropic of Cancer.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: the eight States are Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram – not Odisha.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfa5ed320d787",
+  "row": 1,
+  "s": "Consider the following statements about Andhra Pradesh:\n1. It lies between 12°41'N and 19°07'N.\n2. It extends from 77°E to 84°40'E.\n3. Its area is about 4.96% of India's area.\n4. It is the fifth largest State in area.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: with 1,62,970 sq km (4.96% of India), Andhra Pradesh is the 7th largest State. It lies wholly between the Equator and the Tropic of Cancer (12°41'N–19°07'N, not up to 22°N) and spans 77°E–84°40'E.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe3b8294f93d1",
+  "row": 1,
+  "s": "Consider the following statements about Andhra Pradesh:\n1. On re-measurement (2025), its coastline is 1,053.07 km, the third longest after Gujarat and Tamil Nadu.\n2. It was reorganised into 26 districts in April 2022.\n3. It has 30 districts as of 2026.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: Andhra Pradesh went from 13 districts (2014) to 26 (April 2022) to 28 as of 2026. The re-measured coastline is 1,053.07 km, third after Gujarat and Tamil Nadu (traditionally 974 km, second).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp98d8041356b5",
+  "row": 1,
+  "s": "Match List-I (Event) with List-II (Year):\nList-I\na. Amundsen reaches the South Pole\nb. International Meridian Conference fixes the Prime Meridian at Greenwich\nc. Mercator projection\nd. Equal Earth projection\nList-II\ni. 1884\nii. 2018\niii. 1569\niv. 1911",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "Amundsen reached the South Pole in 1911; the International Meridian Conference of 1884 fixed the Prime Meridian at Greenwich; Mercator's projection dates from 1569; the Equal Earth projection from 2018.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp77ea7b19e55e",
+  "row": 1,
+  "s": "With reference to the 'Correct the Map' campaign, consider the following statements:\n1. A UNGA resolution of September 2026 promotes the Equal Earth projection over the Mercator projection.\n2. The move was led by Togo and the African Union.\n3. The United States voted in favour of the resolution.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: the non-binding resolution of 4 September 2026 passed 164–1, with the US the one vote against. It was led by Togo and the African Union and promotes the Equal Earth projection.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdb90275e806a",
+  "row": 1,
+  "s": "Match List-I (Pioneer) with List-II (Contribution):\nList-I\na. Eratosthenes\nb. Hipparchus\nc. Anaximander\nd. Ptolemy\nList-II\ni. First Greek world map\nii. First used latitude and longitude (Geographia)\niii. First correct estimate of the Earth's circumference\niv. First divided the circle into 360°",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Eratosthenes (Father of Geography) first estimated the Earth's circumference correctly; Hipparchus first divided the circle into 360°; Anaximander made the first Greek world map; Ptolemy first used latitude and longitude in his Geographia.",
+  "src": "app",
+  "tq": "match"
+ }
+]
