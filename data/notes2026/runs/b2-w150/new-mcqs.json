@@ -19,12 +19,12 @@
   "row": 150,
   "s": "Match List-I (Port in the 'String of Pearls') with List-II (Country):\nList-I | List-II\na. Hambantota | i. Pakistan\nb. Gwadar | ii. Sri Lanka\nc. Chittagong | iii. Myanmar\nd. Kyaukphyu | iv. Bangladesh\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-ii, d-iii",
-   "a-i, b-ii, c-iv, d-iii",
    "a-ii, b-iv, c-i, d-iii",
-   "a-ii, b-i, c-iv, d-iii"
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Hambantota – Sri Lanka; Gwadar – Pakistan; Chittagong – Bangladesh; Kyaukphyu – Myanmar.",
   "src": "app",
   "tq": "match"
@@ -35,11 +35,11 @@
   "s": "Consider the following statements about the India-China boundary:\n1. The McMahon Line, drawn at the Simla Convention of 1914, has been accepted by China as the eastern boundary.\n2. The Johnson Line of 1865 places Aksai Chin in Ladakh and represents India's claim.\n3. China occupies about 38,000 sq km of Indian territory in Aksai Chin.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1, 2 and 3",
    "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "2 and 3 are correct (Johnson Line, W.H. Johnson 1865 – India's claim; ~38,000 sq km occupied in Aksai Chin). 1 is wrong: the McMahon Line (Simla Convention 1914, Henry McMahon) is rejected by China.",
   "src": "app",
   "tq": "statements"
@@ -49,12 +49,12 @@
   "row": 150,
   "s": "Consider the following statements:\n1. India recognised the People's Republic of China on 30 December 1949, the first non-socialist-bloc country to do so.\n2. The Shaksgam Valley was ceded by Pakistan to China under the 1963 Sino-Pakistan Boundary Agreement.\n3. China calls most of Arunachal Pradesh 'South Tibet' and claims about 90,000 sq km in the north-east.\nHow many of the above statements are correct?",
   "o": [
-   "Only one",
+   "All three",
    "Only two",
-   "None",
-   "All three"
+   "Only one",
+   "None"
   ],
-  "a": 3,
+  "a": 0,
   "x": "All three are correct: recognition on 30 December 1949 (ties from 1 April 1950); Shaksgam (Trans-Karakoram Tract) ceded in 1963; China claims ~90,000 sq km, calling Arunachal 'South Tibet'.",
   "src": "app",
   "tq": "statements"
@@ -184,12 +184,12 @@
   "row": 151,
   "s": "Consider the following statements about India-Myanmar relations:\n1. The Kaladan Multi-Modal Transit Transport Project links Kolkata with Mizoram through Chittagong port.\n2. The India-Myanmar-Thailand Trilateral Highway begins at Moreh in Manipur.\n3. The military coup of 1 February 2021 in Myanmar was led by Senior General Min Aung Hlaing.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
    "1 only",
    "1 and 3 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 2,
   "x": "2 and 3 are correct (Moreh–Bagan–Mae Sot highway, ~1,360 km; coup under Min Aung Hlaing). 1 is wrong: the Kaladan route is Kolkata → Sittwe port (Myanmar) → Kaladan river and road → Mizoram, not via Chittagong.",
   "src": "app",
   "tq": "statements"
@@ -290,11 +290,11 @@
   "s": "Match List-I (India–Bangladesh project) with List-II (Nature):\nList-I | List-II\na. Rooppur | i. Rail link\nb. Maitree (Rampal) | ii. Diesel pipeline\nc. Friendship Pipeline | iii. Thermal power plant\nd. Akhaura–Agartala | iv. Nuclear power plant built by Russia\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
    "a-iv, b-i, c-ii, d-iii",
-   "a-iv, b-iii, c-ii, d-i",
-   "a-i, b-iv, c-ii, d-iii"
+   "a-iv, b-iii, c-ii, d-i"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Rooppur – nuclear (Russia-built); Maitree at Rampal – thermal (not hydro); Friendship Pipeline – diesel; Akhaura–Agartala – rail link. All are in Bangladesh, not Sri Lanka.",
   "src": "app",
   "tq": "match"
@@ -320,11 +320,11 @@
   "s": "Consider the following statements:\n1. Katchatheevu was ceded by India to Sri Lanka in 1976.\n2. India banned the LTTE in 1992, after the assassination of Rajiv Gandhi.\n3. In 2009 the Sri Lankan Army crushed the LTTE and its chief V. Prabhakaran was killed.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "2 and 3 only",
    "1 and 2 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "2 and 3 are correct. 1 is wrong: Katchatheevu was ceded in 1974.",
   "src": "app",
   "tq": "statements"
@@ -373,5 +373,200 @@
   "x": "Kosi – 1954; Gandak – 1959; Mahakali Treaty (1996, with Nepal, not Bangladesh) – Sarada, Tanakpur, Pancheshwar; Sugauli Treaty (1816) – base of the Kalapani–Limpiyadhura–Lipulekh dispute (Nepal's new map 2020).",
   "src": "app",
   "tq": "match"
+ },
+ {
+  "id": "cp1c77dc89f932",
+  "row": 152,
+  "s": "Match List-I (Policy) with List-II (Associated with):\nList-I | List-II\na. Look East | i. SAARC leaders at the PM's swearing-in, May 2014\nb. Act East | ii. P.V. Narasimha Rao, 1991–92\nc. Neighbourhood First | iii. East Asia Summit in Myanmar, 2014\nd. Link West | iv. Gulf, Iran and Israel\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 1,
+  "x": "Look East – Narasimha Rao, 1991–92 (economic, ASEAN); Act East – launched at the East Asia Summit in Myanmar, 2014 (not a SAARC Summit); Neighbourhood First – May 2014 swearing-in with SAARC leaders; Link West/Think West – West Asia: Gulf, Iran, Israel.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp55dae2b360c2",
+  "row": 152,
+  "s": "Consider the following statements:\n1. Countering China, new markets and instability in West and Central Asia were drivers of the Look East Policy.\n2. Climate action is the fourth C added to the Commerce, Culture and Connectivity framework of Act East.\n3. Under Act East, India's North-East is treated as the gateway to ASEAN.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: the fourth C is Capacity building, not Climate action.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9383c7551bb9",
+  "row": 152,
+  "s": "Consider the following statements about Act East:\n1. The Akhaura–Agartala rail link is an ASEAN-linked connectivity project with Myanmar.\n2. India and Vietnam raised their ties to a Comprehensive Strategic Partnership in 2016.\n3. The Philippines became India's strategic partner in August 2025.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: Akhaura–Agartala is a rail link with Bangladesh, not ASEAN; the ASEAN-linked projects are Kaladan and the Trilateral Highway.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp39616b4b6a4a",
+  "row": 152,
+  "s": "Consider the following statements about India and Central Asia:\n1. The Connect Central Asia policy was launched in 2012 at Bishkek.\n2. The first India-Central Asia Summit of January 2022 was held physically in New Delhi.\n3. The first India-Central Asia Dialogue of foreign ministers was held at Samarkand in 2019, with Afghanistan invited.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the first India-Central Asia Summit (January 2022) was held virtually; it institutionalised the Connect Central Asia policy.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5e5d1659acb6",
+  "row": 152,
+  "s": "Consider the following statements:\nAssertion (A): In 2026 the USA extended India's sanctions waiver for Chabahar port.\nReason (R): Chabahar, on the Gulf of Oman, gives India access to Afghanistan and Central Asia without depending on Pakistan.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: in 2026 the USA ended, not extended, the waiver. R is true: Chabahar is on the Gulf of Oman, linked to INSTC, and bypasses Pakistan.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp001e6520a334",
+  "row": 152,
+  "s": "Consider the following statements:\n1. The I2U2, called the 'West Asia Quad', comprises India, Israel, the UAE and the USA.\n2. India's Think West doctrine has widened into the I2U2.\n3. The GCC, India's largest socio-economic partner in West Asia, hosts an Indian diaspora of about 1 million.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the GCC hosts about 10 million Indians (trade over $160 billion).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp65f1de28e137",
+  "row": 152,
+  "s": "Match List-I (India's maritime vision) with List-II (When announced):\nList-I | List-II\na. SAGAR | i. November 2019\nb. MAHASAGAR | ii. 2025\nc. SHANTI | iii. 2015\nd. IPOI | iv. July 2026\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "SAGAR – 2015, Mauritius; MAHASAGAR – 2025, Mauritius; SHANTI – 13 July 2026, EAM Jaishankar; IPOI – 14th East Asia Summit, Bangkok, November 2019.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8f7e0cf66185",
+  "row": 152,
+  "s": "Consider the following statements about the full forms of India's maritime visions:\n1. MAHASAGAR stands for Maritime and Holistic Alliance for Security and Growth Across Regions.\n2. SAGAR stands for Security and Growth for All in the Region.\n3. SHANTI stands for Securing Holistic Advancement through Norms, Trust and Integrity.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: MAHASAGAR is Mutual and Holistic Advancement for Security and Growth Across Regions.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp22a26d5abee1",
+  "row": 152,
+  "s": "Consider the following statements:\n1. Under SAGAR, India projects itself as a net security provider in the Indian Ocean Region.\n2. SHANTI is to be operationalised first in the Arabian Sea.\n3. The Colombo Security Conclave began in 2011 as a trilateral of India, Sri Lanka and the Maldives.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: SHANTI is to be applied first in the Bay of Bengal.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5d93bf1ef63c",
+  "row": 152,
+  "s": "Consider the following statements:\n1. India's coastal surveillance radar chain covers Sri Lanka, the Maldives, Mauritius and Seychelles.\n2. The coastal radar chain, IFC-IOR and island projects are flagships of the SAGAR doctrine.\n3. MILAN 2026 was held at Kochi.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: MILAN 2026 was held at Visakhapatnam, tying Andhra Pradesh to Act East and SAGAR.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfdde21a0c9a1",
+  "row": 152,
+  "s": "Consider the following statements:\n1. PM Modi set out India's free, open and inclusive Indo-Pacific vision at the Shangri-La Dialogue in June 2018.\n2. The Shangri-La Dialogue is organised by Singapore's Ministry of Foreign Affairs.\n3. The Indo-Pacific Oceans Initiative has seven pillars.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: the Dialogue, held in Singapore since 2002, is run by the London-based International Institute for Strategic Studies (IISS).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp86af41dd8519",
+  "row": 152,
+  "s": "Consider the following pairs (Project – Country):\n1. Agalega airstrip and jetty – Mauritius\n2. Assumption Island – Maldives\n3. Hanimaadhoo airport – Maldives\n4. Uthuru Thila Falhu harbour – Seychelles\nHow many of the above pairs are correctly matched?",
+  "o": [
+   "Only two",
+   "Only one",
+   "Only three",
+   "All four"
+  ],
+  "a": 0,
+  "x": "Pairs 1 and 3 are correct. 2 is wrong: Assumption Island is in Seychelles. 4 is wrong: Uthuru Thila Falhu harbour is in the Maldives.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9d12183a5447",
+  "row": 152,
+  "s": "Consider the following statements:\nAssertion (A): Neighbourhood First was marked by the invitation to SAARC leaders to the PM's swearing-in in May 2014.\nReason (R): The Gujral Doctrine, a root of Neighbourhood First, emphasised non-reciprocity towards neighbours.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: SAARC leaders were invited in May 2014 (BIMSTEC in 2019), and the Gujral Doctrine stressed non-reciprocity and non-interference. But R is a background principle, not the explanation of the 2014 invitation.",
+  "src": "app",
+  "tq": "assertion"
  }
 ]

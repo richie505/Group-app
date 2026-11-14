@@ -1575,3 +1575,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 380 → 43 kept + 105 new (148, 39%); new 58 statements / 32 match / 14 A–R / 1 sequence; 2 of 203 lines lost (still in PYQ y1dd61c40b86 — relink to 132:3:2/3:4).
 - Removed: gd0d870b0c185 (stem "second longest" vs key "1,053.07 km (3rd)", 5 options), nf03debfaa7d (birth/death rates not in notes).
 - PYQ yda5c44268d9 ("largest tax = Sales tax", old key; now SGST) — ⚠ Outdated chip check.
+
+## rewrite b2-w131 (rows 131–134)
+- own 379 → 53 kept + 88 new (141, 37%); new 57 statements / 21 match / 9 A–R / 1 NOT; no lines lost.
+- f2a01235e6da6, nc5766924921 (AP Devadasis Act 1989; notes Act 10 of 1988) merged with fix. Removed as not in notes: f81e343bd542b, STEP/DWCRA/Swayam Siddha items — possible notes gaps.
