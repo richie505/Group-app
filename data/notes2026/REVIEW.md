@@ -547,3 +547,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Disputes: ya8fb6a1a17b community reserve official UPSC "Only two" (PMF three); y557e5562147 Alipore Zoo Buchanan; y652aba2cf64 NSTR "Five" districts (now 3 in AP, outdated).
 - Outdated: y4ee998b7f381 BRs outside MAB (Cold Desert joined 2025); own MCQ g981e253220aa Ramsar add_option 103.
 - Unverified: y89d59efcfee SV NP statements; 106 ICMBAs, Seychelles tortoises, Atapaka largest pelicanry, Banthara gene bank.
+
+## b5-r092 (Climate change, GHGs)
+- y790dde05a2b RAS 2016 warming order: printed 3 → 0 (NCERT CO2>CH4>CFC>N2O, most-told), dispute keeps WMO order. Owner: confirm official RAS key.
+- Disputes: "safe" warming; UPPSC 2017 CO2 vs humidity; UPSC 2025 atmosphere (d vs c, y268f6083ea2/yae7f9e79ea3 official unconfirmed); TSPSC NOx vs N2O; UPSC 2012 ocean acidification.
+- Unverified printed: y268f6133e9a, y0bb679532a9, ycf097e39a17, yd0d740413e7 CWC 0.5 m, y4bf75a5024f. Kigali "72 bn t" flashcard (~70).
