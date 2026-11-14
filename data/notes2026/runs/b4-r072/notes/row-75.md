@@ -25,7 +25,7 @@
 - **Boya** is a BC community in AP, **not** a plains ST.
 - **Not AP tribes:** **Munda, Santhal, Bhil, Asur** (Jharkhand/central India).
 > Exam angle: odd-one-out – Asur, Munda, Santhal; plains-tribe odd one – Boya.
-~~ Sources: NextGen Indian Geography 15 p.3 (book p.199, AP tribes, 1976 Act list) and p.1 (Chenchu in AP tribe list); app notes 4:75 (sub 3)
+~~ Sources: NextGen Indian Geography 15 p.3 (book p.199, AP tribes, 1976 Act list) and p.2 (Chenchu in the State-wise tribe list); app notes 4:75 (sub 3)
 
 === PVTGs of Andhra Pradesh
 - **12 PVTGs** (list for AP and Telangana together): Bodo Gadaba, Gutob Gadaba, Bondo Poraja, Khond Poraja, Parengi Poraja, **Chenchu**, Dongria Khond, Kutia Khond, **Kolam**, **Konda Reddi**, Konda Savara, **Thoti**. About 7 lie in residual AP.

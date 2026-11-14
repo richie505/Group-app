@@ -46,6 +46,7 @@
 - AP is the **least urbanised southern State** (Tamil Nadu about 48%, Kerala 47.7%, Karnataka 38.6%).
 - 2001–11: urban **109.56 → 146.10 lakh ≈ 33%**; rural only about 1.5%. AP has **3.87%** of India's urban population.
 - **16th Finance Commission "Urbanisation Premium"** rewards merging peri-urban villages into ULBs.
+- Districts (13-district map, 2011): most urban **Visakhapatnam (47.45%)**, then Krishna (40.81%); least **Srikakulam (16.16%)**, Prakasam (19.56%).
 ~~ Sources: AP Socio-Economic Survey 2024-25 p.1 and Annexure 8.3 (p.439); NextGen Indian Geography 15 p.6 (book p.202); undivided-AP 2001 share: general knowledge, not checked
 
 === Urban Schemes and Rankings
