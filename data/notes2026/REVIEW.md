@@ -1328,3 +1328,10 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - PYQ y89e5ea11b2a keyed "Karachi, 1930"; Karachi session was March 1931 — check.
 - Uncertain notes (not used): 200:0:2 Naoroji professor 1854 vs 1855; 203:4:0.0 Kakinada riot July vs 31 May 1907.
 - Removed as not in notes: nd4a41980658 (Regulation III of 1818), n4b1efa16b9d (6 April 1909).
+
+## rewrite b2-w080 (rows 80–82)
+- own 357 → 52 kept + 80 new (132, 37%); new 52 statements / 19 match / 9 A–R; no lines lost. No wrong notes/keys.
+
+## rewrite b4-w073 (rows 73–80)
+- own 424 → 57 kept + 122 new (179, 42%); new 74 statements / 31 match / 16 A–R / 1 sequence; no lines lost.
+- ncee262f33b3 (cities above one lakh "32"; notes + PYQ 31) removed.
