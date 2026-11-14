@@ -744,3 +744,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Own MCQ gfb040bb90acd FATF 39 kept, dispute (40 since Indonesia 2023).
 - BRICS members 11 (Rocket) vs 10 (Saudi invited) — both stated. India–ASEAN full dialogue 1995 vs 1996.
 - Single-source: 153rd IPU Arusha, US "Super Intelligence" EO, SCO 2026 theme.
+
+## b6-r058 (CA rows 58-61 international treaties/orgs)
+- No key changes. Outdated yede9d1f655c WEF head Brende (stepped down Feb 2026; Alois Zwinggi interim).
+- y64f36ef3915 hurricane PYQ moved to b5 r106 (general knowledge key).
+- Rocket-settled: UNESCO Tentative List batch 29 Sep 2026 (total 78); SIOFA Cabinet 14 Oct 2026; Sarnath WHS 25 Jul 2026. Removed unverified "President Gabriel Boric".
