@@ -21,7 +21,7 @@
 | Pittsburgh of India / Steel City | Jamshedpur |
 # Allied centres
 - **Hosiery:** **Ludhiana** (Punjab's industrial capital; also Avon/Hero cycles). **Kota** = synthetic silk. Woollens: Kanpur (first woollen mill 1876), Dhariwal, Ludhiana, Jamnagar, Srinagar.
-- **Handloom and prints:** **Chanderi sarees – Madhya Pradesh**; **Nandana block print – Tarapur village (Neemuch), Madhya Pradesh**.
+- **Handloom and prints:** **Chanderi sarees – Madhya Pradesh**; **Nandana block print – Tarapur village, Madhya Pradesh**.
 > Statement angle (Sachivalayam 2019): "cotton textile = largest organised modern industry" ✓; first mill in New Delhi ✗; South Korea biggest importer ✗.
 ~~ Sources: NextGen Indian Geography - APPSC Exams Part 7.2 p.8 (book p.134); PMF Human & Economic Geography Part 5 p.38-41; Rocket Indian Geography p.94; app notes 4:88 sub 0-1
 
