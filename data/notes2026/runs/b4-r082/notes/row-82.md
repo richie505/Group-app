@@ -15,6 +15,7 @@
 | **Rice** (for pair questions) | **Uttar Pradesh** 2024-25 (20.76 MT) > Telangana > West Bengal | **West Bengal** 1st (till about 2020) |
 | **Wheat** | **Uttar Pradesh** | – |
 | **Mentha oil** | **Uttar Pradesh** (about 85-90%) | – |
+- **Bt cotton** covers **over 90%** of India's cotton area.
 - **Gujarat** once led cotton, groundnut, salt and milk; now it leads groundnut and salt (cotton: Maharashtra; milk: UP).
 - Correct pairs: **Maharashtra – cotton, West Bengal – jute, Gujarat – groundnut**; Kerala – tapioca was also true in the 1990s (Kerala then the leading tapioca State; now Tamil Nadu).
 - **Karnataka** grows coffee, rubber and tobacco together.
@@ -52,7 +53,7 @@
 | **Tea** | 20-30°C, frost-free | **150-300 cm** (150-250 cm in many books), evenly spread | Deep, well-drained, **acidic** (not lime-rich), humus- and iron-rich **hill slopes**; no waterlogging; below 1,800 m |
 | **Coffee** | 15-28°C, **shade**; no frost or strong sun | 150-250 cm | Well-drained loams with humus; Western Ghats |
 | **Rubber** | 25-35°C, hot humid, equatorial | **Over 200 cm** | Laterite of the Western Ghats; not delta flood plains |
-| **Sugarcane** | 21-27°C, hot humid; 10-18 months | 75-150 cm or irrigation | Alluvial / black soil |
+| **Sugarcane** | 21-27°C, hot humid; 10-15 months (Adsali about 18) | 75-150 cm or irrigation | Alluvial / black soil |
 | **Groundnut** | Warm, tropical | 50-125 cm | Light sandy loam; **gypsum** (calcium) for pod filling |
 - **Cotton** is mainly a **kharif** crop; "100 frost-free days" is **not** its requirement (it needs about 210); rainfall 50-75 cm in some books (R.C. Tiwari).
 - Hot humid area, **200 cm rain, hill slopes up to 1,100 m, 15-30°C** → **black pepper**.

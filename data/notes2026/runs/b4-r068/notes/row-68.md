@@ -113,6 +113,7 @@
 | 5 | Tamil | 5.7% |
 - **Marathi passed Telugu** in 2011 (Telugu 3rd in 2001, now 4th). Smallest scheduled: **Sanskrit, Bodo, Manipuri**.
 - World: **Mandarin** – most spoken (native speakers; the usual key); counting second-language users, Ethnologue puts **English** first. **Hindi 2nd/3rd, Bengali 7th, Punjabi 10th**; after Hindi, **Bengali** is the most spoken Indian language worldwide.
+- **World language families:** **Indo-European** largest by speakers (~46%), **Sino-Tibetan** second (Mandarin, Tibetan, Burmese); **Niger-Congo** (incl. **Bantu**, Swahili) has the most languages, **Austronesian** the second most; Afro-Asiatic = Arabic, Hebrew.
 - **Sri Lanka:** official languages **Sinhala** (Simhalam) and Tamil.
 | Survey | Count |
 |---|---|
