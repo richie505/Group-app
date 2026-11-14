@@ -332,7 +332,7 @@
 | **Atal Tunnel** | World's longest highway tunnel above 10,000 ft |
 | **Ken–Betwa** | India's first river interlinking project |
 | **GAGAN** | World's first equatorial SBAS |
-- Maritime: **95% of trade by volume, 70% by value**; **e-Samudra** = single-window faceless maritime portal.
+- Maritime: **95% of trade by volume, 70% by value**; National Waterways **5 → 111**; **e-Samudra** = single-window faceless maritime portal.
 - **National Logistics Policy:** LPI **38 (2023)**; target **top 25 by 2030**.
 - East-West Corridor: **Silchar–Porbandar**.
 - **First double-stack long-haul container train from JNPA** to CONCOR's terminal at **Varnama (Gujarat)**, 21 August 2026; **CONCOR est. 1988**.
