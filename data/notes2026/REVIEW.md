@@ -486,3 +486,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Outdated y9dfb9ed15bd AP SC/ST free power 75 units (now 200).
 - Disputes: SEEPI 2018 top state (Kerala vs AP); RAS 2013 LED/CFL A-R; optical fibre source.
 - Printed-key-only: earth resistance 8 Ω, "70% on 30% land", milk share 18.5%, Aadarana-2, ANGAN NEERMAN, Chandrayaan antenna weight, AP rural LED firsts. UPSC 2025 Surya Ghar keyed from PYQ explanation only.
+
+## b5-r073 (Ecology and ecosystem)
+- Kept printed keys with dispute: producers as "intermediaries" (y729040deca8, ya67a9ac241f; many books say decomposers); biosphere A-R y330fb16b909 (A true R false); photosynthesis day/night y05ea247aa36.
+- Newly keyed with dispute: y1c6e223631a lake; y4dc4faaab9c satellites neither; y5ecda9048bf ecology pairs I, II.
+- Printed-key-only: Bionomics, ecological transition (Bennett), Craib's thinning, water-balance A-R, husband–wife statuses.
+- Skinner operant conditioning moved to b2 r105 (no psychology row).

@@ -83,6 +83,23 @@
 > Exam angle: EIA = project before start; LCA = product life cycle (APPSC 2025).
 ~~ Sources: NextGen Environment APPSC 12 p.1; NextGen Rocket Environment p.67; Shankar Environment Part 9 p.11; app notes 5:77 sub 0-1
 
+=== EIA Cases and Andhra Pradesh Projects
+# Post-facto clearance cases
+| Case | Holding |
+|---|---|
+| Common Cause (2017) | Odisha mining beyond EC – pay **100% of the value** of illegally mined mineral |
+| Alembic v. Rohit Prajapati (2020) | Ex post facto EC contrary to law; **compensation, not closure** of every project; 2002 circular quashed |
+| **Noble M. Paikada (21 Mar 2024)** | Struck down item 6 of the **28 Mar 2020 notification** exempting **extraction of ordinary earth for linear projects (roads, pipelines)** from EC – a blanket exemption violating **Article 14** |
+| Vanashakti (May 2025) | Retrospective EC a "gross illegality" |
+| Recall (Nov 2025) | **2:1** majority recalled it (not unanimous) |
+| Final (**29 July 2026**) | **CJI Surya Kant** bench: **2021 Office Memorandum** nullified **prospectively**; ex post facto EC must meet **Articles 14 and 21** (proportionality) |
+# AP projects
+- **Polavaram:** submergence in **Odisha and Chhattisgarh**; **Telangana** sought EIA review in the SC.
+- **Amaravati:** NGT (17 Nov 2017) upheld the EC; held it **Category B**.
+- **NGT (Dec 2021):** AP government to pay about **Rs 243 crore** environmental compensation to the **APPCB** for Polavaram, Pattiseema, Purushottapatnam and Chintalapudi.
+> Exam angle: "primary issue in Noble M. Paikada" = constitutionality of the 2020 EC exemption for road and pipeline (linear) projects (APPSC 2024).
+~~ Sources: scconline.com (Noble M. Paikada, 26 Mar 2024); app notes 5:77 sub 6, 8
+
 === EIA Process, Notifications, Public Hearing and PARIVESH
 # Stages
 | Stage | What happens |
@@ -119,20 +136,3 @@
 - Members serve 3-4 years; **age limit 70**.
 - **Criticism:** EIAs prepared by **consultants paid by the project proponents**; fix – an **independent EIA authority**.
 ~~ Sources: NextGen Environment APPSC 12 p.1; Shankar Environment Part 9 p.12-14, p.18; PMF Environment Part 6 p.63, p.65; app notes 5:77 sub 2-5, 8
-
-=== EIA Cases and Andhra Pradesh Projects
-# Post-facto clearance cases
-| Case | Holding |
-|---|---|
-| Common Cause (2017) | Odisha mining beyond EC – pay **100% of the value** of illegally mined mineral |
-| Alembic v. Rohit Prajapati (2020) | Ex post facto EC contrary to law; **compensation, not closure** of every project; 2002 circular quashed |
-| **Noble M. Paikada (21 Mar 2024)** | Struck down item 6 of the **28 Mar 2020 notification** exempting **extraction of ordinary earth for linear projects (roads, pipelines)** from EC – a blanket exemption violating **Article 14** |
-| Vanashakti (May 2025) | Retrospective EC a "gross illegality" |
-| Recall (Nov 2025) | **2:1** majority recalled it (not unanimous) |
-| Final (**29 July 2026**) | **CJI Surya Kant** bench: **2021 Office Memorandum** nullified **prospectively**; ex post facto EC must meet **Articles 14 and 21** (proportionality) |
-# AP projects
-- **Polavaram:** submergence in **Odisha and Chhattisgarh**; **Telangana** sought EIA review in the SC.
-- **Amaravati:** NGT (17 Nov 2017) upheld the EC; held it **Category B**.
-- **NGT (Dec 2021):** AP government to pay about **Rs 243 crore** environmental compensation to the **APPCB** for Polavaram, Pattiseema, Purushottapatnam and Chintalapudi.
-> Exam angle: "primary issue in Noble M. Paikada" = constitutionality of the 2020 EC exemption for road and pipeline (linear) projects (APPSC 2024).
-~~ Sources: scconline.com (Noble M. Paikada, 26 Mar 2024); app notes 5:77 sub 6, 8
