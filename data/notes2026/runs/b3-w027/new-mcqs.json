@@ -1,0 +1,182 @@
+[
+ {
+  "id": "cp6a1e9cbce4a8",
+  "row": 27,
+  "s": "Consider the following statements about India's vital rates:\n1. As per SRS 2024, India's Infant Mortality Rate is 24 per 1,000 live births.\n2. As per SRS 2024, India's Under-5 Mortality Rate is 28.\n3. India's Maternal Mortality Ratio in 2023 was 80.5 per 1,000 live births.\n4. As per SRS 2016-20, India's life expectancy at birth is 70.0 years.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 4 are correct (IMR 24, U5MR 28 in SRS 2024; life expectancy 70.0 years in SRS 2016-20). Statement 3 is wrong: MMR 80.5 (2023) is per 1,00,000 live births, not per 1,000 – IMR is per 1,000, MMR per 1,00,000.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2a3bff10b737",
+  "row": 27,
+  "s": "Match List-I (Indicator, SRS 2024) with List-II (State):\nList-I | List-II\na. Highest Crude Birth Rate | i. Bihar\nb. Lowest Crude Birth Rate | ii. Manipur\nc. Highest Infant Mortality Rate | iii. Chhattisgarh\nd. Lowest Infant Mortality Rate | iv. Goa\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "SRS 2024: highest CBR Bihar (26.8), lowest CBR Goa (10.7); highest IMR Chhattisgarh (36), lowest IMR Manipur (2).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp10ea8479e580",
+  "row": 27,
+  "s": "Consider the following statements regarding States (SRS data):\n1. Kerala recorded the lowest Crude Death Rate as per SRS 2024.\n2. Chhattisgarh recorded the highest Crude Death Rate as per SRS 2024.\n3. Chhattisgarh has the highest life expectancy at birth as per SRS 2016-20.\n4. Kerala has the highest share of elderly (60+) population as per SRS 2024.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Only statements 2 and 4 are correct (highest CDR Chhattisgarh 8.4; Kerala's 60+ share about 15%, the highest). Statement 1 is wrong: the lowest CDR in SRS 2024 is Delhi (4.5), not Kerala. Statement 3 is wrong: SRS 2016-20 life expectancy is highest in NCT Delhi (75.8); Chhattisgarh is the lowest (65.1).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6f17b19f8c3d",
+  "row": 27,
+  "s": "Consider the following statements about demographic measures:\n1. The Maternal Mortality Ratio is expressed as maternal deaths per 1,00,000 live births.\n2. The dependency ratio is (0-14 years + 65 years and above) divided by the 15-64 population.\n3. The Infant Mortality Rate is expressed per 1,00,000 live births.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: IMR is infant deaths before age 1 per 1,000 live births; only MMR uses the 1,00,000 base – the classic base trap.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp15e810654fe7",
+  "row": 27,
+  "s": "Consider the following statements about the Total Fertility Rate (TFR):\n1. India's TFR as per NFHS-5 (2019-21) is 2.0.\n2. As per NFHS-5, Bihar has the highest TFR (3.0).\n3. Andhra Pradesh's TFR as per NFHS-5 is 2.1.\n4. As per SRS 2024, India's TFR has been below replacement level for the fifth year running.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: Andhra Pradesh's NFHS-5 TFR is 1.7, well below the replacement level of 2.1.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp14ea05b01af2",
+  "row": 27,
+  "s": "Consider the following statements:\nAssertion (A): The second stage of the demographic transition model is marked by a population explosion.\nReason (R): In the second stage the birth rate stays high while the death rate falls.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: Stage II = high (or rising) birth rate with a falling death rate, so the gap widens and population explodes. Stage II is not 'low birth rate, falling death rate'.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe813b4f3483f",
+  "row": 27,
+  "s": "Match List-I (Idea / Work) with List-II (Propounder):\nList-I | List-II\na. Principle of Population (1798) | i. Edwin Cannan\nb. Optimum population theory | ii. T.R. Malthus\nc. The Population Bomb (1968) | iii. Warren Thompson\nd. Early form of demographic transition theory (1929) | iv. Paul Ehrlich\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Malthus – Principle of Population (geometric population vs arithmetic food); Edwin Cannan – optimum population; Paul Ehrlich – The Population Bomb (1968); Warren Thompson – early form of the transition theory (1929), formalised later by Frank Notestein.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd8519994767f",
+  "row": 27,
+  "s": "Consider the following statements about India's demographic dividend:\n1. India's demographic window of opportunity runs from 2005-06 to 2055-56.\n2. According to the Economic Survey 2018-19, the dividend will peak around 2031.\n3. At the peak, the 20-59 age group will form about 59% of the population.\n4. The 60+ share is expected to reach about 20.5% by 2041.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Only statements 1 and 3 are correct. Statement 2 is wrong: the Economic Survey 2018-19 puts the peak around 2041 (not 2031), when the 20-59 share is about 59%. Statement 4 is wrong: the 60+ share is about 16% in 2041 and 20.5% only by 2051.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe516dd1e633d",
+  "row": 27,
+  "s": "Consider the following statements about India's dependency ratio:\n1. It fell from 79% in 1975 to about 48% by 2021.\n2. Its decline is primarily associated with a fall in fertility.\n3. The old-age dependency ratio in 2011 was 10.9%.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct; a lower dependency ratio signals a potential demographic dividend. 3 is wrong: the old-age dependency ratio was 14.2% in 2011; 10.9% was the 1961 figure.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb9a88d64cacc",
+  "row": 27,
+  "s": "Consider the following statements about the RBI typology of States by demographic phase:\n1. Kerala and Tamil Nadu are in the ageing phase.\n2. Telangana and Uttarakhand are placed in the wide-window phase.\n3. Kerala's 60+ population is projected to reach 22.8% by 2036.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: Telangana and Uttarakhand have a narrowing window; Bihar and UP have the wide window.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5defb97e9b47",
+  "row": 27,
+  "s": "Consider the following statements:\nAssertion (A): Reducing female labour-force participation would weaken India's demographic dividend.\nReason (R): India's female LFPR (PLFS) fell from 41.7% in 2017-18 to 23.3% in 2023-24.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: the dividend needs the working-age population, women included, to work. R is false: female LFPR rose from 23.3% (2017-18) to 41.7% (2023-24) – the figures are reversed.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb4f49e878c47",
+  "row": 27,
+  "s": "Consider the following statements about Andhra Pradesh's demography:\n1. Andhra Pradesh is placed in Stage 4 of the demographic transition.\n2. The median age of Andhra Pradesh's population (32.5) is higher than India's (28).\n3. By 2036 its under-14 share is projected to fall to about 15%.\n4. By 2036 its 60+ share is projected to rise to about 19%.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "All four are correct: AP is a Stage-4 State; median age 32.5 vs India 28; by 2036 the under-14 share falls from 25% to 15% and the 60+ share rises from 10% to 19%.",
+  "src": "app",
+  "tq": "statements"
+ }
+]

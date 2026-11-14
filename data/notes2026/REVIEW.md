@@ -949,3 +949,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b6-w020 rewrite (rows 20-22): own 350 → 154 (44%), 0 lost.
 - b3-w020 rewrite (rows 20-26): own 450 → 183 (41%).
 - b1-w043 rewrite (Satavahana rows 43-47): own 394 → 166 (42%). Notes row 46 7:2 '456 years (271 BC–174 AD)' arithmetic (445).
+- b4-w016 rewrite (rows 16-20): own 443 → 155 (35%). Own nbb145bbdb51 Darwin 'Eastern Australia' (Northern).
