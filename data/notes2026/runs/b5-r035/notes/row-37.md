@@ -1,0 +1,90 @@
+=== Geostationary Orbit – Physics of a Communication Satellite
+| Orbit | Fact |
+|---|---|
+| Low Earth | 160–2,000 km; ISS ~400 km |
+| **Geostationary (GEO)** | About **36,000 km** (35,786 km) above the equator = orbit **radius ~42,000 km** (42,164 km from Earth's centre); period **24 hours (1 day)** |
+| Polar | Passes over the poles |
+| Elliptical | Apogee and perigee differ |
+| Circular | Centripetal force equals gravitational force |
+- **Geostationary:** revolves **in the same direction as the Earth rotates** (west to east) with the same period, so it appears fixed over one point; it stays at a **fixed height** that does **not depend on its mass**.
+- **What keeps it in orbit:** the **centripetal force**, supplied by the **Earth's gravitational pull on the satellite** – not a rocket engine, not the Sun.
+- **No energy needed** to keep orbiting: in near-vacuum there is no drag; solar panels only power the instruments.
+- **Global TV:** **geostationary satellites** relay TV across the world (three cover nearly the whole globe); ground and space waves are short-range.
+- **Uplink / downlink:** sending data **up to the satellite / network** = **uplink**; receiving from it = downlink.
+- Launcher → elliptical **GTO** → satellite's own motor raises it to GEO.
+~~ Sources: PMF S&T Part 1 p.64-66; app notes 5:37 sub 0
+
+=== INSAT System
+# Firsts
+| Year | Milestone |
+|---|---|
+| **19 Jun 1981** | **APPLE** (Ariane Passenger PayLoad Experiment) – first experimental geostationary comsat, on **Ariane-1 from Kourou, French Guiana** |
+| 1982 | INSAT-1A – first INSAT (INSAT-1 series built abroad by Ford Aerospace) |
+| 1983 | INSAT system commissioned; **INSAT-1B** made it operational |
+| 1990 | INSAT-1D – linked India by TV from ~36,000 km |
+| **10 Jul 1992** | **INSAT-2A**, Kourou – first of the fully indigenous INSAT-2 series |
+| **12 Sep 2002** | **METSAT** (PSLV-C4), renamed **KALPANA-1** after Kalpana Chawla – India's **first exclusive weather satellite** |
+# Design and management
+- **INSAT = Indian National Satellite** system: **multipurpose** geostationary system – telecom, TV, **meteorology**, disaster warning, search-and-rescue, tele-education, telemedicine (**not astronomy**); asked as "**Meteorological Satellite**" (not resource, military or polar).
+- Joint venture of **DoS, DoT, IMD, AIR, Doordarshan**; coordinated by **ICC**; **Master Control Facility, Hassan** (Karnataka).
+- **Cyclones** are tracked through **INSAT** (INSAT-3D/3DR imagers); INSAT-3D and 3DR sharply cut cyclone deaths on the east coast, incl. AP. **INSAT-1C** (1988) has no disaster-management role; RISAT-2B, INSAT-3D, INSAT-3DR do.
+# Key INSATs
+| Satellite | Launch | Note |
+|---|---|---|
+| INSAT-3C | Jan 2002, **Ariane-4, Kourou** | Communication |
+| **INSAT-3A** | 10 Apr 2003, Kourou | **Multipurpose** – broadcasting, mobile, meteorology |
+| INSAT-3E | Sep 2003, **Kourou (French Guiana)** | Communication |
+| **INSAT-4A** | **22 Dec 2005**, Ariane-5, Kourou | First of INSAT-4 (3,081 kg) |
+| **INSAT-4C** | **10 Jul 2006**, GSLV-F02 – exploded 60 s after lift-off | **2,168 kg**; replaced by **INSAT-4CR** (Sep 2007, GSLV-F04) |
+- **Launched abroad:** till 2002 **all INSATs** went up from abroad (USA, Kourou); later INSAT-4CR, INSAT-3DR, INSAT-3DS flew on GSLV from Sriharikota.
+- **Launch sites:** **Kourou** (French Guiana, Ariane – Europe's spaceport); **Cape Canaveral** on the Atlantic coast of **Florida** (US); Baikonur (Kazakhstan, Russia).
+- **NSIL** took 10 in-orbit comsats (2022); **19** operational comsats (2026).
+~~ Sources: PMF S&T Part 1 p.98-103, p.106; NextGen S&T G2 Part 2 p.12; app notes 5:37 sub 1
+
+=== GSAT Series – Key Satellites
+| Satellite | Launch | Note |
+|---|---|---|
+| **GSAT-1** | 2001, **GSLV-D1, Sriharikota** | Experimental; digital broadcast and internet payloads |
+| **GSAT-3 (EDUSAT)** | 2004, GSLV-F01 | World's first dedicated **educational** satellite – links schools |
+| **GSAT-8** | **21 May 2011**, Ariane-5 VA-202, Kourou | DTH; **GAGAN** payload (also GSAT-10, -15) |
+| **GSAT-10** | **29 Sep 2012**, Ariane-5 | Heaviest Indian comsat at that time |
+| GSAT-6 | 2015 | **25th** Indian GEO comsat (ISRO-built, not DRDO); large deployable antenna, S-band |
+| **GSAT-18** | **6 Oct 2016**, Ariane-5 VA-231, Kourou | **3,404 kg** – the comsat of October 2016 |
+| **GSAT-19** | 5 Jun 2017, **GSLV Mk III-D1** | 3,136 kg – heaviest satellite launched **by India** then; high-throughput |
+| **GSAT-11** | Dec 2018, **French Guiana** | Heaviest ISRO-built (~5.8 t), HTS, BharatNet |
+| **GSAT-31** | **6 Feb 2019**, Ariane-5, Kourou | DTH, **VSAT links for ATMs, stock exchanges**, e-governance |
+| **GSAT-30** | **17 Jan 2020**, **Ariane-5 VA-251, Kourou** | **Telecommunication**, C and Ku bands; to **GTO**, not a Sun-synchronous orbit |
+| **GSAT-24** | **23 Jun 2022**, **Ariane-5**, Kourou | **4,180 kg**, **24 Ku-band** transponders; NSIL's first demand-driven mission (Tata Play) |
+| CMS-01 | PSLV-C50, Sriharikota | Communication |
+| GSAT-N2 (GSAT-20) | Nov 2024, SpaceX Falcon 9, Cape Canaveral | Ka-band broadband |
+| CMS-03 (GSAT-7R) | 2 Nov 2025, LVM3-M5 | **4,410 kg** – heaviest comsat from Indian soil; Navy |
+- **Other astronomy facts:** **ASTROSAT** (2015) = India's first dedicated astronomy satellite; **Kepler** is NASA's, not ISRO's.
+- **Hughes Communications India** launched India's first **High-Throughput Satellite (HTS) broadband** service with ISRO's GSAT-11 and GSAT-29 capacity (2022).
+- **China:** **Shijian-20**, its heaviest satellite, went up on **Long March 5** (Dec 2019).
+> GSAT-11 = heaviest ISRO-built; CMS-03 = heaviest comsat launched from Indian soil; GSAT-19 = heaviest launched by India in 2017.
+~~ Sources: PMF S&T Part 1 p.103-106; ISRO GSAT-8 and GSAT-18 pages; app notes 5:37 sub 2-3; general knowledge (Hughes HTS, Shijian-20)
+
+=== Strategic and Regional Satellites
+| Satellite | User |
+|---|---|
+| **GSAT-7 "Rukmini"** (INSAT-4F), 30 Aug 2013, Ariane-5 | **Navy** – exclusively **military communication**; replaced by CMS-03 |
+| GSAT-7A "Angry Bird" (2018) | Air Force |
+| GSAT-7B (proposed) | Army |
+- CMS-03: encrypted anti-jam naval links to **2,000 km** offshore.
+- **South Asia Satellite = GSAT-9**, GSLV-F09, **5 May 2017**; for **Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Sri Lanka**; **Pakistan opted out**.
+~~ Sources: PMF S&T Part 1 p.104-105; app notes 5:37 sub 4
+
+=== Transponder Bands and Applications
+| Band | Use |
+|---|---|
+| C / extended C | Telecom, TV distribution |
+| Ku | DTH, VSAT |
+| Ka | High-throughput broadband (GSAT-11, GSAT-N2) |
+| S | Mobile satellite services, DWS downlink |
+- **MF band is NOT used**. High-throughput: GSAT-19, -29, -11, N2; support **BharatNet**.
+- **DTH**, **VSAT**, **DSNG** (news gathering), **MSS** (mobile satellite services), GRAMSAT, telemedicine.
+- **Swayam Prabha**: **GSAT-15**, 40 free DTH education channels.
+- **DWS**: Cyclone Warning Centre **Chennai**; uplink **C**, downlink **S** to addressable coastal receivers.
+- Search and rescue: **COSPAS-SARSAT**.
+- **AP**: SDSC-SHAR gives APSDMA cyclone-track data; RTGS–SHAR MoU (**Jun 2025**); **satellite phones** in emergencies; the AP government signed an MoU with **Malaysia** (MEASAT Satellite Systems) for **Ku-band** services on **MEASAT-1 and MEASAT-2**.
+~~ Sources: PMF S&T Part 1 p.103-105; app notes 5:37 sub 5-6; general knowledge (MEASAT MoU)
