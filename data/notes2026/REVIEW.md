@@ -1166,3 +1166,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 435 → 54 kept + 106 new (160, 37%); new 68 statements / 22 match / 16 A–R; 1 of 247 lines lost.
 - PYQ y6b2a4dee7c6: stem "974 km" but key "3rd" (974 km = 2nd; 1,053 km after 2024 remeasurement = 3rd) — mixed old/new data; check key + ⚠ Outdated chip.
 - Removed own n8297d9c8c7b ("MHA, Dec 2024" remeasurement; notes PIB 4 Dec 2025) and nap-geography-21-6 (Ethipothala → Nagarjuna Sagar, not in notes).
+
+## rewrite b1-w142 (rows 142–147)
+- own 397 → 67 kept + 72 new (139, 35%); new 43 statements / 20 match / 9 A–R; no lines lost.
+- ye9ce6d1bc61 "key = Knew it" — not an error: it is a flashcard-type PYQ (k:"f", at:"Pakistan"); no change.
+- 145:0:4 Dasarathi Satakam translator (Bhanumathi Ramakrishna) "per key" only; 146:0:7 "most orthodox order" official key Suhrawardi vs notes Naqshbandi (standard: Naqshbandi) — Disputed chip check.
