@@ -127,6 +127,7 @@
 | **13** | Enhanced Transparency Framework; Biennial Transparency Reports (first due end-**2024**) |
 | **14** | Global Stocktake every **5 years** (first at COP28) |
 | **28** | Withdrawal: notice after **3 years** from entry into force; effect **1 year** after notice |
+# India's NDC
 | NDC | Emissions-intensity cut (2005 base) |
 |---|---|
 | **INDC 2015** | **33-35% by 2030** (+40% non-fossil power, 2.5-3 bn t carbon sink) |
@@ -149,7 +150,7 @@
 ~~ Sources: PMF Environment Part 06 p.24-26, p.39, p.54, p.57; Rocket Environment p.8, p.17; app notes 5:95 sub 6
 
 === IPCC – Body and Reports
-- Set up **1988** by **WMO and UNEP**; Secretariat **Geneva**; does **no original research**; each report has a **Summary for Policymakers**; **Nobel Peace Prize 2007** with **Al Gore**. WMO grew out of the **International Meteorological Organization (1873)**.
+- Set up **1988** by **WMO and UNEP**; Secretariat **Geneva**; does **no original research**; each report has a **Summary for Policymakers**; **Nobel Peace Prize 2007** with **Al Gore**. **WMO** (1950; UN agency 1951; HQ **Geneva**) grew out of the **International Meteorological Organization (1873)**.
 - Working Groups: **WG I** physical science; **WG II** impacts, adaptation, vulnerability; **WG III** mitigation.
 - **ARs:** AR1 1990, AR2 1995, AR3 2001, AR4 2007, **AR5 2014**, AR6 2021-23 (Synthesis **20 Mar 2023**); **AR7** began **July 2023** (Special Report on **Climate Change and Cities**, 2027).
 | Report | Finding |
