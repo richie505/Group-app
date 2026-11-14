@@ -24,18 +24,20 @@
 > Most-asked angle: "first nuclear power plant" = **Tarapur** (asked ×7), and plant–State matches (Kakrapar Gujarat, Narora UP, Kaiga Karnataka, Kalpakkam/Kudankulam Tamil Nadu, Rawatbhata Rajasthan).
 ~~ Sources: PMF S&T Part 4 (pmf-science-tech-04.txt) p.61, p.67-68; NextGen S&T Group 2 Part 4 p.28 (Tarapur near Bombay, two BWRs; Kota with Canada; Narora UP); PMF Human & Economic Geography Part 4 p.55 (Kakrapar, Surat district); Rocket Indian Geography p.126; WNA India profile (world-nuclear.org); Kaiga 1999-2000: app notes 5:62 sub 0; app notes 5:62 sub 0
 
-=== Kudankulam, Kovvada and Foreign-assisted Projects
-| Project | State | Partner | Reactors |
+=== Nuclear Accidents and Nuclear Security
+| Accident | Country | Year | INES |
 |---|---|---|---|
-| **Kudankulam** | Tamil Nadu | **Russia** (India–USSR accord **1988**) | 2 x **VVER-1000** (PWR) running; construction from **2002**; Units 1-2 dedicated jointly by the Indian PM and Russian President in **2016**; Units 3-6 under construction (6,000 MW in all) |
-| **Jaitapur** | Maharashtra | **France** (EDF) | 6 **EPR**, **9,900 MW** – largest planned; Industrial Way Forward Agreement **March 2018** |
-| **Kovvada** | **Andhra Pradesh** – **Ranastalam, Srikakulam** | **USA** (Westinghouse) | Six **AP1000** PWRs (~6,600 MW proposed); "Kovvada" atomic power project; **pre-construction** |
-| Tarapur 1-2 / RAPS-1 | Maharashtra / Rajasthan | USA / Canada | BWRs / PHWR |
-- **Kudankulam delays:** **disintegration of the USSR** + **civil-society protests** (APPSC G1: "I and III only"; the 1991 crisis is not counted).
-- Kovvada: land for the main plant (2,079.66 acres) acquired; Westinghouse yet to give its techno-commercial offer (Nov 2024); local protests (also at Kudankulam and Jaitapur).
-- Kudankulam's VVERs add **imported light-water** capacity.
-- World's largest nuclear plant by capacity: **Kashiwazaki-Kariwa (Japan)**, recommissioned 2026.
-~~ Sources: PMF Human & Economic Geography Part 4 p.54 (KNPP, VVER-1000, 6,000 MW); PMF S&T Part 4 p.64, p.68 (Jaitapur, Kovvada AP1000, protests); Praveen CA360 Feb 2026 p.78 (Kashiwazaki-Kariwa); app notes 5:62 sub 4
+| SL-1 | USA (Idaho) | 1961 | – |
+| **Three Mile Island** | **USA** (Pennsylvania) | **1979** | 5 (partial meltdown) |
+| **Chernobyl** | **Ukraine** (then USSR) | **26 April 1986** | 7 (worst) – reactor explosion during a test |
+| **Kashiwazaki-Kariwa** | **Japan** | **2007** | Earthquake → radioactive water leak at the world's largest plant |
+| Mayapuri | Delhi, India | 2010 | Orphan Cobalt-60 source |
+| Fukushima Daiichi | Japan (earthquake + tsunami) | 2011 | 7 |
+- Non-nuclear distractors: **Bhopal** (gas leak, 1984), Guadalajara (sewer explosions, 1992), Sayano-Shushenskaya (hydro plant, 2009).
+- **Dirty bomb** (radiological dispersal device): a **conventional explosive** that scatters radioactive material (Cs-137, Co-60); **no** city-flattening atomic blast and it is **cheaper** than a nuclear weapon.
+- **Nuclear Security Summits** (US-led, started by **Obama**, not UN): **Washington 2010 → Seoul 2012 → The Hague 2014 → Washington 2016**; India announced **GCNEP** (now at **Bahadurgarh**) in 2010. The **International Panel on Fissile Materials** is an independent expert group, not an IAEA organ.
+- **ICONS 2024** (IAEA ministerial conference, **Vienna, 20-24 May 2024**): India said it had **reconstituted the inter-ministerial Counter Nuclear Smuggling Team (CNST)**.
+~~ Sources: Rocket Disaster Management p.20 (TMI, Chernobyl, Fukushima, Mayapuri); PMF S&T Part 4 p.33 (Chernobyl test explosion, Fukushima); PMF Environment Part 7 p.112-113; DAE, India's ICONS 2024 statement (dae.gov.in, 21 May 2024); app notes 5:62 sub 10
 
 === Heavy Water and Heavy Water Plants
 - **Heavy water (D₂O)**: discovered by **Harold C. Urey** (with deuterium, 1931; Nobel Chemistry 1934); moderator and coolant in PHWRs.
@@ -50,6 +52,28 @@
 - All under the **Heavy Water Board, Trombay (Mumbai)**, DAE; heavy-water production stays with the Government under the SHANTI Act.
 - UPSC 2005 match: **Thal – Maharashtra, Manuguru – Andhra Pradesh, Kakrapar – Gujarat, Kaiga – Karnataka**.
 ~~ Sources: Heavy Water Board (hwb.gov.in/historical-milestone?page=9: first heavy water at Nangal 9 Aug 1962; HWP Manuguru = largest, hwb.gov.in/about-hwp-manuguru); Wikipedia 'Heavy Water Board' (Manuguru Dec 1991, Thal 1985); PMF Human & Economic Geography Part 4 p.54-55 (UPSC 2005, Thal Raigad, Manuguru Telangana); app notes 5:62 sub 3; Urey: general knowledge, not checked
+
+=== IAEA, Safeguards, NSG and Treaties
+# IAEA
+- **IAEA:** set up **1957**; HQ **Vienna, Austria**; autonomous body in the UN system; ~180 members; **India a founding member**; reports non-compliance to the **UN Security Council**.
+- **Why only some Indian reactors are under IAEA safeguards:** they use **imported uranium**/technology; strategic reactors use domestic uranium.
+- **2006 separation plan:** civil and military facilities separated; civil reactors under safeguards so NSG members could supply fuel.
+- **India-Specific Safeguards Agreement:** **2 February 2009**. **Additional Protocol:** signed **2009**, in force **2014**; implication = **civilian reactors come under IAEA safeguards** (wider access, declared civilian facilities only).
+# NSG and export controls
+- **NSG:** **1975** ("**London Club**"), response to **Pokhran-I (1974)**; **48 members** (China, New Zealand, Ireland are members; **Iran is not**); consensus; no permanent secretariat.
+- India applied **2016**; blocked mainly by **China**; membership would give **technology access + a say in rule-making**, NOT NPT membership.
+- India's regimes: **MTCR 2016 → Wassenaar 2017 → Australia Group 2018**.
+# Treaties
+| Treaty | Year | India |
+|---|---|---|
+| **PTBT** (air, space, underwater tests) | **1963** | Signed |
+| **NPT** | signed 1968, in force **1970** | Never signed – discriminatory |
+| Seabed Treaty | 1971, in force **1972** | – |
+| **SALT II** (US–USSR) | **1979** (not 1967) | – |
+| CTBT | 1996 (not in force) | Not signed – no time-bound disarmament |
+| TPNW | in force **2021** | Not signed |
+- Doctrine: **No First Use**.
+~~ Sources: PMF S&T Part 5 p.13-14 (IAEA 1957 Vienna; UPSC 2020 imported uranium), p.15-22 (NSG 1975, 48 members, India 2016/China; MTCR, WA, AG; NPT, CTBT); app notes 5:62 sub 6-7
 
 === Installed Capacity, NPCIL and World Nuclear Power
 | Item | Value |
@@ -78,42 +102,18 @@
 | **Vietnam** | **9 December 2016**, New Delhi (Vietnam = 14th country) |
 ~~ Sources: PMF S&T Part 4 p.61 (123 Agreement, NSG waiver 2008); PMF S&T Part 5 p.16; examrobot.com (CDS-I 2019 Q: "included" = advance right to reprocess); GKToday 10 Dec 2016 (India–Vietnam civil nuclear deal); 9 Dec 2016 date from web search (Business Standard/PTI); app notes 5:62 sub 5
 
-=== IAEA, Safeguards, NSG and Treaties
-# IAEA
-- **IAEA:** set up **1957**; HQ **Vienna, Austria**; autonomous body in the UN system; ~180 members; **India a founding member**; reports non-compliance to the **UN Security Council**.
-- **Why only some Indian reactors are under IAEA safeguards:** they use **imported uranium**/technology; strategic reactors use domestic uranium.
-- **2006 separation plan:** civil and military facilities separated; civil reactors under safeguards so NSG members could supply fuel.
-- **India-Specific Safeguards Agreement:** **2 February 2009**. **Additional Protocol:** signed **2009**, in force **2014**; implication = **civilian reactors come under IAEA safeguards** (wider access, declared civilian facilities only).
-# NSG and export controls
-- **NSG:** **1975** ("**London Club**"), response to **Pokhran-I (1974)**; **48 members** (China, New Zealand, Ireland are members; **Iran is not**); consensus; no permanent secretariat.
-- India applied **2016**; blocked mainly by **China**; membership would give **technology access + a say in rule-making**, NOT NPT membership.
-- India's regimes: **MTCR 2016 → Wassenaar 2017 → Australia Group 2018**.
-# Treaties
-| Treaty | Year | India |
-|---|---|---|
-| **PTBT** (air, space, underwater tests) | **1963** | Signed |
-| **NPT** | signed 1968, in force **1970** | Never signed – discriminatory |
-| Seabed Treaty | 1971, in force **1972** | – |
-| **SALT II** (US–USSR) | **1979** (not 1967) | – |
-| CTBT | 1996 (not in force) | Not signed – no time-bound disarmament |
-| TPNW | in force **2021** | Not signed |
-- Doctrine: **No First Use**.
-~~ Sources: PMF S&T Part 5 p.13-14 (IAEA 1957 Vienna; UPSC 2020 imported uranium), p.15-22 (NSG 1975, 48 members, India 2016/China; MTCR, WA, AG; NPT, CTBT); app notes 5:62 sub 6-7
-
-=== Nuclear Accidents and Nuclear Security
-| Accident | Country | Year | INES |
+=== Kudankulam, Kovvada and Foreign-assisted Projects
+| Project | State | Partner | Reactors |
 |---|---|---|---|
-| SL-1 | USA (Idaho) | 1961 | – |
-| **Three Mile Island** | **USA** (Pennsylvania) | **1979** | 5 (partial meltdown) |
-| **Chernobyl** | **Ukraine** (then USSR) | **26 April 1986** | 7 (worst) – reactor explosion during a test |
-| **Kashiwazaki-Kariwa** | **Japan** | **2007** | Earthquake → radioactive water leak at the world's largest plant |
-| Mayapuri | Delhi, India | 2010 | Orphan Cobalt-60 source |
-| Fukushima Daiichi | Japan (earthquake + tsunami) | 2011 | 7 |
-- Non-nuclear distractors: **Bhopal** (gas leak, 1984), Guadalajara (sewer explosions, 1992), Sayano-Shushenskaya (hydro plant, 2009).
-- **Dirty bomb** (radiological dispersal device): a **conventional explosive** that scatters radioactive material (Cs-137, Co-60); **no** city-flattening atomic blast and it is **cheaper** than a nuclear weapon.
-- **Nuclear Security Summits** (US-led, started by **Obama**, not UN): **Washington 2010 → Seoul 2012 → The Hague 2014 → Washington 2016**; India announced **GCNEP** (now at **Bahadurgarh**) in 2010. The **International Panel on Fissile Materials** is an independent expert group, not an IAEA organ.
-- **ICONS 2024** (IAEA ministerial conference, **Vienna, 20-24 May 2024**): India said it had **reconstituted the inter-ministerial Counter Nuclear Smuggling Team (CNST)**.
-~~ Sources: Rocket Disaster Management p.20 (TMI, Chernobyl, Fukushima, Mayapuri); PMF S&T Part 4 p.33 (Chernobyl test explosion, Fukushima); PMF Environment Part 7 p.112-113; DAE, India's ICONS 2024 statement (dae.gov.in, 21 May 2024); app notes 5:62 sub 10
+| **Kudankulam** | Tamil Nadu | **Russia** (India–USSR accord **1988**) | 2 x **VVER-1000** (PWR) running; construction from **2002**; Units 1-2 dedicated jointly by the Indian PM and Russian President in **2016**; Units 3-6 under construction (6,000 MW in all) |
+| **Jaitapur** | Maharashtra | **France** (EDF) | 6 **EPR**, **9,900 MW** – largest planned; Industrial Way Forward Agreement **March 2018** |
+| **Kovvada** | **Andhra Pradesh** – **Ranastalam, Srikakulam** | **USA** (Westinghouse) | Six **AP1000** PWRs (~6,600 MW proposed); "Kovvada" atomic power project; **pre-construction** |
+| Tarapur 1-2 / RAPS-1 | Maharashtra / Rajasthan | USA / Canada | BWRs / PHWR |
+- **Kudankulam delays:** **disintegration of the USSR** + **civil-society protests** (APPSC G1: "I and III only"; the 1991 crisis is not counted).
+- Kovvada: land for the main plant (2,079.66 acres) acquired; Westinghouse yet to give its techno-commercial offer (Nov 2024); local protests (also at Kudankulam and Jaitapur).
+- Kudankulam's VVERs add **imported light-water** capacity.
+- World's largest nuclear plant by capacity: **Kashiwazaki-Kariwa (Japan)**, recommissioned 2026.
+~~ Sources: PMF Human & Economic Geography Part 4 p.54 (KNPP, VVER-1000, 6,000 MW); PMF S&T Part 4 p.64, p.68 (Jaitapur, Kovvada AP1000, protests); Praveen CA360 Feb 2026 p.78 (Kashiwazaki-Kariwa); app notes 5:62 sub 4
 
 === Nuclear Safety – AERB and Zones
 - **AERB:** set up **15 November 1983** by **executive order** under the Atomic Energy Act 1962; worked under the **DAE**; **SHANTI Act 2025** gave it **statutory** status.

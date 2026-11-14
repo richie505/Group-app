@@ -63,6 +63,11 @@
 | ISOMED 2.0 | Completed May 2025; gamma irradiator for healthcare products |
 ~~ Sources: PMF S&T Part 5 p.11 (BARC 1954/1967, leading radioisotope producer, Dhruva, Apsara, KAMINI); PMF S&T Part 4 p.63 (radioisotopes for 40+ countries); app notes 5:63 sub 4; Cyclone-30: general knowledge, not checked
 
+=== Radioisotope Thermoelectric Generator (RTG)
+- Turns **decay heat into electricity** via thermocouples – the **Seebeck effect** (thermocouple principle); **not a fission reactor**; no moving parts.
+- Fuel: **Plutonium-238** (by-product of weapons production).
+- Used on **Voyager, Cassini, Curiosity, Perseverance, New Horizons**.
+~~ Sources: PMF S&T Part 4 p.31 (RTG, Pu-238, Voyager, Curiosity, New Horizons); app notes 5:63 sub 6
 === Agriculture, Food and Industry
 - **Mutation breeding**: **L. J. Stadler (1928)**, X-rays on **barley**; later gamma rays. **72** BARC Trombay varieties; **TBM-9 = banana**; **RTS-43 = sorghum**.
 - **Sterile insect technique**: radiation-sterilised males mate with wild females – no viable offspring.
@@ -71,8 +76,3 @@
 - **Industry**: gamma radiography (**Ir-192, Co-60**) for welds; **smoke detectors = Americium-241** (alpha); thickness gauges; **Na-24** tracer for pipeline leaks; port sediment tracers **reduce** desilting; Co-60 sterilises medical products.
 ~~ Sources: PMF S&T Part 4 p.31 (mutation breeding, P-32/N-15, SIT, Na-24 leaks, Ir-192/Co-60 radiography); app notes 5:63 sub 7-8
 
-=== Radioisotope Thermoelectric Generator (RTG)
-- Turns **decay heat into electricity** via thermocouples – the **Seebeck effect** (thermocouple principle); **not a fission reactor**; no moving parts.
-- Fuel: **Plutonium-238** (by-product of weapons production).
-- Used on **Voyager, Cassini, Curiosity, Perseverance, New Horizons**.
-~~ Sources: PMF S&T Part 4 p.31 (RTG, Pu-238, Voyager, Curiosity, New Horizons); app notes 5:63 sub 6
