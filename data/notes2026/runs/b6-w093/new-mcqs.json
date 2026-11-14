@@ -195,17 +195,17 @@
   "tq": "assertion"
  },
  {
-  "id": "cp1a5140b64dbf",
+  "id": "cpe024590807e9",
   "row": 93,
-  "s": "Consider the following statements about energy schemes:\n1. The Renewable Consumption Obligation, formerly the RPO, comes under the Energy Conservation (Amendment) Act, 2022.\n2. The PM Surya Ghar Muft Bijli Yojana gives up to 300 units of free electricity a month.\n3. The National Green Hydrogen Mission aims at 10 MMT of green hydrogen a year by 2030.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about energy schemes:\n1. The Renewable Consumption Obligation, formerly the RPO, comes under the Electricity (Amendment) Act, 2022.\n2. The PM Surya Ghar Muft Bijli Yojana gives up to 300 units of free electricity a month.\n3. The National Green Hydrogen Mission aims at 10 MMT of green hydrogen a year by 2030.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
    "All three",
    "None"
   ],
-  "a": 1,
-  "x": "2 of the 3 statements are correct. Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the target is 5 MMT a year by 2030.",
+  "a": 0,
+  "x": "1 of the 3 statements are correct. Statement 1 is wrong: the RCO comes under the Energy Conservation (Amendment) Act, 2022. Statement 2 is correct. Statement 3 is wrong: the target is 5 MMT a year by 2030.",
   "src": "app",
   "tq": "statements"
  },
@@ -285,17 +285,17 @@
   "tq": "statements"
  },
  {
-  "id": "cpa30cb8710b10",
+  "id": "cpb65ab0096a25",
   "row": 93,
-  "s": "Consider the following statements about Ilaiyaraaja:\n1. He received the Padmapani Award at the Ajanta Ellora International Film Festival, Chhatrapati Sambhaji Nagar.\n2. The Padmapani Award carries a memento, a citation and ₹2 lakh.\n3. He received the Padma Vibhushan in 2010.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about Ilaiyaraaja:\n1. He received the Padmapani Award at the Ajanta Ellora International Film Festival, Chhatrapati Sambhaji Nagar.\n2. The Padmapani Award carries a memento, a citation and ₹5 lakh.\n3. He received the Padma Vibhushan in 2010.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
    "All three",
    "None"
   ],
-  "a": 1,
-  "x": "2 of the 3 statements are correct. Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: he received the Padma Bhushan in 2010 and the Padma Vibhushan in 2018.",
+  "a": 0,
+  "x": "1 of the 3 statements are correct. Statement 1 is correct. Statement 2 is wrong: the Padmapani Award carries a memento, a citation and ₹2 lakh. Statement 3 is wrong: he received the Padma Bhushan in 2010 and the Padma Vibhushan in 2018.",
   "src": "app",
   "tq": "statements"
  },
@@ -825,17 +825,17 @@
   "tq": "match"
  },
  {
-  "id": "cp7cdf7dcaa99c",
+  "id": "cpc3789c2ceb58",
   "row": 94,
-  "s": "Consider the following statements about the Nobel Prizes:\n1. The Physics prize 2025 went to John Clarke, Michel H. Devoret and John M. Martinis.\n2. Peace laureate 2025 María Corina Machado had also won the Sakharov Prize in 2025.\n3. They come from the will of Alfred Nobel (1895), and the Literature prize is given by the Swedish Academy.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about the Nobel Prizes:\n1. The Physics prize 2025 went to John Clarke, Michel H. Devoret and John M. Martinis.\n2. Peace laureate 2025 María Corina Machado had won the Sakharov Prize in 2024.\n3. They come from the will of Alfred Nobel (1895), and the Literature prize is given by the Swedish Academy.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
    "All three",
    "None"
   ],
-  "a": 1,
-  "x": "2 of the 3 statements are correct. Statement 1 is correct. Statement 2 is wrong: Machado won the Sakharov Prize in 2024. Statement 3 is correct.",
+  "a": 2,
+  "x": "3 of the 3 statements are correct. Statement 1 is correct. Statement 2 is correct. Statement 3 is correct.",
   "src": "app",
   "tq": "statements"
  },
@@ -1305,17 +1305,17 @@
   "tq": "match"
  },
  {
-  "id": "cpf261e638c421",
+  "id": "cpe1f5f7fa1e1f",
   "row": 95,
-  "s": "Consider the following statements about BAFTA:\n1. Its trophy is shaped like a theatrical mask.\n2. Its film awards have been officially called the EE British Academy Film Awards since 2016.\n3. The British Academy of Film and Television Arts was established on 29 May 1949 and has its headquarters in London.\nWhich of the above statements is/are correct?",
+  "s": "Consider the following statements about BAFTA:\n1. Its trophy is shaped like a theatrical mask.\n2. Since 2013 its film awards have officially been called the EE British Academy Film Awards.\n3. The British Academy of Film and Television Arts was established on 29 May 1949 and has its headquarters in London.\nWhich of the above statements is/are correct?",
   "o": [
-   "1 and 2 only",
+   "3 only",
    "2 only",
-   "1 and 3 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "1 and 3 only"
   ],
   "a": 2,
-  "x": "Statement 1 is correct. Statement 2 is wrong: the official name has been used since 2013. Statement 3 is correct. Hence the answer is 1 and 3 only.",
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is correct. Hence the answer is 1, 2 and 3.",
   "src": "app",
   "tq": "statements"
  },
