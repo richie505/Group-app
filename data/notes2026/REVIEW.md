@@ -558,3 +558,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Disputes: Coringa mangrove rank; "crocodile endangered"; flying fox vermin UPSC 2024; microscope Leeuwenhoek.
 - Outdated: WPA schedules 6→4; flying fox now Sch II; AWBI HQ Chennai→Ballabhgarh; Corbett "Ramganga" never done.
 - Unverified printed: vegetable zones 8, Madras Act thresholds, Craib's thinning, ICAR pest loss 30-35%, CAMPA 5 years, AP diversion 3,474.57 ha, IFA s.26; AP Nagar Van 13 projects.
+
+## b5-r102 (Soil, noise, thermal, marine, radioactive pollution)
+- y481dad9c427 UPPSC 2009 radioactive effects: helper changed to I and IV; restored printed/most-told "I, III and IV" with dispute.
+- y2044f26b2fa noble gas not in air → Radon (dispute: trace). yc36d0510c53 building material Thorium kept (strictly radon). yd4037a80662 GloLitter "Neither" (official key not found). y1002641afd9 dark sky "None of the above" kept, explanation rewritten.
+- Unverified: sone, 80 dB limit, SC cracker ban, Ennore ships, lead in ink, Sagar Kanya, MRDS.

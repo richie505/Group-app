@@ -57,6 +57,7 @@
 | **India Climate Change Knowledge Portal** | Launched **November 2020** by **MoEFCC**; tracks ministry-wise climate actions |
 | **NAPCC Dashboard** (MoEFCC) | **16 Sep 2026**, with the Net Zero Portal; tracks mission progress |
 | India's Net Zero Portal (MoEFCC) | Voluntary net-zero disclosures |
+# Schemes and funds
 | Scheme / fund | Year | Feature |
 |---|---|---|
 | Climate Change Action Programme (CCAP) | 2014 | **MoEFCC** capacity-building scheme; supports SAPCCs |
