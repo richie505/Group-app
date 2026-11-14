@@ -22,7 +22,7 @@
 | Range (local name) | District(s) | Key feature |
 |---|---|---|
 | **Mahendragiri (Mahendra Girulu)** | **Srikakulam**, into Odisha | Local name of the Ghats in Srikakulam |
-| Papikondalu | Godavari districts | Godavari gorge; average height 915 m |
+| Papikondalu | Godavari districts (not Krishna) | Godavari gorge; average height 915 m; **Papikonda NP** (WLS 1978, NP **2008**) |
 | **Nallamala** | Kurnool, Nandyal, Prakasam, Palnadu (also Telangana) | **Between the Krishna and the Penna**; biggest forest of AP; Srisailam; Chenchus; NSTR |
 | Erramala | Kurnool–Nandyal | Water divide: Krishna (north) / Penna (south) |
 | **Seshachalam** | **YSR Kadapa and Chittoor/Tirupati** | **Tirumala–Tirupati** hills; **Red Sanders (red sandalwood) endemic** – smuggled for export; **Seshachalam Biosphere Reserve** (2010) |
