@@ -88,7 +88,7 @@
 - **AP:** **IIITDM Kurnool** ranked **1st among 100 5G Use Case Labs** (DoT gradation Jan–Jun 2026, all four categories).
 # 6G
 - **Bharat 6G Vision** (PM, **March 2023**): India to lead 6G design, development and deployment by **2030**; **Bharat 6G Alliance** launched **2023**.
-~~ Sources: PMF S&T Part 5 p.29, p.44; dot.gov.in 5G-6G hackathon press release (June 2023); app notes 5:20 sub 0-3
+~~ Sources: PMF S&T Part 5 p.29, p.44; dqindia.com 'DoT launches 5G and Beyond Hackathon 2023' (10 Jul 2023; Rs 1 lakh per winner); DoT press release (100 winners, Rs 1 crore pool – seen in search result only); app notes 5:20 sub 0-3
 
 === Wireless Access – Li-Fi, Wi-Fi, WiMAX, Bluetooth
 | Li-Fi (Light Fidelity) | Wi-Fi |
@@ -136,4 +136,4 @@
 - **EMF limits for towers:** India (from 1 Sept 2012) = **one-tenth of ICNIRP**: **~0.92 W/m² at 1800 MHz** (ICNIRP ~9.2 W/m²). The APPSC key 9.2 W/m² is the ICNIRP value.
 - **TRAI (Feb 2026):** auction across nine bands; uniform **35%** cap; new-entrant net worth **Rs 100 cr → Rs 50 cr**. **SC (Aircel, Feb 2026):** telcos **do not own spectrum**.
 - **Opensignal 4G speeds:** **Airtel** led 4G **download** speed (2018–20 reports); **Vodafone (Vi)** led **upload** speed.
-~~ Sources: tarangsanchar.gov.in / DoT EMF norms (1/10th of ICNIRP, 1 Sept 2012; via search); Opensignal India reports 2019-2020 (via search); app notes 5:20 sub 0, 4
+~~ Sources: DoT EMF norms (1/10th of ICNIRP from 1 Sept 2012 – search result snippets of dot.gov.in / tarangsanchar.gov.in; 0.92 W/m² figure from app notes); thequint.com on Opensignal 2020 report (Airtel download, Vodafone upload); app notes 5:20 sub 0, 4

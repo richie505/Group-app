@@ -10,7 +10,7 @@
 | **Gobind v State of MP (1975)** | Privacy part of personal liberty |
 | **PUCL v UoI (1997)** | Safeguards on **telephone interception** |
 | Puttaswamy (2017) | Privacy = Fundamental Right (Art. 21 + Part III) |
-> Asked 7 times (APPSC AEE 2023, Welfare Officers, Group-2; UPSC 2018, 2021, 2024): the answer is always **Article 21 / Part III**.
+> Asked 6 times (APPSC AEE 2023, Welfare Officers, Group-2; UPSC 2018 ×2, 2021): the answer is always **Article 21 / Part III**.
 ~~ Sources: Laxmikanth 8th ed. Vol. 3 (src/polity/laxmikanth-indian-polity-03.txt) p.42; PMF Polity 01 p.64, p.74; app notes 5:32 sub 0
 
 === GDPR and the Right to Be Forgotten
