@@ -10,7 +10,7 @@ Data: 116 PYQs (pyqs.json, keyed in keys.jsonl) and 332 app MCQs (all-mcqs.json)
 | Printed keys changed | 3, all by an added option: PMAY-G share (no key → "60 : 40"), PMFBY commercial premium (4.5 → "5"), OER definition (MOOC → "Open Educational Resources") |
 | Outdated | 2 (DDU-GKY 75:25 → now 60:40; Jal Jeevan 2024 → now Dec 2028) |
 | -1 keys | 0 |
-| Moved out | 18 (8 to other book-2 rows, 10 to other books) |
+| Moved out | 18 (10 to other book-2 rows, 8 to other books) |
 | App MCQs | 332, none contradicted the sources; 3 got an "add" bullet |
 
 ### Exams
