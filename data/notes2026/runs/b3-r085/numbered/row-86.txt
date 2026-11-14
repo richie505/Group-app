@@ -1,0 +1,56 @@
+=== NEW NOTES row 86
+## SUB 0 | NPA Definition and Asset Classification
+[0:0] - **NPA:** a loan or advance whose **instalment of principal or interest** stays **overdue for more than 90 days** – it has stopped producing income for the bank (not idle deposits, unused capital or low-interest loans).
+[0:1] - **Farm loans:** short-duration crops = overdue **2 crop seasons**; long-duration crops = **1 crop season**.
+[0:2] TABLE head: Class | Criterion
+  [0:2.0] Standard | Regular; no overdue beyond 90 days
+  [0:2.1] SMA-0 / SMA-1 / SMA-2 | Overdue 1-30 / 31-60 / 61-90 days: early warning, still standard
+  [0:2.2] Sub-standard | NPA for 12 months or less
+  [0:2.3] Doubtful | NPA for more than 12 months
+  [0:2.4] Loss | Loss identified by the bank, auditors or RBI inspection, but not wholly written off
+[0:3] - Sequence: Standard → SMA-0/1/2 → NPA (sub-standard → doubtful → loss).
+[0:4] - **Pannir Selvam Committee (1998)** gave a detailed report on the **NPAs of public sector banks** (recovery by arbitration/conciliation).
+[0:5] > Exam angle: 90 days (not 30/60/180); SMA-2 is not an NPA.
+[0:6] ~~ Sources: NextGen Indian Economy - APPSC 08 p.5; testbook.com Pannir Selvam question page
+## SUB 1 | Stress Indicators and Key Terms
+[1:0] TABLE head: Term | Meaning
+  [1:0.0] Gross NPA | All NPAs
+  [1:0.1] Net NPA | Gross NPA − provisions
+  [1:0.2] Stressed assets | NPAs + restructured loans + written-off assets
+  [1:0.3] Interest coverage ratio (ICR) | EBIT ÷ interest due; below 1 = cannot cover interest from earnings; shows the present and emerging risk of a borrower a bank is lending to – a higher ICR means a better ability to service debt
+  [1:0.4] Evergreening | Fresh loans to repay old ones → default stays hidden
+[1:1] - **Balance sheet:** a statement of a firm's **assets and liabilities** on a date – it shows their **size and composition**, not profitability (that is the profit and loss account) or market share.
+[1:2] > Exam angle: UPSC 2020 ICR – statements A and B true; "higher ICR = worse" is false.
+[1:3] ~~ Sources: NextGen Indian Economy - APPSC 08 p.5; app notes 3:86 sub 1
+## SUB 2 | Recognition and Provisioning
+[2:0] - **IRACP** = **Income Recognition, Asset Classification, Provisioning** (prudential norms from 1992).
+[2:1] - **Income recognition:** interest on an NPA is booked as income **only when actually received**.
+[2:2] - **Provision Coverage Ratio (PCR)** = provisions held ÷ gross NPAs; higher PCR → more resilient bank.
+[2:3] - **From 1 April 2027:** **borrower-level tagging** – one NPA loan → all that borrower's loans at the bank become NPAs; **upgrade only after all arrears** on every facility are paid; 90-day test stays; automated identification.
+[2:4] - **ECL model:** RBI moves from the **incurred-loss** model to a forward-looking **3-stage Expected Credit Loss** model.
+[2:5] TABLE head: ECL stage | Provision
+  [2:5.0] Stage 1 (low risk) | 12-month expected loss
+  [2:5.1] Stage 2 (risk rises) | Lifetime expected loss
+  [2:5.2] Stage 3 (over 90 days) | Full lifetime provision
+[2:6] ~~ Sources: app notes 3:86 sub 2
+## SUB 3 | Twin Balance Sheet Problem
+[3:0] - Meaning: **over-leveraged corporates + capital-starved, NPA-laden banks** at the same time.
+[3:1] - Framed in **Economic Survey 2016-17** (CEA **Arvind Subramanian**), which proposed a public sector asset rehabilitation agency (**PARA**).
+[3:2] - Loan losses eat bank capital → banks stop new loans → firms cannot invest → **private investment falls**.
+[3:3] ~~ Sources: Ramesh Singh Part 6 p.77-78; Ramesh Singh Part 5 p.92
+## SUB 4 | Causes of NPAs
+[4:0] - **Aggressive lending (2010-15)** to **infrastructure, steel, power** without strict appraisal → stalled projects.
+[4:1] - Global shocks: 2008 crisis + weak exports. **Evergreening** hid defaults.
+[4:2] - Vicious cycle: lending + shocks → NPAs → **provisioning and capital erosion** → weak credit growth.
+[4:3] ~~ Sources: app notes 3:86 sub 4
+## SUB 5 | Asset Quality Review, 4R and the GNPA Trend
+[5:0] - **AQR by RBI in 2015**: forced recognition; disclosed NPAs jumped, **peaking in March 2018**; exposed the twin balance sheet problem.
+[5:1] - **4R:** **Recognise, Resolve, Recapitalise, Reform**, with the **IBC**, recapitalisation and **NARCL**.
+[5:2] TABLE head: Date | SCB GNPA
+  [5:2.0] Mar 2015 | 4.28% (before AQR)
+  [5:2.1] Mar 2018 | ~11.2% peak
+  [5:2.2] Sep 2025 | 2.15%
+  [5:2.3] Mar 2026 | 1.93%; NNPA 0.39% (decadal low)
+[5:3] - PSBs: 4.97% → 2.58% (Mar 2015 → Mar 2025). Fall due to 4R, higher provisioning, IBC, NARCL.
+[5:4] - **AP angle:** **Andhra Pradesh Grameena Bank** FY26 – GNPA **0.91%**, NNPA **nil**.
+[5:5] ~~ Sources: app notes 3:86 sub 5-6 (RBI FSR figures as carried there)
