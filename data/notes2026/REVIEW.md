@@ -1139,3 +1139,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 399 → 77 kept + 83 new (160, 40%); new 55 statements / 19 match / 9 A–R; 2 of 245 lines lost.
 - Notes conflict: STI ministers' outcome "Chennai Consensus" (row 52) vs "Chennai Declaration" (row 53); kept own g2d98a3c66484 says "Chennai Consensus" — reconcile.
 - FATF membership 38+EC+GCC=40 (row 52) / 40 with Indonesia (row 54); gfb040bb90acd ("39") removed — harmonise.
+
+## rewrite b6-w055 (rows 55–57)
+- own 361 → 79 kept + 86 new (165, 46%); new 61 statements / 17 match / 8 A–R; no lines lost.
+- g12c64ade5afc (5th India–Arab Partnership Conference "Dubai"; notes Muscat) removed.
+- Notes conflict: Russia joined G8 1998 (row 55, 0:6) vs 1997 (row 57, 8:2) — G8 name from Denver 1997, full member Birmingham 1998; harmonise wording.
+- PYQ y59654082c9a says "$300 billion" for Vietnam; notes $300 million (credit line) — check.
