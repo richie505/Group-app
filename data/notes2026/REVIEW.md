@@ -1090,3 +1090,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b4-w037 (rows 37–41)
 - own 440 → 98 kept + 94 new (192, 44%); new 52 statements / 30 match / 12 A–R; no lines lost.
 - Row 40 notes conflict: deodar altitude 1,800–2,600 m (5:1) vs 1,500–3,000 m (5:0.2 table, own fbb175a35c800) — reconcile.
+
+## rewrite b3-w059 (rows 59–62)
+- own 372 → 43 kept + 81 new (124, 33%); new 48 statements / 25 match / 8 A–R; 2 of 225 lines lost.
+- 60:5:8: no option of the fish-growth PYQ matches an official figure — check.
+- 61:2:0.4: Vizag Steel "German and Soviet" vs listed as USSR collaboration — reconcile (it was Soviet-assisted).
