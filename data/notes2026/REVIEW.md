@@ -1610,3 +1610,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b3-w142 (rows 142–144)
 - own 137 → 17 kept + 36 new (53, 39%); new 21 statements / 8 match / 7 A–R; 2 of 96 lines lost (covered by PYQ y509d16972a0).
 - Flawed own keys removed: na60f2cf67aa (two distractors also not ADB nodes), f4af3ce903234 (Parawada is in the APIIC parks table).
+
+## rewrite b3-w133 (rows 133–141)
+- own 431 → 77 kept + 85 new (162, 38%); new 44 statements / 20 match / 20 A–R / 1 sequence; no lines lost.
+- Wrong own keys removed: f4e3634614b35 ("Section 53(1)"; notes Sec 51(1)), f02dd0f57f09e (Schedule IX items 91 with 89 also offered; notes 89 as enacted), n1929158f1a2 (RP Act 1950, not in notes).
+- Notes conflict: row 141 1:2 "IIIT – Kurnool" vs row 134 IIIT Sri City / IIITDM Kurnool — fix row 141.
