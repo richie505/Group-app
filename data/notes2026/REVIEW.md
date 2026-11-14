@@ -1452,3 +1452,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - gdf52fc987aef ("within two months"; notes + PYQ one month) removed.
 - PYQ ye90e5cce165 keys J.S. Sharma as TRAI chairman — correct at exam time, now outdated — ⚠ Outdated chip.
 - PYQ y19340e929af (CDSCO) unlinked, not in notes — notes gap. Mislinked own e.g. nindian-polity-65-5 (AG question → 98:4:3).
+
+## rewrite b5-w099 (rows 99–102)
+- own 372 → 54 kept + 83 new (137, 37%); new 50 statements / 24 match / 9 A–R; 1 of 236 lines lost. No wrong keys.
+- Caveated notes (not used): 99:11:6 Delhi 2021 avg AQI 144 (usual ~209); 101:2:1 Ganga Action Plan 1985 (launched June 1986); 99:3:8 RSPM "<5 µm" (CPCB: PM10) — fix.
