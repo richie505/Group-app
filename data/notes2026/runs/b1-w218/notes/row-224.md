@@ -1,0 +1,91 @@
+=== Government of India Act, 1919 – Features
+# Origin
+- **Montagu Declaration, 20 August 1917:** "progressive realisation of **responsible government** in India as an integral part of the British Empire" – first official promise; pressure mainly from the **Home Rule Leagues**.
+- **Edwin Montagu** = Secretary of State for India; **Lord Chelmsford** = Viceroy; **Montagu-Chelmsford Report, 1918** → **basis of the GoI Act, 1919** (not 1909, 1935 or 1947). The proposals were **constitutional reforms** (UPSC 2016).
+- Passed **1919**, in force **1921**; British PM: **David Lloyd George** (1916-22).
+- **Not** the Morley-Minto Act (that is the **Indian Councils Act, 1909**).
+# Main features
+| Feature | Fact |
+|---|---|
+| Subject lists | **Central and provincial subjects separated** ("Devolution Rules") – jurisdiction of Centre and provinces clearly defined; delegation of authority to provinces |
+| Structure | Still **centralised and unitary** despite devolution |
+| Provinces | **Dyarchy** (reserved / transferred); provincial budgets **separated** from the central budget |
+| Centre | **Bicameral** for the first time: **Council of State** (60) + **Legislative Assembly** (145, 104 elected) |
+| Elections | **Direct elections** for the first time (1909 = indirect); franchise limited by property, tax, education |
+| Electorates | Communal representation **extended** – separate electorates for **Sikhs**, Indian Christians, Anglo-Indians, Europeans (Muslim separate electorates = **1909**) |
+| Executive Council | 3 of the 6 members (other than C-in-C) Indian |
+| High Commissioner | New office of **High Commissioner for India**, London (Spectrum: tenure six years); first holder Sir William Meyer |
+| PSC | **Section 96(C)** → Public Service Commission; set up **1926** (Lee Commission) |
+| Review | **Statutory commission after 10 years** → Simon Commission (1927, two years early) |
+| Princes | **Chamber of Princes** (Narendra Mandal), 1921 |
+- **Statements (CDS 2002):** objectives = **dyarchy in provinces + extension of provincial government**; "power to local government" is not the objective.
+- **IAS 2012 / CDS 2010:** principal features = dyarchy, **devolution of legislative authority** to provinces, **expanded and reconstituted legislatures**; separate electorates for Muslims are **not** a 1919 feature.
+- **A-R (UP UDA 1998):** "structure remained unitary and central" – **true** (Laxmikanth, Spectrum); "large part of authority delegated to provinces" – true, but it does not explain A.
+- **Governor's tenure:** the Act fixed no term; governors (like the Governor-General) were appointed for **five years** by practice.
+# Reactions
+- Congress special **Bombay session, Aug 1918 (Hasan Imam)** condemned the scheme; **Amritsar (1919)**: "inadequate, unsatisfactory and disappointing".
+- Moderates under **Surendranath Banerjee** (with Sapru, Srinivasa Sastri, Jayakar) left and formed the **Indian (National) Liberal Federation** (1919) – not the Swarajya Party.
+- **C.R. Das + Tilak** rejected; **Gandhi + Malaviya**: give a fair trial; **Krishna Patrika**: "giving with the right hand, taking with the left".
+- **AP angle:** **Nyapati Subbarao**'s 27-member Andhra delegation met Montagu at Madras for an **Andhra province**; **Kasinathuni Nageswara Rao** presided over the Special Andhra Mahasabha, **Guntur, 17 Aug 1918**.
+~~ Sources: Laxmikanth 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.31-32; Spectrum (Ahir) p.541-542, p.365; NextGen Indian History APPSC 06 p.55; PMF Modern History 04 p.131, p.134; old app notes 1:224 (Montagu Declaration, reactions, AP delegation)
+
+=== Provincial Dyarchy – Reserved and Transferred Subjects
+# Meaning
+- **Dyarchy (diarchy):** "double rule" (Greek *di-arche*) – the **subjects delegated to the provinces** were divided into two categories, **reserved** and **transferred** (UPSC 2017 – not two central houses, not Centre-State, not London-Delhi).
+- **Introduced by:** the **Government of India Act, 1919** = **Montagu-Chelmsford (Mont-Ford) Reforms** – in the **provinces** (not 1861, 1892, 1909 or 1935; not the Morley-Minto Reforms or the Simon plan).
+- **Aim:** partial **responsible government** in the provinces – the transferred half was run by ministers answerable to the legislature (so A-R "dyarchy = division of administration in two sections; introduced to bring responsible government in provinces": both true, R explains A).
+- **Provinces gained power:** the 1919 Act, not the 1892/1909 Acts or the Gandhi-Irwin Pact, gave provincial governments more powers under dyarchy (APPSC G1 2008).
+# Reserved vs transferred
+| Subjects | Examples | Run by | Answerable to |
+|---|---|---|---|
+| **Reserved** | **Administration of justice, police, land revenue**, finance, prisons, irrigation, control of the press | **Governor + Executive Council** | Not the legislature |
+| **Transferred** | **Local self-government**, education, public health, agriculture | **Governor + Ministers** | **Provincial legislative council** |
+- UPSC 2022 reserved set = **justice, land revenue, police (1, 3, 4)**; **local self-government was transferred**.
+- Flaw: ministers held transferred subjects but **finance stayed reserved**; the experiment was "largely unsuccessful".
+- **Dyarchy at the Centre** = the **1935 Act** (never worked); dyarchy in the **provinces** = **1919**; the 1935 Act abolished provincial dyarchy.
+~~ Sources: Laxmikanth 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.31; PMF Modern History 04 p.131; NextGen Indian History APPSC 06 p.55; Spectrum (Ahir) p.542; Rocket Indian History 02 p.43
+
+=== Rowlatt Act, 1919
+| Particular | Fact |
+|---|---|
+| Official name | **Anarchical and Revolutionary Crimes Act, 1919** |
+| Passed | **March 1919** (not 1917, 1921, 1923) |
+| Basis | **Rowlatt (Sedition) Committee** under **Sir Sidney Rowlatt**; replaced the wartime **Defence of India Act** with a permanent law |
+| Provisions | Arrest on suspicion, **detention without trial** (up to two years), trial without jury |
+| Popular names | **"Black Act" / "Black Bill"** (Gandhi: "Black Law"); "No Vakil, No Appeal, No Daleel" |
+| Response | **Rowlatt Satyagraha** – nationwide hartal **6 April 1919**; **Jallianwala Bagh, 13 April 1919**; satyagraha suspended **18 April 1919** |
+- **"A hungry man being offered stones":** NextGen – the **Rowlatt Act** came when Indians expected reward for war help; "this Act was like giving stones to a hungry man".
+- Not Pitt's India Act, the Indian Arms Act or the Ilbert Bill.
+~~ Sources: NextGen Indian History APPSC 06 p.56, p.73; Spectrum (Ahir) p.352-353; PMF Modern History 04 p.136; Rocket Indian History 02 p.92
+
+=== Working of the 1919 Act – Elections and Legislatures
+# Madras, 1920
+- First elections **1920** under the 1919 Act; **Congress boycotted** (Non-Cooperation).
+- **Justice Party won 63 seats** (APPSC G2 Mains 2017 ×2) → first ministry under **A. Subbarayalu Reddiar** (Dec 1920), then **Raja of Panagal** (1921).
+# Central Legislative Assembly
+- Elections under the 1919 Act: **1923, 1926, 1930, 1934, 1945** – **last in 1945**; **1937** elections (provincial) were under the **1935 Act** (so RAS 2018: 1926 and 1945 only).
+- **Swaraj Party** won **42 of 104** elected seats (1923); worked with independents like **Jinnah** and Malaviya.
+- **Vithalbhai Patel** (Swarajist) elected **President (Speaker)** of the Central Legislative Assembly in **August 1925** – first Indian; first President Frederick Whyte, first Deputy President Sachchidananda Sinha.
+- **AP angle:** **V. Ramadas** elected to the Central Legislative Assembly (1923).
+~~ Sources: Spectrum (Ahir) p.376; PMF Modern History 04 p.154; old app notes 1:224 (Justice Party 63, election years, Ramadas)
+
+=== Acts and Events in Order – Matching and Chronology
+| Act / event | Year | Popular name / basis | Key feature |
+|---|---|---|---|
+| Regulating Act | 1773 | – | Governor-General of Bengal |
+| Pitt's India Act | 1784 | – | Board of Control + Court of Directors |
+| Partition of Bengal | 1905 | Curzon | – |
+| Indian Councils Act | **1909** | **Morley-Minto Reforms** | Separate electorates for Muslims |
+| Lucknow Pact; Home Rule Movement | 1916 | – | – |
+| Rowlatt Act | **March 1919** | – | Detention without trial |
+| GoI Act | **Dec 1919** | **Montagu-Chelmsford Reforms** | Provincial dyarchy |
+| Chauri Chaura | 1922 | – | NCM withdrawn |
+| Simon Commission | **1927** (arrived 1928) | – | Review of 1919 Act |
+| Dandi March / CDM | 1930 | – | – |
+| Gandhi-Irwin Pact | **March 1931** | – | 2nd RTC |
+| GoI Act | **1935** | **Simon Report + Joint Select Committee** | Provincial autonomy, federation |
+| Indian Independence Act | 1947 | **Mountbatten Plan** | Partition |
+- **Match (IAS 2009):** 1909 – Morley-Minto; 1919 – Montagu-Chelmsford; 1935 – Simon Report and Joint Select Committee; 1947 – Mountbatten Plan → **4-3-2-1**.
+- **Wrong pair (APPSC G1 2019):** "Montagu-Chelmsford Reforms – 1929" ✗ (1919); Simon 1927, Rowlatt 1919, GoI Act 1935 ✓.
+- **Orders asked:** Partition of Bengal → Rowlatt → Simon → Gandhi-Irwin (APPSC); Home Rule → Rowlatt → Simon → Gandhi-Irwin (UPPCS 1994); Morley-Minto → Montford → Chauri Chaura → Dandi (IAS 2004); Partition → Lucknow Pact → Rowlatt → Dyarchy (UP 1998); 2nd RTC (1931) → Quit India (1942) → RIN mutiny (1946) (IAS 2017).
+~~ Sources: Spectrum (Ahir) p.541-542; Laxmikanth 8th ed. (src/polity/laxmikanth-indian-polity-01.txt) p.31-32; NextGen Indian History APPSC 06 p.55-60; Rocket Indian History 02 p.43

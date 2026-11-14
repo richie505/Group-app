@@ -1355,3 +1355,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Old WPI base 2011-12 in own g5fa1027782bb, n93acdcfbaa6 (notes: new base 2022-23) — replaced by new match MCQ.
 - Notes conflict: Rastogi/Rustagi panel = service tax review (94:2:18) vs CBDT restructuring (95:0:0.8); kept g647fa5028260 — reconcile.
 - Doubtful 94:2:12 / 96:1:0.1 (IMF advising Maharashtra on VAT) — not used.
+
+## rewrite b1-w205 (rows 205–210)
+- own 398 → 81 kept + 81 new (162, 41%); new 48 statements / 18 match / 14 A–R / 1 sequence; no lines lost.
+- Row 210 conflict: Vijayawada AICC 30–31 Mar 1921 (0:7.2) vs 31 Mar–1 Apr 1921 (3:10) — reconcile.
+- Removed as not in notes: Delhi Durbar 1911, Vanchi Aiyar, Pacific Coast Hindustan Association, Hasan Imam, Hindutva 1923, In Search of Freedom — possible notes gaps. gd9a7792e0643 (Sarfaroshi ki Tamanna → Bismil Azimabadi) removed; PYQ keyed Ram Prasad Bismil, notes explain both.
