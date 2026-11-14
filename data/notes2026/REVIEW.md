@@ -925,3 +925,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b6-w002 rewrite: own 333 → 166 (50%). Removed f9c4628fe16cb, ca0b519c62fa52 (overstated). AP TFR notes 1.5 vs SRS 1.4.
 - b5-w000 rewrite: own 408 → 193 (47%), 0 lines lost.
 - b4-w000 rewrite: own 448 → 204 (46%). Check PYQ y6f5edce2768 Moon distance keyed 364 thousand km (notes 384,400 km); own n28525 coastline 1,054 km (settled 1,053.07).
+- b2-w000 rewrite: own 398 → 181 (45%). Check PYQ y78f266cb399 first Lok Sabha session keyed 18 May 1952 (13 May 1952).
