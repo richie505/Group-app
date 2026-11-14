@@ -35,10 +35,10 @@ Data: 45 PYQs (pyqs.json, all keyed in keys.jsonl) + 137 app MCQs (all-mcqs.json
 ## 2. Weight by sub-topic → notes sub-sections
 | Row | Sub-section | Kept PYQs | Own MCQs |
 |---|---|---|---|
-| 142 | VCIC, ECEC and the Act's Commitment | 5 | 22 |
-| 142 | CBIC, HBIC, DMIC and the National Programme | 4 | 12 |
+| 142 | VCIC, ECEC and the Act's Commitment | 5 | 20 |
+| 142 | CBIC, HBIC, DMIC and the National Programme | 4 | 10 |
 | 142 | APIIC, Industrial Parks, Clusters and SEZs | 5 | 12 |
-| 142 | VCIC Funding and Implementation | 0 | 5 |
+| 142 | VCIC Funding and Implementation | 0 | 6 |
 | 142 | Expressways, Highways and Logistics | 2 | 12 |
 | 143 | AP and SCS – the 2014 Assurance and the Controversy | 3 | 8 |
 | 143 | Origin, Criteria and Benefits of SCS | 1 | 19 |
