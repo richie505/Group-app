@@ -1,0 +1,83 @@
+=== Satellite Navigation Systems of the World – Owners and Full Forms
+# Four global, two regional systems
+| System | Owner | Scope |
+|---|---|---|
+| **GPS** – Global Positioning System | **USA** (Dept of Defense) | Global |
+| **GLONASS** | **Russia** (not the UK) | Global |
+| **Galileo** | **European Union** (not the USA) – live **2016**, under **civilian control**, works with GPS and GLONASS | Global |
+| **BeiDou** | **China** | Global |
+| **NavIC** (formerly IRNSS) | **India** | Regional |
+| **QZSS** (Michibiki) | **Japan** | Regional |
+- **Which country has its own system?** Among Australia, Canada, Israel, Japan only **Japan** (QZSS) does (UPSC 2023).
+- **Galileo Project** (UPSC 2007): Europe's **multi-satellite navigation** project, not a missile shield.
+# GPS basics
+- **GPS** programme begun **1973**, first satellite 1978, fully operational 1995.
+- Original design: **24 satellites in 6 orbits** at about **20,200 km** (MEO); each circles Earth **twice a day**; about 30 in use (2026).
+- Signals in **L1** and **L2** bands; a **1 microsecond** clock error ≈ **300 m** position error.
+- A receiver needs **4 satellites**: 3 for position, 1 to correct its own clock error (trilateration).
+> Exam angle: "wrong pair" items swap owners – GLONASS–UK and Galileo–USA are the traps (APPSC 2018, 2019).
+~~ Sources: PMF S&T Part 1 p.113-117; UPSC 2023 key; app notes 5:38 sub 0
+
+=== NavIC (IRNSS) – Constellation, Coverage and Services
+# Names and genesis
+- **IRNSS = Indian Regional Navigation Satellite System**; operational name **NavIC = Navigation with Indian Constellation**, given by PM **Narendra Modi** (2016).
+- Genesis: the US denied GPS data to India in the **1999 Kargil War** (**Operation Vijay**).
+- NavIC is **independent** of GPS: it keeps its own **Indian time** (IRNSS Network Time, from on-board atomic clocks), not GPS time.
+- Providing PNT since **2018**; India is the **only developing country** with its own independent regional system.
+# Constellation and coverage
+- **7 satellites: 3 GEO + 4 inclined GSO** (at **29°**), about 36,000 km up – not 4 GEO + 3 GSO, not 12.
+- Covers India and **about 1,500 km** beyond its borders (not "5,500 sq km"); **regional, not global** (UPSC 2018: only statement 1 correct).
+- Signals in **L5 and S bands**; the new **NVS** satellites add a civilian **L1** signal.
+| Service | Users | Accuracy |
+|---|---|---|
+| Standard Positioning Service (SPS) | All civilians (open) | Better than **20 m** (about 5 m in practice) |
+| Restricted Service (RS) | Military / authorised | **Encrypted** |
+- Nodal body for NavIC and GAGAN: **Satellite Navigation Programme Office**, ISRO.
+> Exam angle: IRNSS ≠ GAGAN – a statement "IRNSS is also known as GAGAN" is false.
+~~ Sources: NextGen S&T Group 2 Part 2 p.6; PMF S&T Part 1 p.113-118; testbook TSPSC HWO 2018 key (Indian clock)
+
+=== IRNSS and NVS Satellites – Launches and Atomic Clocks
+# Launches
+- **IRNSS-1A**, India's first dedicated navigation satellite: **PSLV-C22**, **1 July 2013**, **Sriharikota**; the whole IRNSS-1 series flew on **PSLV**.
+- **11** navigation satellites launched since 2013, all from Sriharikota.
+| Satellite | Vehicle / date | Note |
+|---|---|---|
+| NVS-01 (2nd generation) | GSLV-F12, May 2023 | First **indigenous rubidium clock** |
+| NVS-02 | GSLV-F15, 29 Jan 2025 | **100th** Sriharikota launch; valve (pyro connector) glitch → wrong orbit |
+# Atomic clocks
+- **Caesium** clock is the world's **standard of time** (the SI second); NavIC satellites carry **rubidium** clocks (three each), smaller but slightly less accurate.
+- First-generation rubidium clocks from Swiss firm **SpectraTime** failed → indigenous clocks by **SAC, Ahmedabad**.
+- **13 Mar 2026:** last clock on **IRNSS-1F** stopped → only **3** PNT satellites (1B, 1I, NVS-01), below the **4** needed for a fix.
+# Limitations
+- **Regional** coverage only; thin **receiver** ecosystem (L5/S rarely in phone chips; L1 on NVS helps); clock failures + NVS-02 failure → NavIC could not fully replace GPS (Mar 2026).
+~~ Sources: PMF S&T Part 1 p.114; Uttarakhand PCS 2012 explanation (PSLV-C22); app notes 5:38 sub 2, 5
+
+=== Uses of GPS and NavIC; Space Weather
+# Applications
+- **GPS / satellite timing** is used in **mobile phone networks, banking and power grids** – all three (UPSC 2018).
+- **Tectonic plate movement** is monitored with **GPS** (with VLBI and SLR) – not GIS or weather radar.
+- NavIC: terrestrial, aerial, marine navigation; **disaster management**; vehicle tracking and **fleet management**; precise timing (IST, power, telecom, banking); mapping and geodesy; **precision farming**; hikers and drivers.
+- **MoRTH AIS-140:** NavIC/GPS trackers and panic buttons compulsory in **public transport and commercial vehicles** (not all private cars).
+- **Qualcomm Snapdragon** chipsets support NavIC; reconfigured **IRNSS-1A** and GEMINI devices send cyclone, tsunami and high-wave alerts to **fishermen**.
+- **Elena Geo Systems:** India's **first NavIC-based device**, for precise directions on infrastructure projects (APPSC 2023).
+- **Himachal Pradesh** made a **GPS device mandatory for trekkers** (June 2019).
+- **APSDMA** uses **Satellite Based Mobile Data Voice (SBMDV)** terminals for real-time satellite communication (IRNSS, NavIC, SBAS are navigation, not communication).
+- Strategic autonomy: forces need not depend on foreign systems in a conflict.
+# Solar storms
+- A major **solar storm** can make **GPS fail**, damage **power grids**, cause **auroras** far from the poles, disturb **satellite orbits** and cut **shortwave radio** on polar flights – not tsunamis or forest fires (UPSC 2022).
+~~ Sources: PMF S&T Part 1 p.115-116; NextGen S&T Group 2 Part 2 p.6; gktoday / Business Standard (HP trekkers, 2019); UPSC 2018, 2022 keys
+
+=== GAGAN and Other Satellite-Based Augmentation Systems
+- **GAGAN = GPS Aided GEO Augmented Navigation**: India's **SBAS**, built jointly by **ISRO + Airports Authority of India** (not DRDO); operational since **2015** (DGCA-certified).
+- Not an independent system: ground reference stations compute live corrections for orbit, clock and **ionospheric delay**, sent via **GEO** satellites → more **accuracy and integrity**.
+- Payloads on **GSAT-8, GSAT-10, GSAT-15**; covers the **Indian Flight Information Region**; precision-like approach (APV-I) without ILS.
+- Benefits go **beyond aviation** – maritime (GEMINI), railways, roads, survey, disaster response – so "only aviation" is false (UPSC 2025: I and II only).
+- GAGAN is one of the systems ISRO uses for **satellite navigation services** (INSAT, IRS, AstroSat are not).
+| SBAS | Region |
+|---|---|
+| WAAS | USA |
+| EGNOS | Europe |
+| MSAS | Japan |
+| GAGAN | India |
+> Exam angle: GAGAN augments GPS for aviation; NavIC is an independent regional system.
+~~ Sources: PMF S&T Part 1 p.118-125 (UPSC 2025 explanation)
