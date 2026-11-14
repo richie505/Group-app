@@ -6,11 +6,11 @@ Data: 82 PYQs keyed in keys.jsonl and 261 app MCQs, 343 in all, every one mapped
 | Item | Count |
 |---|---|
 | PYQs | 82 (75 on these rows, 7 moved) – row 60: 30, row 61: 34 (incl. SEMIS from row 62), row 62: 5, row 63: 6 |
-| Keys from the notes / generated | 46 / 36 |
+| Keys from the notes / generated | 49 / 33 |
 | Printed keys changed | 6 (3 unkeyed now keyed: Meghalaya, Art. 330/332, SC-free list by added option; AP female literacy by added option; SC 2001 17.5% → added 16.2%; Engels "marginal" → "reserve labour force") |
 | -1 (no answer) | 0 |
 | Outdated | 1 (Saakshar Bharat end date) |
-| Disputed | 14 (provisional vs final Census figures, AP 1911, AP CSR 940, British-era life expectancy, NSS statements, Velland, Hastinapura, AP 1991-2001 gain) |
+| Disputed | 13 (provisional vs final Census figures, AP 1911, AP CSR 940, British-era life expectancy, NSS statements, Velland, Hastinapura, AP 1991-2001 gain) |
 
 ### Exams
 | Exam family | PYQs |
