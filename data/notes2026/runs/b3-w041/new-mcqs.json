@@ -1168,5 +1168,440 @@
   "x": "Only two are correct. Statement 3 is wrong: AP has 22 soil categories, of which 10 cover over 88% of the State.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp9c8c923c029a",
+  "row": 46,
+  "s": "Consider the following statements about irrigation sources in India:\n1. Groundwater meets about 64% of India's irrigation needs.\n2. India accounts for about 25% of global groundwater extraction.\n3. Tanks provide about 12% of India's net irrigated area (2021-22).\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two are correct. Statement 3 is wrong: tanks give only 2.8% of net irrigated area; 12% is 'other sources'. Groundwater (~64% of needs) and India's ~25% share of global extraction are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb92a1e18ec11",
+  "row": 46,
+  "s": "Assertion (A): Tank irrigation is important in Andhra Pradesh, Telangana, Karnataka and Tamil Nadu.\nReason (R): These areas have undulating, impervious hard-rock terrain with poor groundwater, where wells fail.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: on hard-rock, impervious terrain wells fail, so tanks store run-off; this is also why tank and well maps are negatively related.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpc3def05caf52",
+  "row": 46,
+  "s": "Match the canal in List I with its source in List II:\nList I (Canal / project)\na. Indira Gandhi Canal\nb. Sirhind Canal\nc. Upper Ganga Canal\nd. Nagarjuna Sagar\nList II (Source)\ni. Ganga at Haridwar\nii. Sutlej at Ropar\niii. Krishna\niv. Harike Barrage (Sutlej-Beas)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 2,
+  "x": "The Indira Gandhi Canal (Rajasthan, ~650 km, longest) draws from the Harike Barrage, not the Ghaggar; Sirhind Canal from the Sutlej at Ropar; Upper Ganga Canal from the Ganga at Haridwar; Nagarjuna Sagar is on the Krishna.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4b634dea1e32",
+  "row": 46,
+  "s": "Consider the following statements:\n1. The Right Canal of Nagarjuna Sagar is the Jawahar Canal.\n2. The Left Canal of Nagarjuna Sagar is the Lal Bahadur Shastri Canal.\n3. Lakhwar is a multipurpose project on the Ganga in Uttarakhand.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "1 only",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Lakhwar (Uttarakhand) is a multipurpose project on the Yamuna. Nagarjuna Sagar's Right Canal = Jawahar Canal and Left Canal = Lal Bahadur Shastri Canal.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbe08656f16ff",
+  "row": 46,
+  "s": "Consider the following statements about the Pradhan Mantri Krishi Sinchayee Yojana (PMKSY):\n1. It was launched on 1 July 2015.\n2. Its 'Per Drop More Crop' component deals with micro-irrigation.\n3. Its State Level Sanctioning Committee is chaired by the Chief Minister.\n4. The Micro Irrigation Fund with NABARD has a corpus of Rs 5,000 crore.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "4 only",
+   "1 and 2 only",
+   "1 only",
+   "3 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is NOT correct: the PMKSY State Level Sanctioning Committee is chaired by the Chief Secretary. The launch date, Per Drop More Crop (micro-irrigation, now under PM-RKVY) and the Rs 5,000 crore MIF are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3090c432e074",
+  "row": 46,
+  "s": "Consider the following statements about watershed development:\n1. Hariyali guidelines came into force on 1 April 2003.\n2. Hariyali, IWDP and NWDPRA were merged into IWMP in 2008.\n3. Under WDC-PMKSY the Centre-State funding changed from 60:40 to 90:10.\n4. WDC 2.0 adds springsheds to watershed development.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 3 reverses the change: funding moved from 90:10 to 60:40 when IWMP was subsumed in PMKSY as WDC-PMKSY (2015).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbc659d704328",
+  "row": 46,
+  "s": "Match List I with List II:\nList I (Watershed initiative)\na. Neeranchal National Watershed Project\nb. Watershed Development Fund (1999-2000)\nc. Tarun Bharat Sangh\nd. Four Waters Concept\nList II (Associated with)\ni. Rajendra Singh\nii. World Bank, nine States\niii. NABARD\niv. T. Hanumantha Rao\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 3,
+  "x": "Neeranchal is World Bank-aided in nine States (incl. AP and Telangana); the Watershed Development Fund (Rs 200 crore) is with NABARD; Tarun Bharat Sangh is Rajendra Singh's Rajasthan NGO; the Four Waters Concept is T. Hanumantha Rao's.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp64a301ca5d4a",
+  "row": 46,
+  "s": "Consider the following statements about groundwater in India:\n1. India's stage of groundwater extraction was 60.63% in 2025.\n2. CGWB categories include Safe, Semi-critical, Critical and Over-exploited.\n3. GRACE satellite studies show the most severe depletion in north-east India.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: GRACE studies show severe depletion in north-west India (Punjab, Haryana, Rajasthan, Delhi). The 60.63% stage (2025) and the CGWB categories are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe68d14f69614",
+  "row": 46,
+  "s": "Consider the following statements about the Atal Bhujal Yojana (December 2019):\n1. It is a World Bank-aided Central Sector scheme of the Ministry of Jal Shakti.\n2. Andhra Pradesh is one of the seven States covered.\n3. It focuses on demand-side community management through Gram Panchayat Water Security Plans.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "1 and 3 only",
+   "1 only",
+   "1 and 2 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is NOT correct: the seven States are Gujarat, Haryana, Karnataka, MP, Maharashtra, Rajasthan and UP; AP is not included.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5abb75afb843",
+  "row": 46,
+  "s": "Match List I with List II with reference to PM-KUSUM:\nList I (Item)\na. Component A\nb. Component B\nc. Component C\nd. Nodal ministry\nList II (Content)\ni. 10,000 MW of decentralised grid-connected solar plants\nii. 14 lakh standalone solar pumps\niii. Solarisation of grid-connected pumps, including feeder level\niv. Ministry of New and Renewable Energy\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 2,
+  "x": "PM-KUSUM (2019, MNRE): A = 10,000 MW decentralised grid-connected plants (0.5-2 MW); B = 14 lakh standalone solar pumps (up to 7.5 HP); C = solarisation of grid-connected pumps incl. feeder-level.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0fb17dfd7f8f",
+  "row": 46,
+  "s": "Assertion (A): PM-KUSUM aims to remove farmers' dependence on diesel and kerosene for irrigation pumps.\nReason (R): Widespread solar pumps may encourage over-drawing of groundwater.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: PM-KUSUM is a solar pump scheme to replace diesel/kerosene, and over-drawing of groundwater is a concern. But the concern does not explain the aim.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpfe6fd7c29c0b",
+  "row": 46,
+  "s": "Consider the following statements about the AP Micro Irrigation Project (APMIP):\n1. It has been in operation since 2003.\n2. Andhra Pradesh ranks first in India in micro-irrigation.\n3. Coastal Andhra accounts for about 64% of its area.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two are correct. Statement 3 is wrong: Rayalaseema accounts for about 64% of the APMIP area. AP has also converged MGNREGA with APMIP.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp17ac9db86e1c",
+  "row": 46,
+  "s": "Consider the following statements about irrigation projects of Andhra Pradesh:\n1. Polavaram has an installed capacity of 960 MW and diverts 80 TMC to the Krishna.\n2. Polavaram is about 89% complete and is targeted for dedication by March 2027.\n3. Polavaram's Left Main Canal serves mainly Prakasam and Nellore districts.\n4. The Veligonda project is named after Poola Subbaiah.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 2 only",
+   "1, 3 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: Polavaram's Left Main Canal goes to East Godavari and Visakhapatnam (Yeleru, Vizag water). The 960 MW, 80 TMC, 89% and March 2027 facts and Veligonda (Poola Subbaiah) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp588e85a3b599",
+  "row": 46,
+  "s": "Consider the following statements about irrigation in Andhra Pradesh:\n1. AP's stage of groundwater development is 31.5%, in the Critical category.\n2. AP's gross irrigated area was 36.77 lakh ha in 2024-25.\n3. Groundwater serves about 41% of AP's gross irrigated area.\n4. AP has 38,862 irrigation tanks.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "3 only",
+   "1 only",
+   "4 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is NOT correct: a 31.5% stage of development is in the Safe category (only 12 of 679 mandals over-exploited). GIA 36.77 lakh ha, groundwater 41% of GIA (~19 lakh borewells) and 38,862 tanks are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5b92998558ec",
+  "row": 46,
+  "s": "Consider the following statements:\n1. The Handri-Neeva Sujala Sravanthi lifts Krishna flood water from Srisailam to Rayalaseema.\n2. The Neeru-Chettu programme for a drought-free AP was launched in 2005.\n3. After bifurcation, groundwater (wells) overtook canals as AP's major source of irrigation.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: Neeru-Chettu was launched in 2015 (drought-free AP through tank desilting). HNSS draws from Srisailam; wells are now AP's major source of net irrigated area.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8c029d46029c",
+  "row": 46,
+  "s": "Consider the following statements about irrigation project classes and AIBP:\n1. A minor irrigation project has a culturable command area of up to 2,000 ha.\n2. A major irrigation project has a culturable command area above 10,000 ha.\n3. Minor irrigation provides about 65% of India's irrigated area.\n4. Of the 99 AIBP priority projects funded through NABARD's LTIF, 18 are in Andhra Pradesh.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 4 is wrong: 8 of the 99 prioritised AIBP projects are in AP. Minor (up to 2,000 ha), medium (2,000-10,000 ha), major (above 10,000 ha); minor irrigation ~65% of irrigated area.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6ac8a0cd9372",
+  "row": 47,
+  "s": "Consider the following statements about water availability:\n1. Per capita annual water availability below 1,700 cubic metres is classified as water-stressed.\n2. Availability below 1,000 cubic metres is classified as water-scarce.\n3. India's per capita availability has already fallen below 1,000 cubic metres, making it water-scarce.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two are correct. Statement 3 is wrong: India (about 4% of the world's water, ~18% of its population) is below 1,700 m3, i.e. water-stressed, not yet water-scarce.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3c66a29e9b83",
+  "row": 47,
+  "s": "Consider the following statements:\n1. Water is Entry 17 of the State List.\n2. Inter-State rivers and river valleys are Entry 56 of the Union List.\n3. Meghalaya was the first State to approve a draft State Water Policy (2019).\n4. Kerala was the first State to make rooftop rainwater harvesting compulsory for all buildings.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 4 is wrong: Tamil Nadu was the first to make rooftop rainwater harvesting compulsory for all buildings. Entry 17 (State List), Entry 56 (Union List) and Meghalaya's 2019 draft policy are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbcfb5b64bec3",
+  "row": 47,
+  "s": "Match List I with List II:\nList I (Body / mission)\na. National Water Resources Council\nb. National Water Mission (NAPCC)\nc. Bureau of Water Use Efficiency\nd. National Hydrology Project\nList II (Fact)\ni. Raise water-use efficiency by 20%\nii. National Water Informatics Centre\niii. Set up in October 2022 under the NWM\niv. Chaired by the Prime Minister\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iv, b-i, c-iii, d-ii"
+  ],
+  "a": 3,
+  "x": "The NWRC is chaired by the PM and adopts the NWP; the National Water Mission targets a 20% rise in water-use efficiency; BWUE (Oct 2022) works under the NWM; the National Hydrology Project (World Bank) sets up the NWIC.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp81b1039d1cbd",
+  "row": 47,
+  "s": "Consider the following statements about water policy in India:\n1. India's first National Water Policy was adopted in 1987.\n2. NWP-2012 provides for a single Union authority replacing State water institutions.\n3. The Jal Shakti Abhiyan (2019) focused on 256 water-stressed districts.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: NWP-2012 proposes a framework law, State Water Regulatory Authorities, recycling and community participation - not a single Union authority replacing State institutions. NWP 1987 and JSA 2019's 256 districts are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp786bf9bf6d17",
+  "row": 47,
+  "s": "Consider the following statements:\n1. The Mihir Shah Committee (2016) recommended restructuring the CWC and CGWB into a National Water Commission.\n2. Gujarat topped NITI Aayog's Composite Water Management Index.\n3. The Annual Ground Water Quality Report 2024 was brought out by the Central Water Commission.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two are correct. Statement 3 is wrong: the Annual Ground Water Quality Report (released 31 Dec 2024) is brought out by the Central Ground Water Board.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp88acb89dcbef",
+  "row": 47,
+  "s": "Match List I with List II:\nList I (Method / practice)\na. Drip irrigation\nb. Sprinkler irrigation\nc. Direct Seeded Rice / SRI\nd. FAO Conservation Agriculture\nList II (Water fact)\ni. About 70-80% efficient\nii. Permanent soil cover of at least 30%\niii. About 90% efficient\niv. Save up to 50% water\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 0,
+  "x": "Drip ~90% (highest), sprinkler ~70-80%, flood 30-50%; DSR and SRI save up to 50% water; FAO Conservation Agriculture needs at least 30% permanent soil cover.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf6b512cc03d7",
+  "row": 47,
+  "s": "Assertion (A): Zero or minimum tillage helps save irrigation water.\nReason (R): It lowers evaporation and keeps soil moisture.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: by leaving the soil undisturbed (and with crop-residue mulch) zero tillage cuts evaporation and retains moisture.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp73cb914b3c83",
+  "row": 47,
+  "s": "Assertion (A): Exporting rice amounts to exporting virtual water.\nReason (R): Virtual water means water lost by evaporation from reservoirs.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: virtual water (Tony Allan) is the water consumed in producing a product, which is why rice exports carry virtual water.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp756fc55b89a8",
+  "row": 47,
+  "s": "Consider the following statements about the National River Linking Project:\n1. The National Perspective Plan was prepared in 1980.\n2. The NWDA was set up in July 1982 as a society.\n3. The NPP has 16 Peninsular and 14 Himalayan links.\n4. DPRs have been completed for all 30 links.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three are correct. Statement 4 is wrong: PFRs exist for all 30 links, FRs for 26 and DPRs for only 14. NPP 1980, NWDA 1982 (not 1970, 1980 or 1992) and 16 + 14 links are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp35ef8ff459da",
+  "row": 47,
+  "s": "Match List I with List II:\nList I (Person)\na. Arthur Cotton\nb. K.L. Rao\nc. Suresh Prabhu\nd. Tony Allan\nList II (Contribution)\ni. Ganga-Cauvery link\nii. First proposed river linking (19th century)\niii. Concept of virtual water\niv. 2002 Task Force on inter-linking of rivers\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "Sir Arthur Cotton first proposed river linking in the 19th century; K.L. Rao the Ganga-Cauvery link; Suresh Prabhu chaired the 2002 Task Force; Tony Allan gave the idea of virtual water.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3aadd21dc2a8",
+  "row": 47,
+  "s": "Consider the following statements about the Ken-Betwa link project:\n1. It is the first National Perspective Plan link to be implemented.\n2. It involves Madhya Pradesh and Uttar Pradesh.\n3. Its Memorandum of Agreement was signed in March 2021.\n4. Its Daudhan Dam lies inside the Kanha Tiger Reserve.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1 and 4 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 4 is wrong: the Daudhan Dam lies inside the Panna Tiger Reserve. Ken-Betwa (MP-UP, MoA March 2021) is the first NPP link implemented.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdbf4bbbea267",
+  "row": 47,
+  "s": "Match the link in List I with its route in List II:\nList I (Link / lift)\na. Godavari-Krishna\nb. Krishna-Pennar\nc. Pennar-Cauvery\nd. Pattiseema lift\nList II (From - To)\ni. Nagarjunasagar to Somasila\nii. Inchampalli to Nagarjunasagar\niii. Polavaram to Prakasam barrage\niv. Somasila to Grand Anicut\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 2,
+  "x": "Godavari-Cauvery link: Godavari-Krishna (Inchampalli to Nagarjunasagar), Krishna-Pennar (Nagarjunasagar to Somasila), Pennar-Cauvery (Somasila to Grand Anicut). Pattiseema lifts Godavari water from Polavaram to the Prakasam barrage.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp739005aa1a20",
+  "row": 47,
+  "s": "Consider the following statements about Command Area Development:\n1. The CAD Programme (1974-75) aimed to narrow the gap between irrigation potential created and utilised.\n2. Andhra Pradesh set up its Command Area Development Authority in August 1974.\n3. CADWM operates under the 'Per Drop More Crop' component of PMKSY.\n4. M-CADWM from 2025-26 has an outlay of Rs 1,600 crore.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 4 only",
+   "3 only",
+   "1 only",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is NOT correct: CADWM operates under PMKSY-Har Khet Ko Pani (no new approvals after 2021-22). The CAD aim, AP CADA (Aug 1974) and M-CADWM's Rs 1,600 crore (piped irrigation, SCADA/IoT) are correct.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
