@@ -897,3 +897,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b1-p207: 48 adds. Doubtful: y5b3a9368d18 Himalayan blunder; yeda40046811 Sabarmati 1915-16 vs 1917; g2fd56a52c2c3/nap-history-5-19 'Andhra Gandhi' contradiction; y11f8e5b87c2 Kesava Pillai vs Nyapati Subba Rao; y913e20a96be Montagu date; y934474462c7 unkeyed. Unverified: y599988d6dff, y720bd659fee, ye476efde4d0, y2f85737053c.
 - b2-p159: 25 adds. Fixed row 164 Coast Guard 1978 (Act; interim 1 Feb 1977). Unverified: laminated ration cards 2005, NTR Grameena Gruha Rs 2 lakh, Chandranna Bima 1,93,819, 7 ESI hospitals.
 - b1-s01 (73 weak history keys): 54 confirmed, 2 corrected (y1c3df5bb5da -1 → Theodore Beck; y73532354573 -1 → 1892), 17 unverifiable. yc28bf71f500 Cabinet Mission keys split (dispute).
+- b3-s02 (22): 17 confirmed, 0 corrected, 5 unverifiable; yf3d3fa13224 printed key 18.7 restored (was -1). ye67bb6889d5 outdated (AP agri labour now 45.6%).
