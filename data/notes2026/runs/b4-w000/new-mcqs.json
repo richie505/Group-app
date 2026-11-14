@@ -15,14 +15,14 @@
   "tq": "statements"
  },
  {
-  "id": "cpd9a9f3fe1eee",
+  "id": "cp8e6d454d2382",
   "row": 0,
-  "s": "Match List-I (Planet) with List-II (Feature):\nList-I\na. Uranus\nb. Neptune\nc. Saturn\nd. Mars\nList-II\ni. Least dense, less dense than water\nii. Day of 24 h 37 min; the 'Red Planet'\niii. Rotates on its side; lowest single temperature (about −224°C)\niv. Coldest on average (about −200°C); longest year among the planets",
+  "s": "Match List-I (Planet) with List-II (Feature):\nList-I\na. Uranus\nb. Neptune\nc. Saturn\nd. Mars\nList-II\ni. Rotates on its side; lowest single temperature (about −224°C)\nii. Day of 24 h 37 min; the 'Red Planet'\niii. Coldest on average (about −200°C); longest year among the planets\niv. Least dense, less dense than water",
   "o": [
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i",
    "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-iv, c-i, d-ii"
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-iii, c-iv, d-ii"
   ],
   "a": 3,
   "x": "Uranus rotates on its side and recorded the lowest single temperature (~−224°C); Neptune is coldest on average (~−200°C) with the longest planetary year (164.9 yr); Saturn (0.7 g/cm³) is less dense than water; Mars, the Red Planet, has a 24 h 37 min day.",
@@ -75,16 +75,16 @@
   "tq": "statements"
  },
  {
-  "id": "cp1f811b338c5d",
+  "id": "cpf10c75ece1cd",
   "row": 0,
-  "s": "Match List-I (Moon) with List-II (Planet / dwarf planet):\nList-I\na. Titan\nb. Europa\nc. Charon\nd. Phobos\nList-II\ni. Mars\nii. Pluto\niii. Saturn\niv. Jupiter",
+  "s": "Match List-I (Moon) with List-II (Planet / dwarf planet):\nList-I\na. Titan\nb. Europa\nc. Charon\nd. Phobos\nList-II\ni. Mars\nii. Jupiter\niii. Pluto\niv. Saturn",
   "o": [
-   "a-iii, b-iv, c-ii, d-i",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iv, b-ii, c-i, d-iii",
    "a-iv, b-iii, c-ii, d-i",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iii, b-ii, c-iv, d-i"
+   "a-iv, b-ii, c-iii, d-i"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Titan is Saturn's largest moon; Europa (ocean under ice) is a Galilean moon of Jupiter; Charon is the largest of Pluto's five moons (Charon, Styx, Nix, Kerberos, Hydra); Phobos and Deimos are the moons of Mars.",
   "src": "app",
   "tq": "match"
@@ -135,14 +135,14 @@
   "tq": "statements"
  },
  {
-  "id": "cp8645fc437218",
+  "id": "cp2f0d72160735",
   "row": 0,
-  "s": "Match List-I with List-II:\nList-I\na. Cosmology\nb. Cepheids\nc. Milky Way\nd. International Astronomical Union\nList-II\ni. Barred spiral galaxy\nii. Recognises 88 constellations\niii. Study of the origin, evolution and structure of the universe\niv. Used to measure astronomical distances",
+  "s": "Match List-I with List-II:\nList-I\na. Cosmology\nb. Cepheids\nc. Milky Way\nd. International Astronomical Union\nList-II\ni. Used to measure astronomical distances\nii. Barred spiral galaxy\niii. Study of the origin, evolution and structure of the universe\niv. Recognises 88 constellations",
   "o": [
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iv, b-iii, c-i, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
    "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-iv, c-i, d-ii"
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-i, c-ii, d-iv"
   ],
   "a": 3,
   "x": "Cosmology studies the universe; Cepheids (stars that brighten and dim) measure astronomical distances; the Milky Way is a barred spiral galaxy; the IAU (founded 1919, Paris) recognises 88 constellations.",
@@ -165,16 +165,16 @@
   "tq": "statements"
  },
  {
-  "id": "cp6da15f2c2574",
+  "id": "cpbeeadaa83319",
   "row": 0,
-  "s": "Match List-I (Planet) with List-II (Period of revolution):\nList-I\na. Mercury\nb. Mars\nc. Jupiter\nd. Neptune\nList-II\ni. 11.86 years\nii. 164.9 years\niii. 88 days\niv. 687 days",
+  "s": "Match List-I (Planet) with List-II (Period of revolution):\nList-I\na. Mercury\nb. Mars\nc. Jupiter\nd. Neptune\nList-II\ni. 11.86 years\nii. 164.9 years\niii. 687 days\niv. 88 days",
   "o": [
    "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
    "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-i, c-iv, d-ii"
+   "a-iv, b-i, c-iii, d-ii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Mercury 88 days, Mars 687 days, Jupiter 11.86 years, Neptune 164.9 years – the period grows with distance from the Sun.",
   "src": "app",
   "tq": "match"
@@ -304,12 +304,12 @@
   "row": 0,
   "s": "Match List-I (Layer of the Sun) with List-II (Feature):\nList-I\na. Core\nb. Photosphere\nc. Chromosphere\nd. Corona\nList-II\ni. Reddish lower atmosphere (~4,300°C), seen at eclipses\nii. Outermost layer, over 1 million °C, visible during a total solar eclipse\niii. Hydrogen fuses into helium at about 15 million °C\niv. Bright visible surface at about 5,500–6,000°C",
   "o": [
-   "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-iv, c-i, d-ii",
    "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i"
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Core – fusion at ~15 million °C; photosphere – the bright visible surface (~5,500–6,000°C); chromosphere – reddish lower atmosphere (~4,300°C); corona – outermost, over 1 million °C, seen in a total solar eclipse.",
   "src": "app",
   "tq": "match"
@@ -330,16 +330,16 @@
   "tq": "statements"
  },
  {
-  "id": "cpca7e4a8faf5f",
+  "id": "cp251d61bc8d57",
   "row": 0,
-  "s": "Match List-I (Hypothesis) with List-II (Proponent):\nList-I\na. Planetesimal hypothesis\nb. Tidal hypothesis\nc. Nova hypothesis\nd. Interstellar dust hypothesis\nList-II\ni. Hoyle and Lyttleton\nii. Otto Schmidt\niii. Chamberlin and Moulton\niv. James Jeans and Harold Jeffreys",
+  "s": "Match List-I (Hypothesis) with List-II (Proponent):\nList-I\na. Planetesimal hypothesis\nb. Tidal hypothesis\nc. Nova hypothesis\nd. Interstellar dust hypothesis\nList-II\ni. Chamberlin and Moulton\nii. Hoyle and Lyttleton\niii. Otto Schmidt\niv. James Jeans and Harold Jeffreys",
   "o": [
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-iv, c-ii, d-i"
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Planetesimal – Chamberlin and Moulton (1904); Tidal – Jeans and Jeffreys; Nova – Hoyle and Lyttleton; Interstellar dust (Earth from gases and dust) – Otto Schmidt (1943).",
   "src": "app",
   "tq": "match"
@@ -360,14 +360,14 @@
   "tq": "statements"
  },
  {
-  "id": "cp296f3b065b78",
+  "id": "cp03f9cbe7a202",
   "row": 0,
-  "s": "Match List-I (Astronomer) with List-II (Discovery):\nList-I\na. William Herschel\nb. Johann Galle\nc. Clyde Tombaugh\nd. Galileo\nList-II\ni. Pluto, 1930\nii. Four large moons of Jupiter, 1610\niii. Uranus, 1781\niv. Neptune, 1846",
+  "s": "Match List-I (Astronomer) with List-II (Discovery):\nList-I\na. William Herschel\nb. Johann Galle\nc. Clyde Tombaugh\nd. Galileo\nList-II\ni. Neptune, 1846\nii. Four large moons of Jupiter, 1610\niii. Pluto, 1930\niv. Uranus, 1781",
   "o": [
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iii, b-i, c-iv, d-ii"
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii"
   ],
   "a": 2,
   "x": "Herschel discovered Uranus (1781); Galle first saw Neptune (1846); Tombaugh discovered Pluto (1930); Galileo saw Io, Europa, Ganymede and Callisto (1610).",
@@ -405,16 +405,16 @@
   "tq": "statements"
  },
  {
-  "id": "cpe1b716ceb5b9",
+  "id": "cp9bd9ea72dd1b",
   "row": 0,
-  "s": "Match List-I with List-II:\nList-I\na. Meteor\nb. Meteorite\nc. Bolide\nd. Leonids\nList-II\ni. Debris of Comet Tempel-Tuttle\nii. Explodes in the air\niii. Shooting star\niv. Reaches the ground",
+  "s": "Match List-I with List-II:\nList-I\na. Meteor\nb. Meteorite\nc. Bolide\nd. Leonids\nList-II\ni. Shooting star\nii. Explodes in the air\niii. Debris of Comet Tempel-Tuttle\niv. Reaches the ground",
   "o": [
-   "a-iv, b-iii, c-ii, d-i",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-ii, c-iv, d-i"
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iv, d-iii"
   ],
-  "a": 2,
+  "a": 0,
   "x": "A meteor is a shooting star; a meteorite reaches the ground; a bolide explodes in the air; the Leonids (radiant in Leo, peak ~17–18 November) are debris of Comet Tempel-Tuttle.",
   "src": "app",
   "tq": "match"
@@ -500,11 +500,11 @@
   "s": "Match List-I with List-II:\nList-I\na. Supermoon\nb. Micromoon\nc. Blue moon\nd. Blood moon\nList-II\ni. Second full moon in a calendar month\nii. Reddish Moon in a total lunar eclipse\niii. Full moon at perigee\niv. Full moon at apogee, 6–7% smaller",
   "o": [
    "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
    "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-iv, c-i, d-ii"
+   "a-iii, b-i, c-iv, d-ii"
   ],
-  "a": 3,
+  "a": 1,
   "x": "A supermoon is a full moon at perigee (bigger, brighter, higher tides); a micromoon a full moon at apogee, 6–7% smaller; a blue moon the second full moon in a calendar month; a blood moon the reddish Moon of a total lunar eclipse.",
   "src": "app",
   "tq": "match"
@@ -525,16 +525,16 @@
   "tq": "statements"
  },
  {
-  "id": "cpb04d73039edf",
+  "id": "cpf4c8d3c20255",
   "row": 0,
-  "s": "Match List-I (Mission) with List-II (Achievement):\nList-I\na. Chang'e 4\nb. Hayabusa2\nc. DART\nd. Phoenix Mars Lander\nList-II\ni. Kinetic impact on Dimorphos\nii. Landed near Mars's north pole and found ice\niii. First soft landing on the far side of the Moon\niv. Samples from asteroid Ryugu",
+  "s": "Match List-I (Mission) with List-II (Achievement):\nList-I\na. Chang'e 4\nb. Hayabusa2\nc. DART\nd. Phoenix Mars Lander\nList-II\ni. Samples from asteroid Ryugu\nii. First soft landing on the far side of the Moon\niii. Kinetic impact on Dimorphos\niv. Landed near Mars's north pole and found ice",
   "o": [
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-iv, c-ii, d-i"
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Chang'e 4 made the first far-side lunar soft landing (3 Jan 2019); Hayabusa2 brought Ryugu samples (OSIRIS-REx, not Hayabusa2, sampled Bennu); DART struck Dimorphos; Phoenix landed near Mars's north pole in 2008 and found ice.",
   "src": "app",
   "tq": "match"
@@ -585,16 +585,16 @@
   "tq": "assertion"
  },
  {
-  "id": "cpf83bf77d9908",
+  "id": "cp567c03008e26",
   "row": 0,
-  "s": "Match List-I with List-II:\nList-I\na. 100th launch from SDSC-SHAR, Sriharikota\nb. Himalayan Chandra Telescope\nc. India's first satellite\nd. First soft landing on the Moon's far side\nList-II\ni. Aryabhata (1975)\nii. Chang'e 4, 3 January 2019\niii. 29 January 2025\niv. Hanle",
+  "s": "Match List-I with List-II:\nList-I\na. 100th launch from SDSC-SHAR, Sriharikota\nb. Himalayan Chandra Telescope\nc. India's first satellite\nd. First soft landing on the Moon's far side\nList-II\ni. Aryabhata (1975)\nii. 29 January 2025\niii. Hanle\niv. Chang'e 4, 3 January 2019",
   "o": [
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-iv, c-i, d-ii"
+   "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-i, c-iii, d-iv"
   ],
-  "a": 3,
+  "a": 2,
   "x": "SDSC-SHAR's 100th launch was on 29 January 2025; the Himalayan Chandra Telescope (25 years in 2026) is at Hanle; India's first satellite was Aryabhata (1975), named after the astronomer; China's Chang'e 4 made the first far-side landing on 3 January 2019.",
   "src": "app",
   "tq": "match"
@@ -630,16 +630,16 @@
   "tq": "statements"
  },
  {
-  "id": "cpef67ae8ccb6a",
+  "id": "cpb6db73a2f6c2",
   "row": 1,
-  "s": "Match List-I (Line) with List-II (Country it does NOT pass through):\nList-I\na. Equator\nb. Tropic of Cancer\nc. Tropic of Capricorn\nd. Arctic Circle (mainland)\nList-II\ni. Iran\nii. Iceland\niii. Rwanda\niv. Bolivia",
+  "s": "Match List-I (Line) with List-II (Country it does NOT pass through):\nList-I\na. Equator\nb. Tropic of Cancer\nc. Tropic of Capricorn\nd. Arctic Circle (mainland)\nList-II\ni. Bolivia\nii. Rwanda\niii. Iceland\niv. Iran",
   "o": [
-   "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-i, b-iii, c-iv, d-ii",
-   "a-iv, b-i, c-iii, d-ii"
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Rwanda is not on the Equator, Iran is not on the Tropic of Cancer, Bolivia is not on the Tropic of Capricorn, and Iceland's mainland lies just south of the Arctic Circle (only tiny Grímsey is touched).",
   "src": "app",
   "tq": "match"
@@ -705,16 +705,16 @@
   "tq": "assertion"
  },
  {
-  "id": "cpac6657333b5a",
+  "id": "cp279a5f34968a",
   "row": 1,
-  "s": "Match List-I (Measure of the Earth) with List-II (Approximate value):\nList-I\na. Equatorial diameter\nb. Polar diameter\nc. Mean radius\nd. Equatorial circumference\nList-II\ni. 6,371 km\nii. 40,075 km\niii. 12,714 km\niv. 12,756 km",
+  "s": "Match List-I (Measure of the Earth) with List-II (Approximate value):\nList-I\na. Equatorial diameter\nb. Polar diameter\nc. Mean radius\nd. Equatorial circumference\nList-II\ni. 12,714 km\nii. 40,075 km\niii. 12,756 km\niv. 6,371 km",
   "o": [
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iv, b-iii, c-ii, d-i",
-   "a-iv, b-i, c-iii, d-ii",
-   "a-iv, b-iii, c-i, d-ii"
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-iv, c-i, d-ii"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Equatorial diameter 12,756 km; polar diameter 12,714 km (about 43 km less); mean radius 6,371 km; length of the Equator about 40,075 km.",
   "src": "app",
   "tq": "match"
@@ -765,16 +765,16 @@
   "tq": "statements"
  },
  {
-  "id": "cpc19ade0635f2",
+  "id": "cp0f6bfdafe958",
   "row": 1,
-  "s": "Match List-I (Extreme of India) with List-II (Point):\nList-I\na. Northernmost\nb. Southernmost (overall)\nc. Easternmost\nd. Westernmost\nList-II\ni. Kibithu\nii. Guhar Moti\niii. Indira Col\niv. Indira Point",
+  "s": "Match List-I (Extreme of India) with List-II (Point):\nList-I\na. Northernmost\nb. Southernmost (overall)\nc. Easternmost\nd. Westernmost\nList-II\ni. Indira Col\nii. Guhar Moti\niii. Indira Point\niv. Kibithu",
   "o": [
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iii, b-i, c-iv, d-ii"
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 2,
+  "a": 1,
   "x": "North – Indira Col (Karakoram, Ladakh); south overall – Indira Point (6°45'N, Great Nicobar, nearest the Equator); east – Kibithu (Arunachal Pradesh, 97°25'E); west – Guhar Moti (Kutch, 68°7'E).",
   "src": "app",
   "tq": "match"
@@ -840,16 +840,16 @@
   "tq": "statements"
  },
  {
-  "id": "cp98d8041356b5",
+  "id": "cpb9aa32b34bd0",
   "row": 1,
-  "s": "Match List-I (Event) with List-II (Year):\nList-I\na. Amundsen reaches the South Pole\nb. International Meridian Conference fixes the Prime Meridian at Greenwich\nc. Mercator projection\nd. Equal Earth projection\nList-II\ni. 1884\nii. 2018\niii. 1569\niv. 1911",
+  "s": "Match List-I (Event) with List-II (Year):\nList-I\na. Amundsen reaches the South Pole\nb. International Meridian Conference fixes the Prime Meridian at Greenwich\nc. Mercator projection\nd. Equal Earth projection\nList-II\ni. 1569\nii. 1911\niii. 2018\niv. 1884",
   "o": [
-   "a-iv, b-i, c-iii, d-ii",
-   "a-i, b-iv, c-iii, d-ii",
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iv, b-i, c-ii, d-iii"
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Amundsen reached the South Pole in 1911; the International Meridian Conference of 1884 fixed the Prime Meridian at Greenwich; Mercator's projection dates from 1569; the Equal Earth projection from 2018.",
   "src": "app",
   "tq": "match"
@@ -870,16 +870,16 @@
   "tq": "statements"
  },
  {
-  "id": "cpdb90275e806a",
+  "id": "cp8fa672eb72fb",
   "row": 1,
-  "s": "Match List-I (Pioneer) with List-II (Contribution):\nList-I\na. Eratosthenes\nb. Hipparchus\nc. Anaximander\nd. Ptolemy\nList-II\ni. First Greek world map\nii. First used latitude and longitude (Geographia)\niii. First correct estimate of the Earth's circumference\niv. First divided the circle into 360°",
+  "s": "Match List-I (Pioneer) with List-II (Contribution):\nList-I\na. Eratosthenes\nb. Hipparchus\nc. Anaximander\nd. Ptolemy\nList-II\ni. First divided the circle into 360°\nii. First correct estimate of the Earth's circumference\niii. First Greek world map\niv. First used latitude and longitude (Geographia)",
   "o": [
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-iv, c-i, d-ii"
+   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Eratosthenes (Father of Geography) first estimated the Earth's circumference correctly; Hipparchus first divided the circle into 360°; Anaximander made the first Greek world map; Ptolemy first used latitude and longitude in his Geographia.",
   "src": "app",
   "tq": "match"
@@ -930,16 +930,16 @@
   "tq": "assertion"
  },
  {
-  "id": "cp4f6fa6c77b76",
+  "id": "cpb9ea800f28ea",
   "row": 2,
-  "s": "Match List-I with List-II:\nList-I\na. Aryabhata\nb. Foucault\nc. Ferrel\nd. Pole Star\nList-II\ni. Deflection of moving air to the right in the Northern Hemisphere\nii. Lies almost in line with the Earth's axis of rotation\niii. Rotation of the Earth causes the daily rising and setting of the Sun\niv. Pendulum experiment in Paris, 1851",
+  "s": "Match List-I with List-II:\nList-I\na. Aryabhata\nb. Foucault\nc. Ferrel\nd. Pole Star\nList-II\ni. Lies almost in line with the Earth's axis of rotation\nii. Rotation of the Earth causes the daily rising and setting of the Sun\niii. Deflection of moving air to the right in the Northern Hemisphere\niv. Pendulum experiment in Paris, 1851",
   "o": [
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-i, c-iv, d-ii"
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-iv, d-i"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Aryabhata (5th century) explained the daily rising and setting of the Sun by the Earth's rotation; Foucault's pendulum (Paris, 1851) proved rotation; Ferrel's law gives deflection to the right in the NH; the Pole Star seems fixed as it lies almost in line with the Earth's axis.",
   "src": "app",
   "tq": "match"
@@ -1020,14 +1020,14 @@
   "tq": "statements"
  },
  {
-  "id": "cp0896cba8039d",
+  "id": "cp95c887721306",
   "row": 2,
-  "s": "Match List-I (Tide) with List-II (Description):\nList-I\na. Spring tide\nb. Neap tide\nc. Ebb\nd. Flood\nList-II\ni. Falling tide\nii. Sun, Earth and Moon in a straight line\niii. Rising tide\niv. Sun and Moon at right angles to the Earth",
+  "s": "Match List-I (Tide) with List-II (Description):\nList-I\na. Spring tide\nb. Neap tide\nc. Ebb\nd. Flood\nList-II\ni. Sun, Earth and Moon in a straight line\nii. Rising tide\niii. Sun and Moon at right angles to the Earth\niv. Falling tide",
   "o": [
-   "a-iv, b-ii, c-i, d-iii",
-   "a-ii, b-iv, c-iii, d-i",
-   "a-ii, b-iv, c-i, d-iii",
-   "a-ii, b-i, c-iv, d-iii"
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
   ],
   "a": 2,
   "x": "Spring tides (twice a month, new and full moon) come when the Sun, Earth and Moon are in a straight line; neap tides when the Sun and Moon are at right angles (first and third quarter). Ebb is the falling tide; flow or flood the rising tide.",
@@ -1095,16 +1095,16 @@
   "tq": "statements"
  },
  {
-  "id": "cpe7e5b5b207a4",
+  "id": "cpd9abee1a72c6",
   "row": 2,
-  "s": "Match List-I (Event in 2026 / every year) with List-II (Date):\nList-I\na. Perihelion (2026)\nb. Aphelion (2026)\nc. Sun overhead at the Tropic of Cancer\nd. Sun overhead at the Tropic of Capricorn\nList-II\ni. 22 December\nii. 3 January\niii. 21 June\niv. 6 July",
+  "s": "Match List-I (Event in 2026 / every year) with List-II (Date):\nList-I\na. Perihelion (2026)\nb. Aphelion (2026)\nc. Sun overhead at the Tropic of Cancer\nd. Sun overhead at the Tropic of Capricorn\nList-II\ni. 3 January\nii. 22 December\niii. 6 July\niv. 21 June",
   "o": [
-   "a-iv, b-ii, c-iii, d-i",
-   "a-ii, b-iv, c-i, d-iii",
-   "a-ii, b-iii, c-iv, d-i",
-   "a-ii, b-iv, c-iii, d-i"
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 3,
+  "a": 2,
   "x": "In 2026 perihelion fell on 3 January and aphelion on 6 July; the Sun is overhead at the Tropic of Cancer on 21 June and at the Tropic of Capricorn on 22 December.",
   "src": "app",
   "tq": "match"
@@ -1125,16 +1125,16 @@
   "tq": "statements"
  },
  {
-  "id": "cpb295009f90cd",
+  "id": "cp1e9c75c1234c",
   "row": 2,
-  "s": "Match List-I (Phenomenon) with List-II (Cause):\nList-I\na. Day and night\nb. Seasons\nc. Equatorial bulge\nd. Spring tide\nList-II\ni. Centrifugal force of rotation\nii. Sun, Earth and Moon in a straight line\niii. Rotation of the Earth\niv. Revolution with the tilt of the axis",
+  "s": "Match List-I (Phenomenon) with List-II (Cause):\nList-I\na. Day and night\nb. Seasons\nc. Equatorial bulge\nd. Spring tide\nList-II\ni. Centrifugal force of rotation\nii. Rotation of the Earth\niii. Revolution with the tilt of the axis\niv. Sun, Earth and Moon in a straight line",
   "o": [
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-i, c-iv, d-ii"
+   "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iii, c-i, d-iv"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Day and night come from rotation; seasons from revolution with the 23½° tilt (not rotation); the equatorial bulge from the centrifugal force of rotation; spring tides from the Sun, Earth and Moon lying in a straight line.",
   "src": "app",
   "tq": "match"
@@ -1170,14 +1170,14 @@
   "tq": "statements"
  },
  {
-  "id": "cpb7c3f2bebd2f",
+  "id": "cp257acf5fa54e",
   "row": 3,
-  "s": "Match List-I (Given) with List-II (Longitude of the place):\nList-I\na. Local time 6 a.m. when it is noon at Greenwich\nb. Local time 5 p.m. when it is noon at Greenwich\nc. Local time 2 hours ahead of Greenwich\nd. Local time 6 a.m. when GMT is 3 a.m.\nList-II\ni. 30°E\nii. 45°E\niii. 90°W\niv. 75°E",
+  "s": "Match List-I (Given) with List-II (Longitude of the place):\nList-I\na. Local time 6 a.m. when it is noon at Greenwich\nb. Local time 5 p.m. when it is noon at Greenwich\nc. Local time 2 hours ahead of Greenwich\nd. Local time 6 a.m. when GMT is 3 a.m.\nList-II\ni. 75°E\nii. 30°E\niii. 45°E\niv. 90°W",
   "o": [
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-i, c-iv, d-ii"
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-ii, c-i, d-iii"
   ],
   "a": 0,
   "x": "6 h behind = 90°W; 5 h ahead = 75°E; 2 h ahead = 30°E (Cairo); 3 h ahead = 45°E – each hour is 15° of longitude, east ahead and west behind.",
@@ -1215,16 +1215,16 @@
   "tq": "statements"
  },
  {
-  "id": "cp8450def16c89",
+  "id": "cpd516f8b9d4e8",
   "row": 3,
-  "s": "Match List-I with List-II:\nList-I\na. Bombay Time\nb. Calcutta Time\nc. Keeper of Indian Standard Time\nd. Origin of the White Rabbit timing protocol\nList-II\ni. CSIR-National Physical Laboratory, New Delhi\nii. CERN\niii. GMT + 5 h 53 min 20 s\niv. GMT + 4 h 51 min",
+  "s": "Match List-I with List-II:\nList-I\na. Bombay Time\nb. Calcutta Time\nc. Keeper of Indian Standard Time\nd. Origin of the White Rabbit timing protocol\nList-II\ni. CSIR-National Physical Laboratory, New Delhi\nii. GMT + 5 h 53 min 20 s\niii. GMT + 4 h 51 min\niv. CERN",
   "o": [
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iv, b-iii, c-ii, d-i",
-   "a-iv, b-i, c-iii, d-ii",
-   "a-iv, b-iii, c-i, d-ii"
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-i, c-ii, d-iv"
   ],
-  "a": 3,
+  "a": 1,
   "x": "The 1884 zones were Bombay Time (GMT + 4 h 51 min) and Calcutta Time (GMT + 5 h 53 min 20 s) – swapping them is the trap. IST is kept by CSIR-NPL, New Delhi; the White Rabbit protocol was developed at CERN, not ISRO.",
   "src": "app",
   "tq": "match"
@@ -1305,16 +1305,16 @@
   "tq": "statements"
  },
  {
-  "id": "cp3647e5fe5adb",
+  "id": "cpea825146904a",
   "row": 3,
-  "s": "Match List-I (City near the Tropic of Cancer) with List-II (State):\nList-I\na. Ranchi\nb. Agartala\nc. Aizawl\nd. Ujjain\nList-II\ni. Mizoram\nii. Madhya Pradesh\niii. Jharkhand\niv. Tripura",
+  "s": "Match List-I (City near the Tropic of Cancer) with List-II (State):\nList-I\na. Ranchi\nb. Agartala\nc. Aizawl\nd. Ujjain\nList-II\ni. Mizoram\nii. Jharkhand\niii. Tripura\niv. Madhya Pradesh",
   "o": [
-   "a-iv, b-iii, c-i, d-ii",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iii, b-i, c-iv, d-ii",
-   "a-iii, b-iv, c-ii, d-i"
+   "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iii, c-i, d-iv"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Cities near the Tropic of Cancer: Ranchi (Jharkhand), Agartala (Tripura), Aizawl (Mizoram), and Ujjain and Bhopal (Madhya Pradesh).",
   "src": "app",
   "tq": "match"
@@ -1365,16 +1365,16 @@
   "tq": "assertion"
  },
  {
-  "id": "cp3bbb5c4afbb1",
+  "id": "cp5f0e52ec245c",
   "row": 3,
-  "s": "Match List-I (Country) with List-II (Time zones / standard time):\nList-I\na. France (with overseas territories)\nb. Russia\nc. Brazil\nd. Nepal\nList-II\ni. 11 zones\nii. Exactly 4 zones\niii. UTC+5:45\niv. 12 zones",
+  "s": "Match List-I (Country) with List-II (Time zones / standard time):\nList-I\na. France (with overseas territories)\nb. Russia\nc. Brazil\nd. Nepal\nList-II\ni. Exactly 4 zones\nii. UTC+5:45\niii. 11 zones\niv. 12 zones",
   "o": [
-   "a-i, b-iv, c-ii, d-iii",
-   "a-iv, b-i, c-ii, d-iii",
-   "a-iv, b-ii, c-i, d-iii",
-   "a-iv, b-i, c-iii, d-ii"
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii"
   ],
-  "a": 1,
+  "a": 3,
   "x": "France, with its overseas territories, has the most zones (12); Russia has 11; Brazil exactly 4; Nepal keeps UTC+5:45.",
   "src": "app",
   "tq": "match"
@@ -1425,16 +1425,16 @@
   "tq": "statements"
  },
  {
-  "id": "cp7af9c9c5628e",
+  "id": "cpf18fa113a137",
   "row": 4,
-  "s": "Match List-I (Date) with List-II (What happens):\nList-I\na. 21 March\nb. 21 June\nc. 23 September\nd. 22 December\nList-II\ni. Spring begins in the Southern Hemisphere\nii. Sun overhead at the Tropic of Capricorn; longest day in the Southern Hemisphere\niii. Autumn begins in the Southern Hemisphere\niv. Shortest day in the Southern Hemisphere",
+  "s": "Match List-I (Date) with List-II (What happens):\nList-I\na. 21 March\nb. 21 June\nc. 23 September\nd. 22 December\nList-II\ni. Sun overhead at the Tropic of Capricorn; longest day in the Southern Hemisphere\nii. Autumn begins in the Southern Hemisphere\niii. Spring begins in the Southern Hemisphere\niv. Shortest day in the Southern Hemisphere",
   "o": [
-   "a-i, b-iv, c-iii, d-ii",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iii, b-ii, c-i, d-iv",
-   "a-iv, b-iii, c-i, d-ii"
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-iv, d-i"
   ],
-  "a": 1,
+  "a": 2,
   "x": "21 March (vernal equinox, Sun over the Equator) starts autumn in the SH; 21 June (Sun over Cancer) is the SH's shortest day; 23 September (autumnal equinox) starts spring in the SH; on 22 December the Sun is over the Tropic of Capricorn and the SH has its longest day.",
   "src": "app",
   "tq": "match"
@@ -1485,16 +1485,16 @@
   "tq": "statements"
  },
  {
-  "id": "cp7d5dd370a1fc",
+  "id": "cpefa9ebb0f30a",
   "row": 4,
-  "s": "Match List-I (Place and date) with List-II (Length of day):\nList-I\na. Tropic of Cancer on 21 June\nb. Tropic of Cancer on 22 December\nc. Arctic Circle on 22 December\nd. Equator on 22 December\nList-II\ni. 12 hours\nii. About 10½ hours\niii. About 13½ hours\niv. No daylight (24 hours of night)",
+  "s": "Match List-I (Place and date) with List-II (Length of day):\nList-I\na. Tropic of Cancer on 21 June\nb. Tropic of Cancer on 22 December\nc. Arctic Circle on 22 December\nd. Equator on 22 December\nList-II\ni. About 10½ hours\nii. No daylight (24 hours of night)\niii. About 13½ hours\niv. 12 hours",
   "o": [
-   "a-ii, b-iii, c-iv, d-i",
-   "a-iii, b-ii, c-i, d-iv",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-ii, c-iv, d-i"
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-i, d-iv"
   ],
-  "a": 3,
+  "a": 2,
   "x": "The Tropic of Cancer has ~13½ h of day on 21 June and ~10½ h on 22 December; the Arctic Circle has 24 hours of night on 22 December; the Equator has 12 hours on every date.",
   "src": "app",
   "tq": "match"
@@ -1635,16 +1635,16 @@
   "tq": "statements"
  },
  {
-  "id": "cpc88f36dbcaba",
+  "id": "cpef0818122790",
   "row": 4,
-  "s": "Match List-I with List-II:\nList-I\na. Low latitudes\nb. Mid-latitudes\nc. High latitudes\nd. Cloudless subtropical deserts\nList-II\ni. Maximum insolation\nii. Greatest seasonal differences in day length and insolation\niii. Four distinct seasons\niv. Wet and dry seasons",
+  "s": "Match List-I with List-II:\nList-I\na. Low latitudes\nb. Mid-latitudes\nc. High latitudes\nd. Cloudless subtropical deserts\nList-II\ni. Four distinct seasons\nii. Wet and dry seasons\niii. Maximum insolation\niv. Greatest seasonal differences in day length and insolation",
   "o": [
-   "a-iv, b-iii, c-ii, d-i",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iv, b-ii, c-iii, d-i",
-   "a-iv, b-iii, c-i, d-ii"
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Low latitudes have small temperature contrast with wet and dry seasons; mid-latitudes four distinct seasons; high latitudes the greatest seasonal differences; maximum insolation falls over cloudless subtropical deserts, not the Equator.",
   "src": "app",
   "tq": "match"
@@ -1665,14 +1665,14 @@
   "tq": "statements"
  },
  {
-  "id": "cp57e41322fbe6",
+  "id": "cpcc984be96d26",
   "row": 4,
-  "s": "Match List-I with List-II:\nList-I\na. Ganganagar\nb. Lambasingi\nc. Traditional Indian calendar\nd. South-West monsoon in Andhra Pradesh\nList-II\ni. About two-thirds of the State's rainfall\nii. About 50°C recorded in 1935\niii. Six ritus\niv. Coldest place in Andhra Pradesh (~2°C)",
+  "s": "Match List-I with List-II:\nList-I\na. Ganganagar\nb. Lambasingi\nc. Traditional Indian calendar\nd. South-West monsoon in Andhra Pradesh\nList-II\ni. Six ritus\nii. About two-thirds of the State's rainfall\niii. Coldest place in Andhra Pradesh (~2°C)\niv. About 50°C recorded in 1935",
   "o": [
-   "a-ii, b-iii, c-iv, d-i",
-   "a-iv, b-ii, c-iii, d-i",
-   "a-ii, b-iv, c-i, d-iii",
-   "a-ii, b-iv, c-iii, d-i"
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii"
   ],
   "a": 3,
   "x": "Ganganagar recorded about 50°C in 1935; Lambasingi is AP's coldest place (~2°C); the traditional calendar has six ritus; the SW monsoon (June–September) brings about two-thirds of AP's rain.",

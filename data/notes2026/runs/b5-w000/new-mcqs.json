@@ -1320,17 +1320,17 @@
   "tq": "match"
  },
  {
-  "id": "cpe3769ca06968",
+  "id": "cp545f7d98536d",
   "row": 3,
-  "s": "Consider the following:\nAssertion (A): Plant varieties cannot be patented in India.\nReason (R): Plant varieties are protected under the PPV&FR Act, 2001.\nWhich one of the following is correct?",
+  "s": "Consider the following:\nAssertion (A): Plant varieties can be patented in India under the Patents Act, 1970.\nReason (R): Plant varieties are protected under the PPV&FR Act, 2001.\nWhich one of the following is correct?",
   "o": [
    "Both A and R are true, and R is the correct explanation of A",
    "Both A and R are true, but R is NOT the correct explanation of A",
    "A is true, but R is false",
    "A is false, but R is true"
   ],
-  "a": 1,
-  "x": "Both are true, but R does not explain A: plant varieties are excluded from patents by Section 3(j) of the Patents Act; the PPV&FR Act is the separate protection given to them.",
+  "a": 3,
+  "x": "A is false: Section 3(j) excludes plants and animals (except micro-organisms), plant varieties and essentially biological processes from patents. R is true: plant varieties are protected instead by the PPV&FR Act, 2001.",
   "src": "app",
   "tq": "assertion"
  },

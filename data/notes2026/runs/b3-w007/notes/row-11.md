@@ -1,0 +1,52 @@
+=== Achievements, Failures and Critics of Planning
+| Achievements | Failures |
+|---|---|
+| Rise in national income, savings, investment, per-capita income (Plans I-XI averaged **~4.5%** growth vs **~1%** before Independence) | High rural **poverty**; rising **unemployment** – root cause of poverty |
+| Self-sufficiency in basic, capital and consumer-goods industries | **Income inequality** not reduced; widened after reforms |
+| **Foodgrain self-sufficiency** – Green Revolution (1966-67), FCI (1965) | **Land reforms poorly implemented**; unequal land ownership persists |
+| Infrastructure – transport, irrigation, power, telecom | **Regional disparities** persist (a failure, not an achievement) |
+| Education, scientific manpower, IT, space; IITs | Neglect of agriculture, lop-sided (capital-intensive) employment strategy, excessive emphasis on PSUs |
+# Drawbacks of the planning process
+- Drawbacks named by the books: **implementation failure** (the UN expert team called implementation and enforcement "the principal shortcomings"), a **wrong / absent financial strategy** (Ramesh Singh), **misplaced faith in investment** alone, centralisation, politicisation.
+- APPSC Group 2 Mains 2017 asked for "the chief drawback", and **"All the given answers"** (financial strategy, faith in investment, implementation failure) was keyed. When only one of these is offered, the key is **implementation failure**.
+# Origin and critics
+- The idea of planning came from **Soviet Russia** (USSR five-year plans from 1928).
+| Book | Author |
+|---|---|
+| **Planning and the Poor** (1974) | **B.S. Minhas** (also asked as "Planning for the Poor") |
+| India: Planning for Industrialization (1970) | **Jagdish Bhagwati and Padma Desai** |
+- **Padma Desai**: critic of India's planned economy; **first Asian woman** to get a **PhD in Economics from Harvard (1960)**.
+> Distractors for Minhas: Y.K. Alagh, Jagdish Bhagwati, L.G. Patel, D.R. Gadgil, Charan Singh, Rudra Dutt, Manmohan Singh.
+~~ Sources: Ramesh Singh, Indian Economy 10th ed. ch.5 p.5.36-5.38 (criticism of planning; wrong financial strategy); NextGen Indian Economy - APPSC 03 p.3-5 (regional disparity, inequality); app notes 3:11 sub 3-4
+
+=== Planning After 1991 and the End of the Plan Era
+- After 1991 planning moved from **"directed" to "indicative"**: the plan shows **priority sectors**; the private sector invests.
+- Plans were kept after 1991 because they give a **long-term perspective** to a market economy; planning is **not a constitutional requirement**.
+| Item | Fact |
+|---|---|
+| Last plan | **Twelfth (2012-17)**, ended **31 March 2017** |
+| Planning Commission | Scrapping decided **August 2014** (Cabinet 13 Aug; PM's Independence Day speech 15 Aug); last Deputy Chairman **M.S. Ahluwalia** |
+| Successor | **NITI Aayog**, **1 January 2015**, by Union Cabinet resolution |
+| NDC (1952) | Inactive; its work passed to the NITI **Governing Council**; formal abolition pending |
+- Abolition ended **discretionary plan grants**; NITI has **no financial powers** – the Governing Council coordinates policy, it does not redistribute funds.
+# Documents that replaced the Five Year Plans
+| Document | Period |
+|---|---|
+| 15-year Vision | Up to **2030** |
+| 7-year Strategy | 2017-18 to 2023-24 |
+| **Three Year Action Agenda** | **2017-18 to 2019-20** (released 1 Aug 2017) |
+- Action Agenda on jobs: "unemployment is the lesser of India's problems; the more serious problem is **severe underemployment**" (one job done by two or more workers).
+- **11th Governing Council** (11 June 2026): PM asked States to estimate **district-level GDP**.
+~~ Sources: NextGen Rocket Sheets Indian Economy #22-24 p.32-34; NextGen Indian Economy - APPSC 01 p.4-5; NITI Aayog Three Year Action Agenda 2017-18 to 2019-20 (news reports 27 Aug 2017); Wikipedia "Planning Commission (India)"; app notes 3:11 sub 5-7
+
+=== Plan Record – First Plan, Third Plan Failure, Plan Holiday, Fourth Plan
+- **First Plan** launched **1 April 1951**; focus **agriculture and irrigation**.
+- **Third Plan** grew only **2.2%** vs **5.6%** target – **Sino-Indian War (1962)**, **Indo-Pak War (1965)**, **1965-66 droughts**.
+- **Plan Holiday 1966-69** (three Annual Plans) followed the **failure of the Third Plan**.
+- **Fourth Plan (1969-74)**, **Gadgil strategy**: **growth with stability** + progress towards **self-reliance**; targets agriculture **5%** a year, exports **~7%** a year; achieved **3.3%** vs **5.7%** (droughts, 1971 war); **14 banks nationalised (1969)**.
+| Formula for central plan assistance to States | Fact |
+|---|---|
+| Gadgil formula | 1969 (Fourth Plan) |
+| **Gadgil-Mukherjee formula** | 1991; highest weight to **population (1971 Census) – 60%**; per capita income 25%; fiscal performance 7.5%; special problems 7.5% |
+| Special Category States | **90% grant : 10% loan**; General Category 30 : 70 |
+~~ Sources: NextGen Indian Economy - APPSC 01 p.6-12; NextGen Rocket Sheets Indian Economy #22 p.32; rebuilt notes book 3 row 10 (Gadgil-Mukherjee weights); app notes 3:11 sub 0-2

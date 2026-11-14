@@ -921,3 +921,5 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b6-x062 (CA rows 62, 71 treaties 2025 / S&T Jun–Aug 2026): 332 mapped. Own MCQ caa229483d2f32 India exit from FGFA 2021 → 2018 (Praveen says 2021, dispute). WTO e-commerce moratorium lapse 30 vs 31 Mar 2026. Old-notes-only: helium shares, R&D 0.74% (PMF 0.64%).
 - b6-n039 (new CA 2–14 Nov: schemes, committees, summits): ~64 items, 69 new MCQs. CII summit theme wording varies (no MCQ); ASEAN summit dates 15–17 vs 16–18 Nov.
 - b1-w000 rewrite: own 397 → 143 (36%; most repeated PYQ facts or merged); 62% statements, 16% match, 7% A-R. Row 3 notes line 1:6.0 cist burials self-contradictory (Visakhapatnam).
+- b3-w000 rewrite: own 443 → 158 (36%). Removed wrong own MCQ fb6ef11dcf73b (import substitution = 2nd Plan, not 3rd).
+- b6-w002 rewrite: own 333 → 166 (50%). Removed f9c4628fe16cb, ca0b519c62fa52 (overstated). AP TFR notes 1.5 vs SRS 1.4.
