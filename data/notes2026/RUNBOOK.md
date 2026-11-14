@@ -90,3 +90,4 @@ count, -1 count, notes sub-sections, and anything the owner should look at.
 
 ## Settled facts (apply everywhere)
 - India's coastline is officially revised to **11,098.81 km** (PIB Release 2198800, 4 Dec 2025; Ports Ministry circular 29 Apr 2025): Gujarat 2,340.62 km, **Tamil Nadu 1,068.69 km (2nd)**, **Andhra Pradesh 1,053.07 km (3rd; old 973.7 / "974 km, 2nd")**. Key coastline PYQs to the current figures with an `outdated` line giving the old answer.
+- RBI policy rates (job b3-r082, RBI MPC minutes prid=63839, 7 Oct 2026): repo **5.50%**, SDF 5.25%, MSF and Bank Rate 5.75%; SLR 18%; Governor **Sanjay Malhotra**. Use these as "now" in outdated lines.

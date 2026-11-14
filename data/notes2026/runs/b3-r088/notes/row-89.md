@@ -26,7 +26,7 @@
 - **SEBI** is the capital-market regulator – it does **not** participate in the organised money market.
 - **Co-operative credit institutions** sit between the two.
 - **Call money market** = the **most volatile / unstable part** of the organised money market (repayable on demand; overnight to 14 days).
-> Asked ×6 (APPSC Group 2 Mains 2017 ×2, RAS 2018 ×2).
+> Asked ×4 (APPSC Group 2 Mains 2017 ×2, RAS 2018 ×2); 2 more organised-market PYQs sit with the instruments.
 ~~ Sources: NextGen Indian Economy - APPSC 04 p.6 (organised / unorganised structure chart); NextGen Indian Economy - APPSC 11 p.5 (call money); app notes 3:89 sub 1
 
 === Money Market Instruments

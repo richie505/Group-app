@@ -60,7 +60,7 @@
 | Women | 32.92 crore (**over half**) |
 | Deposits | ₹3,16,514 crore |
 - Concern: dormant Jan Dhan accounts; 90%+ of operative accounts Aadhaar-seeded.
-> Most asked (×13): aim = financial inclusion, launch 28 Aug 2014, slogan, Guinness record. Trap: "most effective financial inclusion programme" – Jan Dhan, not demonetisation or Aadhaar.
+> Most asked (×12): aim = financial inclusion, launch 28 Aug 2014, slogan, Guinness record. Trap: "most effective financial inclusion programme" – Jan Dhan, not demonetisation or Aadhaar.
 ~~ Sources: Ramesh Singh Indian Economy 10th ed. part 05 p.113 (PMJDY 28 Aug 2014, RuPay card, ₹30,000 life cover, Guinness record); NextGen Indian Economy - APPSC 18 p.5; app notes 3:88 sub 1
 
 === MUDRA – Pradhan Mantri MUDRA Yojana
@@ -169,7 +169,7 @@
 | Qatar | 2025 |
 | Cambodia (ACLEDA Bank KHQR), Greece | 2026 – **11 countries** live (Aug 2026) |
 - UPSC 2025: of UAE, France, Germany, Singapore, Bangladesh – merchant payments in **UAE, France and Singapore** only → "**Only three**" (not Germany or Bangladesh).
-> Asked ×8. Trap: UPI runs on NEFT; Germany / Bangladesh as UPI countries.
+> Asked ×7. Trap: UPI runs on NEFT; Germany / Bangladesh as UPI countries.
 ~~ Sources: NextGen Rocket Sheet Indian Economy p.25 (UPI, BHIM 2016); NPCI press release, Global Fintech Fest 2023 (Hello! UPI with Bhashini – AI4Bharat, IIT Madras) via web search; https://www.businesstoday.in/world/story/upi-now-available-in-greece-check-full-list-of-countries-where-indians-can-make-digital-payments-540056-2026-06-30 (country list, via web search); app notes 3:88 sub 7
 
 === Digital Payments Policy, Schemes and RBI Indices
@@ -186,7 +186,7 @@
 | **RBI-DPI** | Base **March 2018 = 100** (not 2021); published from Jan 2021, **semi-annual**; **5 parameters** – payment enablers, payment infrastructure (demand side), payment infrastructure (supply side), payment performance, **consumer centricity**; risen every period since launch; 516.76 (Sep 2025) |
 | **FI-Index** | Since Aug 2021; annual (July); **0-100**; **97** indicators; sub-indices **Access 35%, Usage 45%, Quality 20%**; **53.9 (Mar 2021) → 56.4 (Mar 2022)** → 67.0 (2025) |
 - APPSC Group 1 2024 (DPI): I false (base 2018), II false (5 parameters, not 6); III true (constant rise), IV true → "**III and IV**".
-> Asked ×9. Trap: FI-Index "Financial literacy" is not a fourth sub-index; DPI base year 2021.
+> Asked ×8. Trap: FI-Index "Financial literacy" is not a fourth sub-index; DPI base year 2021.
 ~~ Sources: https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54133 (FI-Index March 2022 = 56.4 vs 53.9, via web search); app notes 3:88 sub 8
 
 === Social Security Trio – PMJJBY, PMSBY, APY
