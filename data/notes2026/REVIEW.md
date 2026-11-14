@@ -1618,3 +1618,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b2-w167 (rows 167–169)
 - own 261 → 35 kept + 58 new (93, 36%); new 30 statements / 17 match / 11 A–R; no lines lost. No wrong keys. Unchecked GK notes (Nava Nirmana Deeksha, Chandranna Bata, Hitachi, CORE, People First) not used.
+
+## rewrite b5-w119 (rows 119–121)
+- own 199 → 18 kept + 56 new (74, 37%); new 35 statements / 13 match / 7 A–R / 1 sequence; no lines lost. No wrong keys.
+- 11 removed as not in notes (Shanvac-B, ZyCoV-D, Sparsh, TB treatment success 2025, …) — possible notes gaps.
