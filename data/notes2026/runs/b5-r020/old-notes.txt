@@ -1,0 +1,1327 @@
+=== NOTES 5:20 | Telecom Technologies – 3G to 5G, 6G Roadmap, Satellite Communication, Optical Fibre
+## SUB 0 | Telecom Bodies and Milestones
+[20:0:0] # Bodies → Role
+[20:0:1] TABLE head: Body | Role
+  [20:0:1.0] TRAI (1997) | Regulator of telecom and broadcasting
+  [20:0:1.1] TDSAT (2000 amendment) | Settles telecom disputes; hears appeals against TRAI
+  [20:0:1.2] C-DOT (1984) | Government telecom R&D centre
+  [20:0:1.3] TEC | DoT's technical body for standards and equipment testing (not USOF collection)
+  [20:0:1.4] DoT (1985) | Created when Posts and Telecom split
+[20:0:2] # Milestones (1980s reforms and FIRSTs)
+[20:0:3] TABLE head: Year | Event
+  [20:0:3.0] 1975 | India's first experimental satellite telecom
+  [20:0:3.1] 1984 / 1985 / 1986 | C-DOT / DoT / MTNL and VSNL
+  [20:0:3.2] April 2019 | South Korea: world's first 5G
+  [20:0:3.3] 1 Oct 2022 | India's 5G launch at India Mobile Congress
+[20:0:4] # EMF Limits for Towers
+[20:0:5] - India (since 2012): **one-tenth of ICNIRP** limits: **0.92 W/m² at 1800 MHz** (ICNIRP: 9.2 W/m²).
+[20:0:6] APPSC 2021 key gave 9.2 W/m², which is the ICNIRP value, not India's limit.
+## SUB 1 | Mobile Generations 1G–6G
+[20:1:0] TABLE head: Generation | Core technology / feature
+  [20:1:0.0] 1G | Analog, FDMA
+  [20:1:0.1] 2G | Digital; GSM (TDMA) and CDMA; SMS
+  [20:1:0.2] 2.5G / 2.75G | GPRS / EDGE (faster GSM data)
+  [20:1:0.3] 3G | Mobile data; CDMA-based (WCDMA/CDMA2000)
+  [20:1:0.4] 4G | LTE, OFDMA; VoLTE = voice over LTE data network
+  [20:1:0.5] 5G | OFDMA; latency as low as 1 ms
+  [20:1:0.6] 6G | Early 2030s; "omnipresent wireless intelligence"
+[20:1:1] - **WiMAX** = World Wide Interoperability for Microwave Access (**IEEE 802.16**); wireless data over long distances.
+[20:1:2] - **WLL** = Wireless Local Loop; radio link replacing the copper last mile.
+[20:1:3] - TRAI prefers **C-V2X** for vehicle communication.
+## SUB 2 | 5G – Spectrum, Slicing, Stack, Labs
+[20:2:0] TABLE head: Term | Meaning
+  [20:2:0.0] sub-6 GHz (low/mid) | Wider coverage, better penetration
+  [20:2:0.1] mmWave | Very high data rates, short range
+  [20:2:0.2] Network slicing | One network split into virtual slices
+  [20:2:0.3] 5G Standalone (SA) | No 4G core → lower latency, better slicing
+[20:2:1] - 5G enables **IoT, edge computing, network slicing**, AR/VR, remote surgery.
+[20:2:2] - Indigenous **Open-RAN 5G**: **Airtel–Tata** partnership; **TTDF** (2022) gets **5% of Digital Bharat Nidhi** (~Rs 500 cr/yr), funds India 5G Stack, 6G, quantum encryption.
+[20:2:3] - **5G & Beyond Hackathon 2023**: run by **DoT (not DST)**; open to individuals, students, start-ups, academics (APPSC 2022).
+[20:2:4] - **AP**: **IIITDM Kurnool** ranked 1st among **100 5G Use Case Labs** in DoT's Jan–Jun 2026 gradation, in all four categories.
+## SUB 3 | 6G Roadmap
+[20:3:0] - **Bharat 6G Vision** (**March 2023**): India to lead design, development and deployment of 6G by **2030**.
+[20:3:1] - **Bharat 6G Alliance (B6GA)**: launched 2023; seven Working Groups.
+## SUB 4 | Spectrum and the Telecommunications Act 2023
+[20:4:0] - **Telecommunications Act 2023**: licensing → **authorisation**; **First Schedule**: terrestrial spectrum **auctioned**, satellite spectrum **assigned administratively**.
+[20:4:1] - **TRAI (Feb 2026)**: auction all spectrum across **nine bands**; uniform **35%** cap; new-entrant net worth **Rs 100 cr → Rs 50 cr** per service area.
+[20:4:2] - **Supreme Court (14 Feb 2026, Aircel case)**: telcos **do not own spectrum**; IBC cannot rework spectrum rights.
+## SUB 5 | Satellite Communication – Geo vs Leo
+[20:5:0] TABLE head:  | GEO | LEO
+  [20:5:0.0] Altitude | ~35,786 km; fixed over one spot | Below ~2,000 km
+  [20:5:0.1] Latency | Higher | Low
+  [20:5:0.2] Examples | GSAT series | Starlink, Eutelsat OneWeb, Amazon Kuiper
+[20:5:1] - **Starlink** (8,000+ LEO satellites): **GMPCS** licence in India in **2025**; OneWeb (Bharti) earlier got a letter of intent.
+[20:5:2] - **GMPCS** = Global Mobile Personal Communication by Satellite (DoT licence); conditions: geofencing, no cross-border spillover, lawful surveillance, terminals **made in India within 5 years**.
+[20:5:3] - **ITU**: orbital slots first-come, first-served; de-orbit within **25 years** of mission end.
+## SUB 6 | Optical Fibre
+[20:6:0] - Works on **total internal reflection (TIR)**; signals travel as **pulses of light**; thin strand of glass (silica) or plastic.
+[20:6:1] - **Fastest** medium vs copper, radio, satellite (APPSC 2025); main use: communication; very low power, free from radio-frequency interference.
+[20:6:2] - **Single-mode** = long distances; **multi-mode** = short runs.
+[20:6:3] - **TIR**: denser → rarer medium, angle of incidence > critical angle; refractive index **Diamond > Glass > Water > Air**. Uses: **endoscope**, glowing **glass beads** on traffic signals.
+[20:6:4] # Undersea Cables and National Fibre
+[20:6:5] - Undersea network ~**1.5 million km**; carries ~**99%** of international traffic; cheaper, lower latency than satellites.
+[20:6:6] - **CANI** (Chennai–Andaman and Nicobar Islands): ~2,300 km; inaugurated **10 Aug 2020**; by BSNL; links Port Blair and seven other islands.
+[20:6:7] - **NOFN**: all **2,50,000 Gram Panchayats**; funded by **USOF (not NIIF)**; GPON technology.
+[20:6:8] - PM Gati Shakti NMP (2026): ~13.5 lakh route km OFC; 8.26 lakh towers; **PM-WANI 3.15 lakh** hotspots.
+[20:6:9] - **BharatNet:** NOFN was later renamed **BharatNet**.
+## SUB 7 | Electromagnetic Waves in Communication
+[20:7:0] TABLE head: Wave | Wavelength | Use
+  [20:7:0.0] Radio | > 1 m (longest) | Radio, TV, mobile, Wi-Fi, MRI
+  [20:7:0.1] Microwave | 1 mm–1 m (300 MHz–300 GHz) | Satellite, radar, 5G, point-to-point links
+  [20:7:0.2] Infrared | 700 nm–1 mm | Night vision, TV remotes, muscle-pain therapy
+  [20:7:0.3] Visible | ~400–700 nm | Li-Fi
+  [20:7:0.4] UV / X-rays / Gamma | 10–400 / 0.01–10 / < 0.01 nm | Ionising; not for communication
+[20:7:1] - **Energy rises** Radio < Microwave < IR < Visible < UV < X-ray < Gamma; photon energy ∝ frequency (200–280 nm UV highest among options).
+[20:7:2] - **Decreasing frequency**: Gamma > X-rays > UV > Radio.
+[20:7:3] - Visible: violet shortest, **red longest** (least scattering, used in signals); blue highest energy among colours.
+[20:7:4] - **Wavelength** = distance between two successive crests or troughs.
+[20:7:5] - **UHF** (300 MHz–3 GHz) travels by **space waves**.
+[20:7:6] - **Supersonic waves are not electromagnetic**; radio waves are not bent by electric/magnetic fields.
+[20:7:7] - **Sonic boom:** shock-wave bang from an object faster than sound (**supersonic aircraft**) ⚠ APPSC key (2002) gave laser rays.
+[20:7:8] - Dish TV lost in rain: raindrops absorb and scatter energy.
+[20:7:9] Common TV remote = infrared; one exam key marked radio waves.
+## SUB 8 | Li-fi, Wi-fi and Alternative Access
+[20:8:0] TABLE head: Li-Fi (Light Fidelity) | Wi-Fi
+  [20:8:0.0] Visible light from LEDs; term by Harald Haas (2011) | Radio waves
+  [20:8:0.1] More bandwidth, efficiency, security | Longer range; wireless LANs
+  [20:8:0.2] Does not pass through walls | Passes through walls
+[20:8:1] - **VLC**: ~375–780 nm; not long-range.
+[20:8:2] - **Wi-Fi 6 = 802.11ax; Wi-Fi 7 = 802.11be**; Wi-Fi uses 2.4 or 5 GHz.
+[20:8:3] - **2.4–2.5 GHz ISM band** (licence-free): Bluetooth, Wi-Fi, cordless phones, microwave ovens.
+[20:8:4] - **Bluetooth**: 2.4 GHz; developed **1994** by **Jaap Haartsen**. **NFC**: a few cm.
+[20:8:5] - **RFID**: radio tags read wirelessly (Kavach track tags).
+[20:8:6] - **FSO**: data by laser beams without fibre; world's first 2 Tbit/s FSO link with small terminals (2026).
+[20:8:7] - **Project Loon** (Google/Alphabet): stratospheric helium balloons for internet; shut **January 2021**.
+[20:8:8] - **Mumbai Central**: first station with Google free public Wi-Fi (**Jan 2016**).
+[20:8:9] - India **49th** in Network Readiness Index 2024 (from 60th).
+[20:8:10] - **CCTV** = **Closed-Circuit Television**: cameras send signals to a limited set of monitors, not broadcast openly to the public; used mainly for surveillance and security.
+## SUB 9 | Number Game and Quick Revision
+[20:9:0] TABLE head: Item | Fact
+  [20:9:0.0] India EMF / ICNIRP at 1800 MHz | 0.92 / 9.2 W/m²
+  [20:9:0.1] GEO altitude | ~35,786 km
+  [20:9:0.2] TRAI spectrum cap | 35%
+  [20:9:0.3] TTDF share | 5% of Digital Bharat Nidhi
+  [20:9:0.4] ITU de-orbit rule | 25 years
+  [20:9:0.5] NOFN target | 2,50,000 GPs
+[20:9:1] # FIRST / LAST / SPECIAL FACTS
+[20:9:2] - World's first 5G: South Korea (Apr 2019); India 1 Oct 2022.
+[20:9:3] - CANI: first undersea fibre to Andaman and Nicobar.
+[20:9:4] - Radio waves: longest wavelength; gamma: highest frequency.
+## SUB 10 | Appsc Previous Year Questions
+[20:10:0] TABLE head: Examination | Question Area
+  [20:10:0.0] APPSC 2025 | Optical fibre – fastest medium
+  [20:10:0.1] APPSC 2022 | 5G hackathon – organiser
+  [20:10:0.2] APPSC 2021 | EMF radiation limit for towers
+  [20:10:0.3] APPSC (earlier years) | TIR, EM spectrum order, infrared uses, WiMAX
+## SUB 11 | High-probability Mcq Traps
+[20:11:0] VERY IMPORTANT
+[20:11:1] - 1. 5G hackathon = DoT, not DST.
+[20:11:2] - 2. TDSAT hears appeals against TRAI.
+[20:11:3] - 3. India EMF limit 0.92 W/m², not 9.2.
+[20:11:4] - 4. Satellite spectrum assigned administratively, not auctioned.
+[20:11:5] - 5. 3G = CDMA-based; 4G/5G = OFDMA.
+[20:11:6] - 6. sub-6 GHz = coverage; mmWave = speed, short range.
+[20:11:7] - 7. NOFN funded by USOF, not NIIF.
+[20:11:8] - 8. Wi-Fi 6 = 802.11ax; Wi-Fi 7 = 802.11be.
+[20:11:9] - 9. Li-Fi uses visible light, not radio waves.
+[20:11:10] - 10. GSAT = GEO; Starlink/OneWeb/Kuiper = LEO.
+
+=== OWN MCQs of 5:20 (78)
+[nefc8e7dca56] sub0
+  In which year was C-DOT set up?
+  *1984 | 1985 | 1986 | 1997
+  x: C-DOT came in 1984, DoT in 1985, MTNL and VSNL in 1986 and TRAI in 1997.
+[ndf812c6411f] sub0
+  In which country did the world's first 5G launch take place in April 2019?
+  *South Korea | Japan | United States | China
+  x: South Korea launched 5G first in April 2019; India launched 5G on 1 October 2022 at India Mobile Congress.
+[na826f2ef809] sub0
+  In which year was TDSAT, which settles telecom disputes and hears appeals against TRAI, created by an amendment?
+  1997 | *2000 | 2004 | 2010
+  x: TDSAT was created by the 2000 amendment; TRAI itself was set up in 1997.
+[nb0d4e3b3a44] sub0
+  What are the EMF limits at 1800 MHz for India and ICNIRP respectively?
+  *India: 0.92 W/m²; ICNIRP: 9.2 W/m² | India: 0.092 W/m²; ICNIRP: 0.92 W/m² | India: 92 W/m²; ICNIRP: 9.2 W/m² | India: 9.2 W/m²; ICNIRP: 0.92 W/m²
+  x: At 1800 MHz, the Indian limit is 0.92 W/m², while the ICNIRP value is 9.2 W/m².
+[n2ff11aa8b91] sub0
+  Which of the following is NOT correctly matched?
+  TRAI — Regulation of telecom and broadcasting | TDSAT — Settlement of disputes and appeals against TRAI | *TEC — Collection of Universal Service Obligation Fund | Department of Telecommunications — Telecom policy and licensing
+  x: TEC is DoT’s technical body for telecom standards and equipment testing. Collection of USOF is not its stated role.
+[fa74e2f3dc8f2] sub0
+  Which body is DoT's technical arm for telecom standards and equipment testing?
+  *TEC | C-DOT | TRAI | TDSAT
+  x: TEC is DoT's technical body for standards and equipment testing (not USOF collection); C-DOT is the R&D centre.
+[f462431562e74] sub0
+  At which event did India launch 5G services on 1 October 2022?
+  Global Fintech Fest | *India Mobile Congress | Digital India Week | Bengaluru Tech Summit
+  x: India's 5G launch was on 1 October 2022 at the India Mobile Congress.
+[fb576725cb56c] sub0
+  In which year were MTNL and VSNL set up?
+  1984 | 1985 | *1986 | 1997
+  x: MTNL and VSNL came in 1986, after C-DOT (1984) and DoT (1985); TRAI came in 1997.
+[fd09ee6ccf68b] sub0
+  In which year was the Telecom Regulatory Authority of India (TRAI) set up?
+  *1997 | 2000 | 1985 | 1986
+  x: TRAI was set up in 1997; TDSAT came through the 2000 amendment.
+[gbf1ae515d2d0] sub0
+  In which year was the Department of Telecommunications (DoT) created when Posts and Telecom were split?
+  1984 | *1985 | 1986 | 1997
+  x: DoT was created in 1985 when Posts and Telecom were split; C-DOT came in 1984 and MTNL/VSNL in 1986.
+[g1ea4f0729d1e] sub0
+  Which of the following is the Government's telecom research and development centre?
+  TDSAT | *C-DOT | TRAI | TEC
+  x: C-DOT (1984) is the government telecom R&D centre; TEC sets standards, TRAI regulates and TDSAT settles disputes.
+[n2741431668b] sub1
+  LTE and VoLTE belong to which mobile generation?
+  3G | 1G | 2G | *4G
+  x: LTE and VoLTE are 4G; 3G was CDMA-based (WCDMA/CDMA2000).
+[nc3a7064a9b4] sub1
+  To which generation does EDGE, a faster GSM data technology, belong?
+  2.5G | *2.75G | 3G | 4G
+  x: GPRS is associated with 2.5G and EDGE with 2.75G, both intermediate GSM data developments.
+[n6c8cfdf07b9] sub1
+  Which technology is described by the phrase 'omnipresent wireless intelligence'?
+  *6G | 5G | 4G | Wi-Fi 6
+  x: 'Omnipresent wireless intelligence' describes 6G, expected in the early 2030s.
+[n725dd596f80] sub1
+  Which of the following pairs is correctly matched?
+  WiMAX — Wireless Local Loop replacing the copper last mile | *WiMAX — IEEE 802.16 wireless broadband | WLL — IEEE 802.16 satellite standard | WLL — Optical fibre repeater technology
+  x: WiMAX is IEEE 802.16 wireless broadband. WLL refers to a radio link that replaces the copper last mile.
+[f9f011e83d6af] sub1
+  On which technology is 3G mobile communication based?
+  FDMA | OFDMA | Analog | *CDMA
+  x: 3G is CDMA-based (WCDMA/CDMA2000); 4G and 5G use OFDMA and 1G was analog FDMA.
+[f4cfd3c2be7a4] sub1
+  What is the full form of WLL, the radio link that replaces the copper last mile?
+  Wide Line Link | *Wireless Local Loop | Wireless Long Line | Wide Local LAN
+  x: WLL is Wireless Local Loop, a radio link replacing the copper last mile.
+[fb117bdc21b0c] sub1
+  About how low is the latency offered by 5G?
+  *1 ms | 10 ms | 50 ms | 100 ms
+  x: 5G uses OFDMA and offers latency as low as 1 ms.
+[g5a21c38e5c2f] sub1
+  Which technology does TRAI prefer for vehicle communication?
+  *C-V2X | Li-Fi | NFC | WiMAX
+  x: TRAI prefers C-V2X (cellular vehicle-to-everything) for communication between vehicles.
+[g65c389e3a4f7] sub1
+  Which generation of mobile communication was analog and based on FDMA?
+  4G | *1G | 2G | 3G
+  x: 1G was analog using FDMA; 2G was digital (GSM/CDMA) and brought SMS.
+[g57359e2cf7d2] sub1
+  Which mobile data technology is known as 2.5G?
+  *GPRS | EDGE | LTE | WCDMA
+  x: GPRS is 2.5G; EDGE, a faster GSM data technology, is 2.75G.
+[g575a2f91a48b] sub1
+  What is the full form of WiMAX?
+  Wireless Interoperability for Multiple Access | *World Wide Interoperability for Microwave Access | Worldwide Internet Mobile Access | Wireless Integrated Mobile Access Exchange
+  x: WiMAX (IEEE 802.16) is World Wide Interoperability for Microwave Access, carrying wireless data over long distances.
+[nd6b039a287e] sub2
+  The Open-RAN 5G partnership mentioned in the context of India is between which of the following?
+  TRAI and TDSAT | BSNL and RailTel | DoT and DST | *Airtel and Tata
+  x: The indigenous Open-RAN 5G partnership is between Airtel and Tata.
+[n1503deb6b9e] sub2
+  Why does 5G Standalone (SA) give lower latency?
+  Splits the network into virtual slices | Depends on a 4G LTE core | *Runs without a 4G core | Uses GEO satellite backhaul
+  x: 5G SA runs without a 4G core, which gives it lower latency; network slicing is a separate feature and does not explain it.
+[n0650005e68d] sub2
+  Which of the following is NOT correct about the Telecom Technology Development Fund (TTDF)?
+  It was introduced in 2022 | It receives about Rs 500 crore a year | *It receives 10% of Digital Bharat Nidhi collections | It has funded India 5G Stack, 6G and quantum-encryption projects
+  x: TTDF receives 5%, not 10%, of Digital Bharat Nidhi collections (about Rs 500 crore a year).
+[n473ee0106ee] sub2
+  Which institution ranked first in the Department of Telecommunications’ gradation of 100 5G Use Case Labs for January–June 2026 in all four categories?
+  C-DOT Bengaluru | IIT Hyderabad | TRAI Innovation Centre | *IIITDM Kurnool
+  x: IIITDM Kurnool ranked first in DoT’s January–June 2026 gradation in all four categories.
+[n7147bf76f82] sub2
+  Which body ran the 5G & Beyond Hackathon 2023?
+  Department of Science and Technology | Ministry of Electronics and IT | TRAI | *Department of Telecommunications
+  x: DoT, not DST, ran the hackathon, which was open to individuals, students, start-ups and academics.
+[f7517de85ed62] sub2
+  Which 5G band gives very high data rates but only a short range?
+  Low band | Sub-6 GHz | *mmWave | Mid band
+  x: mmWave gives very high data rates over short range; sub-6 GHz (low/mid) gives wider coverage and better penetration.
+[f73a8d97d6fe6] sub2
+  The Telecom Technology Development Fund (TTDF) receives what share of the Digital Bharat Nidhi?
+  2% | *5% | 10% | 25%
+  x: TTDF (2022) gets 5% of the Digital Bharat Nidhi, about Rs 500 crore a year.
+[ge226c5520535] sub2
+  What is 'network slicing' in 5G?
+  Dividing spectrum among operators through auctions | Cutting optical fibre into segments for repeaters | Sharing one tower between two operators | *Splitting one physical network into several virtual networks
+  x: Network slicing splits one 5G network into virtual slices, each suited to a different use.
+[n3c6721ce1b2] sub3
+  By which year does the Bharat 6G Vision (March 2023) aim for India to lead 6G design, development and deployment?
+  2027 | *2030 | 2035 | 2040
+  x: The Bharat 6G Vision, released in March 2023, targets Indian leadership in 6G by 2030.
+[fc249fb456f97] sub3
+  In which year was the Bharat 6G Alliance (B6GA) launched?
+  2025 | 2021 | 2022 | *2023
+  x: The Bharat 6G Alliance was launched in 2023 and has seven Working Groups.
+[f0769b044ef83] sub3
+  When is 6G expected to arrive?
+  *Early 2030s | Late 2020s | Early 2040s | Mid-2020s
+  x: 6G is expected in the early 2030s and is described as 'omnipresent wireless intelligence'.
+[nfaff82a621f] sub4
+  What uniform spectrum cap did TRAI recommend in February 2026?
+  25% | *35% | 40% | 50%
+  x: TRAI recommended auctioning all spectrum across nine bands, a uniform 35% cap, and cutting new-entrant net worth from Rs 100 crore to Rs 50 crore.
+[nf46a20e7e84] sub4
+  What did the Supreme Court hold in the Aircel case in February 2026?
+  Telecom companies own the spectrum they hold | The IBC can restructure spectrum rights | *Telecom companies do not own spectrum | Spectrum can be sold as company property in insolvency
+  x: The Court held that telecom companies do not own spectrum and that the IBC cannot restructure spectrum rights.
+[ndb026371289] sub4
+  How is satellite spectrum allotted under the Telecommunications Act, 2023?
+  Auctioned like terrestrial spectrum | Leased by ISRO | Allotted by state governments | *Assigned administratively
+  x: Under the First Schedule, terrestrial spectrum is auctioned while satellite spectrum is assigned administratively.
+[f509da24ca09b] sub4
+  With what did the Telecommunications Act, 2023 replace telecom licensing?
+  Registration | *Authorisation | Permission | Accreditation
+  x: The Telecommunications Act 2023 moved from licensing to authorisation.
+[fc6e09d14928e] sub4
+  In February 2026, to what amount did TRAI recommend cutting the net-worth requirement for a new entrant per service area from Rs 100 crore?
+  Rs 75 crore | Rs 25 crore | *Rs 50 crore | Rs 10 crore
+  x: TRAI (February 2026) recommended a cut from Rs 100 crore to Rs 50 crore per service area.
+[f7fba6d5498f8] sub4
+  Consider the following statements about spectrum under the Telecommunications Act, 2023:
+1. Terrestrial spectrum is auctioned.
+2. Satellite spectrum is auctioned.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Only statement 1 is correct; under the First Schedule satellite spectrum is assigned administratively, not auctioned.
+[n5f6140aecae] sub5
+  Under GMPCS licence conditions, what must satellite operators get made in India within five years?
+  All satellites | Launch vehicles | Ground rockets | *User terminals
+  x: The GMPCS conditions require terminals to be made in India within five years, besides geofencing, no cross-border spillover and lawful surveillance.
+[nb48f6956a04] sub5
+  Under ITU rules, a satellite must be de-orbited within how many years of the end of its mission?
+  10 years | *25 years | 50 years | 100 years
+  x: The ITU de-orbit limit is 25 years after mission end; orbital slots are given first-come, first-served.
+[n7e167d4f24c] sub5
+  GEO satellites orbit at about how many kilometres above Earth?
+  500 km | 2,000 km | 20,200 km | *35,786 km
+  x: GEO satellites are about 35,786 km up and have higher latency; LEO satellites are below about 2,000 km.
+[n0245a9c4dc0] sub5
+  Which of the following groups consists entirely of LEO satellite constellations?
+  *Starlink, Eutelsat OneWeb and Amazon Kuiper | GSAT-7A, GSAT-7 and GSAT-8 | GSAT series, OneWeb and Kuiper | GSAT-7, GSAT-7A and Starlink
+  x: Starlink, Eutelsat OneWeb and Amazon Kuiper are identified as LEO constellations. The GSAT examples listed are GEO satellites.
+[nb91dd2cb62f] sub5
+  In which year did Starlink, which operates more than 8,000 LEO satellites, obtain its GMPCS licence in India?
+  2022 | 2023 | 2024 | *2025
+  x: Starlink received its GMPCS licence in India in 2025; Eutelsat OneWeb had earlier received a letter of intent.
+[n945f7710e95] sub5
+  What is the full form of GMPCS?
+  Geostationary Mobile Personal Communication Service | *Global Mobile Personal Communication by Satellite | Global Microwave and Private Communication System | Government Mobile Public Communication Service
+  x: GMPCS means Global Mobile Personal Communication by Satellite. It is the Department of Telecommunications licence required for satellite communication operators.
+[f5b4b09c24921] sub5
+  Which of the following satellite series operates in geostationary orbit?
+  Starlink | OneWeb | *GSAT | Kuiper
+  x: GSAT satellites are GEO; Starlink, OneWeb and Kuiper are LEO constellations.
+[fcddf06043488] sub5
+  Below about what altitude do LEO satellites orbit Earth?
+  *2,000 km | 20,000 km | 35,786 km | 10,000 km
+  x: LEO satellites are below about 2,000 km and have low latency; GEO satellites are at about 35,786 km.
+[gd4e3c17dc60d] sub5
+  Which Indian group is associated with Eutelsat OneWeb, which got a letter of intent for satellite internet in India?
+  *Bharti | Reliance | Adani | Tata
+  x: OneWeb, a LEO constellation, is backed by Bharti and got a letter of intent before Starlink's 2025 GMPCS licence.
+[n2e9422bf7e5] sub6
+  Which of the following is the fastest data-transmission medium among the listed communication media?
+  Radio waves | Copper cable | *Optical fibre | Satellite signals
+  x: Optical fibre provides faster data transmission than copper cable, radio waves and satellite signals.
+[nd5e53485bb8] sub6
+  Which medium is best suited for long-distance optical signal transmission?
+  *Single-mode fibre | Multi-mode fibre | Coaxial cable | Twisted-pair cable
+  x: Single-mode fibre carries signals over long distances, while multi-mode fibre is used for short runs.
+[ne4a268316ad] sub6
+  About what share of international internet and telecom traffic do undersea communication cables carry?
+  50% | 75% | 90% | *99%
+  x: Undersea cables carry nearly 99% of international traffic and are cheaper with lower latency than satellites.
+[n312963a6da7] sub6
+  Which of the following is NOT correct about the National Optical Fibre Network (NOFN)?
+  It was planned to link all 2,50,000 Gram Panchayats | It was later renamed BharatNet | It uses GPON technology | *It is funded by the National Investment and Infrastructure Fund
+  x: NOFN is funded by the Universal Service Obligation Fund (USOF), not NIIF.
+[fb95150db9df7] sub6
+  Which of the following does the CANI undersea optical fibre cable link with Chennai?
+  Lakshadweep | Sri Lanka | *Andaman and Nicobar Islands | Maldives
+  x: CANI (Chennai–Andaman and Nicobar Islands), about 2,300 km, was inaugurated on 10 August 2020.
+[f46cafd9153b3] sub6
+  Which of the following has the highest refractive index?
+  Glass | Water | Air | *Diamond
+  x: Refractive index order is Diamond > Glass > Water > Air.
+[fd70dd8b66985] sub6
+  Which of the following funds the National Optical Fibre Network (NOFN)?
+  NIIF | *USOF | TTDF | NABARD
+  x: NOFN, covering 2,50,000 Gram Panchayats, is funded by USOF, not NIIF.
+[g65d72f5fda90] sub6
+  Which of the following works on the principle of total internal reflection?
+  Electric bulb | Magnifying glass | *Endoscope | Solar cooker
+  x: An endoscope, like an optical fibre, carries light by total internal reflection.
+[g985acc4bce72] sub6
+  Consider the following statements about total internal reflection:
+1. It takes place when light travels from a denser medium to a rarer medium.
+2. It takes place only when the angle of incidence is less than the critical angle.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Total internal reflection needs light going from a denser to a rarer medium with the angle of incidence greater than the critical angle.
+[gb57781a41bcd] sub6
+  In which year was the Chennai–Andaman and Nicobar Islands (CANI) undersea cable inaugurated?
+  2019 | *2020 | 2018 | 2022
+  x: CANI, about 2,300 km long and laid by BSNL, was inaugurated on 10 August 2020.
+[g4d3683a847f1] sub6
+  Of which material is the thin strand of an optical fibre mostly made?
+  Rubber | Copper | Aluminium | *Glass (silica)
+  x: An optical fibre is a thin strand of glass (silica) or plastic that carries signals as pulses of light.
+[g34ec98b6b916] sub6
+  According to PM Gati Shakti NMP data (2026), about how many route km of optical fibre cable does India have?
+  3.15 lakh | 8.26 lakh | *13.5 lakh | 6.92 lakh
+  x: PM Gati Shakti NMP (2026) shows about 13.5 lakh route km of OFC, 8.26 lakh towers and 3.15 lakh PM-WANI hotspots.
+[nphysics-20-6] sub7
+  What is the wavelength range of microwaves?
+  10 to 400 nm | More than 1 m | *1 mm to 1 m | 400 to 700 nm
+  x: Microwaves span 1 mm–1 m; radio waves are longer than 1 m and 10–400 nm is ultraviolet.
+[nphysics-17-10] sub7
+  Which waves are mainly used in radar and satellite communication?
+  Ultraviolet rays | X-rays | *Microwaves | Gamma rays
+  x: Microwaves serve satellites, radar and 5G; UV, X-rays and gamma rays are ionising and not used for normal communication.
+[nphysics-17-35] sub7
+  Which of the following pairs (radiation – use) is correctly matched?
+  Radio waves – Experimental Li-Fi | Visible light – Radio-frequency pulses in MRI | *Infrared radiation – Remote controls and short-range data communication | Radio waves – Remote controls
+  x: Infrared runs remote controls and short-range data links; MRI uses radio-frequency pulses and Li-Fi uses visible light.
+[n85e3704f9da] sub7
+  What is the wavelength range of visible light?
+  10–400 nm | *400–700 nm | 0.01–10 nm | Less than 0.01 nm
+  x: Visible light is 400–700 nm; 10–400 nm is ultraviolet, 0.01–10 nm X-rays and below 0.01 nm gamma rays.
+[g9b70d7a3afbe] sub7
+  What is the loud bang heard when an aircraft flies faster than the speed of sound called?
+  Echo | *Sonic boom | Doppler effect | Resonance
+  x: A sonic boom is the shock-wave bang made by an object moving faster than sound, such as a supersonic aircraft.
+[ncdb4def812c] sub8
+  In which year did Harald Haas coin the term Li-Fi?
+  2005 | 2008 | *2011 | 2015
+  x: Harald Haas coined 'Li-Fi' in 2011 for wireless optical networking using LEDs.
+[ncdb39c4a27b] sub8
+  Which of the following is NOT correctly matched in the comparison of Li-Fi and Wi-Fi?
+  Wi-Fi — Suitable for wireless local area networks | Li-Fi — Visible light from LEDs | Wi-Fi — Radio waves | *Li-Fi — Generally longer range than Wi-Fi
+  x: Wi-Fi has longer range than Li-Fi. Li-Fi is associated with visible light, while Wi-Fi uses radio waves and supports wireless LANs.
+[n3a146575ca6] sub8
+  Which IEEE standard does Wi-Fi 7 correspond to?
+  *802.11be | 802.11ac | 802.11n | 802.11ax
+  x: Wi-Fi 7 is IEEE 802.11be and Wi-Fi 6 is 802.11ax.
+[n5d955fc0cb2] sub8
+  What was India's position in the Network Readiness Index 2024?
+  79th, improving from 60th | 29th, improving from 40th | 60th, improving from 49th | *49th, improving from 60th
+  x: India rose to 49th in the Network Readiness Index 2024 from 60th earlier.
+[f280afd6cab3d] sub8
+  Google's Project Loon used which of the following to provide internet?
+  Low-orbit satellites | *Stratospheric helium balloons | Solar drones | Undersea cables
+  x: Project Loon (Google/Alphabet) used stratospheric helium balloons for internet and was shut in January 2021.
+[f0a5a97b8381e] sub8
+  Which IEEE standard does Wi-Fi 6 correspond to?
+  802.11be | 802.16 | *802.11ax | 802.15
+  x: Wi-Fi 6 is 802.11ax; Wi-Fi 7 is 802.11be and WiMAX is 802.16.
+[f2d7c9d9895f8] sub8
+  What is transmitting data by laser beams through the air without fibre called?
+  Li-Fi | *FSO | RFID | NFC
+  x: FSO (free-space optics) sends data by laser beams without fibre.
+[f5133d7f86cac] sub8
+  According to PM Gati Shakti NMP data (2026), about how many PM-WANI hotspots are there?
+  1.5 lakh | 8.26 lakh | 13.5 lakh | *3.15 lakh
+  x: PM Gati Shakti NMP (2026) shows about 3.15 lakh PM-WANI hotspots, 8.26 lakh towers and 13.5 lakh route km of OFC.
+[f12acd7e8e86d] sub8
+  Which of the following is NOT correct about Li-Fi?
+  It uses visible light from LEDs | *It passes through walls | It offers more bandwidth than Wi-Fi | Its term was coined by Harald Haas
+  x: Li-Fi does not pass through walls; Wi-Fi, which uses radio waves, does.
+[f6b5aa662f8c3] sub8
+  Radio tags read wirelessly, as used in Kavach track tags, are an example of which technology?
+  NFC | Bluetooth | *RFID | Li-Fi
+  x: RFID uses radio tags read wirelessly, such as Kavach track tags.
+[g0a32db567d59] sub8
+  Who developed Bluetooth technology in 1994?
+  Harald Haas | *Jaap Haartsen | Tim Berners-Lee | Martin Cooper
+  x: Bluetooth, which works at 2.4 GHz, was developed in 1994 by Jaap Haartsen; Harald Haas coined the term Li-Fi.
+[gfdcb2f07c664] sub8
+  Which of the following does NOT use the licence-free 2.4 GHz ISM band?
+  Bluetooth | Microwave ovens | Cordless phones | *FM radio broadcasting
+  x: Bluetooth, Wi-Fi, cordless phones and microwave ovens use the 2.4-2.5 GHz ISM band; FM radio uses about 88-108 MHz.
+[gd258618d355a] sub8
+  What is the full form of CCTV?
+  Central Control Television | Common Cable Television | *Closed-Circuit Television | Coded Circuit Transmission Video
+  x: CCTV is Closed-Circuit Television: cameras send signals to a limited set of monitors, not openly to the public.
+
+=== NOTES 5:21 | Emerging Ict Applications – Ai, Big Data, Cloud, Blockchain, Iot and 5G
+## SUB 0 | Fourth Industrial Revolution
+[21:0:0] - Term coined by **Klaus Schwab (WEF)** in **2016**.
+[21:0:1] - Meaning: convergence of **digital, physical and biological** technologies; **cyber-physical systems**; "smart factories".
+[21:0:2] TABLE head: Revolution | Defining technology
+  [21:0:2.0] IR1 | Steam / mechanisation
+  [21:0:2.1] IR2 | Electricity / mass production
+  [21:0:2.2] IR3 | Electronics / IT
+  [21:0:2.3] IR4 | Cyber-physical systems (digital + physical + biological)
+[21:0:3] - **4IR technologies**: **AI, machine learning, robotics, IoT, blockchain, quantum computing, geo-spatial mapping**.
+[21:0:4] - **AP**: WEF announced a **Centre for the Fourth Industrial Revolution (C4IR)** in Andhra Pradesh (2026) = India's **3rd**, after **Mumbai** and **Telangana**.
+[21:0:5] Alvin Toffler | "Third Wave" | futurist
+Tim Berners-Lee | World Wide Web | Nandan Nilekani: UIDAI
+## SUB 1 | Terms and Full Forms
+[21:1:0] TABLE head: Term | Full form / meaning
+  [21:1:0.0] IoT | Internet of Things (smart homes, connected appliances) (APPSC 2023, 2024)
+  [21:1:0.1] IIoT | Industrial IoT: production processes, machine-health checks
+  [21:1:0.2] NFT | Non-Fungible Token: unique blockchain token
+  [21:1:0.3] DLT | Distributed Ledger Technology
+  [21:1:0.4] RFID | Radio Frequency Identification: tags + readers over radio waves
+  [21:1:0.5] Li-Fi | Light Fidelity: data via LEDs; better bandwidth and security than Wi-Fi
+  [21:1:0.6] 5G NR | 5G New Radio, the air-interface standard
+  [21:1:0.7] Web 3.0 | Decentralised, blockchain-based internet
+  [21:1:0.8] NFC | Near-Field Communication: within a few centimetres
+  [21:1:0.9] IRC | Internet Relay Chat: real-time text chat (application-layer protocol)
+  [21:1:0.10] IaaS / PaaS / SaaS | Infrastructure / Platform / Software as a Service
+## SUB 2 | Internet of Things (iot)
+[21:2:0] - Devices networked to **communicate without human intervention**.
+[21:2:1] - **Four pillars**: **device, data, analytics, connectivity**.
+[21:2:2] # Three-Layer Architecture
+[21:2:3] - 1. **Perception layer**: sensors collect data.
+[21:2:4] - 2. **Network layer**: transmits data.
+[21:2:5] - 3. **Application layer**: user services.
+[21:2:6] Layer order: perception → network → application (not network first).
+[21:2:7] # Uses
+[21:2:8] TABLE head: Use | Examples
+  [21:2:8.0] Smart city | Traffic and air-quality monitoring, waste collection, public safety
+  [21:2:8.1] Smart agriculture | Precision farming, soil monitoring, livestock, yields
+  [21:2:8.2] Wearables | Fitness trackers, health monitors
+## SUB 3 | Artificial Intelligence – Tools and Developers
+[21:3:0] TABLE head: AI tool / platform | Developer | Fact
+  [21:3:0.0] ChatGPT | OpenAI | Launched 30 Nov 2022
+  [21:3:0.1] Krutrim | Ola (Bhavish Aggarwal) | Unveiled 15 Dec 2023; Indian-language chatbot (22 languages)
+  [21:3:0.2] Hanooman | SML India with 3AI Holding (Abu Dhabi); linked to IIT Bombay-led BharatGPT group | Launched May 2024; Indian-language GenAI platform
+[21:3:1] # AI in AP Farming
+[21:3:2] - **Microsoft + ICRISAT + AP government** (2016 pilot): **AI Sowing App** for **groundnut** in **Devanakonda mandal, Kurnool**; Telugu SMS advice on sowing dates from 30 years of climate data.
+[21:3:3] - Reported ~**30%** higher yield for 175 farmers; extended to 3,000+ farmers in AP and Karnataka in 2017.
+[21:3:4] - AP-Google AI/cloud task force (June 2026).
+[21:3:5] Krutrim = Ola; Hanooman = SML; ChatGPT = OpenAI. Do not mix developers.
+## SUB 4 | Blockchain – Features and Governance Uses
+[21:4:0] - **Features**: decentralised **distributed ledger**, **immutable**, **transparent**, **smart contracts**.
+[21:4:1] - **Tokenization**: **NFTs** (unique digital assets) and **real-world asset tokens** (land, bonds).
+[21:4:2] - **Governance uses**: **land records**, digital certificates, **pharma and agri supply chains**, **e-Notary** (blockchain e-Sign), farm insurance, e-voting, health records, SHG microfinance.
+## SUB 5 | Other Digital Technologies
+[21:5:0] TABLE head: Technology | Meaning
+  [21:5:0.0] Edge computing | Data processed near the source → low latency, bandwidth saving, privacy
+  [21:5:0.1] Fog computing | Sits between edge and cloud
+  [21:5:0.2] Metaverse | Shared immersive virtual world; linked network of 3D virtual worlds used by millions, with property rights over virtual items; uses AR and VR
+  [21:5:0.3] Facial recognition | NAFRS (National Automated Facial Recognition System) by NCRB; privacy concerns
+[21:5:1] # RFID – Active vs Passive
+[21:5:2] TABLE head: Active RFID | Passive RFID
+  [21:5:2.0] Own battery | Powered by the reader's signal
+  [21:5:2.1] Longer range | Shorter range
+[21:5:3] - Reliance pledged a nationwide **edge network** at the India AI Summit (2026).
+[21:5:4] - **Digital twin:** a virtual replica of a physical object, system or process, kept updated with **real-time sensor (IoT) data**; used for simulation and predictive maintenance.
+## SUB 6 | Big Data – the Vs and Governance Uses
+[21:6:0] - Originally **3 Vs** (2001): **Volume** (amount), **Velocity** (speed of generation and analysis), **Variety** (structured, semi-structured, unstructured).
+[21:6:1] - Later added: **Veracity** (quality, accuracy, trustworthiness) and **Value** (usefulness) → **5 Vs**.
+[21:6:2] TABLE head: Application | Agency / use
+  [21:6:2.0] AP State Data Lake | Links RCH health with POSHAN, and housing with land pattas → plugs leakages
+  [21:6:2.1] I4C's NCAP | Uses AI and big data to analyse crime trends
+  [21:6:2.2] NAFRS | NCRB facial recognition
+## SUB 7 | Cloud Computing
+[21:7:0] # Service and Deployment Models
+[21:7:1] TABLE head: Service model | What is provided
+  [21:7:1.0] IaaS | Infrastructure (computing, storage)
+  [21:7:1.1] PaaS | Platform to build and run applications
+  [21:7:1.2] SaaS | Ready-to-use software
+[21:7:2] - MeitY empanelment deployment models: **Public Cloud**, **Virtual Private Cloud**, **Government Community Cloud**.
+[21:7:3] # MeghRaj (GI Cloud)
+[21:7:4] - **MeghRaj** = **GI Cloud** (Government of India cloud) initiative of **MeitY**; national cloud by **NIC** launched **2014**.
+[21:7:5] - MeitY empanels cloud service providers for IaaS, PaaS, SaaS and audits them annually.
+## SUB 8 | 5G and 6G – Features, Labs, Stack
+[21:8:0] - Generations: **1G (1980s)** → 5G now; **6G expected early 2030s**.
+[21:8:1] - **5G features**: latency as low as **1 ms**, **massive device connectivity**, **high reliability**.
+[21:8:2] - **Network slicing**: one physical network split into virtual networks via **SDN/NFV**; ITU/3GPP use cases **eMBB, URLLC, mMTC**.
+[21:8:3] - Net neutrality: Airtel's **'Priority Postpaid'** raised a **net neutrality** debate (3 Jun 2026).
+[21:8:4] - **AP**: **IIITDM Kurnool** ranked **1st** in DoT's **100 5G Use Case Labs** gradation (Jan–Jun 2026; result July 2026).
+[21:8:5] - **Indigenous stack** (Bharat Telecom Stack): **C-DOT** core + **Tejas Networks** radio + **TCS** integration; deployed by **BSNL**; launched by PM on 27 Sep 2025 (4G, 5G-ready); about 1 lakh BSNL sites; puts India among the few countries with its own full telecom stack.
+[21:8:6] - **6G**: **Bharat 6G Vision** document and **Bharat 6G Alliance**, both **2023**.
+[21:8:7] - **Wi-Fi 7**: **IEEE 802.11be**, **Multi-Link Operation**, up to **46 Gbps**.
+## SUB 9 | Number Game and Quick Revision
+[21:9:0] TABLE head: Item | Fact
+  [21:9:0.0] 4IR term | Klaus Schwab, 2016
+  [21:9:0.1] IoT layers / pillars | 3 / 4
+  [21:9:0.2] Big data Vs | 3 original, 5 now
+  [21:9:0.3] 5G latency | 1 ms
+  [21:9:0.4] Wi-Fi 7 speed | up to 46 Gbps
+  [21:9:0.5] C4IR in AP | India's 3rd
+  [21:9:0.6] MeghRaj | 2014
+[21:9:1] # FIRST / LAST / SPECIAL FACTS
+[21:9:2] - IIITDM Kurnool: 1st among 100 5G Use Case Labs, all four categories.
+[21:9:3] - First C4IR centres in India: Mumbai, then Telangana, then AP.
+[21:9:4] - Bharat 6G Vision and Bharat 6G Alliance: same year (2023).
+## SUB 10 | Appsc Previous Year Questions
+[21:10:0] TABLE head: Examination | Question Area
+  [21:10:0.0] G1 Prelims 2024, Paper 2 | Artificial Intelligence tool – developed by
+  [21:10:0.1] APPSC 2024 | IoT full form
+  [21:10:0.2] APPSC 2023 | IoT full form
+  [21:10:0.3] APPSC (earlier years) | 4IR technologies, metaverse, IRC full form
+## SUB 11 | High-probability Mcq Traps
+[21:11:0] VERY IMPORTANT
+[21:11:1] - 1. 4IR term = Klaus Schwab (WEF), 2016; Toffler = "Third Wave".
+[21:11:2] - 2. IoT layers: perception → network → application.
+[21:11:3] - 3. Passive RFID uses the reader's signal; active has its own battery.
+[21:11:4] - 4. Fog computing lies between edge and cloud.
+[21:11:5] - 5. NAFRS = NCRB, not I4C; NCAP = I4C.
+[21:11:6] - 6. C4IR in AP is India's 3rd, after Mumbai and Telangana.
+[21:11:7] - 7. Wi-Fi 7 = 802.11be, not 802.11ax.
+[21:11:8] - 8. Krutrim = Ola; Hanooman = SML; ChatGPT = OpenAI.
+[21:11:9] - 9. MeghRaj = GI Cloud of MeitY, not a 5G project.
+[21:11:10] - 10. Bharat 6G Alliance and Vision both 2023.
+
+=== OWN MCQs of 5:21 (69)
+[n6e0e3d5ef61] sub0
+  Which of the following is NOT correct regarding the Industrial Revolutions?
+  The First was associated with steam and mechanisation | The Second was associated with electricity and mass production | *The First Industrial Revolution was associated with electricity and mass production | The Third was associated with electronics and information technology
+  x: Electricity and mass production mark the Second Industrial Revolution; the First was based on steam and mechanisation.
+[nc68a553b38a] sub0
+  Who coined the term 'Fourth Industrial Revolution', and when?
+  *Klaus Schwab of the World Economic Forum in 2016 | Alvin Toffler in 1980 | Tim Berners-Lee in 1991 | Nandan Nilekani in 2009
+  x: Klaus Schwab, founder of the World Economic Forum (WEF), coined the term in 2016. Toffler wrote of the 'Third Wave', Berners-Lee invented the World Wide Web, and Nilekani led UIDAI; none coined 4IR.
+[n50c866bcd6f] sub0
+  Which of the following sets of technologies is most closely associated with the Fourth Industrial Revolution?
+  Steam engines, railways and coal mining | Electricity, assembly lines and mass production | *Artificial intelligence, robotics, IoT and quantum computing | Telegraph, typewriter and mechanical calculators
+  x: Artificial intelligence, robotics, the Internet of Things and quantum computing are identified with the Fourth Industrial Revolution.
+[n332a457fd02] sub0
+  What is the position of the World Economic Forum's Centre for the Fourth Industrial Revolution (C4IR) announced for Andhra Pradesh among such centres in India?
+  First, ahead of Mumbai | Second, after Mumbai | *Third, after Mumbai and Telangana | Fourth, after Mumbai, Telangana and Karnataka
+  x: The WEF C4IR centre in Andhra Pradesh is India's third, after Mumbai and Telangana. So it is neither the first nor the second, and no fourth (Karnataka) centre precedes it.
+[f4167d6e4d29a] sub0
+  Which futurist is associated with the idea of the 'Third Wave'?
+  Klaus Schwab | Tim Berners-Lee | *Alvin Toffler | Nandan Nilekani
+  x: Alvin Toffler gave the 'Third Wave'; Klaus Schwab coined 'Fourth Industrial Revolution' in 2016.
+[g1477f2e0194e] sub0
+  Who invented the World Wide Web?
+  Klaus Schwab | *Tim Berners-Lee | Alvin Toffler | Nandan Nilekani
+  x: Tim Berners-Lee created the World Wide Web; Klaus Schwab coined '4IR' and Toffler wrote of the 'Third Wave'.
+[gd7a529d83717] sub0
+  The Fourth Industrial Revolution refers to the convergence of which technologies?
+  Electricity and mass production | *Digital, physical and biological | Electronics and information technology only | Steam and mechanisation
+  x: 4IR is the fusion of digital, physical and biological technologies through cyber-physical systems.
+[g0d597f87c7b2] sub0
+  Consider the following statements about the Fourth Industrial Revolution:
+1. It is built on cyber-physical systems and 'smart factories'.
+2. Its defining technology is steam and mechanisation.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: 4IR rests on cyber-physical systems; steam and mechanisation defined the First Industrial Revolution.
+[g76e7185b9526] sub0
+  With which of the following is Nandan Nilekani associated?
+  The 'Third Wave' | World Wide Web | *UIDAI | Fourth Industrial Revolution
+  x: Nandan Nilekani is linked with UIDAI (Aadhaar); Tim Berners-Lee with the WWW and Alvin Toffler with the 'Third Wave'.
+[nefedda439e6] sub1
+  What is the full form of IIoT?
+  International Internet of Tools | *Industrial Internet of Things | Integrated Internet of Telecommunication | Internet of Information Technology
+  x: IIoT stands for Industrial Internet of Things and is associated with production processes and equipment-health monitoring.
+[n6885f8564d2] sub1
+  Which of the following pairs is wrongly matched?
+  NFT – Non-Fungible Token | DLT – Distributed Ledger Technology | Web 3.0 – Decentralised, blockchain-based internet | *5G NR – 5G Network Relay
+  x: 5G NR means 5G New Radio, the air-interface standard.
+[fd380646a1df3] sub1
+  Over about what distance does Near-Field Communication (NFC) work?
+  *A few centimetres | A few hundred metres | A few kilometres | About 50 metres
+  x: NFC works only within a few centimetres.
+[f1a02529df461] sub1
+  What does Web 3.0 refer to?
+  A centralised, server-based internet | A satellite internet service | *A decentralised, blockchain-based internet | A 5G mobile standard
+  x: Web 3.0 is the decentralised, blockchain-based internet.
+[f3f77f4631e83] sub1
+  What does 'NR' stand for in 5G NR?
+  Network Relay | *New Radio | Node Range | Next Release
+  x: 5G NR is 5G New Radio, the air-interface standard.
+[g4fe03d5d18b9] sub1
+  What does the term IoT stand for?
+  *Internet of Things | Integration of Technology | Internet of Telecommunications | Interface of Things
+  x: IoT means Internet of Things: devices networked to communicate without human intervention.
+[g6b44b827e0fb] sub1
+  Smart homes and connected appliances are examples of which technology?
+  Li-Fi | Blockchain | *Internet of Things | Metaverse
+  x: Smart homes and connected appliances are uses of the Internet of Things (IoT).
+[gd18e836a0034] sub1
+  What is the full form of RFID?
+  Remote Frequency Identity Device | Radio Field Integrated Data | Rapid Frequency Identification | *Radio Frequency Identification
+  x: RFID is Radio Frequency Identification: tags and readers that talk over radio waves.
+[gb1cf80d562cc] sub1
+  Through which medium do RFID tags and readers communicate?
+  *Radio waves | Infrared rays | Optical fibre | Visible light
+  x: RFID uses tags and readers that exchange data over radio waves, without line of sight.
+[g5768b43990e8] sub1
+  What does IaaS stand for in cloud computing?
+  Information as a Service | Integration as a Service | *Infrastructure as a Service | Internet as a Service
+  x: IaaS, PaaS and SaaS are Infrastructure, Platform and Software as a Service.
+[n4231db5b2a0] sub2
+  What are the four pillars identified for IoT?
+  Connectivity, agriculture, finance and security | Device, electricity, transport and taxation | *Device, data, analytics and connectivity | Data, robotics, satellites and legislation
+  x: The four IoT pillars are device, data, analytics and connectivity.
+[n57e264ace04] sub2
+  In the three-layer IoT architecture, which layer uses sensors at the physical level?
+  Application layer | Network layer | *Perception layer | Session layer
+  x: The perception layer uses sensors, the network layer transmits data and the application layer provides user services.
+[nd6edfd29c4b] sub2
+  In which of the following are traffic and air-quality monitoring and waste collection IoT uses?
+  *Smart cities | Wearables | Smart agriculture | Smart homes
+  x: These are smart-city uses; smart agriculture covers precision farming, soil monitoring and livestock, and wearables are fitness trackers.
+[f11070e1328b3] sub2
+  In which of the following are precision farming and soil monitoring IoT uses?
+  Smart city | Wearables | Industrial IoT | *Smart agriculture
+  x: Precision farming, soil monitoring, livestock and yields are smart-agriculture uses of IoT.
+[f605cae7badce] sub2
+  What is the correct order of the three IoT layers, from the physical level up?
+  Network – Perception – Application | *Perception – Network – Application | Perception – Application – Network | Application – Network – Perception
+  x: Sensors in the perception layer collect data, the network layer transmits it and the application layer gives user services.
+[feba59b9817b7] sub2
+  Fitness trackers and health monitors are examples of which IoT category?
+  *Wearables | Smart city | Smart agriculture | Industrial IoT
+  x: Fitness trackers and health monitors are wearable IoT devices.
+[ga7980546a756] sub2
+  What is the Internet of Things (IoT)?
+  A government cloud for storing records | A shared ledger copied across many nodes | A satellite-based internet service | *Devices networked to communicate without human intervention
+  x: IoT links devices so they communicate with each other without human intervention.
+[gf20134e8bb6a] sub2
+  In the three-layer IoT architecture, which layer transmits the data collected by sensors?
+  Session layer | *Network layer | Application layer | Perception layer
+  x: The perception layer collects data with sensors, the network layer transmits it and the application layer gives user services.
+[f9bc047c91f69] sub3
+  Which company developed the AI chatbot 'Krutrim'?
+  OpenAI | *Ola | SML India | Microsoft
+  x: Krutrim was unveiled by Ola (Bhavish Aggarwal) on 15 Dec 2023.
+[fe272cb26370d] sub3
+  Which company developed the Indian-language generative AI platform 'Hanooman' (May 2024)?
+  Ola | OpenAI | *SML India | Microsoft
+  x: Hanooman is by SML India with 3AI Holding; Krutrim is Ola's and ChatGPT is OpenAI's.
+[ff88b8ff3cd69] sub3
+  Which company partnered ICRISAT and the AP government in the 2016 AI Sowing App pilot?
+  Google | Ola | OpenAI | *Microsoft
+  x: The AI Sowing App was a Microsoft + ICRISAT + AP government pilot.
+[fecb1611ba2d0] sub3
+  For which crop did the 2016 AI Sowing App pilot in Devanakonda mandal, Kurnool, advise farmers?
+  *Groundnut | Paddy | Cotton | Sugarcane
+  x: It gave Telugu SMS advice on sowing dates for groundnut.
+[f219a4b56eecb] sub3
+  When was ChatGPT, developed by OpenAI, launched?
+  15 Dec 2023 | *30 Nov 2022 | May 2024 | 1 Jul 2015
+  x: ChatGPT was launched on 30 Nov 2022; 15 Dec 2023 is Krutrim and May 2024 Hanooman.
+[gd94a5ddb0167] sub3
+  Match the following:
+List-I (AI platform)
+A. Krutrim
+B. Hanooman
+C. ChatGPT
+List-II (Developer)
+1. OpenAI
+2. Ola
+3. SML India
+Select the correct answer using the code given below:
+  A-3, B-2, C-1 | A-1, B-3, C-2 | *A-2, B-3, C-1 | A-2, B-1, C-3
+  x: Krutrim was developed by Ola, Hanooman by SML India and ChatGPT by OpenAI.
+[gb63c5394ea61] sub3
+  About how much higher yield was reported for farmers using the AI Sowing App in the 2016 Kurnool pilot?
+  75% | *30% | 50% | 10%
+  x: Microsoft, ICRISAT and AP's groundnut sowing app reported about 30% higher yield for 175 farmers.
+[g0c3d9d557a46] sub3
+  With which entrepreneur is the Indian-language AI chatbot Krutrim associated?
+  Nandan Nilekani | Vijay Shekhar Sharma | *Bhavish Aggarwal | Ritesh Agarwal
+  x: Krutrim was developed by Ola, led by Bhavish Aggarwal, and unveiled on 15 December 2023.
+[g76f0198978ab] sub3
+  The Hanooman AI platform is linked to the BharatGPT group led by which institution?
+  IIT Kanpur | *IIT Bombay | IIT Madras | IIT Delhi
+  x: Hanooman, by SML India with 3AI Holding, is linked to the IIT Bombay-led BharatGPT group.
+[fcf59000e7f0f] sub4
+  Consider the following statements about blockchain:
+1. It is a decentralised distributed ledger.
+2. Its records are immutable.
+3. Its records are controlled by a single central authority.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Blockchain is a decentralised, immutable distributed ledger; it is not controlled by a single central authority.
+[f0adb1d794977] sub4
+  What are unique digital assets recorded as tokens on a blockchain called?
+  Smart contracts | Distributed ledgers | *Non-Fungible Tokens | Real-world asset tokens
+  x: NFTs are unique digital assets; real-world asset tokens represent land, bonds and similar assets.
+[f70580e7d44d3] sub4
+  Land records, pharma supply chains and e-Notary (e-Sign) are governance uses of which technology?
+  Edge computing | Li-Fi | Fog computing | *Blockchain
+  x: These are listed governance uses of blockchain.
+[n63b9970383a] sub5
+  Consider the following statements:
+1. Edge computing processes data near its source, reducing latency and bandwidth use.
+2. Fog computing sits between edge computing and the cloud.
+Which of the above statement(s) is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Edge computing processes data near the source with lower latency and bandwidth use, and fog computing sits between the edge and the cloud.
+[n39996fda20a] sub5
+  With which body is the National Automated Facial Recognition System (NAFRS) associated?
+  *National Crime Records Bureau | Ministry of Electronics and Information Technology exclusively | Department of Telecommunications | International Telecommunication Union
+  x: NAFRS is associated with the National Crime Records Bureau (NCRB). Facial-recognition systems also raise privacy concerns.
+[nabad392d325] sub5
+  How are passive RFID tags powered?
+  Their own battery | *The reader's signal | A built-in solar cell | A mains connection
+  x: Passive tags draw power from the reader's signal; active tags have their own battery and longer range.
+[f573ea0e0fa8b] sub5
+  Consider the following statements about RFID tags:
+1. Active RFID tags have their own battery.
+2. Passive RFID tags have a longer range than active tags.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Active tags have their own battery and longer range; passive tags use the reader's signal and have a shorter range.
+[n56543c24e8c] sub5
+  What is a shared immersive virtual world built on AR and VR called?
+  Web 3.0 | Digital twin | Cloud | *Metaverse
+  x: The metaverse is a shared immersive virtual world using AR and VR.
+[g99cf643dcf66] sub5
+  Which company pledged a nationwide edge network at the India AI Summit (2026)?
+  Tata | Infosys | *Reliance | Bharti Airtel
+  x: Reliance pledged a nationwide edge computing network at the India AI Summit in 2026.
+[g5f10f38ecdbd] sub5
+  What is a virtual replica of a physical object or system, kept updated with real-time data from sensors, called?
+  Fog computing | Edge computing | Metaverse | *Digital twin
+  x: A digital twin is a virtual model of a physical asset that uses real-time sensor data, used for simulation and predictive maintenance.
+[n0ecfeb3fd80] sub6
+  The Andhra Pradesh State Data Lake is used to cross-link which of the following data combinations for plugging leakages?
+  *RCH health with POSHAN data, and housing with land pattas | 5G traffic with Wi-Fi 7, and NFTs with bonds | Facial images with AR overlays, and RFID with Li-Fi | SaaS with PaaS, and IaaS with Web 3.0
+  x: The AP State Data Lake cross-links RCH health data with POSHAN data and housing data with land pattas to help plug leakages.
+[naea5f64821e] sub6
+  For what does I4C's NCAP mainly use artificial intelligence and big data?
+  soil moisture and livestock yields | 5G radio interfaces | cloud-service pricing | *crime trends
+  x: I4C's NCAP uses AI and big data to analyse crime trends.
+[fa96064335f72] sub6
+  What are the original three Vs of big data (2001)?
+  Volume, Veracity, Value | Velocity, Value, Variety | *Volume, Velocity, Variety | Veracity, Velocity, Volume
+  x: Volume, Velocity and Variety were the original 3 Vs; Veracity and Value were added later.
+[ffa43c3ad048c] sub6
+  Which of the following pairs (big data V – meaning) is wrongly matched?
+  Volume – amount of data | Velocity – speed of generation and analysis | *Veracity – usefulness of data | Variety – structured, semi-structured and unstructured data
+  x: Veracity means quality, accuracy and trustworthiness; usefulness is Value.
+[gb659d672e4fa] sub6
+  Which two Vs were later added to the original three Vs of big data?
+  Volume and Velocity | *Veracity and Value | Variety and Volume | Velocity and Variety
+  x: The original 3 Vs (2001) were Volume, Velocity and Variety; Veracity and Value were added to make 5 Vs.
+[fb8c16e89ff8c] sub7
+  What does SaaS provide in cloud computing?
+  Computing and storage infrastructure | A platform to build applications | Network hardware | *Ready-to-use software
+  x: SaaS is Software as a Service: ready-to-use software; IaaS gives infrastructure and PaaS a platform.
+[f4467450a1e1f] sub7
+  By what other name is MeghRaj, the Government of India cloud initiative of MeitY, known?
+  *GI Cloud | Bharat Telecom Stack | India Stack | BharatNet
+  x: MeghRaj is the GI Cloud of MeitY, not a 5G or telecom project.
+[fdef775de5005] sub7
+  In which year did NIC launch the national cloud under MeghRaj?
+  2012 | 2016 | *2014 | 2018
+  x: NIC launched the national cloud under MeghRaj in 2014.
+[fb360dd0621f4] sub7
+  Which of the following is a deployment model used in MeitY's cloud empanelment?
+  *Government Community Cloud | Software as a Service | Platform as a Service | Infrastructure as a Service
+  x: MeitY empanels Public, Virtual Private and Government Community Cloud; IaaS, PaaS and SaaS are service models.
+[gc012110629c5] sub7
+  Which cloud service model provides a platform to build and run applications?
+  GI Cloud | *PaaS | IaaS | SaaS
+  x: PaaS gives a platform for applications; IaaS gives computing and storage; SaaS gives ready-to-use software.
+[n1b629f565eb] sub8
+  Wi-Fi 7 is associated with which of the following specifications?
+  *IEEE 802.11be and Multi-Link Operation | IEEE 802.11ax and a maximum speed of 1 Gbps | IEEE 802.11n and optical-only transmission | IEEE 802.11ac and single-link operation
+  x: Wi-Fi 7 is based on IEEE 802.11be, supports Multi-Link Operation and is specified with speeds up to 46 Gbps.
+[nc3cb51a81a6] sub8
+  What is the lowest latency that 5G can provide?
+  100 milliseconds | 10 milliseconds | 50 milliseconds | *1 millisecond
+  x: 5G can offer latency as low as 1 millisecond, along with massive device connectivity and high reliability.
+[nc90c8785e05] sub8
+  Which debate did Airtel's 'Priority Postpaid' offering raise?
+  facial-recognition privacy only | Wi-Fi 7 manufacturing standards | *net neutrality | land-record tokenization
+  x: Airtel's ‘Priority Postpaid’ offering raised a debate on net neutrality.
+[n4d2e11efaed] sub8
+  Which of the following is NOT correct about 5G network slicing?
+  It splits one physical network into several virtual networks | It is achieved by means of SDN/NFV | *It merges several virtual networks into one physical network | It is a feature of 5G networks
+  x: Slicing splits one physical network into several virtual networks using SDN/NFV; it does not merge virtual networks into one.
+[n7d784a0738d] sub8
+  In which year was the Bharat 6G Alliance launched?
+  2021 | *2023 | 2024 | 2025
+  x: The Bharat 6G Alliance was launched in 2023, the same year as the Bharat 6G Vision document.
+[ncebcbd06a0c] sub8
+  Which institution topped the Department of Telecommunications’ 5G laboratories ranking in July 2026?
+  IIT Bombay | National Informatics Centre | *IIITDM Kurnool | IIT Hyderabad
+  x: IIITDM Kurnool topped the Department of Telecommunications’ 5G labs ranking in July 2026.
+[fcf864293e04c] sub8
+  Which organisation built the core network in the indigenous Bharat Telecom Stack?
+  Tejas Networks | TCS | BSNL | *C-DOT
+  x: C-DOT built the core, Tejas Networks the radio and TCS did integration; BSNL deploys it.
+[fa5cf35d06d2b] sub8
+  When are 6G networks expected to arrive?
+  Late 2020s | *Early 2030s | Mid 2040s | Early 2050s
+  x: 6G is expected in the early 2030s.
+[f5853c71ce572] sub8
+  When did the Prime Minister launch the Bharat Telecom Stack?
+  *27 Sep 2025 | 1 Jul 2015 | 27 Dec 2017 | 3 Jun 2026
+  x: The indigenous stack was launched on 27 Sep 2025 (4G, 5G-ready).
+[ge9bf1a35d867] sub8
+  Which of the following is NOT one of the ITU/3GPP use cases of 5G?
+  eMBB | URLLC | mMTC | *GPRS
+  x: The 5G use cases are eMBB, URLLC and mMTC; GPRS is a 2.5G data technology.
+[ga4b1e3dfcf53] sub8
+  Which company provided the radio network in the indigenous Bharat Telecom Stack?
+  *Tejas Networks | C-DOT | TCS | BSNL
+  x: In the Bharat Telecom Stack, C-DOT built the core, Tejas Networks the radio and TCS did integration; BSNL deployed it.
+[gb23497953f4a] sub8
+  Which company carried out system integration in the indigenous Bharat Telecom Stack?
+  BSNL | C-DOT | *TCS | Tejas Networks
+  x: The stack has a C-DOT core, Tejas Networks radio and TCS integration, and is deployed by BSNL.
+[g9b40a33d5069] sub8
+  Up to what speed does Wi-Fi 7 (IEEE 802.11be) offer?
+  100 Gbps | 1 Gbps | *46 Gbps | 9.6 Gbps
+  x: Wi-Fi 7 uses Multi-Link Operation and offers speeds up to 46 Gbps.
+
+=== NOTES 5:22 | Ict and Governance – NeGP, Digital India Pillars, E-kranti
+## SUB 0 | E-governance Concepts
+[22:0:0] TABLE head: Model | Example
+  [22:0:0.0] G2C | Citizen services (certificates, DigiLocker)
+  [22:0:0.1] G2B | MCA portal, GSTN
+  [22:0:0.2] G2G | NIC solutions for departments
+  [22:0:0.3] G2E | Online HR tools for employees
+[22:0:1] - **Four pillars**: **People, Process, Technology, Resources** (MPPSC 2024).
+[22:0:2] - **Gartner's four phases**: **Information → Interaction (2nd) → Transaction → Transformation** (MPPSC 2025).
+[22:0:3] - **Benefits**: lower cost of government, more citizen input (UPPSC 2024), **better transparency**. Challenges: digital divide, shared devices in rural areas, data privacy.
+[22:0:4] E-governance does NOT reduce transparency.
+## SUB 1 | Implementing Bodies → Role
+[22:1:0] TABLE head: Body | Role
+  [22:1:0.0] NIC (1976) | Base of India's digitisation; G2G solutions; built e-Taal (dashboard of e-transaction statistics)
+  [22:1:0.1] MeitY | Coordinates Digital India; UIDAI (statutory) is under MeitY
+  [22:1:0.2] DeitY (now MeitY) + DARPG | Drafted NeGP
+  [22:1:0.3] NeGD | MeitY's programme-management wing under Digital India Corporation
+  [22:1:0.4] CSC e-Governance Services India Ltd | SPV and implementing agency of CSCs
+  [22:1:0.5] NIXI + MeitY | BhashaNet on Universal Acceptance Day, 21 Mar 2024
+[22:1:1] - APPSC 2017 key gave **NITI Aayog** for the drive to make 100% of G2C transactions digital.
+## SUB 2 | National E-governance Plan (NeGP), 2006
+[22:2:0] - Approved **18 May 2006** with **27 MMPs** and **10 components**; later **31 MMPs**.
+[22:2:1] # Three-tier Core Infrastructure
+[22:2:2] TABLE head: Tier | Component | Role
+  [22:2:2.0] Front end | CSCs | Village ICT kiosks run by local entrepreneurs
+  [22:2:2.1] Network | SWAN | State HQ to block/taluka links
+  [22:2:2.2] Back end | SDC | State data centres
+[22:2:3] - Other pieces: **MSDG (2011)** for mobile services; **Meghraj = GI Cloud**; **india.gov.in** = National Portal.
+[22:2:4] # MMP Categories
+[22:2:5] TABLE head: Category | Examples
+  [22:2:5.0] Central | MCA21, Passport Seva, Income Tax, UID, Pensions, Posts
+  [22:2:5.1] State | Land Records, Treasuries, e-District, e-Panchayat, CCTNS
+  [22:2:5.2] Integrated | eCourts, e-Procurement, CSC, India Portal, e-Biz
+[22:2:6] 27 MMPs (2006) → 31 (NeGP expanded) → 44 (e-Kranti)
+## SUB 3 | Mission Mode Projects in News
+[22:3:0] TABLE head: MMP | Ministry / key fact
+  [22:3:0.0] eCourts | Since 2007; Phase I 2007–15, II 2015–23, III 2023–27; e-filing, cause lists (APPSC 2023)
+  [22:3:0.1] CCTNS | MHA, 2009; links police stations, State HQs, central police organisations
+  [22:3:0.2] MCA21 | Corporate Affairs; online company filing (G2B)
+  [22:3:0.3] Passport Seva | Ministry of External Affairs
+  [22:3:0.4] e-Procurement | Online tenders to stop collusion
+  [22:3:0.5] IVFRT | MHA, approved 2010; Bureau of Immigration with NIC; extended to March 2031 (IVFRT 3.0)
+  [22:3:0.6] e-Panchayat | GS NIRNAY app (2023) records Gram Sabha decisions
+## SUB 4 | Digital India – Launch and Vision
+[22:4:0] - Launched by PM Modi on **1 July 2015**; coordinated by **MeitY** (APPSC 2025).
+[22:4:1] - **Umbrella programme** across ministries; PPP preferred; aim: **digitally empowered society and knowledge economy**; services to citizens electronically.
+[22:4:2] TABLE head: Vision area | Examples
+  [22:4:2.0] Digital infrastructure as a utility | High-speed internet, cradle-to-grave digital identity, CSC access, cloud locker
+  [22:4:2.1] Governance and services on demand | Real-time online services, cashless transactions, GIS
+  [22:4:2.2] Digital empowerment of citizens | Universal digital literacy, documents on cloud, services in Indian languages
+[22:4:3] - **NOT part / not its aims**: **issue of digital currency** (APPSC 2024); building India's own internet companies "like China"; a framework for overseas MNCs collecting Big Data.
+[22:4:4] 15 Aug 2014 (Independence Day speech) and 25 Sep 2014 (Make in India) are not Digital India's launch.
+[22:4:5] # Sister Missions
+[22:4:6] TABLE head: Mission | Objective
+  [22:4:6.0] Digital India (1 Jul 2015) | Digital empowerment, e-services
+  [22:4:6.1] Make in India (25 Sep 2014) | Manufacturing and investment
+  [22:4:6.2] Skill India (15 Jul 2015) | Skilling; PMKVY
+  [22:4:6.3] Start-up India | Start-up ecosystem
+## SUB 5 | Nine Pillars of Digital India
+[22:5:0] TABLE head: No. | Pillar | Flagship / data
+  [22:5:0.0] 1 | Broadband Highways | BharatNet: 2,18,347 GPs, 6.92 lakh km OFC (Mar 2025)
+  [22:5:0.1] 2 | Universal Access to Mobile | 4G in 6,15,836 of 6,44,131 villages (Dec 2024)
+  [22:5:0.2] 3 | Public Internet Access Programme | 5.97 lakh CSCs (4.73 lakh at GP level) (Apr 2025)
+  [22:5:0.3] 4 | e-Governance | Reforming government through technology: e-Office, e-HRMS
+  [22:5:0.4] 5 | e-Kranti | Electronic delivery of services; 44 MMPs
+  [22:5:0.5] 6 | Information for All | Open Government Data platform
+  [22:5:0.6] 7 | Electronics Manufacturing | Target net zero imports; Rs 2.13 lakh cr (2020-21) → Rs 5.25 lakh cr (2024-25)
+  [22:5:0.7] 8 | IT for Jobs | BPOs, IT skills
+  [22:5:0.8] 9 | Early Harvest Programmes | Biometric attendance, Wi-Fi in universities
+[22:5:1] - "Not a pillar" options are usually initiatives (Aadhaar, DigiLocker, UPI).
+## SUB 6 | E-kranti (NeGP 2.0)
+[22:6:0] - Approved **2015**; **44 MMPs**; vision: "**Transforming e-Governance for Transforming Governance**".
+[22:6:1] - APPSC 2017: electronic delivery of all services = **e-Kranti**.
+[22:6:2] - Principles: **transformation not translation**; **integrated not individual** services; **cloud by default**, **mobile first** (not paper-first).
+## SUB 7 | Key Initiatives – Launch Sequence
+[22:7:0] TABLE head: Year | Initiative
+  [22:7:0.0] 2009 | Aadhaar (UIDAI)
+  [22:7:0.1] 1 Jan 2013 | DBT pilot
+  [22:7:0.2] Jul 2014 | MyGov
+  [22:7:0.3] Feb 2015 | DigiLocker
+  [22:7:0.4] 2016 / 2017 | UPI, BHIM / UMANG
+  [22:7:0.5] Dec 2020 | PM-WANI
+  [22:7:0.6] 2020 | PM eVIDYA
+  [22:7:0.7] Jul 2022 / 2022 | Bhashini / ONDC
+[22:7:1] - APPSC 2024 chronology: **Aadhaar → MyGov → PM eVIDYA → ONDC**.
+[22:7:2] # Aadhaar
+[22:7:3] - **12-digit** number by **UIDAI**; launched **29 Sep 2010** at **Tembhli** (Nandurbar, Maharashtra) = first Aadhaar village; reaches **145 crore+** people (Aug 2026).
+## SUB 8 | India Stack, Dpi and Education Platforms
+[22:8:0] - **India Stack**: open, interoperable public rails; layers: **identity = Aadhaar**, **payments = UPI**, **data = DEPA / Account Aggregator** (consent-based).
+[22:8:1] TABLE head: Platform | Role
+  [22:8:1.0] UPI / BHIM | Live in 11 countries; linked with Singapore's PayNow (2023)
+  [22:8:1.1] DigiLocker | Cloud wallet; 56.06 crore users; 10 MB, extendable to 1 GB
+  [22:8:1.2] Bhashini | National Language Translation Mission (Jul 2022); 260 open-source AI models; joined with NIC tools such as CollabFiles
+  [22:8:1.3] BhashaNet | Universal Acceptance portal of NIXI and MeitY
+  [22:8:1.4] SWAYAM | Free MOOCs for higher education (IITs, IIMs); NPTEL is a national coordinator
+  [22:8:1.5] DIKSHA | School e-content; QR-coded textbooks; teacher training
+  [22:8:1.6] PM eVIDYA | One Class, One TV Channel (DTH, radio, podcasts); joins DIKSHA and SWAYAM
+## SUB 9 | Connectivity, Indices and Impact
+[22:9:0] - Rural gaps: **GP fibre via BharatNet** and **4G in villages**; **PM-WANI** public Wi-Fi.
+[22:9:1] - **AP Fibernet** (APSFL, Govt of AP): triple play (**IPTV, internet, telephone**) over GPON; launched **27 Dec 2017**.
+[22:9:2] - AP: Singapore delegation studied AP's **RTGS Data Lake and Command Centre** (Jul 2026).
+[22:9:3] - **UN EGDI 2024**: India **97th** (105th in 2022). DARPG launched **NeSDA 2025** portal (Jun 2026).
+[22:9:4] - **PMGDISHA (2017)**: rural digital literacy; **one person per household**.
+[22:9:5] - UPI volume up 13,000-fold in 10 years (Aug 2026).
+[22:9:6] - DPI raised the digital economy to about **12–14% of GDP**.
+## SUB 10 | Number Game and Quick Revision
+[22:10:0] TABLE head: Item | Fact
+  [22:10:0.0] NeGP | 18 May 2006; 27 MMPs, 10 components
+  [22:10:0.1] e-Kranti MMPs | 44
+  [22:10:0.2] Digital India pillars / vision areas | 9 / 3
+  [22:10:0.3] CSCs | 5.97 lakh
+  [22:10:0.4] UPI countries | 11
+  [22:10:0.5] UN EGDI 2024 | 97th
+[22:10:1] # FIRST / LAST / SPECIAL FACTS
+[22:10:2] - NIC (1976) → NeGP (2006) → Digital India and e-Kranti (2015).
+[22:10:3] - First Aadhaar village: Tembhli, Maharashtra (2010).
+## SUB 11 | Appsc Previous Year Questions
+[22:11:0] TABLE head: Examination | Question Area
+  [22:11:0.0] APPSC 2025 | Digital India launch date and nodal ministry
+  [22:11:0.1] APPSC 2024 | What is NOT part of Digital India; initiatives chronology
+  [22:11:0.2] APPSC 2023 | eCourts; BhashaNet launch
+  [22:11:0.3] APPSC 2019 | First digital wallet company
+  [22:11:0.4] APPSC 2017 | e-Kranti – electronic delivery of services
+## SUB 12 | High-probability Mcq Traps
+[22:12:0] VERY IMPORTANT
+[22:12:1] - 1. Digital India: 1 July 2015, MeitY; not 15 Aug or 25 Sep 2014.
+[22:12:2] - 2. Digital currency is not part of Digital India.
+[22:12:3] - 3. 27 → 31 → 44 MMPs.
+[22:12:4] - 4. CCTNS = MHA 2009; IVFRT = MHA 2010; eCourts = 2007.
+[22:12:5] - 5. Passport Seva = MEA; MCA21 = Corporate Affairs.
+[22:12:6] - 6. e-Panchayat = State MMP; e-Biz = Integrated; Income Tax = Central.
+[22:12:7] - 7. SWAYAM = higher education; DIKSHA = school.
+[22:12:8] - 8. Gartner phase 2 = Interaction.
+[22:12:9] - 9. e-Kranti: cloud by default, not paper-first.
+[22:12:10] - 10. BhashaNet = NIXI + MeitY, 21 Mar 2024.
+
+=== OWN MCQs of 5:22 (76)
+[ne09ae87d461] sub0
+  Which is the second phase in Gartner's four-phase model of e-governance?
+  Information | *Interaction | Transformation | Transaction
+  x: Gartner's phases run Information, Interaction, Transaction and Transformation (MPPSC 2025).
+[nf3838b25639] sub0
+  NIC solutions for government departments are an example of which e-governance model?
+  G2C | G2E | G2B | *G2G
+  x: NIC solutions for departments are G2G; online HR tools for employees are G2E and the MCA portal and GSTN are G2B.
+[n1d81ff3d9bb] sub0
+  What is the effect of e-governance on transparency in government work?
+  It reduces transparency | *It improves transparency | It leaves transparency unchanged | It removes the need for transparency
+  x: E-governance lowers the cost of government, increases citizen input and improves transparency; 'reduced transparency' is a common trap.
+[fd4e4e4cff0f8] sub0
+  The MCA portal and GSTN are examples of which e-governance model?
+  G2C | G2G | *G2B | G2E
+  x: MCA portal and GSTN are G2B; NIC solutions for departments are G2G.
+[f373b385ef725] sub0
+  Which is the last phase in Gartner's four-phase model of e-governance?
+  Transaction | Interaction | Information | *Transformation
+  x: The phases are Information, Interaction, Transaction and Transformation.
+[g3d846fbbcdca] sub0
+  Which of the following are the four pillars of e-governance?
+  Policy, Planning, Technology and Revenue | *People, Process, Technology and Resources | People, Parliament, Technology and Courts | Process, Platform, Telecom and Revenue
+  x: The four pillars of e-governance are People, Process, Technology and Resources.
+[n67a3625c627] sub1
+  In which year was the National Informatics Centre (NIC), which provides G2G solutions to government departments, set up?
+  *1976 | 1984 | 1986 | 1998
+  x: NIC was set up in 1976; its e-Taal is a dashboard of e-transaction statistics.
+[n94e4486d401] sub1
+  The National e-Governance Plan was drafted by DeitY, now MeitY, in association with which body?
+  Bureau of Immigration | NIC only | *DARPG | CSC e-Governance Services India Ltd
+  x: The NeGP was drafted by DeitY, now MeitY, with the Department of Administrative Reforms and Public Grievances (DARPG).
+[n269f9355975] sub1
+  What is NeGD?
+  A police organisation under the Ministry of Home Affairs | *MeitY’s programme-management arm under Digital India Corporation | A judicial body under the eCourts project | A State-level treasury network
+  x: NeGD, or National e-Governance Division, is MeitY’s programme-management arm under Digital India Corporation.
+[fdf9c49966ffb] sub1
+  Which body is the SPV and implementing agency of Common Service Centres?
+  NeGD | *CSC e-Governance Services India Ltd | NIC | NIXI
+  x: CSC e-Governance Services India Ltd is the SPV for CSCs.
+[fa2e08d9e8f12] sub1
+  Which body built e-Taal, the dashboard of e-transaction statistics?
+  *NIC | NeGD | NIXI | DARPG
+  x: NIC built e-Taal.
+[g85b197adb3a7] sub1
+  Which statutory authority under MeitY issues the 12-digit Aadhaar number?
+  NIC | *UIDAI | NPCI | NeGD
+  x: UIDAI, a statutory body under MeitY, issues the 12-digit Aadhaar number.
+[g837c39a0c9ca] sub1
+  Which portal did NIXI and MeitY unveil on Universal Acceptance Day, 21 March 2024?
+  *BhashaNet | Bhashini | CollabFiles | e-Taal
+  x: NIXI and MeitY unveiled the BhashaNet portal on Universal Acceptance Day, 21 March 2024; Bhashini is the language translation mission.
+[nb47740316be] sub2
+  Which of the following correctly represents the three-tier core infrastructure of NeGP?
+  *Front end—CSCs; Network—SWAN; Back end—SDC | Front end—SWAN; Network—CSCs; Back end—NIC | Front end—SDC; Network—MCA21; Back end—CSCs | Front end—NIC; Network—SDC; Back end—SWAN
+  x: The three tiers are CSCs at the front end, SWAN as the network, and SDC at the back end.
+[nebbff10cd70] sub2
+  When was the National e-Governance Plan (NeGP) approved?
+  *18 May 2006 | 18 May 2008 | 1 July 2015 | 26 January 2006
+  x: NeGP was approved on 18 May 2006 with 27 MMPs and 10 components; 1 July 2015 is the launch of Digital India.
+[ne2dc2f7ef32] sub2
+  Under NeGP, to which category of Mission Mode Project does e-Panchayat belong?
+  *State | Central | Integrated | District
+  x: e-Panchayat is a State MMP, like Land Records and CCTNS; e-Biz is Integrated and Income Tax Central.
+[n9c9e1427f46] sub2
+  Under NeGP, what does 'Meghraj' refer to?
+  *GI Cloud | State Wide Area Network | Mobile Service Delivery Gateway | National Portal
+  x: Meghraj is the GI Cloud; MSDG (2011) is for mobile services and india.gov.in is the National Portal.
+[f8cefdcc1ae6f] sub2
+  How many MMPs and components did NeGP have when it was approved in 2006?
+  31 MMPs and 10 components | 44 MMPs and 27 components | *27 MMPs and 10 components | 27 MMPs and 31 components
+  x: NeGP began with 27 MMPs and 10 components; it later grew to 31 MMPs.
+[f905a99d22406] sub2
+  Which of the following pairs (MMP – category) is correctly matched?
+  e-Biz – State | eCourts – Central | CCTNS – Integrated | *Income Tax – Central
+  x: Income Tax is a Central MMP; e-Biz and eCourts are Integrated and CCTNS is a State MMP.
+[gac1fb3b27da9] sub2
+  What is the web address of the National Portal of India under NeGP?
+  *india.gov.in | mygov.in | data.gov.in | digilocker.gov.in
+  x: The National Portal of India under NeGP is india.gov.in.
+[gfa1ce92b1aaf] sub2
+  For what purpose was MSDG set up under NeGP in 2011?
+  Allocation of satellite spectrum | Storage of state government data | *Delivery of government services through mobile phones | Rural broadband to Gram Panchayats
+  x: MSDG (2011) is the gateway for delivering government services through mobile phones.
+[n14e8aa8154b] sub3
+  The GS NIRNAY application, launched in 2023, is associated with which activity?
+  Filing corporate returns | Issuing passports | Tracking court cases | *Recording Gram Sabha decisions
+  x: The GS NIRNAY app covers Gram Sabha decisions and is associated with the e-Panchayat initiative.
+[nec791dca0c5] sub3
+  Since which year has the eCourts Mission Mode Project been in place?
+  *2007 | 2009 | 2012 | 2015
+  x: eCourts dates from 2007 (Phase I 2007-15); 2009 is CCTNS. Its Phase III covers 2023-27.
+[nbbb93b92ff5] sub3
+  Under which ministry is Passport Seva, a Central Mission Mode Project?
+  Home Affairs | Corporate Affairs | Law and Justice | *External Affairs
+  x: Passport Seva is under the Ministry of External Affairs; MCA21 is the Corporate Affairs project.
+[n7717aaeeff3] sub3
+  Through which mechanism does the e-Procurement Mission Mode Project seek to prevent collusion?
+  Online company incorporation only | *Online tenders | Online judicial cause lists | Village-level birth registration
+  x: e-Procurement uses online tenders, which are intended to help prevent collusion.
+[n907aa0f0f39] sub3
+  Under which ministry is CCTNS, started in 2009?
+  *Home Affairs | Law and Justice | Electronics and IT | External Affairs
+  x: CCTNS is an MHA project linking police stations, State headquarters and central police organisations.
+[n7a2f3815fea] sub3
+  In which year was IVFRT, a Ministry of Home Affairs project, approved?
+  2006 | 2009 | *2010 | 2015
+  x: IVFRT was approved in 2010 and is run by the Bureau of Immigration with NIC.
+[f23854df9ca7d] sub3
+  Under which ministry is the MCA21 Mission Mode Project?
+  External Affairs | *Corporate Affairs | Home Affairs | Electronics and IT
+  x: MCA21 (online company filing) is under Corporate Affairs; Passport Seva is MEA.
+[feb95e032a185] sub3
+  Consider the following statements about the eCourts Mission Mode Project:
+1. It has been in place since 2007.
+2. Its Phase III covers 2023–27.
+3. It is a State Mission Mode Project.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: eCourts began in 2007 and Phase III is 2023–27; it is an Integrated MMP, not a State one.
+[n64121de220f] sub4
+  Into what does Digital India mainly aim to transform India?
+  *Digitally empowered society and knowledge economy | Manufacturing-only economy and urban society | Centralised administrative state and industrial economy | Fully privatised economy and cashless market
+  x: Digital India aims to transform India into a digitally empowered society and knowledge economy.
+[nbc56030dc35] sub4
+  When did Prime Minister Narendra Modi launch the Digital India programme?
+  15 August 2014 | *1 July 2015 | 25 September 2014 | 26 January 2016
+  x: Digital India was launched on 1 July 2015 (APPSC 2025 key). 15 August 2014 and 25 September 2014 are associated with other announcements (Independence Day speech, Make in India), and 26 January 2016 is not its launch date.
+[n2f80561aa03] sub4
+  Universal digital literacy, documents on the cloud and services in Indian languages are associated with which vision area of Digital India?
+  Digital infrastructure as a core utility | Electronics manufacturing | *Digital empowerment of citizens | Governance and services on demand
+  x: These measures are components of the vision area called digital empowerment of citizens.
+[ffb4472715418] sub4
+  Which mission, launched on 25 Sep 2014, focuses on manufacturing and investment?
+  *Make in India | Digital India | Skill India | Start-up India
+  x: Make in India (25 Sep 2014) is about manufacturing and investment.
+[fbad42bff3430] sub4
+  When was Skill India launched?
+  1 Jul 2015 | 25 Sep 2014 | 15 Aug 2014 | *15 Jul 2015
+  x: Skill India was launched on 15 Jul 2015; Digital India on 1 Jul 2015.
+[g46ab3b1c1574] sub4
+  Which of the following is NOT an aim of the Digital India programme?
+  Universal digital literacy | Services in Indian languages | *Issue of a digital currency | Cradle-to-grave digital identity
+  x: Digital literacy, services in Indian languages and digital identity are Digital India aims; issuing digital currency is not part of it.
+[nfcd5bd17815] sub5
+  The e-Kranti pillar of Digital India is associated with which of the following?
+  Universal biometric registration of all citizens | Manufacture of electronic goods to achieve net zero imports only | *Electronic delivery of services through 44 Mission Mode Projects | Construction of rural roads through 44 projects
+  x: e-Kranti focuses on electronic delivery of services and includes 44 Mission Mode Projects.
+[n47f3bf8ca39] sub5
+  Which ministry coordinates the Digital India programme?
+  Ministry of Communications alone | Ministry of Rural Development | *Ministry of Electronics and Information Technology | Ministry of Personnel, Public Grievances and Pensions
+  x: The Digital India programme is coordinated by the Ministry of Electronics and Information Technology, or MeitY.
+[necedc8cbb48] sub5
+  The target of “net zero imports” is associated with which Digital India pillar?
+  *Electronics Manufacturing | Broadband Highways | IT for Jobs | Early Harvest Programmes
+  x: The seventh pillar, Electronics Manufacturing, carries the target of net zero imports.
+[n85ae9ce1d79] sub5
+  Which of the following pairs (Digital India pillar – pillar number) is correctly matched?
+  *Information for All – Pillar 6 | Public Internet Access Programme – Pillar 1 | Broadband Highways – Pillar 2 | Universal Access to Mobile/Phones – Pillar 3
+  x: Broadband Highways, Universal Access to Mobile/Phones, Public Internet Access Programme and Information for All are pillars 1, 2, 3 and 6 respectively.
+[nac53a9bba42] sub5
+  Which of the following pairs is NOT correctly matched?
+  IT for Jobs — Eighth pillar | e-Kranti — Electronic delivery of services | Information for All — Sixth pillar | *Early Harvest Programmes — Seventh pillar
+  x: Early Harvest Programmes is the ninth pillar, not the seventh. The seventh pillar is Electronics Manufacturing: target net zero imports.
+[n38a9ef2ef35] sub5
+  Which of the following are the major rural digital-divide gaps identified in the context of Digital India?
+  *GP fibre connectivity through BharatNet and 4G coverage in villages | Only urban 5G availability and satellite television | Industrial broadband and international roaming | Banking passwords and electronic voting machines
+  x: Rural digital gaps particularly concern Gram Panchayat fibre connectivity through BharatNet and 4G coverage in villages.
+[f0a41c4dbe4d2] sub5
+  As of April 2025, about how many Common Service Centres were there under the Public Internet Access Programme?
+  4.73 lakh | *5.97 lakh | 2.18 lakh | 6.15 lakh
+  x: There were 5.97 lakh CSCs, of which 4.73 lakh were at GP level.
+[n6a037633ee4] sub5
+  'Information for All' is which pillar of Digital India?
+  Pillar 1 | Pillar 5 | Pillar 4 | *Pillar 6
+  x: Information for All is pillar 6; Broadband Highways is pillar 1 and e-Kranti pillar 5.
+[gc70623767859] sub5
+  Which flagship programme comes under the 'Broadband Highways' pillar of Digital India?
+  DigiLocker | PMGDISHA | e-Office | *BharatNet
+  x: Broadband Highways, the first pillar of Digital India, is carried out through BharatNet fibre to Gram Panchayats.
+[g1b87aff7f993] sub5
+  As of March 2025, about how many Gram Panchayats were covered by BharatNet?
+  *2,18,347 | 1,50,000 | 5,97,000 | 2,50,000
+  x: BharatNet, under the Broadband Highways pillar, covered 2,18,347 GPs with 6.92 lakh km OFC by March 2025.
+[g2fd6e7ff5a2f] sub5
+  Which platform comes under the 'Information for All' pillar of Digital India?
+  *Open Government Data platform | e-Office | Biometric attendance | BharatNet
+  x: Pillar 6, Information for All, is linked with the Open Government Data platform.
+[g38db8064455e] sub5
+  Biometric attendance and Wi-Fi in universities come under which pillar of Digital India?
+  Information for All | *Early Harvest Programmes | IT for Jobs | e-Kranti
+  x: The ninth pillar, Early Harvest Programmes, covers quick projects like biometric attendance and Wi-Fi in universities.
+[g1173cd67141a] sub5
+  Under the Electronics Manufacturing pillar, electronics production rose from Rs 2.13 lakh crore in 2020-21 to about how much in 2024-25?
+  Rs 4.10 lakh crore | Rs 7.50 lakh crore | *Rs 5.25 lakh crore | Rs 9.80 lakh crore
+  x: Electronics production grew from Rs 2.13 lakh crore (2020-21) to Rs 5.25 lakh crore (2024-25); the pillar targets net zero imports.
+[nd4bc98ee8d9] sub6
+  Which of the following is NOT correct about e-Kranti?
+  It is also known as NeGP 2.0 | It was approved in 2015 under Digital India | Its vision is 'Transforming e-Governance for Transforming Governance' | *It comprises 31 Mission Mode Projects
+  x: e-Kranti has 44 MMPs; 31 is the expanded count of the original NeGP.
+[ne61113fce63] sub6
+  Which of the following is NOT a principle of e-Kranti?
+  Integrated services, not individual services | Transformation, not translation | *Paper-first delivery | Cloud by default
+  x: The principles include transformation not translation, integrated not individual services, and cloud by default. Paper-first delivery is not an e-Kranti principle.
+[fe6d0eabb7706] sub6
+  How many Mission Mode Projects are there under e-Kranti?
+  27 | 31 | *44 | 10
+  x: e-Kranti has 44 MMPs, up from NeGP's 27 and later 31.
+[fd9c6b5201a3f] sub6
+  Of which programme is 'Transforming e-Governance for Transforming Governance' the vision?
+  *e-Kranti | PMGDISHA | India Stack | MeghRaj
+  x: It is the vision of e-Kranti (NeGP 2.0), approved in 2015.
+[n9840fdbfe51] sub7
+  Which of the following pairs is correctly matched?
+  MyGov — 2012 | *DBT pilot — 1 January 2013 | PM eVIDYA — 2018 | ONDC — 2021
+  x: The DBT pilot was inaugurated on 1 January 2013. MyGov began in 2014, PM eVIDYA in 2020 and ONDC in 2022.
+[n7e4111269d1] sub7
+  In which year was the UMANG app launched?
+  2014 | 2016 | *2017 | 2020
+  x: UMANG came in 2017; MyGov came in July 2014, UPI and BHIM in 2016 and PM eVIDYA in 2020.
+[nba695256bc0] sub7
+  In which year was PM eVIDYA launched?
+  2009 | 2014 | *2020 | 2022
+  x: Aadhaar came in 2009, MyGov in 2014, PM eVIDYA in 2020 and ONDC in 2022.
+[f7f3c38e903c2] sub7
+  Arrange the following in chronological order:
+1. ONDC
+2. MyGov
+3. Aadhaar
+4. PM eVIDYA
+  3-2-1-4 | 2-3-4-1 | 3-4-2-1 | *3-2-4-1
+  x: Aadhaar (2009), MyGov (2014), PM eVIDYA (2020), ONDC (2022) – the APPSC 2024 chronology.
+[fb1e221b820c2] sub7
+  When was DigiLocker launched?
+  Jul 2014 | *Feb 2015 | 2016 | 2017
+  x: DigiLocker was launched in Feb 2015; MyGov in Jul 2014.
+[f52d1c2647288] sub7
+  Tembhli, the first Aadhaar village (29 Sep 2010), is in which state?
+  Gujarat | Karnataka | *Maharashtra | Andhra Pradesh
+  x: Tembhli is in Nandurbar district, Maharashtra.
+[fb08b2a421d2f] sub7
+  An Aadhaar number issued by UIDAI has how many digits?
+  10 | 16 | 14 | *12
+  x: Aadhaar is a 12-digit number.
+[gd3e64fbf9f6f] sub7
+  In which year was PM-WANI, the public Wi-Fi scheme, launched?
+  2018 | 2022 | *2020 | 2016
+  x: PM-WANI was launched in December 2020 to spread public Wi-Fi.
+[g84f5cb91d313] sub7
+  In which year was UPI launched?
+  2014 | 2015 | *2016 | 2017
+  x: UPI and BHIM came in 2016; UMANG followed in 2017.
+[n8b5ca18f3a5] sub8
+  What is the name of the National Language Translation Mission launched in July 2022?
+  BhashaNet | Bhasha Daan | *Bhashini | e-Taal
+  x: The July 2022 Translation Mission is Bhashini; BhashaNet is the Universal Acceptance portal of NIXI and MeitY.
+[nb67d4f4edc9] sub8
+  Which of the following pairs (India Stack layer – platform) is correctly matched?
+  Identity layer – UPI | Payments layer – Aadhaar | *Data layer – DEPA / Account Aggregator | Identity layer – DEPA
+  x: The data layer of India Stack is DEPA / Account Aggregator (consent-based); identity is Aadhaar and payments is UPI.
+[n4e0fc174017] sub8
+  Consider the following statements about UPI:
+1. UPI is live in 11 countries.
+2. The PayNow-UPI link was established with Singapore in 2023.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Statement 1 is correct: UPI is live in 11 countries. Statement 2 is correct: PayNow is Singapore's system, linked with UPI in 2023. Hence both are correct; A, B and D are wrong.
+[n01f80383a49] sub8
+  Which of the following describes Bhashini?
+  A biometric attendance system for universities | A digital locker for storing land records only | *An AI language platform integrated with NIC tools such as CollabFiles | A network for electronic manufacturing units
+  x: Bhashini is an AI language platform integrated with NIC tools such as CollabFiles, supporting access to services in Indian languages.
+[nba2519e739e] sub8
+  Of which platform is the 'One Class, One TV Channel' approach through DTH, radio and podcasts a feature?
+  SWAYAM | *PM eVIDYA | PMGDISHA | DIKSHA
+  x: PM eVIDYA uses One Class, One TV Channel through DTH, radio and podcasts and integrates DIKSHA and SWAYAM.
+[nd53102281b7] sub8
+  Consider the following statements about SWAYAM:
+1. It offers free MOOCs for higher education, including courses from IITs and IIMs.
+2. NPTEL is a national coordinator of DIKSHA.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Statement 1 is correct. Statement 2 is wrong: NPTEL is a national coordinator of SWAYAM, not DIKSHA.
+[f6ad6c381cac5] sub8
+  QR-coded textbooks and teacher training for school education are features of which platform?
+  *DIKSHA | SWAYAM | NPTEL | BhashaNet
+  x: DIKSHA is the school e-content platform; SWAYAM is for higher education.
+[g739fab385de0] sub8
+  How much free storage does DigiLocker give, extendable to 1 GB?
+  100 MB | 50 MB | *10 MB | 500 MB
+  x: DigiLocker gives 10 MB of storage, which can be extended to 1 GB.
+[n47e5da1d910] sub9
+  Whom does PMGDISHA, the rural digital literacy scheme launched in 2017, aim to cover?
+  One person per village | *One person per household | All persons above 60 years | One student per school
+  x: PMGDISHA is a rural digital literacy scheme that aims to cover one person per household.
+[n971abea9299] sub9
+  A delegation from which country studied Andhra Pradesh's RTGS Data Lake and Command Centre (July 2026)?
+  United Arab Emirates | European Union | Japan | *Singapore
+  x: A Singapore delegation, not an EU one, studied AP's RTGS Data Lake and Command Centre.
+[n7c4de1c12ca] sub9
+  Digital Public Infrastructure (DPI) was reported to have raised the digital economy's share to approximately what proportion of GDP?
+  5–7% | 8–10% | 2–4% | *12–14%
+  x: DPI was reported to have raised the digital economy's share to approximately 12–14% of GDP.
+[f0dc115ca6ff5] sub9
+  What was India's rank in the UN E-Government Development Index 2024?
+  105th | 87th | *97th | 100th
+  x: India was 97th in UN EGDI 2024, up from 105th in 2022.
+[fec31022f5891] sub9
+  When was AP Fibernet, offering IPTV, internet and telephone over GPON, launched?
+  *27 Dec 2017 | 1 Jul 2015 | 29 Sep 2010 | 21 Mar 2024
+  x: AP Fibernet (APSFL) was launched on 27 Dec 2017.
+[f31580aec55ca] sub9
+  By Aug 2026, UPI transaction volume had grown roughly how many times in 10 years?
+  1,300-fold | *13,000-fold | 130-fold | 1,30,000-fold
+  x: UPI volume rose about 13,000-fold in 10 years.
+[f107ec36e8040] sub9
+  Which of the following is NOT correct about e-governance indices?
+  India ranked 97th in UN EGDI 2024 | India ranked 105th in UN EGDI 2022 | DARPG launched the NeSDA 2025 portal | *India ranked 105th in UN EGDI 2024
+  x: India was 97th in UN EGDI 2024 and 105th in 2022.
+
