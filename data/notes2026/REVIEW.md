@@ -1189,3 +1189,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b1-w148 (rows 148–155)
 - own 421 → 88 kept + 79 new (167, 40%); new 42 statements / 19 match / 18 A–R; 1 of 240 lines lost.
 - Wrong own keys removed: n0e997729db9 (Venkatapati Raya II; notes III); f5a52d3f208b3 (Fort Geldria "only Dutch fort", contradicted by notes).
+
+## rewrite b2-w054 (rows 54–61)
+- own 393 → 59 kept + 82 new (141, 36%); new 51 statements / 20 match / 11 A–R; 4 of 273 lines lost.
+- f26b88d892e4f (V. Ramachandran as head of panchayat public-services delivery committee; notes 61:1:3 Mani Shankar Aiyar, 2013) removed.
