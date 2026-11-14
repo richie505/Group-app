@@ -1,3 +1,17 @@
+=== National Capital Region and Delhi
+- **NCR = NCT Delhi + parts of Haryana, UP, Rajasthan**; **Punjab and Madhya Pradesh are NOT included** (UPPSC 2008, 2017).
+| State | NCR towns |
+|---|---|
+| Haryana | **Rohtak, Karnal**, Panipat, Sonipat, Gurugram, Faridabad |
+| UP | **Khurja** (Bulandshahr), Meerut, Ghaziabad, **Noida** |
+| Rajasthan | Alwar |
+- **Ambala** is NOT in the NCR (UPPSC 2011).
+- **NCR Planning Board** – **NCRPB Act, 1985**; approved four greenfield **Namo Cities** (Jun 2026).
+- **Delhi facts:** **Khari Baoli** (Old Delhi) – Asia's largest wholesale spice market; **Mandi House** – a cultural-hub roundabout (named after the Raja of Mandi's house), not a market, film or agency; **Thal Sena Bhawan** (new Army HQ) foundation stone laid in **Delhi**, Feb 2020.
+- **V.V. Giri National Labour Institute**: **Noida** (UP, NCR).
+- UN treats **Delhi-Gurugram-Noida-Ghaziabad-Faridabad** as one agglomeration; the Census counts them separately.
+~~ Sources: app notes 4:71 (sub 1, 3); Khari Baoli, Mandi House, Thal Sena Bhawan, V.V. Giri NLI: general knowledge, not checked
+
 === Metropolitan Cities, Megacities and Urban Terms
 | Term | Meaning | Coiner / source |
 |---|---|---|
@@ -12,20 +26,6 @@
 - **Mumbai** is the large city built on an **island** (Salsette and the seven islands of Bombay).
 > Exam angle: 1-10 million = metropolitan city; above 10 million = megacity; Class I = only 1 lakh+.
 ~~ Sources: PMF Human & Economic Geography 01 p.88-89 (NCERT definitions); app notes 4:71 (sub 0); app notes 4:70 (sub 0); Mumbai island: general knowledge, not checked
-
-=== National Capital Region and Delhi
-- **NCR = NCT Delhi + parts of Haryana, UP, Rajasthan**; **Punjab and Madhya Pradesh are NOT included** (UPPSC 2008, 2017).
-| State | NCR towns |
-|---|---|
-| Haryana | **Rohtak, Karnal**, Panipat, Sonipat, Gurugram, Faridabad |
-| UP | **Khurja** (Bulandshahr), Meerut, Ghaziabad, **Noida** |
-| Rajasthan | Alwar |
-- **Ambala** is NOT in the NCR (UPPSC 2011).
-- **NCR Planning Board** – **NCRPB Act, 1985**; approved four greenfield **Namo Cities** (Jun 2026).
-- **Delhi facts:** **Khari Baoli** (Old Delhi) – Asia's largest wholesale spice market; **Mandi House** – a cultural-hub roundabout (named after the Raja of Mandi's house), not a market, film or agency; **Thal Sena Bhawan** (new Army HQ) foundation stone laid in **Delhi**, Feb 2020.
-- **V.V. Giri National Labour Institute**: **Noida** (UP, NCR).
-- UN treats **Delhi-Gurugram-Noida-Ghaziabad-Faridabad** as one agglomeration; the Census counts them separately.
-~~ Sources: app notes 4:71 (sub 1, 3); Khari Baoli, Mandi House, Thal Sena Bhawan, V.V. Giri NLI: general knowledge, not checked
 
 === Slums and Problems of Large Cities
 | Measure | Place |

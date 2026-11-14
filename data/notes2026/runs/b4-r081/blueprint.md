@@ -6,7 +6,7 @@ Data: 150 PYQs keyed in keys.jsonl, plus 124 app MCQs. All 274 are mapped in map
 | Item | Count |
 |---|---|
 | PYQs | 150 (139 on this row, 11 moved) |
-| Keys from the notes / generated | 124 / 26 |
+| Keys from the notes / generated | 123 / 27 |
 | Printed keys changed | 4 (A-R western disturbances (c) → (a); "not an ancient cereal" unkeyed → Maize; black-soil item unkeyed → added option "None of the above"; NDA dryland 45 cm → added option "less than 75 cm") |
 | -1 (no answer) | 0 |
 | Outdated | 9 (rice and wheat State orders, maize leader, cotton 2015, wheat 2020-21 output) |

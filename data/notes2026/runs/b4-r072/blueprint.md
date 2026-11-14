@@ -7,7 +7,7 @@ Data: 115 PYQs keyed in keys.jsonl (plus 2 app MCQs re-keyed) and 318 app MCQs, 
 |---|---|
 | PYQs | 115 – 85 stay on these rows, 30 moved (sports, IR, tea, climate, AP economy, polity, disaster, transport, institutions) |
 | Keys from the notes / generated | 53 / 62 |
-| Printed keys changed | 7 (5 unkeyed now keyed: tribes on the verge of extinction, 100%-literate hamlet, Andhra Paris, city on the Krishna, AP Innovation Society, executive capital 2023; tea producer India → China) |
+| Printed keys changed | 7 (6 unkeyed now keyed: tribes on the verge of extinction, 100%-literate hamlet, Andhra Paris, city on the Krishna, AP Innovation Society, executive capital 2023; tea producer India → China); app MCQ coastline 974 km → added "1,053 km" |
 | -1 (no answer) | 0 |
 | Outdated | 8 (HDR 2023-24 rank, AP population rank ×2, AP area rank, AP urban share 2001, three capitals, executive capital 2023, NDRF 10th Bn) |
 | Disputed | 4 (HDI "high" 0.800, cities above one lakh 31/32, Secretariat after bifurcation, APIS HQ) |

@@ -1,61 +1,3 @@
-=== Largest Cities and Urban Agglomerations – Census Rankings
-# Census 2011 (UA)
-| Rank | UA | Population |
-|---|---|---|
-| 1 | **Greater Mumbai** | 1,84,14,288 (18.4 m) |
-| 2 | **Delhi** | 1,63,14,838 (16.3 m) |
-| 3 | **Kolkata** | 1,41,12,536 (14.1 m) |
-| 4 | Chennai | 86,96,010 (8.7 m) |
-| 5 | Bengaluru | 84,99,399 |
-| 6 | **Hyderabad** | 77,49,334 |
-| 7 | Ahmedabad | 63,52,254 |
-- **Most populous city 2011: Mumbai** – Greater Mumbai city about **1.24 crore**, UA about 1.84 crore; also the largest city (excluding UA) in later estimates (2017).
-- **Hyderabad = 6th** as a UA (2011); as a city proper (GHMC, ~68 lakh) it ranks **4th** after Mumbai, Delhi and Bengaluru.
-- **Delhi overtook Kolkata** in 2011. **2001 UA order:** **Kolkata 13.2 m > Delhi 12.8 m > Bangalore 5.7 m > Ahmedabad 4.5 m > Kanpur 2.7 m** (APPSC G1 2004, "EDABC").
-- **53** million-plus UAs/cities in **2011** (35 in 2001); Visakhapatnam (GVMC) and **Vijayawada** are AP's.
-- Only the **top three** are mega cities on the 10-million rule; NCERT's 5-million rule gives **six** (adds Chennai, Bengaluru, Hyderabad).
-> Exam angle: 2011 = Mumbai-Delhi-Kolkata-Chennai; 2001 = Kolkata ahead of Delhi.
-~~ Sources: PMF Human & Economic Geography 01 p.89-90 (2011 UA table); web search summary of Economic Survey 2001-02 UA table (indiabudget.gov.in, 2001 UA figures); app notes 4:70 (sub 4)
-
-=== Trends, Components and Causes of Urbanisation
-| Census | Urban % | Towns |
-|---|---|---|
-| 1901 | 10.84 | 1,827 |
-| 1931 | 11.99 | 2,049 |
-| 1961 | 17.97 | 2,330 |
-| 1971 / 1981 / 1991 | 19.91 / 23.34 / 25.72 | – |
-| 2001 | **27.81** (28.6 crore) | 5,161 |
-| **2011** | **31.16** (377.1 million) | **7,935** |
-| Phase | Years | Features |
-|---|---|---|
-| Slow | 1901-31 | ~0.35% a year; 33.46 million in 2,049 towns (1931) |
-| Medium | 1931-61 | Towns 2,049 → 2,330; 78.94 million urban (1961) |
-| Rapid | 1961 onwards | 78.94 → 377.11 million (+262%) |
-- **2001-11:** urban **+31.8%** decadal growth; rural/urban **68.84% / 31.16%**; absolute increase urban **91.0 m > rural 90.4 m** – first time since Independence.
-- **Census towns 1,362 → 3,894**; statutory towns 3,799 → 4,041.
-- **Main reason for the higher urban increase 2001-11: reclassification** of erstwhile rural areas as urban (new census towns), not migration (**APPSC G1 2017**).
-- **Three components**: **natural increase**, **net rural-urban migration**, **reclassification / new towns**.
-- **Causes (APPSC 2008 – "all of the above")**: growth of **industry and trade** in towns; **population pressure on rural land**; **low farm productivity**; services and transport.
-- Hidden urbanisation: World Bank (2010) **55.3%** "urban-like"; EAC-PM ~**63%** (2015, **satellite data**); UN "Degree of Urbanisation" would count peri-urban areas.
-~~ Sources: NextGen Indian Geography 12 p.10-12 (book p.164-166); NextGen Indian Geography 15 p.20-21 (book p.216-217); app notes 4:70 (sub 1, 2)
-
-=== States – Urban Share, Growth and Number of Towns (2011)
-| Measure | State / UT |
-|---|---|
-| **Most urbanised State** | **Goa 62.17%** → Mizoram 52.1%, Tamil Nadu 48.4%, Kerala 47.7%, **Maharashtra 45.2%** |
-| Most urbanised UTs | NCT Delhi 97.50% (highest overall), Chandigarh 97.25%, Lakshadweep 78.08%, Puducherry 68.31% |
-| Least urbanised | Himachal Pradesh 10.04%, Bihar 11.30%, Assam 14.08% |
-| Largest urban population | Maharashtra 50.8 million (13.5%), UP 44.4 million, TN 34.9 million |
-| Smallest urban population | Sikkim 0.15, Arunachal 0.31, Mizoram 0.56 million |
-| **Most towns** | **Tamil Nadu** – **832** (2001; UP 704) and **1,097** (2011; UP about 915) |
-| Most census towns (2011) | West Bengal (around Kolkata); then Kerala, Tamil Nadu |
-| **Fastest urban growth 2001-11** | **Sikkim** and **Kerala** (census-town reclassification); **Goa** (about 35%) and AP (about 36%) were among the slowest |
-- Ascending urban share: **Maharashtra < Kerala < Mizoram < Goa**.
-- **AP = least urbanised southern State (29.47%, 2011)** – APPSC G2 2017. AP districts (2024-25): most urbanised **Visakhapatnam (47.45%)**; least **Srikakulam (16.16%)**.
-- "Goa and Maharashtra have just over half in villages" was the **2001** position.
-> ⚠ The APPSC 2008 key gave **Uttar Pradesh** for "most towns"; Census tables give **Tamil Nadu** (832 towns in 2001, 1,097 in 2011).
-~~ Sources: NextGen Indian Geography 15 p.20-21 (book p.216-217); Census 2001 administrative-units table (educationforallinindia.com, fetched: TN 832, UP 704); web search summary of Census 2011 Tamil Nadu report (1,097 towns); app notes 4:70 (sub 5); Goa/AP growth rates and State urban shares other than Goa: general knowledge, not checked
-
 === Functional Types, Planned Cities and Town Planning
 | Function | Examples |
 |---|---|
@@ -87,6 +29,64 @@
 | First municipal corporation | Madras, 1688 |
 | AP greenfield capital | Amaravati, run by APCRDA |
 ~~ Sources: PMF Human & Economic Geography 01 p.88, p.91-92 (functional and historical classes, Ankleshwar = mining); app notes 4:70 (sub 6, 7); Lutyens/New Delhi, twin cities, colonial lotteries, Burgess: general knowledge, not checked
+
+=== Largest Cities and Urban Agglomerations – Census Rankings
+# Census 2011 (UA)
+| Rank | UA | Population |
+|---|---|---|
+| 1 | **Greater Mumbai** | 1,84,14,288 (18.4 m) |
+| 2 | **Delhi** | 1,63,14,838 (16.3 m) |
+| 3 | **Kolkata** | 1,41,12,536 (14.1 m) |
+| 4 | Chennai | 86,96,010 (8.7 m) |
+| 5 | Bengaluru | 84,99,399 |
+| 6 | **Hyderabad** | 77,49,334 |
+| 7 | Ahmedabad | 63,52,254 |
+- **Most populous city 2011: Mumbai** – Greater Mumbai city about **1.24 crore**, UA about 1.84 crore; also the largest city (excluding UA) in later estimates (2017).
+- **Hyderabad = 6th** as a UA (2011); as a city proper (GHMC, ~68 lakh) it ranks **4th** after Mumbai, Delhi and Bengaluru.
+- **Delhi overtook Kolkata** in 2011. **2001 UA order:** **Kolkata 13.2 m > Delhi 12.8 m > Bangalore 5.7 m > Ahmedabad 4.5 m > Kanpur 2.7 m** (APPSC G1 2004, "EDABC").
+- **53** million-plus UAs/cities in **2011** (35 in 2001); Visakhapatnam (GVMC) and **Vijayawada** are AP's.
+- Only the **top three** are mega cities on the 10-million rule; NCERT's 5-million rule gives **six** (adds Chennai, Bengaluru, Hyderabad).
+> Exam angle: 2011 = Mumbai-Delhi-Kolkata-Chennai; 2001 = Kolkata ahead of Delhi.
+~~ Sources: PMF Human & Economic Geography 01 p.89-90 (2011 UA table); web search summary of Economic Survey 2001-02 UA table (indiabudget.gov.in, 2001 UA figures); app notes 4:70 (sub 4)
+
+=== States – Urban Share, Growth and Number of Towns (2011)
+| Measure | State / UT |
+|---|---|
+| **Most urbanised State** | **Goa 62.17%** → Mizoram 52.1%, Tamil Nadu 48.4%, Kerala 47.7%, **Maharashtra 45.2%** |
+| Most urbanised UTs | NCT Delhi 97.50% (highest overall), Chandigarh 97.25%, Lakshadweep 78.08%, Puducherry 68.31% |
+| Least urbanised | Himachal Pradesh 10.04%, Bihar 11.30%, Assam 14.08% |
+| Largest urban population | Maharashtra 50.8 million (13.5%), UP 44.4 million, TN 34.9 million |
+| Smallest urban population | Sikkim 0.15, Arunachal 0.31, Mizoram 0.56 million |
+| **Most towns** | **Tamil Nadu** – **832** (2001; UP 704) and **1,097** (2011; UP about 915) |
+| Most census towns (2011) | West Bengal (around Kolkata); then Kerala, Tamil Nadu |
+| **Fastest urban growth 2001-11** | **Sikkim** and **Kerala** (census-town reclassification); **Goa** (about 35%) and AP (about 36%) were among the slowest |
+- Ascending urban share: **Maharashtra < Kerala < Mizoram < Goa**.
+- **AP = least urbanised southern State (29.47%, 2011)** – APPSC G2 2017. AP districts (2024-25): most urbanised **Visakhapatnam (47.45%)**; least **Srikakulam (16.16%)**.
+- "Goa and Maharashtra have just over half in villages" was the **2001** position.
+> ⚠ The APPSC 2008 key gave **Uttar Pradesh** for "most towns"; Census tables give **Tamil Nadu** (832 towns in 2001, 1,097 in 2011).
+~~ Sources: NextGen Indian Geography 15 p.20-21 (book p.216-217); Census 2001 administrative-units table (educationforallinindia.com, fetched: TN 832, UP 704); web search summary of Census 2011 Tamil Nadu report (1,097 towns); app notes 4:70 (sub 5); Goa/AP growth rates and State urban shares other than Goa: general knowledge, not checked
+
+=== Trends, Components and Causes of Urbanisation
+| Census | Urban % | Towns |
+|---|---|---|
+| 1901 | 10.84 | 1,827 |
+| 1931 | 11.99 | 2,049 |
+| 1961 | 17.97 | 2,330 |
+| 1971 / 1981 / 1991 | 19.91 / 23.34 / 25.72 | – |
+| 2001 | **27.81** (28.6 crore) | 5,161 |
+| **2011** | **31.16** (377.1 million) | **7,935** |
+| Phase | Years | Features |
+|---|---|---|
+| Slow | 1901-31 | ~0.35% a year; 33.46 million in 2,049 towns (1931) |
+| Medium | 1931-61 | Towns 2,049 → 2,330; 78.94 million urban (1961) |
+| Rapid | 1961 onwards | 78.94 → 377.11 million (+262%) |
+- **2001-11:** urban **+31.8%** decadal growth; rural/urban **68.84% / 31.16%**; absolute increase urban **91.0 m > rural 90.4 m** – first time since Independence.
+- **Census towns 1,362 → 3,894**; statutory towns 3,799 → 4,041.
+- **Main reason for the higher urban increase 2001-11: reclassification** of erstwhile rural areas as urban (new census towns), not migration (**APPSC G1 2017**).
+- **Three components**: **natural increase**, **net rural-urban migration**, **reclassification / new towns**.
+- **Causes (APPSC 2008 – "all of the above")**: growth of **industry and trade** in towns; **population pressure on rural land**; **low farm productivity**; services and transport.
+- Hidden urbanisation: World Bank (2010) **55.3%** "urban-like"; EAC-PM ~**63%** (2015, **satellite data**); UN "Degree of Urbanisation" would count peri-urban areas.
+~~ Sources: NextGen Indian Geography 12 p.10-12 (book p.164-166); NextGen Indian Geography 15 p.20-21 (book p.216-217); app notes 4:70 (sub 1, 2)
 
 === Census Definitions and Class-size of Towns
 | Term | Meaning |

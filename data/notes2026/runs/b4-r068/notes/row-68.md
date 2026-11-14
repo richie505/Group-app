@@ -64,6 +64,30 @@
 > Exam angle: Art. 343 does not call Hindi a "national language" and says nothing on English within States or Hindi between States.
 ~~ Sources: Laxmikanth Indian Polity 8th ed. ch.74 (polity/laxmikanth-indian-polity-02 p.318-320, book p.770-772); app notes 4:68 (sub 6); 1976 Committee and Rules, Vishwa Hindi Diwas: general knowledge, not checked
 
+=== Speakers, Counts and Language Institutions
+| Rank (Census 2011) | Language | Share |
+|---|---|---|
+| 1 | Hindi | 43.6% |
+| 2 | Bengali | 8.0% |
+| 3 | Marathi | 6.9% |
+| 4 | Telugu | 6.7% |
+| 5 | Tamil | 5.7% |
+- **Marathi passed Telugu** in 2011 (Telugu 3rd in 2001, now 4th). Smallest scheduled: **Sanskrit, Bodo, Manipuri**.
+- World: **Mandarin** – most spoken (native speakers; the usual key); counting second-language users, Ethnologue puts **English** first. **Hindi 2nd/3rd, Bengali 7th, Punjabi 10th**; after Hindi, **Bengali** is the most spoken Indian language worldwide.
+- **World language families:** **Indo-European** largest by speakers (~46%), **Sino-Tibetan** second (Mandarin, Tibetan, Burmese); **Niger-Congo** (incl. **Bantu**, Swahili) has the most languages, **Austronesian** the second most; Afro-Asiatic = Arabic, Hebrew.
+- **Sri Lanka:** official languages **Sinhala** (Simhalam) and Tamil.
+| Survey | Count |
+|---|---|
+| Grierson's Linguistic Survey (1903-1928) | 179 languages, 544 dialects |
+| **Census 1961** | **1,652 mother tongues** (APPSC G1 2024 – true) |
+| Census 2011 | ~19,500 raw → 1,369 mother tongues → **121 languages** (22 + 99) |
+| People's Linguistic Survey (G.N. Devy) | 780+ languages |
+- Census "language" needs **10,000+ speakers**; about **12%** speak lesser-recognised local languages.
+- **CIIL** (Central Institute of Indian Languages): **Mysuru**.
+- **Oxford Hindi Word of the Year 2018: "Nari Shakti"** (2017: Aadhaar).
+- **Semiotics** = the study of **signs and sign systems**.
+~~ Sources: app notes 4:68 (sub 1, 2, 3); NextGen Society Group 2 01 p.58; Sri Lanka, Oxford word, Ethnologue, semiotics: general knowledge, not checked
+
 === Andhra Pradesh – Telugu and Urdu
 - **AP Official Language Act, 1966**: **Telugu** official; **2022 Amendment** made **Urdu second official language statewide** (reaffirmed 17 Mar 2026). AP official = **Telugu and Urdu** (2019 PYQ).
 - Telugu: Dravidian, scheduled, **classical since 2008**; called the "**Italian of the East**" (vowel-ending sound; phrase credited to the 15th-century traveller Niccolo de' Conti).
@@ -102,30 +126,6 @@
 | **West Bengal** | Bengali; **Kurukh** (Dravidian, Oraon) given official status (2017) – a UNESCO-listed endangered language |
 - Each State Legislature chooses (Art. 345); need not be Hindi or a scheduled language.
 ~~ Sources: app notes 4:68 (sub 7); Laxmikanth ch.74 (p.319, book p.771); Uttarakhand, Kurukh, J&K languages: general knowledge, not checked
-
-=== Speakers, Counts and Language Institutions
-| Rank (Census 2011) | Language | Share |
-|---|---|---|
-| 1 | Hindi | 43.6% |
-| 2 | Bengali | 8.0% |
-| 3 | Marathi | 6.9% |
-| 4 | Telugu | 6.7% |
-| 5 | Tamil | 5.7% |
-- **Marathi passed Telugu** in 2011 (Telugu 3rd in 2001, now 4th). Smallest scheduled: **Sanskrit, Bodo, Manipuri**.
-- World: **Mandarin** – most spoken (native speakers; the usual key); counting second-language users, Ethnologue puts **English** first. **Hindi 2nd/3rd, Bengali 7th, Punjabi 10th**; after Hindi, **Bengali** is the most spoken Indian language worldwide.
-- **World language families:** **Indo-European** largest by speakers (~46%), **Sino-Tibetan** second (Mandarin, Tibetan, Burmese); **Niger-Congo** (incl. **Bantu**, Swahili) has the most languages, **Austronesian** the second most; Afro-Asiatic = Arabic, Hebrew.
-- **Sri Lanka:** official languages **Sinhala** (Simhalam) and Tamil.
-| Survey | Count |
-|---|---|
-| Grierson's Linguistic Survey (1903-1928) | 179 languages, 544 dialects |
-| **Census 1961** | **1,652 mother tongues** (APPSC G1 2024 – true) |
-| Census 2011 | ~19,500 raw → 1,369 mother tongues → **121 languages** (22 + 99) |
-| People's Linguistic Survey (G.N. Devy) | 780+ languages |
-- Census "language" needs **10,000+ speakers**; about **12%** speak lesser-recognised local languages.
-- **CIIL** (Central Institute of Indian Languages): **Mysuru**.
-- **Oxford Hindi Word of the Year 2018: "Nari Shakti"** (2017: Aadhaar).
-- **Semiotics** = the study of **signs and sign systems**.
-~~ Sources: app notes 4:68 (sub 1, 2, 3); NextGen Society Group 2 01 p.58; Sri Lanka, Oxford word, Ethnologue, semiotics: general knowledge, not checked
 
 === Bilingualism, Endangered Languages and Language Policy
 - Census 2011: **~26% bilingual, ~7% trilingual**.
