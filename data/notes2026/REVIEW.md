@@ -1413,3 +1413,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w088 (rows 88–94)
 - own 424 → 57 kept + 111 new (168, 40%); new 73 statements / 24 match / 14 A–R; no lines lost. Answers lean to (c) 38/111.
 - Removed as not in notes: g2b53bc4178e3, gfe2f46c986bd.
+
+## rewrite b5-w095 (rows 95–98)
+- own 393 → 79 kept + 86 new (165, 42%); new 52 statements / 22 match / 12 A–R; no lines lost.
+- Minamata disease: notes 1956 (official identification) vs PYQ y7b2006cb1e9 1953 (first cases) — add both to notes.
+- 98:4:1 mercury "no known safe level" key disputed (notes flag) — not used.

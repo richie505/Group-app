@@ -1,0 +1,160 @@
+=== NEW NOTES row 102
+## SUB 0 | Noise Pollution – Units, Sound Levels and Sources
+[0:0] # Units
+[0:1] TABLE head: Quantity | Unit
+  [0:1.0] Sound / noise level (intensity, loudness level) | Decibel (dB) – logarithmic; dB(A) is weighted to human hearing
+  [0:1.1] Perceived loudness | Sone (phon = loudness level)
+  [0:1.2] Frequency (pitch) | Hertz (Hz)
+  [0:1.3] Hearing loss | Decibels (dB HL on an audiogram)
+[0:2] - **Noise pollution is measured in decibels**, not Celsius, Daltons, cusecs, magnitude, nanometres or hertz.
+[0:3] - **Every 10 dB rise ≈ doubles the loudness** (NextGen); WHO: indoor sound **below 30 dB** is safe.
+[0:4] # Sound levels
+[0:5] TABLE head: Sound / limit | Level
+  [0:5.0] Rustling leaves | ~20 dB (Rocket)
+  [0:5.1] WHO safe indoors | < 30 dB
+  [0:5.2] Normal conversation | ~60 dB
+  [0:5.3] Tolerable limit for humans (exam answer) | ~80 dB; 100–125 dB very uncomfortable
+  [0:5.4] Prolonged exposure → hearing loss | > 75 dB (NextGen, Shankar); permanent damage commonly quoted > 85 dB
+  [0:5.5] Heavy traffic | ~90 dB
+  [0:5.6] Rocket engine | ~180 dB (Rocket)
+[0:6] - Among heavy traffic, election meetings, rock music and **jet flight**, the **maximum noise** comes from **jet flight**.
+[0:7] # Sources and effects
+[0:8] - Noise pollution is **completely man-made**: construction, vehicle horns, industries, defence equipment, space rockets, domestic gadgets, loudspeakers, music concerts, **fire-crackers**.
+[0:9] - Effects: annoyance, raised pulse and blood pressure, **constriction of blood vessels**, digestive spasms, **impaired night vision**, sleeplessness, loss of hearing; infrasonic/ultrasonic waves can damage buildings.
+[0:10] > Exam angle: unit of noise / hearing loss = decibel (×8), sone vs decibel, rustling leaves 20 dB, tolerable 80 dB, maximum noise = jet flight.
+[0:11] ~~ Sources: NextGen Environment APPSC 11 p.2-4; NextGen Rocket Environment p.22; Shankar Environment Part 7 p.2-3; PMF Environment Part 4 p.2
+## SUB 1 | Noise Rules 2000, Fire-cracker Standards and Noise Control
+[1:0] # Noise Pollution (Regulation and Control) Rules, 2000
+[1:1] - Framed under the **Environment (Protection) Act, 1986**; noise is also an "air pollutant" under the Air Act, 1981; SC links freedom from noise to **Art. 21**.
+[1:2] TABLE head: Zone | Day dB(A) Leq | Night dB(A) Leq
+  [1:2.0] Industrial | 75 | 70
+  [1:2.1] Commercial | 65 | 55
+  [1:2.2] Residential | 55 | 45
+  [1:2.3] Silence zone | 50 | 40
+[1:3] - **Day = 6 am–10 pm; night = 10 pm–6 am.** **Loudspeakers / public address systems are banned 10 pm–6 am** except in closed premises (auditoria, banquet halls) – a rule of the **Noise Rules**, not the IPC or RP Act.
+[1:4] - **Silence zone:** not less than **100 m** around hospitals, educational institutions, courts (and religious places so declared).
+[1:5] - **NANMN** (Real Time National Ambient Noise Monitoring Network, CPCB, launched 2011): **70 stations in 7 metros** – Delhi, Mumbai, Kolkata, Chennai, Bengaluru, Hyderabad, Lucknow.
+[1:6] # Fire-crackers
+[1:7] - Noise standard (EP (Second Amendment) Rules 1999, amended **2006**): manufacture, sale or use of crackers exceeding **125 dB(AI) or 145 dB(C)pk at 4 m** from the point of bursting is prohibited; for series crackers the limit falls by 5 log10(N).
+[1:8] - Supreme Court (2017–18): banned **heavy metals** (lead, mercury, arsenic, antimony, lithium) and **barium salts** in crackers; only **green crackers** (CSIR-NEERI) allowed; series crackers banned.
+[1:9] # Control
+[1:10] - At source (silencers, machine maintenance, loudspeaker limits), in the path (**barriers, green belts**, building design), at receiver (ear protection, job rotation).
+[1:11] - **Green muffler:** **4–5 rows of trees/shrubs along roads** and near noisy places that **absorb noise** (also some gases and dust) – a **noise-pollution** control, not air, water or soil.
+[1:12] - Trees also absorb noise, but "absorbing excess noise from small industries and irrigation" is **not** listed as a benefit of tree planting for poor communities (APPSC AEE 2023 key); shade, soil quality and income are.
+[1:13] > Exam angle: residential day 55 dB, 10 pm–6 am loudspeaker ban (Noise Rules), cracker 125 dB(AI)/145 dB(C)pk at 4 m, green muffler = noise (×4).
+[1:14] ~~ Sources: Shankar Environment Part 7 p.2-3 (zone table, silence zone, NANMN, control); PMF Environment Part 4 p.2 (Noise Rules under EPA, Art. 21); NextGen Rocket Environment p.22, p.70 (Green Muffler – noise); Noise Standards for Fire-crackers (npcb.nagaland.gov.in PDF)
+## SUB 2 | Radioactive Pollution – Sources, Effects and Units
+[2:0] # Sources
+[2:1] TABLE head: Source | Examples
+  [2:1.0] Natural | Cosmic rays; radionuclides in the crust – radium-224, uranium-235/238, thorium-232, radon-222, potassium-40
+  [2:1.1] Building materials | Thorium (exam answer; granite, monazite, fly-ash bricks also carry uranium and K-40); its decay gas radon collects indoors
+  [2:1.2] Medical / isotopes | X-rays, carbon-14, iodine-125, phosphorus-32
+  [2:1.3] Man-made nuclear | Reactor waste, nuclear fuel, mining and refining of uranium/thorium/plutonium, weapon tests (Sr-90, Cs-137, I-131); accidents – Chernobyl 1986 (Ukraine), Fukushima 2011
+[2:2] - **Radon:** colourless, odourless radioactive **noble gas** from uranium/radium decay in rocks and soil; builds up in poorly ventilated houses; **major cause of lung cancer after smoking**; used in **cancer treatment**.
+[2:3] - **Chernobyl** = **radioactive** pollution (reactor accident), not oil spill, acid rain or CO2.
+[2:4] # Effects
+[2:5] - Depend on intensity, rate of diffusion, exposure time and **half-life**.
+[2:6] - Short range: burns, hair loss, impaired metabolism, changes in blood corpuscles, death of cells.
+[2:7] - Long range: **genetic mutations (hereditary changes)**, **cancers (carcinogenesis)**, tumours, embryo changes; **Sr-90 → bone cancer**; I-131 → blood, bone marrow, thyroid.
+[2:8] - Rocket: "Radioactive pollution → **hereditary changes + carcinogenesis**" (not soil-mineral imbalance or hindered blood circulation).
+[2:9] - **Ionising** (X-rays, gamma, cosmic) vs **non-ionising** (UV, cell towers).
+[2:10] # Units
+[2:11] TABLE head: Quantity | Units
+  [2:11.0] Activity | Becquerel, curie
+  [2:11.1] Absorbed dose | Gray, rad
+  [2:11.2] Biological (equivalent) dose | Sievert, rem
+[2:12] > Exam angle: building material (thorium / radon), statement code on effects (UPPSC 2009), Chernobyl, units.
+[2:13] ~~ Sources: NextGen Environment APPSC 11 p.5-6; NextGen Environment APPSC 09 p.12 (Chernobyl, Fukushima); NextGen Rocket Environment p.63; Shankar Environment Part 7 p.4-5; PMF Environment Part 4 p.2 (radon); mcqmate.com (Thorium key)
+## SUB 3 | Radiological Emergencies – NDMA, MRDS, AERB and Tummalapalle
+[3:0] - **MRDS = Mobile Radiation Detection Systems**: NDMA plan to give States/UTs MRDS for metros, State capitals and big cities to detect **unclaimed (orphan) radioactive material** (APPSC 2021, asked twice).
+[3:1] - Precedent: **Mayapuri, Delhi (2010)** – scrap-market **cobalt-60** exposure.
+[3:2] - **NDMA guidelines** on nuclear and radiological emergencies: **2009**; **District Collector** = Incident Commander off-site; NDRF CBRN teams respond.
+[3:3] - **AERB** (1983, under the **Atomic Energy Act, 1962**): independent regulator; approves radioactive waste disposal. **DAE** = nodal technical agency with the **Crisis Management Group**; Environmental Survey Laboratories only monitor.
+[3:4] - **AP: Tummalapalle** uranium mine and mill (**UCIL**), **YSR Kadapa** district (not Kurnool). Villagers blamed seepage from the **tailings pond** for uranium in groundwater; **APPCB show-cause notice to UCIL (Aug 2019)**; Centre/UCIL (BARC isotope study) say the uranium comes from the **natural ore body**.
+[3:5] > Exam angle: MRDS full form (×2), regulators, AP uranium site.
+[3:6] ~~ Sources: app notes 5:102 sub 7 (old-notes.txt); MRDS full form: general knowledge, not checked
+## SUB 4 | Soil Pollution – Causes, Heavy Metals and Control
+[4:0] - **Definition:** build-up of toxic compounds, chemicals, salts, **radioactive materials** or pathogens in soil that harms plants, animals and humans.
+[4:1] - **Natural causes:** floods with contaminated water, **acid rain**, minerals from weathering of rocks. **Man-made:** industrial waste, agricultural runoff (**pesticides, fertilisers**), urban waste, landfill **leachate**, mining, e-waste, **coal ash**, oil spills.
+[4:2] TABLE head: Source | Soil pollutants
+  [4:2.0] Industrial waste | Lead, mercury, copper, zinc, cadmium, cyanides, chromates, acids, alkalis
+  [4:2.1] Pesticides | Insecticides (DDT, aldrin), herbicides, fungicides, rodenticides
+  [4:2.2] Fertilisers | NPK, urea – cadmium from phosphate fertilisers
+  [4:2.3] Discarded materials | Concrete, plastics, glass, cans, carcasses
+  [4:2.4] Radioactive wastes | Uranium, thorium, radium
+[4:3] # Heavy metals
+[4:4] TABLE head: Heavy metal | Main source | Disease
+  [4:4.0] Mercury | Chlor-alkali effluent, fungicides | Minamata (biomagnifies as methyl mercury)
+  [4:4.1] Cadmium | Phosphate fertilisers, batteries, mining | Itai-itai
+  [4:4.2] Chromates | Tanneries | –
+  [4:4.3] Copper, zinc, lead | Smelting, industrial waste | –
+  [4:4.4] Lead (Pb) | Old petrol, paints, printing ink on newspapers | Brain and kidney damage
+[4:5] - **DDT** is a POP under the **Stockholm Convention**; DDT and mercury **biomagnify**.
+[4:6] - **Fly ash** must be used in bricks, cement, roads within **300 km** of thermal plants.
+[4:7] - **Contaminated Sites Rules** (EPA 1986): test against **189 hazardous chemicals**; **Polluter Pays**; exempt radioactive waste, mining, marine oil spills, dumpsites. **EP Fund Rules:** Centre keeps **25%**.
+[4:8] # Control
+[4:9] - **Treat waste before dumping**, **minimise pesticides** and chemical fertilisers, **crop rotation**, biofertilisers, biopesticides, **IPM**, organic farming, the 4 Rs, afforestation, solid-waste treatment.
+[4:10] - **Setting up watersheds is NOT a soil-pollution control** (it is soil and water conservation) – APPSC key.
+[4:11] > Exam angle: NOT-a-control picker (watersheds), heavy-metal pairs, lead in newspapers.
+[4:12] ~~ Sources: NextGen Environment APPSC 11 p.1-2; Shankar Environment Part 7 p.1-2 (causes, sources, control measures); NextGen Environment APPSC 10 p.12 (cadmium itai-itai, mercury Minamata); app notes 5:102 sub 1; lead in printing ink: general knowledge, not checked
+## SUB 5 | Bioremediation and Remediation of Contaminated Soil
+[5:0] - **Bioremediation:** microorganisms (bacteria, fungi) degrade contaminants into less toxic forms; its **primary application is soil contamination** (oil, pesticides, solvents, heavy metals); microbes can be **genetically engineered**; **heavy metals (Cd, Pb) cannot be fully removed** by it (Rocket "heavy-metal limitation").
+[5:1] TABLE head: Type | Agent / method
+  [5:1.0] Bioaugmentation | Adds pollutant-degrading microbes
+  [5:1.1] Biostimulation / bioventing | Adds nutrients (or air) to boost native microbes
+  [5:1.2] Biosparging | Air injected below the water table
+  [5:1.3] Phytoremediation | Plants take up heavy metals (hyperaccumulators; water hyacinth)
+  [5:1.4] Mycoremediation | Fungi (oyster mushroom, Pleurotus)
+  [5:1.5] Landfarming, bioreactors, composting | Ex-situ methods
+[5:2] - **Oil Zapper (and Oilivorous-S):** **TERI** bacterial consortium for oil spills and oily sludge – not a chemical dispersant.
+[5:3] - **Heavy-metal removal from soil:** **immobilisation**, **soil washing**, **phytoremediation**; **keeping land fallow does NOT remove** heavy metals.
+[5:4] - Alternatives to conventional control: **green technology, bioremediation, carbon capture and storage**; **incineration** is a conventional method, not an alternative.
+[5:5] > Exam angle: primary application (soil), NOT-a-removal-method (fallow), types.
+[5:6] ~~ Sources: NextGen Environment APPSC 13 p.2-4, p.6; NextGen Rocket Environment p.63, p.70; PMF Environment Part 4 p.58 (phytoremediation immobilises contaminants)
+## SUB 6 | Marine Pollution – Microplastics, Oil Spills and GloLitter
+[6:0] - Oceans are the **ultimate sink**: rivers, sewage, garbage, oil, grease, detergents, **radioactive wastes**, offshore oil mining, **oil spills**, plastics. Marine pollution harms **humans too** (seafood toxins, tourism, fisheries) and **plastic is not its only form** – so "only marine life" and "only plastic" are both false.
+[6:1] TABLE head: Term | Meaning
+  [6:1.0] Microplastics | Plastic particles smaller than 5 mm; microbeads in cosmetics
+  [6:1.1] Ghost nets | Abandoned, lost or discarded fishing gear
+  [6:1.2] Dead zones | Hypoxic waters from nutrient runoff (Gulf of Mexico)
+  [6:1.3] Blue Flag | Beach eco-label of the Foundation for Environmental Education (Denmark); AP: Rushikonda, Visakhapatnam (2020)
+[6:2] # Conventions and programmes
+[6:3] TABLE head: Instrument / body | Fact
+  [6:3.0] GloLitter Partnerships | IMO + FAO (launched Dec 2019), funded by Norway; helps developing countries cut sea-based marine plastic litter from shipping and fisheries; India among 30 partner countries – not UNEP, not "all sources"
+  [6:3.1] MARPOL 73/78 | IMO; 6 Annexes; bans plastic dumping at sea
+  [6:3.2] Ballast Water Convention | IMO; invasive species; in force 2017
+  [6:3.3] SACEP | South Asia Co-operative Environment Programme, 1982; secretariat Colombo; 8 members
+[6:4] - **Ennore oil spill (28 Jan 2017):** LPG tanker **BW Maple** and oil tanker **MT Dawn Kanchipuram** collided off Kamarajar (Ennore) port near Chennai.
+[6:5] - Response tools: booms, skimmers, dispersants, **Oil Zapper**; **Samudra Pratap** (Goa Shipyard) – India's first indigenous **Pollution Control Vessel**.
+[6:6] > Exam angle: microplastic size, GloLitter statements (APPSC G1 2023), Ennore ship names, statement-truth on marine pollution.
+[6:7] ~~ Sources: NextGen Environment APPSC 10 p.12; Shankar Environment Part 6 p.17 (marine pollution, oil spills); PMF Environment Part 4 p.92 (microplastics < 5 mm); oceanlitter.imo.org/project/about (GloLitter); app notes 5:102 sub 5; Ennore ships: general knowledge, not checked
+## SUB 7 | Thermal Pollution
+[7:0] - **Definition:** heat becoming a pollutant – rise (or fall) in temperature of a natural water body by human activity; when heat energy is the pollutant it is **thermal pollution**.
+[7:1] - **Main source:** **thermal and nuclear power plants** using water as **coolant** and returning hot water; so **harnessing nuclear energy often causes thermal pollution**. Also industries, deforestation of shorelines, release of cold reservoir water.
+[7:2] - **Effects:** **warm water holds less dissolved oxygen**; higher metabolic rate, fish kills, algal blooms, loss of biodiversity.
+[7:3] - **Control:** **cooling towers, cooling ponds**, cogeneration, retaining shoreline vegetation.
+[7:4] > Exam angle: definition (flashcard), nuclear power → thermal pollution.
+[7:5] ~~ Sources: NextGen Environment APPSC 10 p.9, p.11; Shankar Environment Part 6 p.17, p.19-20
+## SUB 8 | Light Pollution and Dark Sky Places
+[8:0] - **Light pollution:** excessive, misdirected artificial light that causes **skyglow**, hides stars and disturbs ecosystems and circadian rhythms.
+[8:1] - **Dark sky place / reserve:** public or private land with an exceptional starry night, protected by responsible lighting; certified by **DarkSky International** (formerly International Dark-Sky Association), a **US-based non-profit** (Tucson).
+[8:2] TABLE head: FIRST | Place
+  [8:2.0] World's first Dark Sky Reserve | Mont-Mégantic, Quebec, Canada (2007) – not Russia
+  [8:2.1] India's first Dark Sky Reserve | Hanle, Ladakh (2022), in Changthang WLS – not Himachal Pradesh
+  [8:2.2] India's first Dark Sky Park | Pench (Maharashtra), 2024
+[8:3] - APPSC G1 2023: statements I and III are correct, II and IV wrong; as no option offers "I and III only", the key is **"None of the above"**.
+[8:4] > Exam angle: statement question on dark sky reserves.
+[8:5] ~~ Sources: Shankar Environment Part 7 p.3-4 (light pollution); PMF Species & PAN Part 3 p.11 (Hanle first Dark Sky Reserve 2022); Mont-Mégantic and DarkSky International: general knowledge, not checked
+## SUB 9 | Pollution Types, Major Sources and Constitutional Links
+[9:0] TABLE head: Pollution | Major primary source
+  [9:0.0] Air | Industrial emissions, vehicles
+  [9:0.1] Water | Sewage discharge
+  [9:0.2] Soil | Chemical fertilisers and pesticides
+  [9:0.3] Noise | Construction, traffic, loudspeakers
+  [9:0.4] Thermal | Hot cooling water from thermal/nuclear plants
+  [9:0.5] Marine | Oil spills, plastics, sewage, land runoff
+  [9:0.6] Radioactive | Nuclear plants, tests, uranium/thorium mining, medical waste
+[9:1] - **Art. 48A** = Directive Principle (State protects environment); **Art. 51A(g)** = citizens' fundamental duty; Art. 21 covers a clean environment and freedom from noise.
+[9:2] - **APPCB** set up **1976** under the **Water Act, 1974**.
+[9:3] > Exam angle: own MCQs only (type → source match).
+[9:4] ~~ Sources: app notes 5:102 sub 0 (old-notes.txt); NextGen Environment APPSC 10 p.9
