@@ -757,3 +757,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r072 (CA row 72 S&T Mar–May 2026)
 - No PYQ key changes (both moved to b5 r1). Own MCQ ca0fca65f6cc50 coastline add_option "About 11,099 km" (outdated 7,516).
 - Notes fixed: Pathfinder 4 May 2026, Vikram-1 18 Jul 2026, PFBR criticality 6 Apr 2026, Artemis II 1 Apr 2026, INS Mahendragiri 11 Jul 2026.
+
+## b6-r063 (CA row 63 international treaties/orgs)
+- y04bf928f083 newest Eurozone member: Croatia → Bulgaria (2026, in options; exam year unknown), outdated line keeps Croatia.
+- Disputes: y90e7344edaa BRICS 2024 Saudi; y67bbd717820 mobility pact France. Outdated yf99b3b8e58d SCO non-member India (member since 2017).
+- ycb24e874687 Brexit 52:48 already option 5.
