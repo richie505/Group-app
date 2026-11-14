@@ -10,3 +10,7 @@
 - y415bd5dfd27 (PYQ): mercury question keyed "all three"; UPSC official (per GKToday) "only two"; twin y694adb32d4d keyed "only two" — align (dispute or re-key).
 - y2fc88e128db (PYQ): Delhi 2021 avg AQI keyed 144; CAQM 209, no option matches — add_option or dispute.
 - Notes: row 48 (app notes 5:48 sub 2) "⚠ APPSC key (2010) gave 3,700 km" Agni-III — reword to "(official key: 3,700 km; actual 3,500 km)".
+# book 2 (from notes review)
+- ga8f5796c0f0a: 131st Amendment Bill "proposes" — notes: defeated in Lok Sabha Apr 2026; reword.
+- y6a6a538e801 (PYQ): Bogardus "same status level" = horizontal mobility — add dispute.
+- (y388e5f3d4c9 AG and ye90e5cce165 TRAI already handled in b2-d02 / outdated.)
