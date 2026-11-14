@@ -1033,3 +1033,12 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b1-w102 (rows 102–108)
 - own 430 → 68 kept + 105 new (173, 40%); new 59 statements / 31 match / 15 A–R; no lines lost.
 - Wrong own keys removed: nad28711d615, fceaca6db6885 (Alptigin as Ghaznavid founder; notes 102:2:1 Sabuktigin).
+
+## rewrite b5-w045 (rows 45–50)
+- own 404 → 52 kept + 94 new (146, 36%); new 52 statements / 28 match / 14 A–R; 7 of 275 lines lost.
+- f922656736a41 keyed "52 labs" (notes ~41 labs + 5 Young Scientist Labs) — merged with notes figure; fc87d86597c22 (SANT lock-on after launch) not in notes — removed.
+- Doubtful PYQs: yee20f41eb8b (Agni-III 3,700 km vs notes 3,500 km); y77af3a0329a (China third S-400 holder after Russia/Belarus vs notes "first foreign buyer").
+
+## rewrite b1-w098 (rows 98–101)
+- own 439 → 50 kept + 103 new (153, 35%); new 59 statements / 32 match / 11 A–R / 1 sequence; 2 of 282 lines lost.
+- Notes conflict: "Kataka Churakara" title given to Kataya Vema (98:6:1.5) vs Kapaya Nayaka (99:1:3.2) — reconcile. Kasikhandam: Veerabhadra Reddi's court (98:0:12.4) vs at Kataya Vema's request (101:9:1.2) — possibly compatible.

@@ -64,12 +64,12 @@
   "row": 53,
   "s": "Consider the following statements about tenancy laws in Andhra Pradesh:\n1. Under the Hyderabad (Telangana Area) Tenancy Act, 1950, a tenant who cultivated land for 6 years became a protected tenant.\n2. A protected tenant could become owner by paying 60% of the market price in 20 instalments.\n3. The AP (Andhra Area) Tenancy Act, 1956 capped rent at 25% for wet land and 30% for dry land.\n4. The AP (Andhra Area) Tenancy Act, 1956 was based on the Subba Rao Committee.\nHow many of the above statements are correct?",
   "o": [
+   "Only one",
    "Only three",
    "Only two",
-   "Only one",
    "All four"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1, 2 and 4 are correct. 3 is wrong: the 1956 Act capped rent at 30% for WET land and 25% for DRY land (it also required written leases and a minimum 6-year lease).",
   "src": "app",
   "tq": "statements"
@@ -80,11 +80,11 @@
   "s": "Consider the following statements about ceiling laws in Andhra Pradesh:\n1. The AP Ceiling Act, 1961 took the family as the unit of ceiling.\n2. Under the AP Land Reforms (Ceiling on Agricultural Holdings) Act, 1973, the lands of husband and wife are clubbed together in a family unit of five.\n3. The 1973 Act was brought under P.V. Narasimha Rao and came into force on 1 January 1975.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
-   "2 and 3 only",
    "3 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "2 and 3 are correct. 1 is wrong: the 1961 Act took the INDIVIDUAL as the unit (27-324 acres); the family of five (husband, wife, minor children; each major son a separate unit) came with the 1973 Act.",
   "src": "app",
   "tq": "statements"
@@ -96,10 +96,10 @@
   "o": [
    "1 and 2 only",
    "2 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "2 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "2 and 3 are correct. 1 is wrong: the Land Tribunal is headed by the Revenue Divisional Officer (RDO), not the Collector.",
   "src": "app",
   "tq": "statements"
@@ -208,5 +208,155 @@
   "x": "1, 2 and 4 are correct. 3 is wrong: the 17th Amendment was challenged in Golaknath v. State of Punjab.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp4c0724f53a08",
+  "row": 54,
+  "s": "Match List-I (Andhra Pradesh land-record platform) with List-II (Feature):\nList-I | List-II\na. Webland | i. Computer-aided registration with anywhere registration and auto-mutation\nb. Bhu Bharathi | ii. Pilot launched on 24 July 2026 in 7 mandals\nc. CARD | iii. AP's digitised land records platform\nd. Mee Bhoomi-Blockchain | iv. Computerisation of land records in united AP (1992), piloted in Nizamabad\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Webland – AP's digitised land records; Bhu Bharathi – 1992 computerisation, pilot Nizamabad; CARD – computer-aided registration (anywhere registration, auto-mutation) – a registration system, not a court; Mee Bhoomi-Blockchain – pilot 24 July 2026, 7 mandals.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc15f2ec6eda4",
+  "row": 54,
+  "s": "Consider the following statements about land resurvey in Andhra Pradesh:\n1. The resurvey under Jagananna Saswatha Bhu Hakku and Bhu Raksha began in December 2020.\n2. The resurvey has covered 6,901 villages using drones, CORS and GIS.\n3. The QR-coded pattadar passbooks issued from January 2026 carry the photograph of the Chief Minister.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct (6,901 villages, 81 lakh parcels). 3 is wrong: the QR-coded passbooks (January 2026) carry the State emblem.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2bebd1d2d752",
+  "row": 54,
+  "s": "Consider the following statements:\n1. The NCAER Land Records and Services Index (N-LRSI) grades States on digitisation and quality of land records.\n2. Andhra Pradesh topped the N-LRSI in 2021.\n3. Karnataka's Bhoomi project (2000) was the first to computerise Records of Rights, Tenancy and Crops (RTCs).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: Madhya Pradesh topped the N-LRSI; AP improved from 10th (2020) to 6th (2021).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3f0a10a8a681",
+  "row": 54,
+  "s": "Consider the following statements about SVAMITVA:\n1. SVAMITVA stands for Survey of Villages and Mapping with Improvised Technology in Village Areas.\n2. It was launched on National Panchayati Raj Day, 24 April 2020.\n3. It is a Centrally Sponsored Scheme of the Ministry of Rural Development.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: SVAMITVA is a Central Sector scheme of the Ministry of Panchayati Raj.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0bfcb7bd3eb5",
+  "row": 54,
+  "s": "Consider the following statements about SVAMITVA:\n1. Survey of India is its implementing agency while NICSI provides technology support.\n2. Its drone survey covers agricultural land as well as village abadi areas.\n3. It targets about 6.62 lakh villages.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: SVAMITVA covers abadi (inhabited village) areas only, not agricultural land.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5e785854e6ff",
+  "row": 54,
+  "s": "Consider the following statements about the Digital India Land Records Modernisation Programme (DILRMP):\n1. It began as NLRMP by merging CLR and SRA&ULR.\n2. Since 1 April 2016 it has been a Central Sector scheme with 100% central funding.\n3. It has been extended to 2025-26 with consent-based Aadhaar seeding and computerisation of revenue courts.\n4. A gender column has been made optional in the Record of Rights.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All four",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "1, 2 and 3 are correct. 4 is wrong: a gender column is MANDATORY in the RoR under DILRMP.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1885e91586eb",
+  "row": 54,
+  "s": "Match List-I (Term) with List-II (Meaning):\nList-I | List-II\na. ULPIN | i. Cloud GIS – a Bhu-Aadhaar for every parcel\nb. NGDRS | ii. 14-digit alphanumeric parcel ID from geo-coordinates of the parcel's vertices\nc. Land Stack | iii. One Nation One Registration Software\nd. DILRMP Phase 2 (2016-26) | iv. ULPIN, NGDRS and e-Court integration\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "ULPIN (Bhu-Aadhaar) – 14-digit alphanumeric ID; NGDRS – 'One Nation One Registration Software', common registration application; Land Stack (National Digital Land Initiative) – cloud GIS, Bhu-Aadhaar for every parcel; Phase 2 (2016-26) – ULPIN, NGDRS, e-Court integration.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc2170d65a571",
+  "row": 54,
+  "s": "Consider the following statements about land titling:\n1. Under the present presumptive system, registration only records a transaction and the title can be challenged.\n2. Under conclusive titling, the State guarantees the title and a single title register replaces separate records.\n3. Clear titles allow land to be used as collateral and reduce litigation.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 1,
+  "x": "All three are correct: presumptive – registration records a transaction only; conclusive – State-guaranteed title in a single register; clear titles → collateral and less litigation.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp11b8ced15cb1",
+  "row": 54,
+  "s": "Consider the following statements:\n1. The AP Land Titling Act, 2022 sought to move the State from presumptive to conclusive titling.\n2. It was criticised for limiting land disputes to the District Court.\n3. It was repealed in 2024.\n4. Adoption of the NITI Aayog Model Conclusive Land Titling Act, 2020 is mandatory for all States.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 and 4 only",
+   "1, 2 and 3 only",
+   "1 and 3 only",
+   "2 and 4 only"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: disputes were limited to the High Court. 4 is wrong: adoption of the NITI Aayog model Act is each State's choice.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3b9e8c3ce960",
+  "row": 54,
+  "s": "Consider the following statements:\nAssertion (A): The Supreme Court (1 January 2026) held that registration of a transfer deed is distinct from title.\nReason (R): Under the presumptive system, registration only records a transaction and the title can still be challenged.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: since registration under the presumptive system merely records the transaction, it does not by itself confer title.",
+  "src": "app",
+  "tq": "assertion"
  }
 ]
