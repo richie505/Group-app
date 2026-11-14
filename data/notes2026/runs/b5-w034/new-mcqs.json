@@ -778,5 +778,485 @@
   "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: RUDRA 0.3 HPGP is Bellatrix Aerospace's (PSLV-C58, Jan 2024). Hence the answer is '1 and 2 only'.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cpaaac0d3f8008",
+  "row": 37,
+  "s": "Consider the following statements about the INSAT system:\n1. INSAT-1A (1982) was the first INSAT; the INSAT-1 series was built abroad by Ford Aerospace.\n2. The INSAT system was commissioned in 1983, with INSAT-1B making it operational.\n3. INSAT-2A, the first of the fully indigenous INSAT-2 series, was launched by PSLV from Sriharikota in 1992.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: INSAT-2A was launched from Kourou (10 July 1992); till 2002 all INSATs went up from abroad. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp573655019803",
+  "row": 37,
+  "s": "Consider the following statements:\n1. INSAT is a joint venture of DoS, DoT, IMD, AIR and Doordarshan, coordinated by the ICC.\n2. The Master Control Facility for INSAT is at Hassan in Kerala.\n3. NSIL took over ten in-orbit communication satellites in 2022.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: Hassan is in Karnataka. Statement 3 is correct. Hence the answer is 'Only two'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb6b2505d884b",
+  "row": 37,
+  "s": "Match List-I (Satellite) with List-II (Launcher):\nList-I\na. INSAT-3C (Jan 2002)\nb. INSAT-4A (Dec 2005)\nc. INSAT-4C (Jul 2006)\nd. INSAT-4CR (Sep 2007)\nList-II\ni. GSLV-F02, exploded 60 s after lift-off\nii. GSLV-F04\niii. Ariane-4\niv. Ariane-5\nSelect the correct answer:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 2,
+  "x": "INSAT-3C (Jan 2002) – Ariane-4; INSAT-4A (Dec 2005) – Ariane-5; INSAT-4C (Jul 2006) – GSLV-F02, exploded 60 s after lift-off; INSAT-4CR (Sep 2007) – GSLV-F04. So a-iii, b-iv, c-i, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd52af445a783",
+  "row": 37,
+  "s": "Consider the following:\nAssertion (A): GSAT-30 was launched in January 2020 into a geosynchronous transfer orbit.\nReason (R): GSAT-30 is a telecommunication satellite with C and Ku band transponders.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: GSAT-30 (Ariane-5 VA-251, Kourou) went to GTO like every geostationary satellite; its bands do not decide the orbit.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpf00c09b15325",
+  "row": 37,
+  "s": "Match List-I (Satellite) with List-II (Distinction / use):\nList-I\na. EDUSAT (GSAT-3)\nb. GSAT-6\nc. GSAT-31\nd. GSAT-24\nList-II\ni. NSIL's first demand-driven mission (Tata Play)\nii. VSAT links for ATMs and stock exchanges\niii. Large deployable antenna, S-band\niv. World's first dedicated educational satellite\nSelect the correct answer:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 0,
+  "x": "EDUSAT (GSAT-3) – World's first dedicated educational satellite; GSAT-6 – Large deployable antenna, S-band; GSAT-31 – VSAT links for ATMs and stock exchanges; GSAT-24 – NSIL's first demand-driven mission (Tata Play). So a-iv, b-iii, c-ii, d-i.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp37cb5b94bb00",
+  "row": 37,
+  "s": "Consider the following statements:\n1. GSAT-11 (~5.8 t), the heaviest ISRO-built satellite, was launched from French Guiana.\n2. CMS-03 (4,410 kg), the heaviest communication satellite launched from Indian soil, flew on LVM3-M5.\n3. GSAT-19, India's heaviest launch of 2017, was carried by GSLV-F05.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: GSAT-19 flew on GSLV Mk III-D1 (5 June 2017). Hence the answer is '1 and 2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpde6750e3ae47",
+  "row": 37,
+  "s": "Consider the following statements about GSAT satellites:\n1. GSAT-8, launched on Ariane-5 from Kourou in 2011, carries a GAGAN payload.\n2. GSAT-N2 (GSAT-20) was launched on Ariane-5 from Kourou in November 2024.\n3. CMS-01 was launched by PSLV-C50 from Sriharikota.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: GSAT-N2 flew on SpaceX Falcon 9 from Cape Canaveral. Statement 3 is correct. Hence the answer is 'Only two'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7ae168c7444b",
+  "row": 37,
+  "s": "Consider the following statements about geostationary satellites:\n1. They orbit about 35,786 km above the equator with a period of 24 hours.\n2. The height of their orbit depends on the mass of the satellite.\n3. The launcher first puts the satellite into an elliptical GTO; its own motor then raises it to GEO.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: the height is fixed and does not depend on the satellite's mass. Statement 3 is correct. Hence the answer is '2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp451eaaa86915",
+  "row": 37,
+  "s": "Consider the following:\nAssertion (A): A satellite needs no fuel to keep revolving in its orbit.\nReason (R): In near-vacuum there is no drag, and the Earth's gravitational pull supplies the centripetal force.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: with no air drag and gravity providing the centripetal force, no energy is spent to stay in orbit; solar panels only power the instruments.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpaa38f610bb38",
+  "row": 37,
+  "s": "Match List-I (Satellite) with List-II (User):\nList-I\na. GSAT-7 'Rukmini'\nb. GSAT-7A 'Angry Bird'\nc. GSAT-7B (proposed)\nd. GSAT-9\nList-II\ni. Air Force\nii. Navy\niii. South Asian neighbours\niv. Army\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 3,
+  "x": "GSAT-7 'Rukmini' – Navy; GSAT-7A 'Angry Bird' – Air Force; GSAT-7B (proposed) – Army; GSAT-9 – South Asian neighbours. So a-ii, b-i, c-iv, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp89a9f8eb2af1",
+  "row": 37,
+  "s": "Consider the following statements:\n1. The South Asia Satellite (GSAT-9) was launched on GSLV-F09 on 5 May 2017.\n2. Pakistan opted out of the South Asia Satellite.\n3. Afghanistan is not among the users of the South Asia Satellite.\n4. CMS-03 gives encrypted anti-jam naval links up to 2,000 km offshore.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: users are Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal and Sri Lanka. Statement 4 is correct. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp52af41ef4147",
+  "row": 37,
+  "s": "Match List-I (Transponder band) with List-II (Use):\nList-I\na. C / extended C\nb. Ku\nc. Ka\nd. S\nList-II\ni. Mobile satellite services\nii. Telecom and TV distribution\niii. DTH and VSAT\niv. High-throughput broadband\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 1,
+  "x": "C / extended C – Telecom and TV distribution; Ku – DTH and VSAT; Ka – High-throughput broadband; S – Mobile satellite services. So a-ii, b-iii, c-iv, d-i.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpdcdb1444ea89",
+  "row": 37,
+  "s": "Consider the following statements about satellite applications:\n1. Swayam Prabha beams 40 free DTH education channels through GSAT-15.\n2. In the Disaster Warning System, warnings are uplinked in S-band and received by coastal receivers in C-band.\n3. INSAT's search-and-rescue transponders work under COSPAS-SARSAT.\n4. The MF band is not used for INSAT/GSAT communication.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "2 only",
+   "2 and 4 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: uplink is C-band and downlink is S-band. Statement 3 is correct. Statement 4 is correct. Hence the answer is '2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp32825d96bee6",
+  "row": 37,
+  "s": "Consider the following statements about satellite services in Andhra Pradesh:\n1. SDSC-SHAR provides cyclone-track data to APSDMA.\n2. AP's RTGS signed an MoU with SHAR in June 2025.\n3. The AP government signed an MoU with Malaysia for Ku-band services on MEASAT-1 and MEASAT-2.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is correct. Hence the answer is 'All three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp19ef2cee6092",
+  "row": 37,
+  "s": "Consider the following:\nAssertion (A): Ground waves are used to relay TV programmes all over the world.\nReason (R): Three geostationary satellites can together cover nearly the whole globe.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: ground and space waves are short-range; worldwide TV relay uses geostationary satellites. R is true.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpeb0f8084c6ce",
+  "row": 37,
+  "s": "Consider the following:\nAssertion (A): INSAT is a multipurpose system that also serves meteorology.\nReason (R): INSAT satellites are placed in polar orbits.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: INSAT combines telecom, TV, meteorology, disaster warning and more. R is false: INSAT is a geostationary system, not polar.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe96c43d75525",
+  "row": 38,
+  "s": "Match List-I (Navigation system) with List-II (Owner / scope):\nList-I\na. GPS\nb. BeiDou\nc. QZSS (Michibiki)\nd. NavIC\nList-II\ni. Japan – regional\nii. USA – global\niii. India – regional\niv. China – global\nSelect the correct answer:",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 2,
+  "x": "GPS – USA – global; BeiDou – China – global; QZSS (Michibiki) – Japan – regional; NavIC – India – regional. So a-ii, b-iv, c-i, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6b4f90e06571",
+  "row": 38,
+  "s": "Consider the following statements about the GPS:\n1. The programme began in 1973 and became fully operational in 1995.\n2. Its original design has 24 satellites in 6 orbits at about 20,200 km, each circling the Earth twice a day.\n3. A clock error of one microsecond produces a position error of only about 30 m.\n4. Its signals are in the L1 and L2 bands.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "3 only",
+   "2 and 3 only",
+   "3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: a 1 microsecond error gives about 300 m of position error. Statement 4 is correct. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp457547776121",
+  "row": 38,
+  "s": "Consider the following:\nAssertion (A): A GPS receiver needs signals from at least four satellites to fix its position.\nReason (R): Three satellites give the position by trilateration and the fourth corrects the receiver's own clock error.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the fourth satellite is needed because the receiver's clock is not an atomic clock.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4cf576891c89",
+  "row": 38,
+  "s": "Consider the following statements about NavIC:\n1. It keeps its own Indian time (IRNSS Network Time) and not GPS time.\n2. India is the only developing country with its own independent regional navigation system.\n3. DRDO is the nodal body for NavIC and GAGAN.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the nodal body is ISRO's Satellite Navigation Programme Office. Hence the answer is 'Only two'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8665b96256d9",
+  "row": 38,
+  "s": "Consider the following statements about the NavIC constellation:\n1. It covers India and about 1,500 km beyond its borders.\n2. Its original signals are in the L1 and L2 bands.\n3. Its four inclined geosynchronous satellites are at an inclination of 29°.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: NavIC signals are in the L5 and S bands; the NVS satellites add a civilian L1 signal. Statement 3 is correct. Hence the answer is '1 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp05efa3b22f1e",
+  "row": 38,
+  "s": "Consider the following statements about NavIC services:\n1. The Standard Positioning Service is open to all civilian users, with accuracy better than 20 m.\n2. The Restricted Service is encrypted and meant for military and authorised users.\n3. IRNSS is also known as GAGAN.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 only",
+   "3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: GAGAN is a separate GPS augmentation system; IRNSS is NavIC. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp34a1dd0931dd",
+  "row": 38,
+  "s": "Match List-I (Satellite) with List-II (Fact):\nList-I\na. IRNSS-1A\nb. NVS-01\nc. NVS-02\nd. IRNSS-1F\nList-II\ni. First indigenous rubidium clock\nii. Last clock stopped on 13 March 2026\niii. PSLV-C22, 1 July 2013\niv. 100th launch from Sriharikota\nSelect the correct answer:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 0,
+  "x": "IRNSS-1A – PSLV-C22, 1 July 2013; NVS-01 – First indigenous rubidium clock; NVS-02 – 100th launch from Sriharikota; IRNSS-1F – Last clock stopped on 13 March 2026. So a-iii, b-i, c-iv, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9ebd4640b1b8",
+  "row": 38,
+  "s": "Consider the following statements:\n1. The whole IRNSS-1 series was launched on the PSLV.\n2. Of the 11 navigation satellites launched since 2013, some went up from Kourou.\n3. A valve (pyro connector) glitch left NVS-02 in the wrong orbit.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: all 11 were launched from Sriharikota. Statement 3 is correct. Hence the answer is 'Only two'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp44760673a545",
+  "row": 38,
+  "s": "Consider the following:\nAssertion (A): NavIC satellites carry rubidium atomic clocks.\nReason (R): The caesium clock is the world's standard of time.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: NavIC uses rubidium clocks (three per satellite) because they are smaller, even though they are slightly less accurate than caesium, the SI standard.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb3bd5193cffc",
+  "row": 38,
+  "s": "Consider the following statements about NavIC's atomic clocks:\n1. The first-generation rubidium clocks that failed were supplied by the Swiss firm SpectraTime.\n2. Indigenous replacement clocks were developed by the Space Applications Centre, Ahmedabad.\n3. After the last clock on IRNSS-1F stopped in March 2026, five PNT-capable satellites remained.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: only three remained (1B, 1I, NVS-01), below the four needed for a fix. Hence the answer is '1 and 2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd4c071149c7b",
+  "row": 38,
+  "s": "Consider the following:\nAssertion (A): NavIC can replace GPS for users anywhere in the world.\nReason (R): NavIC is a regional system covering India and about 1,500 km around it.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: NavIC is regional only, so it cannot serve worldwide users. R is true.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp67f63e4f86bc",
+  "row": 38,
+  "s": "Consider the following statements about NavIC applications:\n1. It is used for fleet management and precision farming.\n2. MoRTH's AIS-140 rule makes NavIC/GPS trackers compulsory in all private cars.\n3. Qualcomm Snapdragon chipsets support NavIC.\n4. The reconfigured IRNSS-1A sends cyclone, tsunami and high-wave alerts to fishermen.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: AIS-140 covers public transport and commercial vehicles, not all private cars. Statement 3 is correct. Statement 4 is correct. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7b37275c4979",
+  "row": 38,
+  "s": "Match List-I with List-II:\nList-I\na. Elena Geo Systems\nb. APSDMA\nc. Himachal Pradesh\nd. Qualcomm\nList-II\ni. Snapdragon chipsets supporting NavIC\nii. India's first NavIC-based device\niii. Satellite Based Mobile Data Voice terminals\niv. GPS device mandatory for trekkers\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "Elena Geo Systems – India's first NavIC-based device; APSDMA – Satellite Based Mobile Data Voice terminals; Himachal Pradesh – GPS device mandatory for trekkers; Qualcomm – Snapdragon chipsets supporting NavIC. So a-ii, b-iii, c-iv, d-i.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp597c97020810",
+  "row": 38,
+  "s": "Consider the following:\nAssertion (A): A major solar storm can make GPS fail and damage power grids.\nReason (R): Solar storms trigger tsunamis and forest fires on the Earth.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: GPS failure, grid damage, low-latitude auroras, orbit disturbance and shortwave blackouts are possible effects. R is false: tsunamis and forest fires are not effects of a solar storm.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd7448592bb99",
+  "row": 38,
+  "s": "Consider the following statements about GAGAN:\n1. It was built jointly by ISRO and the Airports Authority of India and has been operational since 2015.\n2. Its payloads are on GSAT-8, GSAT-10 and GSAT-15.\n3. Its benefits are limited to aviation.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: GAGAN also serves maritime (GEMINI), railways, roads, survey and disaster response. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5317e265f6fc",
+  "row": 38,
+  "s": "Match List-I (SBAS) with List-II (Region):\nList-I\na. WAAS\nb. EGNOS\nc. MSAS\nd. GAGAN\nList-II\ni. Europe\nii. India\niii. USA\niv. Japan\nSelect the correct answer:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "WAAS – USA; EGNOS – Europe; MSAS – Japan; GAGAN – India. So a-iii, b-i, c-iv, d-ii.",
+  "src": "app",
+  "tq": "match"
  }
 ]

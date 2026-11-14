@@ -966,3 +966,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b4-w027 rewrite (rows 27-29): own 397 → 146 (37%), 0 lost. Notes fixed: NIOT is in Chennai (not Nellore); AP coastline 974 km (old) / 1,053.07 km (2024).
 - b6-w029 rewrite (rows 29-31): own 392 → 145 (37%), 0 lost. Check: Nauru renamed 'Republic of Naoero' Aug 2026 (31:5:5.0).
 - b1-w069 rewrite (rows 69-77): own 383 → 156 (41%).
+- b2-w027 rewrite (rows 27-30): own 379 → 133 (35%), 0 lost.
