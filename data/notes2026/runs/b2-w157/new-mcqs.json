@@ -4,12 +4,12 @@
   "row": 160,
   "s": "Match List-I (BRICS milestone) with List-II (Year):\nList-I | List-II\na. Term 'BRIC' coined by Jim O'Neill | i. 2025\nb. First BRIC summit, Yekaterinburg | ii. 2011\nc. South Africa first attends a summit (Sanya) | iii. 2009\nd. Indonesia joins | iv. 2001\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iv, b-iii, c-ii, d-i",
    "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-iii, c-ii, d-i",
    "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 0,
+  "a": 1,
   "x": "BRIC coined 2001 (Goldman Sachs); first summit Yekaterinburg, 16 June 2009; South Africa invited Dec 2010, first attended at Sanya 2011; Indonesia joined 2025.",
   "src": "app",
   "tq": "match"
@@ -20,11 +20,11 @@
   "s": "Consider the following statements about BRICS:\n1. Argentina was invited to join in August 2023 but declined in December 2023.\n2. BRICS now has ten members.\n3. India strongly backs BRICS de-dollarisation.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
+   "1, 2 and 3",
    "2 and 3 only",
-   "1, 2 and 3"
+   "1 and 2 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "1 and 2 are correct. 3 is wrong: India avoids de-dollarisation.",
   "src": "app",
   "tq": "statements"
@@ -221,6 +221,246 @@
   ],
   "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: expanded BRICS has about 50% of the world's population (and 40%+ of GDP on PPP).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8fb142016a7c",
+  "row": 161,
+  "s": "Consider the following statements about the NPT:\n1. It was signed in 1968, entered into force in 1970 and was extended indefinitely in 1995.\n2. Its Review Conferences are held every ten years.\n3. It recognises as Nuclear Weapon States those that tested a nuclear device before 1 January 1967.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: NPT Review Conferences are held every five years.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2453e177aedf",
+  "row": 161,
+  "s": "Consider the following statements:\n1. North Korea withdrew from the NPT in 2003.\n2. India rejects the NPT as discriminatory, calling it 'nuclear apartheid'.\n3. The Rajiv Gandhi Action Plan for time-bound, universal disarmament was presented in 1998.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the Rajiv Gandhi Action Plan dates from 1988 (1998 is Pokhran-II).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcc09dbade53c",
+  "row": 161,
+  "s": "Consider the following statements:\nAssertion (A): The CTBT, adopted in 1996, has not yet entered into force.\nReason (R): The CTBT enters into force only when all 44 Annex-2 States ratify it.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: signing is not enough – all 44 Annex-2 States must ratify, which has not happened.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb69974faf3a6",
+  "row": 161,
+  "s": "Match List-I (Export-control regime) with List-II (What it controls):\nList-I | List-II\na. Nuclear Suppliers Group | i. Nuclear materials and technology\nb. MTCR | ii. Chemical and biological weapon precursors\nc. Wassenaar Arrangement | iii. Missiles and drones\nd. Australia Group | iv. Conventional arms and dual-use goods\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 1,
+  "x": "NSG – nuclear materials and technology; MTCR – missiles and drones (500 kg over 300 km); Wassenaar – conventional arms and dual-use goods; Australia Group – chemical and biological weapon precursors.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe9aec9752ce7",
+  "row": 161,
+  "s": "Match List-I (Regime) with List-II (India's status):\nList-I | List-II\na. MTCR | i. Member since June 2016\nb. Wassenaar Arrangement | ii. Not a member; only a 2008 India-specific waiver\nc. Australia Group | iii. 42nd member, December 2017\nd. Nuclear Suppliers Group | iv. 43rd member, January 2018\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "MTCR – June 2016; Wassenaar – 42nd member, Dec 2017; Australia Group – 43rd member, 19 Jan 2018; NSG – not a member, only the 2008 waiver.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2fc3aa50fefa",
+  "row": 161,
+  "s": "Consider the following statements about the Nuclear Suppliers Group (NSG):\n1. Known as the 'London Club', it was formed in 1975 in reply to India's 1974 Pokhran-I test.\n2. It has 48 members and works on a voluntary, consensus basis.\n3. It has a permanent secretariat at Vienna.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the NSG has no permanent secretariat.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6f6065c348ba",
+  "row": 161,
+  "s": "Consider the following statements:\n1. The MTCR controls missiles and drones that can carry 500 kg over 300 km.\n2. The MTCR has 35 members.\n3. The Wassenaar Arrangement, set up in 1996, is based at Geneva.\n4. China and Pakistan are outside both the Wassenaar Arrangement and the MTCR.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the Wassenaar Arrangement is based at Vienna.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf628824ddf18",
+  "row": 161,
+  "s": "Consider the following statements:\n1. The JCPOA was concluded in 2015 between Iran and the P5+1 and the EU.\n2. The United States withdrew from the JCPOA in 2020.\n3. START stands for Strategic Arms Reduction Treaty.\n4. The USA and Russia together hold about 90% of the world's nuclear arsenals.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 3 and 4 are correct. 2 is wrong: the US left the JCPOA in 2018; it was Iran that dropped all limits on 5 January 2020.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp770807df96e9",
+  "row": 161,
+  "s": "Match List-I (Nuclear-weapon-free-zone treaty) with List-II (Region):\nList-I | List-II\na. Rarotonga | i. Southeast Asia\nb. Bangkok | ii. South Pacific\nc. Pelindaba | iii. Africa\nd. Semipalatinsk | iv. Central Asia\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 3,
+  "x": "Rarotonga – South Pacific; Bangkok – Southeast Asia; Pelindaba – Africa; Semipalatinsk – Central Asia (Tlatelolco – Latin America).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6e3022b80706",
+  "row": 161,
+  "s": "Consider the following statements:\n1. India did not sign the TPNW, which entered into force in 2021, saying it adds nothing to customary international law.\n2. India does not support negotiation of a Fissile Material Cut-off Treaty.\n3. India is party to all five protocols of the Convention on Certain Conventional Weapons.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: India supports FMCT negotiation at the Conference on Disarmament.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3a265c78c561",
+  "row": 161,
+  "s": "Consider the following statements about the FATF:\n1. It was set up in 1989 by the G7.\n2. Its secretariat is at Paris.\n3. Its 'black list' is the list of jurisdictions under increased monitoring.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: 'increased monitoring' is the grey list; the black list is of high-risk jurisdictions subject to a call for action.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7e9b30d9de43",
+  "row": 161,
+  "s": "Consider the following statements:\n1. Myanmar is on the FATF black list along with Iran and North Korea.\n2. Pakistan was removed from the FATF grey list in October 2022.\n3. India became a member of the FATF in 2010 and is also in the Asia/Pacific Group on Money Laundering.\n4. India's mutual evaluation of June 2024 placed it under 'enhanced follow-up'.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: India was placed under 'regular follow-up'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc1433ac829ed",
+  "row": 161,
+  "s": "Consider the following statements:\nAssertion (A): Pakistan was placed on the FATF grey list in June 2018.\nReason (R): Pakistan was put on the FATF black list for failing to complete its 27-point action plan.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (grey list from June 2018 for terror-financing and money-laundering deficiencies). R is false: Pakistan was kept on the grey list – never the black list – for failing its 27-point plan, and was removed in October 2022.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb1c759436217",
+  "row": 161,
+  "s": "Consider the following statements:\n1. The IAEA, headquartered at Vienna, was set up in 1957 with India as a founding member.\n2. Rafael Grossi is the Director General of the IAEA.\n3. India's 2009 India-Specific Safeguards Agreement covers both its civilian and military facilities.\n4. India's Additional Protocol to IAEA safeguards came into force in 2014.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the 2009 agreement covers only civilian facilities and excludes military ones.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp92014e22b70b",
+  "row": 161,
+  "s": "Consider the following statements:\n1. Under a 2026 agreement Canada will supply India 10,000 tonnes of uranium during 2027-2035.\n2. Australia, with which India signed a uranium arrangement in July 2026, holds about one-tenth of the world's uranium.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 1,
+  "x": "1 is correct. 2 is wrong: Australia holds over one-third of the world's uranium.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1e463736b721",
+  "row": 161,
+  "s": "Consider the following statements:\n1. The Biological Weapons Convention entered into force in 1975.\n2. India destroyed its declared chemical-weapon stockpile by 2009.\n3. The OPCW won the Nobel Peace Prize in 2013.\n4. The Board of Governors is one of the organs of the OPCW.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: the OPCW's organs are the Conference of States Parties, the Executive Council and the Technical Secretariat – no Board of Governors.",
   "src": "app",
   "tq": "statements"
  }

@@ -1593,3 +1593,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b5-w114 (rows 114–118)
 - own 442 → 63 kept + 107 new (170, 38%); new 68 statements / 24 match / 15 A–R; no lines lost. No wrong keys.
 - Printed-key-only notes (not used): 117:0:3 "646 villages with PHCs"; 118:4:8 "raw cow milk" as calcium answer.
+
+## rewrite b2-w144 (rows 144–149)
+- own 438 → 58 kept + 106 new (164, 37%); new 62 statements / 29 match / 15 A–R; no lines lost.
+- FIXED typo "Harish Slave" → "Harish Salve" (PYQ y5e684a8f1fa options) in Complete app.
+- 145:1:5.3 "Baden" (WB name for bonded labour) unchecked — verify.
