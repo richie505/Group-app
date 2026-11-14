@@ -137,7 +137,7 @@
 
 === Tribal Initiatives – Adi Vaani, Adi Sanskriti, Gutti Koya
 # Adi Vaani – India's first AI tribal-language translator
-- Beta launched **1 September 2025** by the **Ministry of Tribal Affairs** under **Janjatiya Gaurav Varsh**.
+- **Adi Vaani** beta launched **1 September 2025** by the **Ministry of Tribal Affairs** under **Janjatiya Gaurav Varsh**.
 - Built by a consortium led by **IIT Delhi** (with BITS Pilani, IIIT Hyderabad, IIIT Nava Raipur and State TRIs).
 | Language (beta) | State |
 |---|---|
@@ -147,7 +147,7 @@
 | Gondi | Chhattisgarh |
 - Linked with **PM JANMAN** and **Adi Karmayogi Abhiyan**; Kui and Garo under development.
 # Adi Sanskriti – digital platform for tribal culture
-- **Ministry of Tribal Affairs** – envisioned as the **world's first digital university for tribal art forms**.
+- **Adi Sanskriti** (Ministry of Tribal Affairs) – envisioned as the **world's first digital university for tribal art forms**.
 | Component | Detail |
 |---|---|
 | Adi Vishwavidyalaya | Digital Tribal Art Academy – 45 online courses |
@@ -184,7 +184,7 @@
 
 === Literacy and Digital Literacy Firsts
 # Himachal Pradesh – fully literate State
-- Literacy **99.30%** – declared on **International Literacy Day 2025** (8 Sept) at the ULLAS Mela, Shimla.
+- **Himachal Pradesh**: literacy **99.30%** – declared on **International Literacy Day 2025** (8 Sept) at the ULLAS Mela, Shimla.
 - Programme: **ULLAS – New India Literacy Programme**; criterion **≥95% literacy among age 15+**.
 - HP = **4th** fully literate State after **Mizoram** (first, 20 May 2025), **Goa**, **Tripura**; **Ladakh** = first fully literate **UT** (24 June 2024).
 - Later (2026): Sikkim 5th (27 May 2026), Uttarakhand 6th (8 July 2026).

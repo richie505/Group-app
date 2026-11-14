@@ -100,8 +100,8 @@
 # State rankings by NITI Aayog
 | Index | Latest result |
 |---|---|
-| Investment Friendliness Index 2026 (first edition, July 2026) | Gujarat 1st (56.6), then Maharashtra, Tamil Nadu; 8 pillars, 84 indicators; Andhra Pradesh 8th (48.7) – "Frontrunner" (45–50), not Top Performer |
-| Fiscal Health Index 2026 (second edition, March 2026) | Odisha top for the 2nd year; Punjab last (12.4); 18 major + 10 NE/Himalayan States |
+| Investment Friendliness Index 2026 (NITI Aayog, first edition, July 2026) | Gujarat 1st (56.6), then Maharashtra, Tamil Nadu; 8 pillars, 84 indicators; Andhra Pradesh 8th (48.7) – "Frontrunner" (45–50), not Top Performer |
+| Fiscal Health Index 2026 (NITI Aayog, second edition, March 2026) | Odisha top for the 2nd year; Punjab last (12.4); 18 major + 10 NE/Himalayan States |
 ~~ Sources: daily EM CA 27 Oct 2026 p.5 (care report, NPHCE); web: downtoearth.org.in (foodgrain target 29 Sep 2026) – fetched; Praveen CA-360 May 2026 p.105 (376.56 MT record); PMF LENS Sep 2026 Part 2 p.72 (kharif/rabi); PMF LENS Apr 2026 (2026-05-12) p.10 (Crime in India 2024); Rocket CA 2026 Part 01 p.18, p.24, p.178 (ADSI, NFHS-6 MoHFW & IIPS); Praveen CA-360 May 2026 p.112 and Sep 2026 p.19 (NFHS-6); Praveen CA-360 Jul 2026 p.77 and PMF LENS Jul 2026 Part 2 p.5 (IFI); PMF LENS Mar 2026 Part 1 p.65 (FHI); web search (PLFS Sep 2026, MoSPI press note; FHI Punjab last; IFI 84 indicators)
 
 === New Bodies and Union Cabinet Decisions
