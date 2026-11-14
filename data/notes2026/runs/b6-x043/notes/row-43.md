@@ -24,37 +24,6 @@
 - **SIDBI**: set up **2 April 1990** under the SIDBI Act, 1989; **HQ Lucknow**; principal financial institution for **MSMEs**.
 ~~ Sources: Current Care Aug 2025 (KP IAS) p.55-56; PMF LENS Sep 2026 Part 2 p.59 (SIDBI implementing agency, 7% subsidy, 1.18 crore loans); daily EM CA 20 Oct 2026 p.2 (launched 1 June 2020); Praveen CA-360 May 2026 p.53 and Rocket Indian Economy p.3 (SIDBI 1990, Lucknow)
 
-=== Immunisation – UIP, Mission Indradhanush, Zero-dose Children
-# Universal Immunisation Programme (UIP)
-- **UIP (1985)**: **world's largest** – **2.6 crore infants** and **2.9 crore pregnant women** a year; **12 diseases** (11 nationwide + 1 in endemic areas).
-- **U5MR**: **45 → 31** per 1,000 live births (2014–2021, SRS).
-- **Mission Indradhanush**: **2014**; **IMI 2017**; by 2023, 12 phases – 5.46 crore children, 1.32 crore pregnant women.
-- Digital: **U-WIN** (pregnant women and children **up to 16 years**), **CO-WIN**, **eVIN** (vaccine stock), **NCCMIS** (cold chain), **SAFE-VAC** (safety reporting).
-- **COVID vaccination**: from **16 January 2021**; 220+ crore doses by January 2023; **Vaccine Maitri**.
-- New drives: **IMI 5.0 (2023)**; **Zero MR Elimination Campaign (2025)**.
-# Milestones
-| Milestone | Year |
-|---|---|
-| Expanded Programme on Immunization (WHO) | 1974 – 4 billion children, 154 million deaths averted |
-| Universal Immunisation Programme | 1985 (EPI evolved into UIP) |
-| Polio | Last case 13 January 2011; WHO certified the South-East Asia region (with India) polio-free on 27 March 2014 |
-| Mission Indradhanush | 2014 |
-| Maternal & neonatal tetanus eliminated | 2015 |
-| Yaws-free | 2016 |
-| Measles-Rubella campaign | 2017–2019 – 34.8 crore children |
-| Zero Dose Implementation Plan | 2024 – 143 districts, 11 States |
-| Measles and Rubella Champion Award | 6 March 2024 |
-> India's last polio case was in **2011**, not 2014/2015 (2014 = WHO certification).
-# Zero-dose children – Lancet study (25 June 2025)
-- Global Burden of Disease Vaccine Coverage Collaborators, **The Lancet**.
-- **India: 1.44 million** zero-dose children in 2023 – **second-highest after Nigeria** (Nigeria first).
-- Global: **15.7 million** in 2023; over half in eight countries; South Asia 13%. Measles coverage fell in 100 of 204 countries (2010–2019).
-- **Zero-dose** = no dose of **DTP** vaccine by **age one**.
-- **IA2030** goal: **halve zero-dose children by 2030**. Tracking platforms: **Co-WIN, U-WIN**.
-# Maldives – world's first triple elimination
-- **WHO** validated **Maldives** as the **first country** to eliminate **mother-to-child transmission** of **HIV, syphilis and hepatitis B** (2025).
-~~ Sources: Current Care Sep 2025 p.195-196 (UIP, milestones, U-WIN, COVID 16 Jan 2021, MR award); CARE APPSC daily 26 Jun 2025 p.27-31 (Lancet study, EPI 1974, UIP 1985, ZDIP 143 districts, IA2030); Current Care Oct 2025 Part 2 p.132 (Maldives); Current Care Jun 2025 p.180 (polio-free 2014); polio last-case date 13 Jan 2011: general knowledge, not checked
-
 === Labour, EPFO, Skilling and Government MoUs
 # Draft Shram Shakti Niti 2025 (National Labour and Employment Policy)
 - Released by the **Union Labour Ministry** (Ministry of Labour and Employment) for **public consultation** (2025).
@@ -90,6 +59,58 @@
 > "AI Careers for Women" is an MSDE–Microsoft MoU (not Ministry of WCD); NSIC belongs to the Ministry of MSME.
 ~~ Sources: Current Care Oct 2025 Part 2 p.68-70 (Shram Shakti Niti) and p.77-79 (Shikshit Bharat); Current Care Oct 2025 Part 1 p.32-34 (EPFO); Current Care Aug 2025 Part 2 p.102-103 (VET); CARE APPSC daily 29 Aug 2025 p.32-36 (job-ready 42–43%, 400 million, initiatives list); web search Nov 2026 (MSDE–Microsoft MoU 22 Apr 2025; NSIC MoUs 11 Aug 2025; DGT–Autodesk MoU 6 Nov 2025, dgt.gov.in PIB note)
 
+=== Immunisation – UIP, Mission Indradhanush, Zero-dose Children
+# Universal Immunisation Programme (UIP)
+- **UIP (1985)**: **world's largest** – **2.6 crore infants** and **2.9 crore pregnant women** a year; **12 diseases** (11 nationwide + 1 in endemic areas).
+- **U5MR**: **45 → 31** per 1,000 live births (2014–2021, SRS).
+- **Mission Indradhanush**: **2014**; **IMI 2017**; by 2023, 12 phases – 5.46 crore children, 1.32 crore pregnant women.
+- Digital: **U-WIN** (pregnant women and children **up to 16 years**), **CO-WIN**, **eVIN** (vaccine stock), **NCCMIS** (cold chain), **SAFE-VAC** (safety reporting).
+- **COVID vaccination**: from **16 January 2021**; 220+ crore doses by January 2023; **Vaccine Maitri**.
+- New drives: **IMI 5.0 (2023)**; **Zero MR Elimination Campaign (2025)**.
+# Milestones
+| Milestone | Year |
+|---|---|
+| Expanded Programme on Immunization (WHO) | 1974 – 4 billion children, 154 million deaths averted |
+| Universal Immunisation Programme | 1985 (EPI evolved into UIP) |
+| Polio | Last case 13 January 2011; WHO certified the South-East Asia region (with India) polio-free on 27 March 2014 |
+| Mission Indradhanush | 2014 |
+| Maternal & neonatal tetanus eliminated | 2015 |
+| Yaws-free | 2016 |
+| Measles-Rubella campaign | 2017–2019 – 34.8 crore children |
+| Zero Dose Implementation Plan | 2024 – 143 districts, 11 States |
+| Measles and Rubella Champion Award | 6 March 2024 |
+> India's last polio case was in **2011**, not 2014/2015 (2014 = WHO certification).
+# Zero-dose children – Lancet study (25 June 2025)
+- Global Burden of Disease Vaccine Coverage Collaborators, **The Lancet**.
+- **India: 1.44 million** zero-dose children in 2023 – **second-highest after Nigeria** (Nigeria first).
+- Global: **15.7 million** in 2023; over half in eight countries; South Asia 13%. Measles coverage fell in 100 of 204 countries (2010–2019).
+- **Zero-dose** = no dose of **DTP** vaccine by **age one**.
+- **IA2030** goal: **halve zero-dose children by 2030**. Tracking platforms: **Co-WIN, U-WIN**.
+# Maldives – world's first triple elimination
+- **WHO** validated **Maldives** as the **first country** to eliminate **mother-to-child transmission** of **HIV, syphilis and hepatitis B** (2025).
+~~ Sources: Current Care Sep 2025 p.195-196 (UIP, milestones, U-WIN, COVID 16 Jan 2021, MR award); CARE APPSC daily 26 Jun 2025 p.27-31 (Lancet study, EPI 1974, UIP 1985, ZDIP 143 districts, IA2030); Current Care Oct 2025 Part 2 p.132 (Maldives); Current Care Jun 2025 p.180 (polio-free 2014); polio last-case date 13 Jan 2011: general knowledge, not checked
+
+=== Health System – PMJAY, Jan Aushadhi, Drug Safety, Health Workers
+# Universal health care and PMJAY
+- **Bhore Committee (1946)**: defined **UHC** – care to all **irrespective of ability to pay**.
+- **PMJAY (2018, Ayushman Bharat)**: **₹5 lakh per household per year**; **private hospitals** get **two-thirds** of PMJAY spending.
+- Public health spending **1.3% of GDP** (2022, World Bank); **National Health Policy 2017** target **2.5% of GDP**.
+# Anshakalin Stri Parichars (ASPs) – Maharashtra
+- Women community health workers; ASPs **predate ASHAs**; wage **₹3,000 a month since 2016**; State promised **₹6,000 a month by December 2025**.
+- **2023**: **Nagpur labour court** – ASPs deserve **Minimum Wages Act** protection, implementation left to the State (no parity order).
+- **ASHA**: introduced under **NRHM (2005)** – volunteers paid by incentives.
+# Drug safety
+- **CDSCO** is **not independent** – reports to **DGHS → Health Ministry**; States also license drugs.
+- **WHO**: **1 in 10** drugs in developing countries fake/substandard. **Branded generics: 87%** of the Indian market.
+- Pharma: **$50 billion → $130 billion by 2030**; supplies **40% of US generics** and **50–60% of world vaccines** (not 40%).
+- Cough-syrup deaths: **Gambia, Uzbekistan**.
+# Jan Aushadhi stores in all GGHs (Andhra Pradesh, May 2025)
+- **AP Health Department**: Jan Aushadhi stores in **all Government General Hospitals**; District/Area Hospitals only at feasibility stage; Nandyal GGH had no private store.
+- **PM-BJAP**: profit margin capped at **15%**; software by the **Department of Pharmaceuticals**.
+- **Branded drugs** only with **prior approval** when **no generic** exists.
+- AP emergency-preparedness directive (India–Pakistan tensions): **CBRN** = **Chemical, Biological, Radiological, Nuclear**.
+~~ Sources: Current Care Sep 2025 p.186-187 (Bhore, PMJAY, 1.3%, NHP 2017); Current Care Oct 2025 Part 2 p.127 (ASPs); Current Care Aug 2025 Part 2 p.104-105 (drug safety); AP CA Monthly May 2025 p.27-28 (Jan Aushadhi, CBRN)
+
 === Food Security, Nutrition and Lifestyle Diseases
 # NFSA ration-card verification (2025)
 - About **1.17 crore** ration-card holders flagged **potentially ineligible** under **NFSA, 2013** – by the **Department of Food and Public Distribution** through inter-ministerial data matching.
@@ -113,27 +134,6 @@
 - **WHO (2023)**: stroke rehabilitation should start within **24–48 hours**.
 - Awareness campaign **FAST** = **Face, Arms, Speech, Time**.
 ~~ Sources: CARE APPSC daily 20 Aug 2025 p.11-15 and Current Care Aug 2025 Part 1 p.39-40 (NFSA verification, Rightful Targeting Dashboard, prices); CARE APPSC daily 19 Sep 2025 p.32-33 (thali); Current Care Oct 2025 Part 2 p.129-135 (ICMR-INDIAB, heart, stroke); Current Care Jun 2025 p.70 (FAST)
-
-=== Health System – PMJAY, Jan Aushadhi, Drug Safety, Health Workers
-# Universal health care and PMJAY
-- **Bhore Committee (1946)**: defined **UHC** – care to all **irrespective of ability to pay**.
-- **PMJAY (2018, Ayushman Bharat)**: **₹5 lakh per household per year**; **private hospitals** get **two-thirds** of PMJAY spending.
-- Public health spending **1.3% of GDP** (2022, World Bank); **National Health Policy 2017** target **2.5% of GDP**.
-# Anshakalin Stri Parichars (ASPs) – Maharashtra
-- Women community health workers; ASPs **predate ASHAs**; wage **₹3,000 a month since 2016**; State promised **₹6,000 a month by December 2025**.
-- **2023**: **Nagpur labour court** – ASPs deserve **Minimum Wages Act** protection, implementation left to the State (no parity order).
-- **ASHA**: introduced under **NRHM (2005)** – volunteers paid by incentives.
-# Drug safety
-- **CDSCO** is **not independent** – reports to **DGHS → Health Ministry**; States also license drugs.
-- **WHO**: **1 in 10** drugs in developing countries fake/substandard. **Branded generics: 87%** of the Indian market.
-- Pharma: **$50 billion → $130 billion by 2030**; supplies **40% of US generics** and **50–60% of world vaccines** (not 40%).
-- Cough-syrup deaths: **Gambia, Uzbekistan**.
-# Jan Aushadhi stores in all GGHs (Andhra Pradesh, May 2025)
-- **AP Health Department**: Jan Aushadhi stores in **all Government General Hospitals**; District/Area Hospitals only at feasibility stage; Nandyal GGH had no private store.
-- **PM-BJAP**: profit margin capped at **15%**; software by the **Department of Pharmaceuticals**.
-- **Branded drugs** only with **prior approval** when **no generic** exists.
-- AP emergency-preparedness directive (India–Pakistan tensions): **CBRN** = **Chemical, Biological, Radiological, Nuclear**.
-~~ Sources: Current Care Sep 2025 p.186-187 (Bhore, PMJAY, 1.3%, NHP 2017); Current Care Oct 2025 Part 2 p.127 (ASPs); Current Care Aug 2025 Part 2 p.104-105 (drug safety); AP CA Monthly May 2025 p.27-28 (Jan Aushadhi, CBRN)
 
 === Tribal Initiatives – Adi Vaani, Adi Sanskriti, Gutti Koya
 # Adi Vaani – India's first AI tribal-language translator

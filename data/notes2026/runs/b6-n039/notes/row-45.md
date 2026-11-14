@@ -1,0 +1,156 @@
+=== Commissions and Statutory Bodies – PCI, Law Commission, 16th FC, Telangana
+# Press Council of India (PCI)
+- **15th PCI** completed in October 2026: **MIB nominated 13 journalists** (six editors, seven working journalists) under **Sections 5 and 6 of the Press Council Act, 1978**.
+- **Chairperson**: former SC judge **Justice Ranjana Prakash Desai**, since **24 April 2026**, three years.
+- **Statutory, autonomous, quasi-judicial** (not constitutional); first set up **1966** under the **Press Council Act, 1965**; **HQ New Delhi**.
+- **Chairperson + 28 members**: 13 journalists, 6 newspaper owners, **5 MPs (3 LS + 2 RS)**, 3 from UGC/Bar Council/Sahitya Akademi, 1 news agency.
+- Chairperson chosen by the **RS Chairman, LS Speaker and one PCI member**.
+- Can **warn, admonish, censure** – **no criminal penalties**. **National Press Day: 16 November**; press freedom under **Article 19(1)(a)**.
+# Telangana Senior Citizens Commission (October 2026)
+- Implements the **Monitoring Act-2026**; **Chief Commissioner** retired HC judge **Justice E. Tirumala Devi** (three years); **one Chief Commissioner + two Commissioners**; orders by the Women and Child Welfare Department.
+- Government employees neglecting parents: **15% salary deduction**, credited to the parents.
+# Law Commission and Finance Commission
+| Body | Nature | Chair / latest fact |
+|---|---|---|
+| 23rd Law Commission | Executive (non-statutory), advisory to Ministry of Law | Justice Dinesh Maheshwari (from April 2025); term 1 Sep 2024 – 31 Aug 2027 |
+| 16th Finance Commission | Constitutional (Art 280) | Arvind Panagariya; award period 2026–27 to 2030–31 |
+| NITI Aayog | Executive | est. 1 January 2015 |
+- **Law Commission**: recommendations **not binding**; current mandate includes a **Uniform Civil Code**.
+- **279th Report** (22nd Law Commission, 2023), "Usage of the Law of Sedition": **retain Section 124A IPC** with **Kedar Nath Singh (1962)** safeguards and higher punishment.
+- **16th FC award**: vertical share kept at **41%** (demands for 50% declined); new criterion **contribution to GDP (10%)**; **income distance 42.5%** (was 45%), **population 17.5%** (was 15%), demographic performance 10% (was 12.5%).
+~~ Sources: daily EM CA 17 Oct 2026 p.6 (PCI); daily EM CA 20 Oct 2026 p.8 (Telangana commission); PMF LENS Feb 2026 Part 1 p.8 (16th FC formula); Rocket CA 2026 Part 01 p.11-12 (16th FC chair, period) and Part 02 p.17 (Law Commission executive body); daily EM CA 27 Oct 2026 p.5 (NITI Aayog 1 Jan 2015); web search (23rd Law Commission chair, term); 279th Report: app notes (old-notes 45:3), not re-checked
+
+=== Parliamentary Committees – JPCs and DRSCs (chairs and composition)
+# JPC on the FCRA Amendment Bill, 2026
+- **31-member JPC** (**21 Lok Sabha + 10 Rajya Sabha**) under **Sanjay Jaiswal** on the **Foreign Contribution (Regulation) Amendment Bill, 2026** – constituted by **Speaker Om Birla**, September 2026.
+- Report due by the **last day of the first week of the Winter Session 2026**.
+- **FCRA, 2010** (replaced the 1976 Act): nodal ministry **Ministry of Home Affairs** (not Finance).
+- **JPC**: an **ad hoc** committee of members of **both Houses**; it **ends after its task**. **Article 118**: each House makes its **own rules of procedure**.
+# JPCs and their chairs
+| Bill | JPC chair |
+|---|---|
+| FCRA Amendment Bill 2026 (31 members) | Sanjay Jaiswal |
+| One Nation One Election – 129th Amendment Bill 2024 + UT Laws (Amendment) Bill 2024 | P.P. Chaudhary (39 = 27 LS + 12 RS) |
+| Waqf (Amendment) Bill 2024 | Jagdambika Pal |
+| 130th Amendment Bill 2025 (with J&K and UT Bills) | Aparajita Sarangi |
+| Viksit Bharat Shiksha Adhishthan (VBSA) Bill 2025 (31 members) | D. Purandeswari |
+| Corporate Laws Amendment Bill 2026 | Sudheer Gupta |
+| Biological Diversity Amendment Bill 2021 | Sanjay Jaiswal |
+| Forest Conservation Amendment Bill 2023 | Rajendra Agrawal |
+| Multi-State Cooperative Societies (Amendment) Bill 2022 | C.P. Joshi |
+| Personal Data Protection Bill 2019; Jan Vishwas Bill 2022 | P.P. Chaudhary |
+| Citizenship (Amendment) Bill 2016 | Satyapal Singh, later Rajendra Agrawal |
+| Security Interest and Recovery of Debts Laws (Amendment) Bill 2016; FRDI Bill 2017 | Bhupender Yadav |
+> Sanjay Jaiswal chaired two JPCs (FCRA 2026, Biological Diversity 2021); P.P. Chaudhary chaired ONOE and PDP 2019. VBSA JPC = D. Purandeswari (appointed by Speaker, Feb 2026; Praveen CA-360 Sep 2026 wrongly lists Anurag Singh Thakur).
+# DRSCs reconstituted for 2026–27 (October 2026)
+- **24 DRSCs** reconstituted by **LS Speaker Om Birla** and **RS Chairman C.P. Radhakrishnan**.
+| Committee | Chair |
+|---|---|
+| Finance | Bhartruhari Mahtab |
+| External Affairs | Shashi Tharoor |
+| Defence | Radha Mohan Singh |
+- Each DRSC: **31 members (21 LS + 10 RS)**; **16 under the LS Speaker**, **8 under the RS Chairman**; tenure **up to one year**.
+- Examine **Demands for Grants**, bills referred, annual reports and long-term policy; **ministers cannot be members**.
+> JPC = ad hoc, ends after its task; DRSC = standing, tenure up to one year.
+~~ Sources: Praveen CA-360 Sep 2026 p.15 (FCRA JPC, Art 118, JPC list) and one-liners p.4; daily EM CA 18 Oct 2026 p.2 (DRSCs); web: news.careers360.com (VBSA Bill JPC chair D. Purandeswari, 31 members, Feb 2026) – fetched; Praveen CA-360 Sep 2026 p.15 names Anurag Singh Thakur for VBSA – source error
+
+=== Expert Committees – Banking, Pharma, Hockey, RBI Markets Panel
+# High-Level Committee on Banking for Viksit Bharat
+- Set up **30 October 2026**; announced by **FM Nirmala Sitharaman** in **Union Budget 2026–27**; roadmap within **six months**; goal: resilient banking system by **2047**.
+| Role | Person |
+|---|---|
+| Chairman | Suresh N. Patel (former Central Vigilance Commissioner) |
+| Member | Shirish Chandra Murmu (RBI Deputy Governor) |
+| Member | Padmaja Chunduru (former MD and CEO, Indian Bank) |
+| Member | N.S. Vishwanathan (former RBI Deputy Governor) |
+| Member Secretary | Joint Secretary (Banking), DFS |
+- Reviews commercial banks, RRBs, cooperative banks, DFIs, NBFCs, AI, cybersecurity, PSL, Lead Bank Scheme.
+- **RBI**: est. **1 April 1935**, HQ Mumbai, Governor **Sanjay Malhotra**; **Lead Bank Scheme 1969**.
+> Banking committee chair = Suresh N. Patel (ex-CVC), not an RBI official.
+# Committee on unethical pharma marketing (October 2026)
+- Constituted by the **Department of Pharmaceuticals**; headed by **NITI Aayog Member M. Srinivas**; members **Preeti Sudan** and **Naresh Trehan**; report within **two months of its first meeting**.
+- Department of Pharmaceuticals: est. **2008**, **Ministry of Chemicals and Fertilizers**; **UCPMP-2024** guides ethical marketing.
+- **NPPA**: est. **1997**, HQ New Delhi; fixes prices under the **Drugs (Prices Control) Order, 2013**.
+# Committee to revive the Hockey India League
+- **Seven-member** committee set up by **Sports Minister Mansukh Mandaviya** (October 2026) – governance and financial model.
+- **HIL** launched **2013**, revived **2024** after a seven-year break; **Hockey India** est. **2009**; **FIH** est. **1924**, HQ **Lausanne**.
+# RBI Technical Consultative Committee for Financial Markets (TCCFM)
+- Constituted **4 November 2026**; chaired by the **RBI Deputy Governor in charge of the Financial Markets Regulation Department**; **7 external members**.
+- Covers **money, government securities, forex and related derivatives** markets; meets **at least once a quarter**.
+~~ Sources: daily EM CA 2 Nov 2026 p.1 (banking committee, RBI, Lead Bank Scheme); daily EM CA 25 Oct 2026 p.2 and 30 Oct 2026 p.1 (pharma committee, DoP, UCPMP, NPPA); daily EM CA 21 Oct 2026 p.9 (HIL); web: psuconnect.in (RBI TCCFM, 4 Nov 2026) – fetched
+
+=== Reports, Indices and National Data
+# NITI Aayog report on the care economy (October 2026)
+- India's **60+ population**: **149 million (2022)** → **194 million (2031)** → **347 million (2050, about 20.8%)**.
+- Funds to train **1.5 lakh multi-skilled caregivers**; family caregivers about **10%** of population.
+- Recommends a **National Care Council**, National Care Qualification Framework, National Caregiver Registry and portal.
+- **NPHCE** launched **2010–11**; **International Day of Older Persons: 1 October**.
+# Foodgrain target 2026–27
+- Announced by **Agriculture Minister Shivraj Singh Chouhan**, **29 September 2026**: **373.93 MT** – **lower** than the record **376.56 MT (2025–26)**; **Rabi target 177.72 MT**.
+- **Kharif**: sown with the **southwest monsoon**, main cereal **rice**; **Rabi**: winter-sown, main cereal **wheat**.
+# NCRB data
+- **NCRB** released **Crime in India 2024** (May 2026): first full-year data under the **Bharatiya Nyaya Sanhita, 2023**; cybercrime up **17.9%**.
+- **ADSI** (Accidental Deaths and Suicides in India) – also by **NCRB**; about 1.7 lakh suicides in 2024.
+# Surveys and their agencies
+| Survey | Conducting agency | Latest dated facts |
+|---|---|---|
+| PLFS | NSO, MoSPI | September 2026 bulletin (18th monthly): unemployment (15+, CWS) 5.0% (same as August); LFPR 55.5%; urban female unemployment 9.2% |
+| NFHS-6 (2023–24) | Health Ministry; IIPS, Mumbai coordinated it alone for the first time | Fact sheets 29 May 2026; all States/UTs except Manipur |
+| ASER | Pratham (NGO, rural households) | ASER 2024 (January 2025) |
+# State rankings by NITI Aayog
+| Index | Latest result |
+|---|---|
+| Investment Friendliness Index 2026 (NITI Aayog, first edition, July 2026) | Gujarat 1st (56.6), then Maharashtra, Tamil Nadu; 8 pillars, 84 indicators; Andhra Pradesh 8th (48.7) – "Frontrunner" (45–50), not Top Performer |
+| Fiscal Health Index 2026 (NITI Aayog, second edition, March 2026) | Odisha top for the 2nd year; Punjab last (12.4); 18 major + 10 NE/Himalayan States |
+~~ Sources: daily EM CA 27 Oct 2026 p.5 (care report, NPHCE); web: downtoearth.org.in (foodgrain target 29 Sep 2026) – fetched; Praveen CA-360 May 2026 p.105 (376.56 MT record); PMF LENS Sep 2026 Part 2 p.72 (kharif/rabi); PMF LENS Apr 2026 (2026-05-12) p.10 (Crime in India 2024); Rocket CA 2026 Part 01 p.18, p.24, p.178 (ADSI, NFHS-6 MoHFW & IIPS); Praveen CA-360 May 2026 p.112 and Sep 2026 p.19 (NFHS-6); Praveen CA-360 Jul 2026 p.77 and PMF LENS Jul 2026 Part 2 p.5 (IFI); PMF LENS Mar 2026 Part 1 p.65 (FHI); web search (PLFS Sep 2026, MoSPI press note; FHI Punjab last; IFI 84 indicators)
+
+=== Social Sector – Elderly, Women, Drugs, Panchayats
+# Kerala elderly care bill (October 2026)
+- **Kerala**: **first State** with a **comprehensive elderly care bill** – protection from abuse, neglect, illegal property occupation; registration of old-age homes; **jail and fines**.
+- **MWPSC Act 2007**: senior citizen = **60 years or above** (not 65); **Section 23** – property transfer can be declared void; **Article 41**.
+# Kerala Police "Speak Up" task force
+- Formed **8 October 2026** under **IG Ajitha Begum** against domestic violence.
+- **PWDVA 2005** covers **physical, sexual, verbal, emotional and economic** abuse; **NCW** est. **1992**.
+# Drug-free India by 2029
+- **Amit Shah**, high-level meeting at **Panaji, Goa**: action plan for **drug-free India by 2029** (linked to Viksit Bharat 2047); target **whole networks and supply chains**; strengthen the **four-tier NCORD**.
+- **NCB 1986**; **NDPS Act 1985**; **Article 47** – prohibition of intoxicants except medicinal; **Nasha Mukt Bharat Abhiyaan 2020** (Ministry of Social Justice and Empowerment); anti-drug day **26 June**.
+# Panchayat-level climate action
+- Climate plans to be part of the **GPDP**; **Bela Gram Panchayat (Bhandara, Maharashtra)** – India's first **net-zero** panchayat/village.
+- **73rd Amendment** added **Part IX**; **Article 243G** – powers for economic development and social justice; **Eleventh Schedule** includes **non-conventional energy**; **PESA Act 1996** – Gram Sabha protects resources in Scheduled Areas; **NAPCC 2008 – eight missions**.
+~~ Sources: daily EM CA 16 Oct 2026 p.2 (Kerala bill); daily EM CA 20 Oct 2026 p.8 (60 years, Art 41); web search (Speak Up task force, 8 Oct 2026); Praveen CA-360 Sep 2026 p.95 (drug-free 2029, NCB, Art 47, Nasha Mukt); PMF LENS Jul 2026 Part 2 p.25 (four-tier NCORD); daily EM CA 17 Oct 2026 p.6 (Art 243G); Rocket CA 2026 Part 01 p.5 and Part 02 p.16, p.65 (Bela, 73rd Amendment); daily EM CA 30 Oct 2026 p.2 (NAPCC)
+
+=== New Bodies and Union Cabinet Decisions
+# Integrated Transport and Logistics Authority (ITLA)
+- **ITLA** approved by the **Union Cabinet on 6 October 2026** as an **SPV** for **research, planning, appraisal and monitoring** in transport and logistics.
+- Prepares the **National Transport Master Plan** (horizon **10+ years**).
+- **Technical appraisal** of central projects of **₹500 crore or more**.
+- Related: **PM Gati Shakti NMP** (13 October 2021, GIS-based); **National Logistics Policy** (17 September 2022).
+# Digital Communications Commission (DCC) abolished
+- **Digital Communications Commission (DCC)** – top telecom decision body for **37 years**, abolished 2026: **Telecom Commission (1989)**, renamed **DCC (2018)**; under **DoT**.
+- Projects of **₹500–1,000 crore** now go to the **Expenditure Finance Committee** (Finance Ministry); Telecom Secretary up to ₹100 crore, Telecom Minister up to ₹500 crore.
+# RoDTEP extended
+- **RoDTEP** = Remission of Duties and Taxes on Exported Products; extended to **31 December 2026**.
+- In force from **1 January 2021**; replaced **MEIS**; WTO-compliant.
+- **Notified** by the **Department of Commerce through DGFT**; **implemented** by the **Department of Revenue through CBIC**.
+# Mission Rangeen Machhli-2031
+- Strategic action plan for **ornamental fisheries**, released by the **Vice-President at Agatti, Lakshadweep**.
+- **Department of Fisheries**; linked with **PMMSY**; training for **coastal fishers, youth and women SHGs**.
+~~ Sources: daily EM CA 15 Oct 2026 p.5 (ITLA); Rocket CA 2026 Part 01 p.110 (ITLA); Praveen CA-360 Sep 2026 p.97 (DCC) and p.25 (Rangeen Machhli); Rocket CA 2026 Part 01 p.87 and p.153 (RoDTEP extended to 31 Dec 2026); PMF LENS Feb 2026 Part 14 p.5 (RoDTEP replaced MEIS, DGFT)
+
+=== River Interlinking and Inland Waterways
+# Interlinking of rivers
+- **Union Home Minister Amit Shah** (Southern Zonal Council, August 2026) proposed linking rivers from the **Brahmaputra to the Godavari and Cauvery**.
+- **National Perspective Plan: 1980**; **30 links** – **14 Himalayan, 16 Peninsular**; **NWDA** set up **1982**; idea goes back to **Sir Arthur Cotton**.
+- **Kerala opposes** the **Pamba–Achankovil–Vaippar** link (Vembanad wetland).
+- **Pennaiyar** (Tamil Nadu vs Karnataka): rooted in the **1892** Madras–Mysore agreement; SC (2026) directed the Centre to set up a tribunal.
+| Inter-basin project | States / flow |
+|---|---|
+| Mullaperiyar | Periyar (Kerala) to Vaigai (TN) |
+| Parambikulam–Aliyar | Kerala, TN |
+| Krishna Water Supply | Water to Hyderabad |
+| Indira Gandhi Canal | Sutlej–Beas water to Rajasthan |
+# Bogibeel cargo voyage
+- **First post-Independence international cargo voyage from Bogibeel** (Dibrugarh, Assam): flagged off by **Sarbananda Sonowal**, **5 October 2026**.
+- Route: **NW-2 (Brahmaputra) → Indo-Bangladesh Protocol Route → Pangaon Port, Dhaka**.
+- **NW-2: Dhubri–Sadiya, 891 km**; managed by **IWAI**.
+~~ Sources: web search (Amit Shah, 31st Southern Zonal Council, 20 Aug 2026); PMF LENS Sep 2026 Part 2 p.30 (NPP 30 links, Cotton); Praveen CA-360 Apr 2026 p.27 (NWDA 1982); PMF LENS Sep 2026 Part 2 p.31 (existing inter-basin projects: Krishna, Mullaperiyar, Parambikulam-Aliyar); Kerala's opposition to Pamba–Achankovil–Vaippar and project flows: app notes (old-notes 45:6), general knowledge, not checked; Praveen CA-360 Feb 2026 p.33 (Pennaiyar tribunal); PMF LENS Aug 2026 Part 1 p.7 (1892 agreement); Rocket CA 2026 Part 02 p.64 (Bogibeel first voyage 5 Oct 2026); Praveen CA-360 May 2026 p.26 (NW-2 891 km); app notes (old-notes 45:7) for the route
