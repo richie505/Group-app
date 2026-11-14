@@ -165,16 +165,16 @@
   "tq": "assertion"
  },
  {
-  "id": "cpe6588bbc1cbd",
+  "id": "cp68124ca1b296",
   "row": 43,
-  "s": "Consider the following statements about the Shakas:\n1. Maues (Moga), c. 85-80 BC, in Gandhara, was the first Shaka king.\n2. Patika, known from the Taxila copper plate, belonged to the north-western branch at Taxila.\n3. Rajuvula and Sodasa ruled the Shaka branch at Mathura.\n4. Samudragupta defeated the last Western Kshatrapa, Rudrasimha III.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about the Shakas:\n1. Maues (Moga), c. 85-80 BC, in Gandhara, was the first Shaka king.\n2. Patika, known from the Taxila copper plate, belonged to the north-western branch at Taxila.\n3. Rajuvula and Sodasa ruled the Shaka branch at Mathura.\n4. Samudragupta defeated the last Western Kshatrapa, Rudrasimha III.\nWhich of the statements given above is/are correct?",
   "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Statement 4 is wrong: it was Chandragupta II who defeated Rudrasimha III and issued the silver Rupaka. Statements 1-3 are correct, so three statements are correct.",
   "src": "app",
   "tq": "statements"
@@ -184,12 +184,12 @@
   "row": 43,
   "s": "Consider the following statements about the Sakas in India:\n1. They ruled through Satrapas and Mahasatrapas from centres such as Mathura, Ujjain and Girnar.\n2. They were absorbed into Indian society as Vratya Kshatriyas.\n3. Their military edge lay in war elephants.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
    "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Statement 3 is wrong: the Shakas, Parthians and Kushanas had the edge of better cavalry, not elephants. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -199,12 +199,12 @@
   "row": 43,
   "s": "Consider the following statements about the Parthians (Pahlavas):\n1. Their greatest king was Gondophares.\n2. The Takht-i-Bahi inscription of Gondophares was found near Taxila.\n3. According to tradition, St Thomas came to the court of Gondophares.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
    "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Statement 2 is wrong: Takht-i-Bahi lies near Peshawar. Statements 1 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -215,11 +215,11 @@
   "s": "Consider the following statements about the Fourth Buddhist Council:\n1. It was held at Kundalavana (Harwan) in Kashmir.\n2. It was the first Buddhist council held in Pali.\n3. Vasumitra compiled the Mahavibhasha at this council.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "2 only",
    "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only"
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statement 2 is wrong: the Fourth Council was the first held in Sanskrit. Statements 1 and 3 are correct (Kundalavana/Harwan, Kashmir; Vasumitra, the president, compiled the Mahavibhasha; Ashvaghosha was vice-president).",
   "src": "app",
   "tq": "statements"
@@ -229,12 +229,12 @@
   "row": 44,
   "s": "Match the Buddhist councils with their royal patrons:\nList-I (Council (place))\na. First (Rajagriha)\nb. Second (Vaishali)\nc. Third (Pataliputra)\nd. Fourth (Kundalavana, Kashmir)\nList-II (Patron)\ni. Ashoka\nii. Kalasoka\niii. Ajatashatru\niv. Kanishka\nSelect the correct answer using the code given below:",
   "o": [
+   "a-iii, b-ii, c-i, d-iv",
    "a-iv, b-iii, c-i, d-ii",
    "a-iv, b-ii, c-iii, d-i",
-   "a-iii, b-iv, c-ii, d-i",
-   "a-iii, b-ii, c-i, d-iv"
+   "a-iii, b-iv, c-ii, d-i"
   ],
-  "a": 3,
+  "a": 0,
   "x": "First council at Rajagriha – Ajatashatru; Second at Vaishali – Kalasoka; Third at Pataliputra – Ashoka; Fourth at Kundalavana (Harwan), Kashmir – Kanishka.",
   "src": "app",
   "tq": "match"
@@ -244,12 +244,12 @@
   "row": 44,
   "s": "Match the scholars of Kanishka's age with their roles:\nList-I (Scholar)\na. Parshva\nb. Charaka\nc. Nagarjuna\nd. Vasumitra\nList-II (Role)\ni. President of the Council\nii. Madhyamika philosophy; Suhrllekha\niii. Court physician\niv. Urged Kanishka to hold the Council\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iv, b-iii, c-ii, d-i",
    "a-iii, b-ii, c-iv, d-i",
+   "a-iv, b-iii, c-ii, d-i",
    "a-iv, b-ii, c-iii, d-i",
    "a-ii, b-iv, c-iii, d-i"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Parshva urged the Council; Charaka was the court physician (Charaka Samhita); Nagarjuna founded the Madhyamika and wrote the Suhrllekha to a Satavahana king; Vasumitra presided over the Council.",
   "src": "app",
   "tq": "match"
@@ -260,11 +260,11 @@
   "s": "Consider the following statements about Nagarjuna:\n1. He is called the 'Einstein of India'.\n2. In Andhra history he is linked with Sriparvata and the Satavahana court.\n3. Fa-hien saw students in India memorising his Suhrllekha.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "2 only",
    "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only"
+   "1 and 3 only"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Statement 3 is wrong: it was I-tsing who saw students memorising the Suhrllekha. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -300,16 +300,16 @@
   "tq": "statements"
  },
  {
-  "id": "cp0d88b7454e2b",
+  "id": "cp686d752d9170",
   "row": 44,
-  "s": "Consider the following statements about the Kushanas:\n1. They were one of the five Yuezhi (Yueh-chi) clans.\n2. They were Silk Road middlemen between Han China, Rome and India.\n3. Their trade fed a second wave of urbanisation in India.\n4. Their empire did not extend beyond the Indus.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about the Kushanas:\n1. They were one of the five Yuezhi (Yueh-chi) clans.\n2. They were Silk Road middlemen between Han China, Rome and India.\n3. Their trade fed a second wave of urbanisation in India.\n4. Their empire did not extend beyond the Indus.\nWhich of the statements given above is/are correct?",
   "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
+   "1 and 2 only",
+   "1 and 3 only",
+   "1 and 4 only",
+   "1, 2 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statement 4 is wrong: the Kushan empire ran from the Oxus to the Ganga, including Central Asia, Afghanistan and parts of Iran. Statements 1-3 are correct, so three are correct.",
   "src": "app",
   "tq": "statements"
@@ -319,12 +319,12 @@
   "row": 44,
   "s": "Match the Kushana rulers with the facts about them:\nList-I (Ruler)\na. Kujula Kadphises\nb. Vima Kadphises\nc. Huvishka\nd. Vasudeva I\nList-II (Fact)\ni. Extended rule to Mathura and Varanasi\nii. Successor of Kanishka\niii. United the five Yuezhi clans and took the Kabul valley\niv. Last great Kushana, first with an Indian name\nSelect the correct answer using the code given below:",
   "o": [
+   "a-iii, b-i, c-ii, d-iv",
    "a-i, b-iv, c-ii, d-iii",
    "a-iv, b-ii, c-i, d-iii",
-   "a-iii, b-i, c-ii, d-iv",
    "a-iii, b-ii, c-iv, d-i"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Kujula Kadphises was the founder who united the Yuezhi clans; Vima Kadphises extended rule to Mathura and Varanasi; Huvishka succeeded Kanishka; Vasudeva I was the last great Kushana and the first with an Indian name.",
   "src": "app",
   "tq": "match"
@@ -334,12 +334,12 @@
   "row": 44,
   "s": "Consider the following statements:\n1. Vima Kadphises took the titles Maheshvara and Sarvalokeshvara.\n2. Vima Kadphises was the son of Kanishka.\n3. Kanishka's capitals were Purushapura (Peshawar) and Mathura.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "2 only",
    "1 and 2 only",
-   "1 and 3 only"
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Statement 2 is wrong: Vima Kadphises was the father of Kanishka. Statements 1 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -349,12 +349,12 @@
   "row": 44,
   "s": "Match Kanishka's titles with the tradition they came from:\nList-I (Title)\na. Devaputra\nb. Shaonano Shao\nc. Kaisara\nd. Maharaja\nList-II (Source)\ni. Rome\nii. China\niii. India\niv. Persia\nSelect the correct answer using the code given below:",
   "o": [
-   "a-ii, b-iv, c-i, d-iii",
    "a-iii, b-iv, c-ii, d-i",
    "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
    "a-iii, b-ii, c-iv, d-i"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Devaputra – China; Shaonano Shao – Persia; Kaisara – Rome; Maharaja – India.",
   "src": "app",
   "tq": "match"
@@ -364,12 +364,12 @@
   "row": 44,
   "s": "Consider the following statements about the Rabatak inscription:\n1. It was discovered in 1993 near Surkh Kotal in Afghanistan.\n2. It is written in the Bactrian language in the Kharoshthi script.\n3. It gives the genealogy Kujula Kadphises – Vima Taktu – Vima Kadphises – Kanishka.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
+   "2 only",
    "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "1 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statement 2 is wrong: the Rabatak inscription is in the Bactrian language but in the Greek script. Statements 1 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -394,12 +394,12 @@
   "row": 44,
   "s": "Consider the following statements about Kushana coinage:\n1. Kujula Kadphises issued copper coins imitating Roman coins.\n2. Vima Kadphises' gold coins show Shiva with a trident and a bull.\n3. The Kushana gold dinara followed the Roman weight standard of about 8 g (120 grains).\n4. Kanishka's coin legends are in Prakrit in the Brahmi script.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "1 and 3 only",
    "1, 2 and 3 only",
-   "1, 2 and 4 only"
+   "1, 2 and 4 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Statement 4 is wrong: Kanishka's coins carry Bactrian legends in the Greek script. Statements 1-3 are correct; the dinara was also purer than Gupta gold.",
   "src": "app",
   "tq": "statements"
@@ -425,11 +425,11 @@
   "s": "Consider the following statements about Central Asian contributions:\n1. The Shakas and Kushanas brought the turban, tunic, trousers and heavy long coat.\n2. They used better cavalry with wider use of reins and saddles.\n3. Surkhi (brick-dust lime mortar) is first found in Gupta levels at Mathura.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "2 only",
-   "3 only",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Statement 3 is wrong: Surkhi is first found in Kushana levels at Mathura. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -454,12 +454,12 @@
   "row": 45,
   "s": "Consider the following statements about the Gandhara school of art:\n1. Besides Hellenistic Greek influence, it shows Roman and Persian influences.\n2. In its later phase it used stucco and plaster besides grey schist.\n3. Its Buddha has a shaven head and transparent, clinging drapery.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
+   "2 only",
    "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "1 and 3 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Statement 3 is wrong: the Gandhara Buddha has wavy hair with a top-knot and heavy, toga-like drapery; transparent clinging drapery is a Mathura feature. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -485,11 +485,11 @@
   "s": "Match the mudras of the Buddha with their meanings:\nList-I (Mudra)\na. Abhaya\nb. Dhyana\nc. Dharmachakra\nd. Varada\nList-II (Meaning)\ni. First sermon at Sarnath\nii. Meditation\niii. Fearlessness\niv. Boon-giving\nSelect the correct answer using the code given below:",
   "o": [
    "a-i, b-ii, c-iii, d-iv",
-   "a-iii, b-ii, c-i, d-iv",
    "a-i, b-iii, c-ii, d-iv",
-   "a-ii, b-iv, c-i, d-iii"
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-ii, c-i, d-iv"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Abhaya (raised right palm) – fearlessness; Dhyana (hands in the lap) – meditation; Dharmachakra (hands at the chest forming a wheel) – first sermon; Varada (lowered open palm) – boon-giving.",
   "src": "app",
   "tq": "match"
@@ -500,11 +500,11 @@
   "s": "Consider the following statements about mudras:\n1. In the Bhumisparsha mudra the right hand touches the earth, which is called to witness against Mara's temptations.\n2. The Varada mudra shows a raised right palm.\n3. The Abhaya mudra is linked with the subduing of the elephant Nalagiri.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only"
+   "2 only",
+   "3 only",
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statement 2 is wrong: Varada is a lowered open palm (boon-giving); the raised right palm is Abhaya. Statements 1 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -530,11 +530,11 @@
   "s": "Consider the following statements about the Amaravati school:\n1. It was patronised by the Satavahanas and reached its mature phase under the Ikshvakus.\n2. Nagarjunakonda was its main centre under the Ikshvakus.\n3. Mat is one of its sites in the Krishna valley.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "2 only",
-   "3 only",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Statement 3 is wrong: Mat, near Mathura, is where the headless standing Kanishka was found; Amaravati-style sites are Amaravati, Nagarjunakonda, Jaggayyapeta, Goli and Ghantasala. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -544,28 +544,28 @@
   "row": 45,
   "s": "Match the symbols on Amaravati ayakapatas with the events they stand for:\nList-I (Symbol)\na. Lotus\nb. Horse\nc. Bodhi tree\nd. Stupa\nList-II (Event)\ni. Parinirvana\nii. Birth\niii. Renunciation\niv. Enlightenment\nSelect the correct answer using the code given below:",
   "o": [
-   "a-ii, b-iii, c-iv, d-i",
    "a-iii, b-ii, c-i, d-iv",
    "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iii, c-iv, d-i",
    "a-i, b-ii, c-iv, d-iii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "On the ayakapatas: lotus = birth, horse = renunciation, Bodhi tree = enlightenment, wheel = first sermon, stupa = parinirvana.",
   "src": "app",
   "tq": "match"
  },
  {
-  "id": "cpa9494df3f406",
+  "id": "cpbed9371e57f3",
   "row": 45,
-  "s": "Consider the following statements about the Amaravati school:\n1. It is the only school showing all the events of the Buddha's life in its panels.\n2. Its Purna-kumbha motif is the emblem of the Andhra Pradesh State.\n3. Its crowded scenes show Yakshas and Gandharvas.\n4. Its figures are stiff, frontal and static.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about the Amaravati school:\n1. It is the only school showing all the events of the Buddha's life in its panels.\n2. Its Purna-kumbha motif is the emblem of the Andhra Pradesh State.\n3. Its crowded scenes show Yakshas and Gandharvas.\n4. Its figures are slender, often in tribhanga, full of movement and emotion.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
    "Only three",
    "All four"
   ],
-  "a": 2,
-  "x": "Statement 4 is wrong: Amaravati figures are slender, in tribhanga, full of movement and emotion. Statements 1-3 are correct, so three are correct.",
+  "a": 3,
+  "x": "All four statements are correct as per the notes: it alone shows all the events of the Buddha's life; the Purna-kumbha is the AP State emblem; crowded scenes show Yakshas and Gandharvas; figures are slender, in tribhanga, with movement and emotion.",
   "src": "app",
   "tq": "statements"
  },
@@ -575,26 +575,26 @@
   "s": "Consider the following statements:\n1. The Buddha is believed to have first taught the Kalachakra at Dhanyakataka (Amaravati).\n2. The AP Buddhist circuit links Amaravati, Bavikonda and Thotlakonda.\n3. The sculptors of the Amaravati school were known as Selavardhakulu.\n4. The first depiction of Sati in Amaravati art belongs to the Satavahana phase.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
-   "1, 2 and 3 only",
-   "1, 2 and 4 only",
-   "1, 3 and 4 only"
+   "1 and 3 only",
+   "1 and 4 only",
+   "1, 2 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statement 4 is wrong: the first depiction of Sati belongs to the Ikshvaku phase. Statements 1, 2 and 3 are correct.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cpab4330ff9ca4",
+  "id": "cp88255d7bf1b5",
   "row": 45,
-  "s": "Consider the following statements about Amaravati art:\n1. James Fergusson called it the 'epitome of Indian architecture' and wrote 'Tree and Serpent Worship'.\n2. The oldest stupa in Andhra Pradesh is at Amaravati.\n3. A large part of its sculptures is in the British Museum.\n4. Its influence spread to Sri Lanka (Anuradhapura) and South-East Asia.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about Amaravati art:\n1. James Fergusson called it the 'epitome of Indian architecture' and wrote 'Tree and Serpent Worship'.\n2. The oldest stupa in Andhra Pradesh is at Amaravati.\n3. A large part of its sculptures is in the British Museum.\n4. Its influence spread to Sri Lanka (Anuradhapura) and South-East Asia.\nWhich of the statements given above is/are correct?",
   "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
+   "1 only",
+   "2 only",
+   "3 only",
+   "1, 3 and 4 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statement 2 is wrong: the oldest stupa in AP is Bhattiprolu. Statements 1, 3 and 4 are correct (it later influenced South Indian art too).",
   "src": "app",
   "tq": "statements"
@@ -605,11 +605,11 @@
   "s": "Match the following with the school of art:\nList-I (Item)\na. Grey schist and stucco\nb. Headless standing Kanishka from Mat\nc. White Palnadu limestone\nd. Chunar sandstone, plain drapery\nList-II (School)\ni. Gandhara\nii. Amaravati\niii. Mathura\niv. Sarnath (Gupta)\nSelect the correct answer using the code given below:",
   "o": [
    "a-ii, b-iv, c-i, d-iii",
-   "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
    "a-iii, b-iv, c-ii, d-i"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Gandhara used grey schist and later stucco; the headless Kanishka from Mat is a Mathura-school royal statue (spotted red sandstone); Amaravati used white Palnadu limestone; the Gupta Sarnath school used light Chunar sandstone with plain drapery.",
   "src": "app",
   "tq": "match"
@@ -621,10 +621,10 @@
   "o": [
    "1 and 2 only",
    "1 and 3 only",
-   "1 and 4 only",
-   "1, 2 and 3 only"
+   "1, 2 and 3 only",
+   "1, 2 and 4 only"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Statement 4 is wrong: the Mathura school began in the 2nd century BCE under the Shungas and became prominent under the Kushanas and Guptas (standing Buddhas in the Gupta phase). Statements 1-3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -649,12 +649,12 @@
   "row": 46,
   "s": "Consider the following statements about Simuka:\n1. He killed the Kanva king Susarma and ruled from Pratishthana.\n2. He is said to have ruled for 23 years.\n3. He was succeeded by his son Satakarni I.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Statement 3 is wrong: Simuka was succeeded by his brother Kanha (Krishna), the 2nd king; Simuka's son Satakarni I was the 3rd king. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -664,12 +664,12 @@
   "row": 46,
   "s": "Consider the following statements about the Satavahanas:\n1. The Puranas call them Andhras or Andhrabhrityas, i.e. servants or feudatories of the Andhras.\n2. They began as Mauryan feudatories and became independent after the Mauryan decline.\n3. Ashoka's 2nd Rock Edict lists the Andhras among his vassal peoples.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
    "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only"
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Statement 3 is wrong: it is Ashoka's 13th Rock Edict that lists the Andhras among his vassal peoples. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -680,11 +680,11 @@
   "s": "Match the successor states of the Satavahanas with their regions:\nList-I (Dynasty)\na. Ikshvakus\nb. Abhiras\nc. Chutus\nd. Vakatakas\nList-II (Region)\ni. Andhra\nii. Maharashtra\niii. Vidarbha\niv. Karnataka\nSelect the correct answer using the code given below:",
   "o": [
    "a-iv, b-iii, c-i, d-ii",
-   "a-i, b-iv, c-iii, d-ii",
    "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
    "a-iii, b-ii, c-iv, d-i"
   ],
-  "a": 2,
+  "a": 1,
   "x": "After the Satavahanas: Ikshvakus in Andhra, Abhiras in Maharashtra, Chutus in Karnataka, Pallavas in Tamil Nadu and Vakatakas in Vidarbha.",
   "src": "app",
   "tq": "match"
@@ -696,10 +696,10 @@
   "o": [
    "1 only",
    "2 only",
-   "3 only",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1 and 3 only"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Statement 3 is wrong: the Nasik Prasasti is in Prakrit prose, Brahmi script. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -709,12 +709,12 @@
   "row": 46,
   "s": "Consider the following statements:\n1. Gautamiputra Satakarni gifted a village and 100 nivartanas of land to monks on the Trirashmi hill.\n2. The Jogalthambi hoard contained 13,270 silver coins of Nahapana restruck by Gautamiputra.\n3. The Jogalthambi hoard was found in Pune district.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Statement 3 is wrong: the Jogalthambi hoard was found in Nasik district. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -724,12 +724,12 @@
   "row": 46,
   "s": "Match the regions named in the Nasik Prasasti with their areas:\nList-I (Region)\na. Akara\nb. Asika, Asaka, Mulaka\nc. Suratha\nd. Vidarbha\nList-II (Area)\ni. Saurashtra\nii. Berar\niii. East Malwa (Vidisha)\niv. Godavari valley, Paithan area\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iii, b-i, c-iv, d-ii",
    "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
    "a-ii, b-iv, c-iii, d-i",
    "a-iii, b-ii, c-iv, d-i"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Akara – East Malwa (Vidisha); Asika/Asaka (Asmaka)/Mulaka – Godavari valley around Paithan; Suratha – Saurashtra; Vidarbha – Berar. (Avanti is West Malwa/Ujjain, Anupa the Narmada valley.)",
   "src": "app",
   "tq": "match"
@@ -765,16 +765,16 @@
   "tq": "assertion"
  },
  {
-  "id": "cp1f0838b93caa",
+  "id": "cp5cc8009fe824",
   "row": 46,
-  "s": "Consider the following statements about Satavahana queens:\n1. Gautami Balasri gave a cave vihara at Nasik to the Bhadrayaniya monks.\n2. Lilavati, a Sri Lankan princess, was the queen of Hala.\n3. Naganika was the daughter of Maharathi Tranakayiro of the Amgiya family.\n4. Gautami Balasri ruled as regent during her son's minority.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about Satavahana queens:\n1. Gautami Balasri gave a cave vihara at Nasik to the Bhadrayaniya monks.\n2. Lilavati, a Sri Lankan princess, was the queen of Hala.\n3. Naganika was the daughter of Maharathi Tranakayiro of the Amgiya family.\n4. Gautami Balasri ruled as regent during her son's minority.\nWhich of the statements given above is/are correct?",
   "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Statement 4 is wrong: the regent queen was Devi Naganika (for her minor son); Gautami Balasri issued the Nasik Prasasti. Statements 1-3 are correct, so three are correct.",
   "src": "app",
   "tq": "statements"
@@ -915,16 +915,16 @@
   "tq": "match"
  },
  {
-  "id": "cp1c5795a54e0c",
+  "id": "cp7d4308bee7e8",
   "row": 46,
-  "s": "Consider the following statements about the origin debate:\n1. V.S. Sukthankar placed the Satavahana home in Bellary on the basis of the Myakadoni inscription.\n2. E.J. Rapson placed their origin in the eastern Deccan (Andhra) from the Puranic 'Andhra' names.\n3. K.A. Nilakanta Sastri took 'Andhra' as tribal, 'Satavahana' as dynastic and 'Satakarni' as a family name.\n4. R.G. Bhandarkar held that the Andhras and the Satavahanas were not the same.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about the origin debate:\n1. V.S. Sukthankar placed the Satavahana home in Bellary on the basis of the Myakadoni inscription.\n2. E.J. Rapson placed their origin in the eastern Deccan (Andhra) from the Puranic 'Andhra' names.\n3. K.A. Nilakanta Sastri took 'Andhra' as tribal, 'Satavahana' as dynastic and 'Satakarni' as a family name.\n4. R.G. Bhandarkar held that the Andhras and the Satavahanas were not the same.\nWhich of the statements given above is/are correct?",
   "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Statement 4 is wrong: R.G. Bhandarkar held the opposite – that they were the same people; it was Sukthankar who said they were not the same. Statements 1-3 are correct, so three are correct.",
   "src": "app",
   "tq": "statements"
@@ -934,12 +934,12 @@
   "row": 46,
   "s": "Consider the following statements about Satavahana capitals:\n1. Pratishthana is Paithan on the Godavari in Aurangabad district.\n2. Dhanyakataka is Dharanikota, near Amaravati on the Krishna.\n3. The capital was moved east to Dhanyakataka by Gautamiputra Satakarni.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
    "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Statement 3 is wrong: Vasishthiputra Pulumavi moved the capital to Amaravati (Dhanyakataka) after Rudradaman's attacks. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -950,11 +950,11 @@
   "s": "Match the places with the facts about them:\nList-I (Place)\na. Srikakulam (Krishna district)\nb. Kotilingala\nc. Mahishmati\nd. Vijayapuri (Nagarjunakonda)\nList-II (Fact)\ni. Claimed early centre in Karimnagar\nii. First capital per Barnett, V.A. Smith and Burgess\niii. Capital of Anupa\niv. Ikshvaku capital\nSelect the correct answer using the code given below:",
   "o": [
    "a-ii, b-iii, c-iv, d-i",
-   "a-ii, b-i, c-iii, d-iv",
    "a-iv, b-i, c-iii, d-ii",
+   "a-ii, b-i, c-iii, d-iv",
    "a-iv, b-ii, c-i, d-iii"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Srikakulam in Krishna district is the first capital per Barnett, V.A. Smith and Burgess; Kotilingala (Karimnagar) is a claimed early centre; Mahishmati was the capital of Anupa; Vijayapuri (Nagarjunakonda) was the Ikshvaku, not a Satavahana, capital.",
   "src": "app",
   "tq": "match"
@@ -966,10 +966,10 @@
   "o": [
    "1 only",
    "2 only",
-   "1 and 2 only",
-   "1 and 3 only"
+   "3 only",
+   "1 and 2 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statement 3 is wrong: the Vishnudharmottara (Chitrasutra) is the sourcebook of Indian painting, not a Satavahana source; the Matsya Purana, compiled under Yajnasri, is the main source. Statements 1 and 2 are correct.",
   "src": "app",
   "tq": "statements"
@@ -994,12 +994,12 @@
   "row": 46,
   "s": "Match the foreign writers with their information on the Satavahana age:\nList-I (Writer)\na. Megasthenes\nb. Pliny\nc. Periplus\nd. Ptolemy\nList-II (Information)\ni. Pulumavi versus Chashtana\nii. First foreign source on the Andhras\niii. Koddura, the only east-coast port\niv. Roman gold drained to India\nSelect the correct answer using the code given below:",
   "o": [
+   "a-ii, b-iv, c-iii, d-i",
    "a-iii, b-ii, c-i, d-iv",
    "a-iii, b-i, c-ii, d-iv",
-   "a-ii, b-iii, c-i, d-iv",
-   "a-ii, b-iv, c-iii, d-i"
+   "a-ii, b-iii, c-i, d-iv"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Megasthenes (Indica) is the first foreign source on the Andhras; Pliny (Natural History, Latin) noted the drain of Roman gold; the Periplus records the Saka-Satavahana conflict and Koddura as the only east-coast port; Ptolemy's Geography records Pulumavi vs Chashtana.",
   "src": "app",
   "tq": "match"
@@ -1024,12 +1024,12 @@
   "row": 46,
   "s": "Match the inscriptions with their issuers / kings:\nList-I (Inscription)\na. Kodavali\nb. Naneghat\nc. Kanheri\nd. Chinaganjam\nList-II (Issuer / king)\ni. Chanda Satakarni\nii. Yajnasri\niii. Devi Naganika\niv. Queen of Vasishthiputra Satakarni\nSelect the correct answer using the code given below:",
   "o": [
-   "a-i, b-iii, c-iv, d-ii",
    "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iii, c-iv, d-ii",
    "a-i, b-ii, c-iii, d-iv",
    "a-ii, b-iv, c-i, d-iii"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Kodavali (near Pithapuram) – Chanda Satakarni; Naneghat – Devi Naganika (Satakarni I's sacrifices); Kanheri – the queen of Vasishthiputra Satakarni, Rudradaman's daughter; Chinaganjam (Prakasam) – Yajnasri.",
   "src": "app",
   "tq": "match"
@@ -1039,12 +1039,12 @@
   "row": 46,
   "s": "Consider the following statements about Satavahana inscriptions:\n1. The Karle inscription of Pulomavi II records the gift of a village to Mahasanghika monks.\n2. The Amaravati inscription of Pulomavi II is the first AP inscription and has the Telugu word 'Nagabu'.\n3. The Myakadoni inscription of Pulomavi III was found in Kurnool district.\n4. All Satavahana inscriptions are in Prakrit in the Brahmi script.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 and 2 only",
    "1, 2 and 3 only",
    "1, 2 and 4 only",
-   "1, 3 and 4 only",
-   "2, 3 and 4 only"
+   "1, 3 and 4 only"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Statement 3 is wrong: the Myakadoni inscription is in Bellary, Karnataka. Statements 1, 2 and 4 are correct.",
   "src": "app",
   "tq": "statements"
@@ -1056,12 +1056,567 @@
   "o": [
    "1 only",
    "2 only",
+   "3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: Bhairavakonda is in Nellore district. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9722fc56f8f1",
+  "row": 47,
+  "s": "Consider the following statements about the Gathasaptasati:\n1. Its compiler Hala was the 17th Satavahana king and ruled for 5 years.\n2. It opens with a prayer to Vishnu.\n3. It is regarded as the first work to cover all the Navarasas.\n4. It names Gauri, Indra and Ganesha and has Radha-Krishna stories.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: the Gathasaptasati opens with a prayer to Shiva and ends with a Gauri stotra. Statements 1, 3 and 4 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp78c9ed4f14fd",
+  "row": 47,
+  "s": "Consider the following statements about the Gathasaptasati:\n1. It mentions group dances, the hanging of criminals and sati.\n2. It shows child marriage as common.\n3. Its women poets include Anulakshmi, Reva and Madhavi.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: the social picture in the Gathasaptasati shows no child marriage. Statements 1 and 3 are correct (women poets Anulakshmi, Anupalabdha, Reva, Madhavi).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe45a32f34385",
+  "row": 47,
+  "s": "Assertion (A): The Gathasaptasati is important for the history of the Telugu language.\nReason (R): It contains Desi words such as atta, addam, potta and pilla.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: these Desi (Telugu) words in the Gathasaptasati are the earliest traces of Telugu.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpa7c88a56f5e5",
+  "row": 47,
+  "s": "Consider the following statements about Hala:\n1. He honoured the poets Kumarila and Sripalita.\n2. He married the Sri Lankan princess Lilavati.\n3. His reign is called the golden age of Sanskrit.\n4. His Gathasaptasati is a source for society rather than early political history.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Hala's reign is the golden age of Prakrit; Sanskrit was Kuntala Satakarni's cause. Statements 1, 2 and 4 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp22d85e7b0ff4",
+  "row": 47,
+  "s": "Consider the following statements about Satavahana guilds (shrenis):\n1. A guild was headed by a Shreshthi (Sethi / Setti).\n2. Satavahana records mention 28 guilds.\n3. Guilds fixed quality and prices and controlled their members' conduct.\n4. The guilds later hardened into castes.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: Satavahana records mention 18 guilds. Statements 1, 3 and 4 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp59e14f72175f",
+  "row": 47,
+  "s": "Match the Satavahana guilds with their members:\nList-I (Guild)\na. Kolika\nb. Gandhika\nc. Tilapishaka\nd. Udayantrika\nList-II (Members)\ni. Makers of water machines\nii. Weavers\niii. Oil pressers\niv. Perfumers\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "Kolika – weavers (the strongest guild); Gandhika – perfumers, noted donors to Buddhist causes; Tilapishaka – oil pressers; Udayantrika – makers/operators of water machines.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa08703779828",
+  "row": 47,
+  "s": "Match the following Satavahana guilds with their members:\nList-I (Guild)\na. Halika\nb. Malakara\nc. Chammakara\nd. Kularika\nList-II (Members)\ni. Farmers\nii. Leather workers\niii. Florists\niv. Potters\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 0,
+  "x": "Halika – farmers; Malakara – florists; Chammakara – leather workers; Kularika – potters.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3d7ff9624955",
+  "row": 47,
+  "s": "Consider the following statements about guild banking:\n1. Guilds took deposits and lent at 12% a year.\n2. Ushavadatta deposited 2,000 karshapanas with the Govardhana weavers' guild for monks' robes.\n3. A second deposit of 1,000 karshapanas was made at three-fourths of 1% a month.\n4. Ushavadatta was the son of Nahapana.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 4 is wrong: Ushavadatta (Rishabhadatta) was Nahapana's son-in-law. Statements 1-3 are correct (12% a year = 1% a month).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp48b5db01fcd6",
+  "row": 47,
+  "s": "Match the works with their authors:\nList-I (Work)\na. Lilavati Parinayam\nb. Prajnaparamita Shastra\nc. Samayasara\nd. Brihatkatha Manjari\nList-II (Author)\ni. Kutuhala\nii. Kundakundacharya\niii. Kshemendra\niv. Acharya Nagarjuna\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Lilavati Parinayam – Kutuhala (Prakrit); Prajnaparamita Shastra – Nagarjuna (Sanskrit, Mahayana); Samayasara – Kundakundacharya (Jain); Brihatkatha Manjari – Kshemendra (Sanskrit retelling).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp586b3b79761b",
+  "row": 47,
+  "s": "Consider the following statements about the Brihatkatha:\n1. Gunadhya wrote it in Paishachi Prakrit, in seven stories.\n2. By legend, Gunadhya gave up Sanskrit after losing a bet with Sarvavarma.\n3. Its Sanskrit retelling, the Kathasaritsagara, is by the Jain Somadeva Suri.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the Kathasaritsagara is by Somadeva of Kashmir (11th c.), not the Jain Somadeva Suri (author of the Yashastilaka). Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3e8439b900c9",
+  "row": 47,
+  "s": "Consider the following statements:\n1. Sarvavarma's Katantra was a short Sanskrit grammar for Kuntala Satakarni.\n2. In the Lilavati Parinayam, Hala marries Lilavati at Draksharama.\n3. The Lilavati Parinayam is written in Sanskrit.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Kutuhala's Lilavati Parinayam is in Prakrit. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc20624a6ded0",
+  "row": 47,
+  "s": "Assertion (A): The Yashastilaka was written by Somadeva Suri in the Vemulavada Chalukya kingdom.\nReason (R): Somadeva Suri also wrote the Kathasaritsagara.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 2,
+  "x": "A is true (Sanskrit champu, c. 959 CE, at Gangadhara). R is false: the Kathasaritsagara is by Somadeva of Kashmir, a different author.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6ac6338733dd",
+  "row": 47,
+  "s": "Consider the following statements about Satavahana administration:\n1. An Ahara was headed by an Amatya, usually a relative or son of the king.\n2. Distant aharas were placed under Mahasenadhipatis.\n3. A Mantri Parishad helped the king.\n4. According to the Nasik inscription, the most prominent Ahara was Sopara.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the most prominent Ahara in the Nasik inscription is Govardhana (Sopara is another). Statements 1-3 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp09f663b91106",
+  "row": 47,
+  "s": "Consider the following statements about local administration:\n1. The Nigama Sabha ran towns, and its members were Gahapatis.\n2. The Nigama Sabha is named in the Bhattiprolu inscription.\n3. A Gramani could be over 5 or 10 villages.\n4. The Gulmika was the village headman.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 4 is wrong: the village headman was the Gramika; the Gulmika headed a gulma (cluster of villages / military outpost). Statements 1-3 are correct; the Gahapati represented farmers.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd2d670fd23e5",
+  "row": 47,
+  "s": "Match the Satavahana officers with their duties:\nList-I (Officer)\na. Heranika\nb. Bhandagarika\nc. Rajjugahaka\nd. Pradeshika\nList-II (Duty)\ni. Land surveyor\nii. Stores – revenue in kind\niii. Treasurer – cash revenue\niv. Police\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 1,
+  "x": "Heranika – treasurer (cash); Bhandagarika – stores (revenue in kind); Rajjugahaka – land surveyor; Pradeshika – police.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4a319db8d3b3",
+  "row": 47,
+  "s": "Match the following Satavahana officers with their duties:\nList-I (Officer)\na. Nibandhanakara\nb. Lekhaka\nc. Pratihara\nd. Akshapatakas\nList-II (Duty)\ni. Defender of the fortress\nii. King's secretary\niii. Keeper of state documents\niv. Records of the king's orders\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Nibandhanakara – keeper of state documents (archives); Lekhaka – king's secretary who drafted documents; Pratihara – defender of the fortress; Akshapatakas – kept records of the king's orders.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp900f4228d15d",
+  "row": 47,
+  "s": "Assertion (A): The Visvamaatyulu were consulted on important decisions.\nReason (R): The Vishva-amatya was the inner adviser among the four grades of amatyas.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the Vishva-amatyas (Visvamaatyulu) were the inner advisers, hence consulted on important decisions.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpa7ac296b3243",
+  "row": 47,
+  "s": "Consider the following statements about language in the Deccan:\n1. Under the Salankayanas Sanskrit replaced Prakrit in most inscriptions.\n2. Kuntala Satakarni made Sanskrit the royal language.\n3. The Telugu word 'Vepuru' occurs in the Amaravati inscription.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: 'Vepuru' is in the Myakadoni inscription; the Amaravati inscription has 'Nagabu'. Statements 1 and 2 are correct; the first complete Sanskrit inscription is Rudradaman's Junagadh record.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa2be8390e07f",
+  "row": 47,
+  "s": "Consider the following statements about Telugu:\n1. The Desi bhasha of the common people belonged to the Dravidian family.\n2. The phrase 'Italian of the East', from Niccolo de Conti, was used for Telugu by the British.\n3. The Telugu script developed from the Kharosthi script.\n4. Telugu became the official language of AP in 1966.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: the Telugu script developed from Brahmi, via the Bhattiprolu and Telugu-Kannada scripts. Statements 1, 2 and 4 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb12cdda9e47f",
+  "row": 47,
+  "s": "Consider the following statements:\n1. In May 2025 the ASI decoded 11 Satavahana-era Prakrit-Brahmi inscriptions in the Gundaram reserve forest, Peddapalli district, Telangana.\n2. The early Ikshvaku inscriptions are in Sanskrit.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: early Ikshvaku inscriptions are also in Prakrit; later Ikshvaku records turned to Sanskrit. Statement 1 is correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5d6aca822876",
+  "row": 47,
+  "s": "Consider the following statements about the coins of Simuka:\n1. They are found mostly at Kotilingala in Karimnagar.\n2. They carry the legend 'Siri Chimuka Sata'.\n3. Dhulikatta is the main find-spot of his coins.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Dhulikatta is a distractor; Simuka's coins come mostly from Kotilingala (Karimnagar), also Kondapur (Medak). Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd78ece9b51e7",
+  "row": 47,
+  "s": "Consider the following statements about Satavahana coins:\n1. Portrait coins were an indigenous innovation beginning with Gautamiputra.\n2. The bilingual silver coins of Vasishthiputra Satakarni carry Prakrit and a Dravidian language.\n3. The Ujjain symbol, a cross with four circles, is on the obverse.\n4. Gautamiputra restruck Nahapana's silver coins.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the Ujjain symbol is on the reverse; obverse motifs are elephant, horse, lion, camel and chaitya. Statements 1, 2 and 4 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2fb4e85278ee",
+  "row": 47,
+  "s": "Assertion (A): Lead, copper and bronze coins with bull and lion symbols belong to the Satavahanas.\nReason (R): Lead was the most common metal of Satavahana coins.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 3,
+  "x": "A is false: lead, copper and bronze coins with bull and lion symbols are Pallava coins. R is true: lead was the commonest Satavahana coin metal (nickel was not used).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp99a9d1164588",
+  "row": 47,
+  "s": "Match the ancient ports with their modern identification:\nList-I (Ancient name)\na. Barygaza (Bharukachha)\nb. Kantakossyla\nc. Maisolia\nd. Koddura\nList-II (Modern place)\ni. Ghantasala\nii. Machilipatnam\niii. Gudur (Krishna)\niv. Bharuch\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 2,
+  "x": "Barygaza/Bharukachha – Bharuch (Broach); Kantakossyla – Ghantasala; Maisolia – Machilipatnam; Koddura – Gudur in Krishna, the Periplus' only east-coast Satavahana port.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1f251f4b3efa",
+  "row": 47,
+  "s": "Consider the following statements about ports and routes:\n1. Arikamedu, near Puducherry, is the Periplus' 'market street of the Romans'.\n2. Motupalli rose as a port under the Kakatiyas.\n3. According to the Periplus, Kalyan was ruined by the Sakas.\n4. Kalyan was linked to Junnar through the Bhor Ghat.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "1 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 4 is wrong: the route was Kalyan – Naneghat pass – Junnar – Paithan. Statements 1-3 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1c463b8805d0",
+  "row": 47,
+  "s": "Consider the following statements about Indo-Roman trade:\n1. Coins are the Roman objects found most in India, e.g. at Bhattiprolu and Nagarjunakonda.\n2. Pliny estimated the drain of Roman money to India at about 12.5 million denarii a year.\n3. Pliny said the Roman gold went to India mainly for horses.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: Pliny says Roman gold drained to India for fine cloth (mallasella, muslin). Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp77fcc9923f8a",
+  "row": 47,
+  "s": "Consider the following statements about Satavahana overseas trade:\n1. Silk and camphor were imported from China.\n2. Wine was imported from Italy and Arabia.\n3. Muslin and pearls were imported.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: muslin, spices, pearls, diamonds and ivory were exports; gold, wine, silk and camphor came in. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp759201218fa3",
+  "row": 47,
+  "s": "Consider the following statements:\n1. The Satavahanas were famed as road builders ('Mahapatha nirmatalu').\n2. The route from Ujjain to Bharuch ran via Paithan and Tagara.\n3. Vengipuram is Pedavegi near Eluru.\n4. The Constantine gold coin of Kudali Sangameswaram belongs to the Satavahana period.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 4 is wrong: the Constantine gold coin found at Kudali Sangameswaram (Alampur) is of a later period. Statements 1-3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpff9e17b6a9fa",
+  "row": 47,
+  "s": "Assertion (A): Land grants, guild banking and Roman trade laid the base of Deccan urbanisation.\nReason (R): About 30 Indian inscriptions of the Indo-Roman phase were reported in February 2026 from tombs of the Theban necropolis in Luxor, Egypt.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 1,
+  "x": "Both are true as per the notes, but the 2026 find in Egypt is evidence of the Indo-Roman contact, not the reason for Deccan urbanisation.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb667368a78bc",
+  "row": 47,
+  "s": "Consider the following statements about Satavahana revenue and grants:\n1. Bhaga, the king's share of one-sixth of the produce, was the chief income.\n2. Satakarni I gave tax-free land, cows and gold to Brahmanas.\n3. Royal officers could freely enter the granted land.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
    "1 and 2 only",
    "1 and 3 only"
   ],
   "a": 2,
-  "x": "Statement 3 is wrong: Bhairavakonda is in Nellore district. Statements 1 and 2 are correct.",
+  "x": "Statement 3 is wrong: land granted tax-free could not be entered by royal officers (and soldiers). Statements 1 and 2 are correct (Naneghat).",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp5bef6af9134c",
+  "row": 47,
+  "s": "Match the Satavahana terms with their meanings:\nList-I (Term)\na. Karukara\nb. Sulka\nc. Deya-meya\nd. Vetti\nList-II (Meaning)\ni. Forced unpaid labour\nii. King's share in kind\niii. Tax on artisans and professionals\niv. Water tax\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Karukara – artisans' and professionals' tax; Sulka – water tax; Deya-meya – king's share in kind; Vetti – forced unpaid labour, which with hereditary village headships fed feudalism.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp94e658f1d8d4",
+  "row": 47,
+  "s": "Consider the following statements:\n1. A nivartana was a land unit of about 1.5 acres.\n2. Satavahana cultivation spread mainly in the Krishna-Godavari basin.\n3. Moturpha was a Satavahana tax on looms.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: Moturpha was a British tax on trades and occupations (looms) in Andhra. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfa56a533127c",
+  "row": 47,
+  "s": "Match the four status classes of Satavahana society with their members:\nList-I (Class)\na. First\nb. Second\nc. Third\nd. Fourth\nList-II (Members)\ni. Amatyas, Mahamatras, Bhandagarikas\nii. Maharathis, Mahabhojas, Mahasenapatis\niii. Malakara, Vadhaki, Lohavanija\niv. Vaidya, Suvarnakara, Gandhika\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "First class – feudal nobility (Maharathis, Mahabhojas, Mahasenapatis); second – officials (Amatyas, Mahamatras, Bhandagarikas); third – professionals (Vaidya, Suvarnakara, Gandhika); fourth – artisans and petty traders (Malakara, Vadhaki, Lohavanija).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp99e24b0f7ccd",
+  "row": 47,
+  "s": "Consider the following statements about women in the Satavahana period:\n1. Matronymics show the social importance of women.\n2. Women gave independent gifts at Bharhut, Sanchi and Amaravati without naming husbands or fathers.\n3. Vetti performed by women is recorded in the Arthashastra.\n4. Women bore titles such as Maharathini and Mahabhoji.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: vetti by women is recorded in the Kamasutra. Statements 1, 2 and 4 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpce5178656e8c",
+  "row": 47,
+  "s": "Consider the following statements about the Satavahana polity:\n1. It was more decentralised than the Mauryan state, with vassal janapadas under local kings.\n2. The Mahabhojas' inscriptions omit the emperor's name, showing a near-independent position.\n3. The Mahatalavaras commanded the border provinces against the Sakas.\n4. The Kataka was a permanent garrison, while the Skandhavara was a temporary camp.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "All four statements are correct as per the notes: decentralised polity with vassal janapadas; Mahabhoja inscriptions omit the emperor; Mahatalavaras commanded border provinces; Kataka = permanent garrison, Skandhavara = temporary camp.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa1d81a70367b",
+  "row": 47,
+  "s": "Consider the following statements about Satavahana feudatories:\n1. The Raja was the highest feudatory and could issue coins.\n2. The Maharathis were hereditary tax-collecting feudatories mainly of the western Deccan.\n3. The Mahabhojas were powerful local chiefs of the Konkan.\n4. The grading of feudatories was Mahabhoja > Raja > Senapati.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3 only",
+   "1, 2 and 4 only"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the grading was Raja > Mahabhoja > Senapati. Statements 1-3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp94ffc1462daa",
+  "row": 47,
+  "s": "Match the Satavahana samanta rulers with their seats:\nList-I (Samanta)\na. Chutus\nb. Kuras\nc. Ikshvakus\nd. Mahabhojas\nList-II (Seat / region)\ni. Konkan\nii. Vijayapuri\niii. Kolhapur\niv. Mysore\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Chutus – Mysore; Kuras – Kolhapur; Ikshvakus – Vijayapuri (they paid tribute and sent troops); the Mahabhojas were chiefs of the Konkan.",
+  "src": "app",
+  "tq": "match"
  }
 ]
