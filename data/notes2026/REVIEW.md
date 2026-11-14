@@ -1615,3 +1615,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 431 → 77 kept + 85 new (162, 38%); new 44 statements / 20 match / 20 A–R / 1 sequence; no lines lost.
 - Wrong own keys removed: f4e3634614b35 ("Section 53(1)"; notes Sec 51(1)), f02dd0f57f09e (Schedule IX items 91 with 89 also offered; notes 89 as enacted), n1929158f1a2 (RP Act 1950, not in notes).
 - Notes conflict: row 141 1:2 "IIIT – Kurnool" vs row 134 IIIT Sri City / IIITDM Kurnool — fix row 141.
+
+## rewrite b2-w167 (rows 167–169)
+- own 261 → 35 kept + 58 new (93, 36%); new 30 statements / 17 match / 11 A–R; no lines lost. No wrong keys. Unchecked GK notes (Nava Nirmana Deeksha, Chandranna Bata, Hitachi, CORE, People First) not used.

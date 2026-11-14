@@ -1,0 +1,842 @@
+[
+ {
+  "id": "cp3a77206994f9",
+  "row": 119,
+  "s": "Consider the following statements about India's National Health Accounts (NHA):\n1. In NHA 2013-14, government health expenditure was 28.6% of Total Health Expenditure (THE).\n2. Out-of-pocket expenditure (OOPE) fell from 64.2% of THE in 2013-14 to 43.4% in 2022-23.\n3. In the COVID-peak year 2021-22, government health expenditure touched 1.84% of GDP while OOPE rose to over 50% of THE.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct (NHA table: 28.6% of THE in 2013-14; OOPE 64.2% -> 43.4% in 2022-23). Statement 3 is wrong: in 2021-22 GHE did peak at 1.84% of GDP, but OOPE FELL to 39.4% of THE - it did not rise.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4a93265eca2a",
+  "row": 119,
+  "s": "Consider the following statements about public health spending in India:\n1. As per NHA 2022-23 (10th edition), government health expenditure was 1.43% of GDP.\n2. The National Health Policy 2017 set a target of public health spending of 2.5% of GDP by 2025, with the Centre's share at 60%.\n3. According to the Economic Survey 2021-22, the budgeted health spending of the Centre and States together in 2019-20 was about 1.3% of GDP.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: NHP 2017 fixed the Centre's share at 40% (target 2.5% of GDP by 2025, missed). Statement 1 (1.43% of GDP in 2022-23) and statement 3 (about 1.3% of GDP in 2019-20) are as in the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa78146169123",
+  "row": 119,
+  "s": "Consider the following statements:\n1. India's National Health Accounts are prepared by NHATS at NHSRC on the SHA 2011 framework, and the first estimates were for 2017-18.\n2. The 15th Finance Commission recommended health grants of Rs 70,051 crore through local governments for 2021-26.\n3. The term 'missing middle', for the over 40 crore Indians without financial protection for health, comes from NITI Aayog.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: the first NHA estimates were for 2013-14 (NHATS at NHSRC, NHA Guidelines 2016 based on SHA 2011). Statements 2 (Rs 70,051 crore through local governments, 2021-26) and 3 (NITI Aayog's 'missing middle', 40 crore people) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5acbb7ac2182",
+  "row": 119,
+  "s": "Consider the following:\nAssertion (A): Outpatient care, diagnostics and medicines together account for over half of out-of-pocket health expenditure in India.\nReason (R): Outpatient care, diagnostics and medicines are usually not covered by health insurance.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the notes say outpatient care, diagnostics and medicines are over 50% of OOPE because they are usually not insured, so households pay for them from their pocket.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpbaf3fc4470d6",
+  "row": 119,
+  "s": "Consider the following:\nAssertion (A): India achieved the National Health Policy 2017 target for public health spending by 2025.\nReason (R): Government health expenditure was 1.43% of GDP in 2022-23 as per the National Health Accounts.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: NHP 2017 targeted 2.5% of GDP by 2025 and the target was missed. R is true: NHA 2022-23 put government health spending at 1.43% of GDP - which is why A is false.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp2ad57c9050e3",
+  "row": 119,
+  "s": "Match List-I (body / system) with List-II (function):\nList-I\na. NPPA\nb. BPPI\nc. DVDMS\nd. NLEM 2022\nList-II\ni. Procurement and inventory of free drugs under NHM\nii. Fixes ceiling prices of scheduled drugs under DPCO 2013\niii. List of 384 essential medicines\niv. Implementing agency of Pradhan Mantri Bhartiya Janaushadhi Pariyojana\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "NPPA (1997) fixes ceiling prices of NLEM drugs under DPCO 2013; BPPI implements PMBJP (Jan Aushadhi); DVDMS is the procurement and inventory system of the NHM Free Drugs Service Initiative; NLEM 2022 lists 384 medicines.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbf846b131d32",
+  "row": 119,
+  "s": "Consider the following statements:\n1. There were 17,990 Jan Aushadhi Kendras in December 2025.\n2. The target is to open 25,000 Jan Aushadhi Kendras by March 2030.\n3. The Clinical Establishments Act 2010 has been adopted by only about 11 States and 6 UTs.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the target of 25,000 Kendras is for March 2027, not 2030. Statements 1 (17,990 in Dec 2025) and 3 (about 11 States and 6 UTs) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2e0005825eef",
+  "row": 119,
+  "s": "Consider the following statements about Ayushman Bharat PM-JAY:\n1. It provides cover of Rs 5 lakh per family per year for secondary and tertiary hospitalisation.\n2. Its beneficiary families were identified from the Census 2011.\n3. Since October 2024 it covers all citizens aged 70 and above, irrespective of income.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two are correct. Statement 2 is wrong: the about 12 crore families (55 crore people) were identified from SECC 2011 (Socio-Economic and Caste Census), not the Census. Statements 1 (Rs 5 lakh per family per year) and 3 (70+ irrespective of income, Ayushman Vay Vandana card) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf0be2f196e06",
+  "row": 119,
+  "s": "Consider the following statements about the funding of PM-JAY:\n1. The Centre and most States share the cost in the ratio 60:40.\n2. For the North-Eastern and Himalayan States the ratio is 90:10.\n3. West Bengal became the 36th State/UT to implement the scheme in June 2026.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three are correct: Centre:State 60:40, 90:10 for North-Eastern and Himalayan States (up to 100% for UTs without legislature), and West Bengal became the 36th State/UT on 8 June 2026.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp794679748eb3",
+  "row": 119,
+  "s": "Match List-I (health scheme / law) with List-II (origin):\nList-I\na. CGHS\nb. ESI Act\nc. ESI Scheme\nd. ObamaCare\nList-II\ni. 1948\nii. Inaugurated at Kanpur, 1952\niii. 1954, Delhi\niv. Affordable Care Act 2010, USA\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "CGHS began in 1954 in Delhi; the ESI Act was passed in 1948 and the ESI Scheme was inaugurated at Kanpur on 24 Feb 1952; 'ObamaCare' is the USA's Patient Protection and Affordable Care Act 2010.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8699b76d7765",
+  "row": 119,
+  "s": "Consider the following statements about health insurance trends in India:\n1. Government-financed health insurance coverage rose about 2.5-fold between 2017-18 and 2025.\n2. As per NFHS-6, households with at least one insured member rose from 41.0% to 70.2%.\n3. A criticism of insurance-led models is that they raise coverage without raising the availability of care.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 0,
+  "x": "Only statement 2 is wrong: NFHS-6 shows households with an insured member rising from 41.0% to 60.2%, not 70.2%. Statements 1 (2.5-fold) and 3 (coverage without care) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8eb90c14256d",
+  "row": 119,
+  "s": "Consider the following statements about health assurance in Andhra Pradesh:\n1. Dr. NTR Vaidya Seva covers 3,257 procedures with a cover of up to Rs 25 lakh per family per year and no limit for cancer.\n2. Under the Employees Health Scheme, the premium is shared 50:50 and the cover is Rs 2 lakh per episode of illness.\n3. The AP Universal Health Policy (Sep 2025) also covers employees under the Employees Health Scheme.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: EHS employees are excluded from the AP Universal Health Policy (up to Rs 25 lakh per family). Statements 1 and 2 match the notes (3,257 procedures, Rs 25 lakh, no cancer limit; EHS 50:50 premium, Rs 2 lakh per episode).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpffa2b4d1db6c",
+  "row": 119,
+  "s": "Consider the following statements about Andhra Pradesh:\n1. The AP Budget 2024-25 allocated Rs 4,000 crore to the NTR Vaidya Seva Trust.\n2. The State scheme together with EHS, RSBY, ESIS and CGHS covers about half of AP households (2026).\n3. The premium of the Working Journalists Health Scheme is Rs 2,500 a year, shared 50:50.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two are correct. Statement 2 is wrong: these schemes together cover about 70% of AP households (2026), not half. Statements 1 (Rs 4,000 crore) and 3 (Rs 2,500 premium shared 50:50) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc37c252834e1",
+  "row": 120,
+  "s": "Consider the following statements about the National Health Mission (NHM):\n1. The National Rural Health Mission was launched in 2005 and the National Urban Health Mission in 2013.\n2. The Centre:State funding ratio is 60:40, and 75:25 for the North-Eastern and Himalayan States.\n3. The ASHA is a village-level community health worker who, with the ANM, links households to the health system.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: for North-Eastern and Himalayan States the NHM ratio is 90:10, not 75:25. Statements 1 (NRHM 2005, NUHM 2013) and 3 (village-level ASHA working with the ANM) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8add71fcc6d1",
+  "row": 120,
+  "s": "Match List-I (NHM component) with List-II (what it provides):\nList-I\na. JSY\nb. JSSK\nc. RKSK\nd. Mobile Academy\nList-II\ni. Audio training course for ASHAs\nii. Free ('zero expense') delivery and sick-newborn care at public facilities\niii. Cash for institutional delivery\niv. Health programme for adolescents aged 10-19 years\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 2,
+  "x": "JSY = cash for institutional delivery; JSSK = zero-expense delivery incl. C-section, drugs, diet, transport; RKSK = adolescents 10-19 years; Mobile Academy = audio course for ASHAs (Kilkari gives the weekly messages to mothers).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp976e61fcc812",
+  "row": 120,
+  "s": "Consider the following statements:\n1. The Janani Suraksha Yojana is 100% centrally sponsored.\n2. Anaemia Mukt Bharat, which follows the 6x6x6 strategy, was launched in 2014.\n3. Kilkari sends 72 free weekly audio messages to pregnant women and mothers from the second trimester till the child is one.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: Anaemia Mukt Bharat was launched in 2018. Statements 1 (JSY 100% centrally sponsored) and 3 (Kilkari, 72 weekly messages) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp95ea307d04d1",
+  "row": 120,
+  "s": "Consider the following statements:\n1. Mission Indradhanush (December 2014) aims at 80% full immunisation.\n2. eVIN, developed by MoHFW with UNDP, digitises vaccine stocks and monitors cold-chain temperature through a smartphone app.\n3. U-WIN is a digital registry of routine immunisation.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: Mission Indradhanush, which reaches zero-dose and partly immunised children, targets 90% full immunisation. Statements 2 (eVIN, MoHFW + UNDP) and 3 (U-WIN) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd4f835d497e9",
+  "row": 120,
+  "s": "Match List-I (age under the Universal Immunisation Programme) with List-II (vaccine given):\nList-I\na. Birth\nb. 6, 10 and 14 weeks\nc. 5-6 years\nd. 10 and 16 years\nList-II\ni. DPT booster-2\nii. Td\niii. Hepatitis B birth dose\niv. Pentavalent 1-3\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 1,
+  "x": "UIP schedule: birth - BCG, OPV-0, Hepatitis B birth dose; 6/10/14 weeks - Pentavalent 1-3 (with OPV, rotavirus, fIPV); 5-6 years - DPT booster-2; 10 and 16 years - Td.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc3fb688587e8",
+  "row": 120,
+  "s": "Consider the following statements about the Ayushman Bharat Digital Mission (ABDM):\n1. It was launched in September 2021 and is implemented by the National Health Authority.\n2. ABHA, its health ID, is a 12-digit number.\n3. The Digital Health Incentive Scheme to promote ABDM came into effect from 1 January 2023.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two are correct. Statement 2 is wrong: the ABHA health ID has 14 digits. ABDM (Sep 2021, NHA, consent-based and interoperable) and the Digital Health Incentive Scheme (from 1 Jan 2023) are as in the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3c3144540623",
+  "row": 120,
+  "s": "Match List-I (digital health component) with List-II (type / role):\nList-I\na. ABHA\nb. National Health Claim Exchange\nc. Sandbox\nd. eSanjeevani\nList-II\ni. ABDM gateway\nii. Telemedicine service\niii. ABDM testing environment\niv. ABDM registry (health ID)\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "ABHA (and the professionals, facility and drug registries) are ABDM registries; NHCX, UHI and the Consent Manager are gateways; Sandbox is the testing environment; eSanjeevani is telemedicine.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpcc1a13f9288f",
+  "row": 120,
+  "s": "Consider the following:\nAssertion (A): Arogya Mitra is not a component of the Ayushman Bharat Digital Mission.\nReason (R): Arogya Mitra is the testing environment (sandbox) of the Ayushman Bharat Digital Mission.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true but R is false: Arogya Mitra is the PM-JAY hospital facilitator; ABDM's testing environment is the Sandbox.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp0c58f0c3ab11",
+  "row": 120,
+  "s": "Consider the following statements:\n1. Andhra Pradesh was the first State to link the electronic health records of one crore people to the ABDM database.\n2. Over 90 crore ABHA accounts had been created by 30 May 2026, nearly half of them held by women.\n3. In March 2026 the National Medical Commission asked medical colleges to link ABHA IDs only for PM-JAY beneficiaries.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: the NMC direction covers ALL OPD, IPD and emergency patients, not only PM-JAY beneficiaries. Statements 1 (AP first, one crore records) and 2 (over 90 crore ABHA, nearly half women) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7b3b551a6b7f",
+  "row": 120,
+  "s": "Consider the following statements about Ayushman Bharat:\n1. Ayushman Arogya Mandirs (earlier AB-HWCs), with a target of 1,50,000, are expected to meet about 60-70% of health needs.\n2. PM-ABHIM has an outlay of Rs 64,180 crore for 2021-22 to 2025-26.\n3. In Andhra Pradesh, 10 Critical Care Blocks and 12 Integrated Public Health Labs under PM-ABHIM were inaugurated from Vijayawada in September 2026.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: comprehensive primary care through Ayushman Arogya Mandirs is to meet 80-90% of health needs (target 1,50,000 is right). Statements 2 (Rs 64,180 crore, 2021-22 to 2025-26) and 3 (Vijayawada, Sep 2026) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfbbe878a6850",
+  "row": 120,
+  "s": "Consider the following:\nAssertion (A): The Governing Board of the National Health Authority is chaired by the Union Health Minister.\nReason (R): The National Health Authority runs both PM-JAY and the Ayushman Bharat Digital Mission.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true (notes: NHA runs PM-JAY and ABDM; its Governing Board is chaired by the Union Health Minister), but running the two schemes does not explain who chairs the board.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp2907bc9188df",
+  "row": 120,
+  "s": "Consider the following statements about the World Health Organization:\n1. World Health Day is observed on 7 April as WHO's constitution came into force on 7 April 1948.\n2. Its membership was 166 in April 1991 and reached 194 in 2013.\n3. The theme of World Health Day 2026 was 'Health for all'.\n4. Its second-term Director-General's tenure ends on 15 August 2027.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the World Health Day 2026 theme was 'Together for health. Stand with science.' Statements 1 (7 April 1948, HQ Geneva), 2 (166 in 1991 -> 194 in 2013) and 4 (Dr Tedros's second term ends 15 Aug 2027) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4c8baf098fdc",
+  "row": 120,
+  "s": "Consider the following statements about the Indian Council of Medical Research (ICMR):\n1. It began in 1911 as the Indian Research Fund Association and was renamed ICMR in 1947.\n2. Its Strategic Plan / Vision 2030 has five pillars, including leveraging traditional medicine.\n3. The India Hypertension Control Initiative and the India TB Research Consortium are ICMR initiatives.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "3 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: IRFA (1911) was renamed ICMR in 1949, not 1947. Statements 2 (five pillars incl. traditional medicine, aligned with NHP 2017) and 3 (IHCI, India TB Research Consortium, MERA India) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp60972bde2c19",
+  "row": 120,
+  "s": "Match List-I (policy) with List-II (feature):\nList-I\na. NHP 1983\nb. NHP 2002\nc. NHP 2017\nd. National Policy for Rare Diseases\nList-II\ni. Assurance-based approach; TFR 2.1 target\nii. First policy; health volunteers and referral system\niii. Issued in 2021\niv. More public spending with a larger private/NGO role\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "NHP 1983 = first policy (preventive/promotive care, health volunteers, referral); NHP 2002 = primary care, more public spending + larger private/NGO role; NHP 2017 = assurance-based, HWCs, TFR 2.1; National Policy for Rare Diseases = 2021.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbf2591809d3a",
+  "row": 120,
+  "s": "Consider the following targets of the National Health Policy 2017:\n1. Public health spending of 3% of GDP by 2025.\n2. Life expectancy at birth of 70 years by 2025.\n3. Total fertility rate of 2.1 by 2025.\nWhich of the above is/are targets of the policy?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: NHP 2017 targeted public health spending of 2.5% of GDP by 2025 (not 3%). The life expectancy 70 and TFR 2.1 targets are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7d6956605c44",
+  "row": 120,
+  "s": "Match List-I (campaign / law) with List-II (year):\nList-I\na. Swachh Bharat Abhiyan\nb. Fit India Movement\nc. Eat Right India (FSSAI)\nd. Food Safety and Standards Act\nList-II\ni. 2006\nii. 2018\niii. 2014\niv. 2019\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 1,
+  "x": "Swachh Bharat Abhiyan 2014 (sanitation); Fit India 2019 (fitness); Eat Right India 2018 by FSSAI; FSSAI was created under the Food Safety and Standards Act 2006.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe96953c4e01d",
+  "row": 120,
+  "s": "Consider the following:\nAssertion (A): The Fit India Movement is expected to help cut deaths from non-communicable diseases.\nReason (R): The Fit India Movement aims to fight sedentary lifestyles.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: Fit India (2019) fights sedentary lifestyles, and with Eat Right India it aims to cut NCD deaths.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp9dcdc255e907",
+  "row": 120,
+  "s": "Consider the following statements about Andhra Pradesh's health interventions:\n1. The Family Physician programme was launched on 6 April 2023 at Lingamguntla (Palnadu).\n2. It works through 42,060 village health clinics.\n3. Under Sanjeevani (Aug 2026), every citizen is to get a digital health profile and an ABHA ID.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: the programme works through 10,032 village health clinics (42,060 is the number of ASHAs in AP). Statements 1 and 3 are correct; telemedicine is available in all Ayushman Arogya Mandirs.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbeff2fd90034",
+  "row": 121,
+  "s": "Consider the following statements about HIV/AIDS:\n1. HIV was first recognised in 1981 and the dominant strain in India is HIV-1 subtype C.\n2. The ELISA test for HIV detects the viral RNA directly.\n3. No licensed HIV vaccine exists, and Zidovudine (AZT) is the most used anti-retroviral drug.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: ELISA, the first widely used HIV screening test, detects antibodies against HIV. Statements 1 (1981; HIV-1 subtype C) and 3 (no licensed vaccine; AZT) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpab83b4bef69f",
+  "row": 121,
+  "s": "Match List-I (HIV programme / body) with List-II (year it began):\nList-I\na. NACP\nb. 'Test and Treat' policy\nc. Project Sunrise\nd. UNAIDS\nList-II\ni. 2017\nii. 1996\niii. 1992\niv. 2016\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 2,
+  "x": "NACP (NACO) was launched in 1992; 'Test and Treat' (free ART regardless of CD4 count) in 2017; Project Sunrise (people who inject drugs, North-East) in 2016; UNAIDS was set up in 1996.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp66379ca9d038",
+  "row": 121,
+  "s": "Consider the following statements:\n1. NACP Phase V (2021-26) aims at a 90% cut in new HIV infections and AIDS deaths.\n2. Voluntary Counselling and Testing Centres are now called Integrated Counselling and Testing Centres.\n3. The HIV/AIDS Act 2017 bars discrimination against people living with HIV.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: NACP Phase V aims at an 80% cut, not 90%. Statements 2 (VCTC -> ICTC) and 3 (anti-discrimination Act 2017) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp43b013145268",
+  "row": 121,
+  "s": "Match List-I with List-II:\nList-I\na. AVAHAN\nb. Red Ribbon Express\nc. World AIDS Day\nd. World TB Day\nList-II\ni. 24 March\nii. Gates Foundation HIV prevention initiative\niii. 1 December\niv. HIV/AIDS awareness train\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 0,
+  "x": "AVAHAN is the Gates Foundation's HIV prevention initiative; Red Ribbon Express is the awareness train; World AIDS Day is 1 December; World TB Day is 24 March.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbad9e71c6c6a",
+  "row": 121,
+  "s": "Consider the following statements:\n1. Sub-Saharan Africa is the region with the most HIV/AIDS cases.\n2. UNAIDS, which set the 95-95-95 target, was set up in 1996.\n3. In India the highest HIV burden is in Maharashtra, Andhra Pradesh and Karnataka.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three are correct as per the notes: Sub-Saharan Africa (UNAIDS 2003 and since); UNAIDS 1996 with the 95-95-95 target; Maharashtra, AP and Karnataka carry the highest burden in India.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7f4b1657c33c",
+  "row": 121,
+  "s": "Match List-I (polio milestone) with List-II (date):\nList-I\na. Pulse Polio launched\nb. Last wild polio case (Howrah)\nc. WHO South-East Asia Region certified polio-free\nd. Switch from trivalent to bivalent OPV\nList-II\ni. 27 March 2014\nii. 1995\niii. April 2016\niv. January 2011\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "Pulse Polio 1995; last wild polio case at Howrah in Jan 2011; SEAR polio-free 27 March 2014; trivalent -> bivalent OPV (types 1 and 3) April 2016.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe5d578230d99",
+  "row": 121,
+  "s": "Consider the following statements:\n1. India became smallpox-free in 1977 and smallpox was eradicated worldwide in 1980.\n2. Guinea worm disease (dracunculiasis) was eradicated worldwide in 2000.\n3. WHO certified India free of yaws in 2016.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two are correct. Statement 2 is wrong: in 2000 India was certified free of guinea worm, but the disease is not eradicated worldwide (smallpox is the only human disease eradicated). Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe851672141ed",
+  "row": 121,
+  "s": "Consider the following statements:\n1. Jonas Salk developed the oral polio vaccine.\n2. The bivalent oral polio vaccine covers polio virus types 1 and 3.\n3. Edward Jenner developed the smallpox vaccine in 1796.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: Jonas Salk made the first, injected (inactivated) polio vaccine in 1955; the oral polio vaccine is Albert Sabin's. Statements 2 (bOPV types 1 and 3, April 2016) and 3 (Jenner 1796) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2d589b4e62ad",
+  "row": 121,
+  "s": "Consider the following statements about tuberculosis control in India:\n1. India's national target for TB elimination is 2030.\n2. Ni-kshay is the Central TB Division's web-enabled patient management system.\n3. Under the PM TB Mukt Bharat Abhiyaan (Sep 2022), Ni-kshay Mitras adopt TB patients.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: India's national target is TB elimination by 2025, ahead of the SDG year 2030. Statements 2 (Ni-kshay) and 3 (Ni-kshay Mitras) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8098b27c5af0",
+  "row": 121,
+  "s": "Consider the following statements:\n1. Under the Ni-kshay Poshan Yojana (2018), nutritional support of Rs 500 a month was raised to Rs 1,500 from October 2024.\n2. As per the India TB Report 2024, 25.52 lakh TB cases were notified in 2023.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: the Ni-kshay Poshan support (DBT for the whole treatment) was raised from Rs 500 to Rs 1,000 a month from Oct 2024. Statement 2 (25.52 lakh notified; estimated incidence 27-28 lakh) is correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp25df9bb8881d",
+  "row": 121,
+  "s": "As per the WHO Global TB Report 2025, consider the following about India during 2015-2024:\n1. TB incidence fell by about 21%, from 237 to 187 per lakh.\n2. TB mortality fell by about 25%, from 28 to 21 per lakh.\n3. TB treatment coverage rose from 53% to 83%.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: treatment coverage rose from 53% to 92%. The incidence (-21%) and mortality (-25%) figures are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd4539d3b2462",
+  "row": 121,
+  "s": "Consider the following:\nAssertion (A): Tuberculosis is the leading single infectious killer in the world, as per WHO.\nReason (R): India's national target year for TB elimination is 2030.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (WHO: TB is the leading single infectious killer). R is false: India's national target is TB elimination by 2025; 2030 is the SDG year.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp70b58cfe6c92",
+  "row": 121,
+  "s": "Consider the following statements about malaria:\n1. The National Framework for Malaria Elimination 2016-2030 aims at zero indigenous cases by 2027.\n2. MERA India is led by the National Vector Borne Disease Control Programme.\n3. R21/Matrix-M was developed by the Oxford Jenner Institute with the Serum Institute of India.\n4. RTS,S/AS01 (Mosquirix), the first malaria vaccine, was developed by Bharat Biotech.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 4 only",
+   "1, 2 and 3 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statements 2 and 4 are wrong: MERA India is an ICMR alliance, and Mosquirix is GSK's vaccine. Statements 1 (zero indigenous cases by 2027, elimination 2030) and 3 (R21: Oxford Jenner + SII) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc29f462bc748",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The Maldives was the first country in the WHO South-East Asia Region to be certified malaria-free.\n2. Sri Lanka was certified malaria-free in 2016.\n3. Antibiotic prophylaxis is one of the main malaria-control tools of the NVBDCP.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: NVBDCP tools are indoor residual spraying, LLINs, larvivorous fish and source reduction - not antibiotic prophylaxis. Statements 1 and 2 are correct (China and Timor-Leste are also malaria-free).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1068599b9961",
+  "row": 121,
+  "s": "Consider the following statements:\n1. Cervavac, India's first indigenous quadrivalent HPV vaccine, was developed by the Serum Institute of India with DBT-BIRAC.\n2. The nationwide free HPV vaccination of 14-year-old girls launched at Ajmer in February 2026 uses two doses.\n3. India carries about one-fifth of the global cervical-cancer burden.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the campaign launched at Ajmer on 28 Feb 2026 uses a single dose. Statements 1 (SII + DBT-BIRAC, Sep 2022) and 3 (about one-fifth, ~1.23 lakh cases a year) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5712747a5707",
+  "row": 121,
+  "s": "Match List-I (disease) with List-II (vaccine):\nList-I\na. Tetanus\nb. Rubella\nc. Tuberculosis\nd. Cervical cancer\nList-II\ni. MMR\nii. Cervavac\niii. DTP\niv. BCG\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 2,
+  "x": "Tetanus - DTP; Rubella - MMR; Tuberculosis - BCG; cervical cancer - Cervavac (quadrivalent HPV vaccine).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd1c922f7e39e",
+  "row": 121,
+  "s": "Consider the following statements about sickle cell anaemia:\n1. It is a congenital, inherited single-gene disorder of haemoglobin.\n2. The National Sickle Cell Anaemia Elimination Mission was launched on 1 July 2023 at Bastar (Chhattisgarh).\n3. The Mission aims to screen 7 crore at-risk people and eliminate the disease by 2047.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the Mission was launched at Shahdol (Madhya Pradesh). Statements 1 (inherited, misshapen red cells) and 3 (7 crore, 2047) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp55b513d46456",
+  "row": 121,
+  "s": "Match List-I (disease) with List-II (India's elimination target year):\nList-I\na. Tuberculosis\nb. Measles-rubella\nc. Lymphatic filariasis\nd. Sickle cell anaemia\nList-II\ni. 2027\nii. 2025\niii. 2047\niv. 2026\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 1,
+  "x": "Elimination targets: TB 2025, measles-rubella 2026, lymphatic filariasis 2027, sickle cell anaemia 2047 (malaria and AIDS 2030).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp59a5c869a765",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The National Leprosy Eradication Programme gives free multidrug therapy.\n2. World Leprosy Day is the last Sunday of January, while India's Anti-Leprosy Day is 30 January.\n3. The IDA regimen for lymphatic filariasis consists of Ivermectin, DEC and Azithromycin.\n4. The kala-azar elimination target was met in 2023.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: IDA = Ivermectin, DEC and Albendazole. Statements 1 (NLEP free MDT), 2 (last Sunday of January / 30 January) and 4 (kala-azar target met 2023) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf6d54cdde6d5",
+  "row": 121,
+  "s": "Consider the following:\nAssertion (A): The Integrated Disease Surveillance Programme (IDSP) is India's programme to cut premature NCD deaths by one-third.\nReason (R): IDSP was launched in 2004 under the NHM for outbreak surveillance.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: IDSP is outbreak surveillance, not an NCD target (cutting premature NCD deaths by one-third is SDG 3.4). R is true: IDSP was launched in 2004 under the NHM.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp5b4cd722cb86",
+  "row": 121,
+  "s": "Consider the following statements about the health targets of the SDGs:\n1. SDG target 3.3 seeks to end the epidemics of AIDS, TB, malaria and neglected tropical diseases by 2030.\n2. SDG target 3.4 seeks to cut premature deaths from non-communicable diseases by one-half.\n3. SDG target 3.1 seeks a maternal mortality ratio below 70 per 1,00,000 live births.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: SDG 3.4 aims to cut premature NCD deaths by one-third. Statements 1 (3.3) and 3 (3.1) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp397f2cf73609",
+  "row": 121,
+  "s": "Match List-I (mental-health programme / law) with List-II (year):\nList-I\na. National Mental Health Programme\nb. Mental Health Act\nc. Mental Healthcare Act\nd. Tele-MANAS\nList-II\ni. 2022\nii. 1987\niii. 1982\niv. 2017\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "NMHP 1982 (first mental health programme); Mental Health Act 1987 (repealed 2017); Mental Healthcare Act 2017; Tele-MANAS 2022 (24/7 tele-mental health).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp081070d9297e",
+  "row": 121,
+  "s": "Consider the following statements:\n1. The Mental Healthcare Act 2017 decriminalised suicide and provides for advance directives.\n2. The Act allows electroconvulsive therapy without anaesthesia in emergencies.\n3. India's mental-health treatment gap is about 84.5%, with about 1 in 7 Indians affected.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: the Act permits no ECT without anaesthesia (and ECT for minors only with guardian consent and Board permission). Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp65ab6ffbc2c6",
+  "row": 121,
+  "s": "Consider the following statements about NCD programmes:\n1. NP-NCD, earlier called NPCDCS, follows population-based screening.\n2. The India Hypertension Control Initiative (ICMR) aims to reduce deaths from heart attack, stroke and kidney failure.\n3. In Andhra Pradesh, the expanded NP-NCD provides free leprosy MDT in place of the NLEP.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: AP's expanded NP-NCD adds mental health, elderly care, IDD, tobacco, fluorosis and oral health; leprosy MDT stays under the NLEP. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbf3094f28263",
+  "row": 121,
+  "s": "Arrange the following nutrition programmes in chronological order of their start:\n1. National Goitre Control Programme\n2. Vitamin A prophylaxis programme\n3. Renaming of the goitre programme as NIDDCP\nSelect the correct answer using the code given below:",
+  "o": [
+   "2, 1, 3",
+   "1, 3, 2",
+   "1, 2, 3",
+   "2, 3, 1"
+  ],
+  "a": 2,
+  "x": "National Goitre Control Programme 1962 -> Vitamin A prophylaxis 1970 -> renamed NIDDCP 1992, so the order is 1, 2, 3.",
+  "src": "app",
+  "tq": "sequence"
+ }
+]
