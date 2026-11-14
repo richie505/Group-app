@@ -1474,3 +1474,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w096 (rows 96–97)
 - own 344 → 63 kept + 77 new (140, 41%); new 50 statements / 18 match / 9 A–R; 1 of 217 lines lost.
 - na6a2ac2e8fc (Vairamuthu "first Jnanpith for poetry" — notes 96:3:1.11 likely "first Tamil lyricist") removed; gbacef1a06697 (WADA "set up at Montreal"; founded Lausanne 1999, HQ Montreal) removed.
+
+## rewrite b6-w098 (rows 98–100)
+- own 412 → 49 kept + 106 new (155, 38%); new 74 statements / 22 match / 10 A–R; 1 of 278 lines lost. No wrong keys.
+- Kept A–R cab9a8451538a3 is weak (R only breaks down the medal tally) — consider rewording.
