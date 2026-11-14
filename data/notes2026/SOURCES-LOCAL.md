@@ -637,3 +637,6 @@ Total: 572 files, 22879 pages.
 
 ## AP Reorganisation Act 2014
 - Gazette text (prsindia.org): ap-reorganisation/apra.pdf / .txt (added by job b1-r263)
+
+## Economy: official docs
+- DPIIT Press Note 3 (2019): industries under compulsory licensing = 4 (economy/dpiit-press-note-3-2019-industrial-licensing.pdf/.txt; added by job b3-r063)
