@@ -833,3 +833,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Dispute y7be7fcab0aa UPSC 2026 Grand Slam: official provisional "1 and 2 only" (strictly "1 only").
 - Own MCQs ca995a58b16b95, f47cbc4b32b24 Pranavi Urs "first golf gold" — first Indian woman individual gold (dispute).
 - Old notes fix: India (not SA) lost 2005 and 2017 Women's WC finals.
+
+## b6-r104 (CA rows 104-105 days/themes)
+- No key changes. Dispute y0b77718aea8 World Humanitarian Day 2025 theme (UN campaign #ActForHumanity).
+- Outdated yb90773f7a18 Governors Mar 2025 (Goa Ashok Gajapathi Raju; Bihar Syed Ata Hasnain).
+- y1ad89e6c449 PSB Day explanation fixed (Delhi, not Bombay). General knowledge: Ramen Deka, Space Week 2020/21 themes.
