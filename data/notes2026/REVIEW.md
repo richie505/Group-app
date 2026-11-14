@@ -1540,3 +1540,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w113 (rows 113–119)
 - own 414 → 45 kept + 111 new (156, 38%); new 65 statements / 24 match / 20 A–R / 2 sequence; 9 of 287 lines lost (4th pairs of match items).
 - 114:2:3 Bogardus "change on the same status level" keyed as social mobility (APPSC Hostel Welfare key) — that is horizontal mobility; Disputed chip check.
+
+## rewrite b3-w123 (rows 123–127)
+- own 410 → 84 kept + 88 new (172, 42%); new 49 statements / 28 match / 11 A–R; no lines lost.
+- Removed: n0c24e771109 (coastline 974 km 2nd — outdated; now 1,053 km 3rd), n5792f432db5 (5 options), 8 not in notes (SIDBI, ARDBs, Rythu Bazar dept, ABHA count/rank, …). f448aa15d7573 mislinked sub — link cleanup.

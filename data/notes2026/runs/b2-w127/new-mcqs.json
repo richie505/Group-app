@@ -4,12 +4,12 @@
   "row": 127,
   "s": "Consider the following statements regarding prison administration in India:\n1. 'Prisons / persons detained therein' is Entry 4 of the State List in the Seventh Schedule.\n2. The Prisons Act, 1894 kept prisons with the Union Government, which alone frames prison rules.\n3. The Model Prisons Act, 2023 prepared by the MHA is binding on all States.\n4. The BPR&D issues advisory guidelines on prison administration.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 4 only",
+   "1, 3 and 4 only",
    "1, 2 and 4 only",
    "2 and 3 only",
-   "1, 3 and 4 only"
+   "1 and 4 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1 and 4 are correct. 2 is wrong: the 1894 Act kept prisons with the Provincial (now State) Governments, which make the rules. 3 is wrong: the Model Prisons Act 2023 is only a guide for States to replace the 1894 Act; it is not binding.",
   "src": "app",
   "tq": "statements"
@@ -20,11 +20,11 @@
   "s": "Consider the following statements regarding NCRB Prison Statistics 2024:\n1. India had 1,333 prisons, with inmates exceeding the capacity.\n2. The occupancy rate was 112.7%, the highest being in Meghalaya.\n3. Undertrials made up about 73% of the inmates.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
-   "2 and 3 only",
    "1 and 3 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1 and 3 are correct (1,333 prisons, ~4.53 lakh capacity vs 5.11 lakh inmates; ~73% undertrials). 2 is wrong: occupancy was 112.7% but the highest was Delhi (194.6%); Meghalaya was second (163.5%).",
   "src": "app",
   "tq": "statements"
@@ -36,10 +36,10 @@
   "o": [
    "a-i, b-iv, c-ii, d-iii",
    "a-ii, b-iv, c-iii, d-i",
-   "a-i, b-iv, c-iii, d-ii",
-   "a-ii, b-iv, c-i, d-iii"
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Nilabati Behera – compensation under Arts 32/226, no sovereign immunity; Joginder Kumar – arrest must be justified; D.K. Basu – arrest safeguards (memo, ID, informing kin, medical check); Arnesh Kumar – no automatic arrest for offences up to 7 years (CrPC s.41, now BNSS s.35).",
   "src": "app",
   "tq": "match"
@@ -140,11 +140,11 @@
   "s": "With reference to Shatrughan Chauhan v Union of India (2014), consider the following statements:\n1. Inordinate, unexplained delay in deciding a mercy petition can justify commuting death to life imprisonment.\n2. At least 7 days' notice must be given before execution after a mercy petition is rejected.\n3. Solitary confinement of death-row convicts was held illegal.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 3 only",
+   "1, 2 and 3",
    "2 and 3 only",
-   "1, 2 and 3"
+   "1 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the Court required 14 days' notice before execution.",
   "src": "app",
   "tq": "statements"
@@ -178,5 +178,485 @@
   "x": "1, 2 and 3 are correct. 4 is wrong: Iran led the recorded executions in 2025.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp9c9e614e1fab",
+  "row": 128,
+  "s": "Match List-I (Reformer) with List-II (Work / institution):\nList-I (Reformer) | List-II (Work / institution)\na. Raja Rammohan Roy | i. Tuhfat-ul-Muwahhidin\nb. Ishwar Chandra Vidyasagar | ii. Gulamgiri\nc. Jyotirao Phule | iii. The High-Caste Hindu Woman (1887)\nd. Pandita Ramabai | iv. Bethune School (1849)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "Rammohan Roy – Tuhfat-ul-Muwahhidin; Vidyasagar – Bethune School 1849 (and the Widow Remarriage Act 1856); Jyotirao Phule – Gulamgiri; Pandita Ramabai – The High-Caste Hindu Woman (1887).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6a6bb4d88ed6",
+  "row": 128,
+  "s": "Consider the following statements:\n1. Jyotirao and Savitribai Phule started the first girls' school at Pune in 1848.\n2. Jyotirao Phule founded the Satyashodhak Samaj in 1873.\n3. Kandukuri Veeresalingam performed the first Telugu widow remarriage at Rajahmundry in 1891.\n4. The Phules opened a home to prevent infanticide in 1863.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Veeresalingam performed the first Telugu widow remarriage at Rajahmundry in 1881, not 1891.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf4059f3e3eb4",
+  "row": 128,
+  "s": "Match List-I (Work / organisation) with List-II (Person):\nList-I (Work / organisation) | List-II (Person)\na. Stri Purush Tulana | i. Pandita Ramabai\nb. The Gospel of Sri Ramakrishna | ii. Raja Rammohan Roy\nc. Sambad Kaumudi | iii. Mahendranath Gupta ('M')\nd. Arya Mahila Samaj | iv. Tarabai Shinde\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Stri Purush Tulana – Tarabai Shinde; The Gospel of Sri Ramakrishna – Mahendranath Gupta ('M'); Sambad Kaumudi – Rammohan Roy; Arya Mahila Samaj (1882) – Pandita Ramabai.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2a5aea818134",
+  "row": 128,
+  "s": "Consider the following statements regarding the status of women in Indian history:\n1. In the Vedic period the wife was honoured as 'Ardhangini'.\n2. Purdah became prominent in the Rig Vedic period.\n3. Niyoga was a custom that banned widow remarriage.\n4. The Devadasi system was banned in Andhra Pradesh by both the Madras Act 1947 and the AP Act 1988.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 3 and 4 only",
+   "1, 2 and 4 only",
+   "2 and 3 only",
+   "1 and 4 only"
+  ],
+  "a": 3,
+  "x": "1 and 4 are correct. 2 is wrong: purdah became prominent in the later Vedic and medieval periods. 3 is wrong: Niyoga let a childless widow/wife have a son by the husband's brother or kinsman; it was not a ban on widow remarriage.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9cabe066159c",
+  "row": 128,
+  "s": "Match List-I (Act) with List-II (Year):\nList-I (Act) | List-II (Year)\na. Indecent Representation of Women (Prohibition) Act | i. 2006\nb. Commission of Sati (Prevention) Act | ii. 1986\nc. PCPNDT Act | iii. 1994\nd. Prohibition of Child Marriage Act | iv. 1987\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "Indecent Representation of Women Act – 1986 (ads, publications, paintings – not child marriage); Commission of Sati (Prevention) – 1987; PCPNDT – 1994; Prohibition of Child Marriage – 2006 (replaced the Sarda Act 1929).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpce8a469d7479",
+  "row": 128,
+  "s": "Consider the following statements:\n1. The Indian Succession Act, 1925 applies mainly to Muslims.\n2. The Dowry Prohibition Act, 1961 bans giving, taking and demanding dowry.\n3. The Domestic Violence Act, 2005 is a civil remedy that provides a Right to Residence under Section 17.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the Indian Succession Act 1925 covers Christians and others, not Muslims.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7f4bc64d4dbb",
+  "row": 128,
+  "s": "Consider the following statements:\n1. The PCPNDT Act, 1994 came into force on 1 January 1994.\n2. The PCPNDT Act bans prenatal sex determination.\n3. The Prohibition of Child Marriage Act, 2006 replaced the Sarda Act and fixes 18 years for females and 21 for males.\n4. The POSH Act, 2013 requires an Internal Committee at workplaces with 10 or more employees.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 and 4 only",
+   "1, 2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "2, 3 and 4 are correct. 1 is wrong: the PCPNDT Act of 1994 came into force on 1 January 1996.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp49ec91f25968",
+  "row": 128,
+  "s": "Consider the following statements regarding personal laws:\n1. The Special Marriage Act, 1954 provides a civil, secular marriage irrespective of religion, after public notice.\n2. The Hindu Marriage Act, 1955 provides for monogamy, grounds of divorce and restitution of conjugal rights.\n3. Andhra Pradesh made unmarried daughters coparceners in 1995, after the national amendment.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: AP's HSA amendment came in 1985 under N.T. Rama Rao – before the national HSA (Amendment) 2005.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0ca06bc8be6c",
+  "row": 128,
+  "s": "Consider the following statements:\nAssertion (A): In October 2025 the Supreme Court upheld the exclusion of Scheduled Tribes from the Hindu Succession Act.\nReason (R): Section 2(2) of the Hindu Succession Act, 1956 excludes members of notified Scheduled Tribes from its application.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: s.2(2) of the HSA excludes notified STs (unless the Centre directs otherwise), and the SC (8 Oct 2025) upheld that exclusion.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3ef0b782f778",
+  "row": 128,
+  "s": "Consider the following statements:\n1. The Muslim Women (Protection of Rights on Marriage) Act, 2019 declares instant talaq-e-biddat void and illegal.\n2. Pronouncing instant talaq under the 2019 Act is punishable with imprisonment up to five years.\n3. The maintenance remedy of Section 125 CrPC is now Section 144 of the BNSS.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: the 2019 Act provides imprisonment up to three years.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0acb90b6fe80",
+  "row": 128,
+  "s": "Match List-I (Article) with List-II (Content):\nList-I (Article) | List-II (Content)\na. Article 15(3) | i. Renounce practices derogatory to the dignity of women\nb. Article 39(d) | ii. Equal pay for equal work\nc. Article 44 | iii. Special provisions for women and children\nd. Article 51A(e) | iv. Uniform Civil Code\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "15(3) – special provisions for women and children; 39(d) – equal pay for equal work; 44 – UCC; 51A(e) – renounce practices derogatory to women's dignity.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6c2d21d3f1fe",
+  "row": 128,
+  "s": "Consider the following statements regarding reservation for women:\n1. Article 243D reserves at least one-third of seats and chairperson posts in Panchayats.\n2. Article 243T provides the same for Municipalities.\n3. Articles 330A and 332A reserve one-half of the seats in the Lok Sabha and State Assemblies.\n4. The 106th Amendment quota in the Lok Sabha awaits the Census and delimitation.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Arts 330A/332A (106th Amendment, 2023) reserve one-third of the seats.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4f4d57214f2c",
+  "row": 128,
+  "s": "Consider the following statements:\n1. The 106th Amendment's women's quota came into effect in the J&K and Puducherry Assemblies from 17 April 2026.\n2. The Constitution (131st) Amendment Bill, 2026 was passed on 17 April 2026.\n3. About 46% of PRI representatives are women (January 2026).\n4. Andhra Pradesh reserves one-third of seats in panchayats and municipalities for women.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 2 and 3 only",
+   "2 and 4 only",
+   "3 and 4 only"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the 131st Amendment Bill was defeated on 17 April 2026. 4 is wrong: AP reserves 50% in panchayats and municipalities (and 50% of nominated posts and work contracts).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8103a64febfe",
+  "row": 128,
+  "s": "Match List-I (Case) with List-II (Ruling):\nList-I (Case) | List-II (Ruling)\na. Sarla Mudgal (1995) | i. Conversion cannot validate a second Hindu marriage\nb. Vishaka (1997) | ii. Struck down s.497 IPC (adultery)\nc. Seema v Ashwani Kumar (2006) | iii. Compulsory registration of marriages\nd. Joseph Shine (2018) | iv. Workplace harassment guidelines\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "Sarla Mudgal – conversion to Islam cannot validate a second Hindu marriage; Vishaka – workplace harassment guidelines (→ POSH 2013); Seema – compulsory marriage registration; Joseph Shine – s.497 struck down.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpebd936aba03f",
+  "row": 128,
+  "s": "Match List-I (Case) with List-II (Ruling):\nList-I (Case) | List-II (Ruling)\na. Vineeta Sharma (2020) | i. Permanent commission for women SSC officers\nb. Babita Puniya (2020) | ii. Abortion up to 24 weeks regardless of marital status\nc. X v GNCTD (2022) | iii. Maternity protection covers post, status and promotion\nd. Rakhi Bisht (Delhi HC, 2026) | iv. Daughter a coparcener by birth\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Vineeta Sharma – daughter coparcener by birth whether or not the father was alive on 9 Sept 2005; Babita Puniya – permanent commission (Army); X v GNCTD – 24 weeks for all women; Rakhi Bisht – maternity protection covers post, status, promotion.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp77ff8df7c605",
+  "row": 128,
+  "s": "Consider the following statements:\n1. Shah Bano (1985) granted maintenance under Section 125 CrPC and was followed by the 1986 Act.\n2. Danial Latifi (2001) limited a divorced Muslim wife's maintenance to the iddat period.\n3. Shayara Bano (2017) held instant triple talaq unconstitutional by a 4:1 majority.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 3,
+  "x": "Only 1 is correct. 2 is wrong: Danial Latifi held maintenance extends beyond iddat, for her whole life. 3 is wrong: the Shayara Bano majority was 3:2.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9a84a029ecde",
+  "row": 128,
+  "s": "Consider the following statements regarding women and places of worship:\n1. In Sabarimala (2018) the bar on women aged 10-50 was struck down by a 4:1 majority.\n2. Bindu Ammini and Kanaka Durga were the first women of that age to enter after the verdict (January 2019).\n3. The Haji Ali Dargah case was decided by the Kerala High Court in 2016.\n4. The Haji Ali petition was filed by the Bharatiya Muslim Mahila Andolan.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the Haji Ali case (inner sanctum entry) was decided by the Bombay High Court in 2016.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp970812a7a4b5",
+  "row": 128,
+  "s": "Consider the following statements regarding women's commissions:\n1. The National Commission for Women was set up in January 1992 under the NCW Act, 1990.\n2. The NCW is a constitutional body.\n3. Besides the Chairperson and Member-Secretary, the NCW has five members, at least one each from the SCs and STs.\n4. The A.P. Women's Commission was set up under an Act of 1998.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "1, 3 and 4 are correct. 2 is wrong: the NCW is a statutory body (NCW Act 1990), not a constitutional one. The AP commission (Act 1998) is chaired by Rayapati Sailaja (Dec 2025).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3732145564f1",
+  "row": 128,
+  "s": "Consider the following statements:\n1. The National Policy for Empowerment of Women was adopted in 2001, the Year of Women's Empowerment.\n2. The Eighth Plan shifted the approach to women from 'development' to 'empowerment'.\n3. The Draft National Policy for Women, 2016 placed food security and nutrition under the economy.\n4. The Mission for Empowerment of Women was launched in 2010 and Beti Bachao Beti Padhao in 2015.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2, 3 and 4 only",
+   "1 and 3 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the Draft Policy 2016 placed food security and nutrition under health.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp181fb6fd0031",
+  "row": 128,
+  "s": "Consider the following statements:\n1. The Family Courts Act was enacted in 1984.\n2. About 593 Family Courts were functioning as of 31 July 2025.\n3. India's first exclusive women's court was set up at Malda in 2013.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: 953 Family Courts were functioning as of 31 July 2025.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd3680fb9255f",
+  "row": 128,
+  "s": "Match List-I (Milestone) with List-II (Year):\nList-I (Milestone) | List-II (Year)\na. Commission on the Status of Women (under ECOSOC) | i. 1979\nb. UN Decade for Women begins | ii. 1976\nc. CEDAW adopted | iii. 1995\nd. Beijing Fourth World Conference | iv. 1946\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 0,
+  "x": "CSW under ECOSOC – 1946; UN Decade for Women – 1976-85; CEDAW – 1979 (India signed 1980, ratified 1993); Beijing (4th) – 1995. Copenhagen was 1980, Nairobi 1985.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2eb79429803a",
+  "row": 128,
+  "s": "Match List-I (Organisation) with List-II (Year of founding):\nList-I (Organisation) | List-II (Year of founding)\na. Bharat Stree Mahamandal | i. 1910\nb. Women's Indian Association | ii. 1937\nc. National Council of Women in India | iii. 1925\nd. Andhra Mahila Sabha | iv. 1917\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "Bharat Stree Mahamandal – 1910 (first women's organisation); WIA – 1917; NCWI – 1925; Andhra Mahila Sabha – 1937 (Durgabai Deshmukh).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp07c9bb847238",
+  "row": 128,
+  "s": "Consider the following statements:\n1. The Women's Indian Association (1917) was founded by Annie Besant and Margaret Cousins, among others.\n2. Margaret Cousins founded the All India Women's Conference (1927), working on education, social upliftment and legal rights.\n3. Durgabai Deshmukh was the first chairperson of the Central Social Welfare Board (1953).\n4. In the early 20th century the women's movement shifted its focus to economic rights.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: in the early 20th century the focus shifted to political rights.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb50fb7548fcc",
+  "row": 128,
+  "s": "Consider the following statements regarding the Committee on the Status of Women in India:\n1. It was constituted in 1971 with Phulrenu Guha as chairperson.\n2. Its Member-Secretary was Neera Desai.\n3. Its report was titled 'Towards Equality' (1974).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: the Member-Secretary was Vina Mazumdar; Neera Desai founded the first Women's Studies Centre at SNDT.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb1638cef53fc",
+  "row": 128,
+  "s": "Match List-I (Person) with List-II (Associated with):\nList-I (Person) | List-II (Associated with)\na. Neera Desai | i. CWDS\nb. Vina Mazumdar | ii. Manushi\nc. Madhu Kishwar | iii. High-Level Committee on the Status of Women (2012)\nd. Pam Rajput | iv. First Women's Studies Centre, SNDT\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Neera Desai – SNDT Women's Studies Centre; Vina Mazumdar – CWDS; Madhu Kishwar – Manushi; Pam Rajput – High-Level Committee (2012).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp41f0f2ddfc72",
+  "row": 128,
+  "s": "Consider the following statements regarding Andhra:\n1. The Anti-Arrack Movement began in 1992 at Dubagunta in Krishna district.\n2. It led to a ban on arrack in 1993 and total prohibition in 1995.\n3. Chalam's novel 'Stree' dealt with women's personal and sexual freedom.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: Dubagunta is in Nellore district.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp726445a76c3d",
+  "row": 128,
+  "s": "Match List-I (Term) with List-II (Meaning):\nList-I (Term) | List-II (Meaning)\na. Patriarchy | i. Scale of 0 (equality) to 1 (worst)\nb. Gender mainstreaming | ii. Men hold primary power and status\nc. Gender audit | iii. Gender perspective in all policies, laws and institutions\nd. Gender Inequality Index | iv. Check of policies, programmes and budgets for gender equality\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Patriarchy – men hold primary power; gender mainstreaming – gender perspective in all policies (Beijing 1995); gender audit – check of policies, programmes, institutions, budgets; GII – 0 equality to 1 worst.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp18eda20c98af",
+  "row": 128,
+  "s": "Consider the following statements regarding gender indices:\n1. The Gender Development Index is a female-to-male ratio in health, education and command over resources.\n2. Military expenditure is one of the dimensions of the WEF Global Gender Gap Index.\n3. India ranked 131st of 148 in the Global Gender Gap Index 2025.\n4. India ranked 128th of 177 in the Women, Peace and Security Index 2023.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 4 only",
+   "1, 2 and 3 only",
+   "3 and 4 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: the Gender Gap Index covers economy, education, health and politics, not military spending. 4 is wrong: India was 131st of 177.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc89c68bb2b2d",
+  "row": 128,
+  "s": "Consider the following statements regarding sex ratio and work:\n1. The sex ratio rose from 991 in NFHS-4 to 1020 in NFHS-5.\n2. The sex ratio at birth rose from 904 to 917 (2021-23).\n3. Kerala and Tamil Nadu are the most male-skewed States in sex ratio.\n4. Women's labour force participation rate was 37% in 2022-23.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the most male-skewed States are Haryana and Punjab.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc89f2e7433d1",
+  "row": 128,
+  "s": "Match List-I (Statement) with List-II (Person):\nList-I (Statement) | List-II (Person)\na. 'I measure the progress of a community by the degree of progress which women have achieved' | i. B.R. Ambedkar\nb. 'A bird cannot fly on one wing' | ii. Amartya Sen\nc. 'To call woman the weaker sex is a libel' | iii. Swami Vivekananda\nd. 'Missing women' | iv. Mahatma Gandhi\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 1,
+  "x": "Ambedkar – progress of a community by women's progress; Vivekananda – a bird cannot fly on one wing; Gandhi – weaker sex a libel; Amartya Sen – 'missing women'.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd8eae257138a",
+  "row": 128,
+  "s": "Consider the following statements:\n1. The MTP Act, 1971 came into force on 1 April 1972.\n2. The MTP law allows 24 weeks for special categories and prohibits disclosing the woman's identity.\n3. The Surrogacy (Regulation) Act, 2021 permits commercial surrogacy by a close relative.\n4. Under the Surrogacy Act a woman can act as a surrogate only once.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2, 3 and 4 only",
+   "1 and 3 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the Surrogacy Act 2021 permits only altruistic surrogacy; commercial surrogacy is prohibited.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7d65cbda6b78",
+  "row": 128,
+  "s": "Consider the following statements:\nAssertion (A): The ART (Regulation) Act, 2021 prohibits the sale of gametes.\nReason (R): The ART (Regulation) Act, 2021 permits sex-selective ART in registered clinics.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: the ART Act 2021 prohibits sale of gametes. R is false: it prohibits sex-selective ART; only registered clinics/banks may offer ART.",
+  "src": "app",
+  "tq": "assertion"
  }
 ]
