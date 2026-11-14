@@ -563,3 +563,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y481dad9c427 UPPSC 2009 radioactive effects: helper changed to I and IV; restored printed/most-told "I, III and IV" with dispute.
 - y2044f26b2fa noble gas not in air → Radon (dispute: trace). yc36d0510c53 building material Thorium kept (strictly radon). yd4037a80662 GloLitter "Neither" (official key not found). y1002641afd9 dark sky "None of the above" kept, explanation rewritten.
 - Unverified: sone, 80 dB limit, SC cracker ban, Ennore ships, lead in ink, Sagar Kanya, MRDS.
+
+## b5-r100 (Water pollution)
+- 8 disputes kept (fluoride–indigestion, dermatitis, coliform, silt, GAP 1985/1986, spationaut, arsenic, Malwa).
+- Outdated: polluted river stretches (296, 37 Priority-I); 2016 and Oct 2022 office-holders. Helper says IAF chief Ashutosh Dixit from 31 Oct 2026 — verify, then add to settled facts.
+- Unverified printed: y244fcda7eac, yf1caab3e0cc, yd9d92e280a4, y3376596d069. NRCP 34 rivers/20 States (PMF) vs 38/16 (old notes); BS norms MoRTH vs CPCB.
