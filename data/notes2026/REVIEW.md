@@ -981,3 +981,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w033 (row 33)
 - own 276 → 34 kept + 76 new (110, 40%); new 54 statements / 14 match / 7 A–R / 1 sequence; no lines lost.
 - Wrong own key fixed by merge: 2016aa had FRBM Act "came into effect 2003"; notes 3:10 = enacted 2003, in force 5 July 2004.
+
+## rewrite b1-w085 (rows 85–91)
+- own 356 → 48 kept + 77 new (125, 35%); new 45 statements / 25 match / 7 A–R; 4 of 235 lines no longer tested.
+- f3cc14c9eb464 credited Singhana II with releasing Ganapatideva; notes credit Jaitugi — merged into correct new MCQ.
+- n416b6c1020c says "Javanese envoys"; notes only say "two envoys" (check). n6edf02ff93b (Tamil as language of administration, not in notes) removed.
