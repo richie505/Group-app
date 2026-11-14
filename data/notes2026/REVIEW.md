@@ -958,3 +958,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b6-w025 rewrite (rows 25-26): own 385 → 157 (41%). Notes: Saptadhara 'seven' lists 6; Sikkim in Eastern Zonal Council inconsistent (rows 25/26); split name line 25 [7:59/60].
 - b1-w055 rewrite (rows 55-62): own 427 → 181 (42%). Check PYQs: yab45409b1a1, yb7817a4a616 first Param Bhagavata Chandragupta II vs notes Samudragupta; y8da3a903fd4 'Vengi' (Vaigai?).
 - b4-w021 rewrite (rows 21-26): own 391 → 142 (36%). 7 off-notes own MCQs removed.
+- b2-w021 rewrite (polity rows 21-26): own 387 → 152 (39%). Notes: Kehar Singh 1988 vs 1989.
