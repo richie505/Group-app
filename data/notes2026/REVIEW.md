@@ -919,3 +919,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b6-n097 (new CA 2–14 Nov: sports, days/books, persons): ~43 items, 53 new MCQs. Uncertain: Youth Olympics final tally; tsunami-day theme (secondary page).
 - b6-x080 (CA rows 80, 113 environment 2025 / persons Dec–Feb): 219 mapped. Dispute ga80b23fdbadf Kaziranga 1905/1908. CVC now acting A.S. Rajeev (since 2 Aug 2026). Kumki "70% fall" claim unconfirmed; cafa0897b4ff77 A-R arguable.
 - b6-x062 (CA rows 62, 71 treaties 2025 / S&T Jun–Aug 2026): 332 mapped. Own MCQ caa229483d2f32 India exit from FGFA 2021 → 2018 (Praveen says 2021, dispute). WTO e-commerce moratorium lapse 30 vs 31 Mar 2026. Old-notes-only: helium shares, R&D 0.74% (PMF 0.64%).
+- b6-n039 (new CA 2–14 Nov: schemes, committees, summits): ~64 items, 69 new MCQs. CII summit theme wording varies (no MCQ); ASEAN summit dates 15–17 vs 16–18 Nov.
