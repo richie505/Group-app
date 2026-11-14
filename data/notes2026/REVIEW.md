@@ -1095,3 +1095,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 372 → 43 kept + 81 new (124, 33%); new 48 statements / 25 match / 8 A–R; 2 of 225 lines lost.
 - 60:5:8: no option of the fish-growth PYQ matches an official figure — check.
 - 61:2:0.4: Vizag Steel "German and Soviet" vs listed as USSR collaboration — reconcile (it was Soviet-assisted).
+
+## rewrite b1-w120 (rows 120–124)
+- own 417 → 118 kept + 93 new (211, 51%); new 55 statements / 24 match / 13 A–R / 1 sequence; 2 of 251 lines lost (covered by PYQ yb72cb8e07e6).
+- Notes conflict: Sangita Suryodaya author "Lakshminatha" (120:1:15) vs Bandaru Lakshminarayana (123:2:6) — reconcile (Bandaru Lakshminarayana is standard).
