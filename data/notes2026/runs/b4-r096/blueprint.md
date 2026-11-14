@@ -6,7 +6,7 @@ Data: 95 PYQs keyed in keys.jsonl (83 on topic, 12 moved) plus 187 app MCQs = 28
 | Item | Count |
 |---|---|
 | PYQs | 95 (75 row 96 + 8 row 97 on topic; 12 moved: 5 within book 4, 7 to other books) |
-| Keys from the notes / generated | 76 / 19 |
+| Keys from the notes / generated | 79 / 16 |
 | Printed keys changed | 3 (NDA 2015 not a sea port: "Dharma" → Diamond Harbour; AP SI 2019 port types: Ennore natural → Paradip artificial; APSLPRB 2023 incorrect statement: sugar → crude steel "ninth") |
 | Disputed / outdated / -1 | 1 / 2 (coastline 7,517 km; Guntur now landlocked) / 0 |
 
