@@ -621,3 +621,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Outdated y70d4b41d43f Civil Aviation Minister 2012 Ajit Singh (now K. Ram Mohan Naidu).
 - y41af186e3ac holography "Navigators" kept, not verified (sources suggest museum authorities) — owner decide.
 - Psychology PYQs (Kallikak, Lewin) parked in row 1 (no psychology row).
+
+## b5-r111 (Genetic engineering, biotech regulation)
+- add_option: y0419a0c5206 PCR "DNA, without using living cells"; y8d351263c70 UPSC 2018 GM mustard "B only" (original correct option missing).
+- Disputes: y1bcf3c75ece UPSC 2012 GE prospects "1, 2 and 4" (PMF all four); y3a98c96501f gene therapy wording.
+- Unverified printed: y5d1d73ae04f HTR7, yf485adc762e Improved Samba Mahsuri, y633bb922122 terminator, y7804fb7396a crop-area flashcard; yfc1c82d081f "Eve" general knowledge.
