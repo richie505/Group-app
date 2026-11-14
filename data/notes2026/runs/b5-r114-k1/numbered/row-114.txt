@@ -1,0 +1,250 @@
+=== NEW NOTES row 114
+## SUB 0 | Mosquito-borne Diseases – Vectors and Pathogens
+[0:0] # Vector basics
+[0:1] - **Vector:** an organism (mosquito, flea, sandfly, tick, mite) that carries a pathogen between hosts – insects that transmit disease are called **vectors**.
+[0:2] - **Only female mosquitoes suck blood** (they need it for eggs) and have **bigger wings** than males; **males feed on plant juices/nectar**.
+[0:3] - **Culex, Anopheles and Aedes** – all three genera are blood-feeders found throughout the world.
+[0:4] # Mosquito → disease
+[0:5] TABLE head: Mosquito | Disease (pathogen type)
+  [0:5.0] Female Anopheles | Malaria (*Plasmodium*, protozoan)
+  [0:5.1] Aedes aegypti | Dengue, chikungunya, Zika, yellow fever (all viral)
+  [0:5.2] Aedes albopictus (Asian tiger / forest mosquito) | Dengue, chikungunya, Zika, yellow fever – NOT Japanese encephalitis (most books)
+  [0:5.3] Culex (*C. quinquefasciatus*, *C. pipiens*) | Lymphatic filariasis (nematode), Japanese encephalitis (virus)
+  [0:5.4] Haemagogus | Forest (jungle) yellow fever
+[0:6] - **NOT mosquito-borne:** kala-azar (sandfly), sleeping sickness (tsetse fly), Chagas (kissing bug), plague (rat flea), scrub typhus (chigger mite), KFD (ticks).
+[0:7] - Wrong sets often asked: "Aedes – chikungunya – **bacteria**" is wrong (chikungunya is an **alphavirus**); "Tsetse – filariasis" and "bed bug – sleeping sickness" are wrong.
+[0:8] # Disease details
+[0:9] TABLE head: Disease | Pathogen | Key fact
+  [0:9.0] Dengue ("breakbone fever") | Dengue virus (flavivirus), 4 serotypes | Platelets fall sharply → internal bleeding; virus suppresses platelet production in bone marrow, infects endothelial cells and binds platelets (CDS 2016: I, II, III)
+  [0:9.1] Chikungunya | CHIKV, alphavirus | Severe joint pain
+  [0:9.2] Zika | Zika virus (flavivirus) | Same mosquito as dengue (Aedes aegypti); also sexual and blood transmission; microcephaly risk
+  [0:9.3] Yellow fever | Yellow fever virus | Spread by mosquito – not air, water or housefly
+  [0:9.4] Japanese encephalitis | JEV (flavivirus), a virus | Infects the brain; pigs amplify, pigs + wild birds = reservoirs → keeping pigs away from settlements curbs JE; not water-borne
+  [0:9.5] Lymphatic filariasis | Nematode *Wuchereria bancrofti* (thread-like roundworm) | Lymph vessels/nodes → fever early, then chronic swelling of lower limbs = elephantiasis; *Culex* is the vector, not the cause
+[0:10] - Malaria vs dengue: common = fever, mosquito bite, human host; **different = mosquito species** (Anopheles vs Aedes) and pathogen (protozoan vs virus).
+[0:11] - **Dengue vaccine:** **Qdenga (TAK-003, Takeda)** – live-attenuated tetravalent, age 4–60; CDSCO approval **July 2026** = India's first approved dengue vaccine.
+[0:12] > Exam angle: vector of dengue/Zika (×8), what falls in dengue (platelets ×5), filariasis/elephantiasis organism and organ (×7), JE cause/organ/pigs (×4), "not mosquito-borne" (×5), only females suck blood (×2).
+[0:13] ~~ Sources: NextGen Rocket Biology p.24-26 (Sheet #15 disease table), p.28 (Sheet #16 vectors), p.31 (Sheet #18 hosts); PMF General Science Part 5 p.14-16 (Zika, dengue platelets: bone-marrow suppression, immune destruction); Rocket CA 2026 Part 02 p.111 (Qdenga, July 2026); app notes 5:114 sub 0
+## SUB 1 | Malaria and Plasmodium
+[1:0] - **Pathogen:** protozoan ***Plasmodium***; **carrier/vector = female Anopheles mosquito** (not tick, fly or louse).
+[1:1] - Parasites multiply first in the **liver**, then destroy **red blood cells**; the **spleen** enlarges (organ affected by malaria).
+[1:2] TABLE head: Species | Fact
+  [1:2.0] *P. falciparum* | Malignant (cerebral) malaria – most severe
+  [1:2.1] *P. vivax* | Relapsing malaria (dormant liver hypnozoites); old books: ~65% of India's cases (now ~40%; falciparum ~60% in 2024)
+  [1:2.2] *P. malariae*, *P. ovale* | Milder
+  [1:2.3] *P. knowlesi* | Zoonotic (macaques)
+[1:3] - **Five** Plasmodium species infect humans. Vaccine is hard because malaria is caused by **several species** (with changing antigens) – UPSC 2010.
+[1:4] - **Drugs:** **chloroquine** (prevention and treatment; *P. vivax*), quinine (from cinchona bark), **artemisinin/arteether** from the seeded plant ***Artemisia annua***; ACTs first-line for falciparum.
+[1:5] - **Vaccines:** RTS,S/AS01 (Mosquirix) and R21/Matrix-M (WHO-recommended); India's **AdFalciVax** (ICMR-RMRC Bhubaneswar) at preclinical stage (2026).
+[1:6] > Exam angle: carrier of Plasmodium (×3), malignant malaria (falciparum), 65% share (vivax), organ (spleen), drug (chloroquine, arteether), why vaccine is hard.
+[1:7] ~~ Sources: NextGen Rocket Biology p.25-26 (malaria: liver → RBC, spleen), p.29 (Sheet #17: falciparum malignant, vivax recurring/major share), p.33 (Sheet #20 drugs); PMF General Science Part 5 p.28 (five species, chloroquine for vivax, ACTs, vaccines); Rocket CA 2026 Part 02 p.111-112 (AdFalciVax); orfonline.org "More tests, fewer cases" (falciparum 60% of 2024 cases)
+## SUB 2 | Sandfly, Tsetse Fly, Kissing Bug and Other Vectors
+[2:0] TABLE head: Vector | Disease | Pathogen
+  [2:0.0] Sandfly (*Phlebotomus argentipes*) | Kala-azar (visceral leishmaniasis) – liver, spleen, bone marrow | *Leishmania donovani* (protozoan)
+  [2:0.1] Tsetse fly (*Glossina palpalis*) | Sleeping sickness (African trypanosomiasis) – brain in late stage | *Trypanosoma brucei* (unicellular protozoan)
+  [2:0.2] Triatomine (kissing) bug | Chagas disease – heart, gut | *Trypanosoma cruzi*
+  [2:0.3] Ticks (on monkeys) | Kyasanur Forest Disease = "monkey fever" – Kyasanur forest, Shivamogga, Karnataka | KFD virus
+  [2:0.4] Rat flea | Plague (*Yersinia pestis*, bacterium) | –
+  [2:0.5] Chigger mite | Scrub typhus (*Orientia tsutsugamushi*) | –
+  [2:0.6] Leafhopper / whitefly | Rice tungro / okra yellow vein mosaic | Plant viruses
+  [2:0.7] Cyclops (water flea) | Carries Guinea-worm larvae | –
+  [2:0.8] Snail (intermediate host) | Schistosomiasis | –
+[2:1] - Mosquito can carry yellow fever, dengue, filaria – **not kala-azar**.
+[2:2] > Exam angle: vector of kala-azar (×2), cause of sleeping sickness (×3), Chagas vector, KFD statements.
+[2:3] ~~ Sources: NextGen Rocket Biology p.26 (kala-azar sandfly, sleeping sickness tsetse), p.28 (Sheet #16 vectors); PMF General Science Part 4 p.54 (protozoan table: Chagas – Trypanosoma cruzi, triatomine/kissing bug); app notes 5:114 sub 0, 4
+## SUB 3 | Water-borne and Faeco-oral Diseases
+[3:0] - **Faeco-oral (contaminated water/food) group:** **cholera, typhoid, hepatitis A and E, acute diarrhoea, dysentery, polio**; also amoebiasis, ascariasis.
+[3:1] TABLE head: Disease | Pathogen | Fact
+  [3:1.0] Typhoid (enteric fever) | *Salmonella Typhi* (bacterium) | Widal test; intestine
+  [3:1.1] Cholera | *Vibrio cholerae* (bacterium) | Contaminated food/water → severe diarrhoea, dehydration; ORS
+  [3:1.2] Dysentery | Bacillary = *Shigella* (bacterial); amoebic = *Entamoeba* (protozoan) | Blood in stool
+  [3:1.3] Hepatitis A, E | Viruses | Inflammation of the liver → jaundice; spread by polluted water
+  [3:1.4] Polio | Poliovirus | Enters through polluted food and water; spinal cord
+  [3:1.5] Acute diarrhoea | Rotavirus, *E. coli*, *Shigella* | Leading child killer; acute diarrhoeal diseases caused the most water-borne deaths in India (2012-2017)
+  [3:1.6] Food poisoning | *Salmonella* (not Anopheles, Culex, Aedes) | Contaminated food
+[3:2] - **Unsafe water + poor sanitation** (developing countries): **malaria, acute diarrhoea, schistosomiasis**; ~**5,000 children die daily** worldwide. **Kwashiorkor** (protein deficiency) is NOT water-borne.
+[3:3] - **Floods** spread cholera, typhoid, hepatitis, **leptospirosis**.
+[3:4] - **Shallow hand-pump** water → cholera, typhoid, jaundice – **NOT fluorosis** (fluoride, deep groundwater).
+[3:5] - **GI diseases:** symptoms are diarrhoea, vomiting, abdominal pain – **kidney failure is not** a GI symptom. **Inflammatory bowel disease** = gastrointestinal tract.
+[3:6] # Look-alikes that are NOT water-borne
+[3:7] TABLE head: Item | Route / fact
+  [3:7.0] Hepatitis B | Blood, sex, mother-to-child – much like HIV; has a vaccine (Hep C has none); many carriers symptomless for years; Hep B + C infections several times HIV
+  [3:7.1] Jaundice | A symptom of liver disease (bilirubin), not a disease of one microbe – not so contagious
+  [3:7.2] TB, pneumonia | Airborne bacterial
+[3:8] # Chemical contaminants of water
+[3:9] TABLE head: Contaminant | Disease
+  [3:9.0] Arsenic | Blackfoot disease
+  [3:9.1] Cadmium | Itai-itai
+  [3:9.2] Mercury | Minamata
+  [3:9.3] Nitrate | Blue-baby syndrome
+  [3:9.4] Fluoride | Fluorosis
+[3:10] - **MacConkey agar:** detects ***E. coli*** (lactose-fermenting coliforms – faecal contamination indicator).
+[3:11] > Exam angle: "not water-borne" (×6), typhoid diagnosis/agent (×4), Hepatitis B "not correct" statement (UPSC 2019 ×2), hand-pump except fluorosis (×2), cholera (×3), jaundice/liver (×4).
+[3:12] ~~ Sources: NextGen Rocket Biology p.24-25 (polio fecal-oral, Hep B blood/sexual, cholera, typhoid), p.121 (amoebic dysentery); PMF General Science Part 5 p.13-14 (UPSC 2019 Hep B/C PYQ: Hep B has a vaccine), Part 4 p.53 (diarrhoea: shigella, entamoeba); PMF Environment Part 4 p.68 (arsenic – black foot disease; fluorosis); gktoday.in (dysentery = bacterial, SSC key); app notes 5:114 sub 2
+## SUB 4 | Worm (Helminth) Diseases
+[4:0] TABLE head: Disease | Worm (phylum) | Fact
+  [4:0.0] Ascariasis | *Ascaris lumbricoides* – nematode (parasitic) | Swallowed eggs; blocks the intestine; eggs passed in faeces
+  [4:0.1] Filariasis | *Wuchereria bancrofti* – nematode | Lymph vessels (see vectors)
+  [4:0.2] Taeniasis | Tapeworms *Taenia solium* (pork), *T. saginata* (beef), *T. asiatica* – Platyhelminthes | Intestinal; cysts in brain = neurocysticercosis (NCC)
+  [4:0.3] Fascioliasis | *Fasciola hepatica* = sheep liver fluke – Platyhelminthes | Liver and bile ducts; ruminants main host; raw water plants; snail host; causes obstructive jaundice in cattle
+  [4:0.4] Schistosomiasis | Flatworm *Schistosoma* | Unsafe water; snail host
+  [4:0.5] Guinea worm | *Dracunculus medinensis* – nematode (not annelid) | Water with infected Cyclops
+[4:1] - **Tapeworm = hermaphrodite**; **roundworm = separate sexes**; **filaria is caused by a nematode** (UPSC 2001: 1, 2, 3 correct).
+[4:2] > Exam angle: tapeworm/taeniasis (×3), liver fluke organ/host (×2), Ascaris (×2), phylum of Taenia/Fasciola.
+[4:3] ~~ Sources: NextGen Rocket Biology p.26 (fascioliasis, neurocysticercosis, ascariasis), p.31 (Sheet #18 parasites: Dracunculus + Cyclops, Taenia pork); app notes 5:114 sub 1
+## SUB 5 | Fungal Diseases, Mycotoxins and Plant Diseases
+[5:0] TABLE head: Disease | Fungus | Fact
+  [5:0.0] Ringworm | Dermatophytes (fungi) | The disease caused only by fungal infection; treated with griseofulvin
+  [5:0.1] Athlete's foot | *Trichophyton, Epidermophyton, Microsporum* (fungus) | Contaminated floors, towels
+  [5:0.2] Seborrhoeic dermatitis | *Malassezia* yeast | Fungal-linked skin disease
+  [5:0.3] Ergotism | *Claviceps purpurea* on rye | Eating contaminated grains
+  [5:0.4] Aflatoxin | *Aspergillus flavus, A. parasiticus* | Damages the liver
+  [5:0.5] Mucormycosis | Mucormycetes | Nose, sinuses, eyes, brain
+[5:1] - **Baldness** = the keyed "fungal" answer among allergy, colour blindness, AIDS (tinea capitis causes patchy hair loss); **colour blindness = genetic**, AIDS = viral, allergy = immune.
+[5:2] - **Epidemic dropsy:** mustard oil adulterated with *Argemone mexicana* (sanguinarine).
+[5:3] TABLE head: Plant disease | Cause
+  [5:3.0] Spike disease of sandal | Phytoplasma = MLO (mycoplasma-like organism)
+  [5:3.1] Rust of wheat | *Puccinia* (fungus)
+  [5:3.2] Smut | *Ustilago*
+[5:4] > Exam angle: fungal disease (×5), aflatoxin organ, ergotism cause, sandal spike.
+[5:5] ~~ Sources: NextGen Rocket Biology p.26 (athlete's foot, ergotism), p.33 (toxins: ergot, aflatoxin, Argemone), p.39 (Sheet #23 fungal agents), p.120 (dermatophytes – ringworm); PMF General Science Part 4 p.47 (fungal: athlete's foot, ringworm); app notes 5:114 sub 1
+## SUB 6 | Bacterial and Viral Diseases – Quick Match
+[6:0] TABLE head: Bacterial | Fact
+  [6:0.0] Tuberculosis | *Mycobacterium tuberculosis*; airborne; lungs; Mantoux test; India TB deaths ~3 lakh a year (mortality 21 per lakh, 2024)
+  [6:0.1] Leprosy (Hansen's) | *M. leprae / M. lepromatosis*; skin, peripheral nerves
+  [6:0.2] Tetanus = "lock jaw" | *Clostridium tetani*; contaminated wound
+  [6:0.3] Anthrax | *Bacillus anthracis* (bacterium)
+  [6:0.4] Diphtheria | *Corynebacterium*; false membrane in throat; respiratory droplets
+  [6:0.5] Pertussis | Whooping cough (*Bordetella*); respiratory droplets
+  [6:0.6] Gonorrhoea | *Neisseria* – sexually transmitted (not leukaemia, malaria, thalassemia)
+  [6:0.7] Syphilis | *Treponema pallidum*
+  [6:0.8] Botulism | *C. botulinum* toxin; nerves
+  [6:0.9] Trachoma | *Chlamydia*; eyelid scarring
+  [6:0.10] Atypical pneumonia | *Mycoplasma pneumoniae*
+[6:1] # Viral
+[6:2] TABLE head: Viral | Fact
+  [6:2.0] AIDS | HIV = retrovirus (RNA, reverse transcriptase); destroys helper T cells (immune system)
+  [6:2.1] Common cold | Rhinovirus
+  [6:2.2] Herpes | Viral (malaria protozoan; typhoid, diphtheria bacterial)
+  [6:2.3] Hepatitis | Viral (A, E water-borne)
+  [6:2.4] Measles | Airborne, highly contagious
+  [6:2.5] Mumps | Parotid glands; saliva
+  [6:2.6] COVID-19 | SARS-CoV-2; respiratory
+  [6:2.7] Polio, rabies, chickenpox | Viral
+[6:3] - **Meningitis:** inflammation (swelling) of the **meninges** covering brain and spinal cord.
+[6:4] - **Pneumonia:** infection of the **alveoli** (air sacs) – they fill with fluid or pus.
+[6:5] - **Triple antigen (DPT):** diphtheria, whooping cough, tetanus – not polio. Rheumatic fever follows *Streptococcus pyogenes*.
+[6:6] > Exam angle: bacterial disease (×4), AIDS virus type, rhinovirus, tetanus = lock jaw, meningitis, pneumonia alveoli, STD.
+[6:7] ~~ Sources: NextGen Rocket Biology p.24-25 (Sheet #15: viral/bacterial table), p.29-30, p.40 (bacteria list); PMF General Science Part 4 p.50 (leprosy, tetanus lockjaw, meningitis), p.52 (common cold – rhinoviruses), Part 5 p.7-9 (HIV retrovirus), p.18 (pneumonia alveoli); Rocket CA 2026 Part 02 p.113 (TB mortality 21 per lakh, 2024); app notes 5:114 sub 3
+## SUB 7 | Infection, Immunity and Vaccination
+[7:0] - **Disease vs symptom:** **cholera** is a disease; fever, sneezing, headache are symptoms. Typhoid is a type of **fever** (enteric fever).
+[7:1] - **Contagious:** **yawning** is the classic contagious reflex (not snoring, gnashing, vomiting). Infectious diseases (AIDS, chickenpox, mumps, herpes) pass from person to person; AIDS is **not spread by casual contact**.
+[7:2] - **Measles:** infants **below six months** are protected by **maternal antibodies** (natural passive immunity); MR vaccine at 9-12 and 16-24 months.
+[7:3] - **No vaccine** controls **diabetes**; polio, whooping cough, smallpox are vaccine-preventable. **Rickets** (vitamin D deficiency) cannot be prevented by any UIP vaccine.
+[7:4] - **Smallpox:** WHO declared it **eradicated in 1980** (8 May); India free in **1977** – the only human disease eradicated.
+[7:5] - **Rabies:** spread through the **saliva** of a rabid animal (bite) → nervous system, hydrophobia.
+[7:6] - **Community transmission (COVID-19):** an infected person in the community, unaware of infection, infects others – the source cannot be traced to travel or a known contact.
+[7:7] > Exam angle: contagious/infectious (×4), measles immunity, no vaccine (diabetes, rickets), smallpox 1980.
+[7:8] ~~ Sources: NextGen Rocket Biology p.24 (rabies saliva, measles), p.32 (Sheet #19 vaccines), p.37 (Sheet #22 terms); PMF General Science Part 5 p.5-9 (contagious diseases, HIV); app notes 5:114 sub 3; yawning contagious – general knowledge, not checked
+## SUB 8 | Zoonotic and Animal Diseases
+[8:0] TABLE head: Disease | Animal source
+  [8:0.0] Rabies (hydrophobia) | Dogs, cats, bats, foxes – bite/saliva; nervous system
+  [8:0.1] Nipah | Fruit bats (*Pteropus*); Kozhikode, Kerala (May 2018, 17 deaths)
+  [8:0.2] Bird flu / swine flu | H5N1 (poultry) / H1N1 (pigs)
+  [8:0.3] Plague | Rodents via rat fleas
+  [8:0.4] KFD | Monkeys, via ticks
+  [8:0.5] Ebola | Named after a river; primates
+  [8:0.6] SARS | Civet cats
+  [8:0.7] Anthrax | Livestock (*Bacillus anthracis*)
+  [8:0.8] Mpox | Rope squirrel (DR Congo, 1985)
+[8:1] - **Rabies, Ebola, Nipah = zoonotic viral**; **malaria = vector-borne, not zoonotic**; pigs host swine flu and JE – not rabies or bird flu.
+[8:2] # Livestock diseases
+[8:3] TABLE head: Disease | Pathogen | Animals
+  [8:3.0] Rinderpest | Morbillivirus | Cattle, buffalo; eradicated 2011
+  [8:3.1] Foot-and-mouth | Aphthovirus | Cloven-hoofed
+  [8:3.2] Ranikhet (Newcastle) | Virus | Chickens and poultry
+  [8:3.3] Black quarter | *Clostridium chauvoei* | Cattle, sheep
+  [8:3.4] Cowpox | Cowpox virus | Cattle
+  [8:3.5] Mastitis | Bacteria | Inflammation of the udder in dairy animals
+[8:4] # Veterinary diagnosis
+[8:5] TABLE head: Test | Disease
+  [8:5.0] Haemagglutination inhibition (HI) | Screening Ranikhet (Newcastle) disease
+  [8:5.1] Polychrome methylene blue (M'Fadyean) stain on blood smear | Anthrax (*B. anthracis*)
+  [8:5.2] California Mastitis Test (CMT) | Mastitis
+  [8:5.3] Milk ring test, Rose Bengal plate test, Coombs test | Brucellosis – all of these
+  [8:5.4] Fasciolosis in cattle | Obstructive jaundice (flukes block bile ducts)
+[8:6] - **Fever types:** **remittent** – temperature rises and falls by **more than 2°F** in 24 h but never returns to normal; intermittent – fever bouts with fever-free periods; transient – subsides within ~24 h.
+[8:7] > Exam angle: animal-husbandry tests (×5), mastitis, rabies saliva, anthrax cause, fever types.
+[8:8] ~~ Sources: NextGen Rocket Biology p.24-25 (rabies, Ranikhet, rinderpest, FMD), p.37 (Sheet #22 animal hosts: anthrax, black quarter, cowpox); vetscraft.com "Fever or Pyrexia" (remittent >2°F in 24 h); app notes 5:114 sub 4; vet tests (HI, polychrome methylene blue, CMT, brucellosis tests) – general knowledge, not checked
+## SUB 9 | Vector Control, Insecticide Resistance and Elimination
+[9:0] - **DDT resistance** in mosquitoes = **natural selection**: resistant individuals survive and breed, so resistance spreads.
+[9:1] TABLE head: Bio-control | Mechanism
+  [9:1.0] *Gambusia affinis* (mosquito fish), guppy | Larvivorous fish – eat larvae
+  [9:1.1] Bti | Bacterial bio-larvicide
+  [9:1.2] Wolbachia | Bacterium; controls viral diseases spread by mosquitoes (dengue, chikungunya, Zika) through cytoplasmic incompatibility + pathogen blocking; no GM, no pesticide
+  [9:1.3] Pitcher plant | Insectivorous plant – traps insects
+[9:2] - Wolbachia: in **50-60%** of insect species; **naturally absent in Aedes aegypti and Anopheles**. Verily **'Debug'** (2 Jun 2026): Wolbachia male *Culex quinquefasciatus* released.
+[9:3] - **NCVBDC** (ex-NVBDCP): six diseases – **malaria, JE, dengue, chikungunya, kala-azar, lymphatic filariasis** (not TB). **Elimination:** malaria, LF, kala-azar; dengue, chikungunya, JE only controlled.
+[9:4] - **National Framework for Malaria Elimination (2016-2030):** zero indigenous cases by **2027**, malaria-free India by **2030**. **MERA India** – ICMR, 24 April 2019.
+[9:5] - WHO malaria-free in South Asia: **Maldives (2015), Sri Lanka (2016)**. Malaria and dengue are outbreak-prone and climate-sensitive.
+[9:6] > Exam angle: Wolbachia method (UPSC 2023), DDT – natural selection (APPSC G2 Mains 2017).
+[9:7] ~~ Sources: NextGen Rocket Biology p.33 (DDT against Anopheles); Rocket CA 2026 Part 02 p.112 (zero indigenous malaria by 2027, elimination 2030); app notes 5:114 sub 5
+## SUB 10 | Air Pollution and Health
+[10:0] - Main target of air pollution: **respiratory system**; also heart disease, stroke, lung cancer.
+[10:1] - **PM2.5 raises heart disease** because these fine particles **penetrate deep into the lungs and enter the blood** (A and R true, R explains A).
+[10:2] - Air pollution comes from **natural sources too** (volcanoes, dust, forest fires) – "only human activities" is false; **planting trees reduces** it (only Statement II true).
+[10:3] - **WHO:** **4.2 million** premature deaths from **ambient** air pollution (**2019**). State of Global Air 2020: 116,000+ Indian infants died within a month of birth (2019).
+[10:4] - **IQAir 2025:** India **6th** most polluted country (PM2.5 **48.9 µg/m³**); only 13 countries met the WHO annual guideline of **5 µg/m³**.
+[10:5] - **DALY = YLL + YLD.** Noise: hearing loss, hypertension, anxiety, sleep disorders.
+[10:6] > Exam angle: PM2.5 assertion-reason, air-pollution statements.
+[10:7] ~~ Sources: Rocket CA 2026 Part 01 p.21-22 (World Air Quality Report: India 6th, 48.9 µg/m³, WHO guideline 5); app notes 5:114 sub 6
+## SUB 11 | Climate-sensitive Diseases
+[11:0] TABLE head: Factor | Effect
+  [11:0.0] Floods | Cholera, hepatitis outbreaks
+  [11:0.1] Heatwaves | Dehydration, heatstroke, cardiovascular stress
+  [11:0.2] Warming | Expands range of dengue and malaria vectors
+[11:1] - **3.6 billion+** people live in highly climate-vulnerable areas.
+[11:2] - **WHO:** ~**2.5 lakh extra deaths a year** (2030-2050): **child undernutrition 95,000**, malaria 60,000, diarrhoea 48,000, heat (elderly) 38,000.
+[11:3] - **58% (218 of 375)** human infectious diseases aggravated by climate hazards (2022).
+[11:4] - Dasra **'Under the Weather'** (10 Apr 2026): ~**40% of districts** at high extreme-weather risk.
+[11:5] ~~ Sources: app notes 5:114 sub 7
+## SUB 12 | Antibiotics and Antimicrobial Resistance
+[12:0] # Antibiotics
+[12:1] - **Fleming: penicillin, 1928**; **Waksman** coined "antibiotic", found **streptomycin** (first anti-TB drug).
+[12:2] - Most antibiotics are **natural or semi-synthetic**, mostly from bacteria (*Streptomyces*); sulfa drugs synthetic. **Prontosil** (Domagk, 1935) → sulfanilamide.
+[12:3] - **Griseofulvin** treats ringworm; **Acetobacter** → vinegar; chloroquine = antimalarial.
+[12:4] # How AMR builds
+[12:5] - Causes: incorrect dose, **incomplete course** (resistant survivors left to multiply), overuse, **self-medication**, livestock use, **mutation**, horizontal gene transfer.
+[12:6] - Severity: **MDR → XDR → TDR**.
+[12:7] - **Biofilm:** microbes in a self-made **EPS (extracellular polymeric substance)** matrix on **implants, catheters, tissues, food surfaces**; blocks antibiotics → chronic infection; food spoilage and contamination.
+[12:8] # Policy and new drugs
+[12:9] TABLE head: Item | Fact
+  [12:9.0] Nafithromycin (Miqnaf) | First indigenous macrolide; community-acquired pneumonia; Wockhardt + BIRAC (not Sun Pharma); launched 20 Nov 2024 by Dr Jitendra Singh
+  [12:9.1] NAP-AMR | 2017, One Health based
+  [12:9.2] Kerala KARSAP | 2018, first State AMR plan
+  [12:9.3] Red Line campaign | 2016; red line on packs of prescription-only antibiotics (not all OTC medicines)
+  [12:9.4] WHO Bacterial Priority Pathogens 2024 | Critical: carbapenem-resistant *Acinetobacter baumannii*, Enterobacterales, rifampicin-resistant TB
+[12:10] ~~ Sources: app notes 5:114 sub 8
+## SUB 13 | One Health, Surveillance and Programmes
+[13:0] - **One Health** = human, animal, plant and environmental health together; **biodiversity loss raises zoonotic and pandemic risk**. **One Health Summit 2026**: Lyon, France, 5–7 April (French G7 Presidency); Quadripartite = WHO, FAO, UNEP, WOAH.
+[13:1] - **National One Health Mission** (**PM-STIAC**); **National Institute of One Health, Nagpur**.
+[13:2] TABLE head: Programme / Act | Fact
+  [13:2.0] Epidemic Diseases Act, 1897 | Bubonic plague, Bombay; 4 sections; amended 2020 to protect health workers
+  [13:2.1] IDSP (2004) | MoHFW / NCDC; IHIP digital platform
+  [13:2.2] UIP (1985) | 6 diseases at launch, now 12 (not malaria)
+  [13:2.3] Mission Indradhanush | Dec 2014; >90% full immunisation
+  [13:2.4] U-WIN | Registers every UIP vaccination
+  [13:2.5] Nikshay Poshan Yojana | Nutrition support (DBT) for TB patients
+[13:3] ~~ Sources: Rocket CA 2026 Part 02 p.13 (One Health Summit 2026, Lyon; Quadripartite), p.110-111 (U-WIN); app notes 5:114 sub 9
+## SUB 14 | Andhra Pradesh – Disease Burden and Response
+[14:0] TABLE head: Year | Malaria | Dengue
+  [14:0.0] 2023 | 5,268 (0 deaths) | 6,453
+  [14:0.1] 2024 | 7,871 (0 deaths) | 5,555
+  [14:0.2] 2025 | 7,119 (8 deaths) | 2,686
+  [14:0.3] 2026 (to 30 Aug) | 7,895 (+27.9%) | 1,475
+[14:1] - 2026 malaria hotspots: **ASR, Polavaram, Vizianagaram**; scrub typhus **941** (2026).
+[14:2] - **Agency (tribal) districts** carry most malaria and scrub typhus.
+[14:3] - Response: **IRS, LLINs, source reduction**; 24-member task force (7 Jan 2026); zoonoses State Action Plan (Jul 2026).
+[14:4] - **Adult BCG drive** from **16 May 2024** → AP first in India.
+[14:5] - India: life expectancy 49.7 (1973) → **70.3** (2023); **NCDs >57%** of deaths – double burden.
+[14:6] ~~ Sources: app notes 5:114 sub 10

@@ -1,0 +1,930 @@
+=== NOTES 5:114 | Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health
+## SUB 0 | Vector-borne Diseases
+[114:0:0] - Vector-borne = spread by a **vector** (mosquito, flea, sandfly, mite).
+[114:0:1] - **Only female mosquitoes suck blood** (bigger wings); males feed on plant juices. **Culex, Anopheles, Aedes** are found worldwide.
+[114:0:2] # Vector → Disease
+[114:0:3] TABLE head: Vector | Disease (pathogen)
+  [114:0:3.0] Female Anopheles | Malaria (*Plasmodium*, protozoan)
+  [114:0:3.1] Aedes aegypti | Dengue, chikungunya, Zika, yellow fever
+  [114:0:3.2] Aedes albopictus (tiger / forest mosquito) | Dengue, chikungunya, yellow fever – NOT JE
+  [114:0:3.3] Culex (*C. quinquefasciatus*) | Filariasis, Japanese encephalitis
+  [114:0:3.4] Haemagogus | Forest yellow fever
+  [114:0:3.5] Sandfly (*Phlebotomus argentipes*) | Kala-azar (*Leishmania donovani*)
+  [114:0:3.6] Tsetse fly (*Glossina*) | Sleeping sickness (*Trypanosoma brucei*)
+  [114:0:3.7] Chigger mite | Scrub typhus (*Orientia tsutsugamushi*)
+  [114:0:3.8] Rat flea | Plague (*Yersinia pestis*)
+  [114:0:3.9] Ticks (monkeys) | Kyasanur Forest Disease
+  [114:0:3.10] Cyclops (water flea) | Carries Guinea worm larvae
+  [114:0:3.11] Snail (intermediate host) | Schistosomiasis
+  [114:0:3.12] Leafhopper / whitefly | Rice tungro / okra yellow vein mosaic
+[114:0:4] Not spread by mosquitoes: kala-azar, sleeping sickness, scrub typhus, plague (APPSC G2 2025). Mosquito-borne: Zika, West Nile, chikungunya, dengue, malaria, JE, filariasis.
+[114:0:5] # Disease Details
+[114:0:6] TABLE head: Disease | Pathogen | Affects
+  [114:0:6.0] Malaria | Protozoan *Plasmodium* | Liver first, then RBCs; enlarged spleen
+  [114:0:6.1] Dengue ("breakbone fever") | Flavivirus | Platelets fall → internal bleeding (APPSC 2023)
+  [114:0:6.2] Chikungunya | Alphavirus (viral, not bacterial) | Severe joint pain
+  [114:0:6.3] Zika | Zika virus; also blood, sexual spread | Fever, rash, joint pain
+  [114:0:6.4] JE | JEV (flavivirus) | Brain; pigs amplify, pigs + wild birds = reservoirs
+  [114:0:6.5] Kala-azar | *Leishmania* | Liver, spleen, bone marrow
+  [114:0:6.6] Sleeping sickness | *T. b. rhodesiense, T. b. gambiense* | Brain (late stage); tropical Africa
+  [114:0:6.7] Filariasis | Nematode *Wuchereria bancrofti* | Lymph vessels → elephantiasis; fever, swelling of lower limbs
+[114:0:7] - **Pigs away** from settlements curbs JE. Malaria vs dengue: female **Anopheles** vs female **Aedes aegypti**.
+[114:0:8] # Plasmodium
+[114:0:9] - Five human species: ***P. falciparum, vivax, malariae, ovale, knowlesi***.
+[114:0:10] - ***P. falciparum*** = **most lethal, malignant/cerebral malaria**, no relapse.
+[114:0:11] - ***P. vivax*** = **~65%** of India's cases; **relapsing** (liver **hypnozoites**).
+[114:0:12] - Vaccine hard: species have **different antigens**.
+[114:0:13] - **Arteether** from ***Artemisia annua***.
+## SUB 1 | Worm, Protozoan and Fungal Diseases
+[114:1:0] TABLE head: Disease | Cause | Note
+  [114:1:0.0] Amoebiasis | *Entamoeba histolytica* | Large intestine
+  [114:1:0.1] Ascariasis | Nematode *Ascaris lumbricoides* | Swallowing eggs; small intestine
+  [114:1:0.2] Fascioliasis | Flatworm *Fasciola hepatica* (sheep liver fluke) | Liver, bile ducts; ruminants; raw water plants; snail host
+  [114:1:0.3] Taeniasis | *Taenia solium* (pork), *T. saginata* (beef) | Eggs → neurocysticercosis (brain cysts)
+  [114:1:0.4] Guinea worm | Nematode *Dracunculus medinensis* (not annelid) | Drinking water with Cyclops
+  [114:1:0.5] Schistosomiasis | Flatworm *Schistosoma* | Urinary tract, intestine; unsafe water
+  [114:1:0.6] Athlete's foot | *Trichophyton, Epidermophyton, Microsporum* | Skin between toes; floors, towels
+  [114:1:0.7] Mucormycosis | Mucormycetes | Nose, sinuses, eyes, brain; not zoonotic
+  [114:1:0.8] Ergotism | *Claviceps purpurea* on rye | Nervous, vascular, endocrine
+  [114:1:0.9] Aflatoxin | *Aspergillus flavus, A. parasiticus* | Liver; badly stored grain; not destroyed by cooking
+[114:1:1] - **Tapeworm = hermaphrodite**; roundworm = separate sexes.
+[114:1:2] - Ringworm – dermatophytes (**griseofulvin**); candidiasis – *Candida*; aspergillosis – *Aspergillus*; **Amanita** – alpha-amanitin.
+[114:1:3] - **Epidemic dropsy**: mustard oil adulterated with ***Argemone mexicana*** (sanguinarine).
+[114:1:4] - Fungal (per keys): baldness, seborrheic dermatitis; **colour blindness = genetic**.
+[114:1:5] - Plant: *Puccinia* – rust of wheat; *Ustilago* – smut.
+## SUB 2 | Water-borne Diseases
+[114:2:0] - **Faeco-oral** group: **cholera, typhoid, hepatitis A and E, acute diarrhoea, dysentery, polio**.
+[114:2:1] TABLE head: Disease | Pathogen | Fact
+  [114:2:1.0] Typhoid | *Salmonella Typhi* | Widal test; intestine
+  [114:2:1.1] Cholera | *Vibrio cholerae* | Toxin → dehydration; ORS; small intestine
+  [114:2:1.2] Hepatitis A, E | Viruses | Jaundice
+  [114:2:1.3] Acute diarrhoea | Rotavirus, E. coli, Shigella | Leading child killer
+  [114:2:1.4] Polio | Poliovirus | Spinal cord, paralysis
+[114:2:2] - ~**5,000 children die daily** worldwide from preventable water- and sanitation-related disease.
+[114:2:3] - **Floods**: cholera, typhoid, hepatitis, **leptospirosis**.
+[114:2:4] - Shallow hand pumps: cholera, typhoid, jaundice – **not fluorosis**.
+[114:2:5] - Unsafe-water diseases: **malaria, acute diarrhoea, schistosomiasis**; **kwashiorkor NOT**.
+[114:2:6] - Remedies: **Jal Jeevan Mission, Swachh Bharat, AMRUT**.
+[114:2:7] # Look-alikes NOT Water-borne
+[114:2:8] TABLE head: Disease | Route
+  [114:2:8.0] Hepatitis B | Blood, sex, mother-to-child; DNA virus; has a vaccine
+  [114:2:8.1] Hepatitis C | Blood; no vaccine
+  [114:2:8.2] TB | Airborne; Mantoux test
+  [114:2:8.3] Jaundice | A symptom (liver, bilirubin), not so contagious
+  [114:2:8.4] Contaminant | Disease
+  [114:2:8.5] Cadmium | Itai-itai
+  [114:2:8.6] Arsenic | Blackfoot
+  [114:2:8.7] Mercury | Minamata
+  [114:2:8.8] Nitrate | Blue-baby
+  [114:2:8.9] Fluoride | Fluorosis
+## SUB 3 | Bacterial and Viral Diseases – Quick Match
+[114:3:0] TABLE head: Bacterial | Fact
+  [114:3:0.0] TB | *M. tuberculosis*; lungs; kills 3-5 lakh Indians/yr
+  [114:3:0.1] Leprosy (Hansen's) | *M. leprae / M. lepromatosis*; skin, peripheral nerves
+  [114:3:0.2] Tetanus ("lock jaw") | *C. tetani*; via wound
+  [114:3:0.3] Diphtheria | *Corynebacterium*; false membrane in throat
+  [114:3:0.4] Pertussis | Whooping cough
+  [114:3:0.5] Gonorrhoea / Syphilis | *Neisseria* / *Treponema*; sexual (not droplets)
+  [114:3:0.6] Botulism | *C. botulinum* toxin; nerves, paralysis
+  [114:3:0.7] Trachoma | *Chlamydia*; eyelid scarring, blindness
+  [114:3:0.8] Atypical pneumonia | *Mycoplasma pneumoniae*
+  [114:3:0.9] Brucellosis, plague | Bacteria
+[114:3:1] - **Triple antigen (DPT)**: diphtheria, whooping cough, tetanus.
+[114:3:2] - **P-amino salicylic acid** treats **both TB and leprosy**.
+[114:3:3] - **Smallpox** = only disease eradicated in India (**1977**).
+[114:3:4] - **Rheumatic fever** follows *Streptococcus pyogenes* infection (not counted bacterial).
+[114:3:5] TABLE head: Viral | Fact
+  [114:3:5.0] AIDS | HIV, retrovirus; kills helper T cells; blood, sex, placenta – not mosquitoes; swollen nodes, night sweats, memory loss, weight loss
+  [114:3:5.1] Measles | Viral, airborne; antibiotics cannot cure
+  [114:3:5.2] Mumps | Parotid glands; saliva
+  [114:3:5.3] COVID-19 | SARS-CoV-2 (RNA coronavirus); lungs
+  [114:3:5.4] Common cold | Rhinovirus
+  [114:3:5.5] Viral set | Mumps, rabies, herpes, chickenpox, polio
+[114:3:6] - **Measles in infants:** maternal antibodies (natural **passive** immunity) protect under ~6 months; MR vaccine at 9-12 and 16-24 months.
+[114:3:7] - **Meningitis**: meninges; *Haemophilus influenzae* in young children.
+[114:3:8] - **Pneumonia**: lung air sacs; **emphysema** (COPD) pollution-linked; **pneumoconiosis**: coal miners.
+[114:3:9] - No vaccine controls **diabetes**.
+[114:3:10] - **Diphtheria and pertussis (whooping cough):** spread from person to person through the respiratory route (droplets from coughing and sneezing).
+## SUB 4 | Zoonotic Diseases
+[114:4:0] TABLE head: Disease | Animal source
+  [114:4:0.0] Rabies (hydrophobia) | Dogs, cats, bats, foxes – bite/saliva; nervous system
+  [114:4:0.1] Nipah | Fruit bats (*Pteropus*) reservoir; pigs intermediate host
+  [114:4:0.2] Bird flu | H5N1; hens, ducks
+  [114:4:0.3] Swine flu | H1N1 (named 2009); pigs
+  [114:4:0.4] Plague | Rodents via rat fleas; buboes
+  [114:4:0.5] KFD | Monkeys, via ticks
+  [114:4:0.6] Ebola | Non-human primates; named after a river
+  [114:4:0.7] SARS | Civet cats
+  [114:4:0.8] Anthrax | Livestock (*Bacillus anthracis*)
+  [114:4:0.9] Mpox | Rodents (rope squirrels, dormice, pouched rats); first isolated from a rope squirrel, DR Congo, 1985
+[114:4:1] - **Nipah**: Kerala, **Kozhikode, May 2018 (17 deaths)**; returned **Sept 2021**.
+[114:4:2] - **Rabies = zoonotic, not vector-borne**; **malaria = vector-borne, not zoonotic**.
+[114:4:3] - Pigs host swine flu and JE – **not rabies or bird flu**.
+[114:4:4] Polio–monkey is a wrong pair; mucormycosis is not zoonotic.
+[114:4:5] # Animal Diseases
+[114:4:6] TABLE head: Disease | Pathogen | Animals
+  [114:4:6.0] Rinderpest (cattle plague) | Morbillivirus | Cattle, buffalo; eradicated 2011
+  [114:4:6.1] Foot-and-mouth | Aphthovirus | Cloven-hoofed: cattle, sheep, goat, pig
+  [114:4:6.2] Ranikhet (Newcastle) | Virus | Chickens
+  [114:4:6.3] Black quarter | *Clostridium chauvoei* | Cattle, sheep, goats
+  [114:4:6.4] Cowpox | Cowpox virus | Cattle
+[114:4:7] - Milch animals get: **foot-and-mouth, anthrax, black quarter, cowpox**.
+[114:4:8] - **Viral zoonoses:** rabies, Ebola and Nipah are viral diseases that pass from animals to humans.
+## SUB 5 | Vector Control and Elimination
+[114:5:0] - **NVBDCP (now NCVBDC)**: six diseases – **malaria, JE, dengue, chikungunya, kala-azar, LF** (**not TB**).
+[114:5:1] - **Elimination**: malaria, LF, kala-azar; dengue, chikungunya, JE only controlled.
+[114:5:2] - **National Framework for Malaria Elimination (2016-2030)**: **malaria-free India by 2030**.
+[114:5:3] - **MERA India** (Malaria Elimination Research Alliance): **ICMR**, **24 April 2019**; steered by **ICMR-NIMR, New Delhi**.
+[114:5:4] - WHO malaria-free in South Asia: **Maldives (2015), Sri Lanka (2016)**.
+[114:5:5] TABLE head: Bio-control | Mechanism
+  [114:5:5.0] *Gambusia affinis* (mosquito fish), guppy | Larvivorous fish
+  [114:5:5.1] Bti | Bacterial bio-larvicide
+  [114:5:5.2] Wolbachia | Bacterium; cytoplasmic incompatibility + pathogen blocking; no GM, no pesticide
+[114:5:6] - Wolbachia: in about **50%** of insect species; **naturally absent in Aedes aegypti and Anopheles**; blocks dengue, chikungunya, Zika.
+[114:5:7] - Verily **'Debug'** (2 Jun 2026): Wolbachia male *Culex quinquefasciatus* released.
+## SUB 6 | Air Pollution and Health
+[114:6:0] - Main target: **respiratory system** (APPSC 2023); also heart, stroke, lung cancer.
+[114:6:1] - **WHO**: **4.2 million** premature deaths from **ambient** air pollution (**2019**).
+[114:6:2] - **State of Global Air 2020**: air pollution killed **116,000+ Indian infants** within a month of birth (2019).
+[114:6:3] - **DALY = YLL + YLD**.
+[114:6:4] - **Noise**: hearing loss, hypertension, anxiety, sleep disorders.
+## SUB 7 | Climate-sensitive Diseases
+[114:7:0] TABLE head: Factor | Effect
+  [114:7:0.0] Floods | Cholera, hepatitis outbreaks
+  [114:7:0.1] Heatwaves | Dehydration, heatstroke, cardiovascular stress
+  [114:7:0.2] Warming | Expands range of dengue and malaria vectors
+[114:7:1] - **3.6 billion+** people in highly climate-vulnerable areas.
+[114:7:2] - **WHO**: ~**2.5 lakh extra deaths a year** (2030-2050): **child undernutrition 95,000, malaria 60,000, diarrhoea 48,000, heat (elderly) 38,000**.
+[114:7:3] - **58% (218 of 375)** human infectious diseases aggravated by climate hazards (2022).
+[114:7:4] - Dasra 'Under the Weather' (10 Apr 2026): **~40% of districts** at high extreme-weather risk.
+[114:7:5] - **Malaria and dengue** = outbreak-prone and climate-sensitive.
+## SUB 8 | Antibiotics and Antimicrobial Resistance
+[114:8:0] # Antibiotics
+[114:8:1] - **Fleming**: **penicillin, 1928** (*Penicillium notatum*); **Waksman** coined "**antibiotic**" (**1942**), found **streptomycin** (first anti-TB drug).
+[114:8:2] - Mostly from **bacteria (Streptomyces)**; mostly natural or semi-synthetic; **sulfa drugs synthetic**.
+[114:8:3] - **Chloramphenicol** = broad-spectrum (typhoid); Penicillin G narrow; Cibazole = short-acting sulpha.
+[114:8:4] - **Prontosil** (Domagk, 1935): a **pro-drug** converted in the body to **sulfanilamide**; began the sulpha-drug era.
+[114:8:5] - Analgesics – pain; antiseptics – stop microbes; aspirin, paracetamol – analgesic, antipyretic; chloroquine – antimalarial.
+[114:8:6] - **Acetobacter** – vinegar; **Bacillus** – several antibiotics.
+[114:8:7] - **Monoclonal antibodies**: man-made proteins binding specific antigens.
+[114:8:8] # How AMR Builds
+[114:8:9] - Causes: **incorrect dose**, **incomplete course**, **overuse**, **self-medication**, **livestock use**, unregulated veterinary drugs, **horizontal gene transfer**, mutation, poor sanitation, pharma effluents.
+[114:8:10] - **DBT Scoping Report (Nov 2017)**: MDR from **incorrect doses**, **livestock use** – **not genetics**.
+[114:8:11] - Severity: **MDR → XDR → TDR**.
+[114:8:12] - **Biofilm**: microbes in a self-made **EPS matrix** on **implants, catheters, tissues, food surfaces**; blocks antibiotics → **chronic infection**, food spoilage.
+[114:8:13] # Policy and New Drugs
+[114:8:14] TABLE head: Item | Fact
+  [114:8:14.0] Nafithromycin (Miqnaf) | First indigenous macrolide; community-acquired pneumonia; Wockhardt + BIRAC; launched 20 Nov 2024 by Dr Jitendra Singh
+  [114:8:14.1] NAP-AMR | 2017, One Health based
+  [114:8:14.2] Kerala KARSAP | 2018, first State AMR plan
+  [114:8:14.3] Red Line campaign | 2016; red line on prescription-only antibiotics
+  [114:8:14.4] WHO Priority Pathogens 2024 | Critical: carbapenem-resistant *A. baumannii*, Enterobacterales, rifampicin-resistant TB
+[114:8:15] Nafithromycin is by Wockhardt, NOT Sun Pharma.
+[114:8:16] - **Incomplete course:** stopping antibiotics early kills only the weaker microbes; the resistant survivors are left to multiply.
+## SUB 9 | One Health, Surveillance and Immunisation
+[114:9:0] - **One Health** = **human, animal, environmental** health together; **biodiversity loss** raises zoonotic risk.
+[114:9:1] - **National One Health Mission** (**PM-STIAC**): rabies, Nipah, avian flu, AMR.
+[114:9:2] - **National Institute of One Health, Nagpur**.
+[114:9:3] TABLE head: Programme / Act | Fact
+  [114:9:3.0] Epidemic Diseases Act, 1897 | Bubonic plague, Bombay; 4 sections; amended 2020 to protect health workers
+  [114:9:3.1] IDSP (2004) | MoHFW / NCDC; IHIP digital platform
+  [114:9:3.2] UIP (1985) | 6 diseases at launch, now 12
+  [114:9:3.3] Mission Indradhanush | Dec 2014; >90% full immunisation of children and pregnant women; IMI 5.0
+  [114:9:3.4] U-WIN | Portal registering every UIP vaccination
+[114:9:4] - UIP 12: diphtheria, pertussis, tetanus, polio, measles, rubella, childhood TB, hepatitis B, Hib, rotavirus, pneumococcal pneumonia, JE.
+[114:9:5] - **BCG**: prevents TB; at birth, up to **12 months**.
+## SUB 10 | Andhra Pradesh – Disease Burden and Response
+[114:10:0] TABLE head: Year | Malaria | Dengue
+  [114:10:0.0] 2023 | 5,268 (0 deaths) | 6,453
+  [114:10:0.1] 2024 | 7,871 (0 deaths) | 5,555
+  [114:10:0.2] 2025 | 7,119 (8 deaths) | 2,686
+  [114:10:0.3] 2026 (to 30 Aug) | 7,895 (+27.9%) | 1,475 (+4.6%)
+[114:10:1] - 2026 malaria hotspots: **ASR, Polavaram, Vizianagaram**; scrub typhus **941**, rising in ASR and **Parvathipuram Manyam**.
+[114:10:2] - **Agency (tribal) districts** carry most malaria and scrub typhus; AES/JE 2025: 146 cases.
+[114:10:3] - Response: **IRS, LLINs**, source reduction; free LLINs for 7.80 lakh (23 Apr 2026); **24-member task force**, Health Commissioner (7 Jan 2026); **zoonoses State Action Plan** (Jul 2026).
+[114:10:4] - **Adult BCG drive** (from **16 May 2024**): **27.10 lakh doses** → **AP first in India**.
+[114:10:5] - India: life expectancy **49.7 (1973) → 70.3 (2023)**; **NCDs >57%** of deaths – **double burden**.
+## SUB 11 | Number Game and Quick Revision
+[114:11:0] TABLE head: Item | Fact
+  [114:11:0.0] WHO ambient deaths | 4.2 million (2019)
+  [114:11:0.1] NCVBDC diseases | 6
+  [114:11:0.2] UIP | 6 → 12
+  [114:11:0.3] Malaria-free target | 2030
+  [114:11:0.4] P. vivax share | ~65%
+  [114:11:0.5] Epidemic Diseases Act | 1897, 4 sections
+  [114:11:0.6] Rinderpest eradicated | 2011
+[114:11:1] # FIRST / LAST / SPECIAL FACTS
+[114:11:2] - First indigenous macrolide: **Nafithromycin**.
+[114:11:3] - First State AMR plan: **Kerala (2018)**.
+[114:11:4] - First anti-TB drug: **streptomycin**.
+## SUB 12 | Appsc Previous Year Questions
+[114:12:0] TABLE head: Examination | Question Area
+  [114:12:0.0] Group 2 Mains 2025, Paper 2 | Diseases and terminology – not mosquito-borne (kala-azar)
+  [114:12:0.1] APPSC 2023 | Dengue and platelets; air pollution targets respiratory system; WHO 4.2 million
+  [114:12:0.2] APPSC 2025 | Leishmaniasis by sandfly
+## SUB 13 | High-probability Mcq Traps
+[114:13:0] VERY IMPORTANT
+[114:13:1] - 1. Kala-azar = **sandfly**; sleeping sickness = **tsetse**.
+[114:13:2] - 2. **H5N1 = bird flu**; H1N1 = swine flu.
+[114:13:3] - 3. Hepatitis **A, E** water-borne; **B, C** blood-borne.
+[114:13:4] - 4. Malaria = **protozoan**, vector-borne, not zoonotic.
+[114:13:5] - 5. Tiger mosquito does **not** carry JE.
+[114:13:6] - 6. Antibiotics mostly from **bacteria**, not only fungi.
+[114:13:7] - 7. Red Line = **prescription-only** antibiotics.
+[114:13:8] - 8. NCVBDC excludes **TB**.
+[114:13:9] - 9. Wolbachia is **absent** naturally in Aedes aegypti.
+[114:13:10] - 10. Smallpox is the **only** disease eradicated in India.
+
+=== OWN MCQs of 5:114 (170)
+[n8c5afcb7c95] sub0
+  Which one of the following correctly identifies the vector and pathogen of malaria?
+  *Female Anopheles and Plasmodium | Aedes aegypti and flavivirus | Culex and Japanese encephalitis virus | Sandfly and Leishmania donovani
+  x: Malaria is transmitted by the female Anopheles mosquito and is caused by Plasmodium, a protozoan.
+[nb1edcefed7b] sub0
+  Which of the following diseases is transmitted by Culex mosquitoes and is amplified by pigs?
+  *Japanese encephalitis | Lymphatic filariasis | Yellow fever | Kala-azar
+  x: Japanese encephalitis is transmitted by Culex mosquitoes, and pigs act as amplifying hosts.
+[nf3037b27164] sub0
+  Which one of the following diseases is NOT spread by a mosquito?
+  Lymphatic filariasis | Dengue | Japanese encephalitis | *Scrub typhus
+  x: Scrub typhus is transmitted by the chigger mite. Lymphatic filariasis, Japanese encephalitis and dengue are mosquito-borne diseases.
+[n48ab68d7f57] sub0
+  With reference to kala-azar, which one of the following statements is correct?
+  It is spread by Aedes and is caused by a flavivirus. | It is spread by a tsetse fly and is caused by Trypanosoma brucei. | *It is spread by a sandfly and is caused by Leishmania donovani. | It is spread by Culex and is caused by Wuchereria bancrofti.
+  x: Kala-azar, or visceral leishmaniasis, is transmitted by the sandfly, not by a mosquito, and is caused by Leishmania donovani.
+[n066f3b8fd6a] sub0
+  Which vector transmits scrub typhus?
+  *Chigger mite | Sandfly | Tsetse fly | Rat flea
+  x: Scrub typhus is spread by the chigger mite; plague by the rat flea and sleeping sickness by the tsetse fly.
+[n034b4b51d06] sub0
+  Which mosquito spreads yellow fever in forests?
+  *Haemagogus | Anopheles | Culex | Mansonia
+  x: Forest yellow fever is spread by Haemagogus; malaria is spread by female Anopheles and Culex spreads JE and filariasis.
+[n186b1e523f4] sub0
+  Which one of the following pairs is correctly matched?
+  *Lymphatic filariasis — Wuchereria bancrofti | Sleeping sickness — Orientia tsutsugamushi | Scrub typhus — Trypanosoma brucei | Plague — Plasmodium falciparum
+  x: Lymphatic filariasis is caused by the nematode Wuchereria bancrofti. Orientia tsutsugamushi causes scrub typhus, Trypanosoma brucei causes sleeping sickness, and Yersinia pestis causes plague.
+[nf074a37b7d9] sub0
+  Which two diseases under the National Vector Borne Disease Control Programme are described as outbreak-prone and climate-sensitive?
+  Kala-azar and lymphatic filariasis | *Malaria and dengue | Dengue and yellow fever | Japanese encephalitis and chikungunya
+  x: Malaria and dengue are identified as outbreak-prone and climate-sensitive diseases under the programme.
+[nbiology-15-25] sub0
+  Besides mosquitoes, through which of the following can Zika be transmitted?
+  *Blood and sexual contact | Contaminated water and food | Respiratory droplets | Contact with soil
+  x: Zika virus spreads by mosquitoes, blood and sexual transmission, and causes fever, rash and joint pain.
+[nbiology-15-32] sub0
+  Which of the following is NOT correct about Japanese encephalitis?
+  It is caused by the Japanese encephalitis virus (JEV) | Pigs and wild birds are its reservoirs | *It spreads mainly through contaminated water | It is a viral disease
+  x: Japanese encephalitis spreads by mosquito bite, not through water; JEV causes it and pigs and wild birds are its reservoirs.
+[nbiology-16-1] sub0
+  Which vector spreads rice tungro disease?
+  Snail | Sandfly | *Leafhopper | Rat flea
+  x: The leafhopper spreads rice tungro; the sandfly spreads kala-azar, the rat flea plague and the snail schistosomiasis.
+[nbiology-16-6] sub0
+  Which of the following carries Guinea worm larvae?
+  Aedes albopictus | Culex mosquito | Female Anopheles | *Cyclops
+  x: Cyclops carries Guinea worm larvae; Culex spreads filariasis and JE, Anopheles malaria and Aedes albopictus dengue and chikungunya.
+[nbiology-16-2] sub0
+  Which of the following statements is incorrect?
+  Culex is associated with filariasis and Japanese encephalitis. | Whitefly – Bemisia tabaci is associated with yellow vein mosaic of okra. | *Tsetse fly – Glossina is associated with kala-azar. | Aedes albopictus is also known as the tiger mosquito.
+  x: Option C is incorrect: the tsetse fly (Glossina) spreads sleeping sickness; kala-azar is spread by the sandfly. The Culex, whitefly and tiger mosquito facts are right.
+[nbiology-15-28] sub0
+  Which system of the body does AIDS, caused by a retrovirus, mainly destroy?
+  Nervous system | *Immune system | Respiratory system | Digestive system
+  x: AIDS is a retroviral human disease spread through blood, sex and from mother to child, and it destroys the immune system.
+[nbiology-15-8] sub0
+  How is tetanus transmitted?
+  Contaminated water | Mosquito bites | *A contaminated wound | Respiratory droplets
+  x: Tetanus enters through dirty wounds, while cholera and typhoid spread through contaminated food and water.
+[nbiology-23-9] sub0
+  Which of the following virus–disease pairs is correctly matched?
+  *JEV – Japanese encephalitis | HIV – Nipah | Nipah virus – Hepatitis-B | HBV – AIDS
+  x: JEV causes Japanese encephalitis. HBV causes hepatitis B, HIV causes AIDS and Nipah virus causes Nipah.
+[nff7b99a9bdb] sub0
+  Which of the following pairs is NOT correctly matched?
+  *Dengue — lymphatic system — elephantiasis | Malaria — liver followed by red blood cells | Ascariasis — small intestine — Ascaris lumbricoides | Tuberculosis — lungs — Mycobacterium tuberculosis
+  x: Dengue is associated with platelets. The lymphatic system and elephantiasis are associated with filariasis.
+[nbiology-15-21] sub0
+  How is mumps transmitted?
+  *Saliva and nasal secretions | Mosquito bites | Contaminated water | Blood transfusion
+  x: Mumps is a human viral disease caused by mumps virus and spread through saliva and nasal secretions.
+[nbiology-15-51] sub0
+  Tuberculosis primarily affects which organ?
+  Liver | *Lungs | Joints | Heart
+  x: Tuberculosis mainly attacks the lungs, though it can spread to other organs.
+[nbiology-15-9] sub0
+  Which disease may lead to elephantiasis by involving the lymph glands?
+  Ascariasis | *Filariasis | Kala-azar | Schistosomiasis
+  x: Filarial worms block lymph vessels, causing elephantiasis; Ascaris lives mainly in the small intestine.
+[nbiology-15-58] sub0
+  Which organs does kala-azar mainly attack?
+  *Liver, spleen and bone marrow | Intestine | Brain and central nervous system | Urinary tract
+  x: Kala-azar attacks the liver, spleen and bone marrow; amoebiasis affects the intestine and late sleeping sickness the brain.
+[nbiology-17-6] sub0
+  Which malaria parasite causes relapsing malaria because it forms dormant liver stages (hypnozoites)?
+  P. falciparum | Leishmania | *P. vivax | Trypanosoma
+  x: P. vivax forms dormant hypnozoites in the liver, which reactivate and cause relapses of malaria. P. falciparum causes malignant malaria without relapse, while Leishmania and Trypanosoma are not malaria parasites.
+[n2da62587d7e] sub0
+  Which of the following diseases spreads through the faecal-oral route by contaminated water or food?
+  Hepatitis B | Dengue | *Typhoid | Rabies
+  x: The faecal-oral group includes cholera, typhoid, hepatitis A and E, acute diarrhoea, dysentery and polio; hepatitis B, dengue and rabies spread otherwise.
+[n30741283acb] sub0
+  Malaria parasites first multiply in the liver and subsequently infect which blood component?
+  Platelets | White blood cells | *Red blood cells | Plasma proteins
+  x: Malaria parasites first undergo development in the liver and then infect red blood cells.
+[nbiology-15-31] sub0
+  Through which route is measles, a highly contagious viral disease, mainly transmitted?
+  Blood transfusion | The faecal-oral route | Mosquito bites | *Respiratory routes
+  x: Measles is a highly contagious human viral disease spread through the air.
+[n94d7175ffb7] sub0
+  Which type of virus causes chikungunya?
+  Coronavirus | Flavivirus | *Alphavirus | Retrovirus
+  x: Chikungunya is caused by an alphavirus; malaria destroys red blood cells and dengue mainly affects platelets.
+[n079be90d1b7] sub0
+  How many species of Plasmodium are recognised as infecting humans?
+  Two | Three | Four | *Five
+  x: Five species infect humans: P. falciparum, P. vivax, P. malariae, P. ovale and P. knowlesi.
+[nbiology-15-17] sub0
+  COVID-19 mainly affects which system of the body?
+  Digestive system | *Respiratory system | Excretory system | Skeletal system
+  x: COVID-19 is a human viral disease spread by respiratory and contact routes; it attacks the lungs and can cause multi-organ complications.
+[n380c6e36c41] sub0
+  How many diseases are covered under the National Center for Vector Borne Diseases Control (NCVBDC)?
+  Four | Five | *Six | Eight
+  x: NCVBDC covers six diseases: malaria, Japanese encephalitis, dengue, chikungunya, kala-azar and lymphatic filariasis - not TB.
+[nbiology-64-19] sub0
+  Which disease does Leishmania donovani cause?
+  *Kala-azar | Amoebic dysentery | Candidiasis | Sleeping sickness
+  x: Leishmania donovani causes kala-azar; Entamoeba histolytica causes amoebic dysentery and Candida candidiasis.
+[nbiology-15-50] sub0
+  What type of disease is tuberculosis, which is transmitted through respiratory routes?
+  Viral | Protozoan | Fungal | *Bacterial
+  x: Tuberculosis is a human bacterial disease spread through the air.
+[fde2472d7c532] sub0
+  Which of the following diseases is NOT spread by a mosquito?
+  Zika | West Nile fever | *Scrub typhus | Chikungunya
+  x: Scrub typhus is spread by the chigger mite; Zika, West Nile and chikungunya are mosquito-borne.
+[gb5ba38f4544d] sub0
+  What do male mosquitoes feed on?
+  Human blood | *Plant juices | Animal blood | Decaying flesh
+  x: Only female mosquitoes suck blood; males feed on plant juices.
+[ga37b72fd8fbe] sub0
+  In which of the following diseases does the platelet count fall sharply, leading to internal bleeding?
+  Malaria | Typhoid | *Dengue | Filariasis
+  x: Dengue lowers the platelet count, which can cause internal bleeding.
+[nbiology-15-61] sub1
+  How is fascioliasis mainly transmitted?
+  Mosquito bites | Respiratory droplets | Contaminated blood | *Raw water plants
+  x: Fascioliasis, caused by the liver fluke Fasciola, mainly in ruminants, is caught from raw water plants and damages the liver and bile ducts.
+[nbiology-15-60] sub1
+  Which of the following pairs is wrongly matched?
+  Sleeping sickness – Tsetse fly; transmitted by bite | *Schistosomiasis – Ruminants as main hosts; raw water plants | Amoebiasis – Humans as host; contaminated food and water | Fascioliasis – Ruminants as main hosts; raw water plants
+  x: Schistosomiasis spreads through snails (intermediate hosts) in unsafe water; ruminant hosts and raw water plants describe fascioliasis.
+[nbiology-15-68] sub1
+  What kind of organism causes ascariasis (Ascaris lumbricoides)?
+  *Nematode | Fluke | Protozoan | Tapeworm
+  x: Ascariasis is a nematode infection by Ascaris lumbricoides, caught by swallowing its eggs.
+[nbiology-18-4] sub1
+  Which disease does Dracunculus medinensis cause?
+  Ascariasis | *Guinea worm disease | Sleeping sickness | Neurocysticercosis
+  x: Dracunculus medinensis causes Guinea worm disease; Ascaris causes ascariasis and Trypanosoma sleeping sickness.
+[nbiology-18-14] sub1
+  How do humans mainly become hosts of the Guinea worm (Dracunculus medinensis)?
+  *Drinking water containing infected Cyclops | Bite of an infected sandfly | Eating undercooked pork | Bite of a rat flea
+  x: Guinea worm larvae develop in Cyclops, and people who drink water containing infected Cyclops become hosts of the worm.
+[nbiology-15-65] sub1
+  Which part of the body does neurocysticercosis mainly affect?
+  Liver | *Brain and central nervous system | Intestine | Lungs
+  x: Neurocysticercosis comes from swallowing Taenia solium eggs, and its larvae lodge in the brain and CNS.
+[nbiology-15-70] sub1
+  The toxin of which fungus causes ergotism?
+  *Claviceps purpurea | Trichophyton | Aspergillus | Mucormycetes
+  x: Ergotism comes from Claviceps purpurea toxin; Aspergillus causes aspergillosis and Trichophyton athlete's foot.
+[nbiology-15-71] sub1
+  How does athlete's foot mainly spread?
+  *Contaminated floors, towels or clothes | Mosquito bites | Contaminated drinking water | Respiratory droplets
+  x: Athlete's foot affects the skin of the foot and spreads through contaminated floors, towels or clothes.
+[nbiology-64-7] sub1
+  Which of the following causes ringworm?
+  Candida | Aspergillus | *Dermatophytes | Mucormycetes
+  x: Dermatophytes cause ringworm; Candida causes candidiasis, Aspergillus aspergillosis and Mucormycetes mucormycosis.
+[n3c47935a164] sub1
+  Which fungus causes rust of wheat?
+  Ustilago | *Puccinia | Claviceps | Aspergillus
+  x: Puccinia causes rust of wheat; Ustilago causes smut diseases.
+[nbiology-20-12] sub1
+  The oil of which plant causes epidemic dropsy?
+  *Argemone mexicana | Ricinus communis | Lathyrus sativus | Datura stramonium
+  x: Epidemic dropsy comes from mustard oil adulterated with Argemone mexicana oil, which contains sanguinarine and dihydrosanguinarine.
+[n51102e8f353] sub1
+  Which of the following describes amoebiasis correctly?
+  Lymphatic system caused by filarial worms | Small intestine caused by Ascaris lumbricoides | *Large intestine caused by Entamoeba histolytica | Lungs caused by Mycobacterium tuberculosis
+  x: Amoebiasis affects the large intestine and is caused by Entamoeba histolytica.
+[nbiology-18-7] sub1
+  With which meat is Taenia solium, which causes taeniasis and neurocysticercosis, associated?
+  Beef | Fish | *Pork | Chicken
+  x: Taenia solium is the pork tapeworm; it infects humans, causing taeniasis and, from its eggs, neurocysticercosis.
+[nbiology-20-14] sub1
+  Which organism produces aflatoxin?
+  Claviceps purpurea | Amanita | *Aspergillus flavus | Penicillium notatum
+  x: Aspergillus flavus and A. parasiticus produce aflatoxin; Amanita mushrooms contain α-amanitin.
+[nbiology-17-7] sub1
+  Which disease does Taenia solium cause?
+  *Neurocysticercosis | Schistosomiasis | Fascioliasis | Ascariasis
+  x: Taenia solium causes neurocysticercosis; Ascaris causes ascariasis and Fasciola fascioliasis.
+[nbiology-15-16] sub2
+  Which part of the body does polio, which can cause paralysis, attack?
+  Liver | Lungs | Kidneys | *Spinal cord and central nervous system
+  x: Polio is a human viral disease spread by the faecal-oral route that attacks the spinal cord and central nervous system.
+[na699f254ebf] sub2
+  Which hepatitis viruses spread through the faecal-oral route?
+  B and C | C and E | B and D | *A and E
+  x: Hepatitis A and E are faecal-oral, while hepatitis B and C are generally blood-borne.
+[n6f73b00d564] sub2
+  Which one of the following is NOT correctly matched?
+  Arsenic — Blackfoot disease | Mercury — Minamata disease | *Nitrate — Fluorosis | Cadmium — Itai-itai disease
+  x: Nitrate contamination is associated with blue-baby syndrome. Fluorosis is associated with fluoride contamination.
+[n939a3647c82] sub2
+  Which one of the following sets contains diseases whose spread can be associated with floods?
+  Scrub typhus, polio, cancer and asthma | *Cholera, typhoid, hepatitis and leptospirosis | Hepatitis B, AIDS, dengue and influenza | Tuberculosis, rabies, malaria and measles
+  x: Floods can spread cholera, typhoid, hepatitis and leptospirosis, in addition to supporting the spread of some vector-borne diseases.
+[nbiology-63-14] sub2
+  Which disease does Clostridium botulinum cause?
+  Typhoid | *Botulism | Tuberculosis | Cholera
+  x: C. botulinum causes botulism; Salmonella Typhi causes typhoid and Vibrio cholerae cholera.
+[nbiology-63-2] sub2
+  Which of the following statements is incorrect?
+  Vibrio cholerae is associated with cholera. | Clostridium tetani is associated with tetanus. | *Vibrio cholerae is associated with typhoid. | Salmonella Typhi is associated with typhoid.
+  x: Option C is incorrect: Vibrio cholerae causes cholera, while typhoid is caused by Salmonella Typhi. The tetanus pairing is right.
+[nbiology-21-8] sub2
+  With which of the following is schistosomiasis, common in developing countries, chiefly associated?
+  Bite of a female Anopheles | Inhalation of respiratory droplets | Eating infected rye | *Unsafe water and poor sanitation
+  x: Schistosomiasis spreads through water contaminated by infected snails and excreta, so it is common where water and sanitation are unsafe.
+[f4c9ba81d1620] sub2
+  About how many children die daily worldwide from preventable water- and sanitation-related diseases?
+  500 | 1,000 | *5,000 | 50,000
+  x: About 5,000 children die daily from preventable water- and sanitation-related disease.
+[f7abe20a35e7d] sub2
+  Which water-borne disease is the leading child killer?
+  Polio | Hepatitis E | Typhoid | *Acute diarrhoea
+  x: Acute diarrhoea (rotavirus, E. coli, Shigella) is the leading child killer.
+[f8f258528e853] sub2
+  Consider the following statements about hepatitis:
+1. Hepatitis A and E are water-borne.
+2. Hepatitis B has no vaccine.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Hepatitis A and E spread faeco-orally; hepatitis B is blood-borne and has a vaccine, so 2 is wrong.
+[f8137bb599527] sub2
+  Which of the following contaminant–disease pairs is correctly matched?
+  Cadmium – Blackfoot | Arsenic – Itai-itai | *Mercury – Minamata | Nitrate – Fluorosis
+  x: Mercury causes Minamata disease; cadmium causes itai-itai, arsenic blackfoot and nitrate blue-baby syndrome.
+[g3f075abd6618] sub2
+  Which of the following is a symptom of liver disease rather than a disease caused by a specific microbe?
+  Typhoid | *Jaundice | Tuberculosis | Cholera
+  x: Jaundice is a symptom linked to the liver and bilirubin, not a separate microbial disease.
+[g4919c6f682a2] sub2
+  The Widal test is used to diagnose which disease?
+  *Typhoid | Cholera | Tuberculosis | Malaria
+  x: The Widal test diagnoses typhoid, caused by Salmonella Typhi.
+[gbe680b4c70d4] sub2
+  Which test is used to detect tuberculosis infection?
+  Widal test | Benedict's test | *Mantoux test | Schick test
+  x: The Mantoux test detects TB; TB is airborne, not water-borne.
+[nbiology-63-4] sub3
+  Which organism causes atypical pneumonia?
+  Mycobacterium leprae | Yersinia pestis | Clostridium tetani | *Mycoplasma pneumoniae
+  x: Mycoplasma pneumoniae causes atypical pneumonia; C. tetani causes tetanus, Y. pestis plague and M. leprae leprosy.
+[nbiology-15-46] sub3
+  Which disease forms a false membrane in the throat and nose?
+  Pertussis | *Diphtheria | Tuberculosis | Measles
+  x: Diphtheria forms a false membrane in the throat and nose; pertussis is whooping cough.
+[nbiology-15-55] sub3
+  Which part of the body does botulinum toxin, which can cause paralysis, mainly act on?
+  *Nerves | Kidneys | Liver | Skin
+  x: Botulinum toxin blocks nerves and can cause paralysis; the liver is not its target.
+[nbiology-15-15] sub3
+  Which of the following disease–pathogen pairs is correctly matched?
+  *COVID-19 – SARS-CoV-2 | Polio – Rabies lyssavirus | Hepatitis-B – Poliovirus | Rabies – HBV
+  x: COVID-19 is caused by SARS-CoV-2. Polio is caused by poliovirus, rabies by lyssavirus and hepatitis B by HBV.
+[nbiology-15-41] sub3
+  Which parts of the body does leprosy mainly affect?
+  *Skin and peripheral nerves | Liver and spleen | Intestine | Lungs and lymph nodes
+  x: Leprosy, an infectious bacterial disease caused by Mycobacterium leprae, damages the skin and peripheral nerves.
+[nbiology-15-45] sub3
+  Through which route are diphtheria and pertussis mainly transmitted?
+  Faecal-oral route | Sexual route | *Respiratory route | Mosquito bite
+  x: Diphtheria and pertussis are human diseases spread through respiratory routes; gonorrhoea and syphilis are sexually transmitted.
+[nbiology-15-5] sub3
+  Which of the following statements is incorrect?
+  Hepatitis-B can spread through blood and body fluids. | *Gonorrhoea is transmitted mainly through respiratory droplets. | Rabies can spread through a bite or scratch involving saliva. | Typhoid can spread through contaminated food and water.
+  x: Option B is incorrect: gonorrhoea is sexually transmitted, not spread by droplets. The hepatitis-B, rabies and typhoid routes are right.
+[nbiology-15-44] sub3
+  Which organism causes syphilis?
+  Bordetella pertussis | Neisseria gonorrhoeae | Corynebacterium diphtheriae | *Treponema pallidum
+  x: Syphilis is caused by Treponema pallidum; gonorrhoea by Neisseria gonorrhoeae and diphtheria by Corynebacterium diphtheriae.
+[nbiology-17-2] sub3
+  Which of the following statements is incorrect?
+  P. falciparum causes malignant malaria. | Salmonella typhi causes typhoid. | *Mycobacterium leprae causes diphtheria. | P. vivax causes recurring malaria.
+  x: Option C is incorrect: Mycobacterium leprae causes leprosy; diphtheria is caused by Corynebacterium diphtheriae. The malaria and typhoid pairings are right.
+[fc37087408225] sub3
+  In which year was smallpox, the only disease eradicated in India, eradicated?
+  1975 | *1977 | 1980 | 2011
+  x: India eradicated smallpox in 1977; 2011 is the global eradication of rinderpest.
+[g88e01438a06a] sub3
+  Which bacterium causes trachoma, which leads to eyelid scarring and blindness?
+  Mycoplasma | Treponema | Corynebacterium | *Chlamydia
+  x: Trachoma is caused by Chlamydia and scars the eyelids.
+[g09b9f3168e0c] sub3
+  Which of the following diseases is NOT prevented by the triple antigen (DPT) vaccine?
+  Diphtheria | Whooping cough | *Polio | Tetanus
+  x: DPT protects against diphtheria, pertussis (whooping cough) and tetanus, not polio.
+[gda4a31d1caf4] sub3
+  Why are infants under about six months usually protected from measles?
+  By active immunity from a vaccine given at birth | *By maternal antibodies, a natural passive immunity | By antibiotics given at birth | By the BCG vaccine
+  x: Maternal antibodies give natural passive immunity; the MR vaccine is given at 9-12 months.
+[g55a01bca441e] sub3
+  Which cells of the immune system does HIV mainly destroy?
+  Red blood cells | Platelets | *Helper T cells | B cells
+  x: HIV, a retrovirus, kills helper T cells and weakens immunity.
+[g620a934e550b] sub3
+  Which glands are mainly affected in mumps?
+  *Parotid glands | Thyroid gland | Adrenal glands | Pituitary gland
+  x: Mumps is a viral disease of the parotid (salivary) glands, spread by saliva.
+[g31afd0e17e1f] sub3
+  Which virus causes the common cold?
+  Rotavirus | *Rhinovirus | Poliovirus | Flavivirus
+  x: The common cold is caused by rhinovirus; rotavirus causes diarrhoea.
+[g6b3101a96f1c] sub3
+  Rheumatic fever follows infection by which bacterium?
+  Mycoplasma pneumoniae | Clostridium tetani | *Streptococcus pyogenes | Corynebacterium diphtheriae
+  x: Rheumatic fever follows a Streptococcus pyogenes infection.
+[n432f3e9b8dc] sub4
+  Which one of the following zoonotic diseases is transmitted through the bite of a rat flea?
+  Rabies | Nipah | Anthrax | *Plague
+  x: Plague is associated with rodents and is transmitted through rat fleas. Rabies is generally transmitted by the bite of infected animals, Nipah is associated with fruit bats and anthrax with infected livestock.
+[n4ce87bac0da] sub4
+  Which one of the following is the odd one out on the basis of its usual classification as a zoonotic disease?
+  Anthrax | *Malaria | Nipah | Rabies
+  x: Rabies, anthrax and Nipah are zoonotic diseases associated with animal sources. Malaria is vector-borne but is not classified as zoonotic in the routine sense used here.
+[ne05781eff7c] sub4
+  Which one of the following is NOT correctly matched?
+  H5N1 — birds or poultry | Nipah — fruit bats | *Kyasanur Forest Disease — rodents through rat fleas | H1N1 — pigs
+  x: Kyasanur Forest Disease is associated with monkeys and is transmitted through ticks. Rodents and rat fleas are associated with plague.
+[nbiology-23-5] sub4
+  Which virus causes rinderpest?
+  Aphthovirus | *Morbillivirus | Clostridium chauvoei | Bacillus anthracis
+  x: Morbillivirus causes rinderpest; Aphthovirus causes foot-and-mouth disease.
+[nbiology-21-10] sub4
+  Which livestock did rinderpest, now eradicated, affect?
+  Poultry | *Cattle and buffalo | Horses | Pigs only
+  x: Rinderpest affected cattle and buffalo; foot-and-mouth disease affects cloven-hoofed livestock.
+[nbiology-15-7] sub4
+  Assertion (A): Rabies is associated with hydrophobia.
+Reason (R): Rabies affects the nervous system.
+  *Both A and R are true, and R is the correct explanation of A | Both A and R are true, but R is NOT the correct explanation of A | A is true, but R is false | A is false, but R is true
+  x: Both are true and R explains A: rabies attacks the nervous system, causing painful throat spasms that create fear of water (hydrophobia).
+[nbiology-15-10] sub4
+  Which of the following describes rabies, Ebola and Nipah?
+  Zoonotic bacterial diseases | *Zoonotic viral diseases | Water-borne viral diseases | Vector-borne protozoan diseases
+  x: Rabies, Ebola and Nipah are viral diseases that pass from animals to humans.
+[nbiology-15-35] sub4
+  Which animals does Ranikhet (Newcastle) disease affect?
+  Pigs | *Chickens and other poultry | Cattle and buffalo | Horses
+  x: Chickens host Ranikhet disease; cattle and buffalo hosted rinderpest and pigs host swine flu.
+[nbiology-15-38] sub4
+  Which virus causes foot-and-mouth disease?
+  Morbillivirus | Clostridium chauvoei | Bacillus anthracis | *Aphthovirus
+  x: Foot-and-mouth disease is an infectious viral disease caused by Aphthovirus, affecting cattle, goats, pigs and sheep.
+[nbiology-18-2] sub4
+  Which of the following statements is incorrect?
+  Dogs, cats, bats and foxes or other wild animals are associated with rabies. | Rats and fleas are involved in the plague cycle. | *Pigs are the important host associated with rabies. | Domestic pigs and wild birds are associated with Japanese encephalitis.
+  x: Option C is incorrect: pigs are key hosts for swine flu (and Japanese encephalitis), not rabies, which comes from dogs, cats, bats and foxes. The plague and JE facts are right.
+[nbiology-18-5] sub4
+  Pigs are an important host for which disease?
+  Bird flu | *Swine flu | Rinderpest | Plague
+  x: Pigs host swine flu, not bird flu; rinderpest affected cattle and buffalo and plague involves a rat–flea cycle.
+[nbiology-19-6] sub4
+  SARS emerged from animals with which animal as an intermediate host?
+  Pigs | *Civet cats | Pangolins | Camels
+  x: SARS, caused by a coronavirus, jumped to humans via civet cats as intermediate hosts.
+[nbiology-18-10] sub4
+  Which of the following pairs is wrongly matched?
+  Ebola – Haemorrhagic fever spread from bats and non-human primates in Africa | Nipah – Carried by fruit bats, with pigs as intermediate hosts | Foot-and-mouth disease – Aphthovirus disease of cloven-hoofed livestock | *Fascioliasis – Viral disease of cloven-hoofed livestock
+  x: Fascioliasis is a snail-borne liver fluke infection of cattle and sheep; the Aphthovirus disease of cloven-hoofed livestock is foot-and-mouth disease.
+[nbiology-22-8] sub4
+  Which of the following pairs of animal disease and causative agent is wrongly matched?
+  Anthrax – Bacillus anthracis | *Cowpox – Morbillivirus | Black quarter – Clostridium chauvoei | Rinderpest – Morbillivirus
+  x: Cowpox is caused by the cowpox virus; Morbillivirus causes rinderpest.
+[nbiology-23-2] sub4
+  Which of the following statements is incorrect?
+  Poliovirus causes polio. | CHIKV causes chikungunya. | *H5N1 causes swine flu. | SARS-CoV-2 causes COVID-19.
+  x: Option C is incorrect: H5N1 causes bird flu, while swine flu is H1N1. The polio, chikungunya and COVID-19 pairings are right.
+[faf1cb25e9b9e] sub4
+  From which animal was the mpox virus first isolated (DR Congo, 1985)?
+  Fruit bat | *Rope squirrel | Civet cat | Dromedary camel
+  x: Mpox comes from rodents and was first isolated from a rope squirrel in DR Congo in 1985.
+[ff7414e76188c] sub4
+  How does Kyasanur Forest Disease spread to humans from monkeys?
+  Rat fleas | Sandflies | Culex mosquitoes | *Ticks
+  x: KFD is a monkey-associated disease spread by ticks.
+[f3ef809950b15] sub4
+  What is the natural reservoir of the Nipah virus?
+  *Fruit bat (Pteropus) | Pig | Civet cat | Rodent
+  x: Fruit bats (Pteropus) are Nipah's reservoir; pigs are the intermediate host.
+[nbiology-15-36] sub4
+  In which year was rinderpest, a disease of cattle and buffalo, declared globally eradicated?
+  2001 | *2011 | 2014 | 1977
+  x: Rinderpest affected cattle and buffalo until it was declared globally eradicated in 2011.
+[ge334ea12b15f] sub4
+  The Nipah outbreak of May 2018 in Kerala, which killed 17 people, was centred in which district?
+  Thrissur | Kannur | Ernakulam | *Kozhikode
+  x: The 2018 Nipah outbreak was in Kozhikode; it returned in September 2021.
+[g062f2af69529] sub4
+  After what is the Ebola virus disease named?
+  *A river | A mountain | A scientist | A forest bird
+  x: Ebola, a zoonosis from non-human primates and bats, is named after a river.
+[nff4fe8cafd6] sub5
+  Under the National Vector Borne Disease Control Programme (now NCVBDC), which diseases are targeted for elimination?
+  *Malaria, lymphatic filariasis and kala-azar | Dengue, chikungunya and Japanese encephalitis | Malaria, dengue and chikungunya | Kala-azar, Japanese encephalitis and dengue
+  x: Of the six diseases covered (malaria, JE, dengue, chikungunya, kala-azar, LF), the elimination targets are malaria, lymphatic filariasis and kala-azar. Dengue, chikungunya and JE are controlled, not targeted for elimination.
+[na3ef9d6eb23] sub5
+  Which of the following is NOT correct about Wolbachia?
+  It is a Gram-negative bacterium found naturally in 40–60% of insects | *It is naturally present in Aedes aegypti and Anopheles | It can contribute to pathogen blocking | It can cause cytoplasmic incompatibility, in which eggs fail to develop
+  x: Wolbachia is naturally absent in Aedes aegypti and Anopheles.
+[nadb989692b1] sub5
+  Which bacterium controls mosquito-borne disease through cytoplasmic incompatibility and pathogen blocking?
+  Gambusia | *Wolbachia | Guppy | Streptomyces
+  x: Wolbachia is a bacterium associated with cytoplasmic incompatibility and pathogen blocking; Gambusia and guppy are larvivorous fish.
+[n569f7527c6d] sub5
+  The National Framework for Malaria Elimination (2016–2030) aims to achieve which of the following?
+  Dengue-free India by 2030 | *Malaria-free India by 2030 | Universal vaccination against malaria by 2030 | Elimination of all communicable diseases by 2030
+  x: The National Framework for Malaria Elimination covers the period 2016–2030 and aims at a malaria-free India by 2030.
+[f2de595a8ed63] sub5
+  Which body launched MERA India (Malaria Elimination Research Alliance) in April 2019?
+  *ICMR | NCDC | WHO | NITI Aayog
+  x: MERA India was launched by ICMR on 24 April 2019 and is steered by ICMR-NIMR, New Delhi.
+[fc1757d549255] sub5
+  In which year was Maldives certified malaria-free by WHO?
+  2013 | *2015 | 2016 | 2019
+  x: WHO certified Maldives malaria-free in 2015 and Sri Lanka in 2016.
+[f2354ea96f17e] sub5
+  Under NCVBDC, which disease is targeted only for control, not elimination?
+  Malaria | Lymphatic filariasis | Kala-azar | *Dengue
+  x: Malaria, LF and kala-azar are targeted for elimination; dengue, chikungunya and JE are only controlled.
+[g49c779f5d76f] sub5
+  How does Gambusia affinis, used in malaria control programmes, control mosquitoes?
+  *By eating mosquito larvae | By releasing a bacterial toxin | By producing sterile male mosquitoes | By blocking the parasite inside the mosquito
+  x: Gambusia is a larvivorous (mosquito) fish that eats mosquito larvae.
+[gc15ce91312d9] sub5
+  What is Bti, used in vector control?
+  A larvivorous fish | *A bacterial bio-larvicide | A synthetic pyrethroid | A mosquito vaccine
+  x: Bti is a bacterial bio-larvicide that kills mosquito larvae.
+[gac59e6b34a33] sub5
+  In which year was Sri Lanka certified malaria-free by WHO?
+  2012 | 2015 | *2016 | 2019
+  x: WHO certified Sri Lanka malaria-free in 2016, after Maldives in 2015.
+[g5d1b75017af6] sub5
+  Consider the following statements:
+1. Maldives was certified malaria-free by WHO in 2015.
+2. Sri Lanka was certified malaria-free by WHO in 2016.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: Maldives (2015) and Sri Lanka (2016) are WHO-certified malaria-free in South Asia.
+[ga1a912e87e2b] sub5
+  Under Verily's 'Debug' project of June 2026, Wolbachia-carrying males of which mosquito were released?
+  Anopheles stephensi | Aedes albopictus | *Culex quinquefasciatus | Haemagogus
+  x: On 2 June 2026 Verily's Debug released Wolbachia-carrying male Culex quinquefasciatus mosquitoes.
+[n0dbe9ce98f1] sub6
+  Which organ system is primarily affected by air pollution?
+  *Respiratory system | Reproductive system | Skeletal system | Digestive system
+  x: Air pollution primarily affects the respiratory system, although it is also associated with cardiovascular disease, stroke and lung cancer.
+[nb81a18e2324] sub6
+  According to WHO, ambient outdoor air pollution caused about how many premature deaths in 2019?
+  1.2 million | 2.4 million | *4.2 million | 8.4 million
+  x: The WHO estimate is 4.2 million premature deaths from ambient outdoor air pollution in 2019.
+[n704e76c57f1] sub6
+  A public-health assessment is examining premature mortality and time lived with disability together. Which measure is most appropriate for this purpose?
+  *DALY | AQI | BOD | Widal index
+  x: DALY combines years of life lost due to premature death and years lived with disability, making it a disease-burden metric.
+[n7292f41085c] sub6
+  Hearing loss, hypertension, sleep disorders and anxiety are health effects of which of the following?
+  *Noise pollution | Arsenic in water | Cadmium in water | Fluoride in water
+  x: Noise pollution is associated with hearing loss, hypertension, sleep disorders and anxiety; arsenic, cadmium and fluoride cause blackfoot, itai-itai and fluorosis.
+[n0ac67245654] sub7
+  Which of the following combinations is correctly matched with respect to climate-sensitive health impacts?
+  Heatwaves — malaria eradication | Warming — contraction of dengue-vector range | *Floods — cholera and hepatitis outbreaks | Cyclones — reduction in vector-borne diseases
+  x: Floods can trigger outbreaks of cholera and hepatitis. Heatwaves are associated with dehydration, heatstroke and cardiovascular stress, while warming may expand the range of dengue and malaria vectors.
+[nb48aaf55c7a] sub7
+  About how many people are reported to live in highly climate-vulnerable areas?
+  1.2 billion | 2.4 billion | *3.6 billion | 4.8 billion
+  x: About 3.6 billion people live in highly climate-vulnerable areas, facing extreme weather and vector-borne diseases such as malaria and dengue.
+[f8bb268ccc2e9] sub7
+  WHO projects about 2.5 lakh extra climate-linked deaths a year (2030-2050). Which cause accounts for the most?
+  *Child undernutrition | Malaria | Diarrhoea | Heat exposure in the elderly
+  x: Child undernutrition (95,000) leads, followed by malaria (60,000), diarrhoea (48,000) and heat (38,000).
+[fd76c1cbcbbe2] sub7
+  In 2022, what share of human infectious diseases were found to be aggravated by climate hazards?
+  28% | 38% | 48% | *58%
+  x: 58% (218 of 375) human infectious diseases are aggravated by climate hazards.
+[f5bb88783a7ee] sub7
+  How does global warming raise the risk of dengue and malaria?
+  Eliminating their vectors | Making their pathogens bacterial | Stopping transmission in summer | *Expanding the range of their vectors
+  x: Warming expands the range of dengue and malaria vectors.
+[ffcb71ae2460f] sub7
+  With which of the following are heatwaves chiefly linked?
+  *Heatstroke and dehydration | Itai-itai disease | Blue-baby syndrome | Leptospirosis
+  x: Heatwaves cause dehydration, heatstroke and cardiovascular stress; leptospirosis follows floods.
+[g58aae6d30ea5] sub7
+  Which organisation's 'Under the Weather' report (April 2026) found about 40% of India's districts at high extreme-weather risk?
+  NITI Aayog | *Dasra | TERI | IMD
+  x: Dasra's 'Under the Weather' report (10 April 2026) put about 40% of districts at high extreme-weather risk.
+[nchemistry-15-33] sub8
+  Which of the following describes most antibiotics?
+  Fully synthetic | Obtained only from fungi | *Natural or semi-synthetic | Obtained only from plants
+  x: Most antibiotics are natural or semi-synthetic and some are fully synthetic; many come from bacteria, not only fungi.
+[nbiology-43-8] sub8
+  Bacterial drug resistance graded in increasing order of severity is:
+  *MDR, XDR, TDR | TDR, XDR, MDR | MDR, TDR, XDR | XDR, MDR, TDR
+  x: Resistance is graded from multidrug-resistant (MDR) to extensively (XDR) to totally drug-resistant (TDR).
+[na498d5808c5] sub8
+  Which of the following practices promotes antimicrobial resistance?
+  Completing the full antibiotic course | Regulated, supervised veterinary drug use | *Self-medication with antibiotics | Prescription-only sale of antibiotics
+  x: Self-medication with antibiotics drives antimicrobial resistance. Completing the full course, regulated veterinary drug use and prescription-only sale of antibiotics help prevent it.
+[ndce9911c126] sub8
+  Which of the following is in the critical-priority group of the WHO Bacterial Priority Pathogens List, 2024?
+  Wolbachia | Streptomyces | *Carbapenem-resistant Acinetobacter baumannii | Acetobacter
+  x: The critical-priority group includes carbapenem-resistant A. baumannii, Enterobacterales and rifampicin-resistant TB.
+[nbiology-66-12] sub8
+  Why do biofilms contribute to persistent or chronic infection?
+  Increases antibiotic absorption | *Protects microbes and reduces antibiotic penetration | Kills resistant mutants | Stimulates antibody production
+  x: The EPS matrix shields biofilm microbes and blocks antibiotics, so infections persist.
+[nbiology-66-13] sub8
+  What do biofilms on food-processing surfaces chiefly cause in the food industry?
+  *Spoilage and contamination | Lower water use | Improved flavour | Faster pasteurisation
+  x: Biofilms cause spoilage and contamination in food plants; they are not confined to catheters.
+[nbiology-66-14] sub8
+  What is the self-produced matrix that protects microbes in a biofilm called?
+  Peptidoglycan | Chitin | Keratin | *EPS (extracellular polymeric substance)
+  x: Biofilms are microbial communities in a self-made EPS matrix that protects them, raises resistance and causes chronic infections.
+[nbiology-66-7] sub8
+  Which of the following can generate antibiotic resistance in bacteria?
+  Completing the full course | *Mutation | Prescription-only sale | Regulated drug use
+  x: Mutation can generate resistance; antibiotic use in livestock and repeated exposure also select resistant organisms.
+[nbiology-66-8] sub8
+  Why does not completing a course of antibiotics promote antimicrobial resistance?
+  Antibiotics turn into toxins | The immune system is suppressed | *Resistant survivors are left to multiply | Bacteria lose their EPS matrix
+  x: Stopping a course early lets resistant survivors multiply, which is how it promotes resistance.
+[n5c66e54c74b] sub8
+  Which of the following is NOT correct about India's response to antimicrobial resistance?
+  *The Red Line campaign puts a red line on the packs of all over-the-counter medicines | Kerala's KARSAP (2018) was the first State-level AMR action plan | The National Action Plan on AMR (2017) is based on the One Health approach | The Red Line campaign was launched in 2016
+  x: The Red Line (2016) marks prescription-only antibiotics, not all over-the-counter medicines.
+[nbiology-65-13] sub8
+  In the production of which of the following is Acetobacter used?
+  Penicillin | Streptomycin | *Vinegar (acetic acid) | Several antibiotics
+  x: Acetobacter gives vinegar; Penicillium gives penicillin, Streptomyces streptomycin and Bacillus several antibiotics.
+[nbiology-66-2] sub8
+  Which antibiotic is used to treat fungal skin infections such as ringworm?
+  Penicillin | Streptomycin | Chloramphenicol | *Griseofulvin
+  x: Griseofulvin treats ringworm; chloramphenicol is used for typhoid and streptomycin was the first anti-TB drug.
+[ffacbc235601c] sub8
+  In which year was India's One Health based National Action Plan on AMR (NAP-AMR) launched?
+  2014 | 2016 | *2017 | 2018
+  x: NAP-AMR came in 2017; the Red Line campaign was 2016 and Kerala's KARSAP 2018.
+[f3db3cd8812de] sub8
+  Which State was the first to adopt its own action plan on antimicrobial resistance (KARSAP, 2018)?
+  *Kerala | Tamil Nadu | Andhra Pradesh | Maharashtra
+  x: Kerala's KARSAP (2018) was the first State AMR action plan.
+[fd3d679f91399] sub8
+  Nafithromycin (Miqnaf), launched in November 2024, is India's first indigenous drug of which type?
+  Sulpha drug | *Macrolide | Penicillin | Antifungal
+  x: Nafithromycin is the first indigenous macrolide, for community-acquired pneumonia, by Wockhardt with BIRAC.
+[f2b38c9c75502] sub8
+  Which was the first anti-TB drug?
+  Penicillin | Chloramphenicol | Griseofulvin | *Streptomycin
+  x: Waksman found streptomycin, the first anti-TB drug; penicillin was Fleming's discovery.
+[f7e89c7c6553b] sub8
+  Consider the following statements about Nafithromycin:
+1. It was developed by Wockhardt with BIRAC.
+2. It was developed by Sun Pharma.
+3. It treats community-acquired pneumonia.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: Nafithromycin is by Wockhardt with BIRAC, not Sun Pharma, and treats community-acquired pneumonia.
+[nced42d88767] sub8
+  Which company developed the antibiotic Nafithromycin, launched in November 2024?
+  *Wockhardt | Sun Pharma | Cipla | Dr Reddy's Laboratories
+  x: Nafithromycin was developed by Wockhardt with BIRAC support and launched on 20 November 2024 by Dr Jitendra Singh; it was not developed by Sun Pharma.
+[f8c05e5ed0714] sub8
+  On the packs of which products does the Red Line campaign (2016) put a red line?
+  Tobacco products | Trans-fat foods | Vaccines | *Prescription-only antibiotics
+  x: The Red Line campaign marks prescription-only antibiotics to curb their misuse.
+[gad71cbe5e179] sub8
+  Which drug, introduced by Domagk in 1935, is converted in the body into sulfanilamide and began the sulpha-drug era?
+  Penicillin | Streptomycin | Chloramphenicol | *Prontosil
+  x: Prontosil is a pro-drug that turns into sulfanilamide in the body.
+[g562865c1744f] sub8
+  Who launched Nafithromycin (Miqnaf), India's first indigenous macrolide antibiotic, in November 2024?
+  J.P. Nadda | Mansukh Mandaviya | *Dr Jitendra Singh | Harsh Vardhan
+  x: Dr Jitendra Singh launched Nafithromycin, made by Wockhardt with BIRAC, on 20 November 2024.
+[g2dc8081dcab7] sub8
+  In which year did Alexander Fleming discover penicillin?
+  *1928 | 1935 | 1942 | 1945
+  x: Fleming discovered penicillin from Penicillium notatum in 1928; Waksman coined 'antibiotic' in 1942.
+[ncf82e1c9927] sub9
+  Which of the following is a likely public-health consequence of biodiversity loss under the One Health framework?
+  Lower risk of zoonotic spillover and pandemics | Complete elimination of animal reservoirs | Permanent immunity against emerging infections | *Increased zoonotic and pandemic risk
+  x: Biodiversity loss can increase zoonotic and pandemic risk by disturbing ecological relationships and interactions between humans, animals and pathogens.
+[na61614d7db9] sub9
+  When was Mission Indradhanush launched?
+  December 2012 | January 2019 | October 2017 | *December 2014
+  x: Mission Indradhanush began in December 2014, targeting over 90% full immunisation of children and pregnant women.
+[n3678c3c54bf] sub9
+  The National One Health Mission is associated with which of the following institutions or bodies?
+  Election Commission of India | Central Pollution Control Board alone | *PM-STIAC | International Labour Organization
+  x: The National One Health Mission is associated with PM-STIAC and provides institutional multisectoral coordination for One Health actions.
+[ne48133ae784] sub9
+  The Epidemic Diseases Act, 1897 was enacted against which disease in Bombay?
+  Smallpox | Cholera | *Bubonic plague | Influenza
+  x: The four-section Act was enacted against bubonic plague in Bombay; the amendment protecting health workers came in 2020.
+[na8bb6e6a92d] sub9
+  The Universal Immunisation Programme (UIP) was introduced in which year?
+  1978 | *1985 | 1995 | 2005
+  x: The Universal Immunisation Programme was introduced in 1985.
+[nd8bf0ba21a1] sub9
+  What is the principal function of the U-WIN digital portal?
+  Issuing licences for vaccine manufacturers | *Registering every vaccination provided under UIP | Monitoring only antimicrobial resistance in hospitals | Recording only adult BCG doses in Andhra Pradesh
+  x: U-WIN is a digital portal for registering every vaccination administered under the Universal Immunisation Programme.
+[f9991f52e3133] sub9
+  Which ministry or body runs the Integrated Disease Surveillance Programme (IDSP), launched in 2004?
+  Ministry of Jal Shakti | NITI Aayog | Ministry of Environment | *MoHFW / NCDC
+  x: IDSP is run by the Health Ministry through NCDC and uses the IHIP digital platform.
+[f9b078c60dd17] sub9
+  Which digital platform does IDSP use?
+  U-WIN | eSanjeevani | CoWIN | *IHIP
+  x: IDSP reports through the IHIP digital platform; U-WIN registers UIP vaccinations.
+[f750d5436c69c] sub9
+  How many sections does the Epidemic Diseases Act, 1897 have?
+  *Four | Two | Six | Ten
+  x: The Epidemic Diseases Act, 1897 has 4 sections.
+[f0771d2a2704d] sub9
+  Why was the Epidemic Diseases Act, 1897 amended in 2020?
+  *Protect health workers | Create the IDSP | Launch U-WIN | Set up NCVBDC
+  x: The 2020 amendment protects health workers.
+[f9a7ac35ffb79] sub9
+  Where is the National Institute of One Health located?
+  Pune | *Nagpur | Hyderabad | Kozhikode
+  x: The National Institute of One Health is at Nagpur.
+[f9923417545e8] sub9
+  Mission Indradhanush aims at full immunisation of more than what share of children and pregnant women?
+  70% | 80% | *90% | 95%
+  x: Mission Indradhanush (Dec 2014) targets over 90% full immunisation.
+[f8314cd3b09fb] sub9
+  How many diseases does the Universal Immunisation Programme, which covered 6 diseases at launch in 1985, now cover?
+  9 diseases | *12 diseases | 15 diseases | 8 diseases
+  x: UIP started with 6 diseases and now covers 12.
+[f098cdc043dbd] sub9
+  Which of the following is NOT among the diseases covered under the Universal Immunisation Programme?
+  Rotavirus | Japanese encephalitis | *Malaria | Rubella
+  x: UIP's 12 diseases include rotavirus, JE and rubella, but not malaria.
+[n72a14da5664] sub10
+  Which of the following measures is most directly associated with the response to vector-borne disease burden in Andhra Pradesh?
+  *Indoor residual spraying, LLIN mosquito nets and source reduction | Removal of all livestock from tribal districts | Replacement of mosquito control with vaccination alone | Exclusive use of antibiotics and suspension of surveillance
+  x: The response includes indoor residual spraying, long-lasting insecticidal nets and source reduction. These measures target mosquito vectors and their breeding sites.
+[na8021c13edd] sub10
+  Which districts carry most of Andhra Pradesh's malaria and scrub typhus burden?
+  Major coastal cities | *Agency (tribal) districts | Districts with no tribal population | Delta irrigated districts
+  x: The agency or tribal districts carry most of Andhra Pradesh's malaria and scrub typhus burden, making them a priority for surveillance and control.
+[nd0cf777f058] sub10
+  About how many scrub typhus cases did Andhra Pradesh report in 2026?
+  1,475 | 146 | *941 | 52
+  x: Scrub typhus accounted for 941 cases and was rising in ASR and Parvathipuram Manyam districts.
+[n425f3d78bac] sub10
+  When did the adult BCG vaccination drive in Andhra Pradesh, which placed the State first in India, begin?
+  1 January 2024 | 24 March 2024 | *16 May 2024 | 16 May 2025
+  x: The AP adult BCG drive began on 16 May 2024 and administered 27.10 lakh doses.
+[n5e3ff9ee6b4] sub10
+  India's life expectancy rose from 49.7 years in 1973 to about how many years in 2023?
+  60.3 | 65.3 | *70.3 | 75.3
+  x: Life expectancy rose from 49.7 to 70.3 years, yet NCDs cause over 57% of deaths while communicable diseases persist - a double burden.
+[n531c798b43e] sub10
+  The 2026 rise in malaria cases in Andhra Pradesh was particularly concentrated in which districts or area?
+  *ASR, Polavaram and Vizianagaram | Nellore, Krishna and Guntur | Kurnool, Anantapur and Kadapa | Tirupati, Chittoor and Prakasam
+  x: The rise in malaria in 2026 was concentrated in Alluri Sitharama Raju, Polavaram and Vizianagaram districts.
+[fc7330c597e6c] sub10
+  Malaria cases in Andhra Pradesh in 2026 (to 30 August) rose by 27.9% to about how many?
+  5,268 | 7,119 | 7,871 | *7,895
+  x: Malaria rose to 7,895 cases in 2026 (to 30 August), with hotspots in ASR, Polavaram and Vizianagaram.
+[f0b7361e4561b] sub10
+  Andhra Pradesh reported about how many dengue cases in 2026 (to 30 August)?
+  *1,475 | 2,686 | 5,555 | 6,453
+  x: Dengue stood at 1,475 cases in 2026 (to 30 August).
+[g092eaa74de1b] sub10
+  Non-communicable diseases now cause more than what share of deaths in India, creating a 'double burden'?
+  27% | 37% | 47% | *57%
+  x: NCDs cause over 57% of deaths in India, alongside communicable diseases - a double burden.
+[nbiology-43-5] sub13
+  Biofilms can form on which of the following?
+  Medical implants only | Food-processing surfaces only | Human tissues only | *Implants, tissues, food and food-processing surfaces
+  x: Biofilms grow on medical implants, human tissues, food and food-processing surfaces.
+

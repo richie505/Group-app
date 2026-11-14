@@ -132,7 +132,7 @@
 - **Seven basic necessities:** housing, sanitation, tap water, clean cooking fuel, electricity, digital connectivity, DBT (**free bus travel is not one**).
 - AP TFR **below 1.5** → **Population Management Policy**.
 - **AP–IFMR MoU:** IFMR is a constituent of **Krea University** (Planning Dept).
-~~ Sources: CARE Jun 2026 p.34 (Swarna Andhra @2047, Padi Sutralu), p.54 (IFMR); app notes 6:1 (sub 8)
+~~ Sources: CARE Jun 2026 p.33-36 (Swarna Andhra @2047 at NITI Aayog GC, Padi Sutralu, AWARE), p.54 (IFMR); app notes 6:1 (sub 8)
 
 === Urban MoUs, Policies, Industry and the TTD Robotic Dog
 | Item | Detail |
@@ -145,4 +145,4 @@
 | **Treated Wastewater Reuse Policy 2026** | Industries **20% treated water by 2028**, **40% by 2030** |
 | Waste-to-energy plants | **Kadapa and Kurnool**; combined **15 MW**, ₹330 crore; 8 planned |
 - **TTD quadruped robotic dog** (Alipiri–Tirumala footpath): **optical and thermal-imaging cameras, 360-degree LiDAR, AI classification**; it **supplements camera traps and foot patrols**, not replace them.
-~~ Sources: Rocket CA 2026 Part 02 p.88 (UN-Habitat HQ Nairobi); CARE Jun 2026 p.38 (UN-Habitat MoU); Praveen CA-360 Jul 2026 p.34 (zoning, NdFeB); Praveen CA-360 Jun 2026 p.37 (wastewater reuse); CARE Aug 2026 p.2 (robotic dog); app notes 6:1 (sub 9)
+~~ Sources: Rocket CA 2026 Part 02 p.88 (UN-Habitat HQ Nairobi); CARE Jun 2026 p.38 (UN-Habitat MoU); Praveen CA-360 Jul 2026 p.34 (zoning, NdFeB); Praveen CA-360 Jun 2026 p.37 (wastewater reuse); CARE Aug 2026 p.30-32 (TTD robotic dog); app notes 6:1 (sub 9)

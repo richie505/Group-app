@@ -626,3 +626,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - add_option: y0419a0c5206 PCR "DNA, without using living cells"; y8d351263c70 UPSC 2018 GM mustard "B only" (original correct option missing).
 - Disputes: y1bcf3c75ece UPSC 2012 GE prospects "1, 2 and 4" (PMF all four); y3a98c96501f gene therapy wording.
 - Unverified printed: y5d1d73ae04f HTR7, yf485adc762e Improved Samba Mahsuri, y633bb922122 terminator, y7804fb7396a crop-area flashcard; yfc1c82d081f "Eve" general knowledge.
+
+## b5-r114 (Diseases)
+- y81d57b6f740 Chagas vector add_option "Triatomine (kissing) bug". yf3d5548dfaf contagious: gnashing → yawning (flat error; general knowledge).
+- Disputes: baldness fungal; dysentery bacterial; Hepatitis A blood-borne match; AIDS "not infectious".
+- Outdated y952429cfb7c P. vivax ~65% (now P. falciparum ~60%).
+- Unverified: veterinary tests, Russell's viper, sandal spike, ya2f81e6ca5c acute diarrhoea, remittent fever (vetscraft only).
