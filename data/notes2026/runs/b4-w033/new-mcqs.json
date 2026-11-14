@@ -30,9 +30,9 @@
   "tq": "match"
  },
  {
-  "id": "cpbb0baa75de67",
+  "id": "cpf83340c0db00",
   "row": 33,
-  "s": "Consider the following statements about India's neighbours:\n1. Afghanistan lies to the north-west of India and touches India only along Ladakh.\n2. Bhutan lies to the east of India.\n3. Afghanistan shares a land border with Russia.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about India's neighbours:\n1. Afghanistan lies to the north-west of India and touches India only along Ladakh.\n2. Bhutan lies to the east of India.\n3. Afghanistan is a part of the Indian subcontinent.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -40,7 +40,7 @@
    "None"
   ],
   "a": 0,
-  "x": "Only statement 1 is correct. Statement 2 is wrong: Bhutan lies to the north-east of India, not the east. Statement 3 is wrong: Afghanistan's neighbours are Tajikistan, Turkmenistan, Uzbekistan, China, India (PoK area), Pakistan and Iran – not Russia.",
+  "x": "Only statement 1 is correct. Statement 2 is wrong: Bhutan lies to the north-east of India, not the east. Statement 3 is wrong: Afghanistan is a SAARC member but not part of the Indian subcontinent (Pakistan, Nepal, Bhutan, Bangladesh, India).",
   "src": "app",
   "tq": "statements"
  },
@@ -135,17 +135,17 @@
   "tq": "statements"
  },
  {
-  "id": "cp87dddc745989",
+  "id": "cp6c1f30c7c3b8",
   "row": 33,
-  "s": "Consider the following statements:\n1. India has nine coastal States.\n2. Chandigarh is one of India's coastal Union Territories.\n3. Daman and Diu remained under Portuguese rule until 1971.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. Daman and Diu remained under Portuguese rule until 1971.\n2. India has nine coastal States.\n3. Puducherry is one of India's coastal Union Territories.\nWhich of the statements given above is/are correct?",
   "o": [
+   "2 only",
+   "3 only",
    "1, 2 and 3",
-   "1 and 3 only",
-   "1 and 2 only",
-   "1 only"
+   "2 and 3 only"
   ],
   "a": 3,
-  "x": "Only statement 1 is correct. Statement 2 is wrong: Chandigarh is landlocked; the coastal UTs are A&N, Lakshadweep, Puducherry and Dadra & Nagar Haveli and Daman & Diu. Statement 3 is wrong: Daman and Diu was Portuguese until 1961, not 1971.",
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: Daman and Diu was Portuguese until 1961, not 1971. India has nine coastal States and four coastal UTs – A&N, Lakshadweep, Puducherry and Dadra & Nagar Haveli and Daman & Diu.",
   "src": "app",
   "tq": "statements"
  },
@@ -225,13 +225,13 @@
   "tq": "match"
  },
  {
-  "id": "cp1f566e79f167",
+  "id": "cpefba59178d21",
   "row": 33,
-  "s": "Consider the following statements about the areas of States and UTs:\n1. Rajasthan is the largest State of India by area.\n2. Andhra Pradesh is the fifth largest State by area.\n3. Ladakh is the largest Union Territory by area.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the areas of States and UTs:\n1. Rajasthan is the largest State of India by area.\n2. Andhra Pradesh is the fifth largest State by area.\n3. Goa is the smallest State and Lakshadweep the smallest Union Territory.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 3 only",
-   "1 only",
    "3 only",
+   "1 only",
    "1, 2 and 3"
   ],
   "a": 0,
@@ -240,17 +240,17 @@
   "tq": "statements"
  },
  {
-  "id": "cpd8b23f4163be",
+  "id": "cpc43d786bbf6d",
   "row": 33,
-  "s": "Consider the following statements about the Tropic of Cancer in India:\n1. It passes through eight Indian States.\n2. Mizoram is the easternmost State through which it passes.\n3. It passes through Odisha.\n4. Andhra Pradesh lies wholly to its south.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the Tropic of Cancer in India:\n1. It passes through eight Indian States.\n2. It passes through Jharkhand and West Bengal.\n3. It passes through Odisha.\n4. Andhra Pradesh lies wholly to its south.\nWhich of the statements given above is/are correct?",
   "o": [
    "1, 2, 3 and 4",
-   "2 and 4 only",
-   "1, 2 and 4 only",
-   "1 and 2 only"
+   "1 and 4 only",
+   "1 and 2 only",
+   "1, 2 and 4 only"
   ],
-  "a": 2,
-  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: the Tropic of Cancer passes through Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram (eight States, Mizoram easternmost) – it does not touch Odisha or Bihar. AP lies wholly south of it.",
+  "a": 3,
+  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: the Tropic of Cancer passes through Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram (eight States) – it does not touch Odisha or Bihar. AP lies wholly south of it.",
   "src": "app",
   "tq": "statements"
  },
@@ -306,18 +306,18 @@
   "o": [
    "2 only",
    "1, 2 and 3",
-   "1 only",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1 only"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Statements 1 and 2 are correct. Statement 3 is wrong: Yanam is in AP, but Mahe lies in Kerala; Karaikal and Puducherry are in Tamil Nadu.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp29b00ccbb62c",
+  "id": "cp2c5804afe810",
   "row": 33,
-  "s": "Consider the following statements:\n1. Karnataka borders six States – Goa, Maharashtra, Telangana, Andhra Pradesh, Tamil Nadu and Kerala.\n2. Uttar Pradesh shares a border with Punjab.\n3. Rayalaseema has Telangana to its north and Karnataka to its west.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements:\n1. Karnataka borders six States – Goa, Maharashtra, Telangana, Andhra Pradesh, Tamil Nadu and Kerala.\n2. Uttar Pradesh shares a border with Punjab.\n3. Madhya Pradesh shares borders with Chhattisgarh and Maharashtra.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -325,7 +325,7 @@
    "None"
   ],
   "a": 1,
-  "x": "Two statements are correct. Statement 2 is wrong: Uttar Pradesh borders Uttarakhand, HP, Haryana, Delhi, Rajasthan, MP, Chhattisgarh, Jharkhand and Bihar – not Punjab. Karnataka (6 neighbours) is the southern State with most State neighbours; Rayalaseema has Karnataka west, Tamil Nadu south and Telangana north.",
+  "x": "Two statements are correct. Statement 2 is wrong: Uttar Pradesh borders Uttarakhand, HP, Haryana, Delhi, Rajasthan, MP, Chhattisgarh, Jharkhand and Bihar – not Punjab. Karnataka (6 neighbours) is the southern State with most State neighbours; MP borders Gujarat, Rajasthan, UP, Chhattisgarh and Maharashtra.",
   "src": "app",
   "tq": "statements"
  },
@@ -360,17 +360,17 @@
   "tq": "statements"
  },
  {
-  "id": "cp8b4728f71c84",
+  "id": "cpd692f2e98628",
   "row": 34,
-  "s": "Consider the following statements about the Trans-Himalaya:\n1. The Ladakh Range continues eastwards into Tibet as the Zaskar Range.\n2. The Ladakh Plateau is the highest plateau in India.\n3. The Trans-Himalaya was formed after the Himalayas.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the Trans-Himalaya:\n1. Lake Manasarovar lies near the Kailash Range, into which the Ladakh Range continues in Tibet.\n2. The Ladakh Plateau is the highest plateau in India.\n3. The Trans-Himalaya was formed after the Himalayas.\nHow many of the above statements are correct?",
   "o": [
-   "2 only",
-   "3 only",
-   "1 and 2 only",
-   "2 and 3 only"
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
   ],
-  "a": 0,
-  "x": "Only statement 2 is correct. Statement 1 is wrong: the Ladakh Range continues into Tibet as the Kailash Range, not the Zaskar. Statement 3 is wrong: the Trans-Himalaya was formed before the Himalayas. The Ladakh Plateau (with Aksai Chin) is India's highest plateau.",
+  "a": 1,
+  "x": "Two statements are correct. Statement 3 is wrong: the Trans-Himalaya was formed before the Himalayas. The Ladakh Range continues into Tibet as the Kailash Range (with Lake Manasarovar near it), and the Ladakh Plateau (with Aksai Chin) is India's highest plateau.",
   "src": "app",
   "tq": "statements"
  },
@@ -379,28 +379,28 @@
   "row": 34,
   "s": "Match List-I with List-II:\nList-I (Local name of the outer / Lesser Himalayan hills)\na. Jammu Hills\nb. Dhang / Dundwa range\nc. Churia Ghat\nd. Dafla, Miri, Abor and Mishmi hills\nList-II (Region)\ni. Uttarakhand\nii. Arunachal Pradesh\niii. Jammu and Kashmir\niv. Nepal\nSelect the correct answer using the code given below:",
   "o": [
+   "a-iii, b-i, c-iv, d-ii",
    "a-i, b-iii, c-iv, d-ii",
    "a-iii, b-i, c-ii, d-iv",
-   "a-iii, b-iv, c-i, d-ii",
-   "a-iii, b-i, c-iv, d-ii"
+   "a-iii, b-iv, c-i, d-ii"
   ],
-  "a": 3,
+  "a": 0,
   "x": "The Shiwalik is called the Jammu Hills in J&K, the Dhang/Dundwa range in Uttarakhand and the Churia Ghat in Nepal; in Arunachal Pradesh the outer hills are the Dafla, Miri, Abor and Mishmi hills.",
   "src": "app",
   "tq": "match"
  },
  {
-  "id": "cp96852f2b39bf",
+  "id": "cp2375c43c6a65",
   "row": 34,
-  "s": "Match List-I with List-II:\nList-I (Peak)\na. K2 (Godwin Austen)\nb. Kanchenjunga\nc. Cho Oyu\nd. Nanga Parbat\nList-II (Feature)\ni. Sikkim–Nepal border, world's 3rd highest\nii. Nepal–Tibet border, world's 6th highest\niii. Western end of the Himalaya\niv. Karakoram, world's 2nd highest\nSelect the correct answer using the code given below:",
+  "s": "Match List-I with List-II:\nList-I (Peak)\na. K2 (Godwin Austen)\nb. Kanchenjunga\nc. Cho Oyu\nd. Namcha Barwa\nList-II (Feature)\ni. Sikkim–Nepal border, world's 3rd highest\nii. Nepal–Tibet border, world's 6th highest\niii. Eastern end, at the Brahmaputra bend\niv. Karakoram, world's 2nd highest\nSelect the correct answer using the code given below:",
   "o": [
    "a-iii, b-i, c-ii, d-iv",
-   "a-ii, b-i, c-iv, d-iii",
-   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-i, b-iv, c-ii, d-iii",
    "a-iv, b-i, c-ii, d-iii"
   ],
   "a": 3,
-  "x": "K2 (8,611 m) is in the Karakoram and is the world's 2nd highest; Kanchenjunga (8,586 m) on the Sikkim–Nepal border is 3rd; Cho Oyu (8,188 m) on the Nepal–Tibet border is 6th; Nanga Parbat (8,126 m) marks the western end of the Himalaya.",
+  "x": "K2 (8,611 m) is in the Karakoram and is the world's 2nd highest; Kanchenjunga (8,586 m) on the Sikkim–Nepal border is 3rd; Cho Oyu (8,188 m) on the Nepal–Tibet border is 6th; Namcha Barwa (7,755 m) marks the eastern end of the Himalaya at the Brahmaputra bend.",
   "src": "app",
   "tq": "match"
  },
@@ -439,12 +439,12 @@
   "row": 34,
   "s": "Match List-I with List-II:\nList-I (Pass)\na. Lipulekh\nb. Bum La\nc. Nathu La\nd. Diphu\nList-II (Location)\ni. India–Myanmar border\nii. Gangtok – Chumbi Valley, Sikkim\niii. Pithoragarh, Uttarakhand\niv. Tawang, Arunachal Pradesh\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iii, b-iv, c-ii, d-i",
    "a-iii, b-ii, c-iv, d-i",
    "a-i, b-iv, c-ii, d-iii",
-   "a-iii, b-i, c-ii, d-iv"
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-iv, c-ii, d-i"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Lipulekh is in Pithoragarh (Uttarakhand) at the India–China–Nepal tri-junction; Bum La links Tawang with Tibet; Nathu La links Gangtok with the Chumbi Valley; Diphu and Pangsau are on the India–Myanmar border.",
   "src": "app",
   "tq": "match"
@@ -465,17 +465,17 @@
   "tq": "statements"
  },
  {
-  "id": "cp369255abdae1",
+  "id": "cpd3602846d0a6",
   "row": 34,
-  "s": "Consider the following statements about the passes of Uttarakhand:\n1. The Mana pass, north of Badrinath, connects Uttarakhand with Tibet.\n2. The Niti pass lies on the Uttarakhand–Myanmar route.\n3. Lipulekh lies at the India–China–Nepal tri-junction on the Kailash-Mansarovar route.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the passes of Uttarakhand:\n1. The Mana pass, north of Badrinath, connects Uttarakhand with Tibet.\n2. Kingri-Wingri and Muling La are rivers of Uttarakhand.\n3. Lipulekh lies at the India–China–Nepal tri-junction on the Kailash-Mansarovar route.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "3 only",
    "1, 2 and 3",
-   "1 and 3 only",
-   "3 only"
+   "1 and 3 only"
   ],
-  "a": 2,
-  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: Niti, like Mana, Kingri-Wingri and Muling La, is an Uttarakhand–Tibet pass; Uttarakhand does not touch Myanmar.",
+  "a": 3,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: Kingri-Wingri and Muling La, like Niti and Mana, are Uttarakhand–Tibet passes, not rivers.",
   "src": "app",
   "tq": "statements"
  },
@@ -514,12 +514,12 @@
   "row": 34,
   "s": "Match List-I with List-II:\nList-I (Hills)\na. Garo Hills (Nokrek peak)\nb. Miri Hills\nc. Bhuban Hills\nd. Lushai Hills\nList-II (State)\ni. Arunachal Pradesh\nii. Meghalaya\niii. Mizoram\niv. Assam\nSelect the correct answer using the code given below:",
   "o": [
+   "a-ii, b-i, c-iv, d-iii",
    "a-ii, b-iii, c-iv, d-i",
    "a-iv, b-i, c-ii, d-iii",
-   "a-ii, b-i, c-iii, d-iv",
-   "a-ii, b-i, c-iv, d-iii"
+   "a-ii, b-i, c-iii, d-iv"
   ],
-  "a": 3,
+  "a": 0,
   "x": "The Garo (with Nokrek, 1,412 m), Khasi and Jaintia hills are in Meghalaya; the Miri Hills are in Arunachal Pradesh (not Meghalaya); the Bhuban Hills are in Assam's Barak valley; the Mizo (Lushai) Hills are in Mizoram.",
   "src": "app",
   "tq": "match"
@@ -529,12 +529,12 @@
   "row": 34,
   "s": "Consider the following statements about the Purvanchal:\n1. The Patkai Bum touches Arunachal Pradesh, Nagaland, Manipur and Mizoram, but not Tripura.\n2. The Mizo (Lushai) Hills run east–west.\n3. The Molasse basin of soft, unconsolidated deposits lies in Mizoram.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "3 only",
    "1, 2 and 3",
+   "1 and 3 only",
    "1 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the Mizo (Lushai) Hills run north–south. The Patkai Bum, with the Naga Hills, forms the India–Myanmar watershed and does not touch Tripura.",
   "src": "app",
   "tq": "statements"
@@ -559,12 +559,12 @@
   "row": 34,
   "s": "Consider the following statements:\n1. The Kashmir Valley lies between the Great Himalaya and the Pir Panjal.\n2. The Kullu Valley of Himachal Pradesh lies between the Dhauladhar and the Pir Panjal.\n3. The karewas, lake-deposit terraces of the Kashmir Himalaya, are used for growing saffron (zafran).\nWhich of the statements given above is/are correct?",
   "o": [
+   "1, 2 and 3",
    "1 and 2 only",
    "2 and 3 only",
-   "1, 2 and 3",
    "1 and 3 only"
   ],
-  "a": 2,
+  "a": 0,
   "x": "All three statements are correct: the Kashmir Valley lies between the Himadri (NE) and the Pir Panjal (SW); the Kullu Valley between the Dhauladhar and Pir Panjal; karewas are thick lacustrine and glacial-clay terraces whose soils grow zafran.",
   "src": "app",
   "tq": "statements"
@@ -585,14 +585,14 @@
   "tq": "statements"
  },
  {
-  "id": "cpcb94628e1174",
+  "id": "cpf7a308e6eccc",
   "row": 34,
-  "s": "Consider the following statements about the origin and structure of the Himalaya:\n1. They were raised from Tethys sediments and are still rising.\n2. The Indus–Tsangpo Suture Zone, the northernmost structural zone, separates the Himalaya from Tibet.\n3. The Himalayan Frontal Fault separates the Himalaya from Tibet.\n4. Debris from the Shiwalik helped build the Indo-Gangetic Plain.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the origin and structure of the Himalaya:\n1. They are young fold mountains raised from Tethys sediments in the Tertiary as the Indian plate pushed into Eurasia.\n2. The Indus–Tsangpo Suture Zone, the northernmost structural zone, separates the Himalaya from Tibet.\n3. The Himalayan Frontal Fault separates the Himalaya from Tibet.\n4. Debris from the Shiwalik helped build the Indo-Gangetic Plain.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2, 3 and 4",
-   "2 and 4 only",
+   "1 and 2 only",
+   "1 and 4 only",
    "1, 2 and 4 only",
-   "1 and 4 only"
+   "2 and 4 only"
   ],
   "a": 2,
   "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: the Himalayan Frontal Fault separates the Himalaya from the plains; it is the Indus–Tsangpo Suture Zone that separates them from Tibet.",
@@ -610,7 +610,7 @@
    "A is false, but R is true"
   ],
   "a": 1,
-  "x": "Both are true, but R does not explain A: the steep slope facing the plains (gentle slope towards Tibet) comes from the asymmetrical folding of the Himadri, not from its granite core.",
+  "x": "Both are true, but R does not explain A: a granite core does not decide which side is steep; the notes tie the steep plains-facing slope (gentle slope towards Tibet) to the asymmetrical folds of the Himadri.",
   "src": "app",
   "tq": "assertion"
  },
@@ -634,12 +634,12 @@
   "row": 34,
   "s": "Match List-I with List-II:\nList-I (Regional division (Burrard))\na. Punjab Himalaya\nb. Kumaon Himalaya\nc. Nepal Himalaya\nd. Assam Himalaya\nList-II (Between rivers)\ni. Sutlej – Kali\nii. Kali – Teesta\niii. Teesta – Dihang\niv. Indus – Sutlej\nSelect the correct answer using the code given below:",
   "o": [
-   "a-iv, b-i, c-ii, d-iii",
    "a-ii, b-i, c-iv, d-iii",
    "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
    "a-iii, b-i, c-ii, d-iv"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Burrard's four divisions, west to east: Punjab Himalaya (Indus–Sutlej), Kumaon Himalaya (Sutlej–Kali), Nepal Himalaya (Kali–Teesta) and Assam Himalaya (Teesta–Dihang/Brahmaputra).",
   "src": "app",
   "tq": "match"
@@ -649,28 +649,28 @@
   "row": 34,
   "s": "Consider the following statements about Himalayan glaciers:\n1. The Siachen, the largest glacier of India, lies in the Karakoram.\n2. The Baltoro glacier lies in the Greater Himalaya.\n3. The Gangotri glacier of the Greater Himalaya is the source of the Bhagirathi.\n4. The Zemu glacier of Sikkim feeds the Manas.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 and 3 only",
    "1, 2 and 3 only",
    "1, 3 and 4 only",
-   "3 only",
-   "1 and 3 only"
+   "3 only"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the Baltoro (like the Biafo and Hispar) is a Karakoram glacier in Gilgit-Baltistan. Statement 4 is wrong: the Zemu, largest glacier of the Eastern Himalaya, feeds the Teesta, not the Manas.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp2795169ea5b0",
+  "id": "cp0296ccb414ce",
   "row": 35,
-  "s": "Consider the following statements about the Ghats:\n1. The Eastern Ghats extend about 1,750 km from the Mahanadi to the Vaigai.\n2. The Eastern Ghats form a continuous range, cut only by the Narmada.\n3. The average height of the Eastern Ghats is about 600 m.\n4. The Western Ghats become lower from north to south.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the Ghats:\n1. The Eastern Ghats extend about 1,750 km from the Mahanadi to the Vaigai.\n2. The Eastern Ghats are made mainly of Deccan lava.\n3. The average height of the Eastern Ghats is about 600 m.\n4. The Western Ghats become lower from north to south.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "1, 3 and 4 only",
-   "1 only",
-   "3 only"
+   "3 only",
+   "1, 2 and 3 only",
+   "1 and 3 only"
   ],
-  "a": 0,
-  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the Eastern Ghats are discontinuous, eroded hill groups cut by the Mahanadi, Godavari, Krishna and Kaveri – not the Narmada, which flows west. Statement 4 is wrong: the Western Ghats rise from north to south (higher in the south).",
+  "a": 3,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the Eastern Ghats are made of khondalite and charnockite; Deccan lava forms the northern Western Ghats. Statement 4 is wrong: the Western Ghats rise from north to south (higher in the south).",
   "src": "app",
   "tq": "statements"
  },
@@ -690,16 +690,16 @@
   "tq": "match"
  },
  {
-  "id": "cpa056e5fffcf1",
+  "id": "cpf00ef56bd32a",
   "row": 35,
-  "s": "Consider the following statements about the Western Ghats:\n1. The Thal Ghat links Mumbai with Pune.\n2. The Bhor Ghat links Mumbai with Pune.\n3. From north to south their local names run Sahyadri – Nilgiri – Anaimalai – Palani – Cardamom.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the Western Ghats:\n1. The Thal Ghat links Mumbai with Pune.\n2. The Bhor Ghat links Mumbai with Pune.\n3. In Maharashtra, Goa and Karnataka they are locally called the Sahyadri.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 only",
-   "3 only",
    "2 and 3 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "2 only",
+   "3 only"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the Thal Ghat links Mumbai with Nashik; it is the Bhor Ghat that links Mumbai with Pune.",
   "src": "app",
   "tq": "statements"
@@ -735,17 +735,17 @@
   "tq": "match"
  },
  {
-  "id": "cpde0c0d7de1cc",
+  "id": "cpba310db1c8c4",
   "row": 35,
-  "s": "Consider the following statements:\n1. The Araku Valley is called the 'Ooty of Andhra Pradesh'.\n2. The Srisailam Tiger Reserve lies in the Papikondalu hills.\n3. The Seshachalam hills are known for red sanders.\n4. The Biligirirangan hills are in Karnataka.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. The Araku Valley is called the 'Ooty of Andhra Pradesh'.\n2. The Erramala hills form the gorge of the Godavari.\n3. The Seshachalam hills are known for red sanders.\n4. The Biligirirangan hills are in Karnataka.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2, 3 and 4",
    "1 and 4 only",
+   "1, 2, 3 and 4",
    "3 and 4 only",
    "1, 3 and 4 only"
   ],
   "a": 3,
-  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the Srisailam Tiger Reserve is in the Nallamala hills (home of the Chenchus); the Papikondalu hills form the Godavari gorge.",
+  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the Godavari gorge is in the Papikondalu hills; the Erramala form the Krishna–Penna divide.",
   "src": "app",
   "tq": "statements"
  },
@@ -754,12 +754,12 @@
   "row": 35,
   "s": "Consider the following statements about the Peninsular Plateau:\n1. It is an ancient, stable crystalline block that formed part of Gondwana land.\n2. It is of volcanic origin as a whole.\n3. Its Central Highlands lie north of the Narmada.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "1, 2 and 3",
    "1 only",
+   "1 and 3 only",
    "3 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the plateau as a whole is a Precambrian shield, not of volcanic origin; only the Deccan Traps of its north-west are lava.",
   "src": "app",
   "tq": "statements"
@@ -780,9 +780,9 @@
   "tq": "assertion"
  },
  {
-  "id": "cp990533ac4dbd",
+  "id": "cp506eed972d1e",
   "row": 35,
-  "s": "Consider the following statements:\n1. The Malwa Plateau lies to the east of Bundelkhand.\n2. The Vindhyas lie to the south of the Malwa Plateau.\n3. The Bhander Plateau forms the southern part of the Vindhyan scarpland.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements:\n1. The Malwa Plateau has a single drainage system, towards the Bay of Bengal.\n2. The Vindhyas lie to the south of the Malwa Plateau.\n3. The Bhander Plateau forms the southern part of the Vindhyan scarpland.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -790,7 +790,7 @@
    "None"
   ],
   "a": 1,
-  "x": "Two statements are correct. Statement 1 is wrong: Bundelkhand lies to the east of the Malwa Plateau, not the other way round. The Malwa lies between the Aravalli and the Vindhya, with the Vindhya to its south.",
+  "x": "Two statements are correct. Statement 1 is wrong: the Malwa has two drainage systems – to the Arabian Sea (Narmada, Mahi) and to the Bay of Bengal (Chambal, Betwa via the Yamuna). It lies between the Aravalli and the Vindhya, with the Vindhya to its south.",
   "src": "app",
   "tq": "statements"
  },
@@ -814,12 +814,12 @@
   "row": 35,
   "s": "Match List-I with List-II:\nList-I (Plateau / region)\na. Dandakaranya\nb. Malnad\nc. Deccan Plateau\nd. Malwa Plateau\nList-II (Location)\ni. Western MP and SE Rajasthan\nii. Chhattisgarh and Odisha\niii. Western Karnataka\niv. South of the Narmada\nSelect the correct answer using the code given below:",
   "o": [
+   "a-ii, b-iii, c-iv, d-i",
    "a-ii, b-iii, c-i, d-iv",
    "a-ii, b-iv, c-iii, d-i",
-   "a-ii, b-iii, c-iv, d-i",
    "a-iv, b-iii, c-ii, d-i"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Dandakaranya (~89,078 sq km) is the central-eastern highland of Chhattisgarh and Odisha; Malnad is the hilly, forested west of Karnataka (not AP); the Deccan, the largest plateau, lies south of the Narmada; the Malwa lies in western MP and SE Rajasthan.",
   "src": "app",
   "tq": "match"
@@ -831,10 +831,10 @@
   "o": [
    "2 only",
    "1, 2 and 3 only",
-   "1, 2 and 4 only",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1, 2 and 4 only"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the Traps once covered ~10 lakh sq km but now cover about 5 lakh sq km. Statement 4 is wrong: their thickness falls from about 3,000 m in the west to 150 m in the east. They weather into regur (black cotton soil).",
   "src": "app",
   "tq": "statements"
@@ -859,12 +859,12 @@
   "row": 35,
   "s": "Consider the following statements about the central ranges:\n1. The Kaimur Hills, the eastern continuation of the Vindhya, extend over MP, UP and Bihar.\n2. The Maikal Range forms the eastern part of the Vindhya.\n3. Amarkantak in the Maikal is the source of the Narmada and the Son.\n4. The Narmada flows between the Vindhya to the north and the Satpura to the south.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 3 and 4 only",
    "1, 2, 3 and 4",
    "3 and 4 only",
-   "1 and 3 only"
+   "1 and 3 only",
+   "1, 3 and 4 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the Maikal is the eastern end of the Satpura (MP–Chhattisgarh), not of the Vindhya.",
   "src": "app",
   "tq": "statements"
@@ -874,12 +874,12 @@
   "row": 35,
   "s": "Match List-I with List-II:\nList-I (Hills)\na. Mandav hills\nb. Garhjat hills\nc. Ajanta range\nd. Ramgiri hills\nList-II (State)\ni. Maharashtra\nii. Chhattisgarh\niii. Odisha\niv. Gujarat\nSelect the correct answer using the code given below:",
   "o": [
-   "a-ii, b-iii, c-i, d-iv",
    "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iii, c-i, d-iv",
    "a-iv, b-ii, c-i, d-iii",
    "a-iv, b-i, c-iii, d-ii"
   ],
-  "a": 1,
+  "a": 0,
   "x": "The Mandav hills are in Kathiawar, Gujarat (not Maharashtra); the Garhjat hills are in Odisha; the Ajanta range lies only in Maharashtra; the Ramgiri hills of Chhattisgarh are placed in the Maikal.",
   "src": "app",
   "tq": "match"
@@ -945,17 +945,17 @@
   "tq": "assertion"
  },
  {
-  "id": "cp8894cb945bbe",
+  "id": "cpe943a844a4de",
   "row": 35,
-  "s": "Consider the following statements:\n1. The western coast of India is generally drier than the eastern coast.\n2. India's fairly straight coastline is chiefly the result of faulting.\n3. The Gulf of Khambhat has the largest tidal energy potential in India.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements:\n1. The western coastal plain is broad and emergent.\n2. India's fairly straight coastline is chiefly the result of faulting.\n3. The Gulf of Khambhat has the largest tidal energy potential in India.\nWhich of the statements given above is/are correct?",
   "o": [
    "2 only",
-   "1, 2 and 3",
    "2 and 3 only",
+   "1, 2 and 3",
    "3 only"
   ],
-  "a": 2,
-  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the west coast is the wetter one; the east coast gets less rain.",
+  "a": 1,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the western coastal plain is narrow and submergent; the broad, emergent plain with deltas is on the east coast.",
   "src": "app",
   "tq": "statements"
  },
@@ -975,17 +975,17 @@
   "tq": "statements"
  },
  {
-  "id": "cped7fd15e7009",
+  "id": "cp9e7306ee99dd",
   "row": 35,
-  "s": "Consider the following statements about the lagoons of the east coast:\n1. Sriharikota separates Pulicat Lake from the Bay of Bengal.\n2. Kolleru is still a coastal lagoon separated from the sea by a sand bar.\n3. Pulicat is India's largest brackish-water lagoon.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the lagoons of the east coast:\n1. Sriharikota separates Pulicat Lake from the Bay of Bengal.\n2. Kolleru lies between the Krishna and the Penna.\n3. Pulicat is India's largest brackish-water lagoon.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 3 only",
-   "3 only",
    "1 and 2 only",
-   "1 only"
+   "1 only",
+   "3 only"
   ],
-  "a": 3,
-  "x": "Only statement 1 is correct. Statement 2 is wrong: Kolleru, once a lagoon, is now an inland freshwater lake between the Godavari and the Krishna. Statement 3 is wrong: Pulicat is the second-largest; Chilika (Northern Circars) is the largest brackish lagoon.",
+  "a": 2,
+  "x": "Only statement 1 is correct. Statement 2 is wrong: Kolleru, once a lagoon and now an inland freshwater lake, lies between the Godavari and the Krishna. Statement 3 is wrong: Pulicat is the second-largest; Chilika (Northern Circars) is the largest brackish lagoon.",
   "src": "app",
   "tq": "statements"
  },
@@ -995,11 +995,11 @@
   "s": "Consider the following statements about the Thar desert:\n1. Marusthali is the true desert in the west of the Thar.\n2. Bagar is the semi-arid strip along the Aravallis.\n3. Annual rainfall in the Thar is generally below 150 mm.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 and 2 only",
-   "1, 2 and 3",
    "1 and 3 only",
-   "2 and 3 only"
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 3,
   "x": "All three are correct: the Thar has the Marusthali (true desert, west) and the Bagar (semi-arid strip along the Aravallis), with rainfall below 150 mm; its seasonal streams appear only with rain.",
   "src": "app",
   "tq": "statements"
@@ -1080,17 +1080,17 @@
   "tq": "match"
  },
  {
-  "id": "cpd4486e7405f7",
+  "id": "cp0534d1379147",
   "row": 35,
-  "s": "Consider the following statements about the Northern Plains:\n1. The Himalayan Frontal Fault marks their northern edge.\n2. From the Yamuna at Delhi to the Bay of Bengal, about 1,600 km, they drop by only about 200 m.\n3. Malwa is one of the divisions of the Ganga Plain.\n4. The Ganga–Brahmaputra delta is an example of a deltaic plain.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the Northern Plains:\n1. The Himalayan Frontal Fault marks their northern edge.\n2. From the Yamuna at Delhi to the Bay of Bengal, about 1,600 km, they drop by only about 200 m.\n3. The Bhur is the newer floodplain alluvium of the Ganga plain.\n4. The Ganga–Brahmaputra delta is an example of a deltaic plain.\nWhich of the statements given above is/are correct?",
   "o": [
    "1, 2, 3 and 4",
-   "1 and 2 only",
+   "1 and 4 only",
    "1, 2 and 4 only",
-   "2 and 4 only"
+   "1 and 2 only"
   ],
   "a": 2,
-  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: the Ganga Plain divisions are the Ganga–Yamuna doab, Rohilkhand, Avadh, Bihar and Bengal plains; Malwa is a plateau.",
+  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: the Bhur is an undulating aeolian sandy deposit of the upper Ganga–Yamuna doab; the newer floodplain alluvium is the Khadar.",
   "src": "app",
   "tq": "statements"
  },
@@ -1170,17 +1170,17 @@
   "tq": "match"
  },
  {
-  "id": "cp9520db3eecb2",
+  "id": "cpf1169dc208b2",
   "row": 36,
-  "s": "Consider the following statements about the Gandak:\n1. It is called the Narayani in Nepal.\n2. It enters India at Raxaul.\n3. It was the Sadanira of the Shatapatha Brahmana.\n4. India and Nepal signed the Gandak Project agreement in 1959.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the Gandak:\n1. It is called the Narayani in Nepal.\n2. The Kali Gandak and the Trishuli are headstreams of the Kosi.\n3. It was the Sadanira of the Shatapatha Brahmana.\n4. India and Nepal signed the Gandak Project agreement in 1959.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2, 3 and 4",
    "3 and 4 only",
    "1, 3 and 4 only",
+   "1, 2, 3 and 4",
    "1 and 4 only"
   ],
-  "a": 2,
-  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the Gandak enters India at Valmikinagar, not Raxaul. The Gandak Project agreement was signed on 4 Dec 1959.",
+  "a": 1,
+  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the Kali Gandak and Trishuli are streams of the Gandak, not the Kosi (whose main headstream is the Arun). The Gandak enters India at Valmikinagar. The Gandak Project agreement was signed on 4 Dec 1959.",
   "src": "app",
   "tq": "statements"
  },
@@ -1205,11 +1205,11 @@
   "s": "Consider the following statements about the Yamuna system:\n1. The Yamuna rises at the Yamunotri glacier on the slopes of Bandarpunch.\n2. The Hindon joins the Yamuna on its right bank.\n3. The Kshipra is a tributary of the Chambal.\n4. The Betwa joins the Chambal.\nWhich of the statements given above is/are correct?",
   "o": [
    "1, 2 and 3 only",
-   "1 and 3 only",
    "1, 3 and 4 only",
+   "1 and 3 only",
    "1 only"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the Hindon (Hindan), like the Tons, joins the Yamuna on its left bank. Statement 4 is wrong: the Betwa does not join the Chambal; it joins the Yamuna at Hamirpur.",
   "src": "app",
   "tq": "statements"
@@ -1275,9 +1275,9 @@
   "tq": "match"
  },
  {
-  "id": "cp20021793bc9b",
+  "id": "cp0f07a7b36609",
   "row": 36,
-  "s": "Consider the following statements about the Indus tributaries:\n1. The Chenab is formed by the Chandra and the Bhaga at Tandi in Himachal Pradesh.\n2. The Chenab is the largest tributary of the Indus.\n3. The Kishanganga, called the Neelum in Pakistan, is a tributary of the Sutlej.\n4. The Ravi joins the Chenab in Pakistan.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about the Indus tributaries:\n1. The Chenab is formed by the Chandra and the Bhaga at Tandi in Himachal Pradesh.\n2. The Chenab is the largest tributary of the Indus.\n3. The Tawi is a tributary of the Jhelum.\n4. The Ravi joins the Chenab in Pakistan.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -1285,7 +1285,7 @@
    "All four"
   ],
   "a": 2,
-  "x": "Three statements are correct. Statement 3 is wrong: the Kishanganga (Neelum in Pakistan) is the main tributary of the Jhelum, not the Sutlej.",
+  "x": "Three statements are correct. Statement 3 is wrong: the Tawi is a tributary of the Chenab; the main tributary of the Jhelum is the Kishanganga (Neelum in Pakistan).",
   "src": "app",
   "tq": "statements"
  },
@@ -1405,7 +1405,7 @@
    "A is false, but R is true"
   ],
   "a": 1,
-  "x": "Both are true, but R does not explain A: the name Padma comes with the right arm that enters Bangladesh from Farakka; its later meeting with the Jamuna (Brahmaputra) at Goalundo does not explain the name.",
+  "x": "Both are true, but R does not explain A: the right arm of the Ganga enters Bangladesh from Farakka as the Padma; its later meeting with the Jamuna (Brahmaputra) at Goalundo, downstream, has nothing to do with that name.",
   "src": "app",
   "tq": "assertion"
  },
@@ -1500,17 +1500,17 @@
   "tq": "statements"
  },
  {
-  "id": "cpfbfb887c4cb1",
+  "id": "cp8f597bcc7e98",
   "row": 36,
-  "s": "Consider the following statements about the Brahmaputra's tributaries:\n1. The Subansiri is a right-bank tributary of the Brahmaputra.\n2. The Dhansiri is a right-bank tributary of the Brahmaputra.\n3. The Teesta rises at Tso Lhamo lake in North Sikkim.\n4. The Rangeet is a tributary of the Manas.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the Brahmaputra's tributaries:\n1. The Subansiri is a right-bank tributary of the Brahmaputra.\n2. The Burhi Dihing is a right-bank tributary of the Brahmaputra.\n3. The Teesta rises at Tso Lhamo lake in North Sikkim.\n4. The Rangeet is a tributary of the Manas.\nWhich of the statements given above is/are correct?",
   "o": [
    "1, 2 and 3 only",
    "1 and 3 only",
    "1 only",
-   "3 only"
+   "1, 3 and 4 only"
   ],
   "a": 1,
-  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the Dhansiri, like the Burhi Dihing, Dikhu and Kopili, is a left-bank tributary. Statement 4 is wrong: the Rangeet is the largest tributary of the Teesta.",
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the Burhi Dihing, like the Dhansiri, Dikhu and Kopili, is a left-bank (southern) tributary. Statement 4 is wrong: the Rangeet is the largest tributary of the Teesta.",
   "src": "app",
   "tq": "statements"
  },

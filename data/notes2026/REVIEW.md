@@ -1050,3 +1050,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b6-w039 (row 39)
 - own 241 → 36 kept + 62 new (98, 41%); new 41 statements / 14 match / 7 A–R; no lines lost. No wrong notes/keys.
+
+## rewrite b6-w040 (rows 40–41)
+- own 369 → 71 kept + 83 new (154, 42%); new 54 statements / 21 match / 8 A–R; no lines lost.
+- HPV own MCQs said "March 2026" / "girls under 14"; notes 28 Feb 2026 / 14-year-old girls — merged into notes-correct MCQ.
+- 41:2:9 LPG service match marked "general knowledge, not checked" in notes.
+- Leftover table fragments repeating lines: 40:1:23–24, 40:5:11–12, 41:2:6–7 — notes cleanup.
