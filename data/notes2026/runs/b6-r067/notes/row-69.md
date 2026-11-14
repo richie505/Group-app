@@ -261,7 +261,7 @@
 | IMT-TRILAT | India, Tanzania, Mozambique |
 | IPEF | US-led Indo-Pacific Economic Framework; includes India |
 | SCO | Chaired by Pakistan (2026–27), not India |
-| BRICS | 10 members |
+| BRICS | 11 members incl. Saudi Arabia (10 if Saudi Arabia is left out) |
 | IORA (Indian Ocean Rim Association) | Founded 1997; secretariat Ebène, Mauritius; 23 member states; India chairs 2025–27 (after Sri Lanka, 2023–25) |
 - **2026 Quad Foreign Ministers' meeting, New Delhi**: launched **Indo-Pacific Maritime Surveillance Collaboration**; **Fiji port project** under the **Ports of the Future Partnership**.
 > Malabar | US, India, Japan, Australia navies | Naval exercise

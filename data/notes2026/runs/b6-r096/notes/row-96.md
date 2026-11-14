@@ -409,7 +409,7 @@
 | Woman | First |
 |---|---|
 | **Sonali Mishra** | First woman head of the **Railway Protection Force** in its **143 years** |
-| Varsha Ashok Aglawe | First woman DG, Geological Survey of India (176 years) |
+| Varsha Ashok Aglawe | First woman DG, Geological Survey of India (175-year history, founded 1851) |
 | R.M. Nachammai | First woman to head a working nuclear power plant |
 | **Adm Lisa Franchetti** | First woman to lead the **U.S. Navy** (nominated July 2023) |
 | Sunetra Pawar | First woman Deputy CM of Maharashtra |
