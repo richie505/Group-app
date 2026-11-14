@@ -555,17 +555,17 @@
   "tq": "statements"
  },
  {
-  "id": "cpfd6f7fd60e47",
+  "id": "cp2fd3f07d55e0",
   "row": 48,
-  "s": "Consider the following statements about the PFRDA:\n1. The M.S. Sahoo Committee was set up to design an assured, predictable pension under the NPS.\n2. The Narayan Ramachandran Committee is to review NPS investment guidelines within nine months.\n3. The PFRDA is chaired by Sivasubramanian Ramann.\n4. The PFRDA was established in 2013.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about the PFRDA:\n1. The M.S. Sahoo Committee was set up to design an assured, predictable pension under the NPS.\n2. The Narayan Ramachandran Committee is to review NPS investment guidelines within nine months.\n3. The PFRDA is chaired by Sivasubramanian Ramann.\n4. The PFRDA was established in 2003, though its Act came only in 2013.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
    "Only three",
    "All four"
   ],
-  "a": 2,
-  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: the PFRDA was established in 2003; its Act came in 2013.",
+  "a": 3,
+  "x": "Statements 1, 2, 3 and 4 are correct.",
   "src": "app",
   "tq": "statements"
  },
@@ -656,6 +656,1056 @@
   ],
   "a": 0,
   "x": "Statement 2 is correct. Statement 1 is wrong: Karna-18 (Co-18022), from the Sugarcane Breeding Institute Regional Centre at Karnal, is for north-western India. Statement 3 is wrong: root wilt reduces yield but does not kill the tree.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3cd709e45f51",
+  "row": 49,
+  "s": "Consider the following statements about the 8th Central Pay Commission:\n1. It is chaired by Justice Ranjana Prakash Desai.\n2. Its Terms of Reference were approved by the Union Cabinet on 28 October 2025.\n3. It has to submit its report within 12 months.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the report is due within 18 months.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5215a1675074",
+  "row": 49,
+  "s": "Assertion (A): The 8th Central Pay Commission is a non-statutory, advisory body.\nReason (R): Pay Commissions are set up by an executive resolution, not by the Constitution or by any Act.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the Pay Commission is created by an executive resolution (here a Department of Expenditure resolution of 3 November 2025), so it is neither constitutional nor statutory, only advisory.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpacd0d13d632b",
+  "row": 49,
+  "s": "Match the following pension features with their values:\nList-I (Feature)\nA. Government's contribution under UPS\nB. Government's contribution under NPS\nC. Minimum pension under OPS\nD. Minimum pension under UPS (10+ years' service)\nList-II (Value)\ni. ₹9,000\nii. ₹10,000\niii. 18.5%\niv. 14%\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-iii, B-i, C-ii, D-iv",
+   "A-iv, B-ii, C-i, D-iii",
+   "A-iii, B-iv, C-i, D-ii",
+   "A-iii, B-iv, C-ii, D-i"
+  ],
+  "a": 2,
+  "x": "Correct matching: A. Government's contribution under UPS – iii. 18.5%; B. Government's contribution under NPS – iv. 14%; C. Minimum pension under OPS – i. ₹9,000; D. Minimum pension under UPS (10+ years' service) – ii. ₹10,000. Employees contribute 10% under both NPS and UPS; OPS is non-contributory.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8d4fa1548d86",
+  "row": 49,
+  "s": "Consider the following statements about the Unified Pension Scheme (UPS):\n1. It is a hybrid scheme – contributory, but with a partially guaranteed (assured) payout.\n2. For 25 years' service it assures 50% of the average basic pay of the last 12 months.\n3. The employee's contribution under it is 14% of pay.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the employee contributes 10%; 14% is the government's share under the NPS.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe22c7691b1a0",
+  "row": 49,
+  "s": "Consider the following statements:\n1. Under the NPS, 60% of the corpus can be withdrawn tax-free and 40% goes to an annuity.\n2. The NPS for government employees began in 2005.\n3. The UPS came from the T.V. Somanathan Committee and is indexed to CPI-IW.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the NPS for government employees began on 1 January 2004.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1c7f4c70ee13",
+  "row": 49,
+  "s": "Assertion (A): The Finance Ministry allows Central government employees a one-time switch from the UPS back to the Old Pension Scheme.\nReason (R): The UPS carries the same Income Tax Act, 1961 benefits as the NPS.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the one-time, one-way switch allowed is from UPS to NPS – not to OPS – and it is irreversible. R is true: UPS has the same tax benefits as NPS (not OPS).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp2ffb56dd8dbf",
+  "row": 49,
+  "s": "Match the following reports of the 22nd Law Commission with their subjects:\nList-I (Report No.)\nA. 279th\nB. 283rd\nC. 285th\nD. 289th\nList-II (Subject)\ni. Criminal defamation\nii. Trade secrets and economic espionage\niii. Age of consent under the POCSO Act, 2012\niv. Usage of the Law of Sedition\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-ii, B-iv, C-i, D-iii",
+   "A-iv, B-iii, C-i, D-ii",
+   "A-iv, B-i, C-ii, D-iii",
+   "A-iii, B-iv, C-i, D-ii"
+  ],
+  "a": 1,
+  "x": "Correct matching: A. 279th – iv. Usage of the Law of Sedition; B. 283rd – iii. Age of consent under the POCSO Act, 2012; C. 285th – i. Criminal defamation; D. 289th – ii. Trade secrets and economic espionage.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb746acb44fec",
+  "row": 49,
+  "s": "Consider the following statements about the Law Commission:\n1. The 22nd Law Commission was chaired by Justice Ritu Raj Awasthi.\n2. The 170th Report (1999) dealt with simultaneous elections.\n3. The 286th Report reviewed the Epidemic Diseases Act, 1897.\n4. The 23rd Law Commission had released several reports by November 2025.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: no report had been released by the 23rd Commission by November 2025; the latest are the 22nd Commission's (278–289).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfd82795b4794",
+  "row": 49,
+  "s": "Consider the following statements:\n1. The 23rd Law Commission is a statutory body.\n2. The 16th Finance Commission submitted its report to President Droupadi Murmu on 17 November 2025.\n3. A Finance Commission report becomes public when it is tabled in Parliament under Article 280.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "2 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is correct. Statement 1 is wrong: it is non-statutory – set up by a Central government notification with terms of reference. Statement 3 is wrong: it is Article 281 (Article 280 constitutes the Commission).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcf592f80dba5",
+  "row": 49,
+  "s": "Match the following bodies with their heads:\nList-I (Body)\nA. Committee on Petitions, Rajya Sabha\nB. JPC on the Constitution (130th Amendment) Bill, 2025\nC. 22nd Law Commission\nD. 16th Finance Commission\nList-II (Head)\ni. Justice Ritu Raj Awasthi\nii. Arvind Panagariya\niii. Narain Dass Gupta\niv. Aparajita Sarangi\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-iii, B-ii, C-iv, D-i",
+   "A-i, B-iii, C-iv, D-ii",
+   "A-iv, B-i, C-iii, D-ii",
+   "A-iii, B-iv, C-i, D-ii"
+  ],
+  "a": 3,
+  "x": "Correct matching: A. Committee on Petitions, Rajya Sabha – iii. Narain Dass Gupta; B. JPC on the Constitution (130th Amendment) Bill, 2025 – iv. Aparajita Sarangi; C. 22nd Law Commission – i. Justice Ritu Raj Awasthi; D. 16th Finance Commission – ii. Arvind Panagariya.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3fea21303dc1",
+  "row": 49,
+  "s": "With reference to the proposal to make cancer a notifiable disease, consider the following statements:\n1. The Rajya Sabha Committee on Petitions recommended declaring cancer notifiable in all States/UTs.\n2. The National Cancer Registry Programme covers about 40% of India's population.\n3. Under the present WHO norm, only communicable diseases are notifiable.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the NCRP covers only about 18% of the population.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpab45cb799a06",
+  "row": 49,
+  "s": "Consider the following statements about NCRB data for 2023:\n1. Illness accounted for 19% of suicides – second after family problems (32%).\n2. Tamil Nadu had the highest share of illness-related suicides.\n3. Crimes against Scheduled Tribes rose by 18.8%.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 2 are correct. Statement 2: 21%, followed by Maharashtra and Karnataka. Statement 3 is wrong: crimes against STs (12,960 cases) rose by 28.8%, not 18.8%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3f700293452a",
+  "row": 49,
+  "s": "Match the following persons with the ideas associated with them:\nList-I (Person)\nA. Gunnar Myrdal\nB. Louis Dumont\nC. Mariana Mazzucato\nD. Swami Vivekananda\nList-II (Idea)\ni. 1893 Chicago address linking science to Hindu tradition\nii. 'Soft state'\niii. Purity–pollution hierarchy of caste\niv. Mission-oriented procurement\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-ii, B-i, C-iii, D-iv",
+   "A-ii, B-iii, C-iv, D-i",
+   "A-i, B-iii, C-iv, D-ii",
+   "A-ii, B-iv, C-iii, D-i"
+  ],
+  "a": 1,
+  "x": "Correct matching: A. Gunnar Myrdal – ii. 'Soft state'; B. Louis Dumont – iii. Purity–pollution hierarchy of caste; C. Mariana Mazzucato – iv. Mission-oriented procurement; D. Swami Vivekananda – i. 1893 Chicago address linking science to Hindu tradition.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp057035d38210",
+  "row": 49,
+  "s": "Consider the following statements about the Draft Seeds Bill, 2025:\n1. It will replace the Seeds Act, 1966 and the Seeds (Control) Order, 1983.\n2. Farmers may sell farm-saved seed, including under a brand name.\n3. Seed traceability requires mandatory onboarding on the SATHI Portal.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "3 only",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: farmers may save, use, resow, exchange and sell farm-saved seed – but not under a brand name.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp713ce7e0b01b",
+  "row": 49,
+  "s": "With reference to the Draft Seeds Bill, 2025, consider the following statements:\n1. Varieties notified under the Seeds Act, 1966 are deemed registered.\n2. Multi-state seed firms are deemed registered under a Central Accreditation System.\n3. Major offences such as selling spurious seed attract a fine of up to ₹30 lakh.\n4. Foreign entities are barred from VCU testing.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: a concern about the Bill is that foreign entities CAN do VCU testing (GM seed risk).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2bcdc5230ed3",
+  "row": 49,
+  "s": "Consider the following statements about reforms of 2025:\n1. The draft amendments to the New Drugs and Clinical Trials Rules cut processing time from 90 to 45 days.\n2. Under GFR 2025, the direct purchase limit for research was raised from ₹1 lakh to ₹5 lakh.\n3. Vice-Chancellors and directors can approve global tenders up to ₹200 crore.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 3 are correct. Statement 1: the test licence is replaced by intimation to the Central Licensing Authority. Statement 2 is wrong: the limit was raised to ₹2 lakh, not ₹5 lakh.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp66fe1b00ebe4",
+  "row": 49,
+  "s": "Consider the following statements about SEBI's proposed governance reforms for Market Infrastructure Institutions (MIIs):\n1. Each MII must have at least two Executive Directors reporting to the MD.\n2. The Commercial Interests and Business Development vertical must be headed by an Executive Director.\n3. Executive Directors may hold non-executive posts in unlisted government companies.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: an ED is mandatory for Critical Operations and for Regulatory/Compliance/Risk; the commercial vertical gets an ED only at the MII's discretion. Statement 3 is wrong: only MDs may; EDs may hold none except in MII subsidiaries.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp23c244176cf5",
+  "row": 49,
+  "s": "Match the following countries with their research procurement models:\nList-I (Country)\nA. Germany\nB. USA\nC. South Korea\nD. European Union\nList-II (Model)\ni. Joint Procurement Agreement\nii. Pre-commercial procurement\niii. High-Tech Strategy; KOINNO\niv. SBIR – 3% of federal R&D to startups\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-i, B-iv, C-ii, D-iii",
+   "A-i, B-iv, C-iii, D-ii",
+   "A-iii, B-ii, C-i, D-iv",
+   "A-iii, B-iv, C-ii, D-i"
+  ],
+  "a": 3,
+  "x": "Correct matching: A. Germany – iii. High-Tech Strategy; KOINNO; B. USA – iv. SBIR – 3% of federal R&D to startups; C. South Korea – ii. Pre-commercial procurement; D. European Union – i. Joint Procurement Agreement.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp982e72f63d46",
+  "row": 49,
+  "s": "Consider the following statements about the Ministry of Tribal Affairs' policy on tiger reserves:\n1. No relocation can take place until the Forest Rights Act process is complete.\n2. It reinforces the 2024 NTCA directive for mass removal of villages from tiger reserves.\n3. It proposes a National Framework for Community-Centred Conservation and Relocation.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: it overturns the 2024 NTCA directive.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3f27972a27e9",
+  "row": 49,
+  "s": "Match the following Articles with their content:\nList-I (Article)\nA. Article 342\nB. Article 366(25)\nC. Article 244(2)\nD. Article 275(1)\nList-II (Content)\ni. Defines Scheduled Tribes\nii. President specifies Scheduled Tribes\niii. Grants for ST welfare\niv. Sixth Schedule – Assam, Meghalaya, Tripura, Mizoram\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-ii, B-i, C-iv, D-iii",
+   "A-iii, B-ii, C-iv, D-i",
+   "A-i, B-iii, C-iv, D-ii",
+   "A-iv, B-i, C-iii, D-ii"
+  ],
+  "a": 0,
+  "x": "Correct matching: A. Article 342 – ii. President specifies Scheduled Tribes; B. Article 366(25) – i. Defines Scheduled Tribes; C. Article 244(2) – iv. Sixth Schedule – Assam, Meghalaya, Tripura, Mizoram; D. Article 275(1) – iii. Grants for ST welfare.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe091f820e7b7",
+  "row": 49,
+  "s": "Consider the following statements about domestic workers in India:\n1. In January 2025 the Supreme Court directed the Centre to frame a comprehensive law and form an expert committee within six months.\n2. India has ratified ILO Convention C189 on domestic workers.\n3. Karnataka's Domestic Workers Bill, 2025 provides for a 5% employer contribution to a welfare fund.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: India voted for C189 (2011) but has not ratified it.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3ddbd454942d",
+  "row": 49,
+  "s": "Assertion (A): In India, passive euthanasia is allowed.\nReason (R): In 2018 the Supreme Court held that active euthanasia too is part of the right to die with dignity under Article 21.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: the SC (2018) recognised the right to die with dignity under Article 21 and allowed passive euthanasia. R is false: active euthanasia remains illegal.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe80ec38c2ff4",
+  "row": 49,
+  "s": "Consider the following statements about the Coldrif cough syrup deaths:\n1. The syrup was contaminated with ethylene oxide.\n2. The contamination was confirmed by the Tamil Nadu Drugs Control lab, and CDSCO recommended cancelling the licence.\n3. The Health Ministry stressed strict compliance with the revised Schedule M (GMP).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "3 only",
+   "1, 2 and 3",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: it was contaminated with diethylene glycol (DEG); at least 16 children died in Rajasthan and Madhya Pradesh.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpacdf025bc560",
+  "row": 49,
+  "s": "Consider the following statements:\n1. A diethylene glycol cough-syrup incident in Gambia in 2022 killed over 60 children.\n2. India recorded only 13,476 kidney transplants in 2024–25 against a demand of over one lakh.\n3. The Health Ministry's report recommended mandatory data sharing with NOTTO.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statements 1, 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1ce2a488fc67",
+  "row": 49,
+  "s": "Consider the following statements about non-communicable diseases (NCDs) in India:\n1. NCDs account for 63% of deaths in India.\n2. India's front-of-pack labelling follows the Thailand model.\n3. SDG 3.4 aims to halve premature NCD mortality by 2030.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: it follows the Singapore model, not Thailand. Statement 3 is wrong: SDG 3.4 aims to cut it by one-third by 2030.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5c5ed3f855f4",
+  "row": 49,
+  "s": "Assertion (A): The death of a two-year-old girl from Palnadu district was India's first human H5N1 death.\nReason (R): H5N1 is a highly pathogenic avian influenza whose human-to-human transmission is unconfirmed.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: it was the second human H5N1 death in India and the first in Andhra Pradesh (confirmed by NIV, Pune; she died at AIIMS-Mangalagiri). R is true.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp2e33acac5f3d",
+  "row": 49,
+  "s": "Consider the following statements:\n1. NITI Aayog is developing a State Manufacturing and Infrastructure Index.\n2. The Roadmap for Atmanirbharta in pulses was released by the Ministry of Agriculture.\n3. The AIDIS and SAS surveys are conducted by MoSPI.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: it was released by NITI Aayog.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp15d6e57b5fb3",
+  "row": 49,
+  "s": "Consider the following statements about fertilisers in Kharif 2025:\n1. The shortage arose from higher kharif acreage after a good monsoon along with lower production and imports.\n2. The 20:20:0:13 complex became the second-largest fertiliser after urea.\n3. Ammonium sulphate, suggested as a urea substitute, contains 20.5% nitrogen and 23% sulphur.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: it is the third largest, after urea and DAP (all-time high 69.7 lakh tonnes in 2024–25).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp79fbd938720d",
+  "row": 49,
+  "s": "Consider the following statements about the North-East:\n1. The Free Movement Regime with Myanmar was scrapped in 2024.\n2. Zokhawthar is a border gateway in Manipur and Moreh in Mizoram.\n3. The DGFT's 2024 export plan had no section on the North-East.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: it is the reverse – Zokhawthar is in Mizoram and Moreh in Manipur.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfa48de1170e3",
+  "row": 49,
+  "s": "Consider the following statements about Manipur:\n1. President's Rule under Article 356 was imposed on 13 February 2025 after CM N. Biren Singh resigned.\n2. Ajay Kumar Bhalla was the Governor when President's Rule was imposed.\n3. The conflict since May 2023 is between the Meitei and Naga communities.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: it is between the Meitei and Zo (Kuki-Zomi-Mizo) communities.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpca87378f824a",
+  "row": 49,
+  "s": "Consider the following statements about the Sammakkasagar barrage:\n1. It is on the Krishna river in Mulugu district of Telangana.\n2. Chhattisgarh CM Vishnu Deo Sai gave in-principle approval, but Central Water Commission approval is still needed.\n3. Submergence in Chhattisgarh's Bijapur district was studied by IIT Kharagpur.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "3 only",
+   "1, 2 and 3",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: it is on the Godavari (6.7 tmcft). Statement 3: not by the CWC.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3a61987ea950",
+  "row": 50,
+  "s": "Consider the following statements:\n1. The 14th Finance Commission raised the States' share of the divisible pool from 32% to 42% – the largest increase ever.\n2. In the 14th Finance Commission's horizontal formula, income distance carried the largest weight, 50%.\n3. The 13th Finance Commission was chaired by C. Rangarajan.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: Dr. Vijay Kelkar chaired the 13th FC (2007); C. Rangarajan chaired the 12th (2002).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp16e1ac6aac7d",
+  "row": 50,
+  "s": "Consider the following statements about the Finance Commission:\n1. It is a constitutional, quasi-judicial body.\n2. It is appointed by the President every five years.\n3. Its report is made public when tabled in Parliament under Article 280.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the report is laid before Parliament under Article 281; Article 280 constitutes the Commission.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpea90be203c27",
+  "row": 50,
+  "s": "Consider the following statements about the 16th Finance Commission:\n1. N.K. Singh was one of its members.\n2. Its report was tabled on 1 February 2026 by FM Nirmala Sitharaman, with the Union Budget 2026–27.\n3. Its award period is 2026–27 to 2030–31.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1 only"
+  ],
+  "a": 3,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: its members are Annie George Mathew, Manoj Panda, T. Rabi Sankar and Soumyakanti Ghosh; N.K. Singh chaired the 15th FC.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2ddc29908ad1",
+  "row": 50,
+  "s": "Assertion (A): The 16th Finance Commission did not raise the States' share of the divisible pool above 41%.\nReason (R): The Commission cited the Union's tight fiscal position.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the 41% share of the 15th FC was retained because the Commission cited the Union's tight fiscal position.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp421b7f1c4dc5",
+  "row": 50,
+  "s": "Consider the following statements about the 16th Finance Commission's horizontal devolution:\n1. The weight of population was increased to 17.5%.\n2. The new parameter, contribution to GDP, addresses the southern States' population-control concern.\n3. Andhra Pradesh had pressed for greater weight to capital needs.\n4. The weight of forest and ecology was retained at 10%.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "Statements 1, 2, 3 and 4 are correct. Statement 4: area, by contrast, was reduced to 10%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4ea4e7eab5bf",
+  "row": 50,
+  "s": "Match the following items with their values:\nList-I (Item)\nA. Andhra Pradesh – 16th FC share\nB. Telangana – 16th FC share\nC. Andhra Pradesh – 14th FC share\nD. Telangana – 2026–27 devolution receipt\nList-II (Value)\ni. 2.174%\nii. 4.217%\niii. ₹33,180.78 crore\niv. 4.305%\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-iii, B-ii, C-iv, D-i",
+   "A-ii, B-iv, C-i, D-iii",
+   "A-ii, B-i, C-iv, D-iii",
+   "A-i, B-iii, C-iv, D-ii"
+  ],
+  "a": 2,
+  "x": "Correct matching: A. Andhra Pradesh – 16th FC share – ii. 4.217%; B. Telangana – 16th FC share – i. 2.174%; C. Andhra Pradesh – 14th FC share – iv. 4.305%; D. Telangana – 2026–27 devolution receipt – iii. ₹33,180.78 crore.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5f1a2bda8d43",
+  "row": 50,
+  "s": "Consider the following statements about NITI Aayog's Fiscal Health Index 2026:\n1. It has five sub-indices, including Quality of Expenditure and Debt Sustainability.\n2. Telangana is ranked third among the 18 major States.\n3. Odisha is first and Andhra Pradesh 17th.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "3 only",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: Telangana is 7th (Front Runner); Jharkhand is 3rd.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd1008d301954",
+  "row": 50,
+  "s": "Consider the following statements:\n1. The RBI's 'State Finances: A Study of Budgets of 2025–26' had demographic transition as its theme.\n2. States' consolidated gross fiscal deficit rose to 3.3% of GDP in 2024–25 after three years below 3%.\n3. Among the NE/Himalayan States, Sikkim ranks highest in the Fiscal Health Index 2026.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: Arunachal Pradesh ranks highest among the NE/Himalayan States.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5296afb40cd7",
+  "row": 50,
+  "s": "Consider the following statements about the Periodic Labour Force Survey (PLFS):\n1. It is conducted by the NSO, MoSPI.\n2. Since January 2025 its monthly estimates are based on the Usual Principal Status.\n3. The September 2026 bulletin put the overall unemployment rate (15+) at 5.0%.\n4. The same bulletin put the female LFPR at 55.5%.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: they are based on the Current Weekly Status. Statement 4 is wrong: 55.5% is the overall LFPR; the female LFPR was 34.6%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf0410511760c",
+  "row": 50,
+  "s": "Match the following bodies with their chairs:\nList-I (Body)\nA. High-Level Committee on Simultaneous Elections\nB. JPC on the Viksit Bharat Shiksha Adhishthan Bill, 2025\nC. SEBI expert group on the Debenture Trustees Regulations\nD. 22nd Law Commission\nList-II (Chair)\ni. Justice Ritu Raj Awasthi\nii. Ananta Barua\niii. D. Purandeswari\niv. Ram Nath Kovind\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-ii, B-iii, C-iv, D-i",
+   "A-iv, B-i, C-iii, D-ii",
+   "A-iv, B-iii, C-ii, D-i",
+   "A-iv, B-ii, C-i, D-iii"
+  ],
+  "a": 2,
+  "x": "Correct matching: A. High-Level Committee on Simultaneous Elections – iv. Ram Nath Kovind; B. JPC on the Viksit Bharat Shiksha Adhishthan Bill, 2025 – iii. D. Purandeswari; C. SEBI expert group on the Debenture Trustees Regulations – ii. Ananta Barua; D. 22nd Law Commission – i. Justice Ritu Raj Awasthi.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbe2a045a2dd4",
+  "row": 50,
+  "s": "Consider the following statements:\n1. The Kovind Committee proposed a new Article 324A for local body elections.\n2. It submitted its report to the President on 14 March 2024.\n3. The Viksit Bharat Shiksha Adhishthan Bill, 2025 proposes a single regulator replacing the UGC, AICTE and NCTE.\n4. The JPC on that Bill has 21 members.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: the JPC has 31 members.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5754f2d4cad2",
+  "row": 50,
+  "s": "Match the following Law Commission reports with their subjects:\nList-I (Report)\nA. 279th (Apr 2023)\nB. 283rd (Sept 2023)\nC. 287th (Feb 2024)\nD. 289th (Mar 2024)\nList-II (Subject)\ni. Trade secrets and economic espionage\nii. Matrimonial issues of NRIs and OCIs\niii. Age of consent under the POCSO Act\niv. Usage of the Law of Sedition\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-iv, B-iii, C-ii, D-i",
+   "A-ii, B-iii, C-iv, D-i",
+   "A-iv, B-i, C-iii, D-ii",
+   "A-i, B-iv, C-ii, D-iii"
+  ],
+  "a": 0,
+  "x": "Correct matching: A. 279th (Apr 2023) – iv. Usage of the Law of Sedition; B. 283rd (Sept 2023) – iii. Age of consent under the POCSO Act; C. 287th (Feb 2024) – ii. Matrimonial issues of NRIs and OCIs; D. 289th (Mar 2024) – i. Trade secrets and economic espionage.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3350aaffa363",
+  "row": 51,
+  "s": "Match the following committees with their subjects:\nList-I (Committee)\nA. Rajiv Kumar (2019)\nB. K. Kasturirangan\nC. Dinesh Goswami (1990)\nD. Santhanam (1962–63)\nList-II (Subject)\ni. Electoral reforms\nii. Prevention of corruption\niii. Sale of 149 State-owned oil and gas fields\niv. Draft National Education Policy 2019\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-i, B-iv, C-iii, D-ii",
+   "A-ii, B-iv, C-i, D-iii",
+   "A-iv, B-i, C-iii, D-ii",
+   "A-iii, B-iv, C-i, D-ii"
+  ],
+  "a": 3,
+  "x": "Correct matching: A. Rajiv Kumar (2019) – iii. Sale of 149 State-owned oil and gas fields; B. K. Kasturirangan – iv. Draft National Education Policy 2019; C. Dinesh Goswami (1990) – i. Electoral reforms; D. Santhanam (1962–63) – ii. Prevention of corruption.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp89a80f4fab7d",
+  "row": 51,
+  "s": "Match the following committees with their subjects:\nList-I (Chair)\nA. Urjit Patel (2014)\nB. Nachiket Mor\nC. Shanta Kumar\nD. Ashok Dalwai\nList-II (Subject)\ni. FCI–PDS reform\nii. Doubling farmers' income\niii. Inflation targeting\niv. Financial inclusion\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-i, B-iv, C-iii, D-ii",
+   "A-iii, B-iv, C-i, D-ii",
+   "A-ii, B-iv, C-i, D-iii",
+   "A-iv, B-i, C-iii, D-ii"
+  ],
+  "a": 1,
+  "x": "Correct matching: A. Urjit Patel (2014) – iii. Inflation targeting; B. Nachiket Mor – iv. Financial inclusion; C. Shanta Kumar – i. FCI–PDS reform; D. Ashok Dalwai – ii. Doubling farmers' income. The Urjit Patel Committee recommended a 4% ± 2% inflation target, adopted through the 2016 RBI Act amendment.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf6f5c2039b52",
+  "row": 51,
+  "s": "Consider the following statements:\n1. The National Commission to Review the Working of the Constitution (2002) was chaired by M.N. Venkatachaliah.\n2. The Santhanam Committee (1962–63) on prevention of corruption led to the setting up of the CBI.\n3. The Ashok Dalwai Committee dealt with restructuring of the Food Corporation of India.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "1 and 3 only",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the Ashok Dalwai Committee dealt with doubling farmers' income; FCI–PDS reform was the Shanta Kumar Committee.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp78e8d26f825a",
+  "row": 51,
+  "s": "Consider the following statements:\n1. The Uday Kotak Committee (2017) on corporate governance of listed companies was set up by the RBI.\n2. The Sanjay Agrawal Committee (July 2022) deals with MSP, natural farming and crop diversification.\n3. M. Narasimham chaired both the Committee on the Financial System (1991) and the Committee on Banking Sector Reforms (1998).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "2 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: it was set up by SEBI; it reported in October 2017.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpacb50da99e05",
+  "row": 51,
+  "s": "Consider the following statements about the Kovind Committee on simultaneous elections:\n1. It proposed a new Article 82A to synchronise the terms of the Lok Sabha and the State Assemblies.\n2. The amendment inserting Article 82A needs ratification by half of the States.\n3. It proposed Article 324A for municipal and panchayat polls along with general elections.\n4. The Constitution (129th Amendment) Bill, 2024 was introduced in December 2024 and sent to a JPC.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the Article 82A amendment needs no State ratification.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbf6fecafbfb0",
+  "row": 51,
+  "s": "Consider the following statements:\n1. The Indrajit Gupta Committee was an eight-member committee headed by a former Home Minister.\n2. It recommended full State funding of elections, in cash, for all registered parties.\n3. The Vijay Kelkar Committee on revitalising the PPP model reported to the Finance Minister in November 2015.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: it held State funding constitutionally and legally justified, but only partial, in kind, and for recognised parties.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpaad040f02ba3",
+  "row": 51,
+  "s": "Match the following bodies with their basis:\nList-I (Body)\nA. Special Officer for Linguistic Minorities\nB. CBI\nC. NCRB\nD. NHRC\nList-II (Basis)\ni. DSPE Act, 1946\nii. Executive order after the Tandon Committee\niii. Protection of Human Rights Act, 1993\niv. Article 350B\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-iv, B-i, C-ii, D-iii",
+   "A-i, B-ii, C-iv, D-iii",
+   "A-i, B-iv, C-ii, D-iii",
+   "A-ii, B-iv, C-i, D-iii"
+  ],
+  "a": 0,
+  "x": "Correct matching: A. Special Officer for Linguistic Minorities – iv. Article 350B; B. CBI – i. DSPE Act, 1946; C. NCRB – ii. Executive order after the Tandon Committee; D. NHRC – iii. Protection of Human Rights Act, 1993.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp52fbc43b8053",
+  "row": 51,
+  "s": "Consider the following statements:\n1. The National Commission for Scheduled Tribes is a statutory body.\n2. The NHRC is a statutory body under the Protection of Human Rights Act.\n3. NITI Aayog and the Law Commission are executive bodies, neither constitutional nor statutory.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "3 only",
+   "1, 2 and 3",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the NCST is constitutional (Article 338A), as is the NCSC (Article 338).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp132bcaa087d6",
+  "row": 51,
+  "s": "Consider the following statements about the Law Commission of India:\n1. The first post-independence Law Commission (1955) was chaired by M.C. Setalvad.\n2. It is set up by a Government of India order for a fixed 3-year term.\n3. It submits its reports to the President.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "3 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: it reports to the Ministry of Law and Justice, not the President.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8f388fb693c5",
+  "row": 51,
+  "s": "Consider the following statements:\n1. The 23rd Law Commission was constituted in September 2024; Justice Dinesh Maheshwari took charge as Chairperson on 15 April 2025.\n2. The 21st Law Commission's 2018 consultation paper held a Uniform Civil Code 'neither necessary nor desirable at this stage'.\n3. The term of the 23rd Law Commission ends on 31 August 2026.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: its term runs up to 31 August 2027.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp585114d95d2e",
+  "row": 51,
+  "s": "Match the following Law Commission reports with their subjects:\nList-I (Report)\nA. 114th (1986)\nB. 121st (1987)\nC. 214th (2008)\nD. 230th\nList-II (Subject)\ni. 'Uncle judge' syndrome in High Courts\nii. Review of the procedure for appointing judges\niii. National Judicial Service Commission\niv. Gram Nyayalayas\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-ii, B-iii, C-iv, D-i",
+   "A-iv, B-i, C-iii, D-ii",
+   "A-iv, B-iii, C-ii, D-i",
+   "A-i, B-iv, C-ii, D-iii"
+  ],
+  "a": 2,
+  "x": "Correct matching: A. 114th (1986) – iv. Gram Nyayalayas; B. 121st (1987) – iii. National Judicial Service Commission; C. 214th (2008) – ii. Review of the procedure for appointing judges; D. 230th – i. 'Uncle judge' syndrome in High Courts.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpfd38fda60ede",
+  "row": 51,
+  "s": "Assertion (A): The 255th Report of the Law Commission recommended EVM totalisers and de-registration of parties that skip elections for 10 years.\nReason (R): The 255th Report's recommendation on totalisers has been enacted into law.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: the totaliser recommendation is still pending – the SC sought the Centre's view on 2 September 2026.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6a39f42b74ed",
+  "row": 51,
+  "s": "Consider the following statements:\n1. The 59th Report of the Law Commission led to the Family Courts Act, 1984.\n2. The 279th Report (2023) recommended the repeal of the sedition law.\n3. The All India Judicial Service has been accepted and implemented.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: it recommended retaining sedition with safeguards. Statement 3 is wrong: the All India Judicial Service is still pending.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa5507174fbb0",
+  "row": 51,
+  "s": "Consider the following statements:\n1. The Nandan Nilekani task force on leak-proof, technology-driven exams was set up after the NEET-UG 2026 leak.\n2. The K. Radhakrishnan Committee examined police action in the NEET protests.\n3. The National Testing Agency is a statutory body set up by an Act of Parliament.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: the K. Radhakrishnan Committee was on NTA reform; police action in the protests is the Justice R. Subhash Reddy panel. Statement 3 is wrong: the NTA is only a society under the Societies Registration Act, 1860; an SC petition sought statutory status for it.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp28656fb0b404",
+  "row": 51,
+  "s": "Match the following panels with their chairs:\nList-I (Panel)\nA. RBI Q-SAFE Committee (quantum-safe finance)\nB. SEBI High-Level Committee on conflict of interest\nC. MHA committee on the Gorkha issue\nD. Panel on police action in NEET protests\nList-II (Chair)\ni. Pankaj Kumar Singh\nii. Prof. Anil Prabhakar\niii. Justice R. Subhash Reddy\niv. Pratyush Sinha\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-iv, B-ii, C-i, D-iii",
+   "A-ii, B-iv, C-i, D-iii",
+   "A-ii, B-iii, C-iv, D-i",
+   "A-i, B-ii, C-iv, D-iii"
+  ],
+  "a": 1,
+  "x": "Correct matching: A. RBI Q-SAFE Committee (quantum-safe finance) – ii. Prof. Anil Prabhakar; B. SEBI High-Level Committee on conflict of interest – iv. Pratyush Sinha; C. MHA committee on the Gorkha issue – i. Pankaj Kumar Singh; D. Panel on police action in NEET protests – iii. Justice R. Subhash Reddy.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6b065b439abd",
+  "row": 51,
+  "s": "Consider the following statements about the 16th Finance Commission:\n1. It is chaired by Arvind Panagariya; its award period is 2026–27 to 2030–31.\n2. It kept the States' share of the divisible pool at 41%, though the States had sought 50%.\n3. It raised the weight of 'tax and fiscal effort'.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: tax and fiscal effort (2.5% under the 15th FC) was dropped; contribution to GDP (10%) was added.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp941d83105297",
+  "row": 51,
+  "s": "Match the following horizontal devolution criteria with their weights under the 15th Finance Commission:\nList-I (Criterion)\nA. Income distance\nB. Population (2011)\nC. Demographic performance\nD. Tax and fiscal effort\nList-II (15th FC weight)\ni. 2.5%\nii. 12.5%\niii. 45%\niv. 15%\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-i, B-iv, C-iii, D-ii",
+   "A-ii, B-iv, C-i, D-iii",
+   "A-ii, B-iv, C-iii, D-i",
+   "A-iii, B-iv, C-ii, D-i"
+  ],
+  "a": 3,
+  "x": "Correct matching: A. Income distance – iii. 45%; B. Population (2011) – iv. 15%; C. Demographic performance – ii. 12.5%; D. Tax and fiscal effort – i. 2.5%.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpcf40dc121d44",
+  "row": 51,
+  "s": "Consider the following statements:\n1. The 8th Central Pay Commission is to report within 18 months of its constitution.\n2. The Tribunals Reforms Bill, 2026, which proposes a National Tribunals Commission, was moved by Arjun Ram Meghwal.\n3. The proposed Delimitation Commission is to be chaired by a retired Chief Election Commissioner.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: it is to be chaired by a Supreme Court judge.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0003b6b139d7",
+  "row": 51,
+  "s": "Assertion (A): The Constitution (131st Amendment) Bill, 2026 was defeated in the Lok Sabha on 17 April 2026.\nReason (R): The Bill sought to raise the strength of the Lok Sabha from 543 to 850 seats.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: the Bill fell because it lacked the required two-thirds majority, not because of the seat increase it proposed (815 States + 35 UTs).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpbe445956cc45",
+  "row": 51,
+  "s": "Consider the following statements:\n1. NCHER was proposed after the Yashpal Committee (2009) and announced by Kapil Sibal, but was never enacted.\n2. The Viksit Bharat Shiksha Adhishthan Bill, 2025 proposes a single apex body replacing the UGC, AICTE and NCTE.\n3. In the JPC, Kerala, Tamil Nadu and West Bengal objected to its centralising provisions.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the objecting States were Andhra Pradesh, Meghalaya and Madhya Pradesh.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf64d6ad89ee0",
+  "row": 51,
+  "s": "Assertion (A): The Centre agreed that State consent is needed for decisions on colleges of State universities under the VBSA Bill.\nReason (R): Andhra Pradesh objected to the Bill's centralising provisions in the Joint Parliamentary Committee.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the Centre agreed to the State-consent requirement after Andhra Pradesh objected in the JPC.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpa57b4bfa6632",
+  "row": 51,
+  "s": "Match the following bodies with their chairpersons/heads:\nList-I (Body)\nA. NHRC\nB. NCSC\nC. NCRB\nD. NCSK (Safai Karamcharis)\nList-II (Head)\ni. Bhagwat Prasad Makwana\nii. Amit Garg\niii. Kishor Makwana\niv. Justice V. Ramasubramanian\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-iv, B-i, C-iii, D-ii",
+   "A-iv, B-iii, C-ii, D-i",
+   "A-ii, B-iii, C-i, D-iv",
+   "A-iv, B-iii, C-i, D-ii"
+  ],
+  "a": 1,
+  "x": "Correct matching: A. NHRC – iv. Justice V. Ramasubramanian; B. NCSC – iii. Kishor Makwana; C. NCRB – ii. Amit Garg; D. NCSK (Safai Karamcharis) – i. Bhagwat Prasad Makwana.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1b895e2eb489",
+  "row": 51,
+  "s": "Consider the following statements:\n1. Vijaya Rahatkar is the 9th chairperson of the National Commission for Women.\n2. K.S. Jawahar heads the Andhra Pradesh State SC Commission.\n3. After the 2019 amendment, only a former Chief Justice of India can be NHRC chairperson.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: after 2019 any Supreme Court judge can be chair; the term is 3 years or age 70.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7ed5fdae9291",
+  "row": 51,
+  "s": "Consider the following statements about NCRB reports:\n1. Crime in India 2024 recorded a 17.9% rise in cybercrime and a conviction rate of 53.3%.\n2. Odisha recorded the most human-trafficking cases and Telangana the highest violent-crime rate.\n3. ADSI 2024 recorded about 1.7 lakh suicides, 31% of them daily-wage workers.\n4. The NCRB was set up in 1986 under the MHA after the Tandon Committee.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: it is the reverse – Telangana had the most human-trafficking cases and Odisha the highest violent-crime rate.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp90143ceb3789",
+  "row": 51,
+  "s": "Match the following surveys with their agencies:\nList-I (Survey)\nA. NFHS\nB. HCES 2022–23, 2023–24\nC. Sample Registration System\nD. ASER\nList-II (Agency)\ni. Registrar General of India\nii. MoHFW, with IIPS Mumbai\niii. Pratham\niv. NSO, MoSPI\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-i, B-iv, C-ii, D-iii",
+   "A-iv, B-iii, C-i, D-ii",
+   "A-i, B-iv, C-iii, D-ii",
+   "A-ii, B-iv, C-i, D-iii"
+  ],
+  "a": 3,
+  "x": "Correct matching: A. NFHS – ii. MoHFW, with IIPS Mumbai; B. HCES 2022–23, 2023–24 – iv. NSO, MoSPI; C. Sample Registration System – i. Registrar General of India; D. ASER – iii. Pratham.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0f7a4a1015fd",
+  "row": 51,
+  "s": "Consider the following statements:\n1. AISHE is conducted by the Ministry of Education.\n2. Prison Statistics India is published by the NCRB.\n3. The Good Governance Index is published by NITI Aayog.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "3 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 2 are correct. Statement 1: its July 2026 release showed UG enrolment falling for the first time. Statement 3 is wrong: the Good Governance Index is by DARPG, not NITI Aayog.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp53c6abffafc9",
+  "row": 51,
+  "s": "Consider the following statements:\n1. In NITI Aayog's Export Preparedness Index 2024, Maharashtra was first among large States and Andhra Pradesh 5th.\n2. In the Fiscal Health Index 2026, Odisha was first among major States and Punjab last.\n3. The SDG India Index is published by MoSPI.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the SDG India Index is published by NITI Aayog.",
   "src": "app",
   "tq": "statements"
  }

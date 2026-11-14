@@ -1104,3 +1104,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 391 → 43 kept + 109 new (152, 39%); new 74 statements / 23 match / 11 A–R / 1 sequence; 3 of 293 lines lost.
 - Notes FIXED (b6-r046 row-47): "Article 63: VP ex officio RS Chairman" → Article 64; "Santhal Pargana Tenancy Act, 1876" → 1949.
 - 47:0:14 Nidhi Chhibber as NITI Aayog CEO — unverified, check.
+
+## rewrite b5-w056 (rows 56–60)
+- own 377 → 61 kept + 84 new (145, 38%); new 48 statements / 24 match / 12 A–R; 1 of 247 lines lost.
+- n0e36502a860 (lignite 47.295 bn t vs notes 47.37 bn t) removed.
