@@ -532,3 +532,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y4f0eeda0582 AP SDG Index 2019-20 score 60 → 67 (60 was India's).
 - Outdated y5b35cfa5351 India 110/149 (2016) → 94/169 SDR 2026. Dispute y2a243ac634c "17 goals" (2018 index scored 13).
 - Unverified: yef3f3e2bcbc AP SIF year 2022; yc151719c541 Raithu Kosam pillars (snippet only).
+
+## b5-r083 (Ozone/chemical treaties, biodiversity basics)
+- Disputes kept: natural ozone regulator NO2; UPPCS N2O "not responsible"; butterflies A-R; "tailless" Himalayan Forest Thrush.
+- Outdated: Vanam-Manam 2017 target 1 crore; Arma Konda now ASR district.
+- Printed-key-only: Mafron, S-400 "China", NBC 2017 theme, Sikkim pika, AVGAS to PNG. Row 84 "Classic species facts" sub-section of general-zoology PYQs — confirm placement.
