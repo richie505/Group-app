@@ -122,7 +122,7 @@
 | **AI Action Summit** | **10–11 Feb 2025** | **Paris** (Grand Palais); **co-chaired by India and France** |
 | India AI Impact Summit | 19–20 Feb 2026 | New Delhi; **New Delhi Declaration on AI Impact** |
 - **UPSC 2025:** Paris summit built on Bletchley (2023) and Seoul (2024) ✓; **US and UK did NOT sign** the inclusive and sustainable AI declaration ✗ → **I only**.
-- **GPAI** = Global Partnership on AI; launched **June 2020**, India a **founding member**; India **Lead Chair in 2024** and hosted the **6th Ministerial Council** (3 July 2024, New Delhi) – the outgoing chair then was **Japan**, Serbia the incoming Lead Chair.
+- **GPAI** = Global Partnership on AI; launched **June 2020**, India a **founding member**; India was **Lead Chair in 2024** (not the "outgoing chair") and hosted the **6th Ministerial Council** (3 July 2024, New Delhi); **Serbia** was elected Lead Chair for 2024-25.
 - **Semicon India:** **four** semiconductor units approved in 2024 (MeitY year-end review) → with the GPAI point, "**only statement 1**" is correct.
 - **EU AI Act:** world's **first comprehensive AI law**; in force **Aug 2024**; risk tiers **unacceptable, high, limited, minimal** (no "moderate").
-~~ Sources: PMF S&T Part 6 p.9-13; app notes 5:16 sub 7; PIB release 3 Jul 2024 via web search (GPAI chairs); visionias.in 28 Dec 2024 summary via web search (4 units)
+~~ Sources: PMF S&T Part 6 p.9-13; app notes 5:16 sub 7; visionias.in news-today 4 Jul 2024 (India Lead Chair 2024, Serbia next Lead Chair); visionias.in 28 Dec 2024 (4 semicon units)
