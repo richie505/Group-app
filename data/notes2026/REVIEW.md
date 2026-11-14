@@ -1161,3 +1161,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b3-w068 (rows 68–73)
 - own 413 → 41 kept + 107 new (148, 36%); new 73 statements / 23 match / 11 A–R; no lines lost. No wrong notes/keys.
+
+## rewrite b4-w046 (rows 46–49)
+- own 435 → 54 kept + 106 new (160, 37%); new 68 statements / 22 match / 16 A–R; 1 of 247 lines lost.
+- PYQ y6b2a4dee7c6: stem "974 km" but key "3rd" (974 km = 2nd; 1,053 km after 2024 remeasurement = 3rd) — mixed old/new data; check key + ⚠ Outdated chip.
+- Removed own n8297d9c8c7b ("MHA, Dec 2024" remeasurement; notes PIB 4 Dec 2025) and nap-geography-21-6 (Ethipothala → Nagarjuna Sagar, not in notes).
