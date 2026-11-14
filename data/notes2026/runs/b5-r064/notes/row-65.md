@@ -13,7 +13,7 @@
 - **Space-based solar power (SBSP):** collected in space, ~99% uninterrupted supply – suggested as a national goal (UPPSC 2010 A/R: both true, R explains A).
 - **CUF:** solar about **21%**, wind 36-40%, coal about 85%.
 > UPSC 2014: "PV direct, thermal via heat" ✓; "PV gives AC, thermal DC" ✗ (reverse); "India makes thermal but not PV" ✗ → **1 only**.
-~~ Sources: PMF Environment Part 7 p.72-73; Shankar Environment ch.22 p.2 (inverters, thermal); app notes 5:65 sub 0
+~~ Sources: PMF Environment Part 7 p.72-73; Shankar Environment 17 (OCR) p.2 (inverters, thermal); app notes 5:65 sub 0
 
 === Solar Potential of India
 - **250-300 clear sunny days** a year; most parts get **4-7 kWh/m²/day**.
@@ -22,7 +22,7 @@
 - **NISE estimate: 748 GW** ground-based (using **3% of wasteland**); ~4.5% used.
 - RE-potential share: **Rajasthan 23.70%**; **AP 9.10%**.
 - **NISE (National Institute of Solar Energy), Gurugram** – autonomous body of MNRE; hosts the ISA headquarters.
-~~ Sources: Shankar Environment ch.22 p.2; PMF Environment Part 7 p.74 (NISE Gurugram); app notes 5:65 sub 1
+~~ Sources: Shankar Environment 17 (OCR) p.2; PMF Environment Part 7 p.74 (NISE Gurugram); app notes 5:65 sub 1
 
 === Installed Solar Capacity and the Leading States
 | Date | Solar capacity |

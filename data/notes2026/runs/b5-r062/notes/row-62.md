@@ -7,7 +7,7 @@
 | **Kalpakkam** (MAPS), near Madras | **Tamil Nadu** | 2 x 220 MW | **First fully indigenous PHWR** (MAPS-1 critical **1983**); also IGCAR (1971) and the PFBR |
 | **Narora** (NAPS) | **Uttar Pradesh** | 2 x 220 MW | PHWR (not VVER); in **Seismic Zone IV** |
 | **Kakrapar** (KAPS), **Surat** district | **Gujarat** | 4 units, 1,840 MW | **KAPP-3 = first indigenous 700 MW PHWR**, commercial operation **30 June 2023** |
-| **Kaiga** (KGS), near river **Kali**, Uttara Kannada | **Karnataka** | 4 x 220 = 880 MW; Units 5-6 begun 2026 | Capacity factor >90%; a unit went critical/active around **2000** |
+| **Kaiga** (KGS), near river **Kali**, Uttara Kannada | **Karnataka** | 4 x 220 = 880 MW; Units 5-6 begun 2026 | Capacity factor >90%; Kaiga 1-2 began operating in **1999-2000** (newest then) |
 | **Kudankulam** (KKNPP), Tirunelveli | **Tamil Nadu** | 2 x 1,000 MW **VVER** = 2,000 MW; Units 3-6 being built | **Largest operating station** (2024); Russia |
 - **Fleet mode (2017):** ten 700 MW PHWRs – **Kaiga 5-6** (Karnataka), **Gorakhpur 3-4** (**Haryana**, not UP), **Chutka 1-2** (MP), **Mahi Banswara 1-4** (Rajasthan, by **ASHVINI**, NPCIL–NTPC JV); aim to cut build time from **13 to 8 years**.
 - PHWR sizes: **220 → 540 → 700 MW**, all indigenised.
@@ -22,7 +22,7 @@
 | Rohini (RS-1) satellite on SLV-3 | 1980 |
 | MAPS-1 (Kalpakkam) critical | 1983 |
 > Most-asked angle: "first nuclear power plant" = **Tarapur** (asked ×7), and plant–State matches (Kakrapar Gujarat, Narora UP, Kaiga Karnataka, Kalpakkam/Kudankulam Tamil Nadu, Rawatbhata Rajasthan).
-~~ Sources: PMF S&T Part 4 (pmf-science-tech-04.txt) p.61, p.67-68; NextGen S&T Group 2 Part 4 p.28 (Tarapur near Bombay, two BWRs; Kota with Canada; Narora UP); PMF Human & Economic Geography Part 4 p.55 (Kakrapar, Surat district); Rocket Indian Geography p.126; WNA India profile (world-nuclear.org, 2026); app notes 5:62 sub 0
+~~ Sources: PMF S&T Part 4 (pmf-science-tech-04.txt) p.61, p.67-68; NextGen S&T Group 2 Part 4 p.28 (Tarapur near Bombay, two BWRs; Kota with Canada; Narora UP); PMF Human & Economic Geography Part 4 p.55 (Kakrapar, Surat district); Rocket Indian Geography p.126; WNA India profile (world-nuclear.org); Kaiga 1999-2000: app notes 5:62 sub 0; app notes 5:62 sub 0
 
 === Kudankulam, Kovvada and Foreign-assisted Projects
 | Project | State | Partner | Reactors |
@@ -44,12 +44,12 @@
 | **Nangal** | Punjab | **August 1962** | **First heavy water plant**, in National Fertilisers Ltd premises; now closed |
 | Talcher | Odisha | 1985 | – |
 | Kota (Rawatbhata) | Rajasthan | 1985 | – |
-| **Thal** | **Maharashtra** (Raigad) | 1987 | – |
+| **Thal** | **Maharashtra** (Raigad) | 1985 (some books 1987) | – |
 | **Manuguru** | Then undivided **Andhra Pradesh**, now **Telangana** (Bhadradri Kothagudem) | **December 1991** | **India's largest** |
 - Working plants: **Tuticorin, Kota, Baroda, Thal, Talcher, Manuguru, Hazira**.
 - All under the **Heavy Water Board, Trombay (Mumbai)**, DAE; heavy-water production stays with the Government under the SHANTI Act.
 - UPSC 2005 match: **Thal – Maharashtra, Manuguru – Andhra Pradesh, Kakrapar – Gujarat, Kaiga – Karnataka**.
-~~ Sources: Heavy Water Board (hwb.gov.in, historical milestones: Nangal Aug 1962, Manuguru Dec 1991); PMF Human & Economic Geography Part 4 p.54-55 (UPSC 2005, Thal Raigad, Manuguru Telangana); app notes 5:62 sub 3; Urey: general knowledge, not checked
+~~ Sources: Heavy Water Board (hwb.gov.in/historical-milestone?page=9: first heavy water at Nangal 9 Aug 1962; HWP Manuguru = largest, hwb.gov.in/about-hwp-manuguru); Wikipedia 'Heavy Water Board' (Manuguru Dec 1991, Thal 1985); PMF Human & Economic Geography Part 4 p.54-55 (UPSC 2005, Thal Raigad, Manuguru Telangana); app notes 5:62 sub 3; Urey: general knowledge, not checked
 
 === Installed Capacity, NPCIL and World Nuclear Power
 | Item | Value |
@@ -63,7 +63,7 @@
 - **World:** top nuclear-power generator = **USA** (then China, France, Russia, South Korea); **France** gets the largest share of its electricity from nuclear; **Australia** has the largest uranium reserves.
 - **Olkiluoto-3 (Finland):** Europe's most powerful reactor (1,600 MW EPR), built by **Areva–Siemens**; construction from **2005**, ~14 years late; serves **Finland** (not Belgium).
 - Uranium imports: **Kazakhstan ~80%**, plus Russia, Uzbekistan, Canada, Australia.
-~~ Sources: WNA India country profile (world-nuclear.org, 24 reactors, 8,780 MWe gross, 2026); PMF S&T Part 4 p.61, p.66, p.68; PMF S&T Part 5 p.11-12 (NPCIL 1987, BHAVINI 2003); PMF Lens 2026-04-08 p.7 (Australia largest uranium reserves); Praveen CA360 Apr 2026 p.42 (Olkiluoto, Finland); app notes 5:62 sub 2
+~~ Sources: WNA India country profile (world-nuclear.org: 24 operable reactors, 7,935 MWe net; PFBR critical Apr 2026); 8,780 MW gross: app notes 5:62 sub 2 (6 Apr 2026); PMF S&T Part 4 p.61, p.66, p.68; PMF S&T Part 5 p.11-12 (NPCIL 1987, BHAVINI 2003); PMF Lens 2026-04-08 p.7 (Australia largest uranium reserves); Praveen CA360 Apr 2026 p.42 (Olkiluoto, Finland); app notes 5:62 sub 2
 
 === Civil Nuclear Agreements and the NSG Waiver
 - **NSG waiver (September 2008):** clean waiver for civilian nuclear trade; ended **34 years** of exclusion.
@@ -76,7 +76,7 @@
 | Australia | Signed 2014, in force 2015 |
 | Japan | 2016 |
 | **Vietnam** | **9 December 2016**, New Delhi (Vietnam = 14th country) |
-~~ Sources: PMF S&T Part 4 p.61 (123 Agreement, NSG waiver 2008); PMF S&T Part 5 p.16; examrobot.com (CDS-I 2019 Q: "included" = advance right to reprocess); Business Standard 9 Dec 2016 (India–Vietnam pact); app notes 5:62 sub 5
+~~ Sources: PMF S&T Part 4 p.61 (123 Agreement, NSG waiver 2008); PMF S&T Part 5 p.16; examrobot.com (CDS-I 2019 Q: "included" = advance right to reprocess); GKToday 10 Dec 2016 (India–Vietnam civil nuclear deal); 9 Dec 2016 date from web search (Business Standard/PTI); app notes 5:62 sub 5
 
 === IAEA, Safeguards, NSG and Treaties
 # IAEA
@@ -128,7 +128,7 @@
 - **Defence in Depth** (multiple layers); **ALARA** = As Low As Reasonably Achievable.
 - Dose limits: **20 mSv/year** (5-year average); max 30 mSv in a year.
 - **Convention on Nuclear Safety:** adopted 1994, in force **1996**; India a party.
-~~ Sources: PMF S&T Part 5 p.10 (AERB 1983 executive order, functions); Australia safety rank: general knowledge, not checked; OECD-NEA news 2012-01 / WNN "India joins multinational design group" (11th member); DAE Saga vol.2 ch.7 and AERB siting monograph via search (exclusion 1.5 km, sterilised 5 km); Rocket Disaster Management p.20; app notes 5:62 sub 9
+~~ Sources: PMF S&T Part 5 p.10 (AERB 1983 executive order, functions); Australia safety rank: general knowledge, not checked; WNN "India joins multinational design group", 5 Apr 2012 (11th member); DAE Saga vol.2 ch.7 and AERB siting monograph via search (exclusion 1.5 km, sterilised 5 km); Rocket Disaster Management p.20; app notes 5:62 sub 9
 
 === Liability Law – CLNDA 2010 to SHANTI Act 2025
 - **CLNDA 2010:** operator liability **no-fault**, capped at **₹1,500 crore**; **Section 17(b)**: operator's recourse against suppliers; Indian Nuclear Insurance Pool.

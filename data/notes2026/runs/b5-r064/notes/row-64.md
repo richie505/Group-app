@@ -24,7 +24,7 @@
 - **No atmospheric pollution** in converting sunlight to electricity; a **solar cell** is the most **eco-friendly** option among petroleum, forest products and nuclear fission.
 - **Photovoltaic cells** relate to **solar energy** (RAS 2016).
 - **A/R angle:** "wind and solar are cleaner, greener" and "India depends heavily on thermal and hydro, which harm the environment" – both true, but R does not explain A.
-~~ Sources: NextGen Rocket Environment p.61 (solar → electricity = photovoltaic); Shankar Environment ch.22 p.2 (5,000 trillion kWh); app notes 5:64 sub 0
+~~ Sources: NextGen Rocket Environment p.61 (solar → electricity = photovoltaic); Shankar Environment 17 (OCR) p.2 (5,000 trillion kWh); app notes 5:64 sub 0
 
 === Installed Capacity – Then and Now
 # Source-wise capacity
@@ -75,4 +75,4 @@
 - Functions: project finance, appraisal, consultancy – **not setting tariffs**.
 - **National Clean Energy Fund (NCEF):** **Budget 2010-11**; **Clean Energy Cess on coal, lignite and peat** (₹50/t, later ₹400/t); funded **research and innovative clean-energy projects**; cess subsumed in **GST (1 July 2017)**.
 > G1 2023 angle: "Navratna" ✗ then (✓ since April 2024); "finances RE and energy efficiency" ✓; "under MNRE" ✓.
-~~ Sources: PMF Environment Part 7 p.118 (IREDA); PMF Environment Part 6 (Clean Energy Cess, Budget 2010-11); app notes 5:64 sub 7
+~~ Sources: PMF Environment Part 7 p.118 (IREDA); PMF Environment Part 6 p.23 (Clean Energy Cess, Budget 2010-11); app notes 5:64 sub 7
