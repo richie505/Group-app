@@ -787,3 +787,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Dispute y3566e59999d AAYU "medication" misprint (meditation).
 - Unverified: y4c834168615 RateMyStay CHRIST, yb543b61bc27 e-cinema hub 2004, y083e46316ce RAKSHAK.
 - Agni-IV MRBM (PMF) vs IRBM (Praveen); own MCQ ncb5fa648bf9 keyed MRBM.
+
+## b6-r076 (CA row 76 environment overview)
+- No key changes. Cicada, SEEI 2024 (Maharashtra), prismatic compass keys from web snippets/general knowledge.
+- Old-notes figures unchecked (Nepal toll 1,357/5,326, Pichavaram valuation).
