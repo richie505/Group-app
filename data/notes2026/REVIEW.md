@@ -1602,3 +1602,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w150 (rows 150–156)
 - own 380 → 64 kept + 88 new (152, 40%); new 52 statements / 26 match / 10 A–R; 2 of 284 lines lost.
 - Doubtful PYQs: y96fc2913b4e (Tin Bigha "handed over to sovereignty" — notes: leased in perpetuity); y04e18cc2343 ("Gandhi of Africa" keyed Mandela; usually Kenneth Kaunda) — Disputed chips.
+
+## rewrite b2-w157 (rows 157–162)
+- own 386 → 42 kept + 112 new (154, 40%); new 73 statements / 27 match / 12 A–R; no lines lost.
+- Doubtful PYQs: y035c3e32ef9 "IMF operational 1945" (est. Dec 1945, operations 1 Mar 1947 — Disputed); y90aca47e090 World Bank "1945" (Bretton Woods 1944, came into being Dec 1945 — Disputed); y3bf63c11ac1 ASEAN 10 members (11 since Timor-Leste 2025 — ⚠ Outdated).
