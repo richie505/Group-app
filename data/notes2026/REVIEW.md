@@ -1478,3 +1478,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w098 (rows 98–100)
 - own 412 → 49 kept + 106 new (155, 38%); new 74 statements / 22 match / 10 A–R; 1 of 278 lines lost. No wrong keys.
 - Kept A–R cab9a8451538a3 is weak (R only breaks down the medal tally) — consider rewording.
+
+## rewrite b2-w102 (rows 102–106)
+- own 365 → 46 kept + 83 new (129, 35%); new 55 statements / 18 match / 10 A–R; 1 of 197 lines lost. No wrong notes/keys.

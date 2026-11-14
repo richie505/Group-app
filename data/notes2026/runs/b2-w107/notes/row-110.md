@@ -1,0 +1,54 @@
+=== Caste and Politics; Caste Associations
+- **Lloyd and Susanne Rudolph**, *The Modernity of Tradition* (**1967**): caste associations = **agents of democratisation** (**Nadars, Vanniyars**); three types of political mobilisation – **vertical**, **horizontal** and **differential**; coined **"bullock capitalists"**.
+- **Caste association** = a voluntary, membership-based body of a caste acting as a **pressure group**; Rocket: first caste association = **Justice Party (1916)**.
+- **Justice Party** (South Indian Liberal Federation, 1916–17): to **counter Brahmin supremacy** in politics and services; intermediate castes (Kammas, Reddys, Naidus); led to the **Communal G.O. 1921** (Madras Presidency).
+- **Minto-Morley Reforms 1909** (separate electorates): root of caste/communal vote-bank politics.
+- **Rajni Kothari** edited *Caste in Indian Politics* (**1970**); **Jaffrelot**, *India's Silent Revolution*: lower castes rise through politics; conflict now about **power**, not ritual status.
+- Castes that rose through organisation and politics: **Jat Sikhs (Punjab), Nadars (TN), Jatavs (UP), Vokkaligas (Karnataka)** – all four (UPSC 2000).
+- **RAS 2013 A-R:** castes are politicised **and** casteism in politics is rising – both true, but R does not explain A (official key).
+- **Jan Breman**: south Gujarat – **Halpati** labourers under **Anavil** landowners (**hali** bonded labour), "footloose labour".
+~~ Sources: web: ebooks.inflibnet.ac.in/soc15 (Rudolphs: vertical, horizontal, differential mobilisation – search result); NextGen Society G2 Part 3 p.36, p.39, p.41; Rocket Indian Society p.2; OnlyIAS NCERT Indian Society Part 3 (Breman); app notes 2:110 sub 3-4, 6
+
+=== Dominant Caste
+- Concept coined and systematised by **M.N. Srinivas** from **Rampura village, Mysore** (1955) – not Ghurye, Dube, Béteille or Bose.
+- Traditional criteria: sizeable **arable land**, **numerical strength**, high **ritual status**; later additions: **Western education**, administrative jobs, urban income.
+- Examples: Yadavs (Bihar, UP), Jats, Vokkaligas, **Reddys, Kammas** (AP); pre-independence **Bihar**: Bhumihar, Rajput, Kayastha (**not Kurmi**).
+- **Mahuva** = I.P. Desai (joint family), not Srinivas.
+~~ Sources: Rocket Indian Society p.5, p.15-16; OnlyIAS NCERT Indian Society Part 3 (dominant castes); app notes 2:110 sub 1
+
+=== Sanskritisation and Mobility
+- **Sanskritisation** (M.N. Srinivas): a lower caste adopts the rituals, vegetarianism and sacred thread of the twice-born; **positional, not structural** change.
+- **Kshatriyaisation** (**Kulke**): Marathas, Jats, Yadavs, Thevars, Nairs claim warrior status.
+- Colonial **Census of 1871–72** ranked castes → caste associations petitioned for higher classification.
+- **Srinivas's books:** *The Remembered Village*, *Social Change in Modern India*.
+~~ Sources: NextGen Society G2 Part 1 p.35; Rocket Indian Society p.13; app notes 2:110 sub 0
+
+=== Dominant Castes of Andhra Pradesh
+- **Reddys, Kammas, Velamas, Kapus** = martial, agrarian (landholding) dominant castes; **Kayasthas** = administrative elite.
+- Medieval Andhra: these castes **Kshatriyaised** through the **Nayankara** system; **Samayas** = Kakatiya-era caste associations.
+- **Communal G.O. 1921** = non-Brahmin mobilisation (Justice Party).
+~~ Sources: app notes 2:110 sub 2
+
+=== Caste Census
+- First Census **1872** (Lord Mayo, **non-synchronous**); first **synchronous** Census **1881**.
+- **1931**: last full caste count; since **1951** only **SCs and STs**.
+- **SECC 2011**: **Rural Development Ministry**, outside the **Census Act 1948**; about **46 lakh** caste names; caste data never released.
+- **Bihar survey** (2 Oct 2023): EBCs **36%**, OBCs **27%**; **AP** comprehensive caste survey from **19 Jan 2024** (second State after Bihar); **Telangana SEEEPC** (Apr 2026): SCs and STs 3 times more backward than general castes.
+- **Census 2027**: caste count approved **30 Apr 2025**; first digital Census and first caste count **since 1931**; disputes – Centre treated OBC lists as "classes, not castes", Opposition sought withdrawal of the questionnaire.
+~~ Sources: NextGen Society G2 Part 3 p.36; app notes 2:110 sub 7
+
+=== Forces of Change and Scholars
+| Force | Effect |
+|---|---|
+| Modern education | equality values; decline of Brahmin supremacy |
+| Urbanisation | food taboos weaken |
+| Reservation / Mandal | OBCs put at **52%+**; identity reinforced |
+| Land reforms | Gramdan failed in dominant-caste heartlands |
+- **Article 17** abolishes untouchability (first constitutional provision against it); only **24** PCR Act cases in 2023 (app notes).
+| Scholar | Work / idea |
+|---|---|
+| André Béteille | *Caste, Class and Power* (1965); cumulative → dispersed inequality; died Feb 2026 (app notes) |
+| Dipankar Gupta | *Interrogating Caste* (2000); **difference vs hierarchy** |
+| G.S. Ghurye | *Caste and Race in India* (**1932**) |
+| Risley | first to define caste scientifically |
+~~ Sources: NextGen Society G2 Part 1 p.35; NextGen Society G2 Part 3 p.41 (Mandal 52%); Rocket Indian Society p.5; app notes 2:110 sub 5-6
