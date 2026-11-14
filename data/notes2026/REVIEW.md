@@ -583,3 +583,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Disputes: y4e5ef54dc9e CCPI rank 2019 (9th vs 11th); y694adb32d4d UPSC 2023 mercury "only two" (official not found); yece26eb6fee adaptation vs divergence; ya2a1e166189 thermometer range.
 - ydaab8d2e7ed APPSC 2010 garbled stem → Climate change (own judgement).
 - Unverified printed: Save Water Hero (Makarand Tillo), Jharkhand district, AP 7 missions, pragmatism, WHO 2016 Gwalior, NTRUHS match. NextGen ITTO "Geneva" wrong (Yokohama).
+
+## b5-r099-k1 (Air pollution keys)
+- No key changes. Disputes: acid rain most Norway; Canada and Norway.
+- Unverified: yfaa0647ade5 APPCB 123 ULBs/17 corporations; yc719b9993d4 saliva pH 6.7.
