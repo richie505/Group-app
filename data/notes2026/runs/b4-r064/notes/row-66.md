@@ -36,7 +36,7 @@
 ~~ Sources: PMF Human & Economic Geography 01 p.28-29; NextGen Indian Geography 14 p.12-13 (Naga); Rocket World Geography #27 p.44; app notes 4:66 sub 4
 
 === Risley Classification – 7 Types (1901 Census)
-- **H.H. Risley**: Census Commissioner, **1901**, ran its ethnographic survey; **The People of India (1908)**.
+- **H.H. Risley**: Census Commissioner, **1901**, ran its ethnographic survey and divided Indians into **seven** racial types; **The People of India (1908)**.
 - Basis: **nasal index**; dictum: caste status varies inversely with nasal index – **racial theory of caste**, rejected.
 | Type | Region |
 |---|---|
