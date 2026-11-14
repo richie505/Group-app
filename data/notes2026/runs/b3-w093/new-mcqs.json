@@ -4,12 +4,12 @@
   "row": 93,
   "s": "Consider the following statements about the new Consumer Price Index (base 2024):\n1. CPI (Rural / Urban / Combined) is compiled by the National Statistical Office (NSO), MoSPI.\n2. Its first release, on 12 February 2026, was for January 2026.\n3. It has 12 divisions under COICOP 2018 and covers 358 items.\n4. Food and beverages carry a weight of about 46% in it.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
-   "Only three",
    "All four",
-   "Only one"
+   "Only one",
+   "Only two",
+   "Only three"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Statements 1, 2 and 3 are correct (NSO, MoSPI; first release 12 Feb 2026 for Jan 2026; 12 COICOP-2018 divisions, 358 items, 12 online platforms added). Statement 4 is wrong: food and beverages weigh 36.75% in the 2024 series; about 46% was the weight in the 2012 series.",
   "src": "app",
   "tq": "statements"
@@ -20,11 +20,11 @@
   "s": "Match List-I (Index) with List-II (Compiled by):\nList-I | List-II\na. CPI-IW | i. Office of the Economic Adviser, DPIIT\nb. CPI-UNME | ii. Central Statistical Office (CSO)\nc. WPI | iii. Labour Bureau\nd. Consumer Food Price Index | iv. National Statistical Office (NSO)\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-ii, c-iii, d-iv",
-   "a-iii, b-ii, c-i, d-iv",
    "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
    "a-i, b-iii, c-ii, d-iv"
   ],
-  "a": 1,
+  "a": 2,
   "x": "CPI-IW – Labour Bureau (Ministry of Labour and Employment); CPI-UNME – CSO, the only one of the CPI-IW/AL/RL/UNME family not compiled by the Labour Bureau (discontinued 2011); WPI – Office of the Economic Adviser, DPIIT, Ministry of Commerce and Industry; CFPI (food inflation) – NSO.",
   "src": "app",
   "tq": "match"
@@ -34,12 +34,12 @@
   "row": 93,
   "s": "Match List-I (Index) with List-II (Current base year, as of 2026):\nList-I | List-II\na. CPI-Combined | i. 2024\nb. CPI-IW | ii. 2022-23\nc. CPI-AL / CPI-RL | iii. 2016\nd. WPI | iv. 2019\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii",
    "a-i, b-ii, c-iv, d-iii",
-   "a-i, b-iii, c-iv, d-ii",
-   "a-i, b-iv, c-ii, d-iii"
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 2,
+  "a": 3,
   "x": "CPI-Combined – 2024 (replaced 2012); CPI-IW – 2016 (from Sep 2020; earlier 1982, 2001); CPI-AL/RL – 2019 (from June 2025; earlier 1986-87); WPI – 2022-23 (revised 2026; earlier 2011-12).",
   "src": "app",
   "tq": "match"
@@ -49,10 +49,10 @@
   "row": 93,
   "s": "Consider the following statements about the Labour Bureau and CPI-IW:\n1. The Labour Bureau was set up in 1920.\n2. It is located at Shimla under the Ministry of Statistics and Programme Implementation.\n3. The base year of CPI-IW was revised from 2001 to 2016 with effect from September 2020.\n4. CPI-IW is used to fix the dearness allowance of industrial workers and Central Government employees.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
-   "Only three",
    "All four",
-   "Only one"
+   "Only one",
+   "Only two",
+   "Only three"
   ],
   "a": 3,
   "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the Labour Bureau (1920) is at Chandigarh under the Ministry of Labour and Employment, not MoSPI. CPI-IW base: 1982 → 2001 → 2016 (Sep 2020); it is the DA index.",
@@ -64,10 +64,10 @@
   "row": 93,
   "s": "Consider the following statements about the Wholesale Price Index (WPI):\n1. Like the CPI, the WPI covers both goods and services.\n2. The WPI series with base 2011-12 covered 697 items.\n3. In the new WPI (base 2022-23), weights are based on Gross Value Added.\n4. The new WPI will run alongside a Producer Price Index for five years, after which the WPI is to be phased out.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
-   "Only three",
    "All four",
-   "Only one"
+   "Only one",
+   "Only two",
+   "Only three"
   ],
   "a": 0,
   "x": "Statements 2 and 4 are correct. Statement 1 is wrong: WPI covers goods traded in bulk only – no services (CPI covers goods and services). Statement 3 is wrong: the new WPI (957 items) is weighted on Gross Value of Output, not GVA.",
@@ -111,10 +111,10 @@
   "o": [
    "a-i, b-iii, c-ii, d-iv",
    "a-iv, b-i, c-ii, d-iii",
-   "a-i, b-iv, c-ii, d-iii",
-   "a-iv, b-iii, c-ii, d-i"
+   "a-iv, b-iii, c-ii, d-i",
+   "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Demand-pull – 'too much money chasing too few goods' (AD > AS); cost-push – rise in factor prices; structural/bottleneck – deficiencies such as poor farm productivity and inefficient storage; export-led – export demand drains domestic supply.",
   "src": "app",
   "tq": "match"
@@ -140,11 +140,11 @@
   "s": "Match List-I (Term) with List-II (Meaning):\nList-I | List-II\na. Deflation | i. Inflation returning after deflation\nb. Disinflation | ii. Fall in the rate of inflation, which stays positive\nc. Reflation | iii. Inflation in some items while others are stable\nd. Skewflation | iv. Persistent fall in the general price level\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-ii, c-iv, d-iii",
-   "a-iv, b-i, c-ii, d-iii",
    "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Deflation – negative inflation; disinflation – e.g. 3% → 2%; reflation – return of inflation after deflation, a sign of recovery; skewflation – inflation in a few items such as food.",
   "src": "app",
   "tq": "match"
@@ -169,12 +169,12 @@
   "row": 93,
   "s": "Consider the following statements about kinds of inflation by speed:\n1. Galloping inflation refers to single-digit inflation of 5–9% a year.\n2. Creeping inflation is gradual inflation below about 3% a year.\n3. Walking or trotting inflation is in the range of 3–10% a year.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
    "1 and 2 only",
+   "1, 2 and 3",
    "1 and 3 only",
-   "1, 2 and 3"
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Statements 2 and 3 are correct. Statement 1 is wrong: galloping inflation is double or triple digit (20%, 100%, 200% a year); 3–10% is walking inflation.",
   "src": "app",
   "tq": "statements"
@@ -199,12 +199,12 @@
   "row": 93,
   "s": "Consider the following statements about Inflation-Indexed Bonds (IIBs):\n1. Their principal and/or interest is linked to an inflation index.\n2. They let the government reduce the coupon rate on its borrowing.\n3. Interest and capital gains on them are exempt from tax.\n4. The RBI issued them in 2013.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
-   "Only three",
    "All four",
-   "Only one"
+   "Only one",
+   "Only two",
+   "Only three"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Statements 1, 2 and 4 are correct (they protect investors from inflation uncertainty; no inflation-risk premium lowers the coupon; RBI issued IIBs in 2013). Statement 3 is wrong: interest and capital gains on IIBs are taxable (UPSC 2022: A and B only).",
   "src": "app",
   "tq": "statements"
@@ -244,12 +244,12 @@
   "row": 93,
   "s": "Consider the following statements:\n1. Core inflation excludes volatile food and fuel prices and shows the underlying trend.\n2. Headline inflation is more stable than core inflation.\n3. Food inflation is measured by the Consumer Food Price Index, which has 10 sub-groups.\n4. Cereals carry the highest weight in the Consumer Food Price Index.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
-   "Only three",
    "All four",
-   "Only one"
+   "Only one",
+   "Only two",
+   "Only three"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: headline inflation includes food and energy and is more volatile; core is more stable.",
   "src": "app",
   "tq": "statements"
@@ -274,12 +274,12 @@
   "row": 93,
   "s": "Consider the following statements about flexible inflation targeting in India:\n1. The Monetary Policy Framework Agreement between the Government and the RBI was signed in February 2015.\n2. The RBI Act, 1934 was amended in 2016 to give inflation targeting a statutory basis.\n3. Section 45ZB of the RBI Act provides for the inflation target to be set every five years.\n4. Section 45ZN, on reporting after three consecutive quarters of breach, was first invoked in 2022.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
-   "Only three",
    "All four",
-   "Only one"
+   "Only one",
+   "Only two",
+   "Only three"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: the target is set by the Centre with the RBI every five years under Section 45ZA; Section 45ZB provides for the six-member MPC.",
   "src": "app",
   "tq": "statements"
@@ -380,11 +380,11 @@
   "s": "Consider the following statements about taxing powers under the Constitution:\n1. Article 265 provides that no tax shall be levied or collected except by authority of law.\n2. The Union List contains 20 taxing entries and the State List 15.\n3. The residuary power of taxation rests with Parliament.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1, 2 and 3",
+   "1 and 3 only",
    "2 and 3 only",
-   "1 and 3 only"
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Statements 1 and 3 are correct (gift, wealth and expenditure taxes were levied under the residuary power). Statement 2 reverses the numbers: Union List 15, State List 20, Concurrent List 3 taxing entries.",
   "src": "app",
   "tq": "statements"
@@ -454,12 +454,12 @@
   "row": 94,
   "s": "Match List-I (Reform) with List-II (Date of introduction):\nList-I | List-II\na. MODVAT | i. 1 April 2005\nb. CENVAT | ii. 1 March 1986\nc. First State VAT (Haryana) | iii. 1 April 2003\nd. State VAT nationwide | iv. 1 April 2000\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-iii, d-i",
    "a-i, b-iv, c-iii, d-ii",
    "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "MODVAT – 1 March 1986 (Budget 1986-87); CENVAT replaced it on 1 April 2000; Haryana was first with VAT on 1 April 2003; VAT became nationwide (20 States/UTs) on 1 April 2005.",
   "src": "app",
   "tq": "match"
@@ -590,11 +590,11 @@
   "s": "Consider the following statements about tax buoyancy:\n1. In the 2026-27 BE, gross tax buoyancy is 0.8.\n2. In the 2026-27 BE, the buoyancy of indirect taxes (1.1) exceeds that of direct taxes (0.3).\n3. According to the Economic Survey 2025-26, buoyant revenues helped bring the fiscal deficit to 4.4% of GDP in FY26.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1, 2 and 3",
    "2 and 3 only",
-   "1 and 3 only",
-   "1, 2 and 3"
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statements 1 and 3 are correct. Statement 2 reverses the figures: direct-tax buoyancy is 1.1 and indirect-tax buoyancy 0.3.",
   "src": "app",
   "tq": "statements"
@@ -620,11 +620,11 @@
   "s": "Consider the following statements about tax task forces:\n1. The Kelkar Task Force on FRBM (2004) first proposed a national GST.\n2. The task force on a new direct tax law (2017) had Arbind Modi as convener and was later headed by Akhilesh Ranjan, who reported in 2019.\n3. The Kelkar Task Forces of 2002 recommended raising the standard deduction.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the 2002 Kelkar Task Forces recommended abolishing the standard deduction (and wealth tax and Section 88 rebates), with an exemption limit of ₹1 lakh.",
   "src": "app",
   "tq": "statements"
@@ -829,12 +829,12 @@
   "row": 96,
   "s": "Consider the following statements about the origin of GST in India:\n1. GST was first proposed under the Vajpayee government.\n2. The Empowered Committee of State Finance Ministers was set up in 2000, with Asim Dasgupta as its first chair.\n3. The Empowered Committee released 'A Model and Roadmap for GST' in 2008 and its First Discussion Paper in November 2009.\n4. The 115th Constitution Amendment Bill on GST, introduced in March 2011, was passed by Parliament.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only two",
    "Only three",
+   "Only two",
+   "All four",
    "Only one"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: the 115th Amendment Bill (March 2011) lapsed; GST came through the 122nd Bill (Dec 2014), enacted as the 101st Amendment Act, 2016.",
   "src": "app",
   "tq": "statements"
@@ -860,11 +860,11 @@
   "s": "Consider the following statements about GST:\n1. The GST concept was first used in France.\n2. India follows the Australian dual-GST model.\n3. Amitabh Bachchan was the brand ambassador of GST in India.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "2 and 3 only",
    "1 and 3 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Statements 1 and 3 are correct (France, 1954). Statement 2 is wrong: India follows the Canadian dual model.",
   "src": "app",
   "tq": "statements"
@@ -964,12 +964,12 @@
   "row": 96,
   "s": "Consider the following statements about GST rates:\n1. GST 2.0 rate rationalisation came into effect on 22 September 2025.\n2. Under GST 2.0, the 40% rate applies to sin and ultra-luxury goods.\n3. The statutory ceiling for CGST under the GST Acts is 40%.\n4. Rates are changed by government notification on the GST Council's recommendation, within statutory ceilings.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only two",
    "Only three",
+   "Only two",
+   "All four",
    "Only one"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Statements 1, 2 and 4 are correct (GST 2.0: 5% merit, 18% standard, 40% sin). Statement 3 is wrong: the CGST ceiling is 20%; 40% is the IGST ceiling.",
   "src": "app",
   "tq": "statements"
@@ -994,9 +994,9 @@
   "row": 96,
   "s": "Consider the following statements:\n1. Under the GST composition scheme, suppliers of goods with turnover up to ₹1.5 crore pay 1%.\n2. Service providers under the composition scheme have a turnover limit of ₹75 lakh and pay 2%.\n3. Composition taxpayers cannot claim input tax credit.\n4. From 1 October 2024, anti-profiteering cases are heard by the Principal Bench of the GSTAT.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only two",
    "Only three",
+   "Only two",
+   "All four",
    "Only one"
   ],
   "a": 2,
@@ -1009,9 +1009,9 @@
   "row": 96,
   "s": "Consider the following statements:\n1. GSTN was set up as a not-for-profit, non-government company in which private institutions held 51%.\n2. GSTN was made a fully government-owned company in 2020.\n3. An e-way bill is required for movement of goods above ₹50,000.\n4. An e-way bill is generally valid for one day for every 200 km.\nHow many of the above statements are correct?",
   "o": [
-   "All four",
-   "Only two",
    "Only three",
+   "Only two",
+   "All four",
    "Only one"
   ],
   "a": 3,
@@ -1061,6 +1061,141 @@
   ],
   "a": 1,
   "x": "Both are true, but R does not explain A: the cess goes to the Consolidated Fund of India and, being a cess, is outside the divisible pool; the capacity basis only describes how it is assessed.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6351133dbe26",
+  "row": 97,
+  "s": "Match List-I (Period) with List-II (Gross GST collection fact):\nList-I | List-II\na. October 2020 | i. Record monthly collection of ₹2.43 lakh crore\nb. April 2024 | ii. First post-COVID month above ₹1 lakh crore\nc. FY 2025-26 | iii. Highest-ever annual collection of ₹22.27 lakh crore\nd. April 2026 | iv. First month above ₹2 lakh crore\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "Oct 2020 – ₹1,05,155 crore, first post-COVID month above ₹1 lakh crore; April 2024 – first month above ₹2 lakh crore; FY 2025-26 – ₹22.27 lakh crore (+8.3%); April 2026 – ₹2.43 lakh crore (+8.7%, net ₹2.11 lakh crore).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp85614c1be9d2",
+  "row": 97,
+  "s": "Consider the following statements about the Economic Survey 2025-26's view of GST 2.0:\n1. It describes GST 2.0 as the third pillar of tax reform.\n2. The two earlier pillars were the 2016 demonetisation and the 2019 corporate tax cut.\n3. It notes that volume effects of rate cuts may offset the initial revenue loss.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the two earlier pillars were the 2019 corporate tax cut and the 2025 personal income-tax reform.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp43d06c6d4670",
+  "row": 97,
+  "s": "Consider the following statements about GST rates:\n1. The 2017 slabs of 5, 12, 18 and 28% were meant as a transitional arrangement.\n2. GST 2.0 was approved at the 56th GST Council meeting and took effect on 22 September 2025.\n3. Under GST 2.0, about 99% of items of the old 12% slab moved to 18%.\n4. Under GST 2.0, about 90% of items of the old 28% slab moved to 18%.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "All four",
+   "Only two"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 4 are correct (GST 2.0: 0, 5% merit, 18% standard, 40% demerit). Statement 3 is wrong: about 99% of old 12% items moved down to 5%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9699d5901eaf",
+  "row": 97,
+  "s": "Match List-I (Item) with List-II (GST rate under the current structure):\nList-I | List-II\na. Private aircraft | i. 3%\nb. Rough diamonds | ii. 40%\nc. Gold, silver and jewellery | iii. 5%\nd. Most items of the old 12% slab | iv. 0.25%\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "Private aircraft – 40% demerit slab (with pan masala, tobacco, aerated sugary drinks, large luxury cars, yachts, online money gaming); rough diamonds – 0.25%; gold, silver, jewellery – 3%; about 99% of old 12% items – 5%.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp06e61ac7b6de",
+  "row": 97,
+  "s": "Consider the following statements:\nAssertion (A): The e-way bill system led to more physical verification of consignments at State borders.\nReason (R): After the rollout of e-way bills, inter-State check-posts were removed.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: with e-way bills (goods above ₹50,000; valid 1 day per 200 km) check-posts were removed, cutting transit time and logistics costs. R is true.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3170fb581809",
+  "row": 97,
+  "s": "Match List-I (GST term) with List-II (Meaning):\nList-I | List-II\na. Inverted duty structure | i. Levied by the Centre; State share goes to the destination State\nb. ITC fraud | ii. Input tax exceeds output tax, so credit piles up\nc. Destination principle | iii. Favours consuming States\nd. IGST | iv. Bogus entities issue invoices without supply\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "Inverted duty structure – input tax > output tax, ITC piles up and blocks working capital; ITC fraud – invoices without actual supply; destination principle – favours consuming States; IGST – levied by the Centre and apportioned, State share to the destination State.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb0c074c93e9e",
+  "row": 97,
+  "s": "Consider the following statements about GST and the States:\n1. Producing States such as Maharashtra, Gujarat, Tamil Nadu and Karnataka feared revenue loss under GST.\n2. Compensation was paid from July 2017 to June 2022 at an assured 14% growth over 2015-16.\n3. The compensation cess continued after June 2022 to repay COVID-19 loans and was scrapped from 22 September 2025 except on tobacco.\n4. The unused balance of the cess goes entirely to the States in proportion to their population.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "All four",
+   "Only two"
+  ],
+  "a": 1,
+  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: the unused balance is split 50% to the Centre and 50% to the States in proportion to their SGST revenue.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0b99de3ea3ed",
+  "row": 97,
+  "s": "Consider the following statements about unresolved GST issues:\n1. Petroleum and electricity remain outside GST.\n2. The Centre's one-third vote can block a three-fourths decision of the GST Council, giving it an effective veto.\n3. In Mohit Minerals (2022), the Supreme Court held GST Council recommendations to be binding on legislatures.\n4. Cesses lie outside the divisible pool, raising concerns over State fiscal autonomy.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "All four",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: Mohit Minerals held the recommendations persuasive, not binding, and called India a 'flexible federation' with simultaneous power under Art. 246A.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7b16a8edb51c",
+  "row": 97,
+  "s": "Consider the following statements:\nAssertion (A): Andhra Pradesh, a consuming State, gains from GST mainly through IGST settlement.\nReason (R): Under the destination principle, the State share of IGST goes to the State where goods or services are consumed.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: IGST is apportioned to the destination (consuming) State, so AP's Net GST = SGST + its IGST settlement share.",
   "src": "app",
   "tq": "assertion"
  }

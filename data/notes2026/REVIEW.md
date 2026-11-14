@@ -1340,3 +1340,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 337 → 61 kept + 89 new (150, 45%); new 61 statements / 20 match / 8 A–R; 1 of 238 lines lost (pair still in match).
 - Notes conflict: SEEI 2024 topper / AP category — Maharashtra top (80:5:15), AP "Achiever" (80:5:8), AP top (82:4:1.1, 82:10:6) — reconcile.
 - PYQ y1816b2597cb dates Jayshree Vencatesan's Ramsar award Mar 2024; notes 82:7:1 Mar 2025 — check.
+
+## rewrite b5-w086 (rows 86–89)
+- own 393 → 39 kept + 96 new (135, 34%); new 61 statements / 26 match / 8 A–R / 1 sequence; 2 of 249 lines lost.
+- nc365d4c78ee (2024 SC GIB order "mandated underground lines"; notes 89:6:3 say the court modified that order) removed.
+- Sri Venkateswara NP area 353.63 km² (88:0:0.3) vs 353.62 (88:5:1) — harmonise.
