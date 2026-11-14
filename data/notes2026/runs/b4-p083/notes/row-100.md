@@ -1,0 +1,144 @@
+=== Transcontinental and Famous Railways of the World
+# Trans-Siberian Railway (asked 6 times)
+- **Longest continuous / longest continental railway in the world** (SSC CGL 2015) – not the Canadian National, Canadian Pacific or a "Transatlantic Railway".
+- **Main line: Moscow (Yaroslavsky station) → Vladivostok**, **9,289 km**, crosses **8 time zones** (APPSC G1 Prelims 2024 → **Moscow to Vladivostok**).
+  - NCERT XII / PMF describe the route from **St. Petersburg (Leningrad)** in the west to **Vladivostok** (9,332 km) – the classic "Leningrad to Vladivostok" pair in match questions.
+- **Built mainly 1891–1916** (work began 1891; through route 1904–1916); opened Siberia to European markets; crosses the **Urals**, the **Ob and Yenisei**.
+- **Baikal–Amur Mainline (BAM):** runs **parallel** to the Trans-Siberian – the alternative strategic route.
+- **On the route (west → east):** St. Petersburg, Moscow, Yaroslavl, Kirov, Perm, Yekaterinburg, Tyumen, **Omsk**, Novosibirsk, Krasnoyarsk, Irkutsk (fur centre), Ulan-Ude, **Chita** (agro-centre), **Khabarovsk**, **Vladivostok**; **Kazan** lies on a connecting branch that joins near Yekaterinburg and is counted on the route in exam keys.
+- **NOT on it:** **Sochi** (Black Sea resort, UPPCS 2019), **Murmansk** (far north-west), **Georgia** (a separate country, APPSC G1 2003).
+- **Vladivostok:** Pacific terminus, HQ of Russia's Pacific Fleet; permanent venue of the **Eastern Economic Forum** (since 2015).
+# Other transcontinental and famous lines
+| Railway | Route | Fact |
+|---|---|---|
+| **Canadian Pacific** | **Montreal – Vancouver** | Canada's **first transcontinental**, completed **1885** |
+| Trans-Canadian (NCERT) | **Halifax – Vancouver**, 7,050 km, via Montreal, Ottawa, Winnipeg, Calgary | "Economic artery of Canada"; wheat and meat |
+| Canadian National | Atlantic to Pacific | Major freight network |
+| **US Transcontinental (Union Pacific + Central Pacific)** | Union Pacific from **Omaha**, Central Pacific from **Sacramento**; met at **Promontory Summit, Utah**, **10 May 1869** (Golden Spike) | **North America's first** transcontinental; Union and Pacific line New York – San Francisco |
+| **Orient Express** | **Paris – Istanbul** via Strasbourg, Munich, Vienna, Budapest, Bucharest/Belgrade | Famous luxury train; crosses **France, Germany, Austria, Hungary, Romania** |
+| **Trans-Andean** | **Buenos Aires (Argentina) – Valparaiso (Chile)**, Uspallata Pass 3,900 m | South America's only transcontinental; crosses the Andes – **not** the highest railway |
+| European Trans-Continental | **Paris – Warsaw** | Match-question pair |
+| **Qinghai–Tibet** | **Xining – Lhasa** | **Highest railway** in the world |
+| Trans-Australian | **Port Augusta – Kalgoorlie** (1917); Perth – Sydney line via Kalgoorlie, Broken Hill | **Nullarbor Plain: world's longest straight track, 478 km**; the **Indian Pacific** runs **Sydney – Perth** |
+| **Channel Tunnel (Eurotunnel)** | **England (UK) – France** under the English Channel | London – Paris rail link (RAS 1997) |
+- **Trans-Canada Highway (road):** **Vancouver (west) – St. John's, Newfoundland (east)**; exam option "Saint John City to Vancouver" (BPSC 2018). Alaskan Highway: Edmonton – Anchorage.
+> Match (IAS 1995, BPSC 2005): European Trans-Continental – Paris–Warsaw; Trans-Andean – Buenos Aires–Valparaiso; Trans-Siberian – Leningrad–Vladivostok; Orient Express – Paris–Istanbul → **5 4 2 1**.
+> Trap: Canadian Pacific = **Montreal – Vancouver**; Halifax – Vancouver is the NCERT "Trans-Canadian" line. Longest = Trans-Siberian; highest = Qinghai–Tibet.
+~~ Sources: NextGen Rocket World Geography #17 p.27-28, #6 p.7; OnlyIAS NCERT Human Geography Part 8 p.14-19 (book pp.91-95); PMF Human & Economic Geography Part 2 p.5-10 (book pp.118-122); en.wikipedia.org/wiki/Trans-Siberian_Railway (infobox); app notes 4:100 sub 8
+
+=== World Railway Length, Rank and High-speed Rail
+# Longest networks
+| Rank | Country | Length (approx.) |
+|---|---|---|
+| 1 | **USA** | 220,000–250,000 km (mostly freight) |
+| 2 | **China** | ~159,000–165,000 km; **largest high-speed network** (~48,000 km, end 2024) |
+| 3 | **Russia** | ~105,000 km |
+| 4 | **India** | ~69,439 route km (March 2025) |
+| 5 | **Canada** | ~49,000 km |
+| – | Germany | ~33,000–39,800 km |
+- **India: 4th largest network** in route length (APPSC FSO flashcard) and the **2nd largest under a single management**.
+- **Descending order (UPPSC 2014 key): USA, Canada, India, Germany** – older data; **now USA > India > Canada > Germany**.
+- **Longest high-speed / bullet-train network: China** (UKPSC 2016) – not Japan, Russia or the USA.
+# Density
+- Among **Canada, USA, Russia and India**, **India** has the densest railway network.
+- Densest national networks: small industrial European countries (Switzerland, Czech Republic, Belgium); Europe has one of the densest rail networks.
+- **North America** has the highest road density and most vehicles; railways there carry bulky freight more than passengers.
+~~ Sources: NextGen Rocket World Geography #17 p.27-28; PMF Human & Economic Geography Part 2 p.7 (book p.120); en.wikipedia.org/wiki/List_of_countries_by_rail_transport_network_size; english.www.gov.cn and China Daily (48,000 km HSR, end 2024); app notes 4:100 sub 7
+
+=== Regional Imbalance – Road and Rail Density in India
+| Density | Highest | Lowest |
+|---|---|---|
+| Rail | **Punjab, Haryana, Ganga plains** | **North-East**, Himalaya, Thar (Rajasthan desert) |
+| Road | **Kerala** | **Arunachal Pradesh** (recent MoRTH data); J&K 12.14 km per 100 sq km (2011, NCERT) |
+- **Highest road density: Kerala** (Jharkhand PCS 2021) – **6,690.30 km per 1,000 sq km** (31 March 2019); NCERT: 517.77 km per 100 sq km, national average 142.68 (2011).
+- Road density order among the PYQ's States (2019, km per 1,000 sq km): **Kerala 6,690.30 > Punjab 2,935.98 > Gujarat 1,270.73 > Haryana 1,137.53**.
+- **Road density** = length of road per 100 (or 1,000) sq km of area.
+# AP NH density vs India
+| Measure | AP | India |
+|---|---|---|
+| Per lakh population | **17.64 km** | 12.09 km |
+| Per 1,000 sq km | **53.65 km** | 44.46 km |
+- AP is **above** the India average on **both** NH density measures.
+~~ Sources: OnlyIAS NCERT Human Geography Part 8 p.13 (book p.89); PMF Human & Economic Geography Part 2 p.24-25 (book p.137); PYQ data (MoRTH, 31 March 2019); app notes 4:100 sub 0
+
+=== Highways, Corridors and Rural Roads
+# Corridors
+| Corridor | End points |
+|---|---|
+| **East-West Corridor** | **Silchar (Assam) – Porbandar (Gujarat)**, ~3,300–3,640 km |
+| North-South Corridor | Srinagar – Kanyakumari (with Kochi–Salem spur), ~4,000 km |
+| Golden Quadrilateral | Delhi – Kolkata – Chennai – Mumbai (5,846 km); longest stretch in AP |
+- E-W and N-S Corridors **meet at Jhansi** (UP).
+- **East-West Corridor is not Dibrugarh – Surat** (UPSC 2023).
+- **Bharatmala Pariyojana:** Phase I approved October **2017**, **34,800 km** of NH corridors; freight and passenger efficiency (APPSC 2019).
+- **NH 44** (Srinagar – Kanyakumari) = longest NH.
+# Rural roads – PMGSY
+- **PMGSY:** launched **25 December 2000**; **fully funded Centrally Sponsored Scheme**; aim: **all-weather road connectivity** to unconnected rural habitations (UPPCS 2001: "road connectivity" option) – not police patrolling or crime response.
+| PMGSY eligibility | Population |
+|---|---|
+| Plain areas | **500+** |
+| NE, hill, tribal areas | **250+** |
+| LWE areas | **100+** |
+- PMGSY has reached about **99% of eligible habitations** (2026).
+- Tribal roads (RCPLWE) in AP: 27 roads + 14 bridges (397 km) in Srikakulam, Vizianagaram, Visakhapatnam, East Godavari.
+# North-East rail gap
+- **Bairabi–Sairang line** (Mizoram): **48 tunnels**; put **Aizawl** on the rail map (**September 2025**) – the **4th** NE capital on rail after Guwahati, Agartala, Itanagar.
+~~ Sources: NextGen Indian Geography - APPSC Exams Part 8.1 p.3 (book p.143); OnlyIAS NCERT Human Geography Part 8 p.15 (book p.92); PMF Human & Economic Geography Part 2 p.6, p.25 (book pp.119, 137); PMF Lens 1 Mar 2026 (PMGSY 99%); app notes 4:100 sub 1-2
+
+=== Logistics Programmes and Freight Corridors
+| Programme | Key fact |
+|---|---|
+| **PM GatiShakti NMP** | Launched **13 October 2021**; **GIS-based** integrated planning platform; **16 ministries** at launch (EGoS now 23) |
+| GatiShakti rail corridors | **Energy-Mineral-Cement**, **Port Connectivity**, **High Traffic Density**; 434 projects, Rs 11.17 lakh crore |
+| **Sagarmala** | Five pillars: port modernisation, port connectivity, port-led industry, coastal communities, coastal shipping / IWT – **not railway electrification** |
+| **MMLPs** | **35** planned; e.g. **Jogighopa** (Assam) |
+| **e-FAST India** | **Electric Freight Accelerator for Sustainable Transport**; NITI Aayog + **WRI India**, **September 2022**; India's first national electric-freight platform; **PACT** (Platform for Aggregating Clean Transport) launched at the 5th e-FAST India Summit, 2026 |
+# Dedicated Freight Corridors
+| Corridor | End points | Length, funding |
+|---|---|---|
+| **Eastern DFC** | **Ludhiana – Sonnagar** | 1,337 km, **World Bank** |
+| **Western DFC** | **Dadri – JNPT** | 1,506 km, **JICA** |
+- Full DFC network (2,843 km) operational; last Western DFC stretches opened 10 Sep 2026.
+- **Sonnagar – Dankuni PPP** = a **failed** project.
+> Trap: Eastern DFC = World Bank; Western DFC = JICA. e-FAST is "Freight Accelerator for Sustainable Transport" – not "Fast", "Accumulator" or "Simulated".
+~~ Sources: PMF Lens 1 Sep 2026 p.55 (e-FAST, PACT); Praveen CA360 Sep 2026 magazine p.35 (e-FAST full form); app notes 4:100 sub 2
+
+=== Logistics Cost, Policy and Indices
+- **Logistics cost:** **7.97% of GDP (2023-24)** official estimate – debated against the older **13–14%** figure.
+- **National Logistics Policy 2022:** single-digit logistics cost; **top 25 in the LPI by 2030**.
+- **World Bank LPI 2023:** India **38th**.
+- **LEADS = Logistics Ease Across Different States:** by **DPIIT**, began **2018**; modelled on the World Bank LPI; mixes **perception and objective data**; ranks **Indian States/UTs** (the LPI ranks countries).
+| LEADS 2025 group | Top performer |
+|---|---|
+| Coastal States | **Tamil Nadu** |
+| Landlocked States | **Uttar Pradesh** |
+| North-Eastern States | **Mizoram** |
+| Union Territories | **Delhi** |
+- AP: **"Achiever"** among coastal States in **LEADS 2023**; **Accelerator** in LEADS 2025 (new tiers: Exemplars, High Performers, Accelerators, Growth Seekers).
+~~ Sources: app notes 4:100 sub 4
+
+=== AP – Coastline, Port Hinterland and Rail Links
+- **AP coastline: 1,053.07 km – 3rd longest** after Gujarat (2,340.62 km) and Tamil Nadu (1,068.69 km) in the revised count (India 11,098.81 km; PIB 4 Dec 2025). Old figure **974 km, "2nd"** (APPSC AMVI 2023 key) is outdated.
+- Rail carries cement, granite, minerals to **Visakhapatnam, Gangavaram, Krishnapatnam**.
+- **Kottavalasa–Kirandul (KK) line:** carries **Bailadila iron ore** to Visakhapatnam port through **Eastern Ghats tunnels**.
+- **Guntakal–Ballari 3rd and 4th lines:** link Rayalaseema to **Karnataka and Goa**, plus Krishnapatnam and Ramayapatnam ports; Rs 1,264 crore; target 2028-29 (CCEA, July 2026).
+- Gap: last-mile rail to industrial nodes **Kopparthy and Orvakal** incomplete – industry depends on road.
+- **South Coast Railway:** **18th zone**; HQ **Visakhapatnam**; operational 1 June 2026; under the **AP Reorganisation Act 2014**.
+~~ Sources: NextGen Rocket AP Geography p.26; RUNBOOK settled facts (PIB Release 2198800, 4 Dec 2025); app notes 4:100 sub 3
+
+=== Trade Concentration by Port and State
+- Sea routes carry ~**95%** of India's trade by volume.
+- FY 2026 cargo: **Deendayal (Kandla) 160.11 MT** > Paradip > JNPA.
+- Non-major leader: **Krishnapatnam** (41.09 MMT, Apr–Nov 2025).
+- ~**75% of transhipment cargo** goes via **Colombo or Singapore**.
+- AP: **6th largest exporting State**; **1st in tobacco** and sea-food exports.
+- Historic: **Silk Route** = land trade route; **Spice Routes** = sea routes.
+~~ Sources: app notes 4:100 sub 5
+
+=== Transport and Environment
+| Factor | Fact |
+|---|---|
+| Rail vs road | Rail freight ~**90% less CO2**, costs about half |
+| Rail share of freight | ~**27%**; National Rail Plan target **45% by 2030** |
+| Waterways | Budget 2026-27: **20 new National Waterways** in five years, starting with **NW-5 (Odisha)** |
+~~ Sources: app notes 4:100 sub 6

@@ -882,3 +882,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## Spot-check
 - b6-s02 (135 GK keys, CA rows 96/103/108/109): 135 confirmed, 0 corrected. Outdated added: CWG 2022 Sudhir DQ (gold to Obichukwu), India tally 60. Gukesh Cannes Feb 2020.
+- b4-p036: 99 adds; new subs row 40 (forestry practice), row 43 (soil science terms). Doubtful: y9aed5bc2fa9 Cuddapah "Clay"; ye4e051db5d5 asbestos; y930337c5979 apatite sole producer (nil since 2016-17); y08963356d55 Sirasanambedu Chittoor vs Nellore. Row 53 line 1:3.7 asbestos vs chrysotile wording.
