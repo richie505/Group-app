@@ -1258,3 +1258,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b5-w076 (rows 76–79)
 - own 406 → 104 kept + 88 new (192, 47%); new 50 statements / 24 match / 13 A–R / 1 sequence; no lines lost.
 - Row 79: NBSAP / Cali Fund own MCQs linked to 79:7:7.7 instead of 7:15/7:16 — link cleanup.
+
+## rewrite b2-w066 (rows 66–72)
+- own 427 → 63 kept + 96 new (159, 37%); new 59 statements / 24 match / 13 A–R; no lines lost.
+- PYQ y388e5f3d4c9 keys K.K. Venugopal as AG "as of July 2023"; he served till 30 Sep 2022, R. Venkataramani from 1 Oct 2022 — flat factual error: key to fact with "(official key: …)" in the doubtful check.
+- Removed own gd241e01c0139 (DMK as UPA's 2nd-largest party; notes RJD) and n28febb0e3a2 (TDP "Telugu atma gauravam", not on linked line).
+- Job topic list (9 topics for 7 rows) mismatched; notes rule: row 71 CAG, row 72 AG/Advocate/Solicitor General.
