@@ -5,9 +5,9 @@ Data: 142 PYQs (row 74: 75, row 75: 29, row 76: 38; 5 flashcards) and 245 app MC
 ## 1. At a glance
 | Item | Count |
 |---|---|
-| PYQs kept in rows 74-76 | 106 (74: 57, 75: 22, 76: 27 by filing row; 1 row-76 PYQ on environment functions filed in row 74) |
-| Moved within book 5 | 27: general chemistry/biology ×13 → r1 (digestion, stomata, alkaloids, sweating, respiration, Haber ratios, named reactions, NaOH+HCl, compost, lycopene, sulphur fungicide, ornithophily, potassium bromate); disaster/first aid ×4 → r106; water pollution ×2 → r101; air-pollution control → r99; sustainability rules → r80; social-media dates → r14; biodiversity values → r84; bee–flower mutualism → r73; hydroponics → r110; 1974 Pokhran test → r61; elephant/tiger deaths → r89; forest diversion approval → r90 |
-| Moved to another book | 9: Khelo India 2017 → b6 r102; Kashi Yatra → b6 r44; arid soil → b4 r43; cyclone-prone state → b4 r45; Multani mitti → b4 r44; Security Paper Mill → b4 r88; AP forest % → b4 r50; Madras Education Cess Act → b2 r80 |
+| PYQs kept in rows 74-76 | 106 (74: 57 incl. 1 row-76 PYQ on environment functions, 75: 21, 76: 28) |
+| Moved within book 5 | 28: general chemistry/biology ×13 → r1 (digestion, stomata, alkaloids, sweating, respiration, Haber ratios, named reactions, NaOH+HCl, compost, lycopene, sulphur fungicide, ornithophily, potassium bromate); disaster/first aid ×4 → r106; water pollution ×2 → r101; air-pollution control → r99; sustainability rules → r80; social-media dates → r14; biodiversity values → r84; bee–flower mutualism → r73; hydroponics → r110; 1974 Pokhran test → r61; elephant/tiger deaths → r89; forest diversion approval → r90 |
+| Moved to another book | 8: Khelo India 2017 → b6 r102; Kashi Yatra → b6 r44; arid soil → b4 r43; cyclone-prone state → b4 r45; Multani mitti → b4 r44; Security Paper Mill → b4 r88; AP forest % → b4 r50; Madras Education Cess Act → b2 r80 |
 | Keys changed | 4 (2 printed -1 now keyed, 1 add_option, 1 duplicate made consistent) |
 | Disputes / outdated / -1 | 4 disputes / 0 outdated / 0 unkeyed |
 
