@@ -65,11 +65,11 @@
   "s": "Consider the following statements about types of AI:\n1. All AI in use today is Narrow (Weak) AI, which performs one specific task and cannot transfer across domains.\n2. Siri and Alexa are examples of General (Strong) AI.\n3. Artificial Superintelligence is a hypothetical AI that surpasses humans in every way.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 3 only",
    "2 and 3 only",
+   "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: Siri and Alexa are Narrow AI; General AI (human-level reasoning across domains) has not been achieved.",
   "src": "app",
   "tq": "statements"
@@ -94,12 +94,12 @@
   "row": 16,
   "s": "Consider the following statements about AI hardware and models:\n1. GPUs, with massively parallel processing, are the workhorse of AI training.\n2. The TPU is an AI chip developed by NVIDIA.\n3. A Large Language Model is a general-purpose model trained on massive data for many language tasks.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
+   "1, 2 and 3",
    "2 only",
-   "1 and 3 only",
-   "1, 2 and 3"
+   "1 and 2 only",
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the TPU (Tensor Processing Unit) is Google's AI chip.",
   "src": "app",
   "tq": "statements"
@@ -140,11 +140,11 @@
   "s": "Consider the following statements about the IndiaAI Mission:\n1. It was approved in March 2024 under MeitY with an outlay of ₹10,371.92 crore over 5 years.\n2. It plans sovereign compute of more than 1,000 GPUs.\n3. Its Innovation Centre pillar builds indigenous foundation models.\n4. Its Datasets Platform, AI-Kosh, provides public-sector datasets.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
-   "Only three",
    "Only two",
+   "Only three",
    "All four"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1, 3 and 4 are correct. 2 is wrong: the Mission plans more than 10,000 GPUs, not 1,000.",
   "src": "app",
   "tq": "statements"
@@ -184,12 +184,12 @@
   "row": 16,
   "s": "Match List-I with List-II:\nList-I | List-II\na. AICTE | i. Beijing\nb. YUVAi | ii. Students of classes 8–12\nc. Central Sanskrit University | iii. Declared 2025 the 'Year of AI'\nd. 2nd International Olympiad in AI (2025) | iv. B.Tech in AI and data science from 2026-27\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iii, b-ii, c-i, d-iv",
    "a-i, b-ii, c-iv, d-iii",
    "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
    "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 2,
+  "a": 1,
   "x": "AICTE declared 2025 the Year of AI; YUVAi is for classes 8–12; Central Sanskrit University offers a B.Tech in AI and data science from 2026-27; the 2nd IOAI (Aug 2025) was in Beijing (the 1st was at Burgas, Bulgaria).",
   "src": "app",
   "tq": "match"
@@ -199,12 +199,12 @@
   "row": 16,
   "s": "Match List-I (AI concern) with List-II (Point):\nList-I | List-II\na. Deepfakes | i. Data, algorithms and people\nb. Facial recognition | ii. Mass surveillance and predictive policing\nc. Explainability | iii. Black-box decisions that are hard to explain\nd. Sources of AI bias | iv. Made with GANs and diffusion models\nSelect the correct answer using the codes given below:",
   "o": [
+   "a-iv, b-i, c-iii, d-ii",
    "a-i, b-ii, c-iii, d-iv",
    "a-iv, b-ii, c-iii, d-i",
-   "a-iv, b-i, c-iii, d-ii",
    "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Deepfakes – made with GANs and diffusion models; facial recognition – identification without consent, mass surveillance, predictive policing; explainability – deep models are black boxes; sources of AI bias – data, algorithms and people (human interpretation).",
   "src": "app",
   "tq": "match"
@@ -244,12 +244,12 @@
   "row": 16,
   "s": "Match List-I (AI summit) with List-II (Venue):\nList-I | List-II\na. AI Safety Summit, 2023 | i. Paris\nb. REAIM Summit, 2023 | ii. New Delhi\nc. AI Action Summit, 2025 | iii. Bletchley Park\nd. India AI Impact Summit, 2026 | iv. The Hague\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iii, b-iv, c-i, d-ii",
    "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
    "a-iii, b-ii, c-i, d-iv",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 0,
+  "a": 1,
   "x": "AI Safety Summit 2023 – Bletchley Park (UK); REAIM 2023 – The Hague; AI Action Summit (Feb 2025) – Paris, co-chaired by India and France; India AI Impact Summit (19–20 Feb 2026) – New Delhi.",
   "src": "app",
   "tq": "match"
@@ -778,5 +778,455 @@
   "x": "AP DigiVerify – permissioned-blockchain PaaS for certificate verification; Mee Bhoomi-Mee Hakku (10 Apr 2026) – tamper-proof pattadar passbooks; Mee Bhoomi-Blockchain pilot (23 Jul 2026) – unifies Revenue, Survey and Registration; Supreme Court (1 Jan 2026) – blockchain for land records.",
   "src": "app",
   "tq": "match"
+ },
+ {
+  "id": "cp2e6c9fadd834",
+  "row": 20,
+  "s": "Match List-I (Radiation) with List-II (Use):\nList-I | List-II\na. Infrared | i. Radiotherapy\nb. Ultraviolet | ii. Detecting forgery on currency notes\nc. X-rays | iii. Detecting cracks in metals\nd. Gamma rays | iv. Physiotherapy for muscle pain\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "Infrared – physiotherapy (muscle pain, paralysis), remotes, night vision; ultraviolet – forgery detection on currency, sterilisation; X-rays – radiography, cracks in metals; gamma – radiotherapy, sterilising instruments.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa17d83357e43",
+  "row": 20,
+  "s": "Consider the following statements:\n1. X-rays are deflected by electric and magnetic fields.\n2. Sound is a mechanical, longitudinal wave.\n3. Sound travels faster in steel than in air.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct (sound in steel ~5,000–6,000 m/s vs ~343 m/s in air). 1 is wrong: X-rays are uncharged EM waves and are not deflected by electric or magnetic fields.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp31c04f65f27f",
+  "row": 20,
+  "s": "Consider the following statements about optical fibres:\n1. An optical fibre is a thin strand mostly of glass (silica), whose core has a higher refractive index than the cladding.\n2. Multi-mode fibre is best suited for long-distance transmission.\n3. In India, Sterlite Tech makes optical fibre.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: single-mode fibre is used for long distances; multi-mode for short runs.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpac51e17fadd5",
+  "row": 20,
+  "s": "Consider the following statements:\n1. Undersea cables carry about 99% of international traffic.\n2. The CANI cable links Chennai with the Andaman and Nicobar Islands and was inaugurated on 10 August 2020.\n3. The CANI cable is about 5,000 km long.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: CANI (BSNL) is about 2,300 km long.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbb73a7fb5e28",
+  "row": 20,
+  "s": "Consider the following statements:\n1. The National Optical Fibre Network, approved on 25 October 2011, became BharatNet for all 2,50,000 Gram Panchayats.\n2. BharatNet is funded by the National Investment and Infrastructure Fund.\n3. As per PM Gati Shakti NMP data (2026), India has about 13.5 lakh route km of optical fibre cable.\n4. There are about 3.15 lakh PM-WANI hotspots.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 3 and 4 are correct. 2 is wrong: NOFN/BharatNet is funded by USOF (now Digital Bharat Nidhi), not NIIF.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp37aa88357b43",
+  "row": 20,
+  "s": "Match List-I (Mobile generation) with List-II (Technology):\nList-I | List-II\na. 1G | i. CDMA-based (WCDMA / CDMA2000)\nb. 2.5G | ii. GPRS\nc. 2.75G | iii. Analog, FDMA\nd. 3G | iv. EDGE\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 1,
+  "x": "1G – analog, FDMA; 2.5G – GPRS; 2.75G – EDGE (both GSM data); 3G – CDMA-based (WCDMA/CDMA2000).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5d1ce5c08077",
+  "row": 20,
+  "s": "Consider the following statements:\n1. 5G New Radio offers latency as low as 1 ms.\n2. 6G, described as 'omnipresent wireless intelligence', is expected in the early 2030s.\n3. LTE and VoLTE belong to the 3G generation.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: LTE (Long Term Evolution, OFDMA) and VoLTE are 4G.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd272e7121d59",
+  "row": 20,
+  "s": "Match List-I (5G term) with List-II (Meaning):\nList-I | List-II\na. sub-6 GHz | i. One physical network split into several virtual networks\nb. mmWave | ii. Voice carried on the 5G network itself\nc. Network slicing | iii. Very high data rates but short range\nd. VoNR | iv. Wider coverage and better penetration\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "sub-6 GHz – wider coverage, better penetration; mmWave – very high data rates, short range; network slicing – one physical network split into virtual networks; VoNR – voice over New Radio on the 5G network itself.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp25af893c7e56",
+  "row": 20,
+  "s": "Consider the following statements:\nAssertion (A): 5G Standalone (SA) gives lower latency.\nReason (R): 5G Standalone runs without a 4G core.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: without a 4G core in the path, SA networks cut latency.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp67238fbbdaed",
+  "row": 20,
+  "s": "Consider the following statements:\n1. The Open-RAN 5G partnership in India is between Airtel and Tata.\n2. The Telecom Technology Development Fund (2022) receives 10% of Digital Bharat Nidhi collections.\n3. C-DOT was set up in 1984.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: TTDF gets 5% of the Digital Bharat Nidhi.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5e3c172d2f0a",
+  "row": 20,
+  "s": "Consider the following statements about Li-Fi:\n1. It uses visible light from LEDs; the term was coined by Harald Haas in 2011.\n2. It generally has a longer range than Wi-Fi.\n3. Unlike Wi-Fi, it does not pass through walls.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: Li-Fi is faster and more secure, but Wi-Fi has the longer range.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp755a0923dc48",
+  "row": 20,
+  "s": "Match List-I (Technology) with List-II (Standard / fact):\nList-I | List-II\na. WiMAX | i. Developed in 1994 by Jaap Haartsen\nb. Wi-Fi 6 | ii. IEEE 802.16\nc. Wi-Fi 7 | iii. IEEE 802.11ax\nd. Bluetooth | iv. IEEE 802.11be\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "WiMAX – IEEE 802.16; Wi-Fi 6 – 802.11ax; Wi-Fi 7 – 802.11be; Bluetooth – developed in 1994 by Jaap Haartsen.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3b11a30c63ad",
+  "row": 20,
+  "s": "Consider the following statements about satellite orbits:\n1. GEO satellites orbit at about 35,786 km above Earth.\n2. LEO satellites orbit below about 2,000 km and have higher latency than GEO satellites.\n3. Starlink, Eutelsat OneWeb and Amazon Kuiper are LEO constellations, while GSAT is in GEO.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: LEO satellites (below ~2,000 km) have low latency; GEO latency is higher.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa7b0eb425e26",
+  "row": 20,
+  "s": "Consider the following statements:\nAssertion (A): Starlink, which operates more than 8,000 satellites, obtained its GMPCS licence in India in 2025.\nReason (R): GMPCS licence conditions require satellite operators to get user terminals made in India within five years.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R is a condition of the licence, not the reason Starlink obtained it.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp8f68047dd6b9",
+  "row": 20,
+  "s": "Match List-I (Body) with List-II (Role):\nList-I | List-II\na. TRAI | i. Hears appeals against TRAI\nb. TDSAT | ii. Held every four years\nc. TEC | iii. DoT's technical arm for standards and equipment testing\nd. ITU WTDC | iv. Regulator of telecom and broadcasting (1997)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "TRAI (1997) – regulator of telecom and broadcasting; TDSAT (2000 amendment) – settles disputes, hears appeals against TRAI; TEC – DoT's technical arm (not USOF collection); WTDC – every four years.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4c41e738d0e8",
+  "row": 20,
+  "s": "Arrange the following in chronological order:\n1. Creation of TRAI\n2. Creation of the Department of Telecommunications on the split of Posts and Telecom\n3. Creation of TDSAT by amendment\n4. Setting up of MTNL and VSNL\nSelect the correct answer using the code given below:",
+  "o": [
+   "2, 1, 4, 3",
+   "4, 2, 1, 3",
+   "2, 4, 3, 1",
+   "2, 4, 1, 3"
+  ],
+  "a": 3,
+  "x": "DoT 1985 → MTNL and VSNL 1986 → TRAI 1997 → TDSAT 2000 (amendment).",
+  "src": "app",
+  "tq": "sequence"
+ },
+ {
+  "id": "cp053eebdcd095",
+  "row": 20,
+  "s": "Consider the following statements:\n1. In February 2026 TRAI recommended a uniform 35% spectrum cap.\n2. TRAI recommended cutting the net-worth requirement for a new entrant from Rs 100 crore to Rs 50 crore.\n3. In the Aircel case (February 2026) the Supreme Court held that telecom companies own the spectrum allotted to them.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the Supreme Court held that telcos do not own spectrum.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp15b60502d211",
+  "row": 21,
+  "s": "Consider the following statements about the Internet of Things:\n1. Its four pillars are device, data, analytics and connectivity.\n2. In the three-layer architecture, the Perception layer collects data through sensors at the physical level.\n3. From the physical level up, the order of the layers is Network → Perception → Application.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the order from the physical level up is Perception → Network → Application.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp099a2d96a9bd",
+  "row": 21,
+  "s": "Match List-I (IoT category) with List-II (Example):\nList-I | List-II\na. Smart city | i. Medical devices linked to health IT systems\nb. Smart agriculture | ii. Precision farming and soil monitoring\nc. Wearables | iii. Fitness trackers and health monitors\nd. IoMT | iv. Traffic and air-quality monitoring\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "Smart city – traffic and air-quality monitoring, waste collection; smart agriculture – precision farming, soil monitoring; wearables – fitness trackers, health monitors; IoMT (Internet of Medical Things) – medical devices linked to health IT systems.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp876e5707df73",
+  "row": 21,
+  "s": "Consider the following statements:\nAssertion (A): Passive RFID tags do not need a battery of their own.\nReason (R): Passive RFID tags are powered by the reader's signal.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: passive tags draw power from the reader's radio signal; active tags carry their own battery and have longer range.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb311a2564969",
+  "row": 21,
+  "s": "Consider the following statements about AI tools:\n1. ChatGPT, developed by OpenAI, was launched on 30 November 2022.\n2. The Indian-language chatbot Krutrim is associated with Bhavish Aggarwal of Ola.\n3. Hanooman (May 2024) is linked to the BharatGPT group led by IIT Delhi.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: Hanooman (SML India) belongs to the BharatGPT group led by IIT Bombay.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp478d0c22d5aa",
+  "row": 21,
+  "s": "Consider the following statements about the 2016 AI Sowing App pilot in Andhra Pradesh:\n1. It was a partnership of Microsoft, ICRISAT and the AP government.\n2. It advised groundnut farmers of Devanakonda mandal in Kurnool.\n3. Farmers using it reported about 50% higher yields.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the reported yield gain was about 30%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0bc62d90d138",
+  "row": 21,
+  "s": "Match List-I (Industrial Revolution) with List-II (Defining technology):\nList-I | List-II\na. First | i. Steam and mechanisation\nb. Second | ii. Electronics and IT\nc. Third | iii. Cyber-physical systems\nd. Fourth | iv. Electricity and mass production\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 3,
+  "x": "IR1 – steam/mechanisation; IR2 – electricity/mass production; IR3 – electronics/IT; IR4 – cyber-physical systems, the convergence of digital, physical and biological.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp43ad9eedf3ae",
+  "row": 21,
+  "s": "Consider the following statements:\nAssertion (A): The term 'Fourth Industrial Revolution' was popularised by Klaus Schwab of the World Economic Forum in 2016.\nReason (R): Alvin Toffler is associated with the idea of the 'Third Wave'.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but Toffler's 'Third Wave' is a separate idea and does not explain why Schwab popularised the term 4IR.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp04da94948445",
+  "row": 21,
+  "s": "Match List-I (Term) with List-II (Meaning):\nList-I | List-II\na. 5G NR | i. Internet Relay Chat\nb. Web 3.0 | ii. Decentralised, blockchain-based internet\nc. NFC | iii. New Radio\nd. IRC | iv. Works over a few centimetres\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "5G NR – New Radio (not 'Network Relay'); Web 3.0 – decentralised, blockchain-based internet; NFC – Near-Field Communication over a few centimetres; IRC – Internet Relay Chat.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6ac8179f0123",
+  "row": 21,
+  "s": "Consider the following statements:\n1. PaaS provides a platform to build and run applications.\n2. MeghRaj (GI Cloud) is a MeitY initiative; NIC launched the national cloud under it in 2014.\n3. Government Community Cloud is one of the deployment models in MeitY's cloud empanelment.\n4. IaaS stands for Integration as a Service.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "1, 2 and 3 are correct. 4 is wrong: IaaS is Infrastructure as a Service (computing, storage).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc8eb9a047c60",
+  "row": 21,
+  "s": "Consider the following statements about big data:\n1. The original three Vs (2001) are Volume, Velocity and Variety.\n2. Veracity refers to the usefulness of data.\n3. Veracity and Value were added later.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: Veracity is quality/trustworthiness; usefulness is Value.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb2d46be27be2",
+  "row": 21,
+  "s": "Consider the following statements about 5G:\n1. It offers latency as low as 1 millisecond.\n2. Its ITU/3GPP use cases are eMBB, URLLC and mMTC.\n3. Network slicing merges several virtual networks into one physical network.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "1 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: network slicing splits one physical network into several virtual networks (SDN/NFV).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp380662f7f75b",
+  "row": 21,
+  "s": "Match List-I (Organisation) with List-II (Role):\nList-I | List-II\na. C-DOT | i. Topped DoT's 5G labs ranking (July 2026)\nb. Tejas Networks | ii. Radio network of the Bharat Telecom Stack\nc. TCS | iii. Core network of the Bharat Telecom Stack\nd. IIITDM Kurnool | iv. System integration of the Bharat Telecom Stack\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "Bharat Telecom Stack (launched 27 Sep 2025): C-DOT core, Tejas Networks radio, TCS integration. IIITDM Kurnool topped DoT's 5G labs ranking.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc370bb24f342",
+  "row": 21,
+  "s": "Consider the following statements:\n1. Wi-Fi 7 corresponds to IEEE 802.11be with Multi-Link Operation.\n2. Wi-Fi 7 offers speeds of up to 46 Gbps.\n3. The Bharat 6G Alliance was launched in 2021.\n4. 6G networks are expected in the early 2030s.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the Bharat 6G Alliance was launched in 2023.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
