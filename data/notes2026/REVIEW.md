@@ -568,3 +568,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - 8 disputes kept (fluoride–indigestion, dermatitis, coliform, silt, GAP 1985/1986, spationaut, arsenic, Malwa).
 - Outdated: polluted river stretches (296, 37 Priority-I); 2016 and Oct 2022 office-holders. Helper says IAF chief Ashutosh Dixit from 31 Oct 2026 — verify, then add to settled facts.
 - Unverified printed: y244fcda7eac, yf1caab3e0cc, yd9d92e280a4, y3376596d069. NRCP 34 rivers/20 States (PMF) vs 38/16 (old notes); BS norms MoRTH vs CPCB.
+
+## b5-r099 (Air pollution)
+- 7 disputes kept (IIT Kanpur road vs construction dust; cigarette nicotine; CO-Hb "irreversible"; H2S inorganic; RSPM <5 µm vs PM10; IAS 2000 catalytic converter; ozone secondary).
+- Outdated: leaded petrol ×2 (y04f6d5727d6, ycc112a3c55c).
+- Unverified printed: y7b7f11bf4a6 GAW station, y3aff3bfa50f PM2.5 source, yc010b674c64 metro CO/SO2. AP/2026 figures (APPCB, FGD 39/537) carried over unchecked.
