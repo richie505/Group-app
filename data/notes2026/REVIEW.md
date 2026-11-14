@@ -863,3 +863,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes; 51 outdated (office-holders). Navy chief now Krishna Swaminathan (from 31 May 2026).
 - Disputes: UNICEF ambassador; FBI Director 2017; SBI YONO; Gayoom terms; own MCQ gfe714e3ec715 Deshmukh 50 years (2012).
 - Unverified: y92fc5df2945 N. Ram Wolverhampton; y68b921c8298, y76d17c95987, ya58f4da64a4, ydb760c95940 (date-dependent).
+
+## b6-r108 (CA rows 108-109 books and authors, days)
+- No key changes. y-d74fd4ae2f8 Voldemort: J.K. Rowling (old notes said 2010 APPSC key gave Salman Rushdie — flat error).
+- Outdated y53b36635d47 Sierra Leone cleaning day (first Saturday since May 2018).
+- ~135 general-knowledge keys (book-author, UN days). Unverified: ye451ff097bb, yb8e204f886b, y069e0d2717c, yd1ca5f6505d.
+- Idiom/soliloquy/Spanish alphabet PYQs parked in row 109 (no language row).
