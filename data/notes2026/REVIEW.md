@@ -1016,3 +1016,11 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 413 → 42 kept + 104 new (146, 35%); new 64 statements / 28 match / 9 A–R / 3 sequence; 4 of 281 lines lost.
 - g48ae0dea85fe put Khorat plateau between Irrawaddy & Sittang (notes: Menam–Mekong) — removed.
 - Doubtful PYQs: y61bbd963c9b (largest country keyed USA), y4c3cc95cfec (largest plateau keyed Colorado), y96a887b5339 (Tibet avg height 5 km vs notes 4,500 m).
+
+## rewrite b6-w036 (rows 36–38)
+- own 328 → 55 kept + 88 new (143, 44%); new 61 statements / 18 match / 9 A–R; 3 of 259 lines lost.
+- Kept own MCQs mislinked (correct line): ca914c4189e917 (9:15), ca5a175c3c44fa (8:4), g4614c92cc208 (8:14), caf6818573ed33 (1:5), cac7c3a890aca8 (9:14), cac012aff194cf (2:6) — fix in link cleanup.
+
+## rewrite b6-w034 (rows 34–35)
+- own 442 → 103 kept + 117 new (220, 50%); new 79 statements / 25 match / 13 A–R; no lines lost.
+- Kept own ca447a6d (EBP ministry) and cab78d64 (SKO ministry) mislinked to 34:1:11.1 (LNG) — fix in link cleanup.
