@@ -1309,3 +1309,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b6-w077 (row 77)
 - own 236 → 25 kept + 62 new (87, 37%); new 43 statements / 12 match / 7 A–R; no lines lost. No wrong notes/keys.
+
+## rewrite b6-w076 (row 76)
+- own 239 → 28 kept + 66 new (94, 39%); new 46 statements / 13 match / 7 A–R; 2 of 153 lines lost (facts still covered). No wrong notes/keys.
