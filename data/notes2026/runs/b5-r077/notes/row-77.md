@@ -103,6 +103,7 @@
 | **14 Sep 2006** | EIA Notification 2006: basis shifted **from investment size to impact potential**; EC compulsory for **39 categories** |
 | **2018** | **PARIVESH** portal |
 | 2020 | **Draft EIA** – **not finalised**; criticised for **post-facto EC**, hearing notice **30 → 20 days**, violations reportable **only by the violator or government** |
+- **Categories under EIA 2006** (Category B is appraised by the **state** SEAC, not the central EAC):
 | Category | Appraisal | Clearance | EIA |
 |---|---|---|---|
 | **A** | EAC (central) | **MoEFCC** | Full EIA, no screening |
