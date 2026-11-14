@@ -23,14 +23,6 @@
 - **Mir** (Russian station, ~140 t): de-orbited in a controlled re-entry over the Pacific on **23 March 2001** after ~15 years, having made **86,331 orbits**.
 ~~ Sources: PMF S&T Part 2 (src/science-tech/pmf-science-tech-02.txt) p.64-67; app notes 5:46 sub 0, 2; web: en.wikipedia.org/wiki/Deorbit_of_Mir and Mir infobox (86,331 orbits)
 
-=== Mitigation and Debris-free Missions
-- **Debris Free Space Missions (DFSM) by 2030** – India's pledge at the **2024 IADC** meeting.
-- **25-year rule:** LEO satellites should re-enter within 25 years of mission end (NASA, then IADC and UN guidelines); GEO satellites go to a **graveyard orbit**.
-- **Active Debris Removal:** a servicer with a **robotic arm or net** to capture a defunct Indian rocket body (tested at URSC).
-- **PSLV-C62** (Jan 2026) planned a PS4 de-boost; **2026 re-entry rules:** warn aircraft and ships **at least 45 days** before re-entry.
-- **Gaps:** IADC/UN guidelines are non-binding; no international **duty-of-care** standard; lax licensing regimes attract operators.
-~~ Sources: PMF S&T Part 2 (src/science-tech/pmf-science-tech-02.txt) p.68-70; app notes 5:46 sub 2
-
 === Space Law – Treaties and the Space Activities Bill
 | Instrument | Core rule | India |
 |---|---|---|
@@ -45,6 +37,14 @@
 - It does **not** create a **military wing of the armed forces in outer space** (the incorrect statement, Sachivalayam PYQ).
 - India still has **no Space Activities Act** on liability.
 ~~ Sources: PMF S&T Part 2 (src/science-tech/pmf-science-tech-02.txt) p.68; app notes 5:46 sub 3; general knowledge, not checked (draft Space Activities Bill 2017)
+
+=== Mitigation and Debris-free Missions
+- **Debris Free Space Missions (DFSM) by 2030** – India's pledge at the **2024 IADC** meeting.
+- **25-year rule:** LEO satellites should re-enter within 25 years of mission end (NASA, then IADC and UN guidelines); GEO satellites go to a **graveyard orbit**.
+- **Active Debris Removal:** a servicer with a **robotic arm or net** to capture a defunct Indian rocket body (tested at URSC).
+- **PSLV-C62** (Jan 2026) planned a PS4 de-boost; **2026 re-entry rules:** warn aircraft and ships **at least 45 days** before re-entry.
+- **Gaps:** IADC/UN guidelines are non-binding; no international **duty-of-care** standard; lax licensing regimes attract operators.
+~~ Sources: PMF S&T Part 2 (src/science-tech/pmf-science-tech-02.txt) p.68-70; app notes 5:46 sub 2
 
 === Bodies, Accords and Weaponisation
 | Body / accord | Year | India |

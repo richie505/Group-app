@@ -112,7 +112,7 @@
 - **SSBN = most survivable leg** – concealment gives sure **second-strike** capability, which backs NFU. Next step: **continuous at-sea deterrence**.
 - India has a fully operational triad, with **USA, Russia, China** (Apr 2026). US triad = **Minuteman III** ICBMs + bombers + Ohio/Columbia-class SSBNs.
 - Agni-4 user trial 6 Aug 2026: 4,000 km, two-stage solid, road-mobile. SIPRI (Jun 2026): **12** Indian warheads "operationally deployed", linked to **SSBN patrols and canisterised Agni**.
-~~ Sources: PMF S&T Part 6 p.57; PMF S&T Part 7 p.3-5; app notes 5:50 sub 3
+~~ Sources: PMF S&T Part 6 p.57; PMF S&T Part 7 p.3-5; app notes 5:50 sub 3; Agni-V first-test date: general knowledge, not checked
 
 === Nuclear Weapon Technology
 | Fission (atomic) weapon | Fusion (thermonuclear / hydrogen) weapon |
