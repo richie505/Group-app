@@ -67,10 +67,10 @@
 ~~ Sources: app notes 3:68 sub 3-4; general knowledge, not checked (₹2,49,630 crore; 2007-08 exports)
 
 === Andhra Pradesh SEZs
-- **Operational SEZs in AP: 19** (2016-19 figure; also the APPSC G2 answer to "how many SEZs").
+- **Operational SEZs in AP: 19** (2016-19 figure, as of January 2019; also the APPSC G2 answer to "how many SEZs") – **now 25 operational, 30 notified** (Lok Sabha reply, 30 Nov 2023).
 - **AP's largest SEZ: Atchutapuram** (APSEZ, Visakhapatnam). **Sri City**: multi-product SEZ in **Satyavedu** and Varadaiahpalem mandals. Visakhapatnam: old EPZ, later SEZ.
 - Same statement PYQ: Vizag Steel Plant built with **USSR** help ✓; Kandla EPZ 1965 ✓; "Fumihiko **Maki** will now design Amaravati instead of Norman Foster" ✗ – the reverse: Maki was dropped and **Norman Foster** chosen (2017).
-~~ Sources: app notes 3:68 sub 6; old app explanation (19 SEZs); general knowledge, not checked (Atchutapuram, Maki/Foster)
+~~ Sources: app notes 3:68 sub 6; old app explanation (19 SEZs); web search: Lok Sabha reply 30.11.2023 (eparlib.nic.in) – AP 25 operational SEZs; general knowledge, not checked (Atchutapuram, Maki/Foster)
 
 === Industrial Corridors and NICDC
 - **NICDC** (formerly **DMIC Development Corporation**), under **DPIIT, Ministry of Commerce and Industry**; **11 industrial corridors** in 4 phases.
