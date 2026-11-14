@@ -215,11 +215,13 @@
 | Dhanush Srikanth | **Deaf shooting** |
 | Raj Kumar Pal, Lalremsiami | **Hockey** |
 | Ekta Bhyan | **Para athletics** |
+# Other Awards 2025
 | Award | Awardee |
 |---|---|
 | Arjuna (Lifetime) | **I. Arumainayagam** – 1962 Asian Games football gold team |
 | Dronacharya (Regular) | Chhote Lal Yadav (boxing) and others |
 | Rashtriya Khel Protsahan Puraskar | **Army Paralympic Node, Pune** |
+# Year Instituted
 | Award | Instituted |
 |---|---|
 | Arjuna Award | **1961** |

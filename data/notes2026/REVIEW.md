@@ -822,3 +822,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Outdated: Doomsday Clock 2½ min ×2 (now 85 s, Jan 2026).
 - Global Firepower publisher (Rocket says IISS — wrong). Henley 2026 Jan 80th vs Rocket 84th.
 - Unverified: GPI 2026 Bhutan best in South Asia; WEF India top risk; y79fab56e9e6 Arton 2017 Germany; y7d3973734fa Henley Singapore (year-dependent). 23 general-knowledge keys.
+
+## b6-r096 (CA row 96 awards, 233 PYQs)
+- y30e8749bf40 Booker 2005: add_option "The Sea (John Banville)".
+- Disputes: UN HR Prize 2018 "all three"; Devi Ahilya Bai award; Miss Earth 2019 USA (Puerto Rico).
+- Outdated: "recent" Jnanpith (now R. Vairamuthu, 60th); Best Actor Oscar (Michael B. Jordan, 2026).
+- 190 keys from general knowledge (older winners) — spot-check candidate. 8 unverified printed keys (FAO Ceres, Tejaswini, Lok Nayak 13th, Nishank–Uganda, ICFAI, IASLIC, Save Water Hero, Oscar office Mumbai).

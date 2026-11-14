@@ -140,7 +140,7 @@
 # Kabaddi
 - **Inaugural Commonwealth Kabaddi Championship**: India won both titles – women beat **Uganda 35–15**, men beat Sri Lanka 54–20.
 - Kabaddi became a medal sport at the **1990 Beijing** Asian Games.
-~~ Sources: daily CA 20 Oct – 3 Nov 2026 (src/current-affairs/octlatest-daily-em-ca-2026-10-20 … 11-03); app notes (old-notes.txt row 97)
+~~ Sources: daily CA 30 Oct 2026 p.4 (U19 boxing), 31 Oct 2026 p.6 (Manisha Bhanwala), 3 Nov 2026 p.6 (Tammer boxing) (src/current-affairs/octlatest-daily-em-ca-2026-*); CivicCentre daily 2 Nov 2026 p.3 (Commonwealth Kabaddi); app notes (old-notes.txt row 97)
 
 === Chess
 # 46th Chess Olympiad – Samarkand
