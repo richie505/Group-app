@@ -27,7 +27,7 @@
 | National Youth Policy 2014 | Youth = **15–29** |
 | National Policy for Skill Development and Entrepreneurship | **2015** |
 | Adolescents (10–19), Census 2011 | **20.9%** |
-~~ Sources: PMF Human & Economic Geography 01 p.38-39, p.43-44; Ramesh Singh Indian Economy 06 p.58 (29 years in 2020); general knowledge, not checked (65% below 35); app notes 4:59 (sub 0, 1, 2)
+~~ Sources: PMF Human & Economic Geography 01 p.38-39, p.43-44; Ramesh Singh Indian Economy 06 p.58 (29 years in 2020); general knowledge, not checked (65% below 35); app notes 4:59 (sub 0, 1, 2); governancenow.com (PRS summary of Standing Committee report: 2020 median India 28.1, China 38.1, Japan 48.2, USA 37.3)
 
 === Ageing and the Elderly
 - Elderly 60+: **8.6% (2011)** → **16% by 2041** → over 20% by 2050; median age 24 (2011) → 36 (2036) → **40 (2051)**.
@@ -39,7 +39,7 @@
 | **LASI** | **IIPS Mumbai** for **MoHFW** | People aged **45+** |
 | India Ageing Report 2023 | UNFPA with **IIPS** | 60+ to **347 million by 2050** |
 | **Quality of Life for Elderly Index** (Aug 2021) | Released by **Bibek Debroy**, EAC-PM | **Rajasthan** first among aged States; **Mizoram** North-East; **Chandigarh** UTs |
-~~ Sources: PMF Human & Economic Geography 01 p.37; app notes 4:59 (sub 9)
+~~ Sources: PMF Human & Economic Geography 01 p.37; app notes 4:59 (sub 9); governancenow.com (PRS: 2020 median ages India 28.1, Japan 48.2)
 
 === Fertility – TFR in India and the States
 - **TFR** = children a woman is expected to have over ages **15–49**; replacement **2.1**; births per 1,000 = crude birth rate, not TFR.
