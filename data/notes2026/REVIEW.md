@@ -1217,3 +1217,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b1-w166 (rows 166–171)
 - own 439 → 90 kept + 86 new (176, 40%); new 47 statements / 26 match / 13 A–R; no lines lost.
 - Wrong own keys removed: n5c8fd3adae6 (lease ₹15 lakh; 1766 treaty fixed ₹9 lakh), na8408bcb2a8 (Guntur as main Nizam–British conflict; notes Northern Circars), n9cec66a8174 (not in notes); 6 unlinked removed.
+
+## rewrite b5-w072 (rows 72–75)
+- own 397 → 23 kept + 117 new (140, 35%); new 74 statements / 27 match / 12 A–R / 4 one-liners; 3 lines lost (2 still in PYQs). A–R answers skew to (a): 7/2/2/1.
+- n937f4b0f6a5 (AP OECMs, not in notes) removed.
