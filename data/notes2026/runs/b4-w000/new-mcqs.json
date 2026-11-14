@@ -1,5 +1,605 @@
 [
  {
+  "id": "cp96c13a1333e2",
+  "row": 0,
+  "s": "Consider the following statements:\n1. Mercury is the smallest planet and has the shortest year (88 days).\n2. Earth is the densest planet of the solar system.\n3. Jupiter rotates fastest, in about 10 hours.\n4. Mercury is the hottest planet because it is nearest the Sun.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: Venus (~464°C) is the hottest planet because its thick CO₂ atmosphere traps heat. Mercury is the smallest with an 88-day year, Earth is the densest (5.5 g/cm³), and Jupiter spins fastest (~10 h).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd9a9f3fe1eee",
+  "row": 0,
+  "s": "Match List-I (Planet) with List-II (Feature):\nList-I\na. Uranus\nb. Neptune\nc. Saturn\nd. Mars\nList-II\ni. Least dense, less dense than water\nii. Day of 24 h 37 min; the 'Red Planet'\niii. Rotates on its side; lowest single temperature (about −224°C)\niv. Coldest on average (about −200°C); longest year among the planets",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Uranus rotates on its side and recorded the lowest single temperature (~−224°C); Neptune is coldest on average (~−200°C) with the longest planetary year (164.9 yr); Saturn (0.7 g/cm³) is less dense than water; Mars, the Red Planet, has a 24 h 37 min day.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp55395cf3dd46",
+  "row": 0,
+  "s": "Consider the following statements about Venus:\n1. It is the brightest planet in the sky.\n2. Like Uranus, it has retrograde (east-to-west) rotation.\n3. At its closest approach it comes within about 41.4 million km of the Earth.\n4. It is the brightest object in the sky after the Sun.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statement 4 is wrong: the Moon is brighter than Venus, so Venus is not the brightest object after the Sun (CDS 2009 A-R). Venus is the brightest planet, rotates retrograde like Uranus, and comes within 41.4 million km of the Earth.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4e141dcf6e76",
+  "row": 0,
+  "s": "Assertion (A): Venus is hotter than Mercury, although Mercury is nearer the Sun.\nReason (R): The thick carbon dioxide atmosphere of Venus traps heat.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the CO₂ greenhouse of Venus keeps it at about 464°C, hotter than Mercury. 'Mercury is the hottest planet' is the standard trap.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp26f4790ad340",
+  "row": 0,
+  "s": "Consider the following statements about planetary atmospheres:\n1. Jupiter and Saturn are made mostly of hydrogen and helium.\n2. Methane gives Uranus and Neptune a blue-green tint.\n3. The atmosphere of Mars consists mainly of hydrogen, helium and methane.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the Martian atmosphere is about 95% carbon dioxide. Jupiter and Saturn are mostly hydrogen and helium; Uranus and Neptune (ice giants) add methane, which gives their blue-green tint.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1f811b338c5d",
+  "row": 0,
+  "s": "Match List-I (Moon) with List-II (Planet / dwarf planet):\nList-I\na. Titan\nb. Europa\nc. Charon\nd. Phobos\nList-II\ni. Mars\nii. Pluto\niii. Saturn\niv. Jupiter",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 0,
+  "x": "Titan is Saturn's largest moon; Europa (ocean under ice) is a Galilean moon of Jupiter; Charon is the largest of Pluto's five moons (Charon, Styx, Nix, Kerberos, Hydra); Phobos and Deimos are the moons of Mars.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp968f71bbd56b",
+  "row": 0,
+  "s": "Consider the following statements:\n1. Ganymede is the largest moon of the solar system and is bigger than Mercury.\n2. Rhea is the largest moon of Saturn.\n3. Europa has an ocean under its icy crust.\n4. Titan has lakes of methane about 100 m deep.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 3 and 4 only",
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: Titan is Saturn's largest moon and Rhea the second. Ganymede (5,268 km) outsizes Mercury, Europa hides an ocean under ice, and Titan has a thick nitrogen atmosphere with methane lakes ~100 m deep.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9fa50acff60d",
+  "row": 0,
+  "s": "Consider the following statements about planetary moons as of 2026:\n1. Saturn has 285 known moons.\n2. Jupiter has 101 known moons.\n3. Of the 15 moons added in March 2026, 11 belong to Jupiter.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: of the 15 added in March 2026, 11 were Saturn's and 4 Jupiter's, giving Saturn 285 and Jupiter 101. Jupiter led until 2019; Saturn took the lead in October 2019.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9fd332054177",
+  "row": 0,
+  "s": "Consider the following statements:\n1. One light year is about 9.46 trillion km.\n2. Sunlight takes about 8 minutes 19 seconds to reach the Earth.\n3. A parsec is smaller than a light year.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: a parsec is 3.26 light years, the largest of the three units (AU < light year < parsec). A light year is 9.461 × 10¹² km, and sunlight takes ~8 min 19 s (~500 s).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8645fc437218",
+  "row": 0,
+  "s": "Match List-I with List-II:\nList-I\na. Cosmology\nb. Cepheids\nc. Milky Way\nd. International Astronomical Union\nList-II\ni. Barred spiral galaxy\nii. Recognises 88 constellations\niii. Study of the origin, evolution and structure of the universe\niv. Used to measure astronomical distances",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Cosmology studies the universe; Cepheids (stars that brighten and dim) measure astronomical distances; the Milky Way is a barred spiral galaxy; the IAU (founded 1919, Paris) recognises 88 constellations.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3b99c17a5c76",
+  "row": 0,
+  "s": "Consider the following statements:\n1. The universe is about 13.8 billion years old.\n2. The Earth is about 4.54 billion years old.\n3. Helium is the most abundant element in the universe.\n4. Hydrogen makes up about 74% of the Sun.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "3 and 4 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: hydrogen is the most abundant element in the universe and the Sun, helium second (Sun ~74% H, ~24% He). The universe is 13.8 billion years old and the Earth ~4.54 billion.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6da15f2c2574",
+  "row": 0,
+  "s": "Match List-I (Planet) with List-II (Period of revolution):\nList-I\na. Mercury\nb. Mars\nc. Jupiter\nd. Neptune\nList-II\ni. 11.86 years\nii. 164.9 years\niii. 88 days\niv. 687 days",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "Mercury 88 days, Mars 687 days, Jupiter 11.86 years, Neptune 164.9 years – the period grows with distance from the Sun.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpdeccc3409f92",
+  "row": 0,
+  "s": "Consider the following statements:\n1. Mercury, Venus, Earth and Mars lie between the Sun and the asteroid belt.\n2. Uranus and Neptune are called gas giants.\n3. Mars is the outermost of the inner planets.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: Jupiter and Saturn are the gas giants; Uranus and Neptune are ice giants. The four rocky inner planets lie inside the asteroid belt, with Mars the outermost.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4241951c78d8",
+  "row": 0,
+  "s": "Consider the following statements:\n1. The colour of a star indicates its surface temperature.\n2. Red stars are hotter than yellow stars like the Sun.\n3. Blue stars are the hottest.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: in decreasing temperature the order is blue, white, yellow (Sun), orange, red – red stars are the coolest. Colour reflects surface temperature.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe1c569e7f84f",
+  "row": 0,
+  "s": "Consider the following statements about the brightness of stars:\n1. On the magnitude scale, a lower number means a brighter star.\n2. Absolute magnitude is the brightness a star would have at 10 light years.\n3. Apparent brightness depends on a star's size, temperature and distance from the Earth.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: absolute magnitude is the brightness at 10 parsecs, not 10 light years. The magnitude scale is logarithmic with lower numbers brighter.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp05722bf39ee2",
+  "row": 0,
+  "s": "Consider the following statements:\n1. Polaris lies in the constellation Ursa Minor.\n2. Vega is expected to become the pole star in about 12,000 years.\n3. A person walking east keeps the Pole Star on the right.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: walking east, north (the Pole Star) is on your left. Polaris (Ursa Minor) lies within 1° of the north celestial pole; Vega will be the pole star in ~12,000 years.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5f4ff66fbf2d",
+  "row": 0,
+  "s": "Assertion (A): Stars twinkle but planets do not.\nReason (R): Stars are very distant point sources whose light is refracted by atmospheric air of fluctuating density.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the changing refractive index of the air makes the light of a point source flicker; planets show small discs. In space, with no atmosphere, stars do not twinkle.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpbf7b5ddff973",
+  "row": 0,
+  "s": "Consider the following statements about the life cycle of stars:\n1. The protostar stage comes immediately after the nebula.\n2. A Sun-like star becomes a red giant after it exhausts its hydrogen.\n3. A Sun-like star finally ends as a neutron star.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: a low or medium-mass star such as the Sun goes red giant → planetary nebula → white dwarf; only massive stars go supergiant → supernova → neutron star or black hole.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc1f3e1d51c4c",
+  "row": 0,
+  "s": "With reference to S. Chandrasekhar, consider the following statements:\n1. He presented his paper on white dwarfs and collapse to the Royal Astronomical Society, London, in 1935.\n2. The Chandrasekhar limit is about 1.44 solar masses.\n3. Stars below the Chandrasekhar limit end as black holes.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: stars below the limit (~1.44 solar masses) end as white dwarfs; above it the core collapses into a neutron star or black hole. The paper was read on 11 January 1935 (Nobel 1983).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb3811d37db68",
+  "row": 0,
+  "s": "Consider the following statements about the Sun:\n1. It holds about 99.8% of the mass of the solar system.\n2. Its diameter is about 109 times that of the Earth.\n3. Its energy comes from nuclear fusion of hydrogen into helium in a core at about 15 million °C.\n4. Its centre is in the liquid state.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statement 4 is wrong: the Sun's interior is plasma – the centre is in the gaseous state only. It has 99.8% of the system's mass and 109 × the Earth's diameter, and fuses hydrogen into helium at ~15 million °C.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe90b9e88b461",
+  "row": 0,
+  "s": "Match List-I (Layer of the Sun) with List-II (Feature):\nList-I\na. Core\nb. Photosphere\nc. Chromosphere\nd. Corona\nList-II\ni. Reddish lower atmosphere (~4,300°C), seen at eclipses\nii. Outermost layer, over 1 million °C, visible during a total solar eclipse\niii. Hydrogen fuses into helium at about 15 million °C\niv. Bright visible surface at about 5,500–6,000°C",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "Core – fusion at ~15 million °C; photosphere – the bright visible surface (~5,500–6,000°C); chromosphere – reddish lower atmosphere (~4,300°C); corona – outermost, over 1 million °C, seen in a total solar eclipse.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5d17cb5a6b13",
+  "row": 0,
+  "s": "Consider the following statements:\n1. Sunspots are hotter and brighter than the surrounding photosphere.\n2. The interval between two sunspot maxima, about 11 years, is the solar cycle.\n3. Solar flares are produced by magnetic reconnection, and X-class flares are the strongest.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: sunspots are cooler, dark magnetic patches on the photosphere. The ~11-year interval between maxima is the solar cycle, and flares (classes A, B, C, M, X) come from magnetic reconnection.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpca7e4a8faf5f",
+  "row": 0,
+  "s": "Match List-I (Hypothesis) with List-II (Proponent):\nList-I\na. Planetesimal hypothesis\nb. Tidal hypothesis\nc. Nova hypothesis\nd. Interstellar dust hypothesis\nList-II\ni. Hoyle and Lyttleton\nii. Otto Schmidt\niii. Chamberlin and Moulton\niv. James Jeans and Harold Jeffreys",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "Planetesimal – Chamberlin and Moulton (1904); Tidal – Jeans and Jeffreys; Nova – Hoyle and Lyttleton; Interstellar dust (Earth from gases and dust) – Otto Schmidt (1943).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp863612bd0688",
+  "row": 0,
+  "s": "Consider the following statements:\n1. Georges Lemaitre proposed the Big Bang (expanding universe) idea in 1927.\n2. Edwin Hubble first proposed the Big Bang theory in 1929.\n3. The Steady State theory was put forward by Hoyle, Bondi and Gold in 1948.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: Lemaitre proposed the Big Bang (1927); Hubble only showed the expansion of the universe through the red-shift of galaxies (1929). The Steady State theory is Hoyle, Bondi and Gold (1948).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp296f3b065b78",
+  "row": 0,
+  "s": "Match List-I (Astronomer) with List-II (Discovery):\nList-I\na. William Herschel\nb. Johann Galle\nc. Clyde Tombaugh\nd. Galileo\nList-II\ni. Pluto, 1930\nii. Four large moons of Jupiter, 1610\niii. Uranus, 1781\niv. Neptune, 1846",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "Herschel discovered Uranus (1781); Galle first saw Neptune (1846); Tombaugh discovered Pluto (1930); Galileo saw Io, Europa, Ganymede and Callisto (1610).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9430d39d3970",
+  "row": 0,
+  "s": "Consider the following statements:\n1. Ceres is the largest body in the asteroid belt.\n2. The asteroid belt lies beyond Neptune, between 30 and 50 AU.\n3. The tail of a comet points away from the Sun.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the asteroid belt lies between Mars and Jupiter; the 30–50 AU icy ring beyond Neptune is the Kuiper Belt. Ceres (~1,000 km) is the largest asteroid-belt body, and comet tails (ice, dust and rock) point away from the Sun.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp06d7a4517bba",
+  "row": 0,
+  "s": "Consider the following statements about comets:\n1. Short-period comets come mainly from the Kuiper Belt.\n2. Long-period comets come from the Oort Cloud.\n3. Halley's Comet has a period of about 76 years and is next due in 2061.\n4. Hale-Bopp is a short-period comet.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: Hale-Bopp is a long-period comet (~2,534 years). The Kuiper Belt feeds short-period comets, the Oort Cloud long-period ones, and Halley's (~76 yr; last 1986) returns in 2061.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe1b716ceb5b9",
+  "row": 0,
+  "s": "Match List-I with List-II:\nList-I\na. Meteor\nb. Meteorite\nc. Bolide\nd. Leonids\nList-II\ni. Debris of Comet Tempel-Tuttle\nii. Explodes in the air\niii. Shooting star\niv. Reaches the ground",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 2,
+  "x": "A meteor is a shooting star; a meteorite reaches the ground; a bolide explodes in the air; the Leonids (radiant in Leo, peak ~17–18 November) are debris of Comet Tempel-Tuttle.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4d97b7f7e698",
+  "row": 0,
+  "s": "Consider the following statements about the reclassification of Pluto:\n1. It was decided at the IAU General Assembly in Prague in August 2006.\n2. Pluto fails the planet test because it has not cleared its orbit.\n3. The discovery of Ceres triggered the change.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: the trigger was the discovery of Eris. Under the August 2006 Prague definition a planet must orbit the Sun, be nearly round and clear its orbit – Pluto fails the last test.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpeb14661f55ee",
+  "row": 0,
+  "s": "Consider the following statements:\n1. The Earth lies in the Sun's habitable (Goldilocks) zone.\n2. The sinking of heavy iron to the Earth's centre is called degassing.\n3. Oxygen was added to the early atmosphere mainly by photosynthesis.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: the sinking of iron to the core is differentiation; degassing is the release of water vapour, N₂ and CO₂ from the interior. The Earth lies in the Goldilocks zone, and photosynthesis added oxygen.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp09f698e83a72",
+  "row": 0,
+  "s": "Consider the following statements about the evolution of the Earth:\n1. The first hydrogen-helium atmosphere was lost to the solar wind.\n2. Degassing released water vapour, nitrogen and carbon dioxide.\n3. The hydrosphere formed when degassed water vapour condensed and fell as rain.\n4. The magnetic field is generated by the solid inner core.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the magnetic field comes from the geodynamo of the churning liquid-iron outer core. The H-He atmosphere was stripped by the solar wind, degassing gave water vapour, N₂ and CO₂, and condensed vapour rained into oceans.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp44f8da6e1fc9",
+  "row": 0,
+  "s": "Consider the following statements:\n1. At aphelion the Earth is about 152 million km from the Sun.\n2. The Earth moves slowest at perihelion.\n3. Perihelion falls in the Northern Hemisphere's winter.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: the Earth moves fastest at perihelion (~3 January, ~147 million km) and slowest at aphelion (~4 July, ~152 million km). Perihelion falls in the NH winter, aphelion in its summer.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8af9216cdf72",
+  "row": 0,
+  "s": "Assertion (A): The Earth moves fastest in its orbit at perihelion.\nReason (R): By Kepler's second law, a line joining a planet and the Sun sweeps equal areas in equal times.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: to sweep equal areas when nearest the Sun, the Earth must move faster – fastest at perihelion, slowest at aphelion.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd0ac7affbd2c",
+  "row": 0,
+  "s": "Match List-I with List-II:\nList-I\na. Supermoon\nb. Micromoon\nc. Blue moon\nd. Blood moon\nList-II\ni. Second full moon in a calendar month\nii. Reddish Moon in a total lunar eclipse\niii. Full moon at perigee\niv. Full moon at apogee, 6–7% smaller",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "A supermoon is a full moon at perigee (bigger, brighter, higher tides); a micromoon a full moon at apogee, 6–7% smaller; a blue moon the second full moon in a calendar month; a blood moon the reddish Moon of a total lunar eclipse.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpaeeb7f45311e",
+  "row": 0,
+  "s": "Consider the following statements:\n1. In a lunar eclipse, the Earth's shadow falls on the Moon at full moon.\n2. A solar eclipse occurs at new moon (Amavasya), when the Moon is between the Sun and the Earth.\n3. The longest total solar eclipse of the 21st century occurred on 15 January 2010.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the longest total solar eclipse of the 21st century was on 22 July 2009; 15 January 2010 was the longest annular eclipse of the millennium. Lunar eclipses come at full moon, solar at new moon.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb04d73039edf",
+  "row": 0,
+  "s": "Match List-I (Mission) with List-II (Achievement):\nList-I\na. Chang'e 4\nb. Hayabusa2\nc. DART\nd. Phoenix Mars Lander\nList-II\ni. Kinetic impact on Dimorphos\nii. Landed near Mars's north pole and found ice\niii. First soft landing on the far side of the Moon\niv. Samples from asteroid Ryugu",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "Chang'e 4 made the first far-side lunar soft landing (3 Jan 2019); Hayabusa2 brought Ryugu samples (OSIRIS-REx, not Hayabusa2, sampled Bennu); DART struck Dimorphos; Phoenix landed near Mars's north pole in 2008 and found ice.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2e78393c21b8",
+  "row": 0,
+  "s": "Consider the following statements about Aditya-L1:\n1. It was launched by PSLV-C57 from SDSC-SHAR, Sriharikota, in 2023.\n2. It operates in a halo orbit around the Sun–Earth L1 point, about 1.5 million km from the Earth.\n3. Its VELC payload made the first X-ray spectroscopy of coronal mass ejections.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: VELC made the first visible-light spectroscopy of CMEs. Aditya-L1, India's first solar observatory, went up on PSLV-C57 (2023) from Sriharikota to a halo orbit at L1 (~1.5 million km).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5d47974ba199",
+  "row": 0,
+  "s": "Consider the following statements about Mangalyaan:\n1. It was launched on PSLV-C25 in November 2013.\n2. It entered Mars orbit on 24 September 2014.\n3. It made India the second Asian nation to reach Mars orbit.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: Mangalyaan made India the first Asian nation to reach Mars orbit. It was a Mars (not lunar) mission, launched on PSLV-C25 in November 2013, reaching orbit on 24 September 2014.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1c8f6236ba39",
+  "row": 0,
+  "s": "Assertion (A): Of the Lagrange points of the Sun–Earth system, L4 and L5 are stable.\nReason (R): A two-body system such as the Sun and the Earth has five Lagrange points.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: the number of Lagrange points (five) says nothing about why L4 and L5 are stable while L1–L3 are unstable.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpf83bf77d9908",
+  "row": 0,
+  "s": "Match List-I with List-II:\nList-I\na. 100th launch from SDSC-SHAR, Sriharikota\nb. Himalayan Chandra Telescope\nc. India's first satellite\nd. First soft landing on the Moon's far side\nList-II\ni. Aryabhata (1975)\nii. Chang'e 4, 3 January 2019\niii. 29 January 2025\niv. Hanle",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "SDSC-SHAR's 100th launch was on 29 January 2025; the Himalayan Chandra Telescope (25 years in 2026) is at Hanle; India's first satellite was Aryabhata (1975), named after the astronomer; China's Chang'e 4 made the first far-side landing on 3 January 2019.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
   "id": "cp5b87189bb931",
   "row": 1,
   "s": "Consider the following statements:\n1. The Equator passes through Rwanda.\n2. The Tropic of Cancer passes through Niger.\n3. The Tropic of Capricorn passes through Australia.\nWhich of the statements given above is/are correct?",
