@@ -91,3 +91,37 @@
   [9:0.6] Breakdowns of machinery (rare events) | Poisson distribution
   [9:0.7] Current value = last value + random error | Random walk
 [9:1] ~~ Sources: NCERT Class XI Statistics for Economics ch.5; NCERT Class XII Mathematics ch.13; Gujarati, Basic Econometrics (BLUE, t and F tests)
+## SUB 10 | Statistics – Averages, Dispersion, Probability and Distributions
+[10:0] # Central tendency
+[10:1] - **Mean, median and mode** = **measures of central tendency** (averages).
+[10:2] - **Mode** = most frequent value – **located by inspection** and easily understood by common people.
+[10:3] - **Median** = the value that **divides an ordered series into two equal parts**.
+[10:4] - **Empirical relation (moderately skewed data, Karl Pearson):** **Mode = 3 Median − 2 Mean** ⇔ **Mean − Mode = 3 (Mean − Median)** ⇔ **Mode − Mean = 3 (Median − Mean)**.
+[10:5] - For positive values (not all equal): **AM > GM > HM** (equal only when all values are equal).
+[10:6] # Dispersion
+[10:7] - **Standard deviation** = positive **square root of the variance**; for homogeneous data (all values equal) **SD = 0**.
+[10:8] - **Histogram** = adjacent bars showing frequencies of values within **consecutive, fixed class intervals**.
+[10:9] # Probability and distributions
+[10:10] - **Independent events:** P(both miss) = (1 − 0.6) × (1 − 0.8) = **0.08**; an **impossible event** (six girls from a class with only five) has probability **zero**.
+[10:11] - If the population is **normal**, the sampling distribution drawn from it is also **normal**.
+[10:12] - **Chi-square distribution:** **asymmetric – positively (right) skewed**, nearly symmetric only for large degrees of freedom; used for **goodness-of-fit** tests (does a population follow a given theoretical distribution?).
+[10:13] ~~ Sources: NCERT Class XI Statistics for Economics ch.4-6 (presentation, central tendency, dispersion); NCERT Class XII Mathematics ch.13 (probability); S.C. Gupta, Fundamentals of Statistics (empirical relation, chi-square)
+## SUB 11 | Statistics – Sampling, Hypothesis Testing, Correlation and Regression
+[11:0] # Sampling
+[11:1] TABLE head: Term | Meaning
+  [11:1.0] Population / universe | The whole group from which sample units are drawn
+  [11:1.1] Simple random sampling | Every unit has an equal chance of selection; suits a homogeneous population
+  [11:1.2] Stratified sampling | A heterogeneous population is divided into homogeneous strata (classes) and a sample is drawn from each
+  [11:1.3] Sampling distribution | Distribution of a sample statistic over all possible samples
+[11:2] # Hypothesis testing
+[11:3] - **Hypothesis** = an assumption or proposition whose validity is to be tested.
+[11:4] - **Type I error** = rejecting a true hypothesis; **Type II error** = **accepting a false hypothesis**.
+[11:5] # Correlation and regression
+[11:6] - **Correlation coefficient (Karl Pearson's r)** lies between **−1 and +1**.
+[11:7] - **Multiple regression** has one intercept and **more than one partial regression coefficient**.
+[11:8] TABLE head: Term | Meaning
+  [11:8.0] Multicollinearity | Significant correlation between the independent variables
+  [11:8.1] Autocorrelation | Correlation of errors over time – detected by the Durbin-Watson (DW) statistic
+  [11:8.2] Adjusted R² | R² adjusted for degrees of freedom
+  [11:8.3] ARIMA | Auto Regressive Integrated Moving Average – time-series forecasting model
+[11:9] ~~ Sources: NCERT Class XI Statistics for Economics ch.2 (sampling), ch.7 (correlation); D.N. Gujarati, Basic Econometrics (multiple regression, multicollinearity, Durbin-Watson, adjusted R², ARIMA)
