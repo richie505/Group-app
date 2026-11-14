@@ -1197,3 +1197,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b3-w074 (rows 74–78)
 - own 419 → 59 kept + 103 new (162, 39%); new 64 statements / 22 match / 15 A–R / 2 sequence; 3 of 289 lines lost (facts still in match items).
 - Source conflicts: 1991 devaluation ~18% (76:2:0.2) vs Ramesh Singh 22%; Smithsonian band ±2.25% (76:5:3.1, correct) vs NextGen 2.5%; NextGen Dunkel Draft "20 Oct 1991" misprint (77:1:14; Dec 1991) — used only as false-statement trap.
+
+## rewrite b4-w050 (rows 50–54)
+- own 430 → 56 kept + 100 new (156, 36%); new 62 statements / 20 match / 17 A–R / 1 sequence; no lines lost.
+- Notes 53:5:3: AP forest cover "30,084.96 sq km = 23.59%" — helper says forest cover % is ~18.5% and 23.59% includes scrub/tree cover; verify against ISFR 2023 and fix. Own ne20ffc985f2 (repeats it) removed.
+- Own g4371e131760c had no valid key (a = −1) — removed.
