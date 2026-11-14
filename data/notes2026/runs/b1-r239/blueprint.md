@@ -8,7 +8,7 @@ Data: 77 PYQs (keys.jsonl), 98 app MCQs, 175 in all (all-mcqs.json). Counts from
 |---|---|
 | PYQs | 77 (filed: row 239 – 16, row 240 – 61) |
 | After mapping | row 239 – 16, row 240 – 56; moved out – 5 |
-| Keys from the notes / generated | 59 / 18 (14 not in notes, 3 ambiguous, 1 contradiction) |
+| Keys from the notes / generated | 60 / 17 (13 not in notes, 3 ambiguous, 1 contradiction) |
 | Keys changed | 1 (Bhil Seva Mandal: -1 → Amritlal Vithaldas Thakkar) |
 | Disputed | 3 (Gandhi-Irwin "not a provision" – (c) also strictly not; Cripps "all four" statements – 2 clashes with 3; APPSC AEE Individual Satyagraha statements – official "only b") |
 | Outdated / -1 | 0 / 0 |
@@ -18,11 +18,11 @@ Data: 77 PYQs (keys.jsonl), 98 app MCQs, 175 in all (all-mcqs.json). Counts from
 ### Exams
 | Exam family | PYQs |
 |---|---|
-| UPSC CSE / IAS / NDA / CDS | 22 |
-| UPPSC / UPPCS / UP RO-ARO / UP Lower / Uttarakhand | 21 |
+| UPSC CSE / IAS / NDA / CDS | 21 |
+| UPPSC / UPPCS / UP RO-ARO / UP Lower / Uttarakhand | 22 |
 | APPSC + AP Police / SI / High Court | 16 |
-| SSC | 7 |
-| Other PSCs (RAS, BPSC, HPSC, WBCS, "State PSC") and undated | 11 |
+| SSC | 6 |
+| Other PSCs (RAS, BPSC, HPSC, WBCS, "State PSC") and undated | 12 |
 
 - **Years:** 1990s 9, 2000s 20, 2010s 26, 2020s 8; 14 undated. Newest: UP RO/ARO 2025 (chronology), APPSC 2025 (WWII period), UPPCS 2024 (resignations → Ramgarh → August Offer → Cripps), APPSC 2023 (CDM withdrawn April 1934).
 - **UPSC repeats:** Cripps negotiators (2010 ×3), second individual satyagrahi (2009 ×2), PM who sent Cripps (2009 ×2), Cripps "Dominion status" (2003 ×2, 2016 ×2), Karachi drafter (2005, 2010 ×2).
