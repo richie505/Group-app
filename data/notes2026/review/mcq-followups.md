@@ -21,3 +21,12 @@
 - yba6d83ad8a1 (PYQ): relink to Zone III row + Disputed chip.
 - y6b2a4dee7c6 (PYQ): coastline — outdated line (old answer 2nd, 974 km) — already keyed 3rd with "(official key: 2nd)"; add outdated line.
 - yf3537c98634 (PYQ): Apache "Chinese" — Disputed (Taiwanese per some; China/Singapore-based per others).
+# book 1 (from notes review)
+- cp30c29bba1698: statement 3 (Kasikhandam at Kataya Vema's request) now false; correct "1 only" not among options — rebuild options.
+- f0ed70bf56c4a: explanation repeats the Kataya Vema claim — fix x (dedicated to Veerabhadra Reddi).
+- nce17deda7ea: "Chilukuri founded Andhra Kesari" — unsupported; reword or remove.
+- n7527977b744: explanation conflicts with G2 2025 key on who led at Vadarevu — check.
+- y3823d23ed6b (PYQ): explanation "30 lakh died" — say estimates 15–30 lakh.
+- n862d695454d: Nur Jahan as "Makhfi" weakly attested — reword (Zeb-un-Nissa is the standard Makhfi).
+- nap-history-17-17: A–R key (b) probably (a) — check.
+- Notes: row 157 "January 1611" Globe at Machilipatnam — the Globe reached Masulipatnam in Aug 1611; check.
