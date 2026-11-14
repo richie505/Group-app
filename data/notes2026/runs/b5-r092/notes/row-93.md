@@ -54,7 +54,7 @@
 | 3D-printed reef modules | Artificial reef | Off **Ramanathapuram** (TN), PMMSY |
 - **Biorock** = **restoration of damaged coral reefs** (UPSC 2022); invented **1976** by **Wolf Hilbertz**.
 - **NGT (Feb 2026):** MoEFCC to ensure coral protection and regeneration by a **proven scientific method** for Great Nicobar.
-~~ Sources: app's notes 5:93 sub 5; general knowledge, not checked (Biorock inventor)
+~~ Sources: app's notes 5:93 sub 5; Rocket Current Affairs 2026 Part 01 p.155 (TN 3D-printed artificial reef off Rameswaram, PMMSY); general knowledge, not checked (Biorock inventor)
 
 === Related Stressors – Heatwaves and Dead Zones
 | Stressor | Meaning / effect |

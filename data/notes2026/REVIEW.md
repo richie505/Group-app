@@ -542,3 +542,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Disputes kept: gharial/leatherback/swamp deer "all three" ×3 (strictly gharial CR only); crocodile & elephant "both"; IUCN "50 years".
 - Outdated ×3 UPSC 2012 endangered group (GIB now CR, wild ass NT).
 - Unverified: y9368f3ebe0a UPPSC 2020 "population growth"; y356bfe0dfe8 sparrow/cell towers; y888bbe44168 Cremanthodium institutions.
+
+## b5-r087 (rows 87-88 protected areas)
+- Disputes: ya8fb6a1a17b community reserve official UPSC "Only two" (PMF three); y557e5562147 Alipore Zoo Buchanan; y652aba2cf64 NSTR "Five" districts (now 3 in AP, outdated).
+- Outdated: y4ee998b7f381 BRs outside MAB (Cold Desert joined 2025); own MCQ g981e253220aa Ramsar add_option 103.
+- Unverified: y89d59efcfee SV NP statements; 106 ICMBAs, Seychelles tortoises, Atapaka largest pelicanry, Banthara gene bank.

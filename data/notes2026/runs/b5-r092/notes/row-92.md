@@ -161,7 +161,7 @@
 - **Tropospheric ozone**: a **secondary pollutant** (NOx + VOCs in sunlight); **cuts crop yields**, worst in summer.
 - Aerosols: **black and brown carbon warm; sulphate droplets cool**.
 - **Global Methane Pledge**: COP26 Glasgow (2021); cut methane **30% from 2020 levels by 2030**; **India has not signed**. UNSG **Call to Action on Methane**: **London Climate Action Week**, 24 Jun 2026.
-~~ Sources: NextGen Environment APPSC Part 8.1 p.10; app's notes 5:92 sub 6 (CCAC, Methane Pledge); general knowledge, not checked (CCAC founders)
+~~ Sources: NextGen Environment APPSC Part 8.1 p.10; Rocket Current Affairs 2026 Part 01 p.21, p.23 (Global Methane Status Report, CCAC/UNEP, 30% by 2030); app's notes 5:92 sub 6 (CCAC, Methane Pledge); general knowledge, not checked (CCAC founders)
 
 === Emissions – Sectors and Top Emitters
 | Sector (global GHG, 2016) | Share |

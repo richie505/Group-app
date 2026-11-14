@@ -30,7 +30,7 @@
 - **Nyay Vatika (July 2025):** green space at the President's Bodyguard ground, Delhi, planted by the CJI and SC judges under the **Ek Ped Maa Ke Naam** campaign.
 - **State schemes:** **Apna Van Apna Dhan – Himachal Pradesh**; Haritha Haram – **Telangana**; Mukhyamantri Vriksharopan Protsahan Yojana – **Chhattisgarh**; AP – Great Green Wall, Nagar Van.
 - **AP State Forest Development Agency:** federates **22 FDAs**.
-~~ Sources: Shankar Environment Part 11 p.12; PMF Environment 06 p.88-89; Rocket Environment p.4; AP Socio-Economic Survey 2024-25 p.79; https://www.business-standard.com/article/economy-policy/67-projects-get-clearance-under-nagar-van-yojana-till-december-15-122121600805_1.html (web search: AP 13 projects, Lok Sabha annexure); https://lawchakra.in/legal-updates/cji-b-r-gavai-supreme-court-judges-van (web search); app notes 5:91 sub 3
+~~ Sources: Shankar Environment Part 11 p.12; PMF Environment 06 p.88-89; Rocket Environment p.4; AP Socio-Economic Survey 2024-25 p.79; https://eparlib.sansad.in/bitstream/123456789/2988196/1/AU936_50zNvG.pdf (Lok Sabha reply, AP 13 projects; seen via web search, page not opened); https://lawchakra.in/legal-updates/cji-b-r-gavai-supreme-court-judges-van (web search); app notes 5:91 sub 3
 
 === Joint Forest Management and People's Forest Movements
 - **JFM:** origin **Arabari, West Bengal (1971-72)**; introduced by **NFP 1988**; **MoEF guidelines 1 June 1990** – JFM started in **1990**.
