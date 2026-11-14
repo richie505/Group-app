@@ -945,3 +945,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b2-w009 rewrite (polity rows 9-13): own 393 → 134 (34%), 0 lost.
 - b1-w036 rewrite (rows 36-42): own 429 → 158 (37%). Notes conflict: Erragudi district Kurnool vs 'now Nandyal' (36:4:5 vs 40:4:1.0); 42:1:6 Menander I vs Agathocles.
 - b5-w016 rewrite (S&T rows 16-21): own 382 → 153 (40%), 0 lost. Check PYQ y5ed6fb9d522 tower radiation keyed 9.2 W/m² (India limit 0.92).
+- b6-w017 rewrite (rows 17-19): own 398 → 175 (44%).
