@@ -887,3 +887,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b5-p003: 141 adds; new subs row 12 (MS Office/Tally, data/info, DBMS) and row 14 (mass communication) — general knowledge only. Doubtful: yb3c3839f5b5 106th Science Congress (LPU 2019); y2829794b2e2 most reactors TN vs Rajasthan; y7ea65bb63d6 AstroSat/NavIC; yc43b3a37736 spationaut; y24fe8e3d333 BSNL (now Jio); yc89b58e2a5b no correct option; y3e7882b92c0 unkeyed.
 - b6-p005: 13 adds. y2db1275c15d NCRB NE match unverified.
 - b4-p083: 34 adds; row 83 new sub 'Veterinary practice'. Fixed row 83 pineapple table (WB largest producer, Assam largest area).
+- b6-s01 (73 weak CA keys): 73 confirmed, 0 corrected. Explanation fixes: Triples (3-a-side), UGC (Deepti Gaur Mukherjee addl charge 12 Aug 2026), FBI now Kash Patel. y10b17aae2e5 McCabe depends on exam date (Jun 2017).
