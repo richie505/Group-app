@@ -110,5 +110,5 @@
 - Rivers: Godavari, Krishna, Pennar; north – **Vamsadhara and Nagavali**.
 - Coastline **1,053.07 km** (revised; **third** after Gujarat and Tamil Nadu; old figure 974 km, second); continental shelf ~**33,227 sq km**.
 - Fishing harbours: new at **Juvvaladinne (Nellore)** and Uppada; salt hub **Naupada (Srikakulam)**; **Gujarat** leads India's salt.
-- Forest cover **30,084.96 sq km = 23.59%**; **red sanders** endemic to **Seshachalam–Palakonda–Lankamalla** hills; **GCC** HQ **Visakhapatnam**.
+- Forest cover **30,084.96 sq km = 18.46%** of the State (ISFR 2023); ⚠ Trap: **23.59%** (38,436.58 sq km) = forest cover **+ 8,351.62 sq km scrub**, the "forest area" figure in the AP Socio-Economic Survey 2024-25; **red sanders** endemic to **Seshachalam–Palakonda–Lankamalla** hills; **GCC** HQ **Visakhapatnam**.
 ~~ Sources: app notes 4:53 (sub 8); RUNBOOK settled facts (coastline, PIB 2198800)
