@@ -1,0 +1,97 @@
+=== Cripps Mission, 1942 – Context and Proposals
+- **Arrived March 1942** (Delhi, 22-23 March); Cripps returned **mid-April 1942** after talks broke down.
+- Sent by British PM **Winston Churchill** (Conservative; PM 1940-45) – not MacDonald, Baldwin or Chamberlain.
+- **Sir Stafford Cripps** = left-wing **Labour** leader, Leader of the House of Commons, member of Churchill's **War Cabinet**; later also in the **Cabinet Mission (1946)**.
+- **Why sent:** Japanese advance (Pearl Harbor Dec 1941; **Rangoon fell March 1942**); pressure from the Allies (**Roosevelt, Chiang Kai-shek**); Congress offer to help if power was transferred.
+| Proposal (Draft Declaration) | Detail |
+|---|---|
+| Status | **Indian Union with Dominion status** soon **after the war**, free to leave the Commonwealth – **not complete independence**, not a republic, not immediate partition |
+| Constitution | **Constitution-making body after the war**, **elected by provincial lower houses** (proportional representation, electoral college **1/10th** of their size) + **nominees of the princes** – the first concrete plan for an **elected constituent assembly** |
+| Provincial option | Any province (or state) unwilling could **stay outside** and form a separate Union – **"fatal flaw"**, Pakistan conceded in principle |
+| Minorities | Treaty between the constitution-making body and Britain to protect minorities |
+| Interim | **Defence stays with Britain**; Governor-General's powers intact; no equal-representation executive council (that was the **Wavell Plan**) |
+- **Constitution-making body: yes; full independence: no** (UPSC 2009). All provinces and states were NOT bound to join.
+- Cripps on the urgency: **"Here is a revolution taking place and we should move quickly."**
+> Cripps = March 1942, Churchill, Dominion status after the war, elected constituent body, provincial opt-out, defence with Britain.
+~~ Sources: Spectrum Modern India p.474-475 (book p.442-443); PMF Modern History Part 5 p.51-54; NextGen Indian History - APPSC Exams Part 6 p.61; Rocket Indian History Part 2 p.102; old app notes row 240
+
+=== Rejection of Cripps – Negotiators, Remarks and the Road to Quit India
+- **Official Congress negotiators: Jawaharlal Nehru and Maulana Abul Kalam Azad**; Azad = **Congress President 1940-46**, negotiated with both **Cripps** and **Wavell**.
+- **Congress objected to:** Dominion status instead of independence; princely nominees; **provincial secession** (Balkanisation); **no immediate transfer of effective power**, no real share in defence – the main reason.
+- **Muslim League** rejected it: opposed a **single Indian Union**; Pakistan not explicitly conceded.
+- Cripps' **"take it or leave it"** attitude and Churchill/Linlithgow's obstruction added to the failure; the mission (Cripps and British staff) had **no Indian member**, but that was **not** why Congress rejected it.
+- **Gandhi** called the offer **"a post-dated cheque"**; "**on a crashing / failing / tottering bank**" was added in popular quotation (often credited to Nehru).
+- **Failure of Cripps → Quit India Movement (August 1942)**; Gandhi used "Quit India" in **Harijan** (April 1942). AP angle: rumours of Japanese bombing of **Vizag and Kakinada** during the mission.
+> Negotiators = Nehru + Azad; post-dated cheque = Gandhi; failure → Quit India.
+~~ Sources: Spectrum Modern India p.475-476 (book p.443-444); PMF Modern History Part 5 p.53; NextGen AP History Part 19 p.6; Rocket Indian History Part 2 p.102; old app notes row 240
+
+=== Chronology, 1939-1946
+| Event | Date |
+|---|---|
+| WWII; India declared a belligerent by **Linlithgow** | Sept 1939 |
+| **Congress ministries resign** | Oct-Nov 1939 |
+| **Day of Deliverance** (Muslim League) | 22 Dec 1939 |
+| **Ramgarh session** (53rd, Azad) | March 1940 |
+| **Lahore (Pakistan) Resolution** | 23 March 1940 |
+| **August Offer** | 8 Aug 1940 |
+| **Individual Satyagraha** | 17 Oct 1940 |
+| **Cripps Mission arrives** | March 1942 |
+| **Quit India resolution** | 8 Aug 1942 |
+| Lord Wavell becomes Viceroy | Oct 1943 |
+| **Desai-Liaquat Pact** (Bhulabhai Desai – Liaquat Ali Khan) | Jan 1945 |
+| **Wavell Plan / Simla Conference** | June 1945 |
+| **INA trials** (Red Fort) | Nov 1945 |
+| **RIN ratings' revolt** | Feb 1946 |
+| **Cabinet Mission** | March 1946 |
+- Earlier anchors: **Simon Commission 1927-28 → Nehru Report 1928 → Poona Pact 1932 → August Offer 1940**.
+- Asked orders: Resignations → Ramgarh → August Offer → Cripps (UPPCS 2024); August Offer → Individual Satyagraha → Cripps → Quit India; August Offer → Quit India → INA trial → RIN revolt; Cripps → Quit India → Wavell Plan → Cabinet Mission; August Offer → Cripps → Shimla Conference → Cabinet Mission.
+~~ Sources: PMF Modern History Part 5 p.17, p.46-53; Spectrum Modern India p.469-476; NextGen Indian History - APPSC Exams Part 6 p.7, p.61-62; old app notes row 240
+
+=== Second World War and India – Background Facts
+- **WWII = 1939-1945** (Germany invaded Poland 1 Sept 1939; Britain declared war 3 Sept).
+- **Congress ministries resigned (Oct-Nov 1939)** because Viceroy **Linlithgow made India a party to the war without consulting Indians**.
+- **Muslim League** observed **22 December 1939** as the **"Day of Deliverance"** (Ambedkar joined in Bombay).
+- **Congress policy:** **cooperation if complete independence / a national government was assured** – not unconditional help, not neutrality. **Ramgarh session** (**53rd**, **March 1940**, Bihar – now Jharkhand; President **Azad**) – came **before** the August Offer, which answered the Congress offer of war help for a **provisional national government** at the Centre.
+- **Pakistan (Lahore) Resolution** of the Muslim League: **23 March 1940**.
+| World-war fact | Answer |
+|---|---|
+| Humiliating treaty behind WWII | **Treaty of Versailles** (1919) |
+| Axis powers | **Germany, Italy, Japan** – China fought with the Allies |
+| Fascism / Nazism | **Mussolini** (Italy) / **Hitler** (Germany); socialism – **Lenin**; democracy – **Woodrow Wilson** |
+| War-crimes trials | **Nuremberg** (1945-46) |
+| First atom bomb | **Hiroshima, 6 August 1945** (Nagasaki 9 August) |
+- **British Prime Ministers** of the period:
+| British PM | Answer |
+|---|---|
+| Ramsay MacDonald | Communal Award 1932 (PM 1929-35) |
+| Neville Chamberlain | Sept 1939 – May 1940 |
+| **Winston Churchill** | **May 1940 – 1945**: WWII PM, sent **Cripps**, PM during **Quit India** |
+| Clement Attlee | 1945-51: Cabinet Mission, independence |
+| **Spencer Perceval** | Only British PM **assassinated** – shot in the **lobby of the House of Commons, 1812** |
+~~ Sources: PMF Modern History Part 5 p.17, p.46-50; Spectrum Modern India p.469-471 (book p.437-439); NextGen Indian History - APPSC Exams Part 6 p.7; general knowledge (world-war table, British PMs)
+
+=== Individual Satyagraha, 1940-41
+- Launched by **Gandhi on 17 October 1940** after the **August Offer was rejected**; started by **Vinoba Bhave** at **Paunar (Pavnar), Wardha**.
+- **Aim:** assert **freedom of speech against the war** (anti-war declaration; "wrong to help the British war effort with **men or money**"), show nationalist patience was not weakness – **not mass mobilisation**, so as not to embarrass Britain.
+- **First satyagrahi: Vinoba Bhave**; **second: Jawaharlal Nehru**; third: **Brahma Dutt** – not Rajaji, Patel, Sarojini Naidu or Bose. Also called **Individual Civil Disobedience**; "Delhi Chalo" march planned if not arrested.
+- **25,000** convicted by May 1941; suspended by the CWC in December 1941.
+- Government arrested **Vinoba, Nehru and Patel**; **Ongole Municipality** condemned the arrests (AP angle). Bihar: **Shyam Narayan Singh**.
+- APPSC AEE key: **only statement "Vinoba was the first" is correct** – the satyagraha's declared aim was free anti-war speech, not opposing the August Declaration.
+- **Mangal Bharat** – credited to **Vinoba Bhave** in the APPSC SI 2019 key (not verified).
+> 17 Oct 1940; Vinoba → Nehru → Brahma Dutt; free speech against the war.
+~~ Sources: PMF Modern History Part 5 p.49-50; Spectrum Modern India p.472-473 (book p.440-441); NextGen Indian History - APPSC Exams Part 6 p.75; old app notes row 240
+
+=== August Offer, 1940
+- Made by Viceroy **Lord Linlithgow** on **8 August 1940** (at Simla), in reply to Ramgarh / the Congress offer, when Britain was losing in Europe.
+| Proposal | Detail |
+|---|---|
+| Goal | **Dominion status** |
+| Constitution | **Representative constitution-making body after the war** – "mainly" Indians to frame it |
+| Executive | Expanded Viceroy's Executive Council with more Indians; **War Advisory Council** |
+| Minorities | **No constitution without minorities' consent** (League's veto) |
+| Not included | Immediate transfer of **defence** / a national government |
+- **Significance:** **first time** the British conceded that **framing the constitution was primarily the Indians' responsibility** (NDA 2020) – the Cripps plan (1942) made it "solely" Indian and gave the concrete elected body.
+- **Responses:** Congress **rejected** it – **Nehru: Dominion status "dead as a doornail"**; the League welcomed the veto but wanted partition.
+- Constituent Assembly demand first raised by **M.N. Roy (1934)**; Congress adopted it in 1935.
+> August Offer = Linlithgow, 8 Aug 1940, first acceptance of an Indian-framed constitution.
+~~ Sources: Spectrum Modern India p.471-472 (book p.439-440); PMF Modern History Part 5 p.48-49; NextGen Indian History - APPSC Exams Part 6 p.60; old app notes row 240

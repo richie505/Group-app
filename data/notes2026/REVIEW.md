@@ -1406,3 +1406,10 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w086 (rows 86–89)
 - own 401 → 89 kept + 80 new (169, 42%); new 53 statements / 18 match / 9 A–R; 1 of 234 lines lost (covered by kept sequence MCQ). No wrong keys.
 - Removed as not in notes: f0935731bced4 (Climate Risk Index 2026), fe2be2fda505f (WIPO IP filings).
+
+## rewrite b1-w225 (rows 225–232)
+- own 432 → 50 kept + 100 new (150, 35%); new 59 statements / 24 match / 14 A–R / 3 sequence; 2 of 271 lines lost. No new wrong keys (notes' own doubtful items avoided: Khaliquzzaman as Lahore Resolution mover key, N.G. Ranga/Champaran, "first step fasting", NextGen Champaran 1918).
+
+## rewrite b2-w088 (rows 88–94)
+- own 424 → 57 kept + 111 new (168, 40%); new 73 statements / 24 match / 14 A–R; no lines lost. Answers lean to (c) 38/111.
+- Removed as not in notes: g2b53bc4178e3, gfe2f46c986bd.
