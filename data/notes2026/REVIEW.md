@@ -795,3 +795,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r078 (CA rows 78-79 environment Dec 2025–May 2026)
 - No key changes. Notes fixed: RDF co-processing 5%→15%; CRI 2026 label; NDC 24 Apr 2026; Cheetah 59 (12 Oct 2026).
 - Own MCQs n666e8434681, f08b345725b25 stems say "CRI 2025" — should be CRI 2026.
+
+## b6-r084 (CA rows 84-85 reports and indices 2026)
+- No key changes. Outdated yad7b20d357a refineries 23 (now 24).
+- IP Index 2026: USA 1st (US Chamber) vs France (Rocket). Henley July 2026 India 81st (Rocket 84th undated).
+- Unverified: y2db1275c15d NCRB NE match; y8ef49cc5e15 Maharashtra floods 21 deaths.
