@@ -1208,3 +1208,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - PYQ y6f79360150c ("fort at Machilipatnam 1611" → British): English opened a factory there in 1611; the Dutch had the fort (1605) — official key + Disputed chip check.
 - "Knew it" options in yb618fec59cf, y63deae1f71a, y4840f8144bc are flashcard PYQs — fine.
 - Golden Farman 1632 vs 1636 (already logged under b1-w116).
+
+## rewrite b6-w065 (rows 65–67)
+- own 376 → 24 kept + 108 new (132, 35%); new 76 statements / 21 match / 9 A–R / 2 sequence; 1 of 311 lines lost.
+- Kept cadf3f4b0cc725 (Venezuela, 4:5) mislinked to 67:6:17 — link cleanup.
+- Spelling: Nepal President "Paudel" (row 65) vs "Poudel" (row 67) — harmonise. UPI countries 9 (row 65) vs 8 (row 67, pre-June 2026) — update row 67.

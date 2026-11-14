@@ -19,12 +19,12 @@
   "row": 55,
   "s": "Match List-I (Book / report) with List-II (Year of publication):\nList-I | List-II\na. An Essay on the Principle of Population | i. 1990\nb. The Population Bomb | ii. 1972\nc. The Limits to Growth | iii. 1968\nd. The Population Explosion | iv. 1798\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iii, c-ii, d-iv",
    "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Malthus's Essay – 1798; Paul R. Ehrlich's The Population Bomb – 1968; The Limits to Growth (World3 model, Donella Meadows and others for the Club of Rome) – 1972; Paul and Anne Ehrlich's The Population Explosion – 1990.",
   "src": "app",
   "tq": "match"
@@ -36,10 +36,10 @@
   "o": [
    "1 and 2 only",
    "2 and 3 only",
-   "3 only",
-   "1 and 3 only"
+   "1 and 3 only",
+   "3 only"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: the optimum population theory is associated with Edwin Cannan; Karl Marx gave the anti-Malthusian view that hunger and 'surplus population' come from exploitation under capitalism.",
   "src": "app",
   "tq": "statements"
@@ -64,12 +64,12 @@
   "row": 55,
   "s": "Consider the following statements about the distribution of world population:\n1. About 90% of the world's people live on about 10% of its land.\n2. Most of the world's people live in the Southern Hemisphere.\n3. East Asia and South Asia are the two great population clusters, and the Ganges–Brahmaputra delta is among the densest areas on Earth.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
+   "1, 2 and 3",
    "1 only",
    "2 and 3 only",
-   "1, 2 and 3"
+   "1 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: most people live in the Northern Hemisphere mid-latitudes and the tropics of Asia.",
   "src": "app",
   "tq": "statements"
@@ -176,6 +176,201 @@
   ],
   "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the State of World Population report is published by the UNFPA.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe719c2d0fd88",
+  "row": 56,
+  "s": "Consider the following statements about population growth terms:\n1. Actual growth of population equals natural increase plus net migration.\n2. A population shows positive growth when births exceed deaths or there is permanent net in-migration.\n3. Over-urbanisation is a situation in which urban jobs and services grow faster than the urban population.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: over-urbanisation is urban growth faster than urban jobs and services (it produces slums), not the other way round.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp091881bef31f",
+  "row": 56,
+  "s": "Consider the following pairs of crude birth rate (CBR) and crude death rate (CDR), both per 1,000, with the annual rate of natural increase:\nCBR, CDR : Rate of natural increase\n1. 30, 10 : 2.0%\n2. 25, 7 : 1.8%\n3. 44, 11 : 33%\nHow many of the above pairs are correctly matched?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "RNI (%) = (CBR − CDR) / 10. 30 − 10 = 20 per 1,000 = 2.0% and 25 − 7 = 18 = 1.8% are correct. Pair 3 is wrong: 44 − 11 = 33 per 1,000 = 3.3%, not 33%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp365ef30da2e8",
+  "row": 56,
+  "s": "Consider the following statements about the growth of world population:\n1. World population 'exploded' after the Industrial Revolution because birth rates rose sharply.\n2. The first billion took over a million years to reach.\n3. World population rose from 5 billion to 6 billion in only 12 years.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "2 and 3 are correct (5 billion in 1987 to 6 billion in 1999). 1 is wrong: the explosion after the Industrial Revolution came because death rates fell, not because birth rates rose.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd49fbe85fb5f",
+  "row": 56,
+  "s": "Match List-I (Year) with List-II (World population as per UN World Population Prospects 2022):\nList-I | List-II\na. 2025 | i. 9.7 billion\nb. 2030 | ii. 8.5 billion\nc. 2050 | iii. 10.4 billion\nd. 2100 | iv. 8.2 billion\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "UN WPP 2022: 2025 – 8.2 billion; 2030 – 8.5 billion; 2050 – 9.7 billion; 2100 – 10.4 billion.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa9d3cdd9f610",
+  "row": 56,
+  "s": "Match List-I (Stage of demographic transition) with List-II (Example):\nList-I | List-II\na. Early expanding | i. Andhra Pradesh\nb. Late expanding | ii. Japan, Germany\nc. Low stationary | iii. Niger, sub-Saharan Africa\nd. Declining | iv. Brazil\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "Stage 2 early expanding – Niger / sub-Saharan Africa; stage 3 late expanding – Brazil; stage 4 low stationary – Andhra Pradesh; stage 5 declining (birth rate below death rate) – Japan, Germany.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5e4005bbb640",
+  "row": 56,
+  "s": "Consider the following statements about India and the demographic transition model:\n1. India before 1921 was in the high stationary stage (stage 1).\n2. India during 1951–81 was in the late expanding stage (stage 3).\n3. India as a whole is now in stage 3 of the transition.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: India in 1951–81 (high birth rate, falling death rate, rapid growth) was in stage 2, the early expanding stage.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4f2271dff4f3",
+  "row": 56,
+  "s": "Consider the following statements:\nAssertion (A): In the fifth (declining) stage of the demographic transition, population falls.\nReason (R): In this stage the birth rate falls below the death rate.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: when births are fewer than deaths the population declines, as in Japan and Germany.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp800a2e9adf2b",
+  "row": 56,
+  "s": "Consider the following statements:\n1. The replacement-level total fertility rate (TFR) is 2.1, while the world average is 2.2.\n2. South Korea recorded the world's lowest TFR, 0.72, in 2023.\n3. Niger has the world's highest TFR, about 6.6.\n4. Monaco has the youngest median age in the world.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All four",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "1, 2 and 3 are correct. 4 is wrong: Monaco has the oldest median age; Niger has the youngest.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpaf98fc6828ca",
+  "row": 56,
+  "s": "Consider the following statements about ageing in India:\n1. As per SRS 2024, Assam has the highest share of elderly population and Kerala the lowest.\n2. India's 60+ population is projected to reach 325.3 million (20.5%) by 2051.\n3. India's median age is projected to be 40 years by 2051.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: it is the reverse – Kerala has the highest elderly share (India 9.7%) and Assam the lowest (SRS 2024).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4615c86ed9e7",
+  "row": 56,
+  "s": "Consider the following statements:\nAssertion (A): A lower dependency ratio indicates a potential demographic dividend.\nReason (R): The dependency ratio is the working-age population (15–64) divided by the population aged 0–14 and 65+.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: it is inverted – the dependency ratio is the population aged 0–14 and 65+ divided by the working-age population.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpad962db413d4",
+  "row": 56,
+  "s": "Consider the following statements about natural growth rate in India (SRS 2024):\n1. India's natural growth rate is 11.9 per 1,000.\n2. Bihar has the highest natural growth rate, 20.8 per 1,000.\n3. Tamil Nadu has the lowest natural growth rate.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: Kerala has the lowest natural growth rate (3.9 per 1,000).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf315d5ef55f2",
+  "row": 56,
+  "s": "Consider the following statements:\nAssertion (A): As per WPP 2024, Latvia has the most male-skewed sex ratio in the world.\nReason (R): The sex ratios of Qatar and the UAE are highly male-skewed because of male migrant labour.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: Qatar is the most male-skewed (then the UAE); Latvia has the most women per man. R is true: male migrant labour skews the Gulf states' ratio.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp9483c7d8c6e9",
+  "row": 56,
+  "s": "Consider the following statements about world urbanisation:\n1. According to the World Urbanization Prospects 2025, 55% of the world's population lives in urban areas.\n2. Northern America, Latin America and Europe are the most urbanised regions.\n3. The fastest urban growth is taking place in Africa and Asia.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: WUP 2025 (new degree-of-urbanisation method) puts the urban share at 45%; 55% was the older UN series.",
   "src": "app",
   "tq": "statements"
  }
