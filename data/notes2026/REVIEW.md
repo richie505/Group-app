@@ -777,3 +777,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r077 (CA row 77 environment Jun–Aug 2026)
 - No key changes. Smallest Ramsar site: Vembannur (Rocket) vs Renuka (Praveen) — kept Vembannur.
 - Old-notes-only: GRAP Stage-I May 2026, WG ESA 7th draft, biochar. Kiln seasoning general knowledge.
+
+## b6-r073 (CA rows 73-74 S&T in news)
+- y42c8335efb2 APPSC G1 INS Anjadip last CO: O.P. Bansal → Cdr Siddhartha Panda (Bansal was ENC C-in-C; web excerpts only) — owner confirm.
+- Own MCQ ca85854da4adab AI Impact Summit 16–20 kept, dispute (16–21). AdFalciVax MCQs say "vaccine" — is a candidate (TRL 4).
+- MANAV expansion doubtful. ye01442028c1 semiconductor PYQ options lost location column — needs repair.

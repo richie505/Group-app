@@ -37,57 +37,6 @@
 > Exam angle: "not a GLOF", Valmikinagar not Farakka; cyclone name ↔ proposing country; volcano ↔ country/island; the "first in 221 years" cicada event.
 ~~ Sources: daily-em-ca 16 Oct 2026 p.3 (Kanlaon), 26 Oct p.1 (Arnab) and p.2 (Bonin), 27 Oct p.5 (Siang Upper), 1 Nov p.2 (Mayon); CivicCentre APPSC daily 4 Nov 2026 p.4 (Murasu); PMF Lens Sep 2026 (02) p.34 (Nepal flash flood: ice-rock avalanche, Lhende Khola); Rocket CA 2026 Part 02 p.184-185 (Nepal flood); sciencealert.com and foxweather.com (search results: Brood XIII + XIX, first in 221 years); app notes 6:76 (sub 8)
 
-=== Tiger Reserves and CA|TS Accreditation
-# Nameri Tiger Reserve
-- **Nameri TR:** **Sonitpur, Assam**; **National Park since 1998**; river **Jia Bhoroli**; now **CA|TS Approved**.
-- **Nameri Wild Classroom:** launched by the **Assam Forest Department**; experiential conservation education for students from **Class 8 onwards**.
-- **Kaziranga** and **Manas** are **UNESCO** sites.
-# CA|TS - Conservation Assured | Tiger Standards
-- Launched at the **1st Asian Parks Congress, Japan, 2013**; **7 pillars, 17 elements** (first 5 pillars = CA, last 2 = TS).
-- India now has **24 CA|TS-accredited tiger reserves** (not 15); **Assam has 4**; Pench appears twice (MP and Maharashtra).
-| State | Accredited tiger reserves |
-|---|---|
-| Assam | Manas, Kaziranga, Orang, Nameri |
-| Madhya Pradesh | Satpura, Pench, Kanha, Panna, Bandhavgarh |
-| Maharashtra | Pench, Melghat, Tadoba-Andhari, Navegaon-Nagzira |
-| West Bengal | Sundarbans |
-# Tiger Background
-| Item | Fact |
-|---|---|
-| Project Tiger | 1 April 1973 (9 reserves) |
-| NTCA | 2006 |
-| AITE 2022 | 3,682 tigers (estimate); 3,167 = camera-trapped minimum; 1,411 in 2006 |
-| Top States (2022) | MP 785, Karnataka 563, Uttarakhand 560 |
-| Tiger reserves | 58 (Sep 2026); area 84,488 sq km (~2.6% of India) in the old count |
-| Global Tiger Day | 29 July |
-| IUCN status | Endangered |
-~~ Sources: PMF Lens Jul 2026 (01) p.61 (Nameri); PMF Lens Aug 2026 (01) p.51 (CA|TS); RUNBOOK settled facts (58 tiger reserves, 3,682 tigers); app notes 6:76 (sub 0)
-
-=== Snow Leopard, GIB and New Protected Areas
-# Project Snow Leopard (PYQ)
-- **Launched January 2009**; covers the high-altitude areas of **J&K, Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh** (NextGen: five Himalayan States); landscape-level participatory approach.
-- **Three large landscapes:** **Hemis-Spiti** (Ladakh + Himachal), **Nanda Devi-Gangotri** (Uttarakhand), **Khangchendzonga-Tawang** (Sikkim + Arunachal), so they are **not confined to Uttarakhand, Himachal and Ladakh**.
-- **CMS (2003)** listed the snow leopard as a **Concerted Action Species** under **Appendix I**; CITES (2003) extended its Tiger Enforcement Task Force to all Asian big cats.
-# Snow Leopard Safari, Leh
-- **India's first high-altitude Snow Leopard Safari:** launched **7 October 2026**, **Leh, Ladakh**, during **Wildlife Week**; **LG Vinai Kumar Saxena** flagged off **6 open-back vehicles**.
-- Implemented by **SHAN Society** (Snow Leopard and High-Altitude Nature Conservation) + **Ladakh Forest Department**.
-- **SPAI 2024:** India **718** snow leopards; **Ladakh 477** (highest).
-- *Panthera uncia*; **IUCN Vulnerable**; **WPA Schedule I**; **CITES Appendix I**; **State animal of Himachal Pradesh**; **UT animal of Ladakh**.
-- **International Snow Leopard Day: 23 October**; Ladakh UT since **31 October 2019**.
-# Great Indian Bustard
-- Union Environment Minister released **two captive-bred male GIBs** at **Sam, Desert National Park**, near **Jaisalmer**.
-- **Desert NP:** **Thar Desert**; over **3,160 sq km**; rainfall **under 100 mm**; **Jurassic fossils**; extinct **salt-lake beds**.
-- **GIB:** *Ardeotis nigriceps*; **IUCN Critically Endangered**; **Rajasthan State Bird**; main threat **power lines**.
-| Species | IUCN | In news |
-|---|---|---|
-| Snow leopard | Vulnerable | Leh safari |
-| Great Indian Bustard | Critically Endangered | Desert NP |
-# Maharashtra's New Protected Areas (31 Oct 2026)
-- **26th State Board for Wildlife** meeting chaired by **CM Devendra Fadnavis**: **Kolamarka Conservation Reserve** and expanded **Tansa Wildlife Sanctuary** area to be designated wildlife sanctuaries; **14 new Conservation Reserves** across **seven districts**; Tansa is linked to the **Tansa Reservoir**.
-- **Wildlife (Protection) Act, 1972:** **Section 6** State Boards chaired by CMs; **Section 36A** Conservation Reserves; **Section 26A** final notification of sanctuaries.
-> Exam angle: the "INCORRECT statement" on Project Snow Leopard: landscapes include Sikkim and Arunachal.
-~~ Sources: NextGen Environment APPSC 07 p.3 (Project Snow Leopard: Jan 2009, five States); PMF Environment 03 p.91-92 (three landscapes; CMS Concerted Action 2003); Shankar Environment 14 (OCR) 16.6 Project Snow Leopard (range States, Schedule I, CITES/CMS Appendix I); Praveen CA-360 Jun 2026 p.20 (SHAN, 2009); daily-em-ca 31 Oct 2026 p.5 (Kolamarka); app notes 6:76 (sub 1)
-
 === Biodiversity Conventions, Ramsar, Forests and Reefs
 # CBD COP17 (19-31 Oct 2026)
 - **[04 Nov 2026]** Held at **Meridian Expo & Event Centre, Yerevan, Armenia**; theme "**Taking Action for Nature**"; chaired by Armenian Environment Minister **Hambardzum Matevosyan**; nearly **50 decisions** on the **Kunming-Montreal Global Biodiversity Framework (KMGBF)**.
@@ -114,6 +63,40 @@
 - **Living Planet Report 2026 (October 2026):** by **WWF** with the **Zoological Society of London (ZSL)**; title **"The Science of Hope"**; monitored wildlife populations fell by an average of **73%** (**1970-2022**); steepest fall in **freshwater (85%)**, then terrestrial (69%) and marine (59%).
 > Secretariats: IUCN, WWF and Ramsar at Gland, Switzerland; CBD at Montreal; UNFCCC at Bonn.
 ~~ Sources: daily-em-ca 20 Oct 2026 p.2 (Sukhna, 103 Ramsar) and p.3 (Kerala Red List of Ecosystems), 28 Oct p.3 (coral reefs), 4 Nov p.1-2 (COFO 28; CBD COP17 Yerevan); Praveen CA-360 Sep 2026 p.22 (Tso Kar); PMF Environment 03 p.9 (Ramsar 2 Feb 1971); RUNBOOK settled facts (103 Ramsar sites); app notes 6:76 (sub 6)
+
+=== Firsts, GI Tags, Energy Index and Waste
+# Firsts and Places
+| FIRST | Place / fact |
+|---|---|
+| First port-based e-methanol plant | Deendayal Port Authority, Gandhidham-Kandla, Gujarat (Gulf of Kutch; formerly Kandla Port); 150 tonnes/day |
+| First plastic-free oil terminal | Jawahar Dweep Marine Oil Terminal (Mumbai Port Authority), during Swachhata Abhiyan-2026 (Gandhi Jayanti) |
+| Uttarakhand's first real-time GLOF warning | Vasundhara Lake, Chamoli |
+| First high-altitude snow leopard safari | Leh |
+| First state-level Red List of Ecosystems | Kerala |
+| World's first integrated air pollution analysis centre | AATAL, Delhi-NCR |
+- **E-methanol** = renewable electricity + water + **biogenic CO2**; a green marine fuel; the **Kandla plant** is a joint project of **Deendayal Port Authority** and **Assam Petro-Chemicals Ltd (APCL)**; **150 tonnes per day**; about **₹2,300 crore**.
+# State Energy Efficiency Index 2024 (PYQ)
+- **SEEI 2024** (6th edition): by **BEE** with **AEEE**, released **29 Aug 2025**, assessing **FY 2023-24**; **66 indicators**, **36 States/UTs**.
+- **Maharashtra** ranked **first** (top performer, Group 1, >15 MToE); **Andhra Pradesh** topped Group 2 (5-15 MToE), **Assam** Group 3 (1-5 MToE), **Tripura** Group 4 (<1 MToE).
+- **AP angle:** AP scored **87.25** in SEEI 2024 (83.25 in SEEI 2023).
+# GI Tags
+| Product | State | Fact |
+|---|---|---|
+| Ambaji Mohanthal Prasad | Gujarat | Gram-flour sweet, prasad of Ambaji Temple (Banaskantha; Shakti Peetha); applied 1 Oct 2026 by Shri Arasuri Ambaji Mata Devasthan Trust; GI on 8 Oct 2026; certificate 11 Oct (first day of Sharadiya Navratri) |
+| Mandar | Jharkhand | Folk percussion instrument; double-sided barrel drum of red clay and leather; Chotanagpur tribal culture; made at Jarjatta, Raidih block, Gumla |
+- **GI Act 1999**, in force **15 Sep 2003**; Registry **Chennai** (CGPDTM, DPIIT); valid **10 years**, renewable; **first GI: Darjeeling Tea (2004-05)**.
+# Kalpasar Project
+- About **30-km dam** across the **Gulf of Khambhat** (Gujarat); freshwater reservoir; irrigation for **10 lakh+ ha**, mainly **Saurashtra**.
+- **Two tripartite MoUs** on **24 Sep 2026** at the **9th India International Water Week**, New Delhi: **CWC**, **Gujarat's Kalpasar Department**, **Deltares (Netherlands)**, **Delft University of Technology**; **CWC:** est. **1945**, HQ **New Delhi**, **Ministry of Jal Shakti**.
+# E-Waste
+- Generated **13.98 lakh tonnes (2024-25)** vs 12.54 lakh t (2023-24); India **3rd-largest** generator after **China and USA**.
+- **E-Waste (Management) Rules, 2022:** in force **1 Apr 2023**; **106 categories** incl. solar PV; **EPR** recycling target **70%** (2025-26, 2026-27), **80%** from **2027-28**.
+- **Battery Waste Management Rules, 2022:** ban **landfill and incineration** of waste batteries; **Hazardous and Other Wastes Rules, 2016**; India party to the **Basel Convention**.
+# Geo-heritage and Equal-Area Maps
+- **IUGS geological heritage sites:** **Mawmluh Cave** (East Khasi Hills, **Meghalaya**) is in the first **100 IUGS geological sites**.
+- **UNGA** resolution promoting **equal-area maps:** moved by **Togo** ("**Correct the Map**"); **164 of 193** in favour incl. India; **USA voted against**; the change is only visual (borders and sovereignty unaffected).
+- **Mercator** projection (**Gerardus Mercator, 1569**) enlarges high latitudes; **Africa is ~14 times larger than Greenland**; useful for navigation (constant compass bearings are straight lines); no flat map keeps area, shape, distance and direction together.
+~~ Sources: energetica-india.net and solarquarter.com (search results, 29-30 Aug 2025: SEEI 2024 group toppers); AP Socio-Economic Survey 2024-25 p.137 (AP 87.25 in SEEI 2024); daily-em-ca 16 Oct 2026 p.1 (Ambaji Mohanthal); Praveen CA-360 Sep 2026 p.21 (equal-area maps), p.49 (e-methanol), p.96 (Mandar), p.98 (Kalpasar); Rocket CA 2026 Part 01 p.80 (Jawahar Dweep); app notes 6:76 (sub 9)
 
 === Air Quality - Swachh Vayu Survekshan, NCAP and Stubble
 # Clean Air Day and Swachh Vayu Survekshan 2026
@@ -182,40 +165,6 @@
 - **Sagar Manthan** research vessel: launched by **GRSE** on **9 September** for **NCPOR**; **89.5 m**, **5,900 GT**; **₹840 crore**; built at **Rishi Bankim Shipyard, Kolkata**; operational **2028**; surveys to **6 km** depth; for the equatorial Indian Ocean, Bay of Bengal, Antarctic waters.
 ~~ Sources: PMF Environment 03 p.9 (MISHTI: 2023, MoEF, Mangrove Alliance for Climate, expand mangrove cover); Rocket CA 2026 Part 01 p.30 (MISHTI 5 June 2023, 54,000 ha by 2028); PMF Lens Sep 2026 (01) p.58, 65-66 (Pichavaram); Praveen CA-360 Sep 2026 p.71 (Sagar Manthan); RUNBOOK settled facts (coastline 11,098.81 km); app notes 6:76 (sub 7)
 
-=== Firsts, GI Tags, Energy Index and Waste
-# Firsts and Places
-| FIRST | Place / fact |
-|---|---|
-| First port-based e-methanol plant | Deendayal Port Authority, Gandhidham-Kandla, Gujarat (Gulf of Kutch; formerly Kandla Port); 150 tonnes/day |
-| First plastic-free oil terminal | Jawahar Dweep Marine Oil Terminal (Mumbai Port Authority), during Swachhata Abhiyan-2026 (Gandhi Jayanti) |
-| Uttarakhand's first real-time GLOF warning | Vasundhara Lake, Chamoli |
-| First high-altitude snow leopard safari | Leh |
-| First state-level Red List of Ecosystems | Kerala |
-| World's first integrated air pollution analysis centre | AATAL, Delhi-NCR |
-- **E-methanol** = renewable electricity + water + **biogenic CO2**; a green marine fuel; the **Kandla plant** is a joint project of **Deendayal Port Authority** and **Assam Petro-Chemicals Ltd (APCL)**; **150 tonnes per day**; about **₹2,300 crore**.
-# State Energy Efficiency Index 2024 (PYQ)
-- **SEEI 2024** (6th edition): by **BEE** with **AEEE**, released **29 Aug 2025**, assessing **FY 2023-24**; **66 indicators**, **36 States/UTs**.
-- **Maharashtra** ranked **first** (top performer, Group 1, >15 MToE); **Andhra Pradesh** topped Group 2 (5-15 MToE), **Assam** Group 3 (1-5 MToE), **Tripura** Group 4 (<1 MToE).
-- **AP angle:** AP scored **87.25** in SEEI 2024 (83.25 in SEEI 2023).
-# GI Tags
-| Product | State | Fact |
-|---|---|---|
-| Ambaji Mohanthal Prasad | Gujarat | Gram-flour sweet, prasad of Ambaji Temple (Banaskantha; Shakti Peetha); applied 1 Oct 2026 by Shri Arasuri Ambaji Mata Devasthan Trust; GI on 8 Oct 2026; certificate 11 Oct (first day of Sharadiya Navratri) |
-| Mandar | Jharkhand | Folk percussion instrument; double-sided barrel drum of red clay and leather; Chotanagpur tribal culture; made at Jarjatta, Raidih block, Gumla |
-- **GI Act 1999**, in force **15 Sep 2003**; Registry **Chennai** (CGPDTM, DPIIT); valid **10 years**, renewable; **first GI: Darjeeling Tea (2004-05)**.
-# Kalpasar Project
-- About **30-km dam** across the **Gulf of Khambhat** (Gujarat); freshwater reservoir; irrigation for **10 lakh+ ha**, mainly **Saurashtra**.
-- **Two tripartite MoUs** on **24 Sep 2026** at the **9th India International Water Week**, New Delhi: **CWC**, **Gujarat's Kalpasar Department**, **Deltares (Netherlands)**, **Delft University of Technology**; **CWC:** est. **1945**, HQ **New Delhi**, **Ministry of Jal Shakti**.
-# E-Waste
-- Generated **13.98 lakh tonnes (2024-25)** vs 12.54 lakh t (2023-24); India **3rd-largest** generator after **China and USA**.
-- **E-Waste (Management) Rules, 2022:** in force **1 Apr 2023**; **106 categories** incl. solar PV; **EPR** recycling target **70%** (2025-26, 2026-27), **80%** from **2027-28**.
-- **Battery Waste Management Rules, 2022:** ban **landfill and incineration** of waste batteries; **Hazardous and Other Wastes Rules, 2016**; India party to the **Basel Convention**.
-# Geo-heritage and Equal-Area Maps
-- **IUGS geological heritage sites:** **Mawmluh Cave** (East Khasi Hills, **Meghalaya**) is in the first **100 IUGS geological sites**.
-- **UNGA** resolution promoting **equal-area maps:** moved by **Togo** ("**Correct the Map**"); **164 of 193** in favour incl. India; **USA voted against**; the change is only visual (borders and sovereignty unaffected).
-- **Mercator** projection (**Gerardus Mercator, 1569**) enlarges high latitudes; **Africa is ~14 times larger than Greenland**; useful for navigation (constant compass bearings are straight lines); no flat map keeps area, shape, distance and direction together.
-~~ Sources: energetica-india.net and solarquarter.com (search results, 29-30 Aug 2025: SEEI 2024 group toppers); AP Socio-Economic Survey 2024-25 p.137 (AP 87.25 in SEEI 2024); daily-em-ca 16 Oct 2026 p.1 (Ambaji Mohanthal); Praveen CA-360 Sep 2026 p.21 (equal-area maps), p.49 (e-methanol), p.96 (Mandar), p.98 (Kalpasar); Rocket CA 2026 Part 01 p.80 (Jawahar Dweep); app notes 6:76 (sub 9)
-
 === Short-lived Climate Pollutants and the Ozone Treaties
 # SLCPs
 - SLCPs cause up to **45% of present warming**; IPCC: rapid cuts can avoid up to **0.6°C by 2050**; also called **super pollutants** / **Short-Lived Climate Forcers**.
@@ -257,6 +206,57 @@
 - **[02 Nov 2026] Dicharax tilariensis:** lives in moist soil and leaf litter of **semi-evergreen forests**; genus restricted to the **northern Western Ghats**; snails = phylum **Mollusca**, class **Gastropoda**.
 - **ZSI:** est. **1916**, HQ **Kolkata** (BSI 1890 vs ZSI 1916, both Kolkata); **Western Ghats:** UNESCO site **2012**; spread over **Gujarat, Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu**.
 ~~ Sources: daily-em-ca 23 Oct 2026 p.5 (Rhysida), 30 Oct p.4 (Osbeckia), 31 Oct p.6 (Ophiorrhiza), 2 Nov p.4 (Dicharax); app notes 6:76 (sub 2)
+
+=== Snow Leopard, GIB and New Protected Areas
+# Project Snow Leopard (PYQ)
+- **Launched January 2009**; covers the high-altitude areas of **J&K, Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh** (NextGen: five Himalayan States); landscape-level participatory approach.
+- **Three large landscapes:** **Hemis-Spiti** (Ladakh + Himachal), **Nanda Devi-Gangotri** (Uttarakhand), **Khangchendzonga-Tawang** (Sikkim + Arunachal), so they are **not confined to Uttarakhand, Himachal and Ladakh**.
+- **CMS (2003)** listed the snow leopard as a **Concerted Action Species** under **Appendix I**; CITES (2003) extended its Tiger Enforcement Task Force to all Asian big cats.
+# Snow Leopard Safari, Leh
+- **India's first high-altitude Snow Leopard Safari:** launched **7 October 2026**, **Leh, Ladakh**, during **Wildlife Week**; **LG Vinai Kumar Saxena** flagged off **6 open-back vehicles**.
+- Implemented by **SHAN Society** (Snow Leopard and High-Altitude Nature Conservation) + **Ladakh Forest Department**.
+- **SPAI 2024:** India **718** snow leopards; **Ladakh 477** (highest).
+- *Panthera uncia*; **IUCN Vulnerable**; **WPA Schedule I**; **CITES Appendix I**; **State animal of Himachal Pradesh**; **UT animal of Ladakh**.
+- **International Snow Leopard Day: 23 October**; Ladakh UT since **31 October 2019**.
+# Great Indian Bustard
+- Union Environment Minister released **two captive-bred male GIBs** at **Sam, Desert National Park**, near **Jaisalmer**.
+- **Desert NP:** **Thar Desert**; over **3,160 sq km**; rainfall **under 100 mm**; **Jurassic fossils**; extinct **salt-lake beds**.
+- **GIB:** *Ardeotis nigriceps*; **IUCN Critically Endangered**; **Rajasthan State Bird**; main threat **power lines**.
+| Species | IUCN | In news |
+|---|---|---|
+| Snow leopard | Vulnerable | Leh safari |
+| Great Indian Bustard | Critically Endangered | Desert NP |
+# Maharashtra's New Protected Areas (31 Oct 2026)
+- **26th State Board for Wildlife** meeting chaired by **CM Devendra Fadnavis**: **Kolamarka Conservation Reserve** and expanded **Tansa Wildlife Sanctuary** area to be designated wildlife sanctuaries; **14 new Conservation Reserves** across **seven districts**; Tansa is linked to the **Tansa Reservoir**.
+- **Wildlife (Protection) Act, 1972:** **Section 6** State Boards chaired by CMs; **Section 36A** Conservation Reserves; **Section 26A** final notification of sanctuaries.
+> Exam angle: the "INCORRECT statement" on Project Snow Leopard: landscapes include Sikkim and Arunachal.
+~~ Sources: NextGen Environment APPSC 07 p.3 (Project Snow Leopard: Jan 2009, five States); PMF Environment 03 p.91-92 (three landscapes; CMS Concerted Action 2003); Shankar Environment 14 (OCR) 16.6 Project Snow Leopard (range States, Schedule I, CITES/CMS Appendix I); Praveen CA-360 Jun 2026 p.20 (SHAN, 2009); daily-em-ca 31 Oct 2026 p.5 (Kolamarka); app notes 6:76 (sub 1)
+
+=== Tiger Reserves and CA|TS Accreditation
+# Nameri Tiger Reserve
+- **Nameri TR:** **Sonitpur, Assam**; **National Park since 1998**; river **Jia Bhoroli**; now **CA|TS Approved**.
+- **Nameri Wild Classroom:** launched by the **Assam Forest Department**; experiential conservation education for students from **Class 8 onwards**.
+- **Kaziranga** and **Manas** are **UNESCO** sites.
+# CA|TS - Conservation Assured | Tiger Standards
+- Launched at the **1st Asian Parks Congress, Japan, 2013**; **7 pillars, 17 elements** (first 5 pillars = CA, last 2 = TS).
+- India now has **24 CA|TS-accredited tiger reserves** (not 15); **Assam has 4**; Pench appears twice (MP and Maharashtra).
+| State | Accredited tiger reserves |
+|---|---|
+| Assam | Manas, Kaziranga, Orang, Nameri |
+| Madhya Pradesh | Satpura, Pench, Kanha, Panna, Bandhavgarh |
+| Maharashtra | Pench, Melghat, Tadoba-Andhari, Navegaon-Nagzira |
+| West Bengal | Sundarbans |
+# Tiger Background
+| Item | Fact |
+|---|---|
+| Project Tiger | 1 April 1973 (9 reserves) |
+| NTCA | 2006 |
+| AITE 2022 | 3,682 tigers (estimate); 3,167 = camera-trapped minimum; 1,411 in 2006 |
+| Top States (2022) | MP 785, Karnataka 563, Uttarakhand 560 |
+| Tiger reserves | 58 (Sep 2026); area 84,488 sq km (~2.6% of India) in the old count |
+| Global Tiger Day | 29 July |
+| IUCN status | Endangered |
+~~ Sources: PMF Lens Jul 2026 (01) p.61 (Nameri); PMF Lens Aug 2026 (01) p.51 (CA|TS); RUNBOOK settled facts (58 tiger reserves, 3,682 tigers); app notes 6:76 (sub 0)
 
 === Climate Negotiations and Climate Reports
 - **[19 Oct 2026] COP31:** 31st Conference of the Parties, **9-20 Nov 2026**, **Expo Center, Antalya, Turkiye**; **Turkiye** host country, **Australia** to lead negotiations.
