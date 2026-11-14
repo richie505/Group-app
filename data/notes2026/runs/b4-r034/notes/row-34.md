@@ -77,7 +77,7 @@
 |---|---|---|---|
 | Ladakh | **Zoji La** | 3,528 m | **Srinagar–Kargil–Leh** (NH-1), on the Zaskar; the pass that "leads to Leh"; Zoji La tunnel (14.2 km) under construction |
 | Ladakh | Khardung La | 5,359 m | Leh – Nubra/Shyok valleys |
-| Ladakh | **Umling La** | 5,882 m (**19,024 ft**) | Highest motorable road (BRO, record of 2021) |
+| Ladakh | **Umling La** | 5,798 m (**19,024 ft**, Guinness record 9 Nov 2021; PMF height of the pass 5,882 m; BRO/news and the APPSC 2023 PYQ: "19,300 ft") | Highest motorable road (BRO, record of 2021) |
 | Ladakh | **Mig La** | 5,913 m (**19,400 ft**) | **New highest motorable road** (BRO, Oct 2025) – overtook Umling La |
 | Ladakh | Tanglang La, Karakoram, Aghil | — | Ladakh |
 | J&K | **Banihal** | 2,832 m | **Jammu–Srinagar** across the Pir Panjal; **Jawahar Tunnel** (1956) and the Banihal–Qazigund tunnel (2021) carry **NH-44** |
@@ -105,7 +105,7 @@
 | **Atal Tunnel** (9.02 km) | Under **Rohtang**; Manali – Lahaul-Spiti |
 | **Jawahar Tunnel** | **Banihal**, Jammu–Srinagar |
 | **Zoji-la Tunnel** | **Srinagar–Leh** |
-~~ Sources: PMF Indian Physical Geography 01 p.48, p.66-70; NextGen Indian Geography - APPSC Exams 04 p.9; newsonair.gov.in (Mig La, 5 Oct 2025); app notes 4:34 (sub 7)
+~~ Sources: PMF Indian Physical Geography 01 p.48, p.66-70; NextGen Indian Geography - APPSC Exams 04 p.9; newsonair.gov.in (Mig La, 5 Oct 2025); guinnessworldrecords.com/world-records/62927-highest-road (Umling La 5,798.251 m = 19,024 ft, 9 Nov 2021); app notes 4:34 (sub 7)
 
 === Purvanchal and the North-eastern Hills
 # Purvanchal

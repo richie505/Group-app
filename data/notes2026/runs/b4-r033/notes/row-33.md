@@ -130,7 +130,7 @@
 | North | **Indira Col** | Karakoram, Ladakh |
 | South (territory) | **Indira Point** (Pygmalion Point, 6°45′ N) | **Great Nicobar** |
 | South (mainland) | **Kanyakumari** (8°4′ N) | Tamil Nadu – where the **Arabian Sea, Bay of Bengal and Indian Ocean meet** |
-| East | **Kibithu** | Arunachal Pradesh – **first sunrise** in India (Dong, Anjaw district) |
+| East | **Kibithu** | Arunachal Pradesh – **first sunrise** in India (**Dong** village, Anjaw district; spelt "Dang" in the APPSC 2003 PYQ) |
 | West | **Guhar Moti** (Sir Creek area) | Kutch, Gujarat |
 - **Zero Mile Stone:** **Nagpur** (British survey centre of India).
 - **Statements trap:** India is **not 5th** by area and **not wholly tropical** (the Tropic of Cancer halves it; the north is temperate by latitude).
@@ -147,7 +147,7 @@
 | – | Tamil Nadu | 1,30,060 |
 - **Rajasthan + MP + Maharashtra ≈ 30%** of India's area. Largest UT: Ladakh; smallest State: Goa; smallest UT: Lakshadweep.
 - **Latitude comparisons (IAS 2003):** Bengaluru (~12°58′ N) lies **south of Chennai** (~13°05′ N); Aurangabad (~19°53′ N) lies between Vadodara (~22°18′ N) and Pune (~18°31′ N); Jabalpur (~79°57′ E) is **east of both** Indore and Bhopal. **Sikkim (27–28° N)** shares its latitudes with **Rajasthan** (23°3′–30°12′ N).
-~~ Sources: NextGen Indian Geography - APPSC Exams 04 p.1-2, p.4; PMF Indian Physical Geography 01 p.10-13; Rocket Indian Geography p.117-119; OnlyIAS NCERT Indian Geography 03 p.4; general knowledge (state areas, city coordinates, zero mile), not checked; app notes 4:33 sub 0
+~~ Sources: NextGen Indian Geography - APPSC Exams 04 p.1-2, p.4; PMF Indian Physical Geography 01 p.10-13; Rocket Indian Geography p.117-119; OnlyIAS NCERT Indian Geography 03 p.4; general knowledge (state areas, city coordinates, zero mile), not checked; app notes 4:33 sub 0; outlooktraveller.com (Dong, Anjaw – first sunrise)
 
 === Tropic of Cancer and the Standard Meridian
 - **Tropic of Cancer (23°30′ N)** passes through **8 States**, west to east: **Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram**; it roughly halves India. **Andhra Pradesh lies wholly south** of it; it does not touch Odisha or Bihar.
