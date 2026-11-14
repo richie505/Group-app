@@ -1433,3 +1433,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 440 → 64 kept + 102 new (166, 38%); new 60 statements / 28 match / 14 A–R; no lines lost.
 - Removed own: nc0f2091373a, f5eae72b04ab6 (most post offices Mar 2016 = Chittoor; notes' APPSC key Anantapuramu); g72c3efdb00be (AP 5th per-capita 2017-18, unverified).
 - PYQ y2a173d70bb8 (2015-16 per-capita AP ₹8,979 vs TS ₹15,454) disagrees with notes (AP ₹1,08,002) — likely monthly vs annual or garbled; check.
+
+## rewrite b4-w091 (rows 91–95)
+- own 448 → 64 kept + 102 new (166, 37%); new 61 statements / 30 match / 11 A–R; 2 of 312 lines lost.
+- Row 95: Gangavaram "largest private-sector port" (0:3.1, UPSC 2009 key) vs Krishnapatnam "largest private port in AP" (0:3.2) — add dates/context to reconcile.
