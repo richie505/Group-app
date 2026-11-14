@@ -615,9 +615,9 @@
   "tq": "match"
  },
  {
-  "id": "cpbf2b56c007fe",
+  "id": "cp43c18132ee6e",
   "row": 69,
-  "s": "Consider the following statements about the MILAN naval exercise:\n1. MILAN 2026, the 13th edition, was held at Visakhapatnam.\n2. The first MILAN was held at Port Blair in 1995.\n3. MILAN 2026 was held with the International Fleet Review 2026 and the IONS Conclave of Chiefs.\n4. Ships from Germany, the Philippines and Japan took part in MILAN for the first time in 2026.\nHow many of the statements given above are correct?",
+  "s": "Consider the following statements about the MILAN naval exercise:\n1. MILAN 2026, the 13th edition, was held at Visakhapatnam.\n2. The first MILAN was held at Port Blair in 1995, and MILAN 2024 was the 12th edition.\n3. MILAN 2026 was held with the International Fleet Review 2026 and the IONS Conclave of Chiefs.\n4. Ships from Germany, the Philippines and Japan took part in MILAN for the first time in 2026.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -625,7 +625,7 @@
    "All four"
   ],
   "a": 2,
-  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: the first-time participants in 2026 were Germany, the Philippines and the UAE.",
+  "x": "Statements 1, 2 and 3 are correct (MILAN 2024 = 12th, Visakhapatnam, under the Eastern Naval Command; MILAN 2026 = 13th). Statement 4 is wrong: the first-time participants in 2026 were Germany, the Philippines and the UAE.",
   "src": "app",
   "tq": "statements"
  },

@@ -1213,3 +1213,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 376 → 24 kept + 108 new (132, 35%); new 76 statements / 21 match / 9 A–R / 2 sequence; 1 of 311 lines lost.
 - Kept cadf3f4b0cc725 (Venezuela, 4:5) mislinked to 67:6:17 — link cleanup.
 - Spelling: Nepal President "Paudel" (row 65) vs "Poudel" (row 67) — harmonise. UPI countries 9 (row 65) vs 8 (row 67, pre-June 2026) — update row 67.
+
+## rewrite b1-w166 (rows 166–171)
+- own 439 → 90 kept + 86 new (176, 40%); new 47 statements / 26 match / 13 A–R; no lines lost.
+- Wrong own keys removed: n5c8fd3adae6 (lease ₹15 lakh; 1766 treaty fixed ₹9 lakh), na8408bcb2a8 (Guntur as main Nizam–British conflict; notes Northern Circars), n9cec66a8174 (not in notes); 6 unlinked removed.

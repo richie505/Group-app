@@ -19,12 +19,12 @@
   "row": 55,
   "s": "Match List-I (Book / report) with List-II (Year of publication):\nList-I | List-II\na. An Essay on the Principle of Population | i. 1990\nb. The Population Bomb | ii. 1972\nc. The Limits to Growth | iii. 1968\nd. The Population Explosion | iv. 1798\nSelect the correct answer using the codes given below:",
   "o": [
+   "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iii, c-ii, d-iv",
    "a-iv, b-iii, c-ii, d-i",
-   "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Malthus's Essay – 1798; Paul R. Ehrlich's The Population Bomb – 1968; The Limits to Growth (World3 model, Donella Meadows and others for the Club of Rome) – 1972; Paul and Anne Ehrlich's The Population Explosion – 1990.",
   "src": "app",
   "tq": "match"
@@ -36,10 +36,10 @@
   "o": [
    "1 and 2 only",
    "2 and 3 only",
-   "1 and 3 only",
-   "3 only"
+   "3 only",
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the optimum population theory is associated with Edwin Cannan; Karl Marx gave the anti-Malthusian view that hunger and 'surplus population' come from exploitation under capitalism.",
   "src": "app",
   "tq": "statements"
@@ -64,12 +64,12 @@
   "row": 55,
   "s": "Consider the following statements about the distribution of world population:\n1. About 90% of the world's people live on about 10% of its land.\n2. Most of the world's people live in the Southern Hemisphere.\n3. East Asia and South Asia are the two great population clusters, and the Ganges–Brahmaputra delta is among the densest areas on Earth.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
+   "1 and 3 only",
    "1 only",
    "2 and 3 only",
-   "1 and 3 only"
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: most people live in the Northern Hemisphere mid-latitudes and the tropics of Asia.",
   "src": "app",
   "tq": "statements"
@@ -304,12 +304,12 @@
   "row": 56,
   "s": "Consider the following statements about ageing in India:\n1. As per SRS 2024, Assam has the highest share of elderly population and Kerala the lowest.\n2. India's 60+ population is projected to reach 325.3 million (20.5%) by 2051.\n3. India's median age is projected to be 40 years by 2051.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
    "1 and 2 only",
    "3 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 2,
   "x": "2 and 3 are correct. 1 is wrong: it is the reverse – Kerala has the highest elderly share (India 9.7%) and Assam the lowest (SRS 2024).",
   "src": "app",
   "tq": "statements"
@@ -373,5 +373,140 @@
   "x": "2 and 3 are correct. 1 is wrong: WUP 2025 (new degree-of-urbanisation method) puts the urban share at 45%; 55% was the older UN series.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp6b088f3f8392",
+  "row": 57,
+  "s": "Consider the following statements about measures of population density:\n1. Physiological density is the total population divided by the net cultivated (arable) area.\n2. Agricultural density is the total population divided by the total area.\n3. Other factors remaining constant, higher natality and immigration raise the population density of a region.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: total population ÷ total area is arithmetic (crude) density; agricultural density is agricultural population ÷ net cultivable area.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp81d8139e815d",
+  "row": 57,
+  "s": "Match List-I (State / UT) with List-II (Population density, Census 2011, persons per sq km):\nList-I | List-II\na. NCT of Delhi | i. 11,297\nb. Chandigarh | ii. 9,252\nc. Kerala | iii. 859\nd. Arunachal Pradesh | iv. 17\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 3,
+  "x": "Census 2011: NCT of Delhi 11,297 (highest overall); Chandigarh 9,252 (next among UTs); Kerala about 859–860 (highest in the South); Arunachal Pradesh 17 (lowest State).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp478b05326a4f",
+  "row": 57,
+  "s": "Consider the following statements about population density as per the Census:\n1. Sikkim had a lower population density than Mizoram in 2011.\n2. Among the southern States, Kerala had the highest and undivided Andhra Pradesh the lowest density in 2011.\n3. Arunachal Pradesh was the least densely populated State in both 2001 and 2011.\n4. Chandigarh was the most densely populated Union Territory in 2011.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All four",
+   "Only three",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: Sikkim (86) was denser than Mizoram (52). 4 is wrong: NCT of Delhi (11,297) was the densest; Chandigarh (9,252) came next.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5c08bc3d5e54",
+  "row": 57,
+  "s": "Consider the following statements about Census 2011:\n1. Uttar Pradesh held 16.49% of India's population.\n2. Maharashtra was the second most populous State, with 9.29% of the population.\n3. Bihar ranked third among States both in population and in area.\n4. Undivided Andhra Pradesh was the fifth most populous State.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Bihar was third in population (8.58%) but only twelfth in area.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp10c926b53e20",
+  "row": 57,
+  "s": "Consider the following statements:\n1. Residual Andhra Pradesh is the 7th largest State by area, with 1,62,970 sq km.\n2. Goa was the least populous State of India in Census 2011.\n3. Lakshadweep was the least populous Union Territory in Census 2011.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct (residual AP is 10th in population, 7th in area; Lakshadweep had 64,429 people). 2 is wrong: Sikkim (6.08 lakh) was the least populous State; Goa had 14.6 lakh.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4b651762011a",
+  "row": 57,
+  "s": "Match List-I (Area) with List-II (Population feature):\nList-I | List-II\na. Thar desert | i. Sparse because of lack of water\nb. Godavari–Krishna deltas | ii. Dense because of intensive rice farming\nc. Ganga–Yamuna Doab | iii. Dense because of mining industries and industrialisation\nd. Dhanbad | iv. Progressive (resource-developed) population-resource region\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "Thar – sparse, lack of water; Godavari–Krishna deltas – intensive rice farming; Ganga–Yamuna Doab (and Tamil Nadu) – progressive region; Dhanbad – densest district of the Chotanagpur plateau owing to coal mining and industrialisation.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpffcf84be4757",
+  "row": 57,
+  "s": "Consider the following statements:\n1. A deficit population-resource region is one where resources exceed their use.\n2. A problem region is a resource-developed region such as Tamil Nadu.\n3. Odisha is one of the BIMARU States.\n4. The faster population growth of the BIMARU States than the southern States feeds the delimitation debate.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "All four",
+   "Only three",
+   "Only two"
+  ],
+  "a": 3,
+  "x": "1 and 4 are correct. 2 is wrong: a problem region has population pressure on limited or degraded resources; resource-developed areas (Ganga–Yamuna Doab, Tamil Nadu) are progressive regions. 3 is wrong: BIMARU = Bihar, Madhya Pradesh, Rajasthan, Uttar Pradesh – not Odisha.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7627e2558f53",
+  "row": 57,
+  "s": "Consider the following statements about the criteria for a Census Town:\n1. At least 50% of the male working population must be in non-farm work.\n2. The settlement must have a population of at least 5,000.\n3. Its population density must be at least 400 per sq km.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: at least 75% of male workers must be in non-farm work.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb38b42763dad",
+  "row": 57,
+  "s": "Consider the following statements:\nAssertion (A): The Registrar General of India is keeping the Census Town criteria for Census 2027.\nReason (R): The Census Town criteria have remained unchanged since the 1981 Census.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: the criteria have been unchanged since 1981, yet the RGI's decision to keep them for Census 2027 (despite MoHUA telling a parliamentary panel they are outdated) is not explained by their age.",
+  "src": "app",
+  "tq": "assertion"
  }
 ]
