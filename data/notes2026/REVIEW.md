@@ -1491,3 +1491,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 285 → 45 kept + 56 new (101, 35%); new 31 statements / 14 match / 9 A–R / 2 sequence; 3 of 161 lines lost.
 - Removed: n96ae2fc39be (Gadicherla "first editor" of Andhra Patrika; notes Kasinathuni founder + first editor); g6c71a455308d, fec5c72dc59a8 (no key, a=-1). f8a99f39029eb ("Central Legislative Assembly" in 1918 → Imperial Legislative Council) merged with fix.
 - Kept na79b380ec04 explanation cites training camps 1920/1934 not in notes — check.
+
+## rewrite b1-w253 (rows 253–256)
+- own 416 → 76 kept + 81 new (157, 38%); new 52 statements / 18 match / 11 A–R; 4 of 240 lines lost.
+- Kept own A–R nap-history-17-17 keyed (b); per notes R explains A → probably (a) — check.
+- 255:3:9.5 credits "Andhra Kesari" to Chilukuri Veerabhadra Rao — title "Andhra Kesari" = Tanguturi Prakasam; maybe a journal name — verify.
+- Notes self-flagged: 256:1:2 (Wanchoo dates), 255:10:0.6 (not checked).
