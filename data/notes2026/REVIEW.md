@@ -615,3 +615,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y621c65ebd7e UPSC 2020 CNT: d → c (official per upscsociology; twin y3922090ab8f already c), dispute (PMF a). Owner: confirm against UPSC PDF.
 - ya475c2e498b hardest natural substance diamond (dispute wurtzite BN). Outdated y3bf63c11ac1 ASEAN 10 → 11 (Timor-Leste Oct 2025).
 - Unverified: y75e0af7e616 nanogold "blue gold"; y62586093165 RAS 2013 friction.
+
+## b5-r108-k1 (Biotech keys)
+- y733fe9feec3 TSPSC 2023 DNA/carbohydrates: "both true" → "both untrue" (flat error).
+- Outdated y70d4b41d43f Civil Aviation Minister 2012 Ajit Singh (now K. Ram Mohan Naidu).
+- y41af186e3ac holography "Navigators" kept, not verified (sources suggest museum authorities) — owner decide.
+- Psychology PYQs (Kallikak, Lewin) parked in row 1 (no psychology row).
