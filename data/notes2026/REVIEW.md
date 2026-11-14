@@ -749,3 +749,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Outdated yede9d1f655c WEF head Brende (stepped down Feb 2026; Alois Zwinggi interim).
 - y64f36ef3915 hurricane PYQ moved to b5 r106 (general knowledge key).
 - Rocket-settled: UNESCO Tentative List batch 29 Sep 2026 (total 78); SIOFA Cabinet 14 Oct 2026; Sarnath WHS 25 Jul 2026. Removed unverified "President Gabriel Boric".
+
+## b6-r064 (CA rows 64-66 India bilateral)
+- y6c4b4fc43cd India–UK JETCO: 13 Jan 2011 → 13 Jan 2005 (garbled stem); own MCQ g7002d9c0050d add_option "2005".
+- y130e2c1b0f4 national fish Indian Mackerel kept, dispute (never notified).
