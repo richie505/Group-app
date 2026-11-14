@@ -123,7 +123,7 @@
 
 === NRSC, Bhuvan and EO in the News; Andhra Pradesh
 - Data chain: ground station → processing at **NRSC, Hyderabad** (nodal) → users. Training: **IIRS** and **CSSTEAP**, both **Dehradun**.
-- **Bhuvan:** ISRO's web-based **geoportal** with **3-D imaging**, open to the public (UPSC 2010) – not a satellite or telescope. Other platforms: **Bhoonidhi, MOSDAC, VEDAS**.
+- **Bhuvan:** ISRO's (**NRSC**'s) web-based **geoportal** with **3-D imaging**, open to the public (UPSC 2010) – not a satellite or telescope. Other NRSC/ISRO platforms: **Bhoonidhi, MOSDAC, VEDAS**.
 - Uses: groundwater prospects, wastelands, **FASAL** crop forecasting, drought, NUIS, SIS-DP, **INFFRAS** (Indian Forest Fire Response and Assessment System).
 | In news | Agency / satellite |
 |---|---|

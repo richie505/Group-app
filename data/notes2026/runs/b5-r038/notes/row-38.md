@@ -56,7 +56,7 @@
 # Applications
 - **GPS / satellite timing** is used in **mobile phone networks, banking and power grids** – all three (UPSC 2018).
 - **Tectonic plate movement** is monitored with **GPS** (with VLBI and SLR) – not GIS or weather radar.
-- NavIC: terrestrial, aerial, marine navigation; **disaster management**; vehicle tracking and **fleet management**; precise timing (IST, power, telecom, banking); mapping and geodesy; hikers and drivers.
+- NavIC: terrestrial, aerial, marine navigation; **disaster management**; vehicle tracking and **fleet management**; precise timing (IST, power, telecom, banking); mapping and geodesy; **precision farming**; hikers and drivers.
 - **MoRTH AIS-140:** NavIC/GPS trackers and panic buttons compulsory in **public transport and commercial vehicles** (not all private cars).
 - **Qualcomm Snapdragon** chipsets support NavIC; reconfigured **IRNSS-1A** and GEMINI devices send cyclone, tsunami and high-wave alerts to **fishermen**.
 - **Elena Geo Systems:** India's **first NavIC-based device**, for precise directions on infrastructure projects (APPSC 2023).

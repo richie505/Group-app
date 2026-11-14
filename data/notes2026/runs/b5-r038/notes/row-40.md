@@ -109,7 +109,7 @@
 | **SunRISE** (Sun Radio Interferometer Space Experiment) | NASA (announced Mar 2020) | Six CubeSats to study how the Sun makes **solar particle storms** |
 | **SuperView-1** pair | **China** (commercial) | Remote sensing, launched Dec 2016 |
 | **Kirameki-2** (DSN-2) | **Japan** | Japan's first **military communications satellite** (Jan 2017) |
-| Europa Clipper | NASA | **Falcon Heavy**, 14 Oct 2024; Jupiter's moon Europa |
+| Europa Clipper | NASA | **Falcon Heavy** (not Falcon 9), 14 Oct 2024; Jupiter's moon Europa; NASA's first mission to an ocean world; arrives Apr 2030 |
 | JWST | NASA-ESA-CSA | 25 Dec 2021; infrared |
 | IXPE | NASA | Dec 2021; X-ray polarimetry (XPoSat made India second) |
 ~~ Sources: APPSC G1 2024 explanation (PACE); general knowledge, not checked (SunRISE, SuperView-1, Kirameki-2); app notes 5:40 sub 9
