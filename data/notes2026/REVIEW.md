@@ -710,3 +710,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r037 (CA rows 37-38 Budget, Survey, RBI)
 - No key changes. Dispute y877b9bce27e chronology (works only if D = 1985-86 Budget) — check official key.
 - UIDF PYQ from explainer + Survey summary. FY26 GDP 7.7% (prov.) vs revised 7.8% (Praveen Sep 2026); own MCQ ga102aad56f3d keyed 7.7%.
+
+## b6-r039 (CA row 39 schemes Sep–Nov 2026)
+- No key changes. Uttarakhand fully literate 8 Jul 2026 (Rocket) vs 10 Jul (old notes). GOBARdhan per Rocket (Cabinet 6 Aug, launch 1 Oct 2026, MoPNG).
+- PM Vishwakarma, PM-SETU, Shilp Samagam lines rest only on old notes.
