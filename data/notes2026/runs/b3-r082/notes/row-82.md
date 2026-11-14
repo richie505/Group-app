@@ -25,6 +25,7 @@
 | 5 Jan 2019 | **19.25%** (Dec 2018 review: −25 bps every quarter) | 4% |
 | 11 Apr 2020 | **18%** | 3% (Mar 2020) |
 | 2026 (now) | **18%** | **3%** (cut 4% → 3% in 2025, ~₹2.5 lakh crore released) |
+# CRR vs SLR
 | Basis | CRR | SLR |
 |---|---|---|
 | Kept | **With RBI** | **By the bank itself** |
