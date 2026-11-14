@@ -1312,3 +1312,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## rewrite b6-w076 (row 76)
 - own 239 → 28 kept + 66 new (94, 39%); new 46 statements / 13 match / 7 A–R; 2 of 153 lines lost (facts still covered). No wrong notes/keys.
+
+## rewrite b3-w088 (rows 88–92)
+- own 378 → 60 kept + 87 new (147, 39%); new 48 statements / 25 match / 14 A–R; no lines lost.
+- PYQ yd606048606b keys Ajay Tyagi as SEBI chair (correct at exam time; now Tuhin Kanta Pandey from Mar 2025) — ⚠ Outdated chip.
+- Row 89 0:5: RBI as money-market participant vs PYQ key "not a participant" (notes already flag) — Disputed chip.
