@@ -1,0 +1,227 @@
+[
+ {
+  "id": "cp0fd0dc3831c3",
+  "row": 5,
+  "s": "Consider the following statements about the layers of the Earth:\n1. Oceanic crust is about 5 km thick, while continental crust averages about 30 km.\n2. The mantle extends from the Moho down to about 2,900 km.\n3. The outer core is a solid layer of iron and nickel.\n4. The inner core remains solid because of the immense pressure on it.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the outer core (2,900–5,150 km) is liquid iron–nickel; only the inner core is solid, held so by immense pressure. Oceanic crust is ~5 km and continental ~30 km thick, and the mantle runs from the Moho to ~2,900 km.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfca04dfab27a",
+  "row": 5,
+  "s": "Consider the following statements:\n1. The mantle accounts for about 83% of the Earth's volume and 68% of its mass.\n2. The core accounts for about 32% of the Earth's volume and 16% of its mass.\n3. The mantle is solid but flows plastically, allowing convection.\n4. Density rises from about 2.8–3.0 g/cm³ in the crust to about 13.3–13.6 g/cm³ in the inner core.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statement 2 reverses the figures: the core is ~16% of the Earth's volume but ~32% of its mass. The mantle (83% of volume, 68% of mass) is the largest layer, solid but plastic; density climbs from 2.8–3.0 (crust) through ~4.6 (mantle) to 13.3–13.6 g/cm³ (inner core).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8b9c742287e3",
+  "row": 5,
+  "s": "Match List-I (Layer) with List-II (Composition):\nList-I\na. SIAL\nb. SIMA\nc. NIFE\nd. Mantle\nList-II\ni. Nickel and iron – the core\nii. Silica and aluminium – granitic continents\niii. Mixed metals and silicates – iron–magnesium silicates\niv. Silica and magnesium – basalt, source of magma",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 1,
+  "x": "In Suess's scheme SIAL (silica + aluminium) forms the granitic continents, SIMA (silica + magnesium) is basaltic and feeds magma, and NIFE (nickel + ferrum) is the dense core; the mantle is the layer of 'mixed metals and silicates'.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa1a6ec4fc067",
+  "row": 5,
+  "s": "Consider the following statements:\n1. Continental crust is thicker, older and granitic, while oceanic crust is thinner, younger and basaltic.\n2. Oceanic crust is lighter than continental crust.\n3. By mass, iron is the most abundant element of the Earth as a whole, followed by oxygen and then silicon.\n4. Aluminium is one of the main lighter elements of the Earth's core.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 2 and 3 only",
+   "3 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: basaltic oceanic crust is denser than granitic continental crust. Statement 4 is wrong: the core's lighter elements are silicon, sulphur and oxygen, not aluminium. Whole-Earth order by mass is iron 32.1% > oxygen 30.1% > silicon 15.1%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe562ed75cf52",
+  "row": 5,
+  "s": "Consider the following statements about seismic waves:\n1. P-waves are longitudinal (push–pull) waves and arrive first.\n2. S-waves are transverse and travel through solids, liquids and gases.\n3. Surface (L) waves are the slowest but cause the most damage.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: S-waves (transverse, shear) travel through solids only; it is P-waves that pass through solid, liquid and gas. P-waves are fastest and arrive first; surface (Love, Rayleigh) waves are slowest and most damaging.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc2f4aec36a91",
+  "row": 5,
+  "s": "Consider the following statements about the seismic shadow zone:\n1. S-waves are absent everywhere beyond about 105° from the epicentre.\n2. Direct P-waves are not recorded between roughly 105° and 145° from the epicentre.\n3. All earthquakes share one fixed shadow zone, set by the position of the core.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: each earthquake has its own shadow zone, set by its epicentre (CGPSC 2020). S-waves vanish beyond ~105°, and P-waves, strongly refracted at the core boundary, leave a gap at ~105°–145° (Rocket: 103°–142°).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0885c4cc6bd7",
+  "row": 5,
+  "s": "Assertion (A): The S-wave shadow zone is much larger than the P-wave shadow zone.\nReason (R): S-waves cannot pass through the liquid outer core.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: S-waves travel only through solids, so they vanish in the liquid outer core and are absent everywhere beyond ~105°, while P-waves are only refracted, leaving a narrower 105°–145° gap.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp798ae870d67d",
+  "row": 5,
+  "s": "Assertion (A): Reflection and refraction of seismic waves at boundaries reveal the layers of the Earth's interior.\nReason (R): Seismic waves travel at the same speed in all layers of the Earth.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true but R is false: wave speed changes with density, and it is this change that causes reflection and refraction at the boundaries, revealing the layers.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp59ef0cd8d87f",
+  "row": 5,
+  "s": "Consider the following statements about the Earth's magnetic field:\n1. It is generated by convection of molten iron in the liquid outer core (geodynamo).\n2. It shields life from the solar wind and cosmic radiation.\n3. The magnetic axis is inclined at about 23½° to the geographic axis.\n4. ESA's Swarm mission found that outer-core flow under the Pacific switched from westward to eastward.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the magnetic axis is inclined about 11.5° to the geographic axis (23½° is the tilt of the Earth's axis). The geodynamo in the liquid outer core makes the field, which shields life; Swarm recorded the switch in flow under the Pacific.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdeea26c6476d",
+  "row": 5,
+  "s": "Match List-I (Geothermal site) with List-II (State/UT):\nList-I\na. Puga Valley\nb. Tattapani\nc. Cambay\nd. Bakreshwar\nList-II\ni. West Bengal\nii. Chhattisgarh\niii. Ladakh\niv. Gujarat",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "Puga Valley is in Ladakh, Tattapani in Chhattisgarh, Cambay in Gujarat and Bakreshwar in West Bengal (Manikaran is in Himachal Pradesh).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp10f061b4b0ed",
+  "row": 5,
+  "s": "Consider the following statements:\n1. Temperature, pressure and density all rise with depth inside the Earth.\n2. In the upper crust temperature rises by about 1°C for every 32 m of depth.\n3. The Earth's mean density is about 5.5 g/cm³, the highest of all the planets.\n4. Diamonds rise from the mantle through kimberlite pipes, and Andhra Pradesh holds about 90% of India's diamond reserves.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong on the State: Madhya Pradesh holds ~90% of India's diamond reserves, though diamonds do rise through kimberlite pipes. Temperature, pressure and density all rise with depth (~1°C per 32 m in the upper crust); mean density 5.5 g/cm³ makes the Earth the densest planet.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7a9be96cb795",
+  "row": 5,
+  "s": "Match List-I (Discontinuity) with List-II (Layers it separates):\nList-I\na. Conrad\nb. Mohorovicic\nc. Repetti\nd. Gutenberg\nList-II\ni. Crust and mantle\nii. Upper and lower mantle\niii. Upper and lower crust\niv. Mantle and outer core",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-ii, c-i, d-iv"
+  ],
+  "a": 1,
+  "x": "Conrad (the first from the surface) separates the upper and lower crust (SIAL–SIMA); Moho the crust and mantle; Repetti the upper and lower mantle (~700–1,000 km); Gutenberg the mantle and outer core (~2,900 km), where S-waves vanish. Lehmann separates outer and inner core.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp51b9fcfed9dc",
+  "row": 5,
+  "s": "Consider the following statements:\n1. At the Mohorovicic discontinuity the velocity of P-waves rises from about 6.9 to 8.1 km/s.\n2. The discontinuity was identified in 1909 by Andrija Mohorovicic.\n3. Andrija Mohorovicic was a German seismologist.\n4. The 410 km and 660 km discontinuities mark mineral phase changes in the mantle.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Mohorovicic was Croatian. At the Moho P-wave speed jumps from 6.9 to 8.1 km/s (found 1909); the 410 km and 660 km levels are mantle mineral phase changes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp727e2befe848",
+  "row": 5,
+  "s": "Consider the following statements:\n1. The lithosphere is rigid and is broken into plates.\n2. The asthenosphere, at about 100–200 km in the upper mantle, is weak, plastic and partly molten.\n3. The asthenosphere is the main source of magma.\n4. In the sequence lithosphere – asthenosphere – mesosphere – barysphere, the barysphere is the lower mantle.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the barysphere is the core. The rigid lithosphere (crust + uppermost mantle) is broken into plates that glide over the weak, partly molten asthenosphere (~100–200 km), the main source of magma.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa66bf354f10e",
+  "row": 5,
+  "s": "Consider the following statements about sources of information on the Earth's interior:\n1. The deepest drilled hole, about 12 km, is on the Kola Peninsula.\n2. Mponeng and TauTona in South Africa, about 3.9 km deep, are the deepest mines.\n3. Meteorites provide direct evidence of the Earth's interior.\n4. Gravity anomalies and magnetic surveys are indirect sources.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "2 and 3 only",
+   "3 and 4 only",
+   "1 and 3 only"
+  ],
+  "a": 0,
+  "x": "Only statement 3 is wrong: meteorites are indirect evidence, like seismic, gravity and magnetic data. Direct sources are mining, deep drilling (Kola, USSR, ~12 km; Mponeng and TauTona, South Africa, ~3.9 km) and volcanic material.",
+  "src": "app",
+  "tq": "statements"
+ }
+]
