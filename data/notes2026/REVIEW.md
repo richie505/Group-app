@@ -960,3 +960,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b4-w021 rewrite (rows 21-26): own 391 → 142 (36%). 7 off-notes own MCQs removed.
 - b2-w021 rewrite (polity rows 21-26): own 387 → 152 (39%). Notes: Kehar Singh 1988 vs 1989.
 - b1-w063 rewrite (rows 63-68): own 440 → 174 (40%). Notes: Salankayanas 'Parama Mahesvara' (Vaishnava); Pulakesin II vs Harsha date 618–19 vs 637.
+- b6-w027 rewrite (rows 27-28): own 400 → 164 (41%). Notes: 27:4:5 Harivansh 'first nominated member Deputy Chairman' (wrong, elected); 27:1:16 '326 votes needed' inconsistent.

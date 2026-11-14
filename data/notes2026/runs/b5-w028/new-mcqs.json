@@ -169,12 +169,12 @@
   "row": 28,
   "s": "Consider the following statements about digital citizenship:\n1. A responsible digital citizen verifies sources, protects data and keeps a low digital footprint.\n2. Online grievance redressal, e-consultations and open government data belong to the rights side of digital citizenship.\n3. 'Digital Detox' is a Kerala Government initiative with AIGDF on gaming and social-media addiction.\nWhich of the statements given above is/are NOT correct?",
   "o": [
+   "3 only",
    "1 and 3 only",
    "2 and 3 only",
-   "3 only",
    "1 only"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: Digital Detox is a Karnataka Government initiative (with the All India Game Developers Forum), not Kerala. Hence the answer is '3 only'.",
   "src": "app",
   "tq": "statements"
@@ -334,12 +334,12 @@
   "row": 29,
   "s": "Match the following financial cyber frauds with their modus operandi:\nList-I\na. SIM swap\nb. UPI / QR fraud\nc. Crime-as-a-service\nd. Crypto-jacking\nList-II\ni. Victim told to scan a QR code to 'receive' money, though a QR code is scanned only to pay\nii. Syndicates rent out ransomware and fraud tools\niii. Secretly using a victim's device to mine cryptocurrency\niv. Duplicate SIM obtained to intercept OTPs\nSelect the correct answer:",
   "o": [
+   "a-iv, b-i, c-ii, d-iii",
    "a-iv, b-i, c-iii, d-ii",
    "a-ii, b-iv, c-i, d-iii",
-   "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iii, c-ii, d-iv"
   ],
-  "a": 2,
+  "a": 0,
   "x": "SIM swap – Duplicate SIM obtained to intercept OTPs; UPI / QR fraud – Victim told to scan a QR code to 'receive' money, though a QR code is scanned only to pay; Crime-as-a-service – Syndicates rent out ransomware and fraud tools; Crypto-jacking – Secretly using a victim's device to mine cryptocurrency. So a-iv, b-i, c-ii, d-iii.",
   "src": "app",
   "tq": "match"
@@ -366,10 +366,10 @@
   "o": [
    "1 only",
    "1, 2 and 3 only",
-   "1 and 3 only",
-   "1, 3 and 4 only"
+   "1, 3 and 4 only",
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statement 1 is correct. Statement 2 is wrong: it is the reverse – signed with the sender's private key and verified with the public key. Statement 3 is correct. Statement 4 is wrong: Blowfish is symmetric (same key encrypts and decrypts), like AES – a faster alternative to DES. Hence the answer is '1 and 3 only'.",
   "src": "app",
   "tq": "statements"
@@ -619,12 +619,12 @@
   "row": 30,
   "s": "Consider the following statements:\n1. The Cyber Commandos programme under I4C was launched in 2024.\n2. Under the SOP of January 2026, banks may refund frauds below Rs 50,000 without a court order.\n3. Under the same SOP, frozen funds are to be released within 180 days.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 and 2 only",
    "1 only",
    "1, 2 and 3",
-   "1 and 2 only",
    "2 only"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the SOP provides for release in 90 days. e-Zero FIR runs in 19 States. Hence the answer is '1 and 2 only'.",
   "src": "app",
   "tq": "statements"
@@ -791,6 +791,366 @@
   ],
   "a": 1,
   "x": "Statement 1 is correct. Statement 2 is wrong: GCI 2024 uses tiers, not ranks; India's 10th rank was in GCI 2020. Statement 3 is correct. Hence the answer is '2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc6914ec87e42",
+  "row": 32,
+  "s": "With reference to Justice K.S. Puttaswamy (Retd) v Union of India, consider the following statements:\n1. It was decided on 24 August 2017 by a nine-judge bench by a 5:4 majority.\n2. It overruled M.P. Sharma (1954) and Kharak Singh (1962) insofar as they denied the right to privacy.\n3. Under its three-fold test, a restriction backed only by a public aim but by no law fails the test of legality.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "2 and 3 only",
+   "3 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: the nine-judge bench was unanimous. Statement 2 is correct. Statement 3 is correct: the test is legality (a law is needed), legitimate aim and proportionality. Hence the answer is '2 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1aa855d9e325",
+  "row": 32,
+  "s": "Match List-I (Case) with List-II (Point):\nCase\na. Gobind v State of MP (1975)\nb. PUCL v Union of India (1997)\nc. Puttaswamy (2017)\nd. Google Spain v AEPD (2014)\nPoint\ni. Privacy a Fundamental Right (Art. 21 + Part III)\nii. Beginning of the Right to Be Forgotten\niii. Safeguards on telephone interception\niv. Privacy part of personal liberty\nSelect the correct answer:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 0,
+  "x": "Gobind v State of MP (1975) – Privacy part of personal liberty; PUCL v Union of India (1997) – Safeguards on telephone interception; Puttaswamy (2017) – Privacy a Fundamental Right (Art. 21 + Part III); Google Spain v AEPD (2014) – Beginning of the Right to Be Forgotten. So a-iv, b-iii, c-i, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc74c88012eb5",
+  "row": 32,
+  "s": "Consider the following statements about the GDPR and India's DPDP Act:\n1. The GDPR applied from 25 May 2018 and replaced the EU's 1995 Data Protection Directive.\n2. The DPDP Act provides only financial penalties, whereas under the GDPR member states may add criminal penalties.\n3. Data portability is an explicit right under both the GDPR and the DPDP Act.\n4. The Right to Be Forgotten corresponds to the Right to Erasure under Article 17 of the GDPR.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: data portability is a GDPR right (Art. 20) but there is no statutory right under the DPDP Act. Statement 4 is correct: the DPDP equivalent, erasure, is in Sec. 12. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp20148a985301",
+  "row": 32,
+  "s": "Consider the following statements about the Aadhaar judgment of 26 September 2018:\n1. It was delivered by five judges by a 4:1 majority.\n2. Justice D.Y. Chandrachud wrote the dissent.\n3. It upheld mandatory linking of Aadhaar with bank accounts and mobile SIMs.\n4. It upheld PAN/ITR linking under Section 139AA of the Income Tax Act but struck down private-entity use under Section 57.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "3 and 4 only",
+   "3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: mandatory bank-account and SIM linking was struck down. Statement 4 is correct. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp613266cddc07",
+  "row": 32,
+  "s": "Match the following committees with their subject:\nCommittee\na. Justice A.P. Shah (2012)\nb. Justice B.N. Srikrishna (2017-18)\nc. Kris Gopalakrishnan (2020)\nd. A.K. Bhargava (DoT, 2015)\nSubject\ni. Draft Personal Data Protection Bill (July 2018)\nii. Group of Experts on Privacy\niii. Net neutrality\niv. Non-personal data\nSelect the correct answer:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 3,
+  "x": "Justice A.P. Shah (2012) – Group of Experts on Privacy; Justice B.N. Srikrishna (2017-18) – Draft Personal Data Protection Bill (July 2018); Kris Gopalakrishnan (2020) – Non-personal data; A.K. Bhargava (DoT, 2015) – Net neutrality. So a-ii, b-i, c-iv, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp87dc5dd78fed",
+  "row": 32,
+  "s": "Consider the following statements about the road to the DPDP Act:\n1. The Personal Data Protection Bill was referred to a Joint Parliamentary Committee in 2019.\n2. The JPC report of 2021 proposed 93 amendments and covered both personal and non-personal data.\n3. The Bill was withdrawn in 2022, and the DPDP Act received assent on 11 August 2023.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is correct. Hence the answer is 'All three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9e9142153dde",
+  "row": 32,
+  "s": "Match List-I (Term under the DPDP Act, 2023) with List-II (Meaning):\nList-I\na. Data Principal\nb. Data Fiduciary\nc. Significant Data Fiduciary\nd. Consent Manager\nList-II\ni. Registered entity through which consent is given, managed and withdrawn\nii. Must have a DPO in India, an independent auditor and impact assessments\niii. Individual whose data is processed (for a child, the parent/guardian)\niv. Decides the purpose and means of processing (GDPR: Data Controller)\nSelect the correct answer:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 2,
+  "x": "Data Principal – Individual whose data is processed (for a child, the parent/guardian); Data Fiduciary – Decides the purpose and means of processing (GDPR: Data Controller); Significant Data Fiduciary – Must have a DPO in India, an independent auditor and impact assessments; Consent Manager – Registered entity through which consent is given, managed and withdrawn. So a-iii, b-iv, c-ii, d-i.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp90a07e3b0c3b",
+  "row": 32,
+  "s": "Consider the following statements about the DPDP Act, 2023:\n1. The Data Principal's right to erasure is in Section 12.\n2. A Data Principal has the right to nominate and the right to impose criminal penalties on a Data Fiduciary.\n3. A Data Principal must not file frivolous complaints.\n4. Processing of children's data needs verifiable parental consent below 18 years, and tracking, behavioural monitoring and targeted ads are barred.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4",
+   "1 and 3 only",
+   "1 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: nomination is a right, but there is no right to impose criminal penalties. Statement 3 is correct. Statement 4 is correct. Hence the answer is '1, 3 and 4 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbe68ef05ad57",
+  "row": 32,
+  "s": "Consider the following:\nAssertion (A): Section 17 of the DPDP Act, 2023 exempts journalism from the Act.\nReason (R): Section 7 of the Act lists 'legitimate uses' under which the State may process personal data without consent.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: journalism gets no exemption; Sec. 17 lets the Centre exempt notified State agencies (sovereignty, security, public order) and research, archiving and statistics. R is true: Sec. 7 covers legitimate uses.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp17919063c7a8",
+  "row": 32,
+  "s": "Consider the following statements:\n1. Section 44(3) of the DPDP Act amended RTI Section 8(1)(j) and removed its public-interest override.\n2. Members of the Data Protection Board are appointed by the President on the advice of a collegium headed by the CJI.\n3. Appeals against the Data Protection Board lie with TDSAT, and its headquarters is in New Delhi.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is wrong: Board members are appointed by the Central Government. Statement 3 is correct. Hence the answer is '1 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp647276f75bcd",
+  "row": 32,
+  "s": "Match the following breaches under the DPDP Act, 2023 with the maximum penalty:\nBreach\na. Failure of security safeguards\nb. Breach of obligations on children's data\nc. Breach of Significant Data Fiduciary duties\nd. Breach of Data Principal duties\nMaximum penalty\ni. Rs 200 crore\nii. Rs 10,000\niii. Rs 250 crore\niv. Rs 150 crore\nSelect the correct answer:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 1,
+  "x": "Failure of security safeguards – Rs 250 crore; Breach of obligations on children's data – Rs 200 crore; Breach of Significant Data Fiduciary duties – Rs 150 crore; Breach of Data Principal duties – Rs 10,000. A residual breach attracts up to Rs 50 crore. So a-iii, b-i, c-iv, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp009ad22bd434",
+  "row": 32,
+  "s": "Consider the following statements about the DPDP Rules:\n1. The draft Rules were released on 3 January 2025.\n2. The final Rules were notified on 14 November 2025.\n3. Full compliance is due by May 2026.\n4. The Consent Manager provisions apply from November 2026.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: full compliance is due by May 2027 (18 months). Statement 4 is correct. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf1fa5b8c7e8a",
+  "row": 32,
+  "s": "Consider the following:\nAssertion (A): Under the DPDP Act, personal data may be transferred outside India except to countries restricted by the Central Government.\nReason (R): The DPDP Act follows the GDPR's whitelist (adequacy) model for cross-border transfers.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: the DPDP Act uses a blacklist approach (transfer allowed unless the Centre restricts). R is false: the whitelist / adequacy model belongs to the GDPR, not the DPDP Act.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp13a21aceebaf",
+  "row": 33,
+  "s": "Consider the following statements about Aryabhata, India's first satellite:\n1. It was launched by the Soviet Union on a Kosmos-3M rocket from Sriharikota.\n2. It weighed 360 kg.\n3. It was named after the 5th-century astronomer, and the satellite team was led by U.R. Rao.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 and 3 only",
+   "2 only",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: it was launched from Kapustin Yar in the USSR, not from Sriharikota. Statement 2 is correct. Statement 3 is correct. It was conceived by Sarabhai and launched after his death. Hence the answer is '2 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpee49ada03025",
+  "row": 33,
+  "s": "Match List-I (Satellite / experiment) with List-II (Satellite or vehicle used):\nList-I\na. SITE (1975-76)\nb. STEP (1977-79)\nc. APPLE (1981)\nd. IRS-1A (1988)\nList-II\ni. Franco-German Symphonie satellite\nii. Soviet Vostok rocket from Baikonur\niii. NASA's ATS-6 satellite\niv. Ariane-1 from Kourou, French Guiana\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "SITE (1975-76) – NASA's ATS-6 satellite; STEP (1977-79) – Franco-German Symphonie satellite; APPLE (1981) – Ariane-1 from Kourou, French Guiana; IRS-1A (1988) – Soviet Vostok rocket from Baikonur. APPLE was the first experimental geostationary communication satellite and IRS-1A the first operational remote-sensing satellite; ATS-6 served SITE, not APPLE. So a-iii, b-i, c-iv, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc8f3aba90e4e",
+  "row": 33,
+  "s": "Consider the following:\nAssertion (A): Rohini (RS-1), launched on 18 July 1980, made India the 6th nation to orbit a satellite with its own rocket.\nReason (R): Rohini was launched on India's SLV-3 from Sriharikota.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: Rohini was the first satellite on an Indian-made rocket because it went up on India's own SLV-3 from Sriharikota (AP); Aryabhata and Bhaskara had used Soviet rockets.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4c27ccc44245",
+  "row": 33,
+  "s": "Consider the following statements about Vikram Sarabhai:\n1. He received the Padma Bhushan in 1966 and the Padma Vibhushan posthumously in 1972.\n2. He succeeded Homi Bhabha at the Atomic Energy Commission in 1966.\n3. The COSPAR Vikram Sarabhai Medal for 2026 went to Annapurni Subramaniam, the first Indian ever to win it.\n4. He chaired INCOSPAR (1962), set up TERLS and was the first ISRO Chairman.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4",
+   "1 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: she is the 4th Indian winner and the first Indian woman. Statement 4 is correct. Hence the answer is '1, 2 and 4 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa31b3b2e6ff5",
+  "row": 33,
+  "s": "Match the following ISRO Chairmen with a highlight of their tenure:\nChairman\na. Satish Dhawan (1972-84)\nb. U.R. Rao (1984-94)\nc. G. Madhavan Nair (2003-09)\nd. S. Somanath (2022-25)\nHighlight\ni. ASLV, PSLV development, IRS-1A\nii. Chandrayaan-1\niii. Chandrayaan-3, Aditya-L1, SpaDeX\niv. SLV-3/Rohini and APPLE\nSelect the correct answer:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "Satish Dhawan (1972-84) – SLV-3/Rohini and APPLE; U.R. Rao (1984-94) – ASLV, PSLV development, IRS-1A; G. Madhavan Nair (2003-09) – Chandrayaan-1; S. Somanath (2022-25) – Chandrayaan-3, Aditya-L1, SpaDeX. So a-iv, b-i, c-ii, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd7490663be17",
+  "row": 33,
+  "s": "Consider the following statements:\n1. INCOSPAR (1962), led by Vikram Sarabhai, functioned under the Department of Space.\n2. ISRO was set up on 15 August 1969 and superseded INCOSPAR.\n3. The Department of Space and the Space Commission were set up in 1972, and the DoS reports to the Prime Minister.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: INCOSPAR was under the Department of Atomic Energy; the DoS came only in 1972. Statement 2 is correct. Statement 3 is correct. Hence the answer is '1 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp53334a505590",
+  "row": 33,
+  "s": "Match the following early milestones with the correct fact:\nList-I\na. Nike-Apache\nb. RH-75\nc. Satellite Telecommunication Earth Station\nd. TERLS, Thumba\nList-II\ni. Close to the magnetic equator\nii. First sounding rocket from Thumba, 21 Nov 1963\niii. First Indian-made sounding rocket, 20 Nov 1967\niv. Ahmedabad, 1 Jan 1967\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "Nike-Apache – First sounding rocket from Thumba, 21 Nov 1963; RH-75 – First Indian-made sounding rocket, 20 Nov 1967; Satellite Telecommunication Earth Station – Ahmedabad, 1 Jan 1967; TERLS, Thumba – Close to the magnetic equator. So a-ii, b-iii, c-iv, d-i.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2e4a12ba4370",
+  "row": 33,
+  "s": "Consider the following statements about India's space milestones:\n1. With Mangalyaan (2014) India reached Mars orbit on its maiden attempt, the first Asian nation and the 4th country to do so.\n2. Mission Shakti (ASAT test) and the formation of NSIL both took place in 2019.\n3. Aditya-L1 became the first mission to land near the lunar south pole in 2023.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "3 only",
+   "1 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: that was Chandrayaan-3; Aditya-L1 went to the L1 point. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9fd325d982b2",
+  "row": 33,
+  "s": "Consider the following statements about recent launch milestones:\n1. SpaDeX was launched on PSLV-C60 on 30 December 2024.\n2. With SpaDeX docking on 16 January 2025, India became the third country to achieve space docking.\n3. LVM3-M6 lifted BlueBird Block-2 (6,100 kg), the heaviest payload launched from Indian soil.\n4. Skyroot's Vikram-1 (18 July 2026) was the first privately developed Indian rocket to reach orbit.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1 and 3 only",
+   "1 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is wrong: India became the 4th country, after the US, Russia and China. Statement 3 is correct. Statement 4 is correct. Hence the answer is '1, 3 and 4 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp00147159bc2b",
+  "row": 33,
+  "s": "Match the following missions with India's partner:\nMission\na. Rakesh Sharma's flight on Soyuz T-11 (1984)\nb. NISAR (2025)\nc. Megha-Tropiques (2011) and SARAL (2013)\nd. Ground-tracking support for Gaganyaan\nPartner\ni. USA\nii. France\niii. European Space Agency\niv. USSR\nSelect the correct answer:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 1,
+  "x": "Rakesh Sharma's flight on Soyuz T-11 (1984) – USSR; NISAR (2025) – USA; Megha-Tropiques (2011) and SARAL (2013) – France; Ground-tracking support for Gaganyaan – European Space Agency. So a-iv, b-i, c-ii, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpdbbe31134cbd",
+  "row": 33,
+  "s": "Consider the following statements about India's Space Vision 2047:\n1. The Bharatiya Antariksh Station is targeted by 2035.\n2. An Indian is to land on the Moon by 2047.\n3. The Venus Orbiter Mission is approved at Rs 1,236 crore.\n4. Gaganyaan is to carry a crew of three for three days to an orbit of about 400 km.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "2 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: the Moon-landing target is 2040; 2047 is only the Vision horizon. Statement 3 is correct. Statement 4 is correct. Hence the answer is '2 only'.",
   "src": "app",
   "tq": "statements"
  }
