@@ -1466,3 +1466,11 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 447 → 56 kept + 108 new (164, 37%); new 65 statements / 27 match / 14 A–R / 2 sequence; 1 of 318 lines lost.
 - Removed as not in notes: f819e88d61579 (CITES Appendix II), nbb1b3a34c31 (Neeru-Chettu nodal department).
 - 117:0:7: notes flag the "one-third" PYQ key as ~one-fifth arithmetically — Disputed chip check.
+
+## rewrite b4-w096 (rows 96–98)
+- own 311 → 70 kept + 71 new (141, 45%); new 43 statements / 20 match / 8 A–R; 2 of 220 lines lost.
+- Notes conflicts: Paradip natural (96:1:0.0) vs artificial (96:1:0.1) — it is an artificial lagoon-based port; reconcile. Apache (footwear) Taiwanese (97:0:2.4) vs PYQ yf3537c98634 "Chinese" — Disputed chip. 98:6:2.3 list numbering jumps 4 → "5. Rajasthan" — cleanup.
+
+## rewrite b6-w096 (rows 96–97)
+- own 344 → 63 kept + 77 new (140, 41%); new 50 statements / 18 match / 9 A–R; 1 of 217 lines lost.
+- na6a2ac2e8fc (Vairamuthu "first Jnanpith for poetry" — notes 96:3:1.11 likely "first Tamil lyricist") removed; gbacef1a06697 (WADA "set up at Montreal"; founded Lausanne 1999, HQ Montreal) removed.

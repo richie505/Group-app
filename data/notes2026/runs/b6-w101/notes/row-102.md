@@ -1,0 +1,247 @@
+=== ICC Men's T20 World Cup 2026 – the Result
+# Result at a Glance
+| Item | Detail |
+|---|---|
+| Edition | 10th edition |
+| Teams | 20 teams |
+| Dates | 7 February – 8 March 2026 |
+| Hosts | India and Sri Lanka (joint hosts) |
+| Winner | India – beat New Zealand by 96 runs |
+| Runner-up | New Zealand |
+| Final | 8 March 2026, Narendra Modi Stadium, Ahmedabad |
+| Player of the Series | Sanju Samson |
+| Player of the Match (final) | Jasprit Bumrah |
+- India scored **255/5** in the final – the **highest total ever made in a T20 World Cup final**; New Zealand were all out for **159**.
+- **Sanju Samson** top-scored in the final with **89**; **Jasprit Bumrah** took **4 for 15** and was **Player of the Match**.
+- India became the **first team to win the Men's T20 World Cup three times** (2007, 2024, 2026).
+- India also **defended** the title it had won in 2024 (beat South Africa by 7 runs in the 2024 final).
+- Before 2026, no host team had ever won the T20 World Cup; India, as co-host, ended that run.
+> Final Player of the Match = **Jasprit Bumrah**; Player of the Series = **Sanju Samson**. Do not swap them.
+# Who Did What – Player Awards
+| Award | Player | Note |
+|---|---|---|
+| Player of the Series | Sanju Samson (India) | 321 runs in the tournament |
+| Player of the Match, final | Jasprit Bumrah (India) | 4/15 in the final |
+| Top scorer in the final | Sanju Samson | 89 |
+~~ Sources: Praveen CA-360 2026 Mar magazine p.56; https://www.aljazeera.com/sports/2026/3/8/t20-world-cup-final-india-defeat-new-zealand-by-96-runs-for-third-title (255/5, 159, Samson 89, Bumrah 4/15); app notes 6:102 sub 0
+=== T20 World Cup 2026 – Statistics and Records
+# Leading Run-Scorers
+| Rank | Batter | Team | Runs |
+|---|---|---|---|
+| 1 | Sahibzada Farhan | Pakistan | 383 |
+| 2 | Tim Seifert | New Zealand | 326 |
+| 3 | Sanju Samson | India | 321 |
+| 4 | Ishan Kishan | India | 317 |
+| 5 | Finn Allen | New Zealand | 298 |
+- **Sahibzada Farhan** (Pakistan) became the **first batter to score two centuries in a single T20 World Cup edition**.
+# Leading Wicket-Takers
+| Bowler | Team | Wickets |
+|---|---|---|
+| Jasprit Bumrah | India | 14 (joint top) |
+| Varun Chakravarthy | India | 14 (joint top) |
+| Shadley van Schalkwyk | USA | 13 |
+| Blessing Muzarabani | Zimbabwe | 13 |
+> The top run-scorer of the tournament was **not** an Indian: it was Pakistan's **Sahibzada Farhan** (383). The Player of the Series was India's **Sanju Samson**.
+~~ Sources: app notes 6:102 sub 1 (tournament statistics, not in the local library)
+=== T20 World Cup 2026 – Format, Venues and Debutants
+# Format
+- **20 teams** took part.
+- The **20-team format began in 2024** (West Indies and USA edition), **not in 2026**.
+# Venues (Places in News)
+| Country | Venues |
+|---|---|
+| India | Ahmedabad, Mumbai, Chennai, Delhi, Kolkata |
+| Sri Lanka | Colombo, Kandy |
+- Final venue: **Narendra Modi Stadium, Ahmedabad** (the same ground hosted the IPL 2026 final).
+# Debutant
+- **Italy** qualified for the T20 World Cup for the **first time** (first-ever T20 World Cup qualification).
+# Men's T20 World Cup – All Editions
+| Year | Host | Winner | Runner-up |
+|---|---|---|---|
+| 2007 | South Africa | India | Pakistan |
+| 2009 | England | Pakistan | Sri Lanka |
+| 2010 | West Indies | England | Australia |
+| 2016 | India | West Indies | England |
+| 2021 | UAE and Oman | Australia | New Zealand |
+| 2024 | West Indies and USA | India | South Africa |
+| 2026 | India and Sri Lanka | India | New Zealand |
+- West Indies (2012, 2016) and England (2010, 2022) also hold two titles each; India is the only team with **three**.
+- In 2021 Australia won its **maiden** title, beating New Zealand at **Dubai**.
+# India's Two Successive Titles – Comparison
+| Particular | T20 WC 2024 | T20 WC 2026 |
+|---|---|---|
+| Hosts | West Indies and USA | India and Sri Lanka |
+| Teams | 20 (first 20-team edition) | 20 |
+| Final opponent | South Africa | New Zealand |
+| Margin | 7 runs | 96 runs |
+| India's title number | 2nd (after 2007) | 3rd (record) |
+> New Zealand lost two of these finals: **2021** (to Australia, Dubai) and **2026** (to India, Ahmedabad).
+~~ Sources: Praveen CA-360 2026 Mar magazine p.56; app notes 6:102 sub 2
+=== IPL 2026 – the Result
+# Result at a Glance
+| Item | Detail |
+|---|---|
+| Edition | 19th edition |
+| Teams / matches | 10 teams, 74 matches |
+| Champions | Royal Challengers Bengaluru (RCB) – 2nd title |
+| Runners-up | Gujarat Titans (GT) – their 3rd final since 2022 |
+| Final | 31 May 2026, Narendra Modi Stadium, Ahmedabad |
+| Final result | RCB 161/5 (18 overs) beat GT 155/8 by 5 wickets |
+| Player of the Match (final) | Virat Kohli – 75* off 42 balls |
+| Best bowler (final) | Rasikh Salam Dar – 3/27 |
+| Orange Cap | Vaibhav Suryavanshi – 776 runs (youngest ever Orange Cap winner) |
+| Purple Cap | Kagiso Rabada – 29 wickets |
+- **RCB retained the IPL title**: it beat **Punjab Kings** in the **2025** final (its first title), so **2026 = its second successive title**.
+- RCB became the **third team** in IPL history to **successfully defend** its title.
+- In **Qualifier 1** (26 May 2026), RCB beat GT by **92 runs** (Rajat Patidar 93* off 33 balls).
+- **Gujarat Titans**: joined the IPL in **2022**; 2026 was its **third final** since then.
+> RCB's 2026 win is its **second** title (first was 2025 vs Punjab Kings) – **not** its "first".
+> IPL 2026 final margin = **5 wickets**; the **92-run** win was **Qualifier 1**, not the final.
+~~ Sources: Rocket CA 2026 Part 02 p.28 (19th IPL, RCB 2nd title, GT, Orange Cap Suryavanshi 776, Purple Cap Rabada 29, Kohli Player of the Final); https://www.theweek.in/news/sports/2026/06/01/ipl-2026-final-virat-kohli-carries-rcb-to-5-wicket-win-over-gt-to-clinch-second-title.amp.html; app notes 6:102 sub 3
+=== IPL – Background, Records and Organisation
+# Basics
+| Item | Fact |
+|---|---|
+| Organiser | BCCI |
+| Title sponsor | Tata |
+| Format | T20 |
+| Started | 2008 |
+| First champion | Rajasthan Royals (2008) |
+# Most Titles and Records
+| Record | Holder |
+|---|---|
+| Most titles | Mumbai Indians – 5 and Chennai Super Kings – 5 |
+| Most runs in a season | Virat Kohli – 973 (2016) |
+| Most Orange Caps | David Warner – 3 |
+| Youngest Orange Cap winner | Vaibhav Suryavanshi (2026) |
+# Recent IPL Finals
+| Season | Champion | Runner-up |
+|---|---|---|
+| 2025 | Royal Challengers Bengaluru (1st title) | Punjab Kings |
+| 2026 | Royal Challengers Bengaluru (2nd title) | Gujarat Titans |
+~~ Sources: Rocket CA 2026 Part 02 p.28; app notes 6:102 sub 4
+=== Women's Premier League (WPL) 2026
+| Item | Detail |
+|---|---|
+| Champions | Royal Challengers Bengaluru Women – 2nd title |
+| Runners-up | Delhi Capitals Women – their 4th straight final defeat |
+| Final | 5 February 2026, BCA Stadium, Kotambi, Vadodara |
+| Margin | 6 wickets |
+| Player of the Match (final) | Smriti Mandhana – 87 off 41 balls |
+| Host cities | Navi Mumbai and Vadodara (9 January – 5 February 2026) |
+- The WPL 2026 final was the first WPL final played on a **weekday**.
+| Season | WPL Champion |
+|---|---|
+| 2023 | Mumbai Indians |
+| 2024 | Royal Challengers Bengaluru |
+| 2025 | Mumbai Indians (beat Delhi Capitals) |
+| 2026 | Royal Challengers Bengaluru |
+> 2026 double for RCB: **WPL** (5 Feb, Vadodara) and **IPL** (31 May, Ahmedabad).
+~~ Sources: Praveen CA-360 2026 Feb magazine p.93; app notes 6:102 sub 5
+=== Ahmedabad – the Big-final Venue of 2026
+| Event | Date | Result |
+|---|---|---|
+| ICC Men's T20 World Cup final | 8 March 2026 | India beat New Zealand by 96 runs |
+| IPL 2026 final | 31 May 2026 | RCB beat Gujarat Titans by 5 wickets |
+- Both 2026 finals were at the **Narendra Modi Stadium, Ahmedabad**.
+- Ahmedabad is also the host city of the **Commonwealth Games 2030**.
+~~ Sources: Praveen CA-360 2026 Mar magazine p.56; Rocket CA 2026 Part 02 p.28
+=== Cricket – Earlier Winners, Records and Awards
+# ICC events
+| Event | Fact |
+|---|---|
+| ICC Champions Trophy 2002 | Hosted by **Sri Lanka** (September 2002) |
+| ICC World Twenty20 2010 (men) | **England** beat Australia by **7 wickets** at Barbados – England's first ICC trophy |
+| ICC Women's World Twenty20 2010 | **Australia** beat New Zealand in the final (West Indies) |
+| Blind Cricket World Cup 2018 | **India** beat Pakistan at Sharjah (also won 2014) |
+- **Brian Charles Lara** (Trinidadian, **left-handed**): **400\*** v England, Antigua, April 2004 – highest Test score; he took the record back from **Matthew Hayden (380)**, not from Bradman; he was 34, and **Bradman** had already made two Test triple-hundreds (334, 304).
+- **Subhash Gupte** – **leg-spinner**; died in Trinidad, May 2002. India won the **CB Series 2008** under Dhoni.
+# Women's T20I milestones
+- **Charlotte Edwards (England)** – **first woman to 2,000 WT20I runs (2014)** and first to 2,500; retired 2016 with 2,605.
+- **Suzie Bates (New Zealand)** – **first woman to 3,000 WT20I runs (17 November 2018)**; APPSC's key to the "first past 2,000" question names her.
+- **Mithali Raj** – **first Indian** (man or woman) past **2,000 T20I runs** (June 2018).
+- **Ellyse Perry (Australia):** ICC Women's **ODI Player of the Year 2019**; **Rachael Heyhoe-Flint Award 2017 and 2019** – never the Emerging Player award.
+# Awards and initiatives
+- **Wisden Leading Cricketer in the World 2016: Virat Kohli** (2017 Almanack).
+- **ICC Awards 2023:** Emerging Men's Cricketer = **Rachin Ravindra** (New Zealand), not Shubman Gill.
+- **CRIIIO 4 GOOD** (28 September 2023, Ahmedabad, during the Men's ODI World Cup): launched by **ICC, UNICEF and BCCI** with the Ministry of Education – **8 cricket-based animated films** / online **life-skill modules** promoting **gender equality** among girls and boys.
+# IPL and WPL
+- **M.S. Dhoni** – first IPL captain to **100 wins**.
+- **Gautam Gambhir** – Delhi Daredevils captain (2010 season).
+- **Shane Watson** – retired from all cricket (2020); last IPL season with **Chennai Super Kings**.
+# Records in news (2024–25)
+| Player | Record |
+|---|---|
+| Virat Kohli | Fastest to **14,000 ODI runs** (February 2025) |
+| Rohit Sharma | India's **most successful T20I captain** by wins |
+| Tilak Varma | Youngest to score a T20I century against a top-10 nation (2024) |
+| Vaibhav Suryavanshi | Youngest player ever picked at an IPL mega auction (13, November 2024) |
+# International grounds
+| Stadium | City |
+|---|---|
+| Dr Y.S. Rajasekhara Reddy ACA-VDCA Stadium | Visakhapatnam |
+| Feroz Shah Kotla (Arun Jaitley Stadium) | Delhi |
+| Wankhede Stadium | Mumbai |
+| Shri Atal Bihari Vajpayee Ekana Stadium | Lucknow |
+~~ Sources: https://www.unicef.org/india/press-releases/icc-bcci-ministry-education-and-unicef-launch-criiio-4-good-initiative (CRIIIO 4 GOOD); https://en.wikipedia.org/wiki/List_of_players_who_have_scored_2,000_or_more_runs_in_Women%27s_Twenty20_International_cricket (Bates first to 3,000) and web search (Edwards first to 2,000, 2014; Mithali first Indian, June 2018); app notes 6:99 sub 0, 6:100 sub 1-2, 6:102 sub 4; other lines general knowledge, not checked
+=== Olympics and Commonwealth Games – Hosts and Medals
+| Games | Host |
+|---|---|
+| Summer Olympics 2012 | **London** – first city to host three times (1908, 1948, 2012) |
+| Summer Olympics 2016 | Rio de Janeiro |
+| Summer Olympics 2024 | **Paris** |
+| Summer Olympics 2028 | Los Angeles |
+| Winter Olympics 2014 / 2018 / 2022 | Sochi / PyeongChang / **Beijing** |
+| Commonwealth Games 1930 (first) | **Hamilton, Canada** |
+| Commonwealth Games 2010 / 2014 / 2018 / 2022 | Delhi / Glasgow / Gold Coast / **Birmingham** |
+| Commonwealth Games 2026 / 2030 | Glasgow / Ahmedabad |
+- **Rio 2016 total medals:** USA **121**, China **70**, Great Britain **67**, Russia **56** → order USA, China, GB, Russia.
+- **CWG 2022 lawn bowls:** **Lovely Choubey, Pinki, Nayanmoni Saikia, Rupa Rani Tirkey** – India's first-ever lawn bowls gold (women's fours).
+- **Special Olympics World Winter Games 2017 (Austria):** India **73 medals** (37 gold, 10 silver, 26 bronze).
+~~ Sources: https://homegrown.co.in/homegrown-explore/lifestyle/india-just-won-73-medals-at-2017s-special-winter-olympics (Special Olympics 2017: 73); app notes 6:99 sub 3; Olympic/CWG host lines general knowledge, not checked
+=== Badminton, Tennis, Football and F1 – Earlier Winners
+| Event | Winner |
+|---|---|
+| Uber Cup 2016 (Kunshan, China) | **China** (beat South Korea) |
+| Sudirman Cup 2017 (Gold Coast) | **South Korea** (beat China) |
+| Singapore Open 2017 men's singles | **B. Sai Praneeth** (beat Kidambi Srikanth) |
+| Australian Open 2025 women's singles | **Madison Keys** (beat Aryna Sabalenka) |
+| Australian Grand Prix 2017 (F1) | **Sebastian Vettel** (Ferrari) |
+| Italian Grand Prix 2017 (F1, Monza) | **Lewis Hamilton** (Mercedes) |
+| FIFA Club World Cup 2016 – Golden Ball | **Cristiano Ronaldo** (Real Madrid) |
+| ISL 2022–23 | **ATK Mohun Bagan** (beat Bengaluru FC on penalties) |
+| Hockey Junior World Cup 2016, Lucknow | **India** (beat Belgium 2–1) |
+- **P.V. Sindhu:** record **four-year, about ₹50 crore deal with Li Ning** (February 2019); BWF **Most Improved Player 2016**.
+- **Grand Slam tennis:** the four majors are run jointly through the Grand Slam Board and are **open to all** (professionals and amateurs).
+- **Football:** **Bhaichung Bhutia** – India captain (around 2010); **Praful Patel** – first Indian elected to the **FIFA Council** (2019).
+- **Tweed Valley** – **Scotland** (River Tweed; Scotland–England border area).
+~~ Sources: https://www.badmintonplanet.com/badminton-news/13653-pv-sindhu-signs-usd-7-million-deal-li-ning.html (Sindhu–Li Ning, Feb 2019); app notes 6:99 sub 1, 6:100 sub 3, 6:100 sub 8; other winners general knowledge, not checked
+=== Indian Sport – Earlier Champions, Awards and Firsts
+# Domestic titles 2024–25
+| Event | Winner |
+|---|---|
+| Santosh Trophy 2024–25 | **West Bengal** |
+| Pro Kabaddi League 2024 (Season 11) | **Haryana Steelers** |
+| Ranji Trophy 2024–25 | **Vidarbha** |
+| IPL 2024 | **Kolkata Knight Riders** |
+| WPL 2025 | **Mumbai Indians** |
+# Indian achievers
+| Player | Achievement |
+|---|---|
+| Anahat Singh | Gold, **Asian Junior Squash** Championships 2023 |
+| Mohit Kumar | **U-20 World Champion**, men's 61 kg freestyle (Amman, 2023) |
+| Aishwary Pratap Singh Tomar | Gold, **FISU** World University Games 2023 (Chengdu) |
+| Man Singh | Asian Marathon Championships gold (Hong Kong, January 2024) – **second Indian** man after T. Gopi (2017) |
+| Navjeet Dhillon | Discus gold, Qosanov Memorial 2022 (Almaty) – **56.24 m** |
+| Joshna Chinappa | **16th** national squash women's title (December 2018) – equalled Bhuvaneswari Kumari's record |
+| Sagar Baheti | First **visually impaired** Indian to finish the **Boston Marathon** (April 2017) |
+| Jyoti Ratre | Oldest Indian woman on Everest (55, May 2024); the earlier record (53, 2018) was **Sangeeta Bahl**'s |
+- **FIH Hockey Stars Awards 2023:** **Hardik Singh** – men's Player of the Year; **Savita Punia** – Goalkeeper of the Year (not Sushila Chanu).
+- **World U-20 Wrestling Championships 2023 (Amman):** India **14 medals – 4 gold, 3 silver, 7 bronze**; won the women's team title.
+- **IBA Women's World Boxing Championships 2023 (New Delhi):** India topped with **4 golds** (Nitu, Nikhat Zareen, Lovlina Borgohain, Saweety Boora); **China 3, Russia 1, Australia 0**.
+# Awards and schemes
+- **MAKA Trophy 2016–17:** **Punjabi University, Patiala**.
+- **Rashtriya Khel Protsahan Puraskar 2017:** **Kendriya Vidyalaya Sangathan** (identification and nurturing of budding talent), presented 29 August 2017.
+- **Khelo India national-level competitions** (New Delhi, 15–21 January 2017, inaugurated by Vijay Goel): **swimming, cycling, wrestling**.
+- **Khelo India Women's League** renamed **ASMITA** (Achieving Sports Milestone by Inspiring Women Through Action) from **August 2023**.
+~~ Sources: https://en.wikipedia.org/wiki/2023_IBA_Women%27s_World_Boxing_Championships (India 4, China 3, Russia 1, Australia 0 golds); https://scroll.in/field/1054625/wrestling-u-20-world-cships-sumit-wins-greco-roman-silver-as-india-end-campaign-with-14-medals (4-3-7); https://www.nationalheraldindia.com/sports/man-singh-becomes-second-indian-man-to-win-gold-at-asian-marathon-championships; https://ramnathkovind.nic.in/pdf/pr290817.pdf (RKPP 2017 KVS); https://sports.yas.gov.in/national-sports-awards/maulana-abul-kalam-azad-trophy-170 (MAKA 2016-17); https://business-standard.com/article/pti-stories/sports-minister-goel-inaugurates-khelo-india-competitions-117011500581_1.html; https://thebridge.in/athletics/navjeet-dhillon-gold-discus-qosanov-memorial-32733; https://www.sportscafe.in/squash/articles/2018/dec/17/joshna-chinappa-named-national-champion-for-a-record-equalling-16-th-time; https://www.gktoday.in/sagar-baheti-indias-visually-impaired-athlete-complete-boston-marathon/; app notes 6:99 sub 7
