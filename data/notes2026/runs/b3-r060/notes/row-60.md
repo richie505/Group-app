@@ -19,6 +19,7 @@
 | Egg turning in the setter | At least **6-8 times a day** |
 | Setter → hatcher transfer | **18th day** (chicken eggs hatch in 21 days) |
 | Floor space, layer on deep litter | About **2 sq ft per hen** |
+
 | Meat and slaughter-house norm | Value |
 |---|---|
 | Thawing meat for feeding zoo animals | **4-6 °C** (in a refrigerator, not at room temperature) |
@@ -66,7 +67,7 @@
 | National Livestock Mission | 2014-15; revised 2021-22 | Breed development (poultry, sheep, goat, piggery), feed and fodder, innovation and extension |
 | AHIDF | 2020 | Animal husbandry infrastructure |
 | LHDCP | – | Prophylactic vaccination, disease control |
-| **Credit Guarantee Scheme for Livestock** | 2024 | **Department of Animal Husbandry and Dairying** – collateral-free loans (dairy, poultry); not NABARD, RBI or Finance Ministry |
+| **Credit Guarantee Scheme for Livestock** | – (under AHIDF) | **Department of Animal Husbandry and Dairying** – collateral-free loans (dairy, poultry); not NABARD, RBI or Finance Ministry |
 - **National Kamdhenu Breeding Centres** (Rashtriya Gokul Mission): **Chintaladevi, Nellore (AP)** and **Itarsi (MP)**.
 - **Nandini Krishak Samriddhi Yojana (Uttar Pradesh, Nand Baba Mission):** units of 25 indigenous cows of **Sahiwal, Gir, Tharparkar and Gangatiri only**; beneficiary needs **at least 3 years** (not 1 year) of cattle-rearing experience.
 ~~ Sources: PMF Human & Economic Geography 06 p.36 (largest livestock population); Ramesh Singh Indian Economy part 04 p.158; web (Nandini Krishak Samriddhi Yojana eligibility); app notes 3:60 sub 3-4
