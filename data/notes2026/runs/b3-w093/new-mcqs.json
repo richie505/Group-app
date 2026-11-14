@@ -1,16 +1,16 @@
 [
  {
-  "id": "cp5b785d4a02aa",
+  "id": "cp077c937c3f78",
   "row": 93,
-  "s": "Consider the following statements about the new Consumer Price Index (base 2024):\n1. CPI (Rural / Urban / Combined) is compiled by the National Statistical Office (NSO), MoSPI.\n2. Its first release, on 12 February 2026, was for January 2026.\n3. It has 12 divisions under COICOP 2018 and covers 358 items.\n4. Food and beverages carry a weight of about 46% in it.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about the new Consumer Price Index (base 2024):\n1. CPI (Rural / Urban / Combined) is compiled by the National Statistical Office (NSO), MoSPI.\n2. Its first release, on 12 February 2026, was for January 2026.\n3. It has 12 divisions under COICOP 2018 and covers 358 items.\n4. Food and beverages carry a weight of 36.75% in it.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
-   "All four",
-   "Only three"
+   "Only three",
+   "All four"
   ],
   "a": 3,
-  "x": "Statements 1, 2 and 3 are correct (NSO, MoSPI; first release 12 Feb 2026 for Jan 2026; 12 COICOP-2018 divisions, 358 items, 12 online platforms added). Statement 4 is wrong: food and beverages weigh 36.75% in the 2024 series; about 46% was the weight in the 2012 series.",
+  "x": "All four statements are correct: NSO, MoSPI compiles it; first release 12 Feb 2026 for Jan 2026; 12 COICOP-2018 divisions and 358 items (12 online platforms added); food and beverages weigh 36.75% (about 46% in the 2012 series).",
   "src": "app",
   "tq": "statements"
  },
@@ -300,17 +300,17 @@
   "tq": "statements"
  },
  {
-  "id": "cpb5909603b484",
+  "id": "cp31ad5cff2754",
   "row": 94,
-  "s": "Consider the following statements about direct and indirect taxes:\n1. Direct taxes are generally progressive in nature.\n2. Indirect taxes are generally non-inflationary.\n3. Indirect taxes are administered by the CBIC, while direct taxes are administered by the CBDT.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about direct and indirect taxes:\n1. Indirect taxes are generally progressive in nature.\n2. Indirect taxes are generally non-inflationary.\n3. Indirect taxes are administered by the CBIC, while direct taxes are administered by the CBDT.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
+   "3 only",
    "1 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "1 and 3 only",
+   "2 and 3 only"
   ],
   "a": 0,
-  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: indirect taxes raise prices and are inflationary; it is direct taxes that are non-inflationary.",
+  "x": "Only statement 3 is correct. Statement 1 is wrong: indirect taxes are generally regressive; direct taxes are progressive. Statement 2 is wrong: indirect taxes raise prices and are inflationary; direct taxes are non-inflationary.",
   "src": "app",
   "tq": "statements"
  },
@@ -855,9 +855,9 @@
   "tq": "match"
  },
  {
-  "id": "cpb0867c51c248",
+  "id": "cp01385eac12ee",
   "row": 96,
-  "s": "Consider the following statements about GST:\n1. The GST concept was first used in France.\n2. India follows the Australian dual-GST model.\n3. Amitabh Bachchan was the brand ambassador of GST in India.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about GST:\n1. The GST concept was first used in France.\n2. India follows the Canadian dual-GST model.\n3. Amitabh Bachchan was the brand ambassador of GST in India.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
    "2 and 3 only",
@@ -865,7 +865,7 @@
    "1, 2 and 3"
   ],
   "a": 2,
-  "x": "Statements 1 and 3 are correct (France, 1954). Statement 2 is wrong: India follows the Canadian dual model.",
+  "x": "All three are correct: the concept was first used in France (1954); India follows the Canadian dual model; Amitabh Bachchan was the brand ambassador.",
   "src": "app",
   "tq": "statements"
  },
@@ -990,9 +990,9 @@
   "tq": "match"
  },
  {
-  "id": "cp633717104e15",
+  "id": "cp8082d2d4419e",
   "row": 96,
-  "s": "Consider the following statements:\n1. Under the GST composition scheme, suppliers of goods with turnover up to ₹1.5 crore pay 1%.\n2. Service providers under the composition scheme have a turnover limit of ₹75 lakh and pay 2%.\n3. Composition taxpayers cannot claim input tax credit.\n4. From 1 October 2024, anti-profiteering cases are heard by the Principal Bench of the GSTAT.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements:\n1. Under the GST composition scheme, suppliers of goods with turnover up to ₹1.5 crore pay 1%.\n2. Service providers under the composition scheme have a turnover limit of ₹75 lakh and pay 2%.\n3. Composition taxpayers can claim input tax credit on their inputs.\n4. From 1 October 2024, anti-profiteering cases are heard by the Principal Bench of the GSTAT.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -1000,14 +1000,14 @@
    "All four"
   ],
   "a": 2,
-  "x": "Statements 1, 3 and 4 are correct (anti-profiteering chain NAA → CCI in Dec 2022 → GSTAT from 1 Oct 2024). Statement 2 is wrong: the service-provider limit is ₹50 lakh at 6%.",
+  "x": "Statements 1 and 4 are correct (anti-profiteering chain NAA → CCI in Dec 2022 → GSTAT from 1 Oct 2024). Statement 2 is wrong: the service-provider limit is ₹50 lakh at 6%. Statement 3 is wrong: there is no ITC under the composition scheme.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp0412f9766186",
+  "id": "cp8857e968c561",
   "row": 96,
-  "s": "Consider the following statements:\n1. GSTN was set up as a not-for-profit, non-government company in which private institutions held 51%.\n2. GSTN was made a fully government-owned company in 2020.\n3. An e-way bill is required for movement of goods above ₹50,000.\n4. An e-way bill is generally valid for one day for every 200 km.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements:\n1. GSTN was set up as a not-for-profit, non-government company in which private institutions held 51%.\n2. GSTN was made a fully government-owned company in 2020.\n3. An e-way bill is required for movement of goods above ₹1 lakh.\n4. An e-way bill is generally valid for one day for every 200 km.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -1015,7 +1015,7 @@
    "Only three"
   ],
   "a": 3,
-  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the decision to make GSTN fully government-owned was taken in 2018 (Centre and States held 24.5% each before).",
+  "x": "Statements 1 and 4 are correct. Statement 2 is wrong: the decision to make GSTN fully government-owned was taken in 2018 (Centre and States held 24.5% each before). Statement 3 is wrong: the e-way bill threshold is ₹50,000.",
   "src": "app",
   "tq": "statements"
  },
@@ -1080,32 +1080,32 @@
   "tq": "match"
  },
  {
-  "id": "cp85614c1be9d2",
+  "id": "cp0014608bcae0",
   "row": 97,
-  "s": "Consider the following statements about the Economic Survey 2025-26's view of GST 2.0:\n1. It describes GST 2.0 as the third pillar of tax reform.\n2. The two earlier pillars were the 2016 demonetisation and the 2019 corporate tax cut.\n3. It notes that volume effects of rate cuts may offset the initial revenue loss.\nWhich of the statements given above is/are correct?",
+  "s": "Consider the following statements about the Economic Survey 2025-26's view of GST 2.0:\n1. It describes GST 2.0 as the third pillar of tax reform.\n2. The two earlier pillars were the 2019 corporate tax cut and the 2025 personal income-tax reform.\n3. It notes that volume effects of rate cuts may offset the initial revenue loss.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1, 2 and 3",
    "1 and 3 only",
-   "1 only",
    "2 and 3 only",
-   "1, 2 and 3"
+   "1 only"
   ],
   "a": 0,
-  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the two earlier pillars were the 2019 corporate tax cut and the 2025 personal income-tax reform.",
+  "x": "All three are correct: the Survey calls GST 2.0 the third pillar of tax reform after the 2019 corporate tax cut and the 2025 personal income-tax reform, and notes that volume effects may offset the revenue loss from rate cuts.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp43d06c6d4670",
+  "id": "cp7a754697d2aa",
   "row": 97,
-  "s": "Consider the following statements about GST rates:\n1. The 2017 slabs of 5, 12, 18 and 28% were meant as a transitional arrangement.\n2. GST 2.0 was approved at the 56th GST Council meeting and took effect on 22 September 2025.\n3. Under GST 2.0, about 99% of items of the old 12% slab moved to 18%.\n4. Under GST 2.0, about 90% of items of the old 28% slab moved to 18%.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about GST rates:\n1. The 2017 slabs of 5, 12, 18 and 28% were meant as a transitional arrangement.\n2. GST 2.0 was approved at the 56th GST Council meeting and took effect on 22 September 2025.\n3. Under GST 2.0, about 99% of items of the old 12% slab moved to 18%.\n4. Under GST 2.0, about 90% of items of the old 28% slab moved to 40%.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
-   "Only three",
    "Only two",
+   "Only three",
    "All four"
   ],
   "a": 1,
-  "x": "Statements 1, 2 and 4 are correct (GST 2.0: 0, 5% merit, 18% standard, 40% demerit). Statement 3 is wrong: about 99% of old 12% items moved down to 5%.",
+  "x": "Statements 1 and 2 are correct (GST 2.0: 0, 5% merit, 18% standard, 40% demerit). Statement 3 is wrong: about 99% of old 12% items moved down to 5%. Statement 4 is wrong: about 90% of old 28% items moved down to 18%; 40% is only for demerit goods.",
   "src": "app",
   "tq": "statements"
  },
