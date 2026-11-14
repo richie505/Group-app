@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "cpe81adc708151",
+  "row": 50,
+  "s": "Consider the following statements:\n1. Unclassed Forests make up about 6% of it.\n2. Reserved Forests make up about 85.8% of the notified forest area of Andhra Pradesh.\n3. Protected Forests make up about 13.6% of it.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: Unclassed forests are only about 0.6% (Reserved 85.8% + Protected 13.6% + Unclassed 0.6% of the recorded forest area of 37,258 sq km, 22.86% of AP).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp69cf742442ea",
+  "row": 50,
+  "s": "Consider the following statements:\n1. As per ISFR 2023, the forest cover of Andhra Pradesh is 30,084.96 sq km, about 18.47% of its area.\n2. ISFR 2023 recorded a gain of only about 95.59 sq km over ISFR 2021, with Vizianagaram showing the largest district gain.\n3. As per ISFR 2023, the forest and tree cover together is about 21.74% of the State.\n4. As per ISFR 2023, the tree cover of Andhra Pradesh is 8,351.62 sq km.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 2 and 3) are correct. 4 is wrong: ISFR 2023 tree cover is 5,340.02 sq km (forest + tree cover 35,424.98 sq km = 21.74%); 8,351.62 sq km is the scrub area.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp69600fd44af0",
+  "row": 50,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The often-quoted figure of 38,436.58 sq km overstates the forest cover of Andhra Pradesh.\nReason (R): That figure adds about 8,351.62 sq km of scrub, whose canopy density is below 10% and which is not counted as forest cover.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: 38,436.58 sq km = 30,084.96 sq km forest cover + 8,351.62 sq km scrub; scrub (canopy < 10%) is not forest cover in ISFR.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp5c252790b4a8",
+  "row": 50,
+  "s": "Consider the following statements:\n1. As per ISFR 2023, forest and tree cover together is about 25.17% of India's area.\n2. Of the 1,445 sq km gain in green cover reported by ISFR 2023, only about 156 sq km was true forest.\n3. Arunachal Pradesh has the maximum forest area among Indian States.\n4. India ranked 3rd in the world in forest-area gain during 2010–2020.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Madhya Pradesh has the maximum forest area in India.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbd4b0c478bc5",
+  "row": 50,
+  "s": "Match List-I (ISFR density class) with List-II (canopy density):\nList-I:\na. Very Dense Forest\nb. Moderately Dense Forest\nc. Open Forest\nd. Scrub\nList-II:\ni. 10–40%\nii. Below 10%\niii. 70% and above\niv. 40–70%\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "VDF – 70% and above; MDF – 40–70%; Open Forest – 10–40%; Scrub – below 10% (and scrub is not forest cover).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa42421efaaf8",
+  "row": 50,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): Open Forest was the largest forest density class of Andhra Pradesh in ISFR 2023.\nReason (R): Scrub, with canopy density below 10%, is counted as part of forest cover in the ISFR.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: Open Forest (14,363.50 sq km) became the largest class in ISFR 2023 (Moderately Dense was largest up to ISFR 2021). R is false: scrub (canopy < 10%) is NOT forest cover.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp0286e6db0580",
+  "row": 50,
+  "s": "Consider the following statements:\n1. Among the pre-2022 districts, Visakhapatnam had the highest rainfall and Nellore the lowest.\n2. Among the pre-2022 districts, YSR Kadapa had the largest notified forest area.\n3. Among the pre-2022 districts, Krishna had the lowest forest area.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: Visakhapatnam had the highest rainfall, but the lowest was Anantapur, not Nellore.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa2aa3f7fde35",
+  "row": 50,
+  "s": "Consider the following statements:\n1. In the 2023–24 fire season, Andhra Pradesh was first in India in forest area burnt, about 5,286.76 sq km.\n2. The 2026 fire-prone forest zones of Andhra Pradesh lay in Srikakulam and Vizianagaram districts.\n3. Drives such as 'Ek Ped Maa Ke Naam' are criticised because they add tree cover rather than natural forest.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the 2026 fire-prone zones were in Chittoor and Annamayya (Horsley Hills, Mallappa Konda).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8161d1d8dae1",
+  "row": 50,
+  "s": "Match List-I (forest type of Andhra Pradesh) with List-II (typical area):\nList-I:\na. Moist deciduous\nb. Dry deciduous\nc. Short thorn\nd. Tidal / mangrove\nList-II:\ni. Anantapur and Chittoor\nii. Mouths of the Godavari and Krishna\niii. Papikonda and the East Godavari agency\niv. Seshachalam–Nallamala belt\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Moist deciduous – Srikakulam, Visakhapatnam, East Godavari agency, Papikonda; dry deciduous – Kadapa, Kurnool, Seshachalam–Nallamala; short thorn – Kadapa, Kurnool, Chittoor, Anantapur; tidal – Godavari and Krishna mouths (Coringa).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpec3b17370484",
+  "row": 50,
+  "s": "Consider the following statements:\n1. Dry deciduous forests, the largest forest type of Andhra Pradesh, grow where rainfall is about 75–100 cm.\n2. Moist deciduous forests of Andhra Pradesh grow where rainfall is about 125–200 cm.\n3. Short thorn forests grow where annual rainfall is below 50 cm.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: short thorn forests occur where rainfall is below 70 cm (Kadapa, Kurnool, Chittoor, Anantapur).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1df687db9cb1",
+  "row": 50,
+  "s": "Consider the following statements:\n1. The northern extent of the forests of Andhra Pradesh is marked by the Simhachalam hills.\n2. The western extent of the forests is marked by the Seshachalam hills.\n3. The Deccan Plateau is the largest biotic province of Andhra Pradesh, with about 53% of its forests.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: the western extent is the Balaghat hills; the southern extent is the Palakonda and Nallamala hills.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6f43529de2b9",
+  "row": 50,
+  "s": "Consider the following statements:\n1. As per ISFR 2023, the mangrove cover of Andhra Pradesh rose by about 13.01 sq km.\n2. The MISHTI mangrove programme was launched on 5 June 2021.\n3. The Godavari–Krishna estuaries are called India's second-largest mangrove ecosystem, which holds only for the east coast.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: MISHTI was launched on 5 June 2023. By ISFR area AP is behind West Bengal, Gujarat and A&N, so '2nd' holds only on the east coast.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf86bb141533e",
+  "row": 50,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): Red sanders is one of the most important trees of the tropical rainforests of the Seshachalam hills.\nReason (R): The Seshachalam hills carry dry deciduous forests.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: red sanders is a dry deciduous tree, not a tropical rainforest tree. R is true: Seshachalam hills = dry deciduous (not wet evergreen, desert or mangrove).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6583c283e8d8",
+  "row": 50,
+  "s": "Consider the following statements:\n1. Red sanders is listed as Endangered by the IUCN.\n2. Red sanders is listed in Schedule I of the Wildlife (Protection) Act, 1972.\n3. Red sanders is listed in Appendix II of CITES.\n4. Red sanders is endemic to the Seshachalam, Palakonda and Veligonda ranges.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 3 and 4) are correct. 2 is wrong: red sanders is in Schedule IV of the Wildlife (Protection) Act, not Schedule I.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp708b578b1ae0",
+  "row": 50,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): Red sanders is listed in Appendix II of CITES.\nReason (R): Red sanders is endemic to the southern Eastern Ghats of Andhra Pradesh.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but endemism is not why it is on CITES Appendix II (the listing controls international trade of the heavily smuggled wood). Red sanders is endemic to Seshachalam, Palakonda and Veligonda.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpca0067befefd",
+  "row": 50,
+  "s": "Match List-I (agency) with List-II (role in forest produce):\nList-I:\na. Girijan Co-operative Corporation (GCC)\nb. TRIFED\nc. APFDC\nd. CAMPA\nList-II:\ni. Compensatory afforestation through an Annual Plan of Operation\nii. Government's export agent for red sanders and beedi leaf\niii. Nodal agency for MSP for minor forest produce\niv. Buys minor forest produce from tribals; HQ Visakhapatnam\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 1,
+  "x": "GCC (HQ Visakhapatnam) buys MFP; TRIFED – MSP for MFP; APFDC – export agent for red sanders and beedi leaf; CAMPA – compensatory afforestation through an APO.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf7a0de0f3765",
+  "row": 50,
+  "s": "Consider the following statements:\n1. TRIFED was set up in 1987 under the Multi-State Co-operative Societies Act, 1984.\n2. TRIFED functions under the Ministry of Environment, Forest and Climate Change.\n3. The Girijan Co-operative Corporation has its headquarters at Visakhapatnam.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: TRIFED functions under the Ministry of Tribal Affairs.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5b40aaae32bf",
+  "row": 50,
+  "s": "Match List-I (wood bank) with List-II (location):\nList-I:\na. Teak wood bank\nb. Red sanders wood bank\nc. Bamboo bank\nd. Craft wood bank\nList-II:\ni. Tirupati\nii. Kondapalli\niii. Kapavaram\niv. Rajamahendravaram\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Teak – Kapavaram; red sanders – Tirupati; bamboo – Rajamahendravaram; craft wood banks (Kondapalli, Etikoppaka, Udayagiri, Bobbili …) supply artisans at no profit.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp50ec339ba1d0",
+  "row": 50,
+  "s": "Consider the following statements:\n1. The forest revenue of Andhra Pradesh in 2023-24 was about ₹19.63 crore.\n2. Non-timber forest produce of Andhra Pradesh is worth over ₹500 crore a year.\n3. Bamboo and sandalwood come mainly from the moist hill forests of the northern Eastern Ghats.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: forest revenue was ₹32.81 crore in 2023-24; ₹19.63 crore is for 2024-25 up to December.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp296a7aca9c16",
+  "row": 50,
+  "s": "Consider the following statements:\n1. Vanam-Manam aims at green cover outside reserved forests; 5.29 crore seedlings were planted in 2024-25 up to December.\n2. About 26,924 ha of forest land was diverted in Andhra Pradesh under the Van Adhiniyam, 1980 up to 2017-18.\n3. The 16th Finance Commission counts open forests using uniform area weights.\n4. The Rekapalli revolt of 1879 was directed against British forest laws.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 2 and 4) are correct. 3 is wrong: the 16th Finance Commission counts open forests with density-based weights.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9a2aee1334c6",
+  "row": 51,
+  "s": "Consider the following statements:\n1. Andhra Pradesh has two tiger reserves.\n2. As per APSES 2024-25, Andhra Pradesh has 3 national parks and 13 wildlife sanctuaries.\n3. The protected-area network (national parks + wildlife sanctuaries) covers 8,139.88 sq km, about 4.99% of the State.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: AP has 1 tiger reserve (NSTR), 1 elephant reserve and 1 biosphere reserve. The PA network is also 21.87% of notified forest.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp47f56a2b122d",
+  "row": 51,
+  "s": "Match List-I (national park) with List-II (fact):\nList-I:\na. Sri Venkateswara NP\nb. Papikonda NP\nc. Rajiv Gandhi (Rameswaram) NP\nd. Mrugavani NP\nList-II:\ni. Smallest NP of AP, about 2.30 sq km\nii. Lies in Telangana, not AP\niii. First NP of AP (1989)\niv. Largest NP of AP, about 1,012.90 sq km\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "SV NP – first NP (1989); Papikonda – largest (1,012.90 sq km); Rajiv Gandhi (Rameswaram) – smallest (2.30 sq km); Mrugavani NP is in Telangana.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd5ab3b5e61d8",
+  "row": 51,
+  "s": "Consider the following statements:\n1. Rajiv Gandhi (Rameswaram) National Park is the smallest national park of Andhra Pradesh.\n2. It lies on the north bank of the Krishna in Kadapa district.\n3. It was declared in 2005.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: the park (2.30 sq km, 2005) lies on the north bank of the Penna in Kadapa, not the Krishna.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpab000d4857fd",
+  "row": 51,
+  "s": "Consider the following statements:\n1. Papikonda was a wildlife sanctuary from 1978 and became a national park in 2008.\n2. The tiger 'Explorer' released into Papikonda in February 2026 came from Bandipur.\n3. After 2014 Papikonda National Park lies wholly in Andhra Pradesh.\n4. The 'kanchu mekha' dwarf goat is associated with Papikonda.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 3 and 4 are correct. 2 is wrong: 'Explorer' came from Tadoba. The Khammam part came to AP with the Polavaram mandals, so the park is now wholly in AP.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp27d8cab1b78f",
+  "row": 51,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): Grazing of livestock is not permitted inside a national park.\nReason (R): The boundary of a national park can be altered only on the advice of the National Board for Wildlife.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true (no rights and no grazing in an NP; boundary changed only on NBWL advice), but the boundary rule does not explain the grazing ban – they are two separate features of NP status.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpc0a41eb923c5",
+  "row": 51,
+  "s": "Match List-I (wildlife sanctuary) with List-II (district):\nList-I:\na. Kambalakonda\nb. Koundinya\nc. Sri Lankamalleswara\nd. Kolleru\nList-II:\ni. Kadapa\nii. Eluru\niii. Visakhapatnam\niv. Chittoor\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "Kambalakonda – Visakhapatnam; Koundinya – Chittoor (not Nellore); Sri Lankamalleswara – Kadapa; Kolleru – Eluru (West Godavari).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb1eb757d9272",
+  "row": 51,
+  "s": "Match List-I (sanctuary) with List-II (flagship species):\nList-I:\na. Coringa\nb. Gundla Brahmeswaram\nc. Rollapadu\nd. Sri Lankamalleswara\nList-II:\ni. Jerdon's courser\nii. Great Indian Bustard\niii. Tiger\niv. Saltwater crocodile\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Coringa – saltwater crocodile; Gundla Brahmeswaram – tiger; Rollapadu – Great Indian Bustard (and blackbuck); Sri Lankamalleswara – Jerdon's courser.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp93fd2dfa8b39",
+  "row": 51,
+  "s": "Consider the following statements:\n1. Rajiv Gandhi Wildlife Sanctuary is the largest wildlife sanctuary of Andhra Pradesh, about 2,131.67 sq km.\n2. It was earlier called the Nagarjunasagar–Srisailam WLS and forms the core of NSTR.\n3. In Andhra Pradesh it spans Kadapa, Annamayya and Tirupati districts.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 2) are correct. 3 is wrong: its AP part lies in Nandyal, Prakasam and Palnadu (the Nallamala).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp94fca893438d",
+  "row": 51,
+  "s": "Consider the following statements:\n1. Gundla Brahmeswaram WLS lies in the Nallamala between the Krishna and the Penna.\n2. The herb Euphorbia chalamensis was recorded in it in 2026.\n3. It was notified in 1988.\n4. It serves as a tiger corridor.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Gundla Brahmeswaram was notified in 1990 (with Koundinya); 1988 was Rollapadu and Sri Lankamalleswara.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp913d1634dd01",
+  "row": 51,
+  "s": "Consider the following statements:\n1. Sri Penusila Narasimha WLS lies in Kadapa and Nellore districts.\n2. Andhra Pradesh shares Pulicat Lake with Tamil Nadu.\n3. Krishna WLS protects the mangroves of the Krishna estuary near Machilipatnam.\n4. Rollapadu WLS is a grassland with the Great Indian Bustard and blackbuck.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "All four are correct: Penusila – Kadapa/Nellore (Penusila hills); Pulicat – brackish lagoon shared with TN; Krishna WLS – Krishna estuary mangroves; Rollapadu (Nandyal) – grassland, GIB and blackbuck.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe105006349bf",
+  "row": 51,
+  "s": "Arrange the following in chronological order of notification:\n1. Pulicat Wildlife Sanctuary\n2. Nagarjunasagar–Srisailam Tiger Reserve\n3. Koundinya Wildlife Sanctuary\n4. Papikonda National Park\nSelect the correct answer using the code given below:",
+  "o": [
+   "2, 1, 3, 4",
+   "1, 3, 2, 4",
+   "1, 2, 3, 4",
+   "1, 2, 4, 3"
+  ],
+  "a": 2,
+  "x": "Pulicat 1976 → NSTR 1983 → Koundinya 1990 → Papikonda NP 2008.",
+  "src": "app",
+  "tq": "sequence"
+ },
+ {
+  "id": "cpdf6064b5b278",
+  "row": 51,
+  "s": "Consider the following statements:\n1. Rollapadu and Sri Lankamalleswara wildlife sanctuaries were both notified in 1988.\n2. Kolleru was notified as a wildlife sanctuary in 2002.\n3. Sri Venkateswara National Park was notified in 1989.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: Kolleru became a WLS in 1999; 2002 is the year it became a Ramsar site.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5a254f26ba3a",
+  "row": 51,
+  "s": "Consider the following statements:\n1. NSTR is also the biosphere reserve of Andhra Pradesh.\n2. NSTR is administered under the Srisailam circle on the NTCA core-buffer model.\n3. APSES 2024-25 counts 63 tigers in NSTR, excluding cubs.\n4. Chenchus serve as protection watchers in NSTR.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (2, 3 and 4) are correct. 1 is wrong: NSTR is AP's only tiger reserve but not a biosphere reserve – that is Seshachalam (2010).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp84bca86aaebb",
+  "row": 51,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): Elephants moved into the Palamaner region of Andhra Pradesh in the 1980s.\nReason (R): Drought struck the Hosur–Dharmapuri reserve forests and Bannerghatta National Park at that time.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: drought in Hosur–Dharmapuri and Bannerghatta pushed elephants into Palamaner; Koundinya WLS + Rayala ER is now AP's only elephant habitat.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpcec327115869",
+  "row": 51,
+  "s": "Consider the following statements:\n1. The Seshachalam Biosphere Reserve was notified in 2010 and covers about 4,755.997 sq km.\n2. It is also known as the Sri Venkateswara Biosphere Reserve.\n3. It falls under the Tirupati and Kurnool forest circles.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: the notes stress it is the Seshachalam BR, not 'Sri Venkateswara BR' (though it covers the area of the SV NP and WLS).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4016fe4ee121",
+  "row": 51,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The Nagarjunasagar–Srisailam Tiger Reserve is the only biosphere reserve of Andhra Pradesh.\nReason (R): The Nagarjunasagar–Srisailam Tiger Reserve is India's largest tiger reserve by area.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: AP's only biosphere reserve is Seshachalam (2010); NSTR is not a BR. R is true: NSTR (3,727.50 sq km, 1983) is India's largest tiger reserve by area and core.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp2687e6a242d3",
+  "row": 51,
+  "s": "Consider the following statements:\n1. The State animal of Andhra Pradesh is the blackbuck.\n2. The State bird of Andhra Pradesh is the Indian Roller.\n3. The State tree of Andhra Pradesh is the neem.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: since June 2018 AP's State bird is the rose-ringed parakeet (Chiluka); the Indian Roller went to Telangana.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp31b4e355035e",
+  "row": 51,
+  "s": "Consider the following statements:\n1. Wood stork and spot-billed pelican are indicator species of Sri Venkateswara National Park.\n2. Cycas beddomei, a 'living fossil', is found in Sri Venkateswara National Park.\n3. The one-horned rhinoceros figures among the biodiversity highlights of Andhra Pradesh in APSES.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "2 only"
+  ],
+  "a": 3,
+  "x": "Only 2 is correct. 1 is wrong: wood stork and spot-billed pelican are wetland birds, not SV NP indicators (those are slender loris, golden gecko, giant squirrel, red sanders, Cycas beddomei). 3 is wrong: APSES highlights red sanders, tiger, Indian bison, GIB, golden gecko – not the rhino.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2f691c6c8bfa",
+  "row": 51,
+  "s": "Match List-I (bird area) with List-II (district):\nList-I:\na. Telineelapuram\nb. Uppalapadu\nc. Nelapattu\nd. Naupada\nList-II:\ni. Tirupati\nii. Srikakulam (coastal and marine biodiversity area)\niii. Guntur\niv. Srikakulam (IBA with pelicans and painted storks)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "Telineelapuram – Srikakulam IBA (pelicans, painted storks); Uppalapadu – Guntur; Nelapattu – Tirupati (erstwhile Nellore); Naupada – Srikakulam coastal and marine biodiversity area.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbb240b876f2c",
+  "row": 51,
+  "s": "Consider the following statements:\n1. Kolleru is the only Ramsar site of Andhra Pradesh, designated on 19 August 2002.\n2. India has 103 Ramsar sites, and none of the recent additions is in Andhra Pradesh.\n3. The annual Flamingo Festival is held at Kolleru and Coringa.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the Flamingo Festival is held at Pulicat Lake and Nelapattu.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf95b1b104a23",
+  "row": 51,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The mass deaths of birds at Telineelapuram were of the spot-billed pelican.\nReason (R): The scientific name of the spot-billed pelican is Pelecanus onocrotalus.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: the spot-billed pelican is Pelecanus philippensis, not P. onocrotalus (nor the white stork Ciconia ciconia or common crane Grus grus).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp35a32ff549ce",
+  "row": 52,
+  "s": "Consider the following statements:\n1. Much of Andhra Pradesh lies on basaltic lava bedrock.\n2. Deltaic / coastal alluvium covers about 5–6% of Andhra Pradesh.\n3. Laterite is the smallest of the four main soils of Andhra Pradesh, about 1% of its area.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: much of AP lies on granitoid-gneiss bedrock. Order by area: Red (~66%) > Black (~25%) > Deltaic alluvium (~5–6%) > Laterite (~1%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1f943980579e",
+  "row": 52,
+  "s": "Consider the following statements:\n1. Alluvium is India's largest soil group, about 45.6% of the country.\n2. Karnataka has mostly black soil, followed by red soil.\n3. Red soil is India's third-largest soil group by area.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: Karnataka is mostly red soil, then black. In AP too red dominates and alluvium is small.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpaa56ed2b8cd8",
+  "row": 52,
+  "s": "Consider the following statements:\n1. The AP Space Application Centre lists 22 soil categories in Andhra Pradesh.\n2. The largest category is 'loamy to clayey skeletal deep reddish-brown soils', about 20.42%.\n3. Moderately deep calcareous black soils make up about 9.57%.\n4. Ten categories predominate and together cover over 98% of the State.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 2 and 3) are correct. 4 is wrong: the 10 predominant categories cover over 88% of AP (smallest category: clayey moderately deep wet soils, 0.13%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp09eb7cc3bfef",
+  "row": 52,
+  "s": "Consider the following statements:\n1. Exam keys commonly place black cotton soil in the Podzol group.\n2. The name 'regur' comes from the Telugu word 'Reguda'.\n3. Vertisols is the USDA soil order for black soils.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: books and keys put black cotton soil in the 'Chernozem' group (tropical chernozem), though strictly it is a Vertisol.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcbeb00761087",
+  "row": 52,
+  "s": "Consider the following statements:\n1. The colour of black soil comes from compounds of iron and titanium.\n2. Black soils of Andhra Pradesh are derived from Deccan Trap basalt and also from crystalline schists and basic gneiss.\n3. Black soils are strongly acidic.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: black soils are neutral to strongly alkaline; laterite is the acidic soil.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1236fa0a1316",
+  "row": 52,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): Cotton is the crop best suited to black soil.\nReason (R): Black soil has very high water (moisture) retention.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the very high moisture retention of regur lets rain-fed cotton last through the dry season, so it needs little irrigation.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd34def78b638",
+  "row": 52,
+  "s": "Match List-I (place) with List-II (soil):\nList-I:\na. Adoni and Aluru\nb. Kunderu basin\nc. Badvel and Giddalur\nd. Satyavedu and Puttur\nList-II:\ni. Skeletal soils on Nallamala slopes\nii. Elevated laterite\niii. Deep black soils\niv. Black soils suited to cash crops\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "Adoni and Aluru (Kurnool) – deep black soils; Kunderu basin (YSR Kadapa) – black soils for cash crops; Badvel (Kadapa), Giddalur (Prakasam) – skeletal soils; Satyavedu, Puttur – elevated laterite.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3e37001b330d",
+  "row": 52,
+  "s": "Consider the following statements:\n1. Groundnut and castor are mainly grown on black soil in Andhra Pradesh.\n2. Chillies and turmeric are grown on black soil.\n3. Black gram does well on black soil.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: groundnut and castor are red-soil crops; black soil grows cotton, chillies, tobacco, turmeric, jowar, maize, bajra, black gram, Bengal gram.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7e12231b0282",
+  "row": 52,
+  "s": "Match List-I (red-soil sub-type) with List-II (approximate share of AP, FRO key):\nList-I:\na. Red earths with loamy sub-soil\nb. Red soils with clay base\nc. Red loamy\nd. Red sandy (chalka)\nList-II:\ni. 9%\nii. 8%\niii. 30%\niv. 12%\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "Red earths with loamy sub-soil 30% (largest); clay base 12%; red loamy 9%; red sandy (chalka) 8%; deep red loamy 3%.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp28c5b1ee9431",
+  "row": 52,
+  "s": "Consider the following statements:\n1. 'Dubba' denotes black cotton soil.\n2. NextGen divides the red soils of Andhra Pradesh into six sub-categories.\n3. 'Chalka' denotes red sandy (loamy) soils.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (2 and 3) are correct. 1 is wrong: Dubba = red loamy sands, one of the six red-soil sub-categories.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp45d000838a2e",
+  "row": 52,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The red soils of Andhra Pradesh are fairly rich in potash.\nReason (R): The red soils of Andhra Pradesh have a high moisture-holding capacity.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: red soils are fairly rich in potash (poor in lime, phosphates, nitrogen, humus). R is false: they are siliceous, well drained, with poor moisture-holding capacity.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpca07da53bde8",
+  "row": 52,
+  "s": "Consider the following statements:\n1. The Godavari delta alluvium lies around Rajahmundry–Kakinada and the Krishna delta around Vijayawada–Machilipatnam.\n2. Deltaic alluvial soils are rich in nitrogen.\n3. Deltaic alluvium is renewed with silt in each flood.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: alluvial soils are rich in potash and lime but poor in nitrogen and humus.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp32614227b7f4",
+  "row": 52,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The deltaic alluvial soils of the Krishna–Godavari deltas need little irrigation.\nReason (R): Deltaic alluvial soils are porous and loamy with high moisture retention.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the deltas are canal-irrigated for rice and sugarcane – it is black soil that needs little irrigation. R is true (porous, loamy, high moisture retention).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpfde7c98e40aa",
+  "row": 52,
+  "s": "Consider the following statements:\n1. Alluvium covers Punjab, Haryana, Uttar Pradesh, Bihar, West Bengal and Assam.\n2. Bhangar is new alluvium and Khadar is old alluvium.\n3. Cashew, casuarina and coconut grow on the coastal sandy soils of Andhra Pradesh.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: Bhangar (Bangar) is old alluvium and Khadar is new alluvium.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9468d70ec07a",
+  "row": 52,
+  "s": "Consider the following statements:\n1. Laterite forms by intense leaching that leaves hydrated iron and aluminium oxides.\n2. Laterite is the most acidic of red, black, alluvial and laterite soils.\n3. Coastal laterite pockets of Andhra Pradesh include Ellavaram, Peddapuram and Kavali.\n4. Laterite soil develops in the arid Thar desert.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 2 and 3) are correct. 4 is wrong: laterite needs high temperature and heavy rainfall; it occurs in the Western and Eastern Ghats and Malabar, not the Thar.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp97f5b92a3148",
+  "row": 52,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The North Coastal agro-climatic zone of Andhra Pradesh is typified by laterite soil.\nReason (R): Laterite soils suit mango, cashew, tamarind and coconut.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R (crops suited to laterite) does not explain why the North Coastal zone has laterite – that is due to its heavy rainfall and leaching.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp2fc21671710b",
+  "row": 52,
+  "s": "Match List-I (agro-climatic zone) with List-II (soil / crops):\nList-I:\na. North Coastal\nb. Godavari\nc. Scarce Rainfall\nd. High Altitude and Tribal\nList-II:\ni. Minor millets, coffee, pepper, tubers\nii. Laterite\niii. Alluvium; rice, sugarcane, coconut\niv. Red soil; groundnut, sunflower, sorghum, castor\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "North Coastal – laterite; Godavari – alluvium (rice, black/green gram, sugarcane, coconut); Scarce Rainfall (Rayalaseema) – red soil, groundnut, sunflower, sorghum, castor; High Altitude and Tribal – minor millets, coffee, pepper, tubers.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4d4488b25323",
+  "row": 52,
+  "s": "Consider the following statements:\n1. The Krishna agro-climatic zone includes parts of Nellore district.\n2. The Southern zone covers Nellore, Chittoor, Tirupati and parts of Kadapa.\n3. The Scarce Rainfall zone covers Rayalaseema districts such as Kurnool and Anantapur.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: the Krishna zone covers parts of Krishna, Guntur and Prakasam – not Nellore, which is in the Southern zone.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd520280be686",
+  "row": 52,
+  "s": "Match List-I (soil) with List-II (crops in Andhra Pradesh):\nList-I:\na. Deltaic alluvial\nb. Red\nc. Laterite\nd. Sandy / sandy loam\nList-II:\ni. Onion, cashew, casuarina\nii. Mango, cashew, tamarind, coconut\niii. Groundnut, castor, millets, pulses\niv. Paddy, sugarcane, tobacco\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "Deltaic alluvial – paddy, sugarcane, tobacco; red – groundnut, castor, millets, pulses; laterite – mango, cashew, tamarind, coconut; sandy / sandy loam – onion, cashew, casuarina.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp624eb1e07d77",
+  "row": 52,
+  "s": "Consider the following statements:\n1. In 2025-26, 39 watersheds (896 villages) in Andhra Pradesh were classed saline.\n2. In India, Gujarat has the largest saline area and Uttar Pradesh the most alkali land.\n3. Halophytes grow on saline soils.\n4. Coastal erosion from sea-level rise and waves is reported at Uppada in Kakinada district.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "All four are correct, as stated in the notes on problem soils.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp214f9325c6dc",
+  "row": 52,
+  "s": "Consider the following statements:\n1. Podu cultivation strips topsoil in Alluri Sitharama Raju and Parvathipuram Manyam districts.\n2. Periodic deposition of fresh silt in the deltas is a major cause of soil degradation.\n3. Rainfed Area Development covers 9 rainfed districts with Rs 30,000 per farm family.\n4. APCNF natural farming restores soil organic carbon.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 4 only",
+   "2 and 3 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 3 and 4 are correct. 2 is wrong: fresh delta silt renews soil; it is not a cause of degradation (causes: drought and wind erosion, Podu, heavy chemicals, overgrazing, deforestation).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp959c7c124c49",
+  "row": 52,
+  "s": "Consider the following statements:\n1. Andhra Pradesh had issued about 15 lakh Soil Health Cards by 30 January 2025.\n2. The Soil Health Card scheme was launched on 19 February 2015 at Suratgarh.\n3. Since 2022-23 it runs as 'Soil Health & Fertility' under the RKVY.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: AP had issued 1,51,61,346 cards – about 1.52 crore – by 30 January 2025.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp861af5f0fe6f",
+  "row": 52,
+  "s": "Consider the following statements:\n1. 'Edaphic' refers to the soil factor of the environment.\n2. A pH of about 6–7 is ideal for most common crops.\n3. Arid soil has high moisture retention.\n4. The saline soils of the Rayalaseema plateau, high in lime and salt, are unfit for cropping.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: arid soil has low moisture retention.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp21396bf57887",
+  "row": 53,
+  "s": "Match List-I (mineral) with List-II (place in Andhra Pradesh):\nList-I:\na. Wolframite (tungsten)\nb. Chromite\nc. Uranium\nd. Copper, zinc and silver\nList-II:\ni. Tummalapalle\nii. Agnigundala\niii. Buruguwada\niv. Kondapalli hills\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 0,
+  "x": "Wolframite – Buruguwada (East Godavari); chromite – Kondapalli hills (Krishna); uranium – Tummalapalle (YSR Kadapa); copper, zinc, silver – Agnigundala, Bondalamottu (Guntur).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1a1f80223638",
+  "row": 53,
+  "s": "Match List-I (mineral) with List-II (place):\nList-I:\na. Asbestos\nb. Barytes\nc. Talc / soapstone\nd. Apatite and vermiculite\nList-II:\ni. Kasipatnam (Visakhapatnam)\nii. Tadipatri (Anantapur)\niii. Pulivendula (Kadapa)\niv. Mangampet (YSR Kadapa)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 2,
+  "x": "Asbestos – Pulivendula, Brahmanapalli (Kadapa); barytes – Mangampet; talc/soapstone – Tadipatri (Anantapur), also Kadapa; apatite and vermiculite – Kasipatnam.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp539949184c3e",
+  "row": 53,
+  "s": "Consider the following statements:\n1. Vizianagaram (Garividi / Garbham) is first in manganese in Andhra Pradesh.\n2. Visakhapatnam was the world's leading producer of manganese until 1947.\n3. Older books name Srikakulam for manganese because Garbham lay in pre-1979 Srikakulam district.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: Visakhapatnam was the world's No. 1 manganese producer until 1929, not 1947.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp68d50fc88523",
+  "row": 53,
+  "s": "Consider the following statements:\n1. The Jaggayyapeta limestone mine lies in Guntur district.\n2. Kurnool stands first in limestone in Andhra Pradesh.\n3. High-quality limestone occurs at Jammalamadugu and Mydukur in Kadapa.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: Jaggayyapeta limestone is in Krishna district (Garbham manganese – Vizianagaram; Madharam dolomite – Khammam, Telangana).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfb83ea187bee",
+  "row": 53,
+  "s": "Consider the following statements:\n1. The iron ore of Andhra Pradesh is mostly haematite.\n2. Kurnool stands first in iron ore in Andhra Pradesh.\n3. Iron ore also occurs in Kadapa, Prakasam and Krishna.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: Anantapur is first in iron ore; Kurnool is one of the others.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd20f909519eb",
+  "row": 53,
+  "s": "Consider the following statements:\n1. Kadapa district holds barytes, uranium and asbestos.\n2. Coal is also found in Kadapa district.\n3. The minor mineral of Nellore is mica, while black granite comes from Prakasam.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 3) are correct. 2 is wrong: coal is in West Godavari (Chintalapudi, Godavari valley Gondwana), not Kadapa; mica (Nellore) and bauxite (ASR/East Godavari) are also not in Kadapa.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb1262ab89da6",
+  "row": 53,
+  "s": "Consider the following statements:\n1. In 2022 China was the world's largest mica producer, with Madagascar second.\n2. Andhra Pradesh produces nearly one-quarter of the world's barytes.\n3. Andhra Pradesh is second in India in limestone production, after Rajasthan.\n4. Karnataka has the largest limestone reserves in India.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 2 and 4) are correct. 3 is wrong: in limestone production AP is third, after Rajasthan and Madhya Pradesh.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpef16450e7933",
+  "row": 53,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): Andhra Pradesh produces chrysotile asbestos at Kadapa.\nReason (R): Andhra Pradesh holds the largest asbestos reserves in India.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (chrysotile at Kadapa – Pulivendula, Brahmanapalli). R is false: AP holds only a few % of reserves – Rajasthan has 59% and Karnataka 36% of India's asbestos resources.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpca9b4258d82f",
+  "row": 53,
+  "s": "Consider the following statements:\n1. Andhra Pradesh holds about 327 Mt of India's 1,078 Mt of heavy-mineral beach sands, about 30.4%.\n2. As per the National Mineral Inventory, Andhra Pradesh holds about 18.23 lakh carats of diamond resources.\n3. The AP Mineral Development Corporation (APMDC) was incorporated in 1971.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct (AP is also first in monazite; diamonds 18,22,955 of India's 319.22 lakh carats). 3 is wrong: APMDC was incorporated in 1961.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfc3e7874c1ca",
+  "row": 53,
+  "s": "Match List-I (rock system) with List-II (resource):\nList-I:\na. Gondwana\nb. Eastern Ghats khondalites\nc. Kurnool system\nd. Deccan Trap\nList-II:\ni. Glass sand and ornamental stone\nii. Basalt and black cotton soil\niii. Coal\niv. Bauxite, manganese and graphite\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "Gondwana – coal (Godavari valley); Eastern Ghats khondalites/charnockites – bauxite, manganese, graphite; Kurnool – glass sand, ornamental stone (no metallic minerals); Deccan Trap – basalt, black cotton soil.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd52abd39b51c",
+  "row": 53,
+  "s": "Consider the following statements:\n1. They are known for gold and lead deposits.\n2. The Deccan Trap rocks of Andhra Pradesh were formed by Cretaceous lava flowing out through fissures.\n3. They occur in Prakasam, Palnadu and Guntur districts.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the Deccan Trap gives basalt and black cotton soil; gold is in the Dharwar schists (Chittoor–Anantapur).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbc2c9aac919b",
+  "row": 53,
+  "s": "Consider the following statements:\n1. The Archaean system is the oldest rock system of Andhra Pradesh and contains abundant fossils.\n2. The Nellore mica schist belt belongs to the Dharwar system.\n3. The gold of the Chittoor–Anantapur belt lies in Dharwar schists.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: the Archaean is the oldest system but has no fossils (about two-thirds gneiss).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4cf56dc2fea3",
+  "row": 53,
+  "s": "Consider the following statements:\n1. The Cuddapah basin is a Proterozoic basin about 1.6 billion years old.\n2. It spreads mainly over Srikakulam and Vizianagaram districts.\n3. It holds barytes, asbestos, steatite, limestone, uranium and diamonds.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: the Cuddapah basin lies in YSR Kadapa, Nandyal, Kurnool and Prakasam, between the arching Nallamala–Velikonda branches of the Eastern Ghats.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp78ca5da89cee",
+  "row": 53,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The Kurnool system is Andhra Pradesh's chief source of metallic minerals such as barytes and uranium.\nReason (R): The Kurnool system is made of sandstone, shale and limestone.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the Kurnool system has no metallic minerals (it yields glass sand and ornamental stone); barytes and uranium are in the Cuddapah basin. R is true.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd1d191d1b9b8",
+  "row": 53,
+  "s": "Consider the following statements:\n1. The Swarnagiri (Jonnagiri) mine in Tuggali mandal, Kurnool, is India's first private-sector gold mine after Independence.\n2. It is run by GeoMysore Services on a 30-year lease.\n3. Ramagiri in Anantapur is the oldest gold field of India.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: India's oldest gold field is Kolar (Karnataka); Ramagiri is an old field of AP's Dharwar greenstone belt.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp81fd2b5aa50c",
+  "row": 53,
+  "s": "Consider the following statements:\n1. Bhavanapadu, known for heavy-mineral beach sands, is in Srikakulam district.\n2. Monazite of the beach sands is the source of thorium.\n3. Kurnool district also has heavy-mineral beach sands.\n4. The beach sands extend along the coast from Srikakulam to Nellore.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Kurnool is inland and has no beach sands.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc8efdfb3b4c1",
+  "row": 53,
+  "s": "Match List-I (dimension stone) with List-II (district):\nList-I:\na. Kashmir White\nb. Pista Green\nc. Chilli Red\nd. Srikakulam Blue\nList-II:\ni. Anantapur\nii. Srikakulam\niii. Visakhapatnam\niv. YSR Kadapa\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Kashmir White – Visakhapatnam; Pista Green – YSR Kadapa; Chilli Red – Anantapur; Srikakulam Blue – Srikakulam (Black Galaxy – Chimakurthy, Prakasam; slate – Markapur).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpcab744b93949",
+  "row": 53,
+  "s": "Consider the following statements:\n1. The planned manganese processing clusters of Andhra Pradesh are in Nellore.\n2. Under the MMDR Act, 1957, major minerals are regulated by the Centre and minor minerals by the States.\n3. Mica and barytes were declared minor minerals in 2015.\n4. AP policy promotes beneficiation plants for low-grade iron ore and CDW-grade barytes.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (2, 3 and 4) are correct. 1 is wrong: the manganese processing clusters are planned in Vizianagaram.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6c11724c6cc7",
+  "row": 53,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The Tummalapalle uranium deposit is counted among the world's top 20 uranium reserves.\nReason (R): Tummalapalle lies in the Kadapa basin of YSR Kadapa district.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true (huge reserves confirmed in 2011; mine and plant since 2012), but its location in the Kadapa basin does not explain the size of the reserve – the ore is in fact low-grade.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp8c126713428d",
+  "row": 53,
+  "s": "Match List-I (KG-basin unit) with List-II (company / fact):\nList-I:\na. Tatipaka\nb. Ravva\nc. KG-D6\nd. Deen Dayal West\nList-II:\ni. Reliance Industries (with BP), deepwater gas\nii. GSPC block; ONGC bought 80% in 2017\niii. ONGC mini-refinery\niv. Shallow offshore field operated by Cairn since 1996\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 1,
+  "x": "Tatipaka – ONGC mini-refinery (Konaseema); Ravva – shallow offshore, found by ONGC (1987), Cairn operator since 1996; KG-D6 – Reliance with BP; Deen Dayal West – GSPC block, ONGC bought 80% and operatorship (2017).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp03c1f4938db7",
+  "row": 53,
+  "s": "Consider the following statements:\n1. HPCL Visakhapatnam is the main refinery of Andhra Pradesh.\n2. The Pasarlapudi blowout near Amalapuram began on 8 January 1995 and burned for about 65 days.\n3. The Barmer–Sanchore basin is part of the Krishna–Godavari basin.\n4. A coal-gasification project is planned near Recherla and Chintalapudi in Eluru.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Barmer–Sanchore is in Rajasthan; AP's oil and gas basin is the KG basin (onshore Konaseema and offshore).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp606952060671",
+  "row": 53,
+  "s": "Consider the following statements:\n1. India aims to raise the share of natural gas in its energy mix to 15% by 2030.\n2. JHBDPL is the pipeline of the Pradhan Mantri Urja Ganga project.\n3. The Ravva oil and gas field was discovered by Cairn in 1987.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: Ravva was found by ONGC in 1987; Cairn has been its operator since 1996.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0a4b8fa10d1a",
+  "row": 53,
+  "s": "Consider the following statements:\n1. Andhra Pradesh is India's leading salt producer.\n2. The revised coastline of Andhra Pradesh is 1,053.07 km, third after Gujarat and Tamil Nadu.\n3. The continental shelf of Andhra Pradesh is about 33,227 sq km.\n4. The Vamsadhara and Nagavali are the rivers of northern Andhra Pradesh.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "2, 3 and 4 are correct. 1 is wrong: Gujarat leads India's salt; AP's salt hub is Naupada (Srikakulam).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpef8d310f07c1",
+  "row": 53,
+  "s": "Consider the following statements:\n1. A new fishing harbour is being built at Juvvaladinne in Nellore district.\n2. The Girijan Co-operative Corporation (GCC) has its headquarters at Vijayawada.\n3. Red sanders is endemic to the Seshachalam–Palakonda–Lankamalla hills.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Only two (1 and 3) are correct. 2 is wrong: GCC is headquartered at Visakhapatnam.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp59ad92aaf3ba",
+  "row": 54,
+  "s": "Match List-I (climatic extreme of Andhra Pradesh) with List-II (place):\nList-I:\na. Hottest\nb. Coldest\nc. Wettest\nd. Driest\nList-II:\ni. Sileru–Sabari valleys\nii. Anantapur – Hagari valley\niii. Rentachintala (Palnadu)\niv. Lambasingi (ASR)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Hottest – Rentachintala; coldest – Lambasingi (~1,000 m); wettest – Sileru–Sabari valleys (140–152 cm); driest – Anantapur, Hagari valley (under 51 cm).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd64efb7ef69d",
+  "row": 54,
+  "s": "Consider the following statements:\n1. The coastal belt receives its peak rainfall in October.\n2. Andhra Pradesh lies between 12°41'N and 19°07'N latitude.\n3. Its climate is of the Koeppen Aw type.\n4. Its average annual rainfall is about 966 mm.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "2, 3 and 4 are correct. 1 is wrong: the coast peaks in July; it is Rayalaseema that peaks in Oct–Nov with the north-east monsoon.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp13a0deebcadc",
+  "row": 54,
+  "s": "Consider the following statements:\n1. The Srikakulam–Visakhapatnam–Agency zone receives about 125–200 cm of rain a year.\n2. The Kadapa–Kurnool zone receives about 50–75 cm.\n3. Andhra Pradesh has six agro-climatic zones; the Scarce Rainfall Zone covers Kurnool and Anantapuramu.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: Kadapa–Kurnool receives about 75–100 cm; the lowest is the Anantapur–Hagari valley (under 51 cm).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf43677ec185b",
+  "row": 54,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): Droughts are frequent in semi-arid Rayalaseema.\nReason (R): Rayalaseema receives low and erratic rainfall.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the notes state droughts come from low and erratic rainfall; Rayalaseema (Anantapur, Kurnool, Kadapa …) has low rain and extreme heat.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpee9b5f12df01",
+  "row": 54,
+  "s": "Match List-I (Koeppen type) with List-II (area):\nList-I:\na. As\nb. BWhw\nc. Dfc\nd. E\nList-II:\ni. Arunachal Pradesh\nii. High Himalaya and Ladakh\niii. Coromandel coast of Tamil Nadu\niv. Western Rajasthan\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "As – Coromandel coast (dry summer); BWhw – hot desert of western Rajasthan; Dfc – Arunachal Pradesh; E – polar/tundra of the High Himalaya and Ladakh.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3d6a08be2ec7",
+  "row": 54,
+  "s": "Match List-I (Koeppen type) with List-II (area):\nList-I:\na. Amw\nb. Aw\nc. BShw\nd. Cwg\nList-II:\ni. Rain-shadow belts, parts of Rajasthan, Gujarat, Haryana\nii. Ganga plain and North-East India\niii. Western coast south of Goa\niv. Most of the Peninsula, including Andhra Pradesh\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "Amw – west coast south of Goa; Aw – tropical savanna of most of the Peninsula incl. AP; BShw – semi-arid steppe of rain-shadow belts and parts of Rajasthan, Gujarat, Haryana; Cwg – Ganga plain and North-East.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb3d8ce40fc26",
+  "row": 54,
+  "s": "Consider the following statements:\n1. Trewartha modified Koeppen's scheme, keeping its temperature–rainfall basis.\n2. Trewartha's Caw climate of the Ganga plain corresponds to Koeppen's Cwg.\n3. Trewartha's 'Am' denotes the tropical savanna of the Peninsula.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: Trewartha's Am is the tropical rainforest of the west coast and North-East; Aw is the Peninsula.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2a8a2f13e939",
+  "row": 54,
+  "s": "Consider the following statements:\n1. The Ganga plain is the perhumid region of India.\n2. Thornthwaite classified climates using the moisture index and potential evapotranspiration.\n3. In his scheme the rain-shadow interior Deccan is semi-arid.\n4. Western Rajasthan and Kutch fall under the arid type.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 2, 3 and 4",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only"
+  ],
+  "a": 3,
+  "x": "2, 3 and 4 are correct. 1 is wrong: the perhumid regions are the Western Ghats–west coast and the North-East.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfeb7d7a4b1fa",
+  "row": 54,
+  "s": "Consider the following statements:\n1. Odisha was the first State to prepare a State Action Plan on Climate Change (2010).\n2. Jharkhand's Action Plan on Climate Change dates from 2014.\n3. The AP SAPCC 2025-30 targets 1 lakh EV charging stations.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three are correct: Odisha first (2010); Jharkhand 2014 (now revising as SAPCC 2.0); AP SAPCC 2025-30 has 8 energy-sector adaptation measures and 1 lakh EV charging stations.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2de2f356ca52",
+  "row": 54,
+  "s": "Consider the following statements:\n1. In the DST climate vulnerability report (2021), Jharkhand is the most vulnerable State.\n2. Andhra Pradesh is among the eight highly vulnerable States of that report.\n3. India's adaptation spending in FY22 was about 5.6% of GDP.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the 8 States are Jharkhand, Mizoram, Odisha, Chhattisgarh, Assam, Bihar, Arunachal Pradesh and West Bengal – not AP.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdeaac7cb1682",
+  "row": 54,
+  "s": "Consider the following statements:\n1. 2024 was India's warmest year since 1901, with an IMD anomaly of +0.65°C and 446 heatwave days.\n2. India's IMD anomaly for 2025 was higher than that for 2024.\n3. As per the WMO, 2025 was about 1.43°C above the pre-industrial level.\n4. The IMD's below-normal 2026 monsoon forecast for most of AP cited El Nino.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Only three (1, 3 and 4) are correct. 2 is wrong: the 2025 anomaly was +0.28°C, lower than 2024's +0.65°C.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3a23aede72d9",
+  "row": 54,
+  "s": "Consider the following statements labelled Assertion (A) and Reason (R):\nAssertion (A): The Godavari delta is rising relative to the sea.\nReason (R): In the Godavari delta, land subsidence exceeds the regional sea-level rise.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the Godavari delta is sinking. R is true: land subsidence there exceeds regional sea-level rise (coastal erosion at Uppada and the Krishna coast comes from rising seas and cyclonic waves).",
+  "src": "app",
+  "tq": "assertion"
+ }
+]

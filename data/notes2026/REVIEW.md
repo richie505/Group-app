@@ -1193,3 +1193,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w054 (rows 54–61)
 - own 393 → 59 kept + 82 new (141, 36%); new 51 statements / 20 match / 11 A–R; 4 of 273 lines lost.
 - f26b88d892e4f (V. Ramachandran as head of panchayat public-services delivery committee; notes 61:1:3 Mani Shankar Aiyar, 2013) removed.
+
+## rewrite b3-w074 (rows 74–78)
+- own 419 → 59 kept + 103 new (162, 39%); new 64 statements / 22 match / 15 A–R / 2 sequence; 3 of 289 lines lost (facts still in match items).
+- Source conflicts: 1991 devaluation ~18% (76:2:0.2) vs Ramesh Singh 22%; Smithsonian band ±2.25% (76:5:3.1, correct) vs NextGen 2.5%; NextGen Dunkel Draft "20 Oct 1991" misprint (77:1:14; Dec 1991) — used only as false-statement trap.
