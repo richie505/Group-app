@@ -27,7 +27,7 @@
 | UTs and City States | **Chandigarh** |
 - **AP:** **9th** among Major States (2021, score 13.32); Telangana 2nd.
 - **State R&D policy:** **Karnataka** released India's first State Research, Development and Innovation Policy (Bengaluru Tech Summit, Nov 2022).
-~~ Sources: DST Year End Review 2023 (dst.gov.in/node/7484, as quoted in search results); PMF S&T Part 8 (pmf-science-tech-08) p.79 [book p.883] (WIPO 1967, Geneva); NextGen Indian Economy Part 1 p.40; app notes 5:3 (sub 3, 4)
+~~ Sources: DST Year End Review 2023 (dst.gov.in/node/7484, as quoted in search results); PMF S&T Part 8 (pmf-science-tech-08) p.78 (WIPO 1967, Geneva); NextGen Indian Economy Part 1 p.40; app notes 5:3 (sub 3, 4)
 
 === Patents, Copyright and IPR Law
 | Act / policy | Provision |
@@ -41,7 +41,7 @@
 - **IPAB** (Intellectual Property Appellate Board): set up **15 Sept 2003**; heard patent appeals from 2 April 2007; **abolished in April 2021** (Tribunals Reforms Ordinance/Act 2021) – appeals now go to the **High Courts**.
 - **CSIR** = the Indian institution with the most patents – it has filed more patents than all individual Indian patentees put together (APPSC G2 2003).
 - **Resident vs non-resident filings:** in **January-March 2022**, Indian applicants filed **10,706** applications against **9,090** by foreign applicants – first time in 11 years.
-~~ Sources: PMF S&T Part 8 p.69-74 [book p.874-879] (patents, copyright, what cannot be patented); NextGen Indian Economy Part 1 p.40 (IPAB); app notes 5:3 (sub 5)
+~~ Sources: PMF S&T Part 8 (pmf-science-tech-08) p.69-74 (patents, copyright, what cannot be patented); NextGen Indian Economy Part 1 p.40 (IPAB set-up); IPAB abolition 2021: general knowledge, not checked; app notes 5:3 (sub 5)
 
 === GERD and Who Spends on R&D
 | Country | GERD (% of GDP) |
