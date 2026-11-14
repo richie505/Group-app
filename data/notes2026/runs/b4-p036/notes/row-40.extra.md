@@ -12,4 +12,4 @@
 - **Recalcitrant seed** (cannot be dried/stored) – **sal (Shorea robusta)**; **orthodox seed** (stores dry) – **babul (Vachellia nilotica)**; **vivipary** (germinates on the tree) – mangrove **Rhizophora mucronata**; **stump planting** – **teak (Tectona grandis)**.
 - **Timber line (tree line)** = upper altitude or high-latitude limit beyond which trees do not grow.
 - **Degraded, heavily eroded zone (NW India):** hardy dry species **Acacia modesta, Capparis aphylla (kair), Salvadora oleoides (pilu)** survive there.
-~~ Sources: britannica.com/science/forestry (fire prevention and control); extension.oregonstate.edu EM 9195 (salvage cutting); home.nps.gov/olym fire definitions (crown fire, backfiring); PMF Environment 02 p.37 (tree line); app notes 4:40
+~~ Sources: britannica.com/science/forestry (fire prevention and control); extension.oregonstate.edu EM 9195 (salvage cutting); home.nps.gov/olym fire definitions (crown fire, backfiring); PMF Environment 02 p.33 (tree line); app notes 4:40
