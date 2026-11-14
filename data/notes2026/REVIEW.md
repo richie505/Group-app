@@ -903,3 +903,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b2-s01 (123 weak polity/society keys): 103 confirmed, 0 corrected, 20 unverifiable (mostly sociology/AP panchayat rules).
 - b5-s01 (150 weak S&T keys): 141 confirmed, 0 corrected, 9 unverifiable. y83e44a77cd9 F-18 Super Hornet printed (c) only true of older Hornet — dispute, re-key to (a)? Explanations fixed: Amantran portal (Ajay Bhatt), HTR7 2011.
 - b4-s01 (109 weak geography keys): 104 confirmed, 0 corrected, 5 unverifiable. Disputes: macaroni wheat Punjab; cashew (Maharashtra top 2025-26); Visakhapatnam Port 1933.
+- b6-x006 (CA rows 6-7 AP budget/SES, no PYQs): 131 MCQs mapped; blueprint from b6-r008. Dispute f9a9184cb6133 11.3% growth. Old-notes-only: Water Bodies Census AP figures, 7th MI census, AP inflation. Polavaram ₹6,105 cr (budget) vs ₹8,300 cr.

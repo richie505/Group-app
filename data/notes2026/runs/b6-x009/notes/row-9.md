@@ -1,0 +1,132 @@
+=== GSDP, Per Capita Income and District Rankings 2025-26
+# State figures (2025-26 advance estimates, current prices)
+- **GSDP:** **₹17.62 lakh crore** (₹17,62,357 crore), up from ₹15.91 lakh crore – nominal growth **10.75%** (above the national average).
+- **Per capita income:** **₹2,94,507**, up from ₹2,66,699 – growth **10.43%** (RBI Handbook: 10.42%). 10.75% = GSDP growth; 10.43% = per capita income growth.
+- **Agriculture and allied:** ₹5,39,454 crore = **33.2%** of GSDP (about one-third); 62% is the share of the **population** that depends on farming, not the GSDP share.
+- **Inflation:** **1.39%** in 2025-26 for AP (from 7.57% in 2022-23), reported by the **Union Economic Survey 2025-26** (national 1.72%; Telangana 0.20%).
+# District rankings (advance estimates 2025-26, released at the State Secretariat)
+- Only **9 districts** have per capita income above the State average of ₹2,94,507 (not 11).
+| Rank | GDDP (₹ crore) | Per capita income (₹) |
+|---|---|---|
+| 1 | **Visakhapatnam** – 1,60,771 | **Visakhapatnam** – 6,58,091 |
+| 2 | **NTR** – 1,05,173 | **Krishna** – 4,82,078 |
+| 3 | Krishna – 98,801 | NTR – 3,91,390 |
+| 4 | Tirupati – 98,526 | – |
+| Last | **Parvathipuram Manyam** – 6,723 | **Parvathipuram Manyam** – 1,56,977 |
+- GDDP 2nd = **NTR**; per capita income 2nd = **Krishna**. Highest district growth: Bapatla (19.19%); Annamayya negative (-1.35%).
+> PYQ angle (other rows and book 3): APPSC asks the GSDP growth rate, sector shares (agriculture about one-third) and the top district by GDDP or per capita income.
+~~ Sources: Praveen CA-360 Feb 2026 magazine p.61 (GDDP/PCI ranks); Praveen CA-360 May 2026 magazine p.48 (10.75%, ₹17.62 lakh crore); Praveen CA-360 Aug 2026 p.77 (₹2,66,699 → ₹2,94,507); Praveen CA-360 Jan 2026 p.98 (inflation 1.39%); The Hans India 15 Feb 2026 (33.20%, ₹5,39,454 crore, 62%)
+
+=== AP Budget 2026-27 – Size, Deficits and Debt
+- **AP Budget 2026-27: ₹3,32,205 crore**, presented by Finance Minister **Payyavula Keshav** (his third consecutive budget) on **14 February 2026**; not the CM, Pawan Kalyan or Nara Lokesh.
+| Item | ₹ crore | % of GSDP |
+|---|---|---|
+| Total expenditure | **3,32,205** | – |
+| Revenue expenditure | 2,56,143 | – |
+| Capital expenditure | **53,915** | – |
+| Revenue deficit | **22,002** | about **1.11%** |
+| Fiscal deficit | **75,868** | about **3.84%** |
+| Primary deficit | 38,588 | about **1.95%** (PRS rounds to 2.0%) |
+- GSDP assumed for 2026-27: **₹19,75,073 crore** (growth about 12%).
+- **2025-26 revised:** fiscal deficit **4.57% ≈ 4.6%** of GSDP – **higher** than the 4.4% budgeted; revenue deficit 2.33%.
+# Debt and interest
+- Outstanding debt about **36% of GSDP** in 2026-27 (36% also in 2024-25; 33% in 2021-22).
+- Debt about **₹7.11 lakh crore** (2026-27) against ₹6.35 lakh crore (2025-26).
+- **Interest payments:** about **₹37,781 crore = about 16% of revenue receipts** (36% is debt/GSDP, not interest).
+- Fiscal deficit ₹75,868 crore is far bigger than revenue deficit ₹22,002 crore; do not swap them.
+> PYQ angle: debt–GSDP ratio and interest as % of revenue receipts are the most repeated AP-budget PYQs (book 3); FRBM Act year asked in this topic (Union Act 2003; AP Act 2005).
+~~ Sources: AP Budget Speech 2026-27 (src/economy/ap-budget-2026-27-speech.txt) p.1, p.26 (paras 84-86); AP Budget 2026-27 Explanatory Memorandum p.3 and p.17 (revenue receipts ₹2,34,140 crore; interest ₹37,780.55 crore); PRS AP Budget Analysis 2026-27 (prsindia.org, 11 Mar 2026) Tables 1-2, p.5-6; Praveen CA-360 Feb 2026 p.60
+
+=== Sector Allocations and New Announcements 2026-27
+| Head | ₹ crore |
+|---|---|
+| **School Education** | **32,308** (largest head) |
+| NTR Bharosa (pensions) | 27,719 |
+| Panchayati Raj and Rural Development | 22,942 |
+| Water Resources | 18,224 |
+| Municipal Administration | 14,539 |
+| Power (Energy Department) | 13,934 |
+| Agriculture and allied departments | 13,598 |
+| **Polavaram** | **6,105** |
+| **Amaravati capital** | **6,000** |
+| Hostels and residential schools (gurukuls) | 300 |
+- Largest head = **School Education** (₹32,308 crore), not NTR Bharosa pensions (₹27,719 crore). Polavaram ₹6,105 crore vs Amaravati ₹6,000 crore; Power ₹13,934 crore vs Municipal Administration ₹14,539 crore.
+# New announcements
+| Announcement | Fact |
+|---|---|
+| **Visakhapatnam Economic Region** | **10 districts** (Srikakulam to Konaseema); proposals of about **₹28,000 crore** (incl. metro rail); NITI Aayog-backed master plan, 41 projects |
+| **Amaravati Economic Region** | **9 districts** (NTR, Krishna, Eluru, Guntur, West Godavari, Prakasam, Palnadu, Bapatla, Markapuram) |
+| **Rayalaseema Global Horticulture Hub** | proposals of **₹30,000 crore**; horticulture 8.41 → 14.41 lakh ha by 2030; 10 districts, 303 mandals |
+| Policing | a dedicated **Cybercrime Police Station in every district** |
+- Link: Union Budget 2026-27 offers **₹5,000 crore per City Economic Region** over five years (challenge mode); AP prepared the Visakhapatnam plan for it.
+~~ Sources: AP Budget Speech 2026-27 p.5-6 (paras 15-18), p.7 (Water Resources), p.9-13 (School Education, Panchayati Raj, Municipal Administration, cyber police stations), p.19 (hostels), p.23 (Energy); Praveen CA-360 Feb 2026 p.60; PRS AP Budget Analysis 2026-27 (Polavaram ₹6,105 crore, Amaravati ₹6,000 crore); Rocket CA 2026 Part 02 p.171 (City Economic Regions)
+
+=== Swarna Andhra @2047 – Sutralu, Targets and P4
+- Vision of CM **N. Chandrababu Naidu**, unveiled at Vijayawada on **13 December 2024**, aligned with **Viksit Bharat @2047**.
+- Targets by **2047**: **$2.4 trillion** GSDP; per capita income about **$42,000** (about ₹55 lakh); growth of **15% or more** a year.
+- Guided by **10 principles (Padi Sutralu)**, not 7, 12 or 15: zero poverty, population management, employment and skilling, water security (river interlinking), agri-tech, logistics, energy-cost optimisation, product perfection, Swachh Andhra, deep tech.
+- **P4** = **Public–Private–People Partnership**, the model for **zero poverty**.
+> PYQ: APPSC Endowment Mains asked the number of Sutralu – **10** (row 10).
+~~ Sources: AP Socio-Economic Survey 2024-25 p.14, p.98, p.302 (9.6 P4), p.306 (10.7 Ten Sutras); ThePrint, 13 Dec 2024 (unveiling, Vijayawada) via web search
+
+=== Externally Aided Projects
+| Project | Funding agency | Objective |
+|---|---|---|
+| **APRIGP** (AP Rural Inclusive Growth Project) | **World Bank (IDA)**, **$75 million** (approved Dec 2014) | Raise **farm incomes of poor households** and their access to health, nutrition and social entitlements; **150 most backward mandals**; implemented by **SERP** |
+| AP Economic Restructuring Project | World Bank, **$543.2 million** (signed 4 Feb 1999) | Human development (primary health, nutrition, primary education) and rural assets |
+> PYQ angle: project → funding agency is the most-asked EAP question (book 3 row 138: 15 PYQs).
+~~ Sources: book 3 row 138 notes (job b3-r135, sub 0-1); app notes 6:9 (sub 8) for the loan amounts, not re-checked
+
+=== Finance Commission Share and Central Transfers
+| Finance Commission | Andhra Pradesh | Telangana |
+|---|---|---|
+| 14th | **4.305%** | 2.147% |
+| 15th (2021-26) | **4.047%** (4.111% in the 2020-21 interim report) | 2.102% |
+| 16th (2026-31) | **4.217%** (4.22%) | 2.174% |
+- 16th FC share is **higher than the 15th** but **lower than the 14th**.
+- AP devolution **₹64,362.16 crore** in 2026-27 against ₹56,741.18 crore in 2025-26: **+₹7,620.98 crore**; gain from the higher weight alone about ₹2,594.64 crore.
+- 16th FC (Chair **Arvind Panagariya**, Art. 280): States' share kept at **41%**; revenue-deficit grants discontinued.
+~~ Sources: Praveen CA-360 Feb 2026 magazine p.122; Rocket CA 2026 Part 01 p.12 (16th FC); PRS AP Budget Analysis 2026-27 Annexure 2
+
+=== Agriculture Budget 2026-27
+- Separate **Agriculture Budget** tabled by Agriculture Minister **K. Atchannaidu** (not the Finance Minister) on 14 February 2026: about **₹53,752 crore** (₹53,752.12 crore) for agriculture and allied departments, including **₹14,276 crore** for the Irrigation (Water Resources) Department.
+- **Annadata Sukhibhava–PM Kisan:** **₹6,600 crore** proposed for 2026-27 (₹6,660 crore was released in 2025-26 at ₹20,000 a farmer family).
+- Farm mechanisation: ₹139.65 crore (app CA; The Hans India reports ₹136 crore at 50% subsidy).
+- **62%** of the State's population depends on agriculture and allied activities.
+- ₹53,752 crore = separate Agriculture Budget (all allied departments); **₹13,598 crore** = agriculture and allied head in the main budget.
+~~ Sources: The Hans India 15 Feb 2026 (₹53,752.12 crore; 62%); Deccan Chronicle (₹14,276.89 crore irrigation; ₹6,600 crore Annadata) via web; AP Budget Speech 2026-27 p.8-9 (₹6,660 crore 2025-26; ₹13,598 crore)
+
+=== Investment, Farm Credit and Exports
+- **Agricultural credit:** ₹1.27 lakh crore (2023) → **₹2.25 lakh crore** (2025) = **77% growth** (national about 41%); stated by MoS Finance **Pankaj Chaudhary**.
+- **Investment share:** AP **1st** with **25.3%** of India's investments in the first nine months of 2025-26 (**Bank of Baroda** report on **CMIE** data); Odisha 13.1%, Maharashtra 12.8%.
+- **Export Preparedness Index 2024 (NITI Aayog):** AP **5th** among large States (20th in 2020).
+- **Marine products exports:** **₹24,679 crore**, about **60% of India's** marine exports (1st); pharma ₹18,410 crore (5th); total exports ₹1.65 lakh crore (2024).
+~~ Sources: Praveen CA-360 Feb 2026 p.62 (farm credit); Praveen CA-360 Jan 2026 p.50 (EPI, marine exports), p.98 (investment share)
+
+=== Social Indicators – AP vs India
+| Indicator | Andhra Pradesh | India |
+|---|---|---|
+| Literacy (Census 2011, residual AP) | **67.35%** (female 59.96%; 62.07% in 2001) | **72.98%** |
+| IMR (SRS 2024, per 1,000 live births) | **18** (Telangana 17) | 24 |
+| Under-five mortality (SRS 2024) | 21 | 28 |
+| MMR (SRS 2021-23, per lakh live births) | **30** (47 in 2020-22) – lowest in India, **tied with Kerala** | 88 |
+| Multidimensional poverty (NITI MPI 2023, NFHS-5 2019-21) | **6.06%** | 14.96% |
+- AP had the highest share of neonatal deaths among infant deaths (83.7%) in SRS 2023 (app CA, not re-checked).
+- AP's literacy (67.35%) is **below** the national average, though its MMR (30) is the **lowest** in India.
+~~ Sources: AP Socio-Economic Survey 2024-25 p.13 (6.06%, 14.96%), p.182 (literacy); Praveen CA-360 May 2026 p.113 (SRS 2024); RBI Handbook / The News Minute on SRS 2021-23 (MMR AP 30 = Kerala 30, India 88) via web search
+
+=== Crime Data 2025 and Local-Body Reservation
+# BC quota in local bodies
+- **Rajeev Ranjan Mishra Commission** (single member, retired IAS) on BC reservation in local bodies; 45-day deadline.
+- **Article 243D** = reservation in **Panchayats**; **Article 243T** = reservation in **Municipalities** (73rd/74th Amendments, 1992).
+# Crime 2025 vs 2024 (DGP data at the CM's crime review, as in the app's CA)
+- **Overall crime down 5.5%**; 16 districts fell, 10 rose. (DGP's year-end report of 29 Dec 2025: down **6.17%**, 1,10,193 → 1,03,397 cases.)
+- Highest rise: **Annamayya (9.5%)**, then Konaseema (8.5%), Nellore (7.8%), Guntur and Tirupati (6.5% each).
+| Category | 2024 | 2025 |
+|---|---|---|
+| Crime against women | 16,913 | 16,288 (fell) |
+| Economic offences | 7,539 | 8,035 (**rose 6.6%**) |
+| Cyber crime | 2,853 | 1,771 (fell) |
+- **Economic offences rose** while overall crime fell (year-end report: 7,667 → 8,034, +4.78%).
+- **Operation TRACE:** tracing **missing women and girls** (1,177 girls and 2,483 women in four months).
+~~ Sources: Praveen CA-360 Feb 2026 p.60-61 (Mishra Commission, Art. 243D/243T); The Week (PTI), 29 Dec 2025, DGP year-end report (6.17%, economic offences +4.78%, Operation Trace) via web; app notes 6:9 (sub 9) for the CM-review figures, not re-checked
