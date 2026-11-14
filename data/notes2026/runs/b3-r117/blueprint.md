@@ -7,9 +7,9 @@ Data: 81 PYQs (pyqs.json, keyed in keys.jsonl) + 201 app MCQs (all-mcqs.json); 2
 |---|---|
 | PYQs | 81: 62 kept (row 117: 15, row 118: 14, row 119: 33), 19 moved |
 | Keys from the notes / generated | 27 / 54 |
-| Printed keys changed | 9 PYQs (8 were unkeyed: Retail policy aim, retail job target, fisheries policy, Raj Swift, MEDHAS sector, Mega Seed Park, UPSC 2022 e-commerce; plus 1 app MCQ re-keyed by added option – 20th NCeG Gold = Loan Charge Creation Module) |
+| Printed keys changed | 7 PYQs, all previously unkeyed (Retail policy aim, retail job target, fisheries policy, Raj Swift, MEDHAS sector, Mega Seed Park, UPSC 2022 e-commerce); plus 1 app MCQ re-keyed by an added option (20th NCeG Gold = Loan Charge Creation Module) |
 | Disputes noted | 3 (Pranahita "one-third" vs one-fifth arithmetic; Swadesh Darshan Sufi circuit; UPSC 2022 e-commerce B only vs neither) |
-| Outdated | 6 (installed capacity 25,726.89 → 27,392 MW; 14 → 16 notified non-major ports; Krishnapatnam "recently"; SCoR 3 → 4 divisions; railway electrification deadline; Sufi circuit) |
+| Outdated | 5 (installed capacity 25,726.89 → 27,392 MW; 14 → 16 notified non-major ports; SCoR 3 → 4 divisions; railway electrification deadline; Sufi circuit) |
 | Left at -1 | 1 (AP IT exports 2010-11 – no option confirmable) |
 | Moved | 19 – railway zone ×3 (row 140), fisheries/aqua/seed park ×4 (120), AP industry ×3 (125: aerospace policy, Auto Nagar, WEF 2022 MoUs), MNC + e-commerce FDI (78), SEZ sectors (68), rail electrification (69), India power mix (70), female LFPR (35), first PSU refinery (book 5 row 58), HP State Data Centre (book 5 row 24), DACA Dreamers (book 6 row 69) |
 
