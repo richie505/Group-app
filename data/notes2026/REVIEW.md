@@ -1566,3 +1566,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 395 → 61 kept + 107 new (168, 43%); new 66 statements / 29 match / 12 A–R; 1 of 301 lines lost.
 - caa80f08cf9a80 (Mongolia PM Khurelsukh; notes Uchral Nyam-Osor) replaced.
 - Notes conflict: Iraq President Abdul Latif Rashid (112:0:3.2) vs Nizar Amidi elected April (112:0:1.4) — update 0:3.2. GSI "176-year history" (111:0:40) — founded 1851 = 175 years in 2026; fix.
+
+## rewrite b2-w135 (rows 135–138)
+- own 437 → 66 kept + 95 new (161, 37%); new 60 statements / 20 match / 15 A–R; 4 of 252 lines lost.
+- "Knew it / Did not know" items are flashcard PYQs (k:"f") — fine. Row 137 sub 0 (RMSA/RUSA/SEMIS/NPEGEL) marked "general knowledge, not checked" — verify.
