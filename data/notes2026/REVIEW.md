@@ -1287,3 +1287,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w072 (rows 72–73)
 - own 447 → 40 kept + 136 new (176, 39%); new 87 statements / 31 match / 18 A–R; 18 of 388 lines lost.
 - Notes conflict: summit dates 16–21 Feb 2026 (73:0:1.0) vs 16–20 Feb (73:11:0.0); own ca85854da4adab removed — reconcile.
+
+## rewrite b1-w190 (rows 190–194)
+- own 391 → 86 kept + 77 new (163, 42%); new 42 statements / 19 match / 11 A–R / 5 sequence; no lines lost.
+- Doubtful PYQs: y704e1f7e78b dates Kudi Arasu May 1924 (notes/fact: 2 May 1925); y298682adabf "Radhasoami born out of Sikkim in 1851" (fact: Agra 1861; "Sikkim" likely OCR of "Sikhism").
+- 194:3:10 chair of 1917 Vijayawada sabha disputed in notes. 8 own MCQs removed as not in notes (Society of Nobles, 1923 Shuddhi Sabha, …).
