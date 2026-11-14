@@ -1003,5 +1003,335 @@
   "x": "Statement 1 is correct. Statement 2 is wrong: IREDA does project finance, appraisal and consultancy; it does not set tariffs. Statement 3 is correct. Hence 1 and 3 only.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cpf64d2778cdc5",
+  "row": 65,
+  "s": "Consider the following statements about solar power technologies:\n1. A photovoltaic system gives direct current, which an inverter changes to alternating current.\n2. Heat storage is possible in solar thermal (CSP) systems but not in photovoltaic systems.\n3. The capacity-utilisation factor of solar power in India (about 36-40%) is higher than that of wind.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: solar CUF is about 21%; wind is 36-40% and coal about 85%. Hence 1 and 2 only.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1f7c58bcd56d",
+  "row": 65,
+  "s": "Consider the following statements about solar cells:\n1. Crystalline silicon is the dominant solar-cell technology.\n2. Thin-film cells (CdTe, CIGS, a-Si) are costlier and more efficient than crystalline silicon cells.\n3. A perovskite-silicon tandem cell developed at IIT Bombay reached 30.2% efficiency.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: thin-film cells are cheaper and bendable but less efficient. Statement 3 is correct. Hence 2 only.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp610824420232",
+  "row": 65,
+  "s": "Consider the following statements about India's solar potential:\n1. India gets 250-300 clear sunny days a year, and most parts receive 4-7 kWh per square metre per day.\n2. NISE estimates the ground-based solar potential at 748 GW, using 3% of wasteland.\n3. NISE, an autonomous body of MNRE, is at Gurugram and hosts the ISA headquarters.\n4. Andhra Pradesh has the largest share (23.70%) of India's renewable-energy potential.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is correct. Statement 4 is wrong: Rajasthan has the largest share (23.70%); Andhra Pradesh has 9.10%. So only three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp055a0893f076",
+  "row": 65,
+  "s": "Match List-I with List-II (India's solar capacity):\nList-I\n(a) Installed in 2014\n(b) Installed on 31 Dec 2022\n(c) Installed in Aug 2026\n(d) Record addition in FY 2025-26\nList-II\n(i) 63.30 GW\n(ii) 2.82 GW\n(iii) 164.59 GW\n(iv) 44.61 GW\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 3,
+  "x": "Correct matching: (a) Installed in 2014 – (ii) 2.82 GW; (b) Installed on 31 Dec 2022 – (i) 63.30 GW; (c) Installed in Aug 2026 – (iii) 164.59 GW; (d) Record addition in FY 2025-26 – (iv) 44.61 GW.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpfc0c91e311b0",
+  "row": 65,
+  "s": "Consider the following statements:\n1. India added about 38 GW of solar capacity in 2025, beating the US.\n2. India is the world's largest solar producer and the first to pass 1 TW of solar capacity.\n3. NEDCAP is the State nodal agency for solar development in Andhra Pradesh.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: China is the largest and was first past 1 TW; India is 3rd. Statement 3 is correct. Hence 1 and 3 only.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5b5452169bdc",
+  "row": 65,
+  "s": "Consider the following:\nAssertion (A): Rajasthan has the largest installed solar capacity among Indian States.\nReason (R): Gujarat leads India in total renewable-energy capacity and in rooftop solar.\nWhich of the following is correct?",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A. Rajasthan has led solar since 2021 (41,012 MW, 31 Mar 2026). Gujarat (29,303 MW solar) leads total RE and rooftop solar, which does not explain Rajasthan's lead.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp8d1b8d37e500",
+  "row": 65,
+  "s": "Consider the following statements about the Jawaharlal Nehru National Solar Mission:\n1. It was launched in January 2010 as one of the eight missions of the NAPCC.\n2. Its original target was 20 GW of grid-connected solar power by 2022.\n3. Phase I (2010-13) had an off-grid PV target of 2,000 MW.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the Phase I off-grid PV target was 200 MW. Hence 1 and 2 only.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdd9cd2b03e2b",
+  "row": 65,
+  "s": "Consider the following:\nAssertion (A): Grid-connected rooftop solar is a part of the National Solar Mission.\nReason (R): The June 2015 revised target of 100 GW by 2022 included 40 GW of rooftop solar.\nWhich of the following is correct?",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A. The revised 100 GW target was 40 GW rooftop + 60 GW large grid-connected, so a statement that the mission 'excludes rooftop' is false.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp8d9cb764cf62",
+  "row": 65,
+  "s": "Match the scheme (List-I) with its feature (List-II):\nList-I\n(a) Solar Park Scheme (Dec 2014)\n(b) PM-KUSUM (2019)\n(c) SRISTI\n(d) PLI (2021)\nList-II\n(i) Target raised from 20 GW to 40 GW\n(ii) High-efficiency PV modules, ₹24,000 crore\n(iii) Solar power and solar pumps for farmers\n(iv) Rooftop incentives, ARUN app, Suryamitra\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "Correct matching: (a) Solar Park Scheme (Dec 2014) – (i) Target raised from 20 GW to 40 GW; (b) PM-KUSUM (2019) – (iii) Solar power and solar pumps for farmers; (c) SRISTI – (iv) Rooftop incentives, ARUN app, Suryamitra; (d) PLI (2021) – (ii) High-efficiency PV modules, ₹24,000 crore.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe73efcc05b4e",
+  "row": 65,
+  "s": "Consider the following statements about solar schemes:\n1. Viability gap funding schemes for grid-scale solar under JNNSM Phase II are run through SECI.\n2. The CPSU Scheme Phase II (2019) requires government producers to use domestically made cells and modules.\n3. Component A of PM-KUSUM covers standalone solar pumps.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: Component A covers small solar plants; B covers standalone pumps and C solarises grid-connected pumps. So only two are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp359a2dc0b8ab",
+  "row": 65,
+  "s": "Consider the following statements:\n1. PM Surya Ghar: Muft Bijli Yojana (Feb 2024), with ₹75,021 crore, aims at 1 crore homes getting 300 units a month free.\n2. Its Model Solar Village component gives ₹1 crore to one village per district.\n3. PM Surya Sarovar Yojana targets 5,000 MW of floating solar by 2030-31, with CFA of ₹1 crore per MW through SECI.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is correct. Hence 1, 2 and 3.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5fbf7091941f",
+  "row": 65,
+  "s": "Consider the following statements about green power markets:\n1. The Green Energy Open Access Rules, 2022 cut the open-access limit from 1 MW to 100 kW.\n2. The Green Term Ahead Market (2020) on the IEX trades only renewable energy.\n3. The Indian Energy Exchange (2008) is regulated by SEBI.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the IEX is regulated by the Central Electricity Regulatory Commission (CERC). Hence 3 only.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6d01789e207f",
+  "row": 65,
+  "s": "Match the solar / RE park (List-I) with its location (List-II):\nList-I\n(a) Bhadla (2,245 MW)\n(b) Kurnool Ultra Mega Solar Park\n(c) Rewa (power to Delhi Metro)\n(d) Khavda RE Park\nList-II\n(i) Madhya Pradesh\n(ii) Andhra Pradesh\n(iii) Kutch, Gujarat\n(iv) Jodhpur, Rajasthan\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 1,
+  "x": "Correct matching: (a) Bhadla (2,245 MW) – (iv) Jodhpur, Rajasthan; (b) Kurnool Ultra Mega Solar Park – (ii) Andhra Pradesh; (c) Rewa (power to Delhi Metro) – (i) Madhya Pradesh; (d) Khavda RE Park – (iii) Kutch, Gujarat.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpfdcbfcf0d46c",
+  "row": 65,
+  "s": "Consider the following statements about solar energy in Andhra Pradesh:\n1. Kurnool, N.P. Kunta and Kadapa are its three ultra mega solar parks.\n2. Ramagiri in Ananthapuramu district is a floating solar park.\n3. In April 2026 the State leased 50,000 acres of barren land for solar.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: Ramagiri is a hybrid solar-wind park. Statement 3 is correct. Hence 1 and 3 only.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf597fd3376ee",
+  "row": 65,
+  "s": "Consider the following statements about floating solar in India:\n1. India's floating solar potential on reservoirs is about 102.18 GW, with Maharashtra leading.\n2. Omkareshwar on the Narmada (Khandwa, MP) is India's largest floating solar project.\n3. Andhra Pradesh's floating solar plant is at NTPC Ramagundam.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: AP's floating plant is at NTPC Simhadri (Visakhapatnam); Ramagundam is in Telangana. So only two are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdf40040f7809",
+  "row": 65,
+  "s": "Match List-I with List-II (solar manufacturing rules):\nList-I\n(a) ALMM List-I (modules)\n(b) ALMM List-II (cells)\n(c) ALMM List-III (ingots, wafers)\n(d) Basic Customs Duty on modules (Apr 2022)\nList-II\n(i) June 2028\n(ii) 2019\n(iii) 40%\n(iv) 1 June 2026\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-i, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "Correct matching: (a) ALMM List-I (modules) – (ii) 2019; (b) ALMM List-II (cells) – (iv) 1 June 2026; (c) ALMM List-III (ingots, wafers) – (i) June 2028; (d) Basic Customs Duty on modules (Apr 2022) – (iii) 40%.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc4273eb33c51",
+  "row": 65,
+  "s": "Consider the following:\nAssertion (A): The United States challenged India's Domestic Content Requirement (DCR) at the WTO.\nReason (R): Under the National Solar Mission (2010), the DCR required Indian-made crystalline PV cells and modules for mission projects.\nWhich of the following is correct?",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the DCR's insistence on Indian-made cells and modules for mission projects is what the US challenged at the WTO, and the WTO ruled for the US.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpec6156b23e7b",
+  "row": 65,
+  "s": "Consider the following statements about India's solar manufacturing:\n1. Module-making capacity (about 190 GW) far exceeds cell-making capacity (about 25 GW).\n2. GST on solar devices was cut from 12% to 5% on 22 September 2025.\n3. The E-Waste Rules, 2022 recycling targets apply to solar PV waste.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: India has no solar-panel recycling norms yet; the E-Waste Rules 2022 targets do not apply to PV waste. Hence 3 only.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp449e2f551dc3",
+  "row": 65,
+  "s": "Consider the following statements about the International Solar Alliance (ISA):\n1. Its Framework Agreement came into force on 6 December 2017.\n2. The Global SIDS Initiative was launched at its 8th Assembly in New Delhi in October 2025.\n3. It has 38 member countries.\n4. Romania is its newest member (March 2026).\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the ISA has 112 members. Statement 4 is correct. So only three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe8c85de27289",
+  "row": 65,
+  "s": "Match the ISA initiative (List-I) with its purpose (List-II):\nList-I\n(a) OSOWOG\n(b) Global Solar Facility\n(c) STAR-C\n(d) Common procurement platform\nList-II\n(i) De-risking solar investment in underserved regions\n(ii) Training and technology resource centres\n(iii) Transnational grid sharing solar power across time zones\n(iv) Pooling demand to cut costs\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-i, c-ii, d-iv"
+  ],
+  "a": 3,
+  "x": "Correct matching: (a) OSOWOG – (iii) Transnational grid sharing solar power across time zones; (b) Global Solar Facility – (i) De-risking solar investment in underserved regions; (c) STAR-C – (ii) Training and technology resource centres; (d) Common procurement platform – (iv) Pooling demand to cut costs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp03ceab1f6c7b",
+  "row": 65,
+  "s": "Match the solar 'first' (List-I) with the place (List-II):\nList-I\n(a) First all-solar-kitchen village\n(b) First 24x7 solar village\n(c) First UT to run 100% on solar\n(d) First district with 100% solar PHCs\nList-II\n(i) Modhera (Gujarat)\n(ii) Surat\n(iii) Bancha (Betul, MP)\n(iv) Diu\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "Correct matching: (a) First all-solar-kitchen village – (iii) Bancha (Betul, MP); (b) First 24x7 solar village – (i) Modhera (Gujarat); (c) First UT to run 100% on solar – (iv) Diu; (d) First district with 100% solar PHCs – (ii) Surat.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp967f8310895b",
+  "row": 65,
+  "s": "Consider the following statements:\n1. The first World Climate Conference was held in 1979.\n2. The first Earth Summit, which adopted Agenda 21, was held at Rio de Janeiro in 1992.\n3. India's first National Centre for Marine Biodiversity is at Jamnagar.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is correct. So all three are correct.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
