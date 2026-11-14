@@ -993,3 +993,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Row 45 line 1:1: UPPSC key treats soyabean as "not a cash crop" (official key kept; check Disputed chip).
 - Row 45: own MCQs on zonal HQs (Nandyal, Maruteru, Chintapalle) and "Trans-Gangetic Plains" not in notes — removed.
 - Row 46 line 5:5: APWALTA "250 population" norm marked unverified in notes — not tested.
+
+## rewrite b1-w092 (rows 92–97)
+- own 422 → 60 kept + 92 new (152, 36%); new 49 statements / 25 match / 18 A–R; no lines lost.
+- Notes conflict: 93:2:1 Marco Polo 1292 "end of Rudrama's reign" vs 93:1:14 she died 1289; 96:5:0.4 Prataparudra accedes 1296 vs row 93 1289 — reconcile (not used in new MCQs).
+- Doubtful PYQs: yfa4f2df1833 has two right options (Ulugh Khan = Juna Khan); ya44b0996b37 keys Ganapatideva for Ramappa pond, notes say Recherla Rudra.
+- Row 94: Pedaganjam salt PYQs (5) and own MCQs (3, removed) have no notes link — notes gap.
