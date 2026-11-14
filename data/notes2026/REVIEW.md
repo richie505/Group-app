@@ -1584,3 +1584,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 373 → 47 kept + 94 new (141, 38%); new 62 statements / 20 match / 11 A–R / 1 sequence; no lines lost.
 - nd54458f5c4f (ICDS "6 months–6 years"; notes 0–6) removed. Table header rows as data: 140:3:0.6, 141:2:4.2, 142:1:1.2 — cleanup.
 - Doubtful PYQs: ydb1d9d2cee5 Hyderabad vs notes Secunderabad; y8b704d13f5f key "Economically" vs NALSA "educationally" backward — check.
+
+## rewrite b6-w114 (rows 114–115)
+- own 147 → 17 kept + 42 new (59, 40%); new 27 statements / 9 match / 6 A–R; 3 of 105 lines lost.
+- IRCS Managing Body "18: 6 + Chairman nominated, 12 elected" (114:3:10.4, 10:0.9) sums to 19 — fix count; fb665139630e5 removed.
+- 115:3:7 Harivansh "first nominated member" elected Deputy Chairman (3rd term, 2026) — unverified; kept n3f9173afef1 depends on it — verify against RS bulletin.
