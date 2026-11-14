@@ -671,3 +671,14 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Outdated y6960f49bb7b Om Prakash Mathur (now Governor of Kerala, Oct 2026).
 - Rocket CA wrong date: National Honour (Amdt) Act assent 6 Aug 2026 (Gazette), not 11 Aug. Removed unverified "Jana Gana Mana in Shankarabharanam".
 - Own-MCQ mappings partly keyword-based, not fully reviewed.
+
+## b6-r013 (CA rows 13, 17, 18 AP projects/MoUs)
+- yd13594601f3 AP main cotton research centre -1 → Guntur (RARS Lam; snippets only).
+- Dispute yd2e41e25a36 South Coast Railway zone "Both". Outdated y00071655cdf Vijayawada–Singapore flight.
+- Unverified: yf04697b45cb Atmakur artificial rain. Own MCQs n17ad4c58931, fe679571ba71c "three international airports" (Bhogapuram opened Aug 2026). Pathikonda district (Kurnool?) unchecked.
+
+## b6-r004 (CA rows 4-5 AP governance, who holds what)
+- yed2b73975b9 APPSC-voided pension question keyed ₹2,758 crore (closest) with dispute — voided mark dropped; owner: keep voided?
+- Dispute y61b693304ca 61,500 schools (U-DISE 58,572).
+- Outdated: DGP, Deputy CM, Chief Secretary (G. Sai Prasad; one daily CA says Special CS Revenue), Home Minister.
+- Unverified: Prana Raksha (yd277f330ed1, yd83a5fad484), West Godavari ODF 2017, AP first algorithms state.
