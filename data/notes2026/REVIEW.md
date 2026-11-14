@@ -1424,3 +1424,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Doubtful PYQs: yb35fb6dc578 "Belgaum 1925" (session Dec 1924); y30833dbfc94 Dandi march "completed 6 April" (reached 5 April, salt law broken 6 April — defensible, Disputed chip).
 - Notes conflicts: Kakinada bomb case 1930 vs 1933 (238:3:0); Bulusu at Chollangi (238:1:0.1) vs Vadarevu (238:1:1) — reconcile.
 - Removed as not in notes: n6378b5b9c21, n159b605ebd2, g87d478e29d31, nb328c725c61.
+
+## rewrite b6-w090 (rows 90–92)
+- own 420 → 83 kept + 121 new (204, 49%); new 75 statements / 36 match / 10 A–R; 3 of 317 lines lost.
+- Mislinked kept own: caea7dfe56f104 (UNICEF) 90:9:14 → 4:14; fd9f117f70900 (Booker £50,000) 3:5.3 → 3:3. ca5a4875f631fa options have stray quote marks — cleanup.
