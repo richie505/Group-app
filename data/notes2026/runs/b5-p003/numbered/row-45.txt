@@ -1,0 +1,109 @@
+=== NEW NOTES row 45
+## SUB 0 | GIS – Concept, Components and Uses
+[0:0] - **GIS = Geographic Information System**: a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data – the most complete system for modelling spatial data and community vulnerability.
+[0:1] - **Father of GIS:** **Roger Tomlinson** – coined the term for the Canada GIS (1960s).
+[0:2] - Each theme is a **layer**; **overlay analysis** combines layers; data = spatial (vector, raster) + attribute tables.
+[0:3] TABLE head: Component | Examples
+  [0:3.0] Hardware | Computer, digitizer (tablet/table converting analog data to digital), scanner, GPS receiver, plotter
+  [0:3.1] Software | QGIS – free, open-source, cross-platform desktop GIS
+  [0:3.2] Data | Spatial (points, lines, polygons; satellite images) + attributes
+[0:4] - **Remote sensing + GIS:** maps prepared from satellite data or aerial photos are digitised and stored in GIS; manual maps are slow to prepare and hard to update.
+[0:5] - **Decision Support System:** data systems for planning.
+[0:6] - **Survey of India** prepares India's **topographical maps**.
+[0:7] # GIS in disasters
+[0:8] - **Situational awareness map:** real-time weather, hospitals and shelters, damage imagery; **pre-disaster population density maps** are least useful in the live response.
+[0:9] - Real-time sources: satellite imagery, weather data, sensor networks – **not news channels**.
+[0:10] TABLE head: Remote sensing | GIS
+  [0:10.0] Rainfall estimation during a cyclone; post-disaster damage | Mapping spread of infectious diseases; landslide hazard zonation
+[0:11] - Earthquake **magnitude and epicentre** come from **seismographs**, not GIS.
+[0:12] ~~ Sources: app notes 5:45 sub 1; general knowledge (Tomlinson, Survey of India)
+## SUB 1 | Disaster Management from Space
+[1:0] TABLE head: Can be monitored from space | Cannot
+  [1:0.0] Floods, cyclones, drought, forest fires, tsunami inundation, landslides, post-quake ground deformation | Spread of a disease among humans, heart attack; earthquake prediction
+[1:1] - Satellites give **near-real-time images** (remote sensing) for disaster management.
+[1:2] - Fire hotspots: thermal-infrared **MODIS** (Terra/Aqua) and **VIIRS** (Suomi-NPP), received at **Shadnagar** (NRSC) → **Forest Survey of India** alert system (not IMD) – the modern **fire alert system**.
+[1:3] - **NRSC activities:** near-real-time flood and cyclone mapping, forest-fire alerts, spatial flood early warning, **rapid damage assessment of landslides**; **Decision Support Centre**; **NDEM** (National Database for Emergency Management).
+[1:4] - **Bhuvan disaster services:** NDEM, drought monitoring, flood monitoring – no nuclear-hazard warning.
+[1:5] - **Ganga-Brahmaputra basin** = most flood-prone area (NRSC).
+[1:6] - **Landslides:** **DInSAR** gives repeat-pass slope-deformation monitoring, before visible failure, without a ground instrument network.
+[1:7] - **Global Forest Watch (WRI):** custom maps, forest trends, alerts.
+[1:8] TABLE head: Satellite | Use
+  [1:8.0] RISAT / SAR | Flood mapping through clouds
+  [1:8.1] INSAT-3DS | Cyclone tracks
+  [1:8.2] Cartosat | Damage mapping
+[1:9] - **DMSP** (ISRO): INSAT and IRS for imaging and communication; States must request data from NRSC.
+[1:10] - **INSAT Disaster Warning System:** Cyclone Warning Centre **Chennai → C-band uplink → S-band downlink**.
+[1:11] - **NDMA** uses GIS for planning, decision support, guidelines; **ISRO** led the **International Charter Space and Major Disasters** from **April 2025** (6 months).
+[1:12] ~~ Sources: app notes 5:45 sub 5
+## SUB 2 | Remote Sensing Basics and Spectral Indices
+[2:0] - **Remote sensing:** gathering **images**/information about Earth **without physical contact**, from reflected or emitted radiation; covers dangerous or inaccessible areas.
+[2:1] TABLE head: Type | Energy | Example
+  [2:1.0] Active | Sends its own signal | RISAT radar, LiDAR
+  [2:1.1] Passive | Natural radiation (sunlight) | Resourcesat, Oceansat
+[2:2] - **Microwave / SAR** sees through cloud and darkness; **soil moisture** best measured by microwave/SAR.
+[2:3] - **InSAR:** compares the **phase** of radar images from **orbiting** satellites → **ground deformation** (quakes, subsidence, landslides).
+[2:4] - **NISAR:** radar, **L-band and S-band**; centimetre-scale ground movement.
+[2:5] - Applications: land cover, vegetation, forests, **surface and groundwater**, snow, wetlands, **minerals and hydrocarbons**, crop area and **crop yield** – "all of the above".
+[2:6] - Soil nutrient testing by **chemical analysis is NOT remote sensing**.
+[2:7] TABLE head: Term | Meaning
+  [2:7.0] NDVI | Normalized Difference Vegetation Index = (NIR − Red)/(NIR + Red); healthy vegetation reflects near-infrared; −1 to +1; most used for drought
+  [2:7.1] VCI | From NDVI; drought declaration
+  [2:7.2] Ecology index | Vegetation, water content, biological quantity – not cost and production
+  [2:7.3] NH Green Cover Index 2025-26 | NHAI + NRSC; satellite green cover of national highways
+[2:8] - **National Carbon Project** (ISRO-GBP): **carbon pools, fluxes and net carbon balance** of the terrestrial biosphere – vegetation pools, soil pools, fluxes.
+[2:9] ~~ Sources: NextGen S&T Group 2 Part 2 p.4-5; Rocket Disaster Management p.23; app notes 5:45 sub 0-1, 9
+## SUB 3 | Agencies, Bhuvan and Geoportals
+[3:0] TABLE head: Agency | Role
+  [3:0.0] NRSC, Hyderabad | Nodal agency – data acquisition, processing, dissemination, aerial remote sensing, disaster decision support; runs Bhuvan; earth station at Shadnagar
+  [3:0.1] IIRS, Dehradun | Training and education in remote sensing and GIS
+  [3:0.2] SAC, Ahmedabad | Sensors; MOSDAC, VEDAS, Nabhmitra
+  [3:0.3] NESAC, Umiam (Meghalaya) | North-East applications
+  [3:0.4] RRSCs | 5 (Bengaluru, Jodhpur, Kharagpur, Nagpur, Delhi) – not Hyderabad
+[3:1] - SPOT, EROS are foreign satellites, not Indian agencies.
+[3:2] - **Bhuvan:** ISRO's **geoportal** ("India's Google Earth"), by **NRSC**, launched **2009**; 2D/3D imagery – not a spacecraft or telescope.
+[3:3] TABLE head: Portal | Use
+  [3:3.0] Bhuvan Panchayat | Gram panchayat planning; powered by ISRO/NRSC (not DRDO)
+  [3:3.1] Bhoonidhi (NRSC) | EO data archive since 1988
+  [3:3.2] MOSDAC (SAC) | Meteorological & Oceanographic Satellite Data Archival Centre; disaster alerts
+  [3:3.3] Yuktdhara | MGNREGA asset planning
+  [3:3.4] SVAMITVA | Drone mapping with Survey of India
+  [3:3.5] PM Gati Shakti | National Master Plan GIS, by BISAG-N
+[3:4] ~~ Sources: NextGen S&T Group 2 Part 2 p.4; app notes 5:45 sub 2-3
+## SUB 4 | Agriculture Applications
+[4:0] TABLE head: Programme | Purpose
+  [4:0.0] FASAL | Forecasting Agricultural output using Space, Agro-meteorology and Land-based observations (no revenue records)
+  [4:0.1] MNCFC (2012) | Mahalanobis National Crop Forecast Centre – runs FASAL
+  [4:0.2] YES-TECH | Yield estimation (rice) for PMFBY
+  [4:0.3] CHAMAN | Horticulture area and production
+  [4:0.4] NADAMS | Agricultural drought monitoring
+  [4:0.5] CROP framework | Rabi 2024-25 wheat 122.724 MT
+[4:1] - **Resourcesat:** crop acreage, watershed management, precision farming; **SLUSI** maps soils.
+[4:2] - **Meghdoot:** agro-met advisory app of **IMD and ICAR**.
+[4:3] ~~ Sources: app notes 5:45 sub 4, 7
+## SUB 5 | Fisheries, Weather Apps and AP Applications
+[5:0] - **PFZ advisories** from **chlorophyll and SST**, issued by **INCOIS, Hyderabad** (EOS-06); INCOIS also issues the Ocean State Forecast.
+[5:1] TABLE head: Device | Developer | Fact
+  [5:1.0] Nabhmitra | ISRO SAC, Ahmedabad | Fishermen safety device; tested at Neendakara (Kerala), Aug 2023
+  [5:1.1] GEMINI | INCOIS with AAI (GAGAN) | PFZ, ocean-state, disaster alerts
+  [5:1.2] DAT-SG | ISRO | NavIC distress transmitter; sends acknowledgement back
+  [5:1.3] App | Developer / purpose | 
+  [5:1.4] Damini | Lightning – IITM Pune | 
+  [5:1.5] Mausam | IMD | 
+  [5:1.6] Andhra Pradesh Varuna (2017) | AP: automatic weather stations + groundwater piezometers + ISRO forecasts | 
+  [5:1.7] City Flood Alert (AP) | RTGS + APSDMA + IIT Gandhinagar; first in Vijayawada | 
+[5:2] # APSAC and AP
+[5:3] TABLE head: Technology | Purpose
+  [5:3.0] Drought monitoring (VCI) | Assessment of vegetation; 103 drought mandals (2024-25)
+  [5:3.1] YES-TECH | Rice yield estimation; pilots in Nandyal and Kakinada
+  [5:3.2] RWS pipeline mapping | Water-supply assets via a mobile app and dashboard
+  [5:3.3] APMVTS | Real-time tracking of mineral vehicles (AIS-140, 50,000)
+[5:4] - APSSDI: **74** GIS layers; PM Gati Shakti AP: **271** layers; APSDMA–NRSC MoU (15 Apr 2026) on lightning deaths; RTGS hub Vijayawada alerts fishermen on cyclones, high waves, fish shoals; shoreline mapping of the 1,053 km coast.
+[5:5] ~~ Sources: PMF Lens Aug 2026 p.56; web: yovizag.com (AP Varuna); app notes 5:45 sub 6-7, 10
+## SUB 6 | Tele-education, Telemedicine and Navigation
+[6:0] - INSAT/GSAT enable **tele-education (EDUSAT, GRAMSAT)**, **telemedicine** and ISRO **Village Resource Centres** (not IMD).
+[6:1] - **Swayam Prabha:** group of **40 free educational DTH channels on GSAT-15**.
+[6:2] - **Eklavya:** educational TV channel for **engineering and technology** subjects.
+[6:3] - Satellite timing: banks time-stamp transactions, power grids synchronise phase; GPS is still the IST reference.
+[6:4] - **March 2026:** IRNSS-1F clock failed – only **3 PNT-capable** NavIC satellites; **NVS-02** stranded in an incorrect orbit.
+[6:5] - **GAGAN** (ISRO-AAI) payloads on **GSAT-8, 10, 15**.
+[6:6] ~~ Sources: PMF Lens Apr 2026 p.11; PMF S&T Part 2 p.50; app notes 5:45 sub 8

@@ -1,0 +1,116 @@
+=== NEW NOTES row 29
+## SUB 0 | Malware – Virus, Worm, Trojan and Other Types
+[0:0] # Basics
+[0:1] - **Malware** (malicious software) = single word for viruses, worms, trojans etc.: software **designed to disrupt, damage or gain unauthorised access** to a computer (not merely buggy software).
+[0:2] - **VIRUS** = "**Vital Information Resources Under Siege**"; a program that **replicates itself**, **attaches to files** and spreads from computer to computer – enters via **images, audio/video files, downloads, attachments**; infects storage such as a **pen drive**, not a display or keyboard.
+[0:3] - **Bug** = a fault in a program that stops it working correctly (some GK keys also call a virus a "bug").
+[0:4] - **Father of computer virology:** **John von Neumann** (1949 theory of self-reproducing automata).
+[0:5] # Types → behaviour → example
+[0:6] TABLE head: Type | Defining behaviour | Example
+  [0:6.0] Virus | Attaches to files, reproduces and spreads; user must run the infected file | Brain, Michelangelo
+  [0:6.1] Worm | Uses the network to send copies of itself without user action; does not need to attach to a program | WannaCry, Morris
+  [0:6.2] Trojan | Looks like legitimate software, tricks the user into installing it, then acts like a virus/worm; no self-replication; backdoor | Zeus
+  [0:6.3] Ransomware | Encrypts files, demands ransom (often crypto) | WannaCry, Petya
+  [0:6.4] Spyware | Secret surveillance; steals passwords, banking data | Pegasus
+  [0:6.5] Adware | Unwanted ads; bundled with free/pirated software | Fireball
+  [0:6.6] Rootkit | Administrator-level access; modifies the host OS to hide malware; hardest to detect | Stuxnet parts
+  [0:6.7] Stealth virus | Designed to hide from antivirus detection | –
+  [0:6.8] Keylogger | Records keystrokes (passwords, PINs, OTPs) | DarkHotel
+  [0:6.9] Botnet | Network of hijacked "zombie" devices for DDoS, spam | Mirai (IoT)
+[0:7] - **Antivirus** software: McAfee, Kaspersky, Avast, **Webroot**, Norton – **Rootkit is malware, not antivirus**; Webroot is not a virus.
+[0:8] - Viruses, worms and trojans all threaten **electronic payment systems**.
+[0:9] > "Self-replicating over the network without user action" = worm; "disguised, no self-replication" = trojan. UPSC 2005: worm statement I correct, II (needs to attach) wrong; malware statement II correct only.
+[0:10] ~~ Sources: NextGen S&T Group 2 Part 3 p.22 (cyber security, anti-virus); PMF S&T Part 6 p.18-20 (malware types table); app notes 5:29 sub 0; general knowledge (stealth virus, von Neumann, Webroot, not checked)
+## SUB 1 | Named Malware, Attacks and Firsts
+[1:0] TABLE head: Name | Type | Origin / note
+  [1:0.0] Creeper (1971) | First self-copying program/virus | ARPANET (Bob Thomas, BBN); removed by Reaper
+  [1:0.1] Elk Cloner (1982) | First virus "in the wild" | Apple II, Rich Skrenta
+  [1:0.2] Brain (1986) | First IBM-PC boot-sector virus | Alvi brothers, Lahore, Pakistan
+  [1:0.3] Michelangelo | Virus | Made to infect MS-DOS on 6 March 1992; first found in Australia (1991)
+  [1:0.4] Stuxnet (2010) | Worm with rootkit parts | Sabotaged uranium centrifuges at Natanz, Iran (industrial control systems)
+  [1:0.5] Petya (2016) / NotPetya (June 2017) | Ransomware | Encrypts the master boot record; NotPetya hit Ukraine
+  [1:0.6] WannaCry (May 2017) | Ransomware spreading as a worm | Paralysed networks in 150 countries; used EternalBlue; Lazarus group (North Korea)
+  [1:0.7] EternalBlue | Exploit of a Windows SMB flaw | US NSA; leaked by Shadow Brokers (2017)
+  [1:0.8] StrandHogg (2019) | Android vulnerability | Malware poses as genuine apps; MHA alert; found by Promon (Norway)
+  [1:0.9] Pegasus | Zero-click spyware | NSO Group, Israel
+  [1:0.10] Mirai | Botnet | Hijacked IoT devices for DDoS
+[1:1] - CERT-In flags (2014): Hikti, Dyreza Trojan, Shellshock.
+[1:2] > UPSC 2018 / APPSC G2 2025: WannaCry, Petya, EternalBlue = **cyber attacks / ransomware**. "Latest" virus in a 2017 paper = Petya (now many later ransomware strains).
+[1:3] ~~ Sources: NextGen S&T Group 2 Part 3 p.7 (CERT-In 2014 malware); PMF S&T Part 6 p.20 (UPSC 2018 WannaCry/Petya/EternalBlue = cyber attacks); app notes 5:29 sub 1
+## SUB 2 | Attack Techniques – Phishing, Spoofing, Spam, DoS
+[2:0] TABLE head: Threat | Meaning
+  [2:0.0] Phishing | Deceptive e-mails/texts that look legitimate, tricking users into revealing sensitive information (card details, PIN) or installing software
+  [2:0.1] Vishing | Phishing by voice calls
+  [2:0.2] Spoofing | E-mail appears to come from one source but is sent from another; a fake website posing as a legitimate one steals user data
+  [2:0.3] Spam | Junk / unsolicited bulk e-mail (a computer term)
+  [2:0.4] E-mail bombing | Identical e-mail sent repeatedly to one address to overflow it
+  [2:0.5] Sniffing | Capturing data packets on a network
+  [2:0.6] DoS / DDoS | Denial of Service: flooding a server with fake traffic so genuine users cannot access it; DDoS uses many machines (botnet)
+  [2:0.7] Man-in-the-middle | Secretly intercepts/alters communication between two parties
+  [2:0.8] SQL injection | Malicious database code via website input fields
+  [2:0.9] Zero-day | Exploits an unknown, unpatched flaw (e.g. Pegasus)
+  [2:0.10] Supply-chain attack | Compromise a trusted vendor, e.g. SolarWinds (2020)
+  [2:0.11] Social engineering | Exploiting the human element (trust, urgency, curiosity) to gain access
+[2:1] - **Cyber attack** = any attempt to harm, damage or threaten a computer system or network.
+[2:2] > Match (APPSC): Hacking – unauthorised access/manipulation; Phishing – fraudulent attempt to get sensitive info; Ransomware – locks data and demands payment.
+[2:3] ~~ Sources: app notes 5:29 sub 2; PMF S&T Part 6 p.20-21 (phishing, vishing, DoS/DDoS); general knowledge (sniffing, not checked)
+## SUB 3 | Hackers and Cyber Crimes
+[3:0] - **Cybercrime** = any crime involving a computer and a network: **hacking, stalking, DoS attacks**, spam, online fraud, cyber terrorism (**online chatting is not a cybercrime**); deviant acts through IT = **cyber crimes**.
+[3:1] TABLE head: Actor | Meaning
+  [3:1.0] Hacker | Person who gains illegal/unauthorised access to a computer system
+  [3:1.1] Cracker = black-hat hacker | Malicious hacker: destroys data, denies service
+  [3:1.2] White-hat hacker | Ethical hacker
+[3:2] # Crimes against persons
+[3:3] TABLE head: Crime | Modus operandi / law
+  [3:3.0] Digital arrest | Not a real police power – a term used by cyber criminals to scare victims: posing as police/CBI on video call and extorting money
+  [3:3.1] Cyber slavery | Trafficking people and forcing them to run cyber fraud from scam centres (Myanmar and Laos, MEA 2025)
+  [3:3.2] Identity theft | IT Act Sec. 66C
+  [3:3.3] Sextortion | Blackmail with intimate images; 66E/67A
+  [3:3.4] Dark web | Hidden internet via Tor; illegal marketplaces, data dumps
+[3:4] - **Telangana** police: one of India's first cases of trafficking for cyber fraud (INTERPOL); FIU-India flagged **Rs 800 crore** laundering.
+[3:5] - **Supreme Court**: Centre, States, RBI and **telecom authorities** to frame SOPs, use zero FIRs; digital-arrest complaints on NCRP 1,23,672 (2024) to 58,249 (2025).
+[3:6] # Financial cyber frauds
+[3:7] TABLE head: Fraud | Modus operandi
+  [3:7.0] SIM swap | Duplicate SIM to intercept OTPs
+  [3:7.1] UPI / QR fraud | QR code is scanned only to pay, never to receive
+  [3:7.2] Crime-as-a-service | Syndicates rent out ransomware and fraud tools
+  [3:7.3] Crypto-jacking | Secretly using a victim's device to mine cryptocurrency
+[3:8] ~~ Sources: NextGen S&T Group 2 Part 3 p.22 (cybercrime definition); PMF S&T Part 6 p.21 (no legal concept of digital arrest); app notes 5:29 sub 3-4
+## SUB 4 | Security Tools, Principles and Cryptography
+[4:0] # Tools
+[4:1] TABLE head: Tool | Function
+  [4:1.0] Firewall | Filters incoming/outgoing internet traffic by rules; blocks unauthorised access; hardware, software or both
+  [4:1.1] Antivirus | Prevents and heals infections
+  [4:1.2] Password | Improves security
+  [4:1.3] MFA / 2FA | Password + OTP/biometric
+  [4:1.4] Honeypot | Decoy system to trap attackers
+  [4:1.5] Virtual keyboard | Defeats keyloggers: protects against password theft, trojans and spyware
+[4:2] - Indigenous: **M-Kavach** = **C-DAC Hyderabad**; **CERT-In** = CVE Numbering Authority.
+[4:3] # CIA triad
+[4:4] TABLE head: Principle | Meaning
+  [4:4.0] Confidentiality | Procedures, policies and controls securing data against illicit access or use
+  [4:4.1] Integrity | Protection against alteration
+  [4:4.2] Availability | Access for authorised users (denial = availability lost)
+[4:5] - Full list: confidentiality, integrity, availability, **accountability, non-repudiation**; **IRDAI** (2021) retail cyber cover excludes **gross negligence**.
+[4:6] # Cryptography
+[4:7] TABLE head: Term | Key point
+  [4:7.0] Symmetric | Same key encrypts and decrypts – AES, Blowfish (Bruce Schneier, 1993; faster alternative to DES)
+  [4:7.1] Asymmetric | Public-private key pair – RSA; basis of PKI
+  [4:7.2] Digital signature | Signed with sender's private key, verified with public key
+  [4:7.3] Hashing | One-way, fixed-length digest (SHA-256)
+[4:8] ~~ Sources: NextGen S&T Group 2 Part 3 p.22 (firewalls, encryption, passwords); app notes 5:29 sub 5-7
+## SUB 5 | Attacks on Indian Systems, Cyber Warfare and Data
+[5:0] TABLE head: Incident | Target / State
+  [5:0.0] e-Nagarpalika portal (Dec 2023) | Online civic tax portal, Madhya Pradesh
+  [5:0.1] Power utilities (2019) | Ransomware on servers of Telangana and Andhra Pradesh power utilities
+  [5:0.2] AIIMS Delhi (2022) | Ransomware on hospital servers
+  [5:0.3] Kudankulam NPP (2019) | Malware on admin network, Tamil Nadu
+  [5:0.4] Cosmos Bank (2018) | ~Rs 94 crore ATM/SWIFT fraud, Pune
+[5:1] - **AP**: **APTS** watches Critical Government Infrastructure via **APCSOC**; audited **270** GoAP apps; AP Police–**IIT Tirupati** MoU (Cyber Crime Investigation and Training Academy).
+[5:2] - **Cyber espionage**: often **state-sponsored** (**APT groups**); **cyber terrorism** targets critical infrastructure; tracing hard (VPNs, proxies, **botnets**).
+[5:3] - Emerging: AI-powered malware, ransomware-as-a-service, deepfakes; **MeitY 2nd Digital Threat Report 2025-26** = **BFSI**; **Exercise Cyber Suraksha** = DRDO-led, **12 days**, armed forces.
+[5:4] TABLE head: Data | Figure
+  [5:4.0] NCRB 2023 cyber crime cases | 86,420 (+31.2%); fraud ~69%
+  [5:4.1] Top state (NCRB 2023) | Karnataka (21,889)
+  [5:4.2] CERT-In incidents | 29.44 lakh (2025; highest in five years)
+[5:5] ~~ Sources: app notes 5:29 sub 8-9

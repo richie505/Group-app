@@ -1,0 +1,103 @@
+=== NEW NOTES row 4
+## SUB 0 | CSIR Laboratories – Location, Year, Field
+[0:0] TABLE head: Lab | Location | Year | Field
+  [0:0.0] CDRI (Central Drug Research Institute) | Lucknow | 1951 | Drug research
+  [0:0.1] CIMAP (Medicinal and Aromatic Plants) | Lucknow | 1959 | Medicinal and aromatic plants
+  [0:0.2] NBRI (National Botanical Research Institute) | Lucknow | 1953 | Botany, plant biotechnology
+  [0:0.3] IITR (Toxicology Research) | Lucknow | 1965 | Toxicology; developed Oneer
+  [0:0.4] NCL (National Chemical Laboratory) | Pune | 1950 | Chemistry
+  [0:0.5] NPL (National Physical Laboratory) | New Delhi | 1947 | Measurement standards; keeps Indian Standard Time
+  [0:0.6] CECRI (Central Electrochemical Research Institute) | Karaikudi, Tamil Nadu | foundation 1948, opened 1953 | Electrochemistry, batteries
+  [0:0.7] CSMCRI (Salt and Marine Chemicals) | Bhavnagar, Gujarat | 1954 | Salt, marine chemicals, desalination
+  [0:0.8] CFTRI (Food Technological Research) | Mysuru | 1950 | Food technology
+  [0:0.9] NIO (National Institute of Oceanography) | Goa (Dona Paula, Panaji) | 1966 | Oceanography; Regional Centre at Visakhapatnam
+  [0:0.10] NEERI (Environmental Engineering) | Nagpur | 1958 | Environmental engineering
+  [0:0.11] CEERI (Electronics Engineering) | Pilani, Rajasthan | 1953 | Electronics
+  [0:0.12] CIMFR (Mining and Fuel Research) | Dhanbad, Jharkhand | (CMRI + CFRI merged 2007) | Mining, fuel
+  [0:0.13] IMTECH (Microbial Technology) | Chandigarh | 1984 | MTCC gene bank (IDA under Budapest Treaty)
+  [0:0.14] CCMB (Cellular and Molecular Biology) | Hyderabad | 1977 | Cellular and molecular biology
+  [0:0.15] IICT (Chemical Technology) | Hyderabad | 1944 | Chemical technology, drug discovery
+  [0:0.16] NGRI (Geophysical Research) | Hyderabad | 1961 | Geophysics, earthquakes, groundwater
+  [0:0.17] IGIB (Genomics and Integrative Biology) | New Delhi | 1977 | Genomics, diagnostics
+[0:1] - **Others:** CRRI (New Delhi, roads), **NAL** (Bengaluru, aerospace), CMERI (Durgapur), CGCRI (Kolkata, glass and ceramics).
+[0:2] - **⚠ Trap:** **CECRI is at Karaikudi, not Kolkata** (UPPCS 2004 unmatched pair); CECRI's founders = Alagappa Chettiar, S.S. Bhatnagar and Nehru – exams key **"Karaikudi, 1953"** (start of work), the foundation stone was laid in 1948.
+[0:3] - **Lucknow cluster:** CDRI, CIMAP, NBRI, IITR = CSIR; **BSIP is NOT CSIR** (DST autonomous body).
+[0:4] - **Hyderabad cluster:** CCMB, IICT, NGRI = CSIR; CDFD, NIAB = DBT; INCOIS, NIGST = non-CSIR.
+[0:5] ~~ Sources: PMF S&T Part 1 (pmf-science-tech-01) p.40-41 (CSIR); app notes 5:4 (sub 2, 8); lab years and CEERI/CIMFR/NBRI/IGIB: general knowledge, not checked
+## SUB 1 | Technologies and Awards from Labs in News
+[1:0] TABLE head: Technology | Lab
+  [1:0.0] Saheli (centchroman/ormeloxifene) weekly oral contraceptive, 1991 – world's first non-steroidal pill; marketed by HLL | CDRI, Lucknow
+  [1:0.1] Oneer – low-cost drinking-water disinfection system for rural areas | CSIR-IITR, Lucknow
+  [1:0.2] Green crackers (SWAS, SAFAL, STAR) – lower emissions; SAFAL replaces aluminium with magnesium | CSIR-NEERI and other CSIR labs
+  [1:0.3] Saras – light transport aircraft named after the Sarus (Indian) crane; first flew 2004, Bengaluru | NAL
+  [1:0.4] Hansa (Hansa-2, HANSA-3 NG) – trainer aircraft; HANSA-3 (NG) = first indigenous aircraft commercially manufactured | NAL (built by TAAL)
+  [1:0.5] Sensitive DNA-chip based sensor for rapid disease diagnosis | CSIR-IGIB with NCDC, New Delhi
+  [1:0.6] NEERI-ZAR gravity water purifier; methanol-to-DME (NCL); world's first steel slag road (CRRI) | NEERI / NCL / CRRI
+  [1:0.7] Zoo bio-bank, Darjeeling; beam catcher for FAIR (CMERI); piezoelectric nanocomposite (NCL + CeNS, 2024) | CCMB / CMERI / NCL
+[1:1] - **Non-CSIR "who developed" items:** nanofibre-based controlled-release **oral Amphotericin B** tablets for post-Covid black fungus = **IIT Hyderabad** (2021); **hydrophobic sorbent** for oil spills = **IISER Thiruvananthapuram**; **eVIN** (vaccine cold-chain) = MoHFW with UNDP.
+[1:2] - **CSIR Diamond Jubilee Technology Award 2004** → **Midas Communication Technologies** (corDECT WLL, with IIT Madras TeNeT), announced 26 Sept 2004.
+[1:3] - **SERB Women Excellence Award 2020:** **Dr. Niti Kumar, CSIR-CDRI**.
+[1:4] - **MoES Life Time Excellence Award in Earth System Science (July 2020):** **Prof. Ashok Sahni** (palaeontologist).
+[1:5] - **CSIR "Smart Village" Kusunpur (Odisha):** AI crocodile-alert system (Jun 2026); Bullayya College (Visakhapatnam)-IICT MoU 2026 – **shrimp waste → chitin, glucosamine**.
+[1:6] ~~ Sources: PIB release 26 Sept 2004 "Midas Communication Technologies wins CSIR Diamond Jubilee Technology Award 2004"; app notes 5:4 (sub 3); IIT-H, IISER-TVM, IGIB-NCDC, MoES award, green crackers: printed keys / general knowledge, not checked
+## SUB 2 | Other National Institutes – Locations
+[2:0] TABLE head: Institute | Location | Parent / fact
+  [2:0.0] IISc | Bengaluru | 1909; founded by the vision/endowment of Jamsetji Tata
+  [2:0.1] Survey of India | HQ Dehradun | DST; training institute NIGST at Hyderabad
+  [2:0.2] NATMO | HQ Kolkata | DST
+  [2:0.3] BSIP (Birbal Sahni Institute of Palaeosciences) | Lucknow | DST autonomous – non-CSIR
+  [2:0.4] RGCB (Rajiv Gandhi Centre for Biotechnology) | Thiruvananthapuram | DBT
+  [2:0.5] NIMHANS | Bengaluru | Institute of National Importance (2012 Act)
+  [2:0.6] Indian Institute of Ecology and Environment | New Delhi | –
+  [2:0.7] NRLC (Conservation of Cultural Property) | Lucknow | Ministry of Culture
+  [2:0.8] Central Institute of Indian Languages | Mysuru (not Mumbai) | Ministry of Education
+  [2:0.9] ARIES | Nainital | DST autonomous
+  [2:0.10] College of Defence Management | Secunderabad | –
+  [2:0.11] Indian Institute of Naturopathy and Yogic Science | Bengaluru | – (UPPCS 2002 key)
+[2:1] - **Institutes of National Importance by Act of Parliament:** **Dakshina Bharat Hindi Prachar Sabha (Chennai)**, **NIPER (Mohali)**, **SCTIMST (Thiruvananthapuram)**; **LNIPE Gwalior is a deemed university**, not an INI by Act (UPSC 2004).
+[2:2] ~~ Sources: app notes 5:4 (sub 5, 8); other locations: general knowledge, not checked
+## SUB 3 | Polar and Earth-Science Research
+[3:0] - **Antarctica:** **Dakshin Gangotri** (1983-84, first station, now a supply base) → **Maitri** (1989, second) → **Bharati** (2012, **third**).
+[3:1] - **Arctic:** India's first expedition **Aug 2007** led by **Dr. Rasik Ravindra** (NCAOR, Goa); station **Himadri** (2008), **Ny-Alesund, Svalbard**.
+[3:2] - **INCOIS, Hyderabad** (1999, MoES) houses the **Indian Tsunami Early Warning Centre** (2007).
+[3:3] - **NCESS** (National Centre for Earth Science Studies): **Thiruvananthapuram**; began as Kerala's Centre for Earth Science Studies (**1978**); under **MoES** since **2014**.
+[3:4] - **Soil piping study:** **Kerala**, through CESS with **NDMA** funding.
+[3:5] ~~ Sources: app notes 5:4 (sub 8); Antarctic station years: general knowledge, not checked
+## SUB 4 | Departments and Councils – CSIR, DST, DBT, DSIR, SERB
+[4:0] TABLE head: Body | Year | Status / fact
+  [4:0.0] CSIR | September 1942 | Autonomous body registered as a society (Societies Registration Act 1860), not statutory
+  [4:0.1] DST | 1971 | Nodal for new S&T areas, R&D infrastructure, missions, policy
+  [4:0.2] National Biotechnology Board | 1982 | Upgraded to DBT in 1986
+  [4:0.3] DSIR | January 1985 | One of 3 departments of MoST; controls CSIR + 2 PSUs
+  [4:0.4] SERB | 2008 | Science and Engineering Research Board – statutory board (SERB Act 2008)
+  [4:0.5] BIRAC | 2012 | DBT's not-for-profit Section 8 company for biotech start-ups
+  [4:0.6] BRIC | 2023 | Integrates 14 DBT institutions
+[4:1] # CSIR governance
+[4:2] - **President: Prime Minister** (ex officio); **Vice-President: Union S&T Minister**; **DG CSIR = Secretary, DSIR**.
+[4:3] - Network: **37 national laboratories**, 39 outreach centres, 1 innovation complex, 3 units (PMF: "35+ labs").
+[4:4] - **BRIC** chair = Union S&T Minister (DBT Secretary = ex officio DG).
+[4:5] # DBT institutes
+[4:6] TABLE head: Institute | Location
+  [4:6.0] NII (Immunology) | New Delhi
+  [4:6.1] CDFD (DNA Fingerprinting) | Hyderabad
+  [4:6.2] NCCS (Cell Science) | Pune – Microbial Culture Collection
+  [4:6.3] RGCB | Thiruvananthapuram
+  [4:6.4] NIPGR (Plant Genome) | New Delhi
+  [4:6.5] RCB | Faridabad
+  [4:6.6] CIAB (Innovative and Applied Bioprocessing) | Mohali
+  [4:6.7] NIAB | Hyderabad
+[4:7] - **APPSC G2 2025:** CIAB is a **DBT** institute; CFTRI, CGCRI, CCMB are CSIR labs.
+[4:8] # DST
+[4:9] - Autonomous bodies: **Bose Institute** (Kolkata, 1917, J.C. Bose; nodal for **FAIR**), JNCASR, Raman Research Institute, **ARIES** Nainital, Wadia Institute, **BSIP** Lucknow, SCTIMST; FAIR funded 50:50 by DST and DAE.
+[4:10] - Schemes: INSPIRE, Vigyan Jyoti, STI Hubs for SC/ST, **NM-ICPS (2018, Rs 3,660 crore)**, Nano Mission; DST nodal for the **RDI Scheme**.
+[4:11] # DSIR and SERB
+[4:12] - DSIR PSUs: **NRDC** and **CEL**; recognises **2,000+ in-house R&D centres** and 900+ SIROs → **income tax and customs duty exemptions**; Umbrella scheme **PRISM, PACE, BIRD-crf, A2K+**.
+[4:13] TABLE head: SERB scheme | Purpose
+  [4:13.0] SERB-POWER | Women researchers
+  [4:13.1] Ramanujan Fellowship | Repatriate scientists
+  [4:13.2] Ramalingaswami Re-entry | Life sciences (not engineering)
+  [4:13.3] SERB Overseas Fellowship | Diaspora
+  [4:13.4] PM Research Fellowship | Rs 70,000-80,000/month (Aug 2026)
+[4:14] - **ANRF Act 2023** repealed the SERB Act; SERB subsumed into **ANRF**; its schemes continue.
+[4:15] - 2026: CSIR, DAE, DoS, ICMR, ICAR allowed to bypass GeM for scientific equipment.
+[4:16] ~~ Sources: PMF S&T Part 1 (pmf-science-tech-01) p.40-41; app notes 5:4 (sub 0, 1, 4, 5, 6, 7)
