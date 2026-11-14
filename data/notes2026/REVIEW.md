@@ -632,3 +632,14 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Disputes: baldness fungal; dysentery bacterial; Hepatitis A blood-borne match; AIDS "not infectious".
 - Outdated y952429cfb7c P. vivax ~65% (now P. falciparum ~60%).
 - Unverified: veterinary tests, Russell's viper, sandal spike, ya2f81e6ca5c acute diarrhoea, remittent fever (vetscraft only).
+
+## b5-r109 (Agriculture tech, rows 109-110)
+- y5b866326452 UPSC 2014 neem: 3 → 2 "1 and 3 only" (official key). y14f733c7c3f APPSC G1 2010 mosquito repellents: add_option "Synthetic pyrethroids such as allethrin" (stem looks garbled — check paper).
+- Disputes: aluminium phosphide, UPSC 2012 carbon sequestration, dry rot fungus, zinc food.
+- Unverified printed: Rythu Raksha, legume NPK 1:2:2, organic clusters, rainwater "NOT agri science", fremitus 120 days.
+
+## b5-r119 (Health financing, programmes, rows 119-121)
+- y54cec09f37e ABDM: Arogya Mitra kept; dispute notes old-notes claim of official key "Sand Box" (owner: confirm).
+- Own MCQ n76f243e70d5 TB mortality fall add_option 25%.
+- Disputes: Rx drugs/Schedule H; sickle-cell A-R; ECT minors 2016 Bill vs 2017 Act. Outdated: Ni-kshay Poshan ₹500 → ₹1,000.
+- NHA figures: OOPE 39.4% etc. are 2021-22 (PMF), Rocket labels 2022-23.
