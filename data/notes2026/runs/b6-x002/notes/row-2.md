@@ -73,7 +73,7 @@
 |---|---|
 | 2014 | **AP Reorganisation Act** (under **Article 3**); **Section 5**: Hyderabad = common capital for **not more than 10 years** from **2 June 2014** (till **June 2024**); it **named no capital** – only "there shall be a new capital" |
 | 2019 | Three capitals proposed: **Visakhapatnam (executive)**, Amaravati (legislative), **Kurnool (judicial)** |
-| 2020 | AP Decentralisation and Inclusive Development of All Regions Act, 2020 – **repealed in 2021** |
+| 2020 | AP Decentralisation and Inclusive Development of All Regions Act, 2020 – **repealed in 2021**; the judicial capital was **never operationalised** |
 | 2022 | AP High Court: State lacked competence to shift the capital; legitimate expectation of land-pooling farmers |
 | 26 Mar 2026 | Cabinet (CM Naidu) approved the resolution and **96 new courts** (1,730 posts) |
 | 28 Mar 2026 | AP Assembly resolution asking Parliament to amend Section 5 |
@@ -95,17 +95,18 @@
 | Bill (Assembly, March 2026) | Key points |
 |---|---|
 | AP Public Services (Second Amendment) Bill, 2025 | **Junior Assistant** job on compassionate grounds to the son of **Thota Chandraiah** (victim of political violence, Palnadu); appointment by **special resolution of the Council of Ministers**, bypassing APPSC |
-| AP Fire Service (Amendment) Bill, 2026 | NOC replaced by a **Fire Safety Certificate (FSC)**; aligns with the Centre's 2019 Model Bill; standard fine **₹500 → ₹10,000**; daily default fine **₹100 → ₹1,000** |
+| AP Fire Service (Amendment) Bill, 2026 | NOC replaced by a **Fire Safety Certificate (FSC)**; fire department designated an **Emergency Service**; aligns with the Centre's 2019 Model Bill; standard fine **₹500 → ₹10,000**; daily default fine **₹100 → ₹1,000** |
 | AP Jan Vishwas (Amendment of Provisions) Bill, 2026 | **Decriminalises minor offences** (jail → fines); inspired by the Centre's **Jan Vishwas Act, 2023**; repeals **drainage cess** Acts of 1985 and 1986; motto **"Minimum Government, Maximum Governance"** |
 - SC view: compassionate appointment is a **valid exception** to equality in public employment (**Article 16**).
 # Deregulation Phase-2
 - Regulations **800+ → fewer than 100**; clearance time cut by **at least 40%**; through the **Ordinance route**.
-- Self-declaration, merged approvals, third-party inspections, **colonial laws removed** (not retained); safety safeguards kept.
+- Self-declaration / intimation, merged approvals, **end of double licensing**, third-party inspections, **colonial laws removed** (not retained); safety safeguards kept.
 - Digital tool **CFMS = Comprehensive Financial Management System**; **Visakhapatnam** = AP's largest port by cargo.
 - CM **N. Chandrababu Naidu** received **"Business Reformer of the Year"** (**The Economic Times**, Mumbai).
 # AP Electronic Processes Rules, 2025 (e-summons)
 - **AP Electronic Processes (Issuance, Service and Execution) Rules, 2025** – made by the **AP High Court**; G.O.Ms.No.107, Home (Courts-B), 22 May 2026.
-- Summons, warrants, notices via **WhatsApp, Signal, Telegram and email**, digitally signed; **physical service continues where e-service fails** (it is not discontinued).
+- Summons, warrants, notices via **WhatsApp, Signal, Telegram and email**, encrypted and **digitally signed** by the judicial officer; police submit a **screenshot or delivery report** as proof; **physical service continues where e-service fails** (it is not discontinued).
+- Background: the **IT Act, 2000** recognises electronic records and signatures; during **COVID-19** the SC allowed service by email, WhatsApp, Telegram, Signal.
 ~~ Sources: CARE Mar 2026 p.6 (Thota Chandraiah, Junior Assistant, special resolution, Art 16), p.7-8 (FSC, fines, Jan Vishwas 2023, drainage cess, motto); CARE Apr 2026 p.32-33 (Deregulation Phase-2, 800 → under 100, 40%, CFMS); Praveen CA-360 Apr 2026 p.30 (Business Reformer of the Year); app notes 6:2 (sub 3: e-summons rules, Ordinance route)
 
 === Firsts, Rankings and Coringa
@@ -125,6 +126,8 @@
 # Environment law (HARIT-2, Vijayawada)
 | Law | Point |
 |---|---|
+| Water Act, 1974 | **First major environmental law**; created the **CPCB and SPCBs** |
+| Wildlife (Protection) Act, 1972 | **National parks and sanctuaries** |
 | Air Act, 1981 | Enacted after the **Stockholm Conference** |
 | Environment (Protection) Act, 1986 | **Umbrella law after Bhopal** |
 | Biological Diversity Act, 2002 | Implements the **CBD** |
@@ -158,6 +161,7 @@
 | Third | ₹30,000 | 3 kg |
 | Fourth | **₹40,000** | 6 kg |
 - Gram Sabhas in May–July 2026, then Council of Ministers; likely start **15 August 2026**.
+- CM also directed: **scale down family-planning operations**, **reduce C-sections in private hospitals**, curb teenage pregnancies.
 ~~ Sources: CARE Mar 2026 p.9-12 (first of its kind, ₹25,000, 12 months, 59%, five components, median age 32.5); CARE May 2026 p.20-21 (₹30,000/₹40,000, 15 Aug 2026, PPP IVF, 1.2 by 2040); Praveen CA-360 May 2026 p.113 (SRS 2024 AP TFR 1.4); app notes 6:2 (sub 2: 2 months paternity)
 
 === Urban, Transport, Water and Energy
@@ -184,8 +188,8 @@
 - AP MoU: safe drinking water to every household by **2028**; JJM (launched 2019; 16 crore households in Phase I) **extended till 2028**; JJM 2.0 shifts from infrastructure to **sustainability**.
 - O&M policy: maintenance by **Panchayats**; DWCRA women test water quality.
 # Policing and disaster technology
-- **Nellore AI ITMS**: over-speeding by **radar** (ANPR reads number plates, linked to **VAHAN**); **VAHAN = vehicle registration**, **SARATHI = driving licences**.
-- **AP Cyber Guard**: act on **1930** complaints within 30 minutes; 24×7 Cyber War Room; 1930 helpline under **I4C** (Indian Cyber Crime Coordination Centre, 2018) – not the NBA.
+- **Nellore AI ITMS**: detects **red-light jumping, stop-line crossing**, over-speeding by **radar** (ANPR reads number plates, linked to **VAHAN**); **VAHAN = vehicle registration**, **SARATHI = driving licences**.
+- **AP Cyber Guard**: respond to **1930** complaints within the **first 30 minutes**; **24×7 Cyber War Room**; training for **500** police; 1930 helpline under **I4C** (Indian Cyber Crime Coordination Centre, 2018) – not the NBA.
 - **NRSC–APSDMA MoU**: remote sensing to map **lightning hotspots**; NRSC est. **1974**, Hyderabad (ISRO).
 ~~ Sources: CARE May 2026 p.50-51 (Clean Sweep, SASA, weeks); Praveen CA-360 May 2026 p.51 (Jaipur model), p.49-50 (Cyber Guard, I4C 1930); CARE Apr 2026 p.54-55 (5,746 e-buses, 30–40%, 150–300 km, GCC), p.47-49 (Surya Ghar 100% SC/ST, UDAY, YSR Jala Kala); CARE Mar 2026 p.33 (JJM 2.0 by 2028), p.34-35 (Nellore ITMS); Rocket CA 2026 Part 01 p.29 (JJM launched 15 Aug 2019); PMF LENS May 2026 Part 16 p.9 (JJM 2.0 – sustainability); Praveen CA-360 Aug 2026 p.37 (gram panchayats maintain); Praveen CA-360 Apr 2026 p.33 (NRSC 1974, lightning)
 
@@ -203,7 +207,8 @@
 | Article 173 | Qualifications of **MLAs** (Art 84 for MPs) |
 | **Article 243D** | One-third seats for women in **Panchayats** (243T Municipalities) |
 | **Articles 243K / 243ZA** | **State Election Commission** – Panchayat / **municipal** elections |
-- **106th Amendment** (Nari Shakti Vandan): **no reservation in Rajya Sabha or Legislative Councils**.
+- **Legislative Council** = **permanent House**; one-third of members retire every two years. **Article 174**: the Governor **dissolves the Assembly** on the advice of the Council of Ministers. Under the 2014 Act the **Governor** of the common capital had **special responsibility for law and order**.
+- **106th Amendment** (Nari Shakti Vandan): **no reservation in Rajya Sabha or Legislative Councils**; meant for **15 years**, **not yet implemented**. ECI **SVEEP** = electoral awareness; **pink polling booths** = all-women staff.
 - **Lok Sabha seats** are allotted to States by **population**.
 | Case | Point |
 |---|---|
@@ -236,7 +241,7 @@
 - **Araku Kouni**: AP's first **tribal millet menu** – recipes of **Alluri Sitarama Raju** district; first in **Haritha restaurants (APTDC) in ASR district**; documented by **Indian Culinary Institute, Tirupati**.
 # Livestock
 - **FMD vaccination**: **16 March – 29 April 2026** under NADCP; free, door-to-door; calves above **four months**. FMD is a **viral** disease.
-- **Heat-stress advisory**: sheds **east–west**; **crossbred / high-yield animals are more vulnerable** than indigenous breeds. **India** has the world's largest cattle population.
+- **Heat-stress advisory**: **clean drinking water through the day**, **community water troughs** in villages, sheds **east–west**; **crossbred / high-yield animals are more vulnerable** than indigenous breeds. **India** has the world's largest cattle population.
 - **Pashu Samvardhaka Margadarshini**: **livestock e-magazine** launched by Minister **K. Atchannaidu**.
 ~~ Sources: Praveen CA-360 May 2026 p.54 (Food Planet Prize shortlist, 35 of 1,000+, 19 countries); CARE Jun 2026 p.16-17 (APCNF won 2026 prize); CARE Mar 2026 p.20-22 (Araku Kouni, FMD), p.39 (Gasaba, Kiloguda); CARE Apr 2026 p.7 (east–west sheds); Praveen CA-360 May 2026 p.55 (Pashu Samvardhaka Margadarshini); app notes 6:2 (sub 8: Farm to Home, largest cattle population)
 

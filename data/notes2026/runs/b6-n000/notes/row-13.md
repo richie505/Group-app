@@ -1,0 +1,264 @@
+=== Energy Projects and Power Reforms
+# Windergy India 2026 award
+- AP won **Leadership State in Renewable Energy Investment Mobilisation** award at the **8th Windergy India 2026**, **Chennai Trade Centre**, **8 Oct 2026**.
+- Presented by Union MNRE Minister **Pralhad Joshi**; received by **M. Kamalakar Babu**, VC & MD, **NREDCAP** (New and Renewable Energy Development Corporation of AP).
+- Since June 2024: **97** clean-energy projects, about **₹4 lakh crore**, about **4.71 lakh** jobs.
+- Windergy India 2026: 8th edition, **7-9 Oct 2026**, Chennai; theme **"Wind - Powering India's Energy Resilience"**; organisers **MNRE, Ministry of Power, Indian Wind Turbine Manufacturers Association**.
+> Award received by **NREDCAP**, not the AP Pollution Control Board.
+# PM-KUSUM feeder-level solarisation
+- AP: **1,162.80 MW** feeder-level solarisation through **228** solar plants under **Component C** of PM-KUSUM.
+- Modes: **CAPEX** (utility owns) or **RESCO** (service company; normal period **25 years**).
+- **CFA: 30%** of project cost, ceiling **₹1.05 crore/MW**; feeder-separation loans from **NABARD, PFC, REC or RDSS**.
+- PM-KUSUM = Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan - **MNRE**; original target about **34,800 MW**; CFA ₹34,422 crore.
+| Component | Provision |
+|---|---|
+| A | Decentralised grid-connected plants 500 kW-2 MW |
+| B | Standalone solar pumps (off-grid) - Centre 30%, State at least 30% |
+| C - IPS | Individual grid-connected pump solarisation (up to 2x pump capacity) |
+| C - FLS | Feeder-level solarisation |
+# RE approvals and cancellations (AP Clean Energy Policy; NREDCAP, APTRANSCO)
+- Approved projects must start in **10 months** and generate in **24 months**.
+| Developer | Project → location |
+|---|---|
+| M. Venkata Rao Infra Projects | 675 MW solar, Madakasira, Sri Sathya Sai |
+| Clean Renewable Energy Hybrid-6 | 118.80 MW solar, Kasanur/Balapanur, YSR Kadapa |
+| Sai Bioenergy AP | 24 TPD CBG, Midthur, Nandyal |
+| Risalven Two Energy | 100 MW wind-solar hybrid, Yemmiganur, Kurnool |
+- **Cancelled**: **Megha Engineering's 2,000 MW pumped hydro** at **Kommuru, Annamayya district**.
+- Cabinet also cancelled the **800 MW Avuku PSP** (RVR Projects), Sep 2026.
+# Solar manufacturing
+- **Premier Energies** opened a **7 GW N-Type TOPCon G12R** cell plant at **Naidupeta, Tirupati district** on **21 Sept 2026** - billed **India's largest** N-Type TOPCon cell facility; company total **10.6 GW** (India's highest).
+- Plans ₹12,500 crore in 3 years (ingots, wafers, inverters, transformers, BESS); order book ₹15,000 crore (June 2026).
+- **TOPCon** = Tunnel Oxide Passivated Contact; solar cells work on the **photovoltaic effect**.
+# Amaravati grid - India-Denmark Energy Partnership (INDEP)
+- Danish delegation met **APCRDA** at its HQ in **Rayapudi** to design a **33-kV power grid** for Amaravati.
+- Topics: grid capacity, renewable integration, **Distributed Energy Resources (DERs)**, **BESS**, EV charging.
+- Delegation: **Danish Energy Agency, Green Power Denmark, Central Electricity Authority**; **digital twin** of Amaravati shown at the **Amaravati Integrated Command Control Centre**.
+# Green ammonia, Kakinada (new)
+- **[20 Oct 2026]** **ADB** and **Japan** signed financing with Hyderabad-based **AM Green Ammonia (India) Pvt Ltd** (set up by founders of **Greenko Group**) for a green ammonia project at **Kakinada**.
+- Capacity about **1.1 million tonnes a year** (one of the world's largest), in two phases of **547,500 tonnes** each - Phase I by **31 March 2029**, Phase II by **31 March 2030**.
+- **USD 100 million** loan via **LEAP 2** (Leading Asia's Private Infrastructure Fund 2), funded by **JICA**, administered by **ADB**.
+- First investment under **ACCEL** (Action for Creating Energy Security for Long-Term Resilience), launched by ADB and Japan in **May 2026**.
+- ADB est. **1966**, HQ **Mandaluyong, Metro Manila**; JICA est. **2003**, HQ **Tokyo**.
+- Green ammonia = **green hydrogen** + **nitrogen from air**.
+- **RE approvals:** The solar, wind-solar hybrid and CBG projects were approved under the **AP Clean Energy Policy**, through **NREDCAP** and **APTRANSCO**.
+~~ Sources: the app's current notes for this row (old-notes.txt)
+
+=== Industrial Parks, Agri-hubs and Investments
+# BHAVYA industrial parks
+- AP gets **11** sector-specific parks under Centre's **Bharat Audyogik Vikas Yojana (BHAVYA)**; **4,757 acres** allotted.
+- **Aluminium Park - Srikakulam**; **Cocoa Processing Park**; **Robotics Park - Sri Sathya Sai**; **Semiconductor Park - Tirupati**.
+- Agreements between **APIIC** and **NICDIT**.
+# Global Horticulture Hub - Rayalaseema Rising
+- **₹1 lakh crore** "Global Horticulture Hub-Rayalaseema Rising" launched **2 October 2026** at **Madanapalle, Annamayya district**; associated - Union FM **Nirmala Sitharaman**, CM **N. Chandrababu Naidu**, Dy CM **Pawan Kalyan**.
+- Rayalaseema as a fruit production, processing and export region; AP as **"fruit bowl" alongside (not instead of) "rice bowl"**.
+| Item | Figure |
+|---|---|
+| Districts / mandals / villages | 10 / 303 / 5,869 |
+| Horticulture clusters | 201 |
+| Farmers | about 9.6 lakh |
+| Irrigation | new potential 9 lakh acres; stabilise 4.3 lakh acres |
+| Government share | ₹40,352 crore - irrigation ₹20,884 cr, horticulture development ₹14,906 cr, rural roads ₹4,562 cr |
+| Private | about ₹60,000 crore (food processing, logistics, exports) |
+- Crops: mango, banana, tomato, pomegranate, dragon fruit, avocado, berries.
+- **Indian School of Agriculture (ISA)**: foundation stone laid the **same day**; with **Reliance**, modelled on **ISB**; focus on AI, research, market intelligence.
+> The hub is **not fully government-funded**: the private share (about ₹60,000 crore) is larger.
+# Exports 2025-26
+- AP exports 2025-26: **₹1,76,503.37 crore** (2024-25: ₹1,75,754 crore; 2023-24: ₹1,63,563 crore - 7.93% over two years). Data: **DGCIS** (Ministry of Commerce; HQ **Kolkata**; est. **1862**).
+- Top destinations: USA, China, Singapore, Belgium, UAE, Vietnam, Russia, Malaysia, Brazil, Indonesia - top 10 = ₹96,419 crore (54.63%).
+- Erstwhile districts: **Visakhapatnam 1st**, then East Godavari, Chittoor, Guntur; bottom - Kurnool, Kadapa, Krishna.
+- Major exports: marine products, pharma, organic chemicals, petroleum, rice, ferro-alloys, chillies, sugar.
+- **[21 Oct 2026]** AP ranks **7th** in India in exports 2025-26: India about ₹39.04 lakh crore; AP **₹1.77 lakh crore (4.53%)**; **Gujarat 1st** (₹9.77 lakh crore), then Maharashtra, Tamil Nadu. About **841** product categories from AP (also tobacco and boats). **USA** largest destination (₹35,970 crore). All southern states except **Kerala** in top 10; Kerala **15th** (₹40,392 crore). **Foreign Trade Policy 2023** effective 1 April 2023.
+# ASUSE district data (NSO, MoSPI)
+- **Most enterprises - Prakasam** (2,13,162); **most workers - YSR Kadapa** (3.26 lakh).
+| AP rank | Most enterprises | Most workers |
+|---|---|---|
+| 1 | Prakasam 2.13 lakh | YSR Kadapa 3.26 lakh |
+| 2 | Krishna 1.98 lakh | NTR 3.07 lakh |
+| 3 | YSR Kadapa 1.95 lakh | Prakasam 2.88 lakh |
+| 4 | NTR 1.89 lakh | East Godavari 2.76 lakh |
+| 5 | Sri Sathya Sai 1.82 lakh | Sri Sathya Sai 2.61 lakh |
+| 6 | Tirupati 1.79 lakh | Kakinada 2.47 lakh |
+| 7 | Srikakulam 1.76 lakh | Tirupati 2.47 lakh |
+| 8 | West Godavari 1.72 lakh | Krishna 2.39 lakh |
+| 9 | East Godavari 1.70 lakh | West Godavari 2.36 lakh |
+| 10 | Eluru 1.67 lakh | Eluru 2.20 lakh |
+- Wage: highest **Kakinada** (₹16,648.58/month; ₹1,99,783/yr); lowest **Kurnool** (₹9,295.75/month; ₹1,11,549/yr).
+- **Nandyal** highest in women-owned enterprises (35.89%), women workers (43.38%), registered firms (56.60%). Lowest women-owned - Parvathipuram Manyam 19.38%; lowest women workers - YSR Kadapa 30.68%; lowest registered - West Godavari 19%.
+- Nationally about one-third of enterprises in the top 50 districts; 237 districts have women-worker share above 33%; 770 districts covered.
+~~ Sources: the app's current notes for this row (old-notes.txt)
+
+=== Ports and Shipbuilding
+# Four greenfield ports (due by end of 2027)
+- Plan: four greenfield **Other Than Major Ports (OTMPs)** operational by **end of 2027**, to **double** OTMP cargo capacity from **100 MTPA to 200 MTPA**.
+- **Visakhapatnam = AP's only major port** (not an OTMP); throughput about **100 MTPA** (equal to all existing AP OTMPs).
+- OTMPs handle nearly **50%** of India's port cargo; AP ports = **16%** of OTMP cargo; AP ranks **2nd after Gujarat** (not first).
+- Aim: AP as **maritime gateway of India's east coast**; bridge the container gap on the **Haldia-Visakhapatnam-Chennai** corridor.
+| Port | District | Developer / status (Aug 2026) |
+|---|---|---|
+| Ramayapatnam | Prakasam | State port; RPDCL; 81% done; Phase 1 ₹4,922.62 crore, 4 berths, 34.04 MTPA; AP Maritime Board issued RFP for operator, to be finalised by end of October 2026 |
+| Mulapeta | Srikakulam | State port, greenfield; 76% |
+| Machilipatnam | Krishna | State port; built by Megha Engineering & Infrastructures Ltd (MEIL); 59% |
+| Kakinada Gateway Port | Kona, Kakinada SEZ (Kakinada) | Multi-cargo; Aurobindo Group, PPP; 33%; 16 MMTPA, commissioning by early 2027 |
+- Phase-II expansion: ₹1,638.52 crore.
+- **Indian Ports Act, 2025**: port limits of Machilipatnam and Ramayapatnam cut to **15 km**. **Juvvaladinne** and **Uppada** are **fishing harbours**.
+> AP is 2nd (after Gujarat) in OTMP cargo, not 1st. Visakhapatnam is a major port, not an OTMP.
+# Mazagon Dock merchant shipyard - Dugarajapatnam
+- **MoU** between **Mazagon Dock Shipbuilders Ltd (MDL)** and **NSHIP-AP** (National Shipbuilding and Heavy Industries Park-AP) for a greenfield **merchant shipyard** at **Dugarajapatnam, Tirupati district**; signed on **18 September 2026** in presence of CM N. Chandrababu Naidu.
+- MDL investment about **₹15,000 crore** over **5-7 years**; capacity **1.2 million gross tonnes/year**; about **45,000** direct and indirect jobs.
+- Vessels: tankers, bulk carriers, container ships, LNG carriers. MDL also builds warships and submarines.
+- MDL = **Navratna PSU** under the **Ministry of Defence**; est. **1934**, HQ **Mumbai**; selected as **anchor shipyard**.
+- NSHIP-AP = SPV owned **equally** by **AP Maritime Board** and **Visakhapatnam Port Authority**.
+- Feasibility: shipyard **₹29,254 crore**; port **₹9,513 crore**; under Centre's **Shipbuilding Development Scheme**.
+- Cluster site about **3,488 acres** with about **2.1 km** of waterfront. A separate MDL anchor-shipyard MoU was signed for **Dighi, Maharashtra** (15 Sep 2026).
+- Linked to **Maritime Amrit Kaal Vision 2047** - India among **top 5 shipbuilders by 2047**.
+# Port cargo 2025-26 (new)
+- **[26 Oct 2026]** AP ranks **2nd** in **non-major port** cargo traffic 2025-26 (DGCI&S); **Gujarat 1st**. AP ports handled about **210 MMT** (about 12% growth).
+- Visakhapatnam Major Port **91.17 MMT** (from 82.62); AP non-major ports **118.83 MMT** (from 104.32).
+- Combined capacity about **327.5 MMT**, **64.12%** utilised.
+- Working ports: Visakhapatnam, Gangavaram, Kakinada Deep Water, Krishnapatnam, Kakinada Anchorage, Ravva. Under construction: Ramayapatnam, Mulapeta, Machilipatnam, Kakinada.
+- Target: **20%** share of national non-major port capacity. Major ports under the **Union Ministry of Ports**; non-major ports under **States**; **Major Port Authorities Act, 2021**.
+~~ Sources: the app's current notes for this row (old-notes.txt)
+
+=== Health, Heritage and Environment in News
+# Health
+- **Medical colleges**: 10 new colleges under **PPP** from **2027-28** - Adoni, Madanapalle, Markapuram, Pulivendula, Penugonda, Palakollu, Amalapuram, Narsipatnam, Bapatla, Parvatipuram.
+- **Chloroquine illness**: a **7-year-old girl died**; **52** fell ill (**47 children**) after chloroquine tablets at a medical camp - **Gollaguppa village, Yetapaka mandal, Polavaram district**; 23 children shifted from **Lakshmipuram PHC** to Bhadrachalam Area Hospital.
+- Chloroquine has a **narrow therapeutic index** (small margin between effective and toxic dose).
+- Malaria: Parvathipuram Manyam ~2,650 (2024) → ~1,820 (2025); AP ~7,800 → ~7,000. **Plasmodium falciparum** = about 70-80% of AP's malaria; causes cerebral malaria; vector **female Anopheles**.
+# Heritage
+- **Penukonda inscription**: at **Sri Naga Lingeshwara Swamy Temple**, Penukonda hill, Sri Sathya Sai district; dated **16 July 1363 CE** (Saka 1285), Shravana Shuddha Panchami - Naga Panchami, Sunday.
+- Reign of **Bukka Raya I** (1356-1377 CE); script **ancient Kannada-Telugu** (not Sanskrit).
+- Records that **Anantharasu Chikka Odeyar** (Prime Minister of Bukka Raya I) consecrated the Shiva Linga and built the pond **Nagula Bavi** ("Well of Serpents"); sculpture of **eight Naga Kanyas** worshipping Shiva; deciphered by historian **MyNaa Swamy**.
+- **Penukonda = second capital** of the Vijayanagara Empire.
+- **Valmiki Caves**: near **Gooty Fort**, Gooty-Mantralayam Road, **Erramala hills**, Rayalaseema; among the deepest cave systems in South India; stalactites and stalagmites; some formations sound like **tabla or bell**; stalagmite **oxygen isotopes** show stronger monsoons after the last Ice Age (about **11,700 years** ago); underground water bodies **Edu Bavulu / Gundalu**; linked to Sage Valmiki; worship on **Maha Shivaratri**.
+# Environment
+- **750-kg female Indian gaur** rescued from a **wire snare** in the **Eco-Sensitive Zone** of **Papikonda National Park** (found in Indukuru Reserve Forest, Rampachodavaram Forest Division; cared for at Animal Rescue Centre, Visakhapatnam).
+- Indian gaur (**Bos gaurus**, "Indian bison"): **WPA Schedule I**, **IUCN Vulnerable**, **CITES Appendix I**.
+- Papikonda NP: **northern Eastern Ghats**, along **Godavari**; first a sanctuary, upgraded to NP; hills historically called **"Bison Hills"**.
+- ESZ = **"shock absorber"** around protected areas - activities prohibited / regulated / permitted.
+~~ Sources: the app's current notes for this row (old-notes.txt)
+
+=== Deep-tech, Quantum, Space and Data Centres
+# Q-SHIVA - Amaravati Quantum Valley
+- **Q-SHIVA** = Quantum System for Hardware Integration, Validation and Architecture - **5** systems by startup **Qubit Force** (Amaravati Quantum Valley).
+- **First portable box-sized 4-Kelvin** (about −269°C) testing systems **made in India**; cool in **1-2 hours**.
+- Unveiled by CM Naidu at the **Pan-IIT DeepTech Conference, Vijayawada**; 4 go to universities; universities can do up to **80%** of testing in-house.
+- MSME component partner **SSO Polymers, Machilipatnam**; collaborator **IIT Tirupati**; Amaravati Quantum Commission Director **C.V. Sridhar**.
+# PanIIT Summit 2026
+- **Vijayawada, 3 October 2026**; aligned with **Swarna Andhra@2047**; leadership dinner on 2 October.
+- Five panels: Energy and fuel cost (net-zero 2047); DeepTech (quantum, semiconductors, AI); Space and Defence manufacturing; BioValley (health); AgriTech, Water and Blue Economy.
+- Output: **Research and Recommendation Paper** to CM N. Chandrababu Naidu.
+# New items (Oct - Nov 2026)
+- **[21 Oct 2026]** Bengaluru startup **Ethereal Exploration Guild (The Guild)** unveiled **The Anchorage** rocket testing facility - **150 acres** at **Space City, Tirupati district**, near ISRO's **Satish Dhawan Space Centre (SDSC SHAR, Sriharikota)**; described as **India's first private integrated testing facility for fully reusable medium-lift launch vehicles**; supports the **Razor Crest Mk-1 (RCM1)** reusable rocket. ISRO est. 15 August 1969, HQ Bengaluru; **IN-SPACe** est. 2020, HQ **Ahmedabad**.
+- **[03 Nov 2026]** **IBM Quantum Computing Centre** to be set up at **Amaravati Quantum Valley Tech Park** - AP partnership with **IBM and TCS**; IBM **superconducting** quantum processors for research, cryptography and industry; labs, testing facilities, startup infrastructure; phased operationalisation during **2026-27**. IBM est. 1911, HQ **Armonk, New York**; TCS est. 1968, HQ **Mumbai**.
+- **National Quantum Mission**: approved **April 2023**, **₹6,003.65 crore** for 2023-24 to 2030-31; target **50-1,000 physical qubits**.
+# Data centres and digital links
+- **Google AI hub, Visakhapatnam**: foundation laid **28 April 2026**; about **$15 billion** over five years; **1 GW** AI data-centre campus (long-term 5 GW); partners **AdaniConneX** and **Airtel Nxtra**; includes an international **subsea cable** gateway at Visakhapatnam.
+- Five proposed data centres need about **5 TMC** of water (Godavari-Uttarandhra plan).
+- **IN-SPACe** (Indian National Space Promotion and Authorization Centre; single-window regulator for private space activity) – HQ **Ahmedabad**.
+~~ Sources: the app's current notes for this row (old-notes.txt); Rocket Current Affairs 2026 Part 02 p.98 and Part 01 p.33 (Quantum-AI campus, Amaravati Quantum Valley); Praveen CA360 Feb 2026 magazine p.63 (Quantum Valley bhoomi puja)
+
+=== Airports, Roads and Railways
+- **Bhogapuram** (Alluri Sitarama Raju International Airport, Vizianagaram): inaugurated by PM Narendra Modi on **1 August 2026**; commercial operations from **17 August 2026**; built by **GMR** (GVIAL) on **DBFOT** PPP model; initial capacity about 6 million passengers a year.
+- **South Coast Railway (SCoR)** zone: HQ **Visakhapatnam**; gazette 4 May 2026; operations from **1 June 2026** as the **18th** zone; divisions **Guntakal, Guntur, Vijayawada** and **Visakhapatnam** (renamed Waltair division).
+- **Guinness World Record**: **Raj Path Infrastructure** (HQ Maharashtra; already had two Guinness entries, broke its own records) laid **28.95 km of Bituminous Concrete road in 24 hours** (8 a.m. 5 Jan → 8 a.m. 6 Jan) on **NH-544G** Greenfield Highway (**Amaravati-Bengaluru Expressway**), starting at **Sadarlapalli**, Puttaparthi constituency, **Sri Sathya Sai district**.
+- **Bituminous Concrete** = bitumen + crushed stone aggregates; the upper surface layer of roads.
+> NH-544G record district = **Sri Sathya Sai**, not Visakhapatnam or Anantapur.
+~~ Sources: the app's current notes for this row (old-notes.txt); Praveen CA360 May 2026 magazine p.48, p.120 (South Coast Railway); Rocket Current Affairs 2026 Part 02 p.37, p.67 (Bhogapuram)
+
+=== Irrigation and River Water
+# Polavaram Left Main Canal - Godavari water to Uttarandhra
+- AP released **Godavari** water to **Uttarandhra** through the **Polavaram Left Main Canal**, using **pumps (Sept 2026)**, though the dam is not finished; about **2 TMC/day**.
+- Cost **₹4,192 crore**; irrigation **4 lakh acres**; drinking water **9.23 lakh** people.
+- Districts: East Godavari, Kakinada, Konaseema, Anakapalli, Visakhapatnam.
+- Plan: link **Godavari with Vamsadhara**; connect canal with **Uttarandhra Sujala Sravanthi**; water to Anakapalli → Visakhapatnam → Srikakulam; 12 related projects by 2028.
+- Wider plan: **36** irrigation projects worth **₹35,000 crore** in 3 years; also Pattiseema, Purushothapatnam, Veligonda.
+- **Polavaram status**: about **72%** works done by **2019**; **diaphragm wall** damaged later; works faster after 2024.
+# Krishna water sharing
+- AP wants the **66:34** formula (AP:Telangana, in AP's favour) until **July 2027**; Telangana demands **50:50**.
+- Meeting by Union **Ministry of Jal Shakti** - remaining water for **drinking and livestock**; no crop allocation.
+- 66:34 began as a **one-year interim** plan; ran about **12 years** (8 surplus, 4 deficit years).
+- **KWDT-I (1976)**: **811 TMC-ft** for undivided AP; 2015 working split **AP 512 / Telangana 299 TMC-ft**.
+- **Article 262** - Parliament adjudicates inter-State river disputes; Inter-State River Water Disputes Act, 1956; **KRMB** set up under the **AP Reorganisation Act, 2014**.
+- 1 TMC-ft = 1 billion cubic feet ≈ **28.32 million m³**.
+~~ Sources: the app's current notes for this row (old-notes.txt)
+
+=== Capital City and Urban Infrastructure
+- **Metro rail**: State approved Phase-I (Dec 2024) - **Vijayawada** ₹11,009 crore, 2 corridors, 38.40 km, 34 stations; **Visakhapatnam** 4 corridors, 76.90 km.
+# Mayor reservations - 17 Municipal Corporations
+| Category | Corporations |
+|---|---|
+| ST (1) | Mangalagiri-Tadepalli |
+| SC (2) | Rajamahendravaram, Kurnool |
+| BC Women (2) | Machilipatnam, Kakinada |
+| BC General (3) | Eluru, Anantapur, Chittoor |
+| General Women (5) | Vizianagaram, Srikakulam, Guntur, Kadapa, Visakhapatnam |
+| Unreserved (4) | Tirupati, Vijayawada, Ongole, Nellore |
+- Orders by Principal Secretary MA&UD **Suresh Kumar**.
+- **106 municipalities** - chairperson posts: ST General 2, ST Women 1, SC General 7, SC Women 7, **BC General 18**, BC Women 18, General 26, General Women 27.
+- Background: **74th Amendment 1992** (in force 1 June 1993); **Part IX-A** (Art 243P-243ZG); **243T** reservation; **243ZA** SEC; **12th Schedule - 18 functions**.
+~~ Sources: the app's current notes for this row (old-notes.txt)
+
+=== Tourism Projects (about ₹428 Crore)
+- **8** Centre-funded projects, about **₹428 crore** - heritage, beach, spiritual, Buddhist, river, eco-tourism. AP gave **industrial status to tourism**; new policy drew about ₹20,000 crore; AP's national tourism rank **16th → 13th**.
+| Project | Allocation | Components / scheme |
+|---|---|---|
+| Akhanda Godavari | ₹94.44 crore | Havelock Bridge restoration, Pushkar Ghat, Kadiyam nursery centre, canal boating; Swadesh Darshan 2.0 |
+| Gandikota, Kadapa | ₹77.91 crore | Viewpoints, heritage walks, boating; Swadesh Darshan 2.0 |
+| Suryalanka Beach, Bapatla | ₹97.52 crore (costliest) | Swadesh Darshan 2.0; scuba, amphitheatre |
+| Simhachalam | ₹54.04 crore | PRASHAD |
+| Annavaram | ₹25.32 crore | Annadanam hall, queue complex, EV facilities |
+| Ahobilam | ₹24.96 crore | Museum; Swadesh Darshan 2.0 (spiritual, not beach) |
+| Nagarjuna Sagar Buddhist Circuit | ₹25 crore | Meditation hall, spiritual centre |
+| Borra Caves | ₹29.87 crore | 3D projection mapping, laser lighting, coffee-tasting |
+- **PRASHAD** = Pilgrimage Rejuvenation and Spiritual Heritage Augmentation Drive.
+~~ Sources: the app's current notes for this row (old-notes.txt)
+
+=== Rural Works - Palle Panduga 3.0
+- Launched **29 September 2026** at **Udayagiri, Nellore district** by CM N. Chandrababu Naidu and Dy CM Pawan Kalyan; outlay **₹11,085 crore** - **Centre ₹5,391 crore, State ₹5,694 crore**.
+- Funding: ₹1,750 crore under VB-G RAM G, ₹3,800 crore Global Horticulture Hub, ₹2,000 crore NABARD/SASCI etc.
+| Work (3.0) | Target | Cost |
+|---|---|---|
+| Cement roads | 6,000 km | ₹2,700 crore |
+| BT roads | 9,500 km | ₹7,550 crore |
+| Mini Gokulams | 22,000 | ₹300 crore |
+| Horticulture | 50,000 acres | ₹225 crore |
+- Phase 1.0: 4,000 km cement roads, 22,514 cattle sheds, 21,000 farm ponds, horticulture on 64,000 acres. Phase 2.0 also had 15,750 cattle sheds, 15,500 water troughs, 82,000 soak pits.
+~~ Sources: the app's current notes for this row (old-notes.txt)
+
+=== Number Game and MCQ Traps
+| Item | Correct Fact |
+|---|---|
+| OTMP capacity target | 100 → 200 MTPA by end-2027 |
+| AP rank in OTMP / non-major port cargo | 2nd (after Gujarat) |
+| AP port cargo 2025-26 | about 210 MMT |
+| MDL shipyard | ₹15,000 crore, 1.2 million GT/yr, 45,000 jobs |
+| Global Horticulture Hub | ₹1 lakh crore; 10 districts; 201 clusters; 9.6 lakh farmers |
+| PM-KUSUM Component C (AP) | 1,162.80 MW, 228 plants |
+| RE projects since June 2024 | 97 projects, about ₹4 lakh crore |
+| Premier Energies plant | 7 GW, Naidupeta |
+| BHAVYA parks | 11 parks, 4,757 acres |
+| Polavaram LMC | ₹4,192 crore; 4 lakh acres; 2 TMC/day |
+| Palle Panduga 3.0 | ₹11,085 crore; 6,000 km CC + 9,500 km BT roads; 22,000 Mini Gokulams |
+| Tourism projects | 8 projects, about ₹428 crore |
+| NH-544G record | 28.95 km in 24 hours |
+| AP exports 2025-26 | ₹1.77 lakh crore; 7th in India |
+| Kakinada green ammonia | 1.1 million t/yr; USD 100 million |
+# FIRST / LAST / SPECIAL FACTS
+- First portable 4-Kelvin quantum testing systems made in India: **Q-SHIVA** (Qubit Force).
+- India's first private integrated testing facility for fully reusable medium-lift rockets: **The Anchorage**, Tirupati district.
+- India's largest N-Type TOPCon cell facility: **Premier Energies, Naidupeta**.
+- Costliest tourism project: **Suryalanka Beach** (₹97.52 crore).
+- First investment under ADB-Japan ACCEL: **AM Green Ammonia, Kakinada**.
+- 1. AP is **2nd after Gujarat** in OTMP / non-major port cargo, not 1st.
+- 2. Machilipatnam port = **MEIL**; Kakinada Gateway = **Aurobindo, PPP**; Ramayapatnam = **Prakasam**; Mulapeta = **Srikakulam**.
+- 3. Windergy award received by **NREDCAP**, not the Pollution Control Board.
+- 4. Cancelled pumped hydro = **MEIL 2,000 MW, Kommuru (Annamayya)**; also Avuku 800 MW (RVR).
+- 5. Horticulture Hub: **private** share (about ₹60,000 crore) larger than government share.
+- 6. Ahobilam is under Swadesh Darshan 2.0 **spiritual**, not beach; Simhachalam is under **PRASHAD**.
+- 7. MDL shipyard at **Dugarajapatnam, Tirupati**; NSHIP-AP owned equally by AP Maritime Board and Visakhapatnam Port Authority.
+- 8. Penukonda inscription: **Bukka Raya I**, script Kannada-Telugu, not Sanskrit.
+- 9. NH-544G record in **Sri Sathya Sai** district.
+- 10. ASUSE: most enterprises **Prakasam**; most workers **YSR Kadapa**; Nandyal tops women-owned share.
+~~ Sources: the app's current notes for this row (old-notes.txt)

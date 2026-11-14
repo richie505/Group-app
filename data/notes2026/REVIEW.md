@@ -904,3 +904,5 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b5-s01 (150 weak S&T keys): 141 confirmed, 0 corrected, 9 unverifiable. y83e44a77cd9 F-18 Super Hornet printed (c) only true of older Hornet — dispute, re-key to (a)? Explanations fixed: Amantran portal (Ajay Bhatt), HTR7 2011.
 - b4-s01 (109 weak geography keys): 104 confirmed, 0 corrected, 5 unverifiable. Disputes: macaroni wheat Punjab; cashew (Maharashtra top 2025-26); Visakhapatnam Port 1933.
 - b6-x006 (CA rows 6-7 AP budget/SES, no PYQs): 131 MCQs mapped; blueprint from b6-r008. Dispute f9a9184cb6133 11.3% growth. Old-notes-only: Water Bodies Census AP figures, 7th MI census, AP inflation. Polavaram ₹6,105 cr (budget) vs ₹8,300 cr.
+- b6-n076 (new CA 2–14 Nov: environment, reports, awards): 62 items, 79 new MCQs. Uncertain: Swachh Survekshan 2025-26 list (overall vs Super Swachh League); CCPI 2027 category ratings.
+- b6-x032 (CA rows 32, 35 national economy): 381 MCQs mapped. ca00501a318105 sea trade by value 95% → 70% (95% is volume); f79d817c1ed44 highest CPI Sep 2026 → add_option Tamil Nadu (6.81%). Check caffe763133734 CAR crypto legal tender (repealed 2023?).

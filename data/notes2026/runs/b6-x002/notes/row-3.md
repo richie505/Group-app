@@ -10,7 +10,8 @@
 # Collectors' Conference (December 2025)
 - **AP Population Management Policy** to be introduced **by Ugadi 2026**; aim: an **ageing population** (not over-population); promote normal deliveries.
 - **Family Cards**: **digitally integrate details of all welfare beneficiaries**.
-- Jobs: **20 lakh promised (Yuva Galam)**; 4.5 lakh created.
+- Jobs: **20 lakh promised (Yuva Galam)**; **4.5 lakh created**. Collectors' goals: **zero maternal mortality, zero infant mortality, zero suicides**.
+- **Nutrition plan** for **Mid-Day Meal, Anganwadi and Anna Canteen** beneficiaries.
 - **Groundwater targets**: raise to **3 metres** below ground at the end of the monsoon; not to fall below **8 metres** before the next monsoon (8 m is the floor, not the monsoon-end target).
 - Swarnandhra-2047 has **10** guiding principles (Padi Sutralu), not 5; aim to **double GSDP and per capita income every five years** (not ten).
 # Zero excise on raw tobacco
@@ -21,6 +22,7 @@
 |---|---|
 | Amaravati capital works | **₹15,000 crore** central assistance |
 | Polavaram | nearly ₹18,000 crore |
+| Investments approved in 2025 | **₹8.55 lakh crore → 8.23 lakh jobs** |
 | Veligonda Project (Phase-I) | nearing completion – for **drought-prone regions** (not the ₹15,000 crore item) |
 | CII Partnership Summit | **Visakhapatnam** – MoUs ₹13.25 lakh crore |
 | Farmer transfers | ₹6,310 crore to **46 lakh** farmers |
@@ -52,11 +54,11 @@
 | Drive | Key facts |
 |---|---|
 | **Operation Vajra Prahar** (SPS Nellore) | Anti-drug **cycle rally**, slogan **"Say No to Drugs, Bro – Ride a Cycle, Bro"**; habitual offenders detained under the **PIT NDPS Act**; State anti-narcotics wing **AP EAGLE** |
-| **Operation Chinnari-Thalli** (statewide) | Crimes against children; Sexual Offenders Sheets; charge sheets within 60 days; SPs/CPs to prepare action plans within **48 hours** (not 24) |
+| **Operation Chinnari-Thalli** (statewide, AP Police **Women and Child Safety Wing**) | Crimes against children; tagline **"Safe childhood for sustainable development"**; Sexual Offenders Sheets for offenders of the **past 5 years**; charge sheets within 60 days; SPs/CPs to prepare action plans within **48 hours** (not 24) |
 # Visakhapatnam and women's safety
-- **Visakhapatnam** projected by AP as the **"Safest City for Women"** after the **NARI 2025** report (NCW, Aug 2025) put it among the top safest cities (with Kohima, Bhubaneswar); police reach time **15 minutes urban**, 10 minutes rural.
+- **Visakhapatnam** projected by AP as the **"Safest City for Women"** after the **NARI 2025** report (NCW, Aug 2025) put it among the top safest cities (with Kohima, Bhubaneswar); measures: **Shakti Teams and the Shakti App**; police reach time **15 minutes urban**, 10 minutes rural.
 # Police health insurance (Visakhapatnam City Police)
-- Cover: **below 55 years ₹2 lakh – ₹15 lakh**; above 55 years ₹3 lakh – ₹30 lakh; **first-year premium paid by the police (police fund)**; covers **spouse + 2 children**; **2,576 families** in year one.
+- Described as the **first of its kind** for police in India. Cover: **below 55 years ₹2 lakh – ₹15 lakh**; above 55 years ₹3 lakh – ₹30 lakh; **first-year premium paid by the police (police fund)**; covers **spouse + 2 children**; **2,576 families** in year one.
 ~~ Sources: CARE Feb 2026 p.7-8 (AI4AP pilot districts, CCTNS, hackathon), p.26 (Vajra Prahar, NDPS), p.32-33 (Chinnari-Thalli); India TV News 28 Aug 2025 and Outlook coverage of NARI 2025 (search results: Kohima, Visakhapatnam, Bhubaneswar among safest); The Hans India 5 Dec 2025 "Adequate health insurance coverage for police" (fetched: Visakhapatnam City Police, 2,576 families, first-year premium from police fund); app notes 6:3 (sub 3: modules, 48 hours, insurance age bands)
 
 === Swarnandhra Vision-2047, Tech Clusters and AI Governance
@@ -153,6 +155,6 @@
 | App | Purpose |
 |---|---|
 | **Pillo AI** | **Voice-based accounting and billing app for MSMEs** in Indian languages (launched at Amaravati Secretariat) |
-| **Andhra Yatri** | Government urban transport (ride) app; **10% of fees to government** (not 20%) |
+| **Andhra Yatri** | Government urban transport (ride) app run through a **public-private partnership**; per ride **bike ₹3, auto ₹5, car ₹11**, or **₹30–50 a day** unlimited; **10% of fees to government** (not 20%) |
 - **Computer Didi – Didi Ka Dukan**: pilot in 5 States with **UNICEF**; AP pilot in **Tadikonda mandal, Guntur**; women **aged 18–29 with degrees**; **₹6,000 a month for 2 years**.
 ~~ Sources: Praveen CA-360 Feb 2026 p.66 (Pillo AI), p.67 (Andhra Yatri), p.63 (Computer Didi, UNICEF, Guntur), p.67 (10% of fees to government); app notes 6:3 (sub 9: eligibility, ₹6,000)
