@@ -1,0 +1,86 @@
+=== NEW NOTES row 66
+## SUB 0 | Turbines, Generators and Dynamos
+[0:0] - **Wind turbine chain:** **kinetic energy** of wind → **mechanical** (rotation) → **electrical** energy in the generator.
+[0:1] - **Generator / dynamo:** converts **mechanical energy into electrical energy** (asked ×5); a dynamo gives DC through a commutator.
+[0:2] - Turbines plus dynamos convert **mechanical** energy, not chemical, solar or magnetic energy, into electricity.
+[0:3] - Reverse device: **electric motor** = electrical → mechanical; **transformer** only steps voltage up or down.
+[0:4] - Rotating generators give **AC**; stationary solar panels give **DC**.
+[0:5] - Power varies with the **cube of wind speed**; **Betz limit 16/27 (~59.3%)**.
+[0:6] TABLE head: Feature | HAWT | VAWT
+  [0:6.0] Axis | Parallel to the wind | Vertical
+  [0:6.1] Designs | 3-blade, yaw control | Darrieus, Savonius
+  [0:6.2] Efficiency | Higher – standard utility turbine | Lower; takes wind from any direction
+[0:7] - **CUF** = actual output ÷ output at full rated power; wind **36-40%**, solar ~21%.
+[0:8] - **IEC classes:** Class I high-wind, **Class III low-wind** sites.
+[0:9] ~~ Sources: PMF Environment Part 7 p.73 (rotating → AC); app notes 5:66 sub 0
+## SUB 1 | Onshore vs Offshore Wind
+[1:0] TABLE head: Point | Onshore | Offshore
+  [1:0.0] Winds | Variable | Stronger, steadier → higher capacity factor
+  [1:0.1] Cost | Cheaper, easy upkeep | 2-3 times costlier; long blades, port needs
+  [1:0.2] Issues | Land | Rusting, subsea cables, foundations, navigation, coastal security
+[1:1] - **Floating turbines** for deep water; offshore does **not** remove all environmental and navigation risks.
+[1:2] - Wind complements solar: blows in evenings and in the **SW monsoon (June-Oct)**.
+[1:3] ~~ Sources: PMF Environment Part 7 p.82-83; app notes 5:66 sub 1
+## SUB 2 | Wind Potential and NIWE
+[2:0] TABLE head: Hub height | Potential
+  [2:0.0] 100 m | 302 GW
+  [2:0.1] 120 m | 695.5 GW
+  [2:0.2] 150 m | 1,163.9 GW
+[2:1] - **Highest potential (MNRE/NIWE, 120 m): Gujarat** (142.56 GW), then Rajasthan, Karnataka, Maharashtra, **AP (74.90 GW)**; at 150 m Rajasthan leads.
+[2:2] - **8 windy states** (~2/3 of capacity): Rajasthan, Gujarat, Maharashtra, Karnataka, AP, Tamil Nadu, MP, Telangana (not Kerala).
+[2:3] - **NIWE, Chennai:** autonomous body of **MNRE** (not Ministry of Power); **Wind Atlas**, resource assessment, testing; **nodal agency for offshore wind**.
+[2:4] ~~ Sources: Shankar Environment 17 (OCR) p.4; PMF Environment Part 7 p.83; app notes 5:66 sub 2
+## SUB 3 | Installed Wind Capacity
+[3:0] TABLE head: Date | Installed wind
+  [3:0.0] 31 Mar 2014 | 21.04 GW
+  [3:0.1] 31 Mar 2021 | 39.25 GW
+  [3:0.2] July 2023 | 42 GW
+  [3:0.3] Mar 2025 | crossed 50 GW
+  [3:0.4] Jan 2026 | ~55 GW (~10.6% of capacity)
+  [3:0.5] Aug 2026 | 58.14 GW
+[3:1] - Record addition **6.05 GW in FY 2025-26**; wind = **2nd RE source after solar**.
+[3:2] - Manufacturing ~**24 GW/year**, **70-80% indigenous**.
+[3:3] ~~ Sources: Shankar Environment 17 (OCR) p.5; PMF Environment Part 7 p.65, p.81; app notes 5:66 sub 3
+## SUB 4 | Wind Targets
+[4:0] TABLE head: Target | Fact
+  [4:0.0] 175 GW RE by 2022 (INDC era, 2015) | Included 60 GW wind
+  [4:0.1] Wind by 2030 | 100 GW (only ~55% reached, Jan 2026)
+  [4:0.2] Offshore by 2030 | 30 GW (earlier 5 GW by 2022 missed)
+  [4:0.3] Long term | 155 GW wind by 2035
+  [4:0.4] NDC 2015 / updated | 40% / 50% non-fossil capacity by 2030 (50% met, 51.93% Dec 2025); overall 500 GW
+[4:1] ~~ Sources: Shankar Environment 17 (OCR) p.4 (60 GW by 2022); PMF Environment Part 7 p.81, p.83; app notes 5:66 sub 4
+## SUB 5 | Rankings – India and the States
+[5:0] - **India 4th in the world** in installed wind capacity (APPSC G2 Mains 2025) – behind **China, USA, Germany**.
+[5:1] TABLE head: Period | Largest wind state
+  [5:1.0] Up to 2021-22 | Tamil Nadu (8,969 MW in 2019 vs Gujarat 4,300 MW)
+  [5:1.1] 2023 onward | Gujarat (~27.3% of capacity, Jan 2026), Tamil Nadu ~22% second
+  [5:1.2] Rank (30 Jun 2026) | Gujarat 16,086 MW; TN 12,273; Karnataka 8,896; Maharashtra 6,318; Rajasthan 5,516; AP 4,461 (6th); MP 3,686 (7th)
+[5:2] - **MP is NOT third** (MPPSC 2022). Global Wind Day = **15 June**.
+[5:3] ~~ Sources: PMF Environment Part 7 p.81; Shankar Environment 17 (OCR) p.5; app notes 5:66 sub 5
+## SUB 6 | Wind Farms and Hybrid Policy
+[6:0] TABLE head: Farm | Place | Capacity
+  [6:0.0] Muppandal | Kanyakumari, TN | 1,500 MW – largest onshore farm (PMF)
+  [6:0.1] Jaisalmer Wind Park | Rajasthan | 1,064 MW – the answer many keys give for "largest"
+  [6:0.2] Khavda hybrid park | Kutch, Gujarat | 30 GW solar-wind
+[6:1] - **National Wind-Solar Hybrid Policy, 2018:** wind turbines and solar PV at the **same grid-connection point**; one resource ≥25% of the other.
+[6:2] - **India's first wind-solar hybrid plant:** **Adani Hybrid Energy**, **Jaisalmer**, Rajasthan (390 MW, May 2022).
+[6:3] - AP: **Ramagiri** (Ananthapuramu) hybrid solar-wind park.
+[6:4] - **Round-the-clock (RTC) tenders:** first by **SECI, 2020**; ≥**51%** of energy from RE. **ISTS charges waived** for projects commissioned by **30 June 2025**.
+[6:5] ~~ Sources: PMF Environment Part 7 p.80-82, p.85 (Muppandal largest); app notes 5:66 sub 7
+## SUB 7 | Offshore Wind Policy
+[7:0] - **National Offshore Wind Energy Policy, 2015:** farms in India's **EEZ**; nodal ministry **MNRE**, nodal agency **NIWE**.
+[7:1] - Potential ~140 GW by 2050: ~36 GW off **Gujarat**, ~35 GW off **Tamil Nadu** (Gulf of Mannar).
+[7:2] - **VGF scheme (2024): ₹7,453 crore** for the first **1 GW** – 500 MW each off **Gujarat and Tamil Nadu**.
+[7:3] - Partners: **UK** Offshore Wind Taskforce (Feb 2026); Denmark.
+[7:4] ~~ Sources: PMF Environment Part 7 p.83; Shankar Environment 17 (OCR) p.5; app notes 5:66 sub 6
+## SUB 8 | Repowering and Other Support
+[8:0] - **Repowering** = replacing ageing turbines with **larger, modern turbines at the same site**.
+[8:1] - **National Repowering Policy, 2016** → **Repowering and Life Extension Policy, 2023**.
+[8:2] - Supports: accelerated depreciation, **GBI**, competitive bidding, **Wind RPO trajectory to 2030**.
+[8:3] > Order: Offshore 2015 → Repowering 2016 → Hybrid 2018 → Repowering and Life Extension 2023 → Offshore VGF 2024.
+[8:4] ~~ Sources: NextGen S&T Group 2 Part 5 p.43; app notes 5:66 sub 8
+## SUB 9 | Wind in Andhra Pradesh
+[9:0] - Cluster in **Rayalaseema**: **Ananthapuramu, Kurnool, YSR Kadapa**.
+[9:1] - ~4.4 GW (2025-26), AP's **second RE source after solar**; **6th** in India (June 2026).
+[9:2] - **Suzlon** = largest wind developer in AP (>1,700 MW).
+[9:3] ~~ Sources: app notes 5:66 sub 9

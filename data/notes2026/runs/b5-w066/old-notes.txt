@@ -1,0 +1,2277 @@
+=== NOTES 5:66 | Wind Energy – Potential, Installed Capacity, Offshore Wind Policy, Hybrid Wind-solar Policy
+## SUB 0 | Turbines, Generators and Dynamos
+[66:0:0] - **Wind turbine chain:** **kinetic energy** of wind → **mechanical** (rotation) → **electrical** energy in the generator.
+[66:0:1] - **Generator / dynamo:** converts **mechanical energy into electrical energy** (asked ×5); a dynamo gives DC through a commutator.
+[66:0:2] - Turbines plus dynamos convert **mechanical** energy, not chemical, solar or magnetic energy, into electricity.
+[66:0:3] - Reverse device: **electric motor** = electrical → mechanical; **transformer** only steps voltage up or down.
+[66:0:4] - Rotating generators give **AC**; stationary solar panels give **DC**.
+[66:0:5] - Power varies with the **cube of wind speed**; **Betz limit 16/27 (~59.3%)**.
+[66:0:6] TABLE head: Feature | HAWT | VAWT
+  [66:0:6.0] Axis | Parallel to the wind | Vertical
+  [66:0:6.1] Designs | 3-blade, yaw control | Darrieus, Savonius
+  [66:0:6.2] Efficiency | Higher – standard utility turbine | Lower; takes wind from any direction
+[66:0:7] - **CUF** = actual output ÷ output at full rated power; wind **36-40%**, solar ~21%.
+[66:0:8] - **IEC classes:** Class I high-wind, **Class III low-wind** sites.
+[66:0:9] ~~ Sources: PMF Environment Part 7 p.73 (rotating → AC); app notes 5:66 sub 0
+## SUB 1 | Rankings – India and the States
+[66:1:0] - **India 4th in the world** in installed wind capacity (APPSC G2 Mains 2025) – behind **China, USA, Germany**.
+[66:1:1] TABLE head: Period | Largest wind state
+  [66:1:1.0] Up to 2021-22 | Tamil Nadu (8,969 MW in 2019 vs Gujarat 4,300 MW)
+  [66:1:1.1] 2023 onward | Gujarat (~27.3% of capacity, Jan 2026), Tamil Nadu ~22% second
+  [66:1:1.2] Rank (30 Jun 2026) | Gujarat 16,086 MW; TN 12,273; Karnataka 8,896; Maharashtra 6,318; Rajasthan 5,516; AP 4,461 (6th); MP 3,686 (7th)
+[66:1:2] - **MP is NOT third** (MPPSC 2022). Global Wind Day = **15 June**.
+[66:1:3] ~~ Sources: PMF Environment Part 7 p.81; Shankar Environment 17 (OCR) p.5; app notes 5:66 sub 5
+[66:1:4] - **Order:** China 1st, **USA 2nd**, Germany 3rd, India 4th.
+## SUB 2 | Wind Farms and Hybrid Policy
+[66:2:0] TABLE head: Farm | Place | Capacity
+  [66:2:0.0] Muppandal | Kanyakumari, TN | 1,500 MW – largest onshore farm (PMF)
+  [66:2:0.1] Jaisalmer Wind Park | Rajasthan | 1,064 MW – the answer many keys give for "largest"
+  [66:2:0.2] Khavda hybrid park | Kutch, Gujarat | 30 GW solar-wind
+[66:2:1] - **National Wind-Solar Hybrid Policy, 2018:** wind turbines and solar PV at the **same grid-connection point**; one resource ≥25% of the other.
+[66:2:2] - **India's first wind-solar hybrid plant:** **Adani Hybrid Energy**, **Jaisalmer**, Rajasthan (390 MW, May 2022).
+[66:2:3] - AP: **Ramagiri** (Ananthapuramu) hybrid solar-wind park.
+[66:2:4] - **Round-the-clock (RTC) tenders:** first by **SECI, 2020**; ≥**51%** of energy from RE. **ISTS charges waived** for projects commissioned by **30 June 2025**.
+[66:2:5] ~~ Sources: PMF Environment Part 7 p.80-82, p.85 (Muppandal largest); app notes 5:66 sub 7
+## SUB 3 | Wind Potential and NIWE
+[66:3:0] TABLE head: Hub height | Potential
+  [66:3:0.0] 100 m | 302 GW
+  [66:3:0.1] 120 m | 695.5 GW
+  [66:3:0.2] 150 m | 1,163.9 GW
+[66:3:1] - **Highest potential (MNRE/NIWE, 120 m): Gujarat** (142.56 GW), then Rajasthan, Karnataka, Maharashtra, **AP (74.90 GW)**; at 150 m Rajasthan leads.
+[66:3:2] - **8 windy states** (~2/3 of capacity): Rajasthan, Gujarat, Maharashtra, Karnataka, AP, Tamil Nadu, MP, Telangana (not Kerala).
+[66:3:3] - **NIWE, Chennai:** autonomous body of **MNRE** (not Ministry of Power); **Wind Atlas**, resource assessment, testing; **nodal agency for offshore wind**.
+[66:3:4] ~~ Sources: Shankar Environment 17 (OCR) p.4; PMF Environment Part 7 p.83; app notes 5:66 sub 2
+## SUB 4 | Installed Wind Capacity
+[66:4:0] TABLE head: Date | Installed wind
+  [66:4:0.0] 31 Mar 2014 | 21.04 GW
+  [66:4:0.1] 31 Mar 2021 | 39.25 GW
+  [66:4:0.2] July 2023 | 42 GW
+  [66:4:0.3] Mar 2025 | crossed 50 GW
+  [66:4:0.4] Jan 2026 | ~55 GW (~10.6% of capacity)
+  [66:4:0.5] Aug 2026 | 58.14 GW
+[66:4:1] - Record addition **6.05 GW in FY 2025-26**; wind = **2nd RE source after solar**.
+[66:4:2] - Manufacturing ~**24 GW/year**, **70-80% indigenous**.
+[66:4:3] ~~ Sources: Shankar Environment 17 (OCR) p.5; PMF Environment Part 7 p.65, p.81; app notes 5:66 sub 3
+[66:4:4] - **Share (2026):** wind ≈ **10.5%** of India's total installed power capacity.
+## SUB 5 | Wind Targets
+[66:5:0] TABLE head: Target | Fact
+  [66:5:0.0] 175 GW RE by 2022 (INDC era, 2015) | Included 60 GW wind
+  [66:5:0.1] Wind by 2030 | 100 GW (only ~55% reached, Jan 2026)
+  [66:5:0.2] Offshore by 2030 | 30 GW (earlier 5 GW by 2022 missed)
+  [66:5:0.3] Long term | 155 GW wind by 2035
+  [66:5:0.4] NDC 2015 / updated | 40% / 50% non-fossil capacity by 2030 (50% met, 51.93% Dec 2025); overall 500 GW
+[66:5:1] ~~ Sources: Shankar Environment 17 (OCR) p.4 (60 GW by 2022); PMF Environment Part 7 p.81, p.83; app notes 5:66 sub 4
+## SUB 6 | Onshore vs Offshore Wind
+[66:6:0] TABLE head: Point | Onshore | Offshore
+  [66:6:0.0] Winds | Variable | Stronger, steadier → higher capacity factor
+  [66:6:0.1] Cost | Cheaper, easy upkeep | 2-3 times costlier; long blades, port needs
+  [66:6:0.2] Issues | Land | Rusting, subsea cables, foundations, navigation, coastal security
+[66:6:1] - **Floating turbines** for deep water; offshore does **not** remove all environmental and navigation risks.
+[66:6:2] - Wind complements solar: blows in evenings and in the **SW monsoon (June-Oct)**.
+[66:6:3] ~~ Sources: PMF Environment Part 7 p.82-83; app notes 5:66 sub 1
+## SUB 7 | Offshore Wind Policy
+[66:7:0] - **National Offshore Wind Energy Policy, 2015:** farms in India's **EEZ**; nodal ministry **MNRE**, nodal agency **NIWE**.
+[66:7:1] - Potential ~140 GW by 2050: ~36 GW off **Gujarat**, ~35 GW off **Tamil Nadu** (Gulf of Mannar).
+[66:7:2] - **VGF scheme (2024): ₹7,453 crore** for the first **1 GW** – 500 MW each off **Gujarat and Tamil Nadu**.
+[66:7:3] - Partners: **UK** Offshore Wind Taskforce (Feb 2026); Denmark.
+[66:7:4] ~~ Sources: PMF Environment Part 7 p.83; Shankar Environment 17 (OCR) p.5; app notes 5:66 sub 6
+## SUB 8 | Repowering and Other Support
+[66:8:0] - **Repowering** = replacing ageing turbines with **larger, modern turbines at the same site**.
+[66:8:1] - **National Repowering Policy, 2016** → **Repowering and Life Extension Policy, 2023**.
+[66:8:2] - Supports: accelerated depreciation, **GBI**, competitive bidding, **Wind RPO trajectory to 2030**.
+[66:8:3] > Order: Offshore 2015 → Repowering 2016 → Hybrid 2018 → Repowering and Life Extension 2023 → Offshore VGF 2024.
+[66:8:4] ~~ Sources: NextGen S&T Group 2 Part 5 p.43; app notes 5:66 sub 8
+## SUB 9 | Wind in Andhra Pradesh
+[66:9:0] - Cluster in **Rayalaseema**: **Ananthapuramu, Kurnool, YSR Kadapa**.
+[66:9:1] - ~4.4 GW (2025-26), AP's **second RE source after solar**; **6th** in India (June 2026).
+[66:9:2] - **Suzlon** = largest wind developer in AP (>1,700 MW).
+[66:9:3] ~~ Sources: app notes 5:66 sub 9
+
+=== OWN MCQs of 5:66 (60)
+[n0c2bbb0d0d1] sub0
+  Which ratio gives the Capacity Utilisation Factor (CUF) of a power plant?
+  *Actual output to output at full rated power over the period | Installed capacity to peak demand | Actual output to fuel consumed | Output at full rated power to actual output
+  x: CUF is actual output divided by the output possible at full rated power over the relevant period.
+[na3b75afc10d] sub0
+  What is the typical Capacity Utilisation Factor of wind power in India?
+  10–15% | *36–40% | 60–65% | 85–90%
+  x: Wind CUF is about 36–40%, above solar (~21%) but well below coal (~85%).
+[nd3068e09525] sub0
+  Which of the following pairs is correctly matched?
+  Vertical-axis wind turbine – Higher efficiency than a horizontal-axis turbine | Savonius – Horizontal-axis wind turbine | *Horizontal-axis wind turbine – Rotor axis parallel to the wind | Horizontal-axis wind turbine – No yaw control needed
+  x: A HAWT has its rotor axis parallel to the wind and needs yaw control; VAWTs such as Darrieus and Savonius take wind from any direction but have lower efficiency.
+[ndca9deeab22] sub0
+  According to the Betz limit, what is the maximum share of the wind's kinetic energy a turbine can capture?
+  1/2 (50%) | 2/3 (about 66.7%) | *16/27 (about 59.3%) | 8/27 (about 29.6%)
+  x: The Betz limit caps the share of wind's kinetic energy a turbine can capture at 16/27, about 59.3%.
+[febdbe8b18ac6] sub0
+  Darrieus and Savonius are designs of which type of wind turbine?
+  Horizontal-axis wind turbine | *Vertical-axis wind turbine | Floating offshore turbine | Three-blade yaw-controlled turbine
+  x: Darrieus and Savonius are vertical-axis (VAWT) designs, not HAWT.
+[fec78413cb113] sub0
+  With which power of wind speed does the power available to a wind turbine vary?
+  Square | Square root | *Cube | First power
+  x: Turbine power varies with the cube of wind speed (and with swept area), not the square.
+[fcb32994a084e] sub0
+  For which sites are IEC Class III wind turbines designed?
+  High-wind sites | Sites with wind from any direction | Deep-water offshore sites | *Low-wind sites
+  x: IEC turbine classes are set by site wind speed: Class I for high-wind and Class III for low-wind sites.
+[f0f579e5b73d9] sub0
+  Which of the following is NOT correct about wind turbines?
+  HAWT has its axis parallel to the wind | VAWT takes wind from any direction | HAWT needs yaw control | *VAWT has higher efficiency than HAWT
+  x: VAWTs suit small sites and have lower efficiency; HAWT is the standard utility turbine.
+[g0d4e366e921c] sub0
+  Which of the following is the correct sequence of energy conversion in a wind turbine?
+  *Kinetic energy - mechanical energy - electrical energy | Potential energy - kinetic energy - electrical energy | Chemical energy - thermal energy - electrical energy | Thermal energy - mechanical energy - electrical energy
+  x: Wind's kinetic energy turns the blades (mechanical energy), and the generator turns this into electrical energy.
+[n7b43ee611a9] sub1
+  On which date is Global Wind Day observed?
+  21 June | 15 July | *15 June | 5 June
+  x: Global Wind Day is observed on 15 June.
+[fefffd59bad5e] sub1
+  What is Madhya Pradesh's rank in installed wind capacity (June 2026)?
+  3rd | 5th | 6th | *7th
+  x: Madhya Pradesh is seventh in installed wind capacity, not third; Karnataka is third.
+[fa9ddbb8b144c] sub1
+  Which State did Gujarat overtake in 2023 to become India's largest wind-power State?
+  Karnataka | Maharashtra | *Tamil Nadu | Rajasthan
+  x: Gujarat overtook Tamil Nadu in 2023 to become the largest wind-power State.
+[f2addf07fde8b] sub1
+  Which three countries are ahead of India in installed wind capacity?
+  *China, USA and Germany | China, USA and Spain | China, Germany and Brazil | USA, Germany and Denmark
+  x: India is 4th in installed wind capacity, after China, USA and Germany.
+[n9640945f6cb] sub1
+  Which country ranks second in the world in installed wind-power capacity?
+  Germany | China | India | *United States of America
+  x: The top three are China, the United States of America and Germany, in that order.
+[g599bc6424f6a] sub1
+  Which State ranks second in installed wind capacity in India (June 2026)?
+  Gujarat | *Tamil Nadu | Karnataka | Rajasthan
+  x: Gujarat is first (16,086 MW) and Tamil Nadu second (12,273 MW).
+[n0df40af9f29] sub2
+  What does the National Wind-Solar Hybrid Policy, 2018 promote?
+  Separate wind and solar plants on different grids | *Wind turbines and solar PV at the same grid connection point | Replacing wind turbines with solar panels | Hybrid projects only for off-grid rural use
+  x: The policy promotes co-location of wind turbines and solar PV at the same point of grid connection.
+[nb82233cbc1e] sub2
+  What type of facility does Ramagiri in Andhra Pradesh host?
+  Purely nuclear power complex | *Hybrid solar-wind park | Coal gasification park | Tidal-energy demonstration plant
+  x: Ramagiri hosts a hybrid solar-wind park.
+[fd7f4393c4e98] sub2
+  In which year did SECI issue India's first round-the-clock (RTC) renewable power tender?
+  2018 | *2020 | 2015 | 2023
+  x: The first round-the-clock RE tender was issued by SECI in 2020, bundling RE with thermal power.
+[f79d773202351] sub2
+  Under round-the-clock tenders, at least what share of annual energy must come from renewables?
+  33% | 40% | *51% | 75%
+  x: RTC tenders require at least 51% of annual energy from renewables, including storage.
+[gbb970e29609b] sub2
+  Inter-State Transmission System (ISTS) charges were waived for renewable projects commissioned by which date?
+  31 March 2022 | *30 June 2025 | 31 December 2023 | 31 March 2030
+  x: ISTS charges were waived for projects commissioned by 30 June 2025.
+[fb38849220cd9] sub2
+  Which of the following pairs is correctly matched?
+  National Offshore Wind Energy Policy – 2016 | National Repowering Policy – 2018 | *National Wind-Solar Hybrid Policy – 2018 | Offshore wind VGF scheme – 2023
+  x: Hybrid policy is 2018; offshore policy 2015, repowering 2016 and offshore VGF 2024.
+[n454a07c3328] sub3
+  Which of the following correctly matches the hub height with the assessed wind potential?
+  *120 m — 695.5 GW; 150 m — 1,163.9 GW | 120 m — 1,163.9 GW; 150 m — 695.5 GW | 120 m — 56.09 GW; 150 m — 100 GW | 120 m — 500 GW; 150 m — 695.5 GW
+  x: The assessed potential is 695.5 GW at a 120-metre hub height and 1,163.9 GW at a 150-metre hub height.
+[n87c42ace21b] sub3
+  Which of the following is NOT correct about the National Institute of Wind Energy (NIWE)?
+  It prepares the Indian Wind Atlas | It supports testing and certification of wind technologies | *It is an autonomous body under the Ministry of Power | It undertakes wind-resource assessment and site identification
+  x: NIWE is an autonomous body under the Ministry of New and Renewable Energy, not the Ministry of Power.
+[n002361390d9] sub3
+  Where is the National Institute of Wind Energy (NIWE) headquartered?
+  Hyderabad | Bengaluru | *Chennai | Jaipur
+  x: NIWE is located in Chennai and functions as an autonomous body under the Ministry of New and Renewable Energy.
+[fa65ef825a4ed] sub3
+  Which body prepares India's Wind Atlas?
+  Solar Energy Corporation of India | Central Electricity Authority | *National Institute of Wind Energy | Bureau of Energy Efficiency
+  x: NIWE does wind resource assessment and prepares the Wind Atlas.
+[f20e05d14d403] sub3
+  In how many windy States does nearly two-thirds of India's wind capacity lie?
+  6 | *8 | 10 | 12
+  x: Nearly two-thirds of India's wind capacity is in 8 windy states, from Rajasthan and Gujarat to Tamil Nadu and Telangana.
+[f004c71e7aa41] sub3
+  Under which ministry is the National Institute of Wind Energy an autonomous body?
+  Ministry of Power | Ministry of Earth Sciences | *Ministry of New and Renewable Energy | Ministry of Petroleum and Natural Gas
+  x: NIWE, Chennai, is an autonomous body under MNRE, not the Ministry of Power.
+[g06f907e07695] sub3
+  Which of the following is NOT one of India's eight windy States that hold nearly two-thirds of the wind capacity?
+  Telangana | Madhya Pradesh | *Kerala | Andhra Pradesh
+  x: The eight windy States are Rajasthan, Gujarat, Maharashtra, Karnataka, Andhra Pradesh, Tamil Nadu, Madhya Pradesh and Telangana; Kerala is not one.
+[ga6bef2724336] sub3
+  Which State has the highest wind power potential at 120 m above ground level, according to NIWE?
+  Rajasthan | Tamil Nadu | *Gujarat | Karnataka
+  x: At 120 m hub height Gujarat has the highest wind potential, about 142.56 GW, followed by Rajasthan and Karnataka.
+[ga11dedee66dc] sub3
+  What is the wind power potential of Andhra Pradesh at 120 m above ground level?
+  About 25 GW | *About 74.9 GW | About 142.6 GW | About 284 GW
+  x: NIWE puts Andhra Pradesh's wind potential at about 74.90 GW at 120 m hub height. Gujarat is highest at 142.56 GW.
+[nddd9a588548] sub4
+  Which of the following is NOT correct about India's installed wind-power capacity?
+  It crossed 50 GW in March 2025 | It was 21.04 GW in March 2014 | It was 56.09 GW on 31 March 2026 | *It first crossed 50 GW in March 2014
+  x: Capacity was only 21.04 GW in March 2014; it crossed 50 GW in March 2025.
+[n09db9c154d5] sub4
+  What are India's annual wind turbine manufacturing capacity and its approximate degree of indigenisation respectively?
+  *24 GW and 70–80% | 15 GW and 50–60% | 50 GW and 60–70% | 30 GW and 80–90%
+  x: The wind-turbine manufacturing base has a capacity of about 24 GW per year, with 70–80% indigenisation.
+[fc1cc6208491f] sub4
+  What was India's installed wind capacity on 31 March 2014?
+  39.25 GW | 50 GW | *21.04 GW | 56.09 GW
+  x: Installed wind was 21.04 GW on 31 March 2014 and rose 2.66 times to 56.09 GW by 31 March 2026.
+[f46054f6db4a6] sub4
+  Where does wind now rank among India's renewable energy sources?
+  First, ahead of solar | Second, after large hydro | Third, after solar and large hydro | *Second, after solar
+  x: Wind is India's second-largest RE source after solar, just ahead of large hydro.
+[ff1afcc121bff] sub4
+  In which year did India make its record annual wind capacity addition of 6.05 GW?
+  FY2022-23 | FY2023-24 | FY2024-25 | *FY2025-26
+  x: A record 6.05 GW of wind was added in FY2025-26, 46% above FY25.
+[gc77262c0fc44] sub4
+  What share of India's total installed power capacity did wind account for in 2026?
+  About 5% | *About 10.5% | About 21% | About 29%
+  x: Wind was about 10.5% of total installed capacity in 2026; solar was about 29%.
+[gf25728e7c546] sub4
+  What was India's installed wind power capacity in August 2026?
+  21.04 GW | 39.25 GW | *58.14 GW | 100 GW
+  x: India's installed wind capacity was 58.14 GW in August 2026, up from 21.04 GW in 2014.
+[n7320aba2723] sub5
+  What is India's national target for installed wind capacity by 2030?
+  60 GW | 155 GW | 175 GW | *100 GW
+  x: The national target is to reach 100 GW of installed wind capacity by 2030.
+[nc15786c1b7b] sub5
+  What is the stated offshore-wind capacity target for India by 2030?
+  10 GW | 50 GW | 20 GW | *30 GW
+  x: India’s stated offshore-wind target is 30 GW by 2030.
+[n028aba96f85] sub5
+  India's 2015 renewable-energy goal of 175 GW by 2022 included how much wind capacity?
+  40 GW | *60 GW | 100 GW | 30 GW
+  x: The 2015 goal was 175 GW of RE by 2022, including 60 GW of wind. 100 GW is the wind target for 2030, 30 GW is the offshore wind target for 2030, and 40 GW was the rooftop part of the 100 GW solar target, not wind.
+[n0bc0dceffce] sub5
+  India's NDC goal of 50% installed power capacity from non-fossil sources by 2030 was:
+  *Met at 51.93% by December 2025 | Met at 40% by March 2022 | Deferred to 2035 | Met at 75% by 2024
+  x: The 50% non-fossil capacity goal was met early, at 51.93% by December 2025. 40% was the older NDC level, the target was not deferred, and 75% is not a stated figure.
+[ff913369fe111] sub5
+  For which year is India's long-term target of 155 GW of wind capacity set?
+  2030 | *2035 | 2040 | 2047
+  x: India's long-term goal is 155 GW of wind by 2035; 100 GW is the 2030 target.
+[f12464ee61aae] sub5
+  Consider the following statements about India's energy targets:
+1. The 2015 NDC sought 40% non-fossil installed capacity by 2030.
+2. The overall goal is 500 GW of non-fossil capacity by 2030.
+3. The offshore wind target for 2030 is 100 GW.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Statements 1 and 2 are correct. Statement 3 is wrong: 30 GW is the offshore target; 100 GW is total wind by 2030.
+[n9a4697a4ac0] sub6
+  Which one of the following statements about onshore and offshore wind power is NOT correct?
+  *Offshore projects eliminate all environmental and navigational risks. | Floating turbines can be used in deep water. | Offshore sites generally have stronger and steadier winds. | Onshore projects are generally cheaper and easier to maintain.
+  x: Offshore projects do not eliminate risks; they may involve corrosion, undersea cables, navigation issues and marine-ecology concerns.
+[fc0454f624ae6] sub6
+  Why do offshore wind farms have a higher capacity factor than onshore farms?
+  Lower cost | Easier maintenance | *Stronger, steadier winds | Absence of undersea cables
+  x: Offshore winds are stronger and steadier, giving a higher capacity factor; offshore is costlier and harder to maintain.
+[f968620c751b4] sub6
+  Which of the following is a problem mainly of offshore, not onshore, wind farms?
+  *Rusting and undersea cables | Land-use conflict | Variable winds | Lower capacity factor
+  x: Rusting, undersea cables, navigation and marine ecology are offshore issues; land conflict and variable winds are onshore issues.
+[n82baff55349] sub7
+  Between the coasts of which States does the 2024 offshore wind Viability Gap Funding scheme split its first 1 GW equally?
+  Gujarat and Maharashtra | Tamil Nadu and Andhra Pradesh | Tamil Nadu and Kerala | *Gujarat and Tamil Nadu
+  x: The 2024 offshore wind VGF scheme covers the first 1 GW, with 500 MW each off Gujarat and Tamil Nadu.
+[n96714a17e02] sub7
+  Off the coasts of which States are India's initial offshore wind development zones located?
+  Maharashtra and Kerala | Andhra Pradesh and Karnataka | *Gujarat and Tamil Nadu | Odisha and West Bengal
+  x: The identified zones are off the Gujarat coast and the Tamil Nadu coast, including the Gulf of Mannar.
+[n855c3a1049c] sub7
+  Which is the nodal agency under the National Offshore Wind Energy Policy, 2015?
+  SECI | *NIWE | NTPC | CEA
+  x: MNRE is the nodal ministry and NIWE, not SECI, is the nodal agency for offshore wind farms in India's EEZ.
+[f2b620682f313] sub7
+  What is the outlay of the 2024 offshore wind Viability Gap Funding scheme?
+  *₹7,453 crore | ₹4,753 crore | ₹7,354 crore | ₹5,743 crore
+  x: The 2024 offshore VGF scheme provides ₹7,453 crore for the first 1 GW.
+[f9b61ac94e406] sub7
+  In which maritime zone of India does the National Offshore Wind Energy Policy, 2015 provide for offshore wind farms?
+  Territorial waters only | Inland lakes only | *Exclusive Economic Zone | Ports and harbours only
+  x: The National Offshore Wind Energy Policy, 2015 is the framework for offshore wind farms in India's EEZ.
+[f05358fdd7226] sub7
+  With which country did India set up an Offshore Wind Taskforce in February 2026?
+  Denmark | Germany | *United Kingdom | Norway
+  x: The India-UK Offshore Wind Taskforce was set up in February 2026 (Vision 2035); Denmark's cooperation dates from 2019.
+[n9ee59fcf226] sub8
+  What does repowering of a wind turbine mean?
+  Moving an old turbine to a different State without changing its equipment | Converting a wind farm entirely into a solar park | Reducing the height and capacity of existing turbines | *Replacing ageing turbines with larger and modern turbines at the same site
+  x: Repowering replaces ageing, less efficient turbines with more powerful modern units at the same windy site to increase generation.
+[n3919575945c] sub8
+  As which policy was the National Repowering Policy, 2016 revised?
+  National Wind Modernisation Policy, 2021 | National Turbine Replacement Scheme, 2024 | *Repowering and Life Extension Policy, 2023 | Wind-Solar Extension Policy, 2023
+  x: The 2016 policy was revised as the Repowering and Life Extension Policy, 2023.
+[f44f0e5425a15] sub8
+  Which support for wind energy sets obligations up to 2030?
+  Accelerated depreciation | *Wind RPO trajectory | Generation-based incentive | Offshore VGF
+  x: The Wind RPO trajectory runs to 2030, alongside supports like accelerated depreciation and GBI.
+[gb88cd734063c] sub8
+  Arrange the following wind-energy policies in chronological order:
+1. National Wind-Solar Hybrid Policy
+2. National Offshore Wind Energy Policy
+3. Repowering and Life Extension Policy
+4. National Repowering Policy
+Select the correct answer using the code given below.
+  *2, 4, 1, 3 | 4, 2, 1, 3 | 2, 1, 4, 3 | 1, 2, 4, 3
+  x: Offshore policy 2015, Repowering 2016, Hybrid 2018 and Repowering and Life Extension 2023.
+[n18710537193] sub9
+  Where is the principal wind-farm cluster of Andhra Pradesh located?
+  North Coastal Andhra around Srikakulam and Vizianagaram | The Krishna delta alone | Coastal Andhra around Kakinada and Machilipatnam | *Rayalaseema, particularly Ananthapuramu, Kurnool and YSR Kadapa
+  x: Wind farms are concentrated in Rayalaseema, especially in Ananthapuramu, Kurnool and YSR Kadapa districts.
+[n3bf36fd2f60] sub9
+  Which company is identified as the largest wind developer in Andhra Pradesh, with more than 1,700 MW?
+  SECI | NTPC Green Energy | Inox Wind | *Suzlon
+  x: Suzlon is identified as Andhra Pradesh's largest wind developer, with more than 1,700 MW.
+[f5ddef509ed5c] sub9
+  What is Andhra Pradesh's rank in installed wind capacity (June 2026)?
+  4th | 5th | *6th | 7th
+  x: Andhra Pradesh, with 4,461 MW, is 6th in India in installed wind capacity (June 2026).
+[f4efd708405e7] sub9
+  In Andhra Pradesh, wind ranks second among renewables after which source?
+  Large hydro | Biomass | Small hydro | *Solar
+  x: Wind, at 4,397.67 MW in 2025-26, is AP's second-largest RE source after solar.
+
+=== NOTES 5:67 | Other Renewables – Biomass, Biofuels, Small Hydro, Geothermal, Tidal, Waste-to-energy
+## SUB 0 | Biogas and Biomass Energy
+[67:0:0] # Biomass energy
+[67:0:1] - **Biomass energy** = solar energy stored by plants through **photosynthesis**; burned directly or converted to biogas/biofuels; renewable (unlike coal, natural gas, petroleum).
+[67:0:2] - **Gobar gas = biomass energy** (from cattle dung) – not nuclear, geothermal or hydro.
+[67:0:3] - Biomass from waste: agricultural waste (stubble, husk, manure, dairy waste), **food-processing residues, human sewage, biogenic municipal solid waste** (all three are biomass).
+[67:0:4] - Burning biomass releases CO2 largely balanced by the CO2 it absorbed while growing (near carbon-neutral).
+[67:0:5] # Biogas
+[67:0:6] TABLE head: Feature | Fact
+  [67:0:6.0] Composition | Methane ~50–75% + CO2 ~25–50% + traces (H2S, moisture); piped natural gas is 85–95% methane
+  [67:0:6.1] Fuel gas | Methane – the burning component (cooking gas / gobar gas); not butane, propane, ethane
+  [67:0:6.2] Process | Anaerobic digestion (biomethanation) / fermentation – in the absence of oxygen
+  [67:0:6.3] Microbes | Methanogens (archaebacteria) produce methane
+  [67:0:6.4] By-product | Slurry = good organic manure
+[67:0:7] - **Composting** is **aerobic** decomposition, unlike biogas.
+[67:0:8] - Pioneer: floating-drum **"Gramalakshmi"** plant of **Jashbhai Patel (1950s)**, spread by **KVIC**.
+[67:0:9] - **CBG (Compressed Biogas)** = purified, compressed biogas, chemically identical to **CNG**.
+[67:0:10] - **India's first Bio-CNG plant from agricultural residue: Pirangut, Pune** (Primove Engineering), inaugurated **2016** by Nitin Gadkari and Manohar Parrikar.
+[67:0:11] - **Bagasse cogeneration:** sugar mills burn bagasse → **steam and power together**.
+[67:0:12] # Gasification and microbial fuel cells
+[67:0:13] - **Biomass gasification:** heating with **limited (controlled) oxygen** → syngas (**CO, H2, CO2**).
+[67:0:14] - **Producer gas** = CO + H2 + CO2 + **methane**.
+[67:0:15] - **Microbial Fuel Cell (MFC):** microbes act as **catalysts**, oxidise organic matter and pass electrons to an electrode; cleans wastewater and makes electricity together (no burning).
+[67:0:16] > Biogas = methane + CO2, anaerobic, methanogens – asked about 10 times.
+[67:0:17] ~~ Sources: Shankar Environment 10th ed. p.350-351 (Ch22.6); Rocket Environment p.60-62; NextGen S&T Group 2 Part 5 p.32; web: gktoday.in (first Bio-CNG plant, Pune); app notes 5:67 sub 1
+## SUB 1 | Bioethanol – Feedstocks, Gasohol, Power Alcohol and Global Producers
+[67:1:0] # Feedstocks and process
+[67:1:1] - **Bioethanol:** made by **fermentation** of sugar or starch by yeast **Saccharomyces cerevisiae** (baker's yeast); can be mixed with petrol to improve combustion and lower emissions.
+[67:1:2] TABLE head: Feedstock | Fact
+  [67:1:2.0] Sugarcane (juice, molasses) | India's main ethanol source; molasses = excellent raw material for power alcohol
+  [67:1:2.1] Maize (corn) | Starch-rich energy crop for ethanol; principal US feedstock
+  [67:1:2.2] Damaged grains, cassava, rotten potatoes, sugar beet | Allowed under the National Policy on Biofuels
+  [67:1:2.3] Jatropha, Pongamia, sunflower | Oilseeds → biodiesel, not ethanol
+[67:1:3] - Potato, rice and wheat are not the classic "ethanol crop" answer; sugarcane (UPSC 2009) and maize (UPSC 2010) are.
+[67:1:4] # Terms
+[67:1:5] TABLE head: Term | Meaning
+  [67:1:5.0] Gasohol | Petrol (gasoline) + ethanol, typically ~10% ethanol
+  [67:1:5.1] Power alcohol | Fuel-grade (anhydrous) ethanol, mainly from molasses (sugar-industry by-product)
+  [67:1:5.2] Rectified spirit | Ethanol with about 5% water (~95% ethanol)
+  [67:1:5.3] Absolute alcohol | ~100% ethanol
+[67:1:6] # Global producers
+[67:1:7] - **USA** (maize/corn) = world's **largest producer, consumer and exporter** of fuel ethanol / gasohol; **Brazil** (sugarcane) second; together ~80% of world ethanol – so in UPSC 2025 Statement I (Brazil > USA) is false, Statement II (corn vs sugarcane) is true.
+[67:1:8] - **Brazil:** **mandatory ethanol blending since 1976** (~25% since 2007); regarded as the world's first sustainable biofuel economy.
+[67:1:9] # Indian technology firsts
+[67:1:10] - **CSIR-NIIST, Thiruvananthapuram** (2017): bioethanol from **discarded cotton stalks** using a wild yeast strain.
+[67:1:11] - **IIT Kharagpur "Soil to Soil"** (May 2017): enzyme-based (no chemical pre-treatment) process giving **biofuel** from crop residues; leftover biomass returns to the soil as bio-fertiliser.
+[67:1:12] - **TVS Apache RTR 200 Fi E100** (2019) = India's first **ethanol-powered motorcycle** (TVS Motor).
+[67:1:13] > Most-asked: ethanol crop (sugarcane / maize), gasohol = petrol + ethanol, largest producer USA, Brazil mandate.
+[67:1:14] ~~ Sources: NextGen S&T Group 2 Part 5 p.32; Rocket Environment p.61-62; web: biospectrumindia.com (IIT-KGP, 31 May 2017); app notes 5:67 sub 3, sub 5
+## SUB 2 | Geothermal Energy
+[67:2:0] - **Source:** heat stored in the **Earth's interior**, produced mostly by **decay of radioactive** elements (uranium, potassium) and original planetary heat; surface signs: **hot springs, geysers, volcanoes**.
+[67:2:1] - Not ultimately solar: **geothermal and nuclear** energy (biomass, wind, fossil fuels are stored solar energy).
+[67:2:2] - Gives **24x7 baseload** power – independent of sunlight or wind.
+[67:2:3] - **India's potential:** about **10,600 MW**; GSI identified ~340–381 hot springs.
+[67:2:4] - **Provinces:** Himalaya, Naga-Lushai, Andaman-Nicobar; **Cambay**, **Son-Narmada-Tapi (SONATA)**, **West Coast**, Damodar, **Mahanadi**, **Godavari valley** – none in the **Ganga Delta / Indo-Gangetic Plain**.
+[67:2:5] TABLE head: Field | State / UT
+  [67:2:5.0] Puga Valley, Chumathang | Ladakh – most promising / highest potential (GSI)
+  [67:2:5.1] Tattapani | Chhattisgarh
+  [67:2:5.2] Manikaran | Himachal Pradesh
+  [67:2:5.3] Tapovan | Uttarakhand
+  [67:2:5.4] Surajkund | Jharkhand
+  [67:2:5.5] Manuguru (old Khammam district), Godavari valley | Telangana (earlier Andhra Pradesh)
+[67:2:6] - **India's first geothermal power project: Puga, Ladakh** (**ONGC**); described as the world's highest geothermal project.
+[67:2:7] - **World:** first successful tapping of underground heat **Boise, Idaho, USA (1890)** – hot-water pipe network for heating; first geothermal **power** at **Larderello, Italy (1904)**.
+[67:2:8] - **National Policy on Geothermal Energy** – India's first, **MNRE, September 2025**; **five pilot projects**.
+[67:2:9] - **EGS** (Enhanced Geothermal Systems) = artificially stimulated reservoirs. Challenges: high drilling and exploration cost, remote sites, transmission, gas leakage, subsidence.
+[67:2:10] ~~ Sources: Shankar Environment 10th ed. p.353-354 (Ch22.9); OnlyIAS NCERT Human Geography Part 10 p.13; PMF S&T Part 7 p.136; app notes 5:67 sub 9
+## SUB 3 | Biodiesel – Jatropha, Pongamia and RUCO
+[67:3:0] TABLE head: Crop | Fact
+  [67:3:0.0] Jatropha curcas (ratanjyot) | The biodiesel plant; non-edible seeds ~40% oil; grows on wasteland, little water
+  [67:3:0.1] Pongamia pinnata (Karanja) | Alternative biodiesel plant; oil rich in oleic acid
+  [67:3:0.2] Mahua, neem, simarouba | Other non-edible biodiesel sources
+[67:3:1] - Not biodiesel plants: guggal, rosha grass, java grass, isabgol, belladonna, senna, cotton, sugarcane, potato.
+[67:3:2] - **Biodiesel** = methyl/ethyl esters of fatty acids by **transesterification** of vegetable oils/animal fats with methanol or ethanol.
+[67:3:3] - **India's first biodiesel plant: Kakinada, Andhra Pradesh** (early 2000s).
+[67:3:4] - **Palm stearin oil** = feedstock of about **94%** of India's biodiesel (mostly imported), not jatropha.
+[67:3:5] - **RUCO** (Repurpose Used Cooking Oil, **FSSAI**) = collection and conversion of **used cooking oil into biodiesel**.
+[67:3:6] - Blend still **below 0.5%**; target **5% (B5) by 2030**.
+[67:3:7] - **April 2023:** Belgian firm **VITO** launched a 2-year biodiesel project at **Ayodhya**.
+[67:3:8] ~~ Sources: Rocket Environment p.61-62; NextGen S&T Group 2 Part 5 p.32; Shankar Environment 10th ed. p.352; app notes 5:67 sub 3
+## SUB 4 | Tidal, Wave, OTEC and Desalination
+[67:4:0] TABLE head: Site | State | Fact
+  [67:4:0.0] Gulf of Khambhat (Cambay) | Gujarat | Tidal range 5–10 m; ~7,000 MW – largest / best tidal site
+  [67:4:0.1] Gulf of Kutch (Hanthal Creek) | Gujarat | Tidal range 5–8 m; major project proposed
+  [67:4:0.2] Sundarbans – Durgaduani Creek | West Bengal | ~5 m; 3 MW pilot
+[67:4:1] - Criterion: tidal range ~**5 m or more** in a narrow gulf/estuary. **Gulf of Mannar** is not a tidal site (offshore wind zone); Gulf of Aden / Panay are not Indian.
+[67:4:2] - **Ocean energy potential (MNRE):** tidal about **12,455 MW** (mainly Khambhat and Kutch); wave about **40,000 MW**.
+[67:4:3] - **First wave plant: Vizhinjam, Kerala (1991)**. **Sindhuja-I** ocean wave energy converter – **IIT Madras** (tested off Tuticorin).
+[67:4:4] - **OTEC = Ocean Thermal Energy Conversion:** warm surface vs cold deep water (~1,000 m), ~**20°C** gap, tropics; sites **Lakshadweep, A&N**.
+[67:4:5] - **NIOT, Chennai (Ministry of Earth Sciences)** = lead ocean-energy body; India's first desalination plant **Kavaratti, Lakshadweep (2005)**, LTTD, **1 lakh L/day**.
+[67:4:6] - **Desalination** (removing salts from seawater) prepares large quantities of drinking water.
+[67:4:7] ~~ Sources: Shankar Environment 10th ed. p.350 (Ch22.5); PMF Physical Geography Part 7 p.92; app notes 5:67 sub 10
+## SUB 5 | Aviation Biofuels and Sustainable Aviation Fuel
+[67:5:0] - **First biofuel flight in India:** **SpiceJet**, **Dehradun–Delhi, 27 August 2018**, Bombardier Q-400; one engine 25% bio-jet + 75% ATF; jatropha bio-jet from **CSIR-IIP, Dehradun**.
+[67:5:1] - **SAF** = **drop-in** synthesised hydrocarbons (not direct ethanol), blendable up to **50%** with jet fuel.
+[67:5:2] - **SAF feedstocks:** **agricultural residues, corn grain, wastewater treatment sludge, wood-mill waste** – all four (UPSC 2024); also oilseeds, algae, MSW.
+[67:5:3] - **SAF targets** (international flights): **1% by 2027, 2% by 2028, 5% by 2030**.
+[67:5:4] - **IOCL Panipat** = first Indian ISCC CORSIA-certified SAF producer (Aug 2025). **BioE3 Policy 2024** backs bio-jet fuel.
+[67:5:5] - **Global Biofuels Alliance:** launched **9 September 2023**, **G20 Summit, New Delhi**; core founders **India, USA, Brazil**; Secretariat **New Delhi**.
+[67:5:6] ~~ Sources: Rocket Environment p.62; app notes 5:67 sub 6
+## SUB 6 | Biofuel Generations and Algal Fuels
+[67:6:0] TABLE head: Generation | Feedstock | Example
+  [67:6:0.0] 1G | Food crops: sugarcane, molasses, corn, vegetable oils | Bioethanol, biodiesel
+  [67:6:0.1] 2G | Non-food lignocellulosic residue: rice straw, husk, wood chips, cotton stalks | Cellulosic ethanol
+  [67:6:0.2] 3G | Algae / algal biomass | Algal biodiesel, biobutanol
+  [67:6:0.3] 4G | Genetically modified algae, yeast, cyanobacteria; carbon-capturing crops | Carbon-negative fuels
+[67:6:1] - **Biobutanol** (Clostridium acetobutylicum): higher energy content than ethanol.
+[67:6:2] - **Algal biofuel:** grows in seas **and on land** (ponds, tanks, wastewater) – "seas only" is false.
+[67:6:3] - **Limitations:** needs **high expertise/technology** and **large-scale facilities** that may raise ecological/social concerns (UPSC 2017: statements 2 and 3); energy-intensive lipid extraction; not cost-effective.
+[67:6:4] ~~ Sources: NextGen S&T Group 2 Part 5 p.31-32; Rocket Environment p.62; PMF S&T Part 8 p.2; app notes 5:67 sub 2
+## SUB 7 | National Policy on Biofuels and Ethanol Blending
+[67:7:0] - **NPB 2018** – aim: cut import dependence; targets **E20 + B5 by 2030**; categories: **basic** (1G bioethanol, biodiesel) and **advanced** (2G ethanol, drop-in fuels from MSW, 3G, **bio-CNG**); does not discourage advanced biofuels.
+[67:7:1] - **Ethanol feedstock widened beyond molasses:** sugarcane juice, B-molasses, **cassava, damaged wheat, rotten potatoes, sugar beet**, maize, surplus FCI rice, agri residues – **not groundnut seeds or horse gram** (UPSC 2020: 1, 2, 5, 6).
+[67:7:2] - **Surplus food grains** need **National Biofuel Coordination Committee (NBCC)** approval; NBCC chaired by the **Minister of Petroleum and Natural Gas** (approved surplus FCI rice Apr 2020, maize Nov 2020).
+[67:7:3] - **NPB 2022 amendment:** E20 advanced to **ESY 2025-26**; more feedstocks; SEZ/EOU production; new NBCC members may be added.
+[67:7:4] - Enablers: **Motor Vehicles Act Section 52** (engine conversion); **100% FDI automatic** for biofuel technology (domestic use).
+[67:7:5] TABLE head: Ethanol Blending Programme (MoPNG) | Date
+  [67:7:5.0] E5 in 9 States + 4 UTs | 1 January 2003
+  [67:7:5.1] E10 achieved | June 2022
+  [67:7:5.2] PM's World Environment Day pledge: E20 by 2025 | 5 June 2021
+  [67:7:5.3] E20 petrol mandatory (min RON 95) | 1 April 2026
+  [67:7:5.4] BIS IS 19850:2026 (E22–E30) | May 2026
+  [67:7:5.5] Next goal E30 | 2030
+[67:7:6] - EBP is run by **MoPNG**; OMC ethanol prices: **maize > molasses > rice**; maize expansion pulled area from **pulses** and oilseeds.
+[67:7:7] ~~ Sources: NextGen S&T Group 2 Part 5 p.30-33; app notes 5:67 sub 4, sub 5
+## SUB 8 | Waste-to-energy and Small Hydro
+[67:8:0] - **India's first waste-to-energy plant: Timarpur, Delhi (1987)**; later Okhla, Ghazipur, Narela-Bawana (Delhi).
+[67:8:1] TABLE head: Route | Principle
+  [67:8:1.0] Incineration | Direct burning of MSW in excess air
+  [67:8:1.1] Pyrolysis | Heating without oxygen → char, bio-oil, syngas
+  [67:8:1.2] Gasification | Partial oxidation (controlled oxygen) → syngas
+  [67:8:1.3] Biomethanation | Microbes convert wet waste → biogas
+  [67:8:1.4] RDF | Refuse-derived fuel = dry combustible part of MSW
+[67:8:2] # Small hydro
+[67:8:3] TABLE head: Small hydro class | Capacity
+  [67:8:3.0] Micro | up to 100 kW
+  [67:8:3.1] Mini | 101 kW – 2 MW
+  [67:8:3.2] Small | 2 – 25 MW (upper limit)
+[67:8:4] - Small hydro sites: hill streams (run-of-river), **canal falls, toes of dams**; ~half the potential in **Arunachal, Himachal, J&K, Uttarakhand**; installed ~5 GW (~**25%** of potential).
+[67:8:5] ~~ Sources: Shankar Environment 10th ed. p.350, 352 (Ch22.4.2, 22.8); app notes 5:67 sub 8
+[67:8:6] - **Mangal Turbine** (Mangal Singh, Lalitpur, UP): driven by **flowing water at low heads** (not wind) – clean, eco-friendly; lifts water for irrigation.
+## SUB 9 | Renewable Classification – What Counts as Renewable
+[67:9:0] - **MNRE renewables:** solar, wind, **bio-power**, **small hydro** and **large hydro** (renewable **since 2019**); geothermal, tidal, OTEC under development.
+[67:9:1] - **Nuclear** = non-fossil but **not renewable** (uranium is exhaustible).
+[67:9:2] - **Renewable resource:** biomass, solar, wind, hydro, tidal; **coal, natural gas, petroleum** are non-renewable.
+[67:9:3] - **Not derived from the Sun:** **nuclear** and **geothermal** (UPPCS 2022 – both are correct; the key gives nuclear); biomass and wind are stored solar energy.
+[67:9:4] ~~ Sources: Rocket Environment p.60-61; Shankar Environment 10th ed. p.353; app notes 5:67 sub 0
+[67:9:5] - **Bio-asphalt:** road binder made from **renewable organic matter** (vegetable oils, molasses, lignin, organic waste) – not fossil-based, eco-friendly.
+## SUB 10 | Bioenergy Schemes and the Andhra Pradesh Angle
+[67:10:0] TABLE head: Scheme | Year / Body | Feature
+  [67:10:0.0] SATAT | 2018, MoPNG | CBG from agri residue and MSW; CBG obligation 5% from 2028-29
+  [67:10:0.1] GOBARdhan | 2018 | Cattle dung, farm waste → compost, biogas, bio-CNG
+  [67:10:0.2] PM JI-VAN Yojana | 2019 | 2G / advanced biofuels; extended to 2028-29
+  [67:10:0.3] National Bioenergy Programme Phase-I | 2021–2026, ₹858 crore, MNRE | Waste to Energy, Biomass, Biogas
+  [67:10:0.4] Biomass co-firing | 2021, Ministry of Power | 5% biomass pellets in coal plants; mission SAMARTH
+[67:10:1] - Inspection body: **SSS-NIBE, Kapurthala, Punjab**.
+[67:10:2] - 2G plants: **IOCL Panipat (first commercial, 2022)**; **Numaligarh** (bamboo, Assam, 14 Sep 2025); HPCL **Bathinda (Punjab)**; BPCL Bargarh (Odisha).
+[67:10:3] - **AP:** bagasse cogeneration 206.95 MW (largest), biomass 171.25 MW, small hydro 106.80 MW (APSES 2025-26); **Jindal (JITF)** WtE plants at **Naidupalem (Guntur)** and **Kapuluppada (Visakhapatnam)**; **AP Integrated Clean Energy Policy 2024** supports biofuels; **Reliance** first CBG plant **Kanigiri, Prakasam** (2 Apr 2025, **Napier grass**).
+[67:10:4] ~~ Sources: NextGen S&T Group 2 Part 5 p.32; app notes 5:67 sub 7, sub 11, sub 12
+
+=== OWN MCQs of 5:67 (123)
+[nc42b9e08583] sub0
+  In biomass gasification, biomass is heated with limited oxygen. What does the resulting syngas mainly consist of?
+  Oxygen, nitrogen and helium | *Carbon monoxide, hydrogen and carbon dioxide | Sulphur dioxide, nitrogen dioxide and ammonia | Methane, chlorine and ozone
+  x: Controlled or limited-oxygen gasification produces syngas containing carbon monoxide, hydrogen and carbon dioxide.
+[nenvironment-36-9] sub0
+  Producer gas is a mixture of carbon monoxide, hydrogen, carbon dioxide and which other gas?
+  Ammonia | Sulphur dioxide | Ethylene | *Methane
+  x: Producer gas is a mix of CO, H₂, CO₂ and methane.
+[nd7b86526926] sub0
+  What is Compressed Biogas (CBG)?
+  Unpurified biogas stored at atmospheric pressure | Compressed carbon dioxide used as a fuel | *Purified and compressed biogas chemically identical to CNG | Coal gas mixed with hydrogen
+  x: CBG is purified and compressed biogas. Chemically, it is identical to compressed natural gas and is considered renewable and carbon-neutral.
+[nenvironment-26-3] sub0
+  Which of the following is NOT correct about a Microbial Fuel Cell?
+  It cleans wastewater and generates electricity simultaneously | Microorganisms in it act as catalysts | It converts the chemical energy of organic substrates into electricity | *It burns organic matter to raise steam for a turbine
+  x: A microbial fuel cell does not burn anything: its microbes convert the chemical energy of organic matter directly into electricity while cleaning wastewater.
+[nenvironment-26-11] sub0
+  Consider the following statements:
+I. Food-processing residues are biomass sources relevant to waste.
+II. Human sewage is a biomass source relevant to waste.
+III. Biogenic municipal solid waste is a biomass source relevant to waste.
+
+Which of the statements given above are correct?
+  II and III only | I and II only | I and III only | *I, II and III
+  x: All three are biomass sources from waste: food-processing residues, human sewage and the biological part of municipal waste.
+[ne3a90655653] sub0
+  Which of the following is NOT correct about biogas?
+  *Methane makes up about 85–95% of biogas | It is mainly methane and CO2 from anaerobic digestion of organic matter | Its methane is formed by methanogenic archaea in the absence of oxygen | The slurry left after digestion is a good organic manure
+  x: Methane is about 50–75% of biogas; 85–95% is the methane share of piped natural gas.
+[n7327d8e1c7f] sub0
+  Which organisation popularised the 'Gramalakshmi' floating-drum gobar gas plant of Jashbhai Patel?
+  MNRE | *KVIC | NABARD | IARI
+  x: The 1950s Gramalakshmi plant was popularised by KVIC, not MNRE.
+[na196bcc8a88] sub0
+  Which of the following describes biomass energy?
+  *Solar energy stored by plants through photosynthesis | Energy obtained from tidal currents alone | Heat stored only in the Earth's mantle | Energy generated exclusively from uranium
+  x: Biomass energy represents solar energy captured and stored by plants through photosynthesis. It may be burned directly or converted into biogas and biofuels.
+[n7f8a00eff78] sub0
+  Which of the following is an example of biomass energy?
+  Geothermal steam | Tidal power | Nuclear fission heat | *Gobar gas
+  x: Gobar gas is biomass energy because it is produced from organic material, especially cattle dung.
+[f45b12141dcc1] sub0
+  Which microbes produce biogas through anaerobic digestion?
+  Saccharomyces cerevisiae | Clostridium acetobutylicum | *Methanogens | Cyanobacteria
+  x: Biogas comes from anaerobic digestion by methanogens in the absence of oxygen.
+[f2cdc8c0f5386] sub0
+  What does bagasse cogeneration in sugar mills produce?
+  Ethanol and molasses | Compressed biogas and slurry | *Steam and power together | Syngas and biochar
+  x: In bagasse cogeneration, sugar mills burn bagasse to produce steam and power together.
+[f8123b541b49f] sub0
+  For what is the slurry left after biogas production used?
+  *Organic manure | Cooking fuel | Biodiesel feedstock | Road bio-asphalt
+  x: The slurry left after biogas production is a good organic manure.
+[f887fac3fbe54] sub0
+  What is the approximate methane content of biogas?
+  85–95% | 25–40% | *50–75% | 95–99%
+  x: Biogas is about 50–75% methane; piped natural gas is 85–95% methane.
+[n36c5c6d8516] sub1
+  Which microorganism is associated with the production of bioethanol by fermentation of sugar or starch?
+  Nitrosomonas | *Saccharomyces cerevisiae | Clostridium acetobutylicum | Methanobacterium
+  x: Saccharomyces cerevisiae, a yeast, ferments sugars or starch-derived sugars to produce bioethanol.
+[n660db919e67] sub1
+  What is power alcohol?
+  *Fuel-grade ethanol made mainly from molasses | Methane produced from animal dung | Biodiesel made exclusively from palm stearin oil | Hydrogen produced by electrolysis of water
+  x: Power alcohol refers to fuel-grade ethanol, which in India is made mainly from molasses, a by-product of the sugar industry.
+[g599da40e8c3e] sub1
+  What is the mixture of petrol and ethanol, usually with about 10% ethanol, called?
+  Power alcohol | Producer gas | *Gasohol | Biodiesel
+  x: Gasohol is petrol (gasoline) blended with ethanol, typically about 10% ethanol.
+[n55411b4780a] sub1
+  Which is the principal feedstock for ethanol in the United States, the world's largest ethanol producer?
+  Sugarcane | *Maize (corn) | Sugar beet | Cassava
+  x: The US mainly uses maize or corn for ethanol, whereas Brazil mainly uses sugarcane.
+[f8a73e3e7f671] sub1
+  In which year did Brazil make ethanol blending mandatory?
+  *1976 | 2003 | 2007 | 1991
+  x: Brazil has mandated ethanol blending since 1976 and has used about 25% ethanol since 2007.
+[nc8fc7eb59d0] sub2
+  Which renewable can supply 24×7 baseload power, as it does not depend on sunlight or wind?
+  Solar PV | *Geothermal energy | Onshore wind | Offshore wind
+  x: Geothermal energy comes from underground heat that does not depend on sunlight or wind, so it can supply 24×7 baseload power.
+[nb50f6f2aa71] sub2
+  India's National Policy on Geothermal Energy (2025) provides for how many pilot projects?
+  *Five | Three | Ten | Twelve
+  x: The policy, notified by MNRE on 15 September 2025, has five pilot projects, not ten.
+[n4c50f34467f] sub2
+  In which State is the Surajkund geothermal field located?
+  Haryana | Uttarakhand | Bihar | *Jharkhand
+  x: Surajkund geothermal field is in Jharkhand; Tapovan is in Uttarakhand and Puga Valley in Ladakh.
+[n0581f60826a] sub2
+  Which of the following is NOT a listed geothermal province or region of India?
+  Son-Narmada-Tapi | Cambay | Godavari Valley | *Indo-Gangetic Plain
+  x: The listed geothermal regions include the Himalaya, Godavari Valley, Cambay, SONATA, Mahanadi, West Coast and Andaman-Nicobar. The Indo-Gangetic Plain is not included in that list.
+[nb14dc497aca] sub2
+  What are Enhanced Geothermal Systems (EGS) designed to do?
+  Prevent all water movement in geothermal fields | *Artificially stimulate geothermal reservoirs | Convert solar radiation directly into electricity | Replace radioactive decay with chemical combustion
+  x: EGS technology artificially stimulates geothermal reservoirs to improve access to underground heat.
+[n089e573cf3b] sub2
+  What is India's geothermal potential as estimated by the Geological Survey of India?
+  *10,600 MW from 381 hot springs | 20,600 MW from 831 hot springs | 5,600 MW from 181 hot springs | 1,060 MW from 38 hot springs
+  x: India's estimated geothermal potential is about 10,600 MW from 381 hot springs, according to the stated GSI estimate.
+[ndc207dd2f72] sub2
+  Hot springs, geysers and volcanoes are surface signs of which form of energy?
+  *Geothermal energy | Tidal energy | Ocean thermal energy | Wind energy
+  x: They are surface expressions of heat originating within the Earth, i.e. geothermal energy.
+[n0a3fb961332] sub2
+  What is the primary source of geothermal energy?
+  Solar radiation stored in rocks | *Heat from the Earth's interior, largely associated with radioactive decay | Tidal friction in ocean water | Chemical energy released by surface oxidation
+  x: Geothermal energy originates from the internal heat of the Earth, much of which is generated by radioactive decay in its interior.
+[n8a65b60ee10] sub2
+  Which of the following is NOT a major challenge associated with geothermal energy?
+  Subsidence and water pollution from geothermal fluids | *Complete absence of underground heat | High drilling cost | Uneven distribution of reservoirs
+  x: The stated challenges are uneven reservoir distribution, high drilling costs, subsidence and water pollution from geothermal fluids. Geothermal energy necessarily depends on underground heat.
+[f617b38299336] sub2
+  Where was the world's first geothermal power generated in 1904?
+  Puga, Ladakh | Rotorua, New Zealand | Reykjavik, Iceland | *Larderello, Italy
+  x: The world's first geothermal power was generated at Larderello, Italy, in 1904; Puga is India's first project.
+[f6f5129eec7d9] sub2
+  Which geothermal field–State pair is correctly matched?
+  Manikaran – Uttarakhand | Tapovan – Himachal Pradesh | Surajkund – Odisha | *Tattapani – Chhattisgarh
+  x: Tattapani is in Chhattisgarh; Manikaran is in Himachal, Tapovan in Uttarakhand and Surajkund in Jharkhand.
+[f0baca06c58a2] sub2
+  The Manuguru geothermal site belongs to which geothermal province?
+  Cambay | *Godavari valley | Mahanadi | SONATA
+  x: Manuguru (old Khammam district, now Telangana) is a Godavari valley geothermal site.
+[ff57a653ae506] sub2
+  Which Ministry issued India's first National Policy on Geothermal Energy (September 2025)?
+  Ministry of Earth Sciences | Ministry of Mines | *MNRE | Ministry of Power
+  x: India's first National Policy on Geothermal Energy was issued by MNRE on 15 September 2025.
+[g90886d078ee2] sub2
+  Which company took up India's first geothermal power project at Puga in Ladakh?
+  NTPC | *ONGC | NHPC | Coal India
+  x: ONGC is developing India's first geothermal project at Puga, Ladakh; its MoU was extended for five years in May 2026.
+[g53c96e5689da] sub2
+  Which geothermal area of India has the highest geothermal potential?
+  Tattapani | Manikaran | *Puga Valley and Chumathang | Surajkund
+  x: Puga Valley and Chumathang in Ladakh have the highest geothermal potential in India.
+[gc2739e0afde8] sub2
+  Match the following:
+List-I (Geothermal field)
+A. Tapovan
+B. Manikaran
+C. Tattapani
+D. Surajkund
+List-II (State)
+1. Chhattisgarh
+2. Jharkhand
+3. Uttarakhand
+4. Himachal Pradesh
+Select the correct answer using the code given below:
+  A-4, B-3, C-1, D-2 | *A-3, B-4, C-1, D-2 | A-3, B-4, C-2, D-1 | A-1, B-4, C-3, D-2
+  x: Tapovan is in Uttarakhand, Manikaran in Himachal Pradesh, Tattapani in Chhattisgarh and Surajkund in Jharkhand.
+[g08e98a2ce4b5] sub2
+  Puga in Ladakh, site of India's first geothermal project, is also described as which of the following?
+  *The world's highest geothermal project | The world's first geothermal power plant | India's largest tidal site | Asia's largest solar park
+  x: Puga (ONGC) is India's first geothermal project and the world's highest, at about 14,000 ft; Larderello in Italy was the world's first.
+[n967e3b8e21c] sub3
+  Biodiesel is commercially produced by which of the following processes?
+  Pyrolysis of lignocellulosic residues without a catalyst | *Transesterification of vegetable oils or animal fats with methanol or ethanol | Fermentation of starch by methanogenic bacteria | Electrolysis of water in the presence of vegetable oil
+  x: Biodiesel is produced by transesterifying vegetable oils or animal fats with methanol or ethanol, producing fatty-acid methyl or ethyl esters.
+[nf9a90936983] sub3
+  Which feedstock accounts for about 94% of India's biodiesel?
+  Jatropha | Pongamia | *Palm stearin oil | Used cooking oil
+  x: Palm stearin oil accounts for about 94% of India's biodiesel feedstock.
+[n46f16323f10] sub3
+  What is India's target for biodiesel blending in diesel by 2030?
+  2% | *5% | 10% | 20%
+  x: India targets 5% biodiesel blending by 2030; actual blending remains below 0.5%.
+[f3bbc9f2cde8d] sub3
+  What is the botanical name of Karanja, a biodiesel plant?
+  Jatropha curcas | Azadirachta indica | *Pongamia pinnata | Saccharum officinarum
+  x: Karanja is Pongamia pinnata, a biodiesel plant with non-edible oil rich in oleic acid; Jatropha curcas is ratanjyot.
+[f5b4ddbd151b0] sub3
+  FSSAI's RUCO initiative turns which of the following into biodiesel?
+  Palm stearin | *Used cooking oil | Animal tallow | Algae
+  x: RUCO (FSSAI) stands for Repurpose Used Cooking Oil, for making biodiesel.
+[f7d9db53edde4] sub3
+  What is India's present level of biodiesel blending in diesel?
+  *Below 0.5% | About 2% | About 5% | About 10%
+  x: India's biodiesel blend is still below 0.5%; the target is 5% by 2030.
+[g6ee24d54db7a] sub3
+  Where did the Belgian firm VITO launch a two-year biodiesel project in April 2023?
+  Varanasi | Dehradun | *Ayodhya | Panipat
+  x: In April 2023 the Belgian firm VITO launched a two-year biodiesel project at Ayodhya.
+[g7cd981ac6732] sub3
+  Which plant, known as 'ratanjyot', is grown as a non-edible biodiesel crop?
+  Pongamia pinnata | *Jatropha curcas | Azadirachta indica | Madhuca longifolia
+  x: Jatropha curcas (ratanjyot) is a biodiesel plant; its non-edible seeds contain about 40% oil.
+[ncfd3e5c9071] sub4
+  Which is India's lead ocean-energy research body?
+  *NIOT, Chennai | NIWE, Chennai | NISE, Gurugram | SSS-NIBE, Kapurthala
+  x: The National Institute of Ocean Technology (NIOT), Chennai, under the Ministry of Earth Sciences, is the lead ocean-energy research body.
+[n422c72bace7] sub4
+  Where was India's first wave-energy plant established?
+  Sundarbans in West Bengal | *Vizhinjam in Kerala | Gulf of Khambhat in Gujarat | Durgaduani Creek
+  x: India's first wave-power pilot was established at Vizhinjam, Kerala, in 1991.
+[n49640d3883e] sub4
+  Which of the following sites has the greatest tidal-energy potential among the listed Indian sites?
+  Gulf of Mannar | *Gulf of Khambhat | Gulf of Kutch | Lakshadweep
+  x: The Gulf of Khambhat in Gujarat is identified as India's best tidal-energy site, with an estimated potential of about 7,000 MW.
+[na32b7d7b643] sub4
+  About what temperature difference between surface and deep water does Ocean Thermal Energy Conversion (OTEC) need?
+  10°C | *20°C | 5°C | 40°C
+  x: OTEC needs about a 20°C difference and is viable mainly between 30°N and 30°S.
+[n9d8b1a63eb1] sub4
+  Which of the following is identified as an OTEC location in India?
+  *Lakshadweep | Gulf of Kutch | Gulf of Khambhat | Sundarbans
+  x: Lakshadweep and the Andaman and Nicobar Islands are OTEC locations; the Gulfs of Khambhat and Kutch are tidal-energy sites.
+[nb5ebce93540] sub4
+  Which of the following pairs is correctly matched?
+  *Durgaduani Creek tidal pilot – Sundarbans | Vizhinjam wave-energy plant – Gujarat | Gulf of Mannar – West Bengal | Lakshadweep – Odisha
+  x: The Durgaduani Creek tidal pilot is in the Sundarbans; Vizhinjam is in Kerala.
+[f318e63f4bc13] sub4
+  What tidal range does a site need to be suitable for tidal power?
+  0.5 m or more | 1 m or more | 2 m or more | *5 m or more
+  x: Tidal power needs a tidal range of about 5 m or more in a narrow gulf or estuary.
+[fbb63ec3d76ed] sub4
+  Which of the following is NOT a tidal-energy site of India?
+  Gulf of Khambhat | Gulf of Kutch | Sundarbans | *Gulf of Mannar
+  x: The Gulf of Mannar is an offshore wind zone, not a tidal site; Khambhat, Kutch and the Sundarbans are tidal sites.
+[f624a67ffdb65] sub4
+  Under which of the following does the National Institute of Ocean Technology, Chennai, function?
+  *Ministry of Earth Sciences | MNRE | Ministry of Power | DRDO
+  x: NIOT, Chennai, India's lead ocean-energy body, is under the Ministry of Earth Sciences.
+[f6fb4dc5fbcab] sub4
+  Where is Durgaduani Creek, a proposed tidal-power pilot site?
+  Gulf of Kutch | Gulf of Khambhat | *Sundarbans, West Bengal | Gulf of Mannar
+  x: Durgaduani Creek, a proposed tidal pilot, is in the Sundarbans, West Bengal.
+[g4847f289a70b] sub4
+  Where was India's first Low Temperature Thermal Desalination (LTTD) plant set up by NIOT in 2005?
+  Port Blair | *Kavaratti | Vizhinjam | Chennai
+  x: NIOT, Chennai set up India's first LTTD desalination plant at Kavaratti, Lakshadweep in 2005, giving 1 lakh litres of water a day.
+[g54fab4649cd8] sub4
+  About how much fresh water per day does the LTTD desalination plant at Kavaratti produce?
+  10,000 litres | *1 lakh litres | 10 lakh litres | 1 crore litres
+  x: The Kavaratti LTTD plant (2005) of NIOT produces about 1 lakh litres of drinking water per day.
+[gb5c1ce1a535f] sub4
+  What is the identified tidal energy potential of India as estimated by MNRE?
+  About 1,245 MW | About 7,000 MW | *About 12,455 MW | About 40,000 MW
+  x: MNRE puts India's tidal potential at about 12,455 MW, mainly in the Khambhat and Kutch regions of Gujarat; wave potential is about 40,000 MW.
+[g970252c32ea6] sub4
+  What is the estimated wave energy potential along India's coast?
+  About 4,000 MW | About 12,455 MW | *About 40,000 MW | About 1,80,000 MW
+  x: MNRE estimates India's wave energy potential at about 40,000 MW; OTEC potential is about 1,80,000 MW.
+[n51810e51fd4] sub5
+  Unlike direct ethanol blending, what does Sustainable Aviation Fuel (SAF) use?
+  Directly blended ethanol | *Drop-in synthesised hydrocarbons | Compressed biogas | Raw vegetable oil
+  x: SAF uses drop-in synthesised hydrocarbons suited to aviation fuel systems, not simply direct ethanol.
+[ncf45919cd06] sub5
+  What is India's Sustainable Aviation Fuel (SAF) target for international flights by 2030?
+  1% | 2% | *5% | 10%
+  x: The SAF roadmap sets 1% by 2027, 2% by 2028 and 5% by 2030, in line with ICAO's net-zero 2050 goal.
+[n5ab3206d320] sub5
+  Which policy specifically supports bio-jet fuel among the following?
+  National Hydrogen Mission 2021 | FAME India Scheme | National Solar Mission 2010 | *BioE3 Policy 2024
+  x: The BioE3 Policy 2024 supports bio-jet fuel.
+[nenvironment-36-4] sub5
+  Consider the following statements:
+I. The first airline biofuel flight was operated by SpiceJet.
+II. The first biofuel flight was on the Dehradun–Delhi route.
+III. The date of the first biofuel flight was 27 August 2018.
+Which of the statements given above is/are correct?
+  I and III only | *I, II and III | I and II only | II and III only
+  x: All three are correct: SpiceJet flew India's first biofuel flight, from Dehradun to Delhi, on 27 August 2018.
+[faa586bbb8370] sub5
+  At which forum was the Global Biofuels Alliance launched on 9 September 2023?
+  COP28, Dubai | *G20 Summit, New Delhi | BRICS Summit, Johannesburg | ISA Assembly, New Delhi
+  x: The Global Biofuels Alliance was launched on 9 September 2023 at the G20 Summit, New Delhi.
+[f7639f89cc57e] sub5
+  Which countries are the core founding members of the Global Biofuels Alliance?
+  India, Brazil and Argentina | India, USA and Japan | *India, USA and Brazil | India, EU and Brazil
+  x: The core founders of the Global Biofuels Alliance are India, USA and Brazil; its Secretariat is in New Delhi.
+[f7601b1e79109] sub5
+  Which was India's first ISCC CORSIA-certified Sustainable Aviation Fuel producer (August 2025)?
+  HPCL Bathinda | CSIR-IIP Dehradun | BPCL Bargarh | *IOCL Panipat
+  x: IOCL Panipat became India's first ISCC CORSIA-certified SAF producer in August 2025.
+[fdd321620507b] sub5
+  Up to what share can Sustainable Aviation Fuel be blended with conventional jet fuel?
+  5% | 10% | 20% | *50%
+  x: SAF is a drop-in synthesised hydrocarbon that can be blended up to 50% with jet fuel.
+[gdbb966698a57] sub5
+  Where is the Secretariat of the Global Biofuels Alliance located?
+  Brasilia | Washington DC | *New Delhi | Paris
+  x: Under a host agreement of October 2024, the Global Biofuels Alliance Secretariat is in New Delhi.
+[g8f55955e74f3] sub5
+  Which institute developed the jatropha-based bio-jet fuel used in India's first biofuel flight in August 2018?
+  CSIR-NCL, Pune | *CSIR-IIP, Dehradun | IARI, New Delhi | SSS-NIBE, Kapurthala
+  x: SpiceJet's Dehradun–Delhi biofuel flight (27 August 2018) used jatropha bio-jet fuel from CSIR-Indian Institute of Petroleum, Dehradun.
+[gd20df60c984f] sub5
+  Consider the following statements about India's first biofuel flight:
+1. It used bio-jet fuel made from jatropha.
+2. It was flown in a Bombardier Q-400 aircraft.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: The SpiceJet flight of 27 August 2018 was a Bombardier Q-400 running on jatropha bio-jet fuel from CSIR-IIP.
+[n0a1371e6d4e] sub6
+  Which one of the following is correctly matched with the generation of biofuel?
+  1G — non-food lignocellulosic residues | 2G — food crops such as sugarcane and corn | *3G — algal biomass | 4G — untreated agricultural residues only
+  x: Third-generation biofuels use algae or algal biomass. First-generation fuels use food crops, second-generation fuels use non-food lignocellulosic material, and fourth-generation fuels use genetically engineered organisms.
+[nenvironment-36-7] sub6
+  Assertion (A): Algae biofuel requires expertise, capital and large-scale facilities.
+Reason (R): Algae can be grown on land that is unsuitable for agriculture.
+  Both A and R are true, and R is the correct explanation of A | *Both A and R are true, but R is NOT the correct explanation of A | A is true, but R is false | A is false, but R is true
+  x: Both are true but R does not explain A: growing algae on non-farm land is an advantage, while the need for expertise, capital and large plants comes from the cost and complexity of cultivation and processing.
+[n968e69ea69a] sub6
+  Which of the following feedstocks is characteristic of second-generation biofuels?
+  Corn grain | Genetically modified algae | Sugarcane juice | *Rice straw
+  x: Second-generation biofuels use non-food lignocellulosic residues such as rice straw, straw, husk, wood chips and bamboo.
+[n0994c9bee63] sub6
+  Which of the following is a limitation of algal biofuel?
+  *Energy-intensive lipid extraction | Ability to use wastewater | Ability to use CO2 | High yield per unit area
+  x: Energy-intensive lipid extraction is a limitation; high yield and use of wastewater and CO2 are advantages.
+[fad5fed6fa6ad] sub6
+  Which microorganism is used to produce biobutanol?
+  Saccharomyces cerevisiae | Methanogens | *Clostridium acetobutylicum | Cyanobacteria
+  x: Biobutanol is made with Clostridium acetobutylicum and has higher energy density than ethanol.
+[n9665680147f] sub7
+  Under the National Policy on Biofuels 2018, whose approval is needed to use surplus food grains for ethanol production?
+  Food Corporation of India | *National Biofuel Coordination Committee | Ministry of New and Renewable Energy | NITI Aayog
+  x: Surplus food grains may be converted to ethanol only with NBCC approval (APPSC-G2 2025). FCI supplies the rice but does not approve; MNRE and NITI Aayog are not the approving body under the policy.
+[n6753089fbb7] sub7
+  Beyond which traditional feedstock did the National Policy on Biofuels, 2018 widen the ethanol feedstock base?
+  Sugarcane juice | Maize | *Molasses | Surplus FCI rice
+  x: The NPB 2018 widened ethanol feedstock beyond molasses by adding sugarcane juice, surplus FCI rice, maize and damaged foodgrains.
+[n1175cad5a75] sub7
+  Which one of the following is NOT an objective of the National Policy on Biofuels?
+  Reducing dependence on imported energy | Promoting domestic feedstock | Enhancing energy security and employment | *Discouraging the production of advanced biofuels
+  x: The National Policy on Biofuels aims to reduce import dependence, promote domestic feedstock, strengthen energy security and generate employment. It does not discourage advanced biofuels.
+[n996bf8f7cef] sub7
+  To which Ethanol Supply Year did the 2022 amendment to the National Policy on Biofuels advance the E20 target?
+  *2025-26 | 2024-25 | 2023-24 | 2029-30
+  x: The 2018 policy aimed at E20 by 2030; the 2022 amendment advanced it to ESY 2025-26.
+[n64ff25a4f9e] sub7
+  Which of the following is NOT correct about the 2022 amendment to the National Policy on Biofuels?
+  *It barred the addition of new members to the NBCC | It permitted biofuel units in SEZs and EOUs under Make in India | It permitted exports in specific cases | It permitted more feedstocks
+  x: The 2022 amendment allowed new members to be added to the NBCC, so saying it barred them is wrong. It also allowed more feedstocks, biofuel production in SEZs/EOUs under Make in India, and export of biofuels in specific cases.
+[nb1298f55eaf] sub7
+  Under the National Policy on Biofuels, which of the following is a 'basic' biofuel?
+  *1G bioethanol | Bio-CNG | Drop-in fuels | 2G ethanol
+  x: Basic biofuels are 1G bioethanol and biodiesel; 2G ethanol, drop-in fuels, 3G biofuels and bio-CNG are advanced biofuels.
+[n2091b28d515] sub7
+  Which section of the Motor Vehicles Act permits engine conversion to biofuels?
+  *Section 52 | Section 39 | Section 66 | Section 129
+  x: Section 52 of the Motor Vehicles Act permits conversion of engines to biofuels.
+[f18f6da89aaa8] sub7
+  The Minister of which Ministry chairs the National Biofuel Coordination Committee?
+  New and Renewable Energy | Agriculture | *Petroleum and Natural Gas | Consumer Affairs, Food and Public Distribution
+  x: The NBCC is chaired by the Minister of Petroleum and Natural Gas.
+[f5477a7ddfb3f] sub7
+  Consider the following statements about the National Biofuel Coordination Committee:
+1. It approved surplus FCI rice for ethanol in April 2020.
+2. The 2022 amendment allowed new members to be added to it.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: NBCC approved surplus FCI rice in April 2020, and the 2022 amendment allows new members to be added to it.
+[fa736f64ef5a3] sub7
+  Under the National Policy on Biofuels, 2018, which of the following is an 'advanced' biofuel?
+  1G bioethanol | Biodiesel | *Bio-CNG | Molasses ethanol
+  x: Advanced biofuels include 2G ethanol, drop-in fuels from MSW, 3G biofuels and bio-CNG; 1G bioethanol and biodiesel are basic.
+[g83174515c93c] sub7
+  Which of the following is NOT listed as a raw material for ethanol under the National Policy on Biofuels?
+  Cassava | Sugar beet | Rotten potatoes | *Groundnut seeds
+  x: The policy allows cassava, sugar beet, rotten potatoes and damaged grains for ethanol; groundnut, an edible oilseed, is not listed.
+[g67a19dc3d45d] sub7
+  How much Foreign Direct Investment is allowed under the automatic route for biofuel technology meant for domestic use?
+  26% | 49% | 74% | *100%
+  x: Under the National Policy on Biofuels, 100% FDI is allowed through the automatic route for biofuel technology for domestic use; plantations are barred.
+[nbe4e2226863] sub7
+  In the feedstock-wise pricing of ethanol bought by Oil Marketing Companies, what is the correct order from highest to lowest price?
+  Rice, molasses, maize | Molasses, maize, rice | Maize, rice, molasses | *Maize, molasses, rice
+  x: Ethanol made from maize has the highest price, rice-based ethanol the lowest, and molasses-based ethanol lies between them.
+[n89220133333] sub7
+  From which date did E20 petrol with a minimum Research Octane Number of 95 become mandatory in India?
+  *1 April 2026 | 1 January 2026 | 1 January 2025 | 1 April 2025
+  x: Mandatory E20 petrol with a minimum RON of 95 was scheduled from 1 April 2026.
+[n51a2b887446] sub7
+  The next ethanol-blending target after E20 is which of the following?
+  *E30 by 2030 | E27 by 2029 | E35 by 2035 | E25 by 2028
+  x: The next stated target is 30% ethanol blending, or E30, by 2030.
+[na899bac848c] sub7
+  When did India achieve E10 ethanol blending in petrol?
+  June 2020 | April 2025 | June 2023 | *June 2022
+  x: After the 2001 pilot and E5 from 1 January 2003, E10 was achieved in June 2022; E20 is mandatory from 1 April 2026.
+[n680efd77a49] sub7
+  In the food-versus-fuel debate, the rise in maize area has been accompanied by a decline in the area under which crop?
+  *Pulses | Wheat | Cotton | Jute
+  x: Maize-ethanol pricing has been linked with diversion of land from pulses and oilseeds.
+[f56b5daade9e1] sub7
+  When did E5 ethanol blending in 9 States and 4 Union Territories begin?
+  2001 | 1 April 2026 | June 2022 | *1 January 2003
+  x: E5 began in 9 States and 4 UTs on 1 January 2003, after a 2001 pilot.
+[f65c0c4ff01b6] sub7
+  Which Ministry runs India's Ethanol Blending Programme?
+  MNRE | Ministry of Agriculture | *Ministry of Petroleum and Natural Gas | Ministry of Power
+  x: The Ethanol Blending Programme is run by MoPNG, with OMCs paying feedstock-wise prices.
+[gb70ba4cb9079] sub7
+  Which BIS standard of 2026 covers higher ethanol blends of petrol such as E22, E25, E27 and E30?
+  IS 2796 | IS 17821 | *IS 19850 | IS 1460
+  x: BIS issued IS 19850:2026 in May 2026 for E22, E25, E27 and E30 petrol blends.
+[naa2a5067617] sub8
+  In waste-to-energy, what is heating waste in the absence of oxygen called?
+  Gasification | *Pyrolysis | Incineration | Refuse-derived fuel
+  x: Pyrolysis heats waste without oxygen; gasification is partial oxidation and incineration is direct burning.
+[n0aaaed0f04e] sub8
+  Where are small hydro projects commonly developed?
+  Hill streams only | Hill streams and canal falls only | Canal falls and toes of dams only | *Hill streams, canal falls and toes of dams
+  x: Run-of-river small hydro may use hill streams, canal falls and water released at dam toes.
+[nc63beac3a99] sub8
+  What is the capacity range of mini hydro plants in India?
+  *101 kW to 2 MW | Up to 100 kW | Above 2 MW and up to 25 MW | Above 25 MW
+  x: Micro hydro is up to 100 kW, mini hydro 101 kW to 2 MW and small hydro above 2 MW up to 25 MW.
+[f740d4a72ceb6] sub8
+  What is the upper capacity limit of a small hydro project in India?
+  2 MW | 100 kW | *25 MW | 50 MW
+  x: Small hydro covers 2–25 MW; micro is up to 100 kW and mini up to 2 MW.
+[fa3a839516918] sub8
+  In which States does about half of India's small hydro potential lie?
+  Gujarat, Rajasthan, Punjab and Haryana | Bihar, West Bengal, Odisha and Jharkhand | *Arunachal Pradesh, Himachal Pradesh, J&K and Uttarakhand | Tamil Nadu, Kerala, Goa and Telangana
+  x: About half of India's small hydro potential is in Arunachal, Himachal, J&K and Uttarakhand.
+[fabe7c3a09900] sub8
+  Where is the Okhla waste-to-energy plant located?
+  Hyderabad | *Delhi | Visakhapatnam | Guntur
+  x: Okhla, Ghazipur and Narela-Bawana are waste-to-energy plants in Delhi.
+[fa11c90d4f07c] sub8
+  In biomethanation, what converts wet waste into biogas?
+  Direct burning | Controlled oxygen | *Microbes | Heating without oxygen
+  x: In biomethanation, microbes convert wet waste into biogas.
+[gd9d54ce9c6c5] sub8
+  About what share of India's small hydro potential has been installed so far?
+  About 10% | *About 25% | About 50% | About 75%
+  x: India's installed small hydro capacity is about 5.18 GW, which is only about 25% of its potential.
+[g0d9df961e592] sub8
+  What is Refuse-Derived Fuel (RDF)?
+  Biogas made from wet waste | *The dry combustible part of municipal solid waste | Methane captured from landfills | Bio-oil made by pyrolysis
+  x: RDF is the dry, combustible fraction of municipal solid waste, used as fuel in waste-to-energy plants and cement kilns.
+[n42174f65551] sub9
+  Which of the following is NOT correct about MNRE's classification of energy sources?
+  Bio-power includes biomass, bagasse cogeneration and waste-to-energy | Geothermal, tidal and OTEC are renewable sources under development | Nuclear capacity of 8.78 GW is counted separately | *Nuclear power is classified as renewable energy
+  x: Nuclear power is non-fossil but not classified as renewable; its capacity is counted separately.
+[nc8c460d4f32] sub9
+  Since 2019, which source has been included in MNRE's renewable-energy classification?
+  Nuclear power | Clean coal | Natural gas | *Large hydropower
+  x: Large hydro has been classified as renewable since 2019; nuclear is non-fossil but not renewable.
+[fca2fbf3af61d] sub9
+  Which of the following is non-fossil but NOT counted as renewable by MNRE?
+  *Nuclear | Large hydro | Small hydro | Bagasse cogeneration
+  x: Nuclear is non-fossil but not renewable; large hydro is counted as renewable since 2019.
+[nfdee73f5cf3] sub10
+  What does SATAT, launched in 2018 by the Ministry of Petroleum and Natural Gas, mainly promote?
+  *CBG production from agricultural residue and municipal waste | Coal gasification in urban households | Geothermal electricity from Himalayan springs | Ethanol production only from imported crude oil
+  x: SATAT, or Sustainable Alternative Towards Affordable Transportation, was launched in 2018 by MoPNG to promote CBG from agricultural residue and municipal waste.
+[na24c0629784] sub10
+  In which year was GOBARdhan (Galvanizing Organic Bio-Agro Resources Dhan) launched?
+  2014 | 2016 | *2018 | 2020
+  x: GOBARdhan was launched in 2018, the same year as SATAT.
+[nf94afd10989] sub10
+  What is the Phase-I outlay of the National Bioenergy Programme (2021–2026)?
+  ₹585 crore | *₹858 crore | ₹1,858 crore | ₹8,580 crore
+  x: Phase-I (1 April 2021 to 31 March 2026) has an outlay of ₹858 crore, implemented by MNRE through State Nodal Agencies.
+[nbf2012e6644] sub10
+  At what level did the Ministry of Power policy of 2021 mandate biomass co-firing in coal-based plants?
+  2% | *5% | 10% | 15%
+  x: The 2021 policy mandated 5% biomass co-firing in coal plants, to rise to 7%.
+[n9f87629324d] sub10
+  Which institutional mechanism is associated with implementation of biomass co-firing in thermal power plants?
+  National Biofuel Coordination Committee | Small Hydro Power Development Scheme | CAFE III | *National Mission SAMARTH
+  x: National Mission SAMARTH is associated with the biomass co-firing initiative in thermal power plants.
+[nfad2c96fea9] sub10
+  Up to which year does the revised PM JI-VAN Yojana extend?
+  2025–26 | 2026–27 | 2030–31 | *2028–29
+  x: The revised scheme covers advanced biofuels, including bolt-on and brownfield projects, up to 2028–29.
+[n6f249a5fe67] sub10
+  In which year was the PM JI-VAN Yojana launched?
+  2017 | 2018 | *2019 | 2021
+  x: PM JI-VAN Yojana was launched in 2019 to support 2G ethanol and subsequently expanded to advanced biofuels.
+[n6c1348b401c] sub10
+  Where is the Sardar Swaran Singh National Institute of Bio-Energy, which inspects work under MNRE's National Bioenergy Programme, located?
+  *Kapurthala, Punjab | Chennai, Tamil Nadu | Gurugram, Haryana | Dehradun, Uttarakhand
+  x: SSS-NIBE is at Kapurthala, Punjab. Chennai hosts NIWE and NIOT, Gurugram hosts NISE, and Dehradun hosts CSIR-IIP - none is the bioenergy inspection body.
+[fa15a331adfb2] sub10
+  What is the compressed biogas obligation under SATAT from 2028-29?
+  1% | 3% | 4% | *5%
+  x: Under SATAT the CBG obligation rises 1%/3%/4% over FY26-28 and is 5% from 2028-29.
+[f7cc33b1fda8d] sub10
+  Which of the following pairs is correctly matched?
+  *Biomass co-firing – Ministry of Power | SATAT – MNRE | National Bioenergy Programme – MoPNG | PM JI-VAN Yojana – 2018
+  x: Co-firing is under the Ministry of Power (SAMARTH); SATAT is MoPNG, the National Bioenergy Programme is MNRE and PM JI-VAN is 2019.
+[nd56b9688694] sub10
+  Which policy of Andhra Pradesh supports biofuels as part of its clean-energy approach?
+  *AP Integrated Clean Energy Policy, 2024 | AP Industrial Policy, 2015 | AP Small Hydro Policy, 2026 | AP Solar Power Policy, 2018
+  x: The AP Integrated Clean Energy Policy, 2024 supports biofuels.
+[f0054cca3bd26] sub10
+  Where did Reliance lay the foundation of its first compressed biogas plant in April 2025?
+  Naidupalem, Guntur | Kapuluppada, Visakhapatnam | *Kanigiri, Prakasam | Kakinada, East Godavari
+  x: Reliance laid the foundation of its first CBG plant at Kanigiri, Prakasam, on 2 April 2025.
+[fc09ba4cde06e] sub10
+  Which company runs the waste-to-energy plants at Naidupalem (Guntur) and Kapuluppada (Visakhapatnam)?
+  Reliance | *Jindal (JITF) | NTPC | IOCL
+  x: Jindal (JITF) runs WtE plants at Naidupalem, Guntur and Kapuluppada, Visakhapatnam.
+[f24c631f938fe] sub10
+  Reliance's Kanigiri CBG plant uses which feedstock grown on barren land?
+  Jatropha | Bamboo | Maize | *Napier grass
+  x: The Kanigiri CBG plant uses Napier grass grown on barren land.
+[g12a08bbd4ddb] sub10
+  Among the following bio-energy sources, which has the largest installed capacity in Andhra Pradesh as per the AP Socio-Economic Survey 2025-26?
+  Biomass power | Small hydro | *Bagasse cogeneration | Municipal solid waste power
+  x: AP has bagasse cogeneration of 206.95 MW, biomass 171.25 MW, small hydro 106.80 MW and MSW power 36.15 MW.
+[nee0ac5ae0c6] sub10
+  Where is India's first commercial-scale bamboo bioethanol plant, dedicated on 14 September 2025?
+  Panipat | *Numaligarh | Bargarh | Bathinda
+  x: Numaligarh (Golaghat, Assam) is India's first commercial bamboo bioethanol plant, dedicated on 14 September 2025. Panipat is the first commercial 2G plant; Bathinda and Bargarh are other 2G plants.
+[n76d3f6c92c1] sub10
+  Which of the following 2G ethanol plants is wrongly matched?
+  IOCL Panipat – Haryana | *HPCL Bathinda – Odisha | Numaligarh Refinery – Golaghat, Assam | BPCL Bargarh – Odisha
+  x: HPCL Bathinda is in Punjab; Bargarh is the Odisha plant.
+[n9128fe466cb] sub10
+  Which of the following pairs is correctly matched?
+  Larderello – India's first geothermal plant | Puga – world's first geothermal plant | *Panipat – first commercial 2G plant | Numaligarh – first commercial 2G plant
+  x: Panipat is the first commercial 2G plant; Larderello is the world geothermal first, Puga the Indian geothermal first and Numaligarh the first 2G bamboo plant.
+
+=== NOTES 5:68 | Green Hydrogen – National Green Hydrogen Mission, Electrolysers, Applications
+## SUB 0 | Hydrogen as a Fuel – Basic Facts
+[68:0:0] - **Cleanest fuel:** burning hydrogen gives **only water** – least / minimum air pollution (coal, kerosene, diesel, petrol give CO2 and harmful gases; CNG and power alcohol still give CO2).
+[68:0:1] - **Highest fuel (calorific) value:** about **150,000 kJ/kg** – above natural gas, gasoline, charcoal.
+[68:0:2] - Burns in air at about **4% to 75%** by volume.
+[68:0:3] - **Rocket fuel:** liquid hydrogen (**dihydrogen**, H2) with liquid oxygen in cryogenic stages – not hydrogen peroxide, heavy water or CFCs.
+[68:0:4] - **Storage for vehicles:** hydrogen absorbed at low temperature by a **metal hydride** (e.g. palladium hydride) and released by exhaust heat.
+[68:0:5] - Hydrogen is also the **most abundant element in the Universe** (~3/4 of matter) and the fuel of the Sun's fusion reactions.
+[68:0:6] > Least pollution / highest fuel value / burning gives water – the classic hydrogen-fuel PYQ.
+[68:0:7] ~~ Sources: Shankar Environment 10th ed. p.354 (Ch22.10 fuel cells); app notes 5:68 sub 0, sub 6
+## SUB 1 | Applications of Green Hydrogen
+[68:1:0] - **Uses of green hydrogen (UPSC 2023 – all three correct):** **directly as a fuel in internal combustion** engines (H2-ICE), **blended with natural gas** for heat or power, and in **hydrogen fuel cells** to run vehicles.
+[68:1:1] - **Decarbonises fertiliser plants (ammonia), oil refineries and steel plants** (UPSC 2023 – all three) – **hard-to-abate** sectors where direct electrification is difficult.
+[68:1:2] - **Industry:** refining (**desulphurisation**), **ammonia for fertilisers**, methanol, **steel by DRI** (hydrogen replaces **coking coal**).
+[68:1:3] - **Fuel uses:** fuel-cell vehicles (buses, trucks, trains, ships), rocket fuel, **H-CNG** (hydrogen blended with CNG).
+[68:1:4] - **Green ammonia** = nitrogen + green hydrogen; fertiliser, fuel, marine fuel.
+[68:1:5] - **India's first green hydrogen blending project:** **NTPC + Gujarat Gas Ltd**, **Kawas, Surat** (Jan 2023), blending into the PNG network; PNGRB allowed 5% blending at start, scaling to 20%.
+[68:1:6] ~~ Sources: Shankar Environment 10th ed. p.355 (Ch22.10.1); PMF Environment Part 7 p.101 (UPSC 2023 solved); web: pib.gov.in PRID=1888334 (NTPC–Gujarat Gas blending, 3 Jan 2023); app notes 5:68 sub 7
+## SUB 2 | Colours of Hydrogen
+[68:2:0] TABLE head: Colour | Production route | CO2
+  [68:2:0.0] Green | Electrolysis of water with renewable power | Zero – only zero-carbon colour
+  [68:2:0.1] Grey | Steam methane reforming (SMR) of natural gas | High; ~95% of production; cheapest
+  [68:2:0.2] Blue | SMR + carbon capture and storage (CCS) | Low
+  [68:2:0.3] Pink / purple | Electrolysis with nuclear power | Near-zero
+  [68:2:0.4] Turquoise | Methane pyrolysis → solid carbon | Near-zero
+  [68:2:0.5] Brown / black | Coal gasification without CCS | Very high
+  [68:2:0.6] White | Naturally occurring geological hydrogen | –
+[68:2:1] - **SMR:** methane + steam at **700–1000°C**, **nickel catalyst** → hydrogen + CO.
+[68:2:2] - Cost (Jul 2026): grey **$1.5–2/kg** vs green **~$4/kg**.
+[68:2:3] - "Green" means the **production route (renewable energy)** – not sea water, not coal, not a green-coloured gas.
+[68:2:4] ~~ Sources: Shankar Environment 10th ed. p.356 (Ch22.10.2); app notes 5:68 sub 1
+## SUB 3 | Hydrogen Mobility Firsts
+[68:3:0] TABLE head: First | Builder / Site
+  [68:3:0.0] Hydrogen-powered train coach tested | ICF, Chennai (2025)
+  [68:3:0.1] Hydrogen train in service | Jind–Sonipat, Haryana, 10 coaches, from July 2026
+  [68:3:0.2] Indigenous fuel-cell ferry | Cochin Shipyard Ltd
+  [68:3:0.3] Indigenous fuel-cell bus (2022) | KPIT + CSIR-NCL, Pune ("Veera Vahana" is wrong)
+  [68:3:0.4] H-CNG buses | Delhi, IOCL (2020)
+[68:3:1] - **World's first fuel-cell car to cross a continent to Sydney (27 Dec 2003): "Apollondine"**, built and driven by **Tamagawa University** (Tokyo) students; ~4,084 km run.
+[68:3:2] ~~ Sources: app notes 5:68 sub 8
+[68:3:3] - **India's first H2ICE heavy-duty truck:** unveiled by **Reliance Industries** (with Ashok Leyland) at India Energy Week, Bengaluru, Feb 2023.
+## SUB 4 | Fuel Cells
+[68:4:0] - **Fuel cell** = electrochemical device: **H2 + O2 → electricity (DC) + water + heat**; no combustion; efficiency up to ~55%.
+[68:4:1] - With pure hydrogen the only by-products are **heat and water**; FCEV exhaust = **water vapour** (and warm air) – not ammonia, nitrogen, oxygen or hydrogen peroxide.
+[68:4:2] - Fuel cells power buildings **and** small devices (laptops); they give **DC, not AC** (UPSC 2015: only statement 1 correct).
+[68:4:3] - A fuel cell combines hydrogen with **oxygen**, not carbon dioxide.
+[68:4:4] # PEM fuel cell steps
+[68:4:5] - 1. **Anode:** H2 → 2H+ + 2e-; electrons flow through the external circuit.
+[68:4:6] - 2. **Protons cross the membrane**; **cathode:** 1/2 O2 + 2H+ + 2e- → H2O + heat.
+[68:4:7] ~~ Sources: Shankar Environment 10th ed. p.354 (Ch22.10); app notes 5:68 sub 5
+## SUB 5 | National Green Hydrogen Mission
+[68:5:0] - Approved by **Union Cabinet, 4 January 2023**; nodal ministry **MNRE**; outlay **₹19,744 crore** up to **2029-30**.
+[68:5:1] TABLE head: Component | Role | Outlay
+  [68:5:1.0] SIGHT | Incentives for electrolyser manufacturing + green H2 production | ₹17,490 cr
+  [68:5:1.1] Pilot projects | Steel, mobility, shipping, storage, biomass hydrogen | ₹1,466 cr
+  [68:5:1.2] SHIP (Strategic Hydrogen Innovation Partnership) | PPP for R&D | ₹400 cr
+  [68:5:1.3] Green Hydrogen Hubs | Production-use-export clusters; 4 Hydrogen Valley Innovation Clusters | –
+[68:5:2] - **2030 targets:** **5 MMT/year** green hydrogen; **125 GW** added RE; **60–100 GW electrolysers** (not 200 GW); **6 lakh jobs**; ₹8 lakh crore investment; **50 MMT/yr GHG** cut.
+[68:5:3] - Goals: **energy independence 2047**, **net zero 2070**.
+[68:5:4] - Progress: **15 companies**, 3,000 MW electrolyser manufacturing; green ammonia 7,24,000 TPA at **₹53.27/kg** (SECI); **Japanese** firms signed green ammonia/methanol export deals (Jul 2026).
+[68:5:5] - **Hub ports:** **Deendayal (Kandla), Gujarat**; **V.O. Chidambaranar (Tuticorin), Tamil Nadu** (₹35 crore bunkering pilot); Paradip, Odisha.
+[68:5:6] - Chronology: rooftop solar programme (2014) → **NGHM (Jan 2023)** → PM Internship Scheme (Oct 2024).
+[68:5:7] ~~ Sources: Shankar Environment 10th ed. p.355-356 (Ch22.10.1); NextGen S&T Group 2 Part 5 p.50; app notes 5:68 sub 2, sub 9
+## SUB 6 | Andhra Pradesh – Green Hydrogen Policy and Valley
+[68:6:0] - **AP Green Hydrogen and Green Ammonia Policy (2023):** target **0.5 MTPA green hydrogen or 2.0 MTPA green ammonia** in five years (not 1 MTPA); nodal agency **NREDCAP**; RE may be sourced via open access, captive, **third-party sale and power exchange** (allowed, not prohibited); 100% SGST reimbursement for 5 years.
+[68:6:1] - **AP Integrated Clean Energy Policy 2024**: green hydrogen export; net zero 2047.
+[68:6:2] - **Green Hydrogen Valley Declaration, Amaravati, 19 July 2025:** AP as India's green hydrogen capital; goal **1.5 MMTPA by 2030** + 5 GW electrolyser manufacturing; nodal **SRM University-AP**; valley cluster at Kakinada.
+[68:6:3] TABLE head: Project | Place
+  [68:6:3.0] NTPC Green Energy hub | Pudimadaka (Anakapalli)
+  [68:6:3.1] AM Green green ammonia | Kakinada
+  [68:6:3.2] NTPC Simhadri | Seawater-to-hydrogen blending trials (Jan 2026)
+[68:6:4] - Amaravati is not a Paradip green ammonia export terminal.
+[68:6:5] ~~ Sources: web: iamrenew.com (AP policy notified, 0.5 MTPA, NREDCAP, third-party and power exchange routes); CARE APPSC Feb 2026 p.20; app notes 5:68 sub 10
+## SUB 7 | Electrolysers, Standard, Certification and Storage
+[68:7:0] - **Electrolyser** = uses **electricity to split water** into hydrogen and oxygen.
+[68:7:1] TABLE head: Type | Feature
+  [68:7:1.0] Alkaline | Liquid KOH/NaOH electrolyte; oldest, mature
+  [68:7:1.1] PEM | Solid polymer membrane; compact; quick response suits variable RE
+  [68:7:1.2] Solid oxide | High-temperature steam; most efficient
+  [68:7:1.3] AEM | Can use non-platinum catalysts (nickel, cobalt, iron)
+[68:7:2] - Concern: **Chinese dominance** of electrolyser supply; dependence on imported electrolysers.
+[68:7:3] TABLE head: Item | Fact
+  [68:7:3.0] Green Hydrogen Standard (MNRE, Aug 2023) | Well-to-gate ≤ 2 kg CO2-eq per kg H2 (12-month average)
+  [68:7:3.1] GHCI certification scheme | April 2025
+  [68:7:3.2] Certification nodal authority | Bureau of Energy Efficiency
+[68:7:4] # Storage and transport
+[68:7:5] TABLE head: Storage method | Fact
+  [68:7:5.0] Compression | High-pressure composite cylinders
+  [68:7:5.1] Liquefaction | −253°C (cryogenic)
+  [68:7:5.2] Metal hydrides | Solid-state storage; absorbed in alloys, released on heating
+  [68:7:5.3] Chemical carriers | Ammonia, methanol, LOHC (not CO2)
+[68:7:6] - Water need: **~9 litres** purified water per kg hydrogen.
+[68:7:7] ~~ Sources: app notes 5:68 sub 3, sub 4, sub 6
+
+=== OWN MCQs of 5:68 (69)
+[g4d025a7d8b0f] sub0
+  Within what range of concentration by volume does hydrogen burn in air?
+  About 1% to 5% | *About 4% to 75% | About 20% to 40% | About 50% to 100%
+  x: Hydrogen is flammable in air over a wide range of about 4% to 75% by volume.
+[n5d0e2dc1664] sub1
+  Green ammonia is produced by combining which of the following?
+  Methane and oxygen | Oxygen and green hydrogen | Nitrogen and carbon dioxide | *Nitrogen and green hydrogen
+  x: Green ammonia is produced from nitrogen and green hydrogen. It is important for fertiliser production and can also serve as a fuel and marine fuel.
+[nchemistry-10-19] sub1
+  Why is hydrogen especially useful in sectors such as steel, shipping and fertilisers?
+  Energy demand is negligible | Electrification is already complete | *Direct electrification is difficult | Coal is unavailable
+  x: Hydrogen suits hard-to-abate sectors like steel, shipping and fertilisers, where direct electrification is difficult.
+[n6a335d7acad] sub1
+  Which of the following is NOT correct about applications of green hydrogen in India?
+  Hydrogen blending in city-gas networks is being evaluated as H-CNG | Fuel-cell trucks, buses and ships are potential applications | *It is not being considered for steel | Long-duration energy storage is a potential application
+  x: Green hydrogen is being considered for fertilisers, refineries and steel.
+[nchemistry-10-8] sub1
+  Which of the following is an industrial, not a fuel or transport, use of hydrogen?
+  Fuel-cell vehicles | *Ammonia for fertilisers | Blending in CNG | Rocket fuel
+  x: Ammonia for fertiliser is an industrial use; fuel-cell vehicles, rocket fuel and CNG blending are fuel uses.
+[nchemistry-10-18] sub1
+  How does hydrogen help decarbonise steel production?
+  Green ammonia | *Direct reduced iron replacing coking coal | Hydrotreating and desulphurisation | Fuel-cell trucks
+  x: Steel uses hydrogen-based direct reduced iron in place of coking coal.
+[f3358b1a5ddd7] sub1
+  What does H-CNG refer to?
+  Hydrogen made from CNG by reforming | CNG stored in hydrogen tanks | Compressed hydrogen without natural gas | *Hydrogen blended with CNG
+  x: H-CNG is hydrogen blended into CNG or city gas, a fuel use of hydrogen.
+[f489e5e8d124d] sub1
+  For what is hydrogen mainly used in oil refineries?
+  *Desulphurisation | Coking | Distillation | Blending with LPG
+  x: In refining, hydrogen is used for desulphurisation.
+[ndf5954de62e] sub2
+  What is hydrogen that occurs naturally through geological processes called?
+  Pink hydrogen | Grey hydrogen | Blue hydrogen | *White hydrogen
+  x: White hydrogen is naturally occurring geological hydrogen.
+[n16b960f5146] sub2
+  Pink hydrogen is produced by electrolysis using which of the following?
+  *Nuclear power | Solar power | Natural gas reforming | Coal gasification
+  x: Pink hydrogen comes from electrolysis powered by nuclear energy.
+[nchemistry-10-2] sub2
+  Which of the following describes blue hydrogen?
+  Zero emissions | High emissions, with CO₂ released | *Low emissions, with CO₂ captured | Very high emissions
+  x: Blue hydrogen captures CO₂ for low emissions; grey releases it, green has zero and brown/black very high emissions.
+[nchemistry-10-6] sub2
+  What is hydrogen produced from natural gas with carbon capture and storage called?
+  *Blue hydrogen | Grey hydrogen | Green hydrogen | Turquoise hydrogen
+  x: That is blue hydrogen; green hydrogen comes from electrolysis using renewable power.
+[nchemistry-10-7] sub2
+  Methane pyrolysis (natural gas heated without oxygen) produces which type of hydrogen?
+  *Turquoise | Grey | Brown | Green
+  x: Methane pyrolysis gives turquoise hydrogen; steam methane reforming gives grey or blue and renewable electrolysis green.
+[nchemistry-10-9] sub2
+  Which of the following pairs is correctly matched?
+  Grey hydrogen – Electrolysis using renewable electricity | Green hydrogen – Steam reforming of natural gas | *Grey hydrogen – Steam reforming of natural gas | Green hydrogen – Coal gasification
+  x: Grey hydrogen, about 95% of production today, comes from steam reforming of natural gas with CO₂ released; green hydrogen comes from electrolysis using renewable power.
+[n620e2ccde27] sub2
+  What is the approximate cost of green hydrogen compared with grey hydrogen?
+  *Green hydrogen: about $4 per kg; grey hydrogen: $1.5–2 per kg | Green hydrogen: $0.5 per kg; grey hydrogen: $1.5–2 per kg | Green hydrogen: $1.5–2 per kg; grey hydrogen: about $4 per kg | Both green and grey hydrogen: $4 per kg
+  x: Green hydrogen is estimated at about $4 per kg, whereas grey hydrogen costs approximately $1.5–2 per kg.
+[f30c63d622f99] sub2
+  What is hydrogen made by coal gasification without carbon capture called?
+  Grey | Blue | *Brown / black | Turquoise
+  x: Brown/black hydrogen comes from coal gasification without CCS, the dirtiest route.
+[f39fa629175b2] sub2
+  Which catalyst is used in steam methane reforming?
+  Platinum | Vanadium pentoxide | Palladium | *Nickel
+  x: In SMR, methane and steam react at 700–1000°C over a nickel catalyst.
+[naa827a13b2c] sub2
+  How is green hydrogen mainly produced?
+  Steam methane reforming of natural gas | *Electrolysis of water using renewable power | Methane pyrolysis yielding solid carbon | Electrolysis of water using nuclear power
+  x: Green hydrogen comes from electrolysis of water using renewable power (PYQ 2023) and is the only zero-carbon colour. Steam methane reforming gives grey, methane pyrolysis gives turquoise, and nuclear-powered electrolysis gives pink hydrogen.
+[g882d9de9307d] sub2
+  Which type of hydrogen, made by steam methane reforming, is the cheapest and accounts for about 95% of present production?
+  Green hydrogen | Blue hydrogen | *Grey hydrogen | Pink hydrogen
+  x: Grey hydrogen from steam methane reforming of natural gas is the cheapest and makes up about 95% of production.
+[nb7a13b141bd] sub3
+  Which of the following describes India's first hydrogen train in service?
+  A shuttle bus operating at Central Vista, Delhi, from 2022 | A ferry launched from Cochin Shipyard Limited in 2024 | *A 10-coach train operating on the Jind-Sonipat route in Haryana from July 2026 | A single coach tested at Chennai’s ICF in 2025
+  x: The first hydrogen fuel-cell train in service is described as a 10-coach train on the 89-km Jind-Sonipat route in Haryana from July 2026. It is identified as the world’s longest and most powerful broad-gauge hydrogen train.
+[n6f372e95aed] sub3
+  The first indigenous hydrogen fuel-cell ferry in India was built by which organisation?
+  Indian Oil Corporation Limited, Delhi | KPIT with CSIR-NCL, Pune | *Cochin Shipyard Limited | Integral Coach Factory, Chennai
+  x: The first indigenous hydrogen fuel-cell ferry was built by Cochin Shipyard Limited. It was a fully indigenous LT-PEM fuel-cell ferry.
+[n711fb567431] sub3
+  The hydrogen-powered coach tested by the Railways was associated with which location and organisation?
+  Pune — KPIT with CSIR-NCL | *Chennai — Integral Coach Factory | Delhi — Indian Oil Corporation Limited | Jind-Sonipat, Haryana — Cochin Shipyard Limited
+  x: The first hydrogen-powered train coach tested by the Railways was associated with Chennai’s Integral Coach Factory (ICF). This is distinct from the hydrogen train in service associated with Jind-Sonipat.
+[n5d719d394ae] sub3
+  Who developed India's first indigenous hydrogen fuel-cell bus (2022)?
+  Cochin Shipyard Limited | *KPIT with CSIR-NCL, Pune | Indian Oil Corporation Limited | Integral Coach Factory, Chennai
+  x: The first indigenous hydrogen fuel-cell bus was developed by KPIT with CSIR-NCL, Pune, in 2022.
+[nfe1f1960053] sub3
+  Students of which university built and drove the world's first hydrogen fuel-cell car to reach Sydney (27 December 2003)?
+  *Tamagawa University, Tokyo | IIT Madras, Chennai | University of Sydney | Massachusetts Institute of Technology
+  x: It was built and driven by students of Tamagawa University, Tokyo (PYQ 2004). The other institutions are not linked to this run.
+[f4027aeab5cdc] sub3
+  Which company introduced H-CNG buses in Delhi in 2020?
+  NTPC | KPIT | *IOCL | Cochin Shipyard
+  x: H-CNG buses were run in Delhi by IOCL in 2020.
+[g019f1184ab02] sub3
+  Match the following:
+List-I (Hydrogen mobility first)
+A. First indigenous fuel-cell ferry
+B. Hydrogen train coach tested
+C. First indigenous fuel-cell bus (2022)
+D. H-CNG buses in Delhi (2020)
+List-II (Builder / Site)
+1. ICF, Chennai
+2. IOCL
+3. Cochin Shipyard Ltd
+4. KPIT with CSIR-NCL, Pune
+Select the correct answer using the code given below:
+  *A-3, B-1, C-4, D-2 | A-1, B-3, C-4, D-2 | A-3, B-1, C-2, D-4 | A-4, B-1, C-3, D-2
+  x: Cochin Shipyard built the fuel-cell ferry, ICF Chennai tested the hydrogen coach, KPIT with CSIR-NCL made the bus and IOCL ran H-CNG buses in Delhi.
+[n86757ebbc6c] sub4
+  In a PEM fuel cell, where is hydrogen split into protons and electrons?
+  Membrane | Cathode | *Anode | External circuit
+  x: Hydrogen splits at the anode; protons cross the membrane to the cathode and electrons flow through the external circuit.
+[nchemistry-10-5] sub4
+  Besides electricity, what does a fuel cell produce from hydrogen and oxygen?
+  *Water | Carbon dioxide | Ozone | Hydrogen peroxide
+  x: A fuel cell converts hydrogen and oxygen electrochemically into electricity and water, with zero emissions at the point of use.
+[f2456e03aad32] sub4
+  In a PEM fuel cell, which particles cross the membrane to the cathode?
+  Electrons | Oxygen atoms | *Protons | Hydrogen molecules
+  x: In a PEM fuel cell, protons cross the membrane while electrons flow through the external circuit.
+[n3bbc69af4c0] sub5
+  What is the total outlay approved for the National Green Hydrogen Mission up to 2029-30?
+  ₹17,490 crore | *₹19,744 crore | ₹20,744 crore | ₹21,466 crore
+  x: The Mission has a total outlay of ₹19,744 crore up to financial year 2029-30.
+[n53fcbc9df99] sub5
+  What is the full form of SHIP under the National Green Hydrogen Mission?
+  Sustainable Hydrogen Industry Programme | *Strategic Hydrogen Innovation Partnership | Strategic Hydrogen Investment Plan | State Hydrogen Infrastructure Programme
+  x: SHIP is the Strategic Hydrogen Innovation Partnership, a PPP for R&D.
+[n37979f74d70] sub5
+  Which is the nodal ministry of the National Green Hydrogen Mission?
+  Ministry of Power | *Ministry of New and Renewable Energy | Ministry of Petroleum and Natural Gas | Ministry of Heavy Industries
+  x: MNRE is the nodal ministry; BEE under the Ministry of Power handles only certification.
+[n2853618ea40] sub5
+  Which one of the following is NOT a stated 2030 target of the National Green Hydrogen Mission?
+  *Installation of 200 GW of electrolysers | Production of 5 million metric tonnes of green hydrogen annually | Addition of 125 GW of renewable energy capacity | Creation of 6 lakh jobs
+  x: The Mission targets 60-100 GW of electrolyser capacity, not 200 GW. The other three figures are stated 2030 targets.
+[nbcf9c26b62b] sub5
+  How much green hydrogen per year does the National Green Hydrogen Mission aim to produce by 2030?
+  2 MMT | 10 MMT | *5 MMT | 15 MMT
+  x: The Mission targets 5 MMT a year by 2030, possibly reaching 10 MMT including exports.
+[nbea63a00d55] sub5
+  About how many jobs is the National Green Hydrogen Mission expected to create by 2030?
+  2 lakh | *6 lakh | 10 lakh | 60 lakh
+  x: The Mission expects about 6 lakh jobs, over ₹8 lakh crore investment and about 50 MMT annual GHG reduction.
+[n2dd0dc87a43] sub5
+  By which year does India aim to reach net zero?
+  2047 | 2050 | 2060 | *2070
+  x: India's net-zero target is 2070; 2047 is linked with energy independence.
+[n2785be3a00d] sub5
+  Companies of which country signed long-term green ammonia and green methanol export agreements with India?
+  Poland | The United States | *Japan | Germany
+  x: India signed long-term green ammonia and green methanol export agreements with Japanese companies.
+[fd6cabb87eee6] sub5
+  What does SIGHT under the National Green Hydrogen Mission provide?
+  A PPP for hydrogen R&D | Production-use-export clusters | *Incentives for electrolyser manufacturing and green hydrogen production | A National Centre for Hydrogen Safety
+  x: SIGHT gives two incentives, for electrolyser manufacturing and green hydrogen production; SHIP is the R&D partnership.
+[ff67779a0cd40] sub5
+  What is the outlay for SIGHT under the National Green Hydrogen Mission?
+  ₹1,466 crore | ₹400 crore | ₹19,744 crore | *₹17,490 crore
+  x: SIGHT has ₹17,490 crore of the ₹19,744 crore mission outlay; pilots get ₹1,466 crore and SHIP ₹400 crore.
+[f3d4194027ac6] sub5
+  How many companies have been awarded 3,000 MW of electrolyser manufacturing capacity under the Mission?
+  10 | 12 | *15 | 20
+  x: 15 companies have been awarded 3,000 MW of electrolyser manufacturing capacity (Aug 2026).
+[f78f5724542ca] sub5
+  What is the National Green Hydrogen Mission's 2030 target for electrolyser capacity?
+  *60–100 GW | 200 GW | 125 GW | 5 GW
+  x: The 2030 electrolyser target is 60–100 GW, not 200 GW; 125 GW is the added RE target.
+[g82bcf1d9e3c9] sub5
+  When did the Union Cabinet approve the National Green Hydrogen Mission?
+  15 August 2021 | 4 January 2022 | *4 January 2023 | 1 February 2023
+  x: The Union Cabinet approved the National Green Hydrogen Mission on 4 January 2023, with MNRE as the nodal ministry.
+[gd2decd303a44] sub5
+  By which year does India aim to achieve energy independence, a goal of the National Green Hydrogen Mission?
+  2030 | *2047 | 2050 | 2070
+  x: The Mission's goals are energy independence by 2047 and net zero by 2070.
+[gfc2485c14e89] sub5
+  At what price per kg did SECI discover the tariff for 7,24,000 TPA of green ammonia, among the world's lowest?
+  ₹33.27 | *₹53.27 | ₹73.27 | ₹93.27
+  x: SECI's tender for 7,24,000 tonnes a year of green ammonia discovered about ₹53.27 per kg, among the world's lowest.
+[gdef68611d9c8] sub5
+  How many Hydrogen Valley Innovation Clusters have been sanctioned under the National Green Hydrogen Mission?
+  Two | *Four | Six | Ten
+  x: Four Hydrogen Valley Innovation Clusters (₹170 crore) have been set up, along with a National Centre for Hydrogen Safety.
+[gbacc918b693d] sub5
+  How much reduction in greenhouse gas emissions per year is the National Green Hydrogen Mission expected to bring by 2030?
+  5 MMT | 20 MMT | *50 MMT | 125 MMT
+  x: The Mission expects a cut of about 50 MMT of GHG emissions a year and investment of over ₹8 lakh crore by 2030.
+[n8acb2c5da23] sub5
+  Which port–State pair is correctly matched?
+  Deendayal (Kandla) – Tamil Nadu | V.O. Chidambaranar (Tuticorin) – Odisha | Paradip – Gujarat | *V.O. Chidambaranar (Tuticorin) – Tamil Nadu
+  x: V.O. Chidambaranar (Tuticorin) is in Tamil Nadu; Deendayal (Kandla) is in Gujarat and Paradip in Odisha.
+[f1121a1c6e0b1] sub5
+  In which State is the Deendayal (Kandla) green hydrogen hub port?
+  Odisha | Tamil Nadu | Maharashtra | *Gujarat
+  x: Deendayal (Kandla) port, a green hydrogen hub, is in Gujarat.
+[ncc491122791] sub5
+  In which State is V.O. Chidambaranar Port, which has a ₹35 crore green hydrogen bunkering pilot?
+  Odisha | Andhra Pradesh | *Tamil Nadu | Kerala
+  x: V.O. Chidambaranar Port is in Tamil Nadu, not Odisha.
+[n511d1b65af6] sub6
+  Where was the Green Hydrogen Valley Declaration of Andhra Pradesh (19 July 2025) made?
+  Visakhapatnam | *Amaravati | Kakinada | Tirupati
+  x: The declaration was made at Amaravati to make AP India's green hydrogen capital.
+[n472b9de8aad] sub6
+  Which institution is the state nodal agency for the Andhra Pradesh Green Hydrogen Valley?
+  IIT Tirupati | Acharya Nagarjuna University | Andhra University | *SRM University-AP
+  x: SRM University-AP is the state nodal agency for the Andhra Pradesh Green Hydrogen Valley.
+[n9a900f3b903] sub6
+  Which one of the following is NOT correctly matched?
+  Pudimadaka — NTPC Green Energy green hydrogen hub | Simhadri — Seawater-to-hydrogen plant and blending trials | *Amaravati — Paradip green ammonia export terminal | Kakinada — AM Green green-ammonia plant
+  x: Amaravati is associated with the Green Hydrogen Valley Declaration, not a Paradip green ammonia export terminal. The other three pairs are correctly matched.
+[f979e40746820] sub6
+  Where is NTPC Green Energy's green hydrogen hub in Andhra Pradesh?
+  Kakinada | Amaravati | *Pudimadaka | Simhadri
+  x: NTPC Green Energy's hub is at Pudimadaka, Anakapalli; its foundation was laid in January 2025.
+[f512a119803e0] sub6
+  Where is AM Green's green ammonia plant in Andhra Pradesh?
+  Pudimadaka | *Kakinada | Visakhapatnam | Kanigiri
+  x: AM Green's green ammonia plant is at Kakinada.
+[fb1f9d3af53de] sub6
+  What 2030 green hydrogen goal does the Green Hydrogen Valley Declaration of Andhra Pradesh set?
+  *1.5 MMTPA | 0.5 MMTPA | 5 MMTPA | 10 MMTPA
+  x: The Green Hydrogen Valley Declaration set AP a goal of 1.5 MMTPA by 2030 plus 5 GW of electrolyser manufacturing.
+[fd656a3bac199] sub6
+  Which is the nodal agency of the Andhra Pradesh Green Hydrogen and Green Ammonia Policy (2023)?
+  SRM University-AP | SECI | *NREDCAP | Bureau of Energy Efficiency
+  x: NREDCAP is the nodal agency of the AP Green Hydrogen and Green Ammonia Policy (2023); SRM University-AP is the valley's nodal body.
+[n6ac2994c18b] sub7
+  Which group consists only of chemical carriers used to transport hydrogen for export?
+  Ammonia, oxygen and LOHC | Carbon dioxide, ammonia and water | Methanol, nitrogen and argon | *Ammonia, methanol and LOHC
+  x: Ammonia, methanol and liquid organic hydrogen carriers (LOHC) are chemical carriers for transporting hydrogen.
+[nb4f9725695b] sub7
+  Which of the following is a recognised challenge for green hydrogen in India?
+  A mature domestic electrolyser industry | *Dependence on imported electrolysers | Lower cost than grey hydrogen | No need for water in production
+  x: Import dependence on electrolysers is a recognised challenge for green hydrogen, along with high cost compared with grey hydrogen, cryogenic transport and water stress.
+[n7eeb43e2499] sub7
+  Which institution is the nodal authority for certification under the National Green Hydrogen Mission?
+  *Bureau of Energy Efficiency | Solar Energy Corporation of India | Central Electricity Authority | National Institute of Solar Energy
+  x: The Bureau of Energy Efficiency, under the Ministry of Power, is the nodal authority for certification.
+[nc1658e0c5e3] sub7
+  Consider the following statements about the Green Hydrogen Standard of August 2023:
+1. Well-to-gate emissions must not exceed 2 kg CO2-eq per kg of hydrogen.
+2. The emissions are calculated as a 12-month average.
+3. It was notified by the Ministry of Power.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Statements 1 and 2 are correct: the Standard allows not more than 2 kg CO2-eq per kg H2 as a 12-month average. Statement 3 is wrong: it was notified by MNRE.
+[nc7e29de81f6] sub7
+  When was the Green Hydrogen Certification Scheme of India (GHCI) launched?
+  *April 2025 | August 2023 | March 2026 | January 2024
+  x: The Green Hydrogen Certification Scheme of India was launched in April 2025.
+[n6579a053a22] sub7
+  Consider the following statements about PEM electrolysers:
+1. They use a solid polymer membrane.
+2. Their quick response suits variable renewable energy.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: a PEM electrolyser uses a solid polymer membrane and its quick response suits variable renewable energy.
+[n9ab25d1bd2e] sub7
+  What does an electrolyser do?
+  Combines nitrogen and hydrogen to produce electricity | *Splits water into hydrogen and oxygen using electricity | Liquefies oxygen without consuming energy | Converts hydrogen directly into crude oil
+  x: An electrolyser uses electricity to split water into hydrogen and oxygen.
+[ff0eb767b124c] sub7
+  Which electrolyser uses high-temperature steam and is the most efficient?
+  Alkaline | PEM | *Solid oxide | AEM
+  x: Solid oxide electrolysers use high-temperature steam and are the most efficient.
+[f18aec0dbba7d] sub7
+  Which of the following is NOT correct about electrolysers?
+  Alkaline electrolysers use a liquid KOH/NaOH electrolyte | PEM electrolysers use a solid polymer membrane | Solid oxide electrolysers use high-temperature steam | *AEM electrolysers need platinum catalysts
+  x: AEM electrolysers can use non-platinum catalysts such as nickel, cobalt and iron.
+[f1db45ee7276e] sub7
+  Dominance of which country is a major concern in India's electrolyser supply chain?
+  Japan | Germany | *China | USA
+  x: A key concern in electrolyser supply is Chinese dominance.
+[ndeee8b8c192] sub7
+  Which method stores hydrogen for vehicle use in the solid state?
+  Compressed gas in high-pressure tanks | Liquid hydrogen at about −253°C | Ammonia as a chemical carrier | *Solid metal hydrides
+  x: Hydrogen can be held in the solid state in metal hydrides; compressed gas and liquid hydrogen are gas and cryogenic-liquid forms, and ammonia is a chemical carrier.
+[n05640466007] sub7
+  About how much purified water is required to produce one kilogram of hydrogen through electrolysis?
+  0.9 litre | 900 litres | *9 litres | 90 litres
+  x: Approximately 9 litres of purified water are required per kilogram of hydrogen, which can constrain projects in arid solar regions.
+[n46a9e31c3ab] sub7
+  At about what temperature is liquid hydrogen stored?
+  −78°C | −162°C | *−253°C | −196°C
+  x: Liquid hydrogen is kept at about −253°C; its very low density (about 0.071 g/ml) needs large tanks.
+
+=== NOTES 5:69 | Energy Storage – Battery Technologies, Pli for Acc, Grid Storage
+## SUB 0 | Cells and Batteries – Basics and Redox
+[69:0:0] # How a cell works
+[69:0:1] - **Cell = chemical energy → electrical energy** (spontaneous **redox** reaction; a galvanic cell); not a motor, generator, heater or fan.
+[69:0:2] - **Battery:** **two or more cells** joined by opposite terminals (series); everyday word for any cell pack.
+[69:0:3] - **Oxidation = loss of electrons** (at the **anode**); **reduction = gain of electrons** (at the **cathode**) during discharge.
+[69:0:4] - **Electrolyte** lets **ions** flow between electrodes and keeps them apart.
+[69:0:5] - A dry cell works on a **spontaneous oxidation–reduction** reaction; **electrolysis** is the reverse (needs outside energy).
+[69:0:6] - **Charging needs DC:** AC is **not preferable to charge a storage battery** (a rectifier converts AC → DC); AC is fine for motors, toasters and transmission.
+[69:0:7] - **Battery acid** (dilute H2SO4) has a pH **near 0–1** – the most acidic of pure water, saline water, milk.
+[69:0:8] > Recall angle (RAS 2013, RRB 2018, SSC 2017 ×2, APPSC 2018): device converting chemical → electrical = **cell / battery**; oxidation = **loss of electrons**.
+[69:0:9] ~~ Sources: Rocket Physics p.33, p.40; Rocket Chemistry p.21; PMF S&T Part 8 p.61; app notes 5:69 sub 0
+## SUB 1 | Common Batteries – Dry Cell, Lead-acid, Ni-Cd
+[69:1:0] TABLE head: Battery | Electrodes / electrolyte | Rechargeable? | Uses
+  [69:1:0.0] Dry (Leclanché, zinc-carbon) cell | Zinc case (anode), carbon rod + MnO2 (cathode); paste of NH4Cl + ZnCl2 | No – reaction irreversible | Torches, clocks, remotes
+  [69:1:0.1] Lead-acid (car battery) | Lead and PbO2 (lead peroxide); sulphuric acid | Yes | Car starting, UPS; 12 V, capacity in ampere-hour
+  [69:1:0.2] Nickel-cadmium (Ni-Cd) | Nickel oxide-hydroxide cathode, cadmium anode; KOH electrolyte | Yes | Calculators, cordless appliances, torchlights, shavers, transistors; declining (toxic cadmium)
+  [69:1:0.3] NiMH | Metal hydride replaces cadmium | Yes | Hybrid vehicles
+[69:1:1] - **Dry cell A–R (UP 2004):** "cannot be charged" ✓; "has a reversible reaction" ✗ → A true, R false.
+[69:1:2] - **Car battery (IAS 1998):** 12 V ✓, ampere-hour ✓; hydrochloric acid ✗, lead and copper electrodes ✗ → **I and IV**.
+[69:1:3] - **Traditional battery chemical (SSC CGL 2019):** **sulphuric acid** – not ethylene glycol, sodium bicarbonate, ethanol.
+[69:1:4] > Dry cell electrolytes asked twice (IAS 2009, Jharkhand 2010): **ammonium chloride + zinc chloride**. Ni-Cd electrodes asked twice (IAS 1995, UK 2016).
+[69:1:5] ~~ Sources: Rocket Chemistry p.19, p.66; PMF General Science Part 7 p.27-28; app notes 5:69 sub 1
+## SUB 2 | Lithium-ion and New Battery Chemistries
+[69:2:0] - **Nobel Prize in Chemistry 2019:** **development of lithium-ion batteries** (Goodenough, Whittingham, Yoshino) – APPSC JL 2020.
+[69:2:1] - **Li-ion:** Li⁺ ions move **anode → cathode on discharge**; **anode = graphite**; cathode = lithium metal oxide (**LiCoO2, LiFePO4/LFP, NMC**); lithium salt in organic solvent; efficiency ~90–95%.
+[69:2:2] - **Mobile phone batteries:** **lithium** (CDS 2015) – not copper, zinc, nickel.
+[69:2:3] - **EV cathodes (UPSC 2025 ×2):** **cobalt, lithium, nickel** = cathode; **graphite = anode** → **only three**.
+[69:2:4] - **ISRO Li-ion technology:** ISRO developed space-grade **lithium-ion cells** and offered the technology for transfer to industry (APPSC 2017 question).
+[69:2:5] TABLE head: Chemistry | Key point
+  [69:2:5.0] LFP (Li-ion) | Safe, long life
+  [69:2:5.1] Sodium-ion | Abundant, cheaper, no cobalt/nickel, safer; lower energy density than Li-ion/LFP; grid storage
+  [69:2:5.2] Solid-state | Solid electrolyte; higher density, safer; emerging EVs
+  [69:2:5.3] Flow (vanadium redox) | Liquid electrolytes in external tanks; energy and power scale separately; grid-scale, long duration
+[69:2:6] - Sodium-ion is a safer, **mineral-light** alternative, not a replacement for pumped storage.
+[69:2:7] ~~ Sources: PMF S&T Part 8 p.61-63; Rocket Chemistry p.24; app notes 5:69 sub 1
+## SUB 3 | EVs, Fuel Cells and Alternative Powertrains
+[69:3:0] TABLE head: Type | Power source
+  [69:3:0.0] BEV | Battery only
+  [69:3:0.1] HEV / PHEV | Engine + battery-motor; only PHEV plugs in
+  [69:3:0.2] FCEV (Fuel Cell Electric Vehicle) | Hydrogen + oxygen → electricity; exhaust = water vapour
+  [69:3:0.3] Fuel cell-electric hybrid | Fuel cell + battery
+[69:3:1] - **Alternative powertrains (UPSC 2025 ×2):** BEV, hydrogen FCEV and fuel cell-electric hybrid → **all three**.
+[69:3:2] - **FCEV exhaust (UPSC 2024):** **water vapour** – not hydrogen peroxide, hydronium or oxygen.
+[69:3:3] - **Battery swapping policy:** Budget **2022-23**. **PM E-DRIVE** (2024) replaced **FAME-II**.
+[69:3:4] - FY 2025-26: >25 lakh EVs, ~**8.5%** share of sales; goal **30% by 2030**.
+[69:3:5] ~~ Sources: PMF S&T Part 8 p.57; app notes 5:69 sub 6
+## SUB 4 | Battery Minerals and Lithium Finds
+[69:4:0] - **Lithium in J&K:** GSI (Feb 2023) established **5.9 million tonnes** inferred (G3) lithium at **Salal-Haimana, Reasi district, Jammu and Kashmir** – first such find (APPSC G-IV 2025).
+[69:4:1] - India is **import dependent** for **lithium, nickel, cobalt** (Indian Minerals Yearbook) → both statements true (State PSC).
+[69:4:2] - **>70%** of global lithium processing is in a few countries.
+[69:4:3] - Other finds: **Marlagalla, Mandya** (Karnataka). **KABIL** bought lithium land in **Argentina**.
+[69:4:4] - **National Critical Mineral Mission (2025): ₹16,300 crore**; recycling scheme ₹1,500 crore.
+[69:4:5] - **Rare Earth Corridors** (Budget 2026-27): Odisha, Kerala, **Andhra Pradesh**, Tamil Nadu.
+[69:4:6] ~~ Sources: app notes 5:69 sub 2
+## SUB 5 | Andhra Pradesh – Storage Firsts
+[69:5:0] - **World's first thermal battery plant:** inaugurated in **India – Amaravati, Andhra Pradesh, 6 August 2018** by CM N. Chandrababu Naidu; **Bharat Energy Storage Technology (BEST)** (APSLPRB 2019).
+[69:5:1] - Its **High Energy Density Storage (HEDS)** device = the **world's first indigenously made high-energy storage device**, unveiled at **Amaravati** (APPSC 2018).
+[69:5:2] - **Pinnapuram** (Kurnool, Greenko): solar + wind + **pumped storage**.
+[69:5:3] - CEA plan for AP (Aug 2026): **3,931 MW battery** + 7,370 MW pumped storage.
+[69:5:4] ~~ Sources: drishtiias.com 'World's First Thermal Battery Plant Unveiled in Andhra Pradesh' (7 Aug 2018); app notes 5:69 sub 8
+## SUB 6 | PLI for ACC Batteries
+[69:6:0] - **National Programme on ACC Battery Storage:** approved **12 May 2021**; **50 GWh**, **₹18,100 crore**; **Ministry of Heavy Industries**.
+[69:6:1] - **Ola Electric 20 GWh** (gigafactory, **Krishnagiri, Tamil Nadu**); **Reliance 15 GWh** (Jamnagar, Gujarat).
+[69:6:2] - **July 2026:** remaining **10 GWh** put to global bids for **grid storage**.
+[69:6:3] - Hurdles: **visa delays**, local-content rules, missing technology (not lack of reservoirs).
+[69:6:4] ~~ Sources: app notes 5:69 sub 3
+## SUB 7 | Grid Storage – BESS, Pumped, Mechanical and Thermal
+[69:7:0] - Storage is the **bottleneck** for RE: balances variable output, supports **24x7 RE**.
+[69:7:1] - Need **336 GWh by 2029-30** (CEA) vs ~**500 MWh** BESS installed (Sept 2025).
+[69:7:2] - **Energy Storage Obligation** (**Ministry of Power**, 2022): **1% (2023-24) → 4% (2029-30)**.
+[69:7:3] - Framework: ESS a power-system element; **ISTS waiver** for co-located storage; consumers may own/lease – all are BESS measures.
+[69:7:4] - **Draft National Electricity Policy 2026** (BESS, smart grids, ToD tariffs) replaces NEP **2005**.
+[69:7:5] - **Khavda, Gujarat** (Adani Green): world's largest single-location BESS outside China (May 2026).
+[69:7:6] TABLE head: Method | Principle
+  [69:7:6.0] Pumped storage | Pump water uphill at low demand; release at peak (70–80% efficient)
+  [69:7:6.1] CAES | Air compressed into caverns, expanded through turbines
+  [69:7:6.2] Flywheel | Rotational kinetic energy
+  [69:7:6.3] Molten salt | Thermal storage in CSP; power after sunset
+[69:7:7] - **Tehri PSP** (Uttarakhand): India's first **variable-speed** PSP, 4 × 250 MW.
+[69:7:8] ~~ Sources: PMF S&T Part 8 p.61, p.64-65; app notes 5:69 sub 4-5
+## SUB 8 | Battery Waste Management Rules 2022
+[69:8:0] - **MoEFCC**; replaced Batteries (Management and Handling) Rules, **2001**.
+[69:8:1] - **EPR:** **producers/importers** collect and recycle; **landfill and incineration banned**.
+[69:8:2] - **90%** material recovery by **2026-27**.
+[69:8:3] - **BPAN** (Battery Pack Aadhaar): only EV and industrial batteries **>2 kWh**, not every portable battery.
+[69:8:4] ~~ Sources: app notes 5:69 sub 7
+
+=== OWN MCQs of 5:69 (57)
+[nf19e8a6478b] sub0
+  During the discharge of an electrochemical cell, where does oxidation occur?
+  Cathode | *Anode | Both electrodes | Electrolyte
+  x: Oxidation (loss of electrons) occurs at the anode and reduction (gain of electrons) at the cathode.
+[n09fd131ac05] sub0
+  In a battery, what does the electrolyte allow to move between the electrodes?
+  *Ions | Neutrons | Photons | Electrons
+  x: An electrolyte lets ions flow and keeps the electrodes apart; it does not provide a direct electronic path.
+[g254ecc0a99ba] sub0
+  Which process takes place at the cathode of a cell during discharge?
+  Oxidation | *Reduction | Electrolysis | Ionisation of the electrolyte
+  x: During discharge the cathode gains electrons, which is reduction; oxidation (loss of electrons) occurs at the anode.
+[n3e3277f1d84] sub1
+  The use of nickel-cadmium batteries has declined partly because of the toxicity of which metal?
+  *Cadmium | Nickel | Lithium | Lead
+  x: Ni-Cd batteries are rechargeable but have become less common because cadmium is toxic.
+[ne3feb8aba9f] sub1
+  Which non-rechargeable cell is commonly used in torches and clocks?
+  *Zinc-carbon cell | Vanadium redox flow cell | Lithium-ion cell | Nickel-metal hydride cell
+  x: The zinc-carbon dry cell is generally non-rechargeable and common in torches and clocks.
+[n3d46aaaed43] sub1
+  Which battery chemistry–application pair is correctly matched?
+  Lead-acid – grid-scale storage with separately scalable energy and power | Li-ion LFP – nickel-manganese-cobalt cathode | Flow battery – automotive starting and UPS | *Lead-acid – automotive starting and UPS
+  x: Lead-acid serves automotive starting and UPS; flow batteries suit grid-scale storage and NMC (not LFP) has a nickel-manganese-cobalt cathode.
+[fec27533c52c9] sub1
+  What is the electrolyte of a lead-acid battery?
+  *Sulphuric acid | Potassium hydroxide | Ammonium chloride paste | Solid electrolyte
+  x: Lead-acid batteries use lead and PbO2 with sulphuric acid; KOH is the Ni-Cd electrolyte.
+[g6ab67b89a538] sub1
+  Which battery, in which a metal hydride replaces cadmium, is used in hybrid vehicles?
+  Lead-acid | *Nickel-metal hydride (NiMH) | Zinc-carbon | Vanadium flow
+  x: In NiMH batteries a metal hydride replaces cadmium; they are used in hybrid vehicles.
+[g53538147bfee] sub1
+  Which electrolyte is used in a nickel-cadmium (Ni-Cd) battery?
+  Sulphuric acid | *Potassium hydroxide | Ammonium chloride | Lithium salt in organic solvent
+  x: A Ni-Cd cell has a nickel oxide hydroxide cathode, a cadmium anode and potassium hydroxide (KOH) electrolyte.
+[n72e53a2ebe3] sub2
+  In a lithium-ion battery, what is graphite generally used as?
+  Cathode | *Anode | Electrolyte | Separator
+  x: Graphite is the anode of a lithium-ion battery; lithium, nickel and cobalt are used in the cathode.
+[n4d2c0598265] sub2
+  Which one of the following statements regarding sodium-ion batteries is NOT correct?
+  They can be used for low-cost energy storage. | They avoid cobalt, nickel and copper in the stated chemistry. | They are being considered for low-cost electric vehicles. | *Their volumetric energy density is higher than that of LFP batteries.
+  x: The volumetric energy density of sodium-ion batteries is still below that of LFP batteries. The other statements describe their stated advantages or applications.
+[n245cfbe6625] sub2
+  Sodium-ion batteries are being promoted in the storage debate primarily as which of the following?
+  A system that cannot be used for stationary storage | *A safer and mineral-light alternative | A technology requiring more lithium than lithium-ion batteries | A replacement for all pumped storage projects
+  x: Sodium-ion technology is presented as a safer, mineral-light alternative. It is not described as a universal replacement for pumped storage or as dependent on more lithium.
+[f017a749d44e8] sub2
+  Which battery stores liquid electrolytes in tanks, so that energy and power can be scaled separately?
+  Sodium-ion battery | Solid-state battery | Lead-acid battery | *Vanadium flow battery
+  x: Flow (vanadium) batteries keep liquid electrolytes in tanks and are used for grid-scale storage.
+[f903320db3daa] sub2
+  Which lithium-ion cathode chemistry is noted for being safe and long-lived?
+  NMC | *LFP | NiMH | Ni-Cd
+  x: LFP is the safe, long-life Li-ion cathode chemistry; NMC uses nickel, manganese and cobalt.
+[f6be939be3b40] sub2
+  Which of the following pairs is correctly matched?
+  NiMH – Cadmium anode | Lead-acid – KOH electrolyte | *Solid-state – Solid electrolyte | Zinc-carbon – Rechargeable
+  x: Solid-state batteries use a solid electrolyte; NiMH replaces cadmium with metal hydride, lead-acid uses sulphuric acid and zinc-carbon is not rechargeable.
+[n71fbb61fe47] sub3
+  What is a vehicle that combines an engine with a battery-motor system and can be plugged in for charging called?
+  HEV | *PHEV | BEV | FCEV
+  x: A PHEV is a hybrid that can be charged externally; a plain HEV combines engine and battery-motor but is not plugged in.
+[n8d8f62db187] sub3
+  In which Union Budget was India's battery swapping policy announced?
+  2021-22 | 2023-24 | *2022-23 | 2024-25
+  x: The battery swapping policy was announced in Budget 2022-23; PM E-DRIVE replaced FAME-II in 2024.
+[naa3dab64718] sub3
+  What is India's goal for EV penetration by 2030?
+  15 percent | *30 percent | 50 percent | 70 percent
+  x: The goal is 30 percent EV penetration by 2030, against about 8.5 percent with over 25 lakh registrations in FY 2025-26.
+[n5125522a509] sub3
+  What is the principal energy conversion in a fuel-cell electric vehicle (FCEV)?
+  *Hydrogen into electricity on board, with water as the exhaust | Compressed air into electricity, with carbon dioxide as the exhaust | Battery energy into hydrogen, producing water as a by-product | Petrol into electricity through an external generator
+  x: An FCEV converts hydrogen into electricity on board through a fuel cell, and water is its exhaust product.
+[n02f8372dd53] sub3
+  What is the full form of FCEV, an alternative powertrain vehicle?
+  Flex-fuel Combined Electric Vehicle | Full Charge Electric Vehicle | Fuel Combustion Electric Vehicle | *Fuel Cell Electric Vehicle
+  x: FCEV is a Fuel Cell Electric Vehicle; BEVs and fuel cell-electric hybrids are also alternative powertrain vehicles.
+[fd8d39298ac5d] sub3
+  PM E-DRIVE, introduced in 2024, replaced which scheme?
+  PLI for ACC batteries | *FAME-II | Battery swapping policy | National Critical Mineral Mission
+  x: PM E-DRIVE replaced FAME-II in 2024.
+[fc3766ccb06db] sub3
+  Which of the following is NOT correct about vehicle types?
+  A BEV runs on battery only | A PHEV combines an engine with a battery-motor | *A plain HEV can be plugged in for charging | An FCEV runs on a hydrogen fuel cell
+  x: Only the PHEV plugs in; a plain HEV does not.
+[g73b61b547b65] sub3
+  About what share of new vehicle sales in India were electric vehicles in FY 2025-26?
+  About 2.5% | *About 8.5% | About 18% | About 30%
+  x: India sold over 25 lakh EVs in FY 2025-26, about 8.5% of sales; the goal is 30% by 2030.
+[n7e15cdc8afb] sub4
+  What share of global lithium processing is concentrated in a few countries?
+  Less than 10% | About 20% | About 40% | *More than 70%
+  x: More than 70% of lithium processing (and most cobalt refining) is concentrated in a few countries, a supply-chain risk for battery makers.
+[n6efbfb61164] sub4
+  What is the outlay of the National Critical Mineral Mission, approved in 2025?
+  Rs 1,500 crore | Rs 15,000 crore | *Rs 16,300 crore | Rs 18,100 crore
+  x: The Mission's outlay is Rs 16,300 crore; its recycling incentive scheme is Rs 1,500 crore.
+[n9722c5a8b27] sub4
+  Where was the lithium resource reported by the Geological Survey of India in February 2023 located?
+  Marlagalla in Mandya district, Karnataka | Kochi in Kerala | Amaravati in Andhra Pradesh | *Salal-Haimana in Reasi district, Jammu and Kashmir
+  x: The GSI reported about 5.9 million tonnes of inferred lithium resources at Salal-Haimana in Reasi district of Jammu and Kashmir in 2023. Marlagalla in Mandya, Karnataka, is another Indian lithium occurrence mentioned separately.
+[nde147df3525] sub4
+  Rare Earth Corridors were proposed for which group of States?
+  *Odisha, Kerala, Andhra Pradesh and Tamil Nadu | Odisha, Gujarat, Andhra Pradesh and Karnataka | Kerala, Telangana, Tamil Nadu and Maharashtra | West Bengal, Kerala, Andhra Pradesh and Tamil Nadu
+  x: The proposed Rare Earth Corridors cover Odisha, Kerala, Andhra Pradesh and Tamil Nadu.
+[f5319edaf4b02] sub4
+  KABIL has acquired lithium land in which country?
+  Chile | Bolivia | *Argentina | Australia
+  x: KABIL acquired lithium land in Argentina.
+[fbbb55b9061d3] sub4
+  Marlagalla, a lithium find in Karnataka, is in which district?
+  *Mandya | Reasi | Mysuru | Ballari
+  x: Lithium has been found at Marlagalla in Mandya (Karnataka), besides Salal-Haimana in Reasi (J&K).
+[geba6dd8880f5] sub4
+  About how much inferred lithium resource did the Geological Survey of India report at Salal-Haimana in Reasi, Jammu and Kashmir?
+  0.59 million tonnes | *5.9 million tonnes | 59 million tonnes | 1.6 million tonnes
+  x: In February 2023 GSI reported about 5.9 million tonnes of inferred lithium at Salal-Haimana, Reasi.
+[n2c6104edbd3] sub5
+  Which energy sources and storage mode are combined at the Pinnapuram project?
+  Hydrogen, biomass and battery storage only | Nuclear, tidal and compressed-air storage | *Solar, wind and pumped storage | Coal, gas and thermal storage
+  x: Greenko’s Pinnapuram project integrates solar and wind generation with pumped storage.
+[n80d60bc01d9] sub5
+  The world's first indigenously made high-energy storage device was unveiled in August 2018 at which place in Andhra Pradesh?
+  Pinnapuram | Visakhapatnam | *Amaravati | Tirupati
+  x: The device was unveiled at Amaravati on 6 August 2018 (APPSC 2018 key). Pinnapuram in Kurnool hosts Greenko's integrated solar-wind-pumped storage project; Visakhapatnam and Tirupati are not linked to this first.
+[f01a8fa2bfc84] sub5
+  The Pinnapuram integrated solar, wind and pumped storage project is in which district of Andhra Pradesh?
+  Anantapur | Kadapa | *Kurnool | Nellore
+  x: Pinnapuram (Greenko) is in Kurnool district.
+[f461e2ccb4b29] sub5
+  How much battery storage does the CEA storage plan for Andhra Pradesh (August 2026) envisage?
+  *3,931 MW | 7,370 MW | 500 MW | 10,000 MW
+  x: The plan has 3,931 MW of battery and 7,370 MW of pumped storage for AP.
+[n4159df10b3c] sub6
+  For what was the remaining 10 GWh of ACC battery capacity, put to global bids in July 2026, meant?
+  Domestic rooftop solar systems | *Grid-scale storage | Electric two-wheelers only | Hydrogen production exclusively
+  x: The remaining 10 GWh was put to global bids for grid-scale storage.
+[n17a52af492c] sub6
+  Which of the following was NOT identified as a hurdle in implementing the ACC battery programme?
+  Missing technology | Visa hold-ups for Chinese technicians | *Shortage of pumped-storage reservoirs | Local-content mandates
+  x: Visa delays, local-content rules and missing technology were identified as hurdles. Shortage of pumped-storage reservoirs was not listed as an ACC programme hurdle.
+[n5e6f20abc58] sub6
+  Which Ministry runs the National Programme on Advanced Chemistry Cell (ACC) Battery Storage?
+  Ministry of Power | Ministry of New and Renewable Energy | *Ministry of Heavy Industries | Ministry of Electronics and IT
+  x: The ACC programme (approved 12 May 2021, 50 GWh, Rs 18,100 crore) is run by the Ministry of Heavy Industries.
+[f1218985f7fad] sub6
+  What capacity and outlay does the PLI scheme for Advanced Chemistry Cell batteries have?
+  50 GWh with ₹16,300 crore | *50 GWh with ₹18,100 crore | 20 GWh with ₹18,100 crore | 336 GWh with ₹18,100 crore
+  x: The ACC-PLI, approved on 12 May 2021, covers 50 GWh with an outlay of ₹18,100 crore.
+[f0917d5666aea] sub6
+  Consider the following statements about the PLI scheme for ACC batteries:
+1. It was approved on 12 May 2021.
+2. Ola Electric was allotted 20 GWh.
+3. Reliance was allotted 20 GWh.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: The scheme was approved on 12 May 2021 and Ola Electric got 20 GWh; Reliance got 15 GWh, not 20 GWh.
+[f4832ac35e1ef] sub6
+  Which of the following gigafactory pairs is correctly matched?
+  Ola Electric – Jamnagar, Gujarat | Reliance – Krishnagiri, Tamil Nadu | Reliance – Khavda, Gujarat | *Ola Electric – Krishnagiri, Tamil Nadu
+  x: Ola Electric's gigafactory is at Krishnagiri (Tamil Nadu); Reliance's is at Jamnagar (Gujarat).
+[n9f051eaed8e] sub7
+  Why is energy storage regarded as a major bottleneck in integrating renewable energy into the power system?
+  Renewable energy can never be connected to a grid without coal generation. | *Storage helps balance variable renewable generation and supports round-the-clock renewable electricity. | Storage eliminates the need for electricity transmission networks entirely. | Renewable energy is available only during peak electricity demand.
+  x: Storage addresses the variability of renewable generation and helps provide 24×7 renewable electricity. It does not eliminate the need for grids or imply that renewable energy is never grid-compatible.
+[n139c91d7b17] sub7
+  Under the Energy Storage Obligation, how was the share of energy that DISCOMs must meet through storage to rise?
+  1 percent in 2022-23 to 10 percent in 2029-30 | 2 percent in 2023-24 to 8 percent in 2029-30 | *1 percent in 2023-24 to 4 percent in 2029-30 | 4 percent in 2023-24 to 1 percent in 2029-30
+  x: The Energy Storage Obligation provided for a rise from 1 percent in 2023-24 to 4 percent in 2029-30.
+[n40d8ac728af] sub7
+  The Draft National Electricity Policy 2026, which emphasises BESS, hybrid renewable energy, smart grids and Time-of-Day tariffs, is meant to replace the National Electricity Policy of which year?
+  2003 | *2005 | 2015 | 2022
+  x: The Draft National Electricity Policy 2026 replaces the National Electricity Policy 2005. 2003 is the year of the Electricity Act, not the policy; 2015 is the year of UDAY; 2022 is the year of the Energy Storage Obligation and the Energy Conservation Amendment.
+[ne0a525ad94b] sub7
+  Which of the following are policy measures for battery energy storage systems (BESS) in India?
+  Waiver of ISTS charges for co-located storage only | Consumer ownership or leasing of storage only | Recognition of storage as a power-system element only | *All of the above
+  x: All three are stated measures: ISTS waiver for co-located storage, consumer ownership or leasing, and recognition of ESS as a power-system element.
+[n00773b63dab] sub7
+  Which place is associated with the world’s largest single-location BESS outside China?
+  Waaree, Maharashtra | Modhera, Gujarat | *Khavda, Gujarat | Rajesh Exports, Karnataka
+  x: Adani Green commissioned the world’s largest single-location BESS outside China at Khavda in Gujarat in May 2026.
+[n7c3ba733eb7] sub7
+  What is India's energy storage requirement by 2029–30 as estimated by the CEA?
+  50 GWh | *336 GWh | 500 MWh | 10 GWh
+  x: CEA estimated a need of 336 GWh by 2029–30, against only about 500 MWh of BESS in September 2025.
+[f58f416833dae] sub7
+  Which Ministry issued the Energy Storage Obligation of 2022?
+  Ministry of Heavy Industries | *Ministry of Power | MoEFCC | Ministry of Mines
+  x: The ESO was issued by the Ministry of Power in 2022; ACC-PLI is under Heavy Industries and battery rules under MoEFCC.
+[gab9e682c7971] sub7
+  About how much battery energy storage capacity had India installed by September 2025?
+  *About 500 MWh | About 5 GWh | About 50 GWh | About 336 GWh
+  x: India had only about 500 MWh of BESS by September 2025, against a CEA need of 336 GWh by 2029-30.
+[n0b9206df614] sub7
+  Molten-salt storage is associated with concentrated solar power because it does which of the following?
+  Produces hydrogen directly from atmospheric nitrogen | Stores electricity as rotational kinetic energy | *Allows generation after sunset by storing thermal energy | Uses underground caverns to store compressed air
+  x: Molten salt provides thermal storage in concentrated solar power plants, enabling electricity generation after sunset.
+[n33281637fea] sub7
+  Which one of the following pairs is correctly matched?
+  Pumped storage — energy stored as rotational kinetic energy in a flywheel | *Compressed air storage — air compressed into caverns and later expanded through turbines | Flywheel storage — surplus water pumped uphill | Molten salt storage — hydrogen converted into electricity on board
+  x: Compressed air storage does compress air into caverns and later expand it through turbines. The other pairs are swapped: rotational kinetic energy describes a flywheel, not pumped storage; pumping water uphill is pumped storage, not a flywheel; and converting hydrogen to electricity on board is a fuel-cell vehicle, not molten-salt storage, which stores heat in concentrated solar plants.
+[f13507d5e56a1] sub7
+  In which State is Tehri PSP, India's first variable-speed pumped storage project?
+  Andhra Pradesh | Gujarat | *Uttarakhand | Tamil Nadu
+  x: Tehri PSP (4 x 250 MW) in Uttarakhand is India's first variable-speed pumped storage project.
+[ff94ffa6325c4] sub7
+  How does Compressed Air Energy Storage (CAES) work?
+  *Compressing air into caverns and expanding it through turbines | Storing energy as rotational kinetic energy | Pumping water uphill for release at peak | Storing heat in molten salt
+  x: CAES compresses air into caverns and later expands it through turbines; a flywheel stores rotational kinetic energy.
+[n3c4e6c0171a] sub8
+  Under the Battery Waste Management Rules, 2022, which of the following is prohibited for producers?
+  Collecting waste batteries | Refurbishing waste batteries | *Disposing of waste batteries in landfills | Using recycled material in new batteries
+  x: Producers must collect, recycle or refurbish waste batteries and use recycled material; landfill disposal is prohibited.
+[n202c091dd23] sub8
+  Which of the following is NOT correct about Battery Pack Aadhaar (BPAN)?
+  It is mandatory for industrial batteries exceeding 2 kWh | It is mandatory for electric vehicle batteries | *It is mandatory for portable batteries of every capacity | It does not cover all household electrical appliances
+  x: BPAN is mandatory only for EV batteries and industrial batteries above 2 kWh, not every portable battery.
+[n673f58e69e4] sub8
+  Which of the following is NOT correct about the Battery Waste Management Rules, 2022?
+  They were notified by MoEFCC | They replaced the Batteries (Management and Handling) Rules, 2001 | *They permit incineration of waste batteries | They ban landfill disposal of waste batteries
+  x: The Rules ban both landfill disposal and incineration of waste batteries, so permitting incineration is wrong.
+[f6ace386a17e6] sub8
+  By which year do the Battery Waste Management Rules, 2022 set a material recovery target of 90%?
+  2024-25 | *2026-27 | 2029-30 | 2030-31
+  x: The Rules target 90% material recovery by 2026-27.
+[gcbb8175c946b] sub8
+  Under the Battery Waste Management Rules, 2022, who must collect and recycle waste batteries under Extended Producer Responsibility?
+  Municipal bodies | *Producers and importers | State Pollution Control Boards | Consumers
+  x: Under EPR, producers and importers of batteries must collect and recycle waste batteries.
+
+=== NOTES 5:70 | Energy Efficiency – Bee, Energy Conservation Act, Pat, Star Labelling, Ujala
+## SUB 0 | Lighting Technologies – LED, CFL, Fluorescent, Sodium, Filament
+[70:0:0] TABLE head: Lamp | Features
+  [70:0:0.0] LED | Highest efficacy, longest life, no mercury; semiconductor emitter (gallium arsenide family) – the most energy-saving lamp
+  [70:0:0.1] CFL (Compact Fluorescent Lamp) | Mercury vapour + phosphor; ~75% less energy than bulbs; shorter life and less efficient than LED
+  [70:0:0.2] Fluorescent tube | Low-pressure mercury vapour + argon (sometimes neon, krypton, xenon)
+  [70:0:0.3] Incandescent / GLS filament | Cheapest for the same wattage; only ~10–15% of input radiated as light, rest heat; power factor = unity (purely resistive)
+  [70:0:0.4] Sodium vapour | Yellow, monochromatic light that does not split in fog/water droplets → street lights
+  [70:0:0.5] Mercury vapour | White light
+[70:0:1] - **Why mercury in fluorescent lamps (UPSC 2010):** when switched on, **mercury vapour emits ultraviolet**; the **phosphor coating** converts UV to visible light (mercury itself does not convert UV).
+[70:0:2] - **CFL vs LED (IAS 2011):** CFL uses mercury vapour + phosphor, LED a semiconductor ✓; CFL less efficient than LED ✓; "CFL lasts longer" ✗ → **I and III**.
+[70:0:3] - **Vacuum filament lamps:** contain **no gas** (gas-filled lamps use argon/nitrogen) → "none of the above".
+[70:0:4] - **A–R (APPSC 2021 ×2):** government urges replacing bright and CFL bulbs with **LEDs** because LEDs light with **great energy efficiency** → **A and R true, R explains A**.
+[70:0:5] - **A–R (RAS 2013):** LED life longer than CFL ✓; LED more efficient than CFL ✓; books key "R explains A" (LEDs run cooler); strictly the long life comes from solid-state design (no filament or electrodes to wear).
+[70:0:6] > Lighting is the heaviest PYQ block of this row (16 PYQs: UPSC 2010, IAS 2011, UPPCS 2000/2006/2007/2015, SSC 2017 ×2, RAS 2013, APPSC 2021, APPSC AEE flashcards).
+[70:0:7] ~~ Sources: app notes 5:70 sub 6; general knowledge (filament lamp data), not checked
+## SUB 1 | Everyday Conservation and PCRA
+[70:1:0] - Efficiency **reduces the need for new energy sources** → sustainable development (APPSC FBO 2025).
+[70:1:1] - Saving practices: **LED lights**, star-rated appliances, switching off idle loads, avoiding AC overuse; **bicycles save fuel** (and cut pollution, noise).
+[70:1:2] - **Pressure cooker** saves about **20%** cooking gas for rice (PCRA tip).
+[70:1:3] - **PCRA SAKSHAM** (Sanrakshan Kshamata Mahotsav): annual one-month **fuel conservation mega campaign**, launched **January 2020** edition (APPSC PL 2020); SAKSHAM 2026 at Chandigarh.
+[70:1:4] ~~ Sources: app notes 5:70 sub 4, 7
+[70:1:5] - At a traffic light an environmentally sensitive driver **switches off the engine** till the green light (saves fuel, cuts emissions).
+## SUB 2 | Days, Awards and AP Initiatives
+[70:2:0] - **National Energy Conservation Day: 14 December**; Week **14–20 December**.
+[70:2:1] - **NECA** (instituted **1991**): given by **BEE / Ministry of Power, not MNRE**; NECA 2025: **Chandigarh** first.
+[70:2:2] - **ANGAN 2022** (BEE): **NEERMAN Awards** (National Energy Efficiency Roadmap for Movement towards Affordable & Natural Habitat) announced for the first time.
+[70:2:3] - **Rural LED street lighting via EESL:** **Andhra Pradesh** = first State (programme first implemented in the country in AP).
+[70:2:4] - **NEC Week 2024 in AP (APPSC FRO 2025):** School Education Department + Special Chief Secretary (Energy) involved students; short-video contest **'Bright Ideas and Brighter Future'** for classes 8–10; focus on climate mitigation, GHG cuts, local efficiency → **all three correct**.
+[70:2:5] - **APSECM** (2012): India's **first standalone State Designated Agency** of BEE; won NECA First Prize.
+[70:2:6] - AP: **ECBC in 123 ULBs**; **PAT – 59 industries**, ~1.16 Mtoe saved; first **IoT energy pilot at an MSME, East Godavari**; **Super ECBC building, Sagar Nagar, Visakhapatnam**.
+[70:2:7] ~~ Sources: app notes 5:70 sub 9; general knowledge (ANGAN, rural LED street lighting), not checked
+## SUB 3 | Energy Efficiency Indices and AP Rankings
+[70:3:0] TABLE head: Index | Agency | AP / Top
+  [70:3:0.0] EE Implementation Readiness (Nov 2016) | World Bank (with EESL) | AP first (42.01), Rajasthan second
+  [70:3:0.1] SEEPI 2018 (State Energy Efficiency Preparedness Index, first edition, 1 Aug 2018) | NITI Aayog + BEE (data AEEE) | Front Runners: Kerala, Rajasthan (top), Andhra Pradesh, Maharashtra, Punjab – AP = Front Runner
+  [70:3:0.2] SEEI 2024 (Aug 2025; 36 States/UTs) | BEE + AEEE | Group leaders: Maharashtra (>15 Mtoe), Andhra Pradesh (5–15), Assam (1–5), Tripura (<1)
+[70:3:1] - SEEI categories: **Front Runner (>60%), Achiever, Contender, Aspirant** (four); basis for NECA.
+[70:3:2] ~~ Sources: businessinsider.in 'Kerala, Rajasthan top India's first state index for energy efficiency' (Aug 2018, via search); app notes 5:70 sub 8
+## SUB 4 | Energy Conservation Act, BEE and Organisations
+[70:4:0] # Energy Conservation Act, 2001
+[70:4:1] - Set up the **Bureau of Energy Efficiency (BEE)**; BEE operational from **1 March 2002**; statutory body under the **Ministry of Power**.
+[70:4:2] - **Designated consumers:** mandatory **energy audits** and norms; **penalties** for non-compliance.
+[70:4:3] - EE norms for buildings with connected load **>100 kW** or contract demand **>120 kVA**.
+[70:4:4] # Energy Conservation (Amendment) Act, 2022
+[70:4:5] - **Lok Sabha August 2022 → Rajya Sabha December 2022** – passed by Parliament in **December 2022** (APPSC EO 2023).
+[70:4:6] TABLE head: Provision | Detail
+  [70:4:6.0] Carbon Credit Trading Scheme | Legal basis for a national carbon market – Section 14AA
+  [70:4:6.1] Non-fossil obligation | Designated consumers to use a minimum share of non-fossil energy
+  [70:4:6.2] Building codes | Extended to large residential buildings (ECSBC)
+  [70:4:6.3] Vehicles and vessels | Efficiency norms can be set
+[70:4:7] # Organisations
+[70:4:8] TABLE head: Body | Status / Role
+  [70:4:8.0] BEE | Statutory (EC Act 2001), Ministry of Power; runs PAT, S&L, ECBC, SEEI, CAFE, NECA
+  [70:4:8.1] EESL | JV of Ministry of Power PSUs; runs UJALA, SLNP, National Efficient Cooking Programme
+  [70:4:8.2] PCRA | Petroleum Conservation Research Association (MoPNG); runs SAKSHAM (not BEE)
+[70:4:9] - **NMEEE** = one of the **8 missions of NAPCC (2008)**. India imports ~**80%** of its oil → efficiency = energy security.
+[70:4:10] ~~ Sources: app notes 5:70 sub 0-1
+## SUB 5 | Standards and Labelling and Building Codes
+[70:5:0] - **S&L programme:** launched **2006**; **BEE under Ministry of Power**; **1–5 star**; each extra star saves **~10–15%**.
+[70:5:1] TABLE head: Mandatory | Voluntary
+  [70:5:1.0] Refrigerators, ACs, ceiling fans, TVs, washing machines, geysers (storage water heaters), LED lamps, tubular fluorescent lamps, LPG stove, distribution transformers | Industrial motors, computers, microwave ovens
+[70:5:2] - **UPSC 2016:** the star label is found on ceiling fans, electric geysers and tubular fluorescent lamps → **1, 2 and 3**.
+[70:5:3] - **From 1 January 2026:** labels mandatory for fridges, TVs, LPG stoves; makers **penalised if actual use deviates** from the label.
+[70:5:4] TABLE head: Code | Year | Covers
+  [70:5:4.0] ECBC | 2007 | New commercial buildings; 25–40% less energy
+  [70:5:4.1] ECO Niwas Samhita | 2018 | Residential buildings
+  [70:5:4.2] ECSBC | 2024 | Adds sustainability after the 2022 amendment
+[70:5:5] ~~ Sources: app notes 5:70 sub 3, 5
+## SUB 6 | UJALA, SLNP and Other Schemes
+[70:6:0] TABLE head: Scheme | Year / Body | Feature
+  [70:6:0.0] UJALA (Unnat Jyoti by Affordable LEDs for All) | January 2015, EESL | 36.86 crore LED bulbs, 72.18 lakh tube lights, 23.59 lakh fans
+  [70:6:0.1] SLNP (Street Lighting National Programme) | January 2015, EESL | LED street lights replace sodium vapour
+  [70:6:0.2] ADEETIE | July 2025, ₹1,000 crore | MSME efficiency; interest subvention 5% micro/small, 3% medium; 60 clusters, 14 sectors
+  [70:6:0.3] CAFE norms | 2017, BEE | Fuel efficiency for cars
+  [70:6:0.4] National Efficient Cooking Programme | EESL | 20 lakh induction stoves
+[70:6:1] - 9.5 crore = PMUY LPG connections (do not confuse with UJALA).
+[70:6:2] ~~ Sources: app notes 5:70 sub 4
+## SUB 7 | PAT and the Carbon Credit Trading Scheme
+[70:7:0] - **PAT:** market mechanism under **NMEEE** – energy-reduction targets for **Designated Consumers**; over-achievers earn **ESCerts**, under-achievers buy them; traded on **power exchanges**.
+[70:7:1] - **PAT Cycle I (2012-15): 478 units in 8 sectors** – thermal power, iron & steel, cement, aluminium, fertilisers, chlor-alkali, pulp & paper, textiles; **railways** added later.
+[70:7:2] - After CCTS, PAT keeps 4 sectors: **thermal power, railways, DISCOMs, commercial buildings** (Jun 2026).
+[70:7:3] TABLE head: Feature | PAT | CCTS
+  [70:7:3.0] Certificate | ESCerts (energy intensity) | CCCs (emission intensity)
+  [70:7:3.1] Start | 2012 | Notified 2023 – first mandatory carbon market
+  [70:7:3.2] Coverage | 478 units, 8 sectors (Cycle I) | 9 heavy industries, 208 units
+  [70:7:3.3] Administrator / Regulator | BEE | BEE / CERC
+[70:7:4] - CCTS supports **45% cut in GDP emission intensity by 2030** (vs 2005); UK **CBAM** recognised CCTS (from **1 January 2027**).
+[70:7:5] ~~ Sources: app notes 5:70 sub 2
+
+=== OWN MCQs of 5:70 (62)
+[n58f492e2fbb] sub0
+  Which one of the following is correctly matched?
+  Sodium vapour lamp — white light and excellent colour rendering | Incandescent lamp — most energy lost as sound | *CFL — contains mercury and has a shorter life than LED | LED — high mercury content and substantial heat production
+  x: CFLs are more efficient than incandescent lamps but contain mercury and have a shorter life than LEDs. Incandescent lamps mainly lose energy as heat, while sodium vapour lamps produce yellow light with poor colour rendering.
+[ne7497afb754] sub0
+  Which one of the following lamps has the highest efficacy, longest life and no mercury?
+  Sodium vapour lamp | Incandescent lamp | *Light-emitting diode lamp | Compact fluorescent lamp
+  x: LED lamps have the highest efficacy and longest life among the listed lamps and do not contain mercury.
+[fec2fb536e79f] sub0
+  What is the main emitter material of an LED?
+  Mercury vapour | *Gallium arsenide | Sodium vapour | Argon
+  x: Gallium arsenide is the main LED emitter; LEDs contain no mercury.
+[geee0b2693414] sub0
+  Which lamp gives white light, unlike the yellow light of a sodium vapour lamp?
+  *Mercury vapour lamp | Neon lamp | Low-pressure sodium lamp | High-pressure sodium lamp
+  x: Mercury vapour lamps give white light, while sodium vapour lamps give monochromatic yellow light.
+[ff9a85fe43472] sub1
+  Which organisation runs the SAKSHAM fuel-conservation campaign?
+  BEE | EESL | *PCRA | AEEE
+  x: SAKSHAM is run by the Petroleum Conservation Research Association (PCRA), not BEE.
+[n37f4a1bca99] sub1
+  Energy efficiency is linked to sustainable development mainly because it does which of the following?
+  increases the energy intensity of the economy | *reduces the need for new energy sources | requires replacing all renewable energy with fossil fuels | has no effect on energy demand
+  x: Using energy efficiently lowers demand, so fewer new energy sources need to be built (APPSC 2025). It lowers energy intensity rather than raising it, does not require fossil fuels, and directly cuts demand.
+[fbc1c6cdca7a3] sub1
+  Which of the following is NOT an energy-conservation practice?
+  Using pressure cookers and lids while cooking | Switching off idle loads | Using star-rated appliances | *Replacing LEDs with incandescent bulbs
+  x: Incandescent bulbs lose most energy as heat; LEDs, star-rated appliances and switching off idle loads save energy.
+[n110ef057cb9] sub2
+  Which of the following is NOT correct about energy conservation observances and awards?
+  National Energy Conservation Day is observed on 14 December | National Energy Conservation Week is 14–20 December | *The National Energy Conservation Awards are given by MNRE | The National Energy Conservation Awards were instituted in 1991
+  x: NECA is given by BEE under the Ministry of Power, not by MNRE.
+[n3c4b6b89a0e] sub2
+  Where is Andhra Pradesh's model Super ECBC building located?
+  *Sagar Nagar, Visakhapatnam | Tirupati | Vijayawada | Kurnool
+  x: The AP model Super ECBC building is located at Sagar Nagar in Visakhapatnam.
+[ncdeab7f4897] sub2
+  During National Energy Conservation Week in Andhra Pradesh in 2024, which department collaborated in the awareness activities?
+  Transport Department | Revenue Department | *School Education Department | Agriculture Department
+  x: The School Education Department collaborated in Andhra Pradesh’s National Energy Conservation Week awareness activities in 2024.
+[nca8ae16b7fa] sub2
+  In which year was the Andhra Pradesh State Energy Conservation Mission (APSECM) constituted?
+  2001 | 2005 | *2012 | 2018
+  x: APSECM was constituted in 2012.
+[n950cbf3a822] sub2
+  Which is India's first standalone State Designated Agency of the Bureau of Energy Efficiency?
+  NREDCAP | APTRANSCO | *APSECM | APGENCO
+  x: APSECM is India's first standalone State Designated Agency of BEE and enforces the Energy Conservation Act, 2001, in Andhra Pradesh.
+[n04614a429ee] sub2
+  Where was the first IoT energy pilot of APSECM at an MSME unit undertaken?
+  Mangalagiri | Visakhapatnam | *East Godavari | Kurnool
+  x: The IoT energy pilot was first undertaken at an MSME unit in East Godavari and was later extended to all districts with BEE.
+[f1c43cf422828] sub2
+  In which year were the National Energy Conservation Awards instituted?
+  *1991 | 2001 | 2002 | 2012
+  x: NECA was instituted in 1991 and is given by BEE under the Ministry of Power.
+[ga0b28cbc0b6d] sub2
+  Which State/UT stood first in the National Energy Conservation Awards 2025?
+  Andhra Pradesh | Kerala | *Chandigarh | Maharashtra
+  x: Chandigarh came first in the National Energy Conservation Awards 2025, given by BEE under the Ministry of Power.
+[g852796b360ee] sub2
+  How many industries in Andhra Pradesh are covered under the PAT scheme?
+  23 | *59 | 112 | 123
+  x: In AP, 59 industries are under PAT, saving about 1.16 Mtoe; ECBC is applied in 123 ULBs.
+[ne9807fd1213] sub3
+  The inaugural State Energy Efficiency Preparedness Index was prepared by which of the following combinations?
+  *NITI Aayog with the Bureau of Energy Efficiency | Bureau of Energy Efficiency with the Energy Efficiency Services Limited | Ministry of Environment, Forest and Climate Change with NITI Aayog | Bureau of Energy Efficiency with the Alliance for an Energy Efficient Economy
+  x: The inaugural State Energy Efficiency Preparedness Index, introduced in 2018, was prepared by NITI Aayog in association with the Bureau of Energy Efficiency.
+[n01c98df3ba5] sub3
+  Which of the following is NOT correct about the State Energy Efficiency Index (SEEI)?
+  It was developed by BEE with the Alliance for an Energy Efficient Economy | *It classifies States into only three categories | Front Runner is one of its categories | It forms the basis for the National Energy Conservation Awards
+  x: SEEI uses four categories: Front Runner, Achiever, Contender and Aspirant.
+[n81b7a2a5c07] sub3
+  In the inaugural State Energy Efficiency Preparedness Index (2018), Andhra Pradesh was placed in which category?
+  Aspirant | Contender | Achiever | *Front Runner
+  x: Andhra Pradesh was rated a Front Runner, the top category, in the inaugural 2018 index prepared by NITI Aayog with BEE (APPSC 2018). Achiever, Contender and Aspirant are the lower categories.
+[f43b082dd266d] sub3
+  Which organisation prepared the Energy Efficiency Implementation Readiness ranking (November 2016), in which Andhra Pradesh came first?
+  NITI Aayog | *World Bank | AEEE | Central Electricity Authority
+  x: The World Bank (with EESL) prepared it; AP was first (42.01) and Rajasthan second.
+[fcc51fecf8f9b] sub3
+  In SEEI 2024, which State led the 5–15 Mtoe group?
+  Maharashtra | Assam | Tripura | *Andhra Pradesh
+  x: AP led the 5–15 Mtoe group; Maharashtra (>15), Assam (1–5) and Tripura (<1) led the others.
+[f739b41d0a251] sub3
+  Under the State Energy Efficiency Index, what score must a 'Front Runner' State exceed?
+  50% | *60% | 70% | 75%
+  x: SEEI categories are Front Runner (>60%), Achiever, Contender and Aspirant.
+[g1653679bd5cb] sub3
+  In the State Energy Efficiency Index 2024, which State led the group of States with energy demand above 15 Mtoe?
+  Gujarat | Tamil Nadu | *Maharashtra | Uttar Pradesh
+  x: In SEEI 2024 (BEE with AEEE), Maharashtra led the >15 Mtoe group, AP the 5–15 group, Assam the 1–5 group and Tripura the <1 group.
+[n2e9ac5ca5d4] sub4
+  Which of the following pairs is correctly matched?
+  *Energy Conservation Act, 2001 – Energy audits of designated consumers | Bureau of Energy Efficiency – Ministry of New and Renewable Energy | ECO Niwas Samhita – Commercial buildings | Carbon Credit Trading Scheme – Original Energy Conservation Act, 2001
+  x: The 2001 Act provides for energy audits of designated consumers (and penalties); BEE is under the Ministry of Power, ECO Niwas covers residential buildings and the CCTS basis came with the 2022 amendment.
+[nbc980d4ac26] sub4
+  When did the Bureau of Energy Efficiency become operational?
+  1 January 2001 | 1 April 2008 | *1 March 2002 | 1 January 2006
+  x: BEE became operational on 1 March 2002.
+[nc31ee53a815] sub4
+  Under the Energy Conservation (Amendment) Act, 2022, designated consumers must use a minimum share of which energy?
+  Imported coal | *Non-fossil energy | Natural gas | Diesel
+  x: The 2022 amendment requires designated consumers to use a minimum share of non-fossil energy.
+[n3f07b5ff12d] sub4
+  When did the Rajya Sabha pass the Energy Conservation (Amendment) Bill, 2022, completing its passage?
+  August 2022 | December 2021 | March 2023 | *December 2022
+  x: The Lok Sabha passed the Bill in August 2022 and the Rajya Sabha in December 2022, completing its passage.
+[ne6477e625d6] sub4
+  The Energy Conservation (Amendment) Act, 2022 provides a legal basis for which of the following?
+  A national electricity subsidy market | A mandatory market for petroleum imports | A separate market for nuclear fuel | *A national carbon market
+  x: The 2022 amendment gave legal basis to a carbon market through the Carbon Credit Trading Scheme.
+[f452d17c84b1c] sub4
+  Under the Energy Conservation Act, 2001, energy-efficiency norms apply to buildings with a connected load above what limit?
+  50 kW | *100 kW | 120 kW | 500 kW
+  x: Norms apply to buildings with connected load over 100 kW or contract demand over 120 kVA.
+[gb49683e13dae] sub4
+  Consider the following statements about the Energy Conservation (Amendment) Act, 2022:
+1. It extended energy codes to large residential buildings.
+2. It allows efficiency norms to be set for vehicles and vessels.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: The 2022 amendment extended building codes to large residential buildings and enabled efficiency norms for vehicles and vessels.
+[nc0f25fc1634] sub4
+  Under which of the following does the Bureau of Energy Efficiency, a statutory body created by the Energy Conservation Act, 2001, function?
+  *Ministry of Power | Ministry of New and Renewable Energy | NITI Aayog | MoEFCC
+  x: BEE functions under the Ministry of Power; the JV of power PSUs that distributes LEDs is EESL.
+[n46ae927a458] sub4
+  The Standards and Labelling programme for energy-consuming equipment in India is administered by which organisation under which Ministry?
+  National Productivity Council under the Ministry of Heavy Industries | Energy Efficiency Services Limited under the Ministry of New and Renewable Energy | *Bureau of Energy Efficiency under the Ministry of Power | Central Electricity Authority under the Ministry of Environment, Forest and Climate Change
+  x: The Standards and Labelling programme is administered by the Bureau of Energy Efficiency under the Ministry of Power.
+[n4b2cf2ba999] sub4
+  Which organisation implements both UJALA and the Street Lighting National Programme?
+  *Energy Efficiency Services Limited | Bureau of Energy Efficiency | Indian Oil Corporation Limited | Petroleum Conservation Research Association
+  x: Both programmes are implemented by Energy Efficiency Services Limited (EESL), a joint venture of public-sector undertakings under the Ministry of Power.
+[nd217f6b6444] sub4
+  About what share of its oil does India import?
+  50% | 65% | *80% | 95%
+  x: India imports about 80% of its oil, so cheap demand reduction through efficiency improves energy security.
+[ne2b7bf35732] sub4
+  The National Mission for Enhanced Energy Efficiency is one of how many missions under NAPCC (2008)?
+  5 | 6 | *8 | 10
+  x: NMEEE is one of the eight missions of the National Action Plan on Climate Change (2008).
+[nb24d707def1] sub4
+  Which of the following is NOT correct about fuel-efficiency and conservation initiatives?
+  *SAKSHAM is a fuel-conservation drive of the Bureau of Energy Efficiency | The first CAFE norms were notified in 2017 | CAFE norms set average fuel-efficiency targets for M1 cars | The Bureau of Energy Efficiency enforces the CAFE norms
+  x: SAKSHAM is conducted by the Petroleum Conservation Research Association (PCRA), not BEE.
+[n947c4848f62] sub4
+  Under which Section of the Energy Conservation Act is India's Carbon Credit Trading Scheme, notified in 2023, provided for?
+  Section 14 | *Section 14AA | Section 18 | Section 14A
+  x: Section 14AA provides for the CCTS, India's first mandatory compliance carbon market.
+[n7588e8f34b9] sub5
+  Under the star-labelling changes effective from 1 January 2026, when may manufacturers be penalised?
+  the product receives fewer than three stars irrespective of its actual consumption | *actual energy consumption deviates from the declared label rating | a product is sold without an international energy certificate | the product is manufactured outside a designated consumer sector
+  x: Manufacturers may be penalised if the actual energy consumption of a product deviates from the consumption declared through its label.
+[n8975b1fe2ba] sub5
+  Under BEE's Standards and Labelling programme, about how much energy does each additional star save?
+  25–30 per cent energy | 5 per cent energy | *10–15 per cent energy | 40 per cent energy
+  x: The one-to-five-star programme (over 40 equipment types) saves about 10–15 per cent energy per additional star.
+[f923fb07c57a9] sub5
+  Which of the following is under the voluntary star-labelling list?
+  Ceiling fans | Refrigerators | *Industrial motors | Tubular fluorescent lamps
+  x: Industrial motors, computers and microwave ovens are voluntary; ceiling fans, refrigerators and tubular fluorescent lamps are mandatory.
+[f88ee67bca159] sub5
+  In which year was BEE's Standards and Labelling programme launched?
+  2001 | 2002 | *2006 | 2007
+  x: The S&L programme was launched in 2006 and rates over 40 equipment on a 1–5 star scale.
+[n439726be949] sub5
+  ECO Niwas Samhita, introduced in 2018, is an energy code for which of the following?
+  *Residential buildings | New commercial buildings | Industrial units | Vehicles
+  x: ECO Niwas Samhita (2018) covers residential buildings; ECBC (2007) covers new commercial buildings.
+[fa1f088dd75ad] sub5
+  Consider the following statements about building codes:
+1. ECBC (2007) covers new commercial buildings.
+2. ECO Niwas Samhita covers commercial buildings.
+3. ECSBC (2024) adds sustainability to the code.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: ECBC covers commercial buildings and ECSBC adds sustainability; ECO Niwas Samhita is for residential buildings.
+[nc421af3d018] sub5
+  Which of the following pairs is correctly matched?
+  *ECBC – New commercial buildings | ECO Niwas Samhita – New commercial buildings | ECSBC – Residential buildings | ECBC – Residential buildings
+  x: ECBC applies to new commercial buildings; ECO Niwas Samhita applies to residential buildings, and ECSBC adds sustainability to the framework.
+[gaa6c2b899a4d] sub6
+  Which organisation runs the National Efficient Cooking Programme, which distributes induction stoves?
+  Bureau of Energy Efficiency | *Energy Efficiency Services Limited | Petroleum Conservation Research Association | Indian Oil Corporation Limited
+  x: EESL, a joint venture of Ministry of Power PSUs, runs the National Efficient Cooking Programme along with UJALA and SLNP.
+[nce36319e23d] sub6
+  In which year were UJALA and the Street Lighting National Programme both launched?
+  2012 | 2014 | *2015 | 2018
+  x: Both UJALA and the Street Lighting National Programme were launched in January 2015.
+[nbca1eb83f63] sub6
+  The Street Lighting National Programme primarily replaced older street lighting based on which technology with LEDs?
+  Incandescent lamps | Halogen lamps | Solar thermal lamps | *Sodium vapour lamps
+  x: Under the Street Lighting National Programme, older sodium vapour street lights were replaced by LED lights.
+[nedb37170c99] sub6
+  Under UJALA, approximately how many LED bulbs have been distributed?
+  72.18 lakh | 23.59 lakh | *36.86 crore | 9.5 crore
+  x: UJALA distributed about 36.86 crore LED bulbs, along with 72.18 lakh LED tube lights and 23.59 lakh energy-efficient fans. 9.5 crore is the number of PMUY LPG connections.
+[n070ed2abe79] sub6
+  ADEETIE, launched in July 2025 with an outlay of ₹1,000 crore, promotes energy efficiency in which sector?
+  *Micro, small and medium enterprises | Large designated consumers | Electricity distribution companies | Commercial buildings
+  x: ADEETIE focuses on energy efficiency among MSMEs through audits and financial support.
+[fc543613b6e28] sub6
+  How many clusters and sectors does ADEETIE, the MSME energy-efficiency scheme, cover?
+  478 units in 8 sectors | 208 units in 9 industries | *60 clusters in 14 sectors | 123 ULBs
+  x: ADEETIE covers 60 clusters in 14 sectors; 478 units in 8 sectors is PAT Cycle I.
+[g7855e9dcbeb9] sub6
+  What is the full form of UJALA?
+  *Unnat Jyoti by Affordable LEDs for All | Ujjwal Jyoti for All Lighting Access | Universal Jyoti through Affordable LED Appliances | Unnat Jeevan by Affordable Lighting for All
+  x: UJALA stands for Unnat Jyoti by Affordable LEDs for All, launched by EESL in January 2015.
+[gdd988a41efdd] sub6
+  What interest subvention does the ADEETIE scheme give to micro and small enterprises for energy-efficiency loans?
+  2% | 3% | *5% | 7%
+  x: ADEETIE (July 2025, ₹1,000 crore) gives 5% interest subvention to micro and small units and 3% to medium units.
+[n7280eb7d3d7] sub7
+  Which body is the regulator of India's Carbon Credit Trading Scheme?
+  Bureau of Energy Efficiency | SEBI | MoEFCC | *Central Electricity Regulatory Commission
+  x: CERC is the regulator, while BEE is the administrator of the scheme.
+[n50557cc04f4] sub7
+  What is the Perform, Achieve and Trade (PAT) scheme?
+  *A market mechanism setting energy-reduction targets for designated consumers | A labelling programme for household appliances | A loan scheme for solarising farm pumps | A scheme for distributing LED bulbs to households
+  x: PAT is a market mechanism under NMEEE that assigns energy-reduction targets to designated consumers.
+[n1bad6874f7e] sub7
+  Where are Energy Saving Certificates (ESCerts) under the PAT scheme traded?
+  *Power exchanges | Commodity exchanges | Stock exchanges | Foreign carbon exchanges
+  x: Over-achievers earn ESCerts and under-achievers buy them on power exchanges, including the Indian Energy Exchange.
+[n8c3b8a3452e] sub7
+  After the expansion of the Carbon Credit Trading Scheme (CCTS), PAT is proposed to retain which four residual sectors?
+  Chlor-alkali, cement, railways and domestic buildings | Cement, aluminium, fertilisers and textiles | Iron and steel, petrochemicals, refineries and pulp and paper | *Thermal power, railways, DISCOMs and commercial buildings
+  x: The proposed four residual PAT sectors are thermal power, railways, DISCOMs and commercial buildings.
+[n02e8c68780a] sub7
+  Which certificates are issued under PAT and CCTS, respectively?
+  *Energy-intensity certificates (ESCerts) and emission-intensity certificates (CCCs) | Emission-intensity certificates (CCCs) and energy-intensity certificates (ESCerts) | Renewable-energy certificates and energy-intensity certificates (ESCerts) | Energy-intensity certificates (ESCerts) and renewable-energy certificates
+  x: PAT is associated with energy-intensity certificates (ESCerts), while CCTS issues emission-intensity certificates called CCCs.
+[n63bbd07e2dc] sub7
+  By how much does India aim to cut the emission intensity of its GDP by 2030 over 2005 levels, a target the Carbon Credit Trading Scheme supports?
+  33% | 40% | *45% | 50%
+  x: The stated goal is a 45% cut in GDP emission intensity by 2030 relative to the 2005 level.
+[n142d80d4c3a] sub7
+  What does the compliance mechanism of India's Carbon Credit Trading Scheme cover?
+  8 sectors with 478 units | *9 heavy industries with GHG intensity targets for 208 units | 4 sectors: thermal power, railways, DISCOMs and commercial buildings | 60 MSME clusters in 14 sectors
+  x: CCTS covers 9 heavy industries, with GHG emission-intensity targets for 208 units. 478 units in 8 sectors was PAT Cycle I; the four sectors are those PAT will retain; 60 clusters in 14 sectors is ADEETIE.
+[n6bec2e94175] sub7
+  Which one of the following was NOT included among the original PAT sectors?
+  Chlor-alkali | *Railways | Textiles | Thermal power
+  x: The original PAT sectors included thermal power, chlor-alkali and textiles. Railways was added later and is part of the proposed residual-sector arrangement.
+[n677a4c29d88] sub7
+  From which date does the UK Carbon Border Adjustment Mechanism, which recognised India's CCTS, apply?
+  1 January 2026 | 1 April 2026 | *1 January 2027 | 1 April 2028
+  x: The UK CBAM applies from 1 January 2027; in September 2026 the UK recognised India's CCTS as a qualifying carbon price.
+[f05fb2d131b12] sub7
+  How many units and sectors did PAT Cycle I (2012-15) cover?
+  208 units in 9 sectors | *478 units in 8 sectors | 60 clusters in 14 sectors | 478 units in 9 sectors
+  x: PAT-I covered 478 units in 8 sectors; 208 units/9 industries is CCTS and 60 clusters/14 sectors is ADEETIE.
+
+=== NOTES 5:71 | Energy Access and Distribution Programmes – Saubhagya, Ddugjy, Uday, Pm-kusum, Pm Surya Ghar
+## SUB 0 | PM Surya Ghar Muft Bijli Yojana and Net Metering
+[71:0:0] - **Launched Feb 2024; MNRE**; Central Sector scheme; outlay **₹75,021 crore**; goal = **rooftop solar on 1 crore residential houses** by **March 2027** – rural and urban (not urban-only).
+[71:0:1] - **Up to 300 units/month free**; households become **prosumers**.
+[71:0:2] - **CFA: 60% for the first 2 kW; 40% for extra capacity up to 3 kW** (not a flat 30%); collateral-free loans at about **7%** (repo-linked, not 4%); **100% online** national portal.
+[71:0:3] - **Capacity building:** MNRE trains people at the grassroots in installation, operation, maintenance and repair; **more than 3 lakh skilled manpower** through fresh skilling and upskilling.
+[71:0:4] - 30 GW rooftop; **one Model Solar Village per district**; **world's largest domestic rooftop solar scheme**; subsumed Rooftop Solar Phase II.
+[71:0:5] - Progress (2025): 14.43 lakh systems, 18.14 lakh households.
+[71:0:6] - **Net metering (UPSC 2016 ×2):** promotes **production and use of solar energy by households/consumers** – surplus fed to the grid; household pays only the difference.
+[71:0:7] > Statements angle: UPSC/IAS 2025 – all three statements correct; RAS 2024 – only "1 crore houses / 300 units" and "100% online" correct.
+[71:0:8] ~~ Sources: app notes 5:71 sub 4; CARE APPSC Apr 2026 p.46; general knowledge (CFA, loan rate), not checked
+## SUB 1 | UDAY and RDSS – Discom Finances
+[71:1:0] - **UDAY (Ujwal DISCOM Assurance Yojana), Nov 2015, Ministry of Power:** **financial turnaround and revival of DISCOMs** (UPSC 2016).
+[71:1:1] - States took over **75%** of discom debt (**50% in 2015-16 + 25% in 2016-17**) via **UDAY bonds**; discoms bonded the other 25%.
+[71:1:2] - UDAY states account for **97%** of total outstanding discom debt (Power Ministry; APPSC G2); bonds actually issued covered ~86% of debt to be taken over (2017).
+[71:1:3] - **Rajasthan** had the **largest discom debt exposure** under UDAY (~₹70,000+ crore bonded).
+[71:1:4] TABLE head: Feature | UDAY | RDSS (2021)
+  [71:1:4.0] Aim | Discom debt takeover | Smart prepaid metering, loss cut
+  [71:1:4.1] Outlay | – | ₹3,03,758 crore
+  [71:1:4.2] AT&C target | 15% by 2018-19 | 12–15%
+  [71:1:4.3] ACS-ARR gap | Zero | Zero
+[71:1:5] ~~ Sources: Ramesh Singh Indian Economy (Part 5) "UDAY Scheme"; gktoday.in "UDAY covers 97% of discom debt: Centre" (via search); app notes 5:71 sub 2
+## SUB 2 | Saubhagya, DDUGJY and IPDS – Electrification
+[71:2:0] - **Saubhagya** (Pradhan Mantri Sahaj Bijli Har Ghar Yojana), **Sept/Oct 2017:** **universal household electrification** – last-mile connections to all un-electrified households in **rural and urban** areas (CDS 2020; APPSC FSO).
+[71:2:1]   - Not clean cooking fuel (that is **PMUY**), not LPG subsidy.
+[71:2:2]   - **2.86 crore** willing households electrified (2.82 crore = older figure).
+[71:2:3] - **DDUGJY (Dec 2014):** rural distribution; **feeder separation** (agri vs non-agri); subsumed **RGGVY**.
+[71:2:4] - **IPDS (Dec 2014):** **urban** sub-transmission and distribution, metering, IT; subsumed **R-APDRP**.
+[71:2:5] - Last village electrified: **Leisang (Manipur), 28 April 2018**.
+[71:2:6] TABLE head: Scheme | Year | Ministry
+  [71:2:6.0] UDAY | 2015 | Power
+  [71:2:6.1] PMUY | 2016 | MoPNG
+  [71:2:6.2] Saubhagya | 2017 | Power
+  [71:2:6.3] PM-KUSUM | 2019 | MNRE (not Power)
+  [71:2:6.4] Surya Nutan | 2022 | IOCL indoor solar stove (not EESL)
+  [71:2:6.5] PM Surya Ghar | 2024 | MNRE
+[71:2:7] ~~ Sources: Ramesh Singh Indian Economy (Part 7) "Saubhagya"; app notes 5:71 sub 0-1
+## SUB 3 | PM-KUSUM – Farm Solar
+[71:3:0] - **PM-KUSUM (2019, MNRE):** primary aim = **subsidies for solar irrigation pumps** and farm solar (APPSC FBO 2025).
+[71:3:1] TABLE head: Component | Covers
+  [71:3:1.0] A | Grid-connected solar/RE plants on farm/barren land
+  [71:3:1.1] B | Standalone solar pumps
+  [71:3:1.2] C | Solarisation of grid-connected pumps
+[71:3:2] - B and C subsidy: **30% Centre, 30% State, 40% farmer** (bank loan possible).
+[71:3:3] - Urban household rooftop solar = PM Surya Ghar, not PM-KUSUM.
+[71:3:4] ~~ Sources: app notes 5:71 sub 3; NextGen S&T Group 2 Part 5 p.55
+## SUB 4 | Andhra Pradesh – Free Power and Rooftop Solar
+[71:4:0] - **Free power for SC/ST households:** the Social Welfare Department paid bills up to **75 units** (APPSC question) → **100 units** (Dec 2018, Jagjeevan Jyothi) → **200 units** for BPL SC/ST since 2019 (now **20.26 lakh** households; ₹10,449.92 crore subsidy, FY 2024-25).
+[71:4:1] - **SC/ST:** free rooftop solar via **Virtual Net Metering**.
+[71:4:2] - PM Surya Ghar target in AP: **6 lakh** (6,000 per constituency).
+[71:4:3] - PM-KUSUM in AP: **2.93 lakh** pumps solarised; RDSS ₹15,083.14 crore.
+[71:4:4] ~~ Sources: thehansindia.com 'Free power up to 100 units to SC, ST households' (6 Dec 2018, via search); app notes 5:71 sub 6
+## SUB 5 | Clean Cooking – PMUY
+[71:5:0] - **PMUY (2016, MoPNG):** deposit-free LPG to poor women; Phase I **8 crore** by **2019**; now **9.5 crore+**.
+[71:5:1] - **Ujjwala 2.0:** free first refill and stove; migrants by **self-declaration**; **₹1,600** per connection.
+[71:5:2] - Refill subsidy since **Oct 2023: ₹300 × 9 refills/year**.
+[71:5:3] ~~ Sources: app notes 5:71 sub 5
+[71:5:4] - **'Chullah' project** (smokeless kitchens): **Maharashtra** (budget 2019) – for women not covered by Ujjwala or other LPG schemes.
+
+=== OWN MCQs of 5:71 (34)
+[n01488af2c5c] sub0
+  Up to how much free electricity can households receive under PM Surya Ghar Muft Bijli Yojana?
+  500 units per month | *300 units per month | 100 units per month | 200 units per month
+  x: The scheme provides for free power of up to 300 units per month, with beneficiary households becoming prosumers.
+[nd690bb69e0e] sub0
+  Under PM Surya Ghar, what share of the cost for the first 2 kW does Central Financial Assistance cover?
+  30% | 40% | *60% | 100%
+  x: CFA covers 60% of the cost for 2 kW and 40% for additional capacity up to 3 kW.
+[n8c7a9e9c2df] sub0
+  What is the household target of PM Surya Ghar Muft Bijli Yojana by March 2027?
+  2 crore households | *1 crore households | 50 lakh households | 10 lakh households
+  x: The scheme targets rooftop solar installations in 1 crore households by FY 2026-27, that is, March 2027.
+[fbfdbe2deff70] sub0
+  What is the outlay of PM Surya Ghar Muft Bijli Yojana?
+  ₹3,03,758 crore | *₹75,021 crore | ₹18,100 crore | ₹10,449.92 crore
+  x: PM Surya Ghar has an outlay of ₹75,021 crore.
+[g642afb658861] sub0
+  Which scheme provides for one Model Solar Village in every district and is called the world's largest domestic rooftop solar scheme?
+  PM-KUSUM | *PM Surya Ghar Muft Bijli Yojana | Saubhagya | Surya Nutan
+  x: PM Surya Ghar Muft Bijli Yojana (February 2024) has one Model Solar Village per district and is the world's largest domestic rooftop solar scheme.
+[g2a896b8a96be] sub0
+  How much rooftop solar capacity is PM Surya Ghar Muft Bijli Yojana expected to add?
+  10 GW | 20 GW | *30 GW | 100 GW
+  x: PM Surya Ghar aims at about 30 GW of rooftop solar in 1 crore households.
+[n0376e4796f6] sub1
+  What is the aim of UDAY, introduced in November 2015?
+  *Financial turnaround of state electricity distribution companies | Universal household electrification | Solarisation of farm pumps | Strengthening urban distribution networks
+  x: UDAY (Ujwal DISCOM Assurance Yojana) was introduced by the Ministry of Power in November 2015 for the financial turnaround of state discoms.
+[nb0984ff3bc5] sub1
+  To what level did UDAY aim to reduce AT&C losses by 2018-19?
+  10% | *15% | 20% | 22%
+  x: UDAY targeted AT&C losses of 15% and a zero ACS-ARR gap by 2018-19.
+[ndf480b16e6a] sub1
+  What are the national targets of the Revamped Distribution Sector Scheme (RDSS)?
+  *AT&C losses of 12–15% and an ACS-ARR gap of zero | AT&C losses of zero and an ACS-ARR gap of 12–15% | AT&C losses of 30% and an ACS-ARR gap of 15% | Only reduction of transmission losses, without an ACS-ARR target
+  x: RDSS aims at pan-India AT&C losses of 12–15% and an ACS-ARR gap of zero.
+[nf731b69b7d2] sub1
+  Which of the following is NOT correct about UDAY?
+  States took over 75% of DISCOM debt outstanding as on 30 September 2015 | *The arrangement covered only half of total outstanding DISCOM debt | 50% of the debt was taken over in 2015-16 | 25% of the debt was taken over in 2016-17
+  x: The arrangement covered 97% of total outstanding DISCOM debt.
+[fdcac21c9dbc0] sub1
+  What is the outlay of the Revamped Distribution Sector Scheme (RDSS)?
+  ₹75,021 crore | ₹6,521 crore | *₹3,03,758 crore | ₹15,083.14 crore
+  x: RDSS has an outlay of ₹3,03,758 crore; ₹75,021 crore is PM Surya Ghar.
+[f0d4057cf50f6] sub1
+  Under UDAY, States took over what share of discom debt?
+  25% | 50% | *75% | 97%
+  x: States took over 75% of discom debt: 50% in 2015-16 and 25% in 2016-17.
+[g710553106d69] sub1
+  The States that joined UDAY together accounted for about what share of total DISCOM debt?
+  50% | 60% | 80% | *97%
+  x: The States participating in UDAY covered about 97% of total DISCOM debt.
+[n5a1b0e2a2b0] sub2
+  Pradhan Mantri Sahaj Bijli Har Ghar Yojana (Saubhagya) was launched in which year, and for what purpose?
+  2014, for urban distribution strengthening | 2015, for financial turnaround of DISCOMs | *2017, for universal household electrification | 2019, for solarisation of farm pumps
+  x: Saubhagya was launched in 2017 for universal household electrification. Urban distribution strengthening is IPDS (2014), DISCOM turnaround is UDAY (2015) and farm-pump solarisation is PM-KUSUM (2019).
+[n9bfe9746189] sub2
+  What does the Integrated Power Development Scheme (IPDS), launched in December 2014, mainly aim to strengthen?
+  Rural agricultural feeder separation and village electrification | LPG distribution and refill affordability | *Urban sub-transmission and distribution, metering and IT enablement | Standalone solar pumps for farmers
+  x: IPDS strengthens urban sub-transmission and distribution, metering and IT enablement.
+[n4aeca84f6d6] sub2
+  Which of the following scheme–ministry pairs is wrongly matched?
+  Pradhan Mantri Ujjwala Yojana (2016) – Ministry of Petroleum and Natural Gas | *PM-KUSUM (2019) – Ministry of Power | PM Surya Ghar: Muft Bijli Yojana (2024) – MNRE | UDAY – Ministry of Power
+  x: PM-KUSUM was launched by MNRE, not the Ministry of Power (which runs UDAY).
+[nb9a28eda080] sub2
+  Which of the following is NOT correct?
+  The Grameen Vitrak Yojana was launched in 2009 | The Grameen Vitrak Yojana raised the rural share of LPG distributors from 18% to 60% | Surya Nutan is an indoor solar stove launched in 2022 | *Surya Nutan was developed by EESL
+  x: Surya Nutan was developed by IOCL, not EESL.
+[n3f555344f62] sub2
+  IPDS subsumed which earlier programme?
+  RGGVY | PM-KUSUM | *R-APDRP | Saubhagya
+  x: The Integrated Power Development Scheme subsumed the Restructured Accelerated Power Development and Reforms Programme (R-APDRP).
+[gaf4156bdce16] sub2
+  In which year was the Deendayal Upadhyaya Gram Jyoti Yojana (DDUGJY) launched?
+  2005 | *2014 | 2017 | 2019
+  x: DDUGJY was launched in December 2014 by the Ministry of Power for rural distribution and feeder separation.
+[n5372decc0e0] sub2
+  As per the latest figure, how many willing households were electrified under Saubhagya?
+  1.86 crore | 2.82 crore | *2.86 crore | 3.65 crore
+  x: Saubhagya electrified 2.86 crore willing households; 2.82 crore was an older figure (March 2021).
+[nee01281f6da] sub2
+  Which village in Manipur was identified as the last village to be electrified?
+  *Leisang | Imphal | Thoubal | Churachandpur
+  x: Leisang in Manipur was identified as the last village to be electrified.
+[f67742d77cf20] sub2
+  Separation of agricultural and non-agricultural feeders is a feature of which scheme?
+  IPDS | *DDUGJY | UDAY | RDSS
+  x: DDUGJY separates agricultural and non-agricultural feeders and strengthens rural networks; IPDS is urban.
+[g1300bcb0cb3b] sub2
+  Which earlier rural electrification scheme was subsumed in DDUGJY?
+  R-APDRP | *RGGVY | IPDS | Saubhagya
+  x: DDUGJY (December 2014) subsumed the Rajiv Gandhi Grameen Vidyutikaran Yojana (RGGVY); IPDS subsumed R-APDRP.
+[n05561d6820a] sub3
+  What does Component C of PM-KUSUM relate to?
+  Decentralised grid-connected solar plants on barren land | Installation of standalone solar pumps | *Solarisation of existing grid-connected agricultural pumps | Rooftop solar for urban households
+  x: Component C solarises grid-connected agricultural pumps. Component A covers decentralised grid-connected solar/RE plants on farm or barren land, and Component B covers standalone solar pumps. Urban household rooftop solar comes under PM Surya Ghar, not PM-KUSUM.
+[na661bbbdf47] sub3
+  What is the subsidy-sharing pattern for Components B and C of PM-KUSUM?
+  60% Centre, 30% State and 10% farmer | 50% Centre, 25% State and 25% farmer | *30% Centre, 30% State and 40% farmer | 40% Centre, 30% State and 30% farmer
+  x: For Components B and C, the Centre contributes 30%, the State 30% and the farmer 40%; a bank loan may also be used by the farmer.
+[fbd1fc6d61a6c] sub3
+  What does Component B of PM-KUSUM cover?
+  *Standalone solar pumps | Grid-connected solar plants on farm land | Solarisation of grid-connected pumps | Urban rooftop solar
+  x: Component B is standalone solar pumps; A is grid-connected plants and C is solarisation of grid-connected pumps.
+[f1f1fc6ccc5d2] sub3
+  Which of the following is NOT correct about PM-KUSUM?
+  It was launched in 2019 under MNRE | Component A covers grid-connected solar plants on farm or barren land | *It covers urban household rooftop solar | Component C covers solarisation of grid-connected pumps
+  x: Urban household rooftop solar is under PM Surya Ghar, not PM-KUSUM.
+[n74f4541667b] sub4
+  Andhra Pradesh provides free power to BPL SC/ST households up to how many units per month?
+  100 units | 150 units | *200 units | 300 units
+  x: AP gives free power up to 200 units a month to eligible BPL SC/ST households; 300 units is the PM Surya Ghar limit.
+[n142e754ad3e] sub4
+  Through which arrangement is free rooftop solar power for SC/ST households in Andhra Pradesh proposed?
+  Time-of-Day Metering | *Virtual Net Metering | Prepaid Metering | Gross Metering
+  x: The provision of free rooftop solar for SC/ST households is associated with Virtual Net Metering.
+[fec10211197cf] sub4
+  What is the PM Surya Ghar household target for Andhra Pradesh?
+  1 crore households | *6 lakh households | 20.26 lakh households | 2.93 lakh households
+  x: AP's target is 6 lakh households (6,000 per constituency).
+[ffd9189f63eba] sub4
+  About how many pumps have been solarised in Andhra Pradesh under PM-KUSUM?
+  *2.93 lakh | 9.42 lakh | 10.99 lakh | 6 lakh
+  x: AP has solarised 2.93 lakh pumps under PM-KUSUM.
+[n02786cbd72d] sub5
+  Which of the following is correctly associated with Ujjwala 2.0?
+  30% Centre, 30% State and 40% farmer contribution | *Free first refill and stove, self-declaration facility for migrants, and ₹1,600 assistance per 14.2 kg connection | Free electricity up to 300 units and 60% rooftop-solar subsidy | A ₹6,521 crore package for border villages only
+  x: Ujjwala 2.0 provides a free first refill and stove, permits migrants to use self-declaration, and provides cash assistance of ₹1,600 per 14.2 kg connection.
+[nddcaaa05e4a] sub5
+  What was the Phase I target of PMUY by 2019?
+  12 crore connections | *8 crore connections | 5 crore connections | 9.5 crore connections
+  x: Phase I of PMUY targeted 8 crore deposit-free LPG connections by 2019; the reported number of connections later exceeded 9.5 crore.
+[n4bf9fbbf641] sub5
+  What has been the targeted subsidy for PMUY beneficiaries since October 2023?
+  ₹200 per 14.2 kg refill for up to 12 refills a year | ₹300 per 5 kg refill without an annual limit | ₹1,600 per 14.2 kg refill for up to 5 refills a year | *₹300 per 14.2 kg refill for up to 9 refills a year
+  x: Since October 2023, the targeted subsidy has been ₹300 per 14.2 kg refill for up to nine refills a year. Older provisions cited ₹200 and up to 12 refills.
+

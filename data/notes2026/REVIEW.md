@@ -1145,3 +1145,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - g12c64ade5afc (5th India–Arab Partnership Conference "Dubai"; notes Muscat) removed.
 - Notes conflict: Russia joined G8 1998 (row 55, 0:6) vs 1997 (row 57, 8:2) — G8 name from Denver 1997, full member Birmingham 1998; harmonise wording.
 - PYQ y59654082c9a says "$300 billion" for Vietnam; notes $300 million (credit line) — check.
+
+## rewrite b5-w061 (rows 61–65)
+- own 410 → 79 kept + 89 new (168, 41%); new 54 statements / 21 match / 14 A–R; 3 of 249 lines lost.
+- PYQ yfe771516be2 (row 63) keyed "Cobalt-62" — should be Cobalt-60 (check printed option; likely typo).
