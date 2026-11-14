@@ -1,173 +1,83 @@
 [
  {
-  "id": "cp1ac74ba723d7",
-  "row": 31,
-  "s": "Consider the following statements about poverty in 2011-12 (Tendulkar method):\n1. Andaman and Nicobar Islands had the lowest poverty ratio (1.00%).\n2. Chhattisgarh had the highest poverty ratio (39.93%).\n3. Bihar had the largest number of poor people.\nWhich of the statements given above is/are correct?",
+  "id": "cpcd018664331c",
+  "row": 32,
+  "s": "Match List-I (Book) with List-II (Author):\nList-I | List-II\na. The Price of Inequality (2012) | i. Thomas Piketty\nb. Capital in the Twenty-First Century | ii. Anthony Atkinson\nc. Inequality: What Can Be Done? | iii. J.M. Keynes\nd. The General Theory (1936) | iv. Joseph Stiglitz\nSelect the correct answer using the codes given below:",
   "o": [
-   "1 and 2 only",
-   "1 only",
-   "2 and 3 only",
-   "1, 2 and 3"
-  ],
-  "a": 0,
-  "x": "1 and 2 are correct (Goa, 5.09%, was the lowest State). 3 is wrong: Uttar Pradesh had the largest number of poor, about 5.98 crore; Bihar had 3.58 crore.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cp3dbe4cfe2dd3",
-  "row": 31,
-  "s": "Consider the following statements about the RBI's update of the Rangarajan poverty line (HCES 2022-23):\n1. Chhattisgarh had the highest rural poverty, at 25.1%.\n2. Chhattisgarh also had the highest urban poverty.\n3. Himachal Pradesh had the lowest rural poverty.\n4. Kerala had the lowest urban poverty.\nHow many of the statements given above are correct?",
-  "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iii, c-ii, d-iv"
   ],
   "a": 2,
-  "x": "Statements 1, 2 and 3 are correct (Chhattisgarh rural 25.1%, urban 13.3%; HP rural 0.4%). Statement 4 is wrong: the lowest urban poverty was in Tamil Nadu (1.9%).",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cpd1fbb589276c",
-  "row": 31,
-  "s": "Consider the following statements:\n1. As per the National MPI (NFHS-5, 2019-21), Bihar has the highest and Kerala the lowest multidimensional poverty.\n2. Uttar Pradesh recorded the largest number of people (5.94 crore) exiting multidimensional poverty between 2013-14 and 2022-23.\n3. Between 2011-12 and 2022-23, rural poverty in Bihar fell from 47.8% to 8.6%.\nWhich of the statements given above is/are correct?",
-  "o": [
-   "1 only",
-   "2 and 3 only",
-   "1 and 2 only",
-   "1, 2 and 3"
-  ],
-  "a": 2,
-  "x": "1 and 2 are correct. 3 is wrong: the 47.8% → 8.6% fall in rural poverty was Odisha's; Bihar's figure is urban poverty, 50.8% → 9.1% – high-poverty States fell fastest.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cp9a35302ea091",
-  "row": 31,
-  "s": "Match List-I (Estimate, Tendulkar line) with List-II (Poverty ratio):\nList-I | List-II\na. All-India, 2009-10 | i. 2.3%\nb. Rural India, 2011-12 | ii. 25.7%\nc. Urban India, 2011-12 | iii. 29.8%\nd. All-India, 2023-24 (updated line, Economic Survey 2025-26) | iv. 13.7%\nSelect the correct answer using the codes given below:",
-  "o": [
-   "a-i, b-ii, c-iv, d-iii",
-   "a-iii, b-ii, c-i, d-iv",
-   "a-i, b-iii, c-iv, d-ii",
-   "a-iii, b-ii, c-iv, d-i"
-  ],
-  "a": 3,
-  "x": "Tendulkar: 29.8% all-India in 2009-10; 2011-12 rural 25.7%, urban 13.7% (total 21.9%); updated line 4.7% (2022-23) and 2.3% (2023-24).",
+  "x": "The Price of Inequality – Stiglitz; Capital in the Twenty-First Century (and The Economics of Inequality) – Piketty, not Stiglitz; Inequality: What Can Be Done? – Atkinson; General Theory – Keynes.",
   "src": "app",
   "tq": "match"
  },
  {
-  "id": "cpc2953c739c03",
-  "row": 31,
-  "s": "Consider the following statements:\n1. Under the MDGs, India's target was to halve poverty from 47.8% in 1990 to 23.9% by 2015.\n2. India met the MDG target of halving extreme poverty.\n3. World Bank $3-a-day extreme poverty in India fell from 27.1% in 2011-12 to 2.3% in 2022-23.\n4. The national multidimensional poverty headcount fell from 55.3% (2005-06) to 14.96% (2019-21).\nHow many of the statements given above are correct?",
-  "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
-  ],
-  "a": 2,
-  "x": "Statements 1, 2 and 4 are correct (India missed hunger, maternal health and sanitation targets; MPI was 11.28% by 2022-23). Statement 3 is wrong: the $3-a-day figure fell to 5.3% in 2022-23; 2.3% is the updated Tendulkar-line poverty of 2023-24.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cp425ffcf64d22",
-  "row": 31,
-  "s": "Match List-I (Andhra Pradesh body / project) with List-II (Feature):\nList-I | List-II\na. SERP | i. Set up in 2000 to mobilise the rural poor into women's SHGs\nb. Velugu | ii. World Bank-aided District Poverty Initiatives Project\nc. Indira Kranthi Patham | iii. Urban SHGs, set up in 2007\nd. MEPMA | iv. Velugu and DWCRA merged (2004-05)\nSelect the correct answer using the codes given below:",
+  "id": "cpc75559fb6913",
+  "row": 32,
+  "s": "Match List-I (Work / idea) with List-II (Author):\nList-I | List-II\na. Theory of rent and comparative advantage | i. David Ricardo\nb. The Economic History of India | ii. R.C. Dutt\nc. Arthashastra | iii. Amartya Sen\nd. Inequality Reexamined | iv. Kautilya\nSelect the correct answer using the codes given below:",
   "o": [
    "a-i, b-ii, c-iii, d-iv",
-   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
    "a-i, b-iv, c-iii, d-ii",
-   "a-ii, b-i, c-iv, d-iii"
-  ],
-  "a": 1,
-  "x": "SERP (2000) – social mobilisation of the rural poor; Velugu (2000) – World Bank-aided District Poverty Initiatives Project run by SERP; IKP (2004-05) – Velugu and DWCRA merged; MEPMA (1 Sep 2007) – urban SHGs.",
-  "src": "app",
-  "tq": "match"
- },
- {
-  "id": "cp8e4cfe67d170",
-  "row": 31,
-  "s": "Consider the following statements:\nAssertion (A): Andhra Pradesh Mahila Sadhikara Samstha (APMSS) works for poor households in both rural and urban areas.\nReason (R): SERP works in rural areas while MEPMA works in urban areas.\nSelect the correct answer using the codes given below:",
-  "o": [
-   "Both A and R are true, and R is the correct explanation of A",
-   "Both A and R are true, but R is not the correct explanation of A",
-   "A is true, but R is false",
-   "A is false, but R is true"
-  ],
-  "a": 1,
-  "x": "Both are true: SERP = rural, MEPMA = urban, APMSS = both. But R only describes the two other bodies; it does not explain why APMSS covers both areas (it is the integrated body).",
-  "src": "app",
-  "tq": "assertion"
- },
- {
-  "id": "cpcb37cc59e0d0",
-  "row": 31,
-  "s": "Consider the following statements about poverty in Andhra Pradesh:\n1. Under the Tendulkar method (2011-12), AP's rural and urban poverty ratios were 10.96% and 5.81%.\n2. AP's poverty ratio under the Tendulkar method was 44.6% in 1993-94.\n3. AP's poverty ratio under the Tendulkar method was 15.8% in 2004-05.\n4. AP's multidimensional poverty headcount (2019-21) was 6.06%.\nHow many of the statements given above are correct?",
-  "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
-  ],
-  "a": 2,
-  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: AP's Tendulkar figure for 2004-05 was 29.9% (then 21.1% in 2009-10 and 9.20% in 2011-12); 15.8% is the old official URP estimate of the Eleventh Plan.",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cp3ecd2c86ed97",
-  "row": 31,
-  "s": "Consider the following statements about regional poverty in Andhra Pradesh (MPI, old 13 districts):\n1. Vizianagaram had the highest MPI poverty headcount.\n2. West Godavari had the lowest MPI poverty headcount (2.42%).\n3. Rayalaseema is poorer mainly because of its dependence on rain-fed agriculture.\n4. The delta districts are generally the least poor.\nHow many of the statements given above are correct?",
-  "o": [
-   "Only one",
-   "Only two",
-   "Only three",
-   "All four"
-  ],
-  "a": 2,
-  "x": "Statements 2, 3 and 4 are correct (delta districts gain from irrigation and productivity). Statement 1 is wrong: the poorest district was Kurnool (12.84%); Vizianagaram was next (8.66%).",
-  "src": "app",
-  "tq": "statements"
- },
- {
-  "id": "cp75abcd20ebd8",
-  "row": 31,
-  "s": "Consider the following statements:\nAssertion (A): In 2011-12, Andhra Pradesh's urban poverty ratio was higher than the all-India urban poverty ratio.\nReason (R): Andhra Pradesh's work participation rate is higher than India's.\nSelect the correct answer using the codes given below:",
-  "o": [
-   "Both A and R are true, and R is the correct explanation of A",
-   "Both A and R are true, but R is not the correct explanation of A",
-   "A is true, but R is false",
-   "A is false, but R is true"
+   "a-i, b-ii, c-iv, d-iii"
   ],
   "a": 3,
-  "x": "A is false: in 2011-12 both rural (10.96%) and urban (5.81%) poverty in AP were below the all-India levels (25.70% / 13.70%). R is true.",
-  "src": "app",
-  "tq": "assertion"
- },
- {
-  "id": "cpc65024f4b866",
-  "row": 31,
-  "s": "Match List-I (Cause of regional poverty difference) with List-II (Effect):\nList-I | List-II\na. Agricultural productivity and irrigation | i. PMGKAY, MGNREGA and PMAY-G cut poverty\nb. Infrastructure and investment | ii. Low education leads to higher poverty\nc. Human capital | iii. Investment only in select locales\nd. Social transfers | iv. Delta gains while rain-fed Rayalaseema lags\nSelect the correct answer using the codes given below:",
-  "o": [
-   "a-iv, b-i, c-ii, d-iii",
-   "a-i, b-iii, c-ii, d-iv",
-   "a-iv, b-iii, c-ii, d-i",
-   "a-i, b-iv, c-ii, d-iii"
-  ],
-  "a": 2,
-  "x": "Productivity and irrigation – delta vs Rayalaseema; infrastructure and investment – select locales; human capital – low education, higher poverty; social transfers – PMGKAY, MGNREGA, PMAY-G.",
+  "x": "Ricardo – Principles of Political Economy and Taxation (rent, comparative advantage); R.C. Dutt – The Economic History of India; Kautilya – Arthashastra; Amartya Sen – Inequality Reexamined.",
   "src": "app",
   "tq": "match"
  },
  {
-  "id": "cpbe52d19baed3",
-  "row": 31,
-  "s": "Consider the following statements about recent anti-poverty measures:\n1. Bihar runs the Satat Jeevikoparjan Yojana, a graduation-approach model.\n2. The Samaveshi Aajeevika Yojana is run by the Centre under DAY-NRLM.\n3. Kerala is moving to extreme-poverty-free status.\n4. The VB-G RAM G Act, 2025 raised the rural job guarantee to 150 days.\nHow many of the statements given above are correct?",
+  "id": "cpa755df9ea391",
+  "row": 32,
+  "s": "Consider the following statements:\n1. The World Inequality Report is published by the World Inequality Lab of the Paris School of Economics.\n2. The inequality reports released at Davos are published by the World Economic Forum.\n3. The Global Wealth Report and Databook is associated with Credit Suisse (now UBS).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: the inequality reports released at Davos (e.g. 'An economy for the 99%', 2017) are by Oxfam International.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpba50ceafb9e6",
+  "row": 32,
+  "s": "Consider the following statements:\n1. Max O. Lorenz introduced the Lorenz curve in 1915.\n2. Corrado Gini, an Italian statistician, proposed the Gini coefficient in 1912 in 'Variability and Mutability'.\n3. Simon Kuznets put forward the inverted-U hypothesis in 1955.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: Lorenz's curve dates from 1905 ('Methods of measuring the concentration of wealth').",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp94230235f553",
+  "row": 32,
+  "s": "Consider the following statements about the Lorenz curve:\n1. The X-axis shows the cumulative percentage of population, poorest first.\n2. The 45° diagonal line shows perfect equality.\n3. The farther the curve bows away from the 45° line, the lower the inequality.\n4. It gives a single numerical measure of inequality.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Only 1 and 2 are correct. 3 is wrong: greater distance from the diagonal means greater inequality. 4 is wrong: the Lorenz curve is a graph, not a number; the numerical measure derived from it is the Gini coefficient.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf23987dc3673",
+  "row": 32,
+  "s": "Consider the following statements about the Gini coefficient:\n1. It equals the area between the Lorenz curve and the equality line divided by the whole area under the equality line.\n2. It ranges from 0 (perfect equality) to 1 (one person has all the income).\n3. A Gini coefficient of 0.40 is a Gini index of 40.\n4. A higher Gini coefficient indicates lower inequality.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -175,23 +85,113 @@
    "All four"
   ],
   "a": 2,
-  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: the VB-G RAM G Act (passed 18 Dec 2025) guarantees 125 days.",
+  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: a higher Gini means more inequality.",
   "src": "app",
   "tq": "statements"
  },
  {
-  "id": "cp707975127be9",
-  "row": 31,
-  "s": "Consider the following statements:\n1. Scheduled Tribes have the highest poverty ratio among social groups (about 43-45% in 2011-12).\n2. About 35.1% of persons with no formal education are poor, against 14.9% of those with post-secondary education.\n3. India's social protection coverage rose from 22% in 2016 to 64.3% in 2025.\nHow many of the statements given above are correct?",
+  "id": "cpd8b94e5cb1dc",
+  "row": 32,
+  "s": "Match List-I (Curve) with List-II (Relationship shown):\nList-I | List-II\na. Phillips curve | i. Inflation vs unemployment\nb. Laffer curve | ii. Price vs quantity demanded\nc. Marshall (demand) curve | iii. Inequality vs per capita income\nd. Kuznets curve | iv. Tax rate vs tax revenue\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 0,
+  "x": "Phillips – inflation and unemployment; Laffer – tax rate and revenue (not inflation-unemployment); Marshall – price and quantity demanded; Kuznets – inequality and per capita income; the Lorenz curve shows distribution of income.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp345f7f65b80d",
+  "row": 32,
+  "s": "Consider the following statements about measuring inequality in India:\n1. Consumption inequality is measured mainly from the NSS/HCES surveys of MoSPI.\n2. Consumption-based estimates may understate the incomes of the highest-income groups.\n3. Wealth inequality is measured mainly from the All India Debt and Investment Survey (AIDIS).\n4. In 2023-24 the median income of the top 10% was about 30 times that of the bottom 10%.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
    "Only two",
-   "All three",
-   "None"
+   "Only three",
+   "All four"
   ],
   "a": 2,
-  "x": "All three are correct as per the notes (SCs follow STs at about 29%).",
+  "x": "Statements 1, 2 and 3 are correct (India has no official income survey; income inequality uses PLFS wages, tax data and WID). Statement 4 is wrong: the top-10% median income was about 13 times the bottom 10%.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cpeab1d3026587",
+  "row": 32,
+  "s": "Match List-I (Survey and area) with List-II (Monthly per capita consumption expenditure):\nList-I | List-II\na. NSS 2011-12, rural | i. ₹4,122\nb. HCES 2022-23, urban | ii. ₹6,459\nc. HCES 2023-24, rural | iii. ₹1,430\nd. HCES 2023-24, urban | iv. ₹6,996\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "NSS 2011-12: rural ₹1,430, urban ₹2,630; HCES 2022-23: rural ₹3,773, urban ₹6,459; HCES 2023-24: rural ₹4,122, urban ₹6,996 (gap about 70%).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp2ca3fb47ae06",
+  "row": 32,
+  "s": "Consider the following statements:\n1. In 2023-24 Bihar had the lowest and Goa the highest per capita NSDP.\n2. Andhra Pradesh's district-level MPI gaps are a measure of inter-State inequality.\n3. Rayalaseema and North Coastal districts lag in Andhra Pradesh's intra-State disparities.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: AP's district MPI gap (West Godavari 2.42% to Kurnool 12.84%) measures intra-State, not inter-State, inequality.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp565e34ae22eb",
+  "row": 32,
+  "s": "Consider the following statements:\nAssertion (A): Ceiling on land holdings is a direct measure for reducing economic inequality.\nReason (R): Progressive income tax is an indirect (fiscal) measure for reducing inequality.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both true: direct measures redistribute assets (land ceilings, land reforms, tenancy laws), while estate duty, wealth tax, capital gains tax and progressive income tax act indirectly. R describes a different, indirect measure, so it does not explain A.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp84b762de1265",
+  "row": 32,
+  "s": "Consider the following statements:\n1. Wealth tax was abolished in India from 1 April 2016.\n2. Estate duty was abolished in India in 1995.\n3. Article 38(2) directs the State to minimise inequalities in income and Article 39(c) to prevent concentration of wealth.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: estate duty was abolished in 1985.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc40492366794",
+  "row": 32,
+  "s": "Consider the following statements:\nAssertion (A): The Environmental Kuznets Curve suggests that 'the solution to pollution is economic growth'.\nReason (R): On the Environmental Kuznets Curve, environmental degradation rises with per capita income up to a threshold and falls thereafter.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: the EKC is an inverted U – degradation first rises, then falls once a threshold income is crossed, hence growth is seen as the eventual cure.",
+  "src": "app",
+  "tq": "assertion"
  }
 ]
