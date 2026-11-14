@@ -126,4 +126,4 @@
 - **NDMA** = policy and coordination; **NDRF/SDRF** = search, rescue, relief.
 - **2004 tsunami**: Tamil Nadu worst affected; **INCOIS, Hyderabad** – tsunami warning centre opened **2007**.
 - **Dial 112 (ERSS)** live in AP from **19 Feb 2019**; control centre at **Mangalagiri**.
-~~ Sources: APSDMA flood-season note (as quoted in the FRO PYQ); NextGen AP Geography 02 p.6; app notes 4:49 (sub 9, 10)
+~~ Sources: NextGen AP Geography 02 p.6; app notes 4:49 (sub 9, 10); APSDMA flood-season dates as stated in the APPSC FRO PYQ (not checked)
