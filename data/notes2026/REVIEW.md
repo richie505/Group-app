@@ -959,3 +959,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b1-w055 rewrite (rows 55-62): own 427 → 181 (42%). Check PYQs: yab45409b1a1, yb7817a4a616 first Param Bhagavata Chandragupta II vs notes Samudragupta; y8da3a903fd4 'Vengi' (Vaigai?).
 - b4-w021 rewrite (rows 21-26): own 391 → 142 (36%). 7 off-notes own MCQs removed.
 - b2-w021 rewrite (polity rows 21-26): own 387 → 152 (39%). Notes: Kehar Singh 1988 vs 1989.
+- b1-w063 rewrite (rows 63-68): own 440 → 174 (40%). Notes: Salankayanas 'Parama Mahesvara' (Vaishnava); Pulakesin II vs Harsha date 618–19 vs 637.

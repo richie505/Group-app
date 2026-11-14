@@ -49,12 +49,12 @@
   "row": 63,
   "s": "Consider the following statements about land grants:\n1. Brahmadeya grants were made to Brahmanas, singly or jointly, with tax exemption and administrative rights.\n2. Devagrahara grants were made to officials in lieu of salary.\n3. The earliest land grants in India were made by the Mauryas.\nHow many of the statements given above are correct?",
   "o": [
-   "Only one",
+   "None",
    "Only two",
    "All three",
-   "None"
+   "Only one"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Only 1 is correct. 2 is wrong: devagrahara / devadana grants went to temples and monasteries for worship; grants in lieu of salary were secular grants. 3 is wrong: the earliest land grants were made by the Satavahanas in the Deccan.",
   "src": "app",
   "tq": "statements"
@@ -184,13 +184,43 @@
   "row": 63,
   "s": "Consider the following statements:\n1. Samudragupta was equated with Kubera, Varuna, Indra and Yama.\n2. The Narada smriti, devoted to civil law, survives only in fragments.\n3. Gupta kings bore titles such as Maharajadhiraja and Paramabhattaraka.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the Narada smriti survives complete; it is the Brihaspati and Katyayana smritis that survive in fragments.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc61268dbfc9d",
+  "row": 63,
+  "s": "Consider the following statements about Gupta administrative units:\n1. In eastern India the vithi, a group of villages, was headed by the Ayuktaka.\n2. The vithi was a larger unit than the vishaya.\n3. The grama was headed by the Gramika (Gramadhyaksha) with the mahattaras.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: the order is bhukti (province) > vishaya (district) > vithi > grama.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp60d5a3b20295",
+  "row": 63,
+  "s": "Consider the following statements about Gupta officials:\n1. The Dandapashika was the district police officer.\n2. The Mahadandanayaka was the keeper of land-transfer records.\n3. Ministers and commanders were chosen from the Kumaramatyas.\nWhich of the statements given above is/are correct?",
+  "o": [
    "1 only",
    "1 and 2 only",
    "1 and 3 only",
    "2 and 3 only"
   ],
   "a": 2,
-  "x": "1 and 3 are correct. 2 is wrong: the Narada smriti survives complete; it is the Brihaspati and Katyayana smritis that survive in fragments.",
+  "x": "1 and 3 are correct. 2 is wrong: the Mahadandanayaka was the chief judicial / military officer; land-transfer records were kept by the Pustapala.",
   "src": "app",
   "tq": "statements"
  },
@@ -199,12 +229,12 @@
   "row": 64,
   "s": "Match List-I (Port of the Gupta age) with List-II (Location):\nList-I | List-II\na. Tamralipti | i. Krishna district, Andhra\nb. Bhrigukachchha | ii. Konkan coast, Maharashtra\nc. Chaul | iii. Gujarat, mouth of the Narmada\nd. Ghantasala | iv. Bengal, east coast\nSelect the correct answer using the codes given below:",
   "o": [
+   "a-i, b-iv, c-ii, d-iii",
    "a-i, b-iii, c-ii, d-iv",
-   "a-iv, b-iii, c-ii, d-i",
    "a-iv, b-i, c-ii, d-iii",
-   "a-i, b-iv, c-ii, d-iii"
+   "a-iv, b-iii, c-ii, d-i"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Tamralipti (Tamluk) – Bengal, the outlet of North Indian trade; Bhrigukachchha (Broach) – mouth of the Narmada, largest west-coast port; Chaul – Konkan, about 23 miles south of Mumbai; Ghantasala (Kontakossylla) – Krishna district.",
   "src": "app",
   "tq": "match"
@@ -214,12 +244,12 @@
   "row": 64,
   "s": "Consider the following statements about trade in the Gupta age:\n1. Gems, spices and textiles were the main exports.\n2. 'Chinansuka' denoted paper imported from China.\n3. Sopara and Cambay were ports of eastern India.\n4. Vidisha was noted for cloth and ivory work.\nHow many of the statements given above are correct?",
   "o": [
+   "Only two",
    "Only one",
    "Only three",
-   "Only two",
    "All four"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Two are correct (1 and 4). 2 is wrong: Chinansuka was Chinese silk. 3 is wrong: Sopara and Cambay were western ports; the eastern outlet was Tamralipti.",
   "src": "app",
   "tq": "statements"
@@ -229,12 +259,12 @@
   "row": 64,
   "s": "Consider the following statements:\n1. The Sudarshana lake at Girnar was built by Pushyagupta, governor of Chandragupta Maurya.\n2. Under Skandagupta the lake was repaired by Rudradaman.\n3. Motupalli and Koduru served South-East Asian trade under the Ikshvakus.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "1 and 2 only",
+   "1 only",
    "2 and 3 only",
-   "1 only"
+   "1 and 3 only"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Only 1 is correct. 2 is wrong: Rudradaman repaired it earlier; under Skandagupta it was repaired by his governor Parnadatta (Junagadh inscription). 3 is wrong: Motupalli and Koduru served SE Asian trade under the Vishnukundins.",
   "src": "app",
   "tq": "statements"
@@ -244,12 +274,12 @@
   "row": 64,
   "s": "Match List-I (Factor) with List-II (Effect on Indian trade):\nList-I | List-II\na. Eastern Roman (Byzantine) trade | i. North-western route blocked; inflow of gold and silver cut\nb. Huna invasions | ii. Overland trade hurt after the rise of Islam\nc. Sassanid decline | iii. Silk and spice trade till c. 550 CE, ended when the Romans learnt to rear silkworms\nd. Fall of the West Roman Empire | iv. Decline of North Indian trade in the 7th–10th centuries\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iii, b-i, c-ii, d-iv",
-   "a-i, b-iii, c-ii, d-iv",
    "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-i, c-ii, d-iv",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Byzantine trade lasted till about 550 CE and fell when the Romans learnt sericulture; the Hunas blocked the north-west and cut the inflow of gold and silver; the Sassanid decline after Islam hurt overland trade; the fall of the West Roman Empire (476 CE) is the standard cause of the 7th–10th century decline.",
   "src": "app",
   "tq": "match"
@@ -274,12 +304,12 @@
   "row": 64,
   "s": "Consider the following statements about Gupta and post-Gupta society:\n1. Castes multiplied into sub-castes by absorbing foreigners and tribes.\n2. The jajmani system tied hereditary service castes to landowning patrons for a share of the produce.\n3. The Narada Smriti lists 12 types of slaves.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
-   "2 and 3 only",
    "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "1 and 2 are correct. 3 is wrong: the Narada Smriti lists 15 types of slaves.",
   "src": "app",
   "tq": "statements"
@@ -290,11 +320,11 @@
   "s": "Consider the following statements about women in the Gupta period:\n1. The law books advised pre-puberty marriage of girls.\n2. Stridhana, over which women had control, consisted of ancestral land.\n3. Svayamvara gave way to marriages arranged by parents.\n4. The Eran inscription of 510 CE records the sati of the wife of Bhanugupta.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
-   "All four",
+   "Only two",
    "Only three",
-   "Only two"
+   "All four"
   ],
-  "a": 3,
+  "a": 1,
   "x": "Two are correct (1 and 3). 2 is wrong: stridhana consisted of marriage gifts; women had no general property rights. 4 is wrong: the Eran record (510 CE) is of the wife of Goparaja, a general / friend of Bhanugupta.",
   "src": "app",
   "tq": "statements"
@@ -304,12 +334,12 @@
   "row": 64,
   "s": "Match List-I (Record) with List-II (Guild fact):\nList-I | List-II\na. Dashpur (Mandsaur) inscription | i. Repair of the Sudarshana lake by Parnadatta\nb. Indore copper plate | ii. Guilds acting as banks; town board\nc. Damodarpur copper plates | iii. Silk weavers built a Sun temple\nd. Junagadh inscription | iv. Guild of oil-men maintained a lamp in a Sun temple\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iii, b-iv, c-ii, d-i",
-   "a-i, b-iv, c-ii, d-iii",
    "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-iv, c-ii, d-i",
    "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Dashpur – silk weavers' Sun temple (Kumaragupta I, Bandhuvarman); Indore plate (Skandagupta) – oil-men's guild; Damodarpur plates – guilds as banks and the town board; Junagadh – Parnadatta's repair of the Sudarshana lake.",
   "src": "app",
   "tq": "match"
@@ -320,11 +350,11 @@
   "s": "Consider the following statements about Gupta guilds:\n1. Some guilds maintained their own armed bodies.\n2. The head of a guild was called the Sarthavaha.\n3. The Dashpur inscription was composed by Vatsabhatti.\n4. The Indore copper plate recording the oil-men's guild belongs to Skandagupta's reign.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
-   "Only three",
    "Only two",
-   "All four"
+   "All four",
+   "Only three"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Three are correct. 2 is wrong: the head of a guild was the Sreshthi / Setti; the Sarthavaha was the caravan trader.",
   "src": "app",
   "tq": "statements"
@@ -334,12 +364,12 @@
   "row": 64,
   "s": "Consider the following statements about Fa-hien:\n1. He came overland via Central Asia and Gandhara and returned by sea via Sri Lanka.\n2. His account is known as the Si-yu-ki.\n3. He visited India during the reign of Kumaragupta I.\n4. He saw 20 viharas at Mathura.\nHow many of the statements given above are correct?",
   "o": [
+   "Only two",
    "Only one",
    "Only three",
-   "Only two",
    "All four"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Two are correct (1 and 4). 2 is wrong: his account is the Fo-kwo-ki; Si-yu-ki is Hiuen-Tsang's. 3 is wrong: he came c. 399–412 CE, under Chandragupta II.",
   "src": "app",
   "tq": "statements"
@@ -360,16 +390,31 @@
   "tq": "assertion"
  },
  {
+  "id": "cp4ba4e5a7ec51",
+  "row": 64,
+  "s": "Consider the following statements:\n1. Ghantasala in Krishna district was known to classical writers as Kontakossylla.\n2. Arikamedu had no part in international trade.\n3. The Satavahana weavers' guild was called Kolika Shreni.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: Arikamedu, Kaveripattanam and Muziris were centres of international (including Roman) trade.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
   "id": "cpc3444458fda1",
   "row": 65,
   "s": "Consider the following statements about early Bhagavatism:\n1. It centred on Vasudeva-Krishna of the Vrishni (Satvata) clan.\n2. Heliodorus, who set up the Garuda pillar at Besnagar, was the envoy of the Indo-Greek king Menander.\n3. Heliodorus served at the court of the Sunga king Bhagabhadra.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
+   "1 only",
    "1 and 2 only",
    "2 and 3 only",
-   "1 only"
+   "1 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: Heliodorus was the envoy of the Indo-Greek king Antialcidas.",
   "src": "app",
   "tq": "statements"
@@ -409,12 +454,12 @@
   "row": 65,
   "s": "Match List-I (Sect) with List-II (Associated fact):\nList-I | List-II\na. Pashupata | i. Bhairava worship; Bhairavakonda caves\nb. Kalamukha | ii. Followers of Kalanana; Simha Parishat in Andhra\nc. Kapalika | iii. Matsyendranath and Gorakhnath\nd. Nathpanth | iv. Oldest Shaiva sect, founded by Lakulisha\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-ii, d-iii",
-   "a-i, b-ii, c-iv, d-iii",
    "a-iv, b-i, c-ii, d-iii",
-   "a-iv, b-ii, c-i, d-iii"
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Pashupata – oldest, founder Lakulisha; Kalamukha – followers of Kalanana, a disciple of Lakulisha, Simha Parishat in Andhra; Kapalika – skull-bearing Bhairava worshippers, Bhairavakonda caves, Srisailam; Nathpanth – Matsyendranath and Gorakhnath.",
   "src": "app",
   "tq": "match"
@@ -424,12 +469,12 @@
   "row": 65,
   "s": "Consider the following statements:\n1. Gudimallam in Tirupati district has the earliest known Shiva linga.\n2. The Gupta ekamukhalinga is a linga bearing four faces of Shiva.\n3. Tantrism, open to women and Shudras, spread from the fifth century.\n4. The Kalamukha and Pashupata sects later flourished under the Kakatiyas.\nHow many of the statements given above are correct?",
   "o": [
-   "Only three",
-   "Only two",
    "Only one",
-   "All four"
+   "Only two",
+   "All four",
+   "Only three"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Three are correct. 2 is wrong: the ekamukhalinga is a linga with ONE face.",
   "src": "app",
   "tq": "statements"
@@ -439,12 +484,12 @@
   "row": 65,
   "s": "Consider the following statements:\n1. Eighteen Mahapuranas are traditionally recognised.\n2. The Puranas took their final shape in the Kushana period.\n3. The silk-weavers' guild built the Sun temple at Mandsaur in the reign of Skandagupta.\nHow many of the statements given above are correct?",
   "o": [
-   "Only two",
    "Only one",
+   "Only two",
    "All three",
    "None"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Only 1 is correct. 2 is wrong: the Puranas took their final shape in the Gupta period. 3 is wrong: the Mandsaur Sun temple was built under Kumaragupta I; Skandagupta's Indore plate endows a lamp in a Sun temple.",
   "src": "app",
   "tq": "statements"
@@ -454,12 +499,12 @@
   "row": 65,
   "s": "Match List-I (Gupta temple) with List-II (Feature):\nList-I | List-II\na. Temple 17, Sanchi | i. Low square shikhara and Panchayatana plan – third stage\nb. Parvati temple, Nachna | ii. Flat roof and square sanctum – first stage\nc. Shiva temple, Bhumara | iii. Covered ambulatory, two-storeyed – second stage\nd. Dashavatara temple, Deogarh | iv. Two flanking shrines – second stage\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-iii, d-i",
    "a-i, b-iii, c-iv, d-ii",
    "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iv, c-iii, d-i",
    "a-i, b-iii, c-ii, d-iv"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Sanchi Temple 17 – flat-roofed first stage; Nachna (Parvati) – covered ambulatory; Bhumara (Shiva) – two flanking shrines; Deogarh (Dashavatara, Vishnu) – low shikhara and Panchayatana, third stage.",
   "src": "app",
   "tq": "match"
@@ -470,11 +515,11 @@
   "s": "Consider the following statements about Gupta temples:\n1. Gupta temples stood on a raised platform called the jagati.\n2. The earliest surviving free-standing Hindu temples belong to the Kushana period.\n3. The Dashavatara temple of Deogarh is in Kanpur district.\n4. The Deogarh temple is the earliest Panchayatana temple of North India.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
-   "All four",
    "Only three",
-   "Only two"
+   "Only two",
+   "All four"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Two are correct (1 and 4). 2 is wrong: the earliest free-standing Hindu temples survive from the Gupta age. 3 is wrong: Deogarh is in Lalitpur district near Jhansi; Bhitargaon is near Kanpur.",
   "src": "app",
   "tq": "statements"
@@ -499,12 +544,12 @@
   "row": 65,
   "s": "Match List-I (Scholar) with List-II (Contribution):\nList-I | List-II\na. Vasubandhu | i. Visuddhimagga\nb. Dinnaga | ii. Vallabhi council that wrote down the Svetambara canon\nc. Buddhaghosa | iii. Founder of Buddhist logic\nd. Devarddhi Kshamashramana | iv. Abhidharmakosa\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iii, c-iv, d-ii",
    "a-iv, b-iii, c-i, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
    "a-iv, b-i, c-iii, d-ii",
    "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Vasubandhu – Abhidharmakosa; Dinnaga – Buddhist logic; Buddhaghosa – Visuddhimagga; Devarddhi Kshamashramana – Vallabhi council (5th c.).",
   "src": "app",
   "tq": "match"
@@ -515,12 +560,42 @@
   "s": "Consider the following statements about religion in the Gupta period:\n1. Nalanda was founded by Kumaragupta I.\n2. The Huna ruler Toramana persecuted Buddhism.\n3. The Kahaum pillar of Skandagupta's time records a Sun temple.\n4. Meghavarman of Sri Lanka built a monastery at Bodh Gaya with Samudragupta's permission.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
-   "Only three",
    "Only two",
+   "Only three",
    "All four"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Two are correct (1 and 4). 2 is wrong: the persecutor was Mihirakula. 3 is wrong: the Kahaum pillar records Jain images.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp301d52af1061",
+  "row": 65,
+  "s": "Consider the following statements:\n1. The Pashupata sect, the oldest Shaiva sect, was founded by Lakulisha.\n2. The Kapalikas were an extremist Vaishnava sect.\n3. Durga, Amba, Kali and Chandi were worshipped as mother goddesses.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: the skull-bearing Kapalikas were a Shaiva sect (Bhairava worship).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4136fc33c1bf",
+  "row": 65,
+  "s": "Consider the following statements about Gupta-age religion:\n1. Dharma, artha and kama together are called the trivarga.\n2. Moksha is one of the three components of the trivarga.\n3. Theistic, devotional Hinduism increasingly replaced sacrificial Brahmanism.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: moksha is the fourth purushartha; the trivarga is only dharma, artha and kama.",
   "src": "app",
   "tq": "statements"
  },
@@ -529,12 +604,12 @@
   "row": 66,
   "s": "Consider the following statements about the Ajanta caves:\n1. They lie in Aurangabad (Chhatrapati Sambhajinagar) district of Maharashtra.\n2. Of the 30 caves, five are chaityas.\n3. They were rediscovered in 1819 by James Fergusson.\n4. They were declared a UNESCO World Heritage Site in 1983.\nHow many of the statements given above are correct?",
   "o": [
-   "Only one",
+   "Only three",
    "Only two",
-   "All four",
-   "Only three"
+   "Only one",
+   "All four"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Three are correct. 3 is wrong: Ajanta was rediscovered in 1819 by the British officer John Smith on a tiger hunt.",
   "src": "app",
   "tq": "statements"
@@ -544,12 +619,12 @@
   "row": 66,
   "s": "Match List-I (Ajanta panel) with List-II (Cave):\nList-I (Panel) | List-II (Cave)\na. Shwetagaja (Chhaddanta) Jataka | i. Cave 1\nb. Bodhisattva Padmapani | ii. Cave 17\nc. Dying Princess | iii. Cave 16\nd. Mother and Child | iv. Cave 10\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iv, b-i, c-iii, d-ii",
    "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
    "a-iv, b-i, c-ii, d-iii",
    "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Shwetagaja Jataka – Cave 10 (first completely evolved painting); Padmapani – Cave 1 (with the Black Princess); Dying Princess – Cave 16 (excavated by Varahadeva); Mother and Child – Cave 17.",
   "src": "app",
   "tq": "match"
@@ -589,12 +664,12 @@
   "row": 66,
   "s": "Consider the following statements:\n1. The Amarakosha was compiled by Amarasimha.\n2. The Kamasutra was written by Kamandaka.\n3. Chandragomin, author of the Chandra Vyakarana, was a Jain.\n4. The Hitopadesha is based on the Panchatantra.\nHow many of the statements given above are correct?",
   "o": [
+   "Only two",
    "Only one",
-   "All four",
    "Only three",
-   "Only two"
+   "All four"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Two are correct (1 and 4). 2 is wrong: the Kamasutra is by Vatsyayana; Kamandaka wrote the Nitisara. 3 is wrong: Chandragomin was a Buddhist.",
   "src": "app",
   "tq": "statements"
@@ -604,12 +679,12 @@
   "row": 66,
   "s": "Match List-I (Work) with List-II (Author):\nList-I (Work) | List-II (Author)\na. Karpuramanjari | i. Rajshekhara\nb. Prakrit Prakasha | ii. Bhatti\nc. Katantra | iii. Sharvavarman\nd. Ravanavadha | iv. Vararuchi\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-iii, d-ii",
    "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
    "a-ii, b-iv, c-iii, d-i",
    "a-i, b-iii, c-ii, d-iv"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Karpuramanjari – Rajshekhara; Prakrit Prakasha – Vararuchi; Katantra – Sharvavarman (Satavahana age); Ravanavadha – Bhatti.",
   "src": "app",
   "tq": "match"
@@ -635,11 +710,11 @@
   "s": "Consider the following statements:\n1. Aryabhata composed the Aryabhatiya in 499 CE.\n2. Aryabhata gave the value of pi as 3.1416.\n3. Bhaskara I wrote a commentary on the Brahmasphutasiddhanta.\n4. The earliest epigraphic use of decimal place value is in the Gwalior inscription.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
-   "Only two",
+   "All four",
    "Only three",
-   "All four"
+   "Only two"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Two are correct (1 and 2). 3 is wrong: Bhaskara I commented on the Aryabhatiya. 4 is wrong: the earliest epigraphic place value is in the Mankani (Sankheda) plates of Gujarat (AD 595–596); the Gwalior inscription (876 CE) shows zero as a circle.",
   "src": "app",
   "tq": "statements"
@@ -649,12 +724,12 @@
   "row": 66,
   "s": "Match List-I (Work) with List-II (Author):\nList-I (Work) | List-II (Author)\na. Brahmasphutasiddhanta | i. Bhaskara II\nb. Ganitasarasangraha | ii. Brahmagupta\nc. Siddhanta Shiromani | iii. Varahamihira\nd. Panchasiddhantika | iv. Mahavira\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-iii, d-ii",
-   "a-i, b-iv, c-ii, d-iii",
    "a-ii, b-iv, c-iii, d-i",
-   "a-ii, b-iv, c-i, d-iii"
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Brahmasphutasiddhanta – Brahmagupta; Ganitasarasangraha – Mahavira (9th c.); Siddhanta Shiromani (Lilavati, Bijaganita, Ganitadhyaya, Goladhyaya) – Bhaskara II; Panchasiddhantika – Varahamihira.",
   "src": "app",
   "tq": "match"
@@ -664,12 +739,12 @@
   "row": 66,
   "s": "Consider the following statements:\n1. Brahmagupta laid down rules for zero and negative numbers and studied cyclic quadrilaterals.\n2. The Khandakhadyaka was written by Aryabhata.\n3. Bhaskara I wrote decimal numbers with a circle for zero in 629 CE.\n4. The Gwalior inscription showing zero as a circle dates to 876 CE.\nHow many of the statements given above are correct?",
   "o": [
+   "Only one",
    "Only three",
    "Only two",
-   "Only one",
    "All four"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Three are correct. 2 is wrong: the Khandakhadyaka is by Brahmagupta.",
   "src": "app",
   "tq": "statements"
@@ -680,11 +755,11 @@
   "s": "Consider the following statements about Varahamihira:\n1. He treated termites as a sign of underground water.\n2. His Brihat Jataka is a work on medicine.\n3. His Panchasiddhantika summarises five siddhantas, including the Paitamaha and Paulisa.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only",
-   "1 and 2 only"
+   "2 and 3 only"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: the Brihat Jataka is a work on astrology.",
   "src": "app",
   "tq": "statements"
@@ -694,12 +769,12 @@
   "row": 66,
   "s": "Match List-I (Mahakavya) with List-II (Theme):\nList-I | List-II\na. Raghuvamsha | i. Arjuna's fight with Shiva as a hunter at Indrakeeladri\nb. Kiratarjuniyam | ii. Kings of the Raghu dynasty\nc. Shishupalavadha | iii. Krishna slays Shishupala\nd. Naishadhiyacharita | iv. Nala and Damayanti\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
    "a-i, b-ii, c-iii, d-iv",
-   "a-ii, b-i, c-iii, d-iv",
-   "a-i, b-iv, c-iii, d-ii"
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iii, d-iv"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Raghuvamsha (Kalidasa) – Raghu dynasty; Kiratarjuniyam (Bharavi) – Arjuna vs Shiva as a kirata at Indrakeeladri; Shishupalavadha (Magha) – Krishna slays Shishupala; Naishadhiyacharita (Sriharsha) – Nala and Damayanti.",
   "src": "app",
   "tq": "match"
@@ -709,12 +784,12 @@
   "row": 66,
   "s": "Consider the following statements about Kalidasa:\n1. Malavikagnimitram is one of his three dramas.\n2. Ritusamhara is one of his dramas.\n3. Agnimitra, the hero of Malavikagnimitram, was the Shunga king of Vidisha.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
+   "1 and 3 only",
    "2 and 3 only",
-   "1, 2 and 3",
-   "1 and 3 only"
+   "1 and 2 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 0,
   "x": "1 and 3 are correct. 2 is wrong: Ritusamhara, like Meghaduta, is a lyric poem; his three dramas are Abhijnana Shakuntalam, Malavikagnimitram and Vikramorvashiyam.",
   "src": "app",
   "tq": "statements"
@@ -724,12 +799,12 @@
   "row": 66,
   "s": "Consider the following statements about Gupta sculpture:\n1. Gupta stone sculpture grew out of the Gandhara school.\n2. The Sarnath school used polished Chunar buff sandstone.\n3. The typical mudra of Sarnath Buddha images is the Dharmachakra mudra.\n4. The Sultanganj Buddha is a terracotta image from Uttar Pradesh.\nHow many of the statements given above are correct?",
   "o": [
-   "Only two",
    "Only one",
+   "Only two",
    "Only three",
    "All four"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Two are correct (2 and 3). 1 is wrong: Gupta sculpture grew out of the Mathura school. 4 is wrong: the Sultanganj Buddha, over 2 m tall, is a bronze from Bhagalpur, Bihar.",
   "src": "app",
   "tq": "statements"
@@ -754,12 +829,12 @@
   "row": 66,
   "s": "Match List-I (Physician / text) with List-II (Association):\nList-I | List-II\na. Palakapya | i. Manual of metallic preparations\nb. Navanitakam | ii. Hastyayurveda (elephant diseases)\nc. Vagbhata | iii. Ashtanga Hridaya\nd. Sushruta | iv. Surgery\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
    "a-i, b-ii, c-iii, d-iv",
-   "a-ii, b-i, c-iii, d-iv",
-   "a-i, b-iv, c-iii, d-ii"
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iii, d-iv"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Palakapya – Hastyayurveda; Navanitakam – metallic preparations; Vagbhata – Ashtanga Sangraha / Ashtanga Hridaya; Sushruta – Sushruta Samhita, surgery.",
   "src": "app",
   "tq": "match"
@@ -769,12 +844,12 @@
   "row": 66,
   "s": "Match List-I (Gupta coin type) with List-II (Ruler):\nList-I (Coin type) | List-II (Ruler)\na. Veena-player (lyrist) | i. Chandragupta I\nb. Lion-slayer | ii. Samudragupta\nc. King feeding a peacock | iii. Kumaragupta I\nd. King-queen type | iv. Chandragupta II\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-iii, d-ii",
    "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
    "a-ii, b-iv, c-i, d-iii",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Veena-player – Samudragupta; Lion-slayer (and archer) – Chandragupta II; King feeding a peacock – Kumaragupta I; King-queen (with Kumaradevi) – Chandragupta I.",
   "src": "app",
   "tq": "match"
@@ -784,12 +859,12 @@
   "row": 66,
   "s": "Consider the following statements about Gupta coinage:\n1. Gupta silver coins began under Samudragupta.\n2. The Gupta silver coins were modelled on Saka silver issues.\n3. The largest hoard of Gupta coins was found at Bayana in Rajasthan.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
-   "1 and 2 only",
    "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
    "1 and 3 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "2 and 3 are correct. 1 is wrong: silver coinage began under Chandragupta II after his conquest of the Western Kshatrapas.",
   "src": "app",
   "tq": "statements"
@@ -800,11 +875,11 @@
   "s": "Consider the following statements:\n1. The Bagh caves lie in Dhar district on the Baghani river.\n2. Bagh has nine Buddhist viharas.\n3. The Udayagiri group near Vidisha has 20 caves.\n4. Virasena's inscription at Udayagiri records the conquests of Samudragupta.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
-   "Only three",
    "Only two",
+   "Only three",
    "All four"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Three are correct. 4 is wrong: Virasena's inscription at Udayagiri records the conquests of Chandragupta II, under whom the caves were cut.",
   "src": "app",
   "tq": "statements"
@@ -829,27 +904,57 @@
   "row": 66,
   "s": "Match List-I (Navaratna) with List-II (Field):\nList-I | List-II\na. Dhanvantari | i. Sculpture and architecture\nb. Vetala Bhatta | ii. Magic (Mantrashastra)\nc. Shanku | iii. Ayurveda\nd. Amarasimha | iv. Lexicon\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iii, c-ii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
    "a-i, b-ii, c-iii, d-iv",
    "a-iii, b-ii, c-iv, d-i",
-   "a-iii, b-ii, c-i, d-iv"
+   "a-i, b-iii, c-ii, d-iv"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Dhanvantari – Ayurveda; Vetala Bhatta – Mantrashastra; Ghatakarpara and Shanku – sculpture and architecture; Amarasimha – Amarakosha.",
   "src": "app",
   "tq": "match"
+ },
+ {
+  "id": "cpd3d4b91f2896",
+  "row": 66,
+  "s": "Consider the following statements:\n1. The Mehrauli iron pillar was originally set up at Udayagiri near Vidisha.\n2. The Gupta Varaha image at Eran shows a Vaishnava presence.\n3. In April 2025 the Prime Minister gifted a Sarnath-style Buddha in Bhumisparsha mudra to the King of Thailand.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: the Sarnath-style Buddha gifted to the King of Thailand was in Dhyan mudra.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd735a7e60510",
+  "row": 66,
+  "s": "Consider the following statements:\n1. The Prakrit Setubandha was written by the Vakataka Pravarasena II.\n2. Jayadeva, author of the Geet Govind, was the court poet of the Pala king Dharmapala.\n3. The Narada Smriti is one of the law books of the Gupta age.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: Jayadeva (12th c.) was the poet of Lakshman Sen of Bengal.",
+  "src": "app",
+  "tq": "statements"
  },
  {
   "id": "cpa5dd933a6850",
   "row": 67,
   "s": "Match List-I (Poet) with List-II (Patron):\nList-I (Poet) | List-II (Patron)\na. Bhavabhuti | i. Pallava Narasimhavarman (II)\nb. Rajasekhara | ii. Yashovarman of Kannauj\nc. Mayura | iii. Harshavardhana\nd. Dandin | iv. Gurjara-Pratiharas\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
    "a-i, b-iv, c-iii, d-ii",
-   "a-ii, b-iv, c-iii, d-i",
-   "a-i, b-iv, c-ii, d-iii"
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Bhavabhuti (Malatimadhava, Uttararamacharita) – Yashovarman; Rajasekhara (Kavyamimamsa, Karpuramanjari) – Gurjara-Pratiharas; Mayura (Suryashataka) – Harsha; Dandin (Dashakumaracharita) – Pallava Narasimhavarman.",
   "src": "app",
   "tq": "match"
@@ -859,12 +964,12 @@
   "row": 67,
   "s": "Consider the following statements:\n1. Banabhatta's Harshacharita is a semi-historical biography of Harsha.\n2. Bana's Kadambari was completed by his son Bhushanabhatta.\n3. Bana was a native of Pritikuta on the Narmada river.\n4. Matanga Divakara was a court poet of Harsha.\nHow many of the statements given above are correct?",
   "o": [
-   "Only one",
    "Only three",
    "Only two",
+   "Only one",
    "All four"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Three are correct. 3 is wrong: Pritikuta, Bana's native village, lay on the Sona river (Bihar).",
   "src": "app",
   "tq": "statements"
@@ -874,12 +979,12 @@
   "row": 67,
   "s": "Consider the following statements about sources and authors:\n1. The Banskhera inscription bears the signature of Harsha.\n2. The Madhuban plate helps to fix the chronology of Harsha's reign.\n3. Hastimalla was a Kashmiri court poet of Harsha.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "2 and 3 only",
    "1 and 2 only",
+   "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1 and 2 are correct. 3 is wrong: Hastimalla was a 13th-century Jain playwright (Sanskrit plays) and Kannada poet.",
   "src": "app",
   "tq": "statements"
@@ -890,11 +995,11 @@
   "s": "Consider the following statements about Hiuen Tsang:\n1. He set out from the Tang capital Changan in 629.\n2. He returned to China about 16 years later.\n3. At Nalanda he studied the Abhidhamma Pitaka under Silabhadra.\n4. Besides Harsha and Pulakesin II, he praised the Pallava Mahendravarman I.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
-   "All four",
    "Only three",
-   "Only two"
+   "Only two",
+   "All four"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Two are correct (1 and 2). 3 is wrong: he studied the Yogashastra under Silabhadra. 4 is wrong: the Pallava king he praised was Narasimhavarman I.",
   "src": "app",
   "tq": "statements"
@@ -935,11 +1040,11 @@
   "s": "Consider the following statements about Harsha's contemporaries:\n1. Shashanka of Gauda had his capital at Karnasuvarna.\n2. Shashanka cut down the Bodhi tree at Gaya.\n3. Dhruvasena II of Valabhi married Harsha's sister.\n4. Devagupta of Malwa was Harsha's ally against Shashanka.\nHow many of the statements given above are correct?",
   "o": [
    "Only one",
-   "Only three",
    "Only two",
+   "Only three",
    "All four"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Two are correct (1 and 2). 3 is wrong: Dhruvasena II married Harsha's daughter. 4 is wrong: Harsha's ally was Bhaskaravarman of Kamarupa; Devagupta of Malwa killed Grahavarman.",
   "src": "app",
   "tq": "statements"
@@ -951,10 +1056,10 @@
   "o": [
    "Only one",
    "Only two",
-   "All four",
-   "Only three"
+   "Only three",
+   "All four"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Three are correct. 1 is wrong: Harsha was defeated on the Narmada.",
   "src": "app",
   "tq": "statements"
@@ -964,12 +1069,12 @@
   "row": 67,
   "s": "Match List-I (Year CE) with List-II (Event of Harsha's reign):\nList-I (Year CE) | List-II (Event)\na. 606 | i. Accession; Harsha era begins\nb. 631 | ii. Kannauj assembly\nc. 643 | iii. Death of Harsha without an heir\nd. 647 | iv. Hiuen Tsang at Harsha's court\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
    "a-i, b-ii, c-iv, d-iii",
    "a-ii, b-iv, c-i, d-iii",
-   "a-i, b-iii, c-iv, d-ii"
+   "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 0,
+  "a": 3,
   "x": "606 – accession at 16 and the Harsha era; 631 – Hiuen Tsang at court; 643 – Kannauj assembly; 647 – death without an heir.",
   "src": "app",
   "tq": "match"
@@ -979,12 +1084,12 @@
   "row": 67,
   "s": "Consider the following statements about the Vakatakas:\n1. Prabhavatigupta was married to Rudrasena II.\n2. Prabhavatigupta was the sister of Chandragupta II.\n3. Her regency gave the Guptas indirect control of the Deccan.\n4. The Prakrit Setubandha was written by Pravarasena I.\nHow many of the statements given above are correct?",
   "o": [
-   "Only one",
    "Only two",
+   "Only one",
    "Only three",
    "All four"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Two are correct (1 and 3). 2 is wrong: Prabhavatigupta was the daughter of Chandragupta II. 4 is wrong: the Setubandha is by Pravarasena II; Pravarasena I was the Samrat who performed four Ashvamedhas.",
   "src": "app",
   "tq": "statements"
@@ -1011,10 +1116,10 @@
   "o": [
    "Only one",
    "Only two",
-   "All four",
-   "Only three"
+   "Only three",
+   "All four"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Three are correct. 2 is wrong: the Maha Moksha Parishad was the Prayag assembly at the Ganga-Yamuna Sangam; the Kannauj assembly (643) honoured Hiuen Tsang.",
   "src": "app",
   "tq": "statements"
@@ -1054,12 +1159,12 @@
   "row": 67,
   "s": "Match List-I (Officer of Harsha) with List-II (Charge):\nList-I | List-II\na. Avanti | i. War and peace\nb. Simhanada | ii. Cavalry\nc. Kuntala | iii. Elephant force\nd. Skandagupta | iv. Commander-in-chief\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii",
    "a-i, b-ii, c-iv, d-iii",
-   "a-i, b-iv, c-ii, d-iii",
-   "a-i, b-iii, c-iv, d-ii"
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Avanti – war and peace; Simhanada – commander-in-chief; Kuntala – cavalry; Skandagupta – elephant force.",
   "src": "app",
   "tq": "match"
@@ -1069,12 +1174,12 @@
   "row": 67,
   "s": "Consider the following statements about Harsha's administration:\n1. The state revenue was divided into four parts.\n2. The land tax was fixed at one-fourth of the produce.\n3. Officials were paid through land grants, a feudal trend.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
+   "1 only",
    "1 and 2 only",
-   "2 and 3 only",
-   "1 only"
+   "1 and 3 only",
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: the land tax was one-sixth of the produce.",
   "src": "app",
   "tq": "statements"
@@ -1084,13 +1189,133 @@
   "row": 67,
   "s": "Consider the following statements about Hiuen Tsang in Andhra:\n1. He visited Andhra in the time of Kubja Vishnuvardhana.\n2. He named Amaravati as the capital of An-to-lo.\n3. Dhanyakataka had about 20 Mahasanghika viharas whose monks studied the Abhidhamma Pitaka.\n4. The Sriparvata vihara lacked patronage.\nHow many of the statements given above are correct?",
   "o": [
+   "Only one",
+   "Only two",
+   "All four",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "Three are correct. 2 is wrong: the capital of An-to-lo (Andhra) was Vengi.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp35d1812a89c6",
+  "row": 67,
+  "s": "Consider the following statements about Harshavardhana:\n1. He ascended the throne at the age of 16.\n2. The Harsha era began in 612 CE.\n3. His title Sakalottarapathanatha means 'lord of all North India'.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the Harsha era began with his accession in 606 CE.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa5accd8c6474",
+  "row": 68,
+  "s": "Consider the following statements about the struggle for Kannauj:\n1. Possession of Kannauj symbolised imperial sovereignty – its holder claimed to be Samrat of North India.\n2. Arabian Sea trade through Gujarat let the masters of Kannauj bypass the Arab-held Ganga delta.\n3. The struggle was fought mainly in the 8th–9th centuries CE.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: Gujarat's Arabian Sea trade let them bypass the Arab-held Indus delta.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2a3993635d93",
+  "row": 68,
+  "s": "Match List-I (Ruler) with List-II (Role in the struggle for Kannauj):\nList-I | List-II\na. Vatsaraja | i. Defeated Dharmapala at Monghyr\nb. Chakrayudha | ii. Held Kannauj with an empire from the Himalayas to the Narmada\nc. Nagabhata II | iii. Took Kannauj and defeated Dharmapala in the first phase\nd. Mihira Bhoja | iv. Puppet installed at Kannauj by Dharmapala\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Vatsaraja (Pratihara) – phase I; Chakrayudha – Dharmapala's puppet, replacing Indrayudha; Nagabhata II – ousted Chakrayudha and beat Dharmapala at Monghyr (Munger); Mihira Bhoja – phase IV, Himalayas to the Narmada.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc420c33f45b6",
+  "row": 68,
+  "s": "Match List-I (Rashtrakuta ruler) with List-II (Fact):\nList-I | List-II\na. Dhruva | i. Issued the Sanjan plates (871 CE)\nb. Govinda III | ii. Sacked Kannauj c. 916, defeating Mahipala I\nc. Indra III | iii. Defeated Vatsaraja and Dharmapala and returned south with booty\nd. Amoghavarsha I | iv. Himalayan campaign; defeated Nagabhata II\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Dhruva (780–793) – beat Vatsaraja and Dharmapala; Govinda III – Himalayan campaign, beat Nagabhata II; Indra III – sacked Kannauj c. 916 (Mahipala I); Amoghavarsha I – Sanjan plates, which record Govinda III's campaign.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbac25a038fd5",
+  "row": 68,
+  "s": "Consider the following statements:\nAssertion (A): In the second phase Dharmapala removed Indrayudha from the throne of Kannauj.\nReason (R): Indrayudha was the nominee of the Pratiharas, Dharmapala's rivals for Kannauj.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: Dharmapala removed the Pratihara nominee Indrayudha and installed his own puppet Chakrayudha.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp6c7ca4fbfa38",
+  "row": 68,
+  "s": "Consider the following statements about the Rashtrakutas in the north:\n1. Dhruva also defeated Vishnuvardhana IV of Vengi.\n2. Govinda III was the predecessor of Dhruva.\n3. Govinda III led the Rashtrakuta campaign up to the Himalayas.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: Govinda III was Dhruva's successor.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7fe625f67481",
+  "row": 68,
+  "s": "Consider the following statements:\nAssertion (A): The Gurjara-Pratiharas finally held Kannauj at the end of the tripartite struggle.\nReason (R): The Rashtrakuta raids into the north brought them lasting territory there.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (Bhoja, Mahendrapala I, till Mahmud of Ghazni in 1018). R is false: the Rashtrakuta raids gave loot and prestige, not lasting land.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp39b5232a6986",
+  "row": 68,
+  "s": "Consider the following statements about the sources of the struggle:\n1. The Gwalior prashasti of Mihira Bhoja records Nagabhata II's victories over Chakrayudha and Dharmapala.\n2. The Khalimpur plates of Dharmapala record the election of Gopala to end Matsya Nyaya.\n3. Dharmapala founded the Nalanda university.\n4. Dharmapala took the title Param Saugat.\nHow many of the statements given above are correct?",
+  "o": [
    "Only three",
    "Only two",
    "Only one",
    "All four"
   ],
   "a": 0,
-  "x": "Three are correct. 2 is wrong: the capital of An-to-lo (Andhra) was Vengi.",
+  "x": "Three are correct. 3 is wrong: Dharmapala founded Vikramashila; Nalanda was founded by the Gupta ruler Kumaragupta I.",
   "src": "app",
   "tq": "statements"
  }

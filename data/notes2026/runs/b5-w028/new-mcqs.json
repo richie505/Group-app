@@ -448,5 +448,350 @@
   "x": "Statement 1 is correct. Statement 2 is wrong: the top State in NCRB 2023 was Karnataka (21,889). Statement 3 is correct. Hence the answer is '2 only'.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp4833d274a7f8",
+  "row": 30,
+  "s": "Consider the following statements about the Information Technology Act, 2000:\n1. Being a special law, it may override the IPC where an offence is fully covered by it.\n2. Digital Signature Certificates are issued directly by the Controller of Certifying Authorities (CCA).\n3. The 2008 amendment brought in the technology-neutral term 'electronic signature' and added offences such as video voyeurism.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: the CCA licenses Certifying Authorities, and it is the CAs that issue Digital Signature Certificates. Statement 3 is correct. The 2008 amendment also covered sexually explicit material (67A), data leakage by intermediaries and e-commerce fraud, and inserted 70A and 70B. Hence the answer is '1 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3859f7299b77",
+  "row": 30,
+  "s": "Match List-I (Section of the IT Act, 2000) with List-II (Subject):\nList-I\na. Section 43A\nb. Section 66D\nc. Section 66F\nd. Section 66C\nList-II\ni. Cyber terrorism (punishable with life imprisonment)\nii. Compensation for failure to protect data\niii. Identity theft\niv. Cheating by personation\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 2,
+  "x": "Section 43A – Compensation for failure to protect data; Section 66D – Cheating by personation; Section 66F – Cyber terrorism (punishable with life imprisonment); Section 66C – Identity theft. So a-ii, b-iv, c-i, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp08829d00e07f",
+  "row": 30,
+  "s": "Match the following sections of the IT Act, 2000 with their subjects:\nSection\na. Section 4\nb. Section 69A\nc. Section 70A\nd. Section 79\nSubject\ni. NCIIPC\nii. Legal recognition of electronic records\niii. Safe harbour for intermediaries\niv. Blocking of public access to information\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "Section 4 – Legal recognition of electronic records; Section 69A – Blocking of public access to information; Section 70A – NCIIPC; Section 79 – Safe harbour for intermediaries. Section 5 recognises e-signatures, and under 79A it is the Central Government that notifies Examiners of Electronic Evidence. So a-ii, b-iv, c-i, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc1fd8cd3f679",
+  "row": 30,
+  "s": "With reference to Shreya Singhal v. Union of India (24 March 2015), consider the following statements:\n1. Section 66A of the IT Act was struck down as violating Article 19(1)(a) and was not saved by Article 19(2).\n2. Section 69A, on blocking of online content, was also struck down.\n3. Section 79 was read down: 'actual knowledge' means a court order or a government notice.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "2 only",
+   "1 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: Section 69A was upheld. Statement 3 is correct. Hence the answer is '2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2280575aa2b6",
+  "row": 30,
+  "s": "Consider the following:\nAssertion (A): Under the IT Rules as amended on 27 March 2026, intermediaries must take down unlawful content within 24 hours.\nReason (R): Under the IT Rules 2021, an intermediary that fails to observe due diligence loses its safe harbour.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the March 2026 amendment requires takedown within three hours, not 24 hours. R is true: failure of due diligence under the IT Rules 2021 means loss of safe harbour (Section 79).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp23b81ecc76b6",
+  "row": 30,
+  "s": "Consider the following statements about digital signatures and PKI:\n1. A digital signature provides authentication, integrity and non-repudiation, but not secrecy of contents.\n2. A digital signature is based on asymmetric cryptography and a hash function.\n3. The sender signs the document with his public key.\n4. Public Key Infrastructure creates, manages and revokes digital certificates.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the private key signs; the public key verifies. Statement 4 is correct. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpab8958d4001d",
+  "row": 30,
+  "s": "Consider the following statements about CERT-In:\n1. It has been operational since January 2004 under MeitY.\n2. It became a statutory body under Section 70A of the IT Act.\n3. Its Directions of 28 April 2022 require reporting of incidents within 6 hours and keeping of logs for 180 days.\n4. Under the same Directions, VPN providers must keep subscriber data for 2 years.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "1, 2 and 3 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: CERT-In is statutory under Section 70B; 70A concerns NCIIPC. Statement 3 is correct. Statement 4 is wrong: VPN providers must keep data for 5 years. CERT-In is also a CVE Numbering Authority, and the 2022 Directions cover government bodies and VASPs too. Hence the answer is '1 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2394f53fa755",
+  "row": 30,
+  "s": "Match List-I (Body) with List-II (Role):\nList-I\na. NCCC\nb. NCIIPC\nc. NTRO\nd. I4C\nList-II\ni. Protection of critical information infrastructure (under NTRO)\nii. Situational awareness of cyber threats\niii. Cyber crime coordination under the Ministry of Home Affairs\niv. Technical intelligence\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 3,
+  "x": "NCCC – Situational awareness of cyber threats; NCIIPC – Protection of critical information infrastructure (under NTRO); NTRO – Technical intelligence; I4C – Cyber crime coordination under the Ministry of Home Affairs. So a-ii, b-i, c-iv, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpcae8b3dea024",
+  "row": 30,
+  "s": "Consider the following:\nAssertion (A): NCIIPC protects critical information infrastructure in sectors such as power, BFSI, telecom and transport.\nReason (R): NCIIPC functions under the NTRO and was set up under Section 70A of the IT Act.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: NCIIPC covers power, BFSI, telecom, transport, government and strategic sectors (not tourism), and it is under NTRO via Sec. 70A. But its parent body and legal basis do not explain which sectors it protects, so R is not the explanation of A.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp1e50afa54568",
+  "row": 30,
+  "s": "Consider the following statements about the Indian Cyber Crime Coordination Centre (I4C):\n1. It functions under the Ministry of Home Affairs.\n2. It was approved in 2018 and became operational in 2020.\n3. It is a statutory body set up under the IT Act.\n4. It became an Attached Office in 2024.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "3 and 4 only",
+   "3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: I4C is not statutory. Statement 4 is correct. Hence the answer is '3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3dc9eb9b2cb3",
+  "row": 30,
+  "s": "Match the following I4C components with their functions:\nComponent\na. cybercrime.gov.in (NCRP)\nb. CFCFRMS\nc. Samanvaya\nd. CyTrain\nFunction\ni. Real-time freezing of defrauded funds\nii. Training of police, prosecutors and judges\niii. Reporting all cyber crimes, especially against women and children\niv. Data sharing and joint investigation\nSelect the correct answer:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "cybercrime.gov.in (NCRP) – Reporting all cyber crimes, especially against women and children; CFCFRMS – Real-time freezing of defrauded funds; Samanvaya – Data sharing and joint investigation; CyTrain – Training of police, prosecutors and judges. So a-iii, b-i, c-iv, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa6b7e61a54b1",
+  "row": 30,
+  "s": "Consider the following statements:\n1. The Cyber Commandos programme under I4C was launched in 2024.\n2. Under the SOP of January 2026, banks may refund frauds below Rs 50,000 without a court order.\n3. Under the same SOP, frozen funds are to be released within 180 days.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the SOP provides for release in 90 days. e-Zero FIR runs in 19 States. Hence the answer is '1 and 2 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0a7653a03003",
+  "row": 30,
+  "s": "Consider the following statements:\n1. The National Cyber Security Policy, 2013 lists 12 objectives.\n2. NCSP 2013 aimed at 5 lakh cyber security professionals in five years.\n3. Cyber Jagrookta Diwas is observed on the first Wednesday of every month.\n4. October is observed as cyber security awareness month.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: NCSP 2013 has 14 objectives. Statement 2 is correct. Statement 3 is correct. Statement 4 is correct. The 'Scenario Building & Response' cyber exercise was held in New Delhi. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpddf021a5ca6e",
+  "row": 30,
+  "s": "Consider the following statements about Andhra Pradesh:\n1. The AP Cyber Security Policy 2017 is implemented by CERT-In.\n2. APTS was the first CERT-In-empanelled body in AP.\n3. AP's cyber crime Coordination Centre is at Krishnalanka Police Station, Vijayawada.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: it is implemented by APTS (AP Technology Services). Statement 2 is correct. Statement 3 is correct. Hence the answer is '2 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp35b6f70d97a4",
+  "row": 30,
+  "s": "Consider the following statements:\n1. The UN Convention against Cybercrime was adopted on 24 December 2024.\n2. It was opened for signature at Geneva in October 2025.\n3. India signed the UN Convention against Cybercrime in September 2026.\n4. India was placed in Tier-1 of the ITU Global Cybersecurity Index 2024 with a score of 98.49.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4",
+   "1 and 3 only",
+   "1 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: it was opened for signature at Hanoi. Statement 3 is correct. Statement 4 is correct. Hence the answer is '1, 3 and 4 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc87d21782866",
+  "row": 31,
+  "s": "Consider the following statements about the National Cyber Security Policy (NCSP), 2013:\n1. It was released by DeitY, then under the Ministry of Communications and IT.\n2. Its vision is a secure and resilient cyberspace for citizens, businesses and government.\n3. It aimed to create 5 lakh cyber security professionals in 10 years.\n4. It requires every ministry, department and organisation to name a Chief Information Security Officer (CISO).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2, 3 and 4",
+   "1 and 4 only",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong: the target was 5 lakh professionals in 5 years. Statement 4 is correct. Hence the answer is '1, 2 and 4 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb48efcf6f153",
+  "row": 31,
+  "s": "Match List-I (Function) with List-II (Nodal agency):\nFunction\na. Incident response and crisis management\nb. Critical information infrastructure\nc. Situational awareness and timely information-sharing\nd. Nodal point for cyber diplomacy\nNodal agency\ni. NCCC\nii. Ministry of External Affairs (Cyber Diplomacy Division)\niii. CERT-In\niv. NCIIPC\nSelect the correct answer:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 2,
+  "x": "Incident response and crisis management – CERT-In; Critical information infrastructure – NCIIPC; Situational awareness and timely information-sharing – NCCC; Nodal point for cyber diplomacy – Ministry of External Affairs (Cyber Diplomacy Division). So a-iii, b-iv, c-i, d-ii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp23e3175bc945",
+  "row": 31,
+  "s": "Consider the following:\nAssertion (A): The National Cyber Security Policy, 2013 remains India's operative cyber security policy.\nReason (R): The National Cyber Security Strategy prepared under the National Cyber Security Coordinator in the NSCS is still a draft and has not been notified.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: since the 2020 strategy is only a draft (there is no 'NCSP 2020' in force), the 2013 policy continues to operate.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpcf0a9904be9a",
+  "row": 31,
+  "s": "Consider the following statements:\n1. The Cyber Crisis Management Plan (CCMP) against cyber attacks and cyber terrorism was framed by the Ministry of Home Affairs.\n2. Cyber Surakshit Bharat (MeitY, 2018) was the first public-private partnership initiative to train CISOs, with deep-dive training by NeGD.\n3. Cyber Jagrookta Diwas, observed on the first Wednesday of every month under MHA's I4C, began in October 2021.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: the CCMP is a MeitY framework, followed by all Central and State Governments. Statement 2 is correct. Statement 3 is correct. Hence the answer is '1 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp13815c97003f",
+  "row": 31,
+  "s": "Consider the following statements:\n1. The CCPWC scheme has an outlay of Rs 132.93 crore and set up cyber forensic-cum-training labs in 33 States/UTs.\n2. Projects under the CCPWC scheme are linked to the PM CARES Fund.\n3. Cyber Shakti trains women government officials in cyber security.\n4. ISEA stands for Information Security Education and Awareness, a MeitY capacity-building project.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: CCPWC is linked to the Nirbhaya Fund (and the National Cyber Crime Reporting Portal). Statement 3 is correct. Statement 4 is correct. Hence the answer is 'Only three'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe56ad15dd20c",
+  "row": 31,
+  "s": "Match the following sectoral cyber security frameworks with the body concerned:\nFramework\na. Cyber Security Framework for banks (2016)\nb. Cybersecurity and Cyber Resilience Framework, CSCRF (2024)\nc. CERT-Thermal, CERT-Hydro, CERT-Transmission\nd. Digital Threat Report 2025-26 for BFSI\nBody\ni. SEBI\nii. RBI\niii. MeitY\niv. Ministry of Power\nSelect the correct answer:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 1,
+  "x": "Cyber Security Framework for banks (2016) – RBI; Cybersecurity and Cyber Resilience Framework, CSCRF (2024) – SEBI; CERT-Thermal, CERT-Hydro, CERT-Transmission – Ministry of Power; Digital Threat Report 2025-26 for BFSI – MeitY. So a-ii, b-i, c-iv, d-iii.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5ecec3d51aa7",
+  "row": 31,
+  "s": "Consider the following statements about India's international cyber cooperation:\n1. APCERT, of which India is a member, brings together CSIRTs of 13 economies; its first conference was held in Tokyo in March 2002.\n2. Nepal is a member of the Colombo Security Conclave, in which cyber security is one of five pillars.\n3. India leads the Resilience Working Group of the US-led Counter Ransomware Initiative (2021).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: the Conclave members are India, Sri Lanka, Mauritius, Maldives, Bangladesh and Seychelles – not Nepal. Statement 3 is correct. CERT-In's exercise 'Synergy' under that initiative covered 13 countries. Hence the answer is '1 and 3 only'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0416014cc4c4",
+  "row": 31,
+  "s": "Consider the following statements:\n1. In the ITU Global Cybersecurity Index 2024, India is in Tier-1 'Role Modelling' with a score of 98.49.\n2. The GCI 2024 ranks countries, and India was ranked 10th in it.\n3. The AP Cyber Security Policy 2017, implemented by APTS, has four verticals.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct. Statement 2 is wrong: GCI 2024 uses tiers, not ranks; India's 10th rank was in GCI 2020. Statement 3 is correct. Hence the answer is '2 only'.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
