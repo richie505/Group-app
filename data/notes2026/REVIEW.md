@@ -1606,3 +1606,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w157 (rows 157–162)
 - own 386 → 42 kept + 112 new (154, 40%); new 73 statements / 27 match / 12 A–R; no lines lost.
 - Doubtful PYQs: y035c3e32ef9 "IMF operational 1945" (est. Dec 1945, operations 1 Mar 1947 — Disputed); y90aca47e090 World Bank "1945" (Bretton Woods 1944, came into being Dec 1945 — Disputed); y3bf63c11ac1 ASEAN 10 members (11 since Timor-Leste 2025 — ⚠ Outdated).
+
+## rewrite b3-w142 (rows 142–144)
+- own 137 → 17 kept + 36 new (53, 39%); new 21 statements / 8 match / 7 A–R; 2 of 96 lines lost (covered by PYQ y509d16972a0).
+- Flawed own keys removed: na60f2cf67aa (two distractors also not ADB nodes), f4af3ce903234 (Parawada is in the APIIC parks table).
