@@ -84,7 +84,7 @@
 - **Soil Health Card Scheme:** launched **19 February 2015, Suratgarh (Rajasthan)**; part of NMSA (Soil Health Management); card shows nutrient status and fertiliser advice.
 - **Interval:** the 2015 scheme said a card **once in every 3 years** (AEE 2016 key); in practice cards are now issued **free every two years** (cycles 2015-17, 2017-19).
 - Impact: fertiliser use cut **8-10%**; over **25 crore** cards issued.
-- **Glyricidia = green leaf manure**; green manure crops: **sunn hemp, dhaincha, green gram**. **Vermicompost:** earthworms turn organic waste into manure.
+- **Glyricidia = green leaf manure**; green manure crops: **sunn hemp, dhaincha, green gram** (Bt cotton is GM, not a green manure). **Vermicompost:** earthworms turn organic waste into manure.
 - **Organic farming = eco-friendly:** compost, green manure, bone meal; crop rotation, companion planting (HYV cultivation, glass houses and shifting cultivation are not).
 | Scheme | Year | Feature |
 |---|---|---|
@@ -139,4 +139,5 @@
 | Watershed | WDC-PMKSY 2.0 |
 | **Per Drop More Crop** | **Micro-irrigation**; under PMKSY to Dec 2021, **now under RKVY**; subsidy up to **55%** |
 - **PM-KUSUM (2019):** solar pumps and solarisation of grid pumps.
+- **PMKSY:** umbrella **Centrally Sponsored Scheme** launched in **2015-16 (1 July 2015)**; Per Drop More Crop is **no longer** a PMKSY component.
 ~~ Sources: app notes 3:48 sub 7
