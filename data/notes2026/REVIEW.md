@@ -739,3 +739,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - ye29804af727 5th India-Arab Partnership Conference: Dubai → Muscat (Dec 2016). y59654082c9a -1 → Vietnam (stem says billion; actual $300 million).
 - Dispute y9a3375cbdcd IJC 2020. Unverified y3fbf046a770 Earth Science summit 2020 Czech Republic; yc1047757686 WES 2023 UP.
 - India-AI Impact Summit 16–21 Feb 2026 (Rocket); next SCO summit Pakistan 2027.
+
+## b6-r052 (CA rows 52, 54, 56 summits BRICS/SCO/ASEAN)
+- No key changes. Own MCQ gfb040bb90acd FATF 39 kept, dispute (40 since Indonesia 2023).
+- BRICS members 11 (Rocket) vs 10 (Saudi invited) — both stated. India–ASEAN full dialogue 1995 vs 1996.
+- Single-source: 153rd IPU Arusha, US "Super Intelligence" EO, SCO 2026 theme.
