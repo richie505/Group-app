@@ -522,3 +522,13 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - y8cca7094db9 brackish A-R: helper reversed to "both true, R explains"; restored printed "A true, R false" with dispute (Shankar/PMF give 5-35 ppt = R). Owner: confirm official APPSC key.
 - y29d1c7974eb add_option "Cryophytes" (printed "Cryptophytes"). y31521b94409 community → organization (sociology). yec2a3ae54ce oldest ecosystem coral reefs (web only, dispute).
 - Disputes: wasp sting, highest NPP, chameleon colour, aerial roots. Outdated: Wetlands Rules 2010 → 2017 (yb6cf5a97836, y08ad340fcf8).
+
+## b5-r085 (Biodiversity hotspots, endemism, BD Act)
+- y8b13ce9a1f3 IAS 2009: Only I → I and II (NextGen, examday). ya8c0de05c77 IAS 2010: 2 only → Neither, dispute (getmarks gives b).
+- Disputes kept: UPSC 1996 Western Ghats ×2 (E. Himalaya also original); UPSC 2023 nocturnal ×2 "only one"; Parthenium A-R.
+- Printed-key-only: RAKSHAK full form y083e46316ce, AP endemics, Silent Valley "richest". BMC/PBR/BHS counts unchecked.
+
+## b5-r081 (SDGs)
+- y4f0eeda0582 AP SDG Index 2019-20 score 60 → 67 (60 was India's).
+- Outdated y5b35cfa5351 India 110/149 (2016) → 94/169 SDR 2026. Dispute y2a243ac634c "17 goals" (2018 index scored 13).
+- Unverified: yef3f3e2bcbc AP SIF year 2022; yc151719c541 Raithu Kosam pillars (snippet only).

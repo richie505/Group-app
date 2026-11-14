@@ -1,0 +1,795 @@
+=== NOTES 5:99 | Air Pollution – Sources, Pollutants, Naaqs, Aqi, Ncap, Stubble Burning and Acid Rain
+## SUB 0 | Sources of Air Pollution
+[99:0:0] # Natural vs Anthropogenic
+[99:0:1] TABLE head: Basis | Examples
+  [99:0:1.0] Natural | Forest fires (APPSC 2025), volcanic eruptions, dust storms; volcanoes = natural SOx; lightning = natural NOx
+  [99:0:1.1] Anthropogenic | Vehicles, power plants, industry, biomass burning, agriculture (ammonia, methane), waste burning
+[99:0:2] - Volcanic eruptions emit all four: pyroclastic debris, ash and dust, nitrogen compounds, sulphur compounds.
+[99:0:3] - Main source in **Indian cities: automobile emissions** (APPSC 2025). Main pollutants in metros: **CO and SO2**.
+[99:0:4] - NCR: **transport** = largest primary source, **23% of winter load** (CAQM synthesis report, Jan 2026).
+[99:0:5] - Vehicle/fuel combustion products: CO, NOx, VOCs, PM, unburnt hydrocarbons, lead.
+[99:0:6] - **Steel industry** emits SOx, NOx, CO and CO2 (all four).
+[99:0:7] - **Crop residue burning** releases CO, methane, ozone, SO2 (also NOx, CO2, black carbon, VOCs).
+[99:0:8] - Tree for preventing dust pollution: **Sita Ashok**. Sleeping under a tree at night is harmful – it releases **CO2**.
+[99:0:9] # Fuel → Emissions
+[99:0:10] TABLE head: Fuel | Emissions
+  [99:0:10.0] Coal | High CO2, SO2, NOx, PM, ash – most polluting
+  [99:0:10.1] Petrol / diesel | CO2, CO, NOx, unburnt HC, PM; diesel gives more PM than petrol
+  [99:0:10.2] LPG / CNG | Less CO, HC, PM; still emit CO2; LPG burns without smoke
+  [99:0:10.3] Biogas | Low; mainly CO2, traces of H2S when untreated
+  [99:0:10.4] Hydrogen | Cleanest fuel; only water – no carbon, CO, SO2 or particles
+  [99:0:10.5] Wood, cow-dung | Smoke, CO, fine particles – indoor pollution
+## SUB 1 | Primary vs Secondary Pollutants and Smog
+[99:1:0] TABLE head: Type | Examples
+  [99:1:0.0] Primary (emitted directly) | CO, SO2, NOx, PM, lead from vehicles
+  [99:1:0.1] Secondary (formed in air) | O3, PAN, photochemical smog, ammonium sulphate, ammonium nitrate
+  [99:1:0.2] Smog | Formed from | Conditions
+  [99:1:0.3] Classical / London | SO2, smoke, particulates + fog | Cold, humid
+  [99:1:0.4] Photochemical / Los Angeles (summer smog) | NOx + VOCs + sunlight → ozone, PAN (peroxyacetyl nitrate) | Warm, sunny, traffic-heavy
+[99:1:1] - Photochemical smog **always contains ozone**; nitrogen oxides are the key input. Smog is a **secondary** pollutant.
+[99:1:2] - **Asian Brown Cloud** (2002): soot, **black carbon**, sulphate aerosols over South Asia and Indian Ocean, dry season (**January–March**); from biomass and fossil-fuel burning.
+[99:1:3] London smog = cold + SO2; Los Angeles smog = warm + sunlight. Ground-level ozone is not emitted directly.
+## SUB 2 | Pollutants → Source and Health Effect
+[99:2:0] TABLE head: Pollutant | Source | Effect
+  [99:2:0.0] CO | Incomplete combustion; vehicle exhaust (main gas), cigarettes | Forms carboxyhaemoglobin; affinity for haemoglobin 200–250 times oxygen → hypoxia; "most dangerous"
+  [99:2:0.1] SO2 | Fossil fuels, coal power, smelters, diesel | Eye/airway irritation; acid rain; secondary PM2.5
+  [99:2:0.2] NOx / NO2 | Vehicles, power plants, boilers | Respiratory illness; acid rain, smog
+  [99:2:0.3] PM2.5 / PM10 | Combustion, construction, road dust, biomass | Heart/lung disease; PM2.5 crosses placenta – pre-term birth, low birth weight (AIIMS, 3 June 2026)
+  [99:2:0.4] Ground O3 | Photochemical (secondary) | Asthma, crop damage
+  [99:2:0.5] Lead | Leaded petrol, smelters | Brain damage; high blood pressure, kidney damage
+  [99:2:0.6] H2S | Decaying matter (main), sewage, refineries, landfills, volcanoes | Rotten-egg smell; toxic
+  [99:2:0.7] Ammonia | Fertilisers + livestock (77–80%) | Secondary particle formation
+  [99:2:0.8] Magnetite particles | Combustion, brake wear | Found in brain tissue; possible link to Alzheimer's
+  [99:2:0.9] Fly ash | Coal thermal plants | –
+  [99:2:0.10] Cadmium / PAHs | Metal smelting / incomplete burning | –
+[99:2:1] - Cigarette smoke: **CO and benzene** (also HCN, arsenic, formaldehyde). Inorganic gaseous pollutants: HCN, H2S.
+[99:2:2] - Gases: CO2, methane = greenhouse; **stratospheric ozone** = UV shield, depleted by **CFCs**.
+[99:2:3] - Secondary PM2.5: **ammonium sulphate** ≈ one-third of India's PM2.5; ammonium nitrate up to 50%.
+[99:2:4] - IIT Delhi: curbing power-plant SO2 could prevent ~**1.24 lakh deaths** a year.
+[99:2:5] - **RSPM** = particles **< 5 µm** (generally taken as PM2.5).
+[99:2:6] "Vehicle gas that cuts the blood's oxygen-carrying capacity" = carbon monoxide.
+[99:2:7] - **Ammonium sulphate formation:** SO2 is oxidised in the air to sulphate, which reacts with ammonia (NH3) to form ammonium sulphate particles.
+## SUB 3 | Indoor Pollution and Bioindicators
+[99:3:0] - Indoor sources: dust, smoke from solid fuels, mould, pollen, pesticides, **radon**, CO, **mosquito coils**; **maximum chemical pollution from burning coal**. Not only biological agents.
+[99:3:1] - Health: COPD, lung cancer, heart disease; **women and children** suffer most.
+[99:3:2] - Intercity buses: cabin air 2–3 times WHO limits (IntrCity study, 15 Mar 2026).
+[99:3:3] TABLE head: Bioindicator | Indicates
+  [99:3:3.0] Lichens | SO2; disappear / do not grow where SO2 is high
+  [99:3:3.1] Mosses | Heavy-metal deposition
+## SUB 4 | Standards – Naaqs and Who Aqg 2021
+[99:4:0] # NAAQS
+[99:4:1] - Notified 1982; revised 1994 and **2009**; **12 pollutants**: PM10, PM2.5, SO2, NO2, CO, O3, NH3, Pb + **benzene, benzo(a)pyrene, arsenic, nickel**.
+[99:4:2] - **Ozone first included in 2009**.
+[99:4:3] TABLE head: SO2 limit | Value
+  [99:4:3.0] 24-hour | 80 µg/m³
+  [99:4:3.1] Annual, urban | 50 µg/m³
+  [99:4:3.2] Annual, ecologically sensitive | 20 µg/m³
+[99:4:4] # WHO AQG 2021 vs India
+[99:4:5] TABLE head: Pollutant | WHO 2021 | India NAAQS
+  [99:4:5.0] PM2.5 annual | 5 µg/m³ | 40 µg/m³ (8 times laxer)
+  [99:4:5.1] PM2.5 24-hour | 15 µg/m³ | 60 µg/m³
+  [99:4:5.2] PM10 | 15 annual; 45 (24-hour) | 60 annual
+  [99:4:5.3] NO2 annual | 10 µg/m³ | –
+[99:4:6] # Health Burden and Rankings
+[99:4:7] - WHO: ~**7 million** deaths a year worldwide; fossil-fuel air pollution ~**1.72 million** premature deaths in India (2022).
+[99:4:8] - NCR winter PM2.5: nearly **35 times** the WHO limit.
+[99:4:9] - **IQAir World Air Quality Report 2025** (24 Mar 2026): **India 6th** most polluted country (5th in 2024); **Pakistan 1st**; most polluted city **Loni (UP)**; Delhi 4th and most polluted capital; only **14%** of cities met the WHO PM2.5 guideline.
+[99:4:10] - IQAir 2021: most polluted city **Bhiwadi**.
+## SUB 5 | Aqi and Monitoring Networks
+[99:5:0] # National Air Quality Index
+[99:5:1] - Launched **6 April 2015** by the PM under **Swachh Bharat**, developed at **IIT Kanpur**; first for 10 cities; run by **CPCB**.
+[99:5:2] - **8 pollutants**, scale **0–500**: PM10, PM2.5, NO2, SO2, CO, O3, NH3, Pb (**benzene and CO2 not included**). Among CO2, CO, NO2, SO2, methane – only **CO, NO2, SO2** count.
+[99:5:3] - Motto: **"One Number – One Colour – One Description"**; hourly from CAAQMS.
+[99:5:4] TABLE head: AQI | Category | Colour
+  [99:5:4.0] 0–50 | Good | Dark green
+  [99:5:4.1] 51–100 | Satisfactory | Light green
+  [99:5:4.2] 101–200 | Moderately Polluted | Yellow
+  [99:5:4.3] 201–300 | Poor | Orange
+  [99:5:4.4] 301–400 | Very Poor | Red
+  [99:5:4.5] 401–500 | Severe | Maroon
+[99:5:5] # Networks
+[99:5:6] TABLE head: Network | Feature
+  [99:5:6.0] NAMP | CPCB, 1984; regularly monitors SO2, NO2, PM10, PM2.5 (SPM) at all locations; 1,646 stations in 603 cities (March 2026)
+  [99:5:6.1] CAAQMS | PM2.5, PM10, SO2, NOx, CO, O3, NH3, benzene; data via SAMEER app (CPCB)
+  [99:5:6.2] SAFAR | MoES through IITM Pune; unveiled 2018 by Dr Harsh Vardhan (Chandni Chowk); SAFAR-AIR app; 400 m forecast for Delhi tied to GRAP
+  [99:5:6.3] Precipitation chemistry | IMD, under WMO Global Atmosphere Watch / BAPMoN
+[99:5:7] - GAW has **33 global stations**; India has none among them.
+[99:5:8] SAMEER = CPCB app; SAFAR-AIR = MoES app.
+## SUB 6 | National Clean Air Programme (ncap)
+[99:6:0] # Launch and Targets
+[99:6:1] - Launched **January 2019** by **MoEFCC**; coordinated by **CPCB with SPCBs** (not CPCB alone); funded via CSS "Control of Pollution". Legal base: **Air Act, 1981**.
+[99:6:2] - PAN-India **time-bound national strategy**; expands monitoring.
+[99:6:3] - Original target: **20–30% PM cut by 2024**, base **2017**.
+[99:6:4] - Revised (Sept 2022): **up to 40% PM10 cut** or meeting NAAQS (60 µg/m³) by **2025-26**, base **2017-18**.
+[99:6:5] - **130 cities in 24 States/UTs**. **Non-attainment city** = failed NAAQS for **five years** (2014–18 data); Million Plus cities also covered.
+[99:6:6] - Tools: City/State Action Plans; Steering, Monitoring and Implementation Committees.
+[99:6:7] - **PRANA** = Portal for Regulation of Air-pollution in Non-Attainment cities; launched **7 September 2021**.
+[99:6:8] APPSC 2025: GoI initiative to control industrial emissions = **NCAP** (Namami Gange, NRCP, NLCP are water programmes).
+[99:6:9] # Results and Rankings
+[99:6:10] - 2024-25 vs 2017-18: **103 cities** cut PM10; only **22 of 130** met PM10 NAAQS.
+[99:6:11] - **Varanasi**: highest % PM10 cut, 2017-18 to 2023-24 (APPSC 2024).
+[99:6:12] - **Swachh Vayu Survekshan**: annual since 2022-23; **Indore** first in SVS 2023 and SVS 2025 (million-plus); Amravati, Dewas (smaller cities).
+[99:6:13] - NGT (May 2026): **86%** of NCAP spend went to road dust.
+[99:6:14] - Critique: only 4% of chronically polluted towns on ₹10,500 crore; only 38 cities met annual targets; 37 of 131 finished source apportionment; PM10 the wrong yardstick vs PM2.5.
+[99:6:15] - **Swachh Vayu Diwas** (Clean Air for Blue Skies Day): **7 September**.
+[99:6:16] MoES | SAFAR | MoRTH – vehicle norms
+Jal Shakti | Namami Gange | MoEFCC – NCAP
+## SUB 7 | Control Measures – Vehicles, Fuels, Industry
+[99:7:0] # Vehicles
+[99:7:1] - **Catalytic converter**: **platinum, palladium, rhodium**; turns CO, HC, NOx into CO2, H2O, N2; needs **unleaded petrol**.
+[99:7:2] - Fuel-efficiency features: radial tyres, multipoint fuel injection, catalytic converter (**not streamlined body**). Fuel injection gives complete combustion.
+[99:7:3] TABLE head: Norm | Fact
+  [99:7:3.0] BS-III | 1 April 2005 in NCR + 10 cities
+  [99:7:3.1] BS-VI | Nationwide 1 April 2020; BS-V skipped; cuts NOx 70%, PM 80%, sulphur 80%; Stage II adds Real Driving Emission tests
+[99:7:4] - Also: **PUC**, **RFID** pollution charges on Delhi-bound trucks, **vehicle scrappage policy (2021)**, **FAME-II** EV subsidies; public transport, **cycling (saves fuel – APPSC 2025)**, walking.
+[99:7:5] # Cleaner Fuels
+[99:7:6] TABLE head: Fuel / programme | Feature
+  [99:7:6.0] CNG | Mainly methane
+  [99:7:6.1] Ethanol Blending | All new vehicles E20-compatible; ~95% pre-2020 vehicles not fully compatible
+  [99:7:6.2] Methanol Economy | NITI Aayog
+  [99:7:6.3] SATAT | Compressed biogas
+  [99:7:6.4] National Green Hydrogen Mission | Cleanest fuel
+[99:7:7] # Industrial Devices
+[99:7:8] TABLE head: Device | Removes
+  [99:7:8.0] Electrostatic precipitator | Fine particulates (fly ash)
+  [99:7:8.1] Bag filter | Dust by fabric filtration
+  [99:7:8.2] Cyclone separator | Coarse particles by centrifugal force
+  [99:7:8.3] Wet scrubber | Gases (SO2) and particles
+  [99:7:8.4] FGD | Up to 95% SO2 from flue gas
+[99:7:9] - FGD mandated **2015**; only **39 of 537** coal plants fitted it; mandate **relaxed (2025)** citing costs – while India is the top SO2 emitter.
+[99:7:10] - **OCEMS** mandatory for red-category industries in Delhi-NCR; ban on pet coke and furnace oil.
+## SUB 8 | Stubble Burning, Caqm and Grap
+[99:8:0] - Stubble burning: **October–November**, **Punjab, Haryana, Uttar Pradesh**.
+[99:8:1] - In-situ: machinery subsidy (Happy Seeder), CSS on crop residue machinery (2018), **Pusa bio-decomposer (IARI)** – free to farmers (Delhi Govt), turns stubble into compost.
+[99:8:2] - Bihar suspended DBT registration of 1,807 farmers (2025-26).
+[99:8:3] - **CAQM**: Ordinance 2020 → **CAQM Act, 2021**; statutory; can shut violators; chairperson ranks as Secretary/Chief Secretary, 3 years or age 70. **Coal banned** in Delhi-NCR from **1 January 2023**. Jan 2026: SC (CJI Surya Kant) said causes still unclear.
+[99:8:4] TABLE head: GRAP stage | AQI
+  [99:8:4.0] I | Poor (201–300)
+  [99:8:4.1] II | Very Poor (301–400)
+  [99:8:4.2] III | Severe (401–450)
+  [99:8:4.3] IV | Severe+ (above 450)
+[99:8:5] - GRAP enforced by **CAQM**; supported by MoES 400 m forecasts.
+[99:8:6] - **VAYU/WAYU** roadside purifier: CSIR-**NEERI** with IIT Bombay; Delhi (ITO, Mukarba Chowk), Sept 2018.
+[99:8:7] - **Cloud seeding / artificial rain**: **silver iodide** (main), potassium iodide, **dry ice (solid CO2)**, common salt.
+## SUB 9 | Acid Rain – Causes and Chemistry
+[99:9:0] - Precipitation with **pH below 5.6**; typical **4.2–4.4**; each pH step = tenfold acidity. Normal rain ~5.6 (carbonic acid).
+[99:9:1] - Term: **Robert Angus Smith, 1872** (Manchester coal burning).
+[99:9:2] - Causes: **SO2 and NOx** (APPSC 2018: SO2 and NO2); main single factor **SO2**; main source industries (fossil fuels). **Not** CO, O3, CH4, CFCs or hydrogen.
+[99:9:3] TABLE head: Gas | Anthropogenic | Natural
+  [99:9:3.0] SOx | Coal power plants, sulphide-ore smelting, H2SO4 plants, refineries | Volcanoes, oceans, decay
+  [99:9:3.1] NOx | Vehicles, power plants, biomass burning | Lightning, forest fires
+[99:9:4] - Reaction: SO2 + NOx + O2 + water + photo-oxidants → **H2SO4 (~two-thirds, maximum)** + **HNO3 (~one-third)**.
+[99:9:5] - **Wet deposition** (rain, snow, fog) vs **dry deposition** (gases/particles settle) – about **half** returns dry.
+[99:9:6] A-R item: CO2, SO2, NO2 dissolve in rain and gases pollute air – both true, but not cause-and-effect. Coal plants emit carbon oxides too, but acid rain is due to SO2 and NOx.
+[99:9:7] - Gold dissolves in **aqua regia** ('royal water', 3 conc HCl : 1 HNO3), not in nitric acid alone – asked with acid rain.
+## SUB 10 | Acid Rain – Effects, Taj Mahal, Control, Treaties
+[99:10:0] TABLE head: Target | Effect
+  [99:10:0.0] Lakes, fish | Lower pH; aluminium released
+  [99:10:0.1] Forests, soil | Leaches calcium, magnesium; toxic aluminium
+  [99:10:0.2] Buildings | Corrodes limestone, marble, metals
+  [99:10:0.3] Health | Heavy metals into drinking water
+[99:10:1] - **Marble cancer**: yellowing, lustreless marble (CaCO3) of the **Taj Mahal**; main threat **SO2**, notably **Mathura refinery** (APPSC 2018).
+[99:10:2] - **Taj Trapezium Zone** ~**10,400 sq km**: protects Taj, **Agra Fort, Fatehpur Sikri** (not Sanchi); Agra, Firozabad, Mathura, Hathras, Etah + Bharatpur.
+[99:10:3] - **M.C. Mehta v. Union of India (1996)**: SC barred coal/coke in TTZ → natural gas or relocation.
+[99:10:4] - Regions: **Scandinavia** (Norway, Sweden – most acid rain among options) from UK/central Europe – transboundary; industrial China; **India = largest SO2 emitter (2022), over 20%**.
+[99:10:5] - Control: **FGD scrubbers**, low-NOx burners, low-sulphur fuels (IMO ship caps), catalytic converters; **liming** = remedial, not preventive; US Clean Air Act cut SO2 >90%.
+[99:10:6] TABLE head: Instrument | Year | Focus
+  [99:10:6.0] LRTAP (UNECE, Geneva) | 1979 | First binding treaty on transboundary air pollution
+  [99:10:6.1] Helsinki Protocol | 1985 | 30% sulphur cut
+  [99:10:6.2] Sofia Protocol | 1988 | Freeze NOx
+  [99:10:6.3] Gothenburg Protocol | 1999 | SO2, NOx, NH3, VOCs
+## SUB 11 | Andhra Pradesh Air Quality Action
+[99:11:0] - **13 NCAP non-attainment cities** in AP, incl. Guntur, Kurnool, Nellore, Vijayawada, Visakhapatnam, Anantapur, Chittoor, Eluru, Kadapa.
+[99:11:1] - **APPCB state action plan: 123 ULBs incl. 17 municipal corporations** (APPSC 2024).
+[99:11:2] - APPCB: **12 CAAQM stations** + 9 being installed; 19 AQI LED boards; 25 noise stations; **735 CAAQMS in 682 industries**.
+[99:11:3] - **Visakhapatnam** = AP hotspot: PM2.5 up **33%** (Jan 2024–Apr 2026).
+[99:11:4] TABLE head: Thermal plant | Place
+  [99:11:4.0] Dr NTTPS | Vijayawada-Ibrahimpatnam (not Kurnool)
+  [99:11:4.1] Krishnapatnam | Nellore
+  [99:11:4.2] Simhadri | Visakhapatnam
+[99:11:5] - Awareness: Bhogi advisory by APPCB Chairman **P. Krishnayya** (burning tyres, plastic → dioxins, furans); school Eco-Clubs under AP National Green Corps (2002-03).
+[99:11:6] - **SVS 2026**: Vijayawada **ward 60 ranked 2nd** nationally; ward 31 best in State; VMC got ₹30 lakh; awarded on National Clean Air Day, 7 Sep 2026.
+## SUB 12 | Number Game and Quick Revision
+[99:12:0] TABLE head: Item | Fact
+  [99:12:0.0] Acid rain pH | < 5.6 (typical 4.2–4.4)
+  [99:12:0.1] NAAQS / NAQI pollutants | 12 / 8
+  [99:12:0.2] WHO PM2.5 annual vs India | 5 vs 40 µg/m³
+  [99:12:0.3] NCAP cities | 130 in 24 States/UTs
+  [99:12:0.4] NCAP revised target | 40% PM10 by 2025-26
+  [99:12:0.5] FGD SO2 removal | up to 95%
+  [99:12:0.6] TTZ area | ~10,400 sq km
+  [99:12:0.7] AP plan ULBs | 123 (17 corporations)
+[99:12:1] # FIRST / LAST / SPECIAL FACTS
+[99:12:2] - First binding air-pollution treaty: LRTAP 1979.
+[99:12:3] - Ozone first added to NAAQS: 2009.
+[99:12:4] - BS-V is the only stage skipped.
+[99:12:5] - Cleanest fuel: hydrogen.
+## SUB 13 | Appsc Previous Year Questions
+[99:13:0] TABLE head: Examination | Question Area
+  [99:13:0.0] Group 2 Mains 2025, Paper 2 | NCAP as industrial-emission initiative
+  [99:13:0.1] Group 2 Mains 2025, Paper 2 | Natural source (forest fires); main urban source (automobiles); cycling
+  [99:13:0.2] APPSC 2024 | Varanasi PM10 reduction; APPCB plan 123 ULBs
+  [99:13:0.3] APPSC 2018 | Acid rain gases SO2/NO2; Taj threat SO2
+## SUB 14 | High-probability Mcq Traps
+[99:14:0] VERY IMPORTANT
+[99:14:1] - 1. Acid rain gases = **SO2 + NOx**, not CO, O3, CH4 or CFCs.
+[99:14:2] - 2. **H2SO4** is the largest acid share.
+[99:14:3] - 3. NAQI has **8** pollutants (no benzene, no CO2); NAAQS has **12**.
+[99:14:4] - 4. NCAP base year **2017**; revised target **40% by 2025-26**.
+[99:14:5] - 5. SAMEER (CPCB) vs SAFAR (MoES, IITM Pune).
+[99:14:6] - 6. Lichens indicate **SO2**; mosses indicate heavy metals.
+[99:14:7] - 7. Catalytic converter metals: **Pt, Pd, Rh**.
+[99:14:8] - 8. Ozone, PAN, ammonium sulphate are **secondary**.
+[99:14:9] - 9. Dr NTTPS is at **Vijayawada**, not Kurnool.
+[99:14:10] - 10. Liming is **remedial**, not preventive.
+
+=== OWN MCQs of 5:99 (140)
+[nchemistry-9-3] sub0
+  Which of the following is NOT correct about hydrogen as a fuel?
+  It produces only water when used | It has zero carbon emissions | *It releases carbon monoxide when burnt | It emits no sulphur dioxide or particulates
+  x: Hydrogen gives only water, with zero carbon, CO, SO2 and particulate emissions, so the claim that it releases CO is false.
+[nchemistry-9-9] sub0
+  Which gas do CNG and LPG still release on burning, although they are cleaner than petrol and diesel?
+  *Carbon dioxide | Large amounts of soot | High levels of carbon monoxide | High levels of unburnt hydrocarbons
+  x: CNG and LPG give far less CO, unburnt hydrocarbons and soot, but they still release CO2.
+[nchemistry-9-24] sub0
+  Which of the following household fuels burns without smoke?
+  *LPG | Cow-dung | Wood | Crop residue
+  x: LPG (like biogas) is a clean gaseous fuel; wood and cow-dung give smoke, CO and fine particles.
+[nf769f25fc41] sub0
+  Lichens are particularly useful as bioindicators of pollution by which pollutant?
+  Hydrogen | Methane | *Sulphur dioxide | Carbon dioxide
+  x: Lichens indicate sulphur dioxide pollution and disappear from areas with high SO2 levels.
+[f3290c6064248] sub0
+  According to the CAQM synthesis report (January 2026), what is the largest primary contributor to NCR's winter air pollution?
+  Stubble burning | *Transport | Industry | Construction dust
+  x: Transport is the largest primary contributor in the NCR, about 23% of the winter load.
+[fcc8d164eaa0b] sub0
+  Which of the following fuels is the most polluting?
+  LPG | CNG | Biogas | *Coal
+  x: Coal gives high CO2, SO2, NOx, PM and ash, making it the most polluting; LPG, CNG and biogas emit far less.
+[f623c284de13d] sub0
+  Between petrol and diesel, which pollutant does diesel emit more of?
+  *Particulate matter | Lead | Ammonia | Methane
+  x: Both emit CO2, CO, NOx, unburnt hydrocarbons and PM, but diesel gives more particulate matter than petrol.
+[ga0ce418f879d] sub0
+  Which tree is recommended for preventing dust pollution?
+  Eucalyptus | *Sita Ashok | Babool | Teak
+  x: Sita Ashok is the tree named for preventing dust pollution.
+[n268fd9b0cdf] sub1
+  With which city and weather conditions is photochemical smog associated?
+  London and cold, humid conditions | *Los Angeles and warm, sunny conditions | London and warm, sunny conditions | Los Angeles and cold, humid conditions
+  x: Photochemical smog is linked with Los Angeles and warm, sunny weather; classical smog with London and cold, humid weather.
+[nf24b05b5741] sub1
+  What is the Asian Brown Cloud?
+  *A layer of soot, black carbon and aerosols over South Asia and the Indian Ocean during the dry season | A permanent ozone layer over the Himalayan region | A layer of volcanic ash restricted to Europe | A seasonal band of water vapour over the Pacific Ocean
+  x: The Asian Brown Cloud is a dry-season layer of soot, black carbon and aerosols over South Asia and the Indian Ocean, arising mainly from biomass and fossil-fuel burning.
+[nenvironment-11-3] sub1
+  Photochemical smog forms when sunlight drives reactions between hydrocarbons and which gases?
+  Sulphur dioxide | Carbon dioxide | Ammonia | *Nitrogen oxides
+  x: Sunlight makes nitrogen oxides and hydrocarbons from vehicles react into ozone and PAN, forming photochemical smog.
+[n0653add7452] sub1
+  Which one of the following is NOT correctly matched?
+  Hydrogen sulphide — sewage and refineries | Magnetite particles — vehicle brake wear | *Ground-level ozone — direct emission from coal mines | Ammonia — fertilisers and livestock
+  x: Ground-level ozone is formed from nitrogen oxides and volatile organic compounds in sunlight; it is not directly emitted from coal mines. Ammonia, hydrogen sulphide and magnetite particles have the listed sources.
+[n718bc60cebd] sub1
+  Which one of the following pairs is NOT correctly matched?
+  Agriculture — Ammonia and methane | Coal-fired power plants — Sulphur dioxide | Metal-ore smelting — Sulphur dioxide | *Vehicles — Ammonium sulphate emitted directly in final form
+  x: Vehicles emit pollutants such as carbon monoxide, nitrogen oxides, VOCs, particulate matter and unburnt hydrocarbons. Ammonium sulphate is formed secondarily in the atmosphere.
+[n16c40876098] sub1
+  Which of the following is a primary pollutant?
+  Ozone | PAN | *Lead emitted from vehicles | Ammonium sulphate
+  x: Lead from vehicles is emitted directly; ozone, PAN and ammonium sulphate form in the atmosphere.
+[f7b0fccac660e] sub1
+  Classical (London) smog forms under which conditions?
+  Warm, sunny weather with NOx and VOCs | Hot, dry weather with ozone | *Cold, humid weather with SO2, smoke and fog | Warm, sunny weather with PAN
+  x: London smog forms from SO2, smoke and particulates with fog in cold, humid weather; Los Angeles smog needs warm sunshine.
+[f4e29dab81ab6] sub1
+  During which months does the Asian Brown Cloud over South Asia mainly appear?
+  June–September | October–November | *January–March | April–May
+  x: The Asian Brown Cloud of soot, black carbon and sulphate aerosols forms in the dry season, January–March.
+[n88798ac3aa8] sub2
+  Which gas mainly causes the rotten-egg smell of polluted air?
+  Carbon monoxide | Ammonia | *Hydrogen sulphide | Sulphur dioxide
+  x: Hydrogen sulphide, released from sources such as sewage, refineries and volcanoes, has a characteristic rotten-egg smell.
+[ne4a390e7ba8] sub2
+  Fuel injection helps reduce vehicular pollution primarily by promoting
+  evaporation of particulate matter | *complete combustion | incomplete combustion | formation of sulphuric acid
+  x: Fuel injection promotes more complete combustion, thereby reducing the formation of pollutants associated with incomplete combustion.
+[nenvironment-36-12] sub2
+  Where does cadmium in the air mainly come from?
+  *Metal production and smelting | Photochemical reactions of NOx and hydrocarbons | Incomplete fuel combustion | Leaded fuel and soil particles
+  x: Cadmium comes from metal production and smelting; PAHs come from incomplete combustion and ozone from photochemical reactions.
+[nchemistry-12-47] sub2
+  Which of the following is a potent greenhouse gas?
+  *Methane | Hydrogen sulphide | Nitrogen | Argon
+  x: Methane is a potent greenhouse gas; hydrogen sulphide is a toxic air pollutant.
+[n0f41c8aac48] sub2
+  To what does ammonia released from fertilisers and livestock mainly contribute?
+  The direct formation of carbon monoxide | The conversion of ozone into oxygen | The destruction of all particulate matter | *Secondary particle formation
+  x: Ammonia is a major driver of secondary particle formation in the atmosphere, particularly through the formation of ammonium salts.
+[nchemistry-12-5] sub2
+  Which of the following statements is incorrect?
+  Ground-level ozone is a component of photochemical smog. | Depletion of stratospheric ozone by CFCs contributes to the ozone hole. | *Ground-level ozone is beneficial to lungs and plants. | Stratospheric ozone protects from ultraviolet radiation.
+  x: Option C is incorrect: ground-level ozone is a smog pollutant that harms lungs and plants. High in the stratosphere ozone shields us from UV, and CFCs deplete it.
+[n7e48ab7e272] sub2
+  Which pollutant can cross the placenta and is linked to pre-term birth and low birth weight?
+  PM10 | Carbon dioxide | Ozone | *PM2.5
+  x: PM2.5 penetrates deep into the lungs and crosses the placenta, linked to pre-term birth (AIIMS study, 3 June 2026).
+[n401e0798146] sub2
+  From which gases does ammonium sulphate, nearly one-third of India's PM2.5, form in the air?
+  Ozone and lead | Carbon monoxide and methane | *Sulphur dioxide and ammonia | Nitrogen and carbon dioxide
+  x: Ammonium sulphate is a secondary particulate formed from SO2 and NH3.
+[nenvironment-11-4] sub2
+  Which pollutant is correctly matched with its source?
+  *Fly ash – Thermal power plants | Lead – Thermal power plants | Carbon monoxide – Leaded petrol | Sulphur dioxide – Binds haemoglobin in blood
+  x: Fly ash comes from thermal power plants; CO comes from incomplete combustion and binds haemoglobin, lead came from leaded petrol and SO2 from fossil-fuel burning.
+[f5925b7825916] sub2
+  With which disease are magnetite particles from combustion and brake wear, found in brain tissue, possibly linked?
+  Leukaemia | Methaemoglobinaemia | Fluorosis | *Alzheimer's disease
+  x: Magnetite particles have been found in brain tissue and are possibly linked to Alzheimer's disease.
+[f4a4622b9c531] sub2
+  Which air pollutant is chiefly associated with brain damage, high blood pressure and kidney damage?
+  Ozone | *Lead | Ammonia | Methane
+  x: Lead from leaded petrol and smelters causes brain damage, high blood pressure and kidney damage.
+[f9536ae4f6e82] sub2
+  Carbon monoxide's affinity for haemoglobin is about how many times that of oxygen?
+  20–25 | *200–250 | 2,000–2,500 | 50–60
+  x: CO binds haemoglobin 200–250 times more readily than oxygen, forming carboxyhaemoglobin and causing hypoxia.
+[fe8f9b1a4db3d] sub2
+  Fertilisers and livestock together account for about what share of ammonia emissions?
+  40–45% | 20–25% | 55–60% | *77–80%
+  x: Fertilisers and livestock contribute 77–80% of ammonia, which drives secondary particle formation.
+[f6317e411cad6] sub2
+  Consider the following statements about ozone:
+1. Ground-level ozone is a secondary pollutant.
+2. Stratospheric ozone shields the Earth from UV radiation.
+3. Ground-level ozone is emitted directly by vehicles.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Ground-level ozone forms in the air (secondary) and is not emitted directly, so 3 is wrong; stratospheric ozone is the UV shield.
+[n914cabb7cf3] sub3
+  Which of the following is NOT correct about indoor air pollution?
+  *It is caused exclusively by biological agents | Biomass and coal used for cooking and heating contribute to it | Radon and carbon monoxide are gaseous indoor pollutants | Women and children are among the groups most affected
+  x: Indoor pollution also comes from dust, smoke, pesticides, gases and mosquito coils, not only biological agents.
+[fa9f8983e3ee2] sub3
+  Which group suffers most from indoor air pollution?
+  *Women and children | Elderly men | Factory workers | Office workers
+  x: Indoor smoke from solid fuels hits women and children the most, causing COPD, lung cancer and heart disease.
+[f4ac143dee528] sub3
+  Which radioactive gas is a recognised indoor air pollutant?
+  Argon | Neon | *Radon | Helium
+  x: Radon is listed among indoor pollutants along with smoke, mould, CO and mosquito coils.
+[fb97347a2c9d6] sub3
+  Mosses are used as bioindicators of which of the following?
+  Sulphur dioxide | Ozone | *Heavy-metal deposition | Carbon monoxide
+  x: Mosses indicate heavy-metal deposition, while lichens indicate SO2.
+[nddc81c02dbd] sub4
+  What is the WHO Air Quality Guideline (2021) value for annual PM2.5?
+  *5 µg/m³ | 15 µg/m³ | 40 µg/m³ | 60 µg/m³
+  x: The WHO annual PM2.5 guideline is 5 µg/m³, against India's NAAQS of 40 µg/m³.
+[nd310a618bad] sub4
+  How many pollutants are covered under India's National Ambient Air Quality Standards?
+  8 | 10 | 15 | *12
+  x: NAAQS cover 12 pollutants, including PM10, PM2.5, SO2, NO2, CO, O3, NH3, lead, benzene, benzo(a)pyrene, arsenic and nickel.
+[n255e8ebd906] sub4
+  Which one of the following is NOT included among the eight pollutants covered by the National Air Quality Index?
+  Ammonia | PM2.5 | *Benzene | Lead
+  x: Benzene is included in the 12-pollutant NAAQS set, but not among the eight pollutants used in the NAQI list stated here.
+[n285ad03aa49] sub4
+  Which pollutant was included for the first time in the 2009 revision of the National Ambient Air Quality Standards?
+  Carbon monoxide | Sulphur dioxide | *Ozone | Lead
+  x: Ozone was included for the first time in the 2009 revision of the NAAQS.
+[nc1071a0a42d] sub4
+  What is India's NAAQS annual limit for SO2 in ecologically sensitive areas?
+  60 µg/m³ | 50 µg/m³ | *20 µg/m³ | 80 µg/m³
+  x: SO2 limits are 80 µg/m³ (24-hour), 50 µg/m³ annual urban and 20 µg/m³ annual in ecologically sensitive areas.
+[f3a1548031104] sub4
+  What is India's NAAQS annual limit for PM2.5?
+  *40 µg/m³ | 5 µg/m³ | 15 µg/m³ | 60 µg/m³
+  x: India's annual PM2.5 limit is 40 µg/m³, eight times laxer than the WHO 2021 guideline of 5 µg/m³.
+[fc27ef458cff6] sub4
+  Fossil-fuel air pollution caused about how many premature deaths in India in 2022?
+  0.72 million | 7 million | 2.72 million | *1.72 million
+  x: About 1.72 million premature deaths in India (2022) were linked to fossil-fuel air pollution; 7 million is WHO's global figure.
+[f05b906214d90] sub4
+  What is India's NAAQS 24-hour limit for SO2?
+  20 µg/m³ | *80 µg/m³ | 50 µg/m³ | 40 µg/m³
+  x: The 24-hour SO2 limit is 80 µg/m³; the annual limits are 50 (urban) and 20 (ecologically sensitive).
+[f42c23c280651] sub4
+  What was India's rank among the world's most polluted countries in the IQAir World Air Quality Report 2025?
+  1st | *6th | 4th | 5th
+  x: India was 6th in 2025 (5th in 2024); Pakistan was the most polluted country.
+[fff1108d37f94] sub4
+  Which was the world's most polluted city according to the IQAir World Air Quality Report 2025?
+  Bhiwadi | Delhi | Indore | *Loni
+  x: Loni (UP) was the most polluted city in 2025; Bhiwadi topped in 2021 and Delhi was 4th.
+[fade17cbe00a4] sub4
+  Per the IQAir 2025 report, what share of cities met the WHO PM2.5 guideline?
+  *14% | 4% | 24% | 40%
+  x: Only 14% of cities met the WHO PM2.5 guideline in the 2025 report.
+[g5a6d96c43791] sub4
+  According to the IQAir World Air Quality Report 2025, which was the most polluted capital city?
+  *Delhi | Dhaka | Islamabad | Kathmandu
+  x: In the IQAir 2025 report Delhi was 4th among cities and the most polluted capital.
+[gf29b91a0b3fa] sub4
+  Which country was the most polluted in the IQAir World Air Quality Report 2025?
+  India | Bangladesh | *Pakistan | Chad
+  x: The IQAir 2025 report ranked Pakistan 1st; India was 6th.
+[n3be64c3ced3] sub5
+  On India's Air Quality Index, a value of 301-400 falls in which category?
+  Poor | *Very poor | Severe | Moderately polluted
+  x: AQI 301-400 is Very poor; 201-300 is Poor and 401-500 is Severe.
+[n9a37f66f4ae] sub5
+  Which organisation monitors precipitation chemistry in India under the WMO Global Atmosphere Watch and the Background Air Pollution Monitoring Network?
+  International Maritime Organization | National Disaster Management Authority | Central Industrial Security Force | *India Meteorological Department
+  x: The India Meteorological Department monitors precipitation chemistry under the WMO Global Atmosphere Watch and BAPMoN.
+[n7b99a66ee35] sub5
+  The National Air Quality Index covers how many pollutants?
+  *8 | 6 | 10 | 12
+  x: The NAQI covers eight pollutants - PM10, PM2.5, NO2, SO2, CO, O3, NH3 and Pb - on a 0-500 scale.
+[n91179827834] sub5
+  Under which mission was the National Air Quality Index, implemented by the CPCB, launched in 2015?
+  *Swachh Bharat Abhiyan | Smart Cities Mission | National Clean Air Programme | Namami Gange Programme
+  x: The index was launched in 2015 under the Swachh Bharat Abhiyan and is implemented by the CPCB.
+[ncad8a3b1709] sub5
+  The expression “One Number – One Colour – One Description” is associated with which of the following?
+  *National Air Quality Index | National Ambient Air Quality Standards | Graded Response Action Plan | SAFAR weather forecast
+  x: “One Number – One Colour – One Description” is the communication principle associated with the AQI.
+[n11c8966a90b] sub5
+  In which year did the CPCB start the National Air Quality Monitoring Programme (NAMP)?
+  1974 | 1981 | *1984 | 1995
+  x: NAMP began in 1984 and monitors SO2, NO2, PM10 and PM2.5.
+[n7e21e734298] sub5
+  Through which institution does the Ministry of Earth Sciences run SAFAR, its air-quality forecasting system?
+  CPCB | IMD | CSIR-NEERI | *IITM Pune
+  x: SAFAR is run by MoES through IITM Pune, with the SAFAR-AIR app.
+[n43136ee252a] sub5
+  Which statement regarding CAAQMS is correct?
+  It is operated exclusively by industries outside monitoring networks. | *Its data are made available through the SAMEER app. | It replaced all manual monitoring stations in the country. | It monitors only sulphur dioxide and nitrogen dioxide.
+  x: CAAQMS data are provided through the SAMEER app. CAAQMS also tracks pollutants such as PM2.5, PM10, SO2, NOx, CO, O3, NH3 and benzene.
+[fdb2bee6243c1] sub5
+  Where was India's National Air Quality Index developed?
+  IIT Delhi | IITM Pune | *IIT Kanpur | NEERI Nagpur
+  x: The NAQI, launched on 6 April 2015 under Swachh Bharat, was developed at IIT Kanpur and is run by the CPCB.
+[f1395afef5b0b] sub5
+  Which AQI category is correctly matched with its colour?
+  Poor – Red | Very Poor – Orange | *Severe – Maroon | Satisfactory – Yellow
+  x: Severe is maroon; Poor is orange, Very Poor red and Satisfactory light green.
+[f74cce8b7d16c] sub5
+  To which body does SAMEER, the app that gives air-quality data from CAAQMS, belong?
+  *CPCB | MoES | IITM Pune | IMD
+  x: SAMEER is the CPCB's app; SAFAR-AIR is the MoES app.
+[f1643b5e70edc] sub5
+  Which pollutants does NAMP regularly monitor at all locations?
+  CO, O3, NH3 and lead | Benzene, arsenic, nickel and CO | CO2, methane, ozone and NH3 | *SO2, NO2, PM10 and PM2.5
+  x: NAMP, started by the CPCB in 1984, regularly monitors SO2, NO2, PM10 and PM2.5 at all locations.
+[ge2dac8177781] sub5
+  In which year was India's National Air Quality Index launched?
+  2009 | *2015 | 2019 | 2012
+  x: The NAQI was launched by the PM on 6 April 2015 under Swachh Bharat.
+[ge54ff6c97ac2] sub5
+  For how many cities was the National Air Quality Index first launched in 2015?
+  5 | *10 | 13 | 23
+  x: The NAQI was first launched for 10 cities and is run by the CPCB.
+[g6d5bd51a3416] sub5
+  As of March 2026, how many stations does the National Air Quality Monitoring Programme (NAMP) have?
+  *1,646 stations in 603 cities | 603 stations in 1,646 cities | 312 stations in 29 States | 130 stations in 24 States
+  x: NAMP, started by CPCB in 1984, had 1,646 stations in 603 cities in March 2026.
+[n56f15c74e81] sub6
+  With which bodies does the CPCB coordinate implementation of the National Clean Air Programme?
+  NITI Aayog | *State Pollution Control Boards | The National Green Tribunal | The India Meteorological Department
+  x: NCAP is coordinated by the CPCB with the State Pollution Control Boards, not by the CPCB alone.
+[nd8980d85c9e] sub6
+  On which date is Clean Air for Blue Skies Day observed in India as Swachh Vayu Diwas?
+  2 October | *7 September | 5 June | 16 September
+  x: Clean Air for Blue Skies Day, observed on 7 September, is marked in India as Swachh Vayu Diwas.
+[n7834d81cc64] sub6
+  What is the revised NCAP target for reduction in PM10, or meeting the NAAQS, by 2025-26?
+  20 per cent | 30 per cent | *40 per cent | 50 per cent
+  x: The revised target is up to 40% PM10 reduction by 2025-26; 20-30% by 2024 was the original target.
+[n7b437643c48] sub6
+  The term “non-attainment city” under NCAP refers to a city that has:
+  Exceeded WHO guidelines for one consecutive year | Not prepared a City Action Plan for two years | Recorded PM10 levels above 100 µg/m³ for three months | *Failed to meet NAAQS for five years
+  x: A non-attainment city is one that has failed to meet the National Ambient Air Quality Standards for five years.
+[naafb30ead4a] sub6
+  What is the full form of PRANA, associated with the National Clean Air Programme?
+  Programme for Restoration of Natural Air in Non-Attainment areas | Portal for Registration of Ambient National Air standards | Programme for Reduction of Atmospheric Nitrogen and Aerosols | *Portal for Regulation of Air-pollution in Non-Attainment cities
+  x: PRANA means Portal for Regulation of Air-pollution in Non-Attainment cities and is used to track NCAP progress.
+[ndec4321d88b] sub6
+  Since which year has the Swachh Vayu Survekshan, an annual ranking of NCAP cities, been held?
+  *2022-23 | 2019-20 | 2017-18 | 2024-25
+  x: SVS has ranked NCAP cities annually since 2022-23; in SVS 2025 Indore topped the million-plus category.
+[n99315698b66] sub6
+  Which city recorded the highest percentage reduction in PM10 from 2017–18 to 2023–24 under the NCAP assessment?
+  Indore | Visakhapatnam | *Varanasi | Delhi
+  x: Varanasi recorded the highest percentage reduction in PM10 during the period 2017–18 to 2023–24.
+[n3071cefe461] sub6
+  The National Clean Air Programme (NCAP) was launched in January 2019 by which Ministry?
+  *Ministry of Environment, Forest and Climate Change | Ministry of Earth Sciences | Ministry of Road Transport and Highways | Ministry of Jal Shakti
+  x: NCAP was launched in January 2019 by MoEFCC and is coordinated by CPCB with the SPCBs. MoES runs SAFAR forecasting, MoRTH notifies vehicle emission norms, and Jal Shakti oversees Namami Gange.
+[nfcd3e4c50b9] sub6
+  In 2024-25, how many of the 130 NCAP cities met the NAAQS for PM10?
+  60 | 103 | *22 | 130
+  x: Only 22 of the 130 NCAP cities met the PM10 standard, though 103 recorded a reduction compared with 2017-18.
+[nbcda33f51a1] sub6
+  The Pusa bio-decomposer used for crop-residue management was developed by which institution?
+  National Disaster Management Authority | Central Pollution Control Board | *Indian Agricultural Research Institute | Indian Institute of Tropical Meteorology
+  x: The Pusa bio-decomposer is associated with the Indian Agricultural Research Institute (IARI).
+[n37b33b33883] sub6
+  Which authority enforces the Graded Response Action Plan in Delhi-NCR?
+  National Disaster Management Authority | Central Pollution Control Board alone | Ministry of Road Transport and Highways | *Commission for Air Quality Management
+  x: GRAP is enforced in Delhi-NCR by the Commission for Air Quality Management (CAQM).
+[f02ee34ff78ee] sub6
+  Which base year did the original NCAP target of a 20–30% PM cut by 2024 use?
+  2014 | *2017 | 2019 | 2011
+  x: The original target was a 20–30% PM cut by 2024 over 2017; the revised one uses 2017-18.
+[fa1cee9182e56] sub6
+  NCAP covers 130 cities in how many States/UTs?
+  18 | *24 | 28 | 36
+  x: NCAP covers 130 cities in 24 States/UTs, including non-attainment and Million Plus cities.
+[f684594a3162b] sub6
+  What is the legal basis of the National Clean Air Programme?
+  Environment (Protection) Act, 1986 | Water (Prevention and Control of Pollution) Act, 1974 | CAQM Act, 2021 | *Air (Prevention and Control of Pollution) Act, 1981
+  x: NCAP rests on the Air Act, 1981.
+[f8a62e72af56f] sub6
+  According to the NGT (May 2026), about what share of NCAP spending went to road dust?
+  *86% | 46% | 26% | 66%
+  x: The NGT found 86% of NCAP spending went to road dust.
+[f1c2b6b036b10] sub6
+  In which year was the PRANA portal for NCAP launched?
+  2019 | 2022 | *2021 | 2023
+  x: PRANA (Portal for Regulation of Air-pollution in Non-Attainment cities) was launched on 7 September 2021.
+[g3d06dba0bb5d] sub6
+  Which national programme was launched by the MoEFCC in January 2019 to cut particulate pollution in non-attainment cities?
+  *National Clean Air Programme | National Air Quality Monitoring Programme | Graded Response Action Plan | System of Air Quality and Weather Forecasting (SAFAR)
+  x: NCAP was launched in January 2019 by the MoEFCC as a time-bound national strategy for cleaner air.
+[g14ff20ebb9c1] sub6
+  Consider the following statements about the National Clean Air Programme:
+1. It was launched in 2019.
+2. Its legal basis is the Air (Prevention and Control of Pollution) Act, 1981.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: NCAP was launched in January 2019 and rests on the Air Act, 1981.
+[g45202e161bcb] sub6
+  Which of the following programmes deals with air pollution rather than water pollution?
+  National River Conservation Plan | National Lake Conservation Plan | Namami Gange | *National Clean Air Programme
+  x: NCAP targets air pollution, including industrial emissions; NRCP, NLCP and Namami Gange are water programmes.
+[g7682e968d07d] sub6
+  Which city ranked first among million-plus cities in Swachh Vayu Survekshan 2023 and 2025?
+  *Indore | Varanasi | Surat | Visakhapatnam
+  x: Indore topped the million-plus category in both SVS 2023 and SVS 2025.
+[n5d3a2515cc9] sub7
+  Which of the following pairs is wrongly matched?
+  Methanol Economy – Methanol as fuel or blend | SATAT – Compressed biogas | National Green Hydrogen Mission – Hydrogen as an energy option | *Ethanol Blending Programme – Compressed biogas
+  x: Compressed biogas belongs to SATAT; the Ethanol Blending Programme is linked with E20-compatible vehicles.
+[n7a637aa44a9] sub7
+  Catalytic converters in vehicles use which metals as catalysts?
+  Silver and iodine | *Platinum, palladium and rhodium | Lead and cadmium | Copper and zinc
+  x: Converters use platinum, palladium and rhodium; silver iodide is a cloud-seeding agent.
+[n21a0a73cc77] sub7
+  Although FGD was mandated in 2015, how many of India's 537 coal plants had installed it before the mandate was relaxed?
+  9 | *39 | 139 | 268
+  x: Only 39 of 537 coal plants had FGD; the mandate was later relaxed citing high costs.
+[nbe4d334ac91] sub7
+  Which one of the following pairs is NOT correctly matched?
+  FAME-II — Subsidies for electric vehicles | PUC certificate — Pollution compliance for vehicles | RFID pollution charge — Trucks entering Delhi | *Vehicle scrappage policy — Introduced in 2015
+  x: The vehicle scrappage policy was introduced in 2021, not 2015. PUC certificates, RFID pollution charges and FAME-II EV subsidies are correctly matched.
+[n025e5403d23] sub7
+  Up to what share of sulphur dioxide can Flue Gas Desulphurisation remove?
+  50 per cent | 75 per cent | *95 per cent | 100 per cent
+  x: FGD can remove up to 95 per cent of SO2, which comes mainly from burning coal and oil and from ore smelting.
+[nda796d762a7] sub7
+  BS-III emission norms began on 1 April 2005 in the NCR and how many other cities?
+  5 | 13 | *10 | 20
+  x: BS-III started from 1 April 2005 in the NCR and 10 other cities; BS-VI came nationwide on 1 April 2020.
+[n400baf1086e] sub7
+  What is an electrostatic precipitator in an industrial unit mainly meant to remove?
+  sulphuric acid from rainwater | carbon dioxide from the atmosphere | only nitrogen gas | *fine particulates such as fly ash
+  x: An electrostatic precipitator removes fine particulates, particularly fly ash, from industrial emissions.
+[nc4fcf796c03] sub7
+  Which industrial device removes coarse particles by centrifugal force?
+  Wet scrubber | Bag filter | Flue gas desulphurisation unit | *Cyclone separator
+  x: Cyclone separators remove coarse particles by centrifugal force; wet scrubbers remove gases and particles, bag filters use fabric.
+[ffef5129a8aeb] sub7
+  With which body is the Methanol Economy programme associated?
+  MoRTH | CPCB | *NITI Aayog | MoES
+  x: The Methanol Economy is a NITI Aayog initiative among cleaner-fuel measures.
+[fcb3cae041ee3] sub7
+  What does the SATAT initiative promote?
+  *Compressed biogas | Green hydrogen | Methanol | Ethanol blending
+  x: SATAT is the compressed biogas programme; green hydrogen has its own National Mission.
+[f9aa23fdaf03b] sub7
+  Which scheme gives subsidies for electric vehicles as a vehicular-emission control measure?
+  SATAT | PRANA | AMRUT | *FAME-II
+  x: FAME-II gives EV subsidies; SATAT is for compressed biogas and PRANA is the NCAP portal.
+[fdd9ec583ef00] sub7
+  In which year was India's vehicle scrappage policy introduced?
+  2019 | *2021 | 2023 | 2017
+  x: The vehicle scrappage policy came in 2021, alongside PUC and RFID pollution charges.
+[fccf01a2dad2a] sub7
+  OCEMS is mandatory in Delhi-NCR for which category of industries?
+  Orange | *Red | Green | White
+  x: Online Continuous Emission Monitoring Systems are mandatory for red-category industries in Delhi-NCR.
+[g77194ef64d07] sub7
+  What is the main constituent of CNG?
+  *Methane | Propane | Butane | Ethane
+  x: Compressed Natural Gas is mainly methane, a cleaner fuel than petrol and diesel.
+[gfa6f985096ff] sub7
+  Which type of petrol must vehicles fitted with catalytic converters use?
+  *Unleaded petrol | Leaded petrol | High-sulphur petrol | Kerosene-blended petrol
+  x: A catalytic converter needs unleaded petrol, because lead spoils the platinum, palladium and rhodium catalyst.
+[g37e7810b48c2] sub7
+  All new vehicles in India are made compatible with which ethanol blend?
+  E5 | E10 | *E20 | E100
+  x: All new vehicles are E20-compatible, though about 95% of pre-2020 vehicles are not fully compatible.
+[g5410d5a9f931] sub7
+  Which industrial device removes both gases such as SO2 and particles?
+  *Wet scrubber | Bag filter | Cyclone separator | Electrostatic precipitator
+  x: A wet scrubber removes gases (SO2) and particles; bag filters and cyclones remove only dust.
+[ne9eeee9a106] sub8
+  In which of the following is dry ice used?
+  *Cloud seeding | Catalytic converters | Flue gas desulphurisation | Liming of lakes
+  x: Cloud seeding may use silver iodide, potassium iodide, dry ice and common salt.
+[n56f101d356a] sub8
+  Which institution developed VAYU (Wind Augmentation PurifYing Unit), a roadside air purifier?
+  *CSIR-NEERI | IITM Pune | CPCB | IMD
+  x: VAYU was developed by CSIR-NEERI; MoES supports GRAP with a 400 m forecasting system.
+[nd307ae28347] sub8
+  Stubble burning after paddy and wheat harvest is especially associated with which months and states?
+  July–August in Kerala, Tamil Nadu and Karnataka | *October–November in Punjab, Haryana and Uttar Pradesh | April–May in Rajasthan, Gujarat and Maharashtra | January–February in Bihar, Jharkhand and Odisha
+  x: Paddy and wheat stubble is mainly burnt during October–November in Punjab, Haryana and Uttar Pradesh.
+[nf2f4a41f629] sub8
+  Assertion (A): The Commission for Air Quality Management (CAQM) is a statutory body.
+Reason (R): CAQM, first set up through an Ordinance in 2020, was given statutory backing by the CAQM Act, 2021.
+  *Both A and R are true and R is the correct explanation of A | Both A and R are true but R is not the correct explanation of A | A is true but R is false | A is false but R is true
+  x: CAQM is statutory because the CAQM Act, 2021 gave it statutory backing; it can also shut down violators.
+[f05ed01cda43a] sub8
+  Under GRAP, in which AQI range is Stage III invoked?
+  201–300 | 301–400 | Above 450 | *401–450
+  x: GRAP Stage III corresponds to Severe (401–450); Stage IV is Severe+ above 450.
+[f97382fa35298] sub8
+  Which GRAP stage is correctly matched with its AQI category?
+  *Stage IV – Severe+ (above 450) | Stage I – Very Poor (301–400) | Stage II – Poor (201–300) | Stage III – Very Poor (301–400)
+  x: Stage IV is Severe+ above 450; Stage I is Poor, Stage II Very Poor and Stage III Severe (401–450).
+[f4f0195bd445a] sub8
+  In which year did the Centrally Sponsored Scheme on crop residue management machinery begin?
+  2016 | 2020 | *2018 | 2022
+  x: The CSS on crop residue machinery dates from 2018, supporting in-situ management such as the Happy Seeder.
+[fa848ffc1e0d7] sub8
+  For what is the Happy Seeder used?
+  Cloud seeding | Roadside air purification | *In-situ crop residue management | Flue gas desulphurisation
+  x: The Happy Seeder is subsidised machinery for in-situ management of stubble.
+[fc51ffcb917e7] sub8
+  From which date did CAQM ban the use of coal in Delhi-NCR?
+  *1 January 2023 | 1 April 2020 | 1 January 2021 | 1 October 2022
+  x: Coal was banned in Delhi-NCR from 1 January 2023 by the statutory CAQM.
+[n28e35b3b99a] sub9
+  Which of the following pairs correctly represents a natural source of SOx and a natural source of NOx respectively?
+  *Volcanoes and lightning | Metal smelting and forest fires | Oil refineries and fossil-fuel burning | Vehicles and oceans
+  x: Volcanoes are a natural source of SOx, while lightning is a natural source of NOx. Vehicles, smelting and oil refineries are anthropogenic sources.
+[nc1386a3649a] sub9
+  Below what pH is precipitation classed as acid rain?
+  4.2 | *5.6 | 6.5 | 7.0
+  x: The acid-rain threshold is pH 5.6; typical acid rain has a pH of about 4.2-4.4.
+[n688c83ebf8e] sub9
+  Which is the main single factor identified in acid rain?
+  Carbon monoxide | Methane | *Sulphur dioxide | Carbon dioxide
+  x: SO2 and NOx are the principal acid-rain gases, with SO2 the main single factor; CO and methane are not principal causes.
+[n9033732cccd] sub9
+  About what share of the acidity of acid rain is due to sulphuric acid?
+  *two-thirds | one-third | one-half | one-tenth
+  x: Sulphuric acid gives about two-thirds of acid-rain acidity and nitric acid about one-third.
+[n24d20ec4b05] sub9
+  Through which process does about half of atmospheric acidity return to the Earth's surface?
+  Wet deposition | *Dry deposition | Fog only | Snow only
+  x: About half returns by dry deposition; in wet deposition acids fall with rain, snow or fog.
+[nb6c898e5807] sub9
+  Who coined the term 'acid rain' in 1872?
+  Robert Boyle | M. C. Mehta | Svante Arrhenius | *Robert Angus Smith
+  x: Robert Angus Smith coined the term “acid rain” in 1872 while describing pollution associated with coal burning in Manchester.
+[ff0c5fe339fef] sub9
+  Normal rain has a pH of about 5.6 because of which dissolved acid?
+  Sulphuric acid | Nitric acid | Hydrochloric acid | *Carbonic acid
+  x: Normal rain is about pH 5.6 due to carbonic acid; acid rain is below 5.6.
+[f348d766b8323] sub9
+  By how much does acidity increase when pH falls by one unit?
+  Twofold | *Tenfold | Fivefold | Hundredfold
+  x: pH is logarithmic: each step is a tenfold change in acidity.
+[f69f92c1bd551] sub9
+  About what share of the acidity of acid rain is due to nitric acid?
+  two-thirds | *one-third | one-half | one-tenth
+  x: H2SO4 gives about two-thirds of the acidity and HNO3 about one-third.
+[n4ae65adfbcb] sub10
+  Which of the following monuments is NOT protected under the Taj Trapezium Zone?
+  *Sanchi Stupa | Agra Fort | Fatehpur Sikri | Taj Mahal
+  x: The TTZ protects the Taj Mahal, Agra Fort and Fatehpur Sikri; Sanchi Stupa is not included.
+[n2cf4c13c696] sub10
+  What is the yellowing and loss of lustre of the Taj Mahal marble due to pollution commonly called?
+  limestone erosion syndrome | *marble cancer | monumental albedo loss | stone fever
+  x: The yellowing and loss of lustre of marble caused by pollution is popularly called “marble cancer.” Acid rain accelerates the decay of limestone and marble structures.
+[nd61109c36cf] sub10
+  Because winds carry pollutants hundreds of kilometres, what kind of problem is acid rain?
+  *transboundary | purely local | indoor | seasonal
+  x: Acid rain is transboundary; Scandinavian lakes were acidified by emissions from the UK and central Europe.
+[ncfad542a71b] sub10
+  In forest soils, acid deposition leaches calcium and magnesium and releases which toxic element that damages roots?
+  sodium | nitrogen | *aluminium | potassium
+  x: Acid deposition releases toxic aluminium; acidification also lowers lake pH, harming fish.
+[n82fa611a6b4] sub10
+  Which of the following is NOT correct about air-pollution control?
+  Low-NOx burners are used in power plants | Catalytic converters reduce NOx, carbon monoxide and hydrocarbons | Liming of lakes and soils neutralises acidity | *Liming is a preventive measure that stops emissions at the source
+  x: Liming is a remedial measure that neutralises existing acidity; it does not prevent emissions.
+[na5cbc6552b5] sub10
+  Which of the following is NOT correct about the Taj Trapezium Zone?
+  *The order permitted industries in the zone to keep using coal and coke without restriction | It includes districts in Uttar Pradesh and Bharatpur in Rajasthan | The Supreme Court order in M.C. Mehta v. Union of India was delivered in 1996 | It covers approximately 10,400 sq km
+  x: In 1996 the Supreme Court barred coal and coke use by TTZ industries and directed a shift to natural gas or relocation.
+[n72fd5385d6d] sub10
+  Which is the principal pollutant identified as threatening the Taj Mahal, especially from industries around Agra?
+  methane from agricultural fields | *sulphur dioxide, notably associated with the Mathura refinery | chlorofluorocarbon from refrigeration units | carbon monoxide from household stoves
+  x: Sulphur dioxide is the principal pollutant identified in relation to the Taj Mahal, with industrial sources around Agra, notably the Mathura refinery.
+[n64117f928a7] sub10
+  Which of the following pairs is wrongly matched?
+  Helsinki Sulphur Protocol – Thirty percent cut in sulphur emissions | *LRTAP Convention – Thirty percent cut in sulphur emissions | Gothenburg Protocol – Caps SO2, NOx, NH3 and VOCs | Sofia NOx Protocol – Freeze NOx emissions
+  x: LRTAP was the first binding treaty on transboundary air pollution; the 30% sulphur cut was the Helsinki Protocol.
+[nd12adcbca08] sub10
+  Which technology is used to trap sulphur dioxide in power-plant smokestacks?
+  Catalytic converters | *Flue gas desulphurisation scrubbers | Liming units | Low-NOx burners
+  x: Flue gas desulphurisation systems, commonly called scrubbers, trap SO2 in smokestacks.
+[f6b6909eb5934] sub10
+  What is the approximate area of the Taj Trapezium Zone?
+  1,040 sq km | 4,000 sq km | 20,400 sq km | *10,400 sq km
+  x: The TTZ, about 10,400 sq km, protects the Taj, Agra Fort and Fatehpur Sikri.
+[f78dfe1863b45] sub10
+  In which year did the Supreme Court, in M.C. Mehta v. Union of India, bar coal and coke in the Taj Trapezium Zone?
+  *1996 | 1986 | 2006 | 1991
+  x: In 1996 the SC barred coal/coke in the TTZ, requiring a shift to natural gas or relocation.
+[f519f15c5f446] sub10
+  Which country was the world's largest emitter of SO2 in 2022?
+  China | USA | *India | Russia
+  x: India was the largest SO2 emitter in 2022, with over 20% of the total.
+[fe36342d88cdd] sub10
+  Which was the first binding international treaty on transboundary air pollution?
+  *LRTAP Convention, 1979 | Helsinki Protocol, 1985 | Sofia Protocol, 1988 | Gothenburg Protocol, 1999
+  x: The UNECE Convention on Long-Range Transboundary Air Pollution (Geneva, 1979) was the first binding treaty.
+[f53922a327804] sub10
+  Which protocol under LRTAP is correctly matched with its focus?
+  Helsinki Protocol – Freeze on NOx | Sofia Protocol – 30% sulphur cut | Gothenburg Protocol – 30% sulphur cut only | *Sofia Protocol – Freeze on NOx
+  x: Sofia (1988) froze NOx; Helsinki (1985) sought a 30% sulphur cut; Gothenburg (1999) covers SO2, NOx, NH3 and VOCs.
+[gd3000f2ecb5e] sub10
+  Which region of Europe receives heavy acid rain from emissions of the UK and central Europe?
+  *Scandinavia | Iberian Peninsula | Balkans | Mediterranean islands
+  x: Winds carry SO2 and NOx from the UK and central Europe to Scandinavia (Norway, Sweden), a classic transboundary case.
+[n53ba54660f1] sub11
+  Which city emerged as Andhra Pradesh's pollution hotspot, with PM2.5 rising 33% between January 2024 and April 2026?
+  Vijayawada | Amaravati | Guntur | *Visakhapatnam
+  x: Visakhapatnam's PM2.5 rose 33 per cent in that period and exceeded national limits.
+[n4fda6bc3f81] sub11
+  The APPCB state-level air-quality action plan covers how many urban local bodies?
+  *123 | 100 | 125 | 135
+  x: The plan covers 123 urban local bodies, including 17 municipal corporations.
+[n811cc972b5e] sub11
+  Which of the following is NOT correctly matched with an AP coal-based thermal power cluster?
+  Dr NTTPS — Vijayawada region | Krishnapatnam — Nellore | *Dr NTTPS — Kurnool | Simhadri — Visakhapatnam
+  x: Dr NTTPS is located in the Vijayawada-Ibrahimpatnam region. Krishnapatnam is associated with Nellore and Simhadri with Visakhapatnam.
+[f39454cb3a632] sub11
+  How many NCAP non-attainment cities are in Andhra Pradesh?
+  10 | *13 | 17 | 23
+  x: AP has 13 non-attainment cities, including Vijayawada, Visakhapatnam, Guntur, Nellore and Kurnool.
+[fd7c3dcb2bd6f] sub11
+  The Krishnapatnam thermal power plant is in which area of Andhra Pradesh?
+  Kurnool | *Nellore | Visakhapatnam | Vijayawada
+  x: Krishnapatnam is at Nellore; Dr NTTPS is at Vijayawada and Simhadri at Visakhapatnam.
+[f58a94d6b64ef] sub11
+  Under which programme do the school Eco-Clubs in Andhra Pradesh that spread air-quality awareness run?
+  National Cadet Corps | National Service Scheme | Swachh Bharat Mission | *National Green Corps
+  x: AP school Eco-Clubs run under the AP National Green Corps (2002-03).
+[g4493a1d0296a] sub11
+  Who was the APPCB Chairman who issued the Bhogi advisory against burning tyres and plastic?
+  *P. Krishnayya | Kandula Durgesh | M.N. Harendhira Prasad | Ajai Saxena
+  x: The Bhogi advisory was issued by APPCB Chairman P. Krishnayya.
+[g85e70ebcb69e] sub11
+  A ward of which Andhra Pradesh city ranked 2nd nationally in Swachh Vayu Survekshan 2026?
+  Visakhapatnam | Guntur | *Vijayawada | Nellore
+  x: Vijayawada ward 60 ranked 2nd nationally in SVS 2026; the VMC got Rs 30 lakh.
+
