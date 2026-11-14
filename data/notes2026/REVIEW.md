@@ -1225,3 +1225,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w068 (rows 68–69)
 - own 270 → 45 kept + 73 new (118, 44%); new 43 statements / 22 match / 7 A–R / 1 sequence; 10 of 220 lines lost (mostly duplicated notes lines).
 - 69:0:6 Yudh Abhyas 2026 "22nd edition" vs Rocket CA "23rd" — verify.
+
+## rewrite b2-w062 (rows 62–65)
+- own 422 → 85 kept + 76 new (161, 38%); new 45 statements / 19 match / 10 A–R / 2 sequence; 1 of 254 lines lost. No wrong notes/keys (notes already flag disputed keys at 64:7:4 and 65:3:2).
