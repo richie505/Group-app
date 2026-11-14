@@ -804,3 +804,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r093 (CA rows 93-95 awards)
 - No key changes. Disputes: yfb6ff3fd752 MIDORI biennial; y248f116506c Padma eligibility.
 - Unverified: y37b5e68e0f7 O.P. Bhardwaj part; yf0ca4e20387 Meena Charanda (prep sites only); ~14 general-knowledge award keys.
+
+## b6-r090 (CA rows 90-92 awards/persons)
+- No key changes. Spelling variants shown: Miss World 2026 Zohery Mola / Joheirry Mola Dominguez; Theja/Teja Rio; Goldman names.

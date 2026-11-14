@@ -22,7 +22,7 @@ Data: 2 exam PYQs (keys.jsonl), 241 app MCQs (137 "ca", 97 "app", 7 untagged), 2
 - **Own-MCQ angles:** rank / agency / top country (about 60%), number-of-countries or edition, NOT-correct statements, pairs (index–publisher), assertion–reason (WEF founder), AP angle (EV index 9th, data-centre tier, YouthPOWER, Swachh Andhra, CEA 9th).
 - **Repeats:** GII (WIPO, 38th, 139), Gender Gap (WEF, 131st, Iceland), GHI (100th of 122, publishers), Henley (84th), WJP (88th), NCAP/Swachh Vayu, Aspirational Districts weights.
 
-## 2. Weight by sub-section (217 MCQs kept in row 83 + 1 PYQ)
+## 2. Weight by sub-section (216 MCQs kept in row 83 + 1 PYQ)
 | Sub | Sub-section | MCQs | PYQs |
 |---|---|---|---|
 | 5 | Environment and energy reports (LPR, FAO, GCRMN, WMO, UNEP–CCAC, IEA, iFOREST) | 36 | – |

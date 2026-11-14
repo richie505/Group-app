@@ -7,7 +7,7 @@ Data: 27 PYQs (keys.jsonl), 166 app MCQs, 193 in all (all-mcqs.json). Counts fro
 | Item | Count |
 |---|---|
 | PYQs | 27 (1 on row 81, 26 on row 82) |
-| Keys from the notes / generated | 9 / 18 |
+| Keys from the notes / generated | 8 / 19 |
 | Keys changed | 0 PYQs; 1 app MCQ (n9bc5e179f76 Gaja Mitra: Karnataka → option added "Assam") |
 | Disputed / outdated / unkeyed | 1 (national fish) / 0 / 0 |
 | Notes sub-sections | row 81: 6; row 82: 11 (old "APPSC PYQs", "MCQ traps" and "Number game" pages dropped) |
