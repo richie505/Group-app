@@ -1379,3 +1379,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - FIXED cz3a74799a0d2d stem "(October 2026)" → "(released 10 November 2026)" per notes.
 - f5fedf6807fdc (Guntur joint 2nd in Swachh Vayu Sarvekshan) removed as not in row 83 notes (it is in row 76 notes).
 - GHI weights (9:3) marked "not checked" in notes but used in a new A–R MCQ — verify weights (1/3 undernourishment, 1/6 stunting, 1/6 wasting, 1/3 child mortality).
+
+## rewrite b5-w090 (rows 90–94)
+- own 368 → 36 kept + 95 new (131, 36%); new 64 statements / 19 match / 12 A–R; 4 of 243 lines lost.
+- Wrong own keys merged with fix: f6499610a62cd (Godavarman judgment 1995; writ 1995, order 1996), n3c478 (Okjökull dead 2019; declared dead 2014, plaque 2019).
