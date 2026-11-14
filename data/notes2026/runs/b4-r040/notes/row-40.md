@@ -117,7 +117,7 @@
 | Sub-alpine | 2,900–3,500 m | Fir, spruce, birch, rhododendron |
 | Moist alpine scrub / alpine meadows | 3,000 m to snowline (~4,750 m) | Rhododendron, birch; meadows (bugyals, margs) |
 | Dry alpine scrub | > 3,500–4,000 m | **Juniper**, honeysuckle, artemisia |
-- **Deodar** is the tree of the **highest elevation** among deodar, pine, sal, teak; abundant in the temperate **Western Himalaya**; covers **1,800–2,600 m** (not sal, chir).
+- **Deodar** is the tree of the **highest elevation** among deodar, pine, sal, teak; abundant in the temperate **Western Himalaya**; covers **1,800–2,600 m** (NDA 2018 PYQ band – this lies inside the moist temperate belt of **1,500–3,000 m** in the table, NCERT/NextGen; no conflict: the narrower band is where deodar is most typical) (not sal, chir).
 - Uttarakhand **oak–rhododendron** (banj oak, burans) = **temperate** forest. Oak and rhododendron grow naturally in the Himalaya; **sandalwood does not**.
 - **Mahogany** is a tropical (American) tree – **not** Himalayan; juniper, silver fir, spruce are.
 - **Himalayan Yew (Taxus wallachiana)** – source of **taxol**, the biggest-selling anti-cancer drug.

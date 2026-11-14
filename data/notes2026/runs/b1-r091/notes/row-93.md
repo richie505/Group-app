@@ -41,7 +41,7 @@
 
 === Marco Polo's Account
 - **Who:** **Marco Polo**, the **Venetian (Italian)** traveller; work **Il Milione / The Travels**.
-- **When:** visited in **Rudramadevi's** reign (DAO 2011; G2 2011 ×2; Group-II-A 1984) – reached the Coromandel coast in **1292**, towards the end of her reign.
+- **When:** visited in **Rudramadevi's** reign (DAO 2011; G2 2011 ×2; Group-II-A 1984) – reached the Coromandel coast c. **1292–93**, "towards the end of her reign" (most books; older books ended her reign c. 1295); strictly she died in **Nov 1289** (Chandupatla inscription), so his "queen" account came just after her death, early in Prataparudra II's reign.
 - **Where:** landed at the Kakatiya port **Motupalli ("Mutfili")** (Group-I 1990-91; G1 1994; APPSC PYQ) – not Ibn Battuta, Abdur Razzaq, Nicolo Conti, Domingo Paes, Jordanus, Hiuen Tsang or Columbus.
 | Theme | Observation |
 |---|---|
@@ -49,7 +49,7 @@
 | Trade | Flourishing sea trade; port duties at Motupalli; merchants **not** heavily taxed |
 | Wealth | **Diamond** mines of the Golconda region (APPSC PYQ); fine textiles |
 | Climate, food | Hot climate; **rice** the only local grain |
-~~ Sources: NextGen AP History - Kakatiyas p.15, p.25-27, p.53; app notes 1:93 (sub 3)
+~~ Sources: NextGen AP History - Kakatiyas p.15, p.25-27, p.53; https://en.wikipedia.org/wiki/Rudrama_Devi (Chandupatla inscr. 27 Nov 1289; Polo c. 1293); app notes 1:93 (sub 3)
 
 === Fall of Warangal (1323) and the Captivity of Prataparudra
 - **Captor:** **Ulugh Khan** (Juna Khan, later **Muhammad bin Tughlaq**), under Sultan **Ghiyasuddin Tughlaq** (APPSC G2 2019; G2 PYQ; Group-II-A 1989) – not Malik Kafur, Alauddin Khalji or Malik Chajju.

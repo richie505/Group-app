@@ -13,8 +13,8 @@
 - RISAT-2 (2009) flew **before** RISAT-1 (2012). PSLV-C18 = Megha-Tropiques, Jugnu, SRMSAT (not RISAT-1).
 # Latest
 - **12 Jan 2026:** **PSLV-C62/EOS-N1** failed after a **roll-rate disturbance at the end of the third stage**.
-- **7 Sep 2026:** **EOS-05** – India's first earth-imaging satellite for **geosynchronous orbit (~36,000 km)**.
-~~ Sources: PMF S&T Part 1 p.111-112; app notes 5:43 sub 1
+- **4 Sep 2026:** **EOS-05** (GISAT-1A, **GSLV-F17**) – India's first earth-imaging satellite for **geosynchronous orbit (~36,000 km)**.
+~~ Sources: PMF S&T Part 1 p.111-112; app notes 5:43 sub 1; Rocket CA 2026 Part 02 p.57; Praveen CA-360 Sep 2026 p.79
 
 === Student and Academic Satellites; ISRO Student Programmes
 | Satellite | Built by | Launch / FIRST |

@@ -34,7 +34,7 @@
 - Proposed **Article 82A** (synchronise terms of Lok Sabha and State Assemblies) and **Article 324A** (municipal and panchayat polls with general elections).
 - Lok Sabha and Assembly polls first; local body polls to follow; amendment for Art. 82A needs **no State ratification**.
 - **Constitution (129th Amendment) Bill, 2024** introduced in the Lok Sabha in **December 2024** and sent to a **JPC**.
-~~ Sources: Rocket Polity 01 p.70 (Indrajit Gupta – State funding of elections); Laxmikanth Indian Polity 8th ed. Part 02 p.381 (eight-member committee, 1998, report 1999); Rocket Indian Economy p.95 (Kelkar – PPP; Narasimham I/II) and p.31 (N.K. Singh – FRBM review); NextGen Indian Economy APPSC 10 p.6 (N.K. Singh 2016); communalism.blogspot.com/2015/09 (The Hindu report on Batra); Birla and Irani pairs from general knowledge, not checked; app notes 6:51 (sub 2)
+~~ Sources: Rocket Polity 01 p.70 (Indrajit Gupta – State funding of elections); Laxmikanth Indian Polity 8th ed. Part 02 p.381 (eight-member committee, 1998, report 1999); Rocket Indian Economy p.95 (Kelkar – PPP; Narasimham I/II) and p.31 (N.K. Singh – FRBM review); NextGen Indian Economy APPSC 10 p.6 (N.K. Singh 2016); communalism.blogspot.com/2015/09 (The Hindu report on Batra); Birla pair: SEBI circular 21 Feb 2000 (sebi.gov.in/legal/circulars/feb-2000/corporate-governance_17930.html: Committee on Corporate Governance under Kumar Mangalam Birla, constituted 1999); Irani pair: en.wikipedia.org/wiki/Jamshed_Jiji_Irani (Expert Committee on new Companies Act, 2004); app notes 6:51 (sub 2)
 
 === Pay Commissions, Inquiry Commissions and the PM's Economic Advisory Council (PYQ)
 # Central Pay Commissions

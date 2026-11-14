@@ -1629,3 +1629,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 
 ## review d02 (doubtful PYQ keys)
 - b6-d02: 3 confirmed. y59654082c9a Vietnam (stem "$300 billion" should be million); y1816b2597cb Vencatesan (stem "March 2024" → award Mar 2025); yc9f12b441db official key Suzie Bates kept + dispute (strictly Charlotte Edwards first past 2,000, not among options — owner may prefer add_option).
+- b3-d02: 4 confirmed, 2 unverifiable, 0 changed. yd18f961c539 Swayamsiddha (stem 2002 → 2001); y9307006b4ff Green Revolution 3rd Plan kept + dispute; y9445309fd91 Standard Chartered kept + dispute ("250" misprint of HK$150); yd606048606b Ajay Tyagi kept + outdated. Unverifiable: y9adefa21c3e subsidies 7.0% (Centre 1.6%), y2a173d70bb8 AP/TS per-capita figures (garbled).

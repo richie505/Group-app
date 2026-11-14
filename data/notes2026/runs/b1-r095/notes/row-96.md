@@ -89,11 +89,11 @@
 | **Mahadeva** | After Rudradeva, before Ganapatideva |
 | **Ganapatideva** | Greatest Kakatiya; capital to Warangal; south to **Kanchi**; guru Visvesvara Sambhu |
 | **Rudramadevi** (1262) | Title Rayagaja Kesari; **Marco Polo** visited |
-| Prataparudra (1296) | Last ruler; ascended after Rudramadevi |
+| Prataparudra (1289; older books 1295/96) | Last ruler; ascended after Rudramadevi (crowned 1289 after her death) |
 - **Brightest period of Telugu history:** the **Kakatiya** period – it unified the Telugu lands.
 - **Builders:** **Recherla Rudra** (not of the dynasty) – Ramappa; **Vellanki Gangadhara** – Prasanna Keshava; **Jagadala Mummadi** – **Pakhal** tank.
 - **Ketana:** title **Abhinava Dandi**.
-~~ Sources: NextGen Kakatiyas p.35-43; app notes 1:96 (sub 0)
+~~ Sources: NextGen Kakatiyas p.35-43; NextGen Kakatiyas (nextgen-08) "Prataparudra was crowned in 1289 AD"; app notes 1:96 (sub 0)
 
 === Kakatiya Style – Techniques and Features
 | Feature | What it is |

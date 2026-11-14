@@ -59,12 +59,12 @@
 - **Guild head:** **Setti / Sreshthi**; guilds had seals, emblems and militia and acted as bankers – but **no royal monopoly** over trade.
 # Routes (APPSC G1 2023 ×2)
 - **Kridabhiramamu routes:** **Motupalli–Tripurantakam–Ballari** and **Palnadu–Nalgonda–Nekarikallu–Orugallu** → answer **III and IV**; **Orugallu** was the inland trade hub.
-- **Tripurantakam** linked Motupalli and the salt towns to **Ballari** via Kurnool.
+- **Tripurantakam** linked Motupalli and the salt towns to **Ballari** via Kurnool; also: **Pedaganjam and Chinaganjam** (Prakasam coast) were known for **salt** production (APPSC G2 Mains 2019, 2025; APPSC PYQ ×5) – not textiles, indigo or sugar.
 - **Ketana:** chief inland route Kanchi → Nellore → Warangal → **Ayodhya**.
 - Kakatiyas controlled routes between the **Deccan interior and the eastern coast**.
 - **Kridabhiramamu:** Telugu play by **Vinukonda Vallabharaya** describing life in **Orugallu (Warangal)**.
 - **Imports:** **Arabian war horses**, pearls, silk, perfumes; **exports:** fine textiles, spices, diamonds, gold.
-~~ Sources: NextGen AP History - Kakatiyas p.25-27, p.63-69; NextGen previous papers p.14; https://www.ijraset.com/best-journal/development-of-internal-trade-routes-and-centers-under-the-kakatiyas; app notes 1:94 (sub 9)
+~~ Sources: NextGen AP History - Kakatiyas p.25-27, p.63-69; NextGen previous papers p.14; https://www.ijraset.com/best-journal/development-of-internal-trade-routes-and-centers-under-the-kakatiyas; NextGen AP History Part 8 p.21 (Peda/China Ganjam industries); app notes 1:94 (sub 9)
 
 === Nayankara System and Administration
 # Nayankara system

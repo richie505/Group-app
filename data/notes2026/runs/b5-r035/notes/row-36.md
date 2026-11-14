@@ -61,9 +61,9 @@
 | Agnite | Agnikul | Largest single-piece 3D-printed booster engine (Inconel) |
 | EVEREST | Astrobase (Bengaluru) | First private 800 kN full-flow staged combustion LOX-methane engine (Aug 2026) |
 | KALAM 1200 | Skyroot | Solid motor, tested at SHAR |
-- **Vikram-1** (Skyroot): first private **orbital** rocket, **Mission Aagaman** (Jul 2026); **290 kg to 500 km SSO**.
+- **Vikram-1** (Skyroot): first private **orbital** rocket, **Mission Aagaman** (**18 Jul 2026**); payload up to **~350 kg to LEO**; Aagaman placed its satellites in **~450 km LEO** (290 kg-to-500 km SSO is an older Skyroot design figure – not verified for this flight).
 - **LOX-methane:** cleaner, cheaper; methane can be made from **Martian resources**.
-~~ Sources: app notes 5:36 sub 3; general knowledge (Dhawan-I)
+~~ Sources: app notes 5:36 sub 3; general knowledge (Dhawan-I); Rocket CA 2026 Part 02 p.54; PMF Lens Jul 2026-02 p.15; Praveen CA-360 Jul 2026 p.67
 
 === Reusable Rockets Worldwide and NGLV
 | Rocket | Company |
