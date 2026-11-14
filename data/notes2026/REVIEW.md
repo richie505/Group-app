@@ -1557,3 +1557,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w120 (rows 120–126)
 - own 400 → 23 kept + 118 new (141, 35%); new 73 statements / 27 match / 18 A–R; 2 of 282 lines lost. No wrong keys.
 - ff12dfdf3ba0c (GANHRI deferral reason, not in notes) removed.
+
+## rewrite b2-w127 (rows 127–130)
+- own 428 → 70 kept + 82 new (152, 36%); new 51 statements / 24 match / 7 A–R; 1 of 274 lines lost.
+- PYQ ye434b379da7 keyed "Inspector of police" vs notes 130:3:9 "officer in charge of the police station / investigating officer" — close; check wording.
