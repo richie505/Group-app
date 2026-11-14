@@ -1497,3 +1497,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Kept own A–R nap-history-17-17 keyed (b); per notes R explains A → probably (a) — check.
 - 255:3:9.5 credits "Andhra Kesari" to Chilukuri Veerabhadra Rao — title "Andhra Kesari" = Tanguturi Prakasam; maybe a journal name — verify.
 - Notes self-flagged: 256:1:2 (Wanchoo dates), 255:10:0.6 (not checked).
+
+## rewrite b4-w099 (rows 99–100)
+- own 247 → 44 kept + 52 new (96, 39%); new 33 statements / 12 match / 7 A–R; 1 of 169 lines lost.
+- Doubtful PYQs: ye2935e267e7 Ramagundam = AP (now Telangana — ⚠ Outdated); y4fcd30814d9 Iran largest oil reserves (notes Venezuela — Outdated/Disputed); y961be7d29fb Shivasamudram first hydro (Sidrapong 1897 first; Shivasamudram 1902 first major — Disputed).
+- 100:0:6 Kazan on Trans-Siberian route — doubtful (main line via Yekaterinburg); check.

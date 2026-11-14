@@ -435,9 +435,9 @@
   "tq": "statements"
  },
  {
-  "id": "cpf007f3e5b364",
+  "id": "cp09ec6415b172",
   "row": 102,
-  "s": "Consider the following statements:\n1. England won its first ICC trophy at the 2010 World Twenty20, beating Australia in the final.\n2. India beat Pakistan in the final of the Blind Cricket World Cup 2018 at Dubai.\n3. Rachin Ravindra of New Zealand was the ICC Emerging Men's Cricketer of the Year 2023.\nWhich of the statements given above are correct?",
+  "s": "Consider the following statements:\n1. England won its first ICC trophy at the 2010 World Twenty20, beating Australia in the final.\n2. India won the Blind Cricket World Cup 2018 by beating Bangladesh in the final.\n3. Rachin Ravindra of New Zealand was the ICC Emerging Men's Cricketer of the Year 2023.\nWhich of the statements given above are correct?",
   "o": [
    "1 only",
    "1, 2 and 3",
@@ -445,7 +445,7 @@
    "1 and 3 only"
   ],
   "a": 3,
-  "x": "Statement 1 is correct: England beat Australia by 7 wickets at Barbados – its first ICC trophy. Statement 2 is wrong: the 2018 final was at Sharjah. Statement 3 is correct: Rachin Ravindra, not Shubman Gill.",
+  "x": "Statement 1 is correct: England beat Australia by 7 wickets at Barbados – its first ICC trophy. Statement 2 is wrong: India beat Pakistan in the 2018 final (it had also won in 2014). Statement 3 is correct: Rachin Ravindra, not Shubman Gill.",
   "src": "app",
   "tq": "statements"
  },
@@ -493,5 +493,275 @@
   "x": "Statement 1 is correct: four-year, ~₹50 crore Li Ning deal, February 2019. Statement 2 is wrong: she was BWF Most Improved Player of 2016. Statement 3 is correct: Sai Praneeth beat Srikanth in the 2017 final.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cpc2eb1a264834",
+  "row": 103,
+  "s": "Consider the following statements about kabaddi:\n1. India beat Iran in the final of the Kabaddi World Cup 2016 at Ahmedabad.\n2. Dabang Delhi K.C. beat Puneri Paltan 31–28 in the final of PKL Season 12.\n3. The PKL Season 12 win was Dabang Delhi K.C.'s first title.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct: India beat Iran at Ahmedabad. Statement 2 is correct: final on 31 October 2025, Thyagaraj Stadium, New Delhi. Statement 3 is wrong: it was their second title; the first came in Season 8.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0718857d5e7f",
+  "row": 103,
+  "s": "Consider the following statements about the 1st Kho-Kho World Cup 2025:\n1. Teams from 23 countries took part.\n2. Nepal's women became the first Nepali team to play a World Cup final in any sport.\n3. India's women's team lost one league match but won the final.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is correct: 23 countries (20 men's, 19 women's teams). Statement 2 is correct: the notes record this first for Nepal women. Statement 3 is wrong: India were unbeaten and became inaugural champions (women's final 78–40 v Nepal).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0d8d41c6686f",
+  "row": 103,
+  "s": "Match the following Indian para athletes with their achievements:\nList I (Athlete):\na. Sumit Antil\nb. Sandip Singh Sargar\nc. Devendra Jhajharia\nd. Sudhir\nList II (Achievement):\ni. F44 javelin, World Para Athletics Championships 2025\nii. F64 javelin, World Para Athletics Championships 2025\niii. Heavyweight para powerlifting gold, CWG 2022\niv. F46 javelin gold with a world record, Rio 2016 Paralympics\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 0,
+  "x": "Correct matching: Sumit Antil – F64 javelin, World Para Athletics Championships 2025; Sandip Singh Sargar – F44 javelin, World Para Athletics Championships 2025; Devendra Jhajharia – F46 javelin gold with a world record, Rio 2016 Paralympics; Sudhir – Heavyweight para powerlifting gold, CWG 2022.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp29515d5598e1",
+  "row": 103,
+  "s": "Consider the following:\nAssertion (A): India's 22 medals at the World Para Athletics Championships 2025 were its best-ever haul at the event.\nReason (R): The 2025 Championships were held in New Delhi, the first time India hosted them.\nChoose the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: India won 22 medals (6-9-7), beating its previous best of 17 at Kobe 2024, and New Delhi was India's first hosting. But hosting is not given as the reason for the haul, so R does not explain A.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpdc554708d752",
+  "row": 103,
+  "s": "Consider the following statements about the 3rd Asian Youth Games 2025:\n1. They were held in Manama, Bahrain.\n2. Athletes from 45 nations competed in 26 sports.\n3. Veer Bhadu won India's first mixed martial arts medal – a gold.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: venue Manama, Bahrain. Statement 2 is correct: 45 nations, 26 sports. Statement 3 is wrong: Veer Bhadu's first-ever MMA medal for India was a bronze.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb86daa365797",
+  "row": 103,
+  "s": "Match the following Games/championships with their hosts:\nList I (Event):\na. 20th Asian Games 2026\nb. 1st South Asian Winter Games 2011\nc. 1st World Yogasana Championship\nd. South Asian Games 2019\nList II (Host):\ni. Ahmedabad\nii. Nepal\niii. Aichi-Nagoya, Japan\niv. Dehradun and Auli\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-ii, c-i, d-iv"
+  ],
+  "a": 2,
+  "x": "Correct matching: 20th Asian Games 2026 – Aichi-Nagoya, Japan; 1st South Asian Winter Games 2011 – Dehradun and Auli; 1st World Yogasana Championship – Ahmedabad; South Asian Games 2019 – Nepal.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp87be9cd38046",
+  "row": 103,
+  "s": "Consider the following statements about the Khelo India Games of 2025:\n1. The mascot of the Khelo India Youth Games 2025 in Bihar was Gajasimha.\n2. Maharashtra topped the Khelo India Youth Games 2025 with 158 medals.\n3. Lovely Professional University topped the 5th Khelo India University Games.\n4. The topper of the 5th KIUG became the first university to win the Games two years in a row.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 2 only",
+   "All of the above",
+   "1 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: mascot Gajasimha. Statement 2 is correct: Maharashtra – 158 medals, 58 gold. Statement 3 is wrong: Chandigarh University topped it (67 medals, 42 gold); LPU was 2nd. Statement 4 is correct: Chandigarh University was the first to win two in a row.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp25b9f16d290f",
+  "row": 103,
+  "s": "Match the following Games with their hosts:\nList I (Games):\na. 6th Khelo India Winter Games 2026 (ice events)\nb. 1st Khelo India Tribal Games (2026)\nc. 38th National Games (2025)\nd. 1st Khelo India University Games (2020)\nList II (Host):\ni. Bhubaneswar\nii. Chhattisgarh\niii. Leh\niv. Uttarakhand\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "Correct matching: 6th Khelo India Winter Games 2026 (ice events) – Leh; 1st Khelo India Tribal Games (2026) – Chhattisgarh; 38th National Games (2025) – Uttarakhand; 1st Khelo India University Games (2020) – Bhubaneswar.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp74fe2d272d3b",
+  "row": 103,
+  "s": "Consider the following statements:\n1. Army topped the 6th Khelo India Winter Games 2026, with Himachal Pradesh second.\n2. Services topped the 38th National Games in Uttarakhand with 68 gold medals.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: Army topped; Himachal 2nd (Haryana topped the Leh leg). Statement 2 is correct: Services – 68 gold, 121 medals.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp626db40d9b64",
+  "row": 103,
+  "s": "Match the following Indian athletes with their achievements:\nList I (Athlete):\na. Man Singh\nb. Sawan Barwal\nc. Jyothi Yarraji\nd. Hima Das\nList II (Achievement):\ni. Asian Marathon Championship 2023 gold – second Indian man\nii. 400 m gold, World U-20 Championships, Tampere 2018\niii. Marathon national record 2:11:58 at Rotterdam (broke Shivnath Singh's 1978 mark)\niv. 100 m hurdles – 2025 Asian champion\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 1,
+  "x": "Correct matching: Man Singh – Asian Marathon Championship 2023 gold – second Indian man; Sawan Barwal – Marathon national record 2:11:58 at Rotterdam (broke Shivnath Singh's 1978 mark); Jyothi Yarraji – 100 m hurdles – 2025 Asian champion; Hima Das – 400 m gold, World U-20 Championships, Tampere 2018.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp269600a8f47e",
+  "row": 103,
+  "s": "Match the following chess events with their venues:\nList I (Event):\na. Candidates 2026 (Open)\nb. World Championship match 2026\nc. Chess Olympiad 2026\nd. FIDE World Rapid 2025\nList II (Venue):\ni. Geneva\nii. Samarkand\niii. Doha\niv. Pegeia, Cyprus\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "Correct matching: Candidates 2026 (Open) – Pegeia, Cyprus; World Championship match 2026 – Geneva; Chess Olympiad 2026 – Samarkand; FIDE World Rapid 2025 – Doha.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpcafff096e964",
+  "row": 103,
+  "s": "Consider the following statements about chess in 2024–26:\n1. D. Gukesh became World Champion in 2024 by beating Ding Liren.\n2. The FIDE World Cup 2025 in Goa was the first in India since Hyderabad 2002.\n3. Magnus Carlsen won his fifth World Rapid title at Doha in 2025.\n4. Nodirbek Abdusattorov won the Tata Steel Masters 2026, his first title there.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct: Gukesh beat Ding Liren (Singapore). Statement 2 is correct: first in India since Hyderabad 2002. Statement 3 is wrong: Doha 2025 was Carlsen's 6th Rapid title. Statement 4 is correct: Abdusattorov – first title (R. Praggnanandhaa won in 2025).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp935a757c3fcf",
+  "row": 103,
+  "s": "Consider the following:\nAssertion (A): Divya Deshmukh became India's 4th woman Grandmaster in 2025.\nReason (R): She won the FIDE Women's World Cup 2025, beating Koneru Humpy in an all-Indian final.\nChoose the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: winning the Women's World Cup 2025 earned Divya the GM title – India's 4th woman GM (88th GM overall).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpeaeddde6708f",
+  "row": 103,
+  "s": "Consider the following statements about World Chess Championship matches:\n1. Bobby Fischer beat Boris Spassky in 1972.\n2. Magnus Carlsen beat Viswanathan Anand at Moscow in 2013 to become champion.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: Fischer beat Spassky (1972). Statement 2 is wrong: Carlsen beat Anand at Chennai in 2013.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5b64e1ab3f2d",
+  "row": 103,
+  "s": "Consider the following statements about Indian shooting:\n1. Ankur Mittal won the double trap gold at the ISSF World Cup, New Delhi (February 2017).\n2. Abhinav Bindra was the first Indian to receive the ISSF Blue Cross.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: Ankur Mittal won double trap silver; Australia's James Willett took gold. Statement 2 is correct: Bindra is the first Indian to receive the ISSF Blue Cross.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdcebcd4477c7",
+  "row": 103,
+  "s": "Match the following boxers with their gold medals:\nList I (Boxer):\na. Jaismine Lamboria and Minakshi Hooda\nb. Chandrika Pujari\nc. Mary Kom\nd. Neeraj (51 kg)\nList II (Event):\ni. Asian Women's Championships 2017, Ho Chi Minh City\nii. World Boxing Futures Cup 2026, Bangkok\niii. 6th Nations Cup, Serbia (2017)\niv. World Boxing Championships 2025\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "Correct matching: Jaismine Lamboria and Minakshi Hooda – World Boxing Championships 2025; Chandrika Pujari – World Boxing Futures Cup 2026, Bangkok; Mary Kom – Asian Women's Championships 2017, Ho Chi Minh City; Neeraj (51 kg) – 6th Nations Cup, Serbia (2017).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp023d2b11ac7b",
+  "row": 103,
+  "s": "Consider the following statements about para-sports infrastructure in Gujarat:\n1. SAI NCoE Gandhinagar is the Nodal Centre for Para Sports.\n2. Para archery is one of the six sports supported at the Gandhinagar nodal centre.\n3. Gujarat's ₹316 crore Para High Performance Centre is being built in Ahmedabad.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct: SAI NCoE Gandhinagar is the nodal centre (facilities opened 24 May 2026). Statement 2 is wrong: the six are para athletics, badminton, table tennis, powerlifting, swimming and fencing – not archery. Statement 3 is wrong: it is in Gandhinagar.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp17cae0aafac8",
+  "row": 103,
+  "s": "Match the following places in Andhra Pradesh with the sports facility/event associated with them:\nList I (Place):\na. Rajamahendravaram\nb. Visakhapatnam\nc. Kakinada, Kadapa, Pulivendula\nd. ANU, Guntur\nList II (Facility / event):\ni. Closed SAAP centre that trained Jyothi Yarraji\nii. Andhra Pradesh's only hockey turfs\niii. 27-acre Komadi integrated sports complex\niv. International Dragon Boat League 2026 on the Godavari\nChoose the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Correct matching: Rajamahendravaram – International Dragon Boat League 2026 on the Godavari; Visakhapatnam – 27-acre Komadi integrated sports complex; Kakinada, Kadapa, Pulivendula – Andhra Pradesh's only hockey turfs; ANU, Guntur – Closed SAAP centre that trained Jyothi Yarraji.",
+  "src": "app",
+  "tq": "match"
  }
 ]

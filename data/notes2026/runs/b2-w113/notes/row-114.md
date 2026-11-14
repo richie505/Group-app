@@ -1,0 +1,82 @@
+=== Caste as Stratification – Features, Caste vs Class
+# Features of caste
+- Caste membership and status are fixed by **birth** (ascribed); based on the **Chaturvarna** (four-varna) scheme; **hierarchy** is the essence of caste (Dumont).
+- **Essential features:** hierarchy, **endogamy** ("closed marriage", "intermarriage" in Telugu-English papers = marriage within the caste), restrictions on feeding and social intercourse, hereditary occupation, **caste panchayat**, purity-pollution. **Belief in reincarnation** and "social dynamics" are **not** essential features.
+- **Closed system:** a person can **neither rise nor descend** in the hierarchy (A.W. Green: ideally no mobility up or down); caste is a **closed group** that no outsider can join.
+- **Varna** = four-fold, theoretical; **Jati** = real, local birth groups; ranking by **ritual purity and pollution**.
+- **Vertical** classification = ranking by birth; **horizontal** = division into separate caste groups.
+- Caste status is linked to **occupation**; hereditary occupations (potter, **blacksmith**, weaver) weakened by education, **industrialisation**, urbanisation, occupational mobility.
+- **Jajmani system:** barber, washerman etc. are **service castes** working for patron (jajman) families; weakened today.
+- **S.C. Dube:** ritual purity has two stages – **purification procedures** and **initiation rites**.
+- Harappa: citadel vs lower town, **no rigid caste**; varna hardened in the **Later Vedic** period.
+- Today inter-caste conflicts are about **power**, not ritual; Muslims: **Ashraf, Ajlaf, Arzal**.
+# Caste vs class
+| System | Feature |
+|---|---|
+| Caste | **Ascribed** at birth; endogamy, inherited occupation; **closed**; cumulative inequality |
+| Class | **Achieved** – education, wealth, occupation; **open**, mobility possible |
+| Estate | Medieval Europe – clergy, nobility, commoners |
+| Slavery | Person as property – Greece, Rome |
+- Both caste and class are forms of stratification and give the individual a status; castes are **innumerable** (only the varnas are four).
+- **Social classes** = people of similar income, occupation, education.
+- **Andre Beteille:** *Caste, Class and Power* (**1965**, **Sripuram, Thanjavur**) – used **Weber's** three dimensions; caste, class and power **diverge**; also *Studies in Agrarian Social Structure*; argued **varna is a hierarchy** term and **race a classification** term.
+- **Louis Dumont**, *Homo Hierarchicus*: purity-pollution; the **Brahman is at the top**, the **king second** (status encompasses power).
+- **Ghurye**, *Caste and Race in India* (1932): hierarchy, endogamy, restrictions.
+~~ Sources: NextGen Society G2 Part 1 p.2, p.32-35; Rocket Indian Society p.15, p.21-22; app notes 2:114 sub 2; general knowledge (Dube, Beteille on race, Dumont), not checked
+
+=== Stratification – Meaning, Bases, Theories
+- **Stratification:** ranking of groups by unequal **wealth, prestige, power**.
+- **Bases:** caste, class, **gender (sex stratification = between genders)**, **age**, race, ethnicity; traditional – caste, varna, tribe, religion; modern – education, occupation, income, **political power**, urbanisation. **Language is NOT** a basis.
+- **Differentiation vs stratification:** **sex** (biological) is differentiation; class, caste, gender are stratification.
+- **Tumin:** stratification is social, **ancient, universal**, diverse, **consequential** (decides life chances).
+| Approach | Thinker | Idea |
+|---|---|---|
+| Functionalist | **Davis and Moore (1945)** | Unequal rewards pull scarce talent into key posts |
+| Critique | **Melvin Tumin** | Wastes talent; passes inequality on |
+| Conflict | **Marx** | Ownership of means of production; class struggle; **false consciousness** hides the real status of the oppressed |
+| Multi-dimensional | **Weber** | **Class, status, party (power/authority)**; market situation decides **life chances** |
+| Ideological | Dumont | Purity-pollution |
+# Terms
+| Term | Meaning |
+|---|---|
+| Status inconsistency (**Lenski**) | Different ranks on different dimensions |
+| **Status group** (Weber; "floor group" in translation) | Shared **lifestyle**; caste = a closed status group |
+| Life chances (Weber) | Access to necessities, opportunities |
+~~ Sources: Rocket Indian Society p.21-22; OnlyIAS NCERT Indian Society Part 1 p.13-14; app notes 2:114 sub 0-1, 7
+
+=== Social Mobility – Types and Examples
+- **Social mobility** = **movement of people between social strata/positions**.
+| Type | Meaning / example |
+|---|---|
+| Vertical (upward/downward) | Farmer's son → IAS officer |
+| Horizontal | Change **without status change**: clerk to an equal job; **change of religion** (an untouchable converting to Christianity – Sorokin) |
+| Inter-generational | Parents → children: labourer's/farmer's son → engineer |
+| Intra-generational | Within one lifetime |
+| Structural | Change in the occupational structure itself |
+- **Sorokin**, *Social Mobility* (**1927**): first set out vertical and horizontal mobility.
+- **Bogardus:** social mobility as **change on the same status level** (APPSC Hostel Welfare key).
+# Status and role
+- **Ascribed status:** given at birth – **sex, age, caste**, race, kinship; **achieved**: IAS officer, doctor.
+- **Status set:** the many statuses one person holds; **role** = the behaviour pattern of the rights and duties of a status ("status is occupied, roles are played").
+- Paired statuses such as **husband-wife, guru-disciple** – reciprocal statuses (APPSC key: "processing status").
+- **Dominant caste** (Srinivas): **numerical strength**, sizeable **arable land (economic power)**, **political power**, fairly **high ritual rank**; later western education and administrative jobs.
+- **Kshatriyaisation (Hermann Kulke):** Marathas, Jats, Yadavs claim Kshatriya status – mobility that **reproduces the hierarchy**.
+- **Nomadic society:** marked by moving from place to place (migration).
+~~ Sources: Rocket Indian Society p.18, p.23; OnlyIAS NCERT Indian Society Part 1 p.14-15; app notes 2:114 sub 3; general knowledge (Sorokin on religion, Bogardus), not checked
+
+=== Agrarian Classes and Middle Class
+- **Daniel Thorner:** by land rights and income – **Maliks** (landlords on rent), **Kisans** (own land, family labour), **Mazdoors** (tenants, sharecroppers, landless).
+- Dominant caste is a concept for **stratification in rural India**.
+- **Macaulay's Minute, 1835** → English-educated middle class (**A.R. Desai**, *Social Background of Indian Nationalism*).
+- Middle class: World Bank **$10-50**/day (PPP); NCAER **₹2-10 lakh**; PRICE **₹5-30 lakh**; **43.2 crore (31%) in 2021 → 61% by 2047**; OECD: world's largest by **2035**.
+~~ Sources: Rocket Indian Society p.14; NextGen Society G2 Part 1 p.39-40; app notes 2:114 sub 4-5
+
+=== Mobility Routes, OBCs and Andhra
+- **ES 2025-26:** drivers – **health, education, technology, institutions** (not land inheritance); low mobility **entrenches historical inequality**; poverty **21.9% (2011-12) → 2.3% (2023-24)**.
+- **Mandal Commission:** OBCs **over 52%**; **11 indicators = 4 social + 4 economic + 3 educational** (social, economic, educational categories).
+- **Telangana caste survey:** **242 castes**; **135** above average backwardness.
+- **Marathas, Gujjars, Patels** seek OBC status mainly for **greater life chances**.
+- Reservation demand: **Periyar's Self-Respect Movement**; **Ezhavas** (Kerala): toddy tapping → tailoring (occupational mobility); city anonymity weakens caste.
+- **Dalits:** state policy, reform movements, Sanskritisation and Westernisation.
+- **Medieval Andhra:** **Kakatiya** society relatively open (**Velamas, Kammas, Reddys** rose); **Saivism (Virashaivism)** a "**lubricant**" of upward mobility.
+~~ Sources: app notes 2:114 sub 6; NextGen Society G2 Part 2 p.35
