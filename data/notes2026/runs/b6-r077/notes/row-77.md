@@ -135,7 +135,7 @@
 - **Syama Prasad Mukherjee** (1901-1953): founder of the **Bharatiya Jana Sangh**; India's first **Minister for Industry and Supply**.
 > **Spiders:** *Hamataliwa papikonda* = lynx spider, **Andhra Pradesh**; *Simonia lawbah* = ray spider, **Meghalaya**.
 - ***Impatiens karuppusamyi*** (Nov–Dec 2023): new **lithophytic balsam** (rock-growing *Impatiens*, Balsaminaceae) described by **Botanical Survey of India** with Madras Christian College from **Kalakad Mundanthurai Tiger Reserve** (Agasthyamalai hills, Tamil Nadu), 1,200–1,500 m; named after botanist **S. Karuppusamy**. Not aquatic flora, a fungus or a bat.
-~~ Sources: Praveen CA-360 Jul 2026 p.18 (Animal/Plant Discoveries 2025; five new Impatiens, Kerala), p.20 (Simonia lawbah, Hamataliwa papikonda), Jun 2026 p.22 (Mesalina bishnoi), Aug 2026 p.16 (Lepidoptera checklist); CARE APPSC Sep 2026 p.19-20 (Papikonda); Rocket CA 2026 Part 02 p.126-130 (new species and biodiversity); gktoday.in 'Impatiens karuppusamyi – a new plant species from Tamil Nadu' (8 Dec 2023); app notes 6:77 (sub 4)
+~~ Sources: Praveen CA-360 Jul 2026 p.18 (Animal/Plant Discoveries 2025; five new Impatiens, Kerala), p.20 (Simonia lawbah, Hamataliwa papikonda), Jun 2026 p.22 (Mesalina bishnoi), Aug 2026 p.16 (Lepidoptera checklist); Rocket CA 2026 Part 02 p.126-130 (new species and biodiversity); gktoday.in 'Impatiens karuppusamyi – a new plant species from Tamil Nadu' (8 Dec 2023); app notes 6:77 (sub 4)
 
 === Places in News – Tunnels, Passes, Rivers, Islands
 # Parichha Weir - ICID World Heritage Irrigation Structure
@@ -319,7 +319,7 @@
 | Palghat Gap | Coimbatore - Palakkad |
 | Amba Ghat | Ratnagiri - Kolhapur |
 | Amboli Ghat | Sawantwadi - Belgaum |
-~~ Sources: Praveen CA-360 Jul 2026 p.19 (ESA draft), Jun 2026 p.19-22 (Western Ghats); CARE APPSC Sep 2026 p.19-21 (eco-sensitive areas); app notes 6:77 (sub 2)
+~~ Sources: Praveen CA-360 Jul 2026 p.18 (Western Ghats: UNESCO WHS, hotspot, six States); app notes 6:77 (sub 2) (7th ESA draft not found in the local CA files)
 
 === Protected Areas, Courts and Wildlife Law
 # SC: 10-km No-Mining Zone (4 Aug 2026)
@@ -352,7 +352,7 @@
 - **AQEWS (Delhi)**: **3-day** AQI forecasts; extended to **Jaipur, Mumbai**.
 - **Mumbai AQDSS**: **BMC with CEEW**; action on **1,000+ construction sites** since Oct 2025.
 - **Cloud seeding** uses **silver iodide** and potassium iodide (PYQ).
-~~ Sources: Rocket CA 2026 Part 01 p.24, 59 (GRAP); app notes 6:77 (sub 8)
+~~ Sources: app notes 6:77 (sub 8) (no 2026 GRAP item found in the local Rocket/Praveen/CARE files)
 
 === Biochar, Pesticides and Green Initiatives
 # Biochar

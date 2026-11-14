@@ -773,3 +773,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Outdated: y9ddb2648f88, y62d59d08808 UK 2019 election (Andy Burnham PM since 20 Jul 2026, Rocket); own MCQ ca79d58bbe4067 Nepal PM now Balendra Shah.
 - Yudh Abhyas 2026: 22nd (ThePrint) vs 23rd (Rocket) — settle once.
 - ~10 unverified printed keys (Sarvada Vijay, Shangri-la train, US advisory Pakistan, India–Mexico MoU, India–China hotline).
+
+## b6-r077 (CA row 77 environment Jun–Aug 2026)
+- No key changes. Smallest Ramsar site: Vembannur (Rocket) vs Renuka (Praveen) — kept Vembannur.
+- Old-notes-only: GRAP Stage-I May 2026, WG ESA 7th draft, biochar. Kiln seasoning general knowledge.
