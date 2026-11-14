@@ -1598,3 +1598,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 438 → 58 kept + 106 new (164, 37%); new 62 statements / 29 match / 15 A–R; no lines lost.
 - FIXED typo "Harish Slave" → "Harish Salve" (PYQ y5e684a8f1fa options) in Complete app.
 - 145:1:5.3 "Baden" (WB name for bonded labour) unchecked — verify.
+
+## rewrite b2-w150 (rows 150–156)
+- own 380 → 64 kept + 88 new (152, 40%); new 52 statements / 26 match / 10 A–R; 2 of 284 lines lost.
+- Doubtful PYQs: y96fc2913b4e (Tin Bigha "handed over to sovereignty" — notes: leased in perpetuity); y04e18cc2343 ("Gandhi of Africa" keyed Mandela; usually Kenneth Kaunda) — Disputed chips.
