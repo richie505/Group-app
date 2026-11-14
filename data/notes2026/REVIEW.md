@@ -1456,3 +1456,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b5-w099 (rows 99–102)
 - own 372 → 54 kept + 83 new (137, 37%); new 50 statements / 24 match / 9 A–R; 1 of 236 lines lost. No wrong keys.
 - Caveated notes (not used): 99:11:6 Delhi 2021 avg AQI 144 (usual ~209); 101:2:1 Ganga Action Plan 1985 (launched June 1986); 99:3:8 RSPM "<5 µm" (CPCB: PM10) — fix.
+
+## rewrite b1-w246 (rows 246–252)
+- own 403 → 57 kept + 86 new (143, 35%); new 49 statements / 19 match / 18 A–R; 1 of 251 lines lost.
+- 252:0:4 "Supreme Court, 24 March 2026" ruling, old app notes only — unverified; kept own n085ec7453e9 depends on it — verify.
+- Iyengar Committee: 1937 (247:2:0.0) vs 1932 in PYQ stems — reconcile.

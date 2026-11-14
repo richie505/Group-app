@@ -1,0 +1,98 @@
+=== Andhra State 1953 – the First Linguistic State
+- **First linguistic state of independent India:** **Andhra State**, formed **1 October 1953**, the forerunner of **Andhra Pradesh** (exam keys write "Andhra Pradesh") – not Orissa, Maharashtra, Tamil Nadu, Kerala, Madhya Pradesh, Rajasthan or Karnataka.
+- **Carved out of:** **Madras State** (Rayalaseema + Coastal Andhra; Madras city excluded) – not Hyderabad, Mysore or Bombay State.
+- **Date trap:** **1 October 1953** – not "April 1953" or 1956. **1 Nov 1956** is the birth of **Andhra Pradesh** (Andhra State + Telangana).
+- **Capital:** **Kurnool** (1953–56), chosen over Vijayawada by **80 to 79** in the Assembly (with five non-Andhra votes) – not Hyderabad, Madras, Kadapa, Nellore, Amaravati or Visakhapatnam. **Hyderabad** became capital only of Andhra Pradesh (1956).
+- **Potti Sriramulu:** fasted in **Madras** (Bulusu Sambamurthy's house) from **19 Oct 1952**; died **15 Dec 1952** after **58 days** (Laxmikanth: 56-day fast) → unrest → Nehru announced Andhra State on **19 Dec 1952**.
+| Item | Andhra State | Andhra Pradesh |
+|---|---|---|
+| Formed | **1 Oct 1953** | **1 Nov 1956** |
+| Capital | **Kurnool** | **Hyderabad** |
+| First CM | **Tanguturi Prakasam** | **N. Sanjiva Reddy** |
+| Basis | Andhra State Act after Sriramulu's death | SR Act 1956 (after SRC) |
+> Exam angle: "first linguistic state" → Andhra (1953, from Madras, capital Kurnool); "Andhra Pradesh formed after the SRC" → 1956.
+~~ Sources: NextGen AP History Part 19 p.20; Part 20 p.7; Part 23 p.15-16; Part 6 p.4; Part 8 p.27; Laxmikanth 8th ed. Part 1 p.97, p.101; app notes 1:261 (sub 2)
+
+=== SRC – Appointment, Chairman and Members
+- **Trigger:** creation of **Andhra State (1953)** set off similar demands elsewhere.
+- **Announced 22 December 1953** by PM **Nehru** in Parliament (APPSC G2 2017) – not 20, 21 or 23 December.
+- **Constituted** by Home Ministry Resolution No. 53/69/53-Public of **29 December 1953**. Year of appointment = **1953** (not 1949, 1955 or 1956).
+| Member | Position |
+|---|---|
+| **Syed (Saiyid) Fazl Ali** | **Chairman** – then Governor of **Odisha** |
+| **H.N. Kunzru** | Member |
+| **K.M. Panikkar** | Member |
+- **NOT members:** **Tej Bahadur Sapru**, K.N. Wanchoo, Pattabhi Sitaramayya, Vallabhbhai Patel, Nehru, C.M. Trivedi (first Governor of AP), K. Brahmananda Reddy, D. Sanjivaiah, Rajaji.
+> Exam angle: SRC = **Fazl Ali + Kunzru + Panikkar**, announced **22 Dec 1953**, report **30 Sep 1955**.
+~~ Sources: SRC Report 1955, Introduction para 1 (archive.org dli.csl.689); NextGen AP History Part 19 p.20; Part 20 p.3; Part 6 p.13; Part 7 p.24; Laxmikanth 8th ed. Part 1 p.98
+
+=== SR Act 1956 and the Formation of Andhra Pradesh
+- **Key dates:** SRC report (in **four parts**) **30 Sep 1955** → **Gentlemen's Agreement 20 Feb 1956** → **SR Act (Act 37 of 1956) enacted 31 August 1956** → in force, **Andhra Pradesh formed 1 November 1956**.
+- **Andhra Pradesh = Andhra State + Telugu districts of Hyderabad (Telangana)**, formed under **Section 3** of the Act – the **first state formed under the SR Act** (not Mysore); first CM **N. Sanjiva Reddy**, first Governor **C.M. Trivedi**. Date of AP's formation = **1956** (not 1953).
+- **Result:** **14 states + 6 Union Territories** from 1 Nov 1956 (SR Act + 7th Amendment); also bilingual Bombay, enlarged Madras, new Mysore, Kerala. **APPSC** was set up in **1956**.
+# Andhra–Telangana politics, 1955-56
+- **Andhra:** CM **Bezawada Gopala Reddy's** resolution (Telangana priority, population-based shares) passed **unanimously** (1955). **Communists** consistently backed integrated linguistic states and **Visalandhra**.
+- **Hyderabad Assembly vote** (174 members): **103 for** Visalandhra, **29 against**, **15 neutral**; CM **Burgula Ramakrishna Rao** worked to allay Telangana's fears on the High Command's direction.
+- **22 Oct 1955:** the two CMs agreed to merge at **Hyderabad House, New Delhi**. **Nov 1955:** Congress sub-committee **Nehru, G.B. Pant, Maulana Azad** (Azad kept opposing).
+- **Gentlemen's Agreement (20 Feb 1956, Hyderabad House):** **Telangana Regional Council**, Telangana surplus spent in Telangana, **Mulki rules** retained. The Centre thus **overrode the SRC's wait-till-1961 formula** by political agreement.
+- **Nehru (1956):** the merger a "**matrimonial alliance**" with a provision for **divorce** – later cited by separate-Telangana advocates.
+> Exam angle: 31 Aug 1956 (enacted) vs 1 Nov 1956 (in force); 14 + 6.
+~~ Sources: States Reorganisation Act 1956 text, p.6 (thc.nic.in); SRC Report 1955 contents (archive.org dli.csl.689); NextGen AP History Part 16 p.13; Part 23 p.22, p.24; Laxmikanth 8th ed. Part 1 p.98; app notes 1:261 (sub 6, 7)
+
+=== SRC Report 1955 – Principles and Hyderabad/Visalandhra
+- **Report:** submitted **30 Sep 1955**, made public **9 Oct 1955**; **1,52,250** memorandums; **four parts** – I Conditions of the Problem, II Factors Bearing on Reorganisation, III Proposals for Reorganisation, IV Administrative and Allied Matters (safeguards for linguistic groups).
+- **Principles:** language **important but not the only factor**; rejected "**one language, one state**" – same-language areas could form more than one state; other factors: **unity and security of India**, **administrative efficiency**, **financial and economic viability**, national plans.
+- **Recommended 16 states + 3 centrally administered territories**; abolish the **Part A/B/C** classification.
+| Region | SRC recommendation |
+|---|---|
+| Vidarbha | Separate state |
+| Bombay | **Bilingual** (Gujarati + Marathi) |
+| Punjabi Suba | **Not accepted** |
+| Telugu districts of Hyderabad | Separate **Hyderabad State** (para 386) |
+# Hyderabad (Part III ch. V) and Andhra (ch. VI)
+- **Division of Hyderabad State:** most regions (Telugu, Kannada, Marathi) wanted it divided; **Kannada areas (Raichur, Gulbarga) → Mysore**; **Marathwada → Bombay** State.
+- **Para 368:** 45.4% Urdu speakers in Hyderabad–Secunderabad, but **no Union Territory** for the twin cities.
+- **Para 371 (for Visalandhra):** a state of ~32 million with water, power and minerals; "the **twin cities of Hyderabad and Secunderabad** are very well suited to be the capital of Vishalandhra" – this would **solve Andhra's permanent-capital problem** (not Kurnool).
+- **Para 386:** Telangana to function initially as **Hyderabad State**; merger **after the 1961 elections** if **two-thirds** of elected Telangana legislators agree.
+| For Visalandhra (paras 369–374) | Against immediate merger |
+|---|---|
+| Large state, rich in minerals, water, power | Advanced Coastal Andhra would dominate services |
+| **Hyderabad solves Andhra's capital problem** | **Mulki rules** and local jobs at risk |
+| Unified Krishna–Godavari development | Telangana's revenue surplus diverted |
+- **Reactions:** **Tenneti Viswanatham** called the report **self-contradictory**; the departure from para 386 became the core grievance of the Telangana movements (**1969, 2001–14**).
+> Exam angle: twin-city capital = **Hyderabad and Secunderabad**; "Kurnool as capital solves the problem" = wrong.
+~~ Sources: SRC Report 1955, contents and paras 368-386 (archive.org dli.csl.689); NextGen AP History Part 23 p.20-21; Part 20 p.3-4; Laxmikanth 8th ed. Part 1 p.98; app notes 1:261 (sub 4, 5)
+
+=== Bodies Before the SRC – Dhar, JVP, Partition Committees, Wanchoo
+| Body | Year | Members / view |
+|---|---|---|
+| **S.K. Dhar Commission** (Linguistic Provinces Commission) | appointed 17 June 1948; report **Dec 1948** | Linguistic states a **threat to national unity**; preferred **administrative convenience** |
+| **JVP Committee** | Dec 1948 – Apr 1949 | **Nehru, Patel, Pattabhi Sitaramayya**; rejected language as the immediate basis; advised **postponement** |
+| Partition Committee (Madras) | 1949–50 | Chaired by Madras CM **P.S. Kumaraswami Raja** |
+| Partition Committee (Madras) | 1953 | Appointed by CM **C. Rajagopalachari**; members of his **Cabinet only** |
+| **Wanchoo inquiry** | 1953 | Justice **K.N. Wanchoo** (CJ, **Rajasthan** HC); financial and administrative issues of separating Andhra |
+- **1948 report calling linguistic states a threat to unity:** the **Dhar Commission** – not the JVP Report (1949), Krishnamachari or Wanchoo.
+> Exam angle: Dhar = administrative convenience (1948); JVP = postpone (1949).
+~~ Sources: NextGen AP History Part 23 p.10-11; Laxmikanth 8th ed. Part 1 p.97; NextGen Polity APPSC 13 p.11; app notes 1:261 (sub 1)
+
+=== Linguistic States – Arguments and Background
+- **For** linguistic states: government and administration in the **people's language** – **administration becomes easier**; cultural identity. **Against**: fear for unity after Partition, regionalism, border and minority disputes (e.g. **Belgaum**, Maharashtra–Karnataka).
+| Year | Milestone |
+|---|---|
+| 1918 | **B.N. Sharma** moved the linguistic reorganisation resolution in the Imperial Legislative Council |
+| 1928 | **Tanguturi Prakasam** – "**Andhra Kesari**", bared his chest to police guns in the **Simon Commission** boycott, Madras |
+| 1930 | First Nizam Andhra Mahasabha, **Jogipet** (Suravaram Pratapa Reddy) |
+| 1936 | **Orissa** = first province on linguistic lines |
+| 1937 | Visalandhra idea starts in the **Circar** districts; **Sri Bagh Pact** (16 Nov) – irrigation priority, university centres, equal legislative seats for Rayalaseema (no Telangana merger) |
+| 1949 | **Visalandhra Mahasabha** formed (Nov 1949, Vijayawada) |
+~~ Sources: NextGen AP History Part 20 p.3; Part 23 p.17; app notes 1:261 (sub 0, 2, 9)
+
+=== Seventh Amendment 1956, Zonal Councils and Later Changes
+- **7th Constitutional Amendment (1956):** abolished **Part A/B/C/D** → **14 states and 6 UTs**; abolished the **Rajpramukh**; **extended the jurisdiction of High Courts to Union Territories** and allowed a common High Court for two or more states (not the 1st, 3rd or 5th Amendment); inserted **Art 350A** (mother-tongue instruction at primary stage) and **Art 350B** (Special Officer for Linguistic Minorities).
+# Zonal Councils (SR Act Part III, Sections 15–22)
+- **Five** statutory councils – Northern, Central, Eastern, Western, Southern; purpose **inter-state cooperation**.
+- **Chairman:** a Union Minister nominated by the President – in practice the **Union Home Minister**; Vice-Chairman: a member-state CM by annual rotation. Members: **CM + two ministers** of each state; up to two from each UT.
+- **APRA 2014** amended **Section 15** of the SR Act to read "Andhra Pradesh and Telangana".
+# Later changes
+- **1 May 1960:** bilingual Bombay split into **Gujarat** and **Maharashtra**. **Punjab Reorganisation Act 1966** (after the **Shah Commission**): **Haryana** from 1 Nov 1966; hill areas to **Himachal Pradesh**.
+~~ Sources: Laxmikanth 8th ed. Part 3 p.156 (7th Amendment); Part 2 p.56; States Reorganisation Act 1956 text, ss.15-16 (thc.nic.in); app notes 1:261 (sub 7, 8, 9)
