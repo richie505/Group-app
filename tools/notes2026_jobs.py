@@ -101,7 +101,7 @@ def plan():
                 if k in old[j["id"]]:
                     j[k] = old[j["id"]][k]
         j.setdefault("status", "todo")
-    jobs += [j for j in old.values() if j["type"] in ("place", "spot", "canew", "pattern") or j.get("extra")]
+    jobs += [j for j in old.values() if j["type"] in ("place", "spot", "canew", "rewrite") or j.get("extra")]
     save_jobs(jobs)
     from collections import Counter
     print(len(jobs), "jobs", Counter(j["type"] for j in jobs), Counter(j["status"] for j in jobs))
@@ -136,11 +136,19 @@ def prep(jid):
                     allm.append(slim(q, r))
             elif j["type"] == "topic":
                 allm.append(slim(q, r))
-    if j["type"] in ("canew", "pattern"):       # new MCQs written by the helper (new-mcqs.json)
-        if j["type"] == "pattern":              # the rows' PYQs, as the style to follow; their MCQs, not to repeat
-            json.dump(pyqs, open(f"{d}/style-pyqs.json", "w"), ensure_ascii=False, indent=0)
-            json.dump([slim(q, r) for r in j["rows"] for q in m["rows"].get(str(r), []) if isinstance(q, dict)],
-                      open(f"{d}/existing-mcqs.json", "w"), ensure_ascii=False, indent=0)
+    if j["type"] in ("canew", "rewrite"):       # new MCQs written by the helper (new-mcqs.json)
+        if j["type"] == "rewrite":              # the rows' PYQs, as the style to follow; their MCQs, not to repeat
+            order = {"topic": 0, "keys": 1, "place": 2, "canew": 2, "rewrite": 2, "spot": 3}
+            mpa = {}                            # the jobs' mappings (in the notes numbering the helper sees)
+            for o in sorted([o for o in load_jobs() if o["book"] == j["book"] and o["status"] == "done"],
+                            key=lambda o: order[o["type"]]):
+                mpa.update(read_mapping(run_dir(o)))
+            lk = lambda i: (f"{mpa[i].get('row')}:{mpa[i]['lines'][0]}" if i in mpa and mpa[i].get("lines") else "")
+            json.dump([dict(q, link=lk(q["id"])) for q in pyqs], open(f"{d}/style-pyqs.json", "w"),
+                      ensure_ascii=False, indent=0)
+            json.dump([dict(slim(q, r), link=lk(q["id"])) for r in j["rows"]
+                       for q in m["rows"].get(str(r), []) if isinstance(q, dict) and not is_pyq(q)],
+                      open(f"{d}/own-mcqs.json", "w"), ensure_ascii=False, indent=0)
         pyqs, allm = [], []
     if j["type"] == "place":                    # already keyed elsewhere: only mapping
         pyqs, allm = [], list(j["items"])
@@ -162,12 +170,12 @@ def prep(jid):
         for r in ([] if j["type"] == "spot" else j["rows"]):
             fh.write(subprocess.run([sys.executable, "tools/notelink.py", "show", str(j["book"]), str(r)],
                                     capture_output=True, text=True).stdout.split("\n=== OWN MCQS")[0] + "\n")
-    if j["type"] in ("keys", "place", "canew", "pattern"):  # the rebuilt notes they map onto
+    if j["type"] in ("keys", "place", "canew", "rewrite"):  # the rebuilt notes they map onto
         for r in j["rows"]:
             src = rebuilt_row(j["book"], r)
             if src:
                 open(f"{d}/notes/row-{r}.md", "w").write(open(src).read())
-            if j["type"] == "pattern":         # sub-sections other jobs appended (same order as apply)
+            if j["type"] == "rewrite":         # sub-sections other jobs appended (same order as apply)
                 ex = [open(f"{run_dir(o)}/notes/row-{r}.extra.md").read() for o in load_jobs()
                       if o["book"] == j["book"] and o["type"] in ("place", "canew") and o["status"] == "done"
                       and r in o["rows"] and os.path.exists(f"{run_dir(o)}/notes/row-{r}.extra.md")]
@@ -231,6 +239,44 @@ def row_secs(d, r):
     return secs
 
 
+SHAPES_TARGET = {"statements": 0.25, "match": 0.10, "assertion": 0.04}
+
+
+def rewrite_problems(d, newq, quiet):
+    """A rewrite job: removed ids are own MCQs of its rows; the final own set is smaller, in the PYQ pattern,
+    and still tests (nearly) every notes line the old own MCQs tested."""
+    probs = []
+    own = {q["id"]: q for q in json.load(open(f"{d}/own-mcqs.json"))}
+    rf = f"{d}/remove.json"
+    rem = json.load(open(rf)) if os.path.exists(rf) else []
+    rids = {e.get("id") for e in rem}
+    bad = [i for i in rids if i not in own]
+    if bad:
+        probs.append(f"remove.json: {len(bad)} ids are not own MCQs of these rows, e.g. {bad[:3]}")
+    if any(not e.get("why") for e in rem):
+        probs.append("remove.json: every entry needs a 'why'")
+    kept = [q for i, q in own.items() if i not in rids]
+    final = len(kept) + len(newq)
+    if own and final > 0.85 * len(own):
+        probs.append(f"final own MCQs {final} > 85% of {len(own)}: merge/remove more")
+    sh = Counter(q.get("tq") for q in newq)
+    for k, t in SHAPES_TARGET.items():
+        if final and sh[k] < t * final:
+            probs.append(f"{k}: {sh[k]} new < {int(t * 100)}% of final {final}")
+    mp = read_mapping(d)
+    before = {q["link"] for q in own.values() if q.get("link")}
+    after = {q["link"] for q in kept if q.get("link")}
+    after |= {q["link"] for q in json.load(open(f"{d}/style-pyqs.json")) if q.get("link")}   # PYQs test them too
+    after |= {f"{e.get('row')}:{x}" for i, e in mp.items() for x in e.get("lines", [])}
+    lost = before - after
+    if before and len(lost) > 0.05 * len(before):
+        probs.append(f"{len(lost)} of {len(before)} notes lines no longer tested, e.g. {sorted(lost)[:3]}")
+    if not quiet:
+        print(f"  rewrite: own {len(own)} -> kept {len(kept)} + new {len(newq)} = {final}; new shapes {dict(sh)};"
+              f" lines {len(before)} -> lost {len(lost)}")
+    return probs
+
+
 def line_ok(secs, ref):
     try:
         s, b = ref.split(":")
@@ -266,7 +312,7 @@ def check(jid, quiet=False):
     probs = []
     pyqs = json.load(open(f"{d}/pyqs.json"))
     allm = json.load(open(f"{d}/all-mcqs.json"))
-    if j["type"] in ("canew", "pattern"):
+    if j["type"] in ("canew", "rewrite"):
         nf = f"{d}/new-mcqs.json"
         newq = json.load(open(nf)) if os.path.exists(nf) else []
         if not newq:
@@ -276,6 +322,8 @@ def check(jid, quiet=False):
                     and len(q["o"]) >= 4 and isinstance(q.get("a"), int) and 0 <= q["a"] < len(q["o"]) and q.get("x")):
                 probs.append(f"bad new MCQ {q.get('id')}")
         allm = allm + newq
+        if j["type"] == "rewrite":
+            probs += rewrite_problems(d, newq, quiet)
     keys, mp = read_keys(d), read_mapping(d)
     byid = {q["id"]: q for q in allm}
     for q in pyqs:
@@ -366,12 +414,21 @@ def apply():
             for q in lst:
                 if isinstance(q, dict) and not (q["id"] in xmoves and xmoves[q["id"]][0] != b):
                     where[q["id"]] = (int(r), q)
+        removed = set()                              # "rewrite" jobs: own MCQs replaced by PYQ-pattern ones
+        for j in bj:
+            f = f"{run_dir(j)}/remove.json"
+            if j["type"] == "rewrite" and os.path.exists(f):
+                removed |= {e["id"] for e in json.load(open(f)) if not e["id"].startswith("y")}
+        for i in removed:
+            if i in where:
+                del where[i]
+                links.pop(i, None)
         moved_in = {q["id"] for _, q in incoming.get(b, [])}
         for r, q in incoming.get(b, []):
             where[q["id"]] = (r, q)
         for j in bj:                                 # "canew" jobs: new current-affairs MCQs, filed by their mapping
             f = f"{run_dir(j)}/new-mcqs.json"
-            if j["type"] in ("canew", "pattern") and os.path.exists(f):
+            if j["type"] in ("canew", "rewrite") and os.path.exists(f):
                 mpj = read_mapping(run_dir(j))
                 for q in json.load(open(f)):
                     if q["id"] not in where and q["id"] in mpj:
@@ -386,13 +443,13 @@ def apply():
                 if os.path.exists(f):
                     new[r] = parse(open(f).read())
         for j in bj:                                 # place jobs may append new sub-sections to a rebuilt row
-            if j["type"] in ("place", "canew", "pattern"):
+            if j["type"] in ("place", "canew", "rewrite"):
                 for r in j["rows"]:
                     x = f"{run_dir(j)}/notes/row-{r}.extra.md"
                     if r in new and os.path.exists(x):
                         new[r] += parse(open(x).read())
         mapping, keys = {}, {}
-        order = {"topic": 0, "keys": 1, "place": 2, "canew": 2, "pattern": 2, "spot": 3}
+        order = {"topic": 0, "keys": 1, "place": 2, "canew": 2, "rewrite": 2, "spot": 3}
         for j in sorted(bj, key=lambda j: order[j["type"]]):
             mapping.update(read_mapping(run_dir(j)))
             keys.update(read_keys(run_dir(j)))
@@ -656,7 +713,7 @@ def print_prompt(jid):
     j = get(jid)
     titles = dict(l.rstrip("\n").split("\t", 1) for l in open(f"{D}/rows-book{j['book']}.txt"))
     topic = f"book {j['book']} rows {j['rows']}: " + "; ".join(titles[str(r)] for r in j["rows"])
-    suf = {"keys": "-KEYS", "place": "-PLACE", "spot": "-SPOT", "canew": "-CANEW", "pattern": "-PATTERN"}.get(j["type"], "")
+    suf = {"keys": "-KEYS", "place": "-PLACE", "spot": "-SPOT", "canew": "-CANEW", "rewrite": "-REWRITE"}.get(j["type"], "")
     txt = (open(f"{D}/HELPER-PROMPT{suf}.txt").read()
            .replace("{JOB}", jid).replace("{TOPIC}", topic))
     open(f"{run_dir(j)}/PROMPT.txt", "w").write(txt)
