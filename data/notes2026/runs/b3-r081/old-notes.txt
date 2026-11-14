@@ -1,0 +1,532 @@
+=== NOTES 3:81 | Money Supply – M0 to M4, High-powered Money, Money Multiplier, Velocity
+## SUB 0 | Functions and Kinds of Money
+[81:0:0] # Functions of Money
+[81:0:1] TABLE head: Class | Functions
+  [81:0:1.0] Primary | Medium of exchange; measure of value (unit of account)
+  [81:0:1.1] Secondary | Store of value; standard of deferred payments; transfer of value
+  [81:0:1.2] Contingent | Basis of credit; distribution of national income; giving liquidity
+[81:0:2] APPSC 2025: **Production of goods is NOT a function of money**.
+[81:0:3] # Kinds of Money
+[81:0:4] TABLE head: Pair | Difference
+  [81:0:4.0] Hard vs soft money | Hard = backed by gold/credible assets; soft = paper backed by government bonds
+  [81:0:4.1] Bank money vs cash | Bank money = secondary money; cash = high-powered money
+  [81:0:4.2] Legal tender vs near money | Legal tender must be accepted; near money is liquid but cannot directly pay for goods
+[81:0:5] - **RBI notes = unlimited legal tender**; **coins = limited legal tender**.
+[81:0:6] - **Digital Rupee** = legal tender under the RBI Act (amended by **Finance Act 2022**).
+[81:0:7] - **Plastic money** (credit, debit, prepaid cash, smart and store cards; mainly issued by banks) = used in place of bank notes, but **NOT legal tender**.
+[81:0:8] - Not every highly liquid asset is legal tender.
+## SUB 1 | Money Terms
+[81:1:0] TABLE head: Term | Meaning
+  [81:1:0.0] Seigniorage | Face value minus cost of production of currency = issuer's profit; a ₹500 note costs about ₹4; a source of RBI surplus
+  [81:1:0.1] Legal tender | Money a creditor is legally bound to accept in settlement of claims (UPSC 2018)
+  [81:1:0.2] Fiat money | Notes and coins with no intrinsic value; money by government order
+  [81:1:0.3] Near money | Time deposits, T-bills, bills of exchange, bonds near redemption, savings certificates
+  [81:1:0.4] Token coin | Face value higher than metal value (rupee coin)
+  [81:1:0.5] Velocity | Average number of times a unit of currency changes hands in a period; ₹10 note used twice = ₹20 of transactions
+  [81:1:0.6] Required Reserve Ratio | Fixed percentage of deposits every bank must keep as reserves
+[81:1:1] - **Currency expansion** → value of money falls → higher prices.
+[81:1:2] - A rise in general prices can come from more money supply, lower output and higher effective demand (all three).
+[81:1:3] - **Money supply is NOT included in a country's wealth**.
+## SUB 2 | Indian Currency History
+[81:2:0] TABLE head: Year | Event
+  [81:2:0.0] 18th century | Earliest paper currency by European trading companies; then Presidency Banks
+  [81:2:0.1] 1773 | General Bank of Bengal and Bihar set up
+  [81:2:0.2] 1861 | Paper Currency Act: Government gets monopoly of note issue
+  [81:2:0.3] 1899 | Indian Coinage and Paper Currency Act (Curzon): India on the gold standard
+  [81:2:0.4] 1935 | Note issue transferred to RBI
+  [81:2:0.5] 1 April 1957 | Decimal coinage (Indian Coinage (Amendment) Act, 1955); ₹1 = 100 naye paise
+  [81:2:0.6] 1 June 1964 | "Naya" dropped; naya paisa became paisa
+[81:2:1] - In **1999** the **Euro** was not yet in circulation (notes and coins came later).
+## SUB 3 | Currency Issue and Demonetisation
+[81:3:0] # Issuing Authority
+[81:3:1] TABLE head: Item | Issued by
+  [81:3:1.0] ₹1 note and coins | Government of India (Ministry of Finance)
+  [81:3:1.1] Remaining notes | RBI
+[81:3:2] - Note issue rests on the **Minimum Reserve System** (replaced the proportional reserve system after 1956): ₹200 crore of gold and forex, of which **₹115 crore gold**.
+[81:3:3] # Demonetisation Episodes
+[81:3:4] TABLE head: Year | Notes | Objective
+  [81:3:4.0] January 1946 | High-denomination notes (₹1,000 and ₹10,000); by ordinance | Black money, tax evasion
+  [81:3:4.1] 1978 | ₹1,000, ₹5,000, ₹10,000; High Denomination Bank Notes (Demonetisation) Act, under Morarji Desai | Black money
+  [81:3:4.2] 8 Nov 2016 | ₹500, ₹1,000 (effective midnight; some keys say 9 Nov 2016); new ₹500 and ₹2,000 issued | Black money, counterfeit currency (FICN), corruption, terror financing
+[81:3:5] - Legal basis: **Section 26(2), RBI Act 1934**, on recommendation of RBI's **Central Board**.
+[81:3:6] - SC upheld 2016 move **4:1** (2023). **₹2,000** withdrawn **May 2023**, still legal tender.
+[81:3:7] - **2016 outcome:** about **86%** of currency by value withdrawn; about **99%** returned to banks (RBI); **Specified Bank Notes (Cessation of Liabilities) Act, 2017** followed.
+[81:3:8] - **FICN**: NCRB Crime in India 2024 → **₹54.61 crore** fake currency seized (about 6 lakh ₹500 + over 1 lakh ₹2,000 notes).
+[81:3:9] - Debate: black-money gains unproven; cash use not cut; fake notes still seized ten years on.
+[81:3:10] - **Abroad – Venezuela (Dec 2016):** President **Maduro** ordered the **100-bolivar** note, its largest, out of circulation; the deadline was put off after protests and cash shortages.
+## SUB 4 | High-powered Money (M0)
+[81:4:0] - Names: **reserve money, monetary base, base money, central bank money**, high-powered money = **M0** (⚠ APPSC key (2010) gave M2).
+[81:4:1] - **Basis of credit creation**; most important money indicator for RBI.
+[81:4:2] APPSC Group 2, 2025: **H = currency held by the public + cash reserves of commercial banks (with themselves and with RBI) + other deposits with RBI**. H does **not** include time deposits.
+[81:4:3] TABLE head: Side | Components
+  [81:4:3.0] Uses side | Currency with public + banks' cash in hand + banks' deposits with RBI + other deposits with RBI
+  [81:4:3.1] Sources side | Net RBI credit to Government + RBI credit to banks and commercial sector + net forex assets of RBI + Government's currency liabilities − net non-monetary liabilities of RBI
+[81:4:4] - **Currency in circulation** = notes + rupee coins + small coins (held by public + banks' cash in hand).
+[81:4:5] - **"Other" deposits with RBI**: quasi-government and financial institutions (incl. primary dealers), foreign central banks and governments, international agencies such as the **IMF**.
+## SUB 5 | Monetary Aggregates M1 to M4
+[81:5:0] # Second Working Group on Money Supply (1977)
+[81:5:1] TABLE head: Aggregate | Components | Type
+  [81:5:1.0] M0 | Currency in circulation + bankers' deposits with RBI + other deposits with RBI | Reserve money
+  [81:5:1.1] M1 | Currency with public + demand deposits + other deposits with RBI | Narrow, most liquid
+  [81:5:1.2] M2 | M1 + post office savings bank deposits | Narrow
+  [81:5:1.3] M3 | M1 + time deposits with banks | Broad money ("aggregate monetary resources")
+  [81:5:1.4] M4 | M3 + all post office deposits (excluding NSCs) | Broad, least liquid
+[81:5:2] - **M3** = most commonly used broad money; = currency with public + demand deposits + time deposits + other deposits with RBI (all four).
+[81:5:3] - **M3 − M1 = time deposits** with banks. Time deposits are **not in M1**.
+[81:5:4] - **Liquidity order**: **M1 > M2 > M3 > M4**.
+[81:5:5] - Assets by liquidity: **currency > demand deposits > savings deposits > time deposits**; demand deposits can be withdrawn instantly, time deposits are locked.
+[81:5:6] - **Time deposits** = most important component of commercial banks' liabilities; then savings and demand deposits.
+[81:5:7] - Sources of broad money: net bank credit to Government + bank credit to commercial sector + net forex assets of banking sector + Government's currency liabilities − net non-monetary liabilities.
+[81:5:8] **M2 = M1 + PO savings**; **M3 = M1 (not M2) + time deposits**.
+[81:5:9] # New Aggregates (1998)
+[81:5:10] - **Third Working Group** (1998), chaired by **Y. V. Reddy** (Money Supply: Analytics and Methodology of Compilation).
+[81:5:11] - **NM0–NM3**: residency-based; separate short-term from long-term deposits.
+[81:5:12] - **L1, L2, L3** = **liquidity aggregates**: add post-office deposits, term money and CDs of FIs, NBFC public deposits (**not RBI gold reserves**).
+[81:5:13] - **M1–M4 framework (1977):** RBI introduced the money supply measures M1, M2, M3 and M4 on the recommendation of the **Second Working Group on Money Supply** (1977).
+## SUB 6 | Money Multiplier and Credit Creation
+[81:6:0] # Formula and Process
+[81:6:1] - 1. RBI creates reserve money (issues notes).
+[81:6:2] - 2. Banks keep CRR (with RBI) and SLR (with themselves).
+[81:6:3] - 3. They lend the rest; each loan creates a new deposit.
+[81:6:4] - **m = (1 + cdr) / (cdr + rdr)**; cdr = currency-deposit ratio, rdr = reserve-deposit ratio.
+[81:6:5] - **Money multiplier = M3 ÷ M0** (total money supply / base money).
+[81:6:6] - 10% reserves, no leakages: m = 1/0.10 = **10**; ₹100 supports about **₹1,000** of deposits.
+[81:6:7] TABLE head: Money creator | Creates
+  [81:6:7.0] RBI | Reserve money (notes)
+  [81:6:7.1] Government | Coins and ₹1 note
+  [81:6:7.2] Commercial banks | Deposit money by lending beyond CRR/SLR
+[81:6:8] # What Moves Money Supply
+[81:6:9] TABLE head: Factor | Effect
+  [81:6:9.0] Higher CRR, SLR or cdr | Lower multiplier; less credit creation
+  [81:6:9.1] Stronger banking habit | Higher multiplier (UPSC 2019)
+  [81:6:9.2] RBI buys G-secs (OMO purchase); Government borrows from RBI; deficit financing | Money supply rises (injects reserve money)
+  [81:6:9.3] RBI sells G-secs (UPSC 2012) | Money supply falls
+  [81:6:9.4] Public deposits currency in banks | Does not raise money supply
+  [81:6:9.5] Cash withdrawal ₹1 lakh from demand deposit | Aggregate money supply unchanged (demand deposits −₹1 lakh, currency with public +₹1 lakh)
+[81:6:10] - **Raising SLR** = contractionary tool used in inflation; locks bank funds, reduces loan funds. An SLR cut frees funds.
+[81:6:11] - **CRR increase** → banks have less money to lend (more parked with RBI).
+[81:6:12] - High cash preference (high cdr) limits India's credit multiplier.
+## SUB 7 | Demand for Money and Velocity
+[81:7:0] # Theories
+[81:7:1] TABLE head: Theory | Economist
+  [81:7:1.0] Quantity theory MV = PT | Irving Fisher
+  [81:7:1.1] Cash-balance M = kPY (k = 1/V) | Marshall, Pigou (Cambridge)
+  [81:7:1.2] Liquidity preference (transactions, precautionary, speculative motives) | J. M. Keynes
+  [81:7:1.3] Inventory model (square-root rule) | Baumol (1952), Tobin (1956)
+  [81:7:1.4] Modern quantity theory, monetarism | Milton Friedman
+  [81:7:1.5] IS-LM model | J. R. Hicks
+  [81:7:1.6] Pure Monetary Theory of Trade Cycle | R. G. Hawtrey
+  [81:7:1.7] Austrian cycle theory; free-market economics | Friedrich Hayek
+  [81:7:1.8] Effective demand | Keynes
+[81:7:2] - Value of transactions drives money demand; at **higher interest rates** money demand falls; speculative demand varies **inversely** with interest.
+[81:7:3] Money supply fixed + money demand **rises** → **interest rate rises**; demand falls → rate falls.
+[81:7:4] MV = PT | Fisher | Transactions
+M = kPY | Cambridge | Cash balance
+## SUB 8 | Data, Currency in Circulation and e-RUPEE
+[81:8:0] - **31 Dec 2025**: money multiplier **6.21**; M3 grew 12.1%, M0 2.9%.
+[81:8:1] - **CRR cut 100 bps to 3.0%** of NDTL → released about **₹2.5 lakh crore** (Dec 2025).
+[81:8:2] - OMO purchases: ₹2 lakh crore (Dec 2025–Jan 2026); more in March 2026.
+[81:8:3] - Surplus liquidity ~₹10.32 lakh crore (Sep 2026); RBI absorbing via VRRR.
+[81:8:4] - Notes in circulation (May 2026): **174 billion** notes worth over ₹42.12 lakh crore.
+[81:8:5] # e-Rupee (CBDC)
+[81:8:6] TABLE head: Feature | Fact
+  [81:8:6.0] Pilots | Wholesale Nov 2022; retail Dec 2022
+  [81:8:6.1] Nature | Legal tender; direct liability of RBI (UPI money = bank liability)
+  [81:8:6.2] Uses | Offline payments, programmable for DBT, UAE cross-border pilot; not a mandatory replacement of bank deposits
+  [81:8:6.3] 2026 | Digital Food Currency pilot in Puducherry
+## SUB 9 | Number Game and Quick Revision
+[81:9:0] TABLE head: Item | Fact
+  [81:9:0.0] M1–M4 group | 1977
+  [81:9:0.1] NM/L aggregates | 1998 (Y. V. Reddy)
+  [81:9:0.2] Decimal coinage | 1 April 1957
+  [81:9:0.3] "Naya" dropped | 1964
+  [81:9:0.4] Demonetisation | 1946, 1978, 2016
+  [81:9:0.5] Multiplier (Dec 2025) | 6.21
+  [81:9:0.6] CRR | 3.0%
+[81:9:1] # FIRST / LAST / SPECIAL FACTS
+[81:9:2] - First Government monopoly of note issue: Paper Currency Act 1861.
+[81:9:3] - Most liquid aggregate: M1; least liquid: M4.
+[81:9:4] - Only RBI-direct digital money: e-Rupee.
+## SUB 10 | Appsc Previous Year Questions
+[81:10:0] TABLE head: Examination | Question Area
+  [81:10:0.0] APPSC Group 2 Mains 2025 | Components of high-powered money
+  [81:10:0.1] APPSC Group 2 Mains 2025 | What is NOT a function of money
+  [81:10:0.2] G2 Mains 2025 Paper 2 | Narrow money
+  [81:10:0.3] APPSC Group 1 / Group 2 | Cash withdrawal effect; M3 components; demonetisation; decimal coinage
+## SUB 11 | High-probability Mcq Traps
+[81:11:0] VERY IMPORTANT
+[81:11:1] - 1. **M3 = M1 + time deposits**, not M2 + time deposits.
+[81:11:2] - 2. Cash withdrawal leaves **money supply unchanged**.
+[81:11:3] - 3. **Seigniorage** = face value minus cost, not tax.
+[81:11:4] - 4. Plastic money is **not** legal tender.
+[81:11:5] - 5. MV = PT = **Fisher**; M = kPY = **Cambridge**.
+[81:11:6] - 6. Higher CRR/SLR/cdr **lowers** the multiplier.
+[81:11:7] - 7. NM0–NM3 = **1998**, Y. V. Reddy; M1–M4 = **1977**.
+[81:11:8] - 8. Decimal coinage **1957**; "naya" dropped **1964**.
+[81:11:9] - 9. Demonetisation power = **Sec 26(2)**.
+[81:11:10] - 10. Production of goods is **not** a function of money.
+
+=== OWN MCQs of 3:81 (88)
+[n849ade3df2d] sub0
+  Which one of the following is classified as a contingent function of money?
+  Unit of account | *Giving liquidity | Standard of deferred payments | Medium of exchange
+  x: The contingent functions include acting as a basis of credit, distribution of national income and giving liquidity.
+[n1d1b4ddee3e] sub0
+  Which one of the following is an example of near money?
+  Currency notes held by the public | Digital Rupee issued by RBI | *Time deposits with banks | Rupee coins in circulation
+  x: Time deposits are highly liquid assets but cannot directly be used to pay for goods and services, making them near money. Other examples include Treasury bills, bills of exchange and savings certificates.
+[n8d1df116aeb] sub0
+  Which one of the following statements about legal tender is NOT correct?
+  Coins are limited legal tender. | *Every highly liquid financial asset is legal tender. | RBI notes are unlimited legal tender anywhere in India. | A creditor is legally bound to accept legal tender in settlement of a claim.
+  x: Not every highly liquid financial asset is legal tender; near money such as time deposits and Treasury bills cannot directly settle ordinary payments. RBI notes are unlimited legal tender, while coins are limited legal tender.
+[n9de490a8edf] sub0
+  Which one of the following is NOT legal tender in India?
+  Currency notes issued by the RBI | Rupee coins | Digital Rupee (e₹) | *Debit and credit cards (plastic money)
+  x: Plastic money (debit/credit cards) is not legal tender. RBI notes are unlimited legal tender, coins are limited legal tender, and the Digital Rupee is legal tender under the RBI Act as amended by the Finance Act 2022.
+[neb8798ea5a4] sub0
+  'Store of value' is classified as which type of function of money?
+  Primary | Contingent | Residual | *Secondary
+  x: Store of value is a secondary function; medium of exchange is primary and basis of credit is contingent.
+[n8e5a32879cd] sub0
+  By what is 'hard money' backed?
+  Government bonds | Bank deposits | Foreign loans | *Gold or credible assets
+  x: Hard money is backed by gold or credible assets; soft money is paper money backed by government bonds.
+[f4a011e0c3825] sub0
+  Which enactment amended the RBI Act to make the Digital Rupee legal tender?
+  Banking Regulation Act, 1949 | *Finance Act, 2022 | Finance Act, 2016 | Indian Coinage Act, 2011
+  x: The RBI Act was amended by the Finance Act 2022 to make the Digital Rupee legal tender.
+[g0919cbf2cc1b] sub0
+  Which of the following is NOT a contingent function of money?
+  Basis of credit | Distribution of national income | Giving liquidity | *Medium of exchange
+  x: Medium of exchange is a primary function; basis of credit, distribution of national income and giving liquidity are contingent functions.
+[gcb8fa2510ebf] sub0
+  Bank money, as distinct from cash, is also known as which type of money?
+  High-powered money | *Secondary money | Fiat money | Hard money
+  x: Bank money is secondary money, while cash is high-powered money; together currency and deposit money make up money supply.
+[gd5703248c344] sub0
+  By what is 'soft money' backed?
+  Gold | Credible foreign assets | *Government bonds | Silver
+  x: Soft money is paper money backed by government bonds; hard money is backed by gold or credible assets.
+[n3f80766f982] sub1
+  What does velocity of money refer to?
+  *the average number of times a unit of currency changes hands during a period | the total quantity of currency printed by the central bank in a year | the percentage of bank deposits kept as reserves | the rate at which coins are minted by the government
+  x: Velocity is the average number of times a currency unit changes hands in a given period. A ₹10 note used twice generates ₹20 of transactions.
+[n64e26369dea] sub1
+  A ₹500 note costs about ₹4 to produce. What is the difference between its face value and production cost called?
+  Intrinsic value | Token value | *Seigniorage | Legal tender value
+  x: Seigniorage is the difference between the face value of currency and its cost of production. It represents the issuer's profit and is a source of RBI surplus.
+[n328ef64f0e4] sub1
+  Why is a rupee coin called a token coin?
+  Its metal value is higher than its face value. | It can be used only for token payments. | *Its face value is higher than the value of the metal contained in it. | It is not issued under government authority.
+  x: A rupee coin is a token coin because its face value exceeds the value of the metal contained in it.
+[f00555a81a763] sub1
+  What are notes and coins that have no intrinsic value and are money by government order called?
+  *Fiat money | Near money | Hard money | Token money
+  x: Fiat money has no intrinsic value; it is money because the government orders it.
+[g1ae39deb8303] sub1
+  What is the fixed percentage of deposits that every bank must keep as reserves called?
+  Capital Adequacy Ratio | Credit-Deposit Ratio | *Required Reserve Ratio | Liquidity Coverage Ratio
+  x: The Required Reserve Ratio is the fixed share of deposits every bank must keep as reserves.
+[ge724b43b5405] sub1
+  What happens to the value of money when currency expands?
+  *It falls | It rises | It stays the same | It first rises, then falls
+  x: Currency expansion lowers the value of money, so prices rise.
+[g5caec947e6e2] sub1
+  If a ₹10 note changes hands twice in a period, what value of transactions does it support?
+  ₹5 | ₹10 | *₹20 | ₹100
+  x: Velocity is the number of times money changes hands; ₹10 used twice supports ₹20 of transactions.
+[n7375eb25187] sub2
+  The Indian Coinage and Paper Currency Act, 1899, associated with Curzon, placed India on which monetary standard?
+  Silver standard | Paper standard | *Gold standard | Bimetallic standard
+  x: The Indian Coinage and Paper Currency Act, 1899, associated with Curzon, put India on the gold standard.
+[n9b58b77ae9f] sub2
+  In which year was the General Bank of Bengal and Bihar established?
+  1770 | *1773 | 1786 | 1806
+  x: It was set up in 1773, before the Indian Coinage and Paper Currency Act (1899), transfer of note issue to the RBI (1935) and decimal coinage (1957).
+[nd1c6cc58604] sub2
+  The monopoly of note issue was given to the Government by which enactment?
+  Reserve Bank of India Act, 1934 | *Paper Currency Act, 1861 | Indian Coinage (Amendment) Act, 1955 | Indian Coinage and Paper Currency Act, 1899
+  x: The Paper Currency Act, 1861, gave the Government the monopoly of note issue, replacing the earlier private and presidency-bank pattern of issuance.
+[fd426710afd6e] sub2
+  In which year was note issue transferred to the Reserve Bank of India?
+  1861 | *1935 | 1899 | 1957
+  x: Note issue passed to the RBI in 1935; 1861 gave the Government the monopoly of note issue.
+[g300d58fdd7a4] sub2
+  Under which Act was decimal coinage introduced in India from 1 April 1957?
+  Paper Currency Act, 1861 | Indian Coinage and Paper Currency Act, 1899 | *Indian Coinage (Amendment) Act, 1955 | RBI Act, 1934
+  x: Decimal coinage came on 1 April 1957 under the Indian Coinage (Amendment) Act, 1955, with ₹1 = 100 naye paise.
+[n88134df43e8] sub3
+  Which denominations were covered by the 1978 demonetisation?
+  *₹1,000, ₹5,000 and ₹10,000 | ₹500, ₹1,000 and ₹10,000 only | ₹100, ₹500 and ₹1,000 | ₹1,000 and ₹10,000 only
+  x: The High Denomination Bank Notes (Demonetisation) Act, 1978, under Morarji Desai, withdrew the ₹1,000, ₹5,000 and ₹10,000 notes to curb black money. ₹1,000 and ₹10,000 only was the January 1946 episode.
+[n04dee69114b] sub3
+  The demonetisation announced on 8 November 2016 primarily withdrew which notes from circulation?
+  ₹100 and ₹500 | ₹1,000 and ₹2,000 | *₹500 and ₹1,000 | ₹500 and ₹2,000
+  x: The 2016 announcement withdrew ₹500 and ₹1,000 notes, effective from midnight. New ₹500 and ₹2,000 notes were subsequently issued.
+[nfbb5a20130a] sub3
+  What was the legal basis cited for the 2016 demonetisation?
+  Section 26(2) of the Banking Regulation Act, 1949 | Section 44 of the Coinage Act, 2011 | *Section 26(2) of the RBI Act, 1934 | Section 10 of the Foreign Exchange Management Act, 1999
+  x: The legal basis was Section 26(2) of the RBI Act, 1934, on the recommendation of the RBI’s Central Board.
+[ff6117b843835] sub3
+  Which authority issues the ₹1 note in India?
+  Reserve Bank of India | State Bank of India | *Government of India (Ministry of Finance) | Security Printing and Minting Corporation
+  x: The ₹1 note and coins are issued by the Government of India; the remaining notes are issued by the RBI.
+[fc13daf860df2] sub3
+  Under the Minimum Reserve System for note issue, of the ₹200 crore of gold and forex, what is the minimum value of gold that must be held?
+  ₹85 crore | ₹100 crore | ₹200 crore | *₹115 crore
+  x: The Minimum Reserve System needs ₹200 crore of gold and forex, of which ₹115 crore must be gold.
+[f018216bcdcf6] sub3
+  The 1978 demonetisation of high-denomination notes was carried out under which Prime Minister?
+  *Morarji Desai | Indira Gandhi | Charan Singh | Rajiv Gandhi
+  x: The High Denomination Bank Notes (Demonetisation) Act, 1978 came under Morarji Desai.
+[f76ce2cc6bdd5] sub3
+  Which of the following pairs (year – notes demonetised) is correctly matched?
+  2016 – ₹500 and ₹2,000 | 1946 – ₹500 and ₹1,000 | *1978 – ₹1,000, ₹5,000 and ₹10,000 | 1978 – ₹500 and ₹1,000
+  x: 1978 withdrew ₹1,000, ₹5,000 and ₹10,000 notes; 2016 withdrew ₹500 and ₹1,000, and 1946 withdrew ₹1,000 and ₹10,000.
+[f549532815363] sub3
+  Consider the following statements about the 2016 demonetisation:
+1. Curbing counterfeit currency (FICN) was one of its stated objectives.
+2. The Supreme Court upheld it by a 4:1 majority in 2023.
+3. The ₹2,000 notes withdrawn in May 2023 ceased to be legal tender.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Black money, FICN, corruption and terror financing were its objectives and the SC upheld it 4:1; the ₹2,000 notes withdrawn in May 2023 are still legal tender.
+[g61996072f902] sub3
+  Which Act ended the liability on the old ₹500 and ₹1,000 notes after the 2016 demonetisation?
+  High Denomination Bank Notes (Demonetisation) Act | *Specified Bank Notes (Cessation of Liabilities) Act, 2017 | Banning of Unregulated Deposit Schemes Act | Coinage Act, 2011
+  x: The Specified Bank Notes (Cessation of Liabilities) Act, 2017 followed the 2016 demonetisation; the High Denomination Act was for 1978.
+[g98cc9278dd31] sub3
+  About what share of the currency in circulation, by value, was withdrawn by the 2016 demonetisation?
+  About 50% | About 66% | *About 86% | About 99%
+  x: The ₹500 and ₹1,000 notes withdrawn in 2016 made up about 86% of currency by value.
+[g39b66046c5c8] sub3
+  According to the RBI, about what share of the notes demonetised in 2016 came back to banks?
+  About 76% | About 86% | About 93% | *About 99%
+  x: About 99% of the demonetised notes returned to banks, as per the RBI.
+[geb08fc960a96] sub3
+  According to NCRB's Crime in India 2024, fake Indian currency (FICN) worth about how much was seized?
+  ₹5.46 crore | ₹14.61 crore | *₹54.61 crore | ₹154.61 crore
+  x: NCRB recorded ₹54.61 crore of fake currency seized, mostly ₹500 and ₹2,000 notes.
+[g142822f885ea] sub3
+  Under which Act were the ₹1,000, ₹5,000 and ₹10,000 notes demonetised in 1978?
+  Specified Bank Notes (Cessation of Liabilities) Act | *High Denomination Bank Notes (Demonetisation) Act | Coinage Act | Paper Currency Act
+  x: The 1978 demonetisation under Morarji Desai was done through the High Denomination Bank Notes (Demonetisation) Act.
+[ga8b2d45b4b95] sub3
+  How were the high-denomination notes demonetised in January 1946?
+  *By an ordinance | By an Act of Parliament | By an RBI circular | By a Supreme Court order
+  x: The January 1946 demonetisation of ₹1,000 and ₹10,000 notes was done by an ordinance.
+[g6cc40f6bf57d] sub3
+  In December 2016, which country ordered its largest banknote, the 100-bolivar note, out of circulation?
+  Zimbabwe | *Venezuela | Argentina | Colombia
+  x: Venezuela's President Maduro ordered the 100-bolivar note withdrawn in December 2016; the deadline was later put off after protests.
+[n8366a8c7709] sub4
+  What does currency in circulation include?
+  Notes, foreign exchange assets and bankers' deposits | Notes, demand deposits and time deposits | Rupee coins, government securities and small coins | *Notes, rupee coins and small coins
+  x: Currency in circulation comprises notes, rupee coins and small coins. It is held partly by the public and partly as cash in hand with banks.
+[nfc944cdb1cc] sub4
+  By what other name is high-powered money known?
+  Secondary money | *Reserve money | Broad money | Near money
+  x: High-powered money is also called reserve money, monetary base and central bank money; bank money is secondary money.
+[nb7036887bc3] sub4
+  On the uses side, high-powered money comprises currency held by the public, banks' cash in hand, banks' deposits with the RBI and which of the following?
+  Time deposits with banks | *Other deposits with the RBI | Post office savings deposits | Demand deposits with banks
+  x: The uses-side composition of high-powered money is currency with the public, banks' cash in hand, banks' deposits with RBI and other deposits with RBI.
+[f7723af15697f] sub4
+  Which of the following is a component on the sources side of reserve money?
+  Currency with the public | *Net foreign exchange assets of the RBI | Banks' cash in hand | Bankers' deposits with the RBI
+  x: Net forex assets of the RBI are on the sources side; the other three are on the uses side.
+[f6fdc560ad6f3] sub4
+  'Other deposits with the RBI', a part of high-powered money, include the deposits of which of the following?
+  Scheduled commercial banks | Urban co-operative banks | *the International Monetary Fund | Regional rural banks
+  x: Other deposits include those of quasi-government bodies, FIs, foreign central banks and governments, and international agencies such as the IMF; banks' deposits are bankers' deposits.
+[n7e030e627f9] sub5
+  Which of the following monetary aggregates is the most liquid?
+  M3 | M2 | *M1 | M4
+  x: Liquidity declines in the order M1, M2, M3, M4, so M1 is the most liquid and M4 the least.
+[n9472f9be7ef] sub5
+  In Indian monetary statistics, by what name is M3 also known?
+  Pure currency money | High-powered coinage | Reserve money | *Aggregate monetary resources
+  x: M3 is broad money and is described as aggregate monetary resources. It comprises M1 and time deposits with the banking system.
+[n338ad04328a] sub5
+  Which one of the following correctly describes M0 or reserve money?
+  M3 + all post office deposits excluding NSCs | *Currency in circulation + bankers’ deposits with RBI + other deposits with RBI | M1 + post office savings bank deposits | Currency with the public + demand deposits + time deposits
+  x: M0, or reserve money, consists of currency in circulation, bankers’ deposits with the RBI and other deposits with the RBI. It is the monetary base.
+[n93fb904cc26] sub5
+  On whose recommendation was the present framework of monetary aggregates M1 to M4 introduced?
+  Monetary and Credit Reforms Committee | *Second Working Group on Money Supply | First Finance Commission | Banking Laws Committee
+  x: The monetary aggregate framework from M1 to M4 was introduced on the recommendation of the Second Working Group on Money Supply in 1977.
+[nindian-economy-38-1] sub5
+  Which is the most commonly used measure of broad money supply in India?
+  M0 | M1 | M2 | *M3
+  x: M3 (broad money) is the most used measure; M1 is narrow money and M0 is reserve money.
+[nindian-economy-38-4] sub5
+  Which of the following components of money supply is INCORRECTLY described?
+  *Demand deposits with banks – locked for a fixed period; least liquid | Time deposits with banks – locked for a fixed period; least liquid | Currency with the public – immediate cash in hand | Other deposits with RBI – balances of foreign central banks and international bodies
+  x: Demand deposits can be withdrawn instantly; it is time deposits that are locked for a fixed period and least liquid.
+[nbc9b9b94646] sub5
+  Which of the following correctly distinguishes the new monetary aggregates from the liquidity aggregates proposed by the RBI working group?
+  *NM0–NM3 are residency-based, while L1–L3 add specified broader liquidity components. | NM0–NM3 measure fiscal deficits, while L1–L3 measure public expenditure. | NM0–NM3 are confined to equity shares, while L1–L3 cover government securities. | NM0–NM3 consist only of foreign-exchange reserves, while L1–L3 consist only of coins.
+  x: NM0–NM3 are residency-based aggregates that distinguish short-term from long-term deposits. L1–L3 broaden the coverage by adding specified post-office, financial-institution and NBFC liabilities.
+[nindian-economy-38-7] sub5
+  What does M3 minus M1 equal?
+  Demand deposits with banks | *Time deposits with banks | Currency with the public | Post office savings deposits
+  x: Since M3 = M1 + time deposits with banks, M3 − M1 equals time deposits.
+[n15d007779c4] sub5
+  What is added to M1 to get M2?
+  time deposits with banks | all post office deposits except NSCs | *post office savings bank deposits | currency with the public
+  x: M2 = M1 + post office savings bank deposits; M3 = M1 + time deposits with banks.
+[n209c6a2c2bd] sub5
+  Who chaired the RBI Working Group on Money Supply: Analytics and Methodology of Compilation (1998)?
+  C. Rangarajan | *Y. V. Reddy | Sukhamoy Chakravarty | Bimal Jalan
+  x: The 1998 (third) working group was chaired by Y. V. Reddy and proposed the residency-based NM0–NM3 and L1–L3.
+[naaa7eac8379] sub5
+  Post-office deposits, term money and CDs of financial institutions, and public deposits of NBFCs are added in which aggregates?
+  M0 (reserve money) | *L1–L3 liquidity aggregates | M1 (narrow money) | M2
+  x: The broader liquidity aggregates L1–L3 add post-office deposits, term money and CDs of FIs, and NBFC public deposits.
+[fe5bbf3901d4d] sub5
+  Which of the following describes the new monetary aggregates NM0–NM3 (1998)?
+  *residency-based, separating short-term from long-term deposits | based only on post-office deposits | based on gold backing of currency | limited to currency with the public
+  x: NM0–NM3 are residency-based and separate short-term from long-term deposits.
+[f1f19217b66e6] sub5
+  M4 is M3 plus all post-office deposits, excluding which of the following?
+  Post-office savings bank deposits | Post-office time deposits | Post-office recurring deposits | *National Savings Certificates
+  x: M4 = M3 + all post-office deposits excluding NSCs.
+[gf667000e2454] sub5
+  Which of the following monetary aggregates are classed as narrow money?
+  *M1 and M2 | M3 and M4 | M0 and M3 | M2 and M4
+  x: M1 and M2 are narrow money; M3 and M4 are broad money.
+[g8b9d2b16d063] sub5
+  Consider the following statements:
+1. M2 is a measure of broad money.
+2. M4 is the least liquid monetary aggregate.
+Which of the statements given above is/are correct?
+  1 only | *2 only | Both 1 and 2 | Neither 1 nor 2
+  x: M2 is narrow money; M4 is broad and the least liquid (M1 > M2 > M3 > M4).
+[nindian-economy-41-3] sub6
+  An increase in the SLR reduces the investible loan funds of commercial banks because it:
+  *locks a greater percentage of bank funds in liquid assets | raises the rate at which banks borrow overnight | cuts the interest banks pay on deposits | lowers the currency held by the public
+  x: A higher SLR locks more of the banks' funds in liquid assets, leaving less to lend.
+[nindian-economy-41-4] sub6
+  Which of the following pairs is correctly matched?
+  *Increase in SLR – Reduces investible loan funds | CRR – Liquid assets held by the bank itself | SLR – Reserve maintained with the RBI | Decrease in SLR – Reduces investible loan funds
+  x: Raising SLR locks more funds in liquid assets and cuts loanable funds. SLR is held by the bank itself, CRR with the RBI, and an SLR cut frees funds.
+[ne8f7790c09f] sub6
+  Which of the following is a likely consequence of a high preference for cash in the economy?
+  An unlimited rise in the credit multiplier | Automatic elimination of reserve requirements | A conversion of M3 into M0 | *A limitation on India’s credit multiplier
+  x: Weak banking habits and a high preference for cash raise the currency-deposit ratio, limiting the credit multiplier and the expansion of deposits.
+[nindian-economy-38-2] sub6
+  Which of the following about money supply measures is NOT correct?
+  M1 includes currency with the public | *Time deposits with banks are part of M1 | Other deposits with the RBI are part of both M1 and M3 | M3 includes time deposits with banks
+  x: Time deposits are not part of M1 (currency, demand deposits and other RBI deposits); they are included in M3.
+[n6519956e3d8] sub6
+  With a reserve requirement of 10 per cent and no leakages, about how much in deposits can ₹100 of reserve money support?
+  ₹100 | ₹500 | *₹1,000 | ₹10,000
+  x: With a 10 per cent reserve requirement, the simple deposit multiplier is 1/0.10, or 10. Thus, ₹100 of base money can support deposits approaching ₹1,000.
+[n1d7cbfa931f] sub6
+  Who mainly creates deposit money by lending beyond required reserves?
+  The RBI | NABARD | The Government of India | *Commercial banks
+  x: The RBI creates reserve money by issuing notes, while commercial banks create deposit money by lending beyond their required CRR and SLR reserves.
+[n43b507e8740] sub6
+  If cdr is the currency-deposit ratio and rdr the reserve-deposit ratio, which formula gives the money multiplier (m)?
+  *m = (1 + cdr) / (cdr + rdr) | m = (cdr + rdr) / (1 + cdr) | m = 1 / (cdr × rdr) | m = (1 + rdr) / cdr
+  x: The money multiplier is m = (1 + cdr)/(cdr + rdr), so a higher cdr or rdr (CRR, SLR) lowers it. The second option is its reciprocal, and the other two are not the standard formula.
+[n586f6872309] sub6
+  Which one of the following policy actions directly injects reserve money into the banking system?
+  RBI sells government securities in the open market | The reserve-deposit ratio rises | The public withdraws deposits as cash | *RBI purchases government securities in the open market
+  x: An RBI purchase of government securities credits reserves to the banking system and injects reserve money, supporting an expansion of money supply.
+[nindian-economy-38-5] sub6
+  How is the money multiplier represented?
+  *M3 ÷ M0 | M1 ÷ M0 | M0 ÷ M3 | M3 ÷ M1
+  x: The money multiplier is the ratio of total money supply to base money, i.e. M3 divided by M0.
+[nindian-economy-38-8] sub6
+  When ₹1 lakh is withdrawn in cash from a demand deposit account, currency with the public rises by ₹1 lakh. What happens to demand deposits?
+  rise by ₹1 lakh | remain unchanged | fall by ₹2 lakh | *fall by ₹1 lakh
+  x: Demand deposits fall by ₹1 lakh as currency with the public rises by ₹1 lakh, so total money supply stays the same.
+[n37457824745] sub6
+  The Cash Reserve Ratio was reduced by 100 basis points to what level of Net Demand and Time Liabilities, releasing approximately ₹2.5 lakh crore?
+  2.0 per cent | *3.0 per cent | 4.0 per cent | 5.0 per cent
+  x: The CRR was reduced by 100 basis points to 3.0 per cent of NDTL, releasing approximately ₹2.5 lakh crore by December 2025.
+[fdd0e714a49ad] sub6
+  When the public deposits currency in banks, money supply:
+  rises by the amount deposited | falls by the amount deposited | *does not rise | rises by the money multiplier
+  x: Depositing currency only moves money from currency to deposits, so money supply does not rise.
+[gdb015363d715] sub6
+  Consider the following statements about an increase in the Cash Reserve Ratio:
+1. Banks have less money to lend.
+2. The money multiplier rises.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: A higher CRR parks more bank money with the RBI, so banks have less to lend and the money multiplier falls.
+[n5128c2239a5] sub7
+  Which of the following pairs is wrongly matched?
+  Quantity theory – Irving Fisher | Cash-balance approach – Marshall and Pigou | *Modern quantity theory – J. M. Keynes | Liquidity preference theory – J. M. Keynes
+  x: The modern quantity theory is associated with Milton Friedman, not Keynes; Keynes is linked with liquidity preference.
+[nbbb9c03c18b] sub7
+  In the Cambridge cash-balance equation M = kPY, what does 'k' stand for?
+  *The reciprocal of the velocity of money | The price level | Real national income | The velocity of money
+  x: In M = kPY, k equals 1/V, the reciprocal of velocity; Fisher's version is MV = PT.
+[nindian-economy-67-5] sub7
+  With whom are monetarism and the role of money supply associated?
+  Friedrich Hayek | J. M. Keynes | *Milton Friedman | R. G. Hawtrey
+  x: Milton Friedman is associated with monetarism; Hayek with liberal, market-based economics.
+[nindian-economy-67-16] sub7
+  With whom is the IS-LM model associated?
+  R. G. Hawtrey | *J. R. Hicks | F. A. Hayek | Milton Friedman
+  x: Hicks gave the IS-LM model; Hawtrey gave the pure monetary trade-cycle theory and Hayek the Austrian cycle theory.
+[nfcd5358112d] sub7
+  According to Keynes, the demand for money arises from the transactions, precautionary and which other motive?
+  *speculative | production | profit | investment
+  x: Keynes's liquidity-preference theory names three motives: transactions, precautionary and speculative.
+[ff84ef5a3609c] sub7
+  With whom is the quantity theory equation MV = PT associated?
+  *Irving Fisher | Alfred Marshall | J. M. Keynes | Milton Friedman
+  x: MV = PT is Fisher's quantity theory; M = kPY is the Cambridge cash-balance equation of Marshall and Pigou.
+[fcca7578290d4] sub7
+  With whom is the inventory (square-root rule) model of transactions demand for money associated?
+  Marshall and Pigou | *Baumol and Tobin | J. R. Hicks | R. G. Hawtrey
+  x: The inventory model was given by Baumol (1952) and Tobin (1956).
+[f177cfbefeac4] sub7
+  How does the speculative demand for money vary with the rate of interest?
+  directly | proportionately | not at all | *inversely
+  x: Speculative demand varies inversely with interest; at higher interest rates money demand falls.
+[gc246ba200f3d] sub7
+  If the supply of money remains fixed and the demand for money falls, what happens to the rate of interest?
+  It rises | *It falls | It stays the same | It first rises and then falls
+  x: With fixed money supply, a rise in money demand raises the interest rate and a fall in demand lowers it.
+[g2a579595aa93] sub7
+  With which school of trade cycle theory is Friedrich Hayek associated?
+  Cambridge school | Keynesian school | *Austrian school | Chicago monetarist school
+  x: Hayek gave the Austrian cycle theory and backed free-market economics.
+[gea1fba2c1a2a] sub7
+  Who gave the principle of effective demand?
+  Irving Fisher | *J. M. Keynes | R. G. Hawtrey | Milton Friedman
+  x: The principle of effective demand is Keynes's.
+[nd162a9a4970] sub8
+  When did the retail pilot of the e-Rupee (CBDC) begin?
+  November 2022 | April 2023 | *December 2022 | December 2021
+  x: The wholesale pilot began in November 2022 and the retail pilot in December 2022.
+[n3f437b7ade4] sub8
+  Which of the following is NOT an identified feature or use of the e-Rupee?
+  *Mandatory replacement of all bank deposits | Offline payments | Programmable money for direct benefit transfer | A cross-border pilot with the UAE
+  x: Offline payments, programmability for DBT and a UAE cross-border pilot are identified uses; mandatory replacement of bank deposits is not.
+[fa03616a887b0] sub8
+  When did the wholesale pilot of the e-Rupee (CBDC) begin?
+  December 2022 | April 2022 | *November 2022 | November 2023
+  x: The wholesale pilot began in November 2022 and the retail pilot in December 2022.
+[f5736172f6d51] sub8
+  What was the money multiplier in India as on 31 December 2025?
+  *6.21 | 5.21 | 7.21 | 10.00
+  x: On 31 Dec 2025 the money multiplier stood at 6.21.
+[g2c82e8d96a3f] sub8
+  The e-Rupee (CBDC) is a direct liability of which institution?
+  Commercial banks | NPCI | *Reserve Bank of India | Ministry of Finance
+  x: The e-Rupee is legal tender and a direct liability of the RBI, whereas UPI money is a liability of banks.
+[gbb74587ea8b8] sub8
+  In 2026, where was the Digital Food Currency pilot using the e-Rupee launched?
+  *Puducherry | Andhra Pradesh | Gujarat | Kerala
+  x: The Digital Food Currency pilot based on the e-Rupee was launched in Puducherry in 2026.
+[gd4afb3f86abb] sub8
+  In May 2026, about how many banknotes were in circulation in India?
+  74 billion | 124 billion | *174 billion | 224 billion
+  x: In May 2026, about 174 billion notes worth over ₹42.12 lakh crore were in circulation.
+
