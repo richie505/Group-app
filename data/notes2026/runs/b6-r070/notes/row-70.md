@@ -127,6 +127,7 @@
 | NDB | 11 members with Colombia and Uzbekistan |
 | WTO | Comoros 165th, Timor-Leste 166th |
 | Artemis Accords | Türkiye 71st, Djibouti 72nd |
+- **India–France space deals (2026):** Indian and French space firms (Dhruva Space–Safran, TakeMe2Space–RIDE!, AXISCADES–U-Space) signed agreements after French President **Emmanuel Macron's India visit in February 2026**.
 # Latest space news (Oct–Nov 2026)
 - **IN-SPACe AI INSPIRED** – six private space firms selected; seed grant up to **₹1 crore** each; IN-SPACe 2020, **Bopal, Ahmedabad**; Indian Space Policy 2023. *(news 31 Oct 2026)*
 - **Project Suncatcher** – satellite wrote an **AI Haiku** from space (prompt to **Gemma 4** over **Svalbard**, Norway) – **first successful operation of a data-centre-class AI chip in space**; Google (Alphabet, Mountain View). *(news 01 Nov 2026)*
