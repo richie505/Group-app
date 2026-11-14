@@ -1,0 +1,1067 @@
+[
+ {
+  "id": "cp8a2955c5a4a2",
+  "row": 71,
+  "s": "Consider the following statements about India's National Quantum Mission (NQM):\n1. It covers quantum computing, communication, sensing and materials, through four thematic hubs (T-Hubs).\n2. It targets a 10,000-km quantum communication network.\n3. The foundation of India's first Quantum Valley was laid at Amaravati in February 2026.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is incorrect: the notes give a 1,000-km quantum communication network (not 10,000 km). Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc9f9506664e1",
+  "row": 71,
+  "s": "Match the T-Hubs of the National Quantum Mission with their domains:\nList-I (T-Hub)\na. IISc Bengaluru\nb. IIT Madras with C-DOT\nc. IIT Bombay\nd. IIT Delhi\nList-II (Domain)\ni. Sensing\nii. Computing\niii. Communication\niv. Materials\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iii, b-i, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Correct pairing: IISc Bengaluru – Computing; IIT Madras with C-DOT – Communication; IIT Bombay – Sensing; IIT Delhi – Materials (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3cd18eff077a",
+  "row": 71,
+  "s": "Match the qubit types with their basis:\nList-I (Qubit type)\na. Superconducting qubit\nb. Trapped-ion qubit\nc. Quantum-dot qubit\nd. Photonic qubit\nList-II (Basis)\ni. Photons\nii. Josephson junctions (as in Google Willow)\niii. Semiconductors\niv. Charged atoms held in electromagnetic fields\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 1,
+  "x": "Correct pairing: Superconducting qubit – Josephson junctions (as in Google Willow); Trapped-ion qubit – Charged atoms held in electromagnetic fields; Quantum-dot qubit – Semiconductors; Photonic qubit – Photons (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6f54a0bda420",
+  "row": 71,
+  "s": "Consider the following statements about quantum technology:\n1. A qubit can be 0, 1 or both at once (superposition); entanglement and interference are also used.\n2. In Quantum Error Correction, many logical qubits are combined to form one physical qubit.\n3. Quantum Key Distribution uses photons, the observer effect and the no-cloning rule.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 2 is incorrect: it is the reverse – many physical qubits are combined to form one logical qubit. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf607ece15709",
+  "row": 71,
+  "s": "Consider the following:\nAssertion (A): The Digital Rupee is a liability of the Reserve Bank of India.\nReason (R): Money held in UPI-linked accounts is a deposit liability of banks, not of the RBI.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true as per the notes: the Digital Rupee is an RBI liability, while UPI money is a bank deposit liability (not RBI). R only describes UPI money; it does not explain why the Digital Rupee is an RBI liability.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3be82ef3224d",
+  "row": 71,
+  "s": "Consider the following statements about semiconductors and electronics:\n1. Semicon 2.0 has an outlay of ₹1,27,500 crore and six pillars, including ATMP/OSAT.\n2. Micron's ATMP unit at Sanand, Gujarat, has begun commercial production.\n3. NIDAR 2.0 was launched by MeitY with ISRO, using drones with the VEGA processor.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is incorrect: NIDAR 2.0 is by MeitY with the Drone Federation of India (July 2026), not ISRO; VEGA is the indigenous RISC-V processor. Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpca49cd75b517",
+  "row": 71,
+  "s": "Consider the following statements about recent technology and industrial policy announcements:\n1. IBM aims at a fault-tolerant quantum computer by 2035.\n2. The Mobile Phone Manufacturing Scheme (MPMP-S) gives an extra 1.5% incentive for Indian-made key components.\n3. NIPU-2026, the urea investment policy, offers gas-based plants a fixed return on equity of 12–16%.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is incorrect: IBM's target is 2029. Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp53c34ab2f748",
+  "row": 71,
+  "s": "Consider the following statements about Digital India:\n1. Digital India was launched in 2014 and completed 12 years on 1 July 2026.\n2. BharatNet has reached about 97% of the targeted Gram Panchayats (2.15 of 2.22 lakh).\n3. Aadhaar-based authentication now covers 100% of PDS transactions.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 1 is incorrect: Digital India was launched in 2015 and completed 11 years on 1 July 2026. Statement 3 is incorrect: PDS authentication is 98%+, not 100%. Statement 2 is correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4f95f121cc23",
+  "row": 71,
+  "s": "Match List-I with List-II:\nList-I (Platform / initiative)\na. MeghRaj\nb. DIKSHA\nc. Global DPI Repository\nd. EseeCloud\nList-II (Feature)\ni. Launched during India's G20 Presidency (2023)\nii. Government cloud (342 → 2,323 departments)\niii. Chinese platform used to compromise Indian CCTV networks\niv. Built on Sunbird\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "Correct pairing: MeghRaj – Government cloud (342 → 2,323 departments); DIKSHA – Built on Sunbird; Global DPI Repository – Launched during India's G20 Presidency (2023); EseeCloud – Chinese platform used to compromise Indian CCTV networks (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpcab4d06e7941",
+  "row": 71,
+  "s": "Consider the following statements about science and innovation indicators:\n1. India ranked 38th in the Global Innovation Index 2025, up from 81st in 2015.\n2. India's R&D spending is about 0.74% of GDP, against a world average of about 2.07%.\n3. The Physics Nobel 2025 went to John Clarke, Michel H. Devoret and John M. Martinis for macroscopic quantum tunnelling.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 2,
+  "x": "All the statements are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc942def918de",
+  "row": 71,
+  "s": "Match the ISRO missions with their key facts:\nList-I (Mission)\na. Chandrayaan-1 (2008)\nb. Aditya-L1\nc. AstroSat\nd. XPoSat\nList-II (Key fact)\ni. Evidence of water/hydroxyl on the Moon\nii. India's first multi-wavelength space observatory\niii. X-ray astronomy\niv. Halo orbit around L1, ~1.5 million km away\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 1,
+  "x": "Correct pairing: Chandrayaan-1 (2008) – Evidence of water/hydroxyl on the Moon; Aditya-L1 – Halo orbit around L1, ~1.5 million km away; AstroSat – India's first multi-wavelength space observatory; XPoSat – X-ray astronomy (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3ef6269692f7",
+  "row": 71,
+  "s": "Consider the following statements about India's space missions:\n1. Chandrayaan-3 (23 August 2023) made India the first country to land near the lunar south pole and the fourth to soft-land on the Moon.\n2. Mangalyaan entered Mars orbit on 24 September 2013.\n3. Aryabhata, India's first satellite, was launched in 1975 with US help.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is incorrect: Mangalyaan was launched on 5 November 2013 and entered Mars orbit on 24 September 2014. Statement 3 is incorrect: Aryabhata (19 April 1975) was launched with Soviet help. Statement 1 is correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd173b650c5e8",
+  "row": 71,
+  "s": "Consider the following statements about Indian satellites:\n1. Bhutan and the Maldives were partners of the South Asia Satellite (GSAT-9), but Pakistan was not.\n2. NavIC covers India and about 1,500 km beyond; it was built after India was denied precise GPS during the 1999 Kargil conflict.\n3. XPoSat, launched on 1 January 2024, is dedicated to infrared astronomy.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is incorrect: XPoSat is dedicated to X-ray astronomy. Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp839103b74618",
+  "row": 71,
+  "s": "Consider the following statements about Indian space technology and astronauts:\n1. ISRO's RLV-TD has made five autonomous runway landings.\n2. VIKRAM3201 is India's first fully indigenous 32-bit space microprocessor.\n3. Group Captain Shubhanshu Shukla went to the ISS on the Axiom-4 mission (2025).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is incorrect: RLV-TD has made three autonomous runway landings. Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2a3c19301489",
+  "row": 71,
+  "s": "Match the future ISRO missions with their details:\nList-I (Mission)\na. Gaganyaan\nb. Bharatiya Antariksh Station\nc. Chandrayaan-4\nd. Venus Orbiter Mission\nList-II (Detail)\ni. 5 modules; BAS-01 by 2028\nii. 3 astronauts, 400 km orbit, 3 days\niii. March 2028; aerobraking\niv. Lunar sample return, 2027\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-ii, c-iii, d-i",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 3,
+  "x": "Correct pairing: Gaganyaan – 3 astronauts, 400 km orbit, 3 days; Bharatiya Antariksh Station – 5 modules; BAS-01 by 2028; Chandrayaan-4 – Lunar sample return, 2027; Venus Orbiter Mission – March 2028; aerobraking (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp686c5634c12b",
+  "row": 71,
+  "s": "Consider the following statements about ISRO's partnerships and Space Vision 2047:\n1. In TRISHNA, the thermal infrared (TIR) instrument is provided by France's CNES.\n2. Chandrayaan-5/LUPEX is a joint mission with the European Space Agency.\n3. Space Vision 2047 aims at the Bharatiya Antariksh Station by 2035 and an Indian crewed lunar mission by 2040.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is incorrect: LUPEX (Chandrayaan-5) is with JAXA (Japan). Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp97ffc601617a",
+  "row": 71,
+  "s": "Consider the following:\nAssertion (A): A crew module such as Gaganyaan's is heated intensely during re-entry into the atmosphere.\nReason (R): Re-entry heat comes mainly from friction between the capsule and the air.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: the notes state that re-entry heat comes mainly from compression of the air in front of the capsule, not from friction.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4c12688479d7",
+  "row": 71,
+  "s": "Consider the following statements about Gaganyaan tests and ISRO engines:\n1. IMAT-05 at the ADRDE drop zone, Sheopur (Madhya Pradesh) tested the parachute for G1, the first crewed Gaganyaan mission.\n2. The CE20 cryogenic engine of LVM3 uses liquid hydrogen and liquid oxygen and was hot-tested at IPRC Mahendragiri.\n3. The ISRO–DAE thermal system aims to extend a lunar lander's life from 14 days to about 200 days.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is incorrect: G1 is the first uncrewed mission. Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp20ff81de03b5",
+  "row": 71,
+  "s": "Consider the following statements about India's launch infrastructure:\n1. The third launch pad at Sriharikota was approved in January 2025 at a cost of ₹3,984.86 crore.\n2. Kulasekarapattinam (Thoothukudi) will be India's second spaceport, mainly for GSLV heavy launches.\n3. PSLV technology is being transferred to private Indian firms through NSIL alone, without IN-SPACe.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is incorrect: Kulasekarapattinam is meant for SSLV and private launches. Statement 3 is incorrect: PSLV technology transfer to eligible private firms is via IN-SPACe. Statement 1 is correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp921231bed261",
+  "row": 71,
+  "s": "Consider the following statements about Vikram-1:\n1. It was launched on 18 July 2026 from SDSC Sriharikota under Mission Aagaman.\n2. With it, India became the third country with private orbital launch capability, after the USA and Russia.\n3. It can carry a payload of up to 350 kg to LEO (~450 km).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is incorrect: India is third after the USA and China. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfb0ecc9739c7",
+  "row": 71,
+  "s": "Match the Vikram-1 features with their descriptions:\nList-I (Feature)\na. RAMAN-I\nb. DCUBED\nc. PowerBank-50\nd. Cosmoserve Embrace\nList-II (Description)\ni. 3D-printed liquid upper-stage engine\nii. German technology-demonstration payload\niii. Debris-capture arm payload\niv. TakeMe2Space satellite battery with 'Flight Heritage'\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iii, c-i, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iii, b-ii, c-i, d-iv"
+  ],
+  "a": 1,
+  "x": "Correct pairing: RAMAN-I – 3D-printed liquid upper-stage engine; DCUBED – German technology-demonstration payload; PowerBank-50 – TakeMe2Space satellite battery with 'Flight Heritage'; Cosmoserve Embrace – Debris-capture arm payload (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7bc82ed9bb2e",
+  "row": 71,
+  "s": "Consider the following statements about Skyroot's rockets and LEO:\n1. Vikram-S (18 November 2022, Mission Prarambh) was an orbital rocket.\n2. Low Earth Orbit lies at 160–2,000 km, with an orbital period of 90–120 minutes.\n3. Vikram-1 used a Pneumatic Separation System.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is incorrect: Vikram-S was sub-orbital; Vikram-1 is the orbital one. Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp569bd76dc8bc",
+  "row": 71,
+  "s": "Consider the following statements about private space firsts of 2026:\n1. Astrobase's 'Everest' is an 80-tonne-class full-flow staged combustion engine burning liquid oxygen and liquid hydrogen.\n2. Allied Orbits, India's first fully commercial Earth-observation constellation, is led by PixxelSpace.\n3. Mission ShaktiSat is the world's first girl-led international mission to Mars.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is incorrect: Everest is a methalox engine – LOX + liquid methane. Statement 3 is incorrect: ShaktiSat is a girl-led international lunar mission. Statement 2 is correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1bed52da3718",
+  "row": 71,
+  "s": "Consider the following statements about the space sector:\n1. Asteroid 1999 XP169 was named by the IAU after Dr Bhiravarusu Sriram Sharan, an AP-born ISRO scientist.\n2. Under the February 2024 FDI norms, satellite manufacturing allows 74% and launch vehicles 49% FDI through the automatic route.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 2,
+  "x": "All the statements are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp55b1ba9ee8f7",
+  "row": 71,
+  "s": "Consider the following statements about lunar exploration partnerships:\n1. The 9th India–US Civil Space Joint Working Group (5–6 August 2026) met in New Delhi.\n2. India signed the Artemis Accords on 21 June 2023 as the 27th country.\n3. The International Lunar Research Station (ILRS) is led by Roscosmos and CNSA.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is incorrect: it met in Bengaluru. Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf94b7ec845b1",
+  "row": 71,
+  "s": "Match List-I with List-II:\nList-I (Mission / project)\na. Nancy Grace Roman Space Telescope\nb. Gande Constellation\nc. SOLAR-1\nd. eROSITA DR2\nList-II (Description)\ni. NOAA's first dedicated space-weather satellite\nii. NASA; launched to Sun–Earth L2 (30 Aug 2026)\niii. China's commercial debris-monitoring satellite network\niv. ~2 million X-ray sources\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 3,
+  "x": "Correct pairing: Nancy Grace Roman Space Telescope – NASA; launched to Sun–Earth L2 (30 Aug 2026); Gande Constellation – China's commercial debris-monitoring satellite network; SOLAR-1 – NOAA's first dedicated space-weather satellite; eROSITA DR2 – ~2 million X-ray sources (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp02c47c2b7ec8",
+  "row": 71,
+  "s": "Consider the following statements about space science news of 2026:\n1. China grew its first rice crop in space aboard the Tiangong space station.\n2. Beta Pictoris d, about 63 light-years away, was found by the James Webb Space Telescope.\n3. On WASP-94A b, rocky mineral clouds form in the evening and vanish by morning.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is incorrect: the clouds form in the morning and vanish by evening. Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp94d5f9bb9569",
+  "row": 71,
+  "s": "Consider the following statements about international science:\n1. CERN, at Geneva, is upgrading the LHC to the High-Luminosity LHC.\n2. Indian-origin NASA astronaut Anil Menon reached the ISS aboard Soyuz MS-29.\n3. The James Webb Space Telescope is a joint mission of NASA, ESA and JAXA.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 3 is incorrect: JWST is NASA + ESA + CSA (Canada). Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa07503634788",
+  "row": 71,
+  "s": "Match the drugs with their descriptions:\nList-I (Drug)\na. Vepdegestrant\nb. Lipefendra\nc. Zaynich\nd. Lapatinib\nList-II (Description)\ni. First oral PCSK9 inhibitor (LDL cholesterol)\nii. Wockhardt antibiotic for complicated UTIs\niii. Kinase inhibitor found active against pox viruses\niv. World's first PROTAC drug (advanced breast cancer)\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 0,
+  "x": "Correct pairing: Vepdegestrant – World's first PROTAC drug (advanced breast cancer); Lipefendra – First oral PCSK9 inhibitor (LDL cholesterol); Zaynich – Wockhardt antibiotic for complicated UTIs; Lapatinib – Kinase inhibitor found active against pox viruses (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9a1e0c977f5a",
+  "row": 71,
+  "s": "Consider the following statements about drugs and biotech tools in the news:\n1. Qdenga (TAK-003) of Takeda, approved by the DCGI in July 2026, covers all four dengue serotypes for ages 4–60.\n2. A CSIR-IICT AI screen identified Lapatinib as a kinase inhibitor against pox viruses.\n3. PASTA, from the Karolinska Institutet, estimates the biological age of tissues.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is incorrect: PASTA estimates the biological age of cells, not tissues. Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa8ecd7b64e92",
+  "row": 71,
+  "s": "Consider the following statements about Nipah in Kerala:\n1. The June 2026 case was a 43-year-old in Kozhikode.\n2. Kerala's first Nipah outbreak occurred in 2019.\n3. A One Health Centre for Nipah was set up at Kozhikode in 2023.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is incorrect: Kerala's first outbreak was in 2018 (23 cases, CFR 91%); 2019 was a later one. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2d1d1169ebd9",
+  "row": 71,
+  "s": "Consider the following:\nAssertion (A): Nipah is not a WHO priority pathogen.\nReason (R): The reservoir of the Nipah virus is the Indian flying fox bat (Pteropus medius).\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the notes stress that Nipah IS a WHO priority pathogen. R is true: the reservoir is the Indian flying fox bat, Pteropus medius.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpf18500668624",
+  "row": 71,
+  "s": "Consider the following statements about blood groups:\n1. O-negative is the universal donor.\n2. AB-positive is the universal recipient, as it has no anti-A or anti-B antibodies.\n3. Karl Landsteiner, who discovered the ABO groups, received the Nobel Prize in 1910.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "3 only",
+   "1 and 3 only",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is incorrect: Landsteiner's Nobel was in 1930. Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc63b45d88bbd",
+  "row": 71,
+  "s": "Consider the following statements about AI-led generative biology:\n1. In the Stanford–Arc Institute work, 285 AI-designed ΦX174-like phage genomes were tested in E. coli and 16 were functional.\n2. In this work the AI both designed and physically built the genomes, without human testing.\n3. Functional DNA screening checks what a sequence does; genome reading dates to the 1970s.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is incorrect: AI only proposed the designs; humans built and tested them. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp12c9c111ce8e",
+  "row": 71,
+  "s": "Match the developments with the institutions/persons behind them:\nList-I (Development)\na. ICGV 181030, India's first high-oleic groundnut\nb. Blue Swimmer Crab farming technology\nc. Low-cost Zinc-Air battery\nd. Diabetic foot ulcer drug from Gurmar\nList-II (Developed by)\ni. ICRISAT\nii. Dr S. Devaraj, SASTRA\niii. CSIR-IICT Hyderabad\niv. ICAR-CIBA, Chennai\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 1,
+  "x": "Correct pairing: ICGV 181030, India's first high-oleic groundnut – ICRISAT; Blue Swimmer Crab farming technology – ICAR-CIBA, Chennai; Low-cost Zinc-Air battery – Dr S. Devaraj, SASTRA; Diabetic foot ulcer drug from Gurmar – CSIR-IICT Hyderabad (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp07eb683ec64f",
+  "row": 71,
+  "s": "Match the institutes with their developments:\nList-I (Institute)\na. IIT Delhi\nb. IIT Hyderabad\nc. IIT Bombay\nd. IIT Kanpur\nList-II (Development)\ni. CODENE – Centre of Design Engineering for Nuclear Energy\nii. Green Hydrogen CoE via UPNEDA\niii. PARAM Pragya AI supercomputer, Sonipat\niv. Platinum-free green hydrogen catalyst (cobalt, nickel, phosphate, graphite)\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Correct pairing: IIT Delhi – PARAM Pragya AI supercomputer, Sonipat; IIT Hyderabad – CODENE – Centre of Design Engineering for Nuclear Energy; IIT Bombay – Platinum-free green hydrogen catalyst (cobalt, nickel, phosphate, graphite); IIT Kanpur – Green Hydrogen CoE via UPNEDA (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpeaead563f2eb",
+  "row": 71,
+  "s": "Consider the following statements about IIT research in 2026:\n1. IIT Madras's Alloy Tatvasar used large language models to mine 10,000+ papers.\n2. ANCHOR, the world's most detailed 3D brainstem atlas, came from the Sudha Gopalakrishnan Brain Centre, IIT Madras.\n3. The ₹500-crore National Military Drone Technology Centre is to come up at IIT Delhi.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is incorrect: it is at IIT Kanpur. Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa8d90ba6a4fb",
+  "row": 71,
+  "s": "Match List-I with List-II:\nList-I (Institution / firm)\na. Lohia Aerospace + Massivit (Israel)\nb. CSIR–NBRI\nc. V.O. Chidambaranar Port\nd. IIT Bhubaneswar + Nano Semic\nList-II (Development)\ni. Large-format 3D printing\nii. Prakriti Gyan Dham, Banthra, Lucknow\niii. First Indian port with ISO 50001:2018\niv. ArsenSafe arsenic test\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 0,
+  "x": "Correct pairing: Lohia Aerospace + Massivit (Israel) – Large-format 3D printing; CSIR–NBRI – Prakriti Gyan Dham, Banthra, Lucknow; V.O. Chidambaranar Port – First Indian port with ISO 50001:2018; IIT Bhubaneswar + Nano Semic – ArsenSafe arsenic test (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp098197a55d7b",
+  "row": 71,
+  "s": "Consider the following statements about MoUs and partnerships of 2026:\n1. NIIMH Hyderabad and SEMIRI, Kottayam, will digitise rare medical manuscripts.\n2. SkyHop and Noemi (Norway) plan electric seaplanes, with first links to the Andaman and Nicobar Islands.\n3. UNDP India and HUL's Project Circular Bharat aims to cover 50 cities/ULBs by 2028.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 2 is incorrect: the first links are to Lakshadweep. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9aa4b5f0ee31",
+  "row": 71,
+  "s": "Match the partnerships with their purpose:\nList-I (Parties)\na. BSNL + IIT Kanpur\nb. C-DOT + IIT Hyderabad\nc. IIT Bombay + SUNY Old Westbury\nd. DIBD (BHASHINI) + NITI Aayog\nList-II (Purpose)\ni. Engineering and AI (LoI, New York)\nii. CoE for wireless, quantum, cybersecurity and AI\niii. Direct-to-Mobile (D2M), indigenous 4G, spectrum\niv. 'BHASHINI for Seva/Sanchalan'\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-i, d-iv"
+  ],
+  "a": 3,
+  "x": "Correct pairing: BSNL + IIT Kanpur – Direct-to-Mobile (D2M), indigenous 4G, spectrum; C-DOT + IIT Hyderabad – CoE for wireless, quantum, cybersecurity and AI; IIT Bombay + SUNY Old Westbury – Engineering and AI (LoI, New York); DIBD (BHASHINI) + NITI Aayog – 'BHASHINI for Seva/Sanchalan' (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpef479c93e9f9",
+  "row": 71,
+  "s": "Consider the following statements:\n1. The CISF was established on 10 March 1968, under the CISF Act, 1969.\n2. The CISF–Drone Federation India MoU was signed at CISF HQ, New Delhi.\n3. At the 56th IPhO (Bucaramanga, Colombia), India won five gold medals; HBCSE, Mumbai was the nodal agency.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 only",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is incorrect: CISF was established on 10 March 1969 under the CISF Act, 1968. Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf420b1113f9a",
+  "row": 71,
+  "s": "Consider the following statements about India and artificial intelligence:\n1. The IndiaAI Mission (2024, ₹10,371.92 crore) is under the Department of Science and Technology.\n2. The Declaration of the AI Impact Summit, New Delhi (February 2026), was adopted by 92 countries/organisations.\n3. Prof B. Ravindran of IIT Madras is the only Indian on the 40-member UN Independent International Scientific Panel on AI.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is incorrect: IndiaAI is under MeitY (NQM is the DST mission). Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp22949bb8df25",
+  "row": 71,
+  "s": "Consider the following statements about AI and cyber initiatives:\n1. The Gnani Artha sovereign AI stack was launched by the Prime Minister.\n2. A Google-linked 1 GW AI data-centre hub is coming up at Visakhapatnam–Anakapalli.\n3. Cyber Kushti 2026 was launched by NIELIT (MeitY) on 15 August 2026, with CERT-In as knowledge partner.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is incorrect: it was launched by Vice-President C.P. Radhakrishnan (28 Aug 2026). Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd5d322fd799a",
+  "row": 71,
+  "s": "Match the systems with their descriptions:\nList-I (System)\na. RudraM-II\nb. Astra Mk 1\nc. TARA\nd. LRLACM\nList-II (Description)\ni. Subsonic cruise missile with the Manik engine\nii. Anti-radiation air-to-surface missile, ~Mach 5.5\niii. BVRAAM – first export, to Indonesia\niv. Glide weapon\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 2,
+  "x": "Correct pairing: RudraM-II – Anti-radiation air-to-surface missile, ~Mach 5.5; Astra Mk 1 – BVRAAM – first export, to Indonesia; TARA – Glide weapon; LRLACM – Subsonic cruise missile with the Manik engine (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8fee9b1fdedd",
+  "row": 71,
+  "s": "Consider the following statements about missile tests of 2026:\n1. Agni-IV, a nuclear-capable IRBM of ~4,000 km, was tested from ITR Chandipur by the Strategic Forces Command.\n2. The Kusha LR-SAM, first tested on 23 July 2026, is to have interceptors of 150, 250 and 400 km.\n3. The Pinaka LRGR tested in July 2026 was developed by DRDL and RCI.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is incorrect: Pinaka LRGR is by ARDE and HEMRL. Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6ff0bef8eeb2",
+  "row": 71,
+  "s": "Consider the following statements about DRDO in 2026:\n1. The LRLACM is a supersonic cruise missile with a range of 1,000+ km.\n2. Defence Minister Rajnath Singh inaugurated the Advanced Weapon Systems Complex, Hyderabad, on 12 June 2026.\n3. NSTL Visakhapatnam transferred the 'Mohini' submarine-fired decoy technology to BDL.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is incorrect: LRLACM is subsonic. Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7f5cf01e336f",
+  "row": 71,
+  "s": "Match the weapons with their descriptions:\nList-I (Weapon)\na. Ugram\nb. AK-203 'Sher'\nc. Divyastra Mk-1\nd. Garudastra\nList-II (Description)\ni. Hoverit's AI loitering munition\nii. First 100% indigenised AK-203, 7.62×39 mm\niii. 120 mm vehicle-mounted mortar\niv. 7.62×51 mm assault rifle – DRDO ARDE + Dvipa Defence\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Correct pairing: Ugram – 7.62×51 mm assault rifle – DRDO ARDE + Dvipa Defence; AK-203 'Sher' – First 100% indigenised AK-203, 7.62×39 mm; Divyastra Mk-1 – Hoverit's AI loitering munition; Garudastra – 120 mm vehicle-mounted mortar (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc259b1fd87c6",
+  "row": 71,
+  "s": "Consider the following statements about defence equipment:\n1. FWD Supreme Light is India's first AI-piloted fighter programme.\n2. India's first indigenous tactical aerostat (IIT Delhi + DRDO + start-up) has a range of about 200 km.\n3. ADRDE's Military Combat Parachute System was tested at the Nyoma–Mudh Drop Zone, Ladakh.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is incorrect: its range is ~20 km. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1c3031374de1",
+  "row": 71,
+  "s": "Consider the following statements:\n1. TRL-5 means a technology validated in a relevant environment, on a scale of 1–9.\n2. The Baaz Battalions are drone units for ISR under the Army Air Defence Corps.\n3. The Adani missile complex, South Asia's largest private missile facility, is at Shivpuri, Madhya Pradesh.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 2 is incorrect: they are under the Army Aviation Corps. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp414ccf71815e",
+  "row": 71,
+  "s": "Consider the following:\nAssertion (A): The Army, with oil companies, has introduced Extreme Weather Grade Diesel.\nReason (R): BS-VI emission norms have applied nationwide since 1 April 2020.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true as per the notes: Extreme Weather Grade Diesel was developed by the Army with oil companies, and BS-VI norms apply nationwide from 1 April 2020. The BS-VI date does not explain why a cold-weather diesel was introduced.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3881502144e2",
+  "row": 71,
+  "s": "Match the ships with their descriptions:\nList-I (Ship)\na. Mahendragiri (F38)\nb. INS Malvan\nc. Sanshodhak\nd. Shruti\nList-II (Description)\ni. Second Next-Generation OPV (GRSE)\nii. Sixth Project 17A stealth frigate delivered (11 July 2026)\niii. Fourth large survey vessel\niv. Second Mahe-class ASW Shallow Water Craft\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "Correct pairing: Mahendragiri (F38) – Sixth Project 17A stealth frigate delivered (11 July 2026); INS Malvan – Second Mahe-class ASW Shallow Water Craft; Sanshodhak – Fourth large survey vessel; Shruti – Second Next-Generation OPV (GRSE) (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp46431479ff76",
+  "row": 71,
+  "s": "Consider the following statements about naval vessels of 2026:\n1. Shruti, the second NGOPV, was launched by GRSE, Kolkata, on 11 August 2026.\n2. The ASW SWC 'Machilipatnam', launched by Cochin Shipyard, is named after a port town of Tamil Nadu.\n3. Samarthak, the first of the Navy's Multi-Purpose Vessel series, is built by L&T.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is incorrect: Machilipatnam is a port town of Andhra Pradesh. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd86ff1a7a072",
+  "row": 71,
+  "s": "Consider the following statements about Coast Guard and naval aviation:\n1. ICGS Akshay, a Fast Patrol Vessel, was commissioned at Goa Shipyard on 27 June 2026.\n2. H-561 is the Indian Coast Guard's first indigenous Air Cushion Vehicle.\n3. INAS 330 'The Harpoons', decommissioned after 55 years, flew Chetak helicopters.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "1 only",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is incorrect: INAS 330 flew the Sea King Mk 42B. Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3e028be2707e",
+  "row": 71,
+  "s": "Consider the following statements:\n1. India's first permanent shore-based LARS test plinth, at the Submarine Rescue Unit (East), Visakhapatnam, launches and recovers the Deep Submergence Rescue Vehicle.\n2. Aruna Asaf Ali, the 'Grand Old Lady' of the independence movement, hoisted the flag in the 1942 Quit India movement.\n3. Mazagon Dock Shipbuilders (MDL) was established in 1957.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 3 is incorrect: MDL was established in 1934 (1957 is GSL). Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp969e14ab3050",
+  "row": 71,
+  "s": "Consider the following statements about maritime and aviation news:\n1. The 7th ICG–Vietnam Coast Guard High-Level Meeting was held at Chennai.\n2. Samudra Pradakshina is India's first tri-service women's global circumnavigation.\n3. HAL Airport, Bengaluru, is the first in India to use a satellite-based RNP-H helicopter approach.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "1, 2 and 3",
+   "2 and 3 only"
+  ],
+  "a": 2,
+  "x": "All the statements are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2ae22972d283",
+  "row": 71,
+  "s": "Consider the following statements about India's defence sector:\n1. Defence production reached a record ₹1.78 lakh crore in 2025–26.\n2. Defence exports were ₹38,424 crore in 2025–26, about 56 times the 2013–14 level.\n3. The defence export target for 2029 is ₹1 lakh crore.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is incorrect: the 2029 export target is ₹50,000 crore (production target ₹3 lakh crore). Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp124eddc6f6cb",
+  "row": 71,
+  "s": "Consider the following statements about defence procurement:\n1. The Army has about 91% self-sufficiency in ammunition (159 of 175 variants).\n2. The Defence Acquisition Council is chaired by the Chief of Defence Staff.\n3. The Defence Procurement Manual (DPM) 2025 deals with revenue procurement, not capital procurement.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "2 and 3 only",
+   "1 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is incorrect: the DAC is chaired by the Defence Minister. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp29763aa29663",
+  "row": 71,
+  "s": "Consider the following statements:\n1. Buy (Indian–IDDM) stands for Indigenously Designed, Developed and Manufactured.\n2. ADITI (March 2024) has an outlay of ₹750 crore and gives grants of up to ₹25 crore per start-up.\n3. India signed the S-400 deal for five squadrons in October 2018; its range is about 400 km.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 2,
+  "x": "All the statements are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpadde07d9a72e",
+  "row": 71,
+  "s": "Match List-I with List-II:\nList-I (System)\na. BrahMos\nb. HELINA\nc. Netra AEW&C\nd. C295\nList-II (Fact)\ni. First foreign buyer – Philippines (2022)\nii. 'Eye in the Sky'; FOC on 25 June 2026\niii. First India-made aircraft (TASL + Airbus)\niv. IAF version named Dhruvastra\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 2,
+  "x": "Correct pairing: BrahMos – First foreign buyer – Philippines (2022); HELINA – IAF version named Dhruvastra; Netra AEW&C – 'Eye in the Sky'; FOC on 25 June 2026; C295 – First India-made aircraft (TASL + Airbus) (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp265387a5e04a",
+  "row": 71,
+  "s": "Consider the following statements about aircraft and avionics:\n1. The first India-made C295, by TASL and Airbus, flew from Nagpur.\n2. The IAF flies six Jaguar squadrons (Ambala, Gorakhpur, Jamnagar).\n3. Samtel HAL Display Systems is India's first public–private JV in defence avionics.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is incorrect: it flew from Vadodara. Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdd370351162c",
+  "row": 71,
+  "s": "Match the exercises with the partner/host:\nList-I (Exercise)\na. Udara Shakti 2026\nb. Maitree-XV\nc. LAMITIYE\nd. Khaan Quest 2026\nList-II (Partner / host)\ni. Seychelles\nii. Mongolia\niii. Thailand\niv. Malaysia\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Correct pairing: Udara Shakti 2026 – Malaysia; Maitree-XV – Thailand; LAMITIYE – Seychelles; Khaan Quest 2026 – Mongolia (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp687e8ec307a5",
+  "row": 71,
+  "s": "Consider the following statements about military exercises of 2026:\n1. The 8th IN–USN EOD Exercise was held at Chennai.\n2. RIMPAC 2026 was the 30th edition, hosted in Hawaii.\n3. At Pitch Black 2026 in Australia, the IAF used Rafale jets for the first time.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is incorrect: it was held at Kochi (not Chennai). Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf56c2f497a4f",
+  "row": 71,
+  "s": "Consider the following statements about India's exercises:\n1. India is to join the Australia–USA exercise Talisman Sabre in 2027.\n2. Varuna is the India–France exercise of the Air Force.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 2 is incorrect: Varuna is the Navy exercise; Garuda is the Air Force one and Shakti the Army one. Statement 1 is correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdaccbf88caab",
+  "row": 71,
+  "s": "Consider the following statements about India's first hydrogen train:\n1. It was flagged off at Jind on 17 July 2026 on the 89-km Jind–Sonipat route under 'Hydrogen for Heritage'.\n2. It runs on a solid oxide fuel cell with a total power of 2,400 kW.\n3. Jind hosts India's largest railway hydrogen storage and refuelling centre.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is incorrect: it uses a PEM (Proton Exchange Membrane) fuel cell. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8a510611e431",
+  "row": 71,
+  "s": "Consider the following statements about hydrogen:\n1. The world's first hydrogen passenger train was the Alstom Coradia iLint (Germany, 2018).\n2. The National Green Hydrogen Mission (January 2023, ₹19,744 crore) is implemented by the DST.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 2 is incorrect: the nodal ministry is MNRE. Statement 1 is correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp96213cbc3940",
+  "row": 71,
+  "s": "Consider the following statements about geothermal energy in India:\n1. India's first and deepest geothermal wells at Puga Valley, Ladakh were drilled by NTPC.\n2. The National Policy on Geothermal Energy, 2025 (MNRE) puts India's potential at about 10.6 GW.\n3. Yumesamdong in Sikkim is a geothermal site; dry steam, flash and binary are geothermal plant types.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is incorrect: they are by the ONGC Energy Centre, not NTPC. Statements 2, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp884e2d69a944",
+  "row": 71,
+  "s": "Consider the following:\nAssertion (A): Helium is mixed with the air in scuba-diving tanks.\nReason (R): Breathing nitrogen at depth causes nitrogen narcosis, which helium avoids.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the notes list helium in scuba tanks precisely to avoid nitrogen narcosis.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp5927fc4e6b40",
+  "row": 71,
+  "s": "Consider the following:\nAssertion (A): Helium cannot be solidified at normal pressure.\nReason (R): Helium has the highest boiling point among the noble gases.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: helium cannot solidify at normal pressure (needs ~25 atm at ~1 K). R is false: helium boils at about –269°C, the lowest, not the highest.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp00b1933c238b",
+  "row": 71,
+  "s": "Consider the following statements:\n1. The USA produces about 43% of the world's helium.\n2. India's EV adoption rose from 0.08% in FY16 to 8.26% in FY26.\n3. The PM E-DRIVE scheme (2024) is run by the Ministry of New and Renewable Energy.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is incorrect: PM E-DRIVE is under the Ministry of Heavy Industries (₹10,900 crore). Statements 1, 2 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb521645d0549",
+  "row": 71,
+  "s": "Consider the following statements about electric mobility:\n1. The PLI-ACC Battery scheme (2021) has an outlay of ₹18,100 crore for 50 GWh.\n2. The GST on electric vehicles is 12%.\n3. The India Electric Mobility Index (August 2025) was released by NITI Aayog.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is incorrect: GST on EVs is 5%. Statements 1, 3 are correct as per the notes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5fa597e0d111",
+  "row": 71,
+  "s": "Match the EV types with their meaning:\nList-I (EV type)\na. BEV\nb. HEV\nc. PHEV\nd. FCEV\nList-II (Meaning)\ni. Hybrid with plug-in battery\nii. Engine + motor\niii. Fuel cell, usually hydrogen\niv. Battery only\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 2,
+  "x": "Correct pairing: BEV – Battery only; HEV – Engine + motor; PHEV – Hybrid with plug-in battery; FCEV – Fuel cell, usually hydrogen (as in the notes).",
+  "src": "app",
+  "tq": "match"
+ }
+]

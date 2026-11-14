@@ -1,0 +1,101 @@
+=== Queen's Proclamation, 1 November 1858 – Allahabad, Objects, Promises
+# Basics
+| Point | Fact |
+|---|---|
+| Date | **1 November 1858** (not 10 May 1857, the Meerut outbreak) |
+| Place | **Durbar at Allahabad** (Prayagraj) – not Calcutta, Bombay or Madras |
+| Read by | **Lord Canning** – not Bentinck, Burnham or Harcourt Butler |
+| Addressed to | "**the Princes, Chiefs and Peoples of India**" |
+| Called | **"Magna Carta of the Indian people"** |
+| Effect | Announced the **assumption of the Government of India by the Crown** (transfer under the Act of 2 Aug 1858) |
+- **Objects (UPSC 2014, asked in three banks):** (1) **disclaim any intention to annex Indian States** ✔ (2) **place the Indian administration under the British Crown** ✔ (3) regulate the Company's trade ✘ – the Company had no trade left (commercial functions ended 1833) → **1 and 2 only**.
+- Pardon for those who laid down arms by **2 January 1859**, except those directly involved in murdering British subjects.
+# Promises – Kept vs Broken
+| Promise | Detail | Fate |
+|---|---|---|
+| Princes | **No further annexation**; rights, dignity and honour respected; Company treaties honoured; **right to adopt an heir respected** | **Kept** – the assurance actually fulfilled (UPPCS 1994) |
+| Religion | No interference in religion and social customs; no forced conversions | Kept in policy (non-interference) |
+| Public service | Office open to all by merit, irrespective of race or creed | **Broken** – ICS stayed European |
+| Laws, property | Due regard to ancient rights, usages and customs | Partly |
+- **Right to adopt re-established = Queen's announcement of 1858** (UPPCS 2004, twice) – not the GoI Act 1858 and not a "Charter of 1860"; Canning then issued adoption *sanads* to the princes.
+- Equal employment was the promise broken: SoS **Kimberley** – an adequate number of civil servants "**shall always be Europeans**"; **1858–1885 = "Era of Broken Promises"**.
+- **Madras Native Association (1852)**, founded by **Gazula Lakshmi Narasu Chetty**, was the first to petition against the non-implementation of the Proclamation.
+> Allahabad 1858 = Proclamation read by Canning; Delhi 1877 = Empress of India proclaimed under Lytton.
+~~ Sources: Spectrum Modern India p.182-183 (file p.214-215), p.539 (file p.571); PMF Modern History Part 3 p.383-384 (file p.203-206, UPSC 2014 PYQ with answer a); Rocket Indian History Part 2 p.91; NextGen modern level 2 part 2 p.3; old app notes row 186
+
+=== Lord Canning – Governor-General in 1857 and First Viceroy
+# Canning (1856-62)
+- **Governor-General during the Revolt of 1857 = Lord Canning** (asked 8 times: UPSC 2006, IAS 2006, UPRO 2013, UKPSC 2016, WBCS 2017, State PSCs) – not Dalhousie (left 1856), Hardinge, Lytton, Minto, Bentinck, Hastings, Amherst, Auckland.
+- **First Viceroy of India = Canning** (1858) – the GoI Act 1858 gave the Governor-General the added title "Viceroy"; Clive, Cornwallis and Ripon are wrong options. Canning was the last GG of the Company and the first Viceroy of the Crown.
+- Made **Allahabad** the **emergency headquarters** of the government in 1857-58 and read the Proclamation there.
+- **White Mutiny (1859-60) under Canning:** the Company's **European troops** resented transfer to the Crown without a new bounty; their **batta** was stopped; Canning's legalistic reading of the transfer angered them; most took a free discharge and passage home.
+- Other Canning measures: **portfolio system (1859)**, Indian Councils Act 1861, Indian High Courts Act 1861 (High Courts at Calcutta, Bombay, Madras), Hindu Widow Remarriage Act 1856, withdrawal of the Doctrine of Lapse; called loyal princes "**breakwaters to the storm**".
+| Title | First holder | Created by |
+|---|---|---|
+| Governor-General of Bengal | Warren Hastings | Regulating Act 1773 |
+| Governor-General of India | **William Bentinck** | **Charter Act 1833** |
+| Viceroy and Governor-General | **Canning** | GoI Act 1858 |
+| Secretary of State for India | **Lord Stanley** | GoI Act 1858 |
+~~ Sources: Spectrum Modern India p.182-184 (file p.214-216, White Mutiny box); PMF Modern History Part 3 p.384 (file p.205); Rocket Indian History Part 2 p.90, p.96; old app notes row 186
+
+=== Government of India Act, 1858 – Transfer to the Crown
+# Core change
+- Passed **2 August 1858** – "**Act for the Better Government of India**" (also called Act for the Good Government of India); introduced by Lord Stanley.
+- **Transferred the government of India from the East India Company to the British Crown** (UPPCS 2007) – not the Charter Acts of 1833/1853 or the Indian Councils Act 1861; Queen Victoria declared sovereign of British India. **Year of transfer = 1858**, not 1857, 1859 or 1947.
+- The Revolt "**gave a death blow to the system of East India Company rule**" (UPPCS Mains 2010) – the true statement; British writers called it a "mutiny", not Indian historians.
+| Aftermath | Date |
+|---|---|
+| British recaptured Delhi | **20-21 Sept 1857** |
+| Rani Lakshmibai died | 18 June 1858 |
+| GoI Act passed | 2 Aug 1858 |
+| Queen's Proclamation | 1 Nov 1858 |
+| Peel Commission | 1859 |
+| East India Company dissolved | **1874** |
+- Board of Control and Court of Directors abolished → **Secretary of State for India** (cabinet minister, responsible to Parliament) with **supreme control over the Government of India** (CDS 2008) + **Council of India of 15 members** (London; abolished by the 1935 Act).
+- After 1870 (Suez Canal 1869, Red Sea cable 1870) the SoS became the **de facto ruler**; the Viceroy was responsible to him.
+| Act | Year | What it did |
+|---|---|---|
+| Pitt's India Act | 1784 | Dual control – Company stayed |
+| Charter Act | 1833 | GG of India (Bentinck); Company purely administrative |
+| Charter Act | 1853 | Company stayed, no fixed term |
+| **GoI Act** | **1858** | **Company rule ended; Crown rule via SoS and Viceroy** |
+| Indian Councils Act | 1861 | After the transfer |
+# British India and the princely states
+- After 1858 India had **two kinds of territory: British India** (provinces, ruled directly through governors and the Viceroy) and **Princely States** (ruled by Indian princes under **British paramountcy**). The reverse statement ("provinces under local kings, states under British rule") is **incorrect** (AP FBO 2019).
+- Same office-holder: **Viceroy** for the princely states, **Governor-General** for British India.
+# Ends and Andhra angle
+- **Bahadur Shah II** – proclaimed **Shahenshah-e-Hindustan** by rebels; exiled to **Rangoon**, died **1862**. East India Company (charter **31 Dec 1600**) lost rule 1858, **dissolved 1874**.
+- **Coastal Andhra and Rayalaseema** stayed in the **Madras Presidency** under the Crown; **Telangana** stayed with the **Nizam** under British suzerainty.
+~~ Sources: Spectrum Modern India p.182 (file p.214); PMF Modern History Part 3 p.383-384 (file p.203-205); NextGen modern level 2 part 2 p.3; old app notes row 186
+
+=== Empress of India (1876-77) and the Delhi Durbars
+- **Royal Titles Act, 1876** (Disraeli; Viceroy **Lytton**): Queen Victoria **assumed the title "Empress of India" (Kaiser-i-Hind) in 1876**.
+- It was **proclaimed in India at the Delhi Durbar (Imperial Assemblage), 1 January 1877** – so exam keys give **1877** for "appointed/proclaimed Empress", **1876** for "under the Royal Titles Act".
+- **Delhi Durbars** = coronation ceremonies held **to mark the succession of an Emperor/Empress** of India – **1877, 1903, 1911** (not to listen to petitions or declare laws).
+> 1876 Act / title → 1 Jan 1877 Delhi proclamation (Lytton) → Durbars 1903 (Edward VII, Curzon), 1911 (George V, Hardinge).
+~~ Sources: PMF Modern History Part 4 p.63 (Delhi Durbar 1877), p.11; Spectrum Modern India p.539 (file p.571); NextGen Indian History - APPSC Exams 06 (Lytton: Royal Title Act 1876, Delhi Durbar 1877); old app notes row 186
+
+=== Army Reorganisation and Divide and Rule
+# Peel Commission (1859)
+| Measure | Detail |
+|---|---|
+| European : Indian ratio | **1:2 in the Bengal Army**; **2:5 in the Madras and Bombay armies** |
+| Artillery | **Exclusively European**; key posts and officers European |
+| "Division and counterpoise" | Regiments **mixed by caste, community and region** to balance each other |
+| Recruitment | From the "**martial races**" – **Gurkhas, Sikhs, Punjabis, Pathans** (Punjab, Nepal, NWFP) who had stayed loyal – **not** from Awadh, Bihar, Central India, Bengal or the South (BPSC 2008) |
+- **Army Amalgamation Scheme 1861** moved the Company's European troops to the Crown. **Eden Commission (1879)** → single **Indian Army (1895)** with **four commands**.
+# Other policy shifts
+| Factor | Effect |
+|---|---|
+| Divide and rule | Muslims first blamed and targeted; later cultivated against the educated Hindu middle class |
+| Landed class | Awadh taluqdars restored to proprietary rights → conservative loyalists |
+| Non-interference | Reforming zeal abandoned |
+| Racial attitude | Racial arrogance grew; English-educated "Babus" distrusted |
+~~ Sources: PMF Modern History Part 4 p.5-6; PMF Modern History Part 3 p.156; Spectrum Modern India p.183-184 (file p.215-216); old app notes row 186
+
+=== Indian Councils Act, 1861 – Portfolio System
+- **Portfolio system:** introduced by **Canning in 1859**; the **Indian Councils Act, 1861** gave it statutory recognition – it **strengthened the Viceroy's authority over his executive council by substituting the portfolio (departmental) system for corporate functioning** (IAS 2002) – not the Acts of 1858, 1892 or 1909.
+- Each of the five members was placed in charge of a department (home, revenue, military, finance, law).
+- Lesson of 1857: associate Indians with law-making – at least **half the additional members non-official**; Viceroy's **ordinances valid six months**.
+- **1862:** Canning nominated the first **three Indians** – **Raja of Benares, Maharaja of Patiala, Sir Dinkar Rao**.
+~~ Sources: PMF Modern History Part 3 p.388 (file p.209); old app notes row 186

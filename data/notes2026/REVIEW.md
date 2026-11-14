@@ -1238,3 +1238,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 417 → 89 kept + 74 new (163, 39%); new 45 statements / 21 match / 8 A–R; 1 of 284 lines lost.
 - Notes conflict: ₹500 note printing cost ~₹4 (81:0:6.0) vs ₹2.87–3.09 (80:4:13) — reconcile.
 - 81:7:2 CRR cut to 3% dated "Dec 2025": announced 6 June 2025, phased Sep–Nov 2025 — fix wording.
+
+## rewrite b1-w172 (rows 172–177)
+- own 382 → 76 kept + 73 new (149, 39%); new 41 statements / 19 match / 13 A–R; no lines lost. Removal "why" mostly script-assigned ("merged" when a new MCQ tests the same line).
+- PYQ y3823d23ed6b keys ~20 lakh deaths in 1943 Bengal famine; notes ~30 lakh. Estimates range 15 lakh (Famine Commission) to 30 lakh (Sen) — official key stays; notes should give the range.
+- PYQ y55b6d0d45e5 has no notes line in row 176 — notes gap.
