@@ -1,0 +1,851 @@
+=== NOTES 5:49 | Missiles Beyond Igmdp – Brahmos, Nirbhay, Astra, Pralay, Hypersonic Technology, Mission Shakti (asat)
+## SUB 0 | Missile Classes – Ballistic vs Cruise
+[49:0:0] # Ballistic vs Cruise
+[49:0:1] TABLE head: Feature | Ballistic missile | Cruise missile
+  [49:0:1.0] Power | Rocket-powered only in the boost phase | Air-breathing, powered throughout
+  [49:0:1.1] Path | High parabolic (free-fall) arc | Flies low, constant speed, uses aerodynamic lift
+  [49:0:1.2] Examples | Agni, Prithvi, Pralay, Shaurya | BrahMos, Nirbhay
+[49:0:2] # Classification by Speed
+[49:0:3] TABLE head: Class | Speed | Indian example
+  [49:0:3.0] Subsonic | Below Mach 1 | Nirbhay
+  [49:0:3.1] Supersonic | Mach 1–5 | BrahMos (Mach 2.8–3.0)
+  [49:0:3.2] Hypersonic | Above Mach 5 | BrahMos-II (planned), LR-AShM, HSTDV
+[49:0:4] # Terms
+[49:0:5] TABLE head: Term | Meaning
+  [49:0:5.0] HGV (Hypersonic Glide Vehicle) | Rocket-boosted, then glides at Mach 5+ and manoeuvres in the upper atmosphere; hard to intercept
+  [49:0:5.1] MIRV | One missile, several warheads, different targets; first Indian test on Agni-V in Mission Divyastra (11 March 2024)
+  [49:0:5.2] FOBS (Fractional Orbital Bombardment System) | Warhead put into a (partial) low-Earth orbit, then de-orbits over the target; can come from any direction
+  [49:0:5.3] Scramjet | Supersonic combustion, no rotating parts; uses air, does not carry its oxidiser
+  [49:0:5.4] SFDR (Solid Fuel Ducted Ramjet) | Uses atmospheric air; demonstrated from ITR Chandipur; for long-range air-to-air missiles
+[49:0:6] Mission Divyastra MIRV used **Agni-V**, not K-4 (K-4 is submarine-launched).
+## SUB 1 | Brahmos – India-russia Supersonic Cruise Missile
+[49:1:0] # Partnership and Name
+[49:1:1] - Joint venture of **India and Russia** (asked in **APPSC G2 Mains 2025**).
+[49:1:2] - **Inter-Governmental Agreement** signed in **Moscow, 1998** → created **BrahMos Aerospace**.
+[49:1:3] - Ownership: **DRDO 50.5%** + **NPO Mashinostroyeniya (NPOM), Russia 49.5%**.
+[49:1:4] - Name: **Brahmaputra** (India) + **Moskva** (Russia) rivers.
+[49:1:5] # Technical Features
+[49:1:6] TABLE head: Item | Fact
+  [49:1:6.0] First successful test | 12 June 2001, Chandipur, Odisha
+  [49:1:6.1] Speed class | Supersonic cruise, Mach 2.8–3.0 (~3,400–3,700 km/h); one of the fastest cruise missiles
+  [49:1:6.2] Propulsion | Solid booster → liquid ramjet
+  [49:1:6.3] Navigation | Inertial + satellite (GPS/GLONASS); fire-and-forget from a Transport Launch Canister
+  [49:1:6.4] Flight profile | Cruises at ~15 km; dives to ~10 m in terminal phase; low radar cross-section
+  [49:1:6.5] Range | 290 km originally → 290–400 km (extended range); raised towards ~450 km after India joined MTCR (2016)
+[49:1:7] # Variants and Launch Platforms
+[49:1:8] - Base BrahMos can be launched from all **four platforms**: land, ship, submarine and air (**Su-30MKI**).
+[49:1:9] TABLE head: Variant | Feature
+  [49:1:9.0] Ship-launched | Warships, e.g. P-17A frigates
+  [49:1:9.1] Extended range | ~400+ km
+  [49:1:9.2] BrahMos-NG | Lighter (~1.5 t vs 2.5 t), for Tejas, smaller warships, submarines; ~Mach 3.5
+  [49:1:9.3] BrahMos-II | Planned hypersonic, above Mach 5 (up to Mach 7), under development
+[49:1:10] # Test Sites and Milestones
+[49:1:11] - **January 2009** and **29 March 2009**: land-attack Block-II tests at **Pokhran** (Mobile Autonomous Launcher; 290 km).
+[49:1:12] - **21 March 2010**: fired from moving warship **INS Ranvir** off the Odisha coast (Bay of Bengal).
+[49:1:13] - **BrahMos Integration and Testing Facility, Lucknow** (UP defence corridor): inaugurated **11 May 2025**; first batch within five months.
+[49:1:14] - **First reported combat use: Operation Sindoor (May 2025).**
+[49:1:15] APPSC G2 2025: "BrahMos is developed by India and ___" = **Russia**.
+## SUB 2 | Nirbhay, Itcm and Astra
+[49:2:0] # Nirbhay and ITCM
+[49:2:1] - **Nirbhay**: DRDO's first indigenous **subsonic long-range land-attack cruise missile (LR-LACM)**.
+[49:2:2] - Range **~1,000 km**; **turbojet**; payload ~200–300 kg; conventional or **nuclear** warheads.
+[49:2:3] - Terrain-hugging at low altitude; inertial + GPS/NavIC navigation.
+[49:2:4] - Flight-tested **7 November 2017** from **ITR Chandipur**.
+[49:2:5] - **ITCM** (Indigenous Technology Cruise Missile): Nirbhay successor, **'Manik' small turbofan engine** by **GTRE**.
+[49:2:6] - Jun 2026: the family is now called **LR-LACM**.
+[49:2:7] # Astra (BVRAAM)
+[49:2:8] - India's **first indigenous Beyond Visual Range Air-to-Air Missile** (DRDO); all-weather; **active radar seeker**.
+[49:2:9] - BVR = engages beyond 20 nautical miles (37 km).
+[49:2:10] - First successfully tested **9 May 2003 (Balasore)**; ballistic flight tests at **ITR Chandipur**.
+[49:2:11] TABLE head: Variant | Facts (10 Jul 2026)
+  [49:2:11.0] Astra Mk-1 | 80–110 km, Mach 4.5, up to 20 km altitude; on Su-30MKI; planned for Tejas Mk-1A and Rafale
+  [49:2:11.1] Astra Mk-2 | ~200 km (2026), dual-pulse solid motor
+  [49:2:11.2] Astra Mk-3 'Gandiva' | Under development, SFDR engine, 350+ km
+[49:2:12] - **23 August 2023**: LCA Tejas (LSP-7) test-fired Astra off **Goa**; **12 March 2025**: fired from an LCA AF Mk1 prototype.
+## SUB 3 | Other New Indian Missiles – Type and Role
+[49:3:0] TABLE head: Missile | Type / role
+  [49:3:0.0] Rudram-I | India's first indigenous anti-radiation missile, air-to-surface, from Su-30MKI, 100–200 km; homes passively on radar signals to destroy enemy radars and communication sites (APPSC G1 2018)
+  [49:3:0.1] Pralay | Quasi-ballistic short-range SSM, 150–500 km, conventional warhead, manoeuvrable re-entry; salvo of two fired 31 Dec 2025
+  [49:3:0.2] Shaurya | Canister-launched, hypersonic, nuclear-capable SSM; by DRDO's ASL, Hyderabad; tested 12 Nov 2008; ~700 km with 1,000 kg payload (variants up to ~1,900 km); max speed Mach 7.5
+  [49:3:0.3] VL-SRSAM | Vertical-launch short-range SAM for Navy ships, derived from Astra
+  [49:3:0.4] QRSAM | Quick Reaction SAM, Army's mid-range IADWS layer against low-flying threats
+  [49:3:0.5] VSHORADS | Man-portable (MANPADS), 4th generation, by RCI; DAC-approved buy Jul 2026
+  [49:3:0.6] MPATGM | Man-portable, third-generation, fire-and-forget ATGM; procurement approved by DAC Jul 2026
+  [49:3:0.7] Prahaar | ~150 km tactical ballistic missile
+  [49:3:0.8] LRGB 'Gaurav' | 1,000 kg glide bomb, ~100 km, from Su-30MKI (Apr 2025)
+  [49:3:0.9] Pinaka LRGR-120 | 120 km guided rocket; first flight 29 Dec 2025
+  [49:3:0.10] NASM-SR | First indigenous helicopter-launched anti-ship missile, IIR seeker
+  [49:3:0.11] NASM-MR | Anti-ship missile; maiden flight 14 Jun 2026
+  [49:3:0.12] Trishul | Short-range supersonic missile, tested from Chandipur
+[49:3:1] Shaurya's striking range is **not 900 km**; its speed is not more than Mach 8.
+## SUB 4 | Hypersonic Technology – Indian Systems and Firsts
+[49:4:0] - Hypersonic = faster than **Mach 5**.
+[49:4:1] - **HSTDV** (Hypersonic Technology Demonstrator Vehicle): indigenous **scramjet**; flew above **Mach 6**; proved scramjet combustion and thermal protection above **2,000°C**; scramjet combustor run over **12 minutes (Jan 2026)**. It is not a submarine-launched missile.
+[49:4:2] - **16 November 2024**: first flight-trial of India's **first long-range hypersonic missile**.
+[49:4:3] - **LR-AShM**: hypersonic **glide anti-ship** missile for Navy coastal batteries; ~1,500 km; **peak Mach 10, average Mach 5** via **"skipping" manoeuvres**; shown at the 77th Republic Day Parade.
+[49:4:4] - AP angle: ranges along the **Andhra Pradesh coast** used for **LR-AShM validation rounds** (Jan 2026).
+## SUB 5 | Air-defence Shields – Bmd, Kusha, Sudarshan Chakra
+[49:5:0] # Ballistic Missile Defence Layers
+[49:5:1] TABLE head: BMD phase | Exo-atmospheric | Endo-atmospheric
+  [49:5:1.0] Phase-I | PAD / Pradyumna (50–80 km) | AAD / Ashwin (15–30 km)
+  [49:5:1.1] Phase-II | AD-1 (IRBM-class threats) | AD-2 (under development)
+[49:5:2] # New Shields
+[49:5:3] - **Mission Sudarshan Chakra**: multi-layered air and missile defence network; operational maturity by **2035** (Aug 2026).
+[49:5:4] - **Project Kusha**: DRDO **long-range** (not short-range) air defence; interceptors **M1/M2/M3 ≈ 150 / 250 / 350–400 km**.
+[49:5:5] - **THAAD** (USA): hit-to-kill interception of short-, medium- and intermediate-range ballistic missiles in the terminal phase; deployed in **South Korea (2017)**.
+[49:5:6] PAD = Pradyumna = exo; AAD = Ashwin = endo.
+## SUB 6 | Mission Shakti – India's Asat Test
+[49:6:0] TABLE head: Item | Fact
+  [49:6:0.0] Date | 27 March 2019
+  [49:6:0.1] Agencies | Joint DRDO + ISRO (APPSC G1 2022)
+  [49:6:0.2] Interceptor | DRDO PDV Mk-II (from the BMD programme)
+  [49:6:0.3] Target | Live satellite Microsat-R (DRDO; launched by PSLV-C44, Jan 2019)
+  [49:6:0.4] Orbit | Low Earth Orbit, ~283 km
+  [49:6:0.5] Rank | 4th ASAT nation, after USA, Russia, China
+  [49:6:0.6] Debris | Low LEO chosen so debris decays quickly
+[49:6:1] APPSC G1 2022: "Done in the upper atmosphere to ensure no debris" is **WRONG**; "destroyed a live satellite in LEO" is correct.
+## SUB 7 | Submarine-launched Missiles – K-series and Arihant Class
+[49:7:0] TABLE head: Item | Fact
+  [49:7:0.0] K-15 (Sagarika) | SLBM, ~750 km
+  [49:7:0.1] K-4 | SLBM, ~3,500 km; first submarine launch from INS Arighaat, 27 Nov 2024 (Bay of Bengal)
+  [49:7:0.2] INS Arihant | First indigenous SSBN, commissioned August 2016
+  [49:7:0.3] INS Arighaat | Second SSBN, commissioned 29 August 2024
+  [49:7:0.4] INS Aridhaman | Third SSBN, commissioned 3 April 2026 at Visakhapatnam; larger than its predecessors
+[49:7:1] - SSBNs give India the sea leg of its nuclear triad (**second-strike** capability).
+## SUB 8 | Countries – Partners, Buyers and Foreign Missiles
+[49:8:0] # Partner / Origin
+[49:8:1] TABLE head: Missile / system | Partner / origin
+  [49:8:1.0] BrahMos | Russia (JV)
+  [49:8:1.1] Barak-8 / MRSAM | Israel (DRDO + IAI); "Barak" = Lightning in Hebrew; medium-range SAM on P-17A frigates; against aircraft, helicopters, anti-ship and cruise missiles, UAVs; Army version tested 3–4 Apr 2025
+  [49:8:1.2] Barak-1 | Israel; bought for the Navy; first deployed on INS Virat
+  [49:8:1.3] Spyder | Israel; used by IAF; replaced Trishul
+  [49:8:1.4] R-73 Archer, S-400 | Russia
+[49:8:2] # Exports
+[49:8:3] TABLE head: Export | Buyer | Status
+  [49:8:3.0] BrahMos | Philippines – first export customer; $375 million deal (January 2022) for three batteries of shore-based anti-ship BrahMos | First batch delivered April 2024
+  [49:8:3.1] Astra Mk-1 | Indonesia | Deal Jul 2026 = first-ever Astra export
+  [49:8:3.2] BrahMos, Akashteer | UAE | Early-stage talks only (23 Jun 2026)
+[49:8:4] # Foreign Missiles → Country
+[49:8:5] TABLE head: Missile | Country | Note
+  [49:8:5.0] Shahab | Iran | Ballistic missile series
+  [49:8:5.1] Fattah | Iran | Claimed hypersonic (2023)
+  [49:8:5.2] Hwasong | North Korea | ICBM/IRBM series
+  [49:8:5.3] Zircon | Russia | Ship-launched hypersonic cruise
+  [49:8:5.4] Kinzhal | Russia | Air-launched hypersonic; Patriot intercepted six over Kyiv (May 2023)
+  [49:8:5.5] Abdali | Pakistan | 450 km SSM
+  [49:8:5.6] Minuteman III | USA | ICBM, land leg of the US triad
+[49:8:6] - Debate (30 Jun 2026): long-range missiles (Agni, Nirbhay LR-LACM, BrahMos) not yet fully integrated.
+## SUB 9 | Number Game and Quick Revision
+[49:9:0] TABLE head: Item | Correct Fact
+  [49:9:0.0] BrahMos shares | DRDO 50.5% : NPOM 49.5%
+  [49:9:0.1] BrahMos speed / original range | Mach 2.8–3.0 / 290 km
+  [49:9:0.2] Nirbhay range | ~1,000 km
+  [49:9:0.3] Pralay range | 150–500 km
+  [49:9:0.4] Astra Mk-1 / Mk-3 | 80–110 km / 350+ km
+  [49:9:0.5] HSTDV | Mach 6+
+  [49:9:0.6] LR-AShM | ~1,500 km, peak Mach 10
+  [49:9:0.7] Mission Shakti | 27 Mar 2019, ~283 km
+  [49:9:0.8] Project Kusha M1/M2/M3 | 150 / 250 / 350–400 km
+  [49:9:0.9] K-15 / K-4 | 750 km / 3,500 km
+[49:9:1] # FIRST / LAST / SPECIAL FACTS
+[49:9:2] - First BrahMos test: 12 June 2001; first combat use: Operation Sindoor (May 2025).
+[49:9:3] - First BrahMos buyer: Philippines; first Astra buyer: Indonesia.
+[49:9:4] - First indigenous anti-radiation missile: Rudram-I.
+[49:9:5] - First MIRV test: Mission Divyastra (Agni-V, 11 Mar 2024).
+[49:9:6] - India: 4th ASAT nation.
+## SUB 10 | Appsc Previous Year Questions
+[49:10:0] TABLE head: Examination | Question Area
+  [49:10:0.0] Group 2 Mains 2025, Paper 2 | Missile – developed by (BrahMos partner Russia)
+  [49:10:0.1] Group 2 Mains 2025, Paper 2 | Missile – developed by
+  [49:10:0.2] Group 1 Prelims 2022 | Mission Shakti – DRDO-ISRO, LEO, debris statement
+  [49:10:0.3] Group 1 Prelims 2018 | Rudram – first anti-radiation missile
+## SUB 11 | High-probability Mcq Traps
+[49:11:0] VERY IMPORTANT
+[49:11:1] - 1. BrahMos partner = **Russia**, not Israel; Barak-8, Spyder, Barak-1 = **Israel**.
+[49:11:2] - 2. **Nirbhay subsonic** (turbojet) vs **BrahMos supersonic** (ramjet) vs **BrahMos-II hypersonic**.
+[49:11:3] - 3. Mission Shakti made India the **fourth**, not third, ASAT nation.
+[49:11:4] - 4. Mission Shakti was in **low LEO (~283 km)** so debris decays; "upper atmosphere, no debris" is wrong.
+[49:11:5] - 5. **Zircon ship-launched** vs **Kinzhal air-launched** (both Russia).
+[49:11:6] - 6. **Shahab and Fattah = Iran**; Hwasong = North Korea.
+[49:11:7] - 7. **MIRV** first on **Agni-V** (Mission Divyastra), not K-4.
+[49:11:8] - 8. **Pralay = quasi-ballistic**, not cruise; **Shaurya** is canister-launched hypersonic.
+[49:11:9] - 9. **Project Kusha** is long-range, not short-range.
+[49:11:10] - 10. UAE BrahMos deal is only **talks**; Philippines is the only delivered BrahMos buyer.
+
+=== OWN MCQs of 5:49 (68)
+[ndfde582b6f3] sub0
+  Which type of missile stays powered throughout its flight and uses aerodynamic lift at relatively low altitude?
+  Sounding rocket | Ballistic missile | Hypersonic glide vehicle | *Cruise missile
+  x: A cruise missile is powered throughout; a ballistic missile is powered mainly in boost phase and then follows a high parabolic arc.
+[n01a27baf709] sub0
+  Which of the following characterises a scramjet engine?
+  Subsonic combustion after the air is slowed down | *Supersonic combustion and no rotating parts | Carrying all the oxygen needed for combustion | A turbine-driven rotating compressor
+  x: A scramjet uses supersonic combustion and has no rotating compressor or turbine parts; unlike a rocket, it does not carry its oxidiser.
+[n7a4c9c60761] sub0
+  For which of the following is Solid Fuel Ducted Ramjet (SFDR) technology mainly intended?
+  short-range submarine-launched missiles | *long-range air-to-air missiles | exo-atmospheric ballistic interceptors only | satellite launch vehicles
+  x: SFDR uses atmospheric air for combustion and was demonstrated from ITR Chandipur for application in long-range air-to-air missiles.
+[n96b4c1876a0] sub0
+  Which of the following is NOT correct about MIRV and Mission Divyastra?
+  *Mission Divyastra used the K-4 missile | Mission Divyastra used the Agni-V missile | A MIRV lets one missile carry several warheads aimed at different targets | Mission Divyastra was India's first MIRV flight test
+  x: Mission Divyastra used Agni-V, not K-4; K-4 is a submarine-launched missile.
+[n371b98f8255] sub0
+  Which engine powers Nirbhay, India's subsonic long-range land-attack cruise missile?
+  Scramjet | Liquid ramjet | *Turbojet | Solid fuel ducted ramjet
+  x: Nirbhay is turbojet-powered; the liquid ramjet belongs to the supersonic BrahMos.
+[n0f0dbaeaa3e] sub0
+  Which of the following Indian missiles is subsonic?
+  BrahMos | BrahMos-II | Astra Mk-1 | *Nirbhay
+  x: Nirbhay is subsonic; BrahMos is supersonic and BrahMos-II is hypersonic.
+[f3e0fa3b7a7f7] sub0
+  What is a vehicle that is rocket-boosted, then glides at Mach 5+ and manoeuvres in the upper atmosphere called?
+  MIRV | *Hypersonic Glide Vehicle (HGV) | FOBS | SFDR
+  x: An HGV glides at Mach 5+ after a rocket boost and is hard to intercept.
+[n5b146a66e6d] sub1
+  What is DRDO's share in BrahMos Aerospace?
+  49.5% | *50.5% | 51% | 74%
+  x: DRDO holds 50.5% and Russia's NPO Mashinostroyeniya 49.5%.
+[nc9f27d80c38] sub1
+  Where did BrahMos have its first successful test on 12 June 2001?
+  Sriharikota, Andhra Pradesh | *Chandipur, Odisha | Pokhran, Rajasthan | Kurnool, Andhra Pradesh
+  x: BrahMos, a supersonic cruise missile of about Mach 2.8–3.0, was first successfully tested at Chandipur, Odisha.
+[n37837482888] sub1
+  Which engine follows the solid booster in BrahMos?
+  Turbojet | Scramjet | Solid fuel ducted ramjet | *Liquid ramjet
+  x: BrahMos has a solid booster and a liquid ramjet, combines inertial and satellite navigation, and is canister-launched in fire-and-forget mode.
+[n93e28480ec6] sub1
+  Which BrahMos variant is a planned hypersonic missile capable of speeds above Mach 5?
+  *BrahMos-II | BrahMos-A | BrahMos-NG | BrahMos-ER
+  x: BrahMos-II is the planned hypersonic variant; BrahMos-NG is a lighter version for platforms such as Tejas.
+[n3d48a889988] sub1
+  During which operation was BrahMos reportedly used in combat for the first time?
+  Operation Vijay | Operation Meghdoot | Operation Cactus in 1988 | *Operation Sindoor in May 2025
+  x: The first reported combat use of BrahMos was during Operation Sindoor in May 2025.
+[nfee502d9128] sub1
+  Where is the BrahMos Integration and Testing Facility, inaugurated on 11 May 2025, located?
+  Hyderabad | *Lucknow | Nagpur | Chandipur
+  x: The BrahMos Integration and Testing Facility at Lucknow (in the UP defence corridor) was inaugurated on 11 May 2025, with the first batch flagged off within five months. Hyderabad and Nagpur are other defence-industry centres, and Chandipur is the test range where BrahMos was first tested in 2001.
+[f9c70580709f3] sub1
+  Where was the Inter-Governmental Agreement that created BrahMos Aerospace signed in 1998?
+  New Delhi | Lucknow | *Moscow | Hyderabad
+  x: The India-Russia IGA was signed in Moscow in 1998 and created BrahMos Aerospace.
+[f796a6168b5b1] sub1
+  Which BrahMos variant is lighter (about 1.5 t) and meant for Tejas, smaller warships and submarines?
+  BrahMos-ER | BrahMos-II | BrahMos Block-II | *BrahMos-NG
+  x: BrahMos-NG weighs about 1.5 t against 2.5 t of the base missile; BrahMos-II is the planned hypersonic one.
+[gbcc399579a90] sub1
+  From the names of which two rivers is the name 'BrahMos' derived?
+  *Brahmaputra and Moskva | Brahmani and Moskva | Brahmaputra and Volga | Brahmani and Don
+  x: BrahMos joins the Brahmaputra of India and the Moskva of Russia, the two partner countries.
+[gfe22fe2b6944] sub1
+  BrahMos Aerospace is a joint venture of DRDO and which Russian company?
+  Rosoboronexport | *NPO Mashinostroyeniya | Almaz-Antey | Sukhoi
+  x: BrahMos Aerospace is owned by DRDO (50.5%) and NPO Mashinostroyeniya (NPOM) of Russia (49.5%).
+[gd35319dc47b1] sub1
+  What type of missile is BrahMos?
+  Subsonic cruise missile | *Supersonic cruise missile | Intercontinental ballistic missile | Air-to-air missile
+  x: BrahMos is a supersonic cruise missile flying at Mach 2.8–3.0.
+[g47c40ecf43ef] sub1
+  After India joined which regime in 2016 was the range of BrahMos raised beyond 290 km?
+  Nuclear Suppliers Group | *Missile Technology Control Regime | Wassenaar Arrangement | Australia Group
+  x: MTCR limits missile exports above 300 km; after India joined MTCR in 2016 BrahMos range was raised towards about 450 km.
+[gee242bb0be51] sub1
+  From which moving warship was BrahMos fired on 21 March 2010 off the Odisha coast?
+  *INS Ranvir | INS Virat | INS Arighaat | INS Kalvari
+  x: On 21 March 2010 BrahMos was fired from the moving warship INS Ranvir in the Bay of Bengal.
+[gbed37f4483c7] sub1
+  What is the speed of the BrahMos supersonic cruise missile?
+  *Mach 2.8–3.0 | Mach 5–7 | Mach 10 | Mach 0.8–0.9
+  x: BrahMos is a supersonic cruise missile flying at Mach 2.8–3.0 (about 3,400–3,700 km/h).
+[g263e51d03839] sub1
+  From which fighter aircraft is the air-launched BrahMos fired?
+  MiG-29 | Jaguar | *Su-30MKI | Mirage 2000
+  x: BrahMos can be launched from land, ship, submarine and air; its air platform is the Su-30MKI.
+[n819397cbbd8] sub2
+  Which propulsion system powers Astra Mk-3 'Gandiva'?
+  *Solid fuel ducted ramjet (SFDR) | Scramjet | Dual-pulse solid motor | Turbojet
+  x: Gandiva uses an SFDR with range of 350+ km; the dual-pulse solid motor powers Astra Mk-2.
+[n7565d12b82a] sub2
+  Which engine powers the Indigenous Technology Cruise Missile (ITCM), successor to Nirbhay?
+  Kaveri turbofan engine | Solid fuel ducted ramjet | *Manik small turbofan engine | Scramjet engine
+  x: ITCM is the successor to Nirbhay and is powered by the indigenous Manik small turbofan engine developed by GTRE.
+[n6c9a38c7629] sub2
+  On which date was the first flight-trial of India's long-range hypersonic missile reported?
+  11 March 2024 | 7 November 2017 | 23 August 2023 | *16 November 2024
+  x: India's first reported flight-trial of the long-range hypersonic missile took place on 16 November 2024.
+[fe4a5af49988d] sub2
+  What is the range of Astra Mk-1, carried on the Su-30MKI?
+  350+ km | *80–110 km | 200 km | 20–37 km
+  x: Astra Mk-1 reaches 80–110 km; Mk-2 about 200 km and Mk-3 'Gandiva' 350+ km.
+[g6d587dbc9c08] sub2
+  What is the range of Nirbhay, India's subsonic long-range land-attack cruise missile?
+  About 290 km | About 500 km | *About 1,000 km | About 3,500 km
+  x: Nirbhay is a turbojet-powered subsonic cruise missile with a range of about 1,000 km.
+[nf9aeb37eee6] sub3
+  Which one of the following is NOT correctly matched?
+  MPATGM — Third-generation fire-and-forget anti-tank guided missile | Prahaar — About 150 km tactical ballistic missile | *LRGB Gaurav — 120 km guided rocket | VSHORADS — Man-portable air-defence system against low-altitude threats
+  x: LRGB Gaurav is a 1,000 kg glide bomb with a range of about 100 km, released from the Su-30MKI. The 120 km guided rocket is Pinaka LRGR-120.
+[nfc98fbcd16c] sub3
+  Which is India's first indigenous anti-radiation missile, designed to home passively on radar emissions?
+  Pralay | QRSAM | *Rudram-I | VSHORADS
+  x: Rudram-I is India's first indigenous anti-radiation missile. It passively homes on radar emissions to destroy enemy radars and communication sites.
+[n0132505fab1] sub3
+  Which one of the following missiles is a canister-launched, hypersonic, nuclear-capable surface-to-surface tactical missile with a range of about 700–1,900 km?
+  Rudram-II | *Shaurya | Prahaar | Pralay
+  x: Shaurya is a canister-launched hypersonic surface-to-surface tactical missile with a range of about 700–1,900 km and nuclear capability.
+[n026c7fb4849] sub3
+  What is the stated range of Pralay, a quasi-ballistic short-range surface-to-surface missile?
+  *150–500 km | 25–30 km | 700–1,200 km | 1,000–2,000 km
+  x: Pralay has a 150–500 km range, a conventional warhead and manoeuvrable re-entry capability.
+[fdfc229d7e65c] sub3
+  From which missile is VL-SRSAM, the vertical-launch short-range SAM for Navy ships, derived?
+  Nirbhay | *Astra | BrahMos | Pralay
+  x: VL-SRSAM is derived from the Astra air-to-air missile.
+[f5c905c780602] sub3
+  Which missile forms the Army's mid-range layer of the integrated air defence weapon system against low-flying threats?
+  *QRSAM | Pralay | VSHORADS | Rudram-I
+  x: QRSAM (Quick Reaction SAM) is the Army's mid-range IADWS layer; VSHORADS is man-portable.
+[nd92ccdd97c6] sub3
+  To which family of missiles does Astra, developed by DRDO with an active radar seeker, belong?
+  *Beyond-visual-range air-to-air missiles | Anti-radiation missiles | Surface-to-air missiles | Anti-tank guided missiles
+  x: Astra is a DRDO-developed family of beyond-visual-range air-to-air missiles using an active radar seeker.
+[g9b2e4b7cd443] sub3
+  Which is India's first indigenous helicopter-launched anti-ship missile?
+  *NASM-SR | Rudram-I | LR-AShM | Prahaar
+  x: NASM-SR (Naval Anti-Ship Missile – Short Range) is the first indigenous helicopter-launched anti-ship missile, with an IIR seeker.
+[gc267d52283d9] sub3
+  Which DRDO laboratory developed the canister-launched Shaurya missile?
+  High Energy Materials Research Laboratory (HEMRL) | Combat Vehicles Research and Development Establishment (CVRDE) | Armament Research and Development Establishment (ARDE) | *Advanced Systems Laboratory (ASL)
+  x: Shaurya, a canister-launched hypersonic surface-to-surface missile, was developed by DRDO's ASL, Hyderabad.
+[gcfea19c751d7] sub3
+  In which city is the Advanced Systems Laboratory (ASL) of DRDO, which developed the Shaurya missile, located?
+  Bengaluru | *Hyderabad | Pune | Chennai
+  x: ASL, the DRDO lab that developed Shaurya, is in Hyderabad.
+[naa392915f9d] sub4
+  Above which speed is a missile called hypersonic?
+  Mach 2 | *Mach 5 | Mach 10 | Mach 3
+  x: Hypersonic means faster than Mach 5; a Hypersonic Glide Vehicle glides at Mach 5+ while manoeuvring.
+[n6ae14d61cb7] sub4
+  Consider the following statements about India's HSTDV:
+1. It flew at above Mach 6.
+2. It validated scramjet combustion and thermal protection above 2,000°C.
+3. It is a submarine-launched missile with a range of 3,500 km.
+Which of the above statements are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: HSTDV flew at above Mach 6 and validated scramjet combustion and thermal protection above 2,000°C; it is not a submarine-launched missile.
+[n739f987a476] sub4
+  What is the peak speed of India's long-range hypersonic anti-ship missile, which uses skipping manoeuvres?
+  Mach 3 | *Mach 10 | Mach 15 | Mach 5
+  x: It reportedly peaks at about Mach 10, with an average speed of about Mach 5.
+[n9aa08609b8a] sub4
+  For which purpose were the ranges along the Andhra Pradesh coast used in January 2026?
+  Testing of the Astra export configuration | *Validation rounds of LRAShM | Demonstration of the first indigenous anti-radiation missile | Transfer-of-technology trials for VSHORADS
+  x: Ranges along the Andhra Pradesh coast were used for LRAShM validation rounds.
+[gc62fed04db02] sub4
+  What is the approximate range of LR-AShM, India's hypersonic glide anti-ship missile for Navy coastal batteries?
+  About 750 km | About 290 km | *About 1,500 km | About 5,000 km
+  x: LR-AShM has a range of about 1,500 km, with a peak speed of Mach 10.
+[na69f912aae8] sub5
+  Consider the following statements about Project Kusha:
+1. Its M3 interceptor is expected to reach about 350–400 km.
+2. It is DRDO's short-range air-defence system.
+3. Its M1 interceptor has a range of about 150 km.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: Project Kusha is DRDO's long-range (not short-range) air-defence system, with M1/M2/M3 interceptors of about 150/250/350–400 km.
+[nc630fbef31c] sub5
+  Which is the exo-atmospheric interceptor in Phase-I of India's Ballistic Missile Defence programme?
+  AD-1 | AAD/Ashwin | *PAD/Pradyumna | AD-2
+  x: Phase-I uses PAD/Pradyumna (exo) and AAD/Ashwin (endo); AD-1 and AD-2 belong to Phase-II.
+[f94045cb47638] sub5
+  By which year does Mission Sudarshan Chakra, a multi-layered air and missile defence network, aim at operational maturity?
+  2040 | 2047 | 2030 | *2035
+  x: Mission Sudarshan Chakra targets operational maturity by 2035.
+[n80edd873e68] sub6
+  When was Mission Shakti, the joint DRDO–ISRO anti-satellite test, conducted?
+  11 March 2019 | *27 March 2019 | 27 March 2018 | 11 May 2019
+  x: It was conducted on 27 March 2019; Microsat-R was hit in low LEO (~283 km) so the debris would decay quickly.
+[n777fd1d84d3] sub6
+  In Mission Shakti, the live satellite Microsat-R was destroyed by which DRDO interceptor?
+  AAD (Ashwin) | AD-1 | *PDV Mk-II | Akash-NG
+  x: A DRDO PDV Mk-II interceptor destroyed the live satellite Microsat-R during Mission Shakti.
+[n5d0495adb20] sub6
+  India became the fourth country to demonstrate an anti-satellite capability. Which of the following shows the three countries that preceded India?
+  USA, France and Japan | China, United Kingdom and France | Russia, China and Israel | *USA, Russia and China
+  x: India became the fourth country with demonstrated ASAT capability after the USA, Russia and China.
+[f7915b2157555] sub6
+  At what altitude in Low Earth Orbit was the target satellite destroyed in Mission Shakti?
+  83 km | 783 km | 583 km | *283 km
+  x: Microsat-R was hit at about 283 km in low LEO, chosen so that debris decays quickly.
+[fac65b1128879] sub6
+  Which launch vehicle put Microsat-R, the target of Mission Shakti, into orbit in January 2019?
+  PSLV-C51 | GSLV-F10 | PSLV-C37 | *PSLV-C44
+  x: Microsat-R, a DRDO satellite, was launched by PSLV-C44 in January 2019.
+[ff8119d57e494] sub6
+  Which of the following is NOT correct about Mission Shakti?
+  *It was done in the upper atmosphere to ensure no debris | It used the DRDO PDV Mk-II interceptor | It was a joint DRDO–ISRO effort | It destroyed a live satellite in Low Earth Orbit
+  x: The test was in low LEO (~283 km) so debris would decay quickly; 'upper atmosphere, no debris' is wrong.
+[f4c8a0d528cf2] sub7
+  From which submarine was the K-4 SLBM first launched on 27 November 2024?
+  INS Arihant | *INS Arighaat | INS Chakra | INS Aridhaman
+  x: K-4 was first fired from INS Arighaat in the Bay of Bengal on 27 November 2024.
+[f29d80328391b] sub7
+  Where was INS Aridhaman, India's third SSBN, commissioned on 3 April 2026?
+  Karwar | Mumbai | *Visakhapatnam | Kochi
+  x: INS Aridhaman was commissioned at Visakhapatnam on 3 April 2026.
+[fa0fd9ac9749f] sub7
+  Consider the following statements about India's submarine-launched missiles:
+1. K-15 Sagarika has a range of about 750 km.
+2. K-4 has a range of about 3,500 km.
+3. INS Arighaat was India's first indigenous SSBN.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: K-15 reaches about 750 km and K-4 about 3,500 km; the first indigenous SSBN was INS Arihant (2016), not Arighaat.
+[ne8ad2142017] sub8
+  Which of the following describes the Minuteman III?
+  A Pakistani 450 km surface-to-surface missile | *An American ICBM forming the land leg of the US nuclear triad | A Russian air-launched hypersonic missile | An Iranian claimed hypersonic missile
+  x: Minuteman III is a United States intercontinental ballistic missile and forms the land leg of the US nuclear triad.
+[n52f7d4ecc2e] sub8
+  Which is Russia's ship-launched hypersonic missile?
+  Kinzhal | Hwasong | *Zircon | Fattah
+  x: Zircon is ship-launched; Kinzhal is air-launched. Hwasong is North Korean and Fattah Iranian.
+[na6045ced6f2] sub8
+  Which one of the following groups contains only missiles associated with Russia?
+  Abdali, Minuteman III and Kinzhal | Barak-1, Spyder and Barak-8 | *BrahMos, R-73 Archer and S-400 | Shahab, Fattah and Hwasong
+  x: BrahMos is a joint venture with Russia, while R-73 Archer and S-400 are Russian systems. The other groups contain missiles associated with Israel, Iran, North Korea, Pakistan or the United States.
+[ne840c2416a6] sub8
+  Which of the following is NOT correct about India's missile exports?
+  The Philippines is India's first BrahMos export customer | BrahMos deliveries to the Philippines began in 2024 | *BrahMos and Akashteer have already been delivered to the UAE | The Astra Mk-1 deal with Indonesia (July 2026) is the first Astra-family export
+  x: With the UAE, BrahMos and Akashteer talks are only at an early stage; nothing has been delivered.
+[n6e6fba9201d] sub8
+  Which one of the following pairs is NOT correctly matched?
+  R-73 Archer — Russia | Barak-8/MRSAM — Israel | Barak-1 — Israel | *Spyder — Iran
+  x: Spyder is an Israeli system used by the Indian Air Force and replaced Trishul. Iran is associated with Shahab and Fattah, not Spyder.
+[f0a2b36b648fa] sub8
+  Which of the following pairs of missile and country is correctly matched?
+  Fattah – Russia | *Hwasong – North Korea | Abdali – Iran | Shahab – North Korea
+  x: Hwasong is North Korea's; Shahab and Fattah are Iran's and Abdali is Pakistan's.
+[f1fdf89021388] sub8
+  From which platform is Kinzhal, Russia's hypersonic missile, launched?
+  Submarines | *Aircraft | Ships | Ground silos
+  x: Kinzhal is air-launched; Zircon is Russia's ship-launched hypersonic cruise missile.
+[f26e8bb5aadf7] sub8
+  Which country was the first export customer of BrahMos?
+  Indonesia | UAE | *Philippines | Israel
+  x: The Philippines signed a $375 million deal (January 2022) for three batteries; the first batch was delivered in April 2024.
+[f5507d9fb0d9f] sub8
+  Which country signed the deal for the first-ever export of the Astra Mk-1 missile (July 2026)?
+  UAE | Russia | *Indonesia | Philippines
+  x: Indonesia's July 2026 deal is the first-ever Astra export; the Philippines bought BrahMos.
+[fde0f1c69d973] sub8
+  What does the word 'Barak' in Barak-8, a missile developed with Israel, mean?
+  *Lightning | Thunder | Shield | Arrow
+  x: 'Barak' means Lightning in Hebrew; Barak-8/MRSAM is a DRDO–IAI medium-range SAM.
+[g09519e54a583] sub8
+  On which ship was the Barak-1 missile system first deployed in the Indian Navy?
+  INS Vikrant | *INS Virat | INS Ranvir | INS Arihant
+  x: Barak-1, bought from Israel for the Navy, was first deployed on the aircraft carrier INS Virat.
+[gea9ccdf7f6a9] sub8
+  In which year did the Philippines sign the $375 million deal to buy shore-based BrahMos missiles from India?
+  2024 | 2020 | 2019 | *2022
+  x: The Philippines signed the $375 million BrahMos deal in January 2022; the first batch was delivered in April 2024.
+[g5d8233af6bd9] sub8
+  How many batteries of shore-based anti-ship BrahMos does the Philippines deal of January 2022 cover?
+  Two | Five | *Three | Four
+  x: The $375 million deal is for three batteries of shore-based anti-ship BrahMos.
+[na6edb3232cd] sub11
+  Which of the following pairs is wrongly matched?
+  Rudram – First indigenous anti-radiation missile | Philippines – First BrahMos buyer | *Mission Shakti – Made India the third country to demonstrate an ASAT capability | Indonesia – First Astra buyer
+  x: Mission Shakti made India the fourth country, not the third, to demonstrate an ASAT capability.
+
+=== NOTES 5:50 | Missile Defence and Strategic Forces – Bmd Programme, Nuclear Triad, Ssbn, No-first-use Policy
+## SUB 0 | Nuclear Tests – Pokhran I and II
+[50:0:0] TABLE head: Test | Date | Code name | Details
+  [50:0:0.0] Pokhran-I | 18 May 1974 | Smiling Buddha | "Peaceful nuclear explosion"; PM Indira Gandhi; team led by Raja Ramanna; fission device
+  [50:0:0.1] Pokhran-II | 11 and 13 May 1998 | Operation Shakti (Shakti-98) | Five tests, fission + fusion; PM A.B. Vajpayee; led by A.P.J. Abdul Kalam (DRDO) and R. Chidambaram (DAE)
+[50:0:1] - Site: **Pokhran Test Range, Jaisalmer district, Rajasthan** (Thar Desert).
+[50:0:2] - **11 May = National Technology Day**.
+[50:0:3] **Operation Shakti** (1998 nuclear test) ≠ **Mission Shakti** (2019 ASAT test).
+## SUB 1 | Nuclear Weapon Technology
+[50:1:0] # Fission vs Fusion
+[50:1:1] TABLE head: Fission (atomic) weapon | Fusion (thermonuclear / hydrogen) weapon
+  [50:1:1.0] Heavy nucleus (U-235 / Pu-239) splits in a neutron chain reaction | Light nuclei (hydrogen isotopes) fuse
+  [50:1:1.1] Example: Pokhran-I | A fission "primary" triggers fusion; tested in Pokhran-II
+[50:1:2] - U-235 fission: neutron hit → two smaller nuclei (e.g. barium + krypton) + 2–3 neutrons.
+[50:1:3] - **Krytron** = high-speed switch that fires a nuclear bomb's detonators (not a MOSFET, relay or solenoid).
+[50:1:4] # Enrichment Levels
+[50:1:5] TABLE head: Grade | U-235 share
+  [50:1:5.0] Natural uranium | ~0.7%
+  [50:1:5.1] Reactor-grade LEU | 3–5%
+  [50:1:5.2] HEU | 20%+
+  [50:1:5.3] Weapons-grade | ~90%
+## SUB 2 | Nuclear Doctrine and Command
+[50:2:0] # Timeline
+[50:2:1] - **Draft doctrine**: prepared by the **National Security Advisory Board (NSAB)**, **August 1999**.
+[50:2:2] - **No First Use** came from the **Vajpayee government after Pokhran-II** (not Pokhran-I) (UKPSC 2021).
+[50:2:3] - Formally adopted by the **CCS** on **4 January 2003**.
+[50:2:4] # Key Tenets
+[50:2:5] - **Credible minimum deterrence**.
+[50:2:6] - **No First Use**: only in retaliation against a nuclear attack on Indian territory or Indian forces.
+[50:2:7] - **No use against non-nuclear-weapon states**.
+[50:2:8] - Nuclear option kept against a **major biological or chemical attack**.
+[50:2:9] # Nuclear Command Authority
+[50:2:10] TABLE head: Body | Chaired by | Role
+  [50:2:10.0] Political Council | Prime Minister | Only body that can authorise use
+  [50:2:10.1] Executive Council | National Security Advisor | Advises; carries out directions
+  [50:2:10.2] Strategic Forces Command | Tri-service (set up 2003) | Manages and operates the nuclear arsenal
+[50:2:11] - **CCS** oversees civilian political control; it does not manage the forces.
+[50:2:12] - Aug 2026: Agni user trials held "under the aegis of SFC".
+[50:2:13] - **Massive retaliation:** a nuclear first strike on India will be met with massive retaliation designed to cause unacceptable damage.
+## SUB 3 | Nuclear Triad – Land, Air, Sea
+[50:3:0] TABLE head: Leg | Platforms
+  [50:3:0.0] Land | Prithvi and Agni series (canisterised, road- and rail-mobile)
+  [50:3:0.1] Air | Jaguar and Mirage 2000 (free-fall bombs)
+  [50:3:0.2] Sea | K-15 / K-4 SLBMs from Arihant-class SSBNs; earlier Dhanush from ships (INS Subhadra, INS Rajput)
+[50:3:1] - **SSBN = most survivable leg** → sure **second-strike** capability → backs NFU. Next step: **continuous at-sea deterrence**.
+[50:3:2] - India has a fully operational triad, with **USA, Russia, China** (Apr 2026).
+[50:3:3] - US triad = **Minuteman III** ICBMs + strategic bombers + Ohio/Columbia-class SSBNs.
+[50:3:4] - **Agni-4** user trial 6 Aug 2026: 4,000 km, two-stage solid, road-mobile.
+[50:3:5] - SIPRI (Jun 2026): **12** Indian warheads "operationally deployed", linked to SSBN patrols and canisterised Agni.
+## SUB 4 | Nuclear Submarines and K-series
+[50:4:0] # ATV Project and Arihant Class
+[50:4:1] - **ATV (Advanced Technology Vessel)** project: DRDO + private firms, with **Russian help**, to build SSBNs.
+[50:4:2] TABLE head: Submarine | Commissioned | Features
+  [50:4:2.0] INS Arihant (S2) | 2016 | First indigenous SSBN, ~6,000 t, 4 VLS (12 K-15 or 4 K-4)
+  [50:4:2.1] INS Arighaat (S3) | 2024 | Same size; K-4 tested from it
+  [50:4:2.2] INS Aridhaman (S4) | 3 Apr 2026, Visakhapatnam | ~7,000 t, 8 VLS (24 K-15 or 8 K-4/K-5)
+[50:4:3] - AP angle: SSBNs based at **Visakhapatnam**; **Rambilli** naval base nearby.
+[50:4:4] # SLBMs
+[50:4:5] TABLE head: SLBM | Range
+  [50:4:5.0] K-15 Sagarika | ~750 km
+  [50:4:5.1] K-4 | 3,500 km
+  [50:4:5.2] K-5 / K-6 | Longer range, under development
+[50:4:6] - **K-15 Sagarika:** first **underwater** test-fire **26 Feb 2008**; deployed on **INS Arihant**.
+[50:4:7] # Leased SSNs and Conventional Boats
+[50:4:8] TABLE head: Boat | Type / origin
+  [50:4:8.0] INS Chakra (1988) | Leased Charlie-class SSN (Soviet)
+  [50:4:8.1] INS Chakra II | Leased Russian Akula-class SSN (formerly Nerpa), 8,140 t; commissioned 4 April 2012
+  [50:4:8.2] INS Shalki, INS Shishumar | Diesel-electric, German Type 209
+  [50:4:8.3] INS Sindhuvir | Diesel-electric, Russian Kilo (Sindhughosh class)
+## SUB 5 | Ballistic Missile Defence
+[50:5:0] TABLE head: Interceptor | Tier
+  [50:5:0.0] PAD (Prithvi Air Defence) | Phase I, exo-atmospheric, higher altitude
+  [50:5:0.1] AAD (Advanced Air Defence) | Phase I, endo-atmospheric, lower altitude
+  [50:5:0.2] AD-1, AD-2 | Phase II, against ~5,000 km-class threats
+[50:5:1] - **Swordfish** Long-Range Tracking Radar: tracks missiles and space objects at **1,500+ km**.
+[50:5:2] - Jun 2026: DRDO showed multi-layered BMD; same series saw maiden test of **NASM-MR** (14 Jun 2026).
+## SUB 6 | Air Defence Systems and Mission Sudarshan Chakra
+[50:6:0] TABLE head: System | Origin / type | Notes
+  [50:6:0.0] S-400 Triumf | Russia | Long-range SAM; operators Russia, China (first foreign buyer), Turkey, India, Belarus; IAF calls it "Sudarshan Chakra"
+  [50:6:0.1] Barak-1 | Israel | Ship-based point-defence SAM
+  [50:6:0.2] MRSAM / Barak-8 | DRDO + Israel Aerospace Industries | Army version tested Apr 2025; DAC approved buy Jul 2026
+  [50:6:0.3] IADWS | Indigenous (DRDO) | QRSAM + VSHORADS + high-power laser DEW; maiden test Aug 2025
+  [50:6:0.4] Akashteer | BEL with the Army | Automated air-defence control network
+  [50:6:0.5] Akash Tarang | Indigenous | Anti-drone soft-kill EW system
+  [50:6:0.6] Phalcon radar | Israel | Airborne radar
+  [50:6:0.7] Iron Dome | Israel | Lower layer of Israel's air defence; Rafael and IAI; mobile, all-weather
+[50:6:1] - **Mission Sudarshan Chakra**: announced **Independence Day 2025**; networked national shield (air defence, cybersecurity, surveillance), **Vision 2035**; boosts air defence, BMD and aerial offensive capability, rapid precise responses (UPSC 2026: all three statements correct).
+[50:6:2] - Building blocks: Akash Tarang, MRSAM, VSHORADS; core = **Project Kusha** (M1/M2/M3 ≈ 150 / 250 / 350–400 km).
+[50:6:3] "Sudarshan Chakra" = IAF's name for the S-400 **and** the Vision 2035 mission.
+## SUB 7 | Non-proliferation Regimes – India's Status
+[50:7:0] TABLE head: Regime | India's status
+  [50:7:0.0] NPT (1970) | Not signed – discriminatory ("nuclear apartheid"); only five states that tested before 1967 are NWS
+  [50:7:0.1] CTBT | Not signed
+  [50:7:0.2] NSG | Not a member (blocked by China); got 2008 waiver, follows guidelines
+  [50:7:0.3] MTCR | Member 2016 (35th)
+  [50:7:0.4] Hague Code of Conduct | Joined 2016
+  [50:7:0.5] Wassenaar | Member Dec 2017
+  [50:7:0.6] Australia Group | Member Jan 2018
+[50:7:1] - India follows guidelines through the **WMD Act** and the **SCOMET** list; US support helped entry.
+[50:7:2] - **FMCT**: supports a universal, verifiable treaty that does not cap existing stockpile.
+[50:7:3] - India kept the bomb option open and would not open strategic plants to inspection.
+[50:7:4] - **CTBT and testing:** India keeps a voluntary moratorium on nuclear tests (since 1998) and will not sign the CTBT unless it is tied to time-bound global nuclear disarmament.
+## SUB 8 | Number Game and Quick Revision
+[50:8:0] TABLE head: Item | Correct Fact
+  [50:8:0.0] Pokhran-I / II | 18 May 1974 / 11 & 13 May 1998
+  [50:8:0.1] Pokhran-II devices | 5
+  [50:8:0.2] Doctrine draft / adopted | Aug 1999 / 4 Jan 2003
+  [50:8:0.3] Weapons-grade U-235 | ~90%
+  [50:8:0.4] K-15 / K-4 | 750 / 3,500 km
+  [50:8:0.5] Aridhaman | 7,000 t, 8 tubes
+  [50:8:0.6] MTCR – Wassenaar – AG | 2016 – 2017 – 2018
+[50:8:1] # FIRST / LAST / SPECIAL FACTS
+[50:8:2] - First indigenous SSBN: INS Arihant (2016).
+[50:8:3] - First foreign S-400 buyer: China.
+[50:8:4] - Only body that can authorise nuclear use: Political Council (PM).
+## SUB 9 | Appsc Previous Year Questions
+[50:9:0] TABLE head: Examination | Question Area
+  [50:9:0.0] APPSC Group 1 Prelims (up to 2021) | Pokhran tests – date, code name, site
+  [50:9:0.1] APPSC Group 1 Prelims | Air defence systems – origin country
+  [50:9:0.2] APPSC Group 1 Prelims | Nuclear weapon terms – Krytron, fusion trigger
+## SUB 10 | High-probability Mcq Traps
+[50:10:0] VERY IMPORTANT
+[50:10:1] - 1. **Operation Shakti** = 1998 test; **Mission Shakti** = 2019 ASAT.
+[50:10:2] - 2. NFU came after **Pokhran-II** (Vajpayee), not Pokhran-I.
+[50:10:3] - 3. **Political Council** (PM) authorises; **SFC** operates; CCS only oversees.
+[50:10:4] - 4. **PAD exo** vs **AAD endo**; AD-1/AD-2 = Phase II.
+[50:10:5] - 5. India is a member of **MTCR, Wassenaar, Australia Group**, not **NPT, CTBT, NSG**.
+[50:10:6] - 6. MTCR **35th member** (2016).
+[50:10:7] - 7. Bomb trigger = **Krytron**.
+[50:10:8] - 8. INS Chakra II = **Akula** (leased), not Charlie.
+[50:10:9] - 9. Aridhaman has **8** tubes; Arihant and Arighaat **4** each.
+[50:10:10] - 10. S-400 = **Russia**; Barak, Phalcon, Iron Dome = **Israel**.
+
+=== OWN MCQs of 5:50 (62)
+[ndc6701f6b28] sub0
+  Pokhran-II was conducted under which Prime Minister?
+  H.D. Deve Gowda | P.V. Narasimha Rao | *A.B. Vajpayee | I.K. Gujral
+  x: Pokhran-II was conducted under A.B. Vajpayee, with A.P.J. Abdul Kalam and R. Chidambaram in the scientific leadership.
+[fc277cdfaf8ba] sub0
+  Who led the team that conducted Pokhran-I (1974)?
+  R. Chidambaram | A.P.J. Abdul Kalam | V.K. Saraswat | *Raja Ramanna
+  x: Raja Ramanna led the Pokhran-I team; Kalam and Chidambaram led Pokhran-II.
+[f32654da2500c] sub0
+  How many nuclear tests did India conduct in Pokhran-II (1998)?
+  Four | Six | Three | *Five
+  x: Pokhran-II on 11 and 13 May 1998 had five tests, both fission and fusion.
+[fc21cf4a652a4] sub0
+  Which of the following pairs is NOT correctly matched?
+  Operation Shakti – Pokhran-II | *Mission Shakti – 1998 nuclear tests | Smiling Buddha – Pokhran-I | Mission Shakti – 2019 ASAT test
+  x: Operation Shakti was the 1998 nuclear test; Mission Shakti was the 2019 anti-satellite test.
+[nd557eac9d75] sub0
+  What was the code name of Pokhran-II (1998)?
+  Smiling Buddha | Operation Vijay | Operation Divyastra | *Operation Shakti
+  x: Pokhran-II (11 and 13 May 1998) was 'Operation Shakti'; Pokhran-I (1974) was 'Smiling Buddha'.
+[n575c1c79e50] sub0
+  Which day is observed in India on 11 May?
+  National Science Day | National Nuclear Security Day | *National Technology Day | National Defence Technology Day
+  x: 11 May is observed as National Technology Day in India, commemorating the 1998 Pokhran tests.
+[g6145b899ef43] sub0
+  When was India's first nuclear test, 'Smiling Buddha', conducted at Pokhran?
+  *18 May 1974 | 11 May 1998 | 13 May 1998 | 18 May 1972
+  x: Pokhran-I, code-named Smiling Buddha, was conducted on 18 May 1974 under PM Indira Gandhi.
+[g6f3312e73f5f] sub0
+  Who among the following led the Pokhran-II tests of 1998 along with R. Chidambaram of DAE?
+  Raja Ramanna | *A.P.J. Abdul Kalam | Homi Sethna | Vikram Sarabhai
+  x: Pokhran-II (Operation Shakti) was led by A.P.J. Abdul Kalam of DRDO and R. Chidambaram of DAE.
+[g0e3fc08d60c3] sub0
+  In which district of Rajasthan is the Pokhran Test Range located?
+  Bikaner | Barmer | Jodhpur | *Jaisalmer
+  x: The Pokhran Test Range, site of Pokhran-I and II, is in Jaisalmer district, Rajasthan.
+[n791b1d10a4b] sub1
+  In a fusion (thermonuclear) weapon, what triggers the fusion of light hydrogen isotopes?
+  A laser pulse | A fusion primary | *A fission primary | Chemical explosives alone
+  x: A fission 'primary' supplies the heat to trigger fusion; a fission weapon splits U-235 or Pu-239 in a chain reaction.
+[n5ce3201ca1c] sub1
+  Which one of the following is correctly matched with its approximate U-235 enrichment level?
+  HEU — about 3–5% | Weapons-grade uranium — about 0.7% | Reactor-grade LEU — about 20% | *Natural uranium — about 0.7%
+  x: Natural uranium contains about 0.7% U-235. Reactor-grade LEU is about 3–5%, HEU is 20% or more, and weapons-grade uranium is about 90%.
+[fb387f87f82d3] sub1
+  Consider the following statements about nuclear weapons:
+1. In a fission weapon, a heavy nucleus such as U-235 or Pu-239 splits in a neutron chain reaction.
+2. In a fusion weapon, a fission 'primary' triggers the fusion.
+3. Pokhran-I tested a fusion device.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Fission splits heavy nuclei and a fission primary triggers fusion; Pokhran-I was a fission device, fusion was tested in Pokhran-II.
+[g9de32b79019f] sub1
+  Which device is used as a high-speed switch to fire the detonators of a nuclear bomb?
+  MOSFET | *Krytron | Solenoid | Relay
+  x: A krytron is a very fast gas-filled switch used to fire the detonators of a nuclear bomb.
+[n8c5524df915] sub2
+  Which of the following is NOT correct about India's nuclear doctrine?
+  *No First Use was first declared by the Indira Gandhi government after Pokhran-I | The draft doctrine with No First Use came from the Vajpayee government in 1999 | The draft followed the Pokhran-II tests of 1998 | The Cabinet Committee on Security formally adopted it on 4 January 2003
+  x: NFU dates from the Vajpayee government after Pokhran-II (1998), not from Pokhran-I (1974).
+[nea02c679880] sub2
+  Which of the following is NOT a tenet of India's nuclear doctrine?
+  Credible minimum deterrence | No First Use | Massive retaliation causing unacceptable damage | *Use of nuclear weapons against every non-nuclear-weapon state
+  x: The doctrine provides for no use against non-nuclear-weapon states (subject to the clause on major biological or chemical attacks).
+[n831403d0b79] sub2
+  Against a major attack involving which weapons does India's nuclear doctrine retain the nuclear option?
+  Conventional weapons | Cyber weapons | Anti-satellite weapons | *Biological or chemical weapons
+  x: The doctrine retains the nuclear option against a major biological or chemical attack.
+[n09ebf5acd1a] sub2
+  Under India's No First Use policy, against which of the following may nuclear weapons be used in retaliation?
+  any conventional attack on Indian territory | *a nuclear attack on Indian territory or Indian forces | a cyberattack on India’s strategic infrastructure | any military alliance formed against India
+  x: India’s No First Use policy permits nuclear weapons only in retaliation against a nuclear attack on Indian territory or Indian forces.
+[n3531c9b8e2b] sub2
+  What is the Strategic Forces Command?
+  a joint research body of DRDO and ISRO | a civilian body regulating nuclear exports | *a tri-service command managing and operating India’s nuclear arsenal | a parliamentary committee supervising defence expenditure
+  x: The Strategic Forces Command is a tri-service command responsible for managing and operating India’s nuclear arsenal.
+[nf977e865dc7] sub2
+  Which of the following pairs about India's nuclear command structure is wrongly matched?
+  Political Council of the NCA – Headed by the Prime Minister | Executive Council of the NCA – Headed by the National Security Adviser | *Cabinet Committee on Security – Manages nuclear forces | Strategic Forces Command – Manages nuclear forces
+  x: The Strategic Forces Command manages nuclear forces; the CCS supervises civilian political control.
+[f8b564f15838a] sub2
+  Which body prepared India's draft nuclear doctrine of August 1999?
+  *National Security Advisory Board | Cabinet Committee on Security | Atomic Energy Commission | Strategic Forces Command
+  x: The NSAB prepared the draft in August 1999; the CCS adopted the doctrine on 4 January 2003.
+[f2239904150c8] sub2
+  Under India's Nuclear Command Authority, which is the only body that can authorise the use of nuclear weapons?
+  Cabinet Committee on Security | Strategic Forces Command | Executive Council | *Political Council
+  x: The Political Council, chaired by the PM, alone authorises use; the SFC operates the arsenal and the CCS only oversees.
+[f93017ea01893] sub2
+  Who chairs the Executive Council of India's Nuclear Command Authority?
+  Chief of Defence Staff | Prime Minister | Defence Minister | *National Security Advisor
+  x: The NSA chairs the Executive Council; the PM chairs the Political Council.
+[fc4a15e59af71] sub2
+  After which event did India's No First Use nuclear policy come from the Vajpayee government?
+  Mission Shakti (2019) | *Pokhran-II (1998) | The NSG waiver (2008) | Pokhran-I (1974)
+  x: NFU was announced after Pokhran-II by the Vajpayee government, not after Pokhran-I.
+[g8c7e395bdd38] sub2
+  In which year was India's tri-service Strategic Forces Command set up?
+  *2003 | 1999 | 1998 | 2008
+  x: The Strategic Forces Command, which manages and operates the nuclear arsenal, was set up in 2003.
+[n9707ee692b2] sub3
+  What is the next strategic step associated with India's SSBN-based deterrence?
+  ending the No First Use policy | *continuous at-sea deterrence | replacement of all missiles by free-fall bombs | complete withdrawal from submarine operations
+  x: Continuous at-sea deterrence is identified as the next step in strengthening India’s SSBN-based nuclear deterrence.
+[n18e8f03ba87] sub3
+  Why are SSBNs regarded as the most survivable leg of the nuclear triad?
+  They eliminate the need for land-based deterrence. | They remain permanently visible to adversaries. | They carry only conventional weapons. | *Their concealment supports a guaranteed second-strike capability.
+  x: SSBNs are difficult to detect and destroy, thereby supporting a reliable second-strike capability that underpins India’s No First Use posture.
+[n2ef7b1a431a] sub3
+  To what was the operational deployment of Indian warheads cited in the June 2026 assessment linked?
+  Dhanush missiles mounted exclusively on aircraft carriers | only free-fall bombs carried by Jaguar aircraft | *SSBN deterrence patrols and canisterised Agni missiles | civilian nuclear reactors and space launch vehicles
+  x: The cited deployment was linked to SSBN deterrence patrols and canisterised Agni missiles.
+[n9115a31111c] sub3
+  What forms the land-based leg of the United States nuclear triad?
+  Trident submarines | Strategic bombers | Tomahawk cruise missiles | *Minuteman III ICBMs
+  x: The US triad consists of Minuteman III ICBMs (land leg), strategic bombers and Ohio/Columbia-class SSBNs.
+[n8bb39a857e1] sub3
+  India is described as having a fully operational nuclear triad along with which of the following countries?
+  France, the United Kingdom and Pakistan | Japan, Germany and Australia | *The United States, Russia and China | Israel, North Korea and Iran
+  x: India is described as having a fully operational triad alongside the United States, Russia and China.
+[fb2f8e653bc95] sub3
+  The air leg of India's nuclear triad uses which aircraft with free-fall bombs?
+  *Jaguar and Mirage 2000 | Su-30MKI and Tejas | MiG-21 and Rafale | Tejas and Rafale
+  x: India's air leg is the Jaguar and Mirage 2000 with free-fall bombs.
+[gecad7e871147] sub3
+  From which of the following ships was the Dhanush missile of India's sea-based nuclear leg launched?
+  *INS Subhadra | INS Arihant | INS Chakra | INS Vikrant
+  x: Before SSBNs, the sea leg used the ship-launched Dhanush missile from ships such as INS Subhadra and INS Rajput.
+[n3ad420188ee] sub4
+  What is the range of the K-15 Sagarika submarine-launched ballistic missile?
+  *750 km | 1,500 km | 3,500 km | 5,000 km
+  x: K-15 Sagarika has a range of about 750 km; 3,500 km is K-4.
+[nde65c27cd08] sub4
+  Which of the following is NOT correct about India's SSBNs?
+  INS Aridhaman can carry 24 K-15 or 8 K-4/K-5 missiles | *INS Arighaat has 8 vertical launch tubes | INS Arihant has 4 vertical launch tubes | INS Aridhaman has 8 vertical launch tubes
+  x: Arihant and Arighaat have 4 vertical launch tubes each; only Aridhaman has 8, which gives it the larger load.
+[n77914b79376] sub4
+  What was the Advanced Technology Vessel (ATV) project undertaken to build?
+  Indigenous aircraft carriers | *Nuclear ballistic-missile submarines (SSBNs) | Stealth frigates | AIP-equipped conventional submarines
+  x: The ATV project was initiated by DRDO and private firms, with Russian assistance, to build SSBNs.
+[n19c902b2b9c] sub4
+  Which type of submarine was INS Chakra II, leased by India from Russia?
+  Kilo-class submarine | Charlie-class submarine | *Akula-class nuclear attack submarine (SSN) | Type 209 submarine
+  x: INS Chakra II was a leased Akula-class SSN (formerly Nerpa); the first INS Chakra was a Charlie-class boat.
+[fa21c596b3b0a] sub4
+  Which type of submarine was INS Chakra, leased from the Soviet Union in 1988?
+  *Charlie-class SSN | Kilo-class diesel-electric boat | Akula-class SSN | Type 209 diesel-electric boat
+  x: INS Chakra (1988) was a Charlie-class SSN; INS Chakra II was an Akula-class SSN.
+[f382dfd225c3b] sub4
+  With help from which country did DRDO and private firms carry out the ATV project to build India's SSBNs?
+  *Russia | Israel | France | USA
+  x: The ATV project had Russian help.
+[ge8a1416cabd4] sub4
+  Which was India's first indigenous nuclear-powered ballistic missile submarine (SSBN)?
+  INS Chakra | INS Arighaat | *INS Arihant | INS Aridhaman
+  x: INS Arihant, commissioned in 2016 under the ATV project, is India's first indigenous SSBN.
+[gfa1fd4f6cc4a] sub4
+  INS Shishumar and INS Shalki are diesel-electric submarines of which type?
+  Russian Kilo class | Soviet Charlie class | French Scorpene class | *German Type 209
+  x: INS Shalki and INS Shishumar are German-designed Type 209 diesel-electric submarines.
+[geb9e2e7756da] sub4
+  In which year was INS Chakra II, a leased Russian Akula-class nuclear attack submarine, commissioned?
+  2016 | 2009 | *2012 | 1988
+  x: INS Chakra II (formerly Nerpa) was commissioned on 4 April 2012.
+[n6774a5a156b] sub5
+  What is PAD (Prithvi Air Defence) in India's BMD programme?
+  Lower-altitude endo-atmospheric interceptor | Ship-based terminal-phase interceptor | Long-range tracking radar | *Higher-altitude exo-atmospheric interceptor
+  x: PAD is the higher-altitude exo-atmospheric interceptor; AAD is the lower-altitude endo-atmospheric interceptor and Swordfish is a tracking radar.
+[n44b8ffa0652] sub5
+  AD-1 and AD-2 interceptors belong to which phase of India's BMD programme?
+  Phase I | Phase III | *Phase II | Phase IV
+  x: AD-1 and AD-2 are Phase II BMD interceptors meant for longer-range threats of about the 5,000-km class.
+[n085e816c508] sub5
+  For what is the Swordfish radar primarily used?
+  Jam drone-control signals at short range | *Track ballistic missiles and space objects at distances exceeding 1,500 km | Detect only underwater targets | Guide K-series missiles from submarines
+  x: The Long-Range Tracking Radar, known as Swordfish, tracks ballistic missiles and space objects at distances of more than 1,500 km.
+[fddd47a133f02] sub5
+  To which phase and layer does the AAD (Advanced Air Defence) interceptor belong in India's BMD programme?
+  Phase-II, endo-atmospheric | *Phase-I, endo-atmospheric | Phase-I, exo-atmospheric | Phase-II, exo-atmospheric
+  x: AAD is the Phase-I endo-atmospheric (lower altitude) interceptor; PAD is the exo-atmospheric one.
+[n2af19c3b673] sub6
+  Which of the following jointly developed MRSAM or Barak-8?
+  *DRDO and Israel Aerospace Industries | BEL and France’s Dassault Aviation | DRDO and Russia’s Rosoboronexport | ISRO and Israel Aerospace Industries
+  x: MRSAM/Barak-8 is an India-Israel programme involving DRDO and Israel Aerospace Industries (IAI).
+[nb7ed88ed56f] sub6
+  What is the vision year of Mission Sudarshan Chakra, a networked national shield of air defence, cybersecurity and surveillance?
+  2030 | *2035 | 2040 | 2047
+  x: It is Vision 2035, built from blocks such as Akash Tarang, MRSAM and VSHORADS, with Project Kusha as a core element.
+[ncc850b9f68b] sub6
+  What is Akashteer?
+  A long-range missile developed by DRDO | *An automated air-defence control network built by BEL with the Army | An anti-drone soft-kill electronic-warfare system | A high-power laser directed-energy weapon
+  x: Akashteer is BEL's automated air-defence control network for the Army; Akash Tarang is the anti-drone soft-kill EW system.
+[n06aef2a4aed] sub6
+  Consider the following statements about the S-400 Triumf:
+1. The Indian Air Force refers to it as 'Sudarshan Chakra'.
+2. Belarus was its first foreign buyer after Russia.
+3. China was its first foreign buyer.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: The IAF calls its S-400 'Sudarshan Chakra', and China was the first foreign buyer; Belarus came later.
+[n5129cd26cc3] sub6
+  What are the approximate interceptor ranges of Project Kusha, DRDO's long-range air-defence project?
+  15, 25 and 40 km | 75, 100 and 150 km | 750, 3,500 and 5,000 km | *150, 250 and 350–400 km
+  x: Project Kusha is reported as a long-range air-defence project with M1, M2 and M3 interceptors of about 150, 250 and 350–400 km ranges, respectively.
+[fb22d494385a6] sub6
+  India's IADWS, first tested in August 2025, combines QRSAM and VSHORADS with which of the following?
+  Iron Dome | S-400 Triumf | *A high-power laser directed-energy weapon | Barak-1
+  x: IADWS = QRSAM + VSHORADS + a high-power laser DEW, all indigenous.
+[fdc6c2d0750ae] sub6
+  What is Akash Tarang, a building block of Mission Sudarshan Chakra?
+  Automated air-defence control network | *Anti-drone soft-kill electronic warfare system | Airborne early-warning radar | Long-range surface-to-air missile
+  x: Akash Tarang is an indigenous anti-drone soft-kill EW system; Akashteer is the control network.
+[gfc224cbaec12] sub6
+  Which country developed the S-400 Triumf air defence system?
+  Israel | USA | *Russia | France
+  x: The S-400 Triumf is a Russian long-range surface-to-air missile system; the IAF calls it 'Sudarshan Chakra'.
+[na4bc14961cc] sub7
+  In which year did India become a member of the Wassenaar Arrangement?
+  2016 | *2017 | 2018 | 2008
+  x: India joined Wassenaar in 2017; it joined the MTCR and the Hague Code of Conduct in 2016 and the Australia Group in 2018.
+[nd562745c2fe] sub7
+  Which of the following is NOT correct about India and nuclear regimes?
+  India has not signed the NPT, calling it discriminatory | *India has been an NSG member since its 2008 waiver | India will not sign the CTBT until it is tied to time-bound global disarmament | India keeps a voluntary nuclear-test moratorium
+  x: India is not an NSG member (blocked by China); it got the 2008 NSG waiver and follows NSG guidelines.
+[n2632a6b1f78] sub7
+  On which condition does India support a universal and verifiable Fissile Material Cut-off Treaty?
+  *does not cap India’s existing stockpile | caps India’s existing stockpile immediately | permits unlimited nuclear testing | applies only to non-nuclear-weapon states
+  x: India supports a universal and verifiable FMCT, but its position is that the treaty should not cap its existing stockpile.
+[na9140d3c634] sub7
+  Besides the WMD Act, through which list does India follow the guidelines of the NSG, MTCR, Wassenaar Arrangement and Australia Group?
+  SEZ list | *SCOMET list | Union List | Negative list
+  x: India implements these export-control guidelines through the WMD Act and the SCOMET list.
+[f3f28608de684] sub7
+  Which country has blocked India's membership of the Nuclear Suppliers Group?
+  Russia | France | *China | USA
+  x: China blocks India's NSG entry; India got an NSG waiver in 2008 and follows its guidelines.
+[ffa0e3458b70e] sub7
+  Under the NPT, only states that tested a nuclear device before which year are nuclear-weapon states?
+  *1967 | 1970 | 1998 | 1974
+  x: Only the five states that tested before 1967 are NWS, which India calls discriminatory.
+[fd24ddfabb152] sub7
+  India is NOT a member of which of the following?
+  Wassenaar Arrangement | *Nuclear Suppliers Group | MTCR | Australia Group
+  x: India is a member of the MTCR, Wassenaar and Australia Group, but not of the NSG, NPT or CTBT.
+[g5608e6f434a9] sub7
+  In which year did India become a member of the Missile Technology Control Regime (MTCR)?
+  2008 | *2016 | 2017 | 2018
+  x: India joined the MTCR in 2016 as its 35th member; Wassenaar followed in 2017 and the Australia Group in 2018.
+[gb44b6aec5e87] sub7
+  In which year did India become a member of the Australia Group?
+  2016 | 2017 | *2018 | 2008
+  x: India joined the Australia Group in January 2018, after MTCR (2016) and Wassenaar (2017).
+[ga83b78762b75] sub7
+  India joined the Missile Technology Control Regime (MTCR) in 2016 as its:
+  34th member | *35th member | 36th member | 42nd member
+  x: India became the 35th member of the MTCR in 2016.
+
