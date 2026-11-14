@@ -1,0 +1,595 @@
+=== NOTES 5:61 | Nuclear Energy – Three-stage Programme, Reactor Types, Phwr/fbr/ahwr, Thorium Strategy
+## SUB 0 | Nucleus, Isotopes and Nuclear Fuels
+[61:0:0] # Nucleus Basics
+[61:0:1] - Nucleus = **protons + neutrons**; **mass number** = protons + neutrons.
+[61:0:2] - **Pu-242** (Z = 94) has **148 neutrons**.
+[61:0:3] - Hydrogen isotopes: **protium** (no neutron), **deuterium** (1 neutron, stable, heavy hydrogen), **tritium** (2 neutrons). They are isotopes of hydrogen, not carbon.
+[61:0:4] - **Tritium**: made by hitting **lithium** with neutrons.
+[61:0:5] - **Heavy water (D₂O)**: deuterium takes the place of hydrogen. **H. C. Urey** discovered deuterium and heavy water (Nobel Chemistry **1934**).
+[61:0:6] # Isotopes, Isobars, Isotones
+[61:0:7] TABLE head: Term | Same | Different | Example
+  [61:0:7.0] Isotope | Atomic number (protons) | Mass number (neutrons) | ¹H, ²H, ³H; ¹⁶O, ¹⁷O, ¹⁸O
+  [61:0:7.1] Isobar | Mass number | Atomic number | ³H and ³He
+  [61:0:7.2] Isotone (isoneutronic) | Number of neutrons | Atomic and mass numbers | ³H and ⁴He (2 each); ¹⁴C, ¹⁵N, ¹⁶O (8 each)
+[61:0:8] # Fissile vs Fertile
+[61:0:9] TABLE head: Isotope | Type | Key fact
+  [61:0:9.0] U-235 | Fissile | Only 0.72% of natural uranium
+  [61:0:9.1] U-238 | Fertile | 99.28% of natural uranium; becomes Pu-239
+  [61:0:9.2] Pu-239 | Fissile | Not natural; bred from U-238
+  [61:0:9.3] Th-232 | Fertile | Th-232 + neutron → fissile U-233 (in FBR blankets)
+  [61:0:9.4] U-233 | Fissile | Fuel of Stage III and of KAMINI
+[61:0:10] - India's PHWRs use **natural uranium**.
+[61:0:11] - **Enrichment** = raising the share of **U-235** above the natural level by **isotope separation** (not U-238). Light water reactors need **3–5%** U-235.
+[61:0:12] # What is NOT a Nuclear Fuel
+[61:0:13] - Moderators, coolants and absorbers: **graphite, heavy water, sodium, boron, cadmium, zirconium**.
+[61:0:14] - Also not fuels: **helium** (inert gas), **lead, calcium**, **chromium** (not linked to atomic power). **Beryllium oxide** = a moderator.
+[61:0:15] - **Zirconium (Z = 40)** is not radioactive; elements above Z 80 are mostly radioactive; **technetium (43)** and **promethium (61)** are radioactive.
+[61:0:16] - **Uranium** = the metal used to produce electricity. Thorium is usable only by breeding to U-233.
+[61:0:17] APPSC 2007 keyed "U-238" as the better fuel; U-238 is fertile, the fissile fuel made from it is Pu-239.
+## SUB 1 | Fission vs Fusion and the Bombs
+[61:1:0] # Comparison
+[61:1:1] TABLE head: Point | Fission | Fusion
+  [61:1:1.0] Process | Heavy nucleus splits (U-235 + neutron → barium + krypton + 2–3 neutrons) | Two light nuclei join
+  [61:1:1.1] Condition | Neutron hit; critical mass | Very high temperature and pressure (thermonuclear)
+  [61:1:1.2] Energy | Large | More per unit mass
+  [61:1:1.3] Where | Power reactors, atom bomb | Sun and stars, hydrogen bomb
+  [61:1:1.4] Power use | All present-day nuclear electricity | Still at R&D stage
+[61:1:2] - **Chain reaction**: released neutrons split more U-235 nuclei; each fission releases more neutrons. **Criticality** = self-sustaining chain reaction.
+[61:1:3] - **Critical mass** = minimum fissile mass that sustains a chain reaction.
+[61:1:4] - **Reactor**: chain reaction **controlled** (moderators, control rods); **atom bomb**: uncontrolled.
+[61:1:5] - Stars: **fusion** (hydrogen → helium), not fission.
+[61:1:6] # Atomic vs Hydrogen Bomb
+[61:1:7] TABLE head: Feature | Atom bomb | Hydrogen bomb
+  [61:1:7.0] Principle | Uncontrolled fission of uranium/plutonium | Uncontrolled fusion of deuterium (and tritium) into helium, triggered by a fission bomb
+  [61:1:7.1] Person | Otto Hahn (with F. Strassmann, 1939) – fission principle | Edward Teller – "father of the hydrogen bomb"; first US test November 1952, Eniwetok (Marshall Islands)
+  [61:1:7.2] City | Bomb | Material
+  [61:1:7.3] Hiroshima | Little Boy | U-235
+  [61:1:7.4] Nagasaki (9 August 1945) | Fat Man | Pu-239
+[61:1:8] APPSC 2019: "Breaking apart of a nucleus is called fusion" is INCORRECT – that is fission.
+## SUB 2 | Radioactivity
+[61:2:0] - Discovered by **Henri Becquerel (1896)**; a **nuclear** (not chemical) property; a radioactive substance emits **alpha, beta and gamma**.
+[61:2:1] - Measured by the **Geiger (Geiger–Muller) counter**.
+[61:2:2] TABLE head: Emission | Nature | Charge | Stopped by
+  [61:2:2.0] Alpha | Helium nucleus (2p + 2n), mass ≈ helium nucleus | +2 | Paper or skin
+  [61:2:2.1] Beta | Electron (negative beta) or positron (positive beta) | −1 / +1 | Few mm of aluminium
+  [61:2:2.2] Gamma | EM radiation | Zero | Lead or concrete
+[61:2:3] - Zero charge: **neutrino, neutron**. **Deuteron** is not a sub-atomic particle.
+[61:2:4] - **Half-life** = time for half the nuclei to decay. Half-life 5 years → after 20 years **1/16** remains; half-life 10 days → **3/4** decays in 20 days.
+[61:2:5] - Natural decay series: **uranium** U-238 → Pb-206; **thorium** Th-232 → Pb-208. **Neptunium series = artificial**.
+[61:2:6] - **Xenon-135** = "nuclear poison" that absorbs neutrons.
+[61:2:7] - **Actinium series:** a natural decay series that begins with **U-235** and ends in **Pb-207**.
+## SUB 3 | Reactor Components and Reactor Types
+[61:3:0] # Components
+[61:3:1] TABLE head: Part | Function | Substances
+  [61:3:1.0] Moderator | Slows neutrons so U-235 can fission | Heavy water (D₂O), light water, graphite, beryllium oxide
+  [61:3:1.1] Coolant | Carries heat to make steam | Heavy water (PHWR), light water (LWR), liquid sodium (FBR)
+  [61:3:1.2] Control rods | Absorb neutrons, control the rate | Boron, cadmium, silver, indium
+[61:3:2] - Without control rods the chain reaction goes **out of bounds**; without a moderator a thermal reactor stops.
+[61:3:3] - **Ordinary water** can act as both moderator and coolant.
+[61:3:4] # Reactor Types
+[61:3:5] TABLE head: Reactor | Fuel | Moderator | Coolant | Indian example
+  [61:3:5.0] PHWR | Natural uranium | Heavy water | Heavy water | Stage I fleet
+  [61:3:5.1] BWR | Enriched uranium | Light water | Light water (boils in core) | Tarapur
+  [61:3:5.2] PWR / VVER | Low-enriched uranium | Light water | Pressurised light water | Kudankulam
+  [61:3:5.3] FBR | MOX (Pu-239 + U-238) | None | Liquid sodium | PFBR, Kalpakkam
+  [61:3:5.4] AHWR | Th-232 + U-233/Pu | Heavy water | Boiling light water | BARC design
+[61:3:6] - **LWRs**: light water as moderator and coolant; **over 85%** of world capacity; India now prioritises LWRs for fast capacity addition.
+[61:3:7] - **IAEA safeguards** cover reactors using **imported uranium**, not Indian-supplied ones.
+## SUB 4 | Homi Bhabha and the Three-stage Programme
+[61:4:0] - **Homi J. Bhabha** – "Father of the Indian nuclear programme"; 1950s plan to use **abundant thorium** against **scarce uranium**; aim: **self-reliance via a closed fuel cycle**.
+[61:4:1] TABLE head: Stage | Reactor | Fuel | Output
+  [61:4:1.0] I | PHWR (D₂O moderator + coolant) | Natural uranium | Power + Pu-239 from spent fuel
+  [61:4:1.1] II | FBR (liquid sodium, no moderator) | MOX: Pu-239 + U-238 | Breeds more Pu-239; Th-232 blanket → U-233
+  [61:4:1.2] III | AHWR / thorium reactors | Th-232 + U-233 | Large-scale thorium use
+[61:4:2] # Advanced Heavy Water Reactor (AHWR)
+[61:4:3] - **300 MWe** (920 MWth), thorium-based; designed by **BARC**; **not yet built or running**.
+[61:4:4] - Heavy-water moderated, **boiling light-water** coolant; fuel pins of (Th-U-233) MOX and (Th-Pu) MOX.
+[61:4:5] - Main purpose: **large-scale thorium use**; a **bridge from Stage I to Stage III** without passing through Stage II.
+[61:4:6] APPSC G2 2025 (A/R): A "Dhruva is India's largest research reactor" – TRUE. On R (AHWR and plutonium-bearing spent fuel) the official key took R as true but NOT the correct explanation of A. The AHWR's goal is thorium use.
+[61:4:7] # Latest Developments
+[61:4:8] - **6 April 2026**: PFBR first criticality = India enters **Stage II**.
+[61:4:9] - **May 2026**: **ANEEL fuel** (thorium + **HALEU**, US firm **Clean Core Thorium Energy**) usable in existing PHWRs; could hasten Stage III.
+[61:4:10] - **Stage III hurdles**: thin fissile inventory, 10–12-year builds, protests – not lack of thorium.
+## SUB 5 | Fast Breeder Reactors
+[61:5:0] # Breeding Principle
+[61:5:1] - Core surrounded by a **U-238 blanket**; **fast neutrons** turn it into Pu-239 → **more fissile material than it burns** (electricity by fission).
+[61:5:2] - **No moderator**; **liquid sodium** coolant; fuel MOX from reprocessed Stage I spent fuel.
+[61:5:3] # PFBR, Kalpakkam (Tamil Nadu)
+[61:5:4] TABLE head: Item | Fact
+  [61:5:4.0] Capacity | 500 MWe (1,250 MWt); sodium-cooled, pool type
+  [61:5:4.1] Designed by | IGCAR
+  [61:5:4.2] Built and commissioned by | BHAVINI (PSU, 2003, DAE)
+  [61:5:4.3] First criticality | 6 April 2026
+  [61:5:4.4] Cost | Cost doubled; criticality 16+ years late
+[61:5:5] - India = **2nd after Russia** with a commercial-scale FBR; PFBR = **first indigenous FBR**.
+[61:5:6] - Next: 2 x 500 MWe FBRs at Kalpakkam.
+[61:5:7] # FBTR (Fast Breeder Test Reactor)
+[61:5:8] - At **IGCAR, Kalpakkam**; coolant **liquid sodium**; fuel indigenous **plutonium-uranium mixed carbide**.
+[61:5:9] - Design based on French reactor **Rapsodie**; critical **18 October 1985**.
+[61:5:10] - IGCAR **2005** milestone: reprocessing FBTR's mixed-carbide fuel.
+[61:5:11] APPSC G1 2024: PFBR was built by BHAVINI, not IGCAR (IGCAR designed it).
+## SUB 6 | Research Reactors
+[61:6:0] TABLE head: Reactor | Site | Key facts
+  [61:6:0.0] Apsara | BARC, Trombay (not Kalpakkam) | Pool type; critical 1956; India's first and Asia's first research reactor; Indian-built
+  [61:6:0.1] Apsara-U | Trombay | Upgraded Apsara
+  [61:6:0.2] CIRUS | Trombay | 40 MW, natural uranium, heavy water; with Canada (1956 decision); shut 2010
+  [61:6:0.3] Dhruva | Trombay | Largest (100 MW); natural uranium, heavy water; isotopes, materials testing
+  [61:6:0.4] KAMINI | Kalpakkam (IGCAR) | 30 kW; world's only U-233 reactor; neutron radiography
+  [61:6:0.5] Purnima I–III | Trombay | Home-designed thorium/U-233 reactors; shut down
+## SUB 7 | Thorium, Monazite and Uranium Mines
+[61:7:0] - India: about **25%** of world thorium vs about **2%** of uranium; **3rd-largest** thorium reserve.
+[61:7:1] - Thorium vs uranium: more abundant, more energy per unit mass mined, less harmful waste.
+[61:7:2] - **Monazite** = principal thorium ore; also **rare earths** (lanthanum, cerium), phosphate, a little uranium; resources **13.15 million tonnes** (DAE).
+[61:7:3] - Beach placer sands of **Kerala, Tamil Nadu, Odisha, Andhra Pradesh**, Maharashtra, West Bengal – **not the entire coast**.
+[61:7:4] - Only government bodies (**IREL**) may process and export monazite.
+[61:7:5] TABLE head: Mine | Location | Fact
+  [61:7:5.0] Jaduguda | East Singhbhum, Jharkhand | India's first uranium mine; UCIL seat
+  [61:7:5.1] Tummalapalle | YSR Kadapa, AP | UCIL mine + processing plant
+[61:7:6] - About **80%** of imported uranium comes from **Kazakhstan** (Dec 2025).
+## SUB 8 | Fusion Research
+[61:8:0] - **ITER** (International Thermonuclear Experimental Reactor): **Cadarache, southern France**; **tokamak**; world's largest **magnetic confinement** experiment.
+[61:8:1] - Members: **EU + six**: India, China, Japan, South Korea, Russia, USA. **Canada is NOT a member**. India joined **2005**; supplies the **cryostat**.
+[61:8:2] - **500 MW out from 50 MW in** (~10 times). Advantage for India: can build fusion power reactors.
+[61:8:3] - **Institute for Plasma Research, Gandhinagar** (not BARC): **Aditya** (first Indian tokamak) and **SST-1** (Steady State Superconducting Tokamak).
+[61:8:4] - **December 2022**: first fusion **ignition** / net energy gain – **National Ignition Facility**, **Lawrence Livermore National Laboratory**, USA (US DOE/NNSA), using **lasers**.
+## SUB 9 | Institutions, Acts, Mission and Smrs
+[61:9:0] # Institutions
+[61:9:1] TABLE head: Body | Seat | Role
+  [61:9:1.0] AEC | Mumbai | Main policy body
+  [61:9:1.1] DAE | Mumbai | Set up 1954; all nuclear activities
+  [61:9:1.2] BARC | Trombay | Began 1954 as AEET; renamed 1967 after Bhabha
+  [61:9:1.3] IGCAR | Kalpakkam | Est. 1971; FBR technology; also MAPS at Kalpakkam
+  [61:9:1.4] AMD | Hyderabad | Exploration of atomic minerals
+  [61:9:1.5] NPCIL | Mumbai | PSU (1987); builds and runs power reactors
+  [61:9:1.6] BHAVINI | Kalpakkam | Builds and runs FBRs
+  [61:9:1.7] NFC | Hyderabad | Nuclear fuel fabrication
+  [61:9:1.8] UCIL | Jaduguda | Uranium mining and milling
+[61:9:2] # Acts and Data
+[61:9:3] - **Atomic Energy Act, 1948** – limited atomic energy to peaceful uses.
+[61:9:4] - **SHANTI Act 2025** (assent **20 Dec 2025**) – repealed **Atomic Energy Act 1962** and **CLNDA 2010**; licensed private companies/JVs may build, own and operate plants.
+[61:9:5] - NPCIL fleet **25 reactors, 8,880 MW**; target **22.38 GW by 2031-32**.
+[61:9:6] - **Nuclear Energy Mission** (Budget 2025-26): **100 GW by 2047**; **₹20,000 crore** for SMRs.
+[61:9:7] # Small Modular Reactors
+[61:9:8] - Up to **300 MWe** per unit (~one-third of a conventional reactor); factory-built; refuelled every **3–7 years** (vs 1–2).
+[61:9:9] - **Bharat Small Reactors** (NPCIL): based on **220 MW PHWR**; captive plants for industry.
+[61:9:10] - **AP angle**: **CODENE** at **IIT Hyderabad** for SMR design and safety (Jun 2026); Tummalapalle uranium.
+## SUB 10 | Number Game and Quick Revision
+[61:10:0] TABLE head: Item | Fact
+  [61:10:0.0] U-235 in natural uranium | 0.72%
+  [61:10:0.1] LWR enrichment | 3–5%
+  [61:10:0.2] PFBR | 500 MWe; critical 6 Apr 2026
+  [61:10:0.3] AHWR | 300 MWe
+  [61:10:0.4] CIRUS / Dhruva / KAMINI | 40 MW / 100 MW / 30 kW
+  [61:10:0.5] India's thorium share | ~25%
+  [61:10:0.6] Target | 100 GW by 2047
+[61:10:1] # FIRST / LAST / SPECIAL FACTS
+[61:10:2] - Jaduguda: first uranium mine; Aditya: first Indian tokamak.
+[61:10:3] - KAMINI: world's only U-233 reactor.
+## SUB 11 | Appsc Previous Year Questions
+[61:11:0] TABLE head: Examination | Question Area
+  [61:11:0.0] APPSC 2007 | Better nuclear fuel (U-238 vs fissile)
+  [61:11:0.1] APPSC 2018 | ITER – tokamak, magnetic confinement
+  [61:11:0.2] APPSC 2019 | Fission vs fusion statement
+  [61:11:0.3] Group 1 Prelims 2022 | Uranium enrichment; breeding principle
+  [61:11:0.4] Group 1 Prelims 2024 | PFBR builder – BHAVINI
+  [61:11:0.5] Group 2 Mains 2025, Paper 2 | Dhruva largest research reactor; AHWR (A/R); reactor locations
+## SUB 12 | High-probability Mcq Traps
+[61:12:0] VERY IMPORTANT
+[61:12:1] - 1. **Fission = splitting**, fusion = joining; stars run on fusion.
+[61:12:2] - 2. **Hiroshima = U-235**, Nagasaki = Pu-239.
+[61:12:3] - 3. **PFBR built by BHAVINI**, designed by IGCAR.
+[61:12:4] - 4. **Apsara first, Dhruva largest, KAMINI only U-233**; Apsara is at Trombay, not Kalpakkam.
+[61:12:5] - 5. **Enrichment raises U-235**, not U-238.
+[61:12:6] - 6. Graphite, cadmium, helium, zirconium are **not fuels**.
+[61:12:7] - 7. **Canada is not an ITER member**; ITER is in France.
+[61:12:8] - 8. Aditya and SST-1 belong to **IPR Gandhinagar**, not BARC.
+[61:12:9] - 9. SHANTI Act repealed the **1962** Act, not the 1948 Act.
+
+=== OWN MCQs of 5:61 (99)
+[nchemistry-11-18] sub0
+  What are ³H and ⁴He, each having two neutrons, called?
+  Isotopes | *Isotones | Isobars | Isomers
+  x: Nuclides with the same number of neutrons are isotones; ³H and ⁴He both have 2 neutrons.
+[ncbd6e52beac] sub0
+  Which of the following is wrongly matched?
+  *U-238 – Fissile fuel of Stage III and KAMINI | U-233 – Fissile fuel of Stage III and KAMINI | Pu-239 – Fissile isotope produced from U-238 by neutron absorption | U-235 – Fissile isotope present in natural uranium
+  x: U-238 is the fertile isotope converted into Pu-239; the fuel of Stage III and KAMINI is U-233.
+[n3779a64f4a6] sub0
+  What does enrichment of uranium refer to?
+  Removing all radioactive isotopes from natural uranium | Converting U-235 into Th-232 | Increasing the proportion of U-238 through chemical separation | *Increasing the proportion of U-235 through isotope separation
+  x: Enrichment raises the share of U-235, the fissile isotope, by isotope separation; it does not increase U-238.
+[nee0b700d7f7] sub0
+  Which one of the following is NOT a nuclear fuel but may serve as a moderator, coolant or absorber in a reactor?
+  Pu-239 | U-235 | *Graphite | U-233
+  x: Graphite is a reactor moderator, not a nuclear fuel. U-235, Pu-239 and U-233 are fissile fuels.
+[n4083ee763d0] sub0
+  Which element is bombarded with neutrons to produce tritium?
+  *Lithium | Boron | Beryllium | Helium
+  x: Tritium (1 proton + 2 neutrons) is produced by bombarding lithium with neutrons.
+[nb4e98cb52a0] sub0
+  India possesses about what share of the world's thorium?
+  2% | 10% | *25% | 40%
+  x: India has about 25% of global thorium (and about 2% of uranium).
+[nchemistry-11-4] sub0
+  What are atoms having the same mass number but different atomic numbers called?
+  *Isobars | Isotones | Isomers | Isotopes
+  x: Isobars share mass number but differ in atomic number; isotopes share atomic number but differ in mass number.
+[fe77bd6ab6500] sub0
+  What percentage of natural uranium is U-235?
+  99.28% | *0.72% | 3–5% | 25%
+  x: Fissile U-235 is only 0.72% of natural uranium; fertile U-238 is 99.28%.
+[fece335f118ab] sub0
+  To what level of U-235 must uranium be enriched for light water reactors?
+  0.72% | 20–25% | *3–5% | 99%
+  x: LWRs need 3–5% U-235, above the natural 0.72%.
+[f86810c170c24] sub0
+  U-238 is a fertile isotope. Into which fissile material is it converted?
+  U-233 | U-235 | Th-232 | *Pu-239
+  x: U-238 absorbs a neutron and becomes fissile Pu-239; Th-232 becomes U-233.
+[fc8cb7a6bc441] sub0
+  Which of the following is NOT correct about nuclear isotopes?
+  U-235 is fissile | Th-232 is fertile | *U-238 is fissile | U-233 is fissile
+  x: U-238 is fertile, not fissile; the fissile fuel bred from it is Pu-239.
+[n281eab0c027] sub1
+  What is the splitting of a heavy nucleus called?
+  Nuclear fusion | *Nuclear fission | Beta emission | Neutron capture
+  x: Fission is the splitting of a heavy nucleus, while fusion is the joining of two light nuclei.
+[nd71b5ee1e66] sub1
+  Through which process is all present-day nuclear electricity generated?
+  Nuclear fusion | Radioactive decay | *Nuclear fission | Both fission and fusion
+  x: Present-day reactors use fission; fusion occurs in the Sun and stars and fusion power is still at the R&D stage.
+[n25e76c3d91e] sub1
+  How much energy per unit mass does nuclear fusion release compared with nuclear fission?
+  Equal | Less | *More | Negligible
+  x: Fusion releases more energy per unit mass than fission, though it needs extremely high temperature and pressure.
+[n4a779b82ec6] sub1
+  What initiates the fusion reaction in a hydrogen bomb?
+  A chemical explosion alone | A laser pulse | *A fission explosion | A neutron reflector
+  x: A hydrogen bomb uses fusion triggered by a fission explosion; an atomic bomb is based on uncontrolled fission.
+[naed779b6393] sub1
+  Which one of the following pairs is correctly matched?
+  Hiroshima — Fat Man — Pu-239 | Nagasaki — Little Boy — U-235 | *Hiroshima — Little Boy — U-235 | Nagasaki — Little Boy — Pu-239
+  x: The Hiroshima bomb, Little Boy, used U-235. The Nagasaki bomb, Fat Man, used Pu-239.
+[f80c4d68cc2f6] sub1
+  What is the minimum mass of fissile material that can sustain a chain reaction called?
+  *Critical mass | Mass number | Half-life | Criticality
+  x: Critical mass is the minimum fissile mass for a chain reaction; criticality is the self-sustaining state itself.
+[f1c9198694465] sub1
+  The bomb 'Little Boy' dropped on Hiroshima used which fissile material?
+  Pu-239 | U-238 | *U-235 | Th-232
+  x: Little Boy (Hiroshima) used U-235; Fat Man (Nagasaki) used Pu-239.
+[ne5fa1425c5d] sub2
+  Why is Xenon-135 called a 'nuclear poison'?
+  Emits alpha particles | Slows down neutrons | Is chemically toxic | *Absorbs neutrons
+  x: Xenon-135 absorbs neutrons and so acts as a nuclear poison in a reactor.
+[ndc7f7632986] sub2
+  Which one of the following correctly matches radiation with its usual shielding requirement?
+  Alpha — lead or concrete | *Beta — a few millimetres of aluminium | Gamma — paper or skin | Gamma — a thin layer of aluminium only
+  x: Beta radiation can generally be stopped by a few millimetres of aluminium. Alpha is stopped by paper or skin, whereas gamma requires dense shielding such as lead or concrete.
+[ne13fb0ad3f1] sub2
+  The half-life of a radioactive substance is the time required for:
+  All its nuclei to decay | Its atomic mass to become zero | Its radiation to lose half its penetrating power | *Half of its radioactive nuclei to decay
+  x: Half-life is the time required for half of the radioactive nuclei in a sample to undergo decay.
+[n947949b62ff] sub2
+  Which of the following is NOT correct about radioactive series?
+  *The neptunium series is a natural radioactive series | The thorium series begins with Th-232 and ends with Pb-208 | The actinium series begins with U-235 and ends with Pb-207 | The uranium series begins with U-238 and ends with Pb-206
+  x: The neptunium series is artificial, not natural.
+[nchemistry-11-23] sub2
+  What is a positively charged beta particle called?
+  Electron | Helium nucleus | Proton | *Positron
+  x: Positive beta is a positron; negative beta is an electron and an alpha particle is a +2 helium nucleus.
+[nchemistry-11-21] sub2
+  Which one of the following statements is incorrect?
+  *Radioactivity is a chemical phenomenon. | Radioactivity emits alpha particles. | The neutron is a neutral particle. | Radioactivity is a nuclear phenomenon.
+  x: Option A is incorrect: radioactivity is a nuclear process, unaffected by chemical bonding, and it emits alpha, beta and gamma radiation.
+[f547a7d778fac] sub2
+  In which year did Henri Becquerel discover radioactivity?
+  *1896 | 1934 | 1939 | 1887
+  x: Becquerel discovered radioactivity in 1896.
+[f5a35b32f2e52] sub2
+  In which isotope does the natural thorium decay series, starting with Th-232, end?
+  Pb-206 | U-233 | *Pb-208 | Pu-239
+  x: The thorium series runs Th-232 to Pb-208; the uranium series ends in Pb-206, and the neptunium series is artificial.
+[f5d6239283e36] sub2
+  Which of the following stops gamma radiation?
+  Paper | Skin | A few mm of aluminium | *Lead or concrete
+  x: Gamma rays need lead or concrete; alpha is stopped by paper and beta by a few mm of aluminium.
+[nc797a98ec5b] sub3
+  In Light Water Reactors, which account for over 85% of world nuclear capacity, what role does light water play?
+  Moderator only | Coolant only | *Both moderator and coolant | Neither moderator nor coolant
+  x: LWRs use light water for both moderation and cooling and make up more than 85% of global nuclear capacity.
+[nb14835ce6c6] sub3
+  Which coolant is used in the Stage II Fast Breeder Reactors of India?
+  Heavy water | *Liquid sodium | Light water | Helium gas
+  x: Stage II FBRs use liquid sodium coolant and no moderator, since fast neutrons are needed.
+[n5e3ff12621e] sub3
+  Which component of a nuclear reactor slows down neutrons?
+  Coolant | Control rods | *Moderator | Blanket
+  x: The moderator slows neutrons; the coolant carries heat and control rods absorb neutrons.
+[nf0d318b292c] sub3
+  Which one of the following pairs is correctly matched?
+  PHWR — liquid sodium coolant | FBR — heavy-water moderator | *BWR — light water as moderator and coolant | AHWR — no moderator and no coolant
+  x: A BWR uses light water both as moderator and coolant, with the water boiling in the core. PHWRs use heavy water, while FBRs use sodium and no moderator.
+[n13d42bc397a] sub3
+  Which one of the following pairs is correctly matched?
+  Tarapur — VVER | Kudankulam — BWR | *Tarapur — BWR | Kudankulam — PHWR
+  x: Tarapur is associated with BWR technology, whereas Kudankulam uses VVER reactors.
+[f91ae1923b53a] sub3
+  Which reactor type has no moderator and uses liquid sodium as coolant?
+  PHWR | BWR | *Fast breeder reactor | AHWR
+  x: The FBR uses fast neutrons, so it needs no moderator; it is cooled by liquid sodium.
+[g7a61a4745655] sub3
+  Which of the following substances is used in the control rods of a nuclear reactor?
+  Graphite | Heavy water | *Cadmium | Liquid sodium
+  x: Control rods absorb neutrons to control the chain reaction; boron and cadmium are used for them.
+[g7a47c5e84af2] sub3
+  What is the function of control rods in a nuclear reactor?
+  To slow down neutrons | *To absorb neutrons and control the rate of fission | To carry heat to make steam | To convert U-238 into Pu-239
+  x: Control rods absorb neutrons and so control the rate of the chain reaction; the moderator slows neutrons.
+[n774b52dca28] sub4
+  Which one of the following correctly represents the sequence of India's three-stage nuclear power programme?
+  *PHWR → FBR → AHWR/thorium reactors | FBR → PHWR → AHWR/thorium reactors | AHWR → PHWR → FBR | PHWR → AHWR → FBR
+  x: India's programme begins with PHWRs using natural uranium, proceeds to FBRs using plutonium-based fuel, and culminates in thorium-based AHWRs or other thorium reactors.
+[nc11e85a00cb] sub4
+  Which of the following is NOT correct about Homi Bhabha's three-stage nuclear programme?
+  It aims at self-reliance through a closed fuel cycle | It seeks to overcome India's scarcity of uranium | It makes use of India's abundant thorium | *It was designed to use abundant uranium in place of scarce thorium
+  x: The programme uses abundant thorium to overcome scarce uranium, not the other way round.
+[n00464f9628b] sub4
+  The AHWR acts as a bridge between which stages of India's nuclear programme?
+  *Stage I and Stage III | Stage II and Stage III | Stage I and Stage II | Uranium mining and Stage I
+  x: The AHWR bridges Stage I and Stage III, advancing thorium use without passing through Stage II.
+[n36c5805325a] sub4
+  The 300 MW Advanced Heavy Water Reactor (AHWR) designed by BARC uses which fuel combination?
+  Natural uranium only | *Th-232 plus U-233 | Low-enriched uranium only | Uranium-plutonium mixed carbide
+  x: The AHWR is a 300 MW thorium reactor with heavy-water moderator, boiling light-water coolant and Th-232 + U-233 fuel.
+[nca9a4a0adfa] sub4
+  On which reactors is Stage I of India's three-stage nuclear programme based?
+  *Pressurised Heavy Water Reactors | Fast Breeder Reactors | Advanced Heavy Water Reactors | Thorium-based reactors
+  x: Stage I uses PHWRs fuelled by natural uranium; its spent fuel yields Pu-239 for the next stage.
+[nc06bca7a28a] sub4
+  With which material does ANEEL fuel, developed by the US firm Clean Core Thorium Energy, combine thorium?
+  Pu-239 | *HALEU | U-233 | Natural uranium
+  x: ANEEL is thorium plus HALEU and can be used in existing PHWRs.
+[n35fbfddaa97] sub4
+  Consider the following statements about India's nuclear power:
+1. NPCIL operates 25 reactors with an operating capacity of 8,880 MW.
+2. India's nuclear capacity target is 22.38 GW by 2031-32.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both figures are correct: 25 reactors with 8,880 MW, and a target of 22.38 GW by 2031-32.
+[n0a2bddbe12a] sub4
+  The criticality of the Prototype Fast Breeder Reactor in April 2026 signified entry into which stage of India's three-stage nuclear programme?
+  Stage III | Preparatory stage | *Stage II | Stage I
+  x: PFBR criticality in April 2026 marked India's entry into Stage II of the three-stage programme.
+[na0a043be21e] sub4
+  Which of the following pairs is NOT correctly matched?
+  CIRUS — shut down in 2010 | *AHWR — reactor already built and operating at Trombay | Purnima series — thorium/U-233 research reactors | APSARA-U — upgraded version of APSARA
+  x: AHWR is a BARC design for a 300 MW thorium reactor; it is not described as an already built and operating reactor at Trombay. The other pairs are correct.
+[na69a9239a3c] sub4
+  Which of the following is NOT identified as a bottleneck affecting the progression towards Stage III?
+  *Absence of any thorium resources in India | A thin fissile inventory | 10–12-year construction periods | Local protests
+  x: The identified bottlenecks include a thin fissile inventory for Stage III, 10–12-year construction periods and local protests. Absence of thorium resources is not identified as a bottleneck; the programme is based on India's abundant thorium.
+[fc7dab9c11ba7] sub4
+  Who is known as the 'Father of the Indian nuclear programme'?
+  Vikram Sarabhai | *Homi J. Bhabha | H. C. Urey | Otto Hahn
+  x: Homi J. Bhabha planned the three-stage programme in the 1950s and is its father.
+[feae135a98f3b] sub4
+  Stage II of India's three-stage nuclear programme uses which fuel?
+  Natural uranium | Th-232 + U-233 | *MOX: Pu-239 + U-238 | Enriched uranium
+  x: Stage II FBRs burn MOX of Pu-239 and U-238; Stage I uses natural uranium and Stage III thorium with U-233.
+[n126509d72a9] sub4
+  Which of the following is NOT correct about the Advanced Heavy Water Reactor (AHWR)?
+  It is a conceptual prototype designed at BARC | It is regarded as India's flagship thorium reactor | *It uses liquid sodium as its coolant | It uses heavy water as its moderator
+  x: The AHWR is a BARC-designed thorium reactor that uses heavy water as moderator and boiling light water as coolant. Liquid sodium is the coolant of fast breeder reactors, not of the AHWR.
+[g4461a7d85dba] sub4
+  What is the designed capacity of the thorium-based Advanced Heavy Water Reactor (AHWR) of BARC?
+  220 MWe | *300 MWe | 500 MWe | 700 MWe
+  x: The AHWR is a 300 MWe (920 MWth) thorium-based design of BARC, not yet built.
+[n0f86d321dfd] sub5
+  What was the 2005 milestone associated with IGCAR and the Fast Breeder Test Reactor?
+  Production of U-233 in KAMINI | Construction of the first AHWR | *Reprocessing of FBTR’s mixed-carbide fuel | Commercial operation of the PFBR
+  x: IGCAR’s 2005 milestone was the reprocessing of the mixed-carbide fuel used in the Fast Breeder Test Reactor.
+[n29228e1b58d] sub5
+  Into which fissile material do fast neutrons convert the U-238 blanket in a fast breeder reactor?
+  Th-232 | U-233 | U-235 | *Pu-239
+  x: Fast neutrons turn the U-238 blanket into Pu-239, so the FBR breeds more fuel than it consumes.
+[n74ed3e41254] sub5
+  What is the rated electrical capacity of the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam?
+  700 MWe | 220 MWe | 1,250 MWe | *500 MWe
+  x: The sodium-cooled, pool-type PFBR is rated at 500 MWe (1,250 MWt).
+[n947f82de37c] sub5
+  Once the PFBR operates commercially, India is expected to become the second country after which country to operate a commercial-scale fast breeder reactor?
+  United States of America | France | Canada | *Russia
+  x: India is expected to become the second country after Russia to operate a commercial-scale fast breeder reactor.
+[n96907eb1995] sub5
+  Which cost and schedule difficulties has the PFBR project faced?
+  Its cost was halved and it finished 5 years early. | *Its cost doubled and it ran 16 years late. | Its cost tripled and it ran 30 years late. | Its cost remained unchanged and it ran 2 years late.
+  x: The PFBR's cost was reported to have doubled, while the project ran 16 years late.
+[f99b85060e0fe] sub5
+  In which year did the Fast Breeder Test Reactor (FBTR) at Kalpakkam first attain criticality?
+  *1985 | 2005 | 1971 | 2026
+  x: The FBTR, based on the French Rapsodie design, went critical on 18 October 1985.
+[g7fe80f3732d4] sub5
+  Which institution designed the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam?
+  BHAVINI | NPCIL | *Indira Gandhi Centre for Atomic Research (IGCAR) | Bhabha Atomic Research Centre (BARC)
+  x: IGCAR, Kalpakkam designed the PFBR; BHAVINI built and commissioned it.
+[g518acaf42719] sub5
+  BHAVINI, a public sector undertaking of the Department of Atomic Energy set up in 2003, builds and operates which type of reactors?
+  Pressurised Heavy Water Reactors | *Fast Breeder Reactors | Boiling Water Reactors | Research reactors
+  x: BHAVINI was set up to build and run fast breeder reactors such as the PFBR at Kalpakkam.
+[ga7b942472cbb] sub5
+  The design of the Fast Breeder Test Reactor (FBTR) at Kalpakkam is based on which French reactor?
+  *Rapsodie | Phenix | Superphenix | Osiris
+  x: FBTR, critical in 1985, was designed on the lines of the French fast reactor Rapsodie.
+[n4c2db3bb13c] sub6
+  The Prototype Fast Breeder Reactor is significant because it is:
+  Asia's first research reactor | The world's only U-233 reactor | India's first uranium mine | *India's first indigenous Fast Breeder Reactor
+  x: PFBR is described as India's first indigenous Fast Breeder Reactor.
+[ncd51fb7a94f] sub6
+  Assertion (A): APSARA research reactor is located at Kalpakkam.
+Reason (R): APSARA is a swimming-pool (pool-type) reactor.
+  Both A and R are true and R is the correct explanation of A | Both A and R are true but R is not the correct explanation of A | A is true but R is false | *A is false but R is true
+  x: APSARA is located at BARC, Trombay, not Kalpakkam; it is a pool-type reactor that became critical in 1956.
+[nbb7751c53fc] sub6
+  With which country's collaboration was the CIRUS research reactor at Trombay built?
+  *Canada | Soviet Union | France | United Kingdom
+  x: CIRUS was built with Canada following a 1956 decision and was shut down in 2010.
+[nf754f7d4c34] sub6
+  Arrange the following research reactors in ascending order of capacity:
+1. Dhruva
+2. KAMINI
+3. CIRUS
+  1, 3, 2 | *2, 3, 1 | 3, 2, 1 | 2, 1, 3
+  x: KAMINI is 30 kW, CIRUS 40 MW and Dhruva, India's largest research reactor, 100 MW.
+[fa476a319c808] sub6
+  Which is India's largest research reactor?
+  APSARA | CIRUS | KAMINI | *Dhruva
+  x: Dhruva (100 MW) at Trombay is the largest; APSARA was the first.
+[fe2e71c15f009] sub6
+  Where is KAMINI, the world's only U-233-fuelled reactor, located?
+  Trombay | *Kalpakkam | Tarapur | Gandhinagar
+  x: KAMINI (30 kW) is at IGCAR, Kalpakkam.
+[g953957921164] sub6
+  Which was the first research reactor of India and of Asia?
+  CIRUS | Dhruva | *Apsara | KAMINI
+  x: Apsara at BARC, Trombay, a pool-type reactor, was India's first and Asia's first research reactor.
+[g2357b16d454f] sub6
+  In which year did Apsara, India's first research reactor, attain criticality?
+  *1956 | 1969 | 1985 | 1972
+  x: Apsara at Trombay went critical in 1956; it was Indian-built.
+[n4e7b90fe371] sub7
+  Which body is permitted to process and export monazite in India?
+  UCIL | *IREL | NPCIL | BHAVINI
+  x: Only government bodies such as IREL may process and export monazite, found in the beach sands of Kerala and Odisha.
+[n25acdbf7d59] sub7
+  Jaduguda, India's first uranium mine, is located in which district and State?
+  *East Singhbhum district, Jharkhand | Ranchi district, Jharkhand | Anantapur district, Andhra Pradesh | YSR Kadapa district, Andhra Pradesh
+  x: Jaduguda is located in East Singhbhum district of Jharkhand and is India's first uranium mine.
+[n43ba394209c] sub7
+  The Tummalapalle uranium mine of UCIL is located in which district of Andhra Pradesh?
+  Kurnool | *YSR Kadapa | Prakasam | Anantapur
+  x: Tummalapalle, a UCIL uranium mine with a processing plant, is in YSR Kadapa district.
+[naba92de6a8a] sub7
+  Approximately what proportion of India's imported uranium comes from Kazakhstan?
+  About 40 percent | About 60 percent | *About 80 percent | About 20 percent
+  x: About 80 percent of imported uranium is stated to come from Kazakhstan.
+[ndde33177685] sub7
+  Thorium is considered advantageous over uranium because it:
+  Can be used directly in every reactor without conversion | *Is more abundant, yields more energy per unit mass of mined mineral and produces less harmful waste | Requires no reactor or fuel-cycle technology | Is less abundant but produces no energy waste
+  x: Thorium is more abundant, provides greater energy per unit mass of mined mineral and leaves less harmful waste compared with uranium.
+[f4a8942d32dfe] sub7
+  Which of the following is NOT correct about monazite?
+  It is the principal ore of thorium | It contains rare earths such as lanthanum and cerium | Only IREL-type government bodies may process and export it | *It occurs along the entire Indian coast
+  x: Monazite occurs in beach sands of Kerala, TN, Odisha, AP and others, not along the entire coast.
+[f53ba6aaa0ede] sub7
+  India holds about what share of the world's uranium?
+  25% | *2% | 10% | 80%
+  x: India has about 2% of world uranium against about 25% of thorium.
+[g04e929e382d5] sub7
+  What is India's rank in the world in thorium reserves?
+  First | Second | *Third | Fifth
+  x: India holds about 25% of world thorium and has the third-largest thorium reserve.
+[g2d961480d769] sub7
+  Beach placer sands rich in monazite are found along the coasts of which of the following States?
+  Gujarat, Goa and Karnataka | *Kerala, Tamil Nadu, Odisha and Andhra Pradesh | Gujarat, Maharashtra and Goa only | Andaman and Nicobar Islands only
+  x: Monazite (thorium ore) occurs in beach sands of Kerala, Tamil Nadu, Odisha, Andhra Pradesh, Maharashtra and West Bengal, not the entire coast.
+[g8469063654dd] sub7
+  Besides thorium, which of the following is obtained from monazite?
+  *Rare earths such as lanthanum and cerium | Bauxite | Zirconium only | Natural gas
+  x: Monazite is the principal thorium ore and also gives rare earths (lanthanum, cerium), phosphate and a little uranium.
+[n366de7cf973] sub8
+  ITER is designed to give about 500 MW of output from how much input power?
+  100 MW | *50 MW | 5 MW | 250 MW
+  x: ITER, a tokamak fusion device, is designed for 500 MW output from 50 MW input, about ten times more out than in.
+[n43c0cbaf0c4] sub8
+  Where are India's tokamaks Aditya and SST-1 located?
+  BARC, Trombay | IGCAR, Kalpakkam | *Institute for Plasma Research, Gandhinagar | RRCAT, Indore
+  x: Aditya (India's first tokamak) and SST-1 are at the Institute for Plasma Research, Gandhinagar, not BARC.
+[f8d2adb86187a] sub8
+  Which component of ITER does India supply?
+  *Cryostat | Tokamak magnet | Lasers | Blanket of U-238
+  x: India, a member since 2005, supplies the cryostat.
+[n5ec907fa4b8] sub8
+  Where is the International Thermonuclear Experimental Reactor (ITER) being constructed?
+  Lawrence Livermore in the United Kingdom | Kalpakkam in India | Gandhinagar in India | *Cadarache in southern France
+  x: ITER is located at Cadarache in southern France. Gandhinagar is associated with India's Institute for Plasma Research.
+[g89310ec7b5e7] sub8
+  In which year did India join the ITER project?
+  1998 | *2005 | 2010 | 2016
+  x: India joined ITER in 2005 and supplies its cryostat.
+[g6698b1ebeaa8] sub8
+  Consider the following statements about ITER:
+1. It is a tokamak based on magnetic confinement.
+2. Canada is one of its members.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: ITER at Cadarache is a magnetic-confinement tokamak; its members are the EU, India, China, Japan, South Korea, Russia and USA, not Canada.
+[gaf63baf98769] sub8
+  Where was the first fusion ignition with net energy gain achieved in December 2022?
+  ITER, Cadarache | *National Ignition Facility, Lawrence Livermore National Laboratory, USA | Institute for Plasma Research, Gandhinagar | JET, Culham, United Kingdom
+  x: The National Ignition Facility at Lawrence Livermore (USA) achieved fusion ignition using lasers in December 2022.
+[g637923cbe023] sub8
+  Which was the first Indian tokamak?
+  SST-1 | ITER | *Aditya | KAMINI
+  x: Aditya, at the Institute for Plasma Research, Gandhinagar, was India's first tokamak; SST-1 came later.
+[n8af510eac71] sub9
+  On which reactor design are NPCIL's proposed Bharat Small Reactors based?
+  *220 MW PHWR | 700 MW PHWR | 300 MW AHWR | 500 MWe FBR
+  x: NPCIL sought proposals for 220 MW PHWR-based Bharat Small Reactors as captive plants for industry.
+[n05f3264f83d] sub9
+  What is the refuelling interval of Small Modular Reactors?
+  6 months | 1–2 years | *3–7 years | 15–20 years
+  x: SMRs are generally factory-built with a refuelling interval of about 3–7 years, longer than conventional reactors.
+[n10a8285b442] sub9
+  Which of the following pairs is wrongly matched?
+  AMD – Hyderabad | *IGCAR – Hyderabad | NPCIL – Mumbai | BHAVINI – Kalpakkam
+  x: IGCAR is at Kalpakkam, where it works on FBR technology and its fuel cycle; AMD is the Hyderabad body.
+[n24916d5d392] sub9
+  What is the maximum capacity per unit of a Small Modular Reactor (SMR)?
+  100 MWe | *300 MWe | 700 MWe | 1,000 MWe
+  x: An SMR has a capacity of up to 300 MWe per unit, about one-third the size of a conventional reactor.
+[n9fdbc91e07c] sub9
+  Which of the following pairs is NOT correctly matched?
+  *BHAVINI — Mumbai — uranium mining and milling | BARC — Trombay — research and development in nuclear technologies | UCIL — Jaduguda — uranium mining and milling | NFC — Hyderabad — nuclear fuel fabrication
+  x: BHAVINI is located at Kalpakkam and is associated with fast breeder reactors. Uranium mining and milling is the role of UCIL at Jaduguda.
+[n235ff2bfa1b] sub9
+  To what did the Atomic Energy Act of 1948 mainly limit atomic energy in India?
+  Space applications only | *Peaceful uses | Private commercial ownership only | Military applications only
+  x: The Atomic Energy Act, 1948, limited the use of atomic energy to peaceful purposes.
+[n62ab693a139] sub9
+  The SHANTI Act 2025 is associated with which of the following developments?
+  It restricts nuclear power generation exclusively to government companies. | It transfers all nuclear research from BARC to IIT Hyderabad. | It abolishes the Nuclear Energy Mission and the three-stage programme. | *It repeals the Atomic Energy Act, 1962 and the CLNDA, 2010, enabling licensed private participation.
+  x: The SHANTI Act 2025 repealed the Atomic Energy Act, 1962 and the CLNDA, 2010, allowing licensed private companies and joint ventures to build, own and operate nuclear plants.
+[n5e2c9ea0bb2] sub9
+  What nuclear power capacity does the Nuclear Energy Mission (Union Budget 2025-26) target by 2047?
+  50 GW | 75 GW | 150 GW | *100 GW
+  x: The mission targets 100 GW by 2047, with Rs 20,000 crore for Small Modular Reactors.
+[n60414659877] sub9
+  In which year was AEET, set up in 1954, renamed Bhabha Atomic Research Centre?
+  1954 | 1966 | *1967 | 1971
+  x: BARC began in 1954 as AEET and was renamed in 1967 after Homi Bhabha.
+[f4a7fe15dfe7c] sub9
+  Which nuclear body–seat pair is correctly matched?
+  NFC – Mumbai | *AMD – Hyderabad | UCIL – Kalpakkam | IGCAR – Trombay
+  x: AMD (atomic minerals exploration) and NFC are at Hyderabad; UCIL is at Jaduguda and IGCAR at Kalpakkam.
+[faf816f3f73e1] sub9
+  In which year was the Indira Gandhi Centre for Atomic Research (IGCAR) established?
+  1954 | 1967 | 1987 | *1971
+  x: IGCAR at Kalpakkam was set up in 1971 for FBR technology.
+[f0cedd1bd3859] sub9
+  The Nuclear Energy Mission (Budget 2025-26) earmarks how much for Small Modular Reactors?
+  *₹20,000 crore | ₹1,500 crore | ₹3,000 crore | ₹10,000 crore
+  x: The Mission sets ₹20,000 crore for SMRs and a target of 100 GW by 2047.
+[f6339887b7fd8] sub9
+  The SHANTI Act 2025 repealed the CLNDA 2010 and which other law?
+  Atomic Energy Act, 1948 | *Atomic Energy Act, 1962 | Patents Act | Environment Protection Act
+  x: SHANTI repealed the Atomic Energy Act 1962 and CLNDA 2010, not the 1948 Act.
+[g8572139b8541] sub9
+  In which year was the Department of Atomic Energy (DAE) set up?
+  1948 | *1954 | 1962 | 1971
+  x: The DAE was set up in 1954; the Atomic Energy Act came in 1948.
+[g2b492d13550f] sub9
+  CODENE, a centre for Small Modular Reactor design and safety, has been set up at which institution?
+  *IIT Hyderabad | IIT Madras | IIT Bombay | IISc Bengaluru
+  x: CODENE at IIT Hyderabad works on SMR design and safety (June 2026).
+
