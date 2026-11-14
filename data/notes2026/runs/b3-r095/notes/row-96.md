@@ -59,7 +59,7 @@
 - **Disputes**: the Council itself sets up a dispute mechanism (not the PAC); proceedings are **not invalid** due to a vacancy or defect in appointment.
 - **Mohit Minerals (2022)**: recommendations **persuasive, not binding**; simultaneous power under 246A; "flexible federation".
 > Exam angle: chair = Union FM (5 PYQs); statements on status, voting and functions.
-~~ Sources: NextGen Indian Economy - APPSC 09 p.5; NextGen Rocket Sheets Indian Economy p.19-21; Laxmikanth Indian Polity 8th ed. (GST Council chapter, part 02); app notes 3:96
+~~ Sources: NextGen Indian Economy - APPSC 09 p.5; NextGen Rocket Sheets Indian Economy p.19-21; app notes 3:96
 
 === Taxes Subsumed vs Not Subsumed
 | Central taxes subsumed | State taxes subsumed |
@@ -68,7 +68,7 @@
 | **Service Tax** | **Purchase Tax**, Luxury Tax, Entry Tax (all forms), **Octroi** |
 | **CVD** and SAD on imports | Entertainment Tax (except by local bodies) |
 | Central cesses and surcharges on supply | Taxes on advertisements, lotteries, betting, gambling |
-- GST replaced **indirect** taxes only (subsumed **Central as well as State** taxes) – **not** income tax, corporation tax, capital gains tax or property tax.
+- GST replaced **indirect** taxes only – conventionally **8 Central + 9 State** taxes (subsumed **Central as well as State** taxes) – **not** income tax, corporation tax, capital gains tax or property tax.
 - **Not subsumed**: **Basic Customs Duty**, **stamp duty**, electricity duty, motor vehicle tax, property tax, **State excise on alcoholic liquor**.
 > Exam angle: "Which tax was subsumed / abolished?" → VAT, excise, service tax, octroi, purchase tax ("all of these"); not customs.
 ~~ Sources: NextGen Indian Economy - APPSC 09 p.5-6; Ramesh Singh Indian Economy 10th ed. Part 5 p.207; app notes 3:96
