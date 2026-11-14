@@ -18,7 +18,6 @@
 - **Undavalli Heliport** got **India's first private Point-in-Space (PinS) Instrument Approach Procedure** approval - granted by **DGCA**; procedure developed by **AAI** to **ICAO** standards; for helicopter operations in bad weather / low visibility using Performance-Based Navigation and **GAGAN**.
 - **GAGAN** = GPS Aided GEO Augmented Navigation - by **ISRO and AAI**; AAI est. 1995.
 - **Venue of PM's projects:** PM Narendra Modi launched the projects worth about ₹17,900 crore at **Bhogapuram** (Vizianagaram district) on 1 August 2026, at the dedication of the new airport.
-# Ports and maritime
 - **Dugarajapatnam** greenfield shipbuilding cluster, **Tirupati district**: **in-principle approval** by the Centre; cost about **₹29,254 crore** (Sarbananda Sonowal in Lok Sabha); SPV of **Visakhapatnam Port Authority + AP Maritime Board** (APMB est. 2019); needs DPR and an anchor shipyard.
 - **AP Maritime Board HQ** shifted from **Kakinada to Amaravati**; Directorate of Ports also to Amaravati (revising 2019 GOs); APMB manages **non-major ports**.
 - **Kakinada SEZ** (KSEZ, also **Auro Industrial City**) revived after **two decades** (July 2026): MoUs about **₹1.5 lakh crore**; potential **1.5 lakh** jobs; 1,200-1,500 acres allotted; about 10 industries, 15,000 employees; 5,000+ acres contiguous land; 7 MoUs this year - metallurgical coke, speciality chemicals, green fuels, marine food processing; Korean interest **HD Hyundai**.
@@ -27,6 +26,7 @@
 ~~ Sources: Praveen CA-360 Aug 2026 magazine p.30-31 (Bhogapuram airport, PM's ₹17,849-crore projects, Thimsa record), p.32 (Dugarajapatnam, APMB est. 2019); Praveen CA-360 Jul 2026 magazine p.31 (ICP, 39th Category-1 airport), p.43 (Undavalli PinS); Praveen CA-360 Jun 2026 magazine p.36 (APMB HQ Kakinada to Amaravati); Praveen CA-360 May 2026 magazine p.48, p.120 (SCoR, 18 stars); Rocket CA 2026 Part 02 p.37, p.66 (Dhimsa record 13,102); CARE Jul 2026 p.29-31 (Kakinada SEZ, Gateway Port, Annavaram line); thesouthfirst.com 1 Aug 2026 (3.8-km runway, 5 MW solar, NH-365BG); newsonair.gov.in 1 Aug 2026 (over ₹5,640 crore, 6 million passengers); flights from 17 Aug and Lingasamudram/Kurnool-IV 4.5 GW: web-search summaries (pages not opened); code VTZ, Chuttilu design, INS Dega: the app's current notes
 
 === Industrial Hubs, Parks and Mines
+# Ports and maritime
 # Rayalaseema - emerging industrial hub
 - Rayalaseema = **rain shadow** region of the Deccan Plateau, drought-prone. Early base: **cotton ginning, textiles**; minerals and cement (Dalmia Bharat, Zuari) in the Kadapa-Kurnool belt; Rayalaseema Thermal Power Plant; ultra-mega solar parks (Kadapa, Kurnool).
 | Project | Location |
@@ -59,6 +59,27 @@
 - **Reliance Underground Coal Gasification (UCG)**: **India's first integrated UCG complex** - **Eluru district**; about **₹2.73 lakh crore** over 30 years, 3 phases; **Chintalapudi and Recharla** blocks - about **3,130.61 MT**, deeper than **600 m** (**Godavari Valley**); UCG → **syngas (H₂, CO)**.
 - **AP-CSIR-NGRI pact** (**12 August 2026**) on **lithium and gallium** in the **Cuddapah Basin**: near **Tummalapalle**, surveys in Vempalle; lithium up to **1,000 ppm**, gallium up to **250 ppm**; ₹140 crore, 100% funded by **National Mineral Exploration Trust** (est. 2015); CSIR-NGRI est. 1961, Hyderabad.
 ~~ Sources: CARE Jul 2026 p.46-49 (Rayalaseema hub, Kosala Nagaram, GNSS water); CARE Aug 2026 p.23-24 (Orvakal Drone City, committee within three months); Praveen CA-360 Jul 2026 magazine p.31-32 (Swarnagiri, 24 June 2026, Geomysore); Praveen CA-360 Aug 2026 magazine p.30 (Reliance UCG, Eluru), p.33 (AP-CSIR-NGRI lithium/gallium); Praveen CA-360 Mar 2026 magazine p.32 (BHAVYA ₹33,660 crore); Praveen CA-360 Jun 2026 magazine p.33 (CER); BHAVYA AP park list (Tekulodu, Veldurthi, Makavaripalem): the app's current notes, not found in the CA sources
+
+=== Semiconductors, Quantum, AI and Data Centres
+# AP's first semiconductor OSAT unit
+- **ASIP (Advanced System in Package) Technologies** with South Korea's **APACT Co. Ltd.** at **Tarluvada, Anandapuram mandal, Visakhapatnam district**.
+- AP's **first semiconductor / OSAT** (Outsourced Semiconductor Assembly and Test) unit under the **India Semiconductor Mission (2021)**; first OSAT centre in **South India** under ISM.
+- Investment **₹2,387.81 crore**; incentives up to 40%; capacity about **96 million units (chips)/year**; jobs about **1,000+ direct** and **1,600 indirect** (about 2,600 in all); site about **30 acres**; PM laid the foundation virtually on 1 Aug 2026.
+- **AP Semiconductor and Display Fab Policy: 2024-2029**.
+# Quantum and AI
+- **India's first Quantum and AI University campus**, **Amaravati** - approved **27 August 2026**; developer **NIELIT** (deemed university, **MeitY**); **₹730.70 crore** over 5 years, **100% Grant-in-Aid from MeitY**; courses in quantum computing, AI, VLSI, semiconductor fabrication; about 1.25 lakh sq ft solar net-zero Quantum Research, Innovation and Incubation Block; housing for about 500; interim classes from September 2026 at **Acharya Nagarjuna University, Guntur**.
+- **AP's first Quantum Incubator**: by **Chandigarh University** at **Medha Towers, Gannavaram** - for DeepTech start-ups (quantum, AI, semiconductors, robotics, space).
+- **National Quantum Mission**: approved 2023; **₹6,003.65 crore**; 2023-24 to 2030-31; nodal **Department of Science and Technology**.
+- **First Google AI Lab in AP**: **Vignan's University, Vadlamudi (Guntur)**; set up by the Dept of Advanced CSE with **Gemini Enterprise for Education**; focus hands-on **Generative AI and Agentic AI**.
+- **AP Science City**: Executive Committee chaired by **Special Chief Secretary, Infrastructure & Investments** (members - finance officials, scientists, technology experts).
+- **Design Spark Challenge 2026**: **AP Innovation Society + Ratan Tata Innovation Hub + School of Design Thinking**.
+# Google Cloud India AI Hub, Visakhapatnam
+- Google and AP broke ground (28 April 2026) for a **1 GW hyperscale AI data centre** with high-performance computing and an **international subsea cable landing**; about **$15 billion**; partners **AdaniConneX** and **Airtel Nxtra**.
+- **America-India Connect**: Google's subsea initiative - direct fibre path **Vizag-Chennai** on the east coast, linked to routes towards South Africa and the US.
+- Three cable landing stations → AP = **India's third subsea gateway** after **Mumbai and Chennai**; Microsoft's I-2SEA (to Q4 2029). Vizag could become the **second major gateway on the eastern seaboard**; avoids the Red Sea cable risk of west-coast routes.
+- Concerns: water (2 million litres/day per 100 MW → about 20 million litres/day for 1 GW), about 1 GW power demand, **diesel backup**, **no full EIA / public hearing**, **vendor lock-in**, **data sovereignty**; High Court hearing a PIL on clearances (Aug 2026). Google says **air cooling** and about **70% green power**.
+- **Singapore visit**: AP and Google to set up a **task force** on AI, cloud and digital governance (CM met **Karan Bajwa**, Google Cloud Asia-Pacific President); Google invited to AP's **Sanjeevani** healthcare project and AI/cloud centres in universities.
+~~ Sources: Praveen CA-360 Aug 2026 magazine p.31 (ASIP-APACT first OSAT, ₹2,387 crore), p.32 (Quantum-AI University, NQM); Praveen CA-360 Jun 2026 magazine p.33-35 (96 million units, Fab Policy 2024-29, Quantum Incubator, Design Spark); CARE Jun 2026 p.6-9 (Google AI hub, America-India Connect, concerns), p.13 (Google AI Lab, Vignan's); CARE Apr 2026 p.73 (gateways Mumbai and Chennai)
 
 === Investment Outreach, MoUs and Roundtables
 # APEX Korea - Busan
@@ -107,27 +128,6 @@
 | Bharat Limb Centre | Rehabilitation, assistive tech |
 | CoE for Additive Manufacturing | Prototyping |
 ~~ Sources: CARE Jul 2026 p.17-19 (APEX Korea, KOMEA, Hwaseung Kuppam), p.26-28 (Bharat Tex, silk 2nd), p.35-36 (AP-UAE Food Cluster, Gangadhara Nellore), p.41-43 (IHFC-AMTZ MediValley); Praveen CA-360 Jul 2026 magazine p.35 (UAE MoU); Praveen CA-360 Aug 2026 magazine p.33 (AP-Australia MoUs); CARE Jun 2026 p.33-35 (Singapore visit: YCH, UN-Habitat, NUS, Sanjeevani); JERA (Davos): the app's current notes
-
-=== Semiconductors, Quantum, AI and Data Centres
-# AP's first semiconductor OSAT unit
-- **ASIP (Advanced System in Package) Technologies** with South Korea's **APACT Co. Ltd.** at **Tarluvada, Anandapuram mandal, Visakhapatnam district**.
-- AP's **first semiconductor / OSAT** (Outsourced Semiconductor Assembly and Test) unit under the **India Semiconductor Mission (2021)**; first OSAT centre in **South India** under ISM.
-- Investment **₹2,387.81 crore**; incentives up to 40%; capacity about **96 million units (chips)/year**; jobs about **1,000+ direct** and **1,600 indirect** (about 2,600 in all); site about **30 acres**; PM laid the foundation virtually on 1 Aug 2026.
-- **AP Semiconductor and Display Fab Policy: 2024-2029**.
-# Quantum and AI
-- **India's first Quantum and AI University campus**, **Amaravati** - approved **27 August 2026**; developer **NIELIT** (deemed university, **MeitY**); **₹730.70 crore** over 5 years, **100% Grant-in-Aid from MeitY**; courses in quantum computing, AI, VLSI, semiconductor fabrication; about 1.25 lakh sq ft solar net-zero Quantum Research, Innovation and Incubation Block; housing for about 500; interim classes from September 2026 at **Acharya Nagarjuna University, Guntur**.
-- **AP's first Quantum Incubator**: by **Chandigarh University** at **Medha Towers, Gannavaram** - for DeepTech start-ups (quantum, AI, semiconductors, robotics, space).
-- **National Quantum Mission**: approved 2023; **₹6,003.65 crore**; 2023-24 to 2030-31; nodal **Department of Science and Technology**.
-- **First Google AI Lab in AP**: **Vignan's University, Vadlamudi (Guntur)**; set up by the Dept of Advanced CSE with **Gemini Enterprise for Education**; focus hands-on **Generative AI and Agentic AI**.
-- **AP Science City**: Executive Committee chaired by **Special Chief Secretary, Infrastructure & Investments** (members - finance officials, scientists, technology experts).
-- **Design Spark Challenge 2026**: **AP Innovation Society + Ratan Tata Innovation Hub + School of Design Thinking**.
-# Google Cloud India AI Hub, Visakhapatnam
-- Google and AP broke ground (28 April 2026) for a **1 GW hyperscale AI data centre** with high-performance computing and an **international subsea cable landing**; about **$15 billion**; partners **AdaniConneX** and **Airtel Nxtra**.
-- **America-India Connect**: Google's subsea initiative - direct fibre path **Vizag-Chennai** on the east coast, linked to routes towards South Africa and the US.
-- Three cable landing stations → AP = **India's third subsea gateway** after **Mumbai and Chennai**; Microsoft's I-2SEA (to Q4 2029). Vizag could become the **second major gateway on the eastern seaboard**; avoids the Red Sea cable risk of west-coast routes.
-- Concerns: water (2 million litres/day per 100 MW → about 20 million litres/day for 1 GW), about 1 GW power demand, **diesel backup**, **no full EIA / public hearing**, **vendor lock-in**, **data sovereignty**; High Court hearing a PIL on clearances (Aug 2026). Google says **air cooling** and about **70% green power**.
-- **Singapore visit**: AP and Google to set up a **task force** on AI, cloud and digital governance (CM met **Karan Bajwa**, Google Cloud Asia-Pacific President); Google invited to AP's **Sanjeevani** healthcare project and AI/cloud centres in universities.
-~~ Sources: Praveen CA-360 Aug 2026 magazine p.31 (ASIP-APACT first OSAT, ₹2,387 crore), p.32 (Quantum-AI University, NQM); Praveen CA-360 Jun 2026 magazine p.33-35 (96 million units, Fab Policy 2024-29, Quantum Incubator, Design Spark); CARE Jun 2026 p.6-9 (Google AI hub, America-India Connect, concerns), p.13 (Google AI Lab, Vignan's); CARE Apr 2026 p.73 (gateways Mumbai and Chennai)
 
 === Energy and Climate
 - **First feeder-level mini solar** project under **PM-KUSUM** (3 MW) connected by **APCPDCL** at **Nehru Nagar Thanda, Palnadu district** - free daytime power to farmers; inaugurated by APCPDCL CMD **Pullareddy**. PM-KUSUM: 2019, MNRE.
@@ -183,7 +183,7 @@
 - Threats: live-wire fencing, crude explosives, NH-716, Bengaluru-Chennai Expressway, railway doubling in Tirupati. Measures: Elephant Task Force; **Gaja Praja app**; 735 km elephant-proof trenches; solar fencing; **Kumki elephants from Odisha** for Parvathipuram-Manyam.
 - Asian elephant **Elephas maximus**: Schedule I, CITES Appendix I, **National Heritage Animal**. **Project Elephant**: Centrally Sponsored, launched **February 1992** (financial year 1991-92).
 # Shoreline Management Plan (1,027-km coast)
-- Prepared by **Ministry of Earth Sciences**; **NCCR** (National Centre for Coastal Research) mapped erosion/accretion with satellite data 1990-2022, 2011 Census and geomorphology.
+- Prepared by **Ministry of Earth Sciences**; **NCCR** (National Centre for Coastal Research) mapped erosion/accretion with satellite data 1990-2022, 2011 Census and geomorphology. (1,027 km is the plan's figure; AP's officially revised coastline is **1,053.07 km**, 3rd in India – PIB, 4 Dec 2025.)
 | District | Erosion share of coastline |
 |---|---|
 | Kakinada | 52.99% (worst) |
