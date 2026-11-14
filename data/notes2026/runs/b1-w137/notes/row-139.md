@@ -1,0 +1,107 @@
+=== Later Mughals – Order, Reigns and Epithets
+| Ruler | Reign | Key facts |
+|---|---|---|
+| **Bahadur Shah I** (Muazzam; Shah Alam I) | 1707-12 | **Succeeded Aurangzeb** (1707); **released Shahu** (1707); called "**Shah-i-Bekhabar**" |
+| **Jahandar Shah** | 1712-13 | Wazir **Zulfiqar Khan**; mistress Lal Kunwar; "**Lampat**" (the profligate); **defeated by his nephew Farrukhsiyar** (with the Sayyids) |
+| **Farrukhsiyar** | 1713-19 | Puppet of the **Sayyid brothers**; **Banda Bahadur executed (1716)**; **1717 farman** to the English; blinded and killed by the Sayyids |
+| **Muhammad Shah 'Rangeela'** (Roshan Akhtar) | 1719-48 | **Longest** later-Mughal reign (~29 yrs); Sayyids removed (1720); **Nadir Shah at Karnal, 1739**; Abdali's first raid 1748 |
+| **Ahmad Shah** | 1748-54 | Rule left to **Udham Bai** (queen mother) and the **eunuch Javed Khan** – "**eunuchs and ladies**"; blinded and deposed by **Imad-ul-Mulk** (1754) |
+| **Alamgir II** | 1754-59 | **Plassey (1757)**; Abdali in Delhi (1757); Punjab and Multan ceded; murdered by Imad-ul-Mulk |
+| **Shah Alam II** (Ali Gauhar) | 1759-1806 | Panipat III (1761), **Buxar (1764)**; first Mughal **pensioner** of the Company; **blinded by Ghulam Qadir Rohilla (1788)**; English took Delhi **1803** |
+| **Akbar II** | 1806-37 | Gave Ram Mohan Roy the title "Raja" |
+| **Bahadur Shah II (Zafar)** | 1837-57 | **Son of Akbar II**; **last Mughal emperor**; exiled to **Rangoon** after 1857 (died 1862) |
+- **Order (APPSC G1, UPPSC 2018, UPRO 2023):** **Bahadur Shah I → Jahandar Shah → Farrukhsiyar → Muhammad Shah → Ahmad Shah → Alamgir II → Shah Alam II**.
+- **Muhammad Shah 'Rangeela':** wine, beauty, animal fights, apathy to administration; **last emperor to sit on the Peacock Throne** (Takht-i-Taus / Mayur Singhasan) – Nadir Shah carried it off in 1739.
+- **Eunuchs and ladies dominated the court under Ahmad Shah (1748-54)** – Udham Bai with the eunuch Javed Khan (PMF, Spectrum); some guides wrongly print Muhammad Shah.
+- **Shah Alam II's exile:** **not allowed into Delhi by Wazir Ghaziuddin (Imad-ul-Mulk)**; stayed away for years out of fear of his wazir and court intrigue (UPSC 2003 A-R: A and R true, R not the explanation); lived at **Allahabad** under Company protection after Buxar; returned to Delhi **1771-72** with **Mahadji Scindia**.
+- **Shrunken empire:** by Zafar's time Mughal authority ran only round Delhi to **Palam** – "**Chandni Chowk (Lal Qila) to Palam**"; the saying "Sultanat-e-Shah Alam, az Dilli ta Palam" was first made of Shah Alam II.
+- Not matched: Ahmad Shah = 1748-**54** (not 1757); exiled to Rangoon = **Bahadur Shah II**, not Muhammad Shah; Sayyids dominated **Farrukhsiyar**, not Jahandar Shah.
+~~ Sources: NextGen Indian History APPSC 05 p.20-21 (list of Mughal emperors); PMF Modern History 01 p.38-41; PMF Ancient & Medieval 04 p.117 (Udham Bai, Javed Khan); Spectrum, A Brief History of Modern India ch.4; old app notes 1:139 sub 0
+
+=== Asaf Jahi Hyderabad – Founding and the Nizams
+- **Founder:** **Mir Qamar-ud-din Khan Siddiqi = Chin Qilich Khan = Nizam-ul-Mulk Asaf Jah I** – first Nizam; founded the **Asaf Jahi dynasty (Asafzahi clan)** and **Hyderabad State in 1724** (APPSC G1 2003, G2 1993, 2002, 2011, DL 2020).
+- **1724:** defeated the Mughal governor **Mubariz Khan** at **Shakar Kheda** → virtually independent. **Died 1748** (APPSC G2 1993, MPDO 1997).
+- Background: Hyderabad first envisaged by Deccan viceroy **Zulfiqar Khan** (through **Daud Khan**, from 1708); Farrukhsiyar made him **Subedar of the Deccan**; he helped **overthrow the Sayyids**; **Wazir** (1722-24) before leaving for the Deccan.
+- Tolerant: **Puran Chand** as Diwan; Mughal-type jagirdari administration; **kept the Marathas out** in his lifetime (but lost at Palkhed 1728).
+| Title | Conferred by |
+|---|---|
+| Chin Qilich Khan | Aurangzeb |
+| **Nizam-ul-Mulk** | **Farrukhsiyar** (1713) |
+| **Asaf Jah** | **Muhammad Shah** (1725) |
+- **CGPSC 2022 trap:** Kilich Khan was **not** Mubariz Khan (Mubariz was the man he defeated); the title Asaf Jah was **not** given by Zulfiqar Khan.
+| Nizam | Rule / fact |
+|---|---|
+| Asaf Jah I (Nizam-ul-Mulk) | 1724-48 |
+| Nasir Jung, Muzaffar Jung, Salabat Jung | 1748-62 – **not counted** among the seven Nizams (never received the title Asaf Jah) |
+| **Nizam Ali Khan (Asaf Jah II)** | 1762-1803; **first Indian ruler to accept Wellesley's Subsidiary Alliance (1798)** |
+| Mir Mahbub Ali Khan | 1869-1911 |
+| **Mir Osman Ali Khan** | 1911-48; **seventh and last Nizam**; founded **Osmania University** |
+- **Hyderabad city ≠ Hyderabad State:** the city was founded in **1591 by Muhammad Quli Qutb Shah**; the **State** (Asaf Jahi dominion) by Asaf Jah I in 1724 (APPSC 2022: only statement I correct).
+- **Operation Polo (September 1948)** integrated Hyderabad State into the Indian Union.
+~~ Sources: NextGen Indian History APPSC 05 p.17, p.35 (Hyderabad); PMF Modern History 01 p.58; Rocket Sheets Indian History 02 p.9 (Chin Qilich Khan = Nizam-ul-Mulk / Asaf Jah); old app notes 1:139 sub 6
+
+=== Other Successor States – Awadh, Bengal, Carnatic, Rohilkhand, Rajputs, Jats
+| State | Founder | Mughal post / fact |
+|---|---|---|
+| **Awadh** | **Saadat Khan Burhan-ul-Mulk** | Subedar of Awadh **1722**; **first Nawab** of Oudh; independent under Muhammad Shah |
+| **Bengal** | **Murshid Quli Khan** | **Diwan (1700), then Nazim**; started **revenue farming (ijaradari)** |
+| **Carnatic (Arcot)** | **Saadatullah Khan** | Nawab under the Nizam; made nephew Dost Ali heir without the Nizam's approval |
+| **Rohilkhand** | **Ali Muhammad Khan** | Afghan; carved it out during **Nadir Shah's invasion** |
+| **Farrukhabad** | **Muhammad Khan Bangash** | Afghan adventurer |
+| **Jaipur (Amber)** | **Sawai Jai Singh II** (1699-1743) | Founded Jaipur; astronomer |
+- **Awadh:** Saadat Khan **joined the plot against the Sayyids** (siding with Muhammad Shah) – both statements true (UPRO 2023). **Safdar Jung** (nephew and son-in-law) = **Nawab of Awadh and Mughal Wazir** (from 1748) – hence the "**Nawab Wazir**" style; **Shuja-ud-Daula** was later wazir too, sided with Abdali at Panipat and lost at Buxar.
+- **First Nawab (Wazir) of Awadh = Saadat Khan** (CDS 2018 key); the wazirship itself began with Safdar Jung.
+- **Turanis** established Hyderabad; **Iranis** established Oudh. **Saadat Khan = Awadh; Saadatullah Khan = Carnatic**.
+- **Match (APPSC G1):** Husain Ali Khan – a Sayyid brother; Murshid Quli Khan – Bengal; Chin Qilich Khan – Nizam of Hyderabad; Safdar Jung – Awadh.
+- **Pairs (AEE):** Hyderabad – Nizam-ul-Mulk ✓; Bengal – **not** Saadat Ali Khan; Awadh – **not** Murshid Quli Khan.
+- **Sawai Jai Singh II:** **observatories (Jantar Mantar) at Delhi, Jaipur, Ujjain, Varanasi and Mathura**; drew up the astronomical tables **Zij-i-Muhammad Shahi** (named for Muhammad Shah); law against lavish wedding expenses.
+- **Jats (Bharatpur):** Churaman, Badan Singh; **Suraj Mal** (1755-63) = "**Plato of the Jat tribe**", built **Lohagarh** fort.
+- Titles in options: Saadat Khan = **Burhan-ul-Mulk**; **Sarvalokeshvara = Vima Kadphises** (Kushana), not Saadat Khan.
+~~ Sources: NextGen Indian History APPSC 05 p.17, p.36-37 (Carnatic, Awadh, Rajputana, Rohilkhand); PMF Modern History 01 p.61 (Awadh), p.63-64 (Bengal), p.83 (Jai Singh); Rocket Sheets Indian History 02 p.9; CDS 2018 key (examrobot.com, testbook.com); old app notes 1:139 sub 5
+
+=== Invasions – Nadir Shah, Ahmad Shah Abdali and Earlier Invaders
+| Invader | Year | Consequence |
+|---|---|---|
+| **Nadir Shah** (Persia) | **1739** | Beat **Muhammad Shah at Karnal**; sacked Delhi; took the **Koh-i-Noor** and **Peacock Throne** |
+| **Ahmad Shah Abdali** (Durrani, Afghan) | Raids **1748-67** | Had been **Nadir Shah's general**; Punjab and Multan ceded; Delhi looted 1757; **Third Panipat 1761** |
+- Nadir Shah's contemporary historian: **Anand Ram Mukhlis**. Koh-i-Noor plunderer = **Nadir Shah** (APPSC 2018), not Abdali or Timur.
+- **1757:** Abdali placed **Alamgir II** on the throne, **Imad-ul-Mulk** as wazir and the Rohilla **Najib Khan (Najib-ud-Daulah)**, his confidant, as chief agent / Mir Bakhshi.
+- **Chronology (UKPSC 2002):** **Genghis Khan (Indus, under Iltutmish, 1221) → Timur (sacked Delhi 1398) → Nadir Shah (1739) → Abdali (1748-67)**.
+| Earlier invader | Period | Fact |
+|---|---|---|
+| Darius I (Persia) | c. 518 BCE | First foreign ruler to invade NW India |
+| Alexander | 326 BCE | Defeated Porus on the **Hydaspes (Jhelum)** |
+| Sakas / Kushanas | 1st c. BCE / 1st c. CE | Sakas in **western India**; Kushanas under Kanishka |
+| Hunas | 5th-6th c. | **Yashodharman defeated Mihirakula** |
+| Muhammad bin Qasim | 712 | First successful Muslim invader – **Sindh** (not North India) |
+| Mahmud of Ghazni | 1000-1027 | **17 raids** |
+| Muhammad Ghori | from **1175** | **Tarain I (1191)**, Tarain II (1192), **Chandawar (1194)** |
+| Timur | 1398 | Sacked Delhi under Nasiruddin Mahmud Tughlaq |
+| Babur | 1526 | Panipat I vs Ibrahim Lodi (not Timur) |
+- Order: Greeks → Kushanas → Hunas → Arabs.
+~~ Sources: NextGen Indian History APPSC 05 p.13 (Timur), p.21 (Nadir Shah 1739); PMF Modern History 01 p.41-43; old app notes 1:139 sub 3
+
+=== Sayyid Brothers, Farmans and Grants
+- **Abdullah Khan = Wazir**; **Husain Ali Khan = Mir Bakhshi** – the "**king-makers**" (1713-20): made and unmade Farrukhsiyar, then puppets (Rafi-ud-Darajat, Rafi-ud-Daulah).
+- Eliminated under **Muhammad Shah** with **Nizam-ul-Mulk's** help; Husain Ali killed 1720; Saadat Khan sided with Muhammad Shah against them.
+| Year | Grant | Content |
+|---|---|---|
+| **1717** | Farrukhsiyar's farman (Surman embassy) | English Company **freed from customs duties in Bengal** for Rs 3,000 a year – the Company's "Magna Carta" |
+| **1719** | Grant through the Sayyids | Shahu recognised; **swarajya** + **chauth and sardeshmukhi of the six Deccan subas** to Balaji Vishwanath |
+- **Murshid Quli Khan** accepted the 1717 customs exemption but refused the 38 villages near Calcutta.
+~~ Sources: NextGen Indian History APPSC 06 p.10, p.12 (1717 farman); PMF Modern History 01 p.67 (1719 grant); old app notes 1:139 sub 2, 4
+
+=== Causes and Historiography of Decline
+- **Greatest extent under Aurangzeb:** Kashmir to **Jinji**, Hindukush to Chittagong; long **Deccan wars** (last ~27 years) drained the treasury → foundations weakened after him.
+- Causes: weak successors and noble factions (Iranis, Turanis, Hindustanis); **jagirdari and agrarian crises**; Maratha rise; **invasions of Nadir Shah and Abdali**; European companies. Power gap filled by **regional states → Marathas → East India Company**.
+| Historian | Work | View |
+|---|---|---|
+| **Jadunath Sarkar** | History of Aurangzeb; Fall of the Mughal Empire | Aurangzeb's religious policy; weak successors |
+| **Irfan Habib** | The Agrarian System of Mughal India (1963) | **Agrarian crisis** – the state "**itself the principal instrument of exploitation**" (CDS 2017) |
+| **Satish Chandra** | Parties and Politics at the Mughal Court | **Jagirdari crisis** – too few jagirs for too many nobles |
+| **M. Athar Ali** | The Mughal Nobility under Aurangzeb | Enlarged nobility (Deccanis, Marathas) worsened the jagir shortage |
+| **W.H. Moreland** | From Akbar to Aurangzeb | Economic exploitation and stagnation |
+| **François Bernier** | Travels in the Mogul Empire | **No private property in land** |
+- **Revisionist view:** the 18th century = **regional growth**, not collapse; successor states had their own economy and law-and-order and controlled the peasant surplus (NextGen).
+- **Marathas = strongest native power** after the Mughals, but they had **no concept of a united Indian nation** (A true, R false).
+~~ Sources: NextGen Indian History APPSC 05 p.14 (books: Sarkar, Habib), p.35 (18th-century states); PMF Modern History 01 p.48 (Habib, Satish Chandra); PMF Modern History 01 p.66 (Maratha limits); old app notes 1:139 sub 7-8

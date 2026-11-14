@@ -1,0 +1,143 @@
+=== Fatehpur Sikri – Akbar's Capital
+- **Fatehpur Sikri** ("City of Victory") – Akbar's planned capital **1571–85**, about 37–40 km from Agra, at Sikri where the Chishti saint **Shaikh Salim Chishti** lived (title **Shaikh-ul-Hind**; Prince **Salim** named after him); mainly **red sandstone**; UNESCO 1986. The **finest monuments of Akbar** are here (RAS 1994) – not in the Agra, Lahore or Allahabad forts.
+| Building | Exam fact |
+|---|---|
+| **Buland Darwaza** | "Gate of Magnificence", ~41 m; built by **Akbar** (c. 1575) to commemorate the **victory over Gujarat** (1572–73) – **not Jahangir's birth** (A true, R false – UP 1998, UPPCS 2025); southern entrance to the Jama Masjid; red and buff sandstone with marble inlay |
+| **Jama Masjid** | Congregational mosque, among the first buildings of the city; called **'Shan-i-Fatehpur'** (UKPCS 2016) |
+| **Tomb of Salim Chishti** | **White-marble** tomb in the Jama Masjid courtyard (built under Akbar) |
+| **Panch Mahal** | **Five-storeyed**, entirely columnar pavilion in the style of a **Buddhist monastery / vihara** (Jharkhand 2003; RPSC 2023); ground floor 84 pillars; Persian badgir (wind-catcher) – the Fatehpur Sikri building in lists with Moti / Rang / Hira Mahal (UPPCS 2004; CDS 2003) |
+| **Jodha Bai's palace** | Largest palace; Hindu **trabeate** + Islamic **arcuate**; Gujarati and Rajasthani patterns |
+| **Maryam's palace** | Gilded paintings – the **Golden Palace** (Sunehra Makan) |
+| Diwan-i-Khas | Private audience; single central carved pillar |
+| Ibadat Khana | House of Worship (**1575**) – debates of scholars of different religions |
+| Others | Diwan-i-Aam, Birbal ki Kothi, Turkish Sultana's house, Anup Talao, Hiran Minar |
+- **Not at Fatehpur Sikri:** **Akbari Mahal** – it is in **Agra Fort** (UKPCS 2012).
+- **Built in Akbar's reign (APPSC G1):** Tomb of Salim Chishti, Buland Darwaza, Jami Masjid (Fatehpur Sikri) **and** Humayun's Tomb (1565–72) – **all four**.
+- **UPSC 2018:** white marble was **not** the material of the Buland Darwaza and the Khanqah (red/buff sandstone), and the Bara Imambara and Rumi Darwaza of Lucknow are **brick and lime plaster**, not red sandstone and marble → **neither** statement correct.
+- Style: Persian, Indian, Central Asian; introduced the **Tudor (four-centred) arch**, continued at **Jahangir Mahal, Orchha**.
+~~ Sources: PMF Art & Culture 04 p.4-6 (Fatehpur Sikri buildings, Panch Mahal "Buddhist temple style", Golden Palace) and p.16-17 (UPSC 2018, answer d); PMF Ancient & Medieval 04 p.99 (Buland Darwaza – Gujarat); NextGen Rocket Indian History 02 p.22 (Buland Darwaza); NextGen Indian History - APPSC 05 p.15; app notes 1:137 (sub 4)
+
+=== Tomb Tradition – Lodi to Bibi ka Maqbara
+| Stage | Tomb | Feature |
+|---|---|---|
+| Lodi | Sikandar Lodi's tomb – built by son **Ibrahim Lodi** | First **double dome** |
+| Sur | **Sher Shah's tomb, Sasaram** – he built it himself; set in a tank; finished under Islam Shah (c. 1545) | Transition Lodi → Mughal |
+| Akbar | **Humayun's tomb**, Delhi (**1565–72**) | First **garden tomb**; first full Persian double dome; red sandstone with white marble; **Persian + Indian** synthesis (RAS 2003) |
+| Jahangir | **Itimad-ud-Daula**, Agra (**1622–28**) – built by **Nur Jahan** for her father Mirza Ghiyas Beg ("Baby Taj") | First tomb wholly of **white marble**; first **pietra dura** |
+| Shah Jahan | **Taj Mahal** | Climax |
+| Aurangzeb | **Bibi ka Maqbara**, Aurangabad – tomb of **Rabia-ud-Daurani** (Dilras Banu), "Taj of the Deccan", **"Second Taj"** | Last major imitation of the garden tomb |
+- **Humayun's tomb:** built by his widow **Haji Begum (Bega Begum)** – the woman who built her **emperor husband's** mausoleum (UPPSC 2004) – not Mumtaz Mahal or Nur Jahan; architects **Mirak Mirza Ghiyas** and son **Sayyid Muhammad**.
+- **Bibi ka Maqbara:** built in **Aurangzeb's** reign (keyed "Aurangzeb", RAS 1999) by his son **Azam Shah**; architect **Ata-ullah**, son of Ustad Ahmad Lahori.
+- **Abdur Rahim Khan-i-Khanan's tomb** – **Delhi**, near Humayun's tomb (UPPSC 2010).
+- **Chronology (UPPSC 2019):** Atala Mosque, Jaunpur (**1408**) → Sher Shah's tomb, Sasaram (c. 1545) → Humayun's tomb (1565–72) → Bibi ka Maqbara (c. 1660) = **IV, II, III, I**.
+~~ Sources: NextGen Rocket Indian History 02 p.15, p.20 (tombs table: Haji Begum, Itmad-ud-Daula 1622–1628, Azam Shah); NextGen Indian History - APPSC 05 p.15 (Humayun's Tomb – Haji Begum); PMF Art & Culture 04 p.3-4, p.8 (double dome, Itmad-ud-Daula first white-marble building, Atala Masjid); app notes 1:137 (sub 2)
+
+=== Red Fort, Jama Masjid and the Forts
+| Building | Builder | Exam fact |
+|---|---|---|
+| **Red Fort (Lal Qila / Qila-i-Mualla)**, Delhi | **Shah Jahan** (1639–48) | Core of **Shahjahanabad**; red sandstone walls; **irregular octagon**; Lahori and Delhi gates; architect Ustad Ahmad (Lahori) – **not Akbar** |
+| **Jama Masjid, Delhi** | **Shah Jahan** (1650–56) | Mainly red sandstone with marble – Akbar's Jama Masjid is at Fatehpur Sikri |
+| **Moti Masjid, Red Fort** | **Aurangzeb** | White marble "Pearl Mosque" |
+| **Moti Masjid, Agra Fort** | **Shah Jahan** | Mosque built **entirely of white marble** (RPSC 2003); with Nagina and Mina Masjids |
+| **Agra Fort** | **Akbar** (begun 1565) | Earliest Akbari style; architect **Kasim Khan**; 500+ red sandstone buildings; **Jahangir Mahal** and **Akbari Mahal** inside |
+| Lahore Fort, Allahabad Fort (1583) | **Akbar** | With Agra Fort – Akbar's forts; the **Red Fort is the one not built by Akbar** |
+| Qila-i-Kuhna mosque | Sher Shah Suri (1541) | Purana Qila, Delhi |
+| **Khair-ul-Manazil** | **Maham Anga** (1561) | Mosque opposite the Purana Qila |
+- **Red Fort halls:** Diwan-i-Am (public audience); **Diwan-i-Khas** (private audience); Rang Mahal (royal women); Sheesh Mahal (mirror work).
+- **Peacock Throne (Takht-i-Taus):** Shah Jahan's jewelled gold throne; SSC 2006 key: **Diwan-i-Am, Red Fort** (Tavernier saw it there) – it normally stood in the **Diwan-i-Khas** and was moved to the Diwan-i-Am for state occasions; taken by **Nadir Shah, 1739**.
+~~ Sources: PMF Art & Culture 04 p.7-8 (Red Fort, Moti Masjid by Aurangzeb, Agra Fort, Shah Jahan's three marble mosques, forts of Akbar); NextGen Rocket Indian History 02 p.15, p.21 (Jama Masjid Delhi – Shah Jahan; Qila-i-Kuhna 1541); PMF Ancient & Medieval 04 p.99 (Khairul Manazil); NextGen Indian History - APPSC 04 p.18 (Peacock Throne); https://en.wikipedia.org/wiki/Peacock_Throne (Diwan-i-Khas; Tavernier – Diwan-i-Am); app notes 1:137 (sub 1, 6)
+
+=== Taj Mahal
+| Item | Fact |
+|---|---|
+| For | **Mumtaz Mahal** (Arjumand Banu Begum) |
+| Place | Agra, right bank of the Yamuna |
+| Built | **1632–48** (complex finished 1653) |
+| Chief architect | **Ustad Ahmad Lahori** (modern view); many books and keys: **Ustad Isa** |
+| Marble | **Makrana**, Rajasthan (APPSC DL 2017) |
+| Material | Mainly **white marble** (not red sandstone); pietra dura at its peak |
+| Plan | Tomb **equal in length and breadth** (square plan with chamfered corners); stands at the **river end** of its charbagh |
+| Style | **Indian + Persian (Iranian) + Central Asian** – the Hindu–Iranian synthesis (RAS 1992) |
+| Design ancestry | Humayun's tomb (garden tomb, double dome) |
+| UNESCO | **1983**; New Seven Wonders **2007** |
+# Historians on the Taj
+| Historian | View on style |
+|---|---|
+| **V.A. Smith** | "Combination of **European and Asiatic** genius" (APPSC G1 2023) – so "Percy Brown" for this quote is the wrong pair |
+| James Fergusson, Percy Brown | Product of the Indo-Persian tradition; Fergusson: Fatehpur Sikri "a reflex of the mind of a great man" |
+- **Pollution:** "marble cancer" from **sulphur dioxide**; Supreme Court, **M.C. Mehta case (30 Dec 1996)** – the **Taj Trapezium Zone** (~10,400 sq km) to shift / clean up industries.
+- **Conservation:** ASI removes surface stains with a **mud pack** of fuller's earth (**multani mitti**) – "mud pack therapy" – not chlorine bleaching or abrasives.
+~~ Sources: PMF Art & Culture 04 p.6 (Taj, Ustad Ahmad Lahori); NextGen Rocket Indian History 02 p.19 (Taj – Indian + Persian + Central Asian); Singhania Art & Culture 02 (Makrana marble); PMF Environment 04 p.49 (TTZ 10,400 sq km); https://en.wikipedia.org/wiki/Ustad_Isa (attribution debate); app notes 1:137 (sub 5)
+
+=== Emperors' Tombs – Where Buried
+| Emperor | Tomb |
+|---|---|
+| **Babur** | **Kabul** (Bagh-e-Babur); first buried at Agra – the emperor with **no mausoleum in India** |
+| Humayun | Delhi |
+| **Akbar** | **Sikandra (Sikandara)** near Agra – begun by Akbar, completed by Jahangir (1613); Akbar named the place **Bahistabad** |
+| **Jahangir** | **Shahdara, Lahore** (outside India), by Nur Jahan; died 1627 |
+| Shah Jahan | Taj Mahal, **Agra**, beside Mumtaz Mahal |
+| Aurangzeb | **Khuldabad** near Aurangabad – a simple grave |
+- **Match (UPPCS 2005):** Babur–Kabul, Akbar–Sikandara, Jahangir–Lahore, Shah Jahan–Agra = **3 4 1 2**.
+- **Dara Shikoh:** handed over by the Baluchi chief **Malik Jeevan**; executed **1659**; body buried in **Humayun's tomb, Delhi** (head in the Taj complex).
+~~ Sources: NextGen Rocket Indian History 02 p.20 (Akbar – Sikandra; Jahangir – Shahdara, Lahore); NextGen Indian History - APPSC 05 p.15; app notes 1:137 (sub 3)
+
+=== Monuments – Builders, Places and Chronology
+| Monument | Builder | Place | Date |
+|---|---|---|---|
+| Ram Bagh | Babur | Agra (not Lahore) | c. 1528 |
+| Agra Fort | Akbar | Agra | begun 1565 |
+| Humayun's Tomb | Haji Begum (Akbar's reign) | **Delhi** | 1565–72 |
+| Fatehpur Sikri | Akbar | near Agra | 1571–85 |
+| Allahabad Fort | Akbar | Allahabad | 1583 |
+| **Char Minar** | Muhammad Quli Qutb Shah (**not Mughal**) | **Hyderabad** | 1591 |
+| **Akbar's Tomb** | Akbar / Jahangir | **Sikandara** | 1613 |
+| **Taj Mahal** | Shah Jahan | **Agra** | 1632–48 |
+| Jama Masjid, Delhi | Shah Jahan | Delhi | 1650–56 |
+- **APPSC G1 2019 match:** Char Minar–Hyderabad, Akbar's Tomb–Sikandara, Humayun's Tomb–Delhi, Taj Mahal–Agra = **a-III, b-IV, c-I, d-II**.
+- **Chronology (IAS 1998):** Qutub Minar (c. 1199) → Tughlaqabad (1320s) → Lodi tombs / Lodi Garden (15th–16th c.) → Fatehpur Sikri (1571) = **III, I, II, IV**.
+- **Shah Jahan's buildings:** Taj, Red Fort, Jama Masjid (Delhi), Moti Masjid (Agra Fort), Diwan-e-Aam, Diwan-e-Khas, Sheesh Mahal, Khas Mahal, Musamman Burj, Nagina Masjid; "not built by Shah Jahan" = **Buland Darwaza**.
+~~ Sources: NextGen Rocket Indian History 02 p.15 (Tughluqabad – Ghiyasuddin Tughluq); PMF Art & Culture 04 p.3 (Qutub Minar 1199); PMF Ancient & Medieval 04 (Lodi Gardens); app notes 1:137 (sub 1, 10)
+
+=== Mughal Style and Features
+- Mughal style = **Indo-Islamic + Persian (Timurid) grandeur + Hindu** grace: bulbous domes, slender minarets, vaulted gateways, **charbagh**, **double dome**, **jali**, calligraphy.
+- **Akbar** built in **red sandstone**; **Shah Jahan** in **white marble** – his reign is the **"Golden Age"** of Mughal architecture.
+| Feature | Meaning | First / best seen |
+|---|---|---|
+| **Pietra dura** | Decorating walls with **floral designs of inlaid semi-precious stones** | Began under **Jahangir**; first at **Itimad-ud-Daula**; peak at the Taj |
+| Double dome | Inner and outer shells | Sikandar Lodi's tomb; first full Mughal one – Humayun's tomb |
+| Charbagh | Four-quartered garden | Introduced by Babur (Ram Bagh) |
+| Jali | Lattice work | Humayun's tomb |
+| Sheesh Mahal | Mirror-work chambers | Agra Fort, Red Fort |
+- Contrast: the **Bahmani Jama Masjid, Gulbarga** has a **fully covered courtyard**, unlike Mughal open-court mosques (and not Charminar).
+~~ Sources: PMF Art & Culture 04 p.3 (Mughal style); NextGen Indian History - APPSC 04 p.17-18 (pietra dura from Jahangir); app notes 1:137 (sub 0, 7)
+
+=== Gardens
+| Garden | Location | Builder |
+|---|---|---|
+| **Ram Bagh** (Hasht Bahisht / Aram Bagh) | Agra | **Babur** – first Mughal garden |
+| **Shalimar Bagh** | Srinagar | **Jahangir** |
+| **Shalimar Gardens** | Lahore | **Shah Jahan** |
+| **Nishat Bagh** | Srinagar (Dal Lake) | **Asaf Khan**, Nur Jahan's brother |
+| **Pinjore** | Haryana | **Fidai Khan** (Aurangzeb) |
+- **Lodhi Gardens, Delhi** (tombs of the Sayyids and Lodis) – laid out in 1936 as **Lady Willingdon Park** (SSC CGL 2019).
+~~ Sources: NextGen Indian History - APPSC 04 p.19 (Hasht Bahisht, Shalimar Srinagar, Nishat Bagh, Shalimar Lahore); https://en.wikipedia.org/wiki/Lodhi_Gardens (Lady Willingdon Park, 1936); app notes 1:137 (sub 8)
+
+=== UNESCO Sites, Qutb Shahi Monuments and Other Dynasties
+| Site | Year |
+|---|---|
+| Agra Fort; Taj Mahal | 1983 |
+| Fatehpur Sikri | 1986 |
+| Humayun's Tomb | 1993 |
+| Red Fort Complex | 2007 |
+- **Qutb Shahi (AP angle):** **Char Minar (1591)** – marks the end of a plague; Persian arches + Deccani stucco. **Golconda Fort** – acoustic warning system, piped water. **Qutb Shahi tombs** at **Ibrahim Bagh**, Hyderabad – onion domes on square bases. **Kollur** – diamond mines (Koh-i-Noor).
+| Power | Capital / centre |
+|---|---|
+| Bahmanis | Gulbarga → **Bidar** |
+| Vijayanagara | **Hampi**, on the Tungabhadra |
+| Shivaji / Peshwas | **Raigad** / Pune |
+| Sena | Nadia (Nabadwip) |
+| **Chandela** | Khajuraho |
+| Chola / Pallava / Chalukya | Thanjavur / Mahabalipuram / **Pattadakal** |
+| Gommateshwara, Shravanabelagola | **Chamundaraya** |
+~~ Sources: UNESCO World Heritage List; app notes 1:137 (sub 6, 9)
