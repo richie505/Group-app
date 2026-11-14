@@ -1128,3 +1128,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 403 → 64 kept + 110 new (174, 43%); new 66 statements / 23 match / 20 A–R / 1 sequence; no lines lost.
 - n2266414ff90 ("most cyclone-prone State": AP and Odisha both options, both supported) removed.
 - PYQ linked 45:3:2.3 keyed "Zone III" for majority of India's area; notes 45:3:2 say Zone II largest (~41%) — under BIS 2016 map Zone II ≈ 41%, Zone III ≈ 30%; check id + Disputed/Outdated chip.
+
+## rewrite b1-w131 (rows 131–136)
+- own 363 → 65 kept + 66 new (131, 36%); new 35 statements / 21 match / 10 A–R; 9 of 227 lines lost.
+- Dakhili: notes 133:2:0.1 "paid by the state" vs PYQ y0ae69864b66 "not paid directly by the state" — check key (standard: Dakhili recruited and paid by the state).
+- "Makhfi" pen name given to Nur Jahan (131:0:11) and Zeb-un-Nissa (136:0:0.4) — both are attested; add note to avoid confusion.
+- Disputed lines: 133:0:2 (mansabdari purpose), 135:3:0 (marketed share 15% vs 25%).

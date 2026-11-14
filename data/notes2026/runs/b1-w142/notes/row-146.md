@@ -1,0 +1,68 @@
+=== Sufi Silsilas – Founders, Saints, Regions and Stance
+| Silsila | Founder → in India | Saints | Region | Stance |
+|---|---|---|---|---|
+| **Chishti** | Begun at **Chisht (near Herat, Afghanistan)** by **Abu Ishaq Shami** with his disciple **Khwaja Abu Ahmad Abdal**; in India **Moinuddin Chishti** (came with Muhammad Ghori, 1192; Ajmer) | Bakhtiyar Kaki, **Baba Farid**, **Nizamuddin Auliya**, Nasiruddin Chiragh, Salim Chishti, Burhanuddin Gharib, **Gesudaraz**, Hamiduddin of Nagaur | **Delhi–Ajmer, Doab**; later Deccan | Liberal; **aloof from the court**; popularised **sama** |
+| **Suhrawardi** | **Shihabuddin (Umar) Suhrawardi**, Baghdad → **Bahauddin Zakariya** at **Multan** (backed **Iltutmish against Qabacha** → title Shaikh-ul-Islam) | Ruknuddin Abul Fath, Jalaluddin Tabrizi, Qazi Hamiduddin Nagori | **Sindh, Multan, Punjab** | **Accepted royal service** and grants |
+| **Firdausi** | **Sharfuddin Yahya Maneri** (offshoot of the Kubrawi order; many Indian books call it a Suhrawardi branch) | — | **Bihar** | Ba-shara |
+| **Qadiri** | **Abdul Qadir Jilani** (Baghdad; **Pir Dastagir**) → introduced in India by **Shah Niamatullah** and **Makhdum Muhammad Jilani** (15th c.) | **Miyan Mir**, Mulla Shah, **Dara Shikoh** | Punjab, Sindh, Lahore | Wahdat-ul-Wujud |
+| **Naqshbandi** | **Bahauddin Naqshband** (Central Asia, 14th c.; never came to India) → **Khwaja Baqi Billah** (late 16th c.) | **Ahmad Sirhindi**, Shah Waliullah, Khwaja Mir Dard | North India, Kashmir | **Most orthodox**; strict Sharia; **opposed sama**, tomb visits, Akbar's Sulh-i-kul |
+| **Shattari** | Shah Abdullah Shattar (15th c.) | **Shah Muhammad Ghaus** of Gwalior (yogic text Bahr-ul-Hayat; Jawahir-e-Khamsa; guide of Humayun, Tansen) | Malwa, Gwalior, Jaunpur, Bengal | Liberal, yogic |
+- **Chishti name comes from Chisht in Afghanistan, not a village in Ajmer** → UPSC 1997 A-R: **A true, R false**.
+- **Founder of the Chishti branch** (UPPSC 2014; State PSC): keys give **Khwaja Abu Abdal** (Abu Ahmad Abdal), the disciple who carried on Abu Ishaq Shami's line at Chisht.
+- **Chishtia order in India established by Khwaja Muinuddin** (UPPCS 2002).
+- **Incorrect pair: "Auliya – Madhya Pradesh"** – Auliya is a title, not an order (JPSC 2011); Chishti–Delhi and Doab, Suhrawardi–Sindh, Firdausi–Bihar are correct.
+- **Not Chishti:** **Abdul Qadir Jilani** (Qadiri; RAS 2016); **Bahauddin Zakariya** (Suhrawardi; NDA 2017). **Chishti:** **Gesudaraz** (APPSC G1 2019) – not Bahauddin Naqshband, Bahauddin Zakariya or Shah Waliullah.
+- **Bahauddin Zakariya = Suhrawardi** (BPSC 2018 ×2). **Bihar = Firdausi** (BPSC 2003).
+- **Most orthodox = Naqshbandi** (JPSC 2016; official key: Suhrawardi). **Against music = Naqshbandi** (UPPSC 2013 ×2).
+- **Dastgir Sahib** shrine (Srinagar, fire of 2012) = **Abdul Qadir Jilani** (Sayyad Abdul Jilani).
+- **Shah Muhammad Ghaus** (Shattari) counted **Krishna among the Auliya**; orthodox Shah Waliullah and Shah Abdul Aziz did not.
+- **Farr-i-Izadi** (divine light of kingship, used by Abul Fazl for Mughal kingship) was first developed by the Iranian Sufi **Shihabuddin Suhrawardi (d. 1191, the Illuminationist "Maqtul")** – a namesake, not the order's founder.
+- **SI 2019 match:** Bahauddin Zakariya – Suhrawardi; Fariduddin Masud – Chishti; Shah Niamatullah – Qadiri; Khwaja Baqi Billah – Naqshbandi.
+> Exam angle: order ↔ saint ↔ region pairs, "not Chishti", and the orthodox / anti-music order.
+~~ Sources: NextGen Indian History - APPSC Exams Part 5 p.10 (src/indian-history/nextgen-indian-history-appsc-05.txt); NextGen Rocket Sheets IH Part 2 p.1-3, #58-59 (src/indian-history/rocket-indian-history-02.txt); Singhania, Indian Art and Culture App.2 p.178-180 (src/indian-history/singhania-art-culture-05.txt); NCERT Themes in Indian History II ch.9 (farr-i izadi, Shihabuddin Suhrawardi d.1191)
+
+=== Sufi Terms, Doctrines, Stages and Practices
+| Term | Meaning |
+|---|---|
+| **Pir / Shaikh / Murshid** | **Teacher** and spiritual guide of the Sufis |
+| **Murid** | Disciple (student); bond = **Piri-Muridi** |
+| **Khalifa** | **Successor** nominated by the pir to carry on the order |
+| **Silsila** | Order = **chain of spiritual genealogy** (master → disciple) |
+| **Khanqah** | **Hospice** where disciples lived and trained; fed travellers and the poor |
+| **Sama** | Musical assembly to produce ecstasy; raqs = dance |
+| Zikr / Chilla | Remembrance of God / 40-day retreat |
+| Wali / Auliya | Friend(s) of God – a title, not an order |
+| Urs | Death anniversary = union with God |
+| Fana / Baqa | Annihilation of self in God / subsistence in God |
+| Malfuzat / Maktubat / Tazkira | Conversations / letters / biographies of saints |
+| **Ulema** | Scholars of Islamic law – **not a Sufi term** |
+- **Not related to Sufism = Ulema** (UPPSC 2014; State PSC) – Khanqah, Shaikh and Sama are Sufi terms.
+- **UPPSC 2009 match:** Pir – teacher (2), Murid – student (1), Khalifa – follower/successor (4), Khanqah – hospice (3) → **2 1 4 3**.
+- "Sufi" from **suf** = coarse wool (also safa, sophia). Sufism took shape in **Persia (Iran)** and Iraq and came to India before Turkish rule; it absorbed Neo-Platonism, Christianity, Buddhism, Vedanta and Yoga.
+- **First prominent Sufi in India: Ali Hujwiri (Abul Hasan, Data Ganj Bakhsh)**, author of **Kashf-ul-Mahjub** – not Moinuddin, Nizamuddin or Amir Khusrau.
+- **Sufi Kalam** devotional music = **Kashmir**.
+- Significance: Sufism gave Islam a **tolerant, vernacular face**; khanqahs became welfare centres open to all.
+# Doctrines
+- **Wahdat-ul-Wujud** (Unity of Being; Haq and Khalq are one) – **Ibn Arabi**; Chishtis, Qadiris.
+- **Wahdat-ush-Shuhud** (Unity of Appearance) – **Ahmad Sirhindi** (Naqshbandi).
+- **10 maqamat (stages):** **Tauba** (repentance), Wara, Zuhd, **Faqr** (poverty), **Sabr** (patience), Shukr, Khauf, Raja, Tawakkul, **Riza** (last). **Namaz – daily prayer is not one of the 10 stages** → the incorrect pair.
+- Ba-shara (within Sharia: Chishti, Suhrawardi, Qadiri, Naqshbandi, Firdausi) vs **Be-shara** (Qalandars, Madaris).
+# Practices and yoga
+- **UPSC 2012:** Sufis practised **meditation and breath control**, **severe ascetic exercises in a lonely place**, and **holy songs (sama) to arouse ecstasy** → **1, 2 and 3**.
+- Hatha-yogic **Amritakund** translated into Arabic and Persian (13th c.); **Chishti** practice took yogic postures and breath control, vital in every order **except the Naqshbandis**. **Sufi order that adopted yogic practice = Chishti** (UPPSC 2010; the Shattaris also did).
+- **Alberuni** compared Sufi ideas with **Patanjali's Yoga Sutra** and the **Gita** (Kitab-ul-Hind).
+- **Devotional music as a way to God = Muinuddin Chishti** (UPSC 1996 ×2) – Chishtis made sama central.
+> Exam angle: term ↔ meaning (pir, murid, khalifa, silsila, khanqah, ulema) and the UPSC practice statements.
+~~ Sources: NextGen Indian History - APPSC Exams Part 5 p.5-8 (src/indian-history/nextgen-indian-history-appsc-05.txt): suf, 10 stages, sama, Piri-Muridi, Amritakunda, Chishtiya yoga; Singhania App.2 p.176-178 (src/indian-history/singhania-art-culture-05.txt); old app notes 1:146 subs 0-4
+
+=== Sufis in the Deccan and Andhra
+| Place | Sufi link |
+|---|---|
+| Khuldabad (near Daulatabad) | **Burhanuddin Gharib** took the Chishti order to the Deccan (14th c.) |
+| **Gulbarga** | Dargah of **Gesudaraz (Muhammad Hussaini, Banda Nawaz)**, Chishti, under the Bahmanis |
+| Golconda | **Abul Hasan Tana Shah** was a disciple of **Shah Raju Qattal** |
+| Kadapa | **Ameen Peer Dargah** (Asthana-e-Magdoomiya) |
+| Penukonda | **Baba Fakhruddin Dargah** |
+| Kowthalam (Kurnool dt.) | Dargah where the **Ugadi Panchanga Shravanam** is read jointly by a Sufi and a Brahmin priest |
+- Early Chishtis refused state grants; the later **Deccan Chishtis accepted** them.
+~~ Sources: NextGen Rocket Sheets IH Part 2 p.1 (Burhanuddin Gharib – Daulatabad; Mohammad Hussaini – Gulbarga); Singhania App.2 p.179 (Gisu Daraz); old app notes 1:146 sub 9
