@@ -39,36 +39,6 @@
 - **First Women Farmers-Workers Conference:** organised by **Bharatiya Kisan Sangh**, for the **UN International Year of the Woman Farmer 2026** (lead agency **FAO**).
 ~~ Sources: Rocket CA 2026 Part 02 p.21-22 (POSHAN Abhiyaan 8 Mar 2018; 9th Poshan Maah Varanasi, theme), p.24 (PMMSY); PMF Lens Jul 2026 p.71 and Sep 2026 p.71 (PM-MKSSY Central Sector sub-scheme 2023-24 to 2026-27; NFDP; 100 CRCFVs; 2,195 FFPOs); Economic Survey 2025-26 highlights (Vision IAS) p.23 (PM-DDKY, 100 districts); newsonair.gov.in 16 Jul 2025 (Cabinet approval); iasgyan.in PM-MKSSY (one-time aquaculture-insurance incentive; over ₹6,000 crore); app notes 6:39
 
-=== Border Villages, Panchayats and Social Security
-# Vibrant Villages Programme
-- **Launched 2023**; border villages are the nation's **"first villages"**; nodal **Ministry of Home Affairs**.
-| Feature | VVP-I | VVP-II |
-|---|---|---|
-| Type | **Centrally Sponsored** | **Central Sector (100% central funding)** |
-| Launched at | **Kibithoo, Anjaw, Arunachal Pradesh** | **Nathanpur, Cachar, Assam** (2026) |
-| Outlay | **₹4,800 crore** | **₹6,839 crore** |
-| Period | 2022-23 to 2026-27 | 2024-25 to 2028-29 (approved 2025) |
-| Villages | **662** | **1,954** |
-| Coverage | Arunachal, HP, Sikkim, Uttarakhand, **Ladakh** (northern border) | **15 States + 2 UTs** (J&K, Ladakh) on other land borders |
-- **VVP-II** leaves out **only blocks already under VVP-I**, not whole States.
-- **Viksit Vibrant Village Programme:** **MY Bharat** volunteers (**Ministry of Youth Affairs and Sports**) live in border villages.
-- **BADP:** began **1986-87 on the western border**; India's longest land border is with **Bangladesh**.
-# Panchayat planning and schemes
-- **People's Plan Campaign 2026-27:** from **2 October 2026**, slogan "**Sabki Yojana, Sabka Vikas**"; GPDPs for FY 2027-28 uploaded on **eGramSwaraj**; **Ministry of Panchayati Raj**.
-- **PM Viksit Gram Swaraj Yojana (29 Oct 2026):** **Centrally Sponsored Scheme**, **2026-27 to 2030-31** (**16th Finance Commission** period), ₹7,395.55 crore; nodal **Ministry of Panchayati Raj**.
-- **Constitution:** 73rd Amendment 1992 in force **24 April 1993**; **Article 243(b)** defines Gram Sabha; **11th Schedule - 29 subjects**.
-- **VB-G RAM G Act 2025** (replaced MGNREGA from 1 July 2026): permissible rural works raised from **266 to 375** (Oct 2026).
-- **MoPR-CESL MoU (4 Nov 2026):** EV charging and battery swapping on **Panchayat-owned land**; **CESL** = wholly owned subsidiary of **EESL**.
-# Pradhan Mantri Samajik Sahayata Yojana (21 Oct 2026)
-- **NSAP renamed PMSSY**: ₹53,428 crore, **2026-27 to 2030-31**; NSAP launched **15 August 1995**, Ministry of Rural Development.
-| Old name | New name |
-|---|---|
-| IGNOAPS | **PM Vriddhavastha Pension Yojana** |
-| IGNWPS | PM Vidhwa Pension Yojana |
-| IGNDPS | **PM Divyangjan Pension Yojana** |
-| NFBS | PM Parivar Labh Yojana |
-~~ Sources: Rocket CA 2026 Part 01 p.152-154 (NSAP ₹53,428 crore 2026-27 to 2030-31; PMSSY sub-schemes), p.156 (VB-G RAM G in force 1 Jul 2026, replacing MGNREGA); Rocket CA 2026 Part 02 p.20 (PPC 2 Oct 2026, "Sabki Yojana, Sabka Vikas"); app notes 6:39
-
 === Literacy, Schools and Higher Education
 # ULLAS - Nav Bharat Saksharta
 - **ULLAS** = **Understanding of Lifelong Learning for All in Society**; CSS, 2022-23 to 2026-27; adults **15 years and above**; slogan "**Jan Jan Sakshar**"; test **FLNAT**.
@@ -104,26 +74,6 @@
 - **IIT Mandi** (est. **2009, Kamand**): "**Science on Wheels**" for rural schools, 17 Oct 2026.
 ~~ Sources: Rocket CA 2026 Part 02 p.20, p.23 (ULLAS 95% benchmark; Mizoram 20 May 2025; Uttarakhand 8 Jul 2026; Lakshadweep 11 Oct 2026); app notes 6:39 (old notes: Uttarakhand 10 Jul 2026 - Rocket date used)
 
-=== Health Missions
-# Ayushman Bharat PM-JAY
-- **Launched 23 September 2018**; **₹5 lakh per family per year** (family floater, not per person); beneficiaries from **SECC**.
-- **World's largest government-funded health assurance scheme**; **48.54 crore Ayushman Cards** (23 Sep 2026).
-- **Implemented by the National Health Authority (NHA)** under the **Ministry of Health and Family Welfare** - not the Ministry of Ayush or ICMR.
-> PYQ (APPSC FRO Mains): implementing organisation = **National Health Authority**.
-# TB Mukt Bharat
-- **JOSH = Joint Squad for Health:** launched **8 October 2026**; Phase 1 **55 districts in 11 States**; AI chatbot "**Khushi Avatar**".
-- **PM TB Mukt Bharat Abhiyaan:** **9 September 2022**; **BPaLM** regimen for drug-resistant TB; NTEP was earlier **RNTCP**.
-- New TB case rate 2015-2024: **India -21%**; **World TB Day 24 March**.
-- **NCC** motto "**Unity and Discipline**".
-# Hepatitis - NVHCP
-- **National Viral Hepatitis Control Programme:** **2018**; eliminate **Hepatitis B and C by 2030** (**SDG 3.3**).
-- **Hepatitis B has a vaccine; Hepatitis C has none.**
-# Research bodies and Ayush
-- **ICMR-CHAMP:** foundation stone **12 October 2026**, **Keylong**, Lahaul and Spiti; altitude illnesses **AMS, HAPE, HACE**.
-- **ICMR:** set up **1911 as IRFA**, renamed **1949**; under the **Department of Health Research**.
-- **Ayurvarta** series: 1 Sep 2026 by **All India Institute of Ayurveda, New Delhi**; **Ayurveda Day fixed on 23 September**.
-~~ Sources: Rocket CA 2026 Part 01 p.154 (AB-PMJAY - Ministry of Health and Family Welfare / NHA); Rocket CA 2026 Part 02 p.21 (PM-JAY); app notes 6:39
-
 === Infrastructure, Industry and Trade Schemes
 # PM Gati Shakti National Master Plan (5 years, Oct 2026)
 - **Launched 13 October 2021**; GIS-based platform; nodal **DPIIT**.
@@ -146,6 +96,56 @@
 - **"Punah Bharan" app:** groundwater recharge; by **BISAG-N** (**MeitY**, HQ **Gandhinagar**) with the **National Water Mission** (one of eight **NAPCC** missions).
 - **Co-Keralam:** Kerala's proposed first cooperative airline, from **Kochi**; **Ministry of Cooperation est. 6 July 2021**.
 ~~ Sources: Rocket CA 2026 Part 01 p.152-153 (Modified UDAN Cabinet 25 Mar 2026, ₹28,840 crore, 10 years; Container Manufacturing Promotion Scheme ₹10,000 crore; Samudra Manthan - MoPNG); app notes 6:39
+
+=== Border Villages, Panchayats and Social Security
+# Vibrant Villages Programme
+- **Launched 2023**; border villages are the nation's **"first villages"**; nodal **Ministry of Home Affairs**.
+| Feature | VVP-I | VVP-II |
+|---|---|---|
+| Type | **Centrally Sponsored** | **Central Sector (100% central funding)** |
+| Launched at | **Kibithoo, Anjaw, Arunachal Pradesh** | **Nathanpur, Cachar, Assam** (2026) |
+| Outlay | **₹4,800 crore** | **₹6,839 crore** |
+| Period | 2022-23 to 2026-27 | 2024-25 to 2028-29 (approved 2025) |
+| Villages | **662** | **1,954** |
+| Coverage | Arunachal, HP, Sikkim, Uttarakhand, **Ladakh** (northern border) | **15 States + 2 UTs** (J&K, Ladakh) on other land borders |
+- **VVP-II** leaves out **only blocks already under VVP-I**, not whole States.
+- **Viksit Vibrant Village Programme:** **MY Bharat** volunteers (**Ministry of Youth Affairs and Sports**) live in border villages.
+- **BADP:** began **1986-87 on the western border**; India's longest land border is with **Bangladesh**.
+# Panchayat planning and schemes
+- **People's Plan Campaign 2026-27:** from **2 October 2026**, slogan "**Sabki Yojana, Sabka Vikas**"; GPDPs for FY 2027-28 uploaded on **eGramSwaraj**; **Ministry of Panchayati Raj**.
+- **PM Viksit Gram Swaraj Yojana (29 Oct 2026):** **Centrally Sponsored Scheme**, **2026-27 to 2030-31** (**16th Finance Commission** period), ₹7,395.55 crore; nodal **Ministry of Panchayati Raj**.
+- **Constitution:** 73rd Amendment 1992 in force **24 April 1993**; **Article 243(b)** defines Gram Sabha; **11th Schedule - 29 subjects**.
+- **VB-G RAM G Act 2025** (replaced MGNREGA from 1 July 2026): permissible rural works raised from **266 to 375** (Oct 2026).
+- **MoPR-CESL MoU (4 Nov 2026):** EV charging and battery swapping on **Panchayat-owned land**; **CESL** = wholly owned subsidiary of **EESL**.
+# Pradhan Mantri Samajik Sahayata Yojana (21 Oct 2026)
+- **NSAP renamed PMSSY**: ₹53,428 crore, **2026-27 to 2030-31**; NSAP launched **15 August 1995**, Ministry of Rural Development.
+| Old name | New name |
+|---|---|
+| IGNOAPS | **PM Vriddhavastha Pension Yojana** |
+| IGNWPS | PM Vidhwa Pension Yojana |
+| IGNDPS | **PM Divyangjan Pension Yojana** |
+| NFBS | PM Parivar Labh Yojana |
+~~ Sources: Rocket CA 2026 Part 01 p.152-154 (NSAP ₹53,428 crore 2026-27 to 2030-31; PMSSY sub-schemes), p.156 (VB-G RAM G in force 1 Jul 2026, replacing MGNREGA); Rocket CA 2026 Part 02 p.20 (PPC 2 Oct 2026, "Sabki Yojana, Sabka Vikas"); app notes 6:39
+
+=== Health Missions
+# Ayushman Bharat PM-JAY
+- **Launched 23 September 2018**; **₹5 lakh per family per year** (family floater, not per person); beneficiaries from **SECC**.
+- **World's largest government-funded health assurance scheme**; **48.54 crore Ayushman Cards** (23 Sep 2026).
+- **Implemented by the National Health Authority (NHA)** under the **Ministry of Health and Family Welfare** - not the Ministry of Ayush or ICMR.
+> PYQ (APPSC FRO Mains): implementing organisation = **National Health Authority**.
+# TB Mukt Bharat
+- **JOSH = Joint Squad for Health:** launched **8 October 2026**; Phase 1 **55 districts in 11 States**; AI chatbot "**Khushi Avatar**".
+- **PM TB Mukt Bharat Abhiyaan:** **9 September 2022**; **BPaLM** regimen for drug-resistant TB; NTEP was earlier **RNTCP**.
+- New TB case rate 2015-2024: **India -21%**; **World TB Day 24 March**.
+- **NCC** motto "**Unity and Discipline**".
+# Hepatitis - NVHCP
+- **National Viral Hepatitis Control Programme:** **2018**; eliminate **Hepatitis B and C by 2030** (**SDG 3.3**).
+- **Hepatitis B has a vaccine; Hepatitis C has none.**
+# Research bodies and Ayush
+- **ICMR-CHAMP:** foundation stone **12 October 2026**, **Keylong**, Lahaul and Spiti; altitude illnesses **AMS, HAPE, HACE**.
+- **ICMR:** set up **1911 as IRFA**, renamed **1949**; under the **Department of Health Research**.
+- **Ayurvarta** series: 1 Sep 2026 by **All India Institute of Ayurveda, New Delhi**; **Ayurveda Day fixed on 23 September**.
+~~ Sources: Rocket CA 2026 Part 01 p.154 (AB-PMJAY - Ministry of Health and Family Welfare / NHA); Rocket CA 2026 Part 02 p.21 (PM-JAY); app notes 6:39
 
 === Skilling, MSME and Artisans
 # PM Vishwakarma (three years)
