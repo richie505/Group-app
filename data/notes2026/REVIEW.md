@@ -1171,3 +1171,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 397 → 67 kept + 72 new (139, 35%); new 43 statements / 20 match / 9 A–R; no lines lost.
 - ye9ce6d1bc61 "key = Knew it" — not an error: it is a flashcard-type PYQ (k:"f", at:"Pakistan"); no change.
 - 145:0:4 Dasarathi Satakam translator (Bhanumathi Ramakrishna) "per key" only; 146:0:7 "most orthodox order" official key Suhrawardi vs notes Naqshbandi (standard: Naqshbandi) — Disputed chip check.
+
+## rewrite b5-w066 (rows 66–71)
+- own 405 → 53 kept + 118 new (171, 42%); new 70 statements / 29 match / 19 A–R; no lines lost. Most statement MCQs have exactly one false statement (variety could improve).
+- PYQ y5dbaa80533f (71:0:0) key "rooftop solar in urban areas"; notes say rural and urban — check.
+- gc77262c0fc44 (wind 10.5% vs notes 10.6%) merged away.
