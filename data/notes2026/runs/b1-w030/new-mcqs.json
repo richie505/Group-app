@@ -330,17 +330,17 @@
   "tq": "match"
  },
  {
-  "id": "cp6106aed9f3a5",
+  "id": "cp58c6377a3357",
   "row": 30,
-  "s": "Consider the following statements about Buddhism in Andhra:\n1. The Mahasanghika sect was born at Dhanyakataka.\n2. Twelve of the eighteen early Buddhist sects existed in Andhra.\n3. The Kathavatthu shows that the Andhakas took part in the Third Buddhist Council.\n4. N. Venkataramanayya identified 'Sriparvata Swamy' with the Buddha.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about Buddhism in Andhra:\n1. The Mahasanghika sect was born at Dhanyakataka.\n2. Twelve of the eighteen early Buddhist sects existed in Andhra.\n3. The Kathavatthu shows that the Andhakas took part in the Third Buddhist Council.\n4. N. Venkataramanayya identified 'Sriparvata Swamy' with Nagarjuna.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
    "Only three",
    "All four"
   ],
-  "a": 2,
-  "x": "Statement 2 is wrong: nine of the eighteen early sects existed in Andhra. Statements 1, 3 and 4 are correct, so three statements are correct.",
+  "a": 1,
+  "x": "Statements 2 and 4 are wrong: nine (not twelve) of the eighteen early sects existed in Andhra, and N. Venkataramanayya identified 'Sriparvata Swamy' with the Buddha, not Nagarjuna. Statements 1 and 3 are correct, so only two are correct.",
   "src": "app",
   "tq": "statements"
  },
@@ -538,5 +538,935 @@
   "x": "Both are true and R explains A: a simple doctrine preached in the people's language (Pali/Prakrit), along with missionary zeal and appeal to the lower orders, explains the spread of Buddhism.",
   "src": "app",
   "tq": "assertion"
+ },
+ {
+  "id": "cpe0d3ebf8f636",
+  "row": 31,
+  "s": "Consider the following statements about the Ajivikas:\n1. They held that all thoughts and actions are fixed before birth.\n2. They held that karma could change a man's destiny.\n3. Their ascetics were called Sudra sannyasins and they practised no caste discrimination.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: under Niyati (strict fatalism) karma cannot change destiny and the order of rebirth cannot be changed – there is no free will. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpea206eaf679c",
+  "row": 31,
+  "s": "Consider the following statements about Makkhali Gosala:\n1. He was Mahavira's companion for about six years.\n2. The Bhagavati Sutra records his quarrel with Mahavira.\n3. The Digha Nikaya is the text that records the Buddha's debates with the Jains and Ajivikas.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: the notes cite the Majjhima Nikaya for the Buddha's debates with Jains and Ajivikas. Statements 1 and 2 are correct (Jain texts even call Gosala Mahavira's disciple).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0fa930ebbdfa",
+  "row": 31,
+  "s": "Consider the following statements about the patronage of the Ajivikas:\n1. The Ajivikas were popular under Bindusara.\n2. The Barabar caves were gifted to the Ajivikas by Chandragupta Maurya.\n3. Ashoka's Seventh Pillar Edict names the Ajivikas along with the Brahmanas, the Sangha and the Nirgranthas.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: the Barabar (and Nagarjuni) caves were gifted by Ashoka and Dasharatha, not Chandragupta. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8342fdd8b945",
+  "row": 31,
+  "s": "Assertion (A): The Ajivikas influenced the later Vaisheshika school.\nReason (R): The Ajivikas held an atomic theory of matter.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the Ajivika atomic theory of matter is what influenced the later Vaisheshika (atomist) school.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp574cb72aed2e",
+  "row": 31,
+  "s": "Consider the following statements about the decline of the Ajivikas:\n1. The sect survived for about 2,000 years.\n2. It finally disappeared from Bengal and Bihar in the 14th century CE.\n3. It faded with the Puranic-Bhakti revival and the loss of royal patronage.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: the Ajivikas lingered till the 14th century CE in Karnataka and Tamil Nadu. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7d7ecf0dad47",
+  "row": 31,
+  "s": "Consider the following statements about the Charvaka school:\n1. It is also called Barhaspatya after its legendary founder Brihaspati.\n2. It accepts perception and inference as valid means of knowledge.\n3. It is known mainly through its rivals' criticism, such as Madhava's Sarvadarshanasangraha.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: the only pramana Charvaka accepts is perception (pratyaksha); it rejects inference and Vedic testimony. Statements 1 and 3 are correct (the original Brihaspati Sutra is lost).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0b47651a566b",
+  "row": 31,
+  "s": "Match the schools with their view of karma:\nList-I (School)\na. Jainism\nb. Buddhism\nc. Ajivika\nd. Charvaka\nList-II (View of karma)\ni. Intention-based\nii. Removable by penance\niii. Does not decide rebirth\niv. Cannot alter destiny\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 1,
+  "x": "Jainism – karma removable by penance; Buddhism – intention-based karma; Ajivika – karma cannot alter destiny (Niyati); Charvaka – karma does not decide rebirth (no afterlife).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9857dd0c55bc",
+  "row": 31,
+  "s": "Assertion (A): The Charvakas rejected Vedic ritualism and the afterlife.\nReason (R): The Charvakas accepted perception as the only valid means of knowledge.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: since only perception is valid, what cannot be perceived – the fruits of ritual, the afterlife – is rejected; hence 'once cremated there is no return'.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpcc4facb26cfb",
+  "row": 31,
+  "s": "Match the teachers of the 6th century BCE with their doctrines:\nList-I (Teacher)\na. Purana Kassapa\nb. Ajita Kesakambalin\nc. Pakudha Kaccayana\nd. Sanjaya Belatthiputta\nList-II (Doctrine)\ni. Akriyavada – actions bring neither merit nor demerit\nii. Materialism – nothing survives death\niii. Scepticism – 'eel-wriggling'\niv. Seven eternal, uncreated elements\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 2,
+  "x": "Purana Kassapa – Akriyavada; Ajita Kesakambalin – materialist; Pakudha Kaccayana – seven eternal elements; Sanjaya Belatthiputta – sceptic ('eel-wriggling'). Makkhali Gosala taught Niyativada.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd05fb5142c0e",
+  "row": 31,
+  "s": "Consider the following statements about the six heterodox teachers:\n1. Ajatashatru reports their views to the Buddha in the Samannaphala Sutta of the Digha Nikaya.\n2. Nigantha Nataputta of this list is Mahavira.\n3. The Shramana movements arose amid urbanisation and Magadhan patronage.\n4. Makkhali Gosala taught Akriyavada.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: Gosala taught Niyativada (fatalism); Akriyavada was Purana Kassapa's doctrine. Statements 1, 2 and 3 are correct, so three statements are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf296cc4e322a",
+  "row": 32,
+  "s": "Arrange the following events of Alexander's career in chronological order:\n1. Battle of the Hydaspes against Porus\n2. Death at Babylon\n3. Crossing of the Hindu Kush\n4. Departure from India by way of Patala\nSelect the correct answer using the code given below:",
+  "o": [
+   "1-3-4-2",
+   "3-1-4-2",
+   "3-4-1-2",
+   "1-3-2-4"
+  ],
+  "a": 1,
+  "x": "Hindu Kush crossed in 327 BC (start of the invasion) → Hydaspes against Porus, 326 BC → left India from Patala, 325 BC → died at Babylon, 323 BC, aged 32. So 3-1-4-2.",
+  "src": "app",
+  "tq": "sequence"
+ },
+ {
+  "id": "cp9dd2ac2df375",
+  "row": 32,
+  "s": "Match the Greek names of the Punjab rivers with their Indian names:\nList-I (Greek name)\na. Hydaspes\nb. Hyphasis\nc. Acesines\nd. Hydraotes\nList-II (River)\ni. Jhelum\nii. Beas\niii. Ravi\niv. Chenab\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 3,
+  "x": "Hydaspes = Jhelum (Sanskrit Vitasta), where Porus was defeated; Hyphasis = Beas, the halt point; Acesines = Chenab; Hydraotes = Ravi.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp968abdf5751c",
+  "row": 32,
+  "s": "Consider the following statements about Alexander's campaign in the Punjab:\n1. Porus was executed after his defeat at the Hydaspes.\n2. Bucephala and Nicaea were founded on the Jhelum.\n3. Astes (Hasti), the raja of Pushkalavati, resisted Alexander and was killed.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: Porus, asked how he wished to be treated, said 'Like a king'; Alexander restored and enlarged his kingdom and made him an ally. Statements 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc560ae636548",
+  "row": 32,
+  "s": "Consider the following statements about Alexander's retreat:\n1. His army refused to cross the Ravi.\n2. Twelve stone altars were set up on the northern bank of the Beas.\n3. Nearchus led the fleet down the Indus.\n4. Fear of the Nanda army was one of the reasons for the refusal to advance.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: the army refused to cross the Beas (Hyphasis), not the Ravi. Statements 2, 3 and 4 are correct (war-weariness, homesickness, disease and fear of the Nanda army), so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3dd3536e210e",
+  "row": 32,
+  "s": "Consider the following statements about Magadha at the time of Alexander:\n1. Dhana Nanda, called Agrammes by the Greeks, was the last Nanda king and Alexander's contemporary.\n2. Bhaddasala was the commander of the Nanda army.\n3. The Nanda army was small, which encouraged Alexander's soldiers to march east.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: the Nandas had a huge army, and fear of it was a reason Alexander's soldiers refused to go beyond the Beas. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp973079c69453",
+  "row": 32,
+  "s": "Match the rulers / peoples of the north-west with their response to Alexander:\nList-I (Ruler / people)\na. Ambhi of Taxila\nb. Porus\nc. Assakenoi of Massaga\nd. Malloi (Malavas)\nList-II (Response)\ni. Resisted at the Hydaspes\nii. Women took up arms under queen Cleophis\niii. First to surrender; helped Alexander\niv. Fought him during the retreat\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 2,
+  "x": "Ambhi (Omphis) of Taxila surrendered first and helped Alexander; Porus resisted at the Hydaspes; the Assakenoi (Ashvakas) of Massaga – women took up arms, queen Cleophis; the Malloi and Kshudrakas fought him during the retreat.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpfcb1dcae35ad",
+  "row": 32,
+  "s": "Consider the following statements:\n1. The kingdom of Porus lay between the Jhelum and the Chenab.\n2. Massaga was the capital of the Assakenoi (Ashvakas).\n3. Takshashila lay between the Indus and the Jhelum, near present-day Peshawar.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: Takshashila (Taxila) lay between the Indus and the Jhelum near Rawalpindi, Pakistan. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp05b1980dc463",
+  "row": 32,
+  "s": "Consider the following statements:\n1. The Battle of Ten Kings, described in the Rigveda, was fought by Sudas near the Parushni (Ravi).\n2. The Kalinga War between Ashoka and Kalinga was fought in c. 383 BC.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: the Kalinga War was fought in 261 BC. Statement 1 is correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd3c592527cd6",
+  "row": 32,
+  "s": "Consider the following statements about the Achaemenid invasion of India:\n1. Cyrus II was the first Achaemenid to campaign into the north-west, capturing Gandhara and Kamboja.\n2. Darius I made Sindh and Punjab west of the Indus the 20th satrapy of his empire.\n3. According to Herodotus, the Indian satrapy paid a tribute of 360 talents of silver.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: Herodotus records a tribute of 360 talents of gold dust (about one-third of the revenue), from the most fertile satrapy. Statements 1 and 2 are correct (first to campaign = Cyrus; first to annex = Darius I, 522–486 BC).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf72db664b63b",
+  "row": 32,
+  "s": "Consider the following statements about the Persian influence on India:\n1. The Kharosthi script, derived from Aramaic, was written from right to left.\n2. Ashoka's Kandahar edict is partly in Aramaic.\n3. The words lipi / dipi used in the Ashokan edicts reflect Persian usage.\n4. The satrapy system of the north-west was of Greek origin.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the satrapy system came from the Persians (Achaemenids). Statements 1, 2 and 3 are correct, so three statements are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa6e1158d3951",
+  "row": 32,
+  "s": "Consider the following statements about the Greek writers on Alexander:\n1. Nearchus, Onesicritus and Aristobulus came with Alexander and left first-hand accounts.\n2. Arrian, Curtius and Plutarch were later writers.\n3. Deimachus came to India as Alexander's admiral.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Deimachus was a later envoy of Antiochus I to Bindusara and did not come with Alexander; Nearchus was the admiral. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf8f52191a629",
+  "row": 32,
+  "s": "Assertion (A): Alexander's invasion cleared the way for the rise of Chandragupta Maurya.\nReason (R): The invasion weakened the small independent states of the north-west.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: by weakening the small north-western states the invasion cleared the way for Chandragupta Maurya, who then expelled the Greek satraps with Porus (Parvataka) as ally.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4abc7d3584fd",
+  "row": 32,
+  "s": "Assertion (A): Alexander's invasion left a deep and lasting political mark on India.\nReason (R): The invasion opened direct contact and new land and sea routes between Greece and India.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 3,
+  "x": "A is false: the invasion left little lasting political mark – the earlier Persian rule had the deeper influence. R is true: it opened direct contact and new land and sea routes between Greece and India.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpc0bd782b242d",
+  "row": 33,
+  "s": "Consider the following statements about the Indica:\n1. Its author Megasthenes was the envoy of Seleucus I Nicator to Chandragupta Maurya at Pataliputra.\n2. The original is lost; it survives in fragments quoted by Diodorus, Strabo, Pliny and Arrian.\n3. The fragments were compiled by Schwanbeck in 1909.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: Schwanbeck compiled the fragments in 1846 (1909 is the year Shamasastry published the Arthashastra). Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp822617cc428d",
+  "row": 33,
+  "s": "Consider the following statements about Megasthenes' account of Mauryan India:\n1. Pataliputra (Palibothra) had a wooden palisade with 64 gates and 570 towers.\n2. The city was run by six committees of five members each.\n3. He divided society into seven classes, one of which was the merchants.\n4. He called the town officials Astynomoi.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: Megasthenes' seven classes (philosophers, farmers, herdsmen, artisans, soldiers, overseers, councillors) left out the merchants. Statements 1, 2 and 4 are correct, so three statements are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd6d6c33333e0",
+  "row": 33,
+  "s": "Assertion (A): Megasthenes' statement that there were no slaves in India is not accepted by historians.\nReason (R): The Arthashastra and the Ashokan edicts mention dasas (slaves).\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the Indica's 'no slaves in India' is wrong because the Arthashastra and Ashokan edicts clearly mention dasas.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp0ee92ce6ef67",
+  "row": 33,
+  "s": "Consider the following statements about Megasthenes and the Andhras:\n1. He is the first to mention the forts of the Andhras.\n2. He credited the Andhras with 80 fortified towns.\n3. He credited them with 1,00,000 infantry, 2,000 cavalry and 1,000 elephants.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: Megasthenes credited the Andhras with 30 fortified towns; 80 is the pillared hall at Kumrahar. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp61766a196ecd",
+  "row": 33,
+  "s": "Consider the following statements about the Arthashastra:\n1. Its author Kautilya was also called Pushyagupta.\n2. Its manuscript was identified by R. Shamasastry in 1905 and published in 1909.\n3. It is divided into 15 books (adhikaranas).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: Kautilya = Chanakya = Vishnugupta; Pushyagupta was Chandragupta's governor who built the Sudarshana lake. Statements 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp93533424f701",
+  "row": 33,
+  "s": "Match the sources for the Mauryas with their authors:\nList-I (Work)\na. Arthashastra\nb. Mudrarakshasa\nc. Parishishtaparvan\nd. Mahavamsa\nList-II (Author)\ni. Vishakhadatta\nii. Hemachandra\niii. Kautilya\niv. Mahanama\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 1,
+  "x": "Arthashastra – Kautilya (Vishnugupta); Mudrarakshasa – Vishakhadatta; Parishishtaparvan (Jain, Chandragupta's Jain end) – Hemachandra; Mahavamsa (Sri Lankan Pali chronicle) – Mahanama.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp75f0ff946c88",
+  "row": 33,
+  "s": "Consider the following statements about the Mudrarakshasa:\n1. It is a Prakrit drama of the Mauryan age.\n2. In it Chanakya wins over Rakshasa, the minister of the Nandas.\n3. Its commentator Dhundiraja made Chandragupta a scion of the Nanda house.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: the Mudrarakshasa of Vishakhadatta is a Sanskrit drama of the Gupta age (5th–6th c. CE). Statements 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3543cf8a9ff7",
+  "row": 33,
+  "s": "Match the inscriptions / finds with the Mauryan facts they give:\nList-I (Inscription / find)\na. Kumrahar (Patna)\nb. Bulandibagh (Patna)\nc. Shar-i-Kuna (Kandahar)\nd. Junagadh inscription of Rudradaman I\nList-II (Mauryan fact)\ni. Sudarshana lake built by Pushyagupta\nii. Greek–Aramaic edict\niii. 80-pillared hall of Pataliputra\niv. Wooden palisade\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Kumrahar – the 80-pillared hall; Bulandibagh – the wooden palisade thought to be the one Megasthenes saw; Shar-i-Kuna (Kandahar) – the Greek–Aramaic edict of Ashoka; Rudradaman I's Junagadh inscription (c. 150 CE) – the Sudarshana lake built in Chandragupta's reign by governor Pushyagupta.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpefe506773315",
+  "row": 33,
+  "s": "Consider the following statements about the sources for the Mauryas:\n1. The Ashokan edicts were first deciphered by James Prinsep in 1837.\n2. Mauryan punch-marked coins were mainly of gold.\n3. The late phase of the Northern Black Polished Ware corresponds to the Mauryan age.\n4. The Milindapanho is a Mauryan source on the reign of Bindusara.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 2 and 4 are wrong: the punch-marked coins were of silver, with peacock–hill–crescent symbols; and the Milindapanho is about Menander, not a Mauryan source. Statements 1 and 3 are correct, so only two are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa5f7992d35dd",
+  "row": 33,
+  "s": "Consider the following statements about the literary sources for the Mauryas:\n1. The Dipavamsa and Mahavamsa, Sri Lankan Pali chronicles, describe Ashoka's mission to Sri Lanka.\n2. Among the 18 Puranas, the Vishnu Purana is used for Mauryan king lists and genealogies.\n3. The Vamsatthapakasini, which tells the Chanakya–Chandragupta legend, is a Jain text of the 10th century.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: the Vamsatthapakasini (10th c.) is a Buddhist commentary, not a Jain text. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2f3c54926d7f",
+  "row": 34,
+  "s": "Consider the following statements about the treaty between Chandragupta Maurya and Seleucus Nicator:\n1. Seleucus ceded Aria, Arachosia, Paropanisadai and Gedrosia.\n2. Seleucus also ceded Bactria.\n3. Chandragupta gave Seleucus 500 war elephants.\n4. Chandragupta's daughter was married to Seleucus.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 2 and 4 are wrong: Bactria was not ceded, and it was Seleucus's daughter (Helena) who married Chandragupta, not the reverse. Statements 1 and 3 are correct, so only two are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp613027e1dcfa",
+  "row": 34,
+  "s": "Match the provinces ceded by Seleucus to Chandragupta Maurya with their present-day regions:\nList-I (Province)\na. Aria\nb. Arachosia\nc. Paropanisadai\nd. Gedrosia\nList-II (Present-day region)\ni. Kabul\nii. Balochistan\niii. Kandahar\niv. Herat\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 1,
+  "x": "Aria = Herat; Arachosia = Kandahar; Paropanisadai = Kabul; Gedrosia = Balochistan.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp16dc4725d2bd",
+  "row": 34,
+  "s": "Consider the following statements about the Greek envoys to the Mauryan court:\n1. Megasthenes, the first Greek envoy to an Indian court, came in the reign of Chandragupta Maurya.\n2. Deimachus was sent by Antiochus I to the court of Bindusara.\n3. Dionysius was sent by Ptolemy II Philadelphus to the court of Ashoka.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: Dionysius, the envoy of Ptolemy II Philadelphus of Egypt, came to Bindusara's court. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9b676649a0fc",
+  "row": 34,
+  "s": "Consider the following statements about the Greek accounts of Chandragupta Maurya:\n1. Justin and Strabo call him Sandrocottus, while Arrian and Plutarch call him Androkottus.\n2. Sir William Jones identified Sandrocottus with Chandragupta Maurya in 1793.\n3. Pliny describes the meeting of Chandragupta with Alexander.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the meeting with Alexander is described by Justin, who also called Chandragupta's army a 'gang of dacoits'. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0f350c685d40",
+  "row": 34,
+  "s": "Consider the following statements about Chandragupta Maurya:\n1. He studied at Taxila in Gandhara, where he met Chanakya.\n2. With the Himalayan chief Parvataka he overthrew Dhana Nanda and took the throne in 321 BCE.\n3. Greek accounts credit him with 6,00,000 infantry and 30,000 cavalry.\n4. He reigned from 297 to 273 BCE.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: 297–273 BCE is Bindusara's reign; Chandragupta reigned c. 324/321–297 BCE. Statements 1, 2 and 3 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp570b1538b118",
+  "row": 34,
+  "s": "Match the Mauryan provincial capitals with their provinces:\nList-I (Capital)\na. Taxila\nb. Ujjain\nc. Tosali\nd. Suvarnagiri\nList-II (Province)\ni. East (Kalinga)\nii. West\niii. North\niv. South\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 0,
+  "x": "Taxila – north; Ujjain – west; Tosali – Kalinga in the east; Suvarnagiri – south; Pataliputra was the centre.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7cab4d45ee66",
+  "row": 34,
+  "s": "Consider the following statements about the southern reach of the Mauryas:\n1. Brahmagiri, Siddapura and Jatinga-Rameshwara in Karnataka mark the southern reach of the empire.\n2. The Pandya kingdom lay within the Mauryan Empire.\n3. In Kurnool district, Yerragudi has both major and minor edicts while Rajula Mandagiri has only a minor edict.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the Tamil kingdoms – Chola, Pandya, Satyaputra, Keralaputra – stayed outside the empire. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp229ef3af3edd",
+  "row": 34,
+  "s": "Assertion (A): The Satavahanas began their political career as feudatories of the Mauryas.\nReason (R): Ashoka's Rock Edict XIII names the Andhras among the peoples following Dhamma within his domain.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 1,
+  "x": "Both are true: the notes say the Satavahanas began as Mauryan feudatories, and RE XIII names the Andhras among peoples within the domain. But R only shows the Andhra country lay within Ashoka's empire; it does not explain how the Satavahana dynasty began, so R is not the correct explanation of A.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp722baa00e9fe",
+  "row": 34,
+  "s": "Consider the following statements about the Sudarshana lake at Girnar:\n1. It was built by Pushyagupta, governor of Chandragupta Maurya.\n2. Tushaspha, Ashoka's Yavana governor, added canals to it.\n3. Rudradaman I repaired it using forced labour.\n4. Skandagupta repaired it again.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: Rudradaman I repaired it (c. 150 CE) without forced labour, as his Junagadh inscription says. Statements 1, 2 and 4 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9764a44affa8",
+  "row": 34,
+  "s": "Consider the following statements about Chanakya:\n1. One verse of the Arthashastra names its author Vishnugupta.\n2. According to Taranath and Jain tradition, he stayed on as Ashoka's minister.\n3. In the Mudrarakshasa his rival Rakshasa was the minister of the Nandas.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: Taranath and Jain tradition make him Bindusara's minister. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp33fb1dc26243",
+  "row": 34,
+  "s": "Consider the following statements about Chandragupta Maurya's Jain end:\n1. Bhadrabahu went south with him during the great famine.\n2. After the twelve-year famine the followers of Sthulabhadra came to be called Digambaras.\n3. He died by Sallekhana at Shravanabelagola in Karnataka.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: Sthulabhadra's followers became the Svetambaras; Bhadrabahu's followers were the Digambaras. Statements 1 and 3 are correct (he abdicated for Bindusara – source Parishishtaparvan).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpad76d0ece747",
+  "row": 34,
+  "s": "Match the Mauryan rulers with their religious leanings:\nList-I (Ruler)\na. Chandragupta\nb. Bindusara\nc. Ashoka\nd. Samprati\nList-II (Religion)\ni. Ajivika\nii. Buddhism\niii. 'Ashoka of Jainism'; spread Jainism in Andhra\niv. Jainism, under Bhadrabahu\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-i, c-ii, d-iii",
+   "a-ii, b-i, c-iii, d-iv",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 0,
+  "x": "Chandragupta – Jainism (Bhadrabahu); Bindusara – Ajivika; Ashoka – Buddhism (though he gave the Barabar caves to the Ajivikas); Samprati – the 'Ashoka of Jainism', who spread Jainism in Andhra.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8c3b41e68890",
+  "row": 34,
+  "s": "Consider the following statements about Bindusara:\n1. His birth name was Simhasena and his mother was Durdhara.\n2. He ruled from 297 to 273 BCE.\n3. Antiochus I sent him the philosopher he had asked for.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Bindusara asked Antiochus I for sweet wine, dried figs and a philosopher – the philosopher could not be sent. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp76a85624abc2",
+  "row": 34,
+  "s": "Consider the following statements about the Taxila revolts:\n1. Under Bindusara, prince Susima failed to put down the Taxila revolt.\n2. According to the Divyavadana, Ashoka was then sent to Taxila.\n3. The later Taxila revolt in Ashoka's reign was also handled by Susima.\n4. Ashoka had served as viceroy at Taxila and Ujjain.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the later Taxila revolt under Ashoka was handled by Kunala. Statements 1, 2 and 4 are correct, so three statements are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0a0ed13999cf",
+  "row": 34,
+  "s": "Assertion (A): Bindusara is identified with the 'Amitrochates' of the Greek writers.\nReason (R): Bindusara's title Amitraghata means 'slayer of foes'.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 1,
+  "x": "Both are true: Amitrochates is the Greek form of Bindusara's title Amitraghata, which means 'slayer of foes' (Mahabhashya). But the meaning of the title does not explain the identification – it rests on the Greek form of the title – so R is not the correct explanation of A.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp05395004e215",
+  "row": 35,
+  "s": "Consider the following statements about Ashoka's Dhamma:\n1. It was a moral code and social ethic, not a new religion.\n2. Its central point was peace and non-violence; Rock Edict I bans slaughter and sacrifice.\n3. Pillar Edict II defines Dhamma as 'few faults, many good deeds'.\n4. It named the Four Noble Truths and Nibbana.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the Dhamma edicts name no Four Noble Truths or Nibbana – Dhamma was ethics, not Buddhist doctrine. Statements 1, 2 and 3 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf47dc4810af0",
+  "row": 35,
+  "s": "Consider the following statements about the content of Ashoka's Dhamma:\n1. Charity and truthfulness were among its virtues.\n2. It asked for regard for both Brahmanas and Shramanas.\n3. It encouraged festive gatherings called samajas.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: wasteful festive gatherings (samajas) were to be avoided. Statements 1 and 2 are correct (also kindness, purity, respect for elders, courtesy to slaves and servants).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp78dac16a9ccd",
+  "row": 35,
+  "s": "Match Ashoka's measures with the edicts that record them:\nList-I (Measure)\na. Appointment of Dhamma Mahamatras\nb. Quinquennial tours of rajukas, pradeshikas and yuktas\nc. Pativedakas may report at any time\nd. Hospitals for men and animals\nList-II (Edict)\ni. Rock Edict VI\nii. Rock Edict V\niii. Rock Edict III\niv. Rock Edict II\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 3,
+  "x": "Dhamma Mahamatras – RE V (14th regnal year); quinquennial tours – RE III (12th year); pativedakas reporting at any time – RE VI; hospitals, medicinal herbs, wells and trees – RE II.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf58631a2aa81",
+  "row": 35,
+  "s": "Consider the following statements about Ashoka's edicts:\n1. Pillar Edict IV gave the rajukas independent judicial power in the 26th regnal year.\n2. Pillar Edict IV gave condemned prisoners a respite of three days.\n3. Pillar Edict V forbade the branding of cattle.\n4. Rock Edict II limits its welfare measures to the empire and leaves out the Tamil lands.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: RE II extends the hospitals, herbs and wells also to the lands of the Cholas, Pandyas, Satyaputras and Keralaputras. Statements 1, 2 and 3 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp12dcd4afab05",
+  "row": 35,
+  "s": "Consider the following statements about the Kalinga War:\n1. It was fought in c. 261 BCE, Ashoka's 8th regnal year.\n2. Rock Edict XIII says about 1,50,000 were killed and 1,00,000 deported.\n3. Kalinga had broken free in the last years of Bindusara.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: RE XIII gives about 1,00,000 killed and 1,50,000 deported, with many more dying later. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp273f152ceb6e",
+  "row": 35,
+  "s": "Consider the following statements about Ashoka after the Kalinga War:\n1. Bherighosha, the sound of the war drum, gave way to Dhammaghosha.\n2. Dhammavijaya replaced military conquest.\n3. The Third Buddhist Council and the Ceylon mission came before the Kalinga War.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: the Third Council and the Ceylon mission came later; the Kalinga War itself brought the change of policy. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8b07dbc1322b",
+  "row": 35,
+  "s": "Assertion (A): After the Kalinga War, Ashoka gave up wars of conquest.\nReason (R): The killing and deportation of lakhs of people in the war filled him with remorse.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+   "(A) is true, but (R) is false",
+   "(A) is false, but (R) is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the toll recorded in RE XIII (about 1 lakh killed, 1.5 lakh deported) led to remorse, and remorse led to Dhammavijaya in place of conquest.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp37f696999ab6",
+  "row": 35,
+  "s": "Match the names in Rock Edict XIII with the Yavana kings they stand for:\nList-I (RE XIII name)\na. Antiyoka\nb. Antikini\nc. Maka\nd. Alikasudara\nList-II (King)\ni. Magas of Cyrene\nii. Antiochus II Theos of Syria\niii. Alexander of Epirus\niv. Antigonus Gonatas of Macedonia\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 2,
+  "x": "Antiyoka = Antiochus II Theos (Syria); Antikini = Antigonus Gonatas (Macedonia); Maka = Magas (Cyrene); Alikasudara = Alexander (Epirus or Corinth). Turamaya = Ptolemy II Philadelphus (Egypt).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa2983a95b0c8",
+  "row": 35,
+  "s": "Consider the following statements about Ashoka and Buddhism:\n1. Sri Lankan tradition says Nigrodha initiated him in his 4th regnal year.\n2. The Divyavadana makes Upagupta his teacher.\n3. The Bhabru edict expresses his faith in the Buddha, Dhamma and Sangha.\n4. The Third Buddhist Council at Pataliputra was held under Vasumitra.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the Third Council at Pataliputra was held under Moggaliputta Tissa, after which the missions were sent. Statements 1, 2 and 3 are correct, so three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb03b6929773f",
+  "row": 35,
+  "s": "Consider the following statements about Ashoka's Dhammayatras:\n1. They began in his 11th regnal year with a visit to Bodh Gaya.\n2. At Lumbini, in his 21st regnal year, he reduced the tax to one-sixth.\n3. Kanchipuram was one of the places on his pilgrimage route.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: the Lumbini tax was cut to one-eighth. Statement 3 is wrong: Kanchipuram was not on his route. Only statement 1 is correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf998df9a2912",
+  "row": 35,
+  "s": "Match the Buddhist missionaries sent after the Third Council with their regions:\nList-I (Missionary)\na. Yona Dhammarakkhita\nb. Mahadhammarakkhita\nc. Majjhima\nd. Mahadeva\nList-II (Region)\ni. Aparantaka\nii. Himalayan region\niii. Mahishamandala\niv. Maharattha\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-i, b-iii, c-iv, d-ii"
+  ],
+  "a": 0,
+  "x": "Yona Dhammarakkhita – Aparantaka; Mahadhammarakkhita – Maharattha; Majjhima – the Himalayan region; Mahadeva – Mahishamandala. (Maharakkhita went to the Yona country – the usual trap.)",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1335ba8b3378",
+  "row": 35,
+  "s": "Consider the following statements about Ashoka's missions:\n1. Mahinda's mission to Sri Lanka was received by king Devanampiya Tissa.\n2. Sanghamitta carried a branch of the Bodhi tree to Sri Lanka.\n3. Sona and Uttara were sent to Suvarnabhumi.\n4. Majjhantika was sent to Kashmir and Gandhara.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 3,
+  "x": "All four statements are correct: Mahinda's mission was received by Devanampiya Tissa, Sanghamitta took the Bodhi branch, Sona and Uttara went to Suvarnabhumi, and Majjhantika went to Kashmir and Gandhara (Rakkhita went to Vanavasi).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp352f909dae93",
+  "row": 35,
+  "s": "Match Ashoka's titles / names with their meaning or source:\nList-I (Title / name)\na. Devanampiya\nb. Piyadasi\nc. Buddhashakya Ashoka\nd. Dharmasoka\nList-II (Meaning / source)\ni. Of pleasing looks\nii. Maski inscription\niii. Beloved of the gods\niv. Sarnath inscription\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-ii, c-iii, d-iv"
+  ],
+  "a": 1,
+  "x": "Devanampiya = 'beloved of the gods'; Piyadasi = 'of pleasing looks'; Buddhashakya Ashoka – Maski; Dharmasoka – Sarnath inscription.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp065371bac471",
+  "row": 35,
+  "s": "Consider the following statements about Ashoka's accession:\n1. The Samantapasadika of Buddhaghosa says he won Avanti in Bindusara's time.\n2. The Mahavamsa says he killed 99 brothers in the succession struggle.\n3. His coronation took place in 273 BCE, soon after Bindusara's death.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: after a four-year gap (struggle with Susima), accession was c. 273/272 BCE and the coronation in 269 BCE. Statements 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
