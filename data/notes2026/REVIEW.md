@@ -1202,3 +1202,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 430 → 56 kept + 100 new (156, 36%); new 62 statements / 20 match / 17 A–R / 1 sequence; no lines lost.
 - Notes 53:5:3: AP forest cover "30,084.96 sq km = 23.59%" — helper says forest cover % is ~18.5% and 23.59% includes scrub/tree cover; verify against ISFR 2023 and fix. Own ne20ffc985f2 (repeats it) removed.
 - Own g4371e131760c had no valid key (a = −1) — removed.
+
+## rewrite b1-w156 (rows 156–165)
+- own 448 → 88 kept + 87 new (175, 39%); new 56 statements / 19 match / 12 A–R; no lines lost.
+- PYQ y6f79360150c ("fort at Machilipatnam 1611" → British): English opened a factory there in 1611; the Dutch had the fort (1605) — official key + Disputed chip check.
+- "Knew it" options in yb618fec59cf, y63deae1f71a, y4840f8144bc are flashcard PYQs — fine.
+- Golden Farman 1632 vs 1636 (already logged under b1-w116).

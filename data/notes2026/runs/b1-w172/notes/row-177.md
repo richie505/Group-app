@@ -1,0 +1,66 @@
+=== Major Famines of British India
+| Famine | Year | Region / note |
+|---|---|---|
+| Great Bengal Famine | 1770 | Bengal, under **Cartier**; about **one-third** of the people (about 1 crore) died; revenue still collected |
+| Chalisa | 1783-84 | **North India**; named after Vikram Samvat **1840** |
+| Doji Bara ("skull famine") | 1791-92 | Deccan, Hyderabad, Northern Circars |
+| Western U.P. | **1860-61** | over 2 lakh died |
+| Orissa (Odisha), Bengal, Bihar, Madras | **1865-66** | 20 lakh died; Orissa = **"Sea of Calamity"** (Na'anka durbhiksha, 1866-67) → Campbell Commission |
+| Western U.P., Bombay, Punjab | 1868-70 | 14 lakh |
+| Great Famine | **1876-78** | **Madras, Mysore, Hyderabad**, Bombay – under **Lytton** |
+| Great Famine | 1896-97 | whole country (45 lakh), Elgin II |
+| Famine | 1899-1900 | west and central India, Curzon |
+| **Bengal Famine** | **1943** | about **30 lakh (3 million)** died – last major famine; Linlithgow/Wavell |
+- "Western U.P. – **1871-72**" is the **wrong pair** (UPPCS 2017).
+- 1854-1901: **24 famines**, about **2.9 crore** deaths (Spectrum: 2.8 crore in 1850-1900).
+- Deaths came less from food shortage than from **poor purchasing power** (Amartya Sen); Florence Nightingale: "money famine".
+~~ Sources: PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.86-87; NextGen Indian History - APPSC Exams Part 6 (src/indian-history/nextgen-indian-history-appsc-06.txt) p.27; Spectrum Modern India (src/indian-history/spectrum-modern-india.txt) p.576; app notes 1:177
+
+=== Famines in Andhra and the Madras Presidency
+| Famine | Detail |
+|---|---|
+| 1781-82 | Carnatic (Karnataka) – depopulation |
+| 1791-92 | Food shortage in Ganjam and Visakhapatnam (Doji Bara) |
+| 1803 | Ceded districts – 25,000 deaths |
+| 1805-07, 1811, 1823 | South of the presidency; Nellore; Machilipatnam area (1823-24) |
+| **1832-33 Guntur** | **Dokkala / Nandana Karuvu** – about 40% of Guntur's people died; the **most serious famine of South India** |
+| 1839 | crop failure across Andhra |
+| **1865-66 Ganjam** | the **most severe** of the 19th-century Andhra famines; ryots shifted paddy → cotton in the American Civil War, cotton crashed and rice was short; migration to Mauritius, South Africa, Fiji |
+| 1866 Kurnool | Budda Vengalareddy of Uyyalawada fed the people – gold medal from Queen Victoria |
+| 1876-78 | Great Madras Famine – Rayalaseema and coastal Andhra; missionary **John Clough**'s canal relief work |
+- **11 famines** in Rayalaseema/Andhra in the second half of the 19th century.
+- The Company had **no famine code** and gave minimal relief.
+- **1945:** K.S. Gupta's relief committee (Famine Eradication Association).
+~~ Sources: NextGen AP History Part 16 (src/ap-history/ap-history-appsc-16.txt) p.4-5; NextGen AP History Part 21 (src/ap-history/ap-history-appsc-21.txt) p.5, p.9; NextGen modern India level 3 part 3 (src/ap-history/nextgen-modern-l3-03.txt) p.4; NextGen AP History Part 6 (src/ap-history/ap-history-appsc-06.txt) p.3; app notes 1:177
+
+=== Famine Commissions, Famine Code and Famine Policy
+| Commission | Year | Viceroy | Note |
+|---|---|---|---|
+| **Campbell** (first) | 1866 | John Lawrence | Orissa famine |
+| **Richard Strachey** | appointed 1878, report 1880 | **Lytton** | after the Great Famine 1876-78 → **Famine Code 1883** |
+| **Lyall** | 1898 | Elgin II | after the 1896-97 famine – causes, measures |
+| MacDonnell | 1901 | Curzon | early relief, more irrigation |
+| Woodhead (last) | 1944 | Wavell | Bengal Famine 1943 |
+- **Hunter Commission (1882)** = education, not famine; **Hartog** (1929) = education; Indigo Commission (1860) = indigo.
+- **Indian Famine Code, 1883:** prepared from the **Strachey Commission**; **relief works for the able-bodied**, **gratuitous relief for the old and infirm**.
+- **Temple wage:** Sir Richard Temple, 1877 Madras famine – about **1 lb of grain a day** on relief works ("starvation wage").
+- Public works as relief go back to **Kautilya**; the **Mauryan state** took interest in **irrigation** and in **laying and repairing roads**.
+- **Nationalist critique:** famines were not due to **monsoon failure alone** but to high, rigid land revenue, food exports and the drain – **Dadabhai Naoroji and R.C. Dutt**; R.C. Dutt, ***Open Letters to Lord Curzon* (1900)**.
+~~ Sources: Rocket Indian History Part 2 (src/indian-history/rocket-indian-history-02.txt) p.95; PMF Modern History Part 5 (src/indian-history/pmf-modern-history-05.txt) p.179-181; PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.87; NextGen Indian History - APPSC Exams Part 6 p.3; app notes 1:177
+
+=== Arthur Cotton and the Anicuts
+- **Sir Arthur Cotton** (born 15 May 1803): the **Guntur famine (1833)** convinced the Company that irrigation was needed.
+- **Godavari anicut at Dowleswaram:** report **1844** → sanctioned **1846** → begun **1847** → completed **April 1852**; cost about **Rs 1,50,000**; designed and built by **Cotton**.
+- **Veenam Veeranna** – the Andhra official who helped Cotton build the Godavari anicut; managed thousands of labourers; made **Rao Bahadur** and assistant engineer.
+- The old anicut was replaced by the **Sir Arthur Cotton Barrage**.
+| Anicut | Place | Year | Detail |
+|---|---|---|---|
+| Godavari | Dowleswaram | 1847-52 | Cotton; Veeranna |
+| Krishna | Bezwada | 1853-54 | proposed by Col. Henry Atlock Lake; built under Charles Orr |
+| Penna | Nellore | 1860 | on Cotton's plan |
+~~ Sources: NextGen AP History Part 21 (src/ap-history/ap-history-appsc-21.txt) p.5, p.9; NextGen AP History Part 7 (src/ap-history/ap-history-appsc-07.txt) p.3; app notes 1:177
+
+=== Famine Today and Famines Abroad
+- **IPC** food-insecurity scale – **five phases:** 1 Minimal → 2 Stressed → 3 Crisis → 4 **Emergency** → 5 Catastrophe/Famine (as of 2025).
+- **Irish Potato Famine** began **1845** when the fungus-like *Phytophthora infestans* (potato blight) spread through Ireland – not the Dust Bowl or Great Depression.
+~~ Sources: app notes 1:177; general knowledge, not checked (Irish famine)
