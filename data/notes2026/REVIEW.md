@@ -962,3 +962,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b1-w063 rewrite (rows 63-68): own 440 → 174 (40%). Notes: Salankayanas 'Parama Mahesvara' (Vaishnava); Pulakesin II vs Harsha date 618–19 vs 637.
 - b6-w027 rewrite (rows 27-28): own 400 → 164 (41%). Notes: 27:4:5 Harivansh 'first nominated member Deputy Chairman' (wrong, elected); 27:1:16 '326 votes needed' inconsistent.
 - b5-w028 rewrite (rows 28-33): own 388 → 138 (36%), 0 lost. Notes: deepfake penalties 'under DPDP Act' doubtful (own f8833039316bb); '3-hour takedown 27 Mar 2026' unverified.
+- b3-w035 rewrite (rows 35-40): own 409 → 156 (38%). PYQ yd18f961c539 Swayamsiddha 2002 vs notes 2001.

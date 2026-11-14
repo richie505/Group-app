@@ -45,9 +45,9 @@
   "tq": "statements"
  },
  {
-  "id": "cpbe8082badb9d",
+  "id": "cpd5ea6d4f55af",
   "row": 27,
-  "s": "Consider the following statements about tsunami warning in India:\n1. The Indian Tsunami Early Warning Centre (ITEWC) is located at INCOIS, Hyderabad.\n2. ITEWC can detect a tsunamigenic earthquake within about 10 minutes and warn 25 Indian Ocean countries.\n3. The OMNI buoys that feed the system are operated by NIOT, Chennai.\n4. The International Tsunami Information Centre is located at Honolulu.\nHow many of the above statements are correct?",
+  "s": "Consider the following statements about tsunami warning in India:\n1. The Indian Tsunami Early Warning Centre (ITEWC) is located at INCOIS, Hyderabad.\n2. ITEWC can detect a tsunamigenic earthquake within about 10 minutes and warn 25 Indian Ocean countries.\n3. World Tsunami Awareness Day is observed on 26 December.\n4. The International Tsunami Information Centre is located at Honolulu.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
    "Only two",
@@ -55,7 +55,7 @@
    "All four"
   ],
   "a": 2,
-  "x": "Statement 3 is wrong: the OMNI buoys belong to NIOT, Nellore (as per the notes), not Chennai. ITEWC at INCOIS Hyderabad (MoES) detects tsunamigenic quakes within 10 minutes and can warn 25 countries; the International Tsunami Information Centre is at Honolulu.",
+  "x": "Statement 3 is wrong: World Tsunami Awareness Day is 5 November (26 December 2004 is the date of the Indian Ocean tsunami). ITEWC at INCOIS Hyderabad (MoES) detects tsunamigenic quakes within 10 minutes and can warn 25 countries; the International Tsunami Information Centre is at Honolulu.",
   "src": "app",
   "tq": "statements"
  },
@@ -551,6 +551,801 @@
   ],
   "a": 3,
   "x": "A is false and R is true: besides plant accidents (Chernobyl, Fukushima), improper disposal of radioactive waste is a nuclear hazard.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp124b7834eb7b",
+  "row": 28,
+  "s": "Consider the following statements about the phases of disaster management:\n1. Regulating deforestation, land-use zoning and control of industrial siting are prevention measures.\n2. Mitigation is regarded as the most cost-effective phase.\n3. Emergency Operation Centres and contingency plans are tools of the response phase.\n4. Compensation and psycho-social care are recovery measures.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1, 2 and 4 only",
+   "1 and 2 only",
+   "1 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Emergency Operation Centres and contingency plans belong to PREPAREDNESS (with early warning, drills and stockpiling). Prevention (zoning, regulating deforestation), mitigation (most cost-effective) and recovery (compensation, psycho-social care, Build Back Better) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9526306bfaa8",
+  "row": 28,
+  "s": "Consider the following statements about the disaster management cycle:\n1. Mitigation belongs to the pre-disaster stage.\n2. Recovery, with its focus on Build Back Better, is a pre-disaster activity.\n3. The cycle is continuous because lessons from recovery feed prevention.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: recovery, rehabilitation and reconstruction are POST-disaster; pre-disaster = prevention, mitigation and preparedness. The cycle is continuous – recovery lessons feed prevention.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb42e33246ecb",
+  "row": 28,
+  "s": "Match List I with List II:\nList I (Strategy)\na. Structural mitigation\nb. Non-structural mitigation\nc. Seismic retrofitting\nd. Floodplain zoning\nList II (Example)\ni. Strengthening existing old buildings to withstand earthquakes\nii. Restricting construction in flood-prone areas\niii. Enforcing building codes against earthquakes\niv. Community awareness and education\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 0,
+  "x": "Structural – building codes, seismic-resistant buildings, embankments (iii); non-structural – public awareness and education, early warning, land-use rules (iv); seismic retrofitting – strengthening existing buildings (i); floodplain zoning – regulating land use in flood-prone areas (ii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpdba16d8aaa46",
+  "row": 28,
+  "s": "Match List I with List II:\nList I (Term)\na. HAZOP study\nb. MAT\nc. Hazard map\nd. Flood levees\nList II (Meaning)\ni. Identifies areas at risk for specific disasters\nii. Hazard-specific control activity\niii. Assessment of the adequacy of safety measures\niv. Mitigation Assessment Team\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 2,
+  "x": "HAZOP study – assessment of the adequacy of safety measures (iii); MAT – Mitigation Assessment Team (iv); hazard map – areas at risk for specific disasters (i); building flood levees – a hazard-specific control activity (ii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe8653e3f3502",
+  "row": 28,
+  "s": "Consider the following:\nAssertion (A): The community is the first responder in a disaster.\nReason (R): The district administration, with the Collector pivotal, has the basic responsibility for disaster management.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is NOT the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both true but R does not explain A: the community (neighbours, local people) is first on the spot because it is already there; the district administration's basic responsibility is a separate fact.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpc0534a5f18c2",
+  "row": 28,
+  "s": "Consider the following:\nAssertion (A): Removing coastal trees and forests is a pre-disaster cyclone mitigation measure.\nReason (R): Conserving wetlands and building cyclone shelters are cyclone mitigation measures.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is NOT the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: removing coastal trees is NOT mitigation – planting trees along the coast is. R is true: revamping drainage, conserving wetlands and building cyclone shelters are pre-disaster cyclone mitigation.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp65444f09d425",
+  "row": 28,
+  "s": "Consider the following statements about the Disaster Management Act, 2005:\n1. It is Act No. 53 of 2005.\n2. It received Presidential assent on 26 December 2005.\n3. It has 11 Chapters and 79 Sections.\n4. It was enacted after the 2004 Indian Ocean tsunami.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1 and 3 only",
+   "1 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: assent was on 23 December 2005; 26 December 2005 is the date of publication in the Gazette. Act No. 53, 11 Chapters / 79 Sections and the 2004 tsunami background are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe1a35cdfd501",
+  "row": 28,
+  "s": "Match List I with List II:\nList I (Body)\na. National Executive Committee\nb. District Disaster Management Authority\nc. National Institute of Disaster Management\nd. National Disaster Response Force\nList II (Section of the DM Act, 2005)\ni. Section 44\nii. Section 25\niii. Section 8\niv. Section 42\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 1,
+  "x": "NEC – s.8 (iii); DDMA – s.25 (ii); NIDM – s.42 (iv); National Disaster Response Force – s.44 (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp28fee59c1887",
+  "row": 28,
+  "s": "Match List I with List II:\nList I (Provision)\na. National Disaster Response Fund\nb. National Disaster Mitigation Fund\nc. State Disaster Response Fund\nd. Hazard-specific plans of Union ministries\nList II (Section of the DM Act, 2005)\ni. Section 48\nii. Section 35\niii. Section 46\niv. Section 47\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "National Disaster Response Fund – s.46 (iii); National Disaster Mitigation Fund – s.47 (iv); SDRF – s.48(1)(a) (i); hazard-specific plans of Union ministries – s.35 (ii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbab70975f017",
+  "row": 28,
+  "s": "Match List I with List II:\nList I (Body)\na. National Executive Committee\nb. National Crisis Management Committee\nc. State Crisis Management Committee\nd. High Level Committee\nList II (Head)\ni. Union Home Minister\nii. Cabinet Secretary\niii. Union Home Secretary\niv. Chief Secretary\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 0,
+  "x": "NEC – Union Home Secretary (iii); NCMC – Cabinet Secretary (ii); State Crisis Management Committee – Chief Secretary (iv); High Level Committee – Union Home Minister (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpcb4a515d0f6b",
+  "row": 28,
+  "s": "Consider the following statements:\n1. The Cabinet Committee on Security, headed by the Prime Minister, handles nuclear, biological and chemical emergencies.\n2. The High Level Committee prepares the National Plan.\n3. The Crisis Management Group for nuclear matters works under the Department of Atomic Energy.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 2 and 3",
+   "1 only",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: the High Level Committee (Union Home Minister) approves aid from national funds; the National Plan is prepared by the National Executive Committee. CCS (PM) and the DAE Crisis Management Group are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcb92b0ff2244",
+  "row": 28,
+  "s": "Consider the following statements about the Disaster Management (Amendment) Act, 2025:\n1. It provides for Urban Disaster Management Authorities in State capitals and Municipal Corporation cities, except Delhi and Chandigarh.\n2. An Urban Disaster Management Authority is headed by the Mayor.\n3. It gives statutory status to the NCMC and the High Level Committee.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 only",
+   "1 and 3 only",
+   "3 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: a UDMA is headed by the Municipal Commissioner, not the Mayor. UDMAs (except Delhi and Chandigarh) and statutory status for NCMC and HLC are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp923bddfc3ef6",
+  "row": 28,
+  "s": "Consider the following statements:\n1. The NDMA can have at most 9 members, including the Vice-Chairperson.\n2. The NDMA was notified under the Act on 27 September 2006.\n3. The State Disaster Management Authority is headed by the Chief Secretary.\n4. The elected head of the local authority is the co-chairperson of the DDMA.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the SDMA is headed by the Chief Minister; the Chief Secretary heads the State Executive Committee. NDMA (max 9 members, notified 27 Sep 2006) and the DDMA co-chairperson (elected local head) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd2917ec5cdcf",
+  "row": 28,
+  "s": "Consider the following:\nAssertion (A): An earthquake in an uninhabited desert that harms no one is not a disaster.\nReason (R): Under Section 2(d) of the DM Act, a disaster is an occurrence beyond the coping capacity of the community of the affected area.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is NOT the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: with no people affected there is no community whose coping capacity is exceeded, so the event remains a hazard, not a disaster.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp7f7c1a31b315",
+  "row": 28,
+  "s": "Consider the following statements about the National Institute of Disaster Management:\n1. It began as the National Centre for Disaster Management, set up at IIPA in 1995.\n2. Its President is the Prime Minister.\n3. It publishes the biannual journal 'Disaster & Development'.\n4. Its Southern Campus is at Visakhapatnam.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1, 3 and 4 only",
+   "1 and 3 only",
+   "1 only"
+  ],
+  "a": 2,
+  "x": "Statements 2 and 4 are wrong: the President of NIDM is the Union Home Minister, and its Southern Campus is at Kondapalli near Vijayawada. NCDM (IIPA, 1995) and the 'Disaster & Development' journal are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8ff15c4c9b9b",
+  "row": 28,
+  "s": "Match List I with List II:\nList I (Institution)\na. CERTI (1957)\nb. Disaster Management Institute (1987)\nc. Centre for Disaster Management (civil servants)\nd. CRPF Disaster Management Training Institute\nList II (Place)\ni. Latur\nii. LBSNAA, Mussoorie\niii. Bhopal\niv. Nagpur\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "CERTI, India's first DM training institution – Nagpur (iv); Disaster Management Institute – Bhopal, after the gas tragedy (iii); Centre for Disaster Management – LBSNAA, Mussoorie (ii); CRPF DM Training Institute – Latur (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0a10bd0caf5f",
+  "row": 28,
+  "s": "Consider the following statements about early-warning agencies:\n1. The Indian Tsunami Early Warning Centre at INCOIS, Hyderabad was set up in 2007.\n2. INCOIS also issues storm-surge and high-wave warnings.\n3. The IndiaQuake app belongs to the India Meteorological Department.\n4. IMD's Damini app gives lightning warnings.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: IndiaQuake is the app of the National Centre for Seismology (MoES). ITEWC (INCOIS, 2007), INCOIS storm-surge/high-wave warnings and IMD's Damini (lightning) app are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdb2c51235c33",
+  "row": 28,
+  "s": "Consider the following statements:\n1. IMD's Multi-Hazard Early Warning Decision Support System (MHEW-DSS) was launched in 2024 under Mission Mausam.\n2. India's indigenous GLOF alert system was tested at Sissu in Uttarakhand.\n3. CAP (Common Alerting Protocol) – SACHET is used to disseminate alerts.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 2 and 3",
+   "1 only",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: Sissu is in Himachal Pradesh. MHEW-DSS (IMD, 2024, Mission Mausam) and CAP-SACHET alert dissemination are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1dfa09601a97",
+  "row": 28,
+  "s": "Match List I with List II:\nList I (Disaster)\na. Epidemics\nb. Nuclear and radiological\nc. Drought and hailstorm\nd. Civil aviation accidents\nList II (Nodal ministry / department)\ni. Ministry of Agriculture\nii. Ministry of Civil Aviation\niii. Department of Atomic Energy\niv. Ministry of Health and Family Welfare\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 2,
+  "x": "Epidemics – Health and Family Welfare (iv); nuclear/radiological – Department of Atomic Energy (iii); drought, hailstorm, pest attack – Agriculture (i); air accidents – Civil Aviation (ii). MHA is nodal for everything else.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp818aa6edafdf",
+  "row": 28,
+  "s": "Arrange the following in chronological order:\n1. High Powered Committee chaired by J.C. Pant\n2. Central Emergency Relief Training Institute, Nagpur\n3. National Policy on Disaster Management approved by the Cabinet\n4. National Centre for Disaster Management at IIPA\nSelect the correct answer using the codes given below:",
+  "o": [
+   "2, 4, 1, 3",
+   "2, 1, 4, 3",
+   "4, 2, 1, 3",
+   "2, 4, 3, 1"
+  ],
+  "a": 0,
+  "x": "CERTI Nagpur (1957) → NCDM at IIPA (1995) → High Powered Committee (August 1999) → NPDM approved by the Cabinet (22 October 2009).",
+  "src": "app",
+  "tq": "sequence"
+ },
+ {
+  "id": "cp0e10c2940aee",
+  "row": 28,
+  "s": "Consider the following statements about the High Powered Committee on Disaster Management (1999):\n1. It was constituted in August 1999 with J.C. Pant as its first chairman.\n2. Its report carried the theme 'Building a Culture of Prevention'.\n3. It identified 31 types of disasters in five broad categories.\n4. Its original mandate covered both natural and man-made disasters.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the HPC first covered natural disasters only; man-made disasters were added later. August 1999 / J.C. Pant, 'Building a Culture of Prevention' and 31 types in 5 categories are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa09bce793e55",
+  "row": 28,
+  "s": "Match List I with List II:\nList I (Framework)\na. IDNDR\nb. Yokohama Strategy\nc. Hyogo Framework\nd. Sendai Framework\nList II (Period / year)\ni. 2015–2030\nii. 1990–1999\niii. 2005–2015\niv. 1994\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 1,
+  "x": "IDNDR – the UN decade 1990–1999 (ii); Yokohama Strategy – 1994 mid-decade review (iv); Hyogo – 2005–2015, adopted at Kobe (iii); Sendai – 2015–2030 (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd6d7fb8f8d67",
+  "row": 28,
+  "s": "Consider the following statements:\n1. The first of the Sendai Framework's priorities is understanding disaster risk.\n2. The Sendai Framework has five priorities for action.\n3. India launched the CDRI in 2019 at the UN Climate Action Summit, New York.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: Sendai has FOUR priorities (understanding risk, risk governance, investing in DRR, preparedness and Build Back Better) and 7 global targets. The CDRI (2019, New York; secretariat New Delhi) statement is correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8a02959c0a4c",
+  "row": 28,
+  "s": "Consider the following statements:\n1. The Union Cabinet approved the National Policy on Disaster Management on 22 October 2009.\n2. The vision of the NPDM is a 'safe and disaster-resilient India'.\n3. India's first National Disaster Management Plan was released in 2019.\n4. The NDMP sets short, medium and long time frames of 5, 10 and 15 years.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4",
+   "1 and 2 only",
+   "1 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: the first NDMP was released on 1 June 2016 and revised in 2019. NPDM (22 Oct 2009; vision 'safe and disaster-resilient India') and the 5/10/15-year frames are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp980185d1921a",
+  "row": 28,
+  "s": "Consider the following:\nAssertion (A): Disaster management was shifted from the Ministry of Agriculture to the Ministry of Home Affairs in 2002.\nReason (R): The DM Cell set up in the 1990s (UN IDNDR) was under the Ministry of Agriculture.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is NOT the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both true but R does not explain A: the 1990s cell explains why DM was in Agriculture, not why it moved; the shift followed the 2001 Gujarat (Bhuj) earthquake.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cped9b5b69bdd3",
+  "row": 28,
+  "s": "Consider the following statements about the National Disaster Response Force:\n1. It was constituted under Section 44 of the DM Act and raised in 2006.\n2. It observes its Raising Day on 26 January.\n3. Its Director General is drawn from the senior IPS cadre.\n4. Its motto is 'Aapada Seva Sadaiv Sarvatra'.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1, 3 and 4 only",
+   "1 and 3 only",
+   "1 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: NDRF Raising Day is 19 January. Section 44 / 2006, a DG from the senior IPS cadre and the motto 'Aapada Seva Sadaiv Sarvatra' are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp559d88269832",
+  "row": 28,
+  "s": "Consider the following statements about the NDRF:\n1. It began with 8 battalions and now has 16.\n2. Each battalion has 18 search-and-rescue teams.\n3. Its personnel come on deputation from the Indian Army.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 only",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: NDRF personnel come from the central paramilitary forces – BSF, CRPF, CISF, ITBP, SSB and Assam Rifles. 8 → 16 battalions and 18 SAR teams per battalion are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2ade108399a0",
+  "row": 28,
+  "s": "Consider the following statements about the State Disaster Response Force (SDRF):\n1. It draws personnel from the State Police, Armed Police, Fire Services, Home Guards and Civil Defence.\n2. It is trained by the NDRF / NDRF Academy.\n3. Unlike the NDRF, it is organised on a company model rather than a battalion model.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 only",
+   "1 and 2 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the SDRF, like the NDRF, follows the battalion model. Its personnel come from state police, fire services, home guards and civil defence, and it is trained by the NDRF / NDRF Academy.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa9694a135ae3",
+  "row": 28,
+  "s": "Match List I with List II:\nList I (Fund / scheme)\na. State Disaster Response Fund\nb. National Disaster Response Fund\nc. Disaster Mitigation Funds (NDMF / SDMF)\nd. PMFBY\nList II (Use)\ni. Long-term reduction of disaster risk\nii. Crop insurance in drought\niii. Immediate relief to victims of notified disasters\niv. Tops up the SDRF in severe calamities\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-i, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 0,
+  "x": "SDRF (s.48) – immediate relief for notified disasters, not compensation or rebuilding (iii); NDRF (s.46) – tops up the SDRF in severe calamities (iv); NDMF/SDMF (s.47) – long-term risk reduction (i); PMFBY – crop insurance (ii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb17e1c5ad765",
+  "row": 28,
+  "s": "Consider the following statements:\n1. The Disaster Mitigation Funds were operationalised on the 15th Finance Commission's recommendations.\n2. A State may spend up to 25% of its SDRF on state-specific disasters.\n3. The Finance Commission recommends the notified disasters, which the MHA notifies.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the limit for state-specific disasters is 10% of the SDRF. The mitigation funds (15th FC; ₹4,645 crore for 9 states incl. AP) and the FC-recommends / MHA-notifies rule are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfdeb489c6632",
+  "row": 28,
+  "s": "Consider the following:\nAssertion (A): Pest attack and frost and cold wave are notified disasters for SDRF assistance.\nReason (R): In August 2026, heatwaves and lightning were added to the notified list on the 16th Finance Commission's recommendation.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is NOT the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both true, but R (the 2026 addition of two new hazards) does not explain why pest attack and frost/cold wave were already on the list.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp2b34f8dfcb15",
+  "row": 28,
+  "s": "Consider the following:\nAssertion (A): The NDRF can come under strain during simultaneous disasters.\nReason (R): State Disaster Response Forces have not yet been set up in all States.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is NOT the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: where a State has no SDRF to act in the first 24–48 hours, the NDRF must fill the gap, straining it when disasters strike together.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpc6ecb8cf3c83",
+  "row": 28,
+  "s": "Consider the following statements about vulnerability and risk:\n1. Loss of mangroves that increases cyclone impact is an example of environmental vulnerability.\n2. Weak governance and poor coordination are examples of economic vulnerability.\n3. High crop-insurance coverage reduces a community's vulnerability.\n4. Disaster risk falls as coping capacity increases.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1 and 3 only",
+   "1, 3 and 4 only",
+   "1 and 4 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: weak governance, poor coordination and weak early warning are systemic / institutional vulnerability (economic = poverty, daily wage). Mangrove loss (environmental), crop insurance reducing vulnerability and risk falling with capacity are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa2544fd99272",
+  "row": 28,
+  "s": "Match List I with List II:\nList I (Hazard)\na. Drought\nb. Cyclone\nc. Landslide\nd. Tsunami\nList II (GIS / remote-sensing use)\ni. Inundation modelling (INCOIS)\nii. NADAMS\niii. Susceptibility mapping (GSI NLSM)\niv. Track monitoring and storm-surge modelling\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 3,
+  "x": "Drought – NADAMS (ii); cyclone – track monitoring and storm-surge modelling (iv); landslide – susceptibility mapping, GSI NLSM (iii); tsunami – inundation modelling by INCOIS (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp45196b5a50e2",
+  "row": 28,
+  "s": "Consider the following statements:\n1. The National Database for Emergency Management (NDEM) is a GIS repository maintained by ISRO.\n2. Landslide Hazard Zonation divides hill areas into homogeneous zones by degree of susceptibility, hazard or risk.\n3. In GIS use across the DM cycle, evacuation route planning belongs to the response phase.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 2 only",
+   "1 only",
+   "2 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: evacuation route planning (with resource mapping) is a PREPAREDNESS use of GIS; response / recovery uses real-time damage assessment. NDEM (ISRO) and Landslide Hazard Zonation are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf8a6bdd139bb",
+  "row": 28,
+  "s": "Consider the following cyclones and their landfall in Andhra Pradesh:\n1. Hudhud (October 2014) – Visakhapatnam\n2. Titli (October 2018) – near Bapatla\n3. Michaung (December 2023) – near Bapatla\nWhich of the pairs given above are correctly matched?",
+  "o": [
+   "1 and 3 only",
+   "1, 2 and 3",
+   "1 only",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Pair 2 is wrong: Titli made landfall near Palasa in Srikakulam. Hudhud – Visakhapatnam and Michaung – near Bapatla are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf307b507a343",
+  "row": 28,
+  "s": "Consider the following statements about the Andhra Pradesh State Disaster Management Authority:\n1. It was constituted in 2007 under the AP Disaster Management Rules and is chaired by the Chief Minister.\n2. It runs the State Emergency Operations Centre at Kunchanapalli.\n3. It operates the alert systems Vajrapath, Varuna and Red Message.\n4. It deals only with natural disasters.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: APSDMA covers natural and man-made disasters. The 2007 Rules / CM chair, the SEOC at Kunchanapalli and the Vajrapath, Varuna and Red Message alert systems are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbaca47c1952b",
+  "row": 28,
+  "s": "Consider the following statements:\n1. India aims to make 100 villages 'Tsunami Ready'.\n2. The Tsunami Ready recognition uses 12 indicators and is renewed every 5 years.\n3. Community-Based Disaster Risk Reduction through PRIs (₹507.37 crore) is run by the Ministry of Panchayati Raj and NDMA.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: Tsunami Ready uses 12 indicators but is renewed every 4 years. The 100-village target and CBDRR through PRIs (MoPR + NDMA, ₹507.37 crore) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdb13cc55f07a",
+  "row": 28,
+  "s": "Consider the following statements:\n1. 'Prakampana', the super-cyclone exercise at Visakhapatnam, was conducted by the Western Naval Command.\n2. India's first forest-fire disaster management exercise was held in Uttarakhand in April 2017.\n3. The SKOCH Award 2018 for disaster management went to the Odisha SDMA.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: Prakampana was conducted by the EASTERN Naval Command. The Uttarakhand forest-fire exercise (April 2017) and OSDMA's SKOCH Award 2018 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3d221a5e3428",
+  "row": 29,
+  "s": "Match List I with List II:\nList I (Revolution)\na. Blue\nb. White\nc. Yellow\nd. Golden\nList II (Sector)\ni. Oilseeds\nii. Horticulture and honey\niii. Milk / dairy\niv. Fisheries and aquaculture\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 2,
+  "x": "Blue – fish, fisheries, aquaculture (iv); White – milk and dairy (iii); Yellow – oilseeds (i); Golden – horticulture and honey (ii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp16f261913aa0",
+  "row": 29,
+  "s": "Consider the following statements:\n1. The Pradhan Mantri Matsya Sampada Yojana (2020) comes under the Ministry of Fisheries, Animal Husbandry and Dairying.\n2. Under PMMSY the subsidy is 60% for general beneficiaries and 40% for women, SC and ST.\n3. The Gangetic river dolphin was declared India's national aquatic animal in 2009.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 3 only",
+   "1 only",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 reverses the figures: PMMSY subsidy is 40% for general and 60% for women / SC / ST beneficiaries. The ministry and the Gangetic dolphin (2009) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc6d14fdebd8a",
+  "row": 29,
+  "s": "Consider the following statements about India's fisheries:\n1. India is the second largest fish producer, after China.\n2. Inland fisheries account for more than 75% of production.\n3. Frozen shrimp leads India's seafood exports.\n4. The annual 61-day ban on mechanised fishing applies in the EEZ (12–200 nm), a Central subject.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: the 61-day ban applies in the 0–12 nm territorial waters, where fisheries are a State subject; the 12–200 nm EEZ is with the Centre. 2nd after China, inland > 75% and frozen shrimp are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpde7856978398",
+  "row": 29,
+  "s": "Consider the following statements:\n1. India's Draft Blue Economy Policy Framework (2021) was prepared by the Ministry of Ports, Shipping and Waterways.\n2. The Prime Minister set out the SAGAR vision in Mauritius in 2015.\n3. SAGAR was expanded as MAHASAGAR in 2025 to cover the wider Global South.\nWhich of the statements given above are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 2 and 3",
+   "2 only",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Statement 1 is wrong: the Draft Blue Economy Policy Framework 2021 is of the Ministry of Earth Sciences. SAGAR (Security and Growth for All in the Region; Mauritius, 2015) became MAHASAGAR in 2025.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp86009088bb15",
+  "row": 29,
+  "s": "Match List I with List II:\nList I (Fishing ground)\na. Grand Banks\nb. North-west Pacific\nc. Dogger Bank\nd. Peru coast\nList II (Feature)\ni. Upwelling\nii. Kuroshio meets Oyashio\niii. Gulf Stream meets the Labrador current off Newfoundland\niv. Shallow sandbank in the North Sea\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "Grand Banks – off Newfoundland, where the Gulf Stream meets the Labrador (iii); NW Pacific – off Japan, Kuroshio meets Oyashio (ii); Dogger Bank – a shallow sandbank in the North Sea (iv); Peru – upwelling (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp48cb64241b32",
+  "row": 29,
+  "s": "Consider the following:\nAssertion (A): Fishing is the main occupation of Norway.\nReason (R): Norway has rugged, hilly land, harsh winters and little farmland, so fish is its main food.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is NOT the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: with little farmland and a harsh climate, Norway (like Japan) depends on the sea.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp7648d30a8c5f",
+  "row": 29,
+  "s": "Match List I with List II:\nList I (Maritime zone (from baseline))\na. Territorial sea\nb. Contiguous zone\nc. Exclusive Economic Zone\nd. Continental shelf\nList II (Limit)\ni. 200 nm\nii. Up to 350 nm\niii. 24 nm\niv. 12 nm\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 0,
+  "x": "Territorial sea – 12 nm (iv); contiguous zone – 24 nm (iii); EEZ – 200 nm (i); continental shelf – up to 350 nm (ii).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp68ebc58918a7",
+  "row": 29,
+  "s": "Consider the following statements:\n1. UNCLOS was adopted in 1982 and came into force in 1994.\n2. The International Seabed Authority was set up under UNCLOS.\n3. India's Maritime Zones Act was enacted in 1976.\n4. In its EEZ a coastal State enjoys full sovereignty, as in the territorial sea.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: in the EEZ the coastal State has only sovereign rights over living and non-living resources; full sovereignty applies in the 12 nm territorial sea. UNCLOS (1982/1994), the ISA and the Maritime Zones Act 1976 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp292f02fe3ae3",
+  "row": 29,
+  "s": "Consider the following statements about Andhra Pradesh's marine economy:\n1. AP produces about 30% of India's fish and 31% of its shrimp exports, mainly Vannamei.\n2. Its 10 new fishing harbours are being built under the Sagarmala programme.\n3. A Centre of Excellence on Blue Economy was set up at Vignan's University, Vadlamudi (Guntur).\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the 10 fishing harbours (₹3,699.09 crore) are under PMMSY, not Sagarmala. The 30% fish / 31% shrimp (Vannamei) share and the Vignan's University CoE are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb8d9830211f0",
+  "row": 29,
+  "s": "Match List I with List II:\nList I (Marine mineral)\na. Polymetallic nodules\nb. Polymetallic sulphides\nc. Gas hydrates\nd. Monazite\nList II (Description)\ni. Ore of thorium in beach placers\nii. Nickel, copper, cobalt and manganese in the CIOB\niii. Methane ice in seabed sediments\niv. Deposits at hydrothermal vents on mid-ocean ridges\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 1,
+  "x": "Nodules – Ni, Cu, Co, Mn in the Central Indian Ocean Basin (ii); sulphides – hydrothermal vents, mid-ocean ridges (iv); gas hydrates – methane ice in seabed sediments (iii); monazite – thorium ore in beach placers (i).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpdfba8552bd7c",
+  "row": 29,
+  "s": "Consider the following statements about India and the International Seabed Authority:\n1. India became the first Pioneer Investor in the Central Indian Ocean Basin in 1987.\n2. India's 2016 contract covers polymetallic sulphides in the Central and South West Indian Ridge.\n3. India's third contract (15 September 2025) is for polymetallic nodules in the Carlsberg Ridge.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 only",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: the 2025 Carlsberg Ridge contract is for polymetallic SULPHIDES; nodules are in the CIOB (contract of 2002). 1987 Pioneer Investor and the 2016 sulphides contract are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe8ff437b6951",
+  "row": 29,
+  "s": "Consider the following statements about the Deep Ocean Mission:\n1. Its nodal ministry is the Ministry of Earth Sciences.\n2. It was approved in June 2021 with an outlay of ₹4,077 crore for 5 years.\n3. Its submersible Matsya 6000 is designed to carry 3 crew to 6,000 m.\n4. It excludes ocean energy and freshwater activities.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2, 3 and 4",
+   "1, 2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 4 is wrong: the mission covers energy and freshwater too, along with deep-sea mining, a manned submersible, ocean climate services, biodiversity and ocean survey. MoES, June 2021 / ₹4,077 crore and Matsya 6000 (3 crew, 6,000 m) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb1ea02028c05",
+  "row": 29,
+  "s": "Consider the following:\nAssertion (A): Chavara in Kerala is an offshore petroleum basin.\nReason (R): Monazite (thorium) and ilmenite (titanium) occur in the beach placers of Chavara.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is NOT the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: Chavara is a beach-placer site, not an oil basin (oil and gas: Mumbai High, KG, Cauvery, Gulf of Khambhat). R is true: Chavara, Manavalakurichi and Chatrapur have monazite and ilmenite.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpd210bab94e13",
+  "row": 29,
+  "s": "Consider the following:\nAssertion (A): India's three ISA contracts now cover about 95,000 sq km of seabed.\nReason (R): The ISA has approved commercial exploitation of seabed minerals.\nSelect the correct answer:",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is NOT the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 2,
+  "x": "A is true (as of 2026). R is false: the ISA has approved only exploration; exploitation rules are still pending.",
   "src": "app",
   "tq": "assertion"
  }
