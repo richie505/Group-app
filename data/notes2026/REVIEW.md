@@ -573,3 +573,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - 7 disputes kept (IIT Kanpur road vs construction dust; cigarette nicotine; CO-Hb "irreversible"; H2S inorganic; RSPM <5 µm vs PM10; IAS 2000 catalytic converter; ozone secondary).
 - Outdated: leaded petrol ×2 (y04f6d5727d6, ycc112a3c55c).
 - Unverified printed: y7b7f11bf4a6 GAW station, y3aff3bfa50f PM2.5 source, yc010b674c64 metro CO/SO2. AP/2026 figures (APPCB, FGD 39/537) carried over unchecked.
+
+## b5-r094 (rows 94-95 climate)
+- No key changes. Dispute y56356409a92 "Think globally, act locally" Earth Summit.
+- Outdated: warmest year 2016→2024; WMO 2009 fifth warmest.
+- Unverified: yf7bc39066d9 weather symbols 1998 IMO; y514c4013712 AP/PMFBY A-R; y56d4a970ce5, y0b0b71d8b3a9, y1dcaaf14f30 CRI ranks; IMD 2019/2020 statements. Own MCQ n3c478de5547 Okjökull stem "2019" (PMF 2014).
