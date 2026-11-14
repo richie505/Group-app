@@ -1,0 +1,174 @@
+=== Constitutional and Statutory Appointments in India
+# Chief Justice of India
+| CJI | Number | Sworn in | Key fact |
+|---|---|---|---|
+| B.R. Gavai (Bhushan Ramkrishna Gavai) | 52nd | 14 May 2025 | First Buddhist CJI; second Dalit CJI (after K.G. Balakrishnan); succeeded Sanjiv Khanna; retired 23 November 2025 |
+| Surya Kant | 53rd | 24 November 2025 | First CJI from Haryana (Hisar); took oath in Hindi; tenure to 9 February 2027 |
+- The **President** (Droupadi Murmu) administers the oath to the CJI at **Rashtrapati Bhavan**.
+# Vice President – Resignation and Election
+| Event | Fact |
+|---|---|
+| Resignation | Jagdeep Dhankhar (14th Vice President) resigned on 21 July 2025, citing health, under Article 67(a), addressed to the President |
+| Timing | Hours after chairing the Rajya Sabha on the first day of the Monsoon Session |
+| Election | 9 September 2025 |
+| Winner | C.P. Radhakrishnan (NDA) – 15th Vice President: 452 first-preference votes |
+| Runner-up | Justice B. Sudershan Reddy (INDIA bloc): 300 votes; margin 152 |
+| Electoral college | Members of both Houses of Parliament only (state legislators do not vote) |
+> The Vice President resigns to the **President** (Art. 67(a)), not to the Speaker or the Chairman.
+~~ Sources: Rocket CA 2026 Part 02 p.141 (Surya Kant 53rd CJI from 24 November 2025; B.R. Gavai demitted office 23 November 2025), p.61 (Rajya Sabha Chairman C.P. Radhakrishnan); app notes 6:114 sub 2
+
+=== Heads of International Organisations
+# UNESCO Director-General – Khaled El-Enany
+| Particular | Fact |
+|---|---|
+| Person | Khaled El-Enany (Egypt) |
+| Profile | Egyptologist; Egypt's Minister of Antiquities (2016–2019), later Tourism and Antiquities |
+| Nominated by | 222nd session of the UNESCO Executive Board on 6 October 2025 |
+| Defeated | Édouard Firmin Matoko (Republic of Congo) |
+| Final appointment | UNESCO General Conference in Uzbekistan (Samarkand), 6 November 2025: 172 of 174 votes |
+| Took office | 15 November 2025, for a 4-year term |
+| Predecessor | Audrey Azoulay (France), DG since 2017 |
+| Backed by | African Union and Arab League |
+| FIRST | First Arab Director-General of UNESCO (second African) |
+- Context: the **USA withdrew from UNESCO** in **July 2025**.
+> The **Executive Board nominates**; the **General Conference appoints**. El-Enany = **Egypt**; rival Matoko = **Congo**.
+# IOC President – Kirsty Coventry
+- **Kirsty Coventry** (**Zimbabwe**) took office as the **10th IOC President** on **23 June 2025** in **Lausanne**, receiving the key from **Thomas Bach**.
+- **First woman** and **first African** IOC President; elected March 2025; **8-year** term (to 2033).
+~~ Sources: daily CA 17 Oct 2026 p.3 (IOC President Kirsty Coventry, first woman); app notes 6:114 sub 1
+
+=== Women Firsts in Appointments
+| Woman | First |
+|---|---|
+| Col. Sofiya Qureshi (Army, Corps of Signals) and Wg Cdr Vyomika Singh (IAF, helicopter pilot) | First two women officers to lead India's official press briefing on a major military operation – Operation Sindoor, 7 May 2025, New Delhi, with Foreign Secretary Vikram Misri |
+| Sanae Takaichi | First woman Prime Minister of Japan (21 Oct 2025) |
+| Satsuki Katayama | First woman Finance Minister of Japan (Takaichi cabinet) |
+| Kirsty Coventry | First woman IOC President |
+- Col. Sofiya Qureshi was earlier the **first woman officer to lead an Indian Army contingent** in a multinational exercise.
+- Operation Sindoor followed the **Pahalgam** attack (26 killed).
+~~ Sources: app notes 6:114 sub 3
+
+=== AP Persons Honoured and the Indian Red Cross Society
+# AP State Red Cross Award – Chadalawada Naga Rani
+| Particular | Fact |
+|---|---|
+| Who | Chadalawada Naga Rani, Collector, West Godavari |
+| Award | AP State Red Cross Award for 2023–24 and 2024–25 (two consecutive years) |
+| For | Flood relief during the Budameru river floods |
+| Announced by | A.K. Parida, General Secretary and CEO, IRCS AP branch |
+| Occasion | World Red Cross Day and World Thalassemia Day (8 May) |
+# Dr Guduru Jagadish – 'Vishva Vaidya Divyang Bandhu'
+- **Dr Guduru Jagadish**, former chief of **TTD's BIRRD Trust Hospital**.
+- Title **'Vishva Vaidya Divyang Bandhu'** (World Healer and Friend of the Differently-Abled), given by **Mauritius PM Ramgoolam**.
+- Occasion: **Ugadi** celebrations of the **Mauritius Telugu Maha Sabha**.
+- For: free **polio screening** and **corrective surgery** camps.
+# Other AP Person in News
+- **V. Prasanna Venkatesh** – **anaemia eradication**.
+# Indian Red Cross Society (IRCS)
+| Particular | Fact |
+|---|---|
+| Established | 1920, under the Indian Red Cross Society Act (Act XV of 1920) |
+| Amended | 1992; rules 1994 |
+| President | President of India |
+| Chairman | Union Health Minister |
+| Managing Body | 18 members: 6 + Chairman nominated by the President, 12 elected by branches |
+- **International Red Cross and Red Crescent Movement** = **ICRC**, **National Societies** and **IFRC**.
+> IRCS President = **President of India**; Chairman = **Union Health Minister** (not the PM).
+~~ Sources: app notes 6:114 sub 9
+
+=== Heads of State and Government Elected Abroad
+# New Leaders → Country
+| Leader | Country / Post | Date | Key fact |
+|---|---|---|---|
+| Mark Carney | Canada, Prime Minister | Election 28 April 2025 | His Liberal Party won; formed a minority government (short of the 172-seat majority); had replaced Justin Trudeau as Liberal leader in March 2025 |
+| Friedrich Merz | Germany, Chancellor | 6 May 2025 | First chancellor candidate to fail in the first round (310 votes, 6 short); won the second round the same day with 325 of 630 votes (majority 316) |
+| Pope Leo XIV (Robert Francis Prevost) | Vatican, Head of the Catholic Church | Elected 8 May 2025 | First American pope; Augustinian; long service in Peru; succeeded Pope Francis |
+| Sanae Takaichi | Japan, Prime Minister | 21 October 2025 | First woman PM of Japan; 104th PM; succeeded Shigeru Ishiba; party LDP; re-designated 105th PM on 18 February 2026 |
+> Merz lost the **first** Bundestag vote and won the **second** on the **same day** (6 May 2025); he was not elected at the first attempt.
+~~ Sources: Rocket CA 2026 Part 01 p.44, p.66 (Sanae Takaichi designated 105th PM on 18 February 2026; Japan's first woman PM); app notes 6:114 sub 0
+
+=== Obituaries → Field
+| Person | Field / Role | Died |
+|---|---|---|
+| Pope Francis | Head of the Catholic Church | 21 April 2025 (88) |
+| K. Kasturirangan | ISRO Chairman 1994–2003; chaired the NEP 2020 drafting committee | 25 April 2025, Bengaluru (84) |
+| Jayant Narlikar | Astrophysicist; Hoyle-Narlikar theory of gravity; founder-director of IUCAA, Pune | 20 May 2025, Pune (86) |
+| Shibu Soren | JMM founder; former Jharkhand CM; tribal leader | 4 August 2025, New Delhi (81) |
+| Zubeen Garg | Assamese singer | 19 September 2025, Singapore (while swimming; there for the Northeast India Festival) |
+| Jane Goodall | Primatologist; UN Messenger of Peace | 1 October 2025, Los Angeles (91) |
+> Kasturirangan = ISRO + **NEP 2020**; Narlikar = **IUCAA** + cosmology – do not swap.
+- **Past fact:** former Japanese PM **Shinzo Abe** was **shot dead on 8 July 2022** while campaigning at **Nara**, Japan.
+~~ Sources: app notes 6:114 sub 8; Abe: original PYQ explanation
+
+=== Persons of the Year and Influence Lists → Publisher
+| List | Publisher | 2025 fact |
+|---|---|---|
+| TIME 100 (17 April 2025) | TIME magazine | No Indian national; only person of Indian origin: Reshma Kewalramani (CEO, Vertex Pharmaceuticals, USA) |
+| World's Billionaires (April 2025) | Forbes | Elon Musk 1st ($342 billion); Mukesh Ambani richest Indian, 18th globally; India 205 billionaires, 3rd after USA (902) and China |
+| India Rich List (October 2025) | Forbes | Mukesh Ambani 1st ($105 billion), then Gautam Adani, Savitri Jindal |
+~~ Sources: app notes 6:114 sub 6
+
+=== UN Messengers of Peace and Indians in International Bodies
+# UN Messenger of Peace
+- **Jane Goodall** (British **primatologist**, chimpanzee expert, **Gombe Stream**) was a **UN Messenger of Peace** from **2002** (appointed by **Kofi Annan**); founded the **Jane Goodall Institute (1977)** and **Roots & Shoots**.
+# Indians Elected to International Bodies
+| Indian / India | Body | Post |
+|---|---|---|
+| V. Srinivas (Secretary, DARPG) | International Institute of Administrative Sciences (IIAS), HQ Brussels | President, 2025–2028 – elected 3 June 2025 (87 of 141 votes) |
+| India | Asia-Pacific Institute for Broadcasting Development (AIBD) | Chair of the Executive Board – August 2025, 23rd General Conference, Phuket (Thailand) |
+~~ Sources: app notes 6:114 sub 7
+
+=== Record-setting Firsts by Indians
+- **Group Captain Shubhanshu Shukla** – **first Indian on the International Space Station (ISS)**; pilot of **Axiom-4 (Ax-4)**; SpaceX Dragon **"Grace"** docked on **26 June 2025** (Harmony module); **second Indian in space** (after Rakesh Sharma, 1984).
+- Ax-4 crew: **Peggy Whitson** (commander), Shukla (pilot), Sławosz Uznański-Wiśniewski (Poland) and Tibor Kapu (Hungary).
+- **Indian Army Adventure Wing** (Silver Jubilee expedition) – **largest single-day Everest summit** by one expedition: **49** (22 Army + 27 Sherpas), **27 May 2025** (Guinness record).
+> Shukla = **first Indian on the ISS**, not the first Indian in space (Rakesh Sharma).
+~~ Sources: app notes 6:114 sub 4
+
+=== New Saints – Carlo Acutis
+| Particular | Fact |
+|---|---|
+| Saint | Carlo Acutis – "God's Influencer" |
+| FIRST | Catholic Church's first millennial saint |
+| Canonised by | Pope Leo XIV – first canonisation of his papacy |
+| Date | 7 September 2025 |
+| Place | St. Peter's Square, Vatican |
+| Also canonised | Pier Giorgio Frassati – Italian, died 1925 aged 24 of polio |
+~~ Sources: app notes 6:114 sub 5
+
+=== Quick Revision and Traps
+| Item | Correct Fact |
+|---|---|
+| UNESCO Executive Board session that nominated El-Enany | 222nd (6 Oct 2025) |
+| Votes for El-Enany at the General Conference | 172 of 174 (6 Nov 2025) |
+| IOC President number | 10th (Coventry) |
+| CJI numbers | 52nd Gavai; 53rd Surya Kant |
+| Vice President numbers | 14th Dhankhar; 15th Radhakrishnan |
+| VP election 2025 | 452 vs 300 (margin 152) |
+| Merz second-round votes | 325 of 630 |
+| Japan PM number | 104th (Takaichi) |
+| Everest record team | 49 in one day |
+| IRCS Managing Body | 18 members (6 + Chairman nominated, 12 elected) |
+| IRCS Act | Act XV of 1920 |
+| Red Cross awards to Naga Rani | 2 years (2023–24, 2024–25) |
+# FIRST / LAST / SPECIAL FACTS
+- First **Arab** UNESCO DG: Khaled El-Enany.
+- First **millennial saint**: Carlo Acutis.
+- First **American pope**: Leo XIV.
+- First woman and first African **IOC President**: Kirsty Coventry.
+- First woman **PM of Japan**: Sanae Takaichi.
+- First **Buddhist CJI**: B.R. Gavai; first CJI from **Haryana**: Surya Kant.
+- First Indian on the **ISS**: Shubhanshu Shukla.
+- First two women officers to lead a military operation briefing: Sofiya Qureshi and Vyomika Singh.
+- Special: the USA **withdrew from UNESCO** in July 2025.
+- **El-Enany = Egypt**, rival **Matoko = Republic of Congo**; Executive Board **nominates**, General Conference (Uzbekistan) **appoints**.
+- **Carlo Acutis** = first **millennial** saint, canonised by **Pope Leo XIV** (not Pope Francis) at St. Peter's Square.
+- **Pier Giorgio Frassati** was canonised with Acutis; he died of **polio** in 1925.
+- **52nd CJI = Gavai** (first Buddhist); **53rd CJI = Surya Kant** – do not swap the numbers.
+- Dhankhar resigned under **Article 67(a)** to the **President**; **C.P. Radhakrishnan** became the **15th** VP.
+- **IRCS**: President = **President of India**; Chairman = **Union Health Minister**; Act **XV of 1920**.
+- **Naga Rani** = Collector of **West Godavari**, award for **Budameru** flood relief, announced on **8 May**.
+- **Guduru Jagadish**'s title came from the **Mauritius PM** (Ramgoolam), at the Mauritius Telugu Maha Sabha's **Ugadi**.
+- **TIME 100** → TIME; **Billionaires list** → Forbes; no Indian national on TIME 100 (2025).
+- **Shubhanshu Shukla** = first Indian on the **ISS** (Axiom-4), but the **second** Indian in space.
+~~ Sources: app notes 6:114 subs 10, 12
