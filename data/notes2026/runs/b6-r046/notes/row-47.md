@@ -18,7 +18,7 @@
 | Article 355 | Union to protect States from external aggression and internal disturbance |
 | Foreigners Act, 1946 | Burden of proof on the individual |
 | Citizenship Act, 1955 - Sec 6A | Assam Accord |
-| Santhal Pargana Tenancy Act, 1876 | Tribal land protection |
+| Santhal Pargana Tenancy Act, 1949 | Tribal land protection |
 | Lt. Gen. S.K. Sinha Report (1998) | Border district demographic change |
 | Sarbananda Sonowal case (2005) | Illegal migration into Assam = external aggression |
 | Madhukar Gupta Committee (2016) | CIBMS border management |
@@ -65,7 +65,7 @@
 # Rajya Sabha
 - **Medha Vishram Kulkarni**: Chair, **Standing Committee on Science & Technology, Environment, Forests and Climate Change** (from **18 May 2026**, **Rule 269**), approved by **RS Chairman C.P. Radhakrishnan**.
 - **Dr. K. Laxman**: Chairman, **Rajya Sabha House Committee** (accommodation, amenities); elected to RS from **Uttar Pradesh** (July 2022).
-- **Article 63**: **Vice-President = ex officio RS Chairman**; RS max **250** members.
+- **Article 64**: **Vice-President = ex officio RS Chairman**; RS max **250** members.
 # Sansad Ratna Awards 2026
 - **12 MPs** honoured for parliamentary performance (debates, questions, committee work); instituted by the **Prime Point Foundation**.
 - Committee recognised: **Rural Development & Panchayati Raj** (chair **Saptagiri Sankar Ulaka**).

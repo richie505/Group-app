@@ -1099,3 +1099,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b1-w120 (rows 120–124)
 - own 417 → 118 kept + 93 new (211, 51%); new 55 statements / 24 match / 13 A–R / 1 sequence; 2 of 251 lines lost (covered by PYQ yb72cb8e07e6).
 - Notes conflict: Sangita Suryodaya author "Lakshminatha" (120:1:15) vs Bandaru Lakshminarayana (123:2:6) — reconcile (Bandaru Lakshminarayana is standard).
+
+## rewrite b6-w045 (rows 45–47)
+- own 391 → 43 kept + 109 new (152, 39%); new 74 statements / 23 match / 11 A–R / 1 sequence; 3 of 293 lines lost.
+- Notes FIXED (b6-r046 row-47): "Article 63: VP ex officio RS Chairman" → Article 64; "Santhal Pargana Tenancy Act, 1876" → 1949.
+- 47:0:14 Nidhi Chhibber as NITI Aayog CEO — unverified, check.
