@@ -157,7 +157,7 @@
 # Nepal
 - **Environment MoU** – **25 February 2026, New Delhi** – MoEFCC and Nepal's Ministry of Forests and Environment; signed by **Bhupender Yadav** and **Madhav Prasad Choulagain**; forestry, wildlife, biodiversity, climate change; **Himalayan and Terai** conservation.
 - **Mutual Legal Assistance Treaty** on criminal matters – **18 February 2026, Kathmandu**.
-- Ties based on the **1950 Peace and Friendship Treaty**; Nepal PM **Sushila Karki** (interim, Sep 2025 – Mar 2026; now **Balendra Shah**, from 27 Mar 2026), President **Ram Chandra Poudel**.
+- Ties based on the **1950 Peace and Friendship Treaty**; Nepal PM **Sushila Karki** (interim, Sep 2025 – Mar 2026; now **Balendra Shah**, from 27 Mar 2026), President **Ram Chandra Poudel** (also spelt Paudel).
 # Pakistan – Annual Exchange of Lists
 - Lists of **nuclear installations** and **civilian prisoners/fishermen** exchanged **every 1 January**.
 - **Agreement on Prohibition of Attacks against Nuclear Installations**: signed **31 December 1988**, in force **1991**, first exchange **1 January 1992**.
@@ -186,11 +186,11 @@
 | Partners | Japan, South Korea, Singapore, Netherlands, UK, Israel, UAE, Australia |
 | Guests | Taiwan, EU, Canada, OECD |
 - **DPI / India Stack MoUs with 23 countries** – announced by MoS MeitY **Jitin Prasada**: incl. Sri Lanka, Maldives, Brazil, Kenya, Cuba, **Mongolia**.
-- **UPI available in 8 countries**: **UAE, Singapore, Bhutan, Nepal, Sri Lanka, France, Mauritius, Qatar**.
+- **UPI available in 8 countries**: **UAE, Singapore, Bhutan, Nepal, Sri Lanka, France, Mauritius, Qatar** (till May 2026); since then **Cambodia (June 2026)** and **Maldives (Aug 2026)** = **10 countries**.
 - **DigiLocker** pacts with **Cuba, Kenya, UAE, Lao PDR**; **India Stack Global Portal** offers **18 platforms**.
 # Fiji
 - **9 January 2026, Krishi Bhavan**: **Shivraj Singh Chouhan** and Fiji's **Tomasi Tunabuna** – **Agriculture MoU extended by five years**; **Joint Working Group** to be set up.
-~~ Sources: app notes 6:67 (sub 6)
+~~ Sources: app notes 6:67 (sub 6); Praveen CA-360 Jun 2026 magazine p.78 (UPI in Cambodia); PMF LENS Aug 2026-01 p.45 (UPI in 10 countries incl. Maldives)
 
 === World Elections and Leaders
 # Elections (February 2026)
@@ -239,7 +239,7 @@
 | India–NZ FTA | NZ 100% zero duty; India 95% relief, 57% day one; $20 bn over 15 years |
 | Sri Lanka package | USD 450 mn (350 credit + 100 grant) |
 | Seychelles package | $175 mn |
-| DPI MoUs / UPI countries | 23 / 8 |
+| DPI MoUs / UPI countries | 23 / 8 (10 by Aug 2026) |
 | PAX SILICA signatories | 35 |
 | Wangchhu | 570 MW (4 × 142.5 MW); Adani 49%, Druk 51% |
 | Israel workers | 50,000 more in five years |
