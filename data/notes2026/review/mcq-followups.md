@@ -30,3 +30,9 @@
 - n862d695454d: Nur Jahan as "Makhfi" weakly attested — reword (Zeb-un-Nissa is the standard Makhfi).
 - nap-history-17-17: A–R key (b) probably (a) — check.
 - Notes: row 157 "January 1611" Globe at Machilipatnam — the Globe reached Masulipatnam in Aug 1611; check.
+# book 6 (from notes review; details in book6-fixes.md)
+- cac521e89e930c: forest cover "~24%" false — 21.76% forest, 25.17% forest+tree.
+- cac63810760f64: Rajesh Kumar Singh "DRDO Chairman" — holds additional charge.
+- Text out of date (see book6-fixes.md for the new fact): nd7066b82109, cp5133ca881694, cp348e5a202a33, gd5aa7937cc3f, f0d6006be2fe8, cp311a25892c45, cpe7e16fac598b, g144d0b918cc6.
+- PYQs already handled in b6-d02 (y59654082c9a, y1816b2597cb, yc9f12b441db) — no change.
+- Note: ITU reverted to 194 Member States (itu.int).
