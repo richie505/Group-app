@@ -1461,3 +1461,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 403 → 57 kept + 86 new (143, 35%); new 49 statements / 19 match / 18 A–R; 1 of 251 lines lost.
 - 252:0:4 "Supreme Court, 24 March 2026" ruling, old app notes only — unverified; kept own n085ec7453e9 depends on it — verify.
 - Iyengar Committee: 1937 (247:2:0.0) vs 1932 in PYQ stems — reconcile.
+
+## rewrite b3-w111 (rows 111–118)
+- own 447 → 56 kept + 108 new (164, 37%); new 65 statements / 27 match / 14 A–R / 2 sequence; 1 of 318 lines lost.
+- Removed as not in notes: f819e88d61579 (CITES Appendix II), nbb1b3a34c31 (Neeru-Chettu nodal department).
+- 117:0:7: notes flag the "one-third" PYQ key as ~one-fifth arithmetically — Disputed chip check.
