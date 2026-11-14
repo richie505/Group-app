@@ -77,7 +77,7 @@
 | 2012 | Strategic partnership |
 | 2022 | Comprehensive Strategic Partnership |
 - **AITIGA** (goods) **2010**.
-~~ Sources: Rocket CA 2026 Part 01 p.221 (22nd ASEAN–India Summit, Kuala Lumpur, Plan of Action 2026–2030, Year of Maritime Cooperation); Rocket CA 2026 Part 02 p.75 (ASEAN 1967, Jakarta, founders, 11 members); Praveen CA-360 Sep 2026 magazine (1992/1995); PMF International Relations (1996); app notes 6:56 (sub 2)
+~~ Sources: Rocket CA 2026 Part 01 p.221 (22nd ASEAN–India Summit, Kuala Lumpur, Plan of Action 2026–2030, Year of Maritime Cooperation); Rocket CA 2026 Part 02 p.75 (ASEAN 1967, Jakarta, founders, 11 members); Praveen CA-360 Sep 2026 magazine p.33 (1992/1995); PMF International Relations p.93 (1996); app notes 6:56 (sub 2)
 
 === UN, WHO and Climate Conferences (2025)
 - **80th UNGA** session in **2025** (UN founded 1945).

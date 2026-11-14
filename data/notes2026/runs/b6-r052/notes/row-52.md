@@ -110,7 +110,7 @@
 - **IBCA–ADB partnership** (Sep 2026): **International Big Cat Alliance** + **Asian Development Bank** to finance big-cat habitats; ADB HQ **Manila**.
 - **IBCA**: April 2023, **50th anniversary of Project Tiger**; **7 big cats** – tiger, lion, leopard, snow leopard, cheetah, jaguar, puma (**not clouded leopard**).
 - **SAWEN**: **Kathmandu Declaration** on **wildlife crime** at its first General Assembly; secretariat **Kathmandu**. **CITES** secretariat **Geneva**.
-~~ Sources: Daily EM CA 28 Oct 2026 p.3 (ADMM-Plus theme, Philippines chair); Rocket CA 2026 Part 02 p.75 (ASEAN 11 members, Jakarta); Praveen CA-360 Sep 2026 magazine (AIMMAF, IBCA–ADB, SAWEN); app notes 6:52 (sub 4, 9)
+~~ Sources: Daily EM CA 28 Oct 2026 p.3 (ADMM-Plus theme, Philippines chair); Rocket CA 2026 Part 02 p.75 (ASEAN 11 members, Jakarta); Praveen CA-360 Sep 2026 magazine p.33 (AIMMAF), p.5 (IBCA–ADB), p.31 (SAWEN); app notes 6:52 (sub 4, 9)
 
 === India-hosted Conferences, Oct–Nov 2026
 | Event | Venue and date | Key point |
@@ -146,7 +146,7 @@
 - **G20**: **1999**; 19 countries + EU + **African Union (permanent member 2023)**; **IMEC** announced at the **G20 New Delhi Summit, Sep 2023**.
 - **US Executive Order (29 Sep 2026)**: "Super Intelligence" to replace "AI" in **official non-legal documents of the US Federal Executive Branch**; tech firms signed a **voluntary safety agreement**.
 - **US–India TRUST Fellowship** (Bengaluru): TRUST = **Transforming the Relationship Utilizing Strategic Technology**.
-~~ Sources: Rocket CA 2026 Part 01 p.226 and Part 02 p.1, 13 (World Health Summit Berlin; 69th CPC Cape Town); Rocket CA 2026 Part 02 p.74 (G20 1999, 19 + EU + AU); Daily EM CA 19 Oct 2026 (UNTOC); Praveen CA-360 Sep 2026 magazine (OneSCD, Houston, Miami 6G, TRUST); app notes 6:52 (sub 5, 6, 8, 9 – IPU Arusha, Super Intelligence order)
+~~ Sources: Rocket CA 2026 Part 01 p.226 and Part 02 p.1, 13 (World Health Summit Berlin; 69th CPC Cape Town); Rocket CA 2026 Part 02 p.74 (G20 1999, 19 + EU + AU); Daily EM CA 19 Oct 2026 (UNTOC); Praveen CA-360 Sep 2026 magazine p.7 (OneSCD), p.6 (Houston, Miami 6G), p.5 (TRUST); app notes 6:52 (sub 5, 6, 8, 9 – IPU Arusha, Super Intelligence order)
 
 === Bilateral Talks and Disputes, Sep–Oct 2026
 # Indus Waters Treaty and the PCA
@@ -163,4 +163,4 @@
 - **IMEC**: Eastern corridor India–Arabian Gulf; Northern corridor Arabian Gulf–Europe; rail, shipping, electricity, digital, clean hydrogen.
 - **EU "Associate Member" status for Canada**: proposed by **Ursula von der Leyen**; EU 27 members, **21 use the euro**.
 - **Marshall Islands**: capital **Majuro**; free association with the US under the **Compact of Free Association**.
-~~ Sources: Praveen CA-360 Feb 2026 magazine p.27 (IWT 1960, World Bank, rivers); Praveen CA-360 Sep 2026 magazine (Wacha–Damai, Associate Member, Ramsar JDI); Daily EM CA 15 Oct 2026 (India–Czech); Civic Centre APPSC daily 7 Nov 2026 (Marshall Islands); app notes 6:52 (sub 7)
+~~ Sources: Praveen CA-360 Feb 2026 magazine p.27 (IWT 1960, World Bank, rivers); Praveen CA-360 Sep 2026 magazine p.33 (Wacha–Damai), p.8 (Associate Member), p.4 (Ramsar JDI); Daily EM CA 15 Oct 2026 (India–Czech); Civic Centre APPSC daily 7 Nov 2026 (Marshall Islands); app notes 6:52 (sub 7)

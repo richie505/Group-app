@@ -729,3 +729,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. Outdated yd2d3daf4cf7 PMEAC 5 members (now EAC-PM, S. Mahendra Dev, ~11).
 - Own MCQ f0b0ea3f9b705 Kishor Makwana NCSC explanation fixed (vs Bhagwat Prasad Makwana NCSK).
 - General-knowledge only: y167c556a488 Birla/Irani pairs; FRO quadrat and parameter keys.
+
+## b6-r042 (CA rows 42, 44 schemes and missions)
+- No PYQ key changes. y517ba010dc6 Kashi Tamil Sangamam: official "B & C only" is flat error; stays on added option "A, B, C & D".
+- Own MCQ ca2903cee151d0 ULLAS: add_option "None of these" (Sikkim fully literate 27 May 2026), outdated.
+- General knowledge: Sampada MP, NRT, Siddaganga Tumakuru, Buxar–Bhagalpur PURVODAYA, first Vande Bharat route. Nyaya Mitra status uncertain.
