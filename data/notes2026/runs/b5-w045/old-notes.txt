@@ -1,0 +1,2275 @@
+=== NOTES 5:45 | Applications of Space Technology – Agriculture, Disaster Management, Telemedicine, Tele-education, Navigation
+## SUB 0 | GIS – Concept, Components and Uses
+[45:0:0] - **GIS = Geographic Information System**: a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data – the most complete system for modelling spatial data and community vulnerability.
+[45:0:1] - **Father of GIS:** **Roger Tomlinson** – coined the term for the Canada GIS (1960s).
+[45:0:2] - Each theme is a **layer**; **overlay analysis** combines layers; data = spatial (vector, raster) + attribute tables.
+[45:0:3] TABLE head: Component | Examples
+  [45:0:3.0] Hardware | Computer, digitizer (tablet/table converting analog data to digital), scanner, GPS receiver, plotter
+  [45:0:3.1] Software | QGIS – free, open-source, cross-platform desktop GIS
+  [45:0:3.2] Data | Spatial (points, lines, polygons; satellite images) + attributes
+[45:0:4] - **Remote sensing + GIS:** maps prepared from satellite data or aerial photos are digitised and stored in GIS; manual maps are slow to prepare and hard to update.
+[45:0:5] - **Decision Support System:** data systems for planning.
+[45:0:6] - **Survey of India** prepares India's **topographical maps**.
+[45:0:7] # GIS in disasters
+[45:0:8] - **Situational awareness map:** real-time weather, hospitals and shelters, damage imagery; **pre-disaster population density maps** are least useful in the live response.
+[45:0:9] - Real-time sources: satellite imagery, weather data, sensor networks – **not news channels**.
+[45:0:10] TABLE head: Remote sensing | GIS
+  [45:0:10.0] Rainfall estimation during a cyclone; post-disaster damage | Mapping spread of infectious diseases; landslide hazard zonation
+[45:0:11] - Earthquake **magnitude and epicentre** come from **seismographs**, not GIS.
+[45:0:12] ~~ Sources: app notes 5:45 sub 1; general knowledge (Tomlinson, Survey of India)
+## SUB 1 | Disaster Management from Space
+[45:1:0] TABLE head: Can be monitored from space | Cannot
+  [45:1:0.0] Floods, cyclones, drought, forest fires, tsunami inundation, landslides, post-quake ground deformation | Spread of a disease among humans, heart attack; earthquake prediction
+[45:1:1] - Satellites give **near-real-time images** (remote sensing) for disaster management.
+[45:1:2] - Fire hotspots: thermal-infrared **MODIS** (Terra/Aqua) and **VIIRS** (Suomi-NPP), received at **Shadnagar** (NRSC) → **Forest Survey of India** alert system (not IMD) – the modern **fire alert system**.
+[45:1:3] - **NRSC activities:** near-real-time flood and cyclone mapping, forest-fire alerts, spatial flood early warning, **rapid damage assessment of landslides**; **Decision Support Centre**; **NDEM** (National Database for Emergency Management).
+[45:1:4] - **Bhuvan disaster services:** NDEM, drought monitoring, flood monitoring – no nuclear-hazard warning.
+[45:1:5] - **Ganga-Brahmaputra basin** = most flood-prone area (NRSC).
+[45:1:6] - **Landslides:** **DInSAR** gives repeat-pass slope-deformation monitoring, before visible failure, without a ground instrument network.
+[45:1:7] - **Global Forest Watch (WRI):** custom maps, forest trends, alerts.
+[45:1:8] TABLE head: Satellite | Use
+  [45:1:8.0] RISAT / SAR | Flood mapping through clouds
+  [45:1:8.1] INSAT-3DS | Cyclone tracks
+  [45:1:8.2] Cartosat | Damage mapping
+[45:1:9] - **DMSP** (ISRO): INSAT and IRS for imaging and communication; States must request data from NRSC.
+[45:1:10] - **INSAT Disaster Warning System:** Cyclone Warning Centre **Chennai → C-band uplink → S-band downlink**.
+[45:1:11] - **NDMA** uses GIS for planning, decision support, guidelines; **ISRO** led the **International Charter Space and Major Disasters** from **April 2025** (6 months).
+[45:1:12] ~~ Sources: app notes 5:45 sub 5
+## SUB 2 | Agencies, Bhuvan and Geoportals
+[45:2:0] TABLE head: Agency | Role
+  [45:2:0.0] NRSC, Hyderabad | Nodal agency – data acquisition, processing, dissemination, aerial remote sensing, disaster decision support; runs Bhuvan; earth station at Shadnagar
+  [45:2:0.1] IIRS, Dehradun | Training and education in remote sensing and GIS
+  [45:2:0.2] SAC, Ahmedabad | Sensors; MOSDAC, VEDAS, Nabhmitra
+  [45:2:0.3] NESAC, Umiam (Meghalaya) | North-East applications
+  [45:2:0.4] RRSCs | 5 (Bengaluru, Jodhpur, Kharagpur, Nagpur, Delhi) – not Hyderabad
+[45:2:1] - SPOT, EROS are foreign satellites, not Indian agencies.
+[45:2:2] - **Bhuvan:** ISRO's **geoportal** ("India's Google Earth"), by **NRSC**, launched **2009**; 2D/3D imagery – not a spacecraft or telescope.
+[45:2:3] TABLE head: Portal | Use
+  [45:2:3.0] Bhuvan Panchayat | Gram panchayat planning; powered by ISRO/NRSC (not DRDO)
+  [45:2:3.1] Bhoonidhi (NRSC) | EO data archive since 1988
+  [45:2:3.2] MOSDAC (SAC) | Meteorological & Oceanographic Satellite Data Archival Centre; disaster alerts
+  [45:2:3.3] Yuktdhara | MGNREGA asset planning
+  [45:2:3.4] SVAMITVA | Drone mapping with Survey of India
+  [45:2:3.5] PM Gati Shakti | National Master Plan GIS, by BISAG-N
+[45:2:4] ~~ Sources: NextGen S&T Group 2 Part 2 p.4; app notes 5:45 sub 2-3
+## SUB 3 | Remote Sensing Basics and Spectral Indices
+[45:3:0] - **Remote sensing:** gathering **images**/information about Earth **without physical contact**, from reflected or emitted radiation; covers dangerous or inaccessible areas.
+[45:3:1] TABLE head: Type | Energy | Example
+  [45:3:1.0] Active | Sends its own signal | RISAT radar, LiDAR
+  [45:3:1.1] Passive | Natural radiation (sunlight) | Resourcesat, Oceansat
+[45:3:2] - **Microwave / SAR** sees through cloud and darkness; **soil moisture** best measured by microwave/SAR.
+[45:3:3] - **InSAR:** compares the **phase** of radar images from **orbiting** satellites → **ground deformation** (quakes, subsidence, landslides).
+[45:3:4] - **NISAR:** radar, **L-band and S-band**; centimetre-scale ground movement.
+[45:3:5] - Applications: land cover, vegetation, forests, **surface and groundwater**, snow, wetlands, **minerals and hydrocarbons**, crop area and **crop yield** – "all of the above".
+[45:3:6] - Soil nutrient testing by **chemical analysis is NOT remote sensing**.
+[45:3:7] TABLE head: Term | Meaning
+  [45:3:7.0] NDVI | Normalized Difference Vegetation Index = (NIR − Red)/(NIR + Red); healthy vegetation reflects near-infrared; −1 to +1; most used for drought
+  [45:3:7.1] VCI | From NDVI; drought declaration
+  [45:3:7.2] Ecology index | Vegetation, water content, biological quantity – not cost and production
+  [45:3:7.3] NH Green Cover Index 2025-26 | NHAI + NRSC; satellite green cover of national highways
+[45:3:8] - **National Carbon Project** (ISRO-GBP): **carbon pools, fluxes and net carbon balance** of the terrestrial biosphere – vegetation pools, soil pools, fluxes.
+[45:3:9] ~~ Sources: NextGen S&T Group 2 Part 2 p.4-5; Rocket Disaster Management p.23; app notes 5:45 sub 0-1, 9
+## SUB 4 | Fisheries, Weather Apps and AP Applications
+[45:4:0] - **PFZ advisories** from **chlorophyll and SST**, issued by **INCOIS, Hyderabad** (EOS-06); INCOIS also issues the Ocean State Forecast.
+[45:4:1] TABLE head: Device | Developer | Fact
+  [45:4:1.0] Nabhmitra | ISRO SAC, Ahmedabad | Fishermen safety device; tested at Neendakara (Kerala), Aug 2023
+  [45:4:1.1] GEMINI | INCOIS with AAI (GAGAN) | PFZ, ocean-state, disaster alerts
+  [45:4:1.2] DAT-SG | ISRO | NavIC distress transmitter; sends acknowledgement back
+  [45:4:1.3] App | Developer / purpose | 
+  [45:4:1.4] Damini | Lightning – IITM Pune | 
+  [45:4:1.5] Mausam | IMD | 
+  [45:4:1.6] Andhra Pradesh Varuna (2017) | AP: automatic weather stations + groundwater piezometers + ISRO forecasts | 
+  [45:4:1.7] City Flood Alert (AP) | RTGS + APSDMA + IIT Gandhinagar; first in Vijayawada | 
+[45:4:2] # APSAC and AP
+[45:4:3] TABLE head: Technology | Purpose
+  [45:4:3.0] Drought monitoring (VCI) | Assessment of vegetation; 103 drought mandals (2024-25)
+  [45:4:3.1] YES-TECH | Rice yield estimation; pilots in Nandyal and Kakinada
+  [45:4:3.2] RWS pipeline mapping | Water-supply assets via a mobile app and dashboard
+  [45:4:3.3] APMVTS | Real-time tracking of mineral vehicles (AIS-140, 50,000)
+[45:4:4] - APSSDI: **74** GIS layers; PM Gati Shakti AP: **271** layers; APSDMA–NRSC MoU (15 Apr 2026) on lightning deaths; RTGS hub Vijayawada alerts fishermen on cyclones, high waves, fish shoals; shoreline mapping of the 1,053 km coast.
+[45:4:5] ~~ Sources: PMF Lens Aug 2026 p.56; web: yovizag.com (AP Varuna); app notes 5:45 sub 6-7, 10
+[45:4:6] - **Solar calculator app:** released by **ISRO** (Space Applications Centre) – uses satellite data to estimate the benefit of solar panels across India.
+## SUB 5 | Tele-education, Telemedicine and Navigation
+[45:5:0] - INSAT/GSAT enable **tele-education (EDUSAT, GRAMSAT)**, **telemedicine** and ISRO **Village Resource Centres** (not IMD).
+[45:5:1] - **Swayam Prabha:** group of **40 free educational DTH channels on GSAT-15**.
+[45:5:2] - **Eklavya:** educational TV channel for **engineering and technology** subjects.
+[45:5:3] - Satellite timing: banks time-stamp transactions, power grids synchronise phase; GPS is still the IST reference.
+[45:5:4] - **March 2026:** IRNSS-1F clock failed – only **3 PNT-capable** NavIC satellites; **NVS-02** stranded in an incorrect orbit.
+[45:5:5] - **GAGAN** (ISRO-AAI) payloads on **GSAT-8, 10, 15**.
+[45:5:6] ~~ Sources: PMF Lens Apr 2026 p.11; PMF S&T Part 2 p.50; app notes 5:45 sub 8
+[45:5:7] - **Telehealth** is used worldwide, India included (**eSanjeevani**) – "available only in developed countries" is wrong; mobile apps such as Doctor on Demand connect patients and doctors.
+## SUB 6 | Agriculture Applications
+[45:6:0] TABLE head: Programme | Purpose
+  [45:6:0.0] FASAL | Forecasting Agricultural output using Space, Agro-meteorology and Land-based observations (no revenue records)
+  [45:6:0.1] MNCFC (2012) | Mahalanobis National Crop Forecast Centre – runs FASAL
+  [45:6:0.2] YES-TECH | Yield estimation (rice) for PMFBY
+  [45:6:0.3] CHAMAN | Horticulture area and production
+  [45:6:0.4] NADAMS | Agricultural drought monitoring
+  [45:6:0.5] CROP framework | Rabi 2024-25 wheat 122.724 MT
+[45:6:1] - **Resourcesat:** crop acreage, watershed management, precision farming; **SLUSI** maps soils.
+[45:6:2] - **Meghdoot:** agro-met advisory app of **IMD and ICAR**.
+[45:6:3] ~~ Sources: app notes 5:45 sub 4, 7
+
+=== OWN MCQs of 5:45 (97)
+[nfd6d8fd2558] sub0
+  What does overlay analysis in GIS refer to?
+  Converting raster data into vector data | Creating a buffer zone around a feature | *Combining different data layers for analysis | Georeferencing a scanned map
+  x: Overlay analysis combines multiple thematic layers to derive and analyse relationships between them.
+[n32b5406f5a1] sub0
+  In a GIS, QGIS is an example of which of the following?
+  *GIS software | GIS hardware | Raster data | An attribute table
+  x: QGIS is GIS software; GIS hardware means the computer, digitizer, scanner, GPS receiver and plotter.
+[g649439aace1e] sub0
+  In a GIS work station, what is the function of a digitizer?
+  *It converts analog maps and data into digital format | It prints the final maps on paper | It stores satellite images on a server | It receives signals from GPS satellites
+  x: A digitizer is a tablet or table on which analog data such as paper maps are converted into digital form.
+[g17742fc36d3b] sub0
+  Which of the following is NOT a hardware component of GIS?
+  Scanner | Plotter | GPS receiver | *QGIS
+  x: QGIS is free, open-source GIS software; scanner, plotter and GPS receiver are hardware.
+[gbc456cb50001] sub0
+  In a GIS, in what form is each theme of data, such as roads or rivers, stored?
+  *As a layer | As a pixel | As a buffer | As a legend
+  x: In GIS each theme is stored as a separate layer; overlay analysis combines these layers.
+[g2b5bd7aa20c4] sub0
+  Which use of GIS gives emergency teams real-time layers for flood alerts and shoreline mapping during disasters?
+  *Situational awareness | Georeferencing | Digitization | Map projection
+  x: GIS gives situational awareness through real-time layers for disaster response, flood alerts and shoreline mapping.
+[n340e6cfc315] sub1
+  Which satellite system supports flood mapping even through cloud cover?
+  Cartosat | INSAT-3DS | Oceansat | *RISAT (SAR)
+  x: RISAT's SAR can map floods through clouds; INSAT-3DS tracks cyclones, Oceansat gives ocean-state data and Cartosat maps damage.
+[n404a7c63a45] sub1
+  What does Bhuvan mainly provide by combining RISAT/SAR imagery and INSAT-3DS cyclone-track data?
+  Crop acreage forecasts | *Flood-inundation maps and cyclone warnings | Potential fishing zone advisories | Groundwater prospect maps
+  x: Bhuvan combines RISAT/SAR flood imagery and INSAT-3DS cyclone-track information to support flood-inundation mapping and cyclone warnings.
+[ndisaster-management-26-15] sub1
+  What is the abbreviation of the National Database for Emergency Management?
+  DMSP | NADAMS | *NDEM | NLSM
+  x: NDEM is the National Database for Emergency Management. NADAMS is the drought system and DMSP ISRO's programme.
+[n59620ada674] sub1
+  In the INSAT Disaster Warning System, how do warnings from the Cyclone Warning Centre, Chennai travel?
+  *C-band uplink and S-band downlink | S-band uplink and C-band downlink | C-band uplink and C-band downlink | S-band uplink and S-band downlink
+  x: The chain is Cyclone Warning Centre, Chennai, then C-band uplink, then S-band downlink to coastal disaster-warning receivers.
+[ndisaster-management-26-12] sub1
+  For what does the National Disaster Management Authority (NDMA) use GIS?
+  Planning only | Planning and decision support only | *Planning, decision support and developing guidelines | Developing guidelines only
+  x: NDMA uses GIS for planning, decision support and drafting guidelines.
+[n582bd565731] sub1
+  Which of the following is NOT correct about fire-hotspot monitoring?
+  *Hotspot data are passed to the India Meteorological Department, which runs the forest-fire alert system | Thermal-infrared sensors such as MODIS and VIIRS detect fire hotspots | MODIS flies on NASA's Terra and Aqua satellites | Hotspot data are received at NRSC's Shadnagar earth station
+  x: The hotspot data go to the Forest Survey of India alert system, not to IMD.
+[n9dbffe8cbec] sub1
+  Which of the following is NOT correct about satellite support during disasters in India?
+  The Decision Support Centre is located at NRSC, Hyderabad | *States can use satellite data during disasters without requesting it from NRSC | The National Database for Emergency Management (NDEM) is located at NRSC, Hyderabad | The Decision Support Centre acts as a single window for satellite inputs during disasters
+  x: States must request satellite data from NRSC; the other statements are correct.
+[nb1ab4f0b0f3] sub1
+  From which month did ISRO take the lead role in the International Charter Space and Major Disasters for six months?
+  April 2023 | *April 2025 | April 2026 | April 2024
+  x: ISRO assumed the lead role in the International Charter Space and Major Disasters for six months from April 2025.
+[n3b1e2b79e40] sub1
+  Which of the following is NOT correct about ISRO's Disaster Management Support Programme?
+  It uses INSAT and IRS satellite systems | *It is limited to cyclone warnings alone | It provides satellite imaging support | It provides communication support during disasters
+  x: The programme gives imaging and communication support for floods, cyclones, droughts and other disasters, so it is not limited to cyclones.
+[fbd9d54926018] sub1
+  Which pair of thermal-infrared sensors is used to detect forest-fire hotspots?
+  RISAT and NISAR | INSAT-3DS and Cartosat | *MODIS and VIIRS | Oceansat and Resourcesat
+  x: Fire hotspots come from MODIS (NASA Terra/Aqua) and VIIRS (Suomi-NPP).
+[f12b36947db65] sub1
+  Where does the Decision Support Centre, a single window for satellite inputs during disasters, function?
+  SAC, Ahmedabad | IIRS, Dehradun | NESAC, Umiam | *NRSC, Hyderabad
+  x: The Decision Support Centre is at NRSC, and States must request data from NRSC.
+[fe51f1a1e4050] sub1
+  Consider the following statements about disaster monitoring from space:
+1. Post-earthquake ground deformation can be monitored from space.
+2. Earthquakes can be predicted using satellite remote sensing.
+3. Tsunami inundation can be mapped from space.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: Ground deformation after a quake and tsunami inundation can be monitored; earthquake prediction cannot.
+[fdc727c0b9b15] sub1
+  Satellite fire-hotspot alerts received at Shadnagar feed the alert system of which organisation?
+  India Meteorological Department | *Forest Survey of India | INCOIS, Hyderabad | NDMA
+  x: Fire-hotspot data go to the Forest Survey of India alert system, not IMD.
+[g6bcce80c7d5a] sub1
+  Which of the following cannot be monitored using satellite remote sensing?
+  Cyclone track | Forest fire | Landslide | *Heart attack
+  x: Satellites can monitor cyclones, forest fires and landslides, but not a human-health event such as a heart attack.
+[ge9fecabf1d0d] sub1
+  For which hazard does NRSC identify the Ganga-Brahmaputra basin as the most prone area in India?
+  Drought | *Floods | Cyclones | Landslides
+  x: NRSC's flood disaster management study names the Ganga-Brahmaputra basin as the most flood-prone area in India.
+[gc1e46f9f51ec] sub1
+  Which satellite is mainly used for damage mapping after disasters?
+  INSAT-3DS | Oceansat | *Cartosat | NavIC
+  x: Cartosat gives high-resolution images for damage mapping; INSAT-3DS tracks cyclones.
+[nbc49160818d] sub2
+  Which one of the following agencies functions as the nodal agency for receiving, processing and supplying satellite data, while also operating Bhuvan and providing disaster-support services to States?
+  Space Applications Centre | North Eastern Space Applications Centre | *National Remote Sensing Centre | Indian Institute of Remote Sensing
+  x: The National Remote Sensing Centre (NRSC), Hyderabad, receives, processes and supplies satellite data, runs Bhuvan and supports States in disaster management.
+[n7d440b2dacb] sub2
+  Where is the North Eastern Space Applications Centre (NESAC) located?
+  Dehradun, Uttarakhand | *Umiam (Shillong), Meghalaya | Jodhpur, Rajasthan | Kharagpur, West Bengal
+  x: NESAC is at Umiam (Shillong), Meghalaya, a joint body of the Department of Space and the North Eastern Council.
+[nf4d4ccf6e56] sub2
+  Which institution is responsible for training and education in remote sensing and GIS?
+  NESAC, Umiam | SAC, Ahmedabad | *IIRS, Dehradun | Regional Remote Sensing Centres
+  x: IIRS, Dehradun handles training and education in remote sensing and GIS; NESAC serves the North-East and SAC builds sensors.
+[f01a8b7aa331a] sub2
+  How many Regional Remote Sensing Centres (RRSCs) function under NRSC?
+  3 | 4 | *5 | 6
+  x: Five RRSCs, at Bengaluru, Jodhpur, Kharagpur, Nagpur and Delhi, work under NRSC on regional projects for States.
+[f617d0c2003f6] sub2
+  Where is NRSC's satellite earth station, which also receives fire-hotspot data, located?
+  *Shadnagar | Umiam | Dehradun | Jodhpur
+  x: NRSC's earth station is at Shadnagar, where MODIS and VIIRS fire-hotspot data are received.
+[g8962ed2b235f] sub2
+  Which ISRO centre runs the MOSDAC and VEDAS portals?
+  NRSC, Hyderabad | *SAC, Ahmedabad | IIRS, Dehradun | NESAC, Umiam
+  x: The Space Applications Centre (SAC), Ahmedabad runs MOSDAC, VEDAS and Nabhmitra, and builds sensors and payloads.
+[g4447b2bf10e6] sub2
+  Which of the following is NOT the location of a Regional Remote Sensing Centre (RRSC) of NRSC?
+  Jodhpur | Kharagpur | Nagpur | *Hyderabad
+  x: The 5 RRSCs are at Bengaluru, Jodhpur, Kharagpur, Nagpur and Delhi; NRSC itself is at Hyderabad.
+[n44e146f0df4] sub2
+  Which portal provides meteorological and oceanographic satellite data?
+  VEDAS | *MOSDAC | Yuktdhara | Bhoonidhi
+  x: MOSDAC (SAC) provides meteorological and oceanographic satellite data; Bhoonidhi (NRSC) is an EO data archive and VEDAS visualises EO data.
+[n4cb2f048706] sub2
+  Which of the following portal–use pairs is wrongly matched?
+  PM Gati Shakti – National Master Plan GIS platform | SVAMITVA – Drone mapping and property cards | Bhuvan Panchayat – Geospatial support for Gram Panchayat development planning | *Yuktdhara – National Master Plan GIS platform
+  x: Yuktdhara is for planning and monitoring MGNREGA assets; the National Master Plan GIS platform is PM Gati Shakti.
+[ne86099cf7c0] sub2
+  Which organisation developed the PM Gati Shakti National Master Plan GIS platform?
+  *BISAG-N | India Meteorological Department | Forest Survey of India | National Remote Sensing Centre alone
+  x: The PM Gati Shakti National Master Plan GIS platform was built by BISAG-N.
+[fd93fe59a0150] sub2
+  In which year was ISRO's geoportal Bhuvan, developed by NRSC, Hyderabad, launched?
+  2007 | *2009 | 2012 | 2015
+  x: Bhuvan was launched in 2009 by NRSC; 2012 is the year MNCFC was set up.
+[f5dbd4bc8ae44] sub2
+  In partnership with which organisation does SVAMITVA map rural properties by drone?
+  *Survey of India | BISAG-N | Forest Survey of India | SLUSI
+  x: SVAMITVA uses drone mapping of rural properties with the Survey of India to issue property cards.
+[f56a5682baf92] sub2
+  Which NRSC portal archives Earth-observation data since 1988 for search and download?
+  VEDAS | MOSDAC | *Bhoonidhi | Srishti
+  x: Bhoonidhi is NRSC's EO data archive; VEDAS and MOSDAC belong to SAC and Srishti monitors watersheds.
+[f551d985f301e] sub2
+  Which of the following pairs is correctly matched?
+  Srishti – MGNREGA asset monitoring | VEDAS – Disaster announcements and alerts | Yuktdhara – Watershed (IWMP) monitoring | *Bhuvan Panchayat – Gram panchayat planning
+  x: Bhuvan Panchayat serves gram panchayat planning; Srishti is for watersheds, Yuktdhara for MGNREGA assets and MOSDAC for disaster alerts.
+[nb0f73b303ec] sub3
+  Which of the following satellites is an example of active (radar) remote sensing?
+  *RISAT | Oceansat | Cartosat | Resourcesat
+  x: Active systems transmit their own signal, as RISAT's radar does; Resourcesat and Oceansat illustrate passive sensing of naturally available radiation.
+[n4ea0c630081] sub3
+  SAR (microwave) remote sensing is especially useful for flood mapping because it can:
+  *Observe through cloud cover and in darkness | Measure thermal emission from water bodies | Record images only in visible light | Operate only in daylight under clear skies
+  x: Microwave/SAR systems can observe through cloud cover and in darkness, making them useful for flood mapping in cloudy conditions.
+[n40c36409ef8] sub3
+  InSAR detects ground deformation by comparing which property of two or more radar images of the same area?
+  *Phase | Colour | Brightness temperature | Spectral reflectance
+  x: Interferometric SAR compares the phase of two or more radar images of the same area to detect ground deformation.
+[n02f29099f21] sub3
+  Which type of sensor is best suited for measuring soil moisture from space?
+  Visible-light camera | *Microwave or SAR sensor | Lidar altimeter | Ultraviolet spectrometer
+  x: Microwave and SAR sensors are particularly suitable for soil-moisture measurement; NISAR uses L-band and S-band radar for this.
+[n06ddb5df993] sub3
+  Which observations does NISAR use to detect centimetre-scale ground movement for studying land subsidence, earthquakes and glaciers?
+  *Radar observations | Visible-light images only | Thermal-infrared images only | Sonar soundings
+  x: NISAR uses radar observations, which let it detect centimetre-scale ground movement.
+[n9f2f9533b82] sub3
+  Remote sensing is used to assess which of the following natural-resource features?
+  Snow and glaciers only | Wetlands only | *Surface and groundwater prospects, snow and glaciers, wetlands, and mineral and hydrocarbon zones | Mineral and hydrocarbon zones only
+  x: All of these are listed as measurable by remote sensing, along with land cover, vegetation, soil and crop yield.
+[f46a4ad070f6d] sub3
+  Oceansat and Resourcesat are examples of which of the following?
+  Active remote sensing | *Passive remote sensing | Synthetic aperture radar | Interferometric SAR
+  x: They use natural radiation (sunlight), so they are passive; RISAT radar, which sends its own signal, is active.
+[g20483bfcc566] sub3
+  Which of the following can be estimated using satellite remote sensing?
+  *Crop yield | Soil nutrient levels by laboratory chemical testing | Spread of a disease among humans | Prediction of an earthquake
+  x: Remote sensing can estimate crop yield (YES-TECH); chemical soil testing, disease spread and earthquake prediction are not remote-sensing tasks.
+[ga9028384c9fc] sub3
+  Which two radar bands does NISAR use?
+  *L-band and S-band | C-band and X-band | Ku-band and Ka-band | L-band and C-band
+  x: NISAR carries L-band and S-band radar to measure centimetre-scale ground movement.
+[n7f1b0769597] sub3
+  How is the Normalised Difference Vegetation Index (NDVI) computed?
+  (Red − NIR) / (Red + NIR) | (NIR − Blue) / (NIR + Blue) | (NIR + Red) / (NIR − Red) | *(NIR − Red) / (NIR + Red)
+  x: NDVI = (NIR − Red) / (NIR + Red); it works because healthy vegetation reflects strongly in the near-infrared band.
+[n57f43d20669] sub3
+  Which index is most widely used for the operational assessment of drought?
+  Vegetation Condition Index | *Normalized Difference Vegetation Index | Enhanced Water Index | Soil Adjusted Vegetation Index
+  x: NDVI is the most widely used spectral vegetation index for operational drought assessment.
+[n9a57e8d6bf1] sub3
+  Which of the following does the NH Green Cover Index 2025-26, India's first satellite-based green-cover assessment of its kind, cover?
+  Railway lines | Urban wards | River banks | *National highways
+  x: The NH Green Cover Index is India's first satellite-based green-cover assessment of highways and uses chlorophyll detection.
+[na708c3572cc] sub3
+  From which data is the Vegetation Condition Index (VCI), used in drought declaration, derived?
+  *NDVI | Ocean-colour chlorophyll data | Sea-surface temperature | Aerosol optical depth
+  x: VCI is derived from vegetation-related NDVI data and is used in drought declaration.
+[g834e176490cf] sub3
+  What is the full form of NDVI?
+  *Normalized Difference Vegetation Index | National Drought Vegetation Index | Net Density Vegetation Indicator | Normalized Drought Variation Index
+  x: NDVI is the Normalized Difference Vegetation Index, computed as (NIR - Red)/(NIR + Red).
+[gf789167e9b70] sub3
+  In which part of the spectrum does healthy vegetation reflect most strongly, which is used in NDVI?
+  Ultraviolet | Blue | *Near-infrared | Thermal infrared
+  x: Healthy vegetation reflects strongly in near-infrared; NDVI = (NIR - Red)/(NIR + Red).
+[g39bda29c5672] sub3
+  Consider the following statements about NDVI:
+1. Its value ranges from -1 to +1.
+2. It is the most widely used index for operational drought assessment.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: NDVI ranges from -1 to +1 and is the most widely used index for operational drought assessment.
+[fcff50cd37be5] sub3
+  What does the National Carbon Project of the ISRO-Geosphere Biosphere Programme assess?
+  Black-carbon aerosols over Indian cities | *Carbon pools, fluxes and net carbon balance of India's terrestrial biosphere | Ocean carbon uptake in the Indian Ocean | Carbon credits traded by Indian industries
+  x: Its goal is to assess the carbon pools, fluxes and net carbon balance of India's terrestrial biosphere.
+[f5d1a79d3defb] sub3
+  Consider the following statements about the National Carbon Project:
+1. It covers vegetation carbon pools.
+2. It covers soil carbon pools.
+3. It is limited to the marine biosphere.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Its components are vegetation carbon pools, soil carbon pools and soil-vegetation fluxes; it studies the terrestrial, not marine, biosphere.
+[n03e93f8c6f2] sub4
+  On which satellite-derived information are Potential Fishing Zone advisories mainly prepared?
+  cloud height and crop acreage | ground deformation and glacier movement | soil moisture and land temperature | *chlorophyll and sea-surface temperature
+  x: PFZ advisories identify fish-rich areas using satellite observations of chlorophyll and sea-surface temperature.
+[n21ca5cd184a] sub4
+  Which of the following is NOT correctly matched?
+  CHAMAN — horticulture area and condition mapping | NADAMS — agricultural drought monitoring | FASAL — pre-harvest crop acreage and production forecasts | *GEMINI — mapping soil resources from satellite data
+  x: GEMINI sends PFZ, Ocean State Forecast and disaster alerts to fishermen. Soil-resource mapping from satellite data is associated with the Soil and Land Use Survey of India.
+[nb36b8503e43] sub4
+  Which institution issues Potential Fishing Zone (PFZ) advisories, now using EOS-06 (Oceansat-3) data?
+  IMD, New Delhi | NRSC, Hyderabad | SAC, Ahmedabad | *INCOIS, Hyderabad
+  x: INCOIS, Hyderabad issues PFZ advisories using EOS-06 (Oceansat-3) data; it also issues the Ocean State Forecast.
+[n75ffa49dd3c] sub4
+  Who developed the Nabhmitra safety service for fishermen?
+  INCOIS, Hyderabad | NRSC, Hyderabad | Airports Authority of India | *ISRO's Space Applications Centre, Ahmedabad
+  x: Nabhmitra comes from ISRO's SAC, Ahmedabad and gives two-way messaging via GSAT; INCOIS with AAI developed GEMINI.
+[nfd38c03c56d] sub4
+  What is Nabhmitra, tested at Neendakara in Kerala in August 2023?
+  a GIS software package | *a satellite-based safety device for fishermen | a crop-yield estimation framework | an agricultural drought index
+  x: Nabhmitra is a satellite-based fishermen safety device developed by ISRO’s Space Applications Centre, Ahmedabad, and tested at Neendakara in August 2023.
+[nb2c84c03787] sub4
+  About what does the satellite-based coastal-fishermen alert service run from the RTGS hub at Vijayawada warn?
+  Oil spills and ship traffic | Rainfall and crop pests | Tsunamis and earthquakes | *Cyclones, high waves and fish shoals
+  x: The RTGS hub at Vijayawada provides satellite-based alerts to coastal fishermen about cyclones, high waves and fish shoals.
+[fe0721005ff28] sub4
+  Who developed the GEMINI device, which gives PFZ, ocean-state and disaster alerts at sea?
+  ISRO SAC, Ahmedabad | NRSC, Hyderabad | *INCOIS with AAI | IITM Pune
+  x: GEMINI was developed by INCOIS with the Airports Authority of India and uses GAGAN; Nabhmitra is SAC's device.
+[f02c3979349d7] sub4
+  What does the second-generation Distress Alert Transmitter (DAT-SG) send back to fishermen?
+  A cyclone track map | A potential fishing zone chart | A sea-surface temperature map | *An acknowledgement of the distress alert
+  x: DAT-SG has a NavIC module and sends an acknowledgement back to fishermen.
+[g02ec8d79fa87] sub4
+  Which institution issues the Ocean State Forecast for India's seas?
+  India Meteorological Department | *INCOIS, Hyderabad | NRSC, Hyderabad | SAC, Ahmedabad
+  x: INCOIS, Hyderabad issues the Ocean State Forecast as well as Potential Fishing Zone advisories.
+[g9e82511601ee] sub4
+  Which satellite system does the GEMINI device use to send alerts to fishermen at sea?
+  NavIC | *GAGAN | GPS | Iridium
+  x: GEMINI, developed by INCOIS with AAI, uses GAGAN to send PFZ, ocean-state and disaster alerts.
+[nf98570d2b7e] sub4
+  Who developed the lightning-alert app Damini?
+  IMD | INCOIS, Hyderabad | *IITM, Pune | NRSC, Hyderabad
+  x: Damini is from IITM Pune (MoES); Mausam is IMD's weather app.
+[n7014694491b] sub4
+  In which city was Andhra Pradesh's City Flood Alert system first implemented?
+  Visakhapatnam | *Vijayawada | Guntur | Nellore
+  x: It was first implemented in Vijayawada, using satellite DEMs and Budameru flood data.
+[n2d7f79e4d6c] sub4
+  The MoU signed on 15 April 2026 between APSDMA and NRSC primarily seeks to address which problem in rural Andhra Pradesh?
+  Crop-yield estimation | *Lightning deaths | Coastal erosion | Groundwater depletion
+  x: The APSDMA-NRSC MoU aims to prevent lightning deaths in rural Andhra Pradesh.
+[g55695ce18d02] sub4
+  Who developed the Mausam weather app?
+  IITM, Pune | *India Meteorological Department | ICAR | INCOIS
+  x: Mausam is the weather app of the India Meteorological Department (IMD); Damini is IITM's lightning app.
+[gfe8ff429b55a] sub4
+  Which institution worked with RTGS and APSDMA on Andhra Pradesh's AI-based City Flood Alert system?
+  IIT Madras | *IIT Gandhinagar | IIT Tirupati | IIT Hyderabad
+  x: City Flood Alert (AP) was built by RTGS, APSDMA and IIT Gandhinagar, first in Vijayawada.
+[ndd2372da6f5] sub4
+  Which vehicles does the Andhra Pradesh Motor Vehicle Tracking System (APMVTS) mainly track with AIS-140 devices?
+  School buses | Ambulances | Fishing boats | *Mineral vehicles
+  x: APMVTS fitted 50,000 mineral vehicles with AIS-140 tracking devices.
+[f83216cf78520] sub4
+  APMVTS in Andhra Pradesh tracks about how many mineral vehicles with AIS-140 devices?
+  5,000 | 25,000 | *50,000 | 1,00,000
+  x: APMVTS fits AIS-140 devices on about 50,000 mineral vehicles.
+[na8eda160550] sub4
+  Which of the following pairs is NOT correctly matched in relation to APSAC activities?
+  VCI — Agricultural drought assessment at mandal level | *APSSDI — Satellite-based lightning alert application | YES-TECH — Yield estimation in Nandyal and Kakinada | SVAMITVA — Drone survey
+  x: APSSDI standardises GIS layers and supports spatial mapping; the satellite-based lightning alert application is not its stated function. APSAC uses VCI, YES-TECH and SVAMITVA for the functions listed in the other pairs.
+[n7735548f86f] sub4
+  The Andhra Pradesh State Spatial Data Infrastructure (APSSDI) has standardised how many GIS layers to ISO standards?
+  64 | *74 | 84 | 47
+  x: APSSDI has standardised 74 GIS layers to ISO standards and is registered with the National Data Registry.
+[f2d680db0f804] sub4
+  How many drought mandals did Andhra Pradesh declare in 2024-25 using mandal-level VCI?
+  80 | *103 | 107 | 130
+  x: AP declared 103 drought mandals in 7 districts, of which 80 were severe.
+[f7adb0179c146] sub4
+  The PM Gati Shakti platform in Andhra Pradesh has how many GIS layers?
+  74 | 172 | *271 | 127
+  x: Gati Shakti AP has 271 GIS layers across 27 departments; 74 is the APSSDI figure.
+[f75326a4379e3] sub4
+  About how long is the Andhra Pradesh coastline covered by APSAC's shoreline mapping?
+  1,503 km | 974 km | 1,153 km | *1,053 km
+  x: The 1,053 km coast is 26% eroded, 54% accreting and 20% stable.
+[faf6f9ad3a279] sub4
+  YES-TECH yield pilots in Andhra Pradesh were run in which districts?
+  *Nandyal and Kakinada | Krishna and Guntur | Nellore and Prakasam | Kurnool and Anantapur
+  x: APSAC ran YES-TECH pilots in Nandyal and Kakinada.
+[nccc04659e7d] sub5
+  What are ISRO's single-window centres for tele-education, telemedicine, weather and land/water advisories called?
+  Common Service Centres | *Village Resource Centres | Krishi Vigyan Kendras | Regional Remote Sensing Centres
+  x: ISRO's Village Resource Centres are single-window centres for these services.
+[nc6baab2e3e2] sub5
+  Tele-education, telemedicine and Village Resource Centres in India have been enabled by which satellite systems?
+  NavIC and GAGAN | IRS and Cartosat | *INSAT and GSAT | Oceansat and Resourcesat
+  x: INSAT and GSAT satellite communication systems have enabled tele-education, telemedicine and Village Resource Centres.
+[nfc847729bfd] sub5
+  Swayam Prabha provides how many free DTH channels through GSAT-15?
+  30 | 32 | *40 | 50
+  x: Swayam Prabha provides 40 free DTH channels through GSAT-15.
+[n81a47540108] sub5
+  Which of the following is NOT correct about satellite-based timing in India?
+  Banks use it to time-stamp transactions | Power grids use it to synchronise their phase | *NavIC is now India's reference for Indian Standard Time | The government wants NavIC to serve Indian Standard Time
+  x: GPS is the current reference; the government only wants NavIC to serve Indian Standard Time.
+[n1fa0f7faaba] sub5
+  On which satellite are Swayam Prabha's educational DTH channels carried?
+  *GSAT-15 | NVS-02 | Cartosat-3 | Oceansat-3
+  x: Swayam Prabha's DTH channels are on GSAT-15.
+[n08b6e17c556] sub5
+  Why did NVS-02 attract attention in March 2026?
+  Used exclusively for telemedicine | Transferred to the GAGAN system | Destroyed during atmospheric re-entry | *Stranded in an incorrect orbit
+  x: NVS-02 was stranded in the wrong orbit, limiting its intended use in the NavIC system.
+[f16a89d009fc8] sub5
+  On which satellites does GAGAN, the ISRO-AAI system, have payloads?
+  *GSAT-8, 10 and 15 | GSAT-6, 7 and 9 | INSAT-3D and 3DS | IRNSS-1A, 1B and 1F
+  x: GAGAN payloads are carried on GSAT-8, GSAT-10 and GSAT-15.
+[fa45c58bd8e77] sub5
+  Which of the following is NOT correct about satellite-based services in India?
+  EDUSAT and GRAMSAT support tele-education | *Village Resource Centres are run by IMD | Swayam Prabha offers 40 free DTH channels | ISRO Telemedicine Network links rural clinics to specialists
+  x: Village Resource Centres are ISRO's single-window centres, not IMD's.
+[g5e60722ebdd6] sub5
+  The atomic clock of which NavIC satellite failed in March 2026, leaving only three PNT-capable satellites?
+  NVS-02 | *IRNSS-1F | NVS-01 | IRNSS-1L
+  x: On 13 March 2026 the IRNSS-1F clock failed, leaving only 3 PNT-capable NavIC satellites.
+[n0877dc097a4] sub6
+  For what are Resourcesat-series data mainly used?
+  Satellite navigation and timing | *Crop acreage assessment, watershed management and precision farming | Two-way messaging to fishermen | Ocean-wave forecasting
+  x: Resourcesat data support crop acreage assessment, watershed management and precision farming.
+[n15d0ec25e7f] sub6
+  In which year was the Mahalanobis National Crop Forecast Centre (MNCFC), which makes ISRO's crop-forecasting methods operational, set up?
+  2005 | 2010 | *2012 | 2015
+  x: MNCFC was set up in 2012.
+[n962214f6e1e] sub6
+  Which of the following pairs is correctly matched?
+  FASAL – Satellite-based crop yield estimation for PMFBY | *CHAMAN – Horticulture area and production assessment | YES-TECH – Agricultural drought monitoring | NADAMS – Pre-harvest crop acreage and production forecasts
+  x: CHAMAN covers horticulture. FASAL gives pre-harvest forecasts, YES-TECH estimates yield for PMFBY and NADAMS monitors agricultural drought.
+[f418e44ac14a1] sub6
+  For what is FASAL mainly used?
+  Horticulture area estimation | Yield estimation for crop insurance | *Pre-harvest crop acreage and production forecasts | Agricultural drought monitoring
+  x: FASAL gives pre-harvest crop acreage and production forecasts; CHAMAN is horticulture, YES-TECH yield and NADAMS drought.
+[fb0e0b27cff2d] sub6
+  What does the CHAMAN programme use space technology to assess?
+  Jute acreage | *Horticulture area and production | Agricultural drought | Rice yield for crop insurance
+  x: CHAMAN covers horticulture area and production; jute is under JCIS and drought under NADAMS.
+[fa9916a8fa922] sub6
+  Which programme monitors agricultural drought using satellite data?
+  *NADAMS | FASAL | CHAMAN | YES-TECH
+  x: NADAMS monitors agricultural drought; FASAL forecasts crops, CHAMAN covers horticulture and YES-TECH yield.
+[f03854aa7d85c] sub6
+  What does YES-TECH provide to support the Pradhan Mantri Fasal Bima Yojana?
+  Pre-harvest acreage forecasts | Horticulture production estimates | Mandal-level drought declaration | *Crop yield estimation
+  x: YES-TECH estimates crop yield (such as rice) for crop insurance under PMFBY.
+[gcaeba3529c7d] sub6
+  What is the full form of FASAL?
+  *Forecasting Agricultural output using Space, Agro-meteorology and Land-based observations | Farm Assessment using Satellites and Land records | Forecasting Agricultural Seasons and Land use | Field Area Survey for Agricultural Lands
+  x: FASAL stands for Forecasting Agricultural output using Space, Agro-meteorology and Land-based observations; it gives pre-harvest forecasts.
+[ga248c743593f] sub6
+  Which organisation maps the soil resources of India?
+  Survey of India | Forest Survey of India | *Soil and Land Use Survey of India (SLUSI) | NRSC, Hyderabad
+  x: SLUSI (Soil and Land Use Survey of India) maps soil resources.
+[g7800e20f54ba] sub6
+  What wheat production for rabi 2024-25 did NRSC's CROP framework estimate using satellite data?
+  102.4 MT | 112.9 MT | *122.724 MT | 132.5 MT
+  x: Using EOS-04, EOS-06 and Resourcesat-2A, the CROP framework estimated rabi 2024-25 wheat at 122.724 million tonnes.
+[g512401d38fdb] sub6
+  Which organisations jointly developed Meghdoot, the app that gives agro-meteorological advisories to farmers?
+  ISRO and NRSC | *IMD and ICAR | IITM Pune and MoES | INCOIS and AAI
+  x: Meghdoot gives agro-met advisories and is a joint app of IMD and ICAR.
+
+=== NOTES 5:46 | Space Debris, Space Situational Awareness and International Space Law
+## SUB 0 | Space Situational Awareness – NETRA, IS4OM and Digantara
+[46:0:0] # Space Situational Awareness (SSA)
+[46:0:1] - **SSA:** the capability to **detect, track, monitor and predict** the movement of objects in space (satellites, debris); used for collision avoidance and space security.
+[46:0:2] TABLE head: System | Fact
+  [46:0:2.0] Project NETRA (Network for Space Object Tracking and Analysis) | ISRO's indigenous SSA system; aim = safeguard Indian space assets from debris and collisions; 24–72 hours' warning
+  [46:0:2.1] SSA Control Centre | foundation stone laid by ISRO in August 2019 at Bengaluru (Peenya, ISTRAC campus); the NETRA control centre
+  [46:0:2.2] IS4OM | ISRO System for Safe and Sustainable Space Operations Management; dedicated to the nation in 2022; compiles the annual ISSAR
+  [46:0:2.3] Digantara Research and Technologies | private SSA start-up based in Bengaluru; authorised by IN-SPACe on 24 June 2022 to launch its payloads; space-surveillance satellites, debris tracking
+[46:0:3] - **ISSAR 2025 (8 Apr 2026):** **18 collision avoidance manoeuvres** (CAMs) by Indian satellites in 2025; **RISAT-2B** avoided a defunct US satellite in 2019.
+[46:0:4] > NETRA is asked twice (APPSC JL 2020, DAO 2020): agency **ISRO** (not RBI, ICSSR, ICHR) and aim **safeguard Indian space assets** (not a space station, Gaganyaan or the Vikram lander search).
+[46:0:5] ~~ Sources: PMF S&T Part 2 (src/science-tech/pmf-science-tech-02.txt) p.78-79; app notes 5:46 sub 1; general knowledge, not checked (SSA Control Centre, Aug 2019)
+## SUB 1 | Space Debris and Re-entry
+[46:1:0] # Space debris
+[46:1:1] - **Space debris:** all **non-functional man-made objects**, including fragments, in orbit or re-entering (defunct satellites, spent rocket stages, collision and explosion fragments, paint flakes).
+[46:1:2] - **Main source = fragmentation** from collisions and in-orbit explosions; **ASAT tests** add debris (China 2007; **Mission Shakti**, DRDO, 27 Mar 2019, Microsat-R at ~300 km).
+[46:1:3] - Over **1.2 million objects > 1 cm** (ESA 2025); objects move at ~7–8 km/s in LEO.
+[46:1:4] - **Kessler Syndrome** (Donald Kessler, NASA, **1978**): debris density → collisions → more fragments → a self-sustaining cascade that can make orbits unusable.
+[46:1:5] - **MMOD** (micrometeoroids and orbital debris) is the top risk in **LEO**, not GEO.
+[46:1:6] # Controlled re-entry
+[46:1:7] - **POEM-4** (PSLV Orbital Experimental Module of **PSLV-C60 / SpaDeX**): re-entered and impacted the **Indian Ocean on 4 April 2025** (ISRO: controlled re-entry).
+[46:1:8] - **Mir** (Russian station, ~140 t): de-orbited in a controlled re-entry over the Pacific on **23 March 2001** after ~15 years, having made **86,331 orbits**.
+[46:1:9] ~~ Sources: PMF S&T Part 2 (src/science-tech/pmf-science-tech-02.txt) p.64-67; app notes 5:46 sub 0, 2; web: en.wikipedia.org/wiki/Deorbit_of_Mir and Mir infobox (86,331 orbits)
+## SUB 2 | Space Law – Treaties and the Space Activities Bill
+[46:2:0] TABLE head: Instrument | Core rule | India
+  [46:2:0.0] Outer Space Treaty 1967 | No national sovereignty; Art. VI national responsibility incl. private actors; Art. VII liability; Art. IX due regard | Party (ratified 1982)
+  [46:2:0.1] Rescue Agreement 1968 | Return of astronauts | Party
+  [46:2:0.2] Liability Convention 1972 | Absolute liability on Earth; fault liability in space | Party
+  [46:2:0.3] Registration Convention 1975 | Register space objects with the UN | Party
+  [46:2:0.4] Moon Agreement 1979 | Common heritage | Signed, not ratified
+[46:2:1] - The 1960s–70s treaties do not cover cumulative debris or mega-constellations.
+[46:2:2] # Space Activities Bill (draft, 2017)
+[46:2:3] - Aims to **facilitate the overall growth of space activities** in India; a **regulatory body to license** space activities (non-governmental too); protection of **IPR** created through space activity; liability and penalties.
+[46:2:4] - It does **not** create a **military wing of the armed forces in outer space** (the incorrect statement, Sachivalayam PYQ).
+[46:2:5] - India still has **no Space Activities Act** on liability.
+[46:2:6] ~~ Sources: PMF S&T Part 2 (src/science-tech/pmf-science-tech-02.txt) p.68; app notes 5:46 sub 3; general knowledge, not checked (draft Space Activities Bill 2017)
+## SUB 3 | Mitigation and Debris-free Missions
+[46:3:0] - **Debris Free Space Missions (DFSM) by 2030** – India's pledge at the **2024 IADC** meeting.
+[46:3:1] - **25-year rule:** LEO satellites should re-enter within 25 years of mission end (NASA, then IADC and UN guidelines); GEO satellites go to a **graveyard orbit**.
+[46:3:2] - **Active Debris Removal:** a servicer with a **robotic arm or net** to capture a defunct Indian rocket body (tested at URSC).
+[46:3:3] - **PSLV-C62** (Jan 2026) planned a PS4 de-boost; **2026 re-entry rules:** warn aircraft and ships **at least 45 days** before re-entry.
+[46:3:4] - **Gaps:** IADC/UN guidelines are non-binding; no international **duty-of-care** standard; lax licensing regimes attract operators.
+[46:3:5] ~~ Sources: PMF S&T Part 2 (src/science-tech/pmf-science-tech-02.txt) p.68-70; app notes 5:46 sub 2
+## SUB 4 | Bodies, Accords and Weaponisation
+[46:4:0] TABLE head: Body / accord | Year | India
+  [46:4:0.0] UNCOPUOS | 1959 | Founding member; LTS Guidelines
+  [46:4:0.1] IADC (13 agencies) | 1993 | ISRO a member
+  [46:4:0.2] Artemis Accords | US, 2020; non-binding | Signed 2023
+[46:4:1] - **PAROS:** agenda item of the UN **Conference on Disarmament**.
+[46:4:2] - **US** moratorium on destructive direct-ascent ASAT tests, **April 2022**.
+[46:4:3] - Way forward: wider **SSA data-sharing**; PM Modi, International Space Summit, Paris (10 Sep 2026): "**cooperation over confrontation**".
+[46:4:4] ~~ Sources: PMF S&T Part 2 (src/science-tech/pmf-science-tech-02.txt) p.70; app notes 5:46 sub 4
+
+=== OWN MCQs of 5:46 (46)
+[nf50ba2d7f25] sub0
+  What is the principal aim of Project NETRA?
+  Track only military aircraft in Indian airspace | *Safeguard Indian space assets from debris and collisions | Provide satellite television services to rural areas | Develop reusable launch vehicles for lunar missions
+  x: Project NETRA aims to provide indigenous space situational awareness and safeguard Indian space assets from debris and collisions.
+[n9b7921cfb7b] sub0
+  In which field does Bengaluru-based start-up Digantara mainly work?
+  Hyperspectral earth imaging | Small satellite launch vehicles | Satellite electric propulsion | *Space situational awareness and debris tracking
+  x: Digantara is a space-situational-awareness start-up building space-surveillance satellites and generating debris-tracking data.
+[n943fc6fdbad] sub0
+  Which organisation runs Project NETRA, which gives 24–72 hours' warning of close approaches in space?
+  DRDO | IN-SPACe | *ISRO | Indian Air Force
+  x: NETRA is an ISRO project to safeguard Indian space assets; IS4OM compiles the annual ISSAR.
+[n51410387839] sub0
+  How many collision avoidance manoeuvres (CAMs) did India record in 2025?
+  8 | 12 | *18 | 23
+  x: 18 CAMs were recorded in 2025, continuing regular CAMs for Cartosat, Resourcesat and GSAT.
+[f055ca02e02d2] sub0
+  Which ISRO system tracks debris and compiles the annual ISSAR?
+  Project NETRA | *IS4OM | Digantara | IADC
+  x: IS4OM compiles ISSAR; NETRA is the tracking network.
+[f03f40d7a2673] sub0
+  Which Indian satellite avoided a defunct US satellite in 2019?
+  Cartosat-2 | *RISAT-2B | GSAT-30 | Resourcesat-2
+  x: RISAT-2B made a manoeuvre in 2019 to avoid a defunct US satellite.
+[f02dfd9f0ee25] sub0
+  Which of the following is a private space situational awareness start-up based in Bengaluru?
+  IS4OM | NETRA | POEM | *Digantara
+  x: Digantara is a private Bengaluru start-up working on space surveillance and debris tracking; IS4OM and NETRA are ISRO's.
+[g5b4e168d0ec8] sub0
+  What is the full form of NETRA in ISRO's Project NETRA?
+  *Network for Space Object Tracking and Analysis | National Electronic Tracking and Ranging Array | Network for Earth Tracking and Remote Assessment | National Early-warning Tracking and Response Agency
+  x: Project NETRA is ISRO's Network for Space Object Tracking and Analysis, which safeguards Indian space assets.
+[g26ea6af6ec98] sub0
+  What is the full form of IS4OM?
+  *ISRO System for Safe and Sustainable Space Operations Management | Indian Space Station for Orbital Monitoring | ISRO Space Surveillance and Satellite Safety Operations Module | Integrated System for Space Object Observation and Monitoring
+  x: IS4OM = ISRO System for Safe and Sustainable Space Operations Management; it compiles the annual ISSAR.
+[g6a39541e3171] sub0
+  In which year was ISRO's IS4OM facility for space situational awareness dedicated to the nation?
+  2019 | 2020 | *2022 | 2024
+  x: IS4OM was dedicated to the nation by Dr Jitendra Singh in 2022.
+[naa85be2ad62] sub1
+  Which of the following defines space debris?
+  Operational satellites that have drifted from their assigned orbit | *All non-functional man-made objects, including fragments, in orbit or re-entering | Natural meteoroids passing through Earth orbit | Fragments created only by anti-satellite tests
+  x: Space debris consists of non-functional man-made objects, including fragments, that are in orbit or re-entering the atmosphere.
+[nc68134f1747] sub1
+  What is the main source of space debris?
+  *Fragmentation from collisions and explosions | Spent rocket stages | Tools lost on spacewalks | Anti-satellite (ASAT) tests
+  x: Fragmentation from collisions and explosions is the main source; the others are also sources of debris.
+[ne0a2bd84171] sub1
+  What did Mission Shakti, conducted on 27 March 2019, involve?
+  The deployment of India's first space station | A soft landing of a rover on the Moon | *A kinetic-kill ASAT test that destroyed Microsat-R at about 300 km | A test of a reusable launch vehicle at 300 km altitude
+  x: Mission Shakti was a DRDO kinetic-kill anti-satellite test that destroyed the Indian satellite Microsat-R at approximately 300 km altitude, raising debris concerns.
+[nae5b9d1aaa0] sub1
+  Which of the following is NOT correct about space debris risks?
+  Kessler Syndrome is a self-sustaining cascade of debris-creating collisions that can make orbits unusable | *MMOD (micrometeoroids and orbital debris) is the top risk mainly in geostationary orbit | Kessler Syndrome is named after NASA scientist Donald Kessler | The Kessler Syndrome idea dates from 1978
+  x: MMOD is the top risk in low Earth orbit (LEO), not GEO.
+[f4aef2cfd6310] sub1
+  In which year did Donald Kessler of NASA describe the Kessler Syndrome?
+  *1978 | 1968 | 1988 | 1993
+  x: Kessler described the syndrome in 1978: debris density leads to collisions, more fragments and unusable orbits.
+[f69825ff88a9f] sub1
+  Consider the following statements about the Kessler Syndrome:
+1. High debris density leads to collisions.
+2. Collisions produce more fragments.
+3. It makes orbits more usable over time.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Density leads to collisions and more fragments, which make orbits unusable, so statement 3 is wrong.
+[fcd78fb65f9e8] sub1
+  According to ESA (2025), the number of space objects larger than 1 cm is over:
+  12,000 | 1.2 lakh | 12 million | *1.2 million
+  x: ESA (2025) counts over 1.2 million objects larger than 1 cm.
+[fc66ccf3b09fa] sub1
+  MMOD (micrometeoroids and orbital debris) is the top risk in which orbit?
+  GEO | MEO | *LEO | HEO
+  x: MMOD is the top risk in low Earth orbit, not GEO.
+[gb54618460270] sub1
+  Which organisation conducted Mission Shakti, India's first anti-satellite test, in 2019?
+  ISRO | *DRDO | Indian Air Force | Defence Space Agency
+  x: Mission Shakti (27 March 2019) was a DRDO kinetic-kill ASAT test that destroyed Microsat-R.
+[n9416fa5ef8e] sub1
+  Which of the following pairs about ISRO's POEM platform is correctly matched?
+  *POEM-4 – SpaDeX/PSLV-C60 mission | POEM-4 re-entry – 4 April 2024 | POEM-4 – Chandrayaan-3 mission | POEM drag sails – re-entry within decades instead of months
+  x: POEM-4 belonged to the SpaDeX/PSLV-C60 mission and fell into the Indian Ocean on 4 April 2025; its inflatable sails make it re-enter within months rather than decades.
+[fd6fb003f1c8c] sub1
+  On which mission did POEM-4, which re-entered over the Indian Ocean on 4 April 2025, fly?
+  PSLV-C58 | *PSLV-C60 | PSLV-C62 | PSLV-C56
+  x: POEM-4 flew on PSLV-C60 (SpaDeX); PSLV-C62 planned a PS4 de-boost.
+[n1b996c3a5e5] sub2
+  Which of the following is NOT correct about space-sustainability challenges facing India?
+  Space debris threatens Gaganyaan and India's in-orbit satellites | Differences in national licensing conditions may push operators to permissive regimes | Mega-constellations are a newer challenge not adequately addressed by older treaties | *Existing treaties adequately address the cumulative harm caused by orbital debris
+  x: The treaties date from the 1960s–70s and do not adequately address cumulative debris harm or mega-constellations.
+[na890fb6684b] sub2
+  Which Article of the Outer Space Treaty deals with national responsibility, including for private actors?
+  Article IX | Article VII | *Article VI | Article II
+  x: Article VI deals with national responsibility; Article VII concerns liability and Article IX due regard and environmental considerations.
+[nd6b4333ce0c] sub2
+  Which of the following is identified as a significant legal gap in India's space sector?
+  Absence of a national space policy | *Absence of a Space Activities Act addressing liability | Non-membership of UNCOPUOS | Absence of a body to authorise private space activities
+  x: India does not have a Space Activities Act specifically addressing liability, which is identified as a significant legal gap.
+[nd3942f7e97f] sub2
+  In which year did India ratify the Outer Space Treaty of 1967?
+  1967 | 1975 | 1979 | *1982
+  x: India is a party to the Outer Space Treaty, which bars national appropriation of space, and ratified it in 1982.
+[n420d7d1b799] sub2
+  Which space treaty has India signed but not ratified?
+  Rescue Agreement (1968) | Registration Convention (1975) | Outer Space Treaty (1967) | *Moon Agreement (1979)
+  x: The Moon Agreement is the only one India has signed but not ratified.
+[n0b9413747f5] sub2
+  What is the nature of a launching State's liability under the Liability Convention, 1972, for damage caused by its space object?
+  *Absolute for damage on the Earth's surface and fault-based for damage in outer space | Fault-based for damage on the Earth's surface and absolute for damage in outer space | Absolute in all cases, whether the damage is on Earth or in outer space | Limited to damage caused by private operators only
+  x: The Liability Convention (1972), to which India is a party, makes the launching State absolutely liable for damage on the Earth's surface and liable only for fault for damage caused in outer space. Option B reverses the two rules. Option C ignores the fault standard in space. Option D is wrong because liability rests on the launching State, including for private activity.
+[f11a695b1c308] sub2
+  Which Article of the Outer Space Treaty deals with liability?
+  Article V | Article VI | *Article VII | Article IX
+  x: Article VII deals with liability; Article VI is national responsibility and Article IX due regard.
+[fc218c6d13633] sub2
+  On which principle is the Moon Agreement of 1979 based?
+  *Common heritage | Absolute liability | Return of astronauts | Registration with the UN
+  x: The Moon Agreement treats the Moon as common heritage; India signed but has not ratified it.
+[fde0baec89eca] sub2
+  In which year was the convention requiring space objects to be registered with the UN adopted?
+  1968 | 1972 | *1975 | 1979
+  x: The Registration Convention is of 1975; India is a party.
+[g2cb76cff44c5] sub2
+  Which of the following principles is laid down by the Outer Space Treaty of 1967?
+  *No national sovereignty over outer space | Common heritage of the Moon's resources | Absolute liability for damage on Earth | Registration of space objects with the UN
+  x: The Outer Space Treaty says no State can claim sovereignty over outer space; the other principles belong to the Moon Agreement, Liability and Registration Conventions.
+[ge3ba47a56f10] sub2
+  Which international agreement of 1968 deals with the return of astronauts?
+  Outer Space Treaty | *Rescue Agreement | Liability Convention | Registration Convention
+  x: The Rescue Agreement (1968) deals with the rescue and return of astronauts; India is a party.
+[n4e78878c99e] sub3
+  By which year does India aim to make all its space missions debris-free under its Debris Free Space Missions (DFSM) pledge?
+  *2030 | 2035 | 2040 | 2047
+  x: The DFSM target year is 2030; India made the pledge at the 2024 IADC meeting.
+[n7eaa7e929ad] sub3
+  Under India's 2026 re-entry rules, aircraft and ships must be warned at least how many days before re-entry?
+  30 days | *45 days | 15 days | 60 days
+  x: The 2026 rules require a warning at least 45 days before re-entry, not 30.
+[n874ab54eb2d] sub3
+  With what will the servicer craft of ISRO's planned Active Debris Removal mission capture a defunct rocket body?
+  A drag sail | An electrodynamic tether | A ground-based laser | *A robotic arm or net
+  x: The planned ADR mission uses a servicer craft with a robotic arm or net to capture a defunct Indian rocket body; it is being tested at URSC.
+[ned5c1ca8e5e] sub3
+  Which of the following is identified as a major gap in the international governance of orbital activities?
+  Absence of international interest in space debris | Absence of any national licensing system for satellites | *Absence of an international duty-of-care standard for orbits | Absence of all collision avoidance technology
+  x: There is no international duty-of-care standard for orbits. Differences in licensing conditions across countries can encourage operators to choose more permissive regimes.
+[gba350ae6b7be] sub3
+  At which forum did India pledge Debris Free Space Missions (DFSM) by 2030?
+  UNCOPUOS 2023 session | *2024 IADC meeting | Artemis Accords signing | Conference on Disarmament
+  x: India pledged DFSM by 2030 at the 2024 meeting of the Inter-Agency Space Debris Coordination Committee (IADC).
+[n42fe66a6fe3] sub4
+  Which of the following is a proposed way forward for a safer outer space?
+  Restricting the sharing of SSA data | Ending advance notices of space activities | Removing hotlines between space actors | *Wider sharing of space situational awareness data
+  x: More SSA data-sharing, along with advance notices and hotlines, is proposed for a safer outer space.
+[nbbfe71dd9b8] sub4
+  Which country declared a moratorium on destructive direct-ascent anti-satellite tests in April 2022?
+  China | France | India | *The United States
+  x: The United States declared the moratorium on destructive direct-ascent ASAT tests in April 2022, and the issue was subsequently taken up in a UNGA resolution.
+[n3f7dcfc406e] sub4
+  In which year was UNCOPUOS, of which India is a founding member, established?
+  1957 | *1959 | 1967 | 1972
+  x: The UN Committee on the Peaceful Uses of Outer Space was established in 1959, and India is a founding member.
+[n701512689e1] sub4
+  In which year was the Inter-Agency Space Debris Coordination Committee (IADC), of which ISRO is a member, established?
+  1959 | 1979 | *1993 | 2002
+  x: IADC was established in 1993 and ISRO is a member; India made its DFSM-2030 pledge at the 2024 IADC meeting.
+[n41b056327c0] sub4
+  In which year did India sign the Artemis Accords?
+  2020 | 2021 | *2023 | 2024
+  x: India signed in 2023; the US launched the Accords in 2020 as non-binding principles, and they now have over 60 signatories.
+[n051f348750c] sub4
+  What is the Prevention of an Arms Race in Outer Space (PAROS)?
+  a treaty governing aircraft warnings during re-entry | *a long-running agenda item of the UN Conference on Disarmament | a private debris-removal programme led by commercial firms | a bilateral satellite-navigation agreement between India and the United States
+  x: PAROS is a long-running agenda item in the UN Conference on Disarmament and is backed by UN General Assembly resolutions.
+[n14d17905e94] sub4
+  What did Prime Minister Narendra Modi advocate at the International Space Summit in Paris on 10 September 2026?
+  military control over commercial space | national ownership of all orbital regions | *cooperation over confrontation | competition over cooperation in outer space
+  x: The stated approach was 'cooperation over confrontation', with the aim of a safe, secure, peaceful and sustainable space domain anchored in international law.
+[fcba34dd3fdbb] sub4
+  In which year did the US launch the Artemis Accords, which India signed in 2023?
+  2017 | *2020 | 2023 | 2019
+  x: The US launched the non-binding Artemis Accords in 2020; India signed in 2023.
+[f9ccd2dd2a97c] sub4
+  Consider the following statements about the Artemis Accords:
+1. They are legally binding on signatories.
+2. India signed them in 2023.
+Which of the statements given above is/are correct?
+  1 only | *2 only | Both 1 and 2 | Neither 1 nor 2
+  x: The Accords are non-binding, so 1 is wrong; India signed them in 2023.
+
+=== NOTES 5:47 | Drdo – Vision, Mission, Structure, Major Laboratories and Technology Clusters
+## SUB 0 | Leadership – DRDO Chairman, Scientific Adviser and the Ministry of Defence
+[47:0:0] # DRDO Chairman (= Secretary, Department of Defence R&D)
+[47:0:1] TABLE head: Period | Chairman | Note
+  [47:0:1.0] May 2015 – Aug 2018 | Dr S. Christopher | DG when the SA post was separated (2015)
+  [47:0:1.1] Aug 2018 – Aug 2022 | Dr G. Satheesh Reddy | Missile scientist (RCI); native of Nellore, AP; 2019 AIAA Missile Systems Award
+  [47:0:1.2] Aug 2022 – 31 May 2026 | Dr Samir V. Kamat | Retired 31 May 2026
+  [47:0:1.3] From 1 June 2026 | Rajesh Kumar Singh | Defence Secretary, given additional charge as DRDO Chairman (still so in Nov 2026)
+[47:0:2] - **Secretary DDR&D = Chairman DRDO** – one person holds both posts; DRDO's parent is the **Department of Defence R&D**.
+[47:0:3] - **Three levels:** Level I **Chairman**; Level II **DG (Technology Clusters)** and **DG (Corporate)**; Level III **lab directors** (they report to the cluster DGs).
+[47:0:4] - **Satheesh Reddy:** B.Tech (ECE) **JNTU Anantapur**, M.S. and PhD **JNTU Hyderabad** (not IIT-Kharagpur); **Homi J. Bhabha Memorial Gold Medal**; known for indigenous missiles and avionics.
+[47:0:5] # Scientific Adviser to the Defence Minister (Raksha Mantri)
+[47:0:6] TABLE head: Period | Scientific Adviser
+  [47:0:6.0] 2009 – May 2013 | Dr V.K. Saraswat (also DRDO DG)
+  [47:0:6.1] 2013 – Jan 2015 | Dr Avinash Chander (also DRDO DG)
+  [47:0:6.2] May 2015 – Aug 2018 | Dr G. Satheesh Reddy (12th SA to RM)
+  [47:0:6.3] Aug 2022 – 30 June 2023 | Dr G. Satheesh Reddy again; no successor announced after his retirement
+[47:0:7] # Ministry of Defence
+[47:0:8] - **Administrative and operational control** of the armed forces lies with the **Ministry of Defence** (supreme command vests in the President).
+[47:0:9] - Departments: **Department of Defence**, **Department of Defence Production**, **Department of Defence R&D**, Department of Ex-Servicemen Welfare and (2020) **Department of Military Affairs** – there is **no "Department of Defence Finance"** (Defence Finance is a division).
+[47:0:10] - Defence Minister: **Rajnath Singh** (since May 2019); earlier **Nirmala Sitharaman** (Sep 2017 – May 2019).
+[47:0:11] > Chairman and SA questions are dated: key the person in office when asked, and remember the 2026 change (Kamat → Rajesh Kumar Singh).
+[47:0:12] ~~ Sources: Praveen CA-360 May 2026 magazine (src/current-affairs/praveen-ca360-2026-05-magazine.txt) p.71; octlatest daily CA 4 Nov 2026 p.3; web: en.wikipedia.org/wiki/G._Satheesh_Reddy, siasat.com (SA to RM post after Reddy's retirement); app notes 5:47 sub 1; WebSearch result headline (thehansindia.com, 30 May 2015: Reddy SA to RM, Christopher new DG DRDO); general knowledge, not checked (Saraswat, Avinash Chander tenures)
+## SUB 1 | Formation, Motto, Vision and Mission
+[47:1:0] - **Formed 1958** by amalgamating the **Technical Development Establishments (TDEs)** of the Indian Army, the **Directorate of Technical Development & Production (DTDP)** and the **Defence Science Organisation (DSO)** (not AEET Trombay).
+[47:1:1] - **DRDO = Defence Research and Development Organisation**; R&D wing of the **Ministry of Defence**; HQ **DRDO Bhawan, New Delhi**.
+[47:1:2] - **Motto: "Balasya Mulam Vigyanam"** – the source of strength is science (**not** Tejasvinavadhitamastu, Jagratam Aharnisham or Vayam Rakshamah).
+[47:1:3] - **Growth:** started with **10 establishments**; now about **41 laboratories and 5 DRDO Young Scientist Laboratories** (DRDO website; many books still say **about 52** labs, the pre-merger figure).
+[47:1:4] - **Vision:** empower the nation with state-of-the-art indigenous **defence and security** technologies (older wording: make India prosperous through a world-class S&T base and give the Services a decisive edge with internationally competitive systems).
+[47:1:5] - **Mission (three points):** (1) design, develop and lead to production **state-of-the-art sensors, weapon systems, platforms** and allied equipment; (2) **technological solutions** to optimise **combat effectiveness** and the **well-being of troops**; (3) **infrastructure, quality manpower and a strong indigenous technology base**. "Promote international collaboration" is **not** in the mission.
+[47:1:6] - **Achievements:** Agni and Prithvi missiles, LCA **Tejas**, **Pinaka** MBRL, **Akash** air defence, radars and EW systems.
+[47:1:7] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.49; web: drdo.gov.in/about-drdo (41 labs + 5 DYSLs); app notes 5:47 sub 0
+## SUB 2 | DRDO Products – UAVs, Herbal Spin-offs and Civil Use
+[47:2:0] TABLE head: Product | Fact
+  [47:2:0.0] Lakshya | India's first unmanned aircraft – a pilotless target aircraft by ADE, Bengaluru (not INS Viraat, a ship, or Sukhoi, a fighter)
+  [47:2:0.1] Netra mini-UAV | ~1.5 kg, for anti-terror and counter-insurgency, police and disaster use; DRDO Pune labs + IdeaForge (≠ Netra AEW&C, ≠ ISRO's Project NETRA)
+  [47:2:0.2] Lukoskin | Polyherbal product for leucoderma (DIBER) – ointment and oral liquid
+  [47:2:0.3] Amtooth / Eczit | Toothache / eczema herbal products
+  [47:2:0.4] Nocdurna | NOT a DRDO product – a desmopressin drug for night-time urination
+  [47:2:0.5] 2-DG | Anti-COVID drug, INMAS + Dr Reddy's
+  [47:2:0.6] Bio-toilets / snake repellent | DRDE Gwalior and DRL Tezpur / DRL Tezpur
+[47:2:1] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.50, p.52; PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.96 (Netra UAV, DRDO mini-UAV); app notes 5:47 sub 3, 5
+## SUB 3 | Academic Centres and Young Scientist Labs
+[47:3:0] - **JCBCAT** (Jagadish Chandra Bose Centre for Advanced Technology) – **Jadavpur University, Kolkata**, set up with **DRDO** (not ISRO, NASA, BARC or BEL).
+[47:3:1] - **DRDO Young Scientist Laboratories (DYSLs):** **5** labs (dedicated **2 Jan 2020**) in five futuristic areas – AI, quantum technology, cognitive, asymmetric technologies, smart materials (still 5 as of Oct 2024).
+[47:3:2] - **DIA-CoEs:** **15** DRDO Industry-Academia Centres of Excellence at IITs and IISc; **DIAT Pune** – DRDO-backed deemed university.
+[47:3:3] - **Agnishodh** – the **Indian Army's** research cell at **IIT Madras**.
+[47:3:4] - **College of Military Engineering (CME)** – **Dapodi, Pune**, an Army institution affiliated to **JNU** (not DRDO).
+[47:3:5] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.49, p.55; app notes 5:47 sub 4; general knowledge, not checked (CME Pune)
+## SUB 4 | Key Laboratories and Technology Clusters
+[47:4:0] TABLE head: Lab | Place | Field
+  [47:4:0.0] RCI – Research Centre Imarat | Hyderabad | Missile guidance, seekers, navigation, avionics
+  [47:4:0.1] DRDL (Defence Research and Development Laboratory) | Hyderabad | Missiles; lead lab of IGMDP; MPATGM
+  [47:4:0.2] ASL (Advanced Systems Laboratory) | Hyderabad | Agni series
+  [47:4:0.3] DMRL / DLRL | Hyderabad | Metals and armour / electronic warfare
+  [47:4:0.4] CVRDE | Chennai (Avadi) | Combat vehicles: Arjun; Muntra – DRDO's first unmanned tank
+  [47:4:0.5] ADE | Bengaluru | UAVs Rustom/TAPAS, Nishant and Lakshya
+  [47:4:0.6] CAIR / DEBEL | Bengaluru | AI, robotics / medical oxygen plant
+  [47:4:0.7] ARDE / HEMRL | Pune | Armaments, Pinaka / explosives, propellants
+  [47:4:0.8] DRDE | Gwalior | Chemical and biological defence
+  [47:4:0.9] DFRL | Mysuru | Food, MREs
+  [47:4:0.10] INMAS / DIPAS / SSPL | Delhi | Nuclear medicine, bike ambulance, CBRN Field Training Centre (trains MoD, MHA, NDMA staff) / soldier physiology at altitude and cold / solid-state physics
+  [47:4:0.11] LASTEC (Laser Science and Technology Centre) | Delhi (Metcalfe House) | Lasers (laser work now also at CHESS, Hyderabad)
+  [47:4:0.12] NSTL / NPOL / NMRL | Visakhapatnam / Kochi / Ambernath | Torpedoes / sonars / fuel-cell AIP
+[47:4:1] - **Full forms:** **DRDL** = Defence Research and Development Laboratory; **DMRL** = Defence Metallurgical Research Laboratory; **NSTL** = Naval Science and Technological Laboratory; **RCI** = Research Centre Imarat.
+[47:4:2] - **NAL** (Bengaluru) is a **CSIR** lab, not DRDO; **CABS** (DRDO) is in **Bengaluru**; **ADA** (designs LCA Tejas) is an autonomous MoD society.
+[47:4:3] TABLE head: Cluster (headed by a DG) | Labs
+  [47:4:3.0] Aeronautics | ADE, GTRE, CABS
+  [47:4:3.1] Missiles & Strategic Systems | DRDL, RCI, ASL
+  [47:4:3.2] Naval Systems & Materials | NSTL, NPOL, NMRL
+  [47:4:3.3] Armaments & Combat Engineering | ARDE, HEMRL
+  [47:4:3.4] Combat Vehicles | CVRDE, VRDE
+  [47:4:3.5] Electronics & Communication | LRDE, DLRL, DEAL, CAIR
+  [47:4:3.6] Life Sciences | DIPAS, DFRL, DEBEL, INMAS
+[47:4:4] > Hyderabad questions: the "national laboratory in Hyderabad" is **RCI** (NAL and CABS are Bengaluru, DRDE Gwalior).
+[47:4:5] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.50-55; app notes 5:47 sub 2-3; general knowledge, not checked (Muntra 2017, LASTEC Delhi)
+## SUB 5 | TDF, Technology Transfer and Budget
+[47:5:0] - **TDF:** MoD programme run by DRDO under **Make in India**; grants up to **₹50 crore** to MSMEs and start-ups.
+[47:5:1] - Since **2020** royalty-free patent access; **2,100+** free ToTs; DRDO test facilities open to private industry.
+[47:5:2] - **Aug 2026:** ToT of **Astra, Rudram, Nag, VSHORADS** to private industry approved; **Agni and K-series** stay in state production.
+[47:5:3] - DRDO tested **Gaganyaan crew-escape parachutes** for ISRO.
+[47:5:4] - **Budget 2026-27:** **₹29,100.25 crore** (2025-26: ₹26,816.82 crore).
+[47:5:5] ~~ Sources: app notes 5:47 sub 6
+## SUB 6 | DRDO in Andhra Pradesh
+[47:6:0] - **NSTL, Visakhapatnam:** **Varunastra** torpedo, mines, **SMART**.
+[47:6:1] - **Nagayalanka (Krishna district):** planned DRDO missile test range for tactical missiles.
+[47:6:2] - **Kurnool:** DRDO test range – MPATGM (2019), ULPGM-V3 trials.
+[47:6:3] - **Sri Sathya Sai district:** ADA flight-testing complex, ₹15,803 crore.
+[47:6:4] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.54; app notes 5:47 sub 7
+
+=== OWN MCQs of 5:47 (66)
+[n43d798ebb74] sub0
+  Which post does the Secretary, Department of Defence R&D, also hold?
+  Chief of Defence Staff | *Chairman, DRDO | Defence Secretary | DG (Corporate)
+  x: In the hierarchy, the Secretary DD R&D is also Chairman DRDO, above the Director Generals and lab directors.
+[n159b76954b1] sub0
+  Who is the Chairman of DRDO, as stated for February 2026?
+  Dr R. Chidambaram | Dr G. Satheesh Reddy | Dr S. Somanath | *Dr Samir V. Kamat
+  x: Dr Samir V. Kamat retired on 31 May 2026 — now Defence Secretary Rajesh Kumar Singh holds additional charge as DRDO Chairman (Praveen CA-360 May 2026 magazine (src/current-affairs/praveen-ca360-2026-05-magazine.txt) p.71; octlatest daily CA 4 Nov 2026 (src/current-affairs/octlatest-daily-em-ca-2026-11-04.txt) p.3)
+In February 2026 the DRDO Chairman was Dr Samir V. Kamat (since 2022); he retired on 31 May 2026 (now Rajesh Kumar Singh, additional charge).
+[ndc77f85daee] sub0
+  In DRDO's three-level leadership structure, who make up Level II?
+  *DG (Technology Clusters) and DG (Corporate) | Laboratory directors and corporate directorates | The Secretary, DDR&D, who is also Chairman of DRDO | The Defence Minister and the Secretary, DDR&D
+  x: Level I is the Secretary DDR&D and Chairman, Level II the two DGs, and Level III the lab directors and corporate directorates.
+[fcb4046933867] sub0
+  Which is DRDO's parent department under the Ministry of Defence?
+  Department of Defence Production | *Department of Defence Research and Development | Department of Military Affairs | Department of Ex-Servicemen Welfare
+  x: DRDO works under the Department of Defence R&D, whose Secretary is also Chairman of DRDO.
+[f7cf77ff46ec9] sub0
+  Since which year has Dr Samir V. Kamat been Chairman of DRDO?
+  2018 | 2020 | *2022 | 2024
+  x: Dr Samir V. Kamat retired on 31 May 2026 — now Defence Secretary Rajesh Kumar Singh holds additional charge as DRDO Chairman (Praveen CA-360 May 2026 magazine (src/current-affairs/praveen-ca360-2026-05-magazine.txt) p.71; octlatest daily CA 4 Nov 2026 (src/current-affairs/octlatest-daily-em-ca-2026-11-04.txt) p.3)
+Dr Samir V. Kamat became DRDO Chairman in August 2022, after Dr G. Satheesh Reddy; he retired on 31 May 2026 (now Defence Secretary Rajesh Kumar Singh holds additional charge).
+[f023c873bf656] sub0
+  Consider the following statements about DRDO's structure:
+1. The Secretary, Department of Defence R&D is also Chairman of DRDO.
+2. Lab directors report directly to the Defence Minister.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: The Secretary DDR&D is Chairman; lab directors report to their cluster Director General, so 2 is wrong.
+[g5df6e9b7c47c] sub0
+  Dr G. Satheesh Reddy, Chairman of DRDO from 2018 to 2022, is a native of which district of Andhra Pradesh?
+  *Nellore | Kurnool | Chittoor | Guntur
+  x: Dr G. Satheesh Reddy, former DRDO Chairman and Scientific Adviser to the Defence Minister, is a native of Nellore.
+[nd95ed977c52] sub1
+  Which of the following is NOT correct about DRDO?
+  It was formed in 1958 | It was formed by merging the TDEs, the DTDP and the Defence Science Organisation | *Its headquarters, DRDO Bhawan, is in Pune | It started with 10 laboratories and now runs about 52
+  x: DRDO Bhawan is in New Delhi.
+[nbf979403d75] sub1
+  In which field does DRDO's current vision seek to empower the nation with state-of-the-art indigenous technologies?
+  *defence and security | nuclear energy | space and satellite | information and communication
+  x: DRDO's current vision is to empower the nation with state-of-the-art indigenous defence and security technologies.
+[nb92d9ecaa34] sub1
+  Consider the following statements about the mission of DRDO:
+1. It includes building an indigenous technology base.
+2. It aims at optimising combat effectiveness and troop well-being.
+3. It is directed towards greater self-reliance and reduced import dependence.
+Which of the above statements is/are correct?
+  1 and 2 only | 2 and 3 only | 1 and 3 only | *1, 2 and 3
+  x: All three are elements of DRDO's mission, along with designing and developing sensors, weapons and platforms for the Services.
+[f166c180ef0fd] sub1
+  DRDO was formed in 1958 by merging the TDEs, the DTDP and which other body?
+  *Defence Science Organisation | Aeronautical Development Agency | Ordnance Factory Board | Department of Defence Production
+  x: DRDO came from merging the Army's TDEs, the DTDP and the Defence Science Organisation.
+[f268cebe7d6bd] sub1
+  In which year was DRDO formed?
+  1947 | *1958 | 1962 | 1969
+  x: DRDO was formed in 1958.
+[f922656736a41] sub1
+  DRDO began with 10 laboratories; about how many laboratories does it have now?
+  25 | 38 | *52 | 75
+  x: Most books / old notes: about 52 labs. Strictly (now): about 41 laboratories and 5 DYSLs (DRDO website; NextGen S&T Part 2 p.49).
+"about 52 laboratories" is the pre-merger count — now about 41 laboratories and 5 DRDO Young Scientist Laboratories (drdo.gov.in/about-drdo; NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.49)
+DRDO began with 10 laboratories and books long gave "about 52"; after mergers DRDO now lists about 41 laboratories plus 5 Young Scientist Labs (now ~41 + 5).
+[g2254b797a107] sub1
+  What does DRDO's motto 'Balasya Mulam Vigyanam' mean?
+  *The source of strength is science | Strength lies in unity | Science serves the soldier | Knowledge is power
+  x: DRDO's motto 'Balasya Mulam Vigyanam' means the source of strength is science.
+[n3c903f98daa] sub1
+  Which one of the following combinations contains only DRDO-designed systems identified as contributing to defence self-reliance?
+  Ariane, Soyuz, Falcon and Orion | INS Vikrant, INS Viraat, INS Khanderi and Admiral Gorshkov | Rafale, Apache, Chinook and C-130J | *Agni, Prithvi, Tejas, Pinaka and Akash
+  x: DRDO designed or contributed to systems including Agni, Prithvi, Tejas, Pinaka and Akash, forming part of the foundation of Aatmanirbharta in defence.
+[n156da04a235] sub2
+  With which company did INMAS develop the oral anti-COVID drug 2-DG?
+  *Dr Reddy's Laboratories | Bharat Biotech | Cipla | Serum Institute of India
+  x: 2-DG was developed by INMAS with Dr Reddy's Laboratories.
+[nc7e20b86288] sub2
+  What is NETRA, referred to in the context of civilian applications?
+  Airborne early-warning aircraft | Surface-to-surface missile guidance system | Naval sonar for underwater surveillance | *Mini-UAV for police and disaster management
+  x: NETRA or Netra V2 is a mini-UAV intended for police and disaster-management applications. It should not be confused with Netra AEW&C, the airborne early-warning aircraft.
+[fc53079779fa5] sub2
+  Which laboratories developed DRDO's bio-toilets?
+  INMAS Delhi and DIPAS Delhi | DFRL Mysuru and DEBEL Bengaluru | *DRDE Gwalior and DRL Tezpur | DIBER and NMRL
+  x: Bio-toilets come from DRDE Gwalior and DRL Tezpur.
+[f15b298418d2a] sub2
+  With which company did DRDO's Pune laboratories develop the Netra mini-UAV?
+  Digantara | Dr Reddy's | BISAG-N | *IdeaForge
+  x: Netra, a ~1.5 kg mini-UAV for police and disaster use, was built with IdeaForge; it is different from the Netra AEW&C.
+[f41a83efe08ca] sub2
+  For what is Amtooth, a DRDO herbal product, used?
+  Leucoderma | Eczema | *Toothache | Snake repellent
+  x: Amtooth treats toothache; Lukoskin is for leucoderma and Eczit for eczema.
+[g0be719f9220a] sub2
+  Which DRDO laboratory developed Lukoskin, a herbal product for leucoderma?
+  *DIBER | INMAS | DFRL | DIPAS
+  x: Lukoskin, used for leucoderma, was developed by DRDO's DIBER.
+[nd73258a87c1] sub3
+  Which one of the following pairs is NOT correctly matched?
+  DIA-CoEs — Premier academic institutions — Critical and futuristic defence technologies | JCBCAT — Jadavpur University, Kolkata | DIAT — Pune — DRDO’s deemed university | *DRDO Young Scientist Laboratories — 15 laboratories — Five futuristic areas
+  x: DRDO Young Scientist Labs are 5 labs in 5 futuristic areas, not 15; 15 is the number of DIA-CoEs. JCBCAT is at Jadavpur University, Kolkata and DIAT Pune is a deemed university, so those pairs are correct.
+[n04db5dbb391] sub3
+  How many DRDO Industry Academia Centres of Excellence (DIA-CoEs) have been set up at premier institutions such as IITs and IISc?
+  5 | 10 | *15 | 25
+  x: DIA-CoEs are a network of 15 centres at premier institutions working on critical and futuristic defence technologies.
+[n5831e85e515] sub3
+  With which of the following is the Agnishodh research cell associated?
+  *The Indian Army at IIT Madras | The Indian Air Force at IISc Bengaluru | The Indian Navy at IIT Delhi | DRDO at Jadavpur University
+  x: Agnishodh is the Indian Army's research cell at IIT Madras and links Army requirements with academic research and development.
+[f2be7d6125748] sub3
+  What kind of institution is DIAT Pune, supported by DRDO?
+  DRDO laboratory | *Deemed university | Central university | Autonomous MoD society
+  x: DIAT Pune is a deemed university.
+[fafc4abff2011] sub3
+  How many DRDO Young Scientist Labs were set up in 2020?
+  3 | *5 | 10 | 15
+  x: There are 5 Young Scientist Labs in 5 futuristic areas; 15 is the number of DIA-CoEs.
+[gbe29f24d6302] sub3
+  At which university was the Jagadish Chandra Bose Centre for Advanced Technology (JCBCAT) set up with DRDO?
+  University of Calcutta | *Jadavpur University | IISc Bengaluru | Visva-Bharati
+  x: JCBCAT was set up at Jadavpur University, Kolkata with DRDO's help.
+[ne3d94f478d0] sub4
+  Which of the following DRDO technology cluster–laboratory pairs is wrongly matched?
+  Aeronautics – ADE, ADRDE | *Naval Systems and Materials – GTRE, CABS | Missiles and Strategic Systems – DRDL, RCI, ASL | Combat Vehicles – CVRDE, VRDE
+  x: GTRE and CABS belong to the Aeronautics cluster; Naval Systems and Materials includes NSTL, NPOL and NMRL.
+[n5f8a2b08dc2] sub4
+  Which one of the following pairs is NOT correctly matched?
+  Life Sciences — DIPAS, DFRL, DEBEL, INMAS, DIPR | Armaments and Combat Engineering — ARDE, HEMRL | Electronics and Communication — LRDE, DLRL, DEAL, CAIR | *Combat Vehicles — LRDE, DLRL, DEAL, CAIR
+  x: LRDE, DLRL, DEAL and CAIR belong to the Electronics and Communication cluster. The Combat Vehicles cluster comprises CVRDE and VRDE.
+[n3d2d89c132b] sub4
+  Which of the following correctly represents the Hyderabad missile-laboratory cluster?
+  ARDE, HEMRL, NSTL, CAIR and ADE | LRDE, CVRDE, VRDE, DEAL and NPOL | DFRL, INMAS, DIPAS, DIPR and NMRL | *DRDL, RCI, ASL, DMRL and DLRL
+  x: DRDL, RCI, ASL, DMRL and DLRL are all located in Hyderabad. They cover missile development, guidance, ballistic missiles, materials and electronic warfare.
+[ff2f9a07bdd7a] sub4
+  DIPAS, DFRL, DEBEL and INMAS belong to which DRDO technology cluster?
+  Naval Systems & Materials | Electronics & Communication | Armaments | *Life Sciences
+  x: These four labs form the Life Sciences cluster.
+[ffb775529d980] sub4
+  CVRDE and VRDE form which DRDO technology cluster?
+  *Combat Vehicles | Armaments | Aeronautics | Missiles & Strategic
+  x: CVRDE and VRDE make up the Combat Vehicles cluster; ARDE and HEMRL are Armaments.
+[n6c4537eed58] sub4
+  Rustom/TAPAS BH-201, Nishant and Lakshya are associated with which DRDO laboratory?
+  *Aeronautical Development Establishment | Centre for Artificial Intelligence and Robotics | Advanced Systems Laboratory | Aeronautical Development Agency
+  x: The Aeronautical Development Establishment (ADE), Bengaluru works on UAVs such as Rustom/TAPAS BH-201, Nishant and the Lakshya target drone.
+[nb182c9fd57a] sub4
+  Personnel of which bodies are trained at the CBRN Field Training Centre under INMAS, Delhi?
+  MoD, MEA and ISRO | MoHFW, MEA and DAE | MHA, MoEFCC and NITI Aayog | *MoD, MHA and NDMA
+  x: The centre trains personnel of the Ministry of Defence, Ministry of Home Affairs and National Disaster Management Authority in CBRN preparedness.
+[n9bbbdd81264] sub4
+  Which Hyderabad DRDO laboratory works on electronic warfare?
+  DRDL | DMRL | *DLRL | ASL
+  x: DLRL is the electronic-warfare lab; DRDL develops missiles such as MPATGM, ASL handles Agni and DMRL works on metals and armour.
+[ne6bfccbf1a2] sub4
+  The Pinaka system was designed by which DRDO laboratory?
+  *ARDE, Pune | DRDL, Hyderabad | NSTL, Visakhapatnam | CVRDE, Chennai
+  x: ARDE, Pune (guns, ammunition, warheads) designed Pinaka, with HEMRL, Pune as partner.
+[ne0818342743] sub4
+  Where is DIPAS, the DRDO laboratory that studies soldier physiology at high altitude and in cold, located?
+  *Delhi | Dehradun | Leh | Pune
+  x: DIPAS is in Delhi; Dehradun hosts DEAL.
+[nfa508df9563] sub4
+  Which DRDO laboratory works on fuel-cell Air Independent Propulsion (AIP)?
+  NPOL, Kochi | *NMRL | LRDE, Bengaluru | CVRDE, Chennai
+  x: Fuel-cell AIP is NMRL's work; NPOL, Kochi works on sonars.
+[nfd74754191a] sub4
+  Which of the following is NOT correct about DRDO's naval laboratories?
+  NSTL is located at Visakhapatnam | NSTL works on torpedoes and mines | NPOL works on sonars | *NPOL is located at Visakhapatnam
+  x: NPOL is at Kochi; the Visakhapatnam laboratory is NSTL, which works on torpedoes and mines.
+[nd5c63312089] sub4
+  The bike ambulance was developed by which DRDO laboratory?
+  DEBEL | *INMAS | DRL, Tezpur | DIPR
+  x: INMAS developed the bike ambulance; DEBEL made the medical oxygen plant and DRL, Tezpur the snake repellent.
+[n509725ec88d] sub4
+  What is the status of the Aeronautical Development Agency (ADA), which designs the LCA Tejas with DRDO?
+  A DRDO laboratory | A Defence Public Sector Undertaking | *An autonomous society under the Ministry of Defence | A directorate of the Indian Air Force
+  x: ADA is an autonomous society under the Ministry of Defence, not itself a DRDO laboratory.
+[fae84d0e24256] sub4
+  Where is DFRL, DRDO's laboratory for food and MREs, located?
+  Hyderabad | *Mysuru | Pune | Bengaluru
+  x: DFRL is at Mysuru.
+[f72c34f47b22d] sub4
+  On what does CAIR, Bengaluru work?
+  Electronic warfare | Medical oxygen plants | *Artificial intelligence and robotics | Sonars
+  x: CAIR works on AI and robotics; DLRL is electronic warfare, DEBEL oxygen plants and NPOL sonars.
+[f22533193d488] sub4
+  The Agni series of missiles is handled by which Hyderabad laboratory?
+  DRDL | RCI | *ASL | DMRL
+  x: ASL handles the Agni series; DRDL develops MPATGM and RCI guidance and seekers.
+[fa504e2ca6d3e] sub4
+  In what does Research Centre Imarat (RCI), Hyderabad specialise?
+  *Guidance and seekers | Metals, alloys and armour | Explosives | Food technology
+  x: RCI works on guidance and seekers; DMRL handles metals and armour.
+[faf859e7651f2] sub4
+  Which of the following pairs is INCORRECTLY matched?
+  DFRL – Mysuru | NPOL – Kochi | DEAL – Dehradun | *CVRDE – Pune
+  x: CVRDE, which works on the Arjun tank, is at Chennai, not Pune.
+[gd65bbfa9de3f] sub4
+  Which Hyderabad laboratory of DRDO works on metals, alloys and armour?
+  DLRL | *DMRL | RCI | ASL
+  x: DMRL (Defence Metallurgical Research Laboratory), Hyderabad works on metals, alloys and armour.
+[gbcc25f5f4d9e] sub4
+  Which DRDO laboratory develops the MPATGM?
+  *DRDL, Hyderabad | ARDE, Pune | CAIR, Bengaluru | DEBEL, Bengaluru
+  x: DRDL, Hyderabad is DRDO's missile laboratory and works on the MPATGM.
+[g253b05063331] sub4
+  Which DRDO laboratory at Pune works on explosives?
+  ARDE | *HEMRL | CVRDE | DEAL
+  x: HEMRL, Pune works on explosives; ARDE, Pune works on guns and warheads (Pinaka).
+[gb564eef58bca] sub4
+  Which DRDO laboratory developed the Arjun tank?
+  VRDE, Ahmednagar | *CVRDE, Chennai | ARDE, Pune | DMRL, Hyderabad
+  x: CVRDE, Chennai is the combat-vehicle lab behind the Arjun main battle tank.
+[ge73f7b6628da] sub4
+  What is the full form of NSTL, the DRDO laboratory at Visakhapatnam?
+  National Ship Testing Laboratory | *Naval Science and Technological Laboratory | Naval Systems and Torpedo Laboratory | National Science and Technology Laboratory
+  x: NSTL = Naval Science and Technological Laboratory, Visakhapatnam; it developed the Varunastra torpedo.
+[gfd4e390d7ace] sub4
+  Match the following DRDO laboratories with their full forms:
+A. DRDL
+B. DMRL
+C. NSTL
+1. Naval Science and Technological Laboratory
+2. Defence Metallurgical Research Laboratory
+3. Defence Research and Development Laboratory
+Select the correct answer using the code given below:
+  *A-3, B-2, C-1 | A-2, B-3, C-1 | A-1, B-2, C-3 | A-3, B-1, C-2
+  x: DRDL = Defence Research and Development Laboratory; DMRL = Defence Metallurgical Research Laboratory; NSTL = Naval Science and Technological Laboratory.
+[f548b77636f2e] sub4
+  DRDO's medical oxygen plant technology comes from which Bengaluru laboratory?
+  CAIR | *DEBEL | ADE | DFRL
+  x: DEBEL, Bengaluru developed the medical oxygen plant.
+[nd5cba30bd56] sub5
+  Under which programme is the Technology Development Fund (TDF), a Ministry of Defence programme executed by DRDO, implemented?
+  Digital India | Skill India | Startup India | *Make in India
+  x: TDF is a Ministry of Defence flagship programme executed by DRDO under the Make in India initiative.
+[n4d367872116] sub5
+  What kind of access to DRDO patents has Indian industry got through Transfer of Technology since 2020?
+  reduced-royalty | *royalty-free | licence-fee-based | time-limited
+  x: Since 2020 access to DRDO patents is royalty-free; DRDO has given more than 2,100 free ToTs and opened its test facilities to the private sector.
+[nf56a57bb737] sub5
+  Which of the following groups consists only of conventional DRDO missiles approved for technology transfer to private industry in August 2026?
+  *Astra, Rudram, Nag and VSHORADS | Agni, K-series, Astra and Nag | Prithvi, Agni-Prime, K-series and Rudram | BrahMos, Agni, Rudram and VSHORADS
+  x: The approved conventional-missile group comprises Astra, Rudram, Nag and VSHORADS. Nuclear-capable Agni and K-series missiles remain in state production.
+[nd28d8ae867e] sub5
+  Under DRDO's Technology Development Fund, up to what amount may the grant to industry, including MSMEs and start-ups, extend?
+  ₹10 crore | ₹25 crore | *₹50 crore | ₹100 crore
+  x: TDF grants extend up to ₹50 crore to support co-development of emerging technologies.
+[naf047431685] sub5
+  DRDO assisted ISRO in testing which system associated with the Gaganyaan programme?
+  *Crew-escape parachute recovery system | Satellite navigation receiver | Deep-space communication antenna | Lunar soil sampling system
+  x: DRDO helped ISRO test the Gaganyaan crew-escape parachute recovery system.
+[fd2b202353e8a] sub5
+  More than how many free Transfers of Technology has DRDO given to Indian industry?
+  500 | 1,100 | *2,100 | 5,000
+  x: DRDO has given 2,100+ free ToTs and opened test facilities to the private sector.
+[fe05ba3eddb56] sub5
+  Under the August 2026 decision, which missiles stay in state production?
+  Astra and Rudram | *Agni and K-series | Nag and VSHORADS | Astra and Nag
+  x: Astra, Rudram, Nag and VSHORADS were approved for ToT; Agni and K-series stay in state production.
+[ga899e5122ffd] sub5
+  What is DRDO's budget allocation for 2026-27?
+  ₹17,250.25 crore | ₹23,855 crore | ₹26,816.82 crore | *₹29,100.25 crore
+  x: DRDO got ₹29,100.25 crore in 2026-27, up from ₹26,816.82 crore in 2025-26; ₹17,250.25 crore of it is for capital spending.
+[n46a6b59c65f] sub6
+  Nagayalanka in Krishna district is associated with which of the following?
+  A CBRN training centre for national agencies | A naval weapons laboratory for underwater batteries | An aircraft integration complex for flight testing | *A DRDO missile test range for flight trials of tactical missiles
+  x: Nagayalanka in coastal Krishna district is the site of DRDO's planned missile test range for flight trials of tactical missiles. NSTL Visakhapatnam is the naval weapons lab, the ADA flight-testing complex is in Sri Sathya Sai district, and the CBRN Field Training Centre is in Delhi.
+[n6a19e734727] sub6
+  Which DRDO laboratory is located at Visakhapatnam, Andhra Pradesh?
+  *NSTL | DRDL | RCI | NPOL
+  x: NSTL is at Visakhapatnam; other AP defence locations include the Kurnool test range, the planned Nagayalanka range and the ADA complex in Sri Sathya Sai district.
+[n935d3fe11ee] sub6
+  Near which place were the final trials of the ULPGM-V3 missile conducted?
+  Nagayalanka | *Kurnool | Visakhapatnam | Sri Sathya Sai district
+  x: The ULPGM-V3 final trials were done near Kurnool; Nagayalanka is a planned missile test range.
+[fc0d847942199] sub6
+  The ADA flight-testing complex costing ₹15,803 crore is planned in which Andhra Pradesh district?
+  Krishna | Kurnool | *Sri Sathya Sai | Visakhapatnam
+  x: The ADA flight-testing complex is planned in Sri Sathya Sai district.
+[f9a9c295b0886] sub6
+  Which of the following has NSTL, Visakhapatnam developed?
+  *Varunastra | Pinaka | Agni | Lakshya
+  x: NSTL develops Varunastra, mines and SMART; Pinaka is ARDE's.
+
+=== NOTES 5:48 | Integrated Guided Missile Development Programme – Prithvi, Agni, Akash, Trishul, Nag
+## SUB 0 | Agni Series – Ranges, Tests and Mission Divyastra
+[48:0:0] # Agni ("Fire") – India's surface-to-surface ballistic missiles
+[48:0:1] - Developed by **DRDO** (not ISRO); **solid-fuelled**; nuclear and conventional warheads; **fully indigenous**; operated by the **Strategic Forces Command**; a **long-range** missile family (~700 km to 5,000+ km).
+[48:0:2] - Only **Agni I–III** were developed within IGMDP; Agni-IV, V, P and VI are later projects.
+[48:0:3] TABLE head: Missile | Stages / fuel | Range | Key fact
+  [48:0:3.0] Agni-I | Single-stage solid | ~700 km (700–1,200 km) | Tested 9 Jan 2003 (Wheeler Island) and 28 Mar 2010 (700 km)
+  [48:0:3.1] Agni-II | Two (two-and-a-half) stage solid | ~2,000 km+ (2,000–2,500 km; NextGen 2,500 km) | MRBM, often loosely called an "ICBM" in old keys
+  [48:0:3.2] Agni-III | Two-stage solid | ~3,500 km (3,000–3,500 km) | First flight 9 Jul 2006 failed; 2007 and 2008 flights successful; tested Feb 2010
+  [48:0:3.3] Agni-IV | Two-stage solid, road-mobile | ~4,000 km (3,500–4,000 km) | Surface-to-surface IRBM (UPSC 2014: not liquid, not 7,500 km)
+  [48:0:3.4] Agni-V | Three-stage solid, canister | 5,000+ km | India's ICBM; tested 26 Dec 2016 from Wheeler (now APJ Abdul Kalam) Island; Dr Tessy Thomas
+  [48:0:3.5] Agni-P (Prime) | Two-stage solid, canister | 1,000–2,000 km | Rail-based launcher test, 24 Sep 2025
+  [48:0:3.6] Agni-VI | – | 8,000–10,000 km | Under development – the longest-range in any list
+[48:0:4] - **Mission Divyastra (11 Mar 2024):** first flight test of **Agni-V with MIRV** (Multiple Independently Targetable Re-entry Vehicle) technology.
+[48:0:5] - **ICBM threshold 5,500 km** → Agni-V (5,000 km) is formally on the IRBM/ICBM border; Agni-VI = full ICBM.
+[48:0:6] > Agni-V "not exclusively indigenous" is the WRONG statement (it is fully indigenous). Agni-II "ICBM with more than 2,000 km" is the old-key wording.
+[48:0:7] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.57; PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.57, p.64, p.66-68; web: armscontrol.org (Agni-I test 9 Jan 2003); app notes 5:48 sub 2
+## SUB 1 | The Five IGMDP Missiles – Types
+[48:1:0] TABLE head: Missile | Meaning | Type | Range
+  [48:1:0.0] Prithvi | Earth | Surface-to-surface SRBM (liquid) | 150–350 km (Prithvi-III 750 km)
+  [48:1:0.1] Agni | Fire | Surface-to-surface ballistic (solid) | ~700 to 5,000+ km
+  [48:1:0.2] Akash | Sky | Medium-range surface-to-air | ~25–30 km; Mach 2.5; 18 km altitude
+  [48:1:0.3] Trishul | Trident | Short-range, low-level surface-to-air | ~9 km (NextGen: 12 km)
+  [48:1:0.4] Nag | Cobra | 3rd-generation fire-and-forget anti-tank | 500 m – 4 km (land version)
+[48:1:1] - **Not IGMDP:** **BrahMos** (India-Russia), Astra, Shaurya, Nirbhay, Sagarika, Helina, Prahaar, Barak-8.
+[48:1:2] - **Not missiles:** **Pinaka** (multi-barrel **rocket** launcher, ARDE), **Arjun** (tank), Vajra (gun), Tejas (aircraft), Lakshya (target drone).
+[48:1:3] - **SLBM:** **K-4** (~3,500 km) and K-15 Sagarika – submarine-launched; Agni, Prithvi and Akash are land-based.
+[48:1:4] - Nag is the **shortest-range** of the five; **Prithvi** is the formal SRBM.
+[48:1:5] > Classic traps: Nag is **not** a SAM; Agni is **not** a sea-launched cruise missile; Trishul and Akash are the SAMs.
+[48:1:6] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.56-57; PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.57, p.62, p.68-70; app notes 5:48 sub 1, 7
+## SUB 2 | Nag Family – Fire-and-Forget Anti-tank Missiles
+[48:2:0] - **Nag:** third-generation **fire-and-forget anti-tank** guided missile; **IIR** (imaging infrared) seeker, night capable; 8 kg tandem **HEAT** warhead; range **500 m – 4 km**.
+[48:2:1] - **Fire-and-forget:** the missile guides itself after launch, so the operator can take cover. (Astra = air-to-air, Prahaar = tactical SSM, Akash = SAM.)
+[48:2:2] TABLE head: Variant | Role
+  [48:2:2.0] NAMICA | Tracked carrier (modified BMP-2) with up to six missiles; NAMIS = Nag Mk-2 "tank killer"
+  [48:2:2.1] HELINA / Dhruvastra | Helicopter-launched – Army / IAF
+  [48:2:2.2] MPATGM | Man-portable, ~2.5 km; DRDO flight-tested it at the Kurnool range (2019)
+  [48:2:2.3] SANT | Stand-off anti-tank, air-launched, 15–20 km; tested 11 Dec 2021 at Pokhran
+[48:2:3] - **Top attack:** climbs, then dives onto the tank's thin top armour.
+[48:2:4] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.57; PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.70; app notes 5:48 sub 5; general knowledge, not checked (SANT 11 Dec 2021 Pokhran; MPATGM Kurnool 2019)
+## SUB 3 | Prithvi and Dhanush
+[48:3:0] TABLE head: Variant | Service | Range / fact
+  [48:3:0.0] Prithvi-I | Army | 150 km, 1,000 kg; India's first indigenous ballistic missile
+  [48:3:0.1] Prithvi-II | Air Force | 350 km, 500–1,000 kg; nuclear-capable; first test 27 Jan 1996, Chandipur; inducted 2003
+  [48:3:0.2] Prithvi-III / Dhanush | Navy | 350–750 km; ship-launched short-range ballistic missile ("ship to ship / ship to shore")
+[48:3:1] - Prithvi = **liquid** fuel (Prithvi-III: solid first stage); three variants, not two.
+[48:3:2] - **Nov 2006:** a modified Prithvi (**PAD/Pradyumna**) intercepted a **Prithvi-II** target – India's first BMD interception; Prithvi-II itself is **not** an air-defence missile for metros. **PAD (Pradyumna)** = exo-atmospheric interceptor (50–80 km).
+[48:3:3] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.56; PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.57, p.62-63; app notes 5:48 sub 3
+## SUB 4 | Akash, Trishul and Their Successors
+[48:4:0] - **Akash:** medium-range **SAM**, targets up to **30 km**, Mach 2.5, 18 km altitude; Army + IAF; developed by **DRDO** (lead lab DRDL, Hyderabad).
+[48:4:1] TABLE head: Variant | Fact
+  [48:4:1.0] Akash Mk-I | ~25 km, Rajendra radar
+  [48:4:1.1] Akash Prime | Indigenous active RF seeker; first test 27 Sep 2021
+  [48:4:1.2] Akash-NG | ~70 km, canister-launched
+[48:4:2] - **Trishul:** short-range, low-level **SAM**; **programme shut down 27 Feb 2008** (never inducted) – the "shelved" missile; replaced by Spyder (IAF), Barak-1 (Navy), Akash (Army).
+[48:4:3] - **Akashteer** (BEL + Army) is an **air-defence control system**, not a missile.
+[48:4:4] - **QRSAM** (Quick Reaction SAM): indigenous successor; test-fired from **Chandipur** (ITR, Odisha) in **June–July 2017**.
+[48:4:5] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.57; PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.68-70; app notes 5:48 sub 4
+[48:4:6] - **Akash production:** developed by **DRDO**, produced by **Bharat Dynamics Ltd (BDL), Hyderabad** (radars by BEL).
+## SUB 5 | Test Ranges and MTCR
+[48:5:0] TABLE head: Range | State
+  [48:5:0.0] Dr APJ Abdul Kalam Island (ex-Wheeler Island, renamed 2015) | Off Odisha – Agni tests; AD-1 BMD interceptor (Nov 2022)
+  [48:5:0.1] ITR Chandipur, Balasore | Odisha – Prithvi-II (1996), QRSAM (2017)
+  [48:5:0.2] Pokhran | Rajasthan – SANT, Nag
+  [48:5:0.3] Kurnool DRDO range | Andhra Pradesh – MPATGM
+[48:5:1] - **MTCR:** India joined **June 2016** as the **35th member** (500 kg / 300 km); the USA had put **ISRO** on hold under MTCR in **May 1992**.
+[48:5:2] ~~ Sources: PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.66, p.72; app notes 5:48 sub 7
+## SUB 6 | Persons – Missile Man and Missile Woman
+[48:6:0] TABLE head: Person | Role
+  [48:6:0.0] Dr APJ Abdul Kalam | "Missile Man", father of India's missile technology, founder of the indigenous missile programme (led IGMDP); Chief Scientific Adviser at Pokhran-II (1998), not Pokhran-I; 11th President
+  [48:6:0.1] Dr Tessy Thomas | "Missile Woman" / "Agniputri"; Agni-IV and Agni-V
+  [48:6:0.2] V.K. Saraswat | Prithvi; BMD
+[48:6:1] - Not missile scientists in these keys: U.R. Rao (space), R. Chidambaram and Homi Bhabha (nuclear), Raja Ramanna (nuclear), M.G.K. Menon.
+[48:6:2] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.56; PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.62; app notes 5:48 sub 6
+## SUB 7 | IGMDP – Launch, Objectives, Phases and Closure
+[48:7:0] - **Launched 1983** by **DRDO** under **Dr APJ Abdul Kalam**; lead lab **DRDL, Hyderabad** (with RCI and ASL).
+[48:7:1] - **Objectives:** **self-sufficiency in missile technology**; a **family of strategic and tactical guided missiles**; competence across technologies, production and deployment. Being "the first country with an international missile market" was **not** an aim.
+[48:7:2] - **Five missiles:** **Prithvi, Agni, Akash, Trishul, Nag**.
+[48:7:3] TABLE head: Phase | Missiles
+  [48:7:3.0] 1984–89 | Prithvi, Trishul
+  [48:7:3.1] 1989–92 | Nag, Akash
+  [48:7:3.2] 1992–2008 | Agni matured
+[48:7:4] - **Closed 2008** after self-reliance was achieved; spin-offs: long-range tracking system, composites, **ring laser gyros**, radomes (not a satellite navigation constellation).
+[48:7:5] - **Significance:** turned India from a missile importer into a **missile-exporting** power and laid the base for Agni-V MIRV and BMD.
+[48:7:6] - **Aug 2026:** ToT of conventional missiles such as **Nag** to private industry; **Agni stays in state production**.
+[48:7:7] ~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.56; PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.62; app notes 5:48 sub 0
+
+=== OWN MCQs of 5:48 (65)
+[n338448e6b8f] sub0
+  What is Agni-VI in the context of India's missile programme?
+  *Proposed longer-range ICBM | Retired short-range missile | Short-range interceptor for endo-atmospheric defence | Naval version of Prithvi-II
+  x: Agni-VI is described as a proposed longer-range intercontinental ballistic missile.
+[n48dae472f15] sub0
+  Which force operates India's Agni missiles, built by DRDO?
+  Army Air Defence Corps | Indian Air Force alone | Indian Navy | *Strategic Forces Command
+  x: Agni is DRDO-built, fully indigenous and operated by the Strategic Forces Command.
+[n53458ef7c95] sub0
+  Which of the following describes Agni-I?
+  Two-stage liquid-fuel missile of about 2,000–3,000 km range | *Single-stage solid-fuel missile of about 700–800 km range | Single-stage liquid-fuel missile of about 150 km range | Three-stage solid-fuel missile of about 5,000 km range
+  x: Agni-I is a single-stage solid-fuel missile with a range of about 700–800 km and is approximately 15 metres long.
+[n66753ff1cef] sub0
+  How many stages does Agni-V, a solid-fuel, canister-launched missile, have?
+  four | two | *three | single
+  x: Agni-V is a three-stage solid-fuel, canister-launched missile with a stated range of 5,000 km or more; MIRV has been tested with it.
+[na5dbe418052] sub0
+  Which of the following pairs about the Agni series is correctly matched?
+  Agni-IV – Three-stage, canister-launched | Agni-III – About 4,000 km | Agni-V – Two-stage, road-mobile | *Agni-II – Two-stage solid-fuel missile
+  x: Agni-II is a two-stage solid-fuel missile (2,000–3,500 km). Agni-IV is two-stage and road-mobile (about 4,000 km), Agni-III has about 3,500 km range, and the three-stage canisterised missile is Agni-V.
+[nf3a81ce506e] sub0
+  From which platform was Agni-Prime test-fired on 24 September 2025?
+  Submarine | Ship | *Rail-based mobile launcher | Aircraft
+  x: Agni-Prime, a canisterised 1,000–2,000 km missile, was fired from a rail-based mobile launcher.
+[nbcfa86b6d5f] sub0
+  Mission Divyastra (2024) tested MIRV technology on which missile?
+  Agni-IV | *Agni-V | Agni-Prime | K-4
+  x: Mission Divyastra, conducted in 2024, flight-tested Agni-V with Multiple Independently targetable Re-entry Vehicles (MIRVs).
+[ncbb32aa51ce] sub0
+  What is the formal ICBM range threshold that places Agni-V's 5,000 km range in the IRBM class?
+  3,500 km | 5,000 km | *5,500 km | 8,000 km
+  x: The ICBM threshold cited is 5,500 km, so Agni-V is formally an IRBM, though some sources call it an ICBM.
+[ff9ca5dd21752] sub0
+  Which Agni variant is a two-stage, road-mobile missile with a range of about 4,000 km?
+  *Agni-IV | Agni-V | Agni-II | Agni-III
+  x: Agni-IV is two-stage and road-mobile with about 4,000 km range; Agni-V is three-stage with 5,000+ km.
+[nd9ef880d2b7] sub1
+  What is the range of Prithvi, a liquid-fuelled surface-to-surface short-range ballistic missile?
+  25–30 km | 700–1,200 km | *150–350 km | 2,000–3,000 km
+  x: Prithvi is a surface-to-surface SRBM with a range of 150–350 km and uses liquid fuel.
+[n9c185d9ab12] sub1
+  At about what speed does Akash, a medium-range surface-to-air missile, travel?
+  *Mach 2.5 | Mach 1.5 | Mach 4 | Mach 6
+  x: Akash is a medium-range SAM with a range of about 25-30 km, a speed of about Mach 2.5 and an altitude capability of 18 km.
+[n89bf05c0d91] sub1
+  Which missile has a range of about 25–30 km?
+  Trishul | Nag | *Akash | Agni
+  x: Akash, a medium-range SAM, has a range of about 25–30 km. Trishul reaches about 9 km, Nag 500 m to 4 km (land version), and Agni about 700 km to over 5,000 km.
+[fbd3cc1433512] sub1
+  Which of the following missile names is NOT correctly matched with its meaning?
+  Akash – Sky | *Trishul – Fire | Prithvi – Earth | Nag – Cobra
+  x: Trishul means Trident; it is Agni that means Fire.
+[f69f8679afa8a] sub1
+  Consider the following statements about Trishul:
+1. It is a short-range, low-level quick-reaction surface-to-air missile.
+2. Its range is about 9 km.
+3. It was inducted into the Army.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Trishul is a short-range quick-reaction SAM of about 9 km range, but it was never inducted and was shut in 2008.
+[n64b5b9a13ab] sub1
+  What is DRDO's Lakshya?
+  Multi-barrel rocket launcher | *Target drone | Surface-to-air missile | Light combat aircraft
+  x: Lakshya is a target drone; Pinaka is a rocket launcher, Tejas an aircraft and Nishant a UAV.
+[n2f6988aa5ce] sub1
+  With which country did India jointly develop BrahMos, which was not a missile of the IGMDP?
+  Israel | USA | *Russia | France
+  x: BrahMos was developed jointly by India and Russia; it was not part of the IGMDP.
+[nacb770d9cb3] sub2
+  HELINA is the helicopter-launched version of which missile?
+  Akash | Trishul | Prithvi | *Nag
+  x: HELINA is the helicopter-launched Nag, a fire-and-forget anti-tank missile.
+[n9c413a318dc] sub2
+  What is meant by the term 'fire-and-forget' in missile technology?
+  The missile is incapable of changing its course after launch. | *The missile can guide itself after launch, allowing the operator to take cover. | The missile is fired only after the target has been destroyed by another weapon. | The missile must remain continuously controlled by the operator until impact.
+  x: A fire-and-forget missile guides itself after launch, enabling the operator to seek cover or perform another task.
+[nfef67fe9622] sub2
+  Which one of the following pairs is NOT correctly matched?
+  SANT — Lock-On After Launch | Nag — Imaging Infra-Red seeker | Akash Prime — active RF seeker | *Nag — active RF seeker
+  x: Nag uses an Imaging Infra-Red seeker, whereas Akash Prime uses an active RF seeker and SANT uses Lock-On After Launch. Therefore, Nag with an active RF seeker is not correctly matched.
+[nfa05b856456] sub2
+  What is Nag Mk-2, the tracked fire-and-forget 'tank killer' approved for Army procurement, called?
+  HELINA | Dhruvastra | SANT | *NAMIS
+  x: NAMIS is the tracked Nag Mk-2; Dhruvastra is the IAF's helicopter-launched Nag, HELINA the Army Aviation version and SANT an air-launched stand-off ATGM.
+[nf78199a5290] sub2
+  For which service is HELINA, the helicopter-launched variant of the Nag missile, meant?
+  Indian Air Force | Coast Guard | Indian Navy | *Army Aviation
+  x: HELINA is the helicopter-launched Nag variant for Army Aviation, whereas Dhruvastra is intended for the Indian Air Force.
+[nee65fc4655d] sub2
+  Each Nag Missile Carrier (NAMICA) can carry up to how many missiles?
+  Four | Eight | Two | *Six
+  x: Each NAMICA, a tracked amphibious vehicle, can carry up to six Nag missiles.
+[n6a5ac3c8b4a] sub2
+  What does an anti-tank missile generally do in the top-attack mode?
+  Approaches at ground level and hits the side armour | *Climbs and then dives onto the tank's thinner top armour | Strikes the thick frontal armour head-on | Hits the tracks to immobilise the tank
+  x: In top attack, the missile climbs and then dives onto the tank's thinner top armour; Nag has both top-attack and direct-attack modes.
+[fcd48a68c9861] sub2
+  For which service is Dhruvastra, the helicopter-launched Nag variant, meant?
+  *Indian Air Force | Navy | Army Aviation | Coast Guard
+  x: HELINA is the Army Aviation version, while Dhruvastra is the IAF version.
+[fc87d86597c22] sub2
+  Which guidance mode does SANT, the air-launched stand-off anti-tank missile, use?
+  Lock-On Before Launch | Wire guidance | *Lock-On After Launch | Command guidance
+  x: SANT (15–20 km) uses Lock-On After Launch (LOAL).
+[fe95c65be8274] sub2
+  What is the range of the Nag-family MPATGM, a man-portable anti-tank missile?
+  15–20 km | 7–10 km | 25–30 km | *2.5 km
+  x: MPATGM reaches about 2.5 km; NAMIS reaches 7–10 km and SANT 15–20 km.
+[f8e0f0b804fe7] sub2
+  The Nag anti-tank missile uses which type of seeker?
+  Active RF | *Imaging infrared (IIR) | Passive radar | Laser beam-riding
+  x: Nag uses an IIR seeker; Akash Prime uses an active RF seeker.
+[n1289a739e71] sub3
+  Which was the first missile developed under the IGMDP?
+  Agni | *Prithvi | Nag | Trishul
+  x: Prithvi was the first IGMDP missile; Prithvi-I serves the Army and Prithvi-II the Air Force.
+[n9d4f984505b] sub3
+  Which type of fuel do Prithvi-I and Prithvi-II use?
+  solid | *liquid | hybrid | cryogenic
+  x: Prithvi-I and Prithvi-II use liquid fuel, whereas Agni-I uses solid fuel.
+[n1ead5f0015a] sub3
+  In which year was Prithvi-II, first tested in 1996, inducted?
+  1996 | 1999 | *2003 | 2008
+  x: Prithvi-II was inducted in 2003; the naval version is Dhanush.
+[nf340d5c187d] sub3
+  Which service operates Dhanush, the ship-launched version of the Prithvi missile?
+  Strategic Forces Command | *Navy | Air Force | Army
+  x: Dhanush (Prithvi-III) is the Navy's ship-launched Prithvi; Prithvi-I is the Army's 150 km version.
+[fa1626655833f] sub3
+  Which service operates Prithvi-II, the variant with a range of about 350 km?
+  *Air Force | Coast Guard | Army | Navy
+  x: Prithvi-II is the Air Force version; Prithvi-I is the Army's and Dhanush the Navy's.
+[ge5fa4d86a64b] sub3
+  What is PAD (Pradyumna) in India's missile programme?
+  *An exo-atmospheric interceptor | A ship-launched version of Prithvi | A road-mobile Agni variant | A man-portable anti-tank missile
+  x: PAD (Pradyumna) is an exo-atmospheric interceptor working at 50-80 km altitude.
+[gdba032723798] sub3
+  Which service operates the Prithvi-I missile?
+  *Army | Air Force | Navy | Coast Guard
+  x: Prithvi-I (150 km) is the Army version; Prithvi-II is for the Air Force and Dhanush for the Navy.
+[ncdb46c837b1] sub4
+  Which one of the following statements about Trishul is NOT correct?
+  Its commonly cited range is about 9 km. | *It was inducted into regular service after successful development. | It is a short-range, low-level surface-to-air missile. | It uses solid fuel with thrust vector control.
+  x: Trishul was never inducted into regular service and the programme was closed in 2008. It is a short-range low-level SAM using solid fuel with thrust vector control.
+[g56b020ffeb25] sub4
+  Which services use the Akash surface-to-air missile?
+  *Army and Air Force | Navy only | Navy and Coast Guard | Air Force only
+  x: Akash, a medium-range SAM of about 25-30 km, is used by the Army and the Indian Air Force.
+[n8ccab3d44f6] sub4
+  In which year was the Trishul surface-to-air missile programme shut down?
+  2003 | 2005 | *2008 | 2010
+  x: Trishul was never inducted; the programme was shut on 27 February 2008.
+[n8e3a67fbd28] sub4
+  On which date was Akash Prime, an upgraded Akash Mk-I with an indigenous active RF seeker, first tested?
+  27 September 2020 | *27 September 2021 | 27 February 2021 | 27 September 2022
+  x: Akash Prime was first tested on 27 September 2021.
+[n6a12a10e0b4] sub4
+  What is the approximate range of the canister-launched Akash-NG?
+  40 km | *70 km | 120 km | 150 km
+  x: Akash-NG has a range of about 70 km and was cleared for induction in 2023 for the Army and IAF.
+[n13e541d7c09] sub4
+  In the context of Trishul's replacement, which pair of service and missile system is correctly matched?
+  Indian Navy – Akash | Indian Army – Barak-1 | *Indian Air Force – Israeli Spyder | Indian Air Force – Barak-1
+  x: The Indian Air Force was associated with Israeli Spyder, the Navy with Barak-1 and the Army with Akash.
+[na0871e4df8c] sub4
+  Which is the later indigenous short-range successor to Trishul?
+  BrahMos | Prithvi | Barak-1 | *QRSAM
+  x: QRSAM, or Quick Reaction Surface-to-Air Missile, is the later indigenous short-range successor to Trishul.
+[fff0dd6d115e1] sub4
+  Which radar does Akash Mk-I use for command guidance?
+  Akashteer | *Rajendra | Swordfish | Phalcon
+  x: Akash Mk-I relies on command guidance and the Rajendra radar.
+[g4ef26cef7caf] sub4
+  What is Akashteer, developed by BEL with the Indian Army?
+  A surface-to-air missile | *An air-defence control system | An anti-tank missile | A target drone
+  x: Akashteer is an air-defence control system, not a missile.
+[n56a11f51df5] sub5
+  Off the coast of which state does Dr APJ Abdul Kalam Island, used for missile trials, lie?
+  Andhra Pradesh | West Bengal | *Odisha | Tamil Nadu
+  x: Dr APJ Abdul Kalam Island is off the Odisha coast; ranges on the AP and Odisha coasts support sea-skimming trials such as LRAShM.
+[n23c8ba2e60f] sub5
+  What was Dr APJ Abdul Kalam Island formerly known as?
+  Chandipur Island | Pokhran Island | Abdul Kalam Atoll | *Wheeler Island
+  x: Dr APJ Abdul Kalam Island was formerly known as Wheeler Island and lies off the Odisha coast.
+[n201f1227f37] sub5
+  Which one of the following pairs is correctly matched?
+  *Pokhran Field Firing Range — Rajasthan | DRDO range near Kurnool — Odisha | Dr APJ Abdul Kalam Island — Rajasthan | Integrated Test Range, Chandipur — Andhra Pradesh
+  x: The Pokhran Field Firing Range is in Rajasthan. The Kurnool DRDO range is in Andhra Pradesh, while Chandipur and Dr APJ Abdul Kalam Island are in Odisha.
+[n4237423168c] sub5
+  As which member did India join the Missile Technology Control Regime (MTCR) in June 2016?
+  34th member | *35th member | 36th member | 30th member
+  x: India entered the MTCR in June 2016 as its 35th member, which eased its BrahMos exports and high-tech imports.
+[ffb10c89afea8] sub5
+  The Kurnool DRDO missile range is located in which state?
+  Telangana | *Andhra Pradesh | Rajasthan | Odisha
+  x: The Kurnool DRDO range is in Andhra Pradesh; Chandipur and Kalam Island are in Odisha.
+[f522c08848ae2] sub5
+  The Integrated Test Range (ITR) at Chandipur is in which district of Odisha?
+  *Balasore | Jaisalmer | Puri | Kurnool
+  x: ITR Chandipur lies in Balasore district, Odisha.
+[faa8ae02d2d18] sub5
+  In May 1992, the USA put which Indian organisation on hold under the MTCR?
+  HAL | BEL | DRDO | *ISRO
+  x: The US placed ISRO on hold under the MTCR in May 1992.
+[g6d7f581fbf18] sub5
+  The Missile Technology Control Regime (MTCR), which India joined in 2016, mainly controls missiles able to carry what payload over what range?
+  *500 kg over 300 km | 300 kg over 500 km | 1,000 kg over 1,000 km | 500 kg over 3,000 km
+  x: MTCR covers missiles that can carry 500 kg over 300 km; India joined in June 2016 as the 35th member.
+[n0909d88a39a] sub6
+  By what name is Dr Tessy Thomas, who played a key role in Agni-V, popularly called?
+  Rocket Woman of India | Iron Lady of DRDO | Space Woman of India | *Agniputri
+  x: Dr Tessy Thomas, the 'Missile Woman of India', played a key role in Agni-V and is called 'Agniputri'.
+[f1c071a7de287] sub6
+  V.K. Saraswat is associated with which part of India's missile programme?
+  Agni-V | *Prithvi and BMD | Akash and Trishul | Nag and HELINA
+  x: V.K. Saraswat worked on Prithvi and the Ballistic Missile Defence programme.
+[ff4313cc49c29] sub6
+  Dr APJ Abdul Kalam served as Chief Scientific Adviser at which event?
+  Mission Divyastra (2024) | *Pokhran-II (1998) | Pokhran-I (1974) | Mission Shakti (2019)
+  x: Kalam was CSA at Pokhran-II in 1998, not Pokhran-I.
+[g40edd0fd6d86] sub6
+  Who is known as the 'Missile Man' of India?
+  V.K. Saraswat | *APJ Abdul Kalam | Satish Dhawan | Tessy Thomas
+  x: APJ Abdul Kalam, who led the IGMDP, is called the 'Missile Man'; Tessy Thomas is the 'Missile Woman'.
+[gb4c8abf67804] sub6
+  APJ Abdul Kalam, leader of the IGMDP, served as which President of India?
+  9th | 10th | *11th | 12th
+  x: Dr APJ Abdul Kalam was the 11th President of India (2002-07).
+[n86bdb413548] sub6
+  Which of the following is NOT correct about Dr A.P.J. Abdul Kalam?
+  He was project director of SLV-III | SLV-III, under his direction, launched Rohini | He was the first Indian Head of State to fly a fighter aircraft | *He was Chief Scientific Adviser at the 1974 Pokhran-I test
+  x: Kalam was Chief Scientific Adviser at Pokhran-II in 1998, not Pokhran-I in 1974.
+[nefd18a80cb8] sub7
+  Under the IGMDP, which missile was developed during the 1992–2008 phase?
+  Prithvi | Nag | *Agni | Trishul
+  x: Prithvi and Trishul were developed in 1984–89, Nag and Akash in 1989–92, and Agni in 1992–2008.
+[n32ce6f9373c] sub7
+  Which was the nodal laboratory of the Integrated Guided Missile Development Programme (IGMDP)?
+  ARDE, Pune | HEMRL, Pune | NSTL, Visakhapatnam | *DRDL, Hyderabad
+  x: DRDL, Hyderabad was the nodal lab, working with RCI and ASL; IGMDP was launched in 1983 under Kalam.
+[n6f4c3956794] sub7
+  Under the Ministry of Defence approval, to whom is the technology of conventional missiles such as Nag transferred?
+  *Private industry | Foreign companies | ISRO | State-run firms only
+  x: Conventional missiles, including Nag, go to private industry, while Agni remains in state production.
+[ne0a9de3f972] sub7
+  Which one of the following is NOT an identified spin-off of the IGMDP?
+  *Satellite-based navigation constellation | Ring laser gyros | Long-range tracking system | Radomes
+  x: Long-range tracking systems, composites, ring laser gyros and radomes were identified as IGMDP spin-offs. A satellite-based navigation constellation is not included in this list.
+[n2b7bd4e4fc9] sub7
+  Why is the Integrated Guided Missile Development Programme regarded as significant?
+  Ended all missile development in India after the completion of Prithvi. | *Turned India from a missile importer into a missile-exporting power and formed a base for later Agni-V MIRV, BMD and BrahMos-era programmes. | Restricted India to importing surface-to-air missiles from foreign suppliers. | Was created exclusively for developing civilian launch vehicles.
+  x: The IGMDP transformed India from a missile importer into a missile-exporting power and provided the foundation for Agni-V MIRV, ballistic missile defence and BrahMos-era programmes.
+[f1eeaddd09d80] sub7
+  In which year was the Integrated Guided Missile Development Programme (IGMDP) officially completed?
+  2003 | *2008 | 2012 | 1998
+  x: IGMDP ran from 1983 and was officially completed in 2008; later missiles became separate projects.
+[ge8ec92dbcb10] sub7
+  In which year was the Integrated Guided Missile Development Programme launched?
+  1974 | *1983 | 1992 | 1998
+  x: IGMDP was launched in 1983 under Dr APJ Abdul Kalam and was officially completed in 2008.
+[g0c5163fcdc06] sub7
+  Which missiles were developed in the first phase (1984-89) of the IGMDP?
+  *Prithvi and Trishul | Nag and Akash | Agni and Nag | Akash and Agni
+  x: Prithvi and Trishul came in the first phase (1984-89); Nag and Akash in 1989-92; Agni matured by 2008.
+
+=== NOTES 5:49 | Missiles Beyond Igmdp – Brahmos, Nirbhay, Astra, Pralay, Hypersonic Technology, Mission Shakti (asat)
+## SUB 0 | BrahMos – India-Russia Supersonic Cruise Missile
+[49:0:0] # Partnership and name
+[49:0:1] - **Joint venture of India and Russia:** **DRDO 50.5%** + **NPO Mashinostroyeniya (NPOM), Russia 49.5%** = **BrahMos Aerospace**, created by an Inter-Governmental Agreement signed in **Moscow, 1998** (not USA, France, Israel, Japan, China).
+[49:0:2] - **Name:** **Brahmaputra** (India) + **Moskva** (Russia) rivers – "BRAHMOS", not Brahmastra.
+[49:0:3] - **Production:** missiles are integrated at the **BrahMos Integration Complex, Kanchanbagh, Hyderabad** (first production unit; later Thiruvananthapuram, and **Lucknow** – BrahMos Integration and Testing Facility, inaugurated **11 May 2025**). Not Bangalore, Mumbai, Ludhiana or Dehradun.
+[49:0:4] # Type and technical features
+[49:0:5] TABLE head: Item | Fact
+  [49:0:5.0] Type | Supersonic cruise missile (not ballistic, not ICBM); one of the world's fastest cruise missiles
+  [49:0:5.1] Speed | Mach 2.8–3.0 (~3,400–3,700 km/h)
+  [49:0:5.2] Role | Essentially anti-ship, also land-attack; not anti-aircraft, not anti-tank
+  [49:0:5.3] Propulsion | Solid booster → liquid ramjet
+  [49:0:5.4] Navigation | Inertial + satellite; fire-and-forget from a Transport Launch Canister
+  [49:0:5.5] Range | 290 km originally → 400–450 km after India joined MTCR (2016); BrahMos-ER 450–800 km. Never 1,200 km
+  [49:0:5.6] Platforms | Land, ship, submarine and air (Su-30MKI) – not "only submarines"; in service with Army, Navy and Air Force
+[49:0:6] - **Variants:** BrahMos-ER (extended range); **BrahMos-NG** – lighter (~1.5 t vs 2.5 t), for Tejas, smaller warships, submarines, ~Mach 3.5; **BrahMos-II** – planned **hypersonic** (above Mach 5, up to Mach 7–8), scramjet.
+[49:0:7] # Tests and milestones
+[49:0:8] TABLE head: Date | Event
+  [49:0:8.0] 12 June 2001 | First successful test, Chandipur, Odisha
+  [49:0:8.1] 12 Feb 2003 | Third test flight
+  [49:0:8.2] 13 June 2004 | 7th launch from a mobile launcher; can locate an enemy ship 290 km away
+  [49:0:8.3] 2005 | First version inducted into the Navy (INS Rajput)
+  [49:0:8.4] Jan and 29 March 2009 | Land-attack Block-II tests at Pokhran, Rajasthan (Mobile Autonomous Launcher)
+  [49:0:8.5] 21 March 2010 | Fired from moving warship INS Ranvir, Bay of Bengal, off Odisha
+  [49:0:8.6] March 2017 | Extended-range (~400 km) test
+  [49:0:8.7] 17 Dec 2019 | Test from ITR Chandipur
+  [49:0:8.8] May 2025 | First reported combat use – Operation Sindoor
+[49:0:9] # Exports
+[49:0:10] - **Philippines** – first export customer: **US$375 million** deal (**January 2022**) for **three batteries** of shore-based anti-ship BrahMos; first batch delivered **April 2024**. Export range about **290 km** (so "490 km" is false).
+[49:0:11] - **UAE**: BrahMos and Akashteer only in **early-stage talks** (23 Jun 2026) – nothing delivered.
+[49:0:12] > Most-asked missile of the topic: partner country (**Russia**) ×7, "supersonic cruise" ×5, NOT-correct statements (range, platforms) ×4, test sites.
+[49:0:13] ~~ Sources: PMF S&T Part 6 p.52, p.72-73; web: brahmos.com press release 156 (Integration Complex, Hyderabad); app notes 5:49 sub 1, sub 8
+## SUB 1 | Foreign Missiles and Partner Countries
+[49:1:0] # India's partners
+[49:1:1] TABLE head: System | Partner / origin
+  [49:1:1.0] BrahMos | Russia (JV)
+  [49:1:1.1] Barak-1 | Israel; anti-missile point defence bought for the Navy; first deployed on INS Virat
+  [49:1:1.2] Barak-8 / MRSAM | Israel – DRDO + Israel Aerospace Industries; "Barak" = lightning in Hebrew; ~70–100 km; vs aircraft, helicopters, anti-ship and cruise missiles, UAVs; 2017 Army MRSAM deal with IAI; Army version tested 3–4 Apr 2025
+  [49:1:1.3] Spyder | Israel (Rafael); used by IAF; replaced Trishul
+  [49:1:1.4] Meteor | Ramjet BVR air-to-air missile of MBDA (Europe), bought from France with the Rafale
+  [49:1:1.5] Maitri SR-SAM | France: talks concluded 14 Feb 2013 (Hollande visit) to co-develop a surface-to-air missile (~US$6 billion)
+  [49:1:1.6] R-73 Archer, S-400 | Russia
+[49:1:2] # Foreign missiles → country
+[49:1:3] TABLE head: Missile | Country | Note
+  [49:1:3.0] Abdali (Hatf-II) | Pakistan | Short-range SSM; test-fired 26 March 2003, hours after India's Prithvi test
+  [49:1:3.1] Babur-3 | Pakistan | Submarine-launched cruise missile, ~450 km, first test Jan 2017
+  [49:1:3.2] Sajjil-2 | Iran | Solid-fuel MRBM (~2,000 km)
+  [49:1:3.3] Shahab | Iran | Ballistic missile series
+  [49:1:3.4] Fattah | Iran | Claimed hypersonic (2023)
+  [49:1:3.5] Hwasong (e.g. Hwasong-14) | North Korea | ICBM/IRBM series; 2017 launches flew over Japan
+  [49:1:3.6] Dongfeng-5C | China | ICBM tested Jan 2017 with 10 dummy warheads (MIRV)
+  [49:1:3.7] Zircon | Russia | Ship-launched hypersonic cruise
+  [49:1:3.8] Kinzhal | Russia | Air-launched hypersonic; Patriot intercepted six over Kyiv (May 2023)
+  [49:1:3.9] Minuteman III | USA | ICBM, land leg of the US triad
+  [49:1:3.10] THAAD | USA | Terminal High Altitude Area Defence – Lockheed Martin hit-to-kill anti-ballistic-missile system; deployed in South Korea (2017)
+[49:1:4] - Debate (30 Jun 2026): long-range missiles (Agni, Nirbhay LR-LACM, BrahMos) not yet fully integrated.
+[49:1:5] > Barak → **Israel** asked 5 times (UPSC 2008 ×3, UPPCS 2016); THAAD → **American** (UPSC 2018 ×2).
+[49:1:6] ~~ Sources: PMF S&T Part 6 p.75, p.103, p.111; WebSearch results: dawn.com (Abdali, 26 Mar 2003), missilethreat.csis.org (Babur-3), globalsecurity.org (Maitri 2013), thestatesman.com (DF-5C 2017); app notes 5:49 sub 8
+## SUB 2 | Astra and Nirbhay
+[49:2:0] # Astra (BVRAAM)
+[49:2:1] - India's **first indigenous Beyond Visual Range Air-to-Air Missile** (DRDO); all-weather, day-night; **active radar seeker**. So Astra = **air-to-air** (not surface-to-surface, surface-to-air or air-to-surface).
+[49:2:2] - BVR = beyond about 20 nautical miles (37 km).
+[49:2:3] - First successfully tested **9 May 2003, Balasore**; ballistic flight test at ITR **Chandipur, 20 May 2011**.
+[49:2:4] TABLE head: Variant | Facts
+  [49:2:4.0] Astra Mk-1 | 80–110 km (max ~110 km head-on), Mach 4.5, up to 20 km altitude; on Su-30MKI, Tejas
+  [49:2:4.1] Astra Mk-2 | ~160–200 km, dual-pulse solid motor
+  [49:2:4.2] Astra Mk-3 'Gandiva' | Under development, SFDR engine, 300–350+ km
+[49:2:5] - **23 August 2023:** LCA **Tejas (LSP-7)** test-fired Astra off **Goa**; **12 March 2025:** fired from an LCA AF Mk1 prototype.
+[49:2:6] - **Export:** **Indonesia** – Astra Mk-1 deal Jul 2026, first-ever Astra export.
+[49:2:7] # Nirbhay and ITCM
+[49:2:8] - **Nirbhay:** India's first indigenous **long-range subsonic cruise missile** (land-attack, LR-LACM) – **not supersonic**.
+[49:2:9] - Range **~1,000 km**; **turbojet**; about **Mach 0.8**; conventional or **nuclear** warheads; **terrain-hugging**; surface-to-surface; seen as India's counter to Pakistan's **Babur**.
+[49:2:10] - Flight-tested **7 November 2017** from **ITR Chandipur**.
+[49:2:11] - **ITCM** (Indigenous Technology Cruise Missile): Nirbhay successor, **'Manik' small turbofan** by **GTRE**; Jun 2026: family now called **LR-LACM**.
+[49:2:12] > Astra is asked as "air-to-air / first BVR" ×8; Nirbhay as "subsonic" (the wrong statement is always "supersonic").
+[49:2:13] ~~ Sources: PMF S&T Part 6 p.52, p.61, p.75; app notes 5:49 sub 2
+## SUB 3 | Shaurya, Rudram and Other New Indian Missiles
+[49:3:0] TABLE head: Missile | Type / role
+  [49:3:0.0] Rudram-I | India's first indigenous anti-radiation missile, air-to-surface, from Su-30MKI, ~150–200 km; homes on radar emissions to destroy enemy radars and communication sites
+  [49:3:0.1] Shaurya | Canister-launched, hypersonic, nuclear-capable surface-to-surface (quasi-)ballistic missile by DRDO's ASL, Hyderabad; tested 12 Nov 2008 and 24 Sep 2011; ~700–800 km with 1,000 kg (variants up to ~1,900 km); max speed Mach 7.5
+  [49:3:0.2] Pralay | Quasi-ballistic short-range SSM, 150–500 km, conventional warhead, manoeuvrable re-entry; salvo of two fired 31 Dec 2025
+  [49:3:0.3] Trishul | IGMDP short-range quick-reaction SAM, supersonic (~Mach 2), tested from Chandipur; discontinued
+  [49:3:0.4] VSHORADS | DRDO (RCI, Hyderabad) 4th-generation man-portable air-defence system (MANPADS); DAC-approved buy Jul 2026
+  [49:3:0.5] VL-SRSAM | Vertical-launch short-range SAM for Navy ships, derived from Astra
+  [49:3:0.6] QRSAM | Quick Reaction SAM, Army's mid-range IADWS layer against low-flying threats
+  [49:3:0.7] MPATGM | Man-portable, third-generation, fire-and-forget ATGM; DAC approval Jul 2026
+  [49:3:0.8] Prahaar | ~150 km tactical ballistic missile
+  [49:3:0.9] LRGB 'Gaurav' | 1,000 kg glide bomb, ~100 km, from Su-30MKI (Apr 2025)
+  [49:3:0.10] Pinaka LRGR-120 | 120 km guided rocket; first flight 29 Dec 2025
+  [49:3:0.11] NASM-SR | First indigenous helicopter-launched anti-ship missile, IIR seeker
+  [49:3:0.12] NASM-MR | Anti-ship missile; maiden flight 14 Jun 2026
+[49:3:1] - Shaurya traps: range is **not 900 km** and not more than 1,600 km; speed is **not more than Mach 8**.
+[49:3:2] - A **ballistic** missile is a trajectory class – the radar-killer is the **anti-radiation** missile.
+[49:3:3] ~~ Sources: PMF S&T Part 6 p.52, p.57, p.68-69, p.75; app notes 5:49 sub 3
+## SUB 4 | Mission Shakti – India's ASAT Test
+[49:4:0] TABLE head: Item | Fact
+  [49:4:0.0] Date | 27 March 2019
+  [49:4:0.1] Conducted by | DRDO (under the BMD programme); target launched by ISRO – often asked as "joint DRDO–ISRO"
+  [49:4:0.2] Launch site | Dr APJ Abdul Kalam Island, Odisha
+  [49:4:0.3] Interceptor | DRDO PDV Mk-II (direct-ascent kinetic kill)
+  [49:4:0.4] Target | Live satellite Microsat-R (DRDO; launched by PSLV-C44, Jan 2019)
+  [49:4:0.5] Orbit | Low Earth Orbit, ~283 km (282–300 km)
+  [49:4:0.6] Rank | 4th ASAT nation, after USA, Russia, China
+  [49:4:0.7] Debris | Low LEO chosen so debris decays quickly – there was debris
+[49:4:1] - APPSC G1 2022: "destroyed a live satellite in LEO" and "fourth country" are **correct**; "done in the upper atmosphere to ensure no debris" is **wrong**; "hits targets at 50 km/s at 2,000 km" is **not true**.
+[49:4:2] - **Mission Shakti (2019 ASAT) ≠ Operation Shakti (1998 Pokhran-II).**
+[49:4:3] ~~ Sources: PMF S&T Part 2 p.74-75; PMF S&T Part 1 p.101; PMF Internal Security & DM Part 2 p.36; app notes 5:49 sub 6
+## SUB 5 | Missile Classes, FOBS and Hypersonic Technology
+[49:5:0] # Ballistic vs cruise
+[49:5:1] TABLE head: Feature | Ballistic missile | Cruise missile
+  [49:5:1.0] Power | Rocket-powered only in the boost phase | Air-breathing (jet), powered throughout
+  [49:5:1.1] Path | High parabolic (free-fall) arc | Flies low, constant speed, aerodynamic lift
+  [49:5:1.2] Examples | Agni, Prithvi, Pralay, Shaurya | BrahMos, Nirbhay
+[49:5:2] - UPSC 2023: "ballistic = jet-propelled subsonic; cruise = rocket only at start" and "Agni-V cruise, BrahMos ICBM" are **both wrong** (neither).
+[49:5:3] TABLE head: Class | Speed | Indian example
+  [49:5:3.0] Subsonic | Below Mach 1 | Nirbhay
+  [49:5:3.1] Supersonic | Mach 1–5 | BrahMos (Mach 2.8–3.0)
+  [49:5:3.2] Hypersonic | Above Mach 5 | BrahMos-II (planned), LR-AShM, HSTDV
+[49:5:4] # Terms
+[49:5:5] TABLE head: Term | Meaning
+  [49:5:5.0] FOBS (Fractional Orbital Bombardment System) | Warhead put into a (fractional) low Earth orbit, then de-orbits over the target; can come from any direction (e.g. over the South Pole); Soviet Cold War concept
+  [49:5:5.1] HGV (Hypersonic Glide Vehicle) | Rocket-boosted, then glides at Mach 5+ and manoeuvres in the upper atmosphere; hard to intercept
+  [49:5:5.2] MIRV | One missile, several warheads, different targets; first Indian test on Agni-V in Mission Divyastra (11 March 2024), not K-4
+  [49:5:5.3] Scramjet | Supersonic combustion, no rotating parts; uses air, does not carry its oxidiser
+  [49:5:5.4] SFDR (Solid Fuel Ducted Ramjet) | Uses atmospheric air; demonstrated from ITR Chandipur; for long-range air-to-air missiles
+[49:5:6] # Indian hypersonic systems
+[49:5:7] - **HSTDV:** indigenous **scramjet** demonstrator; flew above **Mach 6**; scramjet combustion and thermal protection above **2,000°C**; combustor run over 12 minutes (Jan 2026). Not a submarine-launched missile.
+[49:5:8] - **16 November 2024:** first flight-trial of India's first long-range hypersonic missile.
+[49:5:9] - **LR-AShM:** hypersonic **glide anti-ship** missile for Navy coastal batteries; **~1,500 km**; **peak Mach 10**, average Mach 5 via "skipping"; at the 77th Republic Day Parade; **AP coast ranges** used for validation rounds (Jan 2026).
+[49:5:10] ~~ Sources: PMF S&T Part 6 p.54, p.66-67, p.76; PMF S&T Part 7 p.6-7; app notes 5:49 sub 0, sub 4
+
+=== OWN MCQs of 5:49 (62)
+[n5b146a66e6d] sub0
+  What is DRDO's share in BrahMos Aerospace?
+  49.5% | *50.5% | 51% | 74%
+  x: DRDO holds 50.5% and Russia's NPO Mashinostroyeniya 49.5%.
+[nc9f27d80c38] sub0
+  Where did BrahMos have its first successful test on 12 June 2001?
+  Sriharikota, Andhra Pradesh | *Chandipur, Odisha | Pokhran, Rajasthan | Kurnool, Andhra Pradesh
+  x: BrahMos, a supersonic cruise missile of about Mach 2.8–3.0, was first successfully tested at Chandipur, Odisha.
+[n37837482888] sub0
+  Which engine follows the solid booster in BrahMos?
+  Turbojet | Scramjet | Solid fuel ducted ramjet | *Liquid ramjet
+  x: BrahMos has a solid booster and a liquid ramjet, combines inertial and satellite navigation, and is canister-launched in fire-and-forget mode.
+[n93e28480ec6] sub0
+  Which BrahMos variant is a planned hypersonic missile capable of speeds above Mach 5?
+  *BrahMos-II | BrahMos-A | BrahMos-NG | BrahMos-ER
+  x: BrahMos-II is the planned hypersonic variant; BrahMos-NG is a lighter version for platforms such as Tejas.
+[n3d48a889988] sub0
+  During which operation was BrahMos reportedly used in combat for the first time?
+  Operation Vijay | Operation Meghdoot | Operation Cactus in 1988 | *Operation Sindoor in May 2025
+  x: The first reported combat use of BrahMos was during Operation Sindoor in May 2025.
+[nfee502d9128] sub0
+  Where is the BrahMos Integration and Testing Facility, inaugurated on 11 May 2025, located?
+  Hyderabad | *Lucknow | Nagpur | Chandipur
+  x: The BrahMos Integration and Testing Facility at Lucknow (in the UP defence corridor) was inaugurated on 11 May 2025, with the first batch flagged off within five months. Hyderabad and Nagpur are other defence-industry centres, and Chandipur is the test range where BrahMos was first tested in 2001.
+[f9c70580709f3] sub0
+  Where was the Inter-Governmental Agreement that created BrahMos Aerospace signed in 1998?
+  New Delhi | Lucknow | *Moscow | Hyderabad
+  x: The India-Russia IGA was signed in Moscow in 1998 and created BrahMos Aerospace.
+[f796a6168b5b1] sub0
+  Which BrahMos variant is lighter (about 1.5 t) and meant for Tejas, smaller warships and submarines?
+  BrahMos-ER | BrahMos-II | BrahMos Block-II | *BrahMos-NG
+  x: BrahMos-NG weighs about 1.5 t against 2.5 t of the base missile; BrahMos-II is the planned hypersonic one.
+[gbcc399579a90] sub0
+  From the names of which two rivers is the name 'BrahMos' derived?
+  *Brahmaputra and Moskva | Brahmani and Moskva | Brahmaputra and Volga | Brahmani and Don
+  x: BrahMos joins the Brahmaputra of India and the Moskva of Russia, the two partner countries.
+[gfe22fe2b6944] sub0
+  BrahMos Aerospace is a joint venture of DRDO and which Russian company?
+  Rosoboronexport | *NPO Mashinostroyeniya | Almaz-Antey | Sukhoi
+  x: BrahMos Aerospace is owned by DRDO (50.5%) and NPO Mashinostroyeniya (NPOM) of Russia (49.5%).
+[gd35319dc47b1] sub0
+  What type of missile is BrahMos?
+  Subsonic cruise missile | *Supersonic cruise missile | Intercontinental ballistic missile | Air-to-air missile
+  x: BrahMos is a supersonic cruise missile flying at Mach 2.8–3.0.
+[g47c40ecf43ef] sub0
+  After India joined which regime in 2016 was the range of BrahMos raised beyond 290 km?
+  Nuclear Suppliers Group | *Missile Technology Control Regime | Wassenaar Arrangement | Australia Group
+  x: MTCR limits missile exports above 300 km; after India joined MTCR in 2016 BrahMos range was raised towards about 450 km.
+[gee242bb0be51] sub0
+  From which moving warship was BrahMos fired on 21 March 2010 off the Odisha coast?
+  *INS Ranvir | INS Virat | INS Arighaat | INS Kalvari
+  x: On 21 March 2010 BrahMos was fired from the moving warship INS Ranvir in the Bay of Bengal.
+[gbed37f4483c7] sub0
+  What is the speed of the BrahMos supersonic cruise missile?
+  *Mach 2.8–3.0 | Mach 5–7 | Mach 10 | Mach 0.8–0.9
+  x: BrahMos is a supersonic cruise missile flying at Mach 2.8–3.0 (about 3,400–3,700 km/h).
+[g263e51d03839] sub0
+  From which fighter aircraft is the air-launched BrahMos fired?
+  MiG-29 | Jaguar | *Su-30MKI | Mirage 2000
+  x: BrahMos can be launched from land, ship, submarine and air; its air platform is the Su-30MKI.
+[ne840c2416a6] sub0
+  Which of the following is NOT correct about India's missile exports?
+  The Philippines is India's first BrahMos export customer | BrahMos deliveries to the Philippines began in 2024 | *BrahMos and Akashteer have already been delivered to the UAE | The Astra Mk-1 deal with Indonesia (July 2026) is the first Astra-family export
+  x: With the UAE, BrahMos and Akashteer talks are only at an early stage; nothing has been delivered.
+[f26e8bb5aadf7] sub0
+  Which country was the first export customer of BrahMos?
+  Indonesia | UAE | *Philippines | Israel
+  x: The Philippines signed a $375 million deal (January 2022) for three batteries; the first batch was delivered in April 2024.
+[gea9ccdf7f6a9] sub0
+  In which year did the Philippines sign the $375 million deal to buy shore-based BrahMos missiles from India?
+  2024 | 2020 | 2019 | *2022
+  x: The Philippines signed the $375 million BrahMos deal in January 2022; the first batch was delivered in April 2024.
+[g5d8233af6bd9] sub0
+  How many batteries of shore-based anti-ship BrahMos does the Philippines deal of January 2022 cover?
+  Two | Five | *Three | Four
+  x: The $375 million deal is for three batteries of shore-based anti-ship BrahMos.
+[ne8ad2142017] sub1
+  Which of the following describes the Minuteman III?
+  A Pakistani 450 km surface-to-surface missile | *An American ICBM forming the land leg of the US nuclear triad | A Russian air-launched hypersonic missile | An Iranian claimed hypersonic missile
+  x: Minuteman III is a United States intercontinental ballistic missile and forms the land leg of the US nuclear triad.
+[n52f7d4ecc2e] sub1
+  Which is Russia's ship-launched hypersonic missile?
+  Kinzhal | Hwasong | *Zircon | Fattah
+  x: Zircon is ship-launched; Kinzhal is air-launched. Hwasong is North Korean and Fattah Iranian.
+[na6045ced6f2] sub1
+  Which one of the following groups contains only missiles associated with Russia?
+  Abdali, Minuteman III and Kinzhal | Barak-1, Spyder and Barak-8 | *BrahMos, R-73 Archer and S-400 | Shahab, Fattah and Hwasong
+  x: BrahMos is a joint venture with Russia, while R-73 Archer and S-400 are Russian systems. The other groups contain missiles associated with Israel, Iran, North Korea, Pakistan or the United States.
+[n6e6fba9201d] sub1
+  Which one of the following pairs is NOT correctly matched?
+  R-73 Archer — Russia | Barak-8/MRSAM — Israel | Barak-1 — Israel | *Spyder — Iran
+  x: Spyder is an Israeli system used by the Indian Air Force and replaced Trishul. Iran is associated with Shahab and Fattah, not Spyder.
+[f0a2b36b648fa] sub1
+  Which of the following pairs of missile and country is correctly matched?
+  Fattah – Russia | *Hwasong – North Korea | Abdali – Iran | Shahab – North Korea
+  x: Hwasong is North Korea's; Shahab and Fattah are Iran's and Abdali is Pakistan's.
+[f1fdf89021388] sub1
+  From which platform is Kinzhal, Russia's hypersonic missile, launched?
+  Submarines | *Aircraft | Ships | Ground silos
+  x: Kinzhal is air-launched; Zircon is Russia's ship-launched hypersonic cruise missile.
+[fde0f1c69d973] sub1
+  What does the word 'Barak' in Barak-8, a missile developed with Israel, mean?
+  *Lightning | Thunder | Shield | Arrow
+  x: 'Barak' means Lightning in Hebrew; Barak-8/MRSAM is a DRDO–IAI medium-range SAM.
+[g09519e54a583] sub1
+  On which ship was the Barak-1 missile system first deployed in the Indian Navy?
+  INS Vikrant | *INS Virat | INS Ranvir | INS Arihant
+  x: Barak-1, bought from Israel for the Navy, was first deployed on the aircraft carrier INS Virat.
+[n371b98f8255] sub2
+  Which engine powers Nirbhay, India's subsonic long-range land-attack cruise missile?
+  Scramjet | Liquid ramjet | *Turbojet | Solid fuel ducted ramjet
+  x: Nirbhay is turbojet-powered; the liquid ramjet belongs to the supersonic BrahMos.
+[n819397cbbd8] sub2
+  Which propulsion system powers Astra Mk-3 'Gandiva'?
+  *Solid fuel ducted ramjet (SFDR) | Scramjet | Dual-pulse solid motor | Turbojet
+  x: Gandiva uses an SFDR with range of 350+ km; the dual-pulse solid motor powers Astra Mk-2.
+[n7565d12b82a] sub2
+  Which engine powers the Indigenous Technology Cruise Missile (ITCM), successor to Nirbhay?
+  Kaveri turbofan engine | Solid fuel ducted ramjet | *Manik small turbofan engine | Scramjet engine
+  x: ITCM is the successor to Nirbhay and is powered by the indigenous Manik small turbofan engine developed by GTRE.
+[fe4a5af49988d] sub2
+  What is the range of Astra Mk-1, carried on the Su-30MKI?
+  350+ km | *80–110 km | 200 km | 20–37 km
+  x: Astra Mk-1 reaches 80–110 km; Mk-2 about 200 km and Mk-3 'Gandiva' 350+ km.
+[g6d587dbc9c08] sub2
+  What is the range of Nirbhay, India's subsonic long-range land-attack cruise missile?
+  About 290 km | About 500 km | *About 1,000 km | About 3,500 km
+  x: Nirbhay is a turbojet-powered subsonic cruise missile with a range of about 1,000 km.
+[nd92ccdd97c6] sub2
+  To which family of missiles does Astra, developed by DRDO with an active radar seeker, belong?
+  *Beyond-visual-range air-to-air missiles | Anti-radiation missiles | Surface-to-air missiles | Anti-tank guided missiles
+  x: Astra is a DRDO-developed family of beyond-visual-range air-to-air missiles using an active radar seeker.
+[f5507d9fb0d9f] sub2
+  Which country signed the deal for the first-ever export of the Astra Mk-1 missile (July 2026)?
+  UAE | Russia | *Indonesia | Philippines
+  x: Indonesia's July 2026 deal is the first-ever Astra export; the Philippines bought BrahMos.
+[nf9aeb37eee6] sub3
+  Which one of the following is NOT correctly matched?
+  MPATGM — Third-generation fire-and-forget anti-tank guided missile | Prahaar — About 150 km tactical ballistic missile | *LRGB Gaurav — 120 km guided rocket | VSHORADS — Man-portable air-defence system against low-altitude threats
+  x: LRGB Gaurav is a 1,000 kg glide bomb with a range of about 100 km, released from the Su-30MKI. The 120 km guided rocket is Pinaka LRGR-120.
+[nfc98fbcd16c] sub3
+  Which is India's first indigenous anti-radiation missile, designed to home passively on radar emissions?
+  Pralay | QRSAM | *Rudram-I | VSHORADS
+  x: Rudram-I is India's first indigenous anti-radiation missile. It passively homes on radar emissions to destroy enemy radars and communication sites.
+[n0132505fab1] sub3
+  Which one of the following missiles is a canister-launched, hypersonic, nuclear-capable surface-to-surface tactical missile with a range of about 700–1,900 km?
+  Rudram-II | *Shaurya | Prahaar | Pralay
+  x: Shaurya is a canister-launched hypersonic surface-to-surface tactical missile with a range of about 700–1,900 km and nuclear capability.
+[n026c7fb4849] sub3
+  What is the stated range of Pralay, a quasi-ballistic short-range surface-to-surface missile?
+  *150–500 km | 25–30 km | 700–1,200 km | 1,000–2,000 km
+  x: Pralay has a 150–500 km range, a conventional warhead and manoeuvrable re-entry capability.
+[fdfc229d7e65c] sub3
+  From which missile is VL-SRSAM, the vertical-launch short-range SAM for Navy ships, derived?
+  Nirbhay | *Astra | BrahMos | Pralay
+  x: VL-SRSAM is derived from the Astra air-to-air missile.
+[f5c905c780602] sub3
+  Which missile forms the Army's mid-range layer of the integrated air defence weapon system against low-flying threats?
+  *QRSAM | Pralay | VSHORADS | Rudram-I
+  x: QRSAM (Quick Reaction SAM) is the Army's mid-range IADWS layer; VSHORADS is man-portable.
+[g9b2e4b7cd443] sub3
+  Which is India's first indigenous helicopter-launched anti-ship missile?
+  *NASM-SR | Rudram-I | LR-AShM | Prahaar
+  x: NASM-SR (Naval Anti-Ship Missile – Short Range) is the first indigenous helicopter-launched anti-ship missile, with an IIR seeker.
+[gc267d52283d9] sub3
+  Which DRDO laboratory developed the canister-launched Shaurya missile?
+  High Energy Materials Research Laboratory (HEMRL) | Combat Vehicles Research and Development Establishment (CVRDE) | Armament Research and Development Establishment (ARDE) | *Advanced Systems Laboratory (ASL)
+  x: Shaurya, a canister-launched hypersonic surface-to-surface missile, was developed by DRDO's ASL, Hyderabad.
+[gcfea19c751d7] sub3
+  In which city is the Advanced Systems Laboratory (ASL) of DRDO, which developed the Shaurya missile, located?
+  Bengaluru | *Hyderabad | Pune | Chennai
+  x: ASL, the DRDO lab that developed Shaurya, is in Hyderabad.
+[n80edd873e68] sub4
+  When was Mission Shakti, the joint DRDO–ISRO anti-satellite test, conducted?
+  11 March 2019 | *27 March 2019 | 27 March 2018 | 11 May 2019
+  x: It was conducted on 27 March 2019; Microsat-R was hit in low LEO (~283 km) so the debris would decay quickly.
+[n777fd1d84d3] sub4
+  In Mission Shakti, the live satellite Microsat-R was destroyed by which DRDO interceptor?
+  AAD (Ashwin) | AD-1 | *PDV Mk-II | Akash-NG
+  x: A DRDO PDV Mk-II interceptor destroyed the live satellite Microsat-R during Mission Shakti.
+[n5d0495adb20] sub4
+  India became the fourth country to demonstrate an anti-satellite capability. Which of the following shows the three countries that preceded India?
+  USA, France and Japan | China, United Kingdom and France | Russia, China and Israel | *USA, Russia and China
+  x: India became the fourth country with demonstrated ASAT capability after the USA, Russia and China.
+[f7915b2157555] sub4
+  At what altitude in Low Earth Orbit was the target satellite destroyed in Mission Shakti?
+  83 km | 783 km | 583 km | *283 km
+  x: Microsat-R was hit at about 283 km in low LEO, chosen so that debris decays quickly.
+[fac65b1128879] sub4
+  Which launch vehicle put Microsat-R, the target of Mission Shakti, into orbit in January 2019?
+  PSLV-C51 | GSLV-F10 | PSLV-C37 | *PSLV-C44
+  x: Microsat-R, a DRDO satellite, was launched by PSLV-C44 in January 2019.
+[ff8119d57e494] sub4
+  Which of the following is NOT correct about Mission Shakti?
+  *It was done in the upper atmosphere to ensure no debris | It used the DRDO PDV Mk-II interceptor | It was a joint DRDO–ISRO effort | It destroyed a live satellite in Low Earth Orbit
+  x: The test was in low LEO (~283 km) so debris would decay quickly; 'upper atmosphere, no debris' is wrong.
+[na6edb3232cd] sub4
+  Which of the following pairs is wrongly matched?
+  Rudram – First indigenous anti-radiation missile | Philippines – First BrahMos buyer | *Mission Shakti – Made India the third country to demonstrate an ASAT capability | Indonesia – First Astra buyer
+  x: Mission Shakti made India the fourth country, not the third, to demonstrate an ASAT capability.
+[ndfde582b6f3] sub5
+  Which type of missile stays powered throughout its flight and uses aerodynamic lift at relatively low altitude?
+  Sounding rocket | Ballistic missile | Hypersonic glide vehicle | *Cruise missile
+  x: A cruise missile is powered throughout; a ballistic missile is powered mainly in boost phase and then follows a high parabolic arc.
+[n01a27baf709] sub5
+  Which of the following characterises a scramjet engine?
+  Subsonic combustion after the air is slowed down | *Supersonic combustion and no rotating parts | Carrying all the oxygen needed for combustion | A turbine-driven rotating compressor
+  x: A scramjet uses supersonic combustion and has no rotating compressor or turbine parts; unlike a rocket, it does not carry its oxidiser.
+[n7a4c9c60761] sub5
+  For which of the following is Solid Fuel Ducted Ramjet (SFDR) technology mainly intended?
+  short-range submarine-launched missiles | *long-range air-to-air missiles | exo-atmospheric ballistic interceptors only | satellite launch vehicles
+  x: SFDR uses atmospheric air for combustion and was demonstrated from ITR Chandipur for application in long-range air-to-air missiles.
+[n96b4c1876a0] sub5
+  Which of the following is NOT correct about MIRV and Mission Divyastra?
+  *Mission Divyastra used the K-4 missile | Mission Divyastra used the Agni-V missile | A MIRV lets one missile carry several warheads aimed at different targets | Mission Divyastra was India's first MIRV flight test
+  x: Mission Divyastra used Agni-V, not K-4; K-4 is a submarine-launched missile.
+[n0f0dbaeaa3e] sub5
+  Which of the following Indian missiles is subsonic?
+  BrahMos | BrahMos-II | Astra Mk-1 | *Nirbhay
+  x: Nirbhay is subsonic; BrahMos is supersonic and BrahMos-II is hypersonic.
+[f3e0fa3b7a7f7] sub5
+  What is a vehicle that is rocket-boosted, then glides at Mach 5+ and manoeuvres in the upper atmosphere called?
+  MIRV | *Hypersonic Glide Vehicle (HGV) | FOBS | SFDR
+  x: An HGV glides at Mach 5+ after a rocket boost and is hard to intercept.
+[n6c9a38c7629] sub5
+  On which date was the first flight-trial of India's long-range hypersonic missile reported?
+  11 March 2024 | 7 November 2017 | 23 August 2023 | *16 November 2024
+  x: India's first reported flight-trial of the long-range hypersonic missile took place on 16 November 2024.
+[naa392915f9d] sub5
+  Above which speed is a missile called hypersonic?
+  Mach 2 | *Mach 5 | Mach 10 | Mach 3
+  x: Hypersonic means faster than Mach 5; a Hypersonic Glide Vehicle glides at Mach 5+ while manoeuvring.
+[n6ae14d61cb7] sub5
+  Consider the following statements about India's HSTDV:
+1. It flew at above Mach 6.
+2. It validated scramjet combustion and thermal protection above 2,000°C.
+3. It is a submarine-launched missile with a range of 3,500 km.
+Which of the above statements are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: HSTDV flew at above Mach 6 and validated scramjet combustion and thermal protection above 2,000°C; it is not a submarine-launched missile.
+[n739f987a476] sub5
+  What is the peak speed of India's long-range hypersonic anti-ship missile, which uses skipping manoeuvres?
+  Mach 3 | *Mach 10 | Mach 15 | Mach 5
+  x: It reportedly peaks at about Mach 10, with an average speed of about Mach 5.
+[n9aa08609b8a] sub5
+  For which purpose were the ranges along the Andhra Pradesh coast used in January 2026?
+  Testing of the Astra export configuration | *Validation rounds of LRAShM | Demonstration of the first indigenous anti-radiation missile | Transfer-of-technology trials for VSHORADS
+  x: Ranges along the Andhra Pradesh coast were used for LRAShM validation rounds.
+[gc62fed04db02] sub5
+  What is the approximate range of LR-AShM, India's hypersonic glide anti-ship missile for Navy coastal batteries?
+  About 750 km | About 290 km | *About 1,500 km | About 5,000 km
+  x: LR-AShM has a range of about 1,500 km, with a peak speed of Mach 10.
+
+=== NOTES 5:50 | Missile Defence and Strategic Forces – Bmd Programme, Nuclear Triad, Ssbn, No-first-use Policy
+## SUB 0 | Nuclear Tests – Pokhran I and II, and Tests Abroad
+[50:0:0] TABLE head: Test | Date | Code name | Details
+  [50:0:0.0] Pokhran-I | 18 May 1974 | Smiling Buddha | "Peaceful nuclear explosion"; PM Indira Gandhi; team led by Raja Ramanna; fission device; India the 6th nation to test
+  [50:0:0.1] Pokhran-II | 11 and 13 May 1998 | Operation Shakti (Shakti-98) | Five tests, fission + fusion; PM A.B. Vajpayee; led by A.P.J. Abdul Kalam (DRDO) and R. Chidambaram (DAE); India declared a nuclear-weapon state
+[50:0:1] - Site: **Pokhran Test Range, Jaisalmer district, Rajasthan** (Thar Desert) – not Sriharikota, Bangalore or Kanchipuram.
+[50:0:2] - **11 May = National Technology Day** (marks the Pokhran-II tests).
+[50:0:3] - **Operation Shakti** (1998 nuclear test) ≠ **Mission Shakti** (2019 ASAT test).
+[50:0:4] TABLE head: Country | Test / site
+  [50:0:4.0] Pakistan | Chagai-I, 28 May 1998 (Chagai Hills, Balochistan), soon after Pokhran-II
+  [50:0:4.1] China | Lop Nor (Lop Nur) – dried salt lake in the Tarim Basin, Xinjiang; first test 1964
+  [50:0:4.2] North Korea | Punggye-ri; claimed hydrogen bomb test 6 Jan 2016; fifth test Sept 2016
+[50:0:5] - TSPSC 2023 statements: A (Technology Day = Pokhran) is right; Agni-III is not the "latest" missile of 2018 (that was **Agni-V**); **Mangalyaan** (5 Nov 2013) went to **Mars**, not the Moon; at Aryabhata's launch (1975) ISRO's chairman was **Satish Dhawan** – U.R. Rao led the project.
+[50:0:6] ~~ Sources: PMF S&T Part 4 p.59-61; PMF S&T Part 6 p.136-137; app notes 5:50 sub 0
+## SUB 1 | Nuclear Submarines – INS Chakra, Arihant Class and K-series
+[50:1:0] # Leased SSNs
+[50:1:1] TABLE head: Boat | Type / origin
+  [50:1:1.0] INS Chakra (I), 1988–1991 | Leased Soviet Charlie-class nuclear submarine – first nuclear submarine India operated
+  [50:1:1.1] INS Chakra II | Leased Russian Akula-II nuclear-powered attack submarine (SSN) (ex-K-152 Nerpa), 8,140 t; commissioned 4 April 2012; returned to Russia 2021
+  [50:1:1.2] INS Chakra III | Akula-class SSN, lease awaited (mid/late 2020s)
+  [50:1:1.3] INS Shalki, INS Shishumar | Diesel-electric, German Type 209
+  [50:1:1.4] INS Sindhuvir, Sindhughosh | Diesel-electric, Russian Kilo class
+[50:1:2] - Project 75 Alpha: six indigenous SSNs planned (none in service yet).
+[50:1:3] # ATV project and Arihant class (SSBNs)
+[50:1:4] - **ATV (Advanced Technology Vessel)** project: DRDO + private firms, with **Russian help** (reactor), built at Ship Building Centre, **Visakhapatnam**, to build **SSBNs**.
+[50:1:5] TABLE head: Submarine | Commissioned | Features
+  [50:1:5.0] INS Arihant (S2) | 2016 | First indigenous nuclear-powered ballistic missile submarine (SSBN), ~6,000 t, 4 VLS (12 K-15 or 4 K-4)
+  [50:1:5.1] INS Arighaat (S3) | 29 Aug 2024 | Same size, 4 tubes; first K-4 launch from it, 27 Nov 2024 (Bay of Bengal)
+  [50:1:5.2] INS Aridhaman (S4) | 3 Apr 2026, Visakhapatnam | ~7,000 t, 8 VLS (24 K-15 or 8 K-4/K-5)
+[50:1:6] - AP angle: SSBNs based at **Visakhapatnam**; **Rambilli** naval base nearby.
+[50:1:7] - Arihant is an SSBN, not an "attack" submarine; asked loosely as India's "first indigenous nuclear-powered (attack) submarine" – answer **Arihant**.
+[50:1:8] # SLBMs (K-series, named after Dr Kalam)
+[50:1:9] TABLE head: SLBM | Range
+  [50:1:9.0] K-15 Sagarika | ~750 km; first underwater test-fire 26 Feb 2008 (proved underwater launch); deployed on INS Arihant
+  [50:1:9.1] K-4 | ~3,500 km
+  [50:1:9.2] K-5 / K-6 | Longer range, under development
+[50:1:10] ~~ Sources: PMF S&T Part 6 p.73, p.125-126; app notes 5:49 sub 7, 5:50 sub 4
+[50:1:11] - With INS Chakra (2012) India became the **sixth nation** to operate a nuclear-powered submarine (after the USA, Russia, UK, France, China).
+## SUB 2 | Air and Missile Defence – BMD, S-400, Israeli Systems, Sudarshan Chakra
+[50:2:0] # Ballistic Missile Defence (BMD)
+[50:2:1] TABLE head: Interceptor | Phase and layer
+  [50:2:1.0] PAD / Pradyumna (Prithvi Air Defence) | Phase I, exo-atmospheric, higher altitude (50–80 km)
+  [50:2:1.1] AAD / Ashwin (Advanced Air Defence) | Phase I, endo-atmospheric, lower altitude (15–30 km)
+  [50:2:1.2] AD-1, AD-2 | Phase II, against ~5,000 km-class threats (ICBMs, HGVs)
+[50:2:2] - **Swordfish** Long-Range Tracking Radar (based on Israel's Green Pine): tracks missiles and space objects at **1,500+ km**.
+[50:2:3] - Jun 2026: DRDO showed multi-layered BMD; same series saw maiden test of NASM-MR (14 Jun 2026).
+[50:2:4] # Air-defence systems
+[50:2:5] TABLE head: System | Origin / type | Notes
+  [50:2:5.0] S-400 Triumf | Russia (Almaz-Antey) | Long-range surface-to-air (anti-aircraft / anti-missile) system, ~400 km; deal 2018; operators Russia, China (first foreign buyer), Turkey, India, Belarus; IAF calls it "Sudarshan Chakra"
+  [50:2:5.1] Barak-1 | Israel | Ship-based point-defence SAM
+  [50:2:5.2] MRSAM / Barak-8 | DRDO + Israel Aerospace Industries | Army version tested Apr 2025; DAC approved buy Jul 2026
+  [50:2:5.3] Phalcon | Israel | Airborne radar on IL-76 = IAF AWACS
+  [50:2:5.4] Iron Dome | Israel | Lower (short-range) layer of Israel's air defence; Rafael and IAI; mobile, all-weather
+  [50:2:5.5] IADWS | Indigenous (DRDO) | QRSAM + VSHORADS + high-power laser DEW; maiden test Aug 2025
+  [50:2:5.6] Akashteer | BEL with the Army | Automated air-defence control network
+  [50:2:5.7] Akash Tarang | Indigenous | Anti-drone soft-kill EW system
+[50:2:6] # Mission Sudarshan Chakra
+[50:2:7] - Announced **Independence Day 2025**; networked national shield (air defence, cybersecurity, surveillance), **Vision 2035**.
+[50:2:8] - UPSC 2026: aims at **air defence, BMD and aerial offensive capability**; **rapid, precise, powerful responses** (strategic autonomy); cover **all important public places** by a nationwide shield **by 2035** – **all three correct**.
+[50:2:9] - Building blocks: Akash Tarang, MRSAM, VSHORADS; core = **Project Kusha** – DRDO **long-range** (not short-range) air defence, interceptors **M1/M2/M3 ≈ 150 / 250 / 350–400 km**.
+[50:2:10] - "Sudarshan Chakra" = IAF's name for the S-400 **and** the Vision 2035 mission.
+[50:2:11] ~~ Sources: PMF S&T Part 6 p.101-103, p.109-111; PMF LENS Jan 2026 Part 2 p.11, p.20; app notes 5:49 sub 5, 5:50 sub 5-6
+## SUB 3 | Nuclear Doctrine, No First Use and Command
+[50:3:0] # Timeline
+[50:3:1] - **Draft doctrine:** **National Security Advisory Board (NSAB)**, **August 1999**.
+[50:3:2] - **No First Use** came from the **Vajpayee government after Pokhran-II** (not Indira Gandhi after Pokhran-I).
+[50:3:3] - Formally adopted by the **CCS** on **4 January 2003**.
+[50:3:4] # Key tenets
+[50:3:5] - **Credible minimum deterrence** backed by an assured **second-strike capability** (survivable SSBNs) – not a bigger arsenal or first use.
+[50:3:6] - **No First Use:** only in **retaliation against a nuclear attack on Indian territory or Indian forces**.
+[50:3:7] - **Massive retaliation** causing unacceptable damage.
+[50:3:8] - **No use against non-nuclear-weapon states**; nuclear option kept against a **major biological or chemical attack**.
+[50:3:9] - **Unilateral moratorium** on nuclear tests (since 1998) – so a doctrine question "NFU, moratorium, minimum credible deterrence" = **all of the above**.
+[50:3:10] - India kept the bomb option open and would **not open its strategic nuclear plants to inspection** (UPPCS 1994: A true, R "India will not produce any bomb" false).
+[50:3:11] # Nuclear Command Authority
+[50:3:12] TABLE head: Body | Chaired by | Role
+  [50:3:12.0] Political Council | Prime Minister | Only body that can authorise use
+  [50:3:12.1] Executive Council | National Security Advisor | Advises; carries out directions
+  [50:3:12.2] Strategic Forces Command | Tri-service (set up 2003) | Manages and operates the nuclear arsenal
+[50:3:13] - **CCS** oversees civilian political control; it does not manage the forces. Aug 2026: Agni user trials held "under the aegis of SFC".
+[50:3:14] ~~ Sources: PMF S&T Part 6 p.134-137; PMF S&T Part 7 p.1, p.8; app notes 5:50 sub 2
+## SUB 4 | Non-proliferation Regimes – India's Status
+[50:4:0] TABLE head: Regime | India's status
+  [50:4:0.0] NPT (1968, in force 1970) | Not signed – discriminatory: only the five states that tested before 1967 are nuclear-weapon states
+  [50:4:0.1] CTBT | Not signed (voluntary test moratorium since 1998; wants time-bound global disarmament)
+  [50:4:0.2] NSG | Not a member (blocked by China); got 2008 waiver, follows guidelines
+  [50:4:0.3] MTCR | Member 27 June 2016 (35th)
+  [50:4:0.4] Hague Code of Conduct (HCoC) | Joined 1–2 June 2016 (against ballistic missile proliferation)
+  [50:4:0.5] Wassenaar | Member Dec 2017
+  [50:4:0.6] Australia Group | Member Jan 2018
+[50:4:1] - India follows the guidelines through the **WMD Act** and the **SCOMET** list.
+[50:4:2] - **FMCT:** supports a universal, verifiable treaty that does **not cap the existing stockpile**.
+[50:4:3] ~~ Sources: PMF S&T Part 7 p.8; WebSearch results: armscontrol.org (India joins HCoC, Jul 2016); app notes 5:50 sub 7
+## SUB 5 | Nuclear Triad – Land, Air, Sea
+[50:5:0] TABLE head: Leg | Platforms
+  [50:5:0.0] Land | Prithvi and Agni series (canisterised, road- and rail-mobile); Agni-V (5,000+ km, solid, three-stage; first test 19 April 2012)
+  [50:5:0.1] Air | Jaguar and Mirage 2000 (free-fall bombs)
+  [50:5:0.2] Sea | K-15 / K-4 SLBMs from Arihant-class SSBNs; earlier Dhanush from ships (INS Subhadra, INS Rajput)
+[50:5:1] - **SSBN = most survivable leg** – concealment gives sure **second-strike** capability, which backs NFU. Next step: **continuous at-sea deterrence**.
+[50:5:2] - India has a fully operational triad, with **USA, Russia, China** (Apr 2026). US triad = **Minuteman III** ICBMs + bombers + Ohio/Columbia-class SSBNs.
+[50:5:3] - Agni-4 user trial 6 Aug 2026: 4,000 km, two-stage solid, road-mobile. SIPRI (Jun 2026): **12** Indian warheads "operationally deployed", linked to **SSBN patrols and canisterised Agni**.
+[50:5:4] ~~ Sources: PMF S&T Part 6 p.57; PMF S&T Part 7 p.3-5; app notes 5:50 sub 3; Agni-V first-test date: general knowledge, not checked
+## SUB 6 | Nuclear Weapon Technology
+[50:6:0] TABLE head: Fission (atomic) weapon | Fusion (thermonuclear / hydrogen) weapon
+  [50:6:0.0] Heavy nucleus (U-235 / Pu-239) splits in a neutron chain reaction | Light nuclei (hydrogen isotopes) fuse
+  [50:6:0.1] Example: Pokhran-I | A fission "primary" triggers the fusion; tested in Pokhran-II
+[50:6:1] - **Krytron** = high-speed gas-filled switch that fires a nuclear bomb's detonators (the "trigger"; not a MOSFET, solid-state relay or solenoid).
+[50:6:2] TABLE head: Grade | U-235 share
+  [50:6:2.0] Natural uranium | ~0.7%
+  [50:6:2.1] Reactor-grade LEU | 3–5%
+  [50:6:2.2] HEU | 20%+
+  [50:6:2.3] Weapons-grade | ~90%
+[50:6:3] ~~ Sources: PMF S&T Part 4 p.28; app notes 5:50 sub 1
+
+=== OWN MCQs of 5:50 (68)
+[ndc6701f6b28] sub0
+  Pokhran-II was conducted under which Prime Minister?
+  H.D. Deve Gowda | P.V. Narasimha Rao | *A.B. Vajpayee | I.K. Gujral
+  x: Pokhran-II was conducted under A.B. Vajpayee, with A.P.J. Abdul Kalam and R. Chidambaram in the scientific leadership.
+[fc277cdfaf8ba] sub0
+  Who led the team that conducted Pokhran-I (1974)?
+  R. Chidambaram | A.P.J. Abdul Kalam | V.K. Saraswat | *Raja Ramanna
+  x: Raja Ramanna led the Pokhran-I team; Kalam and Chidambaram led Pokhran-II.
+[f32654da2500c] sub0
+  How many nuclear tests did India conduct in Pokhran-II (1998)?
+  Four | Six | Three | *Five
+  x: Pokhran-II on 11 and 13 May 1998 had five tests, both fission and fusion.
+[fc21cf4a652a4] sub0
+  Which of the following pairs is NOT correctly matched?
+  Operation Shakti – Pokhran-II | *Mission Shakti – 1998 nuclear tests | Smiling Buddha – Pokhran-I | Mission Shakti – 2019 ASAT test
+  x: Operation Shakti was the 1998 nuclear test; Mission Shakti was the 2019 anti-satellite test.
+[nd557eac9d75] sub0
+  What was the code name of Pokhran-II (1998)?
+  Smiling Buddha | Operation Vijay | Operation Divyastra | *Operation Shakti
+  x: Pokhran-II (11 and 13 May 1998) was 'Operation Shakti'; Pokhran-I (1974) was 'Smiling Buddha'.
+[n575c1c79e50] sub0
+  Which day is observed in India on 11 May?
+  National Science Day | National Nuclear Security Day | *National Technology Day | National Defence Technology Day
+  x: 11 May is observed as National Technology Day in India, commemorating the 1998 Pokhran tests.
+[g6145b899ef43] sub0
+  When was India's first nuclear test, 'Smiling Buddha', conducted at Pokhran?
+  *18 May 1974 | 11 May 1998 | 13 May 1998 | 18 May 1972
+  x: Pokhran-I, code-named Smiling Buddha, was conducted on 18 May 1974 under PM Indira Gandhi.
+[g6f3312e73f5f] sub0
+  Who among the following led the Pokhran-II tests of 1998 along with R. Chidambaram of DAE?
+  Raja Ramanna | *A.P.J. Abdul Kalam | Homi Sethna | Vikram Sarabhai
+  x: Pokhran-II (Operation Shakti) was led by A.P.J. Abdul Kalam of DRDO and R. Chidambaram of DAE.
+[g0e3fc08d60c3] sub0
+  In which district of Rajasthan is the Pokhran Test Range located?
+  Bikaner | Barmer | Jodhpur | *Jaisalmer
+  x: The Pokhran Test Range, site of Pokhran-I and II, is in Jaisalmer district, Rajasthan.
+[f4c8a0d528cf2] sub1
+  From which submarine was the K-4 SLBM first launched on 27 November 2024?
+  INS Arihant | *INS Arighaat | INS Chakra | INS Aridhaman
+  x: K-4 was first fired from INS Arighaat in the Bay of Bengal on 27 November 2024.
+[f29d80328391b] sub1
+  Where was INS Aridhaman, India's third SSBN, commissioned on 3 April 2026?
+  Karwar | Mumbai | *Visakhapatnam | Kochi
+  x: INS Aridhaman was commissioned at Visakhapatnam on 3 April 2026.
+[fa0fd9ac9749f] sub1
+  Consider the following statements about India's submarine-launched missiles:
+1. K-15 Sagarika has a range of about 750 km.
+2. K-4 has a range of about 3,500 km.
+3. INS Arighaat was India's first indigenous SSBN.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: K-15 reaches about 750 km and K-4 about 3,500 km; the first indigenous SSBN was INS Arihant (2016), not Arighaat.
+[n3ad420188ee] sub1
+  What is the range of the K-15 Sagarika submarine-launched ballistic missile?
+  *750 km | 1,500 km | 3,500 km | 5,000 km
+  x: K-15 Sagarika has a range of about 750 km; 3,500 km is K-4.
+[nde65c27cd08] sub1
+  Which of the following is NOT correct about India's SSBNs?
+  INS Aridhaman can carry 24 K-15 or 8 K-4/K-5 missiles | *INS Arighaat has 8 vertical launch tubes | INS Arihant has 4 vertical launch tubes | INS Aridhaman has 8 vertical launch tubes
+  x: Arihant and Arighaat have 4 vertical launch tubes each; only Aridhaman has 8, which gives it the larger load.
+[n77914b79376] sub1
+  What was the Advanced Technology Vessel (ATV) project undertaken to build?
+  Indigenous aircraft carriers | *Nuclear ballistic-missile submarines (SSBNs) | Stealth frigates | AIP-equipped conventional submarines
+  x: The ATV project was initiated by DRDO and private firms, with Russian assistance, to build SSBNs.
+[n19c902b2b9c] sub1
+  Which type of submarine was INS Chakra II, leased by India from Russia?
+  Kilo-class submarine | Charlie-class submarine | *Akula-class nuclear attack submarine (SSN) | Type 209 submarine
+  x: INS Chakra II was a leased Akula-class SSN (formerly Nerpa); the first INS Chakra was a Charlie-class boat.
+[fa21c596b3b0a] sub1
+  Which type of submarine was INS Chakra, leased from the Soviet Union in 1988?
+  *Charlie-class SSN | Kilo-class diesel-electric boat | Akula-class SSN | Type 209 diesel-electric boat
+  x: INS Chakra (1988) was a Charlie-class SSN; INS Chakra II was an Akula-class SSN.
+[f382dfd225c3b] sub1
+  With help from which country did DRDO and private firms carry out the ATV project to build India's SSBNs?
+  *Russia | Israel | France | USA
+  x: The ATV project had Russian help.
+[ge8a1416cabd4] sub1
+  Which was India's first indigenous nuclear-powered ballistic missile submarine (SSBN)?
+  INS Chakra | INS Arighaat | *INS Arihant | INS Aridhaman
+  x: INS Arihant, commissioned in 2016 under the ATV project, is India's first indigenous SSBN.
+[gfa1fd4f6cc4a] sub1
+  INS Shishumar and INS Shalki are diesel-electric submarines of which type?
+  Russian Kilo class | Soviet Charlie class | French Scorpene class | *German Type 209
+  x: INS Shalki and INS Shishumar are German-designed Type 209 diesel-electric submarines.
+[geb9e2e7756da] sub1
+  In which year was INS Chakra II, a leased Russian Akula-class nuclear attack submarine, commissioned?
+  2016 | 2009 | *2012 | 1988
+  x: INS Chakra II (formerly Nerpa) was commissioned on 4 April 2012.
+[na69f912aae8] sub2
+  Consider the following statements about Project Kusha:
+1. Its M3 interceptor is expected to reach about 350–400 km.
+2. It is DRDO's short-range air-defence system.
+3. Its M1 interceptor has a range of about 150 km.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: Project Kusha is DRDO's long-range (not short-range) air-defence system, with M1/M2/M3 interceptors of about 150/250/350–400 km.
+[nc630fbef31c] sub2
+  Which is the exo-atmospheric interceptor in Phase-I of India's Ballistic Missile Defence programme?
+  AD-1 | AAD/Ashwin | *PAD/Pradyumna | AD-2
+  x: Phase-I uses PAD/Pradyumna (exo) and AAD/Ashwin (endo); AD-1 and AD-2 belong to Phase-II.
+[f94045cb47638] sub2
+  By which year does Mission Sudarshan Chakra, a multi-layered air and missile defence network, aim at operational maturity?
+  2040 | 2047 | 2030 | *2035
+  x: Mission Sudarshan Chakra targets operational maturity by 2035.
+[n6774a5a156b] sub2
+  What is PAD (Prithvi Air Defence) in India's BMD programme?
+  Lower-altitude endo-atmospheric interceptor | Ship-based terminal-phase interceptor | Long-range tracking radar | *Higher-altitude exo-atmospheric interceptor
+  x: PAD is the higher-altitude exo-atmospheric interceptor; AAD is the lower-altitude endo-atmospheric interceptor and Swordfish is a tracking radar.
+[n44b8ffa0652] sub2
+  AD-1 and AD-2 interceptors belong to which phase of India's BMD programme?
+  Phase I | Phase III | *Phase II | Phase IV
+  x: AD-1 and AD-2 are Phase II BMD interceptors meant for longer-range threats of about the 5,000-km class.
+[n085e816c508] sub2
+  For what is the Swordfish radar primarily used?
+  Jam drone-control signals at short range | *Track ballistic missiles and space objects at distances exceeding 1,500 km | Detect only underwater targets | Guide K-series missiles from submarines
+  x: The Long-Range Tracking Radar, known as Swordfish, tracks ballistic missiles and space objects at distances of more than 1,500 km.
+[fddd47a133f02] sub2
+  To which phase and layer does the AAD (Advanced Air Defence) interceptor belong in India's BMD programme?
+  Phase-II, endo-atmospheric | *Phase-I, endo-atmospheric | Phase-I, exo-atmospheric | Phase-II, exo-atmospheric
+  x: AAD is the Phase-I endo-atmospheric (lower altitude) interceptor; PAD is the exo-atmospheric one.
+[n2af19c3b673] sub2
+  Which of the following jointly developed MRSAM or Barak-8?
+  *DRDO and Israel Aerospace Industries | BEL and France’s Dassault Aviation | DRDO and Russia’s Rosoboronexport | ISRO and Israel Aerospace Industries
+  x: MRSAM/Barak-8 is an India-Israel programme involving DRDO and Israel Aerospace Industries (IAI).
+[nb7ed88ed56f] sub2
+  What is the vision year of Mission Sudarshan Chakra, a networked national shield of air defence, cybersecurity and surveillance?
+  2030 | *2035 | 2040 | 2047
+  x: It is Vision 2035, built from blocks such as Akash Tarang, MRSAM and VSHORADS, with Project Kusha as a core element.
+[ncc850b9f68b] sub2
+  What is Akashteer?
+  A long-range missile developed by DRDO | *An automated air-defence control network built by BEL with the Army | An anti-drone soft-kill electronic-warfare system | A high-power laser directed-energy weapon
+  x: Akashteer is BEL's automated air-defence control network for the Army; Akash Tarang is the anti-drone soft-kill EW system.
+[n06aef2a4aed] sub2
+  Consider the following statements about the S-400 Triumf:
+1. The Indian Air Force refers to it as 'Sudarshan Chakra'.
+2. Belarus was its first foreign buyer after Russia.
+3. China was its first foreign buyer.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: The IAF calls its S-400 'Sudarshan Chakra', and China was the first foreign buyer; Belarus came later.
+[n5129cd26cc3] sub2
+  What are the approximate interceptor ranges of Project Kusha, DRDO's long-range air-defence project?
+  15, 25 and 40 km | 75, 100 and 150 km | 750, 3,500 and 5,000 km | *150, 250 and 350–400 km
+  x: Project Kusha is reported as a long-range air-defence project with M1, M2 and M3 interceptors of about 150, 250 and 350–400 km ranges, respectively.
+[fb22d494385a6] sub2
+  India's IADWS, first tested in August 2025, combines QRSAM and VSHORADS with which of the following?
+  Iron Dome | S-400 Triumf | *A high-power laser directed-energy weapon | Barak-1
+  x: IADWS = QRSAM + VSHORADS + a high-power laser DEW, all indigenous.
+[fdc6c2d0750ae] sub2
+  What is Akash Tarang, a building block of Mission Sudarshan Chakra?
+  Automated air-defence control network | *Anti-drone soft-kill electronic warfare system | Airborne early-warning radar | Long-range surface-to-air missile
+  x: Akash Tarang is an indigenous anti-drone soft-kill EW system; Akashteer is the control network.
+[gfc224cbaec12] sub2
+  Which country developed the S-400 Triumf air defence system?
+  Israel | USA | *Russia | France
+  x: The S-400 Triumf is a Russian long-range surface-to-air missile system; the IAF calls it 'Sudarshan Chakra'.
+[n8c5524df915] sub3
+  Which of the following is NOT correct about India's nuclear doctrine?
+  *No First Use was first declared by the Indira Gandhi government after Pokhran-I | The draft doctrine with No First Use came from the Vajpayee government in 1999 | The draft followed the Pokhran-II tests of 1998 | The Cabinet Committee on Security formally adopted it on 4 January 2003
+  x: NFU dates from the Vajpayee government after Pokhran-II (1998), not from Pokhran-I (1974).
+[nea02c679880] sub3
+  Which of the following is NOT a tenet of India's nuclear doctrine?
+  Credible minimum deterrence | No First Use | Massive retaliation causing unacceptable damage | *Use of nuclear weapons against every non-nuclear-weapon state
+  x: The doctrine provides for no use against non-nuclear-weapon states (subject to the clause on major biological or chemical attacks).
+[n831403d0b79] sub3
+  Against a major attack involving which weapons does India's nuclear doctrine retain the nuclear option?
+  Conventional weapons | Cyber weapons | Anti-satellite weapons | *Biological or chemical weapons
+  x: The doctrine retains the nuclear option against a major biological or chemical attack.
+[n09ebf5acd1a] sub3
+  Under India's No First Use policy, against which of the following may nuclear weapons be used in retaliation?
+  any conventional attack on Indian territory | *a nuclear attack on Indian territory or Indian forces | a cyberattack on India’s strategic infrastructure | any military alliance formed against India
+  x: India’s No First Use policy permits nuclear weapons only in retaliation against a nuclear attack on Indian territory or Indian forces.
+[n3531c9b8e2b] sub3
+  What is the Strategic Forces Command?
+  a joint research body of DRDO and ISRO | a civilian body regulating nuclear exports | *a tri-service command managing and operating India’s nuclear arsenal | a parliamentary committee supervising defence expenditure
+  x: The Strategic Forces Command is a tri-service command responsible for managing and operating India’s nuclear arsenal.
+[nf977e865dc7] sub3
+  Which of the following pairs about India's nuclear command structure is wrongly matched?
+  Political Council of the NCA – Headed by the Prime Minister | Executive Council of the NCA – Headed by the National Security Adviser | *Cabinet Committee on Security – Manages nuclear forces | Strategic Forces Command – Manages nuclear forces
+  x: The Strategic Forces Command manages nuclear forces; the CCS supervises civilian political control.
+[f8b564f15838a] sub3
+  Which body prepared India's draft nuclear doctrine of August 1999?
+  *National Security Advisory Board | Cabinet Committee on Security | Atomic Energy Commission | Strategic Forces Command
+  x: The NSAB prepared the draft in August 1999; the CCS adopted the doctrine on 4 January 2003.
+[f2239904150c8] sub3
+  Under India's Nuclear Command Authority, which is the only body that can authorise the use of nuclear weapons?
+  Cabinet Committee on Security | Strategic Forces Command | Executive Council | *Political Council
+  x: The Political Council, chaired by the PM, alone authorises use; the SFC operates the arsenal and the CCS only oversees.
+[f93017ea01893] sub3
+  Who chairs the Executive Council of India's Nuclear Command Authority?
+  Chief of Defence Staff | Prime Minister | Defence Minister | *National Security Advisor
+  x: The NSA chairs the Executive Council; the PM chairs the Political Council.
+[fc4a15e59af71] sub3
+  After which event did India's No First Use nuclear policy come from the Vajpayee government?
+  Mission Shakti (2019) | *Pokhran-II (1998) | The NSG waiver (2008) | Pokhran-I (1974)
+  x: NFU was announced after Pokhran-II by the Vajpayee government, not after Pokhran-I.
+[g8c7e395bdd38] sub3
+  In which year was India's tri-service Strategic Forces Command set up?
+  *2003 | 1999 | 1998 | 2008
+  x: The Strategic Forces Command, which manages and operates the nuclear arsenal, was set up in 2003.
+[na4bc14961cc] sub4
+  In which year did India become a member of the Wassenaar Arrangement?
+  2016 | *2017 | 2018 | 2008
+  x: India joined Wassenaar in 2017; it joined the MTCR and the Hague Code of Conduct in 2016 and the Australia Group in 2018.
+[nd562745c2fe] sub4
+  Which of the following is NOT correct about India and nuclear regimes?
+  India has not signed the NPT, calling it discriminatory | *India has been an NSG member since its 2008 waiver | India will not sign the CTBT until it is tied to time-bound global disarmament | India keeps a voluntary nuclear-test moratorium
+  x: India is not an NSG member (blocked by China); it got the 2008 NSG waiver and follows NSG guidelines.
+[n2632a6b1f78] sub4
+  On which condition does India support a universal and verifiable Fissile Material Cut-off Treaty?
+  *does not cap India’s existing stockpile | caps India’s existing stockpile immediately | permits unlimited nuclear testing | applies only to non-nuclear-weapon states
+  x: India supports a universal and verifiable FMCT, but its position is that the treaty should not cap its existing stockpile.
+[na9140d3c634] sub4
+  Besides the WMD Act, through which list does India follow the guidelines of the NSG, MTCR, Wassenaar Arrangement and Australia Group?
+  SEZ list | *SCOMET list | Union List | Negative list
+  x: India implements these export-control guidelines through the WMD Act and the SCOMET list.
+[f3f28608de684] sub4
+  Which country has blocked India's membership of the Nuclear Suppliers Group?
+  Russia | France | *China | USA
+  x: China blocks India's NSG entry; India got an NSG waiver in 2008 and follows its guidelines.
+[ffa0e3458b70e] sub4
+  Under the NPT, only states that tested a nuclear device before which year are nuclear-weapon states?
+  *1967 | 1970 | 1998 | 1974
+  x: Only the five states that tested before 1967 are NWS, which India calls discriminatory.
+[fd24ddfabb152] sub4
+  India is NOT a member of which of the following?
+  Wassenaar Arrangement | *Nuclear Suppliers Group | MTCR | Australia Group
+  x: India is a member of the MTCR, Wassenaar and Australia Group, but not of the NSG, NPT or CTBT.
+[g5608e6f434a9] sub4
+  In which year did India become a member of the Missile Technology Control Regime (MTCR)?
+  2008 | *2016 | 2017 | 2018
+  x: India joined the MTCR in 2016 as its 35th member; Wassenaar followed in 2017 and the Australia Group in 2018.
+[gb44b6aec5e87] sub4
+  In which year did India become a member of the Australia Group?
+  2016 | 2017 | *2018 | 2008
+  x: India joined the Australia Group in January 2018, after MTCR (2016) and Wassenaar (2017).
+[ga83b78762b75] sub4
+  India joined the Missile Technology Control Regime (MTCR) in 2016 as its:
+  34th member | *35th member | 36th member | 42nd member
+  x: India became the 35th member of the MTCR in 2016.
+[n9707ee692b2] sub5
+  What is the next strategic step associated with India's SSBN-based deterrence?
+  ending the No First Use policy | *continuous at-sea deterrence | replacement of all missiles by free-fall bombs | complete withdrawal from submarine operations
+  x: Continuous at-sea deterrence is identified as the next step in strengthening India’s SSBN-based nuclear deterrence.
+[n18e8f03ba87] sub5
+  Why are SSBNs regarded as the most survivable leg of the nuclear triad?
+  They eliminate the need for land-based deterrence. | They remain permanently visible to adversaries. | They carry only conventional weapons. | *Their concealment supports a guaranteed second-strike capability.
+  x: SSBNs are difficult to detect and destroy, thereby supporting a reliable second-strike capability that underpins India’s No First Use posture.
+[n2ef7b1a431a] sub5
+  To what was the operational deployment of Indian warheads cited in the June 2026 assessment linked?
+  Dhanush missiles mounted exclusively on aircraft carriers | only free-fall bombs carried by Jaguar aircraft | *SSBN deterrence patrols and canisterised Agni missiles | civilian nuclear reactors and space launch vehicles
+  x: The cited deployment was linked to SSBN deterrence patrols and canisterised Agni missiles.
+[n9115a31111c] sub5
+  What forms the land-based leg of the United States nuclear triad?
+  Trident submarines | Strategic bombers | Tomahawk cruise missiles | *Minuteman III ICBMs
+  x: The US triad consists of Minuteman III ICBMs (land leg), strategic bombers and Ohio/Columbia-class SSBNs.
+[n8bb39a857e1] sub5
+  India is described as having a fully operational nuclear triad along with which of the following countries?
+  France, the United Kingdom and Pakistan | Japan, Germany and Australia | *The United States, Russia and China | Israel, North Korea and Iran
+  x: India is described as having a fully operational triad alongside the United States, Russia and China.
+[fb2f8e653bc95] sub5
+  The air leg of India's nuclear triad uses which aircraft with free-fall bombs?
+  *Jaguar and Mirage 2000 | Su-30MKI and Tejas | MiG-21 and Rafale | Tejas and Rafale
+  x: India's air leg is the Jaguar and Mirage 2000 with free-fall bombs.
+[gecad7e871147] sub5
+  From which of the following ships was the Dhanush missile of India's sea-based nuclear leg launched?
+  *INS Subhadra | INS Arihant | INS Chakra | INS Vikrant
+  x: Before SSBNs, the sea leg used the ship-launched Dhanush missile from ships such as INS Subhadra and INS Rajput.
+[n791b1d10a4b] sub6
+  In a fusion (thermonuclear) weapon, what triggers the fusion of light hydrogen isotopes?
+  A laser pulse | A fusion primary | *A fission primary | Chemical explosives alone
+  x: A fission 'primary' supplies the heat to trigger fusion; a fission weapon splits U-235 or Pu-239 in a chain reaction.
+[n5ce3201ca1c] sub6
+  Which one of the following is correctly matched with its approximate U-235 enrichment level?
+  HEU — about 3–5% | Weapons-grade uranium — about 0.7% | Reactor-grade LEU — about 20% | *Natural uranium — about 0.7%
+  x: Natural uranium contains about 0.7% U-235. Reactor-grade LEU is about 3–5%, HEU is 20% or more, and weapons-grade uranium is about 90%.
+[fb387f87f82d3] sub6
+  Consider the following statements about nuclear weapons:
+1. In a fission weapon, a heavy nucleus such as U-235 or Pu-239 splits in a neutron chain reaction.
+2. In a fusion weapon, a fission 'primary' triggers the fusion.
+3. Pokhran-I tested a fusion device.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Fission splits heavy nuclei and a fission primary triggers fusion; Pokhran-I was a fission device, fusion was tested in Pokhran-II.
+[g9de32b79019f] sub6
+  Which device is used as a high-speed switch to fire the detonators of a nuclear bomb?
+  MOSFET | *Krytron | Solenoid | Relay
+  x: A krytron is a very fast gas-filled switch used to fire the detonators of a nuclear bomb.
+

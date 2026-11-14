@@ -1,0 +1,6870 @@
+[
+{
+"id": "nfd6d8fd2558",
+"row": 45,
+"src": null,
+"s": "What does overlay analysis in GIS refer to?",
+"o": [
+"Converting raster data into vector data",
+"Creating a buffer zone around a feature",
+"Combining different data layers for analysis",
+"Georeferencing a scanned map"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Overlay analysis combines multiple thematic layers to derive and analyse relationships between them.",
+"link": "45:0:2"
+},
+{
+"id": "n32b5406f5a1",
+"row": 45,
+"src": null,
+"s": "In a GIS, QGIS is an example of which of the following?",
+"o": [
+"GIS software",
+"GIS hardware",
+"Raster data",
+"An attribute table"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "QGIS is GIS software; GIS hardware means the computer, digitizer, scanner, GPS receiver and plotter.",
+"link": "45:0:3.1"
+},
+{
+"id": "g649439aace1e",
+"row": 45,
+"src": "app",
+"s": "In a GIS work station, what is the function of a digitizer?",
+"o": [
+"It converts analog maps and data into digital format",
+"It prints the final maps on paper",
+"It stores satellite images on a server",
+"It receives signals from GPS satellites"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "A digitizer is a tablet or table on which analog data such as paper maps are converted into digital form.",
+"link": "45:0:3.0"
+},
+{
+"id": "g17742fc36d3b",
+"row": 45,
+"src": "app",
+"s": "Which of the following is NOT a hardware component of GIS?",
+"o": [
+"Scanner",
+"Plotter",
+"GPS receiver",
+"QGIS"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "QGIS is free, open-source GIS software; scanner, plotter and GPS receiver are hardware.",
+"link": "45:0:3.1"
+},
+{
+"id": "gbc456cb50001",
+"row": 45,
+"src": "app",
+"s": "In a GIS, in what form is each theme of data, such as roads or rivers, stored?",
+"o": [
+"As a layer",
+"As a pixel",
+"As a buffer",
+"As a legend"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "In GIS each theme is stored as a separate layer; overlay analysis combines these layers.",
+"link": "45:0:2"
+},
+{
+"id": "g2b5bd7aa20c4",
+"row": 45,
+"src": "app",
+"s": "Which use of GIS gives emergency teams real-time layers for flood alerts and shoreline mapping during disasters?",
+"o": [
+"Situational awareness",
+"Georeferencing",
+"Digitization",
+"Map projection"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "GIS gives situational awareness through real-time layers for disaster response, flood alerts and shoreline mapping.",
+"link": "45:0:8"
+},
+{
+"id": "n340e6cfc315",
+"row": 45,
+"src": null,
+"s": "Which satellite system supports flood mapping even through cloud cover?",
+"o": [
+"Cartosat",
+"INSAT-3DS",
+"Oceansat",
+"RISAT (SAR)"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "RISAT's SAR can map floods through clouds; INSAT-3DS tracks cyclones, Oceansat gives ocean-state data and Cartosat maps damage.",
+"link": "45:1:8.0"
+},
+{
+"id": "n404a7c63a45",
+"row": 45,
+"src": null,
+"s": "What does Bhuvan mainly provide by combining RISAT/SAR imagery and INSAT-3DS cyclone-track data?",
+"o": [
+"Crop acreage forecasts",
+"Flood-inundation maps and cyclone warnings",
+"Potential fishing zone advisories",
+"Groundwater prospect maps"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Bhuvan combines RISAT/SAR flood imagery and INSAT-3DS cyclone-track information to support flood-inundation mapping and cyclone warnings.",
+"link": "45:1:8.1"
+},
+{
+"id": "ndisaster-management-26-15",
+"row": 45,
+"src": "rocket",
+"s": "What is the abbreviation of the National Database for Emergency Management?",
+"o": [
+"DMSP",
+"NADAMS",
+"NDEM",
+"NLSM"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "NDEM is the National Database for Emergency Management. NADAMS is the drought system and DMSP ISRO's programme.",
+"link": "45:1:3"
+},
+{
+"id": "n59620ada674",
+"row": 45,
+"src": null,
+"s": "In the INSAT Disaster Warning System, how do warnings from the Cyclone Warning Centre, Chennai travel?",
+"o": [
+"C-band uplink and S-band downlink",
+"S-band uplink and C-band downlink",
+"C-band uplink and C-band downlink",
+"S-band uplink and S-band downlink"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The chain is Cyclone Warning Centre, Chennai, then C-band uplink, then S-band downlink to coastal disaster-warning receivers.",
+"link": "45:1:10"
+},
+{
+"id": "ndisaster-management-26-12",
+"row": 45,
+"src": "rocket",
+"s": "For what does the National Disaster Management Authority (NDMA) use GIS?",
+"o": [
+"Planning only",
+"Planning and decision support only",
+"Planning, decision support and developing guidelines",
+"Developing guidelines only"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "NDMA uses GIS for planning, decision support and drafting guidelines.",
+"link": "45:1:11"
+},
+{
+"id": "n582bd565731",
+"row": 45,
+"src": null,
+"s": "Which of the following is NOT correct about fire-hotspot monitoring?",
+"o": [
+"Hotspot data are passed to the India Meteorological Department, which runs the forest-fire alert system",
+"Thermal-infrared sensors such as MODIS and VIIRS detect fire hotspots",
+"MODIS flies on NASA's Terra and Aqua satellites",
+"Hotspot data are received at NRSC's Shadnagar earth station"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The hotspot data go to the Forest Survey of India alert system, not to IMD.",
+"link": "45:1:2"
+},
+{
+"id": "n9dbffe8cbec",
+"row": 45,
+"src": null,
+"s": "Which of the following is NOT correct about satellite support during disasters in India?",
+"o": [
+"The Decision Support Centre is located at NRSC, Hyderabad",
+"States can use satellite data during disasters without requesting it from NRSC",
+"The National Database for Emergency Management (NDEM) is located at NRSC, Hyderabad",
+"The Decision Support Centre acts as a single window for satellite inputs during disasters"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "States must request satellite data from NRSC; the other statements are correct.",
+"link": "45:1:9"
+},
+{
+"id": "nb1ab4f0b0f3",
+"row": 45,
+"src": null,
+"s": "From which month did ISRO take the lead role in the International Charter Space and Major Disasters for six months?",
+"o": [
+"April 2023",
+"April 2025",
+"April 2026",
+"April 2024"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "ISRO assumed the lead role in the International Charter Space and Major Disasters for six months from April 2025.",
+"link": "45:1:11"
+},
+{
+"id": "n3b1e2b79e40",
+"row": 45,
+"src": null,
+"s": "Which of the following is NOT correct about ISRO's Disaster Management Support Programme?",
+"o": [
+"It uses INSAT and IRS satellite systems",
+"It is limited to cyclone warnings alone",
+"It provides satellite imaging support",
+"It provides communication support during disasters"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The programme gives imaging and communication support for floods, cyclones, droughts and other disasters, so it is not limited to cyclones.",
+"link": "45:1:9"
+},
+{
+"id": "fbd9d54926018",
+"row": 45,
+"src": "app",
+"s": "Which pair of thermal-infrared sensors is used to detect forest-fire hotspots?",
+"o": [
+"RISAT and NISAR",
+"INSAT-3DS and Cartosat",
+"MODIS and VIIRS",
+"Oceansat and Resourcesat"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Fire hotspots come from MODIS (NASA Terra/Aqua) and VIIRS (Suomi-NPP).",
+"link": "45:1:2"
+},
+{
+"id": "f12b36947db65",
+"row": 45,
+"src": "app",
+"s": "Where does the Decision Support Centre, a single window for satellite inputs during disasters, function?",
+"o": [
+"SAC, Ahmedabad",
+"IIRS, Dehradun",
+"NESAC, Umiam",
+"NRSC, Hyderabad"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The Decision Support Centre is at NRSC, and States must request data from NRSC.",
+"link": "45:1:3"
+},
+{
+"id": "fe51f1a1e4050",
+"row": 45,
+"src": "app",
+"s": "Consider the following statements about disaster monitoring from space:\n1. Post-earthquake ground deformation can be monitored from space.\n2. Earthquakes can be predicted using satellite remote sensing.\n3. Tsunami inundation can be mapped from space.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Ground deformation after a quake and tsunami inundation can be monitored; earthquake prediction cannot.",
+"link": "45:1:0.0"
+},
+{
+"id": "fdc727c0b9b15",
+"row": 45,
+"src": "app",
+"s": "Satellite fire-hotspot alerts received at Shadnagar feed the alert system of which organisation?",
+"o": [
+"India Meteorological Department",
+"Forest Survey of India",
+"INCOIS, Hyderabad",
+"NDMA"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Fire-hotspot data go to the Forest Survey of India alert system, not IMD.",
+"link": "45:1:2"
+},
+{
+"id": "g6bcce80c7d5a",
+"row": 45,
+"src": "app",
+"s": "Which of the following cannot be monitored using satellite remote sensing?",
+"o": [
+"Cyclone track",
+"Forest fire",
+"Landslide",
+"Heart attack"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Satellites can monitor cyclones, forest fires and landslides, but not a human-health event such as a heart attack.",
+"link": "45:1:0.0"
+},
+{
+"id": "ge9fecabf1d0d",
+"row": 45,
+"src": "app",
+"s": "For which hazard does NRSC identify the Ganga-Brahmaputra basin as the most prone area in India?",
+"o": [
+"Drought",
+"Floods",
+"Cyclones",
+"Landslides"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "NRSC's flood disaster management study names the Ganga-Brahmaputra basin as the most flood-prone area in India.",
+"link": "45:1:5"
+},
+{
+"id": "gc1e46f9f51ec",
+"row": 45,
+"src": "app",
+"s": "Which satellite is mainly used for damage mapping after disasters?",
+"o": [
+"INSAT-3DS",
+"Oceansat",
+"Cartosat",
+"NavIC"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Cartosat gives high-resolution images for damage mapping; INSAT-3DS tracks cyclones.",
+"link": "45:1:8.2"
+},
+{
+"id": "nbc49160818d",
+"row": 45,
+"src": null,
+"s": "Which one of the following agencies functions as the nodal agency for receiving, processing and supplying satellite data, while also operating Bhuvan and providing disaster-support services to States?",
+"o": [
+"Space Applications Centre",
+"North Eastern Space Applications Centre",
+"National Remote Sensing Centre",
+"Indian Institute of Remote Sensing"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The National Remote Sensing Centre (NRSC), Hyderabad, receives, processes and supplies satellite data, runs Bhuvan and supports States in disaster management.",
+"link": "45:3:0.0"
+},
+{
+"id": "n7d440b2dacb",
+"row": 45,
+"src": null,
+"s": "Where is the North Eastern Space Applications Centre (NESAC) located?",
+"o": [
+"Dehradun, Uttarakhand",
+"Umiam (Shillong), Meghalaya",
+"Jodhpur, Rajasthan",
+"Kharagpur, West Bengal"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "NESAC is at Umiam (Shillong), Meghalaya, a joint body of the Department of Space and the North Eastern Council.",
+"link": "45:3:0.3"
+},
+{
+"id": "nf4d4ccf6e56",
+"row": 45,
+"src": null,
+"s": "Which institution is responsible for training and education in remote sensing and GIS?",
+"o": [
+"NESAC, Umiam",
+"SAC, Ahmedabad",
+"IIRS, Dehradun",
+"Regional Remote Sensing Centres"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "IIRS, Dehradun handles training and education in remote sensing and GIS; NESAC serves the North-East and SAC builds sensors.",
+"link": "45:3:0.1"
+},
+{
+"id": "f01a8b7aa331a",
+"row": 45,
+"src": "app",
+"s": "How many Regional Remote Sensing Centres (RRSCs) function under NRSC?",
+"o": [
+"3",
+"4",
+"5",
+"6"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Five RRSCs, at Bengaluru, Jodhpur, Kharagpur, Nagpur and Delhi, work under NRSC on regional projects for States.",
+"link": "45:3:0.4"
+},
+{
+"id": "f617d0c2003f6",
+"row": 45,
+"src": "app",
+"s": "Where is NRSC's satellite earth station, which also receives fire-hotspot data, located?",
+"o": [
+"Shadnagar",
+"Umiam",
+"Dehradun",
+"Jodhpur"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "NRSC's earth station is at Shadnagar, where MODIS and VIIRS fire-hotspot data are received.",
+"link": "45:3:0.0"
+},
+{
+"id": "g8962ed2b235f",
+"row": 45,
+"src": "app",
+"s": "Which ISRO centre runs the MOSDAC and VEDAS portals?",
+"o": [
+"NRSC, Hyderabad",
+"SAC, Ahmedabad",
+"IIRS, Dehradun",
+"NESAC, Umiam"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The Space Applications Centre (SAC), Ahmedabad runs MOSDAC, VEDAS and Nabhmitra, and builds sensors and payloads.",
+"link": "45:3:0.2"
+},
+{
+"id": "g4447b2bf10e6",
+"row": 45,
+"src": "app",
+"s": "Which of the following is NOT the location of a Regional Remote Sensing Centre (RRSC) of NRSC?",
+"o": [
+"Jodhpur",
+"Kharagpur",
+"Nagpur",
+"Hyderabad"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The 5 RRSCs are at Bengaluru, Jodhpur, Kharagpur, Nagpur and Delhi; NRSC itself is at Hyderabad.",
+"link": "45:3:0.4"
+},
+{
+"id": "n44e146f0df4",
+"row": 45,
+"src": null,
+"s": "Which portal provides meteorological and oceanographic satellite data?",
+"o": [
+"VEDAS",
+"MOSDAC",
+"Yuktdhara",
+"Bhoonidhi"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "MOSDAC (SAC) provides meteorological and oceanographic satellite data; Bhoonidhi (NRSC) is an EO data archive and VEDAS visualises EO data.",
+"link": "45:3:3.2"
+},
+{
+"id": "n4cb2f048706",
+"row": 45,
+"src": null,
+"s": "Which of the following portal–use pairs is wrongly matched?",
+"o": [
+"PM Gati Shakti – National Master Plan GIS platform",
+"SVAMITVA – Drone mapping and property cards",
+"Bhuvan Panchayat – Geospatial support for Gram Panchayat development planning",
+"Yuktdhara – National Master Plan GIS platform"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Yuktdhara is for planning and monitoring MGNREGA assets; the National Master Plan GIS platform is PM Gati Shakti.",
+"link": "45:3:3.5"
+},
+{
+"id": "ne86099cf7c0",
+"row": 45,
+"src": null,
+"s": "Which organisation developed the PM Gati Shakti National Master Plan GIS platform?",
+"o": [
+"BISAG-N",
+"India Meteorological Department",
+"Forest Survey of India",
+"National Remote Sensing Centre alone"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The PM Gati Shakti National Master Plan GIS platform was built by BISAG-N.",
+"link": "45:3:3.5"
+},
+{
+"id": "fd93fe59a0150",
+"row": 45,
+"src": "app",
+"s": "In which year was ISRO's geoportal Bhuvan, developed by NRSC, Hyderabad, launched?",
+"o": [
+"2007",
+"2009",
+"2012",
+"2015"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Bhuvan was launched in 2009 by NRSC; 2012 is the year MNCFC was set up.",
+"link": "45:3:2"
+},
+{
+"id": "f5dbd4bc8ae44",
+"row": 45,
+"src": "app",
+"s": "In partnership with which organisation does SVAMITVA map rural properties by drone?",
+"o": [
+"Survey of India",
+"BISAG-N",
+"Forest Survey of India",
+"SLUSI"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "SVAMITVA uses drone mapping of rural properties with the Survey of India to issue property cards.",
+"link": "45:3:3.4"
+},
+{
+"id": "f56a5682baf92",
+"row": 45,
+"src": "app",
+"s": "Which NRSC portal archives Earth-observation data since 1988 for search and download?",
+"o": [
+"VEDAS",
+"MOSDAC",
+"Bhoonidhi",
+"Srishti"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Bhoonidhi is NRSC's EO data archive; VEDAS and MOSDAC belong to SAC and Srishti monitors watersheds.",
+"link": "45:3:3.1"
+},
+{
+"id": "f551d985f301e",
+"row": 45,
+"src": "app",
+"s": "Which of the following pairs is correctly matched?",
+"o": [
+"Srishti – MGNREGA asset monitoring",
+"VEDAS – Disaster announcements and alerts",
+"Yuktdhara – Watershed (IWMP) monitoring",
+"Bhuvan Panchayat – Gram panchayat planning"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Bhuvan Panchayat serves gram panchayat planning; Srishti is for watersheds, Yuktdhara for MGNREGA assets and MOSDAC for disaster alerts.",
+"link": "45:3:3.0"
+},
+{
+"id": "nb0f73b303ec",
+"row": 45,
+"src": null,
+"s": "Which of the following satellites is an example of active (radar) remote sensing?",
+"o": [
+"RISAT",
+"Oceansat",
+"Cartosat",
+"Resourcesat"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Active systems transmit their own signal, as RISAT's radar does; Resourcesat and Oceansat illustrate passive sensing of naturally available radiation.",
+"link": "45:2:1.0"
+},
+{
+"id": "n4ea0c630081",
+"row": 45,
+"src": null,
+"s": "SAR (microwave) remote sensing is especially useful for flood mapping because it can:",
+"o": [
+"Observe through cloud cover and in darkness",
+"Measure thermal emission from water bodies",
+"Record images only in visible light",
+"Operate only in daylight under clear skies"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Microwave/SAR systems can observe through cloud cover and in darkness, making them useful for flood mapping in cloudy conditions.",
+"link": "45:2:2"
+},
+{
+"id": "n40c36409ef8",
+"row": 45,
+"src": null,
+"s": "InSAR detects ground deformation by comparing which property of two or more radar images of the same area?",
+"o": [
+"Phase",
+"Colour",
+"Brightness temperature",
+"Spectral reflectance"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Interferometric SAR compares the phase of two or more radar images of the same area to detect ground deformation.",
+"link": "45:2:3"
+},
+{
+"id": "n02f29099f21",
+"row": 45,
+"src": null,
+"s": "Which type of sensor is best suited for measuring soil moisture from space?",
+"o": [
+"Visible-light camera",
+"Microwave or SAR sensor",
+"Lidar altimeter",
+"Ultraviolet spectrometer"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Microwave and SAR sensors are particularly suitable for soil-moisture measurement; NISAR uses L-band and S-band radar for this.",
+"link": "45:2:2"
+},
+{
+"id": "n06ddb5df993",
+"row": 45,
+"src": null,
+"s": "Which observations does NISAR use to detect centimetre-scale ground movement for studying land subsidence, earthquakes and glaciers?",
+"o": [
+"Radar observations",
+"Visible-light images only",
+"Thermal-infrared images only",
+"Sonar soundings"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "NISAR uses radar observations, which let it detect centimetre-scale ground movement.",
+"link": "45:2:4"
+},
+{
+"id": "n9f2f9533b82",
+"row": 45,
+"src": null,
+"s": "Remote sensing is used to assess which of the following natural-resource features?",
+"o": [
+"Snow and glaciers only",
+"Wetlands only",
+"Surface and groundwater prospects, snow and glaciers, wetlands, and mineral and hydrocarbon zones",
+"Mineral and hydrocarbon zones only"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "All of these are listed as measurable by remote sensing, along with land cover, vegetation, soil and crop yield.",
+"link": "45:2:5"
+},
+{
+"id": "f46a4ad070f6d",
+"row": 45,
+"src": "app",
+"s": "Oceansat and Resourcesat are examples of which of the following?",
+"o": [
+"Active remote sensing",
+"Passive remote sensing",
+"Synthetic aperture radar",
+"Interferometric SAR"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "They use natural radiation (sunlight), so they are passive; RISAT radar, which sends its own signal, is active.",
+"link": "45:2:1.1"
+},
+{
+"id": "g20483bfcc566",
+"row": 45,
+"src": "app",
+"s": "Which of the following can be estimated using satellite remote sensing?",
+"o": [
+"Crop yield",
+"Soil nutrient levels by laboratory chemical testing",
+"Spread of a disease among humans",
+"Prediction of an earthquake"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Remote sensing can estimate crop yield (YES-TECH); chemical soil testing, disease spread and earthquake prediction are not remote-sensing tasks.",
+"link": "45:2:5"
+},
+{
+"id": "ga9028384c9fc",
+"row": 45,
+"src": "app",
+"s": "Which two radar bands does NISAR use?",
+"o": [
+"L-band and S-band",
+"C-band and X-band",
+"Ku-band and Ka-band",
+"L-band and C-band"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "NISAR carries L-band and S-band radar to measure centimetre-scale ground movement.",
+"link": "45:2:4"
+},
+{
+"id": "n7f1b0769597",
+"row": 45,
+"src": null,
+"s": "How is the Normalised Difference Vegetation Index (NDVI) computed?",
+"o": [
+"(Red − NIR) / (Red + NIR)",
+"(NIR − Blue) / (NIR + Blue)",
+"(NIR + Red) / (NIR − Red)",
+"(NIR − Red) / (NIR + Red)"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "NDVI = (NIR − Red) / (NIR + Red); it works because healthy vegetation reflects strongly in the near-infrared band.",
+"link": "45:2:7.0"
+},
+{
+"id": "n57f43d20669",
+"row": 45,
+"src": null,
+"s": "Which index is most widely used for the operational assessment of drought?",
+"o": [
+"Vegetation Condition Index",
+"Normalized Difference Vegetation Index",
+"Enhanced Water Index",
+"Soil Adjusted Vegetation Index"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "NDVI is the most widely used spectral vegetation index for operational drought assessment.",
+"link": "45:2:7.0"
+},
+{
+"id": "n9a57e8d6bf1",
+"row": 45,
+"src": null,
+"s": "Which of the following does the NH Green Cover Index 2025-26, India's first satellite-based green-cover assessment of its kind, cover?",
+"o": [
+"Railway lines",
+"Urban wards",
+"River banks",
+"National highways"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The NH Green Cover Index is India's first satellite-based green-cover assessment of highways and uses chlorophyll detection.",
+"link": "45:2:7.3"
+},
+{
+"id": "na708c3572cc",
+"row": 45,
+"src": null,
+"s": "From which data is the Vegetation Condition Index (VCI), used in drought declaration, derived?",
+"o": [
+"NDVI",
+"Ocean-colour chlorophyll data",
+"Sea-surface temperature",
+"Aerosol optical depth"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "VCI is derived from vegetation-related NDVI data and is used in drought declaration.",
+"link": "45:2:7.0"
+},
+{
+"id": "g834e176490cf",
+"row": 45,
+"src": "app",
+"s": "What is the full form of NDVI?",
+"o": [
+"Normalized Difference Vegetation Index",
+"National Drought Vegetation Index",
+"Net Density Vegetation Indicator",
+"Normalized Drought Variation Index"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "NDVI is the Normalized Difference Vegetation Index, computed as (NIR - Red)/(NIR + Red).",
+"link": "45:2:7.0"
+},
+{
+"id": "gf789167e9b70",
+"row": 45,
+"src": "app",
+"s": "In which part of the spectrum does healthy vegetation reflect most strongly, which is used in NDVI?",
+"o": [
+"Ultraviolet",
+"Blue",
+"Near-infrared",
+"Thermal infrared"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Healthy vegetation reflects strongly in near-infrared; NDVI = (NIR - Red)/(NIR + Red).",
+"link": "45:2:7.0"
+},
+{
+"id": "g39bda29c5672",
+"row": 45,
+"src": "app",
+"s": "Consider the following statements about NDVI:\n1. Its value ranges from -1 to +1.\n2. It is the most widely used index for operational drought assessment.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 only",
+"2 only",
+"Both 1 and 2",
+"Neither 1 nor 2"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "NDVI ranges from -1 to +1 and is the most widely used index for operational drought assessment.",
+"link": "45:2:7.0"
+},
+{
+"id": "fcff50cd37be5",
+"row": 45,
+"src": "app",
+"s": "What does the National Carbon Project of the ISRO-Geosphere Biosphere Programme assess?",
+"o": [
+"Black-carbon aerosols over Indian cities",
+"Carbon pools, fluxes and net carbon balance of India's terrestrial biosphere",
+"Ocean carbon uptake in the Indian Ocean",
+"Carbon credits traded by Indian industries"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Its goal is to assess the carbon pools, fluxes and net carbon balance of India's terrestrial biosphere.",
+"link": "45:2:8"
+},
+{
+"id": "f5d1a79d3defb",
+"row": 45,
+"src": "app",
+"s": "Consider the following statements about the National Carbon Project:\n1. It covers vegetation carbon pools.\n2. It covers soil carbon pools.\n3. It is limited to the marine biosphere.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Its components are vegetation carbon pools, soil carbon pools and soil-vegetation fluxes; it studies the terrestrial, not marine, biosphere.",
+"link": "45:2:8"
+},
+{
+"id": "n03e93f8c6f2",
+"row": 45,
+"src": null,
+"s": "On which satellite-derived information are Potential Fishing Zone advisories mainly prepared?",
+"o": [
+"cloud height and crop acreage",
+"ground deformation and glacier movement",
+"soil moisture and land temperature",
+"chlorophyll and sea-surface temperature"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "PFZ advisories identify fish-rich areas using satellite observations of chlorophyll and sea-surface temperature.",
+"link": "45:5:0"
+},
+{
+"id": "n21ca5cd184a",
+"row": 45,
+"src": null,
+"s": "Which of the following is NOT correctly matched?",
+"o": [
+"CHAMAN — horticulture area and condition mapping",
+"NADAMS — agricultural drought monitoring",
+"FASAL — pre-harvest crop acreage and production forecasts",
+"GEMINI — mapping soil resources from satellite data"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "GEMINI sends PFZ, Ocean State Forecast and disaster alerts to fishermen. Soil-resource mapping from satellite data is associated with the Soil and Land Use Survey of India.",
+"link": "45:5:1.1"
+},
+{
+"id": "nb36b8503e43",
+"row": 45,
+"src": null,
+"s": "Which institution issues Potential Fishing Zone (PFZ) advisories, now using EOS-06 (Oceansat-3) data?",
+"o": [
+"IMD, New Delhi",
+"NRSC, Hyderabad",
+"SAC, Ahmedabad",
+"INCOIS, Hyderabad"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "INCOIS, Hyderabad issues PFZ advisories using EOS-06 (Oceansat-3) data; it also issues the Ocean State Forecast.",
+"link": "45:5:0"
+},
+{
+"id": "n75ffa49dd3c",
+"row": 45,
+"src": null,
+"s": "Who developed the Nabhmitra safety service for fishermen?",
+"o": [
+"INCOIS, Hyderabad",
+"NRSC, Hyderabad",
+"Airports Authority of India",
+"ISRO's Space Applications Centre, Ahmedabad"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Nabhmitra comes from ISRO's SAC, Ahmedabad and gives two-way messaging via GSAT; INCOIS with AAI developed GEMINI.",
+"link": "45:5:1.0"
+},
+{
+"id": "nfd38c03c56d",
+"row": 45,
+"src": null,
+"s": "What is Nabhmitra, tested at Neendakara in Kerala in August 2023?",
+"o": [
+"a GIS software package",
+"a satellite-based safety device for fishermen",
+"a crop-yield estimation framework",
+"an agricultural drought index"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Nabhmitra is a satellite-based fishermen safety device developed by ISRO’s Space Applications Centre, Ahmedabad, and tested at Neendakara in August 2023.",
+"link": "45:5:1.0"
+},
+{
+"id": "nb2c84c03787",
+"row": 45,
+"src": null,
+"s": "About what does the satellite-based coastal-fishermen alert service run from the RTGS hub at Vijayawada warn?",
+"o": [
+"Oil spills and ship traffic",
+"Rainfall and crop pests",
+"Tsunamis and earthquakes",
+"Cyclones, high waves and fish shoals"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The RTGS hub at Vijayawada provides satellite-based alerts to coastal fishermen about cyclones, high waves and fish shoals.",
+"link": "45:5:4"
+},
+{
+"id": "fe0721005ff28",
+"row": 45,
+"src": "app",
+"s": "Who developed the GEMINI device, which gives PFZ, ocean-state and disaster alerts at sea?",
+"o": [
+"ISRO SAC, Ahmedabad",
+"NRSC, Hyderabad",
+"INCOIS with AAI",
+"IITM Pune"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "GEMINI was developed by INCOIS with the Airports Authority of India and uses GAGAN; Nabhmitra is SAC's device.",
+"link": "45:5:1.1"
+},
+{
+"id": "f02c3979349d7",
+"row": 45,
+"src": "app",
+"s": "What does the second-generation Distress Alert Transmitter (DAT-SG) send back to fishermen?",
+"o": [
+"A cyclone track map",
+"A potential fishing zone chart",
+"A sea-surface temperature map",
+"An acknowledgement of the distress alert"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "DAT-SG has a NavIC module and sends an acknowledgement back to fishermen.",
+"link": "45:5:1.2"
+},
+{
+"id": "g02ec8d79fa87",
+"row": 45,
+"src": "app",
+"s": "Which institution issues the Ocean State Forecast for India's seas?",
+"o": [
+"India Meteorological Department",
+"INCOIS, Hyderabad",
+"NRSC, Hyderabad",
+"SAC, Ahmedabad"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "INCOIS, Hyderabad issues the Ocean State Forecast as well as Potential Fishing Zone advisories.",
+"link": "45:5:0"
+},
+{
+"id": "g9e82511601ee",
+"row": 45,
+"src": "app",
+"s": "Which satellite system does the GEMINI device use to send alerts to fishermen at sea?",
+"o": [
+"NavIC",
+"GAGAN",
+"GPS",
+"Iridium"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "GEMINI, developed by INCOIS with AAI, uses GAGAN to send PFZ, ocean-state and disaster alerts.",
+"link": "45:5:1.1"
+},
+{
+"id": "nf98570d2b7e",
+"row": 45,
+"src": null,
+"s": "Who developed the lightning-alert app Damini?",
+"o": [
+"IMD",
+"INCOIS, Hyderabad",
+"IITM, Pune",
+"NRSC, Hyderabad"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Damini is from IITM Pune (MoES); Mausam is IMD's weather app.",
+"link": "45:5:1.4"
+},
+{
+"id": "n7014694491b",
+"row": 45,
+"src": null,
+"s": "In which city was Andhra Pradesh's City Flood Alert system first implemented?",
+"o": [
+"Visakhapatnam",
+"Vijayawada",
+"Guntur",
+"Nellore"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "It was first implemented in Vijayawada, using satellite DEMs and Budameru flood data.",
+"link": "45:5:1.7"
+},
+{
+"id": "n2d7f79e4d6c",
+"row": 45,
+"src": null,
+"s": "The MoU signed on 15 April 2026 between APSDMA and NRSC primarily seeks to address which problem in rural Andhra Pradesh?",
+"o": [
+"Crop-yield estimation",
+"Lightning deaths",
+"Coastal erosion",
+"Groundwater depletion"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The APSDMA-NRSC MoU aims to prevent lightning deaths in rural Andhra Pradesh.",
+"link": "45:5:4"
+},
+{
+"id": "g55695ce18d02",
+"row": 45,
+"src": "app",
+"s": "Who developed the Mausam weather app?",
+"o": [
+"IITM, Pune",
+"India Meteorological Department",
+"ICAR",
+"INCOIS"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Mausam is the weather app of the India Meteorological Department (IMD); Damini is IITM's lightning app.",
+"link": "45:5:1.5"
+},
+{
+"id": "gfe8ff429b55a",
+"row": 45,
+"src": "app",
+"s": "Which institution worked with RTGS and APSDMA on Andhra Pradesh's AI-based City Flood Alert system?",
+"o": [
+"IIT Madras",
+"IIT Gandhinagar",
+"IIT Tirupati",
+"IIT Hyderabad"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "City Flood Alert (AP) was built by RTGS, APSDMA and IIT Gandhinagar, first in Vijayawada.",
+"link": "45:5:1.7"
+},
+{
+"id": "ndd2372da6f5",
+"row": 45,
+"src": null,
+"s": "Which vehicles does the Andhra Pradesh Motor Vehicle Tracking System (APMVTS) mainly track with AIS-140 devices?",
+"o": [
+"School buses",
+"Ambulances",
+"Fishing boats",
+"Mineral vehicles"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "APMVTS fitted 50,000 mineral vehicles with AIS-140 tracking devices.",
+"link": "45:5:3.3"
+},
+{
+"id": "f83216cf78520",
+"row": 45,
+"src": "app",
+"s": "APMVTS in Andhra Pradesh tracks about how many mineral vehicles with AIS-140 devices?",
+"o": [
+"5,000",
+"25,000",
+"50,000",
+"1,00,000"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "APMVTS fits AIS-140 devices on about 50,000 mineral vehicles.",
+"link": "45:5:3.3"
+},
+{
+"id": "na8eda160550",
+"row": 45,
+"src": null,
+"s": "Which of the following pairs is NOT correctly matched in relation to APSAC activities?",
+"o": [
+"VCI — Agricultural drought assessment at mandal level",
+"APSSDI — Satellite-based lightning alert application",
+"YES-TECH — Yield estimation in Nandyal and Kakinada",
+"SVAMITVA — Drone survey"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "APSSDI standardises GIS layers and supports spatial mapping; the satellite-based lightning alert application is not its stated function. APSAC uses VCI, YES-TECH and SVAMITVA for the functions listed in the other pairs.",
+"link": "45:5:4"
+},
+{
+"id": "n7735548f86f",
+"row": 45,
+"src": null,
+"s": "The Andhra Pradesh State Spatial Data Infrastructure (APSSDI) has standardised how many GIS layers to ISO standards?",
+"o": [
+"64",
+"74",
+"84",
+"47"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "APSSDI has standardised 74 GIS layers to ISO standards and is registered with the National Data Registry.",
+"link": "45:5:4"
+},
+{
+"id": "f2d680db0f804",
+"row": 45,
+"src": "app",
+"s": "How many drought mandals did Andhra Pradesh declare in 2024-25 using mandal-level VCI?",
+"o": [
+"80",
+"103",
+"107",
+"130"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "AP declared 103 drought mandals in 7 districts, of which 80 were severe.",
+"link": "45:5:3.0"
+},
+{
+"id": "f7adb0179c146",
+"row": 45,
+"src": "app",
+"s": "The PM Gati Shakti platform in Andhra Pradesh has how many GIS layers?",
+"o": [
+"74",
+"172",
+"271",
+"127"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Gati Shakti AP has 271 GIS layers across 27 departments; 74 is the APSSDI figure.",
+"link": "45:5:4"
+},
+{
+"id": "f75326a4379e3",
+"row": 45,
+"src": "app",
+"s": "About how long is the Andhra Pradesh coastline covered by APSAC's shoreline mapping?",
+"o": [
+"1,503 km",
+"974 km",
+"1,153 km",
+"1,053 km"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The 1,053 km coast is 26% eroded, 54% accreting and 20% stable.",
+"link": "45:5:4"
+},
+{
+"id": "faf6f9ad3a279",
+"row": 45,
+"src": "app",
+"s": "YES-TECH yield pilots in Andhra Pradesh were run in which districts?",
+"o": [
+"Nandyal and Kakinada",
+"Krishna and Guntur",
+"Nellore and Prakasam",
+"Kurnool and Anantapur"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "APSAC ran YES-TECH pilots in Nandyal and Kakinada.",
+"link": "45:5:3.1"
+},
+{
+"id": "nccc04659e7d",
+"row": 45,
+"src": null,
+"s": "What are ISRO's single-window centres for tele-education, telemedicine, weather and land/water advisories called?",
+"o": [
+"Common Service Centres",
+"Village Resource Centres",
+"Krishi Vigyan Kendras",
+"Regional Remote Sensing Centres"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "ISRO's Village Resource Centres are single-window centres for these services.",
+"link": "45:6:0"
+},
+{
+"id": "nc6baab2e3e2",
+"row": 45,
+"src": null,
+"s": "Tele-education, telemedicine and Village Resource Centres in India have been enabled by which satellite systems?",
+"o": [
+"NavIC and GAGAN",
+"IRS and Cartosat",
+"INSAT and GSAT",
+"Oceansat and Resourcesat"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "INSAT and GSAT satellite communication systems have enabled tele-education, telemedicine and Village Resource Centres.",
+"link": "45:6:0"
+},
+{
+"id": "nfc847729bfd",
+"row": 45,
+"src": null,
+"s": "Swayam Prabha provides how many free DTH channels through GSAT-15?",
+"o": [
+"30",
+"32",
+"40",
+"50"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Swayam Prabha provides 40 free DTH channels through GSAT-15.",
+"link": "45:6:1"
+},
+{
+"id": "n81a47540108",
+"row": 45,
+"src": null,
+"s": "Which of the following is NOT correct about satellite-based timing in India?",
+"o": [
+"Banks use it to time-stamp transactions",
+"Power grids use it to synchronise their phase",
+"NavIC is now India's reference for Indian Standard Time",
+"The government wants NavIC to serve Indian Standard Time"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "GPS is the current reference; the government only wants NavIC to serve Indian Standard Time.",
+"link": "45:6:3"
+},
+{
+"id": "n1fa0f7faaba",
+"row": 45,
+"src": null,
+"s": "On which satellite are Swayam Prabha's educational DTH channels carried?",
+"o": [
+"GSAT-15",
+"NVS-02",
+"Cartosat-3",
+"Oceansat-3"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Swayam Prabha's DTH channels are on GSAT-15.",
+"link": "45:6:1"
+},
+{
+"id": "n08b6e17c556",
+"row": 45,
+"src": null,
+"s": "Why did NVS-02 attract attention in March 2026?",
+"o": [
+"Used exclusively for telemedicine",
+"Transferred to the GAGAN system",
+"Destroyed during atmospheric re-entry",
+"Stranded in an incorrect orbit"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "NVS-02 was stranded in the wrong orbit, limiting its intended use in the NavIC system.",
+"link": "45:6:4"
+},
+{
+"id": "f16a89d009fc8",
+"row": 45,
+"src": "app",
+"s": "On which satellites does GAGAN, the ISRO-AAI system, have payloads?",
+"o": [
+"GSAT-8, 10 and 15",
+"GSAT-6, 7 and 9",
+"INSAT-3D and 3DS",
+"IRNSS-1A, 1B and 1F"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "GAGAN payloads are carried on GSAT-8, GSAT-10 and GSAT-15.",
+"link": "45:6:5"
+},
+{
+"id": "fa45c58bd8e77",
+"row": 45,
+"src": "app",
+"s": "Which of the following is NOT correct about satellite-based services in India?",
+"o": [
+"EDUSAT and GRAMSAT support tele-education",
+"Village Resource Centres are run by IMD",
+"Swayam Prabha offers 40 free DTH channels",
+"ISRO Telemedicine Network links rural clinics to specialists"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Village Resource Centres are ISRO's single-window centres, not IMD's.",
+"link": "45:6:0"
+},
+{
+"id": "g5e60722ebdd6",
+"row": 45,
+"src": "app",
+"s": "The atomic clock of which NavIC satellite failed in March 2026, leaving only three PNT-capable satellites?",
+"o": [
+"NVS-02",
+"IRNSS-1F",
+"NVS-01",
+"IRNSS-1L"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "On 13 March 2026 the IRNSS-1F clock failed, leaving only 3 PNT-capable NavIC satellites.",
+"link": "45:6:4"
+},
+{
+"id": "n0877dc097a4",
+"row": 45,
+"src": null,
+"s": "For what are Resourcesat-series data mainly used?",
+"o": [
+"Satellite navigation and timing",
+"Crop acreage assessment, watershed management and precision farming",
+"Two-way messaging to fishermen",
+"Ocean-wave forecasting"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Resourcesat data support crop acreage assessment, watershed management and precision farming.",
+"link": "45:4:1"
+},
+{
+"id": "n15d0ec25e7f",
+"row": 45,
+"src": null,
+"s": "In which year was the Mahalanobis National Crop Forecast Centre (MNCFC), which makes ISRO's crop-forecasting methods operational, set up?",
+"o": [
+"2005",
+"2010",
+"2012",
+"2015"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "MNCFC was set up in 2012.",
+"link": "45:4:0.1"
+},
+{
+"id": "n962214f6e1e",
+"row": 45,
+"src": null,
+"s": "Which of the following pairs is correctly matched?",
+"o": [
+"FASAL – Satellite-based crop yield estimation for PMFBY",
+"CHAMAN – Horticulture area and production assessment",
+"YES-TECH – Agricultural drought monitoring",
+"NADAMS – Pre-harvest crop acreage and production forecasts"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "CHAMAN covers horticulture. FASAL gives pre-harvest forecasts, YES-TECH estimates yield for PMFBY and NADAMS monitors agricultural drought.",
+"link": "45:4:0.3"
+},
+{
+"id": "f418e44ac14a1",
+"row": 45,
+"src": "app",
+"s": "For what is FASAL mainly used?",
+"o": [
+"Horticulture area estimation",
+"Yield estimation for crop insurance",
+"Pre-harvest crop acreage and production forecasts",
+"Agricultural drought monitoring"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "FASAL gives pre-harvest crop acreage and production forecasts; CHAMAN is horticulture, YES-TECH yield and NADAMS drought.",
+"link": "45:4:0.0"
+},
+{
+"id": "fb0e0b27cff2d",
+"row": 45,
+"src": "app",
+"s": "What does the CHAMAN programme use space technology to assess?",
+"o": [
+"Jute acreage",
+"Horticulture area and production",
+"Agricultural drought",
+"Rice yield for crop insurance"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "CHAMAN covers horticulture area and production; jute is under JCIS and drought under NADAMS.",
+"link": "45:4:0.3"
+},
+{
+"id": "fa9916a8fa922",
+"row": 45,
+"src": "app",
+"s": "Which programme monitors agricultural drought using satellite data?",
+"o": [
+"NADAMS",
+"FASAL",
+"CHAMAN",
+"YES-TECH"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "NADAMS monitors agricultural drought; FASAL forecasts crops, CHAMAN covers horticulture and YES-TECH yield.",
+"link": "45:4:0.4"
+},
+{
+"id": "f03854aa7d85c",
+"row": 45,
+"src": "app",
+"s": "What does YES-TECH provide to support the Pradhan Mantri Fasal Bima Yojana?",
+"o": [
+"Pre-harvest acreage forecasts",
+"Horticulture production estimates",
+"Mandal-level drought declaration",
+"Crop yield estimation"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "YES-TECH estimates crop yield (such as rice) for crop insurance under PMFBY.",
+"link": "45:4:0.2"
+},
+{
+"id": "gcaeba3529c7d",
+"row": 45,
+"src": "app",
+"s": "What is the full form of FASAL?",
+"o": [
+"Forecasting Agricultural output using Space, Agro-meteorology and Land-based observations",
+"Farm Assessment using Satellites and Land records",
+"Forecasting Agricultural Seasons and Land use",
+"Field Area Survey for Agricultural Lands"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "FASAL stands for Forecasting Agricultural output using Space, Agro-meteorology and Land-based observations; it gives pre-harvest forecasts.",
+"link": "45:4:0.0"
+},
+{
+"id": "ga248c743593f",
+"row": 45,
+"src": "app",
+"s": "Which organisation maps the soil resources of India?",
+"o": [
+"Survey of India",
+"Forest Survey of India",
+"Soil and Land Use Survey of India (SLUSI)",
+"NRSC, Hyderabad"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "SLUSI (Soil and Land Use Survey of India) maps soil resources.",
+"link": "45:4:1"
+},
+{
+"id": "g7800e20f54ba",
+"row": 45,
+"src": "app",
+"s": "What wheat production for rabi 2024-25 did NRSC's CROP framework estimate using satellite data?",
+"o": [
+"102.4 MT",
+"112.9 MT",
+"122.724 MT",
+"132.5 MT"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Using EOS-04, EOS-06 and Resourcesat-2A, the CROP framework estimated rabi 2024-25 wheat at 122.724 million tonnes.",
+"link": "45:4:0.5"
+},
+{
+"id": "g512401d38fdb",
+"row": 45,
+"src": "app",
+"s": "Which organisations jointly developed Meghdoot, the app that gives agro-meteorological advisories to farmers?",
+"o": [
+"ISRO and NRSC",
+"IMD and ICAR",
+"IITM Pune and MoES",
+"INCOIS and AAI"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Meghdoot gives agro-met advisories and is a joint app of IMD and ICAR.",
+"link": "45:4:2"
+},
+{
+"id": "nf50ba2d7f25",
+"row": 46,
+"src": null,
+"s": "What is the principal aim of Project NETRA?",
+"o": [
+"Track only military aircraft in Indian airspace",
+"Safeguard Indian space assets from debris and collisions",
+"Provide satellite television services to rural areas",
+"Develop reusable launch vehicles for lunar missions"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Project NETRA aims to provide indigenous space situational awareness and safeguard Indian space assets from debris and collisions.",
+"link": "46:0:2.0"
+},
+{
+"id": "n9b7921cfb7b",
+"row": 46,
+"src": null,
+"s": "In which field does Bengaluru-based start-up Digantara mainly work?",
+"o": [
+"Hyperspectral earth imaging",
+"Small satellite launch vehicles",
+"Satellite electric propulsion",
+"Space situational awareness and debris tracking"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Digantara is a space-situational-awareness start-up building space-surveillance satellites and generating debris-tracking data.",
+"link": "46:0:2.3"
+},
+{
+"id": "n943fc6fdbad",
+"row": 46,
+"src": null,
+"s": "Which organisation runs Project NETRA, which gives 24–72 hours' warning of close approaches in space?",
+"o": [
+"DRDO",
+"IN-SPACe",
+"ISRO",
+"Indian Air Force"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "NETRA is an ISRO project to safeguard Indian space assets; IS4OM compiles the annual ISSAR.",
+"link": "46:0:2.0"
+},
+{
+"id": "n51410387839",
+"row": 46,
+"src": null,
+"s": "How many collision avoidance manoeuvres (CAMs) did India record in 2025?",
+"o": [
+"8",
+"12",
+"18",
+"23"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "18 CAMs were recorded in 2025, continuing regular CAMs for Cartosat, Resourcesat and GSAT.",
+"link": "46:0:3"
+},
+{
+"id": "f055ca02e02d2",
+"row": 46,
+"src": "app",
+"s": "Which ISRO system tracks debris and compiles the annual ISSAR?",
+"o": [
+"Project NETRA",
+"IS4OM",
+"Digantara",
+"IADC"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "IS4OM compiles ISSAR; NETRA is the tracking network.",
+"link": "46:0:2.2"
+},
+{
+"id": "f03f40d7a2673",
+"row": 46,
+"src": "app",
+"s": "Which Indian satellite avoided a defunct US satellite in 2019?",
+"o": [
+"Cartosat-2",
+"RISAT-2B",
+"GSAT-30",
+"Resourcesat-2"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "RISAT-2B made a manoeuvre in 2019 to avoid a defunct US satellite.",
+"link": "46:0:3"
+},
+{
+"id": "f02dfd9f0ee25",
+"row": 46,
+"src": "app",
+"s": "Which of the following is a private space situational awareness start-up based in Bengaluru?",
+"o": [
+"IS4OM",
+"NETRA",
+"POEM",
+"Digantara"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Digantara is a private Bengaluru start-up working on space surveillance and debris tracking; IS4OM and NETRA are ISRO's.",
+"link": "46:0:2.3"
+},
+{
+"id": "g5b4e168d0ec8",
+"row": 46,
+"src": "app",
+"s": "What is the full form of NETRA in ISRO's Project NETRA?",
+"o": [
+"Network for Space Object Tracking and Analysis",
+"National Electronic Tracking and Ranging Array",
+"Network for Earth Tracking and Remote Assessment",
+"National Early-warning Tracking and Response Agency"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Project NETRA is ISRO's Network for Space Object Tracking and Analysis, which safeguards Indian space assets.",
+"link": "46:0:2.0"
+},
+{
+"id": "g26ea6af6ec98",
+"row": 46,
+"src": "app",
+"s": "What is the full form of IS4OM?",
+"o": [
+"ISRO System for Safe and Sustainable Space Operations Management",
+"Indian Space Station for Orbital Monitoring",
+"ISRO Space Surveillance and Satellite Safety Operations Module",
+"Integrated System for Space Object Observation and Monitoring"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "IS4OM = ISRO System for Safe and Sustainable Space Operations Management; it compiles the annual ISSAR.",
+"link": "46:0:2.2"
+},
+{
+"id": "g6a39541e3171",
+"row": 46,
+"src": "app",
+"s": "In which year was ISRO's IS4OM facility for space situational awareness dedicated to the nation?",
+"o": [
+"2019",
+"2020",
+"2022",
+"2024"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "IS4OM was dedicated to the nation by Dr Jitendra Singh in 2022.",
+"link": "46:0:2.2"
+},
+{
+"id": "naa85be2ad62",
+"row": 46,
+"src": null,
+"s": "Which of the following defines space debris?",
+"o": [
+"Operational satellites that have drifted from their assigned orbit",
+"All non-functional man-made objects, including fragments, in orbit or re-entering",
+"Natural meteoroids passing through Earth orbit",
+"Fragments created only by anti-satellite tests"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Space debris consists of non-functional man-made objects, including fragments, that are in orbit or re-entering the atmosphere.",
+"link": "46:1:1"
+},
+{
+"id": "nc68134f1747",
+"row": 46,
+"src": null,
+"s": "What is the main source of space debris?",
+"o": [
+"Fragmentation from collisions and explosions",
+"Spent rocket stages",
+"Tools lost on spacewalks",
+"Anti-satellite (ASAT) tests"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Fragmentation from collisions and explosions is the main source; the others are also sources of debris.",
+"link": "46:1:2"
+},
+{
+"id": "ne0a2bd84171",
+"row": 46,
+"src": null,
+"s": "What did Mission Shakti, conducted on 27 March 2019, involve?",
+"o": [
+"The deployment of India's first space station",
+"A soft landing of a rover on the Moon",
+"A kinetic-kill ASAT test that destroyed Microsat-R at about 300 km",
+"A test of a reusable launch vehicle at 300 km altitude"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Mission Shakti was a DRDO kinetic-kill anti-satellite test that destroyed the Indian satellite Microsat-R at approximately 300 km altitude, raising debris concerns.",
+"link": "46:1:2"
+},
+{
+"id": "nae5b9d1aaa0",
+"row": 46,
+"src": null,
+"s": "Which of the following is NOT correct about space debris risks?",
+"o": [
+"Kessler Syndrome is a self-sustaining cascade of debris-creating collisions that can make orbits unusable",
+"MMOD (micrometeoroids and orbital debris) is the top risk mainly in geostationary orbit",
+"Kessler Syndrome is named after NASA scientist Donald Kessler",
+"The Kessler Syndrome idea dates from 1978"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "MMOD is the top risk in low Earth orbit (LEO), not GEO.",
+"link": "46:1:5"
+},
+{
+"id": "f4aef2cfd6310",
+"row": 46,
+"src": "app",
+"s": "In which year did Donald Kessler of NASA describe the Kessler Syndrome?",
+"o": [
+"1978",
+"1968",
+"1988",
+"1993"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Kessler described the syndrome in 1978: debris density leads to collisions, more fragments and unusable orbits.",
+"link": "46:1:4"
+},
+{
+"id": "f69825ff88a9f",
+"row": 46,
+"src": "app",
+"s": "Consider the following statements about the Kessler Syndrome:\n1. High debris density leads to collisions.\n2. Collisions produce more fragments.\n3. It makes orbits more usable over time.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Density leads to collisions and more fragments, which make orbits unusable, so statement 3 is wrong.",
+"link": "46:1:4"
+},
+{
+"id": "fcd78fb65f9e8",
+"row": 46,
+"src": "app",
+"s": "According to ESA (2025), the number of space objects larger than 1 cm is over:",
+"o": [
+"12,000",
+"1.2 lakh",
+"12 million",
+"1.2 million"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "ESA (2025) counts over 1.2 million objects larger than 1 cm.",
+"link": "46:1:3"
+},
+{
+"id": "fc66ccf3b09fa",
+"row": 46,
+"src": "app",
+"s": "MMOD (micrometeoroids and orbital debris) is the top risk in which orbit?",
+"o": [
+"GEO",
+"MEO",
+"LEO",
+"HEO"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "MMOD is the top risk in low Earth orbit, not GEO.",
+"link": "46:1:5"
+},
+{
+"id": "gb54618460270",
+"row": 46,
+"src": "app",
+"s": "Which organisation conducted Mission Shakti, India's first anti-satellite test, in 2019?",
+"o": [
+"ISRO",
+"DRDO",
+"Indian Air Force",
+"Defence Space Agency"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Mission Shakti (27 March 2019) was a DRDO kinetic-kill ASAT test that destroyed Microsat-R.",
+"link": "46:1:2"
+},
+{
+"id": "n9416fa5ef8e",
+"row": 46,
+"src": null,
+"s": "Which of the following pairs about ISRO's POEM platform is correctly matched?",
+"o": [
+"POEM-4 – SpaDeX/PSLV-C60 mission",
+"POEM-4 re-entry – 4 April 2024",
+"POEM-4 – Chandrayaan-3 mission",
+"POEM drag sails – re-entry within decades instead of months"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "POEM-4 belonged to the SpaDeX/PSLV-C60 mission and fell into the Indian Ocean on 4 April 2025; its inflatable sails make it re-enter within months rather than decades.",
+"link": "46:1:7"
+},
+{
+"id": "fd6fb003f1c8c",
+"row": 46,
+"src": "app",
+"s": "On which mission did POEM-4, which re-entered over the Indian Ocean on 4 April 2025, fly?",
+"o": [
+"PSLV-C58",
+"PSLV-C60",
+"PSLV-C62",
+"PSLV-C56"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "POEM-4 flew on PSLV-C60 (SpaDeX); PSLV-C62 planned a PS4 de-boost.",
+"link": "46:1:7"
+},
+{
+"id": "n1b996c3a5e5",
+"row": 46,
+"src": null,
+"s": "Which of the following is NOT correct about space-sustainability challenges facing India?",
+"o": [
+"Space debris threatens Gaganyaan and India's in-orbit satellites",
+"Differences in national licensing conditions may push operators to permissive regimes",
+"Mega-constellations are a newer challenge not adequately addressed by older treaties",
+"Existing treaties adequately address the cumulative harm caused by orbital debris"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The treaties date from the 1960s–70s and do not adequately address cumulative debris harm or mega-constellations.",
+"link": "46:2:1"
+},
+{
+"id": "na890fb6684b",
+"row": 46,
+"src": null,
+"s": "Which Article of the Outer Space Treaty deals with national responsibility, including for private actors?",
+"o": [
+"Article IX",
+"Article VII",
+"Article VI",
+"Article II"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Article VI deals with national responsibility; Article VII concerns liability and Article IX due regard and environmental considerations.",
+"link": "46:2:0.0"
+},
+{
+"id": "nd6b4333ce0c",
+"row": 46,
+"src": null,
+"s": "Which of the following is identified as a significant legal gap in India's space sector?",
+"o": [
+"Absence of a national space policy",
+"Absence of a Space Activities Act addressing liability",
+"Non-membership of UNCOPUOS",
+"Absence of a body to authorise private space activities"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "India does not have a Space Activities Act specifically addressing liability, which is identified as a significant legal gap.",
+"link": "46:2:5"
+},
+{
+"id": "nd3942f7e97f",
+"row": 46,
+"src": null,
+"s": "In which year did India ratify the Outer Space Treaty of 1967?",
+"o": [
+"1967",
+"1975",
+"1979",
+"1982"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "India is a party to the Outer Space Treaty, which bars national appropriation of space, and ratified it in 1982.",
+"link": "46:2:0.0"
+},
+{
+"id": "n420d7d1b799",
+"row": 46,
+"src": null,
+"s": "Which space treaty has India signed but not ratified?",
+"o": [
+"Rescue Agreement (1968)",
+"Registration Convention (1975)",
+"Outer Space Treaty (1967)",
+"Moon Agreement (1979)"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The Moon Agreement is the only one India has signed but not ratified.",
+"link": "46:2:0.4"
+},
+{
+"id": "n0b9413747f5",
+"row": 46,
+"src": null,
+"s": "What is the nature of a launching State's liability under the Liability Convention, 1972, for damage caused by its space object?",
+"o": [
+"Absolute for damage on the Earth's surface and fault-based for damage in outer space",
+"Fault-based for damage on the Earth's surface and absolute for damage in outer space",
+"Absolute in all cases, whether the damage is on Earth or in outer space",
+"Limited to damage caused by private operators only"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The Liability Convention (1972), to which India is a party, makes the launching State absolutely liable for damage on the Earth's surface and liable only for fault for damage caused in outer space. Option B reverses the two rules. Option C ignores the fault standard in space. Option D is wrong because liability rests on the launching State, including for private activity.",
+"link": "46:2:0.2"
+},
+{
+"id": "f11a695b1c308",
+"row": 46,
+"src": "app",
+"s": "Which Article of the Outer Space Treaty deals with liability?",
+"o": [
+"Article V",
+"Article VI",
+"Article VII",
+"Article IX"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Article VII deals with liability; Article VI is national responsibility and Article IX due regard.",
+"link": "46:2:0.0"
+},
+{
+"id": "fc218c6d13633",
+"row": 46,
+"src": "app",
+"s": "On which principle is the Moon Agreement of 1979 based?",
+"o": [
+"Common heritage",
+"Absolute liability",
+"Return of astronauts",
+"Registration with the UN"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The Moon Agreement treats the Moon as common heritage; India signed but has not ratified it.",
+"link": "46:2:0.4"
+},
+{
+"id": "fde0baec89eca",
+"row": 46,
+"src": "app",
+"s": "In which year was the convention requiring space objects to be registered with the UN adopted?",
+"o": [
+"1968",
+"1972",
+"1975",
+"1979"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The Registration Convention is of 1975; India is a party.",
+"link": "46:2:0.3"
+},
+{
+"id": "g2cb76cff44c5",
+"row": 46,
+"src": "app",
+"s": "Which of the following principles is laid down by the Outer Space Treaty of 1967?",
+"o": [
+"No national sovereignty over outer space",
+"Common heritage of the Moon's resources",
+"Absolute liability for damage on Earth",
+"Registration of space objects with the UN"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The Outer Space Treaty says no State can claim sovereignty over outer space; the other principles belong to the Moon Agreement, Liability and Registration Conventions.",
+"link": "46:2:0.0"
+},
+{
+"id": "ge3ba47a56f10",
+"row": 46,
+"src": "app",
+"s": "Which international agreement of 1968 deals with the return of astronauts?",
+"o": [
+"Outer Space Treaty",
+"Rescue Agreement",
+"Liability Convention",
+"Registration Convention"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The Rescue Agreement (1968) deals with the rescue and return of astronauts; India is a party.",
+"link": "46:2:0.1"
+},
+{
+"id": "n4e78878c99e",
+"row": 46,
+"src": null,
+"s": "By which year does India aim to make all its space missions debris-free under its Debris Free Space Missions (DFSM) pledge?",
+"o": [
+"2030",
+"2035",
+"2040",
+"2047"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The DFSM target year is 2030; India made the pledge at the 2024 IADC meeting.",
+"link": "46:3:0"
+},
+{
+"id": "n7eaa7e929ad",
+"row": 46,
+"src": null,
+"s": "Under India's 2026 re-entry rules, aircraft and ships must be warned at least how many days before re-entry?",
+"o": [
+"30 days",
+"45 days",
+"15 days",
+"60 days"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The 2026 rules require a warning at least 45 days before re-entry, not 30.",
+"link": "46:3:3"
+},
+{
+"id": "n874ab54eb2d",
+"row": 46,
+"src": null,
+"s": "With what will the servicer craft of ISRO's planned Active Debris Removal mission capture a defunct rocket body?",
+"o": [
+"A drag sail",
+"An electrodynamic tether",
+"A ground-based laser",
+"A robotic arm or net"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The planned ADR mission uses a servicer craft with a robotic arm or net to capture a defunct Indian rocket body; it is being tested at URSC.",
+"link": "46:3:2"
+},
+{
+"id": "ned5c1ca8e5e",
+"row": 46,
+"src": null,
+"s": "Which of the following is identified as a major gap in the international governance of orbital activities?",
+"o": [
+"Absence of international interest in space debris",
+"Absence of any national licensing system for satellites",
+"Absence of an international duty-of-care standard for orbits",
+"Absence of all collision avoidance technology"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "There is no international duty-of-care standard for orbits. Differences in licensing conditions across countries can encourage operators to choose more permissive regimes.",
+"link": "46:3:4"
+},
+{
+"id": "gba350ae6b7be",
+"row": 46,
+"src": "app",
+"s": "At which forum did India pledge Debris Free Space Missions (DFSM) by 2030?",
+"o": [
+"UNCOPUOS 2023 session",
+"2024 IADC meeting",
+"Artemis Accords signing",
+"Conference on Disarmament"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "India pledged DFSM by 2030 at the 2024 meeting of the Inter-Agency Space Debris Coordination Committee (IADC).",
+"link": "46:3:0"
+},
+{
+"id": "n42fe66a6fe3",
+"row": 46,
+"src": null,
+"s": "Which of the following is a proposed way forward for a safer outer space?",
+"o": [
+"Restricting the sharing of SSA data",
+"Ending advance notices of space activities",
+"Removing hotlines between space actors",
+"Wider sharing of space situational awareness data"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "More SSA data-sharing, along with advance notices and hotlines, is proposed for a safer outer space.",
+"link": "46:4:3"
+},
+{
+"id": "nbbfe71dd9b8",
+"row": 46,
+"src": null,
+"s": "Which country declared a moratorium on destructive direct-ascent anti-satellite tests in April 2022?",
+"o": [
+"China",
+"France",
+"India",
+"The United States"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The United States declared the moratorium on destructive direct-ascent ASAT tests in April 2022, and the issue was subsequently taken up in a UNGA resolution.",
+"link": "46:4:2"
+},
+{
+"id": "n3f7dcfc406e",
+"row": 46,
+"src": null,
+"s": "In which year was UNCOPUOS, of which India is a founding member, established?",
+"o": [
+"1957",
+"1959",
+"1967",
+"1972"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The UN Committee on the Peaceful Uses of Outer Space was established in 1959, and India is a founding member.",
+"link": "46:4:0.0"
+},
+{
+"id": "n701512689e1",
+"row": 46,
+"src": null,
+"s": "In which year was the Inter-Agency Space Debris Coordination Committee (IADC), of which ISRO is a member, established?",
+"o": [
+"1959",
+"1979",
+"1993",
+"2002"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "IADC was established in 1993 and ISRO is a member; India made its DFSM-2030 pledge at the 2024 IADC meeting.",
+"link": "46:4:0.1"
+},
+{
+"id": "n41b056327c0",
+"row": 46,
+"src": null,
+"s": "In which year did India sign the Artemis Accords?",
+"o": [
+"2020",
+"2021",
+"2023",
+"2024"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "India signed in 2023; the US launched the Accords in 2020 as non-binding principles, and they now have over 60 signatories.",
+"link": "46:4:0.2"
+},
+{
+"id": "n051f348750c",
+"row": 46,
+"src": null,
+"s": "What is the Prevention of an Arms Race in Outer Space (PAROS)?",
+"o": [
+"a treaty governing aircraft warnings during re-entry",
+"a long-running agenda item of the UN Conference on Disarmament",
+"a private debris-removal programme led by commercial firms",
+"a bilateral satellite-navigation agreement between India and the United States"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "PAROS is a long-running agenda item in the UN Conference on Disarmament and is backed by UN General Assembly resolutions.",
+"link": "46:4:1"
+},
+{
+"id": "n14d17905e94",
+"row": 46,
+"src": null,
+"s": "What did Prime Minister Narendra Modi advocate at the International Space Summit in Paris on 10 September 2026?",
+"o": [
+"military control over commercial space",
+"national ownership of all orbital regions",
+"cooperation over confrontation",
+"competition over cooperation in outer space"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The stated approach was 'cooperation over confrontation', with the aim of a safe, secure, peaceful and sustainable space domain anchored in international law.",
+"link": "46:4:3"
+},
+{
+"id": "fcba34dd3fdbb",
+"row": 46,
+"src": "app",
+"s": "In which year did the US launch the Artemis Accords, which India signed in 2023?",
+"o": [
+"2017",
+"2020",
+"2023",
+"2019"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The US launched the non-binding Artemis Accords in 2020; India signed in 2023.",
+"link": "46:4:0.2"
+},
+{
+"id": "f9ccd2dd2a97c",
+"row": 46,
+"src": "app",
+"s": "Consider the following statements about the Artemis Accords:\n1. They are legally binding on signatories.\n2. India signed them in 2023.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 only",
+"2 only",
+"Both 1 and 2",
+"Neither 1 nor 2"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The Accords are non-binding, so 1 is wrong; India signed them in 2023.",
+"link": "46:4:0.2"
+},
+{
+"id": "n43d798ebb74",
+"row": 47,
+"src": null,
+"s": "Which post does the Secretary, Department of Defence R&D, also hold?",
+"o": [
+"Chief of Defence Staff",
+"Chairman, DRDO",
+"Defence Secretary",
+"DG (Corporate)"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "In the hierarchy, the Secretary DD R&D is also Chairman DRDO, above the Director Generals and lab directors.",
+"link": "47:0:2"
+},
+{
+"id": "n159b76954b1",
+"row": 47,
+"src": null,
+"s": "Who is the Chairman of DRDO, as stated for February 2026?",
+"o": [
+"Dr R. Chidambaram",
+"Dr G. Satheesh Reddy",
+"Dr S. Somanath",
+"Dr Samir V. Kamat"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Dr Samir V. Kamat retired on 31 May 2026 — now Defence Secretary Rajesh Kumar Singh holds additional charge as DRDO Chairman (Praveen CA-360 May 2026 magazine (src/current-affairs/praveen-ca360-2026-05-magazine.txt) p.71; octlatest daily CA 4 Nov 2026 (src/current-affairs/octlatest-daily-em-ca-2026-11-04.txt) p.3)\nIn February 2026 the DRDO Chairman was Dr Samir V. Kamat (since 2022); he retired on 31 May 2026 (now Rajesh Kumar Singh, additional charge).",
+"link": "47:0:1.2"
+},
+{
+"id": "ndc77f85daee",
+"row": 47,
+"src": null,
+"s": "In DRDO's three-level leadership structure, who make up Level II?",
+"o": [
+"DG (Technology Clusters) and DG (Corporate)",
+"Laboratory directors and corporate directorates",
+"The Secretary, DDR&D, who is also Chairman of DRDO",
+"The Defence Minister and the Secretary, DDR&D"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Level I is the Secretary DDR&D and Chairman, Level II the two DGs, and Level III the lab directors and corporate directorates.",
+"link": "47:0:3"
+},
+{
+"id": "fcb4046933867",
+"row": 47,
+"src": "app",
+"s": "Which is DRDO's parent department under the Ministry of Defence?",
+"o": [
+"Department of Defence Production",
+"Department of Defence Research and Development",
+"Department of Military Affairs",
+"Department of Ex-Servicemen Welfare"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "DRDO works under the Department of Defence R&D, whose Secretary is also Chairman of DRDO.",
+"link": "47:0:2"
+},
+{
+"id": "f7cf77ff46ec9",
+"row": 47,
+"src": "app",
+"s": "Since which year has Dr Samir V. Kamat been Chairman of DRDO?",
+"o": [
+"2018",
+"2020",
+"2022",
+"2024"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Dr Samir V. Kamat retired on 31 May 2026 — now Defence Secretary Rajesh Kumar Singh holds additional charge as DRDO Chairman (Praveen CA-360 May 2026 magazine (src/current-affairs/praveen-ca360-2026-05-magazine.txt) p.71; octlatest daily CA 4 Nov 2026 (src/current-affairs/octlatest-daily-em-ca-2026-11-04.txt) p.3)\nDr Samir V. Kamat became DRDO Chairman in August 2022, after Dr G. Satheesh Reddy; he retired on 31 May 2026 (now Defence Secretary Rajesh Kumar Singh holds additional charge).",
+"link": "47:0:1.2"
+},
+{
+"id": "f023c873bf656",
+"row": 47,
+"src": "app",
+"s": "Consider the following statements about DRDO's structure:\n1. The Secretary, Department of Defence R&D is also Chairman of DRDO.\n2. Lab directors report directly to the Defence Minister.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 only",
+"2 only",
+"Both 1 and 2",
+"Neither 1 nor 2"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The Secretary DDR&D is Chairman; lab directors report to their cluster Director General, so 2 is wrong.",
+"link": "47:0:2"
+},
+{
+"id": "g5df6e9b7c47c",
+"row": 47,
+"src": "app",
+"s": "Dr G. Satheesh Reddy, Chairman of DRDO from 2018 to 2022, is a native of which district of Andhra Pradesh?",
+"o": [
+"Nellore",
+"Kurnool",
+"Chittoor",
+"Guntur"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Dr G. Satheesh Reddy, former DRDO Chairman and Scientific Adviser to the Defence Minister, is a native of Nellore.",
+"link": "47:0:1.1"
+},
+{
+"id": "nd95ed977c52",
+"row": 47,
+"src": null,
+"s": "Which of the following is NOT correct about DRDO?",
+"o": [
+"It was formed in 1958",
+"It was formed by merging the TDEs, the DTDP and the Defence Science Organisation",
+"Its headquarters, DRDO Bhawan, is in Pune",
+"It started with 10 laboratories and now runs about 52"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "DRDO Bhawan is in New Delhi.",
+"link": "47:1:1"
+},
+{
+"id": "nbf979403d75",
+"row": 47,
+"src": null,
+"s": "In which field does DRDO's current vision seek to empower the nation with state-of-the-art indigenous technologies?",
+"o": [
+"defence and security",
+"nuclear energy",
+"space and satellite",
+"information and communication"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "DRDO's current vision is to empower the nation with state-of-the-art indigenous defence and security technologies.",
+"link": "47:1:4"
+},
+{
+"id": "nb92d9ecaa34",
+"row": 47,
+"src": null,
+"s": "Consider the following statements about the mission of DRDO:\n1. It includes building an indigenous technology base.\n2. It aims at optimising combat effectiveness and troop well-being.\n3. It is directed towards greater self-reliance and reduced import dependence.\nWhich of the above statements is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "All three are elements of DRDO's mission, along with designing and developing sensors, weapons and platforms for the Services.",
+"link": "47:1:5"
+},
+{
+"id": "f166c180ef0fd",
+"row": 47,
+"src": "app",
+"s": "DRDO was formed in 1958 by merging the TDEs, the DTDP and which other body?",
+"o": [
+"Defence Science Organisation",
+"Aeronautical Development Agency",
+"Ordnance Factory Board",
+"Department of Defence Production"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "DRDO came from merging the Army's TDEs, the DTDP and the Defence Science Organisation.",
+"link": "47:1:0"
+},
+{
+"id": "f268cebe7d6bd",
+"row": 47,
+"src": "app",
+"s": "In which year was DRDO formed?",
+"o": [
+"1947",
+"1958",
+"1962",
+"1969"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "DRDO was formed in 1958.",
+"link": "47:1:0"
+},
+{
+"id": "f922656736a41",
+"row": 47,
+"src": "app",
+"s": "DRDO began with 10 laboratories; about how many laboratories does it have now?",
+"o": [
+"25",
+"38",
+"52",
+"75"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Most books / old notes: about 52 labs. Strictly (now): about 41 laboratories and 5 DYSLs (DRDO website; NextGen S&T Part 2 p.49).\n\"about 52 laboratories\" is the pre-merger count — now about 41 laboratories and 5 DRDO Young Scientist Laboratories (drdo.gov.in/about-drdo; NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.49)\nDRDO began with 10 laboratories and books long gave \"about 52\"; after mergers DRDO now lists about 41 laboratories plus 5 Young Scientist Labs (now ~41 + 5).",
+"link": "47:1:3"
+},
+{
+"id": "g2254b797a107",
+"row": 47,
+"src": "app",
+"s": "What does DRDO's motto 'Balasya Mulam Vigyanam' mean?",
+"o": [
+"The source of strength is science",
+"Strength lies in unity",
+"Science serves the soldier",
+"Knowledge is power"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "DRDO's motto 'Balasya Mulam Vigyanam' means the source of strength is science.",
+"link": "47:1:2"
+},
+{
+"id": "n3c903f98daa",
+"row": 47,
+"src": null,
+"s": "Which one of the following combinations contains only DRDO-designed systems identified as contributing to defence self-reliance?",
+"o": [
+"Ariane, Soyuz, Falcon and Orion",
+"INS Vikrant, INS Viraat, INS Khanderi and Admiral Gorshkov",
+"Rafale, Apache, Chinook and C-130J",
+"Agni, Prithvi, Tejas, Pinaka and Akash"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "DRDO designed or contributed to systems including Agni, Prithvi, Tejas, Pinaka and Akash, forming part of the foundation of Aatmanirbharta in defence.",
+"link": "47:1:6"
+},
+{
+"id": "n156da04a235",
+"row": 47,
+"src": null,
+"s": "With which company did INMAS develop the oral anti-COVID drug 2-DG?",
+"o": [
+"Dr Reddy's Laboratories",
+"Bharat Biotech",
+"Cipla",
+"Serum Institute of India"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "2-DG was developed by INMAS with Dr Reddy's Laboratories.",
+"link": "47:3:0.5"
+},
+{
+"id": "nc7e20b86288",
+"row": 47,
+"src": null,
+"s": "What is NETRA, referred to in the context of civilian applications?",
+"o": [
+"Airborne early-warning aircraft",
+"Surface-to-surface missile guidance system",
+"Naval sonar for underwater surveillance",
+"Mini-UAV for police and disaster management"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "NETRA or Netra V2 is a mini-UAV intended for police and disaster-management applications. It should not be confused with Netra AEW&C, the airborne early-warning aircraft.",
+"link": "47:3:0.1"
+},
+{
+"id": "fc53079779fa5",
+"row": 47,
+"src": "app",
+"s": "Which laboratories developed DRDO's bio-toilets?",
+"o": [
+"INMAS Delhi and DIPAS Delhi",
+"DFRL Mysuru and DEBEL Bengaluru",
+"DRDE Gwalior and DRL Tezpur",
+"DIBER and NMRL"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Bio-toilets come from DRDE Gwalior and DRL Tezpur.",
+"link": "47:3:0.6"
+},
+{
+"id": "f15b298418d2a",
+"row": 47,
+"src": "app",
+"s": "With which company did DRDO's Pune laboratories develop the Netra mini-UAV?",
+"o": [
+"Digantara",
+"Dr Reddy's",
+"BISAG-N",
+"IdeaForge"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Netra, a ~1.5 kg mini-UAV for police and disaster use, was built with IdeaForge; it is different from the Netra AEW&C.",
+"link": "47:3:0.1"
+},
+{
+"id": "f41a83efe08ca",
+"row": 47,
+"src": "app",
+"s": "For what is Amtooth, a DRDO herbal product, used?",
+"o": [
+"Leucoderma",
+"Eczema",
+"Toothache",
+"Snake repellent"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Amtooth treats toothache; Lukoskin is for leucoderma and Eczit for eczema.",
+"link": "47:3:0.3"
+},
+{
+"id": "g0be719f9220a",
+"row": 47,
+"src": "app",
+"s": "Which DRDO laboratory developed Lukoskin, a herbal product for leucoderma?",
+"o": [
+"DIBER",
+"INMAS",
+"DFRL",
+"DIPAS"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Lukoskin, used for leucoderma, was developed by DRDO's DIBER.",
+"link": "47:3:0.2"
+},
+{
+"id": "nd73258a87c1",
+"row": 47,
+"src": null,
+"s": "Which one of the following pairs is NOT correctly matched?",
+"o": [
+"DIA-CoEs — Premier academic institutions — Critical and futuristic defence technologies",
+"JCBCAT — Jadavpur University, Kolkata",
+"DIAT — Pune — DRDO’s deemed university",
+"DRDO Young Scientist Laboratories — 15 laboratories — Five futuristic areas"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "DRDO Young Scientist Labs are 5 labs in 5 futuristic areas, not 15; 15 is the number of DIA-CoEs. JCBCAT is at Jadavpur University, Kolkata and DIAT Pune is a deemed university, so those pairs are correct.",
+"link": "47:4:1"
+},
+{
+"id": "n04db5dbb391",
+"row": 47,
+"src": null,
+"s": "How many DRDO Industry Academia Centres of Excellence (DIA-CoEs) have been set up at premier institutions such as IITs and IISc?",
+"o": [
+"5",
+"10",
+"15",
+"25"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "DIA-CoEs are a network of 15 centres at premier institutions working on critical and futuristic defence technologies.",
+"link": "47:4:2"
+},
+{
+"id": "n5831e85e515",
+"row": 47,
+"src": null,
+"s": "With which of the following is the Agnishodh research cell associated?",
+"o": [
+"The Indian Army at IIT Madras",
+"The Indian Air Force at IISc Bengaluru",
+"The Indian Navy at IIT Delhi",
+"DRDO at Jadavpur University"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Agnishodh is the Indian Army's research cell at IIT Madras and links Army requirements with academic research and development.",
+"link": "47:4:3"
+},
+{
+"id": "f2be7d6125748",
+"row": 47,
+"src": "app",
+"s": "What kind of institution is DIAT Pune, supported by DRDO?",
+"o": [
+"DRDO laboratory",
+"Deemed university",
+"Central university",
+"Autonomous MoD society"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "DIAT Pune is a deemed university.",
+"link": "47:4:2"
+},
+{
+"id": "fafc4abff2011",
+"row": 47,
+"src": "app",
+"s": "How many DRDO Young Scientist Labs were set up in 2020?",
+"o": [
+"3",
+"5",
+"10",
+"15"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "There are 5 Young Scientist Labs in 5 futuristic areas; 15 is the number of DIA-CoEs.",
+"link": "47:4:1"
+},
+{
+"id": "gbe29f24d6302",
+"row": 47,
+"src": "app",
+"s": "At which university was the Jagadish Chandra Bose Centre for Advanced Technology (JCBCAT) set up with DRDO?",
+"o": [
+"University of Calcutta",
+"Jadavpur University",
+"IISc Bengaluru",
+"Visva-Bharati"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "JCBCAT was set up at Jadavpur University, Kolkata with DRDO's help.",
+"link": "47:4:0"
+},
+{
+"id": "ne3d94f478d0",
+"row": 47,
+"src": null,
+"s": "Which of the following DRDO technology cluster–laboratory pairs is wrongly matched?",
+"o": [
+"Aeronautics – ADE, ADRDE",
+"Naval Systems and Materials – GTRE, CABS",
+"Missiles and Strategic Systems – DRDL, RCI, ASL",
+"Combat Vehicles – CVRDE, VRDE"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "GTRE and CABS belong to the Aeronautics cluster; Naval Systems and Materials includes NSTL, NPOL and NMRL.",
+"link": "47:2:3.2"
+},
+{
+"id": "n5f8a2b08dc2",
+"row": 47,
+"src": null,
+"s": "Which one of the following pairs is NOT correctly matched?",
+"o": [
+"Life Sciences — DIPAS, DFRL, DEBEL, INMAS, DIPR",
+"Armaments and Combat Engineering — ARDE, HEMRL",
+"Electronics and Communication — LRDE, DLRL, DEAL, CAIR",
+"Combat Vehicles — LRDE, DLRL, DEAL, CAIR"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "LRDE, DLRL, DEAL and CAIR belong to the Electronics and Communication cluster. The Combat Vehicles cluster comprises CVRDE and VRDE.",
+"link": "47:2:3.4"
+},
+{
+"id": "n3d2d89c132b",
+"row": 47,
+"src": null,
+"s": "Which of the following correctly represents the Hyderabad missile-laboratory cluster?",
+"o": [
+"ARDE, HEMRL, NSTL, CAIR and ADE",
+"LRDE, CVRDE, VRDE, DEAL and NPOL",
+"DFRL, INMAS, DIPAS, DIPR and NMRL",
+"DRDL, RCI, ASL, DMRL and DLRL"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "DRDL, RCI, ASL, DMRL and DLRL are all located in Hyderabad. They cover missile development, guidance, ballistic missiles, materials and electronic warfare.",
+"link": "47:2:0.1"
+},
+{
+"id": "ff2f9a07bdd7a",
+"row": 47,
+"src": "app",
+"s": "DIPAS, DFRL, DEBEL and INMAS belong to which DRDO technology cluster?",
+"o": [
+"Naval Systems & Materials",
+"Electronics & Communication",
+"Armaments",
+"Life Sciences"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "These four labs form the Life Sciences cluster.",
+"link": "47:2:3.6"
+},
+{
+"id": "ffb775529d980",
+"row": 47,
+"src": "app",
+"s": "CVRDE and VRDE form which DRDO technology cluster?",
+"o": [
+"Combat Vehicles",
+"Armaments",
+"Aeronautics",
+"Missiles & Strategic"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "CVRDE and VRDE make up the Combat Vehicles cluster; ARDE and HEMRL are Armaments.",
+"link": "47:2:3.4"
+},
+{
+"id": "n6c4537eed58",
+"row": 47,
+"src": null,
+"s": "Rustom/TAPAS BH-201, Nishant and Lakshya are associated with which DRDO laboratory?",
+"o": [
+"Aeronautical Development Establishment",
+"Centre for Artificial Intelligence and Robotics",
+"Advanced Systems Laboratory",
+"Aeronautical Development Agency"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The Aeronautical Development Establishment (ADE), Bengaluru works on UAVs such as Rustom/TAPAS BH-201, Nishant and the Lakshya target drone.",
+"link": "47:2:0.5"
+},
+{
+"id": "nb182c9fd57a",
+"row": 47,
+"src": null,
+"s": "Personnel of which bodies are trained at the CBRN Field Training Centre under INMAS, Delhi?",
+"o": [
+"MoD, MEA and ISRO",
+"MoHFW, MEA and DAE",
+"MHA, MoEFCC and NITI Aayog",
+"MoD, MHA and NDMA"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The centre trains personnel of the Ministry of Defence, Ministry of Home Affairs and National Disaster Management Authority in CBRN preparedness.",
+"link": "47:2:0.10"
+},
+{
+"id": "n9bbbdd81264",
+"row": 47,
+"src": null,
+"s": "Which Hyderabad DRDO laboratory works on electronic warfare?",
+"o": [
+"DRDL",
+"DMRL",
+"DLRL",
+"ASL"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "DLRL is the electronic-warfare lab; DRDL develops missiles such as MPATGM, ASL handles Agni and DMRL works on metals and armour.",
+"link": "47:2:0.3"
+},
+{
+"id": "ne6bfccbf1a2",
+"row": 47,
+"src": null,
+"s": "The Pinaka system was designed by which DRDO laboratory?",
+"o": [
+"ARDE, Pune",
+"DRDL, Hyderabad",
+"NSTL, Visakhapatnam",
+"CVRDE, Chennai"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "ARDE, Pune (guns, ammunition, warheads) designed Pinaka, with HEMRL, Pune as partner.",
+"link": "47:2:0.7"
+},
+{
+"id": "ne0818342743",
+"row": 47,
+"src": null,
+"s": "Where is DIPAS, the DRDO laboratory that studies soldier physiology at high altitude and in cold, located?",
+"o": [
+"Delhi",
+"Dehradun",
+"Leh",
+"Pune"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "DIPAS is in Delhi; Dehradun hosts DEAL.",
+"link": "47:2:0.10"
+},
+{
+"id": "nfa508df9563",
+"row": 47,
+"src": null,
+"s": "Which DRDO laboratory works on fuel-cell Air Independent Propulsion (AIP)?",
+"o": [
+"NPOL, Kochi",
+"NMRL",
+"LRDE, Bengaluru",
+"CVRDE, Chennai"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Fuel-cell AIP is NMRL's work; NPOL, Kochi works on sonars.",
+"link": "47:2:0.12"
+},
+{
+"id": "nfd74754191a",
+"row": 47,
+"src": null,
+"s": "Which of the following is NOT correct about DRDO's naval laboratories?",
+"o": [
+"NSTL is located at Visakhapatnam",
+"NSTL works on torpedoes and mines",
+"NPOL works on sonars",
+"NPOL is located at Visakhapatnam"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "NPOL is at Kochi; the Visakhapatnam laboratory is NSTL, which works on torpedoes and mines.",
+"link": "47:2:0.12"
+},
+{
+"id": "nd5c63312089",
+"row": 47,
+"src": null,
+"s": "The bike ambulance was developed by which DRDO laboratory?",
+"o": [
+"DEBEL",
+"INMAS",
+"DRL, Tezpur",
+"DIPR"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "INMAS developed the bike ambulance; DEBEL made the medical oxygen plant and DRL, Tezpur the snake repellent.",
+"link": "47:2:0.10"
+},
+{
+"id": "n509725ec88d",
+"row": 47,
+"src": null,
+"s": "What is the status of the Aeronautical Development Agency (ADA), which designs the LCA Tejas with DRDO?",
+"o": [
+"A DRDO laboratory",
+"A Defence Public Sector Undertaking",
+"An autonomous society under the Ministry of Defence",
+"A directorate of the Indian Air Force"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "ADA is an autonomous society under the Ministry of Defence, not itself a DRDO laboratory.",
+"link": "47:2:2"
+},
+{
+"id": "fae84d0e24256",
+"row": 47,
+"src": "app",
+"s": "Where is DFRL, DRDO's laboratory for food and MREs, located?",
+"o": [
+"Hyderabad",
+"Mysuru",
+"Pune",
+"Bengaluru"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "DFRL is at Mysuru.",
+"link": "47:2:0.9"
+},
+{
+"id": "f72c34f47b22d",
+"row": 47,
+"src": "app",
+"s": "On what does CAIR, Bengaluru work?",
+"o": [
+"Electronic warfare",
+"Medical oxygen plants",
+"Artificial intelligence and robotics",
+"Sonars"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "CAIR works on AI and robotics; DLRL is electronic warfare, DEBEL oxygen plants and NPOL sonars.",
+"link": "47:2:0.6"
+},
+{
+"id": "f22533193d488",
+"row": 47,
+"src": "app",
+"s": "The Agni series of missiles is handled by which Hyderabad laboratory?",
+"o": [
+"DRDL",
+"RCI",
+"ASL",
+"DMRL"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "ASL handles the Agni series; DRDL develops MPATGM and RCI guidance and seekers.",
+"link": "47:2:0.2"
+},
+{
+"id": "fa504e2ca6d3e",
+"row": 47,
+"src": "app",
+"s": "In what does Research Centre Imarat (RCI), Hyderabad specialise?",
+"o": [
+"Guidance and seekers",
+"Metals, alloys and armour",
+"Explosives",
+"Food technology"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "RCI works on guidance and seekers; DMRL handles metals and armour.",
+"link": "47:2:0.0"
+},
+{
+"id": "faf859e7651f2",
+"row": 47,
+"src": "app",
+"s": "Which of the following pairs is INCORRECTLY matched?",
+"o": [
+"DFRL – Mysuru",
+"NPOL – Kochi",
+"DEAL – Dehradun",
+"CVRDE – Pune"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "CVRDE, which works on the Arjun tank, is at Chennai, not Pune.",
+"link": "47:2:0.4"
+},
+{
+"id": "gd65bbfa9de3f",
+"row": 47,
+"src": "app",
+"s": "Which Hyderabad laboratory of DRDO works on metals, alloys and armour?",
+"o": [
+"DLRL",
+"DMRL",
+"RCI",
+"ASL"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "DMRL (Defence Metallurgical Research Laboratory), Hyderabad works on metals, alloys and armour.",
+"link": "47:2:0.3"
+},
+{
+"id": "gbcc25f5f4d9e",
+"row": 47,
+"src": "app",
+"s": "Which DRDO laboratory develops the MPATGM?",
+"o": [
+"DRDL, Hyderabad",
+"ARDE, Pune",
+"CAIR, Bengaluru",
+"DEBEL, Bengaluru"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "DRDL, Hyderabad is DRDO's missile laboratory and works on the MPATGM.",
+"link": "47:2:0.1"
+},
+{
+"id": "g253b05063331",
+"row": 47,
+"src": "app",
+"s": "Which DRDO laboratory at Pune works on explosives?",
+"o": [
+"ARDE",
+"HEMRL",
+"CVRDE",
+"DEAL"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "HEMRL, Pune works on explosives; ARDE, Pune works on guns and warheads (Pinaka).",
+"link": "47:2:0.7"
+},
+{
+"id": "gb564eef58bca",
+"row": 47,
+"src": "app",
+"s": "Which DRDO laboratory developed the Arjun tank?",
+"o": [
+"VRDE, Ahmednagar",
+"CVRDE, Chennai",
+"ARDE, Pune",
+"DMRL, Hyderabad"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "CVRDE, Chennai is the combat-vehicle lab behind the Arjun main battle tank.",
+"link": "47:2:0.4"
+},
+{
+"id": "ge73f7b6628da",
+"row": 47,
+"src": "app",
+"s": "What is the full form of NSTL, the DRDO laboratory at Visakhapatnam?",
+"o": [
+"National Ship Testing Laboratory",
+"Naval Science and Technological Laboratory",
+"Naval Systems and Torpedo Laboratory",
+"National Science and Technology Laboratory"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "NSTL = Naval Science and Technological Laboratory, Visakhapatnam; it developed the Varunastra torpedo.",
+"link": "47:2:1"
+},
+{
+"id": "gfd4e390d7ace",
+"row": 47,
+"src": "app",
+"s": "Match the following DRDO laboratories with their full forms:\nA. DRDL\nB. DMRL\nC. NSTL\n1. Naval Science and Technological Laboratory\n2. Defence Metallurgical Research Laboratory\n3. Defence Research and Development Laboratory\nSelect the correct answer using the code given below:",
+"o": [
+"A-3, B-2, C-1",
+"A-2, B-3, C-1",
+"A-1, B-2, C-3",
+"A-3, B-1, C-2"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "DRDL = Defence Research and Development Laboratory; DMRL = Defence Metallurgical Research Laboratory; NSTL = Naval Science and Technological Laboratory.",
+"link": "47:2:1"
+},
+{
+"id": "f548b77636f2e",
+"row": 47,
+"src": "app",
+"s": "DRDO's medical oxygen plant technology comes from which Bengaluru laboratory?",
+"o": [
+"CAIR",
+"DEBEL",
+"ADE",
+"DFRL"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "DEBEL, Bengaluru developed the medical oxygen plant.",
+"link": "47:2:0.6"
+},
+{
+"id": "nd5cba30bd56",
+"row": 47,
+"src": null,
+"s": "Under which programme is the Technology Development Fund (TDF), a Ministry of Defence programme executed by DRDO, implemented?",
+"o": [
+"Digital India",
+"Skill India",
+"Startup India",
+"Make in India"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "TDF is a Ministry of Defence flagship programme executed by DRDO under the Make in India initiative.",
+"link": "47:5:0"
+},
+{
+"id": "n4d367872116",
+"row": 47,
+"src": null,
+"s": "What kind of access to DRDO patents has Indian industry got through Transfer of Technology since 2020?",
+"o": [
+"reduced-royalty",
+"royalty-free",
+"licence-fee-based",
+"time-limited"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Since 2020 access to DRDO patents is royalty-free; DRDO has given more than 2,100 free ToTs and opened its test facilities to the private sector.",
+"link": "47:5:1"
+},
+{
+"id": "nf56a57bb737",
+"row": 47,
+"src": null,
+"s": "Which of the following groups consists only of conventional DRDO missiles approved for technology transfer to private industry in August 2026?",
+"o": [
+"Astra, Rudram, Nag and VSHORADS",
+"Agni, K-series, Astra and Nag",
+"Prithvi, Agni-Prime, K-series and Rudram",
+"BrahMos, Agni, Rudram and VSHORADS"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The approved conventional-missile group comprises Astra, Rudram, Nag and VSHORADS. Nuclear-capable Agni and K-series missiles remain in state production.",
+"link": "47:5:2"
+},
+{
+"id": "nd28d8ae867e",
+"row": 47,
+"src": null,
+"s": "Under DRDO's Technology Development Fund, up to what amount may the grant to industry, including MSMEs and start-ups, extend?",
+"o": [
+"₹10 crore",
+"₹25 crore",
+"₹50 crore",
+"₹100 crore"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "TDF grants extend up to ₹50 crore to support co-development of emerging technologies.",
+"link": "47:5:0"
+},
+{
+"id": "naf047431685",
+"row": 47,
+"src": null,
+"s": "DRDO assisted ISRO in testing which system associated with the Gaganyaan programme?",
+"o": [
+"Crew-escape parachute recovery system",
+"Satellite navigation receiver",
+"Deep-space communication antenna",
+"Lunar soil sampling system"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "DRDO helped ISRO test the Gaganyaan crew-escape parachute recovery system.",
+"link": "47:5:3"
+},
+{
+"id": "fd2b202353e8a",
+"row": 47,
+"src": "app",
+"s": "More than how many free Transfers of Technology has DRDO given to Indian industry?",
+"o": [
+"500",
+"1,100",
+"2,100",
+"5,000"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "DRDO has given 2,100+ free ToTs and opened test facilities to the private sector.",
+"link": "47:5:1"
+},
+{
+"id": "fe05ba3eddb56",
+"row": 47,
+"src": "app",
+"s": "Under the August 2026 decision, which missiles stay in state production?",
+"o": [
+"Astra and Rudram",
+"Agni and K-series",
+"Nag and VSHORADS",
+"Astra and Nag"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Astra, Rudram, Nag and VSHORADS were approved for ToT; Agni and K-series stay in state production.",
+"link": "47:5:2"
+},
+{
+"id": "ga899e5122ffd",
+"row": 47,
+"src": "app",
+"s": "What is DRDO's budget allocation for 2026-27?",
+"o": [
+"₹17,250.25 crore",
+"₹23,855 crore",
+"₹26,816.82 crore",
+"₹29,100.25 crore"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "DRDO got ₹29,100.25 crore in 2026-27, up from ₹26,816.82 crore in 2025-26; ₹17,250.25 crore of it is for capital spending.",
+"link": "47:5:4"
+},
+{
+"id": "n46a6b59c65f",
+"row": 47,
+"src": null,
+"s": "Nagayalanka in Krishna district is associated with which of the following?",
+"o": [
+"A CBRN training centre for national agencies",
+"A naval weapons laboratory for underwater batteries",
+"An aircraft integration complex for flight testing",
+"A DRDO missile test range for flight trials of tactical missiles"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Nagayalanka in coastal Krishna district is the site of DRDO's planned missile test range for flight trials of tactical missiles. NSTL Visakhapatnam is the naval weapons lab, the ADA flight-testing complex is in Sri Sathya Sai district, and the CBRN Field Training Centre is in Delhi.",
+"link": "47:6:1"
+},
+{
+"id": "n6a19e734727",
+"row": 47,
+"src": null,
+"s": "Which DRDO laboratory is located at Visakhapatnam, Andhra Pradesh?",
+"o": [
+"NSTL",
+"DRDL",
+"RCI",
+"NPOL"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "NSTL is at Visakhapatnam; other AP defence locations include the Kurnool test range, the planned Nagayalanka range and the ADA complex in Sri Sathya Sai district.",
+"link": "47:6:0"
+},
+{
+"id": "n935d3fe11ee",
+"row": 47,
+"src": null,
+"s": "Near which place were the final trials of the ULPGM-V3 missile conducted?",
+"o": [
+"Nagayalanka",
+"Kurnool",
+"Visakhapatnam",
+"Sri Sathya Sai district"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The ULPGM-V3 final trials were done near Kurnool; Nagayalanka is a planned missile test range.",
+"link": "47:6:2"
+},
+{
+"id": "fc0d847942199",
+"row": 47,
+"src": "app",
+"s": "The ADA flight-testing complex costing ₹15,803 crore is planned in which Andhra Pradesh district?",
+"o": [
+"Krishna",
+"Kurnool",
+"Sri Sathya Sai",
+"Visakhapatnam"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The ADA flight-testing complex is planned in Sri Sathya Sai district.",
+"link": "47:6:3"
+},
+{
+"id": "f9a9c295b0886",
+"row": 47,
+"src": "app",
+"s": "Which of the following has NSTL, Visakhapatnam developed?",
+"o": [
+"Varunastra",
+"Pinaka",
+"Agni",
+"Lakshya"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "NSTL develops Varunastra, mines and SMART; Pinaka is ARDE's.",
+"link": "47:6:0"
+},
+{
+"id": "n338448e6b8f",
+"row": 48,
+"src": null,
+"s": "What is Agni-VI in the context of India's missile programme?",
+"o": [
+"Proposed longer-range ICBM",
+"Retired short-range missile",
+"Short-range interceptor for endo-atmospheric defence",
+"Naval version of Prithvi-II"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Agni-VI is described as a proposed longer-range intercontinental ballistic missile.",
+"link": "48:0:3.6"
+},
+{
+"id": "n48dae472f15",
+"row": 48,
+"src": null,
+"s": "Which force operates India's Agni missiles, built by DRDO?",
+"o": [
+"Army Air Defence Corps",
+"Indian Air Force alone",
+"Indian Navy",
+"Strategic Forces Command"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Agni is DRDO-built, fully indigenous and operated by the Strategic Forces Command.",
+"link": "48:0:1"
+},
+{
+"id": "n53458ef7c95",
+"row": 48,
+"src": null,
+"s": "Which of the following describes Agni-I?",
+"o": [
+"Two-stage liquid-fuel missile of about 2,000–3,000 km range",
+"Single-stage solid-fuel missile of about 700–800 km range",
+"Single-stage liquid-fuel missile of about 150 km range",
+"Three-stage solid-fuel missile of about 5,000 km range"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Agni-I is a single-stage solid-fuel missile with a range of about 700–800 km and is approximately 15 metres long.",
+"link": "48:0:3.0"
+},
+{
+"id": "n66753ff1cef",
+"row": 48,
+"src": null,
+"s": "How many stages does Agni-V, a solid-fuel, canister-launched missile, have?",
+"o": [
+"four",
+"two",
+"three",
+"single"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Agni-V is a three-stage solid-fuel, canister-launched missile with a stated range of 5,000 km or more; MIRV has been tested with it.",
+"link": "48:0:3.4"
+},
+{
+"id": "na5dbe418052",
+"row": 48,
+"src": null,
+"s": "Which of the following pairs about the Agni series is correctly matched?",
+"o": [
+"Agni-IV – Three-stage, canister-launched",
+"Agni-III – About 4,000 km",
+"Agni-V – Two-stage, road-mobile",
+"Agni-II – Two-stage solid-fuel missile"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Agni-II is a two-stage solid-fuel missile (2,000–3,500 km). Agni-IV is two-stage and road-mobile (about 4,000 km), Agni-III has about 3,500 km range, and the three-stage canisterised missile is Agni-V.",
+"link": "48:0:3.1"
+},
+{
+"id": "nf3a81ce506e",
+"row": 48,
+"src": null,
+"s": "From which platform was Agni-Prime test-fired on 24 September 2025?",
+"o": [
+"Submarine",
+"Ship",
+"Rail-based mobile launcher",
+"Aircraft"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Agni-Prime, a canisterised 1,000–2,000 km missile, was fired from a rail-based mobile launcher.",
+"link": "48:0:3.5"
+},
+{
+"id": "nbcfa86b6d5f",
+"row": 48,
+"src": null,
+"s": "Mission Divyastra (2024) tested MIRV technology on which missile?",
+"o": [
+"Agni-IV",
+"Agni-V",
+"Agni-Prime",
+"K-4"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Mission Divyastra, conducted in 2024, flight-tested Agni-V with Multiple Independently targetable Re-entry Vehicles (MIRVs).",
+"link": "48:0:4"
+},
+{
+"id": "ncbb32aa51ce",
+"row": 48,
+"src": null,
+"s": "What is the formal ICBM range threshold that places Agni-V's 5,000 km range in the IRBM class?",
+"o": [
+"3,500 km",
+"5,000 km",
+"5,500 km",
+"8,000 km"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The ICBM threshold cited is 5,500 km, so Agni-V is formally an IRBM, though some sources call it an ICBM.",
+"link": "48:0:5"
+},
+{
+"id": "ff9ca5dd21752",
+"row": 48,
+"src": "app",
+"s": "Which Agni variant is a two-stage, road-mobile missile with a range of about 4,000 km?",
+"o": [
+"Agni-IV",
+"Agni-V",
+"Agni-II",
+"Agni-III"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Agni-IV is two-stage and road-mobile with about 4,000 km range; Agni-V is three-stage with 5,000+ km.",
+"link": "48:0:3.3"
+},
+{
+"id": "nd9ef880d2b7",
+"row": 48,
+"src": null,
+"s": "What is the range of Prithvi, a liquid-fuelled surface-to-surface short-range ballistic missile?",
+"o": [
+"25–30 km",
+"700–1,200 km",
+"150–350 km",
+"2,000–3,000 km"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Prithvi is a surface-to-surface SRBM with a range of 150–350 km and uses liquid fuel.",
+"link": "48:1:0.0"
+},
+{
+"id": "n9c185d9ab12",
+"row": 48,
+"src": null,
+"s": "At about what speed does Akash, a medium-range surface-to-air missile, travel?",
+"o": [
+"Mach 2.5",
+"Mach 1.5",
+"Mach 4",
+"Mach 6"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Akash is a medium-range SAM with a range of about 25-30 km, a speed of about Mach 2.5 and an altitude capability of 18 km.",
+"link": "48:1:0.2"
+},
+{
+"id": "n89bf05c0d91",
+"row": 48,
+"src": null,
+"s": "Which missile has a range of about 25–30 km?",
+"o": [
+"Trishul",
+"Nag",
+"Akash",
+"Agni"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Akash, a medium-range SAM, has a range of about 25–30 km. Trishul reaches about 9 km, Nag 500 m to 4 km (land version), and Agni about 700 km to over 5,000 km.",
+"link": "48:1:0.2"
+},
+{
+"id": "fbd3cc1433512",
+"row": 48,
+"src": "app",
+"s": "Which of the following missile names is NOT correctly matched with its meaning?",
+"o": [
+"Akash – Sky",
+"Trishul – Fire",
+"Prithvi – Earth",
+"Nag – Cobra"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Trishul means Trident; it is Agni that means Fire.",
+"link": "48:1:0.3"
+},
+{
+"id": "f69f8679afa8a",
+"row": 48,
+"src": "app",
+"s": "Consider the following statements about Trishul:\n1. It is a short-range, low-level quick-reaction surface-to-air missile.\n2. Its range is about 9 km.\n3. It was inducted into the Army.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Trishul is a short-range quick-reaction SAM of about 9 km range, but it was never inducted and was shut in 2008.",
+"link": "48:1:0.3"
+},
+{
+"id": "n64b5b9a13ab",
+"row": 48,
+"src": null,
+"s": "What is DRDO's Lakshya?",
+"o": [
+"Multi-barrel rocket launcher",
+"Target drone",
+"Surface-to-air missile",
+"Light combat aircraft"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Lakshya is a target drone; Pinaka is a rocket launcher, Tejas an aircraft and Nishant a UAV.",
+"link": "48:1:2"
+},
+{
+"id": "n2f6988aa5ce",
+"row": 48,
+"src": null,
+"s": "With which country did India jointly develop BrahMos, which was not a missile of the IGMDP?",
+"o": [
+"Israel",
+"USA",
+"Russia",
+"France"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "BrahMos was developed jointly by India and Russia; it was not part of the IGMDP.",
+"link": "48:1:1"
+},
+{
+"id": "nacb770d9cb3",
+"row": 48,
+"src": null,
+"s": "HELINA is the helicopter-launched version of which missile?",
+"o": [
+"Akash",
+"Trishul",
+"Prithvi",
+"Nag"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "HELINA is the helicopter-launched Nag, a fire-and-forget anti-tank missile.",
+"link": "48:3:2.1"
+},
+{
+"id": "n9c413a318dc",
+"row": 48,
+"src": null,
+"s": "What is meant by the term 'fire-and-forget' in missile technology?",
+"o": [
+"The missile is incapable of changing its course after launch.",
+"The missile can guide itself after launch, allowing the operator to take cover.",
+"The missile is fired only after the target has been destroyed by another weapon.",
+"The missile must remain continuously controlled by the operator until impact."
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "A fire-and-forget missile guides itself after launch, enabling the operator to seek cover or perform another task.",
+"link": "48:3:1"
+},
+{
+"id": "nfef67fe9622",
+"row": 48,
+"src": null,
+"s": "Which one of the following pairs is NOT correctly matched?",
+"o": [
+"SANT — Lock-On After Launch",
+"Nag — Imaging Infra-Red seeker",
+"Akash Prime — active RF seeker",
+"Nag — active RF seeker"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Nag uses an Imaging Infra-Red seeker, whereas Akash Prime uses an active RF seeker and SANT uses Lock-On After Launch. Therefore, Nag with an active RF seeker is not correctly matched.",
+"link": "48:3:0"
+},
+{
+"id": "nfa05b856456",
+"row": 48,
+"src": null,
+"s": "What is Nag Mk-2, the tracked fire-and-forget 'tank killer' approved for Army procurement, called?",
+"o": [
+"HELINA",
+"Dhruvastra",
+"SANT",
+"NAMIS"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "NAMIS is the tracked Nag Mk-2; Dhruvastra is the IAF's helicopter-launched Nag, HELINA the Army Aviation version and SANT an air-launched stand-off ATGM.",
+"link": "48:3:2.0"
+},
+{
+"id": "nf78199a5290",
+"row": 48,
+"src": null,
+"s": "For which service is HELINA, the helicopter-launched variant of the Nag missile, meant?",
+"o": [
+"Indian Air Force",
+"Coast Guard",
+"Indian Navy",
+"Army Aviation"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "HELINA is the helicopter-launched Nag variant for Army Aviation, whereas Dhruvastra is intended for the Indian Air Force.",
+"link": "48:3:2.1"
+},
+{
+"id": "nee65fc4655d",
+"row": 48,
+"src": null,
+"s": "Each Nag Missile Carrier (NAMICA) can carry up to how many missiles?",
+"o": [
+"Four",
+"Eight",
+"Two",
+"Six"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Each NAMICA, a tracked amphibious vehicle, can carry up to six Nag missiles.",
+"link": "48:3:2.0"
+},
+{
+"id": "n6a5ac3c8b4a",
+"row": 48,
+"src": null,
+"s": "What does an anti-tank missile generally do in the top-attack mode?",
+"o": [
+"Approaches at ground level and hits the side armour",
+"Climbs and then dives onto the tank's thinner top armour",
+"Strikes the thick frontal armour head-on",
+"Hits the tracks to immobilise the tank"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "In top attack, the missile climbs and then dives onto the tank's thinner top armour; Nag has both top-attack and direct-attack modes.",
+"link": "48:3:3"
+},
+{
+"id": "fcd48a68c9861",
+"row": 48,
+"src": "app",
+"s": "For which service is Dhruvastra, the helicopter-launched Nag variant, meant?",
+"o": [
+"Indian Air Force",
+"Navy",
+"Army Aviation",
+"Coast Guard"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "HELINA is the Army Aviation version, while Dhruvastra is the IAF version.",
+"link": "48:3:2.1"
+},
+{
+"id": "fc87d86597c22",
+"row": 48,
+"src": "app",
+"s": "Which guidance mode does SANT, the air-launched stand-off anti-tank missile, use?",
+"o": [
+"Lock-On Before Launch",
+"Wire guidance",
+"Lock-On After Launch",
+"Command guidance"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "SANT (15–20 km) uses Lock-On After Launch (LOAL).",
+"link": "48:3:2.3"
+},
+{
+"id": "fe95c65be8274",
+"row": 48,
+"src": "app",
+"s": "What is the range of the Nag-family MPATGM, a man-portable anti-tank missile?",
+"o": [
+"15–20 km",
+"7–10 km",
+"25–30 km",
+"2.5 km"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "MPATGM reaches about 2.5 km; NAMIS reaches 7–10 km and SANT 15–20 km.",
+"link": "48:3:2.2"
+},
+{
+"id": "f8e0f0b804fe7",
+"row": 48,
+"src": "app",
+"s": "The Nag anti-tank missile uses which type of seeker?",
+"o": [
+"Active RF",
+"Imaging infrared (IIR)",
+"Passive radar",
+"Laser beam-riding"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Nag uses an IIR seeker; Akash Prime uses an active RF seeker.",
+"link": "48:3:0"
+},
+{
+"id": "n1289a739e71",
+"row": 48,
+"src": null,
+"s": "Which was the first missile developed under the IGMDP?",
+"o": [
+"Agni",
+"Prithvi",
+"Nag",
+"Trishul"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Prithvi was the first IGMDP missile; Prithvi-I serves the Army and Prithvi-II the Air Force.",
+"link": "48:4:0.0"
+},
+{
+"id": "n9d4f984505b",
+"row": 48,
+"src": null,
+"s": "Which type of fuel do Prithvi-I and Prithvi-II use?",
+"o": [
+"solid",
+"liquid",
+"hybrid",
+"cryogenic"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Prithvi-I and Prithvi-II use liquid fuel, whereas Agni-I uses solid fuel.",
+"link": "48:4:1"
+},
+{
+"id": "n1ead5f0015a",
+"row": 48,
+"src": null,
+"s": "In which year was Prithvi-II, first tested in 1996, inducted?",
+"o": [
+"1996",
+"1999",
+"2003",
+"2008"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Prithvi-II was inducted in 2003; the naval version is Dhanush.",
+"link": "48:4:0.1"
+},
+{
+"id": "nf340d5c187d",
+"row": 48,
+"src": null,
+"s": "Which service operates Dhanush, the ship-launched version of the Prithvi missile?",
+"o": [
+"Strategic Forces Command",
+"Navy",
+"Air Force",
+"Army"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Dhanush (Prithvi-III) is the Navy's ship-launched Prithvi; Prithvi-I is the Army's 150 km version.",
+"link": "48:4:0.2"
+},
+{
+"id": "fa1626655833f",
+"row": 48,
+"src": "app",
+"s": "Which service operates Prithvi-II, the variant with a range of about 350 km?",
+"o": [
+"Air Force",
+"Coast Guard",
+"Army",
+"Navy"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Prithvi-II is the Air Force version; Prithvi-I is the Army's and Dhanush the Navy's.",
+"link": "48:4:0.1"
+},
+{
+"id": "ge5fa4d86a64b",
+"row": 48,
+"src": "app",
+"s": "What is PAD (Pradyumna) in India's missile programme?",
+"o": [
+"An exo-atmospheric interceptor",
+"A ship-launched version of Prithvi",
+"A road-mobile Agni variant",
+"A man-portable anti-tank missile"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "PAD (Pradyumna) is an exo-atmospheric interceptor working at 50-80 km altitude.",
+"link": "48:4:2"
+},
+{
+"id": "gdba032723798",
+"row": 48,
+"src": "app",
+"s": "Which service operates the Prithvi-I missile?",
+"o": [
+"Army",
+"Air Force",
+"Navy",
+"Coast Guard"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Prithvi-I (150 km) is the Army version; Prithvi-II is for the Air Force and Dhanush for the Navy.",
+"link": "48:4:0.0"
+},
+{
+"id": "ncdb46c837b1",
+"row": 48,
+"src": null,
+"s": "Which one of the following statements about Trishul is NOT correct?",
+"o": [
+"Its commonly cited range is about 9 km.",
+"It was inducted into regular service after successful development.",
+"It is a short-range, low-level surface-to-air missile.",
+"It uses solid fuel with thrust vector control."
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Trishul was never inducted into regular service and the programme was closed in 2008. It is a short-range low-level SAM using solid fuel with thrust vector control.",
+"link": "48:5:2"
+},
+{
+"id": "g56b020ffeb25",
+"row": 48,
+"src": "app",
+"s": "Which services use the Akash surface-to-air missile?",
+"o": [
+"Army and Air Force",
+"Navy only",
+"Navy and Coast Guard",
+"Air Force only"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Akash, a medium-range SAM of about 25-30 km, is used by the Army and the Indian Air Force.",
+"link": "48:5:0"
+},
+{
+"id": "n8ccab3d44f6",
+"row": 48,
+"src": null,
+"s": "In which year was the Trishul surface-to-air missile programme shut down?",
+"o": [
+"2003",
+"2005",
+"2008",
+"2010"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Trishul was never inducted; the programme was shut on 27 February 2008.",
+"link": "48:5:2"
+},
+{
+"id": "n8e3a67fbd28",
+"row": 48,
+"src": null,
+"s": "On which date was Akash Prime, an upgraded Akash Mk-I with an indigenous active RF seeker, first tested?",
+"o": [
+"27 September 2020",
+"27 September 2021",
+"27 February 2021",
+"27 September 2022"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Akash Prime was first tested on 27 September 2021.",
+"link": "48:5:1.1"
+},
+{
+"id": "n6a12a10e0b4",
+"row": 48,
+"src": null,
+"s": "What is the approximate range of the canister-launched Akash-NG?",
+"o": [
+"40 km",
+"70 km",
+"120 km",
+"150 km"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Akash-NG has a range of about 70 km and was cleared for induction in 2023 for the Army and IAF.",
+"link": "48:5:1.2"
+},
+{
+"id": "n13e541d7c09",
+"row": 48,
+"src": null,
+"s": "In the context of Trishul's replacement, which pair of service and missile system is correctly matched?",
+"o": [
+"Indian Navy – Akash",
+"Indian Army – Barak-1",
+"Indian Air Force – Israeli Spyder",
+"Indian Air Force – Barak-1"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The Indian Air Force was associated with Israeli Spyder, the Navy with Barak-1 and the Army with Akash.",
+"link": "48:5:2"
+},
+{
+"id": "na0871e4df8c",
+"row": 48,
+"src": null,
+"s": "Which is the later indigenous short-range successor to Trishul?",
+"o": [
+"BrahMos",
+"Prithvi",
+"Barak-1",
+"QRSAM"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "QRSAM, or Quick Reaction Surface-to-Air Missile, is the later indigenous short-range successor to Trishul.",
+"link": "48:5:4"
+},
+{
+"id": "fff0dd6d115e1",
+"row": 48,
+"src": "app",
+"s": "Which radar does Akash Mk-I use for command guidance?",
+"o": [
+"Akashteer",
+"Rajendra",
+"Swordfish",
+"Phalcon"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Akash Mk-I relies on command guidance and the Rajendra radar.",
+"link": "48:5:1.0"
+},
+{
+"id": "g4ef26cef7caf",
+"row": 48,
+"src": "app",
+"s": "What is Akashteer, developed by BEL with the Indian Army?",
+"o": [
+"A surface-to-air missile",
+"An air-defence control system",
+"An anti-tank missile",
+"A target drone"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Akashteer is an air-defence control system, not a missile.",
+"link": "48:5:3"
+},
+{
+"id": "n56a11f51df5",
+"row": 48,
+"src": null,
+"s": "Off the coast of which state does Dr APJ Abdul Kalam Island, used for missile trials, lie?",
+"o": [
+"Andhra Pradesh",
+"West Bengal",
+"Odisha",
+"Tamil Nadu"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Dr APJ Abdul Kalam Island is off the Odisha coast; ranges on the AP and Odisha coasts support sea-skimming trials such as LRAShM.",
+"link": "48:7:0.0"
+},
+{
+"id": "n23c8ba2e60f",
+"row": 48,
+"src": null,
+"s": "What was Dr APJ Abdul Kalam Island formerly known as?",
+"o": [
+"Chandipur Island",
+"Pokhran Island",
+"Abdul Kalam Atoll",
+"Wheeler Island"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Dr APJ Abdul Kalam Island was formerly known as Wheeler Island and lies off the Odisha coast.",
+"link": "48:7:0.0"
+},
+{
+"id": "n201f1227f37",
+"row": 48,
+"src": null,
+"s": "Which one of the following pairs is correctly matched?",
+"o": [
+"Pokhran Field Firing Range — Rajasthan",
+"DRDO range near Kurnool — Odisha",
+"Dr APJ Abdul Kalam Island — Rajasthan",
+"Integrated Test Range, Chandipur — Andhra Pradesh"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The Pokhran Field Firing Range is in Rajasthan. The Kurnool DRDO range is in Andhra Pradesh, while Chandipur and Dr APJ Abdul Kalam Island are in Odisha.",
+"link": "48:7:0.2"
+},
+{
+"id": "n4237423168c",
+"row": 48,
+"src": null,
+"s": "As which member did India join the Missile Technology Control Regime (MTCR) in June 2016?",
+"o": [
+"34th member",
+"35th member",
+"36th member",
+"30th member"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "India entered the MTCR in June 2016 as its 35th member, which eased its BrahMos exports and high-tech imports.",
+"link": "48:7:1"
+},
+{
+"id": "ffb10c89afea8",
+"row": 48,
+"src": "app",
+"s": "The Kurnool DRDO missile range is located in which state?",
+"o": [
+"Telangana",
+"Andhra Pradesh",
+"Rajasthan",
+"Odisha"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The Kurnool DRDO range is in Andhra Pradesh; Chandipur and Kalam Island are in Odisha.",
+"link": "48:7:0.3"
+},
+{
+"id": "f522c08848ae2",
+"row": 48,
+"src": "app",
+"s": "The Integrated Test Range (ITR) at Chandipur is in which district of Odisha?",
+"o": [
+"Balasore",
+"Jaisalmer",
+"Puri",
+"Kurnool"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "ITR Chandipur lies in Balasore district, Odisha.",
+"link": "48:7:0.1"
+},
+{
+"id": "faa8ae02d2d18",
+"row": 48,
+"src": "app",
+"s": "In May 1992, the USA put which Indian organisation on hold under the MTCR?",
+"o": [
+"HAL",
+"BEL",
+"DRDO",
+"ISRO"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The US placed ISRO on hold under the MTCR in May 1992.",
+"link": "48:7:1"
+},
+{
+"id": "g6d7f581fbf18",
+"row": 48,
+"src": "app",
+"s": "The Missile Technology Control Regime (MTCR), which India joined in 2016, mainly controls missiles able to carry what payload over what range?",
+"o": [
+"500 kg over 300 km",
+"300 kg over 500 km",
+"1,000 kg over 1,000 km",
+"500 kg over 3,000 km"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "MTCR covers missiles that can carry 500 kg over 300 km; India joined in June 2016 as the 35th member.",
+"link": "48:7:1"
+},
+{
+"id": "n0909d88a39a",
+"row": 48,
+"src": null,
+"s": "By what name is Dr Tessy Thomas, who played a key role in Agni-V, popularly called?",
+"o": [
+"Rocket Woman of India",
+"Iron Lady of DRDO",
+"Space Woman of India",
+"Agniputri"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Dr Tessy Thomas, the 'Missile Woman of India', played a key role in Agni-V and is called 'Agniputri'.",
+"link": "48:6:0.1"
+},
+{
+"id": "f1c071a7de287",
+"row": 48,
+"src": "app",
+"s": "V.K. Saraswat is associated with which part of India's missile programme?",
+"o": [
+"Agni-V",
+"Prithvi and BMD",
+"Akash and Trishul",
+"Nag and HELINA"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "V.K. Saraswat worked on Prithvi and the Ballistic Missile Defence programme.",
+"link": "48:6:0.2"
+},
+{
+"id": "ff4313cc49c29",
+"row": 48,
+"src": "app",
+"s": "Dr APJ Abdul Kalam served as Chief Scientific Adviser at which event?",
+"o": [
+"Mission Divyastra (2024)",
+"Pokhran-II (1998)",
+"Pokhran-I (1974)",
+"Mission Shakti (2019)"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Kalam was CSA at Pokhran-II in 1998, not Pokhran-I.",
+"link": "48:6:0.0"
+},
+{
+"id": "g40edd0fd6d86",
+"row": 48,
+"src": "app",
+"s": "Who is known as the 'Missile Man' of India?",
+"o": [
+"V.K. Saraswat",
+"APJ Abdul Kalam",
+"Satish Dhawan",
+"Tessy Thomas"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "APJ Abdul Kalam, who led the IGMDP, is called the 'Missile Man'; Tessy Thomas is the 'Missile Woman'.",
+"link": "48:6:0.0"
+},
+{
+"id": "gb4c8abf67804",
+"row": 48,
+"src": "app",
+"s": "APJ Abdul Kalam, leader of the IGMDP, served as which President of India?",
+"o": [
+"9th",
+"10th",
+"11th",
+"12th"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Dr APJ Abdul Kalam was the 11th President of India (2002-07).",
+"link": "48:6:0.0"
+},
+{
+"id": "n86bdb413548",
+"row": 48,
+"src": null,
+"s": "Which of the following is NOT correct about Dr A.P.J. Abdul Kalam?",
+"o": [
+"He was project director of SLV-III",
+"SLV-III, under his direction, launched Rohini",
+"He was the first Indian Head of State to fly a fighter aircraft",
+"He was Chief Scientific Adviser at the 1974 Pokhran-I test"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Kalam was Chief Scientific Adviser at Pokhran-II in 1998, not Pokhran-I in 1974.",
+"link": "48:6:0.0"
+},
+{
+"id": "nefd18a80cb8",
+"row": 48,
+"src": null,
+"s": "Under the IGMDP, which missile was developed during the 1992–2008 phase?",
+"o": [
+"Prithvi",
+"Nag",
+"Agni",
+"Trishul"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Prithvi and Trishul were developed in 1984–89, Nag and Akash in 1989–92, and Agni in 1992–2008.",
+"link": "48:2:3.2"
+},
+{
+"id": "n32ce6f9373c",
+"row": 48,
+"src": null,
+"s": "Which was the nodal laboratory of the Integrated Guided Missile Development Programme (IGMDP)?",
+"o": [
+"ARDE, Pune",
+"HEMRL, Pune",
+"NSTL, Visakhapatnam",
+"DRDL, Hyderabad"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "DRDL, Hyderabad was the nodal lab, working with RCI and ASL; IGMDP was launched in 1983 under Kalam.",
+"link": "48:2:0"
+},
+{
+"id": "n6f4c3956794",
+"row": 48,
+"src": null,
+"s": "Under the Ministry of Defence approval, to whom is the technology of conventional missiles such as Nag transferred?",
+"o": [
+"Private industry",
+"Foreign companies",
+"ISRO",
+"State-run firms only"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Conventional missiles, including Nag, go to private industry, while Agni remains in state production.",
+"link": "48:2:6"
+},
+{
+"id": "ne0a9de3f972",
+"row": 48,
+"src": null,
+"s": "Which one of the following is NOT an identified spin-off of the IGMDP?",
+"o": [
+"Satellite-based navigation constellation",
+"Ring laser gyros",
+"Long-range tracking system",
+"Radomes"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Long-range tracking systems, composites, ring laser gyros and radomes were identified as IGMDP spin-offs. A satellite-based navigation constellation is not included in this list.",
+"link": "48:2:4"
+},
+{
+"id": "n2b7bd4e4fc9",
+"row": 48,
+"src": null,
+"s": "Why is the Integrated Guided Missile Development Programme regarded as significant?",
+"o": [
+"Ended all missile development in India after the completion of Prithvi.",
+"Turned India from a missile importer into a missile-exporting power and formed a base for later Agni-V MIRV, BMD and BrahMos-era programmes.",
+"Restricted India to importing surface-to-air missiles from foreign suppliers.",
+"Was created exclusively for developing civilian launch vehicles."
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The IGMDP transformed India from a missile importer into a missile-exporting power and provided the foundation for Agni-V MIRV, ballistic missile defence and BrahMos-era programmes.",
+"link": "48:2:5"
+},
+{
+"id": "f1eeaddd09d80",
+"row": 48,
+"src": "app",
+"s": "In which year was the Integrated Guided Missile Development Programme (IGMDP) officially completed?",
+"o": [
+"2003",
+"2008",
+"2012",
+"1998"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "IGMDP ran from 1983 and was officially completed in 2008; later missiles became separate projects.",
+"link": "48:2:4"
+},
+{
+"id": "ge8ec92dbcb10",
+"row": 48,
+"src": "app",
+"s": "In which year was the Integrated Guided Missile Development Programme launched?",
+"o": [
+"1974",
+"1983",
+"1992",
+"1998"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "IGMDP was launched in 1983 under Dr APJ Abdul Kalam and was officially completed in 2008.",
+"link": "48:2:0"
+},
+{
+"id": "g0c5163fcdc06",
+"row": 48,
+"src": "app",
+"s": "Which missiles were developed in the first phase (1984-89) of the IGMDP?",
+"o": [
+"Prithvi and Trishul",
+"Nag and Akash",
+"Agni and Nag",
+"Akash and Agni"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Prithvi and Trishul came in the first phase (1984-89); Nag and Akash in 1989-92; Agni matured by 2008.",
+"link": "48:2:3.0"
+},
+{
+"id": "n5b146a66e6d",
+"row": 49,
+"src": null,
+"s": "What is DRDO's share in BrahMos Aerospace?",
+"o": [
+"49.5%",
+"50.5%",
+"51%",
+"74%"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "DRDO holds 50.5% and Russia's NPO Mashinostroyeniya 49.5%.",
+"link": "49:0:1"
+},
+{
+"id": "nc9f27d80c38",
+"row": 49,
+"src": null,
+"s": "Where did BrahMos have its first successful test on 12 June 2001?",
+"o": [
+"Sriharikota, Andhra Pradesh",
+"Chandipur, Odisha",
+"Pokhran, Rajasthan",
+"Kurnool, Andhra Pradesh"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "BrahMos, a supersonic cruise missile of about Mach 2.8–3.0, was first successfully tested at Chandipur, Odisha.",
+"link": "49:0:8.0"
+},
+{
+"id": "n37837482888",
+"row": 49,
+"src": null,
+"s": "Which engine follows the solid booster in BrahMos?",
+"o": [
+"Turbojet",
+"Scramjet",
+"Solid fuel ducted ramjet",
+"Liquid ramjet"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "BrahMos has a solid booster and a liquid ramjet, combines inertial and satellite navigation, and is canister-launched in fire-and-forget mode.",
+"link": "49:0:5.3"
+},
+{
+"id": "n93e28480ec6",
+"row": 49,
+"src": null,
+"s": "Which BrahMos variant is a planned hypersonic missile capable of speeds above Mach 5?",
+"o": [
+"BrahMos-II",
+"BrahMos-A",
+"BrahMos-NG",
+"BrahMos-ER"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "BrahMos-II is the planned hypersonic variant; BrahMos-NG is a lighter version for platforms such as Tejas.",
+"link": "49:0:6"
+},
+{
+"id": "n3d48a889988",
+"row": 49,
+"src": null,
+"s": "During which operation was BrahMos reportedly used in combat for the first time?",
+"o": [
+"Operation Vijay",
+"Operation Meghdoot",
+"Operation Cactus in 1988",
+"Operation Sindoor in May 2025"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The first reported combat use of BrahMos was during Operation Sindoor in May 2025.",
+"link": "49:0:8.8"
+},
+{
+"id": "nfee502d9128",
+"row": 49,
+"src": null,
+"s": "Where is the BrahMos Integration and Testing Facility, inaugurated on 11 May 2025, located?",
+"o": [
+"Hyderabad",
+"Lucknow",
+"Nagpur",
+"Chandipur"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The BrahMos Integration and Testing Facility at Lucknow (in the UP defence corridor) was inaugurated on 11 May 2025, with the first batch flagged off within five months. Hyderabad and Nagpur are other defence-industry centres, and Chandipur is the test range where BrahMos was first tested in 2001.",
+"link": "49:0:3"
+},
+{
+"id": "f9c70580709f3",
+"row": 49,
+"src": "app",
+"s": "Where was the Inter-Governmental Agreement that created BrahMos Aerospace signed in 1998?",
+"o": [
+"New Delhi",
+"Lucknow",
+"Moscow",
+"Hyderabad"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The India-Russia IGA was signed in Moscow in 1998 and created BrahMos Aerospace.",
+"link": "49:0:1"
+},
+{
+"id": "f796a6168b5b1",
+"row": 49,
+"src": "app",
+"s": "Which BrahMos variant is lighter (about 1.5 t) and meant for Tejas, smaller warships and submarines?",
+"o": [
+"BrahMos-ER",
+"BrahMos-II",
+"BrahMos Block-II",
+"BrahMos-NG"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "BrahMos-NG weighs about 1.5 t against 2.5 t of the base missile; BrahMos-II is the planned hypersonic one.",
+"link": "49:0:6"
+},
+{
+"id": "gbcc399579a90",
+"row": 49,
+"src": "app",
+"s": "From the names of which two rivers is the name 'BrahMos' derived?",
+"o": [
+"Brahmaputra and Moskva",
+"Brahmani and Moskva",
+"Brahmaputra and Volga",
+"Brahmani and Don"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "BrahMos joins the Brahmaputra of India and the Moskva of Russia, the two partner countries.",
+"link": "49:0:2"
+},
+{
+"id": "gfe22fe2b6944",
+"row": 49,
+"src": "app",
+"s": "BrahMos Aerospace is a joint venture of DRDO and which Russian company?",
+"o": [
+"Rosoboronexport",
+"NPO Mashinostroyeniya",
+"Almaz-Antey",
+"Sukhoi"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "BrahMos Aerospace is owned by DRDO (50.5%) and NPO Mashinostroyeniya (NPOM) of Russia (49.5%).",
+"link": "49:0:1"
+},
+{
+"id": "gd35319dc47b1",
+"row": 49,
+"src": "app",
+"s": "What type of missile is BrahMos?",
+"o": [
+"Subsonic cruise missile",
+"Supersonic cruise missile",
+"Intercontinental ballistic missile",
+"Air-to-air missile"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "BrahMos is a supersonic cruise missile flying at Mach 2.8–3.0.",
+"link": "49:0:5.0"
+},
+{
+"id": "g47c40ecf43ef",
+"row": 49,
+"src": "app",
+"s": "After India joined which regime in 2016 was the range of BrahMos raised beyond 290 km?",
+"o": [
+"Nuclear Suppliers Group",
+"Missile Technology Control Regime",
+"Wassenaar Arrangement",
+"Australia Group"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "MTCR limits missile exports above 300 km; after India joined MTCR in 2016 BrahMos range was raised towards about 450 km.",
+"link": "49:0:5.5"
+},
+{
+"id": "gee242bb0be51",
+"row": 49,
+"src": "app",
+"s": "From which moving warship was BrahMos fired on 21 March 2010 off the Odisha coast?",
+"o": [
+"INS Ranvir",
+"INS Virat",
+"INS Arighaat",
+"INS Kalvari"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "On 21 March 2010 BrahMos was fired from the moving warship INS Ranvir in the Bay of Bengal.",
+"link": "49:0:8.5"
+},
+{
+"id": "gbed37f4483c7",
+"row": 49,
+"src": "app",
+"s": "What is the speed of the BrahMos supersonic cruise missile?",
+"o": [
+"Mach 2.8–3.0",
+"Mach 5–7",
+"Mach 10",
+"Mach 0.8–0.9"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "BrahMos is a supersonic cruise missile flying at Mach 2.8–3.0 (about 3,400–3,700 km/h).",
+"link": "49:0:5.1"
+},
+{
+"id": "g263e51d03839",
+"row": 49,
+"src": "app",
+"s": "From which fighter aircraft is the air-launched BrahMos fired?",
+"o": [
+"MiG-29",
+"Jaguar",
+"Su-30MKI",
+"Mirage 2000"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "BrahMos can be launched from land, ship, submarine and air; its air platform is the Su-30MKI.",
+"link": "49:0:5.6"
+},
+{
+"id": "ne840c2416a6",
+"row": 49,
+"src": null,
+"s": "Which of the following is NOT correct about India's missile exports?",
+"o": [
+"The Philippines is India's first BrahMos export customer",
+"BrahMos deliveries to the Philippines began in 2024",
+"BrahMos and Akashteer have already been delivered to the UAE",
+"The Astra Mk-1 deal with Indonesia (July 2026) is the first Astra-family export"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "With the UAE, BrahMos and Akashteer talks are only at an early stage; nothing has been delivered.",
+"link": "49:0:11"
+},
+{
+"id": "f26e8bb5aadf7",
+"row": 49,
+"src": "app",
+"s": "Which country was the first export customer of BrahMos?",
+"o": [
+"Indonesia",
+"UAE",
+"Philippines",
+"Israel"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The Philippines signed a $375 million deal (January 2022) for three batteries; the first batch was delivered in April 2024.",
+"link": "49:0:10"
+},
+{
+"id": "gea9ccdf7f6a9",
+"row": 49,
+"src": "app",
+"s": "In which year did the Philippines sign the $375 million deal to buy shore-based BrahMos missiles from India?",
+"o": [
+"2024",
+"2020",
+"2019",
+"2022"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The Philippines signed the $375 million BrahMos deal in January 2022; the first batch was delivered in April 2024.",
+"link": "49:0:10"
+},
+{
+"id": "g5d8233af6bd9",
+"row": 49,
+"src": "app",
+"s": "How many batteries of shore-based anti-ship BrahMos does the Philippines deal of January 2022 cover?",
+"o": [
+"Two",
+"Five",
+"Three",
+"Four"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The $375 million deal is for three batteries of shore-based anti-ship BrahMos.",
+"link": "49:0:10"
+},
+{
+"id": "ne8ad2142017",
+"row": 49,
+"src": null,
+"s": "Which of the following describes the Minuteman III?",
+"o": [
+"A Pakistani 450 km surface-to-surface missile",
+"An American ICBM forming the land leg of the US nuclear triad",
+"A Russian air-launched hypersonic missile",
+"An Iranian claimed hypersonic missile"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Minuteman III is a United States intercontinental ballistic missile and forms the land leg of the US nuclear triad.",
+"link": "49:3:3.9"
+},
+{
+"id": "n52f7d4ecc2e",
+"row": 49,
+"src": null,
+"s": "Which is Russia's ship-launched hypersonic missile?",
+"o": [
+"Kinzhal",
+"Hwasong",
+"Zircon",
+"Fattah"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Zircon is ship-launched; Kinzhal is air-launched. Hwasong is North Korean and Fattah Iranian.",
+"link": "49:3:3.7"
+},
+{
+"id": "na6045ced6f2",
+"row": 49,
+"src": null,
+"s": "Which one of the following groups contains only missiles associated with Russia?",
+"o": [
+"Abdali, Minuteman III and Kinzhal",
+"Barak-1, Spyder and Barak-8",
+"BrahMos, R-73 Archer and S-400",
+"Shahab, Fattah and Hwasong"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "BrahMos is a joint venture with Russia, while R-73 Archer and S-400 are Russian systems. The other groups contain missiles associated with Israel, Iran, North Korea, Pakistan or the United States.",
+"link": "49:3:1.6"
+},
+{
+"id": "n6e6fba9201d",
+"row": 49,
+"src": null,
+"s": "Which one of the following pairs is NOT correctly matched?",
+"o": [
+"R-73 Archer — Russia",
+"Barak-8/MRSAM — Israel",
+"Barak-1 — Israel",
+"Spyder — Iran"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Spyder is an Israeli system used by the Indian Air Force and replaced Trishul. Iran is associated with Shahab and Fattah, not Spyder.",
+"link": "49:3:1.3"
+},
+{
+"id": "f0a2b36b648fa",
+"row": 49,
+"src": "app",
+"s": "Which of the following pairs of missile and country is correctly matched?",
+"o": [
+"Fattah – Russia",
+"Hwasong – North Korea",
+"Abdali – Iran",
+"Shahab – North Korea"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Hwasong is North Korea's; Shahab and Fattah are Iran's and Abdali is Pakistan's.",
+"link": "49:3:3.5"
+},
+{
+"id": "f1fdf89021388",
+"row": 49,
+"src": "app",
+"s": "From which platform is Kinzhal, Russia's hypersonic missile, launched?",
+"o": [
+"Submarines",
+"Aircraft",
+"Ships",
+"Ground silos"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Kinzhal is air-launched; Zircon is Russia's ship-launched hypersonic cruise missile.",
+"link": "49:3:3.8"
+},
+{
+"id": "fde0f1c69d973",
+"row": 49,
+"src": "app",
+"s": "What does the word 'Barak' in Barak-8, a missile developed with Israel, mean?",
+"o": [
+"Lightning",
+"Thunder",
+"Shield",
+"Arrow"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "'Barak' means Lightning in Hebrew; Barak-8/MRSAM is a DRDO–IAI medium-range SAM.",
+"link": "49:3:1.2"
+},
+{
+"id": "g09519e54a583",
+"row": 49,
+"src": "app",
+"s": "On which ship was the Barak-1 missile system first deployed in the Indian Navy?",
+"o": [
+"INS Vikrant",
+"INS Virat",
+"INS Ranvir",
+"INS Arihant"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Barak-1, bought from Israel for the Navy, was first deployed on the aircraft carrier INS Virat.",
+"link": "49:3:1.1"
+},
+{
+"id": "n371b98f8255",
+"row": 49,
+"src": null,
+"s": "Which engine powers Nirbhay, India's subsonic long-range land-attack cruise missile?",
+"o": [
+"Scramjet",
+"Liquid ramjet",
+"Turbojet",
+"Solid fuel ducted ramjet"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Nirbhay is turbojet-powered; the liquid ramjet belongs to the supersonic BrahMos.",
+"link": "49:1:9"
+},
+{
+"id": "n819397cbbd8",
+"row": 49,
+"src": null,
+"s": "Which propulsion system powers Astra Mk-3 'Gandiva'?",
+"o": [
+"Solid fuel ducted ramjet (SFDR)",
+"Scramjet",
+"Dual-pulse solid motor",
+"Turbojet"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Gandiva uses an SFDR with range of 350+ km; the dual-pulse solid motor powers Astra Mk-2.",
+"link": "49:1:4.2"
+},
+{
+"id": "n7565d12b82a",
+"row": 49,
+"src": null,
+"s": "Which engine powers the Indigenous Technology Cruise Missile (ITCM), successor to Nirbhay?",
+"o": [
+"Kaveri turbofan engine",
+"Solid fuel ducted ramjet",
+"Manik small turbofan engine",
+"Scramjet engine"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "ITCM is the successor to Nirbhay and is powered by the indigenous Manik small turbofan engine developed by GTRE.",
+"link": "49:1:11"
+},
+{
+"id": "fe4a5af49988d",
+"row": 49,
+"src": "app",
+"s": "What is the range of Astra Mk-1, carried on the Su-30MKI?",
+"o": [
+"350+ km",
+"80–110 km",
+"200 km",
+"20–37 km"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Astra Mk-1 reaches 80–110 km; Mk-2 about 200 km and Mk-3 'Gandiva' 350+ km.",
+"link": "49:1:4.0"
+},
+{
+"id": "g6d587dbc9c08",
+"row": 49,
+"src": "app",
+"s": "What is the range of Nirbhay, India's subsonic long-range land-attack cruise missile?",
+"o": [
+"About 290 km",
+"About 500 km",
+"About 1,000 km",
+"About 3,500 km"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Nirbhay is a turbojet-powered subsonic cruise missile with a range of about 1,000 km.",
+"link": "49:1:9"
+},
+{
+"id": "nd92ccdd97c6",
+"row": 49,
+"src": null,
+"s": "To which family of missiles does Astra, developed by DRDO with an active radar seeker, belong?",
+"o": [
+"Beyond-visual-range air-to-air missiles",
+"Anti-radiation missiles",
+"Surface-to-air missiles",
+"Anti-tank guided missiles"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Astra is a DRDO-developed family of beyond-visual-range air-to-air missiles using an active radar seeker.",
+"link": "49:1:1"
+},
+{
+"id": "f5507d9fb0d9f",
+"row": 49,
+"src": "app",
+"s": "Which country signed the deal for the first-ever export of the Astra Mk-1 missile (July 2026)?",
+"o": [
+"UAE",
+"Russia",
+"Indonesia",
+"Philippines"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Indonesia's July 2026 deal is the first-ever Astra export; the Philippines bought BrahMos.",
+"link": "49:1:6"
+},
+{
+"id": "nf9aeb37eee6",
+"row": 49,
+"src": null,
+"s": "Which one of the following is NOT correctly matched?",
+"o": [
+"MPATGM — Third-generation fire-and-forget anti-tank guided missile",
+"Prahaar — About 150 km tactical ballistic missile",
+"LRGB Gaurav — 120 km guided rocket",
+"VSHORADS — Man-portable air-defence system against low-altitude threats"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "LRGB Gaurav is a 1,000 kg glide bomb with a range of about 100 km, released from the Su-30MKI. The 120 km guided rocket is Pinaka LRGR-120.",
+"link": "49:2:0.10"
+},
+{
+"id": "nfc98fbcd16c",
+"row": 49,
+"src": null,
+"s": "Which is India's first indigenous anti-radiation missile, designed to home passively on radar emissions?",
+"o": [
+"Pralay",
+"QRSAM",
+"Rudram-I",
+"VSHORADS"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Rudram-I is India's first indigenous anti-radiation missile. It passively homes on radar emissions to destroy enemy radars and communication sites.",
+"link": "49:2:0.0"
+},
+{
+"id": "n0132505fab1",
+"row": 49,
+"src": null,
+"s": "Which one of the following missiles is a canister-launched, hypersonic, nuclear-capable surface-to-surface tactical missile with a range of about 700–1,900 km?",
+"o": [
+"Rudram-II",
+"Shaurya",
+"Prahaar",
+"Pralay"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Shaurya is a canister-launched hypersonic surface-to-surface tactical missile with a range of about 700–1,900 km and nuclear capability.",
+"link": "49:2:0.1"
+},
+{
+"id": "n026c7fb4849",
+"row": 49,
+"src": null,
+"s": "What is the stated range of Pralay, a quasi-ballistic short-range surface-to-surface missile?",
+"o": [
+"150–500 km",
+"25–30 km",
+"700–1,200 km",
+"1,000–2,000 km"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Pralay has a 150–500 km range, a conventional warhead and manoeuvrable re-entry capability.",
+"link": "49:2:0.2"
+},
+{
+"id": "fdfc229d7e65c",
+"row": 49,
+"src": "app",
+"s": "From which missile is VL-SRSAM, the vertical-launch short-range SAM for Navy ships, derived?",
+"o": [
+"Nirbhay",
+"Astra",
+"BrahMos",
+"Pralay"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "VL-SRSAM is derived from the Astra air-to-air missile.",
+"link": "49:2:0.5"
+},
+{
+"id": "f5c905c780602",
+"row": 49,
+"src": "app",
+"s": "Which missile forms the Army's mid-range layer of the integrated air defence weapon system against low-flying threats?",
+"o": [
+"QRSAM",
+"Pralay",
+"VSHORADS",
+"Rudram-I"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "QRSAM (Quick Reaction SAM) is the Army's mid-range IADWS layer; VSHORADS is man-portable.",
+"link": "49:2:0.6"
+},
+{
+"id": "g9b2e4b7cd443",
+"row": 49,
+"src": "app",
+"s": "Which is India's first indigenous helicopter-launched anti-ship missile?",
+"o": [
+"NASM-SR",
+"Rudram-I",
+"LR-AShM",
+"Prahaar"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "NASM-SR (Naval Anti-Ship Missile – Short Range) is the first indigenous helicopter-launched anti-ship missile, with an IIR seeker.",
+"link": "49:2:0.11"
+},
+{
+"id": "gc267d52283d9",
+"row": 49,
+"src": "app",
+"s": "Which DRDO laboratory developed the canister-launched Shaurya missile?",
+"o": [
+"High Energy Materials Research Laboratory (HEMRL)",
+"Combat Vehicles Research and Development Establishment (CVRDE)",
+"Armament Research and Development Establishment (ARDE)",
+"Advanced Systems Laboratory (ASL)"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Shaurya, a canister-launched hypersonic surface-to-surface missile, was developed by DRDO's ASL, Hyderabad.",
+"link": "49:2:0.1"
+},
+{
+"id": "gcfea19c751d7",
+"row": 49,
+"src": "app",
+"s": "In which city is the Advanced Systems Laboratory (ASL) of DRDO, which developed the Shaurya missile, located?",
+"o": [
+"Bengaluru",
+"Hyderabad",
+"Pune",
+"Chennai"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "ASL, the DRDO lab that developed Shaurya, is in Hyderabad.",
+"link": "49:2:0.1"
+},
+{
+"id": "n80edd873e68",
+"row": 49,
+"src": null,
+"s": "When was Mission Shakti, the joint DRDO–ISRO anti-satellite test, conducted?",
+"o": [
+"11 March 2019",
+"27 March 2019",
+"27 March 2018",
+"11 May 2019"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "It was conducted on 27 March 2019; Microsat-R was hit in low LEO (~283 km) so the debris would decay quickly.",
+"link": "49:4:0.0"
+},
+{
+"id": "n777fd1d84d3",
+"row": 49,
+"src": null,
+"s": "In Mission Shakti, the live satellite Microsat-R was destroyed by which DRDO interceptor?",
+"o": [
+"AAD (Ashwin)",
+"AD-1",
+"PDV Mk-II",
+"Akash-NG"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "A DRDO PDV Mk-II interceptor destroyed the live satellite Microsat-R during Mission Shakti.",
+"link": "49:4:0.3"
+},
+{
+"id": "n5d0495adb20",
+"row": 49,
+"src": null,
+"s": "India became the fourth country to demonstrate an anti-satellite capability. Which of the following shows the three countries that preceded India?",
+"o": [
+"USA, France and Japan",
+"China, United Kingdom and France",
+"Russia, China and Israel",
+"USA, Russia and China"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "India became the fourth country with demonstrated ASAT capability after the USA, Russia and China.",
+"link": "49:4:0.6"
+},
+{
+"id": "f7915b2157555",
+"row": 49,
+"src": "app",
+"s": "At what altitude in Low Earth Orbit was the target satellite destroyed in Mission Shakti?",
+"o": [
+"83 km",
+"783 km",
+"583 km",
+"283 km"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Microsat-R was hit at about 283 km in low LEO, chosen so that debris decays quickly.",
+"link": "49:4:0.5"
+},
+{
+"id": "fac65b1128879",
+"row": 49,
+"src": "app",
+"s": "Which launch vehicle put Microsat-R, the target of Mission Shakti, into orbit in January 2019?",
+"o": [
+"PSLV-C51",
+"GSLV-F10",
+"PSLV-C37",
+"PSLV-C44"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Microsat-R, a DRDO satellite, was launched by PSLV-C44 in January 2019.",
+"link": "49:4:0.4"
+},
+{
+"id": "ff8119d57e494",
+"row": 49,
+"src": "app",
+"s": "Which of the following is NOT correct about Mission Shakti?",
+"o": [
+"It was done in the upper atmosphere to ensure no debris",
+"It used the DRDO PDV Mk-II interceptor",
+"It was a joint DRDO–ISRO effort",
+"It destroyed a live satellite in Low Earth Orbit"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The test was in low LEO (~283 km) so debris would decay quickly; 'upper atmosphere, no debris' is wrong.",
+"link": "49:4:1"
+},
+{
+"id": "na6edb3232cd",
+"row": 49,
+"src": null,
+"s": "Which of the following pairs is wrongly matched?",
+"o": [
+"Rudram – First indigenous anti-radiation missile",
+"Philippines – First BrahMos buyer",
+"Mission Shakti – Made India the third country to demonstrate an ASAT capability",
+"Indonesia – First Astra buyer"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Mission Shakti made India the fourth country, not the third, to demonstrate an ASAT capability.",
+"link": "49:4:0.6"
+},
+{
+"id": "ndfde582b6f3",
+"row": 49,
+"src": null,
+"s": "Which type of missile stays powered throughout its flight and uses aerodynamic lift at relatively low altitude?",
+"o": [
+"Sounding rocket",
+"Ballistic missile",
+"Hypersonic glide vehicle",
+"Cruise missile"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "A cruise missile is powered throughout; a ballistic missile is powered mainly in boost phase and then follows a high parabolic arc.",
+"link": "49:5:1.0"
+},
+{
+"id": "n01a27baf709",
+"row": 49,
+"src": null,
+"s": "Which of the following characterises a scramjet engine?",
+"o": [
+"Subsonic combustion after the air is slowed down",
+"Supersonic combustion and no rotating parts",
+"Carrying all the oxygen needed for combustion",
+"A turbine-driven rotating compressor"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "A scramjet uses supersonic combustion and has no rotating compressor or turbine parts; unlike a rocket, it does not carry its oxidiser.",
+"link": "49:5:5.3"
+},
+{
+"id": "n7a4c9c60761",
+"row": 49,
+"src": null,
+"s": "For which of the following is Solid Fuel Ducted Ramjet (SFDR) technology mainly intended?",
+"o": [
+"short-range submarine-launched missiles",
+"long-range air-to-air missiles",
+"exo-atmospheric ballistic interceptors only",
+"satellite launch vehicles"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "SFDR uses atmospheric air for combustion and was demonstrated from ITR Chandipur for application in long-range air-to-air missiles.",
+"link": "49:5:5.4"
+},
+{
+"id": "n96b4c1876a0",
+"row": 49,
+"src": null,
+"s": "Which of the following is NOT correct about MIRV and Mission Divyastra?",
+"o": [
+"Mission Divyastra used the K-4 missile",
+"Mission Divyastra used the Agni-V missile",
+"A MIRV lets one missile carry several warheads aimed at different targets",
+"Mission Divyastra was India's first MIRV flight test"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Mission Divyastra used Agni-V, not K-4; K-4 is a submarine-launched missile.",
+"link": "49:5:5.2"
+},
+{
+"id": "n0f0dbaeaa3e",
+"row": 49,
+"src": null,
+"s": "Which of the following Indian missiles is subsonic?",
+"o": [
+"BrahMos",
+"BrahMos-II",
+"Astra Mk-1",
+"Nirbhay"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Nirbhay is subsonic; BrahMos is supersonic and BrahMos-II is hypersonic.",
+"link": "49:5:3.0"
+},
+{
+"id": "f3e0fa3b7a7f7",
+"row": 49,
+"src": "app",
+"s": "What is a vehicle that is rocket-boosted, then glides at Mach 5+ and manoeuvres in the upper atmosphere called?",
+"o": [
+"MIRV",
+"Hypersonic Glide Vehicle (HGV)",
+"FOBS",
+"SFDR"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "An HGV glides at Mach 5+ after a rocket boost and is hard to intercept.",
+"link": "49:5:5.1"
+},
+{
+"id": "n6c9a38c7629",
+"row": 49,
+"src": null,
+"s": "On which date was the first flight-trial of India's long-range hypersonic missile reported?",
+"o": [
+"11 March 2024",
+"7 November 2017",
+"23 August 2023",
+"16 November 2024"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "India's first reported flight-trial of the long-range hypersonic missile took place on 16 November 2024.",
+"link": "49:5:8"
+},
+{
+"id": "naa392915f9d",
+"row": 49,
+"src": null,
+"s": "Above which speed is a missile called hypersonic?",
+"o": [
+"Mach 2",
+"Mach 5",
+"Mach 10",
+"Mach 3"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Hypersonic means faster than Mach 5; a Hypersonic Glide Vehicle glides at Mach 5+ while manoeuvring.",
+"link": "49:5:3.2"
+},
+{
+"id": "n6ae14d61cb7",
+"row": 49,
+"src": null,
+"s": "Consider the following statements about India's HSTDV:\n1. It flew at above Mach 6.\n2. It validated scramjet combustion and thermal protection above 2,000°C.\n3. It is a submarine-launched missile with a range of 3,500 km.\nWhich of the above statements are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "HSTDV flew at above Mach 6 and validated scramjet combustion and thermal protection above 2,000°C; it is not a submarine-launched missile.",
+"link": "49:5:7"
+},
+{
+"id": "n739f987a476",
+"row": 49,
+"src": null,
+"s": "What is the peak speed of India's long-range hypersonic anti-ship missile, which uses skipping manoeuvres?",
+"o": [
+"Mach 3",
+"Mach 10",
+"Mach 15",
+"Mach 5"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "It reportedly peaks at about Mach 10, with an average speed of about Mach 5.",
+"link": "49:5:9"
+},
+{
+"id": "n9aa08609b8a",
+"row": 49,
+"src": null,
+"s": "For which purpose were the ranges along the Andhra Pradesh coast used in January 2026?",
+"o": [
+"Testing of the Astra export configuration",
+"Validation rounds of LRAShM",
+"Demonstration of the first indigenous anti-radiation missile",
+"Transfer-of-technology trials for VSHORADS"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Ranges along the Andhra Pradesh coast were used for LRAShM validation rounds.",
+"link": "49:5:9"
+},
+{
+"id": "gc62fed04db02",
+"row": 49,
+"src": "app",
+"s": "What is the approximate range of LR-AShM, India's hypersonic glide anti-ship missile for Navy coastal batteries?",
+"o": [
+"About 750 km",
+"About 290 km",
+"About 1,500 km",
+"About 5,000 km"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "LR-AShM has a range of about 1,500 km, with a peak speed of Mach 10.",
+"link": "49:5:9"
+},
+{
+"id": "ndc6701f6b28",
+"row": 50,
+"src": null,
+"s": "Pokhran-II was conducted under which Prime Minister?",
+"o": [
+"H.D. Deve Gowda",
+"P.V. Narasimha Rao",
+"A.B. Vajpayee",
+"I.K. Gujral"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Pokhran-II was conducted under A.B. Vajpayee, with A.P.J. Abdul Kalam and R. Chidambaram in the scientific leadership.",
+"link": "50:0:0.1"
+},
+{
+"id": "fc277cdfaf8ba",
+"row": 50,
+"src": "app",
+"s": "Who led the team that conducted Pokhran-I (1974)?",
+"o": [
+"R. Chidambaram",
+"A.P.J. Abdul Kalam",
+"V.K. Saraswat",
+"Raja Ramanna"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Raja Ramanna led the Pokhran-I team; Kalam and Chidambaram led Pokhran-II.",
+"link": "50:0:0.0"
+},
+{
+"id": "f32654da2500c",
+"row": 50,
+"src": "app",
+"s": "How many nuclear tests did India conduct in Pokhran-II (1998)?",
+"o": [
+"Four",
+"Six",
+"Three",
+"Five"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Pokhran-II on 11 and 13 May 1998 had five tests, both fission and fusion.",
+"link": "50:0:0.1"
+},
+{
+"id": "fc21cf4a652a4",
+"row": 50,
+"src": "app",
+"s": "Which of the following pairs is NOT correctly matched?",
+"o": [
+"Operation Shakti – Pokhran-II",
+"Mission Shakti – 1998 nuclear tests",
+"Smiling Buddha – Pokhran-I",
+"Mission Shakti – 2019 ASAT test"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Operation Shakti was the 1998 nuclear test; Mission Shakti was the 2019 anti-satellite test.",
+"link": "50:0:3"
+},
+{
+"id": "nd557eac9d75",
+"row": 50,
+"src": null,
+"s": "What was the code name of Pokhran-II (1998)?",
+"o": [
+"Smiling Buddha",
+"Operation Vijay",
+"Operation Divyastra",
+"Operation Shakti"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Pokhran-II (11 and 13 May 1998) was 'Operation Shakti'; Pokhran-I (1974) was 'Smiling Buddha'.",
+"link": "50:0:0.1"
+},
+{
+"id": "n575c1c79e50",
+"row": 50,
+"src": null,
+"s": "Which day is observed in India on 11 May?",
+"o": [
+"National Science Day",
+"National Nuclear Security Day",
+"National Technology Day",
+"National Defence Technology Day"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "11 May is observed as National Technology Day in India, commemorating the 1998 Pokhran tests.",
+"link": "50:0:2"
+},
+{
+"id": "g6145b899ef43",
+"row": 50,
+"src": "app",
+"s": "When was India's first nuclear test, 'Smiling Buddha', conducted at Pokhran?",
+"o": [
+"18 May 1974",
+"11 May 1998",
+"13 May 1998",
+"18 May 1972"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Pokhran-I, code-named Smiling Buddha, was conducted on 18 May 1974 under PM Indira Gandhi.",
+"link": "50:0:0.0"
+},
+{
+"id": "g6f3312e73f5f",
+"row": 50,
+"src": "app",
+"s": "Who among the following led the Pokhran-II tests of 1998 along with R. Chidambaram of DAE?",
+"o": [
+"Raja Ramanna",
+"A.P.J. Abdul Kalam",
+"Homi Sethna",
+"Vikram Sarabhai"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Pokhran-II (Operation Shakti) was led by A.P.J. Abdul Kalam of DRDO and R. Chidambaram of DAE.",
+"link": "50:0:0.1"
+},
+{
+"id": "g0e3fc08d60c3",
+"row": 50,
+"src": "app",
+"s": "In which district of Rajasthan is the Pokhran Test Range located?",
+"o": [
+"Bikaner",
+"Barmer",
+"Jodhpur",
+"Jaisalmer"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The Pokhran Test Range, site of Pokhran-I and II, is in Jaisalmer district, Rajasthan.",
+"link": "50:0:1"
+},
+{
+"id": "f4c8a0d528cf2",
+"row": 50,
+"src": "app",
+"s": "From which submarine was the K-4 SLBM first launched on 27 November 2024?",
+"o": [
+"INS Arihant",
+"INS Arighaat",
+"INS Chakra",
+"INS Aridhaman"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "K-4 was first fired from INS Arighaat in the Bay of Bengal on 27 November 2024.",
+"link": "50:1:5.1"
+},
+{
+"id": "f29d80328391b",
+"row": 50,
+"src": "app",
+"s": "Where was INS Aridhaman, India's third SSBN, commissioned on 3 April 2026?",
+"o": [
+"Karwar",
+"Mumbai",
+"Visakhapatnam",
+"Kochi"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "INS Aridhaman was commissioned at Visakhapatnam on 3 April 2026.",
+"link": "50:1:5.2"
+},
+{
+"id": "fa0fd9ac9749f",
+"row": 50,
+"src": "app",
+"s": "Consider the following statements about India's submarine-launched missiles:\n1. K-15 Sagarika has a range of about 750 km.\n2. K-4 has a range of about 3,500 km.\n3. INS Arighaat was India's first indigenous SSBN.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "K-15 reaches about 750 km and K-4 about 3,500 km; the first indigenous SSBN was INS Arihant (2016), not Arighaat.",
+"link": "50:1:9.0"
+},
+{
+"id": "n3ad420188ee",
+"row": 50,
+"src": null,
+"s": "What is the range of the K-15 Sagarika submarine-launched ballistic missile?",
+"o": [
+"750 km",
+"1,500 km",
+"3,500 km",
+"5,000 km"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "K-15 Sagarika has a range of about 750 km; 3,500 km is K-4.",
+"link": "50:1:9.0"
+},
+{
+"id": "nde65c27cd08",
+"row": 50,
+"src": null,
+"s": "Which of the following is NOT correct about India's SSBNs?",
+"o": [
+"INS Aridhaman can carry 24 K-15 or 8 K-4/K-5 missiles",
+"INS Arighaat has 8 vertical launch tubes",
+"INS Arihant has 4 vertical launch tubes",
+"INS Aridhaman has 8 vertical launch tubes"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Arihant and Arighaat have 4 vertical launch tubes each; only Aridhaman has 8, which gives it the larger load.",
+"link": "50:1:5.1"
+},
+{
+"id": "n77914b79376",
+"row": 50,
+"src": null,
+"s": "What was the Advanced Technology Vessel (ATV) project undertaken to build?",
+"o": [
+"Indigenous aircraft carriers",
+"Nuclear ballistic-missile submarines (SSBNs)",
+"Stealth frigates",
+"AIP-equipped conventional submarines"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The ATV project was initiated by DRDO and private firms, with Russian assistance, to build SSBNs.",
+"link": "50:1:4"
+},
+{
+"id": "n19c902b2b9c",
+"row": 50,
+"src": null,
+"s": "Which type of submarine was INS Chakra II, leased by India from Russia?",
+"o": [
+"Kilo-class submarine",
+"Charlie-class submarine",
+"Akula-class nuclear attack submarine (SSN)",
+"Type 209 submarine"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "INS Chakra II was a leased Akula-class SSN (formerly Nerpa); the first INS Chakra was a Charlie-class boat.",
+"link": "50:1:1.1"
+},
+{
+"id": "fa21c596b3b0a",
+"row": 50,
+"src": "app",
+"s": "Which type of submarine was INS Chakra, leased from the Soviet Union in 1988?",
+"o": [
+"Charlie-class SSN",
+"Kilo-class diesel-electric boat",
+"Akula-class SSN",
+"Type 209 diesel-electric boat"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "INS Chakra (1988) was a Charlie-class SSN; INS Chakra II was an Akula-class SSN.",
+"link": "50:1:1.0"
+},
+{
+"id": "f382dfd225c3b",
+"row": 50,
+"src": "app",
+"s": "With help from which country did DRDO and private firms carry out the ATV project to build India's SSBNs?",
+"o": [
+"Russia",
+"Israel",
+"France",
+"USA"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The ATV project had Russian help.",
+"link": "50:1:4"
+},
+{
+"id": "ge8a1416cabd4",
+"row": 50,
+"src": "app",
+"s": "Which was India's first indigenous nuclear-powered ballistic missile submarine (SSBN)?",
+"o": [
+"INS Chakra",
+"INS Arighaat",
+"INS Arihant",
+"INS Aridhaman"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "INS Arihant, commissioned in 2016 under the ATV project, is India's first indigenous SSBN.",
+"link": "50:1:5.0"
+},
+{
+"id": "gfa1fd4f6cc4a",
+"row": 50,
+"src": "app",
+"s": "INS Shishumar and INS Shalki are diesel-electric submarines of which type?",
+"o": [
+"Russian Kilo class",
+"Soviet Charlie class",
+"French Scorpene class",
+"German Type 209"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "INS Shalki and INS Shishumar are German-designed Type 209 diesel-electric submarines.",
+"link": "50:1:1.3"
+},
+{
+"id": "geb9e2e7756da",
+"row": 50,
+"src": "app",
+"s": "In which year was INS Chakra II, a leased Russian Akula-class nuclear attack submarine, commissioned?",
+"o": [
+"2016",
+"2009",
+"2012",
+"1988"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "INS Chakra II (formerly Nerpa) was commissioned on 4 April 2012.",
+"link": "50:1:1.1"
+},
+{
+"id": "na69f912aae8",
+"row": 50,
+"src": null,
+"s": "Consider the following statements about Project Kusha:\n1. Its M3 interceptor is expected to reach about 350–400 km.\n2. It is DRDO's short-range air-defence system.\n3. Its M1 interceptor has a range of about 150 km.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Project Kusha is DRDO's long-range (not short-range) air-defence system, with M1/M2/M3 interceptors of about 150/250/350–400 km.",
+"link": "50:2:9"
+},
+{
+"id": "nc630fbef31c",
+"row": 50,
+"src": null,
+"s": "Which is the exo-atmospheric interceptor in Phase-I of India's Ballistic Missile Defence programme?",
+"o": [
+"AD-1",
+"AAD/Ashwin",
+"PAD/Pradyumna",
+"AD-2"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "Phase-I uses PAD/Pradyumna (exo) and AAD/Ashwin (endo); AD-1 and AD-2 belong to Phase-II.",
+"link": "50:2:1.0"
+},
+{
+"id": "f94045cb47638",
+"row": 50,
+"src": "app",
+"s": "By which year does Mission Sudarshan Chakra, a multi-layered air and missile defence network, aim at operational maturity?",
+"o": [
+"2040",
+"2047",
+"2030",
+"2035"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Mission Sudarshan Chakra targets operational maturity by 2035.",
+"link": "50:2:7"
+},
+{
+"id": "n6774a5a156b",
+"row": 50,
+"src": null,
+"s": "What is PAD (Prithvi Air Defence) in India's BMD programme?",
+"o": [
+"Lower-altitude endo-atmospheric interceptor",
+"Ship-based terminal-phase interceptor",
+"Long-range tracking radar",
+"Higher-altitude exo-atmospheric interceptor"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "PAD is the higher-altitude exo-atmospheric interceptor; AAD is the lower-altitude endo-atmospheric interceptor and Swordfish is a tracking radar.",
+"link": "50:2:1.0"
+},
+{
+"id": "n44b8ffa0652",
+"row": 50,
+"src": null,
+"s": "AD-1 and AD-2 interceptors belong to which phase of India's BMD programme?",
+"o": [
+"Phase I",
+"Phase III",
+"Phase II",
+"Phase IV"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "AD-1 and AD-2 are Phase II BMD interceptors meant for longer-range threats of about the 5,000-km class.",
+"link": "50:2:1.2"
+},
+{
+"id": "n085e816c508",
+"row": 50,
+"src": null,
+"s": "For what is the Swordfish radar primarily used?",
+"o": [
+"Jam drone-control signals at short range",
+"Track ballistic missiles and space objects at distances exceeding 1,500 km",
+"Detect only underwater targets",
+"Guide K-series missiles from submarines"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "The Long-Range Tracking Radar, known as Swordfish, tracks ballistic missiles and space objects at distances of more than 1,500 km.",
+"link": "50:2:2"
+},
+{
+"id": "fddd47a133f02",
+"row": 50,
+"src": "app",
+"s": "To which phase and layer does the AAD (Advanced Air Defence) interceptor belong in India's BMD programme?",
+"o": [
+"Phase-II, endo-atmospheric",
+"Phase-I, endo-atmospheric",
+"Phase-I, exo-atmospheric",
+"Phase-II, exo-atmospheric"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "AAD is the Phase-I endo-atmospheric (lower altitude) interceptor; PAD is the exo-atmospheric one.",
+"link": "50:2:1.1"
+},
+{
+"id": "n2af19c3b673",
+"row": 50,
+"src": null,
+"s": "Which of the following jointly developed MRSAM or Barak-8?",
+"o": [
+"DRDO and Israel Aerospace Industries",
+"BEL and France’s Dassault Aviation",
+"DRDO and Russia’s Rosoboronexport",
+"ISRO and Israel Aerospace Industries"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "MRSAM/Barak-8 is an India-Israel programme involving DRDO and Israel Aerospace Industries (IAI).",
+"link": "50:2:5.2"
+},
+{
+"id": "nb7ed88ed56f",
+"row": 50,
+"src": null,
+"s": "What is the vision year of Mission Sudarshan Chakra, a networked national shield of air defence, cybersecurity and surveillance?",
+"o": [
+"2030",
+"2035",
+"2040",
+"2047"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "It is Vision 2035, built from blocks such as Akash Tarang, MRSAM and VSHORADS, with Project Kusha as a core element.",
+"link": "50:2:7"
+},
+{
+"id": "ncc850b9f68b",
+"row": 50,
+"src": null,
+"s": "What is Akashteer?",
+"o": [
+"A long-range missile developed by DRDO",
+"An automated air-defence control network built by BEL with the Army",
+"An anti-drone soft-kill electronic-warfare system",
+"A high-power laser directed-energy weapon"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Akashteer is BEL's automated air-defence control network for the Army; Akash Tarang is the anti-drone soft-kill EW system.",
+"link": "50:2:5.6"
+},
+{
+"id": "n06aef2a4aed",
+"row": 50,
+"src": null,
+"s": "Consider the following statements about the S-400 Triumf:\n1. The Indian Air Force refers to it as 'Sudarshan Chakra'.\n2. Belarus was its first foreign buyer after Russia.\n3. China was its first foreign buyer.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The IAF calls its S-400 'Sudarshan Chakra', and China was the first foreign buyer; Belarus came later.",
+"link": "50:2:5.0"
+},
+{
+"id": "n5129cd26cc3",
+"row": 50,
+"src": null,
+"s": "What are the approximate interceptor ranges of Project Kusha, DRDO's long-range air-defence project?",
+"o": [
+"15, 25 and 40 km",
+"75, 100 and 150 km",
+"750, 3,500 and 5,000 km",
+"150, 250 and 350–400 km"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Project Kusha is reported as a long-range air-defence project with M1, M2 and M3 interceptors of about 150, 250 and 350–400 km ranges, respectively.",
+"link": "50:2:9"
+},
+{
+"id": "fb22d494385a6",
+"row": 50,
+"src": "app",
+"s": "India's IADWS, first tested in August 2025, combines QRSAM and VSHORADS with which of the following?",
+"o": [
+"Iron Dome",
+"S-400 Triumf",
+"A high-power laser directed-energy weapon",
+"Barak-1"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "IADWS = QRSAM + VSHORADS + a high-power laser DEW, all indigenous.",
+"link": "50:2:5.5"
+},
+{
+"id": "fdc6c2d0750ae",
+"row": 50,
+"src": "app",
+"s": "What is Akash Tarang, a building block of Mission Sudarshan Chakra?",
+"o": [
+"Automated air-defence control network",
+"Anti-drone soft-kill electronic warfare system",
+"Airborne early-warning radar",
+"Long-range surface-to-air missile"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Akash Tarang is an indigenous anti-drone soft-kill EW system; Akashteer is the control network.",
+"link": "50:2:5.7"
+},
+{
+"id": "gfc224cbaec12",
+"row": 50,
+"src": "app",
+"s": "Which country developed the S-400 Triumf air defence system?",
+"o": [
+"Israel",
+"USA",
+"Russia",
+"France"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The S-400 Triumf is a Russian long-range surface-to-air missile system; the IAF calls it 'Sudarshan Chakra'.",
+"link": "50:2:5.0"
+},
+{
+"id": "n8c5524df915",
+"row": 50,
+"src": null,
+"s": "Which of the following is NOT correct about India's nuclear doctrine?",
+"o": [
+"No First Use was first declared by the Indira Gandhi government after Pokhran-I",
+"The draft doctrine with No First Use came from the Vajpayee government in 1999",
+"The draft followed the Pokhran-II tests of 1998",
+"The Cabinet Committee on Security formally adopted it on 4 January 2003"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "NFU dates from the Vajpayee government after Pokhran-II (1998), not from Pokhran-I (1974).",
+"link": "50:3:2"
+},
+{
+"id": "nea02c679880",
+"row": 50,
+"src": null,
+"s": "Which of the following is NOT a tenet of India's nuclear doctrine?",
+"o": [
+"Credible minimum deterrence",
+"No First Use",
+"Massive retaliation causing unacceptable damage",
+"Use of nuclear weapons against every non-nuclear-weapon state"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The doctrine provides for no use against non-nuclear-weapon states (subject to the clause on major biological or chemical attacks).",
+"link": "50:3:8"
+},
+{
+"id": "n831403d0b79",
+"row": 50,
+"src": null,
+"s": "Against a major attack involving which weapons does India's nuclear doctrine retain the nuclear option?",
+"o": [
+"Conventional weapons",
+"Cyber weapons",
+"Anti-satellite weapons",
+"Biological or chemical weapons"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The doctrine retains the nuclear option against a major biological or chemical attack.",
+"link": "50:3:8"
+},
+{
+"id": "n09ebf5acd1a",
+"row": 50,
+"src": null,
+"s": "Under India's No First Use policy, against which of the following may nuclear weapons be used in retaliation?",
+"o": [
+"any conventional attack on Indian territory",
+"a nuclear attack on Indian territory or Indian forces",
+"a cyberattack on India’s strategic infrastructure",
+"any military alliance formed against India"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "India’s No First Use policy permits nuclear weapons only in retaliation against a nuclear attack on Indian territory or Indian forces.",
+"link": "50:3:6"
+},
+{
+"id": "n3531c9b8e2b",
+"row": 50,
+"src": null,
+"s": "What is the Strategic Forces Command?",
+"o": [
+"a joint research body of DRDO and ISRO",
+"a civilian body regulating nuclear exports",
+"a tri-service command managing and operating India’s nuclear arsenal",
+"a parliamentary committee supervising defence expenditure"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The Strategic Forces Command is a tri-service command responsible for managing and operating India’s nuclear arsenal.",
+"link": "50:3:12.2"
+},
+{
+"id": "nf977e865dc7",
+"row": 50,
+"src": null,
+"s": "Which of the following pairs about India's nuclear command structure is wrongly matched?",
+"o": [
+"Political Council of the NCA – Headed by the Prime Minister",
+"Executive Council of the NCA – Headed by the National Security Adviser",
+"Cabinet Committee on Security – Manages nuclear forces",
+"Strategic Forces Command – Manages nuclear forces"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The Strategic Forces Command manages nuclear forces; the CCS supervises civilian political control.",
+"link": "50:3:12.2"
+},
+{
+"id": "f8b564f15838a",
+"row": 50,
+"src": "app",
+"s": "Which body prepared India's draft nuclear doctrine of August 1999?",
+"o": [
+"National Security Advisory Board",
+"Cabinet Committee on Security",
+"Atomic Energy Commission",
+"Strategic Forces Command"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The NSAB prepared the draft in August 1999; the CCS adopted the doctrine on 4 January 2003.",
+"link": "50:3:1"
+},
+{
+"id": "f2239904150c8",
+"row": 50,
+"src": "app",
+"s": "Under India's Nuclear Command Authority, which is the only body that can authorise the use of nuclear weapons?",
+"o": [
+"Cabinet Committee on Security",
+"Strategic Forces Command",
+"Executive Council",
+"Political Council"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The Political Council, chaired by the PM, alone authorises use; the SFC operates the arsenal and the CCS only oversees.",
+"link": "50:3:12.0"
+},
+{
+"id": "f93017ea01893",
+"row": 50,
+"src": "app",
+"s": "Who chairs the Executive Council of India's Nuclear Command Authority?",
+"o": [
+"Chief of Defence Staff",
+"Prime Minister",
+"Defence Minister",
+"National Security Advisor"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The NSA chairs the Executive Council; the PM chairs the Political Council.",
+"link": "50:3:12.1"
+},
+{
+"id": "fc4a15e59af71",
+"row": 50,
+"src": "app",
+"s": "After which event did India's No First Use nuclear policy come from the Vajpayee government?",
+"o": [
+"Mission Shakti (2019)",
+"Pokhran-II (1998)",
+"The NSG waiver (2008)",
+"Pokhran-I (1974)"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "NFU was announced after Pokhran-II by the Vajpayee government, not after Pokhran-I.",
+"link": "50:3:2"
+},
+{
+"id": "g8c7e395bdd38",
+"row": 50,
+"src": "app",
+"s": "In which year was India's tri-service Strategic Forces Command set up?",
+"o": [
+"2003",
+"1999",
+"1998",
+"2008"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "The Strategic Forces Command, which manages and operates the nuclear arsenal, was set up in 2003.",
+"link": "50:3:12.2"
+},
+{
+"id": "na4bc14961cc",
+"row": 50,
+"src": null,
+"s": "In which year did India become a member of the Wassenaar Arrangement?",
+"o": [
+"2016",
+"2017",
+"2018",
+"2008"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "India joined Wassenaar in 2017; it joined the MTCR and the Hague Code of Conduct in 2016 and the Australia Group in 2018.",
+"link": "50:4:0.5"
+},
+{
+"id": "nd562745c2fe",
+"row": 50,
+"src": null,
+"s": "Which of the following is NOT correct about India and nuclear regimes?",
+"o": [
+"India has not signed the NPT, calling it discriminatory",
+"India has been an NSG member since its 2008 waiver",
+"India will not sign the CTBT until it is tied to time-bound global disarmament",
+"India keeps a voluntary nuclear-test moratorium"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "India is not an NSG member (blocked by China); it got the 2008 NSG waiver and follows NSG guidelines.",
+"link": "50:4:0.2"
+},
+{
+"id": "n2632a6b1f78",
+"row": 50,
+"src": null,
+"s": "On which condition does India support a universal and verifiable Fissile Material Cut-off Treaty?",
+"o": [
+"does not cap India’s existing stockpile",
+"caps India’s existing stockpile immediately",
+"permits unlimited nuclear testing",
+"applies only to non-nuclear-weapon states"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "India supports a universal and verifiable FMCT, but its position is that the treaty should not cap its existing stockpile.",
+"link": "50:4:2"
+},
+{
+"id": "na9140d3c634",
+"row": 50,
+"src": null,
+"s": "Besides the WMD Act, through which list does India follow the guidelines of the NSG, MTCR, Wassenaar Arrangement and Australia Group?",
+"o": [
+"SEZ list",
+"SCOMET list",
+"Union List",
+"Negative list"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "India implements these export-control guidelines through the WMD Act and the SCOMET list.",
+"link": "50:4:1"
+},
+{
+"id": "f3f28608de684",
+"row": 50,
+"src": "app",
+"s": "Which country has blocked India's membership of the Nuclear Suppliers Group?",
+"o": [
+"Russia",
+"France",
+"China",
+"USA"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "China blocks India's NSG entry; India got an NSG waiver in 2008 and follows its guidelines.",
+"link": "50:4:0.2"
+},
+{
+"id": "ffa0e3458b70e",
+"row": 50,
+"src": "app",
+"s": "Under the NPT, only states that tested a nuclear device before which year are nuclear-weapon states?",
+"o": [
+"1967",
+"1970",
+"1998",
+"1974"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Only the five states that tested before 1967 are NWS, which India calls discriminatory.",
+"link": "50:4:0.0"
+},
+{
+"id": "fd24ddfabb152",
+"row": 50,
+"src": "app",
+"s": "India is NOT a member of which of the following?",
+"o": [
+"Wassenaar Arrangement",
+"Nuclear Suppliers Group",
+"MTCR",
+"Australia Group"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "India is a member of the MTCR, Wassenaar and Australia Group, but not of the NSG, NPT or CTBT.",
+"link": "50:4:0.2"
+},
+{
+"id": "g5608e6f434a9",
+"row": 50,
+"src": "app",
+"s": "In which year did India become a member of the Missile Technology Control Regime (MTCR)?",
+"o": [
+"2008",
+"2016",
+"2017",
+"2018"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "India joined the MTCR in 2016 as its 35th member; Wassenaar followed in 2017 and the Australia Group in 2018.",
+"link": "50:4:0.3"
+},
+{
+"id": "gb44b6aec5e87",
+"row": 50,
+"src": "app",
+"s": "In which year did India become a member of the Australia Group?",
+"o": [
+"2016",
+"2017",
+"2018",
+"2008"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "India joined the Australia Group in January 2018, after MTCR (2016) and Wassenaar (2017).",
+"link": "50:4:0.6"
+},
+{
+"id": "ga83b78762b75",
+"row": 50,
+"src": "app",
+"s": "India joined the Missile Technology Control Regime (MTCR) in 2016 as its:",
+"o": [
+"34th member",
+"35th member",
+"36th member",
+"42nd member"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "India became the 35th member of the MTCR in 2016.",
+"link": "50:4:0.3"
+},
+{
+"id": "n9707ee692b2",
+"row": 50,
+"src": null,
+"s": "What is the next strategic step associated with India's SSBN-based deterrence?",
+"o": [
+"ending the No First Use policy",
+"continuous at-sea deterrence",
+"replacement of all missiles by free-fall bombs",
+"complete withdrawal from submarine operations"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "Continuous at-sea deterrence is identified as the next step in strengthening India’s SSBN-based nuclear deterrence.",
+"link": "50:5:1"
+},
+{
+"id": "n18e8f03ba87",
+"row": 50,
+"src": null,
+"s": "Why are SSBNs regarded as the most survivable leg of the nuclear triad?",
+"o": [
+"They eliminate the need for land-based deterrence.",
+"They remain permanently visible to adversaries.",
+"They carry only conventional weapons.",
+"Their concealment supports a guaranteed second-strike capability."
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "SSBNs are difficult to detect and destroy, thereby supporting a reliable second-strike capability that underpins India’s No First Use posture.",
+"link": "50:5:1"
+},
+{
+"id": "n2ef7b1a431a",
+"row": 50,
+"src": null,
+"s": "To what was the operational deployment of Indian warheads cited in the June 2026 assessment linked?",
+"o": [
+"Dhanush missiles mounted exclusively on aircraft carriers",
+"only free-fall bombs carried by Jaguar aircraft",
+"SSBN deterrence patrols and canisterised Agni missiles",
+"civilian nuclear reactors and space launch vehicles"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "The cited deployment was linked to SSBN deterrence patrols and canisterised Agni missiles.",
+"link": "50:5:3"
+},
+{
+"id": "n9115a31111c",
+"row": 50,
+"src": null,
+"s": "What forms the land-based leg of the United States nuclear triad?",
+"o": [
+"Trident submarines",
+"Strategic bombers",
+"Tomahawk cruise missiles",
+"Minuteman III ICBMs"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "The US triad consists of Minuteman III ICBMs (land leg), strategic bombers and Ohio/Columbia-class SSBNs.",
+"link": "50:5:2"
+},
+{
+"id": "n8bb39a857e1",
+"row": 50,
+"src": null,
+"s": "India is described as having a fully operational nuclear triad along with which of the following countries?",
+"o": [
+"France, the United Kingdom and Pakistan",
+"Japan, Germany and Australia",
+"The United States, Russia and China",
+"Israel, North Korea and Iran"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "India is described as having a fully operational triad alongside the United States, Russia and China.",
+"link": "50:5:2"
+},
+{
+"id": "fb2f8e653bc95",
+"row": 50,
+"src": "app",
+"s": "The air leg of India's nuclear triad uses which aircraft with free-fall bombs?",
+"o": [
+"Jaguar and Mirage 2000",
+"Su-30MKI and Tejas",
+"MiG-21 and Rafale",
+"Tejas and Rafale"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "India's air leg is the Jaguar and Mirage 2000 with free-fall bombs.",
+"link": "50:5:0.1"
+},
+{
+"id": "gecad7e871147",
+"row": 50,
+"src": "app",
+"s": "From which of the following ships was the Dhanush missile of India's sea-based nuclear leg launched?",
+"o": [
+"INS Subhadra",
+"INS Arihant",
+"INS Chakra",
+"INS Vikrant"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Before SSBNs, the sea leg used the ship-launched Dhanush missile from ships such as INS Subhadra and INS Rajput.",
+"link": "50:5:0.2"
+},
+{
+"id": "n791b1d10a4b",
+"row": 50,
+"src": null,
+"s": "In a fusion (thermonuclear) weapon, what triggers the fusion of light hydrogen isotopes?",
+"o": [
+"A laser pulse",
+"A fusion primary",
+"A fission primary",
+"Chemical explosives alone"
+],
+"a": 2,
+"k": null,
+"at": null,
+"x": "A fission 'primary' supplies the heat to trigger fusion; a fission weapon splits U-235 or Pu-239 in a chain reaction.",
+"link": "50:6:0.1"
+},
+{
+"id": "n5ce3201ca1c",
+"row": 50,
+"src": null,
+"s": "Which one of the following is correctly matched with its approximate U-235 enrichment level?",
+"o": [
+"HEU — about 3–5%",
+"Weapons-grade uranium — about 0.7%",
+"Reactor-grade LEU — about 20%",
+"Natural uranium — about 0.7%"
+],
+"a": 3,
+"k": null,
+"at": null,
+"x": "Natural uranium contains about 0.7% U-235. Reactor-grade LEU is about 3–5%, HEU is 20% or more, and weapons-grade uranium is about 90%.",
+"link": "50:6:2.0"
+},
+{
+"id": "fb387f87f82d3",
+"row": 50,
+"src": "app",
+"s": "Consider the following statements about nuclear weapons:\n1. In a fission weapon, a heavy nucleus such as U-235 or Pu-239 splits in a neutron chain reaction.\n2. In a fusion weapon, a fission 'primary' triggers the fusion.\n3. Pokhran-I tested a fusion device.\nWhich of the statements given above is/are correct?",
+"o": [
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+"a": 0,
+"k": null,
+"at": null,
+"x": "Fission splits heavy nuclei and a fission primary triggers fusion; Pokhran-I was a fission device, fusion was tested in Pokhran-II.",
+"link": "50:6:0.0"
+},
+{
+"id": "g9de32b79019f",
+"row": 50,
+"src": "app",
+"s": "Which device is used as a high-speed switch to fire the detonators of a nuclear bomb?",
+"o": [
+"MOSFET",
+"Krytron",
+"Solenoid",
+"Relay"
+],
+"a": 1,
+"k": null,
+"at": null,
+"x": "A krytron is a very fast gas-filled switch used to fire the detonators of a nuclear bomb.",
+"link": "50:6:1"
+}
+]

@@ -999,3 +999,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Notes conflict: 93:2:1 Marco Polo 1292 "end of Rudrama's reign" vs 93:1:14 she died 1289; 96:5:0.4 Prataparudra accedes 1296 vs row 93 1289 — reconcile (not used in new MCQs).
 - Doubtful PYQs: yfa4f2df1833 has two right options (Ulugh Khan = Juna Khan); ya44b0996b37 keys Ganapatideva for Ramappa pond, notes say Recherla Rudra.
 - Row 94: Pedaganjam salt PYQs (5) and own MCQs (3, removed) have no notes link — notes gap.
+
+## rewrite b5-w040 (rows 40–44)
+- own 360 → 70 kept + 80 new (150, 42%); new 49 statements / 23 match / 8 A–R; no lines lost.
+- Notes conflict: EOS-05 dated 4 Sep 2026 (GSLV-F17) in row 40 vs 7 Sep 2026 in row 43 — reconcile.
+- Row 43 line 4:0.5: broken GSAT-7 table row ("Item | Fact |").
+- PYQ yfef4334c5f7 keyed Artemis III as first crewed south-pole landing; notes say Artemis IV (2028) after NASA's re-plan — likely ⚠ Outdated chip.
