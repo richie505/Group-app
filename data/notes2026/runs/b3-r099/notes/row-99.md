@@ -40,6 +40,7 @@
 - **Not permanent:** it is constituted afresh each time and its **tenure is fixed by the President's order** (it reports in about two years) – not a five-year or permanent body.
 - **Not its job:** preparing the Budget, assessing income tax, controlling expenditure, **Art. 282 discretionary grants**, GST sharing (GST Council), devolving State taxes such as trade/sales tax.
 > Exam angle: "primary function = distribute revenue between Centre and States"; "constituted by the President under Art. 280".
+- Also not an FC job: **maintaining the income-expenditure accounts** of the Union and the States.
 ~~ Sources: NextGen Polity full p.430-432; Laxmikanth 8th ed. Part 02 p.163; NextGen Rocket Sheets Polity p.65-66; app notes 3:99 sub 0
 
 === Thirteenth and Fourteenth Finance Commissions
@@ -86,6 +87,7 @@
 - **Disaster cost-share:** **90:10** for North-Eastern and Himalayan States, **75:25** for others; **heatwave and lightning** to be notified disasters.
 - **Fiscal path:** Centre's fiscal deficit **3.5% of GDP by 2030-31**; States **3% of GSDP**; combined debt projected to fall from 77.3% to 73.1% of GDP; off-budget borrowing to stop.
 - Budget 2026-27 gave States **₹1.4 lakh crore** as FC grants for 2026-27.
+- **16th FC terms of reference** (notified **31 Dec 2023**): the Art. 280(3) items – tax sharing, principles of grants-in-aid, augmenting States' funds for local bodies – plus clause (iv): it **may review the present arrangements on financing disaster management** (DM Act 2005 funds).
 ~~ Sources: Rocket CA Jan 2026 p.12; PMF LENS Feb 2026 Part 1 p.11; Union Budget 2026-27 Speech p.22; Praveen CA360 Feb 2026 p.121; app notes 3:99 sub 4
 
 === Earlier Commissions (10th to 12th) and Disaster Funds
