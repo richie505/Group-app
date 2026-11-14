@@ -628,5 +628,320 @@
   "x": "Statement 3 is wrong: the same subject is barred for one year, not six months. The rest are as in the notes.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cpbf1373c7d77c",
+  "row": 33,
+  "s": "Consider the following statements about the grounds for a joint sitting under Article 108:\n1. A joint sitting may be held if the other House rejects a Bill passed by one House.\n2. In counting the six-month period, periods of prorogation or adjournment for more than 14 consecutive days are excluded.\n3. Failure of the other House to return the Bill within 14 days is a ground for a joint sitting.\n4. A joint sitting may be held if the Houses finally disagree on the amendments to the Bill.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 4 only",
+   "1, 2 and 4 only",
+   "2 and 3 only",
+   "3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: the excluded periods are prorogation or adjournment for more than 4 consecutive days. Statement 3 is wrong: the 14-day limit belongs to Money Bills; the third ground is six months passing without the other House passing the Bill.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6030ab2e87f3",
+  "row": 33,
+  "s": "Consider the following statements about a joint sitting of the two Houses:\n1. The President notifies to the Houses his intention to summon them to a joint sitting.\n2. In the absence of the Speaker and the Deputy Speaker, the Chairman of the Rajya Sabha presides.\n3. Its quorum is one-tenth of the total members of both Houses.\n4. A Bill is passed at a joint sitting by two-thirds of the members present and voting.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the Chairman (Vice-President) never presides – after the Speaker and Deputy Speaker comes the Deputy Chairman of the RS. Statement 4 is wrong: a simple majority of members of both Houses present and voting suffices (Art. 108(4)).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe17eed9eede9",
+  "row": 33,
+  "s": "Consider the following statements about the joint sittings held so far:\n1. The first joint sitting (1961) was on the Dowry Prohibition Bill.\n2. The 1978 joint sitting was on the Prevention of Terrorism Bill.\n3. The last joint sitting (2002) was on the Prevention of Terrorism Bill (POTA).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: the 1978 joint sitting was on the Banking Service Commission (Repeal) Bill, 1977. Only three joint sittings have been held: 1961 (Dowry Prohibition), 1978 and 2002 (POTA).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa6403b527d90",
+  "row": 33,
+  "s": "Assertion (A): A deadlock between the two Houses on a Constitution Amendment Bill cannot be resolved at a joint sitting.\nReason (R): Each House must pass a Constitution Amendment Bill separately by a special majority.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: because Art. 368 requires each House to pass the Bill separately by a special majority, a joint sitting is not available; if one House rejects it, the Bill ends. (Money Bills are the other exclusion.)",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp790de306bf02",
+  "row": 33,
+  "s": "Assertion (A): A joint sitting can be summoned for a Bill that has already lapsed on the dissolution of the Lok Sabha.\nReason (R): After the President notifies his intention to summon a joint sitting, neither House can proceed further with the Bill.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: a Bill that has lapsed on dissolution cannot go to a joint sitting (but if the LS is dissolved after the joint sitting is notified, it is still held). R is true: once the President notifies his intention, neither House proceeds further with the Bill.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp540c02327667",
+  "row": 33,
+  "s": "Match List-I (Subject) with List-II (Article):\nList-I\na. Joint sitting of the two Houses\nb. Procedure for Money Bills\nc. Definition of a Money Bill\nd. Special provisions as to Financial Bills\nList-II\ni. Article 117\nii. Article 110\niii. Article 108\niv. Article 109",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 1,
+  "x": "Art. 108 – joint sitting; Art. 109 – Money Bill procedure; Art. 110 – definition of a Money Bill; Art. 117 – Financial Bills. 'Art. 109 provides for the joint sitting' is the usual trap.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp687b3bb8acc8",
+  "row": 33,
+  "s": "Consider the following statements about a Money Bill:\n1. It can be introduced only in the Lok Sabha, only by a minister and only on the President's recommendation.\n2. The Rajya Sabha must return it within 14 days, with or without recommendations.\n3. The Lok Sabha is bound to accept the recommendations of the Rajya Sabha.\n4. The President can return it once for reconsideration.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "2 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: the Lok Sabha may accept or reject any RS recommendation. Statement 4 is wrong: the President may give or withhold assent to a Money Bill but cannot return it.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp45413c57bc8e",
+  "row": 33,
+  "s": "Consider the following statements regarding Article 110:\n1. A Bill containing only provisions on the regulation of borrowing by the Government of India can be a Money Bill.\n2. A Bill is a Money Bill merely because it provides for the imposition of fines or penalties.\n3. A Bill is not a Money Bill merely because it provides for taxes imposed by a local body for local purposes.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: under Art. 110(2) fines/penalties, fees for licences or services and local-body taxes do not by themselves make a Bill a Money Bill. Borrowing and guarantees by the Government of India are Art. 110(1)(b) matters.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp85778b24deb7",
+  "row": 33,
+  "s": "Consider the following statements:\n1. The Speaker's decision that a Bill is a Money Bill cannot be questioned in any court.\n2. In Rojer Mathew (2019) the Money Bill question was referred to a 9-judge bench.\n3. The Speaker endorses his certificate on a Money Bill when it is sent to the Rajya Sabha and to the President.\n4. The Aadhaar Bill, 2016 was passed as a Money Bill and upheld in K.S. Puttaswamy (2018).\nWhich of the statements given above is NOT correct?",
+  "o": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: in Rojer Mathew (2019) the Money Bill question went to a 7-judge bench. The Speaker's Art. 110(3) decision is final, his certificate goes with the Bill to the RS and the President, and the Aadhaar law was upheld in Puttaswamy (2018).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp72d2252414a3",
+  "row": 33,
+  "s": "Consider the following statements about the Rajya Sabha in financial matters:\n1. It can discuss the Annual Financial Statement.\n2. It can vote on the Demands for Grants.\n3. Demands for Grants are provided for under Article 113.\n4. If it does not return the Appropriation Bill within 14 days, the Bill is deemed passed by both Houses.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: only the Lok Sabha votes on the Demands for Grants (Art. 113). The Appropriation Bill is a Money Bill (Art. 114), so if not returned in 14 days it is deemed passed in the form passed by the LS.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe00beb16eca9",
+  "row": 33,
+  "s": "Match List-I (Bill) with List-II (Feature):\nList-I\na. Money Bill\nb. Financial Bill I\nc. Financial Bill II\nd. Bill to form a new State\nList-II\ni. Either House; President's recommendation needed only before consideration\nii. Lok Sabha only; the Rajya Sabha can amend or reject it\niii. Lok Sabha only; the Rajya Sabha can only recommend within 14 days\niv. Either House; President's prior recommendation; Article 3",
+  "o": [
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-i, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Money Bill – LS only, RS only recommends in 14 days; Financial Bill I (Art. 117(1)) – LS only but RS can amend/reject; Financial Bill II (Art. 117(3)) – either House, recommendation only before consideration; new-State Bill – Art. 3, either House, President's prior recommendation.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpcfcb75e519f1",
+  "row": 33,
+  "s": "Consider the following statements about the President's recommendation:\n1. A Bill imposing a tax can be introduced only on the President's recommendation and not in the Rajya Sabha.\n2. An amendment abolishing a tax also requires the President's recommendation.\n3. A Bill affecting taxation in which States are interested needs the President's prior recommendation under Article 274.\n4. A State Bill restricting inter-State trade needs the previous sanction of the Governor.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 4 only",
+   "1 and 3 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: an amendment reducing or abolishing a tax needs no recommendation (Art. 117(1)). Statement 4 is wrong: a State Bill restricting inter-State trade needs the President's previous sanction (Art. 304(b)).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3b68957411d2",
+  "row": 33,
+  "s": "Assertion (A): Every Money Bill is a Financial Bill, but not every Financial Bill is a Money Bill.\nReason (R): A Financial Bill I contains Article 110 matters together with general legislation.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: a Money Bill contains only Art. 110 matters, so it is a kind of Financial Bill; a Financial Bill I also carries other legislative matter and therefore is not a Money Bill.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp09ed60cd934b",
+  "row": 33,
+  "s": "Consider the following statements:\n1. A Private Member's Bill can be introduced by any MP who is not a minister.\n2. A Government Bill needs one month's notice and a Private Member's Bill seven days' notice.\n3. A Government Bill is drafted by the department concerned with the Law Department.\n4. Rejection of a Government Bill implies loss of confidence in the government.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 reverses the notice periods: a Government Bill needs 7 days and a Private Member's Bill 1 month. The other three are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5e885e95378a",
+  "row": 33,
+  "s": "Match List-I (Stage of a Bill) with List-II (What happens):\nList-I\na. First reading\nb. Second reading\nc. Third reading\nd. Presidential stage\nList-II\ni. Bill accepted or rejected as a whole\nii. Leave to introduce; Bill published in the Gazette\niii. Assent, withholding, or return once for reconsideration\niv. General discussion, committee stage and clause-by-clause consideration",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "First reading – introduction and Gazette publication; second reading – discussion, committee stage, clause-by-clause; third reading – vote on the Bill as a whole; the President may assent, withhold or return once (suspensive veto).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa65557166c00",
+  "row": 33,
+  "s": "Consider the following statements:\n1. Only 14 Private Members' Bills have become law, the last in 1970.\n2. The second House must return an ordinary Bill within 14 days.\n3. The President must give assent to a Constitution Amendment Bill, as provided by the 24th Amendment (1971).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: the 14-day limit is for Money Bills; on an ordinary Bill the second House may pass, amend, reject or keep it pending, and six months' delay creates a deadlock.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd8216f6320b2",
+  "row": 33,
+  "s": "Consider the following statements about Bills on the dissolution of the Lok Sabha:\n1. A Bill pending in the Rajya Sabha that the Lok Sabha has not passed does not lapse.\n2. A Bill passed by the Lok Sabha but pending in the Rajya Sabha lapses.\n3. A Bill passed by both Houses and pending the President's assent lapses.\n4. A Bill returned by the President for reconsideration lapses.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statements 3 and 4 are wrong: a Bill passed by both Houses and pending assent, and a Bill returned by the President for reconsideration, do not lapse on dissolution. Bills pending in the LS, or passed by the LS and pending in the RS, lapse.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb46e443b81ed",
+  "row": 33,
+  "s": "Assertion (A): Bills pending before a House do not lapse on its prorogation.\nReason (R): On prorogation, pending notices other than notices for introducing Bills lapse.",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true, but R does not explain A: Bills survive prorogation (and adjournment sine die) and are taken up in the next session; the lapsing of notices is a separate rule.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp7641da1df12d",
+  "row": 33,
+  "s": "Consider the following statements about a Constitution Amendment Bill under Article 368:\n1. It needs the President's prior recommendation for introduction.\n2. It can be introduced in either House.\n3. If it affects federal provisions, it must be ratified by half of the States.\n4. Apart from the special majority, it passes through the same stages as an ordinary Bill.\nWhich of the statements given above are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 2 and 3 only",
+   "3 and 4 only",
+   "2, 3 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is wrong: no prior recommendation of the President is needed. It can start in either House, needs ratification by half the States for federal provisions, and otherwise follows the ordinary stages.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2864ed6666ad",
+  "row": 33,
+  "s": "Consider the following statements about assent to State Bills:\n1. The Governor may return a Money Bill to the Legislature for reconsideration.\n2. The Governor may reserve a Bill for the consideration of the President.\n3. The Andhra Pradesh Legislative Council can only make recommendations on a Money Bill within 14 days.\n4. The Supreme Court's November 2025 advisory opinion held that courts can declare deemed assent.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: under Art. 200 the Governor can return only a non-Money Bill. Statement 4 is wrong: the November 2025 opinion held that courts cannot fix timelines or declare deemed assent (overturning the April 2025 Tamil Nadu approach).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp349d8e4217e2",
+  "row": 33,
+  "s": "Consider the following statements:\n1. The Kerala (Alteration of Name) Bill, 2026 was brought under Article 3.\n2. The FCRA (Amendment) Bill, 2026 was referred to a Joint Parliamentary Committee.\n3. The Andhra State Bill was introduced on 10 August 1953 and received assent on 1 November 1956.\n4. The Constitution (129th Amendment) Bill, 2024 proposes a new Article 82A.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: the Andhra State Bill received assent on 14 September 1953. 'Keralam' is an Art. 3 Bill, the FCRA Bill went to a JPC in the 2026 Monsoon Session, and the ONOE Bill proposes Art. 82A.",
+  "src": "app",
+  "tq": "statements"
  }
 ]

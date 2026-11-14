@@ -986,3 +986,10 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - own 356 → 48 kept + 77 new (125, 35%); new 45 statements / 25 match / 7 A–R; 4 of 235 lines no longer tested.
 - f3cc14c9eb464 credited Singhana II with releasing Ganapatideva; notes credit Jaitugi — merged into correct new MCQ.
 - n416b6c1020c says "Javanese envoys"; notes only say "two envoys" (check). n6edf02ff93b (Tamil as language of administration, not in notes) removed.
+
+## rewrite b3-w041 (rows 41–47)
+- own 438 → 58 kept + 107 new (165, 38%); new 73 statements / 19 match / 15 A–R; 2 of 303 lines no longer tested.
+- Row 45 line 7:2.6: stray table header ("All-India body | Zones") inside the zone table — notes cleanup.
+- Row 45 line 1:1: UPPSC key treats soyabean as "not a cash crop" (official key kept; check Disputed chip).
+- Row 45: own MCQs on zonal HQs (Nandyal, Maruteru, Chintapalle) and "Trans-Gangetic Plains" not in notes — removed.
+- Row 46 line 5:5: APWALTA "250 population" norm marked unverified in notes — not tested.
