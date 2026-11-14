@@ -209,6 +209,7 @@
 # United States
 - **Donald Trump** announced a new refinery at **Port of Brownsville, Texas** – **first in 50 years**; by **America First Refining** with investment link from **Reliance Industries**; last major one – **Garyville, Louisiana (1977)**.
 - **India–Argentina (19 Feb 2025):** MoU between **MECL** (Ministry of Mines PSU) and the **Catamarca** provincial government for **lithium / critical-mineral exploration**; earlier **KABIL–CAMYEN** deal (Jan 2024) for five lithium brine blocks.
+- **India–Canada trade target:** Rocket gives it as about **CAD 70 billion by 2030** (the US$50 bn figure above, in Canadian dollars).
 ~~ Sources: Rocket CA 2026 Part 01 p.75 (Carney visit 27 Feb–2 Mar 2026; Cameco–DAE CAD 2.6 bn uranium; CAD 70 bn trade target by 2030); Rocket CA 2026 Part 02 p.170 (BHISHM Cube); newsonair.gov.in 'India, Argentina sign MoU ... lithium exploration' (19 Feb 2025); app notes 6:66 (sub 7)
 
 === Sanctions, CAATSA, Chabahar and Indian Ocean Ports
