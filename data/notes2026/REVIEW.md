@@ -1561,3 +1561,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w127 (rows 127–130)
 - own 428 → 70 kept + 82 new (152, 36%); new 51 statements / 24 match / 7 A–R; 1 of 274 lines lost.
 - PYQ ye434b379da7 keyed "Inspector of police" vs notes 130:3:9 "officer in charge of the police station / investigating officer" — close; check wording.
+
+## rewrite b6-w110 (rows 110–113)
+- own 395 → 61 kept + 107 new (168, 43%); new 66 statements / 29 match / 12 A–R; 1 of 301 lines lost.
+- caa80f08cf9a80 (Mongolia PM Khurelsukh; notes Uchral Nyam-Osor) replaced.
+- Notes conflict: Iraq President Abdul Latif Rashid (112:0:3.2) vs Nizar Amidi elected April (112:0:1.4) — update 0:3.2. GSI "176-year history" (111:0:40) — founded 1851 = 175 years in 2026; fix.
