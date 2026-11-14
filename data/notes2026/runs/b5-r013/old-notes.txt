@@ -1,0 +1,555 @@
+=== NOTES 5:13 | Networks and the Internet – Lan/wan, Protocols, Ip, Dns, Web Technologies
+## SUB 0 | Internet – Basics and History
+[13:0:0] - The **Internet** is "a **network of networks**", connected by **TCP/IP**; it is a global **WAN**.
+[13:0:1] - **DNS** is the internet's directory: it turns **domain names into IP addresses**.
+[13:0:2] # Internet Firsts – Timeline
+[13:0:3] TABLE head: Year | Event
+  [13:0:3.0] 1969 | ARPANET, built under the US Department of Defense – forerunner of the internet
+  [13:0:3.1] 1984 | OSI model ratified
+  [13:0:3.2] 1986 | ERNET – academic network of India
+  [13:0:3.3] 1989 | WWW invented by Tim Berners-Lee at CERN
+  [13:0:3.4] 1994 | W3C founded by Tim Berners-Lee
+  [13:0:3.5] 1995 | VSNL launched public internet in India on 15 August 1995
+  [13:0:3.6] 1998 | Satyam Infoway (Sify) – first private ISP of India; ICANN set up
+  [13:0:3.7] 2003 | NIXI set up under MeitY
+  [13:0:3.8] 2022 | BhashaNet launched (MeitY-NIXI)
+  [13:0:3.9] 2023 | Telecommunications Act replaced the Indian Telegraph Act, 1885
+[13:0:4] # World Wide Web
+[13:0:5] - **WWW (W3)** = **World Wide Web**: information system for sharing content over the internet, accessed according to **HTTP**.
+[13:0:6] - A collection of linked information on computers available through the internet.
+[13:0:7] - WWW is a **hypermedia system** because it links to other computer resources (linked hypertext documents).
+[13:0:8] Internet (network of networks) and WWW (information system on top of it) are not the same thing.
+## SUB 1 | Network Types and Topologies
+[13:1:0] # Network Types by Scope
+[13:1:1] TABLE head: Type | Scope / feature
+  [13:1:1.0] PAN | Personal area; personal devices (Bluetooth)
+  [13:1:1.1] LAN | A building or campus; Ethernet is an example (protocol IEEE 802.3)
+  [13:1:1.2] MAN | A city
+  [13:1:1.3] WAN | Spans large areas and links LANs in different cities; the internet is a global WAN
+  [13:1:1.4] VPN | Virtual Private Network – an encrypted tunnel over the public internet letting users reach their organisation's network safely; improves privacy
+[13:1:2] APPSC 2019: A firm linking LANs in **Mumbai, Bengaluru and New Delhi** uses a **WAN**.
+[13:1:3] # Topologies
+[13:1:4] TABLE head: Topology | Layout | Resilience
+  [13:1:4.0] Bus | All nodes on one backbone cable | Backbone break stops the whole network
+  [13:1:4.1] Star | All nodes to a central hub/switch | A failed node is only isolated; hub failure stops all
+  [13:1:4.2] Ring | Each node linked to two neighbours | One break can disrupt the ring
+  [13:1:4.3] Mesh | Every node linked to every other | Most resilient; costliest – n(n-1)/2 links
+  [13:1:4.4] Tree | Mix of bus and star | Used by the Internet
+  [13:1:4.5] Hybrid | Mix of types | The Internet is the largest hybrid topology
+[13:1:5] - Common topologies: star, bus, ring, tree, mesh, hybrid.
+[13:1:6] "Which is NOT a common topology?" – **Grid**.
+## SUB 2 | Osi Model and Network Devices
+[13:2:0] # Seven Layers (top to bottom)
+[13:2:1] TABLE head: Layer | Function | Protocols / devices
+  [13:2:1.0] 7 Application | User services | HTTP, FTP, SMTP, DNS
+  [13:2:1.1] 6 Presentation | Encryption, compression, formats (JPEG) | –
+  [13:2:1.2] 5 Session | Opens and closes sessions | –
+  [13:2:1.3] 4 Transport | End-to-end delivery | TCP, UDP
+  [13:2:1.4] 3 Network | Routing; IP addresses (Internet layer of TCP/IP) | Router
+  [13:2:1.5] 2 Data Link | Framing, MAC addresses, error detection; Ethernet, PPP | Switch, bridge, NIC
+  [13:2:1.6] 1 Physical | Signals on the medium | Cables, hub, repeater, modem
+[13:2:2] - The **Data Link layer** lies between the Physical and Network layers.
+[13:2:3] # Devices
+[13:2:4] TABLE head: Device | Job
+  [13:2:4.0] Hub | Broadcasts to all ports
+  [13:2:4.1] Repeater | Regenerates/amplifies a weak signal to extend the network along the cable
+  [13:2:4.2] Switch / Bridge | Forwards frames by MAC address
+  [13:2:4.3] Router | Connects different networks; routes by IP
+  [13:2:4.4] Modem | Modulator-demodulator: converts digital → analog and analog → digital (both); links a microcomputer with the telephone line to send and get data worldwide
+  [13:2:4.5] Gateway | Joins networks that use different protocols
+  [13:2:4.6] Proxy server | Middleman passing client requests to other servers; does not provide TCP/IP addresses
+  [13:2:4.7] Network server | Powerful central store for shared data and programs
+[13:2:5] The modem is **not** a Transport-layer device; it works at the Physical layer.
+## SUB 3 | Protocols
+[13:3:0] - A **protocol** is a **set of rules that controls data communication**.
+[13:3:1] # Protocol → Function
+[13:3:2] TABLE head: Protocol | Function
+  [13:3:2.0] TCP/IP | Set of protocols for all data exchange across the internet; TCP makes packets and checks none is missing (reliable delivery); IP addresses and routes packets
+  [13:3:2.1] HTTP | Hypertext Transfer Protocol – used for accessing the WWW; sets how messages pass between browsers and web servers
+  [13:3:2.2] HTTPS | Safer than HTTP – encrypts browser-server traffic via TLS
+  [13:3:2.3] FTP | File Transfer Protocol – sharing files over the internet
+  [13:3:2.4] SMTP | Sends e-mail
+  [13:3:2.5] POP3 | Downloads mail to one device, usually deletes it from the server
+  [13:3:2.6] IMAP | Keeps mail on the server, synced across devices
+  [13:3:2.7] DNS | Domain Name System – list of names and addresses of internet hosts; name → IP address
+  [13:3:2.8] DHCP | Assigns IP addresses automatically
+[13:3:3] # Three Elements of a Protocol
+[13:3:4] TABLE head: Element | Meaning
+  [13:3:4.0] Syntax | Format of data
+  [13:3:4.1] Semantics | Meaning of each field
+  [13:3:4.2] Timing | When and how fast data is sent
+## SUB 4 | Ip and Mac Addressing
+[13:4:0] TABLE head: Address | Length | Notation
+  [13:4:0.0] IPv4 | 32 bits (~4.3 billion addresses) | Dotted decimal, e.g. 192.168.1.1
+  [13:4:0.1] IPv6 | 128 bits | 8 groups of hexadecimal separated by colons
+  [13:4:0.2] MAC (Media Access Control) | 48 bits (6 bytes, 12 hex digits) | Unique device identifier programmed into the NIC; used at the data link layer (Layer 2)
+[13:4:1] - IPv4 and IPv6 addresses identify computers on the internet.
+[13:4:2] # IPv4 Classes (by first octet)
+[13:4:3] TABLE head: Class | Range | Use
+  [13:4:3.0] A | 1–126 | Large networks
+  [13:4:3.1] B | 128–191 | Medium networks
+  [13:4:3.2] C | 192–223 | Small networks
+  [13:4:3.3] D | 224–239 | Multicast
+  [13:4:3.4] E | 240–255 | Experimental
+## SUB 5 | Transmission Modes and Connections
+[13:5:0] TABLE head: Mode | Meaning | Example
+  [13:5:0.0] Simplex | One way | Radio/TV broadcast, keyboard
+  [13:5:0.1] Half duplex | Both ways, one at a time | Walkie-talkie
+  [13:5:0.2] Full duplex | Both ways at once | Telephone call
+  [13:5:0.3] Connection | Medium
+  [13:5:0.4] DSL (Digital Subscriber Line) | Telephone copper lines (voice frequency)
+  [13:5:0.5] Cable internet | Coaxial lines of cable TV companies (cable modem)
+  [13:5:0.6] Fibre | Light pulses in optical fibre
+  [13:5:0.7] Dial-up | Slowest – up to 56 Kbps
+  [13:5:0.8] Satellite internet | Space, ground and user (VSAT) segments; needs no terrestrial wire
+[13:5:1] - "G" in **2G** stands for **Generation** (2nd Generation wireless technology).
+[13:5:2] - A **podcast** is a radio programme shared via the internet.
+## SUB 6 | Wireless Standards
+[13:6:0] TABLE head: Feature | Bluetooth | Wi-Fi
+  [13:6:0.0] Standard | IEEE 802.15.1 (PAN technology) | IEEE 802.11 (wireless LAN)
+  [13:6:0.1] Band | 2.4 GHz | 2.4 and 5 GHz (Wi-Fi 7 also 6 GHz)
+  [13:6:0.2] Range | Short (~10 m, class 2) | Longer, whole building
+[13:6:1] - **APPSC 2019 key**: latest Bluetooth version = **5.1** (follow the key for that question).
+[13:6:2] - Since then: **Bluetooth 6.0** (August 2024) added **Channel Sounding**; **6.1** and **6.2** followed in 2025 under a twice-yearly schedule.
+[13:6:3] - **Wi-Fi 7** = **IEEE 802.11be**; works in **2.4, 5 and 6 GHz** bands.
+[13:6:4] - **Wi-Fi Direct**: links devices with no LAN.
+[13:6:5] - **Li-Fi**: carries data on **LED light**; better bandwidth and security than Wi-Fi.
+## SUB 7 | Web Technologies
+[13:7:0] # Web Terms
+[13:7:1] TABLE head: Term | Meaning
+  [13:7:1.0] Web server | Stores webpages (marked up with HTML tags – HyperText Markup Language) and serves them on request
+  [13:7:1.1] Web browser | Requests and displays webpages (Chrome, Firefox)
+  [13:7:1.2] Search engine | Indexes webpages so they can be found (Google, Bing)
+  [13:7:1.3] Web crawler | Also a web spider (spiderbot); internet bot that scans the Web for indexing
+  [13:7:1.4] Home page | First page a browser shows on opening a website
+  [13:7:1.5] URL | Uniform Resource Locator; order: protocol (`https://`) → domain name (`www.example.in`) → path to the file
+  [13:7:1.6] E-mail address | user name + domain name (username@domainname.extension)
+  [13:7:1.7] .edu.us | An educational institute in the USA (.us = United States, .edu = education)
+  [13:7:1.8] Web 3.0 | Third generation of the web – changes how the web is used, how sites are managed and how services are delivered
+  [13:7:1.9] JSP | Java Server Pages – web pages made live; released 1999 by Sun Microsystems
+  [13:7:1.10] OCEN | Open Credit Enablement Network – aims to democratise lending so small borrowers get the best credit terms
+[13:7:2] - **W3C** (World Wide Web Consortium): main international **web standards body**; founded **1994** by **Tim Berners-Lee**; keeps pages working the same across browsers.
+[13:7:3] - Core front-end technologies: **HTML5, CSS3, JavaScript**.
+[13:7:4] # Browsers vs Search Engines
+[13:7:5] TABLE head: Name | What it is
+  [13:7:5.0] Yahoo | Search engine, not a web browser
+  [13:7:5.1] Baidu | Chinese search engine
+  [13:7:5.2] DuckDuckGo | Search engine that does not collect user information
+  [13:7:5.3] Bing | Search engine of Microsoft (2009)
+  [13:7:5.4] Chrome | Web browser by Google (2008)
+  [13:7:5.5] Internet Explorer (now Microsoft Edge), Firefox, Opera, Vivaldi | Web browsers
+  [13:7:5.6] Google Apps | Not a web browser
+  [13:7:5.7] Orkut | Closed social networking site, not a search engine
+[13:7:6] # Layers of the Web
+[13:7:7] TABLE head: Layer | Share | Features
+  [13:7:7.0] Surface (clear) web | ~4-5% | Indexed by search engines
+  [13:7:7.1] Deep web | ~90-95% | Not indexed – e-mail inboxes, net banking, intranets; not always harmful
+  [13:7:7.2] Dark web | Small hidden part of the deep web | Needs Tor / I2P; anonymous; linked with illegal markets
+## SUB 8 | Internet Governance and India
+[13:8:0] TABLE head: Body / Act | Year | Role
+  [13:8:0.0] ICANN | 1998 | US non-profit; manages the global Domain Name System and IP address allocation
+  [13:8:0.1] NIXI (National Internet Exchange of India) | 2003 | Not-for-profit under MeitY; runs internet exchange points, the .in registry and IRINN (IP addresses)
+  [13:8:0.2] BhashaNet | 2022 | MeitY and NIXI (not ICANN) – Universal Acceptance for Indian languages; .Bharat in Devanagari
+  [13:8:0.3] IT Act, 2000 | 2000 | Sections 69A and 79 – government can order ISPs and intermediaries to block content
+  [13:8:0.4] Telecommunications Act, 2023 | 2023 | Replaced the Indian Telegraph Act, 1885; holds the power to suspend internet services
+[13:8:1] - **Universal Acceptance**: every app and e-mail system accepts all domain names and e-mail IDs, including those in Indian scripts (internationalised domain names).
+[13:8:2] - **7 Apr 2026**: a site opening on one ISP but not another is due to ISP-level **DNS poisoning, HTTP interception or SNI filtering** (on HTTPS); blocklists differ across ISPs.
+[13:8:3] - **Economic Survey 2025-26**: internet connections rose from **25.15 crore (2014)** to **96.96 crore (2024)**; **BharatNet** fibre reaches **2.18 lakh gram panchayats**.
+[13:8:4] - **AP angle (29 Jun 2026)**: CM **Chandrababu Naidu** and **Sunil Mittal** discussed **last-mile connectivity, data centres and an undersea cable landing station** for Andhra Pradesh.
+## SUB 9 | Number Game and Quick Revision
+[13:9:0] TABLE head: Item | Correct Fact
+  [13:9:0.0] ARPANET | 1969, US DoD
+  [13:9:0.1] WWW | 1989, Tim Berners-Lee, CERN
+  [13:9:0.2] W3C founded | 1994
+  [13:9:0.3] VSNL public internet | 15 August 1995
+  [13:9:0.4] First private ISP | Sify (Satyam Infoway), 1998
+  [13:9:0.5] ICANN / NIXI | 1998 / 2003
+  [13:9:0.6] IPv4 / IPv6 / MAC | 32 / 128 / 48 bits
+  [13:9:0.7] OSI layers | 7 (ratified 1984)
+  [13:9:0.8] Mesh links | n(n-1)/2
+  [13:9:0.9] Dial-up speed | up to 56 Kbps
+  [13:9:0.10] Ethernet / Bluetooth / Wi-Fi | IEEE 802.3 / 802.15.1 / 802.11
+[13:9:1] # FIRST / LAST / SPECIAL FACTS
+[13:9:2] - First network: ARPANET; first academic network of India: ERNET.
+[13:9:3] - Slowest connection: dial-up; most resilient topology: mesh.
+[13:9:4] - Internet uses tree topology and is the largest hybrid topology.
+[13:9:5] - Top OSI layer: Application; bottom: Physical.
+## SUB 10 | Appsc Previous Year Questions
+[13:10:0] TABLE head: Examination | Question Area
+  [13:10:0.0] APPSC 2019 | Network linking LANs in three cities = WAN
+  [13:10:0.1] APPSC 2019 | Latest Bluetooth version (key: 5.1)
+  [13:10:0.2] APPSC (earlier papers) | Full forms – WWW, HTTP, FTP, DSL, MAC; inventor of WWW
+  [13:10:0.3] APPSC (earlier papers) | Modem function, repeater, proxy server, search engine vs browser
+## SUB 11 | High-probability Mcq Traps
+[13:11:0] VERY IMPORTANT
+[13:11:1] - 1. **Yahoo** is a search engine, **not** a browser; **Google Apps** is not a browser; **Orkut** is not a search engine.
+[13:11:2] - 2. **SMTP sends**; **POP3 deletes** from server; **IMAP keeps** mail on server.
+[13:11:3] - 3. **Switch = Layer 2 (MAC)**, **router = Layer 3 (IP)**; modem is not a Transport-layer device.
+[13:11:4] - 4. **IPv4 32 bits** vs **IPv6 128 bits** vs **MAC 48 bits**.
+[13:11:5] - 5. Modem converts **both** ways (digital ↔ analog).
+[13:11:6] - 6. **Grid** is not a network topology; the Internet uses **tree** topology.
+[13:11:7] - 7. **BhashaNet** is by **MeitY-NIXI**, not ICANN.
+[13:11:8] - 8. **Telecommunications Act, 2023** replaced the Telegraph Act, **1885**.
+[13:11:9] - 9. Proxy server does **not** provide TCP/IP addresses – **DHCP** does.
+[13:11:10] - 10. Deep web is **not** the same as dark web; the dark web is a small part of it.
+
+=== OWN MCQs of 5:13 (85)
+[n94f6040fe3f] sub0
+  ARPANET, established in 1969, was developed under which organisation and is regarded as the forerunner of the Internet?
+  *United States Department of Defense | International Telecommunication Union | World Wide Web Consortium | United Nations Development Programme
+  x: ARPANET was developed under the United States Department of Defense in 1969 and became the forerunner of the Internet.
+[n3542c6c3f2c] sub0
+  On which date did VSNL launch public internet in India?
+  *15 August 1995 | 15 August 1998 | 15 August 1986 | 26 January 1995
+  x: VSNL launched public internet on 15 August 1995, after ERNET (1986) and before Satyam Infoway became the first private ISP (1998).
+[f3ffc9babb053] sub0
+  Which was India's first academic network (1986)?
+  VSNL | Sify | *ERNET | NIXI
+  x: ERNET (1986) was India's academic network; VSNL launched public internet in 1995.
+[fdf3a5f6f4b06] sub0
+  Which was India's first private Internet Service Provider (1998)?
+  VSNL | ERNET | NIXI | *Satyam Infoway (Sify)
+  x: Satyam Infoway (Sify) became India's first private ISP in 1998.
+[f5b45a6ffd1f1] sub0
+  Where did Tim Berners-Lee invent the World Wide Web in 1989?
+  *CERN | US Department of Defense | W3C | ICANN
+  x: The WWW was invented at CERN in 1989; ARPANET was a US DoD project.
+[fdcc42e823192] sub0
+  Arrange in chronological order:
+1. WWW invented
+2. ARPANET
+3. ERNET
+4. VSNL public internet in India
+  2, 1, 3, 4 | 3, 2, 1, 4 | *2, 3, 1, 4 | 2, 3, 4, 1
+  x: ARPANET (1969), ERNET (1986), WWW (1989), VSNL public internet (1995).
+[g2476bbf418df] sub0
+  In which year was the OSI model ratified?
+  1969 | *1984 | 1989 | 1994
+  x: The seven-layer OSI model was ratified in 1984; 1969 is ARPANET, 1989 is WWW and 1994 is W3C.
+[n6df720371e8] sub1
+  Which type of network does a firm linking its LANs in Mumbai, Bengaluru and New Delhi use?
+  MAN | LAN | PAN | *WAN
+  x: Linking LANs in different cities needs a WAN; a MAN covers only a city and a PAN links personal devices (APPSC 2019).
+[n6ac44766ab1] sub1
+  Which of the following is NOT correct about network topologies?
+  In a bus topology, all nodes share one backbone cable | *In a star topology, failure of one node stops the whole network | In a ring topology, each node is linked to two neighbours | A mesh topology links every node to every other node
+  x: In a star, a failed node is only isolated; it is a hub failure that stops the whole network.
+[fd1511c4f3862] sub1
+  Which network topology is the most resilient?
+  Star | *Mesh | Bus | Ring
+  x: In a mesh every node links to every other, making it the most resilient and costliest.
+[f7b76c1ca9796] sub1
+  A full mesh network of n nodes needs how many links?
+  n(n-1) | n-1 | *n(n-1)/2 | 2n
+  x: A mesh needs n(n-1)/2 links.
+[fdda3fe7e394f] sub1
+  In which topology does the failure of the central hub stop the whole network?
+  Mesh | Ring | Tree | *Star
+  x: In a star, a failed node is only isolated, but hub failure stops all.
+[fa1d294589370] sub1
+  Which IEEE standard does Ethernet, an example of LAN, follow?
+  *802.3 | 802.11 | 802.15.1 | 802.11be
+  x: Ethernet uses IEEE 802.3; Wi-Fi uses 802.11 and Bluetooth 802.15.1.
+[f64c3159b617d] sub1
+  Which of the following is NOT correctly matched?
+  PAN – Bluetooth | LAN – A building or campus | MAN – A city | *WAN – Personal devices only
+  x: A WAN spans large areas and links LANs; personal devices form a PAN.
+[n7a72959b7bc] sub1
+  What does a Virtual Private Network mainly provide?
+  A replacement for all network protocols | A wireless connection restricted to one room | A physical cable exclusively owned by a user | *An encrypted tunnel over a public network
+  x: A VPN creates an encrypted tunnel through a public network, improving the privacy of communication.
+[ncedc9a74bee] sub2
+  Which network device forwards frames using MAC addresses?
+  Hub | Router | *Switch | Modem
+  x: A switch forwards frames by MAC address; a hub broadcasts to all ports, a router routes by IP and a modem converts signals.
+[n9858c787405] sub2
+  In the OSI model, which layer lies immediately below the Presentation layer?
+  Transport | *Session | Application | Network
+  x: From the top the OSI order is Application, Presentation, Session, Transport, Network, Data Link and Physical, so Session lies just below Presentation.
+[n333297132ac] sub2
+  Which one of the following is NOT correctly matched?
+  Switch — Data Link layer | Router — Network layer | *Modem — Transport layer | Hub — Physical layer
+  x: A modem is associated with the Physical layer because it modulates and demodulates signals; it is not a Transport-layer device.
+[n00b43a560d2] sub2
+  Encryption, compression and data formats are functions of which OSI layer?
+  Session | Transport | *Presentation | Data Link
+  x: Encryption, compression and formats belong to the Presentation layer; the Transport layer uses TCP and UDP.
+[f0d813b6d6d6b] sub2
+  Which device regenerates a weak signal to extend a network along the cable?
+  Hub | *Repeater | Gateway | Switch
+  x: A repeater regenerates or amplifies a weak signal; a hub only broadcasts to all ports.
+[f76c6bf1d54a9] sub2
+  Which device joins networks that use different protocols?
+  Hub | Repeater | *Gateway | Switch
+  x: A gateway joins networks using different protocols.
+[f396c888ebf10] sub2
+  A router works at which layer of the OSI model?
+  Data Link | Transport | Physical | *Network
+  x: A router routes by IP at Layer 3 (Network); a switch works at Layer 2.
+[f98d7c924f3a9] sub2
+  TCP and UDP belong to which OSI layer?
+  *Transport | Network | Session | Application
+  x: TCP and UDP work at the Transport layer (Layer 4).
+[f9785cbcfc772] sub2
+  Which of the following is NOT correct about the modem?
+  It converts digital to analog and analog to digital | *It works at the Transport layer | Its name comes from modulator-demodulator | It links a microcomputer with the telephone line
+  x: The modem works at the Physical layer, not the Transport layer.
+[f17b8c87efd43] sub2
+  Which of the following pairs is correctly matched?
+  Switch – Layer 3 | Router – Layer 2 | Hub – Network layer | *Switch – MAC address
+  x: A switch works at Layer 2 using MAC addresses; a router works at Layer 3 using IP addresses; a hub is a Physical-layer device.
+[g44a7f56db615] sub2
+  How many layers are there in the OSI model?
+  Five | Six | *Seven | Four
+  x: The OSI model has seven layers, from Application at the top to Physical at the bottom.
+[g2c399e4c4c0b] sub2
+  Which is the top layer of the OSI model?
+  Physical layer | *Application layer | Session layer | Transport layer
+  x: The Application layer (HTTP, FTP, SMTP, DNS) is the top layer; the Physical layer is the bottom.
+[nb1af8516cbe] sub3
+  Which protocol assigns IP addresses automatically?
+  DNS | TCP | *DHCP | IP
+  x: DHCP assigns IP addresses automatically; DNS turns domain names into IP addresses and TCP ensures reliable delivery.
+[na61001ef65c] sub3
+  Which of the following pairs is NOT correctly matched?
+  SMTP – Sending e-mail | POP3 – Downloads mail to one device | FTP – File transfer between computers | *IMAP – Deletes mail from the server after downloading it to one device
+  x: IMAP keeps mail on the server and synchronises it across devices; it is POP3 that usually deletes mail from the server after download.
+[n8f8dafdefd9] sub3
+  Through which of the following does HTTPS encrypt the traffic between the browser and the server?
+  FTP | SMTP | DHCP | *TLS
+  x: HTTPS is more secure than HTTP because it encrypts browser-server traffic through TLS.
+[n7dd1120d6fc] sub3
+  HTTP primarily specifies which of the following?
+  *How messages pass between web browsers and web servers | How domain names are converted into IP addresses | How wireless devices communicate within a PAN | How e-mails are downloaded to a device
+  x: HTTP specifies the communication of messages between web browsers and web servers. DNS, POP3 and Bluetooth serve different functions.
+[nbcece772e1f] sub3
+  Which element of a protocol specifies the format of data?
+  Semantics | *Syntax | Timing | Addressing
+  x: Syntax specifies the format of data, semantics the meaning of each field, and timing when and how fast data is sent.
+[f1ea8b80903c3] sub3
+  Which protocol is used to send e-mail?
+  POP3 | IMAP | *SMTP | DHCP
+  x: SMTP sends e-mail; POP3 and IMAP receive it.
+[fe29b857a9c5b] sub3
+  Consider the following statements about TCP/IP:
+1. TCP makes sure no part of the data goes missing.
+2. IP handles addressing and routing.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: TCP gives reliable delivery by checking that nothing is missing; IP addresses and routes the data.
+[f5a2bd1513bec] sub3
+  Consider the following statements about e-mail protocols:
+1. SMTP sends e-mail.
+2. POP3 keeps mail on the server.
+3. IMAP keeps mail synced across devices.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: SMTP sends and IMAP keeps mail on the server; POP3 usually deletes mail from the server.
+[f37422539087b] sub3
+  Which protocol keeps e-mail on the server, synced across devices?
+  POP3 | *IMAP | SMTP | FTP
+  x: IMAP keeps mail on the server; POP3 downloads and usually deletes it; SMTP sends.
+[f2dc76e5d3618] sub3
+  What is the full form of DNS?
+  Domain Network Service | Data Name System | Digital Naming Server | *Domain Name System
+  x: DNS (Domain Name System) turns domain names into IP addresses.
+[n9aa51a7d473] sub4
+  An IPv6 address is how many bits long?
+  32 | 48 | 64 | *128
+  x: IPv6 addresses are 128 bits (eight hexadecimal groups); IPv4 is 32 bits and a MAC address 48 bits.
+[n46fed6d94c9] sub4
+  What is the first-octet range of IPv4 Class D (multicast) addresses?
+  *224 to 239 | 240 to 255 | 192 to 223 | 128 to 191
+  x: Class D is 224–239 for multicast; 240–255 is Class E, 192–223 Class C and 128–191 Class B.
+[fd4f7adf175d6] sub4
+  An IPv4 address is how many bits long?
+  *32 | 48 | 64 | 128
+  x: IPv4 is 32 bits; IPv6 is 128 and a MAC address 48 bits.
+[f947d54ab746f] sub4
+  What is the first-octet range of IPv4 Class C addresses?
+  128–191 | *192–223 | 224–239 | 240–255
+  x: Class C is 192–223; B is 128–191, D 224–239 and E 240–255.
+[f2a8632cad108] sub4
+  For what purpose are IPv4 Class E addresses (240–255) used?
+  Multicast | Large networks | *Experimental purposes | Small networks
+  x: Class E is experimental; Class D is multicast.
+[f32e29aa8a5db] sub4
+  How is an IPv6 address written?
+  4 groups of decimal separated by dots | 6 groups of binary separated by dashes | 12 decimal digits | *8 groups of hexadecimal separated by colons
+  x: IPv6 uses 8 hexadecimal groups separated by colons; IPv4 uses dotted decimal.
+[gf19669781433] sub4
+  At which layer of the OSI model is the MAC address, programmed into the network card, used?
+  Network layer | *Data Link layer | Transport layer | Physical layer
+  x: The 48-bit MAC address is burnt into the NIC and is used at the Data Link layer (Layer 2); IP addresses work at the Network layer.
+[g0240d6c835d1] sub4
+  Which of the following addresses is 48 bits long?
+  IPv4 address | IPv6 address | *MAC address | Port number
+  x: A MAC address is 48 bits (6 bytes, 12 hex digits); IPv4 is 32 bits and IPv6 is 128 bits.
+[n4e250e0abcd] sub5
+  Communication through a walkie-talkie is an example of which transmission mode?
+  Simplex | *Half duplex | Full duplex | Broadcast
+  x: Half duplex allows two-way transmission one at a time, as in a walkie-talkie; radio/TV is simplex and a telephone call full duplex.
+[fb15faa46d11c] sub5
+  Up to what speed does dial-up, the slowest internet connection, work?
+  *56 Kbps | 128 Kbps | 1 Mbps | 10 Mbps
+  x: Dial-up is the slowest connection, up to 56 Kbps.
+[f4adb1b475d94] sub5
+  Which medium does cable internet use?
+  Telephone copper lines | *Coaxial lines of cable TV companies | Light pulses in optical fibre | VSAT terminals
+  x: Cable internet runs over coaxial lines through a cable modem; DSL uses telephone lines.
+[f24d81af40191] sub5
+  Which internet connection needs no terrestrial wire?
+  DSL | Cable internet | *Satellite internet | Fibre
+  x: Satellite internet uses space, ground and VSAT user segments, with no terrestrial wire.
+[n36440e7c307] sub5
+  Which medium do DSL internet connections use?
+  Coaxial TV cable | Optical fibre | VSAT terminals | *Telephone copper lines
+  x: DSL uses telephone copper lines; cable internet uses coaxial TV cable and fibre internet uses light pulses in optical fibre.
+[gcc9220d4c49d] sub5
+  Which of the following is an example of full duplex transmission?
+  Radio broadcast | Walkie-talkie | *Telephone call | Keyboard input
+  x: In full duplex, data flows both ways at the same time, as in a telephone call.
+[gd8cfd4426d15] sub5
+  Radio and television broadcasting are examples of which transmission mode?
+  *Simplex | Half duplex | Full duplex | Multiplex
+  x: Simplex is one-way transmission, as in radio and TV broadcasts.
+[nd7dbec71847] sub6
+  Which IEEE standard does Bluetooth, a personal area network (PAN) technology, follow?
+  802.11 | *802.15.1 | 802.16 | 802.3
+  x: Bluetooth follows IEEE 802.15.1, while Wi-Fi follows IEEE 802.11.
+[fba7b0df6e832] sub6
+  Which IEEE standard does Wi-Fi (wireless LAN) follow?
+  802.3 | 802.15.1 | 802.5 | *802.11
+  x: Wi-Fi is IEEE 802.11; Ethernet is 802.3 and Bluetooth 802.15.1.
+[f3177af9f41a2] sub6
+  Which IEEE standard does Wi-Fi 7 correspond to?
+  *802.11be | 802.11ac | 802.11ax | 802.15.1
+  x: Wi-Fi 7 is IEEE 802.11be and works in the 2.4, 5 and 6 GHz bands.
+[fd1cb0e9ab196] sub6
+  Bluetooth 6.0 (August 2024) added which feature?
+  Wi-Fi Direct | *Channel Sounding | Li-Fi | Multicast addressing
+  x: Bluetooth 6.0 added Channel Sounding.
+[f97c922776da5] sub6
+  What does Li-Fi use to carry data?
+  Copper wire | Coaxial cable | *LED light | Magnetic tape
+  x: Li-Fi carries data on LED light, with better bandwidth and security than Wi-Fi.
+[f96b723d26e78] sub6
+  Consider the following statements about Bluetooth and Wi-Fi:
+1. Both use the 2.4 GHz band.
+2. Bluetooth also uses the 5 GHz band.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Both use 2.4 GHz, but only Wi-Fi also uses 5 GHz.
+[g47cd92754a05] sub6
+  Which technology links devices with each other without a LAN?
+  *Wi-Fi Direct | Li-Fi | Ethernet | DSL
+  x: Wi-Fi Direct connects devices directly, with no LAN in between.
+[n5be9343d7ed] sub7
+  In a URL, which part comes immediately after the protocol (such as https://)?
+  The file name | The path to the file | The protocol version | *The domain name
+  x: A URL has the protocol, then the domain name, then the path to the file.
+[n20cca932072] sub7
+  Which of the following indexes webpages so that they can be found?
+  *Search engine | Web browser | Proxy server | Web server
+  x: A search engine indexes pages; a web server stores and serves them and a browser displays them.
+[n5dc502c6388] sub7
+  What is the main role of the World Wide Web Consortium (W3C)?
+  *Develop and maintain web standards | Assign MAC addresses to network cards | Provide internet connectivity to households | Operate the global DNS root servers
+  x: W3C develops and maintains web standards so that webpages function consistently across different browsers.
+[nb19c4e9308c] sub7
+  Which one of the following is correctly matched with its description?
+  Surface web — not indexed by search engines | Deep web — entirely associated with illegal markets | *Dark web — hidden subset of the deep web requiring tools such as Tor or I2P | Surface web — accessible only through anonymous networks
+  x: The dark web is a small hidden subset of the deep web and is associated with anonymous access through tools such as Tor or I2P. The surface web is indexed, while the deep web is not necessarily malicious.
+[f84b20b740f3b] sub7
+  What is the full form of HTML?
+  HyperText Machine Language | High Transfer Markup Language | HyperLink Text Module Language | *HyperText Markup Language
+  x: Webpages are marked up with HTML, HyperText Markup Language.
+[f8f68d4c1e64b] sub7
+  In which year was the World Wide Web Consortium (W3C) founded?
+  *1994 | 1989 | 1998 | 2003
+  x: Tim Berners-Lee founded W3C in 1994, five years after inventing the WWW.
+[f9ed7cec326a2] sub7
+  What is the full form of URL?
+  Universal Resource Link | *Uniform Resource Locator | Uniform Routing Locator | Universal Reference Locator
+  x: URL = Uniform Resource Locator.
+[f7e7cadea08ba] sub7
+  About what share of the web is the deep web, not indexed by search engines?
+  4-5% | 20-30% | *90-95% | 50%
+  x: The deep web is about 90-95% of the web; the surface web is about 4-5%.
+[f431fa9bd6b12] sub7
+  What does Web 3.0 refer to?
+  The third version of HTML | A Wi-Fi standard | A class of IPv4 addresses | *The third generation of the web
+  x: Web 3.0 is the third generation of the web, changing how it is used and how services are delivered.
+[f49d372332b31] sub7
+  Which of the following is NOT a web browser?
+  Firefox | Opera | Vivaldi | *Baidu
+  x: Baidu is a Chinese search engine; Firefox, Opera and Vivaldi are web browsers.
+[feefac005474d] sub7
+  Which of the following is needed to access the dark web?
+  *Tor or I2P | DHCP | SMTP | A dial-up modem
+  x: The dark web is a hidden part of the deep web reached through Tor or I2P.
+[gffcb8cfed43b] sub7
+  What is the full form of OCEN?
+  *Open Credit Enablement Network | Online Credit Exchange Network | Open Commerce Electronic Network | Open Customer E-payment Network
+  x: OCEN is the Open Credit Enablement Network, which aims to make lending easy so small borrowers get good credit terms.
+[g42a3d3f7b5da] sub7
+  Which company released Java Server Pages (JSP) in 1999?
+  Microsoft | *Sun Microsystems | IBM | Netscape
+  x: JSP (Java Server Pages), used to make live web pages, was released in 1999 by Sun Microsystems.
+[ncf904f1ba5c] sub8
+  In which year was NIXI, the body under MeitY that runs the .in registry and IRINN, established?
+  1998 | 2000 | *2003 | 2008
+  x: NIXI was established in 2003 and runs internet exchange points, the .in registry and IRINN.
+[n2016445e002] sub8
+  A website opens for users of one ISP but not for users of another. What is the likely cause?
+  *ISP-level DNS poisoning, HTTP interception or SNI filtering | Expiry of the website's domain name | Shutdown of the website's server | Permanent deletion of the website
+  x: ISPs may block sites through DNS poisoning, HTTP interception or SNI filtering, so access differs between ISPs; the other causes would affect all users.
+[n103f0b0fb08] sub8
+  Chief Minister Naidu and Sunil Mittal discussed which of the following for Andhra Pradesh?
+  *Last-mile connectivity, data centres and an undersea cable landing station | Coal mining, irrigation dams and inland waterways | Satellite launching and missile testing facilities | Steel plants, minor ports and airports
+  x: The discussion concerned last-mile connectivity, data centres and an undersea cable landing station for Andhra Pradesh.
+[n4d79ebd22d4] sub8
+  With which of the following is ICANN, set up in 1998 as a United States non-profit, mainly associated?
+  Providing satellite Internet to villages | Regulating telephone tariffs in India | Managing India's .in registry alone | *Coordinating the global domain name system and IP address allocation
+  x: ICANN coordinates the global Domain Name System and IP address allocation. It was established in 1998 as a US non-profit organisation.
+[n543d00b9de6] sub8
+  Who launched BhashaNet (2022), which promotes Universal Acceptance for Indian languages?
+  *MeitY and NIXI | ICANN | TRAI | Department of Telecommunications
+  x: BhashaNet is a MeitY-NIXI initiative, not ICANN's.
+[n78732838518] sub8
+  Which law did the Telecommunications Act, 2023 replace?
+  Information Technology Act, 2000 | TRAI Act, 1997 | *Indian Telegraph Act, 1885 | Cable Television Networks Act, 1995
+  x: The Telecommunications Act, 2023 replaced the Telegraph Act, 1885, and holds the power to suspend internet services.
+[f90309d6818e8] sub8
+  BhashaNet promotes the .Bharat domain in which script?
+  Roman | *Devanagari | Telugu | Tamil
+  x: BhashaNet by MeitY-NIXI promotes Universal Acceptance, including .Bharat in Devanagari.
+[f061047f8695d] sub8
+  Which of the following powers is held under the Telecommunications Act, 2023?
+  Allocate global IP addresses | Run the .in registry | *Suspend internet services | Manage the global DNS
+  x: The 2023 Act holds the power to suspend internet services; ICANN manages global DNS and NIXI the .in registry.
+[f78276da26bfc] sub8
+  Under which Sections of the IT Act, 2000 can the government order ISPs to block content?
+  43 and 66 | 87 and 9 | 65 and 72 | *69A and 79
+  x: Sections 69A and 79 of the IT Act allow blocking orders to ISPs and intermediaries.
+[f0fc13aa5904f] sub8
+  Consider the following statements about ICANN and NIXI:
+1. ICANN manages the global Domain Name System.
+2. NIXI runs the .in registry.
+3. BhashaNet is an initiative of ICANN.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: ICANN manages the global DNS and NIXI runs the .in registry; BhashaNet is by MeitY-NIXI, not ICANN.
+[g962527c3f0f3] sub8
+  According to the Economic Survey 2025-26, how many internet connections did India have in 2024?
+  25.15 crore | 69.80 crore | *96.96 crore | 118.00 crore
+  x: Internet connections rose from 25.15 crore in 2014 to 96.96 crore in 2024.
+[gdf7a517bc756] sub8
+  According to the Economic Survey 2025-26, BharatNet fibre reaches how many gram panchayats?
+  1.50 lakh | *2.18 lakh | 2.50 lakh | 6.40 lakh
+  x: The Economic Survey 2025-26 says BharatNet fibre reaches 2.18 lakh gram panchayats.
+[g8ae9fecf487d] sub8
+  What does 'Universal Acceptance' mean in internet governance?
+  All browsers display web pages the same way | *Every app and e-mail system accepts all domain names and e-mail IDs, including those in Indian scripts | Every citizen gets free internet access | All countries follow one global internet law
+  x: Universal Acceptance means all domain names and e-mail IDs, including internationalised ones in Indian scripts, work everywhere; BhashaNet promotes it.
+

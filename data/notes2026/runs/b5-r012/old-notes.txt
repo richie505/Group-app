@@ -1,0 +1,809 @@
+=== NOTES 5:12 | Nature and Scope of Ict; Hardware, Software, Memory and Operating Systems
+## SUB 0 | Nature and Scope of Ict
+[12:0:0] - **ICT = Information and Communications Technology**: umbrella term for any device or application used to **access, store, transmit and manipulate digital information** – mobiles, networks, software, internet, satellites; access to information through telecommunications (internet, wireless networks, cellphones).
+[12:0:1] - Aim: smooth **human-human, human-machine and machine-machine (M2M)** communication.
+[12:0:2] - Concerns: privacy risks, **digital divide**, job insecurity, over-reliance on technology.
+[12:0:3] - A computer's strengths – **all of**: high speed, accuracy and memory (temporary and permanent).
+[12:0:4] - **Artificial Intelligence** boosts human abilities by making machines intelligent and mimicking human actions.
+[12:0:5] - **Cybernetics**: study of automation and communication between human and machine – term by **Norbert Wiener**.
+[12:0:6] - **Technology preservation** = computer museum (APPSC 2019).
+[12:0:7] - **Aarogya Setu, CoWIN, DigiLocker, DIKSHA** – all four built on **open-source digital platforms**.
+## SUB 1 | Computing History – Generations, Firsts and Inventors
+[12:1:0] # Generations → Core Technology
+[12:1:1] TABLE head: Generation | Basis | Example
+  [12:1:1.0] First (1940s-56) | Vacuum tubes | ENIAC, UNIVAC
+  [12:1:1.1] Second (1956-63) | Transistors | –
+  [12:1:1.2] Third (1964-71) | Integrated circuits | –
+  [12:1:1.3] Fourth | Microprocessors | Intel 4004 era
+  [12:1:1.4] Fifth | Artificial intelligence, ULSI, parallel processing | –
+[12:1:2] - Computers became smaller because of **IC chips** (invented **1958**, replaced transistors).
+[12:1:3] - ICs are grouped by transistors per chip: **SSI 3–30, MSI 30–300, LSI 300–3,000** and so on.
+[12:1:4] # Firsts
+[12:1:5] TABLE head: First | Fact
+  [12:1:5.0] ENIAC (1946) | World's first general-purpose electronic computer – Eckert and Mauchly
+  [12:1:5.1] UNIVAC | Another first-generation American computer
+  [12:1:5.2] Intel 4004 (1971) | First commercial microprocessor
+  [12:1:5.3] TIFRAC | India's first indigenous computer
+  [12:1:5.4] PARAM 8000 (1991) | India's first supercomputer
+[12:1:6] # Persons → Contribution
+[12:1:7] TABLE head: Person | Contribution
+  [12:1:7.0] Charles Babbage | Father of Computers; Analytical Engine
+  [12:1:7.1] Ada Lovelace | First programmer (first program)
+  [12:1:7.2] Douglas Engelbart | Mouse
+  [12:1:7.3] Larry Tesler | Cut, copy and paste
+  [12:1:7.4] Tim Berners-Lee | WWW (1989)
+  [12:1:7.5] Richard Stallman | GNU project (1983), GPL licence
+  [12:1:7.6] Linus Torvalds | Linux kernel (1991)
+  [12:1:7.7] Dennis Ritchie / James Gosling / Guido van Rossum | C / Java / Python
+  [12:1:7.8] George Boole | Boolean algebra
+  [12:1:7.9] Tim Paterson | MS-DOS (from 86-DOS)
+  [12:1:7.10] David S. Lee | Daisy-wheel printer (1969, Diablo Data Systems)
+  [12:1:7.11] Alexander Bain (Scottish) | Fax (1842)
+  [12:1:7.12] Peter Shor | Shor's algorithm (1994)
+[12:1:8] - **Silicon:** the semiconductor from which integrated circuit (IC) chips are made.
+## SUB 2 | Computer Types
+[12:2:0] TABLE head: Type | Feature / example
+  [12:2:0.0] Analog | Continuous quantities – car speedometer, thermometer
+  [12:2:0.1] Digital | Discrete (binary) data – PCs
+  [12:2:0.2] Hybrid | Both – ICU monitors, ECG
+  [12:2:0.3] Personal / micro | Desktop, laptop, tablet, smartphone, wearables (smartwatch, fitness tracker, AR glasses)
+  [12:2:0.4] Embedded | Dedicated function inside a larger system – digital watch
+  [12:2:0.5] Supercomputer | Largest, fastest and costliest; speed in FLOPS
+  [12:2:0.6] Quantum computer | Uses qubits (superposition, entanglement); fast calculation, cryptography, optimisation
+[12:2:1] - **Fax and email over phone lines** use **both analog and digital** signals.
+[12:2:2] - Quantum computer is described as the smallest and fastest computer copying brain working. Oxford University researchers made **10 billion quantum entanglements** in silicon.
+[12:2:3] - **Q-Day**: when quantum computers may break **RSA-2048** encryption using **Shor's algorithm (1994)**.
+## SUB 3 | Hardware – Cpu and Components
+[12:3:0] # CPU
+[12:3:1] - **CPU = Central Processing Unit** (NOT "Control Processing Unit") – the **brain** and most important part; most calculations happen here.
+[12:3:2] TABLE head: Component | Function
+  [12:3:2.0] ALU (Arithmetic Logic Unit) | Arithmetic and logical operations; calculations and decisions
+  [12:3:2.1] CU (Control Unit) | Fetches and decodes instructions, makes control signals, directs
+  [12:3:2.2] Registers | Fastest storage inside the CPU
+  [12:3:2.3] PSU | Only supplies power
+[12:3:3] - After a **double-click** of the mouse, information goes to the **CPU**.
+[12:3:4] - Main components: input/output devices, processing unit, memory unit, secondary storage – **"basic unit" is not a component**.
+[12:3:5] # Processors and Power
+[12:3:6] - **Celeron, Pentium, Core** = series of processors; **Intel Core i9** = high-end CPU with **8 to 24 cores**; multi-core CPUs.
+[12:3:7] - **IBM = International Business Machine(s)**.
+[12:3:8] - **UPS = Uninterrupted Power Supply** – keeps the computer running briefly when power fails.
+[12:3:9] - **SMPS = Switched Mode Power Supply** – changes rectified AC input into low-voltage DC.
+[12:3:10] - **Modem** – hardware linking telephone lines and computer equipment.
+## SUB 4 | Hardware – Input, Output and Printers
+[12:4:0] # Input vs Output
+[12:4:1] TABLE head: Input | Output
+  [12:4:1.0] Keyboard (most common, with mouse) | Monitor
+  [12:4:1.1] Mouse | Printer
+  [12:4:1.2] Microphone | Speaker
+  [12:4:1.3] Scanner | Projector
+  [12:4:1.4] Joystick | Plotter
+  [12:4:1.5] Light pen | Headphone
+  [12:4:1.6] Webcam (compulsory for video conferencing) | –
+  [12:4:1.7] Digital camera (input, NOT output) | –
+  [12:4:1.8] Barcode reader, OCR, MICR (cheques), OMR (answer sheets) | –
+[12:4:2] - **Touch screen** = both input and output.
+[12:4:3] - **Mouse, keyboard, scanner** = a group of only input devices.
+[12:4:4] - **Barcode**: machine-readable **vertical bars of varying widths** (APPSC 2019).
+[12:4:5] - **Telefax**: sends pictures and text over telephone lines; information dialled on the telephone and read on a screen.
+[12:4:6] # Printers and Lasers
+[12:4:7] TABLE head: Impact | Non-impact
+  [12:4:7.0] Dot-matrix, daisy-wheel, line | Inkjet, laser, thermal
+[12:4:8] - **Laser printer** is usually used for **desktop printing (DTP)**.
+[12:4:9] - **Semiconductor laser**: used in laser printers and CD/DVD players. **Excimer (exciplex) laser**: ultraviolet; used to make microelectronic devices.
+## SUB 5 | Memory and Storage
+[12:5:0] # Units in Order
+[12:5:1] - **Bit** (binary digit) = smallest unit; memory is measured in bits. **Nibble = 4 bits**; **byte = 8 bits** (APPSC 2025).
+[12:5:2] - Order: bit < nibble < byte < **KB** < MB < GB < TB < PB < EB < ZB < YB.
+[12:5:3] TABLE head: Unit | Equals
+  [12:5:3.0] 1 byte | 8 bits
+  [12:5:3.1] 1 KB | 1024 bytes = 8192 bits
+  [12:5:3.2] 1 MB | 1024 KB
+  [12:5:3.3] 1 GB | 1024 MB
+  [12:5:3.4] 1 TB | 1024 GB
+[12:5:4] Smallest of the units asked (KB, MB, GB, TB) = KB.
+[12:5:5] # Primary Memory
+[12:5:6] TABLE head: Memory | Nature
+  [12:5:6.0] RAM (Random Access Memory) | Volatile, temporary working store, lost when power goes off; SRAM = cache, DRAM = main memory
+  [12:5:6.1] ROM (Read-Only Memory) | Non-volatile, permanent, can only be read; holds firmware/BIOS (Basic Input-Output System); PROM, EPROM, EEPROM
+  [12:5:6.2] Cache | Small, fastest memory between CPU and RAM; shortest access time, highest bandwidth; speeds up processing
+  [12:5:6.3] Memory | Erased by
+  [12:5:6.4] EPROM | Ultraviolet light
+  [12:5:6.5] EEPROM | Electrically
+[12:5:7] - **ROM is a memory, not a computer language.**
+[12:5:8] - **DIMM = Dual In-line Memory Module** (RAM stick, contacts on both sides; older **SIMM**; laptops use SO-DIMM).
+[12:5:9] - Memory types: **semiconductor** (primary), **magnetic** and **optical** (secondary) – "server" is not one.
+[12:5:10] # Secondary Storage
+[12:5:11] TABLE head: Storage | Fact
+  [12:5:11.0] HDD | Magnetic disk; non-volatile
+  [12:5:11.1] SSD | Flash memory, no moving parts, faster
+  [12:5:11.2] Magnetic tape | Sequential access, slowest; backup and archival
+  [12:5:11.3] Flash drive / memory card | EEPROM-based flash; keeps data without power; not cheaper than mechanical disks
+  [12:5:11.4] CD | about 700 MB
+  [12:5:11.5] DVD | 4.7 GB single layer; 8.5 GB dual layer
+  [12:5:11.6] Blu-ray | 25 GB single layer; 50 GB dual layer
+[12:5:12] - **RAM is NOT secondary memory**; SSD, hard disk and USB pen drive are.
+[12:5:13] - Magnetic tape and magnetic disk both store very large data; the **disk stores more**.
+[12:5:14] Speed order: registers > cache > RAM > SSD > HDD > optical disc > magnetic tape
+## SUB 6 | Software Types
+[12:6:0] - **Software** = another name for computer programs; two major types: **application** and **system**.
+[12:6:1] TABLE head: Type | Examples
+  [12:6:1.0] System software | OS, device drivers, translators (compiler, interpreter, assembler)
+  [12:6:1.1] Utility software | Antivirus, disk cleanup, backup, compression
+  [12:6:1.2] Application software | MS Word, spreadsheets, photo/video/audio editing, DTP, CAD, browsing, gaming; graphics (Photoshop, CorelDRAW); multimedia (players, editors); database (Oracle, MySQL, MS Access); MS Outlook (e-mail, calendar, contacts)
+[12:6:2] - **Device driver** = system software, not application.
+[12:6:3] - **Word processing software**: Microsoft Word, **WordStar** (MicroPro International) – all options given are correct.
+[12:6:4] - **Microsoft Office** = office suite (Word, Excel, PowerPoint), **not an OS**.
+[12:6:5] - **Multimedia**: text joined with audio, video, voiceover, animation and graphics in one digital presentation.
+[12:6:6] - **Compiler** and **assembler** are **not hardware** – they are programs.
+[12:6:7] - A Word document, video or MP3 is a **file**; the **extension** shows its type (.doc = Word).
+[12:6:8] # Open Source
+[12:6:9] - **Open-source**: source code free to view, modify and share under its licence (unlike proprietary).
+[12:6:10] - **GNU ("GNU's Not Unix")**: free, **Unix-like** OS software, so compatible with Unix; **Linux** kernel by Torvalds.
+[12:6:11] - **Internet Explorer** = **closed source**.
+## SUB 7 | Operating Systems
+[12:7:0] - **Functions**: manages hardware; gives user interface; handles processes, memory, file systems, device drivers, security and I/O.
+[12:7:1] TABLE head: OS type | Feature / example
+  [12:7:1.0] Time-sharing / multi-user | Many users share CPU time – UNIX
+  [12:7:1.1] Real-time | Fixed response deadlines – missile guidance, air-traffic control, medical devices (hard vs soft)
+  [12:7:1.2] Mobile | Android (Linux-based, Google), iOS (Apple), BharOS (IIT Madras)
+[12:7:2] # Interfaces and Examples
+[12:7:3] TABLE head: Interface | Example
+  [12:7:3.0] CLI (command-line, non-graphical) | MS-DOS, UNIX shell
+  [12:7:3.1] GUI (icons, windows, mouse) | Windows, macOS
+[12:7:4] - **MS-DOS**: Microsoft, **August 1981**; written by **Tim Paterson** from 86-DOS, for IBM-compatible PCs; eight versions.
+[12:7:5] - **UNIX**: multi-user OS, made **1969** by **AT&T**; **kernel** = main part; UNIX = kernel + shell + commands + applications.
+[12:7:6] - **Windows 3** – 1990; **Windows 11** – October 2021.
+[12:7:7] - **Android 6.0 = Marshmallow** (shown May 2015, released October 2015).
+[12:7:8] - **Linux, Windows, Unix** = OSs; MS Office is not.
+[12:7:9] - **Batch OS:** groups similar jobs and runs them one after another without user interaction.
+## SUB 8 | Programming, Number Systems and Logic
+[12:8:0] # Language Levels
+[12:8:1] TABLE head: Level | Fact
+  [12:8:1.0] 1GL machine language | Only 0 and 1; the only language a computer runs directly; no translator; machine code; based on Boolean algebra
+  [12:8:1.1] 2GL assembly | Mnemonics; converted by an assembler (not a compiler)
+  [12:8:1.2] 3GL high-level | FORTRAN (Formula Translation, IBM, scientific, first HLL 1957), COBOL (business), BASIC (Beginner's All Purpose Symbolic Instruction Code), PASCAL, C, C++ (Stroustrup), Java, Python
+[12:8:2] - **BASIC** is a **procedural** language (with C, FORTRAN, PASCAL).
+[12:8:3] - **Cobra, Python, Squirrel, Java** are all computer languages; **Paint brush** and **FAST** are NOT.
+[12:8:4] - APPSC 2019 odd-one-out answer: **Python**.
+[12:8:5] # Translators and Logic Design
+[12:8:6] TABLE head: Term | Meaning
+  [12:8:6.0] Compiler | System software; translates the whole program at once (faster execution)
+  [12:8:6.1] Interpreter | Translates and runs line by line (easier debugging)
+  [12:8:6.2] Algorithm | Finite step-by-step procedure
+  [12:8:6.3] Flowchart | Pictorial form of an algorithm (APPSC 2019)
+  [12:8:6.4] Pseudocode | English-like text outline
+  [12:8:6.5] Source code | The written program
+[12:8:7] - Flowchart symbols: **oval** = start/end, **parallelogram** = input/output, **rectangle** = process, **diamond** = decision.
+[12:8:8] # Number Systems
+[12:8:9] - Binary (base 2), octal (8), decimal (10), **hexadecimal** (16, digits 0–9 and A–F).
+[12:8:10] - (1010)₂ = 10; **(FF)₁₆ = 15 × 16 + 15 = 255**.
+[12:8:11] # Logic Gates and Boolean Algebra
+[12:8:12] - **Universal gates: NAND and NOR**; basic gates: AND, OR, NOT.
+[12:8:13] - **OR**: output 1 if any input is 1; 0 only when all inputs are 0. **XOR**: 1 when inputs differ.
+[12:8:14] - Boolean: A + A = A; A·A′ = 0; **De Morgan: (A + B)′ = A′ · B′**.
+## SUB 9 | File Formats, Acronyms and Transmission Modes
+[12:9:0] TABLE head: Acronym | Expansion | Type
+  [12:9:0.0] PDF | Portable Document Format (Adobe) | Document
+  [12:9:0.1] MP3 | MPEG-1 Audio Layer 3 | Audio (not video)
+  [12:9:0.2] MP4 | MPEG-4 Part 14 | Video
+  [12:9:0.3] MOV | QuickTime Movie (Apple) | Video
+  [12:9:0.4] AVI | Audio Video Interleave (Microsoft) | Video
+  [12:9:0.5] JPEG | Joint Photographic Experts Group | Image, lossy
+  [12:9:0.6] GIF | Graphics Interchange Format (key: "Graphical") – CompuServe, late 1980s | Image, simple animation
+  [12:9:0.7] PNG | Portable Network Graphics (not "Graphics Interface") | Image
+  [12:9:0.8] MPEG | Moving Picture Experts Group (ISO/IEC) | Audio-video standards
+  [12:9:0.9] ASCII | American Standard Code for Information Interchange | 7-bit, 128 characters (2⁷); Unicode extends it
+[12:9:1] - **LED = Light Emitting Diode**: light by **electroluminescence** at a semiconductor p-n junction.
+[12:9:2] # Transmission Modes
+[12:9:3] TABLE head: Mode | Example
+  [12:9:3.0] Simplex (one-way) | Television; mouse to computer (APPSC 2019)
+  [12:9:3.1] Half duplex | Walkie-talkie
+  [12:9:3.2] Full duplex | Telephone
+[12:9:4] - **Multiplexing** joins several signals on one channel.
+## SUB 10 | Performance Terms and Supercomputers
+[12:10:0] TABLE head: Term | Meaning / unit
+  [12:10:0.0] Word length | Bits the CPU handles at once (32-bit, 64-bit) – measured in bits
+  [12:10:0.1] Clock speed | Hertz (GHz = one billion hertz) – shows computer speed
+  [12:10:0.2] Bandwidth | Data-transfer rate in bits per second (bps)
+  [12:10:0.3] MIPS | Million Instructions Per Second
+  [12:10:0.4] FLOPS | Floating-point Operations Per Second – supercomputer speed
+  [12:10:0.5] Linpack (HPL) | Benchmark of floating-point power solving large dense linear systems – basis of world rankings
+[12:10:1] # Fastest Supercomputers – Dated
+[12:10:2] - **June 2014**: **Tianhe-2** (China) fastest in the TOP500; Tianhe-1A (2010) also China ⚠ APPSC key (2010) gave Japan.
+[12:10:3] - **2007:** **IBM Blue Gene/L** fastest; India's **Eka** (CRL, Tata) ranked **4th** (Nov 2007).
+[12:10:4] - **ISC 2026**: **LineShine** (China) fastest, replacing El Capitan.
+[12:10:5] - **Jan 2026**: **Param Shakti** – 3.1 petaflops, launched by **MeitY** at **IIT Madras** on RUDRA servers, under the **National Supercomputing Mission**.
+## SUB 11 | Number Game and Quick Revision
+[12:11:0] TABLE head: Item | Correct Fact
+  [12:11:0.0] Nibble / byte | 4 / 8 bits
+  [12:11:0.1] 1 KB | 1024 bytes = 8192 bits
+  [12:11:0.2] ASCII | 7-bit, 128 characters
+  [12:11:0.3] (FF)₁₆ | 255
+  [12:11:0.4] ENIAC / Intel 4004 | 1946 / 1971
+  [12:11:0.5] WWW / GNU / Linux | 1989 / 1983 / 1991
+  [12:11:0.6] MS-DOS / UNIX | 1981 / 1969
+  [12:11:0.7] DVD / Blu-ray | 4.7 GB / 25 GB
+  [12:11:0.8] Core i9 | 8–24 cores
+[12:11:1] # FIRST / LAST / SPECIAL FACTS
+[12:11:2] - First general-purpose electronic computer: **ENIAC**; first indigenous Indian computer: **TIFRAC**.
+[12:11:3] - First commercial microprocessor: **Intel 4004**.
+[12:11:4] - Fastest memory: **registers**, then **cache**; slowest: **magnetic tape**.
+[12:11:5] - Only language run directly: **machine language**.
+## SUB 12 | Appsc Previous Year Questions
+[12:12:0] TABLE head: Examination | Question Area
+  [12:12:0.0] APPSC 2025 | Bit, nibble, byte
+  [12:12:0.1] APPSC 2019 | Barcode; mouse – simplex; flowchart; technology preservation; odd-one-out language
+  [12:12:0.2] APPSC Group 1 / Group 2 | ROM, RAM, cache; EPROM vs EEPROM
+  [12:12:0.3] APPSC Group 1 / Group 2 | CPU full form; ALU, CU; input vs output devices
+  [12:12:0.4] APPSC Group 1 / Group 2 | Compiler, assembler, interpreter; high-level languages
+  [12:12:0.5] APPSC Group 1 / Group 2 | UNIX, MS-DOS, GNU; file formats (MP3, MP4, GIF, MPEG)
+## SUB 13 | High-probability Mcq Traps
+[12:13:0] VERY IMPORTANT
+[12:13:1] - 1. **CPU** = Central (not Control) Processing Unit.
+[12:13:2] - 2. **EPROM** = UV; **EEPROM** = electric.
+[12:13:3] - 3. **Engelbart** = mouse; **Tesler** = cut/copy/paste; **Babbage** = father; **Lovelace** = first programmer.
+[12:13:4] - 4. **Assembler** (not compiler) converts assembly language; compiler = whole program, interpreter = line by line.
+[12:13:5] - 5. **RAM** is primary, NOT secondary; **ROM** is a memory, not a language.
+[12:13:6] - 6. **MP3** = audio; MP4, MOV, AVI = video; GIF = Graphics Interchange Format.
+[12:13:7] - 7. **Digital camera** = input; **touch screen** = both.
+[12:13:8] - 8. **Internet Explorer** = closed source; **MS Office** is not an OS.
+[12:13:9] - 9. Universal gates = **NAND, NOR**; De Morgan (A+B)′ = A′·B′.
+[12:13:10] - 10. **Speedometer** = analog; **digital watch** = embedded computer.
+
+=== OWN MCQs of 5:12 (131)
+[n675064c6cd3] sub0
+  ICT is an umbrella term for devices and applications used to do what?
+  only calculate numerical data | replace all forms of human communication | *access, store, transmit and manipulate digital information | manufacture semiconductor chips exclusively
+  x: ICT covers devices and applications used to access, store, transmit and manipulate digital information, including mobiles, networks, software, the internet and satellites.
+[nacb926f71fb] sub0
+  Among which of the following does ICT aim to make communication smooth?
+  *Human-human, human-machine and machine-machine | Human and human only | Human and machine only | Machine and machine only
+  x: ICT aims at efficient human-human, human-machine and machine-to-machine communication.
+[f68d3b3074c92] sub0
+  Who coined the term 'Cybernetics', the study of automation and communication between human and machine?
+  *Norbert Wiener | Charles Babbage | George Boole | Tim Berners-Lee
+  x: Cybernetics was named by Norbert Wiener.
+[g7f74096657e4] sub0
+  Which technology makes machines intelligent so that they can mimic human actions?
+  Cybernetics | *Artificial Intelligence | Nanotechnology | Cryptography
+  x: Artificial Intelligence boosts human abilities by making machines intelligent and mimicking human actions.
+[gdd71a0682c88] sub0
+  Which of the following is an example of technology preservation?
+  A data centre | A cyber cafe | *A computer museum | A software patent
+  x: A computer museum preserves old technology, so it is an example of technology preservation.
+[g501ba17bc6a6] sub0
+  ICT aims at smooth communication between humans, between humans and machines, and between machines. What is the last of these called?
+  P2P | *M2M | B2B | G2C
+  x: Machine-to-machine (M2M) communication is one aim of ICT, along with human-human and human-machine communication.
+[ga4c7c7e8a63e] sub0
+  Which of the following is a concern linked with the spread of ICT?
+  *Digital divide | Green Revolution | Brain gain | Demographic dividend
+  x: Concerns of ICT include privacy risks, the digital divide, job insecurity and over-reliance on technology.
+[n0634440c4c3] sub1
+  On which technology was the third generation of computers based?
+  Transistors | Vacuum tubes | *Integrated circuits | Microprocessors
+  x: The generations ran vacuum tubes, transistors, integrated circuits and microprocessors, so the third used integrated circuits.
+[n66b45fbde10] sub1
+  With which of the following is the fifth generation of computers associated?
+  Vacuum tubes and magnetic drums | *Artificial intelligence, ULSI and parallel processing | Transistors and magnetic-core memory | Mechanical calculating devices
+  x: The fifth generation is associated with artificial intelligence, ultra-large-scale integration and parallel processing.
+[n22fe1047aaa] sub1
+  Who is credited with the cut, copy and paste commands?
+  Douglas Engelbart | Ada Lovelace | Charles Babbage | *Larry Tesler
+  x: Larry Tesler is linked with cut, copy and paste; Engelbart with the mouse, Babbage with the Analytical Engine and Lovelace with the first program.
+[n4b37a1e2f2a] sub1
+  Which of the following pairs is correctly matched?
+  Linus Torvalds – GNU project (1983) | Richard Stallman – Linux kernel (1991) | *Linus Torvalds – Linux kernel (1991) | Linus Torvalds – GPL licence
+  x: Linus Torvalds wrote the Linux kernel in 1991; the GNU project (1983) and the GPL licence are Richard Stallman's.
+[ncc4ca05d0f8] sub1
+  Which one of the following was India's first indigenous computer?
+  PARAM 8000 | ENIAC | *TIFRAC | UNIVAC
+  x: TIFRAC was the first indigenous computer built in India. ENIAC (1946, Eckert and Mauchly) was the world's first general-purpose electronic computer, and UNIVAC was another first-generation American computer. PARAM 8000 (1991) was India's first supercomputer, not its first computer.
+[fff0b55913401] sub1
+  Who invented the computer mouse?
+  Larry Tesler | *Douglas Engelbart | Charles Babbage | Tim Berners-Lee
+  x: Douglas Engelbart invented the mouse; Larry Tesler is credited with cut, copy and paste.
+[f8a0938375b0d] sub1
+  Who is regarded as the first computer programmer?
+  Charles Babbage | Dennis Ritchie | *Ada Lovelace | Tim Paterson
+  x: Ada Lovelace wrote the first program; Charles Babbage is the Father of Computers.
+[fd37a575b580a] sub1
+  Who built ENIAC (1946), the world's first general-purpose electronic computer?
+  Babbage and Lovelace | Stallman and Torvalds | Ritchie and Gosling | *Eckert and Mauchly
+  x: ENIAC was built by Eckert and Mauchly in 1946.
+[f33aec35a4c7b] sub1
+  Which was India's first supercomputer (1991)?
+  *PARAM 8000 | TIFRAC | Param Shakti | UNIVAC
+  x: PARAM 8000 (1991) was India's first supercomputer; TIFRAC was India's first indigenous computer.
+[fa31b7bca58a8] sub1
+  In which year did Intel 4004, the first commercial microprocessor, come out?
+  1958 | *1971 | 1964 | 1981
+  x: Intel 4004 came in 1971; ICs were invented in 1958.
+[f3e2d4b8cf5ac] sub1
+  In which year were integrated circuit (IC) chips, which made computers smaller, invented?
+  1946 | 1964 | *1958 | 1971
+  x: IC chips were invented in 1958 and replaced transistors.
+[f6d102b8fbed7] sub1
+  Who invented the fax in 1842?
+  David S. Lee | Tim Paterson | George Boole | *Alexander Bain
+  x: Scottish inventor Alexander Bain invented the fax in 1842; David S. Lee made the daisy-wheel printer.
+[f5b20c068f2ab] sub1
+  Which of the following pairs is correctly matched?
+  Dennis Ritchie – Java | *James Gosling – Java | Guido van Rossum – C | Tim Paterson – Python
+  x: James Gosling created Java; Dennis Ritchie made C, Guido van Rossum Python, and Tim Paterson wrote MS-DOS.
+[fe05906db9cd6] sub1
+  Which of the following is NOT correctly matched with its computer generation?
+  First – Vacuum tubes | *Second – Integrated circuits | Fourth – Microprocessors | Fifth – Artificial intelligence
+  x: The second generation used transistors; integrated circuits were the basis of the third generation.
+[gb6bd20d75382] sub1
+  Silicon is mainly used in computers to make which of the following?
+  *Integrated circuit chips | Monitor screens | Keyboard keys | Network cables
+  x: Silicon is the semiconductor from which integrated circuit chips are made.
+[g09ecb9b49324] sub1
+  Who invented the World Wide Web in 1989?
+  Douglas Engelbart | *Tim Berners-Lee | Larry Tesler | Richard Stallman
+  x: Tim Berners-Lee invented the WWW in 1989; Engelbart invented the mouse.
+[g1be1a25dd80e] sub1
+  How many transistors per chip does an MSI (Medium Scale Integration) circuit have?
+  3 to 30 | *30 to 300 | 300 to 3,000 | Over 1 lakh
+  x: ICs are grouped by transistors per chip: SSI 3-30, MSI 30-300 and LSI 300-3,000.
+[g0c9f99a6ea19] sub1
+  Assertion (A): Computers of the third generation were smaller than those of the second generation.
+Reason (R): In the third generation, integrated circuits replaced transistors.
+Select the correct answer using the code given below:
+  *Both A and R are true and R is the correct explanation of A | Both A and R are true but R is not the correct explanation of A | A is true but R is false | A is false but R is true
+  x: Third-generation computers used ICs in place of transistors, and IC chips made computers smaller, so R explains A.
+[n89ebdd22aed] sub2
+  Which of the following is NOT correct about types of computers?
+  Analog computers work on continuous quantities, as in a speedometer | Hybrid computers such as ICU monitors combine analog and digital features | Digital computers, such as PCs, process discrete (binary) data | *Digital computers process continuous quantities
+  x: Digital computers process discrete (binary) data; continuous quantities are the domain of analog computers.
+[n254ba73cc7f] sub2
+  Q-Day is the point at which quantum computers may be capable of doing what?
+  replacing all analog computers | *breaking RSA-2048 public-key encryption using Shor’s algorithm | converting every file into PDF format | increasing the clock speed of classical processors
+  x: Q-Day denotes the anticipated point when quantum computers can break RSA-2048 public-key encryption through Shor’s algorithm, proposed in 1994.
+[f20352c116c04] sub2
+  Which of the following is an example of a hybrid computer?
+  *ICU monitor | Car speedometer | Digital watch | Desktop PC
+  x: Hybrid computers like ICU monitors and ECG use both analog and digital data; a speedometer is analog and a digital watch is embedded.
+[f8dc12f54aa87] sub2
+  What do quantum computers use to process information?
+  Nibbles | *Qubits | Bytes | Transistor bits only
+  x: Quantum computers use qubits, which rely on superposition and entanglement.
+[f03d32508034c] sub3
+  Which is the fastest storage inside the CPU?
+  Cache | RAM | ROM | *Registers
+  x: Registers are the fastest storage, followed by cache and then RAM.
+[n3fb9507e721] sub3
+  Which component of the CPU fetches and decodes program instructions?
+  Arithmetic and Logic Unit | *Control unit | Registers | Power supply unit
+  x: The control unit fetches, decodes and directs; the ALU does arithmetic and logic, and the PSU only supplies power.
+[ff01901c1336e] sub3
+  What is the full form of CPU?
+  Control Processing Unit | Central Program Unit | *Central Processing Unit | Computer Processing Unit
+  x: CPU is the Central (not Control) Processing Unit, the brain of the computer.
+[gcb33ea075c2a] sub3
+  What is the full form of UPS?
+  Universal Power Source | Unified Power System | *Uninterrupted Power Supply | Universal Processing System
+  x: UPS (Uninterrupted Power Supply) keeps the computer running briefly when the power fails.
+[g8bd783d0d098] sub3
+  What is the full form of SMPS?
+  *Switched Mode Power Supply | Single Mode Power System | Static Memory Power Supply | Switched Memory Processing System
+  x: SMPS (Switched Mode Power Supply) changes rectified AC input into low-voltage DC.
+[g234121c4afc7] sub3
+  What is the full form of IBM?
+  Integrated Business Machines | *International Business Machines | International Binary Machines | Indian Business Machines
+  x: IBM stands for International Business Machines.
+[gaea18e63af65] sub3
+  How many cores does the high-end Intel Core i9 CPU have?
+  1 to 2 | 2 to 4 | *8 to 24 | 64 to 128
+  x: Intel Core i9 is a high-end multi-core CPU with 8 to 24 cores.
+[g6123880b1845] sub3
+  After a double-click of the mouse, where does the information go?
+  Monitor | *CPU | Printer | Keyboard
+  x: After a double-click, the information goes to the CPU, which processes it.
+[n95149c84d08] sub4
+  Which one of the following devices can function as both an input and an output device?
+  Keyboard | *Touch screen | Microphone | Plotter
+  x: A touch screen displays output and also receives input through touch.
+[n7ef57142668] sub4
+  Which of the following is an impact printer?
+  Laser printer | *Dot-matrix printer | Inkjet printer | Thermal printer
+  x: Dot-matrix and daisy-wheel printers are impact printers; laser, inkjet and thermal printers are non-impact.
+[n1092974fdcf] sub4
+  What is a barcode?
+  a printed image converted into editable text | a two-dimensional matrix of square modules | *machine-readable vertical bars of varying widths | a magnetic character sequence used on cheques
+  x: A conventional barcode consists of machine-readable vertical bars of varying widths.
+[f10a808c94cbf] sub4
+  What is MICR technology mainly used to read?
+  Answer sheets | *Cheques | Product barcodes | Fingerprints
+  x: MICR reads cheques; OMR reads answer sheets.
+[f275fcada6e5b] sub4
+  Which of the following is a non-impact printer?
+  Dot-matrix printer | Daisy-wheel printer | *Laser printer | Line printer
+  x: Laser, inkjet and thermal printers are non-impact; dot-matrix, daisy-wheel and line printers are impact printers.
+[ff13716511f19] sub4
+  Which of the following is NOT an input device?
+  Scanner | Joystick | *Plotter | Light pen
+  x: A plotter is an output device; scanner, joystick and light pen are input devices.
+[f2cc1145c019b] sub4
+  What are excimer (exciplex) lasers used to make?
+  Laser printer drums | CD players | DVD players | *Microelectronic devices
+  x: Excimer lasers are ultraviolet lasers used to make microelectronic devices; semiconductor lasers are used in laser printers and CD/DVD players.
+[g9f89b30be696] sub4
+  Which device is used to read answer sheets of objective-type examinations?
+  MICR | OCR | Barcode reader | *OMR
+  x: OMR (Optical Mark Reader) reads marked answer sheets; MICR reads cheques.
+[ge78ad5862f4a] sub4
+  Which input device is compulsory for video conferencing?
+  Plotter | *Webcam | Scanner | Light pen
+  x: A webcam is the input device needed to send video in video conferencing.
+[nb2a1abcea35] sub5
+  Which secondary storage is sequential-access and mainly used for backup and archival?
+  Solid-state drive | Hard disk drive | *Magnetic tape | Pen drive
+  x: Magnetic tape is sequential-access, the slowest in the speed order, and used for backup and archival; an SSD uses flash memory with no moving parts.
+[n9c96a221d91] sub5
+  How many bits make a nibble?
+  8 bits | 2 bits | 16 bits | *4 bits
+  x: A nibble is a group of four bits.
+[n0d0632d94df] sub5
+  Which type of RAM is used as cache memory?
+  ROM | DRAM | *SRAM | EPROM
+  x: SRAM is used as cache, while DRAM is used as main memory.
+[ned6a0a04375] sub5
+  Which one of the following is correctly matched?
+  ROM — volatile working memory | PROM — electrically erasable memory | *EPROM — ultraviolet-light erasable memory | EEPROM — erasable only by ultraviolet light
+  x: EPROM is erased using ultraviolet light. EEPROM is electrically erasable, while ROM is non-volatile.
+[f7b1a14c4e3d6] sub5
+  Consider the following statements about memory:
+1. EEPROM is erased electrically.
+2. DRAM is used as cache memory.
+3. BIOS is held in ROM.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: EEPROM is erased electrically and BIOS resides in ROM; cache is SRAM, while DRAM is main memory.
+[fde7b9ac0b340] sub5
+  How much data can a single-layer DVD store?
+  700 MB | *4.7 GB | 8.5 GB | 25 GB
+  x: A single-layer DVD holds 4.7 GB (8.5 GB dual layer); a CD holds about 700 MB.
+[f652962766874] sub5
+  How much data can a single-layer Blu-ray disc store?
+  4.7 GB | 8.5 GB | *25 GB | 50 GB
+  x: A single-layer Blu-ray holds 25 GB; dual layer holds 50 GB.
+[fd8b51e9a6323] sub5
+  Which storage uses flash memory and has no moving parts?
+  HDD | Magnetic tape | DVD | *SSD
+  x: An SSD uses flash memory with no moving parts and is faster than an HDD.
+[f922f6354188c] sub5
+  How much is 1 TB equal to?
+  *1024 GB | 1000 MB | 1024 MB | 1024 PB
+  x: 1 TB = 1024 GB, and 1 GB = 1024 MB.
+[f6b9b245da8d8] sub5
+  Consider the following statements about secondary storage:
+1. Magnetic tape is sequential-access and the slowest storage.
+2. A flash drive is cheaper than mechanical disks.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Magnetic tape is sequential and slowest; flash drives are not cheaper than mechanical disks.
+[f3366e9cc1ad2] sub5
+  Which memory is erased by ultraviolet light?
+  *EPROM | EEPROM | SRAM | DRAM
+  x: EPROM is erased by ultraviolet light; EEPROM is erased electrically.
+[gc799baceaa62] sub5
+  What is the full form of DIMM?
+  *Dual In-line Memory Module | Digital Integrated Memory Module | Direct In-line Memory Map | Dual Internal Memory Module
+  x: DIMM is the Dual In-line Memory Module, a RAM stick with contacts on both sides.
+[g30d64cc7d1b9] sub5
+  What is the full form of BIOS?
+  Binary Input-Output System | Basic Integrated Operating System | *Basic Input-Output System | Binary Integrated Operating Software
+  x: BIOS (Basic Input-Output System) is firmware held in ROM.
+[g19c2f6b75e84] sub5
+  About how much data can a CD store?
+  *700 MB | 4.7 GB | 25 GB | 50 GB
+  x: A CD holds about 700 MB; a single-layer DVD 4.7 GB and a single-layer Blu-ray 25 GB.
+[n62adf2ad819] sub6
+  Which of the following pairs is INCORRECTLY matched?
+  Operating system – System software | Disk cleanup – Utility software | Word processor – Application software | *Device driver – Application software
+  x: A device driver is system software, not application software.
+[n8c4120ab99e] sub6
+  Which of the following statements about open-source software is correct?
+  It is limited to operating systems produced by one company. | Its source code is permanently hidden from users. | It can never be commercially distributed. | *Its source code is free to view, modify and share, subject to its licence.
+  x: Open-source software makes source code available for viewing, modification and sharing under the applicable licence.
+[ffcdd1cfde2a0] sub6
+  Antivirus, disk cleanup and backup programs are examples of which type of software?
+  Application software | Device drivers | *Utility software | Language translators
+  x: Antivirus, disk cleanup, backup and compression tools are utility software.
+[f15b9422f000a] sub6
+  Oracle, MySQL and MS Access are examples of which application software?
+  Graphics | Multimedia | Word processing | *Database
+  x: Oracle, MySQL and MS Access are database software; Photoshop and CorelDRAW are graphics software.
+[f32bef4e32f1b] sub6
+  What is the full form of GNU?
+  *GNU's Not Unix | General Network Utility | Global Native Unix | GNU's New Unix
+  x: GNU stands for 'GNU's Not Unix'; it is free, Unix-like OS software.
+[fbb2c49222799] sub6
+  Consider the following statements about software:
+1. Internet Explorer is closed (proprietary) software.
+2. Microsoft Office is an operating system.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Internet Explorer is closed source; Microsoft Office is an office suite, not an OS.
+[fb013294a2e54] sub6
+  Which type of software is a device driver?
+  Application software | *System software | Utility software | Multimedia software
+  x: Device drivers are system software, along with the OS and translators.
+[g7a390c11caf0] sub6
+  Match the following:
+List-I (Software)
+A. Adobe Photoshop
+B. MySQL
+C. MS Outlook
+D. Antivirus
+List-II (Type)
+1. Database software
+2. Graphics software
+3. Utility software
+4. E-mail application
+Select the correct answer using the code given below:
+  *A-2, B-1, C-4, D-3 | A-1, B-2, C-4, D-3 | A-2, B-1, C-3, D-4 | A-4, B-1, C-2, D-3
+  x: Photoshop is graphics software, MySQL database software, MS Outlook handles e-mail, and antivirus is utility software.
+[g8ba079a00082] sub6
+  WordStar, from MicroPro International, is an example of which type of software?
+  Operating system | *Word processing software | Database software | Antivirus software
+  x: WordStar, like Microsoft Word, is word processing software.
+[gb6dd07252972] sub6
+  What does the extension of a computer file, such as .doc, show?
+  The size of the file | *The type of the file | The date the file was made | The owner of the file
+  x: The extension shows the file type; .doc is a Word document.
+[n7bf8ad5d5e9] sub7
+  Which of the following is NOT correct about types of operating systems?
+  *Real-time operating systems have no fixed response deadlines | In a time-sharing OS such as UNIX, many users share CPU time | Real-time operating systems are used in missile guidance and air-traffic control | A batch OS groups jobs and runs them without user interaction
+  x: Real-time OS work to fixed response deadlines, which is why they are used for missile guidance and air-traffic control.
+[n6f7bb61ddc2] sub7
+  On which operating system is Android, associated with Google, based?
+  MS-DOS | *Linux | Windows | BharOS
+  x: Android is Linux-based and associated with Google; iOS is Apple's, and BharOS was developed at IIT Madras.
+[fa8f8bc9a4e48] sub7
+  Missile guidance and air-traffic control systems use which type of operating system?
+  Time-sharing | *Real-time | Mobile | Batch
+  x: Real-time OSs work to fixed response deadlines, as in missile guidance and air-traffic control.
+[f9dc3e137a258] sub7
+  Who developed the mobile operating system BharOS?
+  Google | Apple | *IIT Madras | AT&T
+  x: BharOS is from IIT Madras; Android is Google's and iOS is Apple's.
+[f001d6ecd22e6] sub7
+  Who wrote MS-DOS from 86-DOS?
+  Dennis Ritchie | Linus Torvalds | Richard Stallman | *Tim Paterson
+  x: Tim Paterson wrote MS-DOS from 86-DOS; Microsoft released it in August 1981.
+[fc1f7b8d3f4a1] sub7
+  Which of the following operating systems uses a graphical user interface (GUI)?
+  *macOS | MS-DOS | UNIX shell | 86-DOS
+  x: Windows and macOS use a GUI; MS-DOS and the UNIX shell are command-line interfaces.
+[fa9b2a6ba99b4] sub7
+  Which of the following is NOT correct about UNIX?
+  It is a multi-user operating system | It was made in 1969 by AT&T | Its main part is the kernel | *It is a mobile operating system by Google
+  x: UNIX is a multi-user OS made in 1969 by AT&T with the kernel as its main part; Android is Google's mobile OS.
+[nb7a719e5490] sub7
+  Which one of the following pairs is correctly matched?
+  *MS-DOS — command-line interface | CLI — icons and windows controlled mainly by a mouse | GUI — command-line-only interaction | Windows — absence of graphical elements
+  x: MS-DOS is associated with a command-line interface. GUIs use icons, windows and mouse interaction, as in Windows and macOS.
+[g9542e54d2fb7] sub7
+  In which year was the UNIX operating system made at AT&T?
+  *1969 | 1981 | 1983 | 1991
+  x: UNIX, a multi-user OS, was made in 1969 at AT&T; MS-DOS came in 1981 and Linux in 1991.
+[gefac9f85c9b4] sub7
+  Which of the following is NOT a function of an operating system?
+  Managing memory | Handling file systems | Providing a user interface | *Translating a high-level program line by line
+  x: Line-by-line translation is done by an interpreter; the OS manages hardware, memory, files, processes and the user interface.
+[g4c1dedb21de2] sub7
+  In which year was Windows 11 released?
+  2015 | 2019 | *2021 | 2023
+  x: Windows 11 was released in October 2021; Windows 3 came in 1990.
+[g30e300fbc6ba] sub7
+  Which among the following is not an operating system?
+  UNIX | Android | MS-DOS | *COBOL
+  x: UNIX, Android and MS-DOS are operating systems; COBOL is a programming language.
+[g763d673bf273] sub7
+  Select the odd one out:
+  Windows | macOS | *Java | Linux
+  x: Windows, macOS and Linux are operating systems; Java is a programming language.
+[nd61ece3c7e3] sub8
+  Which of the following is NOT correct about assembly language?
+  It is a second-generation language (2GL) | It uses mnemonics | *It is converted into machine code by a compiler | It is converted into machine code by an assembler
+  x: Assembly language uses mnemonics and is converted into machine code by an assembler, not a compiler.
+[ncaefd624676] sub8
+  What is a language translator that translates and runs a program line by line called?
+  Compiler | Assembler | *Interpreter | Loader
+  x: An interpreter translates and executes line by line, while a compiler translates the whole program before execution.
+[n093e5d8607e] sub8
+  Which of the following are known as universal gates?
+  AND and OR | XOR and XNOR | *NAND and NOR | AND and NOT
+  x: NAND and NOR are the universal gates; AND, OR and NOT are the basic gates.
+[n000321e587e] sub8
+  By what name is the Boolean identity (A + B)′ = A′ · B′ known?
+  Idempotent law | *De Morgan's law | Distributive law | Complement law
+  x: (A + B)′ = A′ · B′ is De Morgan's law.
+[nbde258dcdd8] sub8
+  What is the pictorial representation of an algorithm called?
+  Pseudocode | *Flowchart | Compiler | Source code
+  x: A flowchart is the pictorial form of an algorithm, which is a finite step-by-step procedure (APPSC 2019). Pseudocode is an English-like text outline, a compiler is a language translator, and source code is the written program.
+[ne950f557e20] sub8
+  What is the decimal value of the hexadecimal number (FF)₁₆?
+  15 | 100 | *255 | 256
+  x: F represents 15, so FF equals 15 × 16 + 15 = 255.
+[f9c805fd8f4bb] sub8
+  Who created the Python programming language?
+  James Gosling | *Guido van Rossum | Dennis Ritchie | Bjarne Stroustrup
+  x: Guido van Rossum created Python; Gosling made Java, Ritchie C and Stroustrup C++.
+[fd8dff985b608] sub8
+  In what way does a compiler differ from an interpreter?
+  Translates and runs line by line | Is a hardware device | *Translates the whole program at once | Converts only assembly mnemonics
+  x: A compiler translates the whole program at once; an interpreter works line by line.
+[f205c02a3b577] sub8
+  In a flowchart, which symbol shows a decision?
+  Oval | Parallelogram | Rectangle | *Diamond
+  x: Diamond = decision; oval = start/end, parallelogram = input/output, rectangle = process.
+[fd428b052efcf] sub8
+  What is an English-like text outline of a program's logic called?
+  *Pseudocode | Flowchart | Machine code | Source code
+  x: Pseudocode is an English-like outline; a flowchart is the pictorial form of an algorithm.
+[f895cf180256f] sub8
+  When does an XOR gate give output 1?
+  All inputs are 1 | *The inputs differ | All inputs are 0 | Both inputs are the same
+  x: XOR gives 1 only when its inputs differ.
+[f061df30baffc] sub8
+  What is the decimal value of the binary number (1010)₂?
+  8 | 12 | *10 | 5
+  x: (1010)₂ = 8 + 2 = 10.
+[g08840fe7b823] sub8
+  Which of the following is NOT a computer programming language?
+  COBOL | Java | *Linux | FORTRAN
+  x: Linux is an operating system; COBOL, Java and FORTRAN are programming languages.
+[g10ab96ce0968] sub8
+  What is the full form of FORTRAN?
+  Formal Translation | Format Transfer | *Formula Translation | Formula Transfer
+  x: FORTRAN = Formula Translation; it was made by IBM for scientific work.
+[gc179030a4aa0] sub8
+  Which was the first high-level programming language, developed by IBM in 1957?
+  COBOL | *FORTRAN | BASIC | C
+  x: FORTRAN (1957, IBM) was the first high-level language; COBOL is for business.
+[g021335d0b3aa] sub8
+  What is the full form of BASIC?
+  *Beginner's All Purpose Symbolic Instruction Code | Basic Algorithmic Symbolic Instruction Code | Beginner's Applied Scientific Instruction Code | Binary All Purpose Symbolic Instruction Code
+  x: BASIC stands for Beginner's All Purpose Symbolic Instruction Code; it is a procedural language.
+[gd3a05f580ba6] sub8
+  In a flowchart, which symbol is used for input or output?
+  Oval | Rectangle | Diamond | *Parallelogram
+  x: In a flowchart, oval = start/end, parallelogram = input/output, rectangle = process and diamond = decision.
+[g26ed22882e6f] sub8
+  Who created the C++ programming language?
+  Dennis Ritchie | James Gosling | *Bjarne Stroustrup | Guido van Rossum
+  x: Bjarne Stroustrup created C++; Ritchie made C, Gosling Java and van Rossum Python.
+[g669016e1eeac] sub8
+  Which digits are used in the hexadecimal number system?
+  0 to 7 | 0 to 9 only | *0 to 9 and A to F | 0 and 1
+  x: Hexadecimal is base 16 and uses 0-9 and A-F.
+[ge45b50cf30da] sub8
+  What is the base of the hexadecimal number system?
+  2 | 8 | 10 | *16
+  x: Hexadecimal is base 16; binary is base 2, octal 8 and decimal 10.
+[g64318b562f4c] sub8
+  In Boolean algebra, what is the value of A + A?
+  0 | 1 | *A | 2A
+  x: By the idempotent law A + A = A.
+[gcf20e5603617] sub8
+  In Boolean algebra, what is the value of A · A′ (A AND NOT A)?
+  *0 | 1 | A | A′
+  x: A variable ANDed with its complement always gives 0: A · A′ = 0.
+[g42b55d21d39c] sub8
+  Which high-level language is mainly used for business applications?
+  FORTRAN | *COBOL | C | Python
+  x: COBOL is the business language; FORTRAN is for scientific work.
+[g8129b344aa70] sub8
+  Consider the following pairs:
+1. FORTRAN – Scientific work
+2. COBOL – Business applications
+3. BASIC – Beginner's All Purpose Symbolic Instruction Code
+Which of the pairs given above is/are correctly matched?
+  1 only | 1 and 2 only | 2 and 3 only | *1, 2 and 3
+  x: All three pairs are correct: FORTRAN is scientific, COBOL is for business and BASIC is Beginner's All Purpose Symbolic Instruction Code.
+[n4090739b0ea] sub9
+  Which one of the following is correctly matched with its file type?
+  MP3 — Video | *MP4 — Video | PDF — Audio | MOV — Image
+  x: MP4 stands for MPEG-4 Part 14 and is a video file format. MP3 is audio, PDF is a document format and MOV is a video format.
+[n2699a037f91] sub9
+  How many bits does ASCII, the character-encoding scheme for 128 characters, use?
+  *7 | 8 | 16 | 32
+  x: ASCII is a 7-bit code (2^7 = 128 characters); Unicode extends its range.
+[ne260a4432e6] sub9
+  The communication from a computer mouse to the computer is an example of which transmission mode?
+  Half duplex | Full duplex | *Simplex | Multiplex
+  x: A mouse only sends signals to the computer, so the communication is one-way, or simplex (APPSC 2019). Half duplex is two-way but one direction at a time, as in a walkie-talkie. Full duplex is two-way at once, as in a telephone. Multiplexing combines several signals on one channel; it is not a direction mode.
+[n2a826613c22] sub9
+  Which one of the following pairs is NOT correctly matched?
+  GIF — Graphics Interchange Format | AVI — Audio Video Interleave | MOV — QuickTime Movie | *PNG — Portable Network Graphics Interface
+  x: PNG stands for Portable Network Graphics, not Portable Network Graphics Interface. AVI, MOV and GIF are correctly matched.
+[fd2a43a3ec915] sub9
+  What is the full form of PDF?
+  *Portable Document Format | Printable Document Format | Portable Data File | Public Document Format
+  x: PDF is Adobe's Portable Document Format.
+[f7ae44372c8db] sub9
+  Which company developed the AVI (Audio Video Interleave) format?
+  Apple | *Microsoft | Adobe | CompuServe
+  x: AVI is Microsoft's; MOV is Apple's, PDF Adobe's and GIF CompuServe's.
+[f6c4316b2b374] sub9
+  A telephone call is an example of which transmission mode?
+  Simplex | Half duplex | *Full duplex | Multiplexing
+  x: A telephone is full duplex; television is simplex and a walkie-talkie half duplex.
+[f11f581f60a00] sub9
+  For which type of content is MP3 a file format?
+  Video | Images | Documents | *Audio
+  x: MP3 (MPEG-1 Audio Layer 3) is an audio format; MP4, MOV and AVI are video formats.
+[gfeb5e6846ed9] sub9
+  What is the full form of JPEG?
+  *Joint Photographic Experts Group | Joint Picture Encoding Group | Java Photographic Exchange Group | Joint Photographic Encoding Graphics
+  x: JPEG = Joint Photographic Experts Group; it is a lossy image format.
+[ga84a54daf762] sub9
+  Which of the following is an example of half-duplex communication?
+  Television | Telephone | *Walkie-talkie | Mouse to computer
+  x: In half duplex, data flows both ways but one at a time, as in a walkie-talkie; television is simplex and telephone full duplex.
+[gfcb697556b6f] sub9
+  By which process does an LED produce light?
+  Incandescence | *Electroluminescence | Fluorescence | Phosphorescence
+  x: An LED (Light Emitting Diode) gives light by electroluminescence at a semiconductor p-n junction.
+[gb7e4c173ac44] sub9
+  What is the full form of ASCII?
+  *American Standard Code for Information Interchange | American Standard Code for International Interchange | Advanced Standard Code for Information Interchange | American Symbolic Code for Information Interchange
+  x: ASCII = American Standard Code for Information Interchange; a 7-bit code for 128 characters.
+[gd94c5aba1048] sub9
+  Which character-encoding standard extends the 7-bit ASCII code?
+  EBCDIC | *Unicode | BCD | MIDI
+  x: ASCII is 7-bit with 128 characters; Unicode extends it.
+[n8ed3bcaf128] sub10
+  In which unit is the speed of a supercomputer commonly expressed?
+  Bytes | Baud | *FLOPS | Pixels
+  x: Supercomputers provide the highest processing power, and their speed is commonly expressed in FLOPS (floating-point operations per second).
+[n9127c2c8f1e] sub10
+  Which of the following is NOT correct about computer performance terms?
+  Bandwidth is the data-transfer rate, measured in bits per second | Word length is the number of bits the CPU handles at once | *Clock speed is measured in bits per second | MIPS stands for million instructions per second
+  x: Clock speed is measured in hertz (GHz); bits per second is the unit of bandwidth.
+[n8bc68a1fb7c] sub10
+  Which benchmark measures floating-point performance while solving large dense linear systems and forms the basis of world supercomputer rankings?
+  *Linpack or HPL benchmark | ASCII benchmark | MIPS standard | Unicode benchmark
+  x: The Linpack, or HPL, benchmark measures floating-point power in solving large dense linear systems and is used for world supercomputer rankings.
+[ndb37ed12bf0] sub10
+  Which is the world's fastest supercomputer according to the ISC 2026 list?
+  El Capitan (USA) | *LineShine (China) | Frontier (USA) | Fugaku (Japan)
+  x: China's LineShine topped the ISC 2026 supercomputer list, replacing the United States' El Capitan.
+[nc143219d7a8] sub10
+  Where was the 3.1-petaflop supercomputer Param Shakti launched by MeitY?
+  IIT Bombay | IISc Bengaluru | *IIT Madras | IIT Kanpur
+  x: Param Shakti, funded under the National Supercomputing Mission, was launched by MeitY at IIT Madras.
+[fd14eabf3af82] sub10
+  In which unit is bandwidth, the data-transfer rate, measured?
+  Hertz | FLOPS | MIPS | *Bits per second
+  x: Bandwidth is measured in bits per second; clock speed is in hertz.
+[f04ac9cde4d74] sub10
+  What is the full form of MIPS?
+  *Million Instructions Per Second | Million Inputs Per Second | Memory Instructions Per Second | Million Integer Processing Steps
+  x: MIPS = Million Instructions Per Second.
+[f85d556a8a447] sub10
+  Consider the following statements about Param Shakti:
+1. It is a 3.1-petaflop supercomputer.
+2. It was launched at IIT Madras.
+3. It was built under the Digital India Mission.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Param Shakti (3.1 petaflops) was launched by MeitY at IIT Madras under the National Supercomputing Mission.
+[g5b43af9c6d64] sub10
+  Which Indian supercomputer, built by CRL (Tata), was ranked 4th in the world in November 2007?
+  PARAM 8000 | Anupam | Pratyush | *Eka
+  x: Eka of CRL (Tata) was ranked 4th in November 2007, when IBM Blue Gene/L was the fastest.
+[gc2b16663fe19] sub10
+  Which was the world's fastest supercomputer in 2007, when India's Eka ranked 4th?
+  Tianhe-2 | *IBM Blue Gene/L | Fugaku | El Capitan
+  x: In 2007 IBM Blue Gene/L was the fastest; India's Eka (CRL, Tata) was 4th in November 2007.
+[n309e53bafaf] sub11
+  Which one of the following was the first commercial microprocessor?
+  Celeron | *Intel 4004 | Intel Pentium | Intel Core i9
+  x: The Intel 4004, introduced in 1971, was the first commercial microprocessor.
+
