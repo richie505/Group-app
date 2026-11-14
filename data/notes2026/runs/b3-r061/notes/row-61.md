@@ -155,6 +155,20 @@
 - **Jobless growth:** directly employed workers 61% → 47% (2011-2023); contract workers about **42%**.
 ~~ Sources: NextGen Indian Economy - APPSC 22 p.3-5; NextGen Indian Economy - APPSC 14 p.4, p.10; app notes 3:61 sub 1-3
 
+=== Public Sector Administration and Reform – DPE, MoU, PSE Policy 2021
+- **Department of Public Enterprises (DPE):** places CPSEs in **four schedules**, monitors **MoUs**, grants **Ratna status**, brings out the **Public Enterprises Survey**.
+- **Ministry of Heavy Industries and Public Enterprises** consisted of the **Department of Heavy Industry + Department of Public Enterprises** (CDS 2020); **since July 2021 DPE is under the Ministry of Finance** and the parent is now the **Ministry of Heavy Industries**.
+- **PESB** (Public Enterprises Selection Board) selects **board-level executives** of CPSEs.
+| Committee / body | Role |
+|---|---|
+| **Arjun Sengupta (1984)** | Autonomy → **MoU system** |
+| **Rangarajan (1993)** | **Disinvestment** |
+| **BRPSE (2004)** | Revival of sick CPSEs |
+- **MoU:** annual targets for **all CPSEs, including subsidiaries**, through a High Power Committee.
+- **New PSE Policy 2021:** four **strategic** sector groups (atomic energy, space, defence; transport, telecom; power, petroleum, coal, minerals; banking, insurance, finance) keep **1 to 4** PSEs; **non-strategic** PSEs privatised or closed.
+- **MSMED (Amendment) Bill 2026:** every CPSE to settle MSME invoices on **TReDS**.
+~~ Sources: NextGen Indian Economy P1 - APPSC 02 p.41 (DPE under the Heavy Industries and Public Enterprises ministry); NextGen Indian Economy - APPSC 14 p.10 (MoU, disinvestment); app notes 3:61 sub 9; general knowledge, not checked (DPE move to Finance, July 2021)
+
 === Andhra Pradesh Industrial Profile
 - Industry share of AP GSVA: **21.16% (2024-25)**, **21.57% (2025-26)**; manufacturing about **11% of GSDP**.
 - **General Index of Industrial Production, AP, 2005-06: 188.7**.
