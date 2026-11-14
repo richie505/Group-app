@@ -1514,3 +1514,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Notes conflicts: Blind Cricket WC 2018 final Dubai (103:0:1.8) vs Sharjah (102:7:1.3) — final was at Sharjah; fix. Lead Poisoning Week "first 2012" vs "14th edition 2026" (104:9:7) — reconcile; own fba6f1c97a76a removed.
 - gacbfab252b2f (Ankur Mittal gold; notes silver) recast as a false statement.
 - PYQ yc9f12b441db keyed Suzie Bates; notes Charlotte Edwards — check.
+
+## rewrite b1-w266 (rows 266–272)
+- own 340 → 87 kept + 83 new (170, 50%); new 47 statements / 23 match / 13 A–R; 3 of 239 lines lost (facts in match/PYQ). No wrong keys.
+- Table header rows read as data: 270:0:0.6 ("Pen name | Birth name"), 271:6:0.6 ("Institution | Year") — notes cleanup.

@@ -1,0 +1,113 @@
+=== Status and Establishment of the NHRC
+- **NHRC = statutory body**, **not constitutional**, set up under the **Protection of Human Rights Act (PHRA), 1993** passed by Parliament – **not by an executive order** of the President.
+| Event | Date |
+|---|---|
+| Ordinance (Art. 123); Act deemed in force | **28 September 1993** |
+| NHRC constituted | **12 October 1993** |
+| Act received assent | January 1994 |
+- **"Constitutional body" and "established in 1994 under the PHRA 1994"** are **both false** (NHRC: 1993, PHRA 1993).
+- **Constitutional vs statutory (UPSC 2023):** of NCBC, NHRC, Law Commission, NCDRC only **NCBC** is constitutional (**102nd Amendment, 2018**, Art. 338B); NHRC statutory; Law Commission executive; NCDRC statutory (Consumer Protection Act).
+- Watchdog of rights relating to **life, liberty, equality and dignity** – rights like **education are not listed** in the PHRA definition.
+- Framed in the light of the **Paris Principles** (independence, pluralism, broad mandate). Headquarters: **New Delhi**.
+- **First Chairperson:** Justice **Ranganath Misra** (12 Oct 1993 – 24 Nov 1996). **Present:** Justice **V. Ramasubramanian** (as of Feb 2026).
+~~ Sources: Laxmikanth 8th ed. Part 2 p.226, 228; Rocket Polity p.68; app notes 2:126 sub 0
+
+=== NHRC Composition
+- **Multi-member body: Chairperson + five full-time members** (since 2019; under the 1993 Act Chairperson + **four** members).
+| Component | Who |
+|---|---|
+| Chairperson | Former **Chief Justice of India** or (since 2019) a former **Judge of the Supreme Court**; under the 1993 Act **only a retired CJI** |
+| Member | Serving or retired **SC Judge** |
+| Member | Serving or retired **HC Chief Justice** |
+| Members | **Three** persons with human-rights knowledge, **at least one a woman** (earlier **two**) |
+| Ex-officio (deemed) members | **Seven** chairpersons/commissioners (below) |
+- **Deemed members:** chairpersons of **NCM, NCSC, NCST, NCW** (before 2019; NCSC and NCST added 2006) + **NCBC, NCPCR** and the **Chief Commissioner for Persons with Disabilities** (added 2019). Today **all of NCSC, NCM, NCW and NCBC** are deemed members.
+- Deemed members are **not equal in status** to full-time members; the **CCPD** is the only one who is not a commission chair.
+- **Secretary-General** (Chief Executive Officer of the Commission): **administrative and financial powers** (not judicial) under the Chairperson's control.
+~~ Sources: Laxmikanth 8th ed. Part 2 p.226, 233-234; app notes 2:126 sub 1
+
+=== Appointment, Term and Removal
+- **Appointed by the President** (not the PM, CJI or Home Minister) on the recommendation of a **six-member committee**:
+| Selection committee (Section 4) |
+|---|
+| **Prime Minister** – head |
+| Speaker of the Lok Sabha |
+| Union Home Minister |
+| Leader of Opposition, Lok Sabha |
+| Leader of Opposition, Rajya Sabha |
+| **Deputy Chairman** of the Rajya Sabha |
+- The **Chairman of the Rajya Sabha** (Vice-President) and the **CJI** are **NOT** members.
+- A sitting SC Judge or sitting HC Chief Justice is appointed only **after consulting the CJI**.
+- **Term (since 2019):** **3 years or age 70**, whichever earlier; **eligible for reappointment**. **Before 2019:** **5 years** or 70; a member could be reappointed for **one more five-year term**, the Chairperson could not.
+- After office: **ineligible for further employment** under the Central or any State Government. Salaries fixed by the Centre, not varied to disadvantage.
+- **Resignation** in writing to the **President**.
+- **Removal by the President:** insolvency, paid outside employment, infirmity of mind or body, unsound mind, conviction and imprisonment; for **proved misbehaviour or incapacity** only after the **Supreme Court inquires** on the President's reference and advises removal.
+~~ Sources: Laxmikanth 8th ed. Part 2 p.226-227; Rocket Polity p.68; app notes 2:126 sub 2
+
+=== Functions and Powers
+# Functions (Section 12)
+- **Inquire** into violation of human rights or **negligence by a public servant** – **suo motu**, on a petition by a victim or any person, or on a court order.
+- **Intervene** in court proceedings involving human-rights allegations – **with the court's approval**.
+- **Visit jails** and detention places (State-run institutions too, not "Central only"; since 2006 without intimating the State Govt) and recommend.
+- Review constitutional and legal safeguards and factors **including terrorism**; study international treaties.
+- **Undertake and promote research**; spread **human-rights literacy**; **encourage NGOs** (both "encourages NGOs" and "conducts research" are true).
+# Powers and working
+- **All powers of a civil court** (CPC 1908) – summon, examine on oath, documents, requisition public records; proceedings have a **judicial character**; own investigating staff; may use any Central/State officer or agency.
+- On inquiry it may **recommend** compensation or damages, prosecution, **interim relief**; approach the SC/HC for directions or writs.
+- **Cannot punish** violators or award relief itself; recommendations **not binding**; Government informs action taken within **one month**.
+# Specialised mandates
+| Mandate | Detail |
+|---|---|
+| **Silicosis** | NHRC interventions and a **special report to Parliament** on silicosis |
+| Bonded labour | SC (1997) entrusted monitoring of the Bonded Labour Act 1976 |
+| Custodial deaths | Report to NHRC **within 24 hours**; post-mortem videography; independent investigation |
+| Encounter deaths | Reporting + magisterial inquiry (NHRC guidelines; PUCL v Maharashtra 2014) |
+| Transgender welfare | Advisory 2.0 (May 2026) |
+~~ Sources: Laxmikanth 8th ed. Part 2 p.227-229; Rocket Polity p.69; web: nhrc.nic.in "NHRC Interventions on Silicosis" (search result); app notes 2:126 sub 5
+
+=== Limitations of the Commissions
+| Limitation | Detail |
+|---|---|
+| **Time bar** | **No inquiry after one year** of the alleged act (not two years) |
+| **Armed forces** | Only **seeks a report from the Central Government** and recommends; Centre informs action within **three months** |
+| Purview | Violations by **public servants**; not purely private disputes |
+| Overlap | Not a matter already before an SHRC or another statutory commission |
+| Non-binding | Recommendations advisory – "**toothless tiger**" |
+- **Constraints (NHRC itself):** administrative, financial (grants-in-aid from MHA) and **manpower** shortages; about one lakh complaints a year.
+- **30 Apr 2026:** Allahabad HC said NHRC exceeded its mandate by directing an EOW probe into 558 aided madrasas.
+~~ Sources: Laxmikanth 8th ed. Part 2 p.228-230; app notes 2:126 sub 6
+
+=== State Human Rights Commissions
+- **Optional:** a State Government **may** constitute an SHRC under the PHRA 1993; headquarters as the State notifies.
+| Item | SHRC |
+|---|---|
+| Strength | **Chairperson + two members** (three in all; cut from five in 2006) |
+| Chairperson | Retired **HC Chief Justice or HC Judge** (Judge added 2019) |
+| Members | Serving/retired HC Judge or **District Judge with 7 years'** experience; a human-rights expert |
+| Selection committee (Sec. 22) | **Chief Minister (head)**, Speaker, State Home Minister, LoP in the Assembly; + **Chairman and LoP of the Council** where bicameral |
+| **Appointed by** | **Governor** |
+| **Removed by** | **President only** (same grounds and SC-inquiry procedure as NHRC) |
+| Consultation | Sitting HC Judge or District Judge appointed only after consulting the **Chief Justice of the HC** concerned |
+| Acting Chairperson | **Governor** authorises a member in a vacancy |
+| Resignation | To the **Governor** |
+| **Annual report** | To the **State Government** → laid before the **State Legislature** with a memorandum of action taken |
+- **Jurisdiction:** only **State List and Concurrent List** subjects (not State List alone); does not inquire into a case the NHRC is probing.
+- **UTs:** the Centre may confer UT functions on an SHRC **except Delhi, J&K and Ladakh** – those are with the **NHRC** (2019 amendment + 2020 adaptation orders).
+- **Powers:** like the NHRC – inquires suo motu, visits jails, reviews safeguards; can only **recommend** compensation to the Government; **cannot punish**.
+- **AP SHRC:** constituted by the AP Government; headquarters **Kurnool** (office inaugurated **Sept 2021**, chair Justice **M. Seetharama Murti**); reported without a chairperson since March 2024; **28 Jun 2026:** NHRC sought reports from the **AP SHRC, DGP and Chief Secretary** in the Gade Sai Krishna custodial death.
+> SHRC: appointed by the Governor (5 PYQs), removed by the President, CM heads the committee, report to the State Govt.
+~~ Sources: Laxmikanth 8th ed. Part 2 p.231-234; web: search results on PHRA s.21 (Ladakh adaptation order 2020); app notes 2:126 sub 3, 10
+
+=== Amendments 2006 and 2019; Human Rights Courts; GANHRI
+| Year | Change |
+|---|---|
+| 2006 | NCSC and NCST chairs became deemed members; resignation to President / Governor |
+| 2006 | Jail visits without intimating the State Govt; interim relief during inquiry; complaints transferable to SHRCs |
+| 2006 | SHRC **5 → 3** members |
+| **2019** | **SC Judge** eligible as NHRC Chair; **term 5 → 3 years**; **reappointment** allowed |
+| 2019 | Expert members **2 → 3** (one woman); deemed members **4 → 7**; HC Judge eligible as SHRC Chair; UT functions to SHRCs (not Delhi) |
+- **All three (APPSC Group 1, 2023):** SC Judge can chair, 3-year term, reappointment – **true**.
+- **Human Rights Courts (Sec. 30):** a **Court of Session** in every district (State Govt + **HC Chief Justice's concurrence**); **Special Public Prosecutor (Sec. 31)** – advocate of **7 years**.
+- **NHRC annual report** → Central Govt (and State Govt concerned) → laid before **each House of Parliament** with a memorandum of action taken.
+- **GANHRI** accredits NHRIs (Sub-Committee on Accreditation; **'A' = fully compliant**). **May 2024:** re-accreditation of NHRC-India **deferred** for the second year running.
+~~ Sources: Laxmikanth 8th ed. Part 2 p.233-234; app notes 2:126 sub 8-9
