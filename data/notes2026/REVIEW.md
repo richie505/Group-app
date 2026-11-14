@@ -643,3 +643,9 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Own MCQ n76f243e70d5 TB mortality fall add_option 25%.
 - Disputes: Rx drugs/Schedule H; sickle-cell A-R; ECT minors 2016 Bill vs 2017 Act. Outdated: Ni-kshay Poshan ₹500 → ₹1,000.
 - NHA figures: OOPE 39.4% etc. are 2021-22 (PMF), Rocket labels 2022-23.
+
+## b6-r000 (CA rows 0-1, AP state news)
+- y328318ff1b9 higher education approach → PPP (general knowledge).
+- Sep–Oct 2026 AP items only in old Carpediem notes (Burripalem 3D houses, Omnibus Act, Swarna Gramam, AP One, Swachh Andhra Awards, SNA-SPARSH).
+- Own MCQ ca72e70293de93 "SERP HQ Gollapudi" distractor weak (Gollapudi is in Vijayawada).
+- Rocket CA 2026 has almost no AP state news.
