@@ -1134,3 +1134,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Dakhili: notes 133:2:0.1 "paid by the state" vs PYQ y0ae69864b66 "not paid directly by the state" — check key (standard: Dakhili recruited and paid by the state).
 - "Makhfi" pen name given to Nur Jahan (131:0:11) and Zeb-un-Nissa (136:0:0.4) — both are attested; add note to avoid confusion.
 - Disputed lines: 133:0:2 (mansabdari purpose), 135:3:0 (marketed share 15% vs 25%).
+
+## rewrite b6-w052 (rows 52–54)
+- own 399 → 77 kept + 83 new (160, 40%); new 55 statements / 19 match / 9 A–R; 2 of 245 lines lost.
+- Notes conflict: STI ministers' outcome "Chennai Consensus" (row 52) vs "Chennai Declaration" (row 53); kept own g2d98a3c66484 says "Chennai Consensus" — reconcile.
+- FATF membership 38+EC+GCC=40 (row 52) / 40 with Indonesia (row 54); gfb040bb90acd ("39") removed — harmonise.
