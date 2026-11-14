@@ -48,7 +48,7 @@
 # Key facts of agencies
 | Agency | Key fact |
 |---|---|
-| ITU (1865) | Oldest UN agency; 194 members; India joined 1869; holds the World Telecommunication Development Conference every four years |
+| ITU (1865) | Oldest UN agency; 193 member states; India joined 1869; holds the World Telecommunication Development Conference every four years |
 | UNESCO (1945) | 194 members + 12 associate members; **58-member** Executive Board |
 | ICAO (1944) | Created by the Chicago Convention; 193 members; **36-member Council**; HQ Montreal |
 | IMF | Bretton Woods, 1944; formal existence **27 Dec 1945** (29 members); operations from 1 Mar 1947 |

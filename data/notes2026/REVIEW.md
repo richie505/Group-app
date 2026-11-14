@@ -1180,3 +1180,12 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w058 (rows 58–61)
 - own 434 → 99 kept + 103 new (202, 47%); new 71 statements / 21 match / 11 A–R; no lines lost. No wrong notes/keys.
 - Kept ca1ed962d9d02c linked to 61:0:15, fact is on 61:0:12 — link cleanup.
+
+## rewrite b6-w062 (rows 62–64)
+- own 414 → 96 kept + 110 new (206, 50%); new 76 statements / 23 match / 11 A–R; no lines lost.
+- Notes FIXED: row 63 ITU "194 members" → 193 member states.
+- To check: Cabo Verde "43rd" malaria-free (63:6:1.0); e-commerce moratorium lapse 30 vs 31 March (62:0:1.2); BRICS "10 full members" vs Saudi caveat (63:1:1.0).
+
+## rewrite b1-w148 (rows 148–155)
+- own 421 → 88 kept + 79 new (167, 40%); new 42 statements / 19 match / 18 A–R; 1 of 240 lines lost.
+- Wrong own keys removed: n0e997729db9 (Venkatapati Raya II; notes III); f5a52d3f208b3 (Fort Geldria "only Dutch fort", contradicted by notes).
