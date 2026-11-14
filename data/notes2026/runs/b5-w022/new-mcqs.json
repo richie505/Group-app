@@ -253,5 +253,155 @@
   "x": "Two are correct (1 and 3). 2 is wrong: it was a Singapore delegation that studied the RTGS Data Lake (Jul 2026).",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp1d9d7c28f7f3",
+  "row": 23,
+  "s": "Consider the following statements about the National Policy on Information Technology (NPIT), 2012:\n1. It aimed to make India the Global Hub and Destination for IT and ITES services by 2020.\n2. In 2011-12, six hubs accounted for about 90% of the IT industry and about 80% of its revenue came from exports.\n3. It sought to concentrate IT activity further in the six established hubs.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: the six hubs (Bengaluru, Chennai, Hyderabad, Mumbai, Pune, NCR) were near saturation, so NPIT 2012 aimed to spread IT to Tier II and Tier III cities and rural areas.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3a044e4c6642",
+  "row": 23,
+  "s": "Match List-I (NPIT 2012 target area) with List-II (Target by 2020):\nList-I | List-II\na. IT-ITES revenue | i. US$ 200 billion\nb. IT exports | ii. 10 million more trained ICT workers\nc. Skilled manpower | iii. One e-literate person in every household\nd. e-literacy | iv. US$ 300 billion\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-i, c-ii, d-iii",
+   "a-iii, b-i, c-ii, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 0,
+  "x": "NPIT 2012 targets (all by 2020): revenue US$ 100 bn → 300 bn; exports US$ 69 bn → 200 bn; 10 million more trained ICT workers; one e-literate person in every household. Trap: $300 bn is revenue, $200 bn is exports.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp31e0326b3233",
+  "row": 23,
+  "s": "Consider the following statements:\nAssertion (A): The targets of NPIT 2012, such as 10 million more trained ICT workers, were to be achieved by 2025.\nReason (R): NPIT 2012 aimed to make India the Global Hub and Destination for IT and ITES services by 2020.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: all NPIT 2012 targets (including 10 million more trained ICT workers) had a 2020 deadline, not 2025. R is true: the twin goal was ICT within reach of all and India as the global IT-ITES hub by 2020.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp526297924c62",
+  "row": 23,
+  "s": "Consider the following statements about India's IT milestones:\n1. C-DAC was set up at Pune in 1988 to build the PARAM supercomputer, and PARAM 8000 came in 1991.\n2. The National Task Force on IT and Software Development was set up in 1998.\n3. The IT Act, 2000, which gave legal basis to e-records and digital signatures, was amended in 2006.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Two are correct (1 and 2). 3 is wrong: the IT Act, 2000 was amended in 2008; 2006 is the year of NeGP.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9e38466dd062",
+  "row": 23,
+  "s": "Match List-I (Institution) with List-II (Role):\nList-I | List-II\na. STPI | i. IT-BPM industry association\nb. C-DAC | ii. Export-oriented IT parks and CoEs\nc. NIELIT | iii. PARAM supercomputers and the C2S programme\nd. NASSCOM | iv. Deemed university for IT and electronics training\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 3,
+  "x": "STPI – export-oriented IT parks and CoEs (not the government IT network, which is NIC); C-DAC – PARAM, C2S, Amaravati Quantum Valley centre; NIELIT – deemed university under MeitY; NASSCOM – IT-BPM industry association.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp865cabe73c41",
+  "row": 23,
+  "s": "Consider the following statements about the National Policy on Electronics (NPE), 2019:\n1. It was approved on 20 February 2019.\n2. It aims to make India a global hub for ESDM, including chipsets.\n3. Under it, the SPECS scheme supports electronics clusters and common facility centres.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3",
+   "1 and 3 only"
+  ],
+  "a": 1,
+  "x": "3 is the incorrect statement: SPECS supports electronic components and semiconductors; electronics clusters and common facility centres are supported by EMC 2.0 (notified 1 April 2020). 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpaeb22fed8374",
+  "row": 23,
+  "s": "Consider the following statements:\n1. The Mobile Phone Manufacturing Scheme (MPMS) of August 2026 has an outlay of ₹62,500 crore for FY 2026-27 to 2030-31.\n2. MPMS replaces the PLI scheme for Large Scale Electronics.\n3. NPE 2019 targets US$ 400 billion of electronics manufacturing and 1 billion mobile handsets a year by 2025.\n4. MPMS targets production of ₹15 lakh crore.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Three are correct (1, 2, 3). 4 is wrong: MPMS targets production of ₹39 lakh crore; ₹15 lakh crore is its export target.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpab9103461c84",
+  "row": 23,
+  "s": "Consider the following statements about the India Semiconductor Mission:\n1. The Chips to Start-up (C2S) programme (2022) is implemented by NIELIT.\n2. C2S aims to train 85,000 students over five years.\n3. Under Semicon 2.0, CMOS silicon fabs get up to 40% capital subsidy.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 1,
+  "x": "2 and 3 are correct. 1 is wrong: C2S is implemented by C-DAC, not NIELIT. Semicon 2.0 pillars are Fabs, Packaging, R&D, Design and Machines/Materials.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp63fa303d9083",
+  "row": 23,
+  "s": "Match List-I (Company / project) with List-II (Location):\nList-I | List-II\na. Micron (ATMP) | i. Jagiroad, Assam\nb. Tata – TSAT (OSAT) | ii. Sri Sathya Sai district, AP\nc. RRP Electronics (semiconductor + OSAT) | iii. Visakhapatnam\nd. Infosys campus (~7,000 jobs) | iv. Sanand, Gujarat\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 3,
+  "x": "Micron ATMP – Sanand, Gujarat; Tata (TSAT) OSAT – Jagiroad, Assam; RRP Electronics – Sri Sathya Sai district, AP; Infosys campus with about 7,000 jobs – Visakhapatnam.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpecd957ee9abe",
+  "row": 23,
+  "s": "Consider the following statements:\n1. Electronics is India's largest export item.\n2. AP IT & GCC Policy 4.0 (2024-29) came into force on 12 December 2024, and AP's Data Centre Policy targets up to 1 GW.\n3. Visakhapatnam has a cable landing station and an upcoming Infosys campus.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "3 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: electronics is India's 3rd-largest export item; production was ₹13.11 lakh crore in 2025-26.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
